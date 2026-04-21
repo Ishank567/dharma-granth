@@ -1,7 +1,7 @@
 import path from 'path';
 import fs from 'fs';
 import Database from 'better-sqlite3';
-import { GoogleGenerativeAI } from '@google/generative-ai';
+import { GoogleGenerativeAI, type GenerativeModel } from '@google/generative-ai';
 import {
   normalizeInterpretationPayload,
   InterpretationValidationError,
@@ -63,7 +63,7 @@ interface Lane {
   id: string;
   key: string;
   model: string;
-  genModel: ReturnType<ReturnType<typeof GoogleGenerativeAI.prototype.getGenerativeModel>['generateContent']> extends Promise<infer R> ? never : ReturnType<InstanceType<typeof GoogleGenerativeAI>['getGenerativeModel']>;
+  genModel: GenerativeModel;
   timestamps: number[];
   alive: boolean;
 }
