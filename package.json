@@ -1,0 +1,49 @@
+{
+  "name": "dharma-granth",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev:clean": "node -e \"fs.rmSync('.next',{recursive:true,force:true})\" && next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "extract": "tsx scripts/extract-pdfs.ts",
+    "ocr": "tsx scripts/ocr-extract.ts",
+    "regenerate:interpretations": "tsx scripts/regenerate-interpretations.ts",
+    "verify:interpretation": "tsx scripts/verify-interpretation-flow.ts",
+    "ci:smoke": "npm run build && npm run verify:interpretation -- --skip-api"
+  },
+  "dependencies": {
+    "@google-cloud/vertexai": "^1.10.3",
+    "@google-cloud/vision": "^5.3.5",
+    "@google/genai": "^1.47.0",
+    "@google/generative-ai": "^0.24.1",
+    "better-sqlite3": "^12.8.0",
+    "google-auth-library": "^10.6.2",
+    "lucide-react": "^1.7.0",
+    "mupdf": "^1.27.0",
+    "next": "16.2.1",
+    "next-themes": "^0.4.6",
+    "pdf-parse": "^2.4.5",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "tesseract.js": "^7.0.0"
+  },
+  "devDependencies": {
+    "@google-cloud/aiplatform": "^6.5.0",
+    "@google-cloud/storage": "^7.19.0",
+    "@tailwindcss/postcss": "^4",
+    "@tailwindcss/typography": "^0.5.19",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^20",
+    "@types/pdf-parse": "^1.1.5",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.1",
+    "tailwindcss": "^4",
+    "tsx": "^4.21.0",
+    "typescript": "^5"
+  }
+}
