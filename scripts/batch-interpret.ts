@@ -74,6 +74,11 @@ function buildLanes(): Lane[] {
     process.env.GOOGLE_GEMINI_API_KEY_3,
     process.env.GOOGLE_GEMINI_API_KEY_4,
     process.env.GOOGLE_GEMINI_API_KEY_5,
+    process.env.GOOGLE_GEMINI_API_KEY_6,
+    process.env.GOOGLE_GEMINI_API_KEY_7,
+    process.env.GOOGLE_GEMINI_API_KEY_8,
+    process.env.GOOGLE_GEMINI_API_KEY_9,
+    process.env.GOOGLE_GEMINI_API_KEY_10,
   ].filter(Boolean) as string[];
 
   const models = ['gemini-3-flash-preview', 'gemini-2.5-flash'];
