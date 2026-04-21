@@ -405,21 +405,21 @@ export default function InterpretationPanel({ verseId, initialInterpretation, ne
 
       {/* ── 1. शब्दार्थ (Word-by-Word) ── */}
       <SectionCard icon="📝" title="शब्दार्थ — पद-विभाग" color="amber" stepNumber={1}>
-        <div className="whitespace-pre-wrap text-sm leading-loose">
+        <div className="whitespace-pre-wrap text-base leading-[2]">
           <RichText text={currentInterpretation.shabdarth} />
         </div>
       </SectionCard>
 
       {/* ── 2. भावार्थ ── */}
       <SectionCard icon="🪷" title="गहन भावार्थ" color="emerald" stepNumber={2}>
-        <p className="whitespace-pre-wrap text-sm">{currentInterpretation.bhavarth}</p>
+        <p className="whitespace-pre-wrap text-base leading-relaxed">{currentInterpretation.bhavarth}</p>
       </SectionCard>
 
       {/* ── 3. सरल दृश्य (उदाहरण) ── */}
       {simpleExampleText && (
         <SectionCard icon="💡" title="समझें एक सरल उदाहरण से" color="sky" stepNumber={3}>
           <div className="rounded-xl bg-white/50 dark:bg-white/5 border border-sky-200/50 dark:border-sky-700/30 p-4">
-            <p className="whitespace-pre-wrap text-sm italic">{simpleExampleText}</p>
+            <p className="whitespace-pre-wrap text-base leading-relaxed italic">{simpleExampleText}</p>
           </div>
         </SectionCard>
       )}
@@ -432,7 +432,7 @@ export default function InterpretationPanel({ verseId, initialInterpretation, ne
               <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-violet-500/10 text-xs font-bold text-violet-700 dark:text-violet-300 mt-0.5">
                 {i + 1}
               </span>
-              <p className="text-sm">{step}</p>
+              <p className="text-base leading-relaxed">{step}</p>
             </div>
           ))}
         </div>
@@ -440,13 +440,13 @@ export default function InterpretationPanel({ verseId, initialInterpretation, ne
 
       {/* ── 5. वैज्ञानिक दृष्टि ── */}
       <SectionCard icon="🔬" title="वैज्ञानिक दृष्टि और तर्कशीलता" color="teal" stepNumber={simpleExampleText ? 5 : 4}>
-        <p className="whitespace-pre-wrap text-sm">{scientificTemperamentText}</p>
+        <p className="whitespace-pre-wrap text-base leading-relaxed">{scientificTemperamentText}</p>
       </SectionCard>
 
       {/* ── 6. जीवन-साधना ── */}
       <SectionCard icon="🌱" title="जीवन-साधना — आज का अभ्यास" color="orange" stepNumber={simpleExampleText ? 6 : 5}>
         <div className="rounded-xl bg-orange-50/50 dark:bg-orange-950/20 border border-orange-200/50 dark:border-orange-700/30 p-4">
-          <p className="whitespace-pre-wrap text-sm">{currentInterpretation.modern_relevance}</p>
+          <p className="whitespace-pre-wrap text-base leading-relaxed">{currentInterpretation.modern_relevance}</p>
         </div>
       </SectionCard>
 
@@ -455,7 +455,7 @@ export default function InterpretationPanel({ verseId, initialInterpretation, ne
         <div className="rounded-2xl border-2 border-accent/30 bg-gradient-to-br from-accent/5 via-card to-accent-bg/30 p-6 text-center">
           <div className="text-3xl mb-3">🚀</div>
           {nextCuriosityText && (
-            <p className="text-sm text-foreground/90 leading-relaxed mb-4 max-w-lg mx-auto font-serif-deva">
+            <p className="text-base text-foreground/90 leading-relaxed mb-4 max-w-lg mx-auto font-serif-deva">
               {nextCuriosityText}
             </p>
           )}
