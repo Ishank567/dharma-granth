@@ -42,6 +42,8 @@ next-env.d.ts
 
 # large binary data
 /db/*.db
+/db/*.db-shm
+/db/*.db-wal
 /db/*.json
 /db/*.txt
 /db/vertex-batch/

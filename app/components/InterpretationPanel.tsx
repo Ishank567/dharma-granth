@@ -21,7 +21,7 @@ type DebugMode = 'force-offline' | 'force-ai-upgrade';
 
 type ResponseMeta = Pick<InterpretationApiResponse, 'status' | 'fallbackReason'>;
 
-const isDevelopment = process.env.NODE_ENV !== 'production';
+const isDevelopment = false; // Hide by default even in dev for cleaner UI
 
 const fallbackReasonCopy: Record<InterpretationFallbackReason, string> = {
   missing_api_key: 'एआई सेवा अभी कॉन्फ़िगर नहीं है, इसलिए स्थानीय अध्ययन व्याख्या दिखाई जा रही है।',
@@ -190,12 +190,11 @@ export default function InterpretationPanel({ verseId, initialInterpretation, ne
             <div className="rounded-lg border border-border bg-card px-3 py-2">
               <p className="text-[10px] font-semibold uppercase tracking-wide text-muted-light">Source</p>
               <p className="text-sm font-medium text-foreground flex items-center gap-1.5">
-                <span className={`inline-block size-1.5 rounded-full ${
-                  interpretation?.source === 'ai' ? 'bg-emerald-500'
+                <span className={`inline-block size-1.5 rounded-full ${interpretation?.source === 'ai' ? 'bg-emerald-500'
                     : interpretation?.source === 'manual' ? 'bg-sky-500'
-                    : interpretation?.source === 'offline' ? 'bg-amber-500'
-                    : 'bg-zinc-300'
-                }`} />
+                      : interpretation?.source === 'offline' ? 'bg-amber-500'
+                        : 'bg-zinc-300'
+                  }`} />
                 {interpretation?.source ?? 'none'}
               </p>
             </div>
@@ -284,7 +283,7 @@ export default function InterpretationPanel({ verseId, initialInterpretation, ne
         ? 'पहले दिखाई जा रही स्थानीय व्याख्या अब समृद्ध एआई व्याख्या से बदल दी गई है।'
         : responseMeta?.status === 'generated'
           ? 'यह व्याख्या अभी तैयार की गई है।'
-          : 'यह व्याख्या एआई की सहायता से तैयार की गई है।'
+          : 'यह व्याख्या एआई एवं मानव की सहायता से तैयार की गई है।'
       : interpretation.source === 'manual'
         ? 'यह व्याख्या पाठ्यक्रम-संदर्भ से तैयार की गई है।'
         : requestState === 'upgrading'
@@ -366,9 +365,8 @@ export default function InterpretationPanel({ verseId, initialInterpretation, ne
       <div className={`rounded-xl border p-3 ${sourceToneClass}`}>
         <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex items-center gap-2">
-            <span className={`inline-block size-2 rounded-full ${
-              currentInterpretation.source === 'ai' ? 'bg-emerald-500' : currentInterpretation.source === 'manual' ? 'bg-sky-500' : 'bg-amber-500'
-            }`} />
+            <span className={`inline-block size-2 rounded-full ${currentInterpretation.source === 'ai' ? 'bg-emerald-500' : currentInterpretation.source === 'manual' ? 'bg-sky-500' : 'bg-amber-500'
+              }`} />
             <p className="text-xs font-semibold uppercase tracking-wide opacity-80">
               {statusBadge}
             </p>

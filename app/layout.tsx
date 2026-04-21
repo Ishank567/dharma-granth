@@ -21,7 +21,14 @@ const notoSans = Noto_Sans_Devanagari({
 export const metadata: Metadata = {
   title: "धर्म ग्रंथ — सनातन धर्म के पवित्र ग्रंथ",
   description:
-    "वेद, उपनिषद, गीता, पुराण और भक्ति ग्रंथों को पढ़ें — हिन्दी व्याख्या के साथ",
+    "वेद, उपनिषद, गीता, पुराण और भक्ति ग्रंथों को पढ़ें — 63,800+ श्लोकों की गहन हिन्दी व्याख्या के साथ",
+  keywords: ["धर्म ग्रंथ", "वेद", "उपनिषद", "गीता", "पुराण", "संस्कृत", "हिन्दी व्याख्या", "सनातन धर्म"],
+  openGraph: {
+    title: "धर्म ग्रंथ — सनातन धर्म के पवित्र ग्रंथ",
+    description: "66 ग्रंथों के 63,800+ श्लोकों की गहन हिन्दी व्याख्या — शब्दार्थ, भावार्थ, वैज्ञानिक दृष्टि और जीवन-साधना",
+    type: "website",
+    locale: "hi_IN",
+  },
 };
 
 export default function RootLayout({
@@ -45,9 +52,27 @@ export default function RootLayout({
         <ThemeProvider>
           <Header />
           <main id="main" className="flex-1">{children}</main>
-          <footer className="border-t border-border py-6 text-center text-sm text-muted">
-            <p>🙏 धर्म ग्रंथ — सनातन धर्म के पवित्र ग्रंथों का संग्रह</p>
-            <p className="mt-1 text-xs">सर्वे भवन्तु सुखिनः सर्वे सन्तु निरामयाः</p>
+          <footer className="relative mt-16">
+            <div className="footer-glow" />
+            <div className="py-10 text-center">
+              <p className="text-2xl mb-3 animate-float">🙏</p>
+              <p className="font-serif-deva text-lg font-bold text-foreground/80">
+                धर्म ग्रंथ
+              </p>
+              <p className="text-sm text-muted mt-1">
+                सनातन धर्म के पवित्र ग्रंथों का डिजिटल संग्रह
+              </p>
+              <p className="font-scripture text-xs text-muted-light mt-3 italic">
+                सर्वे भवन्तु सुखिनः सर्वे सन्तु निरामयाः
+              </p>
+              <div className="mt-4 flex items-center justify-center gap-4 text-xs text-muted-light">
+                <span>66 ग्रंथ</span>
+                <span className="text-accent/40">•</span>
+                <span>63,800+ श्लोक</span>
+                <span className="text-accent/40">•</span>
+                <span>सम्पूर्ण हिन्दी व्याख्या</span>
+              </div>
+            </div>
           </footer>
         </ThemeProvider>
       </body>

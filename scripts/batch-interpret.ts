@@ -22,9 +22,10 @@ const BOOK_FILTER = process.argv.find(a => a.startsWith('--book='))?.split('=')[
 const BOOKS_FILTER = process.argv.find(a => a.startsWith('--books='))?.split('=')[1]; // comma-separated IDs
 const SKIP_EXISTING = process.argv.includes('--skip-existing');
 const DRY_RUN = process.argv.includes('--dry-run');
-const LANE_RPM = 12; // RPM per lane (conservative, free tier = 15, reduced for 403/429 errors)
-const MAX_RETRIES_PER_VERSE = 3;
-const RETRY_BACKOFF_MS = [5000, 15000, 45000]; // Progressive backoff for retries
+const MAX_LANES = Number(process.argv.find(a => a.startsWith('--max-lanes='))?.split('=')[1] || 0);
+const LANE_RPM = 2; // RPM per lane — very conservative to avoid 429s across many lanes
+const MAX_RETRIES_PER_VERSE = 5;
+const RETRY_BACKOFF_MS = [10000, 30000, 60000, 90000, 120000]; // Progressive backoff for retries
 
 const DB_PATH = path.join(PROJECT_ROOT, 'db', 'dharma.db');
 const CHECKPOINT_PATH = path.join(PROJECT_ROOT, 'db', 'batch-interpret-checkpoint.json');
@@ -78,10 +79,12 @@ function buildLanes(): Lane[] {
     process.env.GOOGLE_GEMINI_API_KEY_7,
     process.env.GOOGLE_GEMINI_API_KEY_8,
     process.env.GOOGLE_GEMINI_API_KEY_9,
-    process.env.GOOGLE_GEMINI_API_KEY_10,
+    // K10 skipped — project denied access (403)
   ].filter(Boolean) as string[];
 
-  const models = ['gemini-3-flash-preview', 'gemini-2.5-flash'];
+  // Both models — free-tier quotas are per-(project, model), so each key gets
+  // separate RPD quotas per model. Using both doubles effective throughput.
+  const models = ['gemini-2.5-flash'];
   const lanes: Lane[] = [];
 
   for (const [ki, key] of keys.entries()) {
@@ -96,7 +99,8 @@ function buildLanes(): Lane[] {
       });
     }
   }
-  return lanes;
+  const result = MAX_LANES > 0 ? lanes.slice(0, MAX_LANES) : lanes;
+  return result;
 }
 
 async function waitForLaneRateLimit(lane: Lane) {
@@ -226,16 +230,24 @@ async function main() {
   const checkpoint = loadCheckpoint();
   const completedSet = new Set(checkpoint.completedVerseIds);
 
-  // Probe which lanes actually work
+  // Probe which lanes actually work (stagger probes to avoid rate-limiting)
   log('🔍 Probing lanes...');
   for (const lane of lanes) {
     try {
       await lane.genModel.generateContent('Say hi');
       log(`  ✅ ${lane.id}: OK`);
-    } catch {
-      lane.alive = false;
-      log(`  ❌ ${lane.id}: unavailable`);
+    } catch (err) {
+      const msg = err instanceof Error ? err.message : String(err);
+      const isRateLimit = msg.includes('429') || msg.includes('Too many requests') || msg.includes('quota');
+      if (isRateLimit) {
+        // Rate-limited during probe → assume lane is alive to avoid false negatives
+        log(`  ⚠️  ${lane.id}: rate-limited during probe, assuming alive`);
+      } else {
+        lane.alive = false;
+        log(`  ❌ ${lane.id}: unavailable (${msg.substring(0, 60)})`);
+      }
     }
+    await sleep(400); // stagger probes to avoid exhausting RPM
   }
   const activeLanes = lanes.filter(l => l.alive);
   if (activeLanes.length === 0) {
@@ -382,31 +394,34 @@ async function main() {
           const isServerError = msg.includes('403') || msg.includes('404') || msg.includes('500');
           const isJsonError = msg.includes('JSON') || msg.includes('parse');
           
-          // Rate limit: aggressive backoff
+          // Rate limit: aggressive backoff with jitter
           if (isRateLimit && retries < MAX_RETRIES_PER_VERSE) {
-            const backoff = RETRY_BACKOFF_MS[Math.min(retries, RETRY_BACKOFF_MS.length - 1)];
-            log(`  ⏳ [${lane.id}] Rate limited (429) on verse ${verse.id}, retry ${retries + 1}/${MAX_RETRIES_PER_VERSE} in ${backoff / 1000}s...`);
-            await sleep(backoff);
+            const backoff = RETRY_BACKOFF_MS[Math.min(retries, RETRY_BACKOFF_MS.length - 1)]!;
+            const jitter = Math.floor(Math.random() * 5000);
+            log(`  ⏳ [${lane.id}] Rate limited (429) on verse ${verse.id}, retry ${retries + 1}/${MAX_RETRIES_PER_VERSE} in ${Math.ceil((backoff + jitter) / 1000)}s...`);
+            await sleep(backoff + jitter);
             retries++;
             continue;
           }
-          // Server errors (403, 404, 500): skip after 1 retry
-          if (isServerError && retries === 0) {
-            log(`  ⏳ [${lane.id}] Server error (${msg.substring(0, 50)}) on verse ${verse.id}, retry 1/${MAX_RETRIES_PER_VERSE}...`);
-            await sleep(3000);
+          // Server errors (403, 404, 500): retry with backoff
+          if (isServerError && retries < 2) {
+            const backoff = RETRY_BACKOFF_MS[Math.min(retries, RETRY_BACKOFF_MS.length - 1)]!;
+            log(`  ⏳ [${lane.id}] Server error on verse ${verse.id}, retry ${retries + 1}/${MAX_RETRIES_PER_VERSE} in ${backoff / 1000}s...`);
+            await sleep(backoff);
             retries++;
             continue;
           }
           // Quota errors: wait longer
-          if (isQuotaError && retries < 2) {
-            const backoff = RETRY_BACKOFF_MS[Math.min(retries + 1, RETRY_BACKOFF_MS.length - 1)];
-            log(`  ⏳ [${lane.id}] Quota error on verse ${verse.id}, retry ${retries + 1}/${MAX_RETRIES_PER_VERSE} in ${backoff / 1000}s...`);
-            await sleep(backoff);
+          if (isQuotaError && retries < MAX_RETRIES_PER_VERSE) {
+            const backoff = RETRY_BACKOFF_MS[Math.min(retries + 1, RETRY_BACKOFF_MS.length - 1)]!;
+            const jitter = Math.floor(Math.random() * 10000);
+            log(`  ⏳ [${lane.id}] Quota error on verse ${verse.id}, retry ${retries + 1}/${MAX_RETRIES_PER_VERSE} in ${Math.ceil((backoff + jitter) / 1000)}s...`);
+            await sleep(backoff + jitter);
             retries++;
             continue;
           }
-          // JSON parse errors: retry once
-          if (isJsonError && retries < 1) {
+          // JSON parse errors: retry up to 2 times
+          if (isJsonError && retries < 2) {
             log(`  ⏳ [${lane.id}] JSON parse error on verse ${verse.id}, retry ${retries + 1}/${MAX_RETRIES_PER_VERSE}...`);
             await waitForLaneRateLimit(lane);
             retries++;
@@ -439,9 +454,11 @@ async function main() {
     log(`  🏁 [${lane.id}] Lane finished: ${laneGenerated} generated`);
   }
 
-  // Run all lanes in parallel
-  log(`\n🏎️  Starting ${activeLanes.length} parallel lanes...\n`);
-  await Promise.all(activeLanes.map(lane => laneWorker(lane)));
+  // Run all lanes in parallel, staggered to avoid t=0 burst
+  log(`\n🏎️  Starting ${activeLanes.length} parallel lanes (staggered 7s)...\n`);
+  await Promise.all(activeLanes.map((lane, i) =>
+    sleep(i * 7000).then(() => laneWorker(lane))
+  ));
 
   const elapsed = (Date.now() - startTime) / 1000;
   log('\n' + '━'.repeat(60));

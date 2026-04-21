@@ -26,8 +26,12 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-[var(--gradient-hero)] py-20 px-4 text-center text-white">
         <div className="absolute inset-0 bg-black/20" />
+        {/* Decorative floating elements */}
+        <div className="absolute top-10 left-[10%] text-4xl opacity-20 animate-float" style={{ animationDelay: '0s' }}>🙏</div>
+        <div className="absolute top-20 right-[15%] text-3xl opacity-15 animate-float" style={{ animationDelay: '1.5s' }}>📿</div>
+        <div className="absolute bottom-10 left-[20%] text-3xl opacity-15 animate-float" style={{ animationDelay: '3s' }}>🪔</div>
         <div className="relative mx-auto max-w-4xl">
-          <div className="text-6xl mb-6">🕉️</div>
+          <div className="text-6xl mb-6 animate-float">🕉️</div>
           <h1 className="font-serif-deva text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg">
             धर्म ग्रंथ
           </h1>
@@ -41,29 +45,37 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Stats */}
+      {/* Stats - Enhanced */}
       {stats.books > 0 && (
-        <section className="border-b border-border bg-card py-6">
+        <section className="border-b border-border bg-card py-8">
           <div className="mx-auto max-w-7xl px-4">
             <div className="flex justify-center gap-8 md:gap-16 text-center">
-              <div>
-                <div className="text-2xl font-bold text-accent">{stats.categories}</div>
-                <div className="text-xs text-muted">श्रेणियाँ</div>
+              <div className="animate-count" style={{ animationDelay: '0.1s' }}>
+                <div className="text-3xl font-bold text-gradient">{stats.categories}</div>
+                <div className="text-xs text-muted mt-1">श्रेणियाँ</div>
               </div>
-              <div>
-                <div className="text-2xl font-bold text-accent">{stats.books}</div>
-                <div className="text-xs text-muted">ग्रंथ</div>
+              <div className="h-12 w-px bg-border" />
+              <div className="animate-count" style={{ animationDelay: '0.2s' }}>
+                <div className="text-3xl font-bold text-gradient">{stats.books}</div>
+                <div className="text-xs text-muted mt-1">ग्रंथ</div>
               </div>
-              <div>
-                <div className="text-2xl font-bold text-accent">{stats.verses.toLocaleString('hi-IN')}</div>
-                <div className="text-xs text-muted">श्लोक/पाठ</div>
+              <div className="h-12 w-px bg-border" />
+              <div className="animate-count" style={{ animationDelay: '0.3s' }}>
+                <div className="text-3xl font-bold text-gradient">{stats.verses.toLocaleString('hi-IN')}</div>
+                <div className="text-xs text-muted mt-1">श्लोक/पाठ</div>
+              </div>
+              <div className="h-12 w-px bg-border hidden md:block" />
+              <div className="animate-count hidden md:block" style={{ animationDelay: '0.4s' }}>
+                <div className="text-3xl font-bold text-gradient">100%</div>
+                <div className="text-xs text-muted mt-1">व्याख्या सम्पूर्ण</div>
               </div>
             </div>
           </div>
         </section>
       )}
 
-      <section className="mx-auto max-w-7xl px-4 py-12">
+      {/* Study Method Section */}
+      <section className="mx-auto max-w-7xl px-4 py-12 animate-fade-in">
         <div className="rounded-[2rem] border border-border bg-card p-8 md:p-10">
           <div className="max-w-3xl">
             <h2 className="font-serif-deva text-3xl font-bold text-foreground mb-3">
@@ -75,38 +87,34 @@ export default function HomePage() {
           </div>
 
           <div className="mt-8 grid gap-4 md:grid-cols-4">
-            <div className="rounded-2xl border border-border bg-background/70 p-5">
-              <p className="text-2xl mb-3">📖</p>
-              <h3 className="font-semibold text-foreground mb-2">शांत पाठ</h3>
-              <p className="text-sm text-muted">पहले श्लोक को धैर्य से पढ़ें और मुख्य शब्दों पर ध्यान दें।</p>
-            </div>
-            <div className="rounded-2xl border border-border bg-background/70 p-5">
-              <p className="text-2xl mb-3">🪷</p>
-              <h3 className="font-semibold text-foreground mb-2">गहन अर्थ</h3>
-              <p className="text-sm text-muted">भावार्थ के माध्यम से दर्शन, मन और साधना की परतें खुलेंगी।</p>
-            </div>
-            <div className="rounded-2xl border border-border bg-background/70 p-5">
-              <p className="text-2xl mb-3">🔬</p>
-              <h3 className="font-semibold text-foreground mb-2">वैज्ञानिक दृष्टि</h3>
-              <p className="text-sm text-muted">तर्क, अनुभव, मनोविज्ञान और व्यवहार की कसौटी पर विचारों को परखें।</p>
-            </div>
-            <div className="rounded-2xl border border-border bg-background/70 p-5">
-              <p className="text-2xl mb-3">🌱</p>
-              <h3 className="font-semibold text-foreground mb-2">जीवन-अभ्यास</h3>
-              <p className="text-sm text-muted">हर अध्ययन के बाद एक छोटा अभ्यास चुनें और दिन भर उसका निरीक्षण करें।</p>
-            </div>
+            {[
+              { icon: '📖', title: 'शांत पाठ', desc: 'पहले श्लोक को धैर्य से पढ़ें और मुख्य शब्दों पर ध्यान दें।' },
+              { icon: '🪷', title: 'गहन अर्थ', desc: 'भावार्थ के माध्यम से दर्शन, मन और साधना की परतें खुलेंगी।' },
+              { icon: '🔬', title: 'वैज्ञानिक दृष्टि', desc: 'तर्क, अनुभव, मनोविज्ञान और व्यवहार की कसौटी पर विचारों को परखें।' },
+              { icon: '🌱', title: 'जीवन-अभ्यास', desc: 'हर अध्ययन के बाद एक छोटा अभ्यास चुनें और दिन भर उसका निरीक्षण करें।' },
+            ].map((item, i) => (
+              <div
+                key={item.title}
+                className="rounded-2xl border border-border bg-background/70 p-5 transition-all duration-300 hover:border-accent/20 hover:shadow-md animate-fade-in"
+                style={{ animationDelay: `${0.1 + i * 0.1}s` }}
+              >
+                <p className="text-2xl mb-3">{item.icon}</p>
+                <h3 className="font-semibold text-foreground mb-2">{item.title}</h3>
+                <p className="text-sm text-muted">{item.desc}</p>
+              </div>
+            ))}
           </div>
 
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
               href="/courses"
-              className="inline-flex items-center gap-2 rounded-xl bg-accent px-5 py-3 text-sm font-semibold text-white hover:bg-accent/90 transition-colors"
+              className="inline-flex items-center gap-2 rounded-xl bg-accent px-5 py-3 text-sm font-semibold text-white hover:bg-accent/90 transition-all hover:shadow-lg active:scale-[0.98]"
             >
               🧭 अध्यायवार अध्ययन पथ खोलें
             </Link>
             <Link
               href="/categories/bhakti/ramcharitmanas"
-              className="inline-flex items-center gap-2 rounded-xl border border-border bg-background/70 px-5 py-3 text-sm font-semibold text-foreground hover:bg-card-hover transition-colors"
+              className="inline-flex items-center gap-2 rounded-xl border border-border bg-background/70 px-5 py-3 text-sm font-semibold text-foreground hover:bg-card-hover transition-all"
             >
               📘 रामचरितमानस से अध्ययन शुरू करें
             </Link>
@@ -129,8 +137,10 @@ export default function HomePage() {
 
         {categories.length > 0 ? (
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {categories.map((cat) => (
-              <CategoryCard key={cat.id} category={cat} />
+            {categories.map((cat, i) => (
+              <div key={cat.id} className="animate-fade-in" style={{ animationDelay: `${i * 0.05}s` }}>
+                <CategoryCard category={cat} />
+              </div>
             ))}
           </div>
         ) : (
@@ -149,14 +159,14 @@ export default function HomePage() {
 
       {/* Verse of the Day */}
       {verseOfDay && (
-        <section className="mx-auto max-w-3xl px-4 pb-16">
+        <section className="mx-auto max-w-3xl px-4 pb-16 animate-fade-in">
           <div className="text-center mb-8">
             <h2 className="font-serif-deva text-2xl font-bold text-foreground mb-1">
               🌅 आज का श्लोक
             </h2>
             <p className="text-sm text-muted">प्रतिदिन एक नया श्लोक — जीवन को प्रकाशित करें</p>
           </div>
-          <div className="rounded-2xl border border-accent/20 bg-verse-bg p-8 text-center">
+          <div className="rounded-2xl border border-accent/20 bg-verse-bg p-8 text-center transition-all hover:shadow-lg hover:border-accent/30">
             <div className="font-scripture text-lg leading-loose text-foreground mb-4 whitespace-pre-wrap">
               {verseOfDay.original_text.slice(0, 300)}
               {verseOfDay.original_text.length > 300 && '...'}
@@ -166,7 +176,7 @@ export default function HomePage() {
             </p>
             <Link
               href={`/categories/${verseOfDay.category_slug}/${verseOfDay.book_slug}/${verseOfDay.id}`}
-              className="inline-flex items-center gap-2 rounded-xl bg-accent px-5 py-2.5 text-sm font-semibold text-white hover:bg-accent/90 transition-colors"
+              className="inline-flex items-center gap-2 rounded-xl bg-accent px-5 py-2.5 text-sm font-semibold text-white hover:bg-accent/90 transition-all hover:shadow-lg active:scale-[0.98]"
             >
               गहन व्याख्या सहित पढ़ें →
             </Link>

@@ -35,7 +35,7 @@ export default function ContinueReading() {
               href={`/categories/${item.categorySlug}/${item.bookSlug}/${item.lastVerseId}`}
               className="block rounded-2xl border border-border bg-card p-4 hover:border-accent/30 hover:shadow-md transition-all"
             >
-              <p className="font-serif-deva text-sm font-semibold text-foreground mb-1 truncate">
+              <p className="font-serif-deva text-sm font-semibold text-foreground mb-1 line-clamp-2 min-h-[2.5rem]">
                 {item.bookTitle || item.bookSlug} — श्लोक {item.lastVerseNumber}
               </p>
               <div className="w-full h-2 rounded-full bg-border overflow-hidden">

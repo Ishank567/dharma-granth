@@ -5,14 +5,7 @@
 The following keys were exposed and must be rotated **immediately**:
 
 ```
-AIzaSyByAH371CdeDrsxipAN_fuRureRVzv4Qhg
-AQ.Ab8RN6Iq5F-ETm5Ao7NmMB8CsEgXtcahS0polGMmUsuQu_XwiA
-AIzaSyB5lvYPIfOrrNyokzqDkBkcAvKtBfCQh-A
-AIzaSyDmgHLYvk8Nrq73VjY0Gir06a7WKvyC5oU
-AIzaSyACesz39--uBHMbdF7NaX0CxqlrdslklO0
-AIzaSyCvoNXVzCis014wvkU2g1iqLUit9X7R844
-AIzaSyCj2CgYOuyR2Z-wMGWL3hyWrLJsgR2QDhI
-AIzaSyAC4Alw1VS8hU8SUG-pAl97Jnc9OiCVob8
+
 ```
 
 ### Rotation Steps
