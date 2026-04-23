@@ -1,62 +1,51 @@
-import { getBookBySlug, getVersesByBook, getTotalVerseCount, getChaptersByBook } from '@/app/lib/db';
+import { getBookBySlug, getAllCategories, getBooksByCategory } from '@/app/lib/content';
 import VerseDisplay from '@/app/components/VerseDisplay';
 import TableOfContents from '@/app/components/TableOfContents';
 import { hasGuidedCourse } from '@/app/lib/guidedCourses';
-import type { Book, Verse } from '@/app/lib/types';
+import type { Verse } from '@/app/lib/types';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const dynamic = 'force-static';
+export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  // For demo, return sample book paths
-  return [
-    { category: 'गीता', bookId: 'gita' },
-    { category: 'रामायण', bookId: 'ramcharitmanas' }
-  ];
+  const params: Array<{ category: string; bookId: string }> = [];
+  for (const cat of getAllCategories()) {
+    for (const book of getBooksByCategory(cat.slug)) {
+      params.push({ category: cat.slug, bookId: book.slug });
+    }
+  }
+  return params;
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ category: string; bookId: string }> }): Promise<Metadata> {
   const { bookId } = await params;
-  try {
-    const book = getBookBySlug(bookId) as Book | undefined;
-    if (book) {
-      return { title: `${book.title_hindi} — धर्म ग्रंथ`, description: book.description };
-    }
-  } catch {}
+  const book = getBookBySlug(bookId);
+  if (book) {
+    return { title: `${book.title_hindi} — धर्म ग्रंथ`, description: book.description };
+  }
   return { title: 'ग्रंथ — धर्म ग्रंथ' };
 }
 
 export default async function BookReaderPage({
   params,
-  searchParams,
 }: {
   params: Promise<{ category: string; bookId: string }>;
-  searchParams: Promise<{ page?: string }>;
 }) {
   const { category, bookId } = await params;
-  const { page: pageStr } = await searchParams;
-  const page = Math.max(1, parseInt(pageStr || '1', 10));
-  const perPage = 20;
   const guidedCourseAvailable = hasGuidedCourse(bookId);
 
-  let book: Book | undefined;
-  let verses: Verse[] = [];
-  let totalVerses = 0;
-  let chapters: ReturnType<typeof getChaptersByBook> = [];
+  const book = getBookBySlug(bookId);
+  if (!book) notFound();
 
-  try {
-    book = getBookBySlug(bookId) as Book | undefined;
-    if (!book) notFound();
-    if (book.content_status !== 'ocr_pending') {
-      verses = getVersesByBook(book.id, perPage, (page - 1) * perPage) as Verse[];
-      totalVerses = getTotalVerseCount(book.id);
-      chapters = getChaptersByBook(book.id);
-    }
-  } catch {
-    notFound();
-  }
+  const VERSE_CAP = 100;
+  const allVerses: Verse[] = book.content_status === 'ready' ? book.verses : [];
+  const totalVerses = allVerses.length;
+  const verses = allVerses.slice(0, VERSE_CAP);
+  const hasMore = totalVerses > verses.length;
+  const chapters = book.chapters;
 
   if (book!.content_status === 'ocr_pending') {
     return (
@@ -95,8 +84,6 @@ export default async function BookReaderPage({
       </div>
     );
   }
-
-  const totalPages = Math.ceil(totalVerses / perPage);
 
   // Group verses by chapter for section dividers
   type VerseGroup = { chapterId: number | null; chapterTitleHindi: string | null; chapterTitle: string | null; verses: Verse[] };
@@ -141,8 +128,12 @@ export default async function BookReaderPage({
         <p className="text-sm text-muted-light mt-1">{book!.description}</p>
         <div className="mt-4 flex justify-center gap-4 text-sm text-muted">
           <span>कुल {totalVerses} श्लोक/पाठ</span>
-          <span>•</span>
-          <span>पृष्ठ {page} / {totalPages || 1}</span>
+          {hasMore && (
+            <>
+              <span>•</span>
+              <span>पहले {verses.length} श्लोक यहाँ दिखाए गए हैं</span>
+            </>
+          )}
           {hasChapters && (
             <>
               <span>•</span>
@@ -168,14 +159,6 @@ export default async function BookReaderPage({
           )}
         </div>
 
-        {totalPages > 1 && (
-          <div className="mt-4 mx-auto max-w-md h-1.5 rounded-full bg-border overflow-hidden">
-            <div
-              className="h-full bg-accent rounded-full transition-all duration-300"
-              style={{ width: `${(page / totalPages) * 100}%` }}
-            />
-          </div>
-        )}
       </div>
 
       {/* Two-column layout on desktop: TOC sidebar + verse content */}
@@ -187,8 +170,8 @@ export default async function BookReaderPage({
             bookTitle={book!.title_hindi}
             bookSlug={bookId}
             categorySlug={category}
-            currentPage={page}
-            perPage={perPage}
+            currentPage={1}
+            perPage={verses.length || 1}
             totalVerses={totalVerses}
           />
         )}
@@ -217,12 +200,6 @@ export default async function BookReaderPage({
                       </div>
                     </div>
                   )}
-                  {/* No-chapter page start ornament */}
-                  {!group.chapterTitleHindi && !group.chapterTitle && gi === 0 && page > 1 && (
-                    <div className="mb-6 text-center text-muted text-sm">
-                      — पृष्ठ {page} —
-                    </div>
-                  )}
                   <div className="space-y-5">
                     {group.verses.map((verse) => (
                       <VerseDisplay
@@ -244,28 +221,11 @@ export default async function BookReaderPage({
             </div>
           )}
 
-          {/* Pagination */}
-          {totalPages > 1 && (
-            <div className="mt-12 flex items-center justify-center gap-4">
-              {page > 1 && (
-                <Link
-                  href={`/categories/${category}/${bookId}?page=${page - 1}`}
-                  className="rounded-xl border border-border bg-card px-5 py-2.5 text-sm font-medium text-foreground hover:bg-card-hover transition-colors"
-                >
-                  ← पिछला पृष्ठ
-                </Link>
-              )}
-
-              <span className="text-sm text-muted">{page} / {totalPages}</span>
-
-              {page < totalPages && (
-                <Link
-                  href={`/categories/${category}/${bookId}?page=${page + 1}`}
-                  className="rounded-xl border border-border bg-accent px-5 py-2.5 text-sm font-medium text-white hover:bg-accent/90 transition-colors"
-                >
-                  अगला पृष्ठ →
-                </Link>
-              )}
+          {hasMore && (
+            <div className="mt-12 rounded-2xl border border-accent/20 bg-accent-bg/40 p-6 text-center">
+              <p className="text-sm text-foreground/85 leading-relaxed">
+                इस ग्रंथ के पहले {verses.length} श्लोक यहाँ प्रदर्शित हैं। शेष {totalVerses - verses.length} श्लोकों तक पहुँच शीघ्र उपलब्ध होगी।
+              </p>
             </div>
           )}
         </div>
