@@ -13,7 +13,15 @@ import {
 } from '@/app/lib/guidedCourses';
 import type { Book, Interpretation, Verse } from '@/app/lib/types';
 
-export const dynamic = 'force-dynamic';
+export const dynamic = 'force-static';
+
+export async function generateStaticParams() {
+  // For demo, return sample book slugs
+  return [
+    { bookSlug: 'gita' },
+    { bookSlug: 'ramcharitmanas' }
+  ];
+}
 
 export async function generateMetadata({
   params,

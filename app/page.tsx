@@ -9,7 +9,7 @@ import Link from 'next/link';
 // Check if we're in static export mode (GitHub Pages)
 const isStaticExport = process.env.NODE_ENV === 'production' && process.env.NEXT_OUTPUT === 'export';
 
-export const dynamic = 'force-dynamic';
+export const dynamic = 'force-static';
 
 export default function HomePage() {
   // For static export (GitHub Pages), show demo page

@@ -1,40 +1,38 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { searchVerses, searchVersesCount } from '@/app/lib/db';
 
-const RESULTS_PER_PAGE = 20;
+export const dynamic = "force-static";
+
+// Static demo data for GitHub Pages
+const demoResults = [
+  {
+    id: 1,
+    book_name: "गीता",
+    chapter_number: 1,
+    verse_number: 1,
+    sanskrit_text: "धृतराष्ट्र उवाच धर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः। मामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय॥",
+    hindi_translation: "धृतराष्ट्र बोले - हे संजय! धर्मभूमि कुरुक्षेत्र में एकत्र हुए युद्ध की इच्छा वाले मेरे और पाण्डवों के पुत्रों ने क्या किया?",
+    english_translation: "Dhritarashtra said: O Sanjay, what did my sons and the sons of Pandu do when they gathered on the holy field of Kurukshetra, eager for battle?",
+    category: "गीता"
+  },
+  {
+    id: 2,
+    book_name: "रामचरितमानस",
+    chapter_number: 1,
+    verse_number: 1,
+    sanskrit_text: "श्रीगुरु चरन सरोज रज निज मन मुकुरु सुधारि। बरनउँ रघुबर बिमल जसु जो दायकु फल चारि॥",
+    hindi_translation: "गुरु के चरणकमलों की रज को अपने मन रूपी दर्पण पर धारण करके, मैं श्रीरघुनाथजी के निर्मल यश का वर्णन करता हूँ, जो चारों फलों का दाता है।",
+    english_translation: "Having applied the dust of the lotus feet of my Guru to the mirror of my mind, I narrate the pure glory of Shri Raghunathji, who bestows the four fruits.",
+    category: "रामायण"
+  }
+];
 
 export async function GET(request: NextRequest) {
-  const q = request.nextUrl.searchParams.get('q');
-  const pageStr = request.nextUrl.searchParams.get('page');
-  const category = request.nextUrl.searchParams.get('category') || undefined;
-  const page = Math.max(1, parseInt(pageStr || '1', 10) || 1);
-
-  if (!q || !q.trim()) {
-    return NextResponse.json({ error: 'खोज शब्द आवश्यक है' }, { status: 400 });
-  }
-
-  if (q.length > 500) {
-    return NextResponse.json({ error: 'खोज शब्द बहुत लंबा है' }, { status: 400 });
-  }
-
-  try {
-    const trimmed = q.trim();
-    const total = searchVersesCount(trimmed, category);
-    const results = searchVerses(trimmed, RESULTS_PER_PAGE, (page - 1) * RESULTS_PER_PAGE, category);
-    const totalPages = Math.ceil(total / RESULTS_PER_PAGE);
-
-    return NextResponse.json({
-      results,
-      query: trimmed,
-      page,
-      totalPages,
-      total,
-    });
-  } catch (error) {
-    console.error('Search error:', error);
-    return NextResponse.json(
-      { error: 'खोज में त्रुटि हुई', results: [], total: 0, page: 1, totalPages: 0 },
-      { status: 500 }
-    );
-  }
+  // For static demo, return sample results
+  return NextResponse.json({
+    results: demoResults,
+    query: "demo",
+    page: 1,
+    totalPages: 1,
+    total: 2,
+  });
 }

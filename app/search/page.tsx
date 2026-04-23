@@ -4,7 +4,7 @@ import type { SearchResult, Category } from '@/app/lib/types';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 
-export const dynamic = 'force-dynamic';
+export const dynamic = 'force-static';
 
 const RESULTS_PER_PAGE = 20;
 

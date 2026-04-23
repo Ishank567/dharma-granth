@@ -4,7 +4,7 @@ import type { Category } from '@/app/lib/types';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 
-export const dynamic = 'force-dynamic';
+export const dynamic = 'force-static';
 
 export const metadata: Metadata = {
   title: 'ग्रंथ श्रेणियाँ — धर्म ग्रंथ',

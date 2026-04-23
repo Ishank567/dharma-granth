@@ -5,7 +5,16 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 
-export const dynamic = 'force-dynamic';
+export const dynamic = 'force-static';
+
+export async function generateStaticParams() {
+  // For demo, return sample categories
+  return [
+    { category: 'गीता' },
+    { category: 'रामायण' },
+    { category: 'वेद' }
+  ];
+}
 
 export async function generateMetadata({ params }: { params: Promise<{ category: string }> }): Promise<Metadata> {
   const { category: slug } = await params;

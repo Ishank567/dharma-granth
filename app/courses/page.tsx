@@ -4,7 +4,7 @@ import LearningArchivePanel from '@/app/components/LearningArchivePanel';
 import { getBookBySlug } from '@/app/lib/db';
 import { getAllGuidedCourseDefinitions } from '@/app/lib/guidedCourses';
 
-export const dynamic = 'force-dynamic';
+export const dynamic = 'force-static';
 
 export const metadata: Metadata = {
   title: 'अध्ययन पथ — धर्म ग्रंथ',
