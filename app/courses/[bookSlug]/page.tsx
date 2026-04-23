@@ -3,24 +3,23 @@ import type { Metadata } from 'next';
 import GuidedCourseDetailClient from '@/app/components/GuidedCourseDetailClient';
 import {
   getBookBySlug,
-  getInterpretation,
-  getTotalVerseCount,
   getVerseByBookAndNumber,
-} from '@/app/lib/db';
+  getInterpretationForVerse,
+} from '@/app/lib/content';
 import {
+  getAllGuidedCourseDefinitions,
   getGuidedCourseDefinition,
   resolveGuidedCourse,
 } from '@/app/lib/guidedCourses';
-import type { Book, Interpretation, Verse } from '@/app/lib/types';
+import type { Interpretation } from '@/app/lib/types';
 
 export const dynamic = 'force-static';
+export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  // For demo, return sample book slugs
-  return [
-    { bookSlug: 'gita' },
-    { bookSlug: 'ramcharitmanas' }
-  ];
+  return getAllGuidedCourseDefinitions()
+    .filter((c) => getBookBySlug(c.bookSlug))
+    .map((c) => ({ bookSlug: c.bookSlug }));
 }
 
 export async function generateMetadata({
@@ -51,23 +50,36 @@ export default async function GuidedCourseDetailPage({
     notFound();
   }
 
-  const book = getBookBySlug(bookSlug) as Book | undefined;
+  const book = getBookBySlug(bookSlug);
   if (!book) {
     notFound();
   }
 
-  const totalVerses = getTotalVerseCount(book.id);
+  const totalVerses = book.verse_count;
   const course = resolveGuidedCourse(courseDefinition, totalVerses);
 
   const modules = course.modules.map((module) => {
-    const anchorVerse = getVerseByBookAndNumber(book.id, module.anchorVerseNumber) as Verse | undefined;
-    const anchorInterpretation = anchorVerse
-      ? (getInterpretation(anchorVerse.id) as Interpretation | undefined)
+    const anchorVerse = getVerseByBookAndNumber(bookSlug, module.anchorVerseNumber);
+    const rawInterp = anchorVerse ? getInterpretationForVerse(bookSlug, anchorVerse.id) : null;
+    const anchorInterpretation: Interpretation | undefined = rawInterp
+      ? {
+          id: rawInterp.id,
+          verse_id: rawInterp.verse_id,
+          shabdarth: rawInterp.shabdarth ?? '',
+          bhavarth: rawInterp.bhavarth ?? '',
+          simple_example: rawInterp.simple_example ?? '',
+          guided_learning: rawInterp.guided_learning ?? '',
+          scientific_temperament: rawInterp.scientific_temperament ?? '',
+          modern_relevance: rawInterp.modern_relevance ?? '',
+          next_curiosity: rawInterp.next_curiosity ?? '',
+          source: (rawInterp.source as Interpretation['source']) || 'ai',
+          created_at: rawInterp.created_at ?? '',
+        }
       : undefined;
 
     return {
       ...module,
-      anchorVerse,
+      anchorVerse: anchorVerse ?? undefined,
       anchorInterpretation,
     };
   });

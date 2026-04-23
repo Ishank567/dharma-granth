@@ -119,6 +119,18 @@ export type VerseDetail = {
   totalVerses: number;
 };
 
+export function getVerseByBookAndNumber(bookSlug: string, verseNumber: number): Verse | null {
+  const book = getBookBySlug(bookSlug);
+  if (!book) return null;
+  return book.verses.find((v) => v.verse_number === verseNumber) ?? null;
+}
+
+export function getInterpretationForVerse(bookSlug: string, verseId: number) {
+  const book = getBookBySlug(bookSlug);
+  if (!book) return null;
+  return book.interpretations[verseId] ?? null;
+}
+
 export function getVerseDetail(bookSlug: string, verseId: number): VerseDetail | null {
   const book = getBookBySlug(bookSlug);
   if (!book) return null;

@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import LearningArchivePanel from '@/app/components/LearningArchivePanel';
-import { getBookBySlug } from '@/app/lib/db';
+import { getBookBySlug } from '@/app/lib/content';
 import { getAllGuidedCourseDefinitions } from '@/app/lib/guidedCourses';
 
 export const dynamic = 'force-static';
