@@ -7,10 +7,14 @@ export async function GET(request: NextRequest) {
   const q = request.nextUrl.searchParams.get('q');
   const pageStr = request.nextUrl.searchParams.get('page');
   const category = request.nextUrl.searchParams.get('category') || undefined;
-  const page = Math.max(1, parseInt(pageStr || '1', 10));
+  const page = Math.max(1, parseInt(pageStr || '1', 10) || 1);
 
   if (!q || !q.trim()) {
     return NextResponse.json({ error: 'खोज शब्द आवश्यक है' }, { status: 400 });
+  }
+
+  if (q.length > 500) {
+    return NextResponse.json({ error: 'खोज शब्द बहुत लंबा है' }, { status: 400 });
   }
 
   try {

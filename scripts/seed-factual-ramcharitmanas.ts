@@ -61,8 +61,13 @@ async function main() {
     const verseIds = existingVerses.map((v) => v.id);
     
     if (verseIds.length > 0) {
-      const placeholders = verseIds.map(() => '?').join(',');
-      db.prepare(`DELETE FROM interpretations WHERE verse_id IN (${placeholders})`).run(...verseIds);
+      // Chunk deletion to avoid sqlite limits
+      for (let i = 0; i < verseIds.length; i += 900) {
+        const chunk = verseIds.slice(i, i + 900);
+        const placeholders = chunk.map(() => '?').join(',');
+        db.prepare(`DELETE FROM interpretations WHERE verse_id IN (${placeholders})`).run(...chunk);
+        db.prepare(`DELETE FROM verse_words WHERE verse_id IN (${placeholders})`).run(...chunk);
+      }
       console.log(`Deleted ${verseIds.length} existing interpretations.`);
     }
 

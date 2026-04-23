@@ -64,6 +64,7 @@ async function main() {
         const chunk = verseIds.slice(i, i + 900);
         const placeholders = chunk.map(() => '?').join(',');
         db.prepare(`DELETE FROM interpretations WHERE verse_id IN (${placeholders})`).run(...chunk);
+        db.prepare(`DELETE FROM verse_words WHERE verse_id IN (${placeholders})`).run(...chunk);
       }
       console.log(`Deleted ${verseIds.length} existing interpretations.`);
     }
@@ -92,7 +93,7 @@ async function main() {
           currentSarg = v.sarg;
           const chapterTitle = `${kaand.kaand_name.split('_')[1]} - Sarg ${currentSarg}`;
           const resChapter = insertChapter.run(bookId, globalChapterIndex++, chapterTitle, chapterTitle);
-          currentChapterId = resChapter.lastInsertRowid;
+          currentChapterId = Number(resChapter.lastInsertRowid);
         }
 
         insertVerse.run(bookId, currentChapterId, v.shloka, v.text.trim());

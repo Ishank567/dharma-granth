@@ -103,7 +103,7 @@ export async function generateInterpretation(input: InterpretationGenerationInpu
   let lastError: unknown;
   for (const key of keys) {
     try {
-      const model = getGenAIClient(key).getGenerativeModel({ model: 'gemini-3-flash-preview' });
+      const model = getGenAIClient(key).getGenerativeModel({ model: 'gemini-2.0-flash' });
       const prompt = buildPrompt(input);
       const result = await model.generateContent(prompt);
       const text = result.response.text();

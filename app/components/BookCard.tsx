@@ -3,10 +3,14 @@ import type { Book } from '../lib/types';
 import { getBookVerseCount } from '../lib/db';
 
 export default function BookCard({ book, categorySlug }: { book: Book; categorySlug: string }) {
-  let verseCount = 0;
-  try {
-    verseCount = getBookVerseCount(book.id);
-  } catch {}
+  let verseCount = book.verse_count ?? 0;
+  if (verseCount === 0) {
+    try {
+      verseCount = getBookVerseCount(book.id);
+    } catch (error) {
+      console.error('Failed to fetch verse count for book', book.id, error);
+    }
+  }
 
   return (
     <Link

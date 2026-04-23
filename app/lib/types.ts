@@ -20,8 +20,10 @@ export interface Book {
   pdf_filename: string;
   total_pages: number;
   description: string;
+  content_status?: 'ready' | 'ocr_pending';
   category_name?: string;
   category_slug?: string;
+  verse_count?: number;
 }
 
 export interface Chapter {
@@ -92,7 +94,6 @@ export interface SearchResult {
   book_title: string;
   book_slug: string;
   category_slug: string;
-  snippet: string;
   rank: number;
 }
 

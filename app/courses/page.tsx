@@ -11,9 +11,8 @@ export const metadata: Metadata = {
   description: 'गीता, प्रमुख उपनिषद और रामचरितमानस के अध्यायवार मार्गदर्शित अध्ययन पथ',
 };
 
-const courses = getAllGuidedCourseDefinitions().filter((course) => getBookBySlug(course.bookSlug));
-
 export default function GuidedCoursesPage() {
+  const courses = getAllGuidedCourseDefinitions().filter((course) => getBookBySlug(course.bookSlug));
   return (
     <div className="mx-auto max-w-7xl px-4 py-12">
       <nav aria-label="Breadcrumb" className="mb-8 text-sm text-muted">

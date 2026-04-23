@@ -39,10 +39,50 @@ export default async function BookReaderPage({
   try {
     book = getBookBySlug(bookId) as Book | undefined;
     if (!book) notFound();
-    verses = getVersesByBook(book.id, perPage, (page - 1) * perPage) as Verse[];
-    totalVerses = getTotalVerseCount(book.id);
+    if (book.content_status !== 'ocr_pending') {
+      verses = getVersesByBook(book.id, perPage, (page - 1) * perPage) as Verse[];
+      totalVerses = getTotalVerseCount(book.id);
+    }
   } catch {
     notFound();
+  }
+
+  if (book!.content_status === 'ocr_pending') {
+    return (
+      <div className="mx-auto max-w-3xl px-4 py-16">
+        <nav aria-label="Breadcrumb" className="mb-8 text-sm text-muted">
+          <Link href="/" className="hover:text-accent transition-colors">मुख्य पृष्ठ</Link>
+          <span className="mx-2">›</span>
+          <Link href="/categories" className="hover:text-accent transition-colors">ग्रंथ श्रेणियाँ</Link>
+          <span className="mx-2">›</span>
+          <Link href={`/categories/${category}`} className="hover:text-accent transition-colors">
+            {book!.category_name}
+          </Link>
+          <span className="mx-2">›</span>
+          <span className="text-foreground">{book!.title_hindi}</span>
+        </nav>
+        <div className="rounded-2xl border border-accent/20 bg-card p-10 text-center">
+          <p className="text-5xl mb-4" aria-hidden="true">🕉️</p>
+          <h1 className="font-serif-deva text-3xl font-bold text-foreground mb-3">
+            {book!.title_hindi}
+          </h1>
+          <p className="text-sm text-muted mb-6">{book!.author} • {book!.language}</p>
+          <div className="mx-auto max-w-xl rounded-xl border border-accent/20 bg-accent-bg/40 p-5 text-left">
+            <p className="font-semibold text-primary mb-2">📜 डिजिटलीकरण जारी है</p>
+            <p className="text-sm text-foreground/85 leading-relaxed">
+              यह ग्रंथ स्कैन किए गए पृष्ठों के रूप में उपलब्ध है। इसका OCR (पाठ-निष्कर्षण) अभी प्रगति पर है।
+              जैसे ही शब्द-स्तरीय पाठ तैयार होगा, पूरी व्याख्या यहाँ उपलब्ध कराई जाएगी।
+            </p>
+          </div>
+          <Link
+            href={`/categories/${category}`}
+            className="mt-8 inline-flex items-center gap-2 rounded-xl bg-accent px-5 py-2.5 text-sm font-semibold text-white hover:bg-accent/90 transition-all"
+          >
+            ← इस श्रेणी के अन्य ग्रंथ देखें
+          </Link>
+        </div>
+      </div>
+    );
   }
 
   const totalPages = Math.ceil(totalVerses / perPage);

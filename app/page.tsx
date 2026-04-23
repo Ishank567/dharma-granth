@@ -17,8 +17,8 @@ export default function HomePage() {
     categories = getAllCategories() as Category[];
     stats = getStats();
     verseOfDay = getRandomVerse() as Verse | null;
-  } catch {
-    // DB not yet initialized
+  } catch (error) {
+    console.error('Failed to load homepage data:', error);
   }
 
   return (
@@ -27,11 +27,11 @@ export default function HomePage() {
       <section className="relative overflow-hidden bg-[var(--gradient-hero)] py-20 px-4 text-center text-white">
         <div className="absolute inset-0 bg-black/20" />
         {/* Decorative floating elements */}
-        <div className="absolute top-10 left-[10%] text-4xl opacity-20 animate-float" style={{ animationDelay: '0s' }}>🙏</div>
-        <div className="absolute top-20 right-[15%] text-3xl opacity-15 animate-float" style={{ animationDelay: '1.5s' }}>📿</div>
-        <div className="absolute bottom-10 left-[20%] text-3xl opacity-15 animate-float" style={{ animationDelay: '3s' }}>🪔</div>
+        <div className="absolute top-10 left-[10%] text-4xl opacity-20 animate-float" style={{ animationDelay: '0s' }} aria-hidden="true">🙏</div>
+        <div className="absolute top-20 right-[15%] text-3xl opacity-15 animate-float" style={{ animationDelay: '1.5s' }} aria-hidden="true">📿</div>
+        <div className="absolute bottom-10 left-[20%] text-3xl opacity-15 animate-float" style={{ animationDelay: '3s' }} aria-hidden="true">🪔</div>
         <div className="relative mx-auto max-w-4xl">
-          <div className="text-6xl mb-6 animate-float">🕉️</div>
+          <div className="text-6xl mb-6 animate-float" aria-hidden="true">🕉️</div>
           <h1 className="font-serif-deva text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg">
             धर्म ग्रंथ
           </h1>
@@ -63,11 +63,6 @@ export default function HomePage() {
               <div className="animate-count" style={{ animationDelay: '0.3s' }}>
                 <div className="text-3xl font-bold text-gradient">{stats.verses.toLocaleString('hi-IN')}</div>
                 <div className="text-xs text-muted mt-1">श्लोक/पाठ</div>
-              </div>
-              <div className="h-12 w-px bg-border hidden md:block" />
-              <div className="animate-count hidden md:block" style={{ animationDelay: '0.4s' }}>
-                <div className="text-3xl font-bold text-gradient">100%</div>
-                <div className="text-xs text-muted mt-1">व्याख्या सम्पूर्ण</div>
               </div>
             </div>
           </div>

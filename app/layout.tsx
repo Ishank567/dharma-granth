@@ -3,6 +3,7 @@ import { Noto_Serif_Devanagari, Noto_Sans_Devanagari } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/app/components/ThemeProvider";
 import Header from "@/app/components/Header";
+import { getStats } from "@/app/lib/db";
 
 const notoSerif = Noto_Serif_Devanagari({
   variable: "--font-serif-deva",
@@ -21,11 +22,11 @@ const notoSans = Noto_Sans_Devanagari({
 export const metadata: Metadata = {
   title: "धर्म ग्रंथ — सनातन धर्म के पवित्र ग्रंथ",
   description:
-    "वेद, उपनिषद, गीता, पुराण और भक्ति ग्रंथों को पढ़ें — 63,800+ श्लोकों की गहन हिन्दी व्याख्या के साथ",
+    "वेद, उपनिषद, गीता, पुराण और भक्ति ग्रंथों को पढ़ें — गहन हिन्दी व्याख्या के साथ",
   keywords: ["धर्म ग्रंथ", "वेद", "उपनिषद", "गीता", "पुराण", "संस्कृत", "हिन्दी व्याख्या", "सनातन धर्म"],
   openGraph: {
     title: "धर्म ग्रंथ — सनातन धर्म के पवित्र ग्रंथ",
-    description: "66 ग्रंथों के 63,800+ श्लोकों की गहन हिन्दी व्याख्या — शब्दार्थ, भावार्थ, वैज्ञानिक दृष्टि और जीवन-साधना",
+    description: "सनातन धर्मग्रंथों की गहन हिन्दी व्याख्या — शब्दार्थ, भावार्थ, वैज्ञानिक दृष्टि और जीवन-साधना",
     type: "website",
     locale: "hi_IN",
   },
@@ -36,6 +37,13 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  let stats = { categories: 0, books: 0, verses: 0 };
+  try {
+    stats = getStats();
+  } catch (error) {
+    console.error('Failed to load footer stats:', error);
+  }
+
   return (
     <html
       lang="hi"
@@ -66,10 +74,14 @@ export default function RootLayout({
                 सर्वे भवन्तु सुखिनः सर्वे सन्तु निरामयाः
               </p>
               <div className="mt-4 flex items-center justify-center gap-4 text-xs text-muted-light">
-                <span>66 ग्रंथ</span>
-                <span className="text-accent/40">•</span>
-                <span>63,800+ श्लोक</span>
-                <span className="text-accent/40">•</span>
+                {stats.books > 0 && (
+                  <>
+                    <span>{stats.books.toLocaleString('hi-IN')} ग्रंथ</span>
+                    <span className="text-accent/40">•</span>
+                    <span>{stats.verses.toLocaleString('hi-IN')}+ श्लोक</span>
+                    <span className="text-accent/40">•</span>
+                  </>
+                )}
                 <span>सम्पूर्ण हिन्दी व्याख्या</span>
               </div>
             </div>

@@ -55,7 +55,7 @@ async function main() {
   db.exec('BEGIN TRANSACTION');
   try {
     let deletedCount = 0;
-    
+
     // 1. Delete explicitly bad/duplicate slugs
     for (const slug of booksToDelete) {
       const book = db.prepare('SELECT id FROM books WHERE slug = ?').get(slug) as { id: number };
@@ -67,6 +67,7 @@ async function main() {
             const chunkIds = vIds.slice(i, i + 900).map(v => v.id);
             const placeholders = chunkIds.map(() => '?').join(',');
             db.prepare(`DELETE FROM interpretations WHERE verse_id IN (${placeholders})`).run(...chunkIds);
+            db.prepare(`DELETE FROM verse_words WHERE verse_id IN (${placeholders})`).run(...chunkIds);
           }
         }
         db.prepare('DELETE FROM verses WHERE book_id = ?').run(book.id);
@@ -86,6 +87,7 @@ async function main() {
           const chunkIds = vIds.slice(i, i + 900).map(v => v.id);
           const placeholders = chunkIds.map(() => '?').join(',');
           db.prepare(`DELETE FROM interpretations WHERE verse_id IN (${placeholders})`).run(...chunkIds);
+          db.prepare(`DELETE FROM verse_words WHERE verse_id IN (${placeholders})`).run(...chunkIds);
         }
       }
       db.prepare('DELETE FROM verses WHERE book_id = ?').run(book.id);

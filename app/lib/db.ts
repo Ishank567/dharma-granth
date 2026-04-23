@@ -1,10 +1,21 @@
 import Database from 'better-sqlite3';
 import path from 'path';
 
-const DB_PATH = path.join(process.cwd(), 'db', 'dharma.db');
+const DB_PATH = process.env.DHARMA_DB_PATH || path.join(process.cwd(), 'db', 'dharma.db');
 
 let db: Database.Database | null = null;
 let schemaReady = false;
+
+function ensureBookColumns(database: Database.Database) {
+  const columns = database
+    .prepare("PRAGMA table_info(books)")
+    .all() as Array<{ name: string }>;
+  const columnNames = new Set(columns.map((column) => column.name));
+
+  if (!columnNames.has('content_status')) {
+    database.exec("ALTER TABLE books ADD COLUMN content_status TEXT NOT NULL DEFAULT 'ready'");
+  }
+}
 
 function ensureInterpretationColumns(database: Database.Database) {
   const columns = database
@@ -54,6 +65,7 @@ function ensureSchema(database: Database.Database) {
       pdf_filename TEXT NOT NULL,
       total_pages INTEGER DEFAULT 0,
       description TEXT NOT NULL,
+      content_status TEXT NOT NULL DEFAULT 'ready',
       FOREIGN KEY (category_id) REFERENCES categories(id)
     );
 
@@ -96,6 +108,7 @@ function ensureSchema(database: Database.Database) {
     );
   `);
 
+  ensureBookColumns(database);
   ensureInterpretationColumns(database);
 
   database.exec(`
@@ -159,7 +172,7 @@ export function getAllCategories() {
   return db.prepare(`
     SELECT c.*, COUNT(b.id) as book_count
     FROM categories c
-    LEFT JOIN books b ON b.category_id = c.id
+    LEFT JOIN books b ON b.category_id = c.id AND b.content_status = 'ready'
     GROUP BY c.id
     ORDER BY c.id
   `).all();
@@ -173,10 +186,11 @@ export function getCategoryBySlug(slug: string) {
 export function getBooksByCategory(categorySlug: string) {
   const db = getDb();
   return db.prepare(`
-    SELECT b.*, c.name as category_name, c.slug as category_slug
+    SELECT b.*, c.name as category_name, c.slug as category_slug,
+           (SELECT COUNT(*) FROM verses v WHERE v.book_id = b.id) as verse_count
     FROM books b
     JOIN categories c ON c.id = b.category_id
-    WHERE c.slug = ?
+    WHERE c.slug = ? AND b.content_status = 'ready'
     ORDER BY b.title_hindi
   `).all(categorySlug);
 }
@@ -248,7 +262,7 @@ export function searchVerses(query: string, limit = 30, offset = 0, categorySlug
       JOIN verses v ON v.id = fts.rowid
       JOIN books b ON b.id = v.book_id
       JOIN categories c ON c.id = b.category_id
-      WHERE verses_fts MATCH ? AND c.slug = ?
+      WHERE verses_fts MATCH ? AND c.slug = ? AND b.content_status = 'ready'
       ORDER BY rank
       LIMIT ? OFFSET ?
     `).all(sanitized, categorySlug, limit, offset);
@@ -262,7 +276,7 @@ export function searchVerses(query: string, limit = 30, offset = 0, categorySlug
     JOIN verses v ON v.id = fts.rowid
     JOIN books b ON b.id = v.book_id
     JOIN categories c ON c.id = b.category_id
-    WHERE verses_fts MATCH ?
+    WHERE verses_fts MATCH ? AND b.content_status = 'ready'
     ORDER BY rank
     LIMIT ? OFFSET ?
   `).all(sanitized, limit, offset);
@@ -278,14 +292,16 @@ export function searchVersesCount(query: string, categorySlug?: string): number 
       JOIN verses v ON v.id = fts.rowid
       JOIN books b ON b.id = v.book_id
       JOIN categories c ON c.id = b.category_id
-      WHERE verses_fts MATCH ? AND c.slug = ?
+      WHERE verses_fts MATCH ? AND c.slug = ? AND b.content_status = 'ready'
     `).get(sanitized, categorySlug) as { count: number };
     return result.count;
   }
   const result = db.prepare(`
     SELECT COUNT(*) as count
-    FROM verses_fts
-    WHERE verses_fts MATCH ?
+    FROM verses_fts fts
+    JOIN verses v ON v.id = fts.rowid
+    JOIN books b ON b.id = v.book_id
+    WHERE verses_fts MATCH ? AND b.content_status = 'ready'
   `).get(sanitized) as { count: number };
   return result.count;
 }
@@ -304,7 +320,7 @@ export function getRandomVerse() {
     FROM verses v
     JOIN books b ON b.id = v.book_id
     JOIN categories c ON c.id = b.category_id
-    WHERE length(v.original_text) > 20
+    WHERE length(v.original_text) > 20 AND b.content_status = 'ready'
     ORDER BY RANDOM()
     LIMIT 1
   `).get();
@@ -356,8 +372,12 @@ export function saveInterpretation(
 export function getStats() {
   const db = getDb();
   const categories = db.prepare('SELECT COUNT(*) as count FROM categories').get() as { count: number };
-  const books = db.prepare('SELECT COUNT(*) as count FROM books').get() as { count: number };
-  const verses = db.prepare('SELECT COUNT(*) as count FROM verses').get() as { count: number };
+  const books = db.prepare("SELECT COUNT(*) as count FROM books WHERE content_status = 'ready'").get() as { count: number };
+  const verses = db.prepare(`
+    SELECT COUNT(*) as count FROM verses v
+    JOIN books b ON b.id = v.book_id
+    WHERE b.content_status = 'ready'
+  `).get() as { count: number };
   return {
     categories: categories.count,
     books: books.count,
