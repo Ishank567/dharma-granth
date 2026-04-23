@@ -3,7 +3,7 @@ import { Noto_Serif_Devanagari, Noto_Sans_Devanagari } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/app/components/ThemeProvider";
 import Header from "@/app/components/Header";
-import { getStats } from "@/app/lib/db";
+import { getStats } from "@/app/lib/content";
 
 const notoSerif = Noto_Serif_Devanagari({
   variable: "--font-serif-deva",
