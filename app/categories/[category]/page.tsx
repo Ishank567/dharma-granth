@@ -1,45 +1,30 @@
-import { getCategoryBySlug, getBooksByCategory } from '@/app/lib/db';
+import { getCategoryBySlug, getBooksByCategory, getAllCategories } from '@/app/lib/content';
 import BookCard from '@/app/components/BookCard';
-import type { Category, Book } from '@/app/lib/types';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const dynamic = 'force-static';
+export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  // For demo, return sample categories
-  return [
-    { category: 'गीता' },
-    { category: 'रामायण' },
-    { category: 'वेद' }
-  ];
+  return getAllCategories().map((c) => ({ category: c.slug }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ category: string }> }): Promise<Metadata> {
   const { category: slug } = await params;
-  try {
-    const cat = getCategoryBySlug(slug) as Category | undefined;
-    if (cat) {
-      return { title: `${cat.name} — धर्म ग्रंथ`, description: cat.description };
-    }
-  } catch {}
+  const cat = getCategoryBySlug(slug);
+  if (cat) {
+    return { title: `${cat.name} — धर्म ग्रंथ`, description: cat.description };
+  }
   return { title: 'श्रेणी — धर्म ग्रंथ' };
 }
 
 export default async function CategoryPage({ params }: { params: Promise<{ category: string }> }) {
   const { category: slug } = await params;
-
-  let category: Category | undefined;
-  let books: Book[] = [];
-
-  try {
-    category = getCategoryBySlug(slug) as Category | undefined;
-    if (!category) notFound();
-    books = getBooksByCategory(slug) as Book[];
-  } catch {
-    notFound();
-  }
+  const category = getCategoryBySlug(slug);
+  if (!category) notFound();
+  const books = getBooksByCategory(slug);
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-12">

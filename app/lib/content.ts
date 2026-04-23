@@ -17,7 +17,7 @@ export type CatalogBook = {
   pdf_filename: string;
   total_pages: number;
   description: string;
-  content_status: string;
+  content_status: 'ready' | 'ocr_pending';
   verse_count: number;
 };
 
@@ -44,6 +44,18 @@ export function getAllCategories(): Array<Category & { book_count: number }> {
 
 export function getStats(): { categories: number; books: number; verses: number } {
   return loadCatalog()?.stats ?? { categories: 0, books: 0, verses: 0 };
+}
+
+export function getCategoryBySlug(slug: string): (Category & { book_count: number }) | undefined {
+  return loadCatalog()?.categories.find((c) => c.slug === slug);
+}
+
+export function getBooksByCategory(categorySlug: string): CatalogBook[] {
+  const catalog = loadCatalog();
+  if (!catalog) return [];
+  return catalog.books
+    .filter((b) => b.category_slug === categorySlug && b.content_status === 'ready')
+    .sort((a, b) => a.title_hindi.localeCompare(b.title_hindi, 'hi'));
 }
 
 export function getRandomVerse(): Verse | null {

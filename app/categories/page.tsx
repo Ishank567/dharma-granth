@@ -1,6 +1,5 @@
-import { getAllCategories } from '@/app/lib/db';
+import { getAllCategories } from '@/app/lib/content';
 import CategoryCard from '@/app/components/CategoryCard';
-import type { Category } from '@/app/lib/types';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 
@@ -12,13 +11,7 @@ export const metadata: Metadata = {
 };
 
 export default function CategoriesPage() {
-  let categories: Category[] = [];
-
-  try {
-    categories = getAllCategories() as Category[];
-  } catch {
-    // DB not initialized
-  }
+  const categories = getAllCategories();
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-12">
