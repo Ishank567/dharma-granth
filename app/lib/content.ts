@@ -58,6 +58,58 @@ export function getBooksByCategory(categorySlug: string): CatalogBook[] {
     .sort((a, b) => a.title_hindi.localeCompare(b.title_hindi, 'hi'));
 }
 
+export type BookSnapshot = {
+  id: number;
+  category_id: number;
+  category_slug: string;
+  category_name: string;
+  title: string;
+  title_hindi: string;
+  slug: string;
+  author: string;
+  language: string;
+  pdf_filename: string;
+  total_pages: number;
+  description: string;
+  content_status: 'ready' | 'ocr_pending';
+  verse_count: number;
+  chapters: Array<{
+    id: number;
+    book_id: number;
+    chapter_number: number;
+    title: string;
+    title_hindi: string;
+  }>;
+  verses: Verse[];
+  interpretations: Record<number, {
+    id: number;
+    verse_id: number;
+    shabdarth: string | null;
+    bhavarth: string | null;
+    simple_example: string | null;
+    guided_learning: string | null;
+    scientific_temperament: string | null;
+    modern_relevance: string | null;
+    next_curiosity: string | null;
+    source: string | null;
+    created_at: string | null;
+  }>;
+};
+
+const bookCache = new Map<string, BookSnapshot | null>();
+
+export function getBookBySlug(slug: string): BookSnapshot | null {
+  if (bookCache.has(slug)) return bookCache.get(slug) ?? null;
+  const file = path.join(DATA_DIR, 'books', `${slug}.json`);
+  if (!fs.existsSync(file)) {
+    bookCache.set(slug, null);
+    return null;
+  }
+  const data = JSON.parse(fs.readFileSync(file, 'utf8')) as BookSnapshot;
+  bookCache.set(slug, data);
+  return data;
+}
+
 export function getRandomVerse(): Verse | null {
   const catalog = loadCatalog();
   if (!catalog) return null;
