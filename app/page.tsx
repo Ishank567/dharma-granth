@@ -3,15 +3,21 @@ import SearchBar from './components/SearchBar';
 import ContinueReading from './components/ContinueReading';
 import StreakDashboard from './components/StreakDashboard';
 import { getAllCategories, getStats, getRandomVerse } from './lib/db';
+import {
+  isLibsqlEnabled,
+  getAllCategoriesAsync,
+  getStatsAsync,
+  getRandomVerseAsync,
+} from './lib/db-libsql';
 import type { Category, Verse } from './lib/types';
 import Link from 'next/link';
 
 // Check if we're in static export mode (GitHub Pages)
 const isStaticExport = process.env.NODE_ENV === 'production' && process.env.NEXT_OUTPUT === 'export';
 
-export const dynamic = 'force-static';
+export const dynamic = isStaticExport ? 'force-static' : 'force-dynamic';
 
-export default function HomePage() {
+export default async function HomePage() {
   // For static export (GitHub Pages), show demo page
   if (isStaticExport) {
     return <DemoPage />;
@@ -22,9 +28,17 @@ export default function HomePage() {
   let verseOfDay: Verse | null = null;
 
   try {
-    categories = getAllCategories() as Category[];
-    stats = getStats();
-    verseOfDay = getRandomVerse() as Verse | null;
+    if (isLibsqlEnabled()) {
+      [categories, stats, verseOfDay] = await Promise.all([
+        getAllCategoriesAsync(),
+        getStatsAsync(),
+        getRandomVerseAsync(),
+      ]);
+    } else {
+      categories = getAllCategories() as Category[];
+      stats = getStats();
+      verseOfDay = getRandomVerse() as Verse | null;
+    }
   } catch (error) {
     console.error('Failed to load homepage data:', error);
   }

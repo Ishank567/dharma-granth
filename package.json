@@ -12,6 +12,7 @@
     "ocr": "tsx scripts/ocr-extract.ts",
     "regenerate:interpretations": "tsx scripts/regenerate-interpretations.ts",
     "verify:interpretation": "tsx scripts/verify-interpretation-flow.ts",
+    "migrate:turso": "tsx scripts/migrate-to-turso.ts",
     "ci:smoke": "npm run build && npm run verify:interpretation -- --skip-api"
   },
   "dependencies": {
@@ -19,6 +20,7 @@
     "@google-cloud/vision": "^5.3.5",
     "@google/genai": "^1.47.0",
     "@google/generative-ai": "^0.24.1",
+    "@libsql/client": "^0.15.15",
     "better-sqlite3": "^12.8.0",
     "dotenv": "^17.4.2",
     "google-auth-library": "^10.6.2",
