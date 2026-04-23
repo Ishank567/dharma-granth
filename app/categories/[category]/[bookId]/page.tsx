@@ -1,6 +1,8 @@
 import { getBookBySlug, getAllCategories, getBooksByCategory } from '@/app/lib/content';
 import VerseDisplay from '@/app/components/VerseDisplay';
 import TableOfContents from '@/app/components/TableOfContents';
+import GitaStructureInfographic from '@/app/components/GitaStructureInfographic';
+import { isGita } from '@/app/lib/gitaContext';
 import { hasGuidedCourse } from '@/app/lib/guidedCourses';
 import type { Verse } from '@/app/lib/types';
 import { notFound } from 'next/navigation';
@@ -160,6 +162,9 @@ export default async function BookReaderPage({
         </div>
 
       </div>
+
+      {/* Curated structure infographic (Gita only) */}
+      {isGita(bookId) && <GitaStructureInfographic book={book!} categorySlug={category} />}
 
       {/* Two-column layout on desktop: TOC sidebar + verse content */}
       {/* On mobile, TOC renders as a collapsible drawer before the verse list */}

@@ -5,13 +5,13 @@ import ShareButton from '@/app/components/ShareButton';
 import VerseJournalPanel from '@/app/components/VerseJournalPanel';
 import KeyboardNav from '@/app/components/KeyboardNav';
 import ReadingTracker from '@/app/components/ReadingTracker';
+import SpeakerBadge from '@/app/components/SpeakerBadge';
+import ChapterContextStrip from '@/app/components/ChapterContextStrip';
+import { getChapterPosition, isGita, resolveSpeaker } from '@/app/lib/gitaContext';
 import type { Interpretation } from '@/app/lib/types';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
-
-export const dynamic = 'force-static';
-export const dynamicParams = false;
 
 export async function generateStaticParams() {
   return getInterpretedVerseParams();
@@ -56,6 +56,9 @@ export default async function VerseDetailPage({
       }
     : null;
   const bookTitle = book.title_hindi;
+  const gitaView = isGita(bookId);
+  const chapterPosition = gitaView ? getChapterPosition(book, verse) : null;
+  const speaker = gitaView ? resolveSpeaker(book, verse) : null;
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-12">
@@ -82,6 +85,9 @@ export default async function VerseDetailPage({
         <span className="text-foreground">श्लोक {verse.verse_number}</span>
       </nav>
 
+      {/* Chapter context strip (Gita only) */}
+      {chapterPosition && <ChapterContextStrip position={chapterPosition} />}
+
       {/* Verse Display */}
       <div className="rounded-2xl border border-verse-border bg-verse-bg p-8 mb-8">
         <div className="flex items-center justify-between mb-6">
@@ -90,6 +96,11 @@ export default async function VerseDetailPage({
               श्लोक {verse.verse_number}
             </h1>
             <p className="text-sm text-muted mt-1">{bookTitle}</p>
+            {speaker && (
+              <div className="mt-3">
+                <SpeakerBadge speaker={speaker} />
+              </div>
+            )}
           </div>
           <div className="flex items-center gap-2">
             <ShareButton
