@@ -1,36 +1,31 @@
-import { getVerseById, getInterpretation, getBookBySlug, getBookVerseCount } from '@/app/lib/db';
+import { getVerseDetail, getInterpretedVerseParams } from '@/app/lib/content';
 import InterpretationPanel from '@/app/components/InterpretationPanel';
 import BookmarkButton from '@/app/components/BookmarkButton';
 import ShareButton from '@/app/components/ShareButton';
 import VerseJournalPanel from '@/app/components/VerseJournalPanel';
 import KeyboardNav from '@/app/components/KeyboardNav';
 import ReadingTracker from '@/app/components/ReadingTracker';
-import type { Verse, Interpretation, Book } from '@/app/lib/types';
+import type { Interpretation } from '@/app/lib/types';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 
 export const dynamic = 'force-static';
+export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  // For demo, return sample verse paths
-  return [
-    { category: 'गीता', bookId: 'gita', verseId: '1' },
-    { category: 'रामायण', bookId: 'ramcharitmanas', verseId: '1' }
-  ];
+  return getInterpretedVerseParams();
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ category: string; bookId: string; verseId: string }> }): Promise<Metadata> {
-  const { verseId } = await params;
-  try {
-    const verse = getVerseById(parseInt(verseId, 10)) as Verse | undefined;
-    if (verse) {
-      return {
-        title: `श्लोक ${verse.verse_number} — ${verse.book_title} — धर्म ग्रंथ`,
-        description: verse.original_text.slice(0, 160),
-      };
-    }
-  } catch {}
+  const { bookId, verseId: verseIdStr } = await params;
+  const detail = getVerseDetail(bookId, parseInt(verseIdStr, 10));
+  if (detail) {
+    return {
+      title: `श्लोक ${detail.verse.verse_number} — ${detail.book.title_hindi} — धर्म ग्रंथ`,
+      description: detail.verse.original_text.slice(0, 160),
+    };
+  }
   return { title: 'श्लोक — धर्म ग्रंथ' };
 }
 
@@ -41,46 +36,35 @@ export default async function VerseDetailPage({
 }) {
   const { category, bookId, verseId: verseIdStr } = await params;
   const verseId = parseInt(verseIdStr, 10);
+  const detail = getVerseDetail(bookId, verseId);
+  if (!detail) notFound();
 
-  let verse: Verse | undefined;
-  let interpretation: Interpretation | null = null;
-  let book: Book | undefined;
-
-  try {
-    verse = getVerseById(verseId) as Verse | undefined;
-    if (!verse) notFound();
-    interpretation = (getInterpretation(verseId) as Interpretation) || null;
-    book = getBookBySlug(bookId) as Book | undefined;
-  } catch {
-    notFound();
-  }
-
-  // Get adjacent verse IDs for navigation
-  let prevVerseId: number | null = null;
-  let nextVerseId: number | null = null;
-  let totalVerses = 0;
-  try {
-    const { getDb } = await import('@/app/lib/db');
-    const db = getDb();
-    const prev = db.prepare(
-      'SELECT id FROM verses WHERE book_id = ? AND verse_number < ? ORDER BY verse_number DESC LIMIT 1'
-    ).get(verse!.book_id, verse!.verse_number) as { id: number } | undefined;
-    const next = db.prepare(
-      'SELECT id FROM verses WHERE book_id = ? AND verse_number > ? ORDER BY verse_number ASC LIMIT 1'
-    ).get(verse!.book_id, verse!.verse_number) as { id: number } | undefined;
-    if (prev) prevVerseId = prev.id;
-    if (next) nextVerseId = next.id;
-    totalVerses = getBookVerseCount(verse!.book_id);
-  } catch {}
+  const { verse, book, interpretation: rawInterp, prevVerseId, nextVerseId, totalVerses } = detail;
+  const interpretation: Interpretation | null = rawInterp
+    ? {
+        id: rawInterp.id,
+        verse_id: rawInterp.verse_id,
+        shabdarth: rawInterp.shabdarth ?? '',
+        bhavarth: rawInterp.bhavarth ?? '',
+        simple_example: rawInterp.simple_example ?? '',
+        guided_learning: rawInterp.guided_learning ?? '',
+        scientific_temperament: rawInterp.scientific_temperament ?? '',
+        modern_relevance: rawInterp.modern_relevance ?? '',
+        next_curiosity: rawInterp.next_curiosity ?? '',
+        source: (rawInterp.source as Interpretation['source']) || 'ai',
+        created_at: rawInterp.created_at ?? '',
+      }
+    : null;
+  const bookTitle = book.title_hindi;
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-12">
       <ReadingTracker
         bookSlug={bookId}
         categorySlug={category}
-        bookTitle={verse!.book_title || ''}
-        verseId={verse!.id}
-        verseNumber={verse!.verse_number}
+        bookTitle={bookTitle}
+        verseId={verse.id}
+        verseNumber={verse.verse_number}
         totalVerses={totalVerses}
       />
       {/* Breadcrumb */}
@@ -88,14 +72,14 @@ export default async function VerseDetailPage({
         <Link href="/" className="hover:text-accent transition-colors">मुख्य पृष्ठ</Link>
         <span className="mx-2">›</span>
         <Link href={`/categories/${category}`} className="hover:text-accent transition-colors">
-          {book?.category_name || category}
+          {book.category_name || category}
         </Link>
         <span className="mx-2">›</span>
         <Link href={`/categories/${category}/${bookId}`} className="hover:text-accent transition-colors">
-          {verse!.book_title}
+          {bookTitle}
         </Link>
         <span className="mx-2">›</span>
-        <span className="text-foreground">श्लोक {verse!.verse_number}</span>
+        <span className="text-foreground">श्लोक {verse.verse_number}</span>
       </nav>
 
       {/* Verse Display */}
@@ -103,52 +87,52 @@ export default async function VerseDetailPage({
         <div className="flex items-center justify-between mb-6">
           <div>
             <h1 className="font-serif-deva text-2xl font-bold text-foreground">
-              श्लोक {verse!.verse_number}
+              श्लोक {verse.verse_number}
             </h1>
-            <p className="text-sm text-muted mt-1">{verse!.book_title}</p>
+            <p className="text-sm text-muted mt-1">{bookTitle}</p>
           </div>
           <div className="flex items-center gap-2">
             <ShareButton
-              text={verse!.original_text.slice(0, 200)}
-              title={`${verse!.book_title} — श्लोक ${verse!.verse_number}`}
+              text={verse.original_text.slice(0, 200)}
+              title={`${bookTitle} — श्लोक ${verse.verse_number}`}
             />
             <BookmarkButton
-              verseId={verse!.id}
+              verseId={verse.id}
               bookSlug={bookId}
               categorySlug={category}
-              originalText={verse!.original_text.slice(0, 100)}
-              bookTitle={verse!.book_title || ''}
-              verseNumber={verse!.verse_number}
+              originalText={verse.original_text.slice(0, 100)}
+              bookTitle={bookTitle}
+              verseNumber={verse.verse_number}
             />
           </div>
         </div>
 
         {/* Original Text */}
         <div className="font-scripture text-xl leading-loose text-foreground whitespace-pre-wrap mb-6">
-          {verse!.original_text}
+          {verse.original_text}
         </div>
 
         {/* Transliteration */}
-        {verse!.transliteration && (
+        {verse.transliteration && (
           <div className="border-t border-verse-border pt-4 mb-4">
             <p className="text-xs font-semibold text-muted mb-1">लिप्यन्तरण:</p>
-            <p className="text-sm text-muted italic">{verse!.transliteration}</p>
+            <p className="text-sm text-muted italic">{verse.transliteration}</p>
           </div>
         )}
 
         {/* Hindi Translation */}
-        {verse!.translation_hindi && (
+        {verse.translation_hindi && (
           <div className="border-t border-verse-border pt-4 mb-4">
             <p className="text-xs font-semibold text-muted mb-1">हिन्दी अर्थ:</p>
-            <p className="text-foreground/80 leading-relaxed">{verse!.translation_hindi}</p>
+            <p className="text-foreground/80 leading-relaxed">{verse.translation_hindi}</p>
           </div>
         )}
 
         {/* English Translation */}
-        {verse!.translation_english && (
+        {verse.translation_english && (
           <div className="border-t border-verse-border pt-4">
             <p className="text-xs font-semibold text-muted mb-1">अंग्रेज़ी अर्थ:</p>
-            <p className="text-muted leading-relaxed italic">{verse!.translation_english}</p>
+            <p className="text-muted leading-relaxed italic">{verse.translation_english}</p>
           </div>
         )}
       </div>
@@ -159,7 +143,7 @@ export default async function VerseDetailPage({
           ✨ गहन हिन्दी व्याख्या
         </h2>
         <InterpretationPanel
-          verseId={verse!.id}
+          verseId={verse.id}
           initialInterpretation={interpretation}
           nextVerseHref={nextVerseId ? `/categories/${category}/${bookId}/${nextVerseId}` : null}
           categorySlug={category}
@@ -169,11 +153,11 @@ export default async function VerseDetailPage({
 
       <div className="mb-8">
         <VerseJournalPanel
-          verseId={verse!.id}
+          verseId={verse.id}
           bookSlug={bookId}
           categorySlug={category}
-          bookTitle={verse!.book_title || ''}
-          verseNumber={verse!.verse_number}
+          bookTitle={bookTitle}
+          verseNumber={verse.verse_number}
         />
       </div>
 
