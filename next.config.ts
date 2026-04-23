@@ -1,10 +1,15 @@
 import type { NextConfig } from "next";
 import path from "path";
 
+const isProd = process.env.NODE_ENV === 'production';
+const basePath = isProd ? '/dharma-granth' : '';
+
 const nextConfig: NextConfig = {
   serverExternalPackages: ["better-sqlite3"],
-  output: process.env.NODE_ENV === 'production' ? 'export' : 'standalone',
+  output: isProd ? 'export' : 'standalone',
   trailingSlash: true,
+  basePath,
+  assetPrefix: basePath || undefined,
   images: {
     unoptimized: true,
   },
