@@ -166,7 +166,7 @@ export default async function BookReaderPage({
       <div className={hasChapters ? 'lg:grid lg:grid-cols-[260px_1fr] lg:gap-8 lg:items-start' : ''}>
         {hasChapters && (
           <TableOfContents
-            chapters={chapters as Parameters<typeof TableOfContents>[0]['chapters']}
+            chapters={chapters.map((ch) => ({ ...ch, verse_count: 0, verse_offset: 0 })) as Parameters<typeof TableOfContents>[0]['chapters']}
             bookTitle={book!.title_hindi}
             bookSlug={bookId}
             categorySlug={category}
