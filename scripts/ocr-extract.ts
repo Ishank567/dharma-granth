@@ -25,15 +25,19 @@ import os from 'os';
 import Database from 'better-sqlite3';
 import { Worker } from 'node:worker_threads';
 
+const PROCESS_WITH_ENV = process as typeof process & { loadEnvFile?: (path?: string) => void };
+PROCESS_WITH_ENV.loadEnvFile?.(path.join(__dirname, '..', '.env.local'));
+
 const DB_PATH = path.join(__dirname, '..', 'db', 'dharma.db');
 const PDF_DIR = path.resolve(__dirname, '..', '..');
 const CHECKPOINT_PATH = path.join(__dirname, '..', 'db', 'ocr-checkpoint.json');
-const SERVICE_ACCOUNT_PATH = String.raw`C:\Users\ishan\Downloads\skilled-tangent-491310-b2-60f4ac6dad37.json`;
+const VISION_API_KEY = process.env.GOOGLE_VISION_API_KEY;
+const VISION_REST_URL = 'https://vision.googleapis.com/v1/images:annotate';
 const WORKER_PATH = path.join(__dirname, 'ocr-render-worker.ts');
 
-const DEFAULT_DPI = 200;
-const DEFAULT_VISION_CONCURRENCY = 15; // parallel Vision API calls (I/O-bound)
-const DEFAULT_RENDER_THREADS = Math.min(os.cpus().length - 1, 6); // CPU-bound render workers
+const DEFAULT_DPI = 150;
+const DEFAULT_VISION_CONCURRENCY = 10; // Reduced from 40 to avoid rate limits
+const DEFAULT_RENDER_THREADS = Math.min(os.cpus().length - 1, 4); // CPU-bound render workers
 
 // Parse CLI args
 const args = process.argv.slice(2);
@@ -136,28 +140,12 @@ interface ScannedBook {
 }
 
 function getScannedBooks(db: Database.Database): ScannedBook[] {
-  const rows = db.prepare(`
-    SELECT b.id, b.title, b.slug, b.pdf_filename, b.total_pages, b.category_id,
-      (SELECT GROUP_CONCAT(substr(original_text, 1, 200), '|||') FROM (
-        SELECT original_text FROM verses WHERE book_id = b.id LIMIT 5
-      )) as samples
-    FROM books b
-    ORDER BY b.total_pages ASC
-  `).all() as (ScannedBook & { samples: string })[];
-
-  return rows.filter((r) => {
-    const sampleTexts = (r.samples || '').split('|||');
-    // Check each sample: strip page markers and see if real text remains
-    const hasGoodText = sampleTexts.some((s) => {
-      const cleaned = s
-        .replace(/\n/g, ' ')
-        .replace(/-- \d+ of \d+ --/g, '')
-        .trim();
-      return cleaned.length > 100;
-    });
-    // Book is "scanned" if no verse sample has substantial readable text
-    return !hasGoodText;
-  });
+  return db.prepare(`
+    SELECT id, title, slug, pdf_filename, total_pages, category_id
+    FROM books
+    WHERE content_status = 'ocr_pending'
+    ORDER BY total_pages ASC
+  `).all() as ScannedBook[];
 }
 
 function splitIntoVerses(text: string): string[] {
@@ -232,30 +220,83 @@ function cleanOcrText(text: string): string {
     .trim();
 }
 
-async function main() {
-  console.log('🔍 OCR Re-extraction Script (Multi-threaded + Cloud Vision)');
-  console.log('============================================================\n');
+interface VisionTextResponse {
+  fullTextAnnotation?: { text?: string };
+  error?: { code: number; message: string; status: string };
+}
 
-  // Set up Vision API client
-  process.env.GOOGLE_APPLICATION_CREDENTIALS = SERVICE_ACCOUNT_PATH;
-  const vision = await import('@google-cloud/vision');
-  const visionClient = new vision.default.ImageAnnotatorClient();
+async function visionOcr(pngBuffer: Buffer | Uint8Array): Promise<string> {
+  const b64 = Buffer.from(pngBuffer.buffer, pngBuffer.byteOffset, pngBuffer.byteLength).toString('base64');
+  const body = {
+    requests: [
+      {
+        image: { content: b64 },
+        features: [{ type: 'DOCUMENT_TEXT_DETECTION' }],
+        imageContext: { languageHints: ['hi', 'sa', 'en'] },
+      },
+    ],
+  };
+
+  const maxRetries = 3;
+  let lastError: Error;
+
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    try {
+      const res = await fetch(`${VISION_REST_URL}?key=${VISION_API_KEY}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body),
+      });
+
+      if (!res.ok) {
+        const text = await res.text();
+        const err: any = new Error(`HTTP ${res.status}: ${text}`);
+        err.status = res.status;
+        throw err;
+      }
+
+      const json = (await res.json()) as { responses: VisionTextResponse[] };
+      const r = json.responses?.[0];
+      if (r?.error) throw new Error(`Vision error ${r.error.code}: ${r.error.message}`);
+      return r?.fullTextAnnotation?.text || '';
+    } catch (e: any) {
+      lastError = e;
+      console.warn(`⚠️  Vision API attempt ${attempt}/${maxRetries} failed: ${e.message}`);
+
+      if (attempt < maxRetries) {
+        // Exponential backoff: 1s, 2s, 4s
+        const delay = Math.pow(2, attempt - 1) * 1000;
+        console.warn(`   Retrying in ${delay}ms...`);
+        await new Promise(resolve => setTimeout(resolve, delay));
+      }
+    }
+  }
+
+  throw lastError!;
+}
+
+async function main() {
+  console.log('🔍 OCR Re-extraction Script (Multi-threaded + Cloud Vision REST)');
+  console.log('================================================================\n');
+
+  if (!VISION_API_KEY) {
+    console.error('❌ GOOGLE_VISION_API_KEY not set in .env.local');
+    process.exit(1);
+  }
 
   // Quick test call
   console.log('🔗 Testing Vision API connection...');
   try {
-    await visionClient.textDetection({
-      image: { content: Buffer.from(
-        'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg==',
-        'base64'
-      ) },
-    });
+    await visionOcr(Buffer.from(
+      'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg==',
+      'base64'
+    ));
     console.log('✅ Vision API connected successfully\n');
   } catch (e: any) {
     console.error(`❌ Vision API error: ${e.message}`);
-    if (e.message.includes('has not been used') || e.message.includes('PERMISSION_DENIED')) {
-      console.error('\n⚠️  Cloud Vision API is not enabled on this project.');
-      console.error('   Enable it at: https://console.cloud.google.com/apis/library/vision.googleapis.com');
+    if (e.message.includes('PERMISSION_DENIED') || e.message.includes('billing')) {
+      console.error('\n⚠️  Cloud Vision API is not enabled or billing is disabled.');
+      console.error('   Enable at: https://console.cloud.google.com/apis/library/vision.googleapis.com');
     }
     process.exit(1);
   }
@@ -307,6 +348,7 @@ async function main() {
   const deleteInterpretations = db.prepare(
     'DELETE FROM interpretations WHERE verse_id IN (SELECT id FROM verses WHERE book_id = ?)'
   );
+  const markBookReady = db.prepare("UPDATE books SET content_status = 'ready' WHERE id = ?");
 
   let booksProcessed = 0;
   let totalVersesCreated = 0;
@@ -358,21 +400,14 @@ async function main() {
           // Step 2: Vision API OCR (I/O-bound, semaphore-limited)
           await visionSem.acquire();
           try {
-            const [result] = await visionClient.documentTextDetection({
-              image: { content: renderResult.png },
-              imageContext: { languageHints: ['hi', 'sa', 'en'] },
-            });
-            pageTexts[pageIdx] = result.fullTextAnnotation?.text || '';
+            pageTexts[pageIdx] = await visionOcr(renderResult.png);
           } catch (e: any) {
-            // Retry once on transient errors
-            if (e.code === 14 || e.code === 8 || e.message?.includes('UNAVAILABLE')) {
+            // Retry once on transient errors (5xx, 429, network)
+            const transient = e.status === 429 || (e.status >= 500 && e.status < 600) || e.message?.includes('UNAVAILABLE');
+            if (transient) {
               await new Promise((r) => setTimeout(r, 2000));
               try {
-                const [result] = await visionClient.documentTextDetection({
-                  image: { content: renderResult.png },
-                  imageContext: { languageHints: ['hi', 'sa', 'en'] },
-                });
-                pageTexts[pageIdx] = result.fullTextAnnotation?.text || '';
+                pageTexts[pageIdx] = await visionOcr(renderResult.png);
               } catch (e2) {
                 console.log(`\n   ⚠️  Page ${pageIdx + 1} OCR retry failed: ${(e2 as Error).message}`);
               }
@@ -434,6 +469,7 @@ async function main() {
             Math.max(1, Math.floor((i / Math.max(verses.length, 1)) * pageCount) + 1)
           );
         }
+        markBookReady.run(book.id);
       });
       replaceBook();
       totalVersesCreated += verses.length;

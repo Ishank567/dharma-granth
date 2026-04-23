@@ -181,3 +181,27 @@ body {
   height: 1px;
 }
 
+/* === Book chapter divider ornament === */
+.chapter-divider {
+  scroll-margin-top: 6rem;
+}
+
+/* === TOC sidebar scrollbar === */
+aside::-webkit-scrollbar {
+  width: 4px;
+}
+aside::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 2px;
+}
+
+/* === Book page drop-cap style for first verse in chapter === */
+.chapter-first-verse .font-scripture::first-letter {
+  font-size: 2.5em;
+  line-height: 1;
+  float: left;
+  margin-right: 0.1em;
+  color: var(--accent);
+  font-family: var(--font-serif-deva), Georgia, serif;
+}
+

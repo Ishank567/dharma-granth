@@ -48,6 +48,7 @@ export interface Verse {
   book_slug?: string;
   category_slug?: string;
   chapter_title?: string;
+  chapter_title_hindi?: string;
 }
 
 export interface Interpretation {

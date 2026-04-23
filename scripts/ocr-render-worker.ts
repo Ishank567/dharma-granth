@@ -30,8 +30,15 @@ parentPort!.on('message', async (msg: any) => {
         docCache.set(msg.pdfPath, cached);
       }
       const page = cached.doc.loadPage(msg.pageIdx);
+      // Cap rendered size to avoid OOM on large-format scanned pages
+      const MAX_PIXELS = 3000 * 4000;
+      const b = page.getBounds();
+      const pw = b.x1 - b.x0, ph = b.y1 - b.y0;
+      const effectiveScale = pw * ph * msg.scale * msg.scale > MAX_PIXELS
+        ? Math.sqrt(MAX_PIXELS / (pw * ph))
+        : msg.scale;
       const pixmap = page.toPixmap(
-        [msg.scale, 0, 0, msg.scale, 0, 0],
+        [effectiveScale, 0, 0, effectiveScale, 0, 0],
         mupdf.ColorSpace.DeviceRGB
       );
       const png = Buffer.from(pixmap.asPNG());

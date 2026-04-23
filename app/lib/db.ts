@@ -306,6 +306,26 @@ export function searchVersesCount(query: string, categorySlug?: string): number 
   return result.count;
 }
 
+export function getChaptersByBook(bookId: number) {
+  const db = getDb();
+  return db.prepare(`
+    SELECT ch.id, ch.chapter_number, ch.title, ch.title_hindi,
+           COUNT(v.id) as verse_count,
+           COALESCE((
+             SELECT COUNT(*) FROM verses v2
+             WHERE v2.book_id = ch.book_id
+             AND v2.verse_number < COALESCE(
+               (SELECT MIN(v3.verse_number) FROM verses v3 WHERE v3.chapter_id = ch.id), 0
+             )
+           ), 0) as verse_offset
+    FROM chapters ch
+    LEFT JOIN verses v ON v.chapter_id = ch.id
+    WHERE ch.book_id = ?
+    GROUP BY ch.id
+    ORDER BY ch.chapter_number
+  `).all(bookId);
+}
+
 export function getBookVerseCount(bookId: number): number {
   const db = getDb();
   const result = db.prepare('SELECT COUNT(*) as count FROM verses WHERE book_id = ?').get(bookId) as { count: number };
