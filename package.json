@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "dev:clean": "node -e \"fs.rmSync('.next',{recursive:true,force:true})\" && next dev",
-    "build": "next build",
+    "build": "tsx scripts/build-snapshots.ts && next build",
+    "build:snapshots": "tsx scripts/build-snapshots.ts",
     "start": "next start",
     "lint": "eslint",
     "extract": "tsx scripts/extract-pdfs.ts",
