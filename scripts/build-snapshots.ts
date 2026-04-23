@@ -175,4 +175,35 @@ for (const book of books) {
 }
 
 console.log(`[snapshots] ${totalWritten} book snapshots written to public/data/books/.`);
+
+type SearchDoc = {
+  id: number;
+  book_slug: string;
+  category_slug: string;
+  book_title: string;
+  verse_number: number;
+  text: string;
+  translation: string;
+};
+
+const searchDocs: SearchDoc[] = [];
+const searchVerseStmt = db.prepare(
+  `SELECT v.id, v.verse_number,
+          substr(v.original_text, 1, 300) AS text,
+          substr(COALESCE(v.translation_hindi, ''), 1, 300) AS translation,
+          b.slug AS book_slug,
+          b.title_hindi AS book_title,
+          c.slug AS category_slug
+   FROM verses v
+   JOIN books b ON b.id = v.book_id
+   JOIN categories c ON c.id = b.category_id
+   WHERE b.content_status = 'ready' AND length(v.original_text) > 3`,
+);
+for (const row of searchVerseStmt.iterate() as IterableIterator<SearchDoc>) {
+  searchDocs.push(row);
+}
+
+fs.writeFileSync(path.join(OUT_DIR, 'search-index.json'), JSON.stringify(searchDocs));
+console.log(`[snapshots] search-index.json written: ${searchDocs.length} docs.`);
+
 db.close();
