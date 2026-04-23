@@ -115,7 +115,7 @@ function SectionCard({
   );
 }
 
-export default function InterpretationPanel({ verseId, initialInterpretation, nextVerseHref }: Props) {
+export default function InterpretationPanel({ verseId, initialInterpretation, nextVerseHref, bookSlug }: Props) {
   const [interpretation, setInterpretation] = useState<Interpretation | null>(
     initialInterpretation || null
   );
@@ -145,7 +145,7 @@ export default function InterpretationPanel({ verseId, initialInterpretation, ne
       const res = await fetch('/api/interpret', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ verseId, debugMode: options?.debugMode }),
+        body: JSON.stringify({ verseId, bookSlug, debugMode: options?.debugMode }),
       });
 
       const data = await res.json();

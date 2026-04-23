@@ -98,6 +98,15 @@ export type BookSnapshot = {
 
 const bookCache = new Map<string, BookSnapshot | null>();
 
+export function invalidateBookCache(slug?: string) {
+  if (slug) bookCache.delete(slug);
+  else bookCache.clear();
+}
+
+export function getBookFilePath(slug: string): string {
+  return path.join(DATA_DIR, 'books', `${slug}.json`);
+}
+
 export function getBookBySlug(slug: string): BookSnapshot | null {
   if (bookCache.has(slug)) return bookCache.get(slug) ?? null;
   const file = path.join(DATA_DIR, 'books', `${slug}.json`);

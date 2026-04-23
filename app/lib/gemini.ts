@@ -94,11 +94,29 @@ function extractJsonPayload(text: string) {
   return jsonMatch[0];
 }
 
+function collectGeminiApiKeys(): string[] {
+  const keys: string[] = [];
+  const seen = new Set<string>();
+  const tryPush = (value: string | undefined) => {
+    if (!value) return;
+    const trimmed = value.trim();
+    if (!trimmed || seen.has(trimmed)) return;
+    seen.add(trimmed);
+    keys.push(trimmed);
+  };
+  tryPush(process.env.GOOGLE_GEMINI_API_KEY_2);
+  tryPush(process.env.GOOGLE_GEMINI_API_KEY);
+  for (let i = 3; i <= 20; i++) {
+    tryPush(process.env[`GOOGLE_GEMINI_API_KEY_${i}`]);
+  }
+  return keys;
+}
+
 export async function generateInterpretation(input: InterpretationGenerationInput) {
-  const keys = [
-    process.env.GOOGLE_GEMINI_API_KEY_2,
-    process.env.GOOGLE_GEMINI_API_KEY,
-  ].filter(Boolean) as string[];
+  const keys = collectGeminiApiKeys();
+  if (keys.length === 0) {
+    throw new Error('Gemini API key सेट नहीं है');
+  }
 
   let lastError: unknown;
   for (const key of keys) {
@@ -111,12 +129,11 @@ export async function generateInterpretation(input: InterpretationGenerationInpu
     } catch (error) {
       lastError = error;
       if (error instanceof InterpretationValidationError) throw error;
-      // Try next key on rate limit or other API errors
       continue;
     }
   }
 
-  throw lastError instanceof InterpretationValidationError
+  throw lastError instanceof Error
     ? lastError
-    : new InterpretationValidationError('एआई उत्तर को वैध व्याख्या के रूप में पढ़ा नहीं जा सका');
+    : new Error('Gemini request failed');
 }
