@@ -38,6 +38,7 @@ jobs:
         env:
           NODE_ENV: production
           NEXT_OUTPUT: export
+          NEXT_PUBLIC_BASE_PATH: /dharma-granth
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
