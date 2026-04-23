@@ -110,6 +110,76 @@ export function getBookBySlug(slug: string): BookSnapshot | null {
   return data;
 }
 
+export type VerseDetail = {
+  verse: Verse;
+  book: BookSnapshot;
+  interpretation: BookSnapshot['interpretations'][number] | null;
+  prevVerseId: number | null;
+  nextVerseId: number | null;
+  totalVerses: number;
+};
+
+export function getVerseDetail(bookSlug: string, verseId: number): VerseDetail | null {
+  const book = getBookBySlug(bookSlug);
+  if (!book) return null;
+  const idx = book.verses.findIndex((v) => v.id === verseId);
+  if (idx === -1) return null;
+  const verse = book.verses[idx];
+  const interpretation = book.interpretations[verseId] ?? null;
+  // Adjacent verses that also have an interpretation — ensures links don't 404
+  // on a static export where only interpreted verses emit HTML.
+  let prevVerseId: number | null = null;
+  for (let i = idx - 1; i >= 0; i--) {
+    if (book.interpretations[book.verses[i].id]) {
+      prevVerseId = book.verses[i].id;
+      break;
+    }
+  }
+  let nextVerseId: number | null = null;
+  for (let i = idx + 1; i < book.verses.length; i++) {
+    if (book.interpretations[book.verses[i].id]) {
+      nextVerseId = book.verses[i].id;
+      break;
+    }
+  }
+  return {
+    verse,
+    book,
+    interpretation,
+    prevVerseId,
+    nextVerseId,
+    totalVerses: book.verses.length,
+  };
+}
+
+/**
+ * Enumerate (category, bookId, verseId) tuples for every verse that has an
+ * interpretation. Used by generateStaticParams on the verse detail page so
+ * GitHub Pages emits HTML only for the curated subset.
+ */
+export function getInterpretedVerseParams(): Array<{
+  category: string;
+  bookId: string;
+  verseId: string;
+}> {
+  const catalog = loadCatalog();
+  if (!catalog) return [];
+  const params: Array<{ category: string; bookId: string; verseId: string }> = [];
+  for (const bookMeta of catalog.books) {
+    if (bookMeta.content_status !== 'ready') continue;
+    const book = getBookBySlug(bookMeta.slug);
+    if (!book) continue;
+    for (const verseId of Object.keys(book.interpretations)) {
+      params.push({
+        category: bookMeta.category_slug,
+        bookId: bookMeta.slug,
+        verseId,
+      });
+    }
+  }
+  return params;
+}
+
 export function getRandomVerse(): Verse | null {
   const catalog = loadCatalog();
   if (!catalog) return null;
