@@ -7,6 +7,13 @@ import type {
   InterpretationFallbackReason,
 } from '@/app/lib/interpretationUtils';
 import Link from 'next/link';
+import MindMap from '@/app/components/MindMap';
+
+interface VerseRecallData {
+  verseNumber: number;
+  originalText: string;
+  translationHindi?: string;
+}
 
 interface Props {
   verseId: number;
@@ -14,6 +21,7 @@ interface Props {
   nextVerseHref?: string | null;
   categorySlug?: string;
   bookSlug?: string;
+  verseRecall?: VerseRecallData;
 }
 
 type RequestState = 'idle' | 'generating' | 'upgrading';
@@ -115,7 +123,7 @@ function SectionCard({
   );
 }
 
-export default function InterpretationPanel({ verseId, initialInterpretation, nextVerseHref, bookSlug }: Props) {
+export default function InterpretationPanel({ verseId, initialInterpretation, nextVerseHref, bookSlug, verseRecall }: Props) {
   const [interpretation, setInterpretation] = useState<Interpretation | null>(
     initialInterpretation || null
   );
@@ -124,7 +132,24 @@ export default function InterpretationPanel({ verseId, initialInterpretation, ne
     getInitialResponseMeta(initialInterpretation)
   );
   const [error, setError] = useState('');
+  const [showRecall, setShowRecall] = useState(false);
   const autoUpgradeAttemptedRef = useRef(false);
+
+  const hasVerseRecall = !!verseRecall;
+  useEffect(() => {
+    if (!hasVerseRecall) return;
+    const target = document.getElementById('main-verse-display');
+    if (!target || typeof IntersectionObserver === 'undefined') {
+      setShowRecall(true);
+      return;
+    }
+    const observer = new IntersectionObserver(
+      ([entry]) => setShowRecall(!entry.isIntersecting),
+      { threshold: 0 }
+    );
+    observer.observe(target);
+    return () => observer.disconnect();
+  }, [hasVerseRecall, verseId]);
 
   useEffect(() => {
     setInterpretation(initialInterpretation || null);
@@ -359,11 +384,67 @@ export default function InterpretationPanel({ verseId, initialInterpretation, ne
     .map((line) => line.replace(/^\d+\.\s*/, '').trim())
     .filter(Boolean);
 
+  const hasMindMap = !!currentInterpretation.concept_map;
+  const hasExample = !!simpleExampleText;
+  const hasNextCta = !!(nextCuriosityText || nextVerseHref);
+
+  const roadmap: { key: string; label: string }[] = [
+    { key: 'shabdarth', label: 'शब्दार्थ' },
+    { key: 'bhavarth', label: 'भावार्थ' },
+  ];
+  if (hasMindMap) roadmap.push({ key: 'mindmap', label: 'मानचित्र' });
+  if (hasExample) roadmap.push({ key: 'example', label: 'उदाहरण' });
+  roadmap.push(
+    { key: 'guided', label: 'अध्ययन क्रम' },
+    { key: 'scientific', label: 'वैज्ञानिक दृष्टि' },
+    { key: 'practice', label: 'जीवन-साधना' }
+  );
+  if (hasNextCta) roadmap.push({ key: 'next', label: 'आगे' });
+
+  const stepNumbers = Object.fromEntries(
+    roadmap.map((step, idx) => [step.key, idx + 1])
+  ) as Record<string, number>;
+  const stepMindMap = stepNumbers.mindmap ?? null;
+  const stepExample = stepNumbers.example ?? null;
+  const stepGuided = stepNumbers.guided;
+  const stepScientific = stepNumbers.scientific;
+  const stepPractice = stepNumbers.practice;
+  const stepNext = stepNumbers.next ?? null;
+
+  const verseRecallCard = verseRecall && showRecall ? (
+    <div className="sticky top-2 z-20 -mb-2 rounded-xl border border-accent/30 bg-white/92 dark:bg-card/95 backdrop-blur px-4 py-2.5 shadow-[0_4px_16px_-4px_rgba(0,0,0,0.08)] animate-in fade-in slide-in-from-top-2 duration-200">
+      <div className="flex items-start gap-3">
+        <span className="shrink-0 inline-flex items-center gap-1 rounded-full bg-accent/10 px-2 py-0.5 text-[10px] font-bold text-accent uppercase tracking-wide">
+          श्लोक {verseRecall.verseNumber}
+        </span>
+        <div className="min-w-0 flex-1">
+          <p className="font-scripture text-sm leading-snug text-foreground line-clamp-2 whitespace-pre-wrap">
+            {verseRecall.originalText}
+          </p>
+          {verseRecall.translationHindi && (
+            <p className="text-[11px] text-muted mt-0.5 line-clamp-1 hidden sm:block">
+              {verseRecall.translationHindi}
+            </p>
+          )}
+        </div>
+        <button
+          type="button"
+          onClick={() => setShowRecall(false)}
+          aria-label="छिपाएँ"
+          className="shrink-0 -mr-1 -mt-1 flex h-6 w-6 items-center justify-center rounded-full text-muted hover:bg-accent/10 hover:text-accent transition-colors"
+        >
+          <span className="text-sm leading-none">×</span>
+        </button>
+      </div>
+    </div>
+  ) : null;
+
   return (
     <div className="space-y-6">
+      {verseRecallCard}
       {/* Source badge */}
       <div className={`rounded-xl border p-3 ${sourceToneClass}`}>
-        <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+        <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5">
           <div className="flex items-center gap-2">
             <span className={`inline-block size-2 rounded-full ${currentInterpretation.source === 'ai' ? 'bg-emerald-500' : currentInterpretation.source === 'manual' ? 'bg-sky-500' : 'bg-amber-500'
               }`} />
@@ -371,11 +452,11 @@ export default function InterpretationPanel({ verseId, initialInterpretation, ne
               {statusBadge}
             </p>
           </div>
-          <p className="text-xs opacity-70">{statusDescription}</p>
+          <p className="text-xs opacity-70 flex-1 min-w-[12rem]">{statusDescription}</p>
           {currentInterpretation.source === 'offline' && requestState === 'idle' && (
             <button
               onClick={() => { void requestInterpretation('upgrading'); }}
-              className="inline-flex items-center justify-center rounded-lg border border-current/20 bg-white/60 dark:bg-white/10 px-3 py-1.5 text-xs font-semibold transition-colors hover:bg-white dark:hover:bg-white/20"
+              className="ml-auto inline-flex items-center justify-center rounded-lg border border-current/20 bg-white/60 dark:bg-white/10 px-3 py-1.5 text-xs font-semibold transition-colors hover:bg-white dark:hover:bg-white/20"
             >
               एआई उन्नयन
             </button>
@@ -393,11 +474,11 @@ export default function InterpretationPanel({ verseId, initialInterpretation, ne
           <h3 className="font-serif-deva text-base font-bold text-primary">अध्ययन मार्ग</h3>
         </div>
         <div className="flex flex-wrap items-center gap-1 text-xs text-muted">
-          {['शब्दार्थ', 'भावार्थ', 'उदाहरण', 'अध्ययन क्रम', 'वैज्ञानिक दृष्टि', 'जीवन-साधना', 'आगे →'].map((step, i) => (
-            <span key={step} className="flex items-center gap-1">
+          {roadmap.map((step, i) => (
+            <span key={step.key} className="flex items-center gap-1">
               <span className="flex h-5 w-5 items-center justify-center rounded-full bg-accent/10 text-[10px] font-bold text-accent">{i + 1}</span>
-              <span>{step}</span>
-              {i < 6 && <span className="text-accent/40 mx-0.5">→</span>}
+              <span>{step.label}</span>
+              {i < roadmap.length - 1 && <span className="text-accent/40 mx-0.5">→</span>}
             </span>
           ))}
         </div>
@@ -415,17 +496,57 @@ export default function InterpretationPanel({ verseId, initialInterpretation, ne
         <p className="whitespace-pre-wrap text-base leading-relaxed">{currentInterpretation.bhavarth}</p>
       </SectionCard>
 
-      {/* ── 3. सरल दृश्य (उदाहरण) ── */}
-      {simpleExampleText && (
-        <SectionCard icon="💡" title="समझें एक सरल उदाहरण से" color="sky" stepNumber={3}>
+
+      {/* ── Concept map / mind-map infographic ── */}
+      {currentInterpretation.concept_map ? (
+        <div className="relative">
+          {stepMindMap !== null && (
+            <div className="absolute -top-3 right-4 z-10 flex h-7 w-7 items-center justify-center rounded-full bg-accent text-xs font-bold text-white shadow-md ring-2 ring-card">
+              {stepMindMap}
+            </div>
+          )}
+          <MindMap raw={currentInterpretation.concept_map} />
+        </div>
+      ) : currentInterpretation.source === 'ai' ? (
+        <div className="rounded-2xl border border-dashed border-indigo-300/60 dark:border-indigo-700/40 bg-indigo-50/30 dark:bg-indigo-950/10 p-4 flex items-center gap-3">
+          <span className="text-2xl">🧠</span>
+          <div className="flex-1 min-w-0">
+            <p className="text-sm font-semibold text-foreground">
+              {requestState === 'upgrading' ? 'मानचित्र तैयार हो रहा है...' : 'अवधारणा मानचित्र उपलब्ध नहीं'}
+            </p>
+            <p className="text-xs text-muted">
+              {requestState === 'upgrading'
+                ? 'कुछ ही क्षण प्रतीक्षा करें — एआई नया मानचित्र बना रहा है।'
+                : 'यह व्याख्या पुराने प्रारूप में है। एक नए मानचित्र के लिए पुनर्निर्माण करें।'}
+            </p>
+          </div>
+          {requestState === 'upgrading' ? (
+            <div className="shrink-0 flex items-center gap-2 text-indigo-700 dark:text-indigo-300">
+              <span className="h-4 w-4 rounded-full border-2 border-indigo-500 border-t-transparent animate-spin" />
+            </div>
+          ) : (
+            <button
+              disabled={requestState !== 'idle'}
+              onClick={() => { void requestInterpretation('upgrading', { debugMode: 'force-ai-upgrade' }); }}
+              className="shrink-0 rounded-lg bg-indigo-600 px-3 py-1.5 text-xs font-semibold text-white hover:bg-indigo-700 disabled:opacity-50 transition-colors"
+            >
+              मानचित्र बनाएँ
+            </button>
+          )}
+        </div>
+      ) : null}
+
+      {/* ── सरल दृश्य (उदाहरण) ── */}
+      {simpleExampleText && stepExample !== null && (
+        <SectionCard icon="💡" title="समझें एक सरल उदाहरण से" color="sky" stepNumber={stepExample}>
           <div className="rounded-xl bg-white/50 dark:bg-white/5 border border-sky-200/50 dark:border-sky-700/30 p-4">
             <p className="whitespace-pre-wrap text-base leading-relaxed italic">{simpleExampleText}</p>
           </div>
         </SectionCard>
       )}
 
-      {/* ── 4. मार्गदर्शित अध्ययन (Step-by-Step) ── */}
-      <SectionCard icon="🧭" title="मार्गदर्शित अध्ययन" color="violet" stepNumber={simpleExampleText ? 4 : 3}>
+      {/* ── मार्गदर्शित अध्ययन (Step-by-Step) ── */}
+      <SectionCard icon="🧭" title="मार्गदर्शित अध्ययन" color="violet" stepNumber={stepGuided}>
         <div className="space-y-2">
           {guidedSteps.map((step, i) => (
             <div key={i} className="flex items-start gap-3 rounded-lg bg-white/40 dark:bg-white/5 p-3 border border-violet-200/30 dark:border-violet-700/20">
@@ -438,21 +559,26 @@ export default function InterpretationPanel({ verseId, initialInterpretation, ne
         </div>
       </SectionCard>
 
-      {/* ── 5. वैज्ञानिक दृष्टि ── */}
-      <SectionCard icon="🔬" title="वैज्ञानिक दृष्टि और तर्कशीलता" color="teal" stepNumber={simpleExampleText ? 5 : 4}>
+      {/* ── वैज्ञानिक दृष्टि ── */}
+      <SectionCard icon="🔬" title="वैज्ञानिक दृष्टि और तर्कशीलता" color="teal" stepNumber={stepScientific}>
         <p className="whitespace-pre-wrap text-base leading-relaxed">{scientificTemperamentText}</p>
       </SectionCard>
 
-      {/* ── 6. जीवन-साधना ── */}
-      <SectionCard icon="🌱" title="जीवन-साधना — आज का अभ्यास" color="orange" stepNumber={simpleExampleText ? 6 : 5}>
+      {/* ── जीवन-साधना ── */}
+      <SectionCard icon="🌱" title="जीवन-साधना — आज का अभ्यास" color="orange" stepNumber={stepPractice}>
         <div className="rounded-xl bg-orange-50/50 dark:bg-orange-950/20 border border-orange-200/50 dark:border-orange-700/30 p-4">
           <p className="whitespace-pre-wrap text-base leading-relaxed">{currentInterpretation.modern_relevance}</p>
         </div>
       </SectionCard>
 
-      {/* ── 7. Next Curiosity / Motivation to continue ── */}
-      {(nextCuriosityText || nextVerseHref) && (
-        <div className="rounded-2xl border-2 border-accent/30 bg-gradient-to-br from-accent/5 via-card to-accent-bg/30 p-6 text-center">
+      {/* ── Next Curiosity / Motivation to continue ── */}
+      {hasNextCta && (
+        <div className="relative rounded-2xl border-2 border-accent/30 bg-gradient-to-br from-accent/5 via-card to-accent-bg/30 p-6 text-center">
+          {stepNext !== null && (
+            <div className="absolute -top-3 -left-2 flex h-7 w-7 items-center justify-center rounded-full bg-accent text-xs font-bold text-white shadow-md ring-2 ring-card">
+              {stepNext}
+            </div>
+          )}
           <div className="text-3xl mb-3">🚀</div>
           {nextCuriosityText && (
             <p className="text-base text-foreground/90 leading-relaxed mb-4 max-w-lg mx-auto font-serif-deva">
