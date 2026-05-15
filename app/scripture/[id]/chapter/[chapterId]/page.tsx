@@ -19,11 +19,48 @@ interface PageProps {
 export function generateStaticParams() {
   const params: { id: string; chapterId: string }[] = [];
   for (const meta of getAllScriptures()) {
+    const seen = new Set<string>();
     const scripture = getScripture(meta.id);
     if (scripture && scripture.chapters && scripture.chapters.length > 0) {
       for (const ch of scripture.chapters) {
-        params.push({ id: meta.id, chapterId: String(ch.id) });
+        const cid = String(ch.id);
+        if (!seen.has(cid)) {
+          params.push({ id: meta.id, chapterId: cid });
+          seen.add(cid);
+        }
       }
+    }
+
+    // Also emit params for chapters that exist only in the seeded
+    // full-text JSON (public/data/scriptures-full/<id>.json). For
+    // scriptures whose curated TS module covers fewer chapters than
+    // were seeded (e.g. yajurveda's curated 1-4 vs seeded 1-40), this
+    // is what makes the seeded chapters reachable as static pages.
+    try {
+      // Lazy require: only at build/dev time, not in the client bundle.
+      // eslint-disable-next-line @typescript-eslint/no-var-requires
+      const fs = require('node:fs') as typeof import('node:fs');
+      // eslint-disable-next-line @typescript-eslint/no-var-requires
+      const path = require('node:path') as typeof import('node:path');
+      const filePath = path.resolve(
+        process.cwd(),
+        'public/data/scriptures-full',
+        `${meta.id}.json`,
+      );
+      if (fs.existsSync(filePath)) {
+        const raw = fs.readFileSync(filePath, 'utf8');
+        const data = JSON.parse(raw) as { chapters?: { number?: number | string }[] };
+        for (const ch of data.chapters ?? []) {
+          if (ch.number === undefined) continue;
+          const cid = String(ch.number);
+          if (!seen.has(cid)) {
+            params.push({ id: meta.id, chapterId: cid });
+            seen.add(cid);
+          }
+        }
+      }
+    } catch {
+      // Silently ignore — generateStaticParams falling back to curated-only is fine.
     }
   }
   return params;
@@ -77,9 +114,52 @@ export default function ChapterPage({ params }: PageProps) {
   if (!scripture || !meta) return notFound();
 
   const chapterId = parseInt(params.chapterId, 10);
+  if (!Number.isFinite(chapterId) || chapterId < 1) return notFound();
   const chapterIndex = scripture.chapters.findIndex(c => c.id === chapterId);
-  const chapter = scripture.chapters[chapterIndex];
-  if (!chapter) return notFound();
+  const curatedChapter = scripture.chapters[chapterIndex];
+
+  // If the curated TS module doesn't have this chapter, fall back to a
+  // synthetic stub. The seeded full-text JSON (loaded by FullChapterVerses)
+  // covers everything; the stub is just a placeholder so the page can
+  // render headers and pagination. `generateStaticParams` already emits
+  // params for these chapters when seeded JSON exists.
+  const chapter = curatedChapter ?? {
+    id: chapterId,
+    title: `Chapter ${chapterId}`,
+    titleSanskrit: undefined,
+    summary: undefined,
+    verses: [],
+  };
+
+  // Determine the navigable chapter range. Curated TS may stop short
+  // of the seeded JSON (e.g. yajurveda curated 1–4 / seeded 1–40); we
+  // want pagination to span the full seeded range so users can keep
+  // moving forward into seeded-only chapters.
+  let totalChapterCount = scripture.chapters.length;
+  try {
+    // eslint-disable-next-line @typescript-eslint/no-var-requires
+    const fs = require('node:fs') as typeof import('node:fs');
+    // eslint-disable-next-line @typescript-eslint/no-var-requires
+    const path = require('node:path') as typeof import('node:path');
+    const filePath = path.resolve(
+      process.cwd(),
+      'public/data/scriptures-full',
+      `${meta.id}.json`,
+    );
+    if (fs.existsSync(filePath)) {
+      const data = JSON.parse(fs.readFileSync(filePath, 'utf8')) as {
+        chapters?: { number?: number }[];
+      };
+      const maxSeeded = (data.chapters ?? []).reduce(
+        (m, c) => (typeof c.number === 'number' && c.number > m ? c.number : m),
+        0,
+      );
+      if (maxSeeded > totalChapterCount) totalChapterCount = maxSeeded;
+    }
+  } catch {
+    // Fall back to curated count.
+  }
+  if (chapterId > totalChapterCount) return notFound();
 
   const previousChapter = chapterIndex > 0 ? scripture.chapters[chapterIndex - 1] : undefined;
   const nextChapter = chapterIndex < scripture.chapters.length - 1 ? scripture.chapters[chapterIndex + 1] : undefined;
@@ -145,7 +225,7 @@ export default function ChapterPage({ params }: PageProps) {
               {chapter.id}
             </span>
             <div className="flex-1 min-w-0">
-              <div className="text-xs uppercase tracking-[0.3em] text-saffron-200/90 mb-1">Chapter {chapter.id} of {scripture.chapters.length}</div>
+              <div className="text-xs uppercase tracking-[0.3em] text-saffron-200/90 mb-1">Chapter {chapter.id} of {totalChapterCount}</div>
               <h1 className="text-3xl md:text-4xl font-serif font-bold mb-1">{chapter.title}</h1>
               <p className="text-xl font-devanagari opacity-90">{chapter.titleSanskrit}</p>
             </div>
@@ -291,7 +371,7 @@ export default function ChapterPage({ params }: PageProps) {
           ) : (
             <div />
           )}
-          {chapterId < scripture.chapters.length && (
+          {chapterId < totalChapterCount && (
             <Link
               href={`/scripture/${params.id}/chapter/${chapterId + 1}`}
               className="group inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-gradient-to-br from-saffron-600 to-saffron-700 text-white hover:shadow-lg transition ml-auto"
