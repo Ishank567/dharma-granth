@@ -1,92 +1,106 @@
-import type { Metadata } from "next";
-import { Noto_Serif_Devanagari, Noto_Sans_Devanagari } from "next/font/google";
+import type { Metadata, Viewport } from "next";
+import { SiteNav } from "@/app/components/SiteNav";
+import { PageTransition } from "@/app/components/motion/PageTransition";
+import { Inter, Merriweather, Noto_Sans_Devanagari } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "@/app/components/ThemeProvider";
-import Header from "@/app/components/Header";
-import { getStats } from "@/app/lib/content";
 
-const notoSerif = Noto_Serif_Devanagari({
-  variable: "--font-serif-deva",
-  subsets: ["latin", "devanagari"],
-  weight: ["400", "600", "700"],
-  display: "swap",
-});
-
-const notoSans = Noto_Sans_Devanagari({
-  variable: "--font-sans-deva",
-  subsets: ["latin", "devanagari"],
-  weight: ["400", "500", "600", "700"],
-  display: "swap",
-});
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL || "https://dharmagranth.example";
+const SITE_NAME = "Dharma Granth";
+const DEFAULT_TITLE = "Dharma Granth — Hindu Scriptures, Verse by Verse";
+const DEFAULT_DESCRIPTION =
+  "Famous verses from the Bhagavad Gita, Upanishads, and other Hindu scriptures, explained verse by verse in Sanskrit, Hindi, and plain English. Free and ad-free.";
 
 export const metadata: Metadata = {
-  title: "धर्म ग्रंथ — सनातन धर्म के पवित्र ग्रंथ",
-  description:
-    "वेद, उपनिषद, गीता, पुराण और भक्ति ग्रंथों को पढ़ें — गहन हिन्दी व्याख्या के साथ",
-  keywords: ["धर्म ग्रंथ", "वेद", "उपनिषद", "गीता", "पुराण", "संस्कृत", "हिन्दी व्याख्या", "सनातन धर्म"],
-  openGraph: {
-    title: "धर्म ग्रंथ — सनातन धर्म के पवित्र ग्रंथ",
-    description: "सनातन धर्मग्रंथों की गहन हिन्दी व्याख्या — शब्दार्थ, भावार्थ, वैज्ञानिक दृष्टि और जीवन-साधना",
-    type: "website",
-    locale: "hi_IN",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: DEFAULT_TITLE,
+    template: "%s — Dharma Granth",
   },
+  description: DEFAULT_DESCRIPTION,
+  applicationName: SITE_NAME,
+  keywords: [
+    "Bhagavad Gita",
+    "Upanishads",
+    "Hindu scripture",
+    "Sanskrit verses",
+    "Vedas",
+    "Hindi commentary",
+    "dharma",
+    "verse meaning",
+  ],
+  authors: [{ name: "Dharma Granth" }],
+  creator: "Dharma Granth",
+  publisher: "Dharma Granth",
+  alternates: { canonical: "/" },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    alternateLocale: ["hi_IN"],
+    url: SITE_URL,
+    siteName: SITE_NAME,
+    title: DEFAULT_TITLE,
+    description: DEFAULT_DESCRIPTION,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: DEFAULT_TITLE,
+    description: DEFAULT_DESCRIPTION,
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "large",
+      "max-video-preview": -1,
+    },
+  },
+  category: "religion",
 };
+
+export const viewport: Viewport = {
+  themeColor: "#c2410c",
+  width: "device-width",
+  initialScale: 1,
+};
+
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-inter",
+});
+
+const merriweather = Merriweather({
+  subsets: ["latin"],
+  weight: ["300", "400", "700"],
+  style: ["normal", "italic"],
+  display: "swap",
+  variable: "--font-merriweather",
+});
+
+const notoSansDevanagari = Noto_Sans_Devanagari({
+  subsets: ["devanagari"],
+  weight: ["300", "400", "500", "600", "700"],
+  display: "swap",
+  variable: "--font-noto-devanagari",
+});
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
-  let stats = { categories: 0, books: 0, verses: 0 };
-  try {
-    stats = getStats();
-  } catch (error) {
-    console.error('Failed to load footer stats:', error);
-  }
-
+}) {
   return (
     <html
-      lang="hi"
-      className={`${notoSerif.variable} ${notoSans.variable} h-full antialiased`}
-      suppressHydrationWarning
+      lang="en"
+      className={`${inter.variable} ${merriweather.variable} ${notoSansDevanagari.variable}`}
     >
-      <body className="min-h-full flex flex-col bg-background text-foreground font-sans-deva">
-        <a
-          href="#main"
-          className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[100] focus:rounded-lg focus:bg-accent focus:px-4 focus:py-2 focus:text-white focus:text-sm focus:font-semibold"
-        >
-          मुख्य सामग्री पर जाएँ
-        </a>
-        <ThemeProvider>
-          <Header />
-          <main id="main" className="flex-1">{children}</main>
-          <footer className="relative mt-16">
-            <div className="footer-glow" />
-            <div className="py-10 text-center">
-              <p className="text-2xl mb-3 animate-float">🙏</p>
-              <p className="font-serif-deva text-lg font-bold text-foreground/80">
-                धर्म ग्रंथ
-              </p>
-              <p className="text-sm text-muted mt-1">
-                सनातन धर्म के पवित्र ग्रंथों का डिजिटल संग्रह
-              </p>
-              <p className="font-scripture text-xs text-muted-light mt-3 italic">
-                सर्वे भवन्तु सुखिनः सर्वे सन्तु निरामयाः
-              </p>
-              <div className="mt-4 flex items-center justify-center gap-4 text-xs text-muted-light">
-                {stats.books > 0 && (
-                  <>
-                    <span>{stats.books.toLocaleString('hi-IN')} ग्रंथ</span>
-                    <span className="text-accent/40">•</span>
-                    <span>{stats.verses.toLocaleString('hi-IN')}+ श्लोक</span>
-                    <span className="text-accent/40">•</span>
-                  </>
-                )}
-                <span>सम्पूर्ण हिन्दी व्याख्या</span>
-              </div>
-            </div>
-          </footer>
-        </ThemeProvider>
+      <body className="font-sans bg-dharma-bg text-dharma-text antialiased">
+        <SiteNav />
+        <PageTransition>{children}</PageTransition>
       </body>
     </html>
   );
