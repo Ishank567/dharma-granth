@@ -1,3 +1,5 @@
+import { existsSync, readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
@@ -11,6 +13,31 @@ import { getBookExplanation } from '@/data/book-explanations';
 import { getScripture, getScriptureMeta, getAllScriptures } from '@/data/scriptures';
 import { getVerseExplanationHi } from '@/data/verse-explanations-hi';
 import { ArrowLeft, ArrowRight, BookOpen, Feather, Languages, ScrollText, Lightbulb, Atom, Sparkles, Sun } from 'lucide-react';
+
+/**
+ * Read the chapter numbers present in a scripture's seeded full-text JSON
+ * (`public/data/scriptures-full/<id>.json`), if any. Used to extend
+ * generateStaticParams + the chapter-page render past the curated TS
+ * chapters so the seeded mūla text is reachable.
+ */
+function readSeededChapterNumbers(scriptureId: string): number[] {
+  try {
+    const filePath = resolve(
+      process.cwd(),
+      'public/data/scriptures-full',
+      `${scriptureId}.json`,
+    );
+    if (!existsSync(filePath)) return [];
+    const data = JSON.parse(readFileSync(filePath, 'utf8')) as {
+      chapters?: { number?: number | string }[];
+    };
+    return (data.chapters ?? [])
+      .map((c) => (typeof c.number === 'number' ? c.number : Number(c.number)))
+      .filter((n): n is number => Number.isFinite(n));
+  } catch {
+    return [];
+  }
+}
 
 interface PageProps {
   params: { id: string; chapterId: string };
@@ -30,37 +57,17 @@ export function generateStaticParams() {
         }
       }
     }
-
     // Also emit params for chapters that exist only in the seeded
-    // full-text JSON (public/data/scriptures-full/<id>.json). For
-    // scriptures whose curated TS module covers fewer chapters than
-    // were seeded (e.g. yajurveda's curated 1-4 vs seeded 1-40), this
-    // is what makes the seeded chapters reachable as static pages.
-    try {
-      // Lazy require: only at build/dev time, not in the client bundle.
-      // eslint-disable-next-line @typescript-eslint/no-var-requires
-      const fs = require('node:fs') as typeof import('node:fs');
-      // eslint-disable-next-line @typescript-eslint/no-var-requires
-      const path = require('node:path') as typeof import('node:path');
-      const filePath = path.resolve(
-        process.cwd(),
-        'public/data/scriptures-full',
-        `${meta.id}.json`,
-      );
-      if (fs.existsSync(filePath)) {
-        const raw = fs.readFileSync(filePath, 'utf8');
-        const data = JSON.parse(raw) as { chapters?: { number?: number | string }[] };
-        for (const ch of data.chapters ?? []) {
-          if (ch.number === undefined) continue;
-          const cid = String(ch.number);
-          if (!seen.has(cid)) {
-            params.push({ id: meta.id, chapterId: cid });
-            seen.add(cid);
-          }
-        }
+    // full-text JSON. For scriptures whose curated TS module covers
+    // fewer chapters than were seeded (e.g. yajurveda's curated 1–4 vs
+    // seeded 1–40), this is what makes the seeded chapters reachable
+    // as static pages.
+    for (const n of readSeededChapterNumbers(meta.id)) {
+      const cid = String(n);
+      if (!seen.has(cid)) {
+        params.push({ id: meta.id, chapterId: cid });
+        seen.add(cid);
       }
-    } catch {
-      // Silently ignore — generateStaticParams falling back to curated-only is fine.
     }
   }
   return params;
@@ -135,30 +142,9 @@ export default function ChapterPage({ params }: PageProps) {
   // of the seeded JSON (e.g. yajurveda curated 1–4 / seeded 1–40); we
   // want pagination to span the full seeded range so users can keep
   // moving forward into seeded-only chapters.
-  let totalChapterCount = scripture.chapters.length;
-  try {
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    const fs = require('node:fs') as typeof import('node:fs');
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    const path = require('node:path') as typeof import('node:path');
-    const filePath = path.resolve(
-      process.cwd(),
-      'public/data/scriptures-full',
-      `${meta.id}.json`,
-    );
-    if (fs.existsSync(filePath)) {
-      const data = JSON.parse(fs.readFileSync(filePath, 'utf8')) as {
-        chapters?: { number?: number }[];
-      };
-      const maxSeeded = (data.chapters ?? []).reduce(
-        (m, c) => (typeof c.number === 'number' && c.number > m ? c.number : m),
-        0,
-      );
-      if (maxSeeded > totalChapterCount) totalChapterCount = maxSeeded;
-    }
-  } catch {
-    // Fall back to curated count.
-  }
+  const seededChapters = readSeededChapterNumbers(meta.id);
+  const maxSeeded = seededChapters.reduce((m, n) => (n > m ? n : m), 0);
+  const totalChapterCount = Math.max(scripture.chapters.length, maxSeeded);
   if (chapterId > totalChapterCount) return notFound();
 
   const previousChapter = chapterIndex > 0 ? scripture.chapters[chapterIndex - 1] : undefined;
