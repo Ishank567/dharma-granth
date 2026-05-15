@@ -1,0 +1,81 @@
+{
+  "id": "mandukya",
+  "title": "Mandukya Upanishad",
+  "titleSanskrit": "माण्डूक्योपनिषद्",
+  "category": "upanishad",
+  "source": {
+    "repo": "https://sanskritdocuments.org/doc_upanishhat/",
+    "license": "Sanskrit mūla — public domain (2500+ years old). sanskritdocuments.org publishes digitized text under permissive terms.",
+    "fetchedAt": "2026-05-15T09:07:12.711Z"
+  },
+  "totalVerses": 12,
+  "totalChapters": 1,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Mandukya Upanishad",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "ॐ भद्रं कर्णेभिः शृणुयाम देवा भद्रं पश्येमाक्षभिर्यजत्राः । स्थिरैरङ्गैस्तुष्टुवांसस्तनूभिर्व्यशेम देवहितं यदायुः ॥ भद्रं नो अपि वातय मनः ॥ ॐ शान्तिः शान्तिः शान्तिः । ॥ अथ माण्डूक्योपनिषत् ॥ हरिः ॐ । ॐ इत्येतदक्षरमिदँ सर्वं तस्योपव्याख्यानं भूतं भवद् भविष्यदिति सर्वमोङ्कार एव यच्चान्यत् त्रिकालातीतं तदप्योङ्कार एव",
+          "transliteration": "OM bhadraM karNebhiH shR^iNuyAma devA bhadraM pashyemAkShabhiryajatrAH | sthiraira~NgaistuShTuvA.nsastanUbhirvyashema devahitaM yadAyuH || bhadraM no api vAtaya manaH || OM shAntiH shAntiH shAntiH | || atha mANDUkyopaniShat || hariH OM | OM ityetadakSharamida{\\m+} sarvaM tasyopavyAkhyAnaM bhUtaM bhavad bhaviShyaditi sarvamo~NkAra eva yachchAnyat trikAlAtItaM tadapyo~NkAra eva"
+        },
+        {
+          "number": 2,
+          "sanskrit": "सर्वं ह्येतद् ब्रह्मायमात्मा ब्रह्म सोऽयमात्मा चतुष्पात्",
+          "transliteration": "sarvaM hyetad brahmAyamAtmA brahma so.ayamAtmA chatuShpAt"
+        },
+        {
+          "number": 3,
+          "sanskrit": "जागरितस्थानो बहिष्प्रज्ञः सप्ताङ्ग एकोनविंशतिमुखः स्थूलभुग्वैश्वानरः प्रथमः पादः",
+          "transliteration": "jAgaritasthAno bahiShpraj~naH saptA~Nga ekonaviMshatimukhaH sthUlabhugvaishvAnaraH prathamaH pAdaH"
+        },
+        {
+          "number": 4,
+          "sanskrit": "स्वप्नस्थानोऽन्तःप्रज्ञः सप्ताङ्ग एकोनविंशतिमुखः प्रविविक्तभुक्तैजसो द्वितीयः पादः",
+          "transliteration": "svapnasthAno.antaHpraj~naH saptA~Nga ekonaviMshatimukhaH praviviktabhuktaijaso dvitIyaH pAdaH"
+        },
+        {
+          "number": 5,
+          "sanskrit": "यत्र सुप्तो न कञ्चन कामं कामयते न कञ्चन स्वप्नं पश्यति तत् सुषुप्तम् । सुषुप्तस्थान एकीभूतः प्रज्ञानघन एवानन्दमयो ह्यानन्दभुक् चेतोमुखः प्राज्ञस्तृतीयः पादः",
+          "transliteration": "yatra supto na ka~nchana kAmaM kAmayate na ka~nchana svapnaM pashyati tat suShuptam | suShuptasthAna ekIbhUtaH praj~nAnaghana evAnandamayo hyAnandabhuk chetomukhaH prAj~nastR^itIyaH pAdaH"
+        },
+        {
+          "number": 6,
+          "sanskrit": "एष सर्वेश्वरः एष सर्वज्ञ एषोऽन्तर्याम्येष योनिः सर्वस्य प्रभवाप्ययौ हि भूतानाम्",
+          "transliteration": "eSha sarveshvaraH eSha sarvaj~na eSho.antaryAmyeSha yoniH sarvasya prabhavApyayau hi bhUtAnAm"
+        },
+        {
+          "number": 7,
+          "sanskrit": "नान्तःप्रज्ञं न बहिष्प्रज्ञं नोभयतःप्रज्ञं न प्रज्ञानघनं न प्रज्ञं नाप्रज्ञम् । अदृष्टमव्यवहार्यमग्राह्यमलक्षणं अचिन्त्यमव्यपदेश्यमेकात्मप्रत्ययसारं प्रपञ्चोपशमं शान्तं शिवमद्वैतं चतुर्थं मन्यन्ते स आत्मा स विज्ञेयः",
+          "transliteration": "nAntaHpraj~naM na bahiShpraj~naM nobhayataHpraj~naM na praj~nAnaghanaM na praj~naM nApraj~nam | adR^iShTamavyavahAryamagrAhyamalakShaNaM achintyamavyapadeshyamekAtmapratyayasAraM prapa~nchopashamaM shAntaM shivamadvaitaM chaturthaM manyante sa AtmA sa vij~neyaH"
+        },
+        {
+          "number": 8,
+          "sanskrit": "सोऽयमात्माध्यक्षरमोङ्कारोऽधिमात्रं पादा मात्रा मात्राश्च पादा अकार उकारो मकार इति",
+          "transliteration": "so.ayamAtmAdhyakSharamo~NkAro.adhimAtraM pAdA mAtrA mAtrAshcha pAdA akAra ukAro makAra iti"
+        },
+        {
+          "number": 9,
+          "sanskrit": "जागरितस्थानो वैश्वानरोऽकारः प्रथमा मात्राऽऽप्तेरादिमत्त्वाद् वाऽऽप्नोति ह वै सर्वान् कामानादिश्च भवति य एवं वेद",
+          "transliteration": "jAgaritasthAno vaishvAnaro.akAraH prathamA mAtrA.a.apterAdimattvAd vA.a.apnoti ha vai sarvAn kAmAnAdishcha bhavati ya evaM veda"
+        },
+        {
+          "number": 10,
+          "sanskrit": "स्वप्नस्थानस्तैजस उकारो द्वितीया मात्रोत्कर्षात् उभयत्वाद्वोत्कर्षति ह वै ज्ञानसन्ततिं समानश्च भवति नास्याब्रह्मवित्कुले भवति य एवं वेद",
+          "transliteration": "svapnasthAnastaijasa ukAro dvitIyA mAtrotkarShAt ubhayatvAdvotkarShati ha vai j~nAnasantati.n samAnashcha bhavati nAsyAbrahmavitkule bhavati ya evaM veda"
+        },
+        {
+          "number": 11,
+          "sanskrit": "सुषुप्तस्थानः प्राज्ञो मकारस्तृतीया मात्रा मितेरपीतेर्वा मिनोति ह वा इदं सर्वमपीतिश्च भवति य एवं वेद",
+          "transliteration": "suShuptasthAnaH prAj~no makArastR^itIyA mAtrA miterapItervA minoti ha vA idaM sarvamapItishcha bhavati ya evaM veda"
+        },
+        {
+          "number": 12,
+          "sanskrit": "अमात्रश्चतुर्थोऽव्यवहार्यः प्रपञ्चोपशमः शिवोऽद्वैत एवमोङ्कार आत्मैव संविशत्यात्मनाऽऽत्मानं य एवं वेद",
+          "transliteration": "amAtrashchaturtho.avyavahAryaH prapa~nchopashamaH shivo.advaita evamo~NkAra Atmaiva saMvishatyAtmanA.a.atmAnaM ya evaM veda"
+        }
+      ]
+    }
+  ]
+}

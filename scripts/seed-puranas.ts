@@ -23,15 +23,20 @@
  * Those need a separate source (see scripts/README.md for pointers).
  */
 import { existsSync } from "node:fs";
-import Sanscript from "@indic-transliteration/sanscript";
 import {
   FullChapter,
   FullScripture,
   FullVerse,
-  fetchJson,
   log,
   writeScripture,
 } from "./lib/scripture-schema";
+import {
+  cleanItx,
+  extractVerses,
+  itxToDevanagari,
+  normalizeItxLine,
+  splitPuranaChapters,
+} from "./lib/itrans-parser";
 
 // ---- types --------------------------------------------------------------
 
@@ -62,116 +67,6 @@ interface PuranaConfig {
 
 const BASE = "https://sanskritdocuments.org/doc_purana";
 
-// ---- ITRANS parser ------------------------------------------------------
-
-// Matches the boilerplate sanskritdocuments uses to mark a chapter's end:
-//     iti shrImadbhAgavate ... prathamo.adhyAyaH || N ||
-//     iti shrIskande mahApurANe ... dvitIyo.adhyAyaH ||
-// We don't care exactly what surrounds — we just need to detect "iti ... adhyAyaH"
-// followed by an optional || N || and treat everything before it as a chapter body.
-const CHAPTER_END = /iti\s+[^|]*?adhyAyaH\s*(?:\|\|\s*\d+\s*\|\|)?/g;
-
-// Verse-end marker. Most puranas use `|| 23 ||` (single verse counter), but
-// the Garuda Purana (and a few others) use hierarchical numbering like
-// `|| 1\,1\.35||` = khanda 1, chapter 1, verse 35. We accept any combination
-// of digits, backslash-escaped commas/periods, and whitespace between the
-// pipes, then clean the captured id by stripping the ITRANS backslash
-// escapes.
-const VERSE_END = /\|\|\s*([\d\\.,\s]+?)\s*\|\|/g;
-
-function cleanVerseId(raw: string): string {
-  // Strip ITRANS backslash escapes; collapse whitespace; the remaining string
-  // is the verse identifier as written in the source (e.g. "23" or "1.1.35").
-  return raw.replace(/\\/g, "").replace(/,/g, ".").replace(/\s+/g, "").trim();
-}
-
-function cleanItx(raw: string): string {
-  // sanskritdocuments .itx files are LaTeX-wrapped: a preamble of `%` comments,
-  // `\documentstyle`/`\def`/`#include` directives, then `\begin{document}`,
-  // then the actual ITRANS body, terminated by `\end{document}`. Anything
-  // outside `\begin{document}..\end{document}` is metadata that — if left in —
-  // gets transliterated by Sanscript into Devanagari gibberish at the start
-  // of every chapter (e.g. "dओचुमेन्त्स्त्य्ले" from "\documentstyle").
-  let body = raw;
-  const beginIdx = body.indexOf("\\begin{document}");
-  if (beginIdx >= 0) {
-    body = body.slice(beginIdx + "\\begin{document}".length);
-  }
-  const endIdx = body.indexOf("\\end{document}");
-  if (endIdx >= 0) {
-    body = body.slice(0, endIdx);
-  }
-  // Defense in depth: drop `%` comment lines and any remaining LaTeX/itrans
-  // directive lines (`\foo...`, `#include=...`, `\section{...}`,
-  // `\engtitle{...}` etc.) that sit between verses. Verse text never begins
-  // with `\` or `#`.
-  return body
-    .split(/\r?\n/)
-    .filter((line) => {
-      const trimmed = line.trimStart();
-      if (trimmed.startsWith("%")) return false;
-      if (trimmed.startsWith("\\")) return false;
-      if (trimmed.startsWith("#")) return false;
-      return true;
-    })
-    .join("\n")
-    .replace(/[ \t]+/g, " ")
-    .trim();
-}
-
-interface ParsedChapter {
-  bodyItx: string;
-  trailer: string;
-}
-
-function splitChapters(body: string): ParsedChapter[] {
-  const out: ParsedChapter[] = [];
-  let lastIdx = 0;
-  let m: RegExpExecArray | null;
-  CHAPTER_END.lastIndex = 0;
-  while ((m = CHAPTER_END.exec(body)) !== null) {
-    out.push({
-      bodyItx: body.slice(lastIdx, m.index).trim(),
-      trailer: m[0],
-    });
-    lastIdx = m.index + m[0].length;
-  }
-  // Discard any trailing text after the last chapter end (usually a footer
-  // line or empty).
-  return out;
-}
-
-function extractVerses(chapterBody: string): { number: number | string; itx: string }[] {
-  const out: { number: number | string; itx: string }[] = [];
-  let lastIdx = 0;
-  let m: RegExpExecArray | null;
-  VERSE_END.lastIndex = 0;
-  while ((m = VERSE_END.exec(chapterBody)) !== null) {
-    const idStr = cleanVerseId(m[1]);
-    const asNum = Number(idStr);
-    const id: number | string = Number.isInteger(asNum) && !idStr.includes(".") ? asNum : idStr;
-    const text = chapterBody.slice(lastIdx, m.index).trim();
-    if (text.length > 0) {
-      out.push({ number: id, itx: text });
-    }
-    lastIdx = m.index + m[0].length;
-  }
-  return out;
-}
-
-function itxToDevanagari(itx: string): string {
-  // Sanscript's "itrans" scheme is what sanskritdocuments uses.
-  // The conversion preserves || delimiters and punctuation; we strip the
-  // trailing daṇḍa from the verse body since we already have verse numbers.
-  return (
-    Sanscript.t(itx, "itrans", "devanagari")
-      // Collapse any internal newlines so verses sit on one line.
-      .replace(/\s*\n\s*/g, " ")
-      .replace(/\s{2,}/g, " ")
-      .trim()
-  );
-}
-
 // ---- per-part fetcher ---------------------------------------------------
 
 interface ParsedAdhyaya {
@@ -193,17 +88,14 @@ async function fetchAndParsePart(part: PartSource): Promise<ParsedPart> {
   }
   const raw = await res.text();
   const body = cleanItx(raw);
-  const rawChapters = splitChapters(body);
+  const rawChapters = splitPuranaChapters(body);
 
   const adhyayas: ParsedAdhyaya[] = rawChapters.map((rc, i) => {
-    const verses: FullVerse[] = extractVerses(rc.bodyItx).map((v) => {
-      const sanskrit = itxToDevanagari(v.itx);
-      return {
-        number: v.number,
-        sanskrit,
-        transliteration: v.itx.replace(/\s*\n\s*/g, " ").replace(/\s{2,}/g, " "),
-      };
-    });
+    const verses: FullVerse[] = extractVerses(rc.bodyItx).map((v) => ({
+      number: v.number,
+      sanskrit: itxToDevanagari(v.itx),
+      transliteration: normalizeItxLine(v.itx),
+    }));
     return { number: i + 1, verses };
   });
 

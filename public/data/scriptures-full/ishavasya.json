@@ -1,0 +1,116 @@
+{
+  "id": "ishavasya",
+  "title": "Isha Upanishad",
+  "titleSanskrit": "ईशावास्योपनिषद्",
+  "category": "upanishad",
+  "source": {
+    "repo": "https://sanskritdocuments.org/doc_upanishhat/",
+    "license": "Sanskrit mūla — public domain (2500+ years old). sanskritdocuments.org publishes digitized text under permissive terms.",
+    "fetchedAt": "2026-05-15T09:07:09.931Z"
+  },
+  "totalVerses": 19,
+  "totalChapters": 1,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Isha Upanishad",
+      "verses": [
+        {
+          "number": 0,
+          "sanskrit": "ॐ पूर्णमदः पूर्णमिदं पूर्णात् पूर्णमुदच्यते । पूर्णस्य पूर्णमादाय पूर्णमेवावशिष्यते ॥ ॐ शान्तिः शान्तिः शान्तिः",
+          "transliteration": "OM pUrNamadaH pUrNamidaM pUrNAt pUrNamudachyate | pUrNasya pUrNamAdAya pUrNamevAvashiShyate || OM shAntiH shAntiH shAntiH"
+        },
+        {
+          "number": 1,
+          "sanskrit": "अथ ईशोपनिषत् ॥ ॐ ईशा वास्यमिदँ सर्वं यत्किञ्च जगत्यां जगत् । तेन त्यक्तेन भुञ्जीथा मा गृधः कस्यस्विद्धनम्",
+          "transliteration": "atha IshopaniShat || OM IshA vAsyamida{\\m+} sarvaM yatki~ncha jagatyAM jagat | tena tyaktena bhu~njIthA mA gR^idhaH kasyasviddhanam"
+        },
+        {
+          "number": 2,
+          "sanskrit": "कुर्वन्नेवेह कर्माणि जिजीविषेच्छतँ समाः । एवं त्वयि नान्यथेतोऽस्ति न कर्म लिप्यते नरे",
+          "transliteration": "kurvanneveha karmANi jijIviShechChata{\\m+} samAH | evaM tvayi nAnyatheto.asti na karma lipyate nare"
+        },
+        {
+          "number": 3,
+          "sanskrit": "असुर्या नाम ते लोका अन्धेन तमसाऽऽवृताः । ताँस्ते प्रेत्याभिगच्छन्ति ये के चात्महनो जनाः",
+          "transliteration": "asuryA nAma te lokA andhena tamasA.a.avR^itAH | tA{\\m+}ste pretyAbhigachChanti ye ke chAtmahano janAH"
+        },
+        {
+          "number": 4,
+          "sanskrit": "अनेजदेकं मनसो जवीयो नैनद्देवा आप्नुवन्पूर्वमर्षत् । तद्धावतोऽन्यानत्येति तिष्ठत्तस्मिन्नपो मातरिश्वा दधाति",
+          "transliteration": "anejadekaM manaso javIyo nainaddevA ApnuvanpUrvamarShat | taddhAvato.anyAnatyeti tiShThattasminnapo mAtarishvA dadhAti"
+        },
+        {
+          "number": 5,
+          "sanskrit": "तदेजति तन्नैजति तद्दूरे तद्वन्तिके । तदन्तरस्य सर्वस्य तदु सर्वस्यास्य बाह्यतः",
+          "transliteration": "tadejati tannaijati taddUre tadvantike | tadantarasya sarvasya tadu sarvasyAsya bAhyataH"
+        },
+        {
+          "number": 6,
+          "sanskrit": "यस्तु सर्वाणि भूतान्यात्मन्येवानुपश्यति । सर्वभूतेषु चात्मानं ततो न विजुगुप्सते",
+          "transliteration": "yastu sarvANi bhUtAnyAtmanyevAnupashyati | sarvabhUteShu chAtmAna.n tato na vijugupsate"
+        },
+        {
+          "number": 7,
+          "sanskrit": "यस्मिन्सर्वाणि भूतान्यात्मैवाभूद्विजानतः । तत्र को मोहः कः शोक एकत्वमनुपश्यतः",
+          "transliteration": "yasminsarvANi bhUtAnyAtmaivAbhUdvijAnataH | tatra ko mohaH kaH shoka ekatvamanupashyataH"
+        },
+        {
+          "number": 8,
+          "sanskrit": "स पर्यगाच्छुक्रमकायमव्रण- मस्नाविरँ शुद्धमपापविद्धम् । कविर्मनीषी परिभूः स्वयम्भू- र्याथातथ्यतोऽर्थान् व्यदधाच्छाश्वतीभ्यः समाभ्यः",
+          "transliteration": "sa paryagAchChukramakAyamavraNa\\- masnAvira{\\m+} shuddhamapApaviddham | kavirmanIShI paribhUH svayambhU\\- ryAthAtathyato.arthAn vyadadhAchChAshvatIbhyaH samAbhyaH"
+        },
+        {
+          "number": 9,
+          "sanskrit": "अन्धं तमः प्रविशन्ति येऽविद्यामुपासते । ततो भूय इव ते तमो य उ विद्यायाँ रताः",
+          "transliteration": "andhaM tamaH pravishanti ye.avidyAmupAsate | tato bhUya iva te tamo ya u vidyAyA{\\m+} ratAH"
+        },
+        {
+          "number": 10,
+          "sanskrit": "अन्यदेवाहुर्विद्ययाऽन्यदाहुरविद्यया । इति शुश्रुम धीराणां ये नस्तद्विचचक्षिरे",
+          "transliteration": "anyadevAhurvidyayA.anyadAhuravidyayA | iti shushruma dhIrANAM ye nastadvichachakShire"
+        },
+        {
+          "number": 11,
+          "sanskrit": "विद्यां चाविद्यां च यस्तद्वेदोभयँ सह । अविद्यया मृत्युं तीर्त्वा विद्ययाऽमृतमश्नुते",
+          "transliteration": "vidyAM chAvidyAM cha yastadvedobhaya{\\m+} saha | avidyayA mR^ityuM tIrtvA vidyayA.amR^itamashnute"
+        },
+        {
+          "number": 12,
+          "sanskrit": "अन्धं तमः प्रविशन्ति येऽसम्भूतिमुपासते । ततो भूय इव ते तमो य उ सम्भूत्याँ रताः",
+          "transliteration": "andhaM tamaH pravishanti ye.asambhUtimupAsate | tato bhUya iva te tamo ya u sambhUtyA{\\m+} ratAH"
+        },
+        {
+          "number": 13,
+          "sanskrit": "अन्यदेवाहुः सम्भवादन्यदाहुरसम्भवात् । इति शुश्रुम धीराणां ये नस्तद्विचचक्षिरे",
+          "transliteration": "anyadevAhuH sambhavAdanyadAhurasambhavAt | iti shushruma dhIrANAM ye nastadvichachakShire"
+        },
+        {
+          "number": 14,
+          "sanskrit": "सम्भूतिं च विनाशं च यस्तद्वेदोभयँ सह । विनाशेन मृत्युं तीर्त्वा सम्भूत्याऽमृतमश्नुते",
+          "transliteration": "sambhUtiM cha vinAshaM cha yastadvedobhaya{\\m+} saha | vinAshena mR^ityuM tIrtvA sambhUtyA.amR^itamashnute"
+        },
+        {
+          "number": 15,
+          "sanskrit": "हिरण्मयेन पात्रेण सत्यस्यापिहितं मुखम् । तत्त्वं पूषन्नपावृणु सत्यधर्माय दृष्टये",
+          "transliteration": "hiraNmayena pAtreNa satyasyApihitaM mukham | tattvaM pUShannapAvR^iNu satyadharmAya dR^iShTaye"
+        },
+        {
+          "number": 16,
+          "sanskrit": "पूषन्नेकर्षे यम सूर्य प्राजापत्य व्यूह रश्मीन् समूह तेजः । यत्ते रूपं कल्याणतमं तत्ते पश्यामि योऽसावसौ पुरुषः सोऽहमस्मि",
+          "transliteration": "pUShannekarShe yama sUrya prAjApatya vyUha rashmIn samUha tejaH | yatte rUpaM kalyANatamaM tatte pashyAmi yo.asAvasau puruShaH so.ahamasmi"
+        },
+        {
+          "number": 17,
+          "sanskrit": "वायुरनिलममृतमथेदं भस्मान्तँ शरीरम् । ॐ क्रतो स्मर कृतँ स्मर क्रतो स्मर कृतँ स्मर",
+          "transliteration": "vAyuranilamamR^itamathedaM bhasmAnta{\\m+} sharIram | OM krato smara kR^ita{\\m+} smara krato smara kR^ita{\\m+} smara"
+        },
+        {
+          "number": 18,
+          "sanskrit": "अग्ने नय सुपथा राये अस्मान् विश्वानि देव वयुनानि विद्वान् । युयोध्यस्मज्जुहुराणमेनो भूयिष्ठां ते नमौक्तिं विधेम",
+          "transliteration": "agne naya supathA rAye asmAn vishvAni deva vayunAni vidvAn | yuyodhyasmajjuhurANameno bhUyiShThAM te namauktiM vidhema"
+        }
+      ]
+    }
+  ]
+}
