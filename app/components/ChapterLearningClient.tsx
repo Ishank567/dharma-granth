@@ -131,13 +131,13 @@ export function ChapterLearningClient({
     verses.length === 0
       ? 0
       : Math.round((learnedSet.size / verses.length) * 100);
-  const meaning = activeVerse.meaning ?? activeVerse.translation;
+  const meaning = activeVerse.meaning;
   const explanation =
     language === "hi" && activeVerse.explanationHi
       ? activeVerse.explanationHi
       : activeVerse.explanation;
   const hindiMeaning =
-    activeVerse.explanationHi ?? activeVerse.meaning ?? activeVerse.translation;
+    activeVerse.explanationHi ?? activeVerse.meaning;
 
   const cardThemes = {
     saffron: {
@@ -496,32 +496,47 @@ export function ChapterLearningClient({
                   {isCardFlipped ? (
                     <div className="flex h-full flex-col justify-between gap-4">
                       <div>
-                        <p className="text-xs uppercase tracking-wider text-dharma-muted">
-                          {language === "hi" ? "हिंदी अर्थ" : "Hindi Meaning"}
-                        </p>
-                        {activeVerse.hindi && (
-                          <p
-                            lang="hi"
-                            className="mt-3 font-devanagari text-lg leading-relaxed text-rose-700 font-medium"
-                          >
-                            {activeVerse.hindi}
-                          </p>
+                        {hindiMeaning ? (
+                          <>
+                            <p className="text-xs uppercase tracking-wider text-dharma-muted">
+                              {language === "hi" ? "हिंदी अर्थ" : "Hindi Meaning"}
+                            </p>
+                            {activeVerse.hindi && (
+                              <p
+                                lang="hi"
+                                className="mt-3 font-devanagari text-lg leading-relaxed text-rose-700 font-medium"
+                              >
+                                {activeVerse.hindi}
+                              </p>
+                            )}
+                            <p
+                              lang={language === "hi" ? "hi" : "en"}
+                              className={`mt-3 text-base leading-relaxed text-dharma-text whitespace-pre-line ${language === "hi" ? "font-devanagari text-lg" : ""}`}
+                            >
+                              {hindiMeaning}
+                            </p>
+                          </>
+                        ) : (
+                          <>
+                            <p className="text-xs uppercase tracking-wider text-dharma-muted">
+                              {language === "hi" ? "अनुवाद" : "Translation"}
+                            </p>
+                            <p className="mt-3 text-base leading-relaxed text-dharma-text">
+                              {activeVerse.translation}
+                            </p>
+                          </>
                         )}
-                        <p
-                          lang={language === "hi" ? "hi" : "en"}
-                          className={`mt-3 text-base leading-relaxed text-dharma-text whitespace-pre-line ${language === "hi" ? "font-devanagari text-lg" : ""}`}
+                      </div>
+                      {hindiMeaning && (
+                        <div
+                          className={`rounded-2xl ${currentTheme.accent} p-4 text-sm text-dharma-text`}
                         >
-                          {hindiMeaning}
-                        </p>
-                      </div>
-                      <div
-                        className={`rounded-2xl ${currentTheme.accent} p-4 text-sm text-dharma-text`}
-                      >
-                        <p className="font-semibold">
-                          {language === "hi" ? "अनुवाद" : "Translation"}
-                        </p>
-                        <p className="mt-2">{activeVerse.translation}</p>
-                      </div>
+                          <p className="font-semibold">
+                            {language === "hi" ? "अनुवाद" : "Translation"}
+                          </p>
+                          <p className="mt-2">{activeVerse.translation}</p>
+                        </div>
+                      )}
                     </div>
                   ) : (
                     <div className="flex h-full flex-col justify-between gap-4">
@@ -672,7 +687,7 @@ export function ChapterLearningClient({
               </section>
             )}
 
-            {reveal.meaning && (
+            {reveal.meaning && meaning && (
               <section className="rounded-xl border border-rose-200 bg-gradient-to-br from-rose-50 to-pink-50 p-5">
                 <h3 className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-rose-700">
                   <span className="text-base">🪷</span>

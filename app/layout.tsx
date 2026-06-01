@@ -1,8 +1,44 @@
 import type { Metadata, Viewport } from "next";
 import { SiteNav } from "@/app/components/SiteNav";
+import { ThemeProvider } from "@/app/components/ThemeProvider";
 import { PageTransition } from "@/app/components/motion/PageTransition";
-import { Inter, Merriweather, Noto_Sans_Devanagari } from "next/font/google";
+// Self-hosted fonts via @fontsource — bundled at build time so the build
+// has no runtime dependency on fetching Google Fonts (which is flaky and
+// can fail the static export). Family names map to the CSS variables in
+// globals.css (--font-inter / --font-merriweather / --font-noto-devanagari).
+import "@fontsource/inter/latin-400.css";
+import "@fontsource/inter/latin-500.css";
+import "@fontsource/inter/latin-600.css";
+import "@fontsource/inter/latin-700.css";
+import "@fontsource/merriweather/latin-300.css";
+import "@fontsource/merriweather/latin-400.css";
+import "@fontsource/merriweather/latin-700.css";
+import "@fontsource/merriweather/latin-300-italic.css";
+import "@fontsource/merriweather/latin-400-italic.css";
+import "@fontsource/merriweather/latin-700-italic.css";
+import "@fontsource/noto-sans-devanagari/devanagari-300.css";
+import "@fontsource/noto-sans-devanagari/devanagari-400.css";
+import "@fontsource/noto-sans-devanagari/devanagari-500.css";
+import "@fontsource/noto-sans-devanagari/devanagari-600.css";
+import "@fontsource/noto-sans-devanagari/devanagari-700.css";
 import "./globals.css";
+
+/**
+ * Inline script that runs synchronously before React hydrates so the
+ * theme attribute is set on <html> in the first paint. Without this,
+ * users would see a flash of the default (day) theme before the
+ * ThemeProvider's useEffect runs and applies their stored preference.
+ */
+const THEME_INIT_SCRIPT = `
+(function () {
+  try {
+    var t = localStorage.getItem('dharma-theme');
+    if (t === 'sunset' || t === 'night' || t === 'day') {
+      document.documentElement.setAttribute('data-theme', t);
+    }
+  } catch (e) {}
+})();
+`;
 
 const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL || "https://dharmagranth.example";
@@ -67,40 +103,22 @@ export const viewport: Viewport = {
   initialScale: 1,
 };
 
-const inter = Inter({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-inter",
-});
-
-const merriweather = Merriweather({
-  subsets: ["latin"],
-  weight: ["300", "400", "700"],
-  style: ["normal", "italic"],
-  display: "swap",
-  variable: "--font-merriweather",
-});
-
-const notoSansDevanagari = Noto_Sans_Devanagari({
-  subsets: ["devanagari"],
-  weight: ["300", "400", "500", "600", "700"],
-  display: "swap",
-  variable: "--font-noto-devanagari",
-});
-
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html
-      lang="en"
-      className={`${inter.variable} ${merriweather.variable} ${notoSansDevanagari.variable}`}
-    >
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        {/* eslint-disable-next-line @next/next/no-sync-scripts */}
+        <script dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }} />
+      </head>
       <body className="font-sans bg-dharma-bg text-dharma-text antialiased">
-        <SiteNav />
-        <PageTransition>{children}</PageTransition>
+        <ThemeProvider>
+          <SiteNav />
+          <PageTransition>{children}</PageTransition>
+        </ThemeProvider>
       </body>
     </html>
   );

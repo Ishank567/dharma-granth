@@ -1,207 +1,367 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-/* === Light Theme === */
+/* Font family variables. Previously injected by next/font; now mapped to the
+ * self-hosted @fontsource families imported in app/layout.tsx. Tailwind's
+ * fontFamily config references these via var(--font-*). */
 :root {
-  --background: #FFFAF3;
-  --foreground: #1a1207;
-  --card: #FFFFFF;
-  --card-hover: #FFF7EB;
-  --border: #E8DCC8;
-  --muted: #8B7355;
-  --muted-light: #C4B498;
-  --accent: #C75B12;
-  --accent-light: #F5A623;
-  --accent-bg: #FFF3E0;
-  --primary: #8B4513;
-  --primary-light: #D2691E;
-  --verse-bg: #FFF8F0;
-  --verse-border: #E8D5B8;
-  --search-bg: #FFF9F0;
-  --shadow: 0 2px 8px rgba(139,69,19,0.08);
-  --shadow-lg: 0 8px 32px rgba(139,69,19,0.12);
-  --gradient-hero: linear-gradient(135deg, #FF9933 0%, #C75B12 50%, #8B4513 100%);
-  --gradient-card: linear-gradient(145deg, #FFFFFF 0%, #FFF7EB 100%);
+    --font-inter: 'Inter', system-ui, sans-serif;
+    --font-merriweather: 'Merriweather', Georgia, serif;
+    --font-noto-devanagari: 'Noto Sans Devanagari', sans-serif;
 }
 
-/* === Dark Theme === */
-.dark {
-  --background: #0F0A05;
-  --foreground: #F5E6D3;
-  --card: #1A130A;
-  --card-hover: #251C10;
-  --border: #3D2E1A;
-  --muted: #A0896E;
-  --muted-light: #6B563E;
-  --accent: #F5A623;
-  --accent-light: #FFD180;
-  --accent-bg: #2A1F0A;
-  --primary: #E8A84C;
-  --primary-light: #FFD180;
-  --verse-bg: #1A130A;
-  --verse-border: #3D2E1A;
-  --search-bg: #1A130A;
-  --shadow: 0 2px 8px rgba(0,0,0,0.3);
-  --shadow-lg: 0 8px 32px rgba(0,0,0,0.5);
-  --gradient-hero: linear-gradient(135deg, #1A0F00 0%, #3D2100 50%, #0F0A05 100%);
-  --gradient-card: linear-gradient(145deg, #1A130A 0%, #251C10 100%);
+/* Theme variables. The default (no data-theme attribute) is "day".
+ *
+ * The themes shift the *background* tint and ambient glow colors, but
+ * keep text and card surfaces consistently readable. This is a "mood"
+ * variation rather than a dark mode — going full dark would require
+ * re-theming the many light-background section panels inside verse
+ * cards, which would balloon scope. */
+:root,
+:root[data-theme='day'] {
+    --dharma-bg: #fdfbf7;
+    --dharma-text: #2d2a26;
+    --dharma-muted: #6b6560;
+    --dharma-border: #e8e3db;
+    --dharma-card: #ffffff;
+    --bg-glow-1: rgba(255, 193, 120, 0.1);
+    --bg-glow-2: rgba(234, 88, 12, 0.06);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-card: var(--card);
-  --color-card-hover: var(--card-hover);
-  --color-border: var(--border);
-  --color-muted: var(--muted);
-  --color-muted-light: var(--muted-light);
-  --color-accent: var(--accent);
-  --color-accent-light: var(--accent-light);
-  --color-accent-bg: var(--accent-bg);
-  --color-primary: var(--primary);
-  --color-primary-light: var(--primary-light);
-  --color-verse-bg: var(--verse-bg);
-  --color-verse-border: var(--verse-border);
-  --color-search-bg: var(--search-bg);
-  --font-sans-deva: var(--font-sans-deva);
-  --font-serif-deva: var(--font-serif-deva);
+:root[data-theme='sunset'] {
+    --dharma-bg: #fbf0e2;
+    --dharma-text: #3a2418;
+    --dharma-muted: #8a5840;
+    --dharma-border: #f0d9be;
+    --dharma-card: #fff8ee;
+    --bg-glow-1: rgba(244, 114, 32, 0.18);
+    --bg-glow-2: rgba(225, 29, 72, 0.12);
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-sans-deva), system-ui, sans-serif;
-  line-height: 1.8;
+:root[data-theme='night'] {
+    --dharma-bg: #eef0fa;
+    --dharma-text: #1f1f3b;
+    --dharma-muted: #4f4f7a;
+    --dharma-border: #d8d9ec;
+    --dharma-card: #ffffff;
+    --bg-glow-1: rgba(129, 140, 248, 0.18);
+    --bg-glow-2: rgba(168, 85, 247, 0.14);
 }
 
-/* === Typography for Devanagari === */
-.font-scripture {
-  font-family: var(--font-serif-deva), Georgia, serif;
-  line-height: 2;
-  letter-spacing: 0.02em;
+@layer base {
+    body {
+        @apply bg-dharma-bg text-dharma-text;
+        background-image:
+            radial-gradient(at 15% 15%, var(--bg-glow-1) 0, transparent 50%),
+            radial-gradient(at 85% 85%, var(--bg-glow-2) 0, transparent 50%);
+        background-attachment: fixed;
+        transition:
+            background-color 0.45s ease,
+            color 0.45s ease;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-serif tracking-tight;
+    }
+    ::selection {
+        @apply bg-saffron-200 text-saffron-900;
+    }
 }
 
-/* === Scrollbar === */
-::-webkit-scrollbar {
-  width: 8px;
-}
-::-webkit-scrollbar-track {
-  background: var(--background);
-}
-::-webkit-scrollbar-thumb {
-  background: var(--muted-light);
-  border-radius: 4px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: var(--muted);
+@layer components {
+    .sanskrit-text {
+        @apply font-devanagari text-xl leading-loose;
+    }
+    .verse-number {
+        @apply inline-flex items-center justify-center w-9 h-9 rounded-full bg-gradient-to-br from-saffron-500 to-saffron-700 text-white text-sm font-bold shadow-md;
+    }
+    .scripture-card {
+        @apply bg-dharma-card rounded-2xl border border-dharma-border p-6 shadow-sm transition-all hover:shadow-xl hover:border-saffron-300 hover:-translate-y-0.5;
+    }
+    .explanation-box {
+        @apply bg-amber-50/60 rounded-lg border border-amber-100 p-5;
+    }
+    .section-sanskrit {
+        @apply relative bg-gradient-to-br from-saffron-50 to-amber-50/50 rounded-xl border-l-4 border-saffron-500 p-5 shadow-sm;
+    }
+    .section-translit {
+        @apply bg-stone-50 rounded-xl border-l-4 border-stone-400 p-5;
+    }
+    .section-translation {
+        @apply bg-blue-50/60 rounded-xl border-l-4 border-blue-500 p-5;
+    }
+    .section-hindi {
+        @apply bg-rose-50 rounded-xl border-l-4 border-rose-500 p-5 font-devanagari;
+    }
+    .section-explanation {
+        @apply bg-emerald-50/70 rounded-xl border-l-4 border-emerald-500 p-5;
+    }
+    .section-science {
+        @apply bg-indigo-50/70 rounded-xl border-l-4 border-indigo-500 p-5;
+    }
+    .section-lesson {
+        @apply bg-gradient-to-br from-amber-50 to-yellow-50 rounded-xl border-l-4 border-amber-500 p-5;
+    }
+    .section-label {
+        @apply inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-widest mb-3;
+    }
+    .om-symbol {
+        @apply inline-block font-devanagari text-saffron-600 drop-shadow-sm;
+    }
+    .verse-card {
+        @apply bg-white rounded-2xl border border-dharma-border shadow-sm overflow-hidden transition-all hover:shadow-lg;
+    }
+    .gradient-text {
+        @apply bg-gradient-to-r from-saffron-700 via-saffron-500 to-amber-600 bg-clip-text text-transparent;
+    }
+    .decorative-divider {
+        @apply flex items-center justify-center gap-3 my-8 text-saffron-500;
+    }
+    .decorative-divider::before,
+    .decorative-divider::after {
+        content: "";
+        @apply flex-1 h-px bg-gradient-to-r from-transparent via-saffron-300 to-transparent;
+    }
+    .lotus-card {
+        position: relative;
+        overflow: hidden;
+    }
+    .lotus-card::before {
+        content: "";
+        position: absolute;
+        inset: -2px;
+        background: linear-gradient(
+            135deg,
+            transparent,
+            rgba(249, 115, 22, 0.2),
+            transparent
+        );
+        opacity: 0;
+        transition: opacity 0.3s;
+        border-radius: inherit;
+        pointer-events: none;
+    }
+    .lotus-card:hover::before {
+        opacity: 1;
+    }
+    .chip {
+        @apply inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold;
+    }
+    .chip-saffron {
+        @apply bg-saffron-100 text-saffron-800 border border-saffron-200;
+    }
+    .chip-blue {
+        @apply bg-blue-100 text-blue-800 border border-blue-200;
+    }
+    .chip-green {
+        @apply bg-emerald-100 text-emerald-800 border border-emerald-200;
+    }
+    .chip-purple {
+        @apply bg-indigo-100 text-indigo-800 border border-indigo-200;
+    }
+
+    /* ── Infographic Verse Blocks ──────────────────────────────── */
+    .verse-hindi-block {
+        @apply relative bg-gradient-to-br from-rose-50 via-pink-50 to-rose-50 rounded-xl border border-rose-200 p-5 overflow-hidden;
+    }
+    .verse-hindi-block::before {
+        content: "🪷";
+        @apply absolute -right-2 -top-2 text-5xl opacity-10 pointer-events-none;
+    }
+    .verse-science-block {
+        @apply relative bg-gradient-to-br from-indigo-50 via-blue-50 to-indigo-50 rounded-xl border border-indigo-200 p-5 overflow-hidden;
+    }
+    .verse-science-block::before {
+        content: "⚛️";
+        @apply absolute -right-2 -top-2 text-5xl opacity-10 pointer-events-none;
+    }
+    .verse-lesson-block {
+        @apply relative bg-gradient-to-br from-amber-50 via-yellow-50 to-amber-50 rounded-xl border border-amber-200 p-5 overflow-hidden;
+    }
+    .verse-lesson-block::before {
+        content: "💡";
+        @apply absolute -right-2 -top-2 text-5xl opacity-10 pointer-events-none;
+    }
+
+    /* ── Infographic Card (homepage featured verse) ─────────────── */
+    .infographic-featured {
+        @apply relative overflow-hidden rounded-2xl shadow-2xl border border-saffron-200;
+    }
+    .infographic-sanskrit-panel {
+        @apply bg-gradient-to-br from-saffron-800 to-saffron-700 text-white p-8 flex flex-col justify-between;
+    }
+    .infographic-content-panel {
+        @apply bg-white p-6 space-y-4;
+    }
+    .infographic-mini-card {
+        @apply rounded-xl p-4 border;
+    }
+    .infographic-mini-card-hindi {
+        @apply infographic-mini-card bg-gradient-to-br from-rose-50 to-pink-50 border-rose-200;
+    }
+    .infographic-mini-card-science {
+        @apply infographic-mini-card bg-gradient-to-br from-indigo-50 to-blue-50 border-indigo-200;
+    }
+    .infographic-mini-card-lesson {
+        @apply infographic-mini-card bg-gradient-to-br from-amber-50 to-yellow-50 border-amber-200;
+    }
+
+    /* ── Label Styles ───────────────────────────────────────────── */
+    .infographic-label {
+        @apply flex items-center gap-2 text-xs font-bold uppercase tracking-widest mb-2;
+    }
+    .infographic-label-hindi {
+        @apply infographic-label text-rose-700;
+    }
+    .infographic-label-science {
+        @apply infographic-label text-indigo-700;
+    }
+    .infographic-label-lesson {
+        @apply infographic-label text-amber-700;
+    }
+
+    /* ── Keyword Chips ──────────────────────────────────────────── */
+    .keyword-chip {
+        @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-saffron-100 text-saffron-800 border border-saffron-200;
+    }
+    .keyword-chip-science {
+        @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-indigo-100 text-indigo-800 border border-indigo-200;
+    }
+    .keyword-chip-hindi {
+        @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-rose-100 text-rose-800 border border-rose-200 font-devanagari;
+    }
+
+    /* ── Pillar Cards (homepage value props) ────────────────────── */
+    .pillar-card {
+        @apply bg-white rounded-2xl border border-dharma-border p-6 shadow-sm hover:shadow-xl hover:border-saffron-200 transition-all hover:-translate-y-1 duration-300;
+    }
+    .pillar-icon-wrap {
+        @apply w-12 h-12 rounded-xl flex items-center justify-center mb-4 text-white;
+    }
 }
 
-/* === Selection === */
-::selection {
-  background: var(--accent);
-  color: white;
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+    .animate-spin-slow {
+        animation: spin-slow 30s linear infinite;
+    }
+    .animate-breathe {
+        animation: breathe 5s ease-in-out infinite;
+    }
+    .animate-float-slow {
+        animation: float 8s ease-in-out infinite;
+    }
+    .mandala-ring-bg {
+        background-image:
+            radial-gradient(
+                circle at 50% 50%,
+                transparent 30%,
+                rgba(255, 255, 255, 0.04) 31%,
+                rgba(255, 255, 255, 0.04) 32%,
+                transparent 33%
+            ),
+            radial-gradient(
+                circle at 50% 50%,
+                transparent 55%,
+                rgba(255, 255, 255, 0.04) 56%,
+                rgba(255, 255, 255, 0.04) 57%,
+                transparent 58%
+            ),
+            radial-gradient(
+                circle at 50% 50%,
+                transparent 78%,
+                rgba(255, 255, 255, 0.04) 79%,
+                rgba(255, 255, 255, 0.04) 80%,
+                transparent 81%
+            );
+    }
+    .mandala-bg {
+        background-image: radial-gradient(
+            circle at 50% 50%,
+            rgba(249, 115, 22, 0.08) 1px,
+            transparent 1px
+        );
+        background-size: 24px 24px;
+    }
+    .animate-fade-up {
+        animation: fadeUp 0.6s ease-out both;
+    }
+    .animate-float {
+        animation: float 6s ease-in-out infinite;
+    }
+    .animate-shimmer {
+        background: linear-gradient(
+            90deg,
+            #fff8f0 0%,
+            #ffefd6 50%,
+            #fff8f0 100%
+        );
+        background-size: 200% 100%;
+        animation: shimmer 3s ease-in-out infinite;
+    }
+
+    /* ── 3D Transform Utilities ───────────────────────────────────── */
+    .perspective-1000 {
+        perspective: 1000px;
+    }
+    .backface-hidden {
+        backface-visibility: hidden;
+    }
+    .preserve-3d {
+        transform-style: preserve-3d;
+    }
 }
 
-/* === Verse highlight animation === */
-@keyframes verseGlow {
-  0% { box-shadow: 0 0 0 0 rgba(199, 91, 18, 0.2); }
-  50% { box-shadow: 0 0 20px 4px rgba(199, 91, 18, 0.15); }
-  100% { box-shadow: 0 0 0 0 rgba(199, 91, 18, 0.2); }
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
-
-.verse-highlight {
-  animation: verseGlow 2s ease-in-out;
+@keyframes spin-slow {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
-
-/* === Loading shimmer === */
+@keyframes breathe {
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.7;
+    }
+    50% {
+        transform: scale(1.08);
+        opacity: 1;
+    }
+}
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-8px);
+    }
+}
 @keyframes shimmer {
-  0% { background-position: -200% 0; }
-  100% { background-position: 200% 0; }
+    0% {
+        background-position: -200% 0;
+    }
+    100% {
+        background-position: 200% 0;
+    }
 }
-
-.shimmer {
-  background: linear-gradient(90deg, var(--card) 25%, var(--card-hover) 50%, var(--card) 75%);
-  background-size: 200% 100%;
-  animation: shimmer 1.5s infinite;
-}
-
-/* === Fade-in animation for page content === */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(12px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.animate-fade-in {
-  animation: fadeInUp 0.4s ease-out both;
-}
-
-/* === Subtle floating pulse for hero decorations === */
-@keyframes floatPulse {
-  0%, 100% { transform: translateY(0); opacity: 0.6; }
-  50% { transform: translateY(-8px); opacity: 1; }
-}
-
-.animate-float {
-  animation: floatPulse 4s ease-in-out infinite;
-}
-
-/* === Gradient text utility === */
-.text-gradient {
-  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-/* === Enhanced focus ring for accessibility === */
-*:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 2px;
-  border-radius: 4px;
-}
-
-/* === Stat counter animation === */
-@keyframes countUp {
-  from { opacity: 0; transform: scale(0.8); }
-  to { opacity: 1; transform: scale(1); }
-}
-
-.animate-count {
-  animation: countUp 0.5s ease-out both;
-}
-
-/* === Footer gradient line === */
-.footer-glow {
-  background: linear-gradient(90deg, transparent, var(--accent), transparent);
-  height: 1px;
-}
-
-/* === Book chapter divider ornament === */
-.chapter-divider {
-  scroll-margin-top: 6rem;
-}
-
-/* === TOC sidebar scrollbar === */
-aside::-webkit-scrollbar {
-  width: 4px;
-}
-aside::-webkit-scrollbar-thumb {
-  background: var(--border);
-  border-radius: 2px;
-}
-
-/* === Book page drop-cap style for first verse in chapter === */
-.chapter-first-verse .font-scripture::first-letter {
-  font-size: 2.5em;
-  line-height: 1;
-  float: left;
-  margin-right: 0.1em;
-  color: var(--accent);
-  font-family: var(--font-serif-deva), Georgia, serif;
-}
-

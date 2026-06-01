@@ -33,13 +33,13 @@ export function ScriptureCard({
           reduce
             ? undefined
             : {
-                y: -4,
+                y: -6,
                 rotateX: -2,
                 rotateY: 1,
-                transition: { type: 'spring', stiffness: 300, damping: 22 },
+                transition: { type: 'spring', stiffness: 400, damping: 20 },
               }
         }
-        whileTap={reduce ? undefined : { scale: 0.985 }}
+        whileTap={reduce ? undefined : { scale: 0.98 }}
         style={{ transformStyle: 'preserve-3d' }}
       >
         {children}

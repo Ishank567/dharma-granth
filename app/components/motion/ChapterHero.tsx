@@ -81,6 +81,9 @@ export function ChapterHero({ children, className = '' }: { children: ReactNode;
         </motion.div>
       </motion.div>
 
+      {/* Layer 2b: drifting petals — visible only when motion is allowed. */}
+      {!reduce && <FloatingPetals />}
+
       {/* Layer 3: parallax ॐ */}
       <motion.div
         aria-hidden
@@ -103,6 +106,69 @@ export function ChapterHero({ children, className = '' }: { children: ReactNode;
       >
         {children}
       </motion.div>
+    </div>
+  );
+}
+
+/**
+ * Drifting lotus-petal layer. A handful of small SVG petals rise from
+ * the bottom of the hero with varied speeds, sizes, and x-drift —
+ * gives the hero an "incense rising" quality. Decorative only.
+ */
+function FloatingPetals() {
+  // Deterministic seed so positions don't jitter between renders.
+  const petals = [
+    { left: 8, size: 22, duration: 14, delay: 0, sway: 14, opacity: 0.45 },
+    { left: 18, size: 14, duration: 11, delay: 3, sway: -10, opacity: 0.35 },
+    { left: 32, size: 26, duration: 17, delay: 6, sway: 18, opacity: 0.5 },
+    { left: 45, size: 16, duration: 13, delay: 1.5, sway: -12, opacity: 0.4 },
+    { left: 58, size: 20, duration: 15, delay: 4, sway: 10, opacity: 0.42 },
+    { left: 71, size: 14, duration: 12, delay: 7, sway: -8, opacity: 0.35 },
+    { left: 84, size: 24, duration: 16, delay: 2, sway: 16, opacity: 0.48 },
+    { left: 93, size: 18, duration: 13, delay: 5, sway: -14, opacity: 0.38 },
+  ];
+
+  return (
+    <div className="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden>
+      {petals.map((p, i) => (
+        <motion.svg
+          key={i}
+          viewBox="-12 -12 24 24"
+          className="absolute"
+          style={{
+            left: `${p.left}%`,
+            bottom: '-30px',
+            width: p.size,
+            height: p.size,
+            color: 'rgba(255, 237, 213, 0.85)',
+          }}
+          initial={{ y: 0, x: 0, opacity: 0, rotate: 0 }}
+          animate={{
+            y: ['0%', '-160%', '-320%'],
+            x: [0, p.sway, 0],
+            opacity: [0, p.opacity, 0],
+            rotate: [0, 180, 360],
+          }}
+          transition={{
+            duration: p.duration,
+            delay: p.delay,
+            repeat: Infinity,
+            ease: 'easeInOut',
+          }}
+        >
+          {/* Stylised lotus petal — teardrop with vein. */}
+          <path
+            d="M 0 -10 C 6 -6 6 4 0 10 C -6 4 -6 -6 0 -10 Z"
+            fill="currentColor"
+          />
+          <path
+            d="M 0 -8 L 0 8"
+            stroke="rgba(255, 200, 130, 0.5)"
+            strokeWidth="0.8"
+            strokeLinecap="round"
+          />
+        </motion.svg>
+      ))}
     </div>
   );
 }

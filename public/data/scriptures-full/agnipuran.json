@@ -1,0 +1,14 @@
+{
+  "id": "agnipuran",
+  "title": "Agni Purana",
+  "titleSanskrit": "अग्निपुराणम्",
+  "category": "purana",
+  "source": {
+    "repo": "https://sanskritdocuments.org/doc_purana/",
+    "license": "Full text not yet available as structured open-source data. Curated highlights are hand-authored.",
+    "fetchedAt": "2026-06-01T11:10:43.553Z"
+  },
+  "totalVerses": 0,
+  "totalChapters": 0,
+  "chapters": []
+}

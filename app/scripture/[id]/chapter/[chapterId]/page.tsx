@@ -4,15 +4,17 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { BookExplanationPanel } from '@/app/components/BookExplanationPanel';
+import { AmbientOrbs } from '@/app/components/motion/AmbientOrbs';
 import { ChapterHero } from '@/app/components/motion/ChapterHero';
 import { ChapterLearningClient } from '@/app/components/ChapterLearningClient';
 import { ChapterPreparationClient } from '@/app/components/ChapterPreparationClient';
 import { FullChapterVerses } from '@/app/components/FullChapterVerses';
+import { VerseDisplay } from '@/app/components/VerseDisplay';
 import { FadeUpOnView, Stagger, StaggerItem } from '@/app/components/motion/primitives';
 import { getBookExplanation } from '@/data/book-explanations';
 import { getScripture, getScriptureMeta, getAllScriptures } from '@/data/scriptures';
-import { getVerseExplanationHi } from '@/data/verse-explanations-hi';
-import { ArrowLeft, ArrowRight, BookOpen, Feather, Languages, ScrollText, Lightbulb, Atom, Sparkles, Sun } from 'lucide-react';
+import { getVerseExplanationHi, getVerseScienceHi, getVerseLifeLessonHi } from '@/data/verse-explanations-hi';
+import { ArrowLeft, ArrowRight, BookOpen, Sparkles } from 'lucide-react';
 
 /**
  * Read the chapter numbers present in a scripture's seeded full-text JSON
@@ -82,10 +84,10 @@ export function generateMetadata({ params }: PageProps): Metadata {
   const chapter = scripture.chapters.find(c => c.id === chapterId);
   if (!chapter) return {};
 
-  const title = `${chapter.title} — ${meta.title} (Chapter ${chapter.id})`;
+  const title = `${chapter.title} — ${meta.title} (अध्याय ${chapter.id})`;
   const description = chapter.summary
-    ? `${meta.title}, Chapter ${chapter.id}: ${chapter.title} (${chapter.titleSanskrit ?? ''}). ${chapter.summary}`.trim()
-    : `${meta.title} — Chapter ${chapter.id}: ${chapter.title}`;
+    ? `${meta.title}, अध्याय ${chapter.id}: ${chapter.title} (${chapter.titleSanskrit ?? ''}). ${chapter.summary}`.trim()
+    : `${meta.title} — अध्याय ${chapter.id}: ${chapter.title}`;
 
   const ogImage = {
     url: `/og/${meta.id}.png`,
@@ -132,7 +134,7 @@ export default function ChapterPage({ params }: PageProps) {
   // params for these chapters when seeded JSON exists.
   const chapter = curatedChapter ?? {
     id: chapterId,
-    title: `Chapter ${chapterId}`,
+    title: `अध्याय ${chapterId}`,
     titleSanskrit: undefined,
     summary: undefined,
     verses: [],
@@ -153,6 +155,8 @@ export default function ChapterPage({ params }: PageProps) {
   const learningVerses = chapter.verses.map(verse => ({
     ...verse,
     explanationHi: getVerseExplanationHi(params.id, chapter.id, verse.id),
+    scienceHi: getVerseScienceHi(params.id, chapter.id, verse.id),
+    lifeLessonHi: getVerseLifeLessonHi(params.id, chapter.id, verse.id),
   }));
 
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://dharmagranth.example';
@@ -211,7 +215,7 @@ export default function ChapterPage({ params }: PageProps) {
               {chapter.id}
             </span>
             <div className="flex-1 min-w-0">
-              <div className="text-xs uppercase tracking-[0.3em] text-saffron-200/90 mb-1">Chapter {chapter.id} of {totalChapterCount}</div>
+              <div className="text-xs uppercase tracking-[0.3em] text-saffron-200/90 mb-1">अध्याय {chapter.id} / {totalChapterCount}</div>
               <h1 className="text-3xl md:text-4xl font-serif font-bold mb-1">{chapter.title}</h1>
               <p className="text-xl font-devanagari opacity-90">{chapter.titleSanskrit}</p>
             </div>
@@ -222,114 +226,31 @@ export default function ChapterPage({ params }: PageProps) {
               <>
                 <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/15 backdrop-blur text-xs font-medium">
                   <BookOpen className="w-3.5 h-3.5" />
-                  {chapter.verses.length} curated verse{chapter.verses.length === 1 ? '' : 's'}
+                  {chapter.verses.length} चयनित श्लोक
                 </span>
                 <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/15 backdrop-blur text-xs font-medium">
                   <Sparkles className="w-3.5 h-3.5" />
-                  With Hindi &amp; Science
+                  हिन्दी एवं विज्ञान सहित
                 </span>
               </>
             ) : (
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/15 backdrop-blur text-xs font-medium">
                 <BookOpen className="w-3.5 h-3.5" />
-                Full text from open-source corpus
+                मुक्त-स्रोत संग्रह से पूर्ण पाठ
               </span>
             )}
           </div>
         </div>
       </ChapterHero>
 
-      <div className="max-w-4xl mx-auto px-6 py-12">
+      <div className="relative max-w-4xl mx-auto px-6 py-12">
+        <AmbientOrbs />
+        <div className="relative">
         {chapter.verses.length > 0 ? (
           <Stagger className="space-y-10">
-            {chapter.verses.map((v) => (
-              <StaggerItem
-                key={v.id}
-                className="verse-card lotus-card"
-              >
-                <div className="bg-gradient-to-r from-saffron-50 via-amber-50 to-rose-50 px-6 py-4 border-b border-dharma-border flex items-center justify-between">
-                  <div className="flex items-center gap-3">
-                    <span className="verse-number">{v.id}</span>
-                    <div>
-                      <div className="text-[10px] uppercase tracking-widest text-saffron-800/70 font-semibold">Shloka</div>
-                      <div className="text-sm font-bold text-saffron-900">Verse {v.id}</div>
-                    </div>
-                  </div>
-                  <span className="om-symbol text-3xl animate-float" aria-hidden>ॐ</span>
-                </div>
-                <div className="p-6 md:p-7 space-y-5">
-                  <div className="section-sanskrit">
-                    <div className="section-label text-saffron-800">
-                      <Feather className="w-3.5 h-3.5" />
-                      Sanskrit — संस्कृत
-                    </div>
-                    <p className="sanskrit-text text-dharma-text whitespace-pre-line">{v.sanskrit}</p>
-                  </div>
-
-                  <div className="section-translit">
-                    <div className="section-label text-stone-700">
-                      <Languages className="w-3.5 h-3.5" />
-                      Transliteration (IAST)
-                    </div>
-                    <p className="text-sm md:text-base text-stone-700 italic whitespace-pre-line leading-relaxed">{v.transliteration}</p>
-                  </div>
-
-                  <div className="section-translation">
-                    <div className="section-label text-blue-800">
-                      <ScrollText className="w-3.5 h-3.5" />
-                      English Translation
-                    </div>
-                    <p className="text-base text-dharma-text leading-relaxed">{v.translation}</p>
-                  </div>
-
-                  {v.hindi && (
-                    <div className="section-hindi">
-                      <div className="section-label text-rose-800" style={{ fontFamily: 'inherit' }}>
-                        <Sun className="w-3.5 h-3.5" />
-                        हिन्दी अर्थ — Hindi Meaning
-                      </div>
-                      <p className="text-base md:text-lg text-rose-950 leading-loose">{v.hindi}</p>
-                    </div>
-                  )}
-
-                  <div className="section-explanation">
-                    <div className="section-label text-emerald-800">
-                      <Sparkles className="w-3.5 h-3.5" />
-                      Spiritual Commentary
-                    </div>
-                    <p className="text-sm md:text-base text-emerald-950 leading-relaxed">{v.explanation}</p>
-                  </div>
-
-                  {v.science && (
-                    <div className="section-science">
-                      <div className="section-label text-indigo-800">
-                        <Atom className="w-3.5 h-3.5" />
-                        Scientific Perspective
-                      </div>
-                      <p className="text-sm md:text-base text-indigo-950 leading-relaxed">{v.science}</p>
-                    </div>
-                  )}
-
-                  {v.lifeLesson && (
-                    <div className="section-lesson">
-                      <div className="section-label text-amber-800">
-                        <Lightbulb className="w-3.5 h-3.5" />
-                        Life Lesson — Apply Today
-                      </div>
-                      <p className="text-sm md:text-base text-amber-950 leading-relaxed font-medium">{v.lifeLesson}</p>
-                    </div>
-                  )}
-
-                  {v.keywords && v.keywords.length > 0 && (
-                    <div className="flex flex-wrap gap-2 pt-2">
-                      {v.keywords.map(k => (
-                        <span key={k} className="chip chip-saffron">
-                          #{k}
-                        </span>
-                      ))}
-                    </div>
-                  )}
-                </div>
+            {learningVerses.map((v) => (
+              <StaggerItem key={v.id}>
+                <VerseDisplay verse={v} />
               </StaggerItem>
             ))}
           </Stagger>
@@ -339,6 +260,7 @@ export default function ChapterPage({ params }: PageProps) {
           scriptureId={params.id}
           chapterId={chapter.id}
           curatedVerseIds={new Set(chapter.verses.map((v) => v.id))}
+          basePath={process.env.NEXT_PUBLIC_BASE_PATH || ''}
           autoLoad={chapter.verses.length === 0}
         />
 
@@ -350,8 +272,8 @@ export default function ChapterPage({ params }: PageProps) {
             >
               <ArrowLeft className="w-4 h-4 group-hover:-translate-x-0.5 transition-transform" />
               <span>
-                <div className="text-[10px] uppercase tracking-widest text-dharma-muted">Previous</div>
-                <div className="text-sm font-semibold">Chapter {chapterId - 1}</div>
+                <div className="text-[10px] uppercase tracking-widest text-dharma-muted">पिछला</div>
+                <div className="text-sm font-semibold">अध्याय {chapterId - 1}</div>
               </span>
             </Link>
           ) : (
@@ -363,13 +285,14 @@ export default function ChapterPage({ params }: PageProps) {
               className="group inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-gradient-to-br from-saffron-600 to-saffron-700 text-white hover:shadow-lg transition ml-auto"
             >
               <span className="text-right">
-                <div className="text-[10px] uppercase tracking-widest opacity-80">Next</div>
-                <div className="text-sm font-semibold">Chapter {chapterId + 1}</div>
+                <div className="text-[10px] uppercase tracking-widest opacity-80">अगला</div>
+                <div className="text-sm font-semibold">अध्याय {chapterId + 1}</div>
               </span>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
             </Link>
           )}
         </FadeUpOnView>
+        </div>
       </div>
     </main>
   );

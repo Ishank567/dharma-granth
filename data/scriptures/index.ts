@@ -29,12 +29,43 @@ import { garudpurana } from "./garudpurana";
 import { agnipuran } from "./agnipuran";
 import { padmapuran } from "./padmapuran";
 import { brahmandpuran } from "./brahmandpuran";
+import { brahmapuran } from "./brahmapuran";
 import { markandeypuran } from "./markandeypuran";
+import { harivanshpuran } from "./harivanshpuran";
+import { kalkipuran } from "./kalkipuran";
+import { kaushitaki } from "./kaushitaki";
+import { maitri } from "./maitri";
+import { mahanarayana } from "./mahanarayana";
+import { kaivalya } from "./kaivalya";
+import { amritabindu } from "./amritabindu";
+import { tejobindu } from "./tejobindu";
+import { jabala } from "./jabala";
+import { niralamba } from "./niralamba";
+import { muktika } from "./muktika";
+import { kurmapuran } from "./kurmapuran";
+import { lingapuran } from "./lingapuran";
+import { matsyapuran } from "./matsyapuran";
+import { naradapuran } from "./naradapuran";
+import { narasimhapuran } from "./narasimhapuran";
+import { naradabhaktisutra } from "./naradabhaktisutra";
+import { shandilyabhaktisutra } from "./shandilyabhaktisutra";
 import { manusmriti } from "./manusmriti";
 import { brahmasutra } from "./brahmasutra";
+import { ravanasamhita } from "./ravanasamhita";
+import { skandapuran } from "./skandapuran";
+import { shivasamhita } from "./shivasamhita";
+import { shivaswarodaya } from "./shivaswarodaya";
+import { yogavasistha } from "./yogavasistha";
+import { yogarasayanam } from "./yogarasayanam";
+import { vinayapatrika } from "./vinayapatrika";
+import { brahmavaivartapuran } from "./brahmavaivartapuran";
+import { vamanpuran } from "./vamanpuran";
+import { varahapuran } from "./varahapuran";
+import { vayupuran } from "./vayupuran";
+import { viduraniti } from "./viduraniti";
 import { scriptureCatalog } from "../scripture-meta";
 
-const scriptureMap: Record<string, Scripture> = {
+export const scriptureMap: Record<string, Scripture> = {
   [bhagavadGita.id]: bhagavadGita,
   [ishavasya.id]: ishavasya,
   [kena.id]: kena,
@@ -65,9 +96,40 @@ const scriptureMap: Record<string, Scripture> = {
   [agnipuran.id]: agnipuran,
   [padmapuran.id]: padmapuran,
   [brahmandpuran.id]: brahmandpuran,
+  [brahmapuran.id]: brahmapuran,
   [markandeypuran.id]: markandeypuran,
+  [harivanshpuran.id]: harivanshpuran,
+  [kalkipuran.id]: kalkipuran,
+  [kaushitaki.id]: kaushitaki,
+  [maitri.id]: maitri,
+  [mahanarayana.id]: mahanarayana,
+  [kaivalya.id]: kaivalya,
+  [amritabindu.id]: amritabindu,
+  [tejobindu.id]: tejobindu,
+  [jabala.id]: jabala,
+  [niralamba.id]: niralamba,
+  [muktika.id]: muktika,
+  [kurmapuran.id]: kurmapuran,
+  [lingapuran.id]: lingapuran,
+  [matsyapuran.id]: matsyapuran,
+  [naradapuran.id]: naradapuran,
+  [narasimhapuran.id]: narasimhapuran,
+  [naradabhaktisutra.id]: naradabhaktisutra,
+  [shandilyabhaktisutra.id]: shandilyabhaktisutra,
   [manusmriti.id]: manusmriti,
   [brahmasutra.id]: brahmasutra,
+  [ravanasamhita.id]: ravanasamhita,
+  [skandapuran.id]: skandapuran,
+  [shivasamhita.id]: shivasamhita,
+  [shivaswarodaya.id]: shivaswarodaya,
+  [yogavasistha.id]: yogavasistha,
+  [yogarasayanam.id]: yogarasayanam,
+  [vinayapatrika.id]: vinayapatrika,
+  [brahmavaivartapuran.id]: brahmavaivartapuran,
+  [vamanpuran.id]: vamanpuran,
+  [varahapuran.id]: varahapuran,
+  [vayupuran.id]: vayupuran,
+  [viduraniti.id]: viduraniti,
 };
 
 function hasVerseData(scripture: Scripture | undefined): boolean {

@@ -1,0 +1,218 @@
+
+> dharma-granth@1.0.0 dev
+> next dev
+
+  ▲ Next.js 14.2.0
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 3.1s
+ ○ Compiling / ...
+ ✓ Compiled / in 7.3s (1437 modules)
+ GET / 200 in 7483ms
+ ✓ Compiled in 363ms (681 modules)
+ GET / 200 in 61ms
+ GET / 200 in 59ms
+ GET / 200 in 42ms
+ ○ Compiling /scripture/[id]/chapter/[chapterId] ...
+ ✓ Compiled /scripture/[id]/chapter/[chapterId] in 678ms (1437 modules)
+ GET /scripture/bhagavadgita/chapter/1 200 in 1855ms
+ GET /scripture/bhagavadgita/chapter/1 200 in 103ms
+ ○ Compiling /scripture/[id] ...
+ ✓ Compiled /scripture/[id] in 1885ms (1459 modules)
+ GET /scripture/ishavasya/chapter/1 200 in 150ms
+ ✓ Compiled /scriptures in 406ms (1464 modules)
+ GET /scriptures 200 in 532ms
+ GET /scripture/rigveda/chapter/1 200 in 118ms
+ ✓ Compiled /_not-found in 327ms (1467 modules)
+ GET /data/scriptures-full/samaveda.json 404 in 429ms
+ GET /data/scriptures-full/samaveda.json 404 in 41ms
+ GET /scripture/bhagavadgita/chapter/1 200 in 114ms
+ GET / 200 in 78ms
+ GET / 200 in 172ms
+ GET / 200 in 92ms
+ GET /data/scriptures-full/taittiriya.json 404 in 60ms
+ GET /data/scriptures-full/taittiriya.json 404 in 56ms
+ GET /data/scriptures-full/manusmriti.json 404 in 32ms
+ GET /scripture/ishavasya/chapter/1 200 in 127ms
+ ✓ Compiled in 3.6s (1479 modules)
+ ✓ Compiled in 567ms (1479 modules)
+ ✓ Compiled in 502ms (1479 modules)
+ ✓ Compiled in 749ms (1479 modules)
+ ✓ Compiled in 406ms (1479 modules)
+ ✓ Compiled in 414ms (1479 modules)
+ ✓ Compiled in 761ms (1479 modules)
+ ✓ Compiled in 605ms (1479 modules)
+ ✓ Compiled in 637ms (1479 modules)
+ ✓ Compiled in 531ms (1479 modules)
+ ✓ Compiled in 407ms (1479 modules)
+ ✓ Compiled in 480ms (1479 modules)
+ ✓ Compiled in 511ms (1479 modules)
+ ✓ Compiled in 386ms (1479 modules)
+ ✓ Compiled in 395ms (1479 modules)
+ ✓ Compiled in 1537ms (1479 modules)
+ ✓ Compiled in 560ms (1479 modules)
+ ✓ Compiled /_not-found in 217ms (778 modules)
+ GET / 404 in 462ms
+ GET /scriptures 404 in 52ms
+ GET /scripture/bhagavadgita 404 in 68ms
+ GET /scripture/mundaka/chapter/1 200 in 122ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 877ms (1481 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /_next/static/webpack/ecb3b31b2e582b72.webpack.hot-update.json 404 in 650ms
+ GET /scripture/mundaka/chapter/1 200 in 141ms
+ ✓ Compiled in 565ms (1481 modules)
+ ✓ Compiled in 700ms (1481 modules)
+ ✓ Compiled in 855ms (1481 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\ishan\Music\dharma\dharma-granth\dist\cache\webpack\client-development\0.pack.gz_' -> 'C:\Users\ishan\Music\dharma\dharma-granth\dist\cache\webpack\client-development\0.pack.gz'
+ GET /scripture/mundaka/chapter/1 200 in 151ms
+ ✓ Compiled in 286ms (703 modules)
+ GET /scripture/mundaka 404 in 37ms
+ GET /scriptures 404 in 66ms
+ ✓ Compiled in 284ms (703 modules)
+ ✓ Compiled in 254ms (703 modules)
+ GET /scriptures 404 in 44ms
+ GET /scripture/bhagavadgita 404 in 60ms
+ GET /scripture/bhagavadgita 404 in 67ms
+ ⨯ ./data/verse-explanations-hi.ts:54:1
+Module not found: Can't resolve './hi-commentary/aitareya'
+[0m [90m 52 |[39m[0m
+[0m [90m 53 |[39m [36mimport[39m type { [33mHiCommentaryFragment[39m } [36mfrom[39m [32m'./hi-commentary/_types'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 54 |[39m [36mimport[39m { aitareyaHi } [36mfrom[39m [32m'./hi-commentary/aitareya'[39m[33m;[39m[0m
+[0m [90m    |[39m [31m[1m^[22m[39m[0m
+[0m [90m 55 |[39m [36mimport[39m { atharvavedaHi } [36mfrom[39m [32m'./hi-commentary/atharvaveda'[39m[33m;[39m[0m
+[0m [90m 56 |[39m [36mimport[39m { agnipuranHi } [36mfrom[39m [32m'./hi-commentary/agnipuran'[39m[33m;[39m[0m
+[0m [90m 57 |[39m [36mimport[39m { bhagavadgitaHi } [36mfrom[39m [32m'./hi-commentary/bhagavadgita'[39m[33m;[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./app/scripture/[id]/chapter/[chapterId]/page.tsx
+ ✓ Compiled in 1869ms (1514 modules)
+ ✓ Compiled in 499ms (1512 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\ishan\Music\dharma\dharma-granth\dist\cache\webpack\client-development\0.pack.gz_' -> 'C:\Users\ishan\Music\dharma\dharma-granth\dist\cache\webpack\client-development\0.pack.gz'
+ ✓ Compiled in 896ms (1512 modules)
+ ✓ Compiled in 893ms (1512 modules)
+ ✓ Compiled in 825ms (1512 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\ishan\Music\dharma\dharma-granth\dist\cache\webpack\client-development\0.pack.gz_' -> 'C:\Users\ishan\Music\dharma\dharma-granth\dist\cache\webpack\client-development\0.pack.gz'
+ ✓ Compiled in 2.2s (1512 modules)
+ ✓ Compiled in 3.9s (1512 modules)
+ ✓ Compiled in 2.3s (1512 modules)
+ ✓ Compiled in 3.5s (1512 modules)
+ ✓ Compiled in 1562ms (1512 modules)
+ ✓ Compiled in 3.1s (1512 modules)
+ ⨯ ./data/scriptures/katha.ts
+Error: 
+  [31mx[0m Expected ',', got 'this'
+      ,-[[36;1;4mC:\Users\ishan\Music\dharma\dharma-granth\data\scriptures\katha.ts[0m:1842:1]
+ [2m1842[0m |           transliteration:
+ [2m1843[0m |             "tadetaditi manyante'nirdeśyaṃ paramaṃ sukham | kathaṃ nu tadvijānīyāṃ kimu bhāti vibhāti vā ||",
+ [2m1844[0m |           translation:
+ [2m1845[0m |             "(Naciketas asks:) 'They think of it as "this is that" — the indescribable supreme bliss. How shall I know it? Does it shine, or does it shine forth?'",
+      : [31;1m                                                     ^^^^[0m
+ [2m1846[0m |           hindi:
+ [2m1847[0m |             'वे "यही वह है" — ऐसा मानते हैं — अनिर्देश्य परम सुख। मैं उसे कैसे जानूँ? वह स्वयं चमकता है, या उसकी प्रभा से और कुछ चमकता है?',
+ [2m1848[0m |           explanation:
+      `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./data/scriptures/katha.ts
+./data/scriptures/index.ts
+./app/page.tsx
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\ishan\Music\dharma\dharma-granth\dist\cache\webpack\client-development\0.pack.gz_' -> 'C:\Users\ishan\Music\dharma\dharma-granth\dist\cache\webpack\client-development\0.pack.gz'
+ ⨯ ./data/scriptures/katha.ts
+Error: 
+  [31mx[0m Expected ',', got 'this'
+      ,-[[36;1;4mC:\Users\ishan\Music\dharma\dharma-granth\data\scriptures\katha.ts[0m:1842:1]
+ [2m1842[0m |           transliteration:
+ [2m1843[0m |             "tadetaditi manyante'nirdeśyaṃ paramaṃ sukham | kathaṃ nu tadvijānīyāṃ kimu bhāti vibhāti vā ||",
+ [2m1844[0m |           translation:
+ [2m1845[0m |             "(Naciketas asks:) 'They think of it as "this is that" — the indescribable supreme bliss. How shall I know it? Does it shine, or does it shine forth?'",
+      : [31;1m                                                     ^^^^[0m
+ [2m1846[0m |           hindi:
+ [2m1847[0m |             'वे "यही वह है" — ऐसा मानते हैं — अनिर्देश्य परम सुख। मैं उसे कैसे जानूँ? वह स्वयं चमकता है, या उसकी प्रभा से और कुछ चमकता है?',
+ [2m1848[0m |           explanation:
+      `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./data/scriptures/katha.ts
+./data/scriptures/index.ts
+./app/scripture/[id]/chapter/[chapterId]/page.tsx
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\ishan\Music\dharma\dharma-granth\dist\cache\webpack\client-development\0.pack.gz_' -> 'C:\Users\ishan\Music\dharma\dharma-granth\dist\cache\webpack\client-development\0.pack.gz'
+ ⨯ ./data/scriptures/katha.ts
+Error: 
+  [31mx[0m Unterminated string constant
+      ,-[[36;1;4mC:\Users\ishan\Music\dharma\dharma-granth\data\scriptures\katha.ts[0m:2159:1]
+ [2m2159[0m |           translation:
+ [2m2160[0m |             "A hundred and one are the nāḍīs of the heart; one of them rises to the crown of the head. By going upward through that, one attains immortality. The others, at the time of departure, go in various directions.",
+ [2m2161[0m |           hindi:
+ [2m2162[0m |             'हृदय की एक सौ एक नाड़ियाँ हैं; उनमें से एक मूर्धा (शिखर) तक जाती है। उसके द्वारा ऊर्ध्व जाने वाला अमरत्व प्राप्त करता है। अन्य नाड़ियाँ — उत्क्रमण के समय — विभिन्न दिशाओं में जाती हैं।",
+      : [31;1m            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+ [2m2163[0m |           explanation:
+ [2m2164[0m |             "The yogic anatomy of death. 101 nāḍīs; one (suṣumnā) leads upward through the crown to immortality. Others lead to lower destinations. The teaching of the 'right exit.'",
+ [2m2165[0m |           science:
+      `----
+
+  [31mx[0m Expected ',', got 'explanation'
+      ,-[[36;1;4mC:\Users\ishan\Music\dharma\dharma-granth\data\scriptures\katha.ts[0m:2160:1]
+ [2m2160[0m |             "A hundred and one are the nāḍīs of the heart; one of them rises to the crown of the head. By going upward through that, one attains immortality. The others, at the time of departure, go in various directions.",
+ [2m2161[0m |           hindi:
+ [2m2162[0m |             'हृदय की एक सौ एक नाड़ियाँ हैं; उनमें से एक मूर्धा (शिखर) तक जाती है। उसके द्वारा ऊर्ध्व जाने वाला अमरत्व प्राप्त करता है। अन्य नाड़ियाँ — उत्क्रमण के समय — विभिन्न दिशाओं में जाती हैं।",
+ [2m2163[0m |           explanation:
+      : [31;1m          ^^^^^^^^^^^[0m
+ [2m2164[0m |             "The yogic anatomy of death. 101 nāḍīs; one (suṣumnā) leads upward through the crown to immortality. Others lead to lower destinations. The teaching of the 'right exit.'",
+ [2m2165[0m |           science:
+ [2m2166[0m |             "The teaching is meditative more than anatomical. The 'upward stream' represents a sustained focused state at the time of death — strongly correlated with peace in observational hospice research.",
+      `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./data/scriptures/katha.ts
+./data/scriptures/index.ts
+./app/page.tsx
+ ✓ Compiled in 1759ms (1512 modules)
+ ✓ Compiled in 6.3s (1512 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\ishan\Music\dharma\dharma-granth\dist\cache\webpack\client-development\0.pack.gz_' -> 'C:\Users\ishan\Music\dharma\dharma-granth\dist\cache\webpack\client-development\0.pack.gz'
+ ⨯ ./data/scriptures/taittiriya.ts
+Error: 
+  [31mx[0m Unterminated string constant
+     ,-[[36;1;4mC:\Users\ishan\Music\dharma\dharma-granth\data\scriptures\taittiriya.ts[0m:422:1]
+ [2m422[0m |           translation:
+ [2m423[0m |             "Bhṛgu, son of Varuṇa, approached his father: 'Sir, teach me Brahman.' Varuṇa said: food, prāṇa, sight, hearing, mind, speech. He added: 'That from which beings are born, by which when born they live, into which they enter at departure — desire to know That. That is Brahman.' He performed tapas. Having performed tapas...",
+ [2m424[0m |           hindi:
+ [2m425[0m |             'वरुण-पुत्र भृगु पिता वरुण के पास गए — "हे भगवन्, मुझे ब्रह्म का उपदेश दीजिये।" वरुण ने कहा — "अन्न, प्राण, चक्षु, श्रोत्र, मन, वाक्।" फिर कहा — "जिससे ये भूत उत्पन्न होते हैं, जिससे जीते हैं, जिसमें अन्त में लीन होते हैं — उसे जानने की इच्छा करो; वही ब्रह्म है।" उसने तप किया। तप करके...",
+     : [31;1m            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+ [2m426[0m |           explanation:
+ [2m427[0m |             "The classic teaching-method. The father does not answer but instructs: 'inquire.' He gives criteria: source, sustainer, destination. He gives faculties: food, prāṇa, sight, etc. — pointing the inquiry through them.",
+ [2m428[0m |           science:
+     `----
+
+  [31mx[0m Expected ',', got 'explanation'
+     ,-[[36;1;4mC:\Users\ishan\Music\dharma\dharma-granth\data\scriptures\taittiriya.ts[0m:423:1]
+ [2m423[0m |             "Bhṛgu, son of Varuṇa, approached his father: 'Sir, teach me Brahman.' Varuṇa said: food, prāṇa, sight, hearing, mind, speech. He added: 'That from which beings are born, by which when born they live, into which they enter at departure — desire to know That. That is Brahman.' He performed tapas. Having performed tapas...",
+ [2m424[0m |           hindi:
+ [2m425[0m |             'वरुण-पुत्र भृगु पिता वरुण के पास गए — "हे भगवन्, मुझे ब्रह्म का उपदेश दीजिये।" वरुण ने कहा — "अन्न, प्राण, चक्षु, श्रोत्र, मन, वाक्।" फिर कहा — "जिससे ये भूत उत्पन्न होते हैं, जिससे जीते हैं, जिसमें अन्त में लीन होते हैं — उसे जानने की इच्छा करो; वही ब्रह्म है।" उसने तप किया। तप करके...",
+ [2m426[0m |           explanation:
+     : [31;1m          ^^^^^^^^^^^[0m
+ [2m427[0m |             "The classic teaching-method. The father does not answer but instructs: 'inquire.' He gives criteria: source, sustainer, destination. He gives faculties: food, prāṇa, sight, etc. — pointing the inquiry through them.",
+ [2m428[0m |           science:
+ [2m429[0m |             "Socratic-style guided discovery produces deeper understanding than direct answer. The Upanishad models the method precisely.",
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./data/scriptures/taittiriya.ts
+./data/scriptures/index.ts
+./app/scripture/[id]/chapter/[chapterId]/page.tsx

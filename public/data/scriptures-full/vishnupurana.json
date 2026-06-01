@@ -1,0 +1,14 @@
+{
+  "id": "vishnupurana",
+  "title": "Vishnu Purana",
+  "titleSanskrit": "विष्णुपुराणम्",
+  "category": "purana",
+  "source": {
+    "repo": "https://sanskritdocuments.org/doc_purana/",
+    "license": "Sanskrit mūla — public domain. Digitized by sanskritdocuments.org.",
+    "fetchedAt": "2026-06-01T11:10:42.006Z"
+  },
+  "totalVerses": 0,
+  "totalChapters": 0,
+  "chapters": []
+}

@@ -1,0 +1,14 @@
+{
+  "id": "narasimhapuran",
+  "title": "Narasimha Purana",
+  "titleSanskrit": "नृसिंहपुराण",
+  "category": "purana",
+  "source": {
+    "repo": "https://sanskritdocuments.org/doc_purana/",
+    "license": "Full itx not yet available. Curated highlights are hand-authored.",
+    "fetchedAt": "2026-06-01T11:10:48.576Z"
+  },
+  "totalVerses": 0,
+  "totalChapters": 0,
+  "chapters": []
+}

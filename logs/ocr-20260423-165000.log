@@ -1,752 +1,0 @@
-🔍 OCR Re-extraction Script (Multi-threaded + Cloud Vision REST)
-================================================================
-
-🔗 Testing Vision API connection...
-✅ Vision API connected successfully
-
-🧵 Starting 6 render worker threads...
-⚙️  DPI: 200, Render threads: 6, Vision concurrency: 15
-
-📚 76 scanned PDFs found (61,210 total pages)
-
-(node:6028) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/ishan/Music/dharma/dharma-granth/scripts/ocr-render-worker.ts is not specified and it doesn't parse as CommonJS.
-Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
-To eliminate this warning, add "type": "module" to C:\Users\ishan\Music\dharma\dharma-granth\package.json.
-(Use `node --trace-warnings ...` to show where the warning was created)
-(node:6028) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/ishan/Music/dharma/dharma-granth/scripts/ocr-render-worker.ts is not specified and it doesn't parse as CommonJS.
-Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
-To eliminate this warning, add "type": "module" to C:\Users\ishan\Music\dharma\dharma-granth\package.json.
-(Use `node --trace-warnings ...` to show where the warning was created)
-(node:6028) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/ishan/Music/dharma/dharma-granth/scripts/ocr-render-worker.ts is not specified and it doesn't parse as CommonJS.
-Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
-To eliminate this warning, add "type": "module" to C:\Users\ishan\Music\dharma\dharma-granth\package.json.
-(Use `node --trace-warnings ...` to show where the warning was created)
-(node:6028) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/ishan/Music/dharma/dharma-granth/scripts/ocr-render-worker.ts is not specified and it doesn't parse as CommonJS.
-Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
-To eliminate this warning, add "type": "module" to C:\Users\ishan\Music\dharma\dharma-granth\package.json.
-(Use `node --trace-warnings ...` to show where the warning was created)
-(node:6028) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/ishan/Music/dharma/dharma-granth/scripts/ocr-render-worker.ts is not specified and it doesn't parse as CommonJS.
-Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
-To eliminate this warning, add "type": "module" to C:\Users\ishan\Music\dharma\dharma-granth\package.json.
-(Use `node --trace-warnings ...` to show where the warning was created)
-(node:6028) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/ishan/Music/dharma/dharma-granth/scripts/ocr-render-worker.ts is not specified and it doesn't parse as CommonJS.
-Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
-To eliminate this warning, add "type": "module" to C:\Users\ishan\Music\dharma\dharma-granth\package.json.
-(Use `node --trace-warnings ...` to show where the warning was created)
-
-📖 Processing: Narada Bhakti Sutra
-   PDF: Narad_Bhakti_Shandilya_1p65.pdf (16 pages)
-   📄 10/16 pages (62.5%) — 13s — 0.8 pages/s      📄 16/16 pages (100.0%) — 14s — 1.2 pages/s   
-   ✂️  Split into 165 verses (45927 chars total)
-   ✅ Done in 13.9s — 165 verses saved
-
-📖 Processing: Kena Upanishad Vol. 2
-   PDF: kenoupnishad_2.pdf (41 pages)
-   📄 10/41 pages (24.4%) — 7s — 1.5 pages/s      📄 20/41 pages (48.8%) — 9s — 2.2 pages/s      📄 30/41 pages (73.2%) — 12s — 2.5 pages/s      📄 40/41 pages (97.6%) — 14s — 2.8 pages/s      📄 41/41 pages (100.0%) — 16s — 2.5 pages/s   
-   ✂️  Split into 41 verses (62822 chars total)
-   ✅ Done in 16.3s — 41 verses saved
-
-📖 Processing: Kena Upanishad
-   PDF: kenoupnishad.pdf (41 pages)
-   📄 10/41 pages (24.4%) — 10s — 1.0 pages/s      📄 20/41 pages (48.8%) — 13s — 1.5 pages/s      📄 30/41 pages (73.2%) — 18s — 1.6 pages/s      📄 40/41 pages (97.6%) — 20s — 2.0 pages/s      📄 41/41 pages (100.0%) — 20s — 2.1 pages/s   
-   ✂️  Split into 41 verses (62822 chars total)
-   ✅ Done in 19.9s — 41 verses saved
-
-📖 Processing: Ravan Samhita Vol. 5
-   PDF: ravan-samhita-5.pdf (48 pages)
-   📄 10/48 pages (20.8%) — 19s — 0.5 pages/s      📄 20/48 pages (41.7%) — 26s — 0.8 pages/s      📄 30/48 pages (62.5%) — 31s — 1.0 pages/s      📄 40/48 pages (83.3%) — 36s — 1.1 pages/s      📄 48/48 pages (100.0%) — 38s — 1.3 pages/s   
-   ✂️  Split into 7 verses (84273 chars total)
-   ✅ Done in 37.8s — 7 verses saved
-
-📖 Processing: Isha Upanishad
-   PDF: Ishavashya Upanishad With Trans And Shanakr Annotation 1970 - Gita Press Gorakhpur.pdf (58 pages)
-   📄 10/58 pages (17.2%) — 27s — 0.4 pages/s      📄 20/58 pages (34.5%) — 33s — 0.6 pages/s      📄 30/58 pages (51.7%) — 42s — 0.7 pages/s      📄 40/58 pages (69.0%) — 50s — 0.8 pages/s      📄 50/58 pages (86.2%) — 62s — 0.8 pages/s      📄 58/58 pages (100.0%) — 68s — 0.9 pages/s   
-   ✂️  Split into 54 verses (70006 chars total)
-   ✅ Done in 67.7s — 54 verses saved
-
-📖 Processing: Ravan Samhita Vol. 1
-   PDF: ravan-samhita-1.pdf (64 pages)
-   📄 10/64 pages (15.6%) — 13s — 0.8 pages/s      📄 20/64 pages (31.3%) — 18s — 1.1 pages/s      📄 30/64 pages (46.9%) — 22s — 1.3 pages/s      📄 40/64 pages (62.5%) — 28s — 1.4 pages/s      📄 50/64 pages (78.1%) — 34s — 1.5 pages/s      📄 60/64 pages (93.8%) — 38s — 1.6 pages/s      📄 64/64 pages (100.0%) — 50s — 1.3 pages/s   
-   ✂️  Split into 62 verses (122062 chars total)
-   ✅ Done in 50.5s — 62 verses saved
-
-📖 Processing: Shiva Swarodaya
-   PDF: shiva-swarodaya-sanskrit-hindi.pdf (93 pages)
-   📄 10/93 pages (10.8%) — 9s — 1.2 pages/s      📄 20/93 pages (21.5%) — 12s — 1.7 pages/s      📄 30/93 pages (32.3%) — 13s — 2.2 pages/s      📄 40/93 pages (43.0%) — 16s — 2.5 pages/s      📄 50/93 pages (53.8%) — 19s — 2.6 pages/s      📄 60/93 pages (64.5%) — 23s — 2.7 pages/s      📄 70/93 pages (75.3%) — 24s — 2.9 pages/s      📄 80/93 pages (86.0%) — 26s — 3.1 pages/s      📄 90/93 pages (96.8%) — 27s — 3.3 pages/s      📄 93/93 pages (100.0%) — 28s — 3.3 pages/s   
-   ✂️  Split into 528 verses (96419 chars total)
-   ✅ Done in 28.2s — 528 verses saved
-
-📖 Processing: Yoga Rasayanam
-   PDF: yoga-rasayanam-sanskrit-hindi.pdf (100 pages)
-   📄 10/100 pages (10.0%) — 3s — 3.2 pages/s      📄 20/100 pages (20.0%) — 4s — 4.6 pages/s      📄 30/100 pages (30.0%) — 6s — 5.2 pages/s      📄 40/100 pages (40.0%) — 7s — 5.5 pages/s      📄 50/100 pages (50.0%) — 9s — 5.4 pages/s      📄 60/100 pages (60.0%) — 10s — 5.7 pages/s      📄 70/100 pages (70.0%) — 12s — 5.8 pages/s      📄 80/100 pages (80.0%) — 16s — 4.9 pages/s      📄 90/100 pages (90.0%) — 18s — 5.1 pages/s      📄 100/100 pages (100.0%) — 19s — 5.3 pages/s   
-   ✂️  Split into 237 verses (81794 chars total)
-   ✅ Done in 18.8s — 237 verses saved
-
-📖 Processing: Aitareya Upanishad
-   PDF: Aitareya Upanishad - Gita Press Gorakhpur.pdf (108 pages)
-   📄 10/108 pages (9.3%) — 15s — 0.7 pages/s      📄 20/108 pages (18.5%) — 25s — 0.8 pages/s      📄 30/108 pages (27.8%) — 34s — 0.9 pages/s      📄 40/108 pages (37.0%) — 38s — 1.0 pages/s      📄 50/108 pages (46.3%) — 49s — 1.0 pages/s      📄 60/108 pages (55.6%) — 59s — 1.0 pages/s      📄 70/108 pages (64.8%) — 64s — 1.1 pages/s      📄 80/108 pages (74.1%) — 73s — 1.1 pages/s      📄 90/108 pages (83.3%) — 83s — 1.1 pages/s      📄 100/108 pages (92.6%) — 89s — 1.1 pages/s      📄 108/108 pages (100.0%) — 93s — 1.2 pages/s   
-   ✂️  Split into 66 verses (136869 chars total)
-   ✅ Done in 93.5s — 66 verses saved
-
-📖 Processing: Ravan Samhita Vol. 4
-   PDF: ravan-samhita-4.pdf (115 pages)
-   📄 10/115 pages (8.7%) — 10s — 1.0 pages/s      📄 20/115 pages (17.4%) — 17s — 1.2 pages/s      📄 30/115 pages (26.1%) — 21s — 1.4 pages/s      📄 40/115 pages (34.8%) — 27s — 1.5 pages/s      📄 50/115 pages (43.5%) — 32s — 1.6 pages/s      📄 60/115 pages (52.2%) — 37s — 1.6 pages/s      📄 70/115 pages (60.9%) — 42s — 1.7 pages/s      📄 80/115 pages (69.6%) — 48s — 1.7 pages/s      📄 90/115 pages (78.3%) — 54s — 1.7 pages/s      📄 100/115 pages (87.0%) — 58s — 1.7 pages/s      📄 110/115 pages (95.7%) — 62s — 1.8 pages/s      📄 115/115 pages (100.0%) — 63s — 1.8 pages/s   
-   ✂️  Split into 115 verses (196013 chars total)
-   ✅ Done in 63.5s — 115 verses saved
-
-📖 Processing: Ravan Samhita Vol. 2
-   PDF: ravan-samhita-2.pdf (124 pages)
-   📄 10/124 pages (8.1%) — 11s — 0.9 pages/s      📄 20/124 pages (16.1%) — 17s — 1.2 pages/s      📄 30/124 pages (24.2%) — 21s — 1.4 pages/s      📄 40/124 pages (32.3%) — 26s — 1.5 pages/s      📄 50/124 pages (40.3%) — 32s — 1.6 pages/s      📄 60/124 pages (48.4%) — 37s — 1.6 pages/s      📄 70/124 pages (56.5%) — 42s — 1.7 pages/s      📄 80/124 pages (64.5%) — 47s — 1.7 pages/s      📄 90/124 pages (72.6%) — 51s — 1.8 pages/s      📄 100/124 pages (80.6%) — 57s — 1.7 pages/s      📄 110/124 pages (88.7%) — 63s — 1.8 pages/s      📄 120/124 pages (96.8%) — 66s — 1.8 pages/s      📄 124/124 pages (100.0%) — 69s — 1.8 pages/s   
-   ✂️  Split into 4 verses (211540 chars total)
-   ✅ Done in 68.6s — 4 verses saved
-
-📖 Processing: Prashna Upanishad
-   PDF: Prashnopanishad 1992 Gorkhpur - Gita Press.pdf (128 pages)
-   📄 10/128 pages (7.8%) — 10s — 1.0 pages/s      📄 20/128 pages (15.6%) — 17s — 1.2 pages/s      📄 30/128 pages (23.4%) — 20s — 1.5 pages/s      📄 40/128 pages (31.3%) — 26s — 1.5 pages/s      📄 50/128 pages (39.1%) — 34s — 1.5 pages/s      📄 60/128 pages (46.9%) — 38s — 1.6 pages/s      📄 70/128 pages (54.7%) — 45s — 1.5 pages/s      📄 80/128 pages (62.5%) — 50s — 1.6 pages/s      📄 90/128 pages (70.3%) — 55s — 1.6 pages/s      📄 100/128 pages (78.1%) — 61s — 1.6 pages/s      📄 110/128 pages (85.9%) — 66s — 1.7 pages/s      📄 120/128 pages (93.8%) — 72s — 1.7 pages/s      📄 128/128 pages (100.0%) — 81s — 1.6 pages/s   
-   ✂️  Split into 149 verses (168841 chars total)
-   ✅ Done in 80.9s — 149 verses saved
-
-📖 Processing: Durga Saptashati (Hindi)
-   PDF: durga-saptashati-hindi.pdf (159 pages)
-   📄 10/159 pages (6.3%) — 2s — 5.3 pages/s      📄 20/159 pages (12.6%) — 3s — 6.5 pages/s      📄 30/159 pages (18.9%) — 4s — 7.9 pages/s      📄 40/159 pages (25.2%) — 5s — 8.3 pages/s      📄 50/159 pages (31.4%) — 6s — 8.9 pages/s      📄 60/159 pages (37.7%) — 7s — 8.6 pages/s      📄 70/159 pages (44.0%) — 8s — 8.6 pages/s      📄 80/159 pages (50.3%) — 9s — 8.9 pages/s      📄 90/159 pages (56.6%) — 10s — 9.0 pages/s      📄 100/159 pages (62.9%) — 11s — 9.1 pages/s      📄 110/159 pages (69.2%) — 12s — 9.3 pages/s      📄 120/159 pages (75.5%) — 13s — 9.4 pages/s      📄 130/159 pages (81.8%) — 14s — 9.6 pages/s      📄 140/159 pages (88.1%) — 14s — 9.8 pages/s      📄 150/159 pages (94.3%) — 15s — 9.8 pages/s      📄 159/159 pages (100.0%) — 23s — 7.0 pages/s   
-   ✂️  Split into 470 verses (253432 chars total)
-   ✅ Done in 23.0s — 470 verses saved
-
-📖 Processing: Durga Saptashati
-   PDF: Durga_Saptashati.pdf (160 pages)
-   📄 10/160 pages (6.3%) — 2s — 5.7 pages/s      📄 20/160 pages (12.5%) — 3s — 6.6 pages/s      📄 30/160 pages (18.8%) — 4s — 8.0 pages/s      📄 40/160 pages (25.0%) — 4s — 9.3 pages/s      📄 50/160 pages (31.3%) — 5s — 9.2 pages/s      📄 60/160 pages (37.5%) — 7s — 9.0 pages/s      📄 70/160 pages (43.8%) — 7s — 9.4 pages/s      📄 80/160 pages (50.0%) — 9s — 9.3 pages/s      📄 90/160 pages (56.3%) — 9s — 9.7 pages/s      📄 100/160 pages (62.5%) — 10s — 9.9 pages/s      📄 110/160 pages (68.8%) — 11s — 10.0 pages/s      📄 120/160 pages (75.0%) — 12s — 10.0 pages/s      📄 130/160 pages (81.3%) — 13s — 10.0 pages/s      📄 140/160 pages (87.5%) — 14s — 10.1 pages/s      📄 150/160 pages (93.8%) — 15s — 10.1 pages/s      📄 160/160 pages (100.0%) — 16s — 9.8 pages/s   
-   ✂️  Split into 471 verses (253719 chars total)
-   ✅ Done in 16.4s — 471 verses saved
-
-📖 Processing: Viveka Chudamani
-   PDF: Vivek Chudamani of Shankaracharya with Hindi Translation - Gita Press.pdf (164 pages)
-   📄 10/164 pages (6.1%) — 11s — 0.9 pages/s      📄 20/164 pages (12.2%) — 18s — 1.1 pages/s      📄 30/164 pages (18.3%) — 23s — 1.3 pages/s      📄 40/164 pages (24.4%) — 31s — 1.3 pages/s      📄 50/164 pages (30.5%) — 38s — 1.3 pages/s      📄 60/164 pages (36.6%) — 44s — 1.4 pages/s      📄 70/164 pages (42.7%) — 50s — 1.4 pages/s      📄 80/164 pages (48.8%) — 58s — 1.4 pages/s      📄 90/164 pages (54.9%) — 63s — 1.4 pages/s      📄 100/164 pages (61.0%) — 72s — 1.4 pages/s      📄 110/164 pages (67.1%) — 79s — 1.4 pages/s      📄 120/164 pages (73.2%) — 84s — 1.4 pages/s      📄 130/164 pages (79.3%) — 91s — 1.4 pages/s      📄 140/164 pages (85.4%) — 98s — 1.4 pages/s      📄 150/164 pages (91.5%) — 106s — 1.4 pages/s      📄 160/164 pages (97.6%) — 110s — 1.4 pages/s      📄 164/164 pages (100.0%) — 114s — 1.4 pages/s   
-   ✂️  Split into 385 verses (194672 chars total)
-   ✅ Done in 114.2s — 385 verses saved
-
-📖 Processing: Chaitanya Mahaprabhu ki Siksha
-   PDF: chatanya-mahaprabhu-ki-siksa-hindi-4th-ed.pdf (169 pages)
-   📄 10/169 pages (5.9%) — 1s — 8.9 pages/s      📄 20/169 pages (11.8%) — 1s — 14.2 pages/s      📄 30/169 pages (17.8%) — 2s — 13.5 pages/s      📄 40/169 pages (23.7%) — 3s — 13.9 pages/s      📄 50/169 pages (29.6%) — 3s — 14.7 pages/s      📄 60/169 pages (35.5%) — 4s — 14.6 pages/s      📄 70/169 pages (41.4%) — 5s — 14.6 pages/s      📄 80/169 pages (47.3%) — 5s — 15.0 pages/s      📄 90/169 pages (53.3%) — 6s — 15.5 pages/s      📄 100/169 pages (59.2%) — 6s — 15.5 pages/s      📄 110/169 pages (65.1%) — 7s — 15.5 pages/s      📄 120/169 pages (71.0%) — 8s — 15.8 pages/s      📄 130/169 pages (76.9%) — 8s — 15.8 pages/s      📄 140/169 pages (82.8%) — 9s — 15.7 pages/s      📄 150/169 pages (88.8%) — 9s — 16.1 pages/s      📄 160/169 pages (94.7%) — 10s — 16.0 pages/s      📄 169/169 pages (100.0%) — 18s — 9.2 pages/s   
-   ✂️  Split into 165 verses (205979 chars total)
-   ✅ Done in 19.0s — 165 verses saved
-
-📖 Processing: Vidura Niti
-   PDF: Vidura Niti With Hindi Trans. By Hanuman Prasad Poddar 1954 Gorakhpur - Gita Press.pdf (172 pages)
-   📄 10/172 pages (5.8%) — 12s — 0.8 pages/s      📄 20/172 pages (11.6%) — 20s — 1.0 pages/s      📄 30/172 pages (17.4%) — 24s — 1.3 pages/s      📄 40/172 pages (23.3%) — 32s — 1.3 pages/s      📄 50/172 pages (29.1%) — 37s — 1.3 pages/s      📄 60/172 pages (34.9%) — 44s — 1.4 pages/s      📄 70/172 pages (40.7%) — 51s — 1.4 pages/s      📄 80/172 pages (46.5%) — 55s — 1.4 pages/s      📄 90/172 pages (52.3%) — 62s — 1.5 pages/s      📄 100/172 pages (58.1%) — 70s — 1.4 pages/s      📄 110/172 pages (64.0%) — 75s — 1.5 pages/s      📄 120/172 pages (69.8%) — 81s — 1.5 pages/s      📄 130/172 pages (75.6%) — 89s — 1.5 pages/s      📄 140/172 pages (81.4%) — 96s — 1.5 pages/s      📄 150/172 pages (87.2%) — 101s — 1.5 pages/s      📄 160/172 pages (93.0%) — 108s — 1.5 pages/s      📄 170/172 pages (98.8%) — 111s — 1.5 pages/s      📄 172/172 pages (100.0%) — 112s — 1.5 pages/s   
-   ✂️  Split into 684 verses (185892 chars total)
-   ✅ Done in 112.6s — 684 verses saved
-
-📖 Processing: Katha Upanishad
-   PDF: Katha Upanishad  - Gita Press Gorakhpur.pdf (182 pages)
-   📄 10/182 pages (5.5%) — 15s — 0.7 pages/s      📄 20/182 pages (11.0%) — 26s — 0.8 pages/s      📄 30/182 pages (16.5%) — 33s — 0.9 pages/s      📄 40/182 pages (22.0%) — 40s — 1.0 pages/s      📄 50/182 pages (27.5%) — 50s — 1.0 pages/s      📄 60/182 pages (33.0%) — 59s — 1.0 pages/s      📄 70/182 pages (38.5%) — 66s — 1.1 pages/s      📄 80/182 pages (44.0%) — 77s — 1.0 pages/s      📄 90/182 pages (49.5%) — 84s — 1.1 pages/s      📄 100/182 pages (54.9%) — 93s — 1.1 pages/s      📄 110/182 pages (60.4%) — 104s — 1.1 pages/s      📄 120/182 pages (65.9%) — 109s — 1.1 pages/s      📄 130/182 pages (71.4%) — 119s — 1.1 pages/s      📄 140/182 pages (76.9%) — 127s — 1.1 pages/s      📄 150/182 pages (82.4%) — 136s — 1.1 pages/s      📄 160/182 pages (87.9%) — 145s — 1.1 pages/s      📄 170/182 pages (93.4%) — 153s — 1.1 pages/s      📄 180/182 pages (98.9%) — 157s — 1.1 pages/s      📄 182/182 pages (100.0%) — 159s — 1.1 pages/s   
-   ✂️  Split into 131 verses (221799 chars total)
-   ✅ Done in 159.9s — 131 verses saved
-
-📖 Processing: Vamana Purana
-   PDF: vamanpuran.pdf (196 pages)
-   📄 10/196 pages (5.1%) — 1s — 7.4 pages/s      📄 20/196 pages (10.2%) — 2s — 10.1 pages/s      📄 30/196 pages (15.3%) — 2s — 12.6 pages/s      📄 40/196 pages (20.4%) — 3s — 13.3 pages/s      📄 50/196 pages (25.5%) — 4s — 13.1 pages/s      📄 60/196 pages (30.6%) — 4s — 13.8 pages/s      📄 70/196 pages (35.7%) — 5s — 14.2 pages/s      📄 80/196 pages (40.8%) — 6s — 14.4 pages/s      📄 90/196 pages (45.9%) — 6s — 14.6 pages/s      📄 100/196 pages (51.0%) — 7s — 14.4 pages/s      📄 110/196 pages (56.1%) — 8s — 14.5 pages/s      📄 120/196 pages (61.2%) — 8s — 14.5 pages/s      📄 130/196 pages (66.3%) — 9s — 14.3 pages/s      📄 140/196 pages (71.4%) — 10s — 14.6 pages/s      📄 150/196 pages (76.5%) — 10s — 14.6 pages/s      📄 160/196 pages (81.6%) — 11s — 14.5 pages/s      📄 170/196 pages (86.7%) — 12s — 14.5 pages/s      📄 180/196 pages (91.8%) — 12s — 14.7 pages/s      📄 190/196 pages (96.9%) — 13s — 14.6 pages/s      📄 196/196 pages (100.0%) — 17s — 11.8 pages/s   
-   ✂️  Split into 1419 verses (554986 chars total)
-   ✅ Done in 16.7s — 1419 verses saved
-
-📖 Processing: Shiva Samhita
-   PDF: shiva_sahinta_withhinditika.pdf (216 pages)
-   📄 10/216 pages (4.6%) — 2s — 4.3 pages/s      📄 20/216 pages (9.3%) — 4s — 5.1 pages/s      📄 30/216 pages (13.9%) — 5s — 6.0 pages/s      📄 40/216 pages (18.5%) — 6s — 6.5 pages/s      📄 50/216 pages (23.1%) — 7s — 6.7 pages/s      📄 60/216 pages (27.8%) — 9s — 6.9 pages/s      📄 70/216 pages (32.4%) — 10s — 7.1 pages/s      📄 80/216 pages (37.0%) — 11s — 7.1 pages/s      📄 90/216 pages (41.7%) — 13s — 7.0 pages/s      📄 100/216 pages (46.3%) — 14s — 7.1 pages/s      📄 110/216 pages (50.9%) — 15s — 7.3 pages/s      📄 120/216 pages (55.6%) — 16s — 7.3 pages/s      📄 130/216 pages (60.2%) — 17s — 7.4 pages/s      📄 140/216 pages (64.8%) — 19s — 7.4 pages/s      📄 150/216 pages (69.4%) — 20s — 7.4 pages/s      📄 160/216 pages (74.1%) — 21s — 7.5 pages/s      📄 170/216 pages (78.7%) — 23s — 7.4 pages/s      📄 180/216 pages (83.3%) — 24s — 7.5 pages/s      📄 190/216 pages (88.0%) — 25s — 7.5 pages/s      📄 200/216 pages (92.6%) — 26s — 7.6 pages/s      📄 210/216 pages (97.2%) — 28s — 7.6 pages/s      📄 216/216 pages (100.0%) — 28s — 7.7 pages/s   
-   ✂️  Split into 903 verses (176154 chars total)
-   ✅ Done in 28.3s — 903 verses saved
-
-📖 Processing: Ravan Samhita Vol. 3
-   PDF: ravan-samhita-3.pdf (245 pages)
-   📄 10/245 pages (4.1%) — 11s — 0.9 pages/s      📄 20/245 pages (8.2%) — 17s — 1.2 pages/s      📄 30/245 pages (12.2%) — 21s — 1.4 pages/s      📄 40/245 pages (16.3%) — 27s — 1.5 pages/s      📄 50/245 pages (20.4%) — 33s — 1.5 pages/s      📄 60/245 pages (24.5%) — 39s — 1.6 pages/s      📄 70/245 pages (28.6%) — 43s — 1.6 pages/s      📄 80/245 pages (32.7%) — 49s — 1.6 pages/s      📄 90/245 pages (36.7%) — 52s — 1.7 pages/s      📄 100/245 pages (40.8%) — 58s — 1.7 pages/s      📄 110/245 pages (44.9%) — 63s — 1.7 pages/s      📄 120/245 pages (49.0%) — 69s — 1.7 pages/s      📄 130/245 pages (53.1%) — 73s — 1.8 pages/s      📄 140/245 pages (57.1%) — 78s — 1.8 pages/s      📄 150/245 pages (61.2%) — 84s — 1.8 pages/s      📄 160/245 pages (65.3%) — 87s — 1.8 pages/s      📄 170/245 pages (69.4%) — 94s — 1.8 pages/s      📄 180/245 pages (73.5%) — 98s — 1.8 pages/s      📄 190/245 pages (77.6%) — 104s — 1.8 pages/s      📄 200/245 pages (81.6%) — 109s — 1.8 pages/s      📄 210/245 pages (85.7%) — 115s — 1.8 pages/s      📄 220/245 pages (89.8%) — 120s — 1.8 pages/s      📄 230/245 pages (93.9%) — 123s — 1.9 pages/s      📄 240/245 pages (98.0%) — 128s — 1.9 pages/s      📄 245/245 pages (100.0%) — 130s — 1.9 pages/s   
-   ✂️  Split into 245 verses (439774 chars total)
-   ✅ Done in 130.2s — 245 verses saved
-
-📖 Processing: Kalki Purana
-   PDF: kalkipuranhindi1.pdf (259 pages)
-   📄 10/259 pages (3.9%) — 2s — 5.7 pages/s      📄 20/259 pages (7.7%) — 3s — 7.8 pages/s      📄 30/259 pages (11.6%) — 4s — 8.2 pages/s      📄 40/259 pages (15.4%) — 4s — 9.1 pages/s      📄 50/259 pages (19.3%) — 5s — 9.4 pages/s      📄 60/259 pages (23.2%) — 6s — 9.6 pages/s      📄 70/259 pages (27.0%) — 7s — 9.8 pages/s      📄 80/259 pages (30.9%) — 8s — 9.9 pages/s      📄 90/259 pages (34.7%) — 9s — 9.9 pages/s      📄 100/259 pages (38.6%) — 10s — 10.0 pages/s      📄 110/259 pages (42.5%) — 11s — 10.4 pages/s      📄 120/259 pages (46.3%) — 12s — 10.4 pages/s      📄 130/259 pages (50.2%) — 13s — 10.3 pages/s      📄 140/259 pages (54.1%) — 13s — 10.5 pages/s      📄 150/259 pages (57.9%) — 14s — 10.4 pages/s      📄 160/259 pages (61.8%) — 15s — 10.5 pages/s      📄 170/259 pages (65.6%) — 16s — 10.5 pages/s      📄 180/259 pages (69.5%) — 17s — 10.5 pages/s      📄 190/259 pages (73.4%) — 18s — 10.4 pages/s      📄 200/259 pages (77.2%) — 19s — 10.5 pages/s      📄 210/259 pages (81.1%) — 20s — 10.5 pages/s      📄 220/259 pages (84.9%) — 21s — 10.6 pages/s      📄 230/259 pages (88.8%) — 22s — 10.6 pages/s      📄 240/259 pages (92.7%) — 23s — 10.6 pages/s      📄 250/259 pages (96.5%) — 24s — 10.6 pages/s      📄 259/259 pages (100.0%) — 40s — 6.5 pages/s   
-   ✂️  Split into 289 verses (330391 chars total)
-   ✅ Done in 40.6s — 289 verses saved
-
-📖 Processing: Taittiriya Upanishad
-   PDF: Taitiriya Upanishad with Translated Shankara Bhashya - Gita Press.pdf (260 pages)
-   📄 10/260 pages (3.8%) — 11s — 0.9 pages/s      📄 20/260 pages (7.7%) — 19s — 1.1 pages/s      📄 30/260 pages (11.5%) — 24s — 1.2 pages/s      📄 40/260 pages (15.4%) — 30s — 1.3 pages/s      📄 50/260 pages (19.2%) — 39s — 1.3 pages/s      📄 60/260 pages (23.1%) — 42s — 1.4 pages/s      📄 70/260 pages (26.9%) — 50s — 1.4 pages/s      📄 80/260 pages (30.8%) — 57s — 1.4 pages/s      📄 90/260 pages (34.6%) — 62s — 1.4 pages/s      📄 100/260 pages (38.5%) — 70s — 1.4 pages/s      📄 110/260 pages (42.3%) — 77s — 1.4 pages/s      📄 120/260 pages (46.2%) — 83s — 1.4 pages/s      📄 130/260 pages (50.0%) — 92s — 1.4 pages/s      📄 140/260 pages (53.8%) — 97s — 1.4 pages/s      📄 150/260 pages (57.7%) — 104s — 1.4 pages/s      📄 160/260 pages (61.5%) — 110s — 1.5 pages/s      📄 170/260 pages (65.4%) — 118s — 1.4 pages/s      📄 180/260 pages (69.2%) — 125s — 1.4 pages/s      📄 190/260 pages (73.1%) — 132s — 1.4 pages/s      📄 200/260 pages (76.9%) — 137s — 1.5 pages/s      📄 210/260 pages (80.8%) — 143s — 1.5 pages/s      📄 220/260 pages (84.6%) — 151s — 1.5 pages/s      📄 230/260 pages (88.5%) — 156s — 1.5 pages/s      📄 240/260 pages (92.3%) — 164s — 1.5 pages/s      📄 250/260 pages (96.2%) — 169s — 1.5 pages/s      📄 260/260 pages (100.0%) — 175s — 1.5 pages/s   
-   ✂️  Split into 110 verses (346489 chars total)
-   ✅ Done in 174.6s — 110 verses saved
-
-📖 Processing: Shvetashvatara Upanishad
-   PDF: Shwetashwatara Upanishad With The Commentary Of Shankara Bhashya 1995 Gorakhpur - Gita Press.pdf (274 pages)
-   📄 10/274 pages (3.6%) — 14s — 0.7 pages/s      📄 20/274 pages (7.3%) — 21s — 1.0 pages/s      📄 30/274 pages (10.9%) — 29s — 1.0 pages/s      📄 40/274 pages (14.6%) — 38s — 1.1 pages/s      📄 50/274 pages (18.2%) — 44s — 1.1 pages/s      📄 60/274 pages (21.9%) — 54s — 1.1 pages/s      📄 70/274 pages (25.5%) — 59s — 1.2 pages/s      📄 80/274 pages (29.2%) — 67s — 1.2 pages/s      📄 90/274 pages (32.8%) — 74s — 1.2 pages/s      📄 100/274 pages (36.5%) — 83s — 1.2 pages/s      📄 110/274 pages (40.1%) — 91s — 1.2 pages/s      📄 120/274 pages (43.8%) — 99s — 1.2 pages/s      📄 130/274 pages (47.4%) — 105s — 1.2 pages/s      📄 140/274 pages (51.1%) — 115s — 1.2 pages/s      📄 150/274 pages (54.7%) — 123s — 1.2 pages/s      📄 160/274 pages (58.4%) — 129s — 1.2 pages/s      📄 170/274 pages (62.0%) — 138s — 1.2 pages/s      📄 180/274 pages (65.7%) — 147s — 1.2 pages/s      📄 190/274 pages (69.3%) — 153s — 1.2 pages/s      📄 200/274 pages (73.0%) — 160s — 1.2 pages/s      📄 210/274 pages (76.6%) — 168s — 1.2 pages/s      📄 220/274 pages (80.3%) — 176s — 1.3 pages/s      📄 230/274 pages (83.9%) — 183s — 1.3 pages/s      📄 240/274 pages (87.6%) — 191s — 1.3 pages/s      📄 250/274 pages (91.2%) — 199s — 1.3 pages/s      📄 260/274 pages (94.9%) — 205s — 1.3 pages/s      📄 270/274 pages (98.5%) — 211s — 1.3 pages/s      📄 274/274 pages (100.0%) — 228s — 1.2 pages/s   
-   ✂️  Split into 324 verses (396836 chars total)
-   ✅ Done in 227.9s — 324 verses saved
-
-📖 Processing: Markandeya Purana
-   PDF: markende-puran.pdf (296 pages)
-   📄 10/296 pages (3.4%) — 2s — 4.5 pages/s      📄 20/296 pages (6.8%) — 3s — 6.4 pages/s      📄 30/296 pages (10.1%) — 4s — 8.1 pages/s      📄 40/296 pages (13.5%) — 4s — 9.1 pages/s      📄 50/296 pages (16.9%) — 5s — 9.9 pages/s      📄 60/296 pages (20.3%) — 6s — 10.7 pages/s      📄 70/296 pages (23.6%) — 6s — 11.1 pages/s      📄 80/296 pages (27.0%) — 7s — 11.3 pages/s      📄 90/296 pages (30.4%) — 8s — 11.9 pages/s      📄 100/296 pages (33.8%) — 8s — 12.2 pages/s      📄 110/296 pages (37.2%) — 9s — 12.4 pages/s      📄 120/296 pages (40.5%) — 10s — 12.6 pages/s      📄 130/296 pages (43.9%) — 10s — 12.9 pages/s      📄 140/296 pages (47.3%) — 11s — 13.0 pages/s      📄 150/296 pages (50.7%) — 11s — 13.1 pages/s      📄 160/296 pages (54.1%) — 12s — 13.3 pages/s      📄 170/296 pages (57.4%) — 13s — 13.6 pages/s      📄 180/296 pages (60.8%) — 13s — 13.6 pages/s      📄 190/296 pages (64.2%) — 14s — 13.7 pages/s      📄 200/296 pages (67.6%) — 14s — 14.1 pages/s      📄 210/296 pages (70.9%) — 15s — 14.1 pages/s      📄 220/296 pages (74.3%) — 15s — 14.2 pages/s      📄 230/296 pages (77.7%) — 16s — 14.5 pages/s      📄 240/296 pages (81.1%) — 16s — 14.6 pages/s      📄 250/296 pages (84.5%) — 17s — 14.5 pages/s      📄 260/296 pages (87.8%) — 18s — 14.6 pages/s      📄 270/296 pages (91.2%) — 18s — 14.8 pages/s      📄 280/296 pages (94.6%) — 19s — 14.7 pages/s      📄 290/296 pages (98.0%) — 20s — 14.8 pages/s      📄 296/296 pages (100.0%) — 20s — 14.5 pages/s   
-   ✂️  Split into 812 verses (747425 chars total)
-   ✅ Done in 20.5s — 812 verses saved
-
-📖 Processing: Narasimha Purana
-   PDF: narsihma-puran.pdf (298 pages)
-   📄 10/298 pages (3.4%) — 12s — 0.8 pages/s      📄 20/298 pages (6.7%) — 13s — 1.5 pages/s      📄 30/298 pages (10.1%) — 14s — 2.1 pages/s      📄 40/298 pages (13.4%) — 15s — 2.6 pages/s      📄 50/298 pages (16.8%) — 16s — 3.1 pages/s      📄 60/298 pages (20.1%) — 17s — 3.5 pages/s      📄 70/298 pages (23.5%) — 18s — 3.9 pages/s      📄 80/298 pages (26.8%) — 18s — 4.3 pages/s      📄 90/298 pages (30.2%) — 19s — 4.7 pages/s      📄 100/298 pages (33.6%) — 19s — 5.1 pages/s      📄 110/298 pages (36.9%) — 20s — 5.5 pages/s      📄 120/298 pages (40.3%) — 21s — 5.8 pages/s      📄 130/298 pages (43.6%) — 21s — 6.1 pages/s      📄 140/298 pages (47.0%) — 22s — 6.4 pages/s      📄 150/298 pages (50.3%) — 23s — 6.6 pages/s      📄 160/298 pages (53.7%) — 23s — 6.9 pages/s      📄 170/298 pages (57.0%) — 24s — 7.2 pages/s      📄 180/298 pages (60.4%) — 24s — 7.4 pages/s      📄 190/298 pages (63.8%) — 25s — 7.6 pages/s      📄 200/298 pages (67.1%) — 25s — 7.8 pages/s      📄 210/298 pages (70.5%) — 26s — 8.0 pages/s      📄 220/298 pages (73.8%) — 27s — 8.2 pages/s      📄 230/298 pages (77.2%) — 27s — 8.4 pages/s      📄 240/298 pages (80.5%) — 28s — 8.6 pages/s      📄 250/298 pages (83.9%) — 29s — 8.7 pages/s      📄 260/298 pages (87.2%) — 29s — 9.0 pages/s      📄 270/298 pages (90.6%) — 30s — 9.1 pages/s      📄 280/298 pages (94.0%) — 30s — 9.2 pages/s      📄 290/298 pages (97.3%) — 31s — 9.4 pages/s      📄 298/298 pages (100.0%) — 31s — 9.5 pages/s   
-   ✂️  Split into 2037 verses (849689 chars total)
-   ✅ Done in 31.6s — 2037 verses saved
-
-📖 Processing: Sama Veda
-   PDF: samved.pdf (328 pages)
-   📄 10/328 pages (3.0%) — 1s — 9.0 pages/s      📄 20/328 pages (6.1%) — 2s — 11.9 pages/s      📄 30/328 pages (9.1%) — 2s — 14.9 pages/s      📄 40/328 pages (12.2%) — 2s — 16.4 pages/s      📄 50/328 pages (15.2%) — 3s — 16.7 pages/s      📄 60/328 pages (18.3%) — 3s — 17.7 pages/s      📄 70/328 pages (21.3%) — 4s — 18.3 pages/s      📄 80/328 pages (24.4%) — 4s — 18.6 pages/s      📄 90/328 pages (27.4%) — 5s — 19.1 pages/s      📄 100/328 pages (30.5%) — 5s — 18.8 pages/s      📄 110/328 pages (33.5%) — 6s — 19.2 pages/s      📄 120/328 pages (36.6%) — 6s — 19.7 pages/s      📄 130/328 pages (39.6%) — 7s — 19.6 pages/s      📄 140/328 pages (42.7%) — 7s — 19.4 pages/s      📄 150/328 pages (45.7%) — 8s — 19.9 pages/s      📄 160/328 pages (48.8%) — 8s — 19.8 pages/s      📄 170/328 pages (51.8%) — 9s — 19.6 pages/s      📄 180/328 pages (54.9%) — 9s — 20.1 pages/s      📄 190/328 pages (57.9%) — 9s — 20.0 pages/s      📄 200/328 pages (61.0%) — 10s — 20.2 pages/s      📄 210/328 pages (64.0%) — 10s — 20.2 pages/s      📄 220/328 pages (67.1%) — 11s — 20.2 pages/s      📄 230/328 pages (70.1%) — 11s — 20.5 pages/s      📄 240/328 pages (73.2%) — 12s — 20.5 pages/s      📄 250/328 pages (76.2%) — 12s — 20.7 pages/s      📄 260/328 pages (79.3%) — 13s — 20.5 pages/s      📄 270/328 pages (82.3%) — 13s — 20.8 pages/s      📄 280/328 pages (85.4%) — 14s — 20.5 pages/s      📄 290/328 pages (88.4%) — 14s — 20.3 pages/s      📄 300/328 pages (91.5%) — 15s — 20.3 pages/s      📄 310/328 pages (94.5%) — 15s — 20.3 pages/s      📄 320/328 pages (97.6%) — 16s — 20.2 pages/s      📄 328/328 pages (100.0%) — 18s — 18.7 pages/s   
-   ✂️  Split into 1963 verses (709521 chars total)
-   ✅ Done in 17.9s — 1963 verses saved
-
-📖 Processing: Sura Vinaya Patrika
-   PDF: Sura Vinaya Patrika by Haridas 1989 - Govinda Bhavana Karyalaya Gita Press Gorakhpur.pdf (330 pages)
-   📄 10/330 pages (3.0%) — 4s — 2.5 pages/s      📄 20/330 pages (6.1%) — 6s — 3.2 pages/s      📄 30/330 pages (9.1%) — 8s — 3.7 pages/s      📄 40/330 pages (12.1%) — 10s — 3.8 pages/s      📄 50/330 pages (15.2%) — 13s — 4.0 pages/s      📄 60/330 pages (18.2%) — 15s — 4.0 pages/s      📄 70/330 pages (21.2%) — 17s — 4.1 pages/s      📄 80/330 pages (24.2%) — 19s — 4.2 pages/s      📄 90/330 pages (27.3%) — 22s — 4.1 pages/s      📄 100/330 pages (30.3%) — 24s — 4.2 pages/s      📄 110/330 pages (33.3%) — 27s — 4.1 pages/s      📄 120/330 pages (36.4%) — 28s — 4.2 pages/s      📄 130/330 pages (39.4%) — 31s — 4.2 pages/s      📄 140/330 pages (42.4%) — 33s — 4.2 pages/s      📄 150/330 pages (45.5%) — 35s — 4.2 pages/s      📄 160/330 pages (48.5%) — 38s — 4.2 pages/s      📄 170/330 pages (51.5%) — 40s — 4.3 pages/s      📄 180/330 pages (54.5%) — 42s — 4.2 pages/s      📄 190/330 pages (57.6%) — 45s — 4.3 pages/s      📄 200/330 pages (60.6%) — 47s — 4.3 pages/s      📄 210/330 pages (63.6%) — 50s — 4.2 pages/s      📄 220/330 pages (66.7%) — 51s — 4.3 pages/s      📄 230/330 pages (69.7%) — 54s — 4.3 pages/s      📄 240/330 pages (72.7%) — 57s — 4.2 pages/s      📄 250/330 pages (75.8%) — 59s — 4.2 pages/s      📄 260/330 pages (78.8%) — 61s — 4.2 pages/s      📄 270/330 pages (81.8%) — 64s — 4.2 pages/s      📄 280/330 pages (84.8%) — 67s — 4.2 pages/s      📄 290/330 pages (87.9%) — 69s — 4.2 pages/s      📄 300/330 pages (90.9%) — 72s — 4.2 pages/s      📄 310/330 pages (93.9%) — 74s — 4.2 pages/s      📄 320/330 pages (97.0%) — 78s — 4.1 pages/s      📄 330/330 pages (100.0%) — 79s — 4.2 pages/s   
-   ✂️  Split into 593 verses (434781 chars total)
-   ✅ Done in 79.1s — 593 verses saved
-
-📖 Processing: Linga Purana
-   PDF: ling.pdf (390 pages)
-   📄 10/390 pages (2.6%) — 1s — 10.8 pages/s      📄 20/390 pages (5.1%) — 1s — 13.7 pages/s      📄 30/390 pages (7.7%) — 2s — 17.0 pages/s      📄 40/390 pages (10.3%) — 2s — 18.5 pages/s      📄 50/390 pages (12.8%) — 3s — 18.8 pages/s      📄 60/390 pages (15.4%) — 3s — 19.9 pages/s      📄 70/390 pages (17.9%) — 3s — 20.8 pages/s      📄 80/390 pages (20.5%) — 4s — 21.0 pages/s      📄 90/390 pages (23.1%) — 4s — 21.9 pages/s      📄 100/390 pages (25.6%) — 5s — 22.1 pages/s      📄 110/390 pages (28.2%) — 5s — 22.2 pages/s      📄 120/390 pages (30.8%) — 5s — 22.5 pages/s      📄 130/390 pages (33.3%) — 6s — 22.9 pages/s      📄 140/390 pages (35.9%) — 6s — 23.0 pages/s      📄 150/390 pages (38.5%) — 7s — 22.9 pages/s      📄 160/390 pages (41.0%) — 7s — 23.6 pages/s      📄 170/390 pages (43.6%) — 7s — 23.4 pages/s      📄 180/390 pages (46.2%) — 8s — 23.6 pages/s      📄 190/390 pages (48.7%) — 8s — 24.0 pages/s      📄 200/390 pages (51.3%) — 8s — 24.0 pages/s      📄 210/390 pages (53.8%) — 9s — 24.2 pages/s      📄 220/390 pages (56.4%) — 9s — 24.4 pages/s      📄 230/390 pages (59.0%) — 9s — 24.6 pages/s      📄 240/390 pages (61.5%) — 10s — 24.9 pages/s      📄 250/390 pages (64.1%) — 10s — 24.9 pages/s      📄 260/390 pages (66.7%) — 10s — 25.1 pages/s      📄 270/390 pages (69.2%) — 11s — 25.1 pages/s      📄 280/390 pages (71.8%) — 11s — 25.3 pages/s      📄 290/390 pages (74.4%) — 11s — 25.5 pages/s      📄 300/390 pages (76.9%) — 12s — 25.4 pages/s      📄 310/390 pages (79.5%) — 12s — 25.6 pages/s      📄 320/390 pages (82.1%) — 12s — 25.6 pages/s      📄 330/390 pages (84.6%) — 13s — 25.8 pages/s      📄 340/390 pages (87.2%) — 13s — 25.7 pages/s      📄 350/390 pages (89.7%) — 14s — 25.8 pages/s      📄 360/390 pages (92.3%) — 14s — 25.8 pages/s      📄 370/390 pages (94.9%) — 14s — 25.8 pages/s      📄 380/390 pages (97.4%) — 15s — 25.9 pages/s      📄 390/390 pages (100.0%) — 18s — 21.5 pages/s   
-   ✂️  Split into 21 verses (388600 chars total)
-   ✅ Done in 18.2s — 21 verses saved
-
-📖 Processing: Varaha Purana
-   PDF: varaha-puran.pdf (392 pages)
-   📄 10/392 pages (2.6%) — 1s — 8.9 pages/s      📄 20/392 pages (5.1%) — 2s — 10.7 pages/s      📄 30/392 pages (7.7%) — 2s — 12.4 pages/s      📄 40/392 pages (10.2%) — 3s — 13.7 pages/s      📄 50/392 pages (12.8%) — 4s — 14.1 pages/s      📄 60/392 pages (15.3%) — 4s — 14.6 pages/s      📄 70/392 pages (17.9%) — 5s — 14.8 pages/s      📄 80/392 pages (20.4%) — 5s — 15.7 pages/s      📄 90/392 pages (23.0%) — 6s — 15.5 pages/s      📄 100/392 pages (25.5%) — 6s — 15.7 pages/s      📄 110/392 pages (28.1%) — 7s — 16.2 pages/s      📄 120/392 pages (30.6%) — 7s — 16.1 pages/s      📄 130/392 pages (33.2%) — 8s — 16.2 pages/s      📄 140/392 pages (35.7%) — 9s — 16.2 pages/s      📄 150/392 pages (38.3%) — 9s — 16.3 pages/s      📄 160/392 pages (40.8%) — 10s — 16.4 pages/s      📄 170/392 pages (43.4%) — 10s — 16.3 pages/s      📄 180/392 pages (45.9%) — 11s — 16.5 pages/s      📄 190/392 pages (48.5%) — 11s — 16.6 pages/s      📄 200/392 pages (51.0%) — 12s — 16.6 pages/s      📄 210/392 pages (53.6%) — 13s — 16.7 pages/s      📄 220/392 pages (56.1%) — 13s — 16.8 pages/s      📄 230/392 pages (58.7%) — 14s — 16.8 pages/s      📄 240/392 pages (61.2%) — 14s — 16.8 pages/s      📄 250/392 pages (63.8%) — 15s — 16.8 pages/s      📄 260/392 pages (66.3%) — 15s — 16.9 pages/s      📄 270/392 pages (68.9%) — 16s — 17.0 pages/s      📄 280/392 pages (71.4%) — 17s — 16.9 pages/s      📄 290/392 pages (74.0%) — 17s — 16.9 pages/s      📄 300/392 pages (76.5%) — 18s — 17.0 pages/s      📄 310/392 pages (79.1%) — 18s — 16.9 pages/s      📄 320/392 pages (81.6%) — 19s — 16.9 pages/s      📄 330/392 pages (84.2%) — 20s — 16.9 pages/s      📄 340/392 pages (86.7%) — 20s — 16.8 pages/s      📄 350/392 pages (89.3%) — 21s — 16.9 pages/s      📄 360/392 pages (91.8%) — 21s — 16.9 pages/s      📄 370/392 pages (94.4%) — 22s — 16.9 pages/s      📄 380/392 pages (96.9%) — 23s — 16.9 pages/s      📄 390/392 pages (99.5%) — 23s — 17.0 pages/s      📄 392/392 pages (100.0%) — 24s — 16.4 pages/s   
-   ✂️  Split into 70 verses (1079609 chars total)
-   ✅ Done in 24.1s — 70 verses saved
-
-📖 Processing: Kurma Purana
-   PDF: kurma.pdf (398 pages)
-   📄 10/398 pages (2.5%) — 1s — 8.4 pages/s      📄 20/398 pages (5.0%) — 2s — 10.2 pages/s      📄 30/398 pages (7.5%) — 3s — 11.5 pages/s      📄 40/398 pages (10.1%) — 3s — 12.1 pages/s      📄 50/398 pages (12.6%) — 4s — 13.7 pages/s      📄 60/398 pages (15.1%) — 4s — 13.8 pages/s      📄 70/398 pages (17.6%) — 5s — 14.2 pages/s      📄 80/398 pages (20.1%) — 5s — 14.9 pages/s      📄 90/398 pages (22.6%) — 6s — 15.2 pages/s      📄 100/398 pages (25.1%) — 7s — 15.1 pages/s      📄 110/398 pages (27.6%) — 7s — 15.3 pages/s      📄 120/398 pages (30.2%) — 8s — 15.7 pages/s      📄 130/398 pages (32.7%) — 8s — 15.8 pages/s      📄 140/398 pages (35.2%) — 9s — 15.9 pages/s      📄 150/398 pages (37.7%) — 9s — 16.4 pages/s      📄 160/398 pages (40.2%) — 10s — 16.3 pages/s      📄 170/398 pages (42.7%) — 10s — 16.4 pages/s      📄 180/398 pages (45.2%) — 11s — 16.6 pages/s      📄 190/398 pages (47.7%) — 11s — 16.6 pages/s      📄 200/398 pages (50.3%) — 12s — 16.7 pages/s      📄 210/398 pages (52.8%) — 13s — 16.7 pages/s      📄 220/398 pages (55.3%) — 13s — 16.6 pages/s      📄 230/398 pages (57.8%) — 14s — 16.8 pages/s      📄 240/398 pages (60.3%) — 14s — 16.7 pages/s      📄 250/398 pages (62.8%) — 15s — 16.7 pages/s      📄 260/398 pages (65.3%) — 15s — 16.8 pages/s      📄 270/398 pages (67.8%) — 16s — 16.8 pages/s      📄 280/398 pages (70.4%) — 17s — 16.6 pages/s      📄 290/398 pages (72.9%) — 17s — 16.7 pages/s      📄 300/398 pages (75.4%) — 18s — 16.7 pages/s      📄 310/398 pages (77.9%) — 19s — 16.7 pages/s      📄 320/398 pages (80.4%) — 19s — 16.6 pages/s      📄 330/398 pages (82.9%) — 20s — 16.7 pages/s      📄 340/398 pages (85.4%) — 20s — 16.8 pages/s      📄 350/398 pages (87.9%) — 21s — 16.8 pages/s      📄 360/398 pages (90.5%) — 21s — 16.8 pages/s      📄 370/398 pages (93.0%) — 22s — 16.9 pages/s      📄 380/398 pages (95.5%) — 22s — 17.0 pages/s      📄 390/398 pages (98.0%) — 23s — 16.9 pages/s      📄 398/398 pages (100.0%) — 24s — 16.4 pages/s   
-   ✂️  Split into 2942 verses (1303400 chars total)
-   ✅ Done in 24.5s — 2942 verses saved
-
-📖 Processing: Atharva Veda Vol. 2
-   PDF: atharva-2.pdf (399 pages)
-   📄 10/399 pages (2.5%) — 1s — 9.5 pages/s      📄 20/399 pages (5.0%) — 2s — 12.0 pages/s      📄 30/399 pages (7.5%) — 2s — 15.0 pages/s      📄 40/399 pages (10.0%) — 3s — 15.3 pages/s      📄 50/399 pages (12.5%) — 3s — 15.8 pages/s      📄 60/399 pages (15.0%) — 4s — 15.7 pages/s      📄 70/399 pages (17.5%) — 4s — 16.2 pages/s      📄 80/399 pages (20.1%) — 5s — 16.7 pages/s      📄 90/399 pages (22.6%) — 5s — 16.8 pages/s      📄 100/399 pages (25.1%) — 6s — 17.2 pages/s      📄 110/399 pages (27.6%) — 6s — 17.2 pages/s      📄 120/399 pages (30.1%) — 7s — 17.6 pages/s      📄 130/399 pages (32.6%) — 7s — 17.5 pages/s      📄 140/399 pages (35.1%) — 17s — 8.2 pages/s      📄 150/399 pages (37.6%) — 18s — 8.1 pages/s      📄 160/399 pages (40.1%) — 19s — 8.3 pages/s      📄 170/399 pages (42.6%) — 20s — 8.5 pages/s      📄 180/399 pages (45.1%) — 21s — 8.7 pages/s      📄 190/399 pages (47.6%) — 22s — 8.8 pages/s      📄 200/399 pages (50.1%) — 22s — 8.9 pages/s      📄 210/399 pages (52.6%) — 23s — 9.1 pages/s      📄 220/399 pages (55.1%) — 24s — 9.3 pages/s      📄 230/399 pages (57.6%) — 24s — 9.5 pages/s      📄 240/399 pages (60.2%) — 25s — 9.6 pages/s      📄 250/399 pages (62.7%) — 25s — 9.8 pages/s      📄 260/399 pages (65.2%) — 26s — 10.0 pages/s      📄 270/399 pages (67.7%) — 27s — 10.2 pages/s      📄 280/399 pages (70.2%) — 27s — 10.4 pages/s      📄 290/399 pages (72.7%) — 28s — 10.5 pages/s      📄 300/399 pages (75.2%) — 28s — 10.7 pages/s      📄 310/399 pages (77.7%) — 29s — 10.9 pages/s      📄 320/399 pages (80.2%) — 29s — 11.1 pages/s      📄 330/399 pages (82.7%) — 30s — 11.1 pages/s      📄 340/399 pages (85.2%) — 30s — 11.3 pages/s      📄 350/399 pages (87.7%) — 31s — 11.3 pages/s      📄 360/399 pages (90.2%) — 32s — 11.3 pages/s      📄 370/399 pages (92.7%) — 33s — 11.3 pages/s      📄 380/399 pages (95.2%) — 33s — 11.4 pages/s      📄 390/399 pages (97.7%) — 34s — 11.4 pages/s      📄 399/399 pages (100.0%) — 37s — 10.9 pages/s   
-   ✂️  Split into 2979 verses (935858 chars total)
-   ✅ Done in 36.9s — 2979 verses saved
-
-📖 Processing: Brahmanda Purana Vol. 1
-   PDF: brahamand.pdf (416 pages)
-   📄 10/416 pages (2.4%) — 2s — 6.1 pages/s      📄 20/416 pages (4.8%) — 3s — 7.7 pages/s      📄 30/416 pages (7.2%) — 4s — 8.3 pages/s      📄 40/416 pages (9.6%) — 4s — 9.5 pages/s      📄 50/416 pages (12.0%) — 5s — 9.5 pages/s      📄 60/416 pages (14.4%) — 6s — 9.4 pages/s      📄 70/416 pages (16.8%) — 7s — 9.7 pages/s      📄 80/416 pages (19.2%) — 8s — 10.0 pages/s      📄 90/416 pages (21.6%) — 9s — 9.8 pages/s      📄 100/416 pages (24.0%) — 10s — 10.0 pages/s      📄 110/416 pages (26.4%) — 11s — 10.1 pages/s      📄 120/416 pages (28.8%) — 12s — 10.1 pages/s      📄 130/416 pages (31.3%) — 13s — 10.1 pages/s      📄 140/416 pages (33.7%) — 14s — 10.1 pages/s      📄 150/416 pages (36.1%) — 15s — 10.1 pages/s      📄 160/416 pages (38.5%) — 16s — 10.1 pages/s      📄 170/416 pages (40.9%) — 16s — 10.4 pages/s      📄 180/416 pages (43.3%) — 17s — 10.4 pages/s      📄 190/416 pages (45.7%) — 18s — 10.3 pages/s      📄 200/416 pages (48.1%) — 19s — 10.5 pages/s      📄 210/416 pages (50.5%) — 20s — 10.5 pages/s      📄 220/416 pages (52.9%) — 21s — 10.5 pages/s      📄 230/416 pages (55.3%) — 22s — 10.6 pages/s      📄 240/416 pages (57.7%) — 23s — 10.6 pages/s      📄 250/416 pages (60.1%) — 24s — 10.5 pages/s      📄 260/416 pages (62.5%) — 25s — 10.6 pages/s      📄 270/416 pages (64.9%) — 26s — 10.5 pages/s      📄 280/416 pages (67.3%) — 27s — 10.5 pages/s      📄 290/416 pages (69.7%) — 28s — 10.5 pages/s      📄 300/416 pages (72.1%) — 28s — 10.6 pages/s      📄 310/416 pages (74.5%) — 29s — 10.5 pages/s      📄 320/416 pages (76.9%) — 30s — 10.5 pages/s      📄 330/416 pages (79.3%) — 31s — 10.6 pages/s      📄 340/416 pages (81.7%) — 32s — 10.6 pages/s      📄 350/416 pages (84.1%) — 33s — 10.6 pages/s      📄 360/416 pages (86.5%) — 34s — 10.5 pages/s      📄 370/416 pages (88.9%) — 35s — 10.6 pages/s      📄 380/416 pages (91.3%) — 36s — 10.6 pages/s      📄 390/416 pages (93.8%) — 37s — 10.6 pages/s      📄 400/416 pages (96.2%) — 37s — 10.7 pages/s      📄 410/416 pages (98.6%) — 38s — 10.7 pages/s      📄 416/416 pages (100.0%) — 44s — 9.4 pages/s   
-   ✂️  Split into 926 verses (652484 chars total)
-   ✅ Done in 44.6s — 926 verses saved
-
-📖 Processing: Vedanta Darshana (Brahma Sutra) - Gita Press
-   PDF: gita-press-vedant-darshan-brahmasutra-sanskrit-hindi.pdf (417 pages)
-   📄 10/417 pages (2.4%) — 2s — 4.7 pages/s      📄 20/417 pages (4.8%) — 3s — 6.7 pages/s      📄 30/417 pages (7.2%) — 4s — 7.6 pages/s      📄 40/417 pages (9.6%) — 5s — 8.2 pages/s      📄 50/417 pages (12.0%) — 6s — 8.0 pages/s      📄 60/417 pages (14.4%) — 7s — 8.4 pages/s      📄 70/417 pages (16.8%) — 8s — 8.6 pages/s      📄 80/417 pages (19.2%) — 10s — 8.3 pages/s      📄 90/417 pages (21.6%) — 10s — 8.7 pages/s      📄 100/417 pages (24.0%) — 12s — 8.7 pages/s      📄 110/417 pages (26.4%) — 12s — 9.0 pages/s      📄 120/417 pages (28.8%) — 13s — 9.0 pages/s      📄 130/417 pages (31.2%) — 15s — 8.8 pages/s      📄 140/417 pages (33.6%) — 16s — 8.9 pages/s      📄 150/417 pages (36.0%) — 17s — 8.9 pages/s      📄 160/417 pages (38.4%) — 18s — 8.8 pages/s      📄 170/417 pages (40.8%) — 19s — 9.0 pages/s      📄 180/417 pages (43.2%) — 20s — 9.0 pages/s      📄 190/417 pages (45.6%) — 31s — 6.1 pages/s      📄 200/417 pages (48.0%) — 32s — 6.2 pages/s      📄 210/417 pages (50.4%) — 33s — 6.3 pages/s      📄 220/417 pages (52.8%) — 35s — 6.4 pages/s      📄 230/417 pages (55.2%) — 36s — 6.4 pages/s      📄 240/417 pages (57.6%) — 37s — 6.5 pages/s      📄 250/417 pages (60.0%) — 38s — 6.6 pages/s      📄 260/417 pages (62.4%) — 39s — 6.7 pages/s      📄 270/417 pages (64.7%) — 40s — 6.8 pages/s      📄 280/417 pages (67.1%) — 41s — 6.9 pages/s      📄 290/417 pages (69.5%) — 42s — 6.9 pages/s      📄 300/417 pages (71.9%) — 43s — 7.0 pages/s      📄 310/417 pages (74.3%) — 44s — 7.1 pages/s      📄 320/417 pages (76.7%) — 45s — 7.1 pages/s      📄 330/417 pages (79.1%) — 46s — 7.1 pages/s      📄 340/417 pages (81.5%) — 47s — 7.2 pages/s      📄 350/417 pages (83.9%) — 48s — 7.3 pages/s      📄 360/417 pages (86.3%) — 49s — 7.4 pages/s      📄 370/417 pages (88.7%) — 50s — 7.4 pages/s      📄 380/417 pages (91.1%) — 51s — 7.5 pages/s      📄 390/417 pages (93.5%) — 52s — 7.5 pages/s      📄 400/417 pages (95.9%) — 53s — 7.6 pages/s      📄 410/417 pages (98.3%) — 54s — 7.6 pages/s      📄 417/417 pages (100.0%) — 54s — 7.7 pages/s   
-   ✂️  Split into 346 verses (717589 chars total)
-   ✅ Done in 54.4s — 346 verses saved
-
-📖 Processing: Yajur Veda
-   PDF: yajurved.pdf (420 pages)
-   📄 10/420 pages (2.4%) — 1s — 8.2 pages/s      📄 20/420 pages (4.8%) — 2s — 11.1 pages/s      📄 30/420 pages (7.1%) — 2s — 13.1 pages/s      📄 40/420 pages (9.5%) — 3s — 13.8 pages/s      📄 50/420 pages (11.9%) — 3s — 14.8 pages/s      📄 60/420 pages (14.3%) — 4s — 15.0 pages/s      📄 70/420 pages (16.7%) — 5s — 14.8 pages/s      📄 80/420 pages (19.0%) — 5s — 15.2 pages/s      📄 90/420 pages (21.4%) — 6s — 15.4 pages/s      📄 100/420 pages (23.8%) — 6s — 15.6 pages/s      📄 110/420 pages (26.2%) — 7s — 15.6 pages/s      📄 120/420 pages (28.6%) — 8s — 16.0 pages/s      📄 130/420 pages (31.0%) — 8s — 16.0 pages/s      📄 140/420 pages (33.3%) — 9s — 15.8 pages/s      📄 150/420 pages (35.7%) — 9s — 15.9 pages/s      📄 160/420 pages (38.1%) — 10s — 16.3 pages/s      📄 170/420 pages (40.5%) — 10s — 16.2 pages/s      📄 180/420 pages (42.9%) — 11s — 16.2 pages/s      📄 190/420 pages (45.2%) — 12s — 16.3 pages/s      📄 200/420 pages (47.6%) — 12s — 16.5 pages/s      📄 210/420 pages (50.0%) — 13s — 16.8 pages/s      📄 220/420 pages (52.4%) — 13s — 16.7 pages/s      📄 230/420 pages (54.8%) — 14s — 16.8 pages/s      📄 240/420 pages (57.1%) — 14s — 16.8 pages/s      📄 250/420 pages (59.5%) — 15s — 16.9 pages/s      📄 260/420 pages (61.9%) — 15s — 16.9 pages/s      📄 270/420 pages (64.3%) — 16s — 17.1 pages/s      📄 280/420 pages (66.7%) — 16s — 17.2 pages/s      📄 290/420 pages (69.0%) — 17s — 17.2 pages/s      📄 300/420 pages (71.4%) — 17s — 17.3 pages/s      📄 310/420 pages (73.8%) — 18s — 17.3 pages/s      📄 320/420 pages (76.2%) — 18s — 17.5 pages/s      📄 330/420 pages (78.6%) — 19s — 17.4 pages/s      📄 340/420 pages (81.0%) — 19s — 17.5 pages/s      📄 350/420 pages (83.3%) — 20s — 17.7 pages/s      📄 360/420 pages (85.7%) — 20s — 17.7 pages/s      📄 370/420 pages (88.1%) — 21s — 17.3 pages/s      📄 380/420 pages (90.5%) — 22s — 17.5 pages/s      📄 390/420 pages (92.9%) — 23s — 17.3 pages/s      📄 400/420 pages (95.2%) — 23s — 17.2 pages/s      📄 410/420 pages (97.6%) — 24s — 17.3 pages/s      📄 420/420 pages (100.0%) — 32s — 13.0 pages/s   
-   ✂️  Split into 1872 verses (1140093 chars total)
-   ✅ Done in 32.6s — 1872 verses saved
-
-📖 Processing: Bhavishya Purana
-   PDF: bavishya-puran.pdf (448 pages)
-   📄 10/448 pages (2.2%) — 1s — 7.0 pages/s      📄 20/448 pages (4.5%) — 2s — 9.6 pages/s      📄 30/448 pages (6.7%) — 3s — 10.6 pages/s      📄 40/448 pages (8.9%) — 3s — 12.2 pages/s      📄 50/448 pages (11.2%) — 4s — 12.5 pages/s      📄 60/448 pages (13.4%) — 5s — 12.9 pages/s      📄 70/448 pages (15.6%) — 5s — 13.6 pages/s      📄 80/448 pages (17.9%) — 6s — 13.7 pages/s      📄 90/448 pages (20.1%) — 6s — 14.1 pages/s      📄 100/448 pages (22.3%) — 7s — 14.4 pages/s      📄 110/448 pages (24.6%) — 8s — 14.4 pages/s      📄 120/448 pages (26.8%) — 8s — 14.6 pages/s      📄 130/448 pages (29.0%) — 9s — 14.5 pages/s      📄 140/448 pages (31.3%) — 10s — 14.7 pages/s      📄 150/448 pages (33.5%) — 10s — 14.8 pages/s      📄 160/448 pages (35.7%) — 11s — 15.0 pages/s      📄 170/448 pages (37.9%) — 11s — 15.2 pages/s      📄 180/448 pages (40.2%) — 12s — 15.1 pages/s      📄 190/448 pages (42.4%) — 13s — 15.1 pages/s      📄 200/448 pages (44.6%) — 13s — 15.1 pages/s      📄 210/448 pages (46.9%) — 14s — 15.3 pages/s      📄 220/448 pages (49.1%) — 14s — 15.3 pages/s      📄 230/448 pages (51.3%) — 15s — 15.3 pages/s      📄 240/448 pages (53.6%) — 16s — 15.2 pages/s      📄 250/448 pages (55.8%) — 16s — 15.2 pages/s      📄 260/448 pages (58.0%) — 17s — 15.4 pages/s      📄 270/448 pages (60.3%) — 18s — 15.4 pages/s      📄 280/448 pages (62.5%) — 18s — 15.3 pages/s      📄 290/448 pages (64.7%) — 19s — 15.5 pages/s      📄 300/448 pages (67.0%) — 19s — 15.5 pages/s      📄 310/448 pages (69.2%) — 20s — 15.4 pages/s      📄 320/448 pages (71.4%) — 21s — 15.4 pages/s      📄 330/448 pages (73.7%) — 22s — 15.3 pages/s      📄 340/448 pages (75.9%) — 22s — 15.3 pages/s      📄 350/448 pages (78.1%) — 23s — 15.3 pages/s      📄 360/448 pages (80.4%) — 24s — 15.2 pages/s      📄 370/448 pages (82.6%) — 24s — 15.2 pages/s      📄 380/448 pages (84.8%) — 25s — 15.1 pages/s      📄 390/448 pages (87.1%) — 26s — 15.2 pages/s      📄 400/448 pages (89.3%) — 26s — 15.2 pages/s      📄 410/448 pages (91.5%) — 27s — 15.2 pages/s      📄 420/448 pages (93.8%) — 28s — 15.2 pages/s      📄 430/448 pages (96.0%) — 28s — 15.1 pages/s      📄 440/448 pages (98.2%) — 29s — 15.0 pages/s      📄 448/448 pages (100.0%) — 30s — 15.1 pages/s   
-   ✂️  Split into 428 verses (1531606 chars total)
-   ✅ Done in 29.8s — 428 verses saved
-
-📖 Processing: Atharva Veda Part 1
-   PDF: arthved-part-1.pdf (470 pages)
-   📄 10/470 pages (2.1%) — 1s — 9.1 pages/s      📄 20/470 pages (4.3%) — 2s — 11.9 pages/s      📄 30/470 pages (6.4%) — 2s — 13.2 pages/s      📄 40/470 pages (8.5%) — 3s — 15.3 pages/s      📄 50/470 pages (10.6%) — 3s — 15.6 pages/s      📄 60/470 pages (12.8%) — 4s — 16.0 pages/s      📄 70/470 pages (14.9%) — 4s — 17.5 pages/s      📄 80/470 pages (17.0%) — 5s — 17.1 pages/s      📄 90/470 pages (19.1%) — 5s — 17.3 pages/s      📄 100/470 pages (21.3%) — 6s — 17.7 pages/s      📄 110/470 pages (23.4%) — 6s — 17.8 pages/s      📄 120/470 pages (25.5%) — 7s — 18.0 pages/s      📄 130/470 pages (27.7%) — 7s — 18.1 pages/s      📄 140/470 pages (29.8%) — 8s — 18.6 pages/s      📄 150/470 pages (31.9%) — 8s — 18.4 pages/s      📄 160/470 pages (34.0%) — 9s — 18.5 pages/s      📄 170/470 pages (36.2%) — 9s — 18.8 pages/s      📄 180/470 pages (38.3%) — 10s — 18.5 pages/s      📄 190/470 pages (40.4%) — 10s — 18.5 pages/s      📄 200/470 pages (42.6%) — 11s — 18.9 pages/s      📄 210/470 pages (44.7%) — 11s — 18.9 pages/s      📄 220/470 pages (46.8%) — 12s — 19.1 pages/s      📄 230/470 pages (48.9%) — 12s — 19.1 pages/s      📄 240/470 pages (51.1%) — 13s — 19.1 pages/s      📄 250/470 pages (53.2%) — 13s — 19.2 pages/s      📄 260/470 pages (55.3%) — 13s — 19.3 pages/s      📄 270/470 pages (57.4%) — 14s — 19.4 pages/s      📄 280/470 pages (59.6%) — 15s — 19.3 pages/s      📄 290/470 pages (61.7%) — 15s — 19.3 pages/s      📄 300/470 pages (63.8%) — 16s — 19.4 pages/s      📄 310/470 pages (66.0%) — 16s — 19.3 pages/s      📄 320/470 pages (68.1%) — 17s — 19.2 pages/s      📄 330/470 pages (70.2%) — 17s — 19.2 pages/s      📄 340/470 pages (72.3%) — 18s — 19.4 pages/s      📄 350/470 pages (74.5%) — 18s — 19.3 pages/s      📄 360/470 pages (76.6%) — 19s — 19.3 pages/s      📄 370/470 pages (78.7%) — 19s — 19.5 pages/s      📄 380/470 pages (80.9%) — 20s — 19.4 pages/s      📄 390/470 pages (83.0%) — 20s — 19.3 pages/s      📄 400/470 pages (85.1%) — 21s — 19.3 pages/s      📄 410/470 pages (87.2%) — 21s — 19.4 pages/s      📄 420/470 pages (89.4%) — 22s — 19.3 pages/s      📄 430/470 pages (91.5%) — 23s — 19.0 pages/s      📄 440/470 pages (93.6%) — 23s — 19.0 pages/s      📄 450/470 pages (95.7%) — 24s — 19.0 pages/s      📄 460/470 pages (97.9%) — 24s — 18.8 pages/s      📄 470/470 pages (100.0%) — 26s — 18.2 pages/s   
-   ✂️  Split into 2885 verses (1172170 chars total)
-   ✅ Done in 26.1s — 2885 verses saved
-
-📖 Processing: Brahmanda Purana Vol. 2
-   PDF: brahamandp.pdf (477 pages)
-   📄 10/477 pages (2.1%) — 1s — 11.0 pages/s      📄 20/477 pages (4.2%) — 1s — 13.8 pages/s      📄 30/477 pages (6.3%) — 2s — 15.7 pages/s      📄 40/477 pages (8.4%) — 2s — 17.7 pages/s      📄 50/477 pages (10.5%) — 3s — 18.3 pages/s      📄 60/477 pages (12.6%) — 3s — 18.5 pages/s      📄 70/477 pages (14.7%) — 4s — 19.8 pages/s      📄 80/477 pages (16.8%) — 4s — 19.4 pages/s      📄 90/477 pages (18.9%) — 5s — 19.4 pages/s      📄 100/477 pages (21.0%) — 5s — 19.5 pages/s      📄 110/477 pages (23.1%) — 6s — 19.6 pages/s      📄 120/477 pages (25.2%) — 6s — 19.5 pages/s      📄 130/477 pages (27.3%) — 7s — 19.7 pages/s      📄 140/477 pages (29.4%) — 7s — 19.6 pages/s      📄 150/477 pages (31.4%) — 7s — 20.0 pages/s      📄 160/477 pages (33.5%) — 8s — 20.2 pages/s      📄 170/477 pages (35.6%) — 8s — 20.1 pages/s      📄 180/477 pages (37.7%) — 9s — 20.1 pages/s      📄 190/477 pages (39.8%) — 9s — 20.2 pages/s      📄 200/477 pages (41.9%) — 10s — 20.4 pages/s      📄 210/477 pages (44.0%) — 10s — 20.3 pages/s      📄 220/477 pages (46.1%) — 11s — 20.4 pages/s      📄 230/477 pages (48.2%) — 11s — 20.8 pages/s      📄 240/477 pages (50.3%) — 12s — 20.7 pages/s      📄 250/477 pages (52.4%) — 12s — 20.6 pages/s      📄 260/477 pages (54.5%) — 13s — 20.7 pages/s      📄 270/477 pages (56.6%) — 13s — 20.7 pages/s      📄 280/477 pages (58.7%) — 14s — 20.7 pages/s      📄 290/477 pages (60.8%) — 14s — 21.0 pages/s      📄 300/477 pages (62.9%) — 14s — 20.9 pages/s      📄 310/477 pages (65.0%) — 15s — 21.1 pages/s      📄 320/477 pages (67.1%) — 15s — 21.2 pages/s      📄 330/477 pages (69.2%) — 16s — 21.2 pages/s      📄 340/477 pages (71.3%) — 16s — 21.1 pages/s      📄 350/477 pages (73.4%) — 16s — 21.2 pages/s      📄 360/477 pages (75.5%) — 17s — 21.1 pages/s      📄 370/477 pages (77.6%) — 17s — 21.2 pages/s      📄 380/477 pages (79.7%) — 18s — 21.1 pages/s      📄 390/477 pages (81.8%) — 18s — 21.2 pages/s      📄 400/477 pages (83.9%) — 19s — 21.2 pages/s      📄 410/477 pages (86.0%) — 19s — 21.3 pages/s      📄 420/477 pages (88.1%) — 20s — 21.1 pages/s      📄 430/477 pages (90.1%) — 20s — 21.3 pages/s      📄 440/477 pages (92.2%) — 21s — 21.3 pages/s      📄 450/477 pages (94.3%) — 21s — 21.3 pages/s      📄 460/477 pages (96.4%) — 22s — 21.2 pages/s      📄 470/477 pages (98.5%) — 22s — 21.3 pages/s      📄 477/477 pages (100.0%) — 28s — 16.8 pages/s   
-   ✂️  Split into 1173 verses (715785 chars total)
-   ✅ Done in 28.5s — 1173 verses saved
-
-📖 Processing: Matsya Purana Vol. 2
-   PDF: matsya-puran-2.pdf (488 pages)
-   📄 10/488 pages (2.0%) — 1s — 8.4 pages/s      📄 20/488 pages (4.1%) — 2s — 11.6 pages/s      📄 30/488 pages (6.1%) — 2s — 13.7 pages/s      📄 40/488 pages (8.2%) — 3s — 15.2 pages/s      📄 50/488 pages (10.2%) — 3s — 16.2 pages/s      📄 60/488 pages (12.3%) — 4s — 17.0 pages/s      📄 70/488 pages (14.3%) — 4s — 17.5 pages/s      📄 80/488 pages (16.4%) — 5s — 17.5 pages/s      📄 90/488 pages (18.4%) — 5s — 17.4 pages/s      📄 100/488 pages (20.5%) — 6s — 18.0 pages/s      📄 110/488 pages (22.5%) — 6s — 17.9 pages/s      📄 120/488 pages (24.6%) — 7s — 18.3 pages/s      📄 130/488 pages (26.6%) — 7s — 18.0 pages/s      📄 140/488 pages (28.7%) — 8s — 18.1 pages/s      📄 150/488 pages (30.7%) — 8s — 18.2 pages/s      📄 160/488 pages (32.8%) — 9s — 18.3 pages/s      📄 170/488 pages (34.8%) — 9s — 18.2 pages/s      📄 180/488 pages (36.9%) — 10s — 18.3 pages/s      📄 190/488 pages (38.9%) — 10s — 18.2 pages/s      📄 200/488 pages (41.0%) — 11s — 18.0 pages/s      📄 210/488 pages (43.0%) — 12s — 18.0 pages/s      📄 220/488 pages (45.1%) — 12s — 18.0 pages/s      📄 230/488 pages (47.1%) — 13s — 18.0 pages/s      📄 240/488 pages (49.2%) — 13s — 17.8 pages/s      📄 250/488 pages (51.2%) — 14s — 17.8 pages/s      📄 260/488 pages (53.3%) — 15s — 17.7 pages/s      📄 270/488 pages (55.3%) — 15s — 17.7 pages/s      📄 280/488 pages (57.4%) — 16s — 17.8 pages/s      📄 290/488 pages (59.4%) — 16s — 17.7 pages/s      📄 300/488 pages (61.5%) — 17s — 17.8 pages/s      📄 310/488 pages (63.5%) — 18s — 17.7 pages/s      📄 320/488 pages (65.6%) — 18s — 17.7 pages/s      📄 330/488 pages (67.6%) — 19s — 17.6 pages/s      📄 340/488 pages (69.7%) — 19s — 17.6 pages/s      📄 350/488 pages (71.7%) — 20s — 17.6 pages/s      📄 360/488 pages (73.8%) — 21s — 17.5 pages/s      📄 370/488 pages (75.8%) — 21s — 17.5 pages/s      📄 380/488 pages (77.9%) — 22s — 17.5 pages/s      📄 390/488 pages (79.9%) — 22s — 17.7 pages/s      📄 400/488 pages (82.0%) — 23s — 17.7 pages/s      📄 410/488 pages (84.0%) — 23s — 17.7 pages/s      📄 420/488 pages (86.1%) — 23s — 17.9 pages/s      📄 430/488 pages (88.1%) — 24s — 17.9 pages/s      📄 440/488 pages (90.2%) — 24s — 18.0 pages/s      📄 450/488 pages (92.2%) — 25s — 17.9 pages/s      📄 460/488 pages (94.3%) — 25s — 18.1 pages/s      📄 470/488 pages (96.3%) — 26s — 18.2 pages/s      📄 480/488 pages (98.4%) — 26s — 18.2 pages/s      📄 488/488 pages (100.0%) — 29s — 16.7 pages/s   
-   ✂️  Split into 609 verses (660213 chars total)
-   ✅ Done in 29.3s — 609 verses saved
-
-📖 Processing: Vedanta Darshana (Brahma Sutra)
-   PDF: Vedant Darshan (Brahma Sutra) by Veda Vyas with Explanation by Hari Krishnadas Goendka - Gita Press.pdf (488 pages)
-   📄 10/488 pages (2.0%) — 13s — 0.8 pages/s      📄 20/488 pages (4.1%) — 18s — 1.1 pages/s      📄 30/488 pages (6.1%) — 39s — 0.8 pages/s      📄 40/488 pages (8.2%) — 46s — 0.9 pages/s      📄 50/488 pages (10.2%) — 53s — 0.9 pages/s      📄 60/488 pages (12.3%) — 63s — 1.0 pages/s      📄 70/488 pages (14.3%) — 69s — 1.0 pages/s      📄 80/488 pages (16.4%) — 76s — 1.1 pages/s      📄 90/488 pages (18.4%) — 86s — 1.0 pages/s      📄 100/488 pages (20.5%) — 92s — 1.1 pages/s      📄 110/488 pages (22.5%) — 101s — 1.1 pages/s      📄 120/488 pages (24.6%) — 108s — 1.1 pages/s      📄 130/488 pages (26.6%) — 114s — 1.1 pages/s      📄 140/488 pages (28.7%) — 122s — 1.1 pages/s      📄 150/488 pages (30.7%) — 131s — 1.1 pages/s      📄 160/488 pages (32.8%) — 137s — 1.2 pages/s      📄 170/488 pages (34.8%) — 144s — 1.2 pages/s      📄 180/488 pages (36.9%) — 153s — 1.2 pages/s      📄 190/488 pages (38.9%) — 159s — 1.2 pages/s      📄 200/488 pages (41.0%) — 168s — 1.2 pages/s      📄 210/488 pages (43.0%) — 176s — 1.2 pages/s      📄 220/488 pages (45.1%) — 182s — 1.2 pages/s      📄 230/488 pages (47.1%) — 190s — 1.2 pages/s      📄 240/488 pages (49.2%) — 196s — 1.2 pages/s      📄 250/488 pages (51.2%) — 205s — 1.2 pages/s      📄 260/488 pages (53.3%) — 212s — 1.2 pages/s      📄 270/488 pages (55.3%) — 220s — 1.2 pages/s      📄 280/488 pages (57.4%) — 237s — 1.2 pages/s      📄 290/488 pages (59.4%) — 245s — 1.2 pages/s      📄 300/488 pages (61.5%) — 254s — 1.2 pages/s      📄 310/488 pages (63.5%) — 259s — 1.2 pages/s      📄 320/488 pages (65.6%) — 268s — 1.2 pages/s      📄 330/488 pages (67.6%) — 276s — 1.2 pages/s      📄 340/488 pages (69.7%) — 282s — 1.2 pages/s      📄 350/488 pages (71.7%) — 291s — 1.2 pages/s      📄 360/488 pages (73.8%) — 299s — 1.2 pages/s      📄 370/488 pages (75.8%) — 305s — 1.2 pages/s      📄 380/488 pages (77.9%) — 313s — 1.2 pages/s      📄 390/488 pages (79.9%) — 320s — 1.2 pages/s      📄 400/488 pages (82.0%) — 328s — 1.2 pages/s      📄 410/488 pages (84.0%) — 335s — 1.2 pages/s      📄 420/488 pages (86.1%) — 341s — 1.2 pages/s      📄 430/488 pages (88.1%) — 351s — 1.2 pages/s      📄 440/488 pages (90.2%) — 358s — 1.2 pages/s      📄 450/488 pages (92.2%) — 365s — 1.2 pages/s      📄 460/488 pages (94.3%) — 373s — 1.2 pages/s      📄 470/488 pages (96.3%) — 381s — 1.2 pages/s      📄 480/488 pages (98.4%) — 384s — 1.2 pages/s      📄 488/488 pages (100.0%) — 394s — 1.2 pages/s   
-   ✂️  Split into 330 verses (729251 chars total)
-   ✅ Done in 395.1s — 330 verses saved
-
-📖 Processing: Matsya Purana Vol. 1
-   PDF: matsya-puran-1.pdf (496 pages)
-   📄 10/496 pages (2.0%) — 1s — 7.8 pages/s      📄 20/496 pages (4.0%) — 2s — 11.0 pages/s      📄 30/496 pages (6.0%) — 2s — 13.3 pages/s      📄 40/496 pages (8.1%) — 3s — 14.4 pages/s      📄 50/496 pages (10.1%) — 3s — 15.1 pages/s      📄 60/496 pages (12.1%) — 4s — 15.7 pages/s      📄 70/496 pages (14.1%) — 4s — 16.3 pages/s      📄 80/496 pages (16.1%) — 5s — 16.6 pages/s      📄 90/496 pages (18.1%) — 5s — 17.0 pages/s      📄 100/496 pages (20.2%) — 6s — 17.4 pages/s      📄 110/496 pages (22.2%) — 6s — 17.2 pages/s      📄 120/496 pages (24.2%) — 7s — 17.1 pages/s      📄 130/496 pages (26.2%) — 8s — 16.9 pages/s      📄 140/496 pages (28.2%) — 8s — 16.9 pages/s      📄 150/496 pages (30.2%) — 9s — 16.8 pages/s      📄 160/496 pages (32.3%) — 9s — 17.1 pages/s      📄 170/496 pages (34.3%) — 10s — 17.1 pages/s      📄 180/496 pages (36.3%) — 11s — 17.0 pages/s      📄 190/496 pages (38.3%) — 11s — 17.3 pages/s      📄 200/496 pages (40.3%) — 12s — 17.2 pages/s      📄 210/496 pages (42.3%) — 12s — 17.3 pages/s      📄 220/496 pages (44.4%) — 13s — 17.5 pages/s      📄 230/496 pages (46.4%) — 13s — 17.5 pages/s      📄 240/496 pages (48.4%) — 14s — 17.5 pages/s      📄 250/496 pages (50.4%) — 14s — 17.5 pages/s      📄 260/496 pages (52.4%) — 15s — 17.7 pages/s      📄 270/496 pages (54.4%) — 15s — 17.7 pages/s      📄 280/496 pages (56.5%) — 16s — 17.6 pages/s      📄 290/496 pages (58.5%) — 16s — 17.6 pages/s      📄 300/496 pages (60.5%) — 17s — 17.7 pages/s      📄 310/496 pages (62.5%) — 17s — 17.8 pages/s      📄 320/496 pages (64.5%) — 18s — 17.9 pages/s      📄 330/496 pages (66.5%) — 18s — 17.9 pages/s      📄 340/496 pages (68.5%) — 19s — 18.0 pages/s      📄 350/496 pages (70.6%) — 20s — 17.9 pages/s      📄 360/496 pages (72.6%) — 20s — 18.0 pages/s      📄 370/496 pages (74.6%) — 21s — 17.9 pages/s      📄 380/496 pages (76.6%) — 21s — 18.1 pages/s      📄 390/496 pages (78.6%) — 22s — 17.9 pages/s      📄 400/496 pages (80.6%) — 22s — 17.8 pages/s      📄 410/496 pages (82.7%) — 23s — 17.7 pages/s      📄 420/496 pages (84.7%) — 24s — 17.8 pages/s      📄 430/496 pages (86.7%) — 24s — 17.8 pages/s      📄 440/496 pages (88.7%) — 25s — 17.8 pages/s      📄 450/496 pages (90.7%) — 25s — 17.7 pages/s      📄 460/496 pages (92.7%) — 26s — 17.8 pages/s      📄 470/496 pages (94.8%) — 26s — 17.8 pages/s      📄 480/496 pages (96.8%) — 27s — 17.8 pages/s      📄 490/496 pages (98.8%) — 28s — 17.8 pages/s      📄 496/496 pages (100.0%) — 43s — 11.5 pages/s   
-   ✂️  Split into 637 verses (681552 chars total)
-   ✅ Done in 43.4s — 637 verses saved
-
-📖 Processing: Yoga Vasishtha Vol. 3
-   PDF: shri-yogavasishtha-3.pdf (500 pages)
-   📄 10/500 pages (2.0%) — 2s — 4.1 pages/s      📄 20/500 pages (4.0%) — 3s — 5.7 pages/s      📄 30/500 pages (6.0%) — 5s — 5.9 pages/s      📄 40/500 pages (8.0%) — 6s — 6.5 pages/s      📄 50/500 pages (10.0%) — 7s — 7.2 pages/s      📄 60/500 pages (12.0%) — 8s — 7.1 pages/s      📄 70/500 pages (14.0%) — 10s — 7.1 pages/s      📄 80/500 pages (16.0%) — 11s — 7.2 pages/s      📄 90/500 pages (18.0%) — 12s — 7.2 pages/s      📄 100/500 pages (20.0%) — 14s — 7.3 pages/s      📄 110/500 pages (22.0%) — 15s — 7.3 pages/s      📄 120/500 pages (24.0%) — 16s — 7.3 pages/s      📄 130/500 pages (26.0%) — 18s — 7.3 pages/s      📄 140/500 pages (28.0%) — 19s — 7.3 pages/s      📄 150/500 pages (30.0%) — 21s — 7.3 pages/s      📄 160/500 pages (32.0%) — 22s — 7.2 pages/s      📄 170/500 pages (34.0%) — 24s — 7.2 pages/s      📄 180/500 pages (36.0%) — 25s — 7.3 pages/s      📄 190/500 pages (38.0%) — 26s — 7.4 pages/s      📄 200/500 pages (40.0%) — 27s — 7.5 pages/s      📄 210/500 pages (42.0%) — 28s — 7.5 pages/s      📄 220/500 pages (44.0%) — 29s — 7.6 pages/s      📄 230/500 pages (46.0%) — 30s — 7.6 pages/s      📄 240/500 pages (48.0%) — 31s — 7.6 pages/s      📄 250/500 pages (50.0%) — 33s — 7.6 pages/s      📄 260/500 pages (52.0%) — 34s — 7.7 pages/s      📄 270/500 pages (54.0%) — 35s — 7.7 pages/s      📄 280/500 pages (56.0%) — 36s — 7.7 pages/s      📄 290/500 pages (58.0%) — 38s — 7.7 pages/s      📄 300/500 pages (60.0%) — 39s — 7.7 pages/s      📄 310/500 pages (62.0%) — 40s — 7.7 pages/s      📄 320/500 pages (64.0%) — 41s — 7.8 pages/s      📄 330/500 pages (66.0%) — 42s — 7.8 pages/s      📄 340/500 pages (68.0%) — 44s — 7.8 pages/s      📄 350/500 pages (70.0%) — 45s — 7.8 pages/s      📄 360/500 pages (72.0%) — 46s — 7.9 pages/s      📄 370/500 pages (74.0%) — 47s — 7.9 pages/s      📄 380/500 pages (76.0%) — 48s — 7.9 pages/s      📄 390/500 pages (78.0%) — 60s — 6.5 pages/s      📄 400/500 pages (80.0%) — 61s — 6.5 pages/s      📄 410/500 pages (82.0%) — 62s — 6.6 pages/s      📄 420/500 pages (84.0%) — 64s — 6.6 pages/s      📄 430/500 pages (86.0%) — 65s — 6.6 pages/s      📄 440/500 pages (88.0%) — 66s — 6.7 pages/s      📄 450/500 pages (90.0%) — 67s — 6.7 pages/s      📄 460/500 pages (92.0%) — 68s — 6.8 pages/s      📄 470/500 pages (94.0%) — 69s — 6.8 pages/s      📄 480/500 pages (96.0%) — 70s — 6.8 pages/s      📄 490/500 pages (98.0%) — 72s — 6.8 pages/s      📄 500/500 pages (100.0%) — 84s — 6.0 pages/s   
-   ✂️  Split into 1758 verses (1358215 chars total)
-   ✅ Done in 84.1s — 1758 verses saved
-
-📖 Processing: Vinaya Patrika
-   PDF: Vinay Patrika by Goswami Tulasi Das with Commentary by Hanumad Prasad Podhar 2001 Gorakhpur - Gita Press.pdf (509 pages)
-   📄 10/509 pages (2.0%) — 6s — 1.6 pages/s      📄 20/509 pages (3.9%) — 11s — 1.8 pages/s      📄 30/509 pages (5.9%) — 15s — 2.1 pages/s      📄 40/509 pages (7.9%) — 17s — 2.3 pages/s      📄 50/509 pages (9.8%) — 21s — 2.4 pages/s      📄 60/509 pages (11.8%) — 24s — 2.5 pages/s      📄 70/509 pages (13.8%) — 27s — 2.6 pages/s      📄 80/509 pages (15.7%) — 30s — 2.6 pages/s      📄 90/509 pages (17.7%) — 34s — 2.7 pages/s      📄 100/509 pages (19.6%) — 36s — 2.8 pages/s      📄 110/509 pages (21.6%) — 39s — 2.8 pages/s      📄 120/509 pages (23.6%) — 41s — 2.9 pages/s      📄 130/509 pages (25.5%) — 45s — 2.9 pages/s      📄 140/509 pages (27.5%) — 48s — 2.9 pages/s      📄 150/509 pages (29.5%) — 50s — 3.0 pages/s      📄 160/509 pages (31.4%) — 54s — 3.0 pages/s      📄 170/509 pages (33.4%) — 57s — 3.0 pages/s      📄 180/509 pages (35.4%) — 59s — 3.0 pages/s      📄 190/509 pages (37.3%) — 62s — 3.0 pages/s      📄 200/509 pages (39.3%) — 67s — 3.0 pages/s      📄 210/509 pages (41.3%) — 69s — 3.0 pages/s      📄 220/509 pages (43.2%) — 72s — 3.0 pages/s      📄 230/509 pages (45.2%) — 76s — 3.0 pages/s      📄 240/509 pages (47.2%) — 79s — 3.1 pages/s      📄 250/509 pages (49.1%) — 81s — 3.1 pages/s      📄 260/509 pages (51.1%) — 84s — 3.1 pages/s      📄 270/509 pages (53.0%) — 87s — 3.1 pages/s      📄 280/509 pages (55.0%) — 90s — 3.1 pages/s      📄 290/509 pages (57.0%) — 92s — 3.1 pages/s      📄 300/509 pages (58.9%) — 94s — 3.2 pages/s      📄 310/509 pages (60.9%) — 98s — 3.2 pages/s      📄 320/509 pages (62.9%) — 100s — 3.2 pages/s      📄 330/509 pages (64.8%) — 103s — 3.2 pages/s      📄 340/509 pages (66.8%) — 106s — 3.2 pages/s      📄 350/509 pages (68.8%) — 108s — 3.2 pages/s      📄 360/509 pages (70.7%) — 111s — 3.3 pages/s      📄 370/509 pages (72.7%) — 114s — 3.3 pages/s      📄 380/509 pages (74.7%) — 116s — 3.3 pages/s      📄 390/509 pages (76.6%) — 118s — 3.3 pages/s      📄 400/509 pages (78.6%) — 121s — 3.3 pages/s      📄 410/509 pages (80.6%) — 124s — 3.3 pages/s      📄 420/509 pages (82.5%) — 126s — 3.3 pages/s      📄 430/509 pages (84.5%) — 129s — 3.3 pages/s      📄 440/509 pages (86.4%) — 132s — 3.3 pages/s      📄 450/509 pages (88.4%) — 135s — 3.3 pages/s      📄 460/509 pages (90.4%) — 136s — 3.4 pages/s      📄 470/509 pages (92.3%) — 140s — 3.4 pages/s      📄 480/509 pages (94.3%) — 143s — 3.4 pages/s      📄 490/509 pages (96.3%) — 144s — 3.4 pages/s      📄 500/509 pages (98.2%) — 147s — 3.4 pages/s      📄 509/509 pages (100.0%) — 182s — 2.8 pages/s   
-   ✂️  Split into 1282 verses (622089 chars total)
-   ✅ Done in 182.1s — 1282 verses saved
-
-📖 Processing: Vishnu Purana (Alt. Edition)
-   PDF: vishnu-puran.pdf (535 pages)
-   📄 10/535 pages (1.9%) — 2s — 6.6 pages/s      📄 20/535 pages (3.7%) — 2s — 8.9 pages/s      📄 30/535 pages (5.6%) — 3s — 10.0 pages/s      📄 40/535 pages (7.5%) — 4s — 11.3 pages/s      📄 50/535 pages (9.3%) — 4s — 11.1 pages/s      📄 60/535 pages (11.2%) — 5s — 11.3 pages/s      📄 70/535 pages (13.1%) — 6s — 12.0 pages/s      📄 80/535 pages (15.0%) — 7s — 12.2 pages/s      📄 90/535 pages (16.8%) — 7s — 12.4 pages/s      📄 100/535 pages (18.7%) — 8s — 13.0 pages/s      📄 110/535 pages (20.6%) — 9s — 12.9 pages/s      📄 120/535 pages (22.4%) — 9s — 13.1 pages/s      📄 130/535 pages (24.3%) — 10s — 13.5 pages/s      📄 140/535 pages (26.2%) — 10s — 13.4 pages/s      📄 150/535 pages (28.0%) — 11s — 13.3 pages/s      📄 160/535 pages (29.9%) — 12s — 13.7 pages/s      📄 170/535 pages (31.8%) — 12s — 13.7 pages/s      📄 180/535 pages (33.6%) — 13s — 13.6 pages/s      📄 190/535 pages (35.5%) — 14s — 14.0 pages/s      📄 200/535 pages (37.4%) — 14s — 13.9 pages/s      📄 210/535 pages (39.3%) — 15s — 13.8 pages/s      📄 220/535 pages (41.1%) — 16s — 14.0 pages/s      📄 230/535 pages (43.0%) — 17s — 13.7 pages/s      📄 240/535 pages (44.9%) — 17s — 13.8 pages/s      📄 250/535 pages (46.7%) — 18s — 13.6 pages/s      📄 260/535 pages (48.6%) — 19s — 13.5 pages/s      📄 270/535 pages (50.5%) — 20s — 13.6 pages/s      📄 280/535 pages (52.3%) — 21s — 13.6 pages/s      📄 290/535 pages (54.2%) — 21s — 13.5 pages/s      📄 300/535 pages (56.1%) — 22s — 13.7 pages/s      📄 310/535 pages (57.9%) — 23s — 13.7 pages/s      📄 320/535 pages (59.8%) — 24s — 13.5 pages/s      📄 330/535 pages (61.7%) — 24s — 13.6 pages/s      📄 340/535 pages (63.6%) — 26s — 13.1 pages/s      📄 350/535 pages (65.4%) — 27s — 12.9 pages/s      📄 360/535 pages (67.3%) — 28s — 12.7 pages/s      📄 370/535 pages (69.2%) — 29s — 12.7 pages/s      📄 380/535 pages (71.0%) — 30s — 12.8 pages/s      📄 390/535 pages (72.9%) — 30s — 12.8 pages/s      📄 400/535 pages (74.8%) — 31s — 12.9 pages/s      📄 410/535 pages (76.6%) — 32s — 13.0 pages/s      📄 420/535 pages (78.5%) — 42s — 9.9 pages/s      📄 430/535 pages (80.4%) — 44s — 9.8 pages/s      📄 440/535 pages (82.2%) — 45s — 9.8 pages/s      📄 450/535 pages (84.1%) — 46s — 9.8 pages/s      📄 460/535 pages (86.0%) — 47s — 9.9 pages/s      📄 470/535 pages (87.9%) — 48s — 9.9 pages/s      📄 480/535 pages (89.7%) — 48s — 10.0 pages/s      📄 490/535 pages (91.6%) — 49s — 10.1 pages/s      📄 500/535 pages (93.5%) — 49s — 10.1 pages/s      📄 510/535 pages (95.3%) — 50s — 10.1 pages/s      📄 520/535 pages (97.2%) — 51s — 10.2 pages/s      📄 530/535 pages (99.1%) — 52s — 10.3 pages/s      📄 535/535 pages (100.0%) — 52s — 10.2 pages/s   
-   ✂️  Split into 5091 verses (1497770 chars total)
-   ✅ Done in 52.9s — 5091 verses saved
-
-📖 Processing: Upanishads Collection
-   PDF: upanishad उपनिषद् .pdf (547 pages)
-   📄 10/547 pages (1.8%) — 1s — 10.4 pages/s      📄 20/547 pages (3.7%) — 2s — 12.1 pages/s      📄 30/547 pages (5.5%) — 2s — 13.4 pages/s      📄 40/547 pages (7.3%) — 3s — 13.3 pages/s      📄 50/547 pages (9.1%) — 4s — 13.1 pages/s      📄 60/547 pages (11.0%) — 5s — 13.1 pages/s      📄 70/547 pages (12.8%) — 5s — 13.3 pages/s      📄 80/547 pages (14.6%) — 6s — 13.6 pages/s      📄 90/547 pages (16.5%) — 7s — 13.7 pages/s      📄 100/547 pages (18.3%) — 7s — 13.5 pages/s      📄 110/547 pages (20.1%) — 8s — 13.5 pages/s      📄 120/547 pages (21.9%) — 9s — 13.3 pages/s      📄 130/547 pages (23.8%) — 10s — 13.3 pages/s      📄 140/547 pages (25.6%) — 11s — 13.1 pages/s      📄 150/547 pages (27.4%) — 11s — 13.1 pages/s      📄 160/547 pages (29.3%) — 12s — 13.0 pages/s      📄 170/547 pages (31.1%) — 13s — 12.8 pages/s      📄 180/547 pages (32.9%) — 14s — 13.0 pages/s      📄 190/547 pages (34.7%) — 14s — 13.1 pages/s      📄 200/547 pages (36.6%) — 15s — 13.1 pages/s      📄 210/547 pages (38.4%) — 16s — 13.2 pages/s      📄 220/547 pages (40.2%) — 17s — 13.3 pages/s      📄 230/547 pages (42.0%) — 17s — 13.3 pages/s      📄 240/547 pages (43.9%) — 18s — 13.4 pages/s      📄 250/547 pages (45.7%) — 19s — 13.5 pages/s      📄 260/547 pages (47.5%) — 19s — 13.5 pages/s      📄 270/547 pages (49.4%) — 20s — 13.6 pages/s      📄 280/547 pages (51.2%) — 21s — 13.6 pages/s      📄 290/547 pages (53.0%) — 21s — 13.9 pages/s      📄 300/547 pages (54.8%) — 22s — 13.9 pages/s      📄 310/547 pages (56.7%) — 22s — 13.9 pages/s      📄 320/547 pages (58.5%) — 23s — 13.9 pages/s      📄 330/547 pages (60.3%) — 23s — 14.1 pages/s      📄 340/547 pages (62.2%) — 24s — 14.0 pages/s      📄 350/547 pages (64.0%) — 25s — 14.2 pages/s      📄 360/547 pages (65.8%) — 25s — 14.2 pages/s      📄 370/547 pages (67.6%) — 26s — 14.1 pages/s      📄 380/547 pages (69.5%) — 27s — 14.3 pages/s      📄 390/547 pages (71.3%) — 28s — 14.2 pages/s      📄 400/547 pages (73.1%) — 28s — 14.2 pages/s      📄 410/547 pages (75.0%) — 29s — 14.3 pages/s      📄 420/547 pages (76.8%) — 30s — 14.2 pages/s      📄 430/547 pages (78.6%) — 30s — 14.3 pages/s      📄 440/547 pages (80.4%) — 31s — 14.3 pages/s      📄 450/547 pages (82.3%) — 32s — 14.3 pages/s      📄 460/547 pages (84.1%) — 32s — 14.3 pages/s      📄 470/547 pages (85.9%) — 33s — 14.3 pages/s      📄 480/547 pages (87.8%) — 34s — 14.2 pages/s      📄 490/547 pages (89.6%) — 34s — 14.3 pages/s      📄 500/547 pages (91.4%) — 35s — 14.3 pages/s      📄 510/547 pages (93.2%) — 36s — 14.3 pages/s      📄 520/547 pages (95.1%) — 36s — 14.3 pages/s      📄 530/547 pages (96.9%) — 37s — 14.4 pages/s      📄 540/547 pages (98.7%) — 37s — 14.4 pages/s      📄 547/547 pages (100.0%) — 48s — 11.5 pages/s   
-   ✂️  Split into 724 verses (830812 chars total)
-   ✅ Done in 47.8s — 724 verses saved
-
-📖 Processing: Garuda Purana
-   PDF: Garuda Puran - Gita Press Gorakhpur.pdf (638 pages)
-
-   ⚠️  Page 6 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 1 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 2 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 4 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 3 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 5 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 12 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 10 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 11 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 9 render failed: malloc (1609310855 bytes) failed
-   📄 10/638 pages (1.6%) — 45s — 0.2 pages/s   
-   ⚠️  Page 7 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 8 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 16 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 13 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 15 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 14 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 17 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 18 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 23 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 21 render failed: malloc (1609310855 bytes) failed
-   📄 20/638 pages (3.1%) — 118s — 0.2 pages/s   
-   ⚠️  Page 22 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 24 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 20 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 19 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 30 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 29 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 27 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 26 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 25 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 28 render failed: malloc (1609310855 bytes) failed
-   📄 30/638 pages (4.7%) — 151s — 0.2 pages/s   
-   ⚠️  Page 34 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 33 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 36 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 35 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 32 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 31 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 40 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 41 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 39 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 42 render failed: malloc (1609310855 bytes) failed
-   📄 40/638 pages (6.3%) — 211s — 0.2 pages/s   
-   ⚠️  Page 37 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 38 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 48 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 46 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 47 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 45 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 43 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 44 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 54 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 52 render failed: malloc (1609310855 bytes) failed
-   📄 50/638 pages (7.8%) — 275s — 0.2 pages/s   
-   ⚠️  Page 51 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 53 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 49 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 50 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 60 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 55 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 59 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 56 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 58 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 57 render failed: malloc (1609310855 bytes) failed
-   📄 60/638 pages (9.4%) — 312s — 0.2 pages/s   
-   ⚠️  Page 65 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 61 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 62 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 63 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 64 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 66 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 72 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 71 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 69 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 70 render failed: malloc (1609310855 bytes) failed
-   📄 70/638 pages (11.0%) — 375s — 0.2 pages/s   
-   ⚠️  Page 68 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 67 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 74 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 76 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 73 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 78 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 75 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 77 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 84 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 82 render failed: malloc (1609310855 bytes) failed
-   📄 80/638 pages (12.5%) — 449s — 0.2 pages/s   
-   ⚠️  Page 83 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 81 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 80 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 79 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 87 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 90 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 89 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 86 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 85 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 88 render failed: malloc (1609310855 bytes) failed
-   📄 90/638 pages (14.1%) — 481s — 0.2 pages/s   
-   ⚠️  Page 94 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 91 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 92 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 96 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 93 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 95 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 99 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 102 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 101 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 100 render failed: malloc (1609310855 bytes) failed
-   📄 100/638 pages (15.7%) — 544s — 0.2 pages/s   
-   ⚠️  Page 98 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 97 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 108 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 107 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 105 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 106 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 104 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 103 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 111 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 112 render failed: malloc (1609310855 bytes) failed
-   📄 110/638 pages (17.2%) — 607s — 0.2 pages/s   
-   ⚠️  Page 113 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 114 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 109 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 110 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 119 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 117 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 120 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 118 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 116 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 115 render failed: malloc (1609310855 bytes) failed
-   📄 120/638 pages (18.8%) — 641s — 0.2 pages/s   
-   ⚠️  Page 121 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 122 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 123 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 126 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 124 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 125 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 129 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 132 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 130 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 128 render failed: malloc (1609310855 bytes) failed
-   📄 130/638 pages (20.4%) — 705s — 0.2 pages/s   
-   ⚠️  Page 127 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 131 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 138 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 137 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 136 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 135 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 134 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 133 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 144 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 139 render failed: malloc (1609310855 bytes) failed
-   📄 140/638 pages (21.9%) — 775s — 0.2 pages/s   
-   ⚠️  Page 141 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 143 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 140 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 142 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 150 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 149 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 148 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 147 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 145 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 146 render failed: malloc (1609310855 bytes) failed
-   📄 150/638 pages (23.5%) — 803s — 0.2 pages/s   
-   ⚠️  Page 154 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 151 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 153 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 152 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 155 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 156 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 162 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 159 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 157 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 161 render failed: malloc (1609310855 bytes) failed
-   📄 160/638 pages (25.1%) — 872s — 0.2 pages/s   
-   ⚠️  Page 158 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 160 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 168 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 164 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 163 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 166 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 165 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 167 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 174 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 171 render failed: malloc (1609310855 bytes) failed
-   📄 170/638 pages (26.6%) — 944s — 0.2 pages/s   
-   ⚠️  Page 170 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 173 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 169 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 172 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 179 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 180 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 177 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 176 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 175 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 178 render failed: malloc (1609310855 bytes) failed
-   📄 180/638 pages (28.2%) — 981s — 0.2 pages/s   
-   ⚠️  Page 183 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 186 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 182 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 181 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 185 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 184 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 189 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 188 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 192 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 190 render failed: malloc (1609310855 bytes) failed
-   📄 190/638 pages (29.8%) — 1041s — 0.2 pages/s   
-   ⚠️  Page 187 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 191 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 197 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 198 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 194 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 193 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 195 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 196 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 203 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 204 render failed: malloc (1609310855 bytes) failed
-   📄 200/638 pages (31.3%) — 1103s — 0.2 pages/s   
-   ⚠️  Page 200 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 199 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 201 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 202 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 209 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 210 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 207 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 206 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 205 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 208 render failed: malloc (1609310855 bytes) failed
-   📄 210/638 pages (32.9%) — 1129s — 0.2 pages/s   
-   ⚠️  Page 216 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 215 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 213 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 212 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 214 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 211 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 221 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 222 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 218 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 217 render failed: malloc (1609310855 bytes) failed
-   📄 220/638 pages (34.5%) — 1188s — 0.2 pages/s   
-   ⚠️  Page 219 render failed: malloc (1609310855 bytes) failed
-
-   ⚠️  Page 220 render failed: malloc (1609310855 bytes) failed

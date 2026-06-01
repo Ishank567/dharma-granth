@@ -1,0 +1,371 @@
+
+> dharma-granth@1.0.0 dev
+> next dev
+
+  ▲ Next.js 14.2.0
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 2.7s
+ ○ Compiling /scriptures ...
+ ✓ Compiled /scriptures in 5.3s (618 modules)
+ GET /scriptures 200 in 5586ms
+ ✓ Compiled in 350ms (277 modules)
+ ✓ Compiled /scripture/[id] in 311ms (609 modules)
+ GET /scripture/ishavasya 200 in 701ms
+ ✓ Compiled /scripture/[id]/chapter/[chapterId] in 220ms (634 modules)
+ GET /scripture/ishavasya/chapter/1 200 in 581ms
+ GET /scripture/kena 200 in 64ms
+ GET /scripture/kena/chapter/1 200 in 45ms
+ GET /scripture/katha 200 in 59ms
+ GET /scripture/katha/chapter/1 200 in 67ms
+ GET /scripture/prashna 200 in 59ms
+ GET /scripture/prashna/chapter/1 200 in 77ms
+ GET /scripture/mundaka 200 in 52ms
+ GET /scripture/mundaka/chapter/1 200 in 51ms
+ ⨯ Error: Page "/scripture/[id]/page" is missing param "/scripture/mandukya" in "generateStaticParams()", which is required with "output: export" config.
+    at DevServer.renderToResponseWithComponentsImpl (C:\Users\ishan\Music\dharma\dharma-granth\node_modules\next\dist\server\base-server.js:1081:27) {
+  page: '/scripture/mandukya'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 837ms (858 modules)
+ GET /scripture/mandukya 500 in 1005ms
+ ⨯ Error: Page "/scripture/[id]/chapter/[chapterId]/page" is missing param "/scripture/mandukya/chapter/1" in "generateStaticParams()", which is required with "output: export" config.
+    at DevServer.renderToResponseWithComponentsImpl (C:\Users\ishan\Music\dharma\dharma-granth\node_modules\next\dist\server\base-server.js:1081:27) {
+  page: '/scripture/mandukya/chapter/1'
+}
+ GET /scripture/mandukya/chapter/1 500 in 41ms
+ GET /scripture/aitareya 200 in 96ms
+ GET /scripture/aitareya/chapter/1 200 in 77ms
+ GET /scripture/shvetashvatara 200 in 50ms
+ GET /scripture/shvetashvatara/chapter/1 200 in 62ms
+ GET /scripture/yajurveda 200 in 74ms
+ GET /scripture/yajurveda/chapter/1 200 in 54ms
+ GET /scripture/mahabharata 200 in 62ms
+ GET /scripture/mahabharata/chapter/1 200 in 101ms
+ ✓ Compiled in 418ms (476 modules)
+ ✓ Compiled in 303ms (476 modules)
+ ✓ Compiled in 531ms (524 modules)
+ ✓ Compiled in 242ms (476 modules)
+ ✓ Compiled in 270ms (476 modules)
+ ✓ Compiled /scripture/[id] in 252ms (368 modules)
+ ⨯ Error: Page "/scripture/[id]/page" is missing param "/scripture/mandukya" in "generateStaticParams()", which is required with "output: export" config.
+    at DevServer.renderToResponseWithComponentsImpl (C:\Users\ishan\Music\dharma\dharma-granth\node_modules\next\dist\server\base-server.js:1081:27) {
+  page: '/scripture/mandukya'
+}
+ ✓ Compiled /_error in 363ms (832 modules)
+ GET /scripture/mandukya 500 in 738ms
+ ⨯ Error: Page "/scripture/[id]/page" is missing param "/scripture/mandukya" in "generateStaticParams()", which is required with "output: export" config.
+    at DevServer.renderToResponseWithComponentsImpl (C:\Users\ishan\Music\dharma\dharma-granth\node_modules\next\dist\server\base-server.js:1081:27) {
+  page: '/scripture/mandukya'
+}
+ GET /scripture/mandukya 500 in 36ms
+ ✓ Compiled /scripture/[id]/chapter/[chapterId] in 224ms (388 modules)
+ ⨯ Error: Page "/scripture/[id]/chapter/[chapterId]/page" is missing param "/scripture/mandukya/chapter/1" in "generateStaticParams()", which is required with "output: export" config.
+    at DevServer.renderToResponseWithComponentsImpl (C:\Users\ishan\Music\dharma\dharma-granth\node_modules\next\dist\server\base-server.js:1081:27) {
+  page: '/scripture/mandukya/chapter/1'
+}
+ GET /scripture/mandukya/chapter/1 500 in 308ms
+ ✓ Compiled in 199ms (510 modules)
+ ✓ Compiled in 256ms (476 modules)
+ ✓ Compiled in 213ms (476 modules)
+ ✓ Compiled in 235ms (476 modules)
+ ✓ Compiled in 175ms (476 modules)
+ ✓ Compiled in 183ms (476 modules)
+ ✓ Compiled in 210ms (476 modules)
+ ✓ Compiled in 209ms (476 modules)
+ ✓ Compiled in 175ms (476 modules)
+ ✓ Compiled in 159ms (476 modules)
+ ○ Compiling /scripture/[id]/chapter/[chapterId] ...
+ ✓ Compiled /scripture/[id]/chapter/[chapterId] in 1998ms (1645 modules)
+ GET /scripture/bhagavadgita/chapter/1 200 in 2189ms
+ ⨯ Error: Page "/scripture/[id]/chapter/[chapterId]/page" is missing param "/scripture/yajurveda/chapter/5" in "generateStaticParams()", which is required with "output: export" config.
+    at DevServer.renderToResponseWithComponentsImpl (C:\Users\ishan\Music\dharma\dharma-granth\node_modules\next\dist\server\base-server.js:1081:27) {
+  page: '/scripture/yajurveda/chapter/5'
+}
+ ✓ Compiled /_error in 281ms (1647 modules)
+ GET /scripture/yajurveda/chapter/5 500 in 338ms
+ GET /scripture/mandukya/chapter/1 200 in 155ms
+ GET /scripture/yajurveda/chapter/1 200 in 51ms
+ GET /scripture/yajurveda/chapter/2 200 in 38ms
+ GET /scripture/yajurveda/chapter/3 200 in 32ms
+ GET /scripture/yajurveda/chapter/4 200 in 32ms
+ ⨯ Error: Page "/scripture/[id]/chapter/[chapterId]/page" is missing param "/scripture/yajurveda/chapter/5" in "generateStaticParams()", which is required with "output: export" config.
+    at DevServer.renderToResponseWithComponentsImpl (C:\Users\ishan\Music\dharma\dharma-granth\node_modules\next\dist\server\base-server.js:1081:27) {
+  page: '/scripture/yajurveda/chapter/5'
+}
+ GET /scripture/yajurveda/chapter/5 500 in 13ms
+ ✓ Compiled in 306ms (880 modules)
+ ✓ Compiled in 373ms (880 modules)
+ ✓ Compiled in 324ms (880 modules)
+ ✓ Compiled in 227ms (880 modules)
+ ✓ Compiled in 299ms (880 modules)
+ ✓ Compiled in 217ms (880 modules)
+ ✓ Compiled in 185ms (880 modules)
+ ✓ Compiled in 270ms (880 modules)
+ ✓ Compiled in 203ms (880 modules)
+ ✓ Compiled in 275ms (928 modules)
+ ✓ Compiled in 155ms (880 modules)
+ ○ Compiling / ...
+ ✓ Compiled / in 612ms (1645 modules)
+ GET / 200 in 774ms
+ ✓ Compiled /scriptures in 211ms (1642 modules)
+ GET /scriptures 200 in 338ms
+ ✓ Compiled /scripture/[id] in 399ms (1665 modules)
+ GET /scripture/bhagavadgita 200 in 562ms
+ ✓ Compiled /scripture/[id]/chapter/[chapterId] in 198ms (813 modules)
+ GET /scripture/bhagavadgita/chapter/1 200 in 370ms
+ GET /scripture/yajurveda 200 in 50ms
+ GET /scripture/mandukya/chapter/1 200 in 71ms
+ ✓ Compiled in 627ms (931 modules)
+ ✓ Compiled in 302ms (883 modules)
+ ✓ Compiled in 190ms (883 modules)
+ ✓ Compiled in 221ms (883 modules)
+ ✓ Compiled in 233ms (883 modules)
+ ✓ Compiled in 144ms (883 modules)
+ ✓ Compiled in 235ms (883 modules)
+ ✓ Compiled in 245ms (883 modules)
+ ✓ Compiled in 238ms (883 modules)
+ ✓ Compiled in 215ms (883 modules)
+ ✓ Compiled in 222ms (883 modules)
+ ✓ Compiled in 217ms (883 modules)
+ ✓ Compiled in 242ms (883 modules)
+ ✓ Compiled in 220ms (883 modules)
+ ✓ Compiled in 278ms (883 modules)
+ ✓ Compiled in 282ms (883 modules)
+ ✓ Compiled in 195ms (883 modules)
+ ✓ Compiled in 239ms (883 modules)
+ ✓ Compiled in 179ms (883 modules)
+ ✓ Compiled in 426ms (883 modules)
+ ✓ Compiled in 205ms (883 modules)
+ ✓ Compiled in 197ms (883 modules)
+ ✓ Compiled in 311ms (883 modules)
+ ✓ Compiled in 191ms (883 modules)
+ ✓ Compiled in 236ms (883 modules)
+ ✓ Compiled in 216ms (883 modules)
+ ✓ Compiled in 169ms (883 modules)
+ ✓ Compiled in 219ms (883 modules)
+ ✓ Compiled in 233ms (883 modules)
+ ✓ Compiled in 163ms (883 modules)
+ ✓ Compiled in 198ms (883 modules)
+ ✓ Compiled in 303ms (883 modules)
+ ✓ Compiled in 212ms (883 modules)
+ ✓ Compiled in 213ms (883 modules)
+ ✓ Compiled in 175ms (883 modules)
+ ✓ Compiled /scripture/[id]/chapter/[chapterId] in 281ms (783 modules)
+ GET /scripture/yajurveda/chapter/1 200 in 483ms
+ GET /scripture/yajurveda/chapter/4 200 in 50ms
+ ⨯ Error: Page "/scripture/[id]/chapter/[chapterId]/page" is missing param "/scripture/yajurveda/chapter/5" in "generateStaticParams()", which is required with "output: export" config.
+    at DevServer.renderToResponseWithComponentsImpl (C:\Users\ishan\Music\dharma\dharma-granth\node_modules\next\dist\server\base-server.js:1081:27) {
+  page: '/scripture/yajurveda/chapter/5'
+}
+ ✓ Compiled /_error in 364ms (1654 modules)
+ GET /scripture/yajurveda/chapter/5 500 in 400ms
+ GET /scripture/yajurveda/chapter/20 200 in 157ms
+ GET /scripture/yajurveda/chapter/40 200 in 60ms
+ ⨯ Error: Page "/scripture/[id]/chapter/[chapterId]/page" is missing param "/scripture/yajurveda/chapter/41" in "generateStaticParams()", which is required with "output: export" config.
+    at DevServer.renderToResponseWithComponentsImpl (C:\Users\ishan\Music\dharma\dharma-granth\node_modules\next\dist\server\base-server.js:1081:27) {
+  page: '/scripture/yajurveda/chapter/41'
+}
+ GET /scripture/yajurveda/chapter/41 500 in 13ms
+ GET /scripture/yajurveda/chapter/7 200 in 62ms
+ GET /scripture/yajurveda/chapter/5 200 in 47ms
+ ✓ Compiled / in 342ms (1671 modules)
+ GET / 200 in 452ms
+ ✓ Compiled /scriptures in 273ms (804 modules)
+ GET /scriptures 200 in 389ms
+ ✓ Compiled /scripture/[id] in 124ms (817 modules)
+ GET /scripture/bhagavadgita 200 in 240ms
+ GET /scripture/bhagavadgita/chapter/1 200 in 69ms
+ GET /scripture/yajurveda 200 in 59ms
+ GET /scripture/yajurveda/chapter/15 200 in 60ms
+ GET /scripture/mahabharata 200 in 43ms
+ GET /scripture/mahabharata/chapter/3 200 in 164ms
+ ✓ Compiled in 1676ms (932 modules)
+ ✓ Compiled in 325ms (884 modules)
+ ✓ Compiled in 177ms (884 modules)
+[Error: ENOENT: no such file or directory, stat 'C:\Users\ishan\Music\dharma\dharma-granth\dist\cache\webpack\client-development\9.pack.gz'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'C:\\Users\\ishan\\Music\\dharma\\dharma-granth\\dist\\cache\\webpack\\client-development\\9.pack.gz'
+}
+ ⨯ unhandledRejection: [Error: ENOENT: no such file or directory, stat 'C:\Users\ishan\Music\dharma\dharma-granth\dist\cache\webpack\client-development\9.pack.gz'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'C:\\Users\\ishan\\Music\\dharma\\dharma-granth\\dist\\cache\\webpack\\client-development\\9.pack.gz'
+}
+ ⨯ unhandledRejection: [Error: ENOENT: no such file or directory, stat 'C:\Users\ishan\Music\dharma\dharma-granth\dist\cache\webpack\client-development\9.pack.gz'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'C:\\Users\\ishan\\Music\\dharma\\dharma-granth\\dist\\cache\\webpack\\client-development\\9.pack.gz'
+}
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, stat 'C:\Users\ishan\Music\dharma\dharma-granth\dist\cache\webpack\client-development\9.pack.gz'
+ ✓ Compiled /scripture/[id]/chapter/[chapterId] in 315ms (783 modules)
+ ✓ Compiled /_not-found in 301ms (1670 modules)
+ GET /scripture/mahabharata/chapter/3 404 in 836ms
+ GET /_next/static/css/css-app_globals_css-node_modules_next_font_google_target_css-node_modules_next_font_google_ta-a7ec92.css?v=1778840030193 404 in 41ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 49ms
+ GET /_next/static/chunks/main-app.js?v=1778840030193 404 in 50ms
+ GET /_next/static/chunks/app/global-error.js 404 in 45ms
+ GET /_next/static/chunks/app/error.js 404 in 49ms
+ GET /_next/static/chunks/app/page.js 404 in 49ms
+ GET /scripture/mahabharata/chapter/3 200 in 238ms
+ GET /_next/static/css/css-app_globals_css-node_modules_next_font_google_target_css-node_modules_next_font_google_ta-a7ec92.css?v=1778840041696 404 in 32ms
+ GET /_next/static/chunks/main-app.js?v=1778840041696 404 in 56ms
+ GET /_next/static/chunks/app/scripture/%5Bid%5D/chapter/%5BchapterId%5D/page.js 404 in 61ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 62ms
+ GET /_next/static/chunks/app/scripture/%5Bid%5D/chapter/%5BchapterId%5D/loading.js 404 in 64ms
+ GET /_next/static/chunks/app/error.js 404 in 44ms
+ GET /_next/static/chunks/app/global-error.js 404 in 29ms
+ GET /scripture/mahabharata/chapter/3 200 in 189ms
+ GET /_next/static/css/css-app_globals_css-node_modules_next_font_google_target_css-node_modules_next_font_google_ta-a7ec92.css?v=1778840042838 404 in 34ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 50ms
+ GET /_next/static/chunks/main-app.js?v=1778840042838 404 in 51ms
+ GET /_next/static/chunks/app/scripture/%5Bid%5D/chapter/%5BchapterId%5D/loading.js 404 in 53ms
+ GET /_next/static/chunks/app/scripture/%5Bid%5D/chapter/%5BchapterId%5D/page.js 404 in 53ms
+ GET /_next/static/chunks/app/error.js 404 in 35ms
+ GET /_next/static/chunks/app/global-error.js 404 in 22ms
+ GET /scripture/mahabharata/chapter/3 200 in 227ms
+ GET /_next/static/css/css-app_globals_css-node_modules_next_font_google_target_css-node_modules_next_font_google_ta-a7ec92.css?v=1778840069083 404 in 61ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 58ms
+ GET /_next/static/chunks/main-app.js?v=1778840069083 404 in 60ms
+ GET /_next/static/chunks/app/scripture/%5Bid%5D/chapter/%5BchapterId%5D/page.js 404 in 58ms
+ GET /_next/static/chunks/app/scripture/%5Bid%5D/chapter/%5BchapterId%5D/loading.js 404 in 59ms
+ GET /_next/static/chunks/app/error.js 404 in 40ms
+ GET /_next/static/chunks/app/global-error.js 404 in 27ms
+ ✓ Compiled / in 82ms (801 modules)
+ GET / 200 in 227ms
+ GET /_next/static/css/css-app_globals_css-node_modules_next_font_google_target_css-node_modules_next_font_google_ta-a7ec92.css?v=1778840074872 404 in 54ms
+ GET /_next/static/chunks/app/page.js 404 in 76ms
+ GET /_next/static/chunks/main-app.js?v=1778840074872 404 in 77ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 77ms
+ GET /_next/static/chunks/app/error.js 404 in 81ms
+ GET /_next/static/chunks/app/global-error.js 404 in 38ms
+ ✓ Compiled /scripture/[id] in 171ms (814 modules)
+ GET /scripture/bhagavadgita 200 in 284ms
+ GET /_next/static/css/css-app_globals_css-node_modules_next_font_google_target_css-node_modules_next_font_google_ta-a7ec92.css?v=1778840077218 404 in 49ms
+ GET /_next/static/chunks/main-app.js?v=1778840077218 404 in 62ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 64ms
+ GET /_next/static/chunks/app/scripture/%5Bid%5D/page.js 404 in 64ms
+ GET /_next/static/chunks/app/error.js 404 in 48ms
+ GET /_next/static/chunks/app/global-error.js 404 in 22ms
+ GET /scripture/bhagavadgita 200 in 50ms
+ GET /_next/static/css/css-app_globals_css-node_modules_next_font_google_target_css-node_modules_next_font_google_ta-a7ec92.css?v=1778840079091 404 in 52ms
+ GET /_next/static/chunks/main-app.js?v=1778840079091 404 in 69ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 70ms
+ GET /_next/static/chunks/app/scripture/%5Bid%5D/page.js 404 in 72ms
+ GET /_next/static/chunks/app/error.js 404 in 67ms
+ GET /_next/static/chunks/app/global-error.js 404 in 29ms
+ GET /scripture/bhagavadgita 200 in 55ms
+ GET /_next/static/css/css-app_globals_css-node_modules_next_font_google_target_css-node_modules_next_font_google_ta-a7ec92.css?v=1778840083385 404 in 44ms
+ GET /_next/static/chunks/main-app.js?v=1778840083385 404 in 56ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 51ms
+ GET /_next/static/chunks/app/scripture/%5Bid%5D/page.js 404 in 50ms
+ GET /_next/static/chunks/app/error.js 404 in 48ms
+ GET /_next/static/chunks/app/global-error.js 404 in 23ms
+ GET /scripture/bhagavadgita 200 in 69ms
+ GET /_next/static/css/css-app_globals_css-node_modules_next_font_google_target_css-node_modules_next_font_google_ta-a7ec92.css?v=1778840083573 404 in 41ms
+ GET /_next/static/chunks/main-app.js?v=1778840083573 404 in 52ms
+ GET /_next/static/chunks/app/scripture/%5Bid%5D/page.js 404 in 51ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 52ms
+ GET /_next/static/chunks/app/error.js 404 in 51ms
+ GET /_next/static/chunks/app/global-error.js 404 in 22ms
+ GET /scripture/bhagavadgita 200 in 56ms
+ GET /_next/static/css/css-app_globals_css-node_modules_next_font_google_target_css-node_modules_next_font_google_ta-a7ec92.css?v=1778840083957 404 in 34ms
+ GET /_next/static/chunks/main-app.js?v=1778840083957 404 in 57ms
+ GET /_next/static/chunks/app/scripture/%5Bid%5D/page.js 404 in 54ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 59ms
+ GET /_next/static/chunks/app/global-error.js 404 in 26ms
+ GET /_next/static/chunks/app/error.js 404 in 37ms
+ GET /scripture/bhagavadgita 200 in 65ms
+ GET /_next/static/css/css-app_globals_css-node_modules_next_font_google_target_css-node_modules_next_font_google_ta-a7ec92.css?v=1778840084147 404 in 33ms
+ GET /_next/static/chunks/main-app.js?v=1778840084147 404 in 30ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 43ms
+ GET /_next/static/chunks/app/scripture/%5Bid%5D/page.js 404 in 43ms
+ GET /_next/static/chunks/app/error.js 404 in 42ms
+ GET /_next/static/chunks/app/global-error.js 404 in 20ms
+ GET /scripture/bhagavadgita 200 in 50ms
+ GET /_next/static/css/css-app_globals_css-node_modules_next_font_google_target_css-node_modules_next_font_google_ta-a7ec92.css?v=1778840084355 404 in 28ms
+ GET /_next/static/chunks/main-app.js?v=1778840084355 404 in 70ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 68ms
+ GET /_next/static/chunks/app/scripture/%5Bid%5D/page.js 404 in 77ms
+ GET /_next/static/chunks/app/error.js 404 in 41ms
+ GET /_next/static/chunks/app/global-error.js 404 in 38ms
+ GET /scripture/bhagavadgita 200 in 70ms
+ GET /_next/static/css/css-app_globals_css-node_modules_next_font_google_target_css-node_modules_next_font_google_ta-a7ec92.css?v=1778840084773 404 in 38ms
+ GET /_next/static/chunks/main-app.js?v=1778840084773 404 in 62ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 62ms
+ GET /_next/static/chunks/app/scripture/%5Bid%5D/page.js 404 in 60ms
+ GET /_next/static/chunks/app/error.js 404 in 59ms
+ GET /_next/static/chunks/app/global-error.js 404 in 29ms
+ GET / 200 in 52ms
+ GET / 200 in 69ms
+ GET /_next/static/css/css-app_globals_css-node_modules_next_font_google_target_css-node_modules_next_font_google_ta-a7ec92.css?v=1778840245873 404 in 25ms
+ GET /_next/static/chunks/main-app.js?v=1778840245873 404 in 46ms
+ GET /_next/static/chunks/app/error.js 404 in 44ms
+ GET /_next/static/chunks/app/page.js 404 in 45ms
+ GET /_next/static/chunks/app/global-error.js 404 in 43ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 45ms
+ GET / 200 in 95ms
+ GET /_next/static/css/css-app_globals_css-node_modules_next_font_google_target_css-node_modules_next_font_google_ta-a7ec92.css?v=1778840251810 404 in 27ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 45ms
+ GET /_next/static/chunks/main-app.js?v=1778840251810 404 in 46ms
+ GET /_next/static/chunks/app/page.js 404 in 46ms
+ GET /_next/static/chunks/app/error.js 404 in 45ms
+ GET /_next/static/chunks/app/global-error.js 404 in 22ms
+ GET /_next/static/css/css-app_globals_css-node_modules_next_font_google_target_css-node_modules_next_font_google_ta-a7ec92.css?v=1778840254788 404 in 29ms
+ GET / 200 in 86ms
+ GET /_next/static/chunks/app/page.js 404 in 33ms
+ GET /_next/static/chunks/main-app.js?v=1778840254788 404 in 35ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 34ms
+ GET /_next/static/chunks/app/error.js 404 in 26ms
+ GET /_next/static/chunks/app/global-error.js 404 in 25ms
+ GET / 200 in 70ms
+ GET /_next/static/css/css-app_globals_css-node_modules_next_font_google_target_css-node_modules_next_font_google_ta-a7ec92.css?v=1778840256342 404 in 26ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 39ms
+ GET /_next/static/chunks/app/page.js 404 in 39ms
+ GET /_next/static/chunks/main-app.js?v=1778840256342 404 in 42ms
+ GET /_next/static/chunks/app/global-error.js 404 in 24ms
+ GET /_next/static/chunks/app/error.js 404 in 23ms
+ GET /_next/static/css/css-app_globals_css-node_modules_next_font_google_target_css-node_modules_next_font_google_ta-a7ec92.css?v=1778840259618 404 in 26ms
+ GET /_next/static/chunks/main-app.js?v=1778840259618 404 in 32ms
+ GET /_next/static/chunks/app/page.js 404 in 33ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 35ms
+ GET / 200 in 90ms
+ GET /_next/static/chunks/app/error.js 404 in 21ms
+ GET /_next/static/chunks/app/global-error.js 404 in 19ms
+ GET / 200 in 58ms
+ GET /_next/static/css/css-app_globals_css-node_modules_next_font_google_target_css-node_modules_next_font_google_ta-a7ec92.css?v=1778840261138 404 in 42ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 60ms
+ GET /_next/static/chunks/app/page.js 404 in 59ms
+ GET /_next/static/chunks/main-app.js?v=1778840261138 404 in 62ms
+ GET /_next/static/chunks/app/error.js 404 in 57ms
+ GET /_next/static/chunks/app/global-error.js 404 in 21ms
+ GET / 200 in 62ms
+ GET /_next/static/css/css-app_globals_css-node_modules_next_font_google_target_css-node_modules_next_font_google_ta-a7ec92.css?v=1778840294641 404 in 42ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 56ms
+ GET /_next/static/chunks/main-app.js?v=1778840294641 404 in 57ms
+ GET /_next/static/chunks/app/page.js 404 in 57ms
+ GET /_next/static/chunks/app/error.js 404 in 56ms
+ GET /_next/static/chunks/app/global-error.js 404 in 28ms
+ GET / 200 in 74ms
+ GET /_next/static/css/css-app_globals_css-node_modules_next_font_google_target_css-node_modules_next_font_google_ta-a7ec92.css?v=1778840297720 404 in 48ms
+ GET /_next/static/chunks/app/page.js 404 in 51ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 52ms
+ GET /_next/static/chunks/main-app.js?v=1778840297720 404 in 52ms
+ GET /_next/static/chunks/app/error.js 404 in 31ms
+ GET /_next/static/chunks/app/global-error.js 404 in 17ms
+ GET / 200 in 110ms
+ GET /_next/static/css/css-app_globals_css-node_modules_next_font_google_target_css-node_modules_next_font_google_ta-a7ec92.css?v=1778840305067 404 in 118ms
+ GET /_next/static/chunks/main-app.js?v=1778840305067 404 in 113ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 99ms
+ GET /_next/static/chunks/app/error.js 404 in 84ms
+ GET /_next/static/chunks/app/page.js 404 in 88ms
+ GET /_next/static/chunks/app/global-error.js 404 in 23ms
+ GET / 200 in 47ms
+ ✓ Compiled in 4.3s (933 modules)
+ ○ Compiling /scripture/[id]/chapter/[chapterId] ...

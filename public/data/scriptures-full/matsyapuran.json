@@ -1,0 +1,14 @@
+{
+  "id": "matsyapuran",
+  "title": "Matsya Purana",
+  "titleSanskrit": "मत्स्यपुराण",
+  "category": "purana",
+  "source": {
+    "repo": "https://sanskritdocuments.org/doc_purana/",
+    "license": "Full itx not available on sanskritdocuments. Curated highlights are hand-authored.",
+    "fetchedAt": "2026-06-01T11:10:50.485Z"
+  },
+  "totalVerses": 0,
+  "totalChapters": 0,
+  "chapters": []
+}

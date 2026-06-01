@@ -1,0 +1,555 @@
+{
+  "id": "markandeypuran",
+  "title": "Markandeya Purana",
+  "titleSanskrit": "मार्कण्डेयपुराणम्",
+  "category": "purana",
+  "source": {
+    "repo": "https://sanskritdocuments.org/doc_purana/mArkaNDeyapurANam.itx",
+    "license": "Sanskrit mūla — public domain. Digitized by sanskritdocuments.org.",
+    "fetchedAt": "2026-06-01T11:10:43.550Z"
+  },
+  "totalVerses": 107,
+  "totalChapters": 1,
+  "chapters": [
+    {
+      "number": 1,
+      "verses": [
+        {
+          "number": "4.99",
+          "sanskrit": "भूतेषु भो द्विजाः । दक्षः स्वयम्भुवा । विवर्धयिषवः प्रजाः । वैण्यं पितामहः । पृथोर्वैण्यस्य विस्तरम् । पृथक्",
+          "transliteration": "bhUteShu bho dvijAH | dakShaH svayambhuvA | vivardhayiShavaH prajAH | vaiNyaM pitAmahaH | pR^ithorvaiNyasya vistaram | pR^ithak"
+        },
+        {
+          "number": "39.30",
+          "sanskrit": "वक्ष्याम्यनेनसः । देवानामस्मि भोः सुराः । नार्चयसे प्रभुम्",
+          "transliteration": "vakShyAmyanenasaH | devAnAmasmi bhoH surAH | nArchayase prabhum"
+        },
+        {
+          "number": "63.19",
+          "sanskrit": "निमन्त्रितः । यज्ञविध्वंसनं प्रति । पापप्रणाशिनीम् । ज्ञानं वृथा क्रिया । मामुपस्थितम् । हृषीकेशाय विष्णवे नमः । भो द्विजाः",
+          "transliteration": "nimantritaH | yaj~navidhva.nsanaM prati | pApapraNAshinIm | j~nAna.n vR^ithA kriyA | mAmupasthitam | hR^iShIkeshAya viShNave namaH | bho dvijAH"
+        },
+        {
+          "number": "65.49",
+          "sanskrit": "जय जय भूतचरण जय जयादिदेव बहुकारण जय जय वासुदेव जय जयासुरसंहरण जय जय दिव्यमीन जय जय त्रिदशवर जय जय जलधिशयन । जय जय कैटभारे जय जय वेदवर जय जय कूर्मरूप जय जय यज्ञवर जय जय कमलनाभ जय जय शैलचर । विश्वमूर्ते जय जय चक्रधर जय जय भूतनाथ जय जय धरणीधर जय जय शेषशायिञ् जय जय पीतवासो जय जय सोमकान्त । धर्मवास जय जय गुणनिधान जय जय श्रीनिवास जय जय गरुडगमन जय जय सुखनिवास जय जय धर्मकेतो जय जय महीनिवास । मखनिवास जय जय वेदवेद्य जय शान्तिकर जय जय योगिचिन्त्य जय जय पुष्टिकर जय जय ज्ञानमूर्ते जय जय कमलाकर । जय जय सत्त्वनिलय जय जय गुणसमृद्ध जय जय यज्ञकर जय जय गुणविहीन जय जय मोक्षकर जय जय भूशरण्य । लक्ष्मीयुत जय जय पङ्कजाक्ष जय जय सृष्टिकर जय जय योगयुत जय जयातसीकुसुमश्यामदेह जय जय समुद्राविष्टदेह जय जय लक्ष्मीपङ्कजषट्चरण । परमशान्त जय जय परमसार जय जय चक्रधर जय जय भोगियुत जय जय नीलाम्बर जय जय शान्तिकर जय जय मोक्षकर जय जय कलुषहर",
+          "transliteration": "jaya jaya bhUtacharaNa jaya jayAdideva bahukAraNa jaya jaya vAsudeva jaya jayAsurasa.nharaNa jaya jaya divyamIna jaya jaya tridashavara jaya jaya jaladhishayana | jaya jaya kaiTabhAre jaya jaya vedavara jaya jaya kUrmarUpa jaya jaya yaj~navara jaya jaya kamalanAbha jaya jaya shailachara | vishvamUrte jaya jaya chakradhara jaya jaya bhUtanAtha jaya jaya dharaNIdhara jaya jaya sheShashAyi~n jaya jaya pItavAso jaya jaya somakAnta | dharmavAsa jaya jaya guNanidhAna jaya jaya shrInivAsa jaya jaya garuDagamana jaya jaya sukhanivAsa jaya jaya dharmaketo jaya jaya mahInivAsa | makhanivAsa jaya jaya vedavedya jaya shAntikara jaya jaya yogichintya jaya jaya puShTikara jaya jaya j~nAnamUrte jaya jaya kamalAkara | jaya jaya sattvanilaya jaya jaya guNasamR^iddha jaya jaya yaj~nakara jaya jaya guNavihIna jaya jaya mokShakara jaya jaya bhUsharaNya | lakShmIyuta jaya jaya pa~NkajAkSha jaya jaya sR^iShTikara jaya jaya yogayuta jaya jayAtasIkusumashyAmadeha jaya jaya samudrAviShTadeha jaya jaya lakShmIpa~NkajaShaTcharaNa | paramashAnta jaya jaya paramasAra jaya jaya chakradhara jaya jaya bhogiyuta jaya jaya nIlAmbara jaya jaya shAntikara jaya jaya mokShakara jaya jaya kaluShahara"
+        },
+        {
+          "number": "71.10",
+          "sanskrit": "वालखिल्याश्च कृष्णं रामेण संगतम् । <७१.१०/४>ऽस्मदार्तिहन्ता वद कस्त्वदन्यः",
+          "transliteration": "vAlakhilyAshcha kR^iShNa.n rAmeNa sa.ngatam | <71\\.10/4>.asmadArtihantA vada kastvadanyaH"
+        },
+        {
+          "number": "73.46",
+          "sanskrit": "ह्यवध्योऽसौ सुरासुरैः । दैत्यराट्",
+          "transliteration": "hyavadhyo.asau surAsuraiH | daityarAT"
+        },
+        {
+          "number": "73.53",
+          "sanskrit": "प्रीतोऽस्मि दैत्यराट्",
+          "transliteration": "prIto.asmi daityarAT"
+        },
+        {
+          "number": "74.70",
+          "sanskrit": "ब्राह्मणैर्वृतः",
+          "transliteration": "brAhmaNairvR^itaH"
+        },
+        {
+          "number": "78.61",
+          "sanskrit": "शंकरम्",
+          "transliteration": "sha.nkaram"
+        },
+        {
+          "number": "80.71",
+          "sanskrit": "वाक्यमब्रवीत्",
+          "transliteration": "vAkyamabravIt"
+        },
+        {
+          "number": "80.72",
+          "sanskrit": "मे पतिः",
+          "transliteration": "me patiH"
+        },
+        {
+          "number": "85.16",
+          "sanskrit": "सुव्रत",
+          "transliteration": "suvrata"
+        },
+        {
+          "number": "85.17",
+          "sanskrit": "यथाक्रमम्",
+          "transliteration": "yathAkramam"
+        },
+        {
+          "number": "85.19",
+          "sanskrit": "द्विजोत्तमः",
+          "transliteration": "dvijottamaH"
+        },
+        {
+          "number": "86.22",
+          "sanskrit": "शङ्कामुपाविशत्",
+          "transliteration": "sha~NkAmupAvishat"
+        },
+        {
+          "number": "90.10",
+          "sanskrit": "शम्भुरथाब्रवीत्",
+          "transliteration": "shambhurathAbravIt"
+        },
+        {
+          "number": "92.25",
+          "sanskrit": "प्रभविष्णवः । मुनिम्",
+          "transliteration": "prabhaviShNavaH | munim"
+        },
+        {
+          "number": "92.26",
+          "sanskrit": "कार्यविनिर्णयम्",
+          "transliteration": "kAryavinirNayam"
+        },
+        {
+          "number": "93.13",
+          "sanskrit": "क्वापि यथा तथा । ऋषिकल्पितम्",
+          "transliteration": "kvApi yathA tathA | R^iShikalpitam"
+        },
+        {
+          "number": "94.12",
+          "sanskrit": "द्विजोत्तमम्",
+          "transliteration": "dvijottamam"
+        },
+        {
+          "number": "95.23",
+          "sanskrit": "सुरदुर्लभम्",
+          "transliteration": "suradurlabham"
+        },
+        {
+          "number": "97.15",
+          "sanskrit": "वाक्यमब्रवीत्",
+          "transliteration": "vAkyamabravIt"
+        },
+        {
+          "number": "104.23",
+          "sanskrit": "पुत्रेण भविष्यति । क्वापि यथातथम् । पुरा",
+          "transliteration": "putreNa bhaviShyati | kvApi yathAtatham | purA"
+        },
+        {
+          "number": "104.24",
+          "sanskrit": "क्रमागतम्",
+          "transliteration": "kramAgatam"
+        },
+        {
+          "number": "104.25",
+          "sanskrit": "पशुर्यक्ष्ये ततो ह्यहम्",
+          "transliteration": "pashuryakShye tato hyaham"
+        },
+        {
+          "number": "104.36",
+          "sanskrit": "वरुणाय हि",
+          "transliteration": "varuNAya hi"
+        },
+        {
+          "number": "104.46",
+          "sanskrit": "इव लक्ष्यसे",
+          "transliteration": "iva lakShyase"
+        },
+        {
+          "number": "104.49",
+          "sanskrit": "तदा",
+          "transliteration": "tadA"
+        },
+        {
+          "number": "104.50",
+          "sanskrit": "वर",
+          "transliteration": "vara"
+        },
+        {
+          "number": "107.17",
+          "sanskrit": "पाल्या इति श्रुतिः । च विशेषतः । विस्मितः",
+          "transliteration": "pAlyA iti shrutiH | cha visheShataH | vismitaH"
+        },
+        {
+          "number": "107.25",
+          "sanskrit": "भविष्यति",
+          "transliteration": "bhaviShyati"
+        },
+        {
+          "number": "107.35",
+          "sanskrit": "वाक्यमब्रवीत्",
+          "transliteration": "vAkyamabravIt"
+        },
+        {
+          "number": "108.63",
+          "sanskrit": "प्रिया भव",
+          "transliteration": "priyA bhava"
+        },
+        {
+          "number": "108.66",
+          "sanskrit": "स्थितम्",
+          "transliteration": "sthitam"
+        },
+        {
+          "number": "108.112",
+          "sanskrit": "वा मातरं शिवाम् । नृपः",
+          "transliteration": "vA mAtara.n shivAm | nR^ipaH"
+        },
+        {
+          "number": "110.108",
+          "sanskrit": "जीवितुं क्षमः । चक्रेश्वरं हरम् । यथेप्सितम्",
+          "transliteration": "jIvitu.n kShamaH | chakreshvara.n haram | yathepsitam"
+        },
+        {
+          "number": "110.140",
+          "sanskrit": "वाक्यमथाब्रवीत्",
+          "transliteration": "vAkyamathAbravIt"
+        },
+        {
+          "number": "110.192",
+          "sanskrit": "गङ्गां च सेवय । महानलम्",
+          "transliteration": "ga~NgA.n cha sevaya | mahAnalam"
+        },
+        {
+          "number": "110.199",
+          "sanskrit": "सुरसत्तमाः",
+          "transliteration": "surasattamAH"
+        },
+        {
+          "number": "110.212",
+          "sanskrit": "गवां तथा",
+          "transliteration": "gavA.n tathA"
+        },
+        {
+          "number": "111.14",
+          "sanskrit": "विचक्षणः",
+          "transliteration": "vichakShaNaH"
+        },
+        {
+          "number": "111.31",
+          "sanskrit": "प्रत्यभाषत",
+          "transliteration": "pratyabhAShata"
+        },
+        {
+          "number": "111.32",
+          "sanskrit": "तत्",
+          "transliteration": "tat"
+        },
+        {
+          "number": "111.63",
+          "sanskrit": "न्यवेदयत् । याति वयो मम",
+          "transliteration": "nyavedayat | yAti vayo mama"
+        },
+        {
+          "number": "111.66",
+          "sanskrit": "पतिः",
+          "transliteration": "patiH"
+        },
+        {
+          "number": "111.75",
+          "sanskrit": "इति",
+          "transliteration": "iti"
+        },
+        {
+          "number": "112.8",
+          "sanskrit": "सुरसत्तमाः",
+          "transliteration": "surasattamAH"
+        },
+        {
+          "number": "114.20",
+          "sanskrit": "असुरारिणः",
+          "transliteration": "asurAriNaH"
+        },
+        {
+          "number": "114.21",
+          "sanskrit": "सुरान्",
+          "transliteration": "surAn"
+        },
+        {
+          "number": "116.17",
+          "sanskrit": "ते",
+          "transliteration": "te"
+        },
+        {
+          "number": "117.3",
+          "sanskrit": "क्व यामि च",
+          "transliteration": "kva yAmi cha"
+        },
+        {
+          "number": "117.4",
+          "sanskrit": "वचनमब्रवीत्",
+          "transliteration": "vachanamabravIt"
+        },
+        {
+          "number": "122.64",
+          "sanskrit": "स्यात् सुरसत्तम",
+          "transliteration": "syAt surasattama"
+        },
+        {
+          "number": "122.84",
+          "sanskrit": "चातिदुर्लभम्",
+          "transliteration": "chAtidurlabham"
+        },
+        {
+          "number": "123.15",
+          "sanskrit": "चेतरे",
+          "transliteration": "chetare"
+        },
+        {
+          "number": "123.31",
+          "sanskrit": "अमी",
+          "transliteration": "amI"
+        },
+        {
+          "number": "123.55",
+          "sanskrit": "चापि प्रवर्तते । वचः",
+          "transliteration": "chApi pravartate | vachaH"
+        },
+        {
+          "number": "123.92",
+          "sanskrit": "क्वापि शिक्षिताः",
+          "transliteration": "kvApi shikShitAH"
+        },
+        {
+          "number": "123.93",
+          "sanskrit": "अवदन् नृपः",
+          "transliteration": "avadan nR^ipaH"
+        },
+        {
+          "number": "123.131",
+          "sanskrit": "वाक्यमब्रवीत्",
+          "transliteration": "vAkyamabravIt"
+        },
+        {
+          "number": "123.155",
+          "sanskrit": "नृपतिसत्तम",
+          "transliteration": "nR^ipatisattama"
+        },
+        {
+          "number": "123.156",
+          "sanskrit": "तथा",
+          "transliteration": "tathA"
+        },
+        {
+          "number": "123.157",
+          "sanskrit": "विद्यते",
+          "transliteration": "vidyate"
+        },
+        {
+          "number": "123.185",
+          "sanskrit": "आशीर्भिरभिनन्द्य च",
+          "transliteration": "AshIrbhirabhinandya cha"
+        },
+        {
+          "number": "124.79",
+          "sanskrit": "<१२४.६/४>ऽदितेर्विलोक्याथ परां समृद्धिम् । त्वं जिघांससि । रुषा दितिः",
+          "transliteration": "<124\\.6/4>.aditervilokyAtha parA.n samR^iddhim | tva.n jighA.nsasi | ruShA ditiH"
+        },
+        {
+          "number": "124.82",
+          "sanskrit": "बहिः",
+          "transliteration": "bahiH"
+        },
+        {
+          "number": "124.86",
+          "sanskrit": "तत्कर्ताहमसंशयम्",
+          "transliteration": "tatkartAhamasa.nshayam"
+        },
+        {
+          "number": "124.108",
+          "sanskrit": "यत्नतः",
+          "transliteration": "yatnataH"
+        },
+        {
+          "number": "124.110",
+          "sanskrit": "वृषभध्वजः",
+          "transliteration": "vR^iShabhadhvajaH"
+        },
+        {
+          "number": "125.26",
+          "sanskrit": "प्रियम्",
+          "transliteration": "priyam"
+        },
+        {
+          "number": "125.29",
+          "sanskrit": "पुनः",
+          "transliteration": "punaH"
+        },
+        {
+          "number": "125.30",
+          "sanskrit": "शुभानने",
+          "transliteration": "shubhAnane"
+        },
+        {
+          "number": "125.32",
+          "sanskrit": "विज्वराः",
+          "transliteration": "vijvarAH"
+        },
+        {
+          "number": "126.13",
+          "sanskrit": "भवान् प्रभुः",
+          "transliteration": "bhavAn prabhuH"
+        },
+        {
+          "number": "126.18",
+          "sanskrit": "त्वयि स्थितम्",
+          "transliteration": "tvayi sthitam"
+        },
+        {
+          "number": "127.21",
+          "sanskrit": "यत्नतः",
+          "transliteration": "yatnataH"
+        },
+        {
+          "number": "127.22",
+          "sanskrit": "भज",
+          "transliteration": "bhaja"
+        },
+        {
+          "number": "128.19",
+          "sanskrit": "धुताशनम्",
+          "transliteration": "dhutAshanam"
+        },
+        {
+          "number": "135.14",
+          "sanskrit": "अस्ति पातकम्",
+          "transliteration": "asti pAtakam"
+        },
+        {
+          "number": "140.39",
+          "sanskrit": "त्वष्टः पदं त्वया । मुनिः",
+          "transliteration": "tvaShTaH pada.n tvayA | muniH"
+        },
+        {
+          "number": "141.7",
+          "sanskrit": "भविष्यति",
+          "transliteration": "bhaviShyati"
+        },
+        {
+          "number": "141.16",
+          "sanskrit": "पृथुलोचनम्",
+          "transliteration": "pR^ithulochanam"
+        },
+        {
+          "number": "141.19",
+          "sanskrit": "महौषधीः",
+          "transliteration": "mahauShadhIH"
+        },
+        {
+          "number": "158.16",
+          "sanskrit": "गाधिपुत्रं महाद्युतिम् । शनैः शनैः",
+          "transliteration": "gAdhiputraM mahAdyutim | shanaiH shanaiH"
+        },
+        {
+          "number": "159.15",
+          "sanskrit": "यान्ति च",
+          "transliteration": "yAnti cha"
+        },
+        {
+          "number": "159.40",
+          "sanskrit": "त्रैलोक्यस्योपकारिणः",
+          "transliteration": "trailokyasyopakAriNaH"
+        },
+        {
+          "number": "161.12",
+          "sanskrit": "चरस्य च",
+          "transliteration": "charasya cha"
+        },
+        {
+          "number": "161.41",
+          "sanskrit": "परम्",
+          "transliteration": "param"
+        },
+        {
+          "number": "163.49",
+          "sanskrit": "भविष्यति",
+          "transliteration": "bhaviShyati"
+        },
+        {
+          "number": "164.21",
+          "sanskrit": "चिच्चिकः",
+          "transliteration": "chichchikaH"
+        },
+        {
+          "number": "165.18",
+          "sanskrit": "पवमान शृणुष्व तत् । भास्करः",
+          "transliteration": "pavamAna shR^iNuShva tat | bhAskaraH"
+        },
+        {
+          "number": "167.24",
+          "sanskrit": "वदस्व मे",
+          "transliteration": "vadasva me"
+        },
+        {
+          "number": "169.34",
+          "sanskrit": "१६७.२६॥ पातय मूर्धनि",
+          "transliteration": "167\\.26|| pAtaya mUrdhani"
+        },
+        {
+          "number": "170.34",
+          "sanskrit": "ऊचिवान्",
+          "transliteration": "UchivAn"
+        },
+        {
+          "number": "171.11",
+          "sanskrit": "त्वया विभो",
+          "transliteration": "tvayA vibho"
+        },
+        {
+          "number": "175.36",
+          "sanskrit": "गजवक्त्रोऽभ्यभाषत",
+          "transliteration": "gajavaktro.abhyabhAShata"
+        },
+        {
+          "number": "175.37",
+          "sanskrit": "मातस्तत्कर्ताहमसंशयम्",
+          "transliteration": "mAtastatkartAhamasa.nshayam"
+        },
+        {
+          "number": "175.50",
+          "sanskrit": "याचस्व दुष्करम्",
+          "transliteration": "yAchasva duShkaram"
+        },
+        {
+          "number": "175.60",
+          "sanskrit": "पुनर्हर्षाच्छिवोऽब्रवीत्",
+          "transliteration": "punarharShAchChivo.abravIt"
+        },
+        {
+          "number": "178.45",
+          "sanskrit": "पृथक् पृथक्",
+          "transliteration": "pR^ithak pR^ithak"
+        },
+        {
+          "number": "178.141",
+          "sanskrit": "परायणः",
+          "transliteration": "parAyaNaH"
+        },
+        {
+          "number": "184.36",
+          "sanskrit": "त्वमतिचञ्चलचेष्टित",
+          "transliteration": "tvamaticha~nchalacheShTita"
+        },
+        {
+          "number": "200.14",
+          "sanskrit": "वर्तसेऽन्यथा",
+          "transliteration": "vartase.anyathA"
+        },
+        {
+          "number": "228.48",
+          "sanskrit": "पृच्छति द्विजान् । शपथाः कृताः",
+          "transliteration": "pR^ichChati dvijAn | shapathAH kR^itAH"
+        },
+        {
+          "number": "228.122",
+          "sanskrit": "यच्च मया कृतम् । दृढम्",
+          "transliteration": "yachcha mayA kR^itam | dR^iDham"
+        },
+        {
+          "number": "228.125",
+          "sanskrit": "शुचिस्मिते",
+          "transliteration": "shuchismite"
+        },
+        {
+          "number": "236.12",
+          "sanskrit": "<२३४.७४/२>ऽव्यक्तस्वरूपः प्रकटस्वरूपः । सदा युङ्क्ते भूतात्मा हृदयाश्रितः",
+          "transliteration": "<234\\.74/2>.avyaktasvarUpaH prakaTasvarUpaH | sadA yu~Nkte bhUtAtmA hR^idayAshritaH"
+        }
+      ]
+    }
+  ]
+}

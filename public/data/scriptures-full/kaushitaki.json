@@ -1,0 +1,14 @@
+{
+  "id": "kaushitaki",
+  "title": "Kaushitaki Upanishad",
+  "titleSanskrit": "कौषीतकि उपनिषद्",
+  "category": "upanishad",
+  "source": {
+    "repo": "https://sanskritdocuments.org/doc_upanishhat/",
+    "license": "Full itx not available. Curated highlights are hand-authored.",
+    "fetchedAt": "2026-06-01T11:10:53.452Z"
+  },
+  "totalVerses": 0,
+  "totalChapters": 0,
+  "chapters": []
+}

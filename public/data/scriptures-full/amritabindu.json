@@ -1,0 +1,14 @@
+{
+  "id": "amritabindu",
+  "title": "Amrita-Bindu Upanishad",
+  "titleSanskrit": "अमृतबिन्दु उपनिषद्",
+  "category": "upanishad",
+  "source": {
+    "repo": "https://sanskritdocuments.org/doc_upanishhat/",
+    "license": "Full itx not available. Curated highlights are hand-authored.",
+    "fetchedAt": "2026-06-01T11:10:55.682Z"
+  },
+  "totalVerses": 0,
+  "totalChapters": 0,
+  "chapters": []
+}

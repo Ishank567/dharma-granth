@@ -1,22 +1,57 @@
 'use client';
 
-import { useTheme } from 'next-themes';
-import { Sun, Moon } from 'lucide-react';
-import { useHydrated } from '@/app/lib/useHydrated';
+import { motion, AnimatePresence } from 'framer-motion';
+import { Sun, Sunset, Moon } from 'lucide-react';
+import { useTheme, type Theme } from './ThemeProvider';
 
-export default function ThemeToggle() {
-  const { theme, setTheme } = useTheme();
-  const mounted = useHydrated();
+const ICONS: Record<Theme, React.ReactNode> = {
+  day: <Sun className="w-4 h-4" />,
+  sunset: <Sunset className="w-4 h-4" />,
+  night: <Moon className="w-4 h-4" />,
+};
 
-  if (!mounted) return <div className="h-9 w-9" />;
+const LABELS: Record<Theme, string> = {
+  day: 'Day',
+  sunset: 'Sunset',
+  night: 'Night',
+};
+
+const NEXT_LABEL: Record<Theme, string> = {
+  day: 'Switch to Sunset',
+  sunset: 'Switch to Night',
+  night: 'Switch to Day',
+};
+
+/**
+ * Compact cycling button for the 3-way theme picker. Each press
+ * advances to the next theme (day → sunset → night → day). The icon
+ * swaps with a brief rotate-fade so the change is felt as well as
+ * seen.
+ */
+export function ThemeToggle({ className = '' }: { className?: string }) {
+  const { theme, cycleTheme } = useTheme();
 
   return (
     <button
-      onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-      aria-label={theme === 'dark' ? 'उजला रूप चुनें' : 'गहरा रूप चुनें'}
-      className="rounded-lg p-2 text-muted hover:bg-card-hover hover:text-foreground transition-colors"
+      type="button"
+      onClick={cycleTheme}
+      aria-label={NEXT_LABEL[theme]}
+      title={`Theme: ${LABELS[theme]} — click to cycle`}
+      className={`relative inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-dharma-border bg-white/80 backdrop-blur-sm text-dharma-text text-xs font-semibold hover:bg-saffron-50 hover:border-saffron-300 transition-colors shadow-sm ${className}`}
     >
-      {theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
+      <AnimatePresence mode="wait">
+        <motion.span
+          key={theme}
+          initial={{ rotate: -90, opacity: 0, scale: 0.7 }}
+          animate={{ rotate: 0, opacity: 1, scale: 1 }}
+          exit={{ rotate: 90, opacity: 0, scale: 0.7 }}
+          transition={{ duration: 0.25, ease: 'easeOut' }}
+          className="inline-flex"
+        >
+          {ICONS[theme]}
+        </motion.span>
+      </AnimatePresence>
+      <span className="hidden sm:inline">{LABELS[theme]}</span>
     </button>
   );
 }

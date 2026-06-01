@@ -1,0 +1,20 @@
+{
+  "id": "taittiriya",
+  "title": "Taittiriya Upanishad",
+  "titleSanskrit": "तैत्तिरीयोपनिषद्",
+  "category": "upanishad",
+  "source": {
+    "repo": "https://sanskritdocuments.org/doc_upanishhat/taitaccent.itx",
+    "license": "Sanskrit mūla — public domain. Digitized by sanskritdocuments.org.",
+    "fetchedAt": "2026-06-01T11:10:41.071Z"
+  },
+  "totalVerses": 0,
+  "totalChapters": 1,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Taittiriya Upanishad",
+      "verses": []
+    }
+  ]
+}

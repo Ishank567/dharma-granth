@@ -1,0 +1,14 @@
+{
+  "id": "kalkipuran",
+  "title": "Kalki Purana",
+  "titleSanskrit": "कल्किपुराणम्",
+  "category": "purana",
+  "source": {
+    "repo": "https://sanskritdocuments.org/doc_purana/",
+    "license": "Full itx not available on sanskritdocuments. Curated highlights are hand-authored.",
+    "fetchedAt": "2026-06-01T11:10:58.713Z"
+  },
+  "totalVerses": 0,
+  "totalChapters": 0,
+  "chapters": []
+}

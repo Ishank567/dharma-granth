@@ -1,0 +1,66 @@
+
+> dharma-granth@1.0.0 dev
+> next dev --port 3001
+
+  ▲ Next.js 14.2.0
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1951ms
+ ○ Compiling /scripture/[id] ...
+ ✓ Compiled /scripture/[id] in 3s (577 modules)
+ ✓ Compiled in 160ms (273 modules)
+ GET /scripture/bhagavadgita 200 in 3481ms
+ GET /scripture/ishavasya 200 in 30ms
+ GET /scripture/kena 200 in 26ms
+ GET /scripture/katha 200 in 27ms
+ GET /scripture/mundaka 200 in 30ms
+ GET /scripture/prashna 200 in 54ms
+ GET /scripture/taittiriya 200 in 27ms
+ GET /scripture/chandogya 200 in 21ms
+ GET /scripture/brihadaranyaka 200 in 21ms
+ GET /scripture/shvetashvatara 200 in 23ms
+ GET /scripture/aitareya 200 in 18ms
+ GET /scripture/rigveda 200 in 18ms
+ GET /scripture/yajurveda 200 in 51ms
+ GET /scripture/samaveda 200 in 18ms
+ GET /scripture/atharvaveda 200 in 14ms
+ GET /scripture/ramayana 200 in 24ms
+ GET /scripture/mahabharata 200 in 32ms
+ GET /scripture/ramcharitmanas 200 in 28ms
+ GET /scripture/vishnupurana 200 in 41ms
+ GET /scripture/shivpurana 200 in 40ms
+ GET /scripture/bhagavatapurana 200 in 19ms
+ GET /scripture/devibhagavat 200 in 38ms
+ GET /scripture/garudpurana 200 in 44ms
+ GET /scripture/agnipuran 200 in 32ms
+ GET /scripture/padmapuran 200 in 30ms
+ GET /scripture/brahmandpuran 200 in 40ms
+ GET /scripture/markandeypuran 200 in 28ms
+ GET /scripture/manusmriti 200 in 45ms
+ GET /scripture/vivekchudamani 200 in 36ms
+ GET /scripture/brahmasutra 200 in 20ms
+ GET /scripture/durgasaptashati 200 in 34ms
+ GET /scripture/yogavasishtha 200 in 39ms
+ ✓ Compiled /scripture/[id]/chapter/[chapterId] in 293ms (558 modules)
+ GET /scripture/bhagavadgita/chapter/1 200 in 625ms
+ GET /scripture/bhagavadgita/chapter/2 200 in 37ms
+ GET /scripture/bhagavadgita/chapter/3 200 in 29ms
+ GET /scripture/bhagavadgita/chapter/4 200 in 33ms
+ GET /scripture/bhagavadgita/chapter/5 200 in 28ms
+ GET /scripture/bhagavadgita/chapter/6 200 in 27ms
+ GET /scripture/bhagavadgita/chapter/7 200 in 23ms
+ GET /scripture/bhagavadgita/chapter/8 200 in 28ms
+ GET /scripture/bhagavadgita/chapter/9 200 in 39ms
+ GET /scripture/bhagavadgita/chapter/10 200 in 46ms
+ GET /scripture/bhagavadgita/chapter/11 200 in 41ms
+ GET /scripture/bhagavadgita/chapter/12 200 in 45ms
+ GET /scripture/bhagavadgita/chapter/13 200 in 35ms
+ GET /scripture/bhagavadgita/chapter/14 200 in 45ms
+ GET /scripture/bhagavadgita/chapter/15 200 in 37ms
+ GET /scripture/bhagavadgita/chapter/16 200 in 40ms
+ GET /scripture/bhagavadgita/chapter/17 200 in 27ms
+ GET /scripture/bhagavadgita/chapter/18 200 in 39ms
+ GET /scripture/ishavasya/chapter/1 200 in 22ms
+ GET /scripture/ishavasya/chapter/1 200 in 66ms

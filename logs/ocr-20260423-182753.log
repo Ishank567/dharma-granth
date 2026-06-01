@@ -1,2951 +1,0 @@
-🔍 OCR Re-extraction Script (Multi-threaded + Cloud Vision REST)
-================================================================
-
-🔗 Testing Vision API connection...
-✅ Vision API connected successfully
-
-🧵 Starting 4 render worker threads...
-⚙️  DPI: 150, Render threads: 4, Vision concurrency: 40
-
-📚 31 scanned PDFs found (48,776 total pages)
-
-(node:12044) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/ishan/Music/dharma/dharma-granth/scripts/ocr-render-worker.ts is not specified and it doesn't parse as CommonJS.
-Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
-To eliminate this warning, add "type": "module" to C:\Users\ishan\Music\dharma\dharma-granth\package.json.
-(Use `node --trace-warnings ...` to show where the warning was created)
-(node:12044) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/ishan/Music/dharma/dharma-granth/scripts/ocr-render-worker.ts is not specified and it doesn't parse as CommonJS.
-Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
-To eliminate this warning, add "type": "module" to C:\Users\ishan\Music\dharma\dharma-granth\package.json.
-(Use `node --trace-warnings ...` to show where the warning was created)
-(node:12044) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/ishan/Music/dharma/dharma-granth/scripts/ocr-render-worker.ts is not specified and it doesn't parse as CommonJS.
-Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
-To eliminate this warning, add "type": "module" to C:\Users\ishan\Music\dharma\dharma-granth\package.json.
-(Use `node --trace-warnings ...` to show where the warning was created)
-(node:12044) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/ishan/Music/dharma/dharma-granth/scripts/ocr-render-worker.ts is not specified and it doesn't parse as CommonJS.
-Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
-To eliminate this warning, add "type": "module" to C:\Users\ishan\Music\dharma\dharma-granth\package.json.
-(Use `node --trace-warnings ...` to show where the warning was created)
-
-📖 Processing: Garuda Purana
-   PDF: Garuda Puran - Gita Press Gorakhpur.pdf (638 pages)
-   📄 10/638 pages (1.6%) — 13s — 0.8 pages/s      📄 20/638 pages (3.1%) — 30s — 0.7 pages/s      📄 30/638 pages (4.7%) — 38s — 0.8 pages/s      📄 40/638 pages (6.3%) — 43s — 0.9 pages/s      📄 50/638 pages (7.8%) — 48s — 1.0 pages/s      📄 60/638 pages (9.4%) — 56s — 1.1 pages/s      📄 70/638 pages (11.0%) — 69s — 1.0 pages/s      📄 80/638 pages (12.5%) — 74s — 1.1 pages/s      📄 90/638 pages (14.1%) — 80s — 1.1 pages/s   
-   ⚠️  Page 80 OCR failed: fetch failed
-   📄 100/638 pages (15.7%) — 87s — 1.1 pages/s      📄 110/638 pages (17.2%) — 91s — 1.2 pages/s      📄 120/638 pages (18.8%) — 97s — 1.2 pages/s      📄 130/638 pages (20.4%) — 102s — 1.3 pages/s      📄 140/638 pages (21.9%) — 106s — 1.3 pages/s      📄 150/638 pages (23.5%) — 112s — 1.3 pages/s      📄 160/638 pages (25.1%) — 118s — 1.4 pages/s      📄 170/638 pages (26.6%) — 124s — 1.4 pages/s      📄 180/638 pages (28.2%) — 130s — 1.4 pages/s      📄 190/638 pages (29.8%) — 134s — 1.4 pages/s      📄 200/638 pages (31.3%) — 139s — 1.4 pages/s      📄 210/638 pages (32.9%) — 144s — 1.5 pages/s      📄 220/638 pages (34.5%) — 149s — 1.5 pages/s      📄 230/638 pages (36.1%) — 155s — 1.5 pages/s      📄 240/638 pages (37.6%) — 159s — 1.5 pages/s      📄 250/638 pages (39.2%) — 166s — 1.5 pages/s      📄 260/638 pages (40.8%) — 174s — 1.5 pages/s      📄 270/638 pages (42.3%) — 179s — 1.5 pages/s      📄 280/638 pages (43.9%) — 185s — 1.5 pages/s      📄 290/638 pages (45.5%) — 189s — 1.5 pages/s      📄 300/638 pages (47.0%) — 198s — 1.5 pages/s      📄 310/638 pages (48.6%) — 203s — 1.5 pages/s      📄 320/638 pages (50.2%) — 207s — 1.5 pages/s      📄 330/638 pages (51.7%) — 211s — 1.6 pages/s      📄 340/638 pages (53.3%) — 216s — 1.6 pages/s      📄 350/638 pages (54.9%) — 222s — 1.6 pages/s      📄 360/638 pages (56.4%) — 226s — 1.6 pages/s      📄 370/638 pages (58.0%) — 230s — 1.6 pages/s      📄 380/638 pages (59.6%) — 235s — 1.6 pages/s      📄 390/638 pages (61.1%) — 241s — 1.6 pages/s      📄 400/638 pages (62.7%) — 245s — 1.6 pages/s      📄 410/638 pages (64.3%) — 250s — 1.6 pages/s      📄 420/638 pages (65.8%) — 256s — 1.6 pages/s      📄 430/638 pages (67.4%) — 260s — 1.7 pages/s      📄 440/638 pages (69.0%) — 264s — 1.7 pages/s      📄 450/638 pages (70.5%) — 273s — 1.6 pages/s      📄 460/638 pages (72.1%) — 277s — 1.7 pages/s      📄 470/638 pages (73.7%) — 284s — 1.7 pages/s      📄 480/638 pages (75.2%) — 289s — 1.7 pages/s      📄 490/638 pages (76.8%) — 296s — 1.7 pages/s      📄 500/638 pages (78.4%) — 303s — 1.6 pages/s      📄 510/638 pages (79.9%) — 309s — 1.7 pages/s      📄 520/638 pages (81.5%) — 325s — 1.6 pages/s      📄 530/638 pages (83.1%) — 332s — 1.6 pages/s   
-   ⚠️  Page 552 OCR failed: fetch failed
-
-   ⚠️  Page 541 OCR failed: fetch failed
-   📄 540/638 pages (84.6%) — 339s — 1.6 pages/s      📄 550/638 pages (86.2%) — 344s — 1.6 pages/s   
-   ⚠️  Page 546 OCR failed: fetch failed
-   📄 560/638 pages (87.8%) — 347s — 1.6 pages/s      📄 570/638 pages (89.3%) — 354s — 1.6 pages/s      📄 580/638 pages (90.9%) — 360s — 1.6 pages/s      📄 590/638 pages (92.5%) — 364s — 1.6 pages/s      📄 600/638 pages (94.0%) — 370s — 1.6 pages/s      📄 610/638 pages (95.6%) — 376s — 1.6 pages/s      📄 620/638 pages (97.2%) — 381s — 1.6 pages/s      📄 630/638 pages (98.7%) — 383s — 1.6 pages/s      📄 638/638 pages (100.0%) — 409s — 1.6 pages/s   
-   ✂️  Split into 544 verses (1742890 chars total)
-   ✅ Done in 409.0s — 544 verses saved
-
-📖 Processing: Upanishad Bhashya Vol. 2
-   PDF: Upanishad Bhashya of Shankaracharya Khand 2 with Gaudapad Karika - Gita Press.pdf (656 pages)
-
-   ⚠️  Page 4 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 2 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 3 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 1 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 6 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 8 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 7 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 5 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 10 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 12 render failed: malloc (392357880 bytes) failed
-   📄 10/656 pages (1.5%) — 3s — 3.7 pages/s   
-   ⚠️  Page 11 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 9 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 16 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 15 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 13 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 14 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 18 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 19 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 17 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 20 render failed: malloc (392357880 bytes) failed
-   📄 20/656 pages (3.0%) — 4s — 5.6 pages/s   
-   ⚠️  Page 23 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 22 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 21 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 24 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 27 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 26 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 28 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 25 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 29 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 30 render failed: malloc (392357880 bytes) failed
-   📄 30/656 pages (4.6%) — 5s — 6.3 pages/s   
-   ⚠️  Page 32 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 31 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 36 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 33 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 35 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 34 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 37 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 40 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 39 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 38 render failed: malloc (392357880 bytes) failed
-   📄 40/656 pages (6.1%) — 6s — 7.2 pages/s   
-   ⚠️  Page 42 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 44 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 41 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 43 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 45 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 48 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 47 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 46 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 51 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 52 render failed: malloc (392357880 bytes) failed
-   📄 50/656 pages (7.6%) — 7s — 7.3 pages/s   
-   ⚠️  Page 49 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 50 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 55 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 56 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 53 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 54 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 58 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 59 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 57 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 60 render failed: malloc (392357880 bytes) failed
-   📄 60/656 pages (9.1%) — 8s — 7.8 pages/s   
-   ⚠️  Page 63 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 64 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 62 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 61 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 65 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 66 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 68 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 67 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 70 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 69 render failed: malloc (392357880 bytes) failed
-   📄 70/656 pages (10.7%) — 9s — 7.9 pages/s   
-   ⚠️  Page 71 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 72 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 75 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 73 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 76 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 74 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 80 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 78 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 77 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 79 render failed: malloc (392357880 bytes) failed
-   📄 80/656 pages (12.2%) — 10s — 8.2 pages/s   
-   ⚠️  Page 82 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 81 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 84 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 83 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 85 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 86 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 87 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 88 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 91 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 89 render failed: malloc (392357880 bytes) failed
-   📄 90/656 pages (13.7%) — 11s — 8.1 pages/s   
-   ⚠️  Page 90 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 92 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 94 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 93 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 96 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 95 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 98 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 99 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 97 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 100 render failed: malloc (392357880 bytes) failed
-   📄 100/656 pages (15.2%) — 12s — 8.2 pages/s   
-   ⚠️  Page 101 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 103 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 102 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 104 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 108 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 106 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 105 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 107 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 109 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 111 render failed: malloc (392357880 bytes) failed
-   📄 110/656 pages (16.8%) — 13s — 8.2 pages/s   
-   ⚠️  Page 110 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 112 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 114 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 115 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 116 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 113 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 118 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 119 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 120 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 117 render failed: malloc (392357880 bytes) failed
-   📄 120/656 pages (18.3%) — 14s — 8.5 pages/s   
-   ⚠️  Page 123 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 122 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 124 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 121 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 126 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 127 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 125 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 128 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 131 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 132 render failed: malloc (392357880 bytes) failed
-   📄 130/656 pages (19.8%) — 15s — 8.5 pages/s   
-   ⚠️  Page 129 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 130 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 136 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 134 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 135 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 133 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 140 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 138 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 139 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 137 render failed: malloc (392357880 bytes) failed
-   📄 140/656 pages (21.3%) — 16s — 8.7 pages/s   
-   ⚠️  Page 144 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 142 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 143 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 141 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 146 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 148 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 145 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 147 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 152 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 150 render failed: malloc (392357880 bytes) failed
-   📄 150/656 pages (22.9%) — 17s — 8.7 pages/s   
-   ⚠️  Page 149 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 151 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 154 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 153 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 155 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 156 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 159 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 157 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 158 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 160 render failed: malloc (392357880 bytes) failed
-   📄 160/656 pages (24.4%) — 18s — 8.9 pages/s   
-   ⚠️  Page 162 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 161 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 163 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 164 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 166 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 165 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 168 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 167 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 170 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 169 render failed: malloc (392357880 bytes) failed
-   📄 170/656 pages (25.9%) — 19s — 8.9 pages/s   
-   ⚠️  Page 171 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 172 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 176 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 175 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 174 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 173 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 178 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 180 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 179 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 177 render failed: malloc (392357880 bytes) failed
-   📄 180/656 pages (27.4%) — 20s — 9.0 pages/s   
-   ⚠️  Page 184 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 181 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 183 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 182 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 187 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 185 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 186 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 188 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 191 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 189 render failed: malloc (392357880 bytes) failed
-   📄 190/656 pages (29.0%) — 21s — 9.0 pages/s   
-   ⚠️  Page 192 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 190 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 196 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 195 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 193 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 194 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 200 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 199 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 197 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 198 render failed: malloc (392357880 bytes) failed
-   📄 200/656 pages (30.5%) — 22s — 9.2 pages/s   
-   ⚠️  Page 203 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 204 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 201 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 202 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 205 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 206 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 208 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 207 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 210 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 211 render failed: malloc (392357880 bytes) failed
-   📄 210/656 pages (32.0%) — 23s — 9.2 pages/s   
-   ⚠️  Page 209 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 212 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 213 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 214 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 216 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 215 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 218 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 217 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 219 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 220 render failed: malloc (392357880 bytes) failed
-   📄 220/656 pages (33.5%) — 24s — 9.3 pages/s   
-   ⚠️  Page 224 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 223 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 222 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 221 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 227 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 228 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 226 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 225 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 232 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 229 render failed: malloc (392357880 bytes) failed
-   📄 230/656 pages (35.1%) — 25s — 9.3 pages/s   
-   ⚠️  Page 231 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 230 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 234 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 235 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 233 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 236 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 239 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 238 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 237 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 240 render failed: malloc (392357880 bytes) failed
-   📄 240/656 pages (36.6%) — 26s — 9.4 pages/s   
-   ⚠️  Page 242 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 241 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 244 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 243 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 247 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 245 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 248 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 246 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 249 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 250 render failed: malloc (392357880 bytes) failed
-   📄 250/656 pages (38.1%) — 27s — 9.4 pages/s   
-   ⚠️  Page 252 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 251 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 254 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 253 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 256 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 255 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 258 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 259 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 260 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 257 render failed: malloc (392357880 bytes) failed
-   📄 260/656 pages (39.6%) — 27s — 9.5 pages/s   
-   ⚠️  Page 263 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 261 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 262 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 264 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 265 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 266 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 268 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 267 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 270 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 271 render failed: malloc (392357880 bytes) failed
-   📄 270/656 pages (41.2%) — 28s — 9.5 pages/s   
-   ⚠️  Page 272 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 269 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 275 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 273 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 276 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 274 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 280 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 278 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 277 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 279 render failed: malloc (392357880 bytes) failed
-   📄 280/656 pages (42.7%) — 29s — 9.6 pages/s   
-   ⚠️  Page 282 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 281 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 284 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 283 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 288 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 286 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 285 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 287 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 291 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 289 render failed: malloc (392357880 bytes) failed
-   📄 290/656 pages (44.2%) — 30s — 9.6 pages/s   
-   ⚠️  Page 292 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 290 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 295 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 293 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 296 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 294 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 298 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 300 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 299 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 297 render failed: malloc (392357880 bytes) failed
-   📄 300/656 pages (45.7%) — 31s — 9.7 pages/s   
-   ⚠️  Page 302 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 304 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 301 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 303 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 307 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 306 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 308 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 305 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 310 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 311 render failed: malloc (392357880 bytes) failed
-   📄 310/656 pages (47.3%) — 32s — 9.7 pages/s   
-   ⚠️  Page 309 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 312 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 315 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 314 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 313 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 316 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 319 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 318 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 320 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 317 render failed: malloc (392357880 bytes) failed
-   📄 320/656 pages (48.8%) — 33s — 9.8 pages/s   
-   ⚠️  Page 324 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 321 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 322 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 323 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 326 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 328 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 325 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 327 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 331 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 330 render failed: malloc (392357880 bytes) failed
-   📄 330/656 pages (50.3%) — 34s — 9.8 pages/s   
-   ⚠️  Page 332 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 329 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 334 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 333 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 335 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 336 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 338 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 339 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 340 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 337 render failed: malloc (392357880 bytes) failed
-   📄 340/656 pages (51.8%) — 34s — 9.9 pages/s   
-   ⚠️  Page 344 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 342 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 341 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 343 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 347 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 348 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 346 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 345 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 351 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 352 render failed: malloc (392357880 bytes) failed
-   📄 350/656 pages (53.4%) — 36s — 9.9 pages/s   
-   ⚠️  Page 350 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 349 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 354 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 353 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 356 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 355 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 359 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 358 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 357 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 360 render failed: malloc (392357880 bytes) failed
-   📄 360/656 pages (54.9%) — 36s — 9.9 pages/s   
-   ⚠️  Page 364 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 362 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 363 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 361 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 365 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 368 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 366 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 367 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 371 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 369 render failed: malloc (392357880 bytes) failed
-   📄 370/656 pages (56.4%) — 37s — 9.9 pages/s   
-   ⚠️  Page 370 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 372 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 373 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 376 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 375 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 374 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 378 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 377 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 379 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 380 render failed: malloc (392357880 bytes) failed
-   📄 380/656 pages (57.9%) — 38s — 10.0 pages/s   
-   ⚠️  Page 383 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 384 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 381 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 382 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 386 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 387 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 385 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 388 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 391 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 390 render failed: malloc (392357880 bytes) failed
-   📄 390/656 pages (59.5%) — 39s — 10.0 pages/s   
-   ⚠️  Page 389 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 392 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 394 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 395 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 393 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 396 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 399 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 400 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 398 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 397 render failed: malloc (392357880 bytes) failed
-   📄 400/656 pages (61.0%) — 40s — 10.0 pages/s   
-   ⚠️  Page 404 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 401 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 402 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 403 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 407 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 406 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 405 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 408 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 409 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 410 render failed: malloc (392357880 bytes) failed
-   📄 410/656 pages (62.5%) — 41s — 9.9 pages/s   
-   ⚠️  Page 412 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 411 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 414 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 416 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 415 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 413 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 417 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 418 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 419 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 420 render failed: malloc (392357880 bytes) failed
-   📄 420/656 pages (64.0%) — 42s — 10.0 pages/s   
-   ⚠️  Page 423 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 422 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 421 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 424 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 428 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 425 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 427 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 426 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 430 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 432 render failed: malloc (392357880 bytes) failed
-   📄 430/656 pages (65.5%) — 43s — 9.9 pages/s   
-   ⚠️  Page 429 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 431 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 434 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 433 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 436 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 435 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 439 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 437 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 438 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 440 render failed: malloc (392357880 bytes) failed
-   📄 440/656 pages (67.1%) — 44s — 9.9 pages/s   
-   ⚠️  Page 441 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 444 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 442 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 443 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 448 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 447 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 446 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 445 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 449 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 450 render failed: malloc (392357880 bytes) failed
-   📄 450/656 pages (68.6%) — 46s — 9.8 pages/s   
-   ⚠️  Page 452 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 451 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 454 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 456 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 455 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 453 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 459 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 458 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 460 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 457 render failed: malloc (392357880 bytes) failed
-   📄 460/656 pages (70.1%) — 47s — 9.9 pages/s   
-   ⚠️  Page 461 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 464 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 463 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 462 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 468 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 465 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 467 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 466 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 470 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 469 render failed: malloc (392357880 bytes) failed
-   📄 470/656 pages (71.6%) — 48s — 9.8 pages/s   
-   ⚠️  Page 471 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 472 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 475 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 473 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 474 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 476 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 480 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 479 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 478 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 477 render failed: malloc (392357880 bytes) failed
-   📄 480/656 pages (73.2%) — 48s — 9.9 pages/s   
-   ⚠️  Page 483 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 481 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 482 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 484 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 486 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 487 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 485 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 488 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 492 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 489 render failed: malloc (392357880 bytes) failed
-   📄 490/656 pages (74.7%) — 50s — 9.9 pages/s   
-   ⚠️  Page 490 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 491 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 493 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 494 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 495 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 496 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 497 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 499 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 498 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 500 render failed: malloc (392357880 bytes) failed
-   📄 500/656 pages (76.2%) — 50s — 9.9 pages/s   
-   ⚠️  Page 501 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 502 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 504 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 503 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 505 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 506 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 507 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 508 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 511 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 509 render failed: malloc (392357880 bytes) failed
-   📄 510/656 pages (77.7%) — 51s — 9.9 pages/s   
-   ⚠️  Page 510 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 512 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 513 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 515 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 514 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 516 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 520 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 517 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 518 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 519 render failed: malloc (392357880 bytes) failed
-   📄 520/656 pages (79.3%) — 52s — 10.0 pages/s   
-   ⚠️  Page 521 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 524 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 523 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 522 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 527 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 525 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 526 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 528 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 531 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 532 render failed: malloc (392357880 bytes) failed
-   📄 530/656 pages (80.8%) — 53s — 10.0 pages/s   
-   ⚠️  Page 530 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 529 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 535 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 534 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 533 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 536 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 540 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 538 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 539 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 537 render failed: malloc (392357880 bytes) failed
-   📄 540/656 pages (82.3%) — 54s — 10.0 pages/s   
-   ⚠️  Page 544 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 541 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 543 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 542 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 548 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 545 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 547 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 546 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 550 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 549 render failed: malloc (392357880 bytes) failed
-   📄 550/656 pages (83.8%) — 55s — 10.0 pages/s   
-   ⚠️  Page 552 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 551 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 554 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 555 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 553 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 556 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 557 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 560 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 558 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 559 render failed: malloc (392357880 bytes) failed
-   📄 560/656 pages (85.4%) — 56s — 10.1 pages/s   
-   ⚠️  Page 562 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 563 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 561 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 564 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 566 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 567 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 565 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 568 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 569 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 570 render failed: malloc (392357880 bytes) failed
-   📄 570/656 pages (86.9%) — 57s — 10.1 pages/s   
-   ⚠️  Page 571 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 572 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 576 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 574 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 575 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 573 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 580 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 579 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 578 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 577 render failed: malloc (392357880 bytes) failed
-   📄 580/656 pages (88.4%) — 57s — 10.1 pages/s   
-   ⚠️  Page 582 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 581 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 584 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 583 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 588 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 585 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 586 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 587 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 589 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 592 render failed: malloc (392357880 bytes) failed
-   📄 590/656 pages (89.9%) — 59s — 10.1 pages/s   
-   ⚠️  Page 590 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 591 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 594 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 593 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 596 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 595 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 599 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 597 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 598 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 600 render failed: malloc (392357880 bytes) failed
-   📄 600/656 pages (91.5%) — 59s — 10.1 pages/s   
-   ⚠️  Page 603 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 601 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 602 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 604 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 605 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 606 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 608 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 607 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 609 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 610 render failed: malloc (392357880 bytes) failed
-   📄 610/656 pages (93.0%) — 60s — 10.1 pages/s   
-   ⚠️  Page 612 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 611 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 614 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 616 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 613 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 615 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 620 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 618 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 619 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 617 render failed: malloc (392357880 bytes) failed
-   📄 620/656 pages (94.5%) — 61s — 10.2 pages/s   
-   ⚠️  Page 623 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 622 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 621 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 624 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 626 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 625 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 627 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 628 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 630 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 629 render failed: malloc (392357880 bytes) failed
-   📄 630/656 pages (96.0%) — 62s — 10.1 pages/s   
-   ⚠️  Page 631 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 632 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 633 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 634 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 636 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 635 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 640 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 638 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 639 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 637 render failed: malloc (392357880 bytes) failed
-   📄 640/656 pages (97.6%) — 63s — 10.2 pages/s   
-   ⚠️  Page 642 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 641 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 644 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 643 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 646 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 647 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 645 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 648 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 650 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 649 render failed: malloc (392357880 bytes) failed
-   📄 650/656 pages (99.1%) — 64s — 10.2 pages/s   
-   ⚠️  Page 652 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 651 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 655 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 656 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 653 render failed: malloc (392357880 bytes) failed
-
-   ⚠️  Page 654 render failed: malloc (392357880 bytes) failed
-   📄 656/656 pages (100.0%) — 64s — 10.2 pages/s   
-   ⚠️  OCR produced very little text (0 chars). Skipping.
-
-📖 Processing: Isha Upanishad (Gita Press Alt.)
-   PDF: Ishavasya Upanishad Trans. By Ek Charan Raja Anuchar Gorakhpur - Gita Press.pdf (660 pages)
-   📄 10/660 pages (1.5%) — 22s — 0.5 pages/s      📄 20/660 pages (3.0%) — 28s — 0.7 pages/s      📄 30/660 pages (4.5%) — 32s — 0.9 pages/s      📄 40/660 pages (6.1%) — 40s — 1.0 pages/s      📄 50/660 pages (7.6%) — 46s — 1.1 pages/s      📄 60/660 pages (9.1%) — 50s — 1.2 pages/s      📄 70/660 pages (10.6%) — 57s — 1.2 pages/s      📄 80/660 pages (12.1%) — 66s — 1.2 pages/s      📄 90/660 pages (13.6%) — 72s — 1.3 pages/s      📄 100/660 pages (15.2%) — 76s — 1.3 pages/s      📄 110/660 pages (16.7%) — 82s — 1.3 pages/s      📄 120/660 pages (18.2%) — 99s — 1.2 pages/s      📄 130/660 pages (19.7%) — 104s — 1.2 pages/s   
-   ⚠️  Page 151 OCR failed: fetch failed
-   📄 140/660 pages (21.2%) — 111s — 1.3 pages/s   
-   ⚠️  Page 144 OCR failed: fetch failed
-   📄 150/660 pages (22.7%) — 119s — 1.3 pages/s      📄 160/660 pages (24.2%) — 124s — 1.3 pages/s      📄 170/660 pages (25.8%) — 127s — 1.3 pages/s      📄 180/660 pages (27.3%) — 137s — 1.3 pages/s      📄 190/660 pages (28.8%) — 142s — 1.3 pages/s      📄 200/660 pages (30.3%) — 148s — 1.4 pages/s      📄 210/660 pages (31.8%) — 151s — 1.4 pages/s      📄 220/660 pages (33.3%) — 161s — 1.4 pages/s      📄 230/660 pages (34.8%) — 165s — 1.4 pages/s      📄 240/660 pages (36.4%) — 170s — 1.4 pages/s      📄 250/660 pages (37.9%) — 177s — 1.4 pages/s      📄 260/660 pages (39.4%) — 182s — 1.4 pages/s      📄 270/660 pages (40.9%) — 188s — 1.4 pages/s      📄 280/660 pages (42.4%) — 194s — 1.4 pages/s      📄 290/660 pages (43.9%) — 201s — 1.4 pages/s      📄 300/660 pages (45.5%) — 208s — 1.4 pages/s      📄 310/660 pages (47.0%) — 213s — 1.5 pages/s      📄 320/660 pages (48.5%) — 219s — 1.5 pages/s      📄 330/660 pages (50.0%) — 227s — 1.5 pages/s      📄 340/660 pages (51.5%) — 232s — 1.5 pages/s      📄 350/660 pages (53.0%) — 235s — 1.5 pages/s      📄 360/660 pages (54.5%) — 242s — 1.5 pages/s      📄 370/660 pages (56.1%) — 250s — 1.5 pages/s      📄 380/660 pages (57.6%) — 254s — 1.5 pages/s      📄 390/660 pages (59.1%) — 258s — 1.5 pages/s      📄 400/660 pages (60.6%) — 267s — 1.5 pages/s      📄 410/660 pages (62.1%) — 273s — 1.5 pages/s      📄 420/660 pages (63.6%) — 276s — 1.5 pages/s      📄 430/660 pages (65.2%) — 281s — 1.5 pages/s      📄 440/660 pages (66.7%) — 301s — 1.5 pages/s      📄 450/660 pages (68.2%) — 305s — 1.5 pages/s   
-   ⚠️  Page 453 OCR failed: fetch failed
-   📄 460/660 pages (69.7%) — 312s — 1.5 pages/s   
-   ⚠️  Page 456 OCR failed: fetch failed
-   📄 470/660 pages (71.2%) — 317s — 1.5 pages/s   
-   ⚠️  Page 444 OCR failed: fetch failed
-   📄 480/660 pages (72.7%) — 321s — 1.5 pages/s      📄 490/660 pages (74.2%) — 326s — 1.5 pages/s      📄 500/660 pages (75.8%) — 336s — 1.5 pages/s      📄 510/660 pages (77.3%) — 338s — 1.5 pages/s      📄 520/660 pages (78.8%) — 344s — 1.5 pages/s      📄 530/660 pages (80.3%) — 352s — 1.5 pages/s      📄 540/660 pages (81.8%) — 358s — 1.5 pages/s      📄 550/660 pages (83.3%) — 363s — 1.5 pages/s      📄 560/660 pages (84.8%) — 372s — 1.5 pages/s      📄 570/660 pages (86.4%) — 379s — 1.5 pages/s      📄 580/660 pages (87.9%) — 384s — 1.5 pages/s      📄 590/660 pages (89.4%) — 392s — 1.5 pages/s      📄 600/660 pages (90.9%) — 397s — 1.5 pages/s      📄 610/660 pages (92.4%) — 403s — 1.5 pages/s      📄 620/660 pages (93.9%) — 412s — 1.5 pages/s      📄 630/660 pages (95.5%) — 416s — 1.5 pages/s      📄 640/660 pages (97.0%) — 419s — 1.5 pages/s      📄 650/660 pages (98.5%) — 422s — 1.5 pages/s      📄 660/660 pages (100.0%) — 463s — 1.4 pages/s   
-   ✂️  Split into 730 verses (806988 chars total)
-   ✅ Done in 463.8s — 730 verses saved
-
-📖 Processing: Upanishad Bhashya Vol. 1
-   PDF: Upanishad Bhashya Vol 1 - Gita Press Gorakhpur.pdf (662 pages)
-   📄 10/662 pages (1.5%) — 10s — 1.0 pages/s      📄 20/662 pages (3.0%) — 27s — 0.7 pages/s      📄 30/662 pages (4.5%) — 46s — 0.6 pages/s      📄 40/662 pages (6.0%) — 55s — 0.7 pages/s      📄 50/662 pages (7.6%) — 58s — 0.9 pages/s      📄 60/662 pages (9.1%) — 62s — 1.0 pages/s      📄 70/662 pages (10.6%) — 68s — 1.0 pages/s      📄 80/662 pages (12.1%) — 93s — 0.9 pages/s      📄 90/662 pages (13.6%) — 96s — 0.9 pages/s      📄 100/662 pages (15.1%) — 100s — 1.0 pages/s      📄 110/662 pages (16.6%) — 108s — 1.0 pages/s      📄 120/662 pages (18.1%) — 116s — 1.0 pages/s      📄 130/662 pages (19.6%) — 120s — 1.1 pages/s      📄 140/662 pages (21.1%) — 129s — 1.1 pages/s      📄 150/662 pages (22.7%) — 134s — 1.1 pages/s      📄 160/662 pages (24.2%) — 141s — 1.1 pages/s      📄 170/662 pages (25.7%) — 148s — 1.1 pages/s      📄 180/662 pages (27.2%) — 154s — 1.2 pages/s      📄 190/662 pages (28.7%) — 159s — 1.2 pages/s      📄 200/662 pages (30.2%) — 165s — 1.2 pages/s      📄 210/662 pages (31.7%) — 170s — 1.2 pages/s      📄 220/662 pages (33.2%) — 178s — 1.2 pages/s      📄 230/662 pages (34.7%) — 183s — 1.3 pages/s      📄 240/662 pages (36.3%) — 189s — 1.3 pages/s      📄 250/662 pages (37.8%) — 196s — 1.3 pages/s      📄 260/662 pages (39.3%) — 203s — 1.3 pages/s      📄 270/662 pages (40.8%) — 208s — 1.3 pages/s      📄 280/662 pages (42.3%) — 214s — 1.3 pages/s      📄 290/662 pages (43.8%) — 222s — 1.3 pages/s      📄 300/662 pages (45.3%) — 227s — 1.3 pages/s      📄 310/662 pages (46.8%) — 233s — 1.3 pages/s      📄 320/662 pages (48.3%) — 239s — 1.3 pages/s      📄 330/662 pages (49.8%) — 244s — 1.4 pages/s      📄 340/662 pages (51.4%) — 250s — 1.4 pages/s      📄 350/662 pages (52.9%) — 256s — 1.4 pages/s      📄 360/662 pages (54.4%) — 264s — 1.4 pages/s      📄 370/662 pages (55.9%) — 270s — 1.4 pages/s      📄 380/662 pages (57.4%) — 274s — 1.4 pages/s      📄 390/662 pages (58.9%) — 278s — 1.4 pages/s      📄 400/662 pages (60.4%) — 286s — 1.4 pages/s      📄 410/662 pages (61.9%) — 292s — 1.4 pages/s      📄 420/662 pages (63.4%) — 299s — 1.4 pages/s      📄 430/662 pages (65.0%) — 303s — 1.4 pages/s      📄 440/662 pages (66.5%) — 322s — 1.4 pages/s      📄 450/662 pages (68.0%) — 325s — 1.4 pages/s      📄 460/662 pages (69.5%) — 330s — 1.4 pages/s   
-   ⚠️  Page 461 OCR failed: fetch failed
-   📄 470/662 pages (71.0%) — 338s — 1.4 pages/s   
-   ⚠️  Page 457 OCR failed: fetch failed
-   📄 480/662 pages (72.5%) — 343s — 1.4 pages/s      📄 490/662 pages (74.0%) — 349s — 1.4 pages/s      📄 500/662 pages (75.5%) — 356s — 1.4 pages/s      📄 510/662 pages (77.0%) — 361s — 1.4 pages/s      📄 520/662 pages (78.5%) — 366s — 1.4 pages/s      📄 530/662 pages (80.1%) — 369s — 1.4 pages/s      📄 540/662 pages (81.6%) — 378s — 1.4 pages/s      📄 550/662 pages (83.1%) — 384s — 1.4 pages/s      📄 560/662 pages (84.6%) — 392s — 1.4 pages/s      📄 570/662 pages (86.1%) — 397s — 1.4 pages/s      📄 580/662 pages (87.6%) — 402s — 1.4 pages/s      📄 590/662 pages (89.1%) — 408s — 1.4 pages/s      📄 600/662 pages (90.6%) — 417s — 1.4 pages/s      📄 610/662 pages (92.1%) — 421s — 1.5 pages/s      📄 620/662 pages (93.7%) — 424s — 1.5 pages/s      📄 630/662 pages (95.2%) — 433s — 1.5 pages/s      📄 640/662 pages (96.7%) — 438s — 1.5 pages/s      📄 650/662 pages (98.2%) — 439s — 1.5 pages/s      📄 660/662 pages (99.7%) — 454s — 1.5 pages/s      📄 662/662 pages (100.0%) — 530s — 1.2 pages/s   
-   ✂️  Split into 580 verses (809811 chars total)
-   ✅ Done in 530.3s — 580 verses saved
-
-📖 Processing: Manusmriti (Alt. Edition)
-   PDF: manusmiriti.pdf (683 pages)
-   📄 10/683 pages (1.5%) — 2s — 4.4 pages/s      📄 20/683 pages (2.9%) — 3s — 6.0 pages/s      📄 30/683 pages (4.4%) — 4s — 6.8 pages/s      📄 40/683 pages (5.9%) — 5s — 7.8 pages/s      📄 50/683 pages (7.3%) — 6s — 8.5 pages/s      📄 60/683 pages (8.8%) — 7s — 8.6 pages/s      📄 70/683 pages (10.2%) — 8s — 8.7 pages/s      📄 80/683 pages (11.7%) — 9s — 8.9 pages/s      📄 90/683 pages (13.2%) — 10s — 9.2 pages/s      📄 100/683 pages (14.6%) — 11s — 9.1 pages/s      📄 110/683 pages (16.1%) — 12s — 9.2 pages/s      📄 120/683 pages (17.6%) — 12s — 9.6 pages/s      📄 130/683 pages (19.0%) — 14s — 9.6 pages/s      📄 140/683 pages (20.5%) — 14s — 9.7 pages/s      📄 150/683 pages (22.0%) — 15s — 9.7 pages/s      📄 160/683 pages (23.4%) — 17s — 9.7 pages/s      📄 170/683 pages (24.9%) — 18s — 9.5 pages/s      📄 180/683 pages (26.4%) — 19s — 9.6 pages/s      📄 190/683 pages (27.8%) — 19s — 9.8 pages/s      📄 200/683 pages (29.3%) — 20s — 9.8 pages/s      📄 210/683 pages (30.7%) — 21s — 9.8 pages/s      📄 220/683 pages (32.2%) — 22s — 10.1 pages/s      📄 230/683 pages (33.7%) — 23s — 10.1 pages/s      📄 240/683 pages (35.1%) — 24s — 10.0 pages/s      📄 250/683 pages (36.6%) — 25s — 10.1 pages/s      📄 260/683 pages (38.1%) — 26s — 10.2 pages/s      📄 270/683 pages (39.5%) — 27s — 10.2 pages/s      📄 280/683 pages (41.0%) — 28s — 10.0 pages/s      📄 290/683 pages (42.5%) — 29s — 10.1 pages/s      📄 300/683 pages (43.9%) — 30s — 10.1 pages/s      📄 310/683 pages (45.4%) — 30s — 10.3 pages/s      📄 320/683 pages (46.9%) — 32s — 10.1 pages/s      📄 330/683 pages (48.3%) — 32s — 10.3 pages/s      📄 340/683 pages (49.8%) — 34s — 10.1 pages/s      📄 350/683 pages (51.2%) — 34s — 10.3 pages/s      📄 360/683 pages (52.7%) — 35s — 10.3 pages/s      📄 370/683 pages (54.2%) — 36s — 10.2 pages/s      📄 380/683 pages (55.6%) — 38s — 10.1 pages/s      📄 390/683 pages (57.1%) — 38s — 10.1 pages/s      📄 400/683 pages (58.6%) — 39s — 10.2 pages/s      📄 410/683 pages (60.0%) — 41s — 10.0 pages/s      📄 420/683 pages (61.5%) — 41s — 10.1 pages/s      📄 430/683 pages (63.0%) — 42s — 10.2 pages/s      📄 440/683 pages (64.4%) — 44s — 10.1 pages/s      📄 450/683 pages (65.9%) — 44s — 10.2 pages/s      📄 460/683 pages (67.3%) — 45s — 10.2 pages/s      📄 470/683 pages (68.8%) — 55s — 8.5 pages/s      📄 480/683 pages (70.3%) — 56s — 8.6 pages/s      📄 490/683 pages (71.7%) — 57s — 8.7 pages/s      📄 500/683 pages (73.2%) — 58s — 8.7 pages/s      📄 510/683 pages (74.7%) — 58s — 8.7 pages/s      📄 520/683 pages (76.1%) — 59s — 8.7 pages/s      📄 530/683 pages (77.6%) — 60s — 8.8 pages/s      📄 540/683 pages (79.1%) — 61s — 8.8 pages/s      📄 550/683 pages (80.5%) — 62s — 8.9 pages/s      📄 560/683 pages (82.0%) — 63s — 8.9 pages/s      📄 570/683 pages (83.5%) — 64s — 8.9 pages/s      📄 580/683 pages (84.9%) — 65s — 9.0 pages/s      📄 590/683 pages (86.4%) — 66s — 9.0 pages/s      📄 600/683 pages (87.8%) — 66s — 9.1 pages/s      📄 610/683 pages (89.3%) — 67s — 9.1 pages/s      📄 620/683 pages (90.8%) — 68s — 9.1 pages/s      📄 630/683 pages (92.2%) — 69s — 9.1 pages/s      📄 640/683 pages (93.7%) — 70s — 9.1 pages/s      📄 650/683 pages (95.2%) — 71s — 9.2 pages/s      📄 660/683 pages (96.6%) — 71s — 9.2 pages/s      📄 670/683 pages (98.1%) — 72s — 9.3 pages/s      📄 680/683 pages (99.6%) — 75s — 9.1 pages/s      📄 683/683 pages (100.0%) — 96s — 7.1 pages/s   
-   ✂️  Split into 1426 verses (784470 chars total)
-   ✅ Done in 96.3s — 1426 verses saved
-
-📖 Processing: Rig Veda Vol. 2
-   PDF: rigved_2.pdf (739 pages)
-   📄 10/739 pages (1.4%) — 1s — 7.3 pages/s      📄 20/739 pages (2.7%) — 2s — 12.0 pages/s      📄 30/739 pages (4.1%) — 2s — 16.1 pages/s      📄 40/739 pages (5.4%) — 2s — 19.7 pages/s      📄 50/739 pages (6.8%) — 2s — 23.0 pages/s      📄 60/739 pages (8.1%) — 2s — 24.1 pages/s      📄 70/739 pages (9.5%) — 3s — 26.3 pages/s      📄 80/739 pages (10.8%) — 3s — 26.9 pages/s      📄 90/739 pages (12.2%) — 3s — 25.9 pages/s      📄 100/739 pages (13.5%) — 4s — 27.5 pages/s      📄 110/739 pages (14.9%) — 4s — 28.3 pages/s      📄 120/739 pages (16.2%) — 4s — 29.3 pages/s      📄 130/739 pages (17.6%) — 4s — 30.4 pages/s      📄 140/739 pages (18.9%) — 5s — 30.7 pages/s      📄 150/739 pages (20.3%) — 5s — 30.8 pages/s      📄 160/739 pages (21.7%) — 5s — 31.0 pages/s      📄 170/739 pages (23.0%) — 5s — 31.5 pages/s      📄 180/739 pages (24.4%) — 6s — 31.3 pages/s      📄 190/739 pages (25.7%) — 6s — 31.3 pages/s      📄 200/739 pages (27.1%) — 6s — 31.6 pages/s      📄 210/739 pages (28.4%) — 7s — 32.2 pages/s      📄 220/739 pages (29.8%) — 7s — 32.4 pages/s      📄 230/739 pages (31.1%) — 7s — 32.1 pages/s      📄 240/739 pages (32.5%) — 8s — 32.0 pages/s      📄 250/739 pages (33.8%) — 8s — 32.4 pages/s      📄 260/739 pages (35.2%) — 8s — 32.5 pages/s      📄 270/739 pages (36.5%) — 8s — 32.5 pages/s      📄 280/739 pages (37.9%) — 9s — 32.8 pages/s      📄 290/739 pages (39.2%) — 9s — 33.0 pages/s      📄 300/739 pages (40.6%) — 9s — 32.8 pages/s      📄 310/739 pages (41.9%) — 9s — 32.9 pages/s      📄 320/739 pages (43.3%) — 10s — 32.8 pages/s      📄 330/739 pages (44.7%) — 10s — 33.2 pages/s      📄 340/739 pages (46.0%) — 10s — 33.7 pages/s      📄 350/739 pages (47.4%) — 11s — 33.3 pages/s      📄 360/739 pages (48.7%) — 11s — 33.2 pages/s      📄 370/739 pages (50.1%) — 11s — 33.5 pages/s      📄 380/739 pages (51.4%) — 11s — 33.3 pages/s      📄 390/739 pages (52.8%) — 12s — 33.1 pages/s      📄 400/739 pages (54.1%) — 12s — 33.4 pages/s      📄 410/739 pages (55.5%) — 12s — 33.6 pages/s      📄 420/739 pages (56.8%) — 13s — 33.6 pages/s      📄 430/739 pages (58.2%) — 13s — 33.6 pages/s      📄 440/739 pages (59.5%) — 13s — 33.7 pages/s      📄 450/739 pages (60.9%) — 13s — 33.8 pages/s      📄 460/739 pages (62.2%) — 14s — 33.7 pages/s      📄 470/739 pages (63.6%) — 14s — 33.8 pages/s      📄 480/739 pages (65.0%) — 14s — 34.0 pages/s      📄 490/739 pages (66.3%) — 15s — 33.8 pages/s      📄 500/739 pages (67.7%) — 15s — 34.0 pages/s      📄 510/739 pages (69.0%) — 15s — 34.0 pages/s      📄 520/739 pages (70.4%) — 15s — 34.1 pages/s      📄 530/739 pages (71.7%) — 15s — 34.2 pages/s      📄 540/739 pages (73.1%) — 16s — 34.2 pages/s      📄 550/739 pages (74.4%) — 16s — 34.4 pages/s      📄 560/739 pages (75.8%) — 16s — 34.5 pages/s      📄 570/739 pages (77.1%) — 17s — 34.4 pages/s      📄 580/739 pages (78.5%) — 17s — 34.5 pages/s      📄 590/739 pages (79.8%) — 17s — 34.7 pages/s      📄 600/739 pages (81.2%) — 17s — 34.9 pages/s      📄 610/739 pages (82.5%) — 18s — 34.6 pages/s      📄 620/739 pages (83.9%) — 18s — 34.7 pages/s      📄 630/739 pages (85.3%) — 18s — 35.0 pages/s      📄 640/739 pages (86.6%) — 18s — 35.1 pages/s      📄 650/739 pages (88.0%) — 19s — 34.9 pages/s      📄 660/739 pages (89.3%) — 19s — 34.9 pages/s      📄 670/739 pages (90.7%) — 19s — 35.1 pages/s      📄 680/739 pages (92.0%) — 19s — 35.2 pages/s      📄 690/739 pages (93.4%) — 20s — 35.1 pages/s      📄 700/739 pages (94.7%) — 20s — 35.1 pages/s      📄 710/739 pages (96.1%) — 20s — 35.1 pages/s      📄 720/739 pages (97.4%) — 20s — 35.2 pages/s      📄 730/739 pages (98.8%) — 21s — 35.3 pages/s      📄 739/739 pages (100.0%) — 28s — 26.1 pages/s   
-   ✂️  Split into 4813 verses (1748864 chars total)
-   ✅ Done in 29.5s — 4813 verses saved
-
-📖 Processing: Rig Veda Vol. 2 (English Edition)
-   PDF: RigVeda2.pdf (749 pages)
-   📄 10/749 pages (1.3%) — 2s — 5.1 pages/s      📄 20/749 pages (2.7%) — 3s — 7.1 pages/s      📄 30/749 pages (4.0%) — 4s — 7.3 pages/s      📄 40/749 pages (5.3%) — 5s — 8.9 pages/s      📄 50/749 pages (6.7%) — 5s — 9.5 pages/s      📄 60/749 pages (8.0%) — 6s — 9.4 pages/s      📄 70/749 pages (9.3%) — 7s — 10.0 pages/s      📄 80/749 pages (10.7%) — 8s — 10.0 pages/s      📄 90/749 pages (12.0%) — 9s — 10.4 pages/s      📄 100/749 pages (13.4%) — 10s — 10.5 pages/s      📄 110/749 pages (14.7%) — 10s — 10.9 pages/s      📄 120/749 pages (16.0%) — 11s — 10.7 pages/s      📄 130/749 pages (17.4%) — 12s — 11.3 pages/s      📄 140/749 pages (18.7%) — 12s — 11.3 pages/s      📄 150/749 pages (20.0%) — 13s — 11.4 pages/s      📄 160/749 pages (21.4%) — 14s — 11.5 pages/s      📄 170/749 pages (22.7%) — 15s — 11.5 pages/s      📄 180/749 pages (24.0%) — 15s — 11.6 pages/s      📄 190/749 pages (25.4%) — 16s — 11.7 pages/s      📄 200/749 pages (26.7%) — 17s — 11.9 pages/s      📄 210/749 pages (28.0%) — 18s — 11.8 pages/s      📄 220/749 pages (29.4%) — 19s — 11.9 pages/s      📄 230/749 pages (30.7%) — 19s — 12.1 pages/s      📄 240/749 pages (32.0%) — 20s — 12.1 pages/s      📄 250/749 pages (33.4%) — 21s — 12.1 pages/s      📄 260/749 pages (34.7%) — 21s — 12.2 pages/s      📄 270/749 pages (36.0%) — 22s — 12.1 pages/s      📄 280/749 pages (37.4%) — 23s — 12.1 pages/s      📄 290/749 pages (38.7%) — 24s — 12.3 pages/s      📄 300/749 pages (40.1%) — 24s — 12.3 pages/s      📄 310/749 pages (41.4%) — 25s — 12.2 pages/s      📄 320/749 pages (42.7%) — 26s — 12.4 pages/s      📄 330/749 pages (44.1%) — 27s — 12.2 pages/s      📄 340/749 pages (45.4%) — 27s — 12.4 pages/s      📄 350/749 pages (46.7%) — 28s — 12.3 pages/s      📄 360/749 pages (48.1%) — 29s — 12.2 pages/s      📄 370/749 pages (49.4%) — 30s — 12.4 pages/s      📄 380/749 pages (50.7%) — 30s — 12.5 pages/s      📄 390/749 pages (52.1%) — 31s — 12.4 pages/s      📄 400/749 pages (53.4%) — 32s — 12.5 pages/s      📄 410/749 pages (54.7%) — 33s — 12.5 pages/s      📄 420/749 pages (56.1%) — 33s — 12.6 pages/s      📄 430/749 pages (57.4%) — 34s — 12.6 pages/s      📄 440/749 pages (58.7%) — 35s — 12.5 pages/s      📄 450/749 pages (60.1%) — 36s — 12.6 pages/s      📄 460/749 pages (61.4%) — 37s — 12.5 pages/s      📄 470/749 pages (62.8%) — 38s — 12.5 pages/s      📄 480/749 pages (64.1%) — 38s — 12.5 pages/s      📄 490/749 pages (65.4%) — 39s — 12.4 pages/s      📄 500/749 pages (66.8%) — 40s — 12.5 pages/s      📄 510/749 pages (68.1%) — 40s — 12.6 pages/s      📄 520/749 pages (69.4%) — 41s — 12.5 pages/s      📄 530/749 pages (70.8%) — 42s — 12.6 pages/s      📄 540/749 pages (72.1%) — 43s — 12.5 pages/s      📄 550/749 pages (73.4%) — 44s — 12.6 pages/s      📄 560/749 pages (74.8%) — 44s — 12.6 pages/s      📄 570/749 pages (76.1%) — 46s — 12.5 pages/s      📄 580/749 pages (77.4%) — 46s — 12.5 pages/s      📄 590/749 pages (78.8%) — 47s — 12.6 pages/s      📄 600/749 pages (80.1%) — 48s — 12.6 pages/s      📄 610/749 pages (81.4%) — 48s — 12.6 pages/s      📄 620/749 pages (82.8%) — 49s — 12.7 pages/s      📄 630/749 pages (84.1%) — 50s — 12.6 pages/s      📄 640/749 pages (85.4%) — 51s — 12.5 pages/s      📄 650/749 pages (86.8%) — 51s — 12.6 pages/s      📄 660/749 pages (88.1%) — 52s — 12.6 pages/s      📄 670/749 pages (89.5%) — 53s — 12.6 pages/s      📄 680/749 pages (90.8%) — 54s — 12.7 pages/s      📄 690/749 pages (92.1%) — 55s — 12.5 pages/s      📄 700/749 pages (93.5%) — 56s — 12.6 pages/s      📄 710/749 pages (94.8%) — 56s — 12.7 pages/s      📄 720/749 pages (96.1%) — 57s — 12.7 pages/s      📄 730/749 pages (97.5%) — 57s — 12.7 pages/s      📄 740/749 pages (98.8%) — 58s — 12.8 pages/s      📄 749/749 pages (100.0%) — 72s — 10.4 pages/s   
-   ✂️  Split into 954 verses (1723958 chars total)
-   ✅ Done in 72.4s — 954 verses saved
-
-📖 Processing: Narada Purana
-   PDF: nard-puran.pdf (751 pages)
-   📄 10/751 pages (1.3%) — 1s — 6.9 pages/s      📄 20/751 pages (2.7%) — 2s — 12.2 pages/s      📄 30/751 pages (4.0%) — 2s — 16.3 pages/s      📄 40/751 pages (5.3%) — 2s — 19.0 pages/s      📄 50/751 pages (6.7%) — 3s — 19.6 pages/s      📄 60/751 pages (8.0%) — 3s — 19.8 pages/s      📄 70/751 pages (9.3%) — 3s — 21.1 pages/s      📄 80/751 pages (10.7%) — 4s — 21.9 pages/s      📄 90/751 pages (12.0%) — 4s — 22.7 pages/s      📄 100/751 pages (13.3%) — 4s — 23.2 pages/s      📄 110/751 pages (14.6%) — 5s — 23.5 pages/s      📄 120/751 pages (16.0%) — 5s — 23.5 pages/s      📄 130/751 pages (17.3%) — 5s — 24.1 pages/s      📄 140/751 pages (18.6%) — 6s — 24.1 pages/s      📄 150/751 pages (20.0%) — 6s — 24.4 pages/s      📄 160/751 pages (21.3%) — 6s — 24.7 pages/s      📄 170/751 pages (22.6%) — 7s — 25.0 pages/s      📄 180/751 pages (24.0%) — 7s — 25.3 pages/s      📄 190/751 pages (25.3%) — 7s — 25.9 pages/s      📄 200/751 pages (26.6%) — 8s — 25.1 pages/s      📄 210/751 pages (28.0%) — 8s — 25.3 pages/s      📄 220/751 pages (29.3%) — 9s — 25.4 pages/s      📄 230/751 pages (30.6%) — 9s — 25.7 pages/s      📄 240/751 pages (32.0%) — 9s — 25.7 pages/s      📄 250/751 pages (33.3%) — 10s — 26.0 pages/s      📄 260/751 pages (34.6%) — 10s — 25.9 pages/s      📄 270/751 pages (36.0%) — 10s — 25.9 pages/s      📄 280/751 pages (37.3%) — 11s — 26.2 pages/s      📄 290/751 pages (38.6%) — 11s — 26.0 pages/s      📄 300/751 pages (39.9%) — 12s — 25.9 pages/s      📄 310/751 pages (41.3%) — 12s — 25.9 pages/s      📄 320/751 pages (42.6%) — 12s — 26.2 pages/s      📄 330/751 pages (43.9%) — 13s — 26.0 pages/s      📄 340/751 pages (45.3%) — 13s — 26.2 pages/s      📄 350/751 pages (46.6%) — 13s — 26.5 pages/s      📄 360/751 pages (47.9%) — 14s — 26.6 pages/s      📄 370/751 pages (49.3%) — 14s — 26.5 pages/s      📄 380/751 pages (50.6%) — 14s — 26.5 pages/s      📄 390/751 pages (51.9%) — 15s — 26.5 pages/s      📄 400/751 pages (53.3%) — 15s — 26.5 pages/s      📄 410/751 pages (54.6%) — 15s — 26.8 pages/s      📄 420/751 pages (55.9%) — 16s — 27.0 pages/s      📄 430/751 pages (57.3%) — 16s — 27.1 pages/s      📄 440/751 pages (58.6%) — 16s — 27.0 pages/s      📄 450/751 pages (59.9%) — 17s — 27.1 pages/s      📄 460/751 pages (61.3%) — 17s — 27.2 pages/s      📄 470/751 pages (62.6%) — 17s — 27.1 pages/s      📄 480/751 pages (63.9%) — 18s — 27.2 pages/s      📄 490/751 pages (65.2%) — 18s — 27.2 pages/s      📄 500/751 pages (66.6%) — 18s — 27.3 pages/s      📄 510/751 pages (67.9%) — 19s — 27.4 pages/s      📄 520/751 pages (69.2%) — 19s — 27.2 pages/s      📄 530/751 pages (70.6%) — 19s — 27.2 pages/s      📄 540/751 pages (71.9%) — 20s — 27.3 pages/s      📄 550/751 pages (73.2%) — 20s — 27.3 pages/s      📄 560/751 pages (74.6%) — 20s — 27.4 pages/s      📄 570/751 pages (75.9%) — 21s — 27.4 pages/s      📄 580/751 pages (77.2%) — 21s — 27.5 pages/s      📄 590/751 pages (78.6%) — 22s — 27.3 pages/s      📄 600/751 pages (79.9%) — 22s — 27.4 pages/s      📄 610/751 pages (81.2%) — 23s — 27.1 pages/s      📄 620/751 pages (82.6%) — 23s — 27.2 pages/s      📄 630/751 pages (83.9%) — 23s — 27.2 pages/s      📄 640/751 pages (85.2%) — 24s — 27.2 pages/s      📄 650/751 pages (86.6%) — 24s — 27.1 pages/s      📄 660/751 pages (87.9%) — 24s — 27.2 pages/s      📄 670/751 pages (89.2%) — 25s — 27.2 pages/s      📄 680/751 pages (90.5%) — 25s — 27.1 pages/s      📄 690/751 pages (91.9%) — 25s — 27.2 pages/s      📄 700/751 pages (93.2%) — 26s — 27.2 pages/s      📄 710/751 pages (94.5%) — 26s — 27.3 pages/s      📄 720/751 pages (95.9%) — 26s — 27.4 pages/s      📄 730/751 pages (97.2%) — 27s — 27.1 pages/s      📄 740/751 pages (98.5%) — 27s — 27.1 pages/s      📄 750/751 pages (99.9%) — 34s — 22.1 pages/s      📄 751/751 pages (100.0%) — 40s — 18.7 pages/s   
-   ✂️  Split into 915 verses (2058247 chars total)
-   ✅ Done in 40.5s — 915 verses saved
-
-📖 Processing: Rig Veda Vol. 1 (English Edition)
-   PDF: RigVeda.pdf (751 pages)
-   📄 10/751 pages (1.3%) — 2s — 6.6 pages/s      📄 20/751 pages (2.7%) — 3s — 7.6 pages/s      📄 30/751 pages (4.0%) — 3s — 9.8 pages/s      📄 40/751 pages (5.3%) — 4s — 10.4 pages/s      📄 50/751 pages (6.7%) — 4s — 11.2 pages/s      📄 60/751 pages (8.0%) — 5s — 11.3 pages/s      📄 70/751 pages (9.3%) — 6s — 11.3 pages/s      📄 80/751 pages (10.7%) — 7s — 11.9 pages/s      📄 90/751 pages (12.0%) — 8s — 11.9 pages/s      📄 100/751 pages (13.3%) — 8s — 11.9 pages/s      📄 110/751 pages (14.6%) — 9s — 12.4 pages/s      📄 120/751 pages (16.0%) — 9s — 13.1 pages/s      📄 130/751 pages (17.3%) — 10s — 12.8 pages/s      📄 140/751 pages (18.6%) — 11s — 13.1 pages/s      📄 150/751 pages (20.0%) — 12s — 13.0 pages/s      📄 160/751 pages (21.3%) — 12s — 13.3 pages/s      📄 170/751 pages (22.6%) — 13s — 13.2 pages/s      📄 180/751 pages (24.0%) — 13s — 13.5 pages/s      📄 190/751 pages (25.3%) — 14s — 13.3 pages/s      📄 200/751 pages (26.6%) — 15s — 13.4 pages/s      📄 210/751 pages (28.0%) — 15s — 13.6 pages/s      📄 220/751 pages (29.3%) — 16s — 13.6 pages/s      📄 230/751 pages (30.6%) — 17s — 13.7 pages/s      📄 240/751 pages (32.0%) — 17s — 13.7 pages/s      📄 250/751 pages (33.3%) — 18s — 13.7 pages/s      📄 260/751 pages (34.6%) — 19s — 13.8 pages/s      📄 270/751 pages (36.0%) — 19s — 13.9 pages/s      📄 280/751 pages (37.3%) — 20s — 13.9 pages/s      📄 290/751 pages (38.6%) — 21s — 13.8 pages/s      📄 300/751 pages (39.9%) — 22s — 13.9 pages/s      📄 310/751 pages (41.3%) — 22s — 13.9 pages/s      📄 320/751 pages (42.6%) — 23s — 14.0 pages/s      📄 330/751 pages (43.9%) — 24s — 13.9 pages/s      📄 340/751 pages (45.3%) — 24s — 14.0 pages/s      📄 350/751 pages (46.6%) — 25s — 13.9 pages/s      📄 360/751 pages (47.9%) — 26s — 14.1 pages/s      📄 370/751 pages (49.3%) — 26s — 14.1 pages/s      📄 380/751 pages (50.6%) — 27s — 14.2 pages/s      📄 390/751 pages (51.9%) — 27s — 14.2 pages/s      📄 400/751 pages (53.3%) — 28s — 14.2 pages/s      📄 410/751 pages (54.6%) — 29s — 14.3 pages/s      📄 420/751 pages (55.9%) — 30s — 14.2 pages/s      📄 430/751 pages (57.3%) — 30s — 14.3 pages/s      📄 440/751 pages (58.6%) — 31s — 14.3 pages/s      📄 450/751 pages (59.9%) — 32s — 14.0 pages/s   
-   ⚠️  Page 206 OCR failed: fetch failed
-   📄 460/751 pages (61.3%) — 33s — 13.9 pages/s      📄 470/751 pages (62.6%) — 35s — 13.5 pages/s      📄 480/751 pages (63.9%) — 35s — 13.6 pages/s      📄 490/751 pages (65.2%) — 36s — 13.6 pages/s      📄 500/751 pages (66.6%) — 37s — 13.6 pages/s      📄 510/751 pages (67.9%) — 38s — 13.6 pages/s      📄 520/751 pages (69.2%) — 38s — 13.6 pages/s      📄 530/751 pages (70.6%) — 38s — 13.8 pages/s      📄 540/751 pages (71.9%) — 39s — 13.8 pages/s      📄 550/751 pages (73.2%) — 40s — 13.8 pages/s      📄 560/751 pages (74.6%) — 40s — 13.9 pages/s      📄 570/751 pages (75.9%) — 41s — 13.9 pages/s      📄 580/751 pages (77.2%) — 42s — 13.9 pages/s      📄 590/751 pages (78.6%) — 43s — 13.8 pages/s      📄 600/751 pages (79.9%) — 43s — 14.0 pages/s      📄 610/751 pages (81.2%) — 44s — 14.0 pages/s      📄 620/751 pages (82.6%) — 45s — 13.9 pages/s      📄 630/751 pages (83.9%) — 45s — 13.9 pages/s      📄 640/751 pages (85.2%) — 46s — 13.9 pages/s      📄 650/751 pages (86.6%) — 46s — 14.0 pages/s      📄 660/751 pages (87.9%) — 47s — 14.1 pages/s      📄 670/751 pages (89.2%) — 48s — 14.1 pages/s      📄 680/751 pages (90.5%) — 48s — 14.1 pages/s      📄 690/751 pages (91.9%) — 49s — 14.1 pages/s      📄 700/751 pages (93.2%) — 50s — 14.1 pages/s      📄 710/751 pages (94.5%) — 50s — 14.1 pages/s      📄 720/751 pages (95.9%) — 51s — 14.1 pages/s      📄 730/751 pages (97.2%) — 51s — 14.2 pages/s      📄 740/751 pages (98.5%) — 52s — 14.3 pages/s      📄 750/751 pages (99.9%) — 63s — 11.9 pages/s      📄 751/751 pages (100.0%) — 68s — 11.0 pages/s   
-   ✂️  Split into 951 verses (1721722 chars total)
-   ✅ Done in 68.7s — 951 verses saved
-
-📖 Processing: Narada Purana (Gita Press)
-   PDF: Narad Puran in Hindi Series No. 1183 - Gita Press.pdf (782 pages)
-
-   ⚠️  Page 4 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 8 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 12 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 16 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 20 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 24 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 28 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 32 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 36 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 40 render failed: malloc (573181616 bytes) failed
-   📄 10/782 pages (1.3%) — 9s — 1.1 pages/s   
-   ⚠️  Page 44 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 48 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 52 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 56 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 60 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 64 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 54 OCR failed: fetch failed
-
-   ⚠️  Page 68 render failed: malloc (573181616 bytes) failed
-   📄 20/782 pages (2.6%) — 26s — 0.8 pages/s   
-   ⚠️  Page 72 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 76 render failed: malloc (573181616 bytes) failed
-   📄 30/782 pages (3.8%) — 39s — 0.8 pages/s   
-   ⚠️  Page 80 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 84 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 88 render failed: malloc (573181616 bytes) failed
-   📄 40/782 pages (5.1%) — 49s — 0.8 pages/s   
-   ⚠️  Page 92 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 96 render failed: malloc (573181616 bytes) failed
-   📄 50/782 pages (6.4%) — 54s — 0.9 pages/s   
-   ⚠️  Page 100 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 104 render failed: malloc (573181616 bytes) failed
-   📄 60/782 pages (7.7%) — 59s — 1.0 pages/s   
-   ⚠️  Page 108 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 112 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 116 render failed: malloc (573181616 bytes) failed
-   📄 70/782 pages (9.0%) — 63s — 1.1 pages/s   
-   ⚠️  Page 120 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 124 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 128 render failed: malloc (573181616 bytes) failed
-   📄 80/782 pages (10.2%) — 72s — 1.1 pages/s   
-   ⚠️  Page 132 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 136 render failed: malloc (573181616 bytes) failed
-   📄 90/782 pages (11.5%) — 80s — 1.1 pages/s   
-   ⚠️  Page 140 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 144 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 148 render failed: malloc (573181616 bytes) failed
-   📄 100/782 pages (12.8%) — 85s — 1.2 pages/s   
-   ⚠️  Page 152 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 156 render failed: malloc (573181616 bytes) failed
-   📄 110/782 pages (14.1%) — 89s — 1.2 pages/s   
-   ⚠️  Page 160 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 164 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 168 render failed: malloc (573181616 bytes) failed
-   📄 120/782 pages (15.3%) — 92s — 1.3 pages/s   
-   ⚠️  Page 172 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 176 render failed: malloc (573181616 bytes) failed
-   📄 130/782 pages (16.6%) — 100s — 1.3 pages/s   
-   ⚠️  Page 180 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 184 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 188 render failed: malloc (573181616 bytes) failed
-   📄 140/782 pages (17.9%) — 112s — 1.3 pages/s   
-   ⚠️  Page 192 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 196 render failed: malloc (573181616 bytes) failed
-   📄 150/782 pages (19.2%) — 116s — 1.3 pages/s   
-   ⚠️  Page 200 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 204 render failed: malloc (573181616 bytes) failed
-   📄 160/782 pages (20.5%) — 122s — 1.3 pages/s   
-   ⚠️  Page 208 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 212 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 216 render failed: malloc (573181616 bytes) failed
-   📄 170/782 pages (21.7%) — 127s — 1.3 pages/s   
-   ⚠️  Page 220 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 224 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 228 render failed: malloc (573181616 bytes) failed
-   📄 180/782 pages (23.0%) — 132s — 1.4 pages/s   
-   ⚠️  Page 232 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 236 render failed: malloc (573181616 bytes) failed
-   📄 190/782 pages (24.3%) — 142s — 1.3 pages/s   
-   ⚠️  Page 240 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 244 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 248 render failed: malloc (573181616 bytes) failed
-   📄 200/782 pages (25.6%) — 147s — 1.4 pages/s   
-   ⚠️  Page 252 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 256 render failed: malloc (573181616 bytes) failed
-   📄 210/782 pages (26.9%) — 152s — 1.4 pages/s   
-   ⚠️  Page 260 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 264 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 268 render failed: malloc (573181616 bytes) failed
-   📄 220/782 pages (28.1%) — 156s — 1.4 pages/s   
-   ⚠️  Page 272 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 276 render failed: malloc (573181616 bytes) failed
-   📄 230/782 pages (29.4%) — 163s — 1.4 pages/s   
-   ⚠️  Page 280 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 284 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 288 render failed: malloc (573181616 bytes) failed
-   📄 240/782 pages (30.7%) — 170s — 1.4 pages/s   
-   ⚠️  Page 292 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 296 render failed: malloc (573181616 bytes) failed
-   📄 250/782 pages (32.0%) — 179s — 1.4 pages/s   
-   ⚠️  Page 300 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 304 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 308 render failed: malloc (573181616 bytes) failed
-   📄 260/782 pages (33.2%) — 183s — 1.4 pages/s   
-   ⚠️  Page 312 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 316 render failed: malloc (573181616 bytes) failed
-   📄 270/782 pages (34.5%) — 190s — 1.4 pages/s   
-   ⚠️  Page 320 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 324 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 328 render failed: malloc (573181616 bytes) failed
-   📄 280/782 pages (35.8%) — 194s — 1.4 pages/s   
-   ⚠️  Page 332 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 336 render failed: malloc (573181616 bytes) failed
-   📄 290/782 pages (37.1%) — 203s — 1.4 pages/s   
-   ⚠️  Page 340 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 344 render failed: malloc (573181616 bytes) failed
-   📄 300/782 pages (38.4%) — 208s — 1.4 pages/s   
-   ⚠️  Page 348 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 352 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 356 render failed: malloc (573181616 bytes) failed
-   📄 310/782 pages (39.6%) — 214s — 1.4 pages/s   
-   ⚠️  Page 360 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 364 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 368 render failed: malloc (573181616 bytes) failed
-   📄 320/782 pages (40.9%) — 218s — 1.5 pages/s   
-   ⚠️  Page 372 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 376 render failed: malloc (573181616 bytes) failed
-   📄 330/782 pages (42.2%) — 235s — 1.4 pages/s   
-   ⚠️  Page 380 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 384 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 388 render failed: malloc (573181616 bytes) failed
-   📄 340/782 pages (43.5%) — 243s — 1.4 pages/s   
-   ⚠️  Page 392 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 396 render failed: malloc (573181616 bytes) failed
-   📄 350/782 pages (44.8%) — 248s — 1.4 pages/s   
-   ⚠️  Page 400 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 404 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 343 OCR failed: fetch failed
-
-   ⚠️  Page 408 render failed: malloc (573181616 bytes) failed
-   📄 360/782 pages (46.0%) — 255s — 1.4 pages/s   
-   ⚠️  Page 339 OCR failed: fetch failed
-
-   ⚠️  Page 412 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 416 render failed: malloc (573181616 bytes) failed
-   📄 370/782 pages (47.3%) — 261s — 1.4 pages/s   
-   ⚠️  Page 420 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 424 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 428 render failed: malloc (573181616 bytes) failed
-   📄 380/782 pages (48.6%) — 264s — 1.4 pages/s   
-   ⚠️  Page 432 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 436 render failed: malloc (573181616 bytes) failed
-   📄 390/782 pages (49.9%) — 269s — 1.5 pages/s   
-   ⚠️  Page 440 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 444 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 448 render failed: malloc (573181616 bytes) failed
-   📄 400/782 pages (51.2%) — 278s — 1.4 pages/s   
-   ⚠️  Page 452 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 456 render failed: malloc (573181616 bytes) failed
-   📄 410/782 pages (52.4%) — 283s — 1.4 pages/s   
-   ⚠️  Page 460 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 464 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 468 render failed: malloc (573181616 bytes) failed
-   📄 420/782 pages (53.7%) — 288s — 1.5 pages/s   
-   ⚠️  Page 472 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 476 render failed: malloc (573181616 bytes) failed
-   📄 430/782 pages (55.0%) — 297s — 1.4 pages/s   
-   ⚠️  Page 480 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 484 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 488 render failed: malloc (573181616 bytes) failed
-   📄 440/782 pages (56.3%) — 301s — 1.5 pages/s   
-   ⚠️  Page 492 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 496 render failed: malloc (573181616 bytes) failed
-   📄 450/782 pages (57.5%) — 308s — 1.5 pages/s   
-   ⚠️  Page 500 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 504 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 508 render failed: malloc (573181616 bytes) failed
-   📄 460/782 pages (58.8%) — 314s — 1.5 pages/s   
-   ⚠️  Page 512 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 516 render failed: malloc (573181616 bytes) failed
-   📄 470/782 pages (60.1%) — 320s — 1.5 pages/s   
-   ⚠️  Page 520 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 524 render failed: malloc (573181616 bytes) failed
-   📄 480/782 pages (61.4%) — 324s — 1.5 pages/s   
-   ⚠️  Page 528 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 532 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 536 render failed: malloc (573181616 bytes) failed
-   📄 490/782 pages (62.7%) — 333s — 1.5 pages/s   
-   ⚠️  Page 540 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 544 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 548 render failed: malloc (573181616 bytes) failed
-   📄 500/782 pages (63.9%) — 337s — 1.5 pages/s   
-   ⚠️  Page 552 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 556 render failed: malloc (573181616 bytes) failed
-   📄 510/782 pages (65.2%) — 343s — 1.5 pages/s   
-   ⚠️  Page 560 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 564 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 568 render failed: malloc (573181616 bytes) failed
-   📄 520/782 pages (66.5%) — 349s — 1.5 pages/s   
-   ⚠️  Page 572 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 576 render failed: malloc (573181616 bytes) failed
-   📄 530/782 pages (67.8%) — 358s — 1.5 pages/s   
-   ⚠️  Page 580 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 584 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 588 render failed: malloc (573181616 bytes) failed
-   📄 540/782 pages (69.1%) — 364s — 1.5 pages/s   
-   ⚠️  Page 592 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 596 render failed: malloc (573181616 bytes) failed
-   📄 550/782 pages (70.3%) — 371s — 1.5 pages/s   
-   ⚠️  Page 600 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 604 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 608 render failed: malloc (573181616 bytes) failed
-   📄 560/782 pages (71.6%) — 375s — 1.5 pages/s   
-   ⚠️  Page 612 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 616 render failed: malloc (573181616 bytes) failed
-   📄 570/782 pages (72.9%) — 383s — 1.5 pages/s   
-   ⚠️  Page 620 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 624 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 628 render failed: malloc (573181616 bytes) failed
-   📄 580/782 pages (74.2%) — 388s — 1.5 pages/s   
-   ⚠️  Page 632 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 636 render failed: malloc (573181616 bytes) failed
-   📄 590/782 pages (75.4%) — 395s — 1.5 pages/s   
-   ⚠️  Page 640 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 644 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 648 render failed: malloc (573181616 bytes) failed
-   📄 600/782 pages (76.7%) — 400s — 1.5 pages/s   
-   ⚠️  Page 652 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 656 render failed: malloc (573181616 bytes) failed
-   📄 610/782 pages (78.0%) — 407s — 1.5 pages/s   
-   ⚠️  Page 660 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 664 render failed: malloc (573181616 bytes) failed
-   📄 620/782 pages (79.3%) — 410s — 1.5 pages/s   
-   ⚠️  Page 668 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 672 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 676 render failed: malloc (573181616 bytes) failed
-   📄 630/782 pages (80.6%) — 419s — 1.5 pages/s   
-   ⚠️  Page 680 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 684 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 688 render failed: malloc (573181616 bytes) failed
-   📄 640/782 pages (81.8%) — 425s — 1.5 pages/s   
-   ⚠️  Page 692 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 696 render failed: malloc (573181616 bytes) failed
-   📄 650/782 pages (83.1%) — 430s — 1.5 pages/s   
-   ⚠️  Page 700 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 704 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 708 render failed: malloc (573181616 bytes) failed
-   📄 660/782 pages (84.4%) — 439s — 1.5 pages/s   
-   ⚠️  Page 712 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 716 render failed: malloc (573181616 bytes) failed
-   📄 670/782 pages (85.7%) — 444s — 1.5 pages/s   
-   ⚠️  Page 720 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 724 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 728 render failed: malloc (573181616 bytes) failed
-   📄 680/782 pages (87.0%) — 448s — 1.5 pages/s   
-   ⚠️  Page 732 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 736 render failed: malloc (573181616 bytes) failed
-   📄 690/782 pages (88.2%) — 453s — 1.5 pages/s   
-   ⚠️  Page 740 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 744 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 748 render failed: malloc (573181616 bytes) failed
-   📄 700/782 pages (89.5%) — 459s — 1.5 pages/s   
-   ⚠️  Page 752 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 756 render failed: malloc (573181616 bytes) failed
-   📄 710/782 pages (90.8%) — 470s — 1.5 pages/s   
-   ⚠️  Page 760 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 764 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 768 render failed: malloc (573181616 bytes) failed
-   📄 720/782 pages (92.1%) — 475s — 1.5 pages/s   
-   ⚠️  Page 772 render failed: malloc (573181616 bytes) failed
-
-   ⚠️  Page 776 render failed: malloc (573181616 bytes) failed
-   📄 730/782 pages (93.4%) — 480s — 1.5 pages/s   
-   ⚠️  Page 780 render failed: malloc (573181616 bytes) failed
-   📄 740/782 pages (94.6%) — 485s — 1.5 pages/s      📄 750/782 pages (95.9%) — 496s — 1.5 pages/s      📄 760/782 pages (97.2%) — 500s — 1.5 pages/s      📄 770/782 pages (98.5%) — 504s — 1.5 pages/s      📄 780/782 pages (99.7%) — 516s — 1.5 pages/s      📄 782/782 pages (100.0%) — 569s — 1.4 pages/s   
-   ✂️  Split into 595 verses (1602109 chars total)
-   ✅ Done in 569.3s — 595 verses saved
-
-📖 Processing: Vaivarta Purana
-   PDF: vaivtpuran.pdf (796 pages)
-   📄 10/796 pages (1.3%) — 2s — 6.2 pages/s      📄 20/796 pages (2.5%) — 2s — 10.7 pages/s      📄 30/796 pages (3.8%) — 2s — 13.9 pages/s      📄 40/796 pages (5.0%) — 2s — 17.1 pages/s      📄 50/796 pages (6.3%) — 3s — 18.3 pages/s      📄 60/796 pages (7.5%) — 4s — 16.6 pages/s      📄 70/796 pages (8.8%) — 4s — 18.2 pages/s      📄 80/796 pages (10.1%) — 4s — 19.8 pages/s      📄 90/796 pages (11.3%) — 4s — 21.0 pages/s      📄 100/796 pages (12.6%) — 5s — 21.6 pages/s      📄 110/796 pages (13.8%) — 5s — 22.2 pages/s      📄 120/796 pages (15.1%) — 6s — 21.3 pages/s      📄 130/796 pages (16.3%) — 6s — 21.6 pages/s      📄 140/796 pages (17.6%) — 6s — 22.3 pages/s      📄 150/796 pages (18.8%) — 7s — 22.9 pages/s      📄 160/796 pages (20.1%) — 7s — 22.9 pages/s      📄 170/796 pages (21.4%) — 7s — 22.8 pages/s      📄 180/796 pages (22.6%) — 8s — 23.1 pages/s      📄 190/796 pages (23.9%) — 8s — 23.7 pages/s      📄 200/796 pages (25.1%) — 8s — 23.8 pages/s      📄 210/796 pages (26.4%) — 9s — 23.2 pages/s      📄 220/796 pages (27.6%) — 9s — 23.6 pages/s      📄 230/796 pages (28.9%) — 10s — 23.7 pages/s      📄 240/796 pages (30.2%) — 10s — 23.9 pages/s      📄 250/796 pages (31.4%) — 11s — 23.6 pages/s      📄 260/796 pages (32.7%) — 11s — 23.9 pages/s      📄 270/796 pages (33.9%) — 11s — 23.8 pages/s      📄 280/796 pages (35.2%) — 12s — 23.9 pages/s      📄 290/796 pages (36.4%) — 12s — 23.8 pages/s      📄 300/796 pages (37.7%) — 13s — 24.0 pages/s      📄 310/796 pages (38.9%) — 13s — 24.1 pages/s      📄 320/796 pages (40.2%) — 13s — 24.1 pages/s      📄 330/796 pages (41.5%) — 14s — 24.1 pages/s      📄 340/796 pages (42.7%) — 14s — 24.2 pages/s      📄 350/796 pages (44.0%) — 14s — 24.2 pages/s      📄 360/796 pages (45.2%) — 15s — 24.2 pages/s      📄 370/796 pages (46.5%) — 15s — 24.2 pages/s      📄 380/796 pages (47.7%) — 16s — 24.2 pages/s      📄 390/796 pages (49.0%) — 16s — 24.4 pages/s      📄 400/796 pages (50.3%) — 16s — 24.4 pages/s      📄 410/796 pages (51.5%) — 17s — 24.3 pages/s      📄 420/796 pages (52.8%) — 17s — 24.1 pages/s      📄 430/796 pages (54.0%) — 18s — 24.3 pages/s      📄 440/796 pages (55.3%) — 18s — 24.4 pages/s      📄 450/796 pages (56.5%) — 19s — 24.2 pages/s      📄 460/796 pages (57.8%) — 19s — 24.4 pages/s      📄 470/796 pages (59.0%) — 19s — 24.4 pages/s      📄 480/796 pages (60.3%) — 20s — 24.5 pages/s      📄 490/796 pages (61.6%) — 20s — 24.5 pages/s      📄 500/796 pages (62.8%) — 20s — 24.7 pages/s      📄 510/796 pages (64.1%) — 21s — 24.9 pages/s      📄 520/796 pages (65.3%) — 21s — 24.8 pages/s      📄 530/796 pages (66.6%) — 21s — 24.9 pages/s      📄 540/796 pages (67.8%) — 22s — 25.1 pages/s      📄 550/796 pages (69.1%) — 22s — 25.1 pages/s      📄 560/796 pages (70.4%) — 22s — 24.9 pages/s      📄 570/796 pages (71.6%) — 23s — 24.9 pages/s      📄 580/796 pages (72.9%) — 23s — 24.8 pages/s      📄 590/796 pages (74.1%) — 24s — 24.9 pages/s      📄 600/796 pages (75.4%) — 24s — 25.0 pages/s      📄 610/796 pages (76.6%) — 24s — 25.1 pages/s      📄 620/796 pages (77.9%) — 25s — 25.0 pages/s      📄 630/796 pages (79.1%) — 25s — 25.0 pages/s      📄 640/796 pages (80.4%) — 26s — 24.9 pages/s      📄 650/796 pages (81.7%) — 26s — 25.1 pages/s      📄 660/796 pages (82.9%) — 26s — 24.9 pages/s      📄 670/796 pages (84.2%) — 27s — 25.0 pages/s      📄 680/796 pages (85.4%) — 27s — 24.9 pages/s      📄 690/796 pages (86.7%) — 28s — 25.0 pages/s      📄 700/796 pages (87.9%) — 28s — 25.0 pages/s      📄 710/796 pages (89.2%) — 28s — 24.9 pages/s      📄 720/796 pages (90.5%) — 29s — 25.1 pages/s      📄 730/796 pages (91.7%) — 29s — 25.2 pages/s      📄 740/796 pages (93.0%) — 29s — 25.3 pages/s      📄 750/796 pages (94.2%) — 29s — 25.4 pages/s      📄 760/796 pages (95.5%) — 30s — 25.4 pages/s      📄 770/796 pages (96.7%) — 30s — 25.5 pages/s      📄 780/796 pages (98.0%) — 30s — 25.6 pages/s      📄 790/796 pages (99.2%) — 34s — 22.9 pages/s      📄 796/796 pages (100.0%) — 53s — 15.2 pages/s   
-   ✂️  Split into 1094 verses (2193020 chars total)
-   ✅ Done in 53.2s — 1094 verses saved
-
-📖 Processing: Shiva Purana
-   PDF: shiv-puran.pdf (812 pages)
-   📄 10/812 pages (1.2%) — 1s — 6.9 pages/s      📄 20/812 pages (2.5%) — 2s — 11.9 pages/s      📄 30/812 pages (3.7%) — 2s — 15.4 pages/s      📄 40/812 pages (4.9%) — 2s — 18.7 pages/s      📄 50/812 pages (6.2%) — 3s — 18.5 pages/s      📄 60/812 pages (7.4%) — 3s — 18.6 pages/s      📄 70/812 pages (8.6%) — 3s — 20.4 pages/s      📄 80/812 pages (9.9%) — 4s — 21.8 pages/s      📄 90/812 pages (11.1%) — 4s — 22.0 pages/s      📄 100/812 pages (12.3%) — 4s — 22.6 pages/s      📄 110/812 pages (13.5%) — 5s — 23.4 pages/s      📄 120/812 pages (14.8%) — 5s — 23.9 pages/s      📄 130/812 pages (16.0%) — 5s — 23.9 pages/s      📄 140/812 pages (17.2%) — 6s — 23.3 pages/s      📄 150/812 pages (18.5%) — 6s — 23.5 pages/s      📄 160/812 pages (19.7%) — 7s — 23.7 pages/s      📄 170/812 pages (20.9%) — 7s — 24.1 pages/s      📄 180/812 pages (22.2%) — 7s — 24.0 pages/s      📄 190/812 pages (23.4%) — 8s — 24.4 pages/s      📄 200/812 pages (24.6%) — 8s — 24.6 pages/s      📄 210/812 pages (25.9%) — 8s — 24.8 pages/s      📄 220/812 pages (27.1%) — 9s — 25.2 pages/s      📄 230/812 pages (28.3%) — 9s — 25.4 pages/s      📄 240/812 pages (29.6%) — 9s — 25.7 pages/s      📄 250/812 pages (30.8%) — 10s — 26.0 pages/s      📄 260/812 pages (32.0%) — 10s — 26.0 pages/s      📄 270/812 pages (33.3%) — 10s — 26.2 pages/s      📄 280/812 pages (34.5%) — 11s — 26.3 pages/s      📄 290/812 pages (35.7%) — 11s — 26.4 pages/s      📄 300/812 pages (36.9%) — 11s — 26.4 pages/s      📄 310/812 pages (38.2%) — 12s — 26.7 pages/s      📄 320/812 pages (39.4%) — 12s — 26.9 pages/s      📄 330/812 pages (40.6%) — 12s — 26.8 pages/s      📄 340/812 pages (41.9%) — 13s — 27.1 pages/s      📄 350/812 pages (43.1%) — 13s — 27.4 pages/s      📄 360/812 pages (44.3%) — 13s — 27.6 pages/s      📄 370/812 pages (45.6%) — 13s — 27.4 pages/s      📄 380/812 pages (46.8%) — 14s — 27.3 pages/s      📄 390/812 pages (48.0%) — 14s — 27.4 pages/s      📄 400/812 pages (49.3%) — 15s — 27.4 pages/s      📄 410/812 pages (50.5%) — 15s — 27.4 pages/s      📄 420/812 pages (51.7%) — 15s — 27.1 pages/s      📄 430/812 pages (53.0%) — 16s — 27.5 pages/s      📄 440/812 pages (54.2%) — 16s — 27.2 pages/s      📄 450/812 pages (55.4%) — 17s — 27.2 pages/s      📄 460/812 pages (56.7%) — 17s — 27.3 pages/s      📄 470/812 pages (57.9%) — 17s — 27.3 pages/s      📄 480/812 pages (59.1%) — 18s — 27.3 pages/s      📄 490/812 pages (60.3%) — 18s — 27.4 pages/s      📄 500/812 pages (61.6%) — 18s — 27.5 pages/s      📄 510/812 pages (62.8%) — 19s — 27.5 pages/s      📄 520/812 pages (64.0%) — 19s — 27.6 pages/s      📄 530/812 pages (65.3%) — 19s — 27.6 pages/s      📄 540/812 pages (66.5%) — 20s — 27.5 pages/s      📄 550/812 pages (67.7%) — 20s — 27.7 pages/s      📄 560/812 pages (69.0%) — 20s — 27.6 pages/s      📄 570/812 pages (70.2%) — 21s — 27.5 pages/s      📄 580/812 pages (71.4%) — 21s — 27.5 pages/s      📄 590/812 pages (72.7%) — 22s — 27.4 pages/s      📄 600/812 pages (73.9%) — 22s — 27.2 pages/s      📄 610/812 pages (75.1%) — 22s — 27.3 pages/s      📄 620/812 pages (76.4%) — 23s — 27.3 pages/s      📄 630/812 pages (77.6%) — 23s — 27.2 pages/s      📄 640/812 pages (78.8%) — 24s — 27.2 pages/s      📄 650/812 pages (80.0%) — 24s — 27.3 pages/s      📄 660/812 pages (81.3%) — 24s — 27.2 pages/s      📄 670/812 pages (82.5%) — 25s — 27.2 pages/s      📄 680/812 pages (83.7%) — 25s — 27.3 pages/s      📄 690/812 pages (85.0%) — 25s — 27.2 pages/s      📄 700/812 pages (86.2%) — 26s — 27.2 pages/s      📄 710/812 pages (87.4%) — 26s — 27.3 pages/s      📄 720/812 pages (88.7%) — 26s — 27.3 pages/s      📄 730/812 pages (89.9%) — 27s — 27.4 pages/s      📄 740/812 pages (91.1%) — 27s — 27.4 pages/s      📄 750/812 pages (92.4%) — 27s — 27.5 pages/s      📄 760/812 pages (93.6%) — 28s — 27.6 pages/s      📄 770/812 pages (94.8%) — 28s — 27.5 pages/s      📄 780/812 pages (96.1%) — 28s — 27.6 pages/s      📄 790/812 pages (97.3%) — 29s — 27.5 pages/s      📄 800/812 pages (98.5%) — 30s — 26.5 pages/s      📄 810/812 pages (99.8%) — 37s — 21.9 pages/s      📄 812/812 pages (100.0%) — 52s — 15.7 pages/s   
-   ✂️  Split into 478 verses (1854925 chars total)
-   ✅ Done in 52.1s — 478 verses saved
-
-📖 Processing: Kalyan Upanishad Ank
-   PDF: Kalyan Upanishad Ank Vol. 23 Issue No. 1 Jan 1949 - Gita Press.pdf (832 pages)
-
-   ⚠️  Page 3 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 7 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 11 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 15 render failed: malloc (745024479 bytes) failed
-   📄 10/832 pages (1.2%) — 16s — 0.6 pages/s   
-   ⚠️  Page 19 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 23 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 27 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 31 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 35 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 39 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 43 render failed: malloc (745024479 bytes) failed
-   📄 20/832 pages (2.4%) — 21s — 1.0 pages/s   
-   ⚠️  Page 47 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 51 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 55 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 59 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 63 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 67 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 71 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 75 render failed: malloc (745024479 bytes) failed
-   📄 30/832 pages (3.6%) — 26s — 1.2 pages/s   
-   ⚠️  Page 79 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 83 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 87 render failed: malloc (745024479 bytes) failed
-   📄 40/832 pages (4.8%) — 47s — 0.9 pages/s   
-   ⚠️  Page 91 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 95 render failed: malloc (745024479 bytes) failed
-   📄 50/832 pages (6.0%) — 57s — 0.9 pages/s   
-   ⚠️  Page 99 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 103 render failed: malloc (745024479 bytes) failed
-   📄 60/832 pages (7.2%) — 63s — 1.0 pages/s   
-   ⚠️  Page 107 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 111 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 115 render failed: malloc (745024479 bytes) failed
-   📄 70/832 pages (8.4%) — 68s — 1.0 pages/s   
-   ⚠️  Page 119 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 123 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 127 render failed: malloc (745024479 bytes) failed
-   📄 80/832 pages (9.6%) — 80s — 1.0 pages/s   
-   ⚠️  Page 131 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 135 render failed: malloc (745024479 bytes) failed
-   📄 90/832 pages (10.8%) — 89s — 1.0 pages/s   
-   ⚠️  Page 139 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 143 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 147 render failed: malloc (745024479 bytes) failed
-   📄 100/832 pages (12.0%) — 94s — 1.1 pages/s   
-   ⚠️  Page 151 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 155 render failed: malloc (745024479 bytes) failed
-   📄 110/832 pages (13.2%) — 99s — 1.1 pages/s   
-   ⚠️  Page 159 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 163 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 167 render failed: malloc (745024479 bytes) failed
-   📄 120/832 pages (14.4%) — 110s — 1.1 pages/s   
-   ⚠️  Page 171 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 175 render failed: malloc (745024479 bytes) failed
-   📄 130/832 pages (15.6%) — 119s — 1.1 pages/s   
-   ⚠️  Page 179 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 183 render failed: malloc (745024479 bytes) failed
-   📄 140/832 pages (16.8%) — 127s — 1.1 pages/s   
-   ⚠️  Page 187 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 191 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 195 render failed: malloc (745024479 bytes) failed
-   📄 150/832 pages (18.0%) — 134s — 1.1 pages/s   
-   ⚠️  Page 199 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 203 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 207 render failed: malloc (745024479 bytes) failed
-   📄 160/832 pages (19.2%) — 140s — 1.1 pages/s   
-   ⚠️  Page 211 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 215 render failed: malloc (745024479 bytes) failed
-   📄 170/832 pages (20.4%) — 152s — 1.1 pages/s   
-   ⚠️  Page 219 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 223 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 227 render failed: malloc (745024479 bytes) failed
-   📄 180/832 pages (21.6%) — 157s — 1.1 pages/s   
-   ⚠️  Page 231 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 235 render failed: malloc (745024479 bytes) failed
-   📄 190/832 pages (22.8%) — 162s — 1.2 pages/s   
-   ⚠️  Page 239 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 243 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 247 render failed: malloc (745024479 bytes) failed
-   📄 200/832 pages (24.0%) — 168s — 1.2 pages/s   
-   ⚠️  Page 251 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 255 render failed: malloc (745024479 bytes) failed
-   📄 210/832 pages (25.2%) — 179s — 1.2 pages/s   
-   ⚠️  Page 259 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 263 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 267 render failed: malloc (745024479 bytes) failed
-   📄 220/832 pages (26.4%) — 189s — 1.2 pages/s   
-   ⚠️  Page 271 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 275 render failed: malloc (745024479 bytes) failed
-   📄 230/832 pages (27.6%) — 197s — 1.2 pages/s   
-   ⚠️  Page 279 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 283 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 287 render failed: malloc (745024479 bytes) failed
-   📄 240/832 pages (28.8%) — 203s — 1.2 pages/s   
-   ⚠️  Page 291 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 295 render failed: malloc (745024479 bytes) failed
-   📄 250/832 pages (30.0%) — 206s — 1.2 pages/s   
-   ⚠️  Page 299 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 303 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 307 render failed: malloc (745024479 bytes) failed
-   📄 260/832 pages (31.3%) — 213s — 1.2 pages/s   
-   ⚠️  Page 311 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 315 render failed: malloc (745024479 bytes) failed
-   📄 270/832 pages (32.5%) — 224s — 1.2 pages/s   
-   ⚠️  Page 319 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 323 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 327 render failed: malloc (745024479 bytes) failed
-   📄 280/832 pages (33.7%) — 233s — 1.2 pages/s   
-   ⚠️  Page 331 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 335 render failed: malloc (745024479 bytes) failed
-   📄 290/832 pages (34.9%) — 238s — 1.2 pages/s   
-   ⚠️  Page 339 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 343 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 347 render failed: malloc (745024479 bytes) failed
-   📄 300/832 pages (36.1%) — 246s — 1.2 pages/s   
-   ⚠️  Page 351 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 355 render failed: malloc (745024479 bytes) failed
-   📄 310/832 pages (37.3%) — 255s — 1.2 pages/s   
-   ⚠️  Page 359 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 363 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 367 render failed: malloc (745024479 bytes) failed
-   📄 320/832 pages (38.5%) — 265s — 1.2 pages/s   
-   ⚠️  Page 371 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 375 render failed: malloc (745024479 bytes) failed
-   📄 330/832 pages (39.7%) — 270s — 1.2 pages/s   
-   ⚠️  Page 379 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 383 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 387 render failed: malloc (745024479 bytes) failed
-   📄 340/832 pages (40.9%) — 277s — 1.2 pages/s   
-   ⚠️  Page 391 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 395 render failed: malloc (745024479 bytes) failed
-   📄 350/832 pages (42.1%) — 288s — 1.2 pages/s   
-   ⚠️  Page 399 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 403 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 407 render failed: malloc (745024479 bytes) failed
-   📄 360/832 pages (43.3%) — 292s — 1.2 pages/s   
-   ⚠️  Page 411 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 415 render failed: malloc (745024479 bytes) failed
-   📄 370/832 pages (44.5%) — 301s — 1.2 pages/s   
-   ⚠️  Page 419 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 423 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 427 render failed: malloc (745024479 bytes) failed
-   📄 380/832 pages (45.7%) — 308s — 1.2 pages/s   
-   ⚠️  Page 431 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 435 render failed: malloc (745024479 bytes) failed
-   📄 390/832 pages (46.9%) — 315s — 1.2 pages/s   
-   ⚠️  Page 439 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 443 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 447 render failed: malloc (745024479 bytes) failed
-   📄 400/832 pages (48.1%) — 320s — 1.3 pages/s   
-   ⚠️  Page 451 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 455 render failed: malloc (745024479 bytes) failed
-   📄 410/832 pages (49.3%) — 331s — 1.2 pages/s   
-   ⚠️  Page 459 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 463 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 467 render failed: malloc (745024479 bytes) failed
-   📄 420/832 pages (50.5%) — 335s — 1.3 pages/s   
-   ⚠️  Page 471 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 475 render failed: malloc (745024479 bytes) failed
-   📄 430/832 pages (51.7%) — 344s — 1.2 pages/s   
-   ⚠️  Page 479 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 483 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 487 render failed: malloc (745024479 bytes) failed
-   📄 440/832 pages (52.9%) — 348s — 1.3 pages/s   
-   ⚠️  Page 491 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 495 render failed: malloc (745024479 bytes) failed
-   📄 450/832 pages (54.1%) — 355s — 1.3 pages/s   
-   ⚠️  Page 499 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 503 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 507 render failed: malloc (745024479 bytes) failed
-   📄 460/832 pages (55.3%) — 365s — 1.3 pages/s   
-   ⚠️  Page 511 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 515 render failed: malloc (745024479 bytes) failed
-   📄 470/832 pages (56.5%) — 368s — 1.3 pages/s   
-   ⚠️  Page 519 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 523 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 527 render failed: malloc (745024479 bytes) failed
-   📄 480/832 pages (57.7%) — 374s — 1.3 pages/s   
-   ⚠️  Page 531 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 535 render failed: malloc (745024479 bytes) failed
-   📄 490/832 pages (58.9%) — 382s — 1.3 pages/s   
-   ⚠️  Page 539 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 543 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 547 render failed: malloc (745024479 bytes) failed
-   📄 500/832 pages (60.1%) — 392s — 1.3 pages/s   
-   ⚠️  Page 551 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 555 render failed: malloc (745024479 bytes) failed
-   📄 510/832 pages (61.3%) — 402s — 1.3 pages/s   
-   ⚠️  Page 559 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 563 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 567 render failed: malloc (745024479 bytes) failed
-   📄 520/832 pages (62.5%) — 407s — 1.3 pages/s   
-   ⚠️  Page 571 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 575 render failed: malloc (745024479 bytes) failed
-   📄 530/832 pages (63.7%) — 415s — 1.3 pages/s   
-   ⚠️  Page 579 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 583 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 587 render failed: malloc (745024479 bytes) failed
-   📄 540/832 pages (64.9%) — 419s — 1.3 pages/s   
-   ⚠️  Page 591 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 595 render failed: malloc (745024479 bytes) failed
-   📄 550/832 pages (66.1%) — 430s — 1.3 pages/s   
-   ⚠️  Page 599 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 603 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 607 render failed: malloc (745024479 bytes) failed
-   📄 560/832 pages (67.3%) — 435s — 1.3 pages/s   
-   ⚠️  Page 611 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 615 render failed: malloc (745024479 bytes) failed
-   📄 570/832 pages (68.5%) — 442s — 1.3 pages/s   
-   ⚠️  Page 619 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 623 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 627 render failed: malloc (745024479 bytes) failed
-   📄 580/832 pages (69.7%) — 451s — 1.3 pages/s   
-   ⚠️  Page 631 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 635 render failed: malloc (745024479 bytes) failed
-   📄 590/832 pages (70.9%) — 455s — 1.3 pages/s   
-   ⚠️  Page 639 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 643 render failed: malloc (745024479 bytes) failed
-   📄 600/832 pages (72.1%) — 466s — 1.3 pages/s   
-   ⚠️  Page 647 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 651 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 655 render failed: malloc (745024479 bytes) failed
-   📄 610/832 pages (73.3%) — 474s — 1.3 pages/s   
-   ⚠️  Page 659 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 663 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 667 render failed: malloc (745024479 bytes) failed
-   📄 620/832 pages (74.5%) — 482s — 1.3 pages/s   
-   ⚠️  Page 671 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 675 render failed: malloc (745024479 bytes) failed
-   📄 630/832 pages (75.7%) — 488s — 1.3 pages/s   
-   ⚠️  Page 679 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 683 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 687 render failed: malloc (745024479 bytes) failed
-   📄 640/832 pages (76.9%) — 494s — 1.3 pages/s   
-   ⚠️  Page 691 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 695 render failed: malloc (745024479 bytes) failed
-   📄 650/832 pages (78.1%) — 501s — 1.3 pages/s   
-   ⚠️  Page 699 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 703 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 707 render failed: malloc (745024479 bytes) failed
-   📄 660/832 pages (79.3%) — 509s — 1.3 pages/s   
-   ⚠️  Page 711 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 715 render failed: malloc (745024479 bytes) failed
-   📄 670/832 pages (80.5%) — 521s — 1.3 pages/s   
-   ⚠️  Page 719 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 723 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 727 render failed: malloc (745024479 bytes) failed
-   📄 680/832 pages (81.7%) — 525s — 1.3 pages/s   
-   ⚠️  Page 731 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 735 render failed: malloc (745024479 bytes) failed
-   📄 690/832 pages (82.9%) — 532s — 1.3 pages/s   
-   ⚠️  Page 739 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 743 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 747 render failed: malloc (745024479 bytes) failed
-   📄 700/832 pages (84.1%) — 537s — 1.3 pages/s   
-   ⚠️  Page 751 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 755 render failed: malloc (745024479 bytes) failed
-   📄 710/832 pages (85.3%) — 547s — 1.3 pages/s   
-   ⚠️  Page 759 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 763 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 767 render failed: malloc (745024479 bytes) failed
-   📄 720/832 pages (86.5%) — 558s — 1.3 pages/s   
-   ⚠️  Page 771 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 775 render failed: malloc (745024479 bytes) failed
-   📄 730/832 pages (87.7%) — 563s — 1.3 pages/s   
-   ⚠️  Page 779 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 783 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 787 render failed: malloc (745024479 bytes) failed
-   📄 740/832 pages (88.9%) — 567s — 1.3 pages/s   
-   ⚠️  Page 791 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 795 render failed: malloc (745024479 bytes) failed
-   📄 750/832 pages (90.1%) — 574s — 1.3 pages/s   
-   ⚠️  Page 799 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 803 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 807 render failed: malloc (745024479 bytes) failed
-   📄 760/832 pages (91.3%) — 590s — 1.3 pages/s   
-   ⚠️  Page 811 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 815 render failed: malloc (745024479 bytes) failed
-   📄 770/832 pages (92.5%) — 595s — 1.3 pages/s   
-   ⚠️  Page 819 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 823 render failed: malloc (745024479 bytes) failed
-
-   ⚠️  Page 827 render failed: malloc (745024479 bytes) failed
-   📄 780/832 pages (93.8%) — 600s — 1.3 pages/s   
-   ⚠️  Page 831 render failed: malloc (745024479 bytes) failed
-   📄 790/832 pages (95.0%) — 605s — 1.3 pages/s      📄 800/832 pages (96.2%) — 617s — 1.3 pages/s      📄 810/832 pages (97.4%) — 626s — 1.3 pages/s      📄 820/832 pages (98.6%) — 631s — 1.3 pages/s      📄 830/832 pages (99.8%) — 641s — 1.3 pages/s      📄 832/832 pages (100.0%) — 693s — 1.2 pages/s   
-   ✂️  Split into 1433 verses (1953753 chars total)
-   ✅ Done in 693.8s — 1433 verses saved
-
-📖 Processing: Agni Purana
-   PDF: agni-puran.pdf (842 pages)
-
-   ⚠️  Page 29 OCR failed: fetch failed
-   📄 10/842 pages (1.2%) — 12s — 0.8 pages/s      📄 20/842 pages (2.4%) — 13s — 1.6 pages/s      📄 30/842 pages (3.6%) — 13s — 2.3 pages/s      📄 40/842 pages (4.8%) — 13s — 3.0 pages/s      📄 50/842 pages (5.9%) — 14s — 3.5 pages/s      📄 60/842 pages (7.1%) — 15s — 4.1 pages/s      📄 70/842 pages (8.3%) — 15s — 4.7 pages/s      📄 80/842 pages (9.5%) — 15s — 5.3 pages/s      📄 90/842 pages (10.7%) — 15s — 5.9 pages/s      📄 100/842 pages (11.9%) — 16s — 6.4 pages/s      📄 110/842 pages (13.1%) — 16s — 6.9 pages/s      📄 120/842 pages (14.3%) — 16s — 7.4 pages/s   
-   ⚠️  Page 162 render failed: Cannot transfer object of unsupported type.
-   📄 130/842 pages (15.4%) — 17s — 7.8 pages/s      📄 140/842 pages (16.6%) — 17s — 8.1 pages/s      📄 150/842 pages (17.8%) — 18s — 8.5 pages/s      📄 160/842 pages (19.0%) — 18s — 8.9 pages/s      📄 170/842 pages (20.2%) — 18s — 9.3 pages/s      📄 180/842 pages (21.4%) — 19s — 9.6 pages/s      📄 190/842 pages (22.6%) — 19s — 9.9 pages/s      📄 200/842 pages (23.8%) — 20s — 10.3 pages/s      📄 210/842 pages (24.9%) — 20s — 10.5 pages/s      📄 220/842 pages (26.1%) — 20s — 10.9 pages/s      📄 230/842 pages (27.3%) — 21s — 11.1 pages/s      📄 240/842 pages (28.5%) — 21s — 11.4 pages/s      📄 250/842 pages (29.7%) — 21s — 11.7 pages/s      📄 260/842 pages (30.9%) — 22s — 11.9 pages/s      📄 270/842 pages (32.1%) — 22s — 12.1 pages/s      📄 280/842 pages (33.3%) — 23s — 12.4 pages/s      📄 290/842 pages (34.4%) — 23s — 12.7 pages/s      📄 300/842 pages (35.6%) — 23s — 12.9 pages/s      📄 310/842 pages (36.8%) — 24s — 13.0 pages/s      📄 320/842 pages (38.0%) — 24s — 13.2 pages/s      📄 330/842 pages (39.2%) — 25s — 13.4 pages/s      📄 340/842 pages (40.4%) — 25s — 13.7 pages/s      📄 350/842 pages (41.6%) — 25s — 13.9 pages/s      📄 360/842 pages (42.8%) — 26s — 14.0 pages/s      📄 370/842 pages (43.9%) — 26s — 14.2 pages/s      📄 380/842 pages (45.1%) — 26s — 14.4 pages/s      📄 390/842 pages (46.3%) — 27s — 14.6 pages/s      📄 400/842 pages (47.5%) — 27s — 14.7 pages/s      📄 410/842 pages (48.7%) — 28s — 14.8 pages/s      📄 420/842 pages (49.9%) — 28s — 15.0 pages/s      📄 430/842 pages (51.1%) — 28s — 15.2 pages/s      📄 440/842 pages (52.3%) — 29s — 15.3 pages/s      📄 450/842 pages (53.4%) — 29s — 15.4 pages/s      📄 460/842 pages (54.6%) — 30s — 15.6 pages/s      📄 470/842 pages (55.8%) — 30s — 15.7 pages/s      📄 480/842 pages (57.0%) — 30s — 15.8 pages/s      📄 490/842 pages (58.2%) — 31s — 15.9 pages/s      📄 500/842 pages (59.4%) — 31s — 16.1 pages/s      📄 510/842 pages (60.6%) — 31s — 16.2 pages/s      📄 520/842 pages (61.8%) — 32s — 16.3 pages/s      📄 530/842 pages (62.9%) — 32s — 16.4 pages/s      📄 540/842 pages (64.1%) — 33s — 16.6 pages/s      📄 550/842 pages (65.3%) — 33s — 16.7 pages/s      📄 560/842 pages (66.5%) — 33s — 16.8 pages/s      📄 570/842 pages (67.7%) — 34s — 17.0 pages/s      📄 580/842 pages (68.9%) — 34s — 17.1 pages/s      📄 590/842 pages (70.1%) — 34s — 17.3 pages/s      📄 600/842 pages (71.3%) — 35s — 17.3 pages/s      📄 610/842 pages (72.4%) — 35s — 17.3 pages/s      📄 620/842 pages (73.6%) — 36s — 17.5 pages/s      📄 630/842 pages (74.8%) — 36s — 17.6 pages/s      📄 640/842 pages (76.0%) — 36s — 17.7 pages/s      📄 650/842 pages (77.2%) — 37s — 17.8 pages/s      📄 660/842 pages (78.4%) — 37s — 17.9 pages/s      📄 670/842 pages (79.6%) — 37s — 17.9 pages/s      📄 680/842 pages (80.8%) — 38s — 18.0 pages/s      📄 690/842 pages (81.9%) — 38s — 18.1 pages/s      📄 700/842 pages (83.1%) — 39s — 18.1 pages/s      📄 710/842 pages (84.3%) — 39s — 18.2 pages/s      📄 720/842 pages (85.5%) — 39s — 18.3 pages/s      📄 730/842 pages (86.7%) — 40s — 18.3 pages/s      📄 740/842 pages (87.9%) — 40s — 18.3 pages/s      📄 750/842 pages (89.1%) — 41s — 18.4 pages/s      📄 760/842 pages (90.3%) — 41s — 18.5 pages/s      📄 770/842 pages (91.4%) — 42s — 18.5 pages/s      📄 780/842 pages (92.6%) — 42s — 18.6 pages/s      📄 790/842 pages (93.8%) — 42s — 18.7 pages/s      📄 800/842 pages (95.0%) — 43s — 18.8 pages/s      📄 810/842 pages (96.2%) — 43s — 18.8 pages/s      📄 820/842 pages (97.4%) — 43s — 18.9 pages/s      📄 830/842 pages (98.6%) — 44s — 19.0 pages/s      📄 840/842 pages (99.8%) — 47s — 18.0 pages/s      📄 842/842 pages (100.0%) — 54s — 15.7 pages/s   
-   ✂️  Split into 1766 verses (2342821 chars total)
-   ✅ Done in 54.5s — 1766 verses saved
-
-📖 Processing: Yoga Vasishtha Vol. 4
-   PDF: shri-yogavasishtha-4.pdf (866 pages)
-   📄 10/866 pages (1.2%) — 2s — 5.7 pages/s      📄 20/866 pages (2.3%) — 3s — 6.9 pages/s      📄 30/866 pages (3.5%) — 4s — 7.8 pages/s      📄 40/866 pages (4.6%) — 5s — 8.5 pages/s      📄 50/866 pages (5.8%) — 5s — 9.3 pages/s      📄 60/866 pages (6.9%) — 6s — 9.8 pages/s      📄 70/866 pages (8.1%) — 7s — 10.6 pages/s      📄 80/866 pages (9.2%) — 8s — 10.5 pages/s      📄 90/866 pages (10.4%) — 8s — 10.6 pages/s      📄 100/866 pages (11.5%) — 9s — 11.2 pages/s      📄 110/866 pages (12.7%) — 10s — 11.3 pages/s      📄 120/866 pages (13.9%) — 11s — 11.1 pages/s      📄 130/866 pages (15.0%) — 11s — 11.4 pages/s      📄 140/866 pages (16.2%) — 12s — 11.8 pages/s      📄 150/866 pages (17.3%) — 13s — 11.7 pages/s      📄 160/866 pages (18.5%) — 14s — 11.6 pages/s      📄 170/866 pages (19.6%) — 15s — 11.7 pages/s      📄 180/866 pages (20.8%) — 15s — 11.7 pages/s      📄 190/866 pages (21.9%) — 16s — 11.8 pages/s      📄 200/866 pages (23.1%) — 17s — 11.7 pages/s      📄 210/866 pages (24.2%) — 18s — 11.9 pages/s      📄 220/866 pages (25.4%) — 18s — 12.2 pages/s      📄 230/866 pages (26.6%) — 19s — 11.9 pages/s      📄 240/866 pages (27.7%) — 20s — 12.0 pages/s      📄 250/866 pages (28.9%) — 20s — 12.2 pages/s      📄 260/866 pages (30.0%) — 22s — 12.0 pages/s      📄 270/866 pages (31.2%) — 22s — 12.1 pages/s      📄 280/866 pages (32.3%) — 23s — 12.2 pages/s      📄 290/866 pages (33.5%) — 24s — 12.3 pages/s      📄 300/866 pages (34.6%) — 25s — 12.2 pages/s      📄 310/866 pages (35.8%) — 25s — 12.2 pages/s      📄 320/866 pages (37.0%) — 26s — 12.2 pages/s      📄 330/866 pages (38.1%) — 27s — 12.3 pages/s      📄 340/866 pages (39.3%) — 28s — 12.3 pages/s      📄 350/866 pages (40.4%) — 28s — 12.3 pages/s      📄 360/866 pages (41.6%) — 29s — 12.4 pages/s      📄 370/866 pages (42.7%) — 30s — 12.4 pages/s      📄 380/866 pages (43.9%) — 31s — 12.4 pages/s      📄 390/866 pages (45.0%) — 32s — 12.4 pages/s      📄 400/866 pages (46.2%) — 32s — 12.5 pages/s      📄 410/866 pages (47.3%) — 33s — 12.4 pages/s      📄 420/866 pages (48.5%) — 34s — 12.4 pages/s      📄 430/866 pages (49.7%) — 34s — 12.5 pages/s      📄 440/866 pages (50.8%) — 35s — 12.4 pages/s      📄 450/866 pages (52.0%) — 36s — 12.5 pages/s      📄 460/866 pages (53.1%) — 37s — 12.5 pages/s      📄 470/866 pages (54.3%) — 37s — 12.5 pages/s      📄 480/866 pages (55.4%) — 38s — 12.5 pages/s      📄 490/866 pages (56.6%) — 39s — 12.5 pages/s      📄 500/866 pages (57.7%) — 40s — 12.5 pages/s      📄 510/866 pages (58.9%) — 41s — 12.6 pages/s      📄 520/866 pages (60.0%) — 42s — 12.5 pages/s      📄 530/866 pages (61.2%) — 43s — 12.5 pages/s      📄 540/866 pages (62.4%) — 43s — 12.5 pages/s      📄 550/866 pages (63.5%) — 44s — 12.4 pages/s      📄 560/866 pages (64.7%) — 45s — 12.5 pages/s      📄 570/866 pages (65.8%) — 46s — 12.5 pages/s      📄 580/866 pages (67.0%) — 47s — 12.4 pages/s      📄 590/866 pages (68.1%) — 48s — 12.3 pages/s      📄 600/866 pages (69.3%) — 49s — 12.3 pages/s      📄 610/866 pages (70.4%) — 49s — 12.4 pages/s      📄 620/866 pages (71.6%) — 50s — 12.4 pages/s      📄 630/866 pages (72.7%) — 51s — 12.4 pages/s      📄 640/866 pages (73.9%) — 52s — 12.4 pages/s      📄 650/866 pages (75.1%) — 53s — 12.4 pages/s      📄 660/866 pages (76.2%) — 53s — 12.4 pages/s      📄 670/866 pages (77.4%) — 55s — 12.3 pages/s      📄 680/866 pages (78.5%) — 55s — 12.4 pages/s      📄 690/866 pages (79.7%) — 56s — 12.4 pages/s      📄 700/866 pages (80.8%) — 57s — 12.3 pages/s      📄 710/866 pages (82.0%) — 58s — 12.3 pages/s      📄 720/866 pages (83.1%) — 59s — 12.3 pages/s      📄 730/866 pages (84.3%) — 60s — 12.2 pages/s      📄 740/866 pages (85.5%) — 60s — 12.3 pages/s      📄 750/866 pages (86.6%) — 61s — 12.3 pages/s      📄 760/866 pages (87.8%) — 62s — 12.2 pages/s      📄 770/866 pages (88.9%) — 63s — 12.2 pages/s      📄 780/866 pages (90.1%) — 64s — 12.2 pages/s      📄 790/866 pages (91.2%) — 65s — 12.2 pages/s      📄 800/866 pages (92.4%) — 65s — 12.2 pages/s      📄 810/866 pages (93.5%) — 66s — 12.2 pages/s      📄 820/866 pages (94.7%) — 67s — 12.2 pages/s      📄 830/866 pages (95.8%) — 68s — 12.2 pages/s      📄 840/866 pages (97.0%) — 69s — 12.3 pages/s      📄 850/866 pages (98.2%) — 69s — 12.3 pages/s      📄 860/866 pages (99.3%) — 71s — 12.2 pages/s      📄 866/866 pages (100.0%) — 86s — 10.1 pages/s   
-   ✂️  Split into 2283 verses (2177639 chars total)
-   ✅ Done in 87.2s — 2283 verses saved
-
-📖 Processing: Devi Bhagavata Purana
-   PDF: Devi Bhagavt Puran of Veda Vyas with Hindi Explanation and Illustration - Gita Press.pdf (888 pages)
-
-   ⚠️  Page 4 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 8 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 12 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 16 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 20 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 24 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 28 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 32 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 36 render failed: malloc (666700190 bytes) failed
-   📄 10/888 pages (1.1%) — 12s — 0.8 pages/s   
-   ⚠️  Page 40 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 44 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 48 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 52 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 56 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 60 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 64 render failed: malloc (666700190 bytes) failed
-   📄 20/888 pages (2.3%) — 16s — 1.2 pages/s   
-   ⚠️  Page 68 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 72 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 76 render failed: malloc (666700190 bytes) failed
-   📄 30/888 pages (3.4%) — 32s — 0.9 pages/s   
-   ⚠️  Page 80 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 84 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 88 render failed: malloc (666700190 bytes) failed
-   📄 40/888 pages (4.5%) — 41s — 1.0 pages/s   
-   ⚠️  Page 92 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 96 render failed: malloc (666700190 bytes) failed
-   📄 50/888 pages (5.6%) — 47s — 1.1 pages/s   
-   ⚠️  Page 100 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 104 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 108 render failed: malloc (666700190 bytes) failed
-   📄 60/888 pages (6.8%) — 50s — 1.2 pages/s   
-   ⚠️  Page 112 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 116 render failed: malloc (666700190 bytes) failed
-   📄 70/888 pages (7.9%) — 58s — 1.2 pages/s   
-   ⚠️  Page 120 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 124 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 128 render failed: malloc (666700190 bytes) failed
-   📄 80/888 pages (9.0%) — 68s — 1.2 pages/s   
-   ⚠️  Page 132 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 136 render failed: malloc (666700190 bytes) failed
-   📄 90/888 pages (10.1%) — 74s — 1.2 pages/s   
-   ⚠️  Page 140 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 144 render failed: malloc (666700190 bytes) failed
-   📄 100/888 pages (11.3%) — 80s — 1.2 pages/s   
-   ⚠️  Page 148 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 152 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 156 render failed: malloc (666700190 bytes) failed
-   📄 110/888 pages (12.4%) — 82s — 1.3 pages/s   
-   ⚠️  Page 160 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 164 render failed: malloc (666700190 bytes) failed
-   📄 120/888 pages (13.5%) — 88s — 1.4 pages/s   
-   ⚠️  Page 168 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 172 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 176 render failed: malloc (666700190 bytes) failed
-   📄 130/888 pages (14.6%) — 98s — 1.3 pages/s   
-   ⚠️  Page 180 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 184 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 188 render failed: malloc (666700190 bytes) failed
-   📄 140/888 pages (15.8%) — 106s — 1.3 pages/s   
-   ⚠️  Page 192 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 196 render failed: malloc (666700190 bytes) failed
-   📄 150/888 pages (16.9%) — 111s — 1.4 pages/s   
-   ⚠️  Page 200 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 204 render failed: malloc (666700190 bytes) failed
-   📄 160/888 pages (18.0%) — 116s — 1.4 pages/s   
-   ⚠️  Page 208 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 212 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 216 render failed: malloc (666700190 bytes) failed
-   📄 170/888 pages (19.1%) — 119s — 1.4 pages/s   
-   ⚠️  Page 220 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 224 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 228 render failed: malloc (666700190 bytes) failed
-   📄 180/888 pages (20.3%) — 127s — 1.4 pages/s   
-   ⚠️  Page 232 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 236 render failed: malloc (666700190 bytes) failed
-   📄 190/888 pages (21.4%) — 136s — 1.4 pages/s   
-   ⚠️  Page 240 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 244 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 248 render failed: malloc (666700190 bytes) failed
-   📄 200/888 pages (22.5%) — 142s — 1.4 pages/s   
-   ⚠️  Page 252 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 256 render failed: malloc (666700190 bytes) failed
-   📄 210/888 pages (23.6%) — 147s — 1.4 pages/s   
-   ⚠️  Page 260 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 264 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 268 render failed: malloc (666700190 bytes) failed
-   📄 220/888 pages (24.8%) — 153s — 1.4 pages/s   
-   ⚠️  Page 272 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 276 render failed: malloc (666700190 bytes) failed
-   📄 230/888 pages (25.9%) — 159s — 1.4 pages/s   
-   ⚠️  Page 280 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 284 render failed: malloc (666700190 bytes) failed
-   📄 240/888 pages (27.0%) — 163s — 1.5 pages/s   
-   ⚠️  Page 288 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 292 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 296 render failed: malloc (666700190 bytes) failed
-   📄 250/888 pages (28.2%) — 173s — 1.4 pages/s   
-   ⚠️  Page 300 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 304 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 308 render failed: malloc (666700190 bytes) failed
-   📄 260/888 pages (29.3%) — 178s — 1.5 pages/s   
-   ⚠️  Page 312 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 316 render failed: malloc (666700190 bytes) failed
-   📄 270/888 pages (30.4%) — 183s — 1.5 pages/s   
-   ⚠️  Page 320 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 324 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 328 render failed: malloc (666700190 bytes) failed
-   📄 280/888 pages (31.5%) — 188s — 1.5 pages/s   
-   ⚠️  Page 332 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 336 render failed: malloc (666700190 bytes) failed
-   📄 290/888 pages (32.7%) — 195s — 1.5 pages/s   
-   ⚠️  Page 340 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 344 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 348 render failed: malloc (666700190 bytes) failed
-   📄 300/888 pages (33.8%) — 202s — 1.5 pages/s   
-   ⚠️  Page 352 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 356 render failed: malloc (666700190 bytes) failed
-   📄 310/888 pages (34.9%) — 209s — 1.5 pages/s   
-   ⚠️  Page 360 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 364 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 368 render failed: malloc (666700190 bytes) failed
-   📄 320/888 pages (36.0%) — 212s — 1.5 pages/s   
-   ⚠️  Page 372 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 376 render failed: malloc (666700190 bytes) failed
-   📄 330/888 pages (37.2%) — 217s — 1.5 pages/s   
-   ⚠️  Page 380 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 384 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 388 render failed: malloc (666700190 bytes) failed
-   📄 340/888 pages (38.3%) — 224s — 1.5 pages/s   
-   ⚠️  Page 392 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 396 render failed: malloc (666700190 bytes) failed
-   📄 350/888 pages (39.4%) — 230s — 1.5 pages/s   
-   ⚠️  Page 400 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 404 render failed: malloc (666700190 bytes) failed
-   📄 360/888 pages (40.5%) — 237s — 1.5 pages/s   
-   ⚠️  Page 408 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 412 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 416 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 373 OCR failed: fetch failed
-   📄 370/888 pages (41.7%) — 250s — 1.5 pages/s   
-   ⚠️  Page 402 OCR failed: fetch failed
-
-   ⚠️  Page 401 OCR failed: fetch failed
-
-   ⚠️  Page 358 OCR failed: fetch failed
-
-   ⚠️  Page 395 OCR failed: fetch failed
-
-   ⚠️  Page 337 OCR failed: fetch failed
-
-   ⚠️  Page 355 OCR failed: fetch failed
-
-   ⚠️  Page 354 OCR failed: fetch failed
-
-   ⚠️  Page 377 OCR failed: fetch failed
-
-   ⚠️  Page 350 OCR failed: fetch failed
-
-   ⚠️  Page 342 OCR failed: fetch failed
-   📄 380/888 pages (42.8%) — 250s — 1.5 pages/s   
-   ⚠️  Page 370 OCR failed: fetch failed
-
-   ⚠️  Page 386 OCR failed: fetch failed
-
-   ⚠️  Page 385 OCR failed: fetch failed
-
-   ⚠️  Page 387 OCR failed: fetch failed
-
-   ⚠️  Page 393 OCR failed: fetch failed
-
-   ⚠️  Page 391 OCR failed: fetch failed
-
-   ⚠️  Page 390 OCR failed: fetch failed
-
-   ⚠️  Page 405 OCR failed: fetch failed
-
-   ⚠️  Page 367 OCR failed: fetch failed
-
-   ⚠️  Page 381 OCR failed: fetch failed
-   📄 390/888 pages (43.9%) — 250s — 1.6 pages/s   
-   ⚠️  Page 378 OCR failed: fetch failed
-
-   ⚠️  Page 366 OCR failed: fetch failed
-
-   ⚠️  Page 379 OCR failed: fetch failed
-
-   ⚠️  Page 382 OCR failed: fetch failed
-
-   ⚠️  Page 394 OCR failed: fetch failed
-
-   ⚠️  Page 398 OCR failed: fetch failed
-
-   ⚠️  Page 206 OCR failed: fetch failed
-
-   ⚠️  Page 369 OCR failed: fetch failed
-
-   ⚠️  Page 383 OCR failed: fetch failed
-
-   ⚠️  Page 399 OCR failed: fetch failed
-   📄 400/888 pages (45.0%) — 250s — 1.6 pages/s   
-   ⚠️  Page 375 OCR failed: fetch failed
-
-   ⚠️  Page 371 OCR failed: fetch failed
-
-   ⚠️  Page 353 OCR failed: fetch failed
-
-   ⚠️  Page 389 OCR failed: fetch failed
-
-   ⚠️  Page 374 OCR failed: fetch failed
-
-   ⚠️  Page 362 OCR failed: fetch failed
-
-   ⚠️  Page 397 OCR failed: fetch failed
-
-   ⚠️  Page 403 OCR failed: fetch failed
-
-   ⚠️  Page 406 OCR failed: fetch failed
-
-   ⚠️  Page 420 render failed: malloc (666700190 bytes) failed
-   📄 410/888 pages (46.2%) — 251s — 1.6 pages/s   
-   ⚠️  Page 424 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 428 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 432 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 436 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 440 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 444 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 448 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 452 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 456 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 460 render failed: malloc (666700190 bytes) failed
-   📄 420/888 pages (47.3%) — 253s — 1.7 pages/s   
-   ⚠️  Page 464 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 468 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 472 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 430 OCR failed: fetch failed
-
-   ⚠️  Page 427 OCR failed: fetch failed
-
-   ⚠️  Page 429 OCR failed: fetch failed
-
-   ⚠️  Page 476 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 438 OCR failed: fetch failed
-   📄 430/888 pages (48.4%) — 263s — 1.6 pages/s   
-   ⚠️  Page 433 OCR failed: fetch failed
-
-   ⚠️  Page 431 OCR failed: fetch failed
-
-   ⚠️  Page 434 OCR failed: fetch failed
-
-   ⚠️  Page 480 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 435 OCR failed: fetch failed
-
-   ⚠️  Page 437 OCR failed: fetch failed
-
-   ⚠️  Page 442 OCR failed: fetch failed
-
-   ⚠️  Page 484 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 488 render failed: malloc (666700190 bytes) failed
-   📄 440/888 pages (49.5%) — 263s — 1.7 pages/s   
-   ⚠️  Page 439 OCR failed: fetch failed
-
-   ⚠️  Page 441 OCR failed: fetch failed
-
-   ⚠️  Page 446 OCR failed: fetch failed
-
-   ⚠️  Page 443 OCR failed: fetch failed
-
-   ⚠️  Page 445 OCR failed: fetch failed
-
-   ⚠️  Page 492 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 450 OCR failed: fetch failed
-
-   ⚠️  Page 447 OCR failed: fetch failed
-
-   ⚠️  Page 449 OCR failed: fetch failed
-
-   ⚠️  Page 454 OCR failed: fetch failed
-   📄 450/888 pages (50.7%) — 264s — 1.7 pages/s   
-   ⚠️  Page 496 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 500 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 458 OCR failed: fetch failed
-
-   ⚠️  Page 453 OCR failed: fetch failed
-
-   ⚠️  Page 451 OCR failed: fetch failed
-
-   ⚠️  Page 504 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 462 OCR failed: fetch failed
-
-   ⚠️  Page 457 OCR failed: fetch failed
-
-   ⚠️  Page 455 OCR failed: fetch failed
-
-   ⚠️  Page 508 render failed: malloc (666700190 bytes) failed
-   📄 460/888 pages (51.8%) — 265s — 1.7 pages/s   
-   ⚠️  Page 461 OCR failed: fetch failed
-
-   ⚠️  Page 512 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 459 OCR failed: fetch failed
-
-   ⚠️  Page 516 render failed: malloc (666700190 bytes) failed
-   📄 470/888 pages (52.9%) — 273s — 1.7 pages/s   
-   ⚠️  Page 520 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 524 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 528 render failed: malloc (666700190 bytes) failed
-   📄 480/888 pages (54.1%) — 289s — 1.7 pages/s   
-   ⚠️  Page 532 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 511 OCR failed: fetch failed
-
-   ⚠️  Page 510 OCR failed: fetch failed
-
-   ⚠️  Page 536 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 513 OCR failed: fetch failed
-   📄 490/888 pages (55.2%) — 298s — 1.6 pages/s   
-   ⚠️  Page 514 OCR failed: fetch failed
-
-   ⚠️  Page 540 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 544 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 531 OCR failed: fetch failed
-
-   ⚠️  Page 548 render failed: malloc (666700190 bytes) failed
-   📄 500/888 pages (56.3%) — 322s — 1.6 pages/s   
-   ⚠️  Page 552 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 534 OCR failed: fetch failed
-
-   ⚠️  Page 556 render failed: malloc (666700190 bytes) failed
-   📄 510/888 pages (57.4%) — 328s — 1.6 pages/s   
-   ⚠️  Page 535 OCR failed: fetch failed
-
-   ⚠️  Page 560 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 564 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 568 render failed: malloc (666700190 bytes) failed
-   📄 520/888 pages (58.6%) — 334s — 1.6 pages/s   
-   ⚠️  Page 572 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 576 render failed: malloc (666700190 bytes) failed
-   📄 530/888 pages (59.7%) — 337s — 1.6 pages/s   
-   ⚠️  Page 580 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 584 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 588 render failed: malloc (666700190 bytes) failed
-   📄 540/888 pages (60.8%) — 344s — 1.6 pages/s   
-   ⚠️  Page 592 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 596 render failed: malloc (666700190 bytes) failed
-   📄 550/888 pages (61.9%) — 355s — 1.5 pages/s   
-   ⚠️  Page 600 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 604 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 608 render failed: malloc (666700190 bytes) failed
-   📄 560/888 pages (63.1%) — 366s — 1.5 pages/s   
-   ⚠️  Page 612 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 616 render failed: malloc (666700190 bytes) failed
-   📄 570/888 pages (64.2%) — 370s — 1.5 pages/s   
-   ⚠️  Page 620 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 624 render failed: malloc (666700190 bytes) failed
-   📄 580/888 pages (65.3%) — 385s — 1.5 pages/s   
-   ⚠️  Page 628 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 632 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 636 render failed: malloc (666700190 bytes) failed
-   📄 590/888 pages (66.4%) — 404s — 1.5 pages/s   
-   ⚠️  Page 640 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 644 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 648 render failed: malloc (666700190 bytes) failed
-   📄 600/888 pages (67.6%) — 411s — 1.5 pages/s   
-   ⚠️  Page 652 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 656 render failed: malloc (666700190 bytes) failed
-   📄 610/888 pages (68.7%) — 415s — 1.5 pages/s   
-   ⚠️  Page 660 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 664 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 668 render failed: malloc (666700190 bytes) failed
-   📄 620/888 pages (69.8%) — 425s — 1.5 pages/s   
-   ⚠️  Page 672 render failed: malloc (666700190 bytes) failed
-   📄 630/888 pages (70.9%) — 433s — 1.5 pages/s   
-   ⚠️  Page 676 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 680 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 684 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 688 render failed: malloc (666700190 bytes) failed
-   📄 640/888 pages (72.1%) — 448s — 1.4 pages/s   
-   ⚠️  Page 692 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 696 render failed: malloc (666700190 bytes) failed
-   📄 650/888 pages (73.2%) — 453s — 1.4 pages/s   
-   ⚠️  Page 700 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 704 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 708 render failed: malloc (666700190 bytes) failed
-   📄 660/888 pages (74.3%) — 463s — 1.4 pages/s   
-   ⚠️  Page 712 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 716 render failed: malloc (666700190 bytes) failed
-   📄 670/888 pages (75.5%) — 470s — 1.4 pages/s   
-   ⚠️  Page 720 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 724 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 728 render failed: malloc (666700190 bytes) failed
-   📄 680/888 pages (76.6%) — 483s — 1.4 pages/s   
-   ⚠️  Page 732 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 736 render failed: malloc (666700190 bytes) failed
-   📄 690/888 pages (77.7%) — 491s — 1.4 pages/s   
-   ⚠️  Page 740 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 744 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 748 render failed: malloc (666700190 bytes) failed
-   📄 700/888 pages (78.8%) — 497s — 1.4 pages/s   
-   ⚠️  Page 752 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 756 render failed: malloc (666700190 bytes) failed
-   📄 710/888 pages (80.0%) — 511s — 1.4 pages/s   
-   ⚠️  Page 760 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 764 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 768 render failed: malloc (666700190 bytes) failed
-   📄 720/888 pages (81.1%) — 524s — 1.4 pages/s   
-   ⚠️  Page 772 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 776 render failed: malloc (666700190 bytes) failed
-   📄 730/888 pages (82.2%) — 530s — 1.4 pages/s   
-   ⚠️  Page 780 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 784 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 788 render failed: malloc (666700190 bytes) failed
-   📄 740/888 pages (83.3%) — 537s — 1.4 pages/s   
-   ⚠️  Page 792 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 796 render failed: malloc (666700190 bytes) failed
-   📄 750/888 pages (84.5%) — 550s — 1.4 pages/s   
-   ⚠️  Page 800 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 804 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 808 render failed: malloc (666700190 bytes) failed
-   📄 760/888 pages (85.6%) — 557s — 1.4 pages/s   
-   ⚠️  Page 812 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 816 render failed: malloc (666700190 bytes) failed
-   📄 770/888 pages (86.7%) — 569s — 1.4 pages/s   
-   ⚠️  Page 820 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 824 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 828 render failed: malloc (666700190 bytes) failed
-   📄 780/888 pages (87.8%) — 582s — 1.3 pages/s   
-   ⚠️  Page 832 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 836 render failed: malloc (666700190 bytes) failed
-   📄 790/888 pages (89.0%) — 592s — 1.3 pages/s   
-   ⚠️  Page 840 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 844 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 848 render failed: malloc (666700190 bytes) failed
-   📄 800/888 pages (90.1%) — 600s — 1.3 pages/s   
-   ⚠️  Page 852 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 856 render failed: malloc (666700190 bytes) failed
-   📄 810/888 pages (91.2%) — 610s — 1.3 pages/s   
-   ⚠️  Page 860 render failed: malloc (666700190 bytes) failed
-   📄 820/888 pages (92.3%) — 625s — 1.3 pages/s   
-   ⚠️  Page 864 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 868 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 872 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 876 render failed: malloc (666700190 bytes) failed
-   📄 830/888 pages (93.5%) — 633s — 1.3 pages/s   
-   ⚠️  Page 880 render failed: malloc (666700190 bytes) failed
-   📄 840/888 pages (94.6%) — 644s — 1.3 pages/s   
-   ⚠️  Page 884 render failed: malloc (666700190 bytes) failed
-
-   ⚠️  Page 888 render failed: malloc (666700190 bytes) failed
-   📄 850/888 pages (95.7%) — 659s — 1.3 pages/s      📄 860/888 pages (96.8%) — 673s — 1.3 pages/s      📄 870/888 pages (98.0%) — 687s — 1.3 pages/s      📄 880/888 pages (99.1%) — 706s — 1.2 pages/s      📄 888/888 pages (100.0%) — 754s — 1.2 pages/s   
-   ✂️  Split into 4890 verses (1488774 chars total)
-   ✅ Done in 756.0s — 4890 verses saved
-warning: bogus font ascent/descent values (0 / -211)
-
-📖 Processing: Atharva Veda (Alt. Edition)
-   PDF: atharva-ved.pdf (960 pages)
-
-   ⚠️  Page 3 render failed: memory access out of bounds
-
-   ⚠️  Page 7 render failed: memory access out of bounds
-
-   ⚠️  Page 11 render failed: memory access out of bounds
-
-   ⚠️  Page 15 render failed: null function or function signature mismatch
-
-   ⚠️  Page 19 render failed: null function or function signature mismatch
-
-   ⚠️  Page 23 render failed: null function or function signature mismatch
-
-   ⚠️  Page 27 render failed: null function or function signature mismatch
-
-   ⚠️  Page 31 render failed: null function or function signature mismatch
-
-   ⚠️  Page 35 render failed: null function or function signature mismatch
-
-   ⚠️  Page 39 render failed: null function or function signature mismatch
-   📄 10/960 pages (1.0%) — 0s — 21.4 pages/s   warning: bogus font ascent/descent values (0 / -211)
-warning: bogus font ascent/descent values (0 / -211)
-   📄 20/960 pages (2.1%) — 59s — 0.3 pages/s      📄 30/960 pages (3.1%) — 67s — 0.4 pages/s      📄 40/960 pages (4.2%) — 76s — 0.5 pages/s      📄 50/960 pages (5.2%) — 83s — 0.6 pages/s      📄 60/960 pages (6.3%) — 92s — 0.7 pages/s      📄 70/960 pages (7.3%) — 98s — 0.7 pages/s   
-   ⚠️  Page 38 OCR failed: fetch failed
-
-   ⚠️  Page 90 OCR failed: fetch failed
-
-   ⚠️  Page 42 OCR failed: fetch failed
-
-   ⚠️  Page 85 OCR failed: fetch failed
-
-   ⚠️  Page 120 OCR failed: fetch failed
-
-   ⚠️  Page 92 OCR failed: fetch failed
-   📄 80/960 pages (8.3%) — 110s — 0.7 pages/s   
-   ⚠️  Page 68 OCR failed: fetch failed
-
-   ⚠️  Page 5 OCR failed: fetch failed
-
-   ⚠️  Page 32 OCR failed: fetch failed
-
-   ⚠️  Page 112 OCR failed: fetch failed
-
-   ⚠️  Page 45 OCR failed: fetch failed
-
-   ⚠️  Page 44 OCR failed: fetch failed
-
-   ⚠️  Page 121 OCR failed: fetch failed
-
-   ⚠️  Page 114 OCR failed: fetch failed
-
-   ⚠️  Page 40 OCR failed: fetch failed
-
-   ⚠️  Page 6 OCR failed: fetch failed
-   📄 90/960 pages (9.4%) — 110s — 0.8 pages/s   
-   ⚠️  Page 116 OCR failed: fetch failed
-
-   ⚠️  Page 49 OCR failed: fetch failed
-
-   ⚠️  Page 122 OCR failed: fetch failed
-
-   ⚠️  Page 77 OCR failed: fetch failed
-
-   ⚠️  Page 9 OCR failed: fetch failed
-
-   ⚠️  Page 117 OCR failed: fetch failed
-
-   ⚠️  Page 48 OCR failed: fetch failed
-
-   ⚠️  Page 108 OCR failed: fetch failed
-
-   ⚠️  Page 74 OCR failed: fetch failed
-
-   ⚠️  Page 98 OCR failed: fetch failed
-   📄 100/960 pages (10.4%) — 110s — 0.9 pages/s   
-   ⚠️  Page 100 OCR failed: fetch failed
-
-   ⚠️  Page 118 OCR failed: fetch failed
-   📄 110/960 pages (11.5%) — 116s — 0.9 pages/s      📄 120/960 pages (12.5%) — 120s — 1.0 pages/s      📄 130/960 pages (13.5%) — 133s — 1.0 pages/s      📄 140/960 pages (14.6%) — 136s — 1.0 pages/s      📄 150/960 pages (15.6%) — 140s — 1.1 pages/s   
-   ⚠️  Page 150 OCR failed: fetch failed
-   📄 160/960 pages (16.7%) — 146s — 1.1 pages/s      📄 170/960 pages (17.7%) — 154s — 1.1 pages/s      📄 180/960 pages (18.8%) — 166s — 1.1 pages/s   

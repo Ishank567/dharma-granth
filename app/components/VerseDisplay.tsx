@@ -1,84 +1,201 @@
-import type { Verse } from '@/app/lib/types';
-import BookmarkButton from '@/app/components/BookmarkButton';
-import Link from 'next/link';
+'use client';
 
-interface Props {
-  verse: Verse;
-  bookTitle: string;
-  bookSlug: string;
-  categorySlug: string;
-  showInterpretButton?: boolean;
+import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
+import { useState } from 'react';
+import { List, Network, Feather, Languages, Sun, ScrollText, Sparkles, Atom, Lightbulb } from 'lucide-react';
+import { VerseMindMap, type MindMapVerse } from './VerseMindMap';
+
+export interface VerseDisplayData extends MindMapVerse {
+  transliteration?: string;
 }
 
-export default function VerseDisplay({ verse, bookTitle, bookSlug, categorySlug, showInterpretButton = true }: Props) {
-  const verseHref = `/categories/${categorySlug}/${bookSlug}/${verse.id}`;
+type ViewMode = 'list' | 'mindmap';
+
+export function VerseDisplay({ verse }: { verse: VerseDisplayData }) {
+  const reduce = useReducedMotion();
+  const [mode, setMode] = useState<ViewMode>('list');
+
+  const explanation = verse.explanationHi ?? verse.explanation;
+  const explanationIsHi = Boolean(verse.explanationHi);
+  const science = verse.scienceHi ?? verse.science;
+  const scienceIsHi = Boolean(verse.scienceHi);
+  const lesson = verse.lifeLessonHi ?? verse.lifeLesson;
+  const lessonIsHi = Boolean(verse.lifeLessonHi);
 
   return (
-    <div
-      id={`verse-${verse.id}`}
-      className="group relative rounded-2xl border border-verse-border bg-verse-bg p-6 transition-all hover:shadow-lg hover:border-accent/30 hover:-translate-y-0.5 duration-200"
-    >
-      {/* Verse header */}
-      <div className="mb-4 flex items-center justify-between">
-        <Link
-          href={verseHref}
-          className="inline-flex items-center gap-2 rounded-full bg-accent-bg px-3 py-1 text-xs font-semibold text-accent hover:bg-accent/20 transition-colors"
-        >
-          श्लोक {verse.verse_number}
-          <span className="opacity-0 group-hover:opacity-100 transition-opacity text-accent/60">→</span>
-        </Link>
-        <BookmarkButton
-          verseId={verse.id}
-          bookSlug={bookSlug}
-          categorySlug={categorySlug}
-          originalText={verse.original_text.slice(0, 100)}
-          bookTitle={bookTitle}
-          verseNumber={verse.verse_number}
-        />
+    <div className="verse-card lotus-card">
+      {/* Header bar — verse number + view toggle. */}
+      <div className="bg-gradient-to-r from-saffron-50 via-amber-50 to-rose-50 px-6 py-4 border-b border-dharma-border flex items-center justify-between gap-3">
+        <div className="flex items-center gap-3">
+          <span className="verse-number">{verse.id}</span>
+          <div>
+            <div className="text-[10px] uppercase tracking-widest text-saffron-800/70 font-semibold">श्लोक</div>
+            <div className="text-sm font-bold text-saffron-900">श्लोक {verse.id}</div>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-2">
+          <div
+            className="inline-flex items-center rounded-full bg-white border border-dharma-border shadow-sm p-0.5"
+            role="tablist"
+            aria-label="Verse view mode"
+          >
+            <ToggleButton
+              active={mode === 'list'}
+              onClick={() => setMode('list')}
+              icon={<List className="w-3.5 h-3.5" />}
+              label="List"
+            />
+            <ToggleButton
+              active={mode === 'mindmap'}
+              onClick={() => setMode('mindmap')}
+              icon={<Network className="w-3.5 h-3.5" />}
+              label="Mind Map"
+            />
+          </div>
+          <span className="om-symbol text-3xl animate-float hidden md:inline" aria-hidden>ॐ</span>
+        </div>
       </div>
 
-      {/* Original text — clickable */}
-      <Link href={verseHref} className="block">
-        <div className="font-scripture text-lg leading-loose text-foreground whitespace-pre-wrap cursor-pointer">
-          {verse.original_text}
-        </div>
-      </Link>
+      {/* Body — animated swap between list and mindmap. */}
+      <div className="p-6 md:p-7">
+        <AnimatePresence mode="wait">
+          {mode === 'list' ? (
+            <motion.div
+              key="list"
+              initial={reduce ? { opacity: 0 } : { opacity: 0, y: 8 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={reduce ? { opacity: 0 } : { opacity: 0, y: -8 }}
+              transition={{ duration: 0.25 }}
+              className="space-y-5"
+            >
+              <div className="section-sanskrit">
+                <div className="section-label text-saffron-800">
+                  <Feather className="w-3.5 h-3.5" />
+                  संस्कृत
+                </div>
+                <p className="sanskrit-text text-dharma-text whitespace-pre-line">{verse.sanskrit}</p>
+              </div>
 
-      {/* Translation Hindi */}
-      {verse.translation_hindi && (
-        <div className="mt-4 border-t border-verse-border pt-4">
-          <p className="text-xs font-semibold text-muted mb-1">हिन्दी अर्थ:</p>
-          <p className="text-sm text-foreground/80 leading-relaxed">
-            {verse.translation_hindi}
-          </p>
-        </div>
-      )}
+              {verse.transliteration && (
+                <div className="section-translit">
+                  <div className="section-label text-stone-700">
+                    <Languages className="w-3.5 h-3.5" />
+                    लिप्यंतरण (IAST)
+                  </div>
+                  <p className="text-sm md:text-base text-stone-700 italic whitespace-pre-line leading-relaxed">{verse.transliteration}</p>
+                </div>
+              )}
 
-      {/* Translation English */}
-      {verse.translation_english && (
-        <div className="mt-3 border-t border-verse-border pt-3">
-          <p className="text-xs font-semibold text-muted mb-1">अंग्रेज़ी अर्थ:</p>
-          <p className="text-sm text-muted leading-relaxed italic">
-            {verse.translation_english}
-          </p>
-        </div>
-      )}
+              {verse.hindi && (
+                <div className="section-hindi">
+                  <div className="section-label text-rose-800">
+                    <Sun className="w-3.5 h-3.5" />
+                    हिन्दी अर्थ
+                  </div>
+                  <p className="text-base md:text-lg text-rose-950 leading-loose">{verse.hindi}</p>
+                </div>
+              )}
 
-      {/* Interpret button */}
-      {showInterpretButton && (
-        <div className="mt-4 pt-3 border-t border-verse-border flex items-center justify-between">
-          <Link
-            href={verseHref}
-            className="inline-flex items-center gap-2 rounded-xl bg-accent/10 px-5 py-2.5 text-sm font-semibold text-accent hover:bg-accent/20 hover:shadow-sm transition-all active:scale-[0.98]"
-          >
-            ✨ गहन हिन्दी व्याख्या
-            <span className="inline-block transition-transform group-hover:translate-x-1">→</span>
-          </Link>
-          <span className="text-xs text-muted opacity-0 group-hover:opacity-100 transition-opacity">
-            क्लिक करें गहन अध्ययन के लिए
-          </span>
-        </div>
-      )}
+              {verse.translation && (
+                <div className="section-translation">
+                  <div className="section-label text-blue-800">
+                    <ScrollText className="w-3.5 h-3.5" />
+                    अनुवाद
+                  </div>
+                  <p className="text-base text-dharma-text leading-relaxed">{verse.translation}</p>
+                </div>
+              )}
+
+              {explanation && (
+                <div className="section-explanation">
+                  <div className="section-label text-emerald-800">
+                    <Sparkles className="w-3.5 h-3.5" />
+                    {explanationIsHi ? 'आध्यात्मिक व्याख्या' : 'अंग्रेज़ी व्याख्या'}
+                  </div>
+                  <p className={`text-sm md:text-base text-emerald-950 leading-relaxed ${explanationIsHi ? 'font-devanagari' : ''}`}>{explanation}</p>
+                </div>
+              )}
+
+              {science && (
+                <div className="section-science">
+                  <div className="section-label text-indigo-800">
+                    <Atom className="w-3.5 h-3.5" />
+                    {scienceIsHi ? 'वैज्ञानिक दृष्टिकोण' : 'अंग्रेज़ी वैज्ञानिक दृष्टिकोण'}
+                  </div>
+                  <p className={`text-sm md:text-base text-indigo-950 leading-relaxed ${scienceIsHi ? 'font-devanagari' : ''}`}>{science}</p>
+                </div>
+              )}
+
+              {lesson && (
+                <div className="section-lesson">
+                  <div className="section-label text-amber-800">
+                    <Lightbulb className="w-3.5 h-3.5" />
+                    {lessonIsHi ? 'जीवन की सीख — आज अपनाएँ' : 'अंग्रेज़ी जीवन की सीख'}
+                  </div>
+                  <p className={`text-sm md:text-base text-amber-950 leading-relaxed font-medium ${lessonIsHi ? 'font-devanagari' : ''}`}>{lesson}</p>
+                </div>
+              )}
+
+              {verse.keywords && verse.keywords.length > 0 && (
+                <div className="flex flex-wrap gap-2 pt-2">
+                  {verse.keywords.map((k) => (
+                    <span key={k} className="chip chip-saffron">
+                      #{k}
+                    </span>
+                  ))}
+                </div>
+              )}
+            </motion.div>
+          ) : (
+            <motion.div
+              key="mindmap"
+              initial={reduce ? { opacity: 0 } : { opacity: 0, scale: 0.96 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={reduce ? { opacity: 0 } : { opacity: 0, scale: 0.96 }}
+              transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
+            >
+              <VerseMindMap verse={verse} />
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
     </div>
+  );
+}
+
+function ToggleButton({
+  active,
+  onClick,
+  icon,
+  label,
+}: {
+  active: boolean;
+  onClick: () => void;
+  icon: React.ReactNode;
+  label: string;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      className={`relative inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold transition-colors ${
+        active ? 'text-white' : 'text-dharma-muted hover:text-dharma-text'
+      }`}
+      role="tab"
+      aria-selected={active}
+    >
+      {active && (
+        <motion.span
+          layoutId="verse-view-toggle-pill"
+          className="absolute inset-0 rounded-full bg-gradient-to-br from-saffron-500 to-saffron-700 shadow-md"
+          transition={{ type: 'spring', stiffness: 380, damping: 30 }}
+        />
+      )}
+      <span className="relative inline-flex items-center gap-1.5">
+        {icon}
+        {label}
+      </span>
+    </button>
   );
 }

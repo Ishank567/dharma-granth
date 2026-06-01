@@ -1,0 +1,14 @@
+{
+  "id": "harivanshpuran",
+  "title": "Harivamsha Purana",
+  "titleSanskrit": "हरिवंशपुराणम्",
+  "category": "purana",
+  "source": {
+    "repo": "https://sanskritdocuments.org/doc_mahabharata/ (harivaMsha1-3.itx)",
+    "license": "Sanskrit mūla — public domain. Digitized by sanskritdocuments.org.",
+    "fetchedAt": "2026-06-01T11:11:00.602Z"
+  },
+  "totalVerses": 0,
+  "totalChapters": 0,
+  "chapters": []
+}

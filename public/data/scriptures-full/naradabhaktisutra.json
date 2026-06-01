@@ -1,0 +1,14 @@
+{
+  "id": "naradabhaktisutra",
+  "title": "Narada Bhakti Sutras",
+  "titleSanskrit": "नारद भक्ति सूत्र",
+  "category": "upanishad",
+  "source": {
+    "repo": "https://sanskritdocuments.org/doc_upanishhat/",
+    "license": "Full itx not available. Curated highlights are hand-authored.",
+    "fetchedAt": "2026-06-01T11:10:46.685Z"
+  },
+  "totalVerses": 0,
+  "totalChapters": 0,
+  "chapters": []
+}

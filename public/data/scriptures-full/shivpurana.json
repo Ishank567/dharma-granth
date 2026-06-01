@@ -6,7 +6,7 @@
   "source": {
     "repo": "https://sanskritdocuments.org/doc_purana/",
     "license": "Sanskrit mūla — public domain (3000+ years old). sanskritdocuments.org publishes digitized text under permissive terms.",
-    "fetchedAt": "2026-05-15T08:50:43.804Z"
+    "fetchedAt": "2026-06-01T11:12:05.134Z"
   },
   "totalVerses": 25198,
   "totalChapters": 11,
@@ -89430,8 +89430,8 @@
         },
         {
           "number": "21.35",
-          "sanskrit": "आततायिनमायान्तमपि वेदान्तङगं द्विजम् । जिघांसन्तं जिघांसेत्तु न तेन ब्रह्महा भवेत्",
-          "transliteration": "AtatAyinamAyAntamapi vedAnta~NagaM dvijam | jighAMsantaM jighAMsettu na tena brahmahA bhavet"
+          "sanskrit": "आततायिनमायान्तमपि वेदान्तङ्गं द्विजम् । जिघांसन्तं जिघांसेत्तु न तेन ब्रह्महा भवेत्",
+          "transliteration": "AtatAyinamAyAntamapi vedAnta~NgaM dvijam | jighAMsantaM jighAMsettu na tena brahmahA bhavet"
         },
         {
           "number": "21.36",

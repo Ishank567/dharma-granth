@@ -1,0 +1,14 @@
+{
+  "id": "ravanasamhita",
+  "title": "Ravana Samhita",
+  "titleSanskrit": "रावण संहिता",
+  "category": "tantra",
+  "source": {
+    "repo": "https://sanskritdocuments.org/",
+    "license": "Full structured text not yet available as open-source data. Curated highlights are hand-authored.",
+    "fetchedAt": "2026-06-01T11:11:00.604Z"
+  },
+  "totalVerses": 0,
+  "totalChapters": 0,
+  "chapters": []
+}
