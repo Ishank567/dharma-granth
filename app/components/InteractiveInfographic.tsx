@@ -324,24 +324,36 @@ export function InteractiveInfographic({ sections, className = '' }: Interactive
                     )}
                   </div>
 
-                  {/* Connections */}
+                  {/* Enhanced connections display */}
                   {section.connections && section.connections.length > 0 && isActive && (
                     <motion.div
                       initial={reduce ? {} : { opacity: 0, y: 10 }}
                       animate={reduce ? {} : { opacity: 1, y: 0 }}
+                      transition={reduce ? {} : { delay: 0.3 }}
                       className="mt-4 pt-4 border-t border-dharma-border"
                     >
-                      <p className="text-xs font-bold text-dharma-muted uppercase tracking-wider mb-2">
+                      <p className="text-xs font-bold text-dharma-muted uppercase tracking-wider mb-3 flex items-center gap-2">
+                        <motion.div
+                          animate={{ rotate: 360 }}
+                          transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
+                        >
+                          <Sparkles className="w-3 h-3" />
+                        </motion.div>
                         Connected Concepts
                       </p>
                       <div className="flex flex-wrap gap-2">
                         {section.connections.map((conn, idx) => (
-                          <span
+                          <motion.span
                             key={idx}
-                            className="px-3 py-1 bg-saffron-500/10 text-saffron-800 rounded-full text-xs font-semibold"
+                            className="px-3 py-1.5 bg-gradient-to-r from-saffron-500/10 to-amber-500/10 text-saffron-800 rounded-full text-xs font-semibold border border-saffron-500/20 shadow-sm flex items-center gap-1"
+                            initial={reduce ? {} : { opacity: 0, scale: 0.8 }}
+                            animate={reduce ? {} : { opacity: 1, scale: 1 }}
+                            transition={reduce ? {} : { delay: 0.4 + idx * 0.1 }}
+                            whileHover={{ scale: 1.05, y: -2 }}
                           >
+                            <ArrowRight className="w-3 h-3" />
                             {conn}
-                          </span>
+                          </motion.span>
                         ))}
                       </div>
                     </motion.div>
@@ -363,19 +375,52 @@ export function InteractiveInfographic({ sections, className = '' }: Interactive
         })}
       </div>
 
-      {/* Summary section */}
+      {/* Enhanced summary section */}
       <motion.div
         initial={reduce ? {} : { opacity: 0, y: 30 }}
         animate={reduce ? {} : { opacity: 1, y: 0 }}
         transition={reduce ? {} : { delay: sections.length * 0.1 }}
-        className="mt-12 bg-gradient-to-r from-saffron-600 to-amber-600 rounded-3xl p-8 text-white text-center shadow-2xl"
+        className="mt-12 relative bg-gradient-to-br from-saffron-600 via-amber-600 to-orange-700 rounded-3xl p-8 text-white text-center shadow-2xl overflow-hidden"
       >
-        <h3 className="text-2xl font-serif font-bold mb-3">
-          Complete the Journey
-        </h3>
-        <p className="opacity-90 max-w-2xl mx-auto">
-          Explore each section to understand the deeper connections between ancient wisdom and modern knowledge.
-        </p>
+        {/* Animated background pattern */}
+        <div className="absolute inset-0 mandala-bg opacity-10" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
+        
+        <div className="relative">
+          <motion.div
+            className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm mb-6 mx-auto"
+            animate={{ scale: [1, 1.1, 1] }}
+            transition={{ duration: 2, repeat: Infinity }}
+          >
+            <Sparkles className="w-8 h-8" />
+          </motion.div>
+          <h3 className="text-2xl font-serif font-bold mb-3">
+            Complete the Journey
+          </h3>
+          <p className="opacity-90 max-w-2xl mx-auto">
+            Explore each section to understand the deeper connections between ancient wisdom and modern knowledge.
+          </p>
+          
+          {/* Progress indicator */}
+          <motion.div
+            className="mt-6 mx-auto max-w-xs"
+            initial={{ width: 0 }}
+            animate={{ width: '100%' }}
+            transition={{ delay: sections.length * 0.1 + 0.3, duration: 1 }}
+          >
+            <div className="h-2 bg-white/30 rounded-full overflow-hidden">
+              <motion.div
+                className="h-full bg-white rounded-full"
+                initial={{ width: 0 }}
+                animate={{ width: `${(bookmarkedSections.size / sections.length) * 100}%` }}
+                transition={{ duration: 1, delay: sections.length * 0.1 + 0.5 }}
+              />
+            </div>
+          </motion.div>
+          <p className="text-xs mt-2 opacity-75">
+            {bookmarkedSections.size} of {sections.length} sections explored
+          </p>
+        </div>
       </motion.div>
 
       {/* Print styles */}

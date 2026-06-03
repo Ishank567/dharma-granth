@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { SiteNav } from "@/app/components/SiteNav";
+import { DarkModeToggle } from "@/app/components/DarkModeToggle";
 import { ThemeProvider } from "@/app/components/ThemeProvider";
 import { PageTransition } from "@/app/components/motion/PageTransition";
 // Self-hosted fonts via @fontsource — bundled at build time so the build
