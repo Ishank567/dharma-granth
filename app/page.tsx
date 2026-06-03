@@ -67,8 +67,6 @@ const categoryIcons: Record<ListedCategory, ReactNode> = {
   itihasa: <Scroll className="w-6 h-6" />,
   purana: <TreePine className="w-6 h-6" />,
   smriti: <Scale className="w-6 h-6" />,
-  tantra: <WandSparkles className="w-6 h-6" />,
-  stotra: <Music className="w-6 h-6" />,
   other: <Heart className="w-6 h-6" />,
 };
 
