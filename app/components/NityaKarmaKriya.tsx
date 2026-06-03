@@ -67,72 +67,72 @@ const steps: PracticeStep[] = [
     time: 'morning',
     title: 'Wake with remembrance',
     titleHi: 'स्मरण से दिन आरम्भ',
-    duration: '2 min',
-    purpose: 'Begin the day with gratitude before touching the phone or rushing into tasks.',
-    mantraHint: 'कराग्रे वसते लक्ष्मी...',
+    duration: '2 मिनट',
+    purpose: 'दिन की शुरुआत फोन या काम से पहले कृतज्ञता के साथ करें।',
+    mantraHint: 'कराग्रे वसते लक्ष्मीं कर्मध्यां कराग्रे वसते',
   },
   {
     id: 'cleanliness',
     time: 'morning',
     title: 'Shaucha and freshening',
     titleHi: 'शौच और शुद्धि',
-    duration: '10-20 min',
-    purpose: 'Cleanliness prepares the body and steadies the mind for study or work.',
-    mantraHint: 'शरीर शुद्धि, मन शुद्धि',
+    duration: '10-20 मिनट',
+    purpose: 'स्नान शरीर और मन को शुद्ध करता है, अध्ययन या कार्य के लिए तैयार करता है।',
+    mantraHint: 'अपवित्रः पवित्रो वा सर्वावस्थां गतोऽपि वा',
   },
   {
     id: 'surya-water',
     time: 'morning',
     title: 'Surya arghya or sunlight pause',
     titleHi: 'सूर्य अर्घ्य / प्रकाश ध्यान',
-    duration: '3-5 min',
-    purpose: 'Offer water if you follow that practice, or stand quietly in morning light.',
-    mantraHint: 'ॐ सूर्याय नमः',
+    duration: '3-5 मिनट',
+    purpose: 'यदि आप इस प्रथा का पालन करते हैं तो जल अर्पण करें, या सुबह की रोशनी में शांत रहें।',
+    mantraHint: 'ॐ भास्कराय नमः ॐ आदित्याय नमः ॐ सूर्याय नमः',
   },
   {
     id: 'japa-study',
     time: 'morning',
     title: 'Japa and scripture reading',
     titleHi: 'जप और स्वाध्याय',
-    duration: '10-30 min',
-    purpose: 'Repeat a chosen mantra and read one verse slowly with meaning.',
-    mantraHint: 'ॐ नमः शिवाय / ॐ नमो भगवते वासुदेवाय',
+    duration: '10-30 मिनट',
+    purpose: 'चुने हुए मंत्र का जाप करें और एक श्लोक को धीरे से अर्थ सहित पढ़ें।',
+    mantraHint: 'ॐ नमः शिवाय ॐ नमो भगवते वासुदेवाय',
   },
   {
     id: 'food-pause',
     time: 'midday',
     title: 'Mindful food pause',
     titleHi: 'भोजन से पहले कृतज्ञता',
-    duration: '1 min',
-    purpose: 'Pause before eating and remember food as prasad, not just consumption.',
-    mantraHint: 'ब्रह्मार्पणं ब्रह्म हविः...',
+    duration: '1 मिनट',
+    purpose: 'खाने से पहले रुकें और भोजन को प्रसाद मानें, केवल खपत नहीं।',
+    mantraHint: 'ब्रह्मार्पणं ब्रह्म हविर्ब्रह्माग्नौ ब्रह्मणा हुतं',
   },
   {
     id: 'work-dharma',
     time: 'midday',
     title: 'Karma check',
     titleHi: 'कर्म जांच',
-    duration: '2 min',
-    purpose: 'Ask: is today’s work truthful, useful, and free from needless harm?',
-    mantraHint: 'सत्यं वद, धर्मं चर',
+    duration: '2 मिनट',
+    purpose: 'पूछें: क्या आज का काम सत्य, उपयोगी और अनावश्यक हानि से मुक्त है?',
+    mantraHint: 'सत्यं वद धर्मं चर स्वाध्यायान्मा प्रमदिताः',
   },
   {
     id: 'sandhya-deep',
     time: 'evening',
     title: 'Sandhya deepa',
     titleHi: 'सायं दीप / संध्या स्मरण',
-    duration: '5-10 min',
-    purpose: 'Light a lamp or sit quietly as the day shifts from activity to reflection.',
-    mantraHint: 'दीपज्योतिः परं ब्रह्म',
+    duration: '5-10 मिनट',
+    purpose: 'दीप जलाएं या शांत रहें जब दिन क्रिया से चिंतन की ओर बदलता है।',
+    mantraHint: 'दीपज्योतिः परं ब्रह्म दीपो हि सर्वतोमुखः',
   },
   {
     id: 'review-forgive',
     time: 'night',
     title: 'Daily review and forgiveness',
     titleHi: 'दिन की समीक्षा और क्षमा',
-    duration: '5 min',
-    purpose: 'Review one good action, one correction, and release resentment before sleep.',
-    mantraHint: 'क्षमा प्रार्थना',
+    duration: '5 मिनट',
+    purpose: 'एक अच्छा कार्य, एक सुधार और सोने से पहले रंज मुक्त करें।',
+    mantraHint: 'क्षमायनि यशस्यानि न भूयात्प्रज्ञाया',
   },
 ];
 
@@ -194,22 +194,20 @@ export function NityaKarmaKriya() {
               नित्य कर्म क्रिया
             </p>
             <h2 className="mt-5 text-3xl font-serif font-bold text-dharma-text md:text-4xl">
-              Daily Dharma Practice
+              नित्य कर्म क्रिया
             </h2>
             <p className="mt-3 max-w-xl text-sm leading-relaxed text-dharma-muted md:text-base">
-              A simple, understandable routine for remembrance, cleanliness,
-              study, mindful action, evening reflection, and rest. Keep it
-              gentle: consistency matters more than perfection.
+              स्मरण, शौच, अध्ययन, सचेत कर्म, सायं चिंतन और विश्राम के लिए एक सरल समझदार दिनचर्या। इसे हल्का रखें: असंगति से अधिक महत्वपूर्ण है।
             </p>
 
             <div className="mt-6 rounded-xl border border-dharma-border bg-dharma-bg p-5">
               <div className="mb-3 flex items-center justify-between gap-4">
                 <div>
                   <p className="text-xs font-bold uppercase tracking-widest text-dharma-muted">
-                    Today’s Completion
+                    आज की प्रगति
                   </p>
                   <p className="mt-1 text-2xl font-bold text-dharma-text">
-                    {completedSet.size}/{steps.length} kriyas
+                    {completedSet.size}/{steps.length} क्रिया
                   </p>
                 </div>
                 <div className="flex h-16 w-16 items-center justify-center rounded-full bg-saffron-100 text-lg font-bold text-saffron-800 ring-4 ring-saffron-50">
@@ -228,7 +226,7 @@ export function NityaKarmaKriya() {
                 className="mt-4 inline-flex items-center gap-2 rounded-lg border border-dharma-border bg-dharma-card px-3 py-2 text-sm font-semibold text-dharma-muted transition hover:border-saffron-300 hover:text-saffron-700"
               >
                 <RotateCcw className="h-4 w-4" />
-                Reset today
+                आज रीसेट करें
               </button>
             </div>
 
@@ -236,8 +234,8 @@ export function NityaKarmaKriya() {
               <div className="flex gap-3">
                 <Bath className="mt-0.5 h-5 w-5 shrink-0 text-saffron-600" />
                 <p className="text-sm leading-relaxed text-dharma-muted">
-                  This is a gentle educational guide, not a strict rulebook.
-                  Follow your family tradition, guru, health, and available time.
+                  यह एक हल्का शैक्षिक मार्गदर्शन है, कोई कठोर नियम पुस्तिका नहीं।
+                  अपने पारिवारिक परंपरा, गुरु, स्वास्थ्य और उपलब्ध समय का पालन करें।
                 </p>
               </div>
             </div>
@@ -266,9 +264,9 @@ export function NityaKarmaKriya() {
                     >
                       {meta.icon}
                     </span>
-                    <span className="block text-sm font-bold">{meta.label}</span>
-                    <span className="block font-devanagari text-xs text-dharma-muted">
-                      {meta.labelHi} · {count}
+                    <span className="block text-sm font-bold">{meta.labelHi}</span>
+                    <span className="block text-xs text-dharma-muted">
+                      {meta.label} · {count}
                     </span>
                   </button>
                 );
@@ -304,11 +302,11 @@ export function NityaKarmaKriya() {
                       <div className="min-w-0 flex-1">
                         <div className="flex flex-wrap items-start justify-between gap-2">
                           <div>
-                            <h3 className="font-serif text-lg font-bold text-dharma-text">
-                              {step.title}
-                            </h3>
-                            <p className="font-devanagari text-sm text-saffron-700">
+                            <h3 className="font-devanagari text-lg font-bold text-dharma-text">
                               {step.titleHi}
+                            </h3>
+                            <p className="text-sm text-dharma-muted">
+                              {step.title}
                             </p>
                           </div>
                           <span className="rounded-full bg-dharma-card px-2.5 py-1 text-xs font-bold text-dharma-muted ring-1 ring-dharma-border">
