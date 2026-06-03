@@ -259,7 +259,7 @@ export default function ChapterPage({ params }: PageProps) {
         <FullChapterVerses
           scriptureId={params.id}
           chapterId={chapter.id}
-          curatedVerseIds={new Set(chapter.verses.map((v) => v.id))}
+          curatedVerseIds={chapter.verses.map((v) => v.id)}
           basePath={process.env.NEXT_PUBLIC_BASE_PATH || ''}
           autoLoad={chapter.verses.length === 0}
         />

@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { BookOpen, Feather, Languages, ScrollText, Sun } from 'lucide-react';
 
 interface FullVerse {
@@ -28,7 +28,7 @@ interface FullScripture {
 interface Props {
   scriptureId: string;
   chapterId: number;
-  curatedVerseIds: Set<number | string>;
+  curatedVerseIds: Array<number | string>;
   basePath?: string;
   /**
    * Skip the "Load full chapter text" button and fetch immediately. Used on
@@ -47,6 +47,10 @@ type State =
 
 export function FullChapterVerses({ scriptureId, chapterId, curatedVerseIds, basePath = '', autoLoad = false }: Props) {
   const [state, setState] = useState<State>({ kind: autoLoad ? 'loading' : 'idle' });
+  const curatedVerseSet = useMemo(
+    () => new Set(curatedVerseIds.map((id) => String(id))),
+    [curatedVerseIds],
+  );
 
   useEffect(() => {
     if (state.kind !== 'loading') return;
@@ -66,7 +70,7 @@ export function FullChapterVerses({ scriptureId, chapterId, curatedVerseIds, bas
           if (!cancelled) setState({ kind: 'empty' });
           return;
         }
-        const extras = chapter.verses.filter((v) => !curatedVerseIds.has(v.number));
+        const extras = chapter.verses.filter((v) => !curatedVerseSet.has(String(v.number)));
         if (!cancelled) {
           setState({ kind: 'ready', verses: extras, source: data.source });
         }
@@ -77,7 +81,7 @@ export function FullChapterVerses({ scriptureId, chapterId, curatedVerseIds, bas
     return () => {
       cancelled = true;
     };
-  }, [state.kind, scriptureId, chapterId, curatedVerseIds, basePath]);
+  }, [state.kind, scriptureId, chapterId, curatedVerseSet, basePath]);
 
   if (state.kind === 'idle') {
     return (
@@ -141,9 +145,9 @@ export function FullChapterVerses({ scriptureId, chapterId, curatedVerseIds, bas
         <span className="text-xs text-dharma-muted">{state.verses.length} अतिरिक्त श्लोक</span>
       </div>
       <div className="space-y-6">
-        {state.verses.map((v) => (
+        {state.verses.map((v, index) => (
           <article
-            key={String(v.number)}
+            key={`${String(v.number)}-${index}`}
             className="rounded-xl border border-dharma-border bg-dharma-card p-5 md:p-6 shadow-sm"
           >
             <div className="flex items-center gap-3 mb-4">

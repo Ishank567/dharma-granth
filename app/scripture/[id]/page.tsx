@@ -1,3 +1,5 @@
+import { existsSync, readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
@@ -10,6 +12,52 @@ import { ArrowLeft } from 'lucide-react';
 
 interface PageProps {
   params: { id: string };
+}
+
+interface ChapterPreview {
+  id: number;
+  title: string;
+  titleSanskrit?: string;
+  summary?: string;
+  verseCount: number;
+}
+
+function readSeededChapterPreviews(scriptureId: string): ChapterPreview[] {
+  try {
+    const filePath = resolve(
+      process.cwd(),
+      'public/data/scriptures-full',
+      `${scriptureId}.json`,
+    );
+    if (!existsSync(filePath)) return [];
+    const data = JSON.parse(readFileSync(filePath, 'utf8')) as {
+      chapters?: Array<{
+        number?: number | string;
+        title?: string;
+        titleSanskrit?: string;
+        verses?: unknown[];
+      }>;
+    };
+
+    const previews: ChapterPreview[] = [];
+    for (const chapter of data.chapters ?? []) {
+      const id =
+        typeof chapter.number === 'number'
+          ? chapter.number
+          : Number(chapter.number);
+      if (!Number.isFinite(id)) continue;
+      previews.push({
+        id,
+        title: chapter.title || `अध्याय ${id}`,
+        titleSanskrit: chapter.titleSanskrit,
+        summary: 'मुक्त-स्रोत संग्रह से पूर्ण मूल पाठ उपलब्ध है।',
+        verseCount: chapter.verses?.length ?? 0,
+      });
+    }
+    return previews;
+  } catch {
+    return [];
+  }
 }
 
 export function generateStaticParams() {
@@ -60,21 +108,35 @@ export default function ScripturePage({ params }: PageProps) {
   const scripture = getScripture(params.id);
   const chapters = scripture?.chapters ?? [];
   const explanation = getBookExplanation(params.id);
-  const chapterPreviews = chapters.map(chapter => ({
+  const chapterPreviewsById = new Map<number, ChapterPreview>();
+  for (const chapter of chapters) {
+    chapterPreviewsById.set(chapter.id, {
     id: chapter.id,
     title: chapter.title,
     titleSanskrit: chapter.titleSanskrit,
     summary: chapter.summary,
     verseCount: chapter.verses.length,
-  }));
+    });
+  }
+  for (const seededChapter of readSeededChapterPreviews(params.id)) {
+    const existing = chapterPreviewsById.get(seededChapter.id);
+    chapterPreviewsById.set(seededChapter.id, {
+      ...seededChapter,
+      ...existing,
+      verseCount: Math.max(existing?.verseCount ?? 0, seededChapter.verseCount),
+    });
+  }
+  const chapterPreviews = Array.from(chapterPreviewsById.values()).sort(
+    (a, b) => a.id - b.id,
+  );
 
   // JSON-LD structured data: emit a Book entity for any catalog entry, with workExample
   // pointing to a Chapter entity for chapters that actually have verse data.
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://dharmagranth.example';
   const workExample =
-    meta.hasData && scripture
-      ? scripture.chapters
-          .filter(ch => ch.verses.length > 0)
+    meta.hasData && chapterPreviews.length > 0
+      ? chapterPreviews
+          .filter(ch => ch.verseCount > 0)
           .map(ch => ({
             '@type': 'Chapter' as const,
             name: ch.title,
