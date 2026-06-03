@@ -6,7 +6,7 @@
   "source": {
     "repo": "https://sanskritdocuments.org/doc_purana/",
     "license": "Sanskrit mūla — public domain (3000+ years old). sanskritdocuments.org publishes digitized text under permissive terms.",
-    "fetchedAt": "2026-06-01T11:12:00.133Z"
+    "fetchedAt": "2026-06-03T13:48:35.689Z"
   },
   "totalVerses": 11753,
   "totalChapters": 298,
@@ -17,8 +17,8 @@
       "verses": [
         {
           "number": "1.1.1",
-          "sanskrit": "श्रीगणाधिपतये नमः । सरस्वत्यैनमः । अथ श्रीगरुडमहापुराणं प्रारभ्यते । तत्रादौ कर्मकाण्डाख्यः पूर्वखण्डः प्रारभ्यते । ॐ नारायणं नमस्कृत्य नरं चैव नरोत्तमम् । देवीं सरस्वतीं चैव ततो जयमुदीरयेत् ॥ मंगलाचरणम् .१॥ ॐ अजमजरमनन्तं ज्ञानरूपं महान्तं शिवममलमनादिं भूतदेहादिहीनम् । सकलकरणहीनं सर्वभूतस्थितं तं हरिममलममायं सर्वगं वन्द एकम्",
-          "transliteration": "shrIgaNAdhipataye namaH | sarasvatyainamaH | atha shrIgaruDamahApurANaM prArabhyate | tatrAdau karmakANDAkhyaH pUrvakhaNDaH prArabhyate | OM nArAyaNaM namaskR^itya naraM chaiva narottamam | devIM sarasvatIM chaiva tato jayamudIrayet || ma.ngalAcharaNam \\.1|| OM ajamajaramanantaM j~nAnarUpaM mahAntaM shivamamalamanAdiM bhUtadehAdihInam | sakalakaraNahInaM sarvabhUtasthitaM taM harimamalamamAyaM sarvagaM vanda ekam"
+          "sanskrit": "॥ ग़रुदपुरन ॥ .. garuDapurANa ..eन्द्तित्लेस् shrIgaNAdhipataye namaH | sarasvatyainamaH | atha shrIgaruDamahApurANaM prArabhyate | tatrAdau karmakANDAkhyaH pUrvakhaNDaH prArabhyate | OM nArAyaNaM namaskR^itya naraM chaiva narottamam | devIM sarasvatIM chaiva tato jayamudIrayet || ma.ngalAcharaNam ।1|| OM ajamajaramanantaM j~nAnarUpaM mahAntaM shivamamalamanAdiM bhUtadehAdihInam | sakalakaraNahInaM sarvabhUtasthitaM taM harimamalamamAyaM sarvagaM vanda ekam",
+          "transliteration": ".. Garudapurana ..## .. garuDapurANa ..##\\endtitles ## shrIgaNAdhipataye namaH | sarasvatyainamaH | atha shrIgaruDamahApurANaM prArabhyate | tatrAdau karmakANDAkhyaH pUrvakhaNDaH prArabhyate | OM nArAyaNaM namaskR^itya naraM chaiva narottamam | devIM sarasvatIM chaiva tato jayamudIrayet || ma.ngalAcharaNam \\.1|| OM ajamajaramanantaM j~nAnarUpaM mahAntaM shivamamalamanAdiM bhUtadehAdihInam | sakalakaraNahInaM sarvabhUtasthitaM taM harimamalamamAyaM sarvagaM vanda ekam"
         },
         {
           "number": "1.1.2",

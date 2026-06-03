@@ -1,5 +1,6 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
 
 export interface FullVerse {
   number: number | string;
@@ -33,7 +34,9 @@ export interface FullScripture {
   chapters: FullChapter[];
 }
 
-const OUT_ROOT = resolve(process.cwd(), "public/data/scriptures-full");
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+const OUT_ROOT = resolve(__dirname, "../../public/data/scriptures-full");
 
 export function writeScripture(scripture: FullScripture): string {
   const outPath = resolve(OUT_ROOT, `${scripture.id}.json`);

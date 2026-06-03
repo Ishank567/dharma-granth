@@ -32,6 +32,45 @@ interface VedaSpec {
   count: number;
 }
 
+function devanagariNumber(value: string): number {
+  return Number(
+    value.replace(/[०-९]/g, (d) => String("०१२३४५६७८९".indexOf(d))),
+  );
+}
+
+function firstTextParagraph(segment: string): string {
+  const parts = segment
+    .trim()
+    .split(/\n\s*\n/)
+    .map((part) => part.trim())
+    .filter(Boolean);
+  return (parts.length > 1 ? parts[parts.length - 1] : parts[0] ?? "").trim();
+}
+
+function splitMantras(text: string, sukta: number | string): FullVerse[] {
+  const verses: FullVerse[] = [];
+  const verseEnd = /[।॥]\s*([०-९0-9]+)(?:\s*[।॥]|(?=\s*(?:\n|$)))/g;
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+
+  while ((match = verseEnd.exec(text)) !== null) {
+    const rawSegment = text.slice(lastIndex, match.index);
+    const cleaned = (verses.length === 0 ? firstTextParagraph(rawSegment) : rawSegment)
+      .replace(/\s+/g, " ")
+      .trim();
+    const mantraNumber = devanagariNumber(match[1]) || verses.length + 1;
+    if (cleaned.length >= 3) {
+      verses.push({
+        number: `${sukta}.${mantraNumber}`,
+        sanskrit: cleaned,
+      });
+    }
+    lastIndex = match.index + match[0].length;
+  }
+
+  return verses;
+}
+
 const VEDAS: VedaSpec[] = [
   {
     id: "rigveda",
@@ -70,8 +109,9 @@ async function processVeda(spec: VedaSpec): Promise<void> {
       continue;
     }
 
-    // The DharmicData files are heterogenous — sometimes arrays of strings,
-    // sometimes arrays of objects, sometimes nested under a sukta key.
+    // The DharmicData Rig/Atharva files are arrays of sukta objects. Split
+    // each sukta block into numbered mantras instead of counting the whole
+    // sukta as a single verse.
     const verses: FullVerse[] = [];
     const pushVerse = (text: string, index: number) => {
       const trimmed = text.trim();
@@ -91,7 +131,15 @@ async function processVeda(spec: VedaSpec): Promise<void> {
             (typeof obj.mantra === "string" && obj.mantra) ||
             (typeof obj.verse === "string" && obj.verse) ||
             "";
-          if (text) pushVerse(text, i);
+          if (text) {
+            const sukta = Number(obj.sukta) || i + 1;
+            const mantras = splitMantras(text, sukta);
+            if (mantras.length > 0) {
+              verses.push(...mantras);
+            } else {
+              pushVerse(text, i);
+            }
+          }
         }
       });
     }
@@ -113,7 +161,7 @@ async function processVeda(spec: VedaSpec): Promise<void> {
     category: "veda",
     source: {
       repo: "https://github.com/bhavykhatri/DharmicData",
-      license: "Sanskrit mula text — public domain. Verify any translations separately.",
+      license: "Sanskrit mula text - public domain. Verify any translations separately.",
       fetchedAt: new Date().toISOString(),
     },
     totalVerses,

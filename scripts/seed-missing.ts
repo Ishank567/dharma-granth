@@ -631,8 +631,21 @@ async function seedSamaveda(): Promise<FullScripture> {
   ];
   
   let currentSectionIdx = 0;
-  
-  const verseMap = new Map<string, { lines: string[], sectionIdx: number }>();
+  let currentVerseSectionIdx = 0;
+  let currentVerseLines: string[] = [];
+
+  const flushVerse = (verseNumber: number, lineText: string): void => {
+    currentVerseLines.push(lineText.replace(/\|\|\s*\d+\s*$/, "").trim());
+    const cleanText = currentVerseLines.join(" ").trim();
+    if (cleanText.length >= 3) {
+      sections[currentVerseSectionIdx].verses.push({
+        number: verseNumber,
+        sanskrit: itxToDevanagari(cleanText),
+        transliteration: normalizeItxLine(cleanText),
+      });
+    }
+    currentVerseLines = [];
+  };
   
   for (const line of lines) {
     const trimmed = line.trim();
@@ -644,25 +657,21 @@ async function seedSamaveda(): Promise<FullScripture> {
       currentSectionIdx = 2; // Mahanamni
     }
     
-    const match = line.match(/^\s*(\d+\s+\d+\s+\d+\s+\d+)##[a-z]##\s*(.*)$/);
+    const match = line.match(/^\s*((?:\d+\s+){3,4}\d+)##[a-z]##\s*(.*)$/);
     if (match) {
-      const verseId = match[1].replace(/\s+/g, "_");
       const text = match[2].trim();
-      if (!verseMap.has(verseId)) {
-        verseMap.set(verseId, { lines: [], sectionIdx: currentSectionIdx });
+      if (currentVerseLines.length === 0) {
+        currentVerseSectionIdx = currentSectionIdx;
       }
-      verseMap.get(verseId)!.lines.push(text);
+
+      const verseEnd = text.match(/\|\|\s*(\d+)\s*$/);
+      if (verseEnd) {
+        flushVerse(Number(verseEnd[1]), text);
+      } else {
+        currentVerseLines.push(text);
+      }
     }
   }
-  
-  verseMap.forEach((v, verseId) => {
-    const cleanText = v.lines.join(" ").replace(/\|\|\s*\d+\s*$/, "").trim();
-    sections[v.sectionIdx].verses.push({
-      number: sections[v.sectionIdx].verses.length + 1,
-      sanskrit: itxToDevanagari(cleanText),
-      transliteration: normalizeItxLine(cleanText)
-    });
-  });
   
   const chapters = sections.filter(s => s.verses.length > 0).map((s, idx) => ({
     number: idx + 1,
@@ -681,13 +690,50 @@ async function seedSamaveda(): Promise<FullScripture> {
     titleSanskrit: "सामवेदः",
     category: "veda",
     source: {
-      repo: "https://sanskritdocuments.org/doc_veda/sAmaveda.itx",
-      license: "Sanskrit mūla — public domain. Digitized by sanskritdocuments.org.",
+      repo: url,
+      license: "Sanskrit mula - sanskritdocuments.org volunteer edition; review reuse terms before redistribution.",
       fetchedAt: new Date().toISOString(),
     },
     totalVerses,
     totalChapters: mergedChapters.length,
     chapters: mergedChapters,
+  };
+}
+
+async function seedNityaKarmaKriya(): Promise<FullScripture> {
+  log("Writing Nitya Karma Kriya from curated scripture data...");
+  const curated = getScripture("nityakarmakriya");
+  if (!curated) throw new Error("No curated Nitya Karma Kriya data found");
+
+  const chapters = curated.chapters.map((chapter) => ({
+    number: chapter.id,
+    title: chapter.title,
+    titleSanskrit: chapter.titleSanskrit,
+    verses: chapter.verses.map((verse) => ({
+      number: verse.id,
+      sanskrit: verse.sanskrit,
+      transliteration: verse.transliteration || "",
+      translation: verse.translation || "",
+      hindi: verse.hindi || "",
+      commentary: verse.explanation || "",
+    })),
+  }));
+  const totalVerses = chapters.reduce((sum, chapter) => sum + chapter.verses.length, 0);
+
+  log(`  ${chapters.length} chapters · ${totalVerses} verses`);
+  return {
+    id: "nityakarmakriya",
+    title: curated.title,
+    titleSanskrit: curated.titleSanskrit,
+    category: curated.category,
+    source: {
+      repo: "data/scriptures/nityakarmakriya.ts",
+      license: "Curated daily-practice anthology bundled with the app.",
+      fetchedAt: new Date().toISOString(),
+    },
+    totalVerses,
+    totalChapters: chapters.length,
+    chapters,
   };
 }
 
@@ -1534,6 +1580,7 @@ const SEEDERS: Array<{ name: string; fn: () => Promise<FullScripture> }> = [
   { name: "varahapuran", fn: seedVarahaPurana },
   { name: "vayupuran", fn: seedVayuPurana },
   { name: "skandapuran", fn: seedSkandaPurana },
+  { name: "nityakarmakriya", fn: seedNityaKarmaKriya },
 ];
 
 async function main(): Promise<void> {

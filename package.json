@@ -19,7 +19,8 @@
     "seed:upanishads": "tsx scripts/seed-upanishads.ts",
     "seed:mahabharata": "tsx scripts/seed-mahabharata.ts",
     "seed:missing": "tsx scripts/seed-missing.ts",
-    "seed:all": "npm run seed:gita && npm run seed:ramayana && npm run seed:ramcharitmanas && npm run seed:vedas && npm run seed:upanishads && npm run seed:mahabharata && npm run seed:puranas && npm run seed:missing",
+    "seed:gretil": "tsx scripts/seed-gretil.ts",
+    "seed:all": "npm run seed:gita && npm run seed:ramayana && npm run seed:ramcharitmanas && npm run seed:vedas && npm run seed:upanishads && npm run seed:mahabharata && npm run seed:puranas && npm run seed:missing && npm run seed:gretil",
     "og:build": "tsx scripts/generate-og-images.ts",
     "check": "tsx scripts/check-data.ts"
   },
