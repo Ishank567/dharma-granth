@@ -80,77 +80,7 @@ export default function HomePage() {
 
   return (
     <main className="min-h-screen">
-      {/* ── Hero ──────────────────────────────────────────────────── */}
-      <section className="relative bg-gradient-to-br from-saffron-900 via-saffron-800 to-amber-900 text-white overflow-hidden">
-        {/* Enhanced Mandala ring decorations */}
-        <div className="absolute inset-0 pointer-events-none overflow-hidden">
-          <div className="absolute -top-32 -left-32 w-96 h-96 rounded-full border border-white/10 animate-spin-slow" />
-          <div
-            className="absolute -top-20 -left-20 w-72 h-72 rounded-full border border-white/10 animate-spin-slow"
-            style={{ animationDirection: "reverse", animationDuration: "20s" }}
-          />
-          <div className="absolute -bottom-32 -right-32 w-96 h-96 rounded-full border border-white/10 animate-spin-slow" />
-          <div
-            className="absolute -bottom-20 -right-20 w-72 h-72 rounded-full border border-white/10 animate-spin-slow"
-            style={{ animationDirection: "reverse", animationDuration: "25s" }}
-          />
-          {/* Dot pattern */}
-          <div className="absolute inset-0 opacity-10 mandala-bg" />
-          {/* Gradient overlay for depth */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
-        </div>
-
-        <div className="relative max-w-6xl mx-auto px-6 py-28 md:py-32 text-center">
-          {/* OM symbol with enhanced glow */}
-          <FadeUp className="inline-flex items-center justify-center w-24 h-24 rounded-full bg-white/15 border border-white/30 mb-8 animate-breathe shadow-2xl backdrop-blur-sm">
-            <span className="font-devanagari text-5xl text-saffron-100 leading-none drop-shadow-lg">
-              ॐ
-            </span>
-          </FadeUp>
-
-          <FadeUp delay={0.08}>
-            <h1 className="text-6xl md:text-8xl font-serif font-bold mb-4 tracking-tight drop-shadow-2xl">
-              Dharma Granth
-            </h1>
-          </FadeUp>
-          <FadeUp delay={0.14}>
-            <p className="font-devanagari text-3xl md:text-4xl text-saffron-100 mb-4 drop-shadow-md">
-              धर्म ग्रंथ
-            </p>
-          </FadeUp>
-          <FadeUp delay={0.2}>
-            <p className="text-2xl md:text-3xl font-light opacity-95 max-w-3xl mx-auto mb-3 drop-shadow-sm">
-              Famous verses, deeply explained.
-            </p>
-            <p className="font-devanagari text-xl md:text-2xl opacity-85 max-w-2xl mx-auto mb-4">
-              प्रसिद्ध श्लोक — गहरा हिंदी अर्थ — वैज्ञानिक दृष्टिकोण
-            </p>
-            <p className="text-base opacity-70 max-w-xl mx-auto mb-12 font-medium">
-              Sanskrit · Hindi · English · Science — verse by verse, free,
-              ad-free.
-            </p>
-          </FadeUp>
-
-          <FadeUp delay={0.3} className="flex flex-wrap justify-center gap-4">
-            <Link
-              href="/scripture/bhagavadgita"
-              className="inline-flex items-center gap-2 bg-white text-saffron-800 px-8 py-4 rounded-full font-bold hover:bg-saffron-50 transition-all shadow-xl hover:shadow-2xl hover:scale-105 transform"
-            >
-              <Flame className="w-5 h-5" />
-              भगवद्गीता पढ़ें
-            </Link>
-            <Link
-              href="/scriptures"
-              className="inline-flex items-center gap-2 bg-white/15 backdrop-blur-sm border border-white/40 text-white px-8 py-4 rounded-full font-semibold hover:bg-white/25 transition-all hover:scale-105 transform shadow-lg"
-            >
-              <BookOpen className="w-5 h-5" />
-              Browse the Library
-            </Link>
-          </FadeUp>
-        </div>
-
-        <div className="h-24 bg-gradient-to-b from-saffron-700 to-dharma-bg" />
-      </section>
+      <HeroSection />
 
       {/* ── Featured Verse Infographic ────────────────────────────── */}
       <section className="max-w-6xl mx-auto px-6 -mt-8 mb-12 relative z-10">
@@ -408,3 +338,4 @@ export default function HomePage() {
     </main>
   );
 }
+
