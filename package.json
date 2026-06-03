@@ -6,6 +6,7 @@
     "dev": "next dev",
     "prebuild": "npm run check",
     "build": "next build",
+    "prebuild:pages": "npm run check",
     "build:pages": "next build",
     "start": "next start",
     "lint": "next lint",
