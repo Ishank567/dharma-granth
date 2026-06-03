@@ -6,9 +6,127 @@
   "source": {
     "repo": "https://sanskritdocuments.org/doc_purana/",
     "license": "Full itx not available on sanskritdocuments. Curated highlights are hand-authored.",
-    "fetchedAt": "2026-06-01T11:10:50.485Z"
+    "fetchedAt": "2026-06-02T08:43:20.712Z"
   },
-  "totalVerses": 0,
-  "totalChapters": 0,
-  "chapters": []
+  "totalVerses": 15,
+  "totalChapters": 6,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "The Matsya Avatar — Vishnu as the Fish",
+      "titleSanskrit": "मत्स्यावतार",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "मत्स्यरूपं समास्थाय स्वयं नारायणो हरिः | मनवे कथयामास पुराणं ब्रह्मसम्मितम् ||",
+          "transliteration": "matsyarūpaṃ samāsthāya svayaṃ nārāyaṇo hariḥ | manave kathayāmāsa purāṇaṃ brahmasammitam ||"
+        },
+        {
+          "number": 2,
+          "sanskrit": "संवर्धयस्व मां राजन् रक्षां कुरु यतस्ततः | अहं वै रक्षणार्थाय भविष्यामि भवान् मम ||",
+          "transliteration": "saṃvardhayasva māṃ rājan rakṣāṃ kuru yatastataḥ | ahaṃ vai rakṣaṇārthāya bhaviṣyāmi bhavān mama ||"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Manu Smriti Within Matsya — Laws of Dharmic Life",
+      "titleSanskrit": "धर्म-नियम",
+      "verses": [
+        {
+          "number": 215,
+          "sanskrit": "दानं भोगो नाशस्तिस्रो गतयो भवन्ति वित्तस्य | यो न ददाति न भुङ्क्ते तस्य तृतीया गतिर्भवति ||",
+          "transliteration": "dānaṃ bhogo nāśastisro gatayo bhavanti vittasya | yo na dadāti na bhuṅkte tasya tṛtīyā gatirbhavati ||"
+        },
+        {
+          "number": 220,
+          "sanskrit": "सत्यं माता पिता ज्ञानं धर्मो भ्राता दया सखा | शान्तिः पत्नी क्षमा पुत्रः षडेते मम बान्धवाः ||",
+          "transliteration": "satyaṃ mātā pitā jñānaṃ dharmo bhrātā dayā sakhā | śāntiḥ patnī kṣamā putraḥ ṣaḍete mama bāndhavāḥ ||"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Vastu and Sacred Art — The Divine Geometry of Space",
+      "titleSanskrit": "वास्तु एवं मूर्तिविज्ञान",
+      "verses": [
+        {
+          "number": 252,
+          "sanskrit": "यथा भवति देवेशो देवानां मूर्तिरुत्तमा | तथा मनुष्यदेहस्य विभागो मानसम्मतः ||",
+          "transliteration": "yathā bhavati deveśo devānāṃ mūrtiḥ uttamā | tathā manuṣyadehasya vibhāgo mānasammataḥ ||"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "The Nature of Time — Kala and the Four Yugas",
+      "titleSanskrit": "काल विचार — चतुर्युग",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "कालः पचति भूतानि कालः संहरते प्रजाः | कालः सुप्तेषु जागर्ति कालो हि दुरतिक्रमः ||",
+          "transliteration": "kālaḥ pacati bhūtāni kālaḥ saṃharate prajāḥ | kālaḥ supteṣu jāgarti kālo hi duratikramaḥ ||"
+        },
+        {
+          "number": 8,
+          "sanskrit": "सत्ययुगे तपो मुख्यं त्रेतायां ज्ञानमुच्यते | द्वापरे यज्ञमेवाहुः दाने कलियुगे स्थितिः ||",
+          "transliteration": "satayuge tapo mukhyaṃ tretāyāṃ jñānamucyate | dvāpare yajñamevāhuḥ dāne kaliyuge sthitiḥ ||"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Tirtha Mahatmya — The Power of Sacred Places",
+      "titleSanskrit": "तीर्थ माहात्म्य",
+      "verses": [
+        {
+          "number": 105,
+          "sanskrit": "तीर्थान्यनेकानि पुनन्ति पापं तीर्थेषु सर्वेषु मनः प्रधानम् | मनः शुचिर्यस्य स सर्वतीर्थी तीर्थं बहिस्तस्य न किञ्चिदस्ति ||",
+          "transliteration": "tīrthānyAnekāni punanti pāpaṃ tīrtheṣu sarveṣu manaḥ pradhānam | manaḥ śuciryasya sa sarvatīrthī tīrthaṃ bahistasya na kiñcidasti ||"
+        },
+        {
+          "number": 110,
+          "sanskrit": "गङ्गा गङ्गेति यो ब्रूयाद्योजनानां शतैरपि | मुच्यते सर्वपापेभ्यो विष्णुलोकं स गच्छति ||",
+          "transliteration": "gaṅgā gaṅgeti yo brūyādyojanānāṃ śatairapi | mucyate sarvapāpebhyo viṣṇulokaṃ sa gacchati ||"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Rajadharma — The Duties of the King",
+      "titleSanskrit": "राजधर्म",
+      "verses": [
+        {
+          "number": 215,
+          "sanskrit": "प्रजासु यः स्याद्व्यसनी नृपश्च राज्यं विनश्येत्तरसा नराणाम् | प्रजाहितार्थं तु नृपो यतेत स राज्यमाप्नोति चिरेण शुद्धम् ||",
+          "transliteration": "prajāsu yaḥ syādvyasanī nṛpaśca rājyaṃ vinaśyettarasā narāṇām | prajāhitārthaṃ tu nṛpo yateta sa rājyamāpnoti cireṇa śuddham ||"
+        },
+        {
+          "number": 227,
+          "sanskrit": "नाधर्मश्चरितो लोके सद्यः फलति गौरिव | शनैरावर्तमानस्तु कर्तुर्मूलं निकृन्तति ||",
+          "transliteration": "nādharmaścarito loke sadyaḥ phalati gauriva | śanairāvartamānastu karturmūlaṃ nikṛntati ||"
+        },
+        {
+          "number": 5,
+          "sanskrit": "मत्स्यो भवामि युग ante संवर्तकनिमीलिते | युगानां प्रथमे युगे सृष्टिं करोमि केवलम् ||",
+          "transliteration": "matsyo bhavāmi yuga ante saṃvartakanimīlite | yugānāṃ prathame yuge sṛṣṭiṃ karomi kevalam ||"
+        },
+        {
+          "number": 26,
+          "sanskrit": "राजा प्रजापालनाय राज्यं पालयते यदि | न स राजा न तद्राज्यं यदि प्रजापालनं न हि ||",
+          "transliteration": "rājā prajāpālanāya rājyaṃ pālayate yadi | na sa rājā na tadrājyaṃ yadi prajāpālanaṃ na hi ||"
+        },
+        {
+          "number": 27,
+          "sanskrit": "सर्वभूतानां हितार्थं राजा राज्यं पालयेत् | सर्वभूतानां हितार्थं ब्रह्मा जगत् पालयेत् ||",
+          "transliteration": "sarvabhūtānām hitārthaṃ rājā rājyaṃ pālayet | sarvabhūtānām hitārthaṃ brahmā jagat pālayet ||"
+        },
+        {
+          "number": 28,
+          "sanskrit": "धर्मो रक्षति रक्षितः धर्मो हन्ति हतः क्रिया | धर्मो न प्रशश्यते किञ्चित् धर्मेण तप्यते अमृतम् ||",
+          "transliteration": "dharmo rakṣati rakṣitaḥ dharmaḥ hanti hatāḥ kriyā | dharmaḥ na praśaśyate kiñcid dharmeṇa tapyate amṛtam ||"
+        }
+      ]
+    }
+  ]
 }

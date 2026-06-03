@@ -114,7 +114,7 @@ export function SlideDeck({ slides, className = '', autoPlay = false, autoPlayIn
         )}
 
         {/* Main slide area */}
-        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-saffron-50 to-amber-50 border-2 border-saffron-200 shadow-2xl">
+        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-saffron-500/10 via-saffron-500/5 to-amber-500/10 border-2 border-saffron-200 shadow-2xl">
           <AnimatePresence mode="wait">
             <motion.div
               key={currentIndex}
@@ -154,7 +154,7 @@ export function SlideDeck({ slides, className = '', autoPlay = false, autoPlayIn
                     initial={reduce ? {} : { opacity: 0, y: 20 }}
                     animate={reduce ? {} : { opacity: 1, y: 0 }}
                     transition={reduce ? {} : { delay: 0.3 }}
-                    className="bg-gradient-to-r from-rose-50 to-pink-50 rounded-2xl p-6 mb-6 border border-rose-200"
+                    className="bg-gradient-to-r from-rose-500/10 to-pink-500/10 rounded-2xl p-6 mb-6 border border-rose-200"
                   >
                     <p
                       lang="hi"
@@ -170,7 +170,7 @@ export function SlideDeck({ slides, className = '', autoPlay = false, autoPlayIn
                   initial={reduce ? {} : { opacity: 0, y: 20 }}
                   animate={reduce ? {} : { opacity: 1, y: 0 }}
                   transition={reduce ? {} : { delay: 0.4 }}
-                  className="bg-white rounded-2xl p-6 mb-6 border border-dharma-border shadow-lg"
+                  className="bg-dharma-card rounded-2xl p-6 mb-6 border border-dharma-border shadow-lg"
                 >
                   <p className="text-xl text-dharma-text text-center leading-relaxed">
                     {currentSlide.english}
@@ -183,7 +183,7 @@ export function SlideDeck({ slides, className = '', autoPlay = false, autoPlayIn
                     initial={reduce ? {} : { opacity: 0, y: 20 }}
                     animate={reduce ? {} : { opacity: 1, y: 0 }}
                     transition={reduce ? {} : { delay: 0.5 }}
-                    className="bg-gradient-to-r from-emerald-50 to-green-50 rounded-2xl p-6 mb-6 border border-emerald-200"
+                    className="bg-gradient-to-r from-emerald-500/10 to-green-500/10 rounded-2xl p-6 mb-6 border border-emerald-200"
                   >
                     <p className="text-dharma-muted text-center leading-relaxed">
                       {currentSlide.explanation}
@@ -197,7 +197,7 @@ export function SlideDeck({ slides, className = '', autoPlay = false, autoPlayIn
                     initial={reduce ? {} : { opacity: 0, y: 20 }}
                     animate={reduce ? {} : { opacity: 1, y: 0 }}
                     transition={reduce ? {} : { delay: 0.6 }}
-                    className="bg-gradient-to-r from-indigo-50 to-blue-50 rounded-2xl p-6 mb-6 border border-indigo-200"
+                    className="bg-gradient-to-r from-indigo-500/10 to-blue-500/10 rounded-2xl p-6 mb-6 border border-indigo-200"
                   >
                     <p className="text-dharma-muted text-center leading-relaxed">
                       <span className="font-bold text-indigo-700">Science: </span>
@@ -217,7 +217,7 @@ export function SlideDeck({ slides, className = '', autoPlay = false, autoPlayIn
                     {currentSlide.keywords.map((keyword, idx) => (
                       <span
                         key={idx}
-                        className="px-4 py-2 bg-saffron-100 text-saffron-800 rounded-full text-sm font-semibold border border-saffron-200"
+                        className="px-4 py-2 bg-saffron-500/10 text-saffron-800 rounded-full text-sm font-semibold border border-saffron-200"
                       >
                         {keyword}
                       </span>
@@ -237,7 +237,7 @@ export function SlideDeck({ slides, className = '', autoPlay = false, autoPlayIn
               animate={reduce ? {} : { opacity: 1, height: 'auto' }}
               exit={reduce ? {} : { opacity: 0, height: 0 }}
               transition={reduce ? {} : { duration: 0.3 }}
-              className="mt-4 bg-gradient-to-r from-slate-50 to-gray-50 rounded-2xl p-6 border border-slate-200"
+              className="mt-4 bg-gradient-to-r from-slate-500/10 to-gray-500/10 rounded-2xl p-6 border border-slate-200"
             >
               <div className="flex items-center gap-2 mb-3">
                 <FileText className="w-4 h-4 text-slate-600" />
@@ -255,7 +255,7 @@ export function SlideDeck({ slides, className = '', autoPlay = false, autoPlayIn
           <div className="flex items-center gap-2">
             <button
               onClick={previousSlide}
-              className="flex items-center gap-2 px-6 py-3 bg-white border border-dharma-border rounded-full font-semibold hover:bg-saffron-50 transition shadow-sm hover:shadow-md"
+              className="flex items-center gap-2 px-6 py-3 bg-dharma-card border border-dharma-border rounded-full font-semibold hover:bg-saffron-500/10 transition shadow-sm hover:shadow-md"
               aria-label="Previous slide"
             >
               <ChevronLeft className="w-4 h-4" />
@@ -266,7 +266,7 @@ export function SlideDeck({ slides, className = '', autoPlay = false, autoPlayIn
               className={`flex items-center gap-2 px-4 py-3 rounded-full font-semibold transition shadow-sm hover:shadow-md ${
                 isPlaying
                   ? 'bg-gradient-to-r from-saffron-600 to-amber-600 text-white'
-                  : 'bg-white border border-dharma-border hover:bg-saffron-50'
+                  : 'bg-dharma-card border border-dharma-border hover:bg-saffron-500/10'
               }`}
               aria-label={isPlaying ? 'Pause slideshow' : 'Play slideshow'}
             >
@@ -279,7 +279,7 @@ export function SlideDeck({ slides, className = '', autoPlay = false, autoPlayIn
                 className={`flex items-center gap-2 px-4 py-3 rounded-full font-semibold transition shadow-sm hover:shadow-md ${
                   showNotes
                     ? 'bg-gradient-to-r from-saffron-600 to-amber-600 text-white'
-                    : 'bg-white border border-dharma-border hover:bg-saffron-50'
+                    : 'bg-dharma-card border border-dharma-border hover:bg-saffron-500/10'
                 }`}
                 aria-label="Toggle presenter notes"
               >
@@ -308,7 +308,7 @@ export function SlideDeck({ slides, className = '', autoPlay = false, autoPlayIn
           <div className="flex items-center gap-2">
             <button
               onClick={toggleFullscreen}
-              className="p-3 bg-white border border-dharma-border rounded-full hover:bg-saffron-50 transition shadow-sm hover:shadow-md"
+              className="p-3 bg-dharma-card border border-dharma-border rounded-full hover:bg-saffron-500/10 transition shadow-sm hover:shadow-md"
               title={isFullscreen ? 'Exit fullscreen (F)' : 'Enter fullscreen (F)'}
               aria-label="Toggle fullscreen"
             >

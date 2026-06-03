@@ -6,10 +6,10 @@
   "source": {
     "repo": "https://sanskritdocuments.org/doc_upanishhat/",
     "license": "Sanskrit mūla — public domain (2500+ years old). sanskritdocuments.org publishes digitized text under permissive terms.",
-    "fetchedAt": "2026-05-15T09:07:13.127Z"
+    "fetchedAt": "2026-06-02T08:28:56.371Z"
   },
-  "totalVerses": 40,
-  "totalChapters": 1,
+  "totalVerses": 74,
+  "totalChapters": 5,
   "chapters": [
     {
       "number": 1,
@@ -17,8 +17,8 @@
       "verses": [
         {
           "number": 0,
-          "sanskrit": "वाङ् मे मनसि प्रतिष्ठिता मनो मे वाचि प्रतिष्ठितमाविरावीर्म एधि ॥ वेदस्य म आणीस्थः श्रुतं मे मा प्रहासीरनेनाधीतेनाहोरात्रान् सन्दधाम्यृतं वदिष्यामि सत्यं वदिष्यामि ॥ तन्मामवतु तद्वक्तारमवत्ववतु मामवतु वक्तारमवतु वक्तारम्",
-          "transliteration": "vA~N me manasi pratiShThitA mano me vAchi pratiShThitamAvirAvIrma edhi || vedasya ma ANIsthaH shrutaM me mA prahAsIranenAdhItenAhorAtrAn sandadhAmyR^itaM vadiShyAmi satyaM vadiShyAmi || tanmAmavatu tadvaktAramavatvavatu mAmavatu vaktAramavatu vaktAram"
+          "sanskrit": "॥ आइतरेय ऊपनिशद् ॥ .. aitareyopaniShat ..eन्द्तित्लेस् vA~N me manasi pratiShThitA mano me vAchi pratiShThitamAvirAvIrma edhi || vedasya ma ANIsthaH shrutaM me mA prahAsIranenAdhItenAhorAtrAn sandadhAmyR^itaM vadiShyAmi satyaM vadiShyAmi || tanmAmavatu tadvaktAramavatvavatu mAmavatu vaktAramavatu vaktAram",
+          "transliteration": ".. Aitareya Upanishad ..## .. aitareyopaniShat ..##\\endtitles ## vA~N me manasi pratiShThitA mano me vAchi pratiShThitamAvirAvIrma edhi || vedasya ma ANIsthaH shrutaM me mA prahAsIranenAdhItenAhorAtrAn sandadhAmyR^itaM vadiShyAmi satyaM vadiShyAmi || tanmAmavatu tadvaktAramavatvavatu mAmavatu vaktAramavatu vaktAram"
         },
         {
           "number": 0,
@@ -214,6 +214,204 @@
           "number": 0,
           "sanskrit": "॥ इत्यैतरोपनिषदि तृतीयोध्यायः ॥ ॐ वाङ् मे मनसि प्रतिष्ठिता मनो मे वाचि प्रतिष्ठितमाविरावीर्म एधि वेदस्य म आणीस्थः श्रुतं मे मा प्रहासीरनेनाधीतेनाहोरात्रान् सन्दधाम्यृतं वदिष्यामि सत्यं वदिष्यामि तन्मामवतु तद्वक्तारमवत्ववतु मामवतु वक्तारमवतु वक्तारम्",
           "transliteration": "|| ityaitaropaniShadi tR^itIyodhyAyaH || OM vA~N me manasi pratiShThitA mano me vAchi pratiShThitamAvirAvIrma edhi vedasya ma ANIsthaH shrutaM me mA prahAsIranenAdhItenAhorAtrAn sandadhAmyR^itaM vadiShyAmi satyaM vadiShyAmi tanmAmavatu tadvaktAramavatvavatu mAmavatu vaktAramavatu vaktAram"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Adhyāya 1 · Khaṇḍa 2 — The Devas Seek a Home",
+      "titleSanskrit": "प्रथम अध्याय · द्वितीय खण्ड",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "ता एता देवताः सृष्टा अस्मिन्महत्यर्णवे प्रापतन् | तमशनापिपासाभ्यामन्ववार्जत् | ता एनमब्रुवन् | आयतनं नः प्रजानीहि यस्मिन् प्रतिष्ठिता अन्नमदामेति ||",
+          "transliteration": "tā etā devatāḥ sṛṣṭā asminmahatyarṇave prāpatan | tamaśanāpipāsābhyāmanvavārjat | tā enamabruvan | āyatanaṃ naḥ prajānīhi yasmin pratiṣṭhitā annamadāmeti ||"
+        },
+        {
+          "number": 2,
+          "sanskrit": "ताभ्यो गामानयत् | ता अब्रुवन्न वै नोऽयमलमिति | ताभ्योऽश्वमानयत् | ता अब्रुवन्न वै नोऽयमलमिति ||",
+          "transliteration": "tābhyo gāmānayat | tā abruvanna vai no'yamalamiti | tābhyo'śvamānayat | tā abruvanna vai no'yamalamiti ||"
+        },
+        {
+          "number": 3,
+          "sanskrit": "ताभ्यः पुरुषमानयत् | ता अब्रुवन् सुकृतं बतेति | पुरुषो वाव सुकृतम् | ता अब्रवीद्यथायतनं प्रविशतेति ||",
+          "transliteration": "tābhyaḥ puruṣamānayat | tā abruvan sukṛtaṃ bateti | puruṣo vāva sukṛtam | tā abravīdyathāyatanaṃ praviśateti ||"
+        },
+        {
+          "number": 4,
+          "sanskrit": "अग्निर्वाग्भूत्वा मुखं प्राविशत् | वायुः प्राणो भूत्वा नासिके प्राविशत् | आदित्यश्चक्षुर्भूत्वाक्षिणी प्राविशत् | दिशः श्रोत्रं भूत्वा कर्णौ प्राविशन् | ओषधिवनस्पतयो लोमानि भूत्वा त्वचं प्राविशन् | चन्द्रमा मनो भूत्वा हृदयं प्राविशत् | मृत्युरपानो भूत्वा नाभिं प्राविशत् | आपो रेतो भूत्वा शिश्नं प्राविशन् ||",
+          "transliteration": "agnirvāgbhūtvā mukhaṃ prāviśat | vāyuḥ prāṇo bhūtvā nāsike prāviśat | ādityaścakṣurbhūtvākṣiṇī prāviśat | diśaḥ śrotraṃ bhūtvā karṇau prāviśan | oṣadhivanaspatayo lomāni bhūtvā tvacaṃ prāviśan | candramā mano bhūtvā hṛdayaṃ prāviśat | mṛtyurapāno bhūtvā nābhiṃ prāviśat | āpo reto bhūtvā śiśnaṃ prāviśan ||"
+        },
+        {
+          "number": 5,
+          "sanskrit": "तमशनापिपासे अब्रूताम् | आवाभ्यामभिप्रजानीहीति | ते अब्रवीदेतास्वेव वां देवतास्वाभजाम्येतासु भागिन्यौ करोमीति | तस्माद्यस्यै कस्यै च देवतायै हविर्गृह्यते भागिन्यावेवास्यामशनापिपासे भवतः ||",
+          "transliteration": "tamaśanāpipāse abrūtām | āvābhyāmabhiprajānīhīti | te abravīdetāsveva vāṃ devatāsvābhajāmyetāsu bhāginyau karomīti | tasmādyasyai kasyai ca devatāyai havirgṛhyate bhāginyāvevāsyāmaśanāpipāse bhavataḥ ||"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Adhyāya 1 · Khaṇḍa 3 — The Self Enters Through the Crown",
+      "titleSanskrit": "प्रथम अध्याय · तृतीय खण्ड",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "स ईक्षत | कथं न्विदं मदृते स्यादिति | स ईक्षत कतरेण प्रपद्या इति | स ईक्षत यदि वाचाभिव्याहृतं यदि प्राणेनाभिप्राणितं यदि चक्षुषा दृष्टं यदि श्रोत्रेण श्रुतं यदि त्वचा स्पृष्टं यदि मनसा ध्यातं यदि अपानेनाभ्यपानितं यदि शिश्नेन विसृष्टमथ कोऽहमिति ||",
+          "transliteration": "sa īkṣata | kathaṃ nvidaṃ madṛte syāditi | sa īkṣata katareṇa prapadyā iti | sa īkṣata yadi vācābhivyāhṛtaṃ yadi prāṇenābhiprāṇitaṃ yadi cakṣuṣā dṛṣṭaṃ yadi śrotreṇa śrutaṃ yadi tvacā spṛṣṭaṃ yadi manasā dhyātaṃ yadi apānenābhyapānitaṃ yadi śiśnena visṛṣṭamatha ko'hamiti ||"
+        },
+        {
+          "number": 2,
+          "sanskrit": "स एतमेव सीमानं विदार्यैतया द्वारा प्रापद्यत | सैषा विदृतिर्नाम द्वास्तदेतन्नाण्डनम् | तस्य त्रय आवसथास्त्रयः स्वप्नाः | अयमावसथोऽयमावसथोऽयमावसथ इति ||",
+          "transliteration": "sa etameva sīmānaṃ vidāryaitayā dvārā prāpadyata | saiṣā vidṛtirnāma dvāstadetannāṇḍanam | tasya traya āvasathāstrayaḥ svapnāḥ | ayamāvasatho'yamāvasatho'yamāvasatha iti ||"
+        },
+        {
+          "number": 3,
+          "sanskrit": "स जातो भूतान्यभिव्यैक्षत | किमिहान्यं वावदिषदिति | स एतमेव पुरुषं ब्रह्म ततममपश्यत् | इदमदर्शमिति ||",
+          "transliteration": "sa jāto bhūtānyabhivyaikṣata | kimihānyaṃ vāvadiṣaditi | sa etameva puruṣaṃ brahma tatamamapaśyat | idamadarśamiti ||"
+        },
+        {
+          "number": 4,
+          "sanskrit": "तस्मादिदन्द्रो नामेदन्द्रो ह वै नाम | तमिदन्द्रं सन्तमिन्द्र इत्याचक्षते परोक्षेण | परोक्षप्रिया इव हि देवाः परोक्षप्रिया इव हि देवाः ||",
+          "transliteration": "tasmādidandro nāmedandro ha vai nāma | tamidandraṃ santamindra ityācakṣate parokṣeṇa | parokṣapriyā iva hi devāḥ parokṣapriyā iva hi devāḥ ||"
+        },
+        {
+          "number": 5,
+          "sanskrit": "पुरुषे ह वा अयमादितो गर्भो भवति | यदेतद्रेतस्तदेतत्सर्वेभ्योऽङ्गेभ्यस्तेजः सम्भूतम् | आत्मन्येवात्मानं बिभर्ति | तद्यथा स्त्रियां सिञ्चत्यथैनज्जनयति | तदस्य प्रथमं जन्म ||",
+          "transliteration": "puruṣe ha vā ayamādito garbho bhavati | yadetadretastadetatsarvebhyo'ṅgebhyastejaḥ sambhūtam | ātmanyevātmānaṃ bibharti | tadyathā striyāṃ siñcatyathainajjanayati | tadasya prathamaṃ janma ||"
+        },
+        {
+          "number": 6,
+          "sanskrit": "तत्स्त्रिया आत्मभूयं गच्छति यथा स्वमङ्गं तथा | तस्मादेनां न हिनस्ति | साऽस्यैतमात्मानमत्र गतं भावयति ||",
+          "transliteration": "tatstriyā ātmabhūyaṃ gacchati yathā svamaṅgaṃ tathā | tasmādenāṃ na hinasti | sā'syaitamātmānamatra gataṃ bhāvayati ||"
+        },
+        {
+          "number": 7,
+          "sanskrit": "सा भावयित्री भावयितव्या भवति | तं स्त्री गर्भं बिभर्ति | सोऽग्र एव कुमारं जन्मनोऽग्रेऽधिभावयति | स यत्कुमारं जन्मनोऽग्रेऽधिभावयत्यात्मानमेव तद्भावयत्येषां लोकानां सन्तत्या | एवं सन्तता हीमे लोकाः | तदस्य द्वितीयं जन्म ||",
+          "transliteration": "sā bhāvayitrī bhāvayitavyā bhavati | taṃ strī garbhaṃ bibharti | so'gra eva kumāraṃ janmano'gre'dhibhāvayati | sa yatkumāraṃ janmano'gre'dhibhāvayatyātmānameva tadbhāvayatyeṣāṃ lokānāṃ santatyā | evaṃ santatā hīme lokāḥ | tadasya dvitīyaṃ janma ||"
+        },
+        {
+          "number": 8,
+          "sanskrit": "सोऽस्यायमात्मा पुण्येभ्यः कर्मभ्यः प्रतिधीयते | अथास्यायमितर आत्मा कृतकृत्यो वयोगतः प्रैति | स इतः प्रयन्नेव पुनर्जायते | तदस्य तृतीयं जन्म ||",
+          "transliteration": "so'syāyamātmā puṇyebhyaḥ karmabhyaḥ pratidhīyate | athāsyāyamitara ātmā kṛtakṛtyo vayogataḥ praiti | sa itaḥ prayanneva punarjāyate | tadasya tṛtīyaṃ janma ||"
+        },
+        {
+          "number": 9,
+          "sanskrit": "तदुक्तमृषिणा | गर्भे नु सन्नन्वेषामवेदमहं देवानां जनिमानि विश्वा | शतं मा पुर आयसीररक्षन्नधः श्येनो जवसा निरदीयम् | इति | गर्भ एवैतच्छयानो वामदेव एवमुवाच ||",
+          "transliteration": "taduktamṛṣiṇā | garbhe nu sannanveṣāmavedamahaṃ devānāṃ janimāni viśvā | śataṃ mā pura āyasīrarakṣannadhaḥ śyeno javasā niradīyam | iti | garbha evaitacchayāno vāmadeva evamuvāca ||"
+        },
+        {
+          "number": 10,
+          "sanskrit": "स एवं विद्वानस्माच्छरीरभेदादूर्ध्व उत्क्रम्यामुष्मिन् स्वर्गे लोके सर्वान् कामानाप्त्वामृतः समभवत् समभवत् ||",
+          "transliteration": "sa evaṃ vidvānasmāccharīrabhedādūrdhva utkramyāmuṣmin svarge loke sarvān kāmānāptvāmṛtaḥ samabhavat samabhavat ||"
+        },
+        {
+          "number": 11,
+          "sanskrit": "ॐ वाङ् मे मनसि प्रतिष्ठिता | मनो मे वाचि प्रतिष्ठितम् | आविरावीर्म एधि ||",
+          "transliteration": "oṃ vāṅ me manasi pratiṣṭhitā | mano me vāci pratiṣṭhitam | āvirāvīrma edhi ||"
+        },
+        {
+          "number": 12,
+          "sanskrit": "वेदस्य म आणीस्थः | श्रुतं मे मा प्रहासीः | अनेनाधीतेनाहोरात्रान् संदधाम्यृतं वदिष्यामि | सत्यं वदिष्यामि ||",
+          "transliteration": "vedasya ma āṇīsthaḥ | śrutaṃ me mā prahāsīḥ | anenādhītenāhorātrān saṃdadhāmyṛtaṃ vadiṣyāmi | satyaṃ vadiṣyāmi ||"
+        },
+        {
+          "number": 13,
+          "sanskrit": "तन्मामवतु | तद्वक्तारमवतु | अवतु माम् | अवतु वक्तारमवतु वक्तारम् ||",
+          "transliteration": "tanmāmavatu | tadvaktāramavatu | avatu mām | avatu vaktāramavatu vaktāram ||"
+        },
+        {
+          "number": 14,
+          "sanskrit": "ॐ शान्तिः शान्तिः शान्तिः ||",
+          "transliteration": "oṃ śāntiḥ śāntiḥ śāntiḥ ||"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Adhyāya 2 — The Three Births of the Soul",
+      "titleSanskrit": "द्वितीय अध्याय",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "पुरुषे ह वा अयमादितो गर्भो भवति | यदेतद्रेतस्तदेतत्सर्वेभ्योऽङ्गेभ्यस्तेजः सम्भूतम् | आत्मन्येवात्मानं बिभर्ति | तद्यथा स्त्रियां सिञ्चत्यथैनज्जनयति | तदस्य प्रथमं जन्म ||",
+          "transliteration": "puruṣe ha vā ayamādito garbho bhavati | yadetadretastadetatsarvebhyo'ṅgebhyastejaḥ sambhūtam | ātmanyevātmānaṃ bibharti | tadyathā striyāṃ siñcatyathainajjanayati | tadasya prathamaṃ janma ||"
+        },
+        {
+          "number": 2,
+          "sanskrit": "तत्स्त्रिया आत्मभूयं गच्छति यथा स्वमङ्गं तथा | तस्मादेनां न हिनस्ति | साऽस्यैतमात्मानमत्र गतं भावयति ||",
+          "transliteration": "tatstriyā ātmabhūyaṃ gacchati yathā svamaṅgaṃ tathā | tasmādenāṃ na hinasti | sā'syaitamātmānamatra gataṃ bhāvayati ||"
+        },
+        {
+          "number": 3,
+          "sanskrit": "सा भावयित्री भावयितव्या भवति | तं स्त्री गर्भं बिभर्ति | सोऽग्र एव कुमारं जन्मनोऽग्रेऽधिभावयति | स यत्कुमारं जन्मनोऽग्रेऽधिभावयत्यात्मानमेव तद्भावयत्येषां लोकानां सन्तत्या | एवं सन्तता हीमे लोकाः | तदस्य द्वितीयं जन्म ||",
+          "transliteration": "sā bhāvayitrī bhāvayitavyā bhavati | taṃ strī garbhaṃ bibharti | so'gra eva kumāraṃ janmano'gre'dhibhāvayati | sa yatkumāraṃ janmano'gre'dhibhāvayatyātmānameva tadbhāvayatyeṣāṃ lokānāṃ santatyā | evaṃ santatā hīme lokāḥ | tadasya dvitīyaṃ janma ||"
+        },
+        {
+          "number": 4,
+          "sanskrit": "सोऽस्यायमात्मा पुण्येभ्यः कर्मभ्यः प्रतिधीयते | अथास्यायमितर आत्मा कृतकृत्यो वयोगतः प्रैति | स इतः प्रयन्नेव पुनर्जायते | तदस्य तृतीयं जन्म ||",
+          "transliteration": "so'syāyamātmā puṇyebhyaḥ karmabhyaḥ pratidhīyate | athāsyāyamitara ātmā kṛtakṛtyo vayogataḥ praiti | sa itaḥ prayanneva punarjāyate | tadasya tṛtīyaṃ janma ||"
+        },
+        {
+          "number": 5,
+          "sanskrit": "तदुक्तमृषिणा | गर्भे नु सन्नन्वेषामवेदमहं देवानां जनिमानि विश्वा | शतं मा पुर आयसीररक्षन्नधः श्येनो जवसा निरदीयम् | इति | गर्भ एवैतच्छयानो वामदेव एवमुवाच ||",
+          "transliteration": "taduktamṛṣiṇā | garbhe nu sannanveṣāmavedamahaṃ devānāṃ janimāni viśvā | śataṃ mā pura āyasīrarakṣannadhaḥ śyeno javasā niradīyam | iti | garbha evaitacchayāno vāmadeva evamuvāca ||"
+        },
+        {
+          "number": 6,
+          "sanskrit": "स एवं विद्वानस्माच्छरीरभेदादूर्ध्व उत्क्रम्यामुष्मिन् स्वर्गे लोके सर्वान् कामानाप्त्वामृतः समभवत् समभवत् ||",
+          "transliteration": "sa evaṃ vidvānasmāccharīrabhedādūrdhva utkramyāmuṣmin svarge loke sarvān kāmānāptvāmṛtaḥ samabhavat samabhavat ||"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Adhyāya 3 — Prajñānaṃ Brahma",
+      "titleSanskrit": "तृतीय अध्याय",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "कोऽयमात्मेति वयमुपास्महे | कतरः स आत्मा | येन वा पश्यति येन वा शृणोति येन वा गन्धानाजिघ्रति येन वा वाचं व्याकरोति येन वा स्वादु चास्वादु च विजानाति ||",
+          "transliteration": "ko'yamātmeti vayamupāsmahe | katarah sa ātmā | yena vā paśyati yena vā śṛṇoti yena vā gandhānājighrati yena vā vācaṃ vyākaroti yena vā svādu cāsvādu ca vijānāti ||"
+        },
+        {
+          "number": 2,
+          "sanskrit": "यदेतद्धृदयं मनश्चैतत् | संज्ञानमाज्ञानं विज्ञानं प्रज्ञानं मेधा दृष्टिर्धृतिर्मतिर्मनीषा जूतिः स्मृतिः सङ्कल्पः क्रतुरसुः कामो वश इति | सर्वाण्येवैतानि प्रज्ञानस्य नामधेयानि भवन्ति ||",
+          "transliteration": "yadetaddhṛdayaṃ manaścaitat | saṃjñānamājñānaṃ vijñānaṃ prajñānaṃ medhā dṛṣṭirdhṛtirmatirmanīṣā jūtiḥ smṛtiḥ saṅkalpaḥ kraturasuḥ kāmo vaśa iti | sarvāṇyevaitāni prajñānasya nāmadheyāni bhavanti ||"
+        },
+        {
+          "number": 3,
+          "sanskrit": "एष ब्रह्मैष इन्द्र एष प्रजापतिरेते सर्वे देवा इमानि च पञ्च महाभूतानि पृथिवी वायुराकाश आपो ज्योतींषीत्येतानीमानि च क्षुद्रमिश्राणीव बीजानीतराणि चेतराणि चाण्डजानि च जारुजानि च स्वेदजानि चोद्भिज्जानि चाश्वा गावः पुरुषा हस्तिनो यत् किञ्चेदं प्राणि जङ्गमं च पतत्रि च यच्च स्थावरम् | सर्वं तत्प्रज्ञानेत्रं प्रज्ञाने प्रतिष्ठितम् | प्रज्ञानेत्रो लोकः | प्रज्ञा प्रतिष्ठा | प्रज्ञानं ब्रह्म ||",
+          "transliteration": "eṣa brahmaiṣa indra eṣa prajāpatirete sarve devā imāni ca pañca mahābhūtāni pṛthivī vāyurākāśa āpo jyotīṃṣītyetānīmāni ca kṣudramiśrāṇīva bījānītarāṇi cetarāṇi cāṇḍajāni ca jārujāni ca svedajāni codbhijjāni cāśvā gāvaḥ puruṣā hastino yat kiñcedaṃ prāṇi jaṅgamaṃ ca patatri ca yacca sthāvaram | sarvaṃ tatprajñānetraṃ prajñāne pratiṣṭhitam | prajñānetro lokaḥ | prajñā pratiṣṭhā | prajñānaṃ brahma ||"
+        },
+        {
+          "number": 4,
+          "sanskrit": "स एतेन प्रज्ञेनात्मनास्माल्लोकादुत्क्रम्यामुष्मिन् स्वर्गे लोके सर्वान् कामानाप्त्वामृतः समभवत् समभवत् ||",
+          "transliteration": "sa etena prajñenātmanāsmāllokādutkramyāmuṣmin svarge loke sarvān kāmānāptvāmṛtaḥ samabhavat samabhavat ||"
+        },
+        {
+          "number": 34,
+          "sanskrit": "योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो आत्मसमाश्रयः ||",
+          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ ātmasamāśrayaḥ ||"
+        },
+        {
+          "number": 35,
+          "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं आत्मा एव सर्वं आत्मा मयि सर्वम् ||",
+          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ ātmā eva sarvaṃ ātmā mayi sarvam ||"
+        },
+        {
+          "number": 36,
+          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो आत्मनि लीनो न तत्र संशयो भवति ||",
+          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo ātmani līno na tatra saṃśayo bhavati ||"
+        },
+        {
+          "number": 37,
+          "sanskrit": "शान्तं शिवमद्वैतं आत्मा नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
+          "transliteration": "śāntaṃ śivamadvaitaṃ ātmā nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||"
+        },
+        {
+          "number": 38,
+          "sanskrit": "एको देवो द्वितीयो नास्ति यो आत्मानं वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
+          "transliteration": "eko devo dvitīyo nāsti yo ātmānaṃ veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||"
         }
       ]
     }

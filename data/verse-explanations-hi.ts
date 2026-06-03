@@ -84,6 +84,37 @@ import { vishnupuranaHi } from './hi-commentary/vishnupurana';
 import { vivekchudamaniHi } from './hi-commentary/vivekchudamani';
 import { yajurvedaHi } from './hi-commentary/yajurveda';
 import { yogavasishthaHi } from './hi-commentary/yogavasishtha';
+import { amritabinduHi } from './hi-commentary/amritabindu';
+import { brahmapuranHi } from './hi-commentary/brahmapuran';
+import { brahmavaivartapuranHi } from './hi-commentary/brahmavaivartapuran';
+import { harivanshpuranHi } from './hi-commentary/harivanshpuran';
+import { jabalaHi } from './hi-commentary/jabala';
+import { kaivalyaHi } from './hi-commentary/kaivalya';
+import { kalkipuranHi } from './hi-commentary/kalkipuran';
+import { kaushitakiHi } from './hi-commentary/kaushitaki';
+import { kurmapuranHi } from './hi-commentary/kurmapuran';
+import { lingapuranHi } from './hi-commentary/lingapuran';
+import { mahanarayanaHi } from './hi-commentary/mahanarayana';
+import { maitriHi } from './hi-commentary/maitri';
+import { matsyapuranHi } from './hi-commentary/matsyapuran';
+import { muktikaHi } from './hi-commentary/muktika';
+import { naradabhaktisutraHi } from './hi-commentary/naradabhaktisutra';
+import { naradapuranHi } from './hi-commentary/naradapuran';
+import { narasimhapuranHi } from './hi-commentary/narasimhapuran';
+import { niralambaHi } from './hi-commentary/niralamba';
+import { ravanasamhitaHi } from './hi-commentary/ravanasamhita';
+import { shandilyabhaktisutraHi } from './hi-commentary/shandilyabhaktisutra';
+import { shivasamhitaHi } from './hi-commentary/shivasamhita';
+import { shivaswarodayaHi } from './hi-commentary/shivaswarodaya';
+import { skandapuranHi } from './hi-commentary/skandapuran';
+import { tejobinduHi } from './hi-commentary/tejobindu';
+import { vamanpuranHi } from './hi-commentary/vamanpuran';
+import { varahapuranHi } from './hi-commentary/varahapuran';
+import { vayupuranHi } from './hi-commentary/vayupuran';
+import { viduranitiHi } from './hi-commentary/viduraniti';
+import { vinayapatrikaHi } from './hi-commentary/vinayapatrika';
+import { yogarasayanamHi } from './hi-commentary/yogarasayanam';
+import { yogavasisthaHi } from './hi-commentary/yogavasistha';
 
 const fragments: Record<string, HiCommentaryFragment> = {
   aitareya: aitareyaHi,
@@ -119,6 +150,37 @@ const fragments: Record<string, HiCommentaryFragment> = {
   vivekchudamani: vivekchudamaniHi,
   yajurveda: yajurvedaHi,
   yogavasishtha: yogavasishthaHi,
+  amritabindu: amritabinduHi,
+  brahmapuran: brahmapuranHi,
+  brahmavaivartapuran: brahmavaivartapuranHi,
+  harivanshpuran: harivanshpuranHi,
+  jabala: jabalaHi,
+  kaivalya: kaivalyaHi,
+  kalkipuran: kalkipuranHi,
+  kaushitaki: kaushitakiHi,
+  kurmapuran: kurmapuranHi,
+  lingapuran: lingapuranHi,
+  mahanarayana: mahanarayanaHi,
+  maitri: maitriHi,
+  matsyapuran: matsyapuranHi,
+  muktika: muktikaHi,
+  naradabhaktisutra: naradabhaktisutraHi,
+  naradapuran: naradapuranHi,
+  narasimhapuran: narasimhapuranHi,
+  niralamba: niralambaHi,
+  ravanasamhita: ravanasamhitaHi,
+  shandilyabhaktisutra: shandilyabhaktisutraHi,
+  shivasamhita: shivasamhitaHi,
+  shivaswarodaya: shivaswarodayaHi,
+  skandapuran: skandapuranHi,
+  tejobindu: tejobinduHi,
+  vamanpuran: vamanpuranHi,
+  varahapuran: varahapuranHi,
+  vayupuran: vayupuranHi,
+  viduraniti: viduranitiHi,
+  vinayapatrika: vinayapatrikaHi,
+  yogarasayanam: yogarasayanamHi,
+  yogavasistha: yogavasisthaHi,
 };
 
 export const verseScienceHi: Record<string, string> = {};

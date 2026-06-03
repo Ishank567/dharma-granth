@@ -6,10 +6,10 @@
   "source": {
     "repo": "https://sanskritdocuments.org/doc_yoga/yogavAsiShTha01.itx (parts 01–01)",
     "license": "Sanskrit mūla — public domain. Digitized by sanskritdocuments.org.",
-    "fetchedAt": "2026-06-01T11:10:45.735Z"
+    "fetchedAt": "2026-06-02T08:43:15.317Z"
   },
-  "totalVerses": 645,
-  "totalChapters": 1,
+  "totalVerses": 650,
+  "totalChapters": 6,
   "chapters": [
     {
       "number": 1,
@@ -17,8 +17,8 @@
       "verses": [
         {
           "number": 1,
-          "sanskrit": "वैराग्यप्रकरणं प्रथमम् । प्रथमः सर्गः । श्रीमहागणपतिचरणारविन्दाभ्यां नमः । ॥ श्रीः ॥ यतः सर्वाणि भूतानि प्रतिभान्ति स्थितानि च । यत्रैवोपशमं यान्ति तस्मै सत्यात्मने नमः",
-          "transliteration": "vairAgyaprakaraNaM prathamam | prathamaH sargaH . shrImahAgaNapaticharaNAravindAbhyAM namaH | || shrIH || yataH sarvANi bhUtAni pratibhAnti sthitAni cha | yatraivopashamaM yAnti tasmai satyAtmane namaH"
+          "sanskrit": "॥ य़ोगवसिश्थ ॥ .. yogavAsiShThaH ..eन्द्तित्लेस् vairAgyaprakaraNaM prathamam | prathamaH sargaH . shrImahAgaNapaticharaNAravindAbhyAM namaH | || shrIH || yataH sarvANi bhUtAni pratibhAnti sthitAni cha | yatraivopashamaM yAnti tasmai satyAtmane namaH",
+          "transliteration": ".. Yogavasishtha ..## .. yogavAsiShThaH ..##\\endtitles ## vairAgyaprakaraNaM prathamam | prathamaH sargaH . shrImahAgaNapaticharaNAravindAbhyAM namaH | || shrIH || yataH sarvANi bhUtAni pratibhAnti sthitAni cha | yatraivopashamaM yAnti tasmai satyAtmane namaH"
         },
         {
           "number": 2,
@@ -3239,6 +3239,66 @@
           "number": 18,
           "sanskrit": "इत्यार्षे श्रीमद्वासिष्ठमहारामायणे वाल्मीकीये वैराग्यप्रकरणे कायजुगुप्सा नामाष्टादशः सर्गः",
           "transliteration": "ityArShe shrImadvAsiShThamahArAmAyaNe vAlmIkIye vairAgyaprakaraNe kAyajugupsA nAmAShTAdashaH sargaH"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Mumukshu Vyavahara — The Seeker's Conduct",
+      "titleSanskrit": "मुमुक्षुव्यवहार",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "शमो विचारः सन्तोषश्चतुर्थः साधुसङ्गमः | एते मोक्षस्य द्वारे च द्वारपालाश्चतुर्विधाः ||",
+          "transliteration": "śamo vicāraḥ santoṣaścaturthaḥ sādhu-saṅgamaḥ | ete mokṣasya dvāre ca dvārapālāścaturvidhāḥ ||"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Utpatti Prakarana — The Story of Creation",
+      "titleSanskrit": "उत्पत्तिप्रकरण",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "यथा काकतालीयन्यायेन शाखापातफलद्वयम् | आकस्मिकमपि भूतं हि बुद्धिमन्नायतेऽन्यथा ||",
+          "transliteration": "yathā kākatālīyanyāyena śākhāpātaphala-dvayam | ākasmikamapi bhūtaṃ hi buddhimānnāyate'nyathā ||"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Sthiti Prakarana — The Persistence of the World",
+      "titleSanskrit": "स्थितिप्रकरण",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "चित्तं वासनारूपं वासनैव हि सृष्टिः | वासनाक्षयमेव मोक्ष इति निश्चयः ||",
+          "transliteration": "cittaṃ vāsanārūpaṃ vāsanaiva hi sṛṣṭiḥ | vāsanākṣayameva mokṣa iti niścayaḥ ||"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Upashama Prakarana — The Quieting of the Mind",
+      "titleSanskrit": "उपशमप्रकरण",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "न मनो मानवो हन्तुं शक्यते परमेणपि | विचारेणैव सुलभं मनसो मरणं स्मृतम् ||",
+          "transliteration": "na mano mānavo hantuṃ śakyate parameṇapi | vicāreṇaiva sulabhaṃ manaso maraṇaṃ smṛtam ||"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Nirvana Prakarana — The Final Liberation",
+      "titleSanskrit": "निर्वाणप्रकरण",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "व्यवहारन्तु जीवन्मुक्तानां स्वच्छन्दतः सदा | सर्वत्र समदर्शित्वान्न रागद्वेषलक्षणम् ||",
+          "transliteration": "vyavahārantu jīvanmuktānāṃ svacchandataḥ sadā | sarvatra samadarśitvānna rāgadveṣalakṣaṇam ||"
         }
       ]
     }

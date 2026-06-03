@@ -81,8 +81,8 @@ export function FullChapterVerses({ scriptureId, chapterId, curatedVerseIds, bas
 
   if (state.kind === 'idle') {
     return (
-      <div className="mt-14 rounded-2xl border border-dashed border-saffron-300 bg-saffron-50/40 p-6 text-center">
-        <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-saffron-100 text-saffron-700 mb-3">
+      <div className="mt-14 rounded-2xl border border-dashed border-saffron-300 bg-saffron-500/10 p-6 text-center">
+        <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-saffron-100/80 text-saffron-700 mb-3">
           <BookOpen className="w-6 h-6" />
         </div>
         <h3 className="text-lg font-serif font-bold text-dharma-text mb-1">पूरा अध्याय पढ़ें</h3>
@@ -102,7 +102,7 @@ export function FullChapterVerses({ scriptureId, chapterId, curatedVerseIds, bas
 
   if (state.kind === 'loading') {
     return (
-      <div className="mt-14 rounded-2xl border border-dharma-border bg-white p-6 text-center text-sm text-dharma-muted">
+      <div className="mt-14 rounded-2xl border border-dharma-border bg-dharma-card p-6 text-center text-sm text-dharma-muted">
         अध्याय लोड हो रहा है…
       </div>
     );
@@ -110,7 +110,7 @@ export function FullChapterVerses({ scriptureId, chapterId, curatedVerseIds, bas
 
   if (state.kind === 'empty') {
     return (
-      <div className="mt-14 rounded-2xl border border-dashed border-dharma-border bg-white p-6 text-center text-sm text-dharma-muted">
+      <div className="mt-14 rounded-2xl border border-dashed border-dharma-border bg-dharma-card p-6 text-center text-sm text-dharma-muted">
         इस ग्रंथ का पूर्ण-पाठ अभी तैयार नहीं हुआ है। पूर्ण पाठ संग्रहीत करने के लिए{' '}
         <code className="font-mono text-xs px-1.5 py-0.5 rounded bg-stone-100">npm run seed:all</code> चलाएँ ताकि{' '}
         <code className="font-mono text-xs px-1.5 py-0.5 rounded bg-stone-100">public/data/scriptures-full/</code> भर जाए।
@@ -120,7 +120,7 @@ export function FullChapterVerses({ scriptureId, chapterId, curatedVerseIds, bas
 
   if (state.kind === 'error') {
     return (
-      <div className="mt-14 rounded-2xl border border-rose-200 bg-rose-50 p-6 text-center text-sm text-rose-900">
+      <div className="mt-14 rounded-2xl border border-rose-200 bg-rose-50/10 p-6 text-center text-sm text-rose-900">
         पूरा अध्याय लोड नहीं हो सका: {state.message}
       </div>
     );
@@ -128,7 +128,7 @@ export function FullChapterVerses({ scriptureId, chapterId, curatedVerseIds, bas
 
   if (state.verses.length === 0) {
     return (
-      <div className="mt-14 rounded-2xl border border-dharma-border bg-white p-6 text-center text-sm text-dharma-muted">
+      <div className="mt-14 rounded-2xl border border-dharma-border bg-dharma-card p-6 text-center text-sm text-dharma-muted">
         इस अध्याय के सभी श्लोक ऊपर दिखाए जा चुके हैं।
       </div>
     );
@@ -144,7 +144,7 @@ export function FullChapterVerses({ scriptureId, chapterId, curatedVerseIds, bas
         {state.verses.map((v) => (
           <article
             key={String(v.number)}
-            className="rounded-xl border border-dharma-border bg-white p-5 md:p-6 shadow-sm"
+            className="rounded-xl border border-dharma-border bg-dharma-card p-5 md:p-6 shadow-sm"
           >
             <div className="flex items-center gap-3 mb-4">
               <span className="inline-flex items-center justify-center w-9 h-9 rounded-full bg-saffron-100 text-saffron-800 font-bold text-sm">

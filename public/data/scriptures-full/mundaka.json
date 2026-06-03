@@ -6,7 +6,7 @@
   "source": {
     "repo": "https://sanskritdocuments.org/doc_upanishhat/",
     "license": "Sanskrit mūla — public domain (2500+ years old). sanskritdocuments.org publishes digitized text under permissive terms.",
-    "fetchedAt": "2026-05-15T09:07:12.312Z"
+    "fetchedAt": "2026-06-02T08:28:55.740Z"
   },
   "totalVerses": 68,
   "totalChapters": 6,
@@ -17,8 +17,8 @@
       "verses": [
         {
           "number": 0,
-          "sanskrit": "॥ श्रीः",
-          "transliteration": "|| shrIH"
+          "sanskrit": "॥ ंउन्दक ऊपनिशद् ॥ .. muNDakopaniShat ..eन्द्तित्लेस् || shrIH",
+          "transliteration": ".. Mundaka Upanishad ..## .. muNDakopaniShat ..##\\endtitles ## || shrIH"
         },
         {
           "number": 0,
@@ -31,7 +31,7 @@
           "transliteration": "OM shAntiH shAntiH shAntiH"
         },
         {
-          "number": 0,
+          "number": 1,
           "sanskrit": "ॐ ब्रह्मणे नमः",
           "transliteration": "OM brahmaNe namaH"
         },

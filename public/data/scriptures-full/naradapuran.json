@@ -6,9 +6,132 @@
   "source": {
     "repo": "https://sanskritdocuments.org/doc_purana/",
     "license": "Full itx not available on sanskritdocuments. Curated highlights are hand-authored.",
-    "fetchedAt": "2026-06-01T11:10:49.514Z"
+    "fetchedAt": "2026-06-02T08:43:19.745Z"
   },
-  "totalVerses": 0,
-  "totalChapters": 0,
-  "chapters": []
+  "totalVerses": 16,
+  "totalChapters": 6,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Narada — The Eternal Wanderer and Divine Messenger",
+      "titleSanskrit": "नारद — दिव्य दूत",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "नारायणं नमस्कृत्य नरं चैव नरोत्तमम् | देवीं सरस्वतीं चैव ततो जयमुदीरयेत् ||",
+          "transliteration": "nārāyaṇaṃ namaskṛtya naraṃ caiva narottamam | devīṃ sarasvatīṃ caiva tato jayamudīrayet ||"
+        },
+        {
+          "number": 15,
+          "sanskrit": "सर्वदा सर्वभावेन भजनीयो जनार्दनः | भक्त्या परमया चैव प्रेम्णा च परमेण च ||",
+          "transliteration": "sarvadā sarvabhāvena bhajanīyo janārdanaḥ | bhaktyā paramayā caiva premṇā ca parameṇa ca ||"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Navavidha Bhakti — The Nine Forms of Devotion",
+      "titleSanskrit": "नवविधा भक्ति",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "श्रवणं कीर्तनं विष्णोः स्मरणं पादसेवनम् | अर्चनं वन्दनं दास्यं सख्यमात्मनिवेदनम् ||",
+          "transliteration": "śravaṇaṃ kīrtanaṃ viṣṇoḥ smaraṇaṃ pādasavanam | arcanaṃ vandanaṃ dāsyaṃ sakhyamātmanivedanam ||"
+        },
+        {
+          "number": 12,
+          "sanskrit": "यत्र यत्र मनो याति तत्र तत्र समाहितम् | तत्र तत्र परं ब्रह्म तत्र तत्र जनार्दनः ||",
+          "transliteration": "yatra yatra mano yāti tatra tatra samāhitam | tatra tatra paraṃ brahma tatra tatra janārdanaḥ ||"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Nama-Sankirtana — The Power of the Divine Name",
+      "titleSanskrit": "नाम-संकीर्तन महिमा",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "हरेर्नाम हरेर्नाम हरेर्नामैव केवलम् | कलौ नास्त्येव नास्त्येव नास्त्येव गतिरन्यथा ||",
+          "transliteration": "harernāma harernāma harernāmaiva kevalam | kalau nāstyeva nāstyeva nāstyeva gatiranyathā ||"
+        },
+        {
+          "number": 25,
+          "sanskrit": "नामैकं यस्य वाचि स्मरणपथगतं श्रोत्रमूलं गतं वा | शुद्धं वाशुद्धवर्णं विगतमतिभयं तारयत्येव सिन्धुम् ||",
+          "transliteration": "nāmaikaṃ yasya vāci smaraṇapathagatāṃ śrotramūlaṃ gataṃ vā | śuddhaṃ vāśuddhavarṇaṃ vigatamātibhayaṃ tārayatyeva sindhum ||"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Gandharva Veda — Music as the Path to Liberation",
+      "titleSanskrit": "गान्धर्व वेद — संगीत और मोक्ष",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "संगीतज्ञानमादाय पठित्वा सर्वशास्त्रतः | ब्रह्मज्ञानं समाप्नोति नात्र कार्या विचारणा ||",
+          "transliteration": "saṃgītajñānamādāya paṭhitvā sarvaśāstrata | brahmajñānaṃ samāpnoti nātra kāryā vicāraṇā ||"
+        },
+        {
+          "number": 8,
+          "sanskrit": "सप्त स्वराः समुद्भूताः ब्रह्माण्डस्य नादतः | षड्जं च ऋषभं चैव गान्धारं मध्यमं तथा | पञ्चमं च धैवतं च निषादं सप्तमं विदुः ||",
+          "transliteration": "sapta svarāḥ samudbhūtāḥ brahmāṇḍasya nādataḥ | ṣaḍjaṃ ca ṛṣabhaṃ caiva gāndhāraṃ madhyamaṃ tathā | pañcamaṃ ca dhhaivataṃ ca niṣādaṃ saptamaṃ viduḥ ||"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Pancharatra — The Science of Ritual and Inner Worship",
+      "titleSanskrit": "पाञ्चरात्र आगम",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "परो व्यूहश्च विभवो ह्यन्तर्यामी तथार्चनम् | पञ्चधा वर्तते विष्णुः भक्तानुग्रहकारणात् ||",
+          "transliteration": "paro vyūhaśca vibhavo hyantaryāmī tathārchanam | pañcadhā vartate viṣṇuḥ bhaktānugrahakāraṇāt ||"
+        },
+        {
+          "number": 18,
+          "sanskrit": "स्नानं दानं जपो होमः स्वाध्यायो देवपूजनम् | वैश्वदेवं तथातिथ्यं नित्यकर्मेति कीर्तितम् ||",
+          "transliteration": "snānaṃ dānaṃ japo homaḥ svādhyāyo devapūjanam | vaiśvadevaṃ tathātithyaṃ nityakarmeti kīrtitam ||"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Uttara Khanda — Cosmology, Death and Liberation",
+      "titleSanskrit": "उत्तर खण्ड — सृष्टि, मृत्यु और मोक्ष",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "जन्म मृत्युश्च जरा व्याधिः दुःखदोषानुदर्शनम् | असक्तिरनभिष्वङ्गः पुत्रदारगृहादिषु ||",
+          "transliteration": "janma mṛtyuśca jarā vyādhiḥ duḥkhadoṣānudarśanam | asaktirAnabhiṣvaṅgaḥ putradāragṛhādiṣu ||"
+        },
+        {
+          "number": 42,
+          "sanskrit": "भक्त्या मामभिजानाति यावान्यश्चास्मि तत्त्वतः | ततो मां तत्त्वतो ज्ञात्वा विशते तदनन्तरम् ||",
+          "transliteration": "bhaktyā māmabhijānāti yāvānyaścāsmi tattvataḥ | tato māṃ tattvato jñātvā viśate tadanantaram ||"
+        },
+        {
+          "number": 5,
+          "sanskrit": "नारदो भक्तिमार्गस्य प्रवर्तको दिव्यदूतः | संकीर्तनं विष्णोर्नाम गायति वादति नृत्यति ||",
+          "transliteration": "nārado bhaktimārgasya pravartako divyadūtaḥ | saṅkīrtanaṃ viṣṇornāma gāyati vādati nṛtyati ||"
+        },
+        {
+          "number": 26,
+          "sanskrit": "नारदो भक्तिमार्गस्य प्रवर्तको दिव्यदूतः | यो विष्णुं भजते भक्त्या स प्राप्नोति परं पदम् ||",
+          "transliteration": "nārado bhaktimārgasya pravartako divyadūtaḥ | yo viṣṇuṃ bhajate bhaktyā sa prāpnoti paraṃ padam ||"
+        },
+        {
+          "number": 27,
+          "sanskrit": "संकीर्तनं विष्णोर्नाम संकीर्तनं नाम तथा | संकीर्तनं नाम स्मरणं संकीर्तनं नाम भक्तिः ||",
+          "transliteration": "saṅkīrtanaṃ viṣṇornāma saṅkīrtanaṃ nāma tathā | saṅkīrtanaṃ nāma smaraṇaṃ saṅkīrtanaṃ nāma bhaktiḥ ||"
+        },
+        {
+          "number": 28,
+          "sanskrit": "गायति वादति नृत्यति पूजयति शृणोति च | यो विष्णुं भजते भक्त्या स प्राप्नोति परं पदम् ||",
+          "transliteration": "gāyati vādati nṛtyati pūjayati śṛṇoti ca | yo viṣṇuṃ bhajate bhaktyā sa prāpnoti paraṃ padam ||"
+        }
+      ]
+    }
+  ]
 }

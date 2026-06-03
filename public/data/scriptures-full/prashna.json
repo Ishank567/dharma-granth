@@ -6,7 +6,7 @@
   "source": {
     "repo": "https://sanskritdocuments.org/doc_upanishhat/",
     "license": "Sanskrit mūla — public domain (2500+ years old). sanskritdocuments.org publishes digitized text under permissive terms.",
-    "fetchedAt": "2026-05-15T09:07:11.908Z"
+    "fetchedAt": "2026-06-02T08:28:55.436Z"
   },
   "totalVerses": 67,
   "totalChapters": 6,
@@ -17,8 +17,8 @@
       "verses": [
         {
           "number": "1.1",
-          "sanskrit": "ॐ भद्रं कर्णेभिः शृणुयाम देवा भद्रं पश्येमाक्षभिर्यजत्राः । स्थिरैरङ्गैस्तुष्तुवाँसस्तनूभिर्व्यशेम देवहितं यदायुः ॥ स्वस्ति न इन्द्रो वृद्धश्रवाः स्वस्ति नः पूषा विश्ववेदाः । स्वस्ति नस्तार्क्ष्यो अरिष्टनेमिः स्वस्ति नो बृहस्पतिर्दधातु ॥ ॐ शान्तिः शान्तिः शान्तिः ॥ ॐ सुकेशा च भारद्वाजः शैब्यश्च सत्यकामः सौर्यायणी च गार्ग्यः कौसल्यश्चाश्वलायनो भार्गवो वैदर्भिः कबन्धी कात्यायनस्ते हैते ब्रह्मपरा ब्रह्मनिष्ठाः परं ब्रह्मान्वेषमाणा एष ह वै तत्सर्वं वक्ष्यतीति ते ह समित्पाणयो भगवन्तं पिप्पलादमुपसन्नाः",
-          "transliteration": "OM bhadraM karNebhiH shR^iNuyAma devA bhadraM pashyemAkShabhiryajatrAH | sthiraira~NgaistuShtuvA{\\m+}sastanUbhirvyashema devahitaM yadAyuH || svasti na indro vR^iddhashravAH svasti naH pUShA vishvavedAH | svasti nastArkShyo ariShTanemiH svasti no bR^ihaspatirdadhAtu || OM shAntiH shAntiH shAntiH || OM sukeshA cha bhAradvAjaH shaibyashcha satyakAmaH sauryAyaNI cha gArgyaH kausalyashchAshvalAyano bhArgavo vaidarbhiH kabandhI kAtyAyanaste haite brahmaparA brahmaniShThAH paraM brahmAnveShamANA eSha ha vai tatsarvaM vakShyatIti te ha samitpANayo bhagavantaM pippalAdamupasannAH"
+          "sanskrit": "॥ Pरश्न ऊपनिशद् ॥ .. prashnopaniShat ..eन्द्तित्लेस् OM bhadraM karNebhiH shR^iNuyAma devA bhadraM pashyemAkShabhiryajatrAH | sthiraira~NgaistuShtuvA.NsastanUbhirvyashema devahitaM yadAyuH || svasti na indro vR^iddhashravAH svasti naH pUShA vishvavedAH | svasti nastArkShyo ariShTanemiH svasti no bR^ihaspatirdadhAtu || OM shAntiH shAntiH shAntiH || prathamaH prashnaH | OM sukeshA cha bhAradvAjaH shaibyashcha satyakAmaH sauryAyaNI cha gArgyaH kausalyashchAshvalAyano bhArgavo vaidarbhiH kabandhI kAtyAyanaste haite brahmaparA brahmaniShThAH paraM brahmAnveShamANA eSha ha vai tatsarvaM vakShyatIti te ha samitpANayo bhagavantaM pippalAdamupasannAH",
+          "transliteration": ".. Prashna Upanishad ..## .. prashnopaniShat ..##\\endtitles ## OM bhadraM karNebhiH shR^iNuyAma devA bhadraM pashyemAkShabhiryajatrAH | sthiraira~NgaistuShtuvA{\\m+}sastanUbhirvyashema devahitaM yadAyuH || svasti na indro vR^iddhashravAH svasti naH pUShA vishvavedAH | svasti nastArkShyo ariShTanemiH svasti no bR^ihaspatirdadhAtu || OM shAntiH shAntiH shAntiH || prathamaH prashnaH | OM sukeshA cha bhAradvAjaH shaibyashcha satyakAmaH sauryAyaNI cha gArgyaH kausalyashchAshvalAyano bhArgavo vaidarbhiH kabandhI kAtyAyanaste haite brahmaparA brahmaniShThAH paraM brahmAnveShamANA eSha ha vai tatsarvaM vakShyatIti te ha samitpANayo bhagavantaM pippalAdamupasannAH"
         },
         {
           "number": "1.2",
@@ -103,8 +103,8 @@
       "verses": [
         {
           "number": "2.1",
-          "sanskrit": "॥ अथ हैनं भार्गवो वैदर्भिः पप्रच्छ । भगवन् कत्येव देवाः प्रजां विधारयन्ते कतर एतत् प्रकाशयन्ते कः पुनरेषां वरिष्ठ इति",
-          "transliteration": "|| atha hainaM bhArgavo vaidarbhiH paprachCha | bhagavan katyeva devAH prajAM vidhArayante katara etat prakAshayante kaH punareShAM variShTha iti"
+          "sanskrit": "॥ द्वितीयः प्रश्नः । अथ हैनं भार्गवो वैदर्भिः पप्रच्छ । भगवन् कत्येव देवाः प्रजां विधारयन्ते कतर एतत् प्रकाशयन्ते कः पुनरेषां वरिष्ठ इति",
+          "transliteration": "|| dvitIyaH prashnaH | atha hainaM bhArgavo vaidarbhiH paprachCha | bhagavan katyeva devAH prajAM vidhArayante katara etat prakAshayante kaH punareShAM variShTha iti"
         },
         {
           "number": "2.2",
@@ -174,8 +174,8 @@
       "verses": [
         {
           "number": "3.1",
-          "sanskrit": "॥ अथ हैनं कौशल्यश्चाश्वलायनः पप्रच्छ । भगवन् कुत एष प्राणो जायते कथमायात्यस्मिञ्शरीर आत्मानं वा प्रविभज्य कथं प्रतिष्ठते केनोत्क्रमते कथं बाह्यमभिधत्ते कथमध्यात्ममिति",
-          "transliteration": "|| atha hainaM kaushalyashchAshvalAyanaH paprachCha | bhagavan kuta eSha prANo jAyate kathamAyAtyasmi~nsharIra AtmAnaM vA pravibhajya kathaM pratiShThate kenotkramate kathaM bAhyamabhidhatte kathamadhyAtmamiti"
+          "sanskrit": "॥ तृतीयः प्रश्नः अथ हैनं कौशल्यश्चाश्वलायनः पप्रच्छ । भगवन् कुत एष प्राणो जायते कथमायात्यस्मिञ्शरीर आत्मानं वा प्रविभज्य कथं प्रतिष्ठते केनोत्क्रमते कथं बाह्यमभिधत्ते कथमध्यात्ममिति",
+          "transliteration": "|| tR^itIyaH prashnaH atha hainaM kaushalyashchAshvalAyanaH paprachCha | bhagavan kuta eSha prANo jAyate kathamAyAtyasmi~nsharIra AtmAnaM vA pravibhajya kathaM pratiShThate kenotkramate kathaM bAhyamabhidhatte kathamadhyAtmamiti"
         },
         {
           "number": "3.2",
@@ -240,8 +240,8 @@
       "verses": [
         {
           "number": "4.1",
-          "sanskrit": "॥ अथ हैनं सौर्यायणि गार्ग्यः पप्रच्छ । भगवन्नेतस्मिन् पुरुषे कानि स्वपन्ति कान्यस्मिञ्जाग्रति कतर एष देवः स्वप्नान् पश्यति कस्यैतत् सुखं भवति कस्मिन्नु सर्वे सम्प्रतिष्ठिता भवन्तीति",
-          "transliteration": "|| atha hainaM sauryAyaNi gArgyaH paprachCha | bhagavannetasmin puruShe kAni svapanti kAnyasmi~njAgrati katara eSha devaH svapnAn pashyati kasyaitat sukhaM bhavati kasminnu sarve sampratiShThitA bhavantIti"
+          "sanskrit": "॥ चतुर्थः प्रश्नः । अथ हैनं सौर्यायणि गार्ग्यः पप्रच्छ । भगवन्नेतस्मिन् पुरुषे कानि स्वपन्ति कान्यस्मिञ्जाग्रति कतर एष देवः स्वप्नान् पश्यति कस्यैतत् सुखं भवति कस्मिन्नु सर्वे सम्प्रतिष्ठिता भवन्तीति",
+          "transliteration": "|| chaturthaH prashnaH | atha hainaM sauryAyaNi gArgyaH paprachCha | bhagavannetasmin puruShe kAni svapanti kAnyasmi~njAgrati katara eSha devaH svapnAn pashyati kasyaitat sukhaM bhavati kasminnu sarve sampratiShThitA bhavantIti"
         },
         {
           "number": "4.2",
@@ -301,8 +301,8 @@
       "verses": [
         {
           "number": "5.1",
-          "sanskrit": "॥ अथ हैनं शैब्यः सत्यकामः पप्रच्छ । स यो ह वै तद्भगवन्मनुष्येषु प्रायणान्तमोङ्कारमभिध्यायीत । कतमं वाव स तेन लोकं जयतीति । तस्मै स होवाच",
-          "transliteration": "|| atha hainaM shaibyaH satyakAmaH paprachCha | sa yo ha vai tadbhagavanmanuShyeShu prAyaNAntamo~NkAramabhidhyAyIta | katamaM vAva sa tena lokaM jayatIti | tasmai sa hovAcha"
+          "sanskrit": "॥ पञ्चमः प्रश्नः । अथ हैनं शैब्यः सत्यकामः पप्रच्छ । स यो ह वै तद्भगवन्मनुष्येषु प्रायणान्तमोङ्कारमभिध्यायीत । कतमं वाव स तेन लोकं जयतीति । तस्मै स होवाच",
+          "transliteration": "|| pa~nchamaH prashnaH | atha hainaM shaibyaH satyakAmaH paprachCha | sa yo ha vai tadbhagavanmanuShyeShu prAyaNAntamo~NkAramabhidhyAyIta | katamaM vAva sa tena lokaM jayatIti | tasmai sa hovAcha"
         },
         {
           "number": "5.2",
@@ -342,8 +342,8 @@
       "verses": [
         {
           "number": "6.1",
-          "sanskrit": "॥ अथ हैनं सुकेशा भारद्वाजः पप्रच्छ । भगवन् हिरण्यनाभः कौसल्यो राजपुत्रो मामुपेत्यैतं प्रश्नमपृच्छत । षोडशकलं भारद्वाज पुरुषं वेत्थ । तमहं कुमारमब्रुवं नाहमिमं वेद । यद्यहमिममवेदिषं कथं ते नावक्ष्यमिति । समूलो वा एष परिशुष्यति योऽनृतमभिवदति तस्मान्नार्हम्यनृतं वक्तुम् । स तूष्णीं रथमारुह्य प्रवव्राज । तं त्वा पृच्छामि क्वासौ पुरुष इति",
-          "transliteration": "|| atha hainaM sukeshA bhAradvAjaH paprachCha | bhagavan hiraNyanAbhaH kausalyo rAjaputro mAmupetyaitaM prashnamapR^ichChata | ShoDashakalaM bhAradvAja puruShaM vettha | tamahaM kumAramabruvaM nAhamimaM veda | yadyahamimamavediShaM kathaM te nAvakShyamiti | samUlo vA eSha parishuShyati yo.anR^itamabhivadati tasmAnnArhamyanR^itaM vaktum | sa tUShNIM rathamAruhya pravavrAja | taM tvA pR^ichChAmi kvAsau puruSha iti"
+          "sanskrit": "॥ षष्ठः प्रश्नः । अथ हैनं सुकेशा भारद्वाजः पप्रच्छ । भगवन् हिरण्यनाभः कौसल्यो राजपुत्रो मामुपेत्यैतं प्रश्नमपृच्छत । षोडशकलं भारद्वाज पुरुषं वेत्थ । तमहं कुमारमब्रुवं नाहमिमं वेद । यद्यहमिममवेदिषं कथं ते नावक्ष्यमिति । समूलो वा एष परिशुष्यति योऽनृतमभिवदति तस्मान्नार्हम्यनृतं वक्तुम् । स तूष्णीं रथमारुह्य प्रवव्राज । तं त्वा पृच्छामि क्वासौ पुरुष इति",
+          "transliteration": "|| ShaShThaH prashnaH | atha hainaM sukeshA bhAradvAjaH paprachCha | bhagavan hiraNyanAbhaH kausalyo rAjaputro mAmupetyaitaM prashnamapR^ichChata | ShoDashakalaM bhAradvAja puruShaM vettha | tamahaM kumAramabruvaM nAhamimaM veda | yadyahamimamavediShaM kathaM te nAvakShyamiti | samUlo vA eSha parishuShyati yo.anR^itamabhivadati tasmAnnArhamyanR^itaM vaktum | sa tUShNIM rathamAruhya pravavrAja | taM tvA pR^ichChAmi kvAsau puruSha iti"
         },
         {
           "number": "6.2",

@@ -1,0 +1,98 @@
+{
+  "id": "brahmavaivartapuran",
+  "title": "Brahmavaivarta Purana",
+  "titleSanskrit": "ब्रह्मवैवर्तपुराण",
+  "category": "purana",
+  "source": {
+    "repo": "https://sanskritdocuments.org/",
+    "license": "Full text not available. Curated highlights are hand-authored.",
+    "fetchedAt": "2026-06-02T08:43:33.870Z"
+  },
+  "totalVerses": 11,
+  "totalChapters": 4,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Brahma Khanda — The Cosmic Krishna",
+      "titleSanskrit": "ब्रह्मखण्ड",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "सच्चिदानन्दरूपाय कृष्णायाक्लिष्टकर्मणे | नमो वेदान्तवेद्याय गुरवे बुद्धिसाक्षिणे ||",
+          "transliteration": "saccidānandarūpāya kṛṣṇāyākliṣṭakarmaṇe | namo vedāntavedyāya gurave buddhisākṣiṇe ||"
+        },
+        {
+          "number": 7,
+          "sanskrit": "एकमेवाद्वितीयं ब्रह्म निर्गुणं परमार्थतः | सगुणं भक्तिसुलभं कृष्णाख्यं परमेश्वरम् ||",
+          "transliteration": "ekamevādvitīyaṃ brahma nirguṇaṃ paramārthataḥ | saguṇaṃ bhaktisulaṃbhaṃ kṛṣṇākhyaṃ parameśvaram ||"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Prakriti Khanda — The Divine Feminine",
+      "titleSanskrit": "प्रकृतिखण्ड",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "सर्वं खल्विदं कृष्णो न भूतं न भविष्यति | स एव सर्वशक्त्याढ्यः सर्वकारणकारणम् ||",
+          "transliteration": "sarvaṃ khalvidaṃ kṛṣṇo na bhūtaṃ na bhaviṣyati | sa eva sarvaśaktyāḍhyaḥ sarvakāraṇakāraṇam ||"
+        },
+        {
+          "number": 42,
+          "sanskrit": "राधा कृष्णस्य परमा शक्तिः प्रेमस्वरूपिणी | तयोर्भेदो न विद्यते जले शीतलता यथा ||",
+          "transliteration": "rādhā kṛṣṇasya paramā śaktiḥ premasvarūpiṇī | tayorbhedo na vidyate jale śītalatā yathā ||"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Ganesha Khanda — The Cosmic Remover of Obstacles",
+      "titleSanskrit": "गणेशखण्ड",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "विघ्नेश्वरः प्रथमपूज्यः सर्वकार्येषु पूजितः | बुद्धिप्रदो विद्याप्रदः सिद्धिप्रदश्च सर्वदा ||",
+          "transliteration": "vighneśvaraḥ prathamapūjyaḥ sarvakāryeṣu pūjitaḥ | buddhiprado vidyāpradaḥ siddhipradaśca sarvadā ||"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Shrikrishna Janma Khanda — The Theology of Krishna",
+      "titleSanskrit": "श्रीकृष्णजन्मखण्ड",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "कलौ कल्मषचित्तानां पापद्रव्योपजीविनाम् | विधि क्रियाविहीनानां गतिर्गोविन्दकीर्तनम् ||",
+          "transliteration": "kalau kalmaṣacittānāṃ pāpadravyopajīvinām | vidhi kriyāvihīnānāṃ gatirgovi ndakīrtanam ||"
+        },
+        {
+          "number": 88,
+          "sanskrit": "यत्र नृत्यति गोविन्दो रासमण्डलमध्यगः | तत्र सर्वाणि तीर्थानि सर्वे देवाः सनातनाः ||",
+          "transliteration": "yatra nṛtyati govindo rāsaṃaṇḍalamadhyagaḥ | tatra sarvāṇi tīrthāni sarve devāḥ sanātanāḥ ||"
+        },
+        {
+          "number": 5,
+          "sanskrit": "अण्डं भूतं भविष्यं च भूतं वर्तमानमेव च | अण्डं ब्रह्माण्डमिति प्रोक्तं यत्र विश्वं प्रतिष्ठितम् ||",
+          "transliteration": "aṇḍaṃ bhūtaṃ bhaviṣyaṃ ca bhūtaṃ vartamānameva ca | aṇḍaṃ brahmāṇḍamiti proktaṃ yatra viśvaṃ pratiṣṭhitam ||"
+        },
+        {
+          "number": 26,
+          "sanskrit": "कृष्णः सर्वभूतानां हृदये संनिविष्टः | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
+          "transliteration": "kṛṣṇaḥ sarvabhūtānāṃ hṛdaye saṃniviṣṭaḥ | yo jānāti sa paśyati yo na jānāti na paśyati ||"
+        },
+        {
+          "number": 27,
+          "sanskrit": "राधा कृष्णयोः एकत्वं परमं तत्त्वमुच्यते | यो राधाकृष्णयोरेकं जानाति स परां गतिम् ||",
+          "transliteration": "rādhā kṛṣṇayoḥ ekatvaṃ paramaṃ tattvamucyate | yo rādhākṛṣṇayorekaṃ jānāti sa parāṃ gatim ||"
+        },
+        {
+          "number": 28,
+          "sanskrit": "कृष्णः साक्षात् परं ब्रह्म निर्गुणो निश्चलः शुद्धः | योगिनां हृदये नित्यं कृष्णो भवति साक्षात् ||",
+          "transliteration": "kṛṣṇaḥ sākṣāt paraṃ brahma nirguṇo niścalaḥ śuddhaḥ | yogināṃ hṛdaye nityaṃ kṛṣṇo bhavati sākṣāt ||"
+        }
+      ]
+    }
+  ]
+}

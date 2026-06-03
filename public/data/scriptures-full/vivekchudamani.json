@@ -6,10 +6,10 @@
   "source": {
     "repo": "https://sanskritdocuments.org/doc_vedanta/vivekachUDAmaNi.itx",
     "license": "Sanskrit mūla — public domain. Attributed to Adi Shankaracharya.",
-    "fetchedAt": "2026-06-01T11:10:44.250Z"
+    "fetchedAt": "2026-06-02T08:43:13.403Z"
   },
-  "totalVerses": 580,
-  "totalChapters": 1,
+  "totalVerses": 589,
+  "totalChapters": 3,
   "chapters": [
     {
       "number": 1,
@@ -17,2903 +17,2962 @@
       "verses": [
         {
           "number": 1,
+          "sanskrit": "॥ विवेकचूडामणिः ॥",
+          "transliteration": ".. vivekachUDAmaNiH ..##"
+        },
+        {
+          "number": 2,
+          "sanskrit": "॥ विवेकचूडामणिः ॥एndtitles",
+          "transliteration": ".. vivekachUDAmaNiH ..##\\endtitles ##"
+        },
+        {
+          "number": 3,
           "sanskrit": "सर्ववेदान्तसिद्धान्तगोचरं तमगोचरम् ।",
           "transliteration": "sarvavedAntasid.hdhAntagocharaM tamagocharam ."
         },
         {
-          "number": 2,
+          "number": 4,
           "sanskrit": "गोविन्दं परमानन्दं सद्गुरुं प्रणतोऽस्म्यहम् ॥ १॥",
           "transliteration": "govindaM paramAnandaM sad.hguruM praNato.asmyaham .. 1.."
         },
         {
-          "number": 3,
+          "number": 5,
           "sanskrit": "जन्तूनां नरजन्म दुर्लभमतः पुंस्त्वं ततो विप्रता",
           "transliteration": "jantUnAM narajanma durlabhamataH pu.nstvaM tato vipratA"
         },
         {
-          "number": 4,
+          "number": 6,
           "sanskrit": "तस्माद्वैदिकधर्ममार्गपरता विद्वत्त्वमस्मात्परम् ।",
           "transliteration": "tasmAdvaidikadharmamArgaparatA vidvattvamasmAtparam ."
         },
         {
-          "number": 5,
+          "number": 7,
           "sanskrit": "आत्मानात्मविवेचनं स्वनुभवो ब्रह्मात्मना संस्थितिः",
           "transliteration": "AtmAnAtmavivechanaM svanubhavo brahmAtmanA sa.nsthitiH"
         },
         {
-          "number": 6,
+          "number": 8,
           "sanskrit": "मुक्तिर्नो शतजन्मकोटिसुकृतैः पुण्यैर्विना लभ्यते ॥ २॥ var शतकोटिजन्मसु कृतैः",
           "transliteration": "muktirno shatajanmakoTisukR^itaiH puNyairvinA labhyate .. 2.. ##var ## shatakoTijanmasu kR^itaiH"
         },
         {
-          "number": 7,
+          "number": 9,
           "sanskrit": "दुर्लभं त्रयमेवैतद्देवानुग्रहहेतुकम् ।",
           "transliteration": "durlabhaM trayamevaitaddevAnugrahahetukam ."
         },
         {
-          "number": 8,
+          "number": 10,
           "sanskrit": "मनुष्यत्वं मुमुक्षुत्वं महापुरुषसंश्रयः ॥ ३॥",
           "transliteration": "manuShyatvaM mumukShutvaM mahApuruShasa.nshrayaH .. 3.."
         },
         {
-          "number": 9,
+          "number": 11,
           "sanskrit": "लब्ध्वा कथञ्चिन्नरजन्म दुर्लभं var कथञ्चिन्",
           "transliteration": "labdhvA katha~nchinnarajanma durlabhaM ##var ## katha~nchin"
         },
         {
-          "number": 10,
+          "number": 12,
           "sanskrit": "तत्रापि पुंस्त्वं श्रुतिपारदर्शनम् ।",
           "transliteration": "tatrApi pu.nstvaM shrutipAradarshanam ."
         },
         {
-          "number": 11,
+          "number": 13,
           "sanskrit": "यस्त्वात्ममुक्तौ न यतेत मूढधीः",
           "transliteration": "yastvAtmamuktau na yateta mUDhadhIH"
         },
         {
-          "number": 12,
+          "number": 14,
           "sanskrit": "स ह्यात्महा स्वं विनिहन्त्यसद्ग्रहात् ॥ ४॥ var आत्महा स्वं",
           "transliteration": "sa hyAtmahA svaM vinihantyasad.hgrahAt .. 4.. ##var ## AtmahA svaM"
         },
         {
-          "number": 13,
+          "number": 15,
           "sanskrit": "इतः को न्वस्ति मूढात्मा यस्तु स्वार्थे प्रमाद्यति ।",
           "transliteration": "itaH ko nvasti mUDhAtmA yastu svArthe pramAdyati ."
         },
         {
-          "number": 14,
+          "number": 16,
           "sanskrit": "दुर्लभं मानुषं देहं प्राप्य तत्रापि पौरुषम् ॥ ५॥",
           "transliteration": "durlabhaM mAnuShaM dehaM prApya tatrApi pauruSham .. 5.."
         },
         {
-          "number": 15,
+          "number": 17,
           "sanskrit": "वदन्तु शास्त्राणि यजन्तु देवान् var पठन्तु",
           "transliteration": "vadantu shAstrANi yajantu devAn.h ##var ## paThantu"
         },
         {
-          "number": 16,
+          "number": 18,
           "sanskrit": "कुर्वन्तु कर्माणि भजन्तु देवताः ।",
           "transliteration": "kurvantu karmANi bhajantu devatAH ."
         },
         {
-          "number": 17,
+          "number": 19,
           "sanskrit": "आत्मैक्यबोधेन विनापि मुक्ति- var विना विमुक्तिः न",
           "transliteration": "Atmaikyabodhena vinApi mukti\\- ##var ## vinA vimuktiH na"
         },
         {
-          "number": 18,
+          "number": 20,
           "sanskrit": "र्न सिध्यति ब्रह्मशतान्तरेऽपि ॥ ६॥",
           "transliteration": "rna sidhyati brahmashatAntare.api .. 6.."
         },
         {
-          "number": 19,
+          "number": 21,
           "sanskrit": "अमृतत्त्वस्य नाशास्ति वित्तेनेत्येव हि श्रुतिः ।",
           "transliteration": "amR^itattvasya nAshAsti vittenetyeva hi shrutiH ."
         },
         {
-          "number": 20,
+          "number": 22,
           "sanskrit": "ब्रवीति कर्मणो मुक्तेरहेतुत्वं स्फुटं यतः ॥ ७॥",
           "transliteration": "bravIti karmaNo mukterahetutvaM sphuTaM yataH .. 7.."
         },
         {
-          "number": 21,
+          "number": 23,
           "sanskrit": "अतो विमुक्त्यै प्रयतेत विद्वान्",
           "transliteration": "ato vimuktyai prayateta vidvAn.h"
         },
         {
-          "number": 22,
+          "number": 24,
           "sanskrit": "सन्न्यस्तबाह्यार्थसुखस्पृहः सन् ।",
           "transliteration": "sannyastabAhyArthasukhaspR^ihaH san ."
         },
         {
-          "number": 23,
+          "number": 25,
           "sanskrit": "सन्तं महान्तं समुपेत्य देशिकं",
           "transliteration": "santaM mahAntaM samupetya deshikaM"
         },
         {
-          "number": 24,
+          "number": 26,
           "sanskrit": "तेनोपदिष्टार्थसमाहितात्मा ॥ ८॥",
           "transliteration": "tenopadiShTArthasamAhitAtmA .. 8.."
         },
         {
-          "number": 25,
+          "number": 27,
           "sanskrit": "उद्धरेदात्मनाऽऽत्मानं मग्नं संसारवारिधौ ।",
           "transliteration": "ud.hdharedAtmanA.a.atmAnaM magnaM sa.nsAravAridhau ."
         },
         {
-          "number": 26,
+          "number": 28,
           "sanskrit": "योगारूढत्वमासाद्य सम्यग्दर्शननिष्ठया ॥ ९॥",
           "transliteration": "yogArUDhatvamAsAdya samyagdarshananiShThayA .. 9.."
         },
         {
-          "number": 27,
+          "number": 29,
           "sanskrit": "सन्न्यस्य सर्वकर्माणि भवबन्धविमुक्तये ।",
           "transliteration": "sannyasya sarvakarmANi bhavabandhavimuktaye ."
         },
         {
-          "number": 28,
+          "number": 30,
           "sanskrit": "यत्यतां पण्डितैर्धीरैरात्माभ्यास उपस्थितैः ॥ १०॥",
           "transliteration": "yatyatAM paNDitairdhIrairAtmAbhyAsa upasthitaiH .. 10.."
         },
         {
-          "number": 29,
+          "number": 31,
           "sanskrit": "चित्तस्य शुद्धये कर्म न तु वस्तूपलब्धये ।",
           "transliteration": "chittasya shud.hdhaye karma na tu vastUpalabdhaye ."
         },
         {
-          "number": 30,
+          "number": 32,
           "sanskrit": "वस्तुसिद्धिर्विचारेण न किञ्चित्कर्मकोटिभिः ॥ ११॥",
           "transliteration": "vastusid.hdhirvichAreNa na ki~nchitkarmakoTibhiH .. 11.."
         },
         {
-          "number": 31,
+          "number": 33,
           "sanskrit": "सम्यग्विचारतः सिद्धा रज्जुतत्त्वावधारणा ।",
           "transliteration": "samyagvichArataH sid.hdhA rajjutattvAvadhAraNA ."
         },
         {
-          "number": 32,
+          "number": 34,
           "sanskrit": "भ्रान्तोदितमहासर्पभयदुःखविनाशिनी ॥ १२॥ भ्रान्त्यो",
           "transliteration": "bhrAntoditamahAsarpabhayaduHkhavinAshinI .. 12.. bhrAntyo"
         },
         {
-          "number": 33,
+          "number": 35,
           "sanskrit": "अर्थस्य निश्चयो दृष्टो विचारेण हितोक्तितः ।",
           "transliteration": "arthasya nishchayo dR^iShTo vichAreNa hitoktitaH ."
         },
         {
-          "number": 34,
+          "number": 36,
           "sanskrit": "न स्नानेन न दानेन प्राणायामशतेन वा ॥ १३॥",
           "transliteration": "na snAnena na dAnena prANAyAmashatena vA .. 13.."
         },
         {
-          "number": 35,
+          "number": 37,
           "sanskrit": "अधिकारिणमाशास्ते फलसिद्धिर्विशेषतः ।",
           "transliteration": "adhikAriNamAshAste phalasid.hdhirvisheShataH ."
         },
         {
-          "number": 36,
+          "number": 38,
           "sanskrit": "उपाया देशकालाद्याः सन्त्यस्मिन्सहकारिणः ॥ १४॥ सन्त्यस्यां",
           "transliteration": "upAyA deshakAlAdyAH santyasminsahakAriNaH .. 14.. santyasyAM"
         },
         {
-          "number": 37,
+          "number": 39,
           "sanskrit": "अतो विचारः कर्तव्यो जिज्ञासोरात्मवस्तुनः ॥",
           "transliteration": "ato vichAraH kartavyo jij~nAsorAtmavastunaH .."
         },
         {
-          "number": 38,
+          "number": 40,
           "sanskrit": "समासाद्य दयासिन्धुं गुरुं ब्रह्मविदुत्तमम् ॥ १५॥",
           "transliteration": "samAsAdya dayAsindhuM guruM brahmaviduttamam .. 15.."
         },
         {
-          "number": 39,
+          "number": 41,
           "sanskrit": "मेधावी पुरुषो विद्वानूहापोहविचक्षणः ।",
           "transliteration": "medhAvI puruSho vidvAnUhApohavichakShaNaH ."
         },
         {
-          "number": 40,
+          "number": 42,
           "sanskrit": "अधिकार्यात्मविद्यायामुक्तलक्षणलक्षितः ॥ १६॥",
           "transliteration": "adhikAryAtmavidyAyAmuktalakShaNalakShitaH .. 16.."
         },
         {
-          "number": 41,
+          "number": 43,
           "sanskrit": "विवेकिनो विरक्तस्य शमादिगुणशालिनः ।",
           "transliteration": "vivekino viraktasya shamAdiguNashAlinaH ."
         },
         {
-          "number": 42,
+          "number": 44,
           "sanskrit": "मुमुक्षोरेव हि ब्रह्मजिज्ञासायोग्यता मता ॥ १७॥",
           "transliteration": "mumukShoreva hi brahmajij~nAsAyogyatA matA .. 17.."
         },
         {
-          "number": 43,
+          "number": 45,
           "sanskrit": "साधनान्यत्र चत्वारि कथितानि मनीषिभिः ।",
           "transliteration": "sAdhanAnyatra chatvAri kathitAni manIShibhiH ."
         },
         {
-          "number": 44,
+          "number": 46,
           "sanskrit": "येषु सत्स्वेव सन्निष्ठा यदभावे न सिध्यति ॥ १८॥",
           "transliteration": "yeShu satsveva sanniShThA yadabhAve na sidhyati .. 18.."
         },
         {
-          "number": 45,
+          "number": 47,
           "sanskrit": "आदौ नित्यानित्यवस्तुविवेकः परिगण्यते ।",
           "transliteration": "Adau nityAnityavastuvivekaH parigaNyate ."
         },
         {
-          "number": 46,
+          "number": 48,
           "sanskrit": "इहामुत्रफलभोगविरागस्तदनन्तरम् ।",
           "transliteration": "ihAmutraphalabhogavirAgastadanantaram ."
         },
         {
-          "number": 47,
+          "number": 49,
           "sanskrit": "शमादिषट्कसम्पत्तिर्मुमुक्षुत्वमिति स्फुटम् ॥ १९॥",
           "transliteration": "shamAdiShaT.hkasampattirmumukShutvamiti sphuTam .. 19.."
         },
         {
-          "number": 48,
+          "number": 50,
           "sanskrit": "ब्रह्म सत्यं जगन्मिथ्येत्येवंरूपो विनिश्चयः ।",
           "transliteration": "brahma satyaM jaganmithyetyevaMrUpo vinishchayaH ."
         },
         {
-          "number": 49,
+          "number": 51,
           "sanskrit": "सोऽयं नित्यानित्यवस्तुविवेकः समुदाहृतः ॥ २०॥",
           "transliteration": "so.ayaM nityAnityavastuvivekaH samudAhR^itaH .. 20.."
         },
         {
-          "number": 50,
+          "number": 52,
           "sanskrit": "तद्वैराग्यं जिहासा या दर्शनश्रवणादिभिः । जुगुप्सा या",
           "transliteration": "tadvairAgyaM jihAsA yA darshanashravaNAdibhiH . jugupsA yA"
         },
         {
-          "number": 51,
+          "number": 53,
           "sanskrit": "देहादिब्रह्मपर्यन्ते ह्यनित्ये भोगवस्तुनि ॥ २१॥ भोग्यवस्तुनि",
           "transliteration": "dehAdibrahmaparyante hyanitye bhogavastuni .. 21.. bhogyavastuni"
         },
         {
-          "number": 52,
+          "number": 54,
           "sanskrit": "विरज्य विषयव्राताद्दोषदृष्ट्या मुहुर्मुहुः ।",
           "transliteration": "virajya viShayavrAtAddoShadR^iShTyA muhurmuhuH ."
         },
         {
-          "number": 53,
+          "number": 55,
           "sanskrit": "स्वलक्ष्ये नियतावस्था मनसः शम उच्यते ॥ २२॥",
           "transliteration": "svalakShye niyatAvasthA manasaH shama uchyate .. 22.."
         },
         {
-          "number": 54,
+          "number": 56,
           "sanskrit": "विषयेभ्यः परावर्त्य स्थापनं स्वस्वगोलके ।",
           "transliteration": "viShayebhyaH parAvartya sthApanaM svasvagolake ."
         },
         {
-          "number": 55,
+          "number": 57,
           "sanskrit": "उभयेषामिन्द्रियाणां स दमः परिकीर्तितः ।",
           "transliteration": "ubhayeShAmindriyANAM sa damaH parikIrtitaH ."
         },
         {
-          "number": 56,
+          "number": 58,
           "sanskrit": "बाह्यानालम्बनं वृत्तेरेषोपरतिरुत्तमा ॥ २३॥",
           "transliteration": "bAhyAnAlambanaM vR^ittereShoparatiruttamA .. 23.."
         },
         {
-          "number": 57,
+          "number": 59,
           "sanskrit": "सहनं सर्वदुःखानामप्रतीकारपूर्वकम् ।",
           "transliteration": "sahanaM sarvaduHkhAnAmapratIkArapUrvakam ."
         },
         {
-          "number": 58,
+          "number": 60,
           "sanskrit": "चिन्ताविलापरहितं सा तितिक्षा निगद्यते ॥ २४॥",
           "transliteration": "chintAvilAparahitaM sA titikShA nigadyate .. 24.."
         },
         {
-          "number": 59,
+          "number": 61,
           "sanskrit": "शास्त्रस्य गुरुवाक्यस्य सत्यबुद्ध्यवधारणम् । सत्यबुद्ध्यावधारणा",
           "transliteration": "shAstrasya guruvAkyasya satyabud.hdhyavadhAraNam . satyabud.hdhyAvadhAraNA"
         },
         {
-          "number": 60,
+          "number": 62,
           "sanskrit": "सा श्रद्धा कथिता सद्भिर्यया वस्तूपलभ्यते ॥ २५॥",
           "transliteration": "sA shrad.hdhA kathitA sad.hbhiryayA vastUpalabhyate .. 25.."
         },
         {
-          "number": 61,
+          "number": 63,
           "sanskrit": "सर्वदा स्थापनं बुद्धेः शुद्धे ब्रह्मणि सर्वदा । सम्यगास्थापनं",
           "transliteration": "sarvadA sthApanaM bud.hdheH shud.hdhe brahmaNi sarvadA . samyagAsthApanaM"
         },
         {
-          "number": 62,
+          "number": 64,
           "sanskrit": "तत्समाधानमित्युक्तं न तु चित्तस्य लालनम् ॥ २६॥",
           "transliteration": "tatsamAdhAnamityuktaM na tu chittasya lAlanam .. 26.."
         },
         {
-          "number": 63,
+          "number": 65,
           "sanskrit": "अहङ्कारादिदेहान्तान् बन्धानज्ञानकल्पितान् ।",
           "transliteration": "aha~NkArAdidehAntAn bandhAnaj~nAnakalpitAn ."
         },
         {
-          "number": 64,
+          "number": 66,
           "sanskrit": "स्वस्वरूपावबोधेन मोक्तुमिच्छा मुमुक्षुता ॥ २७॥",
           "transliteration": "svasvarUpAvabodhena moktumichChA mumukShutA .. 27.."
         },
         {
-          "number": 65,
+          "number": 67,
           "sanskrit": "मन्दमध्यमरूपापि वैराग्येण शमादिना ।",
           "transliteration": "mandamadhyamarUpApi vairAgyeNa shamAdinA ."
         },
         {
-          "number": 66,
+          "number": 68,
           "sanskrit": "प्रसादेन गुरोः सेयं प्रवृद्धा सूयते फलम् ॥ २८॥",
           "transliteration": "prasAdena guroH seyaM pravR^id.hdhA sUyate phalam .. 28.."
         },
         {
-          "number": 67,
+          "number": 69,
           "sanskrit": "वैराग्यं च मुमुक्षुत्वं तीव्रं यस्य तु विद्यते ।",
           "transliteration": "vairAgyaM cha mumukShutvaM tIvraM yasya tu vidyate ."
         },
         {
-          "number": 68,
+          "number": 70,
           "sanskrit": "तस्मिन्नेवार्थवन्तः स्युः फलवन्तः शमादयः ॥ २९॥",
           "transliteration": "tasminnevArthavantaH syuH phalavantaH shamAdayaH .. 29.."
         },
         {
-          "number": 69,
+          "number": 71,
           "sanskrit": "एतयोर्मन्दता यत्र विरक्तत्वमुमुक्षयोः ।",
           "transliteration": "etayormandatA yatra viraktatvamumukShayoH ."
         },
         {
-          "number": 70,
+          "number": 72,
           "sanskrit": "मरौ सलिलवत्तत्र शमादेर्भानमात्रता ॥ ३०॥",
           "transliteration": "marau salilavattatra shamAderbhAnamAtratA .. 30.."
         },
         {
-          "number": 71,
+          "number": 73,
           "sanskrit": "मोक्षकारणसामग्र्यां भक्तिरेव गरीयसी ।",
           "transliteration": "mokShakAraNasAmagr.hyAM bhaktireva garIyasI ."
         },
         {
-          "number": 72,
+          "number": 74,
           "sanskrit": "स्वस्वरूपानुसन्धानं भक्तिरित्यभिधीयते ॥ ३१॥",
           "transliteration": "svasvarUpAnusandhAnaM bhaktirityabhidhIyate .. 31.."
         },
         {
-          "number": 73,
+          "number": 75,
           "sanskrit": "स्वात्मतत्त्वानुसन्धानं भक्तिरित्यपरे जगुः ।",
           "transliteration": "svAtmatattvAnusandhAnaM bhaktirityapare jaguH ."
         },
         {
-          "number": 74,
+          "number": 76,
           "sanskrit": "उक्तसाधनसम्पन्नस्तत्त्वजिज्ञासुरात्मनः ।",
           "transliteration": "uktasAdhanasampannastattvajij~nAsurAtmanaH ."
         },
         {
-          "number": 75,
+          "number": 77,
           "sanskrit": "उपसीदेद्गुरुं प्राज्ञं यस्माद्बन्धविमोक्षणम् ॥ ३२॥",
           "transliteration": "upasIded.hguruM prAj~naM yasmAd.hbandhavimokShaNam .. 32.."
         },
         {
-          "number": 76,
+          "number": 78,
           "sanskrit": "श्रोत्रियोऽवृजिनोऽकामहतो यो ब्रह्मवित्तमः ।",
           "transliteration": "shrotriyo.avR^ijino.akAmahato yo brahmavittamaH ."
         },
         {
-          "number": 77,
+          "number": 79,
           "sanskrit": "ब्रह्मण्युपरतः शान्तो निरिन्धन इवानलः ।",
           "transliteration": "brahmaNyuparataH shAnto nirindhana ivAnalaH ."
         },
         {
-          "number": 78,
+          "number": 80,
           "sanskrit": "अहेतुकदयासिन्धुर्बन्धुरानमतां सताम् ॥ ३३॥",
           "transliteration": "ahetukadayAsindhurbandhurAnamatAM satAm .. 33.."
         },
         {
-          "number": 79,
+          "number": 81,
           "sanskrit": "तमाराध्य गुरुं भक्त्या प्रह्वप्रश्रयसेवनैः । प्रह्वः",
           "transliteration": "tamArAdhya guruM bhaktyA prahvaprashrayasevanaiH . prahvaH"
         },
         {
-          "number": 80,
+          "number": 82,
           "sanskrit": "प्रसन्नं तमनुप्राप्य पृच्छेज्ज्ञातव्यमात्मनः ॥ ३४॥",
           "transliteration": "prasannaM tamanuprApya pR^ichChejj~nAtavyamAtmanaH .. 34.."
         },
         {
-          "number": 81,
+          "number": 83,
           "sanskrit": "स्वामिन्नमस्ते नतलोकबन्धो",
           "transliteration": "svAminnamaste natalokabandho"
         },
         {
-          "number": 82,
+          "number": 84,
           "sanskrit": "कारुण्यसिन्धो पतितं भवाब्धौ ।",
           "transliteration": "kAruNyasindho patitaM bhavAbdhau ."
         },
         {
-          "number": 83,
+          "number": 85,
           "sanskrit": "मामुद्धरात्मीयकटाक्षदृष्ट्या",
           "transliteration": "mAmud.hdharAtmIyakaTAkShadR^iShTyA"
         },
         {
-          "number": 84,
+          "number": 86,
           "sanskrit": "ऋज्व्यातिकारुण्यसुधाभिवृष्ट्या ॥ ३५॥",
           "transliteration": "R^ijvyAtikAruNyasudhAbhivR^iShTyA .. 35.."
         },
         {
-          "number": 85,
+          "number": 87,
           "sanskrit": "दुर्वारसंसारदवाग्नितप्तं",
           "transliteration": "durvArasa.nsAradavAgnitaptaM"
         },
         {
-          "number": 86,
+          "number": 88,
           "sanskrit": "दोधूयमानं दुरदृष्टवातैः ।",
           "transliteration": "dodhUyamAnaM duradR^iShTavAtaiH ."
         },
         {
-          "number": 87,
+          "number": 89,
           "sanskrit": "भीतं प्रपन्नं परिपाहि मृत्योः",
           "transliteration": "bhItaM prapannaM paripAhi mR^ityoH"
         },
         {
-          "number": 88,
+          "number": 90,
           "sanskrit": "शरण्यमन्यद्यदहं न जाने ॥ ३६॥ अन्यं",
           "transliteration": "sharaNyamanyadyadahaM na jAne .. 36.. anyaM"
         },
         {
-          "number": 89,
+          "number": 91,
           "sanskrit": "शान्ता महान्तो निवसन्ति सन्तो",
           "transliteration": "shAntA mahAnto nivasanti santo"
         },
         {
-          "number": 90,
+          "number": 92,
           "sanskrit": "वसन्तवल्लोकहितं चरन्तः ।",
           "transliteration": "vasantavallokahitaM charantaH ."
         },
         {
-          "number": 91,
+          "number": 93,
           "sanskrit": "तीर्णाः स्वयं भीमभवार्णवं जना-",
           "transliteration": "tIrNAH svayaM bhImabhavArNavaM janA\\-"
         },
         {
-          "number": 92,
+          "number": 94,
           "sanskrit": "नहेतुनान्यानपि तारयन्तः ॥ ३७॥",
           "transliteration": "nahetunAnyAnapi tArayantaH .. 37.."
         },
         {
-          "number": 93,
+          "number": 95,
           "sanskrit": "अयं स्वभावः स्वत एव यत्पर-",
           "transliteration": "ayaM svabhAvaH svata eva yatpara\\-"
         },
         {
-          "number": 94,
+          "number": 96,
           "sanskrit": "श्रमापनोदप्रवणं महात्मनाम् ।",
           "transliteration": "shramApanodapravaNaM mahAtmanAm ."
         },
         {
-          "number": 95,
+          "number": 97,
           "sanskrit": "सुधांशुरेष स्वयमर्ककर्कश-",
           "transliteration": "sudhA.nshureSha svayamarkakarkasha\\-"
         },
         {
-          "number": 96,
+          "number": 98,
           "sanskrit": "प्रभाभितप्तामवति क्षितिं किल ॥ ३८॥",
           "transliteration": "prabhAbhitaptAmavati kShitiM kila .. 38.."
         },
         {
-          "number": 97,
+          "number": 99,
           "sanskrit": "ब्रह्मानन्दरसानुभूतिकलितैः पूतैः सुशीतैर्युतै- var सुशीतैः सितैः",
           "transliteration": "brahmAnandarasAnubhUtikalitaiH pUtaiH sushItairyutai\\- ## var ## sushItaiH sitaiH"
         },
         {
-          "number": 98,
+          "number": 100,
           "sanskrit": "र्युष्मद्वाक्कलशोज्झितैः श्रुतिसुखैर्वाक्यामृतैः सेचय ।",
           "transliteration": "ryuShmadvAkkalashojjhitaiH shrutisukhairvAkyAmR^itaiH sechaya ."
         },
         {
-          "number": 99,
+          "number": 101,
           "sanskrit": "सन्तप्तं भवतापदावदहनज्वालाभिरेनं प्रभो",
           "transliteration": "santaptaM bhavatApadAvadahanajvAlAbhirenaM prabho"
         },
         {
-          "number": 100,
+          "number": 102,
           "sanskrit": "धन्यास्ते भवदीक्षणक्षणगतेः पात्रीकृताः स्वीकृताः ॥ ३९॥",
           "transliteration": "dhanyAste bhavadIkShaNakShaNagateH pAtrIkR^itAH svIkR^itAH .. 39.."
         },
         {
-          "number": 101,
+          "number": 103,
           "sanskrit": "कथं तरेयं भवसिन्धुमेतं",
           "transliteration": "kathaM tareyaM bhavasindhumetaM"
         },
         {
-          "number": 102,
+          "number": 104,
           "sanskrit": "का वा गतिर्मे कतमोऽस्त्युपायः ।",
           "transliteration": "kA vA gatirme katamo.astyupAyaH ."
         },
         {
-          "number": 103,
+          "number": 105,
           "sanskrit": "जाने न किञ्चित्कृपयाऽव मां प्रभो",
           "transliteration": "jAne na ki~nchitkR^ipayA.ava mAM prabho"
         },
         {
-          "number": 104,
+          "number": 106,
           "sanskrit": "संसारदुःखक्षतिमातनुष्व ॥ ४०॥",
           "transliteration": "sa.nsAraduHkhakShatimAtanuShva .. 40.."
         },
         {
-          "number": 105,
+          "number": 107,
           "sanskrit": "तथा वदन्तं शरणागतं स्वं",
           "transliteration": "tathA vadantaM sharaNAgataM svaM"
         },
         {
-          "number": 106,
+          "number": 108,
           "sanskrit": "संसारदावानलतापतप्तम् ।",
           "transliteration": "sa.nsAradAvAnalatApataptam ."
         },
         {
-          "number": 107,
+          "number": 109,
           "sanskrit": "निरीक्ष्य कारुण्यरसार्द्रदृष्ट्या",
           "transliteration": "nirIkShya kAruNyarasArdradR^iShTyA"
         },
         {
-          "number": 108,
+          "number": 110,
           "sanskrit": "दद्यादभीतिं सहसा महात्मा ॥ ४१॥",
           "transliteration": "dadyAdabhItiM sahasA mahAtmA .. 41.."
         },
         {
-          "number": 109,
+          "number": 111,
           "sanskrit": "विद्वान् स तस्मा उपसत्तिमीयुषे",
           "transliteration": "vidvAn sa tasmA upasattimIyuShe"
         },
         {
-          "number": 110,
+          "number": 112,
           "sanskrit": "मुमुक्षवे साधु यथोक्तकारिणे ।",
           "transliteration": "mumukShave sAdhu yathoktakAriNe ."
         },
         {
-          "number": 111,
+          "number": 113,
           "sanskrit": "प्रशान्तचित्ताय शमान्विताय",
           "transliteration": "prashAntachittAya shamAnvitAya"
         },
         {
-          "number": 112,
+          "number": 114,
           "sanskrit": "तत्त्वोपदेशं कृपयैव कुर्यात् ॥ ४२॥",
           "transliteration": "tattvopadeshaM kR^ipayaiva kuryAt .. 42.."
         },
         {
-          "number": 113,
+          "number": 115,
           "sanskrit": "मा भैष्ट विद्वंस्तव नास्त्यपायः",
           "transliteration": "mA bhaiShTa vidva.nstava nAstyapAyaH"
         },
         {
-          "number": 114,
+          "number": 116,
           "sanskrit": "संसारसिन्धोस्तरणेऽस्त्युपायः ।",
           "transliteration": "sa.nsArasindhostaraNe.astyupAyaH ."
         },
         {
-          "number": 115,
+          "number": 117,
           "sanskrit": "येनैव याता यतयोऽस्य पारं",
           "transliteration": "yenaiva yAtA yatayo.asya pAraM"
         },
         {
-          "number": 116,
+          "number": 118,
           "sanskrit": "तमेव मार्गं तव निर्दिशामि ॥ ४३॥",
           "transliteration": "tameva mArgaM tava nirdishAmi .. 43.."
         },
         {
-          "number": 117,
+          "number": 119,
           "sanskrit": "अस्त्युपायो महान्कश्चित्संसारभयनाशनः ।",
           "transliteration": "astyupAyo mahAnkashchitsa.nsArabhayanAshanaH ."
         },
         {
-          "number": 118,
+          "number": 120,
           "sanskrit": "तेन तीर्त्वा भवाम्भोधिं परमानन्दमाप्स्यसि ॥ ४४॥",
           "transliteration": "tena tIrtvA bhavAmbhodhiM paramAnandamApsyasi .. 44.."
         },
         {
-          "number": 119,
+          "number": 121,
           "sanskrit": "वेदान्तार्थविचारेण जायते ज्ञानमुत्तमम् ।",
           "transliteration": "vedAntArthavichAreNa jAyate j~nAnamuttamam ."
         },
         {
-          "number": 120,
+          "number": 122,
           "sanskrit": "तेनात्यन्तिकसंसारदुःखनाशो भवत्यनु ॥ ४५॥",
           "transliteration": "tenAtyantikasa.nsAraduHkhanAsho bhavatyanu .. 45.."
         },
         {
-          "number": 121,
+          "number": 123,
           "sanskrit": "श्रद्धाभक्तिध्यानयोगान्मुमुक्षोः",
           "transliteration": "shrad.hdhAbhaktidhyAnayogAnmumukShoH"
         },
         {
-          "number": 122,
+          "number": 124,
           "sanskrit": "मुक्तेर्हेतून्वक्ति साक्षाच्छ्रुतेर्गीः ।",
           "transliteration": "mukterhetUnvakti sAkShAchChrutergIH ."
         },
         {
-          "number": 123,
+          "number": 125,
           "sanskrit": "यो वा एतेष्वेव तिष्ठत्यमुष्य",
           "transliteration": "yo vA eteShveva tiShThatyamuShya"
         },
         {
-          "number": 124,
+          "number": 126,
           "sanskrit": "मोक्षोऽविद्याकल्पिताद्देहबन्धात् ॥ ४६॥",
           "transliteration": "mokSho.avidyAkalpitAddehabandhAt .. 46.."
         },
         {
-          "number": 125,
+          "number": 127,
           "sanskrit": "अज्ञानयोगात्परमात्मनस्तव",
           "transliteration": "aj~nAnayogAtparamAtmanastava"
         },
         {
-          "number": 126,
+          "number": 128,
           "sanskrit": "ह्यनात्मबन्धस्तत एव संसृतिः ।",
           "transliteration": "hyanAtmabandhastata eva sa.nsR^itiH ."
         },
         {
-          "number": 127,
+          "number": 129,
           "sanskrit": "तयोर्विवेकोदितबोधवह्निः",
           "transliteration": "tayorvivekoditabodhavahniH"
         },
         {
-          "number": 128,
+          "number": 130,
           "sanskrit": "अज्ञानकार्यं प्रदहेत्समूलम् ॥ ४७॥",
           "transliteration": "aj~nAnakAryaM pradahetsamUlam .. 47.."
         },
         {
-          "number": 129,
+          "number": 131,
           "sanskrit": "शिष्य उवाच ।",
           "transliteration": "shiShya uvAcha ."
         },
         {
-          "number": 130,
+          "number": 132,
           "sanskrit": "कृपया श्रूयतां स्वामिन्प्रश्नोऽयं क्रियते मया ।",
           "transliteration": "kR^ipayA shrUyatAM svAminprashno.ayaM kriyate mayA ."
         },
         {
-          "number": 131,
+          "number": 133,
           "sanskrit": "यदुत्तरमहं श्रुत्वा कृतार्थः स्यां भवन्मुखात् ॥ ४८॥",
           "transliteration": "yaduttaramahaM shrutvA kR^itArthaH syAM bhavanmukhAt .. 48.."
         },
         {
-          "number": 132,
+          "number": 134,
           "sanskrit": "को नाम बन्धः कथमेष आगतः",
           "transliteration": "ko nAma bandhaH kathameSha AgataH"
         },
         {
-          "number": 133,
+          "number": 135,
           "sanskrit": "कथं प्रतिष्ठास्य कथं विमोक्षः ।",
           "transliteration": "kathaM pratiShThAsya kathaM vimokShaH ."
         },
         {
-          "number": 134,
+          "number": 136,
           "sanskrit": "कोऽसावनात्मा परमः क आत्मा",
           "transliteration": "ko.asAvanAtmA paramaH ka AtmA"
         },
         {
-          "number": 135,
+          "number": 137,
           "sanskrit": "तयोर्विवेकः कथमेतदुच्यताम् ॥ ४९॥",
           "transliteration": "tayorvivekaH kathametaduchyatAm .. 49.."
         },
         {
-          "number": 136,
+          "number": 138,
           "sanskrit": "श्रीगुरुवाच ।",
           "transliteration": "shrIguruvAcha ."
         },
         {
-          "number": 137,
+          "number": 139,
           "sanskrit": "धन्योऽसि कृतकृत्योऽसि पावितं ते कुलं त्वया । पावितं",
           "transliteration": "dhanyo.asi kR^itakR^ityo.asi pAvitaM te kulaM tvayA . pAvitaM"
         },
         {
-          "number": 138,
+          "number": 140,
           "sanskrit": "यदविद्याबन्धमुक्त्या ब्रह्मीभवितुमिच्छसि ॥ ५०॥",
           "transliteration": "yadavidyAbandhamuktyA brahmIbhavitumichChasi .. 50.."
         },
         {
-          "number": 139,
+          "number": 141,
           "sanskrit": "ऋणमोचनकर्तारः पितुः सन्ति सुतादयः ।",
           "transliteration": "R^iNamochanakartAraH pituH santi sutAdayaH ."
         },
         {
-          "number": 140,
+          "number": 142,
           "sanskrit": "बन्धमोचनकर्ता तु स्वस्मादन्यो न कश्चन ॥ ५१॥",
           "transliteration": "bandhamochanakartA tu svasmAdanyo na kashchana .. 51.."
         },
         {
-          "number": 141,
+          "number": 143,
           "sanskrit": "मस्तकन्यस्तभारादेर्दुःखमन्यैर्निवार्यते ।",
           "transliteration": "mastakanyastabhArAderduHkhamanyairnivAryate ."
         },
         {
-          "number": 142,
+          "number": 144,
           "sanskrit": "क्षुधादिकृतदुःखं तु विना स्वेन न केनचित् ॥ ५२॥",
           "transliteration": "kShudhAdikR^itaduHkhaM tu vinA svena na kenachit .. 52.."
         },
         {
-          "number": 143,
+          "number": 145,
           "sanskrit": "पथ्यमौषधसेवा च क्रियते येन रोगिणा ।",
           "transliteration": "pathyamauShadhasevA cha kriyate yena rogiNA ."
         },
         {
-          "number": 144,
+          "number": 146,
           "sanskrit": "आरोग्यसिद्धिर्दृष्टाऽस्य नान्यानुष्ठितकर्मणा ॥ ५३॥",
           "transliteration": "Arogyasid.hdhirdR^iShTA.asya nAnyAnuShThitakarmaNA .. 53.."
         },
         {
-          "number": 145,
+          "number": 147,
           "sanskrit": "वस्तुस्वरूपं स्फुटबोधचक्षुषा",
           "transliteration": "vastusvarUpaM sphuTabodhachakShuShA"
         },
         {
-          "number": 146,
+          "number": 148,
           "sanskrit": "स्वेनैव वेद्यं न तु पण्डितेन ।",
           "transliteration": "svenaiva vedyaM na tu paNDitena ."
         },
         {
-          "number": 147,
+          "number": 149,
           "sanskrit": "चन्द्रस्वरूपं निजचक्षुषैव",
           "transliteration": "chandrasvarUpaM nijachakShuShaiva"
         },
         {
-          "number": 148,
+          "number": 150,
           "sanskrit": "ज्ञातव्यमन्यैरवगम्यते किम् ॥ ५४॥",
           "transliteration": "j~nAtavyamanyairavagamyate kim .. 54.."
         },
         {
-          "number": 149,
+          "number": 151,
           "sanskrit": "अविद्याकामकर्मादिपाशबन्धं विमोचितुम् ।",
           "transliteration": "avidyAkAmakarmAdipAshabandhaM vimochitum ."
         },
         {
-          "number": 150,
+          "number": 152,
           "sanskrit": "कः शक्नुयाद्विनाऽऽत्मानं कल्पकोटिशतैरपि ॥ ५५॥",
           "transliteration": "kaH shaknuyAdvinA.a.atmAnaM kalpakoTishatairapi .. 55.."
         },
         {
-          "number": 151,
+          "number": 153,
           "sanskrit": "न योगेन न साङ्ख्येन कर्मणा नो न विद्यया ।",
           "transliteration": "na yogena na sA~Nkhyena karmaNA no na vidyayA ."
         },
         {
-          "number": 152,
+          "number": 154,
           "sanskrit": "ब्रह्मात्मैकत्वबोधेन मोक्षः सिध्यति नान्यथा ॥ ५६॥",
           "transliteration": "brahmAtmaikatvabodhena mokShaH sidhyati nAnyathA .. 56.."
         },
         {
-          "number": 153,
+          "number": 155,
           "sanskrit": "वीणाया रूपसौन्दर्यं तन्त्रीवादनसौष्ठवम् ।",
           "transliteration": "vINAyA rUpasaundaryaM tantrIvAdanasauShThavam ."
         },
         {
-          "number": 154,
+          "number": 156,
           "sanskrit": "प्रजारञ्जनमात्रं तन्न साम्राज्याय कल्पते ॥ ५७॥",
           "transliteration": "prajAra~njanamAtraM tanna sAmrAjyAya kalpate .. 57.."
         },
         {
-          "number": 155,
+          "number": 157,
           "sanskrit": "वाग्वैखरी शब्दझरी शास्त्रव्याख्यानकौशलम् ।",
           "transliteration": "vAgvaikharI shabdajharI shAstravyAkhyAnakaushalam ."
         },
         {
-          "number": 156,
+          "number": 158,
           "sanskrit": "वैदुष्यं विदुषां तद्वद्भुक्तये न तु मुक्तये ॥ ५८॥",
           "transliteration": "vaiduShyaM viduShAM tadvad.hbhuktaye na tu muktaye .. 58.."
         },
         {
-          "number": 157,
+          "number": 159,
           "sanskrit": "अविज्ञाते परे तत्त्वे शास्त्राधीतिस्तु निष्फला ।",
           "transliteration": "avij~nAte pare tattve shAstrAdhItistu niShphalA ."
         },
         {
-          "number": 158,
+          "number": 160,
           "sanskrit": "विज्ञातेऽपि परे तत्त्वे शास्त्राधीतिस्तु निष्फला ॥ ५९॥",
           "transliteration": "vij~nAte.api pare tattve shAstrAdhItistu niShphalA .. 59.."
         },
         {
-          "number": 159,
+          "number": 161,
           "sanskrit": "शब्दजालं महारण्यं चित्तभ्रमणकारणम् ।",
           "transliteration": "shabdajAlaM mahAraNyaM chittabhramaNakAraNam ."
         },
         {
-          "number": 160,
+          "number": 162,
           "sanskrit": "अतः प्रयत्नाज्ज्ञातव्यं तत्त्वज्ञैस्तत्त्वमात्मनः ॥ ६०॥ तत्त्वज्ञात्तत्त्व",
           "transliteration": "ataH prayatnAjj~nAtavyaM tattvaj~naistattvamAtmanaH .. 60.. tattvaj~nAttattva"
         },
         {
-          "number": 161,
+          "number": 163,
           "sanskrit": "अज्ञानसर्पदष्टस्य ब्रह्मज्ञानौषधं विना ।",
           "transliteration": "aj~nAnasarpadaShTasya brahmaj~nAnauShadhaM vinA ."
         },
         {
-          "number": 162,
+          "number": 164,
           "sanskrit": "किमु वेदैश्च शास्त्रैश्च किमु मन्त्रैः किमौषधैः ॥ ६१॥",
           "transliteration": "kimu vedaishcha shAstraishcha kimu mantraiH kimauShadhaiH .. 61.."
         },
         {
-          "number": 163,
+          "number": 165,
           "sanskrit": "न गच्छति विना पानं व्याधिरौषधशब्दतः ।",
           "transliteration": "na gachChati vinA pAnaM vyAdhirauShadhashabdataH ."
         },
         {
-          "number": 164,
+          "number": 166,
           "sanskrit": "विनाऽपरोक्षानुभवं ब्रह्मशब्दैर्न मुच्यते ॥ ६२॥",
           "transliteration": "vinA.aparokShAnubhavaM brahmashabdairna muchyate .. 62.."
         },
         {
-          "number": 165,
+          "number": 167,
           "sanskrit": "अकृत्वा दृश्यविलयमज्ञात्वा तत्त्वमात्मनः ।",
           "transliteration": "akR^itvA dR^ishyavilayamaj~nAtvA tattvamAtmanaH ."
         },
         {
-          "number": 166,
+          "number": 168,
           "sanskrit": "ब्रह्मशब्दैः कुतो मुक्तिरुक्तिमात्रफलैर्नृणाम् ॥ ६३॥ बाह्यशब्दैः",
           "transliteration": "brahmashabdaiH kuto muktiruktimAtraphalairnR^iNAm .. 63.. bAhyashabdaiH"
         },
         {
-          "number": 167,
+          "number": 169,
           "sanskrit": "अकृत्वा शत्रुसंहारमगत्वाखिलभूश्रियम् ।",
           "transliteration": "akR^itvA shatrusa.nhAramagatvAkhilabhUshriyam ."
         },
         {
-          "number": 168,
+          "number": 170,
           "sanskrit": "राजाहमिति शब्दान्नो राजा भवितुमर्हति ॥ ६४॥",
           "transliteration": "rAjAhamiti shabdAnno rAjA bhavitumarhati .. 64.."
         },
         {
-          "number": 169,
+          "number": 171,
           "sanskrit": "आप्तोक्तिं खननं तथोपरिशिलाद्युत्कर्षणं स्वीकृतिं var परिशिलापाकर्षणं",
           "transliteration": "AptoktiM khananaM tathoparishilAdyutkarShaNaM svIkR^itiM ## var ## parishilApAkarShaNaM"
         },
         {
-          "number": 170,
+          "number": 172,
           "sanskrit": "निक्षेपः समपेक्षते न हि बहिःशब्दैस्तु निर्गच्छति ।",
           "transliteration": "nikShepaH samapekShate na hi bahiHshabdaistu nirgachChati ."
         },
         {
-          "number": 171,
+          "number": 173,
           "sanskrit": "तद्वद्ब्रह्मविदोपदेशमननध्यानादिभिर्लभ्यते",
           "transliteration": "tadvad.hbrahmavidopadeshamananadhyAnAdibhirlabhyate"
         },
         {
-          "number": 172,
+          "number": 174,
           "sanskrit": "मायाकार्यतिरोहितं स्वममलं तत्त्वं न दुर्युक्तिभिः ॥ ६५॥",
           "transliteration": "mAyAkAryatirohitaM svamamalaM tattvaM na duryuktibhiH .. 65.."
         },
         {
-          "number": 173,
+          "number": 175,
           "sanskrit": "तस्मात्सर्वप्रयत्नेन भवबन्धविमुक्तये ।",
           "transliteration": "tasmAtsarvaprayatnena bhavabandhavimuktaye ."
         },
         {
-          "number": 174,
+          "number": 176,
           "sanskrit": "स्वैरेव यत्नः कर्तव्यो रोगादाविव पण्डितैः ॥ ६६॥ रोगादेरिव",
           "transliteration": "svaireva yatnaH kartavyo rogAdAviva paNDitaiH .. 66.. rogAderiva"
         },
         {
-          "number": 175,
+          "number": 177,
           "sanskrit": "यस्त्वयाद्य कृतः प्रश्नो वरीयाञ्छास्त्रविन्मतः । सम्मतः",
           "transliteration": "yastvayAdya kR^itaH prashno varIyA~nChAstravinmataH . sammataH"
         },
         {
-          "number": 176,
+          "number": 178,
           "sanskrit": "सूत्रप्रायो निगूढार्थो ज्ञातव्यश्च मुमुक्षुभिः ॥ ६७॥",
           "transliteration": "sUtraprAyo nigUDhArtho j~nAtavyashcha mumukShubhiH .. 67.."
         },
         {
-          "number": 177,
+          "number": 179,
           "sanskrit": "शृणुष्वावहितो विद्वन्यन्मया समुदीर्यते ।",
           "transliteration": "shR^iNuShvAvahito vidvanyanmayA samudIryate ."
         },
         {
-          "number": 178,
+          "number": 180,
           "sanskrit": "तदेतच्छ्रवणात्सद्यो भवबन्धाद्विमोक्ष्यसे ॥ ६८॥",
           "transliteration": "tadetachChravaNAtsadyo bhavabandhAdvimokShyase .. 68.."
         },
         {
-          "number": 179,
+          "number": 181,
           "sanskrit": "मोक्षस्य हेतुः प्रथमो निगद्यते",
           "transliteration": "mokShasya hetuH prathamo nigadyate"
         },
         {
-          "number": 180,
+          "number": 182,
           "sanskrit": "वैराग्यमत्यन्तमनित्यवस्तुषु ।",
           "transliteration": "vairAgyamatyantamanityavastuShu ."
         },
         {
-          "number": 181,
+          "number": 183,
           "sanskrit": "ततः शमश्चापि दमस्तितिक्षा",
           "transliteration": "tataH shamashchApi damastitikShA"
         },
         {
-          "number": 182,
+          "number": 184,
           "sanskrit": "न्यासः प्रसक्ताखिलकर्मणां भृशम् ॥ ६९॥",
           "transliteration": "nyAsaH prasaktAkhilakarmaNAM bhR^isham .. 69.."
         },
         {
-          "number": 183,
+          "number": 185,
           "sanskrit": "ततः श्रुतिस्तन्मननं सतत्त्व-",
           "transliteration": "tataH shrutistanmananaM satattva\\-"
         },
         {
-          "number": 184,
+          "number": 186,
           "sanskrit": "ध्यानं चिरं नित्यनिरन्तरं मुनेः ।",
           "transliteration": "dhyAnaM chiraM nityanirantaraM muneH ."
         },
         {
-          "number": 185,
+          "number": 187,
           "sanskrit": "ततोऽविकल्पं परमेत्य विद्वान्",
           "transliteration": "tato.avikalpaM parametya vidvAn.h"
         },
         {
-          "number": 186,
+          "number": 188,
           "sanskrit": "इहैव निर्वाणसुखं समृच्छति ॥ ७०॥",
           "transliteration": "ihaiva nirvANasukhaM samR^ichChati .. 70.."
         },
         {
-          "number": 187,
+          "number": 189,
           "sanskrit": "यद्बोद्धव्यं तवेदानीमात्मानात्मविवेचनम् ।",
           "transliteration": "yad.hbod.hdhavyaM tavedAnImAtmAnAtmavivechanam ."
         },
         {
-          "number": 188,
+          "number": 190,
           "sanskrit": "तदुच्यते मया सम्यक् श्रुत्वात्मन्यवधारय ॥ ७१॥",
           "transliteration": "taduchyate mayA samyak shrutvAtmanyavadhAraya .. 71.."
         },
         {
-          "number": 189,
+          "number": 191,
           "sanskrit": "मज्जास्थिमेदःपलरक्तचर्म-",
           "transliteration": "majjAsthimedaHpalaraktacharma\\-"
         },
         {
-          "number": 190,
+          "number": 192,
           "sanskrit": "त्वगाह्वयैर्धातुभिरेभिरन्वितम् ।",
           "transliteration": "tvagAhvayairdhAtubhirebhiranvitam ."
         },
         {
-          "number": 191,
+          "number": 193,
           "sanskrit": "पादोरुवक्षोभुजपृष्ठमस्तकैः",
           "transliteration": "pAdoruvakShobhujapR^iShThamastakaiH"
         },
         {
-          "number": 192,
+          "number": 194,
           "sanskrit": "अङ्गैरुपाङ्गैरुपयुक्तमेतत् ॥ ७२॥",
           "transliteration": "a~NgairupA~Ngairupayuktametat .. 72.."
         },
         {
-          "number": 193,
+          "number": 195,
           "sanskrit": "अहम्ममेति प्रथितं शरीरं",
           "transliteration": "ahammameti prathitaM sharIraM"
         },
         {
-          "number": 194,
+          "number": 196,
           "sanskrit": "मोहास्पदं स्थूलमितीर्यते बुधैः ।",
           "transliteration": "mohAspadaM sthUlamitIryate budhaiH ."
         },
         {
-          "number": 195,
+          "number": 197,
           "sanskrit": "नभोनभस्वद्दहनाम्बुभूमयः",
           "transliteration": "nabhonabhasvaddahanAmbubhUmayaH"
         },
         {
-          "number": 196,
+          "number": 198,
           "sanskrit": "सूक्ष्माणि भूतानि भवन्ति तानि ॥ ७३॥",
           "transliteration": "sUkShmANi bhUtAni bhavanti tAni .. 73.."
         },
         {
-          "number": 197,
+          "number": 199,
           "sanskrit": "परस्परांशैर्मिलितानि भूत्वा",
           "transliteration": "parasparAMshairmilitAni bhUtvA"
         },
         {
-          "number": 198,
+          "number": 200,
           "sanskrit": "स्थूलानि च स्थूलशरीरहेतवः ।",
           "transliteration": "sthUlAni cha sthUlasharIrahetavaH ."
         },
         {
-          "number": 199,
+          "number": 201,
           "sanskrit": "मात्रास्तदीया विषया भवन्ति",
           "transliteration": "mAtrAstadIyA viShayA bhavanti"
         },
         {
-          "number": 200,
+          "number": 202,
           "sanskrit": "शब्दादयः पञ्च सुखाय भोक्तुः ॥ ७४॥",
           "transliteration": "shabdAdayaH pa~ncha sukhAya bhoktuH .. 74.."
         },
         {
-          "number": 201,
+          "number": 203,
           "sanskrit": "य एषु मूढा विषयेषु बद्धा",
           "transliteration": "ya eShu mUDhA viShayeShu bad.hdhA"
         },
         {
-          "number": 202,
+          "number": 204,
           "sanskrit": "रागोरुपाशेन सुदुर्दमेन ।",
           "transliteration": "rAgorupAshena sudurdamena ."
         },
         {
-          "number": 203,
+          "number": 205,
           "sanskrit": "आयान्ति निर्यान्त्यध ऊर्ध्वमुच्चैः",
           "transliteration": "AyAnti niryAntyadha UrdhvamuchchaiH"
         },
         {
-          "number": 204,
+          "number": 206,
           "sanskrit": "स्वकर्मदूतेन जवेन नीताः ॥ ७५॥",
           "transliteration": "svakarmadUtena javena nItAH .. 75.."
         },
         {
-          "number": 205,
+          "number": 207,
           "sanskrit": "शब्दादिभिः पञ्चभिरेव पञ्च",
           "transliteration": "shabdAdibhiH pa~nchabhireva pa~ncha"
         },
         {
-          "number": 206,
+          "number": 208,
           "sanskrit": "पञ्चत्वमापुः स्वगुणेन बद्धाः ।",
           "transliteration": "pa~nchatvamApuH svaguNena bad.hdhAH ."
         },
         {
-          "number": 207,
+          "number": 209,
           "sanskrit": "कुरङ्गमातङ्गपतङ्गमीन-",
           "transliteration": "kura~NgamAta~Ngapata~NgamIna\\-"
         },
         {
-          "number": 208,
+          "number": 210,
           "sanskrit": "भृङ्गा नरः पञ्चभिरञ्चितः किम् ॥ ७६॥",
           "transliteration": "bhR^i~NgA naraH pa~nchabhira~nchitaH kim .. 76.."
         },
         {
-          "number": 209,
+          "number": 211,
           "sanskrit": "दोषेण तीव्रो विषयः कृष्णसर्पविषादपि ।",
           "transliteration": "doSheNa tIvro viShayaH kR^iShNasarpaviShAdapi ."
         },
         {
-          "number": 210,
+          "number": 212,
           "sanskrit": "विषं निहन्ति भोक्तारं द्रष्टारं चक्षुषाप्ययम् ॥ ७७॥",
           "transliteration": "viShaM nihanti bhoktAraM draShTAraM chakShuShApyayam .. 77.."
         },
         {
-          "number": 211,
+          "number": 213,
           "sanskrit": "विषयाशामहापाशाद्यो विमुक्तः सुदुस्त्यजात् ।",
           "transliteration": "viShayAshAmahApAshAdyo vimuktaH sudustyajAt ."
         },
         {
-          "number": 212,
+          "number": 214,
           "sanskrit": "स एव कल्पते मुक्त्यै नान्यः षट्शास्त्रवेद्यपि ॥ ७८॥",
           "transliteration": "sa eva kalpate muktyai nAnyaH ShaT.hshAstravedyapi .. 78.."
         },
         {
-          "number": 213,
+          "number": 215,
           "sanskrit": "आपातवैराग्यवतो मुमुक्षून्",
           "transliteration": "ApAtavairAgyavato mumukShUn.h"
         },
         {
-          "number": 214,
+          "number": 216,
           "sanskrit": "भवाब्धिपारं प्रतियातुमुद्यतान् ।",
           "transliteration": "bhavAbdhipAraM pratiyAtumudyatAn ."
         },
         {
-          "number": 215,
+          "number": 217,
           "sanskrit": "आशाग्रहो मज्जयतेऽन्तराले",
           "transliteration": "AshAgraho majjayate.antarAle"
         },
         {
-          "number": 216,
+          "number": 218,
           "sanskrit": "निगृह्य कण्ठे विनिवर्त्य वेगात् ॥ ७९॥",
           "transliteration": "nigR^ihya kaNThe vinivartya vegAt .. 79.."
         },
         {
-          "number": 217,
+          "number": 219,
           "sanskrit": "विषयाख्यग्रहो येन सुविरक्त्यसिना हतः ।",
           "transliteration": "viShayAkhyagraho yena suviraktyasinA hataH ."
         },
         {
-          "number": 218,
+          "number": 220,
           "sanskrit": "स गच्छति भवाम्भोधेः पारं प्रत्यूहवर्जितः ॥ ८०॥",
           "transliteration": "sa gachChati bhavAmbhodheH pAraM pratyUhavarjitaH .. 80.."
         },
         {
-          "number": 219,
+          "number": 221,
           "sanskrit": "विषमविषयमार्गैर्गच्छतोऽनच्छबुद्धेः var विषयमार्गे गच्छतो",
           "transliteration": "viShamaviShayamArgairgachChato.anachChabud.hdheH ## var ## viShayamArge gachChato"
         },
         {
-          "number": 220,
+          "number": 222,
           "sanskrit": "प्रतिपदमभियातो मृत्युरप्येष विद्धि । var प्रतिपदमभिघातो मृत्युरप्येष सिद्धः",
           "transliteration": "pratipadamabhiyAto mR^ityurapyeSha vid.hdhi . ## var ## pratipadamabhighAto mR^ityurapyeSha sid.hdhaH"
         },
         {
-          "number": 221,
+          "number": 223,
           "sanskrit": "हितसुजनगुरूक्त्या गच्छतः स्वस्य युक्त्या",
           "transliteration": "hitasujanagurUktyA gachChataH svasya yuktyA"
         },
         {
-          "number": 222,
+          "number": 224,
           "sanskrit": "प्रभवति फलसिद्धिः सत्यमित्येव विद्धि ॥ ८१॥",
           "transliteration": "prabhavati phalasid.hdhiH satyamityeva vid.hdhi .. 81.."
         },
         {
-          "number": 223,
+          "number": 225,
           "sanskrit": "मोक्षस्य काङ्क्षा यदि वै तवास्ति",
           "transliteration": "mokShasya kA~NkShA yadi vai tavAsti"
         },
         {
-          "number": 224,
+          "number": 226,
           "sanskrit": "त्यजातिदूराद्विषयान्विषं यथा ।",
           "transliteration": "tyajAtidUrAdviShayAnviShaM yathA ."
         },
         {
-          "number": 225,
+          "number": 227,
           "sanskrit": "पीयूषवत्तोषदयाक्षमार्जव-",
           "transliteration": "pIyUShavattoShadayAkShamArjava\\-"
         },
         {
-          "number": 226,
+          "number": 228,
           "sanskrit": "प्रशान्तिदान्तीर्भज नित्यमादरात् ॥ ८२॥",
           "transliteration": "prashAntidAntIrbhaja nityamAdarAt .. 82.."
         },
         {
-          "number": 227,
+          "number": 229,
           "sanskrit": "अनुक्षणं यत्परिहृत्य कृत्यं",
           "transliteration": "anukShaNaM yatparihR^itya kR^ityaM"
         },
         {
-          "number": 228,
+          "number": 230,
           "sanskrit": "अनाद्यविद्याकृतबन्धमोक्षणम् ।",
           "transliteration": "anAdyavidyAkR^itabandhamokShaNam ."
         },
         {
-          "number": 229,
+          "number": 231,
           "sanskrit": "देहः परार्थोऽयममुष्य पोषणे",
           "transliteration": "dehaH parArtho.ayamamuShya poShaNe"
         },
         {
-          "number": 230,
+          "number": 232,
           "sanskrit": "यः सज्जते स स्वमनेन हन्ति ॥ ८३॥",
           "transliteration": "yaH sajjate sa svamanena hanti .. 83.."
         },
         {
-          "number": 231,
+          "number": 233,
           "sanskrit": "शरीरपोषणार्थी सन् य आत्मानं दिदृक्षति । दिदृक्षते",
           "transliteration": "sharIrapoShaNArthI san ya AtmAnaM didR^ikShati . didR^ikShate"
         },
         {
-          "number": 232,
+          "number": 234,
           "sanskrit": "ग्राहं दारुधिया धृत्वा नदीं तर्तुं स गच्छति ॥ ८४॥ स इच्छति",
           "transliteration": "grAhaM dArudhiyA dhR^itvA nadIM tartuM sa gachChati .. 84.. sa ichChati"
         },
         {
-          "number": 233,
+          "number": 235,
           "sanskrit": "मोह एव महामृत्युर्मुमुक्षोर्वपुरादिषु ।",
           "transliteration": "moha eva mahAmR^ityurmumukShorvapurAdiShu ."
         },
         {
-          "number": 234,
+          "number": 236,
           "sanskrit": "मोहो विनिर्जितो येन स मुक्तिपदमर्हति ॥ ८५॥",
           "transliteration": "moho vinirjito yena sa muktipadamarhati .. 85.."
         },
         {
-          "number": 235,
+          "number": 237,
           "sanskrit": "मोहं जहि महामृत्युं देहदारसुतादिषु ।",
           "transliteration": "mohaM jahi mahAmR^ityuM dehadArasutAdiShu ."
         },
         {
-          "number": 236,
+          "number": 238,
           "sanskrit": "यं जित्वा मुनयो यान्ति तद्विष्णोः परमं पदम् ॥ ८६॥",
           "transliteration": "yaM jitvA munayo yAnti tadviShNoH paramaM padam .. 86.."
         },
         {
-          "number": 237,
+          "number": 239,
           "sanskrit": "त्वङ्मांसरुधिरस्नायुमेदोमज्जास्थिसङ्कुलम् ।",
           "transliteration": "tva~N.hmAMsarudhirasnAyumedomajjAsthisa~Nkulam ."
         },
         {
-          "number": 238,
+          "number": 240,
           "sanskrit": "पूर्णं मूत्रपुरीषाभ्यां स्थूलं निन्द्यमिदं वपुः ॥ ८७॥",
           "transliteration": "pUrNaM mUtrapurIShAbhyAM sthUlaM nindyamidaM vapuH .. 87.."
         },
         {
-          "number": 239,
+          "number": 241,
           "sanskrit": "पञ्चीकृतेभ्यो भूतेभ्यः स्थूलेभ्यः पूर्वकर्मणा ।",
           "transliteration": "pa~nchIkR^itebhyo bhUtebhyaH sthUlebhyaH pUrvakarmaNA ."
         },
         {
-          "number": 240,
+          "number": 242,
           "sanskrit": "समुत्पन्नमिदं स्थूलं भोगायतनमात्मनः ।",
           "transliteration": "samutpannamidaM sthUlaM bhogAyatanamAtmanaH ."
         },
         {
-          "number": 241,
+          "number": 243,
           "sanskrit": "अवस्था जागरस्तस्य स्थूलार्थानुभवो यतः ॥ ८८॥",
           "transliteration": "avasthA jAgarastasya sthUlArthAnubhavo yataH .. 88.."
         },
         {
-          "number": 242,
+          "number": 244,
           "sanskrit": "बाह्येन्द्रियैः स्थूलपदार्थसेवां",
           "transliteration": "bAhyendriyaiH sthUlapadArthasevAM"
         },
         {
-          "number": 243,
+          "number": 245,
           "sanskrit": "स्रक्चन्दनस्त्र्यादिविचित्ररूपाम् ।",
           "transliteration": "srak.hchandanastryAdivichitrarUpAm ."
         },
         {
-          "number": 244,
+          "number": 246,
           "sanskrit": "करोति जीवः स्वयमेतदात्मना",
           "transliteration": "karoti jIvaH svayametadAtmanA"
         },
         {
-          "number": 245,
+          "number": 247,
           "sanskrit": "तस्मात्प्रशस्तिर्वपुषोऽस्य जागरे ॥ ८९॥",
           "transliteration": "tasmAtprashastirvapuSho.asya jAgare .. 89.."
         },
         {
-          "number": 246,
+          "number": 248,
           "sanskrit": "सर्वोऽपि बाह्यसंसारः पुरुषस्य यदाश्रयः ।",
           "transliteration": "sarvo.api bAhyasa.nsAraH puruShasya yadAshrayaH ."
         },
         {
-          "number": 247,
+          "number": 249,
           "sanskrit": "विद्धि देहमिदं स्थूलं गृहवद्गृहमेधिनः ॥ ९०॥",
           "transliteration": "vid.hdhi dehamidaM sthUlaM gR^ihavad.hgR^ihamedhinaH .. 90.."
         },
         {
-          "number": 248,
+          "number": 250,
           "sanskrit": "स्थूलस्य सम्भवजरामरणानि धर्माः",
           "transliteration": "sthUlasya sambhavajarAmaraNAni dharmAH"
         },
         {
-          "number": 249,
+          "number": 251,
           "sanskrit": "स्थौल्यादयो बहुविधाः शिशुताद्यवस्थाः ।",
           "transliteration": "sthaulyAdayo bahuvidhAH shishutAdyavasthAH ."
         },
         {
-          "number": 250,
+          "number": 252,
           "sanskrit": "वर्णाश्रमादिनियमा बहुधाऽऽमयाः स्युः",
           "transliteration": "varNAshramAdiniyamA bahudhA.a.amayAH syuH"
         },
         {
-          "number": 251,
+          "number": 253,
           "sanskrit": "पूजावमानबहुमानमुखा विशेषाः ॥ ९१॥",
           "transliteration": "pUjAvamAnabahumAnamukhA visheShAH .. 91.."
         },
         {
-          "number": 252,
+          "number": 254,
           "sanskrit": "बुद्धीन्द्रियाणि श्रवणं त्वगक्षि",
           "transliteration": "bud.hdhIndriyANi shravaNaM tvagakShi"
         },
         {
-          "number": 253,
+          "number": 255,
           "sanskrit": "घ्राणं च जिह्वा विषयावबोधनात् ।",
           "transliteration": "ghrANaM cha jihvA viShayAvabodhanAt ."
         },
         {
-          "number": 254,
+          "number": 256,
           "sanskrit": "वाक्पाणिपादा गुदमप्युपस्थः var उपस्थं",
           "transliteration": "vAk.hpANipAdA gudamapyupasthaH ## var ## upasthaM"
         },
         {
-          "number": 255,
+          "number": 257,
           "sanskrit": "कर्मेन्द्रियाणि प्रवणेन कर्मसु ॥ ९२॥ प्रवणानि",
           "transliteration": "karmendriyANi pravaNena karmasu .. 92.. pravaNAni"
         },
         {
-          "number": 256,
+          "number": 258,
           "sanskrit": "निगद्यतेऽन्तःकरणं मनोधीः",
           "transliteration": "nigadyate.antaHkaraNaM manodhIH"
         },
         {
-          "number": 257,
+          "number": 259,
           "sanskrit": "अहङ्कृतिश्चित्तमिति स्ववृत्तिभिः ।",
           "transliteration": "aha~NkR^itishchittamiti svavR^ittibhiH ."
         },
         {
-          "number": 258,
+          "number": 260,
           "sanskrit": "मनस्तु सङ्कल्पविकल्पनादिभिः",
           "transliteration": "manastu sa~NkalpavikalpanAdibhiH"
         },
         {
-          "number": 259,
+          "number": 261,
           "sanskrit": "बुद्धिः पदार्थाध्यवसायधर्मतः ॥ ९३॥",
           "transliteration": "bud.hdhiH padArthAdhyavasAyadharmataH .. 93.."
         },
         {
-          "number": 260,
+          "number": 262,
           "sanskrit": "अत्राभिमानादहमित्यहङ्कृतिः ।",
           "transliteration": "atrAbhimAnAdahamityaha~NkR^itiH ."
         },
         {
-          "number": 261,
+          "number": 263,
           "sanskrit": "स्वार्थानुसन्धानगुणेन चित्तम् ॥ ९४॥",
           "transliteration": "svArthAnusandhAnaguNena chittam .. 94.."
         },
         {
-          "number": 262,
+          "number": 264,
           "sanskrit": "प्राणापानव्यानोदानसमाना भवत्यसौ प्राणः ।",
           "transliteration": "prANApAnavyAnodAnasamAnA bhavatyasau prANaH ."
         },
         {
-          "number": 263,
+          "number": 265,
           "sanskrit": "स्वयमेव वृत्तिभेदाद्विकृतिभेदात्सुवर्णसलिलादिवत् ॥ ९५॥ विकृतेर्भेदात्सुवर्णसलिलमिव",
           "transliteration": "svayameva vR^ittibhedAdvikR^itibhedAtsuvarNasalilAdivat .. 95.. vikR^iterbhedAtsuvarNasalilamiva"
         },
         {
-          "number": 264,
+          "number": 266,
           "sanskrit": "वागादि पञ्च श्रवणादि पञ्च",
           "transliteration": "vAgAdi pa~ncha shravaNAdi pa~ncha"
         },
         {
-          "number": 265,
+          "number": 267,
           "sanskrit": "प्राणादि पञ्चाभ्रमुखानि पञ्च ।",
           "transliteration": "prANAdi pa~nchAbhramukhAni pa~ncha ."
         },
         {
-          "number": 266,
+          "number": 268,
           "sanskrit": "बुद्ध्याद्यविद्यापि च कामकर्मणी",
           "transliteration": "bud.hdhyAdyavidyApi cha kAmakarmaNI"
         },
         {
-          "number": 267,
+          "number": 269,
           "sanskrit": "पुर्यष्टकं सूक्ष्मशरीरमाहुः ॥ ९६॥",
           "transliteration": "puryaShTakaM sUkShmasharIramAhuH .. 96.."
         },
         {
-          "number": 268,
+          "number": 270,
           "sanskrit": "इदं शरीरं शृणु सूक्ष्मसंज्ञितं",
           "transliteration": "idaM sharIraM shR^iNu sUkShmasaMj~nitaM"
         },
         {
-          "number": 269,
+          "number": 271,
           "sanskrit": "लिङ्गं त्वपञ्चीकृतभूतसम्भवम् ।",
           "transliteration": "li~NgaM tvapa~nchIkR^itabhUtasambhavam ."
         },
         {
-          "number": 270,
+          "number": 272,
           "sanskrit": "सवासनं कर्मफलानुभावकं",
           "transliteration": "savAsanaM karmaphalAnubhAvakaM"
         },
         {
-          "number": 271,
+          "number": 273,
           "sanskrit": "स्वाज्ञानतोऽनादिरुपाधिरात्मनः ॥ ९७॥",
           "transliteration": "svAj~nAnato.anAdirupAdhirAtmanaH .. 97.."
         },
         {
-          "number": 272,
+          "number": 274,
           "sanskrit": "स्वप्नो भवत्यस्य विभक्त्यवस्था",
           "transliteration": "svapno bhavatyasya vibhaktyavasthA"
         },
         {
-          "number": 273,
+          "number": 275,
           "sanskrit": "स्वमात्रशेषेण विभाति यत्र ।",
           "transliteration": "svamAtrasheSheNa vibhAti yatra ."
         },
         {
-          "number": 274,
+          "number": 276,
           "sanskrit": "स्वप्ने तु बुद्धिः स्वयमेव जाग्रत्",
           "transliteration": "svapne tu bud.hdhiH svayameva jAgrat.h"
         },
         {
-          "number": 275,
+          "number": 277,
           "sanskrit": "कालीननानाविधवासनाभिः ॥ ९८॥",
           "transliteration": "kAlInanAnAvidhavAsanAbhiH .. 98.."
         },
         {
-          "number": 276,
+          "number": 278,
           "sanskrit": "कर्त्रादिभावं प्रतिपद्य राजते",
           "transliteration": "kartrAdibhAvaM pratipadya rAjate"
         },
         {
-          "number": 277,
+          "number": 279,
           "sanskrit": "यत्र स्वयं भाति ह्ययं परात्मा । स्वयञ्ज्योतिरयं",
           "transliteration": "yatra svayaM bhAti hyayaM parAtmA . svaya~njyotirayaM"
         },
         {
-          "number": 278,
+          "number": 280,
           "sanskrit": "धीमात्रकोपाधिरशेषसाक्षी",
           "transliteration": "dhImAtrakopAdhirasheShasAkShI"
         },
         {
-          "number": 279,
+          "number": 281,
           "sanskrit": "न लिप्यते तत्कृतकर्मलेशैः । कर्मलेपैः",
           "transliteration": "na lipyate tatkR^itakarmaleshaiH . karmalepaiH"
         },
         {
-          "number": 280,
+          "number": 282,
           "sanskrit": "यस्मादसङ्गस्तत एव कर्मभिः",
           "transliteration": "yasmAdasa~Ngastata eva karmabhiH"
         },
         {
-          "number": 281,
+          "number": 283,
           "sanskrit": "न लिप्यते किञ्चिदुपाधिना कृतैः ॥ ९९॥",
           "transliteration": "na lipyate ki~nchidupAdhinA kR^itaiH .. 99.."
         },
         {
-          "number": 282,
+          "number": 284,
           "sanskrit": "सर्वव्यापृतिकरणं लिङ्गमिदं स्याच्चिदात्मनः पुंसः ।",
           "transliteration": "sarvavyApR^itikaraNaM li~NgamidaM syAchchidAtmanaH puMsaH ."
         },
         {
-          "number": 283,
+          "number": 285,
           "sanskrit": "वास्यादिकमिव तक्ष्णस्तेनैवात्मा भवत्यसङ्गोऽयम् ॥ १००॥",
           "transliteration": "vAsyAdikamiva takShNastenaivAtmA bhavatyasa~Ngo.ayam .. 100.."
         },
         {
-          "number": 284,
+          "number": 286,
           "sanskrit": "अन्धत्वमन्दत्वपटुत्वधर्माः",
           "transliteration": "andhatvamandatvapaTutvadharmAH"
         },
         {
-          "number": 285,
+          "number": 287,
           "sanskrit": "सौगुण्यवैगुण्यवशाद्धि चक्षुषः ।",
           "transliteration": "sauguNyavaiguNyavashAd.hdhi chakShuShaH ."
         },
         {
-          "number": 286,
+          "number": 288,
           "sanskrit": "बाधिर्यमूकत्वमुखास्तथैव",
           "transliteration": "bAdhiryamUkatvamukhAstathaiva"
         },
         {
-          "number": 287,
+          "number": 289,
           "sanskrit": "श्रोत्रादिधर्मा न तु वेत्तुरात्मनः ॥ १०१॥",
           "transliteration": "shrotrAdidharmA na tu vetturAtmanaH .. 101.."
         },
         {
-          "number": 288,
+          "number": 290,
           "sanskrit": "उच्छ्वासनिःश्वासविजृम्भणक्षु-",
           "transliteration": "uchCh.hvAsaniHshvAsavijR^imbhaNakShu\\-"
         },
         {
-          "number": 289,
+          "number": 291,
           "sanskrit": "त्प्रस्यन्दनाद्युत्क्रमणादिकाः क्रियाः । प्रस्पन्दनाद्य्",
           "transliteration": "tprasyandanAdyutkramaNAdikAH kriyAH . praspandanAdy"
         },
         {
-          "number": 290,
+          "number": 292,
           "sanskrit": "प्राणादिकर्माणि वदन्ति तज्ञाः var तज्ज्ञाः",
           "transliteration": "prANAdikarmANi vadanti taj~nAH ## var ## tajj~nAH"
         },
         {
-          "number": 291,
+          "number": 293,
           "sanskrit": "प्राणस्य धर्मावशनापिपासे ॥ १०२॥",
           "transliteration": "prANasya dharmAvashanApipAse .. 102.."
         },
         {
-          "number": 292,
+          "number": 294,
           "sanskrit": "अन्तःकरणमेतेषु चक्षुरादिषु वर्ष्मणि ।",
           "transliteration": "antaHkaraNameteShu chakShurAdiShu varShmaNi ."
         },
         {
-          "number": 293,
+          "number": 295,
           "sanskrit": "अहमित्यभिमानेन तिष्ठत्याभासतेजसा ॥ १०३॥",
           "transliteration": "ahamityabhimAnena tiShThatyAbhAsatejasA .. 103.."
         },
         {
-          "number": 294,
+          "number": 296,
           "sanskrit": "अहङ्कारः स विज्ञेयः कर्ता भोक्ताभिमान्ययम् ।",
           "transliteration": "aha~NkAraH sa vij~neyaH kartA bhoktAbhimAnyayam ."
         },
         {
-          "number": 295,
+          "number": 297,
           "sanskrit": "सत्त्वादिगुणयोगेन चावस्थात्रयमश्नुते ॥ १०४॥ योगेनावस्थात्रितयम्श्नुते",
           "transliteration": "sattvAdiguNayogena chAvasthAtrayamashnute .. 104.. yogenAvasthAtritayamshnute"
         },
         {
-          "number": 296,
+          "number": 298,
           "sanskrit": "विषयाणामानुकूल्ये सुखी दुःखी विपर्यये ।",
           "transliteration": "viShayANAmAnukUlye sukhI duHkhI viparyaye ."
         },
         {
-          "number": 297,
+          "number": 299,
           "sanskrit": "सुखं दुःखं च तद्धर्मः सदानन्दस्य नात्मनः ॥ १०५॥",
           "transliteration": "sukhaM duHkhaM cha tad.hdharmaH sadAnandasya nAtmanaH .. 105.."
         },
         {
-          "number": 298,
+          "number": 300,
           "sanskrit": "आत्मार्थत्वेन हि प्रेयान्विषयो न स्वतः प्रियः ।",
           "transliteration": "AtmArthatvena hi preyAnviShayo na svataH priyaH ."
         },
         {
-          "number": 299,
+          "number": 301,
           "sanskrit": "स्वत एव हि सर्वेषामात्मा प्रियतमो यतः ।",
           "transliteration": "svata eva hi sarveShAmAtmA priyatamo yataH ."
         },
         {
-          "number": 300,
+          "number": 302,
           "sanskrit": "तत आत्मा सदानन्दो नास्य दुःखं कदाचन ॥ १०६॥",
           "transliteration": "tata AtmA sadAnando nAsya duHkhaM kadAchana .. 106.."
         },
         {
-          "number": 301,
+          "number": 303,
           "sanskrit": "यत्सुषुप्तौ निर्विषय आत्मानन्दोऽनुभूयते ।",
           "transliteration": "yatsuShuptau nirviShaya AtmAnando.anubhUyate ."
         },
         {
-          "number": 302,
+          "number": 304,
           "sanskrit": "श्रुतिः प्रत्यक्षमैतिह्यमनुमानं च जाग्रति ॥ १०७॥",
           "transliteration": "shrutiH pratyakShamaitihyamanumAnaM cha jAgrati .. 107.."
         },
         {
-          "number": 303,
+          "number": 305,
           "sanskrit": "अव्यक्तनाम्नी परमेशशक्तिः",
           "transliteration": "avyaktanAmnI parameshashaktiH"
         },
         {
-          "number": 304,
+          "number": 306,
           "sanskrit": "अनाद्यविद्या त्रिगुणात्मिका परा ।",
           "transliteration": "anAdyavidyA triguNAtmikA parA ."
         },
         {
-          "number": 305,
+          "number": 307,
           "sanskrit": "कार्यानुमेया सुधियैव माया",
           "transliteration": "kAryAnumeyA sudhiyaiva mAyA"
         },
         {
-          "number": 306,
+          "number": 308,
           "sanskrit": "यया जगत्सर्वमिदं प्रसूयते ॥ १०८॥",
           "transliteration": "yayA jagatsarvamidaM prasUyate .. 108.."
         },
         {
-          "number": 307,
+          "number": 309,
           "sanskrit": "सन्नाप्यसन्नाप्युभयात्मिका नो",
           "transliteration": "sannApyasannApyubhayAtmikA no"
         },
         {
-          "number": 308,
+          "number": 310,
           "sanskrit": "भिन्नाप्यभिन्नाप्युभयात्मिका नो ।",
           "transliteration": "bhinnApyabhinnApyubhayAtmikA no ."
         },
         {
-          "number": 309,
+          "number": 311,
           "sanskrit": "साङ्गाप्यनङ्गा ह्युभयात्मिका नो var अनङ्गाप्युभयात्मिका",
           "transliteration": "sA~NgApyana~NgA hyubhayAtmikA no ## var ## ana~NgApyubhayAtmikA"
         },
         {
-          "number": 310,
+          "number": 312,
           "sanskrit": "महाद्भुताऽनिर्वचनीयरूपा ॥ १०९॥",
           "transliteration": "mahAd.hbhutA.anirvachanIyarUpA .. 109.."
         },
         {
-          "number": 311,
+          "number": 313,
           "sanskrit": "शुद्धाद्वयब्रह्मविबोधनाश्या",
           "transliteration": "shud.hdhAdvayabrahmavibodhanAshyA"
         },
         {
-          "number": 312,
+          "number": 314,
           "sanskrit": "सर्पभ्रमो रज्जुविवेकतो यथा ।",
           "transliteration": "sarpabhramo rajjuvivekato yathA ."
         },
         {
-          "number": 313,
+          "number": 315,
           "sanskrit": "रजस्तमःसत्त्वमिति प्रसिद्धा",
           "transliteration": "rajastamaHsattvamiti prasid.hdhA"
         },
         {
-          "number": 314,
+          "number": 316,
           "sanskrit": "गुणास्तदीयाः प्रथितैः स्वकार्यैः ॥ ११०॥",
           "transliteration": "guNAstadIyAH prathitaiH svakAryaiH .. 110.."
         },
         {
-          "number": 315,
+          "number": 317,
           "sanskrit": "विक्षेपशक्ती रजसः क्रियात्मिका",
           "transliteration": "vikShepashaktI rajasaH kriyAtmikA"
         },
         {
-          "number": 316,
+          "number": 318,
           "sanskrit": "यतः प्रवृत्तिः प्रसृता पुराणी ।",
           "transliteration": "yataH pravR^ittiH prasR^itA purANI ."
         },
         {
-          "number": 317,
+          "number": 319,
           "sanskrit": "रागादयोऽस्याः प्रभवन्ति नित्यं",
           "transliteration": "rAgAdayo.asyAH prabhavanti nityaM"
         },
         {
-          "number": 318,
+          "number": 320,
           "sanskrit": "दुःखादयो ये मनसो विकाराः ॥ १११॥",
           "transliteration": "duHkhAdayo ye manaso vikArAH .. 111.."
         },
         {
-          "number": 319,
+          "number": 321,
           "sanskrit": "कामः क्रोधो लोभदम्भाद्यसूया var लोभदम्भाभ्यसूया",
           "transliteration": "kAmaH krodho lobhadambhAdyasUyA ## var ## lobhadambhAbhyasUyA"
         },
         {
-          "number": 320,
+          "number": 322,
           "sanskrit": "अहङ्कारेर्ष्यामत्सराद्यास्तु घोराः ।",
           "transliteration": "aha~NkArerShyAmatsarAdyAstu ghorAH ."
         },
         {
-          "number": 321,
+          "number": 323,
           "sanskrit": "धर्मा एते राजसाः पुम्प्रवृत्ति-",
           "transliteration": "dharmA ete rAjasAH pumpravR^itti\\-"
         },
         {
-          "number": 322,
+          "number": 324,
           "sanskrit": "र्यस्मादेषा तद्रजो बन्धहेतुः ॥ ११२॥ यस्मादेतत्तद्रजो",
           "transliteration": "ryasmAdeShA tadrajo bandhahetuH .. 112.. yasmAdetattadrajo"
         },
         {
-          "number": 323,
+          "number": 325,
           "sanskrit": "एषाऽऽवृतिर्नाम तमोगुणस्य",
           "transliteration": "eShA.a.avR^itirnAma tamoguNasya"
         },
         {
-          "number": 324,
+          "number": 326,
           "sanskrit": "शक्तिर्मया वस्त्ववभासतेऽन्यथा । शक्तिर्यया",
           "transliteration": "shaktirmayA vastvavabhAsate.anyathA . shaktiryayA"
         },
         {
-          "number": 325,
+          "number": 327,
           "sanskrit": "सैषा निदानं पुरुषस्य संसृतेः",
           "transliteration": "saiShA nidAnaM puruShasya sa.nsR^iteH"
         },
         {
-          "number": 326,
+          "number": 328,
           "sanskrit": "विक्षेपशक्तेः प्रवणस्य हेतुः ॥ ११३॥ प्रसरस्य",
           "transliteration": "vikShepashakteH pravaNasya hetuH .. 113.. prasarasya"
         },
         {
-          "number": 327,
+          "number": 329,
           "sanskrit": "प्रज्ञावानपि पण्डितोऽपि चतुरोऽप्यत्यन्तसूक्ष्मात्मदृग्- var सूक्ष्मार्थदृग्",
           "transliteration": "praj~nAvAnapi paNDito.api chaturo.apyatyantasUkShmAtmadR^ig.h\\- ## var ## sUkShmArthadR^ig"
         },
         {
-          "number": 328,
+          "number": 330,
           "sanskrit": "व्यालीढस्तमसा न वेत्ति बहुधा सम्बोधितोऽपि स्फुटम् ।",
           "transliteration": "vyAlIDhastamasA na vetti bahudhA sambodhito.api sphuTam ."
         },
         {
-          "number": 329,
+          "number": 331,
           "sanskrit": "भ्रान्त्यारोपितमेव साधु कलयत्यालम्बते तद्गुणान्",
           "transliteration": "bhrAntyAropitameva sAdhu kalayatyAlambate tad.hguNAn.h"
         },
         {
-          "number": 330,
+          "number": 332,
           "sanskrit": "हन्तासौ प्रबला दुरन्ततमसः शक्तिर्महत्यावृतिः ॥ ११४॥",
           "transliteration": "hantAsau prabalA durantatamasaH shaktirmahatyAvR^itiH .. 114.."
         },
         {
-          "number": 331,
+          "number": 333,
           "sanskrit": "अभावना वा विपरीतभावनाऽ- var विपरीतभावना",
           "transliteration": "abhAvanA vA viparItabhAvanA.a\\- ## var ## viparItabhAvanA"
         },
         {
-          "number": 332,
+          "number": 334,
           "sanskrit": "सम्भावना विप्रतिपत्तिरस्याः ।",
           "transliteration": "sambhAvanA vipratipattirasyAH ."
         },
         {
-          "number": 333,
+          "number": 335,
           "sanskrit": "संसर्गयुक्तं न विमुञ्चति ध्रुवं",
           "transliteration": "sa.nsargayuktaM na vimu~nchati dhruvaM"
         },
         {
-          "number": 334,
+          "number": 336,
           "sanskrit": "विक्षेपशक्तिः क्षपयत्यजस्रम् ॥ ११५॥",
           "transliteration": "vikShepashaktiH kShapayatyajasram .. 115.."
         },
         {
-          "number": 335,
+          "number": 337,
           "sanskrit": "अज्ञानमालस्यजडत्वनिद्रा-",
           "transliteration": "aj~nAnamAlasyajaDatvanidrA\\-"
         },
         {
-          "number": 336,
+          "number": 338,
           "sanskrit": "प्रमादमूढत्वमुखास्तमोगुणाः ।",
           "transliteration": "pramAdamUDhatvamukhAstamoguNAH ."
         },
         {
-          "number": 337,
+          "number": 339,
           "sanskrit": "एतैः प्रयुक्तो न हि वेत्ति किञ्चित्",
           "transliteration": "etaiH prayukto na hi vetti ki~nchit"
         },
         {
-          "number": 338,
+          "number": 340,
           "sanskrit": "निद्रालुवत्स्तम्भवदेव तिष्ठति ॥ ११६॥",
           "transliteration": "nidrAluvatstambhavadeva tiShThati .. 116.."
         },
         {
-          "number": 339,
+          "number": 341,
           "sanskrit": "सत्त्वं विशुद्धं जलवत्तथापि",
           "transliteration": "sattvaM vishud.hdhaM jalavattathApi"
         },
         {
-          "number": 340,
+          "number": 342,
           "sanskrit": "ताभ्यां मिलित्वा सरणाय कल्पते ।",
           "transliteration": "tAbhyAM militvA saraNAya kalpate ."
         },
         {
-          "number": 341,
+          "number": 343,
           "sanskrit": "यत्रात्मबिम्बः प्रतिबिम्बितः सन्",
           "transliteration": "yatrAtmabimbaH pratibimbitaH san.h"
         },
         {
-          "number": 342,
+          "number": 344,
           "sanskrit": "प्रकाशयत्यर्क इवाखिलं जडम् ॥ ११७॥",
           "transliteration": "prakAshayatyarka ivAkhilaM jaDam .. 117.."
         },
         {
-          "number": 343,
+          "number": 345,
           "sanskrit": "मिश्रस्य सत्त्वस्य भवन्ति धर्माः",
           "transliteration": "mishrasya sattvasya bhavanti dharmAH"
         },
         {
-          "number": 344,
+          "number": 346,
           "sanskrit": "त्वमानिताद्या नियमा यमाद्याः ।",
           "transliteration": "tvamAnitAdyA niyamA yamAdyAH ."
         },
         {
-          "number": 345,
+          "number": 347,
           "sanskrit": "श्रद्धा च भक्तिश्च मुमुक्षुता च",
           "transliteration": "shrad.hdhA cha bhaktishcha mumukShutA cha"
         },
         {
-          "number": 346,
+          "number": 348,
           "sanskrit": "दैवी च सम्पत्तिरसन्निवृत्तिः ॥ ११८॥",
           "transliteration": "daivI cha sampattirasannivR^ittiH .. 118.."
         },
         {
-          "number": 347,
+          "number": 349,
           "sanskrit": "विशुद्धसत्त्वस्य गुणाः प्रसादः",
           "transliteration": "vishud.hdhasattvasya guNAH prasAdaH"
         },
         {
-          "number": 348,
+          "number": 350,
           "sanskrit": "स्वात्मानुभूतिः परमा प्रशान्तिः ।",
           "transliteration": "svAtmAnubhUtiH paramA prashAntiH ."
         },
         {
-          "number": 349,
+          "number": 351,
           "sanskrit": "तृप्तिः प्रहर्षः परमात्मनिष्ठा",
           "transliteration": "tR^iptiH praharShaH paramAtmaniShThA"
         },
         {
-          "number": 350,
+          "number": 352,
           "sanskrit": "यया सदानन्दरसं समृच्छति ॥ ११९॥",
           "transliteration": "yayA sadAnandarasaM samR^ichChati .. 119.."
         },
         {
-          "number": 351,
+          "number": 353,
           "sanskrit": "अव्यक्तमेतत्त्रिगुणैर्निरुक्तं",
           "transliteration": "avyaktametattriguNairniruktaM"
         },
         {
-          "number": 352,
+          "number": 354,
           "sanskrit": "तत्कारणं नाम शरीरमात्मनः ।",
           "transliteration": "tatkAraNaM nAma sharIramAtmanaH ."
         },
         {
-          "number": 353,
+          "number": 355,
           "sanskrit": "सुषुप्तिरेतस्य विभक्त्यवस्था",
           "transliteration": "suShuptiretasya vibhaktyavasthA"
         },
         {
-          "number": 354,
+          "number": 356,
           "sanskrit": "प्रलीनसर्वेन्द्रियबुद्धिवृत्तिः ॥ १२०॥",
           "transliteration": "pralInasarvendriyabud.hdhivR^ittiH .. 120.."
         },
         {
-          "number": 355,
+          "number": 357,
           "sanskrit": "सर्वप्रकारप्रमितिप्रशान्तिः",
           "transliteration": "sarvaprakArapramitiprashAntiH"
         },
         {
-          "number": 356,
+          "number": 358,
           "sanskrit": "बीजात्मनावस्थितिरेव बुद्धेः ।",
           "transliteration": "bIjAtmanAvasthitireva bud.hdheH ."
         },
         {
-          "number": 357,
+          "number": 359,
           "sanskrit": "सुषुप्तिरेतस्य किल प्रतीतिः var सुषुप्तिरत्रास्य",
           "transliteration": "suShuptiretasya kila pratItiH ## var ## suShuptiratrAsya"
         },
         {
-          "number": 358,
+          "number": 360,
           "sanskrit": "किञ्चिन्न वेद्मीति जगत्प्रसिद्धेः ॥ १२१॥",
           "transliteration": "ki~nchinna vedmIti jagatprasid.hdheH .. 121.."
         },
         {
-          "number": 359,
+          "number": 361,
           "sanskrit": "देहेन्द्रियप्राणमनोऽहमादयः",
           "transliteration": "dehendriyaprANamano.ahamAdayaH"
         },
         {
-          "number": 360,
+          "number": 362,
           "sanskrit": "सर्वे विकारा विषयाः सुखादयः ।",
           "transliteration": "sarve vikArA viShayAH sukhAdayaH ."
         },
         {
-          "number": 361,
+          "number": 363,
           "sanskrit": "व्योमादिभूतान्यखिलं च विश्वं",
           "transliteration": "vyomAdibhUtAnyakhilaM cha vishvaM"
         },
         {
-          "number": 362,
+          "number": 364,
           "sanskrit": "अव्यक्तपर्यन्तमिदं ह्यनात्मा ॥ १२२॥",
           "transliteration": "avyaktaparyantamidaM hyanAtmA .. 122.."
         },
         {
-          "number": 363,
+          "number": 365,
           "sanskrit": "माया मायाकार्यं सर्वं महदादिदेहपर्यन्तम् ।",
           "transliteration": "mAyA mAyAkAryaM sarvaM mahadAdidehaparyantam ."
         },
         {
-          "number": 364,
+          "number": 366,
           "sanskrit": "असदिदमनात्मतत्त्वं विद्धि त्वं मरुमरीचिकाकल्पम् ॥ १२३॥",
           "transliteration": "asadidamanAtmatattvaM vid.hdhi tvaM marumarIchikAkalpam .. 123.."
         },
         {
-          "number": 365,
+          "number": 367,
           "sanskrit": "अथ ते सम्प्रवक्ष्यामि स्वरूपं परमात्मनः ।",
           "transliteration": "atha te sampravakShyAmi svarUpaM paramAtmanaH ."
         },
         {
-          "number": 366,
+          "number": 368,
           "sanskrit": "यद्विज्ञाय नरो बन्धान्मुक्तः कैवल्यमश्नुते ॥ १२४॥",
           "transliteration": "yadvij~nAya naro bandhAnmuktaH kaivalyamashnute .. 124.."
         },
         {
-          "number": 367,
+          "number": 369,
           "sanskrit": "अस्ति कश्चित्स्वयं नित्यमहम्प्रत्ययलम्बनः ।",
           "transliteration": "asti kashchitsvayaM nityamahampratyayalambanaH ."
         },
         {
-          "number": 368,
+          "number": 370,
           "sanskrit": "अवस्थात्रयसाक्षी सन्पञ्चकोशविलक्षणः ॥ १२५॥",
           "transliteration": "avasthAtrayasAkShI sanpa~nchakoshavilakShaNaH .. 125.."
         },
         {
-          "number": 369,
+          "number": 371,
           "sanskrit": "यो विजानाति सकलं जाग्रत्स्वप्नसुषुप्तिषु ।",
           "transliteration": "yo vijAnAti sakalaM jAgratsvapnasuShuptiShu ."
         },
         {
-          "number": 370,
+          "number": 372,
           "sanskrit": "बुद्धितद्वृत्तिसद्भावमभावमहमित्ययम् ॥ १२६॥",
           "transliteration": "bud.hdhitad.hvR^ittisad.hbhAvamabhAvamahamityayam .. 126.."
         },
         {
-          "number": 371,
+          "number": 373,
           "sanskrit": "यः पश्यति स्वयं सर्वं यं न पश्यति कश्चन । किञ्चन",
           "transliteration": "yaH pashyati svayaM sarvaM yaM na pashyati kashchana . ki~nchana"
         },
         {
-          "number": 372,
+          "number": 374,
           "sanskrit": "यश्चेतयति बुद्ध्यादि न तद्यं चेतयत्ययम् ॥ १२७॥",
           "transliteration": "yashchetayati bud.hdhyAdi na tadyaM chetayatyayam .. 127.."
         },
         {
-          "number": 373,
+          "number": 375,
           "sanskrit": "येन विश्वमिदं व्याप्तं यं न व्याप्नोति किञ्चन ।",
           "transliteration": "yena vishvamidaM vyAptaM yaM na vyApnoti ki~nchana ."
         },
         {
-          "number": 374,
+          "number": 376,
           "sanskrit": "आभारूपमिदं सर्वं यं भान्तमनुभात्ययम् ॥ १२८॥",
           "transliteration": "AbhArUpamidaM sarvaM yaM bhAntamanubhAtyayam .. 128.."
         },
         {
-          "number": 375,
+          "number": 377,
           "sanskrit": "यस्य सन्निधिमात्रेण देहेन्द्रियमनोधियः ।",
           "transliteration": "yasya sannidhimAtreNa dehendriyamanodhiyaH ."
         },
         {
-          "number": 376,
+          "number": 378,
           "sanskrit": "विषयेषु स्वकीयेषु वर्तन्ते प्रेरिता इव ॥ १२९॥",
           "transliteration": "viShayeShu svakIyeShu vartante preritA iva .. 129.."
         },
         {
-          "number": 377,
+          "number": 379,
           "sanskrit": "अहङ्कारादिदेहान्ता विषयाश्च सुखादयः ।",
           "transliteration": "aha~NkArAdidehAntA viShayAshcha sukhAdayaH ."
         },
         {
-          "number": 378,
+          "number": 380,
           "sanskrit": "वेद्यन्ते घटवद्येन नित्यबोधस्वरूपिणा ॥ १३०॥",
           "transliteration": "vedyante ghaTavadyena nityabodhasvarUpiNA .. 130.."
         },
         {
-          "number": 379,
+          "number": 381,
           "sanskrit": "एषोऽन्तरात्मा पुरुषः पुराणो",
           "transliteration": "eSho.antarAtmA puruShaH purANo"
         },
         {
-          "number": 380,
+          "number": 382,
           "sanskrit": "निरन्तराखण्डसुखानुभूतिः ।",
           "transliteration": "nirantarAkhaNDasukhAnubhUtiH ."
         },
         {
-          "number": 381,
+          "number": 383,
           "sanskrit": "सदैकरूपः प्रतिबोधमात्रो",
           "transliteration": "sadaikarUpaH pratibodhamAtro"
         },
         {
-          "number": 382,
+          "number": 384,
           "sanskrit": "येनेषिता वागसवश्चरन्ति ॥ १३१॥",
           "transliteration": "yeneShitA vAgasavashcharanti .. 131.."
         },
         {
-          "number": 383,
+          "number": 385,
           "sanskrit": "अत्रैव सत्त्वात्मनि धीगुहायां",
           "transliteration": "atraiva sattvAtmani dhIguhAyAM"
         },
         {
-          "number": 384,
+          "number": 386,
           "sanskrit": "अव्याकृताकाश उशत्प्रकाशः । उरुप्रकाशः",
           "transliteration": "avyAkR^itAkAsha ushatprakAshaH . uruprakAshaH"
         },
         {
-          "number": 385,
+          "number": 387,
           "sanskrit": "आकाश उच्चै रविवत्प्रकाशते",
           "transliteration": "AkAsha uchchai ravivatprakAshate"
         },
         {
-          "number": 386,
+          "number": 388,
           "sanskrit": "स्वतेजसा विश्वमिदं प्रकाशयन् ॥ १३२॥",
           "transliteration": "svatejasA vishvamidaM prakAshayan .. 132.."
         },
         {
-          "number": 387,
+          "number": 389,
           "sanskrit": "ज्ञाता मनोऽहङ्कृतिविक्रियाणां",
           "transliteration": "j~nAtA mano.aha~NkR^itivikriyANAM"
         },
         {
-          "number": 388,
+          "number": 390,
           "sanskrit": "देहेन्द्रियप्राणकृतक्रियाणाम् ।",
           "transliteration": "dehendriyaprANakR^itakriyANAm ."
         },
         {
-          "number": 389,
+          "number": 391,
           "sanskrit": "अयोऽग्निवत्ताननुवर्तमानो",
           "transliteration": "ayo.agnivattAnanuvartamAno"
         },
         {
-          "number": 390,
+          "number": 392,
           "sanskrit": "न चेष्टते नो विकरोति किञ्चन ॥ १३३॥",
           "transliteration": "na cheShTate no vikaroti ki~nchana .. 133.."
         },
         {
-          "number": 391,
+          "number": 393,
           "sanskrit": "न जायते नो म्रियते न वर्धते",
           "transliteration": "na jAyate no mriyate na vardhate"
         },
         {
-          "number": 392,
+          "number": 394,
           "sanskrit": "न क्षीयते नो विकरोति नित्यः ।",
           "transliteration": "na kShIyate no vikaroti nityaH ."
         },
         {
-          "number": 393,
+          "number": 395,
           "sanskrit": "विलीयमानेऽपि वपुष्यमुष्मि-",
           "transliteration": "vilIyamAne.api vapuShyamuShmi\\-"
         },
         {
-          "number": 394,
+          "number": 396,
           "sanskrit": "न्न लीयते कुम्भ इवाम्बरं स्वयम् ॥ १३४॥",
           "transliteration": "nna lIyate kumbha ivAmbaraM svayam .. 134.."
         },
         {
-          "number": 395,
+          "number": 397,
           "sanskrit": "प्रकृतिविकृतिभिन्नः शुद्धबोधस्वभावः",
           "transliteration": "prakR^itivikR^itibhinnaH shud.hdhabodhasvabhAvaH"
         },
         {
-          "number": 396,
+          "number": 398,
           "sanskrit": "सदसदिदमशेषं भासयन्निर्विशेषः ।",
           "transliteration": "sadasadidamasheShaM bhAsayannirvisheShaH ."
         },
         {
-          "number": 397,
+          "number": 399,
           "sanskrit": "विलसति परमात्मा जाग्रदादिष्ववस्था-",
           "transliteration": "vilasati paramAtmA jAgradAdiShvavasthA\\-"
         },
         {
-          "number": 398,
+          "number": 400,
           "sanskrit": "स्वहमहमिति साक्षात्साक्षिरूपेण बुद्धेः ॥ १३५॥",
           "transliteration": "svahamahamiti sAkShAtsAkShirUpeNa bud.hdheH .. 135.."
         },
         {
-          "number": 399,
+          "number": 401,
           "sanskrit": "नियमितमनसामुं त्वं स्वमात्मानमात्म-",
           "transliteration": "niyamitamanasAmuM tvaM svamAtmAnamAtma\\-"
         },
         {
-          "number": 400,
+          "number": 402,
           "sanskrit": "न्ययमहमिति साक्षाद्विद्धि बुद्धिप्रसादात् ।",
           "transliteration": "nyayamahamiti sAkShAdvid.hdhi bud.hdhiprasAdAt ."
         },
         {
-          "number": 401,
+          "number": 403,
           "sanskrit": "जनिमरणतरङ्गापारसंसारसिन्धुं",
           "transliteration": "janimaraNatara~NgApArasa.nsArasindhuM"
         },
         {
-          "number": 402,
+          "number": 404,
           "sanskrit": "प्रतर भव कृतार्थो ब्रह्मरूपेण संस्थः ॥ १३६॥",
           "transliteration": "pratara bhava kR^itArtho brahmarUpeNa sa.nsthaH .. 136.."
         },
         {
-          "number": 403,
+          "number": 405,
           "sanskrit": "अत्रानात्मन्यहमिति मतिर्बन्ध एषोऽस्य पुंसः",
           "transliteration": "atrAnAtmanyahamiti matirbandha eSho.asya puMsaH"
         },
         {
-          "number": 404,
+          "number": 406,
           "sanskrit": "प्राप्तोऽज्ञानाज्जननमरणक्लेशसम्पातहेतुः ।",
           "transliteration": "prApto.aj~nAnAjjananamaraNakleshasampAtahetuH ."
         },
         {
-          "number": 405,
+          "number": 407,
           "sanskrit": "येनैवायं वपुरिदमसत्सत्यमित्यात्मबुद्ध्या",
           "transliteration": "yenaivAyaM vapuridamasatsatyamityAtmabud.hdhyA"
         },
         {
-          "number": 406,
+          "number": 408,
           "sanskrit": "पुष्यत्युक्षत्यवति विषयैस्तन्तुभिः कोशकृद्वत् ॥ १३७॥",
           "transliteration": "puShyatyukShatyavati viShayaistantubhiH koshakR^idvat .. 137.."
         },
         {
-          "number": 407,
+          "number": 409,
           "sanskrit": "अतस्मिंस्तद्बुद्धिः प्रभवति विमूढस्य तमसा",
           "transliteration": "atasmi.nstad.hbud.hdhiH prabhavati vimUDhasya tamasA"
         },
         {
-          "number": 408,
+          "number": 410,
           "sanskrit": "विवेकाभावाद्वै स्फुरति भुजगे रज्जुधिषणा ।",
           "transliteration": "vivekAbhAvAdvai sphurati bhujage rajjudhiShaNA ."
         },
         {
-          "number": 409,
+          "number": 411,
           "sanskrit": "ततोऽनर्थव्रातो निपतति समादातुरधिकः",
           "transliteration": "tato.anarthavrAto nipatati samAdAturadhikaH"
         },
         {
-          "number": 410,
+          "number": 412,
           "sanskrit": "ततो योऽसद्ग्राहः स हि भवति बन्धः शृणु सखे ॥ १३८॥",
           "transliteration": "tato yo.asad.hgrAhaH sa hi bhavati bandhaH shR^iNu sakhe .. 138.."
         },
         {
-          "number": 411,
+          "number": 413,
           "sanskrit": "अखण्डनित्याद्वयबोधशक्त्या",
           "transliteration": "akhaNDanityAdvayabodhashaktyA"
         },
         {
-          "number": 412,
+          "number": 414,
           "sanskrit": "स्फुरन्तमात्मानमनन्तवैभवम् ।",
           "transliteration": "sphurantamAtmAnamanantavaibhavam ."
         },
         {
-          "number": 413,
+          "number": 415,
           "sanskrit": "समावृणोत्यावृतिशक्तिरेषा",
           "transliteration": "samAvR^iNotyAvR^itishaktireShA"
         },
         {
-          "number": 414,
+          "number": 416,
           "sanskrit": "तमोमयी राहुरिवार्कबिम्बम् ॥ १३९॥",
           "transliteration": "tamomayI rAhurivArkabimbam .. 139.."
         },
         {
-          "number": 415,
+          "number": 417,
           "sanskrit": "तिरोभूते स्वात्मन्यमलतरतेजोवति पुमान्",
           "transliteration": "tirobhUte svAtmanyamalataratejovati pumAn.h"
         },
         {
-          "number": 416,
+          "number": 418,
           "sanskrit": "अनात्मानं मोहादहमिति शरीरं कलयति ।",
           "transliteration": "anAtmAnaM mohAdahamiti sharIraM kalayati ."
         },
         {
-          "number": 417,
+          "number": 419,
           "sanskrit": "ततः कामक्रोधप्रभृतिभिरमुं बन्धनगुणैः var बन्धकगुणैः",
           "transliteration": "tataH kAmakrodhaprabhR^itibhiramuM bandhanaguNaiH ## var ## bandhakaguNaiH"
         },
         {
-          "number": 418,
+          "number": 420,
           "sanskrit": "परं विक्षेपाख्या रजस उरुशक्तिर्व्यथयति ॥ १४०॥",
           "transliteration": "paraM vikShepAkhyA rajasa urushaktirvyathayati .. 140.."
         },
         {
-          "number": 419,
+          "number": 421,
           "sanskrit": "महामोहग्राहग्रसनगलितात्मावगमनो",
           "transliteration": "mahAmohagrAhagrasanagalitAtmAvagamano"
         },
         {
-          "number": 420,
+          "number": 422,
           "sanskrit": "धियो नानावस्थां स्वयमभिनयंस्तद्गुणतया । नानावस्थाः",
           "transliteration": "dhiyo nAnAvasthAM svayamabhinayaMstad.hguNatayA . nAnAvasthAH"
         },
         {
-          "number": 421,
+          "number": 423,
           "sanskrit": "अपारे संसारे विषयविषपूरे जलनिधौ",
           "transliteration": "apAre sa.nsAre viShayaviShapUre jalanidhau"
         },
         {
-          "number": 422,
+          "number": 424,
           "sanskrit": "निमज्योन्मज्यायं भ्रमति कुमतिः कुत्सितगतिः ॥ १४१॥",
           "transliteration": "nimajyonmajyAyaM bhramati kumatiH kutsitagatiH .. 141.."
         },
         {
-          "number": 423,
+          "number": 425,
           "sanskrit": "भानुप्रभासञ्जनिताभ्रपङ्क्तिः",
           "transliteration": "bhAnuprabhAsa~njanitAbhrapa~N.hktiH"
         },
         {
-          "number": 424,
+          "number": 426,
           "sanskrit": "भानुं तिरोधाय विजृम्भते यथा ।",
           "transliteration": "bhAnuM tirodhAya vijR^imbhate yathA ."
         },
         {
-          "number": 425,
+          "number": 427,
           "sanskrit": "आत्मोदिताहङ्कृतिरात्मतत्त्वं",
           "transliteration": "AtmoditAha~NkR^itirAtmatattvaM"
         },
         {
-          "number": 426,
+          "number": 428,
           "sanskrit": "तथा तिरोधाय विजृम्भते स्वयम् ॥ १४२॥",
           "transliteration": "tathA tirodhAya vijR^imbhate svayam .. 142.."
         },
         {
-          "number": 427,
+          "number": 429,
           "sanskrit": "कवलितदिननाथे दुर्दिने सान्द्रमेघैः",
           "transliteration": "kavalitadinanAthe durdine sAndrameghaiH"
         },
         {
-          "number": 428,
+          "number": 430,
           "sanskrit": "व्यथयति हिमझञ्झावायुरुग्रो यथैतान् ।",
           "transliteration": "vyathayati himajha~njhAvAyurugro yathaitAn ."
         },
         {
-          "number": 429,
+          "number": 431,
           "sanskrit": "अविरततमसाऽऽत्मन्यावृते मूढबुद्धिं",
           "transliteration": "aviratatamasA.a.atmanyAvR^ite mUDhabud.hdhiM"
         },
         {
-          "number": 430,
+          "number": 432,
           "sanskrit": "क्षपयति बहुदुःखैस्तीव्रविक्षेपशक्तिः ॥ १४३॥",
           "transliteration": "kShapayati bahuduHkhaistIvravikShepashaktiH .. 143.."
         },
         {
-          "number": 431,
+          "number": 433,
           "sanskrit": "एताभ्यामेव शक्तिभ्यां बन्धः पुंसः समागतः ।",
           "transliteration": "etAbhyAmeva shaktibhyAM bandhaH puMsaH samAgataH ."
         },
         {
-          "number": 432,
+          "number": 434,
           "sanskrit": "याभ्यां विमोहितो देहं मत्वाऽऽत्मानं भ्रमत्ययम् ॥ १४४॥",
           "transliteration": "yAbhyAM vimohito dehaM matvA.a.atmAnaM bhramatyayam .. 144.."
         },
         {
-          "number": 433,
+          "number": 435,
           "sanskrit": "बीजं संसृतिभूमिजस्य तु तमो देहात्मधीरङ्कुरो",
           "transliteration": "bIjaM sa.nsR^itibhUmijasya tu tamo dehAtmadhIra~Nkuro"
         },
         {
-          "number": 434,
+          "number": 436,
           "sanskrit": "रागः पल्लवमम्बु कर्म तु वपुः स्कन्धोऽसवः शाखिकाः ।",
           "transliteration": "rAgaH pallavamambu karma tu vapuH skandho.asavaH shAkhikAH ."
         },
         {
-          "number": 435,
+          "number": 437,
           "sanskrit": "अग्राणीन्द्रियसंहतिश्च विषयाः पुष्पाणि दुःखं फलं",
           "transliteration": "agrANIndriyasa.nhatishcha viShayAH puShpANi duHkhaM phalaM"
         },
         {
-          "number": 436,
+          "number": 438,
           "sanskrit": "नानाकर्मसमुद्भवं बहुविधं भोक्तात्र जीवः खगः ॥ १४५॥",
           "transliteration": "nAnAkarmasamud.hbhavaM bahuvidhaM bhoktAtra jIvaH khagaH .. 145.."
         },
         {
-          "number": 437,
+          "number": 439,
           "sanskrit": "अज्ञानमूलोऽयमनात्मबन्धो",
           "transliteration": "aj~nAnamUlo.ayamanAtmabandho"
         },
         {
-          "number": 438,
+          "number": 440,
           "sanskrit": "नैसर्गिकोऽनादिरनन्त ईरितः ।",
           "transliteration": "naisargiko.anAdirananta IritaH ."
         },
         {
-          "number": 439,
+          "number": 441,
           "sanskrit": "जन्माप्ययव्याधिजरादिदुःख-",
           "transliteration": "janmApyayavyAdhijarAdiduHkha\\-"
         },
         {
-          "number": 440,
+          "number": 442,
           "sanskrit": "प्रवाहपातं जनयत्यमुष्य ॥ १४६॥",
           "transliteration": "pravAhapAtaM janayatyamuShya .. 146.."
         },
         {
-          "number": 441,
+          "number": 443,
           "sanskrit": "नास्त्रैर्न शस्त्रैरनिलेन वह्निना",
           "transliteration": "nAstrairna shastrairanilena vahninA"
         },
         {
-          "number": 442,
+          "number": 444,
           "sanskrit": "छेत्तुं न शक्यो न च कर्मकोटिभिः ।",
           "transliteration": "ChettuM na shakyo na cha karmakoTibhiH ."
         },
         {
-          "number": 443,
+          "number": 445,
           "sanskrit": "विवेकविज्ञानमहासिना विना",
           "transliteration": "vivekavij~nAnamahAsinA vinA"
         },
         {
-          "number": 444,
+          "number": 446,
           "sanskrit": "धातुः प्रसादेन शितेन मञ्जुना ॥ १४७॥",
           "transliteration": "dhAtuH prasAdena shitena ma~njunA .. 147.."
         },
         {
-          "number": 445,
+          "number": 447,
           "sanskrit": "श्रुतिप्रमाणैकमतेः स्वधर्म",
           "transliteration": "shrutipramANaikamateH svadharma"
         },
         {
-          "number": 446,
+          "number": 448,
           "sanskrit": "निष्ठा तयैवात्मविशुद्धिरस्य ।",
           "transliteration": "niShThA tayaivAtmavishud.hdhirasya ."
         },
         {
-          "number": 447,
+          "number": 449,
           "sanskrit": "विशुद्धबुद्धेः परमात्मवेदनं",
           "transliteration": "vishud.hdhabud.hdheH paramAtmavedanaM"
         },
         {
-          "number": 448,
+          "number": 450,
           "sanskrit": "तेनैव संसारसमूलनाशः ॥ १४८॥",
           "transliteration": "tenaiva sa.nsArasamUlanAshaH .. 148.."
         },
         {
-          "number": 449,
+          "number": 451,
           "sanskrit": "कोशैरन्नमयाद्यैः पञ्चभिरात्मा न संवृतो भाति ।",
           "transliteration": "koshairannamayAdyaiH pa~nchabhirAtmA na sa.nvR^ito bhAti ."
         },
         {
-          "number": 450,
+          "number": 452,
           "sanskrit": "निजशक्तिसमुत्पन्नैः शैवालपटलैरिवाम्बु वापीस्थम् ॥ १४९॥",
           "transliteration": "nijashaktisamutpannaiH shaivAlapaTalairivAmbu vApIstham .. 149.."
         },
         {
-          "number": 451,
+          "number": 453,
           "sanskrit": "तच्छैवालापनये सम्यक् सलिलं प्रतीयते शुद्धम् ।",
           "transliteration": "tachChaivAlApanaye samyak salilaM pratIyate shud.hdham ."
         },
         {
-          "number": 452,
+          "number": 454,
           "sanskrit": "तृष्णासन्तापहरं सद्यः सौख्यप्रदं परं पुंसः ॥ १५०॥",
           "transliteration": "tR^iShNAsantApaharaM sadyaH saukhyapradaM paraM puMsaH .. 150.."
         },
         {
-          "number": 453,
+          "number": 455,
           "sanskrit": "पञ्चानामपि कोशानामपवादे विभात्ययं शुद्धः ।",
           "transliteration": "pa~nchAnAmapi koshAnAmapavAde vibhAtyayaM shud.hdhaH ."
         },
         {
-          "number": 454,
+          "number": 456,
           "sanskrit": "नित्यानन्दैकरसः प्रत्यग्रूपः परः स्वयञ्ज्योतिः ॥ १५१॥",
           "transliteration": "nityAnandaikarasaH pratyagrUpaH paraH svaya~njyotiH .. 151.."
         },
         {
-          "number": 455,
+          "number": 457,
           "sanskrit": "आत्मानात्मविवेकः कर्तव्यो बन्धमुक्तये विदुषा ।",
           "transliteration": "AtmAnAtmavivekaH kartavyo bandhamuktaye viduShA ."
         },
         {
-          "number": 456,
+          "number": 458,
           "sanskrit": "तेनैवानन्दी भवति स्वं विज्ञाय सच्चिदानन्दम् ॥ १५२॥",
           "transliteration": "tenaivAnandI bhavati svaM vij~nAya sachchidAnandam .. 152.."
         },
         {
-          "number": 457,
+          "number": 459,
           "sanskrit": "मुञ्जादिषीकामिव दृश्यवर्गात्",
           "transliteration": "mu~njAdiShIkAmiva dR^ishyavargAt.h"
         },
         {
-          "number": 458,
+          "number": 460,
           "sanskrit": "प्रत्यञ्चमात्मानमसङ्गमक्रियम् ।",
           "transliteration": "pratya~nchamAtmAnamasa~Ngamakriyam ."
         },
         {
-          "number": 459,
+          "number": 461,
           "sanskrit": "विविच्य तत्र प्रविलाप्य सर्वं",
           "transliteration": "vivichya tatra pravilApya sarvaM"
         },
         {
-          "number": 460,
+          "number": 462,
           "sanskrit": "तदात्मना तिष्ठति यः स मुक्तः ॥ १५३॥",
           "transliteration": "tadAtmanA tiShThati yaH sa muktaH .. 153.."
         },
         {
-          "number": 461,
+          "number": 463,
           "sanskrit": "देहोऽयमन्नभवनोऽन्नमयस्तु कोश- var कोशो",
           "transliteration": "deho.ayamannabhavano.annamayastu kosha\\- ## var ## kosho"
         },
         {
-          "number": 462,
+          "number": 464,
           "sanskrit": "श्चान्नेन जीवति विनश्यति तद्विहीनः । ह्यन्नेन",
           "transliteration": "shchAnnena jIvati vinashyati tadvihInaH . hyannena"
         },
         {
-          "number": 463,
+          "number": 465,
           "sanskrit": "त्वक्चर्ममांसरुधिरास्थिपुरीषराशि-",
           "transliteration": "tvak.hcharmamA.nsarudhirAsthipurISharAshi\\-"
         },
         {
-          "number": 464,
+          "number": 466,
           "sanskrit": "र्नायं स्वयं भवितुमर्हति नित्यशुद्धः ॥ १५४॥",
           "transliteration": "rnAyaM svayaM bhavitumarhati nityashud.hdhaH .. 154.."
         },
         {
-          "number": 465,
+          "number": 467,
           "sanskrit": "पूर्वं जनेरधिमृतेरपि नायमस्ति var जनेरपिमृतेरथ",
           "transliteration": "pUrvaM janeradhimR^iterapi nAyamasti ## var ## janerapimR^iteratha"
         },
         {
-          "number": 466,
+          "number": 468,
           "sanskrit": "जातक्षणः क्षणगुणोऽनियतस्वभावः ।",
           "transliteration": "jAtakShaNaH kShaNaguNo.aniyatasvabhAvaH ."
         },
         {
-          "number": 467,
+          "number": 469,
           "sanskrit": "नैको जडश्च घटवत्परिदृश्यमानः",
           "transliteration": "naiko jaDashcha ghaTavatparidR^ishyamAnaH"
         },
         {
-          "number": 468,
+          "number": 470,
           "sanskrit": "स्वात्मा कथं भवति भावविकारवेत्ता ॥ १५५॥",
           "transliteration": "svAtmA kathaM bhavati bhAvavikAravettA .. 155.."
         },
         {
-          "number": 469,
+          "number": 471,
           "sanskrit": "पाणिपादादिमान्देहो नात्मा व्यङ्गेऽपि जीवनात् ।",
           "transliteration": "pANipAdAdimAndeho nAtmA vya~Nge.api jIvanAt ."
         },
         {
-          "number": 470,
+          "number": 472,
           "sanskrit": "तत्तच्छक्तेरनाशाच्च न नियम्यो नियामकः ॥ १५६॥",
           "transliteration": "tattachChakteranAshAchcha na niyamyo niyAmakaH .. 156.."
         },
         {
-          "number": 471,
+          "number": 473,
           "sanskrit": "देहतद्धर्मतत्कर्मतदवस्थादिसाक्षिणः ।",
           "transliteration": "dehatad.hdharmatatkarmatadavasthAdisAkShiNaH ."
         },
         {
-          "number": 472,
+          "number": 474,
           "sanskrit": "सत एव स्वतःसिद्धं तद्वैलक्षण्यमात्मनः ॥ १५७॥",
           "transliteration": "sata eva svataHsid.hdhaM tadvailakShaNyamAtmanaH .. 157.."
         },
         {
-          "number": 473,
+          "number": 475,
           "sanskrit": "शल्यराशिर्मांसलिप्तो मलपूर्णोऽतिकश्मलः ।",
           "transliteration": "shalyarAshirmAMsalipto malapUrNo.atikashmalaH ."
         },
         {
-          "number": 474,
+          "number": 476,
           "sanskrit": "कथं भवेदयं वेत्ता स्वयमेतद्विलक्षणः ॥ १५८॥",
           "transliteration": "kathaM bhavedayaM vettA svayametadvilakShaNaH .. 158.."
         },
         {
-          "number": 475,
+          "number": 477,
           "sanskrit": "त्वङ्मांसमेदोऽस्थिपुरीषराशा-",
           "transliteration": "tva~N.hmA.nsamedo.asthipurISharAshA\\-"
         },
         {
-          "number": 476,
+          "number": 478,
           "sanskrit": "वहम्मतिं मूढजनः करोति ।",
           "transliteration": "vahammatiM mUDhajanaH karoti ."
         },
         {
-          "number": 477,
+          "number": 479,
           "sanskrit": "विलक्षणं वेत्ति विचारशीलो",
           "transliteration": "vilakShaNaM vetti vichArashIlo"
         },
         {
-          "number": 478,
+          "number": 480,
           "sanskrit": "निजस्वरूपं परमार्थभूतम् ॥ १५९॥",
           "transliteration": "nijasvarUpaM paramArthabhUtam .. 159.."
         },
         {
-          "number": 479,
+          "number": 481,
           "sanskrit": "देहोऽहमित्येव जडस्य बुद्धिः",
           "transliteration": "deho.ahamityeva jaDasya bud.hdhiH"
         },
         {
-          "number": 480,
+          "number": 482,
           "sanskrit": "देहे च जीवे विदुषस्त्वहन्धीः ।",
           "transliteration": "dehe cha jIve viduShastvahandhIH ."
         },
         {
-          "number": 481,
+          "number": 483,
           "sanskrit": "विवेकविज्ञानवतो महात्मनो",
           "transliteration": "vivekavij~nAnavato mahAtmano"
         },
         {
-          "number": 482,
+          "number": 484,
           "sanskrit": "ब्रह्माहमित्येव मतिः सदात्मनि ॥ १६०॥",
           "transliteration": "brahmAhamityeva matiH sadAtmani .. 160.."
         },
         {
-          "number": 483,
+          "number": 485,
           "sanskrit": "अत्रात्मबुद्धिं त्यज मूढबुद्धे",
           "transliteration": "atrAtmabud.hdhiM tyaja mUDhabud.hdhe"
         },
         {
-          "number": 484,
+          "number": 486,
           "sanskrit": "त्वङ्मांसमेदोऽस्थिपुरीषराशौ ।",
           "transliteration": "tva~N.hmA.nsamedo.asthipurISharAshau ."
         },
         {
-          "number": 485,
+          "number": 487,
           "sanskrit": "सर्वात्मनि ब्रह्मणि निर्विकल्पे",
           "transliteration": "sarvAtmani brahmaNi nirvikalpe"
         },
         {
-          "number": 486,
+          "number": 488,
           "sanskrit": "कुरुष्व शान्तिं परमां भजस्व ॥ १६१॥",
           "transliteration": "kuruShva shAntiM paramAM bhajasva .. 161.."
         },
         {
-          "number": 487,
+          "number": 489,
           "sanskrit": "देहेन्द्रियादावसति भ्रमोदितां",
           "transliteration": "dehendriyAdAvasati bhramoditAM"
         },
         {
-          "number": 488,
+          "number": 490,
           "sanskrit": "विद्वानहन्तां न जहाति यावत् ।",
           "transliteration": "vidvAnahantAM na jahAti yAvat ."
         },
         {
-          "number": 489,
+          "number": 491,
           "sanskrit": "तावन्न तस्यास्ति विमुक्तिवार्ता-",
           "transliteration": "tAvanna tasyAsti vimuktivArtA\\-"
         },
         {
-          "number": 490,
+          "number": 492,
           "sanskrit": "प्यस्त्वेष वेदान्तनयान्तदर्शी ॥ १६२॥",
           "transliteration": "pyastveSha vedAntanayAntadarshI .. 162.."
         },
         {
-          "number": 491,
+          "number": 493,
           "sanskrit": "छायाशरीरे प्रतिबिम्बगात्रे",
           "transliteration": "ChAyAsharIre pratibimbagAtre"
         },
         {
-          "number": 492,
+          "number": 494,
           "sanskrit": "यत्स्वप्नदेहे हृदि कल्पिताङ्गे ।",
           "transliteration": "yatsvapnadehe hR^idi kalpitA~Nge ."
         },
         {
-          "number": 493,
+          "number": 495,
           "sanskrit": "यथात्मबुद्धिस्तव नास्ति काचि-",
           "transliteration": "yathAtmabud.hdhistava nAsti kAchi\\-"
         },
         {
-          "number": 494,
+          "number": 496,
           "sanskrit": "ज्जीवच्छरीरे च तथैव माऽस्तु ॥ १६३॥",
           "transliteration": "jjIvachCharIre cha tathaiva mA.astu .. 163.."
         },
         {
-          "number": 495,
+          "number": 497,
           "sanskrit": "देहात्मधीरेव नृणामसद्धियां",
           "transliteration": "dehAtmadhIreva nR^iNAmasad.hdhiyAM"
         },
         {
-          "number": 496,
+          "number": 498,
           "sanskrit": "जन्मादिदुःखप्रभवस्य बीजम् ।",
           "transliteration": "janmAdiduHkhaprabhavasya bIjam ."
         },
         {
-          "number": 497,
+          "number": 499,
           "sanskrit": "यतस्ततस्त्वं जहि तां प्रयत्नात्",
           "transliteration": "yatastatastvaM jahi tAM prayatnAt.h"
         },
         {
-          "number": 498,
+          "number": 500,
           "sanskrit": "त्यक्ते तु चित्ते न पुनर्भवाशा ॥ १६४॥",
           "transliteration": "tyakte tu chitte na punarbhavAshA .. 164.."
         },
         {
-          "number": 499,
+          "number": 501,
           "sanskrit": "कर्मेन्द्रियैः पञ्चभिरञ्चितोऽयं",
           "transliteration": "karmendriyaiH pa~nchabhira~nchito.ayaM"
         },
         {
-          "number": 500,
+          "number": 502,
           "sanskrit": "प्राणो भवेत्प्राणमयस्तु कोशः ॥",
           "transliteration": "prANo bhavetprANamayastu koshaH .."
         },
         {
-          "number": 501,
+          "number": 503,
           "sanskrit": "येनात्मवानन्नमयोऽनुपूर्णः",
           "transliteration": "yenAtmavAnannamayo.anupUrNaH"
         },
         {
-          "number": 502,
+          "number": 504,
           "sanskrit": "प्रवर्ततेऽसौ सकलक्रियासु ॥ १६५॥",
           "transliteration": "pravartate.asau sakalakriyAsu .. 165.."
         },
         {
-          "number": 503,
+          "number": 505,
           "sanskrit": "नैवात्मापि प्राणमयो वायुविकारो var नैवात्मायं",
           "transliteration": "naivAtmApi prANamayo vAyuvikAro ## var ## naivAtmAyaM"
         },
         {
-          "number": 504,
+          "number": 506,
           "sanskrit": "गन्ताऽऽगन्ता वायुवदन्तर्बहिरेषः ।",
           "transliteration": "gantA.a.agantA vAyuvadantarbahireShaH ."
         },
         {
-          "number": 505,
+          "number": 507,
           "sanskrit": "यस्मात्किञ्चित्क्वापि न वेत्तीष्टमनिष्टं",
           "transliteration": "yasmAtki~nchitkvApi na vettIShTamaniShTaM"
         },
         {
-          "number": 506,
+          "number": 508,
           "sanskrit": "स्वं वान्यं वा किञ्चन नित्यं परतन्त्रः ॥ १६६॥",
           "transliteration": "svaM vAnyaM vA ki~nchana nityaM paratantraH .. 166.."
         },
         {
-          "number": 507,
+          "number": 509,
           "sanskrit": "ज्ञानेन्द्रियाणि च मनश्च मनोमयः स्यात्",
           "transliteration": "j~nAnendriyANi cha manashcha manomayaH syAt.h"
         },
         {
-          "number": 508,
+          "number": 510,
           "sanskrit": "कोशो ममाहमिति वस्तुविकल्पहेतुः ।",
           "transliteration": "kosho mamAhamiti vastuvikalpahetuH ."
         },
         {
-          "number": 509,
+          "number": 511,
           "sanskrit": "संज्ञादिभेदकलनाकलितो बलीयां-",
           "transliteration": "saMj~nAdibhedakalanAkalito balIyAM\\-"
         },
         {
-          "number": 510,
+          "number": 512,
           "sanskrit": "स्तत्पूर्वकोशमभिपूर्य विजृम्भते यः ॥ १६७॥ अनुपूर्य",
           "transliteration": "statpUrvakoshamabhipUrya vijR^imbhate yaH .. 167.. anupUrya"
         },
         {
-          "number": 511,
+          "number": 513,
           "sanskrit": "पञ्चेन्द्रियैः पञ्चभिरेव होतृभिः",
           "transliteration": "pa~nchendriyaiH pa~nchabhireva hotR^ibhiH"
         },
         {
-          "number": 512,
+          "number": 514,
           "sanskrit": "प्रचीयमानो विषयाज्यधारया ।",
           "transliteration": "prachIyamAno viShayAjyadhArayA ."
         },
         {
-          "number": 513,
+          "number": 515,
           "sanskrit": "जाज्वल्यमानो बहुवासनेन्धनैः",
           "transliteration": "jAjvalyamAno bahuvAsanendhanaiH"
         },
         {
-          "number": 514,
+          "number": 516,
           "sanskrit": "मनोमयाग्निर्दहति प्रपञ्चम् ॥ १६८॥ मनोमयोऽग्निर्दहति",
           "transliteration": "manomayAgnirdahati prapa~ncham .. 168.. manomayo.agnirdahati"
         },
         {
-          "number": 515,
+          "number": 517,
           "sanskrit": "न ह्यस्त्यविद्या मनसोऽतिरिक्ता",
           "transliteration": "na hyastyavidyA manaso.atiriktA"
         },
         {
-          "number": 516,
+          "number": 518,
           "sanskrit": "मनो ह्यविद्या भवबन्धहेतुः ।",
           "transliteration": "mano hyavidyA bhavabandhahetuH ."
         },
         {
-          "number": 517,
+          "number": 519,
           "sanskrit": "तस्मिन्विनष्टे सकलं विनष्टं",
           "transliteration": "tasminvinaShTe sakalaM vinaShTaM"
         },
         {
-          "number": 518,
+          "number": 520,
           "sanskrit": "विजृम्भितेऽस्मिन्सकलं विजृम्भते ॥ १६९॥",
           "transliteration": "vijR^imbhite.asminsakalaM vijR^imbhate .. 169.."
         },
         {
-          "number": 519,
+          "number": 521,
           "sanskrit": "स्वप्नेऽर्थशून्ये सृजति स्वशक्त्या",
           "transliteration": "svapne.arthashUnye sR^ijati svashaktyA"
         },
         {
-          "number": 520,
+          "number": 522,
           "sanskrit": "भोक्त्रादिविश्वं मन एव सर्वम् ।",
           "transliteration": "bhoktrAdivishvaM mana eva sarvam ."
         },
         {
-          "number": 521,
+          "number": 523,
           "sanskrit": "तथैव जाग्रत्यपि नो विशेषः",
           "transliteration": "tathaiva jAgratyapi no visheShaH"
         },
         {
-          "number": 522,
+          "number": 524,
           "sanskrit": "तत्सर्वमेतन्मनसो विजृम्भणम् ॥ १७०॥",
           "transliteration": "tatsarvametanmanaso vijR^imbhaNam .. 170.."
         },
         {
-          "number": 523,
+          "number": 525,
           "sanskrit": "सुषुप्तिकाले मनसि प्रलीने",
           "transliteration": "suShuptikAle manasi pralIne"
         },
         {
-          "number": 524,
+          "number": 526,
           "sanskrit": "नैवास्ति किञ्चित्सकलप्रसिद्धेः ।",
           "transliteration": "naivAsti ki~nchitsakalaprasid.hdheH ."
         },
         {
-          "number": 525,
+          "number": 527,
           "sanskrit": "अतो मनःकल्पित एव पुंसः",
           "transliteration": "ato manaHkalpita eva puMsaH"
         },
         {
-          "number": 526,
+          "number": 528,
           "sanskrit": "संसार एतस्य न वस्तुतोऽस्ति ॥ १७१॥",
           "transliteration": "sa.nsAra etasya na vastuto.asti .. 171.."
         },
         {
-          "number": 527,
+          "number": 529,
           "sanskrit": "वायुनाऽऽनीयते मेघः पुनस्तेनैव नीयते । var वायुना नीयते मेघः पुनस्तेनैव लीयते",
           "transliteration": "vAyunA.a.anIyate meghaH punastenaiva nIyate . ## var ## vAyunA nIyate meghaH punastenaiva lIyate"
         },
         {
-          "number": 528,
+          "number": 530,
           "sanskrit": "मनसा कल्प्यते बन्धो मोक्षस्तेनैव कल्प्यते ॥ १७२॥",
           "transliteration": "manasA kalpyate bandho mokShastenaiva kalpyate .. 172.."
         },
         {
-          "number": 529,
+          "number": 531,
           "sanskrit": "देहादिसर्वविषये परिकल्प्य रागं",
           "transliteration": "dehAdisarvaviShaye parikalpya rAgaM"
         },
         {
-          "number": 530,
+          "number": 532,
           "sanskrit": "बध्नाति तेन पुरुषं पशुवद्गुणेन ।",
           "transliteration": "badhnAti tena puruShaM pashuvad.hguNena ."
         },
         {
-          "number": 531,
+          "number": 533,
           "sanskrit": "वैरस्यमत्र विषवत् सुविधाय पश्चाद्",
           "transliteration": "vairasyamatra viShavat suvidhAya pashchAd.h"
         },
         {
-          "number": 532,
+          "number": 534,
           "sanskrit": "एनं विमोचयति तन्मन एव बन्धात् ॥ १७३॥",
           "transliteration": "enaM vimochayati tanmana eva bandhAt .. 173.."
         },
         {
-          "number": 533,
+          "number": 535,
           "sanskrit": "तस्मान्मनः कारणमस्य जन्तोः",
           "transliteration": "tasmAnmanaH kAraNamasya jantoH"
         },
         {
-          "number": 534,
+          "number": 536,
           "sanskrit": "बन्धस्य मोक्षस्य च वा विधाने ।",
           "transliteration": "bandhasya mokShasya cha vA vidhAne ."
         },
         {
-          "number": 535,
+          "number": 537,
           "sanskrit": "बन्धस्य हेतुर्मलिनं रजोगुणैः",
           "transliteration": "bandhasya heturmalinaM rajoguNaiH"
         },
         {
-          "number": 536,
+          "number": 538,
           "sanskrit": "मोक्षस्य शुद्धं विरजस्तमस्कम् ॥ १७४॥",
           "transliteration": "mokShasya shud.hdhaM virajastamaskam .. 174.."
         },
         {
-          "number": 537,
+          "number": 539,
           "sanskrit": "विवेकवैराग्यगुणातिरेका-",
           "transliteration": "vivekavairAgyaguNAtirekA\\-"
         },
         {
-          "number": 538,
+          "number": 540,
           "sanskrit": "च्छुद्धत्वमासाद्य मनो विमुक्त्यै ।",
           "transliteration": "chChud.hdhatvamAsAdya mano vimuktyai ."
         },
         {
-          "number": 539,
+          "number": 541,
           "sanskrit": "भवत्यतो बुद्धिमतो मुमुक्षो-",
           "transliteration": "bhavatyato bud.hdhimato mumukSho\\-"
         },
         {
-          "number": 540,
+          "number": 542,
           "sanskrit": "स्ताभ्यां दृढाभ्यां भवितव्यमग्रे ॥ १७५॥",
           "transliteration": "stAbhyAM dR^iDhAbhyAM bhavitavyamagre .. 175.."
         },
         {
-          "number": 541,
+          "number": 543,
           "sanskrit": "मनो नाम महाव्याघ्रो विषयारण्यभूमिषु ।",
           "transliteration": "mano nAma mahAvyAghro viShayAraNyabhUmiShu ."
         },
         {
-          "number": 542,
+          "number": 544,
           "sanskrit": "चरत्यत्र न गच्छन्तु साधवो ये मुमुक्षवः ॥ १७६॥",
           "transliteration": "charatyatra na gachChantu sAdhavo ye mumukShavaH .. 176.."
         },
         {
-          "number": 543,
+          "number": 545,
           "sanskrit": "मनः प्रसूते विषयानशेषान्",
           "transliteration": "manaH prasUte viShayAnasheShAn.h"
         },
         {
-          "number": 544,
+          "number": 546,
           "sanskrit": "स्थूलात्मना सूक्ष्मतया च भोक्तुः ।",
           "transliteration": "sthUlAtmanA sUkShmatayA cha bhoktuH ."
         },
         {
-          "number": 545,
+          "number": 547,
           "sanskrit": "शरीरवर्णाश्रमजातिभेदान्",
           "transliteration": "sharIravarNAshramajAtibhedAn.h"
         },
         {
-          "number": 546,
+          "number": 548,
           "sanskrit": "गुणक्रियाहेतुफलानि नित्यम् ॥ १७७॥",
           "transliteration": "guNakriyAhetuphalAni nityam .. 177.."
         },
         {
-          "number": 547,
+          "number": 549,
           "sanskrit": "असङ्गचिद्रूपममुं विमोह्य",
           "transliteration": "asa~NgachidrUpamamuM vimohya"
         },
         {
-          "number": 548,
+          "number": 550,
           "sanskrit": "देहेन्द्रियप्राणगुणैर्निबद्ध्य ।",
           "transliteration": "dehendriyaprANaguNairnibad.hdhya ."
         },
         {
-          "number": 549,
+          "number": 551,
           "sanskrit": "अहम्ममेति भ्रमयत्यजस्रं",
           "transliteration": "ahammameti bhramayatyajasraM"
         },
         {
-          "number": 550,
+          "number": 552,
           "sanskrit": "मनः स्वकृत्येषु फलोपभुक्तिषु ॥ १७८॥",
           "transliteration": "manaH svakR^ityeShu phalopabhuktiShu .. 178.."
         },
         {
-          "number": 551,
+          "number": 553,
           "sanskrit": "अध्यासदोषात्पुरुषस्य संसृतिः var अध्यासयोगात्",
           "transliteration": "adhyAsadoShAtpuruShasya sa.nsR^itiH ## var ## adhyAsayogAt"
         },
         {
-          "number": 552,
+          "number": 554,
           "sanskrit": "अध्यासबन्धस्त्वमुनैव कल्पितः ।",
           "transliteration": "adhyAsabandhastvamunaiva kalpitaH ."
         },
         {
-          "number": 553,
+          "number": 555,
           "sanskrit": "रजस्तमोदोषवतोऽविवेकिनो",
           "transliteration": "rajastamodoShavato.avivekino"
         },
         {
-          "number": 554,
+          "number": 556,
           "sanskrit": "जन्मादिदुःखस्य निदानमेतत् ॥ १७९॥",
           "transliteration": "janmAdiduHkhasya nidAnametat .. 179.."
         },
         {
-          "number": 555,
+          "number": 557,
           "sanskrit": "अतः प्राहुर्मनोऽविद्यां पण्डितास्तत्त्वदर्शिनः ।",
           "transliteration": "ataH prAhurmano.avidyAM paNDitAstattvadarshinaH ."
         },
         {
-          "number": 556,
+          "number": 558,
           "sanskrit": "येनैव भ्राम्यते विश्वं वायुनेवाभ्रमण्डलम् ॥ १८०॥",
           "transliteration": "yenaiva bhrAmyate vishvaM vAyunevAbhramaNDalam .. 180.."
         },
         {
-          "number": 557,
+          "number": 559,
           "sanskrit": "तन्मनःशोधनं कार्यं प्रयत्नेन मुमुक्षुणा ।",
           "transliteration": "tanmanaHshodhanaM kAryaM prayatnena mumukShuNA ."
         },
         {
-          "number": 558,
+          "number": 560,
           "sanskrit": "विशुद्धे सति चैतस्मिन्मुक्तिः करफलायते ॥ १८१॥",
           "transliteration": "vishud.hdhe sati chaitasminmuktiH karaphalAyate .. 181.."
         },
         {
-          "number": 559,
+          "number": 561,
           "sanskrit": "मोक्षैकसक्त्या विषयेषु रागं",
           "transliteration": "mokShaikasaktyA viShayeShu rAgaM"
         },
         {
-          "number": 560,
+          "number": 562,
           "sanskrit": "निर्मूल्य सन्न्यस्य च सर्वकर्म ।",
           "transliteration": "nirmUlya sannyasya cha sarvakarma ."
         },
         {
-          "number": 561,
+          "number": 563,
           "sanskrit": "सच्छ्रद्धया यः श्रवणादिनिष्ठो",
           "transliteration": "sachChrad.hdhayA yaH shravaNAdiniShTho"
         },
         {
-          "number": 562,
+          "number": 564,
           "sanskrit": "रजःस्वभावं स धुनोति बुद्धेः ॥ १८२॥",
           "transliteration": "rajaHsvabhAvaM sa dhunoti bud.hdheH .. 182.."
         },
         {
-          "number": 563,
+          "number": 565,
           "sanskrit": "मनोमयो नापि भवेत्परात्मा",
           "transliteration": "manomayo nApi bhavetparAtmA"
         },
         {
-          "number": 564,
+          "number": 566,
           "sanskrit": "ह्याद्यन्तवत्त्वात्परिणामिभावात् ।",
           "transliteration": "hyAdyantavattvAtpariNAmibhAvAt ."
         },
         {
-          "number": 565,
+          "number": 567,
           "sanskrit": "दुःखात्मकत्वाद्विषयत्वहेतोः",
           "transliteration": "duHkhAtmakatvAdviShayatvahetoH"
         },
         {
-          "number": 566,
+          "number": 568,
           "sanskrit": "द्रष्टा हि दृश्यात्मतया न दृष्टः ॥ १८३॥",
           "transliteration": "draShTA hi dR^ishyAtmatayA na dR^iShTaH .. 183.."
         },
         {
-          "number": 567,
+          "number": 569,
           "sanskrit": "बुद्धिर्बुद्धीन्द्रियैः सार्धं सवृत्तिः कर्तृलक्षणः ।",
           "transliteration": "bud.hdhirbud.hdhIndriyaiH sArdhaM savR^ittiH kartR^ilakShaNaH ."
         },
         {
-          "number": 568,
+          "number": 570,
           "sanskrit": "विज्ञानमयकोशः स्यात्पुंसः संसारकारणम् ॥ १८४॥",
           "transliteration": "vij~nAnamayakoshaH syAtpuMsaH sa.nsArakAraNam .. 184.."
         },
         {
-          "number": 569,
+          "number": 571,
           "sanskrit": "अनुव्रजच्चित्प्रतिबिम्बशक्तिः",
           "transliteration": "anuvrajachchitpratibimbashaktiH"
         },
         {
-          "number": 570,
+          "number": 572,
           "sanskrit": "विज्ञानसंज्ञः प्रकृतेर्विकारः ।",
           "transliteration": "vij~nAnasaMj~naH prakR^itervikAraH ."
         },
         {
-          "number": 571,
+          "number": 573,
           "sanskrit": "ज्ञानक्रियावानहमित्यजस्रं",
           "transliteration": "j~nAnakriyAvAnahamityajasraM"
         },
         {
-          "number": 572,
+          "number": 574,
           "sanskrit": "देहेन्द्रियादिष्वभिमन्यते भृशम् ॥ १८५॥",
           "transliteration": "dehendriyAdiShvabhimanyate bhR^isham .. 185.."
         },
         {
-          "number": 573,
+          "number": 575,
           "sanskrit": "अनादिकालोऽयमहंस्वभावो",
           "transliteration": "anAdikAlo.ayamahaMsvabhAvo"
         },
         {
-          "number": 574,
+          "number": 576,
           "sanskrit": "जीवः समस्तव्यवहारवोढा ।",
           "transliteration": "jIvaH samastavyavahAravoDhA ."
         },
         {
-          "number": 575,
+          "number": 577,
           "sanskrit": "करोति कर्माण्यपि पूर्ववासनः var कर्माण्यनु",
           "transliteration": "karoti karmANyapi pUrvavAsanaH ## var ## karmANyanu"
         },
         {
-          "number": 576,
+          "number": 578,
           "sanskrit": "पुण्यान्यपुण्यानि च तत्फलानि ॥ १८६॥",
           "transliteration": "puNyAnyapuNyAni cha tatphalAni .. 186.."
         },
         {
-          "number": 577,
+          "number": 579,
           "sanskrit": "भुङ्क्ते विचित्रास्वपि योनिषु व्रज-",
           "transliteration": "bhu~N.hkte vichitrAsvapi yoniShu vraja\\-"
         },
         {
-          "number": 578,
+          "number": 580,
           "sanskrit": "न्नायाति निर्यात्यध ऊर्ध्वमेषः ।",
           "transliteration": "nnAyAti niryAtyadha UrdhvameShaH ."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "The Real and the Unreal",
+      "titleSanskrit": "सत्-असत् विवेक",
+      "verses": [
+        {
+          "number": 20,
+          "sanskrit": "ब्रह्म सत्यं जगन्मिथ्या जीवो ब्रह्मैव नापरः | अनेन वेद्यं सच्छास्त्रमिति वेदान्तडिण्डिमः ||",
+          "transliteration": "brahma satyaṃ jaganmithyā jīvo brahmaiva nāparaḥ | anena vedyaṃ sacchāstramiti vedāntaḍiṇḍimaḥ ||"
         },
         {
-          "number": 579,
-          "sanskrit": "अस्यैव विज्ञानमयस्य जाग्रत्-",
-          "transliteration": "asyaiva vij~nAnamayasya jAgrat.h\\-"
+          "number": 47,
+          "sanskrit": "रज्जुसर्पवदात्मानं जीवं ज्ञात्वा भयं यदा | तदा यथार्थज्ञानेन भयं नश्यति तत्क्षणात् ||",
+          "transliteration": "rajjusarpavadātmānaṃ jīvaṃ jñātvā bhayaṃ yadā | tadā yathārthajñānena bhayaṃ naśyati tatkṣaṇāt ||"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "The Sheaths and the Self",
+      "titleSanskrit": "पञ्चकोश विवेक",
+      "verses": [
+        {
+          "number": 155,
+          "sanskrit": "अन्नमयं नो जीवः स्यात् प्राणमयोऽपि न केवलः | मनोमयो नैव जीवः | बुद्धिरात्मा न चेत्यसत् ||",
+          "transliteration": "annamayaṃ no jīvaḥ syāt prāṇamayo'pi na kevalaḥ | manomayo naiva jīvaḥ | buddhirātmā na cetyasat ||"
         },
         {
-          "number": 580,
-          "sanskrit": "स्वप्नाद्यवस्थाः सुखदुःखभोगः ॥ १८७॥",
-          "transliteration": "svapnAdyavasthAH sukhaduHkhabhogaH .. 187.."
+          "number": 478,
+          "sanskrit": "एको देवः सर्वभूतेषु गूढः सर्वव्यापी चात्मा | साक्षी चेताः केवलो निर्गुणश्च | नित्यः शुद्धो बुद्ध एव मुक्तः ||",
+          "transliteration": "eko devaḥ sarvabhūteṣu gūḍhaḥ sarvavyāpī cātmā | sākṣī cetāḥ kevalo nirguṇaśca | nityaḥ śuddho buddha eva muktaḥ ||"
+        },
+        {
+          "number": 5,
+          "sanskrit": "योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो ब्रह्मसमाश्रयः ||",
+          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ brahmasamāśrayaḥ ||"
+        },
+        {
+          "number": 10,
+          "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं ब्रह्म एव सर्वं ब्रह्म मयि सर्वम् ||",
+          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ brahma eva sarvaṃ brahma mayi sarvam ||"
+        },
+        {
+          "number": 15,
+          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो ब्रह्मणि लीनो न तत्र संशयो भवति ||",
+          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo brahmaṇi līno na tatra saṃśayo bhavati ||"
+        },
+        {
+          "number": 20,
+          "sanskrit": "शान्तं शिवमद्वैतं ब्रह्म नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
+          "transliteration": "śāntaṃ śivamadvaitaṃ brahma nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||"
+        },
+        {
+          "number": 25,
+          "sanskrit": "एको देवो द्वितीयो नास्ति यो ब्रह्मं वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
+          "transliteration": "eko devo dvitīyo nāsti yo brahmaṃ veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||"
         }
       ]
     }

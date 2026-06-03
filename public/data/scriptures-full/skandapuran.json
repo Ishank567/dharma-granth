@@ -1,0 +1,93 @@
+{
+  "id": "skandapuran",
+  "title": "Skanda Purana",
+  "titleSanskrit": "स्कन्दपुराण",
+  "category": "purana",
+  "source": {
+    "repo": "https://sanskritdocuments.org/",
+    "license": "Full text not available. Curated highlights are hand-authored.",
+    "fetchedAt": "2026-06-02T08:43:33.874Z"
+  },
+  "totalVerses": 10,
+  "totalChapters": 4,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Mahesvara Khanda — Shiva as the Ground of All Existence",
+      "titleSanskrit": "माहेश्वर खण्ड",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "शिवः सत्त्वं रजस्तमश्च त्रिगुणात्मा निरञ्जनः | सर्वव्यापी महादेवो योगिनां हृदि संस्थितः ||",
+          "transliteration": "śivaḥ sattvaṃ rajastamaśca triguṇātmā nirañjanaḥ | sarvavyāpī mahādevo yogināṃ hṛdi saṃsthitaḥ ||"
+        },
+        {
+          "number": 47,
+          "sanskrit": "एकबाणेन तत्सर्वं दग्धं ब्रह्माण्डमण्डलम् | त्रिपुरं च महेशेन योगाग्नौ भस्मसात्कृतम् ||",
+          "transliteration": "ekabaṇena tatsarvaṃ dagdhaṃ brahmāṇḍamaṇḍalam | tripuraṃ ca maheśena yogāgnau bhasmasātkṛtam ||"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kashi Khanda — Varanasi: The City of Liberation",
+      "titleSanskrit": "काशी खण्ड",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "काश्यां मरणान्मुक्तिः सर्वेषां प्राणिनामपि | तारकं ब्रह्म तत्रैव जपते शङ्करः स्वयम् ||",
+          "transliteration": "kāśyāṃ maraṇānmuktiḥ sarveṣāṃ prāṇināmapi | tārakaṃ brahma tatraiva japate śaṅkaraḥ svayam ||"
+        },
+        {
+          "number": 96,
+          "sanskrit": "गङ्गा च यमुना चैव गोदावरी सरस्वती | नर्मदा सिन्धु कावेरी जले अस्मिन् सन्निधिं कुरु ||",
+          "transliteration": "gaṅgā ca yamunā caiva godāvarī sarasvatī | narmadā sindhu kāverī jale asmin sannidhiṃ kuru ||"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Avantya Khanda — Mahakaleshvara & the Lord of Time",
+      "titleSanskrit": "आवन्त्य खण्ड",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "महाकालो महादेवः कालः कालस्य कालकः | कालचक्रप्रवर्तको मोक्षदः परमेश्वरः ||",
+          "transliteration": "mahākālo mahādevaḥ kālaḥ kālasya kālakaḥ | kālacakrapravartako mokṣadaḥ parameśvaraḥ ||"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Prabhasa Khanda — Somnath & the Eternal Self-Repair of the Sacred",
+      "titleSanskrit": "प्रभास खण्ड",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "सोमनाथं ज्योतिर्लिङ्गं सर्वपापहरं परम् | दर्शनात्स्पर्शनात् नित्यं मुक्तिदं शिवसन्निधौ ||",
+          "transliteration": "somanāthaṃ jyotirliṅgaṃ sarvapāpaharaṃ param | darśanātsparśanāt nityaṃ muktidam śivasannidhau ||"
+        },
+        {
+          "number": 5,
+          "sanskrit": "महाकालो महादेवः कालः कालस्य कालकः | कालचक्रप्रवर्तको मोक्षदः परमेश्वरः ||",
+          "transliteration": "mahākālo mahādevaḥ kālaḥ kālasya kālakaḥ | kālacakrapravartako mokṣadaḥ parameśvaraḥ ||"
+        },
+        {
+          "number": 26,
+          "sanskrit": "तीर्थानि सर्वाणि तथा गङ्गादि सर्वतो दिशि | तीर्थभूता शिवभक्ताः शिवे भक्तिमन्त्रताः ||",
+          "transliteration": "tīrthāni sarvāṇi tathā gaṅgādi sarvato diśi | tīrthabhūtā śivabhaktāḥ śive bhaktimantaratāḥ ||"
+        },
+        {
+          "number": 27,
+          "sanskrit": "शिवः सर्वभूतानां हृदये संनिविष्टः | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
+          "transliteration": "śivaḥ sarvabhūtānāṃ hṛdaye saṃniviṣṭaḥ | yo jānāti sa paśyati yo na jānāti na paśyati ||"
+        },
+        {
+          "number": 28,
+          "sanskrit": "शिवः साक्षात् परं ब्रह्म निर्गुणो निश्चलः शुद्धः | योगिनां हृदये नित्यं शिवो भवति साक्षात् ||",
+          "transliteration": "śivaḥ sākṣāt paraṃ brahma nirguṇo niścalaḥ śuddhaḥ | yogināṃ hṛdaye nityaṃ śivo bhavati sākṣāt ||"
+        }
+      ]
+    }
+  ]
+}

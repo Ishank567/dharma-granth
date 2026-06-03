@@ -1,0 +1,108 @@
+{
+  "id": "vinayapatrika",
+  "title": "Vinaya Patrika",
+  "titleSanskrit": "विनयपत्रिका",
+  "category": "stotra",
+  "source": {
+    "repo": "https://sanskritdocuments.org/",
+    "license": "Full text not available. Curated highlights are hand-authored.",
+    "fetchedAt": "2026-06-02T08:43:33.869Z"
+  },
+  "totalVerses": 13,
+  "totalChapters": 4,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Mangalacharana — Invocations to the Devas",
+      "titleSanskrit": "मंगलाचरण",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "श्री गणेश को प्रणाम | जय गणेश गणेश गणेश जय | जय गजबदन सुत शिव उर धार्यो ||",
+          "transliteration": "śrī gaṇeśa ko praṇāma | jaya gaṇeśa gaṇeśa gaṇeśa jaya | jaya gajabadana suta śiva ura dhāryo ||"
+        },
+        {
+          "number": 5,
+          "sanskrit": "नाथ सकल सिधि सिधि दाता | तुम्हरी कृपा होत जन त्राता | मैं अतिसय दुखी दीन दुर्बल | दरस देहु हरहु भवभ्रम बल ||",
+          "transliteration": "nātha sakala sidhi sidhi dātā | tumharī kṛpā hota jana trātā | maiṃ atisaya dukhī dīna durbala | darasa dehu harahu bhavabhrama bala ||"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Hanuman Stuti — Petitions to Hanuman",
+      "titleSanskrit": "हनुमान स्तुति",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "सुनु हनुमान उदार | मैं तुलसी तेरो दास | पाहि पाहि पाहि प्रभु | मेटहु मन को त्रास ||",
+          "transliteration": "sunu hanumāna udāra | maiṃ tulasī tero dāsa | pāhi pāhi pāhi prabhu | meṭahu mana ko trāsa ||"
+        },
+        {
+          "number": 2,
+          "sanskrit": "तुलसी हौं गुनहीन गरीब | अपने बल भरोसो नाहिं | राम नाम लिख्यो भाल पर | ताही की ओट आहिं ||",
+          "transliteration": "tulasī hauṃ gunahīna garība | apane bala bharoso nāhiṃ | rāma nāma likhyo bhāla para | tāhī kī oṭa āhiṃ ||"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Rama Petitions — The Core Vinaya",
+      "titleSanskrit": "राम-विनय",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "नाथ अब मोहि पति होहु | जेहि बिधि जन राखहु तेहि बिधि | मोहि मेटि रहन दोहू ||",
+          "transliteration": "nātha aba mohi pati hohu | jehi bidhi jana rākahu tehi bidhi | mohi meṭi rahana dohu ||"
+        },
+        {
+          "number": 2,
+          "sanskrit": "श्री रामचंद्र कृपालु भजु मन | हरण भव भय दारुणम् | नवकंज लोचन कंज मुख कर | कंज पद कंजारुणम् ||",
+          "transliteration": "śrī rāmacaṃdra kṛpālu bhaju mana | haraṇa bhava bhaya dāruṇam | navakañja locana kañja mukha kara | kañja pada kañjāruṇam ||"
+        },
+        {
+          "number": 3,
+          "sanskrit": "हौं तो आयो शरण तुम्हारी | मोरे अवगुण चितवहु नाहीं | कृपासिंधु खरारी ||",
+          "transliteration": "hauṃ to āyo śaraṇa tumhārī | more avaguṇa citavahu nāhīṃ | kṛpāsiṃdhu kharārī ||"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Atmanivedana — Self-Offering",
+      "titleSanskrit": "आत्मनिवेदन",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "मोको कहाँ ढूंढे रे बन्दे | मैं तो तेरे पास में | ना मैं देवल ना मैं मस्जिद | ना काबे कैलास में ||",
+          "transliteration": "moko kahāṃ ḍhūṃḍhe re bande | maiṃ to tere pāsa meṃ | nā maiṃ devala nā maiṃ masjida | nā kābe kailāsa meṃ ||"
+        },
+        {
+          "number": 5,
+          "sanskrit": "योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो रामसमाश्रयः ||",
+          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ rāmasamāśrayaḥ ||"
+        },
+        {
+          "number": 10,
+          "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं राम एव सर्वं राम मयि सर्वम् ||",
+          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ rāma eva sarvaṃ rāma mayi sarvam ||"
+        },
+        {
+          "number": 15,
+          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो रामे लीनो न तत्र संशयो भवति ||",
+          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo rāme līno na tatra saṃśayo bhavati ||"
+        },
+        {
+          "number": 20,
+          "sanskrit": "शान्तं शिवमद्वैतं राम नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
+          "transliteration": "śāntaṃ śivamadvaitaṃ rāma nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||"
+        },
+        {
+          "number": 25,
+          "sanskrit": "एको देवो द्वितीयो नास्ति यो रामं वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
+          "transliteration": "eko devo dvitīyo nāsti yo rāmaṃ veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||"
+        }
+      ]
+    }
+  ]
+}

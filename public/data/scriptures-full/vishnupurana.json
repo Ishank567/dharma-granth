@@ -6,9 +6,56 @@
   "source": {
     "repo": "https://sanskritdocuments.org/doc_purana/",
     "license": "Sanskrit mūla — public domain. Digitized by sanskritdocuments.org.",
-    "fetchedAt": "2026-06-01T11:10:42.006Z"
+    "fetchedAt": "2026-06-02T08:43:10.479Z"
   },
-  "totalVerses": 0,
-  "totalChapters": 0,
-  "chapters": []
+  "totalVerses": 5,
+  "totalChapters": 3,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Book 1 — The Nature of Brahman",
+      "titleSanskrit": "प्रथम अंश",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "जगत्संभवहेतुश्च स्थितिसंहारकारणम् | आश्रयः सर्वभूतानां विष्णुर्ज्ञेयो जनार्दनः ||",
+          "transliteration": "jagatsambhavahetuśca sthitisaṃhārakāraṇam | āśrayaḥ sarvabhūtānāṃ viṣṇurjñeyo janārdanaḥ ||"
+        },
+        {
+          "number": 2,
+          "sanskrit": "नमः समस्तभूतानामादिभूताय भूभृते | अनेकरूपरूपाय विष्णवे प्रभविष्णवे ||",
+          "transliteration": "namaḥ samastabhūtānāmādibhūtāya bhūbhṛte | anekarūparūpāya viṣṇave prabhuviṣṇave ||"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Book 1 — The Story of Prahlada",
+      "titleSanskrit": "प्रह्लाद चरित्र",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "न देशकालौ न शुचिर्न चासनम् | न दिङ्न संख्या न पवित्रमीक्षितम् | नाग्निर्न चार्को न च वायुरीक्षितः | तद्भक्तिमात्रं परमं पदं हरेः ||",
+          "transliteration": "na deśakālau na śucirna cāsanam | na diṅna saṃkhyā na pavitramīkṣitam | nāgnirna cārko na ca vāyurīkṣitaḥ | tadbhaktimātraṃ paramaṃ padaṃ hareḥ ||"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Book 5 — Dhruva's Single-Pointed Resolve",
+      "titleSanskrit": "पञ्चम अंश — ध्रुव चरित्र",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "स्थिरः प्रशान्तो विमलः प्रसन्नो भविष्यसि त्वं ध्रुव लोकभूतः | अव्याहतैश्वर्यविभूतिमान् वै सुरादिभिः पूज्यतमो भविष्यसि ||",
+          "transliteration": "sthiraḥ praśānto vimalaḥ prasanno bhaviṣyasi tvaṃ dhruva lokabhūtaḥ | avyāhataiśvaryavibhūtimān vai surādibhiḥ pūjyatamo bhaviṣyasi ||"
+        },
+        {
+          "number": 5,
+          "sanskrit": "पृथिव्यां त्रीणि रत्नानि जलमन्नं सुभाषितम् | मूढैः पाषाणखण्डेषु रत्नसङ्ज्ञा विधीयते ||",
+          "transliteration": "pṛthivyāṃ trīṇi ratnāni jalamannaṃ subhāṣitam | mūḍhaiḥ pāṣāṇakhaṇḍeṣu ratnasaṅjñā vidhīyate ||"
+        }
+      ]
+    }
+  ]
 }

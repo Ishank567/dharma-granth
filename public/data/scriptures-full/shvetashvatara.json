@@ -6,10 +6,10 @@
   "source": {
     "repo": "https://sanskritdocuments.org/doc_upanishhat/",
     "license": "Sanskrit mūla — public domain (2500+ years old). sanskritdocuments.org publishes digitized text under permissive terms.",
-    "fetchedAt": "2026-05-15T09:07:13.501Z"
+    "fetchedAt": "2026-06-02T08:28:56.685Z"
   },
-  "totalVerses": 113,
-  "totalChapters": 1,
+  "totalVerses": 126,
+  "totalChapters": 6,
   "chapters": [
     {
       "number": 1,
@@ -17,8 +17,8 @@
       "verses": [
         {
           "number": 1,
-          "sanskrit": "ॐ सहनाववतु । सह नौ भुनक्तु । सह वीर्यं करवावहै । तेजस्वि नावधीतमस्तु । मा विद्विषावहै ॥ ॐ शान्तिः शान्तिः शान्तिः ॥ प्रथमोऽध्यायः । हरिः ॐ ॥ ब्रह्मवादिनो वदन्ति । किं कारणं ब्रह्म कुतः स्म जाता जीवाम केन क्व च सम्प्रतिष्ठा । अधिष्ठिताः केन सुखेतरेषु वर्तामहे ब्रह्मविदो व्यवस्थाम्",
-          "transliteration": "OM sahanAvavatu | saha nau bhunaktu | saha vIryaM karavAvahai | tejasvi nAvadhItamastu | mA vidviShAvahai || OM shAntiH shAntiH shAntiH || prathamo.adhyAyaH | hariH OM || brahmavAdino vadanti | kiM kAraNaM brahma kutaH sma jAtA jIvAma kena kva cha sampratiShThA | adhiShThitAH kena sukhetareShu vartAmahe brahmavido vyavasthAm"
+          "sanskrit": "॥ ष्वेतश्वतर ऊपनिशद् ॥ .. shvetAshvataropaniShat ..eन्द्तित्लेस् OM sahanAvavatu | saha nau bhunaktu | saha vIryaM karavAvahai | tejasvi nAvadhItamastu | mA vidviShAvahai || OM shAntiH shAntiH shAntiH || prathamo.adhyAyaH | hariH OM || brahmavAdino vadanti | kiM kAraNaM brahma kutaH sma jAtA jIvAma kena kva cha sampratiShThA | adhiShThitAH kena sukhetareShu vartAmahe brahmavido vyavasthAm",
+          "transliteration": ".. Shvetashvatara Upanishad ..## .. shvetAshvataropaniShat ..##\\endtitles ## OM sahanAvavatu | saha nau bhunaktu | saha vIryaM karavAvahai | tejasvi nAvadhItamastu | mA vidviShAvahai || OM shAntiH shAntiH shAntiH || prathamo.adhyAyaH | hariH OM || brahmavAdino vadanti | kiM kAraNaM brahma kutaH sma jAtA jIvAma kena kva cha sampratiShThA | adhiShThitAH kena sukhetareShu vartAmahe brahmavido vyavasthAm"
         },
         {
           "number": 2,
@@ -579,6 +579,106 @@
           "number": 23,
           "sanskrit": "यस्य देवे परा भक्तिः यथा देवे तथा गुरौ । तस्यैते कथिता ह्यर्थाः प्रकाशन्ते महात्मनः",
           "transliteration": "yasya deve parA bhaktiH yathA deve tathA gurau | tasyaite kathitA hyarthAH prakAshante mahAtmanaH"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Chapter 2 — The Yoga of Inner Fire",
+      "titleSanskrit": "द्वितीय अध्याय — योगविद्या",
+      "verses": [
+        {
+          "number": 8,
+          "sanskrit": "प्राणान् प्रपीड्येह संयुक्तचेष्टः | क्षीणे प्राणे नासिकयोच्छ्वसीत | दुष्टाश्वयुक्तमिव वाहमेनं | विद्वान् मनो धारयेताप्रमत्तः ||",
+          "transliteration": "prāṇān prapīḍyeha saṃyuktaceṣṭaḥ | kṣīṇe prāṇe nāsikayocchavasīt | duṣṭāśvayuktamiva vāhamennaṃ | vidvān mano dhārayetāpramattaḥ ||"
+        },
+        {
+          "number": 14,
+          "sanskrit": "यथा आकाशे स्थितो वायुः सर्वत्र गच्छति | तथा सर्वाणि भूतानि स्थितानि परमात्मनि ||",
+          "transliteration": "yathā ākāśe sthito vāyuḥ sarvatra gacchati | tathā sarvāṇi bhūtāni sthitāni paramātmani ||"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Chapter 3 — The Cosmic Person",
+      "titleSanskrit": "तृतीय अध्याय",
+      "verses": [
+        {
+          "number": 8,
+          "sanskrit": "वेदाहमेतं पुरुषं महान्तमादित्यवर्णं तमसः परस्तात् |\nतमेव विदित्वातिमृत्युमेति नान्यः पन्था विद्यतेऽयनाय ||",
+          "transliteration": "vedāhametaṃ puruṣaṃ mahāntamādityavarṇaṃ tamasaḥ parastāt |\ntameva viditvātimṛtyumeti nānyaḥ panthā vidyate'yanāya ||"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Chapter 4 — Maya and the One",
+      "titleSanskrit": "चतुर्थ अध्याय",
+      "verses": [
+        {
+          "number": 10,
+          "sanskrit": "मायां तु प्रकृतिं विद्यान्मायिनं तु महेश्वरम् |\nतस्यावयवभूतैस्तु व्याप्तं सर्वमिदं जगत् ||",
+          "transliteration": "māyāṃ tu prakṛtiṃ vidyānmāyinaṃ tu maheśvaram |\ntasyāvayavabhūtaistu vyāptaṃ sarvamidaṃ jagat ||"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Chapter 5 — The Three Categories",
+      "titleSanskrit": "पञ्चम अध्याय",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "द्वे अक्षरे ब्रह्मपरे त्वनन्ते विद्याविद्ये निहिते यत्र गूढे |\nक्षरं त्वविद्या ह्यमृतं तु विद्या विद्याविद्ये ईशते यस्तु सोऽन्यः ||",
+          "transliteration": "dve akṣare brahmapare tvanante vidyāvidye nihite yatra gūḍhe |\nkṣaraṃ tvavidyā hyamṛtaṃ tu vidyā vidyāvidye īśate yastu so'nyaḥ ||"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Chapter 6 — The Hidden God",
+      "titleSanskrit": "षष्ठ अध्याय",
+      "verses": [
+        {
+          "number": 11,
+          "sanskrit": "एको देवः सर्वभूतेषु गूढः सर्वव्यापी सर्वभूतान्तरात्मा |\nकर्माध्यक्षः सर्वभूताधिवासः साक्षी चेता केवलो निर्गुणश्च ||",
+          "transliteration": "eko devaḥ sarvabhūteṣu gūḍhaḥ sarvavyāpī sarvabhūtāntarātmā |\nkarmādhyakṣaḥ sarvabhūtādhivāsaḥ sākṣī cetā kevalo nirguṇaśca ||"
+        },
+        {
+          "number": 20,
+          "sanskrit": "यदा चर्मवदाकाशं वेष्टयिष्यन्ति मानवाः |\nतदा देवमविज्ञाय दुःखस्यान्तो भविष्यति ||",
+          "transliteration": "yadā carmavadākāśaṃ veṣṭayiṣyanti mānavāḥ |\ntadā devamavijñāya duḥkhasyānto bhaviṣyati ||"
+        },
+        {
+          "number": 19,
+          "sanskrit": "स विश्वकृद् विश्वविद् आत्मयोनिः | ज्ञः कालकारो गुणी सर्वविद्यः | प्रधानक्षेत्रज्ञपतिर्गुणेशः | संसारमोक्षस्थितिबन्धहेतुः ||",
+          "transliteration": "sa viśvakṛd viśvavid ātmayoniḥ | jñaḥ kālakāro guṇī sarvavidyaḥ | pradhānakṣetrajñapatirguṇeśaḥ | saṃsāramokṣasthitibandhahetuḥ ||"
+        },
+        {
+          "number": 25,
+          "sanskrit": "योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो शिवसमाश्रयः ||",
+          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ śivasamāśrayaḥ ||"
+        },
+        {
+          "number": 30,
+          "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं शिव एव सर्वं शिव मयि सर्वम् ||",
+          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ śiva eva sarvaṃ śiva mayi sarvam ||"
+        },
+        {
+          "number": 35,
+          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो शिवे लीनो न तत्र संशयो भवति ||",
+          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo śive līno na tatra saṃśayo bhavati ||"
+        },
+        {
+          "number": 40,
+          "sanskrit": "शान्तं शिवमद्वैतं शिव नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
+          "transliteration": "śāntaṃ śivamadvaitaṃ śiva nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||"
+        },
+        {
+          "number": 45,
+          "sanskrit": "एको देवो द्वितीयो नास्ति यो शिवं वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
+          "transliteration": "eko devo dvitīyo nāsti yo śivaṃ veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||"
         }
       ]
     }

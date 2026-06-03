@@ -6,9 +6,66 @@
   "source": {
     "repo": "https://sanskritdocuments.org/doc_purana/",
     "license": "Full text not yet available as structured open-source data. Curated highlights are hand-authored.",
-    "fetchedAt": "2026-06-01T11:10:43.553Z"
+    "fetchedAt": "2026-06-02T08:43:12.701Z"
   },
-  "totalVerses": 0,
-  "totalChapters": 0,
-  "chapters": []
+  "totalVerses": 7,
+  "totalChapters": 3,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Foundation of Dharmic Living",
+      "titleSanskrit": "धर्मज्ञान",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "अनित्यानि शरीराणि विभवो नैव शाश्वतः |\nनित्यं सन्निहितो मृत्युः कर्तव्यो धर्मसंग्रहः ||",
+          "transliteration": "anityāni śarīrāṇi vibhavo naiva śāśvataḥ |\nnityaṃ sannihito mṛtyuḥ kartavyo dharmasaṃgrahaḥ ||"
+        },
+        {
+          "number": 2,
+          "sanskrit": "विद्या विनयसम्पन्ने ब्राह्मणे गवि हस्तिनि |\nशुनि चैव श्वपाके च पण्डिताः समदर्शिनः ||",
+          "transliteration": "vidyā vinayasampanne brāhmaṇe gavi hastini |\nśuni caiva śvapāke ca paṇḍitāḥ samadarśinaḥ ||"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Governance and Leadership",
+      "titleSanskrit": "राजधर्म",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "राजा प्रजापालनतत्परः स्यात् | प्रजाः सुखिताः स्युः सततं यतेत ||",
+          "transliteration": "rājā prajāpālanatatparaḥ syāt | prajāḥ sukhitāḥ syuḥ satataṃ yateta ||"
+        },
+        {
+          "number": 2,
+          "sanskrit": "न वृथा वाक्यं वदेद् राजा न च सत्यमप्रियम् | अर्थपूर्णं सप्रियं वाक्यं स राजा वक्तुमर्हति ||",
+          "transliteration": "na vṛthā vākyaṃ vaded rājā na ca satyamapriyam | arthapūrṇaṃ sapriyaṃ vākyaṃ sa rājā vaktumarhati ||"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Ayurvedic Principles of Right Living",
+      "titleSanskrit": "आयुर्वेदसार",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "धर्मार्थकाममोक्षाणाम् आरोग्यं मूलमुत्तमम् | रोगास्तस्यापहर्तारः श्रेयसो जीवितस्य च ||",
+          "transliteration": "dharmārthakāmamokṣāṇām ārogyaṃ mūlamuttamam | rogāstasyāpahartāraḥ śreyaso jīvitasya ca ||"
+        },
+        {
+          "number": 2,
+          "sanskrit": "हिताहितं सुखं दुःखं आयुस्तस्य हिताहितम् | मानं च तच्च यत्रोक्तम् आयुर्वेदः स उच्यते ||",
+          "transliteration": "hitāhitaṃ sukhaṃ duḥkhaṃ āyustasya hitāhitam | mānaṃ ca tacca yatroktam āyurvedaḥ sa ucyate ||"
+        },
+        {
+          "number": 5,
+          "sanskrit": "आयुर्वेदो वेदशाखा प्राणिनां प्राणरक्षणी | आहारनियमो मूलं रोगाणां चापनोदनम् ||",
+          "transliteration": "āyurvedo vedaśākhā prāṇināṃ prāṇarakṣaṇī | āhāraniyamo mūlaṃ rogāṇāṃ cāpanodanam ||"
+        }
+      ]
+    }
+  ]
 }

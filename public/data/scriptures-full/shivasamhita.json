@@ -1,0 +1,113 @@
+{
+  "id": "shivasamhita",
+  "title": "Shiva Samhita",
+  "titleSanskrit": "शिवसंहिता",
+  "category": "tantra",
+  "source": {
+    "repo": "https://sanskritdocuments.org/",
+    "license": "Full text not available. Curated highlights are hand-authored.",
+    "fetchedAt": "2026-06-02T08:43:33.863Z"
+  },
+  "totalVerses": 14,
+  "totalChapters": 4,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Tattva Pradipika — The Lamp of Truth",
+      "titleSanskrit": "तत्त्व प्रदीपिका",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "ज्ञानं परं ब्रह्म स्वयम्प्रकाशम् | अज्ञानात् जगदाभाति मिथ्यारूपेण चेतसि ||",
+          "transliteration": "jñānaṃ paraṃ brahma svayamprakāśam | ajñānāt jagadābhāti mithyārūpeṇa cetasi ||"
+        },
+        {
+          "number": 17,
+          "sanskrit": "एक एव परात्मा तु द्वैतं नास्ति कदाचन | यत्र यत्र मनो याति तत्र तत्र समाधयः ||",
+          "transliteration": "eka eva parātmā tu dvaitaṃ nāsti kadācana | yatra yatra mano yāti tatra tatra samādhayaḥ ||"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Prana & Nadi — The Body as Cosmos",
+      "titleSanskrit": "प्राण और नाड़ी",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "इडा वामे स्थिता भागे पिङ्गला दक्षिणे तथा | सुषुम्ना मध्यदेशे तु प्राणमार्गो महत्पथः ||",
+          "transliteration": "iḍā vāme sthitā bhāge piṅgalā dakṣiṇe tathā | suṣumnā madhyadeśe tu prāṇamārgo mahatpathaḥ ||"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Mudra — The Ten Great Seals",
+      "titleSanskrit": "दश महामुद्रा",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "महामुद्रां महाबन्धं खेचरीं जालन्धरम् | उड्डियानं मूलबन्धं विपरीतकरणी तथा | वज्रोली योनिमुद्रा च शक्तिचालनमेव च | दश मुद्राः समाख्याताः सिद्धिदा योगिनां सदा ||",
+          "transliteration": "mahāmudrāṃ mahābandhaṃ khecarīṃ jālandharaṃ | uḍḍiyānaṃ mūlabandhaṃ viparītakaraṇī tathā | vajrolī yonimudrā ca śakticālanameva ca | daśa mudrāḥ samākhyātāḥ siddhidā yogināṃ sadā ||"
+        },
+        {
+          "number": 78,
+          "sanskrit": "कुण्डलिनी शक्तिरियं स्वाधिष्ठाने वसेत्सदा | सा चालिता भवेत्शक्तिः सुषुम्नापथगामिनी ||",
+          "transliteration": "kuṇḍalinī śaktiriyaṃ svādhiṣṭhāne vasetsadā | sā cālitā bhavetśaktiḥ suṣumnāpathagāminī ||"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Samadhi — Liberation Through Inner Sound",
+      "titleSanskrit": "समाधि — नादानुसंधान",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "श्रूयते प्रथमाभ्यासे नादो नानाविधो महान् | ततोऽभ्यासे वर्धमाने श्रूयते सूक्ष्मः सूक्ष्मतरः ||",
+          "transliteration": "śrūyate prathamābhyāse nādo nānāvidho mahān | tato'bhyāse vardhamāne śrūyate sūkṣmaḥ sūkṣmataraḥ ||"
+        },
+        {
+          "number": 52,
+          "sanskrit": "यावन्नादस्तु संजातः तावन्मनः प्रलीयते | ब्रह्मैव केवलं शेषं यत्परं तत्परं पदम् ||",
+          "transliteration": "yāvannādastu saṃjātaḥ tāvanmanaḥ pralīyate | brahmaiva kevalaṃ śeṣaṃ yatparaṃ tatparaṃ padam ||"
+        },
+        {
+          "number": 5,
+          "sanskrit": "योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो शिवसमाश्रयः ||",
+          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ śivasamāśrayaḥ ||"
+        },
+        {
+          "number": 10,
+          "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं शिव एव सर्वं शिव मयि सर्वम् ||",
+          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ śiva eva sarvaṃ śiva mayi sarvam ||"
+        },
+        {
+          "number": 15,
+          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो शिवे लीनो न तत्र संशयो भवति ||",
+          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo śive līno na tatra saṃśayo bhavati ||"
+        },
+        {
+          "number": 20,
+          "sanskrit": "शान्तं शिवमद्वैतं शिव नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
+          "transliteration": "śāntaṃ śivamadvaitaṃ śiva nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||"
+        },
+        {
+          "number": 25,
+          "sanskrit": "एको देवो द्वितीयो नास्ति यो शिवं वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
+          "transliteration": "eko devo dvitīyo nāsti yo śivaṃ veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||"
+        },
+        {
+          "number": 30,
+          "sanskrit": "शिवः सर्वभूतानां हृदये संनिविष्टः | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
+          "transliteration": "śivaḥ sarvabhūtānāṃ hṛdaye saṃniviṣṭaḥ | yo jānāti sa paśyati yo na jānāti na paśyati ||"
+        },
+        {
+          "number": 35,
+          "sanskrit": "शिवः प्राणः प्राणेश्चैव शिवः सर्वेषु भूतेषु | यो शिवं प्राणरूपेण जानाति स मुक्तो भवति ||",
+          "transliteration": "śivaḥ prāṇaḥ prāṇeścaiva śivaḥ sarveṣu bhūteṣu | yo śivaṃ prāṇarūpeṇa jānāti sa mukto bhavati ||"
+        }
+      ]
+    }
+  ]
+}

@@ -786,6 +786,18 @@ export const scriptureCatalog: ScriptureMeta[] = [
     tags: ["Purana", "Skanda", "Kartikeya", "Tirtha", "Kashi", "Shiva", "Mahakala", "Somnath", "Jyotirlinga", "SacredGeography", "Pilgrimage", "Mahapurana", "TarakaBrahman"],
     hasData: true,
   },
+  {
+    id: "nityakarmakriya",
+    title: "Nitya Karma Kriya",
+    titleSanskrit: "नित्य कर्म क्रिया",
+    category: "smriti",
+    description:
+      "Daily religious rituals and observances prescribed in Hindu Dharma. These include Sandhya Vandana (twilight prayers), Agnihotra (fire ritual), Daily Puja (worship), Japa (mantra repetition), and Surya Namaskara (sun salutations). These nitya karmas purify the mind and body, maintain spiritual discipline, and create a sacred rhythm in daily life. Sandhya: Gayatri mantra at sunrise, noon, sunset — aligning consciousness with cosmic transitions. Agnihotra: twice-daily fire offerings to Agni as divine messenger. Puja: sixteen-step worship (Shodashopachara) of Ishta Devata with devotion. Japa: repetition of sacred mantras (Gayatri, Om Namah Shivaya, etc.) using mala for concentration. Surya Namaskara: physical-spiritual salutations to the Sun as source of all life. Core teaching: consistency transforms ritual into embodied spirituality — the sacred becomes ordinary through daily practice, and the ordinary becomes sacred through intentional presence.",
+    totalChapters: 5,
+    totalVerses: 51,
+    tags: ["DailyRituals", "Sandhya", "Agnihotra", "Puja", "Japa", "SuryaNamaskara", "Smriti", "Dharma", "Gayatri", "Mantra", "Worship", "Discipline", "NityaKarma", "SpiritualPractice"],
+    hasData: true,
+  },
 ];
 
 export const categories = [

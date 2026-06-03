@@ -40,6 +40,32 @@ import {
   normalizeItxLine,
   splitUpanishadChapters,
 } from "./lib/itrans-parser";
+import { getScripture } from "../data/scriptures";
+
+function mergeCuratedChapters(id: string, seeded: FullChapter[]): FullChapter[] {
+  const curated = getScripture(id);
+  if (!curated) return seeded;
+
+  const seededNumbers = new Set(seeded.map((c) => c.number));
+  const finalChapters = [...seeded];
+
+  for (const cc of curated.chapters) {
+    if (!seededNumbers.has(cc.id)) {
+      finalChapters.push({
+        number: cc.id,
+        title: cc.title,
+        titleSanskrit: cc.titleSanskrit,
+        verses: cc.verses.map((v) => ({
+          number: v.id,
+          sanskrit: v.sanskrit,
+          transliteration: v.transliteration || "",
+        })),
+      });
+    }
+  }
+
+  return finalChapters.sort((a, b) => a.number - b.number);
+}
 
 const BASE = "https://sanskritdocuments.org/doc_upanishhat";
 
@@ -196,6 +222,12 @@ async function main(): Promise<void> {
   for (const cfg of UPANISHADS) {
     try {
       const scripture = await fetchAndParse(cfg);
+      
+      // Generic fallback: merge curated chapters to handle empty/partially seeded scriptures
+      scripture.chapters = mergeCuratedChapters(scripture.id, scripture.chapters);
+      scripture.totalChapters = scripture.chapters.length;
+      scripture.totalVerses = scripture.chapters.reduce((sum, c) => sum + c.verses.length, 0);
+
       const outPath = writeScripture(scripture);
       log(
         `Wrote ${scripture.totalVerses} verses · ${scripture.totalChapters} chapters · ${cfg.id} -> ${outPath}`,

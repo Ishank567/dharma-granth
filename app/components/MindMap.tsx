@@ -185,7 +185,7 @@ export function MindMap({ data, className = '' }: MindMapProps) {
         <div className="flex items-center gap-2">
           <button
             onClick={expandAll}
-            className="flex items-center gap-1 px-3 py-2 bg-white border border-dharma-border rounded-lg text-sm font-semibold hover:bg-saffron-50 transition"
+            className="flex items-center gap-1 px-3 py-2 bg-dharma-card border border-dharma-border rounded-lg text-sm font-semibold hover:bg-saffron-500/10 transition"
             title="Expand all"
           >
             <ChevronDown className="w-4 h-4" />
@@ -193,7 +193,7 @@ export function MindMap({ data, className = '' }: MindMapProps) {
           </button>
           <button
             onClick={collapseAll}
-            className="flex items-center gap-1 px-3 py-2 bg-white border border-dharma-border rounded-lg text-sm font-semibold hover:bg-saffron-50 transition"
+            className="flex items-center gap-1 px-3 py-2 bg-dharma-card border border-dharma-border rounded-lg text-sm font-semibold hover:bg-saffron-500/10 transition"
             title="Collapse all"
           >
             <ChevronUp className="w-4 h-4" />
@@ -210,20 +210,20 @@ export function MindMap({ data, className = '' }: MindMapProps) {
                 placeholder="Search nodes..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="pl-10 pr-4 py-2 border border-dharma-border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-saffron-500"
+                className="pl-10 pr-4 py-2 border border-dharma-border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-saffron-500 bg-dharma-card"
               />
             </div>
           )}
           <button
             onClick={() => setShowSearch(!showSearch)}
-            className="p-2 bg-white border border-dharma-border rounded-lg hover:bg-saffron-50 transition"
+            className="p-2 bg-dharma-card border border-dharma-border rounded-lg hover:bg-saffron-500/10 transition"
             title="Search"
           >
             <Search className="w-4 h-4" />
           </button>
           <button
             onClick={handleZoomOut}
-            className="p-2 bg-white border border-dharma-border rounded-lg hover:bg-saffron-50 transition"
+            className="p-2 bg-dharma-card border border-dharma-border rounded-lg hover:bg-saffron-500/10 transition"
             title="Zoom out"
           >
             <ZoomOut className="w-4 h-4" />
@@ -233,21 +233,21 @@ export function MindMap({ data, className = '' }: MindMapProps) {
           </span>
           <button
             onClick={handleZoomIn}
-            className="p-2 bg-white border border-dharma-border rounded-lg hover:bg-saffron-50 transition"
+            className="p-2 bg-dharma-card border border-dharma-border rounded-lg hover:bg-saffron-500/10 transition"
             title="Zoom in"
           >
             <ZoomIn className="w-4 h-4" />
           </button>
           <button
             onClick={handleResetZoom}
-            className="p-2 bg-white border border-dharma-border rounded-lg hover:bg-saffron-50 transition"
+            className="p-2 bg-dharma-card border border-dharma-border rounded-lg hover:bg-saffron-500/10 transition"
             title="Reset zoom"
           >
             Reset
           </button>
           <button
             onClick={() => setIsFullscreen(!isFullscreen)}
-            className="p-2 bg-white border border-dharma-border rounded-lg hover:bg-saffron-50 transition"
+            className="p-2 bg-dharma-card border border-dharma-border rounded-lg hover:bg-saffron-500/10 transition"
             title="Toggle fullscreen"
           >
             <Maximize2 className="w-4 h-4" />

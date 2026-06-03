@@ -11,6 +11,12 @@ import {
 import { FadeUp, FadeUpOnView, Stagger, StaggerItem } from "@/app/components/motion/primitives";
 import { ScriptureCard } from "@/app/components/motion/ScriptureCard";
 import { InteractiveInfographic } from "@/app/components/InteractiveInfographic";
+import { PanchangCalendar } from "@/app/components/PanchangCalendar";
+import { NityaKarmaKriya } from "@/app/components/NityaKarmaKriya";
+import { StatsInfographic } from "@/app/components/StatsInfographic";
+import { ThreePillarsInfographic } from "@/app/components/ThreePillarsInfographic";
+import { ScienceSpiritualityInfographic } from "@/app/components/ScienceSpiritualityInfographic";
+import { HeroSection } from "@/app/components/HeroSection";
 import {
   BookOpen,
   Flame,
@@ -28,6 +34,8 @@ import {
   Star,
   Brain,
   Zap,
+  Music,
+  WandSparkles,
 } from "lucide-react";
 
 // ── Featured Verse: Bhagavad Gita 2.47 ──────────────────────────
@@ -59,6 +67,8 @@ const categoryIcons: Record<ListedCategory, ReactNode> = {
   itihasa: <Scroll className="w-6 h-6" />,
   purana: <TreePine className="w-6 h-6" />,
   smriti: <Scale className="w-6 h-6" />,
+  tantra: <WandSparkles className="w-6 h-6" />,
+  stotra: <Music className="w-6 h-6" />,
   other: <Heart className="w-6 h-6" />,
 };
 
@@ -220,209 +230,53 @@ export default function HomePage() {
         </FadeUpOnView>
       </section>
 
-      {/* ── Stats ─────────────────────────────────────────────────── */}
-      <section className="max-w-6xl mx-auto px-6 py-10">
-        <Stagger className="grid grid-cols-2 md:grid-cols-4 gap-4" amount={0.2}>
-          {[
-            {
-              value: realVerses,
-              label: "Verses Explained",
-              icon: <BookOpen className="w-5 h-5" />,
-              color: "text-saffron-700 bg-gradient-to-br from-saffron-50 to-amber-50",
-              border: "border-saffron-200",
-            },
-            {
-              value: realChapters,
-              label: "Chapters Live",
-              icon: <Scroll className="w-5 h-5" />,
-              color: "text-emerald-700 bg-gradient-to-br from-emerald-50 to-green-50",
-              border: "border-emerald-200",
-            },
-            {
-              value: realScriptures,
-              label: "Scriptures Indexed",
-              icon: <Flame className="w-5 h-5" />,
-              color: "text-indigo-700 bg-gradient-to-br from-indigo-50 to-blue-50",
-              border: "border-indigo-200",
-            },
-            {
-              value: cataloged,
-              label: "In the Library",
-              icon: <TreePine className="w-5 h-5" />,
-              color: "text-amber-700 bg-gradient-to-br from-amber-50 to-yellow-50",
-              border: "border-amber-200",
-            },
-          ].map((stat) => (
-            <StaggerItem
-              key={stat.label}
-              className="bg-white rounded-2xl border border-dharma-border p-6 text-center shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
-            >
-              <div
-                className={`inline-flex items-center justify-center w-12 h-12 rounded-xl mb-3 ${stat.color} border ${stat.border} shadow-sm`}
-              >
-                {stat.icon}
-              </div>
-              <div className="text-3xl md:text-4xl font-bold text-dharma-text">
-                {stat.value}
-              </div>
-              <div className="text-xs text-dharma-muted mt-1 uppercase tracking-wider font-semibold">
-                {stat.label}
-              </div>
-            </StaggerItem>
-          ))}
-        </Stagger>
-        <p className="text-center text-sm text-dharma-muted mt-4 max-w-2xl mx-auto">
-          Numbers reflect verses with full hand-authored commentary. The library
-          catalogs {cataloged} traditional texts and grows over time.
-        </p>
-      </section>
+            {/* ── Stats ─────────────────────────────────────────────────── */}
+      <StatsInfographic stats={[
+        {
+          value: 0,
+          label: "Verses Explained",
+          icon: <BookOpen className="w-5 h-5" />,
+          color: "text-saffron-700 bg-gradient-to-br from-saffron-50 to-amber-50",
+          border: "border-saffron-200",
+          trend: "+12%"
+        },
+        {
+          value: 0,
+          label: "Chapters Live",
+          icon: <Scroll className="w-5 h-5" />,
+          color: "text-emerald-700 bg-gradient-to-br from-emerald-50 to-green-50",
+          border: "border-emerald-200",
+          trend: "+8%"
+        },
+        {
+          value: 0,
+          label: "Scriptures Indexed",
+          icon: <Flame className="w-5 h-5" />,
+          color: "text-indigo-700 bg-gradient-to-br from-indigo-50 to-blue-50",
+          border: "border-indigo-200",
+          trend: "+5%"
+        },
+        {
+          value: 0,
+          label: "In the Library",
+          icon: <TreePine className="w-5 h-5" />,
+          color: "text-amber-700 bg-gradient-to-br from-amber-50 to-yellow-50",
+          border: "border-amber-200",
+          trend: "+15%"
+        },
+      ]} />
 
-      {/* ── Three Pillars ─────────────────────────────────────────── */}
-      <section className="max-w-6xl mx-auto px-6 py-12">
-        <FadeUpOnView className="text-center mb-12">
-          <h2 className="text-4xl font-serif font-bold text-dharma-text mb-3">
-            तीन स्तंभ
-          </h2>
-          <p className="text-dharma-muted text-lg">
-            Three pillars of every verse on this site
-          </p>
-        </FadeUpOnView>
-        <Stagger className="grid md:grid-cols-3 gap-6" amount={0.15}>
-          {/* Pillar 1: Languages */}
-          <StaggerItem className="pillar-card bg-white/80 backdrop-blur-sm">
-            <div className="pillar-icon-wrap bg-gradient-to-br from-saffron-500 to-saffron-700 shadow-lg">
-              <Languages className="w-6 h-6" />
-            </div>
-            <h3 className="font-serif font-bold text-xl text-dharma-text mb-2">
-              संस्कृत + हिंदी + English
-            </h3>
-            <p className="text-sm text-dharma-muted leading-relaxed mb-4">
-              Every verse: original Sanskrit, transliteration, plain
-              translation, and deep commentary in both Hindi and English.
-            </p>
-            <div className="rounded-xl bg-gradient-to-br from-saffron-50 to-amber-50 border border-saffron-200 p-4 text-center shadow-sm">
-              <p className="font-devanagari text-xl text-saffron-800 font-semibold">
-                कर्म = Action
-              </p>
-              <p className="text-xs text-saffron-600 mt-1">
-                karma = karman (doing) → effort without ego
-              </p>
-            </div>
-          </StaggerItem>
+      {/* ── Panchang Calendar ────────────────────────────────────── */}
+      <PanchangCalendar />
 
-          {/* Pillar 2: Scientific Temperament */}
-          <StaggerItem className="pillar-card bg-white/80 backdrop-blur-sm border-indigo-100 hover:border-indigo-300">
-            <div className="pillar-icon-wrap bg-gradient-to-br from-indigo-500 to-blue-600 shadow-lg">
-              <Atom className="w-6 h-6" />
-            </div>
-            <h3 className="font-serif font-bold text-xl text-dharma-text mb-2">
-              वैज्ञानिक दृष्टिकोण
-            </h3>
-            <p className="text-sm text-dharma-muted leading-relaxed mb-4">
-              प्रत्येक श्लोक के साथ आधुनिक विज्ञान का संदर्भ — न्यूरोसाइंस,
-              मनोविज्ञान और भौतिकी की रोशनी में प्राचीन ज्ञान।
-            </p>
-            <div className="flex flex-wrap gap-2">
-              {["Neuroscience", "Psychology", "Physics", "Flow State"].map(
-                (tag) => (
-                  <span key={tag} className="keyword-chip-science shadow-sm hover:shadow-md transition-shadow">
-                    {tag}
-                  </span>
-                ),
-              )}
-            </div>
-          </StaggerItem>
+      {/* ── Nitya Karma Kriya ────────────────────────────────────── */}
+      <NityaKarmaKriya />
 
-          {/* Pillar 3: Free */}
-          <StaggerItem className="pillar-card bg-white/80 backdrop-blur-sm border-emerald-100 hover:border-emerald-300">
-            <div className="pillar-icon-wrap bg-gradient-to-br from-emerald-500 to-green-600 shadow-lg">
-              <ShieldCheck className="w-6 h-6" />
-            </div>
-            <h3 className="font-serif font-bold text-xl text-dharma-text mb-2">
-              Free. Ad-free. Always.
-            </h3>
-            <p className="text-sm text-dharma-muted leading-relaxed mb-4">
-              No paywalls, no trackers, no ads. The text belongs to everyone.
-              Built for learning, not for profit.
-            </p>
-            <div className="flex items-center gap-2 rounded-xl bg-gradient-to-br from-emerald-50 to-green-50 border border-emerald-200 px-4 py-3 shadow-sm">
-              <Sparkles className="w-4 h-4 text-emerald-600 flex-shrink-0" />
-              <p className="text-xs text-emerald-800 font-semibold">
-                Designed for study, not skimming
-              </p>
-            </div>
-          </StaggerItem>
-        </Stagger>
-      </section>
+            {/* ── Three Pillars ─────────────────────────────────────────── */}
+      <ThreePillarsInfographic />
 
-      {/* ── Science Meets Spirituality Banner ─────────────────────── */}
-      <section className="max-w-6xl mx-auto px-6 py-8">
-        <FadeUpOnView className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-indigo-900 via-indigo-800 to-blue-900 text-white p-8 md:p-10 shadow-2xl">
-          <div className="absolute inset-0 mandala-bg opacity-10 pointer-events-none" />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none" />
-          <div className="relative grid md:grid-cols-2 gap-10 items-center">
-            <div>
-              <p className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-indigo-300 mb-4 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full border border-white/20">
-                <Atom className="w-3.5 h-3.5" />
-                विज्ञान और अध्यात्म
-              </p>
-              <h2 className="text-3xl md:text-4xl font-serif font-bold mb-4 leading-tight">
-                Where Ancient Wisdom
-                <br />
-                Meets Modern Science
-              </h2>
-              <p className="text-indigo-100 text-base leading-relaxed">
-                The Gita taught &ldquo;process over outcome&rdquo; 2500 years
-                before Carol Dweck. The Upanishads described consciousness
-                before neuroscience. Every verse here connects the timeless to
-                the testable.
-              </p>
-            </div>
-            <div className="space-y-4">
-              {[
-                {
-                  verse: "गीता २.२०",
-                  claim: "आत्मा अजन्मा है",
-                  science: "Energy Conservation Law — Einstein",
-                  icon: <Zap className="w-4 h-4" />,
-                },
-                {
-                  verse: "गीता ६.५",
-                  claim: "मन मित्र भी, शत्रु भी",
-                  science: "Prefrontal Cortex & Amygdala Regulation",
-                  icon: <Brain className="w-4 h-4" />,
-                },
-                {
-                  verse: "गीता २.४७",
-                  claim: "निष्काम कर्म करो",
-                  science: "Flow State — Csikszentmihalyi",
-                  icon: <Sparkles className="w-4 h-4" />,
-                },
-              ].map((row) => (
-                <div
-                  key={row.verse}
-                  className="flex items-start gap-3 bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20 hover:bg-white/15 transition-all hover:scale-[1.02] transform"
-                >
-                  <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-indigo-700 flex items-center justify-center text-indigo-200 shadow-lg">
-                    {row.icon}
-                  </div>
-                  <div>
-                    <p className="text-xs text-indigo-300 mb-1 font-semibold">
-                      {row.verse}
-                    </p>
-                    <p className="font-devanagari text-sm text-white font-semibold mb-1">
-                      {row.claim}
-                    </p>
-                    <p className="text-xs text-indigo-300">
-                      ↔ {row.science}
-                    </p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </FadeUpOnView>
-      </section>
+            {/* ── Science Meets Spirituality ─────────────────────── */}
+      <ScienceSpiritualityInfographic />
 
       {/* ── Featured Texts ────────────────────────────────────────── */}
       {featured.length > 0 && (
@@ -486,7 +340,7 @@ export default function HomePage() {
             Browse by Category
           </h2>
           <p className="text-dharma-muted text-lg">
-            Explore the sixfold division of sacred literature
+            Explore the major streams of sacred literature
           </p>
         </FadeUpOnView>
         <Stagger className="grid md:grid-cols-2 lg:grid-cols-3 gap-6" amount={0.1}>

@@ -202,7 +202,7 @@ export function FlashCard({ data, onNext, onPrevious, onReset, currentIndex, tot
 
           {/* Back of card */}
           <motion.div
-            className="absolute inset-0 backface-hidden bg-gradient-to-br from-white to-saffron-50 rounded-3xl border-2 border-saffron-200 p-8 shadow-xl"
+            className="absolute inset-0 backface-hidden bg-gradient-to-br from-dharma-card to-saffron-50/20 rounded-3xl border-2 border-saffron-200 p-8 shadow-xl"
             style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}
             animate={reduce ? {} : { rotateY: isFlipped ? 0 : -180 }}
           >
@@ -274,7 +274,7 @@ export function FlashCard({ data, onNext, onPrevious, onReset, currentIndex, tot
         <button
           onClick={handlePrevious}
           disabled={currentIndex === 0}
-          className="flex items-center gap-2 px-6 py-3 bg-white border border-dharma-border rounded-full font-semibold hover:bg-saffron-50 transition disabled:opacity-50 disabled:cursor-not-allowed shadow-sm hover:shadow-md"
+          className="flex items-center gap-2 px-6 py-3 bg-dharma-card border border-dharma-border rounded-full font-semibold hover:bg-saffron-50/20 transition disabled:opacity-50 disabled:cursor-not-allowed shadow-sm hover:shadow-md"
           aria-label="Previous card"
         >
           <ChevronLeft className="w-4 h-4" />

@@ -63,6 +63,7 @@ import { vamanpuran } from "./vamanpuran";
 import { varahapuran } from "./varahapuran";
 import { vayupuran } from "./vayupuran";
 import { viduraniti } from "./viduraniti";
+import { nityaKarmaKriya } from "./nityakarmakriya";
 import { scriptureCatalog } from "../scripture-meta";
 
 export const scriptureMap: Record<string, Scripture> = {
@@ -130,6 +131,7 @@ export const scriptureMap: Record<string, Scripture> = {
   [varahapuran.id]: varahapuran,
   [vayupuran.id]: vayupuran,
   [viduraniti.id]: viduraniti,
+  [nityaKarmaKriya.id]: nityaKarmaKriya,
 };
 
 function hasVerseData(scripture: Scripture | undefined): boolean {

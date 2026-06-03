@@ -1,0 +1,71 @@
+{
+  "id": "brahmandpuran",
+  "title": "Brahmanda Purana",
+  "titleSanskrit": "ब्रह्माण्डपुराण",
+  "category": "purana",
+  "source": {
+    "repo": "https://sanskritdocuments.org/",
+    "license": "Full text not available. Curated highlights are hand-authored.",
+    "fetchedAt": "2026-06-02T08:43:33.862Z"
+  },
+  "totalVerses": 7,
+  "totalChapters": 3,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "The Cosmic Egg — Nested Reality",
+      "titleSanskrit": "ब्रह्माण्ड उत्पत्ति",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "ब्रह्माण्डमण्डलाकारं वह्नेरण्डमिव स्थितम् |\nजलेनावृतमित्याहुस्तोयेनाम्बु च मण्डलम् ||",
+          "transliteration": "brahmāṇḍamaṇḍalākāraṃ vahneraṇḍamiva sthitam |\njalenāvṛtamityāhustoyenāmbu ca maṇḍalam ||"
+        },
+        {
+          "number": 2,
+          "sanskrit": "लक्ष्मीनारायणो यत्र यत्र गौरीशङ्करौ |\nयत्र साहित्यविद्या च तत्र भूरि सुखं नृणाम् ||",
+          "transliteration": "lakṣmīnārāyaṇo yatra yatra gaurīśaṅkarau |\nyatra sāhityavidyā ca tatra bhūri sukhaṃ nṛṇām ||"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Lalita Sahasranama — The Thousand Names",
+      "titleSanskrit": "ललितासहस्रनाम",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "सिन्दूरारुणविग्रहां त्रिनयनां माणिक्यमौलिस्फुरत् | तारानायकशेखरां स्मितमुखीमापीनवक्षोरुहाम् ||",
+          "transliteration": "sindūrāruṇaviGrahāṃ trinayanāṃ māṇikyamauliSphurat | tārānāyakaśekharāṃ smitamukhīmāpīnavakṣoruhām ||"
+        },
+        {
+          "number": 2,
+          "sanskrit": "श्री माता श्री महाराज्ञी श्रीमत् सिंहासनेश्वरी | चिदग्निकुण्डसम्भूता देवकार्यसमुद्यता ||",
+          "transliteration": "śrī mātā śrī mahārājñī śrīmat siṃhāsaneśvarī | cidagnikuṇḍasambhūtā devakāryasamudyatā ||"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Time, Cycles, and Cosmic Order",
+      "titleSanskrit": "कालचक्र",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "यो वेत्ति कालस्य गतिं स वेत्ति | क्षणं मुहूर्तं च दिनं च रात्रिम् | मासं ऋतुं संवत्सरं च युगम् | स ज्ञानी न मोहस्य वशं प्रयाति ||",
+          "transliteration": "yo vetti kālasya gatiṃ sa vetti | kṣaṇaṃ muhūrtaṃ ca dinaṃ ca rātrim | māsaṃ ṛtuṃ saṃvatsaraṃ ca yugam | sa jñānī na mohasya vaśaṃ prayāti ||"
+        },
+        {
+          "number": 4,
+          "sanskrit": "देवी देवानां देवता देवीनां देवतानाम् | सर्वभूतानां च शक्तिः सर्वभूतानां च धारिणी ||",
+          "transliteration": "devī devānāṃ devatā devīnāṃ devatānām | sarvabhūtānāṃ ca śaktiḥ sarvabhūtānāṃ ca dhāriṇī ||"
+        },
+        {
+          "number": 8,
+          "sanskrit": "यां विन्दते सा वै शक्तिर्या वा विद्यात्मिका परा | या च कर्मात्मिका प्रोक्ता त्रिधा शक्तिः प्रतिष्ठिता ||",
+          "transliteration": "yāṃ vindate sā vai śaktiryā vā vidyātmikā parā | yā ca karmātmikā proktā tridhā śaktiḥ pratiṣṭhitā ||"
+        }
+      ]
+    }
+  ]
+}

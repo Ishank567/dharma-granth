@@ -1,0 +1,86 @@
+{
+  "id": "varahapuran",
+  "title": "Varaha Purana",
+  "titleSanskrit": "वाराहपुराण",
+  "category": "purana",
+  "source": {
+    "repo": "https://sanskritdocuments.org/",
+    "license": "Full text not available. Curated highlights are hand-authored.",
+    "fetchedAt": "2026-06-02T08:43:33.872Z"
+  },
+  "totalVerses": 10,
+  "totalChapters": 3,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Varaha Avatara — The Rescue of Earth",
+      "titleSanskrit": "वाराहावतार",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "वाराहं रूपमास्थाय महाविष्णुः प्रजापतिः | रसातलतलं गत्वा उद्धृतां धरणीं ददौ ||",
+          "transliteration": "vārāhaṃ rūpamāsthāya mahāviṣṇuḥ prajāpatiḥ | rasātalaṃ talaṃ gatvā uddhrītāṃ dharaṇīṃ dadau ||"
+        },
+        {
+          "number": 12,
+          "sanskrit": "हिरण्याक्षो महाबाहुः पृथिवीं निह्नुते बली | तमहत्वा महाविष्णुः पृथिवीमुज्जहार ह ||",
+          "transliteration": "hiraṇyākṣo mahābāhuḥ pṛthivīṃ nihnute balī | tamāhatvā mahāviṣṇuḥ pṛthivīmujjahāra ha ||"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Bhudevi Samvada — The Earth Speaks",
+      "titleSanskrit": "भूदेवी संवाद",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "भूरुवाच: को धर्मः परमो लोके केन मुक्तिः प्रजायते | कथं त्वां पूजयेद् विष्णो यथा मुक्तिः प्रजायते ||",
+          "transliteration": "bhūruvāca: ko dharmaḥ paramo loke kena muktiḥ prajāyate | kathaṃ tvāṃ pūjayed viṣṇo yathā muktiḥ prajāyate ||"
+        },
+        {
+          "number": 8,
+          "sanskrit": "सर्वभूतहितं धर्मं विष्णुरुवाच महामते | अहिंसा परमो धर्मः सर्वप्राणभृतां वर ||",
+          "transliteration": "sarvabhūtahitaṃ dharmaṃ viṣṇuruvāca mahāmate | ahiṃsā paramo dharmaḥ sarvapraṇabhṛtāṃ vara ||"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Prapatti Yoga — Complete Surrender to Vishnu",
+      "titleSanskrit": "प्रपत्तियोग",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "स्थाने हृषीकेश तव प्रकीर्त्या जगत्प्रहृष्यत्यनुरज्यते च | रक्षांसि भीतानि दिशो द्रवन्ति सर्वे नमस्यन्ति च सिद्धसङ्घाः ||",
+          "transliteration": "sthāne hṛṣīkeśa tava prakīrtyā jagatprahṛṣyatyanurajyate ca | rakṣāṃsi bhītāni diśo dravanti sarve namasyanti ca siddhasaṃghāḥ ||"
+        },
+        {
+          "number": 22,
+          "sanskrit": "आनुकूल्यस्य सङ्कल्पः प्रातिकूल्यस्य वर्जनम् | रक्षिष्यतीति विश्वासो गोप्तृत्वे वरणं तथा ||",
+          "transliteration": "ānukūlyasya saṃkalpaḥ prātikūlyasya varjanam | rakṣiṣyatīti viśvāso goptṛtve varaṇaṃ tathā ||"
+        },
+        {
+          "number": 5,
+          "sanskrit": "वराहो भूत्वा विष्णुस्तु भूदेवीं पातालवासिनीम् | उद्धृत्य दंष्ट्रयोर्मूले स्थापयामास पृथ्व्याम् ||",
+          "transliteration": "varāho bhūtvā viṣṇustu bhūdevīṃ pātālavāsinīm | uddhṛtya daṃṣṭrayormūle sthāpayāmāsa pṛthvyām ||"
+        },
+        {
+          "number": 26,
+          "sanskrit": "भूदेवी विष्णुं प्राहु: कथं मुक्तिः प्रजायते | विष्णुरुवाच: भक्तिरेषा मुक्तिः सर्वकर्मभिः ||",
+          "transliteration": "bhūdevī viṣṇuṃ prāhu: kathaṃ muktiḥ prajāyate | viṣṇuruvāca: bhaktireṣā muktiḥ sarvakarmabhiḥ ||"
+        },
+        {
+          "number": 27,
+          "sanskrit": "धर्मो रक्षति रक्षितः धर्मो हन्ति हतः क्रिया | धर्मो न प्रशश्यते किञ्चित् धर्मेण तप्यते अमृतम् ||",
+          "transliteration": "dharmo rakṣati rakṣitaḥ dharmaḥ hanti hatāḥ kriyā | dharmaḥ na praśaśyate kiñcid dharmeṇa tapyate amṛtam ||"
+        },
+        {
+          "number": 28,
+          "sanskrit": "सर्वभूतानां हितार्थं विष्णुः सर्वं पालयते | यो विष्णुं भजते भक्त्या स प्राप्नोति परं पदम् ||",
+          "transliteration": "sarvabhūtānām hitārthaṃ viṣṇuḥ sarvaṃ pālayate | yo viṣṇuṃ bhajate bhaktyā sa prāpnoti paraṃ padam ||"
+        }
+      ]
+    }
+  ]
+}

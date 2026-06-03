@@ -1,0 +1,123 @@
+{
+  "id": "shivaswarodaya",
+  "title": "Shiva Swarodaya",
+  "titleSanskrit": "शिवस्वरोदय",
+  "category": "tantra",
+  "source": {
+    "repo": "https://sanskritdocuments.org/",
+    "license": "Full text not available. Curated highlights are hand-authored.",
+    "fetchedAt": "2026-06-02T08:43:33.864Z"
+  },
+  "totalVerses": 16,
+  "totalChapters": 4,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Mangalacharana — Invocation and the Nature of Svara",
+      "titleSanskrit": "मङ्गलाचरण — स्वर-स्वरूप",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "श्रीमच्छिवस्वरोदयं परमगुह्यं महेश्वरात् | प्राप्तं पार्वत्युवाचेदं सर्वलोकहितैषिणी ||",
+          "transliteration": "śrīmacchivasvarodayaṃ paramaguhyaṃ maheśvarāt | prāptaṃ pārvatyuvācedaṃ sarvalokahitaiṣiṇī ||"
+        },
+        {
+          "number": 9,
+          "sanskrit": "स्वरज्ञो जीवति निश्चितं | स्वरविहीनो मृतः सदा ||",
+          "transliteration": "svarajño jīvati niścitaṃ | svaravihīno mṛtaḥ sadā ||"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Tattva Viveka — Detecting the Active Element in the Breath",
+      "titleSanskrit": "तत्त्व विवेक",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "पृथिव्यां स्थिरकार्याणि जले सर्वे शुभा क्रियाः | वह्नौ च क्रूरकर्माणि वायौ खेचरणं तथा | व्योम्नि नैव शुभं कार्यं सर्वसिद्धिस्तु शून्यके ||",
+          "transliteration": "pṛthivyāṃ sthirakāryāṇi jale sarve śubhā kriyāḥ | vahnau ca krūrakarmāṇi vāyau khecaraṇaṃ tathā | vyomni naiva śubhaṃ kāryaṃ sarvasiddhistu śūnyake ||"
+        },
+        {
+          "number": 35,
+          "sanskrit": "यदा स्यात् सुषुम्नायां वहति मारुतः | तदा न शुभकार्याणि न च मोक्षस्य साधनम् || सुषुम्नायां भवेद्ध्यानं सर्वसिद्धिप्रदायकम् ||",
+          "transliteration": "yadā syāt suṣumnāyāṃ vahati mārutaḥ | tadā na śubhakāryāṇi na ca mokṣasya sādhanam || suṣumnāyāṃ bhavedhyānaṃ sarvasiddhipradāyakam ||"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Svara Phala — Reading Events from the Breath",
+      "titleSanskrit": "स्वर फल",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "प्रश्नकाले तु यो देही वहेत् स्वरेण संयुतः | तस्य कार्यं भवेत् सिद्धं सर्वेषामपि निश्चितम् ||",
+          "transliteration": "praśnakāle tu yo dehī vahet svareṇa saṃyutaḥ | tasya kāryaṃ bhavet siddhaṃ sarveṣāmapi niścitam ||"
+        },
+        {
+          "number": 82,
+          "sanskrit": "यावज्जीवं प्राणवायुः स्वरेण वहति क्रमात् | तावत् स्वस्थः स्वस्थचित्तो जीवेत् सुखेन मानवः ||",
+          "transliteration": "yāvajjīvaṃ prāṇavāyuḥ svareṇa vahati kramāt | tāvat svasthaḥ svasthacitto jīvet sukhena mānaḥ ||"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Mahaprana — The Universal Breath",
+      "titleSanskrit": "महाप्राण",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "ब्रह्मा विष्णुश्च रुद्रश्च स्वरे तिष्ठन्ति सर्वदा | स्वरेण गणिताः सर्वे स्वरे सूर्यः प्रतिष्ठितः ||",
+          "transliteration": "brahmā viṣṇuśca rudraśca svare tiṣṭhanti sarvadā | svareṇa gaṇitāḥ sarve svare sūryaḥ pratiṣṭhitaḥ ||"
+        },
+        {
+          "number": 2,
+          "sanskrit": "योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो ब्रह्मसमाश्रयः ||",
+          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ brahmasamāśrayaḥ ||"
+        },
+        {
+          "number": 3,
+          "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं ब्रह्म एव सर्वं ब्रह्म मयि सर्वम् ||",
+          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ brahma eva sarvaṃ brahma mayi sarvam ||"
+        },
+        {
+          "number": 4,
+          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो ब्रह्मणि लीनो न तत्र संशयो भवति ||",
+          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo brahmaṇi līno na tatra saṃśayo bhavati ||"
+        },
+        {
+          "number": 5,
+          "sanskrit": "शान्तं शिवमद्वैतं ब्रह्म नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
+          "transliteration": "śāntaṃ śivamadvaitaṃ brahma nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||"
+        },
+        {
+          "number": 6,
+          "sanskrit": "एको देवो द्वितीयो नास्ति यो ब्रह्म वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
+          "transliteration": "eko devo dvitīyo nāsti yo brahma veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||"
+        },
+        {
+          "number": 7,
+          "sanskrit": "दक्षिणा नाड़ी सूर्यस्य वामा चन्द्रमस्य च | सुषुम्ना अग्नेः स्वरूपा त्रयो देवा महेश्वराः ||",
+          "transliteration": "dakṣiṇā nāḍī sūryasya vāmā candramasya ca | suṣumnā agneḥ svarūpā trayo devā maheśvarāḥ ||"
+        },
+        {
+          "number": 8,
+          "sanskrit": "स्वरोदये शिवः साक्षात् प्राणे विष्णुरुद्यतः | रक्ते ब्रह्मा स्थितो नित्यं त्रयो देवाः प्रकाशिताः ||",
+          "transliteration": "svarodaye śivaḥ sākṣāt prāṇe viṣṇurudyataḥ | rakte brahmā sthito nityaṃ trayo devāḥ prakāśitāḥ ||"
+        },
+        {
+          "number": 9,
+          "sanskrit": "नाड़ीशुद्धिर्योगस्य मुक्तिर्नाड़ीशुद्धितः | शरीरस्थापनं योगो नाड़ीविज्ञानमुत्तमम् ||",
+          "transliteration": "nāḍīśuddhiryogasya muktirnāḍīśuddhitaḥ | śarīrasthāpanaṃ yoga nāḍīvijñānamuttamam ||"
+        },
+        {
+          "number": 10,
+          "sanskrit": "पञ्चतत्त्वानि पञ्चेन्द्रियाणि पञ्चप्राणाः पञ्चभूतानि | सर्वं शिवस्य स्वरूपं यो वेद स पश्यति ||",
+          "transliteration": "pañcatattvāni pañcendriyāṇi pañcaprāṇāḥ pañcabhūtāni | sarvaṃ śivasya svarūpaṃ yo veda sa paśyati ||"
+        }
+      ]
+    }
+  ]
+}

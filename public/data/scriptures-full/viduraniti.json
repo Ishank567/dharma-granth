@@ -1,0 +1,2705 @@
+{
+  "id": "viduraniti",
+  "title": "Vidura Niti",
+  "titleSanskrit": "विदुरनीति",
+  "category": "itihasa",
+  "source": {
+    "repo": "https://sanskritdocuments.org/doc_z_misc_major_works/viduraniti.itx",
+    "license": "Sanskrit mūla — public domain. Digitized by sanskritdocuments.org.",
+    "fetchedAt": "2026-06-02T08:43:33.858Z"
+  },
+  "totalVerses": 530,
+  "totalChapters": 8,
+  "chapters": [
+    {
+      "number": 1,
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "३३ वैशम्पायन उवाच । द्वाःस्थं प्राह महाप्राज्ञो धृतराष्ट्रो महीपतिः । विदुरं द्रष्टुमिच्छामि तमिहानय माचिरम्",
+          "transliteration": "33 vaishampAyana uvAcha | dvAHsthaM prAha mahAprAj~no dhR^itarAShTro mahIpatiH | vidura.n draShTumichChAmi tamihAnaya mAchiram"
+        },
+        {
+          "number": 2,
+          "sanskrit": "प्रहितो धृतराष्ट्रेण दूतः क्षत्तारमब्रवीत् । ईश्वरस्त्वां महाराजो महाप्राज्ञ दिदृक्षति",
+          "transliteration": "prahito dhR^itarAShTreNa dUtaH xattAramabravIt | IshvarastvAM mahArAjo mahAprAj~na didR^ixati"
+        },
+        {
+          "number": 3,
+          "sanskrit": "एवमुक्तस्तु विदुरः प्राप्य राजनिवेशनम् । अब्रवीद्धृतराष्ट्राय द्वाःस्थ मां प्रतिवेदय",
+          "transliteration": "evamuktastu viduraH prApya rAjaniveshanam | abravIddhR^itarAShTrAya dvAHstha mAM prativedaya"
+        },
+        {
+          "number": 4,
+          "sanskrit": "द्वाःस्थ उवाच । विदुरोऽयमनुप्राप्तो राजेन्द्र तव शासनात् । द्रष्टुमिच्छति ते पादौ किं करोतु प्रशाधि माम्",
+          "transliteration": "dvAHstha uvAcha | viduro.ayamanuprApto rAjendra tava shAsanAt | draShTumichChati te pAdau ki.n karotu prashAdhi mAm"
+        },
+        {
+          "number": 5,
+          "sanskrit": "धृतराष्ट्र उवाच । प्रवेशय महाप्राज्ञं विदुरं दीर्घदर्शिनम् । अहं हि विदुरस्यास्य नाकाल्यो जातु दर्शने",
+          "transliteration": "dhR^itarAShTra uvAcha | praveshaya mahAprAj~na.n vidura.n dIrghadarshinam | aha.n hi vidurasyAsya nAkAlyo jAtu darshane"
+        },
+        {
+          "number": 6,
+          "sanskrit": "द्वाःस्थ उवाच । प्रविशान्तः पुरं क्षत्तर्महाराजस्य धीमतः । न हि ते दर्शनेऽकाल्यो जातु राजा ब्रवीति माम्",
+          "transliteration": "dvAHstha uvAcha | pravishAntaH pura.n xattarmahArAjasya dhImataH | na hi te darshane.akAlyo jAtu rAjA bravIti mAm"
+        },
+        {
+          "number": 7,
+          "sanskrit": "वैशम्पायन उवाच । ततः प्रविश्य विदुरो धृतराष्ट्र निवेशनम् । अब्रवीत्प्राञ्जलिर्वाक्यं चिन्तयानं नराधिपम्",
+          "transliteration": "vaishampAyana uvAcha | tataH pravishya viduro dhR^itarAShTra niveshanam | abravItprA~njalirvAkya.n chintayAnaM narAdhipam"
+        },
+        {
+          "number": 8,
+          "sanskrit": "विदुरोऽहं महाप्राज्ञ सम्प्राप्तस्तव शासनात् । यदि किं चन कर्तव्यमयमस्मि प्रशाधि माम्",
+          "transliteration": "viduro.ahaM mahAprAj~na samprAptastava shAsanAt | yadi ki.n chana kartavyamayamasmi prashAdhi mAm"
+        },
+        {
+          "number": 9,
+          "sanskrit": "धृतरष्त्र उवाच । सञ्जयो विदुर प्राप्तो गर्हयित्वा च मां गतः । अजातशत्रोः श्वो वाक्यं सभामध्ये स वक्ष्यति",
+          "transliteration": "dhR^itaraShtra uvAcha | sa~njayo vidura prApto garhayitvA cha mA.n gataH | ajAtashatroH shvo vAkya.n sabhAmadhye sa vaxyati"
+        },
+        {
+          "number": 10,
+          "sanskrit": "तस्याद्य कुरुवीरस्य न विज्ञातं वचो मया । तन्मे दहति गात्राणि तदकार्षीत्प्रजागरम्",
+          "transliteration": "tasyAdya kuruvIrasya na vij~nAta.n vacho mayA | tanme dahati gAtrANi tadakArShItprajAgaram"
+        },
+        {
+          "number": 11,
+          "sanskrit": "जाग्रतो दह्यमानस्य श्रेयो यदिह पश्यसि । तद्ब्रूहि त्वं हि नस्तात धर्मार्थकुशलो ह्यसि",
+          "transliteration": "jAgrato dahyamAnasya shreyo yadiha pashyasi | tadbrUhi tva.n hi nastAta dharmArthakushalo hyasi"
+        },
+        {
+          "number": 12,
+          "sanskrit": "यतः प्राप्तः सञ्जयः पाण्डवेभ्यो न मे यथावन्मनसः प्रशान्तिः । सवेन्द्रियाण्यप्रकृतिं गतानि किं वक्ष्यतीत्येव हि मेऽद्य चिन्ता",
+          "transliteration": "yataH prAptaH sa~njayaH pANDavebhyo na me yathAvanmanasaH prashAntiH | savendriyANyaprakR^iti.n gatAni ki.n vaxyatItyeva hi me.adya chintA"
+        },
+        {
+          "number": 13,
+          "sanskrit": "तन्मे ब्रूहि विदुर त्वं यथावन् मनीषितं सर्वमजातशत्रोः । यथा च नस्तात हितं भवेच्च प्रजाश्च सर्वाः सुखिता भवेयुः ॥- ॥ विदुर उवाच । अभियुक्तं बलवता दुर्बलं हीनसाधनम् । हृतस्वं कामिनं चोरमाविशन्ति प्रजागराः",
+          "transliteration": "tanme brUhi vidura tva.n yathAvan.h manIShita.n sarvamajAtashatroH | yathA cha nastAta hitaM bhavechcha prajAshcha sarvAH sukhitA bhaveyuH ||\\- || vidura uvAcha | abhiyuktaM balavatA durbala.n hInasAdhanam | hR^itasva.n kAminaM choramAvishanti prajAgarAH"
+        },
+        {
+          "number": 14,
+          "sanskrit": "कच्चिदेतैर्महादोषैर्न स्पृष्टोऽसि नराधिप । कच्चिन्न परवित्तेषु गृध्यन्विपरितप्यसे",
+          "transliteration": "kachchidetairmahAdoShairna spR^iShTo.asi narAdhipa | kachchinna paravitteShu gR^idhyanviparitapyase"
+        },
+        {
+          "number": 15,
+          "sanskrit": "धृतराष्ट्र उवाच । श्रोतुमिच्छामि ते धर्म्यं परं नैःश्रेयसं वचः । अस्मिन्राजर्षिवंशे हि त्वमेकः प्राज्ञसम्मतः",
+          "transliteration": "dhR^itarAShTra uvAcha | shrotumichChAmi te dharmyaM paraM naiHshreyasa.n vachaH | asminrAjarShivaMshe hi tvamekaH prAj~nasammataH"
+        },
+        {
+          "number": 16,
+          "sanskrit": "विदुर उवाच । रजा लक्षणसम्पन्नस्त्रैलोक्यस्याधिपो भवेत् । प्रेष्यस्ते प्रेषितश्चैव धृतराष्ट्र युधिष्ठिरः ॥- ॥ विपरीततरश्च त्वं भागधेये न सम्मतः । अर्चिषां प्रक्षयाच्चैव धर्मात्मा धर्मकोविदः ॥- ॥ आनृशंस्यादनुक्रोशाद्धर्मात्सत्यात्पराक्रमात् । गुरुत्वात्त्वयि सम्प्रेक्ष्य बहून्क्लेषांस्तितिक्षते ॥- ॥ दुर्योधने सौबले च कर्णे दुःशासने तथा । एतेष्वैश्वर्यमाधाय कथं त्वं भूतिमिच्छसि ॥- ॥ एकस्मात्वृक्षाद्यज्ञपत्राणि राजन् स्रुक्च द्रौणी पेठनीपीडने च । एतस्माद्राजन्ब्रुवतो मे निबोध एकस्माद्वै जायतेऽसच्च सच्च ॥- ॥ आत्मज्ञानं समारम्भस्तितिक्षा धर्मनित्यता । यमर्थान्नापकर्षन्ति स वै पण्डित उच्यते ॥- ॥ निषेवते प्रशस्तानि निन्दितानि न सेवते । अनास्तिकः श्रद्दधान एतत्पण्डित लक्षणम्",
+          "transliteration": "vidura uvAcha | rajA laxaNasampannastrailokyasyAdhipo bhavet | preShyaste preShitashchaiva dhR^itarAShTra yudhiShThiraH ||\\- || viparItatarashcha tvaM bhAgadheye na sammataH | archiShAM praxayAchchaiva dharmAtmA dharmakovidaH ||\\- || AnR^isha.nsyAdanukroshAddharmAtsatyAtparAkramAt | gurutvAttvayi samprexya bahUnkleShA.nstitixate ||\\- || duryodhane saubale cha karNe duHshAsane tathA | eteShvaishvaryamAdhAya katha.n tvaM bhUtimichChasi ||\\- || ekasmAtvR^ixAdyaj~napatrANi rAjan.h srukcha drauNI peThanIpIDane cha | etasmAdrAjanbruvato me nibodha ekasmAdvai jAyate.asachcha sachcha ||\\- || Atmaj~nAna.n samArambhastitixA dharmanityatA | yamarthAnnApakarShanti sa vai paNDita uchyate ||\\- || niShevate prashastAni ninditAni na sevate | anAstikaH shraddadhAna etatpaNDita laxaNam"
+        },
+        {
+          "number": 17,
+          "sanskrit": "क्रोधो हर्षश्च दर्पश्च ह्रीस्तम्भो मान्यमानिता । यमर्थान्नापकर्षन्ति स वै पण्डित उच्यते",
+          "transliteration": "krodho harShashcha darpashcha hrIstambho mAnyamAnitA | yamarthAnnApakarShanti sa vai paNDita uchyate"
+        },
+        {
+          "number": 18,
+          "sanskrit": "यस्य कृत्यं न जानन्ति मन्त्रं वा मन्त्रितं परे । कृतमेवास्य जानन्ति स वै पण्डित उच्यते",
+          "transliteration": "yasya kR^ityaM na jAnanti mantra.n vA mantritaM pare | kR^itamevAsya jAnanti sa vai paNDita uchyate"
+        },
+        {
+          "number": 19,
+          "sanskrit": "यस्य कृत्यं न विघ्नन्ति शीतमुष्णं भयं रतिः । समृद्धिरसमृद्धिर्वा स वै पण्डित उच्यते",
+          "transliteration": "yasya kR^ityaM na vighnanti shItamuShNaM bhaya.n ratiH | samR^iddhirasamR^iddhirvA sa vai paNDita uchyate"
+        },
+        {
+          "number": 20,
+          "sanskrit": "यस्य संसारिणी प्रज्ञा धर्मार्थावनुवर्तते । कामादर्थं वृणीते यः स वै पण्डित उच्यते",
+          "transliteration": "yasya sa.nsAriNI praj~nA dharmArthAvanuvartate | kAmAdartha.n vR^iNIte yaH sa vai paNDita uchyate"
+        },
+        {
+          "number": 21,
+          "sanskrit": "यथाशक्ति चिकीर्षन्ति यथाशक्ति च कुर्वते । न किं चिदवमन्यन्ते पण्डिता भरतर्षभ",
+          "transliteration": "yathAshakti chikIrShanti yathAshakti cha kurvate | na ki.n chidavamanyante paNDitA bharatarShabha"
+        },
+        {
+          "number": 22,
+          "sanskrit": "क्षिप्रं विजानाति चिरं शृणोति विज्ञाय चार्थं भजते न कामात् । नासम्पृष्टो व्यौपयुङ्क्ते परार्थे तत्प्रज्ञानं प्रथमं पण्डितस्य",
+          "transliteration": "xipra.n vijAnAti chiraM shR^iNoti vij~nAya chArthaM bhajate na kAmAt | nAsampR^iShTo vyaupayu~Nkte parArthe tatpraj~nAnaM prathamaM paNDitasya"
+        },
+        {
+          "number": 23,
+          "sanskrit": "नाप्राप्यमभिवाञ्छन्ति नष्टं नेच्छन्ति शोचितुम् । आपत्सु च न मुह्यन्ति नराः पण्डित बुद्धयः",
+          "transliteration": "nAprApyamabhivA~nChanti naShTaM nechChanti shochitum | Apatsu cha na muhyanti narAH paNDita buddhayaH"
+        },
+        {
+          "number": 24,
+          "sanskrit": "निश्चित्य यः प्रक्रमते नान्तर्वसति कर्मणः । अवन्ध्य कालो वश्यात्मा स वै पण्डित उच्यते",
+          "transliteration": "nishchitya yaH prakramate nAntarvasati karmaNaH | avandhya kAlo vashyAtmA sa vai paNDita uchyate"
+        },
+        {
+          "number": 25,
+          "sanskrit": "आर्य कर्मणि राज्यन्ते भूतिकर्माणि कुर्वते । हितं च नाभ्यसूयन्ति पण्डिता भरतर्षभ",
+          "transliteration": "Arya karmaNi rAjyante bhUtikarmANi kurvate | hita.n cha nAbhyasUyanti paNDitA bharatarShabha"
+        },
+        {
+          "number": 26,
+          "sanskrit": "न हृष्यत्यात्मसम्माने नावमानेन तप्यते । गाङ्गो ह्रद इवाक्षोभ्यो यः स पण्डित उच्यते",
+          "transliteration": "na hR^iShyatyAtmasammAne nAvamAnena tapyate | gA~Ngo hrada ivAxobhyo yaH sa paNDita uchyate"
+        },
+        {
+          "number": 27,
+          "sanskrit": "तत्त्वज्ञः सर्वभूतानां योगज्ञः सर्वकर्मणाम् । उपायज्ञो मनुष्याणां नरः पण्डित उच्यते",
+          "transliteration": "tattvaj~naH sarvabhUtAnA.n yogaj~naH sarvakarmaNAm | upAyaj~no manuShyANAM naraH paNDita uchyate"
+        },
+        {
+          "number": 28,
+          "sanskrit": "प्रवृत्त वाक्चित्रकथ ऊहवान्प्रतिभानवान् । आशु ग्रन्थस्य वक्ता च स वै पण्डित उच्यते",
+          "transliteration": "pravR^itta vAkchitrakatha UhavAnpratibhAnavAn | Ashu granthasya vaktA cha sa vai paNDita uchyate"
+        },
+        {
+          "number": 29,
+          "sanskrit": "श्रुतं प्रज्ञानुगं यस्य प्रज्ञा चैव श्रुतानुगा । असम्भिन्नार्य मर्यादः पण्डिताख्यां लभेत सः",
+          "transliteration": "shrutaM praj~nAnuga.n yasya praj~nA chaiva shrutAnugA | asambhinnArya maryAdaH paNDitAkhyA.n labheta saH"
+        },
+        {
+          "number": 30,
+          "sanskrit": "अर्थं महान्तमासद्य विद्यामैश्वर्यमेव च । विचरत्यसमुन्नद्धो यस्य पण्डित उच्यते ॥- ॥ अश्रुतश्च समुन्नद्धो दरिद्रश्च महामनाः । अर्थांश्चाकर्मणा प्रेप्सुर्मूढ इत्युच्यते बुधैः",
+          "transliteration": "arthaM mahAntamAsadya vidyAmaishvaryameva cha | vicharatyasamunnaddho yasya paNDita uchyate ||\\- || ashrutashcha samunnaddho daridrashcha mahAmanAH | arthAMshchAkarmaNA prepsurmUDha ityuchyate budhaiH"
+        },
+        {
+          "number": 31,
+          "sanskrit": "स्वमर्थं यः परित्यज्य परार्थमनुतिष्ठति । मिथ्या चरति मित्रार्थे यश्च मूढः स उच्यते",
+          "transliteration": "svamartha.n yaH parityajya parArthamanutiShThati | mithyA charati mitrArthe yashcha mUDhaH sa uchyate"
+        },
+        {
+          "number": 32,
+          "sanskrit": "अकामां कामयति यः कामयानां परित्यजेत् । बलवन्तं च यो द्वेष्टि तमाहुर्मूढचेतसम् ॥- ॥ अकामान्कामयति यः कामयानान्परिद्विषन् । बलवन्तं च यो द्वेष्टि तमाहुर्मूढचेतसम्",
+          "transliteration": "akAmA.n kAmayati yaH kAmayAnAM parityajet | balavanta.n cha yo dveShTi tamAhurmUDhachetasam ||\\- || akAmAnkAmayati yaH kAmayAnAnparidviShan | balavanta.n cha yo dveShTi tamAhurmUDhachetasam"
+        },
+        {
+          "number": 33,
+          "sanskrit": "अमित्रं कुरुते मित्रं मित्रं द्वेष्टि हिनस्ति च । कर्म चारभते दुष्टं तमाहुर्मूढचेतसम्",
+          "transliteration": "amitra.n kurute mitraM mitraM dveShTi hinasti cha | karma chArabhate duShTa.n tamAhurmUDhachetasam"
+        },
+        {
+          "number": 34,
+          "sanskrit": "संसारयति कृत्यानि सर्वत्र विचिकित्सते । चिरं करोति क्षिप्रार्थे स मूढो भरतर्षभ",
+          "transliteration": "sa.nsArayati kR^ityAni sarvatra vichikitsate | chira.n karoti xiprArthe sa mUDho bharatarShabha"
+        },
+        {
+          "number": 35,
+          "sanskrit": "श्राद्धं पितृभ्यो न ददाति दैवतानि नार्चति । सुहृन्मित्रं न लभते तमाहुर्मूढचेतसम् ॥- ॥ अनाहूतः प्रविशति अपृष्टो बहु भाषते । विश्वसत्यप्रमत्तेषु मूढ चेता नराधमः",
+          "transliteration": "shrAddhaM pitR^ibhyo na dadAti daivatAni nArchati | suhR^inmitra.n na labhate tamAhurmUDhachetasam ||\\- || anAhUtaH pravishati apR^iShTo bahu bhAShate | vishvasatyapramatteShu mUDha chetA narAdhamaH"
+        },
+        {
+          "number": 36,
+          "sanskrit": "परं क्षिपति दोषेण वर्तमानः स्वयं तथा । यश्च क्रुध्यत्यनीशः सन्स च मूढतमो नरः",
+          "transliteration": "para.n xipati doSheNa vartamAnaH svayaM tathA | yashcha krudhyatyanIshaH sansa cha mUDhatamo naraH"
+        },
+        {
+          "number": 37,
+          "sanskrit": "आत्मनो बलमाज्ञाय धर्मार्थपरिवर्जितम् । अलभ्यमिच्छन्नैष्कर्म्यान्मूढ बुद्धिरिहोच्यते",
+          "transliteration": "Atmano balamAj~nAya dharmArthaparivarjitam | alabhyamichChannaiShkarmyAnmUDha buddhirihochyate"
+        },
+        {
+          "number": 38,
+          "sanskrit": "अशिष्यं शास्ति यो राजन्यश्च शून्यमुपासते । कदर्यं भजते यश्च तमाहुर्मूढचेतसम्",
+          "transliteration": "ashiShya.n shAsti yo rAjanyashcha shUnyamupAsate | kadaryaM bhajate yashcha tamAhurmUDhachetasam"
+        },
+        {
+          "number": 39,
+          "sanskrit": "अर्थं महान्तमासाद्य विद्यामैश्वर्यमेव वा । विचरत्यसमुन्नद्धो यः स पण्डित उच्यते",
+          "transliteration": "arthaM mahAntamAsAdya vidyAmaishvaryameva vA | vicharatyasamunnaddho yaH sa paNDita uchyate"
+        },
+        {
+          "number": 40,
+          "sanskrit": "एकः सम्पन्नमश्नाति वस्ते वासश्च शोभनम् । योऽसंविभज्य भृत्येभ्यः को नृशंसतरस्ततः",
+          "transliteration": "ekaH sampannamashnAti vaste vAsashcha shobhanam | yo.asa.nvibhajya bhR^ityebhyaH ko nR^isha.nsatarastataH"
+        },
+        {
+          "number": 41,
+          "sanskrit": "एकः पापानि कुरुते फलं भुङ्क्ते महाजनः । भोक्तारो विप्रमुच्यन्ते कर्ता दोषेण लिप्यते",
+          "transliteration": "ekaH pApAni kurute phalaM bhu~Nkte mahAjanaH | bhoktAro vipramuchyante kartA doSheNa lipyate"
+        },
+        {
+          "number": 42,
+          "sanskrit": "एकं हन्यान्न वाहन्यादिषुर्मुक्तो धनुष्मता । बुद्धिर्बुद्धिमतोत्सृष्टा हन्याद्राष्ट्रं सराजकम्",
+          "transliteration": "eka.n hanyAnna vAhanyAdiShurmukto dhanuShmatA | buddhirbuddhimatotsR^iShTA hanyAdrAShTra.n sarAjakam"
+        },
+        {
+          "number": 43,
+          "sanskrit": "एकया द्वे विनिश्चित्य त्रींश्चतुर्भिर्वशे कुरु । पञ्च जित्वा विदित्वा षट्सप्त हित्वा सुखी भव",
+          "transliteration": "ekayA dve vinishchitya trIMshchaturbhirvashe kuru | pa~ncha jitvA viditvA ShaTsapta hitvA sukhI bhava"
+        },
+        {
+          "number": 44,
+          "sanskrit": "एकं विषरसो हन्ति शस्त्रेणैकश्च वध्यते । सराष्ट्रं स प्रजं हन्ति राजानं मन्त्रविस्रवः",
+          "transliteration": "eka.n viSharaso hanti shastreNaikashcha vadhyate | sarAShTra.n sa prajaM hanti rAjAnaM mantravisravaH"
+        },
+        {
+          "number": 45,
+          "sanskrit": "एकः स्वादु न भुञ्जीत एकश्चार्थान्न चिन्तयेत् । एको न गच्छेदध्वानं नैकः सुप्तेषु जागृयात्",
+          "transliteration": "ekaH svAdu na bhu~njIta ekashchArthAnna chintayet | eko na gachChedadhvAnaM naikaH supteShu jAgR^iyAt"
+        },
+        {
+          "number": 46,
+          "sanskrit": "एकमेवाद्वितीयं तद्यद्राजन्नावबुध्यसे । सत्यं स्वर्गस्य सोपानं पारावारस्य नौरिव",
+          "transliteration": "ekamevAdvitIya.n tadyadrAjannAvabudhyase | satya.n svargasya sopAnaM pArAvArasya nauriva"
+        },
+        {
+          "number": 47,
+          "sanskrit": "एकः क्षमावतां दोषो द्वितीयो नोपलभ्यते । यदेनं क्षमया युक्तमशक्तं मन्यते जनः",
+          "transliteration": "ekaH xamAvatA.n doSho dvitIyo nopalabhyate | yadena.n xamayA yuktamashaktaM manyate janaH"
+        },
+        {
+          "number": 48,
+          "sanskrit": "सोऽस्य दोषो न मन्तव्यः क्षमा हि परमं बलम् । क्षमा गुणो ह्यशक्तानां शक्तानां भूषणं तथा ॥- ॥ क्षमा वशीकृतिर्लोके क्षमया किं न साध्यते । शान्तिशङ्खः करे यस्य किं करिष्यति दुर्जनः ॥- ॥ अतृणे पतितो वह्निः स्वयमेवोपशाम्यति । अक्षमावान्परं दोषैरात्मान्ं चैव योजयेत् ॥- ॥ एको धर्मः परं श्रेयः क्षमैका शान्तिरुत्तमा । विद्यैका परमा दृष्टिरहिंसैका सुखावहा",
+          "transliteration": "so.asya doSho na mantavyaH xamA hi paramaM balam | xamA guNo hyashaktAnA.n shaktAnAM bhUShaNa.n tathA ||\\- || xamA vashIkR^itirloke xamayA ki.n na sAdhyate | shAntisha~NkhaH kare yasya ki.n kariShyati durjanaH ||\\- || atR^iNe patito vahniH svayamevopashAmyati | axamAvAnpara.n doShairAtmAn.n chaiva yojayet ||\\- || eko dharmaH para.n shreyaH xamaikA shAntiruttamA | vidyaikA paramA dR^iShTirahi.nsaikA sukhAvahA"
+        },
+        {
+          "number": 49,
+          "sanskrit": "द्वाविमौ ग्रसते भूमिः सर्पो बिलशयानिव । राजानं चाविरोद्धारं ब्राह्मणं चाप्रवासिनम्",
+          "transliteration": "dvAvimau grasate bhUmiH sarpo bilashayAniva | rAjAna.n chAviroddhAraM brAhmaNaM chApravAsinam"
+        },
+        {
+          "number": 50,
+          "sanskrit": "द्वे कर्मणी नरः कुर्वन्नस्मिँल्लोके विरोचते । अब्रुवन्परुषं किं चिदसतो नार्थयंस्तथा",
+          "transliteration": "dve karmaNI naraH kurvannasmi.Nlloke virochate | abruvanparuSha.n kiM chidasato nArthaya.nstathA"
+        },
+        {
+          "number": 51,
+          "sanskrit": "द्वाविमौ पुरुषव्याघ्र परप्रत्यय कारिणौ । स्त्रियः कामित कामिन्यो लोकः पूजित पूजकः",
+          "transliteration": "dvAvimau puruShavyAghra parapratyaya kAriNau | striyaH kAmita kAminyo lokaH pUjita pUjakaH"
+        },
+        {
+          "number": 52,
+          "sanskrit": "द्वाविमौ कण्टकौ तीक्ष्णौ शरीरपरिशोषणौ । यश्चाधनः कामयते यश्च कुप्यत्यनीश्वरः",
+          "transliteration": "dvAvimau kaNTakau tIxNau sharIraparishoShaNau | yashchAdhanaH kAmayate yashcha kupyatyanIshvaraH"
+        },
+        {
+          "number": 53,
+          "sanskrit": "द्वावेव न विराजेते विपरीतेन कर्मणा । गृहस्थश्च निरारम्भः कार्यवांश्चैव भिक्षुकः ॥- ॥ द्वाविमौ पुरुषौ राजन्स्वर्गस्य परि तिष्ठतः । प्रभुश्च क्षमया युक्तो दरिद्रश्च प्रदानवान्",
+          "transliteration": "dvAveva na virAjete viparItena karmaNA | gR^ihasthashcha nirArambhaH kAryavA.nshchaiva bhixukaH ||\\- || dvAvimau puruShau rAjansvargasya pari tiShThataH | prabhushcha xamayA yukto daridrashcha pradAnavAn"
+        },
+        {
+          "number": 54,
+          "sanskrit": "न्यायागतस्य द्रव्यस्य बोद्धव्यौ द्वावतिक्रमौ । अपात्रे प्रतिपत्तिश्च पात्रे चाप्रतिपादनम्",
+          "transliteration": "nyAyAgatasya dravyasya boddhavyau dvAvatikramau | apAtre pratipattishcha pAtre chApratipAdanam"
+        },
+        {
+          "number": 55,
+          "sanskrit": "द्वावम्भसि निवेष्टव्यौ गले बद्ध्वा दृढं शिलाम् । धनवन्तमदातारं दरिद्रं चातपस्विनम् ॥- ॥ द्वाविमौ पुरुषव्याघ्र सूर्यमण्डलभेदिनौ । परिव्राड्योगयुक्तश्च रणे चाभिमुखो हतः ॥- ॥ त्रयो न्याया मनुष्याणां श्रूयन्ते भरतर्षभ । कनीयान्मध्यमः श्रेष्ठ इति वेदविदो विदुः",
+          "transliteration": "dvAvambhasi niveShTavyau gale baddhvA dR^iDha.n shilAm | dhanavantamadAtAra.n daridra.n chAtapasvinam ||\\- || dvAvimau puruShavyAghra sUryamaNDalabhedinau | parivrADyogayuktashcha raNe chAbhimukho hataH ||\\- || trayo nyAyA manuShyANA.n shrUyante bharatarShabha | kanIyAnmadhyamaH shreShTha iti vedavido viduH"
+        },
+        {
+          "number": 56,
+          "sanskrit": "त्रिविधाः पुरुषा राजन्नुत्तमाधममध्यमाः । नियोजयेद्यथावत्तांस्त्रिविधेष्वेव कर्मसु",
+          "transliteration": "trividhAH puruShA rAjannuttamAdhamamadhyamAH | niyojayedyathAvattA.nstrividheShveva karmasu"
+        },
+        {
+          "number": 57,
+          "sanskrit": "त्रय एवाधना राजन्भार्या दासस्तथा सुतः । यत्ते समधिगच्छन्ति यस्य ते तस्य तद्धनम्",
+          "transliteration": "traya evAdhanA rAjanbhAryA dAsastathA sutaH | yatte samadhigachChanti yasya te tasya taddhanam"
+        },
+        {
+          "number": 58,
+          "sanskrit": "हरणं च परस्वानां परदाराभिमर्शनम् । सुहृदश्च परित्यागस्त्रयो दोषा क्षयावहः ॥- ॥ त्रिविधं नरकस्येदं द्वारं नाशनमात्मनः । कामः क्रोधस्तथा लोभस्तस्मादेतत्त्रयं त्यजेत् ॥- ॥ वरप्रदानं राज्यां च पुत्रजन्म च भारत । शत्रोश्च मोक्षणं कृच्छ्रात्त्रीणि चैकं च तत्समम् ॥- ॥ भक्तं च बजमानं च तवास्मीति वादिनम् । त्रीनेतान् शरणं प्राप्तान्विषमेऽपि न सन्त्यजेत् ॥- ॥ चत्वारि राज्ञा तु महाबलेन वर्ज्यान्याहुः पण्डितस्तानि विद्यात् । अल्पप्रज्ञैः सह मन्त्रं न कुर्यान् न दीर्घसूत्रैरलसैश्चारणैश्च",
+          "transliteration": "haraNa.n cha parasvAnA.n paradArAbhimarshanam | suhR^idashcha parityAgastrayo doShA xayAvahaH ||\\- || trividha.n narakasyeda.n dvAra.n nAshanamAtmanaH | kAmaH krodhastathA lobhastasmAdetattraya.n tyajet ||\\- || varapradAna.n rAjyA.n cha putrajanma cha bhArata | shatroshcha moxaNa.n kR^ichChrAttrINi chaika.n cha tatsamam ||\\- || bhakta.n cha bajamAna.n cha tavAsmIti vAdinam | trInetAn sharaNaM prAptAnviShame.api na santyajet ||\\- || chatvAri rAj~nA tu mahAbalena varjyAnyAhuH paNDitastAni vidyAt | alpapraj~naiH saha mantraM na kuryAn.h na dIrghasUtrairalasaishchAraNaishcha"
+        },
+        {
+          "number": 59,
+          "sanskrit": "चत्वारि ते तात गृहे वसन्तु श्रियाभिजुष्टस्य गृहस्थ धर्मे । वृद्धो ज्ञातिरवसन्नः कुलीनः सखा दरिद्रो भगिनी चानपत्या",
+          "transliteration": "chatvAri te tAta gR^ihe vasantu shriyAbhijuShTasya gR^ihastha dharme | vR^iddho j~nAtiravasannaH kulInaH sakhA daridro bhaginI chAnapatyA"
+        },
+        {
+          "number": 60,
+          "sanskrit": "चत्वार्याह महाराज सद्यस्कानि बृहस्पतिः । पृच्छते त्रिदशेन्द्राय तानीमानि निबोध मे",
+          "transliteration": "chatvAryAha mahArAja sadyaskAni bR^ihaspatiH | pR^ichChate tridashendrAya tAnImAni nibodha me"
+        },
+        {
+          "number": 61,
+          "sanskrit": "देवतानां च सङ्कल्पमनुभावं च धीमताम् । विनयं कृतविद्यानां विनाशं पापकर्मणाम्",
+          "transliteration": "devatAnA.n cha sa~NkalpamanubhAvaM cha dhImatAm | vinaya.n kR^itavidyAnA.n vinAshaM pApakarmaNAm"
+        },
+        {
+          "number": 62,
+          "sanskrit": "चत्वारि कर्माण्यभयङ्कराणि भयं प्रयच्छन्त्ययथाकृतानि । मानाग्निहोत्रं उत मानमौनं मानेनाधीतमुत मानयज्ञः ॥- ॥ पञ्चाग्नयो मनुष्येण परिचर्याः प्रयत्नतः । पिता माताग्निरात्मा च गुरुश्च भरतर्षभ",
+          "transliteration": "chatvAri karmANyabhaya~NkarANi bhayaM prayachChantyayathAkR^itAni | mAnAgnihotra.n uta mAnamaunaM mAnenAdhItamuta mAnayaj~naH ||\\- || pa~nchAgnayo manuShyeNa paricharyAH prayatnataH | pitA mAtAgnirAtmA cha gurushcha bharatarShabha"
+        },
+        {
+          "number": 63,
+          "sanskrit": "पञ्चैव पूजयँल्लोके यशः प्राप्नोति केवलम् । देवान्पितॄन्मनुष्यांश्च भिक्षूनतिथिपञ्चमान्",
+          "transliteration": "pa~nchaiva pUjaya.Nlloke yashaH prApnoti kevalam | devAnpitR^InmanuShyAMshcha bhixUnatithipa~nchamAn"
+        },
+        {
+          "number": 64,
+          "sanskrit": "पञ्च त्वानुगमिष्यन्ति यत्र यत्र गमिष्यसि । मित्राण्यमित्रा मध्यस्था उपजीव्योपजीविनः",
+          "transliteration": "pa~ncha tvAnugamiShyanti yatra yatra gamiShyasi | mitrANyamitrA madhyasthA upajIvyopajIvinaH"
+        },
+        {
+          "number": 65,
+          "sanskrit": "पञ्चेन्द्रियस्य मर्त्यस्य छिद्रं चेदेकमिन्द्रियम् । ततोऽस्य स्रवति प्रज्ञा दृतेः पादादिवोदकम्",
+          "transliteration": "pa~nchendriyasya martyasya Chidra.n chedekamindriyam | tato.asya sravati praj~nA dR^iteH pAdAdivodakam"
+        },
+        {
+          "number": 66,
+          "sanskrit": "षड्दोषाः पुरुषेणेह हातव्या भूतिमिच्छता । निद्रा तन्द्री भयं क्रोध आलस्यं दीर्घसूत्रता",
+          "transliteration": "ShaDdoShAH puruSheNeha hAtavyA bhUtimichChatA | nidrA tandrI bhaya.n krodha AlasyaM dIrghasUtratA"
+        },
+        {
+          "number": 67,
+          "sanskrit": "षडिमान्पुरुषो जह्याद्भिन्नां नावमिवार्णवे । अप्रवक्तारमाचार्यमनधीयानमृत्विजम्",
+          "transliteration": "ShaDimAnpuruSho jahyAdbhinnAM nAvamivArNave | apravaktAramAchAryamanadhIyAnamR^itvijam"
+        },
+        {
+          "number": 68,
+          "sanskrit": "अरक्षितारं राजानं भार्यां चाप्रिय वादिनीम् । ग्रामकारं च गोपालं वनकामं च नापितम्",
+          "transliteration": "araxitAra.n rAjAnaM bhAryA.n chApriya vAdinIm | grAmakAra.n cha gopAla.n vanakAmaM cha nApitam"
+        },
+        {
+          "number": 69,
+          "sanskrit": "षडेव तु गुणाः पुंसा न हातव्याः कदाचन । सत्यं दानमनालस्यमनसूया क्षमा धृतिः",
+          "transliteration": "ShaDeva tu guNAH pu.nsA na hAtavyAH kadAchana | satya.n dAnamanAlasyamanasUyA xamA dhR^itiH"
+        },
+        {
+          "number": 70,
+          "sanskrit": "अर्थागमो नित्यमरोगिता च प्रिया च भार्या प्रियवादिनी च । वश्यश्च पुत्रोऽर्थकरी च विद्या षट् जीवलोकस्य सुखानि राजन् ॥- ॥ षण्णामात्मनि नित्यानामैश्वर्यं योऽधिगच्छति । न स पापैः कुतोऽनर्थैर्युज्यते विजितेन्द्रियः",
+          "transliteration": "arthAgamo nityamarogitA cha priyA cha bhAryA priyavAdinI cha | vashyashcha putro.arthakarI cha vidyA ShaT jIvalokasya sukhAni rAjan ||\\- || ShaNNAmAtmani nityAnAmaishvarya.n yo.adhigachChati | na sa pApaiH kuto.anarthairyujyate vijitendriyaH"
+        },
+        {
+          "number": 71,
+          "sanskrit": "षडिमे षट्सु जीवन्ति सप्तमो नोपलभ्यते । चोराः प्रमत्ते जीवन्ति व्याधितेषु चिकित्सकाः",
+          "transliteration": "ShaDime ShaTsu jIvanti saptamo nopalabhyate | chorAH pramatte jIvanti vyAdhiteShu chikitsakAH"
+        },
+        {
+          "number": 72,
+          "sanskrit": "प्रमदाः कामयानेषु यजमानेषु याजकाः । राजा विवदमानेषु नित्यं मूर्खेषु पण्डिताः",
+          "transliteration": "pramadAH kAmayAneShu yajamAneShu yAjakAH | rAjA vivadamAneShu nityaM mUrkheShu paNDitAH"
+        },
+        {
+          "number": 73,
+          "sanskrit": "षडिमानि विनश्यन्ति मुहूर्तमनवेक्षणात् । गावः सेवा कृषिर्भार्या विद्या वृषलसंगतिः ॥- ॥ षडेते ह्यवमन्यन्ते नित्यं पूर्वोपकारिणम् । आचार्यं शिक्षिता शिष्याः कृतदारश्च मातरम् ॥- ॥ नारिं विगतकामस्तु कृतार्थाश्च प्रयोजकम् । नावं निस्तीर्णकान्तारा नातुराश्च चिकित्सकम् ॥- ॥ आरोग्यमानृण्यमविप्रवासः सद्भिर्मनुष्यैः सह सम्प्रयोगः । स्वप्रत्यया वृत्तिरभीतवासः षट् जीवलोकस्य सुखानि राजन् ॥- ॥ ईर्षुर्घृणी नसन्तुष्टः क्रोधनो नित्यशङ्कितः । परभाग्योपजीवी च षडेते नित्यदुःखिताः ॥- ॥ सप्त दोषाः सदा राज्ञा हातव्या व्यसनोदयाः । प्रायशो यैर्विनश्यन्ति कृतमूलाश्च पार्थिवाः",
+          "transliteration": "ShaDimAni vinashyanti muhUrtamanavexaNAt | gAvaH sevA kR^iShirbhAryA vidyA vR^iShalasa.ngatiH ||\\- || ShaDete hyavamanyante nityaM pUrvopakAriNam | AchArya.n shixitA shiShyAH kR^itadArashcha mAtaram ||\\- || nAri.n vigatakAmastu kR^itArthAshcha prayojakam | nAva.n nistIrNakAntArA nAturAshcha chikitsakam ||\\- || ArogyamAnR^iNyamavipravAsaH sadbhirmanuShyaiH saha samprayogaH | svapratyayA vR^ittirabhItavAsaH ShaT jIvalokasya sukhAni rAjan ||\\- || IrShurghR^iNI nasantuShTaH krodhano nityasha~NkitaH | parabhAgyopajIvI cha ShaDete nityaduHkhitAH ||\\- || sapta doShAH sadA rAj~nA hAtavyA vyasanodayAH | prAyasho yairvinashyanti kR^itamUlAshcha pArthivAH"
+        },
+        {
+          "number": 74,
+          "sanskrit": "स्त्रियोऽक्षा मृगया पानं वाक्पारुष्यं च पञ्चमम् । महच्च दण्डपारुष्यमर्थदूषणमेव च",
+          "transliteration": "striyo.axA mR^igayA pAna.n vAkpAruShya.n cha pa~nchamam | mahachcha daNDapAruShyamarthadUShaNameva cha"
+        },
+        {
+          "number": 75,
+          "sanskrit": "अष्टौ पूर्वनिमित्तानि नरस्य विनशिष्यतः । ब्राह्मणान्प्रथमं द्वेष्टि ब्राह्मणैश्च विरुध्यते",
+          "transliteration": "aShTau pUrvanimittAni narasya vinashiShyataH | brAhmaNAnprathama.n dveShTi brAhmaNaishcha virudhyate"
+        },
+        {
+          "number": 76,
+          "sanskrit": "ब्राह्मण स्वानि चादत्ते ब्राह्मणांश्च जिघांसति । रमते निन्दया चैषां प्रशंसां नाभिनन्दति",
+          "transliteration": "brAhmaNa svAni chAdatte brAhmaNAMshcha jighA.nsati | ramate nindayA chaiShAM prasha.nsAM nAbhinandati"
+        },
+        {
+          "number": 77,
+          "sanskrit": "नैतान्स्मरति कृत्येषु याचितश्चाभ्यसूयति । एतान्दोषान्नरः प्राज्ञो बुद्ध्या बुद्ध्वा विवर्जयेत्",
+          "transliteration": "naitAnsmarati kR^ityeShu yAchitashchAbhyasUyati | etAndoShAnnaraH prAj~no buddhyA buddhvA vivarjayet"
+        },
+        {
+          "number": 78,
+          "sanskrit": "अष्टाविमानि हर्षस्य नव नीतानि भारत । वर्तमानानि दृश्यन्ते तान्येव सुसुखान्यपि",
+          "transliteration": "aShTAvimAni harShasya nava nItAni bhArata | vartamAnAni dR^ishyante tAnyeva susukhAnyapi"
+        },
+        {
+          "number": 79,
+          "sanskrit": "समागमश्च सखिभिर्महांश्चैव धनागमः । पुत्रेण च परिष्वङ्गः सन्निपातश्च मैथुने",
+          "transliteration": "samAgamashcha sakhibhirmahAMshchaiva dhanAgamaH | putreNa cha pariShva~NgaH sannipAtashcha maithune"
+        },
+        {
+          "number": 80,
+          "sanskrit": "समये च प्रियालापः स्वयूथेषु च सन्नतिः । अभिप्रेतस्य लाभश्च पूजा च जनसंसदि",
+          "transliteration": "samaye cha priyAlApaH svayUtheShu cha sannatiH | abhipretasya lAbhashcha pUjA cha janasa.nsadi"
+        },
+        {
+          "number": 81,
+          "sanskrit": "अष्टौ गुणाः पुरुषं दीपयन्ति प्रज्ञा च कौल्यं च दमः श्रुतं च । पराक्रमश्चाबहुभाषिता च दानं यथाशक्ति कृतज्ञता च ॥- ॥ नवद्वारमिदं वेश्म त्रिस्थूणं पञ्च साक्षिकम् । क्षेत्रज्ञाधिष्ठितं विद्वान्यो वेद स परः कविः",
+          "transliteration": "aShTau guNAH puruSha.n dIpayanti praj~nA cha kaulya.n cha damaH shruta.n cha | parAkramashchAbahubhAShitA cha dAna.n yathAshakti kR^itaj~natA cha ||\\- || navadvAramida.n veshma tristhUNaM pa~ncha sAxikam | xetraj~nAdhiShThita.n vidvAnyo veda sa paraH kaviH"
+        },
+        {
+          "number": 82,
+          "sanskrit": "दश धर्मं न जानन्ति धृतराष्ट्र निबोध तान् । मत्तः प्रमत्त उन्मत्तः श्रान्तः क्रुद्धो बुभुक्षितः",
+          "transliteration": "dasha dharmaM na jAnanti dhR^itarAShTra nibodha tAn | mattaH pramatta unmattaH shrAntaH kruddho bubhuxitaH"
+        },
+        {
+          "number": 83,
+          "sanskrit": "त्वरमाणश्च भीरुश्च लुब्धः कामी च ते दश । तस्मादेतेषु भावेषु न प्रसज्जेत पण्डितः",
+          "transliteration": "tvaramANashcha bhIrushcha lubdhaH kAmI cha te dasha | tasmAdeteShu bhAveShu na prasajjeta paNDitaH"
+        },
+        {
+          "number": 84,
+          "sanskrit": "अत्रैवोदाहरन्तीममितिहासं पुरातनम् । पुत्रार्थमसुरेन्द्रेण गीतं चैव सुधन्वना",
+          "transliteration": "atraivodAharantImamitihAsaM purAtanam | putrArthamasurendreNa gIta.n chaiva sudhanvanA"
+        },
+        {
+          "number": 85,
+          "sanskrit": "यः काममन्यू प्रजहाति राजा पात्रे प्रतिष्ठापयते धनं च । विशेषविच्छ्रुतवान्क्षिप्रकारी तं सर्वलोकः कुरुते प्रमाणम्",
+          "transliteration": "yaH kAmamanyU prajahAti rAjA pAtre pratiShThApayate dhana.n cha | visheShavichChrutavAnxiprakArI ta.n sarvalokaH kurute pramANam"
+        },
+        {
+          "number": 86,
+          "sanskrit": "जानाति विश्वासयितुं मनुष्यान् विज्ञात दोषेषु दधाति दण्डम् । जानाति मात्रां च तथा क्षमां च तं तादृशं श्रीर्जुषते समग्रा",
+          "transliteration": "jAnAti vishvAsayituM manuShyAn.h vij~nAta doSheShu dadhAti daNDam | jAnAti mAtrA.n cha tathA xamAM cha ta.n tAdR^isha.n shrIrjuShate samagrA"
+        },
+        {
+          "number": 87,
+          "sanskrit": "सुदुर्बलं नावजानाति कंचिद्- युक्तो रिपुं सेवते बुद्धिपूर्वम् । न विग्रहं रोचयते बलस्थैः काले च यो विक्रमते स धीरः",
+          "transliteration": "sudurbalaM nAvajAnAti ka.nchid\\- yukto ripu.n sevate buddhipUrvam | na vigraha.n rochayate balasthaiH kAle cha yo vikramate sa dhIraH"
+        },
+        {
+          "number": 88,
+          "sanskrit": "प्राप्यापदं न व्यथते कदा चिद् उद्योगमन्विच्छति चाप्रमत्तः । दुःखं च काले सहते जितात्मा धुरन्धरस्तस्य जिताः सपत्नाः",
+          "transliteration": "prApyApadaM na vyathate kadA chid udyogamanvichChati chApramattaH | duHkha.n cha kAle sahate jitAtmA dhurandharastasya jitAH sapatnAH"
+        },
+        {
+          "number": 89,
+          "sanskrit": "अनर्थकं विप्र वासं गृहेभ्यः पापैः सन्धिं परदाराभिमर्शम् । दम्भं स्तैन्यं पैशुनं मद्य पानं न सेवते यः स सुखी सदैव",
+          "transliteration": "anarthaka.n vipra vAsa.n gR^ihebhyaH pApaiH sandhiM paradArAbhimarsham | dambha.n stainyaM paishunaM madya pAnaM na sevate yaH sa sukhI sadaiva"
+        },
+        {
+          "number": 90,
+          "sanskrit": "न संरम्भेणारभतेऽर्थवर्गम् आकारितः शंसति तथ्यमेव । न मात्रार्थे रोचयते विवादं नापूजितः कुप्यति चाप्यमूढः",
+          "transliteration": "na sa.nrambheNArabhate.arthavargam.h AkAritaH sha.nsati tathyameva | na mAtrArthe rochayate vivAdaM nApUjitaH kupyati chApyamUDhaH"
+        },
+        {
+          "number": 91,
+          "sanskrit": "न योऽभ्यसूयत्यनुकम्पते च न दुर्बलः प्रातिभाव्यं करोति । नात्याह किं चित्क्षमते विवादं सर्वत्र तादृग्लभते प्रशंसाम्",
+          "transliteration": "na yo.abhyasUyatyanukampate cha na durbalaH prAtibhAvya.n karoti | nAtyAha ki.n chitxamate vivAdaM sarvatra tAdR^iglabhate prasha.nsAm"
+        },
+        {
+          "number": 92,
+          "sanskrit": "यो नोद्धतं कुरुते जातु वेषं न पौरुषेणापि विकत्थतेऽन्यान् । न मूर्च्छितः कटुकान्याह किं चित् प्रियं सदा तं कुरुते जनोऽपि",
+          "transliteration": "yo noddhata.n kurute jAtu veShaM na pauruSheNApi vikatthate.anyAn | na mUrchChitaH kaTukAnyAha ki.n chit.h priya.n sadA ta.n kurute jano.api"
+        },
+        {
+          "number": 93,
+          "sanskrit": "न वैरमुद्दीपयति प्रशान्तं न दर्ममारोहति नास्तमेति । न दुर्गतोऽस्मीति करोति मन्युं तमार्य शीलं परमाहुरग्र्यम्",
+          "transliteration": "na vairamuddIpayati prashAntaM na darmamArohati nAstameti | na durgato.asmIti karoti manyuM tamArya shIlaM paramAhuragryam"
+        },
+        {
+          "number": 94,
+          "sanskrit": "न स्वे सुखे वै कुरुते प्रहर्षं नान्यस्य दुःखे भवति प्रतीतः । दत्त्वा न पश्चात्कुरुतेऽनुतापं न कत्थते सत्पुरुषार्य शीलः",
+          "transliteration": "na sve sukhe vai kurute praharShaM nAnyasya duHkhe bhavati pratItaH | dattvA na pashchAtkurute.anutApaM na katthate satpuruShArya shIlaH"
+        },
+        {
+          "number": 95,
+          "sanskrit": "देशाचारान्समयाञ्जातिधर्मान् बुभूषते यस्तु परावरज्ञः । स तत्र तत्राधिगतः सदैव महाजनस्याधिपत्यं करोति",
+          "transliteration": "deshAchArAnsamayA~njAtidharmAn.h bubhUShate yastu parAvaraj~naH | sa tatra tatrAdhigataH sadaiva mahAjanasyAdhipatya.n karoti"
+        },
+        {
+          "number": 96,
+          "sanskrit": "दम्भं मोहं मत्सरं पापकृत्यं राजद्विष्टं पैशुनं पूगवैरम् । मत्तोन्मत्तैर्दुर्जनैश्चापि वादं यः प्रज्ञावान्वर्जयेत्स प्रधानः",
+          "transliteration": "dambhaM mohaM matsaraM pApakR^ityaM rAjadviShTaM paishunaM pUgavairam | mattonmattairdurjanaishchApi vAdaM yaH praj~nAvAnvarjayetsa pradhAnaH"
+        },
+        {
+          "number": 97,
+          "sanskrit": "दमं शौचं दैवतं मङ्गलानि प्रायश्चित्तं विविधाँल्लोकवादान् । एतानि यः कुरुते नैत्यकानि तस्योत्थानं देवता राधयन्ति",
+          "transliteration": "dama.n shaucha.n daivataM ma~NgalAni prAyashchitta.n vividhA.NllokavAdAn | etAni yaH kurute naityakAni tasyotthAna.n devatA rAdhayanti"
+        },
+        {
+          "number": 98,
+          "sanskrit": "समैर्विवाहं कुरुते न हीनैः समैः सख्यं व्यवहारं कथाश्च । गुणैर्विशिष्टांश्च पुरो दधाति विपश्चितस्तस्य नयाः सुनीताः",
+          "transliteration": "samairvivAha.n kurute na hInaiH samaiH sakhya.n vyavahAra.n kathAshcha | guNairvishiShTAMshcha puro dadhAti vipashchitastasya nayAH sunItAH"
+        },
+        {
+          "number": 99,
+          "sanskrit": "मितं भुङ्क्ते संविभज्याश्रितेभ्यो मितं स्वपित्यमितं कर्मकृत्वा । ददात्यमित्रेष्वपि याचितः सं- स्तमात्मवन्तं प्रजहात्यनर्थाः",
+          "transliteration": "mitaM bhu~Nkte sa.nvibhajyAshritebhyo mita.n svapityamita.n karmakR^itvA | dadAtyamitreShvapi yAchitaH sa.n\\- stamAtmavantaM prajahAtyanarthAH"
+        },
+        {
+          "number": 100,
+          "sanskrit": "चिकीर्षितं विप्रकृतं च यस्य नान्ये जनाः कर्म जानन्ति किं चित् । मन्त्रे गुप्ते सम्यगनुष्ठिते च स्वल्पो नास्य व्यथते कश्चिदर्थः",
+          "transliteration": "chikIrShita.n viprakR^ita.n cha yasya nAnye janAH karma jAnanti ki.n chit | mantre gupte samyaganuShThite cha svalpo nAsya vyathate kashchidarthaH"
+        },
+        {
+          "number": 101,
+          "sanskrit": "यः सर्वभूतप्रशमे निविष्टः सत्यो मृदुर्दानकृच्छुद्ध भावः । अतीव सञ्ज्ञायते ज्ञातिमध्ये महामणिर्जात्य इव प्रसन्नः",
+          "transliteration": "yaH sarvabhUtaprashame niviShTaH satyo mR^idurdAnakR^ichChuddha bhAvaH | atIva sa~nj~nAyate j~nAtimadhye mahAmaNirjAtya iva prasannaH"
+        },
+        {
+          "number": 102,
+          "sanskrit": "य आत्मनापत्रपते भृशं नरः स सर्वलोकस्य गुरुर्भवत्युत । अनन्त तेजाः सुमनाः समाहितः स्वतेजसा सूर्य इवावभासते",
+          "transliteration": "ya AtmanApatrapate bhR^ishaM naraH sa sarvalokasya gururbhavatyuta | ananta tejAH sumanAH samAhitaH svatejasA sUrya ivAvabhAsate"
+        },
+        {
+          "number": 103,
+          "sanskrit": "वने जाताः शापदग्धस्य राज्ञः पाण्डोः पुत्राः पञ्च पञ्चेन्द्र कल्पाः । त्वयैव बाला वर्धिताः शिक्षिताश्च तवादेशं पालयन्त्याम्बिकेय",
+          "transliteration": "vane jAtAH shApadagdhasya rAj~naH pANDoH putrAH pa~ncha pa~nchendra kalpAH | tvayaiva bAlA vardhitAH shixitAshcha tavAdeshaM pAlayantyAmbikeya"
+        },
+        {
+          "number": 104,
+          "sanskrit": "प्रदायैषामुचितं तात राज्यं सुखी पुत्रैः सहितो मोदमानः । न देवानां नापि च मानुषाणां भविष्यसि त्वं तर्कणीयो नरेन्द्र",
+          "transliteration": "pradAyaiShAmuchita.n tAta rAjyaM sukhI putraiH sahito modamAnaH | na devAnAM nApi cha mAnuShANAM bhaviShyasi tva.n tarkaNIyo narendra"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "अध्यायः ३४ धृतराष्ट्र उवाच । जाग्रतो दह्यमानस्य यत्कार्यमनुपश्यसि । तद्ब्रूहि त्वं हि नस्तात धर्मार्थकुशलः शुचिः",
+          "transliteration": "adhyAyaH 34 dhR^itarAShTra uvAcha | jAgrato dahyamAnasya yatkAryamanupashyasi | tadbrUhi tva.n hi nastAta dharmArthakushalaH shuchiH"
+        },
+        {
+          "number": 2,
+          "sanskrit": "त्वं मां यथावद्विदुर प्रशाधि प्रज्ञा पूर्वं सर्वमजातशत्रोः । यन्मन्यसे पथ्यमदीनसत्त्व श्रेयः करं ब्रूहि तद्वै कुरूणाम्",
+          "transliteration": "tvaM mA.n yathAvadvidura prashAdhi praj~nA pUrva.n sarvamajAtashatroH | yanmanyase pathyamadInasattva shreyaH karaM brUhi tadvai kurUNAm"
+        },
+        {
+          "number": 3,
+          "sanskrit": "पापाशङ्गी पापमेव नौपश्यन् पृच्छामि त्वां व्याकुलेनात्मनाहम् । कवे तन्मे ब्रूहि सर्वं यथावन् मनीषितं सर्वमजातशत्रोः",
+          "transliteration": "pApAsha~NgI pApameva naupashyan.h pR^ichChAmi tvA.n vyAkulenAtmanAham | kave tanme brUhi sarva.n yathAvan manIShita.n sarvamajAtashatroH"
+        },
+        {
+          "number": 4,
+          "sanskrit": "विदुर उवाच । शुभं वा यदि वा पापं द्वेष्यं वा यदि वा प्रियम् । अपृष्टस्तस्य तद्ब्रूयाद्यस्य नेच्छेत्पराभवम्",
+          "transliteration": "vidura uvAcha | shubha.n vA yadi vA pApa.n dveShyaM vA yadi vA priyam | apR^iShTastasya tadbrUyAdyasya nechChetparAbhavam"
+        },
+        {
+          "number": 5,
+          "sanskrit": "तस्माद्वक्ष्यामि ते राजन्भवमिच्छन्कुरून्प्रति । वचः श्रेयः करं धर्म्यं ब्रुवतस्तन्निबोध मे",
+          "transliteration": "tasmAdvaxyAmi te rAjanbhavamichChankurUnprati | vachaH shreyaH kara.n dharmyaM bruvatastannibodha me"
+        },
+        {
+          "number": 6,
+          "sanskrit": "मिथ्योपेतानि कर्माणि सिध्येयुर्यानि भारत । अनुपाय प्रयुक्तानि मा स्म तेषु मनः कृथाः",
+          "transliteration": "mithyopetAni karmANi sidhyeyuryAni bhArata | anupAya prayuktAni mA sma teShu manaH kR^ithAH"
+        },
+        {
+          "number": 7,
+          "sanskrit": "तथैव योगविहितं न सिध्येत्कर्म यन्नृप । उपाययुक्तं मेधावी न तत्र ग्लपयेन्मनः",
+          "transliteration": "tathaiva yogavihitaM na sidhyetkarma yannR^ipa | upAyayuktaM medhAvI na tatra glapayenmanaH"
+        },
+        {
+          "number": 8,
+          "sanskrit": "अनुबन्धानवेक्षेत सानुबन्धेषु कर्मसु । सम्प्रधार्य च कुर्वीत न वेगेन समाचरेत्",
+          "transliteration": "anubandhAnavexeta sAnubandheShu karmasu | sampradhArya cha kurvIta na vegena samAcharet"
+        },
+        {
+          "number": 9,
+          "sanskrit": "अनुबन्धं च सम्प्रेक्ष्य विपाकांश्चैव कर्मणाम् । उत्थानमात्मनश्चैव धीरः कुर्वीत वा न वा",
+          "transliteration": "anubandha.n cha samprexya vipAkAMshchaiva karmaNAm | utthAnamAtmanashchaiva dhIraH kurvIta vA na vA"
+        },
+        {
+          "number": 10,
+          "sanskrit": "यः प्रमाणं न जानाति स्थाने वृद्धौ तथा क्षये । कोशे जनपदे दण्डे न स राज्यावतिष्ठते",
+          "transliteration": "yaH pramANaM na jAnAti sthAne vR^iddhau tathA xaye | koshe janapade daNDe na sa rAjyAvatiShThate"
+        },
+        {
+          "number": 11,
+          "sanskrit": "यस्त्वेतानि प्रमाणानि यथोक्तान्यनुपश्यति । युक्तो धर्मार्थयोर्ज्ञाने स राज्यमधिगच्छति",
+          "transliteration": "yastvetAni pramANAni yathoktAnyanupashyati | yukto dharmArthayorj~nAne sa rAjyamadhigachChati"
+        },
+        {
+          "number": 12,
+          "sanskrit": "न राज्यं प्राप्तमित्येव वर्तितव्यमसाम्प्रतम् । श्रियं ह्यविनयो हन्ति जरा रूपमिवोत्तमम्",
+          "transliteration": "na rAjyaM prAptamityeva vartitavyamasAmpratam | shriya.n hyavinayo hanti jarA rUpamivottamam"
+        },
+        {
+          "number": 13,
+          "sanskrit": "भक्ष्योत्तम प्रतिच्छन्नं मत्स्यो बडिशमायसम् । रूपाभिपाती ग्रसते नानुबन्धमवेक्षते",
+          "transliteration": "bhaxyottama pratichChannaM matsyo baDishamAyasam | rUpAbhipAtI grasate nAnubandhamavexate"
+        },
+        {
+          "number": 14,
+          "sanskrit": "यच्छक्यं ग्रसितुं ग्रस्यं ग्रस्तं परिणमेच्च यत् । हितं च परिणामे यत्तदद्यं भूतिमिच्छता",
+          "transliteration": "yachChakya.n grasituM grasyaM grastaM pariNamechcha yat | hita.n cha pariNAme yattadadyaM bhUtimichChatA"
+        },
+        {
+          "number": 15,
+          "sanskrit": "वनस्पतेरपक्वानि फलानि प्रचिनोति यः । स नाप्नोति रसं तेभ्यो बीजं चास्य विनश्यति",
+          "transliteration": "vanaspaterapakvAni phalAni prachinoti yaH | sa nApnoti rasa.n tebhyo bIjaM chAsya vinashyati"
+        },
+        {
+          "number": 16,
+          "sanskrit": "यस्तु पक्वमुपादत्ते काले परिणतं फलम् । फलाद्रसं स लभते बीजाच्चैव फलं पुनः",
+          "transliteration": "yastu pakvamupAdatte kAle pariNataM phalam | phalAdrasa.n sa labhate bIjAchchaiva phalaM punaH"
+        },
+        {
+          "number": 17,
+          "sanskrit": "यथा मधु समादत्ते रक्षन्पुष्पाणि षट्पदः । तद्वदर्थान्मनुष्येभ्य आदद्यादविहिंसया",
+          "transliteration": "yathA madhu samAdatte raxanpuShpANi ShaTpadaH | tadvadarthAnmanuShyebhya AdadyAdavihi.nsayA"
+        },
+        {
+          "number": 18,
+          "sanskrit": "पुष्पं पुष्पं विचिन्वीत मूलच्छेदं न कारयेत् । मालाकार इवारामे न यथाङ्गारकारकः",
+          "transliteration": "puShpaM puShpa.n vichinvIta mUlachChedaM na kArayet | mAlAkAra ivArAme na yathA~NgArakArakaH"
+        },
+        {
+          "number": 19,
+          "sanskrit": "किं नु मे स्यादिदं कृत्वा किं नु मे स्यादकुर्वतः । इति कर्माणि सञ्चिन्त्य कुर्याद्वा पुरुषो न वा",
+          "transliteration": "kiM nu me syAdida.n kR^itvA kiM nu me syAdakurvataH | iti karmANi sa~ncintya kuryAdvA puruSho na vA"
+        },
+        {
+          "number": 20,
+          "sanskrit": "अनारभ्या भवन्त्यर्थाः के चिन्नित्यं तथागताः । कृतः पुरुषकारोऽपि भवेद्येषु निरर्थकः",
+          "transliteration": "anArabhyA bhavantyarthAH ke chinnitya.n tathAgatAH | kR^itaH puruShakAro.api bhavedyeShu nirarthakaH"
+        },
+        {
+          "number": 21,
+          "sanskrit": "कांश्चिदर्थान्नरः प्राज्ञो लभु मूलान्महाफलान् । क्षिप्रमारभते कर्तुं न विघ्नयति तादृशान्",
+          "transliteration": "kAMshchidarthAnnaraH prAj~no labhu mUlAnmahAphalAn | xipramArabhate kartuM na vighnayati tAdR^ishAn"
+        },
+        {
+          "number": 22,
+          "sanskrit": "ऋजु पश्यति यः सर्वं चक्षुषानुपिबन्निव । आसीनमपि तूष्णीकमनुरज्यन्ति तं प्रजाः",
+          "transliteration": "R^iju pashyati yaH sarva.n chaxuShAnupibanniva | AsInamapi tUShNIkamanurajyanti taM prajAH"
+        },
+        {
+          "number": 23,
+          "sanskrit": "चक्षुषा मनसा वाचा कर्मणा च चतुर्विधम् । प्रसादयति लोकं यस्तं लोकोऽनुप्रसीदति",
+          "transliteration": "chaxuShA manasA vAchA karmaNA cha chaturvidham | prasAdayati loka.n yastaM loko.anuprasIdati"
+        },
+        {
+          "number": 24,
+          "sanskrit": "यस्मात्त्रस्यन्ति भूतानि मृगव्याधान्मृगा इव । सागरान्तामपि महीं लब्ध्वा स परिहीयते",
+          "transliteration": "yasmAttrasyanti bhUtAni mR^igavyAdhAnmR^igA iva | sAgarAntAmapi mahI.n labdhvA sa parihIyate"
+        },
+        {
+          "number": 25,
+          "sanskrit": "पितृपैतामहं राज्यं प्राप्तवान्स्वेन तेजसा । वायुरभ्रमिवासाद्य भ्रंशयत्यनये स्थितः",
+          "transliteration": "pitR^ipaitAmaha.n rAjyaM prAptavAnsvena tejasA | vAyurabhramivAsAdya bhraMshayatyanaye sthitaH"
+        },
+        {
+          "number": 26,
+          "sanskrit": "धर्ममाचरतो राज्ञः सद्भिश्चरितमादितः । वसुधा वसुसम्पूर्णा वर्धते भूतिवर्धनी",
+          "transliteration": "dharmamAcharato rAj~naH sadbhishcharitamAditaH | vasudhA vasusampUrNA vardhate bhUtivardhanI"
+        },
+        {
+          "number": 27,
+          "sanskrit": "अथ सन्त्यजतो धर्ममधर्मं चानुतिष्ठतः । प्रतिसंवेष्टते भूमिरग्नौ चर्माहितं यथा",
+          "transliteration": "atha santyajato dharmamadharma.n chAnutiShThataH | pratisa.nveShTate bhUmiragnau charmAhita.n yathA"
+        },
+        {
+          "number": 28,
+          "sanskrit": "य एव यत्नः क्रियते प्रर राष्ट्रावमर्दने । स एव यत्नः कर्तव्यः स्वराष्ट्र परिपालने",
+          "transliteration": "ya eva yatnaH kriyate prara rAShTrAvamardane | sa eva yatnaH kartavyaH svarAShTra paripAlane"
+        },
+        {
+          "number": 29,
+          "sanskrit": "धर्मेण राज्यं विन्देत धर्मेण परिपालयेत् । धर्ममूलां श्रियं प्राप्य न जहाति न हीयते",
+          "transliteration": "dharmeNa rAjya.n vindeta dharmeNa paripAlayet | dharmamUlA.n shriyaM prApya na jahAti na hIyate"
+        },
+        {
+          "number": 30,
+          "sanskrit": "अप्युन्मत्तात्प्रलपतो बालाच्च परिसर्पतः । सर्वतः सारमादद्यादश्मभ्य इव काञ्चनम्",
+          "transliteration": "apyunmattAtpralapato bAlAchcha parisarpataH | sarvataH sAramAdadyAdashmabhya iva kA~nchanam"
+        },
+        {
+          "number": 31,
+          "sanskrit": "सुव्याहृतानि सुधियां सुकृतानि ततस्ततः । सञ्चिन्वन्धीर आसीत शिला हारी शिलं यथा",
+          "transliteration": "suvyAhR^itAni sudhiyA.n sukR^itAni tatastataH | sa~ncinvandhIra AsIta shilA hArI shila.n yathA"
+        },
+        {
+          "number": 32,
+          "sanskrit": "गन्धेन गावः पश्यन्ति वेदैः पश्यन्ति ब्राह्मणाः । चारैः पश्यन्ति राजानश्चक्षुर्भ्यामितरे जनाः",
+          "transliteration": "gandhena gAvaH pashyanti vedaiH pashyanti brAhmaNAH | chAraiH pashyanti rAjAnashchaxurbhyAmitare janAH"
+        },
+        {
+          "number": 33,
+          "sanskrit": "भूयांसं लभते क्लेशं या गौर्भवति दुर्दुहा । अथ या सुदुहा राजन्नैव तां विनयन्त्यपि",
+          "transliteration": "bhUyA.nsa.n labhate kleshaM yA gaurbhavati durduhA | atha yA suduhA rAjannaiva tA.n vinayantyapi"
+        },
+        {
+          "number": 34,
+          "sanskrit": "यदतप्तं प्रणमति न तत्सन्तापयन्त्यपि । यच्च स्वयं नतं दारु न तत्सन्नामयन्त्यपि",
+          "transliteration": "yadataptaM praNamati na tatsantApayantyapi | yachcha svayaM nata.n dAru na tatsannAmayantyapi"
+        },
+        {
+          "number": 35,
+          "sanskrit": "एतयोपमया धीरः सन्नमेत बलीयसे । इन्द्राय स प्रणमते नमते यो बलीयसे",
+          "transliteration": "etayopamayA dhIraH sannameta balIyase | indrAya sa praNamate namate yo balIyase"
+        },
+        {
+          "number": 36,
+          "sanskrit": "पर्जन्यनाथाः पशवो राजानो मित्र बान्धवाः । पतयो बान्धवाः स्त्रीणां ब्राह्मणा वेद बान्धवाः",
+          "transliteration": "parjanyanAthAH pashavo rAjAno mitra bAndhavAH | patayo bAndhavAH strINAM brAhmaNA veda bAndhavAH"
+        },
+        {
+          "number": 37,
+          "sanskrit": "सत्येन रक्ष्यते धर्मो विद्या योगेन रक्ष्यते । मृजया रक्ष्यते रूपं कुलं वृत्तेन रक्ष्यते",
+          "transliteration": "satyena raxyate dharmo vidyA yogena raxyate | mR^ijayA raxyate rUpa.n kula.n vR^ittena raxyate"
+        },
+        {
+          "number": 38,
+          "sanskrit": "मानेन रक्ष्यते धान्यमश्वान्रक्ष्यत्यनुक्रमः । अभीक्ष्णदर्शनाद्गावः स्त्रियो रक्ष्याः कुचेलतः",
+          "transliteration": "mAnena raxyate dhAnyamashvAnraxyatyanukramaH | abhIxNadarshanAdgAvaH striyo raxyAH kuchelataH"
+        },
+        {
+          "number": 39,
+          "sanskrit": "न कुलं वृत्ति हीनस्य प्रमाणमिति मे मतिः । अन्त्येष्वपि हि जातानां वृत्तमेव विशिष्यते",
+          "transliteration": "na kula.n vR^itti hInasya pramANamiti me matiH | antyeShvapi hi jAtAnA.n vR^ittameva vishiShyate"
+        },
+        {
+          "number": 40,
+          "sanskrit": "य ईर्ष्युः परवित्तेषु रूपे वीर्ये कुलान्वये । सुखे सौभाग्यसत्कारे तस्य व्याधिरनन्तकः",
+          "transliteration": "ya IrShyuH paravitteShu rUpe vIrye kulAnvaye | sukhe saubhAgyasatkAre tasya vyAdhiranantakaH"
+        },
+        {
+          "number": 41,
+          "sanskrit": "अकार्य करणाद्भीतः कार्याणां च विवर्जनात् । अकाले मन्त्रभेदाच्च येन माद्येन्न तत्पिबेत्",
+          "transliteration": "akArya karaNAdbhItaH kAryANA.n cha vivarjanAt | akAle mantrabhedAchcha yena mAdyenna tatpibet"
+        },
+        {
+          "number": 42,
+          "sanskrit": "विद्यामदो धनमदस्तृतीयोऽभिजनो मदः । एते मदावलिप्तानामेत एव सतां दमाः",
+          "transliteration": "vidyAmado dhanamadastR^itIyo.abhijano madaH | ete madAvaliptAnAmeta eva satA.n damAH"
+        },
+        {
+          "number": 43,
+          "sanskrit": "असन्तोऽभ्यर्थिताः सद्भिः किं चित्कार्यं कदा चन । मन्यन्ते सन्तमात्मानमसन्तमपि विश्रुतम्",
+          "transliteration": "asanto.abhyarthitAH sadbhiH ki.n chitkAryaM kadA chana | manyante santamAtmAnamasantamapi vishrutam"
+        },
+        {
+          "number": 44,
+          "sanskrit": "गतिरात्मवतां सन्तः सन्त एव सतां गतिः । असतां च गतिः सन्तो न त्वसन्तः सतां गतिः",
+          "transliteration": "gatirAtmavatA.n santaH santa eva satA.n gatiH | asatA.n cha gatiH santo na tvasantaH satAM gatiH"
+        },
+        {
+          "number": 45,
+          "sanskrit": "जिता सभा वस्त्रवता समाशा गोमता जिता । अध्वा जितो यानवता सर्वं शीलवता जितम्",
+          "transliteration": "jitA sabhA vastravatA samAshA gomatA jitA | adhvA jito yAnavatA sarva.n shIlavatA jitam"
+        },
+        {
+          "number": 46,
+          "sanskrit": "शीलं प्रधानं पुरुषे तद्यस्येह प्रणश्यति । न तस्य जीवितेनार्थो न धनेन न बन्धुभिः",
+          "transliteration": "shIlaM pradhAnaM puruShe tadyasyeha praNashyati | na tasya jIvitenArtho na dhanena na bandhubhiH"
+        },
+        {
+          "number": 47,
+          "sanskrit": "आढ्यानां मांसपरमं मध्यानां गोरसोत्तरम् । लवणोत्तरं दरिद्राणां भोजनं भरतर्षभ",
+          "transliteration": "ADhyAnAM mA.nsaparamaM madhyAnA.n gorasottaram | lavaNottara.n daridrANAM bhojanaM bharatarShabha"
+        },
+        {
+          "number": 48,
+          "sanskrit": "सम्पन्नतरमेवान्नं दरिद्रा भुञ्जते सदा । क्षुत्स्वादुतां जनयति सा चाढ्येषु सुदुर्लभा",
+          "transliteration": "sampannataramevAnna.n daridrA bhu~njate sadA | xutsvAdutA.n janayati sA chADhyeShu sudurlabhA"
+        },
+        {
+          "number": 49,
+          "sanskrit": "प्रायेण श्रीमतां लोके भोक्तुं शक्तिर्न विद्यते । दरिद्राणां तु राजेन्द्र अपि काष्ठं हि जीर्यते",
+          "transliteration": "prAyeNa shrImatA.n loke bhoktuM shaktirna vidyate | daridrANA.n tu rAjendra api kAShTha.n hi jIryate"
+        },
+        {
+          "number": 50,
+          "sanskrit": "अवृत्तिर्भयमन्त्यानां मध्यानां मरणाद्भयम् । उत्तमानां तु मर्त्यानामवमानात्परं भयम्",
+          "transliteration": "avR^ittirbhayamantyAnAM madhyAnAM maraNAdbhayam | uttamAnA.n tu martyAnAmavamAnAtparaM bhayam"
+        },
+        {
+          "number": 51,
+          "sanskrit": "ऐश्वर्यमदपापिष्ठा मदाः पानमदादयः । ऐश्वर्यमदमत्तो हि नापतित्वा विबुध्यते",
+          "transliteration": "aishvaryamadapApiShThA madAH pAnamadAdayaH | aishvaryamadamatto hi nApatitvA vibudhyate"
+        },
+        {
+          "number": 52,
+          "sanskrit": "इन्द्रियौरिन्द्रियार्थेषु वर्तमानैरनिग्रहैः । तैरयं ताप्यते लोको नक्षत्राणि ग्रहैरिव",
+          "transliteration": "indriyaurindriyArtheShu vartamAnairanigrahaiH | tairaya.n tApyate loko naxatrANi grahairiva"
+        },
+        {
+          "number": 53,
+          "sanskrit": "यो जितः पञ्चवर्गेण सहजेनात्म कर्शिना । आपदस्तस्य वर्धन्ते शुक्लपक्ष इवोडुराड्",
+          "transliteration": "yo jitaH pa~nchavargeNa sahajenAtma karshinA | Apadastasya vardhante shuklapaxa ivoDurAD"
+        },
+        {
+          "number": 54,
+          "sanskrit": "अविजित्य य आत्मानममात्यान्विजिगीषते । अमित्रान्वाजितामात्यः सोऽवशः परिहीयते",
+          "transliteration": "avijitya ya AtmAnamamAtyAnvijigIShate | amitrAnvAjitAmAtyaH so.avashaH parihIyate"
+        },
+        {
+          "number": 55,
+          "sanskrit": "आत्मानमेव प्रथमं देशरूपेण यो जयेत् । ततोऽमात्यानमित्रांश्च न मोघं विजिगीषते",
+          "transliteration": "AtmAnameva prathama.n desharUpeNa yo jayet | tato.amAtyAnamitrAMshcha na mogha.n vijigIShate"
+        },
+        {
+          "number": 56,
+          "sanskrit": "वश्येन्द्रियं जितामात्यं धृतदण्डं विकारिषु । परीक्ष्य कारिणं धीरमत्यन्तं श्रीर्निषेवते",
+          "transliteration": "vashyendriya.n jitAmAtyaM dhR^itadaNDa.n vikAriShu | parIxya kAriNa.n dhIramatyanta.n shrIrniShevate"
+        },
+        {
+          "number": 57,
+          "sanskrit": "रथः शरीरं पुरुषस्य राजन् नात्मा नियन्तेन्द्रियाण्यस्य चाश्वाः । तैरप्रमत्तः कुशलः सदश्वैर् दान्तैः सुखं याति रथीव धीरः",
+          "transliteration": "rathaH sharIraM puruShasya rAjan.h nAtmA niyantendriyANyasya chAshvAH | tairapramattaH kushalaH sadashvair dAntaiH sukha.n yAti rathIva dhIraH"
+        },
+        {
+          "number": 58,
+          "sanskrit": "एतान्यनिगृहीतानि व्यापादयितुमप्यलम् । अविधेया इवादान्ता हयाः पथि कुसारथिम्",
+          "transliteration": "etAnyanigR^ihItAni vyApAdayitumapyalam | avidheyA ivAdAntA hayAH pathi kusArathim"
+        },
+        {
+          "number": 59,
+          "sanskrit": "अनर्थमर्थतः पश्यन्नर्तं चैवाप्यनर्थतः । इन्द्रियैः प्रसृतो बालः सुदुःखं मन्यते सुखम्",
+          "transliteration": "anarthamarthataH pashyannarta.n chaivApyanarthataH | indriyaiH prasR^ito bAlaH suduHkhaM manyate sukham"
+        },
+        {
+          "number": 60,
+          "sanskrit": "धर्मार्थौ यः परित्यज्य स्यादिन्द्रियवशानुगः । श्रीप्राणधनदारेभ्य क्षिप्रं स परिहीयते",
+          "transliteration": "dharmArthau yaH parityajya syAdindriyavashAnugaH | shrIprANadhanadArebhya xipra.n sa parihIyate"
+        },
+        {
+          "number": 61,
+          "sanskrit": "अर्थानामीश्वरो यः स्यादिन्द्रियाणामनीश्वरः । इन्द्रियाणामनैश्वर्यादैश्वर्याद्भ्रश्यते हि सः",
+          "transliteration": "arthAnAmIshvaro yaH syAdindriyANAmanIshvaraH | indriyANAmanaishvaryAdaishvaryAdbhrashyate hi saH"
+        },
+        {
+          "number": 62,
+          "sanskrit": "आत्मनात्मानमन्विच्छेन्मनो बुद्धीन्द्रियैर्यतैः । आत्मैव ह्यात्मनो बन्धुरात्मैव रिपुरात्मनः",
+          "transliteration": "AtmanAtmAnamanvichChenmano buddhIndriyairyataiH | Atmaiva hyAtmano bandhurAtmaiva ripurAtmanaH"
+        },
+        {
+          "number": 63,
+          "sanskrit": "क्षुद्राक्षेणेव जालेन झषावपिहितावुभौ । कामश्च राजन्क्रोधश्च तौ प्राज्ञानं विलुम्पतः",
+          "transliteration": "xudrAxeNeva jAlena jhaShAvapihitAvubhau | kAmashcha rAjankrodhashcha tau prAj~nAna.n vilumpataH"
+        },
+        {
+          "number": 64,
+          "sanskrit": "समवेक्ष्येह धर्मार्थौ सम्भारान्योऽधिगच्छति । स वै सम्भृत सम्भारः सततं सुखमेधते",
+          "transliteration": "samavexyeha dharmArthau sambhArAnyo.adhigachChati | sa vai sambhR^ita sambhAraH satata.n sukhamedhate"
+        },
+        {
+          "number": 65,
+          "sanskrit": "यः पञ्चाभ्यन्तराञ्शत्रूनविजित्य मतिक्षयान् । जिगीषति रिपूनन्यान्रिपवोऽभिभवन्ति तम्",
+          "transliteration": "yaH pa~nchAbhyantarA~nshatrUnavijitya matixayAn | jigIShati ripUnanyAnripavo.abhibhavanti tam"
+        },
+        {
+          "number": 66,
+          "sanskrit": "दृश्यन्ते हि दुरात्मानो वध्यमानाः स्वकर्म भिः । इन्द्रियाणामनीशत्वाद्राजानो राज्यविभ्रमैः",
+          "transliteration": "dR^ishyante hi durAtmAno vadhyamAnAH svakarma bhiH | indriyANAmanIshatvAdrAjAno rAjyavibhramaiH"
+        },
+        {
+          "number": 67,
+          "sanskrit": "असन्त्यागात्पापकृतामपापांस् तुल्यो दण्डः स्पृशते मिश्रभावात् । शुष्केणार्द्रं दह्यते मिश्रभावात् तस्मात्पापैः सह सन्धिं न कुर्यात्",
+          "transliteration": "asantyAgAtpApakR^itAmapApA.ns tulyo daNDaH spR^ishate mishrabhAvAt | shuShkeNArdra.n dahyate mishrabhAvAt.h tasmAtpApaiH saha sandhiM na kuryAt"
+        },
+        {
+          "number": 68,
+          "sanskrit": "निजानुत्पततः शत्रून्पञ्च पञ्च प्रयोजनान् । यो मोहान्न निघृह्णाति तमापद्ग्रसते नरम्",
+          "transliteration": "nijAnutpatataH shatrUnpa~ncha pa~ncha prayojanAn | yo mohAnna nighR^ihNAti tamApadgrasate naram"
+        },
+        {
+          "number": 69,
+          "sanskrit": "अनसूयार्जवं शौचं सन्तोषः प्रियवादिता । दमः सत्यमनायासो न भवन्ति दुरात्मनाम्",
+          "transliteration": "anasUyArjava.n shauchaM santoShaH priyavAditA | damaH satyamanAyAso na bhavanti durAtmanAm"
+        },
+        {
+          "number": 70,
+          "sanskrit": "आत्मज्ञानमनायासस्तितिक्षा धर्मनित्यता । वाक्चैव गुप्ता दानं च नैतान्यन्त्येषु भारत",
+          "transliteration": "Atmaj~nAnamanAyAsastitixA dharmanityatA | vAkchaiva guptA dAna.n cha naitAnyantyeShu bhArata"
+        },
+        {
+          "number": 71,
+          "sanskrit": "आक्रोश परिवादाभ्यां विहिंसन्त्यबुधा बुधान् । वक्ता पापमुपादत्ते क्षममाणो विमुच्यते",
+          "transliteration": "Akrosha parivAdAbhyA.n vihi.nsantyabudhA budhAn | vaktA pApamupAdatte xamamANo vimuchyate"
+        },
+        {
+          "number": 72,
+          "sanskrit": "हिंसा बलमसाधूनां राज्ञां दण्डविधिर्बलम् । शुश्रूषा तु बलं स्त्रीणां क्षमागुणवतां बलम्",
+          "transliteration": "hi.nsA balamasAdhUnA.n rAj~nA.n daNDavidhirbalam | shushrUShA tu bala.n strINA.n xamAguNavatAM balam"
+        },
+        {
+          "number": 73,
+          "sanskrit": "वाक्संयमो हि नृपते सुदुष्करतमो मतः । अर्थवच्च विचित्रं च न शक्यं बहुभाषितुम्",
+          "transliteration": "vAksa.nyamo hi nR^ipate suduShkaratamo mataH | arthavachcha vichitra.n cha na shakyaM bahubhAShitum"
+        },
+        {
+          "number": 74,
+          "sanskrit": "अभ्यावहति कल्याणं विविधा वाक्सुभाषिता । सैव दुर्भाषिता राजन्ननर्थायोपपद्यते",
+          "transliteration": "abhyAvahati kalyANa.n vividhA vAksubhAShitA | saiva durbhAShitA rAjannanarthAyopapadyate"
+        },
+        {
+          "number": 75,
+          "sanskrit": "संरोहति शरैर्विद्धं वनं परशुना हतम् । वाचा दुरुक्तं बीभत्सं न संरोहति वाक्क्षतम्",
+          "transliteration": "sa.nrohati sharairviddha.n vanaM parashunA hatam | vAchA duruktaM bIbhatsaM na sa.nrohati vAkxatam"
+        },
+        {
+          "number": 76,
+          "sanskrit": "कर्णिनालीकनाराचा निर्हरन्ति शरीरतः । वाक्षल्यस्तु न निर्हर्तुं शक्यो हृदि शयो हि सः",
+          "transliteration": "karNinAlIkanArAchA nirharanti sharIrataH | vAkShalyastu na nirhartu.n shakyo hR^idi shayo hi saH"
+        },
+        {
+          "number": 77,
+          "sanskrit": "वाक्सायका वदनान्निष्पतन्ति यैराहतः शोचति रत्र्यहानि । परस्य नामर्मसु ते पतन्ति तान्पण्डितो नावसृजेत्परेषु",
+          "transliteration": "vAksAyakA vadanAnniShpatanti yairAhataH shochati ratryahAni | parasya nAmarmasu te patanti tAnpaNDito nAvasR^ijetpareShu"
+        },
+        {
+          "number": 78,
+          "sanskrit": "यस्मै देवाः प्रयच्छन्ति पुरुषाय पराभवम् । बुद्धिं तस्यापकर्षन्ति सोऽपाचीनानि पश्यति",
+          "transliteration": "yasmai devAH prayachChanti puruShAya parAbhavam | buddhi.n tasyApakarShanti so.apAchInAni pashyati"
+        },
+        {
+          "number": 79,
+          "sanskrit": "बुद्धौ कलुष भूतायां विनाशे प्रत्युपस्थिते । अनयो नयसङ्काशो हृदयान्नापसर्पति",
+          "transliteration": "buddhau kaluSha bhUtAyA.n vinAshe pratyupasthite | anayo nayasa~NkAsho hR^idayAnnApasarpati"
+        },
+        {
+          "number": 80,
+          "sanskrit": "सेयं बुद्धिः परीता ते पुत्राणां तव भारत । पाण्डवानां विरोधेन न चैनाम् अवबुध्यसे",
+          "transliteration": "seyaM buddhiH parItA te putrANA.n tava bhArata | pANDavAnA.n virodhena na chainAm avabudhyase"
+        },
+        {
+          "number": 81,
+          "sanskrit": "राजा लक्षणसम्पन्नस्त्रैलोक्यस्यापि यो भवेत् । शिष्यस्ते शासिता सोऽस्तु धृतराष्ट्र युधिष्ठिरः",
+          "transliteration": "rAjA laxaNasampannastrailokyasyApi yo bhavet | shiShyaste shAsitA so.astu dhR^itarAShTra yudhiShThiraH"
+        },
+        {
+          "number": 82,
+          "sanskrit": "अतीव सर्वान्पुत्रांस्ते भागधेय पुरस्कृतः । तेजसा प्रज्ञया चैव युक्तो धर्मार्थतत्त्ववित्",
+          "transliteration": "atIva sarvAnputrA.nste bhAgadheya puraskR^itaH | tejasA praj~nayA chaiva yukto dharmArthatattvavit"
+        },
+        {
+          "number": 83,
+          "sanskrit": "आनृशंस्यादनुक्रोशाद्योऽसौ धर्मभृतां वरः । गौरवात्तव राजेन्द्र बहून्क्लेशांस्तितिक्षति",
+          "transliteration": "AnR^isha.nsyAdanukroshAdyo.asau dharmabhR^itA.n varaH | gauravAttava rAjendra bahUnkleshA.nstitixati"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "अध्यायः ३५ धृतराष्ट्र उवाच । ब्रूहि भूयो महाबुद्धे धर्मार्थसहितं वचः । शृण्वतो नास्ति मे तृप्तिर्विचित्राणीह भाषसे",
+          "transliteration": "adhyAyaH 35 dhR^itarAShTra uvAcha | brUhi bhUyo mahAbuddhe dharmArthasahita.n vachaH | shR^iNvato nAsti me tR^iptirvichitrANIha bhAShase"
+        },
+        {
+          "number": 2,
+          "sanskrit": "विदुर उवाच । सर्वतीर्थेषु वा स्नानं सर्वभूतेषु चार्जवम् । उभे एते समे स्यातामार्जवं वा विशिष्यते",
+          "transliteration": "vidura uvAcha | sarvatIrtheShu vA snAna.n sarvabhUteShu chArjavam | ubhe ete same syAtAmArjava.n vA vishiShyate"
+        },
+        {
+          "number": 3,
+          "sanskrit": "आर्जवं प्रतिपद्यस्व पुत्रेषु सततं विभो । इह कीर्तिं परां प्राप्य प्रेत्य स्वर्गमवाप्स्यसि",
+          "transliteration": "ArjavaM pratipadyasva putreShu satata.n vibho | iha kIrtiM parAM prApya pretya svargamavApsyasi"
+        },
+        {
+          "number": 4,
+          "sanskrit": "यावत्कीर्तिर्मनुष्यस्य पुण्या लोकेषु गीयते । तावत्स पुरुषव्याघ्र स्वर्गलोके महीयते",
+          "transliteration": "yAvatkIrtirmanuShyasya puNyA lokeShu gIyate | tAvatsa puruShavyAghra svargaloke mahIyate"
+        },
+        {
+          "number": 5,
+          "sanskrit": "अत्राप्युदाहरन्तीममितिहासं पुरातनम् । विरोचनस्य संवादं केशिन्यर्थे सुधन्वना",
+          "transliteration": "atrApyudAharantImamitihAsaM purAtanam | virochanasya sa.nvAda.n keshinyarthe sudhanvanA"
+        },
+        {
+          "number": 6,
+          "sanskrit": "केशिन्युवाच । किं ब्राह्मणाः स्विच्छ्रेयांसो दितिजाः स्विद्विरोचन । अथ केन स्म पर्यङ्कं सुधन्वा नाधिरोहति",
+          "transliteration": "keshinyuvAcha | kiM brAhmaNAH svichChreyA.nso ditijAH svidvirochana | atha kena sma parya~Nka.n sudhanvA nAdhirohati"
+        },
+        {
+          "number": 7,
+          "sanskrit": "विरोचन उवाच । प्राजापत्या हि वै श्रेष्ठा वयं केशिनि सत्तमाः । अस्माकं खल्विमे लोकाः के देवाः के द्विजातयः",
+          "transliteration": "virochana uvAcha | prAjApatyA hi vai shreShThA vaya.n keshini sattamAH | asmAka.n khalvime lokAH ke devAH ke dvijAtayaH"
+        },
+        {
+          "number": 8,
+          "sanskrit": "केशिन्युवाच । इहैवास्स्व प्रतीक्षाव उपस्थाने विरोचन । सुधन्वा प्रातरागन्ता पश्येयं वां समागतौ",
+          "transliteration": "keshinyuvAcha | ihaivAssva pratIxAva upasthAne virochana | sudhanvA prAtarAgantA pashyeya.n vAM samAgatau"
+        },
+        {
+          "number": 9,
+          "sanskrit": "विरोचन उवाच । तथा भद्रे करिष्यामि यथा त्वं भीरु भाषसे । सुधन्वानं च मां चैव प्रातर्द्रष्टासि सङ्गतौ",
+          "transliteration": "virochana uvAcha | tathA bhadre kariShyAmi yathA tvaM bhIru bhAShase | sudhanvAna.n cha mAM chaiva prAtardraShTAsi sa~Ngatau"
+        },
+        {
+          "number": 10,
+          "sanskrit": "विदुर उवाच । अन्वालभे हिरण्मयं प्राह्रादेऽहं तवासनम् । एकत्वमुपसम्पन्नो न त्वासेयं त्वया सह",
+          "transliteration": "vidura uvAcha | anvAlabhe hiraNmayaM prAhrAde.aha.n tavAsanam | ekatvamupasampanno na tvAseya.n tvayA saha"
+        },
+        {
+          "number": 11,
+          "sanskrit": "विरोचन उवाच । अन्वाहरन्तु फलकं कूर्चं वाप्यथ वा बृसीम् । सुधन्वन्न त्वमर्होऽसि मया सह समासनम्",
+          "transliteration": "virochana uvAcha | anvAharantu phalaka.n kUrcha.n vApyatha vA bR^isIm | sudhanvanna tvamarho.asi mayA saha samAsanam"
+        },
+        {
+          "number": 12,
+          "sanskrit": "सुधन्वोवाच । पितापि ते समासीनमुपासीतैव मामधः । बालः सुखैधितो गेहे न त्वं किं चन बुध्यसे",
+          "transliteration": "sudhanvovAcha | pitApi te samAsInamupAsItaiva mAmadhaH | bAlaH sukhaidhito gehe na tva.n kiM chana budhyase"
+        },
+        {
+          "number": 13,
+          "sanskrit": "विरोचन उवाच । हिरण्यं च गवाश्वं च यद्वित्तमसुरेषु नः । सुधन्वन्विपणे तेन प्रश्नं पृच्छाव ये विदुः",
+          "transliteration": "virochana uvAcha | hiraNya.n cha gavAshvaM cha yadvittamasureShu naH | sudhanvanvipaNe tena prashnaM pR^ichChAva ye viduH"
+        },
+        {
+          "number": 14,
+          "sanskrit": "सुधन्वोवाच । हिरण्यं च गवाश्वं च तवैवास्तु विरोचन । प्राणयोस्तु पणं कृत्वा प्रश्नं पृच्छाव ये विदुः",
+          "transliteration": "sudhanvovAcha | hiraNya.n cha gavAshvaM cha tavaivAstu virochana | prANayostu paNa.n kR^itvA prashnaM pR^ichChAva ye viduH"
+        },
+        {
+          "number": 15,
+          "sanskrit": "विरोचन उवाच । आवां कुत्र गमिष्यावः प्राणयोर्विपणे कृते । न हि देवेष्वहं स्थाता न मनुष्येषु कर्हि चित्",
+          "transliteration": "virochana uvAcha | AvA.n kutra gamiShyAvaH prANayorvipaNe kR^ite | na hi deveShvaha.n sthAtA na manuShyeShu karhi chit"
+        },
+        {
+          "number": 16,
+          "sanskrit": "सुधन्वोवाच । पितरं ते गमिष्यावः प्राणयोर्विपणे कृते । पुत्रस्यापि स हेतोर्हि प्रह्रादो नानृतं वदेत्",
+          "transliteration": "sudhanvovAcha | pitara.n te gamiShyAvaH prANayorvipaNe kR^ite | putrasyApi sa hetorhi prahrAdo nAnR^ita.n vadet"
+        },
+        {
+          "number": 17,
+          "sanskrit": "प्रह्लाद उवाच । इमौ तौ सम्प्रदृश्येते याभ्यां न चरितं सह । आशीविषाविव क्रुद्धावेकमार्गमिहागतौ",
+          "transliteration": "prahlAda uvAcha | imau tau sampradR^ishyete yAbhyAM na charita.n saha | AshIviShAviva kruddhAvekamArgamihAgatau"
+        },
+        {
+          "number": 18,
+          "sanskrit": "किं वै सहैव चरतो न पुरा चरतः सह । विरोचनैतत्पृच्छामि किं ते सख्यं सुधन्वना",
+          "transliteration": "ki.n vai sahaiva charato na purA charataH saha | virochanaitatpR^ichChAmi ki.n te sakhya.n sudhanvanA"
+        },
+        {
+          "number": 19,
+          "sanskrit": "विरोचन उवाच । न मे सुधन्वना सख्यं प्राणयोर्विपणावहे । प्रह्राद तत्त्वामृप्च्छामि मा प्रश्नमनृतं वदीः",
+          "transliteration": "virochana uvAcha | na me sudhanvanA sakhyaM prANayorvipaNAvahe | prahrAda tattvAmR^ipchChAmi mA prashnamanR^ita.n vadIH"
+        },
+        {
+          "number": 20,
+          "sanskrit": "प्रह्लाद उवाच । उदकं मधुपर्कं चाप्यानयन्तु सुधन्वने । ब्रह्मन्नभ्यर्चनीयोऽसि श्वेता गौः पीवरी कृता",
+          "transliteration": "prahlAda uvAcha | udakaM madhuparka.n chApyAnayantu sudhanvane | brahmannabhyarchanIyo.asi shvetA gauH pIvarI kR^itA"
+        },
+        {
+          "number": 21,
+          "sanskrit": "सुधन्वोवाच । उदकं मधुपर्कं च पथ एवार्पितं मम । प्रह्राद त्वं तु नौ प्रश्नं तथ्यं प्रब्रूहि पृच्छतोः",
+          "transliteration": "sudhanvovAcha | udakaM madhuparka.n cha patha evArpitaM mama | prahrAda tva.n tu nau prashnaM tathyaM prabrUhi pR^ichChatoH"
+        },
+        {
+          "number": 22,
+          "sanskrit": "प्रह्लाद उवाच । पुर्तो वान्यो भवान्ब्रह्मन्साक्ष्ये चैव भवेत्स्थितः । तयोर्विवदतोः प्रश्नं कथमस्मद्विभो वदेत्",
+          "transliteration": "prahlAda uvAcha | purto vAnyo bhavAnbrahmansAxye chaiva bhavetsthitaH | tayorvivadatoH prashna.n kathamasmadvibho vadet"
+        },
+        {
+          "number": 23,
+          "sanskrit": "अथ यो नैव प्रब्रूयात्सत्यं वा यदि वानृतम् । एतत्सुधन्वन्पृच्छामि दुर्विवक्ता स्म किं वसेत्",
+          "transliteration": "atha yo naiva prabrUyAtsatya.n vA yadi vAnR^itam | etatsudhanvanpR^ichChAmi durvivaktA sma ki.n vaset"
+        },
+        {
+          "number": 24,
+          "sanskrit": "सुधन्वोवाच । यां रात्रिमधिविन्ना स्त्री यां चैवाक्ष पराजितः । यां च भाराभितप्ताङ्गो दुर्विवक्ता स्म तां वसेत्",
+          "transliteration": "sudhanvovAcha | yA.n rAtrimadhivinnA strI yA.n chaivAxa parAjitaH | yA.n cha bhArAbhitaptA~Ngo durvivaktA sma tA.n vaset"
+        },
+        {
+          "number": 25,
+          "sanskrit": "नगरे प्रतिरुद्धः सन्बहिर्द्वारे बुभुक्षितः । अमित्रान्भूयसः पश्यन्दुर्विवक्ता स्म तां वसेत्",
+          "transliteration": "nagare pratiruddhaH sanbahirdvAre bubhuxitaH | amitrAnbhUyasaH pashyandurvivaktA sma tA.n vaset"
+        },
+        {
+          "number": 26,
+          "sanskrit": "पञ्च पश्वनृते हन्ति दश हन्ति गवानृते । शतमश्वानृते हन्ति सहस्रं पुरुषानृते",
+          "transliteration": "pa~ncha pashvanR^ite hanti dasha hanti gavAnR^ite | shatamashvAnR^ite hanti sahasraM puruShAnR^ite"
+        },
+        {
+          "number": 27,
+          "sanskrit": "हन्ति जातानजातांश्च हिरण्यार्थोऽनृतं वदन् । सर्वं भूम्यनृते हन्ति मा स्म भूम्यनृतं वदीः",
+          "transliteration": "hanti jAtAnajAtAMshcha hiraNyArtho.anR^ita.n vadan | sarvaM bhUmyanR^ite hanti mA sma bhUmyanR^ita.n vadIH"
+        },
+        {
+          "number": 28,
+          "sanskrit": "प्रह्लाद उवाच । मत्तः श्रेयानङ्गिरा वै सुधन्वा त्वद्विरोचन । मातास्य श्रेयसी मातुस्तस्मात्त्वं तेन वै जितः",
+          "transliteration": "prahlAda uvAcha | mattaH shreyAna~NgirA vai sudhanvA tvadvirochana | mAtAsya shreyasI mAtustasmAttva.n tena vai jitaH"
+        },
+        {
+          "number": 29,
+          "sanskrit": "विरोचन सुधन्वायं प्राणानामीश्वरस्तव । सुधन्वन्पुनरिच्छामि त्वया दत्तं विरोचनम्",
+          "transliteration": "virochana sudhanvAyaM prANAnAmIshvarastava | sudhanvanpunarichChAmi tvayA datta.n virochanam"
+        },
+        {
+          "number": 30,
+          "sanskrit": "सुधन्वोवाच । यद्धर्ममवृणीथास्त्वं न कामादनृतं वदीः । पुनर्ददामि ते तस्मात्पुत्रं प्रह्राद दुर्लभम्",
+          "transliteration": "sudhanvovAcha | yaddharmamavR^iNIthAstvaM na kAmAdanR^ita.n vadIH | punardadAmi te tasmAtputraM prahrAda durlabham"
+        },
+        {
+          "number": 31,
+          "sanskrit": "एष प्रह्राद पुत्रस्ते मया दत्तो विरोचनः । पादप्रक्षालनं कुर्यात्कुमार्याः सन्निधौ मम",
+          "transliteration": "eSha prahrAda putraste mayA datto virochanaH | pAdapraxAlana.n kuryAtkumAryAH sannidhau mama"
+        },
+        {
+          "number": 32,
+          "sanskrit": "विदुर उवाच । तस्माद्राजेन्द्र भूम्यर्थे नानृतं वक्तुमर्हसि । मा गमः स सुतामात्योऽत्ययं पुत्राननुभ्रमन्",
+          "transliteration": "vidura uvAcha | tasmAdrAjendra bhUmyarthe nAnR^ita.n vaktumarhasi | mA gamaH sa sutAmAtyo.atyayaM putrAnanubhraman"
+        },
+        {
+          "number": 33,
+          "sanskrit": "न देवा यष्टिमादाय रक्षन्ति पशुपालवत् । यं तु रक्षितुमिच्छन्ति बुद्ध्या संविभजन्ति तम्",
+          "transliteration": "na devA yaShTimAdAya raxanti pashupAlavat | ya.n tu raxitumichChanti buddhyA sa.nvibhajanti tam"
+        },
+        {
+          "number": 34,
+          "sanskrit": "यथा यथा हि पुरुषः कल्याणे कुरुते मनः । तथा तथास्य सर्वार्थाः सिध्यन्ते नात्र संशयः",
+          "transliteration": "yathA yathA hi puruShaH kalyANe kurute manaH | tathA tathAsya sarvArthAH sidhyante nAtra saMshayaH"
+        },
+        {
+          "number": 35,
+          "sanskrit": "न छन्दांसि वृजिनात्तारयन्ति आयाविनं मायया वर्तमानम् । नीडं शकुन्ता इव जातपक्षाश् छन्दांस्येनं प्रजहत्यन्तकाले",
+          "transliteration": "na ChandA.nsi vR^ijinAttArayanti AyAvinaM mAyayA vartamAnam | nIDa.n shakuntA iva jAtapaxAsh ChandA.nsyenaM prajahatyantakAle"
+        },
+        {
+          "number": 36,
+          "sanskrit": "मत्तापानं कलहं पूगवैरं भार्यापत्योरन्तरं ज्ञातिभेदम् । राजद्विष्टं स्त्रीपुमांसोर्विवादं वर्ज्यान्याहुर्यश्च पन्थाः प्रदुष्ठः",
+          "transliteration": "mattApAna.n kalahaM pUgavairaM bhAryApatyorantara.n j~nAtibhedam | rAjadviShTa.n strIpumA.nsorvivAdaM varjyAnyAhuryashcha panthAH praduShThaH"
+        },
+        {
+          "number": 37,
+          "sanskrit": "सामुद्रिकं वणिजं चोरपूर्वं शलाक धूर्तं च चिकित्सकं च । अरिं च मित्रं च कुशीलवं च नैतान्साख्येष्वधिकुर्वीत सप्त",
+          "transliteration": "sAmudrika.n vaNija.n chorapUrvaM shalAka dhUrta.n cha chikitsakaM cha | ari.n cha mitraM cha kushIlavaM cha naitAnsAkhyeShvadhikurvIta sapta"
+        },
+        {
+          "number": 38,
+          "sanskrit": "मानाग्निहोत्रमुत मानमौनं मानेनाधीतमुत मानयज्ञः । एतानि चत्वार्यभयङ्कराणि भयं प्रयच्छन्त्ययथा कृतानि",
+          "transliteration": "mAnAgnihotramuta mAnamaunaM mAnenAdhItamuta mAnayaj~naH | etAni chatvAryabhaya~NkarANi bhayaM prayachChantyayathA kR^itAni"
+        },
+        {
+          "number": 39,
+          "sanskrit": "अगार दाही गरदः कुण्डाशी सोमविक्रयी । पर्व कारश्च सूची च मित्र ध्रुक्पारदारिकः",
+          "transliteration": "agAra dAhI garadaH kuNDAshI somavikrayI | parva kArashcha sUchI cha mitra dhrukpAradArikaH"
+        },
+        {
+          "number": 40,
+          "sanskrit": "भ्रूणहा गुरु तल्पी च यश्च स्यात्पानपो द्विजः । अतितीक्ष्णश्च काकश्च नास्तिको वेद निन्दकः",
+          "transliteration": "bhrUNahA guru talpI cha yashcha syAtpAnapo dvijaH | atitIxNashcha kAkashcha nAstiko veda nindakaH"
+        },
+        {
+          "number": 41,
+          "sanskrit": "स्रुव प्रग्रहणो व्रात्यः कीनाशश्चार्थवानपि । रक्षेत्युक्तश्च यो हिंस्यात्सर्वे ब्रह्मण्हणैः समाः",
+          "transliteration": "sruva pragrahaNo vrAtyaH kInAshashchArthavAnapi | raxetyuktashcha yo hi.nsyAtsarve brahmaNhaNaiH samAH"
+        },
+        {
+          "number": 42,
+          "sanskrit": "तृणोक्लया ज्ञायते जातरूपं युगे भद्रो व्यवहारेण साधुः । शूरो भयेष्वर्थकृच्छ्रेषु धीरः कृच्छ्रास्वापत्सु सुहृदश्चारयश् च",
+          "transliteration": "tR^iNoklayA j~nAyate jAtarUpaM yuge bhadro vyavahAreNa sAdhuH | shUro bhayeShvarthakR^ichChreShu dhIraH kR^ichChrAsvApatsu suhR^idashchArayash cha"
+        },
+        {
+          "number": 43,
+          "sanskrit": "जरा रूपं हरति हि धैर्यमाशा मृत्युः प्राणान्धर्मचर्यामसूया । क्रोधः श्रियं शीलमनार्य सेवा ह्रियं कामः सर्वमेवाभिमानः",
+          "transliteration": "jarA rUpa.n harati hi dhairyamAshA mR^ityuH prANAndharmacharyAmasUyA | krodhaH shriya.n shIlamanArya sevA hriya.n kAmaH sarvamevAbhimAnaH"
+        },
+        {
+          "number": 44,
+          "sanskrit": "श्रीर्मङ्गलात्प्रभवति प्रागल्भ्यात्सम्प्रवर्धते । दाक्ष्यात्तु कुरुते मूलं संयमात्प्रतितिष्ठति",
+          "transliteration": "shrIrma~NgalAtprabhavati prAgalbhyAtsampravardhate | dAxyAttu kurute mUla.n sa.nyamAtpratitiShThati"
+        },
+        {
+          "number": 45,
+          "sanskrit": "अष्टौ गुणाः पुरुषं दीपयन्ति प्रज्ञा च कौल्यं च दमः श्रुतं च । पराक्रमश्चाबहु भाषिता च दानं यथाशक्ति कृतज्ञता च",
+          "transliteration": "aShTau guNAH puruSha.n dIpayanti praj~nA cha kaulya.n cha damaH shrutaM cha | parAkramashchAbahu bhAShitA cha dAna.n yathAshakti kR^itaj~natA cha"
+        },
+        {
+          "number": 46,
+          "sanskrit": "एतान्गुणांस्तात महानुभावान् एको गुणः संश्रयते प्रसह्य । राजा यदा सत्कुरुते मनुष्यं सर्वान्गुणानेष गुणोऽतिभाति",
+          "transliteration": "etAnguNA.nstAta mahAnubhAvAn.h eko guNaH saMshrayate prasahya | rAjA yadA satkurute manuShyaM sarvAnguNAneSha guNo.atibhAti"
+        },
+        {
+          "number": 47,
+          "sanskrit": "अष्टौ नृपेमानि मनुष्यलोके स्वर्गस्य लोकस्य निदर्शनानि । चत्वार्येषामन्ववेतानि सद्भिश् चत्वार्येषामन्ववयन्ति सन्तः",
+          "transliteration": "aShTau nR^ipemAni manuShyaloke svargasya lokasya nidarshanAni | chatvAryeShAmanvavetAni sadbhish chatvAryeShAmanvavayanti santaH"
+        },
+        {
+          "number": 48,
+          "sanskrit": "यज्ञो दानमध्ययनं तपश् च चत्वार्येतान्यन्ववेतानि सद्भिः । दमः सत्यमार्जवमानृशंस्यं चत्वार्येतान्यन्ववयन्ति सन्तः",
+          "transliteration": "yaj~no dAnamadhyayana.n tapash cha chatvAryetAnyanvavetAni sadbhiH | damaH satyamArjavamAnR^isha.nsyaM chatvAryetAnyanvavayanti santaH"
+        },
+        {
+          "number": 49,
+          "sanskrit": "न सा सभा यत्र न सन्ति वृद्धा न ते वृद्धा ये न वदन्ति धर्मम् । नासौ हर्मो यतन सत्यमस्ति न तत्सत्यं यच्छलेनानुविद्धम्",
+          "transliteration": "na sA sabhA yatra na santi vR^iddhA na te vR^iddhA ye na vadanti dharmam | nAsau harmo yatana satyamasti na tatsatya.n yachChalenAnuviddham"
+        },
+        {
+          "number": 50,
+          "sanskrit": "सत्यं रूपं श्रुतं विद्या कौल्यं शीलं बलं धनम् । शौर्यं च चिरभाष्यं च दशः संसर्गयोनयः",
+          "transliteration": "satya.n rUpaM shrutaM vidyA kaulyaM shIlaM bala.n dhanam | shaurya.n cha chirabhAShyaM cha dashaH sa.nsargayonayaH"
+        },
+        {
+          "number": 51,
+          "sanskrit": "पापं कुर्वन्पापकीर्तिः पापमेवाश्नुते फलम् । पुण्यं कुर्वन्पुण्यकीर्तिः पुण्यमेवाश्नुते फलम्",
+          "transliteration": "pApa.n kurvanpApakIrtiH pApamevAshnute phalam | puNya.n kurvanpuNyakIrtiH puNyamevAshnute phalam"
+        },
+        {
+          "number": 52,
+          "sanskrit": "पापं प्रज्ञां नाशयति क्रियमाणं पुनः पुनः । नष्टप्रज्ञः पापमेव नित्यमारभते नरः",
+          "transliteration": "pApaM praj~nAM nAshayati kriyamANaM punaH punaH | naShTapraj~naH pApameva nityamArabhate naraH"
+        },
+        {
+          "number": 53,
+          "sanskrit": "पुण्यं प्रज्ञां वर्धयति क्रियमाणं पुनः पुनः । वृद्धप्रज्ञः पुण्यमेव नित्यमारभते नरः",
+          "transliteration": "puNyaM praj~nA.n vardhayati kriyamANaM punaH punaH | vR^iddhapraj~naH puNyameva nityamArabhate naraH"
+        },
+        {
+          "number": 54,
+          "sanskrit": "असूयको दन्द शूको निष्ठुरो वैरकृन्नरः । स कृच्छ्रं महदाप्नोतो नचिरात्पापमाचरन्",
+          "transliteration": "asUyako danda shUko niShThuro vairakR^innaraH | sa kR^ichChraM mahadApnoto nachirAtpApamAcharan"
+        },
+        {
+          "number": 55,
+          "sanskrit": "अनसूयः कृतप्रज्ञः शोभनान्याचरन्सदा । अकृच्छ्रात्सुखमाप्नोति सर्वत्र च विराजते",
+          "transliteration": "anasUyaH kR^itapraj~naH shobhanAnyAcharansadA | akR^ichChrAtsukhamApnoti sarvatra cha virAjate"
+        },
+        {
+          "number": 56,
+          "sanskrit": "प्रज्ञामेवागमयति यः प्राज्ञेभ्यः स पण्डितः । प्राज्ञो ह्यवाप्य धर्मार्थौ शक्नोति सुखमेधितुम्",
+          "transliteration": "praj~nAmevAgamayati yaH prAj~nebhyaH sa paNDitaH | prAj~no hyavApya dharmArthau shaknoti sukhamedhitum"
+        },
+        {
+          "number": 57,
+          "sanskrit": "दिवसेनैव तत्कुर्याद्येन रातौ सुखं वसेत् । अष्ट मासेन तत्कुर्याद्येन वर्षाः सुखं वसेत्",
+          "transliteration": "divasenaiva tatkuryAdyena rAtau sukha.n vaset | aShTa mAsena tatkuryAdyena varShAH sukha.n vaset"
+        },
+        {
+          "number": 58,
+          "sanskrit": "पूर्वे वयसि तत्कुर्याद्येन वृद्धसुखं वसेत् । यावज्जीवेन तत्कुर्याद्येन प्रेत्य सुखं वसेत्",
+          "transliteration": "pUrve vayasi tatkuryAdyena vR^iddhasukha.n vaset | yAvajjIvena tatkuryAdyena pretya sukha.n vaset"
+        },
+        {
+          "number": 59,
+          "sanskrit": "जीर्णमन्नं प्रशंसन्ति भार्यं च गतयौवनाम् । शूरं विगतसङ्ग्रामं गतपारं तपस्विनम्",
+          "transliteration": "jIrNamannaM prasha.nsanti bhArya.n cha gatayauvanAm | shUra.n vigatasa~NgrAma.n gatapAraM tapasvinam"
+        },
+        {
+          "number": 60,
+          "sanskrit": "धनेनाधर्मलब्धेन यच्छिद्रमपिधीयते । असंवृतं तद्भवति ततोऽन्यदवदीर्यते",
+          "transliteration": "dhanenAdharmalabdhena yachChidramapidhIyate | asa.nvR^ita.n tadbhavati tato.anyadavadIryate"
+        },
+        {
+          "number": 61,
+          "sanskrit": "गुरुरात्मवतां शास्ता शासा राजा दुरात्मनाम् । अथ प्रच्छन्नपापानां शास्ता वैवस्वतो यमः",
+          "transliteration": "gururAtmavatA.n shAstA shAsA rAjA durAtmanAm | atha prachChannapApAnA.n shAstA vaivasvato yamaH"
+        },
+        {
+          "number": 62,
+          "sanskrit": "ऋषीणां च नदीनां च कुलानां च महामनाम् । प्रभवो नाधिगन्तव्यः स्त्रीणां दुश्चरितस्य च",
+          "transliteration": "R^iShINA.n cha nadInAM cha kulAnAM cha mahAmanAm | prabhavo nAdhigantavyaH strINA.n dushcharitasya cha"
+        },
+        {
+          "number": 63,
+          "sanskrit": "द्विजातिपूजाभिरतो दाता ज्ञातिषु चार्जवी । क्षत्रियः स्वर्गभाग्राजंश्चिरं पालयते महीम्",
+          "transliteration": "dvijAtipUjAbhirato dAtA j~nAtiShu chArjavI | xatriyaH svargabhAgrAjaMshchiraM pAlayate mahIm"
+        },
+        {
+          "number": 64,
+          "sanskrit": "सुवर्णपुष्पां पृथिवीं चिन्वन्ति पुरुषास्त्रयः । शूरश्च कृतविद्यश्च यश्च जानाति सेवितुम्",
+          "transliteration": "suvarNapuShpAM pR^ithivI.n chinvanti puruShAstrayaH | shUrashcha kR^itavidyashcha yashcha jAnAti sevitum"
+        },
+        {
+          "number": 65,
+          "sanskrit": "बुद्धिश्रेष्ठानि कर्माणि बाहुमध्यानि भारत । तानि जङ्घा जघन्यानि भारप्रत्यवराणि च",
+          "transliteration": "buddhishreShThAni karmANi bAhumadhyAni bhArata | tAni ja~NghA jaghanyAni bhArapratyavarANi cha"
+        },
+        {
+          "number": 66,
+          "sanskrit": "दुर्योधने च शकुनौ मूढे दुःशासने तथा । कर्णे चैश्वर्यमाधाय कथं त्वं भूतिमिच्छसि",
+          "transliteration": "duryodhane cha shakunau mUDhe duHshAsane tathA | karNe chaishvaryamAdhAya katha.n tvaM bhUtimichChasi"
+        },
+        {
+          "number": 67,
+          "sanskrit": "सर्वैर्गुणैरुपेताश्च पाण्डवा भरतर्षभ । पितृवत्त्वयि वर्तन्ते तेषु वर्तस्व पुत्रवत्",
+          "transliteration": "sarvairguNairupetAshcha pANDavA bharatarShabha | pitR^ivattvayi vartante teShu vartasva putravat"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "अध्यायः ३६ विदुर उवाच । अत्रैवोदाहरन्तीममितिहासं पुरातनम् । आत्रेयस्य च संवादं साध्यानां चेति नः श्रुतम्",
+          "transliteration": "adhyAyaH 36 vidura uvAcha | atraivodAharantImamitihAsaM purAtanam | Atreyasya cha sa.nvAda.n sAdhyAnA.n cheti naH shrutam"
+        },
+        {
+          "number": 2,
+          "sanskrit": "चरन्तं हंसरूपेण महर्षिं संशितव्रतम् । साध्या देवा महाप्राज्ञं पर्यपृच्छन्त वै पुरा",
+          "transliteration": "charanta.n ha.nsarUpeNa maharShiM saMshitavratam | sAdhyA devA mahAprAj~naM paryapR^ichChanta vai purA"
+        },
+        {
+          "number": 3,
+          "sanskrit": "साध्या ऊचुः । साध्या देवा वय्मस्मो महर्षे दृष्ट्वा भवन्तं न शक्नुमोऽनुमातुम् । श्रुतेन धीरो बुद्धिमांस्त्वं मतो नः काव्यां वाचं वक्तुमर्हस्युदाराम्",
+          "transliteration": "sAdhyA UchuH | sAdhyA devA vaymasmo maharShe dR^iShTvA bhavantaM na shaknumo.anumAtum | shrutena dhIro buddhimA.nstvaM mato naH kAvyA.n vAchaM vaktumarhasyudArAm"
+        },
+        {
+          "number": 4,
+          "sanskrit": "हंस उवाच । एतत्कार्यममराः संश्रुतं मे धृतिः शमः सत्यधर्मानुवृत्तिः । ग्रन्थिं विनीय हृदयस्य सर्वं प्रियाप्रिये चात्मवशं नयीत",
+          "transliteration": "ha.nsa uvAcha | etatkAryamamarAH saMshrutaM me dhR^itiH shamaH satyadharmAnuvR^ittiH | granthi.n vinIya hR^idayasya sarvaM priyApriye chAtmavashaM nayIta"
+        },
+        {
+          "number": 5,
+          "sanskrit": "आक्रुश्यमानो नाक्रोशेन्मन्युरेव तितिक्षितः । आक्रोष्टारं निर्दहति सुकृतं चास्य विन्दति",
+          "transliteration": "AkrushyamAno nAkroshenmanyureva titixitaH | AkroShTAraM nirdahati sukR^ita.n chAsya vindati"
+        },
+        {
+          "number": 6,
+          "sanskrit": "नाक्रोशी स्यान्नावमानी परस्य मित्रद्रोही नोत नीचोपसेवी । न चातिमानी न च हीनवृत्तो रूक्षां वाचं रुशतीं वर्जयीत",
+          "transliteration": "nAkroshI syAnnAvamAnI parasya mitradrohI nota nIchopasevI | na chAtimAnI na cha hInavR^itto rUxA.n vAchaM rushatIM varjayIta"
+        },
+        {
+          "number": 7,
+          "sanskrit": "मर्माण्यस्थीनि हृदयं तथासून् घोरा वाचो निर्दहन्तीह पुंसाम् । तस्माद्वाचं रुशतीं रूक्षरूपां धर्मारामो नित्यशो वर्जयीत",
+          "transliteration": "marmANyasthIni hR^idaya.n tathAsUn.h ghorA vAcho nirdahantIha pu.nsAm | tasmAdvAcha.n rushatIM rUxarUpAM dharmArAmo nityasho varjayIta"
+        },
+        {
+          "number": 8,
+          "sanskrit": "अरुं तुरं परुषं रूक्षवाचं वाक्कण्टकैर्वितुदन्तं मनुष्यान् । विद्यादलक्ष्मीकतमं जनानां मुखे निबद्धां निरृतिं वहन्तम्",
+          "transliteration": "aru.n turaM paruSha.n rUxavAchaM vAkkaNTakairvitudantaM manuShyAn | vidyAdalaxmIkatama.n janAnAM mukhe nibaddhAM nirR^iti.n vahantam"
+        },
+        {
+          "number": 9,
+          "sanskrit": "परश्चेदेनमधिविध्येत बाणैर् भृशं सुतीक्ष्णैरनलार्क दीप्तैः । विरिच्यमानोऽप्यतिरिच्यमानो विद्यात्कविः सुकृतं मे दधाति",
+          "transliteration": "parashchedenamadhividhyeta bANair bhR^isha.n sutIxNairanalArka dIptaiH | virichyamAno.apyatirichyamAno vidyAtkaviH sukR^itaM me dadhAti"
+        },
+        {
+          "number": 10,
+          "sanskrit": "यदि सन्तं सेवते यद्यसन्तं तपस्विनं यदि वा स्तेनमेव । वासो यथा रङ्ग वशं प्रयाति तथा स तेषां वशमभ्युपैति",
+          "transliteration": "yadi santa.n sevate yadyasantaM tapasvina.n yadi vA stenameva | vAso yathA ra~Nga vashaM prayAti tathA sa teShA.n vashamabhyupaiti"
+        },
+        {
+          "number": 11,
+          "sanskrit": "वादं तु यो न प्रवदेन्न वादयेद् यो नाहतः प्रतिहन्यान्न घातयेत् । यो हन्तुकामस्य न पापमिच्छेत् तस्मै देवाः स्पृहयन्त्यागताय",
+          "transliteration": "vAda.n tu yo na pravadenna vAdayed.h yo nAhataH pratihanyAnna ghAtayet | yo hantukAmasya na pApamichChet.h tasmai devAH spR^ihayantyAgatAya"
+        },
+        {
+          "number": 12,
+          "sanskrit": "अव्याहृतं व्याहृताच्छ्रेय आहुः सत्यं वदेद्व्याहृतं तद्द्वितीयम् । प्रियंवदेद्व्याहृतं तत्तृतीयं धर्म्यं वदेद्व्याहृतं तच्चतुर्थम्",
+          "transliteration": "avyAhR^ita.n vyAhR^itAchChreya AhuH satya.n vadedvyAhR^ita.n taddvitIyam | priya.nvadedvyAhR^ita.n tattR^itIyaM dharmya.n vadedvyAhR^ita.n tachchaturtham"
+        },
+        {
+          "number": 13,
+          "sanskrit": "यादृशैः संविवदते यादृशांश् चोपसेवते । यादृगिच्छेच्च भवितुं तादृग्भवति पूरुषः",
+          "transliteration": "yAdR^ishaiH sa.nvivadate yAdR^ishAMsh chopasevate | yAdR^igichChechcha bhavitu.n tAdR^igbhavati pUruShaH"
+        },
+        {
+          "number": 14,
+          "sanskrit": "यतो यतो निवर्तते ततस्ततो विमुच्यते । निवर्तनाद्धि सर्वतो न वेत्ति दुःखमण्वपि",
+          "transliteration": "yato yato nivartate tatastato vimuchyate | nivartanAddhi sarvato na vetti duHkhamaNvapi"
+        },
+        {
+          "number": 15,
+          "sanskrit": "न जीयते नोत जिगीषतेऽन्यान् न वैरक्कृच्चाप्रतिघातकश् च । निन्दा प्रशंसासु समस्वभावो न शोचते हृष्यति नैव चायम्",
+          "transliteration": "na jIyate nota jigIShate.anyAn.h na vairakkR^ichchApratighAtakash cha | nindA prasha.nsAsu samasvabhAvo na shochate hR^iShyati naiva chAyam"
+        },
+        {
+          "number": 16,
+          "sanskrit": "भावमिच्छति सर्वस्य नाभावे कुरुते मतिम् । सत्यवादी मृदुर्दान्तो यः स उत्तमपूरुषः",
+          "transliteration": "bhAvamichChati sarvasya nAbhAve kurute matim | satyavAdI mR^idurdAnto yaH sa uttamapUruShaH"
+        },
+        {
+          "number": 17,
+          "sanskrit": "नानर्थकं सान्त्वयति प्रतिज्ञाय ददाति च । राद्धापराद्धे जानाति यः स मध्यमपूरुषः",
+          "transliteration": "nAnarthaka.n sAntvayati pratij~nAya dadAti cha | rAddhAparAddhe jAnAti yaH sa madhyamapUruShaH"
+        },
+        {
+          "number": 18,
+          "sanskrit": "दुःशासनस्तूपहन्ता न शास्ता नावर्तते मन्युवशात्कृतघ्नः । न कस्य चिन्मित्रमथो दुरात्मा कलाश्चैता अधमस्येह पुंसः",
+          "transliteration": "duHshAsanastUpahantA na shAstA nAvartate manyuvashAtkR^itaghnaH | na kasya chinmitramatho durAtmA kalAshchaitA adhamasyeha pu.nsaH"
+        },
+        {
+          "number": 19,
+          "sanskrit": "न श्रद्दधाति कल्याणं परेभ्योऽप्यात्मशङ्कितः । निराकरोति मित्राणि यो वै सोऽधम पूरुषः",
+          "transliteration": "na shraddadhAti kalyANaM parebhyo.apyAtmasha~NkitaH | nirAkaroti mitrANi yo vai so.adhama pUruShaH"
+        },
+        {
+          "number": 20,
+          "sanskrit": "उत्तमानेव सेवेत प्राप्ते काले तु मध्यमान् । अधमांस्तु न सेवेत य इच्छेच्छ्रेय आत्मनः",
+          "transliteration": "uttamAneva seveta prApte kAle tu madhyamAn | adhamA.nstu na seveta ya ichChechChreya AtmanaH"
+        },
+        {
+          "number": 21,
+          "sanskrit": "प्राप्नोति वै वित्तमसद्बलेन नित्योत्थानात्प्रज्ञया पौरुषेण । न त्वेव सम्यग्लभते प्रशंसां न वृत्तमाप्नोति महाकुलानाम्",
+          "transliteration": "prApnoti vai vittamasadbalena nityotthAnAtpraj~nayA pauruSheNa | na tveva samyaglabhate prasha.nsAM na vR^ittamApnoti mahAkulAnAm"
+        },
+        {
+          "number": 22,
+          "sanskrit": "धृतराष्ट्र उवाच । महाकुलानां स्पृहयन्ति देवा धर्मार्थवृद्धाश्च बहुश्रुताश् च । पृच्छामि त्वां विदुर प्रश्नमेतं भवन्ति वै कानि महाकुलानि",
+          "transliteration": "dhR^itarAShTra uvAcha | mahAkulAnA.n spR^ihayanti devA dharmArthavR^iddhAshcha bahushrutAsh cha | pR^ichChAmi tvA.n vidura prashnametaM bhavanti vai kAni mahAkulAni"
+        },
+        {
+          "number": 23,
+          "sanskrit": "विदुर उवाच । तमो दमो ब्रह्मवित्त्वं वितानाः पुण्या विवाहाः सततान्न दानम् । येष्वेवैते सप्तगुणा भवन्ति सम्यग्वृत्तास्तानि महाकुलानि",
+          "transliteration": "vidura uvAcha | tamo damo brahmavittva.n vitAnAH puNyA vivAhAH satatAnna dAnam | yeShvevaite saptaguNA bhavanti samyagvR^ittAstAni mahAkulAni"
+        },
+        {
+          "number": 24,
+          "sanskrit": "येषां न वृत्तं व्यथते न योनिर् वृत्तप्रसादेन चरन्ति धर्मम् । ये कीर्तिमिच्छन्ति कुले विशिष्टां त्यक्तानृतास्तानि महाकुलानि",
+          "transliteration": "yeShAM na vR^itta.n vyathate na yonir vR^ittaprasAdena charanti dharmam | ye kIrtimichChanti kule vishiShTAM tyaktAnR^itAstAni mahAkulAni"
+        },
+        {
+          "number": 25,
+          "sanskrit": "अनिज्ययाविवाहैर्श्च वेदस्योत्सादनेन च । कुलान्यकुलतां यान्ति धर्मस्यातिक्रमेण च",
+          "transliteration": "anijyayAvivAhairshcha vedasyotsAdanena cha | kulAnyakulatA.n yAnti dharmasyAtikrameNa cha"
+        },
+        {
+          "number": 26,
+          "sanskrit": "देव द्रव्यविनाशेन ब्रह्म स्वहरणेन च । कुलान्यकुलतां यान्ति ब्राह्मणातिक्रमेण च",
+          "transliteration": "deva dravyavinAshena brahma svaharaNena cha | kulAnyakulatA.n yAnti brAhmaNAtikrameNa cha"
+        },
+        {
+          "number": 27,
+          "sanskrit": "ब्राह्मणानां परिभवात्परिवादाच्च भारत । कुलान्यकुलतां यान्ति न्यासापहरणेन च",
+          "transliteration": "brAhmaNAnAM paribhavAtparivAdAchcha bhArata | kulAnyakulatA.n yAnti nyAsApaharaNena cha"
+        },
+        {
+          "number": 28,
+          "sanskrit": "कुलानि समुपेतानि गोभिः पुरुषतोऽश्वतः । कुलसङ्ख्यां न गच्छन्ति यानि हीनानि वृत्ततः",
+          "transliteration": "kulAni samupetAni gobhiH puruShato.ashvataH | kulasa~NkhyAM na gachChanti yAni hInAni vR^ittataH"
+        },
+        {
+          "number": 29,
+          "sanskrit": "वृत्ततस्त्वविहीनानि कुलान्यल्पधनान्यपि । कुलसङ्ख्यां तु गच्छन्ति कर्षन्ति च मयद्यशः",
+          "transliteration": "vR^ittatastvavihInAni kulAnyalpadhanAnyapi | kulasa~NkhyA.n tu gachChanti karShanti cha mayadyashaH"
+        },
+        {
+          "number": 30,
+          "sanskrit": "मा नः कुले वैरकृत्कश् चिदस्तु राजामात्यो मा परस्वापहारी । मित्रद्रोही नैकृतिकोऽनृती वा पूर्वाशी वा पितृदेवातिथिभ्यः",
+          "transliteration": "mA naH kule vairakR^itkash chidastu rAjAmAtyo mA parasvApahArI | mitradrohI naikR^itiko.anR^itI vA pUrvAshI vA pitR^idevAtithibhyaH"
+        },
+        {
+          "number": 31,
+          "sanskrit": "यश्च नो ब्राह्मणं हन्याद्यश्च नो ब्राह्मणान्द्विषेत् । न नः स समितिं गच्छेद्यश्च नो निर्वपेत्कृषिम्",
+          "transliteration": "yashcha no brAhmaNa.n hanyAdyashcha no brAhmaNAndviShet | na naH sa samiti.n gachChedyashcha no nirvapetkR^iShim"
+        },
+        {
+          "number": 32,
+          "sanskrit": "तृणानि भूमिरुदकं वाक्चतुर्थी च सूनृता । सतामेतानि गेहेषु नोच्छिद्यन्ते कदा चन",
+          "transliteration": "tR^iNAni bhUmirudaka.n vAkchaturthI cha sUnR^itA | satAmetAni geheShu nochChidyante kadA chana"
+        },
+        {
+          "number": 33,
+          "sanskrit": "श्रद्धया परया राजन्नुपनीतानि सत्कृतिम् । प्रवृत्तानि महाप्राज्ञ धर्मिणां पुण्यकर्मणाम्",
+          "transliteration": "shraddhayA parayA rAjannupanItAni satkR^itim | pravR^ittAni mahAprAj~na dharmiNAM puNyakarmaNAm"
+        },
+        {
+          "number": 34,
+          "sanskrit": "सूक्ष्मोऽपि भारं नृपते स्यन्दनो वै शक्तो वोढुं न तथान्ये महीजाः । एवं युक्ता भारसहा भवन्ति महाकुलीना न तथान्ये मनुष्याः",
+          "transliteration": "sUxmo.api bhAraM nR^ipate syandano vai shakto voDhuM na tathAnye mahIjAH | eva.n yuktA bhArasahA bhavanti mahAkulInA na tathAnye manuShyAH"
+        },
+        {
+          "number": 35,
+          "sanskrit": "न तन्मित्रं यस्य कोपाद्बिभेति यद्वा मित्रं शङ्कितेनोपचर्यम् । यस्मिन्मित्रे पितरीवाश्वसीत तद्वै मित्रं सङ्गतानीतराणि",
+          "transliteration": "na tanmitra.n yasya kopAdbibheti yadvA mitra.n sha~Nkitenopacharyam | yasminmitre pitarIvAshvasIta tadvai mitra.n sa~NgatAnItarANi"
+        },
+        {
+          "number": 36,
+          "sanskrit": "यदि चेदप्यसम्बन्धो मित्रभावेन वर्तते । स एव बन्धुस्तन्मित्रं सा गतिस्तत्परायणम्",
+          "transliteration": "yadi chedapyasambandho mitrabhAvena vartate | sa eva bandhustanmitra.n sA gatistatparAyaNam"
+        },
+        {
+          "number": 37,
+          "sanskrit": "चलचित्तस्य वै पुंसो वृद्धाननुपसेवतः । पारिप्लवमतेर्नित्यमध्रुवो मित्र सङ्ग्रहः",
+          "transliteration": "chalachittasya vai pu.nso vR^iddhAnanupasevataH | pAriplavamaternityamadhruvo mitra sa~NgrahaH"
+        },
+        {
+          "number": 38,
+          "sanskrit": "चलचित्तमनात्मानमिन्द्रियाणां वशानुगम् । अर्थाः समतिवर्तन्ते हंसाः शुष्कं सरो यथा",
+          "transliteration": "chalachittamanAtmAnamindriyANA.n vashAnugam | arthAH samativartante ha.nsAH shuShka.n saro yathA"
+        },
+        {
+          "number": 39,
+          "sanskrit": "अकस्मादेव कुप्यन्ति प्रसीदन्त्यनिमित्ततः । शीलमेतदसाधूनामभ्रं पारिप्लवं यथा",
+          "transliteration": "akasmAdeva kupyanti prasIdantyanimittataH | shIlametadasAdhUnAmabhraM pAriplava.n yathA"
+        },
+        {
+          "number": 40,
+          "sanskrit": "सत्कृताश्च कृतार्थाश्च मित्राणां न भवन्ति ये । तान्मृतानपि क्रव्यादाः कृतघ्नान्नोपभुञ्जते",
+          "transliteration": "satkR^itAshcha kR^itArthAshcha mitrANAM na bhavanti ye | tAnmR^itAnapi kravyAdAH kR^itaghnAnnopabhu~njate"
+        },
+        {
+          "number": 41,
+          "sanskrit": "अर्थयेदेव मित्राणि सति वासति वा धने । नानर्थयन्विजानाति मित्राणां सारफल्गुताम्",
+          "transliteration": "arthayedeva mitrANi sati vAsati vA dhane | nAnarthayanvijAnAti mitrANA.n sAraphalgutAm"
+        },
+        {
+          "number": 42,
+          "sanskrit": "सन्तापाद्भ्रश्यते रूपं सन्तापाद्भ्रश्यते बलम् । सन्तापाद्भ्रश्यते ज्ञानं सन्तापाद्व्याधिमृच्छति",
+          "transliteration": "santApAdbhrashyate rUpa.n santApAdbhrashyate balam | santApAdbhrashyate j~nAna.n santApAdvyAdhimR^ichChati"
+        },
+        {
+          "number": 43,
+          "sanskrit": "अनवाप्यं च शोकेन शरीरं चोपतप्यते । अमित्राश्च प्रहृष्यन्ति मा स्म शोके मनः कृथाः",
+          "transliteration": "anavApya.n cha shokena sharIraM chopatapyate | amitrAshcha prahR^iShyanti mA sma shoke manaH kR^ithAH"
+        },
+        {
+          "number": 44,
+          "sanskrit": "पुनर्नरो म्रियते जायते च पुनर्नरो हीयते वर्धते पुनः । पुनर्नरो याचति याच्यते च पुनर्नरः शोचति शोच्यते पुनः",
+          "transliteration": "punarnaro mriyate jAyate cha punarnaro hIyate vardhate punaH | punarnaro yAchati yAchyate cha punarnaraH shochati shochyate punaH"
+        },
+        {
+          "number": 45,
+          "sanskrit": "सुखं च दुःखं च भवाभवौ च लाभालाभौ मरणं जीवितं च । पर्यायशः सर्वमिह स्पृशन्ति तस्माद्धीरो नैव हृष्येन्न शोचेत्",
+          "transliteration": "sukha.n cha duHkhaM cha bhavAbhavau cha lAbhAlAbhau maraNa.n jIvitaM cha | paryAyashaH sarvamiha spR^ishanti tasmAddhIro naiva hR^iShyenna shochet"
+        },
+        {
+          "number": 46,
+          "sanskrit": "चलानि हीमानि षडिन्द्रियाणि तेषां यद्यद्वर्तते यत्र यत्र । ततस्ततः स्रवते बुद्धिरस्य छिद्रोद कुम्भादिव नित्यमम्भः",
+          "transliteration": "chalAni hImAni ShaDindriyANi teShA.n yadyadvartate yatra yatra | tatastataH sravate buddhirasya Chidroda kumbhAdiva nityamambhaH"
+        },
+        {
+          "number": 47,
+          "sanskrit": "धृतराष्ट्र उवाच । तनुरुच्छः शिखी राजा मिथ्योपचरितो मया । मन्दानां मम पुत्राणां युद्धेनान्तं करिष्यति",
+          "transliteration": "dhR^itarAShTra uvAcha | tanuruchChaH shikhI rAjA mithyopacharito mayA | mandAnAM mama putrANA.n yuddhenAnta.n kariShyati"
+        },
+        {
+          "number": 48,
+          "sanskrit": "नित्योद्विग्नमिदं सर्वं नित्योद्विग्नमिदं मनः । यत्तत्पदमनुद्विग्नं तन्मे वद महामते",
+          "transliteration": "nityodvignamida.n sarvaM nityodvignamidaM manaH | yattatpadamanudvigna.n tanme vada mahAmate"
+        },
+        {
+          "number": 49,
+          "sanskrit": "विदुर उवाच । नान्यत्र विद्या तपसोर्नान्यत्रेन्द्रिय निग्रहात् । नान्यत्र लोभसन्त्यागाच्छान्तिं पश्याम तेऽनघ",
+          "transliteration": "vidura uvAcha | nAnyatra vidyA tapasornAnyatrendriya nigrahAt | nAnyatra lobhasantyAgAchChAntiM pashyAma te.anagha"
+        },
+        {
+          "number": 50,
+          "sanskrit": "बुद्ध्या भयं प्रणुदति तपसा विन्दते महत् । गुरुशुश्रूषया ज्ञानं शान्तिं त्यागेन विन्दति",
+          "transliteration": "buddhyA bhayaM praNudati tapasA vindate mahat | gurushushrUShayA j~nAna.n shAnti.n tyAgena vindati"
+        },
+        {
+          "number": 51,
+          "sanskrit": "अनाश्रिता दानपुण्यं वेद पुण्यमनाश्रिताः । रागद्वेषविनिर्मुक्ता विचरन्तीह मोक्षिणः",
+          "transliteration": "anAshritA dAnapuNya.n veda puNyamanAshritAH | rAgadveShavinirmuktA vicharantIha moxiNaH"
+        },
+        {
+          "number": 52,
+          "sanskrit": "स्वधीतस्य सुयुद्धस्य सुकृतस्य च कर्मणः । तपसश्च सुतप्तस्य तस्यान्ते सुखमेधते",
+          "transliteration": "svadhItasya suyuddhasya sukR^itasya cha karmaNaH | tapasashcha sutaptasya tasyAnte sukhamedhate"
+        },
+        {
+          "number": 53,
+          "sanskrit": "स्वास्तीर्णानि शयनानि प्रपन्ना न वै भिन्ना जातु निद्रां लभन्ते । न स्त्रीषु राजन्रतिमाप्नुवन्ति न मागधैः स्तूयमाना न सूतैः",
+          "transliteration": "svAstIrNAni shayanAni prapannA na vai bhinnA jAtu nidrA.n labhante | na strIShu rAjanratimApnuvanti na mAgadhaiH stUyamAnA na sUtaiH"
+        },
+        {
+          "number": 54,
+          "sanskrit": "न वै भिन्ना जातु चरन्ति धर्मं न वै सुखं प्राप्नुवन्तीह भिन्नाः । न वै भिन्ना गौरवं मानयन्ति न वै भिन्नाः प्रशमं रोचयन्ति",
+          "transliteration": "na vai bhinnA jAtu charanti dharmaM na vai sukhaM prApnuvantIha bhinnAH | na vai bhinnA gauravaM mAnayanti na vai bhinnAH prashama.n rochayanti"
+        },
+        {
+          "number": 55,
+          "sanskrit": "न वै तेषां स्वदते पथ्यमुक्तं योगक्षेमं कल्पते नोत तेषाम् । भिन्नानां वै मनुजेन्द्र परायणं न विद्यते किं चिदन्यद्विनाशात्",
+          "transliteration": "na vai teShA.n svadate pathyamuktaM yogaxema.n kalpate nota teShAm | bhinnAnA.n vai manujendra parAyaNaM na vidyate ki.n chidanyadvinAshAt"
+        },
+        {
+          "number": 56,
+          "sanskrit": "सम्भाव्यं गोषु सम्पन्नं सम्भाव्यं ब्राह्मणे तपः । सम्भाव्यं स्त्रीषु चापल्यं सम्भाव्यं ज्ञातितो भयम्",
+          "transliteration": "sambhAvya.n goShu sampanna.n sambhAvyaM brAhmaNe tapaH | sambhAvya.n strIShu chApalyaM sambhAvyaM j~nAtito bhayam"
+        },
+        {
+          "number": 57,
+          "sanskrit": "तन्तवोऽप्यायता नित्यं तन्तवो बहुलाः समाः । बहून्बहुत्वादायासान्सहन्तीत्युपमा सताम्",
+          "transliteration": "tantavo.apyAyatA nitya.n tantavo bahulAH samAH | bahUnbahutvAdAyAsAnsahantItyupamA satAm"
+        },
+        {
+          "number": 58,
+          "sanskrit": "धूमायन्ते व्यपेतानि ज्वलन्ति सहितानि च । धृतराष्ट्रोल्मुकानीव ज्ञातयो भरतर्षभ",
+          "transliteration": "dhUmAyante vyapetAni jvalanti sahitAni cha | dhR^itarAShTrolmukAnIva j~nAtayo bharatarShabha"
+        },
+        {
+          "number": 59,
+          "sanskrit": "ब्राह्मणेषु च ये शूराः स्त्रीषु ज्ञातिषु गोषु च । वृन्तादिव फलं पक्वं धृतराष्ट्र पतन्ति ते",
+          "transliteration": "brAhmaNeShu cha ye shUrAH strIShu j~nAtiShu goShu cha | vR^intAdiva phalaM pakva.n dhR^itarAShTra patanti te"
+        },
+        {
+          "number": 60,
+          "sanskrit": "महानप्येकजो वृक्षो बलवान्सुप्रतिष्ठितः । प्रसह्य एव वातेन शाखा स्कन्धं विमर्दितुम्",
+          "transliteration": "mahAnapyekajo vR^ixo balavAnsupratiShThitaH | prasahya eva vAtena shAkhA skandha.n vimarditum"
+        },
+        {
+          "number": 61,
+          "sanskrit": "अथ ये सहिता वृक्षाः सङ्घशः सुप्रतिष्ठिताः । ते हि शीघ्रतमान्वातान्सहन्तेऽन्योन्यसंश्रयात्",
+          "transliteration": "atha ye sahitA vR^ixAH sa~NghashaH supratiShThitAH | te hi shIghratamAnvAtAnsahante.anyonyasaMshrayAt"
+        },
+        {
+          "number": 62,
+          "sanskrit": "एवं मनुष्यमप्येकं गुणैरपि समन्वितम् । शक्यं द्विषन्तो मन्यन्ते वायुर्द्रुममिवौकजम्",
+          "transliteration": "evaM manuShyamapyeka.n guNairapi samanvitam | shakya.n dviShanto manyante vAyurdrumamivaukajam"
+        },
+        {
+          "number": 63,
+          "sanskrit": "अन्योन्यसमुपष्टम्भादन्योन्यापाश्रयेण च । ज्ञातयः सम्प्रवर्धन्ते सरसीवोत्पलान्युत",
+          "transliteration": "anyonyasamupaShTambhAdanyonyApAshrayeNa cha | j~nAtayaH sampravardhante sarasIvotpalAnyuta"
+        },
+        {
+          "number": 64,
+          "sanskrit": "अवध्या ब्राह्मणा गावो स्त्रियो बालाश्च ज्ञातयः । येषां चान्नानि भुञ्जीत ये च स्युः शरणागताः",
+          "transliteration": "avadhyA brAhmaNA gAvo striyo bAlAshcha j~nAtayaH | yeShA.n chAnnAni bhu~njIta ye cha syuH sharaNAgatAH"
+        },
+        {
+          "number": 65,
+          "sanskrit": "न मनुष्ये गुणः कश्चिदन्यो धनवताम् अपि । अनातुरत्वाद्भद्रं ते मृतकल्पा हि रोगिणः",
+          "transliteration": "na manuShye guNaH kashchidanyo dhanavatAm api | anAturatvAdbhadra.n te mR^itakalpA hi rogiNaH"
+        },
+        {
+          "number": 66,
+          "sanskrit": "अव्याधिजं कटुकं शीर्ष रोगं पापानुबन्धं परुषं तीक्ष्णमुग्रम् । सतां पेयं यन्न पिबन्त्यसन्तो मन्युं महाराज पिब प्रशाम्य",
+          "transliteration": "avyAdhija.n kaTuka.n shIrSha rogaM pApAnubandhaM paruSha.n tIxNamugram | satAM peya.n yanna pibantyasanto manyuM mahArAja piba prashAmya"
+        },
+        {
+          "number": 67,
+          "sanskrit": "रोगार्दिता न फलान्याद्रियन्ते न वै लभन्ते विषयेषु तत्त्वम् । दुःखोपेता रोगिणो नित्यमेव न बुध्यन्ते धनभोगान्न सौख्यम्",
+          "transliteration": "rogArditA na phalAnyAdriyante na vai labhante viShayeShu tattvam | duHkhopetA rogiNo nityameva na budhyante dhanabhogAnna saukhyam"
+        },
+        {
+          "number": 68,
+          "sanskrit": "पुरा ह्युक्तो नाकरोस्त्वं वचो मे द्यूते जितां द्रौपदीं प्रेक्ष्य राजन् । दुर्योधनं वारयेत्यक्षवत्यां कितवत्वं पण्डिता वर्जयन्ति",
+          "transliteration": "purA hyukto nAkarostva.n vacho me dyUte jitA.n draupadIM prexya rAjan | duryodhana.n vArayetyaxavatyAM kitavatvaM paNDitA varjayanti"
+        },
+        {
+          "number": 69,
+          "sanskrit": "न तद्बलं यन्मृदुना विरुध्यते मिश्रो धर्मस्तरसा सेवितव्यः । प्रध्वंसिनी क्रूरसमाहिता श्रीर् मृदुप्रौढा गच्छति पुत्रपौत्रान्",
+          "transliteration": "na tadbala.n yanmR^idunA virudhyate mishro dharmastarasA sevitavyaH | pradhva.nsinI krUrasamAhitA shrIr mR^iduprauDhA gachChati putrapautrAn"
+        },
+        {
+          "number": 70,
+          "sanskrit": "धार्तराष्ट्राः पाण्डवान्पालयन्तु पाण्डोः सुतास्तव पुत्रांश्च पान्तु । एकारिमित्राः कुरवो ह्येकमन्त्रा जीवन्तु राजन्सुखिनः समृद्धाः",
+          "transliteration": "dhArtarAShTrAH pANDavAnpAlayantu pANDoH sutAstava putrAMshcha pAntu | ekArimitrAH kuravo hyekamantrA jIvantu rAjansukhinaH samR^iddhAH"
+        },
+        {
+          "number": 71,
+          "sanskrit": "मेढीभूतः कौरवाणां त्वमद्य त्वय्याधीनं कुरु कुलमाजमीढ । पार्थान्बालान्वनवास प्रतप्तान् गोपायस्व स्वं यशस्तात रक्षन्",
+          "transliteration": "meDhIbhUtaH kauravANA.n tvamadya tvayyAdhIna.n kuru kulamAjamIDha | pArthAnbAlAnvanavAsa prataptAn.h gopAyasva sva.n yashastAta raxan"
+        },
+        {
+          "number": 72,
+          "sanskrit": "सन्धत्स्व त्वं कौरवान्पाण्डुपुत्रैर् मा तेऽन्तरं रिपवः प्रार्थयन्तु । सत्ये स्थितास्ते नरदेव सर्वे दुर्योधनं स्थापय त्वं नरेन्द्र",
+          "transliteration": "sandhatsva tva.n kauravAnpANDuputrair mA te.antara.n ripavaH prArthayantu | satye sthitAste naradeva sarve duryodhana.n sthApaya tvaM narendra"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "अध्यायः ३७ विदुर उवाच । सप्तदशेमान्राजेन्द्र मनुः स्वायम्भुवोऽब्रवीत् । वैचित्रवीर्य पुरुषानाकाशं मुष्टिभिर्घ्नतः",
+          "transliteration": "adhyAyaH 37 vidura uvAcha | saptadashemAnrAjendra manuH svAyambhuvo.abravIt | vaichitravIrya puruShAnAkAshaM muShTibhirghnataH"
+        },
+        {
+          "number": 2,
+          "sanskrit": "तानेविन्द्रस्य हि धनुरनाम्यं नमतोऽब्रवीत् । अथो मरीचिनः पादाननाम्यान्नमतस्तथा",
+          "transliteration": "tAnevindrasya hi dhanuranAmyaM namato.abravIt | atho marIchinaH pAdAnanAmyAnnamatastathA"
+        },
+        {
+          "number": 3,
+          "sanskrit": "यश्चाशिष्यं शासति यश् च कुप्यते यश्चातिवेलं भजते द्विषन्तम् । स्त्रियश्च योऽरक्षति भद्रमस्तु ते यश्चायाच्यं याचति यश् च कत्थते",
+          "transliteration": "yashchAshiShya.n shAsati yash cha kupyate yashchAtivelaM bhajate dviShantam | striyashcha yo.araxati bhadramastu te yashchAyAchya.n yAchati yash cha katthate"
+        },
+        {
+          "number": 4,
+          "sanskrit": "यश्चाभिजातः प्रकरोत्यकार्यं यश्चाबलो बलिना नित्यवैरी । अश्रद्दधानाय च यो ब्रवीति यश्चाकाम्यं कामयते नरेन्द्र",
+          "transliteration": "yashchAbhijAtaH prakarotyakAryaM yashchAbalo balinA nityavairI | ashraddadhAnAya cha yo bravIti yashchAkAmya.n kAmayate narendra"
+        },
+        {
+          "number": 5,
+          "sanskrit": "वध्वा हासं श्वशुरो यश् च मन्यते वध्वा वसन्नुत यो मानकामः । परक्षेत्रे निर्वपति यश्च बीजं स्त्रियं च यः परिवदतेऽतिवेलम्",
+          "transliteration": "vadhvA hAsa.n shvashuro yash cha manyate vadhvA vasannuta yo mAnakAmaH | paraxetre nirvapati yashcha bIjaM striya.n cha yaH parivadate.ativelam"
+        },
+        {
+          "number": 6,
+          "sanskrit": "यश्चैव लब्ध्वा न स्मरामीत्युवाच दत्त्वा च यः कत्थति याच्यमानः । यश्चासतः सान्त्वमुपासतीह एतेऽनुयान्त्यनिलं पाशहस्ताः",
+          "transliteration": "yashchaiva labdhvA na smarAmItyuvAcha dattvA cha yaH katthati yAchyamAnaH | yashchAsataH sAntvamupAsatIha ete.anuyAntyanilaM pAshahastAH"
+        },
+        {
+          "number": 7,
+          "sanskrit": "यस्मिन्यथा वर्तते यो मनुष्यस् तस्मिंस्तथा वर्तितव्यं स धर्मः । मायाचारो मायया वर्तितव्यः साध्वाचारः साधुना प्रत्युदेयः",
+          "transliteration": "yasminyathA vartate yo manuShyas tasmi.nstathA vartitavya.n sa dharmaH | mAyAchAro mAyayA vartitavyaH sAdhvAchAraH sAdhunA pratyudeyaH"
+        },
+        {
+          "number": 8,
+          "sanskrit": "धृतराष्ट्र उवाच । शतायुरुक्तः पुरुषः सर्ववेदेषु वै यदा । नाप्नोत्यथ च तत्सर्वमायुः केनेह हेतुना",
+          "transliteration": "dhR^itarAShTra uvAcha | shatAyuruktaH puruShaH sarvavedeShu vai yadA | nApnotyatha cha tatsarvamAyuH keneha hetunA"
+        },
+        {
+          "number": 9,
+          "sanskrit": "विदुर उवाच । अतिवादोऽतिमानश्च तथात्यागो नराधिपः । क्रोधश्चातिविवित्सा च मित्रद्रोहश्च तानि षट्",
+          "transliteration": "vidura uvAcha | ativAdo.atimAnashcha tathAtyAgo narAdhipaH | krodhashchAtivivitsA cha mitradrohashcha tAni ShaT"
+        },
+        {
+          "number": 10,
+          "sanskrit": "एत एवासयस्तीक्ष्णाः कृन्तन्त्यायूंषि देहिनाम् । एतानि मानवान्घ्नन्ति न मृत्युर्भद्रमस्तु ते",
+          "transliteration": "eta evAsayastIxNAH kR^intantyAyUMShi dehinAm | etAni mAnavAnghnanti na mR^ityurbhadramastu te"
+        },
+        {
+          "number": 11,
+          "sanskrit": "विश्वस्तस्यैति यो दारान्यश्चापि गुरु तक्पगः । वृषली पतिर्द्विजो यश्च पानपश्चैव भारत",
+          "transliteration": "vishvastasyaiti yo dArAnyashchApi guru takpagaH | vR^iShalI patirdvijo yashcha pAnapashchaiva bhArata"
+        },
+        {
+          "number": 12,
+          "sanskrit": "शरणागतहा चैव सर्वे ब्रह्महणैः समाः । एतैः समेत्य कर्तव्यं प्रायश्चित्तमिति श्रुतिः",
+          "transliteration": "sharaNAgatahA chaiva sarve brahmahaNaiH samAH | etaiH sametya kartavyaM prAyashchittamiti shrutiH"
+        },
+        {
+          "number": 13,
+          "sanskrit": "गृही वदान्योऽनपविद्ध वाक्यः शेषान्न भोकाप्यविहिंसकश् च । नानर्थकृत्त्यक्तकलिः कृतज्ञः सत्यो मृदुः स्वर्गमुपैति विद्वान्",
+          "transliteration": "gR^ihI vadAnyo.anapaviddha vAkyaH sheShAnna bhokApyavihi.nsakash cha | nAnarthakR^ittyaktakaliH kR^itaj~naH satyo mR^iduH svargamupaiti vidvAn"
+        },
+        {
+          "number": 14,
+          "sanskrit": "सुलभाः पुरुषा राजन्सततं प्रियवादिनः । अप्रियस्य तु पथ्यस्य वक्ता श्रोता च दुर्लभः",
+          "transliteration": "sulabhAH puruShA rAjansatataM priyavAdinaH | apriyasya tu pathyasya vaktA shrotA cha durlabhaH"
+        },
+        {
+          "number": 15,
+          "sanskrit": "यो हि धर्मं व्यपाश्रित्य हित्वा भर्तुः प्रियाप्रिये । अप्रियाण्याह पथ्यानि तेन राजा सहायवान्",
+          "transliteration": "yo hi dharma.n vyapAshritya hitvA bhartuH priyApriye | apriyANyAha pathyAni tena rAjA sahAyavAn"
+        },
+        {
+          "number": 16,
+          "sanskrit": "त्यजेत्कुलार्थे पुरुषं ग्रामस्यार्थे कुलं त्यजेत् । ग्रामं जनपदस्यार्थे आत्मार्थे पृथिवीं त्यजेत्",
+          "transliteration": "tyajetkulArthe puruSha.n grAmasyArthe kulaM tyajet | grAma.n janapadasyArthe AtmArthe pR^ithivIM tyajet"
+        },
+        {
+          "number": 17,
+          "sanskrit": "आपदर्थं धनं रक्षेद्दारान्रक्षेद्धनैरपि । आत्मानं सततं रक्षेद्दारैरपि धनैरपि",
+          "transliteration": "Apadartha.n dhana.n raxeddArAnraxeddhanairapi | AtmAna.n satataM raxeddArairapi dhanairapi"
+        },
+        {
+          "number": 18,
+          "sanskrit": "उक्तं मया द्यूतकालेऽपि राजन् नैवं युक्तं वचनं प्रातिपीय । तदौषधं पथ्यमिवातुरस्य न रोचते तव वैचित्र वीर्य",
+          "transliteration": "uktaM mayA dyUtakAle.api rAjan.h naiva.n yuktaM vachanaM prAtipIya | tadauShadhaM pathyamivAturasya na rochate tava vaichitra vIrya"
+        },
+        {
+          "number": 19,
+          "sanskrit": "काकैरिमांश्चित्रबर्हान्मयूरान् पराजैष्ठाः पाण्डवान्धार्तराष्ट्रैः । हित्वा सिंहान्क्रोष्टु कान्गूहमानः प्राप्ते काले शोचिता त्वं नरेन्द्र",
+          "transliteration": "kAkairimAMshchitrabarhAnmayUrAn.h parAjaiShThAH pANDavAndhArtarAShTraiH | hitvA si.nhAnkroShTu kAngUhamAnaH prApte kAle shochitA tvaM narendra"
+        },
+        {
+          "number": 20,
+          "sanskrit": "यस्तात न क्रुध्यति सर्वकालं भृत्यस्य भक्तस्य हिते रतस्य । तस्मिन्भृत्या भर्तरि विश्वसन्ति न चैनमापत्सु परित्यजन्ति",
+          "transliteration": "yastAta na krudhyati sarvakAlaM bhR^ityasya bhaktasya hite ratasya | tasminbhR^ityA bhartari vishvasanti na chainamApatsu parityajanti"
+        },
+        {
+          "number": 21,
+          "sanskrit": "न भृत्यानां वृत्ति संरोधनेन बाह्यं जनं सञ्जिघृक्षेदपूर्वम् । त्यजन्ति ह्येनमुचितावरुद्धाः स्निग्धा ह्यमात्याः परिहीनभोगाः",
+          "transliteration": "na bhR^ityAnA.n vR^itti sa.nrodhanena bAhya.n jana.n sa~njighR^ixedapUrvam | tyajanti hyenamuchitAvaruddhAH snigdhA hyamAtyAH parihInabhogAH"
+        },
+        {
+          "number": 22,
+          "sanskrit": "कृत्यानि पूर्वं परिसङ्ख्याय सर्वाण्य् आयव्ययावनुरूपां च वृत्तिम् । सङ्गृह्णीयादनुरूपान्सहायान् सहायसाध्यानि हि दुष्कराणि",
+          "transliteration": "kR^ityAni pUrvaM parisa~NkhyAya sarvANy AyavyayAvanurUpA.n cha vR^ittim | sa~NgR^ihNIyAdanurUpAnsahAyAn.h sahAyasAdhyAni hi duShkarANi"
+        },
+        {
+          "number": 23,
+          "sanskrit": "अभिप्रायं यो विदित्वा तु भर्तुः सर्वाणि कार्याणि करोत्यतन्द्रीः । वक्ता हितानामनुरक्त आर्यः शक्तिज्ञ आत्मेव हि सोऽनुकम्प्यः",
+          "transliteration": "abhiprAya.n yo viditvA tu bhartuH sarvANi kAryANi karotyatandrIH | vaktA hitAnAmanurakta AryaH shaktij~na Atmeva hi so.anukampyaH"
+        },
+        {
+          "number": 24,
+          "sanskrit": "वाक्यं तु यो नाद्रियतेऽनुशिष्टः प्रत्याह यश्चापि नियुज्यमानः । प्रज्ञाभिमानी प्रतिकूलवादी त्याज्यः स तादृक्त्वरयैव भृत्यः",
+          "transliteration": "vAkya.n tu yo nAdriyate.anushiShTaH pratyAha yashchApi niyujyamAnaH | praj~nAbhimAnI pratikUlavAdI tyAjyaH sa tAdR^iktvarayaiva bhR^ityaH"
+        },
+        {
+          "number": 25,
+          "sanskrit": "अस्तब्धमक्लीबमदीर्घसूत्रं सानुक्रोशं श्लक्ष्णमहार्यमन्यैः । अरोग जातीयमुदारवाक्यं दूतं वदन्त्यष्ट गुणोपपन्नम्",
+          "transliteration": "astabdhamaklIbamadIrghasUtraM sAnukrosha.n shlaxNamahAryamanyaiH | aroga jAtIyamudAravAkyaM dUta.n vadantyaShTa guNopapannam"
+        },
+        {
+          "number": 26,
+          "sanskrit": "न विश्वासाज्जातु परस्य गेहं गच्छेन्नरश्चेतयानो विकाले । न चत्वरे निशि तिष्ठेन्निगूढो न राजन्यां योषितं प्रार्थयीत",
+          "transliteration": "na vishvAsAjjAtu parasya gehaM gachChennarashchetayAno vikAle | na chatvare nishi tiShThennigUDho na rAjanyA.n yoShitaM prArthayIta"
+        },
+        {
+          "number": 27,
+          "sanskrit": "न निह्नवं सत्र गतस्य गच्छेत् संसृष्ट मन्त्रस्य कुसङ्गतस्य । न च ब्रूयान्नाश्वसामि त्वयीति स कारणं व्यपदेशं तु कुर्यात्",
+          "transliteration": "na nihnava.n satra gatasya gachChet.h sa.nsR^iShTa mantrasya kusa~Ngatasya | na cha brUyAnnAshvasAmi tvayIti sa kAraNa.n vyapadesha.n tu kuryAt"
+        },
+        {
+          "number": 28,
+          "sanskrit": "घृणी राजा पुंश्चली राजभृत्यः पुत्रो भ्राता विधवा बाल पुत्रा । सेना जीवी चोद्धृत भक्त एव व्यवहारे वै वर्जनीयाः स्युरेते",
+          "transliteration": "ghR^iNI rAjA puMshchalI rAjabhR^ityaH putro bhrAtA vidhavA bAla putrA | senA jIvI choddhR^ita bhakta eva vyavahAre vai varjanIyAH syurete"
+        },
+        {
+          "number": 29,
+          "sanskrit": "गुणा दश स्नानशीलं भजन्ते बलं रूपं स्वरवर्णप्रशुद्धिः । स्पर्शश्च गन्धश्च विशुद्धता च श्रीः सौकुमार्यं प्रवराश्च नार्यः",
+          "transliteration": "guNA dasha snAnashIlaM bhajante bala.n rUpaM svaravarNaprashuddhiH | sparshashcha gandhashcha vishuddhatA cha shrIH saukumAryaM pravarAshcha nAryaH"
+        },
+        {
+          "number": 30,
+          "sanskrit": "गुणाश्च षण्मितभुक्तं भजन्ते आरोग्यमायुश्च सुखं बलं च । अनाविलं चास्य भवेदपत्यं न चैनमाद्यून इति क्षिपन्ति",
+          "transliteration": "guNAshcha ShaNmitabhuktaM bhajante ArogyamAyushcha sukhaM bala.n cha | anAvila.n chAsya bhavedapatyaM na chainamAdyUna iti xipanti"
+        },
+        {
+          "number": 31,
+          "sanskrit": "अकर्म शीलं च महाशनं च लोकद्विष्टं बहु मायं नृशंसम् । अदेशकालज्ञमनिष्ट वेषम् एतान्गृहे न प्रतिवासयीत",
+          "transliteration": "akarma shIla.n cha mahAshanaM cha lokadviShTaM bahu mAyaM nR^isha.nsam | adeshakAlaj~namaniShTa veSham.h etAngR^ihe na prativAsayIta"
+        },
+        {
+          "number": 32,
+          "sanskrit": "कदर्यमाक्रोशकमश्रुतं च वराक सम्भूतममान्य मानिनम् । निष्ठूरिणं कृतवैरं कृतघ्नम् एतान्भृतार्तोऽपि न जातु याचेत्",
+          "transliteration": "kadaryamAkroshakamashruta.n cha varAka sambhUtamamAnya mAninam | niShThUriNa.n kR^itavairaM kR^itaghnam.h etAnbhR^itArto.api na jAtu yAchet"
+        },
+        {
+          "number": 33,
+          "sanskrit": "सङ्क्लिष्टकर्माणमतिप्रवादं नित्यानृतं चादृढ भक्तिकं च । विकृष्टरागं बहुमानिनं चाप्य् एतान्न सेवेत नराधमान्षट्",
+          "transliteration": "sa~NkliShTakarmANamatipravAdaM nityAnR^ita.n chAdR^iDha bhaktikaM cha | vikR^iShTarAgaM bahumAnina.n chApy etAnna seveta narAdhamAnShaT"
+        },
+        {
+          "number": 34,
+          "sanskrit": "सहायबन्धना ह्यर्थाः सहायाश्चार्थबन्धनाः । अन्योन्यबन्धनावेतौ विनान्योन्यं न सिध्यतः",
+          "transliteration": "sahAyabandhanA hyarthAH sahAyAshchArthabandhanAH | anyonyabandhanAvetau vinAnyonyaM na sidhyataH"
+        },
+        {
+          "number": 35,
+          "sanskrit": "उत्पाद्य पुत्राननृणांश्च कृत्वा वृत्तिं च तेभ्योऽनुविधाय कां चित् । स्थाने कुमारीः प्रतिपाद्य सर्वा अरण्यसंस्थो मुनिवद्बुभूषेत्",
+          "transliteration": "utpAdya putrAnanR^iNAMshcha kR^itvA vR^itti.n cha tebhyo.anuvidhAya kAM chit | sthAne kumArIH pratipAdya sarvA araNyasa.nstho munivadbubhUShet"
+        },
+        {
+          "number": 36,
+          "sanskrit": "हितं यत्सर्वभूतानामात्मनश्च सुखावहम् । तत्कुर्यादीश्वरो ह्येतन्मूलं धर्मार्थसिद्धये",
+          "transliteration": "hita.n yatsarvabhUtAnAmAtmanashcha sukhAvaham | tatkuryAdIshvaro hyetanmUla.n dharmArthasiddhaye"
+        },
+        {
+          "number": 37,
+          "sanskrit": "बुद्धिः प्रभावस्तेजश्च सत्त्वमुत्थानमेव च । व्यवसायश्च यस्य स्यात्तस्यावृत्ति भयं कुतः",
+          "transliteration": "buddhiH prabhAvastejashcha sattvamutthAnameva cha | vyavasAyashcha yasya syAttasyAvR^itti bhaya.n kutaH"
+        },
+        {
+          "number": 38,
+          "sanskrit": "पश्य दोषान्पाण्डवैर्विग्रहे त्वं यत्र व्यथेरन्नपि देवाः स शक्राः । पुत्रैर्वैरं नित्यमुद्विग्नवासो यशः प्रणाशो द्विषतां च हर्षः",
+          "transliteration": "pashya doShAnpANDavairvigrahe tvaM yatra vyatherannapi devAH sa shakrAH | putrairvairaM nityamudvignavAso yashaH praNAsho dviShatA.n cha harShaH"
+        },
+        {
+          "number": 39,
+          "sanskrit": "भीष्मस्य कोपस्तव चेन्द्र कल्प द्रोणस्य राज्ञश्च युधिष्ठिरस्य । उत्सादयेल्लोकमिमं प्रवृद्धः श्वेतो ग्रहस्तिर्यगिवापतन्खे",
+          "transliteration": "bhIShmasya kopastava chendra kalpa droNasya rAj~nashcha yudhiShThirasya | utsAdayellokamimaM pravR^iddhaH shveto grahastiryagivApatankhe"
+        },
+        {
+          "number": 40,
+          "sanskrit": "तव पुत्रशतं चैव कर्णः पञ्च च पाण्डवाः । पृथिवीमनुशासेयुरखिलां सागराम्बराम्",
+          "transliteration": "tava putrashata.n chaiva karNaH pa~ncha cha pANDavAH | pR^ithivImanushAseyurakhilA.n sAgarAmbarAm"
+        },
+        {
+          "number": 41,
+          "sanskrit": "धार्तराष्ट्रा वनं राजन्व्याघ्राः पाण्डुसुता मताः । मा वनं छिन्धि स व्याघ्रं मा व्याघ्रान्नीनशो वनात्",
+          "transliteration": "dhArtarAShTrA vana.n rAjanvyAghrAH pANDusutA matAH | mA vana.n Chindhi sa vyAghraM mA vyAghrAnnInasho vanAt"
+        },
+        {
+          "number": 42,
+          "sanskrit": "न स्याद्वनमृते व्याघ्रान्व्याघ्रा न स्युरृते वनम् । वनं हि रक्ष्यते व्याघ्रैर्व्याघ्रान्रक्षति काननम्",
+          "transliteration": "na syAdvanamR^ite vyAghrAnvyAghrA na syurR^ite vanam | vana.n hi raxyate vyAghrairvyAghrAnraxati kAnanam"
+        },
+        {
+          "number": 43,
+          "sanskrit": "न तथेच्छन्त्यकल्याणाः परेषां वेदितुं गुणान् । यथैषां ज्ञातुमिच्छन्ति नैर्गुण्यं पापचेतसः",
+          "transliteration": "na tathechChantyakalyANAH pareShA.n veditu.n guNAn | yathaiShA.n j~nAtumichChanti nairguNyaM pApachetasaH"
+        },
+        {
+          "number": 44,
+          "sanskrit": "अर्थसिद्धिं परामिच्छन्धर्ममेवादितश् चरेत् । न हि धर्मादपैत्यर्थः स्वर्गलोकादिवामृतम्",
+          "transliteration": "arthasiddhiM parAmichChandharmamevAditash charet | na hi dharmAdapaityarthaH svargalokAdivAmR^itam"
+        },
+        {
+          "number": 45,
+          "sanskrit": "यस्यात्मा विरतः पापात्कल्याणे च निवेशितः । तेन सर्वमिदं बुद्धं प्रकृतिर्विकृतिर्श्च या",
+          "transliteration": "yasyAtmA virataH pApAtkalyANe cha niveshitaH | tena sarvamidaM buddhaM prakR^itirvikR^itirshcha yA"
+        },
+        {
+          "number": 46,
+          "sanskrit": "यो धर्ममर्थं कामं च यथाकालं निषेवते । धर्मार्थकामसंयोगं योऽमुत्रेह च विन्दति",
+          "transliteration": "yo dharmamartha.n kAmaM cha yathAkAlaM niShevate | dharmArthakAmasa.nyoga.n yo.amutreha cha vindati"
+        },
+        {
+          "number": 47,
+          "sanskrit": "सन्नियच्छति यो वेगमुत्थितं क्रोधहर्षयोः । स श्रियो भाजनं राजन्यश्चापत्सु न मुह्यति",
+          "transliteration": "sanniyachChati yo vegamutthita.n krodhaharShayoH | sa shriyo bhAjana.n rAjanyashchApatsu na muhyati"
+        },
+        {
+          "number": 48,
+          "sanskrit": "बलं पञ्च विधं नित्यं पुरुषाणां निबोध मे । यत्तु बाहुबलं नाम कनिष्ठं बलमुच्यते",
+          "transliteration": "balaM pa~ncha vidhaM nityaM puruShANAM nibodha me | yattu bAhubalaM nAma kaniShThaM balamuchyate"
+        },
+        {
+          "number": 49,
+          "sanskrit": "अमात्यलाभो भद्रं ते द्वितीयं बलमुच्यते । धनलाभस्तृतीयं तु बलमाहुर्जिगीषवः",
+          "transliteration": "amAtyalAbho bhadra.n te dvitIyaM balamuchyate | dhanalAbhastR^itIya.n tu balamAhurjigIShavaH"
+        },
+        {
+          "number": 50,
+          "sanskrit": "यत्त्वस्य सहजं राजन्पितृपैतामहं बलम् । अभिजात बलं नाम तच्चतुर्थं बलं स्मृतम्",
+          "transliteration": "yattvasya sahaja.n rAjanpitR^ipaitAmahaM balam | abhijAta balaM nAma tachchaturthaM bala.n smR^itam"
+        },
+        {
+          "number": 51,
+          "sanskrit": "येन त्वेतानि सर्वाणि सङ्गृहीतानि भारत । यद्बलानां बलं श्रेष्ठं तत्प्रज्ञा बलमुच्यते",
+          "transliteration": "yena tvetAni sarvANi sa~NgR^ihItAni bhArata | yadbalAnAM bala.n shreShTha.n tatpraj~nA balamuchyate"
+        },
+        {
+          "number": 52,
+          "sanskrit": "महते योऽपकाराय नरस्य प्रभवेन्नरः । तेन वैरं समासज्य दूरस्थोऽस्मीति नाश्वसेत्",
+          "transliteration": "mahate yo.apakArAya narasya prabhavennaraH | tena vaira.n samAsajya dUrastho.asmIti nAshvaset"
+        },
+        {
+          "number": 53,
+          "sanskrit": "स्त्रीषु राजसु सर्पेषु स्वाध्याये शत्रुसेविषु । भोगे चायुषि विश्वासं कः प्राज्ञः कर्तुमर्हति",
+          "transliteration": "strIShu rAjasu sarpeShu svAdhyAye shatruseviShu | bhoge chAyuShi vishvAsa.n kaH prAj~naH kartumarhati"
+        },
+        {
+          "number": 54,
+          "sanskrit": "प्रज्ञा शरेणाभिहतस्य जन्तोश् चिकित्सकाः सन्ति न चौषधानि । न होममन्त्रा न च मङ्गलानि नाथर्वणा नाप्यगदाः सुसिद्धाः",
+          "transliteration": "praj~nA shareNAbhihatasya jantosh chikitsakAH santi na chauShadhAni | na homamantrA na cha ma~NgalAni nAtharvaNA nApyagadAH susiddhAH"
+        },
+        {
+          "number": 55,
+          "sanskrit": "सर्पश्चाग्निश्च सिंहश्च कुलपुत्रश्च भारत । नावज्ञेया मनुष्येण सर्वे ते ह्यतितेजसः",
+          "transliteration": "sarpashchAgnishcha si.nhashcha kulaputrashcha bhArata | nAvaj~neyA manuShyeNa sarve te hyatitejasaH"
+        },
+        {
+          "number": 56,
+          "sanskrit": "अग्निस्तेजो महल्लोके गूढस्तिष्ठति दारुषु । न चोपयुङ्क्ते तद्दारु यावन्नो दीप्यते परैः",
+          "transliteration": "agnistejo mahalloke gUDhastiShThati dAruShu | na chopayu~Nkte taddAru yAvanno dIpyate paraiH"
+        },
+        {
+          "number": 57,
+          "sanskrit": "स एव खलु दारुभ्यो यदा निर्मथ्य दीप्यते । तदा तच्च वनं चान्यन्निर्दहत्याशु तेजसा",
+          "transliteration": "sa eva khalu dArubhyo yadA nirmathya dIpyate | tadA tachcha vana.n chAnyannirdahatyAshu tejasA"
+        },
+        {
+          "number": 58,
+          "sanskrit": "एवमेव कुले जाताः पावकोपम तेजसः । क्षमावन्तो निराकाराः काष्ठेऽग्निरिव शेरते",
+          "transliteration": "evameva kule jAtAH pAvakopama tejasaH | xamAvanto nirAkArAH kAShThe.agniriva sherate"
+        },
+        {
+          "number": 59,
+          "sanskrit": "लता धर्मा त्वं सपुत्रः शालाः पाण्डुसुता मताः । न लता वर्धते जातु महाद्रुममनाश्रिता",
+          "transliteration": "latA dharmA tva.n saputraH shAlAH pANDusutA matAH | na latA vardhate jAtu mahAdrumamanAshritA"
+        },
+        {
+          "number": 60,
+          "sanskrit": "वनं राजंस्त्वं सपुत्रोऽम्बिकेय सिंहान्वने पाण्डवांस्तात विद्धि । सिंहैर्विहीनं हि वनं विनश्येत् सिंहा विनश्येयुरृते वनेन",
+          "transliteration": "vana.n rAja.nstvaM saputro.ambikeya si.nhAnvane pANDavA.nstAta viddhi | si.nhairvihIna.n hi vanaM vinashyet.h si.nhA vinashyeyurR^ite vanena"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "अध्यायः ३८ विदुर उवाच । ऊर्ध्वं प्राणा ह्युत्क्रामन्ति यूनः स्थविर आयति । प्रत्युत्थानाभिवादाभ्यां पुनस्तान्पतिपद्यते",
+          "transliteration": "adhyAyaH 38 vidura uvAcha | UrdhvaM prANA hyutkrAmanti yUnaH sthavira Ayati | pratyutthAnAbhivAdAbhyAM punastAnpatipadyate"
+        },
+        {
+          "number": 2,
+          "sanskrit": "पीठं दत्त्वा साधवेऽभ्यागताय आनीयापः परिनिर्णिज्य पादौ । सुखं पृष्ट्वा प्रतिवेद्यात्म संस्थं ततो दद्यादन्नमवेक्ष्य धीरः",
+          "transliteration": "pITha.n dattvA sAdhave.abhyAgatAya AnIyApaH parinirNijya pAdau | sukhaM pR^iShTvA prativedyAtma sa.nsthaM tato dadyAdannamavexya dhIraH"
+        },
+        {
+          "number": 3,
+          "sanskrit": "यस्योदकं मधुपर्कं च गां च न मन्त्रवित्प्रतिगृह्णाति गेहे । लोभाद्भयादर्थकार्पण्यतो वा तस्यानर्थं जीवितमाहुरार्याः",
+          "transliteration": "yasyodakaM madhuparka.n cha gAM cha na mantravitpratigR^ihNAti gehe | lobhAdbhayAdarthakArpaNyato vA tasyAnartha.n jIvitamAhurAryAH"
+        },
+        {
+          "number": 4,
+          "sanskrit": "चिकित्सकः शक्य कर्तावकीर्णी स्तेनः क्रूरो मद्यपो भ्रूणहा च । सेनाजीवी श्रुतिविक्रायकश् च भृशं प्रियोऽप्यतिथिर्नोदकार्हः",
+          "transliteration": "chikitsakaH shakya kartAvakIrNI stenaH krUro madyapo bhrUNahA cha | senAjIvI shrutivikrAyakash cha bhR^ishaM priyo.apyatithirnodakArhaH"
+        },
+        {
+          "number": 5,
+          "sanskrit": "अविक्रेयं लवणं पक्वमन्नं दधि क्षीरं मधु तैलं घृतं च । तिला मांसं मूलफलानि शाकं रक्तं वासः सर्वगन्धा गुडश् च",
+          "transliteration": "avikreya.n lavaNaM pakvamanna.n dadhi xIraM madhu taila.n ghR^itaM cha | tilA mA.nsaM mUlaphalAni shAkaM rakta.n vAsaH sarvagandhA guDash cha"
+        },
+        {
+          "number": 6,
+          "sanskrit": "अरोषणो यः समलोष्ट काञ्चनः प्रहीण शोको गतसन्धि विग्रहः । निन्दा प्रशंसोपरतः प्रियाप्रिये चरन्नुदासीनवदेष भिक्षुकः",
+          "transliteration": "aroShaNo yaH samaloShTa kA~nchanaH prahINa shoko gatasandhi vigrahaH | nindA prasha.nsoparataH priyApriye charannudAsInavadeSha bhixukaH"
+        },
+        {
+          "number": 7,
+          "sanskrit": "नीवार मूलेङ्गुद शाकवृत्तिः सुसंयतात्माग्निकार्येष्वचोद्यः । वने वसन्नतिथिष्वप्रमत्तो धुरन्धरः पुण्यकृदेष तापसः",
+          "transliteration": "nIvAra mUle~Nguda shAkavR^ittiH susa.nyatAtmAgnikAryeShvachodyaH | vane vasannatithiShvapramatto dhurandharaH puNyakR^ideSha tApasaH"
+        },
+        {
+          "number": 8,
+          "sanskrit": "अपकृत्वा बुद्धिमतो दूरस्थोऽस्मीति नाश्वसेत् । दीर्घौ बुद्धिमतो बाहू याभ्यां हिंसति हिंसितः",
+          "transliteration": "apakR^itvA buddhimato dUrastho.asmIti nAshvaset | dIrghau buddhimato bAhU yAbhyA.n hi.nsati hi.nsitaH"
+        },
+        {
+          "number": 9,
+          "sanskrit": "न विश्वसेदविश्वस्ते विश्वस्ते नातिविश्वसेत् । विश्वासाद्भयमुत्पन्नं मूलान्यपि निकृन्तति",
+          "transliteration": "na vishvasedavishvaste vishvaste nAtivishvaset | vishvAsAdbhayamutpannaM mUlAnyapi nikR^intati"
+        },
+        {
+          "number": 10,
+          "sanskrit": "अनीर्ष्युर्गुप्तदारः स्यात्संविभागी प्रियंवदः । श्लक्ष्णो मधुरवाक्स्त्रीणां न चासां वशगो भवेत्",
+          "transliteration": "anIrShyurguptadAraH syAtsa.nvibhAgI priya.nvadaH | shlaxNo madhuravAkstrINAM na chAsA.n vashago bhavet"
+        },
+        {
+          "number": 11,
+          "sanskrit": "पूजनीया महाभागाः पुण्याश्च गृहदीप्तयः । स्त्रियः श्रियो गृहस्योक्तास्तस्माद्रक्ष्या विशेषतः",
+          "transliteration": "pUjanIyA mahAbhAgAH puNyAshcha gR^ihadIptayaH | striyaH shriyo gR^ihasyoktAstasmAdraxyA visheShataH"
+        },
+        {
+          "number": 12,
+          "sanskrit": "पितुरन्तःपुरं दद्यान्मातुर्दद्यान्महानसम् । गोषु चात्मसमं दद्यात्स्वयमेव कृषिं व्रजेत् । भृत्यैर्वणिज्याचारं च पुत्रैः सेवेत ब्राह्मणान्",
+          "transliteration": "piturantaHpura.n dadyAnmAturdadyAnmahAnasam | goShu chAtmasama.n dadyAtsvayameva kR^iShi.n vrajet | bhR^ityairvaNijyAchAra.n cha putraiH seveta brAhmaNAn"
+        },
+        {
+          "number": 13,
+          "sanskrit": "अद्भ्योऽग्निर्ब्रह्मतः क्षत्रमश्मनो लोहमुत्थितम् । तेषां सर्वत्रगं तेजः स्वासु योनिषु शाम्यति",
+          "transliteration": "adbhyo.agnirbrahmataH xatramashmano lohamutthitam | teShA.n sarvatraga.n tejaH svAsu yoniShu shAmyati"
+        },
+        {
+          "number": 14,
+          "sanskrit": "नित्यं सन्तः कुले जाताः पावकोपम तेजसः । क्षमावन्तो निराकाराः काष्ठेऽग्निरिव शेरते",
+          "transliteration": "nitya.n santaH kule jAtAH pAvakopama tejasaH | xamAvanto nirAkArAH kAShThe.agniriva sherate"
+        },
+        {
+          "number": 15,
+          "sanskrit": "यस्य मन्त्रं न जानन्ति बाह्याश्चाभ्यन्तराश् च ये । स राजा सर्वतश्चक्षुश्चिरमैश्वर्यमश्नुते",
+          "transliteration": "yasya mantraM na jAnanti bAhyAshchAbhyantarAsh cha ye | sa rAjA sarvatashchaxushchiramaishvaryamashnute"
+        },
+        {
+          "number": 16,
+          "sanskrit": "करिष्यन्न प्रभाषेत कृतान्येव च दर्शयेत् । धर्मकामार्थ कार्याणि तथा मन्त्रो न भिद्यते",
+          "transliteration": "kariShyanna prabhASheta kR^itAnyeva cha darshayet | dharmakAmArtha kAryANi tathA mantro na bhidyate"
+        },
+        {
+          "number": 17,
+          "sanskrit": "गिरिपृष्ठमुपारुह्य प्रासादं वा रहोगतः । अरण्ये निःशलाके वा तत्र मन्त्रो विधीयते",
+          "transliteration": "giripR^iShThamupAruhya prAsAda.n vA rahogataH | araNye niHshalAke vA tatra mantro vidhIyate"
+        },
+        {
+          "number": 18,
+          "sanskrit": "नासुहृत्परमं मन्त्रं भारतार्हति वेदितुम् । अपण्डितो वापि सुहृत्पण्डितो वाप्यनात्मवान् । अमात्ये ह्यर्थलिप्सा च मन्त्ररक्षणमेव च",
+          "transliteration": "nAsuhR^itparamaM mantraM bhAratArhati veditum | apaNDito vApi suhR^itpaNDito vApyanAtmavAn | amAtye hyarthalipsA cha mantraraxaNameva cha"
+        },
+        {
+          "number": 19,
+          "sanskrit": "कृतानि सर्वकार्याणि यस्य वा पार्षदा विदुः । गूढमन्त्रस्य नृपतेस्तस्य सिद्धिरसंशयम्",
+          "transliteration": "kR^itAni sarvakAryANi yasya vA pArShadA viduH | gUDhamantrasya nR^ipatestasya siddhirasaMshayam"
+        },
+        {
+          "number": 20,
+          "sanskrit": "अप्रशस्तानि कर्माणि यो मोहादनुतिष्ठति । स तेषां विपरिभ्रंशे भ्रश्यते जीवितादपि",
+          "transliteration": "aprashastAni karmANi yo mohAdanutiShThati | sa teShA.n viparibhraMshe bhrashyate jIvitAdapi"
+        },
+        {
+          "number": 21,
+          "sanskrit": "कर्मणां तु प्रशस्तानामनुष्ठानं सुखावहम् । तेषामेवाननुष्ठानं पश्चात्तापकरं महत्",
+          "transliteration": "karmaNA.n tu prashastAnAmanuShThAna.n sukhAvaham | teShAmevAnanuShThAnaM pashchAttApakaraM mahat"
+        },
+        {
+          "number": 22,
+          "sanskrit": "स्थानवृद्ध क्षयज्ञस्य षाड्गुण्य विदितात्मनः । अनवज्ञात शीलस्य स्वाधीना पृथिवी नृप",
+          "transliteration": "sthAnavR^iddha xayaj~nasya ShADguNya viditAtmanaH | anavaj~nAta shIlasya svAdhInA pR^ithivI nR^ipa"
+        },
+        {
+          "number": 23,
+          "sanskrit": "अमोघक्रोधहर्षस्य स्वयं कृत्यान्ववेक्षिणः । आत्मप्रत्यय कोशस्य वसुधेयं वसुन्धरा",
+          "transliteration": "amoghakrodhaharShasya svaya.n kR^ityAnvavexiNaH | Atmapratyaya koshasya vasudheya.n vasundharA"
+        },
+        {
+          "number": 24,
+          "sanskrit": "नाममात्रेण तुष्येत छत्रेण च महीपतिः । भृत्येभ्यो विसृजेदर्थान्नैकः सर्वहरो भवेत्",
+          "transliteration": "nAmamAtreNa tuShyeta ChatreNa cha mahIpatiH | bhR^ityebhyo visR^ijedarthAnnaikaH sarvaharo bhavet"
+        },
+        {
+          "number": 25,
+          "sanskrit": "ब्राह्मणो ब्राह्मणं वेद भर्ता वेद स्त्रियं तथा । अमात्यं नृपतिर्वेद राजा राजानमेव च",
+          "transliteration": "brAhmaNo brAhmaNa.n veda bhartA veda striya.n tathA | amAtyaM nR^ipatirveda rAjA rAjAnameva cha"
+        },
+        {
+          "number": 26,
+          "sanskrit": "न शत्रुरङ्कमापन्नो मोक्तव्यो वध्यतां गतः । अहताद्धि भयं तस्माज्जायते नचिरादिव",
+          "transliteration": "na shatrura~NkamApanno moktavyo vadhyatA.n gataH | ahatAddhi bhaya.n tasmAjjAyate nachirAdiva"
+        },
+        {
+          "number": 27,
+          "sanskrit": "दैवतेषु च यत्नेन राजसु ब्राह्मणेषु च । नियन्तव्यः सदा क्रोधो वृद्धबालातुरेषु च",
+          "transliteration": "daivateShu cha yatnena rAjasu brAhmaNeShu cha | niyantavyaH sadA krodho vR^iddhabAlAtureShu cha"
+        },
+        {
+          "number": 28,
+          "sanskrit": "निरर्थं कलहं प्राज्ञो वर्जयेन्मूढ सेवितम् । कीर्तिं च लभते लोके न चानर्थेन युज्यते",
+          "transliteration": "nirartha.n kalahaM prAj~no varjayenmUDha sevitam | kIrti.n cha labhate loke na chAnarthena yujyate"
+        },
+        {
+          "number": 29,
+          "sanskrit": "प्रसादो निष्फलो यस्य क्रोधश्चापि निरर्थकः । न तं भर्तारमिच्छन्ति षण्ढं पतिमिव स्त्रियः",
+          "transliteration": "prasAdo niShphalo yasya krodhashchApi nirarthakaH | na taM bhartAramichChanti ShaNDhaM patimiva striyaH"
+        },
+        {
+          "number": 30,
+          "sanskrit": "न बुद्धिर्धनलाभाय न जाड्यमसमृद्धये । लोकपर्याय वृत्तान्तं प्राज्ञो जानाति नेतरः",
+          "transliteration": "na buddhirdhanalAbhAya na jADyamasamR^iddhaye | lokaparyAya vR^ittAntaM prAj~no jAnAti netaraH"
+        },
+        {
+          "number": 31,
+          "sanskrit": "विद्या शीलवयोवृद्धान्बुद्धिवृद्धांश्च भारत । धनाभिजन वृद्धांश्च नित्यं मूढोऽवमन्यते",
+          "transliteration": "vidyA shIlavayovR^iddhAnbuddhivR^iddhAMshcha bhArata | dhanAbhijana vR^iddhAMshcha nityaM mUDho.avamanyate"
+        },
+        {
+          "number": 32,
+          "sanskrit": "अनार्य वृत्तमप्राज्ञमसूयकमधार्मिकम् । अनर्थाः क्षिप्रमायान्ति वाग्दुष्टं क्रोधनं तथा",
+          "transliteration": "anArya vR^ittamaprAj~namasUyakamadhArmikam | anarthAH xipramAyAnti vAgduShTa.n krodhanaM tathA"
+        },
+        {
+          "number": 33,
+          "sanskrit": "अविसंवादनं दानं समयस्याव्यतिक्रमः । आवर्तयन्ति भूतानि सम्यक्प्रणिहिता च वाक्",
+          "transliteration": "avisa.nvAdana.n dAna.n samayasyAvyatikramaH | Avartayanti bhUtAni samyakpraNihitA cha vAk"
+        },
+        {
+          "number": 34,
+          "sanskrit": "अविसंवादको दक्षः कृतज्ञो मतिमानृजुः । अपि सङ्क्षीण कोशोऽपि लभते परिवारणम्",
+          "transliteration": "avisa.nvAdako daxaH kR^itaj~no matimAnR^ijuH | api sa~NxINa kosho.api labhate parivAraNam"
+        },
+        {
+          "number": 35,
+          "sanskrit": "धृतिः शमो दमः शौचं कारुण्यं वागनिष्ठुरा । मित्राणां चानभिद्रोहः सतैताः समिधः श्रियः",
+          "transliteration": "dhR^itiH shamo damaH shaucha.n kAruNya.n vAganiShThurA | mitrANA.n chAnabhidrohaH sataitAH samidhaH shriyaH"
+        },
+        {
+          "number": 36,
+          "sanskrit": "असंविभागी दुष्टात्मा कृतघ्नो निरपत्रपः । तादृङ्नराधमो लोके वर्जनीयो नराधिप",
+          "transliteration": "asa.nvibhAgI duShTAtmA kR^itaghno nirapatrapaH | tAdR^i~NnarAdhamo loke varjanIyo narAdhipa"
+        },
+        {
+          "number": 37,
+          "sanskrit": "न स रात्रौ सुखं शेते स सर्प इव वेश्मनि । यः कोपयति निर्दोषं स दोषोऽभ्यन्तरं जनम्",
+          "transliteration": "na sa rAtrau sukha.n shete sa sarpa iva veshmani | yaH kopayati nirdoSha.n sa doSho.abhyantara.n janam"
+        },
+        {
+          "number": 38,
+          "sanskrit": "येषु दुष्टेषु दोषः स्याद्योगक्षेमस्य भारत । सदा प्रसादनं तेषां देवतानामिवाचरेत्",
+          "transliteration": "yeShu duShTeShu doShaH syAdyogaxemasya bhArata | sadA prasAdana.n teShAM devatAnAmivAcharet"
+        },
+        {
+          "number": 39,
+          "sanskrit": "येऽर्थाः स्त्रीषु समासक्ताः प्रथमोत्पतितेषु च । ये चानार्य समासक्ताः सर्वे ते संशयं गताः",
+          "transliteration": "ye.arthAH strIShu samAsaktAH prathamotpatiteShu cha | ye chAnArya samAsaktAH sarve te saMshaya.n gatAH"
+        },
+        {
+          "number": 40,
+          "sanskrit": "यत्र स्त्री यत्र कितवो यत्र बालोऽनुशास्ति च । मज्जन्ति तेऽवशा देशा नद्यामश्मप्लवा इव",
+          "transliteration": "yatra strI yatra kitavo yatra bAlo.anushAsti cha | majjanti te.avashA deshA nadyAmashmaplavA iva"
+        },
+        {
+          "number": 41,
+          "sanskrit": "प्रयोजनेषु ये सक्ता न विशेषेषु भारत । तानहं पण्डितान्मन्ये विशेषा हि प्रसङ्गिनः",
+          "transliteration": "prayojaneShu ye saktA na visheSheShu bhArata | tAnahaM paNDitAnmanye visheShA hi prasa~NginaH"
+        },
+        {
+          "number": 42,
+          "sanskrit": "यं प्रशंसन्ति कितवा यं प्रशंसन्ति चारणाः । यं प्रशंसन्ति बन्धक्यो न स जीवति मानवः",
+          "transliteration": "yaM prasha.nsanti kitavA yaM prasha.nsanti chAraNAH | yaM prasha.nsanti bandhakyo na sa jIvati mAnavaH"
+        },
+        {
+          "number": 43,
+          "sanskrit": "हित्वा तान्परमेष्वासान्पाण्डवानमितौजसः । आहितं भारतैश्वर्यं त्वया दुर्योधने महत्",
+          "transliteration": "hitvA tAnparameShvAsAnpANDavAnamitaujasaH | AhitaM bhArataishvarya.n tvayA duryodhane mahat"
+        },
+        {
+          "number": 44,
+          "sanskrit": "तं द्रक्ष्यसि परिभ्रष्टं तस्मात्त्वं नचिरादिव । ऐश्वर्यमदसम्मूढं बलिं लोकत्रयादिव",
+          "transliteration": "ta.n draxyasi paribhraShTaM tasmAttvaM nachirAdiva | aishvaryamadasammUDhaM bali.n lokatrayAdiva"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "अध्यायः ३९ धृतराष्ट्र उवाच । अनीश्वरोऽयं पुरुषो भवाभवे सूत्रप्रोता दारुमयीव योषा । धात्रा हि दिष्टस्य वशे किलायं तस्माद्वद त्वं श्रवणे घृतोऽहम्",
+          "transliteration": "adhyAyaH 39 dhR^itarAShTra uvAcha | anIshvaro.ayaM puruSho bhavAbhave sUtraprotA dArumayIva yoShA | dhAtrA hi diShTasya vashe kilAyaM tasmAdvada tva.n shravaNe ghR^ito.aham"
+        },
+        {
+          "number": 2,
+          "sanskrit": "विदुर उवाच । अप्राप्तकालं वचनं बृहस्पतिरपि ब्रुवन् । लभते बुद्ध्यवज्ञानमवमानं च भारत",
+          "transliteration": "vidura uvAcha | aprAptakAla.n vachanaM bR^ihaspatirapi bruvan | labhate buddhyavaj~nAnamavamAna.n cha bhArata"
+        },
+        {
+          "number": 3,
+          "sanskrit": "प्रियो भवति दानेन प्रियवादेन चापरः । मन्त्रं मूलबलेनान्यो यः प्रियः प्रिय एव सः",
+          "transliteration": "priyo bhavati dAnena priyavAdena chAparaH | mantraM mUlabalenAnyo yaH priyaH priya eva saH"
+        },
+        {
+          "number": 4,
+          "sanskrit": "द्वेष्यो न साधुर्भवति न मेधावी न पण्डितः । प्रिये शुभानि कर्माणि द्वेष्ये पापानि भारत",
+          "transliteration": "dveShyo na sAdhurbhavati na medhAvI na paNDitaH | priye shubhAni karmANi dveShye pApAni bhArata"
+        },
+        {
+          "number": 5,
+          "sanskrit": "न स क्षयो महाराज यः क्षयो वृद्धिमावहेत् । क्षयः स त्विह मन्तव्यो यं लब्ध्वा बहु नाशयेत्",
+          "transliteration": "na sa xayo mahArAja yaH xayo vR^iddhimAvahet | xayaH sa tviha mantavyo ya.n labdhvA bahu nAshayet"
+        },
+        {
+          "number": 6,
+          "sanskrit": "समृद्धा गुणतः के चिद्भवन्ति धनतोऽपरे । धनवृद्धान्गुणैर्हीनान्धृतराष्ट्र विवर्जयेत्",
+          "transliteration": "samR^iddhA guNataH ke chidbhavanti dhanato.apare | dhanavR^iddhAnguNairhInAndhR^itarAShTra vivarjayet"
+        },
+        {
+          "number": 7,
+          "sanskrit": "धृतराष्ट्र उवाच । सर्वं त्वमायती युक्तं भाषसे प्राज्ञसम्मतम् । न चोत्सहे सुतं त्यक्तुं यतो धर्मस्ततो जयः",
+          "transliteration": "dhR^itarAShTra uvAcha | sarva.n tvamAyatI yuktaM bhAShase prAj~nasammatam | na chotsahe suta.n tyaktu.n yato dharmastato jayaH"
+        },
+        {
+          "number": 8,
+          "sanskrit": "विदुर उवाच । स्वभावगुणसम्पन्नो न जातु विनयान्वितः । सुसूक्ष्ममपि भूतानामुपमर्दं प्रयोक्ष्यते",
+          "transliteration": "vidura uvAcha | svabhAvaguNasampanno na jAtu vinayAnvitaH | susUxmamapi bhUtAnAmupamardaM prayoxyate"
+        },
+        {
+          "number": 9,
+          "sanskrit": "परापवाद निरताः परदुःखोदयेषु च । परस्परविरोधे च यतन्ते सततोथिताः",
+          "transliteration": "parApavAda niratAH paraduHkhodayeShu cha | parasparavirodhe cha yatante satatothitAH"
+        },
+        {
+          "number": 10,
+          "sanskrit": "स दोषं दर्शनं येषां संवासे सुमहद्भयम् । अर्थादाने महान्दोषः प्रदाने च महद्भयम्",
+          "transliteration": "sa doSha.n darshana.n yeShAM sa.nvAse sumahadbhayam | arthAdAne mahAndoShaH pradAne cha mahadbhayam"
+        },
+        {
+          "number": 11,
+          "sanskrit": "ये पापा इति विख्याताः संवासे परिगर्हिताः । युक्ताश्चान्यैर्महादोषैर्ये नरास्तान्विवर्जयेत्",
+          "transliteration": "ye pApA iti vikhyAtAH sa.nvAse parigarhitAH | yuktAshchAnyairmahAdoShairye narAstAnvivarjayet"
+        },
+        {
+          "number": 12,
+          "sanskrit": "निवर्तमाने सौहार्दे प्रीतिर्नीचे प्रणश्यति । या चैव फलनिर्वृत्तिः सौहृदे चैव यत्सुखम्",
+          "transliteration": "nivartamAne sauhArde prItirnIche praNashyati | yA chaiva phalanirvR^ittiH sauhR^ide chaiva yatsukham"
+        },
+        {
+          "number": 13,
+          "sanskrit": "यतते चापवादाय यत्नमारभते क्षये । अल्पेऽप्यपकृते मोहान्न शान्तिमुपगच्छति",
+          "transliteration": "yatate chApavAdAya yatnamArabhate xaye | alpe.apyapakR^ite mohAnna shAntimupagachChati"
+        },
+        {
+          "number": 14,
+          "sanskrit": "तादृशैः सङ्गतं नीचैर्नृशंसैरकृतात्मभिः । निशाम्य निपुणं बुद्ध्या विद्वान्दूराद्विवर्जयेत्",
+          "transliteration": "tAdR^ishaiH sa~NgataM nIchairnR^isha.nsairakR^itAtmabhiH | nishAmya nipuNaM buddhyA vidvAndUrAdvivarjayet"
+        },
+        {
+          "number": 15,
+          "sanskrit": "यो ज्ञातिमनुगृह्णाति दरिद्रं दीनमातुरम् । सपुत्रपशुभिर्वृद्धिं यशश्चाव्ययमश्नुते",
+          "transliteration": "yo j~nAtimanugR^ihNAti daridra.n dInamAturam | saputrapashubhirvR^iddhi.n yashashchAvyayamashnute"
+        },
+        {
+          "number": 16,
+          "sanskrit": "ज्ञातयो वर्धनीयास्तैर्य इच्छन्त्यात्मनः शुभम् । कुलवृद्धिं च राजेन्द्र तस्मात्साधु समाचर",
+          "transliteration": "j~nAtayo vardhanIyAstairya ichChantyAtmanaH shubham | kulavR^iddhi.n cha rAjendra tasmAtsAdhu samAchara"
+        },
+        {
+          "number": 17,
+          "sanskrit": "श्रेयसा योक्ष्यसे राजन्कुर्वाणो ज्ञातिसत्क्रियाम् । विगुणा ह्यपि संरक्ष्या ज्ञातयो भरतर्षभ",
+          "transliteration": "shreyasA yoxyase rAjankurvANo j~nAtisatkriyAm | viguNA hyapi sa.nraxyA j~nAtayo bharatarShabha"
+        },
+        {
+          "number": 18,
+          "sanskrit": "किं पुनर्गुणवन्तस्ते त्वत्प्रसादाभिकाङ्क्षिणः । प्रसादं कुरु दीनानां पाण्डवानां विशां पते",
+          "transliteration": "kiM punarguNavantaste tvatprasAdAbhikA~NxiNaH | prasAda.n kuru dInAnAM pANDavAnA.n vishAM pate"
+        },
+        {
+          "number": 19,
+          "sanskrit": "दीयन्तां ग्रामकाः के चित्तेषां वृत्त्यर्थमीश्वर । एवं लोके यशःप्राप्तो भविष्यत्सि नराधिप",
+          "transliteration": "dIyantA.n grAmakAH ke chitteShA.n vR^ittyarthamIshvara | eva.n loke yashaHprApto bhaviShyatsi narAdhipa"
+        },
+        {
+          "number": 20,
+          "sanskrit": "वृद्धेन हि त्वया कार्यं पुत्राणां तात रक्षणम् । मया चापि हितं वाच्यं विद्धि मां त्वद्धितैषिणम्",
+          "transliteration": "vR^iddhena hi tvayA kAryaM putrANA.n tAta raxaNam | mayA chApi hita.n vAchyaM viddhi mA.n tvaddhitaiShiNam"
+        },
+        {
+          "number": 21,
+          "sanskrit": "ज्ञातिभिर्विग्रहस्तात न कर्तव्यो भवार्थिना । सुखानि सह भोज्यानि ज्ञातिभिर्भरतर्षभ",
+          "transliteration": "j~nAtibhirvigrahastAta na kartavyo bhavArthinA | sukhAni saha bhojyAni j~nAtibhirbharatarShabha"
+        },
+        {
+          "number": 22,
+          "sanskrit": "सम्भोजनं सङ्कथनं सम्प्रीतिश् च परस्परम् । ज्ञातिभिः सह कार्याणि न विरोधः कथं चन",
+          "transliteration": "sambhojana.n sa~NkathanaM samprItish cha parasparam | j~nAtibhiH saha kAryANi na virodhaH katha.n chana"
+        },
+        {
+          "number": 23,
+          "sanskrit": "ज्ञातयस्तारयन्तीह ज्ञातयो मज्जयन्ति च । सुवृत्तास्तारयन्तीह दुर्वृत्ता मज्जयन्ति च",
+          "transliteration": "j~nAtayastArayantIha j~nAtayo majjayanti cha | suvR^ittAstArayantIha durvR^ittA majjayanti cha"
+        },
+        {
+          "number": 24,
+          "sanskrit": "सुवृत्तो भव राजेन्द्र पाण्डवान्प्रति मानद । अधर्षणीयः शत्रूणां तैर्वृतस्त्वं भविष्यसि",
+          "transliteration": "suvR^itto bhava rAjendra pANDavAnprati mAnada | adharShaNIyaH shatrUNA.n tairvR^itastvaM bhaviShyasi"
+        },
+        {
+          "number": 25,
+          "sanskrit": "श्रीमन्तं ज्ञातिमासाद्य यो ज्ञातिरवसीदति । दिग्धहस्तं मृग इव स एनस्तस्य विन्दति",
+          "transliteration": "shrImanta.n j~nAtimAsAdya yo j~nAtiravasIdati | digdhahastaM mR^iga iva sa enastasya vindati"
+        },
+        {
+          "number": 26,
+          "sanskrit": "पश्चादपि नरश्रेष्ठ तव तापो भविष्यति । तान्वा हतान्सुतान्वापि श्रुत्वा तदनुचिन्तय",
+          "transliteration": "pashchAdapi narashreShTha tava tApo bhaviShyati | tAnvA hatAnsutAnvApi shrutvA tadanuchintaya"
+        },
+        {
+          "number": 27,
+          "sanskrit": "येन खट्वां समारूढः परितप्येत कर्मणा । आदावेव न तत्कुर्यादध्रुवे जीविते सति",
+          "transliteration": "yena khaTvA.n samArUDhaH paritapyeta karmaNA | AdAveva na tatkuryAdadhruve jIvite sati"
+        },
+        {
+          "number": 28,
+          "sanskrit": "न कश्चिन्नापनयते पुमानन्यत्र भार्गवात् । शेषसम्प्रतिपत्तिस्तु बुद्धिमत्स्वेव तिष्ठति",
+          "transliteration": "na kashchinnApanayate pumAnanyatra bhArgavAt | sheShasampratipattistu buddhimatsveva tiShThati"
+        },
+        {
+          "number": 29,
+          "sanskrit": "दुर्योधनेन यद्येतत्पापं तेषु पुरा कृतम् । त्वया तत्कुलवृद्धेन प्रत्यानेयं नरेश्वर",
+          "transliteration": "duryodhanena yadyetatpApa.n teShu purA kR^itam | tvayA tatkulavR^iddhena pratyAneyaM nareshvara"
+        },
+        {
+          "number": 30,
+          "sanskrit": "तांस्त्वं पदे प्रतिष्ठाप्य लोके विगतकल्मषः । भविष्यसि नरश्रेष्ठ पूजनीयो मनीषिणाम्",
+          "transliteration": "tA.nstvaM pade pratiShThApya loke vigatakalmaShaH | bhaviShyasi narashreShTha pUjanIyo manIShiNAm"
+        },
+        {
+          "number": 31,
+          "sanskrit": "सुव्याहृतानि धीराणां फलतः प्रविचिन्त्य यः । अध्यवस्यति कार्येषु चिरं यशसि तिष्ठति",
+          "transliteration": "suvyAhR^itAni dhIrANAM phalataH pravichintya yaH | adhyavasyati kAryeShu chira.n yashasi tiShThati"
+        },
+        {
+          "number": 32,
+          "sanskrit": "अवृत्तिं विनयो हन्ति हन्त्यनर्थं पराक्रमः । हन्ति नित्यं क्षमा क्रोधमाचारो हन्त्यलक्षणम्",
+          "transliteration": "avR^itti.n vinayo hanti hantyanarthaM parAkramaH | hanti nitya.n xamA krodhamAchAro hantyalaxaNam"
+        },
+        {
+          "number": 33,
+          "sanskrit": "परिच्छदेन क्षत्रेण वेश्मना परिचर्यया । परीक्षेत कुलं राजन्भोजनाच्छादनेन च",
+          "transliteration": "parichChadena xatreNa veshmanA paricharyayA | parIxeta kula.n rAjanbhojanAchChAdanena cha"
+        },
+        {
+          "number": 34,
+          "sanskrit": "ययोश्चित्तेन वा चित्तं नैभृतं नैभृतेन वा । समेति प्रज्ञया प्रज्ञा तयोर्मैत्री न जीर्यते",
+          "transliteration": "yayoshchittena vA chittaM naibhR^itaM naibhR^itena vA | sameti praj~nayA praj~nA tayormaitrI na jIryate"
+        },
+        {
+          "number": 35,
+          "sanskrit": "दुर्बुद्धिमकृतप्रज्ञं छन्नं कूपं तृणैरिव । विवर्जयीत मेधावी तस्मिन्मैत्री प्रणश्यति",
+          "transliteration": "durbuddhimakR^itapraj~na.n ChannaM kUpaM tR^iNairiva | vivarjayIta medhAvI tasminmaitrI praNashyati"
+        },
+        {
+          "number": 36,
+          "sanskrit": "अवलिप्तेषु मूर्खेषु रौद्रसाहसिकेषु च । तथैवापेत धर्मेषु न मैत्रीमाचरेद्बुधः",
+          "transliteration": "avalipteShu mUrkheShu raudrasAhasikeShu cha | tathaivApeta dharmeShu na maitrImAcharedbudhaH"
+        },
+        {
+          "number": 37,
+          "sanskrit": "कृतज्ञं धार्मिकं सत्यमक्षुद्रं दृढभक्तिकम् । जितेन्द्रियं स्थितं स्थित्यां मित्रमत्यागि चेष्यते",
+          "transliteration": "kR^itaj~na.n dhArmika.n satyamaxudraM dR^iDhabhaktikam | jitendriya.n sthitaM sthityAM mitramatyAgi cheShyate"
+        },
+        {
+          "number": 38,
+          "sanskrit": "इन्द्रियाणामनुत्सर्गो मृत्युना न विशिष्यते । अत्यर्थं पुनरुत्सर्गः सादयेद्दैवतान्यपि",
+          "transliteration": "indriyANAmanutsargo mR^ityunA na vishiShyate | atyarthaM punarutsargaH sAdayeddaivatAnyapi"
+        },
+        {
+          "number": 39,
+          "sanskrit": "मार्दवं सर्वभूतानामनसूया क्षमा धृतिः । आयुष्याणि बुधाः प्राहुर्मित्राणां चाविमानना",
+          "transliteration": "mArdava.n sarvabhUtAnAmanasUyA xamA dhR^itiH | AyuShyANi budhAH prAhurmitrANA.n chAvimAnanA"
+        },
+        {
+          "number": 40,
+          "sanskrit": "अपनीतं सुनीतेन योऽर्थं प्रत्यानिनीषते । मतिमास्थाय सुदृढां तदकापुरुष व्रतम्",
+          "transliteration": "apanIta.n sunItena yo.arthaM pratyAninIShate | matimAsthAya sudR^iDhA.n tadakApuruSha vratam"
+        },
+        {
+          "number": 41,
+          "sanskrit": "आयत्यां प्रतिकारज्ञस्तदात्वे दृढनिश्चयः । अतीते कार्यशेषज्ञो नरोऽर्थैर्न प्रहीयते",
+          "transliteration": "AyatyAM pratikAraj~nastadAtve dR^iDhanishchayaH | atIte kAryasheShaj~no naro.arthairna prahIyate"
+        },
+        {
+          "number": 42,
+          "sanskrit": "कर्मणा मनसा वाचा यदभीक्ष्णं निषेवते । तदेवापहरत्येनं तस्मात्कल्याणमाचरेत्",
+          "transliteration": "karmaNA manasA vAchA yadabhIxNaM niShevate | tadevApaharatyena.n tasmAtkalyANamAcharet"
+        },
+        {
+          "number": 43,
+          "sanskrit": "मङ्गलालम्भनं योगः श्रुतमुत्थानमार्जवम् । भूतिमेतानि कुर्वन्ति सतां चाभीक्ष्ण दर्शनम्",
+          "transliteration": "ma~NgalAlambhana.n yogaH shrutamutthAnamArjavam | bhUtimetAni kurvanti satA.n chAbhIxNa darshanam"
+        },
+        {
+          "number": 44,
+          "sanskrit": "अनिर्वेदः श्रियो मूलं दुःखनाशे सुखस्य च । महान्भवत्यनिर्विण्णः सुखं चात्यन्तमश्नुते",
+          "transliteration": "anirvedaH shriyo mUla.n duHkhanAshe sukhasya cha | mahAnbhavatyanirviNNaH sukha.n chAtyantamashnute"
+        },
+        {
+          "number": 45,
+          "sanskrit": "नातः श्रीमत्तरं किं चिदन्यत्पथ्यतमं तथा । प्रभ विष्णोर्यथा तात क्षमा सर्वत्र सर्वदा",
+          "transliteration": "nAtaH shrImattara.n kiM chidanyatpathyatamaM tathA | prabha viShNoryathA tAta xamA sarvatra sarvadA"
+        },
+        {
+          "number": 46,
+          "sanskrit": "क्षमेदशक्तः सर्वस्य शक्तिमान्धर्मकारणात् । अर्थानर्थौ समौ यस्य तस्य नित्यं क्षमा हिता",
+          "transliteration": "xamedashaktaH sarvasya shaktimAndharmakAraNAt | arthAnarthau samau yasya tasya nitya.n xamA hitA"
+        },
+        {
+          "number": 47,
+          "sanskrit": "यत्सुखं सेवमानोऽपि धर्मार्थाभ्यां न हीयते । कामं तदुपसेवेत न मूढ व्रतमाचरेत्",
+          "transliteration": "yatsukha.n sevamAno.api dharmArthAbhyAM na hIyate | kAma.n tadupaseveta na mUDha vratamAcharet"
+        },
+        {
+          "number": 48,
+          "sanskrit": "दुःखार्तेषु प्रमत्तेषु नास्तिकेष्वलसेषु च । न श्रीर्वसत्यदान्तेषु ये चोत्साह विवर्जिताः",
+          "transliteration": "duHkhArteShu pramatteShu nAstikeShvalaseShu cha | na shrIrvasatyadAnteShu ye chotsAha vivarjitAH"
+        },
+        {
+          "number": 49,
+          "sanskrit": "आर्जवेन नरं युक्तमार्जवात्सव्यपत्रपम् । अशक्तिमन्तं मन्यन्तो धर्षयन्ति कुबुद्धयः",
+          "transliteration": "Arjavena nara.n yuktamArjavAtsavyapatrapam | ashaktimantaM manyanto dharShayanti kubuddhayaH"
+        },
+        {
+          "number": 50,
+          "sanskrit": "अत्यार्यमतिदातारमतिशूरमतिव्रतम् । प्रज्ञाभिमानिनं चैव श्रीर्भयान्नोपसर्पति",
+          "transliteration": "atyAryamatidAtAramatishUramativratam | praj~nAbhimAnina.n chaiva shrIrbhayAnnopasarpati"
+        },
+        {
+          "number": 51,
+          "sanskrit": "अग्निहोत्रफला वेदाः शीलवृत्तफलं श्रुतम् । रतिपुत्र फला दारा दत्तभुक्त फलं धनम्",
+          "transliteration": "agnihotraphalA vedAH shIlavR^ittaphala.n shrutam | ratiputra phalA dArA dattabhukta phala.n dhanam"
+        },
+        {
+          "number": 52,
+          "sanskrit": "अधर्मोपार्जितैरर्थैर्यः करोत्यौर्ध्व देहिकम् । न स तस्य फलं प्रेत्य भुङ्क्तेऽर्थस्य दुरागमात्",
+          "transliteration": "adharmopArjitairarthairyaH karotyaurdhva dehikam | na sa tasya phalaM pretya bhu~Nkte.arthasya durAgamAt"
+        },
+        {
+          "number": 53,
+          "sanskrit": "कानार वनदुर्गेषु कृच्छ्रास्वापत्सु सम्भ्रमे । उद्यतेषु च शस्त्रेषु नास्ति शेषवतां भयम्",
+          "transliteration": "kAnAra vanadurgeShu kR^ichChrAsvApatsu sambhrame | udyateShu cha shastreShu nAsti sheShavatAM bhayam"
+        },
+        {
+          "number": 54,
+          "sanskrit": "उत्थानं संयमो दाक्ष्यमप्रमादो धृतिः स्मृतिः । समीक्ष्य च समारम्भो विद्धि मूलं भवस्य तत्",
+          "transliteration": "utthAna.n sa.nyamo dAxyamapramAdo dhR^itiH smR^itiH | samIxya cha samArambho viddhi mUlaM bhavasya tat"
+        },
+        {
+          "number": 55,
+          "sanskrit": "तपोबलं तापसानां ब्रह्म ब्रह्मविदां बलम् । हिंसा बलमसाधूनां क्षमागुणवतां बलम्",
+          "transliteration": "tapobala.n tApasAnAM brahma brahmavidAM balam | hi.nsA balamasAdhUnA.n xamAguNavatAM balam"
+        },
+        {
+          "number": 56,
+          "sanskrit": "अष्टौ तान्यव्रतघ्नानि आपो मूलं फलं पयः । हविर्ब्राह्मण काम्या च गुरोर्वचनमौषधम्",
+          "transliteration": "aShTau tAnyavrataghnAni Apo mUlaM phalaM payaH | havirbrAhmaNa kAmyA cha gurorvachanamauShadham"
+        },
+        {
+          "number": 57,
+          "sanskrit": "न तत्परस्य सन्दध्यात्प्रतिकूलं यदात्मनः । सङ्ग्रहेणैष धर्मः स्यात्कामादन्यः प्रवर्तते",
+          "transliteration": "na tatparasya sandadhyAtpratikUla.n yadAtmanaH | sa~NgraheNaiSha dharmaH syAtkAmAdanyaH pravartate"
+        },
+        {
+          "number": 58,
+          "sanskrit": "अक्रोधेन जयेत्क्रोधमसाधुं साधुना जयेत् । जयेत्कदर्यं दानेन जयेत्सत्येन चानृतम्",
+          "transliteration": "akrodhena jayetkrodhamasAdhu.n sAdhunA jayet | jayetkadarya.n dAnena jayetsatyena chAnR^itam"
+        },
+        {
+          "number": 59,
+          "sanskrit": "स्त्री धूर्तकेऽलसे भीरौ चण्डे पुरुषमानिनि । चौरे कृतघ्ने विश्वासो न कार्यो न च नास्तिके",
+          "transliteration": "strI dhUrtake.alase bhIrau chaNDe puruShamAnini | chaure kR^itaghne vishvAso na kAryo na cha nAstike"
+        },
+        {
+          "number": 60,
+          "sanskrit": "अभिवादनशीलस्य नित्यं वृद्धोपसेविनः । चत्वारि सम्प्रवर्धन्ते कीर्तिरायुर्यशोबलम्",
+          "transliteration": "abhivAdanashIlasya nitya.n vR^iddhopasevinaH | chatvAri sampravardhante kIrtirAyuryashobalam"
+        },
+        {
+          "number": 61,
+          "sanskrit": "अतिक्लेशेन येऽर्थाः स्युर्धर्मस्यातिक्रमेण च । अरेर्वा प्रणिपातेन मा स्म तेषु मनः कृथाः",
+          "transliteration": "atikleshena ye.arthAH syurdharmasyAtikrameNa cha | arervA praNipAtena mA sma teShu manaH kR^ithAH"
+        },
+        {
+          "number": 62,
+          "sanskrit": "अविद्यः पुरुषः शोच्यः शोच्यं मिथुनमप्रजम् । निराहाराः प्रजाः शोच्याः शोच्यं राष्ट्रमराजकम्",
+          "transliteration": "avidyaH puruShaH shochyaH shochyaM mithunamaprajam | nirAhArAH prajAH shochyAH shochya.n rAShTramarAjakam"
+        },
+        {
+          "number": 63,
+          "sanskrit": "अध्वा जरा देहवतां पर्वतानां जलं जरा । असम्भोगो जरा स्त्रीणां वाक्षल्यं मनसो जरा",
+          "transliteration": "adhvA jarA dehavatAM parvatAnA.n jalaM jarA | asambhogo jarA strINA.n vAkShalyaM manaso jarA"
+        },
+        {
+          "number": 64,
+          "sanskrit": "अनाम्नाय मला वेदा ब्राह्मणस्याव्रतं मलम् । कौतूहलमला साध्वी विप्रवास मलाः स्त्रियः",
+          "transliteration": "anAmnAya malA vedA brAhmaNasyAvrataM malam | kautUhalamalA sAdhvI vipravAsa malAH striyaH"
+        },
+        {
+          "number": 65,
+          "sanskrit": "सुवर्णस्य मलं रूप्यं रूप्यस्यापि मलं त्रपु । ज्ञेयं त्रपु मलं सीसं सीसस्यापि मलं मलम्",
+          "transliteration": "suvarNasya mala.n rUpyaM rUpyasyApi mala.n trapu | j~neya.n trapu mala.n sIsaM sIsasyApi malaM malam"
+        },
+        {
+          "number": 66,
+          "sanskrit": "न स्वप्नेन जयेन्निद्रां न कामेन स्त्रियं जयेत् । नेन्धनेन जयेदग्निं न पानेन सुरां जयेत्",
+          "transliteration": "na svapnena jayennidrAM na kAmena striya.n jayet | nendhanena jayedagniM na pAnena surA.n jayet"
+        },
+        {
+          "number": 67,
+          "sanskrit": "यस्य दानजितं मित्रममित्रा युधि निर्जिताः । अन्नपानजिता दाराः सफलं तस्य जीवितम्",
+          "transliteration": "yasya dAnajitaM mitramamitrA yudhi nirjitAH | annapAnajitA dArAH saphala.n tasya jIvitam"
+        },
+        {
+          "number": 68,
+          "sanskrit": "सहस्रिणोऽपि जीवन्ति जीवन्ति शतिनस्तथा । धृतराष्ट्रं विमुञ्चेच्छां न कथं चिन्न जीव्यते",
+          "transliteration": "sahasriNo.api jIvanti jIvanti shatinastathA | dhR^itarAShTra.n vimu~nchechChAM na katha.n chinna jIvyate"
+        },
+        {
+          "number": 69,
+          "sanskrit": "यत्पृथिव्यां व्रीहि यवं हिरण्यं पशवः स्त्रियः । नालमेकस्य तत्सर्वमिति पश्यन्न मुह्यति",
+          "transliteration": "yatpR^ithivyA.n vrIhi yavaM hiraNyaM pashavaH striyaH | nAlamekasya tatsarvamiti pashyanna muhyati"
+        },
+        {
+          "number": 70,
+          "sanskrit": "राजन्भूयो ब्रवीमि त्वां पुत्रेषु सममाचर । समता यदि ते राजन्स्वेषु पाण्डुसुतेषु च",
+          "transliteration": "rAjanbhUyo bravImi tvAM putreShu samamAchara | samatA yadi te rAjansveShu pANDusuteShu cha"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "अध्यायः ४० विदुर उवाच । योऽभ्यर्थितः सद्भिरसज्जमानः करोत्यर्थं शक्तिमहापयित्वा । क्षिप्रं यशस्तं समुपैति सन्तमलं प्रसन्ना हि सुखाय सन्तः",
+          "transliteration": "adhyAyaH 40 vidura uvAcha | yo.abhyarthitaH sadbhirasajjamAnaH karotyartha.n shaktimahApayitvA | xipra.n yashastaM samupaiti santamalaM prasannA hi sukhAya santaH"
+        },
+        {
+          "number": 2,
+          "sanskrit": "महान्तमप्यर्थमधर्मयुक्तं यः सन्त्यजत्यनुपाक्रुष्ट एव । सुखं स दुःखान्यवमुच्य शेते जीर्णां त्वचं सर्प इवावमुच्य",
+          "transliteration": "mahAntamapyarthamadharmayuktaM yaH santyajatyanupAkruShTa eva | sukha.n sa duHkhAnyavamuchya shete jIrNA.n tvacha.n sarpa ivAvamuchya"
+        },
+        {
+          "number": 3,
+          "sanskrit": "अनृतं च समुत्कर्षे राजगामि च पैशुनम् । गुरोश्चालीक निर्बन्धः समानि ब्रह्महत्यया",
+          "transliteration": "anR^ita.n cha samutkarShe rAjagAmi cha paishunam | guroshchAlIka nirbandhaH samAni brahmahatyayA"
+        },
+        {
+          "number": 4,
+          "sanskrit": "असूयैक पदं मृत्युरतिवादः श्रियो वधः । अशुश्रूषा त्वरा श्लाघा विद्यायाः शत्रवस्त्रयः",
+          "transliteration": "asUyaika padaM mR^ityurativAdaH shriyo vadhaH | ashushrUShA tvarA shlAghA vidyAyAH shatravastrayaH"
+        },
+        {
+          "number": 5,
+          "sanskrit": "सुखार्थिनः कुतो विद्या नास्ति विद्यार्थिनः सुखम् । सुखार्थी वा त्यजेद्विद्यां विद्यार्थी वा सुखं त्यजेत्",
+          "transliteration": "sukhArthinaH kuto vidyA nAsti vidyArthinaH sukham | sukhArthI vA tyajedvidyA.n vidyArthI vA sukha.n tyajet"
+        },
+        {
+          "number": 6,
+          "sanskrit": "नाग्निस्तृप्यति काष्ठानां नापगानां महोदधिः । नान्तकः सर्वभूतानां न पुंसां वामलोचना",
+          "transliteration": "nAgnistR^ipyati kAShThAnAM nApagAnAM mahodadhiH | nAntakaH sarvabhUtAnAM na pu.nsA.n vAmalochanA"
+        },
+        {
+          "number": 7,
+          "sanskrit": "आशा धृतिं हन्ति समृद्धिमन्तकः क्रोधः श्रियं हन्ति यशः कदर्यता । अपालनं हन्ति पशूंश्च राजन्न् एकः क्रुद्धो ब्राह्मणो हन्ति राष्ट्रम्",
+          "transliteration": "AshA dhR^iti.n hanti samR^iddhimantakaH krodhaH shriya.n hanti yashaH kadaryatA | apAlana.n hanti pashUMshcha rAjann ekaH kruddho brAhmaNo hanti rAShTram"
+        },
+        {
+          "number": 8,
+          "sanskrit": "अजश्च कांस्यं च रथश्च नित्यं मध्वाकर्षः शकुनिः श्रोत्रियश् च । वृद्धो ज्ञातिरवसन्नो वयस्य एतानि ते सन्तु गृहे सदैव",
+          "transliteration": "ajashcha kA.nsya.n cha rathashcha nityaM madhvAkarShaH shakuniH shrotriyash cha | vR^iddho j~nAtiravasanno vayasya etAni te santu gR^ihe sadaiva"
+        },
+        {
+          "number": 9,
+          "sanskrit": "अजोक्षा चन्दनं वीणा आदर्शो मधुसर्पिषी । विषमौदुम्बरं शङ्खः स्वर्णं नाभिश्च रोचना",
+          "transliteration": "ajoxA chandana.n vINA Adarsho madhusarpiShI | viShamaudumbara.n sha~NkhaH svarNaM nAbhishcha rochanA"
+        },
+        {
+          "number": 10,
+          "sanskrit": "गृहे स्थापयितव्यानि धन्यानि मनुरब्रवीत् । देव ब्राह्मण पूजार्थमतिथीनां च भारत",
+          "transliteration": "gR^ihe sthApayitavyAni dhanyAni manurabravIt | deva brAhmaNa pUjArthamatithInA.n cha bhArata"
+        },
+        {
+          "number": 11,
+          "sanskrit": "इदं च त्वां सर्वपरं ब्रवीमि पुण्यं पदं तात महाविशिष्टम् । न जातु कामान्न भयान्न लोभाद् धर्मं त्यजेज्जीवितस्यापि हेतोः",
+          "transliteration": "ida.n cha tvA.n sarvaparaM bravImi puNyaM pada.n tAta mahAvishiShTam | na jAtu kAmAnna bhayAnna lobhAd dharma.n tyajejjIvitasyApi hetoH"
+        },
+        {
+          "number": 12,
+          "sanskrit": "नित्यो धर्मः सुखदुःखे त्वनित्ये नित्यो जीवो धातुरस्य त्वनित्यः । त्यक्त्वानित्यं प्रतितिष्ठस्व नित्ये सन्तुष्य त्वं तोष परो हि लाभः",
+          "transliteration": "nityo dharmaH sukhaduHkhe tvanitye nityo jIvo dhAturasya tvanityaH | tyaktvAnityaM pratitiShThasva nitye santuShya tva.n toSha paro hi lAbhaH"
+        },
+        {
+          "number": 13,
+          "sanskrit": "महाबलान्पश्य मनानुभावान् प्रशास्य भूमिं धनधान्य पूर्णाम् । राज्यानि हित्वा विपुलांश्च भोगान् गतान्नरेन्द्रान्वशमन्तकस्य",
+          "transliteration": "mahAbalAnpashya manAnubhAvAn prashAsya bhUmi.n dhanadhAnya pUrNAm | rAjyAni hitvA vipulAMshcha bhogAn gatAnnarendrAnvashamantakasya"
+        },
+        {
+          "number": 14,
+          "sanskrit": "मृतं पुत्रं दुःखपुष्टं मनुष्या उत्क्षिप्य राजन्स्वगृहान्निर्हरन्ति । तं मुक्तकेशाः करुणं रुदन्तश् चितामध्ये काष्ठमिव क्षिपन्ति",
+          "transliteration": "mR^itaM putra.n duHkhapuShTaM manuShyA utxipya rAjansvagR^ihAnnirharanti | taM muktakeshAH karuNa.n rudantash chitAmadhye kAShThamiva xipanti"
+        },
+        {
+          "number": 15,
+          "sanskrit": "अन्यो धनं प्रेतगतस्य भुङ्क्ते वयांसि चाग्निश्च शरीरधातून् । द्वाभ्यामयं सह गच्छत्यमुत्र पुण्येन पापेन च वेष्ट्यमानः",
+          "transliteration": "anyo dhanaM pretagatasya bhu~Nkte vayA.nsi chAgnishcha sharIradhAtUn | dvAbhyAmaya.n saha gachChatyamutra puNyena pApena cha veShTyamAnaH"
+        },
+        {
+          "number": 16,
+          "sanskrit": "उत्सृज्य विनिवर्तन्ते ज्ञातयः सुहृदः सुताः । अग्नौ प्रास्तं तु पुरुषं कर्मान्वेति स्वयं कृतम्",
+          "transliteration": "utsR^ijya vinivartante j~nAtayaH suhR^idaH sutAH | agnau prAsta.n tu puruShaM karmAnveti svayaM kR^itam"
+        },
+        {
+          "number": 17,
+          "sanskrit": "अस्माल्लोकादूर्ध्वममुष्य चाधो महत्तमस्तिष्ठति ह्यन्धकारम् । तद्वै महामोहनमिन्द्रियाणां बुध्यस्व मा त्वां प्रलभेत राजन्",
+          "transliteration": "asmAllokAdUrdhvamamuShya chAdho mahattamastiShThati hyandhakAram | tadvai mahAmohanamindriyANAM budhyasva mA tvAM pralabheta rAjan"
+        },
+        {
+          "number": 18,
+          "sanskrit": "इदं वचः शक्ष्यसि चेद्यथावन् निशम्य सर्वं प्रतिपत्तुमेवम् । यशः परं प्राप्स्यसि जीवलोके भयं न चामुत्र न चेह तेऽस्ति",
+          "transliteration": "ida.n vachaH shaxyasi chedyathAvan nishamya sarvaM pratipattumevam | yashaH paraM prApsyasi jIvaloke bhayaM na chAmutra na cheha te.asti"
+        },
+        {
+          "number": 19,
+          "sanskrit": "आत्मा नदी भारत पुण्यतीर्था सत्योदका धृतिकूला दमोर्मिः । तस्यां स्नातः पूयते पुण्यकर्मा पुण्यो ह्यात्मा नित्यमम्भोऽम्भ एव",
+          "transliteration": "AtmA nadI bhArata puNyatIrthA satyodakA dhR^itikUlA damormiH | tasyA.n snAtaH pUyate puNyakarmA puNyo hyAtmA nityamambho.ambha eva"
+        },
+        {
+          "number": 20,
+          "sanskrit": "कामक्रोधग्राहवतीं पञ्चेन्द्रिय जलां नदीम् । कृत्वा धृतिमयीं नावं जन्म दुर्गाणि सन्तर",
+          "transliteration": "kAmakrodhagrAhavatIM pa~nchendriya jalAM nadIm | kR^itvA dhR^itimayIM nAva.n janma durgANi santara"
+        },
+        {
+          "number": 21,
+          "sanskrit": "प्रज्ञा वृद्धं धर्मवृद्धं स्वबन्धुं विद्या वृद्धं वयसा चापि वृद्धम् । कार्याकार्ये पूजयित्वा प्रसाद्य यः सम्पृच्छेन्न स मुह्येत्कदा चित्",
+          "transliteration": "praj~nA vR^iddha.n dharmavR^iddha.n svabandhuM vidyA vR^iddha.n vayasA chApi vR^iddham | kAryAkArye pUjayitvA prasAdya yaH sampR^ichChenna sa muhyetkadA chit"
+        },
+        {
+          "number": 22,
+          "sanskrit": "धृत्या शिश्नोदरं रक्षेत्पाणिपादं च चक्षुषा । चक्षुः श्रोत्रे च मनसा मनो वाचं च कर्मणा",
+          "transliteration": "dhR^ityA shishnodara.n raxetpANipAda.n cha chaxuShA | chaxuH shrotre cha manasA mano vAcha.n cha karmaNA"
+        },
+        {
+          "number": 23,
+          "sanskrit": "नित्योदकी नित्ययज्ञोपवीती नित्यस्वाध्यायी पतितान्न वर्जी । ऋतं ब्रुवन्गुरवे कर्म कुर्वन् न ब्राह्मणश्च्यवते ब्रह्मलोकात्",
+          "transliteration": "nityodakI nityayaj~nopavItI nityasvAdhyAyI patitAnna varjI | R^itaM bruvangurave karma kurvan na brAhmaNashchyavate brahmalokAt"
+        },
+        {
+          "number": 24,
+          "sanskrit": "अधीत्य वेदान्परिसंस्तीर्य चाग्नीन् इष्ट्वा यज्ञैः पालयित्वा प्रजाश् च । गोब्राह्मणार्थे शस्त्रपूतान्तरात्मा हतः सङ्ग्रामे क्षत्रियः स्वर्गमेति",
+          "transliteration": "adhItya vedAnparisa.nstIrya chAgnIn iShTvA yaj~naiH pAlayitvA prajAsh cha | gobrAhmaNArthe shastrapUtAntarAtmA hataH sa~NgrAme xatriyaH svargameti"
+        },
+        {
+          "number": 25,
+          "sanskrit": "वैश्योऽधीत्य ब्राह्मणान्क्षत्रियांश् च धनैः काले संविभज्याश्रितांश् च । त्रेता पूतं धूममाघ्राय पुण्यं प्रेत्य स्वर्गे देव सुखानि भुङ्क्ते",
+          "transliteration": "vaishyo.adhItya brAhmaNAnxatriyAMsh cha dhanaiH kAle sa.nvibhajyAshritAMsh cha | tretA pUta.n dhUmamAghrAya puNyaM pretya svarge deva sukhAni bhu~Nkte"
+        },
+        {
+          "number": 26,
+          "sanskrit": "ब्रह्मक्षत्रं वैश्य वर्णं च शूद्रः क्रमेणैतान्न्यायतः पूजयानः । तुष्टेष्वेतेष्वव्यथो दग्धपापस् त्यक्त्वा देहं स्वर्गसुखानि भुङ्क्ते",
+          "transliteration": "brahmaxatra.n vaishya varNa.n cha shUdraH krameNaitAnnyAyataH pUjayAnaH | tuShTeShveteShvavyatho dagdhapApas tyaktvA deha.n svargasukhAni bhu~Nkte"
+        },
+        {
+          "number": 27,
+          "sanskrit": "चातुर्वर्ण्यस्यैष धर्मस्तवोक्तो हेतुं चात्र ब्रुवतो मे निबोध । क्षात्राद्धर्माद्धीयते पाण्डुपुत्रस् तं त्वं राजन्राजधर्मे नियुङ्क्ष्व",
+          "transliteration": "chAturvarNyasyaiSha dharmastavokto hetu.n chAtra bruvato me nibodha | xAtrAddharmAddhIyate pANDuputras ta.n tva.n rAjanrAjadharme niyu~Nxva"
+        },
+        {
+          "number": 28,
+          "sanskrit": "धृतराष्ट्र उवाच । एवमेतद्यथा मां त्वमनुशासति नित्यदा । ममापि च मतिः सौम्य भवत्येवं यथात्थ माम्",
+          "transliteration": "dhR^itarAShTra uvAcha | evametadyathA mA.n tvamanushAsati nityadA | mamApi cha matiH saumya bhavatyeva.n yathAttha mAm"
+        },
+        {
+          "number": 29,
+          "sanskrit": "सा तु बुद्दिः कृताप्येवं पाण्डवान्रप्ति मे सदा । दुर्योधनं समासाद्य पुनर्विपरिवर्तते",
+          "transliteration": "sA tu buddiH kR^itApyevaM pANDavAnrapti me sadA | duryodhana.n samAsAdya punarviparivartate"
+        },
+        {
+          "number": 30,
+          "sanskrit": "न दिष्टमभ्यतिक्रान्तुं शक्यं मर्त्येन केन चित् । दिष्टमेव कृतं मन्ये पौरुषं तु निरर्थकम्",
+          "transliteration": "na diShTamabhyatikrAntu.n shakyaM martyena kena chit | diShTameva kR^itaM manye pauruSha.n tu nirarthakam"
+        }
+      ]
+    }
+  ]
+}

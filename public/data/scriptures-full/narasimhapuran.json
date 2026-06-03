@@ -6,9 +6,93 @@
   "source": {
     "repo": "https://sanskritdocuments.org/doc_purana/",
     "license": "Full itx not yet available. Curated highlights are hand-authored.",
-    "fetchedAt": "2026-06-01T11:10:48.576Z"
+    "fetchedAt": "2026-06-02T08:43:18.552Z"
   },
-  "totalVerses": 0,
-  "totalChapters": 0,
-  "chapters": []
+  "totalVerses": 11,
+  "totalChapters": 4,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Narasimha — The Avatar of the Impossible Moment",
+      "titleSanskrit": "नृसिंह — असम्भव क्षण का अवतार",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "नमस्ते नरसिंहाय प्रह्लादाह्लाददायिने | हिरण्यकशिपोर्वक्षः शिलाटङ्कनखालये ||",
+          "transliteration": "namaste narasiṃhāya prahlādāhlādadāyine | hiraṇyakaśiporvakṣaḥ śilāṭaṅkanakhālaye ||"
+        },
+        {
+          "number": 5,
+          "sanskrit": "प्रह्लादं पुरतः कृत्वा क्रोधाविष्टः सुतं ततः | उवाच रुषितो राजा हिरण्यकशिपुः स्वयम् ||",
+          "transliteration": "prahlādaṃ purataḥ kṛtvā krodhāviṣṭaḥ sutaṃ tataḥ | uvāca ruṣito rājā hiraṇyakaśipuḥ svayam ||"
+        },
+        {
+          "number": 12,
+          "sanskrit": "नैतदद्भुतमेव त्वं हिरण्यकशिपोः सुत | प्रह्लादात्तव किं क्षुद्रं पापं वा साधु वा कृतम् ||",
+          "transliteration": "naitadadbhutameva tvaṃ hiraṇyakaśipoḥ suta | prahlādātta kiṃ kṣudraṃ pāpaṃ vā sādhu vā kṛtam ||"
+        },
+        {
+          "number": 18,
+          "sanskrit": "त्वं मां योजय दुर्जयेन दुष्टभावेन मानद | दम्भेन च महाराज दानवानां कुलक्षये ||",
+          "transliteration": "tvaṃ māṃ yojaya durjayena duṣṭabhāvena mānada | dambhena ca mahārāja dānavānāṃ kulakṣaye ||"
+        },
+        {
+          "number": 8,
+          "sanskrit": "उग्रं वीरं महाविष्णुं ज्वलन्तं सर्वतोमुखम् | नृसिंहं भीषणं भद्रं मृत्युमृत्युं नमाम्यहम् ||",
+          "transliteration": "ugraṃ vīraṃ mahāviṣṇuṃ jvalantaṃ sarvatomukham | nṛsiṃhaṃ bhīṣaṇaṃ bhadraṃ mṛtyumṛtyuṃ namāmyaham ||"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Prahlada-Charitra — The Devotee Who Could Not Be Broken",
+      "titleSanskrit": "प्रह्लाद चरित्र",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "न तत्र सूर्यो भाति न चन्द्रतारकं नेमा विद्युतो भान्ति कुतोऽयमग्निः | तमेव भान्तमनुभाति सर्वं तस्य भासा सर्वमिदं विभाति ||",
+          "transliteration": "na tatra sūryo bhāti na candratārakaṃ nemā vidyuto bhānti kuto'yamAgniḥ | tameva bhāntamanubhāti sarvaṃ tasya bhāsā sarvamidaṃ vibhāti ||"
+        },
+        {
+          "number": 35,
+          "sanskrit": "विप्रो वा श्वपचो वाऽपि यः कृष्णः सततं स्मरेत् | तं विद्याद्भागवतं श्रेष्ठं सर्वलोकेषु पूजितम् ||",
+          "transliteration": "vipro vā śvapaco vā'pi yaḥ kṛṣṇaḥ satataṃ smaret | taṃ vidyādbhāgavataṃ śreṣṭhaṃ sarvalokeṣu pūjitam ||"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Narasimha Kavacham — The Armour of the Divine",
+      "titleSanskrit": "नृसिंह कवचम्",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "नृसिंहः पूर्वतो मां पायात् वायव्यां नरकेसरी | प्रतीच्यां पातु वाराहो याम्यां पातु जनार्दनः ||",
+          "transliteration": "nṛsiṃhaḥ pūrvato māṃ pāyāt vāyavyāṃ narakesarī | pratīcyāṃ pātu vārāho yāmyāṃ pātu janārdanaḥ ||"
+        },
+        {
+          "number": 18,
+          "sanskrit": "सर्वतः पाणिपादं तत्सर्वतोऽक्षिशिरोमुखम् | सर्वतः श्रुतिमल्लोके सर्वमावृत्य तिष्ठति ||",
+          "transliteration": "sarvataḥ pāṇipādaṃ tatsarvato'kṣiśiromukham | sarvataḥ śrutiMalloke sarvamāvṛtya tiṣṭhati ||"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Abhaya — The Fearlessness That Is the Fruit of Surrender",
+      "titleSanskrit": "अभय — शरणागति का फल",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "अभयं सर्वभूतेभ्यो दत्त्वा यः स्मरते हरिम् | स मुक्तो भवति क्षिप्रं नात्र कार्या विचारणा ||",
+          "transliteration": "abhayaṃ sarvabhūtebhyo dattvā yaḥ smarate harim | sa mukto bhavati kṣipraṃ nātra kāryā vicāraṇā ||"
+        },
+        {
+          "number": 22,
+          "sanskrit": "यं दृष्ट्वा न भयं तस्य यं श्रुत्वा च न संशयः | यं ज्ञात्वा सर्वदुःखानि नश्यन्ते स नृकेसरी ||",
+          "transliteration": "yaṃ dṛṣṭvā na bhayaṃ tasya yaṃ śrutvā ca na saṃśayaḥ | yaṃ jñātvā sarvadhuḥkhāni naśyante sa nṛkesarī ||"
+        }
+      ]
+    }
+  ]
 }

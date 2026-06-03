@@ -8,7 +8,7 @@ interface BookExplanationPanelProps {
 
 export function BookExplanationPanel({ explanation, title = 'Book Explanation' }: BookExplanationPanelProps) {
   return (
-    <section className="rounded-lg border border-dharma-border bg-white shadow-sm overflow-hidden">
+    <section className="rounded-lg border border-dharma-border bg-dharma-card shadow-sm overflow-hidden">
       <FadeUpOnView className="grid md:grid-cols-2">
         <div className="p-6 border-b md:border-b-0 md:border-r border-dharma-border">
           <p className="text-xs font-semibold uppercase tracking-wider text-saffron-700 mb-3">

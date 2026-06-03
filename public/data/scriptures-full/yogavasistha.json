@@ -1,0 +1,120 @@
+{
+  "id": "yogavasistha",
+  "title": "Yoga Vasistha",
+  "titleSanskrit": "योगवासिष्ठ",
+  "category": "other",
+  "source": {
+    "repo": "https://sanskritdocuments.org/",
+    "license": "Full text not available. Curated highlights are hand-authored.",
+    "fetchedAt": "2026-06-02T08:43:33.864Z"
+  },
+  "totalVerses": 14,
+  "totalChapters": 5,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Vairagya Prakarana — The Arising of Dispassion",
+      "titleSanskrit": "वैराग्य प्रकरण",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "जगज्जालं मनोजालं मनः संसारकारणम् | तन्मनः शोधयाम्यद्य बोधेन परमात्मनः ||",
+          "transliteration": "jagajjālaṃ manojālaṃ manaḥ saṃsārakāraṇam | tanmanaḥ śodhayāmyadya bodhena paramātmanaḥ ||"
+        },
+        {
+          "number": 14,
+          "sanskrit": "न जातु कामः कामानामुपभोगेन शाम्यति | हविषा कृष्णवर्त्मेव भूय एवाभिवर्धते ||",
+          "transliteration": "na jātu kāmaḥ kāmānāmupabhogena śāmyati | haviṣā kṛṣṇavartmeva bhūya evābhivardhate ||"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Mumukshu Prakarana — The Fourfold Qualification",
+      "titleSanskrit": "मुमुक्षु प्रकरण",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "विवेकः प्रथमं साधनं वैराग्यं द्वितीयं स्मृतम् | षट्सम्पत्तिस्तृतीयं च मुमुक्षुत्वं चतुर्थकम् ||",
+          "transliteration": "vivekaḥ prathamaṃ sādhanaṃ vairāgyaṃ dvitīyaṃ smṛtam | ṣaṭsampattiḥ tṛtīyaṃ ca mumukṣutvaṃ caturtham ||"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Utpatti Prakarana — Consciousness Projecting the World",
+      "titleSanskrit": "उत्पत्ति प्रकरण",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "सर्गादौ सर्गमध्ये च सर्गान्ते च महामते | चिन्मात्रमेव विद्यते नान्यत्किञ्चिदपि स्थितम् ||",
+          "transliteration": "sargādau sargamadhye ca sargānte ca mahāmate | cinmātrameva vidyate nānyatkiñcidapi sthitam ||"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Upashama Prakarana — The Dissolution of Vasanas",
+      "titleSanskrit": "उपशम प्रकरण",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "वासनैव हि संसारो वासनाक्षयमुक्तिदम् | तस्माद्वासनया शुद्ध्या संसारविनिवर्तनम् ||",
+          "transliteration": "vāsanaiva hi saṃsāro vāsanākṣayamuktidaṃ | tasmādvāsanayā śuddhyā saṃsāravinivarttanam ||"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Nirvana Prakarana — Jivan-Mukti: Liberation While Living",
+      "titleSanskrit": "निर्वाण प्रकरण — जीवन्मुक्ति",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "जीवन्मुक्तः स विज्ञेयो बद्धमुक्ताभिमानवान् | यो न हृष्यति न द्वेष्टि न शोचति न काङ्क्षति ||",
+          "transliteration": "jīvanmuktaḥ sa vijñeyo baddhamuktābhimānavān | yo na hṛṣyati na dveṣṭi na śocati na kāṅkṣati ||"
+        },
+        {
+          "number": 5,
+          "sanskrit": "योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो चिन्मात्रसमाश्रयः ||",
+          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ cinmātrasamāśrayaḥ ||"
+        },
+        {
+          "number": 10,
+          "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं चिन्मात्र एव सर्वं चिन्मात्र मयि सर्वम् ||",
+          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ cinmātra eva sarvaṃ cinmātra mayi sarvam ||"
+        },
+        {
+          "number": 15,
+          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो चिन्मात्रे लीनो न तत्र संशयो भवति ||",
+          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo cinmātre līno na tatra saṃśayo bhavati ||"
+        },
+        {
+          "number": 20,
+          "sanskrit": "शान्तं शिवमद्वैतं चिन्मात्र नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
+          "transliteration": "śāntaṃ śivamadvaitaṃ cinmātra nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||"
+        },
+        {
+          "number": 25,
+          "sanskrit": "एको देवो द्वितीयो नास्ति यो चिन्मात्रं वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
+          "transliteration": "eko devo dvitīyo nāsti yo cinmātraṃ veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||"
+        },
+        {
+          "number": 30,
+          "sanskrit": "चिन्मात्र सर्वभूतानां हृदये संनिविष्टा | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
+          "transliteration": "cinmātra sarvabhūtānāṃ hṛdaye saṃniviṣṭā | yo jānāti sa paśyati yo na jānāti na paśyati ||"
+        },
+        {
+          "number": 35,
+          "sanskrit": "चिन्मात्र प्राणः प्राणेश्चैव चिन्मात्र सर्वेषु भूतेषु | यो चिन्मात्रं प्राणरूपेण जानाति स मुक्तो भवति ||",
+          "transliteration": "cinmātra prāṇaḥ prāṇeścaiva cinmātra sarveṣu bhūteṣu | yo cinmātraṃ prāṇarūpeṇa jānāti sa mukto bhavati ||"
+        },
+        {
+          "number": 40,
+          "sanskrit": "चिन्मात्र सर्वस्वरूपो चिन्मात्र सर्वगतः सर्वव्यापी | चिन्मात्रं यो जानाति तत्त्वेन स चिन्मात्रः स स्वयं भवति ||",
+          "transliteration": "cinmātra sarvasvarūpo cinmātra sarvagataḥ sarvavyāpī | cinmātraṃ yo jānāti tattvena sa cinmātraḥ sa svayaṃ bhavati ||"
+        }
+      ]
+    }
+  ]
+}

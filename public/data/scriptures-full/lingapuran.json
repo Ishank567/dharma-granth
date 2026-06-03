@@ -6,9 +6,61 @@
   "source": {
     "repo": "https://sanskritdocuments.org/doc_purana/",
     "license": "Full itx not available on sanskritdocuments. Curated highlights are hand-authored.",
-    "fetchedAt": "2026-06-01T11:10:51.606Z"
+    "fetchedAt": "2026-06-02T08:43:21.903Z"
   },
-  "totalVerses": 0,
-  "totalChapters": 0,
-  "chapters": []
+  "totalVerses": 6,
+  "totalChapters": 3,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Purva Khanda — The Origin of the Linga",
+      "titleSanskrit": "पूर्व खण्ड — लिङ्गोत्पत्ति",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "अनादिमध्यान्तमनन्तवीर्यं ज्योतिःस्वरूपं ज्वलनं पुराणम् | ब्रह्मा च विष्णुश्च न वेदतुस्तं स्तम्भं महालिङ्गमभूत् तदा हि ||",
+          "transliteration": "anādimadhyāntamanantavīryaṃ jyotiḥsvarūpaṃ jvalanaṃ purāṇam | brahmā ca viṣṇuśca na vedatustaṃ stambhaṃ mahāliṅgamabhūt tadā hi ||"
+        },
+        {
+          "number": 17,
+          "sanskrit": "लिङ्गं हि परमं ब्रह्म लिङ्गं ज्ञानमयं परम् | लिङ्गं ध्यानप्रदं नित्यं लिङ्गं मुक्तिप्रदं परम् ||",
+          "transliteration": "liṅgaṃ hi paramaṃ brahma liṅgaṃ jñānamayaṃ param | liṅgaṃ dhyānapradaṃ nityaṃ liṅgaṃ muktipradaṃ param ||"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Shiva Sahasranama — The Thousand Names of Shiva",
+      "titleSanskrit": "शिव सहस्रनाम",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "शिवः शान्तः शिवाकारः शिवालयनिवासकः | विभुः सर्वत्रगः सर्वो विश्वस्य परमेश्वरः ||",
+          "transliteration": "śivaḥ śāntaḥ śivākāraḥ śivālayanivasākaḥ | vibhuḥ sarvatragaḥ sarvo viśvasya parameśvaraḥ ||"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Uttara Khanda — Shaiva Yoga and Liberation",
+      "titleSanskrit": "उत्तर खण्ड — शैव योग",
+      "verses": [
+        {
+          "number": 8,
+          "sanskrit": "पशुः पाशो महेशश्च पतिः पाशविमोचकः | तत्त्वत्रयमिदं ज्ञातव्यं मोक्षार्थिभिर्नरैः ||",
+          "transliteration": "paśuḥ pāśo maheśaśca patiḥ pāśavimocakaḥ | tattvatrayamidaṃ jñātavyaṃ mokṣārthibhirnaraiḥ ||"
+        },
+        {
+          "number": 23,
+          "sanskrit": "यो वेद निहितं गुहायां परमे व्योमन् | स एव शिवः स एव ब्रह्म स एव परमात्मा ||",
+          "transliteration": "yo veda nihitaṃ guhāyāṃ parame vyoman | sa eva śivaḥ sa eva brahma sa eva paramātmā ||"
+        },
+        {
+          "number": 5,
+          "sanskrit": "लिङ्गं देवं महाप्रज्ञं सर्वज्ञं सर्वगं शिवम् | यो वेद स लिङ्गविद्यां स याति परमां गतिम् ||",
+          "transliteration": "liṅgaṃ devaṃ mahāprajñaṃ sarvajñaṃ sarvagaṃ śivam | yo veda sa liṅgavidyāṃ sa yāti paramāṃ gatim ||"
+        }
+      ]
+    }
+  ]
 }

@@ -1,0 +1,66 @@
+{
+  "id": "vamanpuran",
+  "title": "Vamana Purana",
+  "titleSanskrit": "वामनपुराण",
+  "category": "purana",
+  "source": {
+    "repo": "https://sanskritdocuments.org/",
+    "license": "Full text not available. Curated highlights are hand-authored.",
+    "fetchedAt": "2026-06-02T08:43:33.871Z"
+  },
+  "totalVerses": 6,
+  "totalChapters": 3,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Bali Charitra — The Story of King Bali",
+      "titleSanskrit": "बलिचरित्र",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "बलिर्वैरोचनो राजा दानवीरो महायशाः | त्रैलोक्यं पालयामास धर्मेण विजितेन्द्रियः ||",
+          "transliteration": "balirvairochano rājā dānavīro mahāyaśāḥ | trailokyaṃ pālayāmāsa dharmeṇa vijayendriyaḥ ||"
+        },
+        {
+          "number": 15,
+          "sanskrit": "दातव्यमिति यद्दानं दीयते'नुपकारिणे | देशे काले च पात्रे च तद्दानं सात्त्विकं स्मृतम् ||",
+          "transliteration": "dātavyamiti yaddānaṃ dīyate'nupakāriṇe | deśe kāle ca pātre ca taddānaṃ sāttvikaṃ smṛtam ||"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Vamana Avatara — The Three Steps",
+      "titleSanskrit": "वामनावतार",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "वामनो वटुरूपेण याचते बलिमागतः | त्रीणि पदानि भूमेः स्याच्छेषं दास्यामि ते वरम् ||",
+          "transliteration": "vāmano vaṭurūpeṇa yācate balimāgataḥ | trīṇi padāni bhūmeḥ syācceṣaṃ dāsyāmi te varam ||"
+        },
+        {
+          "number": 2,
+          "sanskrit": "त्रिभिः पदैर्जगत् सर्वं व्याप्तं विष्णोर्महात्मनः | तृतीयेन पदेनास्य बलिः पातालमाविशत् ||",
+          "transliteration": "tribhiḥ padairjagat sarvaṃ vyāptaṃ viṣṇormahātmanaḥ | tṛtīyena padenāsya baliḥ pātālamāviśat ||"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Bali Mukti — The Liberation of Bali",
+      "titleSanskrit": "बलिमुक्ति",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "वरं ददौ हरिर्बलये द्वारपालत्वमात्मनः | पातालराज्यमखिलं सत्यलोकसमं परम् ||",
+          "transliteration": "varaṃ dadau haribaliṃye dvārapālatvamātmanaḥ | pātālarājyamakhilaṃ satyalokasamaṃ param ||"
+        },
+        {
+          "number": 5,
+          "sanskrit": "वामनो भूत्वा विष्णुस्तु त्रिविक्रम इवापरः | बलिं बद्ध्वा पातालं तं राज्यं दत्त्वा तु पातयेत् ||",
+          "transliteration": "vāmano bhūtvā viṣṇustu trivikrama ivāparaḥ | baliṃ baddhvā pātālaṃ taṃ rājyaṃ dattvā tu pātayet ||"
+        }
+      ]
+    }
+  ]
+}

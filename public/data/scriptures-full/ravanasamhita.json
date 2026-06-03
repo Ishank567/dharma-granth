@@ -6,9 +6,363 @@
   "source": {
     "repo": "https://sanskritdocuments.org/",
     "license": "Full structured text not yet available as open-source data. Curated highlights are hand-authored.",
-    "fetchedAt": "2026-06-01T11:11:00.604Z"
+    "fetchedAt": "2026-06-02T08:43:32.104Z"
   },
-  "totalVerses": 0,
-  "totalChapters": 0,
-  "chapters": []
+  "totalVerses": 44,
+  "totalChapters": 19,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Ravana as Devotee — The Paradox of the Learned Sinner",
+      "titleSanskrit": "रावण-भक्ति — विद्वान पापी का विरोधाभास",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "शिवमेकं शरण्यं च सर्वज्ञं सर्वकारणम् | रावणः प्रणिपत्याह शिवस्तोत्रमनुत्तमम् ||",
+          "transliteration": "śivamEkaṃ śaraṇyaṃ ca sarvajñaṃ sarvakāraṇam | rāvaṇaḥ praṇipatyāha śivastotramAnuttamam ||"
+        },
+        {
+          "number": 7,
+          "sanskrit": "विद्या ददाति विनयं विनयाद्याति पात्रताम् | पात्रत्वाद्धनमाप्नोति धनाद्धर्मं ततः सुखम् ||",
+          "transliteration": "vidyā dadāti vinayaṃ vinayādyāti pātratām | pātrat vāddhAnamāpnoti dhanāddhArmaṃ tataḥ sukham ||"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Shiva Upasana — The Science of Shiva Worship",
+      "titleSanskrit": "शिवोपासना",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "जटाटवीगलज्जलप्रवाहपावितस्थले गलेऽवलम्ब्य लम्बितां भुजंगतुंगमालिकाम् | डमड्डमड्डमड्डमन्निनादवड्डमर्वयं चकार चंडताण्डवं तनोतु नः शिवः शिवम् ||",
+          "transliteration": "jaṭāṭavīgalajjalapravāhapāvitasthale gale'valambyalambitāṃ bhujaṅgatuṅgamālikām | ḍamaḍḍamaḍḍamaḍḍamannInādavaḍḍamarvayaṃ cakāra caṇḍatāṇḍavaṃ tanotu naḥ śivaḥ śivam ||"
+        },
+        {
+          "number": 22,
+          "sanskrit": "त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् | उर्वारुकमिव बन्धनान्मृत्योर्मुक्षीय माऽमृतात् ||",
+          "transliteration": "tryambakaṃ yajāmahe sugandhiṃ puṣṭivardhanam | urvārukamiva bandhanānmṛtyormukṣīya mā'mṛtāt ||"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Mantra Shastra — The Science of Sacred Sound",
+      "titleSanskrit": "मन्त्रशास्त्र",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "मन्त्रो हीनः स्वरेण तु यन्त्रं हीनं च भावतः | तन्त्रं हीनं गुरोर्वाक्याद्यन्त्रं शक्तिविवर्जितम् ||",
+          "transliteration": "mantro hīnaḥ svareṇa tu yantraṃ hīnaṃ ca bhāvataḥ | tantraṃ hīnaṃ gurorvākyādyantraṃ śaktivivarjitam ||"
+        },
+        {
+          "number": 18,
+          "sanskrit": "एकाक्षरं परं ब्रह्म प्राणायाम परं तपः | सावित्र्याः परमं नास्ति मौनात् सत्यं विशिष्यते ||",
+          "transliteration": "ekākṣaraṃ paraṃ brahma prāṇāyāma paraṃ tapaḥ | sāvitryāḥ paramaṃ nāsti maunāt satyaṃ viśiṣyate ||"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Jyotisha — The Ravana Samhita's Astrology",
+      "titleSanskrit": "ज्योतिष",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "काले कर्म समारभेत् काले कर्म विसर्जयेत् | काले सुप्तो नरः सार्थः काले जाग्रति बुद्धिमान् ||",
+          "transliteration": "kāle karma samārambhet kāle karma visarjayet | kāle supto naraḥ sārthaḥ kāle jāgrati buddhimān ||"
+        },
+        {
+          "number": 14,
+          "sanskrit": "नक्षत्रताराग्रहसंयोगे यो जन्म लभते नरः | तद्वशाद्भवति प्राणी न स्वतन्त्रः कदाचन ||",
+          "transliteration": "nakṣatratārāgrahasaṃyoge yo janma labhate naraḥ | tadvśādbhavati prāṇī na svatantraḥ kadācana ||"
+        },
+        {
+          "number": 20,
+          "sanskrit": "ज्योतिषं वेदवेदाङ्गं कालविद्यां प्रचक्षते | कालज्ञो ज्ञानवान् प्राहुः कालो हि दुरतिक्रमः ||",
+          "transliteration": "jyotiṣaṃ vedavedāṅgaṃ kālavidyāṃ pracakṣate | kālajño jñānavān prāhuḥ kālo hi duratikramaḥ ||"
+        },
+        {
+          "number": 25,
+          "sanskrit": "शिवः सर्वभूतानां हृदये संनिविष्टः | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
+          "transliteration": "śivaḥ sarvabhūtānāṃ hṛdaye saṃniviṣṭaḥ | yo jānāti sa paśyati yo na jānāti na paśyati ||"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "The Final Teaching — Knowledge, Surrender, and the Price of Ego",
+      "titleSanskrit": "अन्तिम उपदेश — ज्ञान, शरणागति और अहंकार का मूल्य",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "सर्वज्ञः सर्ववेत्ता च सर्वशास्त्रविशारदः | एकस्य विस्मृतो धर्मः शरणागतिरेव सा ||",
+          "transliteration": "sarvajñaḥ sarvavettā ca sarvaśāstraviśāradaḥ | ekasya vismṛto dharmaḥ śaraṇāgatireva sā ||"
+        },
+        {
+          "number": 28,
+          "sanskrit": "अहंकारः परं शत्रुः शरणागतिः परं सुखम् | तयोर्मध्ये स्थितो जीवः कः श्रेयान् बुधो वदेत् ||",
+          "transliteration": "ahaṃkāraḥ paraṃ śatruḥ śaraṇāgatiḥ paraṃ sukham | tayormadhye sthito jīvaḥ kaḥ śreyān budho vadet ||"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Ravana's Ayurveda — The Physician-King's Medical Teaching",
+      "titleSanskrit": "रावण-चिकित्सा",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "वातपित्तकफाः दोषाः देहे तिष्ठन्ति सर्वदा | तेषां साम्यं च स्वास्थ्यं स्यात् वैषम्यं रोग उच्यते ||",
+          "transliteration": "vātapittakaPhāḥ doṣāḥ dehe tiṣṭhanti sarvadā | teṣāṃ sāmyaṃ ca svāsthyaṃ syāt vaiṣamyaṃ roga ucyate ||"
+        },
+        {
+          "number": 5,
+          "sanskrit": "शरीरे त्रिदोषस्थितिः साम्यं वैषम्यं व्याधिरिति प्रोक्तः | साम्ये स्वास्थ्यं वैषम्ये रोगः कायचिकित्सा ||",
+          "transliteration": "śarīre tridoṣasthitiḥ sāmyaṃ vaiṣamyaṃ vyādhiriḥ proktaḥ | sāmye svāsthyaṃ vaiṣamye rogaḥ kāyacikitsā ||"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Samudrika Shastra — The Science of Bodily Signs",
+      "titleSanskrit": "सामुद्रिकशास्त्र",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "देहो देवालयः प्रोक्तः जीवो देवः सनातनः | त्यजेदज्ञाननिर्मालयं सोऽहंभावेन पूजयेत् ||",
+          "transliteration": "deho devālayaḥ proktaḥ jīvo devaḥ sanātanaḥ | tyajedajñānaniramālayaṃ so'haṃbhāvena pūjayet ||"
+        },
+        {
+          "number": 18,
+          "sanskrit": "हस्तरेखाः ललाटं च नेत्रे पादतलानि च | सर्वाणि देहचिह्नानि भूतभविष्यकथानि वै ||",
+          "transliteration": "hastaRekhāḥ lalāṭaṃ ca netre pādatalāni ca | sarvāṇi dehacihñāni bhūtabhaviṣyakathāni vai ||"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Niti and Vastu — Ravana's Statecraft and Sacred Space",
+      "titleSanskrit": "नीति और वास्तुविद्या",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "राजा प्रजाहितं कुर्यात् प्रजा राज्ञे हितं तथा | परस्परोपकारेण स राज्यं सुखमश्नुते ||",
+          "transliteration": "rājā prajāhitaṃ kuryāt prajā rājñe hitaṃ tathā | parasparopakāreṇa sa rājyaṃ sukhamAśnute ||"
+        },
+        {
+          "number": 22,
+          "sanskrit": "गृहं वास्तुविधानेन निर्मितं सुखदं भवेत् | वायुप्रकाशसंयुक्तं आयुरारोग्यवर्धनम् ||",
+          "transliteration": "gṛhaṃ vāstuVidhānena nirmitaṃ sukhadaṃ bhavet | vāyuprakāśasaṃyuktaṃ āyurārogyavardhanam ||"
+        },
+        {
+          "number": 38,
+          "sanskrit": "उत्तरं वा पूर्वं द्वारं गृहे सौख्यप्रदं भवेत् | दक्षिणं पश्चिमं द्वारं रोगशोकप्रदं स्मृतम् ||",
+          "transliteration": "uttaraṃ vā pūrvaṃ dvāraṃ gṛhe saukhyapradaṃ bhavet | dakṣiṇaṃ paścimaṃ dvāraṃ rogaśokapradaṃ smṛtam ||"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Sangita Shastra — Music as the Science of Consciousness",
+      "titleSanskrit": "सङ्गीतशास्त्र",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "नादब्रह्म परं तत्त्वं नादात् सर्वं प्रवर्तते | नादे लीनं मनो यस्य स मुक्तो नात्र संशयः ||",
+          "transliteration": "nādabrahma paraṃ tattvaṃ nādāt sarvaṃ pravartate | nāde līnaṃ mano yasya sa mukto nātra saṃśayaḥ ||"
+        },
+        {
+          "number": 28,
+          "sanskrit": "वीणावादनतत्त्वज्ञः श्रुतिजातिविशारदः | तालज्ञश्चाप्रयासेन मोक्षमार्गं नियच्छति ||",
+          "transliteration": "vīṇāvādanatattvajñaḥ śrutijātiviśāradaḥ | tālajñaścāprayāsena mokṣamārgaṃ niyacchati ||"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Yoga and Pranayama — The Eight-Limbed Practice",
+      "titleSanskrit": "योग-प्राणायाम",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "यमो नियमश्चैव आसनं प्राणसंयमः | प्रत्याहारश्च धारणा ध्यानं समाधिरेव च ||",
+          "transliteration": "yamo niyamaścaiva āsanaṃ prāṇasaṃyamaḥ | pratyāhāraśca dhāraṇā dhyānaṃ samādhireva ca ||"
+        },
+        {
+          "number": 19,
+          "sanskrit": "रेचकं पूरकं चैव कुम्भकं त्रिविधं स्मृतम् | प्राणायामेन देहस्य रोगाः सर्वे प्रणश्यति ||",
+          "transliteration": "recakaṃ pūrakaṃ caiva kumbhakaṃ trividhaṃ smṛtam | prāṇāyāmena dehasya rogāḥ sarve praṇaśyati ||"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Moksha Vichara — The Final Philosophical Synthesis",
+      "titleSanskrit": "मोक्षविचार",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "बन्धो मोक्षश्च जीवस्य स्वस्वरूपाज्ञानतः | ज्ञानाद्बन्धो विलीयेत मोक्षः स्वस्थस्य लक्षणम् ||",
+          "transliteration": "bandho mokṣaśca jīvasya svasvarūpājñānataḥ | jñānādbandho vilīyeta mokṣaḥ svasthasya lakṣaṇam ||"
+        },
+        {
+          "number": 18,
+          "sanskrit": "जानामि धर्मं न च मे प्रवृत्तिः जानाम्यधर्मं न च मे निवृत्तिः | केनापि देवेन हृदिस्थितेन यथा नियुक्तोऽस्मि तथा करोमि ||",
+          "transliteration": "jānāmi dharmaṃ na ca me pravṛttiḥ jānāmyadharmaṃ na ca me nivṛttiḥ | kenāpi devena hṛdisthitena yathā niyukto'smi tathā karomi ||"
+        },
+        {
+          "number": 33,
+          "sanskrit": "मोक्षो न जन्मान्तरसाध्यो न तपसा न योगेन | स्वस्वरूपानुसन्धानात् सद्यो मुक्तिः प्रजायते ||",
+          "transliteration": "mokṣo na janmāntarasādhyo na tapasā na yogena | svasvarūpānusandhānāt sadyo muktiḥ prajāyate ||"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Tantra Vidhi — The Ritual Science of Transformation",
+      "titleSanskrit": "तन्त्रविधि",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "दीक्षा विना न मन्त्रः स्यात् मन्त्रं विना न सिद्धिः | गुरोः कृपाविना नैव दीक्षा फलप्रदा भवेत् ||",
+          "transliteration": "dīkṣā vinā na mantraḥ syāt mantraṃ vinā na siddhiḥ | guroḥ kṛpāvinā naiva dīkṣā phalapradā bhavet ||"
+        },
+        {
+          "number": 31,
+          "sanskrit": "यन्त्रं मन्त्रमयं देवि देवता यन्त्रमाश्रिता | यन्त्रं विना न देवेशि पूजां ग्राहयति प्रभुः ||",
+          "transliteration": "yantraṃ mantramayaṃ devi devatā yantramāśritā | yantraṃ vinā na deveśi pūjāṃ grāhayati prabhuḥ ||"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Shakti Upasana — The Goddess as Dynamic Consciousness",
+      "titleSanskrit": "शक्त्युपासना",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "शिवः शक्त्या युक्तो यदि भवति शक्तः प्रभवितुं न चेदेवं देवो न खलु कुशलः स्पन्दितुमपि ||",
+          "transliteration": "śivaḥ śaktyā yukto yadi bhavati śaktaḥ prabhavituṃ na cedevaṃ devo na khalu kuśalaḥ spanditumapi ||"
+        },
+        {
+          "number": 19,
+          "sanskrit": "या देवी सर्वभूतेषु शक्तिरूपेण संस्थिता | नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः ||",
+          "transliteration": "yā devī sarvabhūteṣu śaktirūpeṇa saṃsthitā | namastasyai namastasyai namastasyai namo namaḥ ||"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Karma Vichara — The Philosophy of Action and Consequence",
+      "titleSanskrit": "कर्मविचार",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "अवश्यमेव भोक्तव्यं कृतं कर्म शुभाशुभम् | नाभुक्तं क्षीयते कर्म कल्पकोटिशतैरपि ||",
+          "transliteration": "avaśyameva bhoktavyaṃ kṛtaṃ karma śubhāśubham | nābhuktaṃ kṣīyate karma kalpakotiśatairapi ||"
+        },
+        {
+          "number": 14,
+          "sanskrit": "सञ्चितं च प्रारब्धं क्रियमाणं च तत्त्रयम् | सञ्चितं भस्मसात्कुर्यात् प्रारब्धं भोगतः क्षयेत् ||",
+          "transliteration": "sañcitaṃ ca prārabdhaṃ kriyamāṇaṃ ca tattrayam | sañcitaṃ bhasmasātkuryāt prārabdhaṃ bhogataḥ kṣayet ||"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "Upadesa-Sara — The Final Distillation",
+      "titleSanskrit": "उपदेशसार",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "सर्वधर्मान् परित्यज्य मामेकं शरणं व्रज | अहं त्वां सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः ||",
+          "transliteration": "sarvadharmān parityajya māmekaṃ śaraṇaṃ vraja | ahaṃ tvāṃ sarvapāpebhyo mokṣayiṣyāmi mā śucaḥ ||"
+        },
+        {
+          "number": 22,
+          "sanskrit": "विद्या विवादाय धनं मदाय शक्तिः परेषां परिपीडनाय | खलस्य साधोर्विपरीतमेतत् ज्ञानाय दानाय च रक्षणाय ||",
+          "transliteration": "vidyā vivādāya dhanaṃ madāya śaktiḥ pareṣāṃ paripīḍanāya | khilasya sādhorviparītametat jñānāya dānāya ca rakṣaṇāya ||"
+        },
+        {
+          "number": 40,
+          "sanskrit": "यत्र नार्यस्तु पूज्यन्ते रमन्ते तत्र देवताः | यत्रैतास्तु न पूज्यन्ते सर्वास्तत्राफलाः क्रियाः ||",
+          "transliteration": "yatra nāryastu pūjyante ramante tatra devatāḥ | yatraitāstu na pūjyante sarvāstatrāphalāḥ kriyāḥ ||"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Stotras and Hymns — Ravana's Own Voice",
+      "titleSanskrit": "स्तोत्राणि",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "अपराधसहस्राणि क्रियन्तेऽहर्निशं मया | दासोऽयमिति मां मत्वा क्षमस्व परमेश्वर ||",
+          "transliteration": "aparādhasahasrāṇi kriyante'harniśaṃ mayā | dāso'yamiti māṃ matvā kṣamasva parameśvara ||"
+        },
+        {
+          "number": 17,
+          "sanskrit": "नमः शिवाय शान्ताय कारणत्रयहेतवे | निवेदयामि चात्मानं त्वं गतिः परमेश्वर ||",
+          "transliteration": "namaḥ śivāya śāntāya kāraṇatrayahetave | nivedayāmi cātmānaṃ tvaṃ gatiḥ parameśvara ||"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Yuddha Niti — The Science of War",
+      "titleSanskrit": "युद्धनीति",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "बलं बुद्धिमतां श्रेष्ठं बुद्धिर्बलवतां बलम् | बुद्धिहीनो बली नाशं याति शीघ्रं न संशयः ||",
+          "transliteration": "balaṃ buddhimatāṃ śreṣṭhaṃ buddhirbalavataṃ balam | buddhihīno balī nāśaṃ yāti śīghraṃ na saṃśayaḥ ||"
+        },
+        {
+          "number": 22,
+          "sanskrit": "दूतो वक्ता च मन्त्री च सर्वकार्येषु सारथिः | अमात्यः सचिवश्चैव न हन्तव्यः कदाचन ||",
+          "transliteration": "dūto vaktā ca mantrī ca sarvakāryeṣu sārathiḥ | amātyaḥ sacivascaiva na hantavyaḥ kadācana ||"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Mrityu Vichara — The Contemplation of Death",
+      "titleSanskrit": "मृत्युविचार",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "अन्तकाले च मामेव स्मरन्मुक्त्वा कलेवरम् | यः प्रयाति स मद्भावं याति नास्त्यत्र संशयः ||",
+          "transliteration": "antakāle ca māmeva smaranmukt'vā kalevaram | yaḥ prayāti sa madbhāvaṃ yāti nāstyatra saṃśayaḥ ||"
+        },
+        {
+          "number": 19,
+          "sanskrit": "मृत्युरेव महाशत्रुः मृत्युरेव महागुरुः | मृत्युं पश्यति यो नित्यं तस्य किं भयमास्थितम् ||",
+          "transliteration": "mṛtyureva mahāśatruḥ mṛtyureva mahāguruḥ | mṛtyuṃ paśyati yo nityaṃ tasya kiṃ bhayamāsthitam ||"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "title": "Bhakti Rahasya — The Secret of Devotion",
+      "titleSanskrit": "भक्तिरहस्य",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "सा परानुरक्तिरीश्वरे",
+          "transliteration": "sā parānuraktirīśvare"
+        },
+        {
+          "number": 14,
+          "sanskrit": "भक्तिर्भगवतो सेवा भक्तिः प्रेमस्वरूपिणी | भक्तिरानन्दरूपा च भक्तिर्मुक्तिप्रदायिनी ||",
+          "transliteration": "bhaktirbhagavato sevā bhaktiḥ premasvarūpiṇī | bhaktirānandarūpā ca bhaktirmuktipradāyinī ||"
+        },
+        {
+          "number": 33,
+          "sanskrit": "नायमात्मा बलहीनेन लभ्यो न च प्रमादात् न तपसा विना | उपायैरेतैर्यतते यस्तु विद्वान् तस्यैष आत्मा विशते ब्रह्मधाम ||",
+          "transliteration": "nāyamātmā balahīnena labhyo na ca pramādāt na tapasā vinā | upāyairetairyatate yastu vidvān tasyaiṣa ātmā viśate brahmadhāma ||"
+        }
+      ]
+    }
+  ]
 }

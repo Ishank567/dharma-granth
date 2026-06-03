@@ -2,6 +2,7 @@
 
 import { useMemo, useState, useEffect, useRef } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
+import { useSearchParams } from "next/navigation";
 import type { Verse } from "@/data/types";
 import {
   Atom,
@@ -17,6 +18,11 @@ import {
   Share2,
   Sparkles,
   Tag,
+  Bookmark,
+  Volume2,
+  Play,
+  Square,
+  Settings,
 } from "lucide-react";
 
 type LearningVerse = Verse & {
@@ -124,6 +130,21 @@ export function ChapterLearningClient({
   >("saffron");
   const flashcardRef = useRef<HTMLDivElement>(null);
 
+  const searchParams = useSearchParams();
+  const [bookmarkedVerses, setBookmarkedVerses] = useState<any[]>([]);
+  const [isPlayingSpeech, setIsPlayingSpeech] = useState(false);
+  const [bpm, setBpm] = useState(50);
+  const [isMetronomeActive, setIsMetronomeActive] = useState(false);
+  const [metronomeTick, setMetronomeTick] = useState(false);
+
+  // Poster states
+  const [posterBg, setPosterBg] = useState<"saffron" | "charcoal" | "rose" | "sage">("saffron");
+  const [posterBorder, setPosterBorder] = useState<"minimalist" | "classical" | "double">("classical");
+  const [posterEmphasis, setPosterEmphasis] = useState<"balanced" | "devanagari" | "translation">("balanced");
+
+  const currentScriptureId = useMemo(() => scriptureTitle.trim().toLowerCase().replace(/\s+/g, "-"), [scriptureTitle]);
+  const currentChapterId = useMemo(() => chapterTitle.trim().toLowerCase().replace(/\s+/g, "-"), [chapterTitle]);
+
   const labels = copy[language];
   const activeVerse = verses[activeIndex];
   const learnedSet = useMemo(() => new Set(learnedVerseIds), [learnedVerseIds]);
@@ -177,16 +198,60 @@ export function ChapterLearningClient({
   const currentTheme = cardThemes[cardTheme];
 
   const storageKey = useMemo(() => {
-    const normalized = (value: string) =>
-      value.trim().toLowerCase().replace(/\s+/g, "-");
-    return `dharma.chapterLearning.${normalized(scriptureTitle)}.${normalized(chapterTitle)}`;
-  }, [scriptureTitle, chapterTitle]);
+    return `dharma.chapterLearning.${currentScriptureId}.${currentChapterId}`;
+  }, [currentScriptureId, currentChapterId]);
+
+  // Load verse from query parameter
+  useEffect(() => {
+    const verseParam = searchParams.get("verse");
+    if (verseParam) {
+      const idx = verses.findIndex((v) => String(v.id) === String(verseParam));
+      if (idx !== -1) {
+        setActiveIndex(idx);
+      }
+    }
+  }, [searchParams, verses]);
+
+  // Load bookmarks
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem("dharma.bookmarkedVerses");
+      if (saved) {
+        setBookmarkedVerses(JSON.parse(saved));
+      }
+    } catch {}
+  }, []);
+
+  // Metronome pulsing effect
+  useEffect(() => {
+    if (!isMetronomeActive) {
+      setMetronomeTick(false);
+      return;
+    }
+    const intervalMs = (60 / bpm) * 1000;
+    const timer = setInterval(() => {
+      setMetronomeTick((t) => !t);
+    }, intervalMs);
+    return () => clearInterval(timer);
+  }, [isMetronomeActive, bpm]);
+
+  // Handle SpeechSynthesis voice-mount loading
+  useEffect(() => {
+    if (typeof window !== "undefined" && "speechSynthesis" in window) {
+      window.speechSynthesis.getVoices();
+    }
+    return () => {
+      if (typeof window !== "undefined" && "speechSynthesis" in window) {
+        window.speechSynthesis.cancel();
+      }
+    };
+  }, []);
 
   useEffect(() => {
     try {
       const saved = localStorage.getItem(storageKey);
       if (saved) {
-        const parsed = JSON.parse(saved) as { cardTheme?: string };
+        const parsed = JSON.parse(saved) as { cardTheme?: string; learnedVerseIds?: number[] };
         if (
           typeof parsed.cardTheme === "string" &&
           ["saffron", "blue", "green", "purple"].includes(parsed.cardTheme)
@@ -194,6 +259,9 @@ export function ChapterLearningClient({
           setCardTheme(
             parsed.cardTheme as "saffron" | "blue" | "green" | "purple",
           );
+        }
+        if (Array.isArray(parsed.learnedVerseIds)) {
+          setLearnedVerseIds(parsed.learnedVerseIds);
         }
       }
     } catch {
@@ -203,16 +271,67 @@ export function ChapterLearningClient({
 
   useEffect(() => {
     try {
-      localStorage.setItem(storageKey, JSON.stringify({ cardTheme }));
+      localStorage.setItem(storageKey, JSON.stringify({ cardTheme, learnedVerseIds }));
     } catch {
       // ignore localStorage write failures
     }
-  }, [storageKey, cardTheme]);
+  }, [storageKey, cardTheme, learnedVerseIds]);
 
   function selectVerse(index: number) {
     setActiveIndex(index);
     setReveal(initialReveal);
     setReflection("");
+  }
+
+  function toggleBookmark() {
+    const key = "dharma.bookmarkedVerses";
+    let updated: any[] = [];
+    const exists = bookmarkedVerses.some(
+      (b) => b.scriptureId === currentScriptureId && b.verseId === activeVerse.id
+    );
+
+    if (exists) {
+      updated = bookmarkedVerses.filter(
+        (b) => !(b.scriptureId === currentScriptureId && b.verseId === activeVerse.id)
+      );
+    } else {
+      const newBookmark = {
+        scriptureId: currentScriptureId,
+        scriptureTitle,
+        chapterTitle,
+        verseId: activeVerse.id,
+        sanskrit: activeVerse.sanskrit,
+        translation: activeVerse.translation,
+        timestamp: new Date().toISOString(),
+      };
+      updated = [...bookmarkedVerses, newBookmark];
+    }
+    setBookmarkedVerses(updated);
+    try {
+      localStorage.setItem(key, JSON.stringify(updated));
+    } catch {}
+  }
+
+  function speakSanskrit() {
+    if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
+
+    if (isPlayingSpeech) {
+      window.speechSynthesis.cancel();
+      setIsPlayingSpeech(false);
+      return;
+    }
+
+    const utterance = new SpeechSynthesisUtterance(activeVerse.sanskrit);
+    const voices = window.speechSynthesis.getVoices();
+    const voice = voices.find((v) => v.lang.startsWith("sa") || v.lang.startsWith("hi")) || null;
+    if (voice) utterance.voice = voice;
+
+    utterance.rate = 0.7; // deliberately slow
+    utterance.onend = () => setIsPlayingSpeech(false);
+    utterance.onerror = () => setIsPlayingSpeech(false);
+
+    setIsPlayingSpeech(true);
+    window.speechSynthesis.speak(utterance);
   }
 
   function toggleReveal(key: RevealKey) {
@@ -269,9 +388,37 @@ export function ChapterLearningClient({
     }
   }
 
+  // Map poster bg to CSS classes
+  const posterBgClass = useMemo(() => {
+    switch (posterBg) {
+      case "charcoal":
+        return "bg-gradient-to-br from-neutral-900 via-zinc-900 to-stone-950 text-white border-zinc-800";
+      case "rose":
+        return "bg-gradient-to-br from-rose-50 via-pink-50 to-rose-100 text-rose-950 border-rose-200";
+      case "sage":
+        return "bg-gradient-to-br from-emerald-50 via-teal-50/50 to-emerald-100 text-emerald-950 border-emerald-200";
+      case "saffron":
+      default:
+        return "bg-gradient-to-br from-amber-50 via-saffron-50 to-orange-50 text-slate-900 border-saffron-200";
+    }
+  }, [posterBg]);
+
+  // Map poster border to CSS classes
+  const posterBorderClass = useMemo(() => {
+    switch (posterBorder) {
+      case "minimalist":
+        return "border border-dharma-border";
+      case "double":
+        return "border-[6px] border-double border-dharma-muted/30 p-5";
+      case "classical":
+      default:
+        return "border-[8px] border-double border-saffron-500/80 p-5";
+    }
+  }, [posterBorder]);
+
   return (
     <section className="space-y-6">
-      <div className="rounded-lg border border-dharma-border bg-white p-4 shadow-sm">
+      <div className="rounded-lg border border-dharma-border bg-dharma-card p-4 shadow-sm">
         <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
           <div>
             <p className="text-xs font-semibold uppercase tracking-wider text-saffron-700">
@@ -292,7 +439,7 @@ export function ChapterLearningClient({
                   onClick={() => setLanguage(option)}
                   className={`rounded-md px-3 py-1.5 text-sm font-semibold transition ${
                     language === option
-                      ? "bg-white text-saffron-800 shadow-sm"
+                      ? "bg-dharma-card text-saffron-800 shadow-sm"
                       : "text-dharma-muted hover:text-dharma-text"
                   }`}
                 >
@@ -315,7 +462,7 @@ export function ChapterLearningClient({
             <button
               type="button"
               onClick={() => setIsCardFlipped((prev) => !prev)}
-              className="inline-flex items-center gap-2 rounded-full border border-dharma-border bg-white px-4 py-2 text-sm font-semibold text-dharma-text transition hover:border-saffron-400 hover:text-saffron-700"
+              className="inline-flex items-center gap-2 rounded-full border border-dharma-border bg-dharma-card px-4 py-2 text-sm font-semibold text-dharma-text transition hover:border-saffron-400 hover:text-saffron-700"
             >
               <BookOpen className="h-4 w-4" />
               {isCardFlipped
@@ -339,7 +486,7 @@ export function ChapterLearningClient({
       </div>
 
       <div className="grid gap-5 lg:grid-cols-[230px_1fr]">
-        <aside className="rounded-lg border border-dharma-border bg-white p-4 shadow-sm lg:sticky lg:top-4 lg:self-start">
+        <aside className="rounded-lg border border-dharma-border bg-dharma-card p-4 shadow-sm lg:sticky lg:top-4 lg:self-start">
           <div className="mb-4 flex items-center justify-between">
             <p className="text-xs font-semibold uppercase tracking-wider text-dharma-muted">
               {labels.verses}
@@ -366,7 +513,7 @@ export function ChapterLearningClient({
                   className={`relative flex h-11 items-center justify-center rounded-lg border text-sm font-semibold transition ${
                     isActive
                       ? "border-saffron-600 bg-saffron-600 text-white"
-                      : "border-dharma-border bg-white text-dharma-text hover:border-saffron-300 hover:bg-saffron-50"
+                      : "border-dharma-border bg-dharma-card text-dharma-text hover:border-saffron-300 hover:bg-saffron-500/10"
                   }`}
                 >
                   {verse.id}
@@ -384,13 +531,13 @@ export function ChapterLearningClient({
         <AnimatePresence mode="wait" initial={false}>
           <motion.article
             key={activeVerse.id}
-            className="rounded-lg border border-dharma-border bg-white shadow-sm"
+            className="rounded-lg border border-dharma-border bg-dharma-card shadow-sm"
             initial={reduce ? false : { opacity: 0, x: 16 }}
             animate={{ opacity: 1, x: 0 }}
             exit={reduce ? undefined : { opacity: 0, x: -16 }}
             transition={{ duration: 0.22, ease: "easeOut" }}
           >
-          <div className="border-b border-dharma-border bg-saffron-50/60 p-5">
+          <div className="border-b border-dharma-border bg-saffron-50/20 p-5">
             <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
               <div className="flex items-center gap-3">
                 <span className="verse-number">{activeVerse.id}</span>
@@ -405,26 +552,74 @@ export function ChapterLearningClient({
                   </p>
                 </div>
               </div>
-              <button
-                type="button"
-                onClick={toggleLearned}
-                className={`inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-semibold transition ${
-                  learnedSet.has(activeVerse.id)
-                    ? "bg-green-100 text-green-800 hover:bg-green-200"
-                    : "bg-saffron-600 text-white hover:bg-saffron-700"
-                }`}
-              >
-                <CheckCircle2 className="h-4 w-4" />
-                {learnedSet.has(activeVerse.id) ? labels.learned : labels.mark}
-              </button>
+              <div className="flex flex-wrap items-center gap-2">
+                <button
+                  type="button"
+                  onClick={toggleBookmark}
+                  className={`inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-semibold transition border ${
+                    bookmarkedVerses.some(
+                      (b) => b.scriptureId === currentScriptureId && b.verseId === activeVerse.id
+                    )
+                      ? "bg-saffron-100 border-saffron-300 text-saffron-800 hover:bg-saffron-200"
+                      : "bg-dharma-card border-dharma-border text-dharma-muted hover:border-saffron-300 hover:text-saffron-700"
+                  }`}
+                  title={
+                    bookmarkedVerses.some(
+                      (b) => b.scriptureId === currentScriptureId && b.verseId === activeVerse.id
+                    )
+                      ? "Remove Bookmark"
+                      : "Add Bookmark"
+                  }
+                >
+                  <Bookmark className={`h-4 w-4 ${
+                    bookmarkedVerses.some(
+                      (b) => b.scriptureId === currentScriptureId && b.verseId === activeVerse.id
+                    ) ? "fill-saffron-600 text-saffron-600" : ""
+                  }`} />
+                  {bookmarkedVerses.some(
+                    (b) => b.scriptureId === currentScriptureId && b.verseId === activeVerse.id
+                  )
+                    ? (language === "hi" ? "सहेजा गया" : "Saved")
+                    : (language === "hi" ? "सहेजें" : "Save")}
+                </button>
+
+                <button
+                  type="button"
+                  onClick={toggleLearned}
+                  className={`inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-semibold transition ${
+                    learnedSet.has(activeVerse.id)
+                      ? "bg-green-100 text-green-800 hover:bg-green-200"
+                      : "bg-saffron-600 text-white hover:bg-saffron-700"
+                  }`}
+                >
+                  <CheckCircle2 className="h-4 w-4" />
+                  {learnedSet.has(activeVerse.id) ? labels.learned : labels.mark}
+                </button>
+              </div>
             </div>
           </div>
 
           <div className="space-y-5 p-5 md:p-6">
             <section>
-              <h3 className="mb-3 text-xs font-semibold uppercase tracking-wider text-dharma-muted">
-                {labels.sanskrit}
-              </h3>
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xs font-semibold uppercase tracking-wider text-dharma-muted">
+                  {labels.sanskrit}
+                </h3>
+                <button
+                  type="button"
+                  onClick={speakSanskrit}
+                  className={`inline-flex items-center gap-1.5 rounded-full border border-dharma-border px-3 py-1 text-xs font-semibold transition hover:border-saffron-400 hover:text-saffron-700 ${
+                    isPlayingSpeech
+                      ? "bg-saffron-100 border-saffron-300 text-saffron-800"
+                      : "bg-dharma-card text-dharma-muted"
+                  }`}
+                >
+                  <Volume2 className={`h-3.5 w-3.5 ${isPlayingSpeech ? "animate-pulse" : ""}`} />
+                  {isPlayingSpeech
+                    ? (language === "hi" ? "पाठ बंद करें" : "Stop Reciting")
+                    : (language === "hi" ? "पाठ सुनें" : "Listen Reciting")}
+                </button>
+              </div>
               <p
                 lang="sa"
                 className="sanskrit-text text-2xl text-dharma-text whitespace-pre-line"
@@ -432,6 +627,69 @@ export function ChapterLearningClient({
                 {activeVerse.sanskrit}
               </p>
             </section>
+
+            {/* Chanting Metronome Widget */}
+            <div className="rounded-xl border border-dharma-border bg-dharma-bg p-4 flex flex-col md:flex-row md:items-center justify-between gap-4">
+              <div className="flex items-center gap-3">
+                <button
+                  type="button"
+                  onClick={() => setIsMetronomeActive(!isMetronomeActive)}
+                  className={`inline-flex h-9 w-9 items-center justify-center rounded-full text-white transition ${
+                    isMetronomeActive
+                      ? "bg-red-500 hover:bg-red-600 animate-pulse"
+                      : "bg-saffron-600 hover:bg-saffron-700"
+                  }`}
+                  title={isMetronomeActive ? "Stop Metronome" : "Start Metronome"}
+                >
+                  {isMetronomeActive ? (
+                    <Square className="h-4 w-4" />
+                  ) : (
+                    <Play className="h-4 w-4 fill-current ml-0.5" />
+                  )}
+                </button>
+                <div>
+                  <h4 className="text-sm font-semibold text-dharma-text">
+                    {language === "hi" ? "मंत्र जाप लय (Metronome)" : "Chanting Metronome"}
+                  </h4>
+                  <p className="text-xs text-dharma-muted">
+                    {language === "hi" ? "मंत्रोच्चारण की लय बनाए रखने में मदद" : "Keep a steady rhythm for meditation"}
+                  </p>
+                </div>
+              </div>
+
+              {/* Ticking Visual Pulse indicator */}
+              <div className="flex items-center gap-4">
+                <div className="flex items-center gap-1.5">
+                  {[0, 1, 2, 3].map((index) => {
+                    const isLit = isMetronomeActive && (metronomeTick ? index % 2 === 0 : index % 2 !== 0);
+                    return (
+                      <motion.div
+                        key={index}
+                        animate={isLit ? { scale: [1, 1.25, 1], opacity: 1 } : { scale: 1, opacity: 0.4 }}
+                        transition={{ duration: 0.3 }}
+                        className={`h-2.5 w-2.5 rounded-full ${
+                          isLit
+                            ? "bg-saffron-500 shadow-[0_0_8px_rgba(249,115,22,0.6)]"
+                            : "bg-dharma-muted"
+                        }`}
+                      />
+                    );
+                  })}
+                </div>
+
+                <div className="flex items-center gap-2">
+                  <span className="text-xs font-semibold text-dharma-muted">{bpm} BPM</span>
+                  <input
+                    type="range"
+                    min="30"
+                    max="100"
+                    value={bpm}
+                    onChange={(e) => setBpm(Number(e.target.value))}
+                    className="h-1.5 w-24 rounded-lg bg-saffron-200 accent-saffron-600 cursor-pointer"
+                  />
+                </div>
+              </div>
+            </div>
 
             <section className="space-y-4">
               <div className="flex items-center justify-between gap-4 px-2">
@@ -475,24 +733,29 @@ export function ChapterLearningClient({
                 </span>
               </div>
 
+              {/* High-Fidelity Poster Image Generator Area */}
               <div
                 ref={flashcardRef}
-                className={`relative overflow-hidden rounded-3xl border ${currentTheme.border} ${currentTheme.bg} p-6 shadow-sm`}
+                className={`relative overflow-hidden rounded-3xl transition-all shadow-md ${posterBgClass} ${posterBorderClass}`}
               >
                 <div className="mb-5 text-center">
                   <p
-                    className={`text-xs font-semibold uppercase tracking-wider ${currentTheme.text}`}
+                    className={`text-xs font-semibold uppercase tracking-wider ${
+                      posterBg === "charcoal" ? "text-saffron-400" : currentTheme.text
+                    }`}
                   >
                     {scriptureTitle}
                   </p>
-                  <h3 className="mt-1 text-xl font-serif font-bold text-dharma-text">
+                  <h3 className="mt-1 text-xl font-serif font-bold">
                     {chapterTitle} •{" "}
                     {language === "hi"
                       ? `श्लोक ${activeVerse.id}`
                       : `Verse ${activeVerse.id}`}
                   </h3>
                 </div>
-                <div className="rounded-3xl bg-white p-6 shadow-sm min-h-[260px] flex flex-col justify-center">
+                <div className={`rounded-3xl p-6 shadow-sm min-h-[260px] flex flex-col justify-center ${
+                  posterBg === "charcoal" ? "bg-zinc-800/80 text-white" : "bg-dharma-card text-dharma-text"
+                }`}>
                   {isCardFlipped ? (
                     <div className="flex h-full flex-col justify-between gap-4">
                       <div>
@@ -511,7 +774,13 @@ export function ChapterLearningClient({
                             )}
                             <p
                               lang={language === "hi" ? "hi" : "en"}
-                              className={`mt-3 text-base leading-relaxed text-dharma-text whitespace-pre-line ${language === "hi" ? "font-devanagari text-lg" : ""}`}
+                              className={`mt-3 leading-relaxed whitespace-pre-line ${
+                                language === "hi" ? "font-devanagari text-lg" : "text-base"
+                              } ${
+                                posterEmphasis === "translation"
+                                  ? "text-xl font-medium text-saffron-600"
+                                  : ""
+                              }`}
                             >
                               {hindiMeaning}
                             </p>
@@ -521,7 +790,9 @@ export function ChapterLearningClient({
                             <p className="text-xs uppercase tracking-wider text-dharma-muted">
                               {language === "hi" ? "अनुवाद" : "Translation"}
                             </p>
-                            <p className="mt-3 text-base leading-relaxed text-dharma-text">
+                            <p className={`mt-3 leading-relaxed text-base ${
+                              posterEmphasis === "translation" ? "text-lg font-semibold text-saffron-600" : ""
+                            }`}>
                               {activeVerse.translation}
                             </p>
                           </>
@@ -546,7 +817,11 @@ export function ChapterLearningClient({
                         </p>
                         <p
                           lang="sa"
-                          className="mt-3 text-2xl leading-relaxed text-dharma-text whitespace-pre-line font-devanagari"
+                          className={`mt-3 leading-relaxed whitespace-pre-line font-devanagari ${
+                            posterEmphasis === "devanagari"
+                              ? "text-3xl font-bold text-saffron-600 drop-shadow-sm"
+                              : "text-2xl text-dharma-text"
+                          }`}
                         >
                           {activeVerse.sanskrit}
                         </p>
@@ -567,17 +842,23 @@ export function ChapterLearningClient({
                 <div className="mt-5 flex justify-between items-center px-1">
                   <div className="flex items-center gap-2">
                     <span
-                      className={`flex h-7 w-7 items-center justify-center rounded-full border ${currentTheme.border} ${currentTheme.accent} ${currentTheme.text} font-bold`}
+                      className={`flex h-7 w-7 items-center justify-center rounded-full border ${
+                        posterBg === "charcoal"
+                          ? "border-zinc-700 bg-zinc-800"
+                          : `${currentTheme.border} ${currentTheme.accent}`
+                      } font-bold`}
                     >
                       <span
                         lang="sa"
-                        className="font-devanagari text-base leading-none"
+                        className="font-devanagari text-base leading-none text-saffron-600"
                       >
                         ॐ
                       </span>
                     </span>
                     <p
-                      className={`text-xs font-bold uppercase tracking-[0.2em] ${currentTheme.text}`}
+                      className={`text-xs font-bold uppercase tracking-[0.2em] ${
+                        posterBg === "charcoal" ? "text-zinc-400" : currentTheme.text
+                      }`}
                     >
                       Dharma Granth
                     </p>
@@ -594,7 +875,7 @@ export function ChapterLearningClient({
                 <button
                   type="button"
                   onClick={() => setIsCardFlipped((prev) => !prev)}
-                  className={`inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-semibold text-dharma-text transition border border-dharma-border hover:${currentTheme.buttonBorder} hover:text-dharma-text`}
+                  className={`inline-flex items-center gap-2 rounded-full bg-dharma-card px-4 py-2 text-sm font-semibold text-dharma-text transition border border-dharma-border hover:${currentTheme.buttonBorder} hover:text-dharma-text`}
                 >
                   <BookOpen className="h-4 w-4" />
                   {language === "hi" ? "पलटें" : "Flip Card"}
@@ -605,14 +886,108 @@ export function ChapterLearningClient({
                   className={`inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-semibold text-white transition ${currentTheme.button}`}
                 >
                   <Share2 className="h-4 w-4" />
-                  {language === "hi" ? "साझा करें" : "Share / Download"}
+                  {language === "hi" ? "साझा करें / डाउनलोड" : "Share / Download"}
                 </button>
               </div>
+
+              {/* Poster Generator Customizer Controls */}
+              <div className="mt-4 rounded-2xl border border-dharma-border bg-dharma-bg/60 p-4 space-y-4 shadow-inner">
+                <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-dharma-text">
+                  <Settings className="h-4 w-4 text-saffron-600" />
+                  {language === "hi" ? "पोस्टर कस्टमाइज़र" : "Premium Poster Generator Customizer"}
+                </div>
+                
+                <div className="grid gap-4 sm:grid-cols-3">
+                  {/* Background Selector */}
+                  <div className="space-y-1.5">
+                    <label className="text-[11px] font-bold uppercase tracking-wider text-dharma-muted">
+                      {language === "hi" ? "पृष्ठभूमि (Background)" : "Background"}
+                    </label>
+                    <div className="flex gap-1.5">
+                      {(["saffron", "charcoal", "rose", "sage"] as const).map((bg) => (
+                        <button
+                          key={bg}
+                          type="button"
+                          onClick={() => setPosterBg(bg)}
+                          className={`h-7 px-2 rounded text-xs font-semibold border transition ${
+                            posterBg === bg
+                              ? "bg-saffron-600 border-saffron-600 text-white"
+                              : "bg-dharma-card border-dharma-border text-dharma-text hover:border-saffron-400"
+                          }`}
+                        >
+                          {bg === "saffron"
+                            ? (language === "hi" ? "केसरिया" : "Saffron")
+                            : bg === "charcoal"
+                            ? (language === "hi" ? "कोयला" : "Charcoal")
+                            : bg === "rose"
+                            ? (language === "hi" ? "गुलाबी" : "Rose")
+                            : (language === "hi" ? "ऋषि" : "Sage")}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Border Style Selector */}
+                  <div className="space-y-1.5">
+                    <label className="text-[11px] font-bold uppercase tracking-wider text-dharma-muted">
+                      {language === "hi" ? "बॉर्डर (Border Style)" : "Border Style"}
+                    </label>
+                    <div className="flex gap-1.5">
+                      {(["minimalist", "classical", "double"] as const).map((border) => (
+                        <button
+                          key={border}
+                          type="button"
+                          onClick={() => setPosterBorder(border)}
+                          className={`h-7 px-2 rounded text-xs font-semibold border transition ${
+                            posterBorder === border
+                              ? "bg-saffron-600 border-saffron-600 text-white"
+                              : "bg-dharma-card border-dharma-border text-dharma-text hover:border-saffron-400"
+                          }`}
+                        >
+                          {border === "minimalist"
+                            ? (language === "hi" ? "सादा" : "Minimal")
+                            : border === "classical"
+                            ? (language === "hi" ? "शास्त्रीय" : "Classic")
+                            : (language === "hi" ? "डबल" : "Double")}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Typography Emphasis Selector */}
+                  <div className="space-y-1.5">
+                    <label className="text-[11px] font-bold uppercase tracking-wider text-dharma-muted">
+                      {language === "hi" ? "महत्व (Emphasis)" : "Emphasis"}
+                    </label>
+                    <div className="flex gap-1.5">
+                      {(["balanced", "devanagari", "translation"] as const).map((emp) => (
+                        <button
+                          key={emp}
+                          type="button"
+                          onClick={() => setPosterEmphasis(emp)}
+                          className={`h-7 px-2 rounded text-xs font-semibold border transition ${
+                            posterEmphasis === emp
+                              ? "bg-saffron-600 border-saffron-600 text-white"
+                              : "bg-dharma-card border-dharma-border text-dharma-text hover:border-saffron-400"
+                          }`}
+                        >
+                          {emp === "balanced"
+                            ? (language === "hi" ? "संतुलित" : "Balanced")
+                            : emp === "devanagari"
+                            ? (language === "hi" ? "संस्कृत" : "Sanskrit")
+                            : (language === "hi" ? "अनुवाद" : "Translation")}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               {shareStatus !== "idle" && (
                 <p className="mt-3 px-2 text-sm text-dharma-muted">
                   {shareStatus === "shared" &&
                     (language === "hi"
-                      ? "कार्ड साझा किया गया।"
+                      ? "कार्ड सफलतापूर्वक साझा किया गया।"
                       : "Card shared successfully.")}
                   {shareStatus === "copy" &&
                     (language === "hi"
@@ -644,7 +1019,7 @@ export function ChapterLearningClient({
                   onClick={() => toggleReveal(key)}
                   className={`inline-flex min-h-11 items-center justify-center gap-2 rounded-lg border px-3 py-2 text-sm font-semibold transition ${
                     reveal[key]
-                      ? "border-saffron-500 bg-saffron-50 text-saffron-800"
+                      ? "border-saffron-500 bg-saffron-50/20 text-saffron-800 animate-pulse"
                       : "border-dharma-border text-dharma-muted hover:border-saffron-300 hover:text-saffron-700"
                   }`}
                 >
@@ -663,7 +1038,7 @@ export function ChapterLearningClient({
             </div>
 
             {reveal.transliteration && (
-              <section className="rounded-lg border border-dharma-border p-4">
+              <section className="rounded-lg border border-dharma-border p-4 bg-dharma-card">
                 <h3 className="mb-2 text-xs font-semibold uppercase tracking-wider text-dharma-muted">
                   {labels.transliteration}
                 </h3>
@@ -677,7 +1052,7 @@ export function ChapterLearningClient({
             )}
 
             {reveal.translation && (
-              <section className="rounded-lg border border-dharma-border p-4">
+              <section className="rounded-lg border border-dharma-border p-4 bg-dharma-card">
                 <h3 className="mb-2 text-xs font-semibold uppercase tracking-wider text-dharma-muted">
                   {labels.translation}
                 </h3>
@@ -688,7 +1063,7 @@ export function ChapterLearningClient({
             )}
 
             {reveal.meaning && meaning && (
-              <section className="rounded-xl border border-rose-200 bg-gradient-to-br from-rose-50 to-pink-50 p-5">
+              <section className="rounded-xl border border-rose-200 bg-gradient-to-br from-rose-50/10 to-pink-50/10 p-5">
                 <h3 className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-rose-700">
                   <span className="text-base">🪷</span>
                   {labels.hindiMeaning}
@@ -711,7 +1086,7 @@ export function ChapterLearningClient({
             )}
 
             {reveal.explanation && (
-              <section className="explanation-box">
+              <section className="explanation-box bg-amber-50/10 border border-amber-200 p-5 rounded-xl">
                 <h3 className="mb-2 flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-saffron-800">
                   <Sparkles className="h-4 w-4" />
                   {labels.explanation}
@@ -728,7 +1103,7 @@ export function ChapterLearningClient({
             )}
 
             {reveal.science && activeVerse.science && (
-              <section className="rounded-xl border border-indigo-200 bg-gradient-to-br from-indigo-50 to-blue-50 p-5">
+              <section className="rounded-xl border border-indigo-200 bg-gradient-to-br from-indigo-50/10 to-blue-50/10 p-5">
                 <h3 className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-indigo-700">
                   <Atom className="h-4 w-4" />
                   {labels.science}
@@ -745,7 +1120,7 @@ export function ChapterLearningClient({
             )}
 
             {reveal.lifeLesson && activeVerse.lifeLesson && (
-              <section className="rounded-xl border border-amber-200 bg-gradient-to-br from-amber-50 to-yellow-50 p-5">
+              <section className="rounded-xl border border-amber-200 bg-gradient-to-br from-amber-50/10 to-yellow-50/10 p-5">
                 <h3 className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-amber-700">
                   <Lightbulb className="h-4 w-4" />
                   {labels.lifeLesson}
@@ -786,7 +1161,7 @@ export function ChapterLearningClient({
                   value={reflection}
                   onChange={(event) => setReflection(event.target.value)}
                   placeholder={labels.reflectionPlaceholder}
-                  className="mt-2 min-h-24 w-full resize-y rounded-lg border border-dharma-border bg-white p-3 text-sm leading-relaxed text-dharma-text outline-none transition focus:border-saffron-500 focus:ring-2 focus:ring-saffron-100"
+                  className="mt-2 min-h-24 w-full resize-y rounded-lg border border-dharma-border bg-dharma-card p-3 text-sm leading-relaxed text-dharma-text outline-none transition focus:border-saffron-500 focus:ring-2 focus:ring-saffron-100"
                 />
               </section>
             )}
@@ -810,12 +1185,12 @@ export function ChapterLearningClient({
             )}
           </div>
 
-          <div className="flex items-center justify-between border-t border-dharma-border p-5">
+          <div className="flex items-center justify-between border-t border-dharma-border p-5 bg-dharma-bg/40">
             <button
               type="button"
               onClick={() => goBy(-1)}
               disabled={activeIndex === 0}
-              className="inline-flex items-center gap-2 rounded-lg border border-dharma-border px-4 py-2 text-sm font-semibold text-dharma-text transition hover:bg-saffron-50 disabled:cursor-not-allowed disabled:opacity-40"
+              className="inline-flex items-center gap-2 rounded-lg border border-dharma-border px-4 py-2 text-sm font-semibold text-dharma-text transition hover:bg-saffron-500/10 disabled:cursor-not-allowed disabled:opacity-40 bg-dharma-card"
             >
               <ChevronLeft className="h-4 w-4" />
               {labels.previous}

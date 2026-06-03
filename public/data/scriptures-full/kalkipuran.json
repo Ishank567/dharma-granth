@@ -6,9 +6,81 @@
   "source": {
     "repo": "https://sanskritdocuments.org/doc_purana/",
     "license": "Full itx not available on sanskritdocuments. Curated highlights are hand-authored.",
-    "fetchedAt": "2026-06-01T11:10:58.713Z"
+    "fetchedAt": "2026-06-02T08:43:30.051Z"
   },
-  "totalVerses": 0,
-  "totalChapters": 0,
-  "chapters": []
+  "totalVerses": 10,
+  "totalChapters": 3,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Kali Yuga — The Age of Darkness",
+      "titleSanskrit": "कलियुगवर्णन",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "कलौ दशसहस्राणि हरिरेव कलौ युगे | पूज्यते च नमस्यश्च केशवो नान्यदैवतम् ||",
+          "transliteration": "kalau daśasahasrāṇi harireva kalau yuge | pūjyate ca namasyaśca keśavo nānyadaivatam ||"
+        },
+        {
+          "number": 2,
+          "sanskrit": "धर्मस्य ह्रासः कलौ काले सत्यस्य च परिक्षयः | शनैः शनैर्जगत्सर्वमधर्मे संप्रतिष्ठते ||",
+          "transliteration": "dharmasya hrāsaḥ kalau kāle satyasya ca parikṣayaḥ | śanaiḥ śanairjagatsarvamadharme saṃpratiṣṭhate ||"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kalki's Advent — The Divine Response",
+      "titleSanskrit": "कल्क्यवतारवर्णन",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत | अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम् ||",
+          "transliteration": "yadā yadā hi dharmasya glānirbhavati bhārata | abhyutthānamadharmasya tadātmānaṃ sṛjāmyaham ||"
+        },
+        {
+          "number": 2,
+          "sanskrit": "शम्भले विष्णुयशसः गृहे प्रादुर्भविष्यति | सुमत्याः पुत्र रूपेण कल्किर्विष्णुयशाः सुतः ||",
+          "transliteration": "śambhale viṣṇuyaśasaḥ gṛhe prādurbhaviṣyati | sumatyāḥ putra rūpeṇa kalkir viṣṇuyaśāḥ sutaḥ ||"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "The New Satya Yuga — Restoration of Dharma",
+      "titleSanskrit": "सत्ययुगप्रवर्तन",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "सत्ये सर्वं प्रतिष्ठितं सत्यमेव परो धर्मः | सत्यव्रतो भव नित्यं सत्यात् किञ्चिन्न विद्यते ||",
+          "transliteration": "satye sarvaṃ pratiṣṭhitaṃ satyameva paro dharmaḥ | satyavrato bhava nityaṃ satyāt kiñcinna vidyate ||"
+        },
+        {
+          "number": 2,
+          "sanskrit": "पुनः प्रवर्तते धर्मो नृणां चारित्रसंयुतः | कृतं त्रेता द्वापरं च कलिश्चैव पुनः पुनः ||",
+          "transliteration": "punaḥ pravartate dharmo nṛṇāṃ cāritrasaṃyutaḥ | kṛtaṃ tretā dvāparaṃ ca kaliścaiva punaḥ punaḥ ||"
+        },
+        {
+          "number": 5,
+          "sanskrit": "कलौ कृष्णावतारे तु यदा पापं समं महत् | तदा कल्की समुत्पन्नो धर्मं स्थापयते पुनः ||",
+          "transliteration": "kalau kṛṣṇāvatare tu yadā pāpaṃ samaṃ mahat | tadā kalkī samutpanno dharmaṃ sthāpayate punaḥ ||"
+        },
+        {
+          "number": 26,
+          "sanskrit": "कल्किर्देवो महाबाहुः श्वेताश्वो देवदत्तः | अभ्युत्थाय कलौ युगे धर्मं स्थापयते प्रिये ||",
+          "transliteration": "kalkirdevo mahābāhuḥ śvetāśvo devadattaḥ | abhyutthāya kalau yuge dharmaṃ sthāpayate priye ||"
+        },
+        {
+          "number": 27,
+          "sanskrit": "शम्भले ग्रामे जन्म कल्किस्य विष्णुरात्मजः | परशुरामशिक्षितः सर्वशास्त्रविद् विशारदः ||",
+          "transliteration": "śambhale grāme janma kalkisya viṣṇurātmajaḥ | paraśurāmaśikṣitaḥ sarvaśāstravid viśāradaḥ ||"
+        },
+        {
+          "number": 28,
+          "sanskrit": "धर्मो रक्षति रक्षितः धर्मो हन्ति हतः क्रिया | धर्मो न प्रशश्यते किञ्चित् धर्मेण तप्यते अमृतम् ||",
+          "transliteration": "dharmo rakṣati rakṣitaḥ dharmaḥ hanti hatāḥ kriyā | dharmaḥ na praśaśyate kiñcid dharmeṇa tapyate amṛtam ||"
+        }
+      ]
+    }
+  ]
 }

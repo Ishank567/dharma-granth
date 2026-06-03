@@ -6,10 +6,10 @@
   "source": {
     "repo": "https://sanskritdocuments.org/doc_upanishhat/muktika.itx",
     "license": "Sanskrit mūla — public domain. Digitized by sanskritdocuments.org.",
-    "fetchedAt": "2026-06-01T11:10:57.781Z"
+    "fetchedAt": "2026-06-02T08:43:29.063Z"
   },
-  "totalVerses": 346,
-  "totalChapters": 1,
+  "totalVerses": 357,
+  "totalChapters": 3,
   "chapters": [
     {
       "number": 1,
@@ -18,2425 +18,2498 @@
       "verses": [
         {
           "number": 1,
-          "sanskrit": "IshAdyaShTottarashatavedAntapaTalAshayam.h .",
+          "sanskrit": ".. MuktikA Upanishad ..##",
           "transliteration": "",
           "translation": "",
           "hindi": ""
         },
         {
           "number": 2,
-          "sanskrit": "muktikopaniShadvedya.n rAmachandrapadaM bhaje ..",
+          "sanskrit": ".. muktikopaniShat ..##\\endtitles ##",
           "transliteration": "",
           "translation": "",
           "hindi": ""
         },
         {
           "number": 3,
-          "sanskrit": "hariH OM pUrNamadaH pUrNamidaM pUrNAtpUrNamudachyate .",
+          "sanskrit": "IshAdyaShTottarashatavedAntapaTalAshayam.h .",
           "transliteration": "",
           "translation": "",
           "hindi": ""
         },
         {
           "number": 4,
-          "sanskrit": "pUrNasya pUrNamAdAya pUrNamevAvashiShyate ..",
+          "sanskrit": "muktikopaniShadvedya.n rAmachandrapadaM bhaje ..",
           "transliteration": "",
           "translation": "",
           "hindi": ""
         },
         {
           "number": 5,
-          "sanskrit": "OM shAntiH shAntiH shAntiH ..",
+          "sanskrit": "hariH OM pUrNamadaH pUrNamidaM pUrNAtpUrNamudachyate .",
           "transliteration": "",
           "translation": "",
           "hindi": ""
         },
         {
           "number": 6,
-          "sanskrit": "OM ayodhyAnagare ramye ratnamaNDapamadhyame .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 7,
-          "sanskrit": "sItAbharatasaumitrishatrughnAdyaiH samanvitam.h .. 1..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 8,
-          "sanskrit": "sanakAdyairmunigaNairvasiShThAdyaiH shukAdibhiH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 9,
-          "sanskrit": "anyairbhAgavataishchApi stUyamAnamaharnisham.h .. 2..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 10,
-          "sanskrit": "dhIvikriyAsahasrANA.n sAkShiNa.n nirvikAriNam.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 11,
-          "sanskrit": "svarUpadhyAnanirata.n samAdhivirame harim.h .. 3..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 12,
-          "sanskrit": "bhaktyA shushrUShayA rAma.n stuvanpaprachCha mArutiH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 13,
-          "sanskrit": "rAma tvaM paramAtmasi sachchidAnandavigrahaH .. 4..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 14,
-          "sanskrit": "idAnI.n tvA.n raghushreShTha praNamAmi muhurmuhuH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 15,
-          "sanskrit": "tvadrUpa.n j~nAtumichChAmi tattvato rAma muktaye .. 5..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 16,
-          "sanskrit": "anAyAsena yenAhaM muchyeyaM bhavabandhanAt.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 17,
-          "sanskrit": "kR^ipayA vada me rAma yena mukto bhavAmyaham.h .. 6..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 18,
-          "sanskrit": "sAdhu pR^iShTaM mahAbAho vadAmi shR^iNu tattvataH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 19,
-          "sanskrit": "vedAnte supratiShTho.aha.n vedAnta.n samupAshraya .. 7..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 20,
-          "sanskrit": "vedAntAH ke raghushreShTha vartante kutra te vada .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 21,
-          "sanskrit": "hanUma~nChR^iNu vakShyAmi vedAntasthitima~njasA .. 8..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 22,
-          "sanskrit": "nishvAsabhUtA me viShNorvedA jAtAH suvistarAH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 23,
-          "sanskrit": "tileShu tailavadvede vedAntaH supratiShThitaH .. 9..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 24,
-          "sanskrit": "rAma vedAH katividhAsteShA.n shAkhAshcha rAghava .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 25,
-          "sanskrit": "tAsUpaniShadAH kAH syuH kR^ipayA vada tattvataH .. 10..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 26,
-          "sanskrit": "shrIrAma uvAcha .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 27,
-          "sanskrit": "R^igvedAdivibhAgena vedAshchatvAra IritAH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 28,
-          "sanskrit": "teShA.n shAkhA hyanekAH syustAsUpaniShadastathA .. 11..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 29,
-          "sanskrit": "R^igvedasya tu shAkhAH syurekavi.nshatisa~NkhyakAH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 30,
-          "sanskrit": "navAdhikashata.n shAkhA yajuSho mArutAtmaja .. 12..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 31,
-          "sanskrit": "sahasrasa~NkhyayA jAtAH shAkhAH sAmnaH parantapa .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 32,
-          "sanskrit": "atharvaNasya shAkhAH syuH pa~nchAshadbhedato hare .. 13..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 33,
-          "sanskrit": "ekaikasyAstu shAkhAyA ekaikopaniShanmatA .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 34,
-          "sanskrit": "tAsAmekAmR^icha.n yashcha paThate bhaktito mayi .. 14..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 35,
-          "sanskrit": "sa matsAyujyapadavIM prApnoti munidurlabhAm.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 36,
-          "sanskrit": "rAma kechinmunishreShThA muktireketi chakShire .. 15..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 37,
-          "sanskrit": "kechittvannAmabhajanAtkAshyA.n tAropadeshataH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 38,
-          "sanskrit": "anyetu sA~Nkhyayogena bhaktiyogena chApare .. 16..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 39,
-          "sanskrit": "anye vedAntavAkyArthavichArAtparamarShayaH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 40,
-          "sanskrit": "sAlokyAdivibhAgena chaturdhA muktirIritA .. 17..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 41,
-          "sanskrit": "sahovAcha shrIrAmaH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 42,
-          "sanskrit": "kaivalyamuktirekaiva paramArthikarUpiNI .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 43,
-          "sanskrit": "durAchArarato vApi mannAmabhajanAtkape .. 18..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 44,
-          "sanskrit": "sAlokyamuktimApnoti na tu lokAntarAdikam.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 45,
-          "sanskrit": "kAshyA.n tu brahmanAle.asminmR^ito mattAramApnuyAt.h .. 19..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 46,
-          "sanskrit": "punarAvR^ittirahitAM muktiM prApnoti mAnavaH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 47,
-          "sanskrit": "yatra kutrApi vA kAshyAM maraNe sa maheshvaraH .. 20..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 48,
-          "sanskrit": "jantordakShiNakarNe tu mattAra.n samupAdishet.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 49,
-          "sanskrit": "nirdhUtAsheShapApaugho matsArUpyaM bhajatyayam.h .. 21..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 50,
-          "sanskrit": "saiva sAlokyasArUpyamuktiratyabhidhIyate .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 51,
-          "sanskrit": "sadAchArarato bhUtvA dvijo nityamananyadhIH .. 22..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 52,
-          "sanskrit": "mayi sarvAtmako bhAvo matsAmIpyaM bhajatyayam.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 53,
-          "sanskrit": "saiva sAlokyasArUpyasAmIpyA muktiriShyate .. 23..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 54,
-          "sanskrit": "gurUpadiShTamArgeNa dhyAyanmadguNamavyayam.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 55,
-          "sanskrit": "matsAyujya.n dvijaH samyagbhajedbhramarakITavat.h .. 24..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 56,
-          "sanskrit": "saiva sAyujyamuktiH syAdbrahmAnandakarI shivA .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 57,
-          "sanskrit": "chaturvidhA tu yA muktirmadupAsanayA bhavet.h .. 25..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 58,
-          "sanskrit": "iya.n kaivalyamuktistu kenopAyena siddhyati .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 59,
-          "sanskrit": "mANDUkyamekamevAlaM mumukShUNA.n vimuktaye .. 26..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 60,
-          "sanskrit": "tathApyasiddha.n chejj~nAna.n dashopaniShadaM paTha .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 61,
-          "sanskrit": "j~nAna.n labdhvA chirAdeva mAmaka.n dhAma yAsyasi .. 27..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 62,
-          "sanskrit": "tathApi dR^iDhatA na chedvidj~nAnasyA~njanAsuta .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 63,
-          "sanskrit": "dvAtri.nshAkhyopaniShada.n samabhyasya nivartaya .. 28..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 64,
-          "sanskrit": "videhamuktAvichChA chedaShTottarashataM paTha .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 65,
-          "sanskrit": "tAsA.n krama sashAnti.n cha shruNu vakShyAmi tattvataH .. 29..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 66,
-          "sanskrit": "IshakenakaThaprashnamuNDamANDUkyatittiriH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 67,
-          "sanskrit": "aitareya.n cha ChAndogyaM bR^ihadAraNyaka.n tathA .. 30..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 68,
-          "sanskrit": "brahmakaivalyajAbAlashvetAshvo ha.nsa AruNiH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 69,
-          "sanskrit": "garbho nArAyaNo ha.nso bindurnAdashiraH shikhA .. 31..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 70,
-          "sanskrit": "maitrAyaNI kauShItakI bR^ihajjAbAlatApanI .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 71,
-          "sanskrit": "kAlAgnirudramaitreyI subAlakShurimantrikA .. 32..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 72,
-          "sanskrit": "sarvasAra.n nirAlamba.n rahasya.n vajrasUchikam.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 73,
-          "sanskrit": "tejonAdadhyAnavidyAyogatattvAtmabodhakam.h .. 33..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 74,
-          "sanskrit": "parivrAT trishikhI sItA chUDA nirvANamaNDalam.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 75,
-          "sanskrit": "dakShiNA sharabha.n skandaM mahAnArAyaNAhvayam.h .. 34..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 76,
-          "sanskrit": "rahasya.n rAmatapana.n vAsudeva.n cha mudgalam.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 77,
-          "sanskrit": "shANDilyaM pai~NgalaM bhikShumahachChArIraka.n shikhA .. 35..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 78,
-          "sanskrit": "turIyAtItasa.nnyAsaparivrAjAkShamAlikA .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 79,
-          "sanskrit": "avyaktaikAkSharaM pUrNA sUryAkShyadhyAtmakuNDikA .. 36..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 80,
-          "sanskrit": "sAvitryAtmA pAshupataM paraM brahmAvadhUtakam.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 81,
-          "sanskrit": "tripurAtapana.n devItripurA kaThabhAvanA .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 82,
-          "sanskrit": "hR^idaya.n kuNDalI bhasma rudrAkShagaNadarshanam.h .. 37..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 83,
-          "sanskrit": "tArasAramahAvAkya pa~nchabrahmAgnihotrakam.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 84,
-          "sanskrit": "gopAlatapana.n kR^iShNa.n yAj~navalkya.n varAhakam.h .. 38..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 85,
-          "sanskrit": "shATyAyanI hayagrIva.n dattAtreya.n cha gAruDam.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 86,
-          "sanskrit": "kalijAbAlisaubhAgyarahasyaR^ichamuktikA .. 39..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 87,
-          "sanskrit": "evamaShTottarashataM bhAvanAtrayanAshanam.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 88,
-          "sanskrit": "j~nAnavairAgyadaM pu.nsA.n vAsanAtrayanAshanam.h .. 40..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 89,
-          "sanskrit": "pUrvottareShu vihitatattachChAntipuraHsaram.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 90,
-          "sanskrit": "vedavidyAvratasnAtadeshikasya mukhAtsvayam.h .. 41..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 91,
-          "sanskrit": "gR^ihItvAShTottarashata.n ye paThanti dvijottamAH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 92,
-          "sanskrit": "prArabdhakShayaparyanta.n jIvanmuktA bhavanti te .. 42..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 93,
-          "sanskrit": "tataH kAlavashAdeva prArabdhe tu kShaya.n gate .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 94,
-          "sanskrit": "vaidehIM mAmakIM mukti.n yAnti nAstyatrasa.nshayaH .. 43..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 95,
-          "sanskrit": "sarvopaniShadAM madhye sAramaShTottarashatam.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 96,
-          "sanskrit": "sakR^ichChravaNamAtreNa sarvAghaughanikR^intanam.h .. 44..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 97,
-          "sanskrit": "mayopadiShTa.n shiShyAya tubhyaM pavananandana .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 98,
-          "sanskrit": "ida.n shAstraM mayAdiShTa.n guhyamaShTottara.n shatam.h .. 45..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 99,
-          "sanskrit": "j~nAnato.aj~nAnato vApi paThatAM bandhamochakam.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 100,
-          "sanskrit": "rAjya.n deya.n dhana.n deya.n yAchataH kAmapUraNam.h .. 45..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 101,
-          "sanskrit": "idamaShTottarashata.n na deya.n yasya kasyachit.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 102,
-          "sanskrit": "nAstikAya kR^itaghnAya durAchAraratAya vai .. 47..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 103,
-          "sanskrit": "madbhaktivimukhAyApi shAstragarteShu muhyate .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 104,
-          "sanskrit": "gurubhaktivihInAya dAtavya.n na kadAchana .. 48..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 105,
-          "sanskrit": "sevAparAya shiShyAya hitaputrAya mArute .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 106,
-          "sanskrit": "madbhaktAya sushIlAya kulInAya sumedhase .. 49..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 107,
-          "sanskrit": "samyak parIkShya dAtavyamevamaShTottara.n shatam.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 108,
-          "sanskrit": "yaH paThechChR^iNuyAdvApi sa mAmeti na sa.nshayaH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 109,
-          "sanskrit": "tadetadR^ichAbhyuktam.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 110,
-          "sanskrit": "vidyA ha vai brAhmaNamAjagAma",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 111,
-          "sanskrit": "gopAya mA shevadhiShTee.ahamasmi .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 112,
-          "sanskrit": "asUyakAyAnR^ijave shaThAya",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 113,
-          "sanskrit": "mA mA brUyA vIryavatI tathA syAm.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 114,
-          "sanskrit": "yameva vidyAshrutamapramattaM",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 115,
-          "sanskrit": "medhAvinaM brahmacharyopapannam.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 116,
-          "sanskrit": "tasmA imAmupasannAya samyak",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 117,
-          "sanskrit": "parIkShya dadyAdvaiShNavImAtmaniShThAm.h .. 1.. iti ..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 118,
-          "sanskrit": "atha haina.n shrIrAmachandraM mArutiH paprachCha",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 119,
-          "sanskrit": "R^igvedAdivibhAgena pR^ithak shAntimanubrUhIti .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 120,
-          "sanskrit": "sa hovAcha shrIrAmaH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 121,
-          "sanskrit": "aitareyakauShItakInAdabindvAtmaprabodhanirvANa\\-",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 122,
-          "sanskrit": "mudgalAkShamAlikAtripurAsaubhAgyabahvR^ichA",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 123,
-          "sanskrit": "nAmR^igvedagatAnA.n dashasa.nkhyAkAnAmupaniShadA.n",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 124,
-          "sanskrit": "vA~Nme manasIti shAntiH .. 1..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 125,
-          "sanskrit": "IshAvAsyabR^ihadAraNyajAbAlaha.nsaparamaha.nsasubAla\\-",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 126,
-          "sanskrit": "mantrikAnirAlambatrishikhIbrAhmaNamaNDalabrAhmaNAdvayatAraka\\-",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 127,
-          "sanskrit": "pai~NgalabhikShuturIyAtItAdhyAtmatArasArayAj~navalkya\\-",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 128,
-          "sanskrit": "shATyAyanImuktikAnA.n shuklayajurvedagatAnAmekonavi.nshati\\-",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 129,
-          "sanskrit": "sa.nkhyAkAnAmupaniShadAM pUrNamada iti shAntiH .. 2..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 130,
-          "sanskrit": "kaThavallItaittirIyakabrahmakaivalyashvetAshvataragarbha\\-",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 131,
-          "sanskrit": "nArAyaNAmR^itabindvamR^itanAdakAlAgnirudrakShurikA\\-",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 132,
-          "sanskrit": "sarvasArashukarahasyatejobindudhyAnabindubrahmavidyA\\-",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 133,
-          "sanskrit": "yogatattvadakShiNAmUrtiskandashArIrakayogashikhaikAkShara\\-",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 134,
-          "sanskrit": "akShyavadhUtakaTharudrahR^idayayogakuNDalinIpa~nchabrahma\\-",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 135,
-          "sanskrit": "prANAgnihotravarAhakalisantaraNasarasvatIrahasyAnA.n",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 136,
-          "sanskrit": "kR^iShNayajurvedagatAnA.n dvAtri.nshatsa.nkhyAkAnamupaniShadA.n",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 137,
-          "sanskrit": "saha nAvavatviti shAntiH .. 3..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 138,
-          "sanskrit": "kenaChAndogyAruNimaitrAyaNimaitreyIvajrasUchikAyogachUDAmaNi\\-",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 139,
-          "sanskrit": "vAsudevamahatsa.nnyAsAvyaktakuNDikAsAvitrIrudrAkShajAbAladarshana\\-",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 140,
-          "sanskrit": "jAbAlInA.n sAmavedagatAnA.n ShoDashasa.nkhyAkAnA\\-",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 141,
-          "sanskrit": "mupaniShadAnAmApyAyantviti shAntiH .. 4..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 142,
-          "sanskrit": "prashnamuNDakamANDukyAtharvashiro.atharvashikhAbR^ihajjAbAla\\-",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 143,
-          "sanskrit": "nR^isi.nhatApanInAradaparivrAjakasItAsharabhamahAnArAyaNa\\-",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 144,
-          "sanskrit": "rAmarahasyarAmatApanIshANDilyaparamaha.nsaparivrAjaka\\-",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 145,
-          "sanskrit": "annapUrNAsUryAtmapAshupataparabrahmatripurAtapanadevIbhAvanA\\-",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 146,
-          "sanskrit": "brahmajAbAlagaNapatimahAvAkyagopAlatapanakR^iShNahayagrIva\\-",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 147,
-          "sanskrit": "dattAtreyagAruDAnAmatharvavedagatAnAmekatri.nshatsa.nkhyAkAnA\\-",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 148,
-          "sanskrit": "mupaniShadAM bhadra.n karNebhiriti shAntiH .. 5..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 149,
-          "sanskrit": "mumukShavaH puruShAH sAdhanachatuShTayasampannAH",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 150,
-          "sanskrit": "shraddhAvantaH sukulabhava.n shrotriya.n shAstravAtsalya\\-",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 151,
-          "sanskrit": "guNavantamakuTila.n sarvabhUtahiterata.n dayAsamudra.n sadguru.n",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 152,
-          "sanskrit": "vidhivadupasa.ngamyopahArapANayo.aShTottarashatopaniShada.n",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 153,
-          "sanskrit": "vidhivadadhItya shravaNamanananididhyAsanAni nairantaryeNa kR^itvA",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 154,
-          "sanskrit": "prArabdhakShayAddehatrayabha.ngaM prApyopAdhivinirmukta\\-",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 155,
-          "sanskrit": "ghaTAkAshavatparipUrNatA videhamuktiH . saiva kaivalyamuktiriti .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 156,
-          "sanskrit": "ata eva brahmalokasthA api brahmamukhAdvedAntashravaNAdi kR^itvA",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 157,
-          "sanskrit": "tena saha kaivalya.n labhante . ataH sarveShA.n kaivalyamuktirj~nAnamAtreNoktA .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 158,
-          "sanskrit": "na karmasA.nkhyayogopAsanAdibhirityupaniShat.h ..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 159,
-          "sanskrit": "iti prathamo.adhyAyaH .. 1..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 160,
-          "sanskrit": "tathA haina.n shrIrAmachandraM mArutiH paprachCha .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 161,
-          "sanskrit": "keya.n vA tatsiddhiH siddhyA vA kiM prayojanamiti .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 162,
-          "sanskrit": "sahovAcha shrIrAmaH . puruShasya kartR^itvabhoktR^itva\\-",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 163,
-          "sanskrit": "sukhaduHkhAdilakShaNashchittadharmaH klesharUpatvAdbandho",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 164,
-          "sanskrit": "bhavati . tannirodhana.n jIvanmuktiH . upAdhivinirmukta\\-",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 165,
-          "sanskrit": "ghaTAkAshavatprArabdhakShayAdvidehamuktiH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 166,
-          "sanskrit": "jIvanmuktividehamuktyoraShTottarashatopaniShadaH pramANam.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 167,
-          "sanskrit": "kartR^itvAdiduHkhanivR^ittidvArA nityAnandAvAptiH prayojanaM",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 168,
-          "sanskrit": "bhavati . tatpuruShaprayatnasAdhyaM bhavati . yathA putrakAmeShTinA",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 169,
-          "sanskrit": "putra.n vANijyAdinA vitta.n jyotiShTomena svarga.n tathA",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 170,
-          "sanskrit": "puruShaprayatnasAdhyavedAntashravaNAdijanitasamAdhinA",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 171,
-          "sanskrit": "jIvanmuktyAdilAbho bhavati . sarvavAsanAkShayAttallAbhaH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 172,
-          "sanskrit": "atra shlokA bhavanti ..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 173,
-          "sanskrit": "uchChAstra.n shAstrita.n cheti pauruSha.n dvividhaM matam.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 174,
-          "sanskrit": "atrochChastramanarthAya paramArthAya shAstritam.h .. 1..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 175,
-          "sanskrit": "lokavAsanayA jantoH shAstravAsanayApi cha .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 176,
-          "sanskrit": "dehavAsanayA j~nAna.n yathAvannaiva jAyate .. 2..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 177,
-          "sanskrit": "dvividhA vAsanAvyUhaH shubhashchaivAshubhashcha tau .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 178,
-          "sanskrit": "vAsanaughena shuddhena tatra chedanunIyase .. 3..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 179,
-          "sanskrit": "tatkrameNAshu tenaiva mAmakaM padamApnuhi .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 180,
-          "sanskrit": "atha chedashubho bhAvastvA.n yojayati sa.nkaTe .. 4..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 181,
-          "sanskrit": "prAktanastadasau yatnAjjetavyo bhavatA kape .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 182,
-          "sanskrit": "shubhAshubhAbhyAM mArgAbhyA.n vahantI vAsanAsarit.h .. 5..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 183,
-          "sanskrit": "pauruSheNa prayatnena yojanIyA shubhe pathi .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 184,
-          "sanskrit": "ashubheShu samAviShTa.n shubheShvevAvatArayet.h .. 6..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 185,
-          "sanskrit": "ashubhAchchAlita.n yAti shubha.n tasmAdapItarat.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 186,
-          "sanskrit": "pauruSheNa prayatnena lAlayechchittabAlakam.h ..7..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 187,
-          "sanskrit": "drAgabhyAsavashAdyAti yadA te vAsanodayam.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 188,
-          "sanskrit": "tadAbhyAsasya sAphalya.n viddhi tvamamarimardana .. 8..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 189,
-          "sanskrit": "sandigdhAyAmapi bhR^isha.n shubhAmeva samAchara .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 190,
-          "sanskrit": "shubhAyA.n vAsanAvR^iddhau na doShAya marutsuta .. 9..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 191,
-          "sanskrit": "vAsanAkShayavij~nAnamanonAshA mahAmate .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 192,
-          "sanskrit": "samakAla.n chirAbhyastA bhavanti phaladA matAH .. 10..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 193,
-          "sanskrit": "traya eva.n sama.n yAvannAbhyastAshcha punaH punaH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 194,
-          "sanskrit": "tAvanna padasamprAptirbhavatyapi samAshataiH .. 11..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 195,
-          "sanskrit": "ekaikasho niShevyante yadyete chiramapyalam.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 196,
-          "sanskrit": "tanna siddhiM prayachChanti mantrAH sa.nkIrtitA iva .. 12..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 197,
-          "sanskrit": "tribhiretaishchirAbhyastairhR^idayagranthayo dR^iDhAH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 198,
-          "sanskrit": "niHsha~Nkameva truThyanti bisachChedAdguNA iva .. 13..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 199,
-          "sanskrit": "janmAntashatAbhyastA mithyA sa.nsAravAsanA .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 200,
-          "sanskrit": "sA chirAbhyAsayogena vinA na kShIyate kvachit.h .. 14..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 201,
-          "sanskrit": "tasmAtsaumya prayatnena pauruSheNa vivekinA .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 202,
-          "sanskrit": "bhogechChA.n dUratastyaktvA trayameva samAshraya .. 15..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 203,
-          "sanskrit": "tasmAdvAsanayA yuktaM mano baddha.n vidurbudhAH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 204,
-          "sanskrit": "samyagvAsanayA tyaktaM muktamityabhidhIyate .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 205,
-          "sanskrit": "manonirvAsanIbhAvamAcharAshu mahAkape .. 16..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 206,
-          "sanskrit": "samyagAlochanAtsatyAdvAsanA pravilIyate .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 207,
-          "sanskrit": "vAsanAvilaye chetaH shamamAyAti dIpavat.h .. 17..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 208,
-          "sanskrit": "vAsanA.n samparityajya mayi chinmAtra vigrahe .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 209,
-          "sanskrit": "yastiShThati gato vyagraH so.aha.n sachchitsukhAtmakaH .. 18..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 210,
-          "sanskrit": "samAdhimatha kAryANi mA karotu karotu vA .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 211,
-          "sanskrit": "hR^idayenAttasarveho mukta evottamAshayaH .. 19..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 212,
-          "sanskrit": "naiShkarmyeNa na tasyArthastasyArtho.asti na karmabhiH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 213,
-          "sanskrit": "na sasAdhanajApyAbhyA.n yasya nirvAsanaM manaH .. 20..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 214,
-          "sanskrit": "sa.ntyaktavAsanAnmaunAdR^ite nAstyuttamaM padam.h .. 21..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 215,
-          "sanskrit": "vAsanAhInamapyetachchakShurAdIndriya.n svataH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 216,
-          "sanskrit": "pravartate bahiH svA.arthe vAsanAmAtrakAraNam.h .. 22..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 217,
-          "sanskrit": "ayatnopanateShvakShi dR^igdravyeShu yathA punaH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 218,
-          "sanskrit": "nIrAgameva patati tadvatkAryeShu dhIradhIH .. 23..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 219,
-          "sanskrit": "bhAvasa.nvitprakaTitAmanurUpA cha mArute .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 220,
-          "sanskrit": "chittasyotpatyuparamA vAsanAM munayo viduH .. 24..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 221,
-          "sanskrit": "dR^iDhAbhyastapadArthaikabhAvanAdaticha~nchalam.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 222,
-          "sanskrit": "chitta.n sa.njAyate janmajarAmaraNakAraNam.h .. 25..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 223,
-          "sanskrit": "vAsanAvashataH prANaspandastena cha vAsanA .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 224,
-          "sanskrit": "kriyate chittabIjasya tena bIjA~NkurakramaH .. 26..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 225,
-          "sanskrit": "dve bIje chittavR^ikShasya prANaspandanavAsane .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 226,
-          "sanskrit": "ekasmi.nshcha tayoH kShINe kShipra.n dve api nashyataH .. 27..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 227,
-          "sanskrit": "asa~NgavyavahAratvAdbhavabhAvanavarjanAt.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 228,
-          "sanskrit": "sharIranAshadarshitvAdvAsanA na pravartate .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 229,
-          "sanskrit": "vAsanAsamparityAgAchchita.n gachChatyachittatAm.h .. 28..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 230,
-          "sanskrit": "avAsanatvAtsatata.n yadA na manute manaH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 231,
-          "sanskrit": "amanastA tadodeti paramopashamapradA .. 29..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 232,
-          "sanskrit": "avyutpannamanA yAvadbhavAnaj~nAtatatpadaH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 233,
-          "sanskrit": "gurushAstrapramANaistu nirNIta.n tAvadAchara .. 30..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 234,
-          "sanskrit": "tataH pakvakaShAyeNa nUna.n vij~nAta vastunA .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 235,
-          "sanskrit": "shubho.apyasau tvayA tyAjyo vAsanaugho nirAdhinA .. 31..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 236,
-          "sanskrit": "dvividhachittanAsho.asti sarUpo.arUpa eva cha .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 237,
-          "sanskrit": "jIvanmuktaH sarUpaH syAdarUpo dehamuktigaH .. 32..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 238,
-          "sanskrit": "asya nAshamidAnI.n tvaM pAvane shruNu sAdaram.h .. 33.",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 239,
-          "sanskrit": "chittAnAshAbhidhAna.n hi yadA te vidyate punaH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 240,
-          "sanskrit": "maitryAdibhirguNairyukta.n shAntimeti na sa.nshayaH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 241,
-          "sanskrit": "bhUyojanmavinirmukta.n jIvanmuktasya tanmanaH .. 34..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 242,
-          "sanskrit": "sarUpo.asau manonAsho jIvanmuktasya vidyate .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 243,
-          "sanskrit": "arUpastu manonAsho vaidehI muktigo bhavet.h .. 35..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 244,
-          "sanskrit": "sahasrA~NkurashAkhAtmaphalapallavashAlinaH .. 36..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 245,
-          "sanskrit": "asya sa.nsAravR^ikShasya manomUlamida.n sthitam.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 246,
-          "sanskrit": "sa.nkalpa eva tanmanye sa.nkalpopashamena tat.h .. 37..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 247,
-          "sanskrit": "shoShayAshu yathA shoShameti sa.nsArapAdapaH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 248,
-          "sanskrit": "upAya eka evAsti manasaH svasya nigrahe .. 38..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 249,
-          "sanskrit": "manaso.abhyudayo nAsho manonAsho mahodayaH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 250,
-          "sanskrit": "j~namano nAshamabhyeti mano j~nasya hi shR^i~NkhalA .. 39..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 251,
-          "sanskrit": "tAvannishIva vetAlA valganti hR^idi vAsanAH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 252,
-          "sanskrit": "ekatattvadR^iDhAbhyAsAdyAvanna vijitaM manaH .. 40..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 253,
-          "sanskrit": "prakShINachittadarpasya nigR^ihItendriyadviShaH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 254,
-          "sanskrit": "padminya iva hemante kShIyante bhogavAsanAH .. 41..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 255,
-          "sanskrit": "hasta.n hastena sampIDya dantairdantAnvichUrNya cha .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 256,
-          "sanskrit": "a~NgAnya~NgaiH samAkramya jayedAdau svakaM manaH .. 42..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 257,
-          "sanskrit": "upavishyopavishyaikA.n chintakena muhurmuhuH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 258,
-          "sanskrit": "na shakyate mano jetu.n vinA yuktimaninditAm.h .. 43..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 259,
-          "sanskrit": "a~Nkushena vinA matto yathA duShTamata~NgajaH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 260,
-          "sanskrit": "adhyAtmavidyAdhigamaH sAdhusa.ngatireva cha .. 44..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 261,
-          "sanskrit": "vAsanAsamparityAgaH prANaspandanirodhanam.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 262,
-          "sanskrit": "etAstA yuktayaH puShTAH santi chittajaye kila .. 45..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 263,
-          "sanskrit": "satIShu yuktiShvetAsu haThAnniyamanti ye .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 264,
-          "sanskrit": "chetaso dIpamutsR^ijya vichinvanti tamo.a~njanaiH .. 46..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 265,
-          "sanskrit": "vimUDhAH kartumudyuktA ye haThAchchetaso jayam.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 266,
-          "sanskrit": "te nibadhnanti nAgendramunmattaM bisatantubhiH .. 47..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 267,
-          "sanskrit": "dve bIje chittavR^ikShasya vR^ittivratatidhAraNaH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 268,
-          "sanskrit": "ekaM prANaparispando dvitIya.n dR^iDhabhAvanA .. 48..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 269,
-          "sanskrit": "sA hi sarvagatA sa.nvitprANAspandena chAlyate .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 270,
-          "sanskrit": "chittaikAgryAdyato j~nAnamukta.n samupajAyate .. 49..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 271,
-          "sanskrit": "tatsAdhanamatho dhyAna.n yathAvadupadishyate .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 272,
-          "sanskrit": "vinApyavikR^iti.n kR^itsnA.n saMbhavavyatyayakramAt.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 273,
-          "sanskrit": "yasho.ariShTa.n cha chinmAtra.n chidAnanda.n vichintaya .. 50..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 274,
-          "sanskrit": "apAne.asta.ngate prANo yAvannAbhyudito hR^idi .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 275,
-          "sanskrit": "tAvatsA kuMbhakAvasthA yogibhiryAnubhUyate .. 51..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 276,
-          "sanskrit": "bahirasta.ngate prANe yAvannApAna udgataH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 277,
-          "sanskrit": "tAvatpUrNA.n samAvasthAM bahiShTha.n kumbhaka.n viduH .. 52..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 278,
-          "sanskrit": "brahmAkAramanovR^ittipravAho.aha.nkR^ita.n vinA .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 279,
-          "sanskrit": "sampraj~nAtasamAdhiH syAddhyAnAbhyAsaprakarShataH .. 53..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 280,
-          "sanskrit": "prashAntavR^ittika.n chitta.n paramAnandadAyakam.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 281,
-          "sanskrit": "asampraj~nAtanAmAya.n samAdhiryoginAM priyaH .. 54..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 282,
-          "sanskrit": "prabhAshUnyaM manaHshUnyaM buddhishUnya.n chidAtmakam.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 283,
-          "sanskrit": "atadvyAvR^ittirUpo.asau samAdhirmunibhAvitaH .. 55..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 284,
-          "sanskrit": "UrdhvapUrNamadhaHpUrNaM madhyapUrNa.n shivAtmakam.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 285,
-          "sanskrit": "sAkShAdvidhimukho hyeSha samAdhiH pAramArthikaH .. 56..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 286,
-          "sanskrit": "dR^iDhabhAvanayA tyaktapUrvAparavichAraNam.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 287,
-          "sanskrit": "yadAdAna.n padArthasya vAsanA sA prakIrtitA .. 57..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 288,
-          "sanskrit": "bhAvita.n tIvrasa.nvegAdAtmanA yattadeva saH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 289,
-          "sanskrit": "bhavatyAshu kapishreShTha vigatetaravAsanaH .. 58..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 290,
-          "sanskrit": "tAdR^igrUpo hi puruSho vAsanAvivashIkR^itaH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 291,
-          "sanskrit": "sampashyati yadaivaitatsadvastviti vimuhyati .. 59..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 292,
-          "sanskrit": "vAsanAvegavaichitryAtsvarUpa.n na jahAti tat.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 293,
-          "sanskrit": "bhrAntaM pashyati durdR^iShTiH sarvaM madavashAdiva .. 60..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 294,
-          "sanskrit": "vAsanA dvividhA proktA shuddhA cha malinA tathA .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 295,
-          "sanskrit": "malinA janmahetuH syAchChuddhA janmavinAshinI .. 61..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 296,
-          "sanskrit": "aj~nAnasughanAkArA ghanAha.nkArashAlinI .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 297,
-          "sanskrit": "punarjanmakarI proktA malinA vAsanA budhaiH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 298,
-          "sanskrit": "punarjanmA~Nkura.n tyaktvA sthitiH saMbhR^iShTabIjavat.h .. 62..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 299,
-          "sanskrit": "bahushAstrakathAkanthAromanthena vR^ithaiva kim.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 300,
-          "sanskrit": "anveShTavyaM prayatnena mArute jyotirAntaram.h .. 63..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 301,
-          "sanskrit": "darshanAdarshane hitvA svaya.n kevalarUpataH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 302,
-          "sanskrit": "ya Aste kapishArdUla brahma sa brahmavitsvayam.h .. 64..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 303,
-          "sanskrit": "adhItya chaturo vedAnsarvashAstrANyanekashaH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 304,
-          "sanskrit": "brahmatattva.n na jAnAti darvI pAkarasa.n yathA .. 65..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 305,
-          "sanskrit": "svadehAshuchigandhena na virajyeta yaH pumAn.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 306,
-          "sanskrit": "virAgakAraNa.n tasya kimanyadupadishyate .. 66..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 307,
-          "sanskrit": "atyantamalino deho dehI chAtyantanirmalaH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 308,
-          "sanskrit": "ubhayorantara.n j~nAtvA kasya shaucha.n vidhIyate .. 67..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 309,
-          "sanskrit": "baddho hi vAsanAbaddho mokShaH syAdvAsanAkShayaH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 310,
-          "sanskrit": "vAsanA.n samparityajya mokShArthitvamapi tyaja .. 68..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 311,
-          "sanskrit": "mAnasIrvAsanAH pUrva.n tyaktvA viShayavAsanAH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 312,
-          "sanskrit": "maitryAdivAsanAnAmnIrgR^ihANAmalavAsanAH .. 69..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 313,
-          "sanskrit": "tA apyataH parityajya tAbhirvyavaharannapi .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 314,
-          "sanskrit": "antaHshAntaH samasneho bhava chinmAtravAsanaH .. 70..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 315,
-          "sanskrit": "tAmapyatha parityajya manobuddhisamanvitAm.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 316,
-          "sanskrit": "sheShasthirasamAdhAno mayi tvaM bhava mArute .. 71..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 317,
-          "sanskrit": "ashabdamasparshamarUpamavyaya.n",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 318,
-          "sanskrit": "tathA.arasa.n nityamagandhavachcha yat.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 319,
-          "sanskrit": "anAmagotraM mama rUpamIdR^ishaM",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 320,
-          "sanskrit": "bhajasva nityaM pavanAtmajArtihan.h .. 72..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 321,
-          "sanskrit": "dR^ishisvarUpa.n gaganopamaM paraM",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 322,
-          "sanskrit": "sakR^idvibhAta.n tvajamekamakSharam.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 323,
-          "sanskrit": "alepaka.n sarvagata.n yadadvayaM",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 324,
-          "sanskrit": "tadeva chAha.n sakala.n vimuktaOM .. 73..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 325,
-          "sanskrit": "dR^ishistu shuddho.ahamavikriyAtmako",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 326,
-          "sanskrit": "na me.asti kashchidviShayaH svabhAvataH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 327,
-          "sanskrit": "purastirashchordhvamadhashcha sarvataH",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 328,
-          "sanskrit": "supUrNabhUmAhamitIha bhAvaya .. 74..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 329,
-          "sanskrit": "ajo.amarashchaiva tathAjaro.amR^itaH",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 330,
-          "sanskrit": "svayaMprabhaH sarvagato.ahamavyayaH .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 331,
-          "sanskrit": "na kAraNa.n kAryamatItya nirmalaH",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 332,
-          "sanskrit": "sadaiva tR^ipto.ahamitIha bhAvaya .. 75..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 333,
-          "sanskrit": "jIvanmuktapada.n tyaktvA svadehe kAlasAtkR^ite .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 334,
-          "sanskrit": "vishatyadehamuktatvaM pavano.aspandatAmiva .. 76..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 335,
-          "sanskrit": "tadetadR^ichAbhyuktam.h ..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 336,
-          "sanskrit": "tadviShNoH paramaM pada.n sadA pashyanti sUrayaH . divIva chakShurAtatam.h ..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 337,
-          "sanskrit": "tadviprAso vipanyavo jAgR^ivA.nsaH samindhate . viShNoryatparamaM padam.h ..",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 338,
-          "sanskrit": "OM satyamityupaniShat.h .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 339,
-          "sanskrit": "OM pUrNamadaH pUrNamidaM pUrNAtpUrNamudachyate .",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 340,
           "sanskrit": "pUrNasya pUrNamAdAya pUrNamevAvashiShyate ..",
           "transliteration": "",
           "translation": "",
           "hindi": ""
         },
         {
+          "number": 7,
+          "sanskrit": "OM shAntiH shAntiH shAntiH ..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 8,
+          "sanskrit": "OM ayodhyAnagare ramye ratnamaNDapamadhyame .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 9,
+          "sanskrit": "sItAbharatasaumitrishatrughnAdyaiH samanvitam.h .. 1..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 10,
+          "sanskrit": "sanakAdyairmunigaNairvasiShThAdyaiH shukAdibhiH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 11,
+          "sanskrit": "anyairbhAgavataishchApi stUyamAnamaharnisham.h .. 2..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 12,
+          "sanskrit": "dhIvikriyAsahasrANA.n sAkShiNa.n nirvikAriNam.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 13,
+          "sanskrit": "svarUpadhyAnanirata.n samAdhivirame harim.h .. 3..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 14,
+          "sanskrit": "bhaktyA shushrUShayA rAma.n stuvanpaprachCha mArutiH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 15,
+          "sanskrit": "rAma tvaM paramAtmasi sachchidAnandavigrahaH .. 4..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 16,
+          "sanskrit": "idAnI.n tvA.n raghushreShTha praNamAmi muhurmuhuH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 17,
+          "sanskrit": "tvadrUpa.n j~nAtumichChAmi tattvato rAma muktaye .. 5..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 18,
+          "sanskrit": "anAyAsena yenAhaM muchyeyaM bhavabandhanAt.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 19,
+          "sanskrit": "kR^ipayA vada me rAma yena mukto bhavAmyaham.h .. 6..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 20,
+          "sanskrit": "sAdhu pR^iShTaM mahAbAho vadAmi shR^iNu tattvataH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 21,
+          "sanskrit": "vedAnte supratiShTho.aha.n vedAnta.n samupAshraya .. 7..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 22,
+          "sanskrit": "vedAntAH ke raghushreShTha vartante kutra te vada .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 23,
+          "sanskrit": "hanUma~nChR^iNu vakShyAmi vedAntasthitima~njasA .. 8..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 24,
+          "sanskrit": "nishvAsabhUtA me viShNorvedA jAtAH suvistarAH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 25,
+          "sanskrit": "tileShu tailavadvede vedAntaH supratiShThitaH .. 9..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 26,
+          "sanskrit": "rAma vedAH katividhAsteShA.n shAkhAshcha rAghava .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 27,
+          "sanskrit": "tAsUpaniShadAH kAH syuH kR^ipayA vada tattvataH .. 10..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 28,
+          "sanskrit": "shrIrAma uvAcha .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 29,
+          "sanskrit": "R^igvedAdivibhAgena vedAshchatvAra IritAH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 30,
+          "sanskrit": "teShA.n shAkhA hyanekAH syustAsUpaniShadastathA .. 11..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 31,
+          "sanskrit": "R^igvedasya tu shAkhAH syurekavi.nshatisa~NkhyakAH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 32,
+          "sanskrit": "navAdhikashata.n shAkhA yajuSho mArutAtmaja .. 12..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 33,
+          "sanskrit": "sahasrasa~NkhyayA jAtAH shAkhAH sAmnaH parantapa .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 34,
+          "sanskrit": "atharvaNasya shAkhAH syuH pa~nchAshadbhedato hare .. 13..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 35,
+          "sanskrit": "ekaikasyAstu shAkhAyA ekaikopaniShanmatA .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 36,
+          "sanskrit": "tAsAmekAmR^icha.n yashcha paThate bhaktito mayi .. 14..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 37,
+          "sanskrit": "sa matsAyujyapadavIM prApnoti munidurlabhAm.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 38,
+          "sanskrit": "rAma kechinmunishreShThA muktireketi chakShire .. 15..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 39,
+          "sanskrit": "kechittvannAmabhajanAtkAshyA.n tAropadeshataH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 40,
+          "sanskrit": "anyetu sA~Nkhyayogena bhaktiyogena chApare .. 16..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 41,
+          "sanskrit": "anye vedAntavAkyArthavichArAtparamarShayaH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 42,
+          "sanskrit": "sAlokyAdivibhAgena chaturdhA muktirIritA .. 17..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 43,
+          "sanskrit": "sahovAcha shrIrAmaH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 44,
+          "sanskrit": "kaivalyamuktirekaiva paramArthikarUpiNI .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 45,
+          "sanskrit": "durAchArarato vApi mannAmabhajanAtkape .. 18..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 46,
+          "sanskrit": "sAlokyamuktimApnoti na tu lokAntarAdikam.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 47,
+          "sanskrit": "kAshyA.n tu brahmanAle.asminmR^ito mattAramApnuyAt.h .. 19..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 48,
+          "sanskrit": "punarAvR^ittirahitAM muktiM prApnoti mAnavaH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 49,
+          "sanskrit": "yatra kutrApi vA kAshyAM maraNe sa maheshvaraH .. 20..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 50,
+          "sanskrit": "jantordakShiNakarNe tu mattAra.n samupAdishet.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 51,
+          "sanskrit": "nirdhUtAsheShapApaugho matsArUpyaM bhajatyayam.h .. 21..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 52,
+          "sanskrit": "saiva sAlokyasArUpyamuktiratyabhidhIyate .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 53,
+          "sanskrit": "sadAchArarato bhUtvA dvijo nityamananyadhIH .. 22..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 54,
+          "sanskrit": "mayi sarvAtmako bhAvo matsAmIpyaM bhajatyayam.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 55,
+          "sanskrit": "saiva sAlokyasArUpyasAmIpyA muktiriShyate .. 23..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 56,
+          "sanskrit": "gurUpadiShTamArgeNa dhyAyanmadguNamavyayam.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 57,
+          "sanskrit": "matsAyujya.n dvijaH samyagbhajedbhramarakITavat.h .. 24..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 58,
+          "sanskrit": "saiva sAyujyamuktiH syAdbrahmAnandakarI shivA .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 59,
+          "sanskrit": "chaturvidhA tu yA muktirmadupAsanayA bhavet.h .. 25..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 60,
+          "sanskrit": "iya.n kaivalyamuktistu kenopAyena siddhyati .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 61,
+          "sanskrit": "mANDUkyamekamevAlaM mumukShUNA.n vimuktaye .. 26..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 62,
+          "sanskrit": "tathApyasiddha.n chejj~nAna.n dashopaniShadaM paTha .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 63,
+          "sanskrit": "j~nAna.n labdhvA chirAdeva mAmaka.n dhAma yAsyasi .. 27..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 64,
+          "sanskrit": "tathApi dR^iDhatA na chedvidj~nAnasyA~njanAsuta .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 65,
+          "sanskrit": "dvAtri.nshAkhyopaniShada.n samabhyasya nivartaya .. 28..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 66,
+          "sanskrit": "videhamuktAvichChA chedaShTottarashataM paTha .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 67,
+          "sanskrit": "tAsA.n krama sashAnti.n cha shruNu vakShyAmi tattvataH .. 29..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 68,
+          "sanskrit": "IshakenakaThaprashnamuNDamANDUkyatittiriH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 69,
+          "sanskrit": "aitareya.n cha ChAndogyaM bR^ihadAraNyaka.n tathA .. 30..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 70,
+          "sanskrit": "brahmakaivalyajAbAlashvetAshvo ha.nsa AruNiH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 71,
+          "sanskrit": "garbho nArAyaNo ha.nso bindurnAdashiraH shikhA .. 31..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 72,
+          "sanskrit": "maitrAyaNI kauShItakI bR^ihajjAbAlatApanI .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 73,
+          "sanskrit": "kAlAgnirudramaitreyI subAlakShurimantrikA .. 32..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 74,
+          "sanskrit": "sarvasAra.n nirAlamba.n rahasya.n vajrasUchikam.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 75,
+          "sanskrit": "tejonAdadhyAnavidyAyogatattvAtmabodhakam.h .. 33..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 76,
+          "sanskrit": "parivrAT trishikhI sItA chUDA nirvANamaNDalam.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 77,
+          "sanskrit": "dakShiNA sharabha.n skandaM mahAnArAyaNAhvayam.h .. 34..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 78,
+          "sanskrit": "rahasya.n rAmatapana.n vAsudeva.n cha mudgalam.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 79,
+          "sanskrit": "shANDilyaM pai~NgalaM bhikShumahachChArIraka.n shikhA .. 35..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 80,
+          "sanskrit": "turIyAtItasa.nnyAsaparivrAjAkShamAlikA .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 81,
+          "sanskrit": "avyaktaikAkSharaM pUrNA sUryAkShyadhyAtmakuNDikA .. 36..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 82,
+          "sanskrit": "sAvitryAtmA pAshupataM paraM brahmAvadhUtakam.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 83,
+          "sanskrit": "tripurAtapana.n devItripurA kaThabhAvanA .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 84,
+          "sanskrit": "hR^idaya.n kuNDalI bhasma rudrAkShagaNadarshanam.h .. 37..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 85,
+          "sanskrit": "tArasAramahAvAkya pa~nchabrahmAgnihotrakam.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 86,
+          "sanskrit": "gopAlatapana.n kR^iShNa.n yAj~navalkya.n varAhakam.h .. 38..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 87,
+          "sanskrit": "shATyAyanI hayagrIva.n dattAtreya.n cha gAruDam.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 88,
+          "sanskrit": "kalijAbAlisaubhAgyarahasyaR^ichamuktikA .. 39..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 89,
+          "sanskrit": "evamaShTottarashataM bhAvanAtrayanAshanam.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 90,
+          "sanskrit": "j~nAnavairAgyadaM pu.nsA.n vAsanAtrayanAshanam.h .. 40..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 91,
+          "sanskrit": "pUrvottareShu vihitatattachChAntipuraHsaram.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 92,
+          "sanskrit": "vedavidyAvratasnAtadeshikasya mukhAtsvayam.h .. 41..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 93,
+          "sanskrit": "gR^ihItvAShTottarashata.n ye paThanti dvijottamAH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 94,
+          "sanskrit": "prArabdhakShayaparyanta.n jIvanmuktA bhavanti te .. 42..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 95,
+          "sanskrit": "tataH kAlavashAdeva prArabdhe tu kShaya.n gate .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 96,
+          "sanskrit": "vaidehIM mAmakIM mukti.n yAnti nAstyatrasa.nshayaH .. 43..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 97,
+          "sanskrit": "sarvopaniShadAM madhye sAramaShTottarashatam.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 98,
+          "sanskrit": "sakR^ichChravaNamAtreNa sarvAghaughanikR^intanam.h .. 44..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 99,
+          "sanskrit": "mayopadiShTa.n shiShyAya tubhyaM pavananandana .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 100,
+          "sanskrit": "ida.n shAstraM mayAdiShTa.n guhyamaShTottara.n shatam.h .. 45..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 101,
+          "sanskrit": "j~nAnato.aj~nAnato vApi paThatAM bandhamochakam.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 102,
+          "sanskrit": "rAjya.n deya.n dhana.n deya.n yAchataH kAmapUraNam.h .. 45..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 103,
+          "sanskrit": "idamaShTottarashata.n na deya.n yasya kasyachit.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 104,
+          "sanskrit": "nAstikAya kR^itaghnAya durAchAraratAya vai .. 47..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 105,
+          "sanskrit": "madbhaktivimukhAyApi shAstragarteShu muhyate .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 106,
+          "sanskrit": "gurubhaktivihInAya dAtavya.n na kadAchana .. 48..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 107,
+          "sanskrit": "sevAparAya shiShyAya hitaputrAya mArute .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 108,
+          "sanskrit": "madbhaktAya sushIlAya kulInAya sumedhase .. 49..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 109,
+          "sanskrit": "samyak parIkShya dAtavyamevamaShTottara.n shatam.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 110,
+          "sanskrit": "yaH paThechChR^iNuyAdvApi sa mAmeti na sa.nshayaH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 111,
+          "sanskrit": "tadetadR^ichAbhyuktam.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 112,
+          "sanskrit": "vidyA ha vai brAhmaNamAjagAma",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 113,
+          "sanskrit": "gopAya mA shevadhiShTee.ahamasmi .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 114,
+          "sanskrit": "asUyakAyAnR^ijave shaThAya",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 115,
+          "sanskrit": "mA mA brUyA vIryavatI tathA syAm.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 116,
+          "sanskrit": "yameva vidyAshrutamapramattaM",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 117,
+          "sanskrit": "medhAvinaM brahmacharyopapannam.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 118,
+          "sanskrit": "tasmA imAmupasannAya samyak",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 119,
+          "sanskrit": "parIkShya dadyAdvaiShNavImAtmaniShThAm.h .. 1.. iti ..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 120,
+          "sanskrit": "atha haina.n shrIrAmachandraM mArutiH paprachCha",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 121,
+          "sanskrit": "R^igvedAdivibhAgena pR^ithak shAntimanubrUhIti .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 122,
+          "sanskrit": "sa hovAcha shrIrAmaH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 123,
+          "sanskrit": "aitareyakauShItakInAdabindvAtmaprabodhanirvANa\\-",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 124,
+          "sanskrit": "mudgalAkShamAlikAtripurAsaubhAgyabahvR^ichA",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 125,
+          "sanskrit": "nAmR^igvedagatAnA.n dashasa.nkhyAkAnAmupaniShadA.n",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 126,
+          "sanskrit": "vA~Nme manasIti shAntiH .. 1..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 127,
+          "sanskrit": "IshAvAsyabR^ihadAraNyajAbAlaha.nsaparamaha.nsasubAla\\-",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 128,
+          "sanskrit": "mantrikAnirAlambatrishikhIbrAhmaNamaNDalabrAhmaNAdvayatAraka\\-",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 129,
+          "sanskrit": "pai~NgalabhikShuturIyAtItAdhyAtmatArasArayAj~navalkya\\-",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 130,
+          "sanskrit": "shATyAyanImuktikAnA.n shuklayajurvedagatAnAmekonavi.nshati\\-",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 131,
+          "sanskrit": "sa.nkhyAkAnAmupaniShadAM pUrNamada iti shAntiH .. 2..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 132,
+          "sanskrit": "kaThavallItaittirIyakabrahmakaivalyashvetAshvataragarbha\\-",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 133,
+          "sanskrit": "nArAyaNAmR^itabindvamR^itanAdakAlAgnirudrakShurikA\\-",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 134,
+          "sanskrit": "sarvasArashukarahasyatejobindudhyAnabindubrahmavidyA\\-",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 135,
+          "sanskrit": "yogatattvadakShiNAmUrtiskandashArIrakayogashikhaikAkShara\\-",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 136,
+          "sanskrit": "akShyavadhUtakaTharudrahR^idayayogakuNDalinIpa~nchabrahma\\-",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 137,
+          "sanskrit": "prANAgnihotravarAhakalisantaraNasarasvatIrahasyAnA.n",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 138,
+          "sanskrit": "kR^iShNayajurvedagatAnA.n dvAtri.nshatsa.nkhyAkAnamupaniShadA.n",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 139,
+          "sanskrit": "saha nAvavatviti shAntiH .. 3..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 140,
+          "sanskrit": "kenaChAndogyAruNimaitrAyaNimaitreyIvajrasUchikAyogachUDAmaNi\\-",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 141,
+          "sanskrit": "vAsudevamahatsa.nnyAsAvyaktakuNDikAsAvitrIrudrAkShajAbAladarshana\\-",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 142,
+          "sanskrit": "jAbAlInA.n sAmavedagatAnA.n ShoDashasa.nkhyAkAnA\\-",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 143,
+          "sanskrit": "mupaniShadAnAmApyAyantviti shAntiH .. 4..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 144,
+          "sanskrit": "prashnamuNDakamANDukyAtharvashiro.atharvashikhAbR^ihajjAbAla\\-",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 145,
+          "sanskrit": "nR^isi.nhatApanInAradaparivrAjakasItAsharabhamahAnArAyaNa\\-",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 146,
+          "sanskrit": "rAmarahasyarAmatApanIshANDilyaparamaha.nsaparivrAjaka\\-",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 147,
+          "sanskrit": "annapUrNAsUryAtmapAshupataparabrahmatripurAtapanadevIbhAvanA\\-",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 148,
+          "sanskrit": "brahmajAbAlagaNapatimahAvAkyagopAlatapanakR^iShNahayagrIva\\-",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 149,
+          "sanskrit": "dattAtreyagAruDAnAmatharvavedagatAnAmekatri.nshatsa.nkhyAkAnA\\-",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 150,
+          "sanskrit": "mupaniShadAM bhadra.n karNebhiriti shAntiH .. 5..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 151,
+          "sanskrit": "mumukShavaH puruShAH sAdhanachatuShTayasampannAH",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 152,
+          "sanskrit": "shraddhAvantaH sukulabhava.n shrotriya.n shAstravAtsalya\\-",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 153,
+          "sanskrit": "guNavantamakuTila.n sarvabhUtahiterata.n dayAsamudra.n sadguru.n",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 154,
+          "sanskrit": "vidhivadupasa.ngamyopahArapANayo.aShTottarashatopaniShada.n",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 155,
+          "sanskrit": "vidhivadadhItya shravaNamanananididhyAsanAni nairantaryeNa kR^itvA",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 156,
+          "sanskrit": "prArabdhakShayAddehatrayabha.ngaM prApyopAdhivinirmukta\\-",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 157,
+          "sanskrit": "ghaTAkAshavatparipUrNatA videhamuktiH . saiva kaivalyamuktiriti .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 158,
+          "sanskrit": "ata eva brahmalokasthA api brahmamukhAdvedAntashravaNAdi kR^itvA",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 159,
+          "sanskrit": "tena saha kaivalya.n labhante . ataH sarveShA.n kaivalyamuktirj~nAnamAtreNoktA .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 160,
+          "sanskrit": "na karmasA.nkhyayogopAsanAdibhirityupaniShat.h ..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 161,
+          "sanskrit": "iti prathamo.adhyAyaH .. 1..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 162,
+          "sanskrit": "tathA haina.n shrIrAmachandraM mArutiH paprachCha .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 163,
+          "sanskrit": "keya.n vA tatsiddhiH siddhyA vA kiM prayojanamiti .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 164,
+          "sanskrit": "sahovAcha shrIrAmaH . puruShasya kartR^itvabhoktR^itva\\-",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 165,
+          "sanskrit": "sukhaduHkhAdilakShaNashchittadharmaH klesharUpatvAdbandho",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 166,
+          "sanskrit": "bhavati . tannirodhana.n jIvanmuktiH . upAdhivinirmukta\\-",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 167,
+          "sanskrit": "ghaTAkAshavatprArabdhakShayAdvidehamuktiH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 168,
+          "sanskrit": "jIvanmuktividehamuktyoraShTottarashatopaniShadaH pramANam.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 169,
+          "sanskrit": "kartR^itvAdiduHkhanivR^ittidvArA nityAnandAvAptiH prayojanaM",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 170,
+          "sanskrit": "bhavati . tatpuruShaprayatnasAdhyaM bhavati . yathA putrakAmeShTinA",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 171,
+          "sanskrit": "putra.n vANijyAdinA vitta.n jyotiShTomena svarga.n tathA",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 172,
+          "sanskrit": "puruShaprayatnasAdhyavedAntashravaNAdijanitasamAdhinA",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 173,
+          "sanskrit": "jIvanmuktyAdilAbho bhavati . sarvavAsanAkShayAttallAbhaH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 174,
+          "sanskrit": "atra shlokA bhavanti ..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 175,
+          "sanskrit": "uchChAstra.n shAstrita.n cheti pauruSha.n dvividhaM matam.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 176,
+          "sanskrit": "atrochChastramanarthAya paramArthAya shAstritam.h .. 1..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 177,
+          "sanskrit": "lokavAsanayA jantoH shAstravAsanayApi cha .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 178,
+          "sanskrit": "dehavAsanayA j~nAna.n yathAvannaiva jAyate .. 2..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 179,
+          "sanskrit": "dvividhA vAsanAvyUhaH shubhashchaivAshubhashcha tau .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 180,
+          "sanskrit": "vAsanaughena shuddhena tatra chedanunIyase .. 3..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 181,
+          "sanskrit": "tatkrameNAshu tenaiva mAmakaM padamApnuhi .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 182,
+          "sanskrit": "atha chedashubho bhAvastvA.n yojayati sa.nkaTe .. 4..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 183,
+          "sanskrit": "prAktanastadasau yatnAjjetavyo bhavatA kape .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 184,
+          "sanskrit": "shubhAshubhAbhyAM mArgAbhyA.n vahantI vAsanAsarit.h .. 5..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 185,
+          "sanskrit": "pauruSheNa prayatnena yojanIyA shubhe pathi .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 186,
+          "sanskrit": "ashubheShu samAviShTa.n shubheShvevAvatArayet.h .. 6..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 187,
+          "sanskrit": "ashubhAchchAlita.n yAti shubha.n tasmAdapItarat.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 188,
+          "sanskrit": "pauruSheNa prayatnena lAlayechchittabAlakam.h ..7..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 189,
+          "sanskrit": "drAgabhyAsavashAdyAti yadA te vAsanodayam.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 190,
+          "sanskrit": "tadAbhyAsasya sAphalya.n viddhi tvamamarimardana .. 8..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 191,
+          "sanskrit": "sandigdhAyAmapi bhR^isha.n shubhAmeva samAchara .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 192,
+          "sanskrit": "shubhAyA.n vAsanAvR^iddhau na doShAya marutsuta .. 9..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 193,
+          "sanskrit": "vAsanAkShayavij~nAnamanonAshA mahAmate .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 194,
+          "sanskrit": "samakAla.n chirAbhyastA bhavanti phaladA matAH .. 10..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 195,
+          "sanskrit": "traya eva.n sama.n yAvannAbhyastAshcha punaH punaH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 196,
+          "sanskrit": "tAvanna padasamprAptirbhavatyapi samAshataiH .. 11..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 197,
+          "sanskrit": "ekaikasho niShevyante yadyete chiramapyalam.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 198,
+          "sanskrit": "tanna siddhiM prayachChanti mantrAH sa.nkIrtitA iva .. 12..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 199,
+          "sanskrit": "tribhiretaishchirAbhyastairhR^idayagranthayo dR^iDhAH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 200,
+          "sanskrit": "niHsha~Nkameva truThyanti bisachChedAdguNA iva .. 13..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 201,
+          "sanskrit": "janmAntashatAbhyastA mithyA sa.nsAravAsanA .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 202,
+          "sanskrit": "sA chirAbhyAsayogena vinA na kShIyate kvachit.h .. 14..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 203,
+          "sanskrit": "tasmAtsaumya prayatnena pauruSheNa vivekinA .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 204,
+          "sanskrit": "bhogechChA.n dUratastyaktvA trayameva samAshraya .. 15..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 205,
+          "sanskrit": "tasmAdvAsanayA yuktaM mano baddha.n vidurbudhAH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 206,
+          "sanskrit": "samyagvAsanayA tyaktaM muktamityabhidhIyate .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 207,
+          "sanskrit": "manonirvAsanIbhAvamAcharAshu mahAkape .. 16..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 208,
+          "sanskrit": "samyagAlochanAtsatyAdvAsanA pravilIyate .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 209,
+          "sanskrit": "vAsanAvilaye chetaH shamamAyAti dIpavat.h .. 17..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 210,
+          "sanskrit": "vAsanA.n samparityajya mayi chinmAtra vigrahe .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 211,
+          "sanskrit": "yastiShThati gato vyagraH so.aha.n sachchitsukhAtmakaH .. 18..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 212,
+          "sanskrit": "samAdhimatha kAryANi mA karotu karotu vA .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 213,
+          "sanskrit": "hR^idayenAttasarveho mukta evottamAshayaH .. 19..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 214,
+          "sanskrit": "naiShkarmyeNa na tasyArthastasyArtho.asti na karmabhiH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 215,
+          "sanskrit": "na sasAdhanajApyAbhyA.n yasya nirvAsanaM manaH .. 20..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 216,
+          "sanskrit": "sa.ntyaktavAsanAnmaunAdR^ite nAstyuttamaM padam.h .. 21..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 217,
+          "sanskrit": "vAsanAhInamapyetachchakShurAdIndriya.n svataH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 218,
+          "sanskrit": "pravartate bahiH svA.arthe vAsanAmAtrakAraNam.h .. 22..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 219,
+          "sanskrit": "ayatnopanateShvakShi dR^igdravyeShu yathA punaH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 220,
+          "sanskrit": "nIrAgameva patati tadvatkAryeShu dhIradhIH .. 23..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 221,
+          "sanskrit": "bhAvasa.nvitprakaTitAmanurUpA cha mArute .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 222,
+          "sanskrit": "chittasyotpatyuparamA vAsanAM munayo viduH .. 24..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 223,
+          "sanskrit": "dR^iDhAbhyastapadArthaikabhAvanAdaticha~nchalam.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 224,
+          "sanskrit": "chitta.n sa.njAyate janmajarAmaraNakAraNam.h .. 25..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 225,
+          "sanskrit": "vAsanAvashataH prANaspandastena cha vAsanA .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 226,
+          "sanskrit": "kriyate chittabIjasya tena bIjA~NkurakramaH .. 26..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 227,
+          "sanskrit": "dve bIje chittavR^ikShasya prANaspandanavAsane .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 228,
+          "sanskrit": "ekasmi.nshcha tayoH kShINe kShipra.n dve api nashyataH .. 27..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 229,
+          "sanskrit": "asa~NgavyavahAratvAdbhavabhAvanavarjanAt.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 230,
+          "sanskrit": "sharIranAshadarshitvAdvAsanA na pravartate .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 231,
+          "sanskrit": "vAsanAsamparityAgAchchita.n gachChatyachittatAm.h .. 28..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 232,
+          "sanskrit": "avAsanatvAtsatata.n yadA na manute manaH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 233,
+          "sanskrit": "amanastA tadodeti paramopashamapradA .. 29..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 234,
+          "sanskrit": "avyutpannamanA yAvadbhavAnaj~nAtatatpadaH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 235,
+          "sanskrit": "gurushAstrapramANaistu nirNIta.n tAvadAchara .. 30..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 236,
+          "sanskrit": "tataH pakvakaShAyeNa nUna.n vij~nAta vastunA .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 237,
+          "sanskrit": "shubho.apyasau tvayA tyAjyo vAsanaugho nirAdhinA .. 31..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 238,
+          "sanskrit": "dvividhachittanAsho.asti sarUpo.arUpa eva cha .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 239,
+          "sanskrit": "jIvanmuktaH sarUpaH syAdarUpo dehamuktigaH .. 32..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 240,
+          "sanskrit": "asya nAshamidAnI.n tvaM pAvane shruNu sAdaram.h .. 33.",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 241,
+          "sanskrit": "chittAnAshAbhidhAna.n hi yadA te vidyate punaH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 242,
+          "sanskrit": "maitryAdibhirguNairyukta.n shAntimeti na sa.nshayaH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 243,
+          "sanskrit": "bhUyojanmavinirmukta.n jIvanmuktasya tanmanaH .. 34..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 244,
+          "sanskrit": "sarUpo.asau manonAsho jIvanmuktasya vidyate .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 245,
+          "sanskrit": "arUpastu manonAsho vaidehI muktigo bhavet.h .. 35..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 246,
+          "sanskrit": "sahasrA~NkurashAkhAtmaphalapallavashAlinaH .. 36..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 247,
+          "sanskrit": "asya sa.nsAravR^ikShasya manomUlamida.n sthitam.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 248,
+          "sanskrit": "sa.nkalpa eva tanmanye sa.nkalpopashamena tat.h .. 37..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 249,
+          "sanskrit": "shoShayAshu yathA shoShameti sa.nsArapAdapaH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 250,
+          "sanskrit": "upAya eka evAsti manasaH svasya nigrahe .. 38..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 251,
+          "sanskrit": "manaso.abhyudayo nAsho manonAsho mahodayaH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 252,
+          "sanskrit": "j~namano nAshamabhyeti mano j~nasya hi shR^i~NkhalA .. 39..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 253,
+          "sanskrit": "tAvannishIva vetAlA valganti hR^idi vAsanAH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 254,
+          "sanskrit": "ekatattvadR^iDhAbhyAsAdyAvanna vijitaM manaH .. 40..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 255,
+          "sanskrit": "prakShINachittadarpasya nigR^ihItendriyadviShaH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 256,
+          "sanskrit": "padminya iva hemante kShIyante bhogavAsanAH .. 41..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 257,
+          "sanskrit": "hasta.n hastena sampIDya dantairdantAnvichUrNya cha .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 258,
+          "sanskrit": "a~NgAnya~NgaiH samAkramya jayedAdau svakaM manaH .. 42..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 259,
+          "sanskrit": "upavishyopavishyaikA.n chintakena muhurmuhuH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 260,
+          "sanskrit": "na shakyate mano jetu.n vinA yuktimaninditAm.h .. 43..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 261,
+          "sanskrit": "a~Nkushena vinA matto yathA duShTamata~NgajaH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 262,
+          "sanskrit": "adhyAtmavidyAdhigamaH sAdhusa.ngatireva cha .. 44..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 263,
+          "sanskrit": "vAsanAsamparityAgaH prANaspandanirodhanam.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 264,
+          "sanskrit": "etAstA yuktayaH puShTAH santi chittajaye kila .. 45..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 265,
+          "sanskrit": "satIShu yuktiShvetAsu haThAnniyamanti ye .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 266,
+          "sanskrit": "chetaso dIpamutsR^ijya vichinvanti tamo.a~njanaiH .. 46..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 267,
+          "sanskrit": "vimUDhAH kartumudyuktA ye haThAchchetaso jayam.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 268,
+          "sanskrit": "te nibadhnanti nAgendramunmattaM bisatantubhiH .. 47..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 269,
+          "sanskrit": "dve bIje chittavR^ikShasya vR^ittivratatidhAraNaH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 270,
+          "sanskrit": "ekaM prANaparispando dvitIya.n dR^iDhabhAvanA .. 48..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 271,
+          "sanskrit": "sA hi sarvagatA sa.nvitprANAspandena chAlyate .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 272,
+          "sanskrit": "chittaikAgryAdyato j~nAnamukta.n samupajAyate .. 49..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 273,
+          "sanskrit": "tatsAdhanamatho dhyAna.n yathAvadupadishyate .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 274,
+          "sanskrit": "vinApyavikR^iti.n kR^itsnA.n saMbhavavyatyayakramAt.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 275,
+          "sanskrit": "yasho.ariShTa.n cha chinmAtra.n chidAnanda.n vichintaya .. 50..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 276,
+          "sanskrit": "apAne.asta.ngate prANo yAvannAbhyudito hR^idi .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 277,
+          "sanskrit": "tAvatsA kuMbhakAvasthA yogibhiryAnubhUyate .. 51..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 278,
+          "sanskrit": "bahirasta.ngate prANe yAvannApAna udgataH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 279,
+          "sanskrit": "tAvatpUrNA.n samAvasthAM bahiShTha.n kumbhaka.n viduH .. 52..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 280,
+          "sanskrit": "brahmAkAramanovR^ittipravAho.aha.nkR^ita.n vinA .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 281,
+          "sanskrit": "sampraj~nAtasamAdhiH syAddhyAnAbhyAsaprakarShataH .. 53..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 282,
+          "sanskrit": "prashAntavR^ittika.n chitta.n paramAnandadAyakam.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 283,
+          "sanskrit": "asampraj~nAtanAmAya.n samAdhiryoginAM priyaH .. 54..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 284,
+          "sanskrit": "prabhAshUnyaM manaHshUnyaM buddhishUnya.n chidAtmakam.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 285,
+          "sanskrit": "atadvyAvR^ittirUpo.asau samAdhirmunibhAvitaH .. 55..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 286,
+          "sanskrit": "UrdhvapUrNamadhaHpUrNaM madhyapUrNa.n shivAtmakam.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 287,
+          "sanskrit": "sAkShAdvidhimukho hyeSha samAdhiH pAramArthikaH .. 56..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 288,
+          "sanskrit": "dR^iDhabhAvanayA tyaktapUrvAparavichAraNam.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 289,
+          "sanskrit": "yadAdAna.n padArthasya vAsanA sA prakIrtitA .. 57..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 290,
+          "sanskrit": "bhAvita.n tIvrasa.nvegAdAtmanA yattadeva saH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 291,
+          "sanskrit": "bhavatyAshu kapishreShTha vigatetaravAsanaH .. 58..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 292,
+          "sanskrit": "tAdR^igrUpo hi puruSho vAsanAvivashIkR^itaH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 293,
+          "sanskrit": "sampashyati yadaivaitatsadvastviti vimuhyati .. 59..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 294,
+          "sanskrit": "vAsanAvegavaichitryAtsvarUpa.n na jahAti tat.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 295,
+          "sanskrit": "bhrAntaM pashyati durdR^iShTiH sarvaM madavashAdiva .. 60..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 296,
+          "sanskrit": "vAsanA dvividhA proktA shuddhA cha malinA tathA .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 297,
+          "sanskrit": "malinA janmahetuH syAchChuddhA janmavinAshinI .. 61..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 298,
+          "sanskrit": "aj~nAnasughanAkArA ghanAha.nkArashAlinI .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 299,
+          "sanskrit": "punarjanmakarI proktA malinA vAsanA budhaiH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 300,
+          "sanskrit": "punarjanmA~Nkura.n tyaktvA sthitiH saMbhR^iShTabIjavat.h .. 62..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 301,
+          "sanskrit": "bahushAstrakathAkanthAromanthena vR^ithaiva kim.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 302,
+          "sanskrit": "anveShTavyaM prayatnena mArute jyotirAntaram.h .. 63..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 303,
+          "sanskrit": "darshanAdarshane hitvA svaya.n kevalarUpataH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 304,
+          "sanskrit": "ya Aste kapishArdUla brahma sa brahmavitsvayam.h .. 64..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 305,
+          "sanskrit": "adhItya chaturo vedAnsarvashAstrANyanekashaH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 306,
+          "sanskrit": "brahmatattva.n na jAnAti darvI pAkarasa.n yathA .. 65..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 307,
+          "sanskrit": "svadehAshuchigandhena na virajyeta yaH pumAn.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 308,
+          "sanskrit": "virAgakAraNa.n tasya kimanyadupadishyate .. 66..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 309,
+          "sanskrit": "atyantamalino deho dehI chAtyantanirmalaH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 310,
+          "sanskrit": "ubhayorantara.n j~nAtvA kasya shaucha.n vidhIyate .. 67..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 311,
+          "sanskrit": "baddho hi vAsanAbaddho mokShaH syAdvAsanAkShayaH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 312,
+          "sanskrit": "vAsanA.n samparityajya mokShArthitvamapi tyaja .. 68..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 313,
+          "sanskrit": "mAnasIrvAsanAH pUrva.n tyaktvA viShayavAsanAH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 314,
+          "sanskrit": "maitryAdivAsanAnAmnIrgR^ihANAmalavAsanAH .. 69..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 315,
+          "sanskrit": "tA apyataH parityajya tAbhirvyavaharannapi .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 316,
+          "sanskrit": "antaHshAntaH samasneho bhava chinmAtravAsanaH .. 70..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 317,
+          "sanskrit": "tAmapyatha parityajya manobuddhisamanvitAm.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 318,
+          "sanskrit": "sheShasthirasamAdhAno mayi tvaM bhava mArute .. 71..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 319,
+          "sanskrit": "ashabdamasparshamarUpamavyaya.n",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 320,
+          "sanskrit": "tathA.arasa.n nityamagandhavachcha yat.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 321,
+          "sanskrit": "anAmagotraM mama rUpamIdR^ishaM",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 322,
+          "sanskrit": "bhajasva nityaM pavanAtmajArtihan.h .. 72..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 323,
+          "sanskrit": "dR^ishisvarUpa.n gaganopamaM paraM",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 324,
+          "sanskrit": "sakR^idvibhAta.n tvajamekamakSharam.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 325,
+          "sanskrit": "alepaka.n sarvagata.n yadadvayaM",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 326,
+          "sanskrit": "tadeva chAha.n sakala.n vimuktaOM .. 73..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 327,
+          "sanskrit": "dR^ishistu shuddho.ahamavikriyAtmako",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 328,
+          "sanskrit": "na me.asti kashchidviShayaH svabhAvataH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 329,
+          "sanskrit": "purastirashchordhvamadhashcha sarvataH",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 330,
+          "sanskrit": "supUrNabhUmAhamitIha bhAvaya .. 74..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 331,
+          "sanskrit": "ajo.amarashchaiva tathAjaro.amR^itaH",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 332,
+          "sanskrit": "svayaMprabhaH sarvagato.ahamavyayaH .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 333,
+          "sanskrit": "na kAraNa.n kAryamatItya nirmalaH",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 334,
+          "sanskrit": "sadaiva tR^ipto.ahamitIha bhAvaya .. 75..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 335,
+          "sanskrit": "jIvanmuktapada.n tyaktvA svadehe kAlasAtkR^ite .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 336,
+          "sanskrit": "vishatyadehamuktatvaM pavano.aspandatAmiva .. 76..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 337,
+          "sanskrit": "tadetadR^ichAbhyuktam.h ..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 338,
+          "sanskrit": "tadviShNoH paramaM pada.n sadA pashyanti sUrayaH . divIva chakShurAtatam.h ..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 339,
+          "sanskrit": "tadviprAso vipanyavo jAgR^ivA.nsaH samindhate . viShNoryatparamaM padam.h ..",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 340,
+          "sanskrit": "OM satyamityupaniShat.h .",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
           "number": 341,
-          "sanskrit": "OM shAntiH shAntiH shAntiH .. hariH OM tatsat.h ..",
+          "sanskrit": "OM pUrNamadaH pUrNamidaM pUrNAtpUrNamudachyate .",
           "transliteration": "",
           "translation": "",
           "hindi": ""
         },
         {
           "number": 342,
-          "sanskrit": "iti muktikopaniShatsamAptA ..",
+          "sanskrit": "pUrNasya pUrNamAdAya pUrNamevAvashiShyate ..",
           "transliteration": "",
           "translation": "",
           "hindi": ""
         },
         {
           "number": 343,
-          "sanskrit": "Encoded by Sunder Hattangadi",
+          "sanskrit": "OM shAntiH shAntiH shAntiH .. hariH OM tatsat.h ..",
           "transliteration": "",
           "translation": "",
           "hindi": ""
         },
         {
           "number": 344,
-          "sanskrit": "Please send corrections to sanskrit@cheerful.com",
+          "sanskrit": "iti muktikopaniShatsamAptA ..",
           "transliteration": "",
           "translation": "",
           "hindi": ""
         },
         {
           "number": 345,
-          "sanskrit": "Last updated \\today",
+          "sanskrit": "Encoded by Sunder Hattangadi",
           "transliteration": "",
           "translation": "",
           "hindi": ""
         },
         {
           "number": 346,
+          "sanskrit": "Please send corrections to sanskrit@cheerful.com",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 347,
+          "sanskrit": "Last updated \\today",
+          "transliteration": "",
+          "translation": "",
+          "hindi": ""
+        },
+        {
+          "number": 348,
           "sanskrit": "https://sanskritdocuments.org",
           "transliteration": "",
           "translation": "",
           "hindi": ""
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "The Canon of 108 — All Upanishads as One Path",
+      "titleSanskrit": "अष्टोत्तरशतोपनिषद् — एक मार्ग",
+      "verses": [
+        {
+          "number": 28,
+          "sanskrit": "मण्डूकः सर्वसारोऽयं सर्वोपनिषदां रहः | सर्ववेदान्तसारश्च नात्र कार्या विचारणा ||",
+          "transliteration": "maṇḍūkaḥ sarvasāro'yaṃ sarvopaniṣadāṃ rahaḥ | sarvāvedāntasāraśca nātra kāryā vicāraṇā ||"
+        },
+        {
+          "number": 45,
+          "sanskrit": "अष्टोत्तरशतं तेषां नामान्यपि वदाम्यहम् | येषां श्रवणमात्रेण सर्वपापैः प्रमुच्यते ||",
+          "transliteration": "aṣṭottaraśataṃ teṣāṃ nāmānyapi vadāmyaham | yeṣāṃ śravaṇamātreṇa sarvapāpaiḥ pramucyate ||"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Jivanmukti — Liberation While Living",
+      "titleSanskrit": "जीवन्मुक्ति",
+      "verses": [
+        {
+          "number": 78,
+          "sanskrit": "सर्वत्र समदर्शित्वं सर्वभूतहिते रतिः | समः शत्रौ च मित्रे च एवं मुक्तः स उच्यते ||",
+          "transliteration": "sarvatra samadarśitvaṃ sarvabhūtahite ratiḥ | samaḥ śatrau ca mitre ca evaṃ muktaḥ sa ucyate ||"
+        },
+        {
+          "number": 95,
+          "sanskrit": "न जातु कामः कामानामुपभोगेन शाम्यति | हविषा कृष्णवर्त्मेव भूय एवाभिवर्धते ||",
+          "transliteration": "na jātu kāmaḥ kāmānāmupabhogena śāmyati | haviṣā kṛṣṇavartmeva bhūya evābhivardhate ||"
+        },
+        {
+          "number": 5,
+          "sanskrit": "योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो मुक्तिसमाश्रयः ||",
+          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ muktisamāśrayaḥ ||"
+        },
+        {
+          "number": 10,
+          "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं मुक्ति एव सर्वं मुक्ति मयि सर्वम् ||",
+          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ mukti eva sarvaṃ mukti mayi sarvam ||"
+        },
+        {
+          "number": 15,
+          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो मुक्तौ लीनो न तत्र संशयो भवति ||",
+          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo muktau līno na tatra saṃśayo bhavati ||"
+        },
+        {
+          "number": 20,
+          "sanskrit": "शान्तं शिवमद्वैतं मुक्ति नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
+          "transliteration": "śāntaṃ śivamadvaitaṃ mukti nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||"
+        },
+        {
+          "number": 25,
+          "sanskrit": "एको देवो द्वितीयो नास्ति यो मुक्तिं वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
+          "transliteration": "eko devo dvitīyo nāsti yo muktiṃ veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||"
         }
       ]
     }

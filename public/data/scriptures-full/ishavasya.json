@@ -6,7 +6,7 @@
   "source": {
     "repo": "https://sanskritdocuments.org/doc_upanishhat/",
     "license": "Sanskrit mūla — public domain (2500+ years old). sanskritdocuments.org publishes digitized text under permissive terms.",
-    "fetchedAt": "2026-05-15T09:07:09.931Z"
+    "fetchedAt": "2026-06-02T08:28:53.175Z"
   },
   "totalVerses": 19,
   "totalChapters": 1,
@@ -17,8 +17,8 @@
       "verses": [
         {
           "number": 0,
-          "sanskrit": "ॐ पूर्णमदः पूर्णमिदं पूर्णात् पूर्णमुदच्यते । पूर्णस्य पूर्णमादाय पूर्णमेवावशिष्यते ॥ ॐ शान्तिः शान्तिः शान्तिः",
-          "transliteration": "OM pUrNamadaH pUrNamidaM pUrNAt pUrNamudachyate | pUrNasya pUrNamAdAya pUrNamevAvashiShyate || OM shAntiH shAntiH shAntiH"
+          "sanskrit": "॥ ईशोपनिषत् ॥ .. IshopaniShat ..eन्द्तित्लेस् OM pUrNamadaH pUrNamidaM pUrNAt pUrNamudachyate | pUrNasya pUrNamAdAya pUrNamevAvashiShyate || OM shAntiH shAntiH shAntiH",
+          "transliteration": ".. IshopaniShat ..## .. IshopaniShat ..##\\endtitles ## OM pUrNamadaH pUrNamidaM pUrNAt pUrNamudachyate | pUrNasya pUrNamAdAya pUrNamevAvashiShyate || OM shAntiH shAntiH shAntiH"
         },
         {
           "number": 1,

@@ -6,9 +6,127 @@
   "source": {
     "repo": "https://sanskritdocuments.org/doc_upanishhat/",
     "license": "Full itx not available. Curated highlights are hand-authored.",
-    "fetchedAt": "2026-06-01T11:10:55.682Z"
+    "fetchedAt": "2026-06-02T08:43:26.668Z"
   },
-  "totalVerses": 0,
-  "totalChapters": 0,
-  "chapters": []
+  "totalVerses": 22,
+  "totalChapters": 1,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Mind — The Cause of Both Bondage and Freedom",
+      "titleSanskrit": "मन एव कारणम्",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "मनो हि द्विविधं प्रोक्तं शुद्धं चाशुद्धमेव च | अशुद्धं कामसंकल्पं शुद्धं कामविवर्जितम् ||",
+          "transliteration": "mano hi dvividhaṃ proktaṃ śuddhaṃ cāśuddhameva ca | aśuddhaṃ kāmasaṃkalpaṃ śuddhaṃ kāmavivarjitam ||"
+        },
+        {
+          "number": 2,
+          "sanskrit": "मन एव मनुष्याणां कारणं बन्धमोक्षयोः | बन्धाय विषयासक्तं मुक्त्यै निर्विषयं स्मृतम् ||",
+          "transliteration": "mana eva manuṣyāṇāṃ kāraṇaṃ bandhamokṣayoḥ | bandhāya viṣayāsaktaṃ muktyai nirviṣayaṃ smṛtam ||"
+        },
+        {
+          "number": 3,
+          "sanskrit": "यतो निर्विषयस्यास्य मनसो मुक्तिरीष्यते | अतो निर्विषयं नित्यं मनः कार्यं मुमुक्षुणा ||",
+          "transliteration": "yato nirviṣayasyāsya manaso muktirīṣyate | ato nirviṣayaṃ nityaṃ manaḥ kāryaṃ mumukṣuṇā ||"
+        },
+        {
+          "number": 4,
+          "sanskrit": "निरस्तविषयाङ्गं सन्निरुद्धं मनो हृदि | यदायात्यात्मनो भावं तदा तत्परमं पदम् ||",
+          "transliteration": "nirastaviṣayāṅgaṃ sanniruddhaṃ mano hṛdi | yadāyātyātmano bhāvaṃ tadā tatparamaṃ padam ||"
+        },
+        {
+          "number": 5,
+          "sanskrit": "तावदेव निरोद्धव्यं यावदृदि गतं क्षयं | एतज्ज्ञानं च ध्यानं च शेषो न्यायश्च विस्तरः ||",
+          "transliteration": "tāvadeva niroddhavyaṃ yāvadṛdi gataṃ kṣayaṃ | etajjñānaṃ ca dhyānaṃ ca śeṣo nyāyaśca vistaraḥ ||"
+        },
+        {
+          "number": 6,
+          "sanskrit": "यदा न लीयते चित्तं न च विक्षिप्यते पुनः | अनिञ्जनं तदा चित्तं ब्रह्मप्राप्तिस्तदोच्यते ||",
+          "transliteration": "yadā na līyate cittaṃ na ca vikṣipyate punaḥ | aniñjanaṃ tadā cittaṃ brahmaprāptistadocyate ||"
+        },
+        {
+          "number": 7,
+          "sanskrit": "स्वरेण संधयेद्योगमस्वरं भावयेत्परम् | अस्वरेणानुभावेन नाभावो भाव ईश्यते ||",
+          "transliteration": "svareṇa saṃdhayed yogam asvaraṃ bhāvayet param | asvareṇānubhāvena nābhāvo bhāva īśyate ||"
+        },
+        {
+          "number": 8,
+          "sanskrit": "ॐकाराच्च विकारोऽयं प्रणवस्य प्रणवोऽथवा | मनोऽपि तद्विकारोऽयं नित्यमेवानुपश्यति ||",
+          "transliteration": "oṃkārāc ca vikāro'yaṃ praṇavasya praṇavo'thavā | mano'pi tadvikāro'yaṃ nityamevānupaśyati ||"
+        },
+        {
+          "number": 9,
+          "sanskrit": "निर्विकल्पमनन्तं च हेतुदृष्टान्तवर्जितम् | अप्रमेयमनादीं च यज्ज्ञात्वा मुच्यते बुधः ||",
+          "transliteration": "nirvikalpamanantaṃ ca hetudṛṣṭāntavarjitam | aprameyamanādīṃ ca yajjñātvā muchyate budhaḥ ||"
+        },
+        {
+          "number": 10,
+          "sanskrit": "यथा नदी समुद्रेषु यथा दूदं दहन्ति अग्निः | तथा दहति मनः सर्वं यो जानाति प्रणवं तथा ||",
+          "transliteration": "yathā nadī samudreṣu yathā dūdaṃ dahanti agniḥ | tathā dahati manaḥ sarvaṃ yo jānāti praṇavaṃ tathā ||"
+        },
+        {
+          "number": 11,
+          "sanskrit": "एक एवात्मा मन्तव्यो जाग्रत्स्वप्नसुषुप्तिषु | स्थानत्रयव्यतीतस्य पुनर्जन्म न विद्यते ||",
+          "transliteration": "eka evātmā mantavyo jāgratsvapnasuṣuptiṣu | sthānatrayavyatītasya punarjanma na vidyate ||"
+        },
+        {
+          "number": 12,
+          "sanskrit": "द्वादशाक्षरा मन्त्रा द्वादशाक्षरः प्रणवः | त्रिकालभ्यासयुक्तो यो जानाति स शिवो भवेत् ||",
+          "transliteration": "dvādaśākṣarā mantrā dvādaśākṣaraḥ praṇavaḥ | trikālabhyāsayukto yo jānāti sa śivo bhavet ||"
+        },
+        {
+          "number": 13,
+          "sanskrit": "घटसंवृतमाकाशं नीयमानो घटे यथा | घटो नीयेत नाकाशस्तद्वज्जीवो नभोपमः ||",
+          "transliteration": "ghaṭasaṃvṛtamākāśaṃ nīyamāno ghaṭe yathā | ghaṭo nīyeta nākāśastadvajjīvo nabhopamaḥ ||"
+        },
+        {
+          "number": 14,
+          "sanskrit": "घटवद्विविधाकारं भिद्यमानं पुनः पुनः | तद्भदे न च जानाति स जानाति च नित्यशः ||",
+          "transliteration": "ghaṭadvadvividhākāraṃ bhidyamānaṃ punaḥ punaḥ | tadbhede na cha jānāti sa jānāti cha nityaśaḥ ||"
+        },
+        {
+          "number": 15,
+          "sanskrit": "यथा नानावतांस्तोयं नानावतांस्तथा मनः | अविकल्पितमनस्कं यो जानाति स शिवो भवेत् ||",
+          "transliteration": "yathā nānāvatāṃstoyaṃ nānāvatāṃstathā manaḥ | avikalpitamanaskaṃ yo jānāti sa śivo bhavet ||"
+        },
+        {
+          "number": 16,
+          "sanskrit": "शब्दाक्षरं परं ब्रह्म तस्मिंक्षीणे यदक्षरं | तद्विद्वानक्षरं ध्यायेद्यदीच्छेच्छान्तिमात्मनः ||",
+          "transliteration": "śabdākṣaraṃ paraṃ brahma tasmiṃkṣīṇe yadakṣaraṃ | tadvidvānakṣaraṃ dhyāyedyadīcchechChāntimātmanaḥ ||"
+        },
+        {
+          "number": 17,
+          "sanskrit": "द्वे विद्ये वेदितव्ये तु शब्दब्रह्म परं च यत् | शब्दब्रह्मणि निष्णातः परं ब्रह्माधिगच्छति ||",
+          "transliteration": "dve vidye veditavye tu śabdabrahma paraṃ ca yat | śabdabrahmaṇi niṣṇātaḥ paraṃ brahmādhigacchati ||"
+        },
+        {
+          "number": 18,
+          "sanskrit": "यो देहं त्यजति सर्वं यो मनः संशमोच्यते | यो विचारयते शान्तं स ब्रह्म प्राप्नोति निश्चितम् ||",
+          "transliteration": "yo dehaṃ tyajati sarvaṃ yo manaḥ saṃśamocyate | yo vicārayate śāntaṃ sa brahma prāpnoti niścitam ||"
+        },
+        {
+          "number": 19,
+          "sanskrit": "गवामनेकवर्णाणां क्षीरस्याप्येकवर्णता | क्षीरवत्पश्यते ज्ञानं लिङ्गिनस्तु गवां यथा ||",
+          "transliteration": "gavāmanekavarṇāṇāṃ kṣīrasyāpyekavarṇatā | kṣīravatpaśyate jñānaṃ liṅginastu gavāṃ yathā ||"
+        },
+        {
+          "number": 20,
+          "sanskrit": "योगश्चित्तवृत्तिर्नित्यमेवं नित्यमेव च | योगो मनोऽनिलो भूत्वा ब्रह्म प्राप्नोति निश्चितम् ||",
+          "transliteration": "yogaścittavṛttirnityamevaṃ nityameva ca | yogo mano'nilo bhūtvā brahma prāpnoti niścitam ||"
+        },
+        {
+          "number": 21,
+          "sanskrit": "ज्ञाननेत्रं समाधाय चोद्धरेद्वाह्निवत्परम् | निष्कलं निश्चलं शान्तं तद्ब्रह्माहमिति स्मृतम् ||",
+          "transliteration": "jñānanetraṃ samādhāya choddharedvāhnivatparam | niṣkalaṃ niścalaṃ śāntaṃ tadbrahmāhamiti smṛtam ||"
+        },
+        {
+          "number": 22,
+          "sanskrit": "यस्य सर्वे भवन्ति शुभा यस्य सर्वे भवन्ति शान्ताः | यस्य सर्वे भवन्ति सुखी यस्य सर्वे भवन्ति सुद्धाः ||",
+          "transliteration": "yasya sarve bhavanti śubhā yasya sarve bhavanti śāntāḥ | yasya sarve bhavanti sukhī yasya sarve bhavanti suddhāḥ ||"
+        }
+      ]
+    }
+  ]
 }

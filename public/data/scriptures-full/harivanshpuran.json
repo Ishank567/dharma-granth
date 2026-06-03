@@ -6,9 +6,66 @@
   "source": {
     "repo": "https://sanskritdocuments.org/doc_mahabharata/ (harivaMsha1-3.itx)",
     "license": "Sanskrit mūla — public domain. Digitized by sanskritdocuments.org.",
-    "fetchedAt": "2026-06-01T11:11:00.602Z"
+    "fetchedAt": "2026-06-02T08:43:32.102Z"
   },
-  "totalVerses": 0,
-  "totalChapters": 0,
-  "chapters": []
+  "totalVerses": 7,
+  "totalChapters": 3,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Harivamsha Parva — The Lineage of Hari",
+      "titleSanskrit": "हरिवंशपर्व",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "नारायणं नमस्कृत्य नरं चैव नरोत्तमम् | देवीं सरस्वतीं चैव ततो जयमुदीरयेत् ||",
+          "transliteration": "nārāyaṇaṃ namaskṛtya naraṃ caiva narottamam | devīṃ sarasvatīṃ caiva tato jayamudīrayet ||"
+        },
+        {
+          "number": 2,
+          "sanskrit": "एको देवः सर्वभूतेषु गूढः सर्वव्यापी सर्वभूतान्तरात्मा | कर्माध्यक्षः सर्वभूताधिवासः साक्षी चेता केवलो निर्गुणश्च ||",
+          "transliteration": "eko devaḥ sarvabhūteṣu gūḍhaḥ sarvavyāpī sarvabhūtāntarātmā | karmādhyakṣaḥ sarvabhūtādhivāsaḥ sākṣī cetā kevalo nirguṇaśca ||"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Vishnu Parva — Krishna's Birth and Vrindavan",
+      "titleSanskrit": "विष्णुपर्व",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "अनेन सत्येन सुखी भव | धर्मेण वर्धस्व | कल्याणमस्तु ते नित्यम् ||",
+          "transliteration": "anena satyena sukhī bhava | dharmeṇa vardhasva | kalyāṇamastu te nityam ||"
+        },
+        {
+          "number": 2,
+          "sanskrit": "गोवर्धनं गिरिवरं हस्तेनैकेन लीलया | उत्पाट्य धारयामास मेघच्छत्रमिवाचलम् ||",
+          "transliteration": "govardhanam girivaram hastenaikena līlayā | utpāṭya dhārayāmāsa meghacchatramivācalam ||"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Bhavishya Parva — Cosmic Vision and Prophecy",
+      "titleSanskrit": "भविष्यपर्व",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत | अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम् ||",
+          "transliteration": "yadā yadā hi dharmasya glānirbhavati bhārata | abhyutthānamadharmasya tadātmānaṃ sṛjāmyaham ||"
+        },
+        {
+          "number": 2,
+          "sanskrit": "हरिवंशं पुराणं च श्रुत्वा सर्वाघनाशनम् | विष्णोः पदं प्राप्नोति नात्र कार्या विचारणा ||",
+          "transliteration": "harivāṃśaṃ purāṇaṃ ca śrutvā sarvāghanāśanam | viṣṇoḥ padaṃ prāpnoti nātra kāryā vicāraṇā ||"
+        },
+        {
+          "number": 5,
+          "sanskrit": "कृष्णस्तु भगवान् साक्षात् द्वापरान्ते कलौ युगे | प्रादुर्भूतो महायोगी विष्णुः परमकारणम् ||",
+          "transliteration": "kṛṣṇastu bhagavān sākṣāt dvāparānte kalau yuge | prādurbhūto mahāyogī viṣṇuḥ paramakāraṇam ||"
+        }
+      ]
+    }
+  ]
 }

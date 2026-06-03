@@ -6,14 +6,14 @@
   "source": {
     "repo": "https://sanskritdocuments.org/doc_dharma/manusmRRiti.itx",
     "license": "Sanskrit mūla — public domain. Digitized by sanskritdocuments.org.",
-    "fetchedAt": "2026-06-01T11:10:45.000Z"
+    "fetchedAt": "2026-06-02T08:43:14.285Z"
   },
   "totalVerses": 2683,
-  "totalChapters": 1,
+  "totalChapters": 12,
   "chapters": [
     {
       "number": 1,
-      "title": "Manusmriti",
+      "title": "Adhyāya 1",
       "verses": [
         {
           "number": "1.1",
@@ -609,7 +609,13 @@
           "number": "1.119",
           "sanskrit": "यथैदमुक्तवांशास्त्रं पुरा पृष्टो मनुर्मया । तथैदं यूयमप्यद्य मत्सकाशान्निबोधत",
           "transliteration": "yathaidamuktavA.nshAstraM purA pR^iShTo manurmayA | tathaidaM yUyamapyadya matsakAshAnnibodhata"
-        },
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Adhyāya 2",
+      "verses": [
         {
           "number": "2.1",
           "sanskrit": "विद्वद्भिः सेवितः सद्भिर्नित्यमद्वेषरागिभिः । हृदयेनाभ्यनुज्ञातो यो धर्मस्तं निबोधत",
@@ -1854,7 +1860,13 @@
           "number": "2.249",
           "sanskrit": "एवं चरति यो विप्रो ब्रह्मचर्यमविप्लुतः । स गच्छत्युत्तमस्थानं न चैह जायते पुनः",
           "transliteration": "evaM charati yo vipro brahmacharyamaviplutaH | sa gachChatyuttamasthAnaM na chaiha jAyate punaH"
-        },
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Adhyāya 3",
+      "verses": [
         {
           "number": "3.1",
           "sanskrit": "षट्त्रिंशदाब्दिकं चर्यं गुरौ त्रैवेदिकं व्रतम् । तदर्धिकं पादिकं वा ग्रहणान्तिकमेव वा",
@@ -3284,7 +3296,13 @@
           "number": "3.286",
           "sanskrit": "एतद्वोऽभिहितं सर्वं विधानं पाञ्चयज्ञिकम् । द्विजातिमुख्यवृत्तीनां विधानं श्रूयतामिति",
           "transliteration": "etadvo.abhihitaM sarvaM vidhAnaM pA~nchayaj~nikam | dvijAtimukhyavR^ittInAM vidhAnaM shrUyatAmiti"
-        },
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Adhyāya 4",
+      "verses": [
         {
           "number": "4.1",
           "sanskrit": "चतुर्थमायुषो भागमुषित्वाऽद्यं गुरौ द्विजाः । द्वितीयमायुषो भागं कृतदारो गृहे वसेत्",
@@ -4584,7 +4602,13 @@
           "number": "4.260",
           "sanskrit": "अनेन विप्रो वृत्तेन वर्तयन् वेदशास्त्रवित् । व्यपेतकल्मषो नित्यं ब्रह्मलोके महीयते",
           "transliteration": "anena vipro vR^ittena vartayan vedashAstravit | vyapetakalmaSho nityaM brahmaloke mahIyate"
-        },
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Adhyāya 5",
+      "verses": [
         {
           "number": "5.1",
           "sanskrit": "श्रुत्वैतान् ऋषयो धर्मान् स्नातकस्य यथौदितान् । इदमूचुर्महात्मानमनलप्रभवं भृगुम्",
@@ -5429,7 +5453,13 @@
           "number": "5.169",
           "sanskrit": "अनेन विधिना नित्यं पञ्चयज्ञान्न हापयेत् । द्वितीयमायुषो भागं कृतदारो गृहे वसेत्",
           "transliteration": "anena vidhinA nityaM pa~nchayaj~nAnna hApayet | dvitIyamAyuSho bhAgaM kR^itadAro gR^ihe vaset"
-        },
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Adhyāya 6",
+      "verses": [
         {
           "number": "6.1",
           "sanskrit": "एवं गृहाश्रमे स्थित्वा विधिवत्स्नातको द्विजः । वने वसेत्तु नियतो यथावद्विजितैन्द्रियः",
@@ -5914,7 +5944,13 @@
           "number": "6.97",
           "sanskrit": "एष वोऽभिहितो धर्मो ब्राह्मणस्य चतुर्विधः । पुण्योऽक्षयफलः प्रेत्य राज्ञां धर्मं निबोधत",
           "transliteration": "eSha vo.abhihito dharmo brAhmaNasya chaturvidhaH | puNyo.akShayaphalaH pretya rAj~nAM dharmaM nibodhata"
-        },
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Adhyāya 7",
+      "verses": [
         {
           "number": "7.1",
           "sanskrit": "राजधर्मान् प्रवक्ष्यामि यथावृत्तो भवेन्नृपः । सम्भवश्च यथा तस्य सिद्धिश्च परमा यथा",
@@ -7044,7 +7080,13 @@
           "number": "7.226",
           "sanskrit": "एतद्विधानमातिष्ठेदरोगः पृथिवीपतिः । अस्वस्थः सर्वमेतत्तु भृत्येषु विनियोजयेत्",
           "transliteration": "etadvidhAnamAtiShThedarogaH pR^ithivIpatiH | asvasthaH sarvametattu bhR^ityeShu viniyojayet"
-        },
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Adhyāya 8",
+      "verses": [
         {
           "number": "8.1",
           "sanskrit": "व्यवहारान् दिदृक्षुस्तु ब्राह्मणैः सह पार्थिवः । मन्त्रज्ञैर्मन्त्रिभिश्चैव विनीतः प्रविशेत्सभाम्",
@@ -9139,7 +9181,13 @@
           "number": "8.420",
           "sanskrit": "एवं सर्वानिमान् राजा व्यवहारान् समापयन् । व्यपोह्य किल्बिषं सर्वं प्राप्नोति परमां गतिम्",
           "transliteration": "evaM sarvAnimAn rAjA vyavahArAn samApayan | vyapohya kilbiShaM sarvaM prApnoti paramAM gatim"
-        },
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Adhyāya 9",
+      "verses": [
         {
           "number": "9.1",
           "sanskrit": "पुरुषस्य स्त्रियाश्चैव धर्मे वर्त्मनि तिष्ठतोः । धर्म्ये संयोगे विप्रयोगे च धर्मान् वक्ष्यामि शाश्वतान्",
@@ -10819,7 +10867,13 @@
           "number": "9.336",
           "sanskrit": "ब्राह्मणापाश्रयो एषोऽनापदि वर्णानामुक्तः कर्मविधिः शुभः । आपद्यपि हि यस्तेषां क्रमशस्तन्निबोधत",
           "transliteration": "brAhmaNApAshrayo eSho.anApadi varNAnAmuktaH karmavidhiH shubhaH | Apadyapi hi yasteShAM kramashastannibodhata"
-        },
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Adhyāya 10",
+      "verses": [
         {
           "number": "10.1",
           "sanskrit": "अधीयीरंस्त्रयो वर्णाः स्वकर्मस्था द्विजातयः । प्रब्रूयाद्ब्राह्मणस्त्वेषां नेतराविति निश्चयः",
@@ -11474,7 +11528,13 @@
           "number": "10.131",
           "sanskrit": "एष धर्मविधिः कृत्स्नश्चातुर्वर्ण्यस्य कीर्तितः । अतः परं प्रवक्ष्यामि प्रायश्चित्तविधिं शुभम्",
           "transliteration": "eSha dharmavidhiH kR^itsnashchAturvarNyasya kIrtitaH | ataH paraM pravakShyAmi prAyashchittavidhiM shubham"
-        },
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Adhyāya 11",
+      "verses": [
         {
           "number": "11.1",
           "sanskrit": "सान्तानिकं यक्ष्यमाणमध्वगं सार्ववेदसम् । गुर्वर्थं पितृमात्र्यर्थं स्वाध्यायार्थ्युपतापिनः",
@@ -12799,7 +12859,13 @@
           "number": "11.265",
           "sanskrit": "आद्यं यत्त्र्यक्षरं ब्रह्म त्रयी यस्मिन् प्रतिष्ठिता । स गुह्योऽन्यस्त्रिवृद्वेदो यस्तं वेद स वेदवित्",
           "transliteration": "AdyaM yattryakSharaM brahma trayI yasmin pratiShThitA | sa guhyo.anyastrivR^idvedo yastaM veda sa vedavit"
-        },
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Adhyāya 12",
+      "verses": [
         {
           "number": "12.1",
           "sanskrit": "चातुर्वर्ण्यस्य कृत्स्नोऽयमुक्तो धर्मस्त्वयाऽनघः । कर्मणां फलनिर्वृत्तिं शंस नस्तत्त्वतः पराम्",

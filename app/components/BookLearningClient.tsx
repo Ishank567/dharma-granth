@@ -166,7 +166,7 @@ export function BookLearningClient({ meta, explanation, chapters }: BookLearning
             <Link
               key={chapter.id}
               href={`/scripture/${meta.id}/chapter/${chapter.id}`}
-              className="group flex items-start gap-4 rounded-lg border border-dharma-border bg-white p-4 transition hover:border-saffron-300 hover:bg-saffron-50"
+              className="group flex items-start gap-4 rounded-lg border border-dharma-border bg-dharma-card p-4 transition hover:border-saffron-300 hover:bg-saffron-500/10"
             >
               <span className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-lg bg-saffron-100 text-sm font-bold text-saffron-800">
                 {chapter.id}
@@ -199,14 +199,14 @@ export function BookLearningClient({ meta, explanation, chapters }: BookLearning
           value={reflection}
           onChange={event => setReflection(event.target.value)}
           placeholder={labels.reflectionPlaceholder}
-          className="min-h-28 w-full resize-y rounded-lg border border-dharma-border bg-white p-3 text-sm leading-relaxed text-dharma-text outline-none transition focus:border-saffron-500 focus:ring-2 focus:ring-saffron-100"
+          className="min-h-28 w-full resize-y rounded-lg border border-dharma-border bg-dharma-card p-3 text-sm leading-relaxed text-dharma-text outline-none transition focus:border-saffron-500 focus:ring-2 focus:ring-saffron-100/20"
         />
       </div>
     );
   }
 
   return (
-    <section className="rounded-lg border border-dharma-border bg-white shadow-sm">
+    <section className="rounded-lg border border-dharma-border bg-dharma-card shadow-sm">
       <div className="border-b border-dharma-border p-5">
         <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
           <div>
@@ -223,7 +223,7 @@ export function BookLearningClient({ meta, explanation, chapters }: BookLearning
                   type="button"
                   onClick={() => setLanguage(option)}
                   className={`rounded-md px-3 py-1.5 text-sm font-semibold transition ${
-                    language === option ? 'bg-white text-saffron-800 shadow-sm' : 'text-dharma-muted hover:text-dharma-text'
+                    language === option ? 'bg-dharma-bg text-saffron-800 shadow-sm' : 'text-dharma-muted hover:text-dharma-text'
                   }`}
                 >
                   {option === 'hi' ? 'हिन्दी' : 'English'}
@@ -257,7 +257,7 @@ export function BookLearningClient({ meta, explanation, chapters }: BookLearning
                   onClick={() => setActiveStep(step)}
                   className={`flex min-h-12 items-center justify-between gap-3 rounded-lg border px-3 py-2 text-left text-sm font-semibold transition ${
                     isActive
-                      ? 'border-saffron-500 bg-saffron-50 text-saffron-800'
+                      ? 'border-saffron-500 bg-saffron-500/10 text-saffron-800'
                       : 'border-dharma-border text-dharma-text hover:border-saffron-300 hover:bg-saffron-50'
                   }`}
                 >
@@ -301,7 +301,7 @@ export function BookLearningClient({ meta, explanation, chapters }: BookLearning
             {firstReadableChapter && (
               <Link
                 href={`/scripture/${meta.id}/chapter/${firstReadableChapter.id}`}
-                className="inline-flex items-center gap-2 rounded-lg border border-dharma-border bg-white px-4 py-2 text-sm font-semibold text-dharma-text transition hover:bg-saffron-50"
+                className="inline-flex items-center gap-2 rounded-lg border border-dharma-border bg-dharma-card px-4 py-2 text-sm font-semibold text-dharma-text transition hover:bg-saffron-500/10"
               >
                 <BookOpen className="h-4 w-4" />
                 {labels.start}

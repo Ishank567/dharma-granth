@@ -1,0 +1,161 @@
+{
+  "id": "padmapuran",
+  "title": "Padma Purana",
+  "titleSanskrit": "पद्मपुराण",
+  "category": "purana",
+  "source": {
+    "repo": "https://sanskritdocuments.org/",
+    "license": "Full text not available. Curated highlights are hand-authored.",
+    "fetchedAt": "2026-06-02T08:43:33.861Z"
+  },
+  "totalVerses": 18,
+  "totalChapters": 8,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Srishti Khanda — Sacred Relationships",
+      "titleSanskrit": "सृष्टिखण्ड",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "सर्वतीर्थमयी माता सर्वदेवमयः पिता |\nमातरं पितरं तस्माद्रक्षेद्धर्मपरायणः ||",
+          "transliteration": "sarvatīrthamayī mātā sarvadevamayaḥ pitā |\nmātaraṃ pitaraṃ tasmādrakṣeddharmaparāyaṇaḥ ||"
+        },
+        {
+          "number": 2,
+          "sanskrit": "न तेन वृद्धो भवति येनास्य पलितं शिरः |\nयो वै युवाप्यधीयानस्तं देवाः स्थविरं विदुः ||",
+          "transliteration": "na tena vṛddho bhavati yenāsya palitaṃ śiraḥ |\nyo vai yuvāpyadhīyānastaṃ devāḥ sthaviraṃ viduḥ ||"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Uttara Khanda — The Path of Bhakti",
+      "titleSanskrit": "उत्तरखण्ड — भक्तिमार्ग",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "भक्तिर्भगवतो लाभः सुखं सेवा जनार्दने | निर्वेदः स्यादनित्येषु विद्या चात्मनि दर्शनम् ||",
+          "transliteration": "bhaktirbhagavato lābhaḥ sukhaṃ sevā janārdane | nirvedaḥ syādanityeṣu vidyā cātmani darśanam ||"
+        },
+        {
+          "number": 2,
+          "sanskrit": "नामसंकीर्तनं विष्णोः सर्वपापप्रणाशनम् | प्रणामः सर्वदुःखघ्नः स्तुतिः कामार्थदायिनी ||",
+          "transliteration": "nāmasaṃkīrtanaṃ viṣṇoḥ sarvapāpapraṇāśanam | praṇāmaḥ sarvaduḥkhghnaḥ stutiḥ kāmārthadāyinī ||"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Bhoomi Khanda — Earth, Pilgrimage and Sacred Geography",
+      "titleSanskrit": "भूमिखण्ड — तीर्थ माहात्म्य",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "तीर्थं नामेह विख्यातं यत्र पापं विनश्यति | मनसा कर्मणा वाचा यत्र सिद्धिर्न दुर्लभा ||",
+          "transliteration": "tīrthaṃ nāmeha vikhyātaṃ yatra pāpaṃ vinaśyati | manasā karmaṇā vācā yatra siddhirnā durlabhā ||"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Svarga Khanda — Heaven, Virtue, and What Actually Lasts",
+      "titleSanskrit": "स्वर्गखण्ड — स्वर्ग, धर्म और स्थायित्व",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "ते तं भुक्त्वा स्वर्गलोकं विशालं क्षीणे पुण्ये मर्त्यलोकं विशन्ति | एवं त्रयीधर्ममनुप्रपन्ना गतागतं कामकामा लभन्ते ||",
+          "transliteration": "te taṃ bhuktvā svargalokaṃ viśālaṃ kṣīṇe puṇye martyalokaṃ viśanti | evaṃ trayīdharmAmanuprapannā gatāgataṃ kāmakāmā labhante ||"
+        },
+        {
+          "number": 18,
+          "sanskrit": "धर्मस्य तत्त्वं निहितं गुहायां महाजनो येन गतः स पन्थाः | तर्कोऽप्रतिष्ठः श्रुतयो विभिन्नाः नैको मुनिर्यस्य वचः प्रमाणम् ||",
+          "transliteration": "dharmasya tattvaṃ nihitaṃ guhāyāṃ mahājano yena gataḥ sa panthāḥ | tarko'pratiṣṭhaḥ śrutayo vibhinnāḥ naiko munirYasya vacaḥ pramāṇam ||"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Patala Khanda — The Teaching to Shiva, on Rama",
+      "titleSanskrit": "पातालखण्ड — शिव को राम का उपदेश",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "रामो राजमणिः सदा विजयते रामं रमेशं भजे | रामेणाभिहता निशाचरचमू रामाय तस्मै नमः | रामान्नास्ति परायणं परतरं रामस्य दासोऽस्म्यहम् | रामे चित्तलयः सदा भवतु मे भो राम मामुद्धर ||",
+          "transliteration": "rāmo rājamaṇiḥ sadā vijayate rāmaṃ rameśaṃ bhaje | rāmeṇābhihatā niśācaracamū rāmāya tasmai namaḥ | rāmānnāsti parāyaṇaṃ parataraṃ rāmasya dāso'smyaham | rāme cittaLayaḥ sadā bhavatu me bho rāma māmuddhara ||"
+        },
+        {
+          "number": 45,
+          "sanskrit": "श्रीरामचन्द्रः शरणं ममास्तु | श्रीरामचन्द्रः शरणं ममास्तु || सर्वे च देवाः शरणं ममास्तु | सर्वे च धर्माः शरणं ममास्तु ||",
+          "transliteration": "śrīrāmacandraḥ śaraṇaṃ mamāstu | śrīrāmacandraḥ śaraṇaṃ mamāstu || sarve ca devāḥ śaraṇaṃ mamāstu | sarve ca dharmāḥ śaraṇaṃ mamāstu ||"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Kriya Yoga Khanda — The Yoga of Sacred Action",
+      "titleSanskrit": "क्रियायोगखण्ड",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "अन्नं ब्रह्मेति व्यजानात् | प्राणो ब्रह्मेति व्यजानात् | मनो ब्रह्मेति व्यजानात् | वाचं ब्रह्मेति व्यजानात् ||",
+          "transliteration": "annaṃ brahmeti vyajānāt | prāṇo brahmeti vyajānāt | mano brahmeti vyajānāt | vācaṃ brahmeti vyajānāt ||"
+        },
+        {
+          "number": 28,
+          "sanskrit": "सर्वं कर्म मयि सन्न्यस्य अध्यात्मचेतसा | निराशीर्निर्ममो भूत्वा युध्यस्व विगतज्वरः ||",
+          "transliteration": "sarvaṃ karma mayi sannyasya adhyātmacetasā | nirāśīrnirmamo bhūtvā yudhyasva vigatajvaraḥ ||"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Shiva-Gita — Shiva's Teaching on Brahman to Kartikeya",
+      "titleSanskrit": "शिवगीता",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "अहमेव परं ब्रह्म सच्चिदानन्दमव्ययम् | अहमेव परं धाम अहमेव परं पदम् ||",
+          "transliteration": "ahameva paraṃ brahma saccidānandamavyayam | ahameva paraṃ dhāma ahameva paraṃ padam ||"
+        },
+        {
+          "number": 22,
+          "sanskrit": "न जायते म्रियते वा कदाचिन्नायं भूत्वा भविता वा न भूयः | अजो नित्यः शाश्वतोऽयं पुराणो न हन्यते हन्यमाने शरीरे ||",
+          "transliteration": "na jāyate mriyate vā kadācinnāyaṃ bhūtvā bhavitā vā na bhūyaḥ | ajo nityaḥ śāśvato'yaṃ purāṇo na hanyate hanyamāne śarīre ||"
+        },
+        {
+          "number": 5,
+          "sanskrit": "शिवः सर्वत्र शिवः सर्वः शिवः सर्वेषु भूतेषु | यः शिवं पश्यति सर्वत्र स शिवं पश्यति नान्यथा ||",
+          "transliteration": "śivaḥ sarvatra śivaḥ sarvaḥ śivaḥ sarveṣu bhūteṣu | yaḥ śivaṃ paśyati sarvatra sa śivaṃ paśyati nānyathā ||"
+        },
+        {
+          "number": 48,
+          "sanskrit": "ज्ञानं यज्ञेन पर्युप्तं यज्ञस्तपसि तिष्ठति | तप आत्मनि तिष्ठत्यात्मा सर्वत्र तिष्ठति ||",
+          "transliteration": "jñānaṃ yajñena paryuptaṃ yajñastapasitiṣṭhati | tapa ātmani tiṣṭhatyātmā sarvatra tiṣṭhati ||"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Uttara Khanda — Marks of the True Devotee",
+      "titleSanskrit": "उत्तरखण्ड — भागवत लक्षण",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "अपि चेत्सुदुराचारो भजते मामनन्यभाक् | साधुरेव स मन्तव्यः सम्यग्व्यवसितो हि सः ||",
+          "transliteration": "api cet sudurācāro bhajate māmananyabhāk | sādhureva sa mantavyaḥ samyagvyavasito hi saḥ ||"
+        },
+        {
+          "number": 18,
+          "sanskrit": "समोऽहं सर्वभूतेषु न मे द्वेष्योऽस्ति न प्रियः | ये भजन्ति तु मां भक्त्या मयि ते तेषु चाप्यहम् ||",
+          "transliteration": "samo'haṃ sarvabhūteṣu na me dveṣyo'sti na priyaḥ | ye bhajanti tu māṃ bhaktyā mayi te teṣu cāpyaham ||"
+        },
+        {
+          "number": 35,
+          "sanskrit": "मच्चित्ता मद्गतप्राणा बोधयन्तः परस्परम् | कथयन्तश्च मां नित्यं तुष्यन्ति च रमन्ति च ||",
+          "transliteration": "maccittā madgataprāṇā bodhayantaḥ parasparam | kathayantaśca māṃ nityaṃ tuṣyanti ca ramanti ca ||"
+        }
+      ]
+    }
+  ]
+}

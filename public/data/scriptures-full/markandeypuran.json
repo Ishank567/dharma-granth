@@ -6,18 +6,18 @@
   "source": {
     "repo": "https://sanskritdocuments.org/doc_purana/mArkaNDeyapurANam.itx",
     "license": "Sanskrit mūla — public domain. Digitized by sanskritdocuments.org.",
-    "fetchedAt": "2026-06-01T11:10:43.550Z"
+    "fetchedAt": "2026-06-02T08:43:12.700Z"
   },
-  "totalVerses": 107,
-  "totalChapters": 1,
+  "totalVerses": 114,
+  "totalChapters": 3,
   "chapters": [
     {
       "number": 1,
       "verses": [
         {
           "number": "4.99",
-          "sanskrit": "भूतेषु भो द्विजाः । दक्षः स्वयम्भुवा । विवर्धयिषवः प्रजाः । वैण्यं पितामहः । पृथोर्वैण्यस्य विस्तरम् । पृथक्",
-          "transliteration": "bhUteShu bho dvijAH | dakShaH svayambhuvA | vivardhayiShavaH prajAH | vaiNyaM pitAmahaH | pR^ithorvaiNyasya vistaram | pR^ithak"
+          "sanskrit": "॥ Bरह्मपुरन ॥ .. brahmapurANa ..eन्द्तित्लेस् bhUteShu bho dvijAH | dakShaH svayambhuvA | vivardhayiShavaH prajAH | vaiNyaM pitAmahaH | pR^ithorvaiNyasya vistaram | pR^ithak",
+          "transliteration": ".. Brahmapurana ..## .. brahmapurANa ..##\\endtitles ## bhUteShu bho dvijAH | dakShaH svayambhuvA | vivardhayiShavaH prajAH | vaiNyaM pitAmahaH | pR^ithorvaiNyasya vistaram | pR^ithak"
         },
         {
           "number": "39.30",
@@ -548,6 +548,55 @@
           "number": "236.12",
           "sanskrit": "<२३४.७४/२>ऽव्यक्तस्वरूपः प्रकटस्वरूपः । सदा युङ्क्ते भूतात्मा हृदयाश्रितः",
           "transliteration": "<234\\.74/2>.avyaktasvarUpaH prakaTasvarUpaH | sadA yu~Nkte bhUtAtmA hR^idayAshritaH"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Teachings on Dharmic Community",
+      "titleSanskrit": "धर्मोपदेश",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "यस्मिन् देशे न विद्वांसो न वैश्याः न च पार्थिवाः |\nन नदी न गुरुर्नार्यस्तत्र वासो न कारयेत् ||",
+          "transliteration": "yasmin deśe na vidvāṃso na vaiśyāḥ na ca pārthivāḥ |\nna nadī na gururmāryastatrā vāso na kārayet ||"
+        },
+        {
+          "number": 2,
+          "sanskrit": "आत्मनः प्रतिकूलानि परेषां न समाचरेत् | एष धर्मः समासेन सर्वेषां गुह्यमुत्तमम् ||",
+          "transliteration": "ātmanaḥ pratikūlāni pareṣāṃ na samācaret | eṣa dharmaḥ samāsena sarveṣāṃ guhyamuttamam ||"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Devi Mahatmya — The Origin Story",
+      "titleSanskrit": "देवीमाहात्म्य",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "महामाया हरेश्चैषा तया सम्मोह्यते जगत् | ज्ञानिनामपि चेतांसि देवी भगवती हि सा ||",
+          "transliteration": "mahāmāyā hareścaiṣā tayā sammohyate jagat | jñānināmapi cetāṃsi devī bhagavatī hi sā ||"
+        },
+        {
+          "number": 2,
+          "sanskrit": "या देवी सर्वभूतेषु शक्तिरूपेण संस्थिता | नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः ||",
+          "transliteration": "yā devī sarvabhūteṣu śaktirūpeṇa saṃsthitā | namastasyai namastasyai namastasyai namo namaḥ ||"
+        },
+        {
+          "number": 5,
+          "sanskrit": "या देवी सर्वभूतेषु मातृरूपेण संस्थिता | नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः ||",
+          "transliteration": "yā devī sarvabhūteṣu mātṛrūpeṇa saṃsthitā | namastasyai namastasyai namastasyai namo namaḥ ||"
+        },
+        {
+          "number": 26,
+          "sanskrit": "दुर्गे स्मृता हरिदुर्गे दुर्गादेवी सर्वशः | दुर्गोत्तिरित्यभिध्याते दुर्गापादान सर्वदा ||",
+          "transliteration": "durge smṛtā haridurge durgādevī sarvaśaḥ | durgottirityabhidhyāte durgāpādāna sarvadā ||"
+        },
+        {
+          "number": 27,
+          "sanskrit": "चण्डी चण्डिता चैव चण्डमुण्डविनाशिनी | चण्डिका परमेशानी चण्डी चण्डात्मिका शुभा ||",
+          "transliteration": "caṇḍī caṇḍitā caiva caṇḍamuṇḍavināśinī | caṇḍikā parameśānī caṇḍī caṇḍātmikā śubhā ||"
         }
       ]
     }

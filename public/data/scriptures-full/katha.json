@@ -6,7 +6,7 @@
   "source": {
     "repo": "https://sanskritdocuments.org/doc_upanishhat/",
     "license": "Sanskrit mūla — public domain (2500+ years old). sanskritdocuments.org publishes digitized text under permissive terms.",
-    "fetchedAt": "2026-05-15T09:07:11.578Z"
+    "fetchedAt": "2026-06-02T08:28:55.112Z"
   },
   "totalVerses": 120,
   "totalChapters": 6,
@@ -17,8 +17,8 @@
       "verses": [
         {
           "number": 1,
-          "sanskrit": "ॐ ॥ अथ कठोपनिषद् ॥ ॐ सह नाववतु । सह नौ भुनक्तु । सहवीर्यं करवावहै । तेजस्वि नावधीतमस्तु । मा विद्विषावहै ॥ ॐ शान्तिः शान्तिः शान्तिः ॥ ॐ उशन् ह वै वाजश्रवसः सर्ववेदसं ददौ । तस्य ह नचिकेता नाम पुत्र आस",
-          "transliteration": "OM || atha kaThopaniShad || OM saha nAvavatu | saha nau bhunaktu | sahavIryaM karavAvahai | tejasvi nAvadhItamastu | mA vidviShAvahai || OM shAntiH shAntiH shAntiH || OM ushan ha vai vAjashravasaH sarvavedasaM dadau | tasya ha nachiketA nAma putra Asa"
+          "sanskrit": "॥ ख़थ ऊपनिशद् ॥ .. kaThopaniShat ..eन्द्तित्लेस् OM || atha kaThopaniShad || OM saha nAvavatu | saha nau bhunaktu | sahavIryaM karavAvahai | tejasvi nAvadhItamastu | mA vidviShAvahai || OM shAntiH shAntiH shAntiH || OM ushan ha vai vAjashravasaH sarvavedasaM dadau | tasya ha nachiketA nAma putra Asa",
+          "transliteration": ".. Katha Upanishad ..## .. kaThopaniShat ..##\\endtitles ## OM || atha kaThopaniShad || OM saha nAvavatu | saha nau bhunaktu | sahavIryaM karavAvahai | tejasvi nAvadhItamastu | mA vidviShAvahai || OM shAntiH shAntiH shAntiH || OM ushan ha vai vAjashravasaH sarvavedasaM dadau | tasya ha nachiketA nAma putra Asa"
         },
         {
           "number": 2,

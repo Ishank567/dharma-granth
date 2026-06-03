@@ -11,13 +11,7 @@
     --font-noto-devanagari: 'Noto Sans Devanagari', sans-serif;
 }
 
-/* Theme variables. The default (no data-theme attribute) is "day".
- *
- * The themes shift the *background* tint and ambient glow colors, but
- * keep text and card surfaces consistently readable. This is a "mood"
- * variation rather than a dark mode — going full dark would require
- * re-theming the many light-background section panels inside verse
- * cards, which would balloon scope. */
+/* Theme variables. The default (no data-theme attribute) is "day". */
 :root,
 :root[data-theme='day'] {
     --dharma-bg: #fdfbf7;
@@ -25,28 +19,49 @@
     --dharma-muted: #6b6560;
     --dharma-border: #e8e3db;
     --dharma-card: #ffffff;
-    --bg-glow-1: rgba(255, 193, 120, 0.1);
-    --bg-glow-2: rgba(234, 88, 12, 0.06);
+    --dharma-card-soft: #fff8ef;
+    --dharma-panel: #ffffff;
+    --dharma-panel-muted: #f8f3ec;
+    --dharma-hero-start: #7c2d12;
+    --dharma-hero-mid: #c2410c;
+    --dharma-hero-end: #f97316;
+    --bg-glow-1: rgba(255, 193, 120, 0.14);
+    --bg-glow-2: rgba(14, 165, 148, 0.08);
+    color-scheme: light;
 }
 
 :root[data-theme='sunset'] {
-    --dharma-bg: #fbf0e2;
-    --dharma-text: #3a2418;
-    --dharma-muted: #8a5840;
-    --dharma-border: #f0d9be;
-    --dharma-card: #fff8ee;
-    --bg-glow-1: rgba(244, 114, 32, 0.18);
-    --bg-glow-2: rgba(225, 29, 72, 0.12);
+    --dharma-bg: #fff4e5;
+    --dharma-text: #332016;
+    --dharma-muted: #7c5745;
+    --dharma-border: #ecc9a7;
+    --dharma-card: #fffaf2;
+    --dharma-card-soft: #ffeed9;
+    --dharma-panel: #fff7ec;
+    --dharma-panel-muted: #f9e0c5;
+    --dharma-hero-start: #6f1d1b;
+    --dharma-hero-mid: #b45309;
+    --dharma-hero-end: #e11d48;
+    --bg-glow-1: rgba(244, 114, 32, 0.24);
+    --bg-glow-2: rgba(225, 29, 72, 0.14);
+    color-scheme: light;
 }
 
 :root[data-theme='night'] {
-    --dharma-bg: #eef0fa;
-    --dharma-text: #1f1f3b;
-    --dharma-muted: #4f4f7a;
-    --dharma-border: #d8d9ec;
-    --dharma-card: #ffffff;
-    --bg-glow-1: rgba(129, 140, 248, 0.18);
-    --bg-glow-2: rgba(168, 85, 247, 0.14);
+    --dharma-bg: #090908;
+    --dharma-text: #f2eee7;
+    --dharma-muted: #b3aaa0;
+    --dharma-border: #312b25;
+    --dharma-card: #151412;
+    --dharma-card-soft: #201a16;
+    --dharma-panel: #171512;
+    --dharma-panel-muted: #241c17;
+    --dharma-hero-start: #0f0e0d;
+    --dharma-hero-mid: #3a2418;
+    --dharma-hero-end: #7c2d12;
+    --bg-glow-1: rgba(249, 115, 22, 0.18);
+    --bg-glow-2: rgba(20, 184, 166, 0.09);
+    color-scheme: dark;
 }
 
 @layer base {
@@ -114,7 +129,8 @@
         @apply inline-block font-devanagari text-saffron-600 drop-shadow-sm;
     }
     .verse-card {
-        @apply bg-white rounded-2xl border border-dharma-border shadow-sm overflow-hidden transition-all hover:shadow-lg;
+        @apply rounded-2xl border border-dharma-border shadow-sm overflow-hidden transition-all hover:shadow-lg;
+        background: var(--dharma-card);
     }
     .gradient-text {
         @apply bg-gradient-to-r from-saffron-700 via-saffron-500 to-amber-600 bg-clip-text text-transparent;
@@ -238,10 +254,94 @@
 
     /* ── Pillar Cards (homepage value props) ────────────────────── */
     .pillar-card {
-        @apply bg-white rounded-2xl border border-dharma-border p-6 shadow-sm hover:shadow-xl hover:border-saffron-200 transition-all hover:-translate-y-1 duration-300;
+        @apply rounded-2xl border border-dharma-border p-6 shadow-sm hover:shadow-xl hover:border-saffron-200 transition-all hover:-translate-y-1 duration-300;
+        background: color-mix(in srgb, var(--dharma-card) 88%, transparent);
     }
     .pillar-icon-wrap {
         @apply w-12 h-12 rounded-xl flex items-center justify-center mb-4 text-white;
+    }
+}
+
+@layer components {
+    :root[data-theme='sunset'] .bg-dharma-card,
+    :root[data-theme='sunset'] .scripture-card {
+        box-shadow: 0 14px 40px rgba(124, 45, 18, 0.08);
+    }
+
+    :root[data-theme='night'] .bg-white,
+    :root[data-theme='night'] .bg-white\/80,
+    :root[data-theme='night'] .bg-white\/90,
+    :root[data-theme='night'] .bg-white\/95,
+    :root[data-theme='night'] .bg-dharma-card,
+    :root[data-theme='night'] .scripture-card,
+    :root[data-theme='night'] .infographic-content-panel {
+        background-color: var(--dharma-card);
+        color: var(--dharma-text);
+    }
+
+    :root[data-theme='night'] .bg-dharma-bg,
+    :root[data-theme='night'] .bg-stone-50,
+    :root[data-theme='night'] .bg-slate-50 {
+        background-color: var(--dharma-bg);
+    }
+
+    :root[data-theme='night'] .section-sanskrit,
+    :root[data-theme='night'] .section-translit,
+    :root[data-theme='night'] .section-translation,
+    :root[data-theme='night'] .section-hindi,
+    :root[data-theme='night'] .section-explanation,
+    :root[data-theme='night'] .section-science,
+    :root[data-theme='night'] .section-lesson,
+    :root[data-theme='night'] .explanation-box,
+    :root[data-theme='night'] .infographic-mini-card,
+    :root[data-theme='night'] .verse-hindi-block,
+    :root[data-theme='night'] .verse-science-block,
+    :root[data-theme='night'] .verse-lesson-block {
+        background: linear-gradient(135deg, var(--dharma-panel), var(--dharma-panel-muted));
+        border-color: var(--dharma-border);
+    }
+
+    :root[data-theme='night'] .text-dharma-text,
+    :root[data-theme='night'] .text-stone-700,
+    :root[data-theme='night'] .text-rose-950,
+    :root[data-theme='night'] .text-emerald-950,
+    :root[data-theme='night'] .text-indigo-950,
+    :root[data-theme='night'] .text-amber-900 {
+        color: var(--dharma-text);
+    }
+
+    :root[data-theme='night'] .text-dharma-muted,
+    :root[data-theme='night'] .text-stone-600,
+    :root[data-theme='night'] .text-stone-700 {
+        color: var(--dharma-muted);
+    }
+
+    :root[data-theme='night'] .border-dharma-border,
+    :root[data-theme='night'] .border-saffron-200,
+    :root[data-theme='night'] .border-amber-200,
+    :root[data-theme='night'] .border-rose-200,
+    :root[data-theme='night'] .border-indigo-200,
+    :root[data-theme='night'] .border-emerald-200 {
+        border-color: var(--dharma-border);
+    }
+
+    :root[data-theme='night'] .chip,
+    :root[data-theme='night'] .keyword-chip,
+    :root[data-theme='night'] .keyword-chip-science,
+    :root[data-theme='night'] .keyword-chip-hindi {
+        background-color: rgba(249, 115, 22, 0.14);
+        border-color: rgba(249, 115, 22, 0.28);
+        color: #fed7aa;
+    }
+
+    :root[data-theme='sunset'] .section-sanskrit,
+    :root[data-theme='sunset'] .section-translit,
+    :root[data-theme='sunset'] .section-translation,
+    :root[data-theme='sunset'] .section-hindi,
+    :root[data-theme='sunset'] .section-explanation,
+    :root[data-theme='sunset'] .section-science,
+    :root[data-theme='sunset'] .section-lesson {
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.55);
     }
 }
 

@@ -10,7 +10,7 @@ const navItems = [
   { label: 'Home', href: '/' },
   { label: 'Library', href: '/scriptures' },
   { label: 'Bhagavad Gita', href: '/scripture/bhagavadgita' },
-  { label: 'Isha Upanishad', href: '/scripture/ishavasya' },
+  { label: 'Bookmarks', href: '/bookmarks' },
 ];
 
 export function SiteNav() {
@@ -23,12 +23,12 @@ export function SiteNav() {
   const linkClass = (href: string): string =>
     `px-3 py-2 rounded-lg text-sm font-semibold transition ${
       isActive(href)
-        ? 'text-saffron-700 bg-saffron-50'
-        : 'text-dharma-text hover:text-saffron-700 hover:bg-saffron-50'
+        ? 'text-saffron-700 bg-saffron-500/10'
+        : 'text-dharma-text hover:text-saffron-700 hover:bg-saffron-500/10'
     }`;
 
   return (
-    <nav className="sticky top-0 z-50 bg-white/90 backdrop-blur-lg border-b border-dharma-border shadow-sm">
+    <nav className="sticky top-0 z-50 bg-dharma-card/90 backdrop-blur-lg border-b border-dharma-border shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="h-16 flex items-center justify-between">
 
@@ -67,7 +67,7 @@ export function SiteNav() {
           <div className="md:hidden flex items-center gap-2">
             <ThemeToggle />
             <button
-              className="p-2 rounded-lg text-dharma-text hover:bg-saffron-50 transition"
+              className="p-2 rounded-lg text-dharma-text hover:bg-saffron-500/10 transition"
               onClick={() => setMobileOpen((prev) => !prev)}
               aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
             >
@@ -80,7 +80,7 @@ export function SiteNav() {
 
       {/* Mobile dropdown */}
       {mobileOpen && (
-        <div className="md:hidden border-t border-dharma-border bg-white/95 backdrop-blur-lg pb-4">
+        <div className="md:hidden border-t border-dharma-border bg-dharma-card/95 backdrop-blur-lg pb-4">
           <div className="flex flex-col gap-1 pt-2 px-2">
             {navItems.map((item) => (
               <Link
@@ -89,8 +89,8 @@ export function SiteNav() {
                 onClick={() => setMobileOpen(false)}
                 className={`flex items-center gap-2 px-3 py-2.5 rounded-lg text-sm font-semibold transition ${
                   (item.href === '/' ? pathname === '/' : pathname.startsWith(item.href))
-                    ? 'text-saffron-700 bg-saffron-50'
-                    : 'text-dharma-text hover:text-saffron-700 hover:bg-saffron-50'
+                    ? 'text-saffron-700 bg-saffron-500/10'
+                    : 'text-dharma-text hover:text-saffron-700 hover:bg-saffron-500/10'
                 }`}
               >
                 {item.label}

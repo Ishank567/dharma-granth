@@ -6,7 +6,7 @@
   "source": {
     "repo": "https://sanskritdocuments.org/doc_upanishhat/",
     "license": "Sanskrit mūla — public domain (2500+ years old). sanskritdocuments.org publishes digitized text under permissive terms.",
-    "fetchedAt": "2026-05-15T09:07:10.842Z"
+    "fetchedAt": "2026-06-02T08:28:54.342Z"
   },
   "totalVerses": 35,
   "totalChapters": 4,
@@ -17,8 +17,8 @@
       "verses": [
         {
           "number": 1,
-          "sanskrit": "॥ अथ केनोपनिषत् ॥ ॐ आप्यायन्तु ममाङ्गानि वाक्प्राणश्चक्षुः श्रोत्रमथो बलमिन्द्रियाणि च सर्वाणि । सर्वं ब्रह्मौपनिषदं माऽहं ब्रह्म निराकुर्यां मा मा ब्रह्म निराकरोदनिराकरणमस्त्वनिराकरणं मेऽस्तु । तदात्मनि निरते य उपनिषत्सु धर्मास्ते मयि सन्तु ते मयि सन्तु । ॐ शान्तिः शान्तिः शान्तिः ॥ ॐ केनेषितं पतति प्रेषितं मनः केन प्राणः प्रथमः प्रैति युक्तः । केनेषितां वाचमिमां वदन्ति चक्षुः श्रोत्रं क उ देवो युनक्ति",
-          "transliteration": "|| atha kenopaniShat || OM ApyAyantu mamA~NgAni vAkprANashchakShuH shrotramatho balamindriyANi cha sarvANi | sarvaM brahmaupaniShadaM mA.ahaM brahma nirAkuryAM mA mA brahma nirAkarodanirAkaraNamastvanirAkaraNaM me.astu | tadAtmani nirate ya upaniShatsu dharmAste mayi santu te mayi santu | OM shAntiH shAntiH shAntiH || OM keneShitaM patati preShitaM manaH kena prANaH prathamaH praiti yuktaH | keneShitAM vAchamimAM vadanti chakShuH shrotraM ka u devo yunakti"
+          "sanskrit": "॥ ख़ेन ऊपनिशद् ॥ .. kenopaniShat ..eन्द्तित्लेस् || atha kenopaniShat || OM ApyAyantu mamA~NgAni vAkprANashchakShuH shrotramatho balamindriyANi cha sarvANi | sarvaM brahmaupaniShadaM mA.ahaM brahma nirAkuryAM mA mA brahma nirAkarodanirAkaraNamastvanirAkaraNaM me.astu | tadAtmani nirate ya upaniShatsu dharmAste mayi santu te mayi santu | OM shAntiH shAntiH shAntiH || OM keneShitaM patati preShitaM manaH kena prANaH prathamaH praiti yuktaH | keneShitAM vAchamimAM vadanti chakShuH shrotraM ka u devo yunakti",
+          "transliteration": ".. Kena Upanishad ..## .. kenopaniShat ..##\\endtitles ## || atha kenopaniShat || OM ApyAyantu mamA~NgAni vAkprANashchakShuH shrotramatho balamindriyANi cha sarvANi | sarvaM brahmaupaniShadaM mA.ahaM brahma nirAkuryAM mA mA brahma nirAkarodanirAkaraNamastvanirAkaraNaM me.astu | tadAtmani nirate ya upaniShatsu dharmAste mayi santu te mayi santu | OM shAntiH shAntiH shAntiH || OM keneShitaM patati preShitaM manaH kena prANaH prathamaH praiti yuktaH | keneShitAM vAchamimAM vadanti chakShuH shrotraM ka u devo yunakti"
         },
         {
           "number": 2,

@@ -125,7 +125,7 @@ export function ChapterPreparationClient({
   }, [storageKey, reflection, completed, activeFocus]);
 
   return (
-    <section className="rounded-lg border border-dharma-border bg-white shadow-sm">
+    <section className="rounded-lg border border-dharma-border bg-dharma-card shadow-sm">
       <div className="border-b border-dharma-border p-5">
         <div className="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
           <div>
@@ -142,7 +142,7 @@ export function ChapterPreparationClient({
                 type="button"
                 onClick={() => setLanguage(option)}
                 className={`rounded-md px-3 py-1.5 text-sm font-semibold transition ${
-                  language === option ? 'bg-white text-saffron-800 shadow-sm' : 'text-dharma-muted hover:text-dharma-text'
+                  language === option ? 'bg-dharma-bg text-saffron-800 shadow-sm' : 'text-dharma-muted hover:text-dharma-text'
                 }`}
               >
                 {option === 'hi' ? 'हिन्दी' : 'English'}
@@ -156,7 +156,7 @@ export function ChapterPreparationClient({
         <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_260px]">
           <div className="rounded-3xl border border-dharma-border bg-saffron-50 p-6 shadow-sm">
             <div className="mb-4 flex items-center gap-3">
-              <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-white text-saffron-700 shadow-sm">
+              <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-dharma-bg text-saffron-700 shadow-sm">
                 <Sparkles className="h-5 w-5" />
               </div>
               <div>
@@ -169,14 +169,14 @@ export function ChapterPreparationClient({
             </p>
             <div className="mt-6 grid gap-2 sm:grid-cols-3">
               {[labels.stepOne, labels.stepTwo, labels.stepThree].map((text, index) => (
-                <div key={text} className="rounded-2xl bg-white p-3 text-sm font-medium text-dharma-text shadow-sm">
+                <div key={text} className="rounded-2xl bg-dharma-bg p-3 text-sm font-medium text-dharma-text shadow-sm">
                   <span className="text-saffron-700">{index + 1}</span>. {text}
                 </div>
               ))}
             </div>
           </div>
 
-          <div className="rounded-3xl border border-dharma-border bg-white p-5 shadow-sm">
+          <div className="rounded-3xl border border-dharma-border bg-dharma-card p-5 shadow-sm">
             <div className="mb-4 flex items-center justify-between gap-3">
               <div>
                 <p className="text-xs font-semibold uppercase tracking-wider text-dharma-muted">{labels.focusTitle}</p>
@@ -195,7 +195,7 @@ export function ChapterPreparationClient({
                   className={`rounded-full border px-3 py-2 text-sm transition ${
                     activeFocus === option
                       ? 'border-saffron-600 bg-saffron-600 text-white shadow-sm'
-                      : 'border-dharma-border bg-white text-dharma-text hover:bg-saffron-50'
+                      : 'border-dharma-border bg-dharma-bg text-dharma-text hover:bg-saffron-500/10'
                   }`}
                 >
                   {option}
@@ -214,7 +214,7 @@ export function ChapterPreparationClient({
                 <h3 className="mt-1 text-xl font-serif font-bold text-dharma-text">{chapterTitle}</h3>
                 {chapterTitleSanskrit && <p className="font-devanagari text-sm text-saffron-800">{chapterTitleSanskrit}</p>}
               </div>
-              <div className="rounded-3xl bg-white p-6 shadow-sm min-h-[160px] flex flex-col justify-center">
+              <div className="rounded-3xl bg-dharma-card p-6 shadow-sm min-h-[160px] flex flex-col justify-center">
                 <div className="text-center">
                   <h4 className="text-xs uppercase tracking-wider text-dharma-muted mb-4">{labels.summary}</h4>
                   <p className={`text-base leading-relaxed text-dharma-text ${language === 'hi' ? 'font-devanagari text-lg' : ''}`}>
@@ -257,7 +257,7 @@ export function ChapterPreparationClient({
                 {labels.prompt}
               </p>
             </div>
-            <div className="rounded-2xl bg-white px-4 py-2 text-xs font-semibold uppercase tracking-wider text-saffron-700 shadow-sm">
+            <div className="rounded-2xl bg-dharma-card px-4 py-2 text-xs font-semibold uppercase tracking-wider text-saffron-700 shadow-sm">
               {Math.round(reflectionProgress)}% ready
             </div>
           </div>
@@ -266,7 +266,7 @@ export function ChapterPreparationClient({
             value={reflection}
             onChange={event => setReflection(event.target.value)}
             placeholder={labels.placeholder}
-            className="min-h-28 w-full resize-y rounded-3xl border border-dharma-border bg-white p-4 text-sm leading-relaxed text-dharma-text outline-none transition focus:border-saffron-500 focus:ring-2 focus:ring-saffron-100"
+            className="min-h-28 w-full resize-y rounded-3xl border border-dharma-border bg-dharma-card p-4 text-sm leading-relaxed text-dharma-text outline-none transition focus:border-saffron-500 focus:ring-2 focus:ring-saffron-100/20"
           />
 
           <div className="mt-4 grid gap-4 lg:grid-cols-[1fr_auto]">
@@ -276,7 +276,7 @@ export function ChapterPreparationClient({
               </div>
               <p className="text-xs text-dharma-muted">{language === 'hi' ? '160 वर्ण तक लिखें और अपनी मानसिकता स्पष्ट करें।' : 'Write up to 160 characters to sharpen your focus.'}</p>
             </div>
-            <div className="rounded-3xl border border-dharma-border bg-white p-4 text-sm text-dharma-text shadow-sm">
+            <div className="rounded-3xl border border-dharma-border bg-dharma-card p-4 text-sm text-dharma-text shadow-sm">
               <p className="font-semibold text-dharma-text">{labels.focusTitle}</p>
               <p className="mt-2 text-sm text-dharma-muted">{activeFocus}</p>
             </div>
@@ -294,7 +294,7 @@ export function ChapterPreparationClient({
                 className={`rounded-full border px-3 py-2 text-sm transition ${
                   activeFocus === option
                     ? 'border-saffron-600 bg-saffron-600 text-white shadow-sm'
-                    : 'border-dharma-border bg-white text-dharma-text hover:bg-saffron-50'
+                    : 'border-dharma-border bg-dharma-bg text-dharma-text hover:bg-saffron-500/10'
                 }`}
               >
                 {option}
@@ -341,7 +341,7 @@ export function ChapterPreparationClient({
                   // ignore
                 }
               }}
-              className="inline-flex items-center justify-center rounded-lg border border-dharma-border bg-white px-4 py-2 text-sm font-semibold text-dharma-text transition hover:bg-saffron-50"
+              className="inline-flex items-center justify-center rounded-lg border border-dharma-border bg-dharma-card px-4 py-2 text-sm font-semibold text-dharma-text transition hover:bg-saffron-500/10"
             >
               {language === 'hi' ? 'रीसेट करें' : 'Reset Reflection'}
             </button>

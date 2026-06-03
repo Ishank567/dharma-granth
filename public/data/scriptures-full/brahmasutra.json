@@ -6,9 +6,9 @@
   "source": {
     "repo": "https://sanskritdocuments.org/doc_vedanta/brahmasUtra.itx",
     "license": "Sanskrit mūla — public domain. Attributed to Vyasa.",
-    "fetchedAt": "2026-06-01T11:10:44.567Z"
+    "fetchedAt": "2026-06-02T08:43:13.755Z"
   },
-  "totalVerses": 565,
+  "totalVerses": 566,
   "totalChapters": 4,
   "chapters": [
     {
@@ -17,13 +17,18 @@
       "verses": [
         {
           "number": 0,
-          "sanskrit": "ॐ ॥ श्री गुरुभ्यो नमः हरिः ॐ",
-          "transliteration": "OM || shrI gurubhyo namaH hariH OM"
+          "sanskrit": "॥ Bरह्मसुत्र ॥ .. brahmasUtrANi ..eन्द्तित्लेस् OM || shrI gurubhyo namaH hariH OM",
+          "transliteration": ".. Brahmasutra ..## .. brahmasUtrANi ..##\\endtitles ## OM || shrI gurubhyo namaH hariH OM"
+        },
+        {
+          "number": 0,
+          "sanskrit": "श्री बादरायणाभिधेयश्रीवेदव्यासमहर्षिप्रणीतानि श्री ब्रह्मसूत्राणि",
+          "transliteration": "shrI bAdarAyaNAbhidheyashrIvedavyAsamaharShipraNItAni shrI brahmasUtrANi"
         },
         {
           "number": "1.1.1",
-          "sanskrit": "श्री बादरायणाभिधेयश्रीवेदव्यासमहर्षिप्रणीतानि श्री ब्रह्मसूत्राणि॥ ॐ अथातो ब्रह्मजिज्ञासा ॐ",
-          "transliteration": "shrI bAdarAyaNAbhidheyashrIvedavyAsamaharShipraNItAni shrI brahmasUtrANi|| OM athAto brahmajij~nAsA OM"
+          "sanskrit": "अथ प्रथमोऽध्यायः॥ ॐ अथातो ब्रह्मजिज्ञासा ॐ",
+          "transliteration": "atha prathamo.adhyAyaH|| OM athAto brahmajij~nAsA OM"
         },
         {
           "number": "1.1.2",
@@ -177,8 +182,8 @@
         },
         {
           "number": "1.2.1",
-          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु ॐ सर्वत्र प्रसिद्धोपदेशात् ॐ",
-          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu OM sarvatra prasiddhopadeshAt OM"
+          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु प्रथमाध्यायस्य प्रथमः पादः समाप्तः ॐ सर्वत्र प्रसिद्धोपदेशात् ॐ",
+          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu prathamAdhyAyasya prathamaH pAdaH samAptaH OM sarvatra prasiddhopadeshAt OM"
         },
         {
           "number": "1.2.2",
@@ -337,8 +342,8 @@
         },
         {
           "number": "1.3.1",
-          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु ॐ द्युभ्वाद्यायतनं स्वशब्दात् ॐ",
-          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu OM dyubhvAdyAyatanaM svashabdAt OM"
+          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु प्रथमाध्यायस्य द्वितीयः पादः समाप्तः ॐ द्युभ्वाद्यायतनं स्वशब्दात् ॐ",
+          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu prathamAdhyAyasya dvitIyaH pAdaH samAptaH OM dyubhvAdyAyatanaM svashabdAt OM"
         },
         {
           "number": "1.3.2",
@@ -552,8 +557,8 @@
         },
         {
           "number": "1.4.1",
-          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु ॐ आनुमानिकमप्येकेषामिति चेन्न शरीररूपकविन्यस्तगृहीतेर्दर्शयति च ॐ",
-          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu OM AnumAnikamapyekeShAmiti chenna sharIrarUpakavinyastagR^ihIterdarshayati cha OM"
+          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु प्रथमाध्यायस्य तृतीयः पादः समाप्तः ॐ आनुमानिकमप्येकेषामिति चेन्न शरीररूपकविन्यस्तगृहीतेर्दर्शयति च ॐ",
+          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu prathamAdhyAyasya tR^itIyaH pAdaH samAptaH OM AnumAnikamapyekeShAmiti chenna sharIrarUpakavinyastagR^ihIterdarshayati cha OM"
         },
         {
           "number": "1.4.2",
@@ -703,8 +708,8 @@
       "verses": [
         {
           "number": "2.1.1",
-          "sanskrit": "॥ ॐ स्मृत्यनवकाशदोषप्रसङ्ग इति चेन्नान्यस्मृत्यनवकाशदोषप्रसङ्गात् ॐ",
-          "transliteration": "|| OM smR^ityanavakAshadoShaprasa~Nga iti chennAnyasmR^ityanavakAshadoShaprasa~NgAt OM"
+          "sanskrit": "अथ द्वितीयोऽध्यायः॥ ॐ स्मृत्यनवकाशदोषप्रसङ्ग इति चेन्नान्यस्मृत्यनवकाशदोषप्रसङ्गात् ॐ",
+          "transliteration": "atha dvitIyo.adhyAyaH|| OM smR^ityanavakAshadoShaprasa~Nga iti chennAnyasmR^ityanavakAshadoShaprasa~NgAt OM"
         },
         {
           "number": "2.1.2",
@@ -893,8 +898,8 @@
         },
         {
           "number": "2.2.1",
-          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु ॐ रचनानुपपत्तेश्च नानुमानम् ॐ",
-          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu OM rachanAnupapatteshcha nAnumAnam OM"
+          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु द्वितीयाध्यायस्य प्रथमः पादः समाप्तः ॐ रचनानुपपत्तेश्च नानुमानम् ॐ",
+          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu dvitIyAdhyAyasya prathamaH pAdaH samAptaH OM rachanAnupapatteshcha nAnumAnam OM"
         },
         {
           "number": "2.2.2",
@@ -1118,8 +1123,8 @@
         },
         {
           "number": "2.3.1",
-          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु ॐ न वियदश्रुतेः ॐ",
-          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu OM na viyadashruteH OM"
+          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु द्वितीयाध्यायस्य द्वितीयः पादः समाप्तः ॐ न वियदश्रुतेः ॐ",
+          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu dvitIyAdhyAyasya dvitIyaH pAdaH samAptaH OM na viyadashruteH OM"
         },
         {
           "number": "2.3.2",
@@ -1383,8 +1388,8 @@
         },
         {
           "number": "2.4.1",
-          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु ॐ तथा प्राणाः ॐ",
-          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu OM tathA prANAH OM"
+          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु द्वितीयाध्यायस्य तृतीयः पादः समाप्तः ॐ तथा प्राणाः ॐ",
+          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu dvitIyAdhyAyasya tR^itIyaH pAdaH samAptaH OM tathA prANAH OM"
         },
         {
           "number": "2.4.2",
@@ -1504,8 +1509,8 @@
       "verses": [
         {
           "number": "3.1.1",
-          "sanskrit": "॥ ॐ तदन्तरप्रतिपत्तौ रंहति सम्परिष्वक्तः प्रश्ननिरूपणाभ्याम् ॐ",
-          "transliteration": "|| OM tadantarapratipattau raMhati sampariShvaktaH prashnanirUpaNAbhyAm OM"
+          "sanskrit": "अथ तृतीयोऽध्यायः॥ ॐ तदन्तरप्रतिपत्तौ रंहति सम्परिष्वक्तः प्रश्ननिरूपणाभ्याम् ॐ",
+          "transliteration": "atha tR^itIyo.adhyAyaH|| OM tadantarapratipattau raMhati sampariShvaktaH prashnanirUpaNAbhyAm OM"
         },
         {
           "number": "3.1.2",
@@ -1649,8 +1654,8 @@
         },
         {
           "number": "3.2.1",
-          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु ॐ सन्ध्ये सृष्टिराह हि ॐ",
-          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu OM sandhye sR^iShTirAha hi OM"
+          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु तृतीयाध्यायस्य प्रथमः पादः समाप्तः ॐ सन्ध्ये सृष्टिराह हि ॐ",
+          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu tR^itIyAdhyAyasya prathamaH pAdaH samAptaH OM sandhye sR^iShTirAha hi OM"
         },
         {
           "number": "3.2.2",
@@ -1859,8 +1864,8 @@
         },
         {
           "number": "3.3.1",
-          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु ॐ सर्ववेदान्तप्रत्ययं चोदनाद्यविशेषात् ॐ",
-          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu OM sarvavedAntapratyayaM chodanAdyavisheShAt OM"
+          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु तृतीयाध्यायस्य द्वितीयः पादः समाप्तः ॐ सर्ववेदान्तप्रत्ययं चोदनाद्यविशेषात् ॐ",
+          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu tR^itIyAdhyAyasya dvitIyaH pAdaH samAptaH OM sarvavedAntapratyayaM chodanAdyavisheShAt OM"
         },
         {
           "number": "3.3.2",
@@ -2199,8 +2204,8 @@
         },
         {
           "number": "3.4.1",
-          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु ॐ पुरुषार्थोऽतः शब्दादिति बादरायणः ॐ",
-          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu OM puruShArtho.ataH shabdAditi bAdarAyaNaH OM"
+          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु तृतीयाध्यायस्य तृतीयः पादः समाप्तः ॐ पुरुषार्थोऽतः शब्दादिति बादरायणः ॐ",
+          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu tR^itIyAdhyAyasya tR^itIyaH pAdaH samAptaH OM puruShArtho.ataH shabdAditi bAdarAyaNaH OM"
         },
         {
           "number": "3.4.2",
@@ -2460,8 +2465,8 @@
       "verses": [
         {
           "number": "4.1.1",
-          "sanskrit": "॥ ॐ आवृत्तिः असकृदुपदेशात् ॐ",
-          "transliteration": "|| OM AvR^ittiH asakR^idupadeshAt OM"
+          "sanskrit": "अथ चतुर्थोऽध्यायः॥ ॐ आवृत्तिः असकृदुपदेशात् ॐ",
+          "transliteration": "atha chaturtho.adhyAyaH|| OM AvR^ittiH asakR^idupadeshAt OM"
         },
         {
           "number": "4.1.2",
@@ -2555,8 +2560,8 @@
         },
         {
           "number": "4.2.1",
-          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु ॐ वाङ्ग्मनसि दर्शनाच्छब्दाच्च ॐ",
-          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu OM vA~Ngmanasi darshanAchChabdAchcha OM"
+          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु चतुर्थाध्यायस्य प्रथमः पादः समाप्तः ॐ वाङ्ग्मनसि दर्शनाच्छब्दाच्च ॐ",
+          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu chaturthAdhyAyasya prathamaH pAdaH samAptaH OM vA~Ngmanasi darshanAchChabdAchcha OM"
         },
         {
           "number": "4.2.2",
@@ -2665,8 +2670,8 @@
         },
         {
           "number": "4.3.1",
-          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु ॐ अर्चिरादिना तत्प्रथितेः ॐ",
-          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu OM archirAdinA tatprathiteH OM"
+          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु चतुर्थाध्यायस्य द्वितीयः पादः समाप्तः ॐ अर्चिरादिना तत्प्रथितेः ॐ",
+          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu chaturthAdhyAyasya dvitIyaH pAdaH samAptaH OM archirAdinA tatprathiteH OM"
         },
         {
           "number": "4.3.2",
@@ -2745,8 +2750,8 @@
         },
         {
           "number": "4.4.1",
-          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु ॐ सम्पद्याविहाय स्वेनशब्दात् ॐ",
-          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu OM sampadyAvihAya svenashabdAt OM"
+          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु चतुर्थाध्यायस्य तृतीयः पादः समाप्तः ॐ सम्पद्याविहाय स्वेनशब्दात् ॐ",
+          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu chaturthAdhyAyasya tR^itIyaH pAdaH samAptaH OM sampadyAvihAya svenashabdAt OM"
         },
         {
           "number": "4.4.2",

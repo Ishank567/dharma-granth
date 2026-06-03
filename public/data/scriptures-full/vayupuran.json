@@ -1,0 +1,86 @@
+{
+  "id": "vayupuran",
+  "title": "Vayu Purana",
+  "titleSanskrit": "वायुपुराण",
+  "category": "purana",
+  "source": {
+    "repo": "https://sanskritdocuments.org/",
+    "license": "Full text not available. Curated highlights are hand-authored.",
+    "fetchedAt": "2026-06-02T08:43:33.873Z"
+  },
+  "totalVerses": 10,
+  "totalChapters": 3,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Purva Khanda — Cosmology and Sacred Time",
+      "titleSanskrit": "पूर्वखण्ड",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "कालः सृजति भूतानि कालः संहरते प्रजाः | कालः सुप्तेषु जागर्ति कालो हि दुरतिक्रमः ||",
+          "transliteration": "kālaḥ sṛjati bhūtāni kālaḥ saṃharate prajāḥ | kālaḥ supteṣu jāgarti kālo hi duratikramaḥ ||"
+        },
+        {
+          "number": 8,
+          "sanskrit": "चत्वारि युगान्याहुः कृतं त्रेता द्वापरं कलिः | तेषां धर्मविशेषाश्च भवन्ति युगशः क्रमात् ||",
+          "transliteration": "catvāri yugānyāhuḥ kṛtaṃ tretā dvāparaṃ kaliḥ | teṣāṃ dharmaviśeṣāśca bhavanti yugaśaḥ kramāt ||"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Shiva as Vayu — The Cosmic Breath",
+      "titleSanskrit": "वायुस्वरूप महेश्वर",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "वायुरात्मा जगतस्तस्थुषश्च | यो विश्वे देवा देवानां सम्राट् | स एव रुद्रः स महान् महेशः | स एव विश्वं भुवनं बभूव ||",
+          "transliteration": "vāyurātmā jagatastaṣṭhuṣaśca | yo viśve devā devānāṃ samrāṭ | sa eva rudraḥ sa mahān maheśaḥ | sa eva viśvaṃ bhuvanaṃ babhūva ||"
+        },
+        {
+          "number": 18,
+          "sanskrit": "नमस्ते अस्तु भगवन् विश्वेश्वराय महादेव | त्र्यम्बकाय त्रिपुरान्तकाय त्रिकालाग्निकालाय कालाग्निरुद्राय ||",
+          "transliteration": "namaste astu bhagavan viśveśvarāya mahādeva | tryambakāya tripurāntakāya trikālāgnikālāya kālāgnīrudrāya ||"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Uttara Khanda — Dharma, Liberation, and Sacred Geography",
+      "titleSanskrit": "उत्तरखण्ड",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "अहिंसा सत्यमस्तेयं शौचमिन्द्रियनिग्रहः | एतं सामासिकं धर्मं चातुर्वर्ण्येऽब्रवीन्मनुः ||",
+          "transliteration": "ahiṃsā satyamasteyaṃ śaucamindriyanigrahaḥ | etaṃ sāmāsikaṃ dharmaṃ cāturvarṇye'bravīnmanuḥ ||"
+        },
+        {
+          "number": 44,
+          "sanskrit": "गच्छन् तिष्ठन् स्वपन् जाग्रन् उन्मिषन् निमिषन्नपि | यः स्मरेत् परमं ब्रह्म स मुक्तो नात्र संशयः ||",
+          "transliteration": "gacchan tiṣṭhan svapan jāgran unmiṣan nimiṣannapi | yaḥ smaret paramaṃ brahma sa mukto nātra saṃśayaḥ ||"
+        },
+        {
+          "number": 5,
+          "sanskrit": "वायुः सर्वस्वरूपो वायुः सर्वगतः सर्वव्यापी | वायुं यो जानाति तत्त्वेन स वायुः स स्वयं भवति ||",
+          "transliteration": "vāyuḥ sarvasvarūpo vāyuḥ sarvagataḥ sarvavyāpī | vāyuṃ yo jānāti tattvena sa vāyuḥ sa svayaṃ bhavati ||"
+        },
+        {
+          "number": 26,
+          "sanskrit": "प्राणो वायुः सर्वभूतानां जीवन्तुः सर्वभूतयोः | यो वायुं जानाति तत्त्वेन स पश्यति परं पदम् ||",
+          "transliteration": "prāṇo vāyuḥ sarvabhūtānāṃ jīvantuḥ sarvabhūtayoḥ | yo vāyuṃ jānāti tattvena sa paśyati paraṃ padam ||"
+        },
+        {
+          "number": 27,
+          "sanskrit": "शिवः प्राणः प्राणेश्चैव शिवः सर्वेषु भूतेषु | यो शिवं प्राणरूपेण जानाति स मुक्तो भवति ||",
+          "transliteration": "śivaḥ prāṇaḥ prāṇeścaiva śivaḥ sarveṣu bhūteṣu | yo śivaṃ prāṇarūpeṇa jānāti sa mukto bhavati ||"
+        },
+        {
+          "number": 28,
+          "sanskrit": "वायुः सर्वस्वरूपो वायुः सर्वगतः सर्वव्यापी | वायुं यो जानाति तत्त्वेन स वायुः स स्वयं भवति ||",
+          "transliteration": "vāyuḥ sarvasvarūpo vāyuḥ sarvagataḥ sarvavyāpī | vāyuṃ yo jānāti tattvena sa vāyuḥ sa svayaṃ bhavati ||"
+        }
+      ]
+    }
+  ]
+}

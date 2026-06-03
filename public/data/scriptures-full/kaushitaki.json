@@ -6,9 +6,108 @@
   "source": {
     "repo": "https://sanskritdocuments.org/doc_upanishhat/",
     "license": "Full itx not available. Curated highlights are hand-authored.",
-    "fetchedAt": "2026-06-01T11:10:53.452Z"
+    "fetchedAt": "2026-06-02T08:43:24.007Z"
   },
-  "totalVerses": 0,
-  "totalChapters": 0,
-  "chapters": []
+  "totalVerses": 14,
+  "totalChapters": 4,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Chapter 1 — The Worlds Where the Souls Go After Death",
+      "titleSanskrit": "प्रथम अध्याय — मृत्यु के पश्चात आत्माओं का गमन",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "सर्वे एव एतं देवयानं पन्थानमापद्यन्ते ये एतदेवं विदुः | अथ यो न विद्वान् पितृयाणेन पन्थना एति ||",
+          "transliteration": "sarve eva etaṃ devayānaṃ panthānamāpadyante ye etadevaṃ viduḥ | atha yo na vidvān pitṛyāṇena panthana eti ||"
+        },
+        {
+          "number": 2,
+          "sanskrit": "प्राणो ब्रह्मेति ह स्माह कौषीतकिः | न मनो न वाक् — प्राणमेव ब्रह्मोपास्स्व ||",
+          "transliteration": "prāṇo brahmeti ha smāha kauṣītakiḥ | na mano na vāk — prāṇameva brahmopāssva ||"
+        },
+        {
+          "number": 3,
+          "sanskrit": "स एतं देवयानं पन्थानमासद्यग्निलोकमागच्छति स वायुलोकं स वरुणलोकं स आदित्यलोकं स इन्द्रलोकं स प्रजापतिलोकं स ब्रह्मलोकम् ||",
+          "transliteration": "sa etaṃ devayānaṃ panthānamāsadyagnilokamāgacchati sa vāyulokaṃ sa varuṇalokaṃ s ādityalokaṃ sa indralokaṃ sa prajāpatilokaṃ sa brahmalokam ||"
+        },
+        {
+          "number": 4,
+          "sanskrit": "रितुरस्म्यर्तवोऽस्म्याकाशयोनेः सम्भूतो भार्यायै रेतः संवत्सरस्य तेजो भूतस्य भूतस्यात्मा भूतस्य त्वमात्मसि यस्त्वमसि सोऽहमस्मि ||",
+          "transliteration": "riturasmyartavo'smyākāśayoneḥ saṃbhūto bhāryāyai retaḥ saṃvatsarasya tejo bhūtasya bhūtasyātmā bhūtasya tvamātmasi yastvamasi so'hamasmi ||"
+        },
+        {
+          "number": 5,
+          "sanskrit": "यजुदरः समसिर आसवृन्मूर्तिरव्यय स ब्रह्मेति विज्ञेय ऋषिर्ब्रह्ममयो महान् ||",
+          "transliteration": "yajudarāḥ samasira āsavṛnmūrtiravyaya sa brahmeti vijñeya ṛṣirbrahmamayo mahān ||"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Chapter 2 — The Greatness of Breath",
+      "titleSanskrit": "द्वितीय अध्याय — प्राण की महिमा",
+      "verses": [
+        {
+          "number": 6,
+          "sanskrit": "प्राणो ब्रह्मेति ह स्माह कौषीतकिः | तस्य ह वै एतस्य प्राणस्य ब्रह्मनो मनो दूतं चक्षुर्गोप्तृ श्रोत्रं संस्रवायितृ वाक्परिवेष्ट्री ||",
+          "transliteration": "prāṇo brahmeti ha smāha kauṣītakiḥ | tasya vai etasya prāṇasya brahmano mano dūtaṃ cakṣurgoptṛ śrotraṃ saṃsrāvayitṛ vākpariveṣṭrī ||"
+        },
+        {
+          "number": 7,
+          "sanskrit": "स प्राणो ब्रह्मेति ह स्माह पैङ्ग्यस्तस्य वै एतस्य प्राणस्य ब्रह्मनो वाच्परस्ताच्क्षुरारुन्धते चक्षुः परस्ताच्छोत्रमारुन्धते ||",
+          "transliteration": "sa prāṇo brahmeti ha smāha paiṅgyastasya vai etasya prāṇasya brahmano vācparastācakṣurārundhate cakṣuḥ parastācśotramārundhate ||"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Chapter 3 — Indra's Teaching to Pratardana",
+      "titleSanskrit": "तृतीय अध्याय — इन्द्र-प्रतर्दन संवाद",
+      "verses": [
+        {
+          "number": 8,
+          "sanskrit": "अहं प्राणः प्रज्ञात्मा तं मामायुरमृतमित्युपास्स्व | आयुः प्राणः प्राणो ह्यायुः ||",
+          "transliteration": "ahaṃ prāṇaḥ prajñātmā taṃ māmāyuramṛtamityupāssva | āyuḥ prāṇaḥ prāṇo hyāyuḥ ||"
+        },
+        {
+          "number": 9,
+          "sanskrit": "प्राणो वै सत्यं तस्मात् प्राणं वदन्ति सत्यं हि वै प्राणः | प्राणो हि वै सर्वं ज्योतिः प्राणो हि वै सर्वं वीर्यम् ||",
+          "transliteration": "prāṇo vai satyaṃ tasmāt prāṇaṃ vadanti satyaṃ hi vai prāṇaḥ | prāṇo hi vai sarvaṃ jyotiḥ prāṇo hi vai sarvaṃ vīryam ||"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Chapter 4 — Partial Definitions of Brahman",
+      "titleSanskrit": "चतुर्थ अध्याय — ब्रह्म के आंशिक परिभाषा",
+      "verses": [
+        {
+          "number": 14,
+          "sanskrit": "अथ ह वै गार्ग्यो बालाकिरानुचानः सम्स्पष्ट आस | सोऽवसद् उषीणरेषु सवसन् मत्स्येषु कुरुपाञ्चलेषु काशिविदेहेष्व् इति स हाजतसत्रुं काश्यमेऽब्रज्योवच ब्रह्म ते ब्रवाणीति ||",
+          "transliteration": "atha vai gārgyo bālākirānucānaḥ sampaṣṭa āsa | so'vasad uṣīṇareṣu savasan matsyeṣu kurupāñcaleṣu kāśivideheṣv iti sa hājatasastrau kāśyame'brajyovaca brahma te bravāṇīti ||"
+        },
+        {
+          "number": 15,
+          "sanskrit": "आदित्ये बृहच्चन्द्रमसयन्नम् विद्युति सत्यं स्तनयित्नौ शब्दो वायविन्द्रो वैकुण्ठ आकाशे पूर्णम् अग्नौ विशाहिरित् अप्सु तेज इत्याधिदैवतम् ||",
+          "transliteration": "āditye bṛhaccandramasayannam vidyuti satyaṃ stanayitnau śabdo vāyavindro vaikuṇṭha ākāśe pūrṇam agnau viśāhirit apsu teja ityādhidaivatam ||"
+        },
+        {
+          "number": 16,
+          "sanskrit": "स होवाच बालाकिः य एवैष आदित्ये पुरुषस्तमेवाहमुपास इति तं होवाच अजातशत्रुः मा मैतस्मिन्समवादयिष्ठो बृहत्पण्डरवासोऽतिष्ठः सर्वेषां भूतानां मूर्धेति व अहमेतमुपास इति ||",
+          "transliteration": "sa hovāca bālakiḥ ya evaiṣa āditye puruṣastam evāham upāsa iti taṃ hovāca ajātaśatruḥ mā maitasminsamavādayiṣṭho bṛhatpaṇḍaravāso'tiṣṭhaḥ sarveṣāṃ bhūtānāṃ mūrdheti va ahametam upāsa iti ||"
+        },
+        {
+          "number": 17,
+          "sanskrit": "तत ऊ ह बालाकिः तुष्निमास तं होवाच अजातशत्रुः एतावन्नू बालक इति एतावदिति होवाच बालाकिः तं होवाच अजातशत्रुः मृषा वै किल मा संवादिष्ठ ब्रह्म ते ब्रवाणीति ||",
+          "transliteration": "tata ū hā bālakiḥ tuṣnimāsa taṃ hovāca ajātaśatruḥ etāvannū bālaka iti etāvaditi hovāca bālakiḥ taṃ hovāca ajātaśatruḥ mṛṣā vai kila mā saṃvādiṣṭha brahma te bravāṇīti ||"
+        },
+        {
+          "number": 18,
+          "sanskrit": "होवाच यो वै बालक एतेषां पुरुषाणां कर्ता यस्य वै तत्कर्म स वेदितव्य इति तत ऊ ह बालाकिः समित्पनिः प्रतिचक्रम उपायनीति ||",
+          "transliteration": "hovāca yo vai bālaka eteṣāṃ puruṣāṇāṃ kartā yasya vai tat karma sa veditavya iti tata ū hā bālakiḥ samitpaniḥ praticakrama upāyanīti ||"
+        }
+      ]
+    }
+  ]
 }

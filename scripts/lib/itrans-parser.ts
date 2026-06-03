@@ -34,6 +34,10 @@ export function cleanItx(raw: string): string {
   if (endIdx >= 0) {
     body = body.slice(0, endIdx);
   }
+  
+  // Unpack LaTeX tags containing actual text/chapter boundaries
+  body = body.replace(/\\(section|centerline|chapter|engtitle|itxtitle|title)\{(.*?)\}/g, "$2");
+
   return body
     .split(/\r?\n/)
     .filter((line) => {
@@ -80,7 +84,7 @@ export interface ParsedChapter {
   trailer: string;
 }
 
-function splitByRegex(body: string, re: RegExp): ParsedChapter[] {
+export function splitByRegex(body: string, re: RegExp): ParsedChapter[] {
   const out: ParsedChapter[] = [];
   let lastIdx = 0;
   let m: RegExpExecArray | null;

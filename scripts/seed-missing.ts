@@ -38,7 +38,35 @@ import {
   normalizeItxLine,
   splitUpanishadChapters,
   splitPuranaChapters,
+  splitByRegex,
+  cleanVerseId,
 } from "./lib/itrans-parser";
+import { getScripture } from "../data/scriptures";
+
+function mergeCuratedChapters(id: string, seeded: FullChapter[]): FullChapter[] {
+  const curated = getScripture(id);
+  if (!curated) return seeded;
+
+  const seededNumbers = new Set(seeded.map((c) => c.number));
+  const finalChapters = [...seeded];
+
+  for (const cc of curated.chapters) {
+    if (!seededNumbers.has(cc.id)) {
+      finalChapters.push({
+        number: cc.id,
+        title: cc.title,
+        titleSanskrit: cc.titleSanskrit,
+        verses: cc.verses.map((v) => ({
+          number: v.id,
+          sanskrit: v.sanskrit,
+          transliteration: v.transliteration || "",
+        })),
+      });
+    }
+  }
+
+  return finalChapters.sort((a, b) => a.number - b.number);
+}
 
 const SD = "https://sanskritdocuments.org";
 
@@ -176,24 +204,86 @@ async function seedBrihadaranyaka(): Promise<FullScripture> {
 
 async function seedTaittiriya(): Promise<FullScripture> {
   log("Fetching Taittiriya Upanishad...");
-  // tait.itx uses Vedic svara accent markers; extractVerses handles plain ITRANS.
-  // Use taitaccent.itx which has the same content but with cleaner verse markers.
   const url = `${SD}/doc_upanishhat/taitaccent.itx`;
   const raw = await fetchText(url);
   const body = cleanItx(raw);
-  const { chapters, totalVerses } = parseAsUpanishad(body, false, "Vallī", "Taittiriya Upanishad");
-  // If parser finds 0 verses (svara format not matched), use single-chapter fallback
-  const finalChapters = totalVerses > 0 ? chapters : [{
-    number: 1,
-    title: "Taittiriya Upanishad",
-    verses: extractVerses(body).map((v) => ({
-      number: v.number,
-      sanskrit: itxToDevanagari(v.itx),
-      transliteration: normalizeItxLine(v.itx),
-    }))
-  }];
-  const finalTotal = finalChapters.reduce((s, c) => s + c.verses.length, 0);
-  log(`  ${finalChapters.length} chapters · ${finalTotal} verses`);
+  
+  const valliNames = ["Shikshā Valli", "Brahmananda Valli", "Bhrigu Valli"];
+  const valliSanskrit = ["शिक्षावल्ली", "ब्रह्मानन्दवल्ली", "भृगुवल्ली"];
+  
+  const rawVallis: string[] = [];
+  let remaining = body;
+  
+  const split1 = remaining.split(/iti\s+shIkShAvallI\s+samAptA/gi);
+  if (split1.length > 1) {
+    rawVallis.push(split1[0]);
+    remaining = split1[1];
+    
+    const split2 = remaining.split(/iti\s+brahmAnandavallI\s+samAptA/gi);
+    if (split2.length > 1) {
+      rawVallis.push(split2[0]);
+      rawVallis.push(split2[1]);
+    } else {
+      rawVallis.push(remaining);
+    }
+  } else {
+    rawVallis.push(body);
+  }
+  
+  const chapters: FullChapter[] = [];
+  
+  for (let i = 0; i < rawVallis.length; i++) {
+    const valliBody = rawVallis[i].trim();
+    const verses: FullVerse[] = [];
+    const verseRegex = /(?:\.\.|\|\|)\s*([\d\\.,\s]+?)\s*(?:\.\.|\|\|)/g;
+    let lastIdx = 0;
+    let m: RegExpExecArray | null;
+    verseRegex.lastIndex = 0;
+    while ((m = verseRegex.exec(valliBody)) !== null) {
+      const idStr = cleanVerseId(m[1]);
+      const text = valliBody.slice(lastIdx, m.index).trim();
+      
+      if (text.length > 0) {
+        const cleanText = text
+          .split(/\n/)
+          .map(line => line.trim())
+          .filter(line => {
+            const l = line.toLowerCase();
+            return !l.startsWith("iti") && 
+                   !l.includes("anuvaka") && 
+                   !l.includes("..") && 
+                   !l.includes("##") && 
+                   !l.includes("titles") && 
+                   !l.includes("valli") && 
+                   !l.includes("taittiriya");
+          })
+          .join(" ");
+        
+        if (cleanText.length > 3) {
+          verses.push({
+            number: verses.length + 1,
+            sanskrit: itxToDevanagari(cleanText),
+            transliteration: normalizeItxLine(cleanText)
+          });
+        }
+      }
+      lastIdx = m.index + m[0].length;
+    }
+    
+    if (verses.length > 0) {
+      chapters.push({
+        number: chapters.length + 1,
+        title: valliNames[i] ?? `Valli ${i + 1}`,
+        titleSanskrit: valliSanskrit[i],
+        verses
+      });
+    }
+  }
+  
+  const mergedChapters = mergeCuratedChapters("taittiriya", chapters);
+  const totalVerses = mergedChapters.reduce((sum, c) => sum + c.verses.length, 0);
+  
+  log(`  ${mergedChapters.length} chapters · ${totalVerses} verses`);
   return {
     id: "taittiriya",
     title: "Taittiriya Upanishad",
@@ -204,9 +294,9 @@ async function seedTaittiriya(): Promise<FullScripture> {
       license: "Sanskrit mūla — public domain. Digitized by sanskritdocuments.org.",
       fetchedAt: new Date().toISOString(),
     },
-    totalVerses: finalTotal,
-    totalChapters: finalChapters.length,
-    chapters: finalChapters,
+    totalVerses,
+    totalChapters: mergedChapters.length,
+    chapters: mergedChapters,
   };
 }
 
@@ -314,7 +404,7 @@ async function seedDurgaSaptashati(): Promise<FullScripture> {
   const url = `${SD}/doc_devii/durga700.itx`;
   const raw = await fetchText(url);
   const body = cleanItx(raw);
-  const rawChapters = splitPuranaChapters(body);
+  const rawChapters = splitByRegex(body, /adhyAyaH\s*\|\|\s*\d+\s*\|\|/gi);
   const chapters: FullChapter[] = [];
   let totalVerses = 0;
 
@@ -349,17 +439,10 @@ async function seedDurgaSaptashati(): Promise<FullScripture> {
     totalVerses += verses.length;
   }
 
-  if (chapters.length === 0) {
-    const verses: FullVerse[] = extractVerses(body).map((v) => ({
-      number: v.number,
-      sanskrit: itxToDevanagari(v.itx),
-      transliteration: normalizeItxLine(v.itx),
-    }));
-    chapters.push({ number: 1, title: "Durga Saptashati", verses });
-    totalVerses = verses.length;
-  }
+  const mergedChapters = mergeCuratedChapters("durgasaptashati", chapters);
+  const finalTotal = mergedChapters.reduce((sum, c) => sum + c.verses.length, 0);
 
-  log(`  ${chapters.length} chapters · ${totalVerses} verses`);
+  log(`  ${mergedChapters.length} chapters · ${finalTotal} verses`);
   return {
     id: "durgasaptashati",
     title: "Durga Saptashati",
@@ -370,9 +453,9 @@ async function seedDurgaSaptashati(): Promise<FullScripture> {
       license: "Sanskrit mūla — public domain. Digitized by sanskritdocuments.org.",
       fetchedAt: new Date().toISOString(),
     },
-    totalVerses,
-    totalChapters: chapters.length,
-    chapters,
+    totalVerses: finalTotal,
+    totalChapters: mergedChapters.length,
+    chapters: mergedChapters,
   };
 }
 
@@ -476,32 +559,47 @@ async function seedManusmriti(): Promise<FullScripture> {
   const url = `${SD}/doc_z_misc_sociology_astrology/manu.itx`;
   const raw = await fetchText(url);
   const body = cleanItx(raw);
-  const rawChapters = splitPuranaChapters(body);
+  
+  const re = /adhyAya\s+(\d+)/g;
+  const matches: { number: number; index: number; length: number }[] = [];
+  let m: RegExpExecArray | null;
+  re.lastIndex = 0;
+  while ((m = re.exec(body)) !== null) {
+    matches.push({
+      number: parseInt(m[1]),
+      index: m.index,
+      length: m[0].length
+    });
+  }
+
   const chapters: FullChapter[] = [];
   let totalVerses = 0;
 
-  for (const rc of rawChapters) {
-    const verses: FullVerse[] = extractVerses(rc.bodyItx).map((v) => ({
+  for (let i = 0; i < matches.length; i++) {
+    const start = matches[i].index + matches[i].length;
+    const end = (i + 1 < matches.length) ? matches[i + 1].index : body.length;
+    const chapterBody = body.slice(start, end).trim();
+    
+    const verses: FullVerse[] = extractVerses(chapterBody).map((v) => ({
       number: v.number,
       sanskrit: itxToDevanagari(v.itx),
       transliteration: normalizeItxLine(v.itx),
     }));
+    
     if (verses.length === 0) continue;
-    chapters.push({ number: chapters.length + 1, title: `Adhyāya ${chapters.length + 1}`, verses });
+    
+    chapters.push({
+      number: matches[i].number,
+      title: `Adhyāya ${matches[i].number}`,
+      verses,
+    });
     totalVerses += verses.length;
   }
 
-  if (chapters.length === 0) {
-    const verses: FullVerse[] = extractVerses(body).map((v) => ({
-      number: v.number,
-      sanskrit: itxToDevanagari(v.itx),
-      transliteration: normalizeItxLine(v.itx),
-    }));
-    chapters.push({ number: 1, title: "Manusmriti", verses });
-    totalVerses = verses.length;
-  }
+  const mergedChapters = mergeCuratedChapters("manusmriti", chapters);
+  const finalTotal = mergedChapters.reduce((sum, c) => sum + c.verses.length, 0);
 
-  log(`  ${chapters.length} chapters · ${totalVerses} verses`);
+  log(`  ${mergedChapters.length} chapters · ${finalTotal} verses`);
   return {
     id: "manusmriti",
     title: "Manusmriti",
@@ -512,9 +610,9 @@ async function seedManusmriti(): Promise<FullScripture> {
       license: "Sanskrit mūla — public domain. Digitized by sanskritdocuments.org.",
       fetchedAt: new Date().toISOString(),
     },
-    totalVerses,
-    totalChapters: chapters.length,
-    chapters,
+    totalVerses: finalTotal,
+    totalChapters: mergedChapters.length,
+    chapters: mergedChapters,
   };
 }
 
@@ -522,39 +620,61 @@ async function seedSamaveda(): Promise<FullScripture> {
   log("Fetching Sama Veda...");
   const url = `${SD}/doc_veda/sv-kauthuma.itx`;
   const raw = await fetchText(url);
-  const body = cleanItx(raw);
-  const rawChapters = splitUpanishadChapters(body);
-  const chapters: FullChapter[] = [];
-  let totalVerses = 0;
-
-  const chapterTitles = ["Purva Archika — Foundation Hymns", "Uttara Archika — Hymns of Unity"];
-
-  for (const rc of rawChapters) {
-    const verses: FullVerse[] = extractVerses(rc.bodyItx).map((v) => ({
-      number: v.number,
-      sanskrit: itxToDevanagari(v.itx),
-      transliteration: normalizeItxLine(v.itx),
-    }));
-    if (verses.length === 0) continue;
-    chapters.push({
-      number: chapters.length + 1,
-      title: chapterTitles[chapters.length] ?? `Archika ${chapters.length + 1}`,
-      verses,
+  
+  const lines = raw.split(/\r?\n/);
+  
+  const sections = [
+    { title: "Pūrva Ārchika — Foundation Hymns", titleSanskrit: "पूर्वार्चिकः", verses: [] as FullVerse[] },
+    { title: "Āraṇya Ārchika — Forest Hymns", titleSanskrit: "अरण्यआर्चिकः", verses: [] as FullVerse[] },
+    { title: "Mahānāmnya Ārchika — Secret Hymns", titleSanskrit: "महानाम्न्यार्चिकः", verses: [] as FullVerse[] },
+    { title: "Uttara Ārchika — Hymns of Unity", titleSanskrit: "उत्तरार्चिकः", verses: [] as FullVerse[] }
+  ];
+  
+  let currentSectionIdx = 0;
+  
+  const verseMap = new Map<string, { lines: string[], sectionIdx: number }>();
+  
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (trimmed.includes("iti pUrvArchikaH") || trimmed.includes("AraNya ArchikaH")) {
+      currentSectionIdx = 1; // Aranya
+    } else if (trimmed.includes("iti mahAnAmnyArchikaH") || trimmed.includes("uttara ArchikaH")) {
+      currentSectionIdx = 3; // Uttara
+    } else if (trimmed.includes("mahAnAmnya ArchikaH")) {
+      currentSectionIdx = 2; // Mahanamni
+    }
+    
+    const match = line.match(/^\s*(\d+\s+\d+\s+\d+\s+\d+)##[a-z]##\s*(.*)$/);
+    if (match) {
+      const verseId = match[1].replace(/\s+/g, "_");
+      const text = match[2].trim();
+      if (!verseMap.has(verseId)) {
+        verseMap.set(verseId, { lines: [], sectionIdx: currentSectionIdx });
+      }
+      verseMap.get(verseId)!.lines.push(text);
+    }
+  }
+  
+  verseMap.forEach((v, verseId) => {
+    const cleanText = v.lines.join(" ").replace(/\|\|\s*\d+\s*$/, "").trim();
+    sections[v.sectionIdx].verses.push({
+      number: sections[v.sectionIdx].verses.length + 1,
+      sanskrit: itxToDevanagari(cleanText),
+      transliteration: normalizeItxLine(cleanText)
     });
-    totalVerses += verses.length;
-  }
-
-  if (chapters.length === 0) {
-    const verses: FullVerse[] = extractVerses(body).map((v) => ({
-      number: v.number,
-      sanskrit: itxToDevanagari(v.itx),
-      transliteration: normalizeItxLine(v.itx),
-    }));
-    chapters.push({ number: 1, title: "Sama Veda", verses });
-    totalVerses = verses.length;
-  }
-
-  log(`  ${chapters.length} chapters · ${totalVerses} verses`);
+  });
+  
+  const chapters = sections.filter(s => s.verses.length > 0).map((s, idx) => ({
+    number: idx + 1,
+    title: s.title,
+    titleSanskrit: s.titleSanskrit,
+    verses: s.verses
+  }));
+  
+  const mergedChapters = mergeCuratedChapters("samaveda", chapters);
+  const totalVerses = mergedChapters.reduce((sum, c) => sum + c.verses.length, 0);
+  
+  log(`  ${mergedChapters.length} chapters · ${totalVerses} verses`);
   return {
     id: "samaveda",
     title: "Sama Veda",
@@ -566,8 +686,8 @@ async function seedSamaveda(): Promise<FullScripture> {
       fetchedAt: new Date().toISOString(),
     },
     totalVerses,
-    totalChapters: chapters.length,
-    chapters,
+    totalChapters: mergedChapters.length,
+    chapters: mergedChapters,
   };
 }
 
@@ -1154,6 +1274,220 @@ async function seedRavanaSamhita(): Promise<FullScripture> {
   };
 }
 
+async function seedBrahmaPurana(): Promise<FullScripture> {
+  log("Fetching Brahma Purana...");
+  const url = `${SD}/doc_purana/brahmapur.itx`;
+  const raw = await fetchText(url);
+  const body = cleanItx(raw);
+  const { chapters, totalVerses } = parseAsPurana(body);
+  log(`  ${chapters.length} chapters · ${totalVerses} verses`);
+  return {
+    id: "brahmapuran",
+    title: "Brahma Purana",
+    titleSanskrit: "ब्रह्मपुराण",
+    category: "purana",
+    source: {
+      repo: url,
+      license: "Sanskrit mūla — public domain. Digitized by sanskritdocuments.org.",
+      fetchedAt: new Date().toISOString(),
+    },
+    totalVerses,
+    totalChapters: chapters.length,
+    chapters,
+  };
+}
+
+async function seedViduraNiti(): Promise<FullScripture> {
+  log("Fetching Vidura Niti...");
+  const url = `${SD}/doc_z_misc_major_works/viduraniti.itx`;
+  const raw = await fetchText(url);
+  const body = cleanItx(raw);
+  const { chapters, totalVerses } = parseAsPurana(body);
+  log(`  ${chapters.length} chapters · ${totalVerses} verses`);
+  return {
+    id: "viduraniti",
+    title: "Vidura Niti",
+    titleSanskrit: "विदुरनीति",
+    category: "itihasa",
+    source: {
+      repo: url,
+      license: "Sanskrit mūla — public domain. Digitized by sanskritdocuments.org.",
+      fetchedAt: new Date().toISOString(),
+    },
+    totalVerses,
+    totalChapters: chapters.length,
+    chapters,
+  };
+}
+
+async function seedPadmaPurana(): Promise<FullScripture> {
+  log("Padma Purana — no full itx available; writing curated fallback.");
+  return {
+    id: "padmapuran",
+    title: "Padma Purana",
+    titleSanskrit: "पद्मपुराण",
+    category: "purana",
+    source: { repo: "https://sanskritdocuments.org/", license: "Full text not available. Curated highlights are hand-authored.", fetchedAt: new Date().toISOString() },
+    totalVerses: 0,
+    totalChapters: 0,
+    chapters: [],
+  };
+}
+
+async function seedBrahmandaPurana(): Promise<FullScripture> {
+  log("Brahmanda Purana — no full itx available; writing curated fallback.");
+  return {
+    id: "brahmandpuran",
+    title: "Brahmanda Purana",
+    titleSanskrit: "ब्रह्माण्डपुराण",
+    category: "purana",
+    source: { repo: "https://sanskritdocuments.org/", license: "Full text not available. Curated highlights are hand-authored.", fetchedAt: new Date().toISOString() },
+    totalVerses: 0,
+    totalChapters: 0,
+    chapters: [],
+  };
+}
+
+async function seedShivaSamhita(): Promise<FullScripture> {
+  log("Shiva Samhita — no full itx available; writing curated fallback.");
+  return {
+    id: "shivasamhita",
+    title: "Shiva Samhita",
+    titleSanskrit: "शिवसंहिता",
+    category: "tantra",
+    source: { repo: "https://sanskritdocuments.org/", license: "Full text not available. Curated highlights are hand-authored.", fetchedAt: new Date().toISOString() },
+    totalVerses: 0,
+    totalChapters: 0,
+    chapters: [],
+  };
+}
+
+async function seedShivaSwarodaya(): Promise<FullScripture> {
+  log("Shiva Swarodaya — no full itx available; writing curated fallback.");
+  return {
+    id: "shivaswarodaya",
+    title: "Shiva Swarodaya",
+    titleSanskrit: "शिवस्वरोदय",
+    category: "tantra",
+    source: { repo: "https://sanskritdocuments.org/", license: "Full text not available. Curated highlights are hand-authored.", fetchedAt: new Date().toISOString() },
+    totalVerses: 0,
+    totalChapters: 0,
+    chapters: [],
+  };
+}
+
+async function seedYogaVasistha(): Promise<FullScripture> {
+  log("Yoga Vasistha — no full itx available; writing curated fallback.");
+  return {
+    id: "yogavasistha",
+    title: "Yoga Vasistha",
+    titleSanskrit: "योगवासिष्ठ",
+    category: "other",
+    source: { repo: "https://sanskritdocuments.org/", license: "Full text not available. Curated highlights are hand-authored.", fetchedAt: new Date().toISOString() },
+    totalVerses: 0,
+    totalChapters: 0,
+    chapters: [],
+  };
+}
+
+async function seedYogaRasayanam(): Promise<FullScripture> {
+  log("Yoga Rasayanam — no full itx available; writing curated fallback.");
+  return {
+    id: "yogarasayanam",
+    title: "Yoga Rasayanam",
+    titleSanskrit: "योगरसायनम्",
+    category: "tantra",
+    source: { repo: "https://sanskritdocuments.org/", license: "Full text not available. Curated highlights are hand-authored.", fetchedAt: new Date().toISOString() },
+    totalVerses: 0,
+    totalChapters: 0,
+    chapters: [],
+  };
+}
+
+async function seedVinayaPatrika(): Promise<FullScripture> {
+  log("Vinaya Patrika — no full itx available; writing curated fallback.");
+  return {
+    id: "vinayapatrika",
+    title: "Vinaya Patrika",
+    titleSanskrit: "विनयपत्रिका",
+    category: "stotra",
+    source: { repo: "https://sanskritdocuments.org/", license: "Full text not available. Curated highlights are hand-authored.", fetchedAt: new Date().toISOString() },
+    totalVerses: 0,
+    totalChapters: 0,
+    chapters: [],
+  };
+}
+
+async function seedBrahmavaivartaPurana(): Promise<FullScripture> {
+  log("Brahmavaivarta Purana — no full itx available; writing curated fallback.");
+  return {
+    id: "brahmavaivartapuran",
+    title: "Brahmavaivarta Purana",
+    titleSanskrit: "ब्रह्मवैवर्तपुराण",
+    category: "purana",
+    source: { repo: "https://sanskritdocuments.org/", license: "Full text not available. Curated highlights are hand-authored.", fetchedAt: new Date().toISOString() },
+    totalVerses: 0,
+    totalChapters: 0,
+    chapters: [],
+  };
+}
+
+async function seedVamanaPurana(): Promise<FullScripture> {
+  log("Vamana Purana — no full itx available; writing curated fallback.");
+  return {
+    id: "vamanpuran",
+    title: "Vamana Purana",
+    titleSanskrit: "वामनपुराण",
+    category: "purana",
+    source: { repo: "https://sanskritdocuments.org/", license: "Full text not available. Curated highlights are hand-authored.", fetchedAt: new Date().toISOString() },
+    totalVerses: 0,
+    totalChapters: 0,
+    chapters: [],
+  };
+}
+
+async function seedVarahaPurana(): Promise<FullScripture> {
+  log("Varaha Purana — no full itx available; writing curated fallback.");
+  return {
+    id: "varahapuran",
+    title: "Varaha Purana",
+    titleSanskrit: "वाराहपुराण",
+    category: "purana",
+    source: { repo: "https://sanskritdocuments.org/", license: "Full text not available. Curated highlights are hand-authored.", fetchedAt: new Date().toISOString() },
+    totalVerses: 0,
+    totalChapters: 0,
+    chapters: [],
+  };
+}
+
+async function seedVayuPurana(): Promise<FullScripture> {
+  log("Vayu Purana — no full itx available; writing curated fallback.");
+  return {
+    id: "vayupuran",
+    title: "Vayu Purana",
+    titleSanskrit: "वायुपुराण",
+    category: "purana",
+    source: { repo: "https://sanskritdocuments.org/", license: "Full text not available. Curated highlights are hand-authored.", fetchedAt: new Date().toISOString() },
+    totalVerses: 0,
+    totalChapters: 0,
+    chapters: [],
+  };
+}
+
+async function seedSkandaPurana(): Promise<FullScripture> {
+  log("Skanda Purana — no full itx available; writing curated fallback.");
+  return {
+    id: "skandapuran",
+    title: "Skanda Purana",
+    titleSanskrit: "स्कन्दपुराण",
+    category: "purana",
+    source: { repo: "https://sanskritdocuments.org/", license: "Full text not available. Curated highlights are hand-authored.", fetchedAt: new Date().toISOString() },
+    totalVerses: 0,
+    totalChapters: 0,
+    chapters: [],
+  };
+}
+
 const SEEDERS: Array<{ name: string; fn: () => Promise<FullScripture> }> = [
   { name: "chandogya", fn: seedChandogya },
   { name: "brihadaranyaka", fn: seedBrihadaranyaka },
@@ -1186,6 +1520,20 @@ const SEEDERS: Array<{ name: string; fn: () => Promise<FullScripture> }> = [
   { name: "kalkipuran", fn: seedKalkiPurana },
   { name: "harivanshpuran", fn: seedHarivanshPurana },
   { name: "ravanasamhita", fn: seedRavanaSamhita },
+  { name: "brahmapuran", fn: seedBrahmaPurana },
+  { name: "viduraniti", fn: seedViduraNiti },
+  { name: "padmapuran", fn: seedPadmaPurana },
+  { name: "brahmandpuran", fn: seedBrahmandaPurana },
+  { name: "shivasamhita", fn: seedShivaSamhita },
+  { name: "shivaswarodaya", fn: seedShivaSwarodaya },
+  { name: "yogavasistha", fn: seedYogaVasistha },
+  { name: "yogarasayanam", fn: seedYogaRasayanam },
+  { name: "vinayapatrika", fn: seedVinayaPatrika },
+  { name: "brahmavaivartapuran", fn: seedBrahmavaivartaPurana },
+  { name: "vamanpuran", fn: seedVamanaPurana },
+  { name: "varahapuran", fn: seedVarahaPurana },
+  { name: "vayupuran", fn: seedVayuPurana },
+  { name: "skandapuran", fn: seedSkandaPurana },
 ];
 
 async function main(): Promise<void> {
@@ -1195,6 +1543,12 @@ async function main(): Promise<void> {
   for (const { name, fn } of SEEDERS) {
     try {
       const scripture = await fn();
+      
+      // Generic fallback: merge curated chapters to handle empty/partially seeded scriptures
+      scripture.chapters = mergeCuratedChapters(scripture.id, scripture.chapters);
+      scripture.totalChapters = scripture.chapters.length;
+      scripture.totalVerses = scripture.chapters.reduce((sum, c) => sum + c.verses.length, 0);
+
       const outPath = writeScripture(scripture);
       log(`✓ ${name}: ${scripture.totalVerses} verses · ${scripture.totalChapters} chapters → ${outPath}`);
       succeeded++;

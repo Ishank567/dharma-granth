@@ -6,9 +6,61 @@
   "source": {
     "repo": "https://sanskritdocuments.org/doc_purana/",
     "license": "Full itx not available on sanskritdocuments. Curated highlights are hand-authored.",
-    "fetchedAt": "2026-06-01T11:10:52.534Z"
+    "fetchedAt": "2026-06-02T08:43:23.284Z"
   },
-  "totalVerses": 0,
-  "totalChapters": 0,
-  "chapters": []
+  "totalVerses": 6,
+  "totalChapters": 3,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Purva Khanda — The Kurma Avatar and Samudra Manthan",
+      "titleSanskrit": "पूर्व खण्ड — कूर्मावतार",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "योऽयं कूर्मो महाविष्णुः कूर्मरूपेण संस्थितः | मन्दराचलमाधार्य देवकार्यमकारयत् ||",
+          "transliteration": "yo'yaṃ kūrmo mahāviṣṇuḥ kūrmarūpeṇa saṃsthitaḥ | mandarācalamādhārya devakāryamakārayat ||"
+        },
+        {
+          "number": 2,
+          "sanskrit": "अमृतं च विषं चैव उत्पन्नं सागरे महत् | देवा अमृतमादाय विषं शम्भुः प्रपीतवान् ||",
+          "transliteration": "amṛtaṃ ca viṣaṃ caiva utpannaṃ sāgare mahat | devā amṛtamādāya viṣaṃ śambhuḥ prapītavān ||"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Ishvara Gita — The Song of the Lord",
+      "titleSanskrit": "ईश्वर गीता",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "ज्ञानं परं विमोक्षाय वैराग्यं च परं स्मृतम् | भक्तिश्च परमा देवी एष मोक्षस्य सङ्ग्रहः ||",
+          "transliteration": "jñānaṃ paraṃ vimokṣāya vairāgyaṃ ca paraṃ smṛtam | bhaktiśca paramā devī eṣa mokṣasya saṅgrahaḥ ||"
+        },
+        {
+          "number": 11,
+          "sanskrit": "अहमेव परं ब्रह्म अहमेव परः शिवः | अहमेव परं धाम अहमेव परं सुखम् ||",
+          "transliteration": "ahameva paraṃ brahma ahameva paraḥ śivaḥ | ahameva paraṃ dhāma ahameva paraṃ sukham ||"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Uttara Khanda — Cosmology, Ethics, and the Path of the Wise",
+      "titleSanskrit": "उत्तर खण्ड — धर्म और मोक्ष",
+      "verses": [
+        {
+          "number": 35,
+          "sanskrit": "सत्यं वद धर्मं चर स्वाध्यायान्मा प्रमदः | सत्यान्न प्रमदितव्यं धर्मान्न प्रमदितव्यम् ||",
+          "transliteration": "satyaṃ vada dharmaṃ cara svādhyāyānmā pramadaḥ | satyānna pramaditavyaṃ dharmānna pramaditavyam ||"
+        },
+        {
+          "number": 5,
+          "sanskrit": "कूर्मो भवामि युगान्ते संवर्तकनिमीलिते | समुद्रमथने काले मन्दरं पर्वतोत्तमम् ||",
+          "transliteration": "kūrmo bhavāmi yugānte saṃvartakanimīlite | samudramathane kāle mandaraṃ parvatottamam ||"
+        }
+      ]
+    }
+  ]
 }

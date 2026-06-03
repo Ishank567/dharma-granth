@@ -6,9 +6,161 @@
   "source": {
     "repo": "https://sanskritdocuments.org/doc_upanishhat/",
     "license": "Full itx not available. Curated highlights are hand-authored.",
-    "fetchedAt": "2026-06-01T11:10:46.685Z"
+    "fetchedAt": "2026-06-02T08:43:16.397Z"
   },
-  "totalVerses": 0,
-  "totalChapters": 0,
-  "chapters": []
+  "totalVerses": 26,
+  "totalChapters": 3,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "The Nature of Bhakti — Definition and Proof",
+      "titleSanskrit": "भक्ति स्वरूप — लक्षण",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "अथातो भक्तिं व्याख्यास्यामः ||",
+          "transliteration": "athāto bhaktiṃ vyākhyāsyāmaḥ ||"
+        },
+        {
+          "number": 2,
+          "sanskrit": "सा त्वस्मिन् परमप्रेमरूपा ||",
+          "transliteration": "sā tvasmin paramapremarūpā ||"
+        },
+        {
+          "number": 3,
+          "sanskrit": "अमृतस्वरूपा च ||",
+          "transliteration": "amṛtasvarūpā ca ||"
+        },
+        {
+          "number": 10,
+          "sanskrit": "तल्लभ्यते ऽपि केवलमीश्वरकृपयैव ||",
+          "transliteration": "tallabhyate'pi kevalamīśvarakṛpayaiva ||"
+        },
+        {
+          "number": 16,
+          "sanskrit": "दुर्लभं त्रयमेवैतद्देवानुग्रहेणैव लभ्यते | मनुष्यत्वं मुमुक्षुत्वं महापुरुषसंश्रयः ||",
+          "transliteration": "durlabhaṃ trayamevaitaddevānugraheṇaiva labhyate | manuṣyatvaṃ mumukṣutvaṃ mahāpuruṣasaṃśrayaḥ ||"
+        },
+        {
+          "number": 17,
+          "sanskrit": "सत्सङ्गः प्राप्यते पुण्यकर्मणा सत्सङ्गमज्ज्यते ||",
+          "transliteration": "satsaṅgaḥ prāpyate puṇyakarmaṇā satsaṅgamajjayate ||"
+        },
+        {
+          "number": 21,
+          "sanskrit": "स्वयं फलरूपा च ||",
+          "transliteration": "svayaṃ phalarūpā ca ||"
+        },
+        {
+          "number": 25,
+          "sanskrit": "तस्याः साधनानि गायत्र्यादीनि ||",
+          "transliteration": "tasyāḥ sādhanāni gāyatryādīni ||"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Eleven Forms of Para-Bhakti",
+      "titleSanskrit": "परा-भक्ति के एकादश रूप",
+      "verses": [
+        {
+          "number": 54,
+          "sanskrit": "यथा व्रजगोपिकानाम् ||",
+          "transliteration": "yathā vrajagopiKānām ||"
+        },
+        {
+          "number": 55,
+          "sanskrit": "यथा दशरथस्य ||",
+          "transliteration": "yathā daśarathasya ||"
+        },
+        {
+          "number": 56,
+          "sanskrit": "यथा हनूमतः ||",
+          "transliteration": "yathā hanūmataḥ ||"
+        },
+        {
+          "number": 57,
+          "sanskrit": "यथा पाण्डवानाम् ||",
+          "transliteration": "yathā pāṇḍavānām ||"
+        },
+        {
+          "number": 58,
+          "sanskrit": "यथा अर्जुनस्य ||",
+          "transliteration": "yathā arjunasya ||"
+        },
+        {
+          "number": 82,
+          "sanskrit": "भक्ता एकान्तिनो मुख्याः ||",
+          "transliteration": "bhaktā ekāntino mukhyāḥ ||"
+        },
+        {
+          "number": 39,
+          "sanskrit": "काम-क्रोध-मोह-स्मृतिभ्रंश-बुद्धिनाशसर्वनाशकरं तत्त्यज्यतां तत्त्यज्यताम् ||",
+          "transliteration": "kāma-krodha-moha-smṛtibhraṃśa-buddhinā śasarvanāśakaraṃ tattyajyatāṃ tattyajyatām ||"
+        },
+        {
+          "number": 44,
+          "sanskrit": "न तद्विद्यते क्वचिदपि ||",
+          "transliteration": "na tadvid yate kvacidapi ||"
+        },
+        {
+          "number": 50,
+          "sanskrit": "भक्तिरस्य प्रसादादेव गतिस्त्वदर्पणे ||",
+          "transliteration": "bhaktirasya prasādādeva gatistvadarpaṇe ||"
+        },
+        {
+          "number": 59,
+          "sanskrit": "तत्त्वज्ञानार्थदर्शनं तत्त्वज्ञानस्य भक्तिर्धर्मः ||",
+          "transliteration": "tattvajñānārthadarśanaṃ tattvajñānasya bhaktirdharmaḥ ||"
+        },
+        {
+          "number": 60,
+          "sanskrit": "सा तु कामः स तु क्रोधः स तु लोभः स तु मोहः ||",
+          "transliteration": "sā tu kāmaḥ sa tu krodhaḥ sa tu lobhaḥ sa tu mohaḥ ||"
+        },
+        {
+          "number": 65,
+          "sanskrit": "यदा यदा भगवत्प्रेम्णो मधुर्या भावयति हृदयं | तदा तदेव स भगवान्भवति नान्योऽप्यन्यः ||",
+          "transliteration": "yadā yadā bhagavatpremṇo madhuryā bhāvayati hṛdayaṃ | tadā tadeva sa bhagavānbhavati nānyo'pyanyaḥ ||"
+        },
+        {
+          "number": 70,
+          "sanskrit": "भक्तिर्भगवती प्रेम्णा भगवन्साधनभूतया ||",
+          "transliteration": "bhaktirbhagavatī preṇā bhagavansādhanabhūtayā ||"
+        },
+        {
+          "number": 75,
+          "sanskrit": "यस्तु सर्वभूतेषु भगवद्भक्तिं वितिष्ठति | स एव भगवत्प्रेम्णा भगवन्प्राप्नोति ||",
+          "transliteration": "yastu sarvabhūteṣu bhagavadbhaktiṃ viṭiṣṭhati | sa eva bhagavatpremṇā bhagavanprāpnoti ||"
+        },
+        {
+          "number": 80,
+          "sanskrit": "भक्तिः कर्मणि न दृश्यते भक्तिः ज्ञाने न दृश्यते | भक्तिः कर्मज्ञानयोर्मध्ये भक्तिः प्रेम्णा समाश्रिता ||",
+          "transliteration": "bhaktiḥ karmaṇi na dṛśyate bhaktiḥ jñāne na dṛśyate | bhaktiḥ karmajñānayormadhye bhaktiḥ preṇā samāśritā ||"
+        },
+        {
+          "number": 84,
+          "sanskrit": "भक्तिरेव गतिर्मोक्षः भक्तिरेव परायणम् ||",
+          "transliteration": "bhaktireva gatirmokṣaḥ bhaktireva parāyaṇam ||"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Bhakti as Its Own Proof — The Culminating Sutras",
+      "titleSanskrit": "भक्ति स्वयं प्रमाण है",
+      "verses": [
+        {
+          "number": 83,
+          "sanskrit": "तत्प्राप्य तदेवावलोकयति तदेव शृणोति तदेव भाषयति तदेव चिन्तयति ||",
+          "transliteration": "tatprāpya tadevāvalokayati tadeva śṛṇoti tadeva bhāṣayati tadeva cintayati ||"
+        },
+        {
+          "number": 84,
+          "sanskrit": "मुख्यतस्तु महत्कृपयैव भगवत्कृपालेशाद्वा ||",
+          "transliteration": "mukhyatastu mahatkṛpayaiva bhagavatkṛpāleśādvā ||"
+        }
+      ]
+    }
+  ]
 }
