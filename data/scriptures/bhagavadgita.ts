@@ -384,7 +384,26 @@ export const bhagavadGita: Scripture = {
       titleSanskrit: "कर्मसंन्यासयोगः",
       summary:
         "Renunciation of attachment, not of action itself, leads to liberation.",
-      verses: [],
+      verses: [
+        {
+          id: 10,
+          sanskrit:
+            "ब्रह्मण्याधाय कर्माणि सङ्गं त्यक्त्वा करोति यः | लिप्यते न स पापेन पद्मपत्रमिवाम्भसा ||",
+          transliteration:
+            "brahmaṇyādhāya karmāṇi saṅgaṃ tyaktvā karoti yaḥ | lipyate na sa pāpena padmapatram ivāmbhasā ||",
+          translation:
+            "One who performs actions by offering them to Brahman and abandoning attachment is not tainted by sin, just as a lotus leaf is untouched by water.",
+          hindi:
+            "जो मनुष्य सम्पूर्ण कर्मों को ब्रह्म में अर्पित करके और आसक्ति छोड़कर कर्म करता है, वह जल से कमल-पत्र की तरह पाप से लिप्त नहीं होता।",
+          explanation:
+            "Krishna defines renunciation not as withdrawal from life, but as a change in ownership. Action continues, but the ego no longer claims it as 'mine' or clings to its results. The lotus leaf is in water without being soaked by it; the yogi is in the world without being possessed by it.",
+          science:
+            "Psychology distinguishes involvement from over-identification. People can act with full effort while maintaining cognitive distance from outcomes, which lowers stress reactivity and improves resilience. The verse describes that healthy detachment long before modern performance psychology named it.",
+          lifeLesson:
+            "Do the work fully, but do not let the work coat your identity. Offer the action, release the result, and stay as clean as the lotus leaf in water.",
+          keywords: ["KarmaSanyasa", "Detachment", "LotusLeaf", "Offering"],
+        },
+      ],
     },
     {
       id: 6,

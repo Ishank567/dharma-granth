@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
-import { BookOpen, Feather, Languages, ScrollText, Sun } from 'lucide-react';
+import { BookOpen, Feather, Languages, ScrollText, Sparkles, Sun } from 'lucide-react';
 
 interface FullVerse {
   number: number | string;
@@ -10,6 +10,7 @@ interface FullVerse {
   translation?: string;
   hindi?: string;
   wordMeaning?: string;
+  commentary?: string;
 }
 
 interface FullChapter {
@@ -145,7 +146,9 @@ export function FullChapterVerses({ scriptureId, chapterId, curatedVerseIds, bas
         <span className="text-xs text-dharma-muted">{state.verses.length} अतिरिक्त श्लोक</span>
       </div>
       <div className="space-y-6">
-        {state.verses.map((v, index) => (
+        {state.verses.map((v, index) => {
+          const hasMeaning = Boolean(v.hindi || v.translation || v.wordMeaning || v.commentary);
+          return (
           <article
             key={`${String(v.number)}-${index}`}
             className="rounded-xl border border-dharma-border bg-dharma-card p-5 md:p-6 shadow-sm"
@@ -190,7 +193,7 @@ export function FullChapterVerses({ scriptureId, chapterId, curatedVerseIds, bas
               </div>
             )}
             {v.translation && (
-              <div>
+              <div className="mb-4">
                 <div className="flex items-center gap-1.5 text-[10px] uppercase tracking-widest text-blue-800 font-semibold mb-1.5">
                   <ScrollText className="w-3 h-3" />
                   अनुवाद
@@ -198,11 +201,30 @@ export function FullChapterVerses({ scriptureId, chapterId, curatedVerseIds, bas
                 <p className="text-sm md:text-base text-dharma-text leading-relaxed">{v.translation}</p>
               </div>
             )}
-            {!v.hindi && !v.translation && (
+            {v.wordMeaning && (
+              <div className="mb-4">
+                <div className="flex items-center gap-1.5 text-[10px] uppercase tracking-widest text-emerald-800 font-semibold mb-1.5">
+                  <Sparkles className="w-3 h-3" />
+                  सरल अर्थ
+                </div>
+                <p className="text-sm md:text-base text-emerald-950 leading-relaxed">{v.wordMeaning}</p>
+              </div>
+            )}
+            {v.commentary && (
+              <div>
+                <div className="flex items-center gap-1.5 text-[10px] uppercase tracking-widest text-amber-800 font-semibold mb-1.5">
+                  <BookOpen className="w-3 h-3" />
+                  व्याख्या
+                </div>
+                <p className="text-sm md:text-base text-amber-950 leading-relaxed">{v.commentary}</p>
+              </div>
+            )}
+            {!hasMeaning && (
               <p className="mt-2 text-xs text-dharma-muted italic">हिन्दी अनुवाद शीघ्र उपलब्ध होगा।</p>
             )}
           </article>
-        ))}
+          );
+        })}
       </div>
       {state.source?.repo && (
         <p className="mt-6 text-xs text-dharma-muted text-center">

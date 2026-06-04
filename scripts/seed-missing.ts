@@ -47,8 +47,34 @@ function mergeCuratedChapters(id: string, seeded: FullChapter[]): FullChapter[] 
   const curated = getScripture(id);
   if (!curated) return seeded;
 
+  const curatedByChapter = new Map(curated.chapters.map((chapter) => [chapter.id, chapter]));
   const seededNumbers = new Set(seeded.map((c) => c.number));
-  const finalChapters = [...seeded];
+  const finalChapters = seeded.map((chapter): FullChapter => {
+    const curatedChapter = curatedByChapter.get(chapter.number);
+    if (!curatedChapter) return chapter;
+
+    const curatedByVerse = new Map(curatedChapter.verses.map((verse) => [String(verse.id), verse]));
+    return {
+      ...chapter,
+      title: chapter.title || curatedChapter.title,
+      titleSanskrit: chapter.titleSanskrit || curatedChapter.titleSanskrit,
+      verses: chapter.verses.map((verse) => {
+        const verseKey = String(verse.number).split(".").at(-1) ?? String(verse.number);
+        const curatedVerse = curatedByVerse.get(verseKey);
+        if (!curatedVerse) return verse;
+
+        return {
+          ...verse,
+          sanskrit: verse.sanskrit || curatedVerse.sanskrit,
+          transliteration: verse.transliteration || curatedVerse.transliteration || "",
+          translation: verse.translation || curatedVerse.translation,
+          hindi: verse.hindi || curatedVerse.hindi,
+          wordMeaning: verse.wordMeaning || curatedVerse.meaning || curatedVerse.explanation,
+          commentary: verse.commentary || curatedVerse.explanation,
+        };
+      }),
+    };
+  });
 
   for (const cc of curated.chapters) {
     if (!seededNumbers.has(cc.id)) {
@@ -60,6 +86,10 @@ function mergeCuratedChapters(id: string, seeded: FullChapter[]): FullChapter[] 
           number: v.id,
           sanskrit: v.sanskrit,
           transliteration: v.transliteration || "",
+          translation: v.translation,
+          hindi: v.hindi,
+          wordMeaning: v.meaning || v.explanation,
+          commentary: v.explanation,
         })),
       });
     }
@@ -404,7 +434,33 @@ async function seedDurgaSaptashati(): Promise<FullScripture> {
   const url = `${SD}/doc_devii/durga700.itx`;
   const raw = await fetchText(url);
   const body = cleanItx(raw);
-  const rawChapters = splitByRegex(body, /adhyAyaH\s*\|\|\s*\d+\s*\|\|/gi);
+  const startMatch = body.match(/\|\|\s*atha\s+shrIdurgAsaptashatI\s*\|\|/i);
+  const endMatch = body.match(/\|\|\s*shrIsaptashatIdevImAhAtmyaM\s+samAptam\s*\|\|/i);
+  if (startMatch?.index === undefined || endMatch?.index === undefined || endMatch.index <= startMatch.index) {
+    throw new Error("Could not locate canonical Durga Saptashati main text in durga700.itx");
+  }
+
+  const mainText = body.slice(startMatch.index, endMatch.index);
+  const chapterStartRe = /\|\|\s*(?:(\d+)\\?\.\s*)?([^|]*?adhyAyaH)\s*\|\|/gi;
+  const chapterStarts = Array.from(mainText.matchAll(chapterStartRe)).filter(
+    (match) => !/svasti/i.test(match[0]),
+  );
+  if (chapterStarts.length !== 13) {
+    throw new Error(`Expected 13 Durga Saptashati chapters, found ${chapterStarts.length}`);
+  }
+
+  const rawChapters = chapterStarts.map((match, index) => {
+    const start = (match.index ?? 0) + match[0].length;
+    const end = chapterStarts[index + 1]?.index ?? mainText.length;
+    const chapterBody = mainText
+      .slice(start, end)
+      .replace(/\|\|\s*svasti\s+shrImArkaNDeyapurANe[\s\S]*$/i, "")
+      .trim();
+    return {
+      bodyItx: chapterBody,
+      trailer: match[0],
+    };
+  });
   const chapters: FullChapter[] = [];
   let totalVerses = 0;
 
@@ -424,12 +480,25 @@ async function seedDurgaSaptashati(): Promise<FullScripture> {
     "Chapter 13 — Suratha and Samadhi Receive Boons",
   ];
 
+  function trimDurgaPrelude(itx: string): string {
+    const speakers = Array.from(
+      itx.matchAll(
+        /(?:OM\s+(?:aiM\s+)?)?(?:[A-Za-z^~.]+(?:\s+[A-Za-z^~.]+){0,2}\s+)?(?:[A-Za-z^~.]+)?(?:uvAcha|ovAcha|UchuH)/gi,
+      ),
+    );
+    const lastSpeaker = speakers.at(-1);
+    return lastSpeaker?.index === undefined ? itx : itx.slice(lastSpeaker.index).trim();
+  }
+
   for (let i = 0; i < rawChapters.length; i++) {
-    const verses: FullVerse[] = extractVerses(rawChapters[i].bodyItx).map((v) => ({
-      number: v.number,
-      sanskrit: itxToDevanagari(v.itx),
-      transliteration: normalizeItxLine(v.itx),
-    }));
+    const verses: FullVerse[] = extractVerses(rawChapters[i].bodyItx).map((v, verseIndex) => {
+      const itx = verseIndex === 0 ? trimDurgaPrelude(v.itx) : v.itx;
+      return {
+        number: v.number,
+        sanskrit: itxToDevanagari(itx),
+        transliteration: normalizeItxLine(itx),
+      };
+    });
     if (verses.length === 0) continue;
     chapters.push({
       number: chapters.length + 1,
@@ -449,8 +518,8 @@ async function seedDurgaSaptashati(): Promise<FullScripture> {
     titleSanskrit: "दुर्गासप्तशती",
     category: "other",
     source: {
-      repo: "https://sanskritdocuments.org/doc_purana/durgAsaptashatI.itx",
-      license: "Sanskrit mūla — public domain. Digitized by sanskritdocuments.org.",
+      repo: url,
+      license: "Sanskrit mūla is public domain; durga700.itx is prepared by SanskritDocuments volunteers for personal study and research. Verify reuse terms before redistribution.",
       fetchedAt: new Date().toISOString(),
     },
     totalVerses: finalTotal,
@@ -1584,10 +1653,18 @@ const SEEDERS: Array<{ name: string; fn: () => Promise<FullScripture> }> = [
 ];
 
 async function main(): Promise<void> {
+  const onlyArg = process.argv.find((arg) => arg.startsWith("--only="));
+  const only = onlyArg?.slice("--only=".length);
+  const seeders = only ? SEEDERS.filter((seeder) => seeder.name === only) : SEEDERS;
+
+  if (only && seeders.length === 0) {
+    throw new Error(`Unknown seeder "${only}". Available: ${SEEDERS.map((seeder) => seeder.name).join(", ")}`);
+  }
+
   let succeeded = 0;
   let failed = 0;
 
-  for (const { name, fn } of SEEDERS) {
+  for (const { name, fn } of seeders) {
     try {
       const scripture = await fn();
       

@@ -4,11 +4,11 @@
   "titleSanskrit": "दुर्गासप्तशती",
   "category": "other",
   "source": {
-    "repo": "https://sanskritdocuments.org/doc_purana/durgAsaptashatI.itx",
-    "license": "Sanskrit mūla — public domain. Digitized by sanskritdocuments.org.",
-    "fetchedAt": "2026-06-03T13:44:23.908Z"
+    "repo": "https://sanskritdocuments.org/doc_devii/durga700.itx",
+    "license": "Sanskrit mūla is public domain; durga700.itx is prepared by SanskritDocuments volunteers for personal study and research. Verify reuse terms before redistribution.",
+    "fetchedAt": "2026-06-04T09:15:07.176Z"
   },
-  "totalVerses": 758,
+  "totalVerses": 634,
   "totalChapters": 13,
   "chapters": [
     {
@@ -16,569 +16,9 @@
       "title": "Chapter 1 — Madhu-Kaitabha Vadha",
       "verses": [
         {
-          "number": 0,
-          "sanskrit": "॥ डेवि ंअहत्म्यम् ओर् डुर्ग षप्तशति ॥ .. devI mAhAtmyam vA durgAsaptashatI ..eन्द्तित्लेस् || devI mAhAtmyam",
-          "transliteration": ".. Devi Mahatmyam or Durga Saptashati ..## .. devI mAhAtmyam vA durgAsaptashatI ..##\\endtitles ## || devI mAhAtmyam"
-        },
-        {
-          "number": 0,
-          "sanskrit": "श्री",
-          "transliteration": "shrI"
-        },
-        {
-          "number": 0,
-          "sanskrit": "श्रीचण्डिकाध्यानम् ॥ ॐ बन्धूककुसुमाभासां पञ्चमुण्डाधिवासिनीम् । स्फुरच्चन्द्रकलारत्नमुकुटां मुण्डमालिनीम् ॥ त्रिनेत्रां रक्तवसनां पीनोन्नतघटस्तनीम् । पुस्तकं चाक्षमालां च वरं चाभयकं क्रमात् ॥ दधतीं संस्मरेन्नित्यमुत्तराम्नायमानिताम् । अथवा या चण्डी मधुकैटभादिदैत्यदलनी या माहिषोन्मूलिनी या धूम्रेक्षणचण्डमुण्डमथनी या रक्तबीजाशनी । शक्तिः शुम्भनिशुम्भदैत्यदलनी या सिद्धिदात्री परा सा देवी नवकोटिमूर्तिसहिता मां पातु विश्वेश्वरी",
-          "transliteration": "shrIchaNDikAdhyAnam || OM bandhUkakusumAbhAsAM pa~nchamuNDAdhivAsinIm | sphurachchandrakalAratnamukuTAM muNDamAlinIm || trinetrAM raktavasanAM pInonnataghaTastanIm | pustakaM chAkShamAlAM cha varaM chAbhayakaM kramAt || dadhatIM saMsmarennityamuttarAmnAyamAnitAm | athavA yA chaNDI madhukaiTabhAdidaityadalanI yA mAhiShonmUlinI yA dhUmrekShaNachaNDamuNDamathanI yA raktabIjAshanI | shaktiH shumbhanishumbhadaityadalanI yA siddhidAtrI parA sA devI navakoTimUrtisahitA mAM pAtu vishveshvarI"
-        },
-        {
-          "number": 1,
-          "sanskrit": "अथ अर्गलास्तोत्रम् ॥ ॐ अस्य श्रीअर्गलास्तोत्रमन्त्रस्य विष्णुरृषिः, अनुष्टुप् छन्दः, श्रीमहालक्ष्मीर्देवता, श्रीजगदम्बाप्रीतये सप्तशतिपाठाङ्गत्वेन जपे विनियोगः । ॐ नमश्चण्डिकायै । मार्कण्डेय उवाच । ॐ जय त्वं देवि चामुण्डे जय भूतापहारिणि । जय सर्वगते देवि कालरात्रि नमोऽस्तु ते",
-          "transliteration": "atha argalAstotram || OM asya shrIargalAstotramantrasya viShNurR^iShiH\\, anuShTup ChandaH\\, shrImahAlakShmIrdevatA\\, shrIjagadambAprItaye saptashatipAThA~Ngatvena jape viniyogaH | OM namashchaNDikAyai | mArkaNDeya uvAcha | OM jaya tvaM devi chAmuNDe jaya bhUtApahAriNi | jaya sarvagate devi kAlarAtri namo.astu te"
-        },
-        {
-          "number": 2,
-          "sanskrit": "जयन्ती मङ्गला काली भद्रकाली कपालिनी । दुर्गा शिवा क्षमा धात्री स्वाहा स्वधा नमोऽस्तु ते",
-          "transliteration": "jayantI ma~NgalA kAlI bhadrakAlI kapAlinI | durgA shivA kShamA dhAtrI svAhA svadhA namo.astu te"
-        },
-        {
-          "number": 3,
-          "sanskrit": "मधुकैटभविध्वंसि विधातृवरदे नमः । रूपं देहि जयं देहि यशो देहि द्विषो जहि",
-          "transliteration": "madhukaiTabhavidhvaMsi vidhAtR^ivarade namaH | rUpaM dehi jayaM dehi yasho dehi dviSho jahi"
-        },
-        {
-          "number": 4,
-          "sanskrit": "महिषासुरनिर्नाशि भक्तानां सुखदे नमः । रूपं देहि जयं देहि यशो देहि द्विषो जहि",
-          "transliteration": "mahiShAsuranirnAshi bhaktAnAM sukhade namaH | rUpaM dehi jayaM dehi yasho dehi dviSho jahi"
-        },
-        {
-          "number": 5,
-          "sanskrit": "धूम्रनेत्रवधे देवि धर्मकामार्थदायिनि । रूपं देहि जयं देहि यशो देहि द्विषो जहि",
-          "transliteration": "dhUmranetravadhe devi dharmakAmArthadAyini | rUpaM dehi jayaM dehi yasho dehi dviSho jahi"
-        },
-        {
-          "number": 6,
-          "sanskrit": "रक्तबीजवधे देवि चण्डमुण्डविनाशिनि । रूपं देहि जयं देहि यशो देहि द्विषो जहि",
-          "transliteration": "raktabIjavadhe devi chaNDamuNDavinAshini | rUpaM dehi jayaM dehi yasho dehi dviSho jahi"
-        },
-        {
-          "number": 7,
-          "sanskrit": "निशुम्भशुम्भनिर्नाशि त्रैलोक्यशुभदे नमः । रूपं देहि जयं देहि यशो देहि द्विषो जहि",
-          "transliteration": "nishumbhashumbhanirnAshi trailokyashubhade namaH | rUpaM dehi jayaM dehi yasho dehi dviSho jahi"
-        },
-        {
-          "number": 8,
-          "sanskrit": "वन्दिताङ्घ्रियुगे देवि सर्वसौभाग्यदायिनि । रूपं देहि जयं देहि यशो देहि द्विषो जहि",
-          "transliteration": "vanditA~Nghriyuge devi sarvasaubhAgyadAyini | rUpaM dehi jayaM dehi yasho dehi dviSho jahi"
-        },
-        {
-          "number": 9,
-          "sanskrit": "अचिन्त्यरूपचरिते सर्वशत्रुविनाशिनि । रूपं देहि जयं देहि यशो देहि द्विषो जहि",
-          "transliteration": "achintyarUpacharite sarvashatruvinAshini | rUpaM dehi jayaM dehi yasho dehi dviSho jahi"
-        },
-        {
-          "number": 10,
-          "sanskrit": "नतेभ्यः सर्वदा भक्त्या चापर्णे दुरितापहे । रूपं देहि जयं देहि यशो देहि द्विषो जहि",
-          "transliteration": "natebhyaH sarvadA bhaktyA chAparNe duritApahe | rUpaM dehi jayaM dehi yasho dehi dviSho jahi"
-        },
-        {
-          "number": 11,
-          "sanskrit": "स्तुवद्भ्यो भक्तिपूर्वं त्वां चण्डिके व्याधिनाशिनि । रूपं देहि जयं देहि यशो देहि द्विषो जहि",
-          "transliteration": "stuvadbhyo bhaktipUrvaM tvAM chaNDike vyAdhinAshini | rUpaM dehi jayaM dehi yasho dehi dviSho jahi"
-        },
-        {
-          "number": 12,
-          "sanskrit": "चण्डिके सततं युद्धे जयन्ति पापनाशिनि । रूपं देहि जयं देहि यशो देहि द्विषो जहि",
-          "transliteration": "chaNDike satataM yuddhe jayanti pApanAshini | rUpaM dehi jayaM dehi yasho dehi dviSho jahi"
-        },
-        {
-          "number": 13,
-          "sanskrit": "देहि सौभाग्यमारोग्यं देहि देवि परं सुखम् । रूपं देहि जयं देहि यशो देहि द्विषो जहि",
-          "transliteration": "dehi saubhAgyamArogyaM dehi devi paraM sukham | rUpaM dehi jayaM dehi yasho dehi dviSho jahi"
-        },
-        {
-          "number": 14,
-          "sanskrit": "विधेहि देवि कल्याणं विधेहि विपुलां श्रियम् । रूपं देहि जयं देहि यशो देहि द्विषो जहि",
-          "transliteration": "vidhehi devi kalyANaM vidhehi vipulAM shriyam | rUpaM dehi jayaM dehi yasho dehi dviSho jahi"
-        },
-        {
-          "number": 15,
-          "sanskrit": "विधेहि द्विषतां नाशं विधेहि बलमुच्चकैः । रूपं देहि जयं देहि यशो देहि द्विषो जहि",
-          "transliteration": "vidhehi dviShatAM nAshaM vidhehi balamuchchakaiH | rUpaM dehi jayaM dehi yasho dehi dviSho jahi"
-        },
-        {
-          "number": 16,
-          "sanskrit": "सुरासुरशिरोरत्ननिघृष्टचरणेऽम्बिके । रूपं देहि जयं देहि यशो देहि द्विषो जहि",
-          "transliteration": "surAsurashiroratnanighR^iShTacharaNe.ambike | rUpaM dehi jayaM dehi yasho dehi dviSho jahi"
-        },
-        {
-          "number": 17,
-          "sanskrit": "विद्यावन्तं यशस्वन्तं लक्ष्मीवन्तञ्च मां कुरु । रूपं देहि जयं देहि यशो देहि द्विषो जहि",
-          "transliteration": "vidyAvantaM yashasvantaM lakShmIvanta~ncha mAM kuru | rUpaM dehi jayaM dehi yasho dehi dviSho jahi"
-        },
-        {
-          "number": 18,
-          "sanskrit": "देवि प्रचण्डदोर्दण्डदैत्यदर्पनिषूदिनि । रूपं देहि जयं देहि यशो देहि द्विषो जहि",
-          "transliteration": "devi prachaNDadordaNDadaityadarpaniShUdini | rUpaM dehi jayaM dehi yasho dehi dviSho jahi"
-        },
-        {
-          "number": 19,
-          "sanskrit": "प्रचण्डदैत्यदर्पघ्ने चण्डिके प्रणताय मे । रूपं देहि जयं देहि यशो देहि द्विषो जहि",
-          "transliteration": "prachaNDadaityadarpaghne chaNDike praNatAya me | rUpaM dehi jayaM dehi yasho dehi dviSho jahi"
-        },
-        {
-          "number": 20,
-          "sanskrit": "चतुर्भुजे चतुर्वक्त्रसंस्तुते परमेश्वरि । रूपं देहि जयं देहि यशो देहि द्विषो जहि",
-          "transliteration": "chaturbhuje chaturvaktrasaMstute parameshvari | rUpaM dehi jayaM dehi yasho dehi dviSho jahi"
-        },
-        {
-          "number": 21,
-          "sanskrit": "कृष्णेन संस्तुते देवि शश्वद्भक्त्या सदाम्बिके । रूपं देहि जयं देहि यशो देहि द्विषो जहि",
-          "transliteration": "kR^iShNena saMstute devi shashvadbhaktyA sadAmbike | rUpaM dehi jayaM dehi yasho dehi dviSho jahi"
-        },
-        {
-          "number": 22,
-          "sanskrit": "हिमाचलसुतानाथसंस्तुते परमेश्वरि । रूपं देहि जयं देहि यशो देहि द्विषो जहि",
-          "transliteration": "himAchalasutAnAthasaMstute parameshvari | rUpaM dehi jayaM dehi yasho dehi dviSho jahi"
-        },
-        {
-          "number": 23,
-          "sanskrit": "इन्द्राणीपतिसद्भावपूजिते परमेश्वरि । रूपं देहि जयं देहि यशो देहि द्विषो जहि",
-          "transliteration": "indrANIpatisadbhAvapUjite parameshvari | rUpaM dehi jayaM dehi yasho dehi dviSho jahi"
-        },
-        {
-          "number": 24,
-          "sanskrit": "देवि भक्तजनोद्दामदत्तानन्दोदयेऽम्बिके । रूपं देहि जयं देहि यशो देहि द्विषो जहि",
-          "transliteration": "devi bhaktajanoddAmadattAnandodaye.ambike | rUpaM dehi jayaM dehi yasho dehi dviSho jahi"
-        },
-        {
-          "number": 25,
-          "sanskrit": "भार्यां मनोरमां देहि मनोवृत्तानुसारिणीम् । रूपं देहि जयं देहि यशो देहि द्विषो जहि",
-          "transliteration": "bhAryAM manoramAM dehi manovR^ittAnusAriNIm | rUpaM dehi jayaM dehi yasho dehi dviSho jahi"
-        },
-        {
-          "number": 26,
-          "sanskrit": "तारिणि दुर्गसंसारसागरस्याचलोद्भवे । रूपं देहि जयं देहि यशो देहि द्विषो जहि",
-          "transliteration": "tAriNi durgasaMsArasAgarasyAchalodbhave | rUpaM dehi jayaM dehi yasho dehi dviSho jahi"
-        },
-        {
-          "number": 27,
-          "sanskrit": "इदं स्तोत्रं पठित्वा तु महास्तोत्रं पठेन्नरः । सप्तशतीं समाराध्य वरमाप्नोति दुर्लभम्",
-          "transliteration": "idaM stotraM paThitvA tu mahAstotraM paThennaraH | saptashatIM samArAdhya varamApnoti durlabham"
-        },
-        {
-          "number": 0,
-          "sanskrit": "॥ इति श्रीमार्कण्डेयपुराणे अर्गलास्तोत्रं समाप्तम्",
-          "transliteration": "|| iti shrImArkaNDeyapurANe argalAstotraM samAptam"
-        },
-        {
-          "number": 1,
-          "sanskrit": "अथ कीलकस्तोत्रम् ॥ ॐ अस्य श्रीकीलकमन्त्रस्य शिवऋषिः, अनुष्टुप् छन्दः, श्रीमहासरस्वती देवता, श्रीजगदम्बाप्रीत्यर्थं सप्तशतीपाठाङ्गत्वेन जपे विनियोगः । ॐ नमश्चण्डिकायै । मार्कण्डेय उवाच । ॐ विशुद्धज्ञानदेहाय त्रिवेदीदिव्यचक्षुषे । श्रेयःप्राप्तिनिमित्ताय नमः सोमार्धधारिणे",
-          "transliteration": "atha kIlakastotram || OM asya shrIkIlakamantrasya shivaR^iShiH\\, anuShTup ChandaH\\, shrImahAsarasvatI devatA\\, shrIjagadambAprItyarthaM saptashatIpAThA~Ngatvena jape viniyogaH | OM namashchaNDikAyai | mArkaNDeya uvAcha | OM vishuddhaj~nAnadehAya trivedIdivyachakShuShe | shreyaHprAptinimittAya namaH somArdhadhAriNe"
-        },
-        {
-          "number": 2,
-          "sanskrit": "सर्वमेतद्विजानीयान्मन्त्राणामपि कीलकम् । सोऽपि क्षेममवाप्नोति सततं जप्यतत्परः",
-          "transliteration": "sarvametadvijAnIyAnmantrANAmapi kIlakam | so.api kShemamavApnoti satataM japyatatparaH"
-        },
-        {
-          "number": 3,
-          "sanskrit": "सिद्ध्यन्त्युच्चाटनादीनि कर्माणि सकलान्यपि । एतेन स्तुवतां देवीं स्तोत्रवृन्देन भक्तितः",
-          "transliteration": "siddhyantyuchchATanAdIni karmANi sakalAnyapi | etena stuvatAM devIM stotravR^indena bhaktitaH"
-        },
-        {
-          "number": 4,
-          "sanskrit": "न मन्त्रो नौषधं तस्य न किञ्चिदपि विद्यते । विना जप्येन सिद्ध्येत्तु सर्वमुच्चाटनादिकम्",
-          "transliteration": "na mantro nauShadhaM tasya na ki~nchidapi vidyate | vinA japyena siddhyettu sarvamuchchATanAdikam"
-        },
-        {
-          "number": 5,
-          "sanskrit": "समग्राण्यपि सेत्स्यन्ति लोकशङ्कामिमां हरः । कृत्वा निमन्त्रयामास सर्वमेवमिदं शुभम्",
-          "transliteration": "samagrANyapi setsyanti lokasha~NkAmimAM haraH | kR^itvA nimantrayAmAsa sarvamevamidaM shubham"
-        },
-        {
-          "number": 6,
-          "sanskrit": "स्तोत्रं वै चण्डिकायास्तु तच्च गुह्यं चकार सः । समाप्नोति स पुण्येन तां यथावन्निमन्त्रणाम्",
-          "transliteration": "stotraM vai chaNDikAyAstu tachcha guhyaM chakAra saH | samApnoti sa puNyena tAM yathAvannimantraNAm"
-        },
-        {
-          "number": 7,
-          "sanskrit": "सोऽपि क्षेममवाप्नोति सर्वमेव न संशयः । कृष्णायां वा चतुर्दश्यामष्टम्यां वा समाहितः",
-          "transliteration": "so.api kShemamavApnoti sarvameva na saMshayaH | kR^iShNAyAM vA chaturdashyAmaShTamyAM vA samAhitaH"
-        },
-        {
-          "number": 8,
-          "sanskrit": "ददाति प्रतिगृह्णाति नान्यथैषा प्रसीदति । इत्थं रूपेण कीलेन महादेवेन कीलितम्",
-          "transliteration": "dadAti pratigR^ihNAti nAnyathaiShA prasIdati | itthaM rUpeNa kIlena mahAdevena kIlitam"
-        },
-        {
-          "number": 9,
-          "sanskrit": "यो निष्कीलां विधायैनां चण्डीं जपति नित्यशः । स सिद्धः स गणः सोऽथ गन्धर्वो जायते ध्रुवम्",
-          "transliteration": "yo niShkIlAM vidhAyainAM chaNDIM japati nityashaH | sa siddhaH sa gaNaH so.atha gandharvo jAyate dhruvam"
-        },
-        {
-          "number": 10,
-          "sanskrit": "न चैवापाटवं तस्य भयं क्वापि न जायते । नापमृत्युवशं याति मृते च मोक्षमाप्नुयात्",
-          "transliteration": "na chaivApATavaM tasya bhayaM kvApi na jAyate | nApamR^ityuvashaM yAti mR^ite cha mokShamApnuyAt"
-        },
-        {
-          "number": 11,
-          "sanskrit": "ज्ञात्वा प्रारभ्य कुर्वीत ह्यकुर्वाणो विनश्यति । ततो ज्ञात्वैव सम्पूर्णमिदं प्रारभ्यते बुधैः",
-          "transliteration": "j~nAtvA prArabhya kurvIta hyakurvANo vinashyati | tato j~nAtvaiva sampUrNamidaM prArabhyate budhaiH"
-        },
-        {
-          "number": 12,
-          "sanskrit": "सौभाग्यादि च यत्किञ्चिद् दृश्यते ललनाजने । तत्सर्वं तत्प्रसादेन तेन जप्यमिदं शुभम्",
-          "transliteration": "saubhAgyAdi cha yatki~nchid dR^ishyate lalanAjane | tatsarvaM tatprasAdena tena japyamidaM shubham"
-        },
-        {
-          "number": 13,
-          "sanskrit": "शनैस्तु जप्यमानेऽस्मिन् स्तोत्रे सम्पत्तिरुच्चकैः । भवत्येव समग्रापि ततः प्रारभ्यमेव तत्",
-          "transliteration": "shanaistu japyamAne.asmin stotre sampattiruchchakaiH | bhavatyeva samagrApi tataH prArabhyameva tat"
-        },
-        {
-          "number": 14,
-          "sanskrit": "ऐश्वर्यं तत्प्रसादेन सौभाग्यारोग्यमेव च । शत्रुहानिः परो मोक्षः स्तूयते सा न किं जनैः",
-          "transliteration": "aishvaryaM tatprasAdena saubhAgyArogyameva cha | shatruhAniH paro mokShaH stUyate sA na kiM janaiH"
-        },
-        {
-          "number": 15,
-          "sanskrit": "चण्डिकां हृदयेनापि यः स्मरेत् सततं नरः । हृद्यं काममवाप्नोति हृदि देवी सदा वसेत्",
-          "transliteration": "chaNDikAM hR^idayenApi yaH smaret satataM naraH | hR^idyaM kAmamavApnoti hR^idi devI sadA vaset"
-        },
-        {
-          "number": 16,
-          "sanskrit": "अग्रतोऽमुं महादेवकृतं कीलकवारणम् । निष्कीलञ्च तथा कृत्वा पठितव्यं समाहितैः",
-          "transliteration": "agrato.amuM mahAdevakR^itaM kIlakavAraNam | niShkIla~ncha tathA kR^itvA paThitavyaM samAhitaiH"
-        },
-        {
-          "number": 0,
-          "sanskrit": "॥ इति श्रीभगवत्याः कीलकस्तोत्रं समाप्तम्",
-          "transliteration": "|| iti shrIbhagavatyAH kIlakastotraM samAptam"
-        },
-        {
-          "number": 1,
-          "sanskrit": "अथ देवी कवचम् ॥ अस्य श्रीचण्डीकवचस्य ब्रह्मा ऋषिः , अनुष्टुप् छन्दः , चामुण्डा देवता , अङ्गन्यासोक्तमातरो बीजम् , दिग्बन्धदेवतास्तत्वम् , श्रीजगदम्बाप्रीत्यर्थे जपे विनियोगः । ॐ नमश्चण्डिकायै । मार्कण्डेय उवाच । ॐ यद्गुह्यं परमं लोके सर्वरक्षाकरं नृणाम् । यन्न कस्यचिदाख्यातं तन्मे ब्रूहि पितामह",
-          "transliteration": "atha devI kavacham || asya shrIchaNDIkavachasya brahmA R^iShiH \\, anuShTup ChandaH \\, chAmuNDA devatA \\, a~NganyAsoktamAtaro bIjam \\, digbandhadevatAstatvam \\, shrIjagadambAprItyarthe jape viniyogaH | OM namashchaNDikAyai | mArkaNDeya uvAcha | OM yad.hguhyaM paramaM loke sarvarakShAkaraM nR^iNAm | yanna kasyachidAkhyAtaM tanme brUhi pitAmaha"
-        },
-        {
-          "number": 2,
-          "sanskrit": "ब्रह्मोवाच । अस्ति गुह्यतमं विप्र सर्वभूतोपकारकम् । देव्यास्तु कवचं पुण्यं तच्छृणुष्व महामुने",
-          "transliteration": "brahmovAcha | asti guhyatamaM vipra sarvabhUtopakArakam | devyAstu kavachaM puNyaM tachChR^iNuShva mahAmune"
-        },
-        {
-          "number": 3,
-          "sanskrit": "प्रथमं शैलपुत्रीति द्वितीयं ब्रह्मचारिणी । तृतीयं चन्द्रघण्टेति कूष्माण्डेति चतुर्थकम्",
-          "transliteration": "prathamaM shailaputrIti dvitIyaM brahmachAriNI | tR^itIyaM chandraghaNTeti kUShmANDeti chaturthakam"
-        },
-        {
-          "number": 4,
-          "sanskrit": "पञ्चमं स्कन्दमातेति षष्ठं कात्यायनी तथा । सप्तमं कालरात्रिश्च महागौरीति चाष्टमम्",
-          "transliteration": "pa~nchamaM skandamAteti ShaShThaM kAtyAyanI tathA | saptamaM kAlarAtrishcha mahAgaurIti chAShTamam"
-        },
-        {
-          "number": 5,
-          "sanskrit": "नवमं सिद्धिदात्री च नवदुर्गाः प्रकीर्तिताः । उक्तान्येतानि नामानि ब्रह्मणैव महात्मना",
-          "transliteration": "navamaM siddhidAtrI cha navadurgAH prakIrtitAH | uktAnyetAni nAmAni brahmaNaiva mahAtmanA"
-        },
-        {
-          "number": 7,
-          "sanskrit": "अग्निना दह्यमानास्तु शत्रुमध्यगता रणे । विषमे दुर्गमे चैव भयार्ताः शरणं गताः ॥ ६। न तेषां जायते किञ्चिदशुभं रणसङ्कटे । आपदं न च पश्यन्ति शोकदुःखभयङ्करीम्",
-          "transliteration": "agninA dahyamAnAstu shatrumadhyagatA raNe | viShame durgame chaiva bhayArtAH sharaNaM gatAH || 6. na teShAM jAyate ki~nchidashubhaM raNasa~NkaTe | ApadaM na cha pashyanti shokaduHkhabhaya~NkarIm"
-        },
-        {
-          "number": 8,
-          "sanskrit": "यैस्तु भक्त्या स्मृता नित्यं तेषां वृद्धिः प्रजायते । ये त्वां स्मरन्ति देवेशि रक्षसि तान्न संशयः",
-          "transliteration": "yaistu bhaktyA smR^itA nityaM teShAM vR^iddhiH prajAyate | ye tvAM smaranti deveshi rakShasi tAnna saMshayaH"
-        },
-        {
-          "number": 9,
-          "sanskrit": "प्रेतसंस्था तु चामुण्डा वाराही महिषासना । ऐन्द्री गजसमारूढा वैष्णवी गरुडासना",
-          "transliteration": "pretasaMsthA tu chAmuNDA vArAhI mahiShAsanA | aindrI gajasamArUDhA vaiShNavI garuDAsanA"
-        },
-        {
-          "number": 10,
-          "sanskrit": "नारसिंही महावीर्या शिवदूती महाबला । माहेश्वरी वृषारूढा कौमारी शिखिवाहना",
-          "transliteration": "nArasiMhI mahAvIryA shivadUtI mahAbalA | mAheshvarI vR^iShArUDhA kaumArI shikhivAhanA"
-        },
-        {
-          "number": 11,
-          "sanskrit": "लक्ष्मीः पद्मासना देवी पद्महस्ता हरिप्रिया । श्वेतरूपधरा देवी ईश्वरी वृषवाहना",
-          "transliteration": "lakShmIH padmAsanA devI padmahastA haripriyA | shvetarUpadharA devI IshvarI vR^iShavAhanA"
-        },
-        {
-          "number": 12,
-          "sanskrit": "ब्राह्मी हंससमारूढा सर्वाभरणभूषिता । इत्येता मातरः सर्वाः सर्वयोगसमन्विताः",
-          "transliteration": "brAhmI haMsasamArUDhA sarvAbharaNabhUShitA | ityetA mAtaraH sarvAH sarvayogasamanvitAH"
-        },
-        {
-          "number": 13,
-          "sanskrit": "नानाभरणशोभाढ्या नानारत्नोपशोभिताः । श्रैष्ठैश्च मौक्तिकैः सर्वा दिव्यहारप्रलम्बिभिः",
-          "transliteration": "nAnAbharaNashobhADhyA nAnAratnopashobhitAH | shraiShThaishcha mauktikaiH sarvA divyahArapralambibhiH"
-        },
-        {
-          "number": 14,
-          "sanskrit": "इन्द्रनीलैर्महानीलैः पद्मरागैः सुशोभनैः । दृश्यन्ते रथमारूढा देव्यः क्रोधसमाकुलाः",
-          "transliteration": "indranIlairmahAnIlaiH padmarAgaiH sushobhanaiH | dR^ishyante rathamArUDhA devyaH krodhasamAkulAH"
-        },
-        {
-          "number": 15,
-          "sanskrit": "शङ्खं चक्रं गदां शक्तिं हलं च मुसलायुधम् । खेटकं तोमरं चैव परशुं पाशमेव च",
-          "transliteration": "sha~NkhaM chakraM gadAM shaktiM halaM cha musalAyudham | kheTakaM tomaraM chaiva parashuM pAshameva cha"
-        },
-        {
-          "number": 16,
-          "sanskrit": "कुन्तायुधं त्रिशूलं च शार्ङ्गमायुधमुत्तमम् । दैत्यानां देहनाशाय भक्तानामभयाय च",
-          "transliteration": "kuntAyudhaM trishUlaM cha shAr~NgamAyudhamuttamam | daityAnAM dehanAshAya bhaktAnAmabhayAya cha"
-        },
-        {
-          "number": 17,
-          "sanskrit": "धारयन्त्यायुधानीत्थं देवानां च हिताय वै । नमस्तेऽस्तु महारौद्रे महाघोरपराक्रमे",
-          "transliteration": "dhArayantyAyudhAnItthaM devAnAM cha hitAya vai | namaste.astu mahAraudre mahAghoraparAkrame"
-        },
-        {
-          "number": 18,
-          "sanskrit": "महाबले महोत्साहे महाभयविनाशिनि । त्राहि मां देवि दुष्प्रेक्ष्ये शत्रूणां भयवर्धिनि",
-          "transliteration": "mahAbale mahotsAhe mahAbhayavinAshini | trAhi mAM devi duShprekShye shatrUNAM bhayavardhini"
-        },
-        {
-          "number": 19,
-          "sanskrit": "प्राच्यां रक्षतु मामैन्द्री आग्नेय्यामग्निदेवता । दक्षिणेऽवतु वाराही नैरृत्यां खड्गधारिणी",
-          "transliteration": "prAchyAM rakShatu mAmaindrI AgneyyAmagnidevatA | dakShiNe.avatu vArAhI nairR^ityAM khaDgadhAriNI"
-        },
-        {
-          "number": 20,
-          "sanskrit": "प्रतीच्यां वारुणी रक्षेद्वायव्यां मृगवाहिनी । उदीच्यां पातु कौबेरी ईशान्यां शूलधारिणी",
-          "transliteration": "pratIchyAM vAruNI rakShedvAyavyAM mR^igavAhinI | udIchyAM pAtu kauberI IshAnyAM shUladhAriNI"
-        },
-        {
-          "number": 21,
-          "sanskrit": "ऊर्ध्वं ब्रह्माणी मे रक्षेदधस्ताद्वैष्णवी तथा । एवं दश दिशो रक्षेच्चामुण्डा शववाहना",
-          "transliteration": "UrdhvaM brahmANI me rakShedadhastAd.hvaiShNavI tathA | evaM dasha disho rakShechchAmuNDA shavavAhanA"
-        },
-        {
-          "number": 22,
-          "sanskrit": "जया मामग्रतः पातु विजया पातु पृष्ठतः । अजिता वामपार्श्वे तु दक्षिणे चापराजिता",
-          "transliteration": "jayA mAmagrataH pAtu vijayA pAtu pR^iShThataH | ajitA vAmapArshve tu dakShiNe chAparAjitA"
-        },
-        {
-          "number": 23,
-          "sanskrit": "शिखां मे द्योतिनी रक्षेदुमा मूर्ध्नि व्यवस्थिता । मालाधरी ललाटे च भ्रुवौ रक्षेद्यशस्विनी",
-          "transliteration": "shikhAM me dyotinI rakShedumA mUrdhni vyavasthitA | mAlAdharI lalATe cha bhruvau rakShedyashasvinI"
-        },
-        {
-          "number": 24,
-          "sanskrit": "नेत्रयोश्चित्रनेत्रा च यमघण्टा तु पार्श्वके । त्रिनेत्रा च त्रिशूलेन भ्रुवोर्मध्ये च चण्डिका",
-          "transliteration": "netrayoshchitranetrA cha yamaghaNTA tu pArshvake | trinetrA cha trishUlena bhruvormadhye cha chaNDikA"
-        },
-        {
-          "number": 25,
-          "sanskrit": "शङ्खिनी चक्षुषोर्मध्ये श्रोत्रयोर्द्वारवासिनी । कपोलौ कालिका रक्षेत् कर्णमूले तु शङ्करी",
-          "transliteration": "sha~NkhinI chakShuShormadhye shrotrayordvAravAsinI | kapolau kAlikA rakShet karNamUle tu sha~NkarI"
-        },
-        {
-          "number": 26,
-          "sanskrit": "नासिकायां सुगन्धा च उत्तरोष्ठे च चर्चिका । अधरे चामृताबाला जिह्वायां च सरस्वती",
-          "transliteration": "nAsikAyAM sugandhA cha uttaroShThe cha charchikA | adhare chAmR^itAbAlA jihvAyAM cha sarasvatI"
-        },
-        {
-          "number": 27,
-          "sanskrit": "दन्तान् रक्षतु कौमारी कण्ठदेशे तु चण्डिका । घण्टिकां चित्रघण्टा च महामाया च तालुके",
-          "transliteration": "dantAn rakShatu kaumArI kaNThadeshe tu chaNDikA | ghaNTikAM chitraghaNTA cha mahAmAyA cha tAluke"
-        },
-        {
-          "number": 28,
-          "sanskrit": "कामाक्षी चिबुकं रक्षेद्वाचं मे सर्वमङ्गला । ग्रीवायां भद्रकाली च पृष्ठवंशे धनुर्धरी",
-          "transliteration": "kAmAkShI chibukaM rakShedvAchaM me sarvama~NgalA | grIvAyAM bhadrakAlI cha pR^iShThavaMshe dhanurdharI"
-        },
-        {
-          "number": 29,
-          "sanskrit": "नीलग्रीवा बहिः कण्ठे नलिकां नलकूबरी । स्कन्धयोः खड्गिनी रक्षेद् बाहू मे वज्रधारिणी",
-          "transliteration": "nIlagrIvA bahiH kaNThe nalikAM nalakUbarI | skandhayoH khaDginI rakShed bAhU me vajradhAriNI"
-        },
-        {
-          "number": 30,
-          "sanskrit": "हस्तयोर्दण्डिनी रक्षेदम्बिका चाङ्गुलीषु च । नखाञ्छूलेश्वरी रक्षेत् कुक्षौ रक्षेन्नरेश्वरी",
-          "transliteration": "hastayordaNDinI rakShedambikA chA~NgulIShu cha | nakhA~nChUleshvarI rakShet kukShau rakShennareshvarI"
-        },
-        {
-          "number": 31,
-          "sanskrit": "स्तनौ रक्षेन्महादेवी मनःशोकविनाशिनी । हृदये ललिता देवी उदरे शूलधारिणी",
-          "transliteration": "stanau rakShenmahAdevI manaHshokavinAshinI | hR^idaye lalitA devI udare shUladhAriNI"
-        },
-        {
-          "number": 32,
-          "sanskrit": "नाभौ च कामिनी रक्षेद् गुह्यं गुह्येश्वरी तथा । मेढ्रं रक्षतु दुर्गन्धा पायुं मे गुह्यवाहिनी",
-          "transliteration": "nAbhau cha kAminI rakShed guhyaM guhyeshvarI tathA | meDhraM rakShatu durgandhA pAyuM me guhyavAhinI"
-        },
-        {
-          "number": 33,
-          "sanskrit": "कट्यां भगवती रक्षेदूरू मे मेघवाहना । जङ्घे महाबला रक्षेत् जानू माधवनायिका",
-          "transliteration": "kaTyAM bhagavatI rakShedUrU me meghavAhanA | ja~Nghe mahAbalA rakShet jAnU mAdhavanAyikA"
-        },
-        {
-          "number": 34,
-          "sanskrit": "गुल्फयोर्नारसिंही च पादपृष्ठे तु कौशिकी । पादाङ्गुलीः श्रीधरी च तलं पातालवासिनी",
-          "transliteration": "gulphayornArasiMhI cha pAdapR^iShThe tu kaushikI | pAdA~NgulIH shrIdharI cha talaM pAtAlavAsinI"
-        },
-        {
-          "number": 35,
-          "sanskrit": "नखान् दंष्ट्रकराली च केशांश्चैवोर्ध्वकेशिनी । रोमकूपेषु कौमारी त्वचं योगीश्वरी तथा",
-          "transliteration": "nakhAn daMShTrakarAlI cha keshAMshchaivordhvakeshinI | romakUpeShu kaumArI tvachaM yogIshvarI tathA"
-        },
-        {
-          "number": 36,
-          "sanskrit": "रक्तमज्जावसामांसान्यस्थिमेदांसि पार्वती । अन्त्राणि कालरात्रिश्च पित्तं च मुकुटेश्वरी",
-          "transliteration": "raktamajjAvasAmAMsAnyasthimedAMsi pArvatI | antrANi kAlarAtrishcha pittaM cha mukuTeshvarI"
-        },
-        {
-          "number": 37,
-          "sanskrit": "पद्मावती पद्मकोशे कफे चूडामणिस्तथा । ज्वालामुखी नखज्वालामभेद्या सर्वसन्धिषु",
-          "transliteration": "padmAvatI padmakoshe kaphe chUDAmaNistathA | jvAlAmukhI nakhajvAlAmabhedyA sarvasandhiShu"
-        },
-        {
-          "number": 38,
-          "sanskrit": "शुक्रं ब्रह्माणी मे रक्षेच्छायां छत्रेश्वरी तथा । अहङ्कारं मनो बुद्धिं रक्षेन्मे धर्मधारिणी",
-          "transliteration": "shukraM brahmANI me rakShechChAyAM ChatreshvarI tathA | aha~NkAraM mano buddhiM rakShenme dharmadhAriNI"
-        },
-        {
-          "number": 39,
-          "sanskrit": "प्राणापानौ तथा व्यानमुदानं च समानकम् । वज्रहस्ता च मे रक्षेत् प्राणान् कल्याणशोभना",
-          "transliteration": "prANApAnau tathA vyAnamudAnaM cha samAnakam | vajrahastA cha me rakShet prANAn kalyANashobhanA"
-        },
-        {
-          "number": 40,
-          "sanskrit": "रसे रूपे च गन्धे च शब्दे स्पर्शे च योगिनी । सत्त्वं रजस्तमश्चैव रक्षेन्नारायणी सदा",
-          "transliteration": "rase rUpe cha gandhe cha shabde sparshe cha yoginI | sattvaM rajastamashchaiva rakShennArAyaNI sadA"
-        },
-        {
-          "number": 41,
-          "sanskrit": "आयू रक्षतु वाराही धर्मं रक्षतु पार्वती । यशः कीर्तिं च लक्ष्मीं च सदा रक्षतु वैष्णवी",
-          "transliteration": "AyU rakShatu vArAhI dharmaM rakShatu pArvatI | yashaH kIrtiM cha lakShmIM cha sadA rakShatu vaiShNavI"
-        },
-        {
-          "number": 42,
-          "sanskrit": "गोत्रमिन्द्राणी मे रक्षेत् पशून् रक्षेच्च चण्डिका । पुत्रान् रक्षेन्महालक्ष्मीर्भार्यां रक्षतु भैरवी",
-          "transliteration": "gotramindrANI me rakShet pashUn rakShechcha chaNDikA | putrAn rakShenmahAlakShmIrbhAryAM rakShatu bhairavI"
-        },
-        {
-          "number": 43,
-          "sanskrit": "धनेश्वरी धनं रक्षेत् कौमारी कन्यकां तथा । पन्थानं सुपथा रक्षेन्मार्गं क्षेमङ्करी तथा",
-          "transliteration": "dhaneshvarI dhanaM rakShet kaumArI kanyakAM tathA | panthAnaM supathA rakShenmArgaM kShema~NkarI tathA"
-        },
-        {
-          "number": 44,
-          "sanskrit": "राजद्वारे महालक्ष्मीर्विजया सतत स्थिता । रक्षाहीनं तु यत् स्थानं वर्जितं कवचेन तु",
-          "transliteration": "rAjadvAre mahAlakShmIrvijayA satata sthitA | rakShAhInaM tu yat sthAnaM varjitaM kavachena tu"
-        },
-        {
-          "number": 45,
-          "sanskrit": "तत्सर्वं रक्ष मे देवि जयन्ती पापनाशिनी । सर्वरक्षाकरं पुण्यं कवचं सर्वदा जपेत्",
-          "transliteration": "tatsarvaM rakSha me devi jayantI pApanAshinI | sarvarakShAkaraM puNyaM kavachaM sarvadA japet"
-        },
-        {
-          "number": 46,
-          "sanskrit": "इदं रहस्यं विप्रर्षे भक्त्या तव मयोदितम् । पादमेकं न गच्छेत् तु यदीच्छेच्छुभमात्मनः",
-          "transliteration": "idaM rahasyaM viprarShe bhaktyA tava mayoditam | pAdamekaM na gachChet tu yadIchChechChubhamAtmanaH"
-        },
-        {
-          "number": 47,
-          "sanskrit": "कवचेनावृतो नित्यं यत्र यत्रैव गच्छति । तत्र तत्रार्थलाभश्व विजयः सार्वकालिकः",
-          "transliteration": "kavachenAvR^ito nityaM yatra yatraiva gachChati | tatra tatrArthalAbhashva vijayaH sArvakAlikaH"
-        },
-        {
-          "number": 48,
-          "sanskrit": "यं यं चिन्तयते कामं तं तं प्राप्नोति निश्चितम् । परमैश्वर्यमतुलं प्राप्स्यते भूतले पुमान्",
-          "transliteration": "yaM yaM chintayate kAmaM taM taM prApnoti nishchitam | paramaishvaryamatulaM prApsyate bhUtale pumAn"
-        },
-        {
-          "number": 49,
-          "sanskrit": "निर्भयो जायते मर्त्यः सङ्ग्रामेष्वपराजितः । त्रैलोक्ये तु भवेत्पूज्यः कवचेनावृतः पुमान्",
-          "transliteration": "nirbhayo jAyate martyaH sa~NgrAmeShvaparAjitaH | trailokye tu bhavetpUjyaH kavachenAvR^itaH pumAn"
-        },
-        {
-          "number": 50,
-          "sanskrit": "इदं तु देव्याः कवचं देवानामपि दुर्लभम् । यः पठेत्प्रयतो नित्यं त्रिसन्ध्यं श्रद्धयान्वितः",
-          "transliteration": "idaM tu devyAH kavachaM devAnAmapi durlabham | yaH paThetprayato nityaM trisandhyaM shraddhayAnvitaH"
-        },
-        {
-          "number": 51,
-          "sanskrit": "दैवीकला भवेत्तस्य त्रैलोक्ये चापराजितः । जीवेद्वर्षशतं साग्रमपमृत्युविवर्जितः",
-          "transliteration": "daivIkalA bhavettasya trailokye chAparAjitaH | jIvedvarShashataM sAgramapamR^ityuvivarjitaH"
-        },
-        {
-          "number": 52,
-          "sanskrit": "नश्यन्ति व्याधयः सर्वे लूताविस्फोटकादयः । स्थावरं जङ्गमं चैव कृत्रिमं चैव यद्विषम्",
-          "transliteration": "nashyanti vyAdhayaH sarve lUtAvisphoTakAdayaH | sthAvaraM ja~NgamaM chaiva kR^itrimaM chaiva yadviSham"
-        },
-        {
-          "number": 53,
-          "sanskrit": "अभिचाराणि सर्वाणि मन्त्रयन्त्राणि भूतले । भूचराः खेचराश्चैव कुलजाश्चौपदेशिकाः",
-          "transliteration": "abhichArANi sarvANi mantrayantrANi bhUtale | bhUcharAH khecharAshchaiva kulajAshchaupadeshikAH"
-        },
-        {
-          "number": 54,
-          "sanskrit": "सहजा कुलजा माला डाकिनी शाकिनी तथा । अन्तरिक्षचरा घोरा डाकिन्यश्च महारवाः",
-          "transliteration": "sahajA kulajA mAlA DAkinI shAkinI tathA | antarikShacharA ghorA DAkinyashcha mahAravAH"
-        },
-        {
-          "number": 55,
-          "sanskrit": "ग्रहभूतपिशाचाश्च यक्षगन्धर्वराक्षसाः । ब्रह्मराक्षसवेतालाः कूष्माण्डा भैरवादयः",
-          "transliteration": "grahabhUtapishAchAshcha yakShagandharvarAkShasAH | brahmarAkShasavetAlAH kUShmANDA bhairavAdayaH"
-        },
-        {
-          "number": 56,
-          "sanskrit": "नश्यन्ति दर्शनात्तस्य कवचेनावृतो हि यः । मानोन्नतिर्भवेद्राज्ञस्तेजोवृद्धिः परा भवेत्",
-          "transliteration": "nashyanti darshanAttasya kavachenAvR^ito hi yaH | mAnonnatirbhavedrAj~nastejovR^iddhiH parA bhavet"
-        },
-        {
-          "number": 57,
-          "sanskrit": "यशोवृद्धिर्भवेत् पुंसां कीर्तिवृद्धिश्च जायते । तस्मात् जपेत् सदा भक्तः कवचं कामदं मुने",
-          "transliteration": "yashovR^iddhirbhavet puMsAM kIrtivR^iddhishcha jAyate | tasmAt japet sadA bhaktaH kavachaM kAmadaM mune"
-        },
-        {
-          "number": 58,
-          "sanskrit": "जपेत् सप्तशतीं चण्डीं कृत्वा तु कवचं पुरा । निर्विघ्नेन भवेत् सिद्धिश्चण्डीजपसमुद्भवा",
-          "transliteration": "japet saptashatIM chaNDIM kR^itvA tu kavachaM purA | nirvighnena bhavet siddhishchaNDIjapasamudbhavA"
-        },
-        {
-          "number": 59,
-          "sanskrit": "यावद्भूमण्डलं धत्ते सशैलवनकाननम् । तावत्तिष्ठति मेदिन्यां सन्ततिः पुत्रपौत्रिकी",
-          "transliteration": "yAvad.hbhUmaNDalaM dhatte sashailavanakAnanam | tAvattiShThati medinyAM santatiH putrapautrikI"
-        },
-        {
-          "number": 60,
-          "sanskrit": "देहान्ते परमं स्थानं सुरैरपि सुदुर्लभम् । प्राप्नोति पुरुषो नित्यं महामायाप्रसादतः",
-          "transliteration": "dehAnte paramaM sthAnaM surairapi sudurlabham | prApnoti puruSho nityaM mahAmAyAprasAdataH"
-        },
-        {
-          "number": 61,
-          "sanskrit": "तत्र गच्छति गत्वासौ पुनश्चागमनं नहि । लभते परमं स्थानं शिवेन समतां व्रजेत्",
-          "transliteration": "tatra gachChati gatvAsau punashchAgamanaM nahi | labhate paramaM sthAnaM shivena samatAM vrajet"
-        },
-        {
-          "number": 0,
-          "sanskrit": "॥ इति श्रीमार्कण्डेयपुराणे हरिहरब्रह्मविरचितं देवीकवचं समाप्तम्",
-          "transliteration": "|| iti shrImArkaNDeyapurANe hariharabrahmavirachitaM devIkavachaM samAptam"
-        },
-        {
-          "number": 0,
-          "sanskrit": "देवी माहात्म्यम्",
-          "transliteration": "devI mAhAtmyam"
-        },
-        {
-          "number": 0,
-          "sanskrit": "श्रीदुर्गायै नमः",
-          "transliteration": "shrIdurgAyai namaH"
-        },
-        {
-          "number": 0,
-          "sanskrit": "अथ श्रीदुर्गासप्तशती",
-          "transliteration": "atha shrIdurgAsaptashatI"
-        },
-        {
           "number": "1.1",
-          "sanskrit": "१. मधुकैटभवधो नाम प्रथमोऽध्यायः ॥ विनियोगः अस्य श्री प्रथमचरित्रस्य । ब्रह्मा ऋषिः । महाकाली देवता । गायत्री छन्दः । नन्दा शक्तिः । रक्तदन्तिका बीजम् । अग्निस्तत्त्वम् । ऋग्वेदः स्वरूपम् । श्रीमहाकालीप्रीत्यर्थे प्रथमचरित्रजपे विनियोगः । । ध्यानम् । ॐ खड्गं चक्रगदेषुचापपरिघाञ्छूलं भुशुण्डीं शिरः शङ्खं सन्दधतीं करैस्त्रिनयनां सर्वाङ्गभूषावृताम् । नीलाश्मद्युतिमास्यपाददशकां सेवे महाकालिकां यामस्तौत्स्वपिते हरौ कमलजो हन्तुं मधुं कैटभम् ॥ ॐ नमश्चण्डिकायै ॥ ॐ ऐं मार्कण्डेय उवाच",
-          "transliteration": "1\\. madhukaiTabhavadho nAma prathamo.adhyAyaH || viniyogaH asya shrI prathamacharitrasya | brahmA R^iShiH | mahAkAlI devatA | gAyatrI ChandaH | nandA shaktiH | raktadantikA bIjam | agnistattvam | R^igvedaH svarUpam | shrImahAkAlIprItyarthe prathamacharitrajape viniyogaH | . dhyAnam | OM khaDgaM chakragadeShuchApaparighA~nChUlaM bhushuNDIM shiraH sha~NkhaM sandadhatIM karaistrinayanAM sarvA~NgabhUShAvR^itAm | nIlAshmadyutimAsyapAdadashakAM seve mahAkAlikAM yAmastautsvapite harau kamalajo hantuM madhuM kaiTabham || OM namashchaNDikAyai || OM aiM mArkaNDeya uvAcha"
+          "sanskrit": "ॐ ऐं मार्कण्डेय उवाच",
+          "transliteration": "OM aiM mArkaNDeya uvAcha"
         },
         {
           "number": "1.2",
@@ -938,7 +378,11 @@
         {
           "number": "1.73",
           "sanskrit": "त्वं स्वाहा त्वं स्वधा त्वं हि वषट्कारः स्वरात्मिका",
-          "transliteration": "tvaM svAhA tvaM svadhA tvaM hi vaShaT.hkAraH svarAtmikA"
+          "transliteration": "tvaM svAhA tvaM svadhA tvaM hi vaShaT.hkAraH svarAtmikA",
+          "translation": "You are Shri (prosperity), You are Ishvari (sovereignty), You are Hri (modesty), You are Buddhi (intelligence), characterized by knowledge. You are Lajja (shame/conscience), Pushti (nourishment), Tushti (satisfaction), Shanti (peace), and Kshanti (patience/forbearance).",
+          "hindi": "तुम श्री हो, ईश्वरी हो, ह्री (लज्जा) हो, बोधस्वरूपा बुद्धि हो। तुम लज्जा हो, पुष्टि हो, तुष्टि हो, शांति हो, और क्षांति (सहनशीलता) हो।",
+          "wordMeaning": "This verse from the Devi Stuti (praise of the Goddess) identifies the Divine Mother with every positive quality within human experience. She is not a distant deity but the very fabric of all that is nurturing, wise, peaceful, and dignified in human life. The Shakta tradition sees the divine feminine not as a goddess among gods but as the ultimate power (shakti) underlying all existence.",
+          "commentary": "This verse from the Devi Stuti (praise of the Goddess) identifies the Divine Mother with every positive quality within human experience. She is not a distant deity but the very fabric of all that is nurturing, wise, peaceful, and dignified in human life. The Shakta tradition sees the divine feminine not as a goddess among gods but as the ultimate power (shakti) underlying all existence."
         },
         {
           "number": "1.74",
@@ -1095,21 +539,21 @@
           "sanskrit": "एवमेषा समुत्पन्ना ब्रह्मणा संस्तुता स्वयम् । प्रभावमस्या देव्यास्तु भूयः शृणु वदामि ते",
           "transliteration": "evameShA samutpannA brahmaNA saMstutA svayam | prabhAvamasyA devyAstu bhUyaH shR^iNu vadAmi te"
         }
-      ]
+      ],
+      "titleSanskrit": "प्रथम चरित्र — महाकाली"
     },
     {
       "number": 2,
       "title": "Chapter 2 — Mahishasura Sena Vadha",
       "verses": [
         {
-          "number": 104,
-          "sanskrit": "उवाच १४, अर्धश्लोकाः २४, श्लोकाः ६६, एवमादितः",
-          "transliteration": "uvAcha 14, ardhashlokAH 24, shlokAH 66, evamAditaH"
-        },
-        {
           "number": "2.1",
-          "sanskrit": "॥ २. महिषासुरसैन्यवधो नाम द्वितीयोऽध्यायः ॥ विनियोगः अस्य श्री मध्यमचरित्रस्य विष्णुरृषिः । श्रीमहालक्ष्मीर्देवता । उष्णिक् छन्दः । शाकम्भरी शक्तिः । दुर्गा बीजम् । वायुस्तत्त्वम् । यजुर्वेदः स्वरूपम् । श्रीमहालक्ष्मीप्रीत्यर्थे मध्यमचरित्रजपे विनियोगः । । ध्यानम् । ॐ अक्षस्रक्परशू गदेषुकुलिशं पद्मं धनुः कुण्डिकां दण्डं शक्तिमसिं च चर्म जलजं घण्टां सुराभाजनम् । शूलं पाशसुदर्शने च दधतीं हस्तैः प्रवालप्रभां सेवे सैरिभमर्दिनीमिह महालक्ष्मीं सरोजस्थिताम् ॥ ॐ ह्रीं ऋषिरुवाच",
-          "transliteration": "|| 2\\. mahiShAsurasainyavadho nAma dvitIyo.adhyAyaH || viniyogaH asya shrI madhyamacharitrasya viShNurR^iShiH | shrImahAlakShmIrdevatA | uShNik ChandaH | shAkambharI shaktiH | durgA bIjam | vAyustattvam | yajurvedaH svarUpam | shrImahAlakShmIprItyarthe madhyamacharitrajape viniyogaH | . dhyAnam | OM akShasrakparashU gadeShukulishaM padmaM dhanuH kuNDikAM daNDaM shaktimasiM cha charma jalajaM ghaNTAM surAbhAjanam | shUlaM pAshasudarshane cha dadhatIM hastaiH pravAlaprabhAM seve sairibhamardinImiha mahAlakShmIM sarojasthitAm || OM hrIM R^iShiruvAcha"
+          "sanskrit": "ॐ ह्रीं ऋषिरुवाच",
+          "transliteration": "OM hrIM R^iShiruvAcha",
+          "translation": "By whose power this world is pervaded — she who is the aggregate form of all the powers of the entire host of gods — that Ambika, worshipped by all gods and great sages, to her we bow in devotion. May she grant us auspiciousness.",
+          "hindi": "जिसकी शक्ति से यह जगत व्याप्त है — जो समस्त देव-शक्तियों का समूहरूप है — उस सम्पूर्ण देव-महर्षि-पूजित अम्बिका को हम भक्ति से प्रणाम करते हैं। वह हमें शुभ प्रदान करें।",
+          "wordMeaning": "The second chapter's great declaration: the Devi is not one power among many — she is the totality of all divine energies combined. Mahalakshmi emerges when the individual powers of Brahma, Vishnu, and Shiva are each insufficient against Mahishasura. The teaching: some challenges are too large for any single strength. They require the integration of all capacities. The Divine Mother is that integration.",
+          "commentary": "The second chapter's great declaration: the Devi is not one power among many — she is the totality of all divine energies combined. Mahalakshmi emerges when the individual powers of Brahma, Vishnu, and Shiva are each insufficient against Mahishasura. The teaching: some challenges are too large for any single strength. They require the integration of all capacities. The Divine Mother is that integration."
         },
         {
           "number": "2.2",
@@ -1154,12 +598,20 @@
         {
           "number": "2.10",
           "sanskrit": "ततोऽतिकोपपूर्णस्य चक्रिणो वदनात्ततः । निश्चक्राम महत्तेजो ब्रह्मणः शङ्करस्य च",
-          "transliteration": "tato.atikopapUrNasya chakriNo vadanAttataH | nishchakrAma mahattejo brahmaNaH sha~Nkarasya cha"
+          "transliteration": "tato.atikopapUrNasya chakriNo vadanAttataH | nishchakrAma mahattejo brahmaNaH sha~Nkarasya cha",
+          "translation": "Knowing this, O destroyer of demons, your fear has been abandoned at the time of destroying the demons. You have always protected by your own power, and that is your nature, O great enemy of evil.",
+          "hindi": "हे दैत्यविनाशिनी! यह जानकर तुम्हारा भय निश्चय ही छूट गया है। दैत्यों का विनाश करने के समय तुमने अपनी आत्मशक्ति से सदा रक्षण किया है, और वही तुम्हारा स्वभाव है, हे महावैरिणी!",
+          "wordMeaning": "This verse reveals the Devi's fundamental nature as the protector of the universe. She does not merely fight demons as an external enemy; she protects creation by her own inherent power (ātmaśakti). The teaching: the divine feminine is not a warrior who fights when called; she is the active principle of protection that is always engaged. The destruction of evil is not a separate activity from the protection of good — they are one and the same dynamic.",
+          "commentary": "This verse reveals the Devi's fundamental nature as the protector of the universe. She does not merely fight demons as an external enemy; she protects creation by her own inherent power (ātmaśakti). The teaching: the divine feminine is not a warrior who fights when called; she is the active principle of protection that is always engaged. The destruction of evil is not a separate activity from the protection of good — they are one and the same dynamic."
         },
         {
           "number": "2.11",
           "sanskrit": "अन्येषां चैव देवानां शक्रादीनां शरीरतः । निर्गतं सुमहत्तेजस्तच्चैक्यं समगच्छत",
-          "transliteration": "anyeShAM chaiva devAnAM shakrAdInAM sharIrataH | nirgataM sumahattejastachchaikyaM samagachChata"
+          "transliteration": "anyeShAM chaiva devAnAM shakrAdInAM sharIrataH | nirgataM sumahattejastachchaikyaM samagachChata",
+          "translation": "As one who remembers you entering the heart, seeing you first, O Devi, so we remember when you are lost, seeing you first, O Devi.",
+          "hindi": "जैसे तुम हृदय में प्रविष्ट होकर स्मरण की जाती हो, हे देवि! तुम्हें प्रथम देखकर, वैसे ही जब तुम्हारा स्मरण मिट जाता है, तब भी हे देवि! तुम्हें प्रथम देखकर स्मरण करते हैं।",
+          "wordMeaning": "The paradox of divine memory: we remember the Devi both when we feel her presence (when she has \"entered the heart\") and when we feel her absence (when she seems \"lost\"). In both states, we \"see her first\" — meaning she is the primary reality, the ground of all experience. Whether we feel connected or disconnected, the Devi remains the first and last reality. This verse teaches that devotion is not dependent on feeling; it persists through all states of consciousness.",
+          "commentary": "The paradox of divine memory: we remember the Devi both when we feel her presence (when she has \"entered the heart\") and when we feel her absence (when she seems \"lost\"). In both states, we \"see her first\" — meaning she is the primary reality, the ground of all experience. Whether we feel connected or disconnected, the Devi remains the first and last reality. This verse teaches that devotion is not dependent on feeling; it persists through all states of consciousness."
         },
         {
           "number": "2.12",
@@ -1451,21 +903,17 @@
           "sanskrit": "देव्या गणैश्च तैस्तत्र कृतं युद्धं तथासुरैः । यथैषां तुतुषुर्देवाः पुष्पवृष्टिमुचो दिवि",
           "transliteration": "devyA gaNaishcha taistatra kR^itaM yuddhaM tathAsuraiH | yathaiShAM tutuShurdevAH puShpavR^iShTimucho divi"
         }
-      ]
+      ],
+      "titleSanskrit": "द्वितीय अध्याय — महालक्ष्मी"
     },
     {
       "number": 3,
       "title": "Chapter 3 — Mahishasura Vadha",
       "verses": [
         {
-          "number": 173,
-          "sanskrit": "उवाच १, अर्धश्लोकाः ६८, श्लोकाः ६९, एवमादितः",
-          "transliteration": "uvAcha 1, ardhashlokAH 68, shlokAH 69, evamAditaH"
-        },
-        {
           "number": "3.1",
-          "sanskrit": "॥ ३. महिषासुरवधो नाम तृतीयोऽध्यायः ॥ । ध्यानम् । ॐ उद्यद्भानुसहस्रकान्तिमरुणक्षौमां शिरोमालिकां रक्तालिप्तपयोधरां जपवटीं विद्यामभीतिं वरम् । हस्ताब्जैर्दधतीं त्रिनेत्रविलसद्वक्त्रारविन्दश्रियं देवीं बद्धहिमांशुरत्नमुकुटां वन्देऽरविन्दस्थिताम् । ॐ ऋषिरुवाच",
-          "transliteration": "|| 3\\. mahiShAsuravadho nAma tR^itIyo.adhyAyaH || . dhyAnam | OM udyadbhAnusahasrakAntimaruNakShaumAM shiromAlikAM raktAliptapayodharAM japavaTIM vidyAmabhItiM varam | hastAbjairdadhatIM trinetravilasadvaktrAravindashriyaM devIM baddhahimAMshuratnamukuTAM vande.aravindasthitAm | OM R^iShiruvAcha"
+          "sanskrit": "ॐ ऋषिरुवाच",
+          "transliteration": "OM R^iShiruvAcha"
         },
         {
           "number": "3.2",
@@ -1650,7 +1098,11 @@
         {
           "number": "3.38",
           "sanskrit": "गर्ज गर्ज क्षणं मूढ मधु यावत्पिबाम्यहम् । मया त्वयि हतेऽत्रैव गर्जिष्यन्त्याशु देवताः",
-          "transliteration": "garja garja kShaNaM mUDha madhu yAvatpibAmyaham | mayA tvayi hate.atraiva garjiShyantyAshu devatAH"
+          "transliteration": "garja garja kShaNaM mUDha madhu yAvatpibAmyaham | mayA tvayi hate.atraiva garjiShyantyAshu devatAH",
+          "translation": "O Durga, when remembered by those in distress, you remove fear from all beings; when remembered by those who are well, you give them wisdom of the highest auspiciousness. Who other than you, O remover of poverty, sorrow, and fear — has a heart ever moist with compassion for the welfare of all?",
+          "hindi": "हे दुर्गे! संकट में स्मरण करने पर तुम सभी प्राणियों का भय हर लेती हो; स्वस्थ अवस्था में स्मरण करने पर उत्कृष्ट शुभ बुद्धि देती हो। हे दारिद्र्य-दुःख-भय-हारिणी! सबके उपकार के लिए सदा आर्द्र चित्त वाली तुम्हारे सिवाय और कौन है?",
+          "wordMeaning": "Mahishasura — the buffalo-demon — is tamas embodied: the heavy, dark, stubborn inertia that refuses to yield to light. But this verse reveals why the Devi's victory matters: she is not merely a warrior. She is \"sadā ārdrа-cittā\" — always soft-hearted, ever moist with compassion. The fierceness that slays Mahishasura and the tenderness that weeps for suffering are one and the same being. Durga integrates what we typically split: strength and softness, ferocity and compassion.",
+          "commentary": "Mahishasura — the buffalo-demon — is tamas embodied: the heavy, dark, stubborn inertia that refuses to yield to light. But this verse reveals why the Devi's victory matters: she is not merely a warrior. She is \"sadā ārdrа-cittā\" — always soft-hearted, ever moist with compassion. The fierceness that slays Mahishasura and the tenderness that weeps for suffering are one and the same being. Durga integrates what we typically split: strength and softness, ferocity and compassion."
         },
         {
           "number": "3.39",
@@ -1682,21 +1134,17 @@
           "sanskrit": "तुष्टुवुस्तां सुरा देवीं सहदिव्यैर्महर्षिभिः । जगुर्गन्धर्वपतयो ननृतुश्चाप्सरोगणाः",
           "transliteration": "tuShTuvustAM surA devIM sahadivyairmaharShibhiH | jagurgandharvapatayo nanR^itushchApsarogaNAH"
         }
-      ]
+      ],
+      "titleSanskrit": "तृतीय अध्याय"
     },
     {
       "number": 4,
       "title": "Chapter 4 — Devi Stuti",
       "verses": [
         {
-          "number": 217,
-          "sanskrit": "उवाच ३, अर्धश्लोकाः ४१, श्लोकाः ४४, एवमादितः",
-          "transliteration": "uvAcha 3, ardhashlokAH 41, shlokAH 44, evamAditaH"
-        },
-        {
           "number": "4.1",
-          "sanskrit": "॥ ४. शक्रादिस्तुतिर्नाम चतुर्थोऽध्यायः ॥ । ध्यानम् । ॐ कालाभ्राभां कटाक्षैररिकुलभयदां मौलिबद्धेन्दुरेखां शङ्खं चक्रं कृपाणं त्रिशिखमपि करैरुद्वहन्तीं त्रिनेत्राम् । सिंहस्कन्धाधिरूढां त्रिभुवनमखिलं तेजसा पूरयन्तीं ध्यायेद्दुर्गां जयाख्यां त्रिदशपरिवृतां सेवितां सिद्धिकामैः ॥ ॐ ऋषिरुवाच",
-          "transliteration": "|| 4\\. shakrAdistutirnAma chaturtho.adhyAyaH || . dhyAnam | OM kAlAbhrAbhAM kaTAkShairarikulabhayadAM maulibaddhendurekhAM sha~NkhaM chakraM kRRipANaM trishikhamapi karairudvahantIM trinetrAm | siMhaskandhAdhirUDhAM tribhuvanamakhilaM tejasA pUrayantIM dhyAyeddurgAM jayAkhyAM tridashaparivRRitAM sevitAM siddhikAmaiH || OM R^iShiruvAcha"
+          "sanskrit": "ॐ ऋषिरुवाच",
+          "transliteration": "OM R^iShiruvAcha"
         },
         {
           "number": "4.2",
@@ -1711,7 +1159,11 @@
         {
           "number": "4.4",
           "sanskrit": "यस्याः प्रभावमतुलं भगवाननन्तो ब्रह्मा हरश्च न हि वक्तुमलं बलं च । सा चण्डिकाखिलजगत्परिपालनाय नाशाय चाशुभभयस्य मतिं करोतु",
-          "transliteration": "yasyAH prabhAvamatulaM bhagavAnananto brahmA harashcha na hi vaktumalaM balaM cha | sA chaNDikAkhilajagatparipAlanAya nAshAya chAshubhabhayasya matiM karotu"
+          "transliteration": "yasyAH prabhAvamatulaM bhagavAnananto brahmA harashcha na hi vaktumalaM balaM cha | sA chaNDikAkhilajagatparipAlanAya nAshAya chAshubhabhayasya matiM karotu",
+          "translation": "O auspiciousness of all that is auspicious, O Shiva (the benevolent), O accomplisher of all purposes, O refuge, O three-eyed one, O Gauri, O Narayani — salutations to you.",
+          "hindi": "हे सब मंगलों की मंगलरूपे! हे शिवे! हे सम्पूर्ण अर्थों की साधिके! हे शरण देने वाली! हे त्र्यम्बके! हे गौरि! हे नारायणि! तुम्हें नमस्कार है।",
+          "wordMeaning": "The opening verse of the Shakradi Stuti — the most beloved daily prayer of the Shakta tradition. Eight names, each revealing a different face of the same reality: Mangala (all good), Shiva (benevolent), Sarvarthasadhike (the one who accomplishes all purposes), Sharanye (the refuge), Tryambake (the three-eyed), Gauri (the luminous), Narayani (the energy of Narayana). The Devi is simultaneously gentle and all-powerful; she is the refuge and the force. This prayer teaches the paradox at the heart of Shakti: absolute power held in absolute tenderness.",
+          "commentary": "The opening verse of the Shakradi Stuti — the most beloved daily prayer of the Shakta tradition. Eight names, each revealing a different face of the same reality: Mangala (all good), Shiva (benevolent), Sarvarthasadhike (the one who accomplishes all purposes), Sharanye (the refuge), Tryambake (the three-eyed), Gauri (the luminous), Narayani (the energy of Narayana). The Devi is simultaneously gentle and all-powerful; she is the refuge and the force. This prayer teaches the paradox at the heart of Shakti: absolute power held in absolute tenderness."
         },
         {
           "number": "4.5",
@@ -1903,21 +1355,21 @@
           "sanskrit": "रक्षणाय च लोकानां देवानामुपकारिणी । तच्छृणुष्व मयाख्यातं यथावत्कथयामि ते",
           "transliteration": "rakShaNAya cha lokAnAM devAnAmupakAriNI | tachChR^iNuShva mayAkhyAtaM yathAvatkathayAmi te"
         }
-      ]
+      ],
+      "titleSanskrit": "चतुर्थ अध्याय — शक्रादि स्तुति"
     },
     {
       "number": 5,
       "title": "Chapter 5 — Shumbha-Nishumbha Katha",
       "verses": [
         {
-          "number": 259,
-          "sanskrit": "उवाच ५, अर्धश्लोकौ २, श्लोकाः ३५, एवमादितः",
-          "transliteration": "uvAcha 5, ardhashlokau 2, shlokAH 35, evamAditaH"
-        },
-        {
           "number": "5.1",
-          "sanskrit": "॥ ५. देव्या दूतसंवादो नाम पञ्चमोऽध्यायः ॥ विनियोगः अस्य श्री उत्तरचरित्रस्य रुद्र ऋषिः । श्रीमहासरस्वती देवता । अनुष्टुप् छन्दः । भीमा शक्तिः । भ्रामरी बीजम् । सूर्यस्तत्त्वम् । सामवेदः स्वरूपम् । श्रीमहासरस्वतीप्रीत्यर्थे उत्तरचरित्रपाठे विनियोगः । । ध्यानम् । घण्टाशूलहलानि शङ्खमुसले चक्रं धनुः सायकं हस्ताब्जैर्दधतीं घनान्तविलसच्छीतांशुतुल्यप्रभाम् । गौरीदेहसमुद्भवां त्रिजगतामाधारभूतां महा- पूर्वामत्र सरस्वतीमनुभजे शुम्भादिदैत्यार्दिनीम् ॥ ॐ क्लीं ऋषिरुवाच",
-          "transliteration": "|| 5\\. devyA dUtasaMvAdo nAma pa~nchamo.adhyAyaH || viniyogaH asya shrI uttaracharitrasya rudra R^iShiH | shrImahAsarasvatI devatA | anuShTup ChandaH | bhImA shaktiH | bhrAmarI bIjam | sUryastattvam | sAmavedaH svarUpam | shrImahAsarasvatIprItyarthe uttaracharitrapAThe viniyogaH | . dhyAnam | ghaNTAshUlahalAni sha~Nkhamusale chakraM dhanuH sAyakaM hastAbjairdadhatIM ghanAntavilasachChItAMshutulyaprabhAm | gaurIdehasamudbhavAM trijagatAmAdhArabhUtAM mahA\\- pUrvAmatra sarasvatImanubhaje shumbhAdidaityArdinIm || OM klIM R^iShiruvAcha"
+          "sanskrit": "ॐ क्लीं ऋषिरुवाच",
+          "transliteration": "OM klIM R^iShiruvAcha",
+          "translation": "Then suddenly, from the frowning forehead-plate of the Goddess, Kali — of terrifying face, bearing sword and noose — sprang forth.",
+          "hindi": "तब उसके भ्रू-कुटी के मंडल से सहसा काली निकलीं — विकराल मुख वाली, खड्ग और पाश धारण करने वाली।",
+          "wordMeaning": "One of the most powerful passages in the Devi Mahatmyam. When the Mother's gentleness is met with cruelty, she does not become weak. From her own furrowed brow — from her concentrated awareness — Kali emerges. Kali is not \"another goddess\" but the Mother's own fierce face. The lesson: love itself, when threatened, has a fierce mode. The compassion that allows everything is not the same as the compassion that ALLOWS injustice. Real compassion has teeth.",
+          "commentary": "One of the most powerful passages in the Devi Mahatmyam. When the Mother's gentleness is met with cruelty, she does not become weak. From her own furrowed brow — from her concentrated awareness — Kali emerges. Kali is not \"another goddess\" but the Mother's own fierce face. The lesson: love itself, when threatened, has a fierce mode. The compassion that allows everything is not the same as the compassion that ALLOWS injustice. Real compassion has teeth."
         },
         {
           "number": "5.2",
@@ -2229,21 +1681,17 @@
           "sanskrit": "स त्वं गच्छ मयोक्तं ते यदेतत्सर्वमादृतः । तदाचक्ष्वासुरेन्द्राय स च युक्तं करोतु यत्",
           "transliteration": "sa tvaM gachCha mayoktaM te yadetatsarvamAdR^itaH | tadAchakShvAsurendrAya sa cha yuktaM karotu yat"
         }
-      ]
+      ],
+      "titleSanskrit": "पञ्चम अध्याय — चण्ड-मुण्ड वध"
     },
     {
       "number": 6,
       "title": "Chapter 6 — Dhumralochana Vadha",
       "verses": [
         {
-          "number": 388,
-          "sanskrit": "उवाच ९, त्रिपान्मन्त्राः ६६, श्लोकाः ५४, एवमादितः",
-          "transliteration": "uvAcha 9, tripAnmantrAH 66, shlokAH 54, evamAditaH"
-        },
-        {
           "number": "6.1",
-          "sanskrit": "॥ ६. शुम्भनिशुम्भसेनानीधूम्रलोचनवधो नाम षष्ठोऽध्यायः ॥ । ध्यानम् । ॐ नागाधीश्वरविष्टरां फणिफणोत्तंसोरु रत्नावली- भास्वद्देहलतां दिवाकरनिभां नेत्रत्रयोद्भासिताम् । मालाकुम्भकपालनीरजकरां चन्द्रार्धचूडां परां सर्वज्ञेश्वरभैरवाङ्गनिलयां पद्मावतीं चिन्तये ॥ ॐ ऋषिरुवाच",
-          "transliteration": "|| 6\\. shumbhanishumbhasenAnIdhUmralochanavadho nAma ShaShTho.adhyAyaH || . dhyAnam | OM nAgAdhIshvaraviShTarAM phaNiphaNottaMsoru ratnAvalI- bhAsvaddehalatAM divAkaranibhAM netratrayodbhAsitAm | mAlAkumbhakapAlanIrajakarAM chandrArdhachUDAM parAM sarvaj~neshvarabhairavA~NganilayAM padmAvatIM chintaye || OM R^iShiruvAcha"
+          "sanskrit": "ॐ ऋषिरुवाच",
+          "transliteration": "OM R^iShiruvAcha"
         },
         {
           "number": "6.2",
@@ -2323,7 +1771,11 @@
         {
           "number": "6.17",
           "sanskrit": "केषाञ्चित्पाटयामास नखैः कोष्ठानि केसरी । तथा तलप्रहारेण शिरांसि कृतवान्पृथक्",
-          "transliteration": "keShA~nchitpATayAmAsa nakhaiH koShThAni kesarI | tathA talaprahAreNa shirAMsi kR^itavAnpR^ithak"
+          "transliteration": "keShA~nchitpATayAmAsa nakhaiH koShThAni kesarI | tathA talaprahAreNa shirAMsi kR^itavAnpR^ithak",
+          "translation": "With a single humkāra she reduced that demon to ashes. Her lion terrified his attendants and his army of clouds.",
+          "hindi": "देवी ने एक हुंकार से ही उस दैत्य को भस्म कर दिया। और सिंह ने उसके साथियों और सेना को भयभीत किया।",
+          "wordMeaning": "Dhumralochana — \"smoke-eyed\" — is the demon who cannot see clearly; the principle of vision obscured by the smoke of passion, pride, and desire. One \"humkara\" — a single vibration of concentrated divine power — destroys him entirely. The teaching: clarity of perception, powerfully directed, dissolves the demons of confusion. You do not argue with obscured vision; you dispel it with a single act of radical attention.",
+          "commentary": "Dhumralochana — \"smoke-eyed\" — is the demon who cannot see clearly; the principle of vision obscured by the smoke of passion, pride, and desire. One \"humkara\" — a single vibration of concentrated divine power — destroys him entirely. The teaching: clarity of perception, powerfully directed, dissolves the demons of confusion. You do not argue with obscured vision; you dispel it with a single act of radical attention."
         },
         {
           "number": "6.18",
@@ -2360,21 +1812,17 @@
           "sanskrit": "तस्यां हतायां दुष्टायां सिंहे च विनिपातिते । शीघ्रमागम्यतां बद्ध्वा गृहीत्वा तामथाम्बिकाम्",
           "transliteration": "tasyAM hatAyAM duShTAyAM siMhe cha vinipAtite | shIghramAgamyatAM baddhvA gR^ihItvA tAmathAmbikAm"
         }
-      ]
+      ],
+      "titleSanskrit": "षष्ठ अध्याय"
     },
     {
       "number": 7,
       "title": "Chapter 7 — Chanda-Munda Vadha",
       "verses": [
         {
-          "number": 412,
-          "sanskrit": "उवाच ४, श्लोकाः २४, एवमादितः",
-          "transliteration": "uvAcha 4, shlokAH 24, evamAditaH"
-        },
-        {
           "number": "7.1",
-          "sanskrit": "॥ ७. चण्डमुण्डवधो नाम सप्तमोऽध्यायः ॥ । ध्यानम् । ॐ ध्यायेयं रत्नपीठे शुककलपठितं शृण्वतीं श्यामलाङ्गीं न्यस्तैकांघ्रिं सरोजे शशिशकलधरां वल्लकीं वादयन्तीम् । कल्हाराबद्धमालां नियमितविलसच्चोलिकां रत्नवस्त्रां मातङ्गी शङ्कपात्रां मधुरमधुमदां चित्रकोद्भासिभालाम् ॥ ॐ ऋषिरुवाच",
-          "transliteration": "|| 7\\. chaNDamuNDavadho nAma saptamo.adhyAyaH || . dhyAnam | OM dhyAyeyaM ratnapIThe shukakalapaThitaM shRRiNvatIM shyAmalA~NgIM nyastaikAMghriM saroje shashishakaladharAM vallakIM vAdayantIm | kalhArAbaddhamAlAM niyamitavilasachcholikAM ratnavastrAM mAta~NgI sha~NkapAtrAM madhuramadhumadAM chitrakodbhAsibhAlAm || OM R^iShiruvAcha"
+          "sanskrit": "ॐ ऋषिरुवाच",
+          "transliteration": "OM R^iShiruvAcha"
         },
         {
           "number": "7.2",
@@ -2479,7 +1927,11 @@
         {
           "number": "7.22",
           "sanskrit": "हतशेषं ततः सैन्यं दृष्ट्वा चण्डं निपातितम् । मुण्डं च सुमहावीर्यं दिशो भेजे भयातुरम्",
-          "transliteration": "hatasheShaM tataH sainyaM dR^iShTvA chaNDaM nipAtitam | muNDaM cha sumahAvIryaM disho bheje bhayAturam"
+          "transliteration": "hatasheShaM tataH sainyaM dR^iShTvA chaNDaM nipAtitam | muNDaM cha sumahAvIryaM disho bheje bhayAturam",
+          "translation": "Taking hold of Chanda and Munda, the Goddess Chandika then proclaimed her greatness with a fierce, resounding laugh.",
+          "hindi": "चण्ड और मुण्ड को पकड़कर, देवी चण्डिका ने तब प्रचण्ड अट्टहास के साथ अपना उत्तम माहात्म्य प्रकट किया।",
+          "wordMeaning": "Chanda (\"passion\") and Munda (\"stubbornness\") are the two most insidious inner enemies — not because they are powerful but because they disguise themselves as virtues: passion masquerades as enthusiasm, stubbornness as conviction. Kali's laughter as she presents them to the Mother is significant: the fierce energy laughs at what seemed so formidable. What once held you in terror becomes, to the awakened one, almost comic in its pretension.",
+          "commentary": "Chanda (\"passion\") and Munda (\"stubbornness\") are the two most insidious inner enemies — not because they are powerful but because they disguise themselves as virtues: passion masquerades as enthusiasm, stubbornness as conviction. Kali's laughter as she presents them to the Mother is significant: the fierce energy laughs at what seemed so formidable. What once held you in terror becomes, to the awakened one, almost comic in its pretension."
         },
         {
           "number": "7.23",
@@ -2506,21 +1958,17 @@
           "sanskrit": "यस्माच्चण्डं च मुण्डं च गृहीत्वा त्वमुपागता । चामुण्डेति ततो लोके ख्याता देवी भविष्यसि",
           "transliteration": "yasmAchchaNDaM cha muNDaM cha gR^ihItvA tvamupAgatA | chAmuNDeti tato loke khyAtA devI bhaviShyasi"
         }
-      ]
+      ],
+      "titleSanskrit": "सप्तम अध्याय"
     },
     {
       "number": 8,
       "title": "Chapter 8 — Raktabija Vadha",
       "verses": [
         {
-          "number": 439,
-          "sanskrit": "उवाच २, श्लोकाः २५, एवमादितः",
-          "transliteration": "uvAcha 2, shlokAH 25, evamAditaH"
-        },
-        {
           "number": "8.1",
-          "sanskrit": "॥ ८. रक्तबीजवधो नामाष्टमोऽध्यायः ॥ । ध्यानम् । ॐ अरुणां करुणातरङ्गिताक्षीं धृतपाशाङ्कुशबाणाचापहस्ताम् । अणिमादिभिरावृतां मयूखै- रहमित्येव विभावये भवानीम् ॥ ॐ ऋषिरुवाच",
-          "transliteration": "|| 8\\. raktabIjavadho nAmAShTamo.adhyAyaH || . dhyAnam | OM aruNAM karuNAtara~NgitAkShIM dhRRitapAshA~NkushabANAchApahastAm | aNimAdibhirAvRRitAM mayUkhai\\- rahamityeva vibhAvaye bhavAnIm || OM R^iShiruvAcha"
+          "sanskrit": "ॐ ऋषिरुवाच",
+          "transliteration": "OM R^iShiruvAcha"
         },
         {
           "number": "8.2",
@@ -2815,7 +2263,11 @@
         {
           "number": "8.60",
           "sanskrit": "तांश्चखादाथ चामुण्डा पपौ तस्य च शोणितम् । देवी शूलेन वज्रेण बाणैरसिभिरृष्टिभिः",
-          "transliteration": "tAMshchakhAdAtha chAmuNDA papau tasya cha shoNitam | devI shUlena vajreNa bANairasibhirR^iShTibhiH"
+          "transliteration": "tAMshchakhAdAtha chAmuNDA papau tasya cha shoNitam | devI shUlena vajreNa bANairasibhirR^iShTibhiH",
+          "translation": "As fast as a drop of blood from Raktabija fell to the earth, there arose demons of great power equal to him in size.",
+          "hindi": "रक्तबीज का जितना रक्त पृथ्वी पर गिरता, उतने ही उसके समान महाबलशाली महादानव उत्पन्न हो जाते।",
+          "wordMeaning": "Raktabija — \"blood-seed\" — is the most psychologically sophisticated demon in the Saptashati. Every drop of his blood becomes a new demon equal in power to him. He cannot be killed by ordinary combat; fighting him directly multiplies him. He represents self-replicating thought patterns: the more you battle certain kinds of anxiety, craving, or obsession head-on, the more they proliferate. The solution is Kali — who opens her vast mouth and drinks the blood before it can touch the ground. The teaching: intercept the pattern at its source, before it takes root.",
+          "commentary": "Raktabija — \"blood-seed\" — is the most psychologically sophisticated demon in the Saptashati. Every drop of his blood becomes a new demon equal in power to him. He cannot be killed by ordinary combat; fighting him directly multiplies him. He represents self-replicating thought patterns: the more you battle certain kinds of anxiety, craving, or obsession head-on, the more they proliferate. The solution is Kali — who opens her vast mouth and drinks the blood before it can touch the ground. The teaching: intercept the pattern at its source, before it takes root."
         },
         {
           "number": "8.61",
@@ -2832,21 +2284,17 @@
           "sanskrit": "तेषां मातृगणो जातो ननर्तासृङ्मदोद्धतः",
           "transliteration": "teShAM mAtR^igaNo jAto nanartAsR^i~NmadoddhataH"
         }
-      ]
+      ],
+      "titleSanskrit": "अष्टम अध्याय"
     },
     {
       "number": 9,
       "title": "Chapter 9 — Nishumbha Vadha",
       "verses": [
         {
-          "number": 502,
-          "sanskrit": "उवाच १, अर्धश्लोकः १, श्लोकाः ६१, एवमादितः",
-          "transliteration": "uvAcha 1, ardhashlokaH 1, shlokAH 61, evamAditaH"
-        },
-        {
           "number": "9.1",
-          "sanskrit": "॥ ९. निशुम्भवधो नाम नवमोऽध्यायः ॥ । ध्यानम् । ॐ बन्धूककाञ्चननिभं रुचिराक्षमालां पाशाङ्कुशौ च वरदां निजबाहुदण्डैः । बिभ्राणमिन्दुशकलाभरणं त्रिनेत्र- मर्धांबिकेशमनिशं वपुराश्रयामि ॥ ॐ राजोवाच",
-          "transliteration": "|| 9\\. nishumbhavadho nAma navamo.adhyAyaH || . dhyAnam | OM bandhUkakA~nchananibhaM ruchirAkShamAlAM pAshA~Nkushau cha varadAM nijabAhudaNDaiH | bibhrANamindushakalAbharaNaM trinetra\\- mardhAMbikeshamanishaM vapurAshrayAmi || OM rAjovAcha"
+          "sanskrit": "ॐ राजोवाच",
+          "transliteration": "OM rAjovAcha"
         },
         {
           "number": "9.2",
@@ -2911,7 +2359,11 @@
         {
           "number": "9.14",
           "sanskrit": "कोपाध्मातो निशुम्भोऽथ शूलं जग्राह दानवः । आयातं मुष्टिपातेन देवी तच्चाप्यचूर्णयत्",
-          "transliteration": "kopAdhmAto nishumbho.atha shUlaM jagrAha dAnavaH | AyAtaM muShTipAtena devI tachchApyachUrNayat"
+          "transliteration": "kopAdhmAto nishumbho.atha shUlaM jagrAha dAnavaH | AyAtaM muShTipAtena devI tachchApyachUrNayat",
+          "translation": "Seeing Nishumbha — his brother, dear as his own life — slain, and his army being destroyed, Shumbha spoke in fury.",
+          "hindi": "अपने प्राण-प्रिय भाई निशुम्भ को मारा हुआ देखकर, और सेना के नष्ट होते देखकर, शुम्भ क्रोध में बोला।",
+          "wordMeaning": "Shumbha and Nishumbha — pride and the ego's shadow — are twin demons, inseparable. When Nishumbha falls (the ego's outer defences collapse), Shumbha's fury intensifies — the last desperate assertion of the self that will not yield. This moment of escalating rage just before the final defeat is psychologically precise. In any genuine transformation, the pattern that is about to end often makes one final, most intense appearance.",
+          "commentary": "Shumbha and Nishumbha — pride and the ego's shadow — are twin demons, inseparable. When Nishumbha falls (the ego's outer defences collapse), Shumbha's fury intensifies — the last desperate assertion of the self that will not yield. This moment of escalating rage just before the final defeat is psychologically precise. In any genuine transformation, the pattern that is about to end often makes one final, most intense appearance."
         },
         {
           "number": "9.15",
@@ -3048,21 +2500,17 @@
           "sanskrit": "केचिद्विनेशुरसुराः केचिन्नष्टा महाहवात् । भक्षिताश्चापरे कालीशिवदूतीमृगाधिपैः",
           "transliteration": "kechidvineshurasurAH kechinnaShTA mahAhavAt | bhakShitAshchApare kAlIshivadUtImR^igAdhipaiH"
         }
-      ]
+      ],
+      "titleSanskrit": "नवम अध्याय"
     },
     {
       "number": 10,
       "title": "Chapter 10 — Shumbha Vadha",
       "verses": [
         {
-          "number": 543,
-          "sanskrit": "उवाच २, अर्धश्लोकाः ३९, श्लोकाः ४१, एवमादितः",
-          "transliteration": "uvAcha 2, ardhashlokAH 39, shlokAH 41, evamAditaH"
-        },
-        {
           "number": "10.1",
-          "sanskrit": "॥ १०. शुम्भवधो नाम दशमोऽध्यायः ॥ । ध्यानम् । ॐ उत्तप्तहेमरुचिरां रविचन्द्रवह्नि- नेत्रां धनुश्शरयुताङ्कुशपाशशूलम् । रम्यैर्भुजैश्च दधतीं शिवशक्तिरूपां कामेश्वरीं हृदि भजामि धृतेन्दुलेखाम् ॥ ॐ ऋषिरुवाच",
-          "transliteration": "|| 10\\. shumbhavadho nAma dashamo.adhyAyaH || . dhyAnam | OM uttaptahemaruchirAM ravichandravahni\\- netrAM dhanushsharayutA~NkushapAshashUlam | ramyairbhujaishcha dadhatIM shivashaktirUpAM kAmeshvarIM hRRidi bhajAmi dhRRitendulekhAm || OM R^iShiruvAcha"
+          "sanskrit": "ॐ ऋषिरुवाच",
+          "transliteration": "OM R^iShiruvAcha"
         },
         {
           "number": "10.2",
@@ -3207,7 +2655,11 @@
         {
           "number": "10.30",
           "sanskrit": "ततो देवगणाः सर्वे हर्षनिर्भरमानसाः । बभूवुर्निहते तस्मिन् गन्धर्वा ललितं जगुः",
-          "transliteration": "tato devagaNAH sarve harShanirbharamAnasAH | babhUvurnihate tasmin gandharvA lalitaM jaguH"
+          "transliteration": "tato devagaNAH sarve harShanirbharamAnasAH | babhUvurnihate tasmin gandharvA lalitaM jaguH",
+          "translation": "I alone exist in this world — what second is there besides me? O wicked one, see — these my powers are now entering back into me alone.",
+          "hindi": "इस जगत में केवल मैं ही हूँ — मेरे अतिरिक्त दूसरा कौन है? हे दुष्ट! देख, ये मेरी सभी शक्तियाँ मुझमें ही समा रही हैं।",
+          "wordMeaning": "The Devi's final, definitive statement before slaying Shumbha: \"I alone exist.\" This is not arrogance — it is the highest metaphysics. All the forms that emerged to fight — Kali, the Matrikas, all the manifestations — now dissolve back into the one Devi. Multiplicity returns to unity. The many faces were always one face. Shumbha, who believed in his own separate sovereignty, is about to meet the one reality from which nothing is ultimately separate.",
+          "commentary": "The Devi's final, definitive statement before slaying Shumbha: \"I alone exist.\" This is not arrogance — it is the highest metaphysics. All the forms that emerged to fight — Kali, the Matrikas, all the manifestations — now dissolve back into the one Devi. Multiplicity returns to unity. The many faces were always one face. Shumbha, who believed in his own separate sovereignty, is about to meet the one reality from which nothing is ultimately separate."
         },
         {
           "number": "10.31",
@@ -3219,7 +2671,8 @@
           "sanskrit": "जज्वलुश्चाग्नयः शान्ताः शान्ता दिग्जनितस्वनाः",
           "transliteration": "jajvalushchAgnayaH shAntAH shAntA digjanitasvanAH"
         }
-      ]
+      ],
+      "titleSanskrit": "दशम अध्याय"
     },
     {
       "number": 11,
@@ -3227,8 +2680,8 @@
       "verses": [
         {
           "number": "11.1",
-          "sanskrit": "॥ नारायणीस्तुतिर्नामैकादशोऽध्यायः ॥ । ध्यानम् । ॐ बालरविद्युतिमिन्दुकिरीटां तुङ्गकुचां नयनत्रययुक्ताम् । स्मेरमुखीं वरदाङ्कुशपाशाभीतिकरां प्रभजे भुवनेशीम् ॥ ॐ ऋषिरुवाच",
-          "transliteration": "|| nArAyaNIstutirnAmaikAdasho.adhyAyaH || . dhyAnam | OM bAlaravidyutimindukirITAM tu~NgakuchAM nayanatrayayuktAm | smeramukhIM varadA~NkushapAshAbhItikarAM prabhaje bhuvaneshIm || OM R^iShiruvAcha"
+          "sanskrit": "ॐ ऋषिरुवाच",
+          "transliteration": "OM R^iShiruvAcha"
         },
         {
           "number": "11.2",
@@ -3238,7 +2691,11 @@
         {
           "number": "11.3",
           "sanskrit": "देवि प्रपन्नार्तिहरे प्रसीद प्रसीद मातर्जगतोऽखिलस्य । प्रसीद विश्वेश्वरि पाहि विश्वं त्वमीश्वरी देवि चराचरस्य",
-          "transliteration": "devi prapannArtihare prasIda prasIda mAtarjagato.akhilasya | prasIda vishveshvari pAhi vishvaM tvamIshvarI devi charAcharasya"
+          "transliteration": "devi prapannArtihare prasIda prasIda mAtarjagato.akhilasya | prasIda vishveshvari pAhi vishvaM tvamIshvarI devi charAcharasya",
+          "translation": "In this manner, whenever there shall be trouble arising from the demonic forces, I shall descend each time and destroy the enemies.",
+          "hindi": "इस प्रकार जब-जब भी दैत्यों से उत्पन्न बाधा होगी, तब-तब मैं अवतरित होकर शत्रुओं का संहार करूँगी।",
+          "wordMeaning": "The Devi makes the same promise as Krishna in the Bhagavad Gita (Chapter 4) — repeated manifestation to restore balance when evil overwhelms good. The feminine version of this promise is distinctive: it is not the warrior-king archetype but the protective mother who descends when her children are threatened. The Shakta tradition understands the divine not as distant justice but as immediate, maternal protection.",
+          "commentary": "The Devi makes the same promise as Krishna in the Bhagavad Gita (Chapter 4) — repeated manifestation to restore balance when evil overwhelms good. The feminine version of this promise is distinctive: it is not the warrior-king archetype but the protective mother who descends when her children are threatened. The Shakta tradition understands the divine not as distant justice but as immediate, maternal protection."
         },
         {
           "number": "11.4",
@@ -3253,7 +2710,11 @@
         {
           "number": "11.6",
           "sanskrit": "विद्याः समस्तास्तव देवि भेदाः स्त्रियः समस्ताः सकला जगत्सु । त्वयैकया पूरितमम्बयैतत् का ते स्तुतिः स्तव्यपरापरोक्तिः",
-          "transliteration": "vidyAH samastAstava devi bhedAH striyaH samastAH sakalA jagatsu | tvayaikayA pUritamambayaitat kA te stutiH stavyaparAparoktiH"
+          "transliteration": "vidyAH samastAstava devi bhedAH striyaH samastAH sakalA jagatsu | tvayaikayA pUritamambayaitat kA te stutiH stavyaparAparoktiH",
+          "translation": "Salutations again and again to the Devi who dwells in all beings in the form of power (shakti).",
+          "hindi": "जो देवी सभी प्राणियों में शक्ति-रूप में स्थित हैं, उन्हें बार-बार नमस्कार है। नमस्तस्यै, नमस्तस्यै, नमस्तस्यै, नमो नमः।",
+          "wordMeaning": "This is the most famous verse of the Durga Saptashati — repeated as a refrain nine times with different attributes: as consciousness, as sleep, as hunger, as memory, as mercy, as matter, as power, as peace, as faith. Each verse declares that the same divine feminine power dwells in all beings in a different form. Nothing in existence is excluded from the presence of the Goddess.",
+          "commentary": "This is the most famous verse of the Durga Saptashati — repeated as a refrain nine times with different attributes: as consciousness, as sleep, as hunger, as memory, as mercy, as matter, as power, as peace, as faith. Each verse declares that the same divine feminine power dwells in all beings in a different form. Nothing in existence is excluded from the presence of the Goddess."
         },
         {
           "number": "11.7",
@@ -3500,21 +2961,17 @@
           "sanskrit": "तदा तदावतीर्याहं करिष्याम्यरिसङ्क्षयम्",
           "transliteration": "tadA tadAvatIryAhaM kariShyAmyarisa~NkShayam"
         }
-      ]
+      ],
+      "titleSanskrit": "एकादश अध्याय"
     },
     {
       "number": 12,
       "title": "Chapter 12 — Phala Stuti",
       "verses": [
         {
-          "number": 630,
-          "sanskrit": "उवाच ४, अर्धश्लोकः १, श्लोकाः ५०, एवमादितः",
-          "transliteration": "uvAcha 4, ardhashlokaH 1, shlokAH 50, evamAditaH"
-        },
-        {
           "number": "12.1",
-          "sanskrit": "॥ १२. भगवती वाक्यं द्वादशोऽध्यायः ॥ । ध्यानम् । ॐ विद्युद्धामसमप्रभां मृगपतिस्कन्धस्थितां भीषणां कन्याभिः करवाळखेटविलसधस्ताभिरासेविताम् । हस्तैश्चक्रगदासिखेटविशिखांश्चापं गुणं तर्जनीं बिभ्राणामनलात्मिकां शशिधरां दुर्गां त्रिनेत्रां भजे ॥ ॐ देव्युवाच",
-          "transliteration": "|| 12\\. bhagavatI vAkyaM dvAdasho.adhyAyaH || . dhyAnam | OM vidyuddhAmasamaprabhAM mRRigapatiskandhasthitAM bhIShaNAM kanyAbhiH karavALakheTavilasadhastAbhirAsevitAm | hastaishchakragadAsikheTavishikhAMshchApaM guNaM tarjanIM bibhrANAmanalAtmikAM shashidharAM durgAM trinetrAM bhaje || OM devyuvAcha"
+          "sanskrit": "ॐ देव्युवाच",
+          "transliteration": "OM devyuvAcha"
         },
         {
           "number": "12.2",
@@ -3569,7 +3026,11 @@
         {
           "number": "12.12",
           "sanskrit": "शरत्काले महापूजा क्रियते या च वार्षिकी । तस्यां ममैतन्माहात्म्यं श्रुत्वा भक्तिसमन्वितः",
-          "transliteration": "sharatkAle mahApUjA kriyate yA cha vArShikI | tasyAM mamaitanmAhAtmyaM shrutvA bhaktisamanvitaH"
+          "transliteration": "sharatkAle mahApUjA kriyate yA cha vArShikI | tasyAM mamaitanmAhAtmyaM shrutvA bhaktisamanvitaH",
+          "translation": "For the destruction of evil-doers, out of the desire for the good of the people and for the establishment of dharma — I appear age after age.",
+          "hindi": "दुष्कर्मियों के विनाश के लिए, जनहित की कामना से, और धर्म की स्थापना के लिए — मैं युग-युग में प्रकट होती हूँ।",
+          "wordMeaning": "The Devi's own version of the Gita's great promise — with a distinctive feminine emphasis: \"hitakāmyayā\" — out of the desire for the welfare and good of beings. The Goddess does not descend primarily as judge or warrior; she descends out of love, out of the wish for beings to be well. Every fierce manifestation of the Devi — every battle in the Saptashati — is therefore an act of motherly care, not punishment. The entire scripture is a love story disguised as a war story.",
+          "commentary": "The Devi's own version of the Gita's great promise — with a distinctive feminine emphasis: \"hitakāmyayā\" — out of the desire for the welfare and good of beings. The Goddess does not descend primarily as judge or warrior; she descends out of love, out of the wish for beings to be well. Every fierce manifestation of the Devi — every battle in the Saptashati — is therefore an act of motherly care, not punishment. The entire scripture is a love story disguised as a war story."
         },
         {
           "number": "12.13",
@@ -3716,21 +3177,17 @@
           "sanskrit": "स्तुता सम्पूजिता पुष्पैर्गन्धधूपादिभिस्तथा । ददाति वित्तं पुत्रांश्च मतिं धर्मे गतिं शुभाम्",
           "transliteration": "stutA sampUjitA puShpairgandhadhUpAdibhistathA | dadAti vittaM putrAMshcha matiM dharme gatiM shubhAm"
         }
-      ]
+      ],
+      "titleSanskrit": "द्वादश अध्याय"
     },
     {
       "number": 13,
       "title": "Chapter 13 — Suratha and Samadhi Receive Boons",
       "verses": [
         {
-          "number": 671,
-          "sanskrit": "उवाच २, अर्धश्लोकौ २, श्लोकाः ३७, एवमादितः",
-          "transliteration": "uvAcha 2, ardhashlokau 2, shlokAH 37, evamAditaH"
-        },
-        {
           "number": "13.1",
-          "sanskrit": "॥ १३. सुरथवैश्ययोर्वरप्रदानं नाम त्रयोदशोऽध्यायः ॥ । ध्यानम् । ॐ बालार्कमण्डलाभासां चतुर्बाहुं त्रिलोचनाम् । पाशाङ्कुशवराभीतिर्धारयन्तीं शिवां भजे ॥ ॐ ऋषिरुवाच",
-          "transliteration": "|| 13\\. surathavaishyayorvarapradAnaM nAma trayodasho.adhyAyaH || . dhyAnam | OM bAlArkamaNDalAbhAsAM chaturbAhuM trilochanAm | pAshA~NkushavarAbhItirdhArayantIM shivAM bhaje || OM R^iShiruvAcha"
+          "sanskrit": "ॐ ऋषिरुवाच",
+          "transliteration": "OM R^iShiruvAcha"
         },
         {
           "number": "13.2",
@@ -3860,7 +3317,11 @@
         {
           "number": "13.27",
           "sanskrit": "इति दत्त्वा तयोर्देवी यथाभिलषितं वरम्",
-          "transliteration": "iti dattvA tayordevI yathAbhilaShitaM varam"
+          "transliteration": "iti dattvA tayordevI yathAbhilaShitaM varam",
+          "translation": "Thus has been told to you, O king, this most excellent Devi Mahatmyam. Such is the power of that Goddess by whom this world is sustained.",
+          "hindi": "हे राजन्! यह सर्वोत्तम देवीमाहात्म्य तुम्हें सुनाया गया। यही शक्ति उस देवी की है, जिसके द्वारा यह जगत धारण किया जाता है।",
+          "wordMeaning": "Sage Medhas concludes the entire Saptashati with this verse: the power by which the world is sustained (dharana) is the Devi's power. Not merely the power by which demons are slain — but the continuous sustaining power that holds the universe together from moment to moment. This is the Saptashati's final and deepest teaching: the Goddess is not an episode in cosmic history but the ongoing ground of existence itself.",
+          "commentary": "Sage Medhas concludes the entire Saptashati with this verse: the power by which the world is sustained (dharana) is the Devi's power. Not merely the power by which demons are slain — but the continuous sustaining power that holds the universe together from moment to moment. This is the Saptashati's final and deepest teaching: the Goddess is not an episode in cosmic history but the ongoing ground of existence itself."
         },
         {
           "number": "13.28",
@@ -3871,13 +3332,9 @@
           "number": "13.29",
           "sanskrit": "सूर्याज्जन्म समासाद्य सावर्णिर्भविता मनुः",
           "transliteration": "sUryAjjanma samAsAdya sAvarNirbhavitA manuH"
-        },
-        {
-          "number": 0,
-          "sanskrit": "एवं देव्या वरं लब्ध्वा सुरथः क्षत्रियर्षभः । सूर्याज्जन्म समासाद्य सावर्णिर्भविता मनुः ॥ क्लीं ॐ",
-          "transliteration": "evaM devyA varaM labdhvA surathaH kShatriyarShabhaH | sUryAjjanma samAsAdya sAvarNirbhavitA manuH || klIM OM"
         }
-      ]
+      ],
+      "titleSanskrit": "त्रयोदश अध्याय"
     }
   ]
 }
