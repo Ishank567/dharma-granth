@@ -22,7 +22,9 @@
     "seed:gretil": "tsx scripts/seed-gretil.ts",
     "seed:all": "npm run seed:gita && npm run seed:ramayana && npm run seed:ramcharitmanas && npm run seed:vedas && npm run seed:upanishads && npm run seed:mahabharata && npm run seed:puranas && npm run seed:missing && npm run seed:gretil",
     "og:build": "tsx scripts/generate-og-images.ts",
-    "check": "tsx scripts/check-data.ts"
+    "check": "tsx scripts/check-data.ts",
+    "migrate:devanagari": "tsx scripts/migrate-romanize-to-devanagari.ts",
+    "test:parser": "tsx scripts/test-itrans-parser.ts"
   },
   "dependencies": {
     "@fontsource/inter": "^5.2.8",

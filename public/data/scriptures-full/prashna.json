@@ -8,18 +8,13 @@
     "license": "Sanskrit mūla — public domain (2500+ years old). sanskritdocuments.org publishes digitized text under permissive terms.",
     "fetchedAt": "2026-06-02T08:28:55.436Z"
   },
-  "totalVerses": 67,
+  "totalVerses": 66,
   "totalChapters": 6,
   "chapters": [
     {
       "number": 1,
       "title": "Praśna 1",
       "verses": [
-        {
-          "number": "1.1",
-          "sanskrit": "॥ Pरश्न ऊपनिशद् ॥ .. prashnopaniShat ..eन्द्तित्लेस् OM bhadraM karNebhiH shR^iNuyAma devA bhadraM pashyemAkShabhiryajatrAH | sthiraira~NgaistuShtuvA.NsastanUbhirvyashema devahitaM yadAyuH || svasti na indro vR^iddhashravAH svasti naH pUShA vishvavedAH | svasti nastArkShyo ariShTanemiH svasti no bR^ihaspatirdadhAtu || OM shAntiH shAntiH shAntiH || prathamaH prashnaH | OM sukeshA cha bhAradvAjaH shaibyashcha satyakAmaH sauryAyaNI cha gArgyaH kausalyashchAshvalAyano bhArgavo vaidarbhiH kabandhI kAtyAyanaste haite brahmaparA brahmaniShThAH paraM brahmAnveShamANA eSha ha vai tatsarvaM vakShyatIti te ha samitpANayo bhagavantaM pippalAdamupasannAH",
-          "transliteration": ".. Prashna Upanishad ..## .. prashnopaniShat ..##\\endtitles ## OM bhadraM karNebhiH shR^iNuyAma devA bhadraM pashyemAkShabhiryajatrAH | sthiraira~NgaistuShtuvA{\\m+}sastanUbhirvyashema devahitaM yadAyuH || svasti na indro vR^iddhashravAH svasti naH pUShA vishvavedAH | svasti nastArkShyo ariShTanemiH svasti no bR^ihaspatirdadhAtu || OM shAntiH shAntiH shAntiH || prathamaH prashnaH | OM sukeshA cha bhAradvAjaH shaibyashcha satyakAmaH sauryAyaNI cha gArgyaH kausalyashchAshvalAyano bhArgavo vaidarbhiH kabandhI kAtyAyanaste haite brahmaparA brahmaniShThAH paraM brahmAnveShamANA eSha ha vai tatsarvaM vakShyatIti te ha samitpANayo bhagavantaM pippalAdamupasannAH"
-        },
         {
           "number": "1.2",
           "sanskrit": "तान्ह स ऋषिरुवाच भूय एव तपसा ब्रह्मचर्येण श्रद्धया संवत्सरं संवत्स्यथ यथाकामं प्रश्नान् पृच्छत यदि विज्ञास्यामः सर्वं ह वो वक्ष्याम इति",

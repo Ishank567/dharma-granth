@@ -8,18 +8,13 @@
     "license": "Sanskrit mūla — public domain (2500+ years old). sanskritdocuments.org publishes digitized text under permissive terms.",
     "fetchedAt": "2026-06-02T08:28:54.342Z"
   },
-  "totalVerses": 35,
+  "totalVerses": 34,
   "totalChapters": 4,
   "chapters": [
     {
       "number": 1,
       "title": "Khaṇḍa 1",
       "verses": [
-        {
-          "number": 1,
-          "sanskrit": "॥ ख़ेन ऊपनिशद् ॥ .. kenopaniShat ..eन्द्तित्लेस् || atha kenopaniShat || OM ApyAyantu mamA~NgAni vAkprANashchakShuH shrotramatho balamindriyANi cha sarvANi | sarvaM brahmaupaniShadaM mA.ahaM brahma nirAkuryAM mA mA brahma nirAkarodanirAkaraNamastvanirAkaraNaM me.astu | tadAtmani nirate ya upaniShatsu dharmAste mayi santu te mayi santu | OM shAntiH shAntiH shAntiH || OM keneShitaM patati preShitaM manaH kena prANaH prathamaH praiti yuktaH | keneShitAM vAchamimAM vadanti chakShuH shrotraM ka u devo yunakti",
-          "transliteration": ".. Kena Upanishad ..## .. kenopaniShat ..##\\endtitles ## || atha kenopaniShat || OM ApyAyantu mamA~NgAni vAkprANashchakShuH shrotramatho balamindriyANi cha sarvANi | sarvaM brahmaupaniShadaM mA.ahaM brahma nirAkuryAM mA mA brahma nirAkarodanirAkaraNamastvanirAkaraNaM me.astu | tadAtmani nirate ya upaniShatsu dharmAste mayi santu te mayi santu | OM shAntiH shAntiH shAntiH || OM keneShitaM patati preShitaM manaH kena prANaH prathamaH praiti yuktaH | keneShitAM vAchamimAM vadanti chakShuH shrotraM ka u devo yunakti"
-        },
         {
           "number": 2,
           "sanskrit": "श्रोत्रस्य श्रोत्रं मनसो मनो यद् वाचो ह वाचं स उ प्राणस्य प्राणः । चक्षुषश्चक्षुरतिमुच्य धीराः प्रेत्यास्माल्लोकादमृता भवन्ति",

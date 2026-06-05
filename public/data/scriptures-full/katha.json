@@ -8,18 +8,13 @@
     "license": "Sanskrit mūla — public domain (2500+ years old). sanskritdocuments.org publishes digitized text under permissive terms.",
     "fetchedAt": "2026-06-02T08:28:55.112Z"
   },
-  "totalVerses": 120,
+  "totalVerses": 119,
   "totalChapters": 6,
   "chapters": [
     {
       "number": 1,
       "title": "Vallī 1",
       "verses": [
-        {
-          "number": 1,
-          "sanskrit": "॥ ख़थ ऊपनिशद् ॥ .. kaThopaniShat ..eन्द्तित्लेस् OM || atha kaThopaniShad || OM saha nAvavatu | saha nau bhunaktu | sahavIryaM karavAvahai | tejasvi nAvadhItamastu | mA vidviShAvahai || OM shAntiH shAntiH shAntiH || OM ushan ha vai vAjashravasaH sarvavedasaM dadau | tasya ha nachiketA nAma putra Asa",
-          "transliteration": ".. Katha Upanishad ..## .. kaThopaniShat ..##\\endtitles ## OM || atha kaThopaniShad || OM saha nAvavatu | saha nau bhunaktu | sahavIryaM karavAvahai | tejasvi nAvadhItamastu | mA vidviShAvahai || OM shAntiH shAntiH shAntiH || OM ushan ha vai vAjashravasaH sarvavedasaM dadau | tasya ha nachiketA nAma putra Asa"
-        },
         {
           "number": 2,
           "sanskrit": "तँ ह कुमारँ सन्तं दक्षिणासु नीयमानासु श्रद्धाविवेश सोऽमन्यत",

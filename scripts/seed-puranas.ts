@@ -36,6 +36,7 @@ import {
   itxToDevanagari,
   normalizeItxLine,
   splitPuranaChapters,
+  stripFrontMatter,
 } from "./lib/itrans-parser";
 
 // ---- types --------------------------------------------------------------
@@ -87,7 +88,9 @@ async function fetchAndParsePart(part: PartSource): Promise<ParsedPart> {
     throw new Error(`HTTP ${res.status} fetching ${url}`);
   }
   const raw = await res.text();
-  const body = cleanItx(raw);
+  // cleanItx drops the LaTeX wrapper + title metadata; stripFrontMatter drops
+  // the leading invocation/banner block so it isn't folded into verse 1.
+  const body = stripFrontMatter(cleanItx(raw));
   const rawChapters = splitPuranaChapters(body);
 
   const adhyayas: ParsedAdhyaya[] = rawChapters.map((rc, i) => {

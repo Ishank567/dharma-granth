@@ -8,18 +8,13 @@
     "license": "Sanskrit mūla — public domain (2500+ years old). sanskritdocuments.org publishes digitized text under permissive terms.",
     "fetchedAt": "2026-06-02T08:28:56.371Z"
   },
-  "totalVerses": 74,
+  "totalVerses": 73,
   "totalChapters": 5,
   "chapters": [
     {
       "number": 1,
       "title": "Aitareya Upanishad",
       "verses": [
-        {
-          "number": 0,
-          "sanskrit": "॥ आइतरेय ऊपनिशद् ॥ .. aitareyopaniShat ..eन्द्तित्लेस् vA~N me manasi pratiShThitA mano me vAchi pratiShThitamAvirAvIrma edhi || vedasya ma ANIsthaH shrutaM me mA prahAsIranenAdhItenAhorAtrAn sandadhAmyR^itaM vadiShyAmi satyaM vadiShyAmi || tanmAmavatu tadvaktAramavatvavatu mAmavatu vaktAramavatu vaktAram",
-          "transliteration": ".. Aitareya Upanishad ..## .. aitareyopaniShat ..##\\endtitles ## vA~N me manasi pratiShThitA mano me vAchi pratiShThitamAvirAvIrma edhi || vedasya ma ANIsthaH shrutaM me mA prahAsIranenAdhItenAhorAtrAn sandadhAmyR^itaM vadiShyAmi satyaM vadiShyAmi || tanmAmavatu tadvaktAramavatvavatu mAmavatu vaktAramavatu vaktAram"
-        },
         {
           "number": 0,
           "sanskrit": "ॐ शान्तिः शान्तिः शान्तिः",

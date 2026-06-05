@@ -8,18 +8,13 @@
     "license": "Sanskrit mūla — public domain (2500+ years old). sanskritdocuments.org publishes digitized text under permissive terms.",
     "fetchedAt": "2026-06-02T08:28:56.057Z"
   },
-  "totalVerses": 12,
+  "totalVerses": 11,
   "totalChapters": 1,
   "chapters": [
     {
       "number": 1,
       "title": "Mandukya Upanishad",
       "verses": [
-        {
-          "number": 1,
-          "sanskrit": "॥ ंअन्दुक्य ऊपनिशद् ॥ .. mANDUkyopaniShat ..eन्द्तित्लेस् OM bhadraM karNebhiH shR^iNuyAma devA bhadraM pashyemAkShabhiryajatrAH | sthiraira~NgaistuShTuvA.nsastanUbhirvyashema devahitaM yadAyuH || bhadraM no api vAtaya manaH || OM shAntiH shAntiH shAntiH | || atha mANDUkyopaniShat || hariH OM | OM ityetadakSharamida.N sarvaM tasyopavyAkhyAnaM bhUtaM bhavad bhaviShyaditi sarvamo~NkAra eva yachchAnyat trikAlAtItaM tadapyo~NkAra eva",
-          "transliteration": ".. Mandukya Upanishad ..## .. mANDUkyopaniShat ..##\\endtitles ## OM bhadraM karNebhiH shR^iNuyAma devA bhadraM pashyemAkShabhiryajatrAH | sthiraira~NgaistuShTuvA.nsastanUbhirvyashema devahitaM yadAyuH || bhadraM no api vAtaya manaH || OM shAntiH shAntiH shAntiH | || atha mANDUkyopaniShat || hariH OM | OM ityetadakSharamida{\\m+} sarvaM tasyopavyAkhyAnaM bhUtaM bhavad bhaviShyaditi sarvamo~NkAra eva yachchAnyat trikAlAtItaM tadapyo~NkAra eva"
-        },
         {
           "number": 2,
           "sanskrit": "सर्वं ह्येतद् ब्रह्मायमात्मा ब्रह्म सोऽयमात्मा चतुष्पात्",

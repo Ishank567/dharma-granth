@@ -8,18 +8,13 @@
     "license": "Sanskrit mūla — public domain (2500+ years old). sanskritdocuments.org publishes digitized text under permissive terms.",
     "fetchedAt": "2026-06-02T08:28:55.740Z"
   },
-  "totalVerses": 68,
+  "totalVerses": 67,
   "totalChapters": 6,
   "chapters": [
     {
       "number": 1,
       "title": "Khaṇḍa 1",
       "verses": [
-        {
-          "number": 0,
-          "sanskrit": "॥ ंउन्दक ऊपनिशद् ॥ .. muNDakopaniShat ..eन्द्तित्लेस् || shrIH",
-          "transliteration": ".. Mundaka Upanishad ..## .. muNDakopaniShat ..##\\endtitles ## || shrIH"
-        },
         {
           "number": 0,
           "sanskrit": "मुण्डकोपनिषत् ॥ ॐ भद्रं कर्णेभिः शृणुयाम देवा भद्रं पश्येमाक्षभिर्यजत्राः । स्थिरैरङ्गैस्तुष्टुवाँसस्तनूभिर्व्यशेम देवहितं यदायुः ॥ स्वस्ति न इन्द्रो वृद्धश्रवाः स्वस्ति नः पूषा विश्ववेदाः । स्वस्ति नस्तार्क्ष्यो अरिष्टनेमिः स्वस्ति नो बृहस्पतिर्दधातु",

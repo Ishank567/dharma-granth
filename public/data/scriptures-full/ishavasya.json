@@ -8,18 +8,13 @@
     "license": "Sanskrit mūla — public domain (2500+ years old). sanskritdocuments.org publishes digitized text under permissive terms.",
     "fetchedAt": "2026-06-02T08:28:53.175Z"
   },
-  "totalVerses": 19,
+  "totalVerses": 18,
   "totalChapters": 1,
   "chapters": [
     {
       "number": 1,
       "title": "Isha Upanishad",
       "verses": [
-        {
-          "number": 0,
-          "sanskrit": "॥ ईशोपनिषत् ॥ .. IshopaniShat ..eन्द्तित्लेस् OM pUrNamadaH pUrNamidaM pUrNAt pUrNamudachyate | pUrNasya pUrNamAdAya pUrNamevAvashiShyate || OM shAntiH shAntiH shAntiH",
-          "transliteration": ".. IshopaniShat ..## .. IshopaniShat ..##\\endtitles ## OM pUrNamadaH pUrNamidaM pUrNAt pUrNamudachyate | pUrNasya pUrNamAdAya pUrNamevAvashiShyate || OM shAntiH shAntiH shAntiH"
-        },
         {
           "number": 1,
           "sanskrit": "अथ ईशोपनिषत् ॥ ॐ ईशा वास्यमिदँ सर्वं यत्किञ्च जगत्यां जगत् । तेन त्यक्तेन भुञ्जीथा मा गृधः कस्यस्विद्धनम्",

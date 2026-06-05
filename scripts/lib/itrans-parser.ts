@@ -34,9 +34,20 @@ export function cleanItx(raw: string): string {
   if (endIdx >= 0) {
     body = body.slice(0, endIdx);
   }
-  
-  // Unpack LaTeX tags containing actual text/chapter boundaries
-  body = body.replace(/\\(section|centerline|chapter|engtitle|itxtitle|title)\{(.*?)\}/g, "$2");
+
+  // Drop document-TITLE metadata outright. `\engtitle{...}`/`\itxtitle{...}`/
+  // `\title{...}` hold the romanized or English document title (e.g.
+  // "Shrimad Bhagavatam Canto 1"); if we unpacked them into the body,
+  // itxToDevanagari would transliterate "Bhagavatam" → "Bहगवतम्" and prepend
+  // gibberish to chapter 1. Remove the tags AND the `\endtitles` marker that
+  // closes the title block.
+  body = body
+    .replace(/\\(?:engtitle|itxtitle|title)\s*\{[^}]*\}/g, "")
+    .replace(/\\?endtitles\b/gi, "");
+
+  // Unpack STRUCTURAL tags that wrap real chapter text (these carry verse /
+  // heading content we want to keep).
+  body = body.replace(/\\(section|centerline|chapter)\{(.*?)\}/g, "$2");
 
   return body
     .split(/\r?\n/)
@@ -50,6 +61,42 @@ export function cleanItx(raw: string): string {
     .join("\n")
     .replace(/[ \t]+/g, " ")
     .trim();
+}
+
+/**
+ * Strip a part-file's leading front matter — the maṅgalācaraṇa / invocation and
+ * section banners the digitizer places before the first numbered mūla verse.
+ *
+ * sanskritdocuments Purana files open each book like:
+ *
+ *     .. OM namo bhagavate vAsudevAya ..
+ *     saMsArasAgare ... bhavArNavAt ||        <- invocation ślokas, BARE `||`
+ *     ...
+ *     .. prathamo.adhyAyaH ..                 <- section banner
+ *     janmAdyasya ... satyaM paraM dhImahi || 1 ||   <- first real verse
+ *
+ * Because the invocation ślokas end in a bare `||` (no number), extractVerses()
+ * would otherwise fold the whole block into "verse 1". We cut the body to begin
+ * right after the LAST section banner (`.. ...adhyAyaH ..`, `..skandhaH..`, etc.)
+ * that appears before the first NUMBERED verse marker.
+ *
+ * Conservative: if no banner is found before the first numbered verse, the body
+ * is returned unchanged (better to keep an imperfect verse than drop real text).
+ */
+const FRONT_MATTER_BANNER =
+  /\.\.[^|]*?(?:adhyAyaH|skandhaH|khaNDaH|saMhitA|sargaH|prashnaH)[^|]*?\.\./gi;
+const FIRST_NUMBERED_VERSE = /\|\|\s*[\d\\.,\s]+?\s*\|\|/;
+
+export function stripFrontMatter(body: string): string {
+  const firstVerse = FIRST_NUMBERED_VERSE.exec(body);
+  const head = body.slice(0, firstVerse ? firstVerse.index : body.length);
+  let cut = -1;
+  let m: RegExpExecArray | null;
+  FRONT_MATTER_BANNER.lastIndex = 0;
+  while ((m = FRONT_MATTER_BANNER.exec(head)) !== null) {
+    cut = m.index + m[0].length;
+  }
+  return cut >= 0 ? body.slice(cut).trim() : body;
 }
 
 /**
