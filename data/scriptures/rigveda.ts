@@ -50,7 +50,7 @@ export const rigveda: Scripture = {
         },
       
         {
-          id: 1.2,
+          id: 1002,
           sanskrit: 'एकं सद्विप्रा बहुधा वदन्ति अग्निं यमं मातरिश्वानमाहुः ||',
           transliteration: 'ekaṃ sadvipra bahudhā vadanti agniṃ yamaṃ mātariśvānamāhuḥ ||',
           translation: 'Truth is one; the wise call it by many names — Agni, Yama, Matarishvan.',
@@ -98,7 +98,7 @@ export const rigveda: Scripture = {
         },
       
         {
-          id: 1.2,
+          id: 1002,
           sanskrit: 'ऋतस्य पन्था न दभाय किं चन वृजिना ह्यस्य नश्यन्ति जन्तवः | ऋतेन दीर्घमनु वेनतो दिवः पदं न दुष्कृते अपि तं नशे ||',
           transliteration: 'ṛtasya panthā na dabhāya kiṃ cana vṛjinā hyasya naśyanti jantavaḥ | ṛtena dīrghamanu venato divaḥ padaṃ na duṣkṛte api taṃ naśe ||',
           translation: 'The path of Rita cannot be deceived by anyone. Those who follow crooked ways perish. By Rita the vast luminous realm is reached — the evildoer cannot attain that place.',
@@ -107,7 +107,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 1.3,
+          id: 1003,
           sanskrit: 'सहस्रशीर्षा पुरुषः सहस्राक्षः सहस्रपात् | स भूमिं विश्वतो वृत्वात्यतिष्ठद्दशाङ्गुलम् ||',
           transliteration: 'sahasraśīrṣā puruṣaḥ sahasrākṣaḥ sahasrapāt | sa bhūmiṃ viśvato vṛtvātyatiṣṭhaddaśāṅgulam ||',
           translation: 'The Cosmic Person has a thousand heads, a thousand eyes, a thousand feet. He pervades the earth on all sides and stands ten fingers beyond.',
@@ -116,7 +116,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 1.8,
+          id: 1008,
           sanskrit: 'विमुचेन्यसि वरुण पाशान् यैरबद्धो असि जातवेदः | यद्धि ते विश्वमनुमत्यम्भिर्वयं सुमित्राः स्याम ||',
           transliteration: 'vimucenya si varuṇa pāśān yairabaddho asi jātavedaḥ | yaddhi te viśvamanumatyambhirvayaṃ sumitrāḥ syāma ||',
           translation: 'Release, O Varuna, the bonds with which I am bound, O Jataveda. For by your will, O all-knowing one — may we be among your good friends.',
@@ -125,7 +125,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 11.17,
+          id: 11017,
           sanskrit: 'इन्द्रो मायाभिः पुरुरूप ईयते युक्ता ह्यस्य हरयः शता दश | आयं शक्र इत्येनमाहुर्यः स्वर्षाता सत्पतिः शूरो अस्तु ||',
           transliteration: 'indro māyābhiḥ pururūpa īyate yuktā hyasya harayaḥ śatā daśa | āyaṃ śakra ityenamāhuryaḥ svarṣātā satpatiḥ śūro astu ||',
           translation: 'Indra moves in many forms through his powers of maya. His golden coursers are yoked a thousand and ten. They call him Shakra — may he who wins the heavenly light, lord of the good, be heroic.',
@@ -134,7 +134,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 11.18,
+          id: 11018,
           sanskrit: 'मरुतो यद्ध वो बलं यच्च सत्यमुत क्रतुः | तेन मा पातनाधसः ||',
           transliteration: 'maruto yadha vo balaṃ yacca satyamuta kratuḥ | tena mā pātanādhasaḥ ||',
           translation: 'O Maruts — whatever strength you have, whatever truth, whatever purposeful will — by that, protect me from falling low.',
@@ -218,7 +218,7 @@ export const rigveda: Scripture = {
         },
       
         {
-          id: 1.12,
+          id: 1012,
           sanskrit: 'ऋतस्य पन्था न दभाय किं चन वृजिना ह्यस्य नश्यन्ति जन्तवः | ऋतेन दीर्घमनु वेनतो दिवः पदं न दुष्कृते अपि तं नशे ||',
           transliteration: 'ṛtasya panthā na dabhāya kiṃ cana vṛjinā hyasya naśyanti jantavaḥ | ṛtena dīrghamanu venato divaḥ padaṃ na duṣkṛte api taṃ naśe ||',
           translation: 'The path of Rita cannot be deceived by anyone. Those who follow crooked ways perish. By Rita the vast luminous realm is reached — the evildoer cannot attain that place.',
@@ -227,7 +227,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 1.17,
+          id: 1017,
           sanskrit: 'इन्द्रो मायाभिः पुरुरूप ईयते युक्ता ह्यस्य हरयः शता दश | आयं शक्र इत्येनमाहुर्यः स्वर्षाता सत्पतिः शूरो अस्तु ||',
           transliteration: 'indro māyābhiḥ pururūpa īyate yuktā hyasya harayaḥ śatā daśa | āyaṃ śakra ityenamāhuryaḥ svarṣātā satpatiḥ śūro astu ||',
           translation: 'Indra moves in many forms through his powers of maya. His golden coursers are yoked a thousand and ten. They call him Shakra — may he who wins the heavenly light, lord of the good, be heroic.',
@@ -236,7 +236,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 1.18,
+          id: 1018,
           sanskrit: 'मरुतो यद्ध वो बलं यच्च सत्यमुत क्रतुः | तेन मा पातनाधसः ||',
           transliteration: 'maruto yadha vo balaṃ yacca satyamuta kratuḥ | tena mā pātanādhasaḥ ||',
           translation: 'O Maruts — whatever strength you have, whatever truth, whatever purposeful will — by that, protect me from falling low.',
@@ -245,7 +245,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 1.2,
+          id: 1002,
           sanskrit: 'एक एव अग्निर्बहुधा समिद्धः एकः सूर्यो विश्वमनु प्रभूतः | एकैवोषाः सर्वमिदं विभाति एकं वा इदं विबभूव सर्वम् ||',
           transliteration: 'eka eva agnirbahudha samiddhaḥ ekaḥ sūryo viśvamanu prabhūtaḥ | ekaivoṣāḥ sarvamidaṃ vibhāti ekaṃ vā idaṃ vibabhūva sarvam ||',
           translation: 'Fire is one, kindled in many ways. The Sun is one, pervading the whole world. The Dawn is one — she illumines all this. The One alone has become all this.',
@@ -254,7 +254,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 1.3,
+          id: 1003,
           sanskrit: 'सहस्रशीर्षा पुरुषः सहस्राक्षः सहस्रपात् | स भूमिं विश्वतो वृत्वात्यतिष्ठद्दशाङ्गुलम् ||',
           transliteration: 'sahasraśīrṣā puruṣaḥ sahasrākṣaḥ sahasrapāt | sa bhūmiṃ viśvato vṛtvātyatiṣṭhaddaśāṅgulam ||',
           translation: 'The Cosmic Person has a thousand heads, a thousand eyes, a thousand feet. He pervades the earth on all sides and stands ten fingers beyond.',
@@ -263,7 +263,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 1.8,
+          id: 1008,
           sanskrit: 'विमुचेन्यसि वरुण पाशान् यैरबद्धो असि जातवेदः | यद्धि ते विश्वमनुमत्यम्भिर्वयं सुमित्राः स्याम ||',
           transliteration: 'vimucenya si varuṇa pāśān yairabaddho asi jātavedaḥ | yaddhi te viśvamanumatyambhirvayaṃ sumitrāḥ syāma ||',
           translation: 'Release, O Varuna, the bonds with which I am bound, O Jataveda. For by your will, O all-knowing one — may we be among your good friends.',
@@ -356,7 +356,7 @@ export const rigveda: Scripture = {
         },
       
         {
-          id: 1.12,
+          id: 1012,
           sanskrit: 'ऋतस्य पन्था न दभाय किं चन वृजिना ह्यस्य नश्यन्ति जन्तवः | ऋतेन दीर्घमनु वेनतो दिवः पदं न दुष्कृते अपि तं नशे ||',
           transliteration: 'ṛtasya panthā na dabhāya kiṃ cana vṛjinā hyasya naśyanti jantavaḥ | ṛtena dīrghamanu venato divaḥ padaṃ na duṣkṛte api taṃ naśe ||',
           translation: 'The path of Rita cannot be deceived by anyone. Those who follow crooked ways perish. By Rita the vast luminous realm is reached — the evildoer cannot attain that place.',
@@ -365,7 +365,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 1.18,
+          id: 1018,
           sanskrit: 'मरुतो यद्ध वो बलं यच्च सत्यमुत क्रतुः | तेन मा पातनाधसः ||',
           transliteration: 'maruto yadha vo balaṃ yacca satyamuta kratuḥ | tena mā pātanādhasaḥ ||',
           translation: 'O Maruts — whatever strength you have, whatever truth, whatever purposeful will — by that, protect me from falling low.',
@@ -374,7 +374,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 1.2,
+          id: 1002,
           sanskrit: 'इन्द्रो मायाभिः पुरुरूप ईयते युक्ता ह्यस्य हरयः शता दश | आयं शक्र इत्येनमाहुर्यः स्वर्षाता सत्पतिः शूरो अस्तु ||',
           transliteration: 'indro māyābhiḥ pururūpa īyate yuktā hyasya harayaḥ śatā daśa | āyaṃ śakra ityenamāhuryaḥ svarṣātā satpatiḥ śūro astu ||',
           translation: 'Indra moves in many forms through his powers of maya. His golden coursers are yoked a thousand and ten. They call him Shakra — may he who wins the heavenly light, lord of the good, be heroic.',
@@ -383,7 +383,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 1.3,
+          id: 1003,
           sanskrit: 'सहस्रशीर्षा पुरुषः सहस्राक्षः सहस्रपात् | स भूमिं विश्वतो वृत्वात्यतिष्ठद्दशाङ्गुलम् ||',
           transliteration: 'sahasraśīrṣā puruṣaḥ sahasrākṣaḥ sahasrapāt | sa bhūmiṃ viśvato vṛtvātyatiṣṭhaddaśāṅgulam ||',
           translation: 'The Cosmic Person has a thousand heads, a thousand eyes, a thousand feet. He pervades the earth on all sides and stands ten fingers beyond.',
@@ -392,7 +392,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 1.8,
+          id: 1008,
           sanskrit: 'विमुचेन्यसि वरुण पाशान् यैरबद्धो असि जातवेदः | यद्धि ते विश्वमनुमत्यम्भिर्वयं सुमित्राः स्याम ||',
           transliteration: 'vimucenya si varuṇa pāśān yairabaddho asi jātavedaḥ | yaddhi te viśvamanumatyambhirvayaṃ sumitrāḥ syāma ||',
           translation: 'Release, O Varuna, the bonds with which I am bound, O Jataveda. For by your will, O all-knowing one — may we be among your good friends.',
@@ -476,7 +476,7 @@ export const rigveda: Scripture = {
         },
       
         {
-          id: 1.12,
+          id: 1012,
           sanskrit: 'ऋतस्य पन्था न दभाय किं चन वृजिना ह्यस्य नश्यन्ति जन्तवः | ऋतेन दीर्घमनु वेनतो दिवः पदं न दुष्कृते अपि तं नशे ||',
           transliteration: 'ṛtasya panthā na dabhāya kiṃ cana vṛjinā hyasya naśyanti jantavaḥ | ṛtena dīrghamanu venato divaḥ padaṃ na duṣkṛte api taṃ naśe ||',
           translation: 'The path of Rita cannot be deceived by anyone. Those who follow crooked ways perish. By Rita the vast luminous realm is reached — the evildoer cannot attain that place.',
@@ -485,7 +485,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 1.2,
+          id: 1002,
           sanskrit: 'मरुतो यद्ध वो बलं यच्च सत्यमुत क्रतुः | तेन मा पातनाधसः ||',
           transliteration: 'maruto yadha vo balaṃ yacca satyamuta kratuḥ | tena mā pātanādhasaḥ ||',
           translation: 'O Maruts — whatever strength you have, whatever truth, whatever purposeful will — by that, protect me from falling low.',
@@ -494,7 +494,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 1.3,
+          id: 1003,
           sanskrit: 'सहस्रशीर्षा पुरुषः सहस्राक्षः सहस्रपात् | स भूमिं विश्वतो वृत्वात्यतिष्ठद्दशाङ्गुलम् ||',
           transliteration: 'sahasraśīrṣā puruṣaḥ sahasrākṣaḥ sahasrapāt | sa bhūmiṃ viśvato vṛtvātyatiṣṭhaddaśāṅgulam ||',
           translation: 'The Cosmic Person has a thousand heads, a thousand eyes, a thousand feet. He pervades the earth on all sides and stands ten fingers beyond.',
@@ -503,7 +503,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 1.8,
+          id: 1008,
           sanskrit: 'विमुचेन्यसि वरुण पाशान् यैरबद्धो असि जातवेदः | यद्धि ते विश्वमनुमत्यम्भिर्वयं सुमित्राः स्याम ||',
           transliteration: 'vimucenya si varuṇa pāśān yairabaddho asi jātavedaḥ | yaddhi te viśvamanumatyambhirvayaṃ sumitrāḥ syāma ||',
           translation: 'Release, O Varuna, the bonds with which I am bound, O Jataveda. For by your will, O all-knowing one — may we be among your good friends.',
@@ -512,7 +512,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 41.17,
+          id: 41017,
           sanskrit: 'इन्द्रो मायाभिः पुरुरूप ईयते युक्ता ह्यस्य हरयः शता दश | आयं शक्र इत्येनमाहुर्यः स्वर्षाता सत्पतिः शूरो अस्तु ||',
           transliteration: 'indro māyābhiḥ pururūpa īyate yuktā hyasya harayaḥ śatā daśa | āyaṃ śakra ityenamāhuryaḥ svarṣātā satpatiḥ śūro astu ||',
           translation: 'Indra moves in many forms through his powers of maya. His golden coursers are yoked a thousand and ten. They call him Shakra — may he who wins the heavenly light, lord of the good, be heroic.',
@@ -596,7 +596,7 @@ export const rigveda: Scripture = {
         },
       
         {
-          id: 1.12,
+          id: 1012,
           sanskrit: 'ऋतस्य पन्था न दभाय किं चन वृजिना ह्यस्य नश्यन्ति जन्तवः | ऋतेन दीर्घमनु वेनतो दिवः पदं न दुष्कृते अपि तं नशे ||',
           transliteration: 'ṛtasya panthā na dabhāya kiṃ cana vṛjinā hyasya naśyanti jantavaḥ | ṛtena dīrghamanu venato divaḥ padaṃ na duṣkṛte api taṃ naśe ||',
           translation: 'The path of Rita cannot be deceived by anyone. Those who follow crooked ways perish. By Rita the vast luminous realm is reached — the evildoer cannot attain that place.',
@@ -605,7 +605,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 1.2,
+          id: 1002,
           sanskrit: 'इन्द्र क्रतुं न आ भर पितान आ भर | वसो पुरन्दर श्रुधी हवम् ||',
           transliteration: 'indra kratuṃ na ā bhara pitā na ā bhara | vaso purandara śrudhī havam ||',
           translation: 'O Indra, bring us purposeful will as a father brings. O master of abundance, destroyer of limitations — hear our call.',
@@ -614,7 +614,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 1.3,
+          id: 1003,
           sanskrit: 'सहस्रशीर्षा पुरुषः सहस्राक्षः सहस्रपात् | स भूमिं विश्वतो वृत्वात्यतिष्ठद्दशाङ्गुलम् ||',
           transliteration: 'sahasraśīrṣā puruṣaḥ sahasrākṣaḥ sahasrapāt | sa bhūmiṃ viśvato vṛtvātyatiṣṭhaddaśāṅgulam ||',
           translation: 'The Cosmic Person has a thousand heads, a thousand eyes, a thousand feet. He pervades the earth on all sides and stands ten fingers beyond.',
@@ -623,7 +623,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 1.8,
+          id: 1008,
           sanskrit: 'विमुचेन्यसि वरुण पाशान् यैरबद्धो असि जातवेदः | यद्धि ते विश्वमनुमत्यम्भिर्वयं सुमित्राः स्याम ||',
           transliteration: 'vimucenya si varuṇa pāśān yairabaddho asi jātavedaḥ | yaddhi te viśvamanumatyambhirvayaṃ sumitrāḥ syāma ||',
           translation: 'Release, O Varuna, the bonds with which I am bound, O Jataveda. For by your will, O all-knowing one — may we be among your good friends.',
@@ -632,7 +632,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 15.17,
+          id: 15017,
           sanskrit: 'इन्द्रो मायाभिः पुरुरूप ईयते युक्ता ह्यस्य हरयः शता दश | आयं शक्र इत्येनमाहुर्यः स्वर्षाता सत्पतिः शूरो अस्तु ||',
           transliteration: 'indro māyābhiḥ pururūpa īyate yuktā hyasya harayaḥ śatā daśa | āyaṃ śakra ityenamāhuryaḥ svarṣātā satpatiḥ śūro astu ||',
           translation: 'Indra moves in many forms through his powers of maya. His golden coursers are yoked a thousand and ten. They call him Shakra — may he who wins the heavenly light, lord of the good, be heroic.',
@@ -641,7 +641,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 15.18,
+          id: 15018,
           sanskrit: 'मरुतो यद्ध वो बलं यच्च सत्यमुत क्रतुः | तेन मा पातनाधसः ||',
           transliteration: 'maruto yadha vo balaṃ yacca satyamuta kratuḥ | tena mā pātanādhasaḥ ||',
           translation: 'O Maruts — whatever strength you have, whatever truth, whatever purposeful will — by that, protect me from falling low.',
@@ -650,7 +650,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 16.48,
+          id: 16048,
           sanskrit: 'अपाम सोमममृता अभूमागन्म ज्योतिरविदाम देवान् | किं नूनमस्मान्कृणवदरातिः किमु धूर्तिरमृत मर्त्यस्य ||',
           transliteration: 'apāma somamamṛtā abhūmāganma jyotiravadāma devān | kiṃ nūnamasmānkṛṇavadarātiḥ kimu dhūrtiraṃṛta martyasya ||',
           translation: 'We have drunk Soma; we have become immortal; we have reached the light; we have found the gods. What can enmity do to us now? What can the malice of a mortal do, O Immortal?',
@@ -763,7 +763,7 @@ export const rigveda: Scripture = {
         },
       
         {
-          id: 1.12,
+          id: 1012,
           sanskrit: 'ऋतस्य पन्था न दभाय किं चन वृजिना ह्यस्य नश्यन्ति जन्तवः | ऋतेन दीर्घमनु वेनतो दिवः पदं न दुष्कृते अपि तं नशे ||',
           transliteration: 'ṛtasya panthā na dabhāya kiṃ cana vṛjinā hyasya naśyanti jantavaḥ | ṛtena dīrghamanu venato divaḥ padaṃ na duṣkṛte api taṃ naśe ||',
           translation: 'The path of Rita cannot be deceived by anyone. Those who follow crooked ways perish. By Rita the vast luminous realm is reached — the evildoer cannot attain that place.',
@@ -772,7 +772,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 1.17,
+          id: 1017,
           sanskrit: 'इन्द्रो मायाभिः पुरुरूप ईयते युक्ता ह्यस्य हरयः शता दश | आयं शक्र इत्येनमाहुर्यः स्वर्षाता सत्पतिः शूरो अस्तु ||',
           transliteration: 'indro māyābhiḥ pururūpa īyate yuktā hyasya harayaḥ śatā daśa | āyaṃ śakra ityenamāhuryaḥ svarṣātā satpatiḥ śūro astu ||',
           translation: 'Indra moves in many forms through his powers of maya. His golden coursers are yoked a thousand and ten. They call him Shakra — may he who wins the heavenly light, lord of the good, be heroic.',
@@ -781,7 +781,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 1.18,
+          id: 1018,
           sanskrit: 'मरुतो यद्ध वो बलं यच्च सत्यमुत क्रतुः | तेन मा पातनाधसः ||',
           transliteration: 'maruto yadha vo balaṃ yacca satyamuta kratuḥ | tena mā pātanādhasaḥ ||',
           translation: 'O Maruts — whatever strength you have, whatever truth, whatever purposeful will — by that, protect me from falling low.',
@@ -790,7 +790,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 1.2,
+          id: 1002,
           sanskrit: 'विमुचेन्यसि वरुण पाशान् यैरबद्धो असि जातवेदः | यद्धि ते विश्वमनुमत्यम्भिर्वयं सुमित्राः स्याम ||',
           transliteration: 'vimucenya si varuṇa pāśān yairabaddho asi jātavedaḥ | yaddhi te viśvamanumatyambhirvayaṃ sumitrāḥ syāma ||',
           translation: 'Release, O Varuna, the bonds with which I am bound, O Jataveda. For by your will, O all-knowing one — may we be among your good friends.',
@@ -799,7 +799,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 1.3,
+          id: 1003,
           sanskrit: 'मा नो वधीः वरुण मा नो हिंसीर्मा तं वधीर्यो नः प्रियः | क्षयं न इन्द्र वरुण मृत्योर्मा नो दीर्घायुषः पात ||',
           transliteration: 'mā no vadhīḥ varuṇa mā no hiṃsīr mā taṃ vadhīr yo naḥ priyaḥ | kṣayaṃ na indra varuṇa mṛtyor mā no dīrghāyuṣaḥ pāta ||',
           translation: 'Slay us not, O Varuna; harm us not. Slay not him who is dear to us. Give us a home, O Indra-Varuna; guard us from death; protect us for long life.',
@@ -883,7 +883,7 @@ export const rigveda: Scripture = {
         },
       
         {
-          id: 1.12,
+          id: 1012,
           sanskrit: 'ऋतस्य पन्था न दभाय किं चन वृजिना ह्यस्य नश्यन्ति जन्तवः | ऋतेन दीर्घमनु वेनतो दिवः पदं न दुष्कृते अपि तं नशे ||',
           transliteration: 'ṛtasya panthā na dabhāya kiṃ cana vṛjinā hyasya naśyanti jantavaḥ | ṛtena dīrghamanu venato divaḥ padaṃ na duṣkṛte api taṃ naśe ||',
           translation: 'The path of Rita cannot be deceived by anyone. Those who follow crooked ways perish. By Rita the vast luminous realm is reached — the evildoer cannot attain that place.',
@@ -892,7 +892,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 1.17,
+          id: 1017,
           sanskrit: 'इन्द्रो मायाभिः पुरुरूप ईयते युक्ता ह्यस्य हरयः शता दश | आयं शक्र इत्येनमाहुर्यः स्वर्षाता सत्पतिः शूरो अस्तु ||',
           transliteration: 'indro māyābhiḥ pururūpa īyate yuktā hyasya harayaḥ śatā daśa | āyaṃ śakra ityenamāhuryaḥ svarṣātā satpatiḥ śūro astu ||',
           translation: 'Indra moves in many forms through his powers of maya. His golden coursers are yoked a thousand and ten. They call him Shakra — may he who wins the heavenly light, lord of the good, be heroic.',
@@ -901,7 +901,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 1.18,
+          id: 1018,
           sanskrit: 'मरुतो यद्ध वो बलं यच्च सत्यमुत क्रतुः | तेन मा पातनाधसः ||',
           transliteration: 'maruto yadha vo balaṃ yacca satyamuta kratuḥ | tena mā pātanādhasaḥ ||',
           translation: 'O Maruts — whatever strength you have, whatever truth, whatever purposeful will — by that, protect me from falling low.',
@@ -910,7 +910,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 1.2,
+          id: 1002,
           sanskrit: 'अपाम सोमममृता अभूमागन्म ज्योतिरविदाम देवान् | किं नूनमस्मान्कृणवदरातिः किमु धूर्तिरमृत मर्त्यस्य ||',
           transliteration: 'apāma somamamṛtā abhūmāganma jyotiravadāma devān | kiṃ nūnamasmānkṛṇavadarātiḥ kimu dhūrtiraṃṛta martyasya ||',
           translation: 'We have drunk Soma; we have become immortal; we have reached the light; we have found the gods. What can enmity do to us now? What can the malice of a mortal do, O Immortal?',
@@ -919,7 +919,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 1.3,
+          id: 1003,
           sanskrit: 'सहस्रशीर्षा पुरुषः सहस्राक्षः सहस्रपात् | स भूमिं विश्वतो वृत्वात्यतिष्ठद्दशाङ्गुलम् ||',
           transliteration: 'sahasraśīrṣā puruṣaḥ sahasrākṣaḥ sahasrapāt | sa bhūmiṃ viśvato vṛtvātyatiṣṭhaddaśāṅgulam ||',
           translation: 'The Cosmic Person has a thousand heads, a thousand eyes, a thousand feet. He pervades the earth on all sides and stands ten fingers beyond.',
@@ -928,7 +928,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 1.8,
+          id: 1008,
           sanskrit: 'विमुचेन्यसि वरुण पाशान् यैरबद्धो असि जातवेदः | यद्धि ते विश्वमनुमत्यम्भिर्वयं सुमित्राः स्याम ||',
           transliteration: 'vimucenya si varuṇa pāśān yairabaddho asi jātavedaḥ | yaddhi te viśvamanumatyambhirvayaṃ sumitrāḥ syāma ||',
           translation: 'Release, O Varuna, the bonds with which I am bound, O Jataveda. For by your will, O all-knowing one — may we be among your good friends.',
@@ -937,7 +937,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 6.47,
+          id: 6047,
           sanskrit: 'इन्द्र क्रतुं न आ भर पितान आ भर | वसो पुरन्दर श्रुधी हवम् ||',
           transliteration: 'indra kratuṃ na ā bhara pitā na ā bhara | vaso purandara śrudhī havam ||',
           translation: 'O Indra, bring us purposeful will as a father brings. O master of abundance, destroyer of limitations — hear our call.',
@@ -1039,7 +1039,7 @@ export const rigveda: Scripture = {
         },
       
         {
-          id: 1.2,
+          id: 1002,
           sanskrit: 'अभि त्वा देव सवितरीशानं वार्याणां सोम राजन्नमृतस्य भूरेः | इन्दुमिन्द्राय पवस्व ||',
           transliteration: 'abhi tvā deva savitarīśānaṃ vāryāṇāṃ soma rājannamṛtasya bhūreḥ | indumindrasya pavasva ||',
           translation: 'O divine Savitar, lord of desirable things — O King Soma, purify for Indra the drop that contains the abundance of immortality.',
@@ -1048,7 +1048,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 1.3,
+          id: 1003,
           sanskrit: 'सहस्रशीर्षा पुरुषः सहस्राक्षः सहस्रपात् | स भूमिं विश्वतो वृत्वात्यतिष्ठद्दशाङ्गुलम् ||',
           transliteration: 'sahasraśīrṣā puruṣaḥ sahasrākṣaḥ sahasrapāt | sa bhūmiṃ viśvato vṛtvātyatiṣṭhaddaśāṅgulam ||',
           translation: 'The Cosmic Person has a thousand heads, a thousand eyes, a thousand feet. He pervades the earth on all sides and stands ten fingers beyond.',
@@ -1057,7 +1057,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 1.8,
+          id: 1008,
           sanskrit: 'विमुचेन्यसि वरुण पाशान् यैरबद्धो असि जातवेदः | यद्धि ते विश्वमनुमत्यम्भिर्वयं सुमित्राः स्याम ||',
           transliteration: 'vimucenya si varuṇa pāśān yairabaddho asi jātavedaḥ | yaddhi te viśvamanumatyambhirvayaṃ sumitrāḥ syāma ||',
           translation: 'Release, O Varuna, the bonds with which I am bound, O Jataveda. For by your will, O all-knowing one — may we be among your good friends.',
@@ -1066,7 +1066,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 61.12,
+          id: 61012,
           sanskrit: 'ऋतस्य पन्था न दभाय किं चन वृजिना ह्यस्य नश्यन्ति जन्तवः | ऋतेन दीर्घमनु वेनतो दिवः पदं न दुष्कृते अपि तं नशे ||',
           transliteration: 'ṛtasya panthā na dabhāya kiṃ cana vṛjinā hyasya naśyanti jantavaḥ | ṛtena dīrghamanu venato divaḥ padaṃ na duṣkṛte api taṃ naśe ||',
           translation: 'The path of Rita cannot be deceived by anyone. Those who follow crooked ways perish. By Rita the vast luminous realm is reached — the evildoer cannot attain that place.',
@@ -1075,7 +1075,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 61.17,
+          id: 61017,
           sanskrit: 'इन्द्रो मायाभिः पुरुरूप ईयते युक्ता ह्यस्य हरयः शता दश | आयं शक्र इत्येनमाहुर्यः स्वर्षाता सत्पतिः शूरो अस्तु ||',
           transliteration: 'indro māyābhiḥ pururūpa īyate yuktā hyasya harayaḥ śatā daśa | āyaṃ śakra ityenamāhuryaḥ svarṣātā satpatiḥ śūro astu ||',
           translation: 'Indra moves in many forms through his powers of maya. His golden coursers are yoked a thousand and ten. They call him Shakra — may he who wins the heavenly light, lord of the good, be heroic.',
@@ -1084,7 +1084,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 61.18,
+          id: 61018,
           sanskrit: 'मरुतो यद्ध वो बलं यच्च सत्यमुत क्रतुः | तेन मा पातनाधसः ||',
           transliteration: 'maruto yadha vo balaṃ yacca satyamuta kratuḥ | tena mā pātanādhasaḥ ||',
           translation: 'O Maruts — whatever strength you have, whatever truth, whatever purposeful will — by that, protect me from falling low.',
@@ -1093,7 +1093,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 86.47,
+          id: 86047,
           sanskrit: 'इन्द्र क्रतुं न आ भर पितान आ भर | वसो पुरन्दर श्रुधी हवम् ||',
           transliteration: 'indra kratuṃ na ā bhara pitā na ā bhara | vaso purandara śrudhī havam ||',
           translation: 'O Indra, bring us purposeful will as a father brings. O master of abundance, destroyer of limitations — hear our call.',
@@ -1102,7 +1102,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 86.48,
+          id: 86048,
           sanskrit: 'अपाम सोमममृता अभूमागन्म ज्योतिरविदाम देवान् | किं नूनमस्मान्कृणवदरातिः किमु धूर्तिरमृत मर्त्यस्य ||',
           transliteration: 'apāma somamamṛtā abhūmāganma jyotiravadāma devān | kiṃ nūnamasmānkṛṇavadarātiḥ kimu dhūrtiraṃṛta martyasya ||',
           translation: 'We have drunk Soma; we have become immortal; we have reached the light; we have found the gods. What can enmity do to us now? What can the malice of a mortal do, O Immortal?',
@@ -1335,7 +1335,7 @@ export const rigveda: Scripture = {
         },
       
         {
-          id: 1.2,
+          id: 1002,
           sanskrit: 'को अद्धा वेद क इह प्र वोचत् कुत आजाता कुत इयं विसृष्टिः | अर्वाग्देवा अस्य विसर्जनेनाथा को वेद यत आबभूव ||',
           transliteration: 'ko addhā veda ka iha pra vocat kuta ājātā kuta iyaṃ visṛṣṭiḥ | arvāgdevā asya visarjanena athā ko veda yata ābabhūva ||',
           translation: 'Who really knows? Who will here proclaim it? From where was it born, from where this creation? The gods came after this world\'s creation — so who knows from where it came into being?',
@@ -1344,7 +1344,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 1.3,
+          id: 1003,
           sanskrit: 'सहस्रशीर्षा पुरुषः सहस्राक्षः सहस्रपात् | स भूमिं विश्वतो वृत्वात्यतिष्ठद्दशाङ्गुलम् ||',
           transliteration: 'sahasraśīrṣā puruṣaḥ sahasrākṣaḥ sahasrapāt | sa bhūmiṃ viśvato vṛtvātyatiṣṭhaddaśāṅgulam ||',
           translation: 'The Cosmic Person has a thousand heads, a thousand eyes, a thousand feet. He pervades the earth on all sides and stands ten fingers beyond.',
@@ -1353,7 +1353,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 1.4,
+          id: 1004,
           sanskrit: 'तपसा चीयते ब्रह्म ततो अन्नमभिजायते | अन्नात्प्राणो जायते मनः सत्यं च जायते ||',
           transliteration: 'tapasā cīyate brahma tato annamabhijāyate | annātprāṇo jāyate manaḥ satyaṃ ca jāyate ||',
           translation: 'Through Tapas, Brahma increases. From that, food is born. From food, Prana is born. From Prana, mind and truth are born.',
@@ -1362,7 +1362,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 8.8,
+          id: 8008,
           sanskrit: 'योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो ब्रह्मसमाश्रयः ||',
           transliteration: 'yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ brahmasamāśrayaḥ ||',
           translation: 'Yoga is the cessation of mental modifications; yoga gives liberation. Yoga cuts all bonds; yoga rests on Brahman.',
@@ -1371,7 +1371,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 10.12,
+          id: 10012,
           sanskrit: 'अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं ब्रह्म एव सर्वं ब्रह्म मयि सर्वम् ||',
           transliteration: 'ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ brahma eva sarvaṃ brahma mayi sarvam ||',
           translation: 'I am Brahman, not you; I am birth, not beings; all is Brahman alone, all is Brahman in me.',
@@ -1380,7 +1380,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 27.17,
+          id: 27017,
           sanskrit: 'यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो ब्रह्मणि लीनो न तत्र संशयो भवति ||',
           transliteration: 'yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo brahmaṇi līno na tatra saṃśayo bhavati ||',
           translation: 'As rivers merge into the ocean, as lamps merge into light — so the individual self merges into Brahman. There is no doubt about this.',
@@ -1389,7 +1389,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 27.18,
+          id: 27018,
           sanskrit: 'शान्तं शिवमद्वैतं ब्रह्म नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||',
           transliteration: 'śāntaṃ śivamadvaitaṃ brahma nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||',
           translation: 'Peaceful, auspicious, non-dual Brahman — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.',
@@ -1398,7 +1398,7 @@ export const rigveda: Scripture = {
           keywords: [],
         },
         {
-          id: 85.47,
+          id: 85047,
           sanskrit: 'एको देवो द्वितीयो नास्ति यो ब्रह्म वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||',
           transliteration: 'eko devo dvitīyo nāsti yo brahma veda tattvataḥ | so\'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||',
           translation: 'There is one God, no second — he who knows Brahman in truth. I am He, not any being, no death, no sorrow, and so on.',

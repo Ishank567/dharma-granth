@@ -55,7 +55,7 @@ export const ramayana: Scripture = {
         },
       
         {
-          id: 1.14,
+          id: 1014,
           sanskrit: 'अहं तु गृध्रराजस्य जटायोः परमं प्रियम् | करिष्ये सलिलं तस्य दहिष्यामि च तं द्विजम् ||',
           transliteration: 'ahaṃ tu gṛdhrarājasya jaṭāyoḥ paramaṃ priyam | kariṣye salilaṃ tasya dahiṣyāmi ca taṃ dvijam ||',
           translation: 'I myself will perform the water-rites for Jatayu, king of eagles, the most dear one — and I will perform his cremation.',
@@ -64,7 +64,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.2,
+          id: 1002,
           sanskrit: 'रामो विग्रहवान् धर्मः साधुश्च सत्यसन्धश्च | राजा सर्वस्य लोकस्य देवानां मघवानिव ||',
           transliteration: 'rāmo vigrahavān dharmaḥ sādhuśca satyasandhaśca | rājā sarvasya lokasya devānāṃ maghavāniva ||',
           translation: 'Rama is dharma itself in embodied form — a virtuous man, true to his word, the king of all the worlds as Indra is king of the gods.',
@@ -73,7 +73,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.20,
+          id: 1020,
           sanskrit: 'न दैवमभिशंसामि पुरुषार्थमुपाश्रये | यद्भवन्ति महाभागाः स्वयमेव क्रियापराः ||',
           transliteration: 'na daivamabhiśaṃsāmi puruṣārthamupāśraye | yadbhavanti mahābhāgāḥ svayameva kriyāparāḥ ||',
           translation: 'I do not blame fate; I take refuge in human effort. Those who are truly fortunate are themselves engaged in action.',
@@ -82,7 +82,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.21,
+          id: 1021,
           sanskrit: 'न त्वं शोचितुमर्हसि | आत्मा हि लोके सर्वत्र वर्तते न विनश्यति ||',
           transliteration: 'na tvaṃ śocitumarhasi | ātmā hi loke sarvatra vartate na vinaśyati ||',
           translation: 'You should not grieve. The Self pervades everywhere in the world and does not perish.',
@@ -91,7 +91,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.22,
+          id: 1022,
           sanskrit: 'न त्वं शोचितुमर्हसि प्रियाया वियोगतः | कामक्रोधौ वशे कृत्वा कुलं रक्ष महाद्युते ||',
           transliteration: 'na tvaṃ śocitumarhasi priyāyā viyogataḥ | kāmakrodhau vaśe kṛtvā kulaṃ rakṣa mahādyute ||',
           translation: 'You should not grieve for the separation from one you love. Having brought desire and anger under control — protect the lineage, O radiant one.',
@@ -100,7 +100,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.24,
+          id: 1024,
           sanskrit: 'न स कामी न च क्रोधी न मत्सरी न च मानवान् | न मिथ्यावादी बभूव वाली वानरपुङ्गवः ||',
           transliteration: 'na sa kāmī na ca krodhī na matsarī na ca mānavān | na mithyāvādī babhūva vālī vānarapuṅgavaḥ ||',
           translation: 'He was not driven by lust, nor anger, nor envy, nor arrogance, nor falsehood — that Vali, bull among vanaras.',
@@ -109,7 +109,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.6,
+          id: 1006,
           sanskrit: 'शान्तं शिवमद्वैतं ब्रह्म नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||',
           transliteration: 'śāntaṃ śivamadvaitaṃ brahma nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||',
           translation: 'Peaceful, auspicious, non-dual Brahman — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.',
@@ -118,7 +118,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.7,
+          id: 1007,
           sanskrit: 'एको देवो द्वितीयो नास्ति यो ब्रह्म वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||',
           transliteration: 'eko devo dvitīyo nāsti yo brahma veda tattvataḥ | so\'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||',
           translation: 'There is one God, no second — he who knows Brahman in truth. I am He, not any being, no death, no sorrow, and so on.',
@@ -127,7 +127,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.8,
+          id: 1008,
           sanskrit: 'रामो विग्रहवान् धर्मः सर्वस्य जगतो गतिः | रामो राजा सर्वदेवानां रामो वेदो निगूढः ||',
           transliteration: 'rāmo vigrahavān dharmaḥ sarvasya jagato gatiḥ | rāmo rājā sarvadevānāṃ rāmo vedo nigūḍhaḥ ||',
           translation: 'Rama is dharma in embodied form; Rama is the goal of all the world. Rama is the king of all gods; Rama is the hidden Veda.',
@@ -136,7 +136,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.9,
+          id: 1009,
           sanskrit: 'जनकीनन्दनो देवो जनकीजनकः स्वयम् | जनकीकुलकमल्पो वा जनकीकुलदीप्तिमान् ||',
           transliteration: 'janakīnandano devo janakījanakaḥ svayam | janakīkulakalpo vā janakīkuladīptimān ||',
           translation: 'Janaki\'s son is the divine one; Janaki\'s husband is himself the creator. He is either the ornament of Janaki\'s lineage or the illumination of Janaki\'s lineage.',
@@ -145,7 +145,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 2.10,
+          id: 2010,
           sanskrit: 'प्रणवो धन्वो विराटो रामो राजीवलोचनः | पार्थिवो विश्वकर्मा च श्रीरामः पुरुषोत्तमः ||',
           transliteration: 'praṇavo dhanvo virāṭo rāmo rājīvalocanaḥ | pārthivo viśvakarmā ca śrīrāmaḥ puruṣottamaḥ ||',
           translation: 'Om is the bow, the universe is the arrow, Rama is the lotus-eyed one. Rama is the earthly one, the creator of all, the supreme person.',
@@ -303,7 +303,7 @@ export const ramayana: Scripture = {
         },
       
         {
-          id: 1.1,
+          id: 1001,
           sanskrit: 'न दैवमभिशंसामि पुरुषार्थमुपाश्रये | यद्भवन्ति महाभागाः स्वयमेव क्रियापराः ||',
           transliteration: 'na daivamabhiśaṃsāmi puruṣārthamupāśraye | yadbhavanti mahābhāgāḥ svayameva kriyāparāḥ ||',
           translation: 'I do not blame fate; I take refuge in human effort. Those who are truly fortunate are themselves engaged in action.',
@@ -312,7 +312,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.14,
+          id: 1014,
           sanskrit: 'अहं तु गृध्रराजस्य जटायोः परमं प्रियम् | करिष्ये सलिलं तस्य दहिष्यामि च तं द्विजम् ||',
           transliteration: 'ahaṃ tu gṛdhrarājasya jaṭāyoḥ paramaṃ priyam | kariṣye salilaṃ tasya dahiṣyāmi ca taṃ dvijam ||',
           translation: 'I myself will perform the water-rites for Jatayu, king of eagles, the most dear one — and I will perform his cremation.',
@@ -321,7 +321,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.2,
+          id: 1002,
           sanskrit: 'न त्वं शोचितुमर्हसि | आत्मा हि लोके सर्वत्र वर्तते न विनश्यति ||',
           transliteration: 'na tvaṃ śocitumarhasi | ātmā hi loke sarvatra vartate na vinaśyati ||',
           translation: 'You should not grieve. The Self pervades everywhere in the world and does not perish.',
@@ -330,7 +330,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.24,
+          id: 1024,
           sanskrit: 'न स कामी न च क्रोधी न मत्सरी न च मानवान् | न मिथ्यावादी बभूव वाली वानरपुङ्गवः ||',
           transliteration: 'na sa kāmī na ca krodhī na matsarī na ca mānavān | na mithyāvādī babhūva vālī vānarapuṅgavaḥ ||',
           translation: 'He was not driven by lust, nor anger, nor envy, nor arrogance, nor falsehood — that Vali, bull among vanaras.',
@@ -339,7 +339,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.3,
+          id: 1003,
           sanskrit: 'न त्वं शोचितुमर्हसि प्रियाया वियोगतः | कामक्रोधौ वशे कृत्वा कुलं रक्ष महाद्युते ||',
           transliteration: 'na tvaṃ śocitumarhasi priyāyā viyogataḥ | kāmakrodhau vaśe kṛtvā kulaṃ rakṣa mahādyute ||',
           translation: 'You should not grieve for the separation from one you love. Having brought desire and anger under control — protect the lineage, O radiant one.',
@@ -348,7 +348,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.4,
+          id: 1004,
           sanskrit: 'पादुके च समासाद्य भरतः स्वयमेव हि | शिरसा धारयामास प्रणम्य सविनीतवत् ||',
           transliteration: 'pāduke ca samāsādya bharataḥ svayameva hi | śirasā dhārayāmāsa praṇamya savinītavat ||',
           translation: 'Having received the sandals, Bharata himself — bowing with complete humility — bore them on his head.',
@@ -357,7 +357,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.5,
+          id: 1005,
           sanskrit: 'यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो ब्रह्मणि लीनो न तत्र संशयो भवति ||',
           transliteration: 'yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo brahmaṇi līno na tatra saṃśayo bhavati ||',
           translation: 'As rivers merge into the ocean, as lamps merge into light — so the individual self merges into Brahman. There is no doubt about this.',
@@ -366,7 +366,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.6,
+          id: 1006,
           sanskrit: 'शान्तं शिवमद्वैतं ब्रह्म नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||',
           transliteration: 'śāntaṃ śivamadvaitaṃ brahma nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||',
           translation: 'Peaceful, auspicious, non-dual Brahman — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.',
@@ -375,7 +375,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.7,
+          id: 1007,
           sanskrit: 'एको देवो द्वितीयो नास्ति यो ब्रह्म वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||',
           transliteration: 'eko devo dvitīyo nāsti yo brahma veda tattvataḥ | so\'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||',
           translation: 'There is one God, no second — he who knows Brahman in truth. I am He, not any being, no death, no sorrow, and so on.',
@@ -384,7 +384,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.8,
+          id: 1008,
           sanskrit: 'रामो विग्रहवान् धर्मः सर्वस्य जगतो गतिः | रामो राजा सर्वदेवानां रामो वेदो निगूढः ||',
           transliteration: 'rāmo vigrahavān dharmaḥ sarvasya jagato gatiḥ | rāmo rājā sarvadevānāṃ rāmo vedo nigūḍhaḥ ||',
           translation: 'Rama is dharma in embodied form; Rama is the goal of all the world. Rama is the king of all gods; Rama is the hidden Veda.',
@@ -393,7 +393,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.9,
+          id: 1009,
           sanskrit: 'जनकीनन्दनो देवो जनकीजनकः स्वयम् | जनकीकुलकमल्पो वा जनकीकुलदीप्तिमान् ||',
           transliteration: 'janakīnandano devo janakījanakaḥ svayam | janakīkulakalpo vā janakīkuladīptimān ||',
           translation: 'Janaki\'s son is the divine one; Janaki\'s husband is himself the creator. He is either the ornament of Janaki\'s lineage or the illumination of Janaki\'s lineage.',
@@ -402,7 +402,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 2.10,
+          id: 2010,
           sanskrit: 'प्रणवो धन्वो विराटो रामो राजीवलोचनः | पार्थिवो विश्वकर्मा च श्रीरामः पुरुषोत्तमः ||',
           transliteration: 'praṇavo dhanvo virāṭo rāmo rājīvalocanaḥ | pārthivo viśvakarmā ca śrīrāmaḥ puruṣottamaḥ ||',
           translation: 'Om is the bow, the universe is the arrow, Rama is the lotus-eyed one. Rama is the earthly one, the creator of all, the supreme person.',
@@ -411,7 +411,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 12.111,
+          id: 12111,
           sanskrit: 'नीतिं शास्त्रविधिं चैव शत्रोरपि गृहाण हि | उपदेशं हि कर्तव्यो यस्यासौ शास्त्रवित्तमः ||',
           transliteration: 'nītiṃ śāstravidhiṃ caiva śatrorapiGṛhāṇa hi | upadeśaṃ hi kartavyo yasyāsau śāstravittamaḥ ||',
           translation: 'Receive the teaching of statecraft and scripture even from an enemy. Teaching should be received from whoever is the greatest knower of scripture.',
@@ -576,7 +576,7 @@ export const ramayana: Scripture = {
         },
       
         {
-          id: 1.2,
+          id: 1002,
           sanskrit: 'सत्यमेव जयते नानृतं सत्येन पन्था विततो देवयानः ||',
           transliteration: 'satyameva jayate nānṛtaṃ satyena panthā vitato devayānaḥ ||',
           translation: 'Truth alone triumphs, not falsehood. By truth the path of the gods is laid out.',
@@ -585,7 +585,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.20,
+          id: 1020,
           sanskrit: 'न दैवमभिशंसामि पुरुषार्थमुपाश्रये | यद्भवन्ति महाभागाः स्वयमेव क्रियापराः ||',
           transliteration: 'na daivamabhiśaṃsāmi puruṣārthamupāśraye | yadbhavanti mahābhāgāḥ svayameva kriyāparāḥ ||',
           translation: 'I do not blame fate; I take refuge in human effort. Those who are truly fortunate are themselves engaged in action.',
@@ -594,7 +594,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.21,
+          id: 1021,
           sanskrit: 'न त्वं शोचितुमर्हसि | आत्मा हि लोके सर्वत्र वर्तते न विनश्यति ||',
           transliteration: 'na tvaṃ śocitumarhasi | ātmā hi loke sarvatra vartate na vinaśyati ||',
           translation: 'You should not grieve. The Self pervades everywhere in the world and does not perish.',
@@ -603,7 +603,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.22,
+          id: 1022,
           sanskrit: 'न त्वं शोचितुमर्हसि प्रियाया वियोगतः | कामक्रोधौ वशे कृत्वा कुलं रक्ष महाद्युते ||',
           transliteration: 'na tvaṃ śocitumarhasi priyāyā viyogataḥ | kāmakrodhau vaśe kṛtvā kulaṃ rakṣa mahādyute ||',
           translation: 'You should not grieve for the separation from one you love. Having brought desire and anger under control — protect the lineage, O radiant one.',
@@ -612,7 +612,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.3,
+          id: 1003,
           sanskrit: 'अहं तु गृध्रराजस्य जटायोः परमं प्रियम् | करिष्ये सलिलं तस्य दहिष्यामि च तं द्विजम् ||',
           transliteration: 'ahaṃ tu gṛdhrarājasya jaṭāyoḥ paramaṃ priyam | kariṣye salilaṃ tasya dahiṣyāmi ca taṃ dvijam ||',
           translation: 'I myself will perform the water-rites for Jatayu, king of eagles, the most dear one — and I will perform his cremation.',
@@ -621,7 +621,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.4,
+          id: 1004,
           sanskrit: 'इक्ष्वाकुवंशप्रभवो रामो नाम जनैः श्रुतः | नियतात्मा महावीर्यो द्युतिमान् धृतिमान् वशी ||',
           transliteration: 'ikṣvākuvaṃśaprabhavo rāmo nāma janaiḥ śrutaḥ | niyatātmā mahāvīryo dyutimān dhṛtimān vaśī ||',
           translation: 'Born of the Ikshvaku lineage, known to the people as Rama — self-controlled, of great valour, radiant, steadfast, master of his senses.',
@@ -630,7 +630,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.5,
+          id: 1005,
           sanskrit: 'यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो ब्रह्मणि लीनो न तत्र संशयो भवति ||',
           transliteration: 'yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo brahmaṇi līno na tatra saṃśayo bhavati ||',
           translation: 'As rivers merge into the ocean, as lamps merge into light — so the individual self merges into Brahman. There is no doubt about this.',
@@ -639,7 +639,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.6,
+          id: 1006,
           sanskrit: 'शान्तं शिवमद्वैतं ब्रह्म नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||',
           transliteration: 'śāntaṃ śivamadvaitaṃ brahma nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||',
           translation: 'Peaceful, auspicious, non-dual Brahman — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.',
@@ -648,7 +648,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.7,
+          id: 1007,
           sanskrit: 'एको देवो द्वितीयो नास्ति यो ब्रह्म वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||',
           transliteration: 'eko devo dvitīyo nāsti yo brahma veda tattvataḥ | so\'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||',
           translation: 'There is one God, no second — he who knows Brahman in truth. I am He, not any being, no death, no sorrow, and so on.',
@@ -657,7 +657,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.8,
+          id: 1008,
           sanskrit: 'रामो विग्रहवान् धर्मः सर्वस्य जगतो गतिः | रामो राजा सर्वदेवानां रामो वेदो निगूढः ||',
           transliteration: 'rāmo vigrahavān dharmaḥ sarvasya jagato gatiḥ | rāmo rājā sarvadevānāṃ rāmo vedo nigūḍhaḥ ||',
           translation: 'Rama is dharma in embodied form; Rama is the goal of all the world. Rama is the king of all gods; Rama is the hidden Veda.',
@@ -666,7 +666,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.9,
+          id: 1009,
           sanskrit: 'जनकीनन्दनो देवो जनकीजनकः स्वयम् | जनकीकुलकमल्पो वा जनकीकुलदीप्तिमान् ||',
           transliteration: 'janakīnandano devo janakījanakaḥ svayam | janakīkulakalpo vā janakīkuladīptimān ||',
           translation: 'Janaki\'s son is the divine one; Janaki\'s husband is himself the creator. He is either the ornament of Janaki\'s lineage or the illumination of Janaki\'s lineage.',
@@ -675,7 +675,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 2.10,
+          id: 2010,
           sanskrit: 'प्रणवो धन्वो विराटो रामो राजीवलोचनः | पार्थिवो विश्वकर्मा च श्रीरामः पुरुषोत्तमः ||',
           transliteration: 'praṇavo dhanvo virāṭo rāmo rājīvalocanaḥ | pārthivo viśvakarmā ca śrīrāmaḥ puruṣottamaḥ ||',
           translation: 'Om is the bow, the universe is the arrow, Rama is the lotus-eyed one. Rama is the earthly one, the creator of all, the supreme person.',
@@ -684,7 +684,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 2.24,
+          id: 2024,
           sanskrit: 'न स कामी न च क्रोधी न मत्सरी न च मानवान् | न मिथ्यावादी बभूव वाली वानरपुङ्गवः ||',
           transliteration: 'na sa kāmī na ca krodhī na matsarī na ca mānavān | na mithyāvādī babhūva vālī vānarapuṅgavaḥ ||',
           translation: 'He was not driven by lust, nor anger, nor envy, nor arrogance, nor falsehood — that Vali, bull among vanaras.',
@@ -849,7 +849,7 @@ export const ramayana: Scripture = {
         },
       
         {
-          id: 1.111,
+          id: 1111,
           sanskrit: 'नीतिं शास्त्रविधिं चैव शत्रोरपि गृहाण हि | उपदेशं हि कर्तव्यो यस्यासौ शास्त्रवित्तमः ||',
           transliteration: 'nītiṃ śāstravidhiṃ caiva śatrorapiGṛhāṇa hi | upadeśaṃ hi kartavyo yasyāsau śāstravittamaḥ ||',
           translation: 'Receive the teaching of statecraft and scripture even from an enemy. Teaching should be received from whoever is the greatest knower of scripture.',
@@ -858,7 +858,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.112,
+          id: 1112,
           sanskrit: 'पादुके च समासाद्य भरतः स्वयमेव हि | शिरसा धारयामास प्रणम्य सविनीतवत् ||',
           transliteration: 'pāduke ca samāsādya bharataḥ svayameva hi | śirasā dhārayāmāsa praṇamya savinītavat ||',
           translation: 'Having received the sandals, Bharata himself — bowing with complete humility — bore them on his head.',
@@ -867,7 +867,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.14,
+          id: 1014,
           sanskrit: 'अहं तु गृध्रराजस्य जटायोः परमं प्रियम् | करिष्ये सलिलं तस्य दहिष्यामि च तं द्विजम् ||',
           transliteration: 'ahaṃ tu gṛdhrarājasya jaṭāyoḥ paramaṃ priyam | kariṣye salilaṃ tasya dahiṣyāmi ca taṃ dvijam ||',
           translation: 'I myself will perform the water-rites for Jatayu, king of eagles, the most dear one — and I will perform his cremation.',
@@ -876,7 +876,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.2,
+          id: 1002,
           sanskrit: 'उत्साहो बलवानार्य नास्त्युत्साहात्परं बलम् | सोत्साहस्य च लोकेऽस्मिन् न किञ्चिदपि दुर्लभम् ||',
           transliteration: 'utsāho balavānārya nāstyutsāhātparaṃ balam | sotsāhasya ca loke\'smin na kiñcidapi durlabham ||',
           translation: 'O noble one, enthusiasm is the greatest strength — there is no power greater than enthusiasm. For one who has enthusiasm, nothing in this world is unattainable.',
@@ -885,7 +885,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.20,
+          id: 1020,
           sanskrit: 'न दैवमभिशंसामि पुरुषार्थमुपाश्रये | यद्भवन्ति महाभागाः स्वयमेव क्रियापराः ||',
           transliteration: 'na daivamabhiśaṃsāmi puruṣārthamupāśraye | yadbhavanti mahābhāgāḥ svayameva kriyāparāḥ ||',
           translation: 'I do not blame fate; I take refuge in human effort. Those who are truly fortunate are themselves engaged in action.',
@@ -894,7 +894,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.21,
+          id: 1021,
           sanskrit: 'न त्वं शोचितुमर्हसि | आत्मा हि लोके सर्वत्र वर्तते न विनश्यति ||',
           transliteration: 'na tvaṃ śocitumarhasi | ātmā hi loke sarvatra vartate na vinaśyati ||',
           translation: 'You should not grieve. The Self pervades everywhere in the world and does not perish.',
@@ -903,7 +903,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.22,
+          id: 1022,
           sanskrit: 'न त्वं शोचितुमर्हसि प्रियाया वियोगतः | कामक्रोधौ वशे कृत्वा कुलं रक्ष महाद्युते ||',
           transliteration: 'na tvaṃ śocitumarhasi priyāyā viyogataḥ | kāmakrodhau vaśe kṛtvā kulaṃ rakṣa mahādyute ||',
           translation: 'You should not grieve for the separation from one you love. Having brought desire and anger under control — protect the lineage, O radiant one.',
@@ -912,7 +912,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.3,
+          id: 1003,
           sanskrit: 'न स कामी न च क्रोधी न मत्सरी न च मानवान् | न मिथ्यावादी बभूव वाली वानरपुङ्गवः ||',
           transliteration: 'na sa kāmī na ca krodhī na matsarī na ca mānavān | na mithyāvādī babhūva vālī vānarapuṅgavaḥ ||',
           translation: 'He was not driven by lust, nor anger, nor envy, nor arrogance, nor falsehood — that Vali, bull among vanaras.',
@@ -921,7 +921,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.4,
+          id: 1004,
           sanskrit: 'इक्ष्वाकुवंशप्रभवो रामो नाम जनैः श्रुतः | नियतात्मा महावीर्यो द्युतिमान् धृतिमान् वशी ||',
           transliteration: 'ikṣvākuvaṃśaprabhavo rāmo nāma janaiḥ śrutaḥ | niyatātmā mahāvīryo dyutimān dhṛtimān vaśī ||',
           translation: 'Born of the Ikshvaku lineage, known to the people as Rama — self-controlled, of great valour, radiant, steadfast, master of his senses.',
@@ -930,7 +930,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.5,
+          id: 1005,
           sanskrit: 'यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो ब्रह्मणि लीनो न तत्र संशयो भवति ||',
           transliteration: 'yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo brahmaṇi līno na tatra saṃśayo bhavati ||',
           translation: 'As rivers merge into the ocean, as lamps merge into light — so the individual self merges into Brahman. There is no doubt about this.',
@@ -939,7 +939,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.6,
+          id: 1006,
           sanskrit: 'शान्तं शिवमद्वैतं ब्रह्म नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||',
           transliteration: 'śāntaṃ śivamadvaitaṃ brahma nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||',
           translation: 'Peaceful, auspicious, non-dual Brahman — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.',
@@ -948,7 +948,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.7,
+          id: 1007,
           sanskrit: 'एको देवो द्वितीयो नास्ति यो ब्रह्म वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||',
           transliteration: 'eko devo dvitīyo nāsti yo brahma veda tattvataḥ | so\'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||',
           translation: 'There is one God, no second — he who knows Brahman in truth. I am He, not any being, no death, no sorrow, and so on.',
@@ -957,7 +957,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.8,
+          id: 1008,
           sanskrit: 'रामो विग्रहवान् धर्मः सर्वस्य जगतो गतिः | रामो राजा सर्वदेवानां रामो वेदो निगूढः ||',
           transliteration: 'rāmo vigrahavān dharmaḥ sarvasya jagato gatiḥ | rāmo rājā sarvadevānāṃ rāmo vedo nigūḍhaḥ ||',
           translation: 'Rama is dharma in embodied form; Rama is the goal of all the world. Rama is the king of all gods; Rama is the hidden Veda.',
@@ -966,7 +966,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.9,
+          id: 1009,
           sanskrit: 'जनकीनन्दनो देवो जनकीजनकः स्वयम् | जनकीकुलकमल्पो वा जनकीकुलदीप्तिमान् ||',
           transliteration: 'janakīnandano devo janakījanakaḥ svayam | janakīkulakalpo vā janakīkuladīptimān ||',
           translation: 'Janaki\'s son is the divine one; Janaki\'s husband is himself the creator. He is either the ornament of Janaki\'s lineage or the illumination of Janaki\'s lineage.',
@@ -975,7 +975,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 2.10,
+          id: 2010,
           sanskrit: 'प्रणवो धन्वो विराटो रामो राजीवलोचनः | पार्थिवो विश्वकर्मा च श्रीरामः पुरुषोत्तमः ||',
           transliteration: 'praṇavo dhanvo virāṭo rāmo rājīvalocanaḥ | pārthivo viśvakarmā ca śrīrāmaḥ puruṣottamaḥ ||',
           translation: 'Om is the bow, the universe is the arrow, Rama is the lotus-eyed one. Rama is the earthly one, the creator of all, the supreme person.',
@@ -1158,7 +1158,7 @@ export const ramayana: Scripture = {
         },
       
         {
-          id: 1.111,
+          id: 1111,
           sanskrit: 'नीतिं शास्त्रविधिं चैव शत्रोरपि गृहाण हि | उपदेशं हि कर्तव्यो यस्यासौ शास्त्रवित्तमः ||',
           transliteration: 'nītiṃ śāstravidhiṃ caiva śatrorapiGṛhāṇa hi | upadeśaṃ hi kartavyo yasyāsau śāstravittamaḥ ||',
           translation: 'Receive the teaching of statecraft and scripture even from an enemy. Teaching should be received from whoever is the greatest knower of scripture.',
@@ -1167,7 +1167,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.112,
+          id: 1112,
           sanskrit: 'पादुके च समासाद्य भरतः स्वयमेव हि | शिरसा धारयामास प्रणम्य सविनीतवत् ||',
           transliteration: 'pāduke ca samāsādya bharataḥ svayameva hi | śirasā dhārayāmāsa praṇamya savinītavat ||',
           translation: 'Having received the sandals, Bharata himself — bowing with complete humility — bore them on his head.',
@@ -1176,7 +1176,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.14,
+          id: 1014,
           sanskrit: 'अहं तु गृध्रराजस्य जटायोः परमं प्रियम् | करिष्ये सलिलं तस्य दहिष्यामि च तं द्विजम् ||',
           transliteration: 'ahaṃ tu gṛdhrarājasya jaṭāyoḥ paramaṃ priyam | kariṣye salilaṃ tasya dahiṣyāmi ca taṃ dvijam ||',
           translation: 'I myself will perform the water-rites for Jatayu, king of eagles, the most dear one — and I will perform his cremation.',
@@ -1185,7 +1185,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.2,
+          id: 1002,
           sanskrit: 'मनसा चिन्तितं कार्यं वाचा नैव प्रकाशयेत् | मन्त्रेण रक्षयेत् कार्यं कृत्वा चापि न कथयेत् ||',
           transliteration: 'manasā cintitaṃ kāryaṃ vācā naiva prakāśayet | mantreṇa rakṣayet kāryaṃ kṛtvā cāpi na kathayet ||',
           translation: 'The work conceived in the mind should not be disclosed by speech. Protect the plan in counsel; and even after doing it, do not proclaim it.',
@@ -1194,7 +1194,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.20,
+          id: 1020,
           sanskrit: 'न दैवमभिशंसामि पुरुषार्थमुपाश्रये | यद्भवन्ति महाभागाः स्वयमेव क्रियापराः ||',
           transliteration: 'na daivamabhiśaṃsāmi puruṣārthamupāśraye | yadbhavanti mahābhāgāḥ svayameva kriyāparāḥ ||',
           translation: 'I do not blame fate; I take refuge in human effort. Those who are truly fortunate are themselves engaged in action.',
@@ -1203,7 +1203,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.21,
+          id: 1021,
           sanskrit: 'न त्वं शोचितुमर्हसि | आत्मा हि लोके सर्वत्र वर्तते न विनश्यति ||',
           transliteration: 'na tvaṃ śocitumarhasi | ātmā hi loke sarvatra vartate na vinaśyati ||',
           translation: 'You should not grieve. The Self pervades everywhere in the world and does not perish.',
@@ -1212,7 +1212,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.24,
+          id: 1024,
           sanskrit: 'न स कामी न च क्रोधी न मत्सरी न च मानवान् | न मिथ्यावादी बभूव वाली वानरपुङ्गवः ||',
           transliteration: 'na sa kāmī na ca krodhī na matsarī na ca mānavān | na mithyāvādī babhūva vālī vānarapuṅgavaḥ ||',
           translation: 'He was not driven by lust, nor anger, nor envy, nor arrogance, nor falsehood — that Vali, bull among vanaras.',
@@ -1221,7 +1221,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.3,
+          id: 1003,
           sanskrit: 'न मां दशरथः शक्तः सोढुमन्यः पुमान् इह | मां सीतां रावणो जेतुं न शक्यः सर्वथा क्वचित् ||',
           transliteration: 'na māṃ daśarathaḥ śaktaḥ soḍhumanyaḥ pumān iha | māṃ sītāṃ rāvaṇo jetuṃ na śakyaḥ sarvathā kvacit ||',
           translation: 'Not Dasharatha, not any other man could endure what I have endured. Ravana can never, in any way, conquer me — Sita.',
@@ -1230,7 +1230,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.4,
+          id: 1004,
           sanskrit: 'इक्ष्वाकुवंशप्रभवो रामो नाम जनैः श्रुतः | नियतात्मा महावीर्यो द्युतिमान् धृतिमान् वशी ||',
           transliteration: 'ikṣvākuvaṃśaprabhavo rāmo nāma janaiḥ śrutaḥ | niyatātmā mahāvīryo dyutimān dhṛtimān vaśī ||',
           translation: 'Born of the Ikshvaku lineage, known to the people as Rama — self-controlled, of great valour, radiant, steadfast, master of his senses.',
@@ -1239,7 +1239,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.5,
+          id: 1005,
           sanskrit: 'यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो ब्रह्मणि लीनो न तत्र संशयो भवति ||',
           transliteration: 'yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo brahmaṇi līno na tatra saṃśayo bhavati ||',
           translation: 'As rivers merge into the ocean, as lamps merge into light — so the individual self merges into Brahman. There is no doubt about this.',
@@ -1248,7 +1248,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.6,
+          id: 1006,
           sanskrit: 'शान्तं शिवमद्वैतं ब्रह्म नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||',
           transliteration: 'śāntaṃ śivamadvaitaṃ brahma nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||',
           translation: 'Peaceful, auspicious, non-dual Brahman — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.',
@@ -1257,7 +1257,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.7,
+          id: 1007,
           sanskrit: 'एको देवो द्वितीयो नास्ति यो ब्रह्म वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||',
           transliteration: 'eko devo dvitīyo nāsti yo brahma veda tattvataḥ | so\'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||',
           translation: 'There is one God, no second — he who knows Brahman in truth. I am He, not any being, no death, no sorrow, and so on.',
@@ -1266,7 +1266,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.8,
+          id: 1008,
           sanskrit: 'रामो विग्रहवान् धर्मः सर्वस्य जगतो गतिः | रामो राजा सर्वदेवानां रामो वेदो निगूढः ||',
           transliteration: 'rāmo vigrahavān dharmaḥ sarvasya jagato gatiḥ | rāmo rājā sarvadevānāṃ rāmo vedo nigūḍhaḥ ||',
           translation: 'Rama is dharma in embodied form; Rama is the goal of all the world. Rama is the king of all gods; Rama is the hidden Veda.',
@@ -1275,7 +1275,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.9,
+          id: 1009,
           sanskrit: 'जनकीनन्दनो देवो जनकीजनकः स्वयम् | जनकीकुलकमल्पो वा जनकीकुलदीप्तिमान् ||',
           transliteration: 'janakīnandano devo janakījanakaḥ svayam | janakīkulakalpo vā janakīkuladīptimān ||',
           translation: 'Janaki\'s son is the divine one; Janaki\'s husband is himself the creator. He is either the ornament of Janaki\'s lineage or the illumination of Janaki\'s lineage.',
@@ -1284,7 +1284,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 2.10,
+          id: 2010,
           sanskrit: 'प्रणवो धन्वो विराटो रामो राजीवलोचनः | पार्थिवो विश्वकर्मा च श्रीरामः पुरुषोत्तमः ||',
           transliteration: 'praṇavo dhanvo virāṭo rāmo rājīvalocanaḥ | pārthivo viśvakarmā ca śrīrāmaḥ puruṣottamaḥ ||',
           translation: 'Om is the bow, the universe is the arrow, Rama is the lotus-eyed one. Rama is the earthly one, the creator of all, the supreme person.',
@@ -1467,7 +1467,7 @@ export const ramayana: Scripture = {
         },
       
         {
-          id: 1.14,
+          id: 1014,
           sanskrit: 'अहं तु गृध्रराजस्य जटायोः परमं प्रियम् | करिष्ये सलिलं तस्य दहिष्यामि च तं द्विजम् ||',
           transliteration: 'ahaṃ tu gṛdhrarājasya jaṭāyoḥ paramaṃ priyam | kariṣye salilaṃ tasya dahiṣyāmi ca taṃ dvijam ||',
           translation: 'I myself will perform the water-rites for Jatayu, king of eagles, the most dear one — and I will perform his cremation.',
@@ -1476,7 +1476,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.2,
+          id: 1002,
           sanskrit: 'सर्वे भवन्तु सुखिनः सर्वे सन्तु निरामयाः | सर्वे भद्राणि पश्यन्तु मा कश्चिद् दुःखभाग्भवेत् ||',
           transliteration: 'sarve bhavantu sukhinaḥ sarve santu nirāmayāḥ | sarve bhadrāṇi paśyantu mā kaścid duḥkhabhāgbhavet ||',
           translation: 'May all be happy; may all be free from disease; may all see auspiciousness; may no one have a share of sorrow.',
@@ -1485,7 +1485,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.3,
+          id: 1003,
           sanskrit: 'नीतिं शास्त्रविधिं चैव शत्रोरपि गृहाण हि | उपदेशं हि कर्तव्यो यस्यासौ शास्त्रवित्तमः ||',
           transliteration: 'nītiṃ śāstravidhiṃ caiva śatrorapiGṛhāṇa hi | upadeśaṃ hi kartavyo yasyāsau śāstravittamaḥ ||',
           translation: 'Receive the teaching of statecraft and scripture even from an enemy. Teaching should be received from whoever is the greatest knower of scripture.',
@@ -1494,7 +1494,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.4,
+          id: 1004,
           sanskrit: 'इक्ष्वाकुवंशप्रभवो रामो नाम जनैः श्रुतः | नियतात्मा महावीर्यो द्युतिमान् धृतिमान् वशी ||',
           transliteration: 'ikṣvākuvaṃśaprabhavo rāmo nāma janaiḥ śrutaḥ | niyatātmā mahāvīryo dyutimān dhṛtimān vaśī ||',
           translation: 'Born of the Ikshvaku lineage, known to the people as Rama — self-controlled, of great valour, radiant, steadfast, master of his senses.',
@@ -1503,7 +1503,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.5,
+          id: 1005,
           sanskrit: 'यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो ब्रह्मणि लीनो न तत्र संशयो भवति ||',
           transliteration: 'yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo brahmaṇi līno na tatra saṃśayo bhavati ||',
           translation: 'As rivers merge into the ocean, as lamps merge into light — so the individual self merges into Brahman. There is no doubt about this.',
@@ -1512,7 +1512,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.6,
+          id: 1006,
           sanskrit: 'शान्तं शिवमद्वैतं ब्रह्म नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||',
           transliteration: 'śāntaṃ śivamadvaitaṃ brahma nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||',
           translation: 'Peaceful, auspicious, non-dual Brahman — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.',
@@ -1521,7 +1521,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.7,
+          id: 1007,
           sanskrit: 'एको देवो द्वितीयो नास्ति यो ब्रह्म वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||',
           transliteration: 'eko devo dvitīyo nāsti yo brahma veda tattvataḥ | so\'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||',
           translation: 'There is one God, no second — he who knows Brahman in truth. I am He, not any being, no death, no sorrow, and so on.',
@@ -1530,7 +1530,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.8,
+          id: 1008,
           sanskrit: 'रामो विग्रहवान् धर्मः सर्वस्य जगतो गतिः | रामो राजा सर्वदेवानां रामो वेदो निगूढः ||',
           transliteration: 'rāmo vigrahavān dharmaḥ sarvasya jagato gatiḥ | rāmo rājā sarvadevānāṃ rāmo vedo nigūḍhaḥ ||',
           translation: 'Rama is dharma in embodied form; Rama is the goal of all the world. Rama is the king of all gods; Rama is the hidden Veda.',
@@ -1539,7 +1539,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.9,
+          id: 1009,
           sanskrit: 'जनकीनन्दनो देवो जनकीजनकः स्वयम् | जनकीकुलकमल्पो वा जनकीकुलदीप्तिमान् ||',
           transliteration: 'janakīnandano devo janakījanakaḥ svayam | janakīkulakalpo vā janakīkuladīptimān ||',
           translation: 'Janaki\'s son is the divine one; Janaki\'s husband is himself the creator. He is either the ornament of Janaki\'s lineage or the illumination of Janaki\'s lineage.',
@@ -1548,7 +1548,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 2.10,
+          id: 2010,
           sanskrit: 'प्रणवो धन्वो विराटो रामो राजीवलोचनः | पार्थिवो विश्वकर्मा च श्रीरामः पुरुषोत्तमः ||',
           transliteration: 'praṇavo dhanvo virāṭo rāmo rājīvalocanaḥ | pārthivo viśvakarmā ca śrīrāmaḥ puruṣottamaḥ ||',
           translation: 'Om is the bow, the universe is the arrow, Rama is the lotus-eyed one. Rama is the earthly one, the creator of all, the supreme person.',
@@ -1557,7 +1557,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 2.20,
+          id: 2020,
           sanskrit: 'न दैवमभिशंसामि पुरुषार्थमुपाश्रये | यद्भवन्ति महाभागाः स्वयमेव क्रियापराः ||',
           transliteration: 'na daivamabhiśaṃsāmi puruṣārthamupāśraye | yadbhavanti mahābhāgāḥ svayameva kriyāparāḥ ||',
           translation: 'I do not blame fate; I take refuge in human effort. Those who are truly fortunate are themselves engaged in action.',
@@ -1566,7 +1566,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 2.21,
+          id: 2021,
           sanskrit: 'न त्वं शोचितुमर्हसि | आत्मा हि लोके सर्वत्र वर्तते न विनश्यति ||',
           transliteration: 'na tvaṃ śocitumarhasi | ātmā hi loke sarvatra vartate na vinaśyati ||',
           translation: 'You should not grieve. The Self pervades everywhere in the world and does not perish.',
@@ -1575,7 +1575,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 2.22,
+          id: 2022,
           sanskrit: 'न त्वं शोचितुमर्हसि प्रियाया वियोगतः | कामक्रोधौ वशे कृत्वा कुलं रक्ष महाद्युते ||',
           transliteration: 'na tvaṃ śocitumarhasi priyāyā viyogataḥ | kāmakrodhau vaśe kṛtvā kulaṃ rakṣa mahādyute ||',
           translation: 'You should not grieve for the separation from one you love. Having brought desire and anger under control — protect the lineage, O radiant one.',
@@ -1584,7 +1584,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 2.24,
+          id: 2024,
           sanskrit: 'न स कामी न च क्रोधी न मत्सरी न च मानवान् | न मिथ्यावादी बभूव वाली वानरपुङ्गवः ||',
           transliteration: 'na sa kāmī na ca krodhī na matsarī na ca mānavān | na mithyāvādī babhūva vālī vānarapuṅgavaḥ ||',
           translation: 'He was not driven by lust, nor anger, nor envy, nor arrogance, nor falsehood — that Vali, bull among vanaras.',
@@ -1593,7 +1593,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 59.112,
+          id: 59112,
           sanskrit: 'पादुके च समासाद्य भरतः स्वयमेव हि | शिरसा धारयामास प्रणम्य सविनीतवत् ||',
           transliteration: 'pāduke ca samāsādya bharataḥ svayameva hi | śirasā dhārayāmāsa praṇamya savinītavat ||',
           translation: 'Having received the sandals, Bharata himself — bowing with complete humility — bore them on his head.',
@@ -1843,7 +1843,7 @@ export const ramayana: Scripture = {
         },
       
         {
-          id: 1.10,
+          id: 1010,
           sanskrit: 'प्रणवो धन्वो विराटो रामो राजीवलोचनः | पार्थिवो विश्वकर्मा च श्रीरामः पुरुषोत्तमः ||',
           transliteration: 'praṇavo dhanvo virāṭo rāmo rājīvalocanaḥ | pārthivo viśvakarmā ca śrīrāmaḥ puruṣottamaḥ ||',
           translation: 'Om is the bow, the universe is the arrow, Rama is the lotus-eyed one. Rama is the earthly one, the creator of all, the supreme person.',
@@ -1852,7 +1852,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.2,
+          id: 1002,
           sanskrit: 'आत्मानं रथिनं विद्धि शरीरं रथमेव च | बुद्धिं तु सारथिं विद्धि मनः प्रग्रहमेव च ||',
           transliteration: 'ātmānaṃ rathinaṃ viddhi śarīraṃ rathameva ca | buddhiṃ tu sārathiṃ viddhi manaḥ pragrahameva ca ||',
           translation: 'Know the Self as the rider of the chariot; the body is the chariot itself; know the intellect as the charioteer; the mind is the reins.',
@@ -1861,7 +1861,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.20,
+          id: 1020,
           sanskrit: 'न दैवमभिशंसामि पुरुषार्थमुपाश्रये | यद्भवन्ति महाभागाः स्वयमेव क्रियापराः ||',
           transliteration: 'na daivamabhiśaṃsāmi puruṣārthamupāśraye | yadbhavanti mahābhāgāḥ svayameva kriyāparāḥ ||',
           translation: 'I do not blame fate; I take refuge in human effort. Those who are truly fortunate are themselves engaged in action.',
@@ -1870,7 +1870,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.21,
+          id: 1021,
           sanskrit: 'न त्वं शोचितुमर्हसि | आत्मा हि लोके सर्वत्र वर्तते न विनश्यति ||',
           transliteration: 'na tvaṃ śocitumarhasi | ātmā hi loke sarvatra vartate na vinaśyati ||',
           translation: 'You should not grieve. The Self pervades everywhere in the world and does not perish.',
@@ -1879,7 +1879,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.22,
+          id: 1022,
           sanskrit: 'न त्वं शोचितुमर्हसि प्रियाया वियोगतः | कामक्रोधौ वशे कृत्वा कुलं रक्ष महाद्युते ||',
           transliteration: 'na tvaṃ śocitumarhasi priyāyā viyogataḥ | kāmakrodhau vaśe kṛtvā kulaṃ rakṣa mahādyute ||',
           translation: 'You should not grieve for the separation from one you love. Having brought desire and anger under control — protect the lineage, O radiant one.',
@@ -1888,7 +1888,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.24,
+          id: 1024,
           sanskrit: 'न स कामी न च क्रोधी न मत्सरी न च मानवान् | न मिथ्यावादी बभूव वाली वानरपुङ्गवः ||',
           transliteration: 'na sa kāmī na ca krodhī na matsarī na ca mānavān | na mithyāvādī babhūva vālī vānarapuṅgavaḥ ||',
           translation: 'He was not driven by lust, nor anger, nor envy, nor arrogance, nor falsehood — that Vali, bull among vanaras.',
@@ -1897,7 +1897,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 1.3,
+          id: 1003,
           sanskrit: 'योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो ब्रह्मसमाश्रयः ||',
           transliteration: 'yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ brahmasamāśrayaḥ ||',
           translation: 'Yoga is the cessation of mental modifications; yoga gives liberation. Yoga cuts all bonds; yoga rests on Brahman.',
@@ -1906,7 +1906,7 @@ export const ramayana: Scripture = {
           keywords: [],
         },
         {
-          id: 2.14,
+          id: 2014,
           sanskrit: 'अहं तु गृध्रराजस्य जटायोः परमं प्रियम् | करिष्ये सलिलं तस्य दहिष्यामि च तं द्विजम् ||',
           transliteration: 'ahaṃ tu gṛdhrarājasya jaṭāyoḥ paramaṃ priyam | kariṣye salilaṃ tasya dahiṣyāmi ca taṃ dvijam ||',
           translation: 'I myself will perform the water-rites for Jatayu, king of eagles, the most dear one — and I will perform his cremation.',
