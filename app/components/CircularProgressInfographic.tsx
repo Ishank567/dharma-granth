@@ -219,7 +219,7 @@ export function CircularProgressInfographic({ stats, className = '' }: CircularP
           </div>
 
           <p className="opacity-90 max-w-2xl mx-auto">
-            Keep up the great work! You're making excellent progress on your spiritual journey.
+            Keep up the great work! You&rsquo;re making excellent progress on your spiritual journey.
           </p>
           
           <motion.div

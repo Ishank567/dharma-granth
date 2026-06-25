@@ -311,7 +311,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
             {!hasMeaning && (
               <div className="mt-3 rounded-lg border border-dashed border-dharma-border/60 bg-dharma-bg/60 p-3 text-xs text-dharma-muted">
                 <p className="italic">इस श्लोक के लिए विस्तृत हिन्दी व्याख्या, आधुनिक विज्ञान-दृष्टि और जीवन-शिक्षा अभी क्यूरेटेड चयन में उपलब्ध है।</p>
-                <p className="mt-1">ऊपर दिखाए गए 'सीखने वाले श्लोकों' में गहन अर्थ (explanation + science + lifeLesson) देखें। पूर्ण अध्याय का मूल पाठ मुख्यतः पाठन और संदर्भ के लिए है।</p>
+                <p className="mt-1">ऊपर दिखाए गए &lsquo;सीखने वाले श्लोकों&rsquo; में गहन अर्थ (explanation + science + lifeLesson) देखें। पूर्ण अध्याय का मूल पाठ मुख्यतः पाठन और संदर्भ के लिए है।</p>
                 <button
                   type="button"
                   onClick={() => setContributeVerse(v)}
