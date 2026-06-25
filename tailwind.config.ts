@@ -28,6 +28,7 @@ const config: Config = {
           muted: 'var(--dharma-muted)',
           border: 'var(--dharma-border)',
           card: 'var(--dharma-card)',
+          'panel-muted': 'var(--dharma-panel-muted)',
         }
       },
       fontFamily: {

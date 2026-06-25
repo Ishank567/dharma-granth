@@ -19,12 +19,20 @@
         {
           "number": 1,
           "sanskrit": "ज्ञानं परं ब्रह्म स्वयम्प्रकाशम् | अज्ञानात् जगदाभाति मिथ्यारूपेण चेतसि ||",
-          "transliteration": "jñānaṃ paraṃ brahma svayamprakāśam | ajñānāt jagadābhāti mithyārūpeṇa cetasi ||"
+          "transliteration": "jñānaṃ paraṃ brahma svayamprakāśam | ajñānāt jagadābhāti mithyārūpeṇa cetasi ||",
+          "translation": "Knowledge is the supreme Brahman — self-luminous. Through ignorance, the world appears in the mind in a false form.",
+          "hindi": "ज्ञान परम ब्रह्म है — स्वयंप्रकाश। अज्ञान से जगत् चेतस में मिथ्यारूप से प्रतीत होता है।",
+          "commentary": "The Shiva Samhita's opening: \"jñānaṃ paraṃ brahma svayamprakāśam\" — pure awareness is the supreme Brahman, self-luminous. Not the object known, not the knower as a separate entity — the pure act of knowing itself is Brahman. The world appears as separate from consciousness only in the state of ajnana. \"Mithyārūpeṇa\" — in a false form: not that the world does not appear, but that its appearance as separate from consciousness is the misapprehension. All subsequent techniques serve this single recognition.",
+          "wordMeaning": "The Shiva Samhita's opening: \"jñānaṃ paraṃ brahma svayamprakāśam\" — pure awareness is the supreme Brahman, self-luminous. Not the object known, not the knower as a separate entity — the pure act of knowing itself is Brahman. The world appears as separate from consciousness only in the state of ajnana. \"Mithyārūpeṇa\" — in a false form: not that the world does not appear, but that its appearance as separate from consciousness is the misapprehension. All subsequent techniques serve this single recognition."
         },
         {
           "number": 17,
           "sanskrit": "एक एव परात्मा तु द्वैतं नास्ति कदाचन | यत्र यत्र मनो याति तत्र तत्र समाधयः ||",
-          "transliteration": "eka eva parātmā tu dvaitaṃ nāsti kadācana | yatra yatra mano yāti tatra tatra samādhayaḥ ||"
+          "transliteration": "eka eva parātmā tu dvaitaṃ nāsti kadācana | yatra yatra mano yāti tatra tatra samādhayaḥ ||",
+          "translation": "There is only one supreme Self — duality never exists. Wherever the mind goes, there is samadhi.",
+          "hindi": "एक ही परमात्मा है — द्वैत कभी नहीं। जहाँ-जहाँ मन जाता है, वहाँ-वहाँ समाधि है।",
+          "commentary": "\"Yatra yatra mano yāti tatra tatra samādhayaḥ\" — wherever the mind goes, there is samadhi. The most radical possible statement: samadhi is not a special state that occurs only when the mind stops. Wherever the mind goes, it moves within the one Self. The mind going to a tree is samadhi. The mind going to a conversation is samadhi. What converts ordinary movement into recognised samadhi is only the recognition of the non-dual ground. Practice is not forcing the mind into one place — it is recognising that wherever it is, it is already home.",
+          "wordMeaning": "\"Yatra yatra mano yāti tatra tatra samādhayaḥ\" — wherever the mind goes, there is samadhi. The most radical possible statement: samadhi is not a special state that occurs only when the mind stops. Wherever the mind goes, it moves within the one Self. The mind going to a tree is samadhi. The mind going to a conversation is samadhi. What converts ordinary movement into recognised samadhi is only the recognition of the non-dual ground. Practice is not forcing the mind into one place — it is recognising that wherever it is, it is already home."
         }
       ]
     },
@@ -36,7 +44,11 @@
         {
           "number": 1,
           "sanskrit": "इडा वामे स्थिता भागे पिङ्गला दक्षिणे तथा | सुषुम्ना मध्यदेशे तु प्राणमार्गो महत्पथः ||",
-          "transliteration": "iḍā vāme sthitā bhāge piṅgalā dakṣiṇe tathā | suṣumnā madhyadeśe tu prāṇamārgo mahatpathaḥ ||"
+          "transliteration": "iḍā vāme sthitā bhāge piṅgalā dakṣiṇe tathā | suṣumnā madhyadeśe tu prāṇamārgo mahatpathaḥ ||",
+          "translation": "Ida stands on the left side; Pingala on the right. Sushumna is in the central region — the great pathway of prana.",
+          "hindi": "इड़ा बायीं ओर स्थित है; पिङ्गला दायीं ओर। सुषुम्ना मध्य में है — प्राण का महान् मार्ग।",
+          "commentary": "The three principal nadis: Ida (left, lunar, parasympathetic-adjacent, right brain hemisphere), Pingala (right, solar, sympathetic-adjacent, left hemisphere), Sushumna (central, the spine — neither activated nor withdrawn but the transcendent third). Ordinary life is the oscillation between Ida and Pingala. The yogi's goal: still that oscillation and allow prana to enter the \"mahat-patha\" — the great pathway — of Sushumna.",
+          "wordMeaning": "The three principal nadis: Ida (left, lunar, parasympathetic-adjacent, right brain hemisphere), Pingala (right, solar, sympathetic-adjacent, left hemisphere), Sushumna (central, the spine — neither activated nor withdrawn but the transcendent third). Ordinary life is the oscillation between Ida and Pingala. The yogi's goal: still that oscillation and allow prana to enter the \"mahat-patha\" — the great pathway — of Sushumna."
         }
       ]
     },
@@ -48,12 +60,20 @@
         {
           "number": 1,
           "sanskrit": "महामुद्रां महाबन्धं खेचरीं जालन्धरम् | उड्डियानं मूलबन्धं विपरीतकरणी तथा | वज्रोली योनिमुद्रा च शक्तिचालनमेव च | दश मुद्राः समाख्याताः सिद्धिदा योगिनां सदा ||",
-          "transliteration": "mahāmudrāṃ mahābandhaṃ khecarīṃ jālandharaṃ | uḍḍiyānaṃ mūlabandhaṃ viparītakaraṇī tathā | vajrolī yonimudrā ca śakticālanameva ca | daśa mudrāḥ samākhyātāḥ siddhidā yogināṃ sadā ||"
+          "transliteration": "mahāmudrāṃ mahābandhaṃ khecarīṃ jālandharaṃ | uḍḍiyānaṃ mūlabandhaṃ viparītakaraṇī tathā | vajrolī yonimudrā ca śakticālanameva ca | daśa mudrāḥ samākhyātāḥ siddhidā yogināṃ sadā ||",
+          "translation": "Maha Mudra, Maha Bandha, Khechari, Jalandhara, Uddiyana, Mula Bandha, Viparitakarani, Vajroli, Yoni Mudra, Shakti Chalana — these ten mudras are givers of siddhi to yogins always.",
+          "hindi": "महामुद्रा, महाबन्ध, खेचरी, जालन्धर, उड्डियान, मूलबन्ध, विपरीतकरणी, वज्रोली, योनिमुद्रा और शक्तिचालन — ये दस मुद्राएँ सिद्धिदायक हैं।",
+          "commentary": "The ten great mudras — each redirects prana that has flowed outward through the senses back into the central channel. The three bandhas are muscular compressions of the three main prana-reservoirs. Khechari (tongue to palate then nasal passage) receives more verses in the Shiva Samhita than any other technique — described as the most powerful single practice in the Hatha tradition. Each mudra reverses a habitual energetic pattern: instead of consciousness flowing outward, the mudras redirect it inward and upward toward its source.",
+          "wordMeaning": "The ten great mudras — each redirects prana that has flowed outward through the senses back into the central channel. The three bandhas are muscular compressions of the three main prana-reservoirs. Khechari (tongue to palate then nasal passage) receives more verses in the Shiva Samhita than any other technique — described as the most powerful single practice in the Hatha tradition. Each mudra reverses a habitual energetic pattern: instead of consciousness flowing outward, the mudras redirect it inward and upward toward its source."
         },
         {
           "number": 78,
           "sanskrit": "कुण्डलिनी शक्तिरियं स्वाधिष्ठाने वसेत्सदा | सा चालिता भवेत्शक्तिः सुषुम्नापथगामिनी ||",
-          "transliteration": "kuṇḍalinī śaktiriyaṃ svādhiṣṭhāne vasetsadā | sā cālitā bhavetśaktiḥ suṣumnāpathagāminī ||"
+          "transliteration": "kuṇḍalinī śaktiriyaṃ svādhiṣṭhāne vasetsadā | sā cālitā bhavetśaktiḥ suṣumnāpathagāminī ||",
+          "translation": "Kundalini Shakti always dwells at the Svadhisthana. When awakened and set in motion, she becomes the energy travelling the path of Sushumna.",
+          "hindi": "यह कुण्डलिनी शक्ति स्वाधिष्ठान में सदा वास करती है। जागृत होने पर वह सुषुम्ना पथ पर चलने वाली शक्ति बन जाती है।",
+          "commentary": "Kundalini is not a foreign energy — it is the same life-force that maintains biological functioning, redirected. The coiled potential of the entire biological energy system, when released upward through mudra and pranayama, passes through the chakras along Sushumna, producing progressive expansions of consciousness. Shiva Samhita's description is functional: Kundalini is prana concentrated and redirected from outward-downward (biological) to inward-upward (spiritual). The path is not suppression of desire but transformation — same Shakti, different direction.",
+          "wordMeaning": "Kundalini is not a foreign energy — it is the same life-force that maintains biological functioning, redirected. The coiled potential of the entire biological energy system, when released upward through mudra and pranayama, passes through the chakras along Sushumna, producing progressive expansions of consciousness. Shiva Samhita's description is functional: Kundalini is prana concentrated and redirected from outward-downward (biological) to inward-upward (spiritual). The path is not suppression of desire but transformation — same Shakti, different direction."
         }
       ]
     },
@@ -65,47 +85,83 @@
         {
           "number": 1,
           "sanskrit": "श्रूयते प्रथमाभ्यासे नादो नानाविधो महान् | ततोऽभ्यासे वर्धमाने श्रूयते सूक्ष्मः सूक्ष्मतरः ||",
-          "transliteration": "śrūyate prathamābhyāse nādo nānāvidho mahān | tato'bhyāse vardhamāne śrūyate sūkṣmaḥ sūkṣmataraḥ ||"
-        },
-        {
-          "number": 52,
-          "sanskrit": "यावन्नादस्तु संजातः तावन्मनः प्रलीयते | ब्रह्मैव केवलं शेषं यत्परं तत्परं पदम् ||",
-          "transliteration": "yāvannādastu saṃjātaḥ tāvanmanaḥ pralīyate | brahmaiva kevalaṃ śeṣaṃ yatparaṃ tatparaṃ padam ||"
+          "transliteration": "śrūyate prathamābhyāse nādo nānāvidho mahān | tato'bhyāse vardhamāne śrūyate sūkṣmaḥ sūkṣmataraḥ ||",
+          "translation": "In the first practice, many kinds of great sounds are heard. As practice increases, subtler and subtler sounds are heard.",
+          "hindi": "प्रथम अभ्यास में अनेक प्रकार के महान् नाद सुनाई देते हैं। जैसे-जैसे अभ्यास बढ़ता है, सूक्ष्म से सूक्ष्मतर नाद सुनाई देते हैं।",
+          "commentary": "The nada-anusandhana (following the inner sound) progression: as the meditator closes the ears with the thumbs (Shanmukhi Mudra) and listens inward, gross sounds are heard first — rushing, buzzing, humming. As practice deepens, the sounds become progressively subtler: from roaring to flute to lute to thunder to the unstruck sound (anahata). \"Sūkṣmaḥ sūkṣmataraḥ\" — subtler and subtler. The technique is the opposite of concentration practices that force the mind onto an object. Instead, the mind is invited to follow sound inward, and as it follows, it dissolves — because sound is the last vibration before silence, and silence is Brahman. Laya yoga: dissolution through absorption.",
+          "wordMeaning": "The nada-anusandhana (following the inner sound) progression: as the meditator closes the ears with the thumbs (Shanmukhi Mudra) and listens inward, gross sounds are heard first — rushing, buzzing, humming. As practice deepens, the sounds become progressively subtler: from roaring to flute to lute to thunder to the unstruck sound (anahata). \"Sūkṣmaḥ sūkṣmataraḥ\" — subtler and subtler. The technique is the opposite of concentration practices that force the mind onto an object. Instead, the mind is invited to follow sound inward, and as it follows, it dissolves — because sound is the last vibration before silence, and silence is Brahman. Laya yoga: dissolution through absorption."
         },
         {
           "number": 5,
           "sanskrit": "योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो शिवसमाश्रयः ||",
-          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ śivasamāśrayaḥ ||"
+          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ śivasamāśrayaḥ ||",
+          "translation": "Yoga is the cessation of mental modifications; yoga gives liberation. Yoga cuts all bonds; yoga rests on Shiva.",
+          "hindi": "योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग शिव पर आश्रित है।",
+          "commentary": "The definition of yoga from Yoga Sutras, placed in the context of Shiva worship. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Shiva.",
+          "wordMeaning": "The definition of yoga from Yoga Sutras, placed in the context of Shiva worship. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Shiva."
         },
         {
           "number": 10,
           "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं शिव एव सर्वं शिव मयि सर्वम् ||",
-          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ śiva eva sarvaṃ śiva mayi sarvam ||"
+          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ śiva eva sarvaṃ śiva mayi sarvam ||",
+          "translation": "I am Brahman, not you; I am birth, not beings; all is Shiva alone, all is Shiva in me.",
+          "hindi": "मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब शिव ही है, सब शिव मेरे में है।",
+          "commentary": "The declaration of non-duality with Shiva as the supreme. The individual Self is Brahman; the world is Shiva; all distinctions dissolve in this recognition.",
+          "wordMeaning": "The declaration of non-duality with Shiva as the supreme. The individual Self is Brahman; the world is Shiva; all distinctions dissolve in this recognition."
         },
         {
           "number": 15,
           "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो शिवे लीनो न तत्र संशयो भवति ||",
-          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo śive līno na tatra saṃśayo bhavati ||"
+          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo śive līno na tatra saṃśayo bhavati ||",
+          "translation": "As rivers merge into the ocean, as lamps merge into light — so the individual self merges into Shiva. There is no doubt about this.",
+          "hindi": "जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव शिव में लीन हो जाता है। इसमें कोई संशय नहीं।",
+          "commentary": "The dissolution of individuality into Shiva. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains.",
+          "wordMeaning": "The dissolution of individuality into Shiva. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains."
         },
         {
           "number": 20,
           "sanskrit": "शान्तं शिवमद्वैतं शिव नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
-          "transliteration": "śāntaṃ śivamadvaitaṃ śiva nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||"
+          "transliteration": "śāntaṃ śivamadvaitaṃ śiva nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||",
+          "translation": "Peaceful, auspicious, non-dual Shiva — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.",
+          "hindi": "शांत, शिव, अद्वैत शिव — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
+          "commentary": "The attributes of Shiva: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness.",
+          "wordMeaning": "The attributes of Shiva: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness."
         },
         {
           "number": 25,
           "sanskrit": "एको देवो द्वितीयो नास्ति यो शिवं वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
-          "transliteration": "eko devo dvitīyo nāsti yo śivaṃ veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||"
+          "transliteration": "eko devo dvitīyo nāsti yo śivaṃ veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||",
+          "translation": "There is one God, no second — he who knows Shiva in truth. I am He, not any being, no death, no sorrow, and so on.",
+          "hindi": "एक ही देव है, दूसरा कोई नहीं — जो शिव को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।",
+          "commentary": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering.",
+          "wordMeaning": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering."
         },
         {
           "number": 30,
           "sanskrit": "शिवः सर्वभूतानां हृदये संनिविष्टः | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
-          "transliteration": "śivaḥ sarvabhūtānāṃ hṛdaye saṃniviṣṭaḥ | yo jānāti sa paśyati yo na jānāti na paśyati ||"
+          "transliteration": "śivaḥ sarvabhūtānāṃ hṛdaye saṃniviṣṭaḥ | yo jānāti sa paśyati yo na jānāti na paśyati ||",
+          "translation": "Shiva dwells in the heart of all beings. He who knows, sees; he who does not know, does not see.",
+          "hindi": "शिव सभी प्राणियों के हृदय में निवास करते हैं। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
+          "commentary": "The Shiva Samhita declares that Shiva dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Shiva is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there.",
+          "wordMeaning": "The Shiva Samhita declares that Shiva dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Shiva is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there."
         },
         {
           "number": 35,
           "sanskrit": "शिवः प्राणः प्राणेश्चैव शिवः सर्वेषु भूतेषु | यो शिवं प्राणरूपेण जानाति स मुक्तो भवति ||",
-          "transliteration": "śivaḥ prāṇaḥ prāṇeścaiva śivaḥ sarveṣu bhūteṣu | yo śivaṃ prāṇarūpeṇa jānāti sa mukto bhavati ||"
+          "transliteration": "śivaḥ prāṇaḥ prāṇeścaiva śivaḥ sarveṣu bhūteṣu | yo śivaṃ prāṇarūpeṇa jānāti sa mukto bhavati ||",
+          "translation": "Shiva is prana, Shiva is the lord of prana, Shiva is in all beings. He who knows Shiva as the form of prana becomes liberated.",
+          "hindi": "शिव प्राण हैं, शिव प्राणेश हैं, शिव सभी प्राणियों में हैं। जो शिव को प्राण-रूप में जानता है, वह मुक्त हो जाता है।",
+          "commentary": "The Shiva Samhita identifies Shiva with prana — the life breath. \"Śivaḥ prāṇaḥ\" — Shiva is prana. \"Śivaḥ prāṇeśaḥ\" — Shiva is the lord of prana. \"Śivaḥ sarveṣu bhūteṣu\" — Shiva is in all beings. The verse then states that knowing Shiva as the form of prana leads to liberation. This is the Shiva Samhita's core teaching: Shiva is not a distant deity but the very breath that animates all life. Recognising Shiva in the breath is the most direct spiritual practice.",
+          "wordMeaning": "The Shiva Samhita identifies Shiva with prana — the life breath. \"Śivaḥ prāṇaḥ\" — Shiva is prana. \"Śivaḥ prāṇeśaḥ\" — Shiva is the lord of prana. \"Śivaḥ sarveṣu bhūteṣu\" — Shiva is in all beings. The verse then states that knowing Shiva as the form of prana leads to liberation. This is the Shiva Samhita's core teaching: Shiva is not a distant deity but the very breath that animates all life. Recognising Shiva in the breath is the most direct spiritual practice."
+        },
+        {
+          "number": 52,
+          "sanskrit": "यावन्नादस्तु संजातः तावन्मनः प्रलीयते | ब्रह्मैव केवलं शेषं यत्परं तत्परं पदम् ||",
+          "transliteration": "yāvannādastu saṃjātaḥ tāvanmanaḥ pralīyate | brahmaiva kevalaṃ śeṣaṃ yatparaṃ tatparaṃ padam ||",
+          "translation": "As long as the sound arises, so long the mind dissolves. Brahman alone remains as the residue — that supreme, that is the supreme state.",
+          "hindi": "जब तक नाद उत्पन्न होता है, तब तक मन विलीन होता है। केवल ब्रह्म ही शेष रहता है — वह परम, वही परम पद है।",
+          "commentary": "The culminating teaching of the Shiva Samhita. \"Yāvannādastu saṃjātaḥ tāvanmanaḥ pralīyate\" — as long as the sound arises, the mind dissolves into it. The sound and the mind are dissolved together — and what remains is \"brahmaiva kevalaṃ śeṣaṃ\" — Brahman alone as the residue. Not a new state achieved, but the natural state revealed when the mind's constant activity dissolves. \"Yatparaṃ tatparaṃ padam\" — that supreme, that is the supreme state. The Shiva Samhita ends exactly where it began (Chapter 1): consciousness alone is real. The entire yoga — nadi, bandha, mudra, pranayama, nada — was always in service of this single recognition. The path begins and ends in the same place.",
+          "wordMeaning": "The culminating teaching of the Shiva Samhita. \"Yāvannādastu saṃjātaḥ tāvanmanaḥ pralīyate\" — as long as the sound arises, the mind dissolves into it. The sound and the mind are dissolved together — and what remains is \"brahmaiva kevalaṃ śeṣaṃ\" — Brahman alone as the residue. Not a new state achieved, but the natural state revealed when the mind's constant activity dissolves. \"Yatparaṃ tatparaṃ padam\" — that supreme, that is the supreme state. The Shiva Samhita ends exactly where it began (Chapter 1): consciousness alone is real. The entire yoga — nadi, bandha, mudra, pranayama, nada — was always in service of this single recognition. The path begins and ends in the same place."
         }
       ]
     }

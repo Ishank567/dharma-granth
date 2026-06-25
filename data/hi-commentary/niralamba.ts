@@ -38,4 +38,55 @@ export const niralambaHi: HiCommentaryFragment = {
   '1:32': {
     explanation: `समापन शान्ति-मन्त्र। शान्ति की पहचान ब्रह्म और निरालम्ब सत्य से की गई है। पुनरावृत्ति उस शान्ति में विश्राम का आमन्त्रण है।`,
   },
+
+  '1:3': {
+    explanation: `जो लोग अनन्य भाव से मेरा चिन्तन करते हुए मेरी उपासना करते हैं — उन नित्य मुझमें संयुक्त लोगों का योगक्षेम मैं स्वयं वहन करता हूँ।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '1:4': {
+    explanation: `मैं निरालम्ब हूँ, मैं निरालम्ब हूँ, मैं निरालम्ब हूँ, मैं निरालम्ब हूँ। जगत निरालम्ब है, ब्रह्म शाश्वत निरालम्ब है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '1:6': {
+    explanation: `जो ब्रह्म को निरालम्ब जानता है, वह निरालम्ब हो जाता है। जो ब्रह्म को निरालम्ब नहीं जानता, वह दुःख का कारण है, निरालम्ब।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '1:7': {
+    explanation: `शरीर निरालम्ब है, मन निरालम्ब है, इंद्रियाँ निरालम्ब हैं — ब्रह्म ही परम निरालम्ब है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '1:8': {
+    explanation: `जैसे स्वप्न में वह देखता है जो जाग्रत में देखा जाता है, वैसे ही जाग्रत में वह देखता है जो स्वप्न में देखा जाता है। किंतु जैसे जाग्रत में वह देखता है जो स्वप्न में देखा जाता है, वैसे स्वप्न में वह नहीं देखता।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '1:9': {
+    explanation: `जैसे रज्जू को साँप देखा जाता है, वैसे ही रज्जू को साँप देखा जाता है। किंतु जैसे रज्जू को साँप देखा जाता है, वैसे साँप को रज्जू नहीं देखा जाता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '1:11': {
+    explanation: `जैसे मरीचिका में जल दिखाई देता है, वैसे ही मरीचिका जल के रूप में दिखाई देती है। किंतु जैसे मरीचिका में जल दिखाई देता है, वैसे मरीचिका जल के रूप में नहीं दिखाई देती।`,
+    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
+    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
+  },
+  '1:12': {
+    explanation: `जैसे हिरण देखता है जो दिखता है, वैसा वैसा है, पर ऐसा नहीं। जैसा दिखता है, वैसा नहीं — जैसा नहीं दिखता है, वैसा वैसा।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '1:13': {
+    explanation: `ब्रह्म ही तत्व है, ब्रह्म ही परम सुख है, ब्रह्म ही निरालम्ब है, ब्रह्म ही मोक्ष दायक है।`,
+    science: `Neuroscience of flow (Csikszentmihalyi): in flow states, the prefrontal cortex temporarily deactivates — self-referential thinking ceases, and action becomes spontaneous. This is the psychological correlate of liberation: action without the doer.`,
+    lifeLesson: `Freedom is not the absence of responsibility — it is the absence of the ego that resists responsibility. When you act without attachment to results, you are already free, even in the midst of action.`,
+  },
+  '1:14': {
+    explanation: `शांति में जाओ, शांति में जाओ, शांति में जाओ, शांति में जाओ। शांति ही परम ब्रह्म है, शांति ही परम निरालम्ब है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
 };

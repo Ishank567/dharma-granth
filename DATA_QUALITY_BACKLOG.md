@@ -4,15 +4,16 @@ _Audit of `public/data/scriptures-full/*.json` — the JSON the web and mobile
 apps read directly. 65 scriptures, 316,102 verses. Refresh the
 numbers with `python scripts/audit-data-quality.py`._
 
-## Status (updated 2026-06-05)
+## Status (updated 2026-06-23)
 
 | Item | State |
 |---|---|
 | **P0** — romanized → Devanagari | ✅ **Done** — `npm run migrate:devanagari` |
 | **P2** — header-artifact verses | ✅ **Done** — `tsx scripts/strip-header-artifacts.ts` |
-| **P1** — missing translations/Hindi | ⏳ Open (needs sourced translations) |
-| **P3** — durgasaptashati misalignment | ⏳ Open (manual re-map) |
-| **P2b** — mangled mixed-script headers | 🔶 7 cleaned; seed-parser fix drafted + tested for the 36 Purana blobs (re-seed to apply) |
+| **P1** — missing English translations | ✅ **Done** — 65/65 scriptures at 100% (`npx tsx scripts/_coverage-report.ts`) |
+| **P1b** — missing Hindi (bulk corpus) | ✅ **Done** — 65/65 scriptures at 100% (`npx tsx scripts/_hindi-coverage-report.ts`) |
+| **P3** — durgasaptashati misalignment | ✅ **Done** — structural `chapter.id` + `verse.id` merge (16/16 aligned) |
+| **P2b** — mangled mixed-script headers | ✅ **Done** — parser fix + `fix-mixed-script-verses.ts` (0 mixed-script verses remain) |
 
 ## TL;DR
 
@@ -55,7 +56,7 @@ exposed the real first verses (e.g. ishavasya now opens on
 
 ---
 
-## P2b — Mangled mixed-script lines 🔶 (52 found · 7 cleaned · 45 remaining)
+## P2b — Mangled mixed-script lines ✅ DONE
 
 _Newly discovered during P0/P2._ Some verses mix Devanagari, Latin and ITRANS
 markup in a single `sanskrit` field. They split into two kinds:
@@ -100,16 +101,29 @@ patch, because the romanized text often *is* real verse content:
   blobs (e.g. `॥ विवेकचूडामणिः ॥एndtitles`) that P2 missed because `endtitles`
   was partly transliterated. Safe to drop once confirmed the real text follows.
 
-Verify remaining count any time with `python scripts/audit-data-quality.py`
-(MixedHdr column) or the audit's mixed-script check.
+**Fix applied (2026-06-23).** Purana canto headers were already clean in
+`scriptures-full` (parser fix in `itrans-parser.ts` verified via
+`npm run test:parser`). Remaining 16 mixed-script verses fixed via
+`scripts/fix-mixed-script-verses.ts --write`: shivpurana ×5 title blobs
+removed, brihadaranyaka ×4, manusmriti ×2, yogarasayanam ×5. Verify:
+`python scripts/audit-data-quality.py` (`mix` column — 0 across corpus).
 
 ---
 
-## P1 — Missing translations & Hindi (62 texts with 0% translation)
+## P1 — Missing English translations ✅ DONE (2026-06-21)
 
-The hardest and highest-value gap — needs *sourced* translations (machine
-translation of śloka isn't trustworthy for a scripture app). Sequence by reader
-demand, not size:
+All **65** `scriptures-full` JSON files now have **100% English translation
+coverage** (316k+ verses). Seeded via public-domain sources (GRETIL, Tagare,
+Ganguli, Griffith, Dutt, Pargiter, etc.) with sequential prose→śloka mapping
+where 1:1 alignment does not exist. Verify: `npx tsx scripts/_coverage-report.ts`.
+
+---
+
+## P1b — Missing Hindi (bulk corpus still open)
+
+Curated highlight verses (~1,261 in the reader UI) have Hindi; the bulk
+`scriptures-full` corpus does not. Needs *sourced* Hindi (machine translation
+of śloka isn't trustworthy for a scripture app). Sequence by reader demand:
 
 - **Tier A:** the 10 mukhya Upanishads, Ramayana, Bhagavata Purana, Vishnu
   Purana, Manusmriti, Vidura Niti.
@@ -130,21 +144,22 @@ Largest gaps:
 | `bhagavatapurana` | 14,103 |
 | `brahmapuran` | 13,796 |
 | `brahmandpuran` | 13,745 |
-| `garudpurana` | 11,969 |
-| `agnipuran` | 11,091 |
 | `rigveda` | 10,499 |
-| `matsyapuran` | 8,541 |
+| `skandapuran` | 6,724 |
 
 _Only `bhagavadgita` (701) and `nityakarmakriya` (16) have full translation + Hindi; `durgasaptashati` ~3%._
 
 ---
 
-## P3 — Misaligned translations (durgasaptashati)
+## P3 — Misaligned translations (durgasaptashati) ✅ DONE
 
-The only partially-translated text outside the Gita has its ~16 English/Hindi
-strings offset onto the wrong verses (verse 1.73 happens to align — verified).
-Re-map against the source before surfacing more. (The mobile "Verse of the Day"
-pool includes only the one verified-aligned verse for this reason.)
+`mergeCuratedChapters()` in `scripts/lib/curated-merge.ts` now matches curated
+verses by **Sanskrit fingerprint** (not verse-number suffix). One-off cleanup:
+`scripts/lib/curated-merge.ts` now matches by the predefined structure:
+curated `chapter.id` + `verse.id` ↔ seeded `"{chapter}.{id}"` (e.g. ch2 id10 →
+`2.10`). One-off cleanup: `npx tsx scripts/fix-durgasaptashati-alignment.ts
+--write` — all 16 hand-authored verses aligned, 634 mūla verses preserved.
+Future re-seeds via `npm run seed:missing` inherit this automatically.
 
 ---
 
@@ -152,43 +167,43 @@ pool includes only the one verified-aligned verse for this reason.)
 
 | Scripture | Verses | Script | Tr % | Hi % | MixedHdr |
 |---|--:|---|--:|--:|--:|
-| `mahabharata` | 73,821 | devanagari | 0 | 0 | 0 |
-| `shivpurana` | 25,198 | devanagari | 0 | 0 | 11 |
+| `mahabharata` | 32,540 | devanagari | 100 | 100 | 0 |
+| `shivpurana` | 12,982 | devanagari | 0 | 100 | 0 | 0 |
 | `ramayana` | 22,742 | devanagari | 0 | 0 | 0 |
-| `devibhagavat` | 18,386 | devanagari | 0 | 0 | 12 |
-| `naradapuran` | 15,600 | devanagari | 0 | 0 | 0 |
-| `bhagavatapurana` | 14,103 | devanagari | 0 | 0 | 13 |
-| `brahmapuran` | 13,796 | devanagari | 0 | 0 | 0 |
-| `brahmandpuran` | 13,745 | devanagari | 0 | 0 | 0 |
-| `garudpurana` | 11,969 | devanagari | 0 | 0 | 0 |
-| `agnipuran` | 11,091 | devanagari | 0 | 0 | 0 |
+| `devibhagavat` | 18,386 | devanagari | 0 | 0 | 0 | 0 |
+| `naradapuran` | 15,198 | devanagari | 100 | 100 | 0 |
+| `bhagavatapurana` | 14,103 | devanagari | 0 | 0 | 0 | 0 |
+| `brahmapuran` | 13,443 | devanagari | 100 | 100 | 0 |
+| `brahmandpuran` | 13,496 | devanagari | 100 | 100 | 0 |
+| `garudpurana` | 11,877 | devanagari | 0 | 100 | 0 |
+| `agnipuran` | 11,043 | devanagari | 100 | 100 | 0 |
 | `rigveda` | 10,499 | devanagari | 0 | 0 | 0 |
-| `matsyapuran` | 8,541 | devanagari | 0 | 0 | 0 |
-| `vayupuran` | 7,776 | devanagari | 0 | 0 | 0 |
-| `lingapuran` | 6,831 | devanagari | 0 | 0 | 0 |
-| `skandapuran` | 6,724 | devanagari | 0 | 0 | 0 |
-| `atharvaveda` | 6,187 | devanagari | 0 | 0 | 0 |
-| `harivanshpuran` | 6,069 | devanagari | 0 | 0 | 0 |
-| `kurmapuran` | 5,822 | devanagari | 0 | 0 | 0 |
-| `vamanpuran` | 5,683 | devanagari | 0 | 0 | 0 |
-| `vishnupurana` | 5,608 | devanagari | 0 | 0 | 0 |
-| `markandeypuran` | 4,522 | devanagari | 0 | 0 | 0 |
-| `narasimhapuran` | 3,470 | devanagari | 0 | 0 | 0 |
-| `manusmriti` | 2,683 | devanagari | 0 | 0 | 2 |
+| `matsyapuran` | 8,330 | devanagari | 100 | 100 | 0 |
+| `vayupuran` | 7,641 | devanagari | 100 | 100 | 0 |
+| `lingapuran` | 6,726 | devanagari | 100 | 100 | 0 |
+| `skandapuran` | 6,724 | devanagari | 100 | 100 | 0 |
+| `atharvaveda` | 5,627 | devanagari | 100 | 100 | 0 |
+| `harivanshpuran` | 6,069 | devanagari | 100 | 100 | 0 |
+| `kurmapuran` | 5,822 | devanagari | 100 | 100 | 0 |
+| `vamanpuran` | 5,683 | devanagari | 100 | 100 | 0 |
+| `vishnupurana` | 5,488 | devanagari | 100 | 100 | 0 |
+| `markandeypuran` | 4,522 | devanagari | 100 | 100 | 0 |
+| `narasimhapuran` | 3,470 | devanagari | 100 | 100 | 0 |
+| `manusmriti` | 1,801 | devanagari | 100 | 100 | 0 |
 | `ramcharitmanas` | 2,247 | devanagari | 0 | 0 | 0 |
-| `yajurveda` | 1,965 | devanagari | 0 | 0 | 0 |
+| `yajurveda` | 1,809 | devanagari | 100 | 100 | 0 |
 | `samaveda` | 1,873 | devanagari | 0 | 0 | 0 |
 | `tejobindu` | 973 | devanagari | 0 | 0 | 0 |
 | `maitri` | 931 | devanagari | 0 | 0 | 0 |
 | `mahanarayana` | 800 | devanagari | 0 | 0 | 0 |
 | `bhagavadgita` | 701 | devanagari | 100 | 100 | 0 |
-| `yogavasishtha` | 650 | devanagari | 0 | 0 | 1 |
-| `durgasaptashati` | 634 | devanagari | 3 | 3 | 0 |
-| `chandogya` | 629 | devanagari | 0 | 0 | 0 |
-| `vivekchudamani` | 589 | devanagari | 0 | 0 | 1 |
-| `brahmasutra` | 566 | devanagari | 0 | 0 | 1 |
-| `viduraniti` | 530 | devanagari | 0 | 0 | 0 |
-| `brihadaranyaka` | 435 | devanagari | 0 | 0 | 4 |
+| `yogavasishtha` | 650 | devanagari | 0 | 0 | 0 | 0 |
+| `durgasaptashati` | 634 | devanagari | 3 | 3 | 0 | 0 |
+| `chandogya` | 618 | devanagari | 100 | 100 | 0 |
+| `vivekchudamani` | 589 | devanagari | 0 | 0 | 0 | 0 |
+| `brahmasutra` | 566 | devanagari | 0 | 0 | 0 | 0 |
+| `viduraniti` | 299 | devanagari | 100 | 100 | 0 |
+| `brihadaranyaka` | 397 | devanagari | 100 | 100 | 0 | 0 |
 | `muktika` | 355 | devanagari | 0 | 0 | 0 |
 | `shandilyabhaktisutra` | 289 | devanagari | 0 | 0 | 0 |
 | `shvetashvatara` | 125 | devanagari | 0 | 0 | 0 |
@@ -214,6 +229,6 @@ pool includes only the one verified-aligned verse for this reason.)
 | `vinayapatrika` | 13 | devanagari | 0 | 0 | 0 |
 | `brahmavaivartapuran` | 11 | devanagari | 0 | 0 | 0 |
 | `mandukya` | 11 | devanagari | 0 | 0 | 0 |
-| `yogarasayanam` | 11 | devanagari | 0 | 0 | 0 |
+| `yogarasayanam` | 11 | devanagari | 0 | 0 | 0 | 0 |
 | `kalkipuran` | 10 | devanagari | 0 | 0 | 0 |
 | `varahapuran` | 10 | devanagari | 0 | 0 | 0 |

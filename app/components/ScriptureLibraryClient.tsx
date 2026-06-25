@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useMemo, useRef, useState } from 'react';
+import Image from 'next/image';
 import {
   BookOpen,
   Check,
@@ -33,6 +34,8 @@ type LibraryItem = ScriptureMeta & {
 
 type CategoryFilter = 'all' | ScriptureCategory;
 type SortMode = 'featured' | 'az' | 'verses';
+
+const pinAspectRatios = ['4 / 5', '1 / 1', '5 / 4', '3 / 4'] as const;
 
 const categoryIcons: Record<ScriptureCategory, ReactNode> = {
   veda: <Flame className="h-5 w-5" />,
@@ -71,6 +74,14 @@ function scriptureMatchesQuery(scripture: LibraryItem, query: string): boolean {
 
 function formatCount(value: number): string {
   return new Intl.NumberFormat('en-IN').format(value);
+}
+
+function getPinAspectRatio(scripture: ScriptureMeta): string {
+  const seed = scripture.id
+    .split('')
+    .reduce((total, character) => total + character.charCodeAt(0), 0);
+
+  return pinAspectRatios[seed % pinAspectRatios.length];
 }
 
 function sortScriptures(scriptures: LibraryItem[], sortMode: SortMode): LibraryItem[] {
@@ -358,58 +369,81 @@ export function ScriptureLibraryClient({
                 </div>
               </FadeUpOnView>
 
-              <Stagger className="grid gap-5 md:grid-cols-2 lg:grid-cols-3" amount={0.05}>
+              <Stagger
+                className="columns-1 gap-5 md:columns-2 xl:columns-3"
+                amount={0.05}
+              >
                 {category.scriptures.map((scripture) => (
-                  <StaggerItem key={scripture.id}>
+                  <StaggerItem key={scripture.id} className="mb-5 break-inside-avoid">
                     <ScriptureCard
                       href={`/scripture/${scripture.id}`}
-                      className="scripture-card group flex h-full flex-col"
+                      className="scripture-card scripture-pin-card group overflow-hidden"
                     >
-                      <div className="mb-3 flex items-start justify-between gap-3">
-                        <h3 className="text-lg font-serif font-bold text-dharma-text transition group-hover:text-saffron-700">
-                          {scripture.title}
-                        </h3>
+                      <div
+                        className="relative overflow-hidden bg-dharma-panel-muted"
+                        style={{ aspectRatio: getPinAspectRatio(scripture) }}
+                      >
+                        <Image
+                          src={`/og/${scripture.id}.png`}
+                          alt=""
+                          fill
+                          sizes="(min-width: 1280px) 360px, (min-width: 768px) 45vw, 90vw"
+                          className="scale-110 object-cover opacity-60 blur-2xl transition duration-500 group-hover:scale-125"
+                        />
+                        <Image
+                          src={`/og/${scripture.id}.png`}
+                          alt={`${scripture.title} cover art`}
+                          fill
+                          sizes="(min-width: 1280px) 360px, (min-width: 768px) 45vw, 90vw"
+                          className="object-contain p-3 transition duration-500 group-hover:scale-[1.03]"
+                        />
                         {scripture.hasData && (
-                          <span className="inline-flex shrink-0 items-center gap-1 rounded-md bg-emerald-100 px-2 py-1 text-xs font-semibold text-emerald-800">
+                          <span className="absolute right-3 top-3 inline-flex shrink-0 items-center gap-1 rounded-md bg-white/90 px-2 py-1 text-xs font-semibold text-emerald-800 shadow-sm backdrop-blur">
                             <Check className="h-3 w-3" />
                             Explained
                           </span>
                         )}
                       </div>
-                      <p
-                        lang="sa"
-                        className="mb-3 text-sm font-devanagari text-dharma-muted"
-                      >
-                        {scripture.titleSanskrit}
-                      </p>
-                      <p className="mb-3 line-clamp-3 text-sm leading-relaxed text-dharma-text">
-                        {scripture.description}
-                      </p>
-                      {scripture.explanation && (
+
+                      <div className="p-4">
                         <p
-                          className="mb-4 line-clamp-2 text-sm font-devanagari leading-relaxed text-dharma-muted"
-                          lang="hi"
+                          lang="sa"
+                          className="mb-1 line-clamp-1 font-devanagari text-sm text-dharma-muted"
                         >
-                          {scripture.explanation.overview.hi}
+                          {scripture.titleSanskrit}
                         </p>
-                      )}
-                      <div className="mt-auto flex flex-wrap items-center gap-x-3 gap-y-1 text-xs font-medium text-dharma-muted">
-                        <span>{formatCount(scripture.totalChapters)} chapters</span>
-                        <span>{formatCount(scripture.totalVerses)} verses</span>
-                        {scripture.author && <span>by {scripture.author}</span>}
-                      </div>
-                      {scripture.tags.length > 0 && (
-                        <div className="mt-4 flex flex-wrap gap-1.5">
-                          {scripture.tags.slice(0, 4).map((tag) => (
-                            <span
-                              key={tag}
-                              className="rounded-full bg-saffron-50 px-2 py-1 text-xs font-semibold text-saffron-800 ring-1 ring-saffron-100"
-                            >
-                              {tag}
-                            </span>
-                          ))}
+                        <h3 className="mb-3 text-xl font-serif font-bold leading-tight text-dharma-text transition group-hover:text-saffron-700">
+                          {scripture.title}
+                        </h3>
+                        <p className="line-clamp-4 text-sm leading-relaxed text-dharma-text">
+                          {scripture.description}
+                        </p>
+                        {scripture.explanation && (
+                          <p
+                            className="mt-3 line-clamp-2 text-sm font-devanagari leading-relaxed text-dharma-muted"
+                            lang="hi"
+                          >
+                            {scripture.explanation.overview.hi}
+                          </p>
+                        )}
+                        <div className="mt-4 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs font-medium text-dharma-muted">
+                          <span>{formatCount(scripture.totalChapters)} chapters</span>
+                          <span>{formatCount(scripture.totalVerses)} verses</span>
+                          {scripture.author && <span>by {scripture.author}</span>}
                         </div>
-                      )}
+                        {scripture.tags.length > 0 && (
+                          <div className="mt-4 flex flex-wrap gap-1.5">
+                            {scripture.tags.slice(0, 4).map((tag) => (
+                              <span
+                                key={tag}
+                                className="rounded-full bg-saffron-50 px-2 py-1 text-xs font-semibold text-saffron-800 ring-1 ring-saffron-100"
+                              >
+                                {tag}
+                              </span>
+                            ))}
+                          </div>
+                        )}
+                      </div>
                     </ScriptureCard>
                   </StaggerItem>
                 ))}

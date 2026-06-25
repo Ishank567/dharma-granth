@@ -161,7 +161,7 @@ export default function HomePage() {
             {/* ── Stats ─────────────────────────────────────────────────── */}
       <StatsInfographic stats={[
         {
-          value: 0,
+          value: realVerses,
           label: "Verses Explained",
           icon: <BookOpen className="w-5 h-5" />,
           color: "text-saffron-700 bg-gradient-to-br from-saffron-50 to-amber-50",
@@ -169,7 +169,7 @@ export default function HomePage() {
           trend: "+12%"
         },
         {
-          value: 0,
+          value: realChapters,
           label: "Chapters Live",
           icon: <Scroll className="w-5 h-5" />,
           color: "text-emerald-700 bg-gradient-to-br from-emerald-50 to-green-50",
@@ -177,7 +177,7 @@ export default function HomePage() {
           trend: "+8%"
         },
         {
-          value: 0,
+          value: realScriptures,
           label: "Scriptures Indexed",
           icon: <Flame className="w-5 h-5" />,
           color: "text-indigo-700 bg-gradient-to-br from-indigo-50 to-blue-50",
@@ -185,7 +185,7 @@ export default function HomePage() {
           trend: "+5%"
         },
         {
-          value: 0,
+          value: cataloged,
           label: "In the Library",
           icon: <TreePine className="w-5 h-5" />,
           color: "text-amber-700 bg-gradient-to-br from-amber-50 to-yellow-50",

@@ -178,17 +178,158 @@ export const kenaHi: HiCommentaryFragment = {
   },
   '4:36': {
     explanation: `यह योग की परिभाषा ब्रह्म के सन्दर्भ में प्रस्तुत की गई है। योग चित्त-वृत्तियों का निरोध है जो मुक्ति की ओर ले जाती है। यह अभ्यास समस्त बन्धनों को काटता है और ब्रह्म के आधार पर टिका है।`,
+    science: `citta-vritti-nirodha आधुनिक mindfulness शोध से मेल खाता है (Kabat-Zinn): मन की वृत्तियों का निरोध संज्ञानात्मक स्पष्टता, भावनात्मक संतुलन और कल्याण में मापनीय सुधार लाता है। ब्रह्म के आधार पर टिकी यह साधना secure base का आध्यात्मिक समतुल्य है।`,
+    lifeLesson: `मन की शान्ति ब्रह्म के स्मरण में टिके रहने से स्वाभाविक रूप से आती है। जब मन भटके, उसे वापस ब्रह्म के स्मरण में लाइए — यही योग है, यही मुक्ति है।`,
   },
   '4:37': {
     explanation: `अद्वैत के साथ ब्रह्म-घोषणा। व्यक्तिगत आत्मा ब्रह्म है; जगत ब्रह्म है; इस अनुभूति में सभी भेद विलीन हो जाते हैं।`,
+    science: `Non-dual awareness पर न्यूरोसाइंस शोध (Travis, Shear): EEG अध्ययनों में अद्वैत अनुभव की अवस्था में प्रीफ्रंटल कॉर्टेक्स की समन्वित सक्रियता और डिफ़ॉल्ट-मोड-नेटवर्क का शान्त होना देखा गया है — self-other विभाजन का विलयन वास्तविक तंत्रिका-घटना है।`,
+    lifeLesson: `जब आप पहचानते हैं कि आप वही हैं जो सबमें व्याप्त है — तब कोई दूसरा नहीं बचता जिससे डरना हो। अहंकार की सीमाओं को छोड़कर विराट चेतना में विश्राम कीजिए।`,
   },
   '4:38': {
     explanation: `ब्रह्म में व्यक्तित्व का विलोपन। नदियों का समुद्र में और दीपों का ज्योति में समाहित होने के बिम्ब पृथक पहचान के लोप को दर्शाते हैं जबकि सार रहता है।`,
+    science: `Ego dissolution पर शोध (Carhart-Harris, fMRI): मस्तिष्क के Default Mode Network का शान्त होना self की सीमाओं के विलयन के साथ मेल खाता है। नदियों का समुद्र में लीन होना इसी तंत्रिका-घटना का पौराणिक बिम्ब है।`,
+    lifeLesson: `नदी समुद्र में मिलकर नष्ट नहीं होती — वह समुद्र ही जाती है। अहंकार का त्याग अस्तित्व का त्याग नहीं, अस्तित्व का विस्तार है।`,
   },
   '4:39': {
     explanation: `ब्रह्म के गुण: शान्त, शिव, अद्वैत, नित्य, शुद्ध, अच्युत। ज्ञान देखना है; अज्ञान अन्धापन है।`,
+    science: `Spiritual intelligence पर शोध (Zohar & Marshall, Emmons): आध्यात्मिक बुद्धि — जो अर्थ, मूल्य और अस्तित्व के प्रश्नों से जुड़ी है — एक विशिष्ट संज्ञानात्मक क्षमता है जो बौद्धिक बुद्धि (IQ) से स्वतंत्र है। ब्रह्म के गुणों का मनन इसी बुद्धि को विकसित करता है।`,
+    lifeLesson: `ब्रह्म के गुणों — शान्त, शिव, अद्वैत, नित्य, शुद्ध, अच्युत — का मनन करना केवल बौद्धिक अभ्यास नहीं, बल्कि चेतना को परिष्कृत करने का मार्ग है। आज इन छह गुणों में से किसी एक पर ध्यान केंद्रित कीजिए।`,
   },
   '4:40': {
     explanation: `अद्वैत की पुष्टि: एक ही सत्ता है, कोई दूसरा नहीं। ज्ञाता पहचानता है "मैं वही हूँ" और मृत्यु, शोक और समस्त दुःख से पार हो जाता है।`,
+    science: `Non-dual awareness और भावनात्मक कल्याण पर शोध (Travis, Shear): अद्वैत अनुभव की स्थायी अवस्था में amygdala की प्रतिक्रियशीलता कम होती है और प्रीफ्रंटल कॉर्टेक्स का नियंत्रण बढ़ता है — सोऽहम् की पहचान वास्तविक तंत्रिका-शान्ति उत्पन्न करती है।`,
+    lifeLesson: `सोऽहम् — यह पहचान जीवन के सभी भय, शोक और दुःखों को जड़ से काट देती है। आज किसी भी चिंता के समय रुककर यह स्मरण कीजिए: मैं शरीर नहीं, मैं वही हूँ जो शरीर को देख रहा है।`,
+  },
+
+  '2:1': {
+    explanation: `(आचार्य कहता है:) यदि तू सोचता है कि मैं ब्रह्म को अच्छी तरह जानता हूँ, तो वास्तव में तू उसके स्वरूप का अल्प भाग ही जानता है — चाहे अपने में, चाहे देवों में। अतः तुझे और विचार करना चाहिए। (शिष्य:) मैं समझता हूँ कि मैंने जान लिया।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '2:2': {
+    explanation: `(शिष्य, परिपक्व होकर:) मैं यह नहीं मानता कि मैंने उसे अच्छी तरह जान लिया, न ही यह कि मैं नहीं जानता। हममें से जो उसे जानता है, वह उसे जानता है, और यह भी जानता है कि वह "नहीं जानता" — ऐसा भी नहीं है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '2:3': {
+    explanation: `जिसे लगता है कि मैंने नहीं जाना, उसने जान लिया है। जिसे लगता है कि मैंने जान लिया, उसने नहीं जाना। ज्ञानियों के लिए वह अज्ञात है; अज्ञानियों के लिए वह ज्ञात है।`,
+    science: `Cognitive neuroscience: insight and understanding emerge from gamma-wave synchrony across brain regions. Knowledge is not merely accumulated information — it is the reorganization of neural patterns into a new coherent whole.`,
+    lifeLesson: `Knowing about a thing is not the same as knowing it. True knowledge transforms the knower. Pursue not just information but the insight that changes who you are.`,
+  },
+  '2:4': {
+    explanation: `वह प्रतिबोध (हर बोध-क्षण) में जाना जाता है; वही ज्ञान अमरत्व देता है। आत्मा से ही बल मिलता है, विद्या से अमृत मिलता है।`,
+    science: `Cognitive neuroscience: insight and understanding emerge from gamma-wave synchrony across brain regions. Knowledge is not merely accumulated information — it is the reorganization of neural patterns into a new coherent whole.`,
+    lifeLesson: `Knowing about a thing is not the same as knowing it. True knowledge transforms the knower. Pursue not just information but the insight that changes who you are.`,
+  },
+  '2:5': {
+    explanation: `यदि इस लोक में जान लिया, तब सत्य है; यदि यहाँ न जान सका, तो बड़ी हानि है। धीर पुरुष प्रत्येक प्राणी में इसे देखकर, इस लोक से जाकर अमर हो जाते हैं।`,
+    science: `Psychology of authenticity (Harter): living in alignment with one's true values correlates with higher well-being, lower stress, and stronger relationships. Deception, even self-deception, creates cognitive dissonance that drains mental energy.`,
+    lifeLesson: `Truth is not just about what you say — it is about who you are. Be honest with yourself first. The most damaging lies are the ones we tell ourselves. Practice radical honesty, starting with your own heart.`,
+  },
+  '3:1': {
+    explanation: `कहा जाता है कि ब्रह्म ने देवताओं के लिए विजय प्राप्त की। उस विजय में देवता गर्व करने लगे। वे सोचने लगे — "यह विजय हमारी ही है, यह महिमा हमारी ही है।"`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '3:2': {
+    explanation: `ब्रह्म ने उनके इस विचार को जान लिया, और उनके सामने प्रकट हुआ। वे उसे पहचान न सके — "यह अद्भुत यक्ष कौन है?"`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '3:3': {
+    explanation: `उन्होंने अग्नि से कहा — "हे जातवेद, पता लगा कि यह यक्ष क्या है।" "अच्छा," अग्नि ने उत्तर दिया।`,
+    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
+    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
+  },
+  '3:4': {
+    explanation: `अग्नि उसके पास पहुँचा। यक्ष ने पूछा — "तुम कौन हो?" अग्नि ने कहा — "मैं अग्नि हूँ, मैं जातवेद हूँ।"`,
+    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
+    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
+  },
+  '3:5': {
+    explanation: `"तुझमें क्या शक्ति है?" "जो कुछ भी इस पृथ्वी पर है, मैं उसे जला सकता हूँ!"`,
+    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
+    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
+  },
+  '3:6': {
+    explanation: `यक्ष ने उसके सामने एक तृण रखा — "इसे जला।" अग्नि अपनी पूरी शक्ति से उस पर झपटा, परन्तु उसे जला न सका। वह लौट आया — "मैं नहीं जान सका कि यह यक्ष क्या है।"`,
+    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
+    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
+  },
+  '3:7': {
+    explanation: `फिर उन्होंने वायु से कहा — "वायु, पता लगा कि यह यक्ष क्या है।" "अच्छा," वायु ने उत्तर दिया।`,
+    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
+    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
+  },
+  '3:8': {
+    explanation: `वायु पास पहुँचा। यक्ष ने पूछा — "तुम कौन हो?" वायु ने कहा — "मैं वायु हूँ, मैं मातरिश्वा हूँ।"`,
+    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
+    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
+  },
+  '3:9': {
+    explanation: `"तुझमें क्या शक्ति है?" "जो कुछ भी इस पृथ्वी पर है, मैं उसे उठा ले जा सकता हूँ!"`,
+    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
+    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
+  },
+  '3:10': {
+    explanation: `यक्ष ने उसके सामने एक तृण रखा — "इसे उठा ले जा।" वायु अपनी पूरी शक्ति से उस पर झपटा, परन्तु उसे हिला न सका। वह लौट आया — "मैं नहीं जान सका कि यह यक्ष क्या है।"`,
+    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
+    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
+  },
+  '3:11': {
+    explanation: `फिर उन्होंने इन्द्र से कहा — "हे मघवन्, पता लगा कि यह यक्ष क्या है।" "अच्छा," इन्द्र ने उत्तर दिया। वह पास पहुँचा — और यक्ष उसके सामने से अदृश्य हो गया।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '3:12': {
+    explanation: `उसी आकाश में उसे एक अत्यन्त शोभायमान स्त्री मिली — उमा हैमवती। उसने उससे पूछा — "यह यक्ष क्या है?"`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '4:1': {
+    explanation: `उसने कहा — "वह ब्रह्म था। वास्तव में ब्रह्म की ही विजय में तुम लोग गर्व कर रहे थे।" तब इन्द्र ने जाना — "यह ब्रह्म है।"`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '4:2': {
+    explanation: `इसी कारण ये देवता — अग्नि, वायु, इन्द्र — अन्य देवताओं से श्रेष्ठ हैं, क्योंकि उन्होंने ब्रह्म को सबसे पहले छुआ; उन्होंने सबसे पहले जाना — "यह ब्रह्म है।"`,
+    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
+    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
+  },
+  '4:3': {
+    explanation: `इसीलिए इन्द्र अन्य देवताओं से श्रेष्ठ है, क्योंकि उसने ब्रह्म को सबसे निकट से छुआ; उसने सबसे पहले जाना — "यह ब्रह्म है।"`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '4:4': {
+    explanation: `यह उसका (ब्रह्म का) कौस्मिक स्तर पर निर्देश है — जैसे विद्युत का चमकना, जैसे आँख का झपकना — प्रकट और तुरन्त लुप्त।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '4:5': {
+    explanation: `और आत्म-स्तर पर: वह जिसकी ओर मन जाता-सा है, जिसके द्वारा मन लगातार स्मरण करता है — गहरा सङ्कल्प।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '4:6': {
+    explanation: `उसका नाम "तद्वन" (सबकी इच्छा-योग्य) है। इसी रूप में उसकी उपासना करनी चाहिए। जो इसे ऐसा जानता है, उसकी ओर सब प्राणी आकर्षित होते हैं।`,
+    science: `Meditation research (Davidson): sustained meditation practice thickens the prefrontal cortex, strengthens insula connectivity, and reduces amygdala reactivity. These measurable brain changes confirm the transformative power of dhyana.`,
+    lifeLesson: `Meditation is not escape — it is meeting yourself fully. Even 10 minutes daily of sitting with your breath rewires the brain. The mind that watches itself is already beginning to transform.`,
+  },
+  '4:7': {
+    explanation: `(शिष्य:) "हे भगवन्, उपनिषद् कहिए।" (आचार्य:) "तुम्हें ब्रह्म-विद्या रूप उपनिषद् कह दी गई है।"`,
+    science: `Cognitive neuroscience: insight and understanding emerge from gamma-wave synchrony across brain regions. Knowledge is not merely accumulated information — it is the reorganization of neural patterns into a new coherent whole.`,
+    lifeLesson: `Knowing about a thing is not the same as knowing it. True knowledge transforms the knower. Pursue not just information but the insight that changes who you are.`,
+  },
+  '4:8': {
+    explanation: `उसकी प्रतिष्ठा हैं — तप, दम, और कर्म। वेद उसके सम्पूर्ण अंग हैं। सत्य उसका निवास-स्थान है।`,
+    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
+    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
+  },
+  '4:9': {
+    explanation: `जो इस उपनिषद् को इस प्रकार जानता है, वह सब पाप का नाश करके, अनन्त, श्रेष्ठ, ज्येष्ठ स्वर्ग-लोक में प्रतिष्ठित हो जाता है — प्रतिष्ठित हो जाता है।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
   },
 };

@@ -8,7 +8,7 @@
     "license": "Sanskrit mūla — public domain. Digitized by sanskritdocuments.org.",
     "fetchedAt": "2026-06-03T13:44:30.081Z"
   },
-  "totalVerses": 289,
+  "totalVerses": 28,
   "totalChapters": 4,
   "chapters": [
     {
@@ -17,1929 +17,130 @@
       "titleSanskrit": "सम्पूर्ण पाठ",
       "verses": [
         {
+          "number": 1,
+          "sanskrit": "अथातो भक्तिजिज्ञासा ||",
+          "transliteration": "athāto bhaktijijñāsā ||",
+          "translation": "Now, therefore, the inquiry into bhakti.",
+          "hindi": "अब अतः भक्ति की जिज्ञासा।",
+          "commentary": "Shandilya opens with almost the same formula as Narada — \"athāto\" — and almost the same as the Brahma Sutras (\"athāto brahma-jijñāsā\"). The parallel is deliberate: Shandilya places the inquiry into bhakti at the same philosophical level as the inquiry into Brahman. Just as the Brahma Sutras ask \"what is Brahman?\" Shandilya asks \"what is bhakti?\" — treating it not as a subordinate practice but as an independent object of philosophical investigation deserving its own systematic treatment. The word \"jijñāsā\" (inquiry, the desire to know) frames this as an intellectual and spiritual quest together: you cannot understand bhakti from outside; you must become a bhakta-jijñāsu — one who both practises and seeks to understand.",
+          "wordMeaning": "Shandilya opens with almost the same formula as Narada — \"athāto\" — and almost the same as the Brahma Sutras (\"athāto brahma-jijñāsā\"). The parallel is deliberate: Shandilya places the inquiry into bhakti at the same philosophical level as the inquiry into Brahman. Just as the Brahma Sutras ask \"what is Brahman?\" Shandilya asks \"what is bhakti?\" — treating it not as a subordinate practice but as an independent object of philosophical investigation deserving its own systematic treatment. The word \"jijñāsā\" (inquiry, the desire to know) frames this as an intellectual and spiritual quest together: you cannot understand bhakti from outside; you must become a bhakta-jijñāsu — one who both practises and seeks to understand."
+        },
+        {
+          "number": 2,
+          "sanskrit": "सा परानुरक्तिरीश्वरे ||",
+          "transliteration": "sā parānuraktirīśvare ||",
+          "translation": "That (bhakti) is supreme attachment (para-anurakti) to Ishvara.",
+          "hindi": "वह (भक्ति) ईश्वर में परानुरक्ति (परम आसक्ति) है।",
+          "commentary": "Shandilya's definition in four words. \"Para-anurakti\" — supreme attachment. \"Anurakti\" differs from \"prema\" (Narada's term): anurakti carries the connotation of sustained, deepening attachment that grows over time — the kind of love that binds a devoted disciple to a teacher, a child to a parent, a true devotee to their chosen form of the divine. \"Para\" (supreme) distinguishes this from ordinary worldly attachment (which Shandilya will discuss as an obstacle to bhakti). And the direction: \"Ishvare\" — in or toward Ishvara. Not a diffuse spirituality but a specific, directed attachment to the divine reality. The comparison with Narada: Narada says bhakti IS love; Shandilya says bhakti is ATTACHMENT — the ongoing quality of being drawn toward and held by the divine.",
+          "wordMeaning": "Shandilya's definition in four words. \"Para-anurakti\" — supreme attachment. \"Anurakti\" differs from \"prema\" (Narada's term): anurakti carries the connotation of sustained, deepening attachment that grows over time — the kind of love that binds a devoted disciple to a teacher, a child to a parent, a true devotee to their chosen form of the divine. \"Para\" (supreme) distinguishes this from ordinary worldly attachment (which Shandilya will discuss as an obstacle to bhakti). And the direction: \"Ishvare\" — in or toward Ishvara. Not a diffuse spirituality but a specific, directed attachment to the divine reality. The comparison with Narada: Narada says bhakti IS love; Shandilya says bhakti is ATTACHMENT — the ongoing quality of being drawn toward and held by the divine."
+        },
+        {
           "number": 3,
-          "sanskrit": "शाण्डिल्योपनिषत्प्रोक्तयमाद्यष्टाङ्गयोगिनः ।",
-          "transliteration": "shANDilyopaniShatproktayamAdyaShTA~NgayoginaH |",
-          "translation": "",
-          "hindi": ""
+          "sanskrit": "ईश्वरः परमेश्वरः सर्वज्ञः सर्वशक्तिमान् सर्वान्तर्यामी ||",
+          "transliteration": "Īśvaraḥ parameśvaraḥ sarvajñaḥ sarvaśaktimān sarvāntaryāmī ||",
+          "translation": "Ishvara is the supreme Lord — omniscient, omnipotent, the inner controller of all.",
+          "hindi": "ईश्वर परमेश्वर है — सर्वज्ञ, सर्वशक्तिमान, और सबका अन्तर्यामी।",
+          "commentary": "Shandilya immediately follows his definition of bhakti with a definition of its object: Ishvara. Three attributes — sarvajña (all-knowing), sarvaśaktimān (all-powerful), sarvāntaryāmī (inner controller of all). The third is the most philosophically significant: \"antaryāmī\" — the one who dwells within all, who is the innermost witness and controller of every being. This is not a distant God to whom petitions are sent; it is the divine that is more intimate to you than your own thoughts, the one who knows you more completely than you know yourself. Bhakti directed at this Ishvara is not an outward gesture but an inner recognition.",
+          "wordMeaning": "Shandilya immediately follows his definition of bhakti with a definition of its object: Ishvara. Three attributes — sarvajña (all-knowing), sarvaśaktimān (all-powerful), sarvāntaryāmī (inner controller of all). The third is the most philosophically significant: \"antaryāmī\" — the one who dwells within all, who is the innermost witness and controller of every being. This is not a distant God to whom petitions are sent; it is the divine that is more intimate to you than your own thoughts, the one who knows you more completely than you know yourself. Bhakti directed at this Ishvara is not an outward gesture but an inner recognition."
         },
         {
           "number": 4,
-          "sanskrit": "यद्बोधाद्यान्ति कैवल्यं स रामो मे परा गतिः ॥",
-          "transliteration": "yadbodhAdyAnti kaivalya.n sa rAmo me parA gatiH ||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 5,
-          "sanskrit": "ॐ भद्रं कर्णेभिः श्रुणुयाम देवा भद्रं पश्येमाक्षभिर्यजत्राः ।",
-          "transliteration": "OM bhadra.n karNebhiH shruNuyAma devA bhadraM pashyemAkShabhiryajatrAH |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 6,
-          "sanskrit": "स्थिरैरङ्गैस्तुष्टुवाँसस्तनूभिर्व्यशेम देवहितं यदायुः ॥",
-          "transliteration": "sthiraira~NgaistuShTuvA{\\m+}sastanUbhirvyashema devahita.n yadAyuH ||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 7,
-          "sanskrit": "स्वस्ति न इन्द्रो वृद्धश्रवाः स्वस्ति नः पूषा विश्ववेदाः ।",
-          "transliteration": "svasti na indro vR^iddhashravAH svasti naH pUShA vishvavedAH |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 8,
-          "sanskrit": "स्वस्ति नस्तार्क्ष्यो अरिष्टनेमिः स्वस्ति नो बृहस्पतिर्दधातु ॥",
-          "transliteration": "svasti nastArkShyo ariShTanemiH svasti no bR^ihaspatirdadhAtu ||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 9,
-          "sanskrit": "ॐ शान्तिः शान्तिः शान्तिः ॥",
-          "transliteration": "OM shAntiH shAntiH shAntiH ||",
-          "translation": "",
-          "hindi": ""
+          "sanskrit": "तदेव साध्यसाधनयोरभेदात् ||",
+          "transliteration": "tadeva sādhyasādhanayorAbhedāt ||",
+          "translation": "That alone (is both means and end), because there is no difference between the goal and the means.",
+          "hindi": "वही (भक्ति) साध्य और साधन दोनों है — क्योंकि साध्य और साधन में कोई भेद नहीं है।",
+          "commentary": "One of Shandilya's most philosophically precise sutras: bhakti is both the sādhana (means/practice) and the sādhya (goal/end). This collapses the structure of most spiritual frameworks in which practice is instrumental — a means to a separate end. In bhakti, the means and the end are the same substance: love. You do not practise love to arrive at love. The practice of love IS the presence of love. The moment genuine bhakti arises, the goal is already present. This is why Narada says bhakti is self-proving: it requires no external fruit to validate itself because the practice and its highest expression are identical.",
+          "wordMeaning": "One of Shandilya's most philosophically precise sutras: bhakti is both the sādhana (means/practice) and the sādhya (goal/end). This collapses the structure of most spiritual frameworks in which practice is instrumental — a means to a separate end. In bhakti, the means and the end are the same substance: love. You do not practise love to arrive at love. The practice of love IS the presence of love. The moment genuine bhakti arises, the goal is already present. This is why Narada says bhakti is self-proving: it requires no external fruit to validate itself because the practice and its highest expression are identical."
         },
         {
           "number": 10,
-          "sanskrit": "1",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 11,
-          "sanskrit": "शाण्डिल्यो ह वा अथर्वाणं पप्रच्छात्मलाभोपायभूतमष्टाङ्गयोगमनुब्रूहीति । स होवाचाथर्वा यमनियमासनप्राणायामप्रत्याहारधारणाध्यानसमाधयोऽष्टाङ्गानि । तत्र दश यमाः । तथा नियमाः । आसनान्यष्टौ । त्रयःप्राणायामाः । पञ्चप्रत्याहाराः । तथा धारणा । द्विप्रकारं ध्यानम् । समाधिस्त्वेकरूपः । तत्राहिंसासत्यास्तेयब्रह्मचर्यदयाजपक्षमाधृतिमिताहारशौचानि चेति यमादश । तत्र हिंसा नाम मनोवाक्कायकर्मभिः सर्वभूतेषु सर्वदा क्लेशजननम् । सत्यं नाम मनोवाक्कायकर्मभिर्भूतहितयथार्थाभिभाषणम् । अस्तेयं नाम मनोवाक्कायकर्मभिः परद्रव्येषु निःस्पृहा । ब्रह्मचर्यं नाम सर्वावस्थासु मनोवाक्कायकर्मभिः सर्वत्र मैथुनत्यागः । दया नाम सर्वभूतेषु सर्वत्रानुग्रहः । आर्जवं नाम मनोवाक्कायकर्मणां विहिताविहितेषु जनेषु प्रवृत्तौ निवृत्तौ वा एकरूपत्वम् । क्षमा नाम प्रियाप्रियेषु सर्वेषु ताडनपूजनेषु सहनम् । धृतिर्नामार्थहानौ स्वेष्टबन्धुवियोगे तत्प्राप्तौ सर्वत्र चेतः स्थापनम् । मिताहारो नाम चतुर्थांशावशेषकसुस्निग्धमधुराहारः । शौचं नाम द्विविधं बाह्यमान्तरं चेति । तत्र मृज्जलाभ्यां बाह्यम् । मनःशुद्धिरान्तरम् । तदध्यात्मविद्यया लभ्यम् ॥ १॥",
-          "transliteration": "shANDilyo ha vA atharvANaM paprachChAtmalAbhopAyabhUtamaShTA~NgayogamanubrUhIti | sa hovAchAtharvA yamaniyamAsanaprANAyAmapratyAhAradhAraNAdhyAnasamAdhayo.aShTA~NgAni | tatra dasha yamAH | tathA niyamAH | AsanAnyaShTau | trayaHprANAyAmAH | pa~nchapratyAhArAH | tathA dhAraNA | dviprakAra.n dhyAnam | samAdhistvekarUpaH | tatrAhi.nsAsatyAsteyabrahmacharyadayAjapakShamAdhR^itimitAhArashauchAni cheti yamAdasha | tatra hi.nsA nAma manovAkkAyakarmabhiH sarvabhUteShu sarvadA kleshajananam | satya.n nAma manovAkkAyakarmabhirbhUtahitayathArthAbhibhAShaNam | asteya.n nAma manovAkkAyakarmabhiH paradravyeShu niHspR^ihA | brahmacharya.n nAma sarvAvasthAsu manovAkkAyakarmabhiH sarvatra maithunatyAgaH | dayA nAma sarvabhUteShu sarvatrAnugrahaH | Arjava.n nAma manovAkkAyakarmaNA.n vihitAvihiteShu janeShu pravR^ittau nivR^ittau vA ekarUpatvam | kShamA nAma priyApriyeShu sarveShu tADanapUjaneShu sahanam | dhR^itirnAmArthahAnau sveShTabandhuviyoge tatprAptau sarvatra chetaH sthApanam | mitAhAro nAma chaturthA.nshAvasheShakasusnigdhamadhurAhAraH | shaucha.n nAma dvividhaM bAhyamAntara.n cheti | tatra mR^ijjalAbhyAM bAhyam | manaHshuddhirAntaram | tadadhyAtmavidyayA labhyam || 1||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 12,
-          "sanskrit": "तपःसन्तोषास्तिक्यदानेश्वरपूजनसिद्धान्तश्रवणह्रीमतिजपो व्रतानि दश नियमाः । तत्र तपो नाम विध्युक्तकृच्छ्रचान्द्रायणादिभिः शरीरशोषणम् । सन्तोषो नाम यदृच्छालाभसन्तुष्टिः । आस्तिक्यं नाम वेदोक्तधर्माधर्मेषु विश्वासः । दानं नाम न्यायार्जितस्य धनधान्यादिः श्रद्धयार्ह्तिभ्यः प्रदानम् । ईश्वरपूजनं नाम प्रसन्नस्वभावेन यथाशक्ति विष्णुरुद्रादि पूजनम् । सिद्धान्तश्रवणं नाम वेदान्तार्थविचारः । ह्रीर्नाम वेदलौकिकमार्गकुत्सितकर्मणि लज्जा । मतिर्नाम वेदविहितकर्ममार्गेषु श्रद्धा । जपो नाम विधिवद्गुरूपदिष्टवेदाविरुद्धमन्त्राभ्यासः । तद्द्विविधं वाचिकं मानसं चेति । मानसं तु मनसा ध्यानयुक्तम् । वाचिकं द्विविधमुच्चैरुपांशुभेदेन । उच्चैरुच्चारणं यथोक्तफलम् । उपांशु सहस्रगुणम् । मानसं कोटिगुणम् । व्रतं नाम वेदोक्तविधिनिषेधानुष्ठाननैयत्यम् ॥ २॥",
-          "transliteration": "tapaHsantoShAstikyadAneshvarapUjanasiddhAntashravaNahrImatijapo vratAni dasha niyamAH | tatra tapo nAma vidhyuktakR^ichChrachAndrAyaNAdibhiH sharIrashoShaNam | santoSho nAma yadR^ichChAlAbhasantuShTiH | Astikya.n nAma vedoktadharmAdharmeShu vishvAsaH | dAna.n nAma nyAyArjitasya dhanadhAnyAdiH shraddhayArhtibhyaH pradAnam | IshvarapUjana.n nAma prasannasvabhAvena yathAshakti viShNurudrAdi pUjanam | siddhAntashravaNa.n nAma vedAntArthavichAraH | hrIrnAma vedalaukikamArgakutsitakarmaNi lajjA | matirnAma vedavihitakarmamArgeShu shraddhA | japo nAma vidhivadgurUpadiShTavedAviruddhamantrAbhyAsaH | taddvividha.n vAchikaM mAnasa.n cheti | mAnasa.n tu manasA dhyAnayuktam | vAchika.n dvividhamuchchairupA.nshubhedena | uchchairuchchAraNa.n yathoktaphalam | upA.nshu sahasraguNam | mAnasa.n koTiguNam | vrata.n nAma vedoktavidhiniShedhAnuShThAnanaiyatyam || 2||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 13,
-          "sanskrit": "स्वस्तिकगोमुखपद्मवीरसिंहभद्रमुक्तमयूराख्यान्यासनान्यष्टौ ।",
-          "transliteration": "svastikagomukhapadmavIrasi.nhabhadramuktamayUrAkhyAnyAsanAnyaShTau |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 14,
-          "sanskrit": "स्वस्तिकं नाम-जानूर्वोन्तरे सम्यक्कृत्वा पादतले उभे ।",
-          "transliteration": "svastika.n nAma\\-jAnUrvontare samyakkR^itvA pAdatale ubhe |",
-          "translation": "",
-          "hindi": ""
+          "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं ईश्वर एव सर्वं ईश्वर मयि सर्वम् ||",
+          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ īśvara eva sarvaṃ īśvara mayi sarvam ||",
+          "translation": "I am Brahman, not you; I am birth, not beings; all is Ishvara alone, all is Ishvara in me.",
+          "hindi": "मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब ईश्वर ही है, सब ईश्वर मेरे में है।",
+          "commentary": "The declaration of non-duality with Ishvara as the supreme. The individual Self is Brahman; the world is Ishvara; all distinctions dissolve in this recognition.",
+          "wordMeaning": "The declaration of non-duality with Ishvara as the supreme. The individual Self is Brahman; the world is Ishvara; all distinctions dissolve in this recognition."
         },
         {
           "number": 15,
-          "sanskrit": "ऋजुकायः समासीनः स्वस्तिकं तत्प्रचक्षते ॥ १॥",
-          "transliteration": "R^ijukAyaH samAsInaH svastika.n tatprachakShate || 1||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 16,
-          "sanskrit": "सव्ये दक्षिणगुल्फं तु पृष्ठपार्श्वे नियोजयेत् ।",
-          "transliteration": "savye dakShiNagulpha.n tu pR^iShThapArshve niyojayet |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 17,
-          "sanskrit": "दक्षिणेऽपि तथा सव्यं गोमुखं गोमुखं यथा ॥ २॥",
-          "transliteration": "dakShiNe.api tathA savya.n gomukha.n gomukha.n yathA || 2||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 18,
-          "sanskrit": "अङ्गुष्ठेन निबध्नीयाद्धस्ताभ्यां व्युत्क्रमेण च ।",
-          "transliteration": "a~NguShThena nibadhnIyAddhastAbhyA.n vyutkrameNa cha |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 19,
-          "sanskrit": "ऊर्वोरुपरि शाण्डिल्य कृत्वा पादतले उभे ।",
-          "transliteration": "Urvorupari shANDilya kR^itvA pAdatale ubhe |",
-          "translation": "",
-          "hindi": ""
+          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो ईश्वरे लीनो न तत्र संशयो भवति ||",
+          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo īśvare līno na tatra saṃśayo bhavati ||",
+          "translation": "As rivers merge into the ocean, as lamps merge into light — so the individual self merges into Ishvara. There is no doubt about this.",
+          "hindi": "जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ईश्वर में लीन हो जाता है। इसमें कोई संशय नहीं।",
+          "commentary": "The dissolution of individuality into Ishvara. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains.",
+          "wordMeaning": "The dissolution of individuality into Ishvara. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains."
         },
         {
           "number": 20,
-          "sanskrit": "पद्मासनं भवेदेतत्सर्वेषामपि पूजितम् ॥ ३॥",
-          "transliteration": "padmAsanaM bhavedetatsarveShAmapi pUjitam || 3||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 21,
-          "sanskrit": "एकं पादमथैकस्मिन्विन्यस्योरुणि संस्थितः ।",
-          "transliteration": "ekaM pAdamathaikasminvinyasyoruNi sa.nsthitaH |",
-          "translation": "",
-          "hindi": ""
+          "sanskrit": "शान्तं शिवमद्वैतं ईश्वर नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
+          "transliteration": "śāntaṃ śivamadvaitaṃ īśvara nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||",
+          "translation": "Peaceful, auspicious, non-dual Ishvara — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.",
+          "hindi": "शांत, शिव, अद्वैत ईश्वर — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
+          "commentary": "The attributes of Ishvara: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness.",
+          "wordMeaning": "The attributes of Ishvara: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness."
         },
         {
           "number": 22,
-          "sanskrit": "इतरस्मिंस्तथा चोरूं वीरासनमुदीरितम् ॥ ४॥",
-          "transliteration": "itarasmi.nstathA chorU.n vIrAsanamudIritam || 4||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 23,
-          "sanskrit": "दक्षिणं सव्यगुल्फेन दक्षिणेन तथेतरम् ।",
-          "transliteration": "dakShiNa.n savyagulphena dakShiNena tathetaram |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 24,
-          "sanskrit": "हस्तौ च जान्वोः संस्थाप्य स्वाङ्गुलीश्च प्रसार्य च ॥ ५॥",
-          "transliteration": "hastau cha jAnvoH sa.nsthApya svA~NgulIshcha prasArya cha || 5||",
-          "translation": "",
-          "hindi": ""
+          "sanskrit": "न तु तद्विना ज्ञानं भक्तेः साधनत्वेन | तस्य फलत्वात् ||",
+          "transliteration": "na tu tadvina jñānaṃ bhakteḥ sādhanaTvena | tasya phalatvāt ||",
+          "translation": "But knowledge is not the means (sadhana) to bhakti without that (Ishvara). Because (bhakti) is its fruit.",
+          "hindi": "परन्तु ईश्वर के बिना ज्ञान भक्ति का साधन नहीं है। क्योंकि (भक्ति) उसका फल है।",
+          "commentary": "Shandilya's most subtle sutra: knowledge (jnana) is not the means (sadhana) to bhakti — bhakti is the fruit of knowledge rightly understood. This inverts the common assumption that you first gain jnana and then, as a result, develop bhakti. Shandilya says: when jnana is genuine — when the knowledge of Ishvara's nature is real and not merely intellectual — bhakti arises spontaneously as its fruit. You do not produce bhakti by trying to love; you produce it by truly knowing the one you are loving. The more deeply you know Ishvara, the more naturally love arises. Knowledge and love are not two stages; they are two aspects of the same deepening.",
+          "wordMeaning": "Shandilya's most subtle sutra: knowledge (jnana) is not the means (sadhana) to bhakti — bhakti is the fruit of knowledge rightly understood. This inverts the common assumption that you first gain jnana and then, as a result, develop bhakti. Shandilya says: when jnana is genuine — when the knowledge of Ishvara's nature is real and not merely intellectual — bhakti arises spontaneously as its fruit. You do not produce bhakti by trying to love; you produce it by truly knowing the one you are loving. The more deeply you know Ishvara, the more naturally love arises. Knowledge and love are not two stages; they are two aspects of the same deepening."
         },
         {
           "number": 25,
-          "sanskrit": "व्यक्तवक्त्रो निरीक्षेत नासाग्रं सुसमाहितः ।",
-          "transliteration": "vyaktavaktro nirIkSheta nAsAgra.n susamAhitaH |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 26,
-          "sanskrit": "सिंहासनं भवेदेतत्पूजितं योगिभिः सदा ॥ ६॥",
-          "transliteration": "si.nhAsanaM bhavedetatpUjita.n yogibhiH sadA || 6||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 27,
-          "sanskrit": "योनीं वामेन सम्पीड्य मेढ्राद्रुपरि दक्षिणम् ।",
-          "transliteration": "yonI.n vAmena sampIDya meDhrAdrupari dakShiNam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 28,
-          "sanskrit": "भ्रूमध्ये च मनोलक्ष्यं सिद्धासनमिदं भवेत् ॥ ७॥",
-          "transliteration": "bhrUmadhye cha manolakShya.n siddhAsanamidaM bhavet || 7||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 29,
-          "sanskrit": "गुल्फौ तु वृषणस्याधः सीवन्याः पार्श्वयोः क्षिपेत् ।",
-          "transliteration": "gulphau tu vR^iShaNasyAdhaH sIvanyAH pArshvayoH kShipet |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 30,
-          "sanskrit": "पादपार्श्वे तु पाणिभ्यां दृढं बध्वा सुनिश्चलम् ।",
-          "transliteration": "pAdapArshve tu pANibhyA.n dR^iDhaM badhvA sunishchalam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 31,
-          "sanskrit": "भद्रासनं भवेदेतत्सर्वव्याधिविषापहम् ॥ ८॥",
-          "transliteration": "bhadrAsanaM bhavedetatsarvavyAdhiviShApaham || 8||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 32,
-          "sanskrit": "सम्पीड्य सीविनीं सूक्ष्मां गुल्फेनैव तु सव्यतः ।",
-          "transliteration": "sampIDya sIvinI.n sUkShmA.n gulphenaiva tu savyataH |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 33,
-          "sanskrit": "सव्यं दक्षिणगुल्फेन मुक्तासनमुदीरितम् ॥ ९॥",
-          "transliteration": "savya.n dakShiNagulphena muktAsanamudIritam || 9||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 34,
-          "sanskrit": "अवष्टभ्य धरां सम्यक्तलाभ्यां तु करद्वयोः ।",
-          "transliteration": "avaShTabhya dharA.n samyaktalAbhyA.n tu karadvayoH |",
-          "translation": "",
-          "hindi": ""
+          "sanskrit": "एको देवो द्वितीयो नास्ति यो ईश्वरं वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
+          "transliteration": "eko devo dvitīyo nāsti yo īśvaraṃ veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||",
+          "translation": "There is one God, no second — he who knows Ishvara in truth. I am He, not any being, no death, no sorrow, and so on.",
+          "hindi": "एक ही देव है, दूसरा कोई नहीं — जो ईश्वर को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।",
+          "commentary": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering.",
+          "wordMeaning": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering."
         },
         {
           "number": 35,
-          "sanskrit": "हस्तयोः कूर्परौ चापि स्थापयेन्नाभिपार्श्वयओः ॥ १०॥",
-          "transliteration": "hastayoH kUrparau chApi sthApayennAbhipArshvayaoH || 10||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 36,
-          "sanskrit": "समुन्नतशिरःपादो दण्डवद्व्योम्नि संस्थितः ।",
-          "transliteration": "samunnatashiraHpAdo daNDavadvyomni sa.nsthitaH |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 37,
-          "sanskrit": "मयूरासनमेतत्तु सर्वपापप्रणाशनम् ॥ ११॥",
-          "transliteration": "mayUrAsanametattu sarvapApapraNAshanam || 11||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 38,
-          "sanskrit": "शरीरान्तर्गताः सर्वे रोगा विनश्यन्ति । विषाणि जीर्यन्ते । येन केनासनेन सुखधारणं भवत्यशक्तस्तत्समाचरेत् । येनासनं विजितं जगत्त्रयं तेन विजितं भवति । यमनियमाभ्यां संयुक्तः पुरुषः प्राणायामं चरेत् । तेन नाड्यः शुद्धा भवन्ति ॥ ३॥",
-          "transliteration": "sharIrAntargatAH sarve rogA vinashyanti | viShANi jIryante | yena kenAsanena sukhadhAraNaM bhavatyashaktastatsamAcharet | yenAsana.n vijita.n jagattraya.n tena vijitaM bhavati | yamaniyamAbhyA.n sa.nyuktaH puruShaH prANAyAma.n charet | tena nADyaH shuddhA bhavanti || 3||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 39,
-          "sanskrit": "अथ हैनमथर्वाणं शाण्डिल्यः पप्रच्छ केनोपायेन नाड्यः शुद्धाः स्युः । नाड्यः कतिसंख्याकाः । तासामुत्पत्तिः कीदृशी । तासु कति वयवस्तिष्ठन्ति । तेषां कानि स्थानानि । तत्कर्माणि कानि । देहे यानि यानि विज्ञातव्यानि तत्सर्वं मे ब्रूहीति । स होवाच अथर्वाण अथेदं शरीरं षण्णवत्यङ्गुलात्मकं भवति । शरीरात्प्राणो द्वादशाङ्गुलाधिको भवति । शरीरस्थं प्राणमग्निना सह योगाभ्यासेन समं न्यूनं वा यः करोति स योगिपुङ्गवो भवति । देहमध्ये शिखिस्थानं त्रिकोणं तप्तजाम्बूनदप्रभं मनुष्याणाम् । चतुष्पदां चतुरस्रम् । विहङ्गानां वृत्ताकारम् । तन्मध्ये शुभा तन्वी पावकी शिखा तिष्ठति । गुदाद्व्यङ्गुलादूर्ध्वं मेढ्राद्व्यङ्गुलादधो देहमध्यं मनुष्याणां भवति । चतुष्पदां हृन्मध्यम् । विहङ्गानां तुङ्गमध्यम् । देहमध्यं नवाङ्गुलं चतुरङ्गुलमुत्सेधायतमण्डाकृति । तन्मध्ये नाभिः । तत्र द्वादशारयुतं चक्रम् । तच्चक्रमध्ये पुण्यपापप्रचोदितो जीवो भ्रमति । तन्तुपञ्जरमध्यस्थलूतिका यथा भ्रमति तथा चासौ तत्र प्राणश्चरति । देहेऽस्मिञ्जीवः प्राणारूढो भवेत् । नाभेस्तिर्यगधऊर्ध्वं कुण्डलिनीस्थानम् । अष्टप्रकृतिरूपाष्टधा कुण्डलीकृता कुण्डलिनी शक्तिर्भवति । यथावद्वायुसंचारं जलान्नादीनि परितः स्कन्धः पार्श्वेषु निरुध्यैनं मुखेनैव समावेष्ट्य ब्रह्मरन्ध्रं योगकाले चापानेनाग्निना च स्फुरति । हृदयाकाशे महोज्ज्वला ज्ञानरूपा भवति । मध्यस्थकुण्डलिनीमाश्रित्य मुख्या नाड्यश्चतुर्दश भवन्ति । इडा पिङ्गला सुषुम्ना सरस्वती वारुणी पूषा हस्तिजिह्वा यशस्विनी विश्वोदरी कुहूः शङ्खिनी पयस्विनी अलम्बुसा गान्धारीति नाड्यचतुर्दश भवन्ति । तत्र सुषुम्ना विश्वधारिणी मोक्षमार्गेति चाचक्षते । गुदस्य पृष्ठभागे वीणादण्डाश्रिता मूर्धपर्यन्तं ब्रह्मरन्ध्रे विज्ञेया व्यक्ता सूक्ष्मा वैष्णवी भवति । सुषुम्नायाः सव्यभागे इडा तिष्ठति । दक्षिणभागे पिङ्गला इडायां चन्द्रश्चरति । पिङ्गलायां रविः । तमोरूपश्चन्द्रः । रजोरूपो रविः । विषभागो रविः । अमृतभागश्चन्द्रमाः । तावेव सर्वकालं धत्ते । सुषुम्ना कालभोक्त्री भवति । सुषुम्ना पृष्ठपार्श्वयोः सरस्वतीकुहू भवतः । यशस्विनीकुहूमध्ये वारुणी प्रतिष्ठिता भवति । पूषासरस्वतीमध्ये पयस्विनी भवति । गान्धारीसरस्वतिमध्ये यशस्विनी भवति । कन्दमयेऽलम्बुसा भवति। सुषुम्नापूर्वभागे मेढ्रान्तं कुहूर्भवति । कुण्डलिन्या अधश्चोर्ध्वं वारुणी सर्वगामिनी भवति । यशस्विनी सौम्या च पादाङ्गुष्ठान्तमिष्यते । पिङ्गला चोर्ध्वगा याम्यनासान्तं भवति । पिङ्गलायाः पृष्ठतो याम्यनेत्रानतं पूषा भवति । याम्यकर्णान्तं यशस्विनी भवति । जिह्वाया ऊर्ध्वानतं सरस्वती भवति । आसव्यकर्णान्तमूर्ध्वगा शङ्खिनी भवति । इडापृष्ठभागात्सव्यनेत्रान्तगा गान्धारी भवति । पायुमूलादधोर्ध्वगालम्बुसा भवति । एताश्च चतुर्दशसु नाडीष्वन्या नाड्यः संभवन्ति । तास्वन्यास्तास्वन्या भवन्तीति विज्ञेयाः ॥ यथाश्वत्थादिपत्रं शिराभिर्व्याप्तमेवं शरीरं नाडीभिर्व्याप्तम् । प्राणापानसमानोदानव्याना नागकूर्मकृकरदेवदत्तधनञ्जया एते दश वायवः सर्वासु नाडीषु चरन्ति । आस्यनासिकाकण्ठनाभिपादाङ्गुष्ठद्वयकुण्डल्यधश्चोर्ध्वभागेषु प्राणः संचरति । श्रोत्राक्षिकटिगुल्फघ्राणगलस्फिग्देशेषु व्यानः संचरति । गुदमेढ्रोरुजानूदरवृषणकटिजङ्घानाभिगुदाग्न्यगारेष्वपानः संचरति । सर्वसन्धिस्थ उदानः । पादहस्तयोरपि सर्वगात्रेषु सर्वव्यापी समानः । भुक्तान्नरसादिकं गात्रेग्निना सह व्यापयन्द्विसप्ततिसहस्रेषु नाडीमार्गेषु चरन्समानवायुरग्निना सह साङ्गोपाङ्गकलेवरं व्याप्नोति । नागादिवायवः पञ्चत्वगस्थ्यादिसंभवाः । तुन्दस्थं जलमन्नं च रसादिषु समीरितं तुन्दमध्यगतः प्रागस्तानि पृथक्कुर्यात् । अग्नेरुपरि जलं स्थाप्य जलोपर्यन्नादीनि संस्थाप्य स्वयमपानं सम्प्राप्य तेनैव सह मारुतः प्रयाति देहमध्यगतं ज्वलनम् । वायुना पालितो वह्निरपानेन शनैर्देहमध्ये ज्वलति । ज्वलनो ज्वालाभिः प्राणेन कोष्ठमध्यगतं जलमत्युष्णमकरोत् । जलोपरि समर्पितव्यञ्जनसंयुक्तमन्नं वह्निसंयुक्तवारिणा पक्वमकरोत् । तेन स्वेदमूत्रजलरक्तवीर्यरूपरसपुरीषादिकं प्राणः पृथक्कुर्यात् । समानवायुना सह सर्वासु नाडीषु रसं व्यापयञ्छ्वासरूपेण देहे वायुश्चरति । नवभिर्व्योमरन्ध्रैः शरीरस्य वायवः कुर्वन्ति विण्मूत्रादिविसर्जनम् । निश्वासोच्छ्वासकासश्च प्राणकर्मोच्यते । विण्मूत्रादिविसर्जनमपानवायुकर्म । हानोपादानचेष्टादि व्यानकर्म । देहस्योन्नयनादिकमुदानकर्म । शरीरपोषणादिकं समानकर्म । उद्गारादि नागकर्म । निमीलनादि कूर्मकर्म । क्षुत्करणं कृकरकर्म । तन्द्रा देवदत्तकर्म । श्लेष्मादि धनञ्जयकर्म । एवं नाडीस्थानं वायुस्थानं तत्कर्म च सम्यग्ज्ञात्वा नाडीसंशोधनं कुर्यात् ॥ ४॥",
-          "transliteration": "atha hainamatharvANa.n shANDilyaH paprachCha kenopAyena nADyaH shuddhAH syuH | nADyaH katisa.nkhyAkAH | tAsAmutpattiH kIdR^ishI | tAsu kati vayavastiShThanti | teShA.n kAni sthAnAni | tatkarmANi kAni | dehe yAni yAni vij~nAtavyAni tatsarvaM me brUhIti | sa hovAcha atharvANa atheda.n sharIra.n ShaNNavatya~NgulAtmakaM bhavati | sharIrAtprANo dvAdashA~NgulAdhiko bhavati | sharIrasthaM prANamagninA saha yogAbhyAsena sama.n nyUna.n vA yaH karoti sa yogipu~Ngavo bhavati | dehamadhye shikhisthAna.n trikoNa.n taptajAmbUnadaprabhaM manuShyANAm | chatuShpadA.n chaturasram | viha~NgAnA.n vR^ittAkAram | tanmadhye shubhA tanvI pAvakI shikhA tiShThati | gudAdvya~NgulAdUrdhvaM meDhrAdvya~NgulAdadho dehamadhyaM manuShyANAM bhavati | chatuShpadA.n hR^inmadhyam | viha~NgAnA.n tu~Ngamadhyam | dehamadhya.n navA~Ngula.n chatura~NgulamutsedhAyatamaNDAkR^iti | tanmadhye nAbhiH | tatra dvAdashArayuta.n chakram | tachchakramadhye puNyapApaprachodito jIvo bhramati | tantupa~njaramadhyasthalUtikA yathA bhramati tathA chAsau tatra prANashcharati | dehe.asmi~njIvaH prANArUDho bhavet | nAbhestiryagadha_Urdhva.n kuNDalinIsthAnam | aShTaprakR^itirUpAShTadhA kuNDalIkR^itA kuNDalinI shaktirbhavati | yathAvadvAyusa.nchAra.n jalAnnAdIni paritaH skandhaH pArshveShu nirudhyainaM mukhenaiva samAveShTya brahmarandhra.n yogakAle chApAnenAgninA cha sphurati | hR^idayAkAshe mahojjvalA j~nAnarUpA bhavati | madhyasthakuNDalinImAshritya mukhyA nADyashchaturdasha bhavanti | iDA pi~NgalA suShumnA sarasvatI vAruNI pUShA hastijihvA yashasvinI vishvodarI kuhUH sha~NkhinI payasvinI alambusA gAndhArIti nADyachaturdasha bhavanti | tatra suShumnA vishvadhAriNI mokShamArgeti chAchakShate | gudasya pR^iShThabhAge vINAdaNDAshritA mUrdhaparyantaM brahmarandhre vij~neyA vyaktA sUkShmA vaiShNavI bhavati | suShumnAyAH savyabhAge iDA tiShThati | dakShiNabhAge pi~NgalA iDAyA.n chandrashcharati | pi~NgalAyA.n raviH | tamorUpashchandraH | rajorUpo raviH | viShabhAgo raviH | amR^itabhAgashchandramAH | tAveva sarvakAla.n dhatte | suShumnA kAlabhoktrI bhavati | suShumnA pR^iShThapArshvayoH sarasvatIkuhU bhavataH | yashasvinIkuhUmadhye vAruNI pratiShThitA bhavati | pUShAsarasvatImadhye payasvinI bhavati | gAndhArIsarasvatimadhye yashasvinI bhavati | kandamaye.alambusA bhavati. suShumnApUrvabhAge meDhrAnta.n kuhUrbhavati | kuNDalinyA adhashchordhva.n vAruNI sarvagAminI bhavati | yashasvinI saumyA cha pAdA~NguShThAntamiShyate | pi~NgalA chordhvagA yAmyanAsAntaM bhavati | pi~NgalAyAH pR^iShThato yAmyanetrAnataM pUShA bhavati | yAmyakarNAnta.n yashasvinI bhavati | jihvAyA UrdhvAnata.n sarasvatI bhavati | AsavyakarNAntamUrdhvagA sha~NkhinI bhavati | iDApR^iShThabhAgAtsavyanetrAntagA gAndhArI bhavati | pAyumUlAdadhordhvagAlambusA bhavati | etAshcha chaturdashasu nADIShvanyA nADyaH saMbhavanti | tAsvanyAstAsvanyA bhavantIti vij~neyAH || yathAshvatthAdipatra.n shirAbhirvyAptameva.n sharIra.n nADIbhirvyAptam | prANApAnasamAnodAnavyAnA nAgakUrmakR^ikaradevadattadhana~njayA ete dasha vAyavaH sarvAsu nADIShu charanti | AsyanAsikAkaNThanAbhipAdA~NguShThadvayakuNDalyadhashchordhvabhAgeShu prANaH sa.ncharati | shrotrAkShikaTigulphaghrANagalasphigdesheShu vyAnaH sa.ncharati | gudameDhrorujAnUdaravR^iShaNakaTija~NghAnAbhigudAgnyagAreShvapAnaH sa.ncharati | sarvasandhistha udAnaH | pAdahastayorapi sarvagAtreShu sarvavyApI samAnaH | bhuktAnnarasAdika.n gAtregninA saha vyApayandvisaptatisahasreShu nADImArgeShu charansamAnavAyuragninA saha sA~NgopA~Ngakalevara.n vyApnoti | nAgAdivAyavaH pa~nchatvagasthyAdisaMbhavAH | tundastha.n jalamanna.n cha rasAdiShu samIrita.n tundamadhyagataH prAgastAni pR^ithakkuryAt | agnerupari jala.n sthApya jaloparyannAdIni sa.nsthApya svayamapAna.n samprApya tenaiva saha mArutaH prayAti dehamadhyagata.n jvalanam | vAyunA pAlito vahnirapAnena shanairdehamadhye jvalati | jvalano jvAlAbhiH prANena koShThamadhyagata.n jalamatyuShNamakarot | jalopari samarpitavya~njanasa.nyuktamanna.n vahnisa.nyuktavAriNA pakvamakarot | tena svedamUtrajalaraktavIryarUparasapurIShAdikaM prANaH pR^ithakkuryAt | samAnavAyunA saha sarvAsu nADIShu rasa.n vyApaya~nChvAsarUpeNa dehe vAyushcharati | navabhirvyomarandhraiH sharIrasya vAyavaH kurvanti viNmUtrAdivisarjanam | nishvAsochChvAsakAsashcha prANakarmochyate | viNmUtrAdivisarjanamapAnavAyukarma | hAnopAdAnacheShTAdi vyAnakarma | dehasyonnayanAdikamudAnakarma | sharIrapoShaNAdika.n samAnakarma | udgArAdi nAgakarma | nimIlanAdi kUrmakarma | kShutkaraNa.n kR^ikarakarma | tandrA devadattakarma | shleShmAdi dhana~njayakarma | eva.n nADIsthAna.n vAyusthAna.n tatkarma cha samyagj~nAtvA nADIsa.nshodhana.n kuryAt || 4||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 40,
-          "sanskrit": "यमनियमयुतः पुरुषः सर्वसङ्गविवर्जितः कृतविद्यः सत्यधर्मरतो जितक्रोधो गुरुशुश्रूषानिरतः पितृमातृविधेयः स्वाश्रमोक्तसदाचारविद्वच्छिक्षितः फलमूलोदकान्वितं तपोवनं प्राप्य रम्यदेशे ब्रह्मघोषसमन्विते स्वधर्मनिरतब्रह्मवित्समावृते फलमूलपुष्पवारिभिः सुसम्पूर्णे देवायतने नदीतीरे ग्रामे नगरे वापि सुशोभनमठं नात्युच्चनीचायतमल्पद्वारं गोमयादिलिप्तं सर्वरक्षासमन्वितं कृत्वा तत्र वेदान्तश्रवणं कुर्वन्योगं समारभेत् । आदौ विनायकं सम्पूज्य स्वेष्टदेवतां नत्वा पूर्वोक्तासने स्थित्वा प्राङ्मुख उदङ्मुखो वापि मृद्वासनेषु जितासनगतो विद्वान्समग्रीवशिरोनासाग्रदृग्भ्रूमध्ये शशभृद्बिंबं पश्यन्नेत्राभ्याममृतं पिबेत् । द्वादशमात्रया इडया वायुमापूर्योदरे स्थितं ज्वालावलीयुतं रेफबिन्दुयुक्तमग्निमण्डलयुतं ध्यायेद्रेचयेत्पिङ्गलया । पुनः पिङ्गलयापूर्य कुम्भित्वा रेचयेदिडया । त्रिचतुस्त्रिचतुःसप्तत्रिचातुर्मासपर्यन्तं त्रिसन्धिषु तदन्तरालेषु च षट्कृत्व आचरेन्नाडीशुद्धिर्भवति । ततः शरीरे लघुदीप्तिवह्निवृद्धिनादाभिव्यक्तिर्भवति ॥ ५॥",
-          "transliteration": "yamaniyamayutaH puruShaH sarvasa~NgavivarjitaH kR^itavidyaH satyadharmarato jitakrodho gurushushrUShAnirataH pitR^imAtR^ividheyaH svAshramoktasadAchAravidvachChikShitaH phalamUlodakAnvita.n tapovanaM prApya ramyadeshe brahmaghoShasamanvite svadharmaniratabrahmavitsamAvR^ite phalamUlapuShpavAribhiH susampUrNe devAyatane nadItIre grAme nagare vApi sushobhanamaTha.n nAtyuchchanIchAyatamalpadvAra.n gomayAdilipta.n sarvarakShAsamanvita.n kR^itvA tatra vedAntashravaNa.n kurvanyoga.n samArabhet | Adau vinAyaka.n sampUjya sveShTadevatA.n natvA pUrvoktAsane sthitvA prA~Nmukha uda~Nmukho vApi mR^idvAsaneShu jitAsanagato vidvAnsamagrIvashironAsAgradR^igbhrUmadhye shashabhR^idbiMbaM pashyannetrAbhyAmamR^itaM pibet | dvAdashamAtrayA iDayA vAyumApUryodare sthita.n jvAlAvalIyuta.n rephabinduyuktamagnimaNDalayuta.n dhyAyedrechayetpi~NgalayA | punaH pi~NgalayApUrya kumbhitvA rechayediDayA | trichatustrichatuHsaptatrichAturmAsaparyanta.n trisandhiShu tadantarAleShu cha ShaTkR^itva AcharennADIshuddhirbhavati | tataH sharIre laghudIptivahnivR^iddhinAdAbhivyaktirbhavati || 5||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 41,
-          "sanskrit": "प्राणापानसमायोगः प्राणायामो भवति । रेचकपूरककुम्भकभेदेन स त्रिविधः । ते वर्णात्मकाः । तस्मात्प्रणव एव प्राणायामः पद्माद्यासनस्थः पुमान्नासाग्रे शशभृद्बिम्बज्योत्स्नाजालवितानिताकारमूर्ती रक्ताङ्गी हंसवाहिनी दण्डहस्ता बाला गायत्री भवति । उकारमूर्तिः श्वेताङ्गी तार्क्ष्यवाहिनी युवती चक्रहस्ता सावित्री भवति । मकारमूर्तिः कृष्णाङ्गी वृषभवाहिनी वृद्धा त्रिशूलधारिणी सरस्वती भवति । अकारादित्रयाणां सर्वकारणमेकाक्षरं परंज्योतिः प्रणवं भवतीति ध्यायेत् । इडया बाह्याद्वायुमापूर्य षोडशमात्राभिरकारं चिन्तयन्पूरितं वायुं चतुःषष्टिमात्राभिः कुम्भयित्वोकारं ध्यायन्पूरितं पिङ्गलया द्वात्रिंशन्मात्रया मकारमूर्तिध्यानेनैवं क्रमेण पुनः पुनः कुर्यात् ॥ ६॥",
-          "transliteration": "prANApAnasamAyogaH prANAyAmo bhavati | rechakapUrakakumbhakabhedena sa trividhaH | te varNAtmakAH | tasmAtpraNava eva prANAyAmaH padmAdyAsanasthaH pumAnnAsAgre shashabhR^idbimbajyotsnAjAlavitAnitAkAramUrtI raktA~NgI ha.nsavAhinI daNDahastA bAlA gAyatrI bhavati | ukAramUrtiH shvetA~NgI tArkShyavAhinI yuvatI chakrahastA sAvitrI bhavati | makAramUrtiH kR^iShNA~NgI vR^iShabhavAhinI vR^iddhA trishUladhAriNI sarasvatI bhavati | akArAditrayANA.n sarvakAraNamekAkSharaM para.njyotiH praNavaM bhavatIti dhyAyet | iDayA bAhyAdvAyumApUrya ShoDashamAtrAbhirakAra.n chintayanpUrita.n vAyu.n chatuHShaShTimAtrAbhiH kumbhayitvokAra.n dhyAyanpUritaM pi~NgalayA dvAtri.nshanmAtrayA makAramUrtidhyAnenaiva.n krameNa punaH punaH kuryAt || 6||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 42,
-          "sanskrit": "अथासनदृढो योगी वशी मितहिताशनः",
-          "transliteration": "athAsanadR^iDho yogI vashI mitahitAshanaH",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 43,
-          "sanskrit": "सुषुम्नानाडीस्थमलशोषार्थं योगी",
-          "transliteration": "suShumnAnADIsthamalashoShArtha.n yogI",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 44,
-          "sanskrit": "बद्धपद्मासनो वायुं चन्द्रेणापूर्य",
-          "transliteration": "baddhapadmAsano vAyu.n chandreNApUrya",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 45,
-          "sanskrit": "यथाशक्ति कुम्भयित्वा सूर्येण रेचयित्वा",
-          "transliteration": "yathAshakti kumbhayitvA sUryeNa rechayitvA",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 46,
-          "sanskrit": "पुनः सूर्येणापूर्य कुम्भयित्वा चन्द्रेण",
-          "transliteration": "punaH sUryeNApUrya kumbhayitvA chandreNa",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 47,
-          "sanskrit": "विरेच्य यया त्यजेत्तया सम्पूर्य धारयेत् ।",
-          "transliteration": "virechya yayA tyajettayA sampUrya dhArayet |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 48,
-          "sanskrit": "तदेते श्लोका भवन्ति ।",
-          "transliteration": "tadete shlokA bhavanti |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 49,
-          "sanskrit": "प्राणं प्रागिडया पिबेन्नियमितं भूयोऽन्यया रेचयेत्पीत्वा पिङ्गलया समीरणमथो बद्ध्वा त्यजेद्वामया ।",
-          "transliteration": "prANaM prAgiDayA pibenniyamitaM bhUyo.anyayA rechayetpItvA pi~NgalayA samIraNamatho baddhvA tyajedvAmayA |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 50,
-          "sanskrit": "सूर्याचन्द्रमसोरनेन विधिनाऽभ्यासं सदा तन्वतां",
-          "transliteration": "sUryAchandramasoranena vidhinA.abhyAsa.n sadA tanvatAM",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 51,
-          "sanskrit": "शुद्धा नाडिगणा भवन्ति यमिनां मासत्रयादूर्ध्वतः ॥ १॥",
-          "transliteration": "shuddhA nADigaNA bhavanti yaminAM mAsatrayAdUrdhvataH || 1||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 52,
-          "sanskrit": "प्रातर्मध्यन्दिने सायमर्धरात्रे तु कुम्भकान् ।",
-          "transliteration": "prAtarmadhyandine sAyamardharAtre tu kumbhakAn |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 53,
-          "sanskrit": "शनैरशीतिपर्यन्तं चतुर्वारं समभ्यसेत् ॥ २॥",
-          "transliteration": "shanairashItiparyanta.n chaturvAra.n samabhyaset || 2||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 54,
-          "sanskrit": "कनीयसि भवेत्स्वेदः कंपो भवति मध्यमे ।",
-          "transliteration": "kanIyasi bhavetsvedaH kaMpo bhavati madhyame |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 55,
-          "sanskrit": "उत्तिष्ठत्त्युत्तमे प्राणरोधे पद्मासनं महत् ॥ ३॥",
-          "transliteration": "uttiShThattyuttame prANarodhe padmAsanaM mahat || 3||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 56,
-          "sanskrit": "जलेन श्रमजातेन गात्रमर्दनमाचरेत् ।",
-          "transliteration": "jalena shramajAtena gAtramardanamAcharet |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 57,
-          "sanskrit": "दृढता लघुता चापि तस्य गात्रस्य जायते ॥ ४॥",
-          "transliteration": "dR^iDhatA laghutA chApi tasya gAtrasya jAyate || 4||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 58,
-          "sanskrit": "अभ्यासकाले प्रथमं शस्तं क्षीराज्यभोजनम् ।",
-          "transliteration": "abhyAsakAle prathama.n shasta.n kShIrAjyabhojanam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 59,
-          "sanskrit": "ततोऽभ्यासे स्थिरीभूते न तावन्नियमग्रहः ॥ ५॥",
-          "transliteration": "tato.abhyAse sthirIbhUte na tAvanniyamagrahaH || 5||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 60,
-          "sanskrit": "यथा सिंहो गजो व्याघ्रो भवेद्वश्यः शनैः शनैः ।",
-          "transliteration": "yathA si.nho gajo vyAghro bhavedvashyaH shanaiH shanaiH |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 61,
-          "sanskrit": "तथैव सेवितो वायुरन्यथा हन्ति साधकम् ॥ ६॥",
-          "transliteration": "tathaiva sevito vAyuranyathA hanti sAdhakam || 6||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 62,
-          "sanskrit": "युक्तं युक्तं त्यजेद्वायुं युक्तं युक्तं च पूरयेत् ।",
-          "transliteration": "yukta.n yukta.n tyajedvAyu.n yukta.n yukta.n cha pUrayet |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 63,
-          "sanskrit": "युक्तं युक्तं च बध्नीयादेवं सिद्धिमवाप्नुयात् ॥ ७॥",
-          "transliteration": "yukta.n yukta.n cha badhnIyAdeva.n siddhimavApnuyAt || 7||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 64,
-          "sanskrit": "यथेष्टधारणाद्वायोरनलस्य प्रदीपनम् ।",
-          "transliteration": "yatheShTadhAraNAdvAyoranalasya pradIpanam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 65,
-          "sanskrit": "नादाभिव्यक्तिरारोग्यं जायते नाडिशोधनात् ॥ ८॥",
-          "transliteration": "nAdAbhivyaktirArogya.n jAyate nADishodhanAt || 8||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 66,
-          "sanskrit": "विधिवत्प्राणसंयामैर्नाडीचक्रे विशोधिते ।",
-          "transliteration": "vidhivatprANasa.nyAmairnADIchakre vishodhite |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 67,
-          "sanskrit": "सुषुम्नावदनं भित्त्वा सुखाद्विशति मारुतः ॥ ९॥",
-          "transliteration": "suShumnAvadanaM bhittvA sukhAdvishati mArutaH || 9||",
-          "translation": "",
-          "hindi": ""
+          "sanskrit": "तदर्थे कर्माण्यपि भक्त्यङ्गानि ||",
+          "transliteration": "tadArthe karmāṇyapi bhaktyaṅgāni ||",
+          "translation": "Actions done for His sake are also limbs of bhakti.",
+          "hindi": "उसके लिए किये गये कर्म भी भक्ति के अंग हैं।",
+          "commentary": "Shandilya integrates karma into bhakti with surgical precision: actions performed \"for His sake\" (tadArthe — for the sake of Ishvara) are not separate from bhakti but are its limbs (aṅgas). This resolves the apparent tension between the path of action (karma-yoga) and the path of devotion (bhakti-yoga): they are not different paths but one path with two aspects. Any action whatsoever — cooking, working, raising children, serving the sick — when offered to Ishvara as the ultimate beneficiary and witness, becomes a limb of bhakti. The Bhagavad Gita's teaching on karma-yoga (act without attachment, offer the fruits to the divine) is here integrated into the bhakti framework.",
+          "wordMeaning": "Shandilya integrates karma into bhakti with surgical precision: actions performed \"for His sake\" (tadArthe — for the sake of Ishvara) are not separate from bhakti but are its limbs (aṅgas). This resolves the apparent tension between the path of action (karma-yoga) and the path of devotion (bhakti-yoga): they are not different paths but one path with two aspects. Any action whatsoever — cooking, working, raising children, serving the sick — when offered to Ishvara as the ultimate beneficiary and witness, becomes a limb of bhakti. The Bhagavad Gita's teaching on karma-yoga (act without attachment, offer the fruits to the divine) is here integrated into the bhakti framework."
         },
         {
           "number": 68,
-          "sanskrit": "मारुते मध्यसंचारे मनःस्थैर्यं प्रजायते ।",
-          "transliteration": "mArute madhyasa.nchAre manaHsthairyaM prajAyate |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 69,
-          "sanskrit": "यो मनःसुस्थिरो भावः सैवावस्था मनोन्मनी ॥ १०॥",
-          "transliteration": "yo manaHsusthiro bhAvaH saivAvasthA manonmanI || 10||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 70,
-          "sanskrit": "पूरकान्ते तु कर्तव्यो बन्धो जालन्धराभिधः ।",
-          "transliteration": "pUrakAnte tu kartavyo bandho jAlandharAbhidhaH |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 71,
-          "sanskrit": "कुम्भकान्ते रेचकादौ कर्तव्यस्तूड्डियाणकः ॥ ११॥",
-          "transliteration": "kumbhakAnte rechakAdau kartavyastUDDiyANakaH || 11||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 72,
-          "sanskrit": "अधस्तात्कुञ्चनेमाशु कण्ठसङ्कोचने कृते ।",
-          "transliteration": "adhastAtku~nchanemAshu kaNThasa~Nkochane kR^ite |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 73,
-          "sanskrit": "मध्ये पश्चिमतानेन स्यात्प्राणो ब्रह्मनाडिगः ॥ १२॥",
-          "transliteration": "madhye pashchimatAnena syAtprANo brahmanADigaH || 12||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 74,
-          "sanskrit": "अपानमूर्ध्वमुत्थाप्य प्राणं कण्ठादधो नयन् ।",
-          "transliteration": "apAnamUrdhvamutthApya prANa.n kaNThAdadho nayan |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 75,
-          "sanskrit": "योगी जराविनिर्मुक्तः षोडशो वयसा भवेत् ॥१३॥",
-          "transliteration": "yogI jarAvinirmuktaH ShoDasho vayasA bhavet ||13||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 76,
-          "sanskrit": "सुखासनस्थो दक्षनाड्या बहिस्थं पवनं समाकृष्याकेशमानखाग्रं कुम्भयित्वा सव्यनाड्या रेचयेत् । तेन कपालशोधनं वातनाडीगतसर्वरोगसर्वविनाशनं भवति । हृदयादिकण्ठपर्यन्तं सस्वनं नासाभ्यां शनैः पवनमाकृष्य यथाशक्ति कुम्भयित्वा इडया विरेच्य गच्छंस्तिष्ठन्कुर्यात् । तेन श्लेष्महरं जठराग्निवर्धनं भवति । वक्त्रेण सीत्कारपूर्वकं वायुं गृहीत्वा यथाशक्ति कुम्भयित्वा नासाभ्यां रेचयेत् । तेन क्षुत्तृष्णालस्यनिद्रा न जायते । जिह्वया वायुं गृहीत्वा यथाशक्ति कुम्भयित्वा नासाभ्यां रेचयेत् । तेन गुल्मप्लीहज्वरपित्तक्षुधादीनि नश्यन्ति ॥ अथ कुम्भकः । स द्विविधः सहितः केवलश्चेति । रेचकपूरकयुक्तः सहितः तद्विवर्जितः केवलः । केवलसिद्धिपर्यन्तं सहितमभ्यसेत् । केवलकुम्भके सिद्धे त्रिषु लोकेषु न तस्य दुर्लभं भवति । केवलकुम्भकात्कुण्डलिनीबोधो जायते । ततः कृशवपुः प्रसन्नवदनो निर्मललोचनोऽभिव्यक्तनादो निर्मुक्तरोगजालो जितबिन्दुः पट्वग्निर्भवति । अन्तर्लक्ष्यं बहिर्दृष्टिर्निमेषोन्मेषवर्जिता । एषा सा वैष्णवी मुद्रा सर्वतन्त्रेषु गोपिता ॥ १४॥",
-          "transliteration": "sukhAsanastho dakShanADyA bahisthaM pavana.n samAkR^iShyAkeshamAnakhAgra.n kumbhayitvA savyanADyA rechayet | tena kapAlashodhana.n vAtanADIgatasarvarogasarvavinAshanaM bhavati | hR^idayAdikaNThaparyanta.n sasvana.n nAsAbhyA.n shanaiH pavanamAkR^iShya yathAshakti kumbhayitvA iDayA virechya gachCha.nstiShThankuryAt | tena shleShmahara.n jaTharAgnivardhanaM bhavati | vaktreNa sItkArapUrvaka.n vAyu.n gR^ihItvA yathAshakti kumbhayitvA nAsAbhyA.n rechayet | tena kShuttR^iShNAlasyanidrA na jAyate | jihvayA vAyu.n gR^ihItvA yathAshakti kumbhayitvA nAsAbhyA.n rechayet | tena gulmaplIhajvarapittakShudhAdIni nashyanti || atha kumbhakaH | sa dvividhaH sahitaH kevalashcheti | rechakapUrakayuktaH sahitaH tadvivarjitaH kevalaH | kevalasiddhiparyanta.n sahitamabhyaset | kevalakumbhake siddhe triShu lokeShu na tasya durlabhaM bhavati | kevalakumbhakAtkuNDalinIbodho jAyate | tataH kR^ishavapuH prasannavadano nirmalalochano.abhivyaktanAdo nirmuktarogajAlo jitabinduH paTvagnirbhavati | antarlakShyaM bahirdR^iShTirnimeShonmeShavarjitA | eShA sA vaiShNavI mudrA sarvatantreShu gopitA || 14||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 77,
-          "sanskrit": "अन्तर्लक्ष्यविलीनचित्तपवनो योगी सदा वर्तते",
-          "transliteration": "antarlakShyavilInachittapavano yogI sadA vartate",
-          "translation": "",
-          "hindi": ""
+          "sanskrit": "सङ्गदोषादसद्विषयरागात् || तद्विपरीताच्च ||",
+          "transliteration": "saṅgadoṣādasadviṣayarāgāt || tadvipārītācca ||",
+          "translation": "From the fault of wrong company, from attachment to unworthy sense-objects — and from the opposite of these (right company and detachment) comes bhakti.",
+          "hindi": "कुसंग के दोष से और अयोग्य विषयों में राग से (भक्ति में विघ्न होता है) — और इनके विपरीत से (भक्ति होती है)।",
+          "commentary": "Shandilya identifies the two primary obstacles to bhakti — and their remedy — with characteristic economy. \"Saṅga-doṣa\" (the fault of wrong company): the single most reliable predictor of a person's spiritual development is the company they keep. Those who are around people who mock devotion, who treat the sacred casually, who live entirely for sensory gratification — their bhakti slowly suffocates. \"Asat-viṣaya-rāga\" (attachment to unworthy objects): the attention that should flow toward Ishvara is captured by objects that cannot satisfy. The remedy is simply stated as \"tad-vipārīta\" — the opposite: right company (satsang) and detachment from objects that dissipate attention.",
+          "wordMeaning": "Shandilya identifies the two primary obstacles to bhakti — and their remedy — with characteristic economy. \"Saṅga-doṣa\" (the fault of wrong company): the single most reliable predictor of a person's spiritual development is the company they keep. Those who are around people who mock devotion, who treat the sacred casually, who live entirely for sensory gratification — their bhakti slowly suffocates. \"Asat-viṣaya-rāga\" (attachment to unworthy objects): the attention that should flow toward Ishvara is captured by objects that cannot satisfy. The remedy is simply stated as \"tad-vipārīta\" — the opposite: right company (satsang) and detachment from objects that dissipate attention."
         },
         {
           "number": 78,
-          "sanskrit": "दृष्ट्या निश्चलतारया बहिरधः पश्यन्नपश्यन्नपि ।",
-          "transliteration": "dR^iShTyA nishchalatArayA bahiradhaH pashyannapashyannapi |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 79,
-          "sanskrit": "मुद्रेयं खलु खेचरी भवति सा लक्ष्यैकताना शिवा",
-          "transliteration": "mudreya.n khalu khecharI bhavati sA lakShyaikatAnA shivA",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 80,
-          "sanskrit": "शून्याशून्यविवर्जितं स्फुरति सा तत्त्वं पदं वैष्णवी ॥ १५॥",
-          "transliteration": "shUnyAshUnyavivarjita.n sphurati sA tattvaM pada.n vaiShNavI || 15||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 81,
-          "sanskrit": "अर्धोन्मीलितलोचनः स्थिरमना नासाग्रदत्तेक्षणश्चन्द्रार्कावपि",
-          "transliteration": "ardhonmIlitalochanaH sthiramanA nAsAgradattekShaNashchandrArkAvapi",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 82,
-          "sanskrit": "लीनतामुपनयन्निष्पन्दभावोत्तरम् ।",
-          "transliteration": "lInatAmupanayanniShpandabhAvottaram |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 83,
-          "sanskrit": "ज्योतीरूपमशीषबाह्यरहितं देदीप्यमानं परं",
-          "transliteration": "jyotIrUpamasheeShabAhyarahita.n dedIpyamAnaM paraM",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 84,
-          "sanskrit": "तत्त्वं तत्परमस्ति वस्तुविषयं शाण्डिल्य विद्धीह तत् ॥ १६॥",
-          "transliteration": "tattva.n tatparamasti vastuviShaya.n shANDilya viddhIha tat || 16||",
-          "translation": "",
-          "hindi": ""
+          "sanskrit": "ईश्वरे तदर्पणं सर्वकर्मणाम् | तत्स्मृत्यैव च ||",
+          "transliteration": "Īśvare tadarpaṇaṃ sarvakarmaNām | tatsṃṛtyaiva ca ||",
+          "translation": "The offering of all actions to Ishvara — and through His remembrance alone.",
+          "hindi": "सभी कर्मों को ईश्वर में अर्पण करना — और केवल उसके स्मरण से।",
+          "commentary": "The Shandilya Bhakti Sutras' practical summary: two instruments for removing obstacles and deepening bhakti — arpaṇa (offering all actions) and smṛti (remembrance). These correspond directly to the Bhagavad Gita's karma-yoga and jnana-yoga integrated into bhakti: offer every action (karma-arpaṇa) and maintain continuous remembrance (smaranam). Together these two practices transform the entire field of experience — action and cognition — into a continuous stream of devotion. Nothing is excluded: not work, not rest, not mundane tasks. Everything becomes an offering; everything becomes a remembrance.",
+          "wordMeaning": "The Shandilya Bhakti Sutras' practical summary: two instruments for removing obstacles and deepening bhakti — arpaṇa (offering all actions) and smṛti (remembrance). These correspond directly to the Bhagavad Gita's karma-yoga and jnana-yoga integrated into bhakti: offer every action (karma-arpaṇa) and maintain continuous remembrance (smaranam). Together these two practices transform the entire field of experience — action and cognition — into a continuous stream of devotion. Nothing is excluded: not work, not rest, not mundane tasks. Everything becomes an offering; everything becomes a remembrance."
         },
         {
           "number": 85,
-          "sanskrit": "तारं ज्योतिषि संयोज्य किञ्चिदुन्नमयन्भ्रुवौ ।",
-          "transliteration": "tAra.n jyotiShi sa.nyojya ki~nchidunnamayanbhruvau |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 86,
-          "sanskrit": "पूर्वाभ्यासस्य मार्गोऽयमुन्मनीकारकः क्षणात् ॥ १७॥",
-          "transliteration": "pUrvAbhyAsasya mArgo.ayamunmanIkArakaH kShaNAt || 17||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 87,
-          "sanskrit": "तस्मात्खेचरीमुद्रामभ्यसेत् । तत उन्मनी भवति ।",
-          "transliteration": "tasmAtkhecharImudrAmabhyaset | tata unmanI bhavati |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 88,
-          "sanskrit": "ततो योगनिद्रा भवति । लब्धयोगनिद्रस्य योगिनः कालो नास्ति ।",
-          "transliteration": "tato yoganidrA bhavati | labdhayoganidrasya yoginaH kAlo nAsti |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 89,
-          "sanskrit": "शक्तिमध्ये मनः कृत्वा शक्तिं मानसमध्यगाम् ।",
-          "transliteration": "shaktimadhye manaH kR^itvA shaktiM mAnasamadhyagAm |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 90,
-          "sanskrit": "मनसा मन आलोक्य शाण्डिल्य त्वं सुखी भव ॥ १८॥",
-          "transliteration": "manasA mana Alokya shANDilya tva.n sukhI bhava || 18||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 91,
-          "sanskrit": "खमध्ये कुरु चात्मानमात्ममध्ये च खं कुरु ।",
-          "transliteration": "khamadhye kuru chAtmAnamAtmamadhye cha kha.n kuru |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 92,
-          "sanskrit": "सर्वं च खमयं कृत्वा न किञ्चिदपि चिन्तय ॥ १९॥",
-          "transliteration": "sarva.n cha khamaya.n kR^itvA na ki~nchidapi chintaya || 19||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 93,
-          "sanskrit": "बाह्यचिन्ता न कर्तव्या तथैवान्तरचिन्तिका ।",
-          "transliteration": "bAhyachintA na kartavyA tathaivAntarachintikA |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 94,
-          "sanskrit": "सर्वचिन्तां परित्यज्य चिन्मात्रपरमो भव ॥ २०॥",
-          "transliteration": "sarvachintAM parityajya chinmAtraparamo bhava || 20||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 95,
-          "sanskrit": "कर्पूरमनले यद्वत्सैन्धवं सलिले यथा ।",
-          "transliteration": "karpUramanale yadvatsaindhava.n salile yathA |",
-          "translation": "",
-          "hindi": ""
+          "sanskrit": "योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो ईश्वरसमाश्रयः ||",
+          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ īśvarasamāśrayaḥ ||",
+          "translation": "Yoga is the cessation of mental modifications; yoga gives liberation. Yoga cuts all bonds; yoga rests on Ishvara.",
+          "hindi": "योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग ईश्वर पर आश्रित है।",
+          "commentary": "The definition of yoga from Yoga Sutras, placed in the context of Ishvara worship. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Ishvara.",
+          "wordMeaning": "The definition of yoga from Yoga Sutras, placed in the context of Ishvara worship. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Ishvara."
         },
         {
           "number": 96,
-          "sanskrit": "तथा च लीयमानं च मनस्तत्त्वे विलीयते ॥ २१॥",
-          "transliteration": "tathA cha lIyamAna.n cha manastattve vilIyate || 21||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 97,
-          "sanskrit": "ज्ञेयं सर्वप्रतीतं च तज्ज्ञानं मन उच्यते ।",
-          "transliteration": "j~neya.n sarvapratIta.n cha tajj~nAnaM mana uchyate |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 98,
-          "sanskrit": "ज्ञानं ज्ञेयं समं नष्टं नान्यः पन्था द्वितीयकः ॥ २२॥",
-          "transliteration": "j~nAna.n j~neya.n sama.n naShTa.n nAnyaH panthA dvitIyakaH || 22||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 99,
-          "sanskrit": "ज्ञेयवस्तुपरित्यागाद्विलयं याति मानसम् ।",
-          "transliteration": "j~neyavastuparityAgAdvilaya.n yAti mAnasam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 100,
-          "sanskrit": "मानसे विलयं याते कैवल्यमवशिष्यते ॥ २३॥",
-          "transliteration": "mAnase vilaya.n yAte kaivalyamavashiShyate || 23||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 101,
-          "sanskrit": "द्वौ क्रमौ चित्तनाशस्य योगो ज्ञानं मुनीश्वर ।",
-          "transliteration": "dvau kramau chittanAshasya yogo j~nAna.n munIshvara |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 102,
-          "sanskrit": "योगस्तद्वृत्तिरोधो हि ज्ञानं सम्यगवेक्षणम् ॥ २४॥",
-          "transliteration": "yogastadvR^ittirodho hi j~nAna.n samyagavekShaNam || 24||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 103,
-          "sanskrit": "तस्मिन्निरोधिते नूनमुपशान्तं मनो भवेत् ।",
-          "transliteration": "tasminnirodhite nUnamupashAntaM mano bhavet |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 104,
-          "sanskrit": "मनःस्पन्दोपशान्तायं संसारः प्रविलीयते ॥ २५॥",
-          "transliteration": "manaHspandopashAntAya.n sa.nsAraH pravilIyate || 25||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 105,
-          "sanskrit": "सूर्यालोकपरिस्पन्दशान्तौ व्यवहृतिर्यथा ।",
-          "transliteration": "sUryAlokaparispandashAntau vyavahR^itiryathA |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 106,
-          "sanskrit": "शास्त्रसज्जनसम्पर्कवैराग्याभ्यासयोगतः ॥ २६॥",
-          "transliteration": "shAstrasajjanasamparkavairAgyAbhyAsayogataH || 26||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 107,
-          "sanskrit": "अनास्थायां कृतास्थायां पूर्वं संसारवृत्तिषु ।",
-          "transliteration": "anAsthAyA.n kR^itAsthAyAM pUrva.n sa.nsAravR^ittiShu |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 108,
-          "sanskrit": "यथाभिवाञ्छितध्यानाच्चिरमेकतयोहितात् ॥ २७॥",
-          "transliteration": "yathAbhivA~nChitadhyAnAchchiramekatayohitAt || 27||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 109,
-          "sanskrit": "एकतत्त्वदृढाभ्यासात्प्राणस्पन्दो निरुध्यते ।",
-          "transliteration": "ekatattvadR^iDhAbhyAsAtprANaspando nirudhyate |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 110,
-          "sanskrit": "पूरकाद्यनिलायामादृढाभ्यासदखेदजात् ॥ २८॥",
-          "transliteration": "pUrakAdyanilAyAmAdR^iDhAbhyAsadakhedajAt || 28||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 111,
-          "sanskrit": "एकान्तध्यानयोगाच्च मनःस्पन्दो निरुध्यते ।",
-          "transliteration": "ekAntadhyAnayogAchcha manaHspando nirudhyate |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 112,
-          "sanskrit": "ओङ्कारोच्चारणप्रान्तशब्दतत्त्वानुभावनात् ।",
-          "transliteration": "o~NkArochchAraNaprAntashabdatattvAnubhAvanAt |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 113,
-          "sanskrit": "सुषुप्ते संविदा ज्ञाते प्राणस्पन्दो निरुध्यते ॥ २९॥",
-          "transliteration": "suShupte sa.nvidA j~nAte prANaspando nirudhyate || 29||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 114,
-          "sanskrit": "तालुमूलगतां यत्नाज्जिह्वयाक्रम्य घण्टिकाम् ।",
-          "transliteration": "tAlumUlagatA.n yatnAjjihvayAkramya ghaNTikAm |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 115,
-          "sanskrit": "ऊर्ध्वरन्ध्रं गते प्राणे प्राणस्पन्दो निरुध्यते ॥ ३०॥",
-          "transliteration": "Urdhvarandhra.n gate prANe prANaspando nirudhyate || 30||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 116,
-          "sanskrit": "प्राणे गलितसंवित्तौ तालूर्ध्वं द्वादशान्तगे ।",
-          "transliteration": "prANe galitasa.nvittau tAlUrdhva.n dvAdashAntage |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 117,
-          "sanskrit": "अभ्यासादूर्ध्वरन्ध्रेण प्राणस्पन्दो निरुध्यते ॥ ३१॥",
-          "transliteration": "abhyAsAdUrdhvarandhreNa prANaspando nirudhyate || 31||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 118,
-          "sanskrit": "द्वादशाङ्गुलपर्यन्ते नासाग्रे विमलेऽम्बरे ।",
-          "transliteration": "dvAdashA~Ngulaparyante nAsAgre vimale.ambare |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 119,
-          "sanskrit": "संविद्दृशि प्रशाम्यन्त्यां प्राणस्पन्दो निरुध्यते ॥ ३२॥",
-          "transliteration": "sa.nviddR^ishi prashAmyantyAM prANaspando nirudhyate || 32||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 120,
-          "sanskrit": "भ्रूमध्ये तारकालोकशान्तावन्तमुपागते ।",
-          "transliteration": "bhrUmadhye tArakAlokashAntAvantamupAgate |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 121,
-          "sanskrit": "चेतनैकतने बद्धे प्राणस्पन्दो निरुध्यते ॥ ३३॥",
-          "transliteration": "chetanaikatane baddhe prANaspando nirudhyate || 33||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 122,
-          "sanskrit": "ओमित्येव यदुद्भूतं ज्ञानं ज्ञेयात्मकं शिवम् ।",
-          "transliteration": "omityeva yadudbhUta.n j~nAna.n j~neyAtmaka.n shivam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 123,
-          "sanskrit": "असंस्पृष्टविकल्पांशं प्राणस्पन्दो निरुध्यते ॥ ३४॥",
-          "transliteration": "asa.nspR^iShTavikalpA.nshaM prANaspando nirudhyate || 34||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 124,
-          "sanskrit": "चिरकालं हृदेकान्तव्योमसंवेदनान्मुने ।",
-          "transliteration": "chirakAla.n hR^idekAntavyomasa.nvedanAnmune |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 125,
-          "sanskrit": "अवासनमनोध्यानात्प्राणस्पन्दो निरुध्यते ॥ ३५॥",
-          "transliteration": "avAsanamanodhyAnAtprANaspando nirudhyate || 35||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 126,
-          "sanskrit": "एभिः क्रमैस्तथान्यैश्च नानासंकल्पकल्पितैः ।",
-          "transliteration": "ebhiH kramaistathAnyaishcha nAnAsa.nkalpakalpitaiH |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 127,
-          "sanskrit": "नानादेशिकवक्त्रस्थैः प्राणस्पन्दो निरुध्यते ॥ ३६॥",
-          "transliteration": "nAnAdeshikavaktrasthaiH prANaspando nirudhyate || 36||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 128,
-          "sanskrit": "आकुञ्चनेन कुण्डलिन्याः कवाटमुद्घाट्य मोक्षद्वारं विभेदयेत् । येन मार्गेण गन्तव्यं तद्द्वारं मुखेनाच्छाद्य प्रसुप्ता कुण्डलिनी कुटिलाकारा सर्पवद्वेष्टिता भवति । सा शक्तिर्येन चालिता स्यात्स तु मुक्तो भवति । सा कुण्डलिनी कण्ठोर्ध्वभागे सुप्ता चेद्योगिनां मुक्तये भवति । बन्धनायाधो मूढानाम् । इडादिमार्गद्वयं विहाय सुषुम्नामार्गेणागच्छेत्तद्विष्णोः परमं पदम् । मरुदभ्यसनं सर्वं मनोयुक्तं समभ्यसेत् इतरत्र न कर्तव्या मनोवृत्तिर्मनीषिणा ॥ ३७॥",
-          "transliteration": "Aku~nchanena kuNDalinyAH kavATamudghATya mokShadvAra.n vibhedayet | yena mArgeNa gantavya.n taddvAraM mukhenAchChAdya prasuptA kuNDalinI kuTilAkArA sarpavadveShTitA bhavati | sA shaktiryena chAlitA syAtsa tu mukto bhavati | sA kuNDalinI kaNThordhvabhAge suptA chedyoginAM muktaye bhavati | bandhanAyAdho mUDhAnAm | iDAdimArgadvaya.n vihAya suShumnAmArgeNAgachChettadviShNoH paramaM padam | marudabhyasana.n sarvaM manoyukta.n samabhyaset.h itaratra na kartavyA manovR^ittirmanIShiNA || 37||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 129,
-          "sanskrit": "दिवा न पूजयेद्विष्णुं रात्रौ नैव प्रपूजयेत् ।",
-          "transliteration": "divA na pUjayedviShNu.n rAtrau naiva prapUjayet |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 130,
-          "sanskrit": "सततं पूजयेद्विष्णुं दिवारात्रं न पूजयेत् ॥ ३८॥",
-          "transliteration": "satataM pUjayedviShNu.n divArAtra.n na pUjayet || 38||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 131,
-          "sanskrit": "सुषिरो ज्ञानजनकः पञ्चस्रोतःसमन्वितः ।",
-          "transliteration": "suShiro j~nAnajanakaH pa~nchasrotaHsamanvitaH |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 132,
-          "sanskrit": "तिष्ठते खेचरी मुद्रा तस्मिन्स्थाने न संशयः ॥ ३९॥",
-          "transliteration": "tiShThate khecharI mudrA tasminsthAne na sa.nshayaH || 39||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 133,
-          "sanskrit": "सव्यदक्षिणनाडीस्थो मध्ये चरति मारुतः ।",
-          "transliteration": "savyadakShiNanADIstho madhye charati mArutaH |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 134,
-          "sanskrit": "तिष्ठतः खेचरी मुद्रा तस्मिन्स्थाने न संशयः ॥ ४०॥",
-          "transliteration": "tiShThataH khecharI mudrA tasminsthAne na sa.nshayaH || 40||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 135,
-          "sanskrit": "इडापिङ्गलयोर्मध्ये शून्यं चैवानिलं ग्रसेत् ।",
-          "transliteration": "iDApi~Ngalayormadhye shUnya.n chaivAnila.n graset |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 136,
-          "sanskrit": "तिष्ठन्ती खेचरी मुद्रा तत्र सत्यं प्रतिष्ठितम् ॥ ४१॥",
-          "transliteration": "tiShThantI khecharI mudrA tatra satyaM pratiShThitam || 41||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 137,
-          "sanskrit": "सोमसूर्यद्वयोर्मध्ये निरालम्बतले पुनः ।",
-          "transliteration": "somasUryadvayormadhye nirAlambatale punaH |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 138,
-          "sanskrit": "संस्थिता व्योमचक्रे सा मुद्रा नाम्ना च खेचरी ॥ ४२॥",
-          "transliteration": "sa.nsthitA vyomachakre sA mudrA nAmnA cha khecharI || 42||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 139,
-          "sanskrit": "छेदनचालनदाहैः फलां परां जिह्वां कृत्वा दृष्टिं भ्रूमध्ये स्थाप्य कपालकुहरे जिह्वा विपरीतगा यदा भवति तदा खेचरी मुद्रा जायते । जिह्वा चित्तं च खे चरति तेनोर्ध्वजिह्वः पुमानमृतो भवति । वामपादमूलेन योनिं सम्पीड्य दक्षिणपादं प्रसार्य तं कराभ्यां धृत्वा नासाभ्यां वायुमापूर्य कण्ठबन्धं समारोप्योर्ध्वतो वायुं धारयेत् । तेन सर्वक्लेशहानिः । ततः पीयूषमिव विषं जीर्यते । क्षयगुल्मगुदावर्तजीर्णत्वगादिदोषा नश्यन्ति । एष प्राणजयोपायः सर्वमृत्यूपघातकः । वामपादपार्ष्णिं योनिस्थाने नियोज्य दक्षिणचरणं वामोरूपरि संस्थाप्य वायुमापूर्य हृदये चुबुकं निधाय योनिमाकुञ्च्य मनोमध्ये यथाशक्ति धारयित्वा स्वात्मानं भावयेत् । तेनापरोक्षसिद्धिः ।",
-          "transliteration": "ChedanachAlanadAhaiH phalAM parA.n jihvA.n kR^itvA dR^iShTiM bhrUmadhye sthApya kapAlakuhare jihvA viparItagA yadA bhavati tadA khecharI mudrA jAyate | jihvA chitta.n cha khe charati tenordhvajihvaH pumAnamR^ito bhavati | vAmapAdamUlena yoni.n sampIDya dakShiNapAdaM prasArya ta.n karAbhyA.n dhR^itvA nAsAbhyA.n vAyumApUrya kaNThabandha.n samAropyordhvato vAyu.n dhArayet | tena sarvakleshahAniH | tataH pIyUShamiva viSha.n jIryate | kShayagulmagudAvartajIrNatvagAdidoShA nashyanti | eSha prANajayopAyaH sarvamR^ityUpaghAtakaH | vAmapAdapArShNi.n yonisthAne niyojya dakShiNacharaNa.n vAmorUpari sa.nsthApya vAyumApUrya hR^idaye chubuka.n nidhAya yonimAku~nchya manomadhye yathAshakti dhArayitvA svAtmAnaM bhAvayet | tenAparokShasiddhiH |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 140,
-          "sanskrit": "बाह्यात्प्राणं समाकृष्य पूरयित्वोदरे स्थितम् ।",
-          "transliteration": "bAhyAtprANa.n samAkR^iShya pUrayitvodare sthitam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 141,
-          "sanskrit": "नाभिमध्ये च नासाग्रे पदाङ्गुष्ठे च यत्नतः ॥ ४३॥",
-          "transliteration": "nAbhimadhye cha nAsAgre padA~NguShThe cha yatnataH || 43||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 142,
-          "sanskrit": "धारयेन्मनसा प्राणं सन्ध्याकालेषु वा सदा ।",
-          "transliteration": "dhArayenmanasA prANa.n sandhyAkAleShu vA sadA |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 143,
-          "sanskrit": "सर्वरोगविनिर्मुक्तो भवेद्योगी गतक्लमः ॥ ४४॥",
-          "transliteration": "sarvarogavinirmukto bhavedyogI gataklamaH || 44||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 144,
-          "sanskrit": "नासाग्रे वायुविजयं भवति । नाभिमध्ये सर्वरोगविनाशः ।",
-          "transliteration": "nAsAgre vAyuvijayaM bhavati | nAbhimadhye sarvarogavinAshaH |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 145,
-          "sanskrit": "पादाङ्गुष्ठदारणाच्छरीरलघुता भवति ।",
-          "transliteration": "pAdA~NguShThadAraNAchCharIralaghutA bhavati |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 146,
-          "sanskrit": "रसनाद्वायुमाकृष्य यः पिबेत्सतततं नरः ।",
-          "transliteration": "rasanAdvAyumAkR^iShya yaH pibetsatatata.n naraH |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 147,
-          "sanskrit": "श्रमदाहौ तु न स्यातां नश्यन्ति व्याधयस्तथा ॥ ४५॥",
-          "transliteration": "shramadAhau tu na syAtA.n nashyanti vyAdhayastathA || 45||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 148,
-          "sanskrit": "सन्ध्ययोर्ब्राह्मणः काले वायुमाकृष्य यः पिबेत् ।",
-          "transliteration": "sandhyayorbrAhmaNaH kAle vAyumAkR^iShya yaH pibet |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 149,
-          "sanskrit": "त्रिमासात्तस्य कल्याणी जायते वाक् सरस्वती ॥ ४६॥",
-          "transliteration": "trimAsAttasya kalyANI jAyate vAk sarasvatI || 46||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 150,
-          "sanskrit": "एवं षण्मासाभ्यासात्सर्वरोगनिवृत्तिः ।",
-          "transliteration": "eva.n ShaNmAsAbhyAsAtsarvaroganivR^ittiH |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 151,
-          "sanskrit": "जिह्वया वायुमानीय जिह्वामूले निरोधयेत् ।",
-          "transliteration": "jihvayA vAyumAnIya jihvAmUle nirodhayet |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 152,
-          "sanskrit": "यः पिबेदमृतं विद्वान्सकलं भद्रमश्नुते ॥ ४७॥",
-          "transliteration": "yaH pibedamR^ita.n vidvAnsakalaM bhadramashnute || 47||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 153,
-          "sanskrit": "आत्मन्यात्मानमिडया धारयित्वा भ्रुवोन्तरे ।",
-          "transliteration": "AtmanyAtmAnamiDayA dhArayitvA bhruvontare |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 154,
-          "sanskrit": "विभेद्य त्रिदशाहारं व्याधिस्थोऽपि विमुच्यते ॥ ४८॥",
-          "transliteration": "vibhedya tridashAhAra.n vyAdhistho.api vimuchyate || 48||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 155,
-          "sanskrit": "नाडीभ्यां वायुमारोप्य नाभौ तुन्दस्य पार्श्वयोः ।",
-          "transliteration": "nADIbhyA.n vAyumAropya nAbhau tundasya pArshvayoH |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 156,
-          "sanskrit": "घटिकैकां वहेद्यस्तु व्याधिभिः स विमुच्यते ॥ ४९॥",
-          "transliteration": "ghaTikaikA.n vahedyastu vyAdhibhiH sa vimuchyate || 49||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 157,
-          "sanskrit": "मासमेकं त्रिसन्ध्यं तु जिह्वयारोप्य मारुतम् ।",
-          "transliteration": "mAsameka.n trisandhya.n tu jihvayAropya mArutam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 158,
-          "sanskrit": "विभेद्य त्रिदशाहारं धारयेत्तुन्दमध्यमे ॥ ५०॥",
-          "transliteration": "vibhedya tridashAhAra.n dhArayettundamadhyame || 50||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 159,
-          "sanskrit": "ज्वराः सर्वेऽपि नश्यन्ति विषाणि विविधानि च ।",
-          "transliteration": "jvarAH sarve.api nashyanti viShANi vividhAni cha |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 160,
-          "sanskrit": "मुहूर्तमपि यो नित्यं नासाग्रे मनसा सह ॥ ५१॥",
-          "transliteration": "muhUrtamapi yo nitya.n nAsAgre manasA saha || 51||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 161,
-          "sanskrit": "सर्वं तरति पाप्मानं तस्य जन्म शतार्जितम् ।",
-          "transliteration": "sarva.n tarati pApmAna.n tasya janma shatArjitam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 162,
-          "sanskrit": "तारसंयमात्सकलविषयज्ञानं भवति ।",
-          "transliteration": "tArasa.nyamAtsakalaviShayaj~nAnaM bhavati |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 163,
-          "sanskrit": "नासाग्रे चित्तसंयमादिन्द्रलोकज्ञानम् ।",
-          "transliteration": "nAsAgre chittasa.nyamAdindralokaj~nAnam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 164,
-          "sanskrit": "तदधश्चित्तसंयमादग्निलोकज्ञानम् ।",
-          "transliteration": "tadadhashchittasa.nyamAdagnilokaj~nAnam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 165,
-          "sanskrit": "चक्षुषि चित्तसंयमात्सर्वलोकज्ञानम् ।",
-          "transliteration": "chakShuShi chittasa.nyamAtsarvalokaj~nAnam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 166,
-          "sanskrit": "श्रोत्रे चित्तस्य संयमाद्यमलोकज्ञानम् ।",
-          "transliteration": "shrotre chittasya sa.nyamAdyamalokaj~nAnam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 167,
-          "sanskrit": "तत्पार्श्वे संयमान्निरृतिलोकज्ञानम् ।",
-          "transliteration": "tatpArshve sa.nyamAnnirR^itilokaj~nAnam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 168,
-          "sanskrit": "पृष्ठभागे संयमाद्वरुणलोकज्ञानम् ।",
-          "transliteration": "pR^iShThabhAge sa.nyamAdvaruNalokaj~nAnam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 169,
-          "sanskrit": "वामकर्णे संयमाद्वायुलोकज्ञानम् ।",
-          "transliteration": "vAmakarNe sa.nyamAdvAyulokaj~nAnam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 170,
-          "sanskrit": "कण्ठे संयमात्सोमलोकज्ञानम् ।",
-          "transliteration": "kaNThe sa.nyamAtsomalokaj~nAnam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 171,
-          "sanskrit": "वामचक्षुषि संयमाच्छिवलोकज्ञानम् ।",
-          "transliteration": "vAmachakShuShi sa.nyamAchChivalokaj~nAnam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 172,
-          "sanskrit": "मूर्ध्नि संयमाद्ब्रह्मलोकज्ञानम् ।",
-          "transliteration": "mUrdhni sa.nyamAdbrahmalokaj~nAnam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 173,
-          "sanskrit": "पादादोभागे संयमादतललोकज्ञानम् ।",
-          "transliteration": "pAdAdobhAge sa.nyamAdatalalokaj~nAnam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 174,
-          "sanskrit": "पादे संयमाद्वितललोकज्ञानम् ।",
-          "transliteration": "pAde sa.nyamAdvitalalokaj~nAnam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 175,
-          "sanskrit": "पादसन्धौ संयमान्नितललोकज्ञानम् ।",
-          "transliteration": "pAdasandhau sa.nyamAnnitalalokaj~nAnam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 176,
-          "sanskrit": "जङ्घे संयमात्सुतललोकज्ञानम् ।",
-          "transliteration": "ja~Nghe sa.nyamAtsutalalokaj~nAnam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 177,
-          "sanskrit": "जानौ संयमान्महातललोकज्ञानम् ।",
-          "transliteration": "jAnau sa.nyamAnmahAtalalokaj~nAnam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 178,
-          "sanskrit": "ऊरौ चित्तसंयमाद्रसातललोकज्ञानम् ।",
-          "transliteration": "Urau chittasa.nyamAdrasAtalalokaj~nAnam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 179,
-          "sanskrit": "कटौ चित्तसंयमात्तलातललोकज्ञानम् ।",
-          "transliteration": "kaTau chittasa.nyamAttalAtalalokaj~nAnam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 180,
-          "sanskrit": "नाभौ चित्तसंयमाद्भूलोकज्ञानम् ।",
-          "transliteration": "nAbhau chittasa.nyamAdbhUlokaj~nAnam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 181,
-          "sanskrit": "कुक्षौ संयमाद्भुवर्लोकज्ञानम् ।",
-          "transliteration": "kukShau sa.nyamAdbhuvarlokaj~nAnam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 182,
-          "sanskrit": "हृदि चित्तस्य संयमात्स्वर्लोकज्ञानम् ।",
-          "transliteration": "hR^idi chittasya sa.nyamAtsvarlokaj~nAnam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 183,
-          "sanskrit": "हृदयोर्ध्वभागे चित्तसंयमान्महर्लोकज्ञानम् ।",
-          "transliteration": "hR^idayordhvabhAge chittasa.nyamAnmaharlokaj~nAnam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 184,
-          "sanskrit": "कण्ठे चित्तसंयमाज्जनोलोकज्ञानम् ।",
-          "transliteration": "kaNThe chittasa.nyamAjjanolokaj~nAnam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 185,
-          "sanskrit": "भ्रूमध्ये चित्तसंयमात्तपोलोकज्ञानम् ।",
-          "transliteration": "bhrUmadhye chittasa.nyamAttapolokaj~nAnam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 186,
-          "sanskrit": "मूर्ध्नि चित्तसंयमात्सत्यलोकज्ञानम् ।",
-          "transliteration": "mUrdhni chittasa.nyamAtsatyalokaj~nAnam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 187,
-          "sanskrit": "धर्माधर्मसंयमादतीतानागतज्ञानम् ।",
-          "transliteration": "dharmAdharmasa.nyamAdatItAnAgataj~nAnam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 188,
-          "sanskrit": "तत्तज्जन्तुध्वनौ चित्तसंयमात्सर्वजन्तुरुतज्ञानम् ।",
-          "transliteration": "tattajjantudhvanau chittasa.nyamAtsarvajanturutaj~nAnam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 189,
-          "sanskrit": "संचितकर्मणि चित्तसंयमात्पूर्वजातिज्ञानम् ।",
-          "transliteration": "sa.nchitakarmaNi chittasa.nyamAtpUrvajAtij~nAnam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 190,
-          "sanskrit": "परचित्ते चित्तसंयमात्परचित्तज्ञानम् ।",
-          "transliteration": "parachitte chittasa.nyamAtparachittaj~nAnam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 191,
-          "sanskrit": "कायरूपे चित्तसंयमादन्यादृश्यरूपम् ।",
-          "transliteration": "kAyarUpe chittasa.nyamAdanyAdR^ishyarUpam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 192,
-          "sanskrit": "बले चित्तसंयमाद्धनुमदादिबलम् ।",
-          "transliteration": "bale chittasa.nyamAddhanumadAdibalam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 193,
-          "sanskrit": "सूर्ये चित्तसंयमाद्भुवनज्ञानम् ।",
-          "transliteration": "sUrye chittasa.nyamAdbhuvanaj~nAnam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 194,
-          "sanskrit": "चन्द्रे चित्तसंयमात्ताराव्यूहज्ञानम् ।",
-          "transliteration": "chandre chittasa.nyamAttArAvyUhaj~nAnam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 195,
-          "sanskrit": "ध्रुवे तद्गतिदर्शनम् । स्वार्थसंयमात्पुरुषज्ञानम् ।",
-          "transliteration": "dhruve tadgatidarshanam | svArthasa.nyamAtpuruShaj~nAnam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 196,
-          "sanskrit": "नाभिचक्रे कायव्यूहज्ञानम् । कण्ठकूपे क्षुत्पिपासा निवृत्तिः ।",
-          "transliteration": "nAbhichakre kAyavyUhaj~nAnam | kaNThakUpe kShutpipAsA nivR^ittiH |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 197,
-          "sanskrit": "कूर्मनाड्यां स्थैर्यम् । तारे सिद्धदर्शनम् ।",
-          "transliteration": "kUrmanADyA.n sthairyam | tAre siddhadarshanam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 198,
-          "sanskrit": "कायाकाशसंयमादाकाशगमनम् ।",
-          "transliteration": "kAyAkAshasa.nyamAdAkAshagamanam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 199,
-          "sanskrit": "तत्तत्स्थाने संयमात्तत्तत्सिद्धयो भवन्ति ॥ ७॥",
-          "transliteration": "tattatsthAne sa.nyamAttattatsiddhayo bhavanti || 7||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 200,
-          "sanskrit": "अथ प्रत्याहारः । स पञ्चविधः विषयेषु विचरतामिन्द्रियाणां बलादाहरणं प्रत्याहरः । यद्यत्पश्यति तत्सर्वमामेति प्रत्याहारः । नित्यविहितकर्मफलत्यागः प्रत्याहारः । सर्वविषयपराङ्मुखत्वं प्रत्याहारः । अष्टादशसु मर्मस्थानेषु क्रमाद्धारणं प्रत्याहारः । पादाङ्गुष्ठगुल्फजङ्घाजानूरुपायुमेढ्रनाभिहृदयकण्ठकूपतालुनासाक्षिभ्रूमध्यललाटमूर्ध्नि स्थानानि । तेषु क्रमादारोहावरोहक्रमेण प्रत्याहरेत् ॥ ८॥",
-          "transliteration": "atha pratyAhAraH | sa pa~nchavidhaH viShayeShu vicharatAmindriyANAM balAdAharaNaM pratyAharaH | yadyatpashyati tatsarvamAmeti pratyAhAraH | nityavihitakarmaphalatyAgaH pratyAhAraH | sarvaviShayaparA~NmukhatvaM pratyAhAraH | aShTAdashasu marmasthAneShu kramAddhAraNaM pratyAhAraH | pAdA~NguShThagulphaja~NghAjAnUrupAyumeDhranAbhihR^idayakaNThakUpatAlunAsAkShibhrUmadhyalalATamUrdhni sthAnAni | teShu kramAdArohAvarohakrameNa pratyAharet || 8||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 201,
-          "sanskrit": "अथ धारणा । सा त्रिविधा । आत्मनि मनोधारणं दहराकाशे बाह्याकाशधारणं पृथिव्यप्तेजोवाय्वाकाशेषु पञ्चमूर्तिधारणं चेति ॥ ९॥",
-          "transliteration": "atha dhAraNA | sA trividhA | Atmani manodhAraNa.n daharAkAshe bAhyAkAshadhAraNaM pR^ithivyaptejovAyvAkAsheShu pa~nchamUrtidhAraNa.n cheti || 9||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 202,
-          "sanskrit": "अथ ध्यानम् । तद्द्विविधं सगुणं निर्गुणं चेति ।",
-          "transliteration": "atha dhyAnam | taddvividha.n saguNa.n nirguNa.n cheti |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 203,
-          "sanskrit": "सगुणं मूर्तिध्यानम् । निर्गुणमात्मयाथात्म्यम् ॥ १०॥",
-          "transliteration": "saguNaM mUrtidhyAnam | nirguNamAtmayAthAtmyam || 10||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 204,
-          "sanskrit": "अथ समाधिः । जीवात्मपरमात्मैक्यावस्थात्रिपुटीरहिता",
-          "transliteration": "atha samAdhiH | jIvAtmaparamAtmaikyAvasthAtripuTIrahitA",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 205,
-          "sanskrit": "परमानन्दस्वरूपा शुद्धचैतन्यात्मिका भवति ॥ ११॥",
-          "transliteration": "paramAnandasvarUpA shuddhachaitanyAtmikA bhavati || 11||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 206,
-          "sanskrit": "इति प्रथमोऽध्यायः ॥ १॥",
-          "transliteration": "iti prathamo.adhyAyaH || 1||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 207,
-          "sanskrit": "2",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 208,
-          "sanskrit": "अथ ह शाण्डिल्यो ह वै ब्रह्मऋषिश्चतुर्षु वेदेषु",
-          "transliteration": "atha ha shANDilyo ha vai brahmaR^iShishchaturShu vedeShu",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 209,
-          "sanskrit": "ब्रह्मविद्यामलभमानः किं नामेत्यथर्वाणं",
-          "transliteration": "brahmavidyAmalabhamAnaH ki.n nAmetyatharvANaM",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 210,
-          "sanskrit": "भगवन्तमुपसन्नः पप्रच्छाधीहि भगवन् ब्रह्मविद्यां",
-          "transliteration": "bhagavantamupasannaH paprachChAdhIhi bhagavan brahmavidyA.n",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 211,
-          "sanskrit": "येन श्रेयोऽवाप्स्यामीति । स होवाचाथर्वा शाण्डिल्य सत्यं",
-          "transliteration": "yena shreyo.avApsyAmIti | sa hovAchAtharvA shANDilya satya.n",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 212,
-          "sanskrit": "विज्ञानमनन्तं ब्रह्म यस्मिन्निदमोतं च प्रोतं च ।",
-          "transliteration": "vij~nAnamanantaM brahma yasminnidamota.n cha prota.n cha |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 213,
-          "sanskrit": "यस्मिन्निदं सं च विचैति सर्वं यस्मिन्विज्ञाते सर्वमिदं",
-          "transliteration": "yasminnida.n sa.n cha vichaiti sarva.n yasminvij~nAte sarvamida.n",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 214,
-          "sanskrit": "विज्ञातं भवति । तदपाणिपादमचक्षुःश्रोत्रमजिह्वमशरीरमग्राह्यमनिर्देश्यम् । यतो वाचो निवर्तन्ते । अप्राप्य मनसा",
-          "transliteration": "vij~nAtaM bhavati | tadapANipAdamachakShuHshrotramajihvamasharIramagrAhyamanirdeshyam | yato vAcho nivartante | aprApya manasA",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 215,
-          "sanskrit": "सह । यत्केवलं ज्ञानगम्यम् । प्रज्ञा च यस्मात्प्रसृता",
-          "transliteration": "saha | yatkevala.n j~nAnagamyam | praj~nA cha yasmAtprasR^itA",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 216,
-          "sanskrit": "पुराणी । यदेकमद्वितीयम् । आकाशवत्सर्वगतं सुसूक्ष्मं",
-          "transliteration": "purANI | yadekamadvitIyam | AkAshavatsarvagata.n susUkShma.n",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 217,
-          "sanskrit": "निरञ्जनं निष्क्रियं सन्मात्रं चिदानन्दैकरसं शिवं",
-          "transliteration": "nira~njana.n niShkriya.n sanmAtra.n chidAnandaikarasa.n shivaM",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 218,
-          "sanskrit": "प्रशान्तममृतं तत्परं च ब्रह्म । तत्त्वमसि । तज्ज्ञानेन हि",
-          "transliteration": "prashAntamamR^ita.n tatpara.n cha brahma | tattvamasi | tajj~nAnena hi",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 219,
-          "sanskrit": "विजानीहि य एको देव आत्मशक्तिप्रधानः सर्वज्ञः सर्वेश्वरः",
-          "transliteration": "vijAnIhi ya eko deva AtmashaktipradhAnaH sarvaj~naH sarveshvaraH",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 220,
-          "sanskrit": "सर्वभूतान्तरात्मा सर्वभूताधिवासः सर्वभूतनिगूढो",
-          "transliteration": "sarvabhUtAntarAtmA sarvabhUtAdhivAsaH sarvabhUtanigUDho",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 221,
-          "sanskrit": "भूतयोनिर्योगैकगम्यः । यश्च विश्वं सृजति विश्वं बिभर्ति",
-          "transliteration": "bhUtayoniryogaikagamyaH | yashcha vishva.n sR^ijati vishvaM bibharti",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 222,
-          "sanskrit": "विश्वं भुङ्क्ते स आत्मा । आत्मनि तं तं लोकं विजानीहि । मा",
-          "transliteration": "vishvaM bhu~Nkte sa AtmA | Atmani ta.n ta.n loka.n vijAnIhi | mA",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 223,
-          "sanskrit": "शोचीरात्मविज्ञानी शोकस्यान्तं गमिष्यति ॥",
-          "transliteration": "shochIrAtmavij~nAnI shokasyAnta.n gamiShyati ||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 224,
-          "sanskrit": "इति द्वितीयोऽध्यायः ॥ २॥",
-          "transliteration": "iti dvitIyo.adhyAyaH || 2||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 225,
-          "sanskrit": "3",
-          "transliteration": "",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 226,
-          "sanskrit": "अथैनं शाण्डिल्योऽथर्वाणं पप्रच्छ यदेकमक्षरं",
-          "transliteration": "athaina.n shANDilyo.atharvANaM paprachCha yadekamakShara.n",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 227,
-          "sanskrit": "निष्क्रियं शिवं सन्मात्रं परंब्रह्म । तस्मात्कथमिदं",
-          "transliteration": "niShkriya.n shiva.n sanmAtraM paraMbrahma | tasmAtkathamida.n",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 228,
-          "sanskrit": "विश्वं जायते कथं स्थीयते कथमस्मिंल्लीयते । तन्मे संशयं",
-          "transliteration": "vishva.n jAyate katha.n sthIyate kathamasmi.nllIyate | tanme sa.nshaya.n",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 229,
-          "sanskrit": "छेत्तुमर्हसीति । स होवाचाथर्वा सत्यं शाण्डिल्य परंब्रह्म",
-          "transliteration": "ChettumarhasIti | sa hovAchAtharvA satya.n shANDilya paraMbrahma",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 230,
-          "sanskrit": "निष्क्रियमक्षरमिति । अथाप्यस्यारूपस्य ब्रह्मणस्त्रीणि",
-          "transliteration": "niShkriyamakSharamiti | athApyasyArUpasya brahmaNastrINi",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 231,
-          "sanskrit": "रूपाणि भवन्ति सकलं निष्कलं सकलनिष्कलं चेति ।",
-          "transliteration": "rUpANi bhavanti sakala.n niShkala.n sakalaniShkala.n cheti |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 232,
-          "sanskrit": "यत्सत्यं विज्ञानमानन्दं निष्क्रियं निरञ्जनं सर्वगतं",
-          "transliteration": "yatsatya.n vij~nAnamAnanda.n niShkriya.n nira~njana.n sarvagata.n",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 233,
-          "sanskrit": "सुसूक्ष्मं सर्वतोमुखमनिर्देश्यममृतमस्ति तदिदं निष्कलं",
-          "transliteration": "susUkShma.n sarvatomukhamanirdeshyamamR^itamasti tadida.n niShkala.n",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 234,
-          "sanskrit": "रूपम् । अथास्य या सहजास्त्यविद्या मूलप्रकृतिर्माया",
-          "transliteration": "rUpam | athAsya yA sahajAstyavidyA mUlaprakR^itirmAyA",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 235,
-          "sanskrit": "लोहितशुक्लकृष्णा । तया सहायवान् देवः कृष्णपिङ्गलो",
-          "transliteration": "lohitashuklakR^iShNA | tayA sahAyavAn devaH kR^iShNapi~Ngalo",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 236,
-          "sanskrit": "ममेश्वर ईष्टे । तदिदमस्य सकलनिष्कलं रूपम् ॥ अथैष",
-          "transliteration": "mameshvara IShTe | tadidamasya sakalaniShkala.n rUpam || athaiSha",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 237,
-          "sanskrit": "ज्ञानमयेन तपसा चीयमानोऽकामयत बहु स्यां प्रजायेयेति ।",
-          "transliteration": "j~nAnamayena tapasA chIyamAno.akAmayata bahu syAM prajAyeyeti |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 238,
-          "sanskrit": "अथैतस्मात्तप्यमानात्सत्यकामात्त्रीण्यक्षराण्यजायन्त । तिस्रो",
-          "transliteration": "athaitasmAttapyamAnAtsatyakAmAttrINyakSharANyajAyanta | tisro",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 239,
-          "sanskrit": "व्याहृतयस्त्रिपदा गायत्री त्रयो वेदास्त्रयो देवास्त्रयो वर्णास्त्रयोऽग्नयश्च",
-          "transliteration": "vyAhR^itayastripadA gAyatrI trayo vedAstrayo devAstrayo varNAstrayo.agnayashcha",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 240,
-          "sanskrit": "जायन्ते । योऽसौ देवो भगवान्सर्वैश्वर्यसम्पन्नः सर्वव्यापी",
-          "transliteration": "jAyante | yo.asau devo bhagavAnsarvaishvaryasampannaH sarvavyApI",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 241,
-          "sanskrit": "सर्वभूतानां हृदये संनिविष्टो मायावी मायया क्रीडति स ब्रह्मा",
-          "transliteration": "sarvabhUtAnA.n hR^idaye sa.nniviShTo mAyAvI mAyayA krIDati sa brahmA",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 242,
-          "sanskrit": "स विष्णुः स रुद्रः स इन्द्रः स सर्वे देवाः सर्वाणि भूतानि स एव",
-          "transliteration": "sa viShNuH sa rudraH sa indraH sa sarve devAH sarvANi bhUtAni sa eva",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 243,
-          "sanskrit": "पुरस्तात्स एव पश्चात्स एवोत्तरतः स एव दक्षिणतः स एवाधस्तात्स",
-          "transliteration": "purastAtsa eva pashchAtsa evottarataH sa eva dakShiNataH sa evAdhastAtsa",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 244,
-          "sanskrit": "एवोपरिष्टात्स एव सर्वम् । अथास्य देवस्यात्मशक्तेरात्मक्रीडस्य",
-          "transliteration": "evopariShTAtsa eva sarvam | athAsya devasyAtmashakterAtmakrIDasya",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 245,
-          "sanskrit": "भक्तानुकंपिनो दत्तात्रेयरूपा सुरूपा तनूरवासा इन्दीवरदलप्रख्या",
-          "transliteration": "bhaktAnukaMpino dattAtreyarUpA surUpA tanUravAsA indIvaradalaprakhyA",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 246,
-          "sanskrit": "चतुर्बाहुरघोरापापकशिनी । तदिदमस्य सकलं रूपम् ॥ १॥",
-          "transliteration": "chaturbAhuraghorApApakashinI | tadidamasya sakala.n rUpam || 1||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 247,
-          "sanskrit": "अथ हैनमथर्वाणं शाण्डिल्यः पप्रच्छ भगवन्सन्मात्रं",
-          "transliteration": "atha hainamatharvANa.n shANDilyaH paprachCha bhagavansanmAtra.n",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 248,
-          "sanskrit": "चिदानन्दैकरसं कस्मादुच्यते परं ब्रह्मेति । स होवाचाथर्वा",
-          "transliteration": "chidAnandaikarasa.n kasmAduchyate paraM brahmeti | sa hovAchAtharvA",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 249,
-          "sanskrit": "यस्माच्च बृहति बृंहयति च सर्वं तस्मादुच्यते परंब्रह्मेति ।",
-          "transliteration": "yasmAchcha bR^ihati bR^i.nhayati cha sarva.n tasmAduchyate paraMbrahmeti |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 250,
-          "sanskrit": "अथ कस्मादुच्यते आत्मेति । यस्मात्सर्वमाप्नोति सर्वमादत्ते सर्वमत्ति",
-          "transliteration": "atha kasmAduchyate Atmeti | yasmAtsarvamApnoti sarvamAdatte sarvamatti",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 251,
-          "sanskrit": "च तस्मादुच्यते आत्मेति । अथ कस्मादुच्यते महेश्वर इति । यस्मान्महत",
-          "transliteration": "cha tasmAduchyate Atmeti | atha kasmAduchyate maheshvara iti | yasmAnmahata",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 252,
-          "sanskrit": "ईशः शब्दध्वन्या चात्मशक्त्या च महत ईशते तस्मादुच्यते",
-          "transliteration": "IshaH shabdadhvanyA chAtmashaktyA cha mahata Ishate tasmAduchyate",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 253,
-          "sanskrit": "महेश्वर इति । अथ कस्मादुच्यते दत्तात्रेय इति । यस्मात्सुदुश्चरं",
-          "transliteration": "maheshvara iti | atha kasmAduchyate dattAtreya iti | yasmAtsudushchara.n",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 254,
-          "sanskrit": "तपस्तप्यमानायात्रये पुत्रकामायातितरां तुष्टेन भगवता",
-          "transliteration": "tapastapyamAnAyAtraye putrakAmAyAtitarA.n tuShTena bhagavatA",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 255,
-          "sanskrit": "ज्योतिर्मयेनात्मैव दत्तो यस्माच्चानसूयायामत्रेस्तनयोऽभवत्तस्मादुच्यते दत्तात्रेय इति । अथ योऽस्य निरुक्तानि वेद स सर्वं वेद ।",
-          "transliteration": "jyotirmayenAtmaiva datto yasmAchchAnasUyAyAmatrestanayo.abhavattasmAduchyate dattAtreya iti | atha yo.asya niruktAni veda sa sarva.n veda |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 256,
-          "sanskrit": "अथ यो ह वै विद्ययैनं परमुपास्ते सोऽहमिति स ब्रह्मविद्भवति ॥",
-          "transliteration": "atha yo ha vai vidyayainaM paramupAste so.ahamiti sa brahmavidbhavati ||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 257,
-          "sanskrit": "अत्रैते श्लोका भवन्ति ॥",
-          "transliteration": "atraite shlokA bhavanti ||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 258,
-          "sanskrit": "दत्तात्रेयं शिवं शान्तमिन्द्रनीलनिभं प्रभुम् ।",
-          "transliteration": "dattAtreya.n shiva.n shAntamindranIlanibhaM prabhum |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 259,
-          "sanskrit": "आत्ममायारतं देवमवधूतं दिगम्बरम् ॥ १॥",
-          "transliteration": "AtmamAyArata.n devamavadhUta.n digambaram || 1||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 260,
-          "sanskrit": "भस्मोद्धूलितसर्वाङ्गं जटाजूटधरं विभुम् ।",
-          "transliteration": "bhasmoddhUlitasarvA~Nga.n jaTAjUTadhara.n vibhum |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 261,
-          "sanskrit": "चतुर्बाहुमुदाराङ्गं प्रफ़ुल्लकमलेक्षणम् ॥२॥",
-          "transliteration": "chaturbAhumudArA~NgaM prafullakamalekShaNam ||2||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 262,
-          "sanskrit": "ज्ञानयोगनिधिं विश्वगुरुं योगिजनप्रियम् ।",
-          "transliteration": "j~nAnayoganidhi.n vishvaguru.n yogijanapriyam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 263,
-          "sanskrit": "भक्तानुकंपिनं सर्वसाक्षिणं सिद्धसेवितम् ॥ ३॥",
-          "transliteration": "bhaktAnukaMpina.n sarvasAkShiNa.n siddhasevitam || 3||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 264,
-          "sanskrit": "एवं यः सततं ध्यायेद्देवदेवं सनातनम् ।",
-          "transliteration": "eva.n yaH satata.n dhyAyeddevadeva.n sanAtanam |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 265,
-          "sanskrit": "स मुक्तः सर्वपापेभ्यो निःश्रेयसमवाप्नुयात् ॥ ४॥",
-          "transliteration": "sa muktaH sarvapApebhyo niHshreyasamavApnuyAt || 4||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 266,
-          "sanskrit": "इत्यों सत्यमित्युपनिषत् ॥",
-          "transliteration": "ityoM satyamityupaniShat ||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 267,
-          "sanskrit": "इति तृतीयोऽध्यायः ॥ ३॥",
-          "transliteration": "iti tR^itIyo.adhyAyaH || 3||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 268,
-          "sanskrit": "ॐ भद्रं कर्णेभिः श्रुणुयाम देवा भद्रं पश्येमाक्षभिर्यजत्राः ।",
-          "transliteration": "OM bhadra.n karNebhiH shruNuyAma devA bhadraM pashyemAkShabhiryajatrAH |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 269,
-          "sanskrit": "स्थिरैरङ्गैस्तुष्टुवाँसस्तनूभिर्व्यशेम देवहितं यदायुः ।",
-          "transliteration": "sthiraira~NgaistuShTuvA{\\m+}sastanUbhirvyashema devahita.n yadAyuH |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 270,
-          "sanskrit": "स्वस्ति न इन्द्रो वृद्धश्रवाः । स्वस्ति नः पूषा विश्ववेदाः ।",
-          "transliteration": "svasti na indro vR^iddhashravAH | svasti naH pUShA vishvavedAH |",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 271,
-          "sanskrit": "स्वस्ति नस्तार्क्ष्यो अरिष्टनेमिः स्वस्ति नो बृहस्पतिर्दधातु ॥",
-          "transliteration": "svasti nastArkShyo ariShTanemiH svasti no bR^ihaspatirdadhAtu ||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 272,
-          "sanskrit": "ॐ शान्तिः शान्तिः शान्तिः ॥",
-          "transliteration": "OM shAntiH shAntiH shAntiH ||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 273,
-          "sanskrit": "इति शाण्डिल्योपनिषत्समाप्ता ॥",
-          "transliteration": "iti shANDilyopaniShatsamAptA ||",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 274,
-          "sanskrit": "Eन्चोदेद् ब्य् षुन्देर् ःअत्तन्गदि",
-          "transliteration": "Encoded by Sunder Hattangadi",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 275,
-          "sanskrit": "Pलेअसे सेन्द् चोर्रेच्तिओन्स् तो सन्स्क्रित्@चीर्फ़ुल्ॅओम्",
-          "transliteration": "Please send corrections to sanskrit@cheerful.com",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 276,
-          "sanskrit": "ळस्त् उप्दतेद् tओदय्",
-          "transliteration": "Last updated \\today",
-          "translation": "",
-          "hindi": ""
-        },
-        {
-          "number": 277,
-          "sanskrit": "ह्त्त्प्स्://सन्स्क्रित्दोचुमेन्त्स्।ओर्ग्",
-          "transliteration": "https://sanskritdocuments.org",
-          "translation": "",
-          "hindi": ""
+          "sanskrit": "भक्तस्य सर्वारम्भः स्वतः सिध्यन्ति ||",
+          "transliteration": "bhaktasya sarvārambhāḥ svataḥ sidhyanti ||",
+          "translation": "For the devotee, all undertakings succeed of themselves.",
+          "hindi": "भक्त के सभी कार्य स्वयमेव सिद्ध होते हैं।",
+          "commentary": "The most practically reassuring sutra of the Shandilya Bhakti Sutras. \"Svataḥ sidhyanti\" — succeed of themselves, spontaneously, without laboured effort. This is not a promise that the bhakta will get whatever they want; it is a description of how the bhakta's actions become effortless and effective when they flow from a centre of genuine devotion. Actions aligned with one's deepest nature and offered to Ishvara do not require the same anxious effort as actions driven by ego and fear. They arise from a different source and produce different quality results — not always what the ego wanted, but always what is genuinely needed.",
+          "wordMeaning": "The most practically reassuring sutra of the Shandilya Bhakti Sutras. \"Svataḥ sidhyanti\" — succeed of themselves, spontaneously, without laboured effort. This is not a promise that the bhakta will get whatever they want; it is a description of how the bhakta's actions become effortless and effective when they flow from a centre of genuine devotion. Actions aligned with one's deepest nature and offered to Ishvara do not require the same anxious effort as actions driven by ego and fear. They arise from a different source and produce different quality results — not always what the ego wanted, but always what is genuinely needed."
         }
       ]
     },
@@ -1951,12 +152,20 @@
         {
           "number": 22,
           "sanskrit": "न तु तद्विना ज्ञानं भक्तेः साधनत्वेन | तस्य फलत्वात् ||",
-          "transliteration": "na tu tadvina jñānaṃ bhakteḥ sādhanaTvena | tasya phalatvāt ||"
+          "transliteration": "na tu tadvina jñānaṃ bhakteḥ sādhanaTvena | tasya phalatvāt ||",
+          "translation": "But knowledge is not the means (sadhana) to bhakti without that (Ishvara). Because (bhakti) is its fruit.",
+          "hindi": "परन्तु ईश्वर के बिना ज्ञान भक्ति का साधन नहीं है। क्योंकि (भक्ति) उसका फल है।",
+          "commentary": "Shandilya's most subtle sutra: knowledge (jnana) is not the means (sadhana) to bhakti — bhakti is the fruit of knowledge rightly understood. This inverts the common assumption that you first gain jnana and then, as a result, develop bhakti. Shandilya says: when jnana is genuine — when the knowledge of Ishvara's nature is real and not merely intellectual — bhakti arises spontaneously as its fruit. You do not produce bhakti by trying to love; you produce it by truly knowing the one you are loving. The more deeply you know Ishvara, the more naturally love arises. Knowledge and love are not two stages; they are two aspects of the same deepening.",
+          "wordMeaning": "Shandilya's most subtle sutra: knowledge (jnana) is not the means (sadhana) to bhakti — bhakti is the fruit of knowledge rightly understood. This inverts the common assumption that you first gain jnana and then, as a result, develop bhakti. Shandilya says: when jnana is genuine — when the knowledge of Ishvara's nature is real and not merely intellectual — bhakti arises spontaneously as its fruit. You do not produce bhakti by trying to love; you produce it by truly knowing the one you are loving. The more deeply you know Ishvara, the more naturally love arises. Knowledge and love are not two stages; they are two aspects of the same deepening."
         },
         {
           "number": 35,
           "sanskrit": "तदर्थे कर्माण्यपि भक्त्यङ्गानि ||",
-          "transliteration": "tadArthe karmāṇyapi bhaktyaṅgāni ||"
+          "transliteration": "tadArthe karmāṇyapi bhaktyaṅgāni ||",
+          "translation": "Actions done for His sake are also limbs of bhakti.",
+          "hindi": "उसके लिए किये गये कर्म भी भक्ति के अंग हैं।",
+          "commentary": "Shandilya integrates karma into bhakti with surgical precision: actions performed \"for His sake\" (tadArthe — for the sake of Ishvara) are not separate from bhakti but are its limbs (aṅgas). This resolves the apparent tension between the path of action (karma-yoga) and the path of devotion (bhakti-yoga): they are not different paths but one path with two aspects. Any action whatsoever — cooking, working, raising children, serving the sick — when offered to Ishvara as the ultimate beneficiary and witness, becomes a limb of bhakti. The Bhagavad Gita's teaching on karma-yoga (act without attachment, offer the fruits to the divine) is here integrated into the bhakti framework.",
+          "wordMeaning": "Shandilya integrates karma into bhakti with surgical precision: actions performed \"for His sake\" (tadArthe — for the sake of Ishvara) are not separate from bhakti but are its limbs (aṅgas). This resolves the apparent tension between the path of action (karma-yoga) and the path of devotion (bhakti-yoga): they are not different paths but one path with two aspects. Any action whatsoever — cooking, working, raising children, serving the sick — when offered to Ishvara as the ultimate beneficiary and witness, becomes a limb of bhakti. The Bhagavad Gita's teaching on karma-yoga (act without attachment, offer the fruits to the divine) is here integrated into the bhakti framework."
         }
       ]
     },
@@ -1968,27 +177,47 @@
         {
           "number": 68,
           "sanskrit": "सङ्गदोषादसद्विषयरागात् || तद्विपरीताच्च ||",
-          "transliteration": "saṅgadoṣādasadviṣayarāgāt || tadvipārītācca ||"
+          "transliteration": "saṅgadoṣādasadviṣayarāgāt || tadvipārītācca ||",
+          "translation": "From the fault of wrong company, from attachment to unworthy sense-objects — and from the opposite of these (right company and detachment) comes bhakti.",
+          "hindi": "कुसंग के दोष से और अयोग्य विषयों में राग से (भक्ति में विघ्न होता है) — और इनके विपरीत से (भक्ति होती है)।",
+          "commentary": "Shandilya identifies the two primary obstacles to bhakti — and their remedy — with characteristic economy. \"Saṅga-doṣa\" (the fault of wrong company): the single most reliable predictor of a person's spiritual development is the company they keep. Those who are around people who mock devotion, who treat the sacred casually, who live entirely for sensory gratification — their bhakti slowly suffocates. \"Asat-viṣaya-rāga\" (attachment to unworthy objects): the attention that should flow toward Ishvara is captured by objects that cannot satisfy. The remedy is simply stated as \"tad-vipārīta\" — the opposite: right company (satsang) and detachment from objects that dissipate attention.",
+          "wordMeaning": "Shandilya identifies the two primary obstacles to bhakti — and their remedy — with characteristic economy. \"Saṅga-doṣa\" (the fault of wrong company): the single most reliable predictor of a person's spiritual development is the company they keep. Those who are around people who mock devotion, who treat the sacred casually, who live entirely for sensory gratification — their bhakti slowly suffocates. \"Asat-viṣaya-rāga\" (attachment to unworthy objects): the attention that should flow toward Ishvara is captured by objects that cannot satisfy. The remedy is simply stated as \"tad-vipārīta\" — the opposite: right company (satsang) and detachment from objects that dissipate attention."
         },
         {
           "number": 78,
           "sanskrit": "ईश्वरे तदर्पणं सर्वकर्मणाम् | तत्स्मृत्यैव च ||",
-          "transliteration": "Īśvare tadarpaṇaṃ sarvakarmaNām | tatsṃṛtyaiva ca ||"
+          "transliteration": "Īśvare tadarpaṇaṃ sarvakarmaNām | tatsṃṛtyaiva ca ||",
+          "translation": "The offering of all actions to Ishvara — and through His remembrance alone.",
+          "hindi": "सभी कर्मों को ईश्वर में अर्पण करना — और केवल उसके स्मरण से।",
+          "commentary": "The Shandilya Bhakti Sutras' practical summary: two instruments for removing obstacles and deepening bhakti — arpaṇa (offering all actions) and smṛti (remembrance). These correspond directly to the Bhagavad Gita's karma-yoga and jnana-yoga integrated into bhakti: offer every action (karma-arpaṇa) and maintain continuous remembrance (smaranam). Together these two practices transform the entire field of experience — action and cognition — into a continuous stream of devotion. Nothing is excluded: not work, not rest, not mundane tasks. Everything becomes an offering; everything becomes a remembrance.",
+          "wordMeaning": "The Shandilya Bhakti Sutras' practical summary: two instruments for removing obstacles and deepening bhakti — arpaṇa (offering all actions) and smṛti (remembrance). These correspond directly to the Bhagavad Gita's karma-yoga and jnana-yoga integrated into bhakti: offer every action (karma-arpaṇa) and maintain continuous remembrance (smaranam). Together these two practices transform the entire field of experience — action and cognition — into a continuous stream of devotion. Nothing is excluded: not work, not rest, not mundane tasks. Everything becomes an offering; everything becomes a remembrance."
         },
         {
           "number": 85,
           "sanskrit": "योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो ईश्वरसमाश्रयः ||",
-          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ īśvarasamāśrayaḥ ||"
+          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ īśvarasamāśrayaḥ ||",
+          "translation": "Yoga is the cessation of mental modifications; yoga gives liberation. Yoga cuts all bonds; yoga rests on Ishvara.",
+          "hindi": "योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग ईश्वर पर आश्रित है।",
+          "commentary": "The definition of yoga from Yoga Sutras, placed in the context of Ishvara worship. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Ishvara.",
+          "wordMeaning": "The definition of yoga from Yoga Sutras, placed in the context of Ishvara worship. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Ishvara."
         },
         {
           "number": 90,
           "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं ईश्वर एव सर्वं ईश्वर मयि सर्वम् ||",
-          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ īśvara eva sarvaṃ īśvara mayi sarvam ||"
+          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ īśvara eva sarvaṃ īśvara mayi sarvam ||",
+          "translation": "I am Brahman, not you; I am birth, not beings; all is Ishvara alone, all is Ishvara in me.",
+          "hindi": "मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब ईश्वर ही है, सब ईश्वर मेरे में है।",
+          "commentary": "The declaration of non-duality with Ishvara as the supreme. The individual Self is Brahman; the world is Ishvara; all distinctions dissolve in this recognition.",
+          "wordMeaning": "The declaration of non-duality with Ishvara as the supreme. The individual Self is Brahman; the world is Ishvara; all distinctions dissolve in this recognition."
         },
         {
           "number": 95,
           "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो ईश्वरे लीनो न तत्र संशयो भवति ||",
-          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo īśvare līno na tatra saṃśayo bhavati ||"
+          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo īśvare līno na tatra saṃśayo bhavati ||",
+          "translation": "As rivers merge into the ocean, as lamps merge into light — so the individual self merges into Ishvara. There is no doubt about this.",
+          "hindi": "जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ईश्वर में लीन हो जाता है। इसमें कोई संशय नहीं।",
+          "commentary": "The dissolution of individuality into Ishvara. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains.",
+          "wordMeaning": "The dissolution of individuality into Ishvara. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains."
         }
       ]
     },
@@ -1998,39 +227,67 @@
       "titleSanskrit": "भक्तिफल",
       "verses": [
         {
-          "number": 85,
-          "sanskrit": "तया भगवतः सायुज्यमुक्तिः ||",
-          "transliteration": "tayā bhagavataḥ sāyujyamuktiḥ ||"
-        },
-        {
-          "number": 96,
-          "sanskrit": "भक्तस्य सर्वारम्भः स्वतः सिध्यन्ति ||",
-          "transliteration": "bhaktasya sarvārambhāḥ svataḥ sidhyanti ||"
-        },
-        {
           "number": 5,
           "sanskrit": "योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो ईश्वरसमाश्रयः ||",
-          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ īśvarasamāśrayaḥ ||"
+          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ īśvarasamāśrayaḥ ||",
+          "translation": "Yoga is the cessation of mental modifications; yoga gives liberation. Yoga cuts all bonds; yoga rests on Ishvara.",
+          "hindi": "योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग ईश्वर पर आश्रित है।",
+          "commentary": "The definition of yoga from Yoga Sutras, placed in the context of Ishvara worship. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Ishvara.",
+          "wordMeaning": "The definition of yoga from Yoga Sutras, placed in the context of Ishvara worship. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Ishvara."
         },
         {
           "number": 10,
           "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं ईश्वर एव सर्वं ईश्वर मयि सर्वम् ||",
-          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ īśvara eva sarvaṃ īśvara mayi sarvam ||"
+          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ īśvara eva sarvaṃ īśvara mayi sarvam ||",
+          "translation": "I am Brahman, not you; I am birth, not beings; all is Ishvara alone, all is Ishvara in me.",
+          "hindi": "मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब ईश्वर ही है, सब ईश्वर मेरे में है।",
+          "commentary": "The declaration of non-duality with Ishvara as the supreme. The individual Self is Brahman; the world is Ishvara; all distinctions dissolve in this recognition.",
+          "wordMeaning": "The declaration of non-duality with Ishvara as the supreme. The individual Self is Brahman; the world is Ishvara; all distinctions dissolve in this recognition."
         },
         {
           "number": 15,
           "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो ईश्वरे लीनो न तत्र संशयो भवति ||",
-          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo īśvare līno na tatra saṃśayo bhavati ||"
+          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo īśvare līno na tatra saṃśayo bhavati ||",
+          "translation": "As rivers merge into the ocean, as lamps merge into light — so the individual self merges into Ishvara. There is no doubt about this.",
+          "hindi": "जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ईश्वर में लीन हो जाता है। इसमें कोई संशय नहीं।",
+          "commentary": "The dissolution of individuality into Ishvara. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains.",
+          "wordMeaning": "The dissolution of individuality into Ishvara. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains."
         },
         {
           "number": 20,
           "sanskrit": "शान्तं शिवमद्वैतं ईश्वर नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
-          "transliteration": "śāntaṃ śivamadvaitaṃ īśvara nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||"
+          "transliteration": "śāntaṃ śivamadvaitaṃ īśvara nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||",
+          "translation": "Peaceful, auspicious, non-dual Ishvara — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.",
+          "hindi": "शांत, शिव, अद्वैत ईश्वर — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
+          "commentary": "The attributes of Ishvara: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness.",
+          "wordMeaning": "The attributes of Ishvara: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness."
         },
         {
           "number": 25,
           "sanskrit": "एको देवो द्वितीयो नास्ति यो ईश्वरं वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
-          "transliteration": "eko devo dvitīyo nāsti yo īśvaraṃ veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||"
+          "transliteration": "eko devo dvitīyo nāsti yo īśvaraṃ veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||",
+          "translation": "There is one God, no second — he who knows Ishvara in truth. I am He, not any being, no death, no sorrow, and so on.",
+          "hindi": "एक ही देव है, दूसरा कोई नहीं — जो ईश्वर को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।",
+          "commentary": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering.",
+          "wordMeaning": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering."
+        },
+        {
+          "number": 85,
+          "sanskrit": "तया भगवतः सायुज्यमुक्तिः ||",
+          "transliteration": "tayā bhagavataḥ sāyujyamuktiḥ ||",
+          "translation": "Through that (bhakti), liberation as union with the Blessed Lord.",
+          "hindi": "उस (भक्ति) से भगवान के साथ सायुज्य-मुक्ति होती है।",
+          "commentary": "Shandilya specifies the form of liberation that bhakti produces: \"sāyujya-mukti\" — liberation as union. In the classical classification of four types of mukti (sālokya — dwelling in the same world, sārūpya — having the same form, sāmīpya — being near, and sāyujya — being one with), sāyujya is the highest. The bhakta does not want proximity to the divine; they want union. Not to visit, not to resemble, not to dwell nearby — but to merge. And yet this union does not destroy the devotee: Shandilya's framework preserves the distinction of the lover and the beloved even in the highest state, because love requires two. This is the great debate between Advaita (non-dual) and Dvaita (dual) — and Shandilya quietly sides with the bhakti position: the sweetness of union depends on the persistence of the lover.",
+          "wordMeaning": "Shandilya specifies the form of liberation that bhakti produces: \"sāyujya-mukti\" — liberation as union. In the classical classification of four types of mukti (sālokya — dwelling in the same world, sārūpya — having the same form, sāmīpya — being near, and sāyujya — being one with), sāyujya is the highest. The bhakta does not want proximity to the divine; they want union. Not to visit, not to resemble, not to dwell nearby — but to merge. And yet this union does not destroy the devotee: Shandilya's framework preserves the distinction of the lover and the beloved even in the highest state, because love requires two. This is the great debate between Advaita (non-dual) and Dvaita (dual) — and Shandilya quietly sides with the bhakti position: the sweetness of union depends on the persistence of the lover."
+        },
+        {
+          "number": 96,
+          "sanskrit": "भक्तस्य सर्वारम्भः स्वतः सिध्यन्ति ||",
+          "transliteration": "bhaktasya sarvārambhāḥ svataḥ sidhyanti ||",
+          "translation": "For the devotee, all undertakings succeed of themselves.",
+          "hindi": "भक्त के सभी कार्य स्वयमेव सिद्ध होते हैं।",
+          "commentary": "The most practically reassuring sutra of the Shandilya Bhakti Sutras. \"Svataḥ sidhyanti\" — succeed of themselves, spontaneously, without laboured effort. This is not a promise that the bhakta will get whatever they want; it is a description of how the bhakta's actions become effortless and effective when they flow from a centre of genuine devotion. Actions aligned with one's deepest nature and offered to Ishvara do not require the same anxious effort as actions driven by ego and fear. They arise from a different source and produce different quality results — not always what the ego wanted, but always what is genuinely needed.",
+          "wordMeaning": "The most practically reassuring sutra of the Shandilya Bhakti Sutras. \"Svataḥ sidhyanti\" — succeed of themselves, spontaneously, without laboured effort. This is not a promise that the bhakta will get whatever they want; it is a description of how the bhakta's actions become effortless and effective when they flow from a centre of genuine devotion. Actions aligned with one's deepest nature and offered to Ishvara do not require the same anxious effort as actions driven by ego and fear. They arise from a different source and produce different quality results — not always what the ego wanted, but always what is genuinely needed."
         }
       ]
     }

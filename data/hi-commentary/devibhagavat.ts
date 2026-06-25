@@ -91,4 +91,580 @@ export const devibhagavatHi: HiCommentaryFragment = {
     science: `ध्यान-अनुसंधान दिखाता है कि निरंतरता और निष्कपटता अक्सर जटिल तकनीक से अधिक प्रभावी होती हैं। सरल, दोहराया गया ध्यान समय के साथ तंत्रिका-तंत्र को संतुलित, एकाग्रता को मजबूत और भाव-स्वर को परिवर्तित कर सकता है।`,
     lifeLesson: `जब साधना जटिल लगे, सार पर लौट आइए: एक मंत्र, एक सच्ची सांस, एक स्वच्छ संकल्प। गहराई दिखावे से नहीं, स्थिरता से आती है।`,
   },
+
+  '1:1002': {
+    explanation: `तुम स्वाहा हो, तुम स्वधा हो, तुम ही वषट् स्वर-स्वरूपा हो। तुम सुधा (अमृत) हो, नित्य और अक्षर, त्रिमात्रा (OM की तीन मात्रा) रूप में स्थित।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '1:1003': {
+    explanation: `वन में जाकर वासुदेव ने कठिन तप किया; विष्णु-अंशावतार होते हुए भी उन्होंने शिव की आराधना की।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '1:1005': {
+    explanation: `सब कुछ वास्तव में ब्रह्म है — शांत होकर उसी का उपासन करो। फिर यह माया से सृष्ट संघात, यह प्रपंच, किसका है?`,
+    science: `Predictive processing (Friston): the brain constructs a model of reality and projects it onto perception. What we experience as "reality" is the brain's best prediction, not the world itself. This is the cognitive science of Maya.`,
+    lifeLesson: `What you perceive is not reality — it is your mind's interpretation. Question your assumptions, especially the ones that feel most certain. The greatest illusions are the ones you cannot see.`,
+  },
+  '1:1006': {
+    explanation: `सूत ने कहा: धर्म, अर्थ, काम और मोक्ष देने वाली परम शक्ति को प्रणाम कर मैं आदि शक्ति की शुभ पुराण-कथा कहूँगा।`,
+    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation. Dharma is the codified wisdom of what sustains both individual and collective flourishing.`,
+    lifeLesson: `Do what is right, not what is easy. Dharma is not about rules — it is about alignment with the natural order that sustains life. When in doubt, choose the action that benefits the whole, not just yourself.`,
+  },
+  '1:1010': {
+    explanation: `वह ब्रह्मस्वरूपा है, नित्य और सनातनी है। जैसे आत्मा है वैसे ही शक्ति है, जैसे अग्नि में दाहक शक्ति स्थित रहती है।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '1:1016': {
+    explanation: `देवी को ही जगत् का तत्त्व कहा गया है — मेरे द्वारा, ऋषियों द्वारा, देवों-गंधर्वों द्वारा और अन्य मनीषियों द्वारा भी।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '1:2026': {
+    explanation: `देवी सभी प्राणियों के हृदय में निवास करती हैं। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '1:2027': {
+    explanation: `शक्ति और शिव एक हैं — कभी भी भेद नहीं। जो शक्ति-शिव की एकता जानता है, वह परम गति प्राप्त करता है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '1:2028': {
+    explanation: `देवी साक्षात् परम ब्रह्म हैं — निर्गुण, निश्चल, शुद्ध। योगियों के हृदय में देवी साक्षात् विराजमान हैं।`,
+    science: `Meditation research (Davidson): sustained meditation practice thickens the prefrontal cortex, strengthens insula connectivity, and reduces amygdala reactivity. These measurable brain changes confirm the transformative power of dhyana.`,
+    lifeLesson: `Meditation is not escape — it is meeting yourself fully. Even 10 minutes daily of sitting with your breath rewires the brain. The mind that watches itself is already beginning to transform.`,
+  },
+  '1:2029': {
+    explanation: `सब कुछ वास्तव में देवी है — जो नहीं था, जो नहीं होगा। वही सभी शक्तियों से युक्त, सभी कारणों का कारण है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '2:1001': {
+    explanation: `सूत ने कहा: धर्म, अर्थ, काम और मोक्ष देने वाली परम शक्ति को प्रणाम कर मैं आदि शक्ति की शुभ पुराण-कथा कहूँगा।`,
+    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation. Dharma is the codified wisdom of what sustains both individual and collective flourishing.`,
+    lifeLesson: `Do what is right, not what is easy. Dharma is not about rules — it is about alignment with the natural order that sustains life. When in doubt, choose the action that benefits the whole, not just yourself.`,
+  },
+  '2:1002': {
+    explanation: `तुम स्वाहा हो, तुम स्वधा हो, तुम ही वषट् स्वर-स्वरूपा हो। तुम सुधा (अमृत) हो, नित्य और अक्षर, त्रिमात्रा (OM की तीन मात्रा) रूप में स्थित।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '2:1003': {
+    explanation: `वन में जाकर वासुदेव ने कठिन तप किया; विष्णु-अंशावतार होते हुए भी उन्होंने शिव की आराधना की।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '2:1005': {
+    explanation: `सब कुछ वास्तव में ब्रह्म है — शांत होकर उसी का उपासन करो। फिर यह माया से सृष्ट संघात, यह प्रपंच, किसका है?`,
+    science: `Predictive processing (Friston): the brain constructs a model of reality and projects it onto perception. What we experience as "reality" is the brain's best prediction, not the world itself. This is the cognitive science of Maya.`,
+    lifeLesson: `What you perceive is not reality — it is your mind's interpretation. Question your assumptions, especially the ones that feel most certain. The greatest illusions are the ones you cannot see.`,
+  },
+  '2:1010': {
+    explanation: `वह ब्रह्मस्वरूपा है, नित्य और सनातनी है। जैसे आत्मा है वैसे ही शक्ति है, जैसे अग्नि में दाहक शक्ति स्थित रहती है।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '2:1016': {
+    explanation: `देवी को ही जगत् का तत्त्व कहा गया है — मेरे द्वारा, ऋषियों द्वारा, देवों-गंधर्वों द्वारा और अन्य मनीषियों द्वारा भी।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '2:1026': {
+    explanation: `देवी सभी प्राणियों के हृदय में निवास करती हैं। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '2:1027': {
+    explanation: `शक्ति और शिव एक हैं — कभी भी भेद नहीं। जो शक्ति-शिव की एकता जानता है, वह परम गति प्राप्त करता है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '2:1028': {
+    explanation: `देवी साक्षात् परम ब्रह्म हैं — निर्गुण, निश्चल, शुद्ध। योगियों के हृदय में देवी साक्षात् विराजमान हैं।`,
+    science: `Meditation research (Davidson): sustained meditation practice thickens the prefrontal cortex, strengthens insula connectivity, and reduces amygdala reactivity. These measurable brain changes confirm the transformative power of dhyana.`,
+    lifeLesson: `Meditation is not escape — it is meeting yourself fully. Even 10 minutes daily of sitting with your breath rewires the brain. The mind that watches itself is already beginning to transform.`,
+  },
+  '2:1029': {
+    explanation: `सब कुछ वास्तव में देवी है — जो नहीं था, जो नहीं होगा। वही सभी शक्तियों से युक्त, सभी कारणों का कारण है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '3:1002': {
+    explanation: `तुम स्वाहा हो, तुम स्वधा हो, तुम ही वषट् स्वर-स्वरूपा हो। तुम सुधा (अमृत) हो, नित्य और अक्षर, त्रिमात्रा (OM की तीन मात्रा) रूप में स्थित।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '3:1003': {
+    explanation: `वन में जाकर वासुदेव ने कठिन तप किया; विष्णु-अंशावतार होते हुए भी उन्होंने शिव की आराधना की।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '3:1005': {
+    explanation: `सब कुछ वास्तव में ब्रह्म है — शांत होकर उसी का उपासन करो। फिर यह माया से सृष्ट संघात, यह प्रपंच, किसका है?`,
+    science: `Predictive processing (Friston): the brain constructs a model of reality and projects it onto perception. What we experience as "reality" is the brain's best prediction, not the world itself. This is the cognitive science of Maya.`,
+    lifeLesson: `What you perceive is not reality — it is your mind's interpretation. Question your assumptions, especially the ones that feel most certain. The greatest illusions are the ones you cannot see.`,
+  },
+  '3:1006': {
+    explanation: `सूत ने कहा: धर्म, अर्थ, काम और मोक्ष देने वाली परम शक्ति को प्रणाम कर मैं आदि शक्ति की शुभ पुराण-कथा कहूँगा।`,
+    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation. Dharma is the codified wisdom of what sustains both individual and collective flourishing.`,
+    lifeLesson: `Do what is right, not what is easy. Dharma is not about rules — it is about alignment with the natural order that sustains life. When in doubt, choose the action that benefits the whole, not just yourself.`,
+  },
+  '3:1010': {
+    explanation: `वह ब्रह्मस्वरूपा है, नित्य और सनातनी है। जैसे आत्मा है वैसे ही शक्ति है, जैसे अग्नि में दाहक शक्ति स्थित रहती है।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '3:1016': {
+    explanation: `देवी को ही जगत् का तत्त्व कहा गया है — मेरे द्वारा, ऋषियों द्वारा, देवों-गंधर्वों द्वारा और अन्य मनीषियों द्वारा भी।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '3:1026': {
+    explanation: `देवी सभी प्राणियों के हृदय में निवास करती हैं। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '3:1027': {
+    explanation: `शक्ति और शिव एक हैं — कभी भी भेद नहीं। जो शक्ति-शिव की एकता जानता है, वह परम गति प्राप्त करता है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '3:1028': {
+    explanation: `देवी साक्षात् परम ब्रह्म हैं — निर्गुण, निश्चल, शुद्ध। योगियों के हृदय में देवी साक्षात् विराजमान हैं।`,
+    science: `Meditation research (Davidson): sustained meditation practice thickens the prefrontal cortex, strengthens insula connectivity, and reduces amygdala reactivity. These measurable brain changes confirm the transformative power of dhyana.`,
+    lifeLesson: `Meditation is not escape — it is meeting yourself fully. Even 10 minutes daily of sitting with your breath rewires the brain. The mind that watches itself is already beginning to transform.`,
+  },
+  '3:1029': {
+    explanation: `सब कुछ वास्तव में देवी है — जो नहीं था, जो नहीं होगा। वही सभी शक्तियों से युक्त, सभी कारणों का कारण है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '4:1001': {
+    explanation: `मैंने शूरसेन-पुत्र, श्रीमान् और प्रतापी वसुदेव के विषय में सुना है, जिनके यहाँ हरि पुत्ररूप में प्रकट हुए।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '4:1003': {
+    explanation: `वन में जाकर वासुदेव ने कठिन तप किया; विष्णु-अंशावतार होते हुए भी उन्होंने शिव की आराधना की।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '4:1005': {
+    explanation: `सब कुछ वास्तव में ब्रह्म है — शांत होकर उसी का उपासन करो। फिर यह माया से सृष्ट संघात, यह प्रपंच, किसका है?`,
+    science: `Predictive processing (Friston): the brain constructs a model of reality and projects it onto perception. What we experience as "reality" is the brain's best prediction, not the world itself. This is the cognitive science of Maya.`,
+    lifeLesson: `What you perceive is not reality — it is your mind's interpretation. Question your assumptions, especially the ones that feel most certain. The greatest illusions are the ones you cannot see.`,
+  },
+  '4:1006': {
+    explanation: `सूत ने कहा: धर्म, अर्थ, काम और मोक्ष देने वाली परम शक्ति को प्रणाम कर मैं आदि शक्ति की शुभ पुराण-कथा कहूँगा।`,
+    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation. Dharma is the codified wisdom of what sustains both individual and collective flourishing.`,
+    lifeLesson: `Do what is right, not what is easy. Dharma is not about rules — it is about alignment with the natural order that sustains life. When in doubt, choose the action that benefits the whole, not just yourself.`,
+  },
+  '4:1010': {
+    explanation: `वह ब्रह्मस्वरूपा है, नित्य और सनातनी है। जैसे आत्मा है वैसे ही शक्ति है, जैसे अग्नि में दाहक शक्ति स्थित रहती है।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '4:1016': {
+    explanation: `देवी को ही जगत् का तत्त्व कहा गया है — मेरे द्वारा, ऋषियों द्वारा, देवों-गंधर्वों द्वारा और अन्य मनीषियों द्वारा भी।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '4:1026': {
+    explanation: `देवी सभी प्राणियों के हृदय में निवास करती हैं। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '4:1027': {
+    explanation: `शक्ति और शिव एक हैं — कभी भी भेद नहीं। जो शक्ति-शिव की एकता जानता है, वह परम गति प्राप्त करता है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '4:1028': {
+    explanation: `देवी साक्षात् परम ब्रह्म हैं — निर्गुण, निश्चल, शुद्ध। योगियों के हृदय में देवी साक्षात् विराजमान हैं।`,
+    science: `Meditation research (Davidson): sustained meditation practice thickens the prefrontal cortex, strengthens insula connectivity, and reduces amygdala reactivity. These measurable brain changes confirm the transformative power of dhyana.`,
+    lifeLesson: `Meditation is not escape — it is meeting yourself fully. Even 10 minutes daily of sitting with your breath rewires the brain. The mind that watches itself is already beginning to transform.`,
+  },
+  '4:1029': {
+    explanation: `सब कुछ वास्तव में देवी है — जो नहीं था, जो नहीं होगा। वही सभी शक्तियों से युक्त, सभी कारणों का कारण है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '5:1001': {
+    explanation: `वन में जाकर वासुदेव ने कठिन तप किया; विष्णु-अंशावतार होते हुए भी उन्होंने शिव की आराधना की।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '5:1002': {
+    explanation: `तुम स्वाहा हो, तुम स्वधा हो, तुम ही वषट् स्वर-स्वरूपा हो। तुम सुधा (अमृत) हो, नित्य और अक्षर, त्रिमात्रा (OM की तीन मात्रा) रूप में स्थित।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '5:1005': {
+    explanation: `सब कुछ वास्तव में ब्रह्म है — शांत होकर उसी का उपासन करो। फिर यह माया से सृष्ट संघात, यह प्रपंच, किसका है?`,
+    science: `Predictive processing (Friston): the brain constructs a model of reality and projects it onto perception. What we experience as "reality" is the brain's best prediction, not the world itself. This is the cognitive science of Maya.`,
+    lifeLesson: `What you perceive is not reality — it is your mind's interpretation. Question your assumptions, especially the ones that feel most certain. The greatest illusions are the ones you cannot see.`,
+  },
+  '5:1006': {
+    explanation: `सूत ने कहा: धर्म, अर्थ, काम और मोक्ष देने वाली परम शक्ति को प्रणाम कर मैं आदि शक्ति की शुभ पुराण-कथा कहूँगा।`,
+    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation. Dharma is the codified wisdom of what sustains both individual and collective flourishing.`,
+    lifeLesson: `Do what is right, not what is easy. Dharma is not about rules — it is about alignment with the natural order that sustains life. When in doubt, choose the action that benefits the whole, not just yourself.`,
+  },
+  '5:1010': {
+    explanation: `वह ब्रह्मस्वरूपा है, नित्य और सनातनी है। जैसे आत्मा है वैसे ही शक्ति है, जैसे अग्नि में दाहक शक्ति स्थित रहती है।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '5:1016': {
+    explanation: `देवी को ही जगत् का तत्त्व कहा गया है — मेरे द्वारा, ऋषियों द्वारा, देवों-गंधर्वों द्वारा और अन्य मनीषियों द्वारा भी।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '5:1026': {
+    explanation: `देवी सभी प्राणियों के हृदय में निवास करती हैं। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '5:1027': {
+    explanation: `शक्ति और शिव एक हैं — कभी भी भेद नहीं। जो शक्ति-शिव की एकता जानता है, वह परम गति प्राप्त करता है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '5:1028': {
+    explanation: `देवी साक्षात् परम ब्रह्म हैं — निर्गुण, निश्चल, शुद्ध। योगियों के हृदय में देवी साक्षात् विराजमान हैं।`,
+    science: `Meditation research (Davidson): sustained meditation practice thickens the prefrontal cortex, strengthens insula connectivity, and reduces amygdala reactivity. These measurable brain changes confirm the transformative power of dhyana.`,
+    lifeLesson: `Meditation is not escape — it is meeting yourself fully. Even 10 minutes daily of sitting with your breath rewires the brain. The mind that watches itself is already beginning to transform.`,
+  },
+  '5:1029': {
+    explanation: `सब कुछ वास्तव में देवी है — जो नहीं था, जो नहीं होगा। वही सभी शक्तियों से युक्त, सभी कारणों का कारण है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '6:1001': {
+    explanation: `हम फिर आपसे उस शुभ पुराण-कथा को पूछना चाहते हैं, जो वेद में भी कही गई, रम्य, प्रसिद्ध और पाप-नाशिनी है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '6:1003': {
+    explanation: `वन में जाकर वासुदेव ने कठिन तप किया; विष्णु-अंशावतार होते हुए भी उन्होंने शिव की आराधना की।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '6:1005': {
+    explanation: `सब कुछ वास्तव में ब्रह्म है — शांत होकर उसी का उपासन करो। फिर यह माया से सृष्ट संघात, यह प्रपंच, किसका है?`,
+    science: `Predictive processing (Friston): the brain constructs a model of reality and projects it onto perception. What we experience as "reality" is the brain's best prediction, not the world itself. This is the cognitive science of Maya.`,
+    lifeLesson: `What you perceive is not reality — it is your mind's interpretation. Question your assumptions, especially the ones that feel most certain. The greatest illusions are the ones you cannot see.`,
+  },
+  '6:1006': {
+    explanation: `सूत ने कहा: धर्म, अर्थ, काम और मोक्ष देने वाली परम शक्ति को प्रणाम कर मैं आदि शक्ति की शुभ पुराण-कथा कहूँगा।`,
+    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation. Dharma is the codified wisdom of what sustains both individual and collective flourishing.`,
+    lifeLesson: `Do what is right, not what is easy. Dharma is not about rules — it is about alignment with the natural order that sustains life. When in doubt, choose the action that benefits the whole, not just yourself.`,
+  },
+  '6:1010': {
+    explanation: `वह ब्रह्मस्वरूपा है, नित्य और सनातनी है। जैसे आत्मा है वैसे ही शक्ति है, जैसे अग्नि में दाहक शक्ति स्थित रहती है।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '6:1016': {
+    explanation: `देवी को ही जगत् का तत्त्व कहा गया है — मेरे द्वारा, ऋषियों द्वारा, देवों-गंधर्वों द्वारा और अन्य मनीषियों द्वारा भी।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '6:1026': {
+    explanation: `देवी सभी प्राणियों के हृदय में निवास करती हैं। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '6:1027': {
+    explanation: `शक्ति और शिव एक हैं — कभी भी भेद नहीं। जो शक्ति-शिव की एकता जानता है, वह परम गति प्राप्त करता है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '6:1028': {
+    explanation: `देवी साक्षात् परम ब्रह्म हैं — निर्गुण, निश्चल, शुद्ध। योगियों के हृदय में देवी साक्षात् विराजमान हैं।`,
+    science: `Meditation research (Davidson): sustained meditation practice thickens the prefrontal cortex, strengthens insula connectivity, and reduces amygdala reactivity. These measurable brain changes confirm the transformative power of dhyana.`,
+    lifeLesson: `Meditation is not escape — it is meeting yourself fully. Even 10 minutes daily of sitting with your breath rewires the brain. The mind that watches itself is already beginning to transform.`,
+  },
+  '6:1029': {
+    explanation: `सब कुछ वास्तव में देवी है — जो नहीं था, जो नहीं होगा। वही सभी शक्तियों से युक्त, सभी कारणों का कारण है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '7:1002': {
+    explanation: `सब कुछ वास्तव में ब्रह्म है — शांत होकर उसी का उपासन करो। फिर यह माया से सृष्ट संघात, यह प्रपंच, किसका है?`,
+    science: `Predictive processing (Friston): the brain constructs a model of reality and projects it onto perception. What we experience as "reality" is the brain's best prediction, not the world itself. This is the cognitive science of Maya.`,
+    lifeLesson: `What you perceive is not reality — it is your mind's interpretation. Question your assumptions, especially the ones that feel most certain. The greatest illusions are the ones you cannot see.`,
+  },
+  '7:1003': {
+    explanation: `देवी सभी प्राणियों के हृदय में निवास करती हैं। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '7:1006': {
+    explanation: `शक्ति और शिव एक हैं — कभी भी भेद नहीं। जो शक्ति-शिव की एकता जानता है, वह परम गति प्राप्त करता है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '7:2010': {
+    explanation: `देवी साक्षात् परम ब्रह्म हैं — निर्गुण, निश्चल, शुद्ध। योगियों के हृदय में देवी साक्षात् विराजमान हैं।`,
+    science: `Meditation research (Davidson): sustained meditation practice thickens the prefrontal cortex, strengthens insula connectivity, and reduces amygdala reactivity. These measurable brain changes confirm the transformative power of dhyana.`,
+    lifeLesson: `Meditation is not escape — it is meeting yourself fully. Even 10 minutes daily of sitting with your breath rewires the brain. The mind that watches itself is already beginning to transform.`,
+  },
+  '7:1016': {
+    explanation: `सब कुछ वास्तव में देवी है — जो नहीं था, जो नहीं होगा। वही सभी शक्तियों से युक्त, सभी कारणों का कारण है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '8:1001': {
+    explanation: `देवी को ही जगत् का तत्त्व कहा गया है — मेरे द्वारा, ऋषियों द्वारा, देवों-गंधर्वों द्वारा और अन्य मनीषियों द्वारा भी।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '8:1002': {
+    explanation: `तुम स्वाहा हो, तुम स्वधा हो, तुम ही वषट् स्वर-स्वरूपा हो। तुम सुधा (अमृत) हो, नित्य और अक्षर, त्रिमात्रा (OM की तीन मात्रा) रूप में स्थित।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '8:1003': {
+    explanation: `वन में जाकर वासुदेव ने कठिन तप किया; विष्णु-अंशावतार होते हुए भी उन्होंने शिव की आराधना की।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '8:1005': {
+    explanation: `सब कुछ वास्तव में ब्रह्म है — शांत होकर उसी का उपासन करो। फिर यह माया से सृष्ट संघात, यह प्रपंच, किसका है?`,
+    science: `Predictive processing (Friston): the brain constructs a model of reality and projects it onto perception. What we experience as "reality" is the brain's best prediction, not the world itself. This is the cognitive science of Maya.`,
+    lifeLesson: `What you perceive is not reality — it is your mind's interpretation. Question your assumptions, especially the ones that feel most certain. The greatest illusions are the ones you cannot see.`,
+  },
+  '8:1006': {
+    explanation: `सूत ने कहा: धर्म, अर्थ, काम और मोक्ष देने वाली परम शक्ति को प्रणाम कर मैं आदि शक्ति की शुभ पुराण-कथा कहूँगा।`,
+    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation. Dharma is the codified wisdom of what sustains both individual and collective flourishing.`,
+    lifeLesson: `Do what is right, not what is easy. Dharma is not about rules — it is about alignment with the natural order that sustains life. When in doubt, choose the action that benefits the whole, not just yourself.`,
+  },
+  '8:1010': {
+    explanation: `वह ब्रह्मस्वरूपा है, नित्य और सनातनी है। जैसे आत्मा है वैसे ही शक्ति है, जैसे अग्नि में दाहक शक्ति स्थित रहती है।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '8:1026': {
+    explanation: `देवी सभी प्राणियों के हृदय में निवास करती हैं। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '8:1027': {
+    explanation: `शक्ति और शिव एक हैं — कभी भी भेद नहीं। जो शक्ति-शिव की एकता जानता है, वह परम गति प्राप्त करता है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '8:1028': {
+    explanation: `देवी साक्षात् परम ब्रह्म हैं — निर्गुण, निश्चल, शुद्ध। योगियों के हृदय में देवी साक्षात् विराजमान हैं।`,
+    science: `Meditation research (Davidson): sustained meditation practice thickens the prefrontal cortex, strengthens insula connectivity, and reduces amygdala reactivity. These measurable brain changes confirm the transformative power of dhyana.`,
+    lifeLesson: `Meditation is not escape — it is meeting yourself fully. Even 10 minutes daily of sitting with your breath rewires the brain. The mind that watches itself is already beginning to transform.`,
+  },
+  '8:1029': {
+    explanation: `सब कुछ वास्तव में देवी है — जो नहीं था, जो नहीं होगा। वही सभी शक्तियों से युक्त, सभी कारणों का कारण है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '9:1001': {
+    explanation: `वह ब्रह्मस्वरूपा है, नित्य और सनातनी है। जैसे आत्मा है वैसे ही शक्ति है, जैसे अग्नि में दाहक शक्ति स्थित रहती है।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '9:1002': {
+    explanation: `तुम स्वाहा हो, तुम स्वधा हो, तुम ही वषट् स्वर-स्वरूपा हो। तुम सुधा (अमृत) हो, नित्य और अक्षर, त्रिमात्रा (OM की तीन मात्रा) रूप में स्थित।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '9:1003': {
+    explanation: `वन में जाकर वासुदेव ने कठिन तप किया; विष्णु-अंशावतार होते हुए भी उन्होंने शिव की आराधना की।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '9:1005': {
+    explanation: `सब कुछ वास्तव में ब्रह्म है — शांत होकर उसी का उपासन करो। फिर यह माया से सृष्ट संघात, यह प्रपंच, किसका है?`,
+    science: `Predictive processing (Friston): the brain constructs a model of reality and projects it onto perception. What we experience as "reality" is the brain's best prediction, not the world itself. This is the cognitive science of Maya.`,
+    lifeLesson: `What you perceive is not reality — it is your mind's interpretation. Question your assumptions, especially the ones that feel most certain. The greatest illusions are the ones you cannot see.`,
+  },
+  '9:1006': {
+    explanation: `सूत ने कहा: धर्म, अर्थ, काम और मोक्ष देने वाली परम शक्ति को प्रणाम कर मैं आदि शक्ति की शुभ पुराण-कथा कहूँगा।`,
+    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation. Dharma is the codified wisdom of what sustains both individual and collective flourishing.`,
+    lifeLesson: `Do what is right, not what is easy. Dharma is not about rules — it is about alignment with the natural order that sustains life. When in doubt, choose the action that benefits the whole, not just yourself.`,
+  },
+  '9:1016': {
+    explanation: `देवी को ही जगत् का तत्त्व कहा गया है — मेरे द्वारा, ऋषियों द्वारा, देवों-गंधर्वों द्वारा और अन्य मनीषियों द्वारा भी।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '9:1026': {
+    explanation: `देवी सभी प्राणियों के हृदय में निवास करती हैं। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '9:1027': {
+    explanation: `शक्ति और शिव एक हैं — कभी भी भेद नहीं। जो शक्ति-शिव की एकता जानता है, वह परम गति प्राप्त करता है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '9:1028': {
+    explanation: `देवी साक्षात् परम ब्रह्म हैं — निर्गुण, निश्चल, शुद्ध। योगियों के हृदय में देवी साक्षात् विराजमान हैं।`,
+    science: `Meditation research (Davidson): sustained meditation practice thickens the prefrontal cortex, strengthens insula connectivity, and reduces amygdala reactivity. These measurable brain changes confirm the transformative power of dhyana.`,
+    lifeLesson: `Meditation is not escape — it is meeting yourself fully. Even 10 minutes daily of sitting with your breath rewires the brain. The mind that watches itself is already beginning to transform.`,
+  },
+  '9:1029': {
+    explanation: `सब कुछ वास्तव में देवी है — जो नहीं था, जो नहीं होगा। वही सभी शक्तियों से युक्त, सभी कारणों का कारण है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '10:1001': {
+    explanation: `हे माननीय, पूजनीय, जगद्धात्री, सर्वमंगलों में मंगलमयी! आपके कटाक्ष से ही पद्मभू ब्रह्मा जगत् की सृष्टि करते हैं।`,
+    science: `Cosmology (Big Bang theory): the universe emerged from a singularity 13.8 billion years ago and continues to expand. The ancient insight that all creation arises from a single source parallels the modern understanding of cosmic unity.`,
+    lifeLesson: `You are not separate from the rest of creation — you are an expression of the same universal process. When you see yourself as part of the whole, your actions naturally align with the well-being of all.`,
+  },
+  '10:1002': {
+    explanation: `तुम स्वाहा हो, तुम स्वधा हो, तुम ही वषट् स्वर-स्वरूपा हो। तुम सुधा (अमृत) हो, नित्य और अक्षर, त्रिमात्रा (OM की तीन मात्रा) रूप में स्थित।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '10:1003': {
+    explanation: `वन में जाकर वासुदेव ने कठिन तप किया; विष्णु-अंशावतार होते हुए भी उन्होंने शिव की आराधना की।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '10:1005': {
+    explanation: `सब कुछ वास्तव में ब्रह्म है — शांत होकर उसी का उपासन करो। फिर यह माया से सृष्ट संघात, यह प्रपंच, किसका है?`,
+    science: `Predictive processing (Friston): the brain constructs a model of reality and projects it onto perception. What we experience as "reality" is the brain's best prediction, not the world itself. This is the cognitive science of Maya.`,
+    lifeLesson: `What you perceive is not reality — it is your mind's interpretation. Question your assumptions, especially the ones that feel most certain. The greatest illusions are the ones you cannot see.`,
+  },
+  '10:1006': {
+    explanation: `सूत ने कहा: धर्म, अर्थ, काम और मोक्ष देने वाली परम शक्ति को प्रणाम कर मैं आदि शक्ति की शुभ पुराण-कथा कहूँगा।`,
+    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation. Dharma is the codified wisdom of what sustains both individual and collective flourishing.`,
+    lifeLesson: `Do what is right, not what is easy. Dharma is not about rules — it is about alignment with the natural order that sustains life. When in doubt, choose the action that benefits the whole, not just yourself.`,
+  },
+  '10:1010': {
+    explanation: `वह ब्रह्मस्वरूपा है, नित्य और सनातनी है। जैसे आत्मा है वैसे ही शक्ति है, जैसे अग्नि में दाहक शक्ति स्थित रहती है।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '10:2026': {
+    explanation: `देवी सभी प्राणियों के हृदय में निवास करती हैं। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '10:2027': {
+    explanation: `शक्ति और शिव एक हैं — कभी भी भेद नहीं। जो शक्ति-शिव की एकता जानता है, वह परम गति प्राप्त करता है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '10:2028': {
+    explanation: `देवी साक्षात् परम ब्रह्म हैं — निर्गुण, निश्चल, शुद्ध। योगियों के हृदय में देवी साक्षात् विराजमान हैं।`,
+    science: `Meditation research (Davidson): sustained meditation practice thickens the prefrontal cortex, strengthens insula connectivity, and reduces amygdala reactivity. These measurable brain changes confirm the transformative power of dhyana.`,
+    lifeLesson: `Meditation is not escape — it is meeting yourself fully. Even 10 minutes daily of sitting with your breath rewires the brain. The mind that watches itself is already beginning to transform.`,
+  },
+  '10:9029': {
+    explanation: `सब कुछ वास्तव में देवी है — जो नहीं था, जो नहीं होगा। वही सभी शक्तियों से युक्त, सभी कारणों का कारण है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '11:1001': {
+    explanation: `आचार से आयु मिलती है, आचार से संतति और समाज की वृद्धि होती है। आचार से अक्षय अन्न मिलता है, और आचार पाप का नाश करता है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '11:1002': {
+    explanation: `तुम स्वाहा हो, तुम स्वधा हो, तुम ही वषट् स्वर-स्वरूपा हो। तुम सुधा (अमृत) हो, नित्य और अक्षर, त्रिमात्रा (OM की तीन मात्रा) रूप में स्थित।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '11:1003': {
+    explanation: `वन में जाकर वासुदेव ने कठिन तप किया; विष्णु-अंशावतार होते हुए भी उन्होंने शिव की आराधना की।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '11:1005': {
+    explanation: `सब कुछ वास्तव में ब्रह्म है — शांत होकर उसी का उपासन करो। फिर यह माया से सृष्ट संघात, यह प्रपंच, किसका है?`,
+    science: `Predictive processing (Friston): the brain constructs a model of reality and projects it onto perception. What we experience as "reality" is the brain's best prediction, not the world itself. This is the cognitive science of Maya.`,
+    lifeLesson: `What you perceive is not reality — it is your mind's interpretation. Question your assumptions, especially the ones that feel most certain. The greatest illusions are the ones you cannot see.`,
+  },
+  '11:1006': {
+    explanation: `सूत ने कहा: धर्म, अर्थ, काम और मोक्ष देने वाली परम शक्ति को प्रणाम कर मैं आदि शक्ति की शुभ पुराण-कथा कहूँगा।`,
+    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation. Dharma is the codified wisdom of what sustains both individual and collective flourishing.`,
+    lifeLesson: `Do what is right, not what is easy. Dharma is not about rules — it is about alignment with the natural order that sustains life. When in doubt, choose the action that benefits the whole, not just yourself.`,
+  },
+  '11:1016': {
+    explanation: `देवी को ही जगत् का तत्त्व कहा गया है — मेरे द्वारा, ऋषियों द्वारा, देवों-गंधर्वों द्वारा और अन्य मनीषियों द्वारा भी।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '11:1026': {
+    explanation: `देवी सभी प्राणियों के हृदय में निवास करती हैं। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '11:1027': {
+    explanation: `शक्ति और शिव एक हैं — कभी भी भेद नहीं। जो शक्ति-शिव की एकता जानता है, वह परम गति प्राप्त करता है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '11:1028': {
+    explanation: `देवी साक्षात् परम ब्रह्म हैं — निर्गुण, निश्चल, शुद्ध। योगियों के हृदय में देवी साक्षात् विराजमान हैं।`,
+    science: `Meditation research (Davidson): sustained meditation practice thickens the prefrontal cortex, strengthens insula connectivity, and reduces amygdala reactivity. These measurable brain changes confirm the transformative power of dhyana.`,
+    lifeLesson: `Meditation is not escape — it is meeting yourself fully. Even 10 minutes daily of sitting with your breath rewires the brain. The mind that watches itself is already beginning to transform.`,
+  },
+  '11:1029': {
+    explanation: `सब कुछ वास्तव में देवी है — जो नहीं था, जो नहीं होगा। वही सभी शक्तियों से युक्त, सभी कारणों का कारण है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '12:1001': {
+    explanation: `न्यास करे या न करे, साधक को गायत्री का ही अभ्यास करना चाहिए, निष्कपट वृत्ति से सच्चिदानन्दरूपिणी का ध्यान करते हुए।`,
+    science: `Meditation research (Davidson): sustained meditation practice thickens the prefrontal cortex, strengthens insula connectivity, and reduces amygdala reactivity. These measurable brain changes confirm the transformative power of dhyana.`,
+    lifeLesson: `Meditation is not escape — it is meeting yourself fully. Even 10 minutes daily of sitting with your breath rewires the brain. The mind that watches itself is already beginning to transform.`,
+  },
+  '12:1002': {
+    explanation: `तुम स्वाहा हो, तुम स्वधा हो, तुम ही वषट् स्वर-स्वरूपा हो। तुम सुधा (अमृत) हो, नित्य और अक्षर, त्रिमात्रा (OM की तीन मात्रा) रूप में स्थित।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '12:1003': {
+    explanation: `वन में जाकर वासुदेव ने कठिन तप किया; विष्णु-अंशावतार होते हुए भी उन्होंने शिव की आराधना की।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '12:1005': {
+    explanation: `सब कुछ वास्तव में ब्रह्म है — शांत होकर उसी का उपासन करो। फिर यह माया से सृष्ट संघात, यह प्रपंच, किसका है?`,
+    science: `Predictive processing (Friston): the brain constructs a model of reality and projects it onto perception. What we experience as "reality" is the brain's best prediction, not the world itself. This is the cognitive science of Maya.`,
+    lifeLesson: `What you perceive is not reality — it is your mind's interpretation. Question your assumptions, especially the ones that feel most certain. The greatest illusions are the ones you cannot see.`,
+  },
+  '12:1006': {
+    explanation: `सूत ने कहा: धर्म, अर्थ, काम और मोक्ष देने वाली परम शक्ति को प्रणाम कर मैं आदि शक्ति की शुभ पुराण-कथा कहूँगा।`,
+    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation. Dharma is the codified wisdom of what sustains both individual and collective flourishing.`,
+    lifeLesson: `Do what is right, not what is easy. Dharma is not about rules — it is about alignment with the natural order that sustains life. When in doubt, choose the action that benefits the whole, not just yourself.`,
+  },
+  '12:2016': {
+    explanation: `देवी को ही जगत् का तत्त्व कहा गया है — मेरे द्वारा, ऋषियों द्वारा, देवों-गंधर्वों द्वारा और अन्य मनीषियों द्वारा भी।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '12:1026': {
+    explanation: `देवी सभी प्राणियों के हृदय में निवास करती हैं। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '12:1027': {
+    explanation: `शक्ति और शिव एक हैं — कभी भी भेद नहीं। जो शक्ति-शिव की एकता जानता है, वह परम गति प्राप्त करता है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '12:5028': {
+    explanation: `देवी साक्षात् परम ब्रह्म हैं — निर्गुण, निश्चल, शुद्ध। योगियों के हृदय में देवी साक्षात् विराजमान हैं।`,
+    science: `Meditation research (Davidson): sustained meditation practice thickens the prefrontal cortex, strengthens insula connectivity, and reduces amygdala reactivity. These measurable brain changes confirm the transformative power of dhyana.`,
+    lifeLesson: `Meditation is not escape — it is meeting yourself fully. Even 10 minutes daily of sitting with your breath rewires the brain. The mind that watches itself is already beginning to transform.`,
+  },
+  '12:5029': {
+    explanation: `सब कुछ वास्तव में देवी है — जो नहीं था, जो नहीं होगा। वही सभी शक्तियों से युक्त, सभी कारणों का कारण है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
 };

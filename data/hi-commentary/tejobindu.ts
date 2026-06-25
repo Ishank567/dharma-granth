@@ -29,4 +29,35 @@ export const tejobinduHi: HiCommentaryFragment = {
   '2:55': {
     explanation: `अद्वैत की पुष्टि: एक ही सत्ता, दूसरी कोई नहीं। ज्ञाता पहचानता है "मैं वही हूँ" और मृत्यु, शोक एवं समस्त पीड़ा से परे हो जाता है।`,
   },
+
+  '1:8': {
+    explanation: `ब्रह्म ही यह जगत है, ब्रह्म ही परम धन है। चित्त-रूप में ब्रह्म — सम्पूर्ण जगत ब्रह्म है, मेरा।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '1:15': {
+    explanation: `जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '1:22': {
+    explanation: `शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '1:35': {
+    explanation: `मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब ब्रह्म ही है, सब ब्रह्म मेरे में है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '1:42': {
+    explanation: `जब दृश्य को देखने के बाद केवल द्रष्टा को देखा जाता है, तब शांति प्राप्त होती है — वह जो परिवर्तनीय से भिन्न, शाश्वत और अच्युत है।`,
+    science: `Neuroscience of loss aversion (Kahneman): the brain processes loss in the amygdala with twice the intensity of equivalent gains. Accepting impermanence reduces this bias, leading to more balanced decision-making and emotional resilience.`,
+    lifeLesson: `Everything changes — your body, relationships, circumstances, even your mind. Clinging to what is changing causes suffering. Practice letting go gracefully, and you will find peace that does not depend on circumstances.`,
+  },
+  '1:55': {
+    explanation: `एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।`,
+    science: `Neuroscience of loss aversion (Kahneman): the brain processes loss in the amygdala with twice the intensity of equivalent gains. Accepting impermanence reduces this bias, leading to more balanced decision-making and emotional resilience.`,
+    lifeLesson: `Everything changes — your body, relationships, circumstances, even your mind. Clinging to what is changing causes suffering. Practice letting go gracefully, and you will find peace that does not depend on circumstances.`,
+  },
 };

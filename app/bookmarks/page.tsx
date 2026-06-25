@@ -8,6 +8,7 @@ import { motion, AnimatePresence } from "framer-motion";
 interface BookmarkedVerse {
   scriptureId: string;
   scriptureTitle: string;
+  chapterId?: number;
   chapterTitle: string;
   verseId: number | string;
   sanskrit: string;
@@ -91,8 +92,8 @@ export default function BookmarksPage() {
         <div className="grid gap-6 md:grid-cols-2">
           <AnimatePresence>
             {bookmarks.map((bookmark) => {
-              // Convert spaces to dashes for route matching
-              const chapterParam = bookmark.chapterTitle.trim().toLowerCase().replace(/\s+/g, "-");
+              const chapterParam =
+                bookmark.chapterId ?? bookmark.chapterTitle.trim().toLowerCase().replace(/\s+/g, "-");
               const targetUrl = `/scripture/${bookmark.scriptureId}/chapter/${chapterParam}?verse=${bookmark.verseId}`;
               
               return (

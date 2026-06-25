@@ -60,7 +60,7 @@ function MandalaRing({ size, duration, reverse = false, className = '' }: { size
 
 export function HeroSection() {
   return (
-    <section className="relative bg-gradient-to-br from-saffron-900 via-saffron-800 to-amber-900 text-white overflow-hidden min-h-[600px]">
+    <section className="relative bg-gradient-to-br from-saffron-900 via-saffron-800 to-amber-900 text-white overflow-hidden min-h-[700px]">
       {/* Enhanced celestial background */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
         {/* Multiple mandala rings with different speeds and sizes */}
@@ -79,33 +79,33 @@ export function HeroSection() {
         <div className="absolute inset-0 opacity-10 mandala-bg" />
         
         {/* Multiple gradient overlays for realistic depth */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-black/10" />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/20 via-transparent to-black/20" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-black/10" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/25 via-transparent to-black/25" />
         
         {/* Radial gradient for spotlight effect */}
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(251,191,36,0.15),transparent_60%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(251,191,36,0.2),transparent_60%)]" />
         
         {/* Animated particles */}
         <CelestialParticles />
       </div>
 
-      <div className="relative max-w-6xl mx-auto px-6 py-28 md:py-32 text-center">
+      <div className="relative max-w-6xl mx-auto px-6 py-32 md:py-40 text-center">
         {/* OM symbol with enhanced glow and animation */}
         <FadeUp>
           <motion.div
-            className="inline-flex items-center justify-center w-24 h-24 rounded-full bg-white/15 border border-white/30 mb-8 shadow-2xl backdrop-blur-sm"
+            className="inline-flex items-center justify-center w-28 h-28 rounded-full bg-white/10 border-2 border-white/20 mb-10 shadow-2xl backdrop-blur-md"
             animate={{
-              scale: [1, 1.05, 1],
+              scale: [1, 1.08, 1],
               boxShadow: [
-                '0 0 20px rgba(251, 191, 36, 0.3)',
-                '0 0 40px rgba(251, 191, 36, 0.5)',
-                '0 0 20px rgba(251, 191, 36, 0.3)',
+                '0 0 30px rgba(251, 191, 36, 0.4)',
+                '0 0 60px rgba(251, 191, 36, 0.6)',
+                '0 0 30px rgba(251, 191, 36, 0.4)',
               ],
             }}
             transition={{ duration: 3, repeat: Infinity }}
           >
             <motion.span
-              className="font-devanagari text-5xl text-saffron-100 leading-none drop-shadow-lg"
+              className="font-devanagari text-6xl text-saffron-100 leading-none drop-shadow-lg"
               animate={{ rotate: [0, 5, -5, 0] }}
               transition={{ duration: 4, repeat: Infinity }}
             >
@@ -116,7 +116,7 @@ export function HeroSection() {
 
         <FadeUp delay={0.08}>
           <motion.h1
-            className="text-6xl md:text-8xl font-serif font-bold mb-4 tracking-tight drop-shadow-2xl"
+            className="text-7xl md:text-9xl font-serif font-bold mb-6 tracking-tight drop-shadow-2xl bg-gradient-to-r from-white via-saffron-100 to-amber-100 bg-clip-text text-transparent"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1, duration: 0.8 }}
@@ -127,7 +127,7 @@ export function HeroSection() {
         
         <FadeUp delay={0.14}>
           <motion.p
-            className="font-devanagari text-3xl md:text-4xl text-saffron-100 mb-4 drop-shadow-md"
+            className="font-devanagari text-4xl md:text-5xl text-saffron-100 mb-6 drop-shadow-md"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.15, duration: 0.8 }}
@@ -138,7 +138,7 @@ export function HeroSection() {
         
         <FadeUp delay={0.2}>
           <motion.p
-            className="text-2xl md:text-3xl font-light opacity-95 max-w-3xl mx-auto mb-3 drop-shadow-sm"
+            className="text-2xl md:text-4xl font-light opacity-95 max-w-3xl mx-auto mb-4 drop-shadow-sm leading-relaxed"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.8 }}
@@ -146,7 +146,7 @@ export function HeroSection() {
             Famous verses, deeply explained.
           </motion.p>
           <motion.p
-            className="font-devanagari text-xl md:text-2xl opacity-85 max-w-2xl mx-auto mb-4"
+            className="font-devanagari text-xl md:text-3xl opacity-85 max-w-2xl mx-auto mb-5"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.22, duration: 0.8 }}
@@ -154,7 +154,7 @@ export function HeroSection() {
             प्रसिद्ध श्लोक — गहरा हिंदी अर्थ — वैज्ञानिक दृष्टिकोण
           </motion.p>
           <motion.p
-            className="text-base opacity-70 max-w-xl mx-auto mb-12 font-medium"
+            className="text-base md:text-lg opacity-75 max-w-xl mx-auto mb-14 font-medium tracking-wide"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.24, duration: 0.8 }}
@@ -164,15 +164,17 @@ export function HeroSection() {
           </motion.p>
         </FadeUp>
 
-        <FadeUp delay={0.3} className="flex flex-wrap justify-center gap-4">
+        <FadeUp delay={0.3} className="flex flex-wrap justify-center gap-5">
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.3, duration: 0.5 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.98 }}
           >
             <Link
               href="/scripture/bhagavadgita"
-              className="inline-flex items-center gap-2 bg-white text-saffron-800 px-8 py-4 rounded-full font-bold hover:bg-saffron-50 transition-all shadow-xl hover:shadow-2xl hover:scale-105 transform"
+              className="inline-flex items-center gap-2.5 bg-white text-saffron-800 px-10 py-5 rounded-full font-bold hover:bg-saffron-50 transition-all shadow-2xl hover:shadow-3xl transform"
             >
               <Flame className="w-5 h-5" />
               भगवद्गीता पढ़ें
@@ -182,10 +184,12 @@ export function HeroSection() {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.35, duration: 0.5 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.98 }}
           >
             <Link
               href="/scriptures"
-              className="inline-flex items-center gap-2 bg-white/15 backdrop-blur-sm border border-white/40 text-white px-8 py-4 rounded-full font-semibold hover:bg-white/25 transition-all hover:scale-105 transform shadow-lg"
+              className="inline-flex items-center gap-2.5 bg-white/20 backdrop-blur-md border-2 border-white/30 text-white px-10 py-5 rounded-full font-semibold hover:bg-white/30 transition-all shadow-xl hover:shadow-2xl transform"
             >
               <BookOpen className="w-5 h-5" />
               Browse the Library

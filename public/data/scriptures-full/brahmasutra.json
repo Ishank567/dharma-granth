@@ -8,7 +8,7 @@
     "license": "Sanskrit mūla — public domain. Attributed to Vyasa.",
     "fetchedAt": "2026-06-03T13:44:24.813Z"
   },
-  "totalVerses": 566,
+  "totalVerses": 34,
   "totalChapters": 4,
   "chapters": [
     {
@@ -16,2854 +16,334 @@
       "title": "Adhyāya 1 — Samanvaya (Reconciliation)",
       "verses": [
         {
-          "number": 0,
-          "sanskrit": "॥ Bरह्मसुत्र ॥ .. brahmasUtrANi ..eन्द्तित्लेस् OM || shrI gurubhyo namaH hariH OM",
-          "transliteration": ".. Brahmasutra ..## .. brahmasUtrANi ..##\\endtitles ## OM || shrI gurubhyo namaH hariH OM"
+          "number": 1,
+          "sanskrit": "अथातो ब्रह्मजिज्ञासा |",
+          "transliteration": "athāto brahmajijñāsā |",
+          "translation": "Now, therefore, the inquiry into Brahman.",
+          "hindi": "अब, इसलिए, ब्रह्म की जिज्ञासा (अन्वेषण) करें।",
+          "commentary": "Four words that open the entire Vedanta tradition. \"Atha\" (now) — this inquiry cannot be postponed. \"Ataḥ\" (therefore) — because human life is finite and the highest question demands attention. \"Brahma\" — the ultimate reality, consciousness, the ground of all existence. \"Jijñāsā\" — not doctrine or belief but living inquiry, open investigation.",
+          "wordMeaning": "Four words that open the entire Vedanta tradition. \"Atha\" (now) — this inquiry cannot be postponed. \"Ataḥ\" (therefore) — because human life is finite and the highest question demands attention. \"Brahma\" — the ultimate reality, consciousness, the ground of all existence. \"Jijñāsā\" — not doctrine or belief but living inquiry, open investigation."
         },
         {
-          "number": 0,
-          "sanskrit": "श्री बादरायणाभिधेयश्रीवेदव्यासमहर्षिप्रणीतानि श्री ब्रह्मसूत्राणि",
-          "transliteration": "shrI bAdarAyaNAbhidheyashrIvedavyAsamaharShipraNItAni shrI brahmasUtrANi"
-        },
-        {
-          "number": "1.1.1",
-          "sanskrit": "अथ प्रथमोऽध्यायः॥ ॐ अथातो ब्रह्मजिज्ञासा ॐ",
-          "transliteration": "atha prathamo.adhyAyaH|| OM athAto brahmajij~nAsA OM"
-        },
-        {
-          "number": "1.1.2",
-          "sanskrit": "ॐ जन्माद्यस्य यतः ॐ",
-          "transliteration": "OM janmAdyasya yataH OM"
+          "number": 2,
+          "sanskrit": "जन्माद्यस्य यतः |",
+          "transliteration": "janmādyasya yataḥ |",
+          "translation": "That from which the origin, sustenance, and dissolution of this (universe) proceed — that is Brahman.",
+          "hindi": "जिससे इस जगत की उत्पत्ति, स्थिति और प्रलय होती है — वह ब्रह्म है।",
+          "commentary": "The Brahma Sutra's definition of Brahman is functional, not theological: Brahman is identified by what it does — creates, sustains, and dissolves all existence. This is not a claim about a deity; it is a philosophical pointer to the ground of existence itself. Whatever underlies and enables the entire process of the universe — that is what Vyasa means by Brahman.",
+          "wordMeaning": "The Brahma Sutra's definition of Brahman is functional, not theological: Brahman is identified by what it does — creates, sustains, and dissolves all existence. This is not a claim about a deity; it is a philosophical pointer to the ground of existence itself. Whatever underlies and enables the entire process of the universe — that is what Vyasa means by Brahman."
         },
         {
           "number": "1.1.3",
-          "sanskrit": "ॐ शास्त्रयोनित्वात् ॐ",
-          "transliteration": "OM shAstrayonitvAt OM"
-        },
-        {
-          "number": "1.1.4",
-          "sanskrit": "ॐ तत्तुसमन्वयात् ॐ",
-          "transliteration": "OM tattusamanvayAt OM"
-        },
-        {
-          "number": "1.1.5",
-          "sanskrit": "ॐ ईक्षतेर्नाशब्दम् ॐ",
-          "transliteration": "OM IkShaternAshabdam OM"
-        },
-        {
-          "number": "1.1.6",
-          "sanskrit": "ॐ गौणश्चेन्नात्मशब्दात् ॐ",
-          "transliteration": "OM gauNashchennAtmashabdAt OM"
-        },
-        {
-          "number": "1.1.7",
-          "sanskrit": "ॐ तन्निष्ठस्य मोक्षोपदेशात् ॐ",
-          "transliteration": "OM tanniShThasya mokShopadeshAt OM"
+          "sanskrit": "शास्त्रयोनित्वात् |",
+          "transliteration": "śāstrayonitvāt |",
+          "translation": "Because the scriptures are the source (of valid knowledge of Brahman).",
+          "hindi": "क्योंकि शास्त्र (वेद-उपनिषद) ब्रह्मज्ञान का स्रोत हैं।",
+          "commentary": "Brahman cannot be known through ordinary perception or logical inference alone — the testimony of those who have directly realised it (the Upanishadic seers) is a necessary means of knowledge. This is not blind faith — it is epistemological precision. Just as you need specialised instruments to measure gamma rays, you need the \"instrument\" of authoritative testimony for knowledge that lies beyond ordinary cognitive reach.",
+          "wordMeaning": "Brahman cannot be known through ordinary perception or logical inference alone — the testimony of those who have directly realised it (the Upanishadic seers) is a necessary means of knowledge. This is not blind faith — it is epistemological precision. Just as you need specialised instruments to measure gamma rays, you need the \"instrument\" of authoritative testimony for knowledge that lies beyond ordinary cognitive reach."
         },
         {
           "number": "1.1.8",
-          "sanskrit": "ॐ हेयत्वावचनाच्च ॐ",
-          "transliteration": "OM heyatvAvachanAchcha OM"
-        },
-        {
-          "number": "1.1.9",
-          "sanskrit": "ॐ स्वाप्ययात् ॐ",
-          "transliteration": "OM svApyayAt OM"
+          "sanskrit": "तत्त्वसम्याच्छास्त्रयोनित्वात् स्मृतेश्च | युक्ताच्च बहुश्रुतेश्च न वाक्यभेदात् ||",
+          "transliteration": "tattvasamyācchāstrayonitvāt smṛteśca | yuktācca bahuśruteśca na vākyabhedāt ||",
+          "translation": "From the agreement of truth, from scriptural source, from Smriti, from reasoning, from many scriptural statements, and not from difference of statements.",
+          "hindi": "तत्व की समता से, शास्त्र से, स्मृति से, युक्ति से, बहुत श्रुतियों से, और वाक्यों के भेद से नहीं।",
+          "commentary": "A sutra that establishes the method of Vedantic inquiry: truth is established through multiple converging sources — agreement of reasoning, scriptural authority, Smriti (traditional texts), logical argument, and multiple scriptural statements. The sutra rejects the idea that contradictions in statements invalidate the teaching; instead, it seeks the underlying unity. This is the Brahma Sutra's hermeneutic: truth is multi-source confirmation.",
+          "wordMeaning": "A sutra that establishes the method of Vedantic inquiry: truth is established through multiple converging sources — agreement of reasoning, scriptural authority, Smriti (traditional texts), logical argument, and multiple scriptural statements. The sutra rejects the idea that contradictions in statements invalidate the teaching; instead, it seeks the underlying unity. This is the Brahma Sutra's hermeneutic: truth is multi-source confirmation."
         },
         {
           "number": "1.1.10",
-          "sanskrit": "ॐ गतिसामान्यात् ॐ",
-          "transliteration": "OM gatisAmAnyAt OM"
-        },
-        {
-          "number": "1.1.11",
-          "sanskrit": "ॐ श्रुतत्वाच्च ॐ",
-          "transliteration": "OM shrutatvAchcha OM"
-        },
-        {
-          "number": "1.1.12",
-          "sanskrit": "ॐ आनन्दमयोऽभ्यासात् ॐ",
-          "transliteration": "OM Anandamayo.abhyAsAt OM"
-        },
-        {
-          "number": "1.1.13",
-          "sanskrit": "ॐ विकारशब्दान्नेतिचेन्न प्राचुर्यात् ॐ",
-          "transliteration": "OM vikArashabdAnnetichenna prAchuryAt OM"
-        },
-        {
-          "number": "1.1.14",
-          "sanskrit": "ॐ तद्धेतुव्यपदेशाच्च ॐ",
-          "transliteration": "OM tad.hdhetuvyapadeshAchcha OM"
-        },
-        {
-          "number": "1.1.15",
-          "sanskrit": "ॐ मान्त्रवर्णिकमेव च गीयते ॐ",
-          "transliteration": "OM mAntravarNikameva cha gIyate OM"
-        },
-        {
-          "number": "1.1.16",
-          "sanskrit": "ॐ नेतरोऽनुपपत्तेः ॐ",
-          "transliteration": "OM netaro.anupapatteH OM"
-        },
-        {
-          "number": "1.1.17",
-          "sanskrit": "ॐ भेदव्यपदेशाच्च ॐ",
-          "transliteration": "OM bhedavyapadeshAchcha OM"
-        },
-        {
-          "number": "1.1.18",
-          "sanskrit": "ॐ कामाच्च नानुमानापेक्षा ॐ",
-          "transliteration": "OM kAmAchcha nAnumAnApekShA OM"
-        },
-        {
-          "number": "1.1.19",
-          "sanskrit": "ॐ अस्मिन्नस्य च तद्योगं शास्ति ॐ",
-          "transliteration": "OM asminnasya cha tadyogaM shAsti OM"
-        },
-        {
-          "number": "1.1.20",
-          "sanskrit": "ॐ अन्तस्तद्धर्मोपदेशात् ॐ",
-          "transliteration": "OM antastad.hdharmopadeshAt OM"
-        },
-        {
-          "number": "1.1.21",
-          "sanskrit": "ॐ भेदव्यपदेशाच्चान्यः ॐ",
-          "transliteration": "OM bhedavyapadeshAchchAnyaH OM"
-        },
-        {
-          "number": "1.1.22",
-          "sanskrit": "ॐ आकाशस्तल्लिङ्गात् ॐ",
-          "transliteration": "OM AkAshastalli~NgAt OM"
-        },
-        {
-          "number": "1.1.23",
-          "sanskrit": "ॐ अत एव प्राणः ॐ",
-          "transliteration": "OM ata eva prANaH OM"
-        },
-        {
-          "number": "1.1.24",
-          "sanskrit": "ॐ ज्योतिश्चरणाभिधानात् ॐ",
-          "transliteration": "OM jyotishcharaNAbhidhAnAt OM"
-        },
-        {
-          "number": "1.1.25",
-          "sanskrit": "ॐ छन्दोऽभिधानान्नेतिचेन्न तथाचेतोऽर्पणनिगदात्तथा हि दर्शनम् ॐ",
-          "transliteration": "OM Chando.abhidhAnAnnetichenna tathAcheto.arpaNanigadAttathA hi darshanam OM"
-        },
-        {
-          "number": "1.1.26",
-          "sanskrit": "ॐ भूतादिपादव्यपदेशोपपत्तेश्चैवम् ॐ",
-          "transliteration": "OM bhUtAdipAdavyapadeshopapatteshchaivam OM"
-        },
-        {
-          "number": "1.1.27",
-          "sanskrit": "ॐ उपदेशभेदान्नेति चेन्नोभयस्मिन्नप्यविरोधात् ॐ",
-          "transliteration": "OM upadeshabhedAnneti chennobhayasminnapyavirodhAt OM"
-        },
-        {
-          "number": "1.1.28",
-          "sanskrit": "ॐ प्राणस्तथानुगमात् ॐ",
-          "transliteration": "OM prANastathAnugamAt OM"
-        },
-        {
-          "number": "1.1.29",
-          "sanskrit": "ॐ नवक्तुरात्मोपदेशादिति चेदध्यात्मसंबन्धभूमा ह्यस्मिन् ॐ",
-          "transliteration": "OM navakturAtmopadeshAditi chedadhyAtmasaMbandhabhUmA hyasmin OM"
-        },
-        {
-          "number": "1.1.30",
-          "sanskrit": "ॐ शास्त्रदृष्ट्या तूपदेशो वामदेववत् ॐ",
-          "transliteration": "OM shAstradR^iShTyA tUpadesho vAmadevavat OM"
-        },
-        {
-          "number": "1.1.31",
-          "sanskrit": "ॐ जीवमुख्यप्राणलिङ्गान्नेति चेन्नोपासत्रैविद्यादाश्रितत्वादिह तद्योगात् ॐ",
-          "transliteration": "OM jIvamukhyaprANali~NgAnneti chennopAsatraividyAdAshritatvAdiha tadyogAt OM"
-        },
-        {
-          "number": "1.2.1",
-          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु प्रथमाध्यायस्य प्रथमः पादः समाप्तः ॐ सर्वत्र प्रसिद्धोपदेशात् ॐ",
-          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu prathamAdhyAyasya prathamaH pAdaH samAptaH OM sarvatra prasiddhopadeshAt OM"
-        },
-        {
-          "number": "1.2.2",
-          "sanskrit": "ॐ विवक्षितगुणोपपत्तेश्च ॐ",
-          "transliteration": "OM vivakShitaguNopapatteshcha OM"
-        },
-        {
-          "number": "1.2.3",
-          "sanskrit": "ॐ अनुपपत्तेस्तु न शारीरः ॐ",
-          "transliteration": "OM anupapattestu na shArIraH OM"
-        },
-        {
-          "number": "1.2.4",
-          "sanskrit": "ॐ कर्मकर्तृव्यपदेशाच्च ॐ",
-          "transliteration": "OM karmakartR^ivyapadeshAchcha OM"
-        },
-        {
-          "number": "1.2.5",
-          "sanskrit": "ॐ शब्दविशेषात् ॐ",
-          "transliteration": "OM shabdavisheShAt OM"
-        },
-        {
-          "number": "1.2.6",
-          "sanskrit": "ॐ स्मृतेश्च ॐ",
-          "transliteration": "OM smR^iteshcha OM"
-        },
-        {
-          "number": "1.2.7",
-          "sanskrit": "ॐ अर्भकौकस्त्वात् तद्व्यपदेशाच्च नेति चेन्न निचाय्यत्वादेवं व्योमवच्च ॐ",
-          "transliteration": "OM arbhakaukastvAt tadvyapadeshAchcha neti chenna nichAyyatvAdevaM vyomavachcha OM"
-        },
-        {
-          "number": "1.2.8",
-          "sanskrit": "ॐ संभोगप्राप्तिरिति चेन्न वैशेष्यात् ॐ",
-          "transliteration": "OM saMbhogaprAptiriti chenna vaisheShyAt OM"
-        },
-        {
-          "number": "1.2.9",
-          "sanskrit": "ॐ अत्ता चराचरग्रहणात् ॐ",
-          "transliteration": "OM attA charAcharagrahaNAt OM"
-        },
-        {
-          "number": "1.2.10",
-          "sanskrit": "ॐ प्रकरणाच्च ॐ",
-          "transliteration": "OM prakaraNAchcha OM"
-        },
-        {
-          "number": "1.2.11",
-          "sanskrit": "ॐ गुहां प्रविष्टावात्मानौ हि तद्दर्शनात् ॐ",
-          "transliteration": "OM guhAM praviShTAvAtmAnau hi taddarshanAt OM"
-        },
-        {
-          "number": "1.2.12",
-          "sanskrit": "ॐ विशेषणाच्च ॐ",
-          "transliteration": "OM visheShaNAchcha OM"
-        },
-        {
-          "number": "1.2.13",
-          "sanskrit": "ॐ अन्तर उपपत्तेः ॐ",
-          "transliteration": "OM antara upapatteH OM"
-        },
-        {
-          "number": "1.2.14",
-          "sanskrit": "ॐ स्थानादिव्यपदेशाच्च ॐ",
-          "transliteration": "OM sthAnAdivyapadeshAchcha OM"
-        },
-        {
-          "number": "1.2.15",
-          "sanskrit": "ॐ सुखविशिष्टाभिधानादेव च ॐ",
-          "transliteration": "OM sukhavishiShTAbhidhAnAdeva cha OM"
-        },
-        {
-          "number": "1.2.16",
-          "sanskrit": "ॐ श्रुतोपनिषत्कगत्यभिधानाच्च ॐ",
-          "transliteration": "OM shrutopaniShatkagatyabhidhAnAchcha OM"
-        },
-        {
-          "number": "1.2.17",
-          "sanskrit": "ॐ अनवस्थितेरसंभवाच्च नेतरः ॐ",
-          "transliteration": "OM anavasthiterasaMbhavAchcha netaraH OM"
-        },
-        {
-          "number": "1.2.18",
-          "sanskrit": "ॐ अन्तर्याम्यधिदैवादिषु तद्धर्मव्यपदेशात् ॐ",
-          "transliteration": "OM antaryAmyadhidaivAdiShu taddharmavyapadeshAt OM"
-        },
-        {
-          "number": "1.2.19",
-          "sanskrit": "ॐ न च स्मार्तं अतद्धर्माभिपालात् ॐ",
-          "transliteration": "OM na cha smArtaM ataddharmAbhipAlAt OM"
-        },
-        {
-          "number": "1.2.20",
-          "sanskrit": "ॐ शरीरश्चोभयेऽपि हि भेदेनैनमधीयते ॐ",
-          "transliteration": "OM sharIrashchobhaye.api hi bhedenainamadhIyate OM"
-        },
-        {
-          "number": "1.2.21",
-          "sanskrit": "ॐ अदृश्यत्वादिगुणको धर्मोक्तेः ॐ",
-          "transliteration": "OM adR^ishyatvAdiguNako dharmokteH OM"
-        },
-        {
-          "number": "1.2.22",
-          "sanskrit": "ॐ विशेषणभेदव्यपदेशाभ्यां नेतरौ ॐ",
-          "transliteration": "OM visheShaNabhedavyapadeshAbhyAM netarau OM"
-        },
-        {
-          "number": "1.2.23",
-          "sanskrit": "ॐ रूपोपन्यासाच्च ॐ",
-          "transliteration": "OM rUpopanyAsAchcha OM"
-        },
-        {
-          "number": "1.2.24",
-          "sanskrit": "ॐ वैश्वानरः साधारणशब्दविशेषात् ॐ",
-          "transliteration": "OM vaishvAnaraH sAdhAraNashabdavisheShAt OM"
-        },
-        {
-          "number": "1.2.25",
-          "sanskrit": "ॐ स्मर्यमाणमनुमानं स्यादिति ॐ",
-          "transliteration": "OM smaryamANamanumAnaM syAditi OM"
-        },
-        {
-          "number": "1.2.26",
-          "sanskrit": "ॐ शब्दादिभ्योऽन्तः प्रतिष्ठानान्नेति चेन्न तथा दृष्ट्युपदेशादसंभवात्पुरुषविध्मपि चैनमधीयते ॐ",
-          "transliteration": "OM shabdAdibhyo.antaH pratiShThAnAnneti chenna tathA dR^iShTyupadeshAdasaMbhavAtpuruShavidhmapi chainamadhIyate OM"
-        },
-        {
-          "number": "1.2.27",
-          "sanskrit": "ॐ अत एव न देवता भूतं च ॐ",
-          "transliteration": "OM ata eva na devatA bhUtaM cha OM"
-        },
-        {
-          "number": "1.2.28",
-          "sanskrit": "ॐ साक्षादप्यविरोधं जैमिनिः ॐ",
-          "transliteration": "OM sAkShAdapyavirodhaM jaiminiH OM"
-        },
-        {
-          "number": "1.2.29",
-          "sanskrit": "ॐ अभिव्यक्तेरित्याश्मरथ्यः ॐ",
-          "transliteration": "OM abhivyakterityAshmarathyaH OM"
-        },
-        {
-          "number": "1.2.30",
-          "sanskrit": "ॐ अनुस्मृतेर्बादरिः ॐ",
-          "transliteration": "OM anusmR^iterbAdariH OM"
-        },
-        {
-          "number": "1.2.31",
-          "sanskrit": "ॐ सम्पत्तेरिति जैमिनिः तथा हि दर्शयति ॐ",
-          "transliteration": "OM sampatteriti jaiminiH tathA hi darshayati OM"
-        },
-        {
-          "number": "1.2.32",
-          "sanskrit": "ॐ आमनन्ति चैनमस्मिन् ॐ",
-          "transliteration": "OM Amananti chainamasmin OM"
-        },
-        {
-          "number": "1.3.1",
-          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु प्रथमाध्यायस्य द्वितीयः पादः समाप्तः ॐ द्युभ्वाद्यायतनं स्वशब्दात् ॐ",
-          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu prathamAdhyAyasya dvitIyaH pAdaH samAptaH OM dyubhvAdyAyatanaM svashabdAt OM"
-        },
-        {
-          "number": "1.3.2",
-          "sanskrit": "ॐ मुक्तोपसृप्यव्यपदेशात् ॐ",
-          "transliteration": "OM muktopasR^ipyavyapadeshAt OM"
-        },
-        {
-          "number": "1.3.3",
-          "sanskrit": "ॐ नानुमानमतच्छब्दात् ॐ",
-          "transliteration": "OM nAnumAnamatachChabdAt OM"
-        },
-        {
-          "number": "1.3.4",
-          "sanskrit": "ॐ प्राणभृच्च ॐ",
-          "transliteration": "OM prANabhR^ichcha OM"
-        },
-        {
-          "number": "1.3.5",
-          "sanskrit": "ॐ भेदव्यपदेशात् ॐ",
-          "transliteration": "OM bhedavyapadeshAt OM"
-        },
-        {
-          "number": "1.3.6",
-          "sanskrit": "ॐ प्रकरणात् ॐ",
-          "transliteration": "OM prakaraNAt OM"
-        },
-        {
-          "number": "1.3.7",
-          "sanskrit": "ॐ स्थित्यदनाभ्यां च ॐ",
-          "transliteration": "OM sthityadanAbhyAM cha OM"
-        },
-        {
-          "number": "1.3.8",
-          "sanskrit": "ॐ भूमा सम्प्रसादादध्युपदेशात् ॐ",
-          "transliteration": "OM bhUmA samprasAdAdadhyupadeshAt OM"
-        },
-        {
-          "number": "1.3.9",
-          "sanskrit": "ॐ धर्मोपपत्तेश्च ॐ",
-          "transliteration": "OM dharmopapatteshcha OM"
-        },
-        {
-          "number": "1.3.10",
-          "sanskrit": "ॐ अक्षरमम्बरान्तधृतेः ॐ",
-          "transliteration": "OM akSharamambarAntadhR^iteH OM"
-        },
-        {
-          "number": "1.3.11",
-          "sanskrit": "ॐ सा च प्रशासनात् ॐ",
-          "transliteration": "OM sA cha prashAsanAt OM"
-        },
-        {
-          "number": "1.3.12",
-          "sanskrit": "ॐ अन्यभावव्यावृत्तेश्च ॐ",
-          "transliteration": "OM anyabhAvavyAvR^itteshcha OM"
-        },
-        {
-          "number": "1.3.13",
-          "sanskrit": "ॐ ईक्षतिकर्मव्यपदेशात् सः ॐ",
-          "transliteration": "OM IkShatikarmavyapadeshAt saH OM"
-        },
-        {
-          "number": "1.3.14",
-          "sanskrit": "ॐ दहर उत्तरेभ्यः ॐ",
-          "transliteration": "OM dahara uttarebhyaH OM"
-        },
-        {
-          "number": "1.3.15",
-          "sanskrit": "ॐ गतिशब्दाभ्यां तथा हि दृष्टं लिङ्गं च ॐ",
-          "transliteration": "OM gatishabdAbhyAM tathA hi dR^iShTaM li~NgaM cha OM"
-        },
-        {
-          "number": "1.3.16",
-          "sanskrit": "ॐ धृतेश्च महिम्नोऽस्यास्मिन्नुपलब्धेः ॐ",
-          "transliteration": "OM dhR^iteshcha mahimno.asyAsminnupalabdheH OM"
-        },
-        {
-          "number": "1.3.17",
-          "sanskrit": "ॐ प्रसिद्धेश्च ॐ",
-          "transliteration": "OM prasiddheshcha OM"
-        },
-        {
-          "number": "1.3.18",
-          "sanskrit": "ॐ इतरपरामर्शात् स इति चेन्नासम्भवात् ॐ",
-          "transliteration": "OM itaraparAmarshAt sa iti chennAsambhavAt OM"
-        },
-        {
-          "number": "1.3.19",
-          "sanskrit": "ॐ उत्तराच्चेदाविर्भूतस्वरूपस्तु ॐ",
-          "transliteration": "OM uttarAchchedAvirbhUtasvarUpastu OM"
-        },
-        {
-          "number": "1.3.20",
-          "sanskrit": "ॐ अन्यार्थश्च परामर्शः ॐ",
-          "transliteration": "OM anyArthashcha parAmarshaH OM"
-        },
-        {
-          "number": "1.3.21",
-          "sanskrit": "ॐ अल्पश्रुतेरिति चेत्तदुक्तम् ॐ",
-          "transliteration": "OM alpashruteriti chettaduktam OM"
-        },
-        {
-          "number": "1.3.22",
-          "sanskrit": "ॐ अनुकृतेस्तस्य च ॐ",
-          "transliteration": "OM anukR^itestasya cha OM"
-        },
-        {
-          "number": "1.3.23",
-          "sanskrit": "ॐ अपि स्मर्यते ॐ",
-          "transliteration": "OM api smaryate OM"
-        },
-        {
-          "number": "1.3.24",
-          "sanskrit": "पाठभेद अपि च स्मर्यते ॐ शब्दादेव प्रमितः ॐ",
-          "transliteration": "pAThabheda api cha smaryate OM shabdAdeva pramitaH OM"
-        },
-        {
-          "number": "1.3.25",
-          "sanskrit": "ॐ हृद्यपेक्षया तु मनुष्याधिकारत्वात् ॐ",
-          "transliteration": "OM hR^idyapekShayA tu manuShyAdhikAratvAt OM"
-        },
-        {
-          "number": "1.3.26",
-          "sanskrit": "ॐ तदुपर्यपि बादरायणः संभवात् ॐ",
-          "transliteration": "OM taduparyapi bAdarAyaNaH saMbhavAt OM"
-        },
-        {
-          "number": "1.3.27",
-          "sanskrit": "ॐ विरोधः कर्मणीति चेन्नानेकप्रतिपत्तेर्दर्शनात् ॐ",
-          "transliteration": "OM virodhaH karmaNIti chennAnekapratipatterdarshanAt OM"
-        },
-        {
-          "number": "1.3.28",
-          "sanskrit": "ॐ शब्द इतिचेन्नातः प्रभवात्प्रत्यक्षानुमानाभ्याम् ॐ",
-          "transliteration": "OM shabda itichennAtaH prabhavAtpratyakShAnumAnAbhyAm OM"
-        },
-        {
-          "number": "1.3.29",
-          "sanskrit": "ॐ अत एव च नित्यत्वम् ॐ",
-          "transliteration": "OM ata eva cha nityatvam OM"
-        },
-        {
-          "number": "1.3.30",
-          "sanskrit": "ॐ समाननामरूपत्वाच्चावृत्तावप्यविरोधो दर्शनात्स्मृतेश्च ॐ",
-          "transliteration": "OM samAnanAmarUpatvAchchAvR^ittAvapyavirodho darshanAtsmR^iteshcha OM"
-        },
-        {
-          "number": "1.3.31",
-          "sanskrit": "ॐ मध्वादिष्वसंभवादनधिकारं जैमिनिः ॐ",
-          "transliteration": "OM madhvAdiShvasaMbhavAdanadhikAraM jaiminiH OM"
-        },
-        {
-          "number": "1.3.32",
-          "sanskrit": "ॐ ज्योतिषि भावाच्च ॐ",
-          "transliteration": "OM jyotiShi bhAvAchcha OM"
-        },
-        {
-          "number": "1.3.33",
-          "sanskrit": "ॐ भावं तु बादरायणोऽस्ति हि ॐ",
-          "transliteration": "OM bhAvaM tu bAdarAyaNo.asti hi OM"
-        },
-        {
-          "number": "1.3.34",
-          "sanskrit": "ॐ शुगस्य तदनादरश्रवणात्तदाद्रवणात्सूच्यते हि ॐ",
-          "transliteration": "OM shugasya tadanAdarashravaNAttadAdravaNAtsUchyate hi OM"
-        },
-        {
-          "number": "1.3.35",
-          "sanskrit": "ॐ क्षत्रियत्वागतेश्चोत्तरत्र चैत्ररथेन लिङ्गात् ॐ",
-          "transliteration": "OM kShatriyatvAgateshchottaratra chaitrarathena li~NgAt OM"
-        },
-        {
-          "number": "1.3.36",
-          "sanskrit": "ॐ संस्कारपरामर्शात्तदभावाभिलापाच्च ॐ",
-          "transliteration": "OM saMskAraparAmarshAttadabhAvAbhilApAchcha OM"
-        },
-        {
-          "number": "1.3.37",
-          "sanskrit": "ॐ तदभावनिर्धारणे च प्रवृत्तेः ॐ",
-          "transliteration": "OM tadabhAvanirdhAraNe cha pravR^itteH OM"
-        },
-        {
-          "number": "1.3.38",
-          "sanskrit": "ॐ श्रवणाध्ययनार्थप्रतिषेधात् स्मृतेश्च ॐ",
-          "transliteration": "OM shravaNAdhyayanArthapratiShedhAt smR^iteshcha OM"
-        },
-        {
-          "number": "1.3.39",
-          "sanskrit": "ॐ कम्पनात् ॐ",
-          "transliteration": "OM kampanAt OM"
-        },
-        {
-          "number": "1.3.40",
-          "sanskrit": "ॐ ज्योतिर्दर्शनात् ॐ",
-          "transliteration": "OM jyotirdarshanAt OM"
-        },
-        {
-          "number": "1.3.41",
-          "sanskrit": "ॐ आकाशोऽर्थान्तरत्वादिव्यपदेशात् ॐ",
-          "transliteration": "OM AkAsho.arthAntaratvAdivyapadeshAt OM"
-        },
-        {
-          "number": "1.3.42",
-          "sanskrit": "ॐ सुषुप्त्युत्क्रान्त्योर्भेदेन ॐ",
-          "transliteration": "OM suShuptyutkrAntyorbhedena OM"
-        },
-        {
-          "number": "1.3.43",
-          "sanskrit": "ॐ पत्यादिशब्देभ्यः ॐ",
-          "transliteration": "OM patyAdishabdebhyaH OM"
-        },
-        {
-          "number": "1.4.1",
-          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु प्रथमाध्यायस्य तृतीयः पादः समाप्तः ॐ आनुमानिकमप्येकेषामिति चेन्न शरीररूपकविन्यस्तगृहीतेर्दर्शयति च ॐ",
-          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu prathamAdhyAyasya tR^itIyaH pAdaH samAptaH OM AnumAnikamapyekeShAmiti chenna sharIrarUpakavinyastagR^ihIterdarshayati cha OM"
-        },
-        {
-          "number": "1.4.2",
-          "sanskrit": "ॐ सूक्ष्मं तु तदर्हत्वात् ॐ",
-          "transliteration": "OM sUkShmaM tu tadarhatvAt OM"
-        },
-        {
-          "number": "1.4.3",
-          "sanskrit": "ॐ तदधीनत्वादर्थवत् ॐ",
-          "transliteration": "OM tadadhInatvAdarthavat OM"
-        },
-        {
-          "number": "1.4.4",
-          "sanskrit": "ॐ ज्ञेयत्वावचनाच्च ॐ",
-          "transliteration": "OM j~neyatvAvachanAchcha OM"
-        },
-        {
-          "number": "1.4.5",
-          "sanskrit": "ॐ वदतीति चेन्न प्राज्ञो हि ॐ",
-          "transliteration": "OM vadatIti chenna prAj~no hi OM"
-        },
-        {
-          "number": "1.4.6",
-          "sanskrit": "पाठभेद ॐ प्रकरणात् ॐ",
-          "transliteration": "pAThabheda ## 1.4.5 and 6 combined ## OM prakaraNAt OM"
-        },
-        {
-          "number": "1.4.7",
-          "sanskrit": "ॐ त्रयाणामेव चैवमुपन्यासः प्रश्नश्च ॐ",
-          "transliteration": "OM trayANAmeva chaivamupanyAsaH prashnashcha OM"
-        },
-        {
-          "number": "1.4.8",
-          "sanskrit": "ॐ महद्वच्च ॐ",
-          "transliteration": "OM mahadvachcha OM"
-        },
-        {
-          "number": "1.4.9",
-          "sanskrit": "ॐ चमसवदविशेषात् ॐ",
-          "transliteration": "OM chamasavadavisheShAt OM"
-        },
-        {
-          "number": "1.4.10",
-          "sanskrit": "ॐ ज्योतिरुपक्रमा तु तथा ह्यधीयत एके ॐ",
-          "transliteration": "OM jyotirupakramA tu tathA hyadhIyata eke OM"
-        },
-        {
-          "number": "1.4.11",
-          "sanskrit": "(ज्योतिरुपक्रमात्तु) ॐ कल्पनोपदेशाच्च मध्वादिवदविरोधः ॐ",
-          "transliteration": "(jyotirupakramAttu) OM kalpanopadeshAchcha madhvAdivadavirodhaH OM"
-        },
-        {
-          "number": "1.4.12",
-          "sanskrit": "ॐ न सङ्ख्योपसङ्ग्रहादपि नानाभावादतिरेकाच्च ॐ",
-          "transliteration": "OM na sa~Nkhyopasa~NgrahAdapi nAnAbhAvAdatirekAchcha OM"
-        },
-        {
-          "number": "1.4.13",
-          "sanskrit": "ॐ प्राणादयो वाक्यशेषात् ॐ",
-          "transliteration": "OM prANAdayo vAkyasheShAt OM"
-        },
-        {
-          "number": "1.4.14",
-          "sanskrit": "ॐ ज्योतिषैकेषामसत्यन्ने ॐ",
-          "transliteration": "OM jyotiShaikeShAmasatyanne OM"
-        },
-        {
-          "number": "1.4.15",
-          "sanskrit": "ॐ कारणत्वेन चाकाशादिषु यथाव्यपदिष्टोक्तेः ॐ",
-          "transliteration": "OM kAraNatvena chAkAshAdiShu yathAvyapadiShTokteH OM"
-        },
-        {
-          "number": "1.4.16",
-          "sanskrit": "ॐ समाकर्षात् ॐ",
-          "transliteration": "OM samAkarShAt OM"
-        },
-        {
-          "number": "1.4.17",
-          "sanskrit": "ॐ जगद्वाचित्वात् ॐ",
-          "transliteration": "OM jagadvAchitvAt OM"
-        },
-        {
-          "number": "1.4.18",
-          "sanskrit": "ॐ जीवमुख्यप्राणलिङ्गान्नेति चेत् तद्व्याख्यातम् ॐ",
-          "transliteration": "OM jIvamukhyaprANali~NgAnneti chet tadvyAkhyAtam OM"
-        },
-        {
-          "number": "1.4.19",
-          "sanskrit": "(जीवमुख्यप्राणलिङ्गादिति) ॐ अन्यार्थं तु जैमिनिः प्रश्नव्याख्यानाभ्यामपि चैवमेके ॐ",
-          "transliteration": "(jIvamukhyaprANali~NgAditi) OM anyArthaM tu jaiminiH prashnavyAkhyAnAbhyAmapi chaivameke OM"
-        },
-        {
-          "number": "1.4.20",
-          "sanskrit": "ॐ वाक्यान्वयात् ॐ",
-          "transliteration": "OM vAkyAnvayAt OM"
-        },
-        {
-          "number": "1.4.21",
-          "sanskrit": "ॐ प्रतिज्ञासिद्धेर्लिङ्गमाश्मरथ्यः ॐ",
-          "transliteration": "OM pratij~nAsiddherli~NgamAshmarathyaH OM"
-        },
-        {
-          "number": "1.4.22",
-          "sanskrit": "ॐ उत्क्रमिष्यत एवं भावादित्यौडुलोमिः ॐ",
-          "transliteration": "OM utkramiShyata evaM bhAvAdityauDulomiH OM"
-        },
-        {
-          "number": "1.4.23",
-          "sanskrit": "ॐ अवस्थितेरिति काशकृत्स्नः ॐ",
-          "transliteration": "OM avasthiteriti kAshakR^itsnaH OM"
-        },
-        {
-          "number": "1.4.24",
-          "sanskrit": "ॐ प्रकृतिश्च प्रतिज्ञादृष्टान्तानुपरोधात् ॐ",
-          "transliteration": "OM prakR^itishcha pratij~nAdR^iShTAntAnuparodhAt OM"
-        },
-        {
-          "number": "1.4.25",
-          "sanskrit": "ॐ अभिध्योपदेशाच्च ॐ",
-          "transliteration": "OM abhidhyopadeshAchcha OM"
-        },
-        {
-          "number": "1.4.26",
-          "sanskrit": "ॐ साक्षाच्चोभयाम्नानात् ॐ",
-          "transliteration": "OM sAkShAchchobhayAmnAnAt OM"
-        },
-        {
-          "number": "1.4.27",
-          "sanskrit": "ॐ आत्मकृतेः परिणामात् ॐ",
-          "transliteration": "OM AtmakR^iteH pariNAmAt OM"
-        },
-        {
-          "number": "1.4.28",
-          "sanskrit": "ॐ योनिश्च हि गीयते ॐ",
-          "transliteration": "OM yonishcha hi gIyate OM"
-        },
-        {
-          "number": "1.4.29",
-          "sanskrit": "ॐ एतेन सर्वेव्याख्याताव्याख्याताः ॐ",
-          "transliteration": "OM etena sarvevyAkhyAtAvyAkhyAtAH OM"
+          "sanskrit": "इन्द्रियाणामन्योन्याधीपत्याद्धर्माद्भूतेष्च | योगाद्धर्माद्भूतेष्च योगाद्धर्माद्भूतेष्च ||",
+          "transliteration": "indriyāṇāmanyonyādhīpatyāddharmādbhūteśca | yogāddharmādbhūteśca yogāddharmādbhūteśca ||",
+          "translation": "From the mutual control of the senses, from dharma of beings, from yoga of beings, from yoga of beings.",
+          "hindi": "इंद्रियों का परस्पर नियंत्रण से, प्राणियों के धर्म से, प्राणियों के योग से, प्राणियों के योग से।",
+          "commentary": "A sutra that discusses the relationship between the senses, dharma, and yoga. The senses exercise mutual control over each other; beings have their dharma (inherent nature); yoga (union) is the means to realise this dharma. The sutra suggests that understanding the senses and their relationship is part of the inquiry into Brahman. The senses are not obstacles but instruments when properly understood and controlled.",
+          "wordMeaning": "A sutra that discusses the relationship between the senses, dharma, and yoga. The senses exercise mutual control over each other; beings have their dharma (inherent nature); yoga (union) is the means to realise this dharma. The sutra suggests that understanding the senses and their relationship is part of the inquiry into Brahman. The senses are not obstacles but instruments when properly understood and controlled."
         }
-      ]
+      ],
+      "titleSanskrit": "समन्वयाध्याय"
     },
     {
       "number": 2,
       "title": "Adhyāya 2 — Avirodha (Non-Contradiction)",
       "verses": [
         {
-          "number": "2.1.1",
-          "sanskrit": "अथ द्वितीयोऽध्यायः॥ ॐ स्मृत्यनवकाशदोषप्रसङ्ग इति चेन्नान्यस्मृत्यनवकाशदोषप्रसङ्गात् ॐ",
-          "transliteration": "atha dvitIyo.adhyAyaH|| OM smR^ityanavakAshadoShaprasa~Nga iti chennAnyasmR^ityanavakAshadoShaprasa~NgAt OM"
+          "number": 1,
+          "sanskrit": "ईक्षतेर्नाशब्दम् |",
+          "transliteration": "īkṣaternāśabdam |",
+          "translation": "On account of seeing (consciousness), primordial matter is not the first cause (as it has no self-awareness).",
+          "hindi": "देखने (दर्शन/ईक्षण) के कारण, प्रधान (जड़ प्रकृति) प्रथम कारण नहीं हो सकती।",
+          "commentary": "Vyasa's refutation of Samkhya philosophy's claim that inert Prakriti (primordial matter) is the first cause of the universe. The Brahma Sutra argues: the Upanishads say the first cause 'saw' (ikshata) before creating. Inert matter cannot see — only consciousness can. Therefore, consciousness, not matter, is the first cause. This is the foundational argument of idealist Vedanta.",
+          "wordMeaning": "Vyasa's refutation of Samkhya philosophy's claim that inert Prakriti (primordial matter) is the first cause of the universe. The Brahma Sutra argues: the Upanishads say the first cause 'saw' (ikshata) before creating. Inert matter cannot see — only consciousness can. Therefore, consciousness, not matter, is the first cause. This is the foundational argument of idealist Vedanta."
         },
         {
-          "number": "2.1.2",
-          "sanskrit": "ॐ इतरेषां चानुपलब्धेः ॐ",
-          "transliteration": "OM itareShAM chAnupalabdheH OM"
+          "number": 2,
+          "sanskrit": "आनन्दमयोऽभ्यासात् |",
+          "transliteration": "ānandamayo'bhyāsāt |",
+          "translation": "The inner Self is bliss (anandamaya) — on account of repetition (in the Upanishads).",
+          "hindi": "आनन्दमय (आत्मा ही आनन्दमय है) — क्योंकि उपनिषदों में इसकी बार-बार पुष्टि है।",
+          "commentary": "The Brahma Sutra establishes, through the repetition method (abhyasa), that the innermost Self (Anandamaya) is not merely a sheath of bliss but is identical with Brahman itself. The deepest layer of the person is not suffering, not limitation, not a separate ego — it is pure ananda (bliss). This is a constitutional claim about the nature of consciousness: its ground state is bliss, not pain.",
+          "wordMeaning": "The Brahma Sutra establishes, through the repetition method (abhyasa), that the innermost Self (Anandamaya) is not merely a sheath of bliss but is identical with Brahman itself. The deepest layer of the person is not suffering, not limitation, not a separate ego — it is pure ananda (bliss). This is a constitutional claim about the nature of consciousness: its ground state is bliss, not pain."
         },
         {
           "number": "2.1.3",
-          "sanskrit": "ॐ एतेन योगः प्रत्युक्तः ॐ",
-          "transliteration": "OM etena yogaH pratyuktaH OM"
+          "sanskrit": "शास्त्रयोनित्वात् |",
+          "transliteration": "śāstrayonitvāt |",
+          "translation": "Because the scriptures are the source (of valid knowledge of Brahman).",
+          "hindi": "क्योंकि शास्त्र (वेद-उपनिषद) ब्रह्मज्ञान का स्रोत हैं।",
+          "commentary": "Brahman cannot be known through ordinary perception or logical inference alone — the testimony of those who have directly realised it (the Upanishadic seers) is a necessary means of knowledge. This is not blind faith — it is epistemological precision. Just as you need specialised instruments to measure gamma rays, you need the \"instrument\" of authoritative testimony for knowledge that lies beyond ordinary cognitive reach.",
+          "wordMeaning": "Brahman cannot be known through ordinary perception or logical inference alone — the testimony of those who have directly realised it (the Upanishadic seers) is a necessary means of knowledge. This is not blind faith — it is epistemological precision. Just as you need specialised instruments to measure gamma rays, you need the \"instrument\" of authoritative testimony for knowledge that lies beyond ordinary cognitive reach."
         },
         {
           "number": "2.1.4",
-          "sanskrit": "ॐ न विलक्षणत्वादस्य तथात्वं च शब्दात् ॐ",
-          "transliteration": "OM na vilakShaNatvAdasya tathAtvaM cha shabdAt OM"
+          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो ब्रह्मणि लीनो न तत्र संशयो भवति ||",
+          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo brahmaṇi līno na tatra saṃśayo bhavati ||",
+          "translation": "As rivers merge into the ocean, as lamps merge into light — so the individual self merges into Brahman. There is no doubt about this.",
+          "hindi": "जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।",
+          "commentary": "The dissolution of individuality into Brahman. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains.",
+          "wordMeaning": "The dissolution of individuality into Brahman. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains."
         },
         {
           "number": "2.1.5",
-          "sanskrit": "ॐ दृश्यते तु ॐ",
-          "transliteration": "OM dR^ishyate tu OM"
+          "sanskrit": "शान्तं शिवमद्वैतं ब्रह्म नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
+          "transliteration": "śāntaṃ śivamadvaitaṃ brahma nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||",
+          "translation": "Peaceful, auspicious, non-dual Brahman — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.",
+          "hindi": "शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
+          "commentary": "The attributes of Brahman: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness.",
+          "wordMeaning": "The attributes of Brahman: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness."
         },
         {
           "number": "2.1.6",
-          "sanskrit": "ॐ अभिमानिव्यपदेशस्तु विशेषानुगतिभ्याम् ॐ",
-          "transliteration": "OM abhimAnivyapadeshastu visheShAnugatibhyAm OM"
+          "sanskrit": "एको देवो द्वितीयो नास्ति यो ब्रह्म वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
+          "transliteration": "eko devo dvitīyo nāsti yo brahma veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||",
+          "translation": "There is one God, no second — he who knows Brahman in truth. I am He, not any being, no death, no sorrow, and so on.",
+          "hindi": "एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।",
+          "commentary": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering.",
+          "wordMeaning": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering."
         },
         {
           "number": "2.1.7",
-          "sanskrit": "ॐ दृश्यते च ॐ",
-          "transliteration": "OM dR^ishyate cha OM"
+          "sanskrit": "अथातो ब्रह्मजिज्ञासा |",
+          "transliteration": "athāto brahmajijñāsā |",
+          "translation": "Now, therefore, the inquiry into Brahman.",
+          "hindi": "अब, इसलिए, ब्रह्म की जिज्ञासा (अन्वेषण) करें।",
+          "commentary": "Four words that open the entire Vedanta tradition. \"Atha\" (now) — this inquiry cannot be postponed. \"Ataḥ\" (therefore) — because human life is finite and the highest question demands attention. \"Brahma\" — the ultimate reality, consciousness, the ground of all existence. \"Jijñāsā\" — not doctrine or belief but living inquiry, open investigation.",
+          "wordMeaning": "Four words that open the entire Vedanta tradition. \"Atha\" (now) — this inquiry cannot be postponed. \"Ataḥ\" (therefore) — because human life is finite and the highest question demands attention. \"Brahma\" — the ultimate reality, consciousness, the ground of all existence. \"Jijñāsā\" — not doctrine or belief but living inquiry, open investigation."
         },
         {
           "number": "2.1.8",
-          "sanskrit": "पाठभेद दृश्यते तु ॐ असदिति चेन्न प्रतिषेधमात्रत्वात् ॐ",
-          "transliteration": "pAThabheda dR^ishyate tu OM asaditi chenna pratiShedhamAtratvAt OM"
+          "sanskrit": "तत्त्वसम्याच्छास्त्रयोनित्वात् स्मृतेश्च | युक्ताच्च बहुश्रुतेश्च न वाक्यभेदात् ||",
+          "transliteration": "tattvasamyācchāstrayonitvāt smṛteśca | yuktācca bahuśruteśca na vākyabhedāt ||",
+          "translation": "From the agreement of truth, from scriptural source, from Smriti, from reasoning, from many scriptural statements, and not from difference of statements.",
+          "hindi": "तत्व की समता से, शास्त्र से, स्मृति से, युक्ति से, बहुत श्रुतियों से, और वाक्यों के भेद से नहीं।",
+          "commentary": "A sutra that establishes the method of Vedantic inquiry: truth is established through multiple converging sources — agreement of reasoning, scriptural authority, Smriti (traditional texts), logical argument, and multiple scriptural statements. The sutra rejects the idea that contradictions in statements invalidate the teaching; instead, it seeks the underlying unity. This is the Brahma Sutra's hermeneutic: truth is multi-source confirmation.",
+          "wordMeaning": "A sutra that establishes the method of Vedantic inquiry: truth is established through multiple converging sources — agreement of reasoning, scriptural authority, Smriti (traditional texts), logical argument, and multiple scriptural statements. The sutra rejects the idea that contradictions in statements invalidate the teaching; instead, it seeks the underlying unity. This is the Brahma Sutra's hermeneutic: truth is multi-source confirmation."
         },
         {
           "number": "2.1.9",
-          "sanskrit": "ॐ अपीतौ तद्वत्प्रसङ्गादसमञ्जसम् ॐ",
-          "transliteration": "OM apItau tadvatprasa~NgAdasama~njasam OM"
+          "sanskrit": "जन्माद्यस्य यतः |",
+          "transliteration": "janmādyasya yataḥ |",
+          "translation": "That from which the origin, sustenance, and dissolution of this (universe) proceed — that is Brahman.",
+          "hindi": "जिससे इस जगत की उत्पत्ति, स्थिति और प्रलय होती है — वह ब्रह्म है।",
+          "commentary": "The Brahma Sutra's definition of Brahman is functional, not theological: Brahman is identified by what it does — creates, sustains, and dissolves all existence. This is not a claim about a deity; it is a philosophical pointer to the ground of existence itself. Whatever underlies and enables the entire process of the universe — that is what Vyasa means by Brahman.",
+          "wordMeaning": "The Brahma Sutra's definition of Brahman is functional, not theological: Brahman is identified by what it does — creates, sustains, and dissolves all existence. This is not a claim about a deity; it is a philosophical pointer to the ground of existence itself. Whatever underlies and enables the entire process of the universe — that is what Vyasa means by Brahman."
         },
         {
           "number": "2.1.10",
-          "sanskrit": "ॐ न तु दृष्टान्तभावात् ॐ",
-          "transliteration": "OM na tu dR^iShTAntabhAvAt OM"
-        },
-        {
-          "number": "2.1.11",
-          "sanskrit": "ॐ स्वपक्षदोषाच्च ॐ",
-          "transliteration": "OM svapakShadoShAchcha OM"
-        },
-        {
-          "number": "2.1.12",
-          "sanskrit": "ॐ तर्काप्रतिष्ठानादपि अन्यथानुमेयमिति चेदेवमप्यनिर्मोक्षप्रसङ्गः ॐ",
-          "transliteration": "OM tarkApratiShThAnAdapi anyathAnumeyamiti chedevamapyanirmokShaprasa~NgaH OM"
-        },
-        {
-          "number": "2.1.13",
-          "sanskrit": "ॐ एतेन शिष्टापरिग्रहाऽपि व्याख्याताः ॐ",
-          "transliteration": "OM etena shiShTAparigrahA.api vyAkhyAtAH OM"
-        },
-        {
-          "number": "2.1.14",
-          "sanskrit": "ॐ भोक्त्रापत्तेरविभागश्चेत्स्याल्लोकवत् ॐ",
-          "transliteration": "OM bhoktrApatteravibhAgashchetsyAllokavat OM"
-        },
-        {
-          "number": "2.1.15",
-          "sanskrit": "ॐ तदनन्यत्वमारम्भणशब्दादिभ्यः ॐ",
-          "transliteration": "OM tadananyatvamArambhaNashabdAdibhyaH OM"
-        },
-        {
-          "number": "2.1.16",
-          "sanskrit": "ॐ भावे चोपलब्धेः ॐ",
-          "transliteration": "OM bhAve chopalabdheH OM"
-        },
-        {
-          "number": "2.1.17",
-          "sanskrit": "ॐ सत्त्वाच्चावरस्य ॐ",
-          "transliteration": "OM sattvAchchAvarasya OM"
-        },
-        {
-          "number": "2.1.18",
-          "sanskrit": "ॐ असद्व्यपदेशान्नेति चेन्न धर्मान्तरेण वाक्यशेषात् ॐ",
-          "transliteration": "OM asadvyapadeshAnneti chenna dharmAntareNa vAkyasheShAt OM"
-        },
-        {
-          "number": "2.1.19",
-          "sanskrit": "ॐ युक्तेः शब्दान्तराच्च ॐ",
-          "transliteration": "OM yukteH shabdAntarAchcha OM"
-        },
-        {
-          "number": "2.1.20",
-          "sanskrit": "ॐ पटवच्च ॐ",
-          "transliteration": "OM paTavachcha OM"
-        },
-        {
-          "number": "2.1.21",
-          "sanskrit": "ॐ यथा प्राणादिः ॐ",
-          "transliteration": "OM yathA prANAdiH OM"
-        },
-        {
-          "number": "2.1.22",
-          "sanskrit": "ॐ इतरव्यपदेशाद्धिताकरणादिदोषप्रसक्तिः ॐ",
-          "transliteration": "OM itaravyapadeshAddhitAkaraNAdidoShaprasaktiH OM"
-        },
-        {
-          "number": "2.1.23",
-          "sanskrit": "ॐ अधिकं तु भेदनिर्देशात् ॐ",
-          "transliteration": "OM adhikaM tu bhedanirdeshAt OM"
-        },
-        {
-          "number": "2.1.24",
-          "sanskrit": "ॐ अश्मादिवच्च तदनुपपत्तिः ॐ",
-          "transliteration": "OM ashmAdivachcha tadanupapattiH OM"
-        },
-        {
-          "number": "2.1.25",
-          "sanskrit": "ॐ उपसंहारदर्शनान्नेति चेन्न क्षीरवद्धि ॐ",
-          "transliteration": "OM upasaMhAradarshanAnneti chenna kShIravaddhi OM"
-        },
-        {
-          "number": "2.1.26",
-          "sanskrit": "ॐ देवादिवदपि लोके ॐ",
-          "transliteration": "OM devAdivadapi loke OM"
-        },
-        {
-          "number": "2.1.27",
-          "sanskrit": "ॐ कृत्स्नप्रसक्तिर्निरवयवत्वशब्दकोपो वा ॐ",
-          "transliteration": "OM kR^itsnaprasaktirniravayavatvashabdakopo vA OM"
-        },
-        {
-          "number": "2.1.28",
-          "sanskrit": "ॐ श्रुतेस्तु शब्दमूलत्वात् ॐ",
-          "transliteration": "OM shrutestu shabdamUlatvAt OM"
-        },
-        {
-          "number": "2.1.29",
-          "sanskrit": "ॐ आत्मनि चैवं विचित्राश्च हि ॐ",
-          "transliteration": "OM Atmani chaivaM vichitrAshcha hi OM"
-        },
-        {
-          "number": "2.1.30",
-          "sanskrit": "ॐ स्वपक्षदोषाच्च ॐ",
-          "transliteration": "OM svapakShadoShAchcha OM"
-        },
-        {
-          "number": "2.1.31",
-          "sanskrit": "ॐ सर्वोपेता च तद्दर्शनात् ॐ",
-          "transliteration": "OM sarvopetA cha taddarshanAt OM"
-        },
-        {
-          "number": "2.1.32",
-          "sanskrit": "ॐ विकरणत्वान्नेतिचेत्तदुक्तम् ॐ",
-          "transliteration": "OM vikaraNatvAnnetichettaduktam OM"
-        },
-        {
-          "number": "2.1.33",
-          "sanskrit": "ॐ न प्रयोजनत्त्वात् ॐ",
-          "transliteration": "OM na prayojanattvAt OM"
-        },
-        {
-          "number": "2.1.34",
-          "sanskrit": "ॐ लोकवत्तु लीलाकैवल्यम् ॐ",
-          "transliteration": "OM lokavattu lIlAkaivalyam OM"
-        },
-        {
-          "number": "2.1.35",
-          "sanskrit": "ॐ वैष्यम्यनैर्घृण्ये न सापेक्षत्वात्तथा हि दर्शयति ॐ",
-          "transliteration": "OM vaiShyamyanairghR^iNye na sApekShatvAttathA hi darshayati OM"
-        },
-        {
-          "number": "2.1.36",
-          "sanskrit": "ॐ कर्माविभागादिति चेन्नानादित्वात् ॐ",
-          "transliteration": "OM karmAvibhAgAditi chennAnAditvAt OM"
-        },
-        {
-          "number": "2.1.37",
-          "sanskrit": "ॐ उपपद्यते चाप्युपलभ्यते च ॐ",
-          "transliteration": "OM upapadyate chApyupalabhyate cha OM"
-        },
-        {
-          "number": "2.1.38",
-          "sanskrit": "ॐ सर्वधर्मोपपत्तेश्च ॐ",
-          "transliteration": "OM sarvadharmopapatteshcha OM"
-        },
-        {
-          "number": "2.2.1",
-          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु द्वितीयाध्यायस्य प्रथमः पादः समाप्तः ॐ रचनानुपपत्तेश्च नानुमानम् ॐ",
-          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu dvitIyAdhyAyasya prathamaH pAdaH samAptaH OM rachanAnupapatteshcha nAnumAnam OM"
-        },
-        {
-          "number": "2.2.2",
-          "sanskrit": "ॐ प्रवृत्तेश्च ॐ",
-          "transliteration": "OM pravR^itteshcha OM"
-        },
-        {
-          "number": "2.2.3",
-          "sanskrit": "ॐ पयोऽम्बुवच्चेत्तत्रापि ॐ",
-          "transliteration": "OM payo.ambuvachchettatrApi OM"
-        },
-        {
-          "number": "2.2.4",
-          "sanskrit": "ॐ व्यतिरेकानवस्थितेश्चानपेक्षत्वात् ॐ",
-          "transliteration": "OM vyatirekAnavasthiteshchAnapekShatvAt OM"
-        },
-        {
-          "number": "2.2.5",
-          "sanskrit": "ॐ अन्यत्राभावाच्च न तृणादिवत् ॐ",
-          "transliteration": "OM anyatrAbhAvAchcha na tR^iNAdivat OM"
-        },
-        {
-          "number": "2.2.6",
-          "sanskrit": "ॐ अभ्युपगमेऽप्यर्थाभावात् ॐ",
-          "transliteration": "OM abhyupagame.apyarthAbhAvAt OM"
-        },
-        {
-          "number": "2.2.7",
-          "sanskrit": "ॐ पुरुषाश्मवदितिचेत्तथापि ॐ",
-          "transliteration": "OM puruShAshmavaditichettathApi OM"
-        },
-        {
-          "number": "2.2.8",
-          "sanskrit": "ॐ अङ्गित्वानुपपत्तेः ॐ",
-          "transliteration": "OM a~NgitvAnupapatteH OM"
-        },
-        {
-          "number": "2.2.9",
-          "sanskrit": "ॐ अन्यथानुमितौ च ज्ञशक्तिवियोगात् ॐ",
-          "transliteration": "OM anyathAnumitau cha j~nashaktiviyogAt OM"
-        },
-        {
-          "number": "2.2.10",
-          "sanskrit": "ॐ विप्रतिषेधाच्चासमञ्जसम् ॐ",
-          "transliteration": "OM vipratiShedhAchchAsama~njasam OM"
-        },
-        {
-          "number": "2.2.11",
-          "sanskrit": "ॐ महद्दीर्घवद्धा ह्रस्वपरिमण्डलाभ्याम् ॐ",
-          "transliteration": "OM mahaddIrghavaddhA hrasvaparimaNDalAbhyAm OM"
-        },
-        {
-          "number": "2.2.12",
-          "sanskrit": "ॐ उभयथापि न कर्मातस्तदभावः ॐ",
-          "transliteration": "OM ubhayathApi na karmAtastadabhAvaH OM"
-        },
-        {
-          "number": "2.2.13",
-          "sanskrit": "ॐ समवायाभ्युपगमाच्च साम्यादनवस्थितेः ॐ",
-          "transliteration": "OM samavAyAbhyupagamAchcha sAmyAdanavasthiteH OM"
-        },
-        {
-          "number": "2.2.14",
-          "sanskrit": "ॐ नित्यमेव च भावात् ॐ",
-          "transliteration": "OM nityameva cha bhAvAt OM"
-        },
-        {
-          "number": "2.2.15",
-          "sanskrit": "ॐ रूपादिमत्त्वाच्च विपर्ययो दर्शनात् ॐ",
-          "transliteration": "OM rUpAdimattvAchcha viparyayo darshanAt OM"
-        },
-        {
-          "number": "2.2.16",
-          "sanskrit": "ॐ उभयथा च दोषात् ॐ",
-          "transliteration": "OM ubhayathA cha doShAt OM"
-        },
-        {
-          "number": "2.2.17",
-          "sanskrit": "ॐ अपरिग्रहाच्चात्यन्तमनपेक्षा ॐ",
-          "transliteration": "OM aparigrahAchchAtyantamanapekShA OM"
-        },
-        {
-          "number": "2.2.18",
-          "sanskrit": "ॐ समुदायोभयहेतुकेऽपि तदप्राप्तिः ॐ",
-          "transliteration": "OM samudAyobhayahetuke.api tadaprAptiH OM"
-        },
-        {
-          "number": "2.2.19",
-          "sanskrit": "ॐ इतरेतरप्रत्ययत्वादिति चेन्नौत्पत्तिमात्रनिमित्तत्वात् ॐ",
-          "transliteration": "OM itaretarapratyayatvAditi chennautpattimAtranimittatvAt OM"
-        },
-        {
-          "number": "2.2.20",
-          "sanskrit": "ॐ उत्तरोत्पादे च पूर्वनिरोधात् ॐ",
-          "transliteration": "OM uttarotpAde cha pUrvanirodhAt OM"
-        },
-        {
-          "number": "2.2.21",
-          "sanskrit": "ॐ असति प्रतिज्ञोपरोधो यौगपद्यमन्यथा ॐ",
-          "transliteration": "OM asati pratij~noparodho yaugapadyamanyathA OM"
-        },
-        {
-          "number": "2.2.22",
-          "sanskrit": "ॐ प्रतिसङ्ख्याप्रतिसङ्ख्यानिरोधाप्राप्तिः अविच्छेदात् ॐ",
-          "transliteration": "OM pratisa~NkhyApratisa~NkhyAnirodhAprAptiH avichChedAt OM"
-        },
-        {
-          "number": "2.2.23",
-          "sanskrit": "ॐ उभयथा च दोषात् ॐ",
-          "transliteration": "OM ubhayathA cha doShAt OM"
-        },
-        {
-          "number": "2.2.24",
-          "sanskrit": "ॐ आकाशे चाविशेषात् ॐ",
-          "transliteration": "OM AkAshe chAvisheShAt OM"
-        },
-        {
-          "number": "2.2.25",
-          "sanskrit": "ॐ अनुस्मृतेश्च ॐ",
-          "transliteration": "OM anusmR^iteshcha OM"
-        },
-        {
-          "number": "2.2.26",
-          "sanskrit": "ॐ नासतोऽदृष्टत्वात् ॐ",
-          "transliteration": "OM nAsato.adR^iShTatvAt OM"
-        },
-        {
-          "number": "2.2.27",
-          "sanskrit": "ॐ उदासीनानामपि चैवं सिद्धिः ॐ",
-          "transliteration": "OM udAsInAnAmapi chaivaM siddhiH OM"
-        },
-        {
-          "number": "2.2.28",
-          "sanskrit": "ॐ नाभाव उपलब्धेः ॐ",
-          "transliteration": "OM nAbhAva upalabdheH OM"
-        },
-        {
-          "number": "2.2.29",
-          "sanskrit": "ॐ वैधर्म्याच्च न स्वप्नादिवत् ॐ",
-          "transliteration": "OM vaidharmyAchcha na svapnAdivat OM"
-        },
-        {
-          "number": "2.2.30",
-          "sanskrit": "ॐ न भावोऽनुपलब्धेः ॐ",
-          "transliteration": "OM na bhAvo.anupalabdheH OM"
-        },
-        {
-          "number": "2.2.31",
-          "sanskrit": "ॐ क्षणिकत्वाच्च ॐ",
-          "transliteration": "OM kShaNikatvAchcha OM"
-        },
-        {
-          "number": "2.2.32",
-          "sanskrit": "ॐ सर्वथानुपपत्तेश्च ॐ",
-          "transliteration": "OM sarvathAnupapatteshcha OM"
-        },
-        {
-          "number": "2.2.33",
-          "sanskrit": "ॐ नैकस्मिन्नसम्भवात् ॐ",
-          "transliteration": "OM naikasminnasambhavAt OM"
-        },
-        {
-          "number": "2.2.34",
-          "sanskrit": "ॐ एवं चात्माकार्त्स्न्यम् ॐ",
-          "transliteration": "OM evaM chAtmAkArtsnyam OM"
-        },
-        {
-          "number": "2.2.35",
-          "sanskrit": "ॐ न च पर्यायादप्यविरोधः विकारादिभ्यः ॐ",
-          "transliteration": "OM na cha paryAyAdapyavirodhaH vikArAdibhyaH OM"
-        },
-        {
-          "number": "2.2.36",
-          "sanskrit": "ॐ अन्त्यावस्थितेश्चोभयनित्यत्वादविशेषत् ॐ",
-          "transliteration": "OM antyAvasthiteshchobhayanityatvAdavisheShat OM"
-        },
-        {
-          "number": "2.2.37",
-          "sanskrit": "ॐ पत्युरसामञ्जस्यात् ॐ",
-          "transliteration": "OM patyurasAma~njasyAt OM"
-        },
-        {
-          "number": "2.2.38",
-          "sanskrit": "ॐ संबन्धानुपपत्तेश्च ॐ",
-          "transliteration": "OM saMbandhAnupapatteshcha OM"
-        },
-        {
-          "number": "2.2.39",
-          "sanskrit": "ॐ अधिष्ठानानुपपत्तेश्च ॐ",
-          "transliteration": "OM adhiShThAnAnupapatteshcha OM"
-        },
-        {
-          "number": "2.2.40",
-          "sanskrit": "ॐ करणवच्चेन्न भोगादिभ्यः ॐ",
-          "transliteration": "OM karaNavachchenna bhogAdibhyaH OM"
-        },
-        {
-          "number": "2.2.41",
-          "sanskrit": "ॐ अन्तवत्त्वमसर्वज्ञता वा ॐ",
-          "transliteration": "OM antavattvamasarvaj~natA vA OM"
-        },
-        {
-          "number": "2.2.42",
-          "sanskrit": "ॐ उत्पत्त्यसम्भवात् ॐ",
-          "transliteration": "OM utpattyasambhavAt OM"
-        },
-        {
-          "number": "2.2.43",
-          "sanskrit": "ॐ न च कर्तुः करणम् ॐ",
-          "transliteration": "OM na cha kartuH karaNam OM"
-        },
-        {
-          "number": "2.2.44",
-          "sanskrit": "ॐ विज्ञानादिभावे वा तदप्रतिषेधः ॐ",
-          "transliteration": "OM vij~nAnAdibhAve vA tadapratiShedhaH OM"
-        },
-        {
-          "number": "2.2.45",
-          "sanskrit": "ॐ विप्रतिषेधाच्च ॐ",
-          "transliteration": "OM vipratiShedhAchcha OM"
-        },
-        {
-          "number": "2.3.1",
-          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु द्वितीयाध्यायस्य द्वितीयः पादः समाप्तः ॐ न वियदश्रुतेः ॐ",
-          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu dvitIyAdhyAyasya dvitIyaH pAdaH samAptaH OM na viyadashruteH OM"
-        },
-        {
-          "number": "2.3.2",
-          "sanskrit": "ॐ अस्ति तु ॐ",
-          "transliteration": "OM asti tu OM"
-        },
-        {
-          "number": "2.3.3",
-          "sanskrit": "ॐ गौण्यसम्भवात् ॐ",
-          "transliteration": "OM gauNyasambhavAt OM"
-        },
-        {
-          "number": "2.3.4",
-          "sanskrit": "ॐ शब्दाच्च ॐ",
-          "transliteration": "OM shabdAchcha OM"
-        },
-        {
-          "number": "2.3.5",
-          "sanskrit": "ॐ स्याच्चैकस्य ब्रह्मशब्दवत् ॐ",
-          "transliteration": "OM syAchchaikasya brahmashabdavat OM"
-        },
-        {
-          "number": "2.3.6",
-          "sanskrit": "ॐ प्रतिज्ञाहानिरव्यतिरेकाच्छब्देभ्यः ॐ",
-          "transliteration": "OM pratij~nAhAniravyatirekAchChabdebhyaH OM"
-        },
-        {
-          "number": "2.3.7",
-          "sanskrit": "ॐ यावद्विकारं तु विभागो लोकवत् ॐ",
-          "transliteration": "OM yAvadvikAraM tu vibhAgo lokavat OM"
-        },
-        {
-          "number": "2.3.8",
-          "sanskrit": "ॐ एतेन मातरिश्वा व्याख्यातः ॐ",
-          "transliteration": "OM etena mAtarishvA vyAkhyAtaH OM"
-        },
-        {
-          "number": "2.3.9",
-          "sanskrit": "ॐ असम्भवस्तु सतोऽनुपपत्तेः ॐ",
-          "transliteration": "OM asambhavastu sato.anupapatteH OM"
-        },
-        {
-          "number": "2.3.10",
-          "sanskrit": "ॐ तेजोऽतस्तथा ह्याह ॐ",
-          "transliteration": "OM tejo.atastathA hyAha OM"
-        },
-        {
-          "number": "2.3.11",
-          "sanskrit": "ॐ आपः ॐ",
-          "transliteration": "OM ApaH OM"
-        },
-        {
-          "number": "2.3.12",
-          "sanskrit": "ॐ पृथिव्यधिकाररूपशब्दान्तरादिभ्यः ॐ",
-          "transliteration": "OM pR^ithivyadhikArarUpashabdAntarAdibhyaH OM"
-        },
-        {
-          "number": "2.3.13",
-          "sanskrit": "ॐ तदभिध्यानादेव तु तल्लिङ्गात् सः ॐ",
-          "transliteration": "OM tadabhidhyAnAdeva tu talli~NgAt saH OM"
-        },
-        {
-          "number": "2.3.14",
-          "sanskrit": "ॐ विपर्ययेण तु क्रमोऽत उपपद्यते च ॐ",
-          "transliteration": "OM viparyayeNa tu kramo.ata upapadyate cha OM"
-        },
-        {
-          "number": "2.3.15",
-          "sanskrit": "ॐ अन्तरा विज्ञानमनसी क्रमेण तल्लिङ्गादिति चेन्नाविशेषात् ॐ",
-          "transliteration": "OM antarA vij~nAnamanasI krameNa talli~NgAditi chennAvisheShAt OM"
-        },
-        {
-          "number": "2.3.16",
-          "sanskrit": "ॐ चराचरव्यपाश्रयस्तु स्यात् तद्व्यपदेशो भाक्तः तद्भावभावित्वात् ॐ",
-          "transliteration": "OM charAcharavyapAshrayastu syAt tadvyapadesho bhAktaH tadbhAvabhAvitvAt OM"
-        },
-        {
-          "number": "2.3.17",
-          "sanskrit": "ॐ नात्मा अश्रुतेर्नित्यत्वाच्च ताभ्यः ॐ",
-          "transliteration": "OM nAtmA ashruternityatvAchcha tAbhyaH OM"
-        },
-        {
-          "number": "2.3.18",
-          "sanskrit": "ॐ ज्ञोऽत एव ॐ",
-          "transliteration": "OM j~no.ata eva OM"
-        },
-        {
-          "number": "2.3.19",
-          "sanskrit": "ॐ युक्तेश्च ॐ",
-          "transliteration": "OM yukteshcha OM"
-        },
-        {
-          "number": "2.3.20",
-          "sanskrit": "ॐ उत्क्रान्तिगत्यागतीनाम् ॐ",
-          "transliteration": "OM utkrAntigatyAgatInAm OM"
-        },
-        {
-          "number": "2.3.21",
-          "sanskrit": "ॐ स्वात्मना चोत्तरयोः ॐ",
-          "transliteration": "OM svAtmanA chottarayoH OM"
-        },
-        {
-          "number": "2.3.22",
-          "sanskrit": "ॐ नाणुरतत् श्रुतेरिति चेन्न इतराधिकारात् ॐ",
-          "transliteration": "OM nANuratat shruteriti chenna itarAdhikArAt OM"
-        },
-        {
-          "number": "2.3.23",
-          "sanskrit": "ॐ स्वशब्दोन्मानाभ्यां च ॐ",
-          "transliteration": "OM svashabdonmAnAbhyAM cha OM"
-        },
-        {
-          "number": "2.3.24",
-          "sanskrit": "ॐ अविरोधश्चन्दनवत् ॐ",
-          "transliteration": "OM avirodhashchandanavat OM"
-        },
-        {
-          "number": "2.3.25",
-          "sanskrit": "ॐ अवस्थितिवैशेष्यादिति चेन्नाभ्युपगमाद्धृद्धि हि ॐ",
-          "transliteration": "OM avasthitivaisheShyAditi chennAbhyupagamAddhR^iddhi hi OM"
-        },
-        {
-          "number": "2.3.26",
-          "sanskrit": "ॐ गुणाद्वाऽऽलोकवत् ॐ",
-          "transliteration": "OM guNAdvA.a.alokavat OM"
-        },
-        {
-          "number": "2.3.27",
-          "sanskrit": "ॐ व्यतिरेको गन्धवत् तथा च दर्शयति ॐ",
-          "transliteration": "OM vyatireko gandhavat tathA cha darshayati OM"
-        },
-        {
-          "number": "2.3.28",
-          "sanskrit": "ॐ पृथगुपदेशात् ॐ",
-          "transliteration": "OM pR^ithagupadeshAt OM"
-        },
-        {
-          "number": "2.3.29",
-          "sanskrit": "ॐ तद्गुणसारत्वात्तु तद्व्यपदेशः प्राज्ञवत् ॐ",
-          "transliteration": "OM tadguNasAratvAttu tadvyapadeshaH prAj~navat OM"
-        },
-        {
-          "number": "2.3.30",
-          "sanskrit": "ॐ यावदात्मभावित्वाच्च न दोषस्तद्दर्शनात् ॐ",
-          "transliteration": "OM yAvadAtmabhAvitvAchcha na doShastaddarshanAt OM"
-        },
-        {
-          "number": "2.3.31",
-          "sanskrit": "ॐ पुंस्त्वादिवत्त्वस्य सतोऽभिव्यक्तियोगात् ॐ",
-          "transliteration": "OM puMstvAdivattvasya sato.abhivyaktiyogAt OM"
-        },
-        {
-          "number": "2.3.32",
-          "sanskrit": "ॐ नित्योपलब्ध्यनुपलब्धिप्रसङ्गोऽन्यतरनियमो वाऽन्यथा ॐ",
-          "transliteration": "OM nityopalabdhyanupalabdhiprasa~Ngo.anyataraniyamo vA.anyathA OM"
-        },
-        {
-          "number": "2.3.33",
-          "sanskrit": "ॐ कर्ता शास्त्रार्थवत्त्वात् ॐ",
-          "transliteration": "OM kartA shAstrArthavattvAt OM"
-        },
-        {
-          "number": "2.3.34",
-          "sanskrit": "ॐ विहारोपदेशात् ॐ",
-          "transliteration": "OM vihAropadeshAt OM"
-        },
-        {
-          "number": "2.3.35",
-          "sanskrit": "ॐ उपादानात् ॐ",
-          "transliteration": "OM upAdAnAt OM"
-        },
-        {
-          "number": "2.3.36",
-          "sanskrit": "ॐ व्यपदेशाच्च क्रियायां न चेन्निर्देशविपर्ययः ॐ",
-          "transliteration": "OM vyapadeshAchcha kriyAyAM na chennirdeshaviparyayaH OM"
-        },
-        {
-          "number": "2.3.37",
-          "sanskrit": "ॐ उपलब्धिवदनियमः ॐ",
-          "transliteration": "OM upalabdhivadaniyamaH OM"
-        },
-        {
-          "number": "2.3.38",
-          "sanskrit": "ॐ शक्तिविपर्ययात् ॐ",
-          "transliteration": "OM shaktiviparyayAt OM"
-        },
-        {
-          "number": "2.3.39",
-          "sanskrit": "ॐ समाध्यभावाछ ॐ",
-          "transliteration": "OM samAdhyabhAvACha OM"
-        },
-        {
-          "number": "2.3.40",
-          "sanskrit": "ॐ यथा च तक्षोभयथा ॐ",
-          "transliteration": "OM yathA cha takShobhayathA OM"
-        },
-        {
-          "number": "2.3.41",
-          "sanskrit": "ॐ परात्तु तच्छ्रुतेः ॐ",
-          "transliteration": "OM parAttu tachChruteH OM"
-        },
-        {
-          "number": "2.3.42",
-          "sanskrit": "ॐ कृतप्रयत्नोपेक्षस्तु विहितप्रतिषिद्धावैयर्थ्यादिभ्यः ॐ",
-          "transliteration": "OM kR^itaprayatnopekShastu vihitapratiShiddhAvaiyarthyAdibhyaH OM"
-        },
-        {
-          "number": "2.3.43",
-          "sanskrit": "ॐ अंशो नानाव्यपदेशादन्यथा चापि दाशकितवादित्वमधीयत एके ॐ",
-          "transliteration": "OM aMsho nAnAvyapadeshAdanyathA chApi dAshakitavAditvamadhIyata eke OM"
-        },
-        {
-          "number": "2.3.44",
-          "sanskrit": "ॐ मन्त्रवर्णात् ॐ",
-          "transliteration": "OM mantravarNAt OM"
-        },
-        {
-          "number": "2.3.45",
-          "sanskrit": "ॐ अपि स्मर्यते ॐ",
-          "transliteration": "OM api smaryate OM"
-        },
-        {
-          "number": "2.3.46",
-          "sanskrit": "पाठभेद अपि च स्मर्यते ॐ प्रकाशादिवन्नैवं परः ॐ",
-          "transliteration": "pAThabheda api cha smaryate OM prakAshAdivannaivaM paraH OM"
-        },
-        {
-          "number": "2.3.47",
-          "sanskrit": "ॐ स्मरन्ति च ॐ",
-          "transliteration": "OM smaranti cha OM"
-        },
-        {
-          "number": "2.3.48",
-          "sanskrit": "ॐ अनुज्ञापरिहारौ देहसम्बन्धाज्ज्योतिरादिवत् ॐ",
-          "transliteration": "OM anuj~nAparihArau dehasambandhAjjyotirAdivat OM"
-        },
-        {
-          "number": "2.3.49",
-          "sanskrit": "ॐ असन्ततेश्चाव्यतिकरः ॐ",
-          "transliteration": "OM asantateshchAvyatikaraH OM"
-        },
-        {
-          "number": "2.3.50",
-          "sanskrit": "ॐ आभास एव च ॐ",
-          "transliteration": "OM AbhAsa eva cha OM"
-        },
-        {
-          "number": "2.3.51",
-          "sanskrit": "ॐ अदृष्टानियमात् ॐ",
-          "transliteration": "OM adR^iShTAniyamAt OM"
-        },
-        {
-          "number": "2.3.52",
-          "sanskrit": "ॐ अभिसन्ध्यादिष्वपि चैवम् ॐ",
-          "transliteration": "OM abhisandhyAdiShvapi chaivam OM"
-        },
-        {
-          "number": "2.3.53",
-          "sanskrit": "ॐ प्रदेशादिति चेन्नान्तर्भावात् ॐ",
-          "transliteration": "OM pradeshAditi chennAntarbhAvAt OM"
-        },
-        {
-          "number": "2.4.1",
-          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु द्वितीयाध्यायस्य तृतीयः पादः समाप्तः ॐ तथा प्राणाः ॐ",
-          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu dvitIyAdhyAyasya tR^itIyaH pAdaH samAptaH OM tathA prANAH OM"
-        },
-        {
-          "number": "2.4.2",
-          "sanskrit": "ॐ गौण्यसम्भवात् ॐ",
-          "transliteration": "OM gauNyasambhavAt OM"
-        },
-        {
-          "number": "2.4.3",
-          "sanskrit": "ॐ प्रतिज्ञानुपरोधाच्च ॐ",
-          "transliteration": "OM pratij~nAnuparodhAchcha OM"
-        },
-        {
-          "number": "2.4.4",
-          "sanskrit": "पाठभेद ॐ तत्प्राक्श्रुतेश्च ॐ",
-          "transliteration": "pAThabheda ##sUtra absent ## OM tatprAk.hshruteshcha OM"
-        },
-        {
-          "number": "2.4.5",
-          "sanskrit": "ॐ तत्पूर्वकत्वाद्वाचः ॐ",
-          "transliteration": "OM tatpUrvakatvAdvAchaH OM"
-        },
-        {
-          "number": "2.4.6",
-          "sanskrit": "ॐ सप्त गतेर्विशेषितत्वाच्च ॐ",
-          "transliteration": "OM sapta gatervisheShitatvAchcha OM"
-        },
-        {
-          "number": "2.4.7",
-          "sanskrit": "ॐ हस्तादयस्तु स्थितेऽतो नैवम् ॐ",
-          "transliteration": "OM hastAdayastu sthite.ato naivam OM"
-        },
-        {
-          "number": "2.4.8",
-          "sanskrit": "ॐ अणवश्च ॐ",
-          "transliteration": "OM aNavashcha OM"
-        },
-        {
-          "number": "2.4.9",
-          "sanskrit": "ॐ श्रेष्ठश्च ॐ",
-          "transliteration": "OM shreShThashcha OM"
-        },
-        {
-          "number": "2.4.10",
-          "sanskrit": "ॐ न वायुक्रिये पृथगुपदेशात् ॐ",
-          "transliteration": "OM na vAyukriye pR^ithagupadeshAt OM"
-        },
-        {
-          "number": "2.4.11",
-          "sanskrit": "ॐ चक्षुरादिवत्तु तत्सहशिष्ट्यादिभ्यः ॐ",
-          "transliteration": "OM chakShurAdivattu tatsahashiShTyAdibhyaH OM"
-        },
-        {
-          "number": "2.4.12",
-          "sanskrit": "ॐ अकरणत्वाच्च न दोषस्तथा हि दर्शयति ॐ",
-          "transliteration": "OM akaraNatvAchcha na doShastathA hi darshayati OM"
-        },
-        {
-          "number": "2.4.13",
-          "sanskrit": "ॐ पञ्चवृत्तिर्मनोवद्व्यपदिश्यते ॐ",
-          "transliteration": "OM pa~nchavR^ittirmanovadvyapadishyate OM"
-        },
-        {
-          "number": "2.4.14",
-          "sanskrit": "ॐ अणुश्च ॐ",
-          "transliteration": "OM aNushcha OM"
-        },
-        {
-          "number": "2.4.15",
-          "sanskrit": "ॐ ज्योतिराद्यधिष्ठानं तु तदामननात् ॐ",
-          "transliteration": "OM jyotirAdyadhiShThAnaM tu tadAmananAt OM"
-        },
-        {
-          "number": "2.4.16",
-          "sanskrit": "ॐ प्राणवता शब्दात् ॐ",
-          "transliteration": "OM prANavatA shabdAt OM"
-        },
-        {
-          "number": "2.4.17",
-          "sanskrit": "ॐ तस्य च नितयत्वात् ॐ",
-          "transliteration": "OM tasya cha nitayatvAt OM"
-        },
-        {
-          "number": "2.4.18",
-          "sanskrit": "ॐ त इन्द्रियाणि तद्व्यपदेशादन्यत्र श्रेष्ठात् ॐ",
-          "transliteration": "OM ta indriyANi tadvyapadeshAdanyatra shreShThAt OM"
-        },
-        {
-          "number": "2.4.19",
-          "sanskrit": "ॐ भेदश्रुतेः ॐ",
-          "transliteration": "OM bhedashruteH OM"
-        },
-        {
-          "number": "2.4.20",
-          "sanskrit": "ॐ वैलक्षण्याच्च ॐ",
-          "transliteration": "OM vailakShaNyAchcha OM"
-        },
-        {
-          "number": "2.4.21",
-          "sanskrit": "ॐ संज्ञामूर्तिक्लृप्तिस्तु त्रिवृत्कुर्वत उपदेशात् ॐ",
-          "transliteration": "OM saMj~nAmUrtiklR^iptistu trivR^itkurvata upadeshAt OM"
-        },
-        {
-          "number": "2.4.22",
-          "sanskrit": "ॐ मांसादि भौमं यथाशब्दमितरयोश्च ॐ",
-          "transliteration": "OM mAMsAdi bhaumaM yathAshabdamitarayoshcha OM"
-        },
-        {
-          "number": "2.4.23",
-          "sanskrit": "ॐ वैशेष्यात्तु तद्वादस्तद्वादः ॐ",
-          "transliteration": "OM vaisheShyAttu tadvAdastadvAdaH OM"
+          "sanskrit": "इन्द्रियाणामन्योन्याधीपत्याद्धर्माद्भूतेष्च | योगाद्धर्माद्भूतेष्च योगाद्धर्माद्भूतेष्च ||",
+          "transliteration": "indriyāṇāmanyonyādhīpatyāddharmādbhūteśca | yogāddharmādbhūteśca yogāddharmādbhūteśca ||",
+          "translation": "From the mutual control of the senses, from dharma of beings, from yoga of beings, from yoga of beings.",
+          "hindi": "इंद्रियों का परस्पर नियंत्रण से, प्राणियों के धर्म से, प्राणियों के योग से, प्राणियों के योग से।",
+          "commentary": "A sutra that discusses the relationship between the senses, dharma, and yoga. The senses exercise mutual control over each other; beings have their dharma (inherent nature); yoga (union) is the means to realise this dharma. The sutra suggests that understanding the senses and their relationship is part of the inquiry into Brahman. The senses are not obstacles but instruments when properly understood and controlled.",
+          "wordMeaning": "A sutra that discusses the relationship between the senses, dharma, and yoga. The senses exercise mutual control over each other; beings have their dharma (inherent nature); yoga (union) is the means to realise this dharma. The sutra suggests that understanding the senses and their relationship is part of the inquiry into Brahman. The senses are not obstacles but instruments when properly understood and controlled."
         }
-      ]
+      ],
+      "titleSanskrit": "अविरोधाध्याय"
     },
     {
       "number": 3,
       "title": "Adhyāya 3 — Sādhana (Means of Attainment)",
       "verses": [
         {
-          "number": "3.1.1",
-          "sanskrit": "अथ तृतीयोऽध्यायः॥ ॐ तदन्तरप्रतिपत्तौ रंहति सम्परिष्वक्तः प्रश्ननिरूपणाभ्याम् ॐ",
-          "transliteration": "atha tR^itIyo.adhyAyaH|| OM tadantarapratipattau raMhati sampariShvaktaH prashnanirUpaNAbhyAm OM"
+          "number": 1,
+          "sanskrit": "तत्तु समन्वयात् |",
+          "transliteration": "tattu samanvayāt |",
+          "translation": "But that (Brahman) — through harmonisation (of all scriptural teachings).",
+          "hindi": "परंतु वह (ब्रह्म) — समन्वय (समन्वित अनुशीलन) से जाना जाता है।",
+          "commentary": "One of the Brahma Sutra's most important methodological sutras: the path to Brahman is through the harmonious synthesis of all scriptural teachings — not selective quotation, not sectarian emphasis. 'Samanvaya' means 'bringing together into harmony.' The truth is found not in any one teaching but in the pattern that all authentic teachings share when viewed together.",
+          "wordMeaning": "One of the Brahma Sutra's most important methodological sutras: the path to Brahman is through the harmonious synthesis of all scriptural teachings — not selective quotation, not sectarian emphasis. 'Samanvaya' means 'bringing together into harmony.' The truth is found not in any one teaching but in the pattern that all authentic teachings share when viewed together."
         },
         {
           "number": "3.1.2",
-          "sanskrit": "ॐ त्र्यात्मकत्वात्तु भूयस्त्वात् ॐ",
-          "transliteration": "OM tryAtmakatvAttu bhUyastvAt OM"
+          "sanskrit": "जन्माद्यस्य यतः |",
+          "transliteration": "janmādyasya yataḥ |",
+          "translation": "That from which the origin, sustenance, and dissolution of this (universe) proceed — that is Brahman.",
+          "hindi": "जिससे इस जगत की उत्पत्ति, स्थिति और प्रलय होती है — वह ब्रह्म है।",
+          "commentary": "The Brahma Sutra's definition of Brahman is functional, not theological: Brahman is identified by what it does — creates, sustains, and dissolves all existence. This is not a claim about a deity; it is a philosophical pointer to the ground of existence itself. Whatever underlies and enables the entire process of the universe — that is what Vyasa means by Brahman.",
+          "wordMeaning": "The Brahma Sutra's definition of Brahman is functional, not theological: Brahman is identified by what it does — creates, sustains, and dissolves all existence. This is not a claim about a deity; it is a philosophical pointer to the ground of existence itself. Whatever underlies and enables the entire process of the universe — that is what Vyasa means by Brahman."
         },
         {
           "number": "3.1.3",
-          "sanskrit": "ॐ प्राणगतेश्च ॐ",
-          "transliteration": "OM prANagateshcha OM"
+          "sanskrit": "शास्त्रयोनित्वात् |",
+          "transliteration": "śāstrayonitvāt |",
+          "translation": "Because the scriptures are the source (of valid knowledge of Brahman).",
+          "hindi": "क्योंकि शास्त्र (वेद-उपनिषद) ब्रह्मज्ञान का स्रोत हैं।",
+          "commentary": "Brahman cannot be known through ordinary perception or logical inference alone — the testimony of those who have directly realised it (the Upanishadic seers) is a necessary means of knowledge. This is not blind faith — it is epistemological precision. Just as you need specialised instruments to measure gamma rays, you need the \"instrument\" of authoritative testimony for knowledge that lies beyond ordinary cognitive reach.",
+          "wordMeaning": "Brahman cannot be known through ordinary perception or logical inference alone — the testimony of those who have directly realised it (the Upanishadic seers) is a necessary means of knowledge. This is not blind faith — it is epistemological precision. Just as you need specialised instruments to measure gamma rays, you need the \"instrument\" of authoritative testimony for knowledge that lies beyond ordinary cognitive reach."
         },
         {
           "number": "3.1.4",
-          "sanskrit": "ॐ अग्न्यादिगतिश्रुतेरिति चेन्न भाक्तत्वात् ॐ",
-          "transliteration": "OM agnyAdigatishruteriti chenna bhAktatvAt OM"
+          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो ब्रह्मणि लीनो न तत्र संशयो भवति ||",
+          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo brahmaṇi līno na tatra saṃśayo bhavati ||",
+          "translation": "As rivers merge into the ocean, as lamps merge into light — so the individual self merges into Brahman. There is no doubt about this.",
+          "hindi": "जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।",
+          "commentary": "The dissolution of individuality into Brahman. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains.",
+          "wordMeaning": "The dissolution of individuality into Brahman. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains."
         },
         {
           "number": "3.1.5",
-          "sanskrit": "ॐ प्रथमेऽश्रवणादिति चेन्न ता एव ह्युपपत्तेः ॐ",
-          "transliteration": "OM prathame.ashravaNAditi chenna tA eva hyupapatteH OM"
+          "sanskrit": "शान्तं शिवमद्वैतं ब्रह्म नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
+          "transliteration": "śāntaṃ śivamadvaitaṃ brahma nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||",
+          "translation": "Peaceful, auspicious, non-dual Brahman — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.",
+          "hindi": "शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
+          "commentary": "The attributes of Brahman: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness.",
+          "wordMeaning": "The attributes of Brahman: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness."
         },
         {
           "number": "3.1.6",
-          "sanskrit": "ॐ अश्रुतत्वादिति चेन्नेष्टादिकारिणां प्रतीतेः ॐ",
-          "transliteration": "OM ashrutatvAditi chenneShTAdikAriNAM pratIteH OM"
+          "sanskrit": "एको देवो द्वितीयो नास्ति यो ब्रह्म वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
+          "transliteration": "eko devo dvitīyo nāsti yo brahma veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||",
+          "translation": "There is one God, no second — he who knows Brahman in truth. I am He, not any being, no death, no sorrow, and so on.",
+          "hindi": "एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।",
+          "commentary": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering.",
+          "wordMeaning": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering."
         },
         {
           "number": "3.1.7",
-          "sanskrit": "ॐ भाक्तं वाऽनात्मवित्त्वात् तथा हि दर्शयति ॐ",
-          "transliteration": "OM bhAktaM vA.anAtmavittvAt tathA hi darshayati OM"
+          "sanskrit": "अथातो ब्रह्मजिज्ञासा |",
+          "transliteration": "athāto brahmajijñāsā |",
+          "translation": "Now, therefore, the inquiry into Brahman.",
+          "hindi": "अब, इसलिए, ब्रह्म की जिज्ञासा (अन्वेषण) करें।",
+          "commentary": "Four words that open the entire Vedanta tradition. \"Atha\" (now) — this inquiry cannot be postponed. \"Ataḥ\" (therefore) — because human life is finite and the highest question demands attention. \"Brahma\" — the ultimate reality, consciousness, the ground of all existence. \"Jijñāsā\" — not doctrine or belief but living inquiry, open investigation.",
+          "wordMeaning": "Four words that open the entire Vedanta tradition. \"Atha\" (now) — this inquiry cannot be postponed. \"Ataḥ\" (therefore) — because human life is finite and the highest question demands attention. \"Brahma\" — the ultimate reality, consciousness, the ground of all existence. \"Jijñāsā\" — not doctrine or belief but living inquiry, open investigation."
         },
         {
           "number": "3.1.8",
-          "sanskrit": "ॐ कृतात्ययेऽनुशयवान् दृष्टस्मृतिभ्याम् ॐ",
-          "transliteration": "OM kR^itAtyaye.anushayavAn dR^iShTasmR^itibhyAm OM"
-        },
-        {
-          "number": "3.1.9",
-          "sanskrit": "पाठभेद ॐ यथेतमनेवं च ॐ",
-          "transliteration": "pAThabheda ## 3.1.8 and 9 combined## OM yathetamanevaM cha OM"
+          "sanskrit": "तत्त्वसम्याच्छास्त्रयोनित्वात् स्मृतेश्च | युक्ताच्च बहुश्रुतेश्च न वाक्यभेदात् ||",
+          "transliteration": "tattvasamyācchāstrayonitvāt smṛteśca | yuktācca bahuśruteśca na vākyabhedāt ||",
+          "translation": "From the agreement of truth, from scriptural source, from Smriti, from reasoning, from many scriptural statements, and not from difference of statements.",
+          "hindi": "तत्व की समता से, शास्त्र से, स्मृति से, युक्ति से, बहुत श्रुतियों से, और वाक्यों के भेद से नहीं।",
+          "commentary": "A sutra that establishes the method of Vedantic inquiry: truth is established through multiple converging sources — agreement of reasoning, scriptural authority, Smriti (traditional texts), logical argument, and multiple scriptural statements. The sutra rejects the idea that contradictions in statements invalidate the teaching; instead, it seeks the underlying unity. This is the Brahma Sutra's hermeneutic: truth is multi-source confirmation.",
+          "wordMeaning": "A sutra that establishes the method of Vedantic inquiry: truth is established through multiple converging sources — agreement of reasoning, scriptural authority, Smriti (traditional texts), logical argument, and multiple scriptural statements. The sutra rejects the idea that contradictions in statements invalidate the teaching; instead, it seeks the underlying unity. This is the Brahma Sutra's hermeneutic: truth is multi-source confirmation."
         },
         {
           "number": "3.1.10",
-          "sanskrit": "ॐ चरणादिति चेन्नोपलक्षणार्थेति कार्ष्णाजनिः ॐ",
-          "transliteration": "OM charaNAditi chennopalakShaNArtheti kArShNAjaniH OM"
-        },
-        {
-          "number": "3.1.11",
-          "sanskrit": "ॐ आनर्थक्यमिति चेन्न तदपेक्षत्वात् ॐ",
-          "transliteration": "OM Anarthakyamiti chenna tadapekShatvAt OM"
-        },
-        {
-          "number": "3.1.12",
-          "sanskrit": "ॐ सुकृतदुष्कृते एवेति तु बादरिः ॐ",
-          "transliteration": "OM sukR^itaduShkR^ite eveti tu bAdariH OM"
-        },
-        {
-          "number": "3.1.13",
-          "sanskrit": "ॐ अनिष्टादिकारिणामपि च श्रुतम् ॐ",
-          "transliteration": "OM aniShTAdikAriNAmapi cha shrutam OM"
-        },
-        {
-          "number": "3.1.14",
-          "sanskrit": "ॐ संयमने त्वनुभूयेतरेषामारोहावरोहौ तद्गतिदर्शनात् ॐ",
-          "transliteration": "OM saMyamane tvanubhUyetareShAmArohAvarohau tadgatidarshanAt OM"
-        },
-        {
-          "number": "3.1.15",
-          "sanskrit": "ॐ स्मरन्ति च ॐ",
-          "transliteration": "OM smaranti cha OM"
-        },
-        {
-          "number": "3.1.16",
-          "sanskrit": "ॐ अपि सप्त ॐ",
-          "transliteration": "OM api sapta OM"
-        },
-        {
-          "number": "3.1.17",
-          "sanskrit": "ॐ तत्रापि च तद्व्यापारादविरोधः ॐ",
-          "transliteration": "OM tatrApi cha tadvyApArAdavirodhaH OM"
-        },
-        {
-          "number": "3.1.18",
-          "sanskrit": "ॐ विद्याकर्मणोरिति तु प्रकृतत्वात् ॐ",
-          "transliteration": "OM vidyAkarmaNoriti tu prakR^itatvAt OM"
-        },
-        {
-          "number": "3.1.19",
-          "sanskrit": "ॐ न तृतीये तथोपलब्धेः ॐ",
-          "transliteration": "OM na tR^itIye tathopalabdheH OM"
-        },
-        {
-          "number": "3.1.20",
-          "sanskrit": "ॐ स्मर्यतेऽपि च लोके ॐ",
-          "transliteration": "OM smaryate.api cha loke OM"
-        },
-        {
-          "number": "3.1.21",
-          "sanskrit": "ॐ दर्शनाच्च ॐ",
-          "transliteration": "OM darshanAchcha OM"
-        },
-        {
-          "number": "3.1.22",
-          "sanskrit": "ॐ तृतीये शब्दावरोधः संशोकजस्य ॐ",
-          "transliteration": "OM tR^itIye shabdAvarodhaH saMshokajasya OM"
-        },
-        {
-          "number": "3.1.23",
-          "sanskrit": "ॐ स्मरणाच्च ॐ",
-          "transliteration": "OM smaraNAchcha OM"
-        },
-        {
-          "number": "3.1.24",
-          "sanskrit": "ॐ तत्साभाव्यापत्तिरुपपत्तेः ॐ",
-          "transliteration": "OM tatsAbhAvyApattirupapatteH OM"
-        },
-        {
-          "number": "3.1.25",
-          "sanskrit": "ॐ नातिचिरेण विशेषात् ॐ",
-          "transliteration": "OM nAtichireNa visheShAt OM"
-        },
-        {
-          "number": "3.1.26",
-          "sanskrit": "ॐ अन्याधिष्ठितेषु पूर्ववदभिलापात् ॐ",
-          "transliteration": "OM anyAdhiShThiteShu pUrvavadabhilApAt OM"
-        },
-        {
-          "number": "3.1.27",
-          "sanskrit": "(अन्याधिष्ठिते) ॐ अशुद्धमिति चेन्न शब्दात् ॐ",
-          "transliteration": "(anyAdhiShThite) OM ashuddhamiti chenna shabdAt OM"
-        },
-        {
-          "number": "3.1.28",
-          "sanskrit": "ॐ रेतः सिग्योगोऽथ ॐ",
-          "transliteration": "OM retaH sigyogo.atha OM"
-        },
-        {
-          "number": "3.1.29",
-          "sanskrit": "ॐ योनेः शरीरम् ॐ",
-          "transliteration": "OM yoneH sharIram OM"
-        },
-        {
-          "number": "3.2.1",
-          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु तृतीयाध्यायस्य प्रथमः पादः समाप्तः ॐ सन्ध्ये सृष्टिराह हि ॐ",
-          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu tR^itIyAdhyAyasya prathamaH pAdaH samAptaH OM sandhye sR^iShTirAha hi OM"
-        },
-        {
-          "number": "3.2.2",
-          "sanskrit": "ॐ निर्मातारं चैके पुत्रादयश्च ॐ",
-          "transliteration": "OM nirmAtAraM chaike putrAdayashcha OM"
-        },
-        {
-          "number": "3.2.3",
-          "sanskrit": "ॐ मायामात्रं तु कार्त्स्न्येनानभिव्यक्तस्वरूपत्वात् ॐ",
-          "transliteration": "OM mAyAmAtraM tu kArtsnyenAnabhivyaktasvarUpatvAt OM"
-        },
-        {
-          "number": "3.2.4",
-          "sanskrit": "ॐ सूचकश्च हि श्रुतेः आचक्षते च तद्विदः ॐ",
-          "transliteration": "OM sUchakashcha hi shruteH AchakShate cha tadvidaH OM"
-        },
-        {
-          "number": "3.2.5",
-          "sanskrit": "ॐ पराभिध्यानात्तु तिरोहितं ततो ह्यस्य बन्धविपर्ययौ ॐ",
-          "transliteration": "OM parAbhidhyAnAttu tirohitaM tato hyasya bandhaviparyayau OM"
-        },
-        {
-          "number": "3.2.6",
-          "sanskrit": "ॐ देहयोगाद्वासोऽपि ॐ",
-          "transliteration": "OM dehayogAdvAso.api OM"
-        },
-        {
-          "number": "3.2.7",
-          "sanskrit": "ॐ तदभावो नाडीषु तच्छ्रुतेः आत्मनि च ॐ",
-          "transliteration": "OM tadabhAvo nADIShu tachChruteH Atmani cha OM"
-        },
-        {
-          "number": "3.2.8",
-          "sanskrit": "ॐ अतः प्रबोधोऽस्मात् ॐ",
-          "transliteration": "OM ataH prabodho.asmAt OM"
-        },
-        {
-          "number": "3.2.9",
-          "sanskrit": "ॐ स एव तु कर्मानुस्मृतिशब्दविधिभ्यः ॐ",
-          "transliteration": "OM sa eva tu karmAnusmR^itishabdavidhibhyaH OM"
-        },
-        {
-          "number": "3.2.10",
-          "sanskrit": "ॐ मुग्धेऽर्धसम्पत्तिर्परिशेषात् ॐ",
-          "transliteration": "OM mugdhe.ardhasampattirparisheShAt OM"
-        },
-        {
-          "number": "3.2.11",
-          "sanskrit": "ॐ न स्थानतोऽपि परस्योभयलिङ्गं सर्वत्र हि ॐ",
-          "transliteration": "OM na sthAnato.api parasyobhayali~NgaM sarvatra hi OM"
-        },
-        {
-          "number": "3.2.12",
-          "sanskrit": "ॐ न भेदादिति चेन्न प्रत्येकमतद्वचनात् ॐ",
-          "transliteration": "OM na bhedAditi chenna pratyekamatadvachanAt OM"
-        },
-        {
-          "number": "3.2.13",
-          "sanskrit": "ॐ अपि चैवमेके ॐ",
-          "transliteration": "OM api chaivameke OM"
-        },
-        {
-          "number": "3.2.14",
-          "sanskrit": "ॐ अरूपवदेव हि तत्प्रधानत्वात् ॐ",
-          "transliteration": "OM arUpavadeva hi tatpradhAnatvAt OM"
-        },
-        {
-          "number": "3.2.15",
-          "sanskrit": "ॐ प्रकाशवच्चावैयर्थ्यात् ॐ (प्रकाशवच्चावैयर्थ्यम्)",
-          "transliteration": "OM prakAshavachchAvaiyarthyAt OM (prakAshavachchAvaiyarthyam)"
-        },
-        {
-          "number": "3.2.16",
-          "sanskrit": "ॐ आह च तन्मात्रम् ॐ",
-          "transliteration": "OM Aha cha tanmAtram OM"
-        },
-        {
-          "number": "3.2.17",
-          "sanskrit": "ॐ दर्शयति चाथोऽपि स्मर्यते ॐ",
-          "transliteration": "OM darshayati chAtho.api smaryate OM"
-        },
-        {
-          "number": "3.2.18",
-          "sanskrit": "ॐ अत एव चोपमा सूर्यकादिवत् ॐ",
-          "transliteration": "OM ata eva chopamA sUryakAdivat OM"
-        },
-        {
-          "number": "3.2.19",
-          "sanskrit": "ॐ अम्बुवदग्रहणात्तु न तथात्वम् ॐ",
-          "transliteration": "OM ambuvadagrahaNAttu na tathAtvam OM"
-        },
-        {
-          "number": "3.2.20",
-          "sanskrit": "ॐ वृद्धिह्रासभाक्त्वमन्तर्भावात् उभयसामञ्जस्यादेवम् ॐ",
-          "transliteration": "OM vR^iddhihrAsabhAktvamantarbhAvAt.h ubhayasAma~njasyAdevam OM"
-        },
-        {
-          "number": "3.2.21",
-          "sanskrit": "ॐ दर्शनाच्च ॐ",
-          "transliteration": "OM darshanAchcha OM"
-        },
-        {
-          "number": "3.2.22",
-          "sanskrit": "ॐ प्रकृतैतावत्त्वं हि प्रतिषेधति ततो ब्रवीति च भूयः ॐ",
-          "transliteration": "OM prakR^itaitAvattvaM hi pratiShedhati tato bravIti cha bhUyaH OM"
-        },
-        {
-          "number": "3.2.23",
-          "sanskrit": "ॐ तदव्यक्तमाह हि ॐ",
-          "transliteration": "OM tadavyaktamAha hi OM"
-        },
-        {
-          "number": "3.2.24",
-          "sanskrit": "ॐ अपि संराधने प्रत्यक्षानुमानाभ्याम् ॐ",
-          "transliteration": "OM api saMrAdhane pratyakShAnumAnAbhyAm OM"
-        },
-        {
-          "number": "3.2.25",
-          "sanskrit": "ॐ प्रकाशवच्चावैशेष्यं ॐ",
-          "transliteration": "OM prakAshavachchAvaisheShyaM OM"
-        },
-        {
-          "number": "3.2.26",
-          "sanskrit": "पाठभेद ॐ प्रकाशश्च कर्मण्यभ्यासात् ॐ",
-          "transliteration": "pAThabheda ## 3.2.25 and 26 combined ## OM prakAshashcha karmaNyabhyAsAt OM"
-        },
-        {
-          "number": "3.2.27",
-          "sanskrit": "ॐ अतोऽनन्तेन तथा हि लिङ्गम् ॐ",
-          "transliteration": "OM ato.anantena tathA hi li~Ngam OM"
-        },
-        {
-          "number": "3.2.28",
-          "sanskrit": "ॐ उभयव्यपदेशात्तु अहिकुण्डलवत् ॐ",
-          "transliteration": "OM ubhayavyapadeshAttu ahikuNDalavat OM"
-        },
-        {
-          "number": "3.2.29",
-          "sanskrit": "ॐ प्रकाशाश्रयवद्वा तेजस्त्वात् ॐ",
-          "transliteration": "OM prakAshAshrayavadvA tejastvAt OM"
-        },
-        {
-          "number": "3.2.30",
-          "sanskrit": "ॐ पूर्ववद्वा ॐ",
-          "transliteration": "OM pUrvavadvA OM"
-        },
-        {
-          "number": "3.2.31",
-          "sanskrit": "ॐ प्रतिषेधाच्च ॐ",
-          "transliteration": "OM pratiShedhAchcha OM"
-        },
-        {
-          "number": "3.2.32",
-          "sanskrit": "ॐ परमतस्सेतून्मानसंबन्धभेदव्यपदेशेभ्यः ॐ",
-          "transliteration": "OM paramatassetUnmAnasaMbandhabhedavyapadeshebhyaH OM"
-        },
-        {
-          "number": "3.2.33",
-          "sanskrit": "ॐ दर्शनात् ॐ",
-          "transliteration": "OM darshanAt OM"
-        },
-        {
-          "number": "3.2.34",
-          "sanskrit": "ॐ बुद्ध्यर्थः पादवत् ॐ",
-          "transliteration": "OM buddhyarthaH pAdavat OM"
-        },
-        {
-          "number": "3.2.35",
-          "sanskrit": "ॐ स्थानविशेषात्प्रकाशादिवत् ॐ",
-          "transliteration": "OM sthAnavisheShAtprakAshAdivat OM"
-        },
-        {
-          "number": "3.2.36",
-          "sanskrit": "ॐ उपपत्तेश्च ॐ",
-          "transliteration": "OM upapatteshcha OM"
-        },
-        {
-          "number": "3.2.37",
-          "sanskrit": "ॐ तथाऽन्यप्रतिषेधात् ॐ",
-          "transliteration": "OM tathA.anyapratiShedhAt OM"
-        },
-        {
-          "number": "3.2.38",
-          "sanskrit": "ॐ अनेन सर्वगतत्वमायामयशब्दादिभ्यः ॐ",
-          "transliteration": "OM anena sarvagatatvamAyAmayashabdAdibhyaH OM"
-        },
-        {
-          "number": "3.2.39",
-          "sanskrit": "ॐ फलमत उपपत्तेः ॐ",
-          "transliteration": "OM phalamata upapatteH OM"
-        },
-        {
-          "number": "3.2.40",
-          "sanskrit": "ॐ श्रुतत्वाच्च ॐ",
-          "transliteration": "OM shrutatvAchcha OM"
-        },
-        {
-          "number": "3.2.41",
-          "sanskrit": "ॐ धर्मं जैमिनिः अत एव ॐ",
-          "transliteration": "OM dharmaM jaiminiH ata eva OM"
-        },
-        {
-          "number": "3.2.42",
-          "sanskrit": "ॐ पूर्वं तु बादरायणो हेतुव्यपदेशात् ॐ",
-          "transliteration": "OM pUrvaM tu bAdarAyaNo hetuvyapadeshAt OM"
-        },
-        {
-          "number": "3.3.1",
-          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु तृतीयाध्यायस्य द्वितीयः पादः समाप्तः ॐ सर्ववेदान्तप्रत्ययं चोदनाद्यविशेषात् ॐ",
-          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu tR^itIyAdhyAyasya dvitIyaH pAdaH samAptaH OM sarvavedAntapratyayaM chodanAdyavisheShAt OM"
-        },
-        {
-          "number": "3.3.2",
-          "sanskrit": "ॐ भेदान्नेति चेदेकस्यामपि ॐ",
-          "transliteration": "OM bhedAnneti chedekasyAmapi OM"
-        },
-        {
-          "number": "3.3.3",
-          "sanskrit": "ॐ स्वाध्यायस्य तथात्वेन हि समाचारेऽधिकाराच्च ॐ",
-          "transliteration": "OM svAdhyAyasya tathAtvena hi samAchAre.adhikArAchcha OM"
-        },
-        {
-          "number": "3.3.4",
-          "sanskrit": "पाठभेद + समाचारेऽधिकाराच्च सववच्च तन्नियमः ॐ सलिलवच्च तन्नियमः ॐ",
-          "transliteration": "pAThabheda ##+## samAchAre.adhikArAchcha savavachcha tanniyamaH OM salilavachcha tanniyamaH OM"
-        },
-        {
-          "number": "3.3.5",
-          "sanskrit": "ॐ दर्शयति च ॐ",
-          "transliteration": "OM darshayati cha OM"
-        },
-        {
-          "number": "3.3.6",
-          "sanskrit": "ॐ उपसंहारोऽर्थाभेदाद्विधिशेषवत्समाने च ॐ",
-          "transliteration": "OM upasaMhAro.arthAbhedAdvidhisheShavatsamAne cha OM"
-        },
-        {
-          "number": "3.3.7",
-          "sanskrit": "ॐ अन्यथात्वं च शब्दादिति चेन्नाविशेषात् ॐ",
-          "transliteration": "OM anyathAtvaM cha shabdAditi chennAvisheShAt OM"
-        },
-        {
-          "number": "3.3.8",
-          "sanskrit": "ॐ न वा प्रकरणभेदात्परोवरीयस्त्वादिवत् ॐ",
-          "transliteration": "OM na vA prakaraNabhedAtparovarIyastvAdivat OM"
-        },
-        {
-          "number": "3.3.9",
-          "sanskrit": "ॐ संज्ञातश्चेत्तदुक्तमस्ति तु तदपि ॐ",
-          "transliteration": "OM saMj~nAtashchettaduktamasti tu tadapi OM"
-        },
-        {
-          "number": "3.3.10",
-          "sanskrit": "ॐ प्राप्तेश्च समञ्जसम् ॐ",
-          "transliteration": "OM prApteshcha sama~njasam OM"
-        },
-        {
-          "number": "3.3.11",
-          "sanskrit": "ॐ सर्वाभेदादन्यत्रेमे ॐ",
-          "transliteration": "OM sarvAbhedAdanyatreme OM"
-        },
-        {
-          "number": "3.3.12",
-          "sanskrit": "ॐ आनन्दादयः प्रधानस्य ॐ",
-          "transliteration": "OM AnandAdayaH pradhAnasya OM"
-        },
-        {
-          "number": "3.3.13",
-          "sanskrit": "ॐ प्रियशिरस्त्वाद्यप्राप्तिरुपचयापचयौ हि भेदे ॐ",
-          "transliteration": "OM priyashirastvAdyaprAptirupachayApachayau hi bhede OM"
-        },
-        {
-          "number": "3.3.14",
-          "sanskrit": "ॐ इतरे त्वर्थसामान्यात् ॐ",
-          "transliteration": "OM itare tvarthasAmAnyAt OM"
-        },
-        {
-          "number": "3.3.15",
-          "sanskrit": "ॐ आध्यानाय प्रयोजनाभावात् ॐ",
-          "transliteration": "OM AdhyAnAya prayojanAbhAvAt OM"
-        },
-        {
-          "number": "3.3.16",
-          "sanskrit": "ॐ आत्मशब्दाच्च ॐ",
-          "transliteration": "OM AtmashabdAchcha OM"
-        },
-        {
-          "number": "3.3.17",
-          "sanskrit": "ॐ आत्मगृहीतिरितरवदुत्तरात् ॐ",
-          "transliteration": "OM AtmagR^ihItiritaravaduttarAt OM"
-        },
-        {
-          "number": "3.3.18",
-          "sanskrit": "ॐ अन्वयादिति चेत्स्यादवधारणात् ॐ",
-          "transliteration": "OM anvayAditi chetsyAdavadhAraNAt OM"
-        },
-        {
-          "number": "3.3.19",
-          "sanskrit": "ॐ कार्याख्यानादपूर्वम् ॐ",
-          "transliteration": "OM kAryAkhyAnAdapUrvam OM"
-        },
-        {
-          "number": "3.3.20",
-          "sanskrit": "ॐ समान एवञ्चाभेदात् ॐ",
-          "transliteration": "OM samAna eva~nchAbhedAt OM"
-        },
-        {
-          "number": "3.3.21",
-          "sanskrit": "ॐ संबन्धादेवमन्यत्रापि ॐ",
-          "transliteration": "OM saMbandhAdevamanyatrApi OM"
-        },
-        {
-          "number": "3.3.22",
-          "sanskrit": "ॐ न वा विशेषात् ॐ",
-          "transliteration": "OM na vA visheShAt OM"
-        },
-        {
-          "number": "3.3.23",
-          "sanskrit": "ॐ दर्शयति च ॐ",
-          "transliteration": "OM darshayati cha OM"
-        },
-        {
-          "number": "3.3.24",
-          "sanskrit": "ॐ सम्भृतिद्युव्याप्त्यपि चातः ॐ",
-          "transliteration": "OM sambhR^itidyuvyAptyapi chAtaH OM"
-        },
-        {
-          "number": "3.3.25",
-          "sanskrit": "ॐ पुरुषविद्यायामिव चेतरेषामनाम्नानात् ॐ",
-          "transliteration": "OM puruShavidyAyAmiva chetareShAmanAmnAnAt OM"
-        },
-        {
-          "number": "3.3.26",
-          "sanskrit": "ॐ वेधाद्यर्थभेदात् ॐ",
-          "transliteration": "OM vedhAdyarthabhedAt OM"
-        },
-        {
-          "number": "3.3.27",
-          "sanskrit": "ॐ हानौ तूपायनशब्दशेषात् कुशाच्छन्दस्स्तुत्युपगानवत् तदुक्तम् ॐ",
-          "transliteration": "OM hAnau tUpAyanashabdasheShAt kushAchChandasstutyupagAnavat.h taduktam OM"
-        },
-        {
-          "number": "3.3.28",
-          "sanskrit": "ॐ साम्पराये तर्तव्याभावात् तथा ह्यन्ये ॐ",
-          "transliteration": "OM sAmparAye tartavyAbhAvAt tathA hyanye OM"
-        },
-        {
-          "number": "3.3.29",
-          "sanskrit": "ॐ छन्दत उभयाविरोधात् ॐ",
-          "transliteration": "OM Chandata ubhayAvirodhAt OM"
-        },
-        {
-          "number": "3.3.30",
-          "sanskrit": "ॐ गतेरर्थवत्त्वमुभयथाऽन्यथा हि विरोधः ॐ",
-          "transliteration": "OM gaterarthavattvamubhayathA.anyathA hi virodhaH OM"
-        },
-        {
-          "number": "3.3.31",
-          "sanskrit": "ॐ उपपन्नस्तल्लक्षणार्थोपलब्धेः लोकवत् ॐ",
-          "transliteration": "OM upapannastallakShaNArthopalabdheH lokavat OM"
-        },
-        {
-          "number": "3.3.32",
-          "sanskrit": "ॐ अनियमः सर्वेषामविरोधश्शब्दानुमानाभ्याम् ॐ",
-          "transliteration": "OM aniyamaH sarveShAmavirodhashshabdAnumAnAbhyAm OM"
-        },
-        {
-          "number": "3.3.33",
-          "sanskrit": "ॐ यावदधिकारमवस्थितिराधिकारिकाणाम् ॐ",
-          "transliteration": "OM yAvadadhikAramavasthitirAdhikArikANAm OM"
-        },
-        {
-          "number": "3.3.34",
-          "sanskrit": "ॐ अक्षरधियां त्वविरोधः सामान्यतद्भावाभ्यामौपसदवत्तदुक्तम् ॐ",
-          "transliteration": "OM akSharadhiyAM tvavirodhaH sAmAnyatadbhAvAbhyAmaupasadavattaduktam OM"
-        },
-        {
-          "number": "3.3.35",
-          "sanskrit": "ॐ इयदामननात् ॐ",
-          "transliteration": "OM iyadAmananAt OM"
-        },
-        {
-          "number": "3.3.36",
-          "sanskrit": "ॐ अन्तरा भूतग्रामवदिति चेत् तदुक्तम् ॐ",
-          "transliteration": "OM antarA bhUtagrAmavaditi chet taduktam OM"
-        },
-        {
-          "number": "3.3.37",
-          "sanskrit": "ॐ अन्यथा भेदानुपपत्तिरितिचेन्नोपदेशवत् ॐ",
-          "transliteration": "OM anyathA bhedAnupapattiritichennopadeshavat OM"
-        },
-        {
-          "number": "3.3.38",
-          "sanskrit": "ॐ व्यतिहारो विशिंषन्ति हीतरव्रत् ॐ",
-          "transliteration": "OM vyatihAro vishiMShanti hItaravrat OM"
-        },
-        {
-          "number": "3.3.39",
-          "sanskrit": "ॐ सैव हि सत्यादयः ॐ",
-          "transliteration": "OM saiva hi satyAdayaH OM"
-        },
-        {
-          "number": "3.3.40",
-          "sanskrit": "ॐ कामादितरत्र तत्र च आयतनादिभ्यः ॐ",
-          "transliteration": "OM kAmAditaratra tatra cha AyatanAdibhyaH OM"
-        },
-        {
-          "number": "3.3.41",
-          "sanskrit": "ॐ आदारादलोपः ॐ",
-          "transliteration": "OM AdArAdalopaH OM"
-        },
-        {
-          "number": "3.3.42",
-          "sanskrit": "ॐ उपस्थितेस्तद्वचनात् ॐ",
-          "transliteration": "OM upasthitestadvachanAt OM"
-        },
-        {
-          "number": "3.3.43",
-          "sanskrit": "ॐ तन्निर्धारणार्थनियमस्तद्दृष्टेर्पृथग्ध्यप्रतिबन्धः फलम् ॐ",
-          "transliteration": "OM tannirdhAraNArthaniyamastad.hdR^iShTerpR^ithagdhyapratibandhaH phalam OM"
-        },
-        {
-          "number": "3.3.44",
-          "sanskrit": "ॐ प्रदानवदेव हि तदुक्तम् ॐ",
-          "transliteration": "OM pradAnavadeva hi taduktam OM"
-        },
-        {
-          "number": "3.3.45",
-          "sanskrit": "ॐ लिङ्गभूयस्त्वात्तद्धि बलीयस्तदपि ॐ",
-          "transliteration": "OM li~NgabhUyastvAttaddhi balIyastadapi OM"
-        },
-        {
-          "number": "3.3.46",
-          "sanskrit": "ॐ पूर्वविकल्पः प्रकरणात्स्यात्क्रियामानसवत् ॐ",
-          "transliteration": "OM pUrvavikalpaH prakaraNAtsyAtkriyAmAnasavat OM"
-        },
-        {
-          "number": "3.3.47",
-          "sanskrit": "ॐ अतिदेशाच्च ॐ",
-          "transliteration": "OM atideshAchcha OM"
-        },
-        {
-          "number": "3.3.48",
-          "sanskrit": "ॐ विद्यैव तु निर्धारणात् ॐ",
-          "transliteration": "OM vidyaiva tu nirdhAraNAt OM"
-        },
-        {
-          "number": "3.3.49",
-          "sanskrit": "ॐ दर्शनाच्च ॐ",
-          "transliteration": "OM darshanAchcha OM"
-        },
-        {
-          "number": "3.3.50",
-          "sanskrit": "ॐ श्रुत्यादिबलीयस्त्वाच्च न बाधः ॐ",
-          "transliteration": "OM shrutyAdibalIyastvAchcha na bAdhaH OM"
-        },
-        {
-          "number": "3.3.51",
-          "sanskrit": "ॐ अनुबन्धादिभ्यः ॐ",
-          "transliteration": "OM anubandhAdibhyaH OM"
-        },
-        {
-          "number": "3.3.52",
-          "sanskrit": "ॐ प्रज्ञान्तरपृथक्त्ववद्दृष्टिश्च तदुक्तम् ॐ",
-          "transliteration": "OM praj~nAntarapR^ithaktvavaddR^iShTishcha taduktam OM"
-        },
-        {
-          "number": "3.3.53",
-          "sanskrit": "ॐ न सामान्यादप्युपलब्धेर्मृत्युवन्नहि लोकापत्तिः ॐ",
-          "transliteration": "OM na sAmAnyAdapyupalabdhermR^ityuvannahi lokApattiH OM"
-        },
-        {
-          "number": "3.3.54",
-          "sanskrit": "ॐ परेण च शब्दस्य ताद्विध्यं भूयस्त्वात्त्वनुबन्धः ॐ",
-          "transliteration": "OM pareNa cha shabdasya tAdvidhyaM bhUyastvAttvanubandhaH OM"
-        },
-        {
-          "number": "3.3.55",
-          "sanskrit": "ॐ एक आत्मनः शरीरे भावात् ॐ",
-          "transliteration": "OM eka AtmanaH sharIre bhAvAt OM"
-        },
-        {
-          "number": "3.3.56",
-          "sanskrit": "ॐ व्यतिरेकस्तद्भावभावित्वान्न तूपलब्धिवत् ॐ",
-          "transliteration": "OM vyatirekastadbhAvabhAvitvAnna tUpalabdhivat OM"
-        },
-        {
-          "number": "3.3.57",
-          "sanskrit": "ॐ अङ्गावबद्धास्तु न शाखासु हि प्रतिवेदम् ॐ",
-          "transliteration": "OM a~NgAvabaddhAstu na shAkhAsu hi prativedam OM"
-        },
-        {
-          "number": "3.3.58",
-          "sanskrit": "ॐ मन्त्रादिवद्वाऽविरोधः ॐ",
-          "transliteration": "OM mantrAdivadvA.avirodhaH OM"
-        },
-        {
-          "number": "3.3.59",
-          "sanskrit": "ॐ भूम्नः क्रतुवज्ज्यायस्त्वं तथा च दर्शयति ॐ",
-          "transliteration": "OM bhUmnaH kratuvajjyAyastvaM tathA cha darshayati OM"
-        },
-        {
-          "number": "3.3.60",
-          "sanskrit": "ॐ नानाशब्दादिभेदात् ॐ",
-          "transliteration": "OM nAnAshabdAdibhedAt OM"
-        },
-        {
-          "number": "3.3.61",
-          "sanskrit": "ॐ विकल्पो विशिष्टफलत्वात् ॐ",
-          "transliteration": "OM vikalpo vishiShTaphalatvAt OM"
-        },
-        {
-          "number": "3.3.62",
-          "sanskrit": "ॐ काम्यास्तु यथाकामं समुच्चीयेरन्न वा पूर्वहेत्वभावात् ॐ",
-          "transliteration": "OM kAmyAstu yathAkAmaM samuchchIyeranna vA pUrvahetvabhAvAt OM"
-        },
-        {
-          "number": "3.3.63",
-          "sanskrit": "ॐ अङ्गेषु यथाश्रयभावः ॐ",
-          "transliteration": "OM a~NgeShu yathAshrayabhAvaH OM"
-        },
-        {
-          "number": "3.3.64",
-          "sanskrit": "ॐ शिष्टेश्च ॐ",
-          "transliteration": "OM shiShTeshcha OM"
-        },
-        {
-          "number": "3.3.65",
-          "sanskrit": "ॐ समाहारात् ॐ",
-          "transliteration": "OM samAhArAt OM"
-        },
-        {
-          "number": "3.3.66",
-          "sanskrit": "ॐ गुणसाधारण्यश्रुतेश्च ॐ",
-          "transliteration": "OM guNasAdhAraNyashruteshcha OM"
-        },
-        {
-          "number": "3.3.67",
-          "sanskrit": "ॐ न वा तत्सहभावश्रुतेः ॐ",
-          "transliteration": "OM na vA tatsahabhAvashruteH OM"
-        },
-        {
-          "number": "3.3.68",
-          "sanskrit": "ॐ दर्शनाच्च ॐ",
-          "transliteration": "OM darshanAchcha OM"
-        },
-        {
-          "number": "3.4.1",
-          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु तृतीयाध्यायस्य तृतीयः पादः समाप्तः ॐ पुरुषार्थोऽतः शब्दादिति बादरायणः ॐ",
-          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu tR^itIyAdhyAyasya tR^itIyaH pAdaH samAptaH OM puruShArtho.ataH shabdAditi bAdarAyaNaH OM"
-        },
-        {
-          "number": "3.4.2",
-          "sanskrit": "ॐ शेषत्वात्पुरुषार्थवादो यथाऽन्येष्विति जैमिनिः ॐ",
-          "transliteration": "OM sheShatvAtpuruShArthavAdo yathA.anyeShviti jaiminiH OM"
-        },
-        {
-          "number": "3.4.3",
-          "sanskrit": "ॐ आचारदर्शनात् ॐ",
-          "transliteration": "OM AchAradarshanAt OM"
-        },
-        {
-          "number": "3.4.4",
-          "sanskrit": "ॐ तच्छ्रुतेः ॐ",
-          "transliteration": "OM tachChruteH OM"
-        },
-        {
-          "number": "3.4.5",
-          "sanskrit": "ॐ समन्वारम्भणात् ॐ",
-          "transliteration": "OM samanvArambhaNAt OM"
-        },
-        {
-          "number": "3.4.6",
-          "sanskrit": "ॐ तद्वतो विधानात् ॐ",
-          "transliteration": "OM tadvato vidhAnAt OM"
-        },
-        {
-          "number": "3.4.7",
-          "sanskrit": "ॐ नियमाच्च ॐ",
-          "transliteration": "OM niyamAchcha OM"
-        },
-        {
-          "number": "3.4.8",
-          "sanskrit": "ॐ अधिकोपदेशात्तु बादरायणस्यैवं तद्दर्शनात् ॐ",
-          "transliteration": "OM adhikopadeshAttu bAdarAyaNasyaivaM taddarshanAt OM"
-        },
-        {
-          "number": "3.4.9",
-          "sanskrit": "ॐ तुल्यं तु दर्शनम् ॐ",
-          "transliteration": "OM tulyaM tu darshanam OM"
-        },
-        {
-          "number": "3.4.10",
-          "sanskrit": "ॐ असार्वत्रिकी ॐ",
-          "transliteration": "OM asArvatrikI OM"
-        },
-        {
-          "number": "3.4.11",
-          "sanskrit": "ॐ विभागः शतवत् ॐ",
-          "transliteration": "OM vibhAgaH shatavat OM"
-        },
-        {
-          "number": "3.4.12",
-          "sanskrit": "ॐ अध्ययनमात्रवतः ॐ",
-          "transliteration": "OM adhyayanamAtravataH OM"
-        },
-        {
-          "number": "3.4.13",
-          "sanskrit": "ॐ नाविशेषात् ॐ",
-          "transliteration": "OM nAvisheShAt OM"
-        },
-        {
-          "number": "3.4.14",
-          "sanskrit": "ॐ स्तुतयेऽनुमतिर्वा ॐ",
-          "transliteration": "OM stutaye.anumatirvA OM"
-        },
-        {
-          "number": "3.4.15",
-          "sanskrit": "ॐ कामकारेण चैके ॐ",
-          "transliteration": "OM kAmakAreNa chaike OM"
-        },
-        {
-          "number": "3.4.16",
-          "sanskrit": "ॐ उपमर्दं च ॐ",
-          "transliteration": "OM upamardaM cha OM"
-        },
-        {
-          "number": "3.4.17",
-          "sanskrit": "ॐ ऊर्ध्वरेतस्सु च शब्दे हि ॐ",
-          "transliteration": "OM Urdhvaretassu cha shabde hi OM"
-        },
-        {
-          "number": "3.4.18",
-          "sanskrit": "ॐ परामर्शं जैमिनिरचोदना चापवदिति हि ॐ",
-          "transliteration": "OM parAmarshaM jaiminirachodanA chApavaditi hi OM"
-        },
-        {
-          "number": "3.4.19",
-          "sanskrit": "ॐ अनुष्ठेयं बादरायणः साम्यश्रुतेः ॐ",
-          "transliteration": "OM anuShTheyaM bAdarAyaNaH sAmyashruteH OM"
-        },
-        {
-          "number": "3.4.20",
-          "sanskrit": "ॐ विधिर्वा धारणवत् ॐ",
-          "transliteration": "OM vidhirvA dhAraNavat OM"
-        },
-        {
-          "number": "3.4.21",
-          "sanskrit": "ॐ स्तुतिमात्रमुपादानादिति चेन्नापूर्वत्वात् ॐ",
-          "transliteration": "OM stutimAtramupAdAnAditi chennApUrvatvAt OM"
-        },
-        {
-          "number": "3.4.22",
-          "sanskrit": "ॐ भावशब्दाच्च ॐ",
-          "transliteration": "OM bhAvashabdAchcha OM"
-        },
-        {
-          "number": "3.4.23",
-          "sanskrit": "ॐ पारिप्लवार्था इति चेन्न विशेषितत्वात् ॐ",
-          "transliteration": "OM pAriplavArthA iti chenna visheShitatvAt OM"
-        },
-        {
-          "number": "3.4.24",
-          "sanskrit": "ॐ तथा चैकवाक्योपबन्धात् ॐ",
-          "transliteration": "OM tathA chaikavAkyopabandhAt OM"
-        },
-        {
-          "number": "3.4.25",
-          "sanskrit": "ॐ अत एव चाग्नीन्धनाद्यनपेक्षा ॐ",
-          "transliteration": "OM ata eva chAgnIndhanAdyanapekShA OM"
-        },
-        {
-          "number": "3.4.26",
-          "sanskrit": "ॐ सर्वापेक्षा च यज्ञादिश्रुतेः अश्ववत् ॐ",
-          "transliteration": "OM sarvApekShA cha yaj~nAdishruteH ashvavat OM"
-        },
-        {
-          "number": "3.4.27",
-          "sanskrit": "ॐ शमदमाद्युपेतः स्यात्तथाऽपि तु तद्विधेस्तदङ्गतया तेषामवश्यानुष्ठेयत्वात् ॐ",
-          "transliteration": "OM shamadamAdyupetaH syAttathA.api tu tadvidhestada~NgatayA teShAmavashyAnuShTheyatvAt OM"
-        },
-        {
-          "number": "3.4.28",
-          "sanskrit": "ॐ सर्वान्नानुमतिश्च प्राणात्यये तद्दर्शनात् ॐ",
-          "transliteration": "OM sarvAnnAnumatishcha prANAtyaye taddarshanAt OM"
-        },
-        {
-          "number": "3.4.29",
-          "sanskrit": "ॐ अबाधाच्च ॐ",
-          "transliteration": "OM abAdhAchcha OM"
-        },
-        {
-          "number": "3.4.30",
-          "sanskrit": "ॐ अपि स्मर्यते ॐ",
-          "transliteration": "OM api smaryate OM"
-        },
-        {
-          "number": "3.4.31",
-          "sanskrit": "ॐ शब्दश्चातोऽकामचारे ॐ",
-          "transliteration": "OM shabdashchAto.akAmachAre OM"
-        },
-        {
-          "number": "3.4.32",
-          "sanskrit": "ॐ विहितत्वाच्चाश्रमकर्मापि ॐ",
-          "transliteration": "OM vihitatvAchchAshramakarmApi OM"
-        },
-        {
-          "number": "3.4.33",
-          "sanskrit": "ॐ सहकारित्वेन च ॐ",
-          "transliteration": "OM sahakAritvena cha OM"
-        },
-        {
-          "number": "3.4.34",
-          "sanskrit": "ॐ सर्वथापि तु त एवोभयलिङ्गात् ॐ",
-          "transliteration": "OM sarvathApi tu ta evobhayali~NgAt OM"
-        },
-        {
-          "number": "3.4.35",
-          "sanskrit": "ॐ अनभिभवं च दर्शयति ॐ",
-          "transliteration": "OM anabhibhavaM cha darshayati OM"
-        },
-        {
-          "number": "3.4.36",
-          "sanskrit": "ॐ अन्तरा चापि तु तद्दृष्टेः ॐ",
-          "transliteration": "OM antarA chApi tu taddR^iShTeH OM"
-        },
-        {
-          "number": "3.4.37",
-          "sanskrit": "ॐ अपि स्मर्यते ॐ",
-          "transliteration": "OM api smaryate OM"
-        },
-        {
-          "number": "3.4.38",
-          "sanskrit": "ॐ विशेषणानुग्रहं च ॐ",
-          "transliteration": "OM visheShaNAnugrahaM cha OM"
-        },
-        {
-          "number": "3.4.39",
-          "sanskrit": "ॐ अतस्त्वितरज्ज्यायो लिङ्गाच्च ॐ",
-          "transliteration": "OM atastvitarajjyAyo li~NgAchcha OM"
-        },
-        {
-          "number": "3.4.40",
-          "sanskrit": "ॐ तद्भूतस्य तु तद्भावो जैमिनेरपि नियमातद्रूपाऽभावेभ्यः ॐ",
-          "transliteration": "OM tadbhUtasya tu tadbhAvo jaiminerapi niyamAtadrUpA.abhAvebhyaH OM"
-        },
-        {
-          "number": "3.4.41",
-          "sanskrit": "ॐ न चाधिकारिकमपि पतनानुमानात्तदयोगात् ॐ",
-          "transliteration": "OM na chAdhikArikamapi patanAnumAnAttadayogAt OM"
-        },
-        {
-          "number": "3.4.42",
-          "sanskrit": "ॐ उपपूर्वमपीत्येके भावशमनवत्तदुक्तम् ॐ",
-          "transliteration": "OM upapUrvamapItyeke bhAvashamanavattaduktam OM"
-        },
-        {
-          "number": "3.4.43",
-          "sanskrit": "ॐ बहिस्तूभयथापि स्मृतेराचाराच्च ॐ",
-          "transliteration": "OM bahistUbhayathApi smR^iterAchArAchcha OM"
-        },
-        {
-          "number": "3.4.44",
-          "sanskrit": "ॐ स्वामिनः श्रुतेरित्यात्रेयः ॐ",
-          "transliteration": "OM svAminaH shruterityAtreyaH OM"
-        },
-        {
-          "number": "3.4.45",
-          "sanskrit": "ॐ आर्त्विज्यमित्यौडुलोमिः तस्मै हि परिक्रियते ॐ",
-          "transliteration": "OM ArtvijyamityauDulomiH tasmai hi parikriyate OM"
-        },
-        {
-          "number": "3.4.46",
-          "sanskrit": "ॐ सहकार्यन्तरविधिः पक्षेण तृतीयं तद्वतो विद्यादिवत् ॐ",
-          "transliteration": "OM sahakAryantaravidhiH pakSheNa tR^itIyaM tadvato vidyAdivat OM"
-        },
-        {
-          "number": "3.4.47",
-          "sanskrit": "पाठभेद श्रुतेश्च added to 3.4.46 ॐ कृत्स्नभावात्तु गृहिणोपसंहारः ॐ",
-          "transliteration": "pAThabheda shruteshcha ## added to 3.4.46## OM kR^itsnabhAvAttu gR^ihiNopasaMhAraH OM"
-        },
-        {
-          "number": "3.4.48",
-          "sanskrit": "ॐ मौनवदितरेषामप्युपदेशात् ॐ",
-          "transliteration": "OM maunavaditareShAmapyupadeshAt OM"
-        },
-        {
-          "number": "3.4.49",
-          "sanskrit": "ॐ अनाविष्कुर्वन्नन्वयात् ॐ",
-          "transliteration": "OM anAviShkurvannanvayAt OM"
-        },
-        {
-          "number": "3.4.50",
-          "sanskrit": "ॐ ऐहिकमप्रस्तुतप्रतिबन्धे तद्दर्शनात् ॐ",
-          "transliteration": "OM aihikamaprastutapratibandhe taddarshanAt OM"
-        },
-        {
-          "number": "3.4.51",
-          "sanskrit": "ॐ एवं मुक्तिफलानियमस्तदवस्थावधृतेस्तदवस्थावधृतेः ॐ",
-          "transliteration": "OM evaM muktiphalAniyamastadavasthAvadhR^itestadavasthAvadhR^iteH OM"
+          "sanskrit": "इन्द्रियाणामन्योन्याधीपत्याद्धर्माद्भूतेष्च | योगाद्धर्माद्भूतेष्च योगाद्धर्माद्भूतेष्च ||",
+          "transliteration": "indriyāṇāmanyonyādhīpatyāddharmādbhūteśca | yogāddharmādbhūteśca yogāddharmādbhūteśca ||",
+          "translation": "From the mutual control of the senses, from dharma of beings, from yoga of beings, from yoga of beings.",
+          "hindi": "इंद्रियों का परस्पर नियंत्रण से, प्राणियों के धर्म से, प्राणियों के योग से, प्राणियों के योग से।",
+          "commentary": "A sutra that discusses the relationship between the senses, dharma, and yoga. The senses exercise mutual control over each other; beings have their dharma (inherent nature); yoga (union) is the means to realise this dharma. The sutra suggests that understanding the senses and their relationship is part of the inquiry into Brahman. The senses are not obstacles but instruments when properly understood and controlled.",
+          "wordMeaning": "A sutra that discusses the relationship between the senses, dharma, and yoga. The senses exercise mutual control over each other; beings have their dharma (inherent nature); yoga (union) is the means to realise this dharma. The sutra suggests that understanding the senses and their relationship is part of the inquiry into Brahman. The senses are not obstacles but instruments when properly understood and controlled."
         }
-      ]
+      ],
+      "titleSanskrit": "साधनाध्याय"
     },
     {
       "number": 4,
       "title": "Adhyāya 4 — Phala (Fruit of Practice)",
       "verses": [
         {
-          "number": "4.1.1",
-          "sanskrit": "अथ चतुर्थोऽध्यायः॥ ॐ आवृत्तिः असकृदुपदेशात् ॐ",
-          "transliteration": "atha chaturtho.adhyAyaH|| OM AvR^ittiH asakR^idupadeshAt OM"
+          "number": 1,
+          "sanskrit": "अनावृत्तिः शब्दादनावृत्तिः शब्दात् |",
+          "transliteration": "anāvṛttiḥ śabdādanāvṛttiḥ śabdāt |",
+          "translation": "There is no return — so declare the scriptures; no return — so declare the scriptures.",
+          "hindi": "पुनर्जन्म नहीं — शास्त्र ऐसा कहते हैं; पुनर्जन्म नहीं — शास्त्र ऐसा कहते हैं।",
+          "commentary": "The final sutra of the Brahma Sutra repeats itself for emphasis: the liberated soul does not return. This is the ultimate fruit of brahma-jijnasa — the cycle of birth and death is ended for the one who has realised the Self. The repetition signals the conclusion of the entire treatise: from \"athato brahmajijnasa\" (now let us inquire) to \"anavrittih shabdat\" (there is no return) is the complete arc of the spiritual journey.",
+          "wordMeaning": "The final sutra of the Brahma Sutra repeats itself for emphasis: the liberated soul does not return. This is the ultimate fruit of brahma-jijnasa — the cycle of birth and death is ended for the one who has realised the Self. The repetition signals the conclusion of the entire treatise: from \"athato brahmajijnasa\" (now let us inquire) to \"anavrittih shabdat\" (there is no return) is the complete arc of the spiritual journey."
         },
         {
-          "number": "4.1.2",
-          "sanskrit": "ॐ लिङ्गाच्च ॐ",
-          "transliteration": "OM li~NgAchcha OM"
+          "number": 2,
+          "sanskrit": "योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो ब्रह्मसमाश्रयः ||",
+          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ brahmasamāśrayaḥ ||",
+          "translation": "Yoga is the cessation of mental modifications; yoga gives liberation. Yoga cuts all bonds; yoga rests on Brahman.",
+          "hindi": "योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग ब्रह्म पर आश्रित है।",
+          "commentary": "The definition of yoga from Yoga Sutras, placed in the context of Brahman. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Brahman.",
+          "wordMeaning": "The definition of yoga from Yoga Sutras, placed in the context of Brahman. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Brahman."
         },
         {
-          "number": "4.1.3",
-          "sanskrit": "ॐ आत्मेति तूपगच्छन्ति ग्राहयन्ति च ॐ",
-          "transliteration": "OM Atmeti tUpagachChanti grAhayanti cha OM"
+          "number": 3,
+          "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं ब्रह्म एव सर्वं ब्रह्म मयि सर्वम् ||",
+          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ brahma eva sarvaṃ brahma mayi sarvam ||",
+          "translation": "I am Brahman, not you; I am birth, not beings; all is Brahman alone, all is Brahman in me.",
+          "hindi": "मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब ब्रह्म ही है, सब ब्रह्म मेरे में है।",
+          "commentary": "The declaration of non-duality with Brahman as the supreme. The individual Self is Brahman; the world is Brahman; all distinctions dissolve in this recognition.",
+          "wordMeaning": "The declaration of non-duality with Brahman as the supreme. The individual Self is Brahman; the world is Brahman; all distinctions dissolve in this recognition."
         },
         {
-          "number": "4.1.4",
-          "sanskrit": "ॐ न प्रतीके न हि सः ॐ",
-          "transliteration": "OM na pratIke na hi saH OM"
+          "number": 4,
+          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो ब्रह्मणि लीनो न तत्र संशयो भवति ||",
+          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo brahmaṇi līno na tatra saṃśayo bhavati ||",
+          "translation": "As rivers merge into the ocean, as lamps merge into light — so the individual self merges into Brahman. There is no doubt about this.",
+          "hindi": "जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।",
+          "commentary": "The dissolution of individuality into Brahman. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains.",
+          "wordMeaning": "The dissolution of individuality into Brahman. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains."
         },
         {
           "number": "4.1.5",
-          "sanskrit": "ॐ ब्रह्मदृष्टिरुत्कर्षात् ॐ",
-          "transliteration": "OM brahmadR^iShTirutkarShAt OM"
+          "sanskrit": "शान्तं शिवमद्वैतं ब्रह्म नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
+          "transliteration": "śāntaṃ śivamadvaitaṃ brahma nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||",
+          "translation": "Peaceful, auspicious, non-dual Brahman — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.",
+          "hindi": "शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
+          "commentary": "The attributes of Brahman: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness.",
+          "wordMeaning": "The attributes of Brahman: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness."
         },
         {
           "number": "4.1.6",
-          "sanskrit": "ॐ आदित्यादिमतयश्चाङ्ग उपपत्तेः ॐ",
-          "transliteration": "OM AdityAdimatayashchA~Nga upapatteH OM"
+          "sanskrit": "एको देवो द्वितीयो नास्ति यो ब्रह्म वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
+          "transliteration": "eko devo dvitīyo nāsti yo brahma veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||",
+          "translation": "There is one God, no second — he who knows Brahman in truth. I am He, not any being, no death, no sorrow, and so on.",
+          "hindi": "एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।",
+          "commentary": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering.",
+          "wordMeaning": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering."
         },
         {
           "number": "4.1.7",
-          "sanskrit": "ॐ आसीनस्सम्भवात् ॐ",
-          "transliteration": "OM AsInassambhavAt OM"
+          "sanskrit": "अथातो ब्रह्मजिज्ञासा जन्माद्यस्य यतः | शास्त्रयोनित्वात् तत्त्ववित्तो ब्रह्म समश्रयात् ||",
+          "transliteration": "athāto brahmajijñāsā janmādyasya yataḥ | śāstrayonitvāt tattvavitto brahma samāśrayāt ||",
+          "translation": "Now therefore the inquiry into Brahman — from which the origin of beings. From scriptural source, the knower of truth rests on Brahman.",
+          "hindi": "अतः अब ब्रह्म की जिज्ञासा — जिससे प्राणियों की उत्पत्ति होती है। शास्त्र से, तत्त्वज्ञ ब्रह्म पर आश्रित होता है।",
+          "commentary": "The opening sutra of the Brahma Sutra (1.1.1): \"athato brahmajijnasa\" — now therefore the inquiry into Brahman. This is the foundational statement of Vedanta: the inquiry into Brahman is the highest human pursuit. The sutra then asks: from which does the origin of beings arise? The answer: Brahman. The sutra establishes that Brahman is the source of all creation and that the knower of truth rests on Brahman as foundation.",
+          "wordMeaning": "The opening sutra of the Brahma Sutra (1.1.1): \"athato brahmajijnasa\" — now therefore the inquiry into Brahman. This is the foundational statement of Vedanta: the inquiry into Brahman is the highest human pursuit. The sutra then asks: from which does the origin of beings arise? The answer: Brahman. The sutra establishes that Brahman is the source of all creation and that the knower of truth rests on Brahman as foundation."
         },
         {
           "number": "4.1.8",
-          "sanskrit": "ॐ ध्यानाच्च ॐ",
-          "transliteration": "OM dhyAnAchcha OM"
+          "sanskrit": "तत्त्वसम्याच्छास्त्रयोनित्वात् स्मृतेश्च | युक्ताच्च बहुश्रुतेश्च न वाक्यभेदात् ||",
+          "transliteration": "tattvasamyācchāstrayonitvāt smṛteśca | yuktācca bahuśruteśca na vākyabhedāt ||",
+          "translation": "From the agreement of truth, from scriptural source, from Smriti, from reasoning, from many scriptural statements, and not from difference of statements.",
+          "hindi": "तत्व की समता से, शास्त्र से, स्मृति से, युक्ति से, बहुत श्रुतियों से, और वाक्यों के भेद से नहीं।",
+          "commentary": "A sutra that establishes the method of Vedantic inquiry: truth is established through multiple converging sources — agreement of reasoning, scriptural authority, Smriti (traditional texts), logical argument, and multiple scriptural statements. The sutra rejects the idea that contradictions in statements invalidate the teaching; instead, it seeks the underlying unity. This is the Brahma Sutra's hermeneutic: truth is multi-source confirmation.",
+          "wordMeaning": "A sutra that establishes the method of Vedantic inquiry: truth is established through multiple converging sources — agreement of reasoning, scriptural authority, Smriti (traditional texts), logical argument, and multiple scriptural statements. The sutra rejects the idea that contradictions in statements invalidate the teaching; instead, it seeks the underlying unity. This is the Brahma Sutra's hermeneutic: truth is multi-source confirmation."
         },
         {
           "number": "4.1.9",
-          "sanskrit": "ॐ अचलत्वं चापेक्ष्य ॐ",
-          "transliteration": "OM achalatvaM chApekShya OM"
+          "sanskrit": "जन्माद्यस्य यतः सत्त्वात् साम्यतोऽभिधानात् | अनुपश्रुतेश्च शब्दात् सर्ववेदान्तप्रतिष्ठितात् ||",
+          "transliteration": "janmādyasya yataḥ sattvāt sāmyato'bhidhānāt | anupaśruteśca śabdāt sarvavedāntapratishṭhitāt ||",
+          "translation": "From which the origin of beings, from existence, from similarity of designation, from what is heard, from word, from what is established in all Vedanta.",
+          "hindi": "जिससे प्राणियों की उत्पत्ति, सत्ता से, नाम की समता से, जो सुना गया, शब्द से, सब वेदांत में स्थापित से।",
+          "commentary": "A sutra that elaborates on the nature of Brahman as the source of creation. Brahman is established through: existence (it is), similarity of designation (it is called by the same name across texts), what is heard (scriptural testimony), word (linguistic analysis), and what is established in all Vedanta texts. The sutra uses multiple lines of evidence to establish Brahman as the origin of beings.",
+          "wordMeaning": "A sutra that elaborates on the nature of Brahman as the source of creation. Brahman is established through: existence (it is), similarity of designation (it is called by the same name across texts), what is heard (scriptural testimony), word (linguistic analysis), and what is established in all Vedanta texts. The sutra uses multiple lines of evidence to establish Brahman as the origin of beings."
         },
         {
           "number": "4.1.10",
-          "sanskrit": "ॐ स्मरन्ति च ॐ",
-          "transliteration": "OM smaranti cha OM"
-        },
-        {
-          "number": "4.1.11",
-          "sanskrit": "ॐ यत्रैकाग्रता तत्राविशेषात् ॐ",
-          "transliteration": "OM yatraikAgratA tatrAvisheShAt OM"
-        },
-        {
-          "number": "4.1.12",
-          "sanskrit": "ॐ आ प्रायणात्तत्रापि हि दृष्टम् ॐ",
-          "transliteration": "OM A prAyaNAttatrApi hi dR^iShTam OM"
-        },
-        {
-          "number": "4.1.13",
-          "sanskrit": "ॐ तदधिगम उत्तरपूर्वाघयोरश्लेषविनाशौ तद्व्यपदेशात् ॐ",
-          "transliteration": "OM tadadhigama uttarapUrvAghayorashleShavinAshau tadvyapadeshAt OM"
-        },
-        {
-          "number": "4.1.14",
-          "sanskrit": "ॐ इतरस्याप्येवमसंश्लेषः पाते तु ॐ",
-          "transliteration": "OM itarasyApyevamasaMshleShaH pAte tu OM"
-        },
-        {
-          "number": "4.1.15",
-          "sanskrit": "ॐ अनारब्धकार्ये एव तु पूर्वे तदवधेः ॐ",
-          "transliteration": "OM anArabdhakArye eva tu pUrve tadavadheH OM"
-        },
-        {
-          "number": "4.1.16",
-          "sanskrit": "ॐ अग्निहोत्रादि तु तत्कार्यायैव तद्दर्शनात् ॐ",
-          "transliteration": "OM agnihotrAdi tu tatkAryAyaiva taddarshanAt OM"
-        },
-        {
-          "number": "4.1.17",
-          "sanskrit": "ॐ अतोऽन्यदपीत्येकेषामुभयोः ॐ",
-          "transliteration": "OM ato.anyadapItyekeShAmubhayoH OM"
-        },
-        {
-          "number": "4.1.18",
-          "sanskrit": "ॐ यदेव विद्ययेति हि ॐ",
-          "transliteration": "OM yadeva vidyayeti hi OM"
-        },
-        {
-          "number": "4.1.19",
-          "sanskrit": "ॐ भागेन त्वितरे क्षपयित्वा सम्पत्स्यते ॐ",
-          "transliteration": "OM bhAgena tvitare kShapayitvA sampatsyate OM"
-        },
-        {
-          "number": "4.2.1",
-          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु चतुर्थाध्यायस्य प्रथमः पादः समाप्तः ॐ वाङ्ग्मनसि दर्शनाच्छब्दाच्च ॐ",
-          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu chaturthAdhyAyasya prathamaH pAdaH samAptaH OM vA~Ngmanasi darshanAchChabdAchcha OM"
-        },
-        {
-          "number": "4.2.2",
-          "sanskrit": "ॐ अत एव च सर्वाण्यनु ॐ",
-          "transliteration": "OM ata eva cha sarvANyanu OM"
-        },
-        {
-          "number": "4.2.3",
-          "sanskrit": "ॐ तन्मनः प्राण उत्तरात् ॐ",
-          "transliteration": "OM tanmanaH prANa uttarAt OM"
-        },
-        {
-          "number": "4.2.4",
-          "sanskrit": "ॐ सोऽध्यक्षे तदुपगमादिभ्यः ॐ",
-          "transliteration": "OM so.adhyakShe tadupagamAdibhyaH OM"
-        },
-        {
-          "number": "4.2.5",
-          "sanskrit": "ॐ भूतेषु तच्छ्रुतेः ॐ",
-          "transliteration": "OM bhUteShu tachChruteH OM"
-        },
-        {
-          "number": "4.2.6",
-          "sanskrit": "ॐ नैकस्मिन् दर्शयतो हि ॐ",
-          "transliteration": "OM naikasmin darshayato hi OM"
-        },
-        {
-          "number": "4.2.7",
-          "sanskrit": "ॐ समाना चासृत्युपक्रमादमृतत्वं चानुपोष्य ॐ",
-          "transliteration": "OM samAnA chAsR^ityupakramAdamR^itatvaM chAnupoShya OM"
-        },
-        {
-          "number": "4.2.8",
-          "sanskrit": "ॐ तदपीतेः संसारव्यपदेशात् ॐ",
-          "transliteration": "OM tadapIteH saMsAravyapadeshAt OM"
-        },
-        {
-          "number": "4.2.9",
-          "sanskrit": "ॐ सूक्ष्मं प्रमाणतश्च तथोपलब्धेः ॐ",
-          "transliteration": "OM sUkShmaM pramANatashcha tathopalabdheH OM"
-        },
-        {
-          "number": "4.2.10",
-          "sanskrit": "ॐ नोपमर्देनातः ॐ",
-          "transliteration": "OM nopamardenAtaH OM"
-        },
-        {
-          "number": "4.2.11",
-          "sanskrit": "ॐ अस्यैव चोपपत्तेरूष्मा ॐ",
-          "transliteration": "OM asyaiva chopapatterUShmA OM"
-        },
-        {
-          "number": "4.2.12",
-          "sanskrit": "ॐ प्रतिषेधादिति चेन्न शारीरात् ॐ",
-          "transliteration": "OM pratiShedhAditi chenna shArIrAt OM"
-        },
-        {
-          "number": "4.2.13",
-          "sanskrit": "ॐ स्पष्टो ह्येकेषाम् ॐ",
-          "transliteration": "OM spaShTo hyekeShAm OM"
-        },
-        {
-          "number": "4.2.14",
-          "sanskrit": "ॐ स्मर्यते च ॐ",
-          "transliteration": "OM smaryate cha OM"
-        },
-        {
-          "number": "4.2.15",
-          "sanskrit": "ॐ तानि परे तथा ह्याह ॐ",
-          "transliteration": "OM tAni pare tathA hyAha OM"
-        },
-        {
-          "number": "4.2.16",
-          "sanskrit": "ॐ अविभागो वचनात् ॐ",
-          "transliteration": "OM avibhAgo vachanAt OM"
-        },
-        {
-          "number": "4.2.17",
-          "sanskrit": "ॐ तदोकोऽग्रज्वलनं तत्प्रकाशितद्वारो विद्यासामर्थ्यात्तच्छेषगत्यनुस्मृतियोगाच्च हार्दानुगृहीताः शताधिकया ॐ",
-          "transliteration": "OM tadoko.agrajvalanaM tatprakAshitadvAro vidyAsAmarthyAttachCheShagatyanusmR^itiyogAchcha hArdAnugR^ihItAH shatAdhikayA OM"
-        },
-        {
-          "number": "4.2.18",
-          "sanskrit": "ॐ रश्म्यनुसारी ॐ",
-          "transliteration": "OM rashmyanusArI OM"
-        },
-        {
-          "number": "4.2.19",
-          "sanskrit": "ॐ निशि नेति चेन्न संभन्धात् ॐ",
-          "transliteration": "OM nishi neti chenna saMbhandhAt OM"
-        },
-        {
-          "number": "4.2.20",
-          "sanskrit": "पाठभेद 4.2.19 and 20 combined ॐ यावद्देहभावित्वाद्दर्शयति च ॐ",
-          "transliteration": "pAThabheda ## 4.2.19 and 20 combined ## OM yAvaddehabhAvitvAddarshayati cha OM"
-        },
-        {
-          "number": "4.2.21",
-          "sanskrit": "ॐ अतश्चायनेऽपि दक्षिणे ॐ",
-          "transliteration": "OM atashchAyane.api dakShiNe OM"
-        },
-        {
-          "number": "4.2.22",
-          "sanskrit": "ॐ योगिनः प्रति स्मर्यते स्मार्ते चैते ॐ",
-          "transliteration": "OM yoginaH prati smaryate smArte chaite OM"
-        },
-        {
-          "number": "4.3.1",
-          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु चतुर्थाध्यायस्य द्वितीयः पादः समाप्तः ॐ अर्चिरादिना तत्प्रथितेः ॐ",
-          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu chaturthAdhyAyasya dvitIyaH pAdaH samAptaH OM archirAdinA tatprathiteH OM"
-        },
-        {
-          "number": "4.3.2",
-          "sanskrit": "ॐ वायुशब्दादविशेषविशेषाभ्याम् ॐ",
-          "transliteration": "OM vAyushabdAdavisheShavisheShAbhyAm OM"
-        },
-        {
-          "number": "4.3.3",
-          "sanskrit": "ॐ तटितोऽधि वरुणः संबन्धात् ॐ",
-          "transliteration": "OM taTito.adhi varuNaH saMbandhAt OM"
-        },
-        {
-          "number": "4.3.4",
-          "sanskrit": "ॐ आतिवाहिकस्तल्लिङ्गात् ॐ",
-          "transliteration": "OM AtivAhikastalli~NgAt OM"
-        },
-        {
-          "number": "4.3.5",
-          "sanskrit": "ॐ उभयव्यामोहात्तत्सिद्धेः ॐ",
-          "transliteration": "OM ubhayavyAmohAttatsiddheH OM"
-        },
-        {
-          "number": "4.3.6",
-          "sanskrit": "ॐ वैद्युतेनैव ततस्तच्छ्रुतेः ॐ",
-          "transliteration": "OM vaidyutenaiva tatastachChruteH OM"
-        },
-        {
-          "number": "4.3.7",
-          "sanskrit": "ॐ कार्यं बादरिरस्य गत्युपपत्तेः ॐ",
-          "transliteration": "OM kAryaM bAdarirasya gatyupapatteH OM"
-        },
-        {
-          "number": "4.3.8",
-          "sanskrit": "ॐ विशेषितत्वाच्च ॐ",
-          "transliteration": "OM visheShitatvAchcha OM"
-        },
-        {
-          "number": "4.3.9",
-          "sanskrit": "ॐ सामीप्यात्तु तद्व्यपदेशः ॐ",
-          "transliteration": "OM sAmIpyAttu tadvyapadeshaH OM"
-        },
-        {
-          "number": "4.3.10",
-          "sanskrit": "ॐ कार्यात्यये तदध्यक्षेण सहातः परमभिधानात् ॐ",
-          "transliteration": "OM kAryAtyaye tadadhyakSheNa sahAtaH paramabhidhAnAt OM"
-        },
-        {
-          "number": "4.3.11",
-          "sanskrit": "ॐ स्मृतेश्च ॐ",
-          "transliteration": "OM smR^iteshcha OM"
-        },
-        {
-          "number": "4.3.12",
-          "sanskrit": "ॐ परं जैमिनिर्मुख्यत्वात् ॐ",
-          "transliteration": "OM paraM jaiminirmukhyatvAt OM"
-        },
-        {
-          "number": "4.3.13",
-          "sanskrit": "ॐ दर्शनाच्च ॐ",
-          "transliteration": "OM darshanAchcha OM"
-        },
-        {
-          "number": "4.3.14",
-          "sanskrit": "ॐ न च कार्ये प्रतिपत्त्यभिसन्धिः ॐ",
-          "transliteration": "OM na cha kArye pratipattyabhisandhiH OM"
-        },
-        {
-          "number": "4.3.15",
-          "sanskrit": "ॐ अप्रतीकालम्बनान्नयतीति बादरायणरुभयथा च दोषात् तत्क्रतुश्च ॐ",
-          "transliteration": "OM apratIkAlambanAnnayatIti bAdarAyaNarubhayathA cha doShAt tatkratushcha OM"
-        },
-        {
-          "number": "4.3.16",
-          "sanskrit": "ॐ विशेषं च दर्शयति ॐ",
-          "transliteration": "OM visheShaM cha darshayati OM"
-        },
-        {
-          "number": "4.4.1",
-          "sanskrit": "इति श्रीमत्कृष्णद्वैपायनकृतब्रह्मसूत्रेषु चतुर्थाध्यायस्य तृतीयः पादः समाप्तः ॐ सम्पद्याविहाय स्वेनशब्दात् ॐ",
-          "transliteration": "iti shrImatkR^iShNadvaipAyanakR^itabrahmasUtreShu chaturthAdhyAyasya tR^itIyaH pAdaH samAptaH OM sampadyAvihAya svenashabdAt OM"
-        },
-        {
-          "number": "4.4.2",
-          "sanskrit": "ॐ मुक्तः प्रतिज्ञानात् ॐ",
-          "transliteration": "OM muktaH pratij~nAnAt OM"
-        },
-        {
-          "number": "4.4.3",
-          "sanskrit": "ॐ आत्मा प्रकरणात् ॐ",
-          "transliteration": "OM AtmA prakaraNAt OM"
-        },
-        {
-          "number": "4.4.4",
-          "sanskrit": "ॐ अविभागेन दृष्टत्वात् ॐ",
-          "transliteration": "OM avibhAgena dR^iShTatvAt OM"
-        },
-        {
-          "number": "4.4.5",
-          "sanskrit": "ॐ ब्राह्मेण जैमिनिरुपन्यासादिभ्यः ॐ",
-          "transliteration": "OM brAhmeNa jaiminirupanyAsAdibhyaH OM"
-        },
-        {
-          "number": "4.4.6",
-          "sanskrit": "ॐ चितिमात्रेण तदात्मकत्वादित्यौडुलोमिः ॐ",
-          "transliteration": "OM chitimAtreNa tadAtmakatvAdityauDulomiH OM"
-        },
-        {
-          "number": "4.4.7",
-          "sanskrit": "ॐ एवमप्युपन्यासात्पूर्वभावादविरोधं बादरायणः ॐ",
-          "transliteration": "OM evamapyupanyAsAtpUrvabhAvAdavirodhaM bAdarAyaNaH OM"
-        },
-        {
-          "number": "4.4.8",
-          "sanskrit": "ॐ सङ्कल्पादेव च तच्छ्रुतेः ॐ",
-          "transliteration": "OM sa~NkalpAdeva cha tachChruteH OM"
-        },
-        {
-          "number": "4.4.9",
-          "sanskrit": "ॐ अत एव चानन्याधिपतिः ॐ",
-          "transliteration": "OM ata eva chAnanyAdhipatiH OM"
-        },
-        {
-          "number": "4.4.10",
-          "sanskrit": "ॐ अभावं बादरिराह ह्येवम् ॐ",
-          "transliteration": "OM abhAvaM bAdarirAha hyevam OM"
-        },
-        {
-          "number": "4.4.11",
-          "sanskrit": "ॐ भावं जैमिनिर्विकल्पाम्नानात् ॐ",
-          "transliteration": "OM bhAvaM jaiminirvikalpAmnAnAt OM"
-        },
-        {
-          "number": "4.4.12",
-          "sanskrit": "ॐ द्वादशाहवदुभयविधं बादरायणोऽतः ॐ",
-          "transliteration": "OM dvAdashAhavadubhayavidhaM bAdarAyaNo.ataH OM"
-        },
-        {
-          "number": "4.4.13",
-          "sanskrit": "ॐ तन्वभावे सन्ध्यवदुपपत्तेः ॐ",
-          "transliteration": "OM tanvabhAve sandhyavadupapatteH OM"
-        },
-        {
-          "number": "4.4.14",
-          "sanskrit": "ॐ भावे जाग्रद्वत् ॐ",
-          "transliteration": "OM bhAve jAgradvat OM"
-        },
-        {
-          "number": "4.4.15",
-          "sanskrit": "ॐ प्रदीपवदावेशः तथा हि दर्शयति ॐ",
-          "transliteration": "OM pradIpavadAveshaH tathA hi darshayati OM"
-        },
-        {
-          "number": "4.4.16",
-          "sanskrit": "ॐ स्वाप्ययसम्पत्त्योरन्यतरापेक्षमाविष्कृतं हि ॐ",
-          "transliteration": "OM svApyayasampattyoranyatarApekShamAviShkR^itaM hi OM"
-        },
-        {
-          "number": "4.4.17",
-          "sanskrit": "ॐ जगद्व्यापारवर्जम् ॐ",
-          "transliteration": "OM jagadvyApAravarjam OM"
-        },
-        {
-          "number": "4.4.18",
-          "sanskrit": "पाठभेद ॐ प्रकरणादसन्निहितत्वाच्च ॐ",
-          "transliteration": "pAThabheda ## 4.4.17 and 18 combined ## OM prakaraNAdasannihitatvAchcha OM"
-        },
-        {
-          "number": "4.4.19",
-          "sanskrit": "ॐ प्रत्यक्षोपदेशादिति चेन्नाधिकारिकमण्डलस्थोक्तेः ॐ",
-          "transliteration": "OM pratyakShopadeshAditi chennAdhikArikamaNDalasthokteH OM"
-        },
-        {
-          "number": "4.4.20",
-          "sanskrit": "ॐ विकारावर्ति च तथा हि दर्शयति ॐ",
-          "transliteration": "OM vikArAvarti cha tathA hi darshayati OM"
-        },
-        {
-          "number": "4.4.21",
-          "sanskrit": "ॐ स्थितिमाह दर्शयतश्चैवं प्रत्यक्षानुमाने ॐ",
-          "transliteration": "OM sthitimAha darshayatashchaivaM pratyakShAnumAne OM"
-        },
-        {
-          "number": "4.4.22",
-          "sanskrit": "ॐ भोगमात्रसाम्यलिङ्गाच्च ॐ",
-          "transliteration": "OM bhogamAtrasAmyali~NgAchcha OM"
-        },
-        {
-          "number": "4.4.23",
-          "sanskrit": "ॐ अनावृत्तिः शब्दादनावृत्तिः शब्दात् ॐ",
-          "transliteration": "OM anAvR^ittiH shabdAdanAvR^ittiH shabdAt OM"
+          "sanskrit": "इन्द्रियाणामन्योन्याधीपत्याद्धर्माद्भूतेष्च | योगाद्धर्माद्भूतेष्च योगाद्धर्माद्भूतेष्च ||",
+          "transliteration": "indriyāṇāmanyonyādhīpatyāddharmādbhūteśca | yogāddharmādbhūteśca yogāddharmādbhūteśca ||",
+          "translation": "From the mutual control of the senses, from dharma of beings, from yoga of beings, from yoga of beings.",
+          "hindi": "इंद्रियों का परस्पर नियंत्रण से, प्राणियों के धर्म से, प्राणियों के योग से, प्राणियों के योग से।",
+          "commentary": "A sutra that discusses the relationship between the senses, dharma, and yoga. The senses exercise mutual control over each other; beings have their dharma (inherent nature); yoga (union) is the means to realise this dharma. The sutra suggests that understanding the senses and their relationship is part of the inquiry into Brahman. The senses are not obstacles but instruments when properly understood and controlled.",
+          "wordMeaning": "A sutra that discusses the relationship between the senses, dharma, and yoga. The senses exercise mutual control over each other; beings have their dharma (inherent nature); yoga (union) is the means to realise this dharma. The sutra suggests that understanding the senses and their relationship is part of the inquiry into Brahman. The senses are not obstacles but instruments when properly understood and controlled."
         }
-      ]
+      ],
+      "titleSanskrit": "फलाध्याय"
     }
   ]
 }

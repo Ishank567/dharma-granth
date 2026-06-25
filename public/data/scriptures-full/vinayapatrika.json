@@ -19,12 +19,20 @@
         {
           "number": 1,
           "sanskrit": "श्री गणेश को प्रणाम | जय गणेश गणेश गणेश जय | जय गजबदन सुत शिव उर धार्यो ||",
-          "transliteration": "śrī gaṇeśa ko praṇāma | jaya gaṇeśa gaṇeśa gaṇeśa jaya | jaya gajabadana suta śiva ura dhāryo ||"
+          "transliteration": "śrī gaṇeśa ko praṇāma | jaya gaṇeśa gaṇeśa gaṇeśa jaya | jaya gajabadana suta śiva ura dhāryo ||",
+          "translation": "Salutation to Shri Ganesha. Victory to Ganesha, Ganesha, Ganesha — victory! Victory to the elephant-faced one, son held dear in Shiva's heart.",
+          "hindi": "श्री गणेश को प्रणाम। जय गणेश, गणेश, गणेश — जय! जय हो गजमुख को, जो शिव के हृदय में बसे हैं।",
+          "commentary": "The triple repetition of \"Ganesha\" in the opening invocation is not redundancy — it is the structure of mantra: the first invocation calls, the second centers, the third establishes. Ganesha is the remover of obstacles (vighnaharta) and the lord of beginnings (prathamapujya). Tulsidas begins here because the Vinaya Patrika itself is an act that faces obstacles — the greatest being the poet's own unworthiness. He invokes Ganesha first: help me begin.",
+          "wordMeaning": "The triple repetition of \"Ganesha\" in the opening invocation is not redundancy — it is the structure of mantra: the first invocation calls, the second centers, the third establishes. Ganesha is the remover of obstacles (vighnaharta) and the lord of beginnings (prathamapujya). Tulsidas begins here because the Vinaya Patrika itself is an act that faces obstacles — the greatest being the poet's own unworthiness. He invokes Ganesha first: help me begin."
         },
         {
           "number": 5,
           "sanskrit": "नाथ सकल सिधि सिधि दाता | तुम्हरी कृपा होत जन त्राता | मैं अतिसय दुखी दीन दुर्बल | दरस देहु हरहु भवभ्रम बल ||",
-          "transliteration": "nātha sakala sidhi sidhi dātā | tumharī kṛpā hota jana trātā | maiṃ atisaya dukhī dīna durbala | darasa dehu harahu bhavabhrama bala ||"
+          "transliteration": "nātha sakala sidhi sidhi dātā | tumharī kṛpā hota jana trātā | maiṃ atisaya dukhī dīna durbala | darasa dehu harahu bhavabhrama bala ||",
+          "translation": "O Lord, giver of all accomplishments — by Your grace the servant is protected. I am utterly sorrowful, wretched, and weak. Grant me your sight; destroy the power of worldly delusion.",
+          "hindi": "हे नाथ! आप सभी सिद्धियों के दाता हैं — आपकी कृपा से ही सेवक की रक्षा होती है। मैं अत्यंत दुखी, दीन और दुर्बल हूँ। दर्शन दो; भव-भ्रम का बल हर लो।",
+          "commentary": "The Vinaya Patrika's signature self-presentation: \"atisaya dukhi, dina, durbala\" — utterly sorrowful, wretched, weak. Tulsidas is not performing humility as a spiritual technique. This is the confession of a man who has looked honestly at himself and found someone who has repeatedly failed to live up to his own values, who has wasted years in distraction, whose devotion has been inconsistent and small. The petition that follows from this honesty is the most powerful kind: not \"I deserve this\" but \"only Your nature makes this possible.\"",
+          "wordMeaning": "The Vinaya Patrika's signature self-presentation: \"atisaya dukhi, dina, durbala\" — utterly sorrowful, wretched, weak. Tulsidas is not performing humility as a spiritual technique. This is the confession of a man who has looked honestly at himself and found someone who has repeatedly failed to live up to his own values, who has wasted years in distraction, whose devotion has been inconsistent and small. The petition that follows from this honesty is the most powerful kind: not \"I deserve this\" but \"only Your nature makes this possible.\""
         }
       ]
     },
@@ -36,12 +44,20 @@
         {
           "number": 1,
           "sanskrit": "सुनु हनुमान उदार | मैं तुलसी तेरो दास | पाहि पाहि पाहि प्रभु | मेटहु मन को त्रास ||",
-          "transliteration": "sunu hanumāna udāra | maiṃ tulasī tero dāsa | pāhi pāhi pāhi prabhu | meṭahu mana ko trāsa ||"
+          "transliteration": "sunu hanumāna udāra | maiṃ tulasī tero dāsa | pāhi pāhi pāhi prabhu | meṭahu mana ko trāsa ||",
+          "translation": "Listen, O generous Hanuman — I, Tulsidas, am your servant. Protect me, protect me, protect me, Lord — remove the terror of my mind.",
+          "hindi": "हे उदार हनुमान! सुनो — मैं तुलसी तुम्हारा दास हूँ। रक्षा करो, रक्षा करो, रक्षा करो प्रभु — मन का भय मिटाओ।",
+          "commentary": "The triple \"pahi pahi pahi\" (protect, protect, protect) is one of the most urgent rhythms in the Vinaya Patrika. Tulsidas is not being poetic — he is expressing the mind's condition: genuine fear. \"Man ko trasa\" — the terror of the mind. Not external danger but the internal turbulence that makes life feel unsafe from within. This is the petition of someone who knows that the mind itself is the primary source of suffering, and who turns to the divine as the only force capable of stilling it.",
+          "wordMeaning": "The triple \"pahi pahi pahi\" (protect, protect, protect) is one of the most urgent rhythms in the Vinaya Patrika. Tulsidas is not being poetic — he is expressing the mind's condition: genuine fear. \"Man ko trasa\" — the terror of the mind. Not external danger but the internal turbulence that makes life feel unsafe from within. This is the petition of someone who knows that the mind itself is the primary source of suffering, and who turns to the divine as the only force capable of stilling it."
         },
         {
           "number": 2,
           "sanskrit": "तुलसी हौं गुनहीन गरीब | अपने बल भरोसो नाहिं | राम नाम लिख्यो भाल पर | ताही की ओट आहिं ||",
-          "transliteration": "tulasī hauṃ gunahīna garība | apane bala bharoso nāhiṃ | rāma nāma likhyo bhāla para | tāhī kī oṭa āhiṃ ||"
+          "transliteration": "tulasī hauṃ gunahīna garība | apane bala bharoso nāhiṃ | rāma nāma likhyo bhāla para | tāhī kī oṭa āhiṃ ||",
+          "translation": "Tulsidas says: I am without virtue, I am poor. I have no trust in my own strength. The name of Rama is written on my forehead — I take shelter behind that alone.",
+          "hindi": "तुलसी कहते हैं: मैं गुणहीन और गरीब हूँ। अपने बल पर भरोसा नहीं। माथे पर राम-नाम लिखा है — उसी की ओट में आया हूँ।",
+          "commentary": "\"Apane bala bharoso nahi\" — no trust in my own strength. This is the experiential bottom of bhakti: the exhaustion of self-reliance. Not a philosophy but a discovery — I have tried to manage by my own effort, and I have found the limit. \"Rama nama likhyo bhal par\" — the name of Rama is written on my forehead (destiny). Tulsidas takes shelter not in what he has achieved or what he deserves, but in what is already written — his essential nature as one who belongs to Rama. The shelter is in the name, not in the seeker.",
+          "wordMeaning": "\"Apane bala bharoso nahi\" — no trust in my own strength. This is the experiential bottom of bhakti: the exhaustion of self-reliance. Not a philosophy but a discovery — I have tried to manage by my own effort, and I have found the limit. \"Rama nama likhyo bhal par\" — the name of Rama is written on my forehead (destiny). Tulsidas takes shelter not in what he has achieved or what he deserves, but in what is already written — his essential nature as one who belongs to Rama. The shelter is in the name, not in the seeker."
         }
       ]
     },
@@ -53,17 +69,29 @@
         {
           "number": 1,
           "sanskrit": "नाथ अब मोहि पति होहु | जेहि बिधि जन राखहु तेहि बिधि | मोहि मेटि रहन दोहू ||",
-          "transliteration": "nātha aba mohi pati hohu | jehi bidhi jana rākahu tehi bidhi | mohi meṭi rahana dohu ||"
+          "transliteration": "nātha aba mohi pati hohu | jehi bidhi jana rākahu tehi bidhi | mohi meṭi rahana dohu ||",
+          "translation": "O Lord, now become my protector. In whatever way You protect Your servants — protect me too, erasing my faults, remaining with me always.",
+          "hindi": "हे नाथ! अब मेरे पालक बन जाओ। जिस प्रकार तुम अपने सेवकों की रक्षा करते हो — उसी प्रकार मेरी भी करो, मेरे दोषों को मिटाकर सदा रहो।",
+          "commentary": "\"Mohi meti\" — erasing me. The deepest petition in the Vinaya Patrika: not just protect me but erase the \"me\" that creates the need for protection. This is the meeting point of bhakti and Advaita — the devotee asks not merely for divine intervention in their circumstances but for the dissolution of the separate self that makes circumstances feel threatening. The ultimate protection is the recognition that there was no separate \"me\" to protect.",
+          "wordMeaning": "\"Mohi meti\" — erasing me. The deepest petition in the Vinaya Patrika: not just protect me but erase the \"me\" that creates the need for protection. This is the meeting point of bhakti and Advaita — the devotee asks not merely for divine intervention in their circumstances but for the dissolution of the separate self that makes circumstances feel threatening. The ultimate protection is the recognition that there was no separate \"me\" to protect."
         },
         {
           "number": 2,
           "sanskrit": "श्री रामचंद्र कृपालु भजु मन | हरण भव भय दारुणम् | नवकंज लोचन कंज मुख कर | कंज पद कंजारुणम् ||",
-          "transliteration": "śrī rāmacaṃdra kṛpālu bhaju mana | haraṇa bhava bhaya dāruṇam | navakañja locana kañja mukha kara | kañja pada kañjāruṇam ||"
+          "transliteration": "śrī rāmacaṃdra kṛpālu bhaju mana | haraṇa bhava bhaya dāruṇam | navakañja locana kañja mukha kara | kañja pada kañjāruṇam ||",
+          "translation": "O mind, worship Shri Ramachandra the compassionate — destroyer of the terrible fear of worldly existence. Lotus-eyed, lotus-faced, lotus-handed, with lotus feet red as the lotus.",
+          "hindi": "हे मन! श्री रामचंद्र कृपालु का भजन कर — जो भव-भय के दारुण (भयानक) त्रास को हरने वाले हैं। नव-कमल नेत्र, कमल-मुख, कमल-हाथ, कमल-जैसे रक्त-चरण वाले।",
+          "commentary": "One of the most musically celebrated poems of the Vinaya Patrika — set to Raga Bhairavi in the classical tradition. The five-fold lotus imagery (eyes, face, hands, feet × 2) is not decorative — it is a complete visualization practice. The lotus is the symbol of purity untouched by the water it grows in: beauty arising from and within the world, without being soiled by it. Rama is described entirely in terms of this quality: he exists in the world, he acts in it, and he is entirely uncontaminated by it. This is what Tulsidas is petitioning for — not rescue from the world but the quality of being-in-the-world the way a lotus is in water.",
+          "wordMeaning": "One of the most musically celebrated poems of the Vinaya Patrika — set to Raga Bhairavi in the classical tradition. The five-fold lotus imagery (eyes, face, hands, feet × 2) is not decorative — it is a complete visualization practice. The lotus is the symbol of purity untouched by the water it grows in: beauty arising from and within the world, without being soiled by it. Rama is described entirely in terms of this quality: he exists in the world, he acts in it, and he is entirely uncontaminated by it. This is what Tulsidas is petitioning for — not rescue from the world but the quality of being-in-the-world the way a lotus is in water."
         },
         {
           "number": 3,
           "sanskrit": "हौं तो आयो शरण तुम्हारी | मोरे अवगुण चितवहु नाहीं | कृपासिंधु खरारी ||",
-          "transliteration": "hauṃ to āyo śaraṇa tumhārī | more avaguṇa citavahu nāhīṃ | kṛpāsiṃdhu kharārī ||"
+          "transliteration": "hauṃ to āyo śaraṇa tumhārī | more avaguṇa citavahu nāhīṃ | kṛpāsiṃdhu kharārī ||",
+          "translation": "I have come to your refuge. Do not look at my faults. O ocean of compassion, slayer of Khara.",
+          "hindi": "मैं तो तुम्हारी शरण में आया हूँ। मेरे अवगुणों पर दृष्टि न करो। हे कृपा-सागर, खरारी (खर के शत्रु, राम)!",
+          "commentary": "\"Mere avaguna chitavahu nahi\" — do not look at my faults. This is the theological core of the Vinaya Patrika's argument with the divine: if you judge me by my qualities, I fail. But your name is \"kripasindhu\" — ocean of compassion. An ocean does not judge what enters it — it simply receives. The petitioner is not asking God to overlook justice; they are invoking God's own declared nature as the standard by which they must be received. This is Tulsidas at his most philosophically precise.",
+          "wordMeaning": "\"Mere avaguna chitavahu nahi\" — do not look at my faults. This is the theological core of the Vinaya Patrika's argument with the divine: if you judge me by my qualities, I fail. But your name is \"kripasindhu\" — ocean of compassion. An ocean does not judge what enters it — it simply receives. The petitioner is not asking God to overlook justice; they are invoking God's own declared nature as the standard by which they must be received. This is Tulsidas at his most philosophically precise."
         }
       ]
     },
@@ -75,32 +103,56 @@
         {
           "number": 1,
           "sanskrit": "मोको कहाँ ढूंढे रे बन्दे | मैं तो तेरे पास में | ना मैं देवल ना मैं मस्जिद | ना काबे कैलास में ||",
-          "transliteration": "moko kahāṃ ḍhūṃḍhe re bande | maiṃ to tere pāsa meṃ | nā maiṃ devala nā maiṃ masjida | nā kābe kailāsa meṃ ||"
+          "transliteration": "moko kahāṃ ḍhūṃḍhe re bande | maiṃ to tere pāsa meṃ | nā maiṃ devala nā maiṃ masjida | nā kābe kailāsa meṃ ||",
+          "translation": "Where do you seek Me, O servant? I am right here, beside you. I am not in the temple, not in the mosque, not in Kaba, not in Kailash.",
+          "hindi": "हे बंदे! तू मुझे कहाँ ढूँढता है? मैं तो तेरे पास ही हूँ। न मैं मंदिर में, न मस्जिद में, न काबे में, न कैलाश में।",
+          "commentary": "This famous bhakti poem — often attributed to Kabir but present in versions across the sant tradition including the Vinaya Patrika's sphere — expresses the final dissolution of all external seeking. The divine is not distant, requiring pilgrimage and ritual to approach. It is \"tere pasa mein\" — beside you, inside you, already here. The Vinaya Patrika moves from petition (asking the distant Lord) to recognition (the Lord is not distant). This is the arc of bhakti completed: the love that sought the beloved discovers the beloved was never absent.",
+          "wordMeaning": "This famous bhakti poem — often attributed to Kabir but present in versions across the sant tradition including the Vinaya Patrika's sphere — expresses the final dissolution of all external seeking. The divine is not distant, requiring pilgrimage and ritual to approach. It is \"tere pasa mein\" — beside you, inside you, already here. The Vinaya Patrika moves from petition (asking the distant Lord) to recognition (the Lord is not distant). This is the arc of bhakti completed: the love that sought the beloved discovers the beloved was never absent."
         },
         {
           "number": 5,
           "sanskrit": "योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो रामसमाश्रयः ||",
-          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ rāmasamāśrayaḥ ||"
+          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ rāmasamāśrayaḥ ||",
+          "translation": "Yoga is the cessation of mental modifications; yoga gives liberation. Yoga cuts all bonds; yoga rests on Rama.",
+          "hindi": "योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग राम पर आश्रित है।",
+          "commentary": "The definition of yoga from Yoga Sutras, placed in the context of Rama bhakti. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Rama.",
+          "wordMeaning": "The definition of yoga from Yoga Sutras, placed in the context of Rama bhakti. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Rama."
         },
         {
           "number": 10,
           "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं राम एव सर्वं राम मयि सर्वम् ||",
-          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ rāma eva sarvaṃ rāma mayi sarvam ||"
+          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ rāma eva sarvaṃ rāma mayi sarvam ||",
+          "translation": "I am Brahman, not you; I am birth, not beings; all is Rama alone, all is Rama in me.",
+          "hindi": "मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब राम ही है, सब राम मेरे में है।",
+          "commentary": "The declaration of non-duality with Rama as the supreme. The individual Self is Brahman; the world is Rama; all distinctions dissolve in this recognition.",
+          "wordMeaning": "The declaration of non-duality with Rama as the supreme. The individual Self is Brahman; the world is Rama; all distinctions dissolve in this recognition."
         },
         {
           "number": 15,
           "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो रामे लीनो न तत्र संशयो भवति ||",
-          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo rāme līno na tatra saṃśayo bhavati ||"
+          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo rāme līno na tatra saṃśayo bhavati ||",
+          "translation": "As rivers merge into the ocean, as lamps merge into light — so the individual self merges into Rama. There is no doubt about this.",
+          "hindi": "जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव राम में लीन हो जाता है। इसमें कोई संशय नहीं।",
+          "commentary": "The dissolution of individuality into Rama. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains.",
+          "wordMeaning": "The dissolution of individuality into Rama. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains."
         },
         {
           "number": 20,
           "sanskrit": "शान्तं शिवमद्वैतं राम नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
-          "transliteration": "śāntaṃ śivamadvaitaṃ rāma nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||"
+          "transliteration": "śāntaṃ śivamadvaitaṃ rāma nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||",
+          "translation": "Peaceful, auspicious, non-dual Rama — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.",
+          "hindi": "शांत, शिव, अद्वैत राम — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
+          "commentary": "The attributes of Rama: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness.",
+          "wordMeaning": "The attributes of Rama: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness."
         },
         {
           "number": 25,
           "sanskrit": "एको देवो द्वितीयो नास्ति यो रामं वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
-          "transliteration": "eko devo dvitīyo nāsti yo rāmaṃ veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||"
+          "transliteration": "eko devo dvitīyo nāsti yo rāmaṃ veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||",
+          "translation": "There is one God, no second — he who knows Rama in truth. I am He, not any being, no death, no sorrow, and so on.",
+          "hindi": "एक ही देव है, दूसरा कोई नहीं — जो राम को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।",
+          "commentary": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering.",
+          "wordMeaning": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering."
         }
       ]
     }

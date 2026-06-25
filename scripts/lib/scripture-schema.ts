@@ -10,6 +10,10 @@ export interface FullVerse {
   hindi?: string;
   wordMeaning?: string;
   commentary?: string;
+  explanation?: string;
+  science?: string;
+  lifeLesson?: string;
+  keywords?: string[];
 }
 
 export interface FullChapter {

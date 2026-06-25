@@ -14,12 +14,17 @@ LAT = re.compile(r'[A-Za-z]')
 HDR = re.compile(r'^\s*\.\.|##|endtitles', re.I)
 
 def latin_ratio(s: str) -> float:
-    d = len(DEV.findall(s or "")); l = len(LAT.findall(s or ""))
-    return l / (d + l) if (d + l) else 0.0
+    if not s:
+        return 0.0
+    return len(LAT.findall(s)) / len(s)
+
+def mixed_hdr(s: str) -> bool:
+    """Devanagari verse with >8% Latin (mangled title/ITRANS tail)."""
+    return bool(DEV.search(s or "")) and latin_ratio(s or "") > 0.08
 
 def main() -> None:
     base = os.path.join(os.path.dirname(__file__), "..", "public", "data", "scriptures-full")
-    print(f"{'id':22s}{'verses':>8}{'script':>11}{'tr%':>5}{'hi%':>5}{'hdr':>5}")
+    print(f"{'id':22s}{'verses':>8}{'script':>11}{'tr%':>5}{'hi%':>5}{'hdr':>5}{'mix':>5}")
     for f in sorted(glob.glob(os.path.join(base, "*.json"))):
         d = json.load(open(f, encoding="utf-8"))
         vs = [v for c in d.get("chapters", []) for v in c.get("verses", [])]
@@ -32,7 +37,8 @@ def main() -> None:
         mid = san[len(san) // 2]["sanskrit"] if san else ""
         script = "romanized" if latin_ratio(mid) > 0.5 else "devanagari"
         hdr = sum(1 for v in vs if HDR.search((v.get("sanskrit") or "")[:30]))
-        print(f"{d.get('id'):22s}{n:>8}{script:>11}{round(100*tr/n):>5}{round(100*hi/n):>5}{hdr:>5}")
+        mix = sum(1 for v in vs if mixed_hdr(v.get("sanskrit") or ""))
+        print(f"{d.get('id'):22s}{n:>8}{script:>11}{round(100*tr/n):>5}{round(100*hi/n):>5}{hdr:>5}{mix:>5}")
 
 if __name__ == "__main__":
     main()

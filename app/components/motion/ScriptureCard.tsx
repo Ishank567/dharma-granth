@@ -26,22 +26,34 @@ export function ScriptureCard({
   const reduce = useReducedMotion();
 
   return (
-    <Link href={href} className="block focus:outline-none" style={{ perspective: '1000px' }}>
+    <Link href={href} className="block focus:outline-none" style={{ perspective: '1200px' }}>
       <motion.div
-        className={className}
+        className={`${className} relative overflow-hidden`}
         whileHover={
           reduce
             ? undefined
             : {
-                y: -6,
-                rotateX: -2,
-                rotateY: 1,
-                transition: { type: 'spring', stiffness: 400, damping: 20 },
+                y: -8,
+                rotateX: -3,
+                rotateY: 2,
+                scale: 1.02,
+                boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.15)',
+                transition: { type: 'spring', stiffness: 300, damping: 25 },
               }
         }
-        whileTap={reduce ? undefined : { scale: 0.98 }}
+        whileTap={reduce ? undefined : { scale: 0.97 }}
         style={{ transformStyle: 'preserve-3d' }}
       >
+        {/* Glassmorphism shine effect on hover */}
+        <motion.div
+          className="absolute inset-0 pointer-events-none"
+          initial={{ opacity: 0 }}
+          whileHover={{
+            opacity: 1,
+            background: 'linear-gradient(135deg, rgba(255,255,255,0.1) 0%, transparent 50%)',
+          }}
+          transition={{ duration: 0.3 }}
+        />
         {children}
       </motion.div>
     </Link>

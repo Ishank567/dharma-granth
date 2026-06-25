@@ -31,4 +31,35 @@ export const mahanarayanaHi: HiCommentaryFragment = {
   '3:25': {
     explanation: `अद्वैत की पुष्टि: एक ही सत्ता है, दूसरा कोई नहीं। ज्ञाता पहचानता है कि "मैं वही हूँ" और मृत्यु, शोक तथा समस्त दुःख से परे हो जाता है।`,
   },
+
+  '1:5': {
+    explanation: `योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग नारायण पर आश्रित है।`,
+    science: `Neuroscience of flow (Csikszentmihalyi): in flow states, the prefrontal cortex temporarily deactivates — self-referential thinking ceases, and action becomes spontaneous. This is the psychological correlate of liberation: action without the doer.`,
+    lifeLesson: `Freedom is not the absence of responsibility — it is the absence of the ego that resists responsibility. When you act without attachment to results, you are already free, even in the midst of action.`,
+  },
+  '1:8': {
+    explanation: `हम सुगन्धित, पोषण करने वाले त्र्यम्बक (तीन नेत्रों वाले शिव) की उपासना करते हैं। जैसे ककड़ी बन्धन से मुक्त हो जाती है — हम मृत्यु से मुक्त हों, अमृत से नहीं।`,
+    science: `Neuroscience of loss aversion (Kahneman): the brain processes loss in the amygdala with twice the intensity of equivalent gains. Accepting impermanence reduces this bias, leading to more balanced decision-making and emotional resilience.`,
+    lifeLesson: `Everything changes — your body, relationships, circumstances, even your mind. Clinging to what is changing causes suffering. Practice letting go gracefully, and you will find peace that does not depend on circumstances.`,
+  },
+  '1:10': {
+    explanation: `मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब नारायण ही है, सब नारायण मेरे में है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '1:15': {
+    explanation: `जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव नारायण में लीन हो जाता है। इसमें कोई संशय नहीं।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '1:20': {
+    explanation: `शांत, शिव, अद्वैत नारायण — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '1:25': {
+    explanation: `एक ही देव है, दूसरा कोई नहीं — जो नारायण को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।`,
+    science: `Neuroscience of loss aversion (Kahneman): the brain processes loss in the amygdala with twice the intensity of equivalent gains. Accepting impermanence reduces this bias, leading to more balanced decision-making and emotional resilience.`,
+    lifeLesson: `Everything changes — your body, relationships, circumstances, even your mind. Clinging to what is changing causes suffering. Practice letting go gracefully, and you will find peace that does not depend on circumstances.`,
+  },
 };

@@ -8,7 +8,7 @@
     "license": "Sanskrit mūla — public domain (2500+ years old). sanskritdocuments.org publishes digitized text under permissive terms.",
     "fetchedAt": "2026-06-02T08:28:54.342Z"
   },
-  "totalVerses": 34,
+  "totalVerses": 40,
   "totalChapters": 4,
   "chapters": [
     {
@@ -16,46 +16,88 @@
       "title": "Khaṇḍa 1",
       "verses": [
         {
+          "number": 1,
+          "sanskrit": "केनेषितं पतति प्रेषितं मनः केन प्राणः प्रथमः प्रैति युक्तः | केनेषितां वाचमिमां वदन्ति चक्षुः श्रोत्रं क उ देवो युनक्ति ||",
+          "transliteration": "keneṣitaṃ patati preṣitaṃ manaḥ kena prāṇaḥ prathamaḥ praiti yuktaḥ | keneṣitāṃ vācamimāṃ vadanti cakṣuḥ śrotraṃ ka u devo yunakti ||",
+          "translation": "By whose will does the mind, sent forth, alight on its objects? By whom is the first breath set moving? By whose will do men speak this speech? What god directs the eye and the ear?",
+          "hindi": "किसकी इच्छा से प्रेरित मन अपने विषयों पर जाता है? किससे प्रेरित होकर पहला प्राण चलता है? किसकी इच्छा से लोग वाणी बोलते हैं? कौन देव नेत्र और कान को संचालित करता है?",
+          "commentary": "The Upanishad opens with the most fundamental question in philosophy — not \"what exists?\" but \"what is the power behind perception itself?\" The inquiry is turned away from objects and toward the unseen subject behind every act of knowing.",
+          "wordMeaning": "The Upanishad opens with the most fundamental question in philosophy — not \"what exists?\" but \"what is the power behind perception itself?\" The inquiry is turned away from objects and toward the unseen subject behind every act of knowing."
+        },
+        {
           "number": 2,
-          "sanskrit": "श्रोत्रस्य श्रोत्रं मनसो मनो यद् वाचो ह वाचं स उ प्राणस्य प्राणः । चक्षुषश्चक्षुरतिमुच्य धीराः प्रेत्यास्माल्लोकादमृता भवन्ति",
-          "transliteration": "shrotrasya shrotraM manaso mano yad.h vAcho ha vAchaM sa u prANasya prANaH | chakShuShashchakShuratimuchya dhIrAH pretyAsmAllokAdamR^itA bhavanti"
+          "sanskrit": "श्रोत्रस्य श्रोत्रं मनसो मनो यद्वाचो ह वाचं स उ प्राणस्य प्राणः | चक्षुषश्चक्षुरतिमुच्य धीराः प्रेत्यास्माल्लोकादमृता भवन्ति ||",
+          "transliteration": "śrotrasya śrotraṃ manaso mano yadvāco ha vācaṃ sa u prāṇasya prāṇaḥ | cakṣuṣaścakṣuratimucya dhīrāḥ pretyāsmāllokādamṛtā bhavanti ||",
+          "translation": "It is the ear of the ear, the mind of the mind, the speech of speech, the life of life, the eye of the eye. The wise, transcending the senses, become immortal after departing from this world.",
+          "hindi": "वह (ब्रह्म) कान का कान, मन का मन, वाणी की वाणी, प्राण का प्राण, नेत्र का नेत्र है। इन्द्रियों से ऊपर उठकर विद्वान् लोग इस लोक से जाकर अमर हो जाते हैं।",
+          "commentary": "Brahman is not an object of perception — IT IS the power of perception itself. It cannot be seen; it is that by which the eye sees. One of the most precise formulations of the witness-Self in any philosophy.",
+          "wordMeaning": "Brahman is not an object of perception — IT IS the power of perception itself. It cannot be seen; it is that by which the eye sees. One of the most precise formulations of the witness-Self in any philosophy."
         },
         {
           "number": 3,
-          "sanskrit": "न तत्र चक्षुर्गच्छति न वाग्गच्छति नो मनः । न विद्मो न विजानीमो यथैतदनुशिष्यात्",
-          "transliteration": "na tatra chakShurgachChati na vAggachChati no manaH | na vidmo na vijAnImo yathaitadanushiShyAt"
+          "sanskrit": "न तत्र चक्षुर्गच्छति न वाग्गच्छति नो मनः | न विद्मो न विजानीमो यथैतदनुशिष्यात् ||",
+          "transliteration": "na tatra cakṣurgacchati na vāggacchati no manaḥ | na vidmo na vijānīmo yathaitadanuśiṣyāt ||",
+          "translation": "There the eye does not go, nor speech, nor mind. We do not know; we cannot understand how one should teach this.",
+          "hindi": "वहाँ न नेत्र पहुँचता है, न वाणी, न मन। हम नहीं जानते, नहीं समझ पाते कि इसकी शिक्षा कैसे दी जाए।",
+          "commentary": "A confession of teaching’s limit. The senses cannot reach Brahman; the mind cannot conceive it; speech cannot describe it. Even the teacher confesses: we do not know how to teach this. Pedagogy itself bows before the mystery.",
+          "wordMeaning": "A confession of teaching’s limit. The senses cannot reach Brahman; the mind cannot conceive it; speech cannot describe it. Even the teacher confesses: we do not know how to teach this. Pedagogy itself bows before the mystery."
         },
         {
           "number": 4,
-          "sanskrit": "अन्यदेव तद्विदितादथो अविदितादधि । इति शुश्रुम पूर्वेषां ये नस्तद्व्याचचक्षिरे",
-          "transliteration": "anyadeva tadviditAdatho aviditAdadhi | iti shushruma pUrveShAM ye nastad.hvyAchachakShire"
+          "sanskrit": "अन्यदेव तद्विदितादथो अविदितादधि | इति शुश्रुम पूर्वेषां ये नस्तद्व्याचचक्षिरे ||",
+          "transliteration": "anyadeva tadviditādatho aviditādadhi | iti śuśruma pūrveṣāṃ ye nastadvyācacakṣire ||",
+          "translation": "It is other than the known and also above the unknown. So we have heard from the ancients who explained it to us.",
+          "hindi": "वह ज्ञात से भी अन्य है और अज्ञात से भी ऊपर है। ऐसा हमने उन पूर्वजों से सुना है जिन्होंने हमें यह समझाया।",
+          "commentary": "Brahman is not \"the unknown\" — that would still place it in the category of objects. It is the very third category: not known, not unknown, but that which makes both knowing and not-knowing possible. The verse opens space beyond the knowledge/ignorance binary.",
+          "wordMeaning": "Brahman is not \"the unknown\" — that would still place it in the category of objects. It is the very third category: not known, not unknown, but that which makes both knowing and not-knowing possible. The verse opens space beyond the knowledge/ignorance binary."
         },
         {
           "number": 5,
-          "sanskrit": "यद्वाचाऽनभ्युदितं येन वागभ्युद्यते । तदेव ब्रह्म त्वं विद्धि नेदं यदिदमुपासते",
-          "transliteration": "yadvAchA.anabhyuditaM yena vAgabhyudyate | tadeva brahma tvaM viddhi nedaM yadidamupAsate"
+          "sanskrit": "यद्वाचानभ्युदितं येन वागभ्युद्यते | तदेव ब्रह्म त्वं विद्धि नेदं यदिदमुपासते ||",
+          "transliteration": "yadvācānabhyuditaṃ yena vāgabhyudyate | tadeva brahma tvaṃ viddhi nedaṃ yadidamupāsate ||",
+          "translation": "That which speech does not express, but which expresses speech itself — know that alone as Brahman, not this which people worship as such.",
+          "hindi": "जो वाणी से प्रकट नहीं होता, परन्तु जिसके द्वारा वाणी प्रकट होती है — उसी को ब्रह्म जान। उसे नहीं जो लोग पूजते हैं।",
+          "commentary": "The first of five parallel verses. Brahman is the power behind speech, not its content. Whatever you worship as Brahman is already a limited object; the real Brahman is what enables the worship to happen. A radical correction to all idolatry.",
+          "wordMeaning": "The first of five parallel verses. Brahman is the power behind speech, not its content. Whatever you worship as Brahman is already a limited object; the real Brahman is what enables the worship to happen. A radical correction to all idolatry."
         },
         {
           "number": 6,
-          "sanskrit": "यन्मनसा न मनुते येनाहुर्मनो मतम् । तदेव ब्रह्म त्वं विद्धि नेदं यदिदमुपासते",
-          "transliteration": "yanmanasA na manute yenAhurmano matam | tadeva brahma tvaM viddhi nedaM yadidamupAsate"
+          "sanskrit": "यन्मनसा न मनुते येनाहुर्मनो मतम् | तदेव ब्रह्म त्वं विद्धि नेदं यदिदमुपासते ||",
+          "transliteration": "yanmanasā na manute yenāhurmano matam | tadeva brahma tvaṃ viddhi nedaṃ yadidamupāsate ||",
+          "translation": "That which the mind does not think, but by which the mind itself is thought — know that alone as Brahman, not this which people worship as such.",
+          "hindi": "जिसको मन सोच नहीं सकता, परन्तु जिसके द्वारा मन को सोचा (जाना) जाता है — उसी को ब्रह्म जान। उसे नहीं जो लोग पूजते हैं।",
+          "commentary": "The mind itself, like every other faculty, is an object in awareness. You can observe your own mind — therefore the observer is prior to the mind. That prior consciousness, in which the mind appears, is Brahman.",
+          "wordMeaning": "The mind itself, like every other faculty, is an object in awareness. You can observe your own mind — therefore the observer is prior to the mind. That prior consciousness, in which the mind appears, is Brahman."
         },
         {
           "number": 7,
-          "sanskrit": "यच्चक्षुषा न पश्यति येन चक्षूँषि पश्यति । तदेव ब्रह्म त्वं विद्धि नेदं यदिदमुपासते",
-          "transliteration": "yachchakShuShA na pashyati yena chakShU.NShi pashyati | tadeva brahma tvaM viddhi nedaM yadidamupAsate"
+          "sanskrit": "यच्चक्षुषा न पश्यति येन चक्षूंषि पश्यति | तदेव ब्रह्म त्वं विद्धि नेदं यदिदमुपासते ||",
+          "transliteration": "yaccakṣuṣā na paśyati yena cakṣūṃṣi paśyati | tadeva brahma tvaṃ viddhi nedaṃ yadidamupāsate ||",
+          "translation": "That which the eye does not see, but by which the eye sees — know that alone as Brahman, not this which people worship as such.",
+          "hindi": "जिसको नेत्र नहीं देख सकता, परन्तु जिसके द्वारा नेत्र देखता है — उसी को ब्रह्म जान। उसे नहीं जो लोग पूजते हैं।",
+          "commentary": "The eye cannot see itself; the seer cannot be seen. Yet there is a power that animates seeing. That power is Brahman. The verse is a precise instruction for inverting attention: look not at the seen, nor the seeing, but at the seer.",
+          "wordMeaning": "The eye cannot see itself; the seer cannot be seen. Yet there is a power that animates seeing. That power is Brahman. The verse is a precise instruction for inverting attention: look not at the seen, nor the seeing, but at the seer."
         },
         {
           "number": 8,
-          "sanskrit": "यच्छ्रोत्रेण न शृणोति येन श्रोत्रमिदं श्रुतम् । तदेव ब्रह्म त्वं विद्धि नेदं यदिदमुपासते",
-          "transliteration": "yachChrotreNa na shR^iNoti yena shrotramidaM shrutam | tadeva brahma tvaM viddhi nedaM yadidamupAsate"
+          "sanskrit": "यच्छ्रोत्रेण न शृणोति येन श्रोत्रमिदं श्रुतम् | तदेव ब्रह्म त्वं विद्धि नेदं यदिदमुपासते ||",
+          "transliteration": "yacchrotreṇa na śṛṇoti yena śrotramidaṃ śrutam | tadeva brahma tvaṃ viddhi nedaṃ yadidamupāsate ||",
+          "translation": "That which the ear does not hear, but by which this ear is heard (known) — know that alone as Brahman, not this which people worship as such.",
+          "hindi": "जिसको कान नहीं सुन सकता, परन्तु जिसके द्वारा यह कान सुना (जाना) जाता है — उसी को ब्रह्म जान। उसे नहीं जो लोग पूजते हैं।",
+          "commentary": "Sound exists, hearing happens — but the hearer is not itself a sound. Brahman is the silent ground in which all sounds appear. The deepest listening is not for any sound but for the listener.",
+          "wordMeaning": "Sound exists, hearing happens — but the hearer is not itself a sound. Brahman is the silent ground in which all sounds appear. The deepest listening is not for any sound but for the listener."
         },
         {
           "number": 9,
-          "sanskrit": "यत्प्राणेन न प्राणिति येन प्राणः प्रणीयते । तदेव ब्रह्म त्वं विद्धि नेदं यदिदमुपासते",
-          "transliteration": "yatprANena na prANiti yena prANaH praNIyate | tadeva brahma tvaM viddhi nedaM yadidamupAsate"
+          "sanskrit": "यत्प्राणेन न प्राणिति येन प्राणः प्रणीयते | तदेव ब्रह्म त्वं विद्धि नेदं यदिदमुपासते ||",
+          "transliteration": "yatprāṇena na prāṇiti yena prāṇaḥ praṇīyate | tadeva brahma tvaṃ viddhi nedaṃ yadidamupāsate ||",
+          "translation": "That which does not breathe by the breath, but by which the breath itself is breathed — know that alone as Brahman, not this which people worship as such.",
+          "hindi": "जो प्राण से साँस नहीं लेता, परन्तु जिसके द्वारा प्राण संचालित होता है — उसी को ब्रह्म जान। उसे नहीं जो लोग पूजते हैं।",
+          "commentary": "Breathing happens to you — you do not actually run the diaphragm by deliberate command. Watch the breath and you discover: it breathes itself. Behind the breathing is the unbreathing intelligence that animates it. That is Brahman.",
+          "wordMeaning": "Breathing happens to you — you do not actually run the diaphragm by deliberate command. Watch the breath and you discover: it breathes itself. Behind the breathing is the unbreathing intelligence that animates it. That is Brahman."
         }
-      ]
+      ],
+      "titleSanskrit": "प्रथम खण्ड"
     },
     {
       "number": 2,
@@ -63,30 +105,51 @@
       "verses": [
         {
           "number": 1,
-          "sanskrit": "॥ यदि मन्यसे सुवेदेति दहरमेवापि var दभ्रमेवापि नूनं त्वं वेत्थ ब्रह्मणो रूपम् । यदस्य त्वं यदस्य देवेष्वथ नु मीमाँस्यमेव ते मन्ये विदितम्",
-          "transliteration": "|| yadi manyase suvedeti daharamevApi ## var ## dabhramevApi nUnaM tvaM vettha brahmaNo rUpam | yadasya tvaM yadasya deveShvatha nu mImA.Nsyameva te manye viditam"
+          "sanskrit": "यदि मन्यसे सुवेदेति दहरमेवापि नूनं त्वं वेत्थ ब्रह्मणो रूपम् | यदस्य त्वं यदस्य देवेष्वथ नु मीमांस्यमेव ते मन्ये विदितम् ||",
+          "transliteration": "yadi manyase suvedeti daharamevāpi nūnaṃ tvaṃ vettha brahmaṇo rūpam | yadasya tvaṃ yadasya deveṣvatha nu mīmāṃsyameva te manye viditam ||",
+          "translation": "(Teacher to student:) If you think you know Brahman well, in truth you know only a fragment of its form, whether of it in yourself or in the gods. Therefore Brahman is still to be inquired into by you. (Student:) I think I know it.",
+          "hindi": "(आचार्य कहता है:) यदि तू सोचता है कि मैं ब्रह्म को अच्छी तरह जानता हूँ, तो वास्तव में तू उसके स्वरूप का अल्प भाग ही जानता है — चाहे अपने में, चाहे देवों में। अतः तुझे और विचार करना चाहिए। (शिष्य:) मैं समझता हूँ कि मैंने जान लिया।",
+          "commentary": "Pivotal turning point. The teacher warns: if you think you have understood Brahman, you have understood only a fragment — never the whole. Confidence in spiritual knowing is itself the disqualification.",
+          "wordMeaning": "Pivotal turning point. The teacher warns: if you think you have understood Brahman, you have understood only a fragment — never the whole. Confidence in spiritual knowing is itself the disqualification."
         },
         {
           "number": 2,
-          "sanskrit": "नाहं मन्ये सुवेदेति नो न वेदेति वेद च । यो नस्तद्वेद तद्वेद नो न वेदेति वेद च",
-          "transliteration": "nAhaM manye suvedeti no na vedeti veda cha | yo nastadveda tadveda no na vedeti veda cha"
+          "sanskrit": "नाहं मन्ये सुवेदेति नो न वेदेति वेद च | यो नस्तद्वेद तद्वेद नो न वेदेति वेद च ||",
+          "transliteration": "nāhaṃ manye suvedeti no na vedeti veda ca | yo nastadveda tadveda no na vedeti veda ca ||",
+          "translation": "(The student, matured:) I do not think I know it well; nor do I think I do not know it. He among us who knows it, knows it — and knows that he does not \"not-know\" it.",
+          "hindi": "(शिष्य, परिपक्व होकर:) मैं यह नहीं मानता कि मैंने उसे अच्छी तरह जान लिया, न ही यह कि मैं नहीं जानता। हममें से जो उसे जानता है, वह उसे जानता है, और यह भी जानता है कि वह \"नहीं जानता\" — ऐसा भी नहीं है।",
+          "commentary": "The mature response. Not 'I know' (arrogant), not 'I don't know' (resigned) — but a deeper position that includes both poles without being captured by either. This is the precise grammar of mystical realization.",
+          "wordMeaning": "The mature response. Not 'I know' (arrogant), not 'I don't know' (resigned) — but a deeper position that includes both poles without being captured by either. This is the precise grammar of mystical realization."
         },
         {
           "number": 3,
-          "sanskrit": "यस्यामतं तस्य मतं मतं यस्य न वेद सः । अविज्ञातं विजानतां विज्ञातमविजानताम्",
-          "transliteration": "yasyAmataM tasya mataM mataM yasya na veda saH | avij~nAtaM vijAnatAM vij~nAtamavijAnatAm"
+          "sanskrit": "यस्यामतं तस्य मतं मतं यस्य न वेद सः | अविज्ञातं विजानतां विज्ञातमविजानताम् ||",
+          "transliteration": "yasyāmataṃ tasya mataṃ mataṃ yasya na veda saḥ | avijñātaṃ vijānatāṃ vijñātamavijānatām ||",
+          "translation": "He who thinks he does not know — knows. He who thinks he knows — does not know. It is unknown to those who know, and known to those who do not know.",
+          "hindi": "जिसे लगता है कि मैंने नहीं जाना, उसने जान लिया है। जिसे लगता है कि मैंने जान लिया, उसने नहीं जाना। ज्ञानियों के लिए वह अज्ञात है; अज्ञानियों के लिए वह ज्ञात है।",
+          "commentary": "The most famous verse of Kena. The moment you claim 'I know' you have made Brahman into an object — but Brahman is the subject. True self-knowledge is a dissolution of the knower-known divide, not the addition of one more item to your inventory of facts.",
+          "wordMeaning": "The most famous verse of Kena. The moment you claim 'I know' you have made Brahman into an object — but Brahman is the subject. True self-knowledge is a dissolution of the knower-known divide, not the addition of one more item to your inventory of facts."
         },
         {
           "number": 4,
-          "sanskrit": "प्रतिबोधविदितं मतममृतत्वं हि विन्दते । आत्मना विन्दते वीर्यं विद्यया विन्दतेऽमृतम्",
-          "transliteration": "pratibodhaviditaM matamamR^itatvaM hi vindate | AtmanA vindate vIryaM vidyayA vindate.amR^itam"
+          "sanskrit": "प्रतिबोधविदितं मतममृतत्वं हि विन्दते | आत्मना विन्दते वीर्यं विद्यया विन्दतेऽमृतम् ||",
+          "transliteration": "pratibodhaviditaṃ matamamṛtatvaṃ hi vindate | ātmanā vindate vīryaṃ vidyayā vindate'mṛtam ||",
+          "translation": "It is known in every act of awareness — and that knowing is immortality. By the Self one finds strength; by knowledge one finds the immortal.",
+          "hindi": "वह प्रतिबोध (हर बोध-क्षण) में जाना जाता है; वही ज्ञान अमरत्व देता है। आत्मा से ही बल मिलता है, विद्या से अमृत मिलता है।",
+          "commentary": "Pratibodha-viditam — 'known in every cognition.' Brahman is not the object of a future special experience; it is the awareness that is already present in every act of knowing right now. Realization is not addition but recognition.",
+          "wordMeaning": "Pratibodha-viditam — 'known in every cognition.' Brahman is not the object of a future special experience; it is the awareness that is already present in every act of knowing right now. Realization is not addition but recognition."
         },
         {
           "number": 5,
-          "sanskrit": "इह चेदवेदीदथ सत्यमस्ति न चेदिहावेदीन्महती विनष्टिः । भूतेषु भूतेषु विचित्य धीराः प्रेत्यास्माल्लोकादमृता भवन्ति",
-          "transliteration": "iha chedavedIdatha satyamasti na chedihAvedInmahatI vinaShTiH | bhUteShu bhUteShu vichitya dhIrAH pretyAsmAllokAdamR^itA bhavanti"
+          "sanskrit": "इह चेदवेदीदथ सत्यमस्ति न चेदिहावेदीन्महती विनष्टिः | भूतेषु भूतेषु विचित्य धीराः प्रेत्यास्माल्लोकादमृता भवन्ति ||",
+          "transliteration": "iha cedavedīdatha satyamasti na cedihāvedīnmahatī vinaṣṭiḥ | bhūteṣu bhūteṣu vicitya dhīrāḥ pretyāsmāllokādamṛtā bhavanti ||",
+          "translation": "If one has realized it here, there is truth; if one has not realized it here, great is the loss. The wise, seeing it in being after being, depart from this world and become immortal.",
+          "hindi": "यदि इस लोक में जान लिया, तब सत्य है; यदि यहाँ न जान सका, तो बड़ी हानि है। धीर पुरुष प्रत्येक प्राणी में इसे देखकर, इस लोक से जाकर अमर हो जाते हैं।",
+          "commentary": "A stern reminder: realization must happen here, in this life. If you postpone it for \"later,\" you have already lost it. The wise recognize the one Self in every being — and that recognition is liberation.",
+          "wordMeaning": "A stern reminder: realization must happen here, in this life. If you postpone it for \"later,\" you have already lost it. The wise recognize the one Self in every being — and that recognition is liberation."
         }
-      ]
+      ],
+      "titleSanskrit": "द्वितीय खण्ड"
     },
     {
       "number": 3,
@@ -94,65 +157,114 @@
       "verses": [
         {
           "number": 1,
-          "sanskrit": "॥ ब्रह्म ह देवेभ्यो विजिग्ये तस्य ह ब्रह्मणो विजये देवा अमहीयन्त",
-          "transliteration": "|| brahma ha devebhyo vijigye tasya ha brahmaNo vijaye devA amahIyanta"
+          "sanskrit": "ब्रह्म ह देवेभ्यो विजिग्ये तस्य ह ब्रह्मणो विजये देवा अमहीयन्त | त ऐक्षन्तास्माकमेवायं विजयोऽस्माकमेवायं महिमेति ||",
+          "transliteration": "brahma ha devebhyo vijigye tasya ha brahmaṇo vijaye devā amahīyanta | ta aikṣantāsmākamevāyaṃ vijayo'smākamevāyaṃ mahimeti ||",
+          "translation": "Brahman, it is said, won a victory for the gods. In that victory of Brahman the gods exulted. They thought: \"Ours alone is this victory, ours alone is this glory.\"",
+          "hindi": "कहा जाता है कि ब्रह्म ने देवताओं के लिए विजय प्राप्त की। उस विजय में देवता गर्व करने लगे। वे सोचने लगे — \"यह विजय हमारी ही है, यह महिमा हमारी ही है।\"",
+          "commentary": "The setup of a teaching parable. The gods receive a real victory from Brahman, but immediately appropriate the glory to themselves. The ego's first move: take credit for what was given.",
+          "wordMeaning": "The setup of a teaching parable. The gods receive a real victory from Brahman, but immediately appropriate the glory to themselves. The ego's first move: take credit for what was given."
         },
         {
           "number": 2,
-          "sanskrit": "त ऐक्षन्तास्माकमेवायं विजयोऽस्माकमेवायं महिमेति । तद्धैषां विजज्ञौ तेभ्यो ह प्रादुर्बभूव तन्न व्यजानत किमिदं यक्षमिति",
-          "transliteration": "ta aikShantAsmAkamevAyaM vijayo.asmAkamevAyaM mahimeti | taddhaiShAM vijaj~nau tebhyo ha prAdurbabhUva tanna vyajAnata kimidaM yakShamiti"
+          "sanskrit": "तद्धैषां विजज्ञौ तेभ्यो ह प्रादुर्बभूव तन्न व्यजानत किमिदं यक्षमिति ||",
+          "transliteration": "taddhaiṣāṃ vijajñau tebhyo ha prādurbabhūva tanna vyajānata kimidaṃ yakṣamiti ||",
+          "translation": "Brahman knew their thought, and appeared before them. But they did not recognize it: \"What is this mysterious being (yakṣa)?\"",
+          "hindi": "ब्रह्म ने उनके इस विचार को जान लिया, और उनके सामने प्रकट हुआ। वे उसे पहचान न सके — \"यह अद्भुत यक्ष कौन है?\"",
+          "commentary": "Brahman appears as a mysterious yakṣa — recognized neither as Brahman nor as any familiar god. The gods are perplexed. Pride has made them blind to the very source of their power.",
+          "wordMeaning": "Brahman appears as a mysterious yakṣa — recognized neither as Brahman nor as any familiar god. The gods are perplexed. Pride has made them blind to the very source of their power."
         },
         {
           "number": 3,
-          "sanskrit": "तेऽग्निमब्रुवञ्जातवेद एतद्विजानीहि किमिदं यक्षमिति तथेति",
-          "transliteration": "te.agnimabruva~njAtaveda etadvijAnIhi kimidaM yakShamiti tatheti"
+          "sanskrit": "तेऽग्निमब्रुवञ्जातवेद एतद्विजानीहि किमेतद्यक्षमिति तथेति ||",
+          "transliteration": "te'gnimabruvañjātaveda etadvijānīhi kimetadyakṣamiti tatheti ||",
+          "translation": "They said to Agni: \"Jātaveda (knower-of-all), find out what this yakṣa is.\" \"So be it,\" he replied.",
+          "hindi": "उन्होंने अग्नि से कहा — \"हे जातवेद, पता लगा कि यह यक्ष क्या है।\" \"अच्छा,\" अग्नि ने उत्तर दिया।",
+          "commentary": "The gods delegate the inquiry to Agni, \"knower of all that is born.\" Agni accepts with full confidence — the perfect setup for his humbling.",
+          "wordMeaning": "The gods delegate the inquiry to Agni, \"knower of all that is born.\" Agni accepts with full confidence — the perfect setup for his humbling."
         },
         {
           "number": 4,
-          "sanskrit": "तदभ्यद्रवत्तमभ्यवदत्कोऽसीत्यग्निर्वा अहमस्मीत्यब्रवीज्जातवेदा वा अहमस्मीति",
-          "transliteration": "tadabhyadravattamabhyavadatko.asItyagnirvA ahamasmItyabravIjjAtavedA vA ahamasmIti"
+          "sanskrit": "तदभ्यद्रवत्तमभ्यवदत्कोऽसीत्यग्निर्वा अहमस्मीत्यब्रवीज्जातवेदा वा अहमस्मीति ||",
+          "transliteration": "tadabhyadravattamabhyavadatko'sītyagnirvā ahamasmītyabravījjātavedā vā ahamasmīti ||",
+          "translation": "He approached the yakṣa. It said: \"Who are you?\" \"I am Agni,\" he replied, \"I am Jātaveda.\"",
+          "hindi": "अग्नि उसके पास पहुँचा। यक्ष ने पूछा — \"तुम कौन हो?\" अग्नि ने कहा — \"मैं अग्नि हूँ, मैं जातवेद हूँ।\"",
+          "commentary": "The yakṣa's simple question — \"Who are you?\" — is the great spiritual question. Agni answers by his name and role. The reply identifies him with his function — exactly the move the Upanishad will dismantle.",
+          "wordMeaning": "The yakṣa's simple question — \"Who are you?\" — is the great spiritual question. Agni answers by his name and role. The reply identifies him with his function — exactly the move the Upanishad will dismantle."
         },
         {
           "number": 5,
-          "sanskrit": "तस्मिँस्त्वयि किं वीर्यमित्यपीदँ सर्वं दहेयं यदिदं पृथिव्यामिति",
-          "transliteration": "tasmi{\\m+}stvayi kiM vIryamityapIda{\\m+} sarvaM daheyaM yadidaM pR^ithivyAmiti"
+          "sanskrit": "तस्मिंस्त्वयि किं वीर्यमित्यपीदं सर्वं दहेयं यदिदं पृथिव्यामिति ||",
+          "transliteration": "tasmiṃstvayi kiṃ vīryamityapīdaṃ sarvaṃ daheyaṃ yadidaṃ pṛthivyāmiti ||",
+          "translation": "\"What power is in you?\" \"I can burn up everything that is on this earth!\"",
+          "hindi": "\"तुझमें क्या शक्ति है?\" \"जो कुछ भी इस पृथ्वी पर है, मैं उसे जला सकता हूँ!\"",
+          "commentary": "Agni boasts of universal incineration. The boast is true — fire does consume — but the verse will reveal that the power comes from somewhere beyond Agni himself.",
+          "wordMeaning": "Agni boasts of universal incineration. The boast is true — fire does consume — but the verse will reveal that the power comes from somewhere beyond Agni himself."
         },
         {
           "number": 6,
-          "sanskrit": "तस्मै तृणं निदधावेतद्दहेति । तदुपप्रेयाय सर्वजवेन तन्न शशाक दग्धुं स तत एव निववृते नैतदशकं विज्ञातुं यदेतद्यक्षमिति",
-          "transliteration": "tasmai tR^iNaM nidadhAvetaddaheti | tadupapreyAya sarvajavena tanna shashAka dagdhuM sa tata eva nivavR^ite naitadashakaM vij~nAtuM yadetadyakShamiti"
+          "sanskrit": "तस्मै तृणं निदधावेतद्दहेति | तदुपप्रेयाय सर्वजवेन तन्न शशाक दग्धुं स तत एव निववृते नैतदशकं विज्ञातुं यदेतद्यक्षमिति ||",
+          "transliteration": "tasmai tṛṇaṃ nidadhāvetaddaheti | tadupapreyāya sarvajavena tanna śaśāka dagdhuṃ sa tata eva nivavṛte naitadaśakaṃ vijñātuṃ yadetadyakṣamiti ||",
+          "translation": "The yakṣa placed a blade of grass before him: \"Burn this.\" Agni rushed at it with all his speed but could not burn it. He returned, saying: \"I could not find out what this yakṣa is.\"",
+          "hindi": "यक्ष ने उसके सामने एक तृण रखा — \"इसे जला।\" अग्नि अपनी पूरी शक्ति से उस पर झपटा, परन्तु उसे जला न सका। वह लौट आया — \"मैं नहीं जान सका कि यह यक्ष क्या है।\"",
+          "commentary": "The humiliation is exquisite — not a mountain, just a blade of grass. The cosmic fire cannot burn a single straw without the underlying power. Agni returns defeated and, crucially, honest about his defeat.",
+          "wordMeaning": "The humiliation is exquisite — not a mountain, just a blade of grass. The cosmic fire cannot burn a single straw without the underlying power. Agni returns defeated and, crucially, honest about his defeat."
         },
         {
           "number": 7,
-          "sanskrit": "अथ वायुमब्रुवन्वायवेतद्विजानीहि किमेतद्यक्षमिति तथेति",
-          "transliteration": "atha vAyumabruvanvAyavetadvijAnIhi kimetadyakShamiti tatheti"
+          "sanskrit": "अथ वायुमब्रुवन्वायवेतद्विजानीहि किमेतद्यक्षमिति तथेति ||",
+          "transliteration": "atha vāyumabruvanvāyavetadvijānīhi kimetadyakṣamiti tatheti ||",
+          "translation": "Then they said to Vāyu (wind): \"Vāyu, find out what this yakṣa is.\" \"So be it,\" he replied.",
+          "hindi": "फिर उन्होंने वायु से कहा — \"वायु, पता लगा कि यह यक्ष क्या है।\" \"अच्छा,\" वायु ने उत्तर दिया।",
+          "commentary": "A second emissary is sent — Vāyu, who pervades all space. The same confident \"tatheti\" — \"so be it.\" The pattern of futile attempts continues.",
+          "wordMeaning": "A second emissary is sent — Vāyu, who pervades all space. The same confident \"tatheti\" — \"so be it.\" The pattern of futile attempts continues."
         },
         {
           "number": 8,
-          "sanskrit": "तदभ्यद्रवत्तमभ्यवदत्कोऽसीति वायुर्वा अहमस्मीत्यब्रवीन्मातरिश्वा वा अहमस्मीति",
-          "transliteration": "tadabhyadravattamabhyavadatko.asIti vAyurvA ahamasmItyabravInmAtarishvA vA ahamasmIti"
+          "sanskrit": "तदभ्यद्रवत्तमभ्यवदत्कोऽसीति वायुर्वा अहमस्मीत्यब्रवीन्मातरिश्वा वा अहमस्मीति ||",
+          "transliteration": "tadabhyadravattamabhyavadatko'sīti vāyurvā ahamasmītyabravīnmātariśvā vā ahamasmīti ||",
+          "translation": "He approached. The yakṣa said: \"Who are you?\" \"I am Vāyu,\" he replied, \"I am Mātariśvan.\"",
+          "hindi": "वायु पास पहुँचा। यक्ष ने पूछा — \"तुम कौन हो?\" वायु ने कहा — \"मैं वायु हूँ, मैं मातरिश्वा हूँ।\"",
+          "commentary": "Same exchange, same role-bound answer. The yakṣa repeats the question — the question is unchanging because the answer never satisfies.",
+          "wordMeaning": "Same exchange, same role-bound answer. The yakṣa repeats the question — the question is unchanging because the answer never satisfies."
         },
         {
           "number": 9,
-          "sanskrit": "तस्मिँस्त्वयि किं वीर्यमित्यपीदँ सर्वमाददीय यदिदं पृथिव्यामिति",
-          "transliteration": "tasmi.Nstvayi kiM vIryamityapIda.N sarvamAdadIya yadidaM pR^ithivyAmiti"
+          "sanskrit": "तस्मिंस्त्वयि किं वीर्यमित्यपीदं सर्वमाददीय यदिदं पृथिव्यामिति ||",
+          "transliteration": "tasmiṃstvayi kiṃ vīryamityapīdaṃ sarvamādadīya yadidaṃ pṛthivyāmiti ||",
+          "translation": "\"What power is in you?\" \"I can carry off everything that is on this earth!\"",
+          "hindi": "\"तुझमें क्या शक्ति है?\" \"जो कुछ भी इस पृथ्वी पर है, मैं उसे उठा ले जा सकता हूँ!\"",
+          "commentary": "Vāyu boasts as Agni did. The wind that levels forests and lifts oceans claims universal mobility — and is about to discover that even motion requires a permission slip.",
+          "wordMeaning": "Vāyu boasts as Agni did. The wind that levels forests and lifts oceans claims universal mobility — and is about to discover that even motion requires a permission slip."
         },
         {
           "number": 10,
-          "sanskrit": "तस्मै तृणं निदधावेतदादत्स्वेति तदुपप्रेयाय सर्वजवेन तन्न शशाकादातुं स तत एव निववृते नैतदशकं विज्ञातुं यदेतद्यक्षमिति",
-          "transliteration": "tasmai tR^iNaM nidadhAvetadAdatsveti tadupapreyAya sarvajavena tanna shashAkAdAtuM sa tata eva nivavR^ite naitadashakaM vij~nAtuM yadetadyakShamiti"
+          "sanskrit": "तस्मै तृणं निदधावेतदादत्स्वेति | तदुपप्रेयाय सर्वजवेन तन्न शशाकाऽऽदातुं स तत एव निववृते नैतदशकं विज्ञातुं यदेतद्यक्षमिति ||",
+          "transliteration": "tasmai tṛṇaṃ nidadhāvetadādatsveti | tadupapreyāya sarvajavena tanna śaśākā''dātuṃ sa tata eva nivavṛte naitadaśakaṃ vijñātuṃ yadetadyakṣamiti ||",
+          "translation": "The yakṣa placed a blade of grass before him: \"Take this away.\" He rushed at it with all his speed but could not move it. He returned: \"I could not find out what this yakṣa is.\"",
+          "hindi": "यक्ष ने उसके सामने एक तृण रखा — \"इसे उठा ले जा।\" वायु अपनी पूरी शक्ति से उस पर झपटा, परन्तु उसे हिला न सका। वह लौट आया — \"मैं नहीं जान सका कि यह यक्ष क्या है।\"",
+          "commentary": "The same failure. Even Vāyu — wind, the mover of mountains — cannot stir a blade of grass. The repetition drives the teaching home: power borrowed is power conditional.",
+          "wordMeaning": "The same failure. Even Vāyu — wind, the mover of mountains — cannot stir a blade of grass. The repetition drives the teaching home: power borrowed is power conditional."
         },
         {
           "number": 11,
-          "sanskrit": "अथेन्द्रमब्रुवन्मघवन्नेतद्विजानीहि किमेतद्यक्षमिति तथेति तदभ्यद्रवत्तस्मात्तिरोदधे",
-          "transliteration": "athendramabruvanmaghavannetadvijAnIhi kimetadyakShamiti tatheti tadabhyadravattasmAttirodadhe"
+          "sanskrit": "अथेन्द्रमब्रुवन्मघवन्नेतद्विजानीहि किमेतद्यक्षमिति तथेति तदभ्यद्रवत्तस्मात्तिरोदधे ||",
+          "transliteration": "athendramabruvanmaghavannetadvijānīhi kimetadyakṣamiti tatheti tadabhyadravattasmāttirodadhe ||",
+          "translation": "Then they said to Indra: \"Maghavan (mighty one), find out what this yakṣa is.\" \"So be it,\" he replied. He approached — and the yakṣa vanished from him.",
+          "hindi": "फिर उन्होंने इन्द्र से कहा — \"हे मघवन्, पता लगा कि यह यक्ष क्या है।\" \"अच्छा,\" इन्द्र ने उत्तर दिया। वह पास पहुँचा — और यक्ष उसके सामने से अदृश्य हो गया।",
+          "commentary": "Indra approaches — but the yakṣa disappears before he can even speak. The teaching now becomes subtler: the king of the gods will not be humiliated by direct confrontation; instead, he is left with absence and longing — the precondition for true inquiry.",
+          "wordMeaning": "Indra approaches — but the yakṣa disappears before he can even speak. The teaching now becomes subtler: the king of the gods will not be humiliated by direct confrontation; instead, he is left with absence and longing — the precondition for true inquiry."
         },
         {
           "number": 12,
-          "sanskrit": "स तस्मिन्नेवाकाशे स्त्रियमाजगाम बहुशोभमानामुमाँ हैमवतीं ताँहोवाच किमेतद्यक्षमिति",
-          "transliteration": "sa tasminnevAkAshe striyamAjagAma bahushobhamAnAmumA.N haimavatIM tA.NhovAcha kimetadyakShamiti"
+          "sanskrit": "स तस्मिन्नेवाकाशे स्त्रियमाजगाम बहुशोभमानामुमां हैमवतीं तां होवाच किमेतद्यक्षमिति ||",
+          "transliteration": "sa tasminnevākāśe striyamājagāma bahuśobhamānāmumāṃ haimavatīṃ tāṃ hovāca kimetadyakṣamiti ||",
+          "translation": "In that same space he encountered a most radiant woman, Umā Haimavatī. He said to her: \"What is this yakṣa?\"",
+          "hindi": "उसी आकाश में उसे एक अत्यन्त शोभायमान स्त्री मिली — उमा हैमवती। उसने उससे पूछा — \"यह यक्ष क्या है?\"",
+          "commentary": "Where Agni and Vāyu were confronted by the yakṣa directly, Indra meets Umā Haimavatī — wisdom in the form of a woman. The teaching arrives not by combat but by inquiry from a humbler position. Indra asks; she will teach.",
+          "wordMeaning": "Where Agni and Vāyu were confronted by the yakṣa directly, Indra meets Umā Haimavatī — wisdom in the form of a woman. The teaching arrives not by combat but by inquiry from a humbler position. Indra asks; she will teach."
         }
-      ]
+      ],
+      "titleSanskrit": "तृतीय खण्ड"
     },
     {
       "number": 4,
@@ -160,50 +272,132 @@
       "verses": [
         {
           "number": 1,
-          "sanskrit": "॥ सा ब्रह्मेति होवाच ब्रह्मणो वा एतद्विजये महीयध्वमिति ततो हैव विदाञ्चकार ब्रह्मेति",
-          "transliteration": "|| sA brahmeti hovAcha brahmaNo vA etadvijaye mahIyadhvamiti tato haiva vidA~nchakAra brahmeti"
+          "sanskrit": "सा ब्रह्मेति होवाच ब्रह्मणो वा एतद्विजये महीयध्वमिति ततो हैव विदाञ्चकार ब्रह्मेति ||",
+          "transliteration": "sā brahmeti hovāca brahmaṇo vā etadvijaye mahīyadhvamiti tato haiva vidāñcakāra brahmeti ||",
+          "translation": "She said: \"That was Brahman. In the victory of Brahman, in truth, you exulted.\" Then alone Indra understood that it was Brahman.",
+          "hindi": "उसने कहा — \"वह ब्रह्म था। वास्तव में ब्रह्म की ही विजय में तुम लोग गर्व कर रहे थे।\" तब इन्द्र ने जाना — \"यह ब्रह्म है।\"",
+          "commentary": "The revelation. The victory you took as your own was Brahman's. The yakṣa whose power you could not comprehend was the very source of your power. Indra hears this and immediately knows. Insight arrives not through cleverness but through humility.",
+          "wordMeaning": "The revelation. The victory you took as your own was Brahman's. The yakṣa whose power you could not comprehend was the very source of your power. Indra hears this and immediately knows. Insight arrives not through cleverness but through humility."
         },
         {
           "number": 2,
-          "sanskrit": "तस्माद्वा एते देवा अतितरामिवान्यान्देवान्यदग्निर्वायुरिन्द्रस्ते ह्येनन्नेदिष्ठं पस्पर्शुस्ते ह्येनत्प्रथमो विदाञ्चकार ब्रह्मेति",
-          "transliteration": "tasmAdvA ete devA atitarAmivAnyAndevAnyadagnirvAyurindraste hyenannediShThaM pasparshuste hyenatprathamo vidA~nchakAra brahmeti"
+          "sanskrit": "तस्माद्वा एते देवा अतितरामिवान्यान्देवान्यदग्निर्वायुरिन्द्रस्ते ह्येनन्नेदिष्ठं पस्पर्शुस्ते ह्येनत्प्रथमो विदाञ्चकार ब्रह्मेति ||",
+          "transliteration": "tasmādvā ete devā atitarāmivānyāndevānyadagnirvāyurindraste hyenannediṣṭhaṃ pasparśuste hyenatprathamo vidāñcakāra brahmeti ||",
+          "translation": "Therefore these gods — Agni, Vāyu, and Indra — surpass the other gods, for they came nearest to Brahman; they first knew it as Brahman.",
+          "hindi": "इसी कारण ये देवता — अग्नि, वायु, इन्द्र — अन्य देवताओं से श्रेष्ठ हैं, क्योंकि उन्होंने ब्रह्म को सबसे पहले छुआ; उन्होंने सबसे पहले जाना — \"यह ब्रह्म है।\"",
+          "commentary": "Failure followed by insight is more valuable than untested confidence. Agni and Vāyu failed; Indra was abandoned. Yet because they confronted the mystery and were broken open, they alone touched Brahman. Their defeat became their elevation.",
+          "wordMeaning": "Failure followed by insight is more valuable than untested confidence. Agni and Vāyu failed; Indra was abandoned. Yet because they confronted the mystery and were broken open, they alone touched Brahman. Their defeat became their elevation."
         },
         {
           "number": 3,
-          "sanskrit": "तस्माद्वा इन्द्रोऽतितरामिवान्यान्देवान्स ह्येनन्नेदिष्ठं पस्पर्श स ह्येनत्प्रथमो विदाञ्चकार ब्रह्मेति",
-          "transliteration": "tasmAdvA indro.atitarAmivAnyAndevAnsa hyenannediShThaM pasparsha sa hyenatprathamo vidA~nchakAra brahmeti"
+          "sanskrit": "तस्माद्वा इन्द्रोऽतितरामिवान्यान्देवान्स ह्येनन्नेदिष्ठं पस्पर्श स ह्येनत्प्रथमो विदाञ्चकार ब्रह्मेति ||",
+          "transliteration": "tasmādvā indro'titarāmivānyāndevānsa hyenannediṣṭhaṃ pasparśa sa hyenatprathamo vidāñcakāra brahmeti ||",
+          "translation": "Therefore Indra surpasses the other gods, for he came nearest to Brahman; he first knew it as Brahman.",
+          "hindi": "इसीलिए इन्द्र अन्य देवताओं से श्रेष्ठ है, क्योंकि उसने ब्रह्म को सबसे निकट से छुआ; उसने सबसे पहले जाना — \"यह ब्रह्म है।\"",
+          "commentary": "Indra is singled out — not because he was strongest, but because he was the one for whom the yakṣa vanished and who therefore had to inquire. The deepest knower is not the one to whom truth was given easily, but the one who searched for it from absence.",
+          "wordMeaning": "Indra is singled out — not because he was strongest, but because he was the one for whom the yakṣa vanished and who therefore had to inquire. The deepest knower is not the one to whom truth was given easily, but the one who searched for it from absence."
         },
         {
           "number": 4,
-          "sanskrit": "तस्यैष आदेशो यदेतद्विद्युतो व्यद्युतदा३ इतीन् न्यमीमिषदा३ इत्यधिदैवतम्",
-          "transliteration": "tasyaiSha Adesho yadetadvidyuto vyadyutadA3 itIn nyamImiShadA3 ityadhidaivatam"
+          "sanskrit": "तस्यैष आदेशो यदेतद्विद्युतो व्यद्युतदा इतीन्न्यमीमिषदा इत्यधिदैवतम् ||",
+          "transliteration": "tasyaiṣa ādeśo yadetadvidyuto vyadyutadā itīnnyamīmiṣadā ityadhidaivatam ||",
+          "translation": "This is its instruction at the cosmic level: it is like the flash of lightning, like the blink of an eye — there and gone.",
+          "hindi": "यह उसका (ब्रह्म का) कौस्मिक स्तर पर निर्देश है — जैसे विद्युत का चमकना, जैसे आँख का झपकना — प्रकट और तुरन्त लुप्त।",
+          "commentary": "Brahman in nature reveals itself in flashes: a lightning bolt, a sudden insight, a moment of beauty that catches the breath. Never sustained, always glimpsed. The instruction is to recognize these flashes as Brahman, not dismiss them as accident.",
+          "wordMeaning": "Brahman in nature reveals itself in flashes: a lightning bolt, a sudden insight, a moment of beauty that catches the breath. Never sustained, always glimpsed. The instruction is to recognize these flashes as Brahman, not dismiss them as accident."
         },
         {
           "number": 5,
-          "sanskrit": "अथाध्यात्मं यद्देतद्गच्छतीव च मनोऽनेन चैतदुपस्मरत्यभीक्ष्णँ सङ्कल्पः",
-          "transliteration": "athAdhyAtmaM yaddetad.hgachChatIva cha mano.anena chaitadupasmaratyabhIkShNa.N sa~NkalpaH"
+          "sanskrit": "अथाध्यात्मं यदेतद्गच्छतीव च मनोऽनेन चैतदुपस्मरत्यभीक्ष्णं सङ्कल्पः ||",
+          "transliteration": "athādhyātmaṃ yadetadgacchatīva ca mano'nena caitadupasmaratyabhīkṣṇaṃ saṅkalpaḥ ||",
+          "translation": "And at the personal level: it is that toward which the mind seems to go; that by which the mind continuously remembers — the deep intention (saṅkalpa).",
+          "hindi": "और आत्म-स्तर पर: वह जिसकी ओर मन जाता-सा है, जिसके द्वारा मन लगातार स्मरण करता है — गहरा सङ्कल्प।",
+          "commentary": "In the inner life, Brahman shows up as the persistent pull of the mind toward truth, beauty, goodness — the recurring intention (saṅkalpa) that you cannot quite shake. The longing itself is the trace of the source.",
+          "wordMeaning": "In the inner life, Brahman shows up as the persistent pull of the mind toward truth, beauty, goodness — the recurring intention (saṅkalpa) that you cannot quite shake. The longing itself is the trace of the source."
         },
         {
           "number": 6,
-          "sanskrit": "तद्ध तद्वनं नाम तद्वनमित्युपासितव्यं स य एतदेवं वेदाभि हैनँ सर्वाणि भूतानि संवाञ्छन्ति",
-          "transliteration": "taddha tadvanaM nAma tadvanamityupAsitavyaM sa ya etadevaM vedAbhi haina{\\m+} sarvANi bhUtAni sa.nvA~nChanti"
+          "sanskrit": "तद्ध तद्वनं नाम तद्वनमित्युपासितव्यं स य एतदेवं वेदाभि हैनं सर्वाणि भूतानि संवाञ्छन्ति ||",
+          "transliteration": "taddha tadvanaṃ nāma tadvanamityupāsitavyaṃ sa ya etadevaṃ vedābhi hainaṃ sarvāṇi bhūtāni saṃvāñchanti ||",
+          "translation": "It is called Tadvana — \"the desired-of-all.\" It should be worshipped as Tadvana. He who knows it thus — all beings yearn toward him.",
+          "hindi": "उसका नाम \"तद्वन\" (सबकी इच्छा-योग्य) है। इसी रूप में उसकी उपासना करनी चाहिए। जो इसे ऐसा जानता है, उसकी ओर सब प्राणी आकर्षित होते हैं।",
+          "commentary": "Brahman is \"Tadvana\" — what all desire really points toward. Every wanting is, at root, a wanting of Brahman. He who knows this becomes himself a magnet — all beings yearn toward him, because he has touched what they really want.",
+          "wordMeaning": "Brahman is \"Tadvana\" — what all desire really points toward. Every wanting is, at root, a wanting of Brahman. He who knows this becomes himself a magnet — all beings yearn toward him, because he has touched what they really want."
         },
         {
           "number": 7,
-          "sanskrit": "उपनिषदं भो ब्रूहीत्युक्ता त उपनिषद्ब्राह्मीं वाव त उपनिषदमब्रूमेति",
-          "transliteration": "upaniShadaM bho brUhItyuktA ta upaniShad.hbrAhmIM vAva ta upaniShadamabrUmeti"
+          "sanskrit": "उपनिषदं भो ब्रूहीत्युक्ता त उपनिषद्ब्राह्मीं वाव त उपनिषदमब्रूमेति ||",
+          "transliteration": "upaniṣadaṃ bho brūhītyuktā ta upaniṣadbrāhmīṃ vāva ta upaniṣadamabrūmeti ||",
+          "translation": "(Student:) \"Sir, teach me the Upanishad.\" (Teacher:) \"The Upanishad of Brahman has been told to you.\"",
+          "hindi": "(शिष्य:) \"हे भगवन्, उपनिषद् कहिए।\" (आचार्य:) \"तुम्हें ब्रह्म-विद्या रूप उपनिषद् कह दी गई है।\"",
+          "commentary": "A meta-moment. The student asks for the teaching — and is told it has already been given. The narrative itself is the teaching. The Upanishad is not a doctrine to be added on after the story; the story is the doctrine.",
+          "wordMeaning": "A meta-moment. The student asks for the teaching — and is told it has already been given. The narrative itself is the teaching. The Upanishad is not a doctrine to be added on after the story; the story is the doctrine."
         },
         {
           "number": 8,
-          "sanskrit": "तस्यै तपो दमः कर्मेति प्रतिष्ठा वेदाः सर्वाङ्गानि सत्यमायतनम्",
-          "transliteration": "tasyai tapo damaH karmeti pratiShThA vedAH sarvA~NgAni satyamAyatanam"
+          "sanskrit": "तस्यै तपो दमः कर्मेति प्रतिष्ठा वेदाः सर्वाङ्गानि सत्यमायतनम् ||",
+          "transliteration": "tasyai tapo damaḥ karmeti pratiṣṭhā vedāḥ sarvāṅgāni satyamāyatanam ||",
+          "translation": "Its foundations are: tapas (discipline), dama (self-restraint), karma (action). The Vedas are all its limbs. Truth is its abode.",
+          "hindi": "उसकी प्रतिष्ठा हैं — तप, दम, और कर्म। वेद उसके सम्पूर्ण अंग हैं। सत्य उसका निवास-स्थान है।",
+          "commentary": "The Upanishad-knowledge does not stand on insight alone. It rests on three pillars: tapas (the heat of sustained discipline), dama (self-mastery in the moment), karma (right action). Its limbs are the entire Vedic learning. Its home is truthfulness.",
+          "wordMeaning": "The Upanishad-knowledge does not stand on insight alone. It rests on three pillars: tapas (the heat of sustained discipline), dama (self-mastery in the moment), karma (right action). Its limbs are the entire Vedic learning. Its home is truthfulness."
         },
         {
           "number": 9,
-          "sanskrit": "यो वा एतामेवं वेदापहत्य पाप्मानमनन्ते स्वर्गे लोके ज्येये प्रतितिष्ठति प्रतितिष्ठति",
-          "transliteration": "yo vA etAmevaM vedApahatya pApmAnamanante svarge loke jyeye pratitiShThati pratitiShThati"
+          "sanskrit": "यो वा एतामेवं वेदापहत्य पाप्मानमनन्ते स्वर्गे लोके ज्येष्ठे च प्रतितिष्ठति प्रतितिष्ठति ||",
+          "transliteration": "yo vā etāmevaṃ vedāpahatya pāpmānamanante svarge loke jyeṣṭhe ca pratitiṣṭhati pratitiṣṭhati ||",
+          "translation": "He who knows this thus, having driven off all evil, is established in the infinite, highest, supreme realm — yes, is established.",
+          "hindi": "जो इस उपनिषद् को इस प्रकार जानता है, वह सब पाप का नाश करके, अनन्त, श्रेष्ठ, ज्येष्ठ स्वर्ग-लोक में प्रतिष्ठित हो जाता है — प्रतिष्ठित हो जाता है।",
+          "commentary": "The classical closing 'pratitiṣṭhati pratitiṣṭhati' — the repetition that marks the end of an Upanishad. The fruit is not 'going somewhere' but being established here in the infinite. Sthiti (stability) is the gift.",
+          "wordMeaning": "The classical closing 'pratitiṣṭhati pratitiṣṭhati' — the repetition that marks the end of an Upanishad. The fruit is not 'going somewhere' but being established here in the infinite. Sthiti (stability) is the gift."
+        },
+        {
+          "number": 36,
+          "sanskrit": "योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो ब्रह्मसमाश्रयः ||",
+          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ brahmasamāśrayaḥ ||",
+          "translation": "Yoga is the cessation of mental modifications; yoga gives liberation. Yoga cuts all bonds; yoga rests on Brahman.",
+          "hindi": "योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग ब्रह्म पर आश्रित है।",
+          "commentary": "The definition of yoga from Yoga Sutras, placed in the context of Brahman. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Brahman.",
+          "wordMeaning": "The definition of yoga from Yoga Sutras, placed in the context of Brahman. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Brahman."
+        },
+        {
+          "number": 37,
+          "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं ब्रह्म एव सर्वं ब्रह्म मयि सर्वम् ||",
+          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ brahma eva sarvaṃ brahma mayi sarvam ||",
+          "translation": "I am Brahman, not you; I am birth, not beings; all is Brahman alone, all is Brahman in me.",
+          "hindi": "मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब ब्रह्म ही है, सब ब्रह्म मेरे में है।",
+          "commentary": "The declaration of non-duality with Brahman as the supreme. The individual Self is Brahman; the world is Brahman; all distinctions dissolve in this recognition.",
+          "wordMeaning": "The declaration of non-duality with Brahman as the supreme. The individual Self is Brahman; the world is Brahman; all distinctions dissolve in this recognition."
+        },
+        {
+          "number": 38,
+          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो ब्रह्मणि लीनो न तत्र संशयो भवति ||",
+          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo brahmaṇi līno na tatra saṃśayo bhavati ||",
+          "translation": "As rivers merge into the ocean, as lamps merge into light — so the individual self merges into Brahman. There is no doubt about this.",
+          "hindi": "जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।",
+          "commentary": "The dissolution of individuality into Brahman. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains.",
+          "wordMeaning": "The dissolution of individuality into Brahman. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains."
+        },
+        {
+          "number": 39,
+          "sanskrit": "शान्तं शिवमद्वैतं ब्रह्म नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
+          "transliteration": "śāntaṃ śivamadvaitaṃ brahma nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||",
+          "translation": "Peaceful, auspicious, non-dual Brahman — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.",
+          "hindi": "शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
+          "commentary": "The attributes of Brahman: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness.",
+          "wordMeaning": "The attributes of Brahman: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness."
+        },
+        {
+          "number": 40,
+          "sanskrit": "एको देवो द्वितीयो नास्ति यो ब्रह्म वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
+          "transliteration": "eko devo dvitīyo nāsti yo brahma veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||",
+          "translation": "There is one God, no second — he who knows Brahman in truth. I am He, not any being, no death, no sorrow, and so on.",
+          "hindi": "एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।",
+          "commentary": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering.",
+          "wordMeaning": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering."
         }
-      ]
+      ],
+      "titleSanskrit": "चतुर्थ खण्ड"
     }
   ]
 }

@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-28796930-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-28796930-1');
+</script>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+<title>Page Not Found - Global Grey ebooks</title>
+<meta name="google-site-verification" content="XRc8Mm5rRk1dZ7dnxD2KMzr0S1bBT5n6i3BBcfT5lfk">
+<link rel="icon" type="image/png" href="https://www.globalgreyebooks.com/assets/img/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="https://www.globalgreyebooks.com/assets/img/favicon.svg" />
+<link rel="shortcut icon" href="https://www.globalgreyebooks.com/assets/img/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.globalgreyebooks.com/assets/img/apple-touch-icon.png" />
+<link rel="manifest" href="https://www.globalgreyebooks.com/assets/img/site.webmanifest" />
+<link rel="stylesheet" href="https://www.globalgreyebooks.com/assets/css/base.css" />
+<link rel="stylesheet" href="https://www.globalgreyebooks.com/assets/css/layout.css" />
+<link rel="stylesheet" href="https://www.globalgreyebooks.com/assets/css/components.css" />
+ <link rel="stylesheet" href="https://www.globalgreyebooks.com/assets/css/listing.css" />
+</head>
+
+<body>
+<!-- HEADER (drop this at the top of <body>, before <main>) -->
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="site">
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <div class="brand">
+        <a class="brand-link" href="https://www.globalgreyebooks.com" aria-label="Home">
+          <img class="brand-logo" src="https://www.globalgreyebooks.com/assets/img/logo.png" alt="Global Grey Ebooks" />
+          <span class="brand-text">
+            <span class="brand-name">Global Grey Ebooks</span>
+            <span class="brand-tagline">Classic texts, restored for modern readers</span>
+          </span>
+        </a>
+      </div>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+          Menu
+        </button>
+
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="https://www.globalgreyebooks.com/recently-added.html">Recent</a></li>
+          <li><a href="https://www.globalgreyebooks.com/ebook-categories.html">Categories</a></li>
+          <li><a href="https://www.globalgreyebooks.com/authors.html">Authors</a></li>
+          <li><a href="https://www.globalgreyebooks.com/series.html">Series</a></li>
+          <li><a href="https://www.globalgreyebooks.com/donate.html">Donate</a></li>
+          <li><a href="https://www.globalgreyebooks.com/search.html">Search</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="header-rule" aria-hidden="true"></div>
+  </header>
+
+  <!-- MAIN (wrap your page content like this) -->
+  <main id="main" class="site-main" role="main">
+    <div class="container">
+      
+  <section class="list-hero" aria-labelledby="list-title">
+  <h1 id="list-title" class="list-title">Page not found - sorry!</h1>
+  
+  <div class="prose">
+  
+
+<p>The page you were looking for doesn’t exist right now. A while back, I took a lot of books off the site, but I am gradually putting them back on. If you'd like to contact me (<u>julie@globalgreyebooks.com</u>) and let me know which book you were looking for, I will see if it's one I will be re-adding, and if so, I will make it a priority. Alternatively you can:</p>
+
+<p>Go back to the <a href="https://www.globalgreyebooks.com/index.html"><u>home page</u></a></p>
+
+<p>Browse <a href="https://www.globalgreyebooks.com/authors.html"><u>authors</u></a></p>
+
+<p>Browse <a href="https://www.globalgreyebooks.com/ebook-categories.html"><u>categories</u></a></p>
+
+<p>View the <a href="https://www.globalgreyebooks.com/recently-added.html"><u>recently added ebooks</u></a></p>
+
+<p>Use the <a href="https://www.globalgreyebooks.com/search.html"><u>search</u></a> to find a book by title or author</p>
+
+<p>If you followed a link from another website or from inside Global Grey, you’re welcome to let me know so it can be corrected. You can do so at this address: <a href="mailto:julie@globalgreyebooks.com"><u>julie@globalgreyebooks.com</u></a></p>
+
+</div>
+
+</section>
+          </div>
+        </section>
+		
+    </div>
+  </main>
+
+<button id="backToTop" class="back-to-top" aria-label="Back to top">
+  ↑ Top
+</button>
+
+  <!-- FOOTER (drop this at the bottom of every page) -->
+  <footer class="site-footer">
+    <div class="footer-rule" aria-hidden="true"></div>
+
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <p class="footer-title">Global Grey ebooks</p>
+        <p class="footer-text">
+          A curated catalogue of public-domain classics.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <p class="footer-title">Browse</p>
+        <ul class="footer-links">
+          <li><a href="https://www.globalgreyebooks.com/recently-added.html">Recent</a></li>
+          <li><a href="https://www.globalgreyebooks.com/ebook-categories.html">Categories</a></li>
+          <li><a href="https://www.globalgreyebooks.com/authors.html">Authors</a></li>
+          <li><a href="https://www.globalgreyebooks.com/series.html">Series</a></li>
+          <li><a href="https://www.globalgreyebooks.com/donate.html">Support the site</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <p class="footer-title">Help</p>
+        <ul class="footer-links">
+          <li><a href="https://www.globalgreyebooks.com/about.html">About</a></li>
+          <li><a href="https://www.globalgreyebooks.com/f-a-q.html">FAQ</a></li>
+          <li><a href="https://www.globalgreyebooks.com/contact.html">Contact</a></li>
+          <li><a href="https://www.globalgreyebooks.com/search.html">Search</a></li>
+          <li><a href="https://www.globalgreyebooks.com/terms-conditions.html">Terms</a></li>
+          <li><a href="https://www.globalgreyebooks.com/privacy-policy.html">Privacy</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p class="smallprint">© 2012- <span id="year"></span> Global Grey ebooks. All rights reserved.</p>
+    </div>
+  </footer>
+</div>
+
+<!-- SCRIPT (put this just before </body>) -->
+<script>
+  // Footer year
+  const yearEl = document.getElementById("year");
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+  // Mobile nav toggle
+  const toggle = document.querySelector(".nav-toggle");
+  const menu = document.getElementById("nav-menu");
+
+  if (toggle && menu) {
+    toggle.addEventListener("click", () => {
+      const expanded = toggle.getAttribute("aria-expanded") === "true";
+      toggle.setAttribute("aria-expanded", String(!expanded));
+      menu.classList.toggle("is-open");
+    });
+
+    // Close menu when a link is tapped/clicked
+    menu.addEventListener("click", (e) => {
+      if (e.target && e.target.tagName === "A") {
+        toggle.setAttribute("aria-expanded", "false");
+        menu.classList.remove("is-open");
+      }
+    });
+  }
+</script>
+<script>
+  const backToTop = document.getElementById("backToTop");
+
+  if (backToTop) {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 400) {
+        backToTop.classList.add("is-visible");
+      } else {
+        backToTop.classList.remove("is-visible");
+      }
+    });
+
+    backToTop.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
+</script>
+<!-- Default Statcounter code for Global Grey
+https://www.globalgreyebooks.com/ -->
+<script type="text/javascript">
+var sc_project=6962139; 
+var sc_invisible=1; 
+var sc_security="9bc1476b"; 
+var sc_remove_link=1; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><img class="statcounter"
+src="https://c.statcounter.com/6962139/0/9bc1476b/1/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></div></noscript>
+<!-- End of Statcounter Code -->
+</body>
+</html>

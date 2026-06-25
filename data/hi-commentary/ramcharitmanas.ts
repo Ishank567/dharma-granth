@@ -58,18 +58,28 @@ export const ramcharitmanasHi: HiCommentaryFragment = {
   },
   '7:3': {
     explanation: `ब्रह्म के संदर्भ में योगसूत्रों से योग की दी गई परिभाषा। चित्त की वृत्तियों का निरोध ही योग है, जो मोक्ष की ओर ले जाता है। इस साधना के द्वारा सभी प्रकार के बंधन कट जाते हैं, जिसका अंतिम आश्रय स्वयं परब्रह्म है।`,
+    science: `citta-vritti-nirodha आधुनिक mindfulness शोध से मेल खाता है (Kabat-Zinn): मन की वृत्तियों का निरोध संज्ञानात्मक स्पष्टता, भावनात्मक संतुलन और कल्याण में मापनीय सुधार लाता है। ब्रह्म के आधार पर टिकी यह साधना secure base का आध्यात्मिक समतुल्य है।`,
+    lifeLesson: `मन की शान्ति ब्रह्म के स्मरण में टिके रहने से स्वाभाविक रूप से आती है। जब मन भटके, उसे वापस ब्रह्म के स्मरण में लाइए — यही योग है, यही मुक्ति है।`,
   },
   '7:4': {
     explanation: `परब्रह्म के साथ अद्वैत भाव की घोषणा। जीवात्मा ही ब्रह्म है, यह संसार भी ब्रह्म है; इस परम ज्ञान की प्राप्ति होने पर समस्त सांसारिक भेद समाप्त हो जाते हैं।`,
+    science: `Non-dual awareness पर न्यूरोसाइंस शोध (Travis, Shear): EEG अध्ययनों में अद्वैत अनुभव की अवस्था में प्रीफ्रंटल कॉर्टेक्स की समन्वित सक्रियता और डिफ़ॉल्ट-मोड-नेटवर्क का शान्त होना देखा गया है — self-other विभाजन का विलयन वास्तविक तंत्रिका-घटना है।`,
+    lifeLesson: `जब आप पहचानते हैं कि आप वही हैं जो सबमें व्याप्त है — तब कोई दूसरा नहीं बचता जिससे डरना हो। अहंकार की सीमाओं को छोड़कर विराट चेतना में विश्राम कीजिए।`,
   },
   '7:5': {
     explanation: `जीवात्मा का ब्रह्म में विलीन होना। नदियों का समुद्र में मिलना और दीपकों का परम ज्योति में समाहित होना, हमारे पृथक अस्तित्व के लोप को दर्शाता है, जबकि मूल तत्व शाश्वत रूप से बना रहता है।`,
+    science: `Ego dissolution पर शोध (Carhart-Harris, fMRI): मस्तिष्क के Default Mode Network का शान्त होना self की सीमाओं के विलयन के साथ मेल खाता है। नदियों का समुद्र में लीन होना इसी तंत्रिका-घटना का पौराणिक बिम्ब है।`,
+    lifeLesson: `नदी समुद्र में मिलकर नष्ट नहीं होती — वह समुद्र ही जाती है। अहंकार का त्याग अस्तित्व का त्याग नहीं, अस्तित्व का विस्तार है।`,
   },
   '7:6': {
     explanation: `परब्रह्म के परम लक्षण: शांत, कल्याणकारी (शिव), अद्वैत, नित्य, शुद्ध और अच्युत। इस सत्य को जानना ही सच्ची दृष्टि है; न जानना ही अज्ञान का अंधत्व है।`,
+    science: `Spiritual intelligence पर शोध (Zohar & Marshall, Emmons): आध्यात्मिक बुद्धि — जो अर्थ, मूल्य और अस्तित्व के प्रश्नों से जुड़ी है — एक विशिष्ट संज्ञानात्मक क्षमता है जो बौद्धिक बुद्धि (IQ) से स्वतंत्र है। ब्रह्म के गुणों का मनन इसी बुद्धि को विकसित करता है।`,
+    lifeLesson: `ब्रह्म के गुणों — शान्त, शिव, अद्वैत, नित्य, शुद्ध, अच्युत — का मनन करना केवल बौद्धिक अभ्यास नहीं, बल्कि चेतना को परिष्कृत करने का मार्ग है। आज इन छह गुणों में से किसी एक पर ध्यान केंद्रित कीजिए।`,
   },
   '7:7': {
     explanation: `अद्वैत भाव की संपुष्टि: सत्य केवल एक है, दूसरा कोई नहीं। इस परम सत्य का ज्ञाता "सोऽहम्" (मैं वही हूँ) का अनुभव करता है और मृत्यु, शोक तथा समस्त सांसारिक संतापों से परे उठ जाता है।`,
+    science: `Non-dual awareness और भावनात्मक कल्याण पर शोध (Travis, Shear): अद्वैत अनुभव की स्थायी अवस्था में amygdala की प्रतिक्रियशीलता कम होती है और प्रीफ्रंटल कॉर्टेक्स का नियंत्रण बढ़ता है — सोऽहम् की पहचान वास्तविक तंत्रिका-शान्ति उत्पन्न करती है।`,
+    lifeLesson: `सोऽहम् — यह पहचान जीवन के सभी भय, शोक और दुःखों को जड़ से काट देती है। आज किसी भी चिंता के समय रुककर यह स्मरण कीजिए: मैं शरीर नहीं, मैं वही हूँ जो शरीर को देख रहा है।`,
   },
   '7:8': {
     explanation: `श्रीरामचरितमानस में शबरी का प्रसंग गोस्वामी तुलसीदास जी की सबसे क्रांतिकारी और मर्मस्पर्शी शिक्षाओं में से एक है: शबरी, जो एक वनवासी और तथाकथित निम्न जाति की स्त्री थीं, श्रीराम को अपने झूठे बेर अर्पित करती हैं ताकि वे आश्वस्त हो सकें कि बेर मीठे हैं। श्रीराम अत्यंत हर्ष के साथ उन्हें स्वीकार करते हैं। यह प्रसंग कर्मकांडीय शुद्धता के सभी नियमों को पीछे छोड़ देता है: यहाँ महत्वपूर्ण यह नहीं है कि भेंट शास्त्रीय नियमों से कितनी शुद्ध है, बल्कि महत्वपूर्ण वह प्रेम है जिसके साथ वह अर्पित की गई है। तुलसीदास जी स्पष्ट घोषणा करते हैं कि केवल प्रेम (प्रेमा भक्ति) ही सच्ची भक्ति है।`,
@@ -85,5 +95,261 @@ export const ramcharitmanasHi: HiCommentaryFragment = {
     explanation: `श्रीरामचरितमानस की यह चौपाई श्रीराम के विराट और सर्वव्यापी रूप की घोषणा करती है: जानकी, राम, लक्ष्मण, हनुमान और उनके समस्त सेवक — सभी राम के ही रूप हैं, सभी साक्षात भगवान हैं। यह तुलसीदास जी की भक्ति का अद्वैत प्राण है: जहाँ भक्त स्वयं भगवान का रूप हो जाता है। सेवक और स्वामी का भेद इस परम सत्य के प्रकाश में मिट जाता है। परम सेवक हनुमान जी स्वयं श्रीराम का ही रूप हैं। भक्ति का यही अनुपम विरोधाभास है: आप जितना अधिक समर्पण करते हैं, उतने ही अधिक आप उसी तत्व में लीन हो जाते हैं जिसके प्रति आपने समर्पण किया है।`,
     science: `समूहों में पहचान के विलय (आइडेंटिटी फ्यूजन) पर शोध (स्वान, गोमेज़): जब लोग किसी समूह या महान उद्देश्य के साथ अपनी पहचान का पूर्णतः विलय कर लेते हैं, तो वे स्वयं और समूह के बीच कोई अंतर नहीं देखते। यह विलय असाधारण आत्म-त्याग और पारस्परिक सहयोग को जन्म देता है। श्रीरामचरितमानस का यह दर्शन कि "सब राममय हैं" वास्तव में परमात्मा के साथ हमारी पहचान के इसी पूर्ण विलय का प्रतीक है: जहाँ भक्त स्वयं और ईश्वर के बीच कोई भेद नहीं देखता। यही वह परम रूपांतरण है जिसका भक्ति मार्ग वादा करता है।`,
     lifeLesson: `श्रीरामचरितमानस आपको स्वयं को श्रीराम से पृथक देखने के बजाय "कोटि-कोटि राम" के ही एक अंश के रूप में देखने का निमंत्रण देता है। सेवक ही वास्तव में स्वामी का रूप है। यह केवल मानने का कोई विचार नहीं है, बल्कि अपने भीतर महसूस की जाने वाली एक अनुभूति है। अपनी सेवा में, अपनी भक्ति में, अपने प्रेम में — यह अनुभव करें कि आपके और परमात्मा के बीच की यह दूरी केवल एक भ्रम मात्र है। आप जितना अधिक स्वयं को खोएंगे (समर्पित करेंगे), उतना ही अधिक आप अपने वास्तविक स्वरूप को पाएंगे।`,
+  },
+
+  '1:3': {
+    explanation: `योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग ब्रह्म पर आश्रित है।`,
+    science: `Neuroscience of flow (Csikszentmihalyi): in flow states, the prefrontal cortex temporarily deactivates — self-referential thinking ceases, and action becomes spontaneous. This is the psychological correlate of liberation: action without the doer.`,
+    lifeLesson: `Freedom is not the absence of responsibility — it is the absence of the ego that resists responsibility. When you act without attachment to results, you are already free, even in the midst of action.`,
+  },
+  '1:4': {
+    explanation: `मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब ब्रह्म ही है, सब ब्रह्म मेरे में है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '1:5': {
+    explanation: `जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '1:6': {
+    explanation: `शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '1:7': {
+    explanation: `एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।`,
+    science: `Neuroscience of loss aversion (Kahneman): the brain processes loss in the amygdala with twice the intensity of equivalent gains. Accepting impermanence reduces this bias, leading to more balanced decision-making and emotional resilience.`,
+    lifeLesson: `Everything changes — your body, relationships, circumstances, even your mind. Clinging to what is changing causes suffering. Practice letting go gracefully, and you will find peace that does not depend on circumstances.`,
+  },
+  '1:8': {
+    explanation: `शबरी की भक्ति सुनकर राम आँसू बहाने लगे। प्रेम ही सच्ची भक्ति जानकर, वे प्रेम के बिना पूजा नहीं करते।`,
+    science: `Neuroscience of devotion (Newberg): devotional practice activates the prefrontal cortex and quiets the parietal lobe, dissolving the boundary between self and other. This is the neural correlate of ego dissolution through bhakti.`,
+    lifeLesson: `Devotion is not weakness — it is the courage to surrender the ego to something greater. When you love something deeply, you become it. Choose wisely what you devote yourself to.`,
+  },
+  '1:9': {
+    explanation: `रघुपति ने समुद्र से ज़ोर से कहा: मेरी बात सुनो। जिस विधि से तुम सब रास्ते भूल जाओ, मेरा रास्ता भूल जाओ और मुझे पार कर दो।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '1:10': {
+    explanation: `जानकी, राम, लखन और हनुमान साथ में — सेवक समेत सब कोटि राम भगवान हैं।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '2:2': {
+    explanation: `करतार (ईश्वर) ने यह जगत जड़-चेतन, गुण-दोषमय बनाया। संत हंस के समान गुण रूपी दूध को ग्रहण करते हैं और दोष रूपी जल को छोड़ देते हैं।`,
+    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
+    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
+  },
+  '2:3': {
+    explanation: `योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग ब्रह्म पर आश्रित है।`,
+    science: `Neuroscience of flow (Csikszentmihalyi): in flow states, the prefrontal cortex temporarily deactivates — self-referential thinking ceases, and action becomes spontaneous. This is the psychological correlate of liberation: action without the doer.`,
+    lifeLesson: `Freedom is not the absence of responsibility — it is the absence of the ego that resists responsibility. When you act without attachment to results, you are already free, even in the midst of action.`,
+  },
+  '2:4': {
+    explanation: `मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब ब्रह्म ही है, सब ब्रह्म मेरे में है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '2:5': {
+    explanation: `जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '2:6': {
+    explanation: `शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '2:7': {
+    explanation: `एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।`,
+    science: `Neuroscience of loss aversion (Kahneman): the brain processes loss in the amygdala with twice the intensity of equivalent gains. Accepting impermanence reduces this bias, leading to more balanced decision-making and emotional resilience.`,
+    lifeLesson: `Everything changes — your body, relationships, circumstances, even your mind. Clinging to what is changing causes suffering. Practice letting go gracefully, and you will find peace that does not depend on circumstances.`,
+  },
+  '2:8': {
+    explanation: `शबरी की भक्ति सुनकर राम आँसू बहाने लगे। प्रेम ही सच्ची भक्ति जानकर, वे प्रेम के बिना पूजा नहीं करते।`,
+    science: `Neuroscience of devotion (Newberg): devotional practice activates the prefrontal cortex and quiets the parietal lobe, dissolving the boundary between self and other. This is the neural correlate of ego dissolution through bhakti.`,
+    lifeLesson: `Devotion is not weakness — it is the courage to surrender the ego to something greater. When you love something deeply, you become it. Choose wisely what you devote yourself to.`,
+  },
+  '2:9': {
+    explanation: `रघुपति ने समुद्र से ज़ोर से कहा: मेरी बात सुनो। जिस विधि से तुम सब रास्ते भूल जाओ, मेरा रास्ता भूल जाओ और मुझे पार कर दो।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '2:10': {
+    explanation: `जानकी, राम, लखन और हनुमान साथ में — सेवक समेत सब कोटि राम भगवान हैं।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '3:2': {
+    explanation: `करतार (ईश्वर) ने यह जगत जड़-चेतन, गुण-दोषमय बनाया। संत हंस के समान गुण रूपी दूध को ग्रहण करते हैं और दोष रूपी जल को छोड़ देते हैं।`,
+    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
+    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
+  },
+  '3:3': {
+    explanation: `योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग ब्रह्म पर आश्रित है।`,
+    science: `Neuroscience of flow (Csikszentmihalyi): in flow states, the prefrontal cortex temporarily deactivates — self-referential thinking ceases, and action becomes spontaneous. This is the psychological correlate of liberation: action without the doer.`,
+    lifeLesson: `Freedom is not the absence of responsibility — it is the absence of the ego that resists responsibility. When you act without attachment to results, you are already free, even in the midst of action.`,
+  },
+  '3:4': {
+    explanation: `मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब ब्रह्म ही है, सब ब्रह्म मेरे में है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '3:5': {
+    explanation: `जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '3:6': {
+    explanation: `शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '3:7': {
+    explanation: `एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।`,
+    science: `Neuroscience of loss aversion (Kahneman): the brain processes loss in the amygdala with twice the intensity of equivalent gains. Accepting impermanence reduces this bias, leading to more balanced decision-making and emotional resilience.`,
+    lifeLesson: `Everything changes — your body, relationships, circumstances, even your mind. Clinging to what is changing causes suffering. Practice letting go gracefully, and you will find peace that does not depend on circumstances.`,
+  },
+  '3:8': {
+    explanation: `शबरी की भक्ति सुनकर राम आँसू बहाने लगे। प्रेम ही सच्ची भक्ति जानकर, वे प्रेम के बिना पूजा नहीं करते।`,
+    science: `Neuroscience of devotion (Newberg): devotional practice activates the prefrontal cortex and quiets the parietal lobe, dissolving the boundary between self and other. This is the neural correlate of ego dissolution through bhakti.`,
+    lifeLesson: `Devotion is not weakness — it is the courage to surrender the ego to something greater. When you love something deeply, you become it. Choose wisely what you devote yourself to.`,
+  },
+  '3:9': {
+    explanation: `रघुपति ने समुद्र से ज़ोर से कहा: मेरी बात सुनो। जिस विधि से तुम सब रास्ते भूल जाओ, मेरा रास्ता भूल जाओ और मुझे पार कर दो।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '3:10': {
+    explanation: `जानकी, राम, लखन और हनुमान साथ में — सेवक समेत सब कोटि राम भगवान हैं।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '4:3': {
+    explanation: `योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग ब्रह्म पर आश्रित है।`,
+    science: `Neuroscience of flow (Csikszentmihalyi): in flow states, the prefrontal cortex temporarily deactivates — self-referential thinking ceases, and action becomes spontaneous. This is the psychological correlate of liberation: action without the doer.`,
+    lifeLesson: `Freedom is not the absence of responsibility — it is the absence of the ego that resists responsibility. When you act without attachment to results, you are already free, even in the midst of action.`,
+  },
+  '4:4': {
+    explanation: `मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब ब्रह्म ही है, सब ब्रह्म मेरे में है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '4:5': {
+    explanation: `जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '4:6': {
+    explanation: `शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '4:7': {
+    explanation: `एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।`,
+    science: `Neuroscience of loss aversion (Kahneman): the brain processes loss in the amygdala with twice the intensity of equivalent gains. Accepting impermanence reduces this bias, leading to more balanced decision-making and emotional resilience.`,
+    lifeLesson: `Everything changes — your body, relationships, circumstances, even your mind. Clinging to what is changing causes suffering. Practice letting go gracefully, and you will find peace that does not depend on circumstances.`,
+  },
+  '4:8': {
+    explanation: `शबरी की भक्ति सुनकर राम आँसू बहाने लगे। प्रेम ही सच्ची भक्ति जानकर, वे प्रेम के बिना पूजा नहीं करते।`,
+    science: `Neuroscience of devotion (Newberg): devotional practice activates the prefrontal cortex and quiets the parietal lobe, dissolving the boundary between self and other. This is the neural correlate of ego dissolution through bhakti.`,
+    lifeLesson: `Devotion is not weakness — it is the courage to surrender the ego to something greater. When you love something deeply, you become it. Choose wisely what you devote yourself to.`,
+  },
+  '4:9': {
+    explanation: `रघुपति ने समुद्र से ज़ोर से कहा: मेरी बात सुनो। जिस विधि से तुम सब रास्ते भूल जाओ, मेरा रास्ता भूल जाओ और मुझे पार कर दो।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '4:10': {
+    explanation: `जानकी, राम, लखन और हनुमान साथ में — सेवक समेत सब कोटि राम भगवान हैं।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '5:2': {
+    explanation: `करतार (ईश्वर) ने यह जगत जड़-चेतन, गुण-दोषमय बनाया। संत हंस के समान गुण रूपी दूध को ग्रहण करते हैं और दोष रूपी जल को छोड़ देते हैं।`,
+    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
+    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
+  },
+  '5:3': {
+    explanation: `योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग ब्रह्म पर आश्रित है।`,
+    science: `Neuroscience of flow (Csikszentmihalyi): in flow states, the prefrontal cortex temporarily deactivates — self-referential thinking ceases, and action becomes spontaneous. This is the psychological correlate of liberation: action without the doer.`,
+    lifeLesson: `Freedom is not the absence of responsibility — it is the absence of the ego that resists responsibility. When you act without attachment to results, you are already free, even in the midst of action.`,
+  },
+  '5:4': {
+    explanation: `मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब ब्रह्म ही है, सब ब्रह्म मेरे में है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '5:5': {
+    explanation: `जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '5:6': {
+    explanation: `शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '5:7': {
+    explanation: `एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।`,
+    science: `Neuroscience of loss aversion (Kahneman): the brain processes loss in the amygdala with twice the intensity of equivalent gains. Accepting impermanence reduces this bias, leading to more balanced decision-making and emotional resilience.`,
+    lifeLesson: `Everything changes — your body, relationships, circumstances, even your mind. Clinging to what is changing causes suffering. Practice letting go gracefully, and you will find peace that does not depend on circumstances.`,
+  },
+  '5:8': {
+    explanation: `शबरी की भक्ति सुनकर राम आँसू बहाने लगे। प्रेम ही सच्ची भक्ति जानकर, वे प्रेम के बिना पूजा नहीं करते।`,
+    science: `Neuroscience of devotion (Newberg): devotional practice activates the prefrontal cortex and quiets the parietal lobe, dissolving the boundary between self and other. This is the neural correlate of ego dissolution through bhakti.`,
+    lifeLesson: `Devotion is not weakness — it is the courage to surrender the ego to something greater. When you love something deeply, you become it. Choose wisely what you devote yourself to.`,
+  },
+  '5:9': {
+    explanation: `रघुपति ने समुद्र से ज़ोर से कहा: मेरी बात सुनो। जिस विधि से तुम सब रास्ते भूल जाओ, मेरा रास्ता भूल जाओ और मुझे पार कर दो।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '5:10': {
+    explanation: `जानकी, राम, लखन और हनुमान साथ में — सेवक समेत सब कोटि राम भगवान हैं।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '6:3': {
+    explanation: `योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग ब्रह्म पर आश्रित है।`,
+    science: `Neuroscience of flow (Csikszentmihalyi): in flow states, the prefrontal cortex temporarily deactivates — self-referential thinking ceases, and action becomes spontaneous. This is the psychological correlate of liberation: action without the doer.`,
+    lifeLesson: `Freedom is not the absence of responsibility — it is the absence of the ego that resists responsibility. When you act without attachment to results, you are already free, even in the midst of action.`,
+  },
+  '6:4': {
+    explanation: `मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब ब्रह्म ही है, सब ब्रह्म मेरे में है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '6:5': {
+    explanation: `जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '6:6': {
+    explanation: `शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '6:7': {
+    explanation: `एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।`,
+    science: `Neuroscience of loss aversion (Kahneman): the brain processes loss in the amygdala with twice the intensity of equivalent gains. Accepting impermanence reduces this bias, leading to more balanced decision-making and emotional resilience.`,
+    lifeLesson: `Everything changes — your body, relationships, circumstances, even your mind. Clinging to what is changing causes suffering. Practice letting go gracefully, and you will find peace that does not depend on circumstances.`,
+  },
+  '6:8': {
+    explanation: `शबरी की भक्ति सुनकर राम आँसू बहाने लगे। प्रेम ही सच्ची भक्ति जानकर, वे प्रेम के बिना पूजा नहीं करते।`,
+    science: `Neuroscience of devotion (Newberg): devotional practice activates the prefrontal cortex and quiets the parietal lobe, dissolving the boundary between self and other. This is the neural correlate of ego dissolution through bhakti.`,
+    lifeLesson: `Devotion is not weakness — it is the courage to surrender the ego to something greater. When you love something deeply, you become it. Choose wisely what you devote yourself to.`,
+  },
+  '6:9': {
+    explanation: `रघुपति ने समुद्र से ज़ोर से कहा: मेरी बात सुनो। जिस विधि से तुम सब रास्ते भूल जाओ, मेरा रास्ता भूल जाओ और मुझे पार कर दो।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '6:10': {
+    explanation: `जानकी, राम, लखन और हनुमान साथ में — सेवक समेत सब कोटि राम भगवान हैं।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
 };

@@ -148,7 +148,7 @@ export function FlashCard({ data, onNext, onPrevious, onReset, currentIndex, tot
       {/* Flash Card */}
       <motion.div
         ref={cardRef}
-        className="relative w-full min-h-[400px] perspective-1000"
+        className="relative w-full min-h-[450px] perspective-1200"
         drag="x"
         dragConstraints={{ left: 0, right: 0 }}
         dragElastic={0.2}
@@ -159,7 +159,7 @@ export function FlashCard({ data, onNext, onPrevious, onReset, currentIndex, tot
           className="relative w-full h-full cursor-pointer"
           onClick={handleFlip}
           animate={reduce ? {} : { rotateY: isFlipped ? 180 : 0 }}
-          transition={reduce ? {} : { duration: 0.6, type: 'spring', stiffness: 300, damping: 20 }}
+          transition={reduce ? {} : { duration: 0.7, type: 'spring', stiffness: 260, damping: 20 }}
           style={{ transformStyle: 'preserve-3d' }}
           role="button"
           tabIndex={0}
@@ -173,96 +173,171 @@ export function FlashCard({ data, onNext, onPrevious, onReset, currentIndex, tot
         >
           {/* Front of card */}
           <motion.div
-            className="absolute inset-0 backface-hidden bg-gradient-to-br from-saffron-50 to-amber-50 rounded-3xl border-2 border-saffron-200 p-8 shadow-xl"
+            className="absolute inset-0 backface-hidden bg-gradient-to-br from-saffron-50 via-amber-50 to-orange-50 rounded-3xl border-2 border-saffron-200 p-8 shadow-2xl relative overflow-hidden"
             style={{ backfaceVisibility: 'hidden' }}
             animate={reduce ? {} : { rotateY: isFlipped ? 180 : 0 }}
           >
-            <div className="h-full flex flex-col justify-center items-center text-center">
+            {/* Glassmorphism shine effect */}
+            <motion.div
+              className="absolute inset-0 bg-gradient-to-br from-white/30 to-transparent pointer-events-none"
+              initial={{ opacity: 0 }}
+              whileHover={{ opacity: 1 }}
+              transition={{ duration: 0.3 }}
+            />
+            
+            {/* Decorative pattern */}
+            <div className="absolute inset-0 mandala-bg opacity-5 pointer-events-none" />
+            
+            <div className="h-full flex flex-col justify-center items-center text-center relative z-10">
               {data.front.sanskrit && (
-                <p
+                <motion.p
                   lang="sa"
-                  className="font-devanagari text-4xl text-saffron-800 mb-4 leading-relaxed"
+                  className="font-devanagari text-5xl text-saffron-800 mb-5 leading-relaxed"
+                  initial={reduce ? {} : { scale: 0.9, opacity: 0 }}
+                  animate={reduce ? {} : { scale: 1, opacity: 1 }}
+                  transition={reduce ? {} : { delay: 0.1 }}
                 >
                   {data.front.sanskrit}
-                </p>
+                </motion.p>
               )}
               {data.front.transliteration && (
-                <p className="text-lg text-saffron-600 italic mb-6">
+                <motion.p 
+                  className="text-lg text-saffron-600 italic mb-6 font-medium"
+                  initial={reduce ? {} : { y: 10, opacity: 0 }}
+                  animate={reduce ? {} : { y: 0, opacity: 1 }}
+                  transition={reduce ? {} : { delay: 0.2 }}
+                >
                   {data.front.transliteration}
-                </p>
+                </motion.p>
               )}
-              <p className="text-2xl font-serif font-bold text-dharma-text mb-4">
+              <motion.p 
+                className="text-2xl font-serif font-bold text-dharma-text mb-5"
+                initial={reduce ? {} : { y: 10, opacity: 0 }}
+                animate={reduce ? {} : { y: 0, opacity: 1 }}
+                transition={reduce ? {} : { delay: 0.3 }}
+              >
                 {data.front.question}
-              </p>
-              <p className="text-sm text-dharma-muted mt-4 animate-pulse">
-                Click or press Space to reveal answer
-              </p>
+              </motion.p>
+              <motion.div
+                className="mt-6 inline-flex items-center gap-2 px-4 py-2 bg-white/60 backdrop-blur-sm rounded-full border border-saffron-200"
+                initial={reduce ? {} : { y: 10, opacity: 0 }}
+                animate={reduce ? {} : { y: 0, opacity: 1 }}
+                transition={reduce ? {} : { delay: 0.4 }}
+              >
+                <motion.div
+                  animate={{ rotate: 360 }}
+                  transition={{ duration: 2, repeat: Infinity, ease: "linear" }}
+                >
+                  <RotateCcw className="w-4 h-4 text-saffron-600" />
+                </motion.div>
+                <span className="text-sm font-semibold text-saffron-700">
+                  Tap to reveal
+                </span>
+              </motion.div>
             </div>
           </motion.div>
 
           {/* Back of card */}
           <motion.div
-            className="absolute inset-0 backface-hidden bg-gradient-to-br from-dharma-card to-saffron-50/20 rounded-3xl border-2 border-saffron-200 p-8 shadow-xl"
+            className="absolute inset-0 backface-hidden bg-gradient-to-br from-dharma-card via-saffron-50/30 to-amber-50/20 rounded-3xl border-2 border-saffron-200 p-8 shadow-2xl relative overflow-hidden"
             style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}
             animate={reduce ? {} : { rotateY: isFlipped ? 0 : -180 }}
           >
-            <div className="h-full flex flex-col justify-center">
+            {/* Glassmorphism shine effect */}
+            <motion.div
+              className="absolute inset-0 bg-gradient-to-br from-white/20 to-transparent pointer-events-none"
+              initial={{ opacity: 0 }}
+              whileHover={{ opacity: 1 }}
+              transition={{ duration: 0.3 }}
+            />
+            
+            <div className="h-full flex flex-col justify-center relative z-10">
               {data.back.hindi && (
-                <p
+                <motion.p
                   lang="hi"
-                  className="font-devanagari text-2xl text-rose-800 mb-4 font-semibold"
+                  className="font-devanagari text-3xl text-rose-800 mb-5 font-semibold leading-relaxed"
+                  initial={reduce ? {} : { scale: 0.9, opacity: 0 }}
+                  animate={reduce ? {} : { scale: 1, opacity: 1 }}
+                  transition={reduce ? {} : { delay: 0.1 }}
                 >
                   {data.back.hindi}
-                </p>
+                </motion.p>
               )}
-              <p className="text-xl text-dharma-text mb-4 leading-relaxed">
+              <motion.p 
+                className="text-xl text-dharma-text mb-5 leading-relaxed font-medium"
+                initial={reduce ? {} : { y: 10, opacity: 0 }}
+                animate={reduce ? {} : { y: 0, opacity: 1 }}
+                transition={reduce ? {} : { delay: 0.2 }}
+              >
                 {data.back.english}
-              </p>
+              </motion.p>
               {data.back.explanation && (
-                <p className="text-sm text-dharma-muted leading-relaxed mb-4">
-                  {data.back.explanation}
-                </p>
+                <motion.div
+                  className="bg-white/60 backdrop-blur-sm rounded-xl p-4 border border-saffron-200 mb-5"
+                  initial={reduce ? {} : { y: 10, opacity: 0 }}
+                  animate={reduce ? {} : { y: 0, opacity: 1 }}
+                  transition={reduce ? {} : { delay: 0.3 }}
+                >
+                  <p className="text-sm text-dharma-muted leading-relaxed">
+                    {data.back.explanation}
+                  </p>
+                </motion.div>
               )}
               {data.back.keywords && data.back.keywords.length > 0 && (
-                <div className="flex flex-wrap gap-2 mt-2">
+                <motion.div
+                  className="flex flex-wrap gap-2 mt-2"
+                  initial={reduce ? {} : { y: 10, opacity: 0 }}
+                  animate={reduce ? {} : { y: 0, opacity: 1 }}
+                  transition={reduce ? {} : { delay: 0.4 }}
+                >
                   {data.back.keywords.map((keyword, idx) => (
-                    <span
+                    <motion.span
                       key={idx}
-                      className="px-3 py-1 bg-saffron-100 text-saffron-800 rounded-full text-xs font-semibold"
+                      className="px-3 py-1.5 bg-gradient-to-r from-saffron-100 to-amber-100 text-saffron-800 rounded-full text-xs font-semibold border border-saffron-200 shadow-sm"
+                      whileHover={{ scale: 1.05 }}
+                      whileTap={{ scale: 0.95 }}
                     >
                       {keyword}
-                    </span>
+                    </motion.span>
                   ))}
-                </div>
+                </motion.div>
               )}
 
               {/* Spaced repetition controls */}
               {spacedRepetitionMode && (
-                <div className="mt-6 pt-4 border-t border-dharma-border">
-                  <p className="text-xs text-dharma-muted mb-3 font-semibold uppercase tracking-wider">
+                <motion.div
+                  className="mt-6 pt-5 border-t border-dharma-border"
+                  initial={reduce ? {} : { y: 10, opacity: 0 }}
+                  animate={reduce ? {} : { y: 0, opacity: 1 }}
+                  transition={reduce ? {} : { delay: 0.5 }}
+                >
+                  <p className="text-xs text-dharma-muted mb-3 font-semibold uppercase tracking-wider flex items-center gap-2">
+                    <BarChart3 className="w-3 h-3" />
                     How well did you know this?
                   </p>
                   <div className="flex gap-2">
                     {(['easy', 'medium', 'hard'] as const).map((level) => (
-                      <button
+                      <motion.button
                         key={level}
                         onClick={() => {
                           setDifficulty(level);
                           handleNext();
                         }}
-                        className={`flex-1 px-4 py-2 rounded-lg text-sm font-semibold transition ${
+                        className={`flex-1 px-4 py-3 rounded-xl text-sm font-bold transition shadow-sm hover:shadow-md ${
                           level === 'easy'
-                            ? 'bg-emerald-100 text-emerald-800 hover:bg-emerald-200'
+                            ? 'bg-gradient-to-r from-emerald-100 to-green-100 text-emerald-800 border border-emerald-200 hover:from-emerald-200 hover:to-green-200'
                             : level === 'medium'
-                            ? 'bg-amber-100 text-amber-800 hover:bg-amber-200'
-                            : 'bg-rose-100 text-rose-800 hover:bg-rose-200'
+                            ? 'bg-gradient-to-r from-amber-100 to-yellow-100 text-amber-800 border border-amber-200 hover:from-amber-200 hover:to-yellow-200'
+                            : 'bg-gradient-to-r from-rose-100 to-pink-100 text-rose-800 border border-rose-200 hover:from-rose-200 hover:to-pink-200'
                         }`}
+                        whileHover={{ scale: 1.05 }}
+                        whileTap={{ scale: 0.95 }}
                       >
                         {level.charAt(0).toUpperCase() + level.slice(1)}
-                      </button>
+                      </motion.button>
                     ))}
                   </div>
-                </div>
+                </motion.div>
               )}
             </div>
           </motion.div>

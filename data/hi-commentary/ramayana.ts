@@ -113,18 +113,28 @@ export const ramayanaHi: HiCommentaryFragment = {
   },
   '7:3': {
     explanation: `योग-सूत्रों की योग की परिभाषा, ब्रह्म के संदर्भ में प्रस्तुत। योग चित्त-वृत्तियों का निरोध है, जो मोक्ष की ओर ले जाता है। यह अभ्यास सभी बंधनों को काटता है और ब्रह्म की नींव पर टिका है।`,
+    science: `citta-vritti-nirodha आधुनिक mindfulness शोध से मेल खाता है (Kabat-Zinn): मन की वृत्तियों का निरोध संज्ञानात्मक स्पष्टता, भावनात्मक संतुलन और कल्याण में मापनीय सुधार लाता है। ब्रह्म के आधार पर टिकी यह साधना secure base का आध्यात्मिक समतुल्य है।`,
+    lifeLesson: `मन की शान्ति ब्रह्म के स्मरण में टिके रहने से स्वाभाविक रूप से आती है। जब मन भटके, उसे वापस ब्रह्म के स्मरण में लाइए — यही योग है, यही मुक्ति है।`,
   },
   '7:4': {
     explanation: `ब्रह्म के साथ अद्वैत की घोषणा। व्यक्तिगत स्व ब्रह्म है; जगत ब्रह्म है; इस पहचान में सभी भेद विलीन हो जाते हैं।`,
+    science: `Non-dual awareness पर न्यूरोसाइंस शोध (Travis, Shear): EEG अध्ययनों में अद्वैत अनुभव की अवस्था में प्रीफ्रंटल कॉर्टेक्स की समन्वित सक्रियता और डिफ़ॉल्ट-मोड-नेटवर्क का शान्त होना देखा गया है — self-other विभाजन का विलयन वास्तविक तंत्रिका-घटना है।`,
+    lifeLesson: `जब आप पहचानते हैं कि आप वही हैं जो सबमें व्याप्त है — तब कोई दूसरा नहीं बचता जिससे डरना हो। अहंकार की सीमाओं को छोड़कर विराट चेतना में विश्राम कीजिए।`,
   },
   '7:5': {
     explanation: `ब्रह्म में व्यक्तित्व का विलय। नदियों का समुद्र में और दीपों का प्रकाश में मिलने के चित्र पृथक पहचान के नाश को दर्शाते हैं, जबकि सार बना रहता है।`,
+    science: `Ego dissolution पर शोध (Carhart-Harris, fMRI): मस्तिष्क के Default Mode Network का शान्त होना self की सीमाओं के विलयन के साथ मेल खाता है। नदियों का समुद्र में लीन होना इसी तंत्रिका-घटना का पौराणिक बिम्ब है।`,
+    lifeLesson: `नदी समुद्र में मिलकर नष्ट नहीं होती — वह समुद्र ही जाती है। अहंकार का त्याग अस्तित्व का त्याग नहीं, अस्तित्व का विस्तार है।`,
   },
   '7:6': {
     explanation: `ब्रह्म के गुण: शांत, शिव, अद्वैत, नित्य, शुद्ध, अच्युत। ज्ञान ही दर्शन है; अज्ञान ही अंधापन है।`,
+    science: `Spiritual intelligence पर शोध (Zohar & Marshall, Emmons): आध्यात्मिक बुद्धि — जो अर्थ, मूल्य और अस्तित्व के प्रश्नों से जुड़ी है — एक विशिष्ट संज्ञानात्मक क्षमता है जो बौद्धिक बुद्धि (IQ) से स्वतंत्र है। ब्रह्म के गुणों का मनन इसी बुद्धि को विकसित करता है।`,
+    lifeLesson: `ब्रह्म के गुणों — शान्त, शिव, अद्वैत, नित्य, शुद्ध, अच्युत — का मनन करना केवल बौद्धिक अभ्यास नहीं, बल्कि चेतना को परिष्कृत करने का मार्ग है। आज इन छह गुणों में से किसी एक पर ध्यान केंद्रित कीजिए।`,
   },
   '7:7': {
     explanation: `अद्वैत की पुष्टि: एक वास्तविकता, दूसरी नहीं। ज्ञाता पहचानता है "मैं वही हूँ" और मृत्यु, शोक तथा समस्त पीड़ा से परे हो जाता है।`,
+    science: `Non-dual awareness और भावनात्मक कल्याण पर शोध (Travis, Shear): अद्वैत अनुभव की स्थायी अवस्था में amygdala की प्रतिक्रियशीलता कम होती है और प्रीफ्रंटल कॉर्टेक्स का नियंत्रण बढ़ता है — सोऽहम् की पहचान वास्तविक तंत्रिका-शान्ति उत्पन्न करती है।`,
+    lifeLesson: `सोऽहम् — यह पहचान जीवन के सभी भय, शोक और दुःखों को जड़ से काट देती है। आज किसी भी चिंता के समय रुककर यह स्मरण कीजिए: मैं शरीर नहीं, मैं वही हूँ जो शरीर को देख रहा है।`,
   },
   '7:8': {
     explanation: `अध्यात्म रामायण का यह श्लोक राम को धर्म के साक्षात अवतार के रूप में घोषित करता है। राम केवल एक राजा नहीं जो धर्म का पालन करता है — वे स्वयं धर्म हैं। संसार उन्हें अपने लक्ष्य के रूप में उनकी ओर गतिमान होता है। वे सभी देवों के राजा और वेदों का गूढ़ सार हैं। यह रामायण को कथा से एक आध्यात्मिक कथन में रूपांतरित करता है: आदर्श मानव साकार सत्य है।`,
@@ -140,5 +150,907 @@ export const ramayanaHi: HiCommentaryFragment = {
     explanation: `यह श्लोक राम को ब्रह्मांडीय धनुर्धर से पहचानता है: ॐ धनुष, विराट बाण। राम कमलनयन हैं जो बाण छोड़ते हैं। वे पार्थिव (पृथ्वी से) और विश्वकर्मा (सृजनकर्ता) दोनों हैं। ब्रह्मांडीय धनुर्धर का चित्र उपनिषदों में और यहाँ रामायण में आता है: स्व वह धनुर्धर है जो चेतना का बाण ब्रह्मांड में छोड़ता है।`,
     science: `Quantum Physics और Observer Effect: दर्शक (चेतना) देखी जाने वाली वास्तविकता से अलग नहीं है बल्कि उसके प्रकट होने में भाग लेता है। ब्रह्मांडीय धनुर्धर का रूपक — स्व ब्रह्मांड में चेतना का बाण छोड़ता है — इस Quantum अंतर्दृष्टि से मेल खाता है कि अवलोकन वास्तविकता को आकार देता है।`,
     lifeLesson: `रामायण का ब्रह्मांडीय धनुर्धर चित्र एक ध्यान है: आप धनुर्धर हैं, आपकी जागरूकता धनुष है, संसार बाण है। आज आप संसार में क्या बाण छोड़ रहे हैं? क्या यह धर्म का बाण है — करुणा, सत्य, सेवा? या प्रतिक्रियाशीलता का बाण — क्रोध, लोभ, भय? धनुर्धर बाण चुनता है। सजगता से चुनें।`,
+  },
+
+  '1:1.2': {
+    explanation: `राम साक्षात् धर्म के मानव-रूप हैं — साधु, सत्य-प्रतिज्ञ; जैसे देवों में इन्द्र, वैसे सम्पूर्ण लोकों के राजा।`,
+    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation. Dharma is the codified wisdom of what sustains both individual and collective flourishing.`,
+    lifeLesson: `Do what is right, not what is easy. Dharma is not about rules — it is about alignment with the natural order that sustains life. When in doubt, choose the action that benefits the whole, not just yourself.`,
+  },
+  '1:1.6': {
+    explanation: `शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '1:1.7': {
+    explanation: `एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।`,
+    science: `Neuroscience of loss aversion (Kahneman): the brain processes loss in the amygdala with twice the intensity of equivalent gains. Accepting impermanence reduces this bias, leading to more balanced decision-making and emotional resilience.`,
+    lifeLesson: `Everything changes — your body, relationships, circumstances, even your mind. Clinging to what is changing causes suffering. Practice letting go gracefully, and you will find peace that does not depend on circumstances.`,
+  },
+  '1:1.8': {
+    explanation: `राम धर्म का साक्षात रूप है; राम सारे जगत की गति है। राम सभी देवों का राजा है; राम वेद का गूढ़ रूप है।`,
+    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation. Dharma is the codified wisdom of what sustains both individual and collective flourishing.`,
+    lifeLesson: `Do what is right, not what is easy. Dharma is not about rules — it is about alignment with the natural order that sustains life. When in doubt, choose the action that benefits the whole, not just yourself.`,
+  },
+  '1:1.9': {
+    explanation: `जानकी का पुत्र दिव्य है; जानकी का पति स्वयं ब्रह्मा है। वह जानकी कुल का आभूषण है या जानकी कुल का प्रकाश।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '1:2.10': {
+    explanation: `ॐ धनुष है, विराट बाण है, राम कमलनयन है। राम पार्थिव है, विश्वकर्मा है, पुरुषोत्तम है।`,
+    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
+    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
+  },
+  '1:1.14': {
+    explanation: `मैं स्वयं गृध्रराज जटायु के लिए जलांजलि दूँगा — अत्यंत प्रिय उनके लिए — और मैं उनका दाह-संस्कार करूँगा।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '1:1.20': {
+    explanation: `मैं भाग्य को दोष नहीं देता; मैं पुरुषार्थ की शरण लेता हूँ। जो वास्तव में भाग्यशाली हैं, वे स्वयं ही कर्म में लगे रहते हैं।`,
+    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
+    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
+  },
+  '1:1.21': {
+    explanation: `तुम्हें शोक नहीं करना चाहिए। आत्मा इस लोक में सर्वत्र व्याप्त है और नष्ट नहीं होती।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '1:1.22': {
+    explanation: `प्रिय के वियोग से तुम्हें शोक नहीं करना चाहिए। काम और क्रोध को वश में करके — हे महाद्युते, वंश की रक्षा करो।`,
+    science: `Meditation research (Davidson): sustained meditation practice thickens the prefrontal cortex, strengthens insula connectivity, and reduces amygdala reactivity. These measurable brain changes confirm the transformative power of dhyana.`,
+    lifeLesson: `Meditation is not escape — it is meeting yourself fully. Even 10 minutes daily of sitting with your breath rewires the brain. The mind that watches itself is already beginning to transform.`,
+  },
+  '1:1.24': {
+    explanation: `वह कामी नहीं था, न क्रोधी, न मत्सरी, न अहंकारी, न मिथ्यावादी — वह वानरश्रेष्ठ वाली।`,
+    science: `Neuroscience of ego (default mode network): the DMN generates self-referential thinking — the constant narrative of "me and mine." Overactivity of this network is linked to depression and anxiety. Spiritual practices that dissolve ego literally quiet this network.`,
+    lifeLesson: `The ego is not your enemy — it is a useful tool that has mistaken itself for your identity. Use it when needed, but do not let it use you. When the ego is small, the soul has room to grow.`,
+  },
+  '2:1.1': {
+    explanation: `मैं भाग्य को दोष नहीं देता; मैं पुरुषार्थ की शरण लेता हूँ। जो वास्तव में भाग्यशाली हैं, वे स्वयं ही कर्म में लगे रहते हैं।`,
+    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
+    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
+  },
+  '2:1.2': {
+    explanation: `तुम्हें शोक नहीं करना चाहिए। आत्मा इस लोक में सर्वत्र व्याप्त है और नष्ट नहीं होती।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '2:1.3': {
+    explanation: `प्रिय के वियोग से तुम्हें शोक नहीं करना चाहिए। काम और क्रोध को वश में करके — हे महाद्युते, वंश की रक्षा करो।`,
+    science: `Meditation research (Davidson): sustained meditation practice thickens the prefrontal cortex, strengthens insula connectivity, and reduces amygdala reactivity. These measurable brain changes confirm the transformative power of dhyana.`,
+    lifeLesson: `Meditation is not escape — it is meeting yourself fully. Even 10 minutes daily of sitting with your breath rewires the brain. The mind that watches itself is already beginning to transform.`,
+  },
+  '2:1.4': {
+    explanation: `पादुकाएं प्राप्त करके, भरत ने स्वयं ही — विनयपूर्वक प्रणाम करके — उन्हें अपने सिर पर धारण किया।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '2:1.5': {
+    explanation: `जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '2:1.6': {
+    explanation: `शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '2:1.7': {
+    explanation: `एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।`,
+    science: `Neuroscience of loss aversion (Kahneman): the brain processes loss in the amygdala with twice the intensity of equivalent gains. Accepting impermanence reduces this bias, leading to more balanced decision-making and emotional resilience.`,
+    lifeLesson: `Everything changes — your body, relationships, circumstances, even your mind. Clinging to what is changing causes suffering. Practice letting go gracefully, and you will find peace that does not depend on circumstances.`,
+  },
+  '2:1.8': {
+    explanation: `राम धर्म का साक्षात रूप है; राम सारे जगत की गति है। राम सभी देवों का राजा है; राम वेद का गूढ़ रूप है।`,
+    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation. Dharma is the codified wisdom of what sustains both individual and collective flourishing.`,
+    lifeLesson: `Do what is right, not what is easy. Dharma is not about rules — it is about alignment with the natural order that sustains life. When in doubt, choose the action that benefits the whole, not just yourself.`,
+  },
+  '2:1.9': {
+    explanation: `जानकी का पुत्र दिव्य है; जानकी का पति स्वयं ब्रह्मा है। वह जानकी कुल का आभूषण है या जानकी कुल का प्रकाश।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '2:2.10': {
+    explanation: `ॐ धनुष है, विराट बाण है, राम कमलनयन है। राम पार्थिव है, विश्वकर्मा है, पुरुषोत्तम है।`,
+    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
+    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
+  },
+  '2:1.14': {
+    explanation: `मैं स्वयं गृध्रराज जटायु के लिए जलांजलि दूँगा — अत्यंत प्रिय उनके लिए — और मैं उनका दाह-संस्कार करूँगा।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '2:1.24': {
+    explanation: `वह कामी नहीं था, न क्रोधी, न मत्सरी, न अहंकारी, न मिथ्यावादी — वह वानरश्रेष्ठ वाली।`,
+    science: `Neuroscience of ego (default mode network): the DMN generates self-referential thinking — the constant narrative of "me and mine." Overactivity of this network is linked to depression and anxiety. Spiritual practices that dissolve ego literally quiet this network.`,
+    lifeLesson: `The ego is not your enemy — it is a useful tool that has mistaken itself for your identity. Use it when needed, but do not let it use you. When the ego is small, the soul has room to grow.`,
+  },
+  '2:12.111': {
+    explanation: `नीति और शास्त्र-विधि शत्रु से भी ग्रहण करो। जो शास्त्र का सर्वश्रेष्ठ ज्ञाता हो — उससे उपदेश लेना उचित है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '3:1.2': {
+    explanation: `सत्य की ही जीत होती है, असत्य की नहीं। सत्य से ही देवयान मार्ग प्रशस्त होता है।`,
+    science: `Psychology of authenticity (Harter): living in alignment with one's true values correlates with higher well-being, lower stress, and stronger relationships. Deception, even self-deception, creates cognitive dissonance that drains mental energy.`,
+    lifeLesson: `Truth is not just about what you say — it is about who you are. Be honest with yourself first. The most damaging lies are the ones we tell ourselves. Practice radical honesty, starting with your own heart.`,
+  },
+  '3:1.3': {
+    explanation: `मैं स्वयं गृध्रराज जटायु के लिए जलांजलि दूँगा — अत्यंत प्रिय उनके लिए — और मैं उनका दाह-संस्कार करूँगा।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '3:1.4': {
+    explanation: `इक्ष्वाकु वंश में उत्पन्न, लोगों में राम के नाम से विख्यात — नियतात्मा, महावीर्य, द्युतिमान, धृतिमान, इन्द्रियों के स्वामी।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '3:1.5': {
+    explanation: `जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '3:1.6': {
+    explanation: `शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '3:1.7': {
+    explanation: `एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।`,
+    science: `Neuroscience of loss aversion (Kahneman): the brain processes loss in the amygdala with twice the intensity of equivalent gains. Accepting impermanence reduces this bias, leading to more balanced decision-making and emotional resilience.`,
+    lifeLesson: `Everything changes — your body, relationships, circumstances, even your mind. Clinging to what is changing causes suffering. Practice letting go gracefully, and you will find peace that does not depend on circumstances.`,
+  },
+  '3:1.8': {
+    explanation: `राम धर्म का साक्षात रूप है; राम सारे जगत की गति है। राम सभी देवों का राजा है; राम वेद का गूढ़ रूप है।`,
+    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation. Dharma is the codified wisdom of what sustains both individual and collective flourishing.`,
+    lifeLesson: `Do what is right, not what is easy. Dharma is not about rules — it is about alignment with the natural order that sustains life. When in doubt, choose the action that benefits the whole, not just yourself.`,
+  },
+  '3:1.9': {
+    explanation: `जानकी का पुत्र दिव्य है; जानकी का पति स्वयं ब्रह्मा है। वह जानकी कुल का आभूषण है या जानकी कुल का प्रकाश।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '3:2.10': {
+    explanation: `ॐ धनुष है, विराट बाण है, राम कमलनयन है। राम पार्थिव है, विश्वकर्मा है, पुरुषोत्तम है।`,
+    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
+    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
+  },
+  '3:1.20': {
+    explanation: `मैं भाग्य को दोष नहीं देता; मैं पुरुषार्थ की शरण लेता हूँ। जो वास्तव में भाग्यशाली हैं, वे स्वयं ही कर्म में लगे रहते हैं।`,
+    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
+    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
+  },
+  '3:1.21': {
+    explanation: `तुम्हें शोक नहीं करना चाहिए। आत्मा इस लोक में सर्वत्र व्याप्त है और नष्ट नहीं होती।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '3:1.22': {
+    explanation: `प्रिय के वियोग से तुम्हें शोक नहीं करना चाहिए। काम और क्रोध को वश में करके — हे महाद्युते, वंश की रक्षा करो।`,
+    science: `Meditation research (Davidson): sustained meditation practice thickens the prefrontal cortex, strengthens insula connectivity, and reduces amygdala reactivity. These measurable brain changes confirm the transformative power of dhyana.`,
+    lifeLesson: `Meditation is not escape — it is meeting yourself fully. Even 10 minutes daily of sitting with your breath rewires the brain. The mind that watches itself is already beginning to transform.`,
+  },
+  '3:2.24': {
+    explanation: `वह कामी नहीं था, न क्रोधी, न मत्सरी, न अहंकारी, न मिथ्यावादी — वह वानरश्रेष्ठ वाली।`,
+    science: `Neuroscience of ego (default mode network): the DMN generates self-referential thinking — the constant narrative of "me and mine." Overactivity of this network is linked to depression and anxiety. Spiritual practices that dissolve ego literally quiet this network.`,
+    lifeLesson: `The ego is not your enemy — it is a useful tool that has mistaken itself for your identity. Use it when needed, but do not let it use you. When the ego is small, the soul has room to grow.`,
+  },
+  '4:1.2': {
+    explanation: `हे आर्य! उत्साह ही सबसे बड़ा बल है — उत्साह से बड़ा कोई बल नहीं है। उत्साही के लिए इस संसार में कुछ भी दुर्लभ नहीं है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '4:1.3': {
+    explanation: `वह कामी नहीं था, न क्रोधी, न मत्सरी, न अहंकारी, न मिथ्यावादी — वह वानरश्रेष्ठ वाली।`,
+    science: `Neuroscience of ego (default mode network): the DMN generates self-referential thinking — the constant narrative of "me and mine." Overactivity of this network is linked to depression and anxiety. Spiritual practices that dissolve ego literally quiet this network.`,
+    lifeLesson: `The ego is not your enemy — it is a useful tool that has mistaken itself for your identity. Use it when needed, but do not let it use you. When the ego is small, the soul has room to grow.`,
+  },
+  '4:1.4': {
+    explanation: `इक्ष्वाकु वंश में उत्पन्न, लोगों में राम के नाम से विख्यात — नियतात्मा, महावीर्य, द्युतिमान, धृतिमान, इन्द्रियों के स्वामी।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '4:1.5': {
+    explanation: `जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '4:1.6': {
+    explanation: `शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '4:1.7': {
+    explanation: `एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।`,
+    science: `Neuroscience of loss aversion (Kahneman): the brain processes loss in the amygdala with twice the intensity of equivalent gains. Accepting impermanence reduces this bias, leading to more balanced decision-making and emotional resilience.`,
+    lifeLesson: `Everything changes — your body, relationships, circumstances, even your mind. Clinging to what is changing causes suffering. Practice letting go gracefully, and you will find peace that does not depend on circumstances.`,
+  },
+  '4:1.8': {
+    explanation: `राम धर्म का साक्षात रूप है; राम सारे जगत की गति है। राम सभी देवों का राजा है; राम वेद का गूढ़ रूप है।`,
+    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation. Dharma is the codified wisdom of what sustains both individual and collective flourishing.`,
+    lifeLesson: `Do what is right, not what is easy. Dharma is not about rules — it is about alignment with the natural order that sustains life. When in doubt, choose the action that benefits the whole, not just yourself.`,
+  },
+  '4:1.9': {
+    explanation: `जानकी का पुत्र दिव्य है; जानकी का पति स्वयं ब्रह्मा है। वह जानकी कुल का आभूषण है या जानकी कुल का प्रकाश।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '4:2.10': {
+    explanation: `ॐ धनुष है, विराट बाण है, राम कमलनयन है। राम पार्थिव है, विश्वकर्मा है, पुरुषोत्तम है।`,
+    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
+    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
+  },
+  '4:1.14': {
+    explanation: `मैं स्वयं गृध्रराज जटायु के लिए जलांजलि दूँगा — अत्यंत प्रिय उनके लिए — और मैं उनका दाह-संस्कार करूँगा।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '4:1.20': {
+    explanation: `मैं भाग्य को दोष नहीं देता; मैं पुरुषार्थ की शरण लेता हूँ। जो वास्तव में भाग्यशाली हैं, वे स्वयं ही कर्म में लगे रहते हैं।`,
+    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
+    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
+  },
+  '4:1.21': {
+    explanation: `तुम्हें शोक नहीं करना चाहिए। आत्मा इस लोक में सर्वत्र व्याप्त है और नष्ट नहीं होती।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '4:1.22': {
+    explanation: `प्रिय के वियोग से तुम्हें शोक नहीं करना चाहिए। काम और क्रोध को वश में करके — हे महाद्युते, वंश की रक्षा करो।`,
+    science: `Meditation research (Davidson): sustained meditation practice thickens the prefrontal cortex, strengthens insula connectivity, and reduces amygdala reactivity. These measurable brain changes confirm the transformative power of dhyana.`,
+    lifeLesson: `Meditation is not escape — it is meeting yourself fully. Even 10 minutes daily of sitting with your breath rewires the brain. The mind that watches itself is already beginning to transform.`,
+  },
+  '4:1.111': {
+    explanation: `नीति और शास्त्र-विधि शत्रु से भी ग्रहण करो। जो शास्त्र का सर्वश्रेष्ठ ज्ञाता हो — उससे उपदेश लेना उचित है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '4:1.112': {
+    explanation: `पादुकाएं प्राप्त करके, भरत ने स्वयं ही — विनयपूर्वक प्रणाम करके — उन्हें अपने सिर पर धारण किया।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '5:1.2': {
+    explanation: `मन में सोचे गए कार्य को वाणी से प्रकट नहीं करना चाहिए। मन्त्रणा से कार्य की रक्षा करो; और करने के बाद भी उसे घोषित मत करो।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '5:1.3': {
+    explanation: `न दशरथ, न कोई अन्य पुरुष — वह सह सकता जो मैंने सहा है। रावण मुझे — सीता को — किसी भी रूप में, कभी नहीं जीत सकता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '5:1.4': {
+    explanation: `इक्ष्वाकु वंश में उत्पन्न, लोगों में राम के नाम से विख्यात — नियतात्मा, महावीर्य, द्युतिमान, धृतिमान, इन्द्रियों के स्वामी।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '5:1.5': {
+    explanation: `जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '5:1.6': {
+    explanation: `शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '5:1.7': {
+    explanation: `एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।`,
+    science: `Neuroscience of loss aversion (Kahneman): the brain processes loss in the amygdala with twice the intensity of equivalent gains. Accepting impermanence reduces this bias, leading to more balanced decision-making and emotional resilience.`,
+    lifeLesson: `Everything changes — your body, relationships, circumstances, even your mind. Clinging to what is changing causes suffering. Practice letting go gracefully, and you will find peace that does not depend on circumstances.`,
+  },
+  '5:1.8': {
+    explanation: `राम धर्म का साक्षात रूप है; राम सारे जगत की गति है। राम सभी देवों का राजा है; राम वेद का गूढ़ रूप है।`,
+    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation. Dharma is the codified wisdom of what sustains both individual and collective flourishing.`,
+    lifeLesson: `Do what is right, not what is easy. Dharma is not about rules — it is about alignment with the natural order that sustains life. When in doubt, choose the action that benefits the whole, not just yourself.`,
+  },
+  '5:1.9': {
+    explanation: `जानकी का पुत्र दिव्य है; जानकी का पति स्वयं ब्रह्मा है। वह जानकी कुल का आभूषण है या जानकी कुल का प्रकाश।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '5:2.10': {
+    explanation: `ॐ धनुष है, विराट बाण है, राम कमलनयन है। राम पार्थिव है, विश्वकर्मा है, पुरुषोत्तम है।`,
+    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
+    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
+  },
+  '5:1.14': {
+    explanation: `मैं स्वयं गृध्रराज जटायु के लिए जलांजलि दूँगा — अत्यंत प्रिय उनके लिए — और मैं उनका दाह-संस्कार करूँगा।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '5:1.20': {
+    explanation: `मैं भाग्य को दोष नहीं देता; मैं पुरुषार्थ की शरण लेता हूँ। जो वास्तव में भाग्यशाली हैं, वे स्वयं ही कर्म में लगे रहते हैं।`,
+    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
+    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
+  },
+  '5:1.21': {
+    explanation: `तुम्हें शोक नहीं करना चाहिए। आत्मा इस लोक में सर्वत्र व्याप्त है और नष्ट नहीं होती।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '5:1.24': {
+    explanation: `वह कामी नहीं था, न क्रोधी, न मत्सरी, न अहंकारी, न मिथ्यावादी — वह वानरश्रेष्ठ वाली।`,
+    science: `Neuroscience of ego (default mode network): the DMN generates self-referential thinking — the constant narrative of "me and mine." Overactivity of this network is linked to depression and anxiety. Spiritual practices that dissolve ego literally quiet this network.`,
+    lifeLesson: `The ego is not your enemy — it is a useful tool that has mistaken itself for your identity. Use it when needed, but do not let it use you. When the ego is small, the soul has room to grow.`,
+  },
+  '5:1.111': {
+    explanation: `नीति और शास्त्र-विधि शत्रु से भी ग्रहण करो। जो शास्त्र का सर्वश्रेष्ठ ज्ञाता हो — उससे उपदेश लेना उचित है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '5:1.112': {
+    explanation: `पादुकाएं प्राप्त करके, भरत ने स्वयं ही — विनयपूर्वक प्रणाम करके — उन्हें अपने सिर पर धारण किया।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '6:1.2': {
+    explanation: `सभी सुखी हों; सभी रोग-मुक्त हों; सभी शुभ देखें; किसी को भी दुःख न हो।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '6:1.3': {
+    explanation: `नीति और शास्त्र-विधि शत्रु से भी ग्रहण करो। जो शास्त्र का सर्वश्रेष्ठ ज्ञाता हो — उससे उपदेश लेना उचित है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '6:1.4': {
+    explanation: `इक्ष्वाकु वंश में उत्पन्न, लोगों में राम के नाम से विख्यात — नियतात्मा, महावीर्य, द्युतिमान, धृतिमान, इन्द्रियों के स्वामी।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '6:1.5': {
+    explanation: `जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '6:1.6': {
+    explanation: `शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '6:1.7': {
+    explanation: `एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।`,
+    science: `Neuroscience of loss aversion (Kahneman): the brain processes loss in the amygdala with twice the intensity of equivalent gains. Accepting impermanence reduces this bias, leading to more balanced decision-making and emotional resilience.`,
+    lifeLesson: `Everything changes — your body, relationships, circumstances, even your mind. Clinging to what is changing causes suffering. Practice letting go gracefully, and you will find peace that does not depend on circumstances.`,
+  },
+  '6:1.8': {
+    explanation: `राम धर्म का साक्षात रूप है; राम सारे जगत की गति है। राम सभी देवों का राजा है; राम वेद का गूढ़ रूप है।`,
+    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation. Dharma is the codified wisdom of what sustains both individual and collective flourishing.`,
+    lifeLesson: `Do what is right, not what is easy. Dharma is not about rules — it is about alignment with the natural order that sustains life. When in doubt, choose the action that benefits the whole, not just yourself.`,
+  },
+  '6:1.9': {
+    explanation: `जानकी का पुत्र दिव्य है; जानकी का पति स्वयं ब्रह्मा है। वह जानकी कुल का आभूषण है या जानकी कुल का प्रकाश।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '6:2.10': {
+    explanation: `ॐ धनुष है, विराट बाण है, राम कमलनयन है। राम पार्थिव है, विश्वकर्मा है, पुरुषोत्तम है।`,
+    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
+    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
+  },
+  '6:1.14': {
+    explanation: `मैं स्वयं गृध्रराज जटायु के लिए जलांजलि दूँगा — अत्यंत प्रिय उनके लिए — और मैं उनका दाह-संस्कार करूँगा।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '6:2.20': {
+    explanation: `मैं भाग्य को दोष नहीं देता; मैं पुरुषार्थ की शरण लेता हूँ। जो वास्तव में भाग्यशाली हैं, वे स्वयं ही कर्म में लगे रहते हैं।`,
+    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
+    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
+  },
+  '6:2.21': {
+    explanation: `तुम्हें शोक नहीं करना चाहिए। आत्मा इस लोक में सर्वत्र व्याप्त है और नष्ट नहीं होती।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '6:2.22': {
+    explanation: `प्रिय के वियोग से तुम्हें शोक नहीं करना चाहिए। काम और क्रोध को वश में करके — हे महाद्युते, वंश की रक्षा करो।`,
+    science: `Meditation research (Davidson): sustained meditation practice thickens the prefrontal cortex, strengthens insula connectivity, and reduces amygdala reactivity. These measurable brain changes confirm the transformative power of dhyana.`,
+    lifeLesson: `Meditation is not escape — it is meeting yourself fully. Even 10 minutes daily of sitting with your breath rewires the brain. The mind that watches itself is already beginning to transform.`,
+  },
+  '6:2.24': {
+    explanation: `वह कामी नहीं था, न क्रोधी, न मत्सरी, न अहंकारी, न मिथ्यावादी — वह वानरश्रेष्ठ वाली।`,
+    science: `Neuroscience of ego (default mode network): the DMN generates self-referential thinking — the constant narrative of "me and mine." Overactivity of this network is linked to depression and anxiety. Spiritual practices that dissolve ego literally quiet this network.`,
+    lifeLesson: `The ego is not your enemy — it is a useful tool that has mistaken itself for your identity. Use it when needed, but do not let it use you. When the ego is small, the soul has room to grow.`,
+  },
+  '6:59.112': {
+    explanation: `पादुकाएं प्राप्त करके, भरत ने स्वयं ही — विनयपूर्वक प्रणाम करके — उन्हें अपने सिर पर धारण किया।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '7:1.2': {
+    explanation: `आत्मा को रथी (रथ पर बैठे स्वामी) जानो; शरीर रथ है; बुद्धि सारथी है; मन लगाम है।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '7:1.3': {
+    explanation: `योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग ब्रह्म पर आश्रित है।`,
+    science: `Neuroscience of flow (Csikszentmihalyi): in flow states, the prefrontal cortex temporarily deactivates — self-referential thinking ceases, and action becomes spontaneous. This is the psychological correlate of liberation: action without the doer.`,
+    lifeLesson: `Freedom is not the absence of responsibility — it is the absence of the ego that resists responsibility. When you act without attachment to results, you are already free, even in the midst of action.`,
+  },
+  '7:1.10': {
+    explanation: `ॐ धनुष है, विराट बाण है, राम कमलनयन है। राम पार्थिव है, विश्वकर्मा है, पुरुषोत्तम है।`,
+    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
+    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
+  },
+  '7:2.14': {
+    explanation: `मैं स्वयं गृध्रराज जटायु के लिए जलांजलि दूँगा — अत्यंत प्रिय उनके लिए — और मैं उनका दाह-संस्कार करूँगा।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '7:1.20': {
+    explanation: `मैं भाग्य को दोष नहीं देता; मैं पुरुषार्थ की शरण लेता हूँ। जो वास्तव में भाग्यशाली हैं, वे स्वयं ही कर्म में लगे रहते हैं।`,
+    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
+    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
+  },
+  '7:1.21': {
+    explanation: `तुम्हें शोक नहीं करना चाहिए। आत्मा इस लोक में सर्वत्र व्याप्त है और नष्ट नहीं होती।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '7:1.22': {
+    explanation: `प्रिय के वियोग से तुम्हें शोक नहीं करना चाहिए। काम और क्रोध को वश में करके — हे महाद्युते, वंश की रक्षा करो।`,
+    science: `Meditation research (Davidson): sustained meditation practice thickens the prefrontal cortex, strengthens insula connectivity, and reduces amygdala reactivity. These measurable brain changes confirm the transformative power of dhyana.`,
+    lifeLesson: `Meditation is not escape — it is meeting yourself fully. Even 10 minutes daily of sitting with your breath rewires the brain. The mind that watches itself is already beginning to transform.`,
+  },
+  '7:1.24': {
+    explanation: `वह कामी नहीं था, न क्रोधी, न मत्सरी, न अहंकारी, न मिथ्यावादी — वह वानरश्रेष्ठ वाली।`,
+    science: `Neuroscience of ego (default mode network): the DMN generates self-referential thinking — the constant narrative of "me and mine." Overactivity of this network is linked to depression and anxiety. Spiritual practices that dissolve ego literally quiet this network.`,
+    lifeLesson: `The ego is not your enemy — it is a useful tool that has mistaken itself for your identity. Use it when needed, but do not let it use you. When the ego is small, the soul has room to grow.`,
+  },
+
+  '1:1002': {
+    explanation: `राम साक्षात् धर्म के मानव-रूप हैं — साधु, सत्य-प्रतिज्ञ; जैसे देवों में इन्द्र, वैसे सम्पूर्ण लोकों के राजा।`,
+    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation.`,
+    lifeLesson: `Do what is right, not what is easy. Dharma is alignment with the natural order that sustains life.`,
+  },
+  '1:1006': {
+    explanation: `शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '1:1007': {
+    explanation: `एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।`,
+    science: `Neuroscience of loss aversion (Kahneman): the brain processes loss with twice the intensity of equivalent gains.`,
+    lifeLesson: `Everything changes. Clinging to what is changing causes suffering. Practice letting go gracefully.`,
+  },
+  '1:1008': {
+    explanation: `राम धर्म का साक्षात रूप है; राम सारे जगत की गति है। राम सभी देवों का राजा है; राम वेद का गूढ़ रूप है।`,
+    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation.`,
+    lifeLesson: `Do what is right, not what is easy. Dharma is alignment with the natural order that sustains life.`,
+  },
+  '1:1009': {
+    explanation: `जानकी का पुत्र दिव्य है; जानकी का पति स्वयं ब्रह्मा है। वह जानकी कुल का आभूषण है या जानकी कुल का प्रकाश।`,
+    science: `Psychology of gratitude (Emmons): gratitude practice measurably increases well-being and strengthens relationships.`,
+    lifeLesson: `Grace is not earned — it is received. Practice gratitude daily; it transforms ordinary moments into blessings.`,
+  },
+  '1:2010': {
+    explanation: `ॐ धनुष है, विराट बाण है, राम कमलनयन है। राम पार्थिव है, विश्वकर्मा है, पुरुषोत्तम है।`,
+    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
+    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
+  },
+  '1:1014': {
+    explanation: `मैं स्वयं गृध्रराज जटायु के लिए जलांजलि दूँगा — अत्यंत प्रिय उनके लिए — और मैं उनका दाह-संस्कार करूँगा।`,
+    science: `Ecopsychology: exposure to natural environments reduces cortisol and enhances emotional regulation.`,
+    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is a return, not an escape.`,
+  },
+  '1:1020': {
+    explanation: `मैं भाग्य को दोष नहीं देता; मैं पुरुषार्थ की शरण लेता हूँ। जो वास्तव में भाग्यशाली हैं, वे स्वयं ही कर्म में लगे रहते हैं।`,
+    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
+    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
+  },
+  '1:1021': {
+    explanation: `तुम्हें शोक नहीं करना चाहिए। आत्मा इस लोक में सर्वत्र व्याप्त है और नष्ट नहीं होती।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain. The default mode network generates the sense of "I" — meditation temporarily deactivates this network.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear.`,
+  },
+  '1:1022': {
+    explanation: `प्रिय के वियोग से तुम्हें शोक नहीं करना चाहिए। काम और क्रोध को वश में करके — हे महाद्युते, वंश की रक्षा करो।`,
+    science: `Meditation research (Davidson): sustained practice thickens the prefrontal cortex and reduces amygdala reactivity.`,
+    lifeLesson: `Meditation is not escape — it is meeting yourself fully. Even 10 minutes daily rewires the brain.`,
+  },
+  '1:1024': {
+    explanation: `वह कामी नहीं था, न क्रोधी, न मत्सरी, न अहंकारी, न मिथ्यावादी — वह वानरश्रेष्ठ वाली।`,
+    science: `Neuroscience of ego (DMN): the default mode network generates self-referential thinking. Overactivity is linked to depression and anxiety.`,
+    lifeLesson: `The ego is a useful tool that has mistaken itself for your identity. When the ego is small, the soul has room to grow.`,
+  },
+  '2:1001': {
+    explanation: `मैं भाग्य को दोष नहीं देता; मैं पुरुषार्थ की शरण लेता हूँ। जो वास्तव में भाग्यशाली हैं, वे स्वयं ही कर्म में लगे रहते हैं।`,
+    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
+    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
+  },
+  '2:1002': {
+    explanation: `तुम्हें शोक नहीं करना चाहिए। आत्मा इस लोक में सर्वत्र व्याप्त है और नष्ट नहीं होती।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain. The default mode network generates the sense of "I" — meditation temporarily deactivates this network.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear.`,
+  },
+  '2:1003': {
+    explanation: `प्रिय के वियोग से तुम्हें शोक नहीं करना चाहिए। काम और क्रोध को वश में करके — हे महाद्युते, वंश की रक्षा करो।`,
+    science: `Meditation research (Davidson): sustained practice thickens the prefrontal cortex and reduces amygdala reactivity.`,
+    lifeLesson: `Meditation is not escape — it is meeting yourself fully. Even 10 minutes daily rewires the brain.`,
+  },
+  '2:1004': {
+    explanation: `पादुकाएं प्राप्त करके, भरत ने स्वयं ही — विनयपूर्वक प्रणाम करके — उन्हें अपने सिर पर धारण किया।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '2:1005': {
+    explanation: `जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '2:1006': {
+    explanation: `शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '2:1007': {
+    explanation: `एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।`,
+    science: `Neuroscience of loss aversion (Kahneman): the brain processes loss with twice the intensity of equivalent gains.`,
+    lifeLesson: `Everything changes. Clinging to what is changing causes suffering. Practice letting go gracefully.`,
+  },
+  '2:1008': {
+    explanation: `राम धर्म का साक्षात रूप है; राम सारे जगत की गति है। राम सभी देवों का राजा है; राम वेद का गूढ़ रूप है।`,
+    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation.`,
+    lifeLesson: `Do what is right, not what is easy. Dharma is alignment with the natural order that sustains life.`,
+  },
+  '2:1009': {
+    explanation: `जानकी का पुत्र दिव्य है; जानकी का पति स्वयं ब्रह्मा है। वह जानकी कुल का आभूषण है या जानकी कुल का प्रकाश।`,
+    science: `Psychology of gratitude (Emmons): gratitude practice measurably increases well-being and strengthens relationships.`,
+    lifeLesson: `Grace is not earned — it is received. Practice gratitude daily; it transforms ordinary moments into blessings.`,
+  },
+  '2:2010': {
+    explanation: `ॐ धनुष है, विराट बाण है, राम कमलनयन है। राम पार्थिव है, विश्वकर्मा है, पुरुषोत्तम है।`,
+    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
+    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
+  },
+  '2:1014': {
+    explanation: `मैं स्वयं गृध्रराज जटायु के लिए जलांजलि दूँगा — अत्यंत प्रिय उनके लिए — और मैं उनका दाह-संस्कार करूँगा।`,
+    science: `Ecopsychology: exposure to natural environments reduces cortisol and enhances emotional regulation.`,
+    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is a return, not an escape.`,
+  },
+  '2:1024': {
+    explanation: `वह कामी नहीं था, न क्रोधी, न मत्सरी, न अहंकारी, न मिथ्यावादी — वह वानरश्रेष्ठ वाली।`,
+    science: `Neuroscience of ego (DMN): the default mode network generates self-referential thinking. Overactivity is linked to depression and anxiety.`,
+    lifeLesson: `The ego is a useful tool that has mistaken itself for your identity. When the ego is small, the soul has room to grow.`,
+  },
+  '2:12111': {
+    explanation: `नीति और शास्त्र-विधि शत्रु से भी ग्रहण करो। जो शास्त्र का सर्वश्रेष्ठ ज्ञाता हो — उससे उपदेश लेना उचित है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '3:1002': {
+    explanation: `सत्य की ही जीत होती है, असत्य की नहीं। सत्य से ही देवयान मार्ग प्रशस्त होता है।`,
+    science: `Psychology of authenticity (Harter): living in alignment with one's true values correlates with higher well-being.`,
+    lifeLesson: `Be honest with yourself first. The most damaging lies are the ones we tell ourselves.`,
+  },
+  '3:1003': {
+    explanation: `मैं स्वयं गृध्रराज जटायु के लिए जलांजलि दूँगा — अत्यंत प्रिय उनके लिए — और मैं उनका दाह-संस्कार करूँगा।`,
+    science: `Ecopsychology: exposure to natural environments reduces cortisol and enhances emotional regulation.`,
+    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is a return, not an escape.`,
+  },
+  '3:1004': {
+    explanation: `इक्ष्वाकु वंश में उत्पन्न, लोगों में राम के नाम से विख्यात — नियतात्मा, महावीर्य, द्युतिमान, धृतिमान, इन्द्रियों के स्वामी।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '3:1005': {
+    explanation: `जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '3:1006': {
+    explanation: `शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '3:1007': {
+    explanation: `एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।`,
+    science: `Neuroscience of loss aversion (Kahneman): the brain processes loss with twice the intensity of equivalent gains.`,
+    lifeLesson: `Everything changes. Clinging to what is changing causes suffering. Practice letting go gracefully.`,
+  },
+  '3:1008': {
+    explanation: `राम धर्म का साक्षात रूप है; राम सारे जगत की गति है। राम सभी देवों का राजा है; राम वेद का गूढ़ रूप है।`,
+    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation.`,
+    lifeLesson: `Do what is right, not what is easy. Dharma is alignment with the natural order that sustains life.`,
+  },
+  '3:1009': {
+    explanation: `जानकी का पुत्र दिव्य है; जानकी का पति स्वयं ब्रह्मा है। वह जानकी कुल का आभूषण है या जानकी कुल का प्रकाश।`,
+    science: `Psychology of gratitude (Emmons): gratitude practice measurably increases well-being and strengthens relationships.`,
+    lifeLesson: `Grace is not earned — it is received. Practice gratitude daily; it transforms ordinary moments into blessings.`,
+  },
+  '3:2010': {
+    explanation: `ॐ धनुष है, विराट बाण है, राम कमलनयन है। राम पार्थिव है, विश्वकर्मा है, पुरुषोत्तम है।`,
+    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
+    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
+  },
+  '3:1020': {
+    explanation: `मैं भाग्य को दोष नहीं देता; मैं पुरुषार्थ की शरण लेता हूँ। जो वास्तव में भाग्यशाली हैं, वे स्वयं ही कर्म में लगे रहते हैं।`,
+    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
+    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
+  },
+  '3:1021': {
+    explanation: `तुम्हें शोक नहीं करना चाहिए। आत्मा इस लोक में सर्वत्र व्याप्त है और नष्ट नहीं होती।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain. The default mode network generates the sense of "I" — meditation temporarily deactivates this network.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear.`,
+  },
+  '3:1022': {
+    explanation: `प्रिय के वियोग से तुम्हें शोक नहीं करना चाहिए। काम और क्रोध को वश में करके — हे महाद्युते, वंश की रक्षा करो।`,
+    science: `Meditation research (Davidson): sustained practice thickens the prefrontal cortex and reduces amygdala reactivity.`,
+    lifeLesson: `Meditation is not escape — it is meeting yourself fully. Even 10 minutes daily rewires the brain.`,
+  },
+  '3:2024': {
+    explanation: `वह कामी नहीं था, न क्रोधी, न मत्सरी, न अहंकारी, न मिथ्यावादी — वह वानरश्रेष्ठ वाली।`,
+    science: `Neuroscience of ego (DMN): the default mode network generates self-referential thinking. Overactivity is linked to depression and anxiety.`,
+    lifeLesson: `The ego is a useful tool that has mistaken itself for your identity. When the ego is small, the soul has room to grow.`,
+  },
+  '4:1002': {
+    explanation: `हे आर्य! उत्साह ही सबसे बड़ा बल है — उत्साह से बड़ा कोई बल नहीं है। उत्साही के लिए इस संसार में कुछ भी दुर्लभ नहीं है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '4:1003': {
+    explanation: `वह कामी नहीं था, न क्रोधी, न मत्सरी, न अहंकारी, न मिथ्यावादी — वह वानरश्रेष्ठ वाली।`,
+    science: `Neuroscience of ego (DMN): the default mode network generates self-referential thinking. Overactivity is linked to depression and anxiety.`,
+    lifeLesson: `The ego is a useful tool that has mistaken itself for your identity. When the ego is small, the soul has room to grow.`,
+  },
+  '4:1004': {
+    explanation: `इक्ष्वाकु वंश में उत्पन्न, लोगों में राम के नाम से विख्यात — नियतात्मा, महावीर्य, द्युतिमान, धृतिमान, इन्द्रियों के स्वामी।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '4:1005': {
+    explanation: `जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '4:1006': {
+    explanation: `शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '4:1007': {
+    explanation: `एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।`,
+    science: `Neuroscience of loss aversion (Kahneman): the brain processes loss with twice the intensity of equivalent gains.`,
+    lifeLesson: `Everything changes. Clinging to what is changing causes suffering. Practice letting go gracefully.`,
+  },
+  '4:1008': {
+    explanation: `राम धर्म का साक्षात रूप है; राम सारे जगत की गति है। राम सभी देवों का राजा है; राम वेद का गूढ़ रूप है।`,
+    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation.`,
+    lifeLesson: `Do what is right, not what is easy. Dharma is alignment with the natural order that sustains life.`,
+  },
+  '4:1009': {
+    explanation: `जानकी का पुत्र दिव्य है; जानकी का पति स्वयं ब्रह्मा है। वह जानकी कुल का आभूषण है या जानकी कुल का प्रकाश।`,
+    science: `Psychology of gratitude (Emmons): gratitude practice measurably increases well-being and strengthens relationships.`,
+    lifeLesson: `Grace is not earned — it is received. Practice gratitude daily; it transforms ordinary moments into blessings.`,
+  },
+  '4:2010': {
+    explanation: `ॐ धनुष है, विराट बाण है, राम कमलनयन है। राम पार्थिव है, विश्वकर्मा है, पुरुषोत्तम है।`,
+    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
+    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
+  },
+  '4:1014': {
+    explanation: `मैं स्वयं गृध्रराज जटायु के लिए जलांजलि दूँगा — अत्यंत प्रिय उनके लिए — और मैं उनका दाह-संस्कार करूँगा।`,
+    science: `Ecopsychology: exposure to natural environments reduces cortisol and enhances emotional regulation.`,
+    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is a return, not an escape.`,
+  },
+  '4:1020': {
+    explanation: `मैं भाग्य को दोष नहीं देता; मैं पुरुषार्थ की शरण लेता हूँ। जो वास्तव में भाग्यशाली हैं, वे स्वयं ही कर्म में लगे रहते हैं।`,
+    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
+    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
+  },
+  '4:1021': {
+    explanation: `तुम्हें शोक नहीं करना चाहिए। आत्मा इस लोक में सर्वत्र व्याप्त है और नष्ट नहीं होती।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain. The default mode network generates the sense of "I" — meditation temporarily deactivates this network.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear.`,
+  },
+  '4:1022': {
+    explanation: `प्रिय के वियोग से तुम्हें शोक नहीं करना चाहिए। काम और क्रोध को वश में करके — हे महाद्युते, वंश की रक्षा करो।`,
+    science: `Meditation research (Davidson): sustained practice thickens the prefrontal cortex and reduces amygdala reactivity.`,
+    lifeLesson: `Meditation is not escape — it is meeting yourself fully. Even 10 minutes daily rewires the brain.`,
+  },
+  '4:1111': {
+    explanation: `नीति और शास्त्र-विधि शत्रु से भी ग्रहण करो। जो शास्त्र का सर्वश्रेष्ठ ज्ञाता हो — उससे उपदेश लेना उचित है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '4:1112': {
+    explanation: `पादुकाएं प्राप्त करके, भरत ने स्वयं ही — विनयपूर्वक प्रणाम करके — उन्हें अपने सिर पर धारण किया।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '5:1002': {
+    explanation: `मन में सोचे गए कार्य को वाणी से प्रकट नहीं करना चाहिए। मन्त्रणा से कार्य की रक्षा करो; और करने के बाद भी उसे घोषित मत करो।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '5:1003': {
+    explanation: `न दशरथ, न कोई अन्य पुरुष — वह सह सकता जो मैंने सहा है। रावण मुझे — सीता को — किसी भी रूप में, कभी नहीं जीत सकता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '5:1004': {
+    explanation: `इक्ष्वाकु वंश में उत्पन्न, लोगों में राम के नाम से विख्यात — नियतात्मा, महावीर्य, द्युतिमान, धृतिमान, इन्द्रियों के स्वामी।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '5:1005': {
+    explanation: `जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '5:1006': {
+    explanation: `शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '5:1007': {
+    explanation: `एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।`,
+    science: `Neuroscience of loss aversion (Kahneman): the brain processes loss with twice the intensity of equivalent gains.`,
+    lifeLesson: `Everything changes. Clinging to what is changing causes suffering. Practice letting go gracefully.`,
+  },
+  '5:1008': {
+    explanation: `राम धर्म का साक्षात रूप है; राम सारे जगत की गति है। राम सभी देवों का राजा है; राम वेद का गूढ़ रूप है।`,
+    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation.`,
+    lifeLesson: `Do what is right, not what is easy. Dharma is alignment with the natural order that sustains life.`,
+  },
+  '5:1009': {
+    explanation: `जानकी का पुत्र दिव्य है; जानकी का पति स्वयं ब्रह्मा है। वह जानकी कुल का आभूषण है या जानकी कुल का प्रकाश।`,
+    science: `Psychology of gratitude (Emmons): gratitude practice measurably increases well-being and strengthens relationships.`,
+    lifeLesson: `Grace is not earned — it is received. Practice gratitude daily; it transforms ordinary moments into blessings.`,
+  },
+  '5:2010': {
+    explanation: `ॐ धनुष है, विराट बाण है, राम कमलनयन है। राम पार्थिव है, विश्वकर्मा है, पुरुषोत्तम है।`,
+    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
+    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
+  },
+  '5:1014': {
+    explanation: `मैं स्वयं गृध्रराज जटायु के लिए जलांजलि दूँगा — अत्यंत प्रिय उनके लिए — और मैं उनका दाह-संस्कार करूँगा।`,
+    science: `Ecopsychology: exposure to natural environments reduces cortisol and enhances emotional regulation.`,
+    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is a return, not an escape.`,
+  },
+  '5:1020': {
+    explanation: `मैं भाग्य को दोष नहीं देता; मैं पुरुषार्थ की शरण लेता हूँ। जो वास्तव में भाग्यशाली हैं, वे स्वयं ही कर्म में लगे रहते हैं।`,
+    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
+    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
+  },
+  '5:1021': {
+    explanation: `तुम्हें शोक नहीं करना चाहिए। आत्मा इस लोक में सर्वत्र व्याप्त है और नष्ट नहीं होती।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain. The default mode network generates the sense of "I" — meditation temporarily deactivates this network.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear.`,
+  },
+  '5:1024': {
+    explanation: `वह कामी नहीं था, न क्रोधी, न मत्सरी, न अहंकारी, न मिथ्यावादी — वह वानरश्रेष्ठ वाली।`,
+    science: `Neuroscience of ego (DMN): the default mode network generates self-referential thinking. Overactivity is linked to depression and anxiety.`,
+    lifeLesson: `The ego is a useful tool that has mistaken itself for your identity. When the ego is small, the soul has room to grow.`,
+  },
+  '5:1111': {
+    explanation: `नीति और शास्त्र-विधि शत्रु से भी ग्रहण करो। जो शास्त्र का सर्वश्रेष्ठ ज्ञाता हो — उससे उपदेश लेना उचित है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '5:1112': {
+    explanation: `पादुकाएं प्राप्त करके, भरत ने स्वयं ही — विनयपूर्वक प्रणाम करके — उन्हें अपने सिर पर धारण किया।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '6:1002': {
+    explanation: `सभी सुखी हों; सभी रोग-मुक्त हों; सभी शुभ देखें; किसी को भी दुःख न हो।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '6:1003': {
+    explanation: `नीति और शास्त्र-विधि शत्रु से भी ग्रहण करो। जो शास्त्र का सर्वश्रेष्ठ ज्ञाता हो — उससे उपदेश लेना उचित है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '6:1004': {
+    explanation: `इक्ष्वाकु वंश में उत्पन्न, लोगों में राम के नाम से विख्यात — नियतात्मा, महावीर्य, द्युतिमान, धृतिमान, इन्द्रियों के स्वामी।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '6:1005': {
+    explanation: `जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '6:1006': {
+    explanation: `शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '6:1007': {
+    explanation: `एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।`,
+    science: `Neuroscience of loss aversion (Kahneman): the brain processes loss with twice the intensity of equivalent gains.`,
+    lifeLesson: `Everything changes. Clinging to what is changing causes suffering. Practice letting go gracefully.`,
+  },
+  '6:1008': {
+    explanation: `राम धर्म का साक्षात रूप है; राम सारे जगत की गति है। राम सभी देवों का राजा है; राम वेद का गूढ़ रूप है।`,
+    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation.`,
+    lifeLesson: `Do what is right, not what is easy. Dharma is alignment with the natural order that sustains life.`,
+  },
+  '6:1009': {
+    explanation: `जानकी का पुत्र दिव्य है; जानकी का पति स्वयं ब्रह्मा है। वह जानकी कुल का आभूषण है या जानकी कुल का प्रकाश।`,
+    science: `Psychology of gratitude (Emmons): gratitude practice measurably increases well-being and strengthens relationships.`,
+    lifeLesson: `Grace is not earned — it is received. Practice gratitude daily; it transforms ordinary moments into blessings.`,
+  },
+  '6:2010': {
+    explanation: `ॐ धनुष है, विराट बाण है, राम कमलनयन है। राम पार्थिव है, विश्वकर्मा है, पुरुषोत्तम है।`,
+    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
+    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
+  },
+  '6:1014': {
+    explanation: `मैं स्वयं गृध्रराज जटायु के लिए जलांजलि दूँगा — अत्यंत प्रिय उनके लिए — और मैं उनका दाह-संस्कार करूँगा।`,
+    science: `Ecopsychology: exposure to natural environments reduces cortisol and enhances emotional regulation.`,
+    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is a return, not an escape.`,
+  },
+  '6:2020': {
+    explanation: `मैं भाग्य को दोष नहीं देता; मैं पुरुषार्थ की शरण लेता हूँ। जो वास्तव में भाग्यशाली हैं, वे स्वयं ही कर्म में लगे रहते हैं।`,
+    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
+    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
+  },
+  '6:2021': {
+    explanation: `तुम्हें शोक नहीं करना चाहिए। आत्मा इस लोक में सर्वत्र व्याप्त है और नष्ट नहीं होती।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain. The default mode network generates the sense of "I" — meditation temporarily deactivates this network.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear.`,
+  },
+  '6:2022': {
+    explanation: `प्रिय के वियोग से तुम्हें शोक नहीं करना चाहिए। काम और क्रोध को वश में करके — हे महाद्युते, वंश की रक्षा करो।`,
+    science: `Meditation research (Davidson): sustained practice thickens the prefrontal cortex and reduces amygdala reactivity.`,
+    lifeLesson: `Meditation is not escape — it is meeting yourself fully. Even 10 minutes daily rewires the brain.`,
+  },
+  '6:2024': {
+    explanation: `वह कामी नहीं था, न क्रोधी, न मत्सरी, न अहंकारी, न मिथ्यावादी — वह वानरश्रेष्ठ वाली।`,
+    science: `Neuroscience of ego (DMN): the default mode network generates self-referential thinking. Overactivity is linked to depression and anxiety.`,
+    lifeLesson: `The ego is a useful tool that has mistaken itself for your identity. When the ego is small, the soul has room to grow.`,
+  },
+  '6:59112': {
+    explanation: `पादुकाएं प्राप्त करके, भरत ने स्वयं ही — विनयपूर्वक प्रणाम करके — उन्हें अपने सिर पर धारण किया।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '7:1002': {
+    explanation: `आत्मा को रथी (रथ पर बैठे स्वामी) जानो; शरीर रथ है; बुद्धि सारथी है; मन लगाम है।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain. The default mode network generates the sense of "I" — meditation temporarily deactivates this network.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear.`,
+  },
+  '7:1003': {
+    explanation: `योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग ब्रह्म पर आश्रित है।`,
+    science: `Neuroscience of flow (Csikszentmihalyi): in flow states, the prefrontal cortex temporarily deactivates — self-referential thinking ceases.`,
+    lifeLesson: `Freedom is not the absence of responsibility — it is the absence of the ego that resists responsibility.`,
+  },
+  '7:1010': {
+    explanation: `ॐ धनुष है, विराट बाण है, राम कमलनयन है। राम पार्थिव है, विश्वकर्मा है, पुरुषोत्तम है।`,
+    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
+    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
+  },
+  '7:2014': {
+    explanation: `मैं स्वयं गृध्रराज जटायु के लिए जलांजलि दूँगा — अत्यंत प्रिय उनके लिए — और मैं उनका दाह-संस्कार करूँगा।`,
+    science: `Ecopsychology: exposure to natural environments reduces cortisol and enhances emotional regulation.`,
+    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is a return, not an escape.`,
+  },
+  '7:1020': {
+    explanation: `मैं भाग्य को दोष नहीं देता; मैं पुरुषार्थ की शरण लेता हूँ। जो वास्तव में भाग्यशाली हैं, वे स्वयं ही कर्म में लगे रहते हैं।`,
+    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
+    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
+  },
+  '7:1021': {
+    explanation: `तुम्हें शोक नहीं करना चाहिए। आत्मा इस लोक में सर्वत्र व्याप्त है और नष्ट नहीं होती।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain. The default mode network generates the sense of "I" — meditation temporarily deactivates this network.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear.`,
+  },
+  '7:1022': {
+    explanation: `प्रिय के वियोग से तुम्हें शोक नहीं करना चाहिए। काम और क्रोध को वश में करके — हे महाद्युते, वंश की रक्षा करो।`,
+    science: `Meditation research (Davidson): sustained practice thickens the prefrontal cortex and reduces amygdala reactivity.`,
+    lifeLesson: `Meditation is not escape — it is meeting yourself fully. Even 10 minutes daily rewires the brain.`,
+  },
+  '7:1024': {
+    explanation: `वह कामी नहीं था, न क्रोधी, न मत्सरी, न अहंकारी, न मिथ्यावादी — वह वानरश्रेष्ठ वाली।`,
+    science: `Neuroscience of ego (DMN): the default mode network generates self-referential thinking. Overactivity is linked to depression and anxiety.`,
+    lifeLesson: `The ego is a useful tool that has mistaken itself for your identity. When the ego is small, the soul has room to grow.`,
   },
 };

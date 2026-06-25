@@ -71,4 +71,130 @@ export const brahmasutraHi: HiCommentaryFragment = {
     science: `संवेदी एकीकरण (sensory integration) और आत्म-नियमन पर शोध: मस्तिष्क वास्तविकता की एक सुसंगत धारणा बनाने के लिए कई संवेदी इनपुट को एकीकृत करता है। ब्रह्मसूत्र का "इंद्रियों का परस्पर नियंत्रण" उसी का पूर्वाभास देता है जिसे तंत्रिका विज्ञान संवेदी एकीकरण कहता है। जब इंद्रियों को ठीक से एकीकृत और विनियमित किया जाता है, तो मन सर्वोत्तम रूप से कार्य कर सकता है। यही योग का शारीरिक और क्रियात्मक आधार है।`,
     lifeLesson: `ब्रह्मसूत्र सिखाता है कि इंद्रियां शत्रु नहीं बल्कि आपके मूल्यवान उपकरण हैं। जब इंद्रियां परस्पर नियंत्रण का प्रयोग करती हैं — जब वे संतुलित और एकीकृत होती हैं — तो वे ब्रह्म की जिज्ञासा का समर्थन करती हैं। इसका अभ्यास संवेदी जागरूकता (sensory awareness) विकसित करना है: ध्यान दें कि आपकी इंद्रियां कैसे परस्पर क्रिया करती हैं, वे एक-दूसरे को कैसे प्रभावित करती हैं, और उन्हें कैसे सामंजस्य में लाया जा सकता है। यही योग की वास्तविक नींव है।`,
   },
+
+  '1:10103': {
+    explanation: `क्योंकि शास्त्र (वेद-उपनिषद) ब्रह्मज्ञान का स्रोत हैं।`,
+    science: `Cognitive neuroscience: insight and understanding emerge from gamma-wave synchrony across brain regions. Knowledge is not merely accumulated information — it is the reorganization of neural patterns into a new coherent whole.`,
+    lifeLesson: `Knowing about a thing is not the same as knowing it. True knowledge transforms the knower. Pursue not just information but the insight that changes who you are.`,
+  },
+  '1:10108': {
+    explanation: `तत्व की समता से, शास्त्र से, स्मृति से, युक्ति से, बहुत श्रुतियों से, और वाक्यों के भेद से नहीं।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '1:10110': {
+    explanation: `इंद्रियों का परस्पर नियंत्रण से, प्राणियों के धर्म से, प्राणियों के योग से, प्राणियों के योग से।`,
+    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation. Dharma is the codified wisdom of what sustains both individual and collective flourishing.`,
+    lifeLesson: `Do what is right, not what is easy. Dharma is not about rules — it is about alignment with the natural order that sustains life. When in doubt, choose the action that benefits the whole, not just yourself.`,
+  },
+  '2:20103': {
+    explanation: `क्योंकि शास्त्र (वेद-उपनिषद) ब्रह्मज्ञान का स्रोत हैं।`,
+    science: `Cognitive neuroscience: insight and understanding emerge from gamma-wave synchrony across brain regions. Knowledge is not merely accumulated information — it is the reorganization of neural patterns into a new coherent whole.`,
+    lifeLesson: `Knowing about a thing is not the same as knowing it. True knowledge transforms the knower. Pursue not just information but the insight that changes who you are.`,
+  },
+  '2:20104': {
+    explanation: `जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '2:20105': {
+    explanation: `शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '2:20106': {
+    explanation: `एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।`,
+    science: `Neuroscience of loss aversion (Kahneman): the brain processes loss in the amygdala with twice the intensity of equivalent gains. Accepting impermanence reduces this bias, leading to more balanced decision-making and emotional resilience.`,
+    lifeLesson: `Everything changes — your body, relationships, circumstances, even your mind. Clinging to what is changing causes suffering. Practice letting go gracefully, and you will find peace that does not depend on circumstances.`,
+  },
+  '2:20107': {
+    explanation: `अब, इसलिए, ब्रह्म की जिज्ञासा (अन्वेषण) करें।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '2:20108': {
+    explanation: `तत्व की समता से, शास्त्र से, स्मृति से, युक्ति से, बहुत श्रुतियों से, और वाक्यों के भेद से नहीं।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '2:20109': {
+    explanation: `जिससे इस जगत की उत्पत्ति, स्थिति और प्रलय होती है — वह ब्रह्म है।`,
+    science: `Cosmology (Big Bang theory): the universe emerged from a singularity 13.8 billion years ago and continues to expand. The ancient insight that all creation arises from a single source parallels the modern understanding of cosmic unity.`,
+    lifeLesson: `You are not separate from the rest of creation — you are an expression of the same universal process. When you see yourself as part of the whole, your actions naturally align with the well-being of all.`,
+  },
+  '2:20110': {
+    explanation: `इंद्रियों का परस्पर नियंत्रण से, प्राणियों के धर्म से, प्राणियों के योग से, प्राणियों के योग से।`,
+    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation. Dharma is the codified wisdom of what sustains both individual and collective flourishing.`,
+    lifeLesson: `Do what is right, not what is easy. Dharma is not about rules — it is about alignment with the natural order that sustains life. When in doubt, choose the action that benefits the whole, not just yourself.`,
+  },
+  '3:30102': {
+    explanation: `जिससे इस जगत की उत्पत्ति, स्थिति और प्रलय होती है — वह ब्रह्म है।`,
+    science: `Cosmology (Big Bang theory): the universe emerged from a singularity 13.8 billion years ago and continues to expand. The ancient insight that all creation arises from a single source parallels the modern understanding of cosmic unity.`,
+    lifeLesson: `You are not separate from the rest of creation — you are an expression of the same universal process. When you see yourself as part of the whole, your actions naturally align with the well-being of all.`,
+  },
+  '3:30103': {
+    explanation: `क्योंकि शास्त्र (वेद-उपनिषद) ब्रह्मज्ञान का स्रोत हैं।`,
+    science: `Cognitive neuroscience: insight and understanding emerge from gamma-wave synchrony across brain regions. Knowledge is not merely accumulated information — it is the reorganization of neural patterns into a new coherent whole.`,
+    lifeLesson: `Knowing about a thing is not the same as knowing it. True knowledge transforms the knower. Pursue not just information but the insight that changes who you are.`,
+  },
+  '3:30104': {
+    explanation: `जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '3:30105': {
+    explanation: `शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '3:30106': {
+    explanation: `एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।`,
+    science: `Neuroscience of loss aversion (Kahneman): the brain processes loss in the amygdala with twice the intensity of equivalent gains. Accepting impermanence reduces this bias, leading to more balanced decision-making and emotional resilience.`,
+    lifeLesson: `Everything changes — your body, relationships, circumstances, even your mind. Clinging to what is changing causes suffering. Practice letting go gracefully, and you will find peace that does not depend on circumstances.`,
+  },
+  '3:30107': {
+    explanation: `अब, इसलिए, ब्रह्म की जिज्ञासा (अन्वेषण) करें।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '3:30108': {
+    explanation: `तत्व की समता से, शास्त्र से, स्मृति से, युक्ति से, बहुत श्रुतियों से, और वाक्यों के भेद से नहीं।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '3:30110': {
+    explanation: `इंद्रियों का परस्पर नियंत्रण से, प्राणियों के धर्म से, प्राणियों के योग से, प्राणियों के योग से।`,
+    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation. Dharma is the codified wisdom of what sustains both individual and collective flourishing.`,
+    lifeLesson: `Do what is right, not what is easy. Dharma is not about rules — it is about alignment with the natural order that sustains life. When in doubt, choose the action that benefits the whole, not just yourself.`,
+  },
+  '4:40105': {
+    explanation: `शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '4:40106': {
+    explanation: `एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।`,
+    science: `Neuroscience of loss aversion (Kahneman): the brain processes loss in the amygdala with twice the intensity of equivalent gains. Accepting impermanence reduces this bias, leading to more balanced decision-making and emotional resilience.`,
+    lifeLesson: `Everything changes — your body, relationships, circumstances, even your mind. Clinging to what is changing causes suffering. Practice letting go gracefully, and you will find peace that does not depend on circumstances.`,
+  },
+  '4:40107': {
+    explanation: `अतः अब ब्रह्म की जिज्ञासा — जिससे प्राणियों की उत्पत्ति होती है। शास्त्र से, तत्त्वज्ञ ब्रह्म पर आश्रित होता है।`,
+    science: `Cosmology (Big Bang theory): the universe emerged from a singularity 13.8 billion years ago and continues to expand. The ancient insight that all creation arises from a single source parallels the modern understanding of cosmic unity.`,
+    lifeLesson: `You are not separate from the rest of creation — you are an expression of the same universal process. When you see yourself as part of the whole, your actions naturally align with the well-being of all.`,
+  },
+  '4:40108': {
+    explanation: `तत्व की समता से, शास्त्र से, स्मृति से, युक्ति से, बहुत श्रुतियों से, और वाक्यों के भेद से नहीं।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '4:40109': {
+    explanation: `जिससे प्राणियों की उत्पत्ति, सत्ता से, नाम की समता से, जो सुना गया, शब्द से, सब वेदांत में स्थापित से।`,
+    science: `Cosmology (Big Bang theory): the universe emerged from a singularity 13.8 billion years ago and continues to expand. The ancient insight that all creation arises from a single source parallels the modern understanding of cosmic unity.`,
+    lifeLesson: `You are not separate from the rest of creation — you are an expression of the same universal process. When you see yourself as part of the whole, your actions naturally align with the well-being of all.`,
+  },
+  '4:40110': {
+    explanation: `इंद्रियों का परस्पर नियंत्रण से, प्राणियों के धर्म से, प्राणियों के योग से, प्राणियों के योग से।`,
+    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation. Dharma is the codified wisdom of what sustains both individual and collective flourishing.`,
+    lifeLesson: `Do what is right, not what is easy. Dharma is not about rules — it is about alignment with the natural order that sustains life. When in doubt, choose the action that benefits the whole, not just yourself.`,
+  },
 };

@@ -177,17 +177,68 @@ export const aitareyaHi: HiCommentaryFragment = {
   },
   '5:34': {
     explanation: `योग-सूत्र से योग की परिभाषा, आत्मा के सन्दर्भ में रखी गई है। योग चित्त-वृत्तियों का निरोध है जो मोक्ष की ओर ले जाता है। सभी बन्धन इस अभ्यास से कटते हैं, जो आत्मा की नींव पर टिका है।`,
+    science: `योगसूत्रों का 'citta-vritti-nirodha' आधुनिक mindfulness शोध से मेल खाता है (Kabat-Zinn): मन की वृत्तियों का निरोध संज्ञानात्मक स्पष्टता, भावनात्मक संतुलन और कल्याण में मापनीय सुधार लाता है। आत्मा के आधार पर टिकी यह साधना 'secure base' का आध्यात्मिक समतुल्य है।`,
+    lifeLesson: `मन की शान्ति आत्मा के स्मरण में टिके रहने से स्वाभाविक रूप से आती है। जब मन भटके, उसे वापस आत्मा के स्मरण में लाइए — यही योग है, यही मुक्ति है।`,
   },
   '5:35': {
     explanation: `आत्मा के परम सत्य के साथ अद्वैत की घोषणा। व्यक्तिगत आत्मा ब्रह्म है; जगत् आत्मा है; इस पहचान में सभी भेद विलीन हो जाते हैं।`,
+    science: `'Non-dual awareness' पर न्यूरोसाइंस शोध (Travis, Shear): EEG अध्ययनों में अद्वैत अनुभव की अवस्था में प्रीफ्रंटल कॉर्टेक्स की समन्वित सक्रियता और डिफ़ॉल्ट-मोड-नेटवर्क का शान्त होना देखा गया है — 'self-other' विभाजन का विलयन वास्तविक तंत्रिका-घटना है।`,
+    lifeLesson: `जब आप पहचानते हैं कि आप वही हैं जो सबमें व्याप्त है — तब कोई 'दूसरा' नहीं बचता जिससे डरना हो। अहंकार की सीमाओं को छोड़कर विराट चेतना में विश्राम कीजिए।`,
   },
   '5:36': {
     explanation: `आत्मा में व्यक्तित्व का विलीनीकरण। नदियों का समुद्र में और दीपों का ज्योति में मिलन — ये छवियाँ पृथक् पहचान के लोप को दर्शाती हैं, जबकि सार शेष रहता है।`,
+    science: `'Ego dissolution' पर शोध (Carhart-Harris, fMRI): मस्तिष्क के Default Mode Network का शान्त होना 'self' की सीमाओं के विलयन के साथ मेल खाता है। नदियों का समुद्र में लीन होना इसी तंत्रिका-घटना का पौराणिक बिम्ब है।`,
+    lifeLesson: `नदी समुद्र में मिलकर नष्ट नहीं होती — वह समुद्र ही जाती है। अहंकार का त्याग अस्तित्व का त्याग नहीं, अस्तित्व का विस्तार है।`,
   },
   '5:37': {
     explanation: `आत्मा के लक्षण: शान्त, शिव, अद्वैत, नित्य, शुद्ध, अच्युत। ज्ञान ही दर्शन है; अज्ञान ही अन्धत्व है।`,
+    science: `'Spiritual intelligence' पर शोध (Zohar & Marshall, Emmons): आध्यात्मिक बुद्धि — जो अर्थ, मूल्य और अस्तित्व के प्रश्नों से जुड़ी है — एक विशिष्ट संज्ञानात्मक क्षमता है जो बौद्धिक बुद्धि (IQ) से स्वतंत्र है। आत्मा के गुणों का मनन इसी बुद्धि को विकसित करता है।`,
+    lifeLesson: `आत्मा के गुणों — शान्त, शिव, अद्वैत, नित्य, शुद्ध, अच्युत — का मनन करना केवल बौद्धिक अभ्यास नहीं, बल्कि चेतना को परिष्कृत करने का मार्ग है। आज इन छह गुणों में से किसी एक पर ध्यान केंद्रित कीजिए।`,
   },
   '5:38': {
     explanation: `अद्वैत की पुष्टि: एक सत्य, दूसरा कोई नहीं। ज्ञाता पहचानता है "मैं वही हूँ" और मृत्यु, शोक तथा समस्त दुःख से परे हो जाता है।`,
+    science: `'Non-dual awareness' और भावनात्मक कल्याण पर शोध (Travis, Shear): अद्वैत अनुभव की स्थायी अवस्था में amygdala की प्रतिक्रियशीलता कम होती है और प्रीफ्रंटल कॉर्टेक्स का नियंत्रण बढ़ता है — 'मैं वही हूँ' की पहचान वास्तविक तंत्रिका-शान्ति उत्पन्न करती है।`,
+    lifeLesson: `'मैं वही हूँ' — यह पहचान जीवन के सभी भय, शोक और दुःखों को जड़ से काट देती है। आज किसी भी चिंता के समय रुककर यह स्मरण कीजिए: 'मैं शरीर नहीं, मैं वही हूँ जो शरीर को देख रहा है।'`,
+  },
+
+  '1:7': {
+    explanation: `वह पालन करने वाली — पालन के योग्य हो जाती है। स्त्री गर्भ को धारण करती है। वह (पिता) जन्म से पहले भी और जन्म के बाद भी कुमार को पोषित करता है। जब वह जन्म से पहले और बाद में कुमार को पोषित करता है, तब वह अपने ही आत्मा को पोषित करता है — इन लोकों की सन्तति के लिये। इस प्रकार ये लोक चलते रहते हैं। यह उसका द्वितीय जन्म है।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '1:8': {
+    explanation: `यह (पुत्र रूपी) उसका आत्मा — पुण्य-कर्मों के लिये उसके स्थान पर स्थापित किया जाता है। और यह अन्य आत्मा (पिता) — कृतकृत्य होकर, आयु को प्राप्त होकर — प्रयाण करता है। यहाँ से जाकर वह पुनः जन्म लेता है। यह उसका तृतीय जन्म है।`,
+    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
+    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
+  },
+  '1:9': {
+    explanation: `इसलिये ऋषि ने कहा — "गर्भ में रहते हुए ही मैंने इन सब देवों के जन्मों को जान लिया। मुझे सौ लोह-पुरियाँ रोकती रहीं, परन्तु मैं — श्येन (बाज) — वेग से नीचे निकल आया।" वामदेव ने गर्भ में सोते हुए ही यह कहा।`,
+    science: `Neuroscience of ego (default mode network): the DMN generates self-referential thinking — the constant narrative of "me and mine." Overactivity of this network is linked to depression and anxiety. Spiritual practices that dissolve ego literally quiet this network.`,
+    lifeLesson: `The ego is not your enemy — it is a useful tool that has mistaken itself for your identity. Use it when needed, but do not let it use you. When the ego is small, the soul has room to grow.`,
+  },
+  '1:10': {
+    explanation: `वह — इस प्रकार ज्ञानी — शरीर के विभेद पर ऊर्ध्व उत्क्रमण करके — उस स्वर्ग-लोक में सब कामनाएँ प्राप्त करके — अमर हो गया, अमर हो गया।`,
+    science: `Cognitive neuroscience: insight and understanding emerge from gamma-wave synchrony across brain regions. Knowledge is not merely accumulated information — it is the reorganization of neural patterns into a new coherent whole.`,
+    lifeLesson: `Knowing about a thing is not the same as knowing it. True knowledge transforms the knower. Pursue not just information but the insight that changes who you are.`,
+  },
+  '1:11': {
+    explanation: `ॐ। मेरी वाणी मन में प्रतिष्ठित हो; मेरा मन वाणी में प्रतिष्ठित हो। हे आविर्भूत होने वाले! मुझ पर प्रकट हो।`,
+    science: `Neuroscience of sound (chanting): repetitive sound (mantra, om) entrains brainwaves toward theta and alpha states, reducing stress and enhancing focus. The vagus nerve is stimulated by vocal chanting, activating the parasympathetic nervous system.`,
+    lifeLesson: `Sound shapes consciousness. The words you speak and the sounds you surround yourself with influence your mental state. Choose sounds that elevate — whether mantra, music, or speech — and notice how they reshape your inner world.`,
+  },
+  '1:12': {
+    explanation: `मेरे वेद-ज्ञान को बाँधे रखो। मेरी श्रुति मुझे न छोड़े। इस अधीत के द्वारा दिन-रात को संयुक्त करूँ। ऋत बोलूँगा; सत्य बोलूँगा।`,
+    science: `Cognitive neuroscience: insight and understanding emerge from gamma-wave synchrony across brain regions. Knowledge is not merely accumulated information — it is the reorganization of neural patterns into a new coherent whole.`,
+    lifeLesson: `Knowing about a thing is not the same as knowing it. True knowledge transforms the knower. Pursue not just information but the insight that changes who you are.`,
+  },
+  '1:13': {
+    explanation: `वह मेरी रक्षा करे; वह वक्ता की रक्षा करे। मेरी रक्षा करे; वक्ता की रक्षा करे; वक्ता की रक्षा करे।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '1:14': {
+    explanation: `ॐ। शान्ति, शान्ति, शान्ति।`,
+    science: `Neuroscience of sound (chanting): repetitive sound (mantra, om) entrains brainwaves toward theta and alpha states, reducing stress and enhancing focus. The vagus nerve is stimulated by vocal chanting, activating the parasympathetic nervous system.`,
+    lifeLesson: `Sound shapes consciousness. The words you speak and the sounds you surround yourself with influence your mental state. Choose sounds that elevate — whether mantra, music, or speech — and notice how they reshape your inner world.`,
   },
 };

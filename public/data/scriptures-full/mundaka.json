@@ -8,7 +8,7 @@
     "license": "Sanskrit mūla — public domain (2500+ years old). sanskritdocuments.org publishes digitized text under permissive terms.",
     "fetchedAt": "2026-06-02T08:28:55.740Z"
   },
-  "totalVerses": 67,
+  "totalVerses": 73,
   "totalChapters": 6,
   "chapters": [
     {
@@ -16,66 +16,88 @@
       "title": "Khaṇḍa 1",
       "verses": [
         {
-          "number": 0,
-          "sanskrit": "मुण्डकोपनिषत् ॥ ॐ भद्रं कर्णेभिः शृणुयाम देवा भद्रं पश्येमाक्षभिर्यजत्राः । स्थिरैरङ्गैस्तुष्टुवाँसस्तनूभिर्व्यशेम देवहितं यदायुः ॥ स्वस्ति न इन्द्रो वृद्धश्रवाः स्वस्ति नः पूषा विश्ववेदाः । स्वस्ति नस्तार्क्ष्यो अरिष्टनेमिः स्वस्ति नो बृहस्पतिर्दधातु",
-          "transliteration": "muNDakopaniShat || OM bhadraM karNebhiH shR^iNuyAma devA bhadraM pashyemAxabhiryajatrAH | sthiraira~NgaistuShTuvA{\\m+}sastanUbhirvyashema devahitaM yadAyuH || svasti na indro vR^iddhashravAH svasti naH pUShA vishvavedAH | svasti nastArkShyo ariShTanemiH svasti no bR^ihaspatirdadhAtu"
-        },
-        {
-          "number": 0,
-          "sanskrit": "ॐ शान्तिः शान्तिः शान्तिः",
-          "transliteration": "OM shAntiH shAntiH shAntiH"
-        },
-        {
           "number": 1,
-          "sanskrit": "ॐ ब्रह्मणे नमः",
-          "transliteration": "OM brahmaNe namaH"
-        },
-        {
-          "number": 1,
-          "sanskrit": "प्रथममुण्डके प्रथमः खण्डः ॥ ॐ ब्रह्मा देवानां प्रथमः संबभूव विश्वस्य कर्ता भुवनस्य गोप्ता । स ब्रह्मविद्यां सर्वविद्याप्रतिष्ठामथर्वाय ज्येष्ठपुत्राय प्राह",
-          "transliteration": "prathamamuNDake prathamaH khaNDaH || OM brahmA devAnAM prathamaH sa.nbabhUva vishvasya kartA bhuvanasya goptA | sa brahmavidyAM sarvavidyApratiShThAmatharvAya jyeShThaputrAya prAha"
+          "sanskrit": "ब्रह्मा देवानां प्रथमः सम्बभूव विश्वस्य कर्ता भुवनस्य गोप्ता | स ब्रह्मविद्यां सर्वविद्याप्रतिष्ठामथर्वाय ज्येष्ठपुत्राय प्राह ||",
+          "transliteration": "brahmā devānāṃ prathamaḥ sambabhūva viśvasya kartā bhuvanasya goptā | sa brahmavidyāṃ sarvavidyāpratiṣṭhāmatharvāya jyeṣṭhaputrāya prāha ||",
+          "translation": "Brahmā, first among the gods, arose — maker of the universe, protector of the world. He taught the knowledge of Brahman — the foundation of all knowledges — to his eldest son Atharvā.",
+          "hindi": "देवों में प्रथम ब्रह्मा प्रकट हुए — विश्व के कर्ता, भुवन के रक्षक। उन्होंने ब्रह्मविद्या — जो सब विद्याओं का आधार है — अपने ज्येष्ठ पुत्र अथर्वा को सिखाई।",
+          "commentary": "The Upanishad opens with the lineage. Knowledge of Brahman is not invented by any human — it descends from the very first being. By placing brahma-vidyā as 'the foundation of all knowledges,' the Upanishad asserts its primacy over every other learning.",
+          "wordMeaning": "The Upanishad opens with the lineage. Knowledge of Brahman is not invented by any human — it descends from the very first being. By placing brahma-vidyā as 'the foundation of all knowledges,' the Upanishad asserts its primacy over every other learning."
         },
         {
           "number": 2,
-          "sanskrit": "अथर्वणे यां प्रवदेत ब्रह्माऽथर्वा तं पुरोवाचाङ्गिरे ब्रह्मविद्याम् । स भारद्वाजाय सत्यवाहाय प्राह भारद्वाजोऽङ्गिरसे परावराम्",
-          "transliteration": "atharvaNe yAM pravadeta brahmA.atharvA taM purovAchA~Ngire brahmavidyAm | sa bhAradvAjAya satyavAhAya prAha bhAradvAjo.a~Ngirase parAvarAm"
+          "sanskrit": "अथर्वणे यां प्रवदेत ब्रह्माथर्वा तां पुरोवाचाङ्गिरे ब्रह्मविद्याम् | स भारद्वाजाय सत्यवहाय प्राह भारद्वाजोऽङ्गिरसे परावराम् ||",
+          "transliteration": "atharvaṇe yāṃ pravadeta brahmātharvā tāṃ purovācāṅgire brahmavidyām | sa bhāradvājāya satyavahāya prāha bhāradvājo'ṅgirase parāvarām ||",
+          "translation": "That knowledge which Brahmā gave to Atharvā, Atharvā taught to Aṅgir. He taught it to Bhāradvāja Satyavāha; Bhāradvāja taught it, both higher and lower, to Aṅgiras.",
+          "hindi": "ब्रह्मा ने जो विद्या अथर्वा को दी, अथर्वा ने वही अंगिर को दी; अंगिर ने भारद्वाज सत्यवाह को, और भारद्वाज ने पर-अपर दोनों विद्या अंगिरस को दी।",
+          "commentary": "Five-step lineage — Brahmā, Atharvā, Aṅgir, Bhāradvāja, Aṅgiras. Notice 'parāvarām' (both higher and lower) — Aṅgiras receives the full curriculum. The teacher who appears next must have the complete framework before teaching even one student.",
+          "wordMeaning": "Five-step lineage — Brahmā, Atharvā, Aṅgir, Bhāradvāja, Aṅgiras. Notice 'parāvarām' (both higher and lower) — Aṅgiras receives the full curriculum. The teacher who appears next must have the complete framework before teaching even one student."
         },
         {
           "number": 3,
-          "sanskrit": "शौनको ह वै महाशालोऽङ्गिरसं विधिवदुपसन्नः पप्रच्छ । कस्मिन्नु भगवो विज्ञाते सर्वमिदं विज्ञातं भवतीति",
-          "transliteration": "shaunako ha vai mahAshAlo.a~NgirasaM vidhivadupasannaH paprachCha | kasminnu bhagavo vij~nAte sarvamidaM vij~nAtaM bhavatIti"
+          "sanskrit": "शौनको ह वै महाशालोऽङ्गिरसं विधिवदुपसन्नः पप्रच्छ | कस्मिन्नु भगवो विज्ञाते सर्वमिदं विज्ञातं भवतीति ||",
+          "transliteration": "śaunako ha vai mahāśālo'ṅgirasaṃ vidhivadupasannaḥ papraccha | kasminnu bhagavo vijñāte sarvamidaṃ vijñātaṃ bhavatīti ||",
+          "translation": "Śaunaka, the great householder, having approached Aṅgiras with proper respect, asked: \"Sir, what is that, by knowing which, all this becomes known?\"",
+          "hindi": "महाशाल शौनक ने अंगिरस के पास विधिपूर्वक उपस्थित होकर पूछा — \"हे भगवन्! किसके जान लेने से यह सब जाना हुआ हो जाता है?\"",
+          "commentary": "The deepest question of philosophy in eight words: 'by knowing what does everything become known?' Śaunaka is not asking for a fact — he is asking for the principle that explains all facts.",
+          "wordMeaning": "The deepest question of philosophy in eight words: 'by knowing what does everything become known?' Śaunaka is not asking for a fact — he is asking for the principle that explains all facts."
         },
         {
           "number": 4,
-          "sanskrit": "तस्मै स होवाच । द्वे विद्ये वेदितव्ये इति ह स्म यद्ब्रह्मविदो वदन्ति परा चैवापरा च",
-          "transliteration": "tasmai sa hovAcha | dve vidye veditavye iti ha sma yadbrahmavido vadanti parA chaivAparA cha"
+          "sanskrit": "तस्मै स होवाच | द्वे विद्ये वेदितव्ये इति ह स्म यद् ब्रह्मविदो वदन्ति परा चैवापरा च ||",
+          "transliteration": "tasmai sa hovāca | dve vidye veditavye iti ha sma yad brahmavido vadanti parā caivāparā ca ||",
+          "translation": "To him he said: \"Two kinds of knowledge are to be known — so say those who know Brahman: the higher (parā) and the lower (aparā).\"",
+          "hindi": "उसने कहा — \"ब्रह्मवेत्ता कहते हैं कि दो प्रकार की विद्याएँ जाननी चाहिए — परा और अपरा।\"",
+          "commentary": "The decisive distinction. Aparā vidyā is all conventional knowing — science, language, ritual, even the Vedas themselves. Parā vidyā is direct knowing of the Self. The first deals with objects; the second with the subject.",
+          "wordMeaning": "The decisive distinction. Aparā vidyā is all conventional knowing — science, language, ritual, even the Vedas themselves. Parā vidyā is direct knowing of the Self. The first deals with objects; the second with the subject."
         },
         {
           "number": 5,
-          "sanskrit": "तत्रापरा ऋग्वेदो यजुर्वेदः सामवेदोऽथर्ववेदः शिक्षा कल्पो व्याकरणं निरुक्तं छन्दो ज्योतिषमिति । अथ परा यया तदक्षरमधिगम्यते",
-          "transliteration": "tatrAparA R^igvedo yajurvedaH sAmavedo.atharvavedaH shikShA kalpo vyAkaraNaM niruktaM Chando jyotiShamiti | atha parA yayA tadakSharamadhigamyate"
+          "sanskrit": "तत्रापरा ऋग्वेदो यजुर्वेदः सामवेदोऽथर्ववेदः शिक्षा कल्पो व्याकरणं निरुक्तं छन्दो ज्योतिषमिति | अथ परा यया तदक्षरमधिगम्यते ||",
+          "transliteration": "tatrāparā ṛgvedo yajurvedaḥ sāmavedo'tharvavedaḥ śikṣā kalpo vyākaraṇaṃ niruktaṃ chando jyotiṣamiti | atha parā yayā tadakṣaramadhigamyate ||",
+          "translation": "Of these, the lower is: the Ṛg, Yajur, Sāma, Atharva Vedas; phonetics, ritual code, grammar, etymology, metrics, and astronomy. The higher is that by which the Imperishable is known.",
+          "hindi": "इनमें अपरा विद्या है — ऋग्वेद, यजुर्वेद, सामवेद, अथर्ववेद; शिक्षा, कल्प, व्याकरण, निरुक्त, छन्द, और ज्योतिष। और परा विद्या वह है जिससे अक्षर का बोध होता है।",
+          "commentary": "Strikingly, even the Vedas are classified as 'lower knowledge.' This is not denigration but clarification: the Vedas prepare the mind and point toward the Absolute, but the realization itself is direct, not propositional.",
+          "wordMeaning": "Strikingly, even the Vedas are classified as 'lower knowledge.' This is not denigration but clarification: the Vedas prepare the mind and point toward the Absolute, but the realization itself is direct, not propositional."
         },
         {
           "number": 6,
-          "sanskrit": "यत्तदद्रेश्यमग्राह्यमगोत्रमवर्ण- मचक्षुःश्रोत्रं तदपाणिपादम् । नित्यं विभुं सर्वगतं सुसूक्ष्मं तदव्ययं यद्भूतयोनिं परिपश्यन्ति धीराः",
-          "transliteration": "yattadadreshyamagrAhyamagotramavarNa\\- machakShuHshrotraM tadapANipAdam | nityaM vibhuM sarvagataM susUkShmaM tadavyayaM yadbhUtayoniM paripashyanti dhIrAH"
+          "sanskrit": "यत्तदद्रेश्यमग्राह्यमगोत्रमवर्णमचक्षुःश्रोत्रं तदपाणिपादम् | नित्यं विभुं सर्वगतं सुसूक्ष्मं तदव्ययं यद्भूतयोनिं परिपश्यन्ति धीराः ||",
+          "transliteration": "yattadadreśyamagrāhyamagotramavarṇamacakṣuḥśrotraṃ tadapāṇipādam | nityaṃ vibhuṃ sarvagataṃ susūkṣmaṃ tadavyayaṃ yadbhūtayoniṃ paripaśyanti dhīrāḥ ||",
+          "translation": "That which is unseen, ungraspable, without family, without color, without eye or ear, without hands or feet — eternal, all-pervading, omnipresent, exceedingly subtle, undecaying, the womb of all beings — that the wise see.",
+          "hindi": "जो अदृश्य, अग्राह्य, गोत्र-रहित, वर्ण-रहित, नेत्र-कान-रहित, हाथ-पाँव-रहित, नित्य, विभु, सर्वगत, अत्यन्त सूक्ष्म, अव्यय, सब प्राणियों का उद्गम है — उसी का दर्शन धीर पुरुष करते हैं।",
+          "commentary": "Brahman is described entirely by negation — beyond every sense-quality and bodily attribute — and then positively: eternal, all-pervading, the womb (yoni) of all beings. Wisdom (dhīra) is the capacity to see by both methods at once.",
+          "wordMeaning": "Brahman is described entirely by negation — beyond every sense-quality and bodily attribute — and then positively: eternal, all-pervading, the womb (yoni) of all beings. Wisdom (dhīra) is the capacity to see by both methods at once."
         },
         {
           "number": 7,
-          "sanskrit": "यथोर्णनाभिः सृजते गृह्णते च यथा पृथिव्यामोषधयः संभवन्ति । यथा सतः पुरुषात्केशलोमानि तथाऽक्षरात्संभवतीह विश्वम्",
-          "transliteration": "yathorNanAbhiH sR^ijate gR^ihNate cha yathA pR^ithivyAmoShadhayaH sa.nbhavanti | yathA sataH puruShAtkeshalomAni tathA.akSharAtsa.nbhavatIha vishvam"
+          "sanskrit": "यथोर्णनाभिः सृजते गृह्णते च यथा पृथिव्यामोषधयः सम्भवन्ति | यथा सतः पुरुषात्केशलोमानि तथाऽक्षरात्सम्भवतीह विश्वम् ||",
+          "transliteration": "yathorṇanābhiḥ sṛjate gṛhṇate ca yathā pṛthivyāmoṣadhayaḥ sambhavanti | yathā sataḥ puruṣātkeśalomāni tathā'kṣarātsambhavatīha viśvam ||",
+          "translation": "As a spider extends and withdraws its web, as plants spring forth from the earth, as hair grows from a living person — so from the Imperishable arises this world.",
+          "hindi": "जैसे मकड़ी अपना जाला फैलाती और समेट लेती है, जैसे पृथ्वी से पौधे उगते हैं, जैसे जीवित मनुष्य से बाल और रोम उत्पन्न होते हैं — वैसे ही अक्षर से यह विश्व प्रकट होता है।",
+          "commentary": "Three analogies for cosmic emergence. Each shows that the world is not 'made' from outside but arises from within the substrate — like a web from the spider's own body, plants from earth, hair from a person. Creator and creation share substance.",
+          "wordMeaning": "Three analogies for cosmic emergence. Each shows that the world is not 'made' from outside but arises from within the substrate — like a web from the spider's own body, plants from earth, hair from a person. Creator and creation share substance."
         },
         {
           "number": 8,
-          "sanskrit": "तपसा चीयते ब्रह्म ततोऽन्नमभिजायते । अन्नात्प्राणो मनः सत्यं लोकाः कर्मसु चामृतम्",
-          "transliteration": "tapasA chIyate brahma tato.annamabhijAyate | annAtprANo manaH satyaM lokAH karmasu chAmR^itam"
+          "sanskrit": "तपसा चीयते ब्रह्म ततोऽन्नमभिजायते | अन्नात्प्राणो मनः सत्यं लोकाः कर्मसु चामृतम् ||",
+          "transliteration": "tapasā cīyate brahma tato'nnamabhijāyate | annātprāṇo manaḥ satyaṃ lokāḥ karmasu cāmṛtam ||",
+          "translation": "By tapas Brahman is heaped up; from that, food (matter) is born. From food: prāṇa, mind, truth, worlds, and the immortal in actions.",
+          "hindi": "तप से ब्रह्म संचित होता है; उससे अन्न उत्पन्न होता है। अन्न से — प्राण, मन, सत्य, लोक, और कर्मों में अमृत।",
+          "commentary": "The cosmogonic cascade: tapas (cosmic heat/concentration) → annaṃ (matter) → prāṇa, mind, truth, worlds, the immortal-in-actions. Creation runs from the most concentrated to the most extended.",
+          "wordMeaning": "The cosmogonic cascade: tapas (cosmic heat/concentration) → annaṃ (matter) → prāṇa, mind, truth, worlds, the immortal-in-actions. Creation runs from the most concentrated to the most extended."
         },
         {
           "number": 9,
-          "sanskrit": "यः सर्वज्ञः सर्वविद्यस्य ज्ञानमयं तपः । तस्मादेतद्ब्रह्म नाम रूपमन्नं च जायते",
-          "transliteration": "yaH sarvaj~naH sarvavidyasya j~nAnamayaM tapaH | tasmAdetadbrahma nAma rUpamannaM ca jAyate"
+          "sanskrit": "यः सर्वज्ञः सर्वविद्यस्य ज्ञानमयं तपः | तस्मादेतद्ब्रह्म नाम रूपमन्नं च जायते ||",
+          "transliteration": "yaḥ sarvajñaḥ sarvavidyasya jñānamayaṃ tapaḥ | tasmādetadbrahma nāma rūpamannaṃ ca jāyate ||",
+          "translation": "The omniscient, all-knowing — whose tapas is itself made of knowledge — from him this Brahman, name, form, and food are born.",
+          "hindi": "जो सर्वज्ञ है, सब विद्या का धारक है, जिसका तप ज्ञानमय है — उसी से यह ब्रह्म, नाम, रूप और अन्न उत्पन्न होते हैं।",
+          "commentary": "Closing verse of the first khaṇḍa. The source is not blind energy but 'knowledge-tapas' — concentrated awareness. From this awareness emerge the conventional categories: Brahman (the substance), name, form, food. Reality is grounded in intelligibility.",
+          "wordMeaning": "Closing verse of the first khaṇḍa. The source is not blind energy but 'knowledge-tapas' — concentrated awareness. From this awareness emerge the conventional categories: Brahman (the substance), name, form, food. Reality is grounded in intelligibility."
         }
-      ]
+      ],
+      "titleSanskrit": "प्रथम मुण्डक · प्रथम खण्ड"
     },
     {
       "number": 2,
@@ -83,70 +105,123 @@
       "verses": [
         {
           "number": 1,
-          "sanskrit": "प्रथममुण्डके द्वितीयः खण्डः ॥ तदेतत्सत्यं मन्त्रेषु कर्माणि कवयो यान्यपश्यंस्तानि त्रेतायां बहुधा संततानि । तान्याचरथ नियतं सत्यकामा एष वः पन्थाः सुकृतस्य लोके",
-          "transliteration": "prathamamuNDake dvitIyaH khaNDaH || tadetatsatyaM mantreShu karmANi kavayo yAnyapashyaMstAni tretAyAM bahudhA sa.ntatAni | tAnyAcharatha niyataM satyakAmA eSha vaH panthAH sukR^itasya loke"
+          "sanskrit": "तदेतत्सत्यं मन्त्रेषु कर्माणि कवयो यान्यपश्यंस्तानि त्रेतायां बहुधा सन्ततानि | तान्याचरथ नियतं सत्यकामा एष वः पन्थाः सुकृतस्य लोके ||",
+          "transliteration": "tadetatsatyaṃ mantreṣu karmāṇi kavayo yānyapaśyaṃstāni tretāyāṃ bahudhā santatāni | tānyācaratha niyataṃ satyakāmā eṣa vaḥ panthāḥ sukṛtasya loke ||",
+          "translation": "This is the truth: the rites which the seers perceived in the mantras were variously spread through the three (Vedas). Practice them regularly, lovers of truth — that is your path to the world of good works.",
+          "hindi": "यह सत्य है — जिन कर्मों को कवियों ने मन्त्रों में देखा, वे तीनों वेदों में अनेक रूपों में फैले हैं। उनका पालन नियमित करो, हे सत्यकाम — यही तुम्हारा सुकृत-लोक का मार्ग है।",
+          "commentary": "Before critiquing ritual, the Upanishad affirms it. The rites are real; they produce real fruit; they belong to a valid path — the 'world of good works.' What follows is not rejection but ranking.",
+          "wordMeaning": "Before critiquing ritual, the Upanishad affirms it. The rites are real; they produce real fruit; they belong to a valid path — the 'world of good works.' What follows is not rejection but ranking."
         },
         {
           "number": 2,
-          "sanskrit": "यदा लेलायते ह्यर्चिः समिद्धे हव्यवाहने । तदाऽऽज्यभागावन्तरेणाऽऽहुतीः प्रतिपादयेत्",
-          "transliteration": "yadA lelAyate hyarchiH samiddhe havyavAhane | tadA.a.ajyabhAgAvantareNA.a.ahutIH pratipAdayet"
+          "sanskrit": "यदा लेलायते ह्यर्चिः समिद्धे हव्यवाहने | तदाज्यभागावन्तरेणाहुतीः प्रतिपादयेच्छ्रद्धया हुताः ||",
+          "transliteration": "yadā lelāyate hyarciḥ samiddhe havyavāhane | tadājyabhāgāvantareṇāhutīḥ pratipādayecchraddhayā hutāḥ ||",
+          "translation": "When the flame leaps up in the well-kindled fire, then between the two clarified-butter portions, with faith, one should offer the oblations.",
+          "hindi": "जब समिद्ध हव्यवाहन (अग्नि) में अर्चि (लौ) लहराने लगे, तब दोनों आज्य-भागों के बीच श्रद्धा-पूर्वक आहुतियाँ अर्पित करे।",
+          "commentary": "Precise ritual instruction. Even within the ritual world, technique matters — timing, kindling, attentional state. The verse models the seriousness with which the Upanishad takes its predecessor traditions.",
+          "wordMeaning": "Precise ritual instruction. Even within the ritual world, technique matters — timing, kindling, attentional state. The verse models the seriousness with which the Upanishad takes its predecessor traditions."
         },
         {
           "number": 3,
-          "sanskrit": "(प्रतिपादयेच्छ्रद्धया हुतम्) यस्याग्निहोत्रमदर्शमपौर्णमास- मचातुर्मास्यमनाग्रयणमतिथिवर्जितं च । अहुतमवैश्वदेवमविधिना हुत- मासप्तमांस्तस्य लोकान् हिनस्ति",
-          "transliteration": "(pratipAdayechChraddhayA hutam) yasyAgnihotramadarshamapaurNamAsa\\- machAturmAsyamanAgrayaNamatithivarjitaM cha | ahutamavaishvadevamavidhinA huta\\- mAsaptamAMstasya lokAn hinasti"
+          "sanskrit": "यस्याग्निहोत्रमदर्शमपौर्णमासमचातुर्मास्यमनाग्रयणमतिथिवर्जितं च | अहुतमवैश्वदेवमविधिना हुतमासप्तमांस्तस्य लोकान् हिनस्ति ||",
+          "transliteration": "yasyāgnihotramadarśamapaurṇamāsamacāturmāsyamanāgrayaṇamatithivarjitaṃ ca | ahutamavaiśvadevamavidhinā hutamāsaptamāṃstasya lokān hinasti ||",
+          "translation": "He whose Agnihotra is without the new-moon, full-moon, four-monthly, first-fruits rites, without the guest-offering, without the Vaiśvadeva, or offered without proper rule — destroys his worlds up to the seventh.",
+          "hindi": "जिसका अग्निहोत्र दर्श, पौर्णमास, चातुर्मास्य, आग्रयण, अतिथि-यज्ञ, वैश्वदेव — इन सबसे रहित हो, या विधि-विरुद्ध हो — वह अपने सातवें लोक तक के पुण्य को नष्ट कर देता है।",
+          "commentary": "Strong warning: corrupt ritual is worse than no ritual. The full liturgical calendar is enumerated. Skipping or distorting any element damages even one's distant ancestors and descendants.",
+          "wordMeaning": "Strong warning: corrupt ritual is worse than no ritual. The full liturgical calendar is enumerated. Skipping or distorting any element damages even one's distant ancestors and descendants."
         },
         {
           "number": 4,
-          "sanskrit": "काली कराली च मनोजवा च सुलोहिता या च सुधूम्रवर्णा । स्फुलिङ्गिनी विश्वरुची च देवी लेलायमाना इति सप्त जिह्वाः",
-          "transliteration": "kAlI karAlI cha manojavA cha sulohitA yA cha sudhUmravarNA | sphuli~NginI vishvaruchI cha devI lelAyamAnA iti sapta jihvAH"
+          "sanskrit": "काली कराली च मनोजवा च सुलोहिता या च सुधूम्रवर्णा | स्फुलिङ्गिनी विश्वरूची च देवी लेलायमाना इति सप्त जिह्वाः ||",
+          "transliteration": "kālī karālī ca manojavā ca sulohitā yā ca sudhūmravarṇā | sphuliṅginī viśvarūcī ca devī lelāyamānā iti sapta jihvāḥ ||",
+          "translation": "Black, terrible, mind-swift, very-red, smoke-colored, sparkling, all-shining — these flickering ones are the seven tongues (of fire).",
+          "hindi": "काली, कराली, मनोजवा, सुलोहिता, सुधूम्रवर्णा, स्फुलिङ्गिनी, और विश्वरूची — ये सात जिह्वाएँ हैं जो अग्नि में लहराती हैं।",
+          "commentary": "The seven personified flames of the sacrificial fire. Each represents a distinct quality of fire (color, speed, intensity). Ritual is precise: even the flame is differentiated and recognized.",
+          "wordMeaning": "The seven personified flames of the sacrificial fire. Each represents a distinct quality of fire (color, speed, intensity). Ritual is precise: even the flame is differentiated and recognized."
         },
         {
           "number": 5,
-          "sanskrit": "एतेषु यश्चरते भ्राजमानेषु यथाकालं चाहुतयो ह्याददायन् । तं नयन्त्येताः सूर्यस्य रश्मयो यत्र (तन्नयन्त्येताः) देवानां पतिरेकोऽधिवासः",
-          "transliteration": "eteShu yashcharate bhrAjamAneShu yathAkAlaM chAhutayo hyAdadAyan | taM nayantyetAH sUryasya rashmayo yatra (tannayantyetAH) devAnAM patireko.adhivAsaH"
+          "sanskrit": "एतेषु यश्चरते भ्राजमानेषु यथाकालं चाहुतयो ह्याददायन् | तं नयन्त्येताः सूर्यस्य रश्मयो यत्र देवानां पतिरेकोऽधिवासः ||",
+          "transliteration": "eteṣu yaścarate bhrājamāneṣu yathākālaṃ cāhutayo hyādadāyan | taṃ nayantyetāḥ sūryasya raśmayo yatra devānāṃ patirekoʼdhivāsaḥ ||",
+          "translation": "He who performs offerings in these blazing flames at the proper time, his offerings, riding on the rays of the sun, carry him to where the one lord of the gods dwells.",
+          "hindi": "जो इन प्रज्वलित जिह्वाओं में यथा-काल आहुतियाँ देता है — उसकी आहुतियाँ उसे सूर्य की किरणों पर बैठाकर वहाँ ले जाती हैं जहाँ देवों के एक पति (इन्द्र) का निवास है।",
+          "commentary": "The ritualist who performs correctly is carried, by his own offerings transformed into solar rays, to the heaven of the gods. Beautiful imagery: action becomes light becomes vehicle.",
+          "wordMeaning": "The ritualist who performs correctly is carried, by his own offerings transformed into solar rays, to the heaven of the gods. Beautiful imagery: action becomes light becomes vehicle."
         },
         {
           "number": 6,
-          "sanskrit": "एह्येहीति तमाहुतयः सुवर्चसः सूर्यस्य रश्मिभिर्यजमानं वहन्ति । प्रियां वाचमभिवदन्त्योऽर्चयन्त्य एष वः पुण्यः सुकृतो ब्रह्मलोकः",
-          "transliteration": "ehyehIti tamAhutayaH suvarchasaH sUryasya rashmibhiryajamAnaM vahanti | priyAM vAchamabhivadantyo.archayantya eSha vaH puNyaH sukR^ito brahmalokaH"
+          "sanskrit": "एह्येहीति तमाहुतयः सुवर्चसः सूर्यस्य रश्मिभिर्यजमानं वहन्ति | प्रियां वाचमभिवदन्त्योऽर्चयन्त्य एष वः पुण्यः सुकृतो ब्रह्मलोकः ||",
+          "transliteration": "ehyehīti tamāhutayaḥ suvarcasaḥ sūryasya raśmibhiryajamānaṃ vahanti | priyāṃ vācamabhivadantyo'rcayantya eṣa vaḥ puṇyaḥ sukṛto brahmalokaḥ ||",
+          "translation": "'Come! Come!' — saying these sweet words, the radiant offerings carry the sacrificer by the rays of the sun, praising and honoring him: 'This is your meritorious, well-earned world of Brahman.'",
+          "hindi": "\"आओ! आओ!\" — इस प्रकार सुन्दर वाणी से, सूर्य की किरणों पर तेजस्वी आहुतियाँ यजमान को ले जाती हैं, उसकी स्तुति-अर्चना करती हुई — \"यह तुम्हारा पुण्य-संचित ब्रह्मलोक है।\"",
+          "commentary": "A vivid scene of arrival: the offerings welcome their sender. The 'brahma-loka' here is a relative one — the heaven earned by works, not the absolute Brahman of liberation. The distinction will be sharpened in the next mantra.",
+          "wordMeaning": "A vivid scene of arrival: the offerings welcome their sender. The 'brahma-loka' here is a relative one — the heaven earned by works, not the absolute Brahman of liberation. The distinction will be sharpened in the next mantra."
         },
         {
           "number": 7,
-          "sanskrit": "प्लवा ह्येते अदृढा यज्ञरूपा अष्टादशोक्तमवरं येषु कर्म । एतच्छ्रेयो येऽभिनन्दन्ति मूढा जरामृत्युं ते पुनरेवापि यन्ति",
-          "transliteration": "plavA hyete adR^iDhA yaj~narUpA aShTAdashoktamavaraM yeShu karma | etachChreyo ye.abhinandanti mUDhA jarAmR^ityuM te punarevApi yanti"
+          "sanskrit": "प्लवा ह्येते अदृढा यज्ञरूपा अष्टादशोक्तमवरं येषु कर्म | एतच्छ्रेयो येऽभिनन्दन्ति मूढा जरामृत्युं ते पुनरेवापि यन्ति ||",
+          "transliteration": "plavā hyete adṛḍhā yajñarūpā aṣṭādaśoktamavaraṃ yeṣu karma | etacchreyo ye'bhinandanti mūḍhā jarāmṛtyuṃ te punarevāpi yanti ||",
+          "translation": "But these forms of sacrifice are unsteady rafts; the eighteen rites are inferior works. Fools who praise this as the highest good return again to old age and death.",
+          "hindi": "परन्तु ये यज्ञ-रूप अस्थिर नौकाएँ हैं; इनमें वर्णित अष्टादश कर्म अपर हैं। मूढ़ लोग जो इसी को श्रेयस् मानते हैं, वे फिर जरा-मृत्यु को प्राप्त होते हैं।",
+          "commentary": "The decisive critique. Even the most exalted ritual is an 'unsteady raft' — it will deliver one to a heaven, but heavens themselves are temporary. From them, one returns. To stop at ritual is to mistake the boat for the destination.",
+          "wordMeaning": "The decisive critique. Even the most exalted ritual is an 'unsteady raft' — it will deliver one to a heaven, but heavens themselves are temporary. From them, one returns. To stop at ritual is to mistake the boat for the destination."
         },
         {
           "number": 8,
-          "sanskrit": "अविद्यायामन्तरे वर्तमानाः स्वयं धीराः पण्डितंमन्यमानाः । जङ्घन्यमानाः परियन्ति मूढा अन्धेनैव नीयमाना यथान्धाः",
-          "transliteration": "avidyAyAmantare vartamAnAH svayaM dhIrAH paNDitaMmanyamAnAH | ja~NghanyamAnAH pariyanti mUDhA andhenaiva nIyamAnA yathAndhAH"
+          "sanskrit": "अविद्यायामन्तरे वर्तमानाः स्वयं धीराः पण्डितंमन्यमानाः | जङ्घन्यमानाः परियन्ति मूढा अन्धेनैव नीयमाना यथान्धाः ||",
+          "transliteration": "avidyāyāmantare vartamānāḥ svayaṃ dhīrāḥ paṇḍitaṃmanyamānāḥ | jaṅghanyamānāḥ pariyanti mūḍhā andhenaiva nīyamānā yathāndhāḥ ||",
+          "translation": "Living in the midst of ignorance, considering themselves wise and learned, the fools wander, struck again and again — like blind men led by the blind.",
+          "hindi": "अविद्या के बीच रहते हुए स्वयं को धीर और पण्डित मानते हुए — वे मूढ़ बारम्बार ठोकर खाते भटकते हैं, जैसे अन्धों के द्वारा ले जाये जाने वाले अन्धे।",
+          "commentary": "The 'blind leading the blind' image — one of the world's oldest. Confidence without genuine insight is doubly dangerous: it misleads the confident and those who follow them.",
+          "wordMeaning": "The 'blind leading the blind' image — one of the world's oldest. Confidence without genuine insight is doubly dangerous: it misleads the confident and those who follow them."
         },
         {
           "number": 9,
-          "sanskrit": "अविद्यायां बहुधा वर्तमाना वयं कृतार्था इत्यभिमन्यन्ति बालाः । यत्कर्मिणो न प्रवेदयन्ति रागा- त्तेनातुराः क्षीणलोकाश्च्यवन्ते",
-          "transliteration": "avidyAyAM bahudhA vartamAnA vayaM kR^itArthA ityabhimanyanti bAlAH | yatkarmiNo na pravedayanti rAgA\\- ttenAturAH kShINalokAshchyavante"
+          "sanskrit": "अविद्यायां बहुधा वर्तमाना वयं कृतार्था इत्यभिमन्यन्ति बालाः | यत् कर्मिणो न प्रवेदयन्ति रागात्तेनातुराः क्षीणलोकाश्च्यवन्ते ||",
+          "transliteration": "avidyāyāṃ bahudhā vartamānā vayaṃ kṛtārthā ityabhimanyanti bālāḥ | yat karmiṇo na pravedayanti rāgāttenāturāḥ kṣīṇalokāścyavante ||",
+          "translation": "Living variously in ignorance, the immature think: 'We have done what is to be done.' But the ritualists, through attachment, do not understand, and when their merit is exhausted they fall away, broken.",
+          "hindi": "अविद्या में अनेक रूपों से जीते हुए बाल-बुद्धि लोग सोचते हैं — \"हम कृतार्थ हो गए।\" परन्तु आसक्ति के कारण ये कर्मी सच्चा ज्ञान नहीं पाते; पुण्य-क्षय होने पर वे आर्त होकर गिर पड़ते हैं।",
+          "commentary": "Self-satisfaction is the disease. 'I have done what was to be done' is the dangerous sentence. Attachment to the fruit prevents recognition of the fruit's exhaustion. When merit ends, the satisfied fall.",
+          "wordMeaning": "Self-satisfaction is the disease. 'I have done what was to be done' is the dangerous sentence. Attachment to the fruit prevents recognition of the fruit's exhaustion. When merit ends, the satisfied fall."
         },
         {
           "number": 10,
-          "sanskrit": "इष्टापूर्तं मन्यमाना वरिष्ठं नान्यच्छ्रेयो वेदयन्ते प्रमूढाः । नाकस्य पृष्ठे ते सुकृतेऽनुभूत्वेमं लोकं हीनतरं वा विशन्ति",
-          "transliteration": "iShTApUrtaM manyamAnA variShThaM nAnyachChreyo vedayante pramUDhAH | nAkasya pR^iShThe te sukR^ite.anubhUtvemaM lokaM hInataraM vA vishanti"
+          "sanskrit": "इष्टापूर्तं मन्यमाना वरिष्ठं नान्यच्छ्रेयो वेदयन्ते प्रमूढाः | नाकस्य पृष्ठे ते सुकृतेऽनुभूत्वेमं लोकं हीनतरं वा विशन्ति ||",
+          "transliteration": "iṣṭāpūrtaṃ manyamānā variṣṭhaṃ nānyacchreyo vedayante pramūḍhāḥ | nākasya pṛṣṭhe te sukṛte'nubhūtvemaṃ lokaṃ hīnataraṃ vā viśanti ||",
+          "translation": "Considering rites and public works the highest, deluded — they know no greater good. Having enjoyed merit on the back of heaven, they enter this world again, or one lower.",
+          "hindi": "इष्टापूर्त (यज्ञ और लोक-कल्याण) को ही श्रेष्ठ मानते हुए — ये प्रमूढ़ लोग और कोई श्रेयस् नहीं जानते। स्वर्ग के पृष्ठ पर पुण्य का भोग कर — वे फिर इसी लोक में, या इससे भी निम्न में, आ जाते हैं।",
+          "commentary": "Even philanthropy and public works (pūrta) are placed in the 'lower' category if undertaken without Self-knowledge. The Upanishad is uncompromising: relative good is not the supreme good.",
+          "wordMeaning": "Even philanthropy and public works (pūrta) are placed in the 'lower' category if undertaken without Self-knowledge. The Upanishad is uncompromising: relative good is not the supreme good."
         },
         {
           "number": 11,
-          "sanskrit": "तपःश्रद्धे ये ह्युपवसन्त्यरण्ये शान्ता विद्वांसो भैक्ष्यचर्यां चरन्तः । सूर्यद्वारेण ते विरजाः प्रयान्ति यत्रामृतः स पुरुषो ह्यव्ययात्मा",
-          "transliteration": "tapaHshraddhe ye hyupavasantyaraNye shAntA vidvAMso bhaikShyacharyAM charantaH | sUryadvAreNa te virajAH prayAnti yatrAmR^itaH sa puruSho hyavyayAtmA"
+          "sanskrit": "तपःश्रद्धे ये ह्युपवसन्त्यरण्ये शान्ता विद्वांसो भैक्ष्यचर्यां चरन्तः | सूर्यद्वारेण ते विरजाः प्रयान्ति यत्रामृतः स पुरुषो ह्यव्ययात्मा ||",
+          "transliteration": "tapaḥśraddhe ye hyupavasantyaraṇye śāntā vidvāṃso bhaikṣyacaryāṃ carantaḥ | sūryadvāreṇa te virajāḥ prayānti yatrāmṛtaḥ sa puruṣo hyavyayātmā ||",
+          "translation": "Those who dwell in the forest with austerity and faith, calm, wise, living by alms — they go, free of dust, through the gate of the sun to where dwells the immortal, undecaying Person.",
+          "hindi": "जो तप और श्रद्धा सहित वन में निवास करते हैं — शान्त, विद्वान्, भिक्षाचर्य करते हुए — वे विरज (निर्दोष) होकर सूर्य-द्वार से उस लोक में जाते हैं जहाँ अमर अव्यय आत्मा निवास करता है।",
+          "commentary": "Contrasting destination. The renunciate path: forest, alms, calm, learning. Such seekers depart through the 'gate of the sun' — the higher path — to the realm of the immortal Person.",
+          "wordMeaning": "Contrasting destination. The renunciate path: forest, alms, calm, learning. Such seekers depart through the 'gate of the sun' — the higher path — to the realm of the immortal Person."
         },
         {
           "number": 12,
-          "sanskrit": "परीक्ष्य लोकान् कर्मचितान् ब्राह्मणो निर्वेदमायान्नास्त्यकृतः कृतेन । तद्विज्ञानार्थं स गुरुमेवाभिगच्छेत् समित्पाणिः श्रोत्रियं ब्रह्मनिष्ठम्",
-          "transliteration": "parIkShya lokAn karmachitAn brAhmaNo nirvedamAyAnnAstyakR^itaH kR^itena | tadvij~nAnArthaM sa gurumevAbhigachChet samitpANiH shrotriyaM brahmaniShTham"
+          "sanskrit": "परीक्ष्य लोकान् कर्मचितान् ब्राह्मणो निर्वेदमायान्नास्त्यकृतः कृतेन | तद्विज्ञानार्थं स गुरुमेवाभिगच्छेत् समित्पाणिः श्रोत्रियं ब्रह्मनिष्ठम् ||",
+          "transliteration": "parīkṣya lokān karmacitān brāhmaṇo nirvedamāyānnāstyakṛtaḥ kṛtena | tadvijñānārthaṃ sa gurumevābhigacchet samitpāṇiḥ śrotriyaṃ brahmaniṣṭham ||",
+          "translation": "Having examined the worlds built by works, a brāhmaṇa attains dispassion: 'The uncreated cannot be reached by what is made.' For that knowledge, fuel in hand, he must approach a teacher — learned in scripture and rooted in Brahman.",
+          "hindi": "कर्म से बने हुए लोकों की परीक्षा करके ब्राह्मण निर्वेद को प्राप्त होता है — \"अकृत वस्तु कृत से प्राप्त नहीं होती।\" उस ज्ञान के लिये वह समिधा हाथ में लेकर श्रोत्रिय और ब्रह्मनिष्ठ गुरु के पास जाये।",
+          "commentary": "One of the most decisive verses in all Upanishadic literature. After examining what works can achieve, the seeker sees: the unmade cannot be made by doing. He must approach a teacher who is both śrotriya (scripturally learned) and brahma-niṣṭha (established in Brahman) — both qualifications, not one.",
+          "wordMeaning": "One of the most decisive verses in all Upanishadic literature. After examining what works can achieve, the seeker sees: the unmade cannot be made by doing. He must approach a teacher who is both śrotriya (scripturally learned) and brahma-niṣṭha (established in Brahman) — both qualifications, not one."
         },
         {
           "number": 13,
-          "sanskrit": "तस्मै स विद्वानुपसन्नाय सम्यक् प्रशान्तचित्ताय शमान्विताय । येनाक्षरं पुरुषं वेद सत्यं प्रोवाच तां तत्त्वतो ब्रह्मविद्याम्",
-          "transliteration": "tasmai sa vidvAnupasannAya samyak prashAntachittAya shamAnvitAya | yenAkSharaM puruShaM veda satyaM provAcha tAM tattvato brahmavidyAm"
+          "sanskrit": "तस्मै स विद्वानुपसन्नाय सम्यक्प्रशान्तचित्ताय शमान्विताय | येनाक्षरं पुरुषं वेद सत्यं प्रोवाच तां तत्त्वतो ब्रह्मविद्याम् ||",
+          "transliteration": "tasmai sa vidvānupasannāya samyakpraśāntacittāya śamānvitāya | yenākṣaraṃ puruṣaṃ veda satyaṃ provāca tāṃ tattvato brahmavidyām ||",
+          "translation": "To him, properly approached, with serene mind and self-mastery, the wise teacher reveals truly that knowledge of Brahman, by which one knows the imperishable Person, the True.",
+          "hindi": "उस गुरु ने — जो विद्वान् है — विधिवत् उपसन्न, प्रशान्त-चित्त, शम-युक्त उस शिष्य को — सत्य रूप से वह ब्रह्मविद्या यथार्थतः कही जिससे अक्षर पुरुष का बोध होता है।",
+          "commentary": "The first Muṇḍaka closes with the moment of transmission. The teacher gives the teaching to the student who arrives with serene mind and self-mastery. Note: the student must already have these qualities — they cannot be granted by the teacher.",
+          "wordMeaning": "The first Muṇḍaka closes with the moment of transmission. The teacher gives the teaching to the student who arrives with serene mind and self-mastery. Note: the student must already have these qualities — they cannot be granted by the teacher."
         }
-      ]
+      ],
+      "titleSanskrit": "प्रथम मुण्डक · द्वितीय खण्ड"
     },
     {
       "number": 3,
@@ -154,55 +229,96 @@
       "verses": [
         {
           "number": 1,
-          "sanskrit": "द्वितीय मुण्डके प्रथमः खण्डः ॥ तदेतत्सत्यं यथा सुदीप्तात्पावकाद्विस्फुलिङ्गाः सहस्रशः प्रभवन्ते सरूपाः । तथाऽक्षराद्विविधाः सोम्य भावाः प्रजायन्ते तत्र चैवापियन्ति",
-          "transliteration": "dvitIya muNDake prathamaH khaNDaH || tadetatsatyaM yathA sudIptAtpAvakAdvisphuli~NgAH sahasrashaH prabhavante sarUpAH | tathA.akSharAdvividhAH somya bhAvAH prajAyante tatra chaivApiyanti"
+          "sanskrit": "तदेतत्सत्यं यथा सुदीप्तात्पावकाद्विस्फुलिङ्गाः सहस्रशः प्रभवन्ते सरूपाः | तथाक्षराद्विविधाः सोम्य भावाः प्रजायन्ते तत्र चैवापि यन्ति ||",
+          "transliteration": "tadetatsatyaṃ yathā sudīptātpāvakādvisphuliṅgāḥ sahasraśaḥ prabhavante sarūpāḥ | tathākṣarādvividhāḥ somya bhāvāḥ prajāyante tatra caivāpi yanti ||",
+          "translation": "This is the truth: as from a blazing fire thousands of sparks arise, each of like nature with the fire — so, dear one, from the Imperishable, various beings arise and into it again return.",
+          "hindi": "यह सत्य है — जैसे प्रज्वलित अग्नि से सहस्रों सरूप स्फुलिङ्ग निकलते हैं, वैसे ही, हे सौम्य! अक्षर से विविध भाव उत्पन्न होते हैं और उसी में लौट जाते हैं।",
+          "commentary": "The famous spark-and-fire image. Beings are not 'made' by the Imperishable — they are emanations of the same substance, like sparks of the same fire. Identity precedes division.",
+          "wordMeaning": "The famous spark-and-fire image. Beings are not 'made' by the Imperishable — they are emanations of the same substance, like sparks of the same fire. Identity precedes division."
         },
         {
           "number": 2,
-          "sanskrit": "दिव्यो ह्यमूर्तः पुरुषः सबाह्याभ्यन्तरो ह्यजः । अप्राणो ह्यमनाः शुभ्रो ह्यक्षरात्परतः परः",
-          "transliteration": "divyo hyamUrtaH puruShaH sabAhyAbhyantaro hyajaH | aprANo hyamanAH shubhro hyakSharAtparataH paraH"
+          "sanskrit": "दिव्यो ह्यमूर्तः पुरुषः स बाह्याभ्यन्तरो ह्यजः | अप्राणो ह्यमनाः शुभ्रो ह्यक्षरात् परतः परः ||",
+          "transliteration": "divyo hyamūrtaḥ puruṣaḥ sa bāhyābhyantaro hyajaḥ | aprāṇo hyamanāḥ śubhro hyakṣarāt parataḥ paraḥ ||",
+          "translation": "Heavenly, bodiless, the Person — outer and inner — unborn, without breath, without mind, pure, higher than the higher Imperishable.",
+          "hindi": "दिव्य, अमूर्त, पुरुष — बाह्य और आन्तरिक दोनों, अजन्मा — प्राण-रहित, मन-रहित, शुभ्र — अक्षर से भी परे, परम।",
+          "commentary": "A dense cascade of negations: bodiless, unborn, breathless, mindless, pure. And a positive: heavenly, the Person, both outer and inner, beyond even the Imperishable as commonly conceived. Brahman as the ultimate substrate.",
+          "wordMeaning": "A dense cascade of negations: bodiless, unborn, breathless, mindless, pure. And a positive: heavenly, the Person, both outer and inner, beyond even the Imperishable as commonly conceived. Brahman as the ultimate substrate."
         },
         {
           "number": 3,
-          "sanskrit": "एतस्माज्जायते प्राणो मनः सर्वेन्द्रियाणि च । खं वायुर्ज्योतिरापः पृथिवी विश्वस्य धारिणी",
-          "transliteration": "etasmAjjAyate prANo manaH sarvendriyANi cha | khaM vAyurjyotirApaH pR^ithivI vishvasya dhAriNI"
+          "sanskrit": "एतस्माज्जायते प्राणो मनः सर्वेन्द्रियाणि च | खं वायुर्ज्योतिरापः पृथिवी विश्वस्य धारिणी ||",
+          "transliteration": "etasmājjāyate prāṇo manaḥ sarvendriyāṇi ca | khaṃ vāyurjyotirāpaḥ pṛthivī viśvasya dhāriṇī ||",
+          "translation": "From him are born prāṇa, mind, all the senses; space, air, fire, water, and earth — the supporter of all.",
+          "hindi": "इसी से उत्पन्न होते हैं — प्राण, मन, सब इन्द्रियाँ; आकाश, वायु, अग्नि, जल, और पृथ्वी जो विश्व को धारण करती है।",
+          "commentary": "The cosmological cascade. From the Puruṣa: vital force, cognitive faculty, sensory channels, the five elements in subtle-to-gross order. The order is significant — life and mind precede matter, not the other way round.",
+          "wordMeaning": "The cosmological cascade. From the Puruṣa: vital force, cognitive faculty, sensory channels, the five elements in subtle-to-gross order. The order is significant — life and mind precede matter, not the other way round."
         },
         {
           "number": 4,
-          "sanskrit": "अग्निर्मूर्धा चक्षुषी चन्द्रसूर्यौ दिशः श्रोत्रे वाग्विवृताश्च वेदाः । वायुः प्राणो हृदयं विश्वमस्य पद्भ्यां पृथिवी ह्येष सर्वभूतान्तरात्मा",
-          "transliteration": "agnirmUrdhA chakShuShI chandrasUryau dishaH shrotre vAgvivR^itAshcha vedAH | vAyuH prANo hR^idayaM vishvamasya padbhyAM pR^ithivI hyeSha sarvabhUtAntarAtmA"
+          "sanskrit": "अग्निर्मूर्धा चक्षुषी चन्द्रसूर्यौ दिशः श्रोत्रे वाग्विवृताश्च वेदाः | वायुः प्राणो हृदयं विश्वमस्य पद्भ्यां पृथिवी ह्येष सर्वभूतान्तरात्मा ||",
+          "transliteration": "agnirmūrdhā cakṣuṣī candrasūryau diśaḥ śrotre vāgvivṛtāśca vedāḥ | vāyuḥ prāṇo hṛdayaṃ viśvamasya padbhyāṃ pṛthivī hyeṣa sarvabhūtāntarātmā ||",
+          "translation": "Fire is his head; the sun and moon, his eyes; the directions, his ears; the revealed Vedas, his voice; air is his breath; the universe, his heart; the earth, his feet. He is the inner Self of all beings.",
+          "hindi": "अग्नि उसका मस्तक है; सूर्य-चन्द्र उसके दो नेत्र; दिशाएँ उसके श्रोत्र; प्रकट वेद उसकी वाणी; वायु उसका प्राण; विश्व उसका हृदय; पृथ्वी उसके चरण। वही सब प्राणियों का अन्तरात्मा है।",
+          "commentary": "The cosmic body of the Puruṣa. The universe is described as his anatomy. This is not metaphor only — it is an invitation to read the cosmos as a single Body of Awareness.",
+          "wordMeaning": "The cosmic body of the Puruṣa. The universe is described as his anatomy. This is not metaphor only — it is an invitation to read the cosmos as a single Body of Awareness."
         },
         {
           "number": 5,
-          "sanskrit": "तस्मादग्निः समिधो यस्य सूर्यः सोमात्पर्जन्य ओषधयः पृथिव्याम् । पुमान् रेतः सिञ्चति योषितायां बह्वीः प्रजाः पुरुषात्संप्रसूताः",
-          "transliteration": "tasmAdagniH samidho yasya sUryaH somAtparjanya oShadhayaH pR^ithivyAm | pumAn retaH si~nchati yoShitAyAM bahvIH prajAH puruShAtsa.nprasUtAH"
+          "sanskrit": "तस्मादग्निः समिधो यस्य सूर्यः सोमात्पर्जन्य ओषधयः पृथिव्याम् | पुमान्रेतः सिञ्चति योषितायां बह्वीः प्रजाः पुरुषात् सम्प्रसूताः ||",
+          "transliteration": "tasmādagniḥ samidho yasya sūryaḥ somātparjanya oṣadhayaḥ pṛthivyām | pumānretaḥ siñcati yoṣitāyāṃ bahvīḥ prajāḥ puruṣāt samprasūtāḥ ||",
+          "translation": "From him: fire — its kindling is the sun. From the moon: rain. On earth: plants. Man pours seed into woman. Many creatures are born from the Person.",
+          "hindi": "उसी से अग्नि (यज्ञ) उत्पन्न होती है जिसकी समिधा सूर्य है; सोम से वर्षा; पृथ्वी पर औषधियाँ। पुरुष नारी में रेत बोता है; इस प्रकार पुरुष से अनेक प्रजाएँ उत्पन्न होती हैं।",
+          "commentary": "The chain of life: solar energy → rainfall → plant growth → animal nutrition → reproduction → many beings. All ultimately from the Puruṣa. The Upanishad sketches the ecological-reproductive web.",
+          "wordMeaning": "The chain of life: solar energy → rainfall → plant growth → animal nutrition → reproduction → many beings. All ultimately from the Puruṣa. The Upanishad sketches the ecological-reproductive web."
         },
         {
           "number": 6,
-          "sanskrit": "तस्मादृचः साम यजूँषि दीक्षा यज्ञाश्च सर्वे क्रतवो दक्षिणाश्च । संवत्सरश्च यजमानश्च लोकाः सोमो यत्र पवते यत्र सूर्यः",
-          "transliteration": "tasmAdR^ichaH sAma yajU{\\m+}Shi dIkShA yaj~nAshcha sarve kratavo dakShiNAshcha | saMvatsarashcha yajamAnashcha lokAH somo yatra pavate yatra sUryaH"
+          "sanskrit": "तस्मादृचः साम यजूंषि दीक्षा यज्ञाश्च सर्वे क्रतवो दक्षिणाश्च | संवत्सरश्च यजमानश्च लोकाः सोमो यत्र पवते यत्र सूर्यः ||",
+          "transliteration": "tasmādṛcaḥ sāma yajūṃṣi dīkṣā yajñāśca sarve kratavo dakṣiṇāśca | saṃvatsaraśca yajamānaśca lokāḥ somo yatra pavate yatra sūryaḥ ||",
+          "translation": "From him: the Ṛc, Sāman, and Yajus hymns; initiation, all sacrifices, all rites, all priestly fees; the year, the sacrificer, and the worlds where the moon and the sun shine.",
+          "hindi": "उसी से ऋच्, साम, यजुस्; दीक्षा, सब यज्ञ, सब क्रतु, सब दक्षिणाएँ; संवत्सर, यजमान, और वे लोक — जहाँ चन्द्रमा और सूर्य चमकते हैं।",
+          "commentary": "Cultural and cosmic life both emerge from the Puruṣa. The Vedas, rituals, social roles, and the celestial sphere are all his manifestation. There is no sacred/secular divide in this picture — both flow from one source.",
+          "wordMeaning": "Cultural and cosmic life both emerge from the Puruṣa. The Vedas, rituals, social roles, and the celestial sphere are all his manifestation. There is no sacred/secular divide in this picture — both flow from one source."
         },
         {
           "number": 7,
-          "sanskrit": "तस्माच्च देवा बहुधा संप्रसूताः साध्या मनुष्याः पशवो वयाँसि । प्राणापानौ व्रीहियवौ तपश्च श्रद्धा सत्यं ब्रह्मचर्यं विधिश्च",
-          "transliteration": "tasmAchcha devA bahudhA sa.nprasUtAH sAdhyA manuShyAH pashavo vayA{\\m+}si | prANApAnau vrIhiyavau tapashcha shraddhA satyaM brahmacharyaM vidhishcha"
+          "sanskrit": "तस्माच्च देवा बहुधा सम्प्रसूताः साध्या मनुष्याः पशवो वयांसि | प्राणापानौ व्रीहियवौ तपश्च श्रद्धा सत्यं ब्रह्मचर्यं विधिश्च ||",
+          "transliteration": "tasmācca devā bahudhā samprasūtāḥ sādhyā manuṣyāḥ paśavo vayāṃsi | prāṇāpānau vrīhiyavau tapaśca śraddhā satyaṃ brahmacaryaṃ vidhiśca ||",
+          "translation": "From him are born manifold gods, sādhyas, humans, animals, birds; the in-breath and out-breath; rice and barley; tapas, faith, truth, celibacy, and rule.",
+          "hindi": "उसी से अनेक देवता, साध्य, मनुष्य, पशु, पक्षी; प्राण-अपान; व्रीहि-यव; तप, श्रद्धा, सत्य, ब्रह्मचर्य, और विधि — सब उत्पन्न होते हैं।",
+          "commentary": "Living beings (gods, humans, animals), basic biological processes (breath, breath; rice, barley), and ethical virtues (tapas, faith, truth, celibacy, discipline) all spring from one source. Nature and morality share substance.",
+          "wordMeaning": "Living beings (gods, humans, animals), basic biological processes (breath, breath; rice, barley), and ethical virtues (tapas, faith, truth, celibacy, discipline) all spring from one source. Nature and morality share substance."
         },
         {
           "number": 8,
-          "sanskrit": "सप्त प्राणाः प्रभवन्ति तस्मा- त्सप्तार्चिषः समिधः सप्त होमाः । सप्त इमे लोका येषु चरन्ति प्राणा गुहाशया निहिताः सप्त सप्त",
-          "transliteration": "sapta prANAH prabhavanti tasmA\\- tsaptArchiShaH samidhaH sapta homAH | sapta ime lokA yeShu charanti prANA guhAshayA nihitAH sapta sapta"
+          "sanskrit": "सप्त प्राणाः प्रभवन्ति तस्मात्सप्तार्चिषः समिधः सप्त होमाः | सप्त इमे लोका येषु चरन्ति प्राणा गुहाशया निहिताः सप्त सप्त ||",
+          "transliteration": "sapta prāṇāḥ prabhavanti tasmātsaptārciṣaḥ samidhaḥ sapta homāḥ | sapta ime lokā yeṣu caranti prāṇā guhāśayā nihitāḥ sapta sapta ||",
+          "translation": "From him spring the seven prāṇas, the seven flames, the seven fuels, the seven oblations, the seven worlds where the prāṇas move — placed seven by seven in the cave (of the heart).",
+          "hindi": "उसी से सात प्राण, सात अर्चियाँ, सात समिधाएँ, सात होम, सात लोक — जिनमें ये प्राण विचरते हैं — सात-सात रूप से हृदय-गुहा में निहित हैं।",
+          "commentary": "Seven repeats: prāṇas, flames, fuels, oblations, worlds. The number is symbolic — seven is the number of completeness (the seven sense-orifices in the head, the seven days, etc.). All sevens are held within the heart-cavity.",
+          "wordMeaning": "Seven repeats: prāṇas, flames, fuels, oblations, worlds. The number is symbolic — seven is the number of completeness (the seven sense-orifices in the head, the seven days, etc.). All sevens are held within the heart-cavity."
         },
         {
           "number": 9,
-          "sanskrit": "अतः समुद्रा गिरयश्च सर्वेऽस्मा- त्स्यन्दन्ते सिन्धवः सर्वरूपाः । अतश्च सर्वा ओषधयो रसश्च येनैष भूतैस्तिष्ठते ह्यन्तरात्मा",
-          "transliteration": "ataH samudrA girayashcha sarve.asmA\\- tsyandante sindhavaH sarvarUpAH | atashcha sarvA oShadhayo rasashcha yenaiSha bhUtaistiShThate hyantarAtmA"
+          "sanskrit": "अतः समुद्रा गिरयश्च सर्वेऽस्मात्स्यन्दन्ते सिन्धवः सर्वरूपाः | अतश्च सर्वा ओषधयो रसश्च येनैष भूतस्तिष्ठते ह्यन्तरात्मा ||",
+          "transliteration": "ataḥ samudrā girayaśca sarve'smātsyandante sindhavaḥ sarvarūpāḥ | ataśca sarvā oṣadhayo rasaśca yenaiṣa bhūtastiṣṭhate hyantarātmā ||",
+          "translation": "From him: all oceans and mountains; from him flow rivers of every kind; from him: all plants and their juices — by which this inner Self stands as embodied being.",
+          "hindi": "उसी से सब समुद्र और पर्वत; उसी से सब रूपों की नदियाँ बहती हैं; उसी से सब औषधियाँ और रस; जिसके द्वारा यह अन्तरात्मा भूत-रूप में स्थित रहता है।",
+          "commentary": "Geography flows from the Puruṣa: oceans, mountains, rivers, plants. The verse closes with a precise observation: the inner Self stands in the form of a body precisely because of these external supports. Inside and outside are one flow.",
+          "wordMeaning": "Geography flows from the Puruṣa: oceans, mountains, rivers, plants. The verse closes with a precise observation: the inner Self stands in the form of a body precisely because of these external supports. Inside and outside are one flow."
         },
         {
           "number": 10,
-          "sanskrit": "पुरुष एवेदं विश्वं कर्म तपो ब्रह्म परामृतम् । एतद्यो वेद निहितं गुहायां सोऽविद्याग्रन्थिं विकिरतीह सोम्य",
-          "transliteration": "puruSha evedaM vishvaM karma tapo brahma parAmR^itam | etadyo veda nihitaM guhAyAM so.avidyAgranthiM vikiratIha somya"
+          "sanskrit": "पुरुष एवेदं विश्वं कर्म तपो ब्रह्म परामृतम् | एतद्यो वेद निहितं गुहायां सोऽविद्याग्रन्थिं विकिरतीह सोम्य ||",
+          "transliteration": "puruṣa evedaṃ viśvaṃ karma tapo brahma parāmṛtam | etadyo veda nihitaṃ guhāyāṃ so'vidyāgranthiṃ vikiratīha somya ||",
+          "translation": "The Person alone is all this — action, tapas, Brahman, the supreme nectar. He who knows this, hidden in the cave (of the heart), cuts the knot of ignorance, dear one, here in this very life.",
+          "hindi": "पुरुष ही यह सब विश्व है — कर्म, तप, ब्रह्म, परम अमृत। जो इसको हृदय-गुहा में निहित जानता है, वह, हे सौम्य! यहीं अविद्या की ग्रन्थि को छिन्न कर देता है।",
+          "commentary": "Closing verse of the khaṇḍa. The Puruṣa is identified with every level of being — actions, austerity, Brahman, nectar. To know him as 'hidden in the cave of the heart' is to cut the avidyā-knot in this very life — not in some future heaven.",
+          "wordMeaning": "Closing verse of the khaṇḍa. The Puruṣa is identified with every level of being — actions, austerity, Brahman, nectar. To know him as 'hidden in the cave of the heart' is to cut the avidyā-knot in this very life — not in some future heaven."
         }
-      ]
+      ],
+      "titleSanskrit": "द्वितीय मुण्डक · प्रथम खण्ड"
     },
     {
       "number": 4,
@@ -210,60 +326,105 @@
       "verses": [
         {
           "number": 1,
-          "sanskrit": "द्वितीय मुण्डके द्वितीयः खण्डः ॥ आविः संनिहितं गुहाचरं नाम महत्पदमत्रैतत्समर्पितम् । एजत्प्राणन्निमिषच्च यदेतज्जानथ सदसद्वरेण्यं परं विज्ञानाद्यद्वरिष्ठं प्रजानाम्",
-          "transliteration": "dvitIya muNDake dvitIyaH khaNDaH || AviH sa.nnihitaM guhAcharaM nAma mahatpadamatraitatsamarpitam | ejatprANannimiShachcha yadetajjAnatha sadasadvareNyaM paraM vij~nAnAdyadvariShThaM prajAnAm"
+          "sanskrit": "आविः सन्निहितं गुहाचरं नाम महत्पदमत्रैतत् समर्पितम् | एजत्प्राणन्निमिषच्च यदेतज्जानथ सदसद्वरेण्यं परं विज्ञानाद्यद्वरिष्ठं प्रजानाम् ||",
+          "transliteration": "āviḥ sannihitaṃ guhācaraṃ nāma mahatpadamatraitat samarpitam | ejatprāṇannimiṣacca yadetajjānatha sadasadvareṇyaṃ paraṃ vijñānādyadvariṣṭhaṃ prajānām ||",
+          "translation": "Manifest, close at hand, moving in the cave — the great abode is set right here. All this is supported in it — what moves, what breathes, what blinks. Know it as both being and non-being, the supremely desirable, beyond cognition, the highest of all in creatures.",
+          "hindi": "प्रकट, निकट स्थित, गुहा-चर — महान् पद यहीं समर्पित है। जो चलता, साँस लेता, पलक झपकाता है — सब उसी में आधारित है। उसे जानो — सत् और असत्, परम वरेण्य, विज्ञान से परे, प्रजाओं में परम।",
+          "commentary": "Brahman is not distant. He is manifest (āviḥ), close at hand (sannihita), moving in the heart-cave (guhā-cara). The entire phenomenal world — moving, breathing, blinking — is supported in him. He is sat (being) and asat (non-being), beyond conventional cognition.",
+          "wordMeaning": "Brahman is not distant. He is manifest (āviḥ), close at hand (sannihita), moving in the heart-cave (guhā-cara). The entire phenomenal world — moving, breathing, blinking — is supported in him. He is sat (being) and asat (non-being), beyond conventional cognition."
         },
         {
           "number": 2,
-          "sanskrit": "यदर्चिमद्यदणुभ्योऽणु च यस्मिँल्लोका निहिता लोकिनश्च । तदेतदक्षरं ब्रह्म स प्राणस्तदु वाङ्मनः तदेतत्सत्यं तदमृतं तद्वेद्धव्यं सोम्य विद्धि",
-          "transliteration": "yadarchimadyadaNubhyo.aNu cha yasmi.NllokA nihitA lokinashcha | tadetadakSharaM brahma sa prANastadu vA~NmanaH tadetatsatyaM tadamR^itaM tadveddhavyaM somya viddhi"
+          "sanskrit": "यदर्चिमद्यदणुभ्योऽणु च यस्मिँल्लोका निहिता लोकिनश्च | तदेतदक्षरं ब्रह्म स प्राणस्तदु वाङ्मनः | तदेतत्सत्यं तदमृतं तद्वेद्धव्यं सोम्य विद्धि ||",
+          "transliteration": "yadarcimadyadaṇubhyo'ṇu ca yasmiṃlokā nihitā lokinaśca | tadetadakṣaraṃ brahma sa prāṇastadu vāṅmanaḥ | tadetatsatyaṃ tadamṛtaṃ tadveddhavyaṃ somya viddhi ||",
+          "translation": "Radiant, smaller than the smallest, in whom the worlds and their inhabitants are set — that is the imperishable Brahman. It is prāṇa, it is speech, it is mind. It is the True, the Immortal. Pierce it, dear one — know it.",
+          "hindi": "जो ज्योतिर्मय है, अणु से भी सूक्ष्म, जिसमें लोक और उनके निवासी निहित हैं — वही अक्षर ब्रह्म है। वह प्राण है, वह वाणी, वह मन। वही सत्य, वही अमृत है। उसे बेधो, हे सौम्य! उसे जानो।",
+          "commentary": "Brahman is radiant yet smaller than the atom; containing all worlds yet present as prāṇa, speech, and mind. The verse simultaneously affirms his transcendence and immanence — and commands the student to strike at him: 'tad-veddhavyaṃ.'",
+          "wordMeaning": "Brahman is radiant yet smaller than the atom; containing all worlds yet present as prāṇa, speech, and mind. The verse simultaneously affirms his transcendence and immanence — and commands the student to strike at him: 'tad-veddhavyaṃ.'"
         },
         {
           "number": 3,
-          "sanskrit": "धनुर्गृहीत्वौपनिषदं महास्त्रं शरं ह्युपासानिशितं संधयीत । (संदधीत) आयम्य तद्भावगतेन चेतसा लक्ष्यं तदेवाक्षरं सोम्य विद्धि",
-          "transliteration": "dhanurgR^ihItvaupaniShadaM mahAstraM sharaM hyupAsAnishitaM sa.ndhayIta | (sa.ndadhIta) Ayamya tadbhAvagatena chetasA lakShyaM tadevAkSharaM somya viddhi"
+          "sanskrit": "धनुर्गृहीत्वौपनिषदं महास्त्रं शरं ह्युपासानिशितं सन्धयीत | आयम्य तद्भावगतेन चेतसा लक्ष्यं तदेवाक्षरं सोम्य विद्धि ||",
+          "transliteration": "dhanurgṛhītvaupaniṣadaṃ mahāstraṃ śaraṃ hyupāsāniśitaṃ sandhayīta | āyamya tadbhāvagatena cetasā lakṣyaṃ tadevākṣaraṃ somya viddhi ||",
+          "translation": "Having taken up the great weapon of the Upaniṣad — the bow — fit to it the arrow sharpened by upāsanā (worship-meditation). Drawing it with thought absorbed in that, dear one, strike: the target is the Imperishable.",
+          "hindi": "उपनिषद् रूपी महास्त्र धनुष को ग्रहण करके, उपासना से तीक्ष्ण किये गये बाण को उसमें जोड़ो। तद्-भाव-गत चित्त से उसे खींचकर, हे सौम्य! लक्ष्य को बेधो — वह लक्ष्य अक्षर ही है।",
+          "commentary": "The bow is the Upaniṣad (the teaching); the arrow is sharpened by upāsanā (devotional meditation). The bow alone is useless without the sharp arrow; the arrow useless without the absorbed mind that draws it. All three together strike the target.",
+          "wordMeaning": "The bow is the Upaniṣad (the teaching); the arrow is sharpened by upāsanā (devotional meditation). The bow alone is useless without the sharp arrow; the arrow useless without the absorbed mind that draws it. All three together strike the target."
         },
         {
           "number": 4,
-          "sanskrit": "प्रणवो धनुः शरो ह्यात्मा ब्रह्म तल्लक्ष्यमुच्यते । अप्रमत्तेन वेद्धव्यं शरवत्तन्मयो भवेत्",
-          "transliteration": "praNavo dhanuH sharo hyAtmA brahma tallakShyamuchyate | apramattena veddhavyaM sharavattanmayo bhavet"
+          "sanskrit": "प्रणवो धनुः शरो ह्यात्मा ब्रह्म तल्लक्ष्यमुच्यते | अप्रमत्तेन वेद्धव्यं शरवत्तन्मयो भवेत् ||",
+          "transliteration": "praṇavo dhanuḥ śaro hyātmā brahma tallakṣyamucyate | apramattena veddhavyaṃ śaravattanmayo bhavet ||",
+          "translation": "OM is the bow; the Self is the arrow; Brahman is called the target. It must be pierced by one who is unflinching. One should become one with it — like the arrow.",
+          "hindi": "ओंकार धनुष है; आत्मा बाण है; ब्रह्म लक्ष्य कहलाता है। अप्रमत्त व्यक्ति से इसे बेधना चाहिए। बाण की तरह उसमें एकाकार हो जाये।",
+          "commentary": "The most famous metaphor in Mundaka. OM (the bow), the Self (arrow), Brahman (target). The crucial verb is 'tanmayo bhavet' — become one with it. The arrow that hits the target loses itself in the target. So too the self that hits Brahman.",
+          "wordMeaning": "The most famous metaphor in Mundaka. OM (the bow), the Self (arrow), Brahman (target). The crucial verb is 'tanmayo bhavet' — become one with it. The arrow that hits the target loses itself in the target. So too the self that hits Brahman."
         },
         {
           "number": 5,
-          "sanskrit": "यस्मिन् द्यौः पृथिवी चान्तरिक्षमोतं मनः सह प्राणैश्च सर्वैः । तमेवैकं जानथ आत्मानमन्या वाचो विमुञ्चथामृतस्यैष सेतुः",
-          "transliteration": "yasmin dyauH pR^ithivI chAntarikShamotaM manaH saha prANaishcha sarvaiH | tamevaikaM jAnatha AtmAnamanyA vAcho vimu~nchathAmR^itasyaiSha setuH"
+          "sanskrit": "यस्मिन्द्यौः पृथिवी चान्तरिक्षमोतं मनः सह प्राणैश्च सर्वैः | तमेवैकं जानथ आत्मानमन्या वाचो विमुञ्चथामृतस्यैष सेतुः ||",
+          "transliteration": "yasmindyauḥ pṛthivī cāntarikṣamotaṃ manaḥ saha prāṇaiśca sarvaiḥ | tamevaikaṃ jānatha ātmānamanyā vāco vimuñcathāmṛtasyaiṣa setuḥ ||",
+          "translation": "In him heaven, earth, and the middle sphere are woven; the mind too, with all the prāṇas. Know him — the one — as the Self; let go of all other talk. This is the bridge to the immortal.",
+          "hindi": "जिसमें द्यु, पृथिवी, और अन्तरिक्ष ओतप्रोत हैं, मन भी सब प्राणों के साथ — उसी एक को आत्म-रूप जानो। अन्य सब वाणियाँ त्यागो। यही अमृत का सेतु है।",
+          "commentary": "All worlds and faculties are woven into Brahman as warp and weft of a single fabric. The instruction: drop other talk. The recognition of the One IS the bridge to immortality. Excessive theorizing is the obstacle.",
+          "wordMeaning": "All worlds and faculties are woven into Brahman as warp and weft of a single fabric. The instruction: drop other talk. The recognition of the One IS the bridge to immortality. Excessive theorizing is the obstacle."
         },
         {
           "number": 6,
-          "sanskrit": "अरा इव रथनाभौ संहता यत्र नाड्यः । स एषोऽन्तश्चरते बहुधा जायमानः । ओमित्येवं ध्यायथ आत्मानं स्वस्ति वः पाराय तमसः परस्तात्",
-          "transliteration": "arA iva rathanAbhau saMhatA yatra nADyaH | sa eSho.antashcharate bahudhA jAyamAnaH | omityevaM dhyAyatha AtmAnaM svasti vaH pArAya tamasaH parastAt"
+          "sanskrit": "अरा इव रथनाभौ संहता यत्र नाड्यः स एषोऽन्तश्चरते बहुधा जायमानः | ओमित्येवं ध्यायथ आत्मानं स्वस्ति वः पाराय तमसः परस्तात् ||",
+          "transliteration": "arā iva rathanābhau saṃhatā yatra nāḍyaḥ sa eṣo'ntaścarate bahudhā jāyamānaḥ | omityevaṃ dhyāyatha ātmānaṃ svasti vaḥ pārāya tamasaḥ parastāt ||",
+          "translation": "Where the nāḍīs (channels) meet like spokes in the hub of a wheel, there he moves within, born manifold. Meditate on the Self as OM. Blessings to you for crossing beyond darkness.",
+          "hindi": "जहाँ रथ की धुरी में अरों की भाँति नाड़ियाँ एकत्र होती हैं, वहीं वह अन्तःचर है — अनेक रूपों में जन्म लेता हुआ। ओम् इस प्रकार आत्मा का ध्यान करो। तुम्हें अन्धकार से पार होने के लिये कल्याण हो।",
+          "commentary": "The heart-hub returns. All nāḍīs meet there; Brahman moves within, manifesting variously. The instruction: meditate on the Self as OM. The teacher's blessing: may you cross beyond the darkness.",
+          "wordMeaning": "The heart-hub returns. All nāḍīs meet there; Brahman moves within, manifesting variously. The instruction: meditate on the Self as OM. The teacher's blessing: may you cross beyond the darkness."
         },
         {
           "number": 7,
-          "sanskrit": "(पराय) यः सर्वज्ञः सर्वविद्यस्यैष महिमा भुवि । दिव्ये ब्रह्मपुरे ह्येष व्योम्न्यात्मा प्रतिष्ठितः ॥ (संप्रतिष्ठितः) मनोमयः प्राणशरीरनेता प्रतिष्ठितोऽन्ने हृदयं संनिधाय । तद्विज्ञानेन परिपश्यन्ति धीरा आनन्दरूपममृतं यद्विभाति",
-          "transliteration": "(parAya) yaH sarvaj~naH sarvavidyasyaiSha mahimA bhuvi | divye brahmapure hyeSha vyomnyAtmA pratiShThitaH || (sa.npratiShThitaH) manomayaH prANasharIranetA pratiShThito.anne hR^idayaM sa.nnidhAya | tadvij~nAnena paripashyanti dhIrA AnandarUpamamR^itaM yadvibhAti"
+          "sanskrit": "यः सर्वज्ञः सर्वविद्यस्यैष महिमा भुवि | दिव्ये ब्रह्मपुरे ह्येष व्योम्न्यात्मा प्रतिष्ठितः ||",
+          "transliteration": "yaḥ sarvajñaḥ sarvavidyasyaiṣa mahimā bhuvi | divye brahmapure hyeṣa vyomnyātmā pratiṣṭhitaḥ ||",
+          "translation": "The omniscient, all-knowing — this is his glory on earth. In the heavenly Brahman-city, in the space (of the heart), the Self is established.",
+          "hindi": "जो सर्वज्ञ, सर्वविद् है — यही पृथ्वी पर उसकी महिमा है। दिव्य ब्रह्मपुर में, व्योम (हृदयाकाश) में, यह आत्मा प्रतिष्ठित है।",
+          "commentary": "The dual location of the Self: simultaneously glorified outside ('on earth') and established inside ('in the heart-space'). Inner and outer are not two locations but two viewpoints on the same presence.",
+          "wordMeaning": "The dual location of the Self: simultaneously glorified outside ('on earth') and established inside ('in the heart-space'). Inner and outer are not two locations but two viewpoints on the same presence."
         },
         {
           "number": 8,
-          "sanskrit": "भिद्यते हृदयग्रन्थिश्छिद्यन्ते सर्वसंशयाः । क्षीयन्ते चास्य कर्माणि तस्मिन्दृष्टे परावरे",
-          "transliteration": "bhidyate hR^idayagranthishChidyante sarvasaMshayAH | kShIyante chAsya karmANi tasmindR^iShTe parAvare"
+          "sanskrit": "मनोमयः प्राणशरीरनेता प्रतिष्ठितोऽन्ने हृदयं सन्निधाय | तद्विज्ञानेन परिपश्यन्ति धीरा आनन्दरूपममृतं यद्विभाति ||",
+          "transliteration": "manomayaḥ prāṇaśarīranetā pratiṣṭhito'nne hṛdayaṃ sannidhāya | tadvijñānena paripaśyanti dhīrā ānandarūpamamṛtaṃ yadvibhāti ||",
+          "translation": "Made of mind, leader of the prāṇa-body, established in food (matter), having placed himself in the heart — by deep knowledge of him the wise perceive that bliss-form, the immortal, which shines.",
+          "hindi": "मनोमय, प्राण-शरीर का नेता, अन्न में प्रतिष्ठित, हृदय में स्थान बनाये हुए — उस तत्त्व को विज्ञान से धीर पुरुष देखते हैं — जो आनन्द-रूप और अमर है, और चमकता है।",
+          "commentary": "The Self is described in four nested layers: mind, prāṇa-body, food-body, heart. Crossing all four, the wise perceive him as 'bliss-form, immortal, shining.' Knowing is direct perception (paripaśyanti), not inference.",
+          "wordMeaning": "The Self is described in four nested layers: mind, prāṇa-body, food-body, heart. Crossing all four, the wise perceive him as 'bliss-form, immortal, shining.' Knowing is direct perception (paripaśyanti), not inference."
         },
         {
           "number": 9,
-          "sanskrit": "हिरण्मये परे कोशे विरजं ब्रह्म निष्कलम् । तच्छुभ्रं ज्योतिषां ज्योतिस्तद्यदात्मविदो विदुः",
-          "transliteration": "hiraNmaye pare koshe virajaM brahma niShkalam | tachChubhraM jyotiShAM jyotistadyadAtmavido viduH"
+          "sanskrit": "भिद्यते हृदयग्रन्थिश्छिद्यन्ते सर्वसंशयाः | क्षीयन्ते चास्य कर्माणि तस्मिन्दृष्टे परावरे ||",
+          "transliteration": "bhidyate hṛdayagranthiśchidyante sarvasaṃśayāḥ | kṣīyante cāsya karmāṇi tasmindṛṣṭe parāvare ||",
+          "translation": "The heart-knot is split; all doubts are cut; his karmas fall away — when That is seen, the higher-and-lower.",
+          "hindi": "जब वह पर-अपर ब्रह्म देखा जाता है — हृदय-ग्रन्थि छिन्न हो जाती है; सब संशय कट जाते हैं; उसके सब कर्म क्षीण हो जाते हैं।",
+          "commentary": "The most celebrated promise. Three results follow from seeing Brahman: the knot of the heart (the false identification with body-mind) breaks, all doubts (saṃśaya) are severed, and all karmas (accumulated tendencies) exhaust themselves. Three obstacles, one solution.",
+          "wordMeaning": "The most celebrated promise. Three results follow from seeing Brahman: the knot of the heart (the false identification with body-mind) breaks, all doubts (saṃśaya) are severed, and all karmas (accumulated tendencies) exhaust themselves. Three obstacles, one solution."
         },
         {
           "number": 10,
-          "sanskrit": "न तत्र सूर्यो भाति न चन्द्रतारकं नेमा विद्युतो भान्ति कुतोऽयमग्निः । तमेव भान्तमनुभाति सर्वं तस्य भासा सर्वमिदं विभाति",
-          "transliteration": "na tatra sUryo bhAti na chandratArakaM nemA vidyuto bhAnti kuto.ayamagniH | tameva bhAntamanubhAti sarvaM tasya bhAsA sarvamidaM vibhAti"
+          "sanskrit": "हिरण्मये परे कोशे विरजं ब्रह्म निष्कलम् | तच्छुभ्रं ज्योतिषां ज्योतिस्तद्यदात्मविदो विदुः ||",
+          "transliteration": "hiraṇmaye pare kośe virajaṃ brahma niṣkalam | tacchubhraṃ jyotiṣāṃ jyotistadyadātmavido viduḥ ||",
+          "translation": "In the highest golden sheath dwells Brahman — taintless, partless. That is the radiant, the light of lights — that which the knowers of the Self know.",
+          "hindi": "परम हिरण्मय कोश में निवास करता है निर्मल, निष्कल ब्रह्म। वही शुभ्र है, ज्योतियों की ज्योति है — जिसे आत्मवेत्ता जानते हैं।",
+          "commentary": "The 'golden sheath' is the inner-most layer of the heart-temple. There Brahman dwells: stainless, partless, the light of lights. Self-knowers (ātma-vidaḥ) know him not through any apparatus but through direct kinship.",
+          "wordMeaning": "The 'golden sheath' is the inner-most layer of the heart-temple. There Brahman dwells: stainless, partless, the light of lights. Self-knowers (ātma-vidaḥ) know him not through any apparatus but through direct kinship."
         },
         {
           "number": 11,
-          "sanskrit": "ब्रह्मैवेदममृतं पुरस्ताद्ब्रह्म पश्चाद्ब्रह्म दक्षिणतश्चोत्तरेण । अधश्चोर्ध्वं च प्रसृतं ब्रह्मैवेदं विश्वमिदं वरिष्ठम्",
-          "transliteration": "brahmaivedamamR^itaM purastAdbrahma pashchAdbrahma dakShiNatashchottareNa | adhashchordhvaM cha prasR^itaM brahmaivedaM vishvamidaM variShTham"
+          "sanskrit": "न तत्र सूर्यो भाति न चन्द्रतारकं नेमा विद्युतो भान्ति कुतोऽयमग्निः | तमेव भान्तमनुभाति सर्वं तस्य भासा सर्वमिदं विभाति ||",
+          "transliteration": "na tatra sūryo bhāti na candratārakaṃ nemā vidyuto bhānti kuto'yamagniḥ | tameva bhāntamanubhāti sarvaṃ tasya bhāsā sarvamidaṃ vibhāti ||",
+          "translation": "There the sun does not shine, nor the moon and stars; nor these lightnings — much less this fire. He shining, all shine after him; by his light all this is illumined.",
+          "hindi": "वहाँ न सूर्य चमकता है, न चन्द्र-तारे, न ये बिजली — फिर यह अग्नि कहाँ? वह चमकता है, और उसी के बाद सब चमकते हैं। उसी की प्रभा से यह सब प्रकाशित होता है।",
+          "commentary": "The most cited verse of Mundaka. Sun, moon, stars, lightning, fire — all the natural light-sources — are not the source of light. Brahman is the light by which they shine. Awareness is the primary illumination; physical light is its shadow.",
+          "wordMeaning": "The most cited verse of Mundaka. Sun, moon, stars, lightning, fire — all the natural light-sources — are not the source of light. Brahman is the light by which they shine. Awareness is the primary illumination; physical light is its shadow."
         }
-      ]
+      ],
+      "titleSanskrit": "द्वितीय मुण्डक · द्वितीय खण्ड"
     },
     {
       "number": 5,
@@ -271,55 +432,96 @@
       "verses": [
         {
           "number": 1,
-          "sanskrit": "तृतीय मुण्डके प्रथमः खण्डः ॥ द्वा सुपर्णा सयुजा सखाया समानं वृक्षं परिषस्वजाते । तयोरन्यः पिप्पलं स्वाद्वत्त्यनश्नन्नन्यो अभिचाकशीति",
-          "transliteration": "tR^itIya muNDake prathamaH khaNDaH || dvA suparNA sayujA sakhAyA samAnaM vR^ikShaM pariShasvajAte | tayoranyaH pippalaM svAdvattyanashnannanyo abhichAkashIti"
+          "sanskrit": "द्वा सुपर्णा सयुजा सखाया समानं वृक्षं परिषस्वजाते | तयोरन्यः पिप्पलं स्वाद्वत्त्यनश्नन्नन्यो अभिचाकशीति ||",
+          "transliteration": "dvā suparṇā sayujā sakhāyā samānaṃ vṛkṣaṃ pariṣasvajāte | tayoranyaḥ pippalāṃ svādvattyanaśnannannyo abhicākaśīti ||",
+          "translation": "Two birds — inseparable companions — cling to the same tree. One of them eats the sweet fruit; the other looks on without eating.",
+          "hindi": "दो सुपर्ण पक्षी, सखा-सम्बद्ध मित्र, एक ही वृक्ष से लिपटे रहते हैं। उनमें से एक पिप्पल का मधुर फल खाता है; दूसरा बिना खाये केवल देखता है।",
+          "commentary": "One of the most profound images in world literature. The two birds on one tree are the individual self (jīva) and the universal Self (Ātman/Brahman). The first eats — engaged in experience, pleasure, pain. The second only watches — pure witness, untouched. Both share the same body; one is entangled, the other eternally free.",
+          "wordMeaning": "One of the most profound images in world literature. The two birds on one tree are the individual self (jīva) and the universal Self (Ātman/Brahman). The first eats — engaged in experience, pleasure, pain. The second only watches — pure witness, untouched. Both share the same body; one is entangled, the other eternally free."
         },
         {
           "number": 2,
-          "sanskrit": "समाने वृक्षे पुरुषो निमग्नो- ऽनीशया शोचति मुह्यमानः । जुष्टं यदा पश्यत्यन्यमीश- मस्य महिमानमिति वीतशोकः",
-          "transliteration": "samAne vR^ikShe puruSho nimagno\\- .anIshayA shochati muhyamAnaH | juShTaM yadA pashyatyanyamIsha\\- masya mahimAnamiti vItashokaH"
+          "sanskrit": "समाने वृक्षे पुरुषो निमग्नोऽनीशया शोचति मुह्यमानः | जुष्टं यदा पश्यत्यन्यमीशमस्य महिमानमिति वीतशोकः ||",
+          "transliteration": "samāne vṛkṣe puruṣo nimagno'nīśayā śocati muhyamānaḥ | juṣṭaṃ yadā paśyatyanyamīśamasya mahimānamiti vītaśokaḥ ||",
+          "translation": "On the same tree the person, sunk in helplessness, grieves, deluded. When he sees the other — the worshipped Lord — and his glory — he becomes free of sorrow.",
+          "hindi": "उसी वृक्ष पर डूबा हुआ पुरुष — असमर्थता से मूढ़ होकर शोक करता है। जब वह दूसरे को — जो पूज्य ईश्वर है — और उसकी महिमा को देखता है, तब वह शोक-रहित हो जाता है।",
+          "commentary": "The path from grief to freedom. The jīva, sunk in helplessness, grieves. The moment he turns and sees the watcher — the Lord — sorrow falls away. The watcher was always there; it took looking.",
+          "wordMeaning": "The path from grief to freedom. The jīva, sunk in helplessness, grieves. The moment he turns and sees the watcher — the Lord — sorrow falls away. The watcher was always there; it took looking."
         },
         {
           "number": 3,
-          "sanskrit": "यदा पश्यः पश्यते रुक्मवर्णं कर्तारमीशं पुरुषं ब्रह्मयोनिम् । तदा विद्वान् पुण्यपापे विधूय निरञ्जनः परमं साम्यमुपैति",
-          "transliteration": "yadA pashyaH pashyate rukmavarNaM kartAramIshaM puruShaM brahmayonim | tadA vidvAn puNyapApe vidhUya nira~njanaH paramaM sAmyamupaiti"
+          "sanskrit": "यदा पश्यः पश्यते रुक्मवर्णं कर्तारमीशं पुरुषं ब्रह्मयोनिम् | तदा विद्वान् पुण्यपापे विधूय निरञ्जनः परमं साम्यमुपैति ||",
+          "transliteration": "yadā paśyaḥ paśyate rukmavarṇaṃ kartāramīśaṃ puruṣaṃ brahmayonim | tadā vidvān puṇyapāpe vidhūya nirañjanaḥ paramaṃ sāmyamupaiti ||",
+          "translation": "When the seer beholds the golden-colored maker, the Lord, the Person, the womb of Brahman — then the knower, having shaken off merit and demerit, becomes spotless and attains the highest equality.",
+          "hindi": "जब द्रष्टा उस सुवर्ण-वर्ण कर्ता, ईश्वर, पुरुष, ब्रह्म-योनि को देखता है — तब विद्वान् पुण्य-पाप को झाड़कर, निरञ्जन होकर, परम साम्य को प्राप्त होता है।",
+          "commentary": "The seer's vision: golden-colored, the maker, the Lord. The instant of vision, merit and demerit fall away — for both depend on a separate 'me' acting. With separation gone, both disappear together.",
+          "wordMeaning": "The seer's vision: golden-colored, the maker, the Lord. The instant of vision, merit and demerit fall away — for both depend on a separate 'me' acting. With separation gone, both disappear together."
         },
         {
           "number": 4,
-          "sanskrit": "प्राणो ह्येष यः सर्वभूतैर्विभाति विजानन् विद्वान् भवते नातिवादी । आत्मक्रीड आत्मरतिः क्रियावा- नेष ब्रह्मविदां वरिष्ठः",
-          "transliteration": "prANo hyeSha yaH sarvabhUtairvibhAti vijAnan vidvAn bhavate nAtivAdI | AtmakrIDa AtmaratiH kriyAvA\\- neSha brahmavidAM variShThaH"
+          "sanskrit": "प्राणो ह्येष यः सर्वभूतैर्विभाति विजानन्विद्वान् भवते नातिवादी | आत्मक्रीड आत्मरतिः क्रियावानेष ब्रह्मविदां वरिष्ठः ||",
+          "transliteration": "prāṇo hyeṣa yaḥ sarvabhūtairvibhāti vijānanvidvān bhavate nātivādī | ātmakrīḍa ātmaratiḥ kriyāvāneṣa brahmavidāṃ variṣṭhaḥ ||",
+          "translation": "This is the prāṇa that shines in all beings. Knowing him, the wise one becomes no boaster. Playing in the Self, delighting in the Self, performing actions — he is the foremost among the knowers of Brahman.",
+          "hindi": "यह वही प्राण है जो सब प्राणियों में चमकता है। उसे जानकर विद्वान् कभी अभिमानी नहीं होता। आत्मा में क्रीड़ा करता, आत्मा में रमण करता, क्रियाशील रहता — ऐसा पुरुष ब्रह्मवेत्ताओं में श्रेष्ठ है।",
+          "commentary": "The portrait of the knower. Three features: humble (na ativādī — not a boaster), self-rejoicing (ātma-krīḍa, ātma-rati), and active (kriyāvān). The realized one is not idle but plays from the Self.",
+          "wordMeaning": "The portrait of the knower. Three features: humble (na ativādī — not a boaster), self-rejoicing (ātma-krīḍa, ātma-rati), and active (kriyāvān). The realized one is not idle but plays from the Self."
         },
         {
           "number": 5,
-          "sanskrit": "सत्येन लभ्यस्तपसा ह्येष आत्मा सम्यग्ज्ञानेन ब्रह्मचर्येण नित्यम् । अन्तःशरीरे ज्योतिर्मयो हि शुभ्रो यं पश्यन्ति यतयः क्षीणदोषाः",
-          "transliteration": "satyena labhyastapasA hyeSha AtmA samyagj~nAnena brahmacharyeNa nityam | antaHsharIre jyotirmayo hi shubhro yaM pashyanti yatayaH kShINadoShAH"
+          "sanskrit": "सत्येन लभ्यस्तपसा ह्येष आत्मा सम्यग्ज्ञानेन ब्रह्मचर्येण नित्यम् | अन्तःशरीरे ज्योतिर्मयो हि शुभ्रो यं पश्यन्ति यतयः क्षीणदोषाः ||",
+          "transliteration": "satyena labhyastapasā hyeṣa ātmā samyagjñānena brahmacaryeṇa nityam | antaḥśarīre jyotirmayo hi śubhro yaṃ paśyanti yatayaḥ kṣīṇadoṣāḥ ||",
+          "translation": "This Self is attained by truth, tapas, right knowledge, and continual celibacy. Within the body, radiant and pure — him the ascetics see, those whose faults are spent.",
+          "hindi": "यह आत्मा सत्य, तप, सम्यक् ज्ञान, और नित्य ब्रह्मचर्य से प्राप्त होता है। शरीर के भीतर — ज्योतिर्मय, शुभ्र — उसी को क्षीण-दोष यति देखते हैं।",
+          "commentary": "Four disciplines: truth (in speech, thought, action), tapas (austerity), right knowledge (samyak-jñāna), and brahmacarya (continence). Through these, the Self — already present in the body — is seen by those whose defects have been thinned.",
+          "wordMeaning": "Four disciplines: truth (in speech, thought, action), tapas (austerity), right knowledge (samyak-jñāna), and brahmacarya (continence). Through these, the Self — already present in the body — is seen by those whose defects have been thinned."
         },
         {
           "number": 6,
-          "sanskrit": "सत्यमेव जयते नानृतं (जयति) सत्येन पन्था विततो देवयानः । येनाक्रमन्त्यृषयो ह्याप्तकामा यत्र तत्सत्यस्य परमं निधानम्",
-          "transliteration": "satyameva jayate nAnR^itaM (jayati) satyena panthA vitato devayAnaH | yenAkramantyR^iShayo hyAptakAmA yatra tatsatyasya paramaM nidhAnam"
+          "sanskrit": "सत्यमेव जयते नानृतं सत्येन पन्था विततो देवयानः | येनाक्रमन्त्यृषयो ह्याप्तकामा यत्र तत् सत्यस्य परमं निधानम् ||",
+          "transliteration": "satyameva jayate nānṛtaṃ satyena panthā vitato devayānaḥ | yenākramantyṛṣayo hyāptakāmā yatra tat satyasya paramaṃ nidhānam ||",
+          "translation": "Truth alone triumphs, not falsehood. By truth is spread the divine path along which the sages — whose desires are fulfilled — travel to where the supreme treasury of truth resides.",
+          "hindi": "सत्य की ही विजय होती है, असत्य की नहीं। सत्य से देवयान मार्ग विस्तृत होता है — जिस पर चलकर आप्त-काम ऋषि वहाँ पहुँचते हैं, जहाँ सत्य का परम निधान है।",
+          "commentary": "India's national motto. Not naive optimism. A cosmic principle: reality is aligned with truth. Lies require energy to maintain and are self-defeating. Truth, even difficult, aligns with the structure of being.",
+          "wordMeaning": "India's national motto. Not naive optimism. A cosmic principle: reality is aligned with truth. Lies require energy to maintain and are self-defeating. Truth, even difficult, aligns with the structure of being."
         },
         {
           "number": 7,
-          "sanskrit": "बृहच्च तद्दिव्यमचिन्त्यरूपं सूक्ष्माच्च तत्सूक्ष्मतरं विभाति । दूरात्सुदूरे तदिहान्तिके च पश्यत्स्विहैव निहितं गुहायाम्",
-          "transliteration": "bR^ihachcha taddivyamachintyarUpaM sUkShmAchcha tatsUkShmataraM vibhAti | dUrAtsudUre tadihAntike cha pashyatsvihaiva nihitaM guhAyAm"
+          "sanskrit": "बृहच्च तद्दिव्यमचिन्त्यरूपं सूक्ष्माच्च तत्सूक्ष्मतरं विभाति | दूरात्सुदूरे तदिहान्तिके च पश्यत्स्विहैव निहितं गुहायाम् ||",
+          "transliteration": "bṛhacca taddivyamacintyarūpaṃ sūkṣmācca tatsūkṣmataraṃ vibhāti | dūrātsudūre tadihāntike ca paśyatsvihaiva nihitaṃ guhāyām ||",
+          "translation": "Vast, divine, of inconceivable form; subtler than the subtle, it shines; farther than the farthest, yet here close at hand. For those who see, it is set right here, in the cave.",
+          "hindi": "विशाल, दिव्य, अचिन्त्य-रूप; सूक्ष्म से भी सूक्ष्मतर वह चमकता है; दूर से भी दूर — और यहीं निकट। द्रष्टा के लिये वह यहीं हृदय-गुहा में निहित है।",
+          "commentary": "The paradox-list: vast and subtle, far and near. To the seer, the apparent distance collapses — what was 'far' is now 'right here.' Vision changes geography.",
+          "wordMeaning": "The paradox-list: vast and subtle, far and near. To the seer, the apparent distance collapses — what was 'far' is now 'right here.' Vision changes geography."
         },
         {
           "number": 8,
-          "sanskrit": "न चक्षुषा गृह्यते नापि वाचा नान्यैर्देवैस्तपसा कर्मणा वा । ज्ञानप्रसादेन विशुद्धसत्त्व- स्ततस्तु तं पश्यते निष्कलं ध्यायमानः",
-          "transliteration": "na chakShuShA gR^ihyate nApi vAchA nAnyairdevaistapasA karmaNA vA | j~nAnaprasAdena vishuddhasattva- statastu taM pashyate niShkalaM dhyAyamAnaH"
+          "sanskrit": "न चक्षुषा गृह्यते नापि वाचा नान्यैर्देवैस्तपसा कर्मणा वा | ज्ञानप्रसादेन विशुद्धसत्त्वस्ततस्तु तं पश्यते निष्कलं ध्यायमानः ||",
+          "transliteration": "na cakṣuṣā gṛhyate nāpi vācā nānyairdevaistapasā karmaṇā vā | jñānaprasādena viśuddhasattvastatastu taṃ paśyate niṣkalaṃ dhyāyamānaḥ ||",
+          "translation": "He is not grasped by the eye, nor by speech, nor by the other senses; nor by tapas, nor by works. Only by the grace of knowledge — with sattva purified — does the meditator see him, the partless.",
+          "hindi": "नेत्र से वह नहीं ग्रहण होता, न वाणी से, न अन्य इन्द्रियों से, न तप से, न कर्म से। ज्ञान-प्रसाद से, विशुद्ध सत्त्व वाला, ध्यान करता हुआ — तभी निष्कल को देखता है।",
+          "commentary": "A precise instruction: senses, speech, tapas, works cannot grasp him. Only 'jñāna-prasāda' — the grace of knowledge — and a purified sattva, can. Plus meditation. The conditions are exacting but specific.",
+          "wordMeaning": "A precise instruction: senses, speech, tapas, works cannot grasp him. Only 'jñāna-prasāda' — the grace of knowledge — and a purified sattva, can. Plus meditation. The conditions are exacting but specific."
         },
         {
           "number": 9,
-          "sanskrit": "एषोऽणुरात्मा चेतसा वेदितव्यो यस्मिन्प्राणः पञ्चधा संविवेश । प्राणैश्चित्तं सर्वमोतं प्रजानां यस्मिन्विशुद्धे विभवत्येष आत्मा",
-          "transliteration": "eSho.aNurAtmA chetasA veditavyo yasminprANaH pa~nchadhA saMvivesha | prANaishchittaM sarvamotaM prajAnAM yasminvishuddhe vibhavatyeSha AtmA"
+          "sanskrit": "एषोऽणुरात्मा चेतसा वेदितव्यो यस्मिन्प्राणः पञ्चधा संविवेश | प्राणैश्चित्तं सर्वमोतं प्रजानां यस्मिन्विशुद्धे विभवत्येष आत्मा ||",
+          "transliteration": "eṣo'ṇurātmā cetasā veditavyo yasminprāṇaḥ pañcadhā saṃviveśa | prāṇaiścittaṃ sarvamotaṃ prajānāṃ yasminviśuddhe vibhavatyeṣa ātmā ||",
+          "translation": "This atomic Self is to be known by the mind, in which prāṇa has entered fivefold. By the prāṇas the consciousness of all beings is woven. When that mind is purified, this Self shines forth.",
+          "hindi": "यह अणु-रूप आत्मा चित्त से जाना जाता है — जिसमें प्राण पाँच रूपों से प्रविष्ट है। प्राणों से प्रजाओं का सब चित्त ओत-प्रोत है। जब वह चित्त विशुद्ध हो जाता है, तब यह आत्मा प्रकट होता है।",
+          "commentary": "The Self is known by the mind — but only by the purified mind. Mind is the lens; if dirty, no vision. Purification is the practice. Pranic structure of mind is noted.",
+          "wordMeaning": "The Self is known by the mind — but only by the purified mind. Mind is the lens; if dirty, no vision. Purification is the practice. Pranic structure of mind is noted."
         },
         {
           "number": 10,
-          "sanskrit": "यं यं लोकं मनसा संविभाति विशुद्धसत्त्वः कामयते यांश्च कामान् । तं तं लोकं जयते तांश्च कामां- स्तस्मादात्मज्ञं ह्यर्चयेद्भूतिकामः",
-          "transliteration": "yaM yaM lokaM manasA saMvibhAti vishuddhasattvaH kAmayate yAMshcha kAmAn | taM taM lokaM jayate tAMshcha kAmAM\\- stasmAdAtmaj~naM hyarchayedbhUtikAmaH"
+          "sanskrit": "यं यं लोकं मनसा संविभाति विशुद्धसत्त्वः कामयते यांश्च कामान् | तं तं लोकं जयते तांश्च कामांस्तस्मादात्मज्ञं ह्यर्चयेद्भूतिकामः ||",
+          "transliteration": "yaṃ yaṃ lokaṃ manasā saṃvibhāti viśuddhasattvaḥ kāmayate yāṃśca kāmān | taṃ taṃ lokaṃ jayate tāṃśca kāmāṃstasmādātmajñaṃ hyarcayedbhūtikāmaḥ ||",
+          "translation": "Whatever world the pure-natured one envisions in mind, whatever desires he conceives — that world and those desires he conquers. Therefore, one desirous of prosperity should worship the knower of the Self.",
+          "hindi": "विशुद्ध-सत्त्व वाला मनुष्य मन से जिस लोक का चिन्तन करे, जिन इच्छाओं को धारण करे — वह उन्हीं को जीत लेता है। इसलिये भूति-काम पुरुष आत्मज्ञ की पूजा करे।",
+          "commentary": "A striking promise: the pure-minded one fulfills any aim — worldly or transcendent. Therefore, says the verse, those who seek worldly prosperity should still honor the Self-knower; he is the genuine source of capacity.",
+          "wordMeaning": "A striking promise: the pure-minded one fulfills any aim — worldly or transcendent. Therefore, says the verse, those who seek worldly prosperity should still honor the Self-knower; he is the genuine source of capacity."
         }
-      ]
+      ],
+      "titleSanskrit": "तृतीय मुण्डक · प्रथम खण्ड"
     },
     {
       "number": 6,
@@ -327,60 +529,186 @@
       "verses": [
         {
           "number": 1,
-          "sanskrit": "तृतीयमुण्डके द्वितीयः खण्डः ॥ स वेदैतत्परमं ब्रह्म धाम यत्र विश्वं निहितं भाति शुभ्रम् । उपासते पुरुषं ये ह्यकामास्ते शुक्रमेतदतिवर्तन्ति धीराः",
-          "transliteration": "tR^itIyamuNDake dvitIyaH khaNDaH || sa vedaitatparamaM brahma dhAma yatra vishvaM nihitaM bhAti shubhram | upAsate puruShaM ye hyakAmAste shukrametadativartanti dhIrAH"
+          "sanskrit": "स वेदैतत्परमं ब्रह्म धाम यत्र विश्वं निहितं भाति शुभ्रम् | उपासते पुरुषं ये ह्यकामास्ते शुक्रमेतदतिवर्तन्ति धीराः ||",
+          "transliteration": "sa vedaitatparamaṃ brahma dhāma yatra viśvaṃ nihitaṃ bhāti śubhram | upāsate puruṣaṃ ye hyakāmāste śukrametadativartanti dhīrāḥ ||",
+          "translation": "He knows that supreme abode of Brahman, where the whole shines pure. The wise who, free of desires, worship the Person, transcend even the bright seed.",
+          "hindi": "वह उस परम ब्रह्म-धाम को जानता है, जिसमें यह सब विश्व निहित और शुभ्र रूप से चमकता है। जो अकाम होकर उस पुरुष की उपासना करते हैं, वे धीर इस शुक्र (बीज) से भी पार चले जाते हैं।",
+          "commentary": "Those who worship without desire transcend even Hiraṇyagarbha (the cosmic seed). Desireless worship reaches further than any reward-seeking practice.",
+          "wordMeaning": "Those who worship without desire transcend even Hiraṇyagarbha (the cosmic seed). Desireless worship reaches further than any reward-seeking practice."
         },
         {
           "number": 2,
-          "sanskrit": "कामान् यः कामयते मन्यमानः स कामभिर्जायते तत्र तत्र । पर्याप्तकामस्य कृतात्मनस्तु इहैव सर्वे प्रविलीयन्ति कामाः",
-          "transliteration": "kAmAn yaH kAmayate manyamAnaH sa kAmabhirjAyate tatra tatra | paryAptakAmasya kR^itAtmanastu ihaiva sarve pravilIyanti kAmAH"
+          "sanskrit": "कामान् यः कामयते मन्यमानः स कामभिर्जायते तत्र तत्र | पर्याप्तकामस्य कृतात्मनस्तु इहैव सर्वे प्रविलीयन्ति कामाः ||",
+          "transliteration": "kāmān yaḥ kāmayate manyamānaḥ sa kāmabhirjāyate tatra tatra | paryāptakāmasya kṛtātmanastu ihaiva sarve pravilīyanti kāmāḥ ||",
+          "translation": "He who, fixating on desires, desires them — by those desires he is born again, here and there. But for one whose desires are fulfilled, who has realized the Self, all desires here itself dissolve.",
+          "hindi": "जो इच्छाओं को महत्त्व देकर उनकी कामना करता है, वह उन्हीं इच्छाओं के साथ जन्म लेता रहता है। परन्तु जिसकी कामनाएँ पूर्ण हैं, जिसने आत्मा को कृत किया है — उसकी सब कामनाएँ यहीं विलीन हो जाती हैं।",
+          "commentary": "The mechanism of rebirth: desire is the seed. Identification with desire produces continuity of birth. The realized one's desires dissolve here itself — not because they are repressed but because they have lost their pull.",
+          "wordMeaning": "The mechanism of rebirth: desire is the seed. Identification with desire produces continuity of birth. The realized one's desires dissolve here itself — not because they are repressed but because they have lost their pull."
         },
         {
           "number": 3,
-          "sanskrit": "नायमात्मा प्रवचनेन लभ्यो न मेधया न बहुना श्रुतेन । यमेवैष वृणुते तेन लभ्य- स्तस्यैष आत्मा विवृणुते तनूं स्वाम्",
-          "transliteration": "nAyamAtmA pravachanena labhyo na medhayA na bahunA shrutena | yamevaiSha vR^iNute tena labhya\\- stasyaiSha AtmA vivR^iNute tanUM svAm"
+          "sanskrit": "नायमात्मा प्रवचनेन लभ्यो न मेधया न बहुना श्रुतेन | यमेवैष वृणुते तेन लभ्यस्तस्यैष आत्मा विवृणुते तनूं स्वाम् ||",
+          "transliteration": "nāyamātmā pravacanena labhyo na medhayā na bahunā śrutena | yamevaiṣa vṛṇute tena labhyastasyaiṣa ātmā vivṛṇute tanūṃ svām ||",
+          "translation": "This Self is not attained by discourse, nor by intellect, nor by much hearing. Whom the Self itself chooses — by him alone is it attained; to him the Self reveals its own form.",
+          "hindi": "यह आत्मा न प्रवचन से प्राप्त होता है, न मेधा (बुद्धि) से, न बहुश्रुति से। जिसको यह स्वयं वरण कर लेता है — उसी के द्वारा प्राप्त होता है; उसी के सामने यह आत्मा अपना तनु (रूप) प्रकट करता है।",
+          "commentary": "A stunning verse. The Self is not 'figured out.' It chooses. The seeker is not the agent. This is the grace dimension of Vedānta — recognition is given, not earned.",
+          "wordMeaning": "A stunning verse. The Self is not 'figured out.' It chooses. The seeker is not the agent. This is the grace dimension of Vedānta — recognition is given, not earned."
         },
         {
           "number": 4,
-          "sanskrit": "(आत्मा वृणुते) नायमात्मा बलहीनेन लभ्यो न च प्रमादात्तपसो वाप्यलिङ्गात् । एतैरुपायैर्यतते यस्तु विद्वां- स्तस्यैष आत्मा विशते ब्रह्मधाम",
-          "transliteration": "(AtmA vR^iNute) nAyamAtmA balahInena labhyo na cha pramAdAttapaso vApyali~NgAt | etairupAyairyatate yastu vidvAM- stasyaiSha AtmA vishate brahmadhAma"
+          "sanskrit": "नायमात्मा बलहीनेन लभ्यो न च प्रमादात्तपसो वाप्यलिङ्गात् | एतैरुपायैर्यतते यस्तु विद्वांस्तस्यैष आत्मा विशते ब्रह्मधाम ||",
+          "transliteration": "nāyamātmā balahīnena labhyo na ca pramādāttapaso vāpyaliṅgāt | etairupāyairyatate yastu vidvāṃstasyaiṣa ātmā viśate brahmadhāma ||",
+          "translation": "This Self is not attained by the weak, nor by carelessness, nor by tapas without right marks (genuine purpose). But the wise one who strives by the right means — into him this Self enters as the Brahman-abode.",
+          "hindi": "यह आत्मा न बलहीन को प्राप्त होता है, न प्रमादी को, न लिङ्ग-रहित (लक्ष्य-रहित) तप वाले को। परन्तु जो विद्वान् सही उपायों से प्रयत्न करता है — उसमें यह आत्मा ब्रह्म-धाम के रूप में प्रवेश करता है।",
+          "commentary": "Balance to the previous verse. Yes, grace — but strength, attention, and properly-oriented tapas are essential. The seeker must do everything possible; then grace meets the effort.",
+          "wordMeaning": "Balance to the previous verse. Yes, grace — but strength, attention, and properly-oriented tapas are essential. The seeker must do everything possible; then grace meets the effort."
         },
         {
           "number": 5,
-          "sanskrit": "संप्राप्यैनमृषयो ज्ञानतृप्ताः कृतात्मानो वीतरागाः प्रशान्ताः । ते सर्वगं सर्वतः प्राप्य धीरा युक्तात्मानः सर्वमेवाविशन्ति",
-          "transliteration": "sa.nprApyainamR^iShayo j~nAnatR^iptAH kR^itAtmAno vItarAgAH prashAntAH | te sarvagaM sarvataH prApya dhIrA yuktAtmAnaH sarvamevAvishanti"
+          "sanskrit": "सम्प्राप्यैनमृषयो ज्ञानतृप्ताः कृतात्मानो वीतरागाः प्रशान्ताः | ते सर्वगं सर्वतः प्राप्य धीरा युक्तात्मानः सर्वमेवाविशन्ति ||",
+          "transliteration": "samprāpyainamṛṣayo jñānatṛptāḥ kṛtātmāno vītarāgāḥ praśāntāḥ | te sarvagaṃ sarvataḥ prāpya dhīrā yuktātmānaḥ sarvamevāviśanti ||",
+          "translation": "Having attained him, the seers — content with knowledge, realized, free of desire, peaceful — enter the all-pervading from all sides; with self mastered, those wise ones enter the All itself.",
+          "hindi": "इसको प्राप्त करके ऋषि — ज्ञान-तृप्त, कृतात्मा, वीत-राग, प्रशान्त — सर्वत्र सब प्रकार से व्याप्त उसको प्राप्त कर, युक्त-आत्मा होकर, सब में प्रवेश कर जाते हैं।",
+          "commentary": "The portrait of the realized seers: content with knowledge, realized, dispassionate, peaceful. They enter the all-pervading from all sides — they are no longer 'somewhere' but in everything.",
+          "wordMeaning": "The portrait of the realized seers: content with knowledge, realized, dispassionate, peaceful. They enter the all-pervading from all sides — they are no longer 'somewhere' but in everything."
         },
         {
           "number": 6,
-          "sanskrit": "वेदान्तविज्ञानसुनिश्चितार्थाः संन्यासयोगाद्यतयः शुद्धसत्त्वाः । ते ब्रह्मलोकेषु परान्तकाले परामृताः परिमुच्यन्ति सर्वे",
-          "transliteration": "vedAntavij~nAnasunishchitArthAH sa.nnyAsayogAdyatayaH shuddhasattvAH | te brahmalokeShu parAntakAle parAmR^itAH parimuchyanti sarve"
+          "sanskrit": "वेदान्तविज्ञानसुनिश्चितार्थाः संन्यासयोगाद्यतयः शुद्धसत्त्वाः | ते ब्रह्मलोकेषु परान्तकाले परामृताः परिमुच्यन्ति सर्वे ||",
+          "transliteration": "vedāntavijñānasuniścitārthāḥ saṃnyāsayogādyatayaḥ śuddhasattvāḥ | te brahmalokeṣu parāntakāle parāmṛtāḥ parimucyanti sarve ||",
+          "translation": "Whose meaning is well-determined by the knowledge of Vedānta, the renunciate yogis of purified sattva — they, in the Brahma-worlds at the supreme end-time, are wholly liberated, becoming supremely immortal.",
+          "hindi": "जिनका अर्थ वेदान्त-विज्ञान से सुनिश्चित है, जो संन्यास-योग के यति हैं, जिनका सत्त्व शुद्ध है — वे ब्रह्म-लोकों में, पर-अन्त-काल में, सर्व-मुक्त होकर परम अमृत हो जाते हैं।",
+          "commentary": "The fruit of full practice: at the supreme end-time, liberation. Three qualifications: clear understanding of Vedānta, renunciate practice, purified sattva. The fruit is parāmṛta — beyond even immortality.",
+          "wordMeaning": "The fruit of full practice: at the supreme end-time, liberation. Three qualifications: clear understanding of Vedānta, renunciate practice, purified sattva. The fruit is parāmṛta — beyond even immortality."
         },
         {
           "number": 7,
-          "sanskrit": "गताः कलाः पञ्चदश प्रतिष्ठा देवाश्च सर्वे प्रतिदेवतासु । कर्माणि विज्ञानमयश्च आत्मा परेऽव्यये सर्वे एकीभवन्ति",
-          "transliteration": "gatAH kalAH pa~nchadasha pratiShThA devAshcha sarve pratidevatAsu | karmANi vij~nAnamayashcha AtmA pare.avyaye sarve ekIbhavanti"
+          "sanskrit": "गताः कलाः पञ्चदश प्रतिष्ठा देवाश्च सर्वे प्रतिदेवतासु | कर्माणि विज्ञानमयश्च आत्मा परेऽव्यये सर्व एकीभवन्ति ||",
+          "transliteration": "gatāḥ kalāḥ pañcadaśa pratiṣṭhā devāśca sarve pratidevatāsu | karmāṇi vijñānamayaśca ātmā pare'vyaye sarva ekībhavanti ||",
+          "translation": "The fifteen parts return to their bases; all the devas return to their corresponding deities; actions and the knowing-self — all become one in the supreme, undecaying.",
+          "hindi": "पन्द्रह कलाएँ अपनी-अपनी प्रतिष्ठाओं में लौट जाती हैं; सब देव अपनी-अपनी प्रतिदेवताओं में मिल जाते हैं; कर्म और विज्ञान-मय आत्मा — सब परम अव्यय में एकीभूत हो जाते हैं।",
+          "commentary": "The final ascent. The fifteen kalās (from Prashna 6) return to their sources; the inner devas to their cosmic counterparts; actions and the cognizing self to the undecaying One. The reverse of creation is liberation.",
+          "wordMeaning": "The final ascent. The fifteen kalās (from Prashna 6) return to their sources; the inner devas to their cosmic counterparts; actions and the cognizing self to the undecaying One. The reverse of creation is liberation."
         },
         {
           "number": 8,
-          "sanskrit": "यथा नद्यः स्यन्दमानाः समुद्रे- ऽस्तं गच्छन्ति नामरूपे विहाय । तथा विद्वान् नामरूपाद्विमुक्तः परात्परं पुरुषमुपैति दिव्यम्",
-          "transliteration": "yathA nadyaH syandamAnAH samudre\\- .astaM gachChanti nAmarUpe vihAya | tathA vidvAn nAmarUpAdvimuktaH parAtparaM puruShamupaiti divyam"
+          "sanskrit": "यथा नद्यः स्यन्दमानाः समुद्रेऽस्तं गच्छन्ति नामरूपे विहाय | तथा विद्वान् नामरूपाद्विमुक्तः परात्परं पुरुषमुपैति दिव्यम् ||",
+          "transliteration": "yathā nadyaḥ syandamānāḥ samudre'staṃ gacchanti nāmarūpe vihāya | tathā vidvān nāmarūpādvimuktaḥ parātparaṃ puruṣamupaiti divyam ||",
+          "translation": "As flowing rivers, abandoning name and form, set into the ocean — so the wise one, freed from name and form, reaches the divine Person, higher than the high.",
+          "hindi": "जैसे बहती हुई नदियाँ नाम-रूप त्यागकर समुद्र में अस्त हो जाती हैं — वैसे ही विद्वान् नाम-रूप से मुक्त होकर परात्पर दिव्य पुरुष को प्राप्त करता है।",
+          "commentary": "The river-into-ocean image. Identical structurally to Prashna 6 and Brihadāraṇyaka. The river's substance was always water; the ocean is its true name. Name and form were temporary; substance was always one.",
+          "wordMeaning": "The river-into-ocean image. Identical structurally to Prashna 6 and Brihadāraṇyaka. The river's substance was always water; the ocean is its true name. Name and form were temporary; substance was always one."
         },
         {
           "number": 9,
-          "sanskrit": "स यो ह वै तत्परमं ब्रह्म वेद ब्रह्मैव भवति नास्याब्रह्मवित्कुले भवति । तरति शोकं तरति पाप्मानं गुहाग्रन्थिभ्यो विमुक्तोऽमृतो भवति",
-          "transliteration": "sa yo ha vai tatparamaM brahma veda brahmaiva bhavati nAsyAbrahmavitkule bhavati | tarati shokaM tarati pApmAnaM guhAgranthibhyo vimukto.amR^ito bhavati"
+          "sanskrit": "स यो ह वै तत्परमं ब्रह्म वेद ब्रह्मैव भवति नास्याब्रह्मवित्कुले भवति | तरति शोकं तरति पाप्मानं गुहाग्रन्थिभ्यो विमुक्तोऽमृतो भवति ||",
+          "transliteration": "sa yo ha vai tatparamaṃ brahma veda brahmaiva bhavati nāsyābrahmavitkule bhavati | tarati śokaṃ tarati pāpmānaṃ guhāgranthibhyo vimukto'mṛto bhavati ||",
+          "translation": "He who knows that supreme Brahman becomes Brahman itself. No one in his lineage will be ignorant of Brahman. He crosses sorrow; he crosses sin; liberated from the heart-knots, he becomes immortal.",
+          "hindi": "जो उस परम ब्रह्म को जानता है, वह ब्रह्म ही हो जाता है। उसके कुल में कोई अब्रह्मवित् नहीं होता। वह शोक को पार करता है, पाप को पार करता है, हृदय-ग्रन्थियों से मुक्त होकर अमर हो जाता है।",
+          "commentary": "The fruits of knowing Brahman: identity with Brahman, blessing of one's lineage, transcendence of sorrow and sin, freedom from the heart-knots, immortality. Five fruits, all from one knowing.",
+          "wordMeaning": "The fruits of knowing Brahman: identity with Brahman, blessing of one's lineage, transcendence of sorrow and sin, freedom from the heart-knots, immortality. Five fruits, all from one knowing."
         },
         {
           "number": 10,
-          "sanskrit": "तदेतदृचाऽभ्युक्तम् । क्रियावन्तः श्रोत्रिया ब्रह्मनिष्ठाः स्वयं जुह्वत एकर्षिं श्रद्धयन्तः । तेषामेवैतां ब्रह्मविद्यां वदेत शिरोव्रतं विधिवद्यैस्तु चीर्णम्",
-          "transliteration": "tadetadR^ichA.abhyuktam | kriyAvantaH shrotriyA brahmaniShThAH svayaM juhvata ekarShiM shraddhayantaH | teShAmevaitAM brahmavidyAM vadeta shirovrataM vidhivadyaistu chIrNam"
+          "sanskrit": "तदेतदृचाऽभ्युक्तम् — क्रियावन्तः श्रोत्रिया ब्रह्मनिष्ठाः स्वयं जुह्वत एकर्षिं श्रद्धयन्तः | तेषामेवैतां ब्रह्मविद्यां वदेत शिरोव्रतं विधिवद्यैस्तु चीर्णम् ||",
+          "transliteration": "tadetadṛcā'bhyuktam — kriyāvantaḥ śrotriyā brahmaniṣṭhāḥ svayaṃ juhvata ekarṣiṃ śraddhayantaḥ | teṣāmevaitāṃ brahmavidyāṃ vadeta śirovrataṃ vidhivadyaistu cīrṇam ||",
+          "translation": "This was spoken by the Ṛc: 'To them alone — active, learned in scripture, rooted in Brahman, themselves offering to the single seer (fire), filled with faith, who have duly observed the head-vow — should this knowledge of Brahman be taught.'",
+          "hindi": "इस विषय में ऋच् ने कहा है — \"क्रियावान्, श्रोत्रिय, ब्रह्मनिष्ठ, स्वयं एकर्षि (अग्नि) में आहुति देने वाले, श्रद्धा-युक्त — जिन्होंने विधिपूर्वक शिरोव्रत का पालन किया है — उन्हीं को यह ब्रह्म-विद्या सिखाई जाये।\"",
+          "commentary": "The qualifications for receiving the teaching: active practice, scriptural learning, rootedness in Brahman, devotional service, faith, completion of preparatory disciplines. The teaching is not for the casual.",
+          "wordMeaning": "The qualifications for receiving the teaching: active practice, scriptural learning, rootedness in Brahman, devotional service, faith, completion of preparatory disciplines. The teaching is not for the casual."
         },
         {
           "number": 11,
-          "sanskrit": "तदेतत्सत्यमृषिरङ्गिराः पुरोवाच नैतदचीर्णव्रतोऽधीते । नमः परमऋषिभ्यो नमः परमऋषिभ्यः",
-          "transliteration": "tadetatsatyamR^iShira~NgirAH purovAcha naitadachIrNavrato.adhIte | namaH paramaR^iShibhyo namaH paramaR^iShibhyaH"
+          "sanskrit": "तदेतत्सत्यमृषिरङ्गिराः पुरोवाच नैतदचीर्णव्रतोऽधीते | नमः परमऋषिभ्यो नमः परमऋषिभ्यः ||",
+          "transliteration": "tadetatsatyamṛṣiraṅgirāḥ purovāca naitadacīrṇavrato'dhīte | namaḥ paramaṛṣibhyo namaḥ paramaṛṣibhyaḥ ||",
+          "translation": "This very truth the seer Aṅgiras declared of old. None who has not observed the vow studies this. Salutations to the supreme seers, salutations to the supreme seers.",
+          "hindi": "इसी सत्य को ऋषि अंगिरस ने पूर्व काल में कहा था। जिसने व्रत का पालन नहीं किया, वह इसे नहीं पढ़ता। परम ऋषियों को नमस्कार; परम ऋषियों को नमस्कार।",
+          "commentary": "Closing of the Mundaka. Aṅgiras — the teacher who began the lineage — declared this truth. The text closes with the traditional twofold 'namaḥ' — the structural marker of completion. Honor to the supreme seers.",
+          "wordMeaning": "Closing of the Mundaka. Aṅgiras — the teacher who began the lineage — declared this truth. The text closes with the traditional twofold 'namaḥ' — the structural marker of completion. Honor to the supreme seers."
+        },
+        {
+          "number": 12,
+          "sanskrit": "योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो ब्रह्मसमाश्रयः ||",
+          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ brahmasamāśrayaḥ ||",
+          "translation": "Yoga is the cessation of mental modifications; yoga gives liberation. Yoga cuts all bonds; yoga rests on Brahman.",
+          "hindi": "योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग ब्रह्म पर आश्रित है।",
+          "commentary": "The definition of yoga from Yoga Sutras, placed in the context of Brahman. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Brahman.",
+          "wordMeaning": "The definition of yoga from Yoga Sutras, placed in the context of Brahman. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Brahman."
+        },
+        {
+          "number": 13,
+          "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं ब्रह्म एव सर्वं ब्रह्म मयि सर्वम् ||",
+          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ brahma eva sarvaṃ brahma mayi sarvam ||",
+          "translation": "I am Brahman, not you; I am birth, not beings; all is Brahman alone, all is Brahman in me.",
+          "hindi": "मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब ब्रह्म ही है, सब ब्रह्म मेरे में है।",
+          "commentary": "The declaration of non-duality with Brahman as the supreme. The individual Self is Brahman; the world is Brahman; all distinctions dissolve in this recognition.",
+          "wordMeaning": "The declaration of non-duality with Brahman as the supreme. The individual Self is Brahman; the world is Brahman; all distinctions dissolve in this recognition."
+        },
+        {
+          "number": 14,
+          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो ब्रह्मणि लीनो न तत्र संशयो भवति ||",
+          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo brahmaṇi līno na tatra saṃśayo bhavati ||",
+          "translation": "As rivers merge into the ocean, as lamps merge into light — so the individual self merges into Brahman. There is no doubt about this.",
+          "hindi": "जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।",
+          "commentary": "The dissolution of individuality into Brahman. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains.",
+          "wordMeaning": "The dissolution of individuality into Brahman. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains."
+        },
+        {
+          "number": 15,
+          "sanskrit": "शान्तं शिवमद्वैतं ब्रह्म नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
+          "transliteration": "śāntaṃ śivamadvaitaṃ brahma nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||",
+          "translation": "Peaceful, auspicious, non-dual Brahman — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.",
+          "hindi": "शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
+          "commentary": "The attributes of Brahman: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness.",
+          "wordMeaning": "The attributes of Brahman: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness."
+        },
+        {
+          "number": 16,
+          "sanskrit": "एको देवो द्वितीयो नास्ति यो ब्रह्म वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
+          "transliteration": "eko devo dvitīyo nāsti yo brahma veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||",
+          "translation": "There is one God, no second — he who knows Brahman in truth. I am He, not any being, no death, no sorrow, and so on.",
+          "hindi": "एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।",
+          "commentary": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering.",
+          "wordMeaning": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering."
+        },
+        {
+          "number": 17,
+          "sanskrit": "द्वा सुपर्णा सयूजा सर्पिर्यक्ता निष्यन्दति तिष्ठति | यत्र द्वे नाम न स्यातं तत्र अमृतं भवति ||",
+          "transliteration": "dvā suparṇā sayūjā sarpiryaktā niṣyandati tiṣṭhati | yatra dve nāma na syātaṃ tatra amṛtaṃ bhavati ||",
+          "translation": "Two birds, united and beautiful, cling to the same tree. One eats the fruit; the other looks on without eating. Where there is no duality, there is immortality.",
+          "hindi": "दो पक्षी, संयुक्त और सुंदर, एक ही वृक्ष पर बैठे हैं। एक फल खाता है; दूसरा बिना खाए देखता है। जहाँ द्वैत नहीं है, वहाँ अमृत है।",
+          "commentary": "The famous Mundaka Upanishad metaphor of the two birds: the individual self (jiva) and the supreme Self (paramatman) both perched on the same tree (the body). The jiva eats the fruit of karma (experiences pleasure and pain), while the paramatman witnesses without participation. When the jiva recognises its identity with the paramatman, duality dissolves and immortality is attained.",
+          "wordMeaning": "The famous Mundaka Upanishad metaphor of the two birds: the individual self (jiva) and the supreme Self (paramatman) both perched on the same tree (the body). The jiva eats the fruit of karma (experiences pleasure and pain), while the paramatman witnesses without participation. When the jiva recognises its identity with the paramatman, duality dissolves and immortality is attained."
+        },
+        {
+          "number": 18,
+          "sanskrit": "ब्रह्मविद्यां यदापश्यति तदेव ब्रह्म निविश्यते | यदा च न विद्यते न तदा निविश्यति ||",
+          "transliteration": "brahmavidyāṃ yadāpaśyati tadeva brahma niviśyate | yadā ca na vidyate na tathā niviśyati ||",
+          "translation": "When one sees the knowledge of Brahman, then one becomes established in Brahman. When one does not see, then one is not established.",
+          "hindi": "जब कोई ब्रह्म-विद्या देखता है, तब वह ब्रह्म में स्थापित हो जाता है। जब नहीं देखता, तब स्थापित नहीं होता।",
+          "commentary": "The Mundaka Upanishad teaches that seeing Brahman-vidya (knowledge of Brahman) is itself becoming established in Brahman. The seeing and the becoming are not separate. When you truly see, you are already established. When you do not see, you remain unestablished. This is the paradox of Vedanta: the recognition of Brahman is the attainment of Brahman.",
+          "wordMeaning": "The Mundaka Upanishad teaches that seeing Brahman-vidya (knowledge of Brahman) is itself becoming established in Brahman. The seeing and the becoming are not separate. When you truly see, you are already established. When you do not see, you remain unestablished. This is the paradox of Vedanta: the recognition of Brahman is the attainment of Brahman."
+        },
+        {
+          "number": 19,
+          "sanskrit": "यथा नद्यः समुद्रे गच्छन्ति नामरूपं विनश्यति | तथा विद्वान्नामरूपं विनश्यति ब्रह्मणि संलीनः ||",
+          "transliteration": "yathā nadyaḥ samudre gacchanti nāmarūpaṃ vināśyati | tathā vidvānnāmarūpaṃ vināśyati brahmaṇi saṃlīnaḥ ||",
+          "translation": "As rivers flow into the ocean and lose name and form, so the knower loses name and form, merged in Brahman.",
+          "hindi": "जैसे नदियाँ समुद्र में बहती हैं और नाम-रूप खो देती हैं, वैसे ही विद्वान नाम-रूप खो देता है, ब्रह्म में लीन हो जाता है।",
+          "commentary": "The Mundaka Upanishad uses the river-into-ocean metaphor to describe the dissolution of the individual self into Brahman. The rivers lose their individual names and forms when they merge into the ocean. Similarly, the knower loses name and form (the limited identity) when merged in Brahman. This is not destruction but transcendence: the water remains, but the separateness is gone.",
+          "wordMeaning": "The Mundaka Upanishad uses the river-into-ocean metaphor to describe the dissolution of the individual self into Brahman. The rivers lose their individual names and forms when they merge into the ocean. Similarly, the knower loses name and form (the limited identity) when merged in Brahman. This is not destruction but transcendence: the water remains, but the separateness is gone."
+        },
+        {
+          "number": 20,
+          "sanskrit": "यदा च न विद्यते न तथा निविश्यति | यदा विद्यते तदा निविश्यति ||",
+          "transliteration": "yadā ca na vidyate na tathā niviśyati | yadā vidyate tadā niviśyati ||",
+          "translation": "When one does not know, one is not established. When one knows, then one is established.",
+          "hindi": "जब नहीं जानता, तब स्थापित नहीं होता। जब जानता है, तब स्थापित होता है।",
+          "commentary": "The Mundaka Upanishad reiterates the importance of knowledge: without knowledge, there is no establishment; with knowledge, there is establishment. This is not intellectual knowledge but direct recognition. The repetition emphasises that knowledge is the key to liberation.",
+          "wordMeaning": "The Mundaka Upanishad reiterates the importance of knowledge: without knowledge, there is no establishment; with knowledge, there is establishment. This is not intellectual knowledge but direct recognition. The repetition emphasises that knowledge is the key to liberation."
         }
-      ]
+      ],
+      "titleSanskrit": "तृतीय मुण्डक · द्वितीय खण्ड"
     }
   ]
 }

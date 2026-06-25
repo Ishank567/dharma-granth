@@ -250,7 +250,14 @@ export default function ChapterPage({ params }: PageProps) {
           <Stagger className="space-y-10">
             {learningVerses.map((v) => (
               <StaggerItem key={v.id}>
-                <VerseDisplay verse={v} />
+                <VerseDisplay
+                  verse={v}
+                  scriptureId={params.id}
+                  scriptureTitle={meta.title}
+                  chapterId={chapter.id}
+                  chapterTitle={chapter.title}
+                  category={meta.category}
+                />
               </StaggerItem>
             ))}
           </Stagger>
@@ -258,6 +265,7 @@ export default function ChapterPage({ params }: PageProps) {
 
         <FullChapterVerses
           scriptureId={params.id}
+          category={meta.category}
           chapterId={chapter.id}
           curatedVerseIds={chapter.verses.map((v) => v.id)}
           basePath={process.env.NEXT_PUBLIC_BASE_PATH || ''}

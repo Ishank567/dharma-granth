@@ -46,4 +46,45 @@ export const vivekchudamaniHi: HiCommentaryFragment = {
   '3:25': {
     explanation: `अद्वैत का परम प्रकटीकरण: केवल एक ही परम सत्ता है, दूसरी कोई नहीं। जो सत्य से ब्रह्म को जानता है, वह स्वयं में "सोऽहम्" (वही मैं हूँ) का साक्षात्कार कर लेता है और मृत्यु, शोक तथा सांसारिक संताप से परे हो जाता है।`,
   },
+
+  '1:1': {
+    explanation: `सभी प्राणियों में मनुष्य जन्म दुर्लभ है; उससे भी दुर्लभ है पूर्ण पुरुषत्व; उससे भी दुर्लभ है वैदिक धर्म में श्रद्धा; और उससे भी दुर्लभ है विद्वत्ता (वास्तविक ज्ञान)।`,
+    science: `Cognitive neuroscience: insight and understanding emerge from gamma-wave synchrony across brain regions. Knowledge is not merely accumulated information — it is the reorganization of neural patterns into a new coherent whole.`,
+    lifeLesson: `Knowing about a thing is not the same as knowing it. True knowledge transforms the knower. Pursue not just information but the insight that changes who you are.`,
+  },
+  '1:10': {
+    explanation: `मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब ब्रह्म ही है, सब ब्रह्म मेरे में है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '1:15': {
+    explanation: `जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '1:20': {
+    explanation: `ब्रह्म सत्य है, जगत मिथ्या है, जीव ब्रह्म से अभिन्न है — यही सब सच्छास्त्रों से जानने योग्य है। यही वेदान्त की घोषणा है।`,
+    science: `Meditation research (Davidson): sustained meditation practice thickens the prefrontal cortex, strengthens insula connectivity, and reduces amygdala reactivity. These measurable brain changes confirm the transformative power of dhyana.`,
+    lifeLesson: `Meditation is not escape — it is meeting yourself fully. Even 10 minutes daily of sitting with your breath rewires the brain. The mind that watches itself is already beginning to transform.`,
+  },
+  '1:25': {
+    explanation: `एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।`,
+    science: `Neuroscience of loss aversion (Kahneman): the brain processes loss in the amygdala with twice the intensity of equivalent gains. Accepting impermanence reduces this bias, leading to more balanced decision-making and emotional resilience.`,
+    lifeLesson: `Everything changes — your body, relationships, circumstances, even your mind. Clinging to what is changing causes suffering. Practice letting go gracefully, and you will find peace that does not depend on circumstances.`,
+  },
+  '1:47': {
+    explanation: `जैसे रस्सी को साँप समझकर जो भय होता है, वैसे ही जीव को भ्रम से भय होता है। सत्य ज्ञान होते ही वह भय तत्क्षण नष्ट हो जाता है।`,
+    science: `Cognitive neuroscience: insight and understanding emerge from gamma-wave synchrony across brain regions. Knowledge is not merely accumulated information — it is the reorganization of neural patterns into a new coherent whole.`,
+    lifeLesson: `Knowing about a thing is not the same as knowing it. True knowledge transforms the knower. Pursue not just information but the insight that changes who you are.`,
+  },
+  '1:155': {
+    explanation: `अन्नमय कोश जीव नहीं है; प्राणमय भी केवल जीव नहीं है; मनोमय भी जीव नहीं है; और बुद्धि भी आत्मा नहीं है — ये सब असत् हैं।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '1:478': {
+    explanation: `एक आत्मा, सभी प्राणियों में छिपी, सर्वव्यापी, साक्षी, चेतना, निर्गुण — नित्य, शुद्ध, बुद्ध और मुक्त।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
 };

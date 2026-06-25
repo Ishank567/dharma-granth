@@ -8,7 +8,7 @@
     "license": "Sanskrit mūla — public domain (2500+ years old). sanskritdocuments.org publishes digitized text under permissive terms.",
     "fetchedAt": "2026-06-02T08:28:56.685Z"
   },
-  "totalVerses": 125,
+  "totalVerses": 21,
   "totalChapters": 6,
   "chapters": [
     {
@@ -16,566 +16,79 @@
       "title": "Shvetashvatara Upanishad",
       "verses": [
         {
-          "number": 2,
-          "sanskrit": "कालः स्वभावो नियतिर्यदृच्छा भूतानि योनिः पुरुष इति चिन्त्या । संयोग एषां न त्वात्मभावा- दात्माप्यनीशः सुखदुःखहेतोः",
-          "transliteration": "kAlaH svabhAvo niyatiryadR^ichChA bhUtAni yoniH puruSha iti chintyA | saMyoga eShAM na tvAtmabhAvA\\- dAtmApyanIshaH sukhaduHkhahetoH"
-        },
-        {
-          "number": 3,
-          "sanskrit": "ते ध्यानयोगानुगता अपश्यन् देवात्मशक्तिं स्वगुणैर्निगूढाम् । यः कारणानि निखिलानि तानि कालात्मयुक्तान्यधितिष्ठत्येकः",
-          "transliteration": "te dhyAnayogAnugatA apashyan.h devAtmashaktiM svaguNairnigUDhAm | yaH kAraNAni nikhilAni tAni kAlAtmayuktAnyadhitiShThatyekaH"
-        },
-        {
-          "number": 4,
-          "sanskrit": "तमेकनेमिं त्रिवृतं षोडशान्तं शतार्धारं विंशतिप्रत्यराभिः । अष्टकैः षड्भिर्विश्वरूपैकपाशं त्रिमार्गभेदं द्विनिमित्तैकमोहम्",
-          "transliteration": "tamekanemiM trivR^itaM ShoDashAntaM shatArdhAraM viMshatipratyarAbhiH | aShTakaiH ShaDbhirvishvarUpaikapAshaM trimArgabhedaM dvinimittaikamoham"
-        },
-        {
-          "number": 5,
-          "sanskrit": "पञ्चस्रोतोम्बुं पञ्चयोन्युग्रवक्रां पञ्चप्राणोर्मिं पञ्चबुद्ध्यादिमूलाम् । पञ्चावर्तां पञ्चदुःखौघवेगां पञ्चाशद्भेदां पञ्चपर्वामधीमः",
-          "transliteration": "pa~nchasrotombuM pa~nchayonyugravakrAM pa~nchaprANormiM pa~nchabuddhyAdimUlAm | pa~nchAvartAM pa~nchaduHkhaughavegAM pa~nchAshadbhedAM pa~nchaparvAmadhImaH"
-        },
-        {
-          "number": 6,
-          "sanskrit": "सर्वाजीवे सर्वसंस्थे बृहन्ते अस्मिन् हंसो भ्राम्यते ब्रह्मचक्रे । पृथगात्मानं प्रेरितारं च मत्वा जुष्टस्ततस्तेनामृतत्वमेति",
-          "transliteration": "sarvAjIve sarvasaMsthe bR^ihante asmin haMso bhrAmyate brahmachakre | pR^ithagAtmAnaM preritAraM cha matvA juShTastatastenAmR^itatvameti"
-        },
-        {
-          "number": 7,
-          "sanskrit": "उद्गीतमेतत्परमं तु ब्रह्म तस्मिंस्त्रयं सुप्रतिष्ठाऽक्षरं च । अत्रान्तरं ब्रह्मविदो विदित्वा लीना ब्रह्मणि तत्परा योनिमुक्ताः",
-          "transliteration": "udgItametatparamaM tu brahma tasmiMstrayaM supratiShThA.akSharaM cha | atrAntaraM brahmavido viditvA lInA brahmaNi tatparA yonimuktAH"
-        },
-        {
-          "number": 8,
-          "sanskrit": "संयुक्तमेतत् क्षरमक्षरं च व्यक्ताव्यक्तं भरते विश्वमीशः । अनीशश्चात्मा बध्यते भोक्तृ- भावाज् ज्ञात्वा देवं मुच्यते सर्वपाशैः",
-          "transliteration": "saMyuktametat kSharamakSharaM cha vyaktAvyaktaM bharate vishvamIshaH | anIshashchAtmA badhyate bhoktR^i\\- bhAvAj j~nAtvA devaM muchyate sarvapAshaiH"
-        },
-        {
-          "number": 9,
-          "sanskrit": "ज्ञाज्ञौ द्वावजावीशनीशावजा ह्येका भोक्तृभोग्यार्थयुक्ता । अनन्तश्चात्मा विश्वरूपो ह्यकर्ता त्रयं यदा विन्दते ब्रह्ममेतत्",
-          "transliteration": "j~nAj~nau dvAvajAvIshanIshAvajA hyekA bhoktR^ibhogyArthayuktA | anantashchAtmA vishvarUpo hyakartA trayaM yadA vindate brahmametat"
-        },
-        {
-          "number": 10,
-          "sanskrit": "क्षरं प्रधानममृताक्षरं हरः क्षरात्मानावीशते देव एकः । तस्याभिध्यानाद्योजनात्तत्त्व- भावात् भूयश्चान्ते विश्वमायानिवृत्तिः",
-          "transliteration": "kSharaM pradhAnamamR^itAkSharaM haraH kSharAtmAnAvIshate deva ekaH | tasyAbhidhyAnAdyojanAttattva\\- bhAvAt bhUyashchAnte vishvamAyAnivR^ittiH"
-        },
-        {
-          "number": 11,
-          "sanskrit": "ज्ञात्वा देवं सर्वपाशापहानिः क्षीणैः क्लेशैर्जन्ममृत्युप्रहाणिः । तस्याभिध्यानात्तृतीयं देहभेदे विश्वैश्वर्यं केवल आप्तकामः",
-          "transliteration": "j~nAtvA devaM sarvapAshApahAniH kShINaiH kleshairjanmamR^ityuprahANiH | tasyAbhidhyAnAttR^itIyaM dehabhede vishvaishvaryaM kevala AptakAmaH"
-        },
-        {
-          "number": 12,
-          "sanskrit": "एतज्ज्ञेयं नित्यमेवात्मसंस्थं नातः परं वेदितव्यं हि किञ्चित् । भोक्ता भोग्यं प्रेरितारं च मत्वा सर्वं प्रोक्तं त्रिविधं ब्रह्ममेतत्",
-          "transliteration": "etajj~neyaM nityamevAtmasaMsthaM nAtaH paraM veditavyaM hi ki~nchit | bhoktA bhogyaM preritAraM cha matvA sarvaM proktaM trividhaM brahmametat"
-        },
-        {
-          "number": 13,
-          "sanskrit": "वह्नेर्यथा योनिगतस्य मूर्तिर्न दृश्यते नैव च लिङ्गनाशः । स भूय एवेन्धनयोनिगृह्य- स्तद्वोभयं वै प्रणवेन देहे",
-          "transliteration": "vahneryathA yonigatasya mUrtirna dR^ishyate naiva cha li~NganAshaH | sa bhUya evendhanayonigR^ihya\\- stadvobhayaM vai praNavena dehe"
-        },
-        {
-          "number": 14,
-          "sanskrit": "स्वदेहमरणिं कृत्वा प्रणवं चोत्तरारणिम् । ध्याननिर्मथनाभ्यासादेवं पश्येन्निगूढवत्",
-          "transliteration": "svadehamaraNiM kR^itvA praNavaM chottarAraNim | dhyAnanirmathanAbhyAsAdevaM pashyennigUDhavat"
-        },
-        {
-          "number": 15,
-          "sanskrit": "तिलेषु तैलं दधिनीव सर्पि- रापः स्रोतःस्वरणीषु चाग्निः । एवमात्माऽत्मनि गृह्यतेऽसौ सत्येनैनं तपसायोऽनुपश्यति",
-          "transliteration": "tileShu tailaM dadhinIva sarpi\\- rApaH srotaHsvaraNIShu chAgniH | evamAtmA.atmani gR^ihyate.asau satyenainaM tapasAyo.anupashyati"
-        },
-        {
-          "number": 16,
-          "sanskrit": "सर्वव्यापिनमात्मानं क्षीरे सर्पिरिवार्पितम् । आत्मविद्यातपोमूलं तद्ब्रह्मोपनिषत् परम्",
-          "transliteration": "sarvavyApinamAtmAnaM kShIre sarpirivArpitam | AtmavidyAtapomUlaM tadbrahmopaniShat param"
-        },
-        {
           "number": 1,
-          "sanskrit": "द्वितीयोऽध्यायः । युञ्जानः प्रथमं मनस्तत्त्वाय सविता धियः । अग्नेर्ज्योतिर्निचाय्य पृथिव्या अध्याभरत्",
-          "transliteration": "dvitIyo.adhyAyaH | yu~njAnaH prathamaM manastattvAya savitA dhiyaH | agnerjyotirnichAyya pR^ithivyA adhyAbharat"
+          "sanskrit": "ब्रह्मवादिनो वदन्ति | किं कारणं ब्रह्म | कुतः स्म जाताः | जीवाम केन | क्व च सम्प्रतिष्ठाः ||",
+          "transliteration": "brahmavādino vadanti | kiṃ kāraṇaṃ brahma | kutaḥ sma jātāḥ | jīvāma kena | kva ca sampratiṣṭhāḥ ||",
+          "translation": "The knowers of Brahman ask: What is the cause? Brahman? From where are we born? By what do we live? And on what are we established?",
+          "hindi": "ब्रह्मवादी पूछते हैं: कारण क्या है? क्या वह ब्रह्म है? हम कहाँ से उत्पन्न हुए? किससे जी रहे हैं? और किस पर स्थित हैं?",
+          "commentary": "The Upanishad begins with the most fundamental human questions — not \"what should I do?\" but \"what IS all this?\" These are the questions that drive both philosophy and science. Origin, sustenance, dissolution — the three fundamental processes the universe exhibits.",
+          "wordMeaning": "The Upanishad begins with the most fundamental human questions — not \"what should I do?\" but \"what IS all this?\" These are the questions that drive both philosophy and science. Origin, sustenance, dissolution — the three fundamental processes the universe exhibits."
         },
         {
           "number": 2,
-          "sanskrit": "युक्तेन मनसा वयं देवस्य सवितुः सवे । सुवर्गेयाय शक्त्या",
-          "transliteration": "yuktena manasA vayaM devasya savituH save | suvargeyAya shaktyA"
-        },
-        {
-          "number": 3,
-          "sanskrit": "युक्त्वाय मनसा देवान् सुवर्यतो धिया दिवम् । बृहज्ज्योतिः करिष्यतः सविता प्रसुवाति तान्",
-          "transliteration": "yuktvAya manasA devAn suvaryato dhiyA divam | bR^ihajjyotiH kariShyataH savitA prasuvAti tAn"
-        },
-        {
-          "number": 4,
-          "sanskrit": "युञ्जते मन उत युञ्जते धियो विप्रा विप्रस्य बृहतो विपश्चितः । वि होत्रा दधे वयुनाविदेक इन्मही देवस्य सवितुः परिष्टुतिः",
-          "transliteration": "yu~njate mana uta yu~njate dhiyo viprA viprasya bR^ihato vipashchitaH | vi hotrA dadhe vayunAvideka inmahI devasya savituH pariShTutiH"
-        },
-        {
-          "number": 5,
-          "sanskrit": "युजे वां ब्रह्म पूर्व्यं नमोभिर्विश्लोक एतु पथ्येव सूरेः । शृण्वन्तु विश्वे अमृतस्य पुत्रा आ ये धामानि दिव्यानि तस्थुः",
-          "transliteration": "yuje vAM brahma pUrvyaM namobhirvishloka etu pathyeva sUreH | shR^iNvantu vishve amR^itasya putrA A ye dhAmAni divyAni tasthuH"
-        },
-        {
-          "number": 6,
-          "sanskrit": "अग्निर्यत्राभिमथ्यते वायुर्यत्राधिरुध्यते । सोमो यत्रातिरिच्यते तत्र सञ्जायते मनः",
-          "transliteration": "agniryatrAbhimathyate vAyuryatrAdhirudhyate | somo yatrAtirichyate tatra sa~njAyate manaH"
-        },
-        {
-          "number": 7,
-          "sanskrit": "सवित्रा प्रसवेन जुषेत ब्रह्म पूर्व्यम् । यत्र योनिं कृणवसे न हि ते पूर्तमक्षिपत्",
-          "transliteration": "savitrA prasavena juSheta brahma pUrvyam | yatra yoniM kR^iNavase na hi te pUrtamakShipat"
+          "sanskrit": "तमीश्वराणां परमं महेश्वरं तं देवतानां परमं च दैवतम् | पतिं पतीनां परमं परस्तात् विदाम देवं भुवनेशमीड्यम् ||",
+          "transliteration": "tamīśvarāṇāṃ paramaṃ maheśvaraṃ taṃ devatānāṃ paramaṃ ca daivatam | patiṃ patīnāṃ paramaṃ parastāt vidāma devaṃ bhuvaneśamīḍyam ||",
+          "translation": "Let us know that Supreme God — Maheshvara, the greatest among rulers, the highest deity among gods, the Lord of lords, beyond whom there is nothing — the one worthy of praise who rules the worlds.",
+          "hindi": "उस महेश्वर को जानें — जो सभी ईश्वरों में परम है, सभी देवताओं में सर्वोच्च है, सभी पतियों का पति है, और जिसके परे कुछ नहीं — जो विश्व का स्वामी और स्तुत्य देव है।",
+          "commentary": "The Shvetashvatara presents a hierarchy: there are many lords, many gods, many rulers — but there is ONE who is supreme over all. That supreme is Maheshvara (the Great Lord). This is significant: the text does not deny the existence of other deities but reveals a highest principle that encompasses them all. It is philosophical monotheism arising from within a polytheistic framework.",
+          "wordMeaning": "The Shvetashvatara presents a hierarchy: there are many lords, many gods, many rulers — but there is ONE who is supreme over all. That supreme is Maheshvara (the Great Lord). This is significant: the text does not deny the existence of other deities but reveals a highest principle that encompasses them all. It is philosophical monotheism arising from within a polytheistic framework."
         },
         {
           "number": 8,
-          "sanskrit": "त्रिरुन्नतं स्थाप्य समं शरीरं हृदीन्द्रियाणि मनसा सन्निवेश्य । ब्रह्मोडुपेन प्रतरेत विद्वान् स्रोतांसि सर्वाणि भयानकानि",
-          "transliteration": "trirunnataM sthApya samaM sharIraM hR^idIndriyANi manasA sanniveshya | brahmoDupena pratareta vidvAn.h srotAMsi sarvANi bhayAnakAni"
-        },
-        {
-          "number": 9,
-          "sanskrit": "प्राणान् प्रपीड्येह संयुक्तचेष्टः क्षीणे प्राणे नासिकयोच्छ्वसीत । दुष्टाश्वयुक्तमिव वाहमेनं विद्वान् मनो धारयेताप्रमत्तः",
-          "transliteration": "prANAn prapIDyeha saMyuktacheShTaH kShINe prANe nAsikayochChvasIta | duShTAshvayuktamiva vAhamenaM vidvAn mano dhArayetApramattaH"
-        },
-        {
-          "number": 10,
-          "sanskrit": "समे शुचौ शर्करावह्निवालिका- विवर्जिते शब्दजलाश्रयादिभिः । मनोनुकूले न तु चक्षुपीडने गुहानिवाताश्रयणे प्रयोजयेत्",
-          "transliteration": "same shuchau sharkarAvahnivAlikA\\- vivarjite shabdajalAshrayAdibhiH | manonukUle na tu chakShupIDane guhAnivAtAshrayaNe prayojayet"
-        },
-        {
-          "number": 11,
-          "sanskrit": "नीहारधूमार्कानिलानलानां खद्योतविद्युत्स्फटिकशशीनाम् । एतानि रूपाणि पुरःसराणि ब्रह्मण्यभिव्यक्तिकराणि योगे",
-          "transliteration": "nIhAradhUmArkAnilAnalAnAM khadyotavidyutsphaTikashashInAm | etAni rUpANi puraHsarANi brahmaNyabhivyaktikarANi yoge"
-        },
-        {
-          "number": 12,
-          "sanskrit": "पृथिव्यप्तेजोऽनिलखे समुत्थिते पञ्चात्मके योगगुणे प्रवृत्ते । न तस्य रोगो न जरा न मृत्युः प्राप्तस्य योगाग्निमयं शरीरम्",
-          "transliteration": "pR^ithivyaptejo.anilakhe samutthite pa~nchAtmake yogaguNe pravR^itte | na tasya rogo na jarA na mR^ityuH prAptasya yogAgnimayaM sharIram"
-        },
-        {
-          "number": 13,
-          "sanskrit": "लघुत्वमारोग्यमलोलुपत्वं वर्णप्रसादः स्वरसौष्ठवं च । गन्धः शुभो मूत्रपुरीषमल्पं योगप्रवृत्तिं प्रथमां वदन्ति",
-          "transliteration": "laghutvamArogyamalolupatvaM varNaprasAdaH svarasauShThavaM cha | gandhaH shubho mUtrapurIShamalpaM yogapravR^ittiM prathamAM vadanti"
-        },
-        {
-          "number": 14,
-          "sanskrit": "यथैव बिम्बं मृदयोपलिप्तं तेजोमयं भ्राजते तत् सुधान्तम् । तद्वाऽऽत्मतत्त्वं प्रसमीक्ष्य देही एकः कृतार्थो भवते वीतशोकः",
-          "transliteration": "yathaiva bimbaM mR^idayopaliptaM tejomayaM bhrAjate tat sudhAntam | tadvA.a.atmatattvaM prasamIkShya dehI ekaH kR^itArtho bhavate vItashokaH"
-        },
-        {
-          "number": 15,
-          "sanskrit": "यदात्मतत्त्वेन तु ब्रह्मतत्त्वं दीपोपमेनेह युक्तः प्रपश्येत् । अजं ध्रुवं सर्वतत्त्वैर्विशुद्धं ज्ञात्वा देवं मुच्यते सर्वपापैः",
-          "transliteration": "yadAtmatattvena tu brahmatattvaM dIpopameneha yuktaH prapashyet | ajaM dhruvaM sarvatattvairvishuddhaM j~nAtvA devaM muchyate sarvapApaiH"
-        },
-        {
-          "number": 16,
-          "sanskrit": "एषो ह देवः प्रदिशोऽनु सर्वाः । पूर्वो ह जातः स उ गर्भे अन्तः । स एव जातः स जनिष्यमाणः प्रत्यङ् जनास्तिष्ठति सर्वतोमुखः",
-          "transliteration": "eSho ha devaH pradisho.anu sarvAH | pUrvo ha jAtaH sa u garbhe antaH | sa eva jAtaH sa janiShyamANaH pratya~N janAstiShThati sarvatomukhaH"
-        },
-        {
-          "number": 17,
-          "sanskrit": "यो देवो अग्नौ योऽप्सु यो विश्वं भुवनमाविवेश । य ओषधीषु यो वनस्पतिषु तस्मै देवाय नमो नमः",
-          "transliteration": "yo devo agnau yo.apsu yo vishvaM bhuvanamAvivesha | ya oShadhIShu yo vanaspatiShu tasmai devAya namo namaH"
-        },
-        {
-          "number": 1,
-          "sanskrit": "तृतीयोऽध्यायः । य एको जालवानीशत ईशनीभिः सर्वाँल्लोकानीशत ईशनीभिः । य एवैक उद्भवे सम्भवे च य एतद् विदुरमृतास्ते भवन्ति",
-          "transliteration": "tR^itIyo.adhyAyaH | ya eko jAlavAnIshata IshanIbhiH sarvA.NllokAnIshata IshanIbhiH | ya evaika udbhave sambhave cha ya etad viduramR^itAste bhavanti"
-        },
-        {
-          "number": 2,
-          "sanskrit": "एको हि रुद्रो न द्वितीयाय तस्थु- र्य इमाँल्लोकानीशत ईशनीभिः । प्रत्यङ् जनास्तिष्ठति सञ्चुकोचान्तकाले संसृज्य विश्वा भुवनानि गोपाः",
-          "transliteration": "eko hi rudro na dvitIyAya tasthu\\- rya imA.NllokAnIshata IshanIbhiH | pratya~N janAstiShThati sa~nchukochAntakAle saMsR^ijya vishvA bhuvanAni gopAH"
-        },
-        {
-          "number": 3,
-          "sanskrit": "विश्वतश्चक्षुरुत विश्वतोमुखो विश्वतोबाहुरुत विश्वतस्पात् । सं बाहुभ्यां धमति सम्पतत्रै- र्द्यावाभूमी जनयन् देव एकः",
-          "transliteration": "vishvatashchakShuruta vishvatomukho vishvatobAhuruta vishvataspAt | saM bAhubhyAM dhamati sampatatrai\\- rdyAvAbhUmI janayan deva ekaH"
-        },
-        {
-          "number": 4,
-          "sanskrit": "यो देवानां प्रभवश्चोद्भवश्च विश्वाधिपो रुद्रो महर्षिः । हिरण्यगर्भं जनयामास पूर्वं स नो बुद्ध्या शुभया संयुनक्तु",
-          "transliteration": "yo devAnAM prabhavashchodbhavashcha vishvAdhipo rudro maharShiH | hiraNyagarbhaM janayAmAsa pUrvaM sa no buddhyA shubhayA saMyunaktu"
-        },
-        {
-          "number": 5,
-          "sanskrit": "या ते रुद्र शिवा तनूरघोराऽपापकाशिनी । तया नस्तनुवा शन्तमया गिरिशन्ताभिचाकशीहि",
-          "transliteration": "yA te rudra shivA tanUraghorA.apApakAshinI | tayA nastanuvA shantamayA girishantAbhichAkashIhi"
-        },
-        {
-          "number": 6,
-          "sanskrit": "याभिषुं गिरिशन्त हस्ते बिभर्ष्यस्तवे । शिवां गिरित्र तां कुरु मा हिंसीः पुरुषं जगत्",
-          "transliteration": "yAbhiShuM girishanta haste bibharShyastave | shivAM giritra tAM kuru mA hiMsIH puruShaM jagat"
-        },
-        {
-          "number": 7,
-          "sanskrit": "ततः परं ब्रह्म परं बृहन्तं यथानिकायं सर्वभूतेषु गूढम् । विश्वस्यैकं परिवेष्टितार- मीशं तं ज्ञात्वाऽमृता भवन्ति",
-          "transliteration": "tataH paraM brahma paraM bR^ihantaM yathAnikAyaM sarvabhUteShu gUDham | vishvasyaikaM pariveShTitAra\\- mIshaM taM j~nAtvA.amR^itA bhavanti"
-        },
-        {
-          "number": 8,
-          "sanskrit": "वेदाहमेतं पुरुषं महान्त- मादित्यवर्णं तमसः परस्तात् । तमेव विदित्वातिमृत्युमेति नान्यः पन्था विद्यतेऽयनाय",
-          "transliteration": "vedAhametaM puruShaM mahAnta\\- mAdityavarNaM tamasaH parastAt | tameva viditvAtimR^ityumeti nAnyaH panthA vidyate.ayanAya"
-        },
-        {
-          "number": 9,
-          "sanskrit": "यस्मात् परं नापरमस्ति किञ्चिद्य- स्मान्नणीयो न ज्यायोऽस्ति कश्चित् । वृक्ष इव स्तब्धो दिवि तिष्ठत्येक- स्तेनेदं पूर्णं पुरुषेण सर्वम्",
-          "transliteration": "yasmAt paraM nAparamasti ki~nchidya\\- smAnnaNIyo na jyAyo.asti kashchit | vR^ikSha iva stabdho divi tiShThatyeka\\- stenedaM pUrNaM puruSheNa sarvam"
+          "sanskrit": "प्राणान् प्रपीड्येह संयुक्तचेष्टः | क्षीणे प्राणे नासिकयोच्छ्वसीत | दुष्टाश्वयुक्तमिव वाहमेनं | विद्वान् मनो धारयेताप्रमत्तः ||",
+          "transliteration": "prāṇān prapīḍyeha saṃyuktaceṣṭaḥ | kṣīṇe prāṇe nāsikayocchavasīt | duṣṭāśvayuktamiva vāhamennaṃ | vidvān mano dhārayetāpramattaḥ ||",
+          "translation": "Having restrained the pranas by controlling the breath, the wise person should hold the mind without distraction — as a charioteer holds back unruly horses.",
+          "hindi": "प्राणों को यत्न से नियंत्रित करके, और श्वास को नासिका से धीरे-धीरे निकालते हुए — जैसे कोई दुष्ट अश्वों वाले रथ को संभालता है — विद्वान पुरुष को मन को अप्रमत्त होकर धारण करना चाहिए।",
+          "commentary": "This is one of the earliest descriptions of pranayama (breath control) in Indian literature. The charioteer metaphor anticipates the Bhagavad Gita's famous image: the body is the chariot, the Self is the passenger, the intellect is the charioteer, and the senses are the horses. The unruly mind must be guided by the skillful driver of disciplined breath and attention.",
+          "wordMeaning": "This is one of the earliest descriptions of pranayama (breath control) in Indian literature. The charioteer metaphor anticipates the Bhagavad Gita's famous image: the body is the chariot, the Self is the passenger, the intellect is the charioteer, and the senses are the horses. The unruly mind must be guided by the skillful driver of disciplined breath and attention."
         },
         {
           "number": 10,
-          "sanskrit": "ततो यदुत्तरततं तदरूपमनामयम् । य एतद्विदुरमृतास्ते भवन्ति अथेतरे दुःखमेवापियन्ति",
-          "transliteration": "tato yaduttaratataM tadarUpamanAmayam | ya etadviduramR^itAste bhavanti athetare duHkhamevApiyanti"
+          "sanskrit": "मायां तु प्रकृतिं विद्यान्मायिनं तु महेश्वरम् |\nतस्यावयवभूतैस्तु व्याप्तं सर्वमिदं जगत् ||",
+          "transliteration": "māyāṃ tu prakṛtiṃ vidyānmāyinaṃ tu maheśvaram |\ntasyāvayavabhūtaistu vyāptaṃ sarvamidaṃ jagat ||",
+          "translation": "Know Maya to be Prakriti (Nature), and the Wielder of Maya to be the Great Lord. This whole world is pervaded by beings who are His parts.",
+          "hindi": "माया को ही प्रकृति जानो, और मायावी को महेश्वर। उसी के अंगभूत प्राणियों से यह संपूर्ण जगत व्याप्त है।",
+          "commentary": "This is one of the earliest crystal-clear definitions of the Maya doctrine that later Vedanta would elaborate. Maya is not \"illusion\" in the sense of \"not existing\" — it is the creative power by which the One appears as the many. The world is real as appearance; what is unreal is the assumption that the multiplicity is the final reality. The Wielder is the unchanging substance behind all appearance.",
+          "wordMeaning": "This is one of the earliest crystal-clear definitions of the Maya doctrine that later Vedanta would elaborate. Maya is not \"illusion\" in the sense of \"not existing\" — it is the creative power by which the One appears as the many. The world is real as appearance; what is unreal is the assumption that the multiplicity is the final reality. The Wielder is the unchanging substance behind all appearance."
         },
         {
           "number": 11,
-          "sanskrit": "सर्वानन शिरोग्रीवः सर्वभूतगुहाशयः । सर्वव्यापी स भगवांस्तस्मात् सर्वगतः शिवः",
-          "transliteration": "sarvAnana shirogrIvaH sarvabhUtaguhAshayaH | sarvavyApI sa bhagavAMstasmAt sarvagataH shivaH"
-        },
-        {
-          "number": 12,
-          "sanskrit": "महान् प्रभुर्वै पुरुषः सत्वस्यैष प्रवर्तकः । सुनिर्मलामिमां प्राप्तिमीशानो ज्योतिरव्ययः",
-          "transliteration": "mahAn prabhurvai puruShaH satvasyaiSha pravartakaH | sunirmalAmimAM prAptimIshAno jyotiravyayaH"
-        },
-        {
-          "number": 13,
-          "sanskrit": "अङ्गुष्ठमात्रः पुरुषोऽन्तरात्मा सदा जनानां हृदये सन्निविष्टः । हृदा मनीषा मनसाभिक्लृप्तो य एतद् विदुरमृतास्ते भवन्ति",
-          "transliteration": "a~NguShThamAtraH puruSho.antarAtmA sadA janAnAM hR^idaye sanniviShTaH | hR^idA manIShA manasAbhiklR^ipto ya etad viduramR^itAste bhavanti"
+          "sanskrit": "एको देवः सर्वभूतेषु गूढः सर्वव्यापी सर्वभूतान्तरात्मा |\nकर्माध्यक्षः सर्वभूताधिवासः साक्षी चेता केवलो निर्गुणश्च ||",
+          "transliteration": "eko devaḥ sarvabhūteṣu gūḍhaḥ sarvavyāpī sarvabhūtāntarātmā |\nkarmādhyakṣaḥ sarvabhūtādhivāsaḥ sākṣī cetā kevalo nirguṇaśca ||",
+          "translation": "One God, hidden in all beings, all-pervading, the inner Self of all beings, the overseer of all actions, dwelling in all beings, the witness, the consciousness, the Absolute, free from qualities.",
+          "hindi": "एक देव सभी प्राणियों में छिपा हुआ है, सर्वव्यापी है, सभी प्राणियों की अंतरात्मा है। वह सभी कर्मों का अध्यक्ष है, सभी प्राणियों में निवासी है, साक्षी है, चेतना है, केवल और निर्गुण है।",
+          "commentary": "One of the most comprehensive descriptions of Brahman/Shiva in any Upanishad. Eight attributes: hidden (not visible to ordinary sense), all-pervading, inner Self of all, overseer (not controller) of all actions, dwelling in all, witness, pure consciousness, and attribute-free. This is the personal God of devotion AND the impersonal Absolute of philosophy — synthesized in one verse.",
+          "wordMeaning": "One of the most comprehensive descriptions of Brahman/Shiva in any Upanishad. Eight attributes: hidden (not visible to ordinary sense), all-pervading, inner Self of all, overseer (not controller) of all actions, dwelling in all, witness, pure consciousness, and attribute-free. This is the personal God of devotion AND the impersonal Absolute of philosophy — synthesized in one verse."
         },
         {
           "number": 14,
-          "sanskrit": "सहस्रशीर्षा पुरुषः सहस्राक्षः सहस्रपात् । स भूमिं विश्वतो वृत्वा अत्यतिष्ठद्दशाङ्गुलम्",
-          "transliteration": "sahasrashIrShA puruShaH sahasrAkShaH sahasrapAt | sa bhUmiM vishvato vR^itvA atyatiShThaddashA~Ngulam"
-        },
-        {
-          "number": 15,
-          "sanskrit": "पुरुष एवेदँ सर्वं यद् भूतं यच्च भव्यम् । उतामृतत्वस्येशानो यदन्नेनातिरोहति",
-          "transliteration": "puruSha eveda{\\m+} sarvaM yad bhUtaM yachcha bhavyam | utAmR^itatvasyeshAno yadannenAtirohati"
-        },
-        {
-          "number": 16,
-          "sanskrit": "सर्वतः पाणिपादं तत् सर्वतोऽक्षिशिरोमुखम् । सर्वतः श्रुतिमल्लोके सर्वमावृत्य तिष्ठति",
-          "transliteration": "sarvataH pANipAdaM tat sarvato.akShishiromukham | sarvataH shrutimalloke sarvamAvR^itya tiShThati"
-        },
-        {
-          "number": 17,
-          "sanskrit": "सर्वेन्द्रियगुणाभासं सर्वेन्द्रियविवर्जितम् । सर्वस्य प्रभुमीशानं सर्वस्य शरणं सुहृत्",
-          "transliteration": "sarvendriyaguNAbhAsaM sarvendriyavivarjitam | sarvasya prabhumIshAnaM sarvasya sharaNaM suhR^it"
-        },
-        {
-          "number": 18,
-          "sanskrit": "नवद्वारे पुरे देही हंसो लेलायते बहिः । वशी सर्वस्य लोकस्य स्थावरस्य चरस्य च",
-          "transliteration": "navadvAre pure dehI haMso lelAyate bahiH | vashI sarvasya lokasya sthAvarasya charasya cha"
+          "sanskrit": "यथा आकाशे स्थितो वायुः सर्वत्र गच्छति | तथा सर्वाणि भूतानि स्थितानि परमात्मनि ||",
+          "transliteration": "yathā ākāśe sthito vāyuḥ sarvatra gacchati | tathā sarvāṇi bhūtāni sthitāni paramātmani ||",
+          "translation": "Just as wind, though present in space, moves everywhere — so all beings exist within the Supreme Self.",
+          "hindi": "जैसे वायु आकाश में स्थित होकर भी सर्वत्र गति करती है — वैसे ही सभी प्राणी परमात्मा में स्थित हैं।",
+          "commentary": "Wind exists within space — it is made of space-stuff, moves through space, and when still, merges back into space. Yet the wind is not the same as the space. Individual souls are like winds within the space of Brahman: distinct in their movement but sustained by and ultimately identical with the infinite space of consciousness. The analogy captures both the distinctiveness of individuals and their ultimate non-separation from the whole.",
+          "wordMeaning": "Wind exists within space — it is made of space-stuff, moves through space, and when still, merges back into space. Yet the wind is not the same as the space. Individual souls are like winds within the space of Brahman: distinct in their movement but sustained by and ultimately identical with the infinite space of consciousness. The analogy captures both the distinctiveness of individuals and their ultimate non-separation from the whole."
         },
         {
           "number": 19,
-          "sanskrit": "अपाणिपादो जवनो ग्रहीता पश्यत्यचक्षुः स शृणोत्यकर्णः । स वेत्ति वेद्यं न च तस्यास्ति वेत्ता तमाहुरग्र्यं पुरुषं महान्तम्",
-          "transliteration": "apANipAdo javano grahItA pashyatyachakShuH sa shR^iNotyakarNaH | sa vetti vedyaM na cha tasyAsti vettA tamAhuragryaM puruShaM mahAntam"
+          "sanskrit": "स विश्वकृद् विश्वविद् आत्मयोनिः | ज्ञः कालकारो गुणी सर्वविद्यः | प्रधानक्षेत्रज्ञपतिर्गुणेशः | संसारमोक्षस्थितिबन्धहेतुः ||",
+          "transliteration": "sa viśvakṛd viśvavid ātmayoniḥ | jñaḥ kālakāro guṇī sarvavidyaḥ | pradhānakṣetrajñapatirguṇeśaḥ | saṃsāramokṣasthitibandhahetuḥ ||",
+          "translation": "He is the maker of all, knower of all, the self-originated; he is the knower, the fashioner of time, endowed with qualities, omniscient, the lord of matter and the individual soul, the lord of the qualities, and the cause of liberation from birth and bondage.",
+          "hindi": "वह विश्व का निर्माता है, विश्व का ज्ञाता है, स्वयंभू है; ज्ञाता है, काल का कर्ता है, गुणी है, सर्वज्ञ है, प्रधान और क्षेत्रज्ञ का स्वामी है, गुणों का ईश्वर है, और संसार-बंधन से मोक्ष का कारण भी वही है।",
+          "commentary": "A comprehensive portrait of the supreme Lord in Shvetashvatara's theistic Vedanta. He is not merely the creator (as in other traditions) but simultaneously the knower, the time-maker, the sustainer, and — most remarkably — the cause of liberation itself. God is not just the jailer; God is also the liberator. The same power that creates bondage through maya also dissolves it through grace.",
+          "wordMeaning": "A comprehensive portrait of the supreme Lord in Shvetashvatara's theistic Vedanta. He is not merely the creator (as in other traditions) but simultaneously the knower, the time-maker, the sustainer, and — most remarkably — the cause of liberation itself. God is not just the jailer; God is also the liberator. The same power that creates bondage through maya also dissolves it through grace."
         },
         {
           "number": 20,
-          "sanskrit": "अणोरणीयान् महतो महीया- नात्मा गुहायां निहितोऽस्य जन्तोः । तमक्रतुः पश्यति वीतशोको धातुः प्रसादान्महिमानमीशम्",
-          "transliteration": "aNoraNIyAn mahato mahIyA\\- nAtmA guhAyAM nihito.asya jantoH | tamakratuH pashyati vItashoko dhAtuH prasAdAnmahimAnamIsham"
-        },
-        {
-          "number": 21,
-          "sanskrit": "वेदाहमेतमजरं पुराणं सर्वात्मानं सर्वगतं विभुत्वात् । जन्मनिरोधं प्रवदन्ति यस्य ब्रह्मवादिनो हि प्रवदन्ति नित्यम्",
-          "transliteration": "vedAhametamajaraM purANaM sarvAtmAnaM sarvagataM vibhutvAt | janmanirodhaM pravadanti yasya brahmavAdino hi pravadanti nityam"
-        },
-        {
-          "number": 1,
-          "sanskrit": "चतुर्थोऽध्यायः । य एकोऽवर्णो बहुधा शक्तियोगाद् वरणाननेकान् निहितार्थो दधाति । विचैति चान्ते विश्वमादौ च देवः स नो बुद्ध्या शुभया संयुनक्तु",
-          "transliteration": "chaturtho.adhyAyaH | ya eko.avarNo bahudhA shaktiyogAd.h varaNAnanekAn nihitArtho dadhAti | vichaiti chAnte vishvamAdau cha devaH sa no buddhyA shubhayA saMyunaktu"
-        },
-        {
-          "number": 2,
-          "sanskrit": "तदेवाग्निस्तदादित्य- स्तद्वायुस्तदु चन्द्रमाः । तदेव शुक्रं तद् ब्रह्म तदापस्तत् प्रजापतिः",
-          "transliteration": "tadevAgnistadAditya\\- stadvAyustadu chandramAH | tadeva shukraM tad brahma tadApastat prajApatiH"
-        },
-        {
-          "number": 3,
-          "sanskrit": "त्वं स्त्री त्वं पुमानसि त्वं कुमार उत वा कुमारी । त्वं जीर्णो दण्डेन वञ्चसि त्वं जातो भवसि विश्वतोमुखः",
-          "transliteration": "tvaM strI tvaM pumAnasi tvaM kumAra uta vA kumArI | tvaM jIrNo daNDena va~nchasi tvaM jAto bhavasi vishvatomukhaH"
-        },
-        {
-          "number": 4,
-          "sanskrit": "नीलः पतङ्गो हरितो लोहिताक्ष- स्तडिद्गर्भ ऋतवः समुद्राः । अनादिमत् त्वं विभुत्वेन वर्तसे यतो जातानि भुवनानि विश्वा",
-          "transliteration": "nIlaH pata~Ngo harito lohitAkSha\\- staDidgarbha R^itavaH samudrAH | anAdimat tvaM vibhutvena vartase yato jAtAni bhuvanAni vishvA"
-        },
-        {
-          "number": 5,
-          "sanskrit": "अजामेकां लोहितशुक्लकृष्णां बह्वीः प्रजाः सृजमानां सरूपाः । अजो ह्येको जुषमाणोऽनुशेते जहात्येनां भुक्तभोगामजोऽन्यः",
-          "transliteration": "ajAmekAM lohitashuklakR^iShNAM bahvIH prajAH sR^ijamAnAM sarUpAH | ajo hyeko juShamANo.anushete jahAtyenAM bhuktabhogAmajo.anyaH"
-        },
-        {
-          "number": 6,
-          "sanskrit": "द्वा सुपर्णा सयुजा सखाया समानं वृक्षं परिषस्वजाते । तयोरन्यः पिप्पलं स्वाद्वत्त्यन- श्नन्नन्यो अभिचाकशीति",
-          "transliteration": "dvA suparNA sayujA sakhAyA samAnaM vR^ikShaM pariShasvajAte | tayoranyaH pippalaM svAdvattyana\\- shnannanyo abhichAkashIti"
-        },
-        {
-          "number": 7,
-          "sanskrit": "समाने वृक्षे पुरुषो निमग्नोऽ- नीशया शोचति मुह्यमानः । जुष्टं यदा पश्यत्यन्यमीशमस्य महिमानमिति वीतशोकः",
-          "transliteration": "samAne vR^ikShe puruSho nimagno.a\\- nIshayA shochati muhyamAnaH | juShTaM yadA pashyatyanyamIshamasya mahimAnamiti vItashokaH"
-        },
-        {
-          "number": 8,
-          "sanskrit": "ऋचो अक्षरे परमे व्योमन् यस्मिन्देवा अधि विश्वे निषेदुः । यस्तं न वेद किमृचा करिष्यति य इत्तद्विदुस्त इमे समासते",
-          "transliteration": "R^icho akShare parame vyoman.h yasmindevA adhi vishve niSheduH | yastaM na veda kimR^ichA kariShyati ya ittadvidusta ime samAsate"
-        },
-        {
-          "number": 9,
-          "sanskrit": "छन्दांसि यज्ञाः क्रतवो व्रतानि भूतं भव्यं यच्च वेदा वदन्ति । अस्मान् मायी सृजते विश्वमेत- त्तस्मिंश्चान्यो मायया सन्निरुद्धः",
-          "transliteration": "ChandAMsi yaj~nAH kratavo vratAni bhUtaM bhavyaM yachcha vedA vadanti | asmAn mAyI sR^ijate vishvameta\\- ttasmiMshchAnyo mAyayA sanniruddhaH"
-        },
-        {
-          "number": 10,
-          "sanskrit": "मायां तु प्रकृतिं विद्यान्मायिनं च महेश्वरम् । तस्यवयवभूतैस्तु व्याप्तं सर्वमिदं जगत्",
-          "transliteration": "mAyAM tu prakR^itiM vidyAnmAyinaM cha maheshvaram | tasyavayavabhUtaistu vyAptaM sarvamidaM jagat"
-        },
-        {
-          "number": 11,
-          "sanskrit": "यो योनिं योनिमधितिष्ठत्येको यस्मिन्निदं सं च विचैति सर्वम् । तमीशानं वरदं देवमीड्यं निचाय्येमां शान्तिमत्यन्तमेति",
-          "transliteration": "yo yoniM yonimadhitiShThatyeko yasminnidaM saM cha vichaiti sarvam | tamIshAnaM varadaM devamIDyaM nichAyyemAM shAntimatyantameti"
-        },
-        {
-          "number": 12,
-          "sanskrit": "यो देवानां प्रभवश्चोद्भवश्च विश्वाधिपो रुद्रो महर्षिः । हिरण्यगर्भं पश्यत जायमानं स नो बुद्ध्या शुभया संयुनक्तु",
-          "transliteration": "yo devAnAM prabhavashchodbhavashcha vishvAdhipo rudro maharShiH | hiraNyagarbhaM pashyata jAyamAnaM sa no buddhyA shubhayA saMyunaktu"
-        },
-        {
-          "number": 13,
-          "sanskrit": "यो देवानामधिपो यस्मिन्ल्लोका अधिश्रिताः । य ईशे अस्य द्विपदश्चतुष्पदः कस्मै देवाय हविषा विधेम",
-          "transliteration": "yo devAnAmadhipo yasminllokA adhishritAH | ya Ishe asya dvipadashchatuShpadaH kasmai devAya haviShA vidhema"
-        },
-        {
-          "number": 14,
-          "sanskrit": "सूक्ष्मातिसूक्ष्मं कलिलस्य मध्ये विश्वस्य स्रष्ठारमनेकरूपम् । विश्वस्यैकं परिवेष्टितारं ज्ञात्वा शिवं शान्तिमत्यन्तमेति",
-          "transliteration": "sUkShmAtisUkShmaM kalilasya madhye vishvasya sraShThAramanekarUpam | vishvasyaikaM pariveShTitAraM j~nAtvA shivaM shAntimatyantameti"
-        },
-        {
-          "number": 15,
-          "sanskrit": "स एव काले भुवनस्य गोप्ता विश्वाधिपः सर्वभूतेषु गूढः । यस्मिन् युक्ता ब्रह्मर्षयो देवताश्च तमेवं ज्ञात्वा मृत्युपाशांश्छिनत्ति",
-          "transliteration": "sa eva kAle bhuvanasya goptA vishvAdhipaH sarvabhUteShu gUDhaH | yasmin yuktA brahmarShayo devatAshcha tamevaM j~nAtvA mR^ityupAshAMshChinatti"
-        },
-        {
-          "number": 16,
-          "sanskrit": "घृतात् परं मण्डमिवातिसूक्ष्मं ज्ञात्वा शिवं सर्वभूतेषु गूढम् । विश्वस्यैकं परिवेष्टितारं ज्ञात्वा देवं मुच्यते सर्वपाशैः",
-          "transliteration": "ghR^itAt paraM maNDamivAtisUkShmaM j~nAtvA shivaM sarvabhUteShu gUDham | vishvasyaikaM pariveShTitAraM j~nAtvA devaM muchyate sarvapAshaiH"
-        },
-        {
-          "number": 17,
-          "sanskrit": "एष देवो विश्वकर्मा महात्मा सदा जनानां हृदये सन्निविष्टः । हृदा मनीषा मनसाभिक्लृप्तो य एतद् विदुरमृतास्ते भवन्ति",
-          "transliteration": "eSha devo vishvakarmA mahAtmA sadA janAnAM hR^idaye sanniviShTaH | hR^idA manIShA manasAbhiklR^ipto ya etad viduramR^itAste bhavanti"
-        },
-        {
-          "number": 18,
-          "sanskrit": "यदाऽतमस्तान्न दिवा न रात्रिः न सन्नचासच्छिव एव केवलः । तदक्षरं तत् सवितुर्वरेण्यं प्रज्ञा च तस्मात् प्रसृता पुराणी",
-          "transliteration": "yadA.atamastAnna divA na rAtriH na sannachAsachChiva eva kevalaH | tadakSharaM tat saviturvareNyaM praj~nA cha tasmAt prasR^itA purANI"
-        },
-        {
-          "number": 19,
-          "sanskrit": "नैनमूर्ध्वं न तिर्यञ्चं न मध्ये न परिजग्रभत् । न तस्य प्रतिमा अस्ति यस्य नाम महद् यशः",
-          "transliteration": "nainamUrdhvaM na tirya~nchaM na madhye na parijagrabhat | na tasya pratimA asti yasya nAma mahad yashaH"
-        },
-        {
-          "number": 20,
-          "sanskrit": "न सन्दृशे तिष्ठति रूपमस्य न चक्षुषा पश्यति कश्चनैनम् । हृदा हृदिस्थं मनसा य एन- मेवं विदुरमृतास्ते भवन्ति",
-          "transliteration": "na sandR^ishe tiShThati rUpamasya na chakShuShA pashyati kashchanainam | hR^idA hR^idisthaM manasA ya ena\\- mevaM viduramR^itAste bhavanti"
-        },
-        {
-          "number": 21,
-          "sanskrit": "अजात इत्येवं कश्चिद्भीरुः प्रपद्यते । रुद्र यत्ते दक्षिणं मुखं तेन मां पाहि नित्यम्",
-          "transliteration": "ajAta ityevaM kashchidbhIruH prapadyate | rudra yatte dakShiNaM mukhaM tena mAM pAhi nityam"
-        },
-        {
-          "number": 22,
-          "sanskrit": "मा नस्तोके तनये मा न आयुषि मा नो गोषु मा न अश्वेषु रीरिषः । वीरान् मा नो रुद्र भामितो वधीर्हविष्मन्तः सदामित् त्वा हवामहे",
-          "transliteration": "mA nastoke tanaye mA na AyuShi mA no goShu mA na ashveShu rIriShaH | vIrAn mA no rudra bhAmito vadhIrhaviShmantaH sadAmit tvA havAmahe"
-        },
-        {
-          "number": 1,
-          "sanskrit": "पञ्चमोऽध्यायः । द्वे अक्षरे ब्रह्मपरे त्वनन्ते विद्याविद्ये निहिते यत्र गूढे । क्षरं त्वविद्या ह्यमृतं तु विद्या विद्याविद्ये ईशते यस्तु सोऽन्यः",
-          "transliteration": "pa~nchamo.adhyAyaH | dve akShare brahmapare tvanante vidyAvidye nihite yatra gUDhe | kSharaM tvavidyA hyamR^itaM tu vidyA vidyAvidye Ishate yastu so.anyaH"
-        },
-        {
-          "number": 2,
-          "sanskrit": "यो योनिं योनिमधितिष्ठत्येको विश्वानि रूपाणि योनीश्च सर्वाः । ऋषिं प्रसूतं कपिलं यस्तमग्रे ज्ञानैर्बिभर्ति जायमानं च पश्येत्",
-          "transliteration": "yo yoniM yonimadhitiShThatyeko vishvAni rUpANi yonIshcha sarvAH | R^iShiM prasUtaM kapilaM yastamagre j~nAnairbibharti jAyamAnaM cha pashyet"
-        },
-        {
-          "number": 3,
-          "sanskrit": "एकैक जालं बहुधा विकुर्व- न्नस्मिन् क्षेत्रे संहरत्येष देवः । भूयः सृष्ट्वा पतयस्तथेशः सर्वाधिपत्यं कुरुते महात्मा",
-          "transliteration": "ekaika jAlaM bahudhA vikurva\\- nnasmin kShetre saMharatyeSha devaH | bhUyaH sR^iShTvA patayastatheshaH sarvAdhipatyaM kurute mahAtmA"
-        },
-        {
-          "number": 4,
-          "sanskrit": "सर्वा दिश ऊर्ध्वमधश्च तिर्यक् प्रकाशयन् भ्राजते यद्वनड्वान् । एवं स देवो भगवान् वरेण्यो योनिस्वभावानधितिष्ठत्येकः",
-          "transliteration": "sarvA disha Urdhvamadhashcha tiryak.h prakAshayan bhrAjate yadvanaDvAn | evaM sa devo bhagavAn vareNyo yonisvabhAvAnadhitiShThatyekaH"
-        },
-        {
-          "number": 5,
-          "sanskrit": "यच्च स्वभावं पचति विश्वयोनिः पाच्यांश्च सर्वान् परिणामयेद् यः । सर्वमेतद् विश्वमधितिष्ठत्येको गुणांश्च सर्वान् विनियोजयेद् यः",
-          "transliteration": "yachcha svabhAvaM pachati vishvayoniH pAchyAMshcha sarvAn pariNAmayed yaH | sarvametad vishvamadhitiShThatyeko guNAMshcha sarvAn viniyojayed yaH"
-        },
-        {
-          "number": 6,
-          "sanskrit": "तद् वेदगुह्योपनिषत्सु गूढं तद् ब्रह्मा वेदते ब्रह्मयोनिम् । ये पूर्वं देवा ऋषयश्च तद् विदु- स्ते तन्मया अमृता वै बभूवुः",
-          "transliteration": "tad vedaguhyopaniShatsu gUDhaM tad brahmA vedate brahmayonim | ye pUrvaM devA R^iShayashcha tad vidu\\- ste tanmayA amR^itA vai babhUvuH"
-        },
-        {
-          "number": 7,
-          "sanskrit": "गुणान्वयो यः फलकर्मकर्ता कृतस्य तस्यैव स चोपभोक्ता । स विश्वरूपस्त्रिगुणस्त्रिवर्त्मा प्राणाधिपः सञ्चरति स्वकर्मभिः",
-          "transliteration": "guNAnvayo yaH phalakarmakartA kR^itasya tasyaiva sa chopabhoktA | sa vishvarUpastriguNastrivartmA prANAdhipaH sa~ncharati svakarmabhiH"
-        },
-        {
-          "number": 8,
-          "sanskrit": "अङ्गुष्ठमात्रो रवितुल्यरूपः सङ्कल्पाहङ्कारसमन्वितो यः । बुद्धेर्गुणेनात्मगुणेन चैव आराग्रमात्रोऽप्यपरोऽपि दृष्टः",
-          "transliteration": "a~NguShThamAtro ravitulyarUpaH sa~NkalpAha~NkArasamanvito yaH | buddherguNenAtmaguNena chaiva ArAgramAtro.apyaparo.api dR^iShTaH"
-        },
-        {
-          "number": 9,
-          "sanskrit": "बालाग्रशतभागस्य शतधा कल्पितस्य च । भागो जीवः स विज्ञेयः स चानन्त्याय कल्पते",
-          "transliteration": "bAlAgrashatabhAgasya shatadhA kalpitasya cha | bhAgo jIvaH sa vij~neyaH sa chAnantyAya kalpate"
-        },
-        {
-          "number": 10,
-          "sanskrit": "नैव स्त्री न पुमानेष न चैवायं नपुंसकः । यद्यच्छरीरमादत्ते तेने तेने स युज्यते",
-          "transliteration": "naiva strI na pumAneSha na chaivAyaM napuMsakaH | yadyachCharIramAdatte tene tene sa yujyate"
-        },
-        {
-          "number": 11,
-          "sanskrit": "सङ्कल्पनस्पर्शनदृष्टिमोहै- र्ग्रासाम्बुवृष्ट्यात्मविवृद्धिजन्म । कर्मानुगान्यनुक्रमेण देही स्थानेषु रूपाण्यभिसम्प्रपद्यते",
-          "transliteration": "sa~NkalpanasparshanadR^iShTimohai\\- rgrAsAmbuvR^iShTyAtmavivR^iddhijanma | karmAnugAnyanukrameNa dehI sthAneShu rUpANyabhisamprapadyate"
-        },
-        {
-          "number": 12,
-          "sanskrit": "स्थूलानि सूक्ष्माणि बहूनि चैव रूपाणि देही स्वगुणैर्वृणोति । क्रियागुणैरात्मगुणैश्च तेषां संयोगहेतुरपरोऽपि दृष्टः",
-          "transliteration": "sthUlAni sUkShmANi bahUni chaiva rUpANi dehI svaguNairvR^iNoti | kriyAguNairAtmaguNaishcha teShAM saMyogaheturaparo.api dR^iShTaH"
-        },
-        {
-          "number": 13,
-          "sanskrit": "अनाद्यनन्तं कलिलस्य मध्ये विश्वस्य स्रष्ठारमनेकरूपम् । विश्वस्यैकं परिवेष्टितारं ज्ञात्वा देवं मुच्यते सर्वपाशैः",
-          "transliteration": "anAdyanantaM kalilasya madhye vishvasya sraShThAramanekarUpam | vishvasyaikaM pariveShTitAraM j~nAtvA devaM muchyate sarvapAshaiH"
-        },
-        {
-          "number": 14,
-          "sanskrit": "भावग्राह्यमनीडाख्यं भावाभावकरं शिवम् । कलासर्गकरं देवं ये विदुस्ते जहुस्तनुम्",
-          "transliteration": "bhAvagrAhyamanIDAkhyaM bhAvAbhAvakaraM shivam | kalAsargakaraM devaM ye viduste jahustanum"
-        },
-        {
-          "number": 1,
-          "sanskrit": "षष्ठोऽध्यायः । स्वभावमेके कवयो वदन्ति कालं तथान्ये परिमुह्यमानाः । देवस्यैष महिमा तु लोके येनेदं भ्राम्यते ब्रह्मचक्रम्",
-          "transliteration": "ShaShTho.adhyAyaH | svabhAvameke kavayo vadanti kAlaM tathAnye parimuhyamAnAH | devasyaiSha mahimA tu loke yenedaM bhrAmyate brahmachakram"
-        },
-        {
-          "number": 2,
-          "sanskrit": "येनावृतं नित्यमिदं हि सर्वं ज्ञः कालकारो गुणी सर्वविद् यः । तेनेशितं कर्म विवर्तते ह पृथिव्यप्तेजोनिलखानि चिन्त्यम्",
-          "transliteration": "yenAvR^itaM nityamidaM hi sarvaM j~naH kAlakAro guNI sarvavid yaH | teneshitaM karma vivartate ha pR^ithivyaptejonilakhAni chintyam"
-        },
-        {
-          "number": 3,
-          "sanskrit": "तत्कर्म कृत्वा विनिवर्त्य भूय- स्तत्त्वस्य तावेन समेत्य योगम् । एकेन द्वाभ्यां त्रिभिरष्टभिर्वा कालेन चैवात्मगुणैश्च सूक्ष्मैः",
-          "transliteration": "tatkarma kR^itvA vinivartya bhUya\\- stattvasya tAvena sametya yogam | ekena dvAbhyAM tribhiraShTabhirvA kAlena chaivAtmaguNaishcha sUkShmaiH"
-        },
-        {
-          "number": 4,
-          "sanskrit": "आरभ्य कर्माणि गुणान्वितानि भावांश्च सर्वान् विनियोजयेद्यः । तेषामभावे कृतकर्मनाशः कर्मक्षये याति स तत्त्वतोऽन्यः",
-          "transliteration": "Arabhya karmANi guNAnvitAni bhAvAMshcha sarvAn viniyojayedyaH | teShAmabhAve kR^itakarmanAshaH karmakShaye yAti sa tattvato.anyaH"
-        },
-        {
-          "number": 5,
-          "sanskrit": "आदिः स संयोगनिमित्तहेतुः परस्त्रिकालादकलोऽपि दृष्टः । तं विश्वरूपं भवभूतमीड्यं देवं स्वचित्तस्थमुपास्य पूर्वम्",
-          "transliteration": "AdiH sa saMyoganimittahetuH parastrikAlAdakalo.api dR^iShTaH | taM vishvarUpaM bhavabhUtamIDyaM devaM svachittasthamupAsya pUrvam"
-        },
-        {
-          "number": 6,
-          "sanskrit": "स वृक्षकालाकृतिभिः परोऽन्यो यस्मात् प्रपञ्चः परिवर्ततेऽयम् । धर्मावहं पापनुदं भगेशं ज्ञात्वात्मस्थममृतं विश्वधाम",
-          "transliteration": "sa vR^ikShakAlAkR^itibhiH paro.anyo yasmAt prapa~nchaH parivartate.ayam | dharmAvahaM pApanudaM bhageshaM j~nAtvAtmasthamamR^itaM vishvadhAma"
-        },
-        {
-          "number": 7,
-          "sanskrit": "तमीश्वराणां परमं महेश्वरं तं देवतानां परमं च दैवतम् । पतिं पतीनां परमं परस्ताद्- विदाम देवं भुवनेशमीड्यम्",
-          "transliteration": "tamIshvarANAM paramaM maheshvaraM taM devatAnAM paramaM cha daivatam | patiM patInAM paramaM parastAd.h\\- vidAma devaM bhuvaneshamIDyam"
-        },
-        {
-          "number": 8,
-          "sanskrit": "न तस्य कार्यं करणं च विद्यते न तत्समश्चाभ्यधिकश्च दृश्यते । परास्य शक्तिर्विविधैव श्रूयते स्वाभाविकी ज्ञानबलक्रिया च",
-          "transliteration": "na tasya kAryaM karaNaM cha vidyate na tatsamashchAbhyadhikashcha dR^ishyate | parAsya shaktirvividhaiva shrUyate svAbhAvikI j~nAnabalakriyA cha"
-        },
-        {
-          "number": 9,
-          "sanskrit": "न तस्य कश्चित् पतिरस्ति लोके न चेशिता नैव च तस्य लिङ्गम् । स कारणं करणाधिपाधिपो न चास्य कश्चिज्जनिता न चाधिपः",
-          "transliteration": "na tasya kashchit patirasti loke na cheshitA naiva cha tasya li~Ngam | sa kAraNaM karaNAdhipAdhipo na chAsya kashchijjanitA na chAdhipaH"
-        },
-        {
-          "number": 10,
-          "sanskrit": "यस्तन्तुनाभ इव तन्तुभिः प्रधानजैः स्वभावतः । देव एकः स्वमावृणोति स नो दधातु ब्रह्माप्ययम्",
-          "transliteration": "yastantunAbha iva tantubhiH pradhAnajaiH svabhAvataH | deva ekaH svamAvR^iNoti sa no dadhAtu brahmApyayam"
-        },
-        {
-          "number": 11,
-          "sanskrit": "एको देवः सर्वभूतेषु गूढः सर्वव्यापी सर्वभूतान्तरात्मा। कर्माध्यक्षः सर्वभूताधिवासः साक्षी चेता केवलो निर्गुणश्च",
-          "transliteration": "eko devaH sarvabhUteShu gUDhaH sarvavyApI sarvabhUtAntarAtmA. karmAdhyakShaH sarvabhUtAdhivAsaH sAkShI chetA kevalo nirguNashcha"
-        },
-        {
-          "number": 12,
-          "sanskrit": "एको वशी निष्क्रियाणां बहूना- मेकं बीजं बहुधा यः करोति । तमात्मस्थं येऽनुपश्यन्ति धीरा- स्तेषां सुखं शाश्वतं नेतरेषाम्",
-          "transliteration": "eko vashI niShkriyANAM bahUnA\\- mekaM bIjaM bahudhA yaH karoti | tamAtmasthaM ye.anupashyanti dhIrA\\- steShAM sukhaM shAshvataM netareShAm"
-        },
-        {
-          "number": 13,
-          "sanskrit": "नित्यो नित्यानां चेतनश्चेतनाना- मेको बहूनां यो विदधाति कामान् । तत्कारणं साङ्ख्ययोगाधिगम्यं ज्ञात्वा देवं मुच्यते सर्वपाशैः",
-          "transliteration": "nityo nityAnAM chetanashchetanAnA\\- meko bahUnAM yo vidadhAti kAmAn | tatkAraNaM sA~NkhyayogAdhigamyaM j~nAtvA devaM muchyate sarvapAshaiH"
-        },
-        {
-          "number": 14,
-          "sanskrit": "न तत्र सूर्यो भाति न चन्द्रतारकं नेमा विद्युतो भान्ति कुतोऽयमग्निः । तमेव भान्तमनुभाति सर्वं तस्य भासा सर्वमिदं विभाति",
-          "transliteration": "na tatra sUryo bhAti na chandratArakaM nemA vidyuto bhAnti kuto.ayamagniH | tameva bhAntamanubhAti sarvaM tasya bhAsA sarvamidaM vibhAti"
-        },
-        {
-          "number": 15,
-          "sanskrit": "एको हंसः भुवनस्यास्य मध्ये स एवाग्निः सलिले संनिविष्टः । तमेव विदित्वा अतिमृत्युमेति नान्यः पन्था विद्यतेऽयनाय",
-          "transliteration": "eko haMsaH bhuvanasyAsya madhye sa evAgniH salile sa.nniviShTaH | tameva viditvA atimR^ityumeti nAnyaH panthA vidyate.ayanAya"
-        },
-        {
-          "number": 16,
-          "sanskrit": "स विश्वकृद् विश्वविदात्मयोनि- र्ज्ञः कालकालो गुणी सर्वविद् यः । प्रधानक्षेत्रज्ञपतिर्गुणेशः संसारमोक्षस्थितिबन्धहेतुः",
-          "transliteration": "sa vishvakR^id vishvavidAtmayoni\\- rj~naH kAlakAlo guNI sarvavid yaH | pradhAnakShetraj~napatirguNeshaH saMsAramokShasthitibandhahetuH"
-        },
-        {
-          "number": 17,
-          "sanskrit": "स तन्मयो ह्यमृत ईशसंस्थो ज्ञः सर्वगो भुवनस्यास्य गोप्ता । य ईशेऽस्य जगतो नित्यमेव नान्यो हेतुर्विद्यत ईशनाय",
-          "transliteration": "sa tanmayo hyamR^ita IshasaMstho j~naH sarvago bhuvanasyAsya goptA | ya Ishe.asya jagato nityameva nAnyo heturvidyata IshanAya"
-        },
-        {
-          "number": 18,
-          "sanskrit": "यो ब्रह्माणं विदधाति पूर्वं यो वै वेदांश्च प्रहिणोति तस्मै । तं ह देवं आत्मबुद्धिप्रकाशं मुमुक्षुर्वै शरणमहं प्रपद्ये",
-          "transliteration": "yo brahmANaM vidadhAti pUrvaM yo vai vedAMshcha prahiNoti tasmai | taM ha devaM AtmabuddhiprakAshaM mumukShurvai sharaNamahaM prapadye"
-        },
-        {
-          "number": 19,
-          "sanskrit": "निष्कलं निष्क्रियं शान्तं निरवद्यं निरञ्जनम् । अमृतस्य परं सेतुं दग्धेन्दनमिवानलम्",
-          "transliteration": "niShkalaM niShkriyaM shAntaM niravadyaM nira~njanam | amR^itasya paraM setuM dagdhendanamivAnalam"
-        },
-        {
-          "number": 20,
-          "sanskrit": "यदा चर्मवदाकाशं वेष्टयिष्यन्ति मानवाः । तदा देवमविज्ञाय दुःखस्यान्तो भविष्यति",
-          "transliteration": "yadA charmavadAkAshaM veShTayiShyanti mAnavAH | tadA devamavij~nAya duHkhasyAnto bhaviShyati"
-        },
-        {
-          "number": 21,
-          "sanskrit": "तपःप्रभावाद् देवप्रसादाच्च ब्रह्म ह श्वेताश्वतरोऽथ विद्वान् । अत्याश्रमिभ्यः परमं पवित्रं प्रोवाच सम्यगृषिसङ्घजुष्टम्",
-          "transliteration": "tapaHprabhAvAd devaprasAdAchcha brahma ha shvetAshvataro.atha vidvAn | atyAshramibhyaH paramaM pavitraM provAcha samyagR^iShisa~NghajuShTam"
-        },
-        {
-          "number": 22,
-          "sanskrit": "वेदान्ते परमं गुह्यं पुराकल्पे प्रचोदितम् । नाप्रशान्ताय दातव्यं नापुत्रायाशिष्याय वा पुनः",
-          "transliteration": "vedAnte paramaM guhyaM purAkalpe prachoditam | nAprashAntAya dAtavyaM nAputrAyAshiShyAya vA punaH"
-        },
-        {
-          "number": 23,
-          "sanskrit": "यस्य देवे परा भक्तिः यथा देवे तथा गुरौ । तस्यैते कथिता ह्यर्थाः प्रकाशन्ते महात्मनः",
-          "transliteration": "yasya deve parA bhaktiH yathA deve tathA gurau | tasyaite kathitA hyarthAH prakAshante mahAtmanaH"
+          "sanskrit": "यदा चर्मवदाकाशं वेष्टयिष्यन्ति मानवाः |\nतदा देवमविज्ञाय दुःखस्यान्तो भविष्यति ||",
+          "transliteration": "yadā carmavadākāśaṃ veṣṭayiṣyanti mānavāḥ |\ntadā devamavijñāya duḥkhasyānto bhaviṣyati ||",
+          "translation": "When humans roll up the sky like a piece of leather, then — without knowing God — suffering will come to an end.",
+          "hindi": "जब मनुष्य आकाश को चमड़े की तरह लपेट लेंगे, तभी — ईश्वर को जाने बिना — दुख का अंत होगा।",
+          "commentary": "A verse of supreme irony: rolling up the sky like leather is impossible — and that is exactly the point. There is NO shortcut, no technological solution, no social reform sufficient to end human suffering without knowledge of the divine Self. Outer achievement — however magnificent — cannot substitute for inner realization.",
+          "wordMeaning": "A verse of supreme irony: rolling up the sky like leather is impossible — and that is exactly the point. There is NO shortcut, no technological solution, no social reform sufficient to end human suffering without knowledge of the divine Self. Outer achievement — however magnificent — cannot substitute for inner realization."
         }
-      ]
+      ],
+      "titleSanskrit": "प्रथम अध्याय"
     },
     {
       "number": 2,
@@ -585,12 +98,20 @@
         {
           "number": 8,
           "sanskrit": "प्राणान् प्रपीड्येह संयुक्तचेष्टः | क्षीणे प्राणे नासिकयोच्छ्वसीत | दुष्टाश्वयुक्तमिव वाहमेनं | विद्वान् मनो धारयेताप्रमत्तः ||",
-          "transliteration": "prāṇān prapīḍyeha saṃyuktaceṣṭaḥ | kṣīṇe prāṇe nāsikayocchavasīt | duṣṭāśvayuktamiva vāhamennaṃ | vidvān mano dhārayetāpramattaḥ ||"
+          "transliteration": "prāṇān prapīḍyeha saṃyuktaceṣṭaḥ | kṣīṇe prāṇe nāsikayocchavasīt | duṣṭāśvayuktamiva vāhamennaṃ | vidvān mano dhārayetāpramattaḥ ||",
+          "translation": "Having restrained the pranas by controlling the breath, the wise person should hold the mind without distraction — as a charioteer holds back unruly horses.",
+          "hindi": "प्राणों को यत्न से नियंत्रित करके, और श्वास को नासिका से धीरे-धीरे निकालते हुए — जैसे कोई दुष्ट अश्वों वाले रथ को संभालता है — विद्वान पुरुष को मन को अप्रमत्त होकर धारण करना चाहिए।",
+          "commentary": "This is one of the earliest descriptions of pranayama (breath control) in Indian literature. The charioteer metaphor anticipates the Bhagavad Gita's famous image: the body is the chariot, the Self is the passenger, the intellect is the charioteer, and the senses are the horses. The unruly mind must be guided by the skillful driver of disciplined breath and attention.",
+          "wordMeaning": "This is one of the earliest descriptions of pranayama (breath control) in Indian literature. The charioteer metaphor anticipates the Bhagavad Gita's famous image: the body is the chariot, the Self is the passenger, the intellect is the charioteer, and the senses are the horses. The unruly mind must be guided by the skillful driver of disciplined breath and attention."
         },
         {
           "number": 14,
           "sanskrit": "यथा आकाशे स्थितो वायुः सर्वत्र गच्छति | तथा सर्वाणि भूतानि स्थितानि परमात्मनि ||",
-          "transliteration": "yathā ākāśe sthito vāyuḥ sarvatra gacchati | tathā sarvāṇi bhūtāni sthitāni paramātmani ||"
+          "transliteration": "yathā ākāśe sthito vāyuḥ sarvatra gacchati | tathā sarvāṇi bhūtāni sthitāni paramātmani ||",
+          "translation": "Just as wind, though present in space, moves everywhere — so all beings exist within the Supreme Self.",
+          "hindi": "जैसे वायु आकाश में स्थित होकर भी सर्वत्र गति करती है — वैसे ही सभी प्राणी परमात्मा में स्थित हैं।",
+          "commentary": "Wind exists within space — it is made of space-stuff, moves through space, and when still, merges back into space. Yet the wind is not the same as the space. Individual souls are like winds within the space of Brahman: distinct in their movement but sustained by and ultimately identical with the infinite space of consciousness. The analogy captures both the distinctiveness of individuals and their ultimate non-separation from the whole.",
+          "wordMeaning": "Wind exists within space — it is made of space-stuff, moves through space, and when still, merges back into space. Yet the wind is not the same as the space. Individual souls are like winds within the space of Brahman: distinct in their movement but sustained by and ultimately identical with the infinite space of consciousness. The analogy captures both the distinctiveness of individuals and their ultimate non-separation from the whole."
         }
       ]
     },
@@ -602,7 +123,11 @@
         {
           "number": 8,
           "sanskrit": "वेदाहमेतं पुरुषं महान्तमादित्यवर्णं तमसः परस्तात् |\nतमेव विदित्वातिमृत्युमेति नान्यः पन्था विद्यतेऽयनाय ||",
-          "transliteration": "vedāhametaṃ puruṣaṃ mahāntamādityavarṇaṃ tamasaḥ parastāt |\ntameva viditvātimṛtyumeti nānyaḥ panthā vidyate'yanāya ||"
+          "transliteration": "vedāhametaṃ puruṣaṃ mahāntamādityavarṇaṃ tamasaḥ parastāt |\ntameva viditvātimṛtyumeti nānyaḥ panthā vidyate'yanāya ||",
+          "translation": "I know that great Person, brilliant as the sun, beyond all darkness. Only by knowing Him does one cross over death — there is no other path for liberation.",
+          "hindi": "मैं उस महान पुरुष को जानता हूँ — जो सूर्य के समान देदीप्यमान और अंधकार से परे है। उसी को जानकर मनुष्य मृत्यु को पार करता है; मोक्ष का अन्य कोई मार्ग नहीं है।",
+          "commentary": "This verse is later quoted by Krishna in the Bhagavad Gita (chapter 8). The Cosmic Person is \"Aditya-varna\" — luminous like the sun. The radical claim: there is no other path to immortality. Not multiple paths leading up the mountain — but the one inevitable recognition: the Cosmic Person is your own deepest Self.",
+          "wordMeaning": "This verse is later quoted by Krishna in the Bhagavad Gita (chapter 8). The Cosmic Person is \"Aditya-varna\" — luminous like the sun. The radical claim: there is no other path to immortality. Not multiple paths leading up the mountain — but the one inevitable recognition: the Cosmic Person is your own deepest Self."
         }
       ]
     },
@@ -614,7 +139,11 @@
         {
           "number": 10,
           "sanskrit": "मायां तु प्रकृतिं विद्यान्मायिनं तु महेश्वरम् |\nतस्यावयवभूतैस्तु व्याप्तं सर्वमिदं जगत् ||",
-          "transliteration": "māyāṃ tu prakṛtiṃ vidyānmāyinaṃ tu maheśvaram |\ntasyāvayavabhūtaistu vyāptaṃ sarvamidaṃ jagat ||"
+          "transliteration": "māyāṃ tu prakṛtiṃ vidyānmāyinaṃ tu maheśvaram |\ntasyāvayavabhūtaistu vyāptaṃ sarvamidaṃ jagat ||",
+          "translation": "Know Maya to be Prakriti (Nature), and the Wielder of Maya to be the Great Lord. This whole world is pervaded by beings who are His parts.",
+          "hindi": "माया को ही प्रकृति जानो, और मायावी को महेश्वर। उसी के अंगभूत प्राणियों से यह संपूर्ण जगत व्याप्त है।",
+          "commentary": "This is one of the earliest crystal-clear definitions of the Maya doctrine that later Vedanta would elaborate. Maya is not \"illusion\" in the sense of \"not existing\" — it is the creative power by which the One appears as the many. The world is real as appearance; what is unreal is the assumption that the multiplicity is the final reality. The Wielder is the unchanging substance behind all appearance.",
+          "wordMeaning": "This is one of the earliest crystal-clear definitions of the Maya doctrine that later Vedanta would elaborate. Maya is not \"illusion\" in the sense of \"not existing\" — it is the creative power by which the One appears as the many. The world is real as appearance; what is unreal is the assumption that the multiplicity is the final reality. The Wielder is the unchanging substance behind all appearance."
         }
       ]
     },
@@ -626,7 +155,11 @@
         {
           "number": 1,
           "sanskrit": "द्वे अक्षरे ब्रह्मपरे त्वनन्ते विद्याविद्ये निहिते यत्र गूढे |\nक्षरं त्वविद्या ह्यमृतं तु विद्या विद्याविद्ये ईशते यस्तु सोऽन्यः ||",
-          "transliteration": "dve akṣare brahmapare tvanante vidyāvidye nihite yatra gūḍhe |\nkṣaraṃ tvavidyā hyamṛtaṃ tu vidyā vidyāvidye īśate yastu so'nyaḥ ||"
+          "transliteration": "dve akṣare brahmapare tvanante vidyāvidye nihite yatra gūḍhe |\nkṣaraṃ tvavidyā hyamṛtaṃ tu vidyā vidyāvidye īśate yastu so'nyaḥ ||",
+          "translation": "In the imperishable, infinite, supreme Brahman, two are hidden — knowledge (vidya) and ignorance (avidya). Ignorance is the perishable; knowledge is the immortal. The one who is master of both knowledge and ignorance is yet another — the Supreme.",
+          "hindi": "पर ब्रह्म में, जो अनन्त और अक्षर है, दो छिपे हैं — विद्या और अविद्या। अविद्या क्षर है; विद्या अमर है। और जो विद्या-अविद्या दोनों का स्वामी है, वह तो इन से भी परे है।",
+          "commentary": "A subtle three-fold structure: knowledge, ignorance, and that which transcends both. Most spiritual paths advise: choose knowledge, reject ignorance. The Shvetashvatara goes deeper: the Supreme is BEYOND both knowledge and ignorance — it is the source of both, the witness of both. This anticipates the non-dual teaching that even \"enlightenment\" and \"ignorance\" are appearances within a more fundamental awareness.",
+          "wordMeaning": "A subtle three-fold structure: knowledge, ignorance, and that which transcends both. Most spiritual paths advise: choose knowledge, reject ignorance. The Shvetashvatara goes deeper: the Supreme is BEYOND both knowledge and ignorance — it is the source of both, the witness of both. This anticipates the non-dual teaching that even \"enlightenment\" and \"ignorance\" are appearances within a more fundamental awareness."
         }
       ]
     },
@@ -638,42 +171,74 @@
         {
           "number": 11,
           "sanskrit": "एको देवः सर्वभूतेषु गूढः सर्वव्यापी सर्वभूतान्तरात्मा |\nकर्माध्यक्षः सर्वभूताधिवासः साक्षी चेता केवलो निर्गुणश्च ||",
-          "transliteration": "eko devaḥ sarvabhūteṣu gūḍhaḥ sarvavyāpī sarvabhūtāntarātmā |\nkarmādhyakṣaḥ sarvabhūtādhivāsaḥ sākṣī cetā kevalo nirguṇaśca ||"
-        },
-        {
-          "number": 20,
-          "sanskrit": "यदा चर्मवदाकाशं वेष्टयिष्यन्ति मानवाः |\nतदा देवमविज्ञाय दुःखस्यान्तो भविष्यति ||",
-          "transliteration": "yadā carmavadākāśaṃ veṣṭayiṣyanti mānavāḥ |\ntadā devamavijñāya duḥkhasyānto bhaviṣyati ||"
+          "transliteration": "eko devaḥ sarvabhūteṣu gūḍhaḥ sarvavyāpī sarvabhūtāntarātmā |\nkarmādhyakṣaḥ sarvabhūtādhivāsaḥ sākṣī cetā kevalo nirguṇaśca ||",
+          "translation": "One God, hidden in all beings, all-pervading, the inner Self of all beings, the overseer of all actions, dwelling in all beings, the witness, the consciousness, the Absolute, free from qualities.",
+          "hindi": "एक देव सभी प्राणियों में छिपा हुआ है, सर्वव्यापी है, सभी प्राणियों की अंतरात्मा है। वह सभी कर्मों का अध्यक्ष है, सभी प्राणियों में निवासी है, साक्षी है, चेतना है, केवल और निर्गुण है।",
+          "commentary": "One of the most comprehensive descriptions of Brahman/Shiva in any Upanishad. Eight attributes: hidden (not visible to ordinary sense), all-pervading, inner Self of all, overseer (not controller) of all actions, dwelling in all, witness, pure consciousness, and attribute-free. This is the personal God of devotion AND the impersonal Absolute of philosophy — synthesized in one verse.",
+          "wordMeaning": "One of the most comprehensive descriptions of Brahman/Shiva in any Upanishad. Eight attributes: hidden (not visible to ordinary sense), all-pervading, inner Self of all, overseer (not controller) of all actions, dwelling in all, witness, pure consciousness, and attribute-free. This is the personal God of devotion AND the impersonal Absolute of philosophy — synthesized in one verse."
         },
         {
           "number": 19,
           "sanskrit": "स विश्वकृद् विश्वविद् आत्मयोनिः | ज्ञः कालकारो गुणी सर्वविद्यः | प्रधानक्षेत्रज्ञपतिर्गुणेशः | संसारमोक्षस्थितिबन्धहेतुः ||",
-          "transliteration": "sa viśvakṛd viśvavid ātmayoniḥ | jñaḥ kālakāro guṇī sarvavidyaḥ | pradhānakṣetrajñapatirguṇeśaḥ | saṃsāramokṣasthitibandhahetuḥ ||"
+          "transliteration": "sa viśvakṛd viśvavid ātmayoniḥ | jñaḥ kālakāro guṇī sarvavidyaḥ | pradhānakṣetrajñapatirguṇeśaḥ | saṃsāramokṣasthitibandhahetuḥ ||",
+          "translation": "He is the maker of all, knower of all, the self-originated; he is the knower, the fashioner of time, endowed with qualities, omniscient, the lord of matter and the individual soul, the lord of the qualities, and the cause of liberation from birth and bondage.",
+          "hindi": "वह विश्व का निर्माता है, विश्व का ज्ञाता है, स्वयंभू है; ज्ञाता है, काल का कर्ता है, गुणी है, सर्वज्ञ है, प्रधान और क्षेत्रज्ञ का स्वामी है, गुणों का ईश्वर है, और संसार-बंधन से मोक्ष का कारण भी वही है।",
+          "commentary": "A comprehensive portrait of the supreme Lord in Shvetashvatara's theistic Vedanta. He is not merely the creator (as in other traditions) but simultaneously the knower, the time-maker, the sustainer, and — most remarkably — the cause of liberation itself. God is not just the jailer; God is also the liberator. The same power that creates bondage through maya also dissolves it through grace.",
+          "wordMeaning": "A comprehensive portrait of the supreme Lord in Shvetashvatara's theistic Vedanta. He is not merely the creator (as in other traditions) but simultaneously the knower, the time-maker, the sustainer, and — most remarkably — the cause of liberation itself. God is not just the jailer; God is also the liberator. The same power that creates bondage through maya also dissolves it through grace."
+        },
+        {
+          "number": 20,
+          "sanskrit": "यदा चर्मवदाकाशं वेष्टयिष्यन्ति मानवाः |\nतदा देवमविज्ञाय दुःखस्यान्तो भविष्यति ||",
+          "transliteration": "yadā carmavadākāśaṃ veṣṭayiṣyanti mānavāḥ |\ntadā devamavijñāya duḥkhasyānto bhaviṣyati ||",
+          "translation": "When humans roll up the sky like a piece of leather, then — without knowing God — suffering will come to an end.",
+          "hindi": "जब मनुष्य आकाश को चमड़े की तरह लपेट लेंगे, तभी — ईश्वर को जाने बिना — दुख का अंत होगा।",
+          "commentary": "A verse of supreme irony: rolling up the sky like leather is impossible — and that is exactly the point. There is NO shortcut, no technological solution, no social reform sufficient to end human suffering without knowledge of the divine Self. Outer achievement — however magnificent — cannot substitute for inner realization.",
+          "wordMeaning": "A verse of supreme irony: rolling up the sky like leather is impossible — and that is exactly the point. There is NO shortcut, no technological solution, no social reform sufficient to end human suffering without knowledge of the divine Self. Outer achievement — however magnificent — cannot substitute for inner realization."
         },
         {
           "number": 25,
           "sanskrit": "योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो शिवसमाश्रयः ||",
-          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ śivasamāśrayaḥ ||"
+          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ śivasamāśrayaḥ ||",
+          "translation": "Yoga is the cessation of mental modifications; yoga gives liberation. Yoga cuts all bonds; yoga rests on Shiva.",
+          "hindi": "योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग शिव पर आश्रित है।",
+          "commentary": "The definition of yoga from Yoga Sutras, placed in the context of Shiva worship. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Shiva.",
+          "wordMeaning": "The definition of yoga from Yoga Sutras, placed in the context of Shiva worship. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Shiva."
         },
         {
           "number": 30,
           "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं शिव एव सर्वं शिव मयि सर्वम् ||",
-          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ śiva eva sarvaṃ śiva mayi sarvam ||"
+          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ śiva eva sarvaṃ śiva mayi sarvam ||",
+          "translation": "I am Brahman, not you; I am birth, not beings; all is Shiva alone, all is Shiva in me.",
+          "hindi": "मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब शिव ही है, सब शिव मेरे में है।",
+          "commentary": "The declaration of non-duality with Shiva as the supreme. The individual Self is Brahman; the world is Shiva; all distinctions dissolve in this recognition.",
+          "wordMeaning": "The declaration of non-duality with Shiva as the supreme. The individual Self is Brahman; the world is Shiva; all distinctions dissolve in this recognition."
         },
         {
           "number": 35,
           "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो शिवे लीनो न तत्र संशयो भवति ||",
-          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo śive līno na tatra saṃśayo bhavati ||"
+          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo śive līno na tatra saṃśayo bhavati ||",
+          "translation": "As rivers merge into the ocean, as lamps merge into light — so the individual self merges into Shiva. There is no doubt about this.",
+          "hindi": "जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव शिव में लीन हो जाता है। इसमें कोई संशय नहीं।",
+          "commentary": "The dissolution of individuality into Shiva. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains.",
+          "wordMeaning": "The dissolution of individuality into Shiva. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains."
         },
         {
           "number": 40,
           "sanskrit": "शान्तं शिवमद्वैतं शिव नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
-          "transliteration": "śāntaṃ śivamadvaitaṃ śiva nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||"
+          "transliteration": "śāntaṃ śivamadvaitaṃ śiva nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||",
+          "translation": "Peaceful, auspicious, non-dual Shiva — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.",
+          "hindi": "शांत, शिव, अद्वैत शिव — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
+          "commentary": "The attributes of Shiva: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness.",
+          "wordMeaning": "The attributes of Shiva: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness."
         },
         {
           "number": 45,
           "sanskrit": "एको देवो द्वितीयो नास्ति यो शिवं वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
-          "transliteration": "eko devo dvitīyo nāsti yo śivaṃ veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||"
+          "transliteration": "eko devo dvitīyo nāsti yo śivaṃ veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||",
+          "translation": "There is one God, no second — he who knows Shiva in truth. I am He, not any being, no death, no sorrow, and so on.",
+          "hindi": "एक ही देव है, दूसरा कोई नहीं — जो शिव को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।",
+          "commentary": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering.",
+          "wordMeaning": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering."
         }
       ]
     }

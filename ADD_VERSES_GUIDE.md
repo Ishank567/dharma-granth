@@ -262,3 +262,20 @@ To add a single verse to an existing chapter in `data/scriptures/bhagavadgita.ts
 
 **Need help with a specific scripture?** 
 Provide the scripture name and preferred source, and I can help create the seeder function or manual data entry template.
+
+---
+
+## Contributing Improved Verse Meanings (via the app)
+
+The easiest way for readers to help is directly from the reader:
+
+1. Open any verse (curated card or "Load full chapter" bulk text).
+2. Tap the **pencil / edit icon** (or "Contribute" / "Be the first to contribute a meaning").
+3. Fill in a better **व्याख्या**, optional science parallel, life lesson, or Hindi arth.
+4. Use the **Copy snippet** button — it produces the exact fragment to paste into `data/hi-commentary/<scripture>.ts`.
+5. Run the generator (`npx tsx scripts/generate-hi-analysis.ts`) and copy the resulting JSON to the mobile app.
+6. Open a PR or issue with the change (the modal can also prepare a pre-filled GitHub issue body).
+
+This flow powers both the beautiful web VerseDisplay cards and the mobile AnalysisSection (व्याख्या + आधुनिक दृष्टि + जीवन शिक्षा).
+
+Thank you — every improved meaning makes the library more useful for everyone!

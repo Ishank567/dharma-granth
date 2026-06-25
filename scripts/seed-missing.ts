@@ -41,62 +41,7 @@ import {
   splitByRegex,
   cleanVerseId,
 } from "./lib/itrans-parser";
-import { getScripture } from "../data/scriptures";
-
-function mergeCuratedChapters(id: string, seeded: FullChapter[]): FullChapter[] {
-  const curated = getScripture(id);
-  if (!curated) return seeded;
-
-  const curatedByChapter = new Map(curated.chapters.map((chapter) => [chapter.id, chapter]));
-  const seededNumbers = new Set(seeded.map((c) => c.number));
-  const finalChapters = seeded.map((chapter): FullChapter => {
-    const curatedChapter = curatedByChapter.get(chapter.number);
-    if (!curatedChapter) return chapter;
-
-    const curatedByVerse = new Map(curatedChapter.verses.map((verse) => [String(verse.id), verse]));
-    return {
-      ...chapter,
-      title: chapter.title || curatedChapter.title,
-      titleSanskrit: chapter.titleSanskrit || curatedChapter.titleSanskrit,
-      verses: chapter.verses.map((verse) => {
-        const verseKey = String(verse.number).split(".").at(-1) ?? String(verse.number);
-        const curatedVerse = curatedByVerse.get(verseKey);
-        if (!curatedVerse) return verse;
-
-        return {
-          ...verse,
-          sanskrit: verse.sanskrit || curatedVerse.sanskrit,
-          transliteration: verse.transliteration || curatedVerse.transliteration || "",
-          translation: verse.translation || curatedVerse.translation,
-          hindi: verse.hindi || curatedVerse.hindi,
-          wordMeaning: verse.wordMeaning || curatedVerse.meaning || curatedVerse.explanation,
-          commentary: verse.commentary || curatedVerse.explanation,
-        };
-      }),
-    };
-  });
-
-  for (const cc of curated.chapters) {
-    if (!seededNumbers.has(cc.id)) {
-      finalChapters.push({
-        number: cc.id,
-        title: cc.title,
-        titleSanskrit: cc.titleSanskrit,
-        verses: cc.verses.map((v) => ({
-          number: v.id,
-          sanskrit: v.sanskrit,
-          transliteration: v.transliteration || "",
-          translation: v.translation,
-          hindi: v.hindi,
-          wordMeaning: v.meaning || v.explanation,
-          commentary: v.explanation,
-        })),
-      });
-    }
-  }
-
-  return finalChapters.sort((a, b) => a.number - b.number);
-}
+import { mergeCuratedChapters } from "./lib/curated-merge";
 
 const SD = "https://sanskritdocuments.org";
 

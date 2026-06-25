@@ -171,4 +171,70 @@ export const taittiriyaHi: HiCommentaryFragment = {
   '3:36': {
     explanation: `अद्वैत की पुष्टि — एक सत्य, दूसरा कोई नहीं। ज्ञाता पहचानता है 'मैं वही हूँ' और मृत्यु, शोक, समस्त दुःख से परे हो जाता है।`,
   },
+
+  '1:13': {
+    explanation: `हृदय के भीतर का जो आकाश है — वहाँ मनोमय पुरुष — अमर, हिरण्मय — स्थित है। दो तालुओं के बीच में जो स्तन-समान लटका है — वह इन्द्र-योनि है। जहाँ केशान्त मस्तक के सीमान्त पर बँटता है — वहीं — "भूः" से अग्नि में, "भुवः" से वायु में, "सुवः" से आदित्य में, "महः" से ब्रह्म में — प्रतिष्ठित होता है। स्वाराज्य प्राप्त करता है।`,
+    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
+    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
+  },
+  '1:14': {
+    explanation: `हृदय के भीतर का जो आकाश है — वहाँ मनोमय पुरुष — अमर, हिरण्मय — स्थित है। दो तालुओं के बीच में जो स्तन-समान लटका है — वह इन्द्र-योनि है। जहाँ केशान्त मस्तक के सीमान्त पर बँटता है — वहीं — "भूः" से अग्नि में, "भुवः" से वायु में, "सुवः" से आदित्य में, "महः" से ब्रह्म में — प्रतिष्ठित होता है। स्वाराज्य प्राप्त करता है।`,
+    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
+    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
+  },
+  '1:16': {
+    explanation: `ॐ — यही ब्रह्म है। ॐ — यह सब है। ॐ ही श्रावण-अनुकरण है। ॐ से साम गाये जाते हैं; ॐ-शोम् से शस्त्र पढ़े जाते हैं; ॐ से अध्वर्यु प्रतिगर बोलता है; ॐ से ब्रह्मा प्रसौति करता है; ॐ से अग्निहोत्र की अनुज्ञा होती है; ॐ से ब्राह्मण कहता है — "मैं ब्रह्म को प्राप्त करूँ" — और वह ब्रह्म ही प्राप्त करता है।`,
+    science: `Neuroscience of sound (chanting): repetitive sound (mantra, om) entrains brainwaves toward theta and alpha states, reducing stress and enhancing focus. The vagus nerve is stimulated by vocal chanting, activating the parasympathetic nervous system.`,
+    lifeLesson: `Sound shapes consciousness. The words you speak and the sounds you surround yourself with influence your mental state. Choose sounds that elevate — whether mantra, music, or speech — and notice how they reshape your inner world.`,
+  },
+  '1:22': {
+    explanation: `वेद पढ़ाकर आचार्य अन्तेवासी को अनुशासित करता है — "सत्य बोलो; धर्म का आचरण करो; स्वाध्याय में प्रमाद मत करो; आचार्य को प्रिय धन देकर प्रजा-तन्तु को मत काटो; सत्य से प्रमाद मत करो; धर्म से नहीं; कुशल से नहीं; भूति से नहीं; स्वाध्याय-प्रवचन से नहीं; देव-पितृ कार्य से नहीं। माता देव; पिता देव; आचार्य देव; अतिथि देव। जो अनवद्य (निर्दोष) कर्म हैं — उन्हीं को सेवित करो; अन्य को नहीं। हमारे जो सुचरित हैं — उन्हीं की उपासना करो; अन्य की नहीं। जो हमसे श्रेष्ठ ब्राह्मण हैं — उन्हें आसन देकर शान्त-श्वास से व्यवहार करो। श्रद्धा से दो; अश्रद्धा से नहीं; श्री से दो; ह्री से दो; भय से दो; संविद् से दो। यदि कर्म-संशय या आचरण-संशय हो — वहाँ जो सम्मर्शी, युक्त, अलूक्ष, धर्म-कामी ब्राह्मण हों — वैसे ही व्यवहार करो जैसे वे करें। यह आदेश है; यह उपदेश है; यह वेद-उपनिषद् है; यह अनुशासन है। इस प्रकार उपासना करनी चाहिये; इसी प्रकार उपासित होना चाहिये।"`,
+    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
+    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
+  },
+  '2:10': {
+    explanation: `मैं इस वृक्ष (संसार-वृक्ष) का प्रेरक हूँ। मेरी कीर्ति पर्वत के पृष्ठ की तरह है। ऊर्ध्व-पवित्र, वाजी-घोड़ी की तरह — मैं स्व-अमृत हूँ। द्रविण-सम्पन्न, तेजोयुक्त — सुमेधा, अमर, अक्षय हूँ। — यह त्रिशङ्कु का वेद-अनुवचन है।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '2:11': {
+    explanation: `वेद पढ़ाकर आचार्य अन्तेवासी को अनुशासित करता है — "सत्य बोलो; धर्म का आचरण करो; स्वाध्याय में प्रमाद मत करो; आचार्य को प्रिय धन देकर प्रजा-तन्तु को मत काटो; सत्य से प्रमाद मत करो; धर्म से नहीं; कुशल से नहीं; भूति से नहीं; स्वाध्याय-प्रवचन से नहीं; देव-पितृ कार्य से नहीं। माता देव; पिता देव; आचार्य देव; अतिथि देव। जो अनवद्य (निर्दोष) कर्म हैं — उन्हीं को सेवित करो; अन्य को नहीं। हमारे जो सुचरित हैं — उन्हीं की उपासना करो; अन्य की नहीं। जो हमसे श्रेष्ठ ब्राह्मण हैं — उन्हें आसन देकर शान्त-श्वास से व्यवहार करो। श्रद्धा से दो; अश्रद्धा से नहीं; श्री से दो; ह्री से दो; भय से दो; संविद् से दो। यदि कर्म-संशय या आचरण-संशय हो — वहाँ जो सम्मर्शी, युक्त, अलूक्ष, धर्म-कामी ब्राह्मण हों — वैसे ही व्यवहार करो जैसे वे करें। यह आदेश है; यह उपदेश है; यह वेद-उपनिषद् है; यह अनुशासन है। इस प्रकार उपासना करनी चाहिये; इसी प्रकार उपासित होना चाहिये।"`,
+    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
+    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
+  },
+  '2:12': {
+    explanation: `मित्र शान्त हों, वरुण शान्त हों, अर्यमा शान्त हों, इन्द्र-बृहस्पति शान्त हों, उरुक्रम विष्णु शान्त हों। ब्रह्म को नमस्कार। हे वायु, तुम्हें नमस्कार — तुम्हीं प्रत्यक्ष ब्रह्म हो; तुम्हीं को प्रत्यक्ष ब्रह्म कहा। मैंने ऋत बोला; सत्य बोला। उसने मेरी रक्षा की; वक्ता की भी रक्षा की। ॐ शान्तिः शान्तिः शान्तिः।`,
+    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation. Dharma is the codified wisdom of what sustains both individual and collective flourishing.`,
+    lifeLesson: `Do what is right, not what is easy. Dharma is not about rules — it is about alignment with the natural order that sustains life. When in doubt, choose the action that benefits the whole, not just yourself.`,
+  },
+  '3:11': {
+    explanation: `योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग ब्रह्म पर आश्रित है।`,
+    science: `Neuroscience of flow (Csikszentmihalyi): in flow states, the prefrontal cortex temporarily deactivates — self-referential thinking ceases, and action becomes spontaneous. This is the psychological correlate of liberation: action without the doer.`,
+    lifeLesson: `Freedom is not the absence of responsibility — it is the absence of the ego that resists responsibility. When you act without attachment to results, you are already free, even in the midst of action.`,
+  },
+  '3:12': {
+    explanation: `मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब ब्रह्म ही है, सब ब्रह्म मेरे में है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '3:13': {
+    explanation: `जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '3:14': {
+    explanation: `शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '3:15': {
+    explanation: `एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।`,
+    science: `Neuroscience of loss aversion (Kahneman): the brain processes loss in the amygdala with twice the intensity of equivalent gains. Accepting impermanence reduces this bias, leading to more balanced decision-making and emotional resilience.`,
+    lifeLesson: `Everything changes — your body, relationships, circumstances, even your mind. Clinging to what is changing causes suffering. Practice letting go gracefully, and you will find peace that does not depend on circumstances.`,
+  },
+  '3:16': {
+    explanation: `ॐ। सह नौ आवतु, सह नौ भुनक्तु, सह वीर्यं करवावहै। तेजस्वि नौ अधीतमस्तु मा विद्विषावहै।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
 };

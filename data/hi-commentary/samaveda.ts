@@ -86,4 +86,60 @@ export const samavedaHi: HiCommentaryFragment = {
     science: `संगीत और आध्यात्मिक परात्परता का तंत्रिका विज्ञान (Neuroscience of Music and Transcendence): संगीत के चरम आनंद के क्षणों में — जब रोंगटे खड़े हो जाते हैं, आँखों में आँसू आ जाते हैं या मन पूर्णतः स्थिर हो जाता है — तो हमारे मस्तिष्क में डोपामाइन का स्राव होता है, रिवॉर्ड सिस्टम सक्रिय हो जाता है और वही तंत्रिका संकेत (neural signatures) दिखाई देते हैं जो गहरे आध्यात्मिक अनुभवों में होते हैं। सामवेद का यह सूत्र कि 'साम का रस ही ब्रह्म का रस है' न्यूरोवैज्ञानिक रूप से भी सत्य सिद्ध होता है: संगीत से मिलने वाला दिव्य आनंद मस्तिष्क के उन्हीं हिस्सों को सक्रिय करता है जो आध्यात्मिक अनुभूति में सक्रिय होते हैं।`,
     lifeLesson: `सामवेद हमें एक अत्यंत सहज साधना प्रदान करता है: संगीत को ईश्वर तक पहुँचने का मार्ग बनने दें। ऐसा नहीं कि काम करते हुए पृष्ठभूमि में संगीत बज रहा हो — बल्कि पूर्ण रूप से शांत और एकाग्र होकर भावपूर्ण श्रवण करें। दिन में एक बार, कम से कम १० मिनट के लिए किसी ऐसे संगीत के साथ बैठें जो आपकी चेतना को गहराई से आंदोलित करता हो और उसे अपना संपूर्ण ध्यान दें। संगीत के उस रस (Rasa) को अपने भीतर घुलने दें और उसे सीधे ब्रह्म के रस में परिणत होने दें। यही सामवेद की अनुपम साधना है।`,
   },
+
+  '1:4': {
+    explanation: `योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग ब्रह्म पर आश्रित है।`,
+    science: `Neuroscience of flow (Csikszentmihalyi): in flow states, the prefrontal cortex temporarily deactivates — self-referential thinking ceases, and action becomes spontaneous. This is the psychological correlate of liberation: action without the doer.`,
+    lifeLesson: `Freedom is not the absence of responsibility — it is the absence of the ego that resists responsibility. When you act without attachment to results, you are already free, even in the midst of action.`,
+  },
+  '1:5': {
+    explanation: `मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब ब्रह्म ही है, सब ब्रह्म मेरे में है।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '1:6': {
+    explanation: `जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '1:7': {
+    explanation: `शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '1:8': {
+    explanation: `एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।`,
+    science: `Neuroscience of loss aversion (Kahneman): the brain processes loss in the amygdala with twice the intensity of equivalent gains. Accepting impermanence reduces this bias, leading to more balanced decision-making and emotional resilience.`,
+    lifeLesson: `Everything changes — your body, relationships, circumstances, even your mind. Clinging to what is changing causes suffering. Practice letting go gracefully, and you will find peace that does not depend on circumstances.`,
+  },
+  '1:9': {
+    explanation: `गायत्री ही यह सब है — जो कुछ भी यहाँ है। गायत्री ही सब है — जो हो चुका है और जो होगा।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '1:10': {
+    explanation: `जो यह सूक्ष्मतम सार है — यह सारा जगत उसी को आत्मा के रूप में धारण करता है। वही सत्य है। वही आत्मा है। हे श्वेतकेतु, तुम वही हो।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '1:11': {
+    explanation: `छंद, यज्ञ, क्रतु, व्रत, भूत, भविष्य — जो वेद कहते हैं — यह सब इसी (ब्रह्म) से उत्पन्न होता है। जो इस पुरुष में है और जो उस सूर्य में है — वे एक हैं।`,
+    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
+    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
+  },
+  '1:12': {
+    explanation: `जिसका कोई रसास्वादन करता है — वही साम है। साम का जो रस है — वही साम का रस ब्रह्म का ही रस है।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '4:660': {
+    explanation: `हे अग्नि! यज्ञ के आनंद के लिए आओ, स्तुति करते हुए हव्य देने के लिए; पवित्र कुश पर पुरोहित के रूप में बैठो।`,
+    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
+    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
+  },
+  '4:661': {
+    explanation: `हे अङ्गिरस् अग्नि! हम तुम्हें समिधा और घृत से बढ़ाते हैं। हे सबसे युवा! तेजस्वी रूप से प्रकाशित हो।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
 };

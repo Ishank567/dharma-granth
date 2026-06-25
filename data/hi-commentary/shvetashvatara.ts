@@ -77,4 +77,40 @@ export const shvetashvataraHi: HiCommentaryFragment = {
   '6:45': {
     explanation: `एक ही देव है, दूसरा कोई नहीं — जो तत्व से शिव को जानता है। मैं वही हूँ, कोई संसारी जीव नहीं, न मृत्यु है, न शोक है, इत्यादि।`,
   },
+
+  '1:2': {
+    explanation: `उस महेश्वर को जानें — जो सभी ईश्वरों में परम है, सभी देवताओं में सर्वोच्च है, सभी पतियों का पति है, और जिसके परे कुछ नहीं — जो विश्व का स्वामी और स्तुत्य देव है।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '1:8': {
+    explanation: `प्राणों को यत्न से नियंत्रित करके, और श्वास को नासिका से धीरे-धीरे निकालते हुए — जैसे कोई दुष्ट अश्वों वाले रथ को संभालता है — विद्वान पुरुष को मन को अप्रमत्त होकर धारण करना चाहिए।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
+  '1:10': {
+    explanation: `माया को ही प्रकृति जानो, और मायावी को महेश्वर। उसी के अंगभूत प्राणियों से यह संपूर्ण जगत व्याप्त है।`,
+    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
+    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
+  },
+  '1:11': {
+    explanation: `एक देव सभी प्राणियों में छिपा हुआ है, सर्वव्यापी है, सभी प्राणियों की अंतरात्मा है। वह सभी कर्मों का अध्यक्ष है, सभी प्राणियों में निवासी है, साक्षी है, चेतना है, केवल और निर्गुण है।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '1:14': {
+    explanation: `जैसे वायु आकाश में स्थित होकर भी सर्वत्र गति करती है — वैसे ही सभी प्राणी परमात्मा में स्थित हैं।`,
+    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
+    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
+  },
+  '1:19': {
+    explanation: `वह विश्व का निर्माता है, विश्व का ज्ञाता है, स्वयंभू है; ज्ञाता है, काल का कर्ता है, गुणी है, सर्वज्ञ है, प्रधान और क्षेत्रज्ञ का स्वामी है, गुणों का ईश्वर है, और संसार-बंधन से मोक्ष का कारण भी वही है।`,
+    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
+    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
+  },
+  '1:20': {
+    explanation: `जब मनुष्य आकाश को चमड़े की तरह लपेट लेंगे, तभी — ईश्वर को जाने बिना — दुख का अंत होगा।`,
+    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
+    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
+  },
 };
