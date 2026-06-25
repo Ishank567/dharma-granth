@@ -123,28 +123,18 @@ export const rigvedaHi: HiCommentaryFragment = {
   },
   '10:191': {
     explanation: `योग सूत्रों से योग की परिभाषा, ब्रह्मन् के सन्दर्भ में रखी गई। योग चित्त-वृत्तियों का निरोध है, जो मुक्ति की ओर ले जाता है। इस अभ्यास के माध्यम से सभी बन्धन कट जाते हैं, और यह अभ्यास ब्रह्मन् की नींव पर टिका है।`,
-    science: `citta-vritti-nirodha आधुनिक mindfulness शोध से मेल खाता है (Kabat-Zinn): मन की वृत्तियों का निरोध संज्ञानात्मक स्पष्टता, भावनात्मक संतुलन और कल्याण में मापनीय सुधार लाता है। ब्रह्म के आधार पर टिकी यह साधना secure base का आध्यात्मिक समतुल्य है।`,
-    lifeLesson: `मन की शान्ति ब्रह्म के स्मरण में टिके रहने से स्वाभाविक रूप से आती है। जब मन भटके, उसे वापस ब्रह्म के स्मरण में लाइए — यही योग है, यही मुक्ति है।`,
   },
   '10:192': {
     explanation: `ब्रह्मन् के साथ अद्वैत की घोषणा परम के रूप में। व्यक्तिगत स्व ब्रह्मन् है; जगत् ब्रह्मन् है; इस पहचान में सभी भेद विलीन हो जाते हैं।`,
-    science: `Non-dual awareness पर न्यूरोसाइंस शोध (Travis, Shear): EEG अध्ययनों में अद्वैत अनुभव की अवस्था में प्रीफ्रंटल कॉर्टेक्स की समन्वित सक्रियता और डिफ़ॉल्ट-मोड-नेटवर्क का शान्त होना देखा गया है — self-other विभाजन का विलयन वास्तविक तंत्रिका-घटना है।`,
-    lifeLesson: `जब आप पहचानते हैं कि आप वही हैं जो सबमें व्याप्त है — तब कोई दूसरा नहीं बचता जिससे डरना हो। अहंकार की सीमाओं को छोड़कर विराट चेतना में विश्राम कीजिए।`,
   },
   '10:193': {
     explanation: `ब्रह्मन् में व्यक्तित्व का विघटन। नदियों के समुद्र में और दीपों के ज्योति में विलीन होने के चित्र पृथक् पहचान के लोप को दर्शाते हैं जबकि सार बना रहता है।`,
-    science: `Ego dissolution पर शोध (Carhart-Harris, fMRI): मस्तिष्क के Default Mode Network का शान्त होना self की सीमाओं के विलयन के साथ मेल खाता है। नदियों का समुद्र में लीन होना इसी तंत्रिका-घटना का पौराणिक बिम्ब है।`,
-    lifeLesson: `नदी समुद्र में मिलकर नष्ट नहीं होती — वह समुद्र ही जाती है। अहंकार का त्याग अस्तित्व का त्याग नहीं, अस्तित्व का विस्तार है।`,
   },
   '10:194': {
     explanation: `ब्रह्मन् के गुण: शांत, शिव, अद्वैत, नित्य, शुद्ध, अच्युत। ज्ञान ही दृष्टि है; अज्ञान ही अन्धता है।`,
-    science: `Spiritual intelligence पर शोध (Zohar & Marshall, Emmons): आध्यात्मिक बुद्धि — जो अर्थ, मूल्य और अस्तित्व के प्रश्नों से जुड़ी है — एक विशिष्ट संज्ञानात्मक क्षमता है जो बौद्धिक बुद्धि (IQ) से स्वतंत्र है। ब्रह्म के गुणों का मनन इसी बुद्धि को विकसित करता है।`,
-    lifeLesson: `ब्रह्म के गुणों — शान्त, शिव, अद्वैत, नित्य, शुद्ध, अच्युत — का मनन करना केवल बौद्धिक अभ्यास नहीं, बल्कि चेतना को परिष्कृत करने का मार्ग है। आज इन छह गुणों में से किसी एक पर ध्यान केंद्रित कीजिए।`,
   },
   '10:195': {
     explanation: `अद्वैत की पुष्टि: एक सत्य, दूसरा कोई नहीं। जानने वाला पहचानता है "मैं वही हूँ" और मृत्यु, शोक और समस्त दुःख से परे हो जाता है।`,
-    science: `Non-dual awareness और भावनात्मक कल्याण पर शोध (Travis, Shear): अद्वैत अनुभव की स्थायी अवस्था में amygdala की प्रतिक्रियशीलता कम होती है और प्रीफ्रंटल कॉर्टेक्स का नियंत्रण बढ़ता है — सोऽहम् की पहचान वास्तविक तंत्रिका-शान्ति उत्पन्न करती है।`,
-    lifeLesson: `सोऽहम् — यह पहचान जीवन के सभी भय, शोक और दुःखों को जड़ से काट देती है। आज किसी भी चिंता के समय रुककर यह स्मरण कीजिए: मैं शरीर नहीं, मैं वही हूँ जो शरीर को देख रहा है।`,
   },
   '10:196': {
     explanation: `ऋ.वे. १.१६४.४६ — ऋग्वेद के सबसे प्रसिद्ध श्लोकों में से एक, जिसे अक्सर अद्वैत के सबसे प्रारम्भिक कथन के रूप में उद्धृत किया जाता है। "एकं सत्" — सत्य एक है। विद्वान उसे अनेक प्रकार से वर्णित करते हैं। वही सत्य अग्नि (अग्नि), यम (मृत्यु/धर्म), मातरिश्वन् (वायु) कहलाता है। यह बहुदेवतावाद नहीं बल्कि यह पहचान है कि एक सत्य के अनेक नाम और रूप हैं। ऋग्वेद में पहले से बाद की वेदान्तिक शिक्षा का बीज है: एकं सद्विप्रा बहुधा वदन्ति।`,
@@ -172,573 +162,287 @@ export const rigvedaHi: HiCommentaryFragment = {
     lifeLesson: `यज्ञ केवल अनुष्ठानिक बलिदान के बारे में नहीं है — यह सभी रूपों में आत्म-दान के बारे में है। आज आप बिना प्रतिफल की प्रतीक्षा किए क्या दे सकते हैं? समय, ध्यान, दयालुता, संसाधन? ऋग्वेद कहता है: इसी प्रकार देवों ने अपनी स्थिति प्राप्त की। वही सिद्धांत मनुष्यों पर लागू होता है। बिना गणना के दें, और देखें क्या लौटता है।`,
   },
 
-  '1:1.2': {
-    explanation: `सत् (सत्य) एक ही है; विद्वान उसे अनेक नामों से पुकारते हैं — अग्नि, यम, मातरिश्वा आदि।`,
-    science: `Psychology of authenticity (Harter): living in alignment with one's true values correlates with higher well-being, lower stress, and stronger relationships. Deception, even self-deception, creates cognitive dissonance that drains mental energy.`,
-    lifeLesson: `Truth is not just about what you say — it is about who you are. Be honest with yourself first. The most damaging lies are the ones we tell ourselves. Practice radical honesty, starting with your own heart.`,
-  },
-  '2:1.2': {
-    explanation: `ऋत के मार्ग को कोई धोखा नहीं दे सकता। वक्र पथ पर चलने वाले नष्ट हो जाते हैं। ऋत से ही वह विशाल द्युलोक प्राप्त होता है — दुष्कर्मी उसे नहीं पा सकता।`,
-    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
-    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
-  },
-  '2:1.3': {
-    explanation: `पुरुष (विराट्) के हज़ार सिर, हज़ार आँखें और हज़ार पैर हैं। वह सब ओर से पृथ्वी को व्याप्त करके दस अंगुल अतिक्रमण करके स्थित है।`,
-    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
-    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
-  },
-  '2:1.8': {
-    explanation: `हे वरुण, उन बन्धनों से मुझे मुक्त करो जिनसे मैं बँधा हूँ, हे जातवेद। क्योंकि तुम्हारी इच्छा से ही — हम तुम्हारे सुमित्र हों।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
-  },
-  '2:11.17': {
-    explanation: `इन्द्र अपनी माया-शक्तियों से अनेक रूप धारण करके विचरते हैं। उनके दस सौ सुनहरे अश्व जुते हैं। उन्हें शक्र कहते हैं — जो स्वर्ग-प्रकाश प्राप्त करे, सत्पुरुषों का स्वामी, वह शूर हो।`,
-    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
-    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
-  },
-  '2:11.18': {
-    explanation: `हे मरुतो — तुम्हारे पास जो बल है, जो सत्य है, जो संकल्पशक्ति है — उससे मुझे नीचे गिरने से बचाओ।`,
-    science: `Psychology of authenticity (Harter): living in alignment with one's true values correlates with higher well-being, lower stress, and stronger relationships. Deception, even self-deception, creates cognitive dissonance that drains mental energy.`,
-    lifeLesson: `Truth is not just about what you say — it is about who you are. Be honest with yourself first. The most damaging lies are the ones we tell ourselves. Practice radical honesty, starting with your own heart.`,
-  },
-  '3:1.2': {
-    explanation: `अग्नि एक ही है, अनेक प्रकार से प्रज्वलित। सूर्य एक ही है, सारे जगत् में व्याप्त। उषा एक ही है — वह सब को प्रकाशित करती है। वास्तव में यह सब वही एक है।`,
-    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
-    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
-  },
-  '3:1.3': {
-    explanation: `पुरुष (विराट्) के हज़ार सिर, हज़ार आँखें और हज़ार पैर हैं। वह सब ओर से पृथ्वी को व्याप्त करके दस अंगुल अतिक्रमण करके स्थित है।`,
-    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
-    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
-  },
-  '3:1.8': {
-    explanation: `हे वरुण, उन बन्धनों से मुझे मुक्त करो जिनसे मैं बँधा हूँ, हे जातवेद। क्योंकि तुम्हारी इच्छा से ही — हम तुम्हारे सुमित्र हों।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
-  },
-  '3:1.12': {
-    explanation: `ऋत के मार्ग को कोई धोखा नहीं दे सकता। वक्र पथ पर चलने वाले नष्ट हो जाते हैं। ऋत से ही वह विशाल द्युलोक प्राप्त होता है — दुष्कर्मी उसे नहीं पा सकता।`,
-    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
-    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
-  },
-  '3:1.17': {
-    explanation: `इन्द्र अपनी माया-शक्तियों से अनेक रूप धारण करके विचरते हैं। उनके दस सौ सुनहरे अश्व जुते हैं। उन्हें शक्र कहते हैं — जो स्वर्ग-प्रकाश प्राप्त करे, सत्पुरुषों का स्वामी, वह शूर हो।`,
-    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
-    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
-  },
-  '3:1.18': {
-    explanation: `हे मरुतो — तुम्हारे पास जो बल है, जो सत्य है, जो संकल्पशक्ति है — उससे मुझे नीचे गिरने से बचाओ।`,
-    science: `Psychology of authenticity (Harter): living in alignment with one's true values correlates with higher well-being, lower stress, and stronger relationships. Deception, even self-deception, creates cognitive dissonance that drains mental energy.`,
-    lifeLesson: `Truth is not just about what you say — it is about who you are. Be honest with yourself first. The most damaging lies are the ones we tell ourselves. Practice radical honesty, starting with your own heart.`,
-  },
-  '4:1.2': {
-    explanation: `इन्द्र अपनी माया-शक्तियों से अनेक रूप धारण करके विचरते हैं। उनके दस सौ सुनहरे अश्व जुते हैं। उन्हें शक्र कहते हैं — जो स्वर्ग-प्रकाश प्राप्त करे, सत्पुरुषों का स्वामी, वह शूर हो।`,
-    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
-    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
-  },
-  '4:1.3': {
-    explanation: `पुरुष (विराट्) के हज़ार सिर, हज़ार आँखें और हज़ार पैर हैं। वह सब ओर से पृथ्वी को व्याप्त करके दस अंगुल अतिक्रमण करके स्थित है।`,
-    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
-    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
-  },
-  '4:1.8': {
-    explanation: `हे वरुण, उन बन्धनों से मुझे मुक्त करो जिनसे मैं बँधा हूँ, हे जातवेद। क्योंकि तुम्हारी इच्छा से ही — हम तुम्हारे सुमित्र हों।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
-  },
-  '4:1.12': {
-    explanation: `ऋत के मार्ग को कोई धोखा नहीं दे सकता। वक्र पथ पर चलने वाले नष्ट हो जाते हैं। ऋत से ही वह विशाल द्युलोक प्राप्त होता है — दुष्कर्मी उसे नहीं पा सकता।`,
-    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
-    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
-  },
-  '4:1.18': {
-    explanation: `हे मरुतो — तुम्हारे पास जो बल है, जो सत्य है, जो संकल्पशक्ति है — उससे मुझे नीचे गिरने से बचाओ।`,
-    science: `Psychology of authenticity (Harter): living in alignment with one's true values correlates with higher well-being, lower stress, and stronger relationships. Deception, even self-deception, creates cognitive dissonance that drains mental energy.`,
-    lifeLesson: `Truth is not just about what you say — it is about who you are. Be honest with yourself first. The most damaging lies are the ones we tell ourselves. Practice radical honesty, starting with your own heart.`,
-  },
-  '5:1.2': {
-    explanation: `हे मरुतो — तुम्हारे पास जो बल है, जो सत्य है, जो संकल्पशक्ति है — उससे मुझे नीचे गिरने से बचाओ।`,
-    science: `Psychology of authenticity (Harter): living in alignment with one's true values correlates with higher well-being, lower stress, and stronger relationships. Deception, even self-deception, creates cognitive dissonance that drains mental energy.`,
-    lifeLesson: `Truth is not just about what you say — it is about who you are. Be honest with yourself first. The most damaging lies are the ones we tell ourselves. Practice radical honesty, starting with your own heart.`,
-  },
-  '5:1.3': {
-    explanation: `पुरुष (विराट्) के हज़ार सिर, हज़ार आँखें और हज़ार पैर हैं। वह सब ओर से पृथ्वी को व्याप्त करके दस अंगुल अतिक्रमण करके स्थित है।`,
-    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
-    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
-  },
-  '5:1.8': {
-    explanation: `हे वरुण, उन बन्धनों से मुझे मुक्त करो जिनसे मैं बँधा हूँ, हे जातवेद। क्योंकि तुम्हारी इच्छा से ही — हम तुम्हारे सुमित्र हों।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
-  },
-  '5:1.12': {
-    explanation: `ऋत के मार्ग को कोई धोखा नहीं दे सकता। वक्र पथ पर चलने वाले नष्ट हो जाते हैं। ऋत से ही वह विशाल द्युलोक प्राप्त होता है — दुष्कर्मी उसे नहीं पा सकता।`,
-    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
-    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
-  },
-  '5:41.17': {
-    explanation: `इन्द्र अपनी माया-शक्तियों से अनेक रूप धारण करके विचरते हैं। उनके दस सौ सुनहरे अश्व जुते हैं। उन्हें शक्र कहते हैं — जो स्वर्ग-प्रकाश प्राप्त करे, सत्पुरुषों का स्वामी, वह शूर हो।`,
-    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
-    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
-  },
-  '6:1.2': {
-    explanation: `हे इन्द्र, पिता की तरह हमें क्रतु (संकल्पशक्ति) लाओ। हे वसु (समृद्धि के स्वामी), पुरन्दर (बाधाओं के नाशक) — हमारी पुकार सुनो।`,
-    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
-    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
-  },
-  '6:1.3': {
-    explanation: `पुरुष (विराट्) के हज़ार सिर, हज़ार आँखें और हज़ार पैर हैं। वह सब ओर से पृथ्वी को व्याप्त करके दस अंगुल अतिक्रमण करके स्थित है।`,
-    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
-    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
-  },
-  '6:1.8': {
-    explanation: `हे वरुण, उन बन्धनों से मुझे मुक्त करो जिनसे मैं बँधा हूँ, हे जातवेद। क्योंकि तुम्हारी इच्छा से ही — हम तुम्हारे सुमित्र हों।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
-  },
-  '6:1.12': {
-    explanation: `ऋत के मार्ग को कोई धोखा नहीं दे सकता। वक्र पथ पर चलने वाले नष्ट हो जाते हैं। ऋत से ही वह विशाल द्युलोक प्राप्त होता है — दुष्कर्मी उसे नहीं पा सकता।`,
-    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
-    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
-  },
-  '6:15.17': {
-    explanation: `इन्द्र अपनी माया-शक्तियों से अनेक रूप धारण करके विचरते हैं। उनके दस सौ सुनहरे अश्व जुते हैं। उन्हें शक्र कहते हैं — जो स्वर्ग-प्रकाश प्राप्त करे, सत्पुरुषों का स्वामी, वह शूर हो।`,
-    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
-    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
-  },
-  '6:15.18': {
-    explanation: `हे मरुतो — तुम्हारे पास जो बल है, जो सत्य है, जो संकल्पशक्ति है — उससे मुझे नीचे गिरने से बचाओ।`,
-    science: `Psychology of authenticity (Harter): living in alignment with one's true values correlates with higher well-being, lower stress, and stronger relationships. Deception, even self-deception, creates cognitive dissonance that drains mental energy.`,
-    lifeLesson: `Truth is not just about what you say — it is about who you are. Be honest with yourself first. The most damaging lies are the ones we tell ourselves. Practice radical honesty, starting with your own heart.`,
-  },
-  '6:16.48': {
-    explanation: `हमने सोम पिया है; हम अमर हो गए; हम प्रकाश को पहुँचे; हमने देवताओं को पाया। अब शत्रुता हमारा क्या कर सकती है? हे अमर, किसी मर्त्य की दुर्भावना क्या कर सकती है?`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
-  },
-  '7:1.2': {
-    explanation: `हे वरुण, उन बन्धनों से मुझे मुक्त करो जिनसे मैं बँधा हूँ, हे जातवेद। क्योंकि तुम्हारी इच्छा से ही — हम तुम्हारे सुमित्र हों।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
-  },
-  '7:1.3': {
-    explanation: `हे वरुण, हमें मत मारो, हमें हानि मत पहुँचाओ। जो हमें प्रिय है उसे मत मारो। हे इन्द्र-वरुण, हमें आश्रय दो; मृत्यु से हमारी रक्षा करो; दीर्घायु के लिए हमारी रक्षा करो।`,
-    science: `Neuroscience of loss aversion (Kahneman): the brain processes loss in the amygdala with twice the intensity of equivalent gains. Accepting impermanence reduces this bias, leading to more balanced decision-making and emotional resilience.`,
-    lifeLesson: `Everything changes — your body, relationships, circumstances, even your mind. Clinging to what is changing causes suffering. Practice letting go gracefully, and you will find peace that does not depend on circumstances.`,
-  },
-  '7:1.12': {
-    explanation: `ऋत के मार्ग को कोई धोखा नहीं दे सकता। वक्र पथ पर चलने वाले नष्ट हो जाते हैं। ऋत से ही वह विशाल द्युलोक प्राप्त होता है — दुष्कर्मी उसे नहीं पा सकता।`,
-    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
-    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
-  },
-  '7:1.17': {
-    explanation: `इन्द्र अपनी माया-शक्तियों से अनेक रूप धारण करके विचरते हैं। उनके दस सौ सुनहरे अश्व जुते हैं। उन्हें शक्र कहते हैं — जो स्वर्ग-प्रकाश प्राप्त करे, सत्पुरुषों का स्वामी, वह शूर हो।`,
-    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
-    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
-  },
-  '7:1.18': {
-    explanation: `हे मरुतो — तुम्हारे पास जो बल है, जो सत्य है, जो संकल्पशक्ति है — उससे मुझे नीचे गिरने से बचाओ।`,
-    science: `Psychology of authenticity (Harter): living in alignment with one's true values correlates with higher well-being, lower stress, and stronger relationships. Deception, even self-deception, creates cognitive dissonance that drains mental energy.`,
-    lifeLesson: `Truth is not just about what you say — it is about who you are. Be honest with yourself first. The most damaging lies are the ones we tell ourselves. Practice radical honesty, starting with your own heart.`,
-  },
-  '8:1.2': {
-    explanation: `हमने सोम पिया है; हम अमर हो गए; हम प्रकाश को पहुँचे; हमने देवताओं को पाया। अब शत्रुता हमारा क्या कर सकती है? हे अमर, किसी मर्त्य की दुर्भावना क्या कर सकती है?`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
-  },
-  '8:1.3': {
-    explanation: `पुरुष (विराट्) के हज़ार सिर, हज़ार आँखें और हज़ार पैर हैं। वह सब ओर से पृथ्वी को व्याप्त करके दस अंगुल अतिक्रमण करके स्थित है।`,
-    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
-    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
-  },
-  '8:1.8': {
-    explanation: `हे वरुण, उन बन्धनों से मुझे मुक्त करो जिनसे मैं बँधा हूँ, हे जातवेद। क्योंकि तुम्हारी इच्छा से ही — हम तुम्हारे सुमित्र हों।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
-  },
-  '8:1.12': {
-    explanation: `ऋत के मार्ग को कोई धोखा नहीं दे सकता। वक्र पथ पर चलने वाले नष्ट हो जाते हैं। ऋत से ही वह विशाल द्युलोक प्राप्त होता है — दुष्कर्मी उसे नहीं पा सकता।`,
-    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
-    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
-  },
-  '8:1.17': {
-    explanation: `इन्द्र अपनी माया-शक्तियों से अनेक रूप धारण करके विचरते हैं। उनके दस सौ सुनहरे अश्व जुते हैं। उन्हें शक्र कहते हैं — जो स्वर्ग-प्रकाश प्राप्त करे, सत्पुरुषों का स्वामी, वह शूर हो।`,
-    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
-    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
-  },
-  '8:1.18': {
-    explanation: `हे मरुतो — तुम्हारे पास जो बल है, जो सत्य है, जो संकल्पशक्ति है — उससे मुझे नीचे गिरने से बचाओ।`,
-    science: `Psychology of authenticity (Harter): living in alignment with one's true values correlates with higher well-being, lower stress, and stronger relationships. Deception, even self-deception, creates cognitive dissonance that drains mental energy.`,
-    lifeLesson: `Truth is not just about what you say — it is about who you are. Be honest with yourself first. The most damaging lies are the ones we tell ourselves. Practice radical honesty, starting with your own heart.`,
-  },
-  '8:6.47': {
-    explanation: `हे इन्द्र, पिता की तरह हमें क्रतु (संकल्पशक्ति) लाओ। हे वसु (समृद्धि के स्वामी), पुरन्दर (बाधाओं के नाशक) — हमारी पुकार सुनो।`,
-    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
-    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
-  },
-  '9:1.2': {
-    explanation: `हे देव सवितर, वांछनीय वस्तुओं के स्वामी — हे सोम राज, अमृत की प्रचुरता को समेटे उस बूँद को इन्द्र के लिए शुद्ध करो।`,
-    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
-    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
-  },
-  '9:1.3': {
-    explanation: `पुरुष (विराट्) के हज़ार सिर, हज़ार आँखें और हज़ार पैर हैं। वह सब ओर से पृथ्वी को व्याप्त करके दस अंगुल अतिक्रमण करके स्थित है।`,
-    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
-    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
-  },
-  '9:1.8': {
-    explanation: `हे वरुण, उन बन्धनों से मुझे मुक्त करो जिनसे मैं बँधा हूँ, हे जातवेद। क्योंकि तुम्हारी इच्छा से ही — हम तुम्हारे सुमित्र हों।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
-  },
-  '9:61.12': {
-    explanation: `ऋत के मार्ग को कोई धोखा नहीं दे सकता। वक्र पथ पर चलने वाले नष्ट हो जाते हैं। ऋत से ही वह विशाल द्युलोक प्राप्त होता है — दुष्कर्मी उसे नहीं पा सकता।`,
-    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
-    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
-  },
-  '9:61.17': {
-    explanation: `इन्द्र अपनी माया-शक्तियों से अनेक रूप धारण करके विचरते हैं। उनके दस सौ सुनहरे अश्व जुते हैं। उन्हें शक्र कहते हैं — जो स्वर्ग-प्रकाश प्राप्त करे, सत्पुरुषों का स्वामी, वह शूर हो।`,
-    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
-    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
-  },
-  '9:61.18': {
-    explanation: `हे मरुतो — तुम्हारे पास जो बल है, जो सत्य है, जो संकल्पशक्ति है — उससे मुझे नीचे गिरने से बचाओ।`,
-    science: `Psychology of authenticity (Harter): living in alignment with one's true values correlates with higher well-being, lower stress, and stronger relationships. Deception, even self-deception, creates cognitive dissonance that drains mental energy.`,
-    lifeLesson: `Truth is not just about what you say — it is about who you are. Be honest with yourself first. The most damaging lies are the ones we tell ourselves. Practice radical honesty, starting with your own heart.`,
-  },
-  '9:86.47': {
-    explanation: `हे इन्द्र, पिता की तरह हमें क्रतु (संकल्पशक्ति) लाओ। हे वसु (समृद्धि के स्वामी), पुरन्दर (बाधाओं के नाशक) — हमारी पुकार सुनो।`,
-    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
-    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
-  },
-  '9:86.48': {
-    explanation: `हमने सोम पिया है; हम अमर हो गए; हम प्रकाश को पहुँचे; हमने देवताओं को पाया। अब शत्रुता हमारा क्या कर सकती है? हे अमर, किसी मर्त्य की दुर्भावना क्या कर सकती है?`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
-  },
-  '10:1.2': {
-    explanation: `कौन वास्तव में जानता है? यहाँ कौन बता सकता है? यह कहाँ से उत्पन्न हुआ? यह सृष्टि कहाँ से आई? देवता इस सृष्टि के बाद आए — तो फिर कौन जानता है यह कहाँ से उत्पन्न हुई?`,
-    science: `Cosmology (Big Bang theory): the universe emerged from a singularity 13.8 billion years ago and continues to expand. The ancient insight that all creation arises from a single source parallels the modern understanding of cosmic unity.`,
-    lifeLesson: `You are not separate from the rest of creation — you are an expression of the same universal process. When you see yourself as part of the whole, your actions naturally align with the well-being of all.`,
-  },
-  '10:1.3': {
-    explanation: `पुरुष (विराट्) के हज़ार सिर, हज़ार आँखें और हज़ार पैर हैं। वह सब ओर से पृथ्वी को व्याप्त करके दस अंगुल अतिक्रमण करके स्थित है।`,
-    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
-    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
-  },
-  '10:1.4': {
-    explanation: `तप से ब्रह्म बढ़ता है; उससे अन्न उत्पन्न होता है; अन्न से प्राण उत्पन्न होता है; प्राण से मन और सत्य उत्पन्न होते हैं।`,
-    science: `Psychology of authenticity (Harter): living in alignment with one's true values correlates with higher well-being, lower stress, and stronger relationships. Deception, even self-deception, creates cognitive dissonance that drains mental energy.`,
-    lifeLesson: `Truth is not just about what you say — it is about who you are. Be honest with yourself first. The most damaging lies are the ones we tell ourselves. Practice radical honesty, starting with your own heart.`,
-  },
-  '10:8.8': {
-    explanation: `योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग ब्रह्म पर आश्रित है।`,
-    science: `Neuroscience of flow (Csikszentmihalyi): in flow states, the prefrontal cortex temporarily deactivates — self-referential thinking ceases, and action becomes spontaneous. This is the psychological correlate of liberation: action without the doer.`,
-    lifeLesson: `Freedom is not the absence of responsibility — it is the absence of the ego that resists responsibility. When you act without attachment to results, you are already free, even in the midst of action.`,
-  },
-  '10:10.12': {
-    explanation: `मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब ब्रह्म ही है, सब ब्रह्म मेरे में है।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
-  },
-  '10:27.17': {
-    explanation: `जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
-  },
-  '10:27.18': {
-    explanation: `शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
-  },
-  '10:85.47': {
-    explanation: `एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।`,
-    science: `Neuroscience of loss aversion (Kahneman): the brain processes loss in the amygdala with twice the intensity of equivalent gains. Accepting impermanence reduces this bias, leading to more balanced decision-making and emotional resilience.`,
-    lifeLesson: `Everything changes — your body, relationships, circumstances, even your mind. Clinging to what is changing causes suffering. Practice letting go gracefully, and you will find peace that does not depend on circumstances.`,
-  },
-
-  '1:1002': {
+  '1:101012': {
     explanation: `सत् (सत्य) एक ही है; विद्वान उसे अनेक नामों से पुकारते हैं — अग्नि, यम, मातरिश्वा आदि।`,
     science: `Psychology of authenticity (Harter): living in alignment with one's true values correlates with higher well-being.`,
     lifeLesson: `Be honest with yourself first. The most damaging lies are the ones we tell ourselves.`,
   },
-  '2:1002': {
+  '2:102012': {
     explanation: `ऋत के मार्ग को कोई धोखा नहीं दे सकता। वक्र पथ पर चलने वाले नष्ट हो जाते हैं। ऋत से ही वह विशाल द्युलोक प्राप्त होता है — दुष्कर्मी उसे नहीं पा सकता।`,
     science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
     lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
   },
-  '2:1003': {
+  '2:102013': {
     explanation: `पुरुष (विराट्) के हज़ार सिर, हज़ार आँखें और हज़ार पैर हैं। वह सब ओर से पृथ्वी को व्याप्त करके दस अंगुल अतिक्रमण करके स्थित है।`,
     science: `Ecopsychology: exposure to natural environments reduces cortisol and enhances emotional regulation.`,
     lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is a return, not an escape.`,
   },
-  '2:1008': {
+  '2:102018': {
     explanation: `हे वरुण, उन बन्धनों से मुझे मुक्त करो जिनसे मैं बँधा हूँ, हे जातवेद। क्योंकि तुम्हारी इच्छा से ही — हम तुम्हारे सुमित्र हों।`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '2:11017': {
+  '2:102127': {
     explanation: `इन्द्र अपनी माया-शक्तियों से अनेक रूप धारण करके विचरते हैं। उनके दस सौ सुनहरे अश्व जुते हैं। उन्हें शक्र कहते हैं — जो स्वर्ग-प्रकाश प्राप्त करे, सत्पुरुषों का स्वामी, वह शूर हो।`,
     science: `Predictive processing (Friston): the brain constructs a model of reality and projects it onto perception. What we experience as "reality" is the brain's best prediction.`,
     lifeLesson: `What you perceive is not reality — it is your mind's interpretation. Question your assumptions.`,
   },
-  '2:11018': {
+  '2:102128': {
     explanation: `हे मरुतो — तुम्हारे पास जो बल है, जो सत्य है, जो संकल्पशक्ति है — उससे मुझे नीचे गिरने से बचाओ।`,
     science: `Psychology of authenticity (Harter): living in alignment with one's true values correlates with higher well-being.`,
     lifeLesson: `Be honest with yourself first. The most damaging lies are the ones we tell ourselves.`,
   },
-  '3:1002': {
+  '3:103012': {
     explanation: `अग्नि एक ही है, अनेक प्रकार से प्रज्वलित। सूर्य एक ही है, सारे जगत् में व्याप्त। उषा एक ही है — वह सब को प्रकाशित करती है। वास्तव में यह सब वही एक है।`,
     science: `Ecopsychology: exposure to natural environments reduces cortisol and enhances emotional regulation.`,
     lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is a return, not an escape.`,
   },
-  '3:1003': {
+  '3:103013': {
     explanation: `पुरुष (विराट्) के हज़ार सिर, हज़ार आँखें और हज़ार पैर हैं। वह सब ओर से पृथ्वी को व्याप्त करके दस अंगुल अतिक्रमण करके स्थित है।`,
     science: `Ecopsychology: exposure to natural environments reduces cortisol and enhances emotional regulation.`,
     lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is a return, not an escape.`,
   },
-  '3:1008': {
+  '3:103018': {
     explanation: `हे वरुण, उन बन्धनों से मुझे मुक्त करो जिनसे मैं बँधा हूँ, हे जातवेद। क्योंकि तुम्हारी इच्छा से ही — हम तुम्हारे सुमित्र हों।`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '3:1012': {
+  '3:103022': {
     explanation: `ऋत के मार्ग को कोई धोखा नहीं दे सकता। वक्र पथ पर चलने वाले नष्ट हो जाते हैं। ऋत से ही वह विशाल द्युलोक प्राप्त होता है — दुष्कर्मी उसे नहीं पा सकता।`,
     science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
     lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
   },
-  '3:1017': {
+  '3:103027': {
     explanation: `इन्द्र अपनी माया-शक्तियों से अनेक रूप धारण करके विचरते हैं। उनके दस सौ सुनहरे अश्व जुते हैं। उन्हें शक्र कहते हैं — जो स्वर्ग-प्रकाश प्राप्त करे, सत्पुरुषों का स्वामी, वह शूर हो।`,
     science: `Predictive processing (Friston): the brain constructs a model of reality and projects it onto perception. What we experience as "reality" is the brain's best prediction.`,
     lifeLesson: `What you perceive is not reality — it is your mind's interpretation. Question your assumptions.`,
   },
-  '3:1018': {
+  '3:103028': {
     explanation: `हे मरुतो — तुम्हारे पास जो बल है, जो सत्य है, जो संकल्पशक्ति है — उससे मुझे नीचे गिरने से बचाओ।`,
     science: `Psychology of authenticity (Harter): living in alignment with one's true values correlates with higher well-being.`,
     lifeLesson: `Be honest with yourself first. The most damaging lies are the ones we tell ourselves.`,
   },
-  '4:1002': {
+  '4:104012': {
     explanation: `इन्द्र अपनी माया-शक्तियों से अनेक रूप धारण करके विचरते हैं। उनके दस सौ सुनहरे अश्व जुते हैं। उन्हें शक्र कहते हैं — जो स्वर्ग-प्रकाश प्राप्त करे, सत्पुरुषों का स्वामी, वह शूर हो।`,
     science: `Predictive processing (Friston): the brain constructs a model of reality and projects it onto perception. What we experience as "reality" is the brain's best prediction.`,
     lifeLesson: `What you perceive is not reality — it is your mind's interpretation. Question your assumptions.`,
   },
-  '4:1003': {
+  '4:104013': {
     explanation: `पुरुष (विराट्) के हज़ार सिर, हज़ार आँखें और हज़ार पैर हैं। वह सब ओर से पृथ्वी को व्याप्त करके दस अंगुल अतिक्रमण करके स्थित है।`,
     science: `Ecopsychology: exposure to natural environments reduces cortisol and enhances emotional regulation.`,
     lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is a return, not an escape.`,
   },
-  '4:1008': {
+  '4:104018': {
     explanation: `हे वरुण, उन बन्धनों से मुझे मुक्त करो जिनसे मैं बँधा हूँ, हे जातवेद। क्योंकि तुम्हारी इच्छा से ही — हम तुम्हारे सुमित्र हों।`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '4:1012': {
+  '4:104022': {
     explanation: `ऋत के मार्ग को कोई धोखा नहीं दे सकता। वक्र पथ पर चलने वाले नष्ट हो जाते हैं। ऋत से ही वह विशाल द्युलोक प्राप्त होता है — दुष्कर्मी उसे नहीं पा सकता।`,
     science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
     lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
   },
-  '4:1018': {
+  '4:104028': {
     explanation: `हे मरुतो — तुम्हारे पास जो बल है, जो सत्य है, जो संकल्पशक्ति है — उससे मुझे नीचे गिरने से बचाओ।`,
     science: `Psychology of authenticity (Harter): living in alignment with one's true values correlates with higher well-being.`,
     lifeLesson: `Be honest with yourself first. The most damaging lies are the ones we tell ourselves.`,
   },
-  '5:1002': {
+  '5:105012': {
     explanation: `हे मरुतो — तुम्हारे पास जो बल है, जो सत्य है, जो संकल्पशक्ति है — उससे मुझे नीचे गिरने से बचाओ।`,
     science: `Psychology of authenticity (Harter): living in alignment with one's true values correlates with higher well-being.`,
     lifeLesson: `Be honest with yourself first. The most damaging lies are the ones we tell ourselves.`,
   },
-  '5:1003': {
+  '5:105013': {
     explanation: `पुरुष (विराट्) के हज़ार सिर, हज़ार आँखें और हज़ार पैर हैं। वह सब ओर से पृथ्वी को व्याप्त करके दस अंगुल अतिक्रमण करके स्थित है।`,
     science: `Ecopsychology: exposure to natural environments reduces cortisol and enhances emotional regulation.`,
     lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is a return, not an escape.`,
   },
-  '5:1008': {
+  '5:105018': {
     explanation: `हे वरुण, उन बन्धनों से मुझे मुक्त करो जिनसे मैं बँधा हूँ, हे जातवेद। क्योंकि तुम्हारी इच्छा से ही — हम तुम्हारे सुमित्र हों।`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '5:1012': {
+  '5:105022': {
     explanation: `ऋत के मार्ग को कोई धोखा नहीं दे सकता। वक्र पथ पर चलने वाले नष्ट हो जाते हैं। ऋत से ही वह विशाल द्युलोक प्राप्त होता है — दुष्कर्मी उसे नहीं पा सकता।`,
     science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
     lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
   },
-  '5:41017': {
+  '5:105427': {
     explanation: `इन्द्र अपनी माया-शक्तियों से अनेक रूप धारण करके विचरते हैं। उनके दस सौ सुनहरे अश्व जुते हैं। उन्हें शक्र कहते हैं — जो स्वर्ग-प्रकाश प्राप्त करे, सत्पुरुषों का स्वामी, वह शूर हो।`,
     science: `Predictive processing (Friston): the brain constructs a model of reality and projects it onto perception. What we experience as "reality" is the brain's best prediction.`,
     lifeLesson: `What you perceive is not reality — it is your mind's interpretation. Question your assumptions.`,
   },
-  '6:1002': {
+  '6:106012': {
     explanation: `हे इन्द्र, पिता की तरह हमें क्रतु (संकल्पशक्ति) लाओ। हे वसु (समृद्धि के स्वामी), पुरन्दर (बाधाओं के नाशक) — हमारी पुकार सुनो।`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '6:1003': {
+  '6:106013': {
     explanation: `पुरुष (विराट्) के हज़ार सिर, हज़ार आँखें और हज़ार पैर हैं। वह सब ओर से पृथ्वी को व्याप्त करके दस अंगुल अतिक्रमण करके स्थित है।`,
     science: `Ecopsychology: exposure to natural environments reduces cortisol and enhances emotional regulation.`,
     lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is a return, not an escape.`,
   },
-  '6:1008': {
+  '6:106018': {
     explanation: `हे वरुण, उन बन्धनों से मुझे मुक्त करो जिनसे मैं बँधा हूँ, हे जातवेद। क्योंकि तुम्हारी इच्छा से ही — हम तुम्हारे सुमित्र हों।`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '6:1012': {
+  '6:106022': {
     explanation: `ऋत के मार्ग को कोई धोखा नहीं दे सकता। वक्र पथ पर चलने वाले नष्ट हो जाते हैं। ऋत से ही वह विशाल द्युलोक प्राप्त होता है — दुष्कर्मी उसे नहीं पा सकता।`,
     science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
     lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
   },
-  '6:15017': {
+  '6:106167': {
     explanation: `इन्द्र अपनी माया-शक्तियों से अनेक रूप धारण करके विचरते हैं। उनके दस सौ सुनहरे अश्व जुते हैं। उन्हें शक्र कहते हैं — जो स्वर्ग-प्रकाश प्राप्त करे, सत्पुरुषों का स्वामी, वह शूर हो।`,
     science: `Predictive processing (Friston): the brain constructs a model of reality and projects it onto perception. What we experience as "reality" is the brain's best prediction.`,
     lifeLesson: `What you perceive is not reality — it is your mind's interpretation. Question your assumptions.`,
   },
-  '6:15018': {
+  '6:106168': {
     explanation: `हे मरुतो — तुम्हारे पास जो बल है, जो सत्य है, जो संकल्पशक्ति है — उससे मुझे नीचे गिरने से बचाओ।`,
     science: `Psychology of authenticity (Harter): living in alignment with one's true values correlates with higher well-being.`,
     lifeLesson: `Be honest with yourself first. The most damaging lies are the ones we tell ourselves.`,
   },
-  '6:16048': {
+  '6:106208': {
     explanation: `हमने सोम पिया है; हम अमर हो गए; हम प्रकाश को पहुँचे; हमने देवताओं को पाया। अब शत्रुता हमारा क्या कर सकती है? हे अमर, किसी मर्त्य की दुर्भावना क्या कर सकती है?`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '7:1002': {
+  '7:107012': {
     explanation: `हे वरुण, उन बन्धनों से मुझे मुक्त करो जिनसे मैं बँधा हूँ, हे जातवेद। क्योंकि तुम्हारी इच्छा से ही — हम तुम्हारे सुमित्र हों।`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '7:1003': {
+  '7:107013': {
     explanation: `हे वरुण, हमें मत मारो, हमें हानि मत पहुँचाओ। जो हमें प्रिय है उसे मत मारो। हे इन्द्र-वरुण, हमें आश्रय दो; मृत्यु से हमारी रक्षा करो; दीर्घायु के लिए हमारी रक्षा करो।`,
     science: `Neuroscience of loss aversion (Kahneman): the brain processes loss with twice the intensity of equivalent gains.`,
     lifeLesson: `Everything changes. Clinging to what is changing causes suffering. Practice letting go gracefully.`,
   },
-  '7:1012': {
+  '7:107022': {
     explanation: `ऋत के मार्ग को कोई धोखा नहीं दे सकता। वक्र पथ पर चलने वाले नष्ट हो जाते हैं। ऋत से ही वह विशाल द्युलोक प्राप्त होता है — दुष्कर्मी उसे नहीं पा सकता।`,
     science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
     lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
   },
-  '7:1017': {
+  '7:107027': {
     explanation: `इन्द्र अपनी माया-शक्तियों से अनेक रूप धारण करके विचरते हैं। उनके दस सौ सुनहरे अश्व जुते हैं। उन्हें शक्र कहते हैं — जो स्वर्ग-प्रकाश प्राप्त करे, सत्पुरुषों का स्वामी, वह शूर हो।`,
     science: `Predictive processing (Friston): the brain constructs a model of reality and projects it onto perception. What we experience as "reality" is the brain's best prediction.`,
     lifeLesson: `What you perceive is not reality — it is your mind's interpretation. Question your assumptions.`,
   },
-  '7:1018': {
+  '7:107028': {
     explanation: `हे मरुतो — तुम्हारे पास जो बल है, जो सत्य है, जो संकल्पशक्ति है — उससे मुझे नीचे गिरने से बचाओ।`,
     science: `Psychology of authenticity (Harter): living in alignment with one's true values correlates with higher well-being.`,
     lifeLesson: `Be honest with yourself first. The most damaging lies are the ones we tell ourselves.`,
   },
-  '8:1002': {
+  '8:108012': {
     explanation: `हमने सोम पिया है; हम अमर हो गए; हम प्रकाश को पहुँचे; हमने देवताओं को पाया। अब शत्रुता हमारा क्या कर सकती है? हे अमर, किसी मर्त्य की दुर्भावना क्या कर सकती है?`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '8:1003': {
+  '8:108013': {
     explanation: `पुरुष (विराट्) के हज़ार सिर, हज़ार आँखें और हज़ार पैर हैं। वह सब ओर से पृथ्वी को व्याप्त करके दस अंगुल अतिक्रमण करके स्थित है।`,
     science: `Ecopsychology: exposure to natural environments reduces cortisol and enhances emotional regulation.`,
     lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is a return, not an escape.`,
   },
-  '8:1008': {
+  '8:108018': {
     explanation: `हे वरुण, उन बन्धनों से मुझे मुक्त करो जिनसे मैं बँधा हूँ, हे जातवेद। क्योंकि तुम्हारी इच्छा से ही — हम तुम्हारे सुमित्र हों।`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '8:1012': {
+  '8:108022': {
     explanation: `ऋत के मार्ग को कोई धोखा नहीं दे सकता। वक्र पथ पर चलने वाले नष्ट हो जाते हैं। ऋत से ही वह विशाल द्युलोक प्राप्त होता है — दुष्कर्मी उसे नहीं पा सकता।`,
     science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
     lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
   },
-  '8:1017': {
+  '8:108027': {
     explanation: `इन्द्र अपनी माया-शक्तियों से अनेक रूप धारण करके विचरते हैं। उनके दस सौ सुनहरे अश्व जुते हैं। उन्हें शक्र कहते हैं — जो स्वर्ग-प्रकाश प्राप्त करे, सत्पुरुषों का स्वामी, वह शूर हो।`,
     science: `Predictive processing (Friston): the brain constructs a model of reality and projects it onto perception. What we experience as "reality" is the brain's best prediction.`,
     lifeLesson: `What you perceive is not reality — it is your mind's interpretation. Question your assumptions.`,
   },
-  '8:1018': {
+  '8:108028': {
     explanation: `हे मरुतो — तुम्हारे पास जो बल है, जो सत्य है, जो संकल्पशक्ति है — उससे मुझे नीचे गिरने से बचाओ।`,
     science: `Psychology of authenticity (Harter): living in alignment with one's true values correlates with higher well-being.`,
     lifeLesson: `Be honest with yourself first. The most damaging lies are the ones we tell ourselves.`,
   },
-  '8:6047': {
+  '8:108107': {
     explanation: `हे इन्द्र, पिता की तरह हमें क्रतु (संकल्पशक्ति) लाओ। हे वसु (समृद्धि के स्वामी), पुरन्दर (बाधाओं के नाशक) — हमारी पुकार सुनो।`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '9:1002': {
+  '9:109012': {
     explanation: `हे देव सवितर, वांछनीय वस्तुओं के स्वामी — हे सोम राज, अमृत की प्रचुरता को समेटे उस बूँद को इन्द्र के लिए शुद्ध करो।`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '9:1003': {
+  '9:109013': {
     explanation: `पुरुष (विराट्) के हज़ार सिर, हज़ार आँखें और हज़ार पैर हैं। वह सब ओर से पृथ्वी को व्याप्त करके दस अंगुल अतिक्रमण करके स्थित है।`,
     science: `Ecopsychology: exposure to natural environments reduces cortisol and enhances emotional regulation.`,
     lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is a return, not an escape.`,
   },
-  '9:1008': {
+  '9:109018': {
     explanation: `हे वरुण, उन बन्धनों से मुझे मुक्त करो जिनसे मैं बँधा हूँ, हे जातवेद। क्योंकि तुम्हारी इच्छा से ही — हम तुम्हारे सुमित्र हों।`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '9:61012': {
+  '9:109622': {
     explanation: `ऋत के मार्ग को कोई धोखा नहीं दे सकता। वक्र पथ पर चलने वाले नष्ट हो जाते हैं। ऋत से ही वह विशाल द्युलोक प्राप्त होता है — दुष्कर्मी उसे नहीं पा सकता।`,
     science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
     lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
   },
-  '9:61017': {
+  '9:109627': {
     explanation: `इन्द्र अपनी माया-शक्तियों से अनेक रूप धारण करके विचरते हैं। उनके दस सौ सुनहरे अश्व जुते हैं। उन्हें शक्र कहते हैं — जो स्वर्ग-प्रकाश प्राप्त करे, सत्पुरुषों का स्वामी, वह शूर हो।`,
     science: `Predictive processing (Friston): the brain constructs a model of reality and projects it onto perception. What we experience as "reality" is the brain's best prediction.`,
     lifeLesson: `What you perceive is not reality — it is your mind's interpretation. Question your assumptions.`,
   },
-  '9:61018': {
+  '9:109628': {
     explanation: `हे मरुतो — तुम्हारे पास जो बल है, जो सत्य है, जो संकल्पशक्ति है — उससे मुझे नीचे गिरने से बचाओ।`,
     science: `Psychology of authenticity (Harter): living in alignment with one's true values correlates with higher well-being.`,
     lifeLesson: `Be honest with yourself first. The most damaging lies are the ones we tell ourselves.`,
   },
-  '9:86047': {
+  '9:109907': {
     explanation: `हे इन्द्र, पिता की तरह हमें क्रतु (संकल्पशक्ति) लाओ। हे वसु (समृद्धि के स्वामी), पुरन्दर (बाधाओं के नाशक) — हमारी पुकार सुनो।`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '9:86048': {
+  '9:109908': {
     explanation: `हमने सोम पिया है; हम अमर हो गए; हम प्रकाश को पहुँचे; हमने देवताओं को पाया। अब शत्रुता हमारा क्या कर सकती है? हे अमर, किसी मर्त्य की दुर्भावना क्या कर सकती है?`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '10:1002': {
+  '10:110012': {
     explanation: `कौन वास्तव में जानता है? यहाँ कौन बता सकता है? यह कहाँ से उत्पन्न हुआ? यह सृष्टि कहाँ से आई? देवता इस सृष्टि के बाद आए — तो फिर कौन जानता है यह कहाँ से उत्पन्न हुई?`,
     science: `Cosmology: the universe emerged from a singularity 13.8 billion years ago. The ancient insight of creation from a single source parallels modern cosmology.`,
     lifeLesson: `You are not separate from creation — you are an expression of the same universal process.`,
   },
-  '10:1003': {
+  '10:110013': {
     explanation: `पुरुष (विराट्) के हज़ार सिर, हज़ार आँखें और हज़ार पैर हैं। वह सब ओर से पृथ्वी को व्याप्त करके दस अंगुल अतिक्रमण करके स्थित है।`,
     science: `Ecopsychology: exposure to natural environments reduces cortisol and enhances emotional regulation.`,
     lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is a return, not an escape.`,
   },
-  '10:1004': {
+  '10:110014': {
     explanation: `तप से ब्रह्म बढ़ता है; उससे अन्न उत्पन्न होता है; अन्न से प्राण उत्पन्न होता है; प्राण से मन और सत्य उत्पन्न होते हैं।`,
     science: `Psychology of authenticity (Harter): living in alignment with one's true values correlates with higher well-being.`,
     lifeLesson: `Be honest with yourself first. The most damaging lies are the ones we tell ourselves.`,
   },
-  '10:8008': {
+  '10:110088': {
     explanation: `योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग ब्रह्म पर आश्रित है।`,
     science: `Neuroscience of flow (Csikszentmihalyi): in flow states, the prefrontal cortex temporarily deactivates — self-referential thinking ceases.`,
     lifeLesson: `Freedom is not the absence of responsibility — it is the absence of the ego that resists responsibility.`,
   },
-  '10:10012': {
+  '10:110112': {
     explanation: `मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब ब्रह्म ही है, सब ब्रह्म मेरे में है।`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '10:27017': {
+  '10:110287': {
     explanation: `जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '10:27018': {
+  '10:110288': {
     explanation: `शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '10:85047': {
+  '10:110897': {
     explanation: `एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।`,
     science: `Neuroscience of loss aversion (Kahneman): the brain processes loss with twice the intensity of equivalent gains.`,
     lifeLesson: `Everything changes. Clinging to what is changing causes suffering. Practice letting go gracefully.`,

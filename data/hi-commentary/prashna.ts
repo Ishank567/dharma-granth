@@ -343,487 +343,246 @@ export const prashnaHi: HiCommentaryFragment = {
   },
   '6:9': {
     explanation: `Yoga Sutras से योग की परिभाषा, प्राण के संदर्भ में। योग चित्त-वृत्तियों का निरोध है, जो मुक्ति देता है। सभी बंधन इस अभ्यास से कटते हैं, जो प्राण के आधार पर टिका है।`,
-    science: `citta-vritti-nirodha आधुनिक mindfulness शोध से मेल खाता है (Kabat-Zinn): मन की वृत्तियों का निरोध संज्ञानात्मक स्पष्टता, भावनात्मक संतुलन और कल्याण में मापनीय सुधार लाता है। ब्रह्म के आधार पर टिकी यह साधना secure base का आध्यात्मिक समतुल्य है।`,
-    lifeLesson: `मन की शान्ति ब्रह्म के स्मरण में टिके रहने से स्वाभाविक रूप से आती है। जब मन भटके, उसे वापस ब्रह्म के स्मरण में लाइए — यही योग है, यही मुक्ति है।`,
   },
   '6:10': {
     explanation: `प्राण को परम मानकर अद्वैत की घोषणा। वैयक्तिक आत्मा ब्रह्म है; जगत् प्राण है; इस पहचान में सभी भेद विलीन हो जाते हैं।`,
-    science: `Non-dual awareness पर न्यूरोसाइंस शोध (Travis, Shear): EEG अध्ययनों में अद्वैत अनुभव की अवस्था में प्रीफ्रंटल कॉर्टेक्स की समन्वित सक्रियता और डिफ़ॉल्ट-मोड-नेटवर्क का शान्त होना देखा गया है — self-other विभाजन का विलयन वास्तविक तंत्रिका-घटना है।`,
-    lifeLesson: `जब आप पहचानते हैं कि आप वही हैं जो सबमें व्याप्त है — तब कोई दूसरा नहीं बचता जिससे डरना हो। अहंकार की सीमाओं को छोड़कर विराट चेतना में विश्राम कीजिए।`,
   },
   '6:11': {
     explanation: `प्राण में व्यक्तित्व का विलयन। नदियों का समुद्र में और दीपों का ज्योति में विलयन — ये चित्र पृथक पहचान की लुप्ति दिखाते हैं जबकि सार शेष रहता है।`,
-    science: `Ego dissolution पर शोध (Carhart-Harris, fMRI): मस्तिष्क के Default Mode Network का शान्त होना self की सीमाओं के विलयन के साथ मेल खाता है। नदियों का समुद्र में लीन होना इसी तंत्रिका-घटना का पौराणिक बिम्ब है।`,
-    lifeLesson: `नदी समुद्र में मिलकर नष्ट नहीं होती — वह समुद्र ही जाती है। अहंकार का त्याग अस्तित्व का त्याग नहीं, अस्तित्व का विस्तार है।`,
   },
   '6:12': {
     explanation: `प्राण के गुण: शांत, शिव, अद्वैत, नित्य, शुद्ध, अच्युत। ज्ञान दर्शन है; अज्ञान अंधापन।`,
-    science: `Spiritual intelligence पर शोध (Zohar & Marshall, Emmons): आध्यात्मिक बुद्धि — जो अर्थ, मूल्य और अस्तित्व के प्रश्नों से जुड़ी है — एक विशिष्ट संज्ञानात्मक क्षमता है जो बौद्धिक बुद्धि (IQ) से स्वतंत्र है। ब्रह्म के गुणों का मनन इसी बुद्धि को विकसित करता है।`,
-    lifeLesson: `ब्रह्म के गुणों — शान्त, शिव, अद्वैत, नित्य, शुद्ध, अच्युत — का मनन करना केवल बौद्धिक अभ्यास नहीं, बल्कि चेतना को परिष्कृत करने का मार्ग है। आज इन छह गुणों में से किसी एक पर ध्यान केंद्रित कीजिए।`,
   },
   '6:13': {
     explanation: `अद्वैत की पुष्टि: एक ही सत्य, दूसरा कोई नहीं। जो प्राण को तत्त्व से जानता है वह "सोऽहम्" में पहचान करता है और मृत्यु, शोक तथा सभी पीड़ाओं से परे हो जाता है।`,
-    science: `Non-dual awareness और भावनात्मक कल्याण पर शोध (Travis, Shear): अद्वैत अनुभव की स्थायी अवस्था में amygdala की प्रतिक्रियशीलता कम होती है और प्रीफ्रंटल कॉर्टेक्स का नियंत्रण बढ़ता है — सोऽहम् की पहचान वास्तविक तंत्रिका-शान्ति उत्पन्न करती है।`,
-    lifeLesson: `सोऽहम् — यह पहचान जीवन के सभी भय, शोक और दुःखों को जड़ से काट देती है। आज किसी भी चिंता के समय रुककर यह स्मरण कीजिए: मैं शरीर नहीं, मैं वही हूँ जो शरीर को देख रहा है।`,
   },
 
-  '1:1.2': {
+  '1:101012': {
     explanation: `ऋषि ने उनसे कहा — "एक वर्ष और मेरे साथ रहो — तपस्या, ब्रह्मचर्य, और श्रद्धा के साथ। फिर जो भी पूछना हो, पूछो। यदि हम जानेंगे, तो तुम्हें सब बता देंगे।"`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '1:1.3': {
+  '1:101013': {
     explanation: `फिर कबन्धी कात्यायन निकट आकर पूछा — "हे भगवन्! ये सब प्राणी किससे उत्पन्न होते हैं?"`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '1:1.4': {
-    explanation: `उसने उसे कहा — "प्रजापति ने सन्तान की कामना से तप किया। तप करके उसने एक जोड़ी उत्पन्न की — रयि (पदार्थ) और प्राण (चेतना) — यह सोचकर कि 'ये दोनों मेरे लिए अनेक प्राणी बनाएँगे'।"`,
-    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
-    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
-  },
-  '1:1.5': {
-    explanation: `सूर्य ही प्राण है और चन्द्रमा ही रयि है। जो कुछ भी मूर्त (रूपयुक्त) और अमूर्त (रूपरहित) है — सब रयि है। इसलिए मूर्ति ही रयि है।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
-  },
-  '1:1.6': {
-    explanation: `जब सूर्य उदय होकर पूर्व दिशा में प्रवेश करता है, तब वह पूर्व के प्राणों को अपनी किरणों में समेट लेता है। जब वह दक्षिण, पश्चिम, उत्तर, नीचे, ऊपर, और मध्यवर्ती दिशाओं को प्रकाशित करता है, और सब को प्रकाशित करता है — तब सभी दिशाओं के प्राणों को अपनी किरणों में समेट लेता है।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
-  },
-  '1:1.7': {
-    explanation: `यही वैश्वानर है, विश्व-रूप वाला — प्राण, अग्नि — जो उदय होता है। ऋग्वेद में यह कहा गया है:`,
-    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
-    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
-  },
-  '1:1.8': {
-    explanation: `विश्व-रूप, स्वर्णिम, जातवेद (सब जन्मे प्राणियों का ज्ञाता), परम लक्ष्य, एकमात्र ज्योति जो तप रही है — सहस्र-किरणों वाला, सौ रूपों में विद्यमान, प्रजाओं का प्राण — यह सूर्य उदय होता है।`,
-    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
-    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
-  },
-  '1:1.9': {
-    explanation: `संवत्सर ही प्रजापति है — उसके दो अयन हैं: दक्षिणायन और उत्तरायण। जो लोग केवल इष्टापूर्त (यज्ञ-कर्म) से उपासना करते हैं, वे चान्द्रमस लोक को ही प्राप्त करते हैं; वे फिर लौट आते हैं। इसीलिए सन्तान की कामना वाले ऋषि दक्षिण मार्ग का अनुसरण करते हैं। यही रयि है — पितृयाण।`,
-    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
-    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
-  },
-  '1:1.10': {
-    explanation: `और उत्तरायण मार्ग से — तप, ब्रह्मचर्य, श्रद्धा और विद्या के द्वारा आत्मा को खोजकर — वे सूर्य को प्राप्त करते हैं। यह प्राणों का धाम है — अमर, अभय, परम लक्ष्य — वहाँ से वे फिर नहीं लौटते। यही निरोध (मोक्ष) है। इसलिए यह श्लोक:`,
-    science: `Cognitive neuroscience: insight and understanding emerge from gamma-wave synchrony across brain regions. Knowledge is not merely accumulated information — it is the reorganization of neural patterns into a new coherent whole.`,
-    lifeLesson: `Knowing about a thing is not the same as knowing it. True knowledge transforms the knower. Pursue not just information but the insight that changes who you are.`,
-  },
-  '1:1.11': {
-    explanation: `वे उसे पाँच-पाद, द्वादश-आकृति, द्युलोक के ऊपरी अर्ध-भाग में निवास करने वाला, जल से पूर्ण — पिता — कहते हैं। और कुछ विचक्षण लोग उसे सात-चक्र और छह-अरों वाले रथ पर आरूढ़ कहते हैं।`,
-    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
-    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
-  },
-  '1:1.12': {
-    explanation: `मास ही प्रजापति है — कृष्ण पक्ष रयि है, शुक्ल पक्ष प्राण है। इसलिए ये ऋषि शुक्ल पक्ष में यज्ञ करते हैं; अन्य लोग दूसरे पक्ष में।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
-  },
-  '1:1.13': {
-    explanation: `दिन-रात ही प्रजापति है — दिन प्राण है, रात रयि है। जो दिन में रति में संलग्न होते हैं वे प्राण क्षीण करते हैं; रात्रि में संलग्न होना ही ब्रह्मचर्य है।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
-  },
-  '1:1.14': {
-    explanation: `अन्न ही प्रजापति है। अन्न से रेत (बीज), और बीज से ये प्रजाएँ उत्पन्न होती हैं।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
-  },
-  '1:1.15': {
-    explanation: `जो प्रजापति का व्रत पालन करते हैं, वे सन्तान उत्पन्न करते हैं। परन्तु ब्रह्मलोक उन्हीं को मिलता है जिनमें तप, ब्रह्मचर्य और सत्य प्रतिष्ठित हैं।`,
-    science: `Psychology of authenticity (Harter): living in alignment with one's true values correlates with higher well-being, lower stress, and stronger relationships. Deception, even self-deception, creates cognitive dissonance that drains mental energy.`,
-    lifeLesson: `Truth is not just about what you say — it is about who you are. Be honest with yourself first. The most damaging lies are the ones we tell ourselves. Practice radical honesty, starting with your own heart.`,
-  },
-  '1:1.16': {
-    explanation: `उन्हीं को वह निर्दोष ब्रह्मलोक मिलता है — जिनमें कुटिलता, असत्य, और छल नहीं है।`,
-    science: `Psychology of authenticity (Harter): living in alignment with one's true values correlates with higher well-being, lower stress, and stronger relationships. Deception, even self-deception, creates cognitive dissonance that drains mental energy.`,
-    lifeLesson: `Truth is not just about what you say — it is about who you are. Be honest with yourself first. The most damaging lies are the ones we tell ourselves. Practice radical honesty, starting with your own heart.`,
-  },
-  '2:2.3': {
-    explanation: `श्रेष्ठ प्राण ने उनसे कहा — "भ्रमित मत होओ। मैंने ही स्वयं को पाँच रूपों में बाँटकर इस शरीर-बाण को धारण कर रखा है।" परन्तु उन्होंने विश्वास नहीं किया।`,
-    science: `Neuroscience of devotion (Newberg): devotional practice activates the prefrontal cortex and quiets the parietal lobe, dissolving the boundary between self and other. This is the neural correlate of ego dissolution through bhakti.`,
-    lifeLesson: `Devotion is not weakness — it is the courage to surrender the ego to something greater. When you love something deeply, you become it. Choose wisely what you devote yourself to.`,
-  },
-  '2:2.4': {
-    explanation: `अभिमान के कारण प्राण मानो ऊपर उठने लगा। जब वह निकलने लगा, तब सभी देव निकलने लगे; जब वह स्थिर हुआ, तब सब स्थिर हुए। जैसे रानी-मक्खी के निकलने पर सभी मक्खियाँ निकलती हैं, और उसके बैठने पर बैठती हैं — वैसे ही वाणी, मन, नेत्र, कान — सब प्रसन्न होकर प्राण की स्तुति करने लगे।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
-  },
-  '2:2.5': {
-    explanation: `यह (प्राण) ही अग्नि है, यह ही सूर्य, यह ही पर्जन्य (वर्षा), यह ही इन्द्र (मघवान्), यह ही वायु, यह ही पृथ्वी, यह ही रयि — और यही देव, सत्, असत्, और अमृत है।`,
-    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
-    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
-  },
-  '2:2.6': {
-    explanation: `जैसे रथ की धुरी में सब अर लगे होते हैं, वैसे ही प्राण में सब प्रतिष्ठित हैं — ऋच्, यजुस्, सामन्, यज्ञ, क्षत्र, और ब्राह्मण।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
-  },
-  '2:2.7': {
-    explanation: `तू ही प्रजापति है — तू गर्भ में चलता है, तू ही जन्म लेता है। हे प्राण! ये प्रजाएँ तेरे ही लिए बलि लाती हैं — तू ही उनके प्राणों में स्थित है।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
-  },
-  '2:2.8': {
-    explanation: `देवों में तू सर्वश्रेष्ठ वाहक है, पितरों के लिये प्रथम स्वधा है, ऋषियों का सत्य आचरण है, अथर्वाङ्गिरसों का स्वरूप है।`,
-    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
-    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
-  },
-  '2:2.9': {
-    explanation: `हे प्राण! तू अपनी तेजस्विता से इन्द्र है; तू रुद्र है, परिरक्षक है; तू अन्तरिक्ष में विचरता है; तू सूर्य है — ज्योतियों का स्वामी।`,
-    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
-    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
-  },
-  '2:2.10': {
-    explanation: `हे प्राण! जब तू वर्षा करता है, तब ये प्रजाएँ आनन्द-रूप में खड़ी हो जाती हैं — "अब हमारी इच्छा का अन्न होगा।"`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
-  },
-  '2:2.11': {
-    explanation: `हे प्राण! तू व्रात्य (अदीक्षित) है, एकर्षि है, अन्न का भोक्ता है, विश्व का सत्पति है। हम तेरे लिए अन्न देने वाले हैं; हे मातरिश्वन्, तू ही हमारा पिता है।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
-  },
-  '2:2.12': {
-    explanation: `हे प्राण! तेरा जो रूप वाणी, श्रोत्र, नेत्र, और मन में फैला है — उसे शिव (कल्याणकारी) बना। मत निकल जा।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
-  },
-  '2:2.13': {
-    explanation: `जो कुछ त्रिदिव (तीन लोकों) में प्रतिष्ठित है — सब प्राण के अधीन है। माता जैसे अपने पुत्रों की रक्षा करती है, वैसे ही हमारी रक्षा कर; हमें श्री (समृद्धि) और प्रज्ञा (बुद्धि) प्रदान कर।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
-  },
-  '3:3.4': {
-    explanation: `जैसे सम्राट् अधिकारियों को नियुक्त करता है — "इन गाँवों का, उन गाँवों का प्रबन्ध करो" — वैसे ही प्राण अन्य प्राणों को उनके पृथक्-पृथक् स्थानों पर नियुक्त करता है।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
-  },
-  '3:3.5': {
-    explanation: `अपान गुदा और जननेन्द्रिय में स्थित है। प्राण स्वयं नेत्र, श्रोत्र, मुख और नासिका में बसता है। मध्य में समान है — जो खाये हुए अन्न को समान रूप से बाँटता है, जिससे सात अग्नियाँ प्रकट होती हैं।`,
-    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
-    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
-  },
-  '3:3.6': {
-    explanation: `आत्मा हृदय में निवास करता है। यहाँ से एक सौ एक मुख्य नाडियाँ निकलती हैं; प्रत्येक से सौ-सौ, फिर हर एक से बहत्तर हजार शाखाएँ। इन सबमें व्यान संचार करता है।`,
-    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
-    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
-  },
-  '3:3.7': {
-    explanation: `एक मुख्य नाडी से ऊपर की ओर उदान चलता है — पुण्य के द्वारा पुण्य-लोक में, पाप के द्वारा पाप-लोक में, और दोनों के द्वारा मनुष्य-लोक में ले जाता है।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
-  },
-  '3:3.8': {
-    explanation: `सूर्य ही बाह्य प्राण है जो उदय होता है — वह नेत्र में स्थित प्राण को अनुगृहीत करता है। पृथ्वी में जो देवता है, वह मनुष्य के अपान को नीचे की ओर खींचता है। मध्य का आकाश समान है; वायु व्यान है।`,
-    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
-    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
-  },
-  '3:3.9': {
-    explanation: `तेज ही उदान है। जब वह तेज शान्त होता है, तब इन्द्रियाँ मन में लीन होकर पुनः जन्म प्राप्त होता है।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
-  },
-  '3:3.10': {
-    explanation: `अन्तिम चित्त-वृत्ति के साथ जीव प्राण में प्रवेश करता है। प्राण — तेज और आत्मा के साथ — संकल्प के अनुसार लोक की ओर ले जाता है।`,
-    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
-    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
-  },
-  '3:3.11': {
-    explanation: `जो विद्वान् इस प्रकार प्राण को जानता है, उसकी प्रजा क्षीण नहीं होती; वह अमर हो जाता है। इसलिए यह श्लोक:`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
-  },
-  '3:3.12': {
-    explanation: `प्राण की उत्पत्ति, आगमन, स्थान, पञ्चधा प्रभुता, और आध्यात्मिक स्वरूप को जानकर — मनुष्य अमृतत्व प्राप्त करता है, अमृतत्व प्राप्त करता है।`,
-    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
-    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
-  },
-  '4:4.5': {
-    explanation: `स्वप्न में यह आत्म-देव अपनी ही महिमा का अनुभव करता है। जो देखा है उसे फिर देखता है, जो सुना है उसे फिर सुनता है, दूर के देश-दिशाओं में जो अनुभव किया है — उसे फिर अनुभव करता है। देखा-अनदेखा, सुना-अनसुना, अनुभूत-अननुभूत, सत्-असत् — सब कुछ देखता है। वह स्वयं सब है।`,
-    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
-    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
-  },
-  '4:4.6': {
-    explanation: `जब मन गहन तेज से अभिभूत हो जाता है, तब यह आत्म-देव स्वप्न नहीं देखता; तब इस शरीर में सुख होता है।`,
-    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
-    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
-  },
-  '4:4.7': {
-    explanation: `हे सौम्य! जैसे पक्षी रात्रि में अपने आश्रय-वृक्ष पर लौट आते हैं, वैसे ही ये सब परम आत्मा में प्रतिष्ठित हो जाते हैं।`,
-    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
-    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
-  },
-  '4:4.8': {
-    explanation: `पृथिवी और उसकी सूक्ष्म-मात्रा, जल और उसकी मात्रा, अग्नि और मात्रा, वायु और मात्रा, आकाश और मात्रा; नेत्र और दर्शनीय, श्रोत्र और श्रोतव्य, घ्राण और घ्रातव्य, रस और रसयितव्य, त्वचा और स्पर्शनीय; वाणी और वक्तव्य, हाथ और ग्राह्य, उपस्थ और आनन्दनीय, पायु और त्याज्य, पैर और गन्तव्य; मन और मन्तव्य, बुद्धि और बोद्धव्य, अहङ्कार और अहङ्कर्तव्य, चित्त और चेतयितव्य, तेज और विद्योत्य, प्राण और धारयितव्य —`,
-    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
-    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
-  },
-  '4:4.9': {
-    explanation: `यही द्रष्टा है, स्पर्शकर्ता, श्रोता, घ्राता, रसयिता, मन्ता, बोद्धा, कर्ता — विज्ञानात्मा पुरुष। वह परम अक्षर आत्मा में प्रतिष्ठित है।`,
-    science: `Cognitive neuroscience: insight and understanding emerge from gamma-wave synchrony across brain regions. Knowledge is not merely accumulated information — it is the reorganization of neural patterns into a new coherent whole.`,
-    lifeLesson: `Knowing about a thing is not the same as knowing it. True knowledge transforms the knower. Pursue not just information but the insight that changes who you are.`,
-  },
-  '4:4.10': {
-    explanation: `जो उस छाया-रहित, शरीर-रहित, रक्त-रहित, शुभ्र, अक्षर को जानता है — वही, हे सौम्य, परम अक्षर को प्राप्त होता है। वह सर्वज्ञ हो जाता है, सब कुछ हो जाता है। इसी विषय में यह श्लोक:`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
-  },
-  '4:4.11': {
-    explanation: `जहाँ विज्ञानात्मा सहित सब देव, प्राण और भूत प्रतिष्ठित हो जाते हैं — उसी अक्षर को, हे सौम्य, जो जानता है — वह सर्वज्ञ होकर सर्व में प्रवेश कर जाता है।`,
-    science: `Cognitive neuroscience: insight and understanding emerge from gamma-wave synchrony across brain regions. Knowledge is not merely accumulated information — it is the reorganization of neural patterns into a new coherent whole.`,
-    lifeLesson: `Knowing about a thing is not the same as knowing it. True knowledge transforms the knower. Pursue not just information but the insight that changes who you are.`,
-  },
-  '5:5.6': {
-    explanation: `तीनों मात्राएँ अलग-अलग प्रयुक्त की जायें तो मृत्युयुक्त हैं। परन्तु जब वे परस्पर सम्बद्ध और अविच्छिन्न रूप से जुड़ी रहती हैं — बाह्य, आन्तरिक और मध्य की क्रियाओं में सम्यक् प्रयुक्त — तब ज्ञानी डगमगाता नहीं।`,
-    science: `Cognitive neuroscience: insight and understanding emerge from gamma-wave synchrony across brain regions. Knowledge is not merely accumulated information — it is the reorganization of neural patterns into a new coherent whole.`,
-    lifeLesson: `Knowing about a thing is not the same as knowing it. True knowledge transforms the knower. Pursue not just information but the insight that changes who you are.`,
-  },
-  '5:5.7': {
-    explanation: `ऋच् से इस (पृथ्वी) लोक को, यजुस् से अन्तरिक्ष को, साम से उस लोक को कवि-जन प्राप्त करते हैं। पर विद्वान् केवल ओंकार के आश्रय से उसी को प्राप्त करता है — जो शान्त, अजर, अमर, अभय और परम है।`,
-    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
-    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
-  },
-  '6:6.7': {
-    explanation: `उसने उन्हें कहा — "इतना ही मैं उस परम ब्रह्म के विषय में जानता हूँ। इससे आगे कुछ नहीं है।"`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
-  },
-  '6:6.8': {
-    explanation: `उन्होंने उसकी पूजा करते हुए कहा — "आप ही हमारे पिता हैं, जो हमें अविद्या के पार ले जाते हैं।" परम ऋषियों को नमस्कार, परम ऋषियों को नमस्कार।`,
-    science: `Neuroscience of devotion (Newberg): devotional practice activates the prefrontal cortex and quiets the parietal lobe, dissolving the boundary between self and other. This is the neural correlate of ego dissolution through bhakti.`,
-    lifeLesson: `Devotion is not weakness — it is the courage to surrender the ego to something greater. When you love something deeply, you become it. Choose wisely what you devote yourself to.`,
-  },
-
-  '1:1002': {
-    explanation: `ऋषि ने उनसे कहा — "एक वर्ष और मेरे साथ रहो — तपस्या, ब्रह्मचर्य, और श्रद्धा के साथ। फिर जो भी पूछना हो, पूछो। यदि हम जानेंगे, तो तुम्हें सब बता देंगे।"`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
-  },
-  '1:1003': {
-    explanation: `फिर कबन्धी कात्यायन निकट आकर पूछा — "हे भगवन्! ये सब प्राणी किससे उत्पन्न होते हैं?"`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
-  },
-  '1:1004': {
+  '1:101014': {
     explanation: `उसने उसे कहा — "प्रजापति ने सन्तान की कामना से तप किया। तप करके उसने एक जोड़ी उत्पन्न की — रयि (पदार्थ) और प्राण (चेतना) — यह सोचकर कि 'ये दोनों मेरे लिए अनेक प्राणी बनाएँगे'।"`,
     science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain. The default mode network generates the sense of "I" — meditation temporarily deactivates this network.`,
     lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear.`,
   },
-  '1:1005': {
+  '1:101015': {
     explanation: `सूर्य ही प्राण है और चन्द्रमा ही रयि है। जो कुछ भी मूर्त (रूपयुक्त) और अमूर्त (रूपरहित) है — सब रयि है। इसलिए मूर्ति ही रयि है।`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '1:1006': {
+  '1:101016': {
     explanation: `जब सूर्य उदय होकर पूर्व दिशा में प्रवेश करता है, तब वह पूर्व के प्राणों को अपनी किरणों में समेट लेता है। जब वह दक्षिण, पश्चिम, उत्तर, नीचे, ऊपर, और मध्यवर्ती दिशाओं को प्रकाशित करता है, और सब को प्रकाशित करता है — तब सभी दिशाओं के प्राणों को अपनी किरणों में समेट लेता है।`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '1:1007': {
+  '1:101017': {
     explanation: `यही वैश्वानर है, विश्व-रूप वाला — प्राण, अग्नि — जो उदय होता है। ऋग्वेद में यह कहा गया है:`,
     science: `Ecopsychology: exposure to natural environments reduces cortisol and enhances emotional regulation.`,
     lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is a return, not an escape.`,
   },
-  '1:1008': {
+  '1:101018': {
     explanation: `विश्व-रूप, स्वर्णिम, जातवेद (सब जन्मे प्राणियों का ज्ञाता), परम लक्ष्य, एकमात्र ज्योति जो तप रही है — सहस्र-किरणों वाला, सौ रूपों में विद्यमान, प्रजाओं का प्राण — यह सूर्य उदय होता है।`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '1:1009': {
+  '1:101019': {
     explanation: `संवत्सर ही प्रजापति है — उसके दो अयन हैं: दक्षिणायन और उत्तरायण। जो लोग केवल इष्टापूर्त (यज्ञ-कर्म) से उपासना करते हैं, वे चान्द्रमस लोक को ही प्राप्त करते हैं; वे फिर लौट आते हैं। इसीलिए सन्तान की कामना वाले ऋषि दक्षिण मार्ग का अनुसरण करते हैं। यही रयि है — पितृयाण।`,
     science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
     lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
   },
-  '1:1010': {
+  '1:101020': {
     explanation: `और उत्तरायण मार्ग से — तप, ब्रह्मचर्य, श्रद्धा और विद्या के द्वारा आत्मा को खोजकर — वे सूर्य को प्राप्त करते हैं। यह प्राणों का धाम है — अमर, अभय, परम लक्ष्य — वहाँ से वे फिर नहीं लौटते। यही निरोध (मोक्ष) है। इसलिए यह श्लोक:`,
     science: `Cognitive neuroscience: insight emerges from gamma-wave synchrony across brain regions. Knowledge is the reorganization of neural patterns into a new coherent whole.`,
     lifeLesson: `Knowing about a thing is not the same as knowing it. True knowledge transforms the knower.`,
   },
-  '1:1011': {
+  '1:101021': {
     explanation: `वे उसे पाँच-पाद, द्वादश-आकृति, द्युलोक के ऊपरी अर्ध-भाग में निवास करने वाला, जल से पूर्ण — पिता — कहते हैं। और कुछ विचक्षण लोग उसे सात-चक्र और छह-अरों वाले रथ पर आरूढ़ कहते हैं।`,
     science: `Ecopsychology: exposure to natural environments reduces cortisol and enhances emotional regulation.`,
     lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is a return, not an escape.`,
   },
-  '1:1012': {
+  '1:101022': {
     explanation: `मास ही प्रजापति है — कृष्ण पक्ष रयि है, शुक्ल पक्ष प्राण है। इसलिए ये ऋषि शुक्ल पक्ष में यज्ञ करते हैं; अन्य लोग दूसरे पक्ष में।`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '1:1013': {
+  '1:101023': {
     explanation: `दिन-रात ही प्रजापति है — दिन प्राण है, रात रयि है। जो दिन में रति में संलग्न होते हैं वे प्राण क्षीण करते हैं; रात्रि में संलग्न होना ही ब्रह्मचर्य है।`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '1:1014': {
+  '1:101024': {
     explanation: `अन्न ही प्रजापति है। अन्न से रेत (बीज), और बीज से ये प्रजाएँ उत्पन्न होती हैं।`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '1:1015': {
+  '1:101025': {
     explanation: `जो प्रजापति का व्रत पालन करते हैं, वे सन्तान उत्पन्न करते हैं। परन्तु ब्रह्मलोक उन्हीं को मिलता है जिनमें तप, ब्रह्मचर्य और सत्य प्रतिष्ठित हैं।`,
     science: `Psychology of authenticity (Harter): living in alignment with one's true values correlates with higher well-being.`,
     lifeLesson: `Be honest with yourself first. The most damaging lies are the ones we tell ourselves.`,
   },
-  '1:1016': {
+  '1:101026': {
     explanation: `उन्हीं को वह निर्दोष ब्रह्मलोक मिलता है — जिनमें कुटिलता, असत्य, और छल नहीं है।`,
     science: `Psychology of authenticity (Harter): living in alignment with one's true values correlates with higher well-being.`,
     lifeLesson: `Be honest with yourself first. The most damaging lies are the ones we tell ourselves.`,
   },
-  '2:2003': {
+  '2:102023': {
     explanation: `श्रेष्ठ प्राण ने उनसे कहा — "भ्रमित मत होओ। मैंने ही स्वयं को पाँच रूपों में बाँटकर इस शरीर-बाण को धारण कर रखा है।" परन्तु उन्होंने विश्वास नहीं किया।`,
     science: `Predictive processing (Friston): the brain constructs a model of reality and projects it onto perception. What we experience as "reality" is the brain's best prediction.`,
     lifeLesson: `What you perceive is not reality — it is your mind's interpretation. Question your assumptions.`,
   },
-  '2:2004': {
+  '2:102024': {
     explanation: `अभिमान के कारण प्राण मानो ऊपर उठने लगा। जब वह निकलने लगा, तब सभी देव निकलने लगे; जब वह स्थिर हुआ, तब सब स्थिर हुए। जैसे रानी-मक्खी के निकलने पर सभी मक्खियाँ निकलती हैं, और उसके बैठने पर बैठती हैं — वैसे ही वाणी, मन, नेत्र, कान — सब प्रसन्न होकर प्राण की स्तुति करने लगे।`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '2:2005': {
+  '2:102025': {
     explanation: `यह (प्राण) ही अग्नि है, यह ही सूर्य, यह ही पर्जन्य (वर्षा), यह ही इन्द्र (मघवान्), यह ही वायु, यह ही पृथ्वी, यह ही रयि — और यही देव, सत्, असत्, और अमृत है।`,
     science: `Ecopsychology: exposure to natural environments reduces cortisol and enhances emotional regulation.`,
     lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is a return, not an escape.`,
   },
-  '2:2006': {
+  '2:102026': {
     explanation: `जैसे रथ की धुरी में सब अर लगे होते हैं, वैसे ही प्राण में सब प्रतिष्ठित हैं — ऋच्, यजुस्, सामन्, यज्ञ, क्षत्र, और ब्राह्मण।`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '2:2007': {
+  '2:102027': {
     explanation: `तू ही प्रजापति है — तू गर्भ में चलता है, तू ही जन्म लेता है। हे प्राण! ये प्रजाएँ तेरे ही लिए बलि लाती हैं — तू ही उनके प्राणों में स्थित है।`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '2:2008': {
+  '2:102028': {
     explanation: `देवों में तू सर्वश्रेष्ठ वाहक है, पितरों के लिये प्रथम स्वधा है, ऋषियों का सत्य आचरण है, अथर्वाङ्गिरसों का स्वरूप है।`,
     science: `Psychology of authenticity (Harter): living in alignment with one's true values correlates with higher well-being.`,
     lifeLesson: `Be honest with yourself first. The most damaging lies are the ones we tell ourselves.`,
   },
-  '2:2009': {
+  '2:102029': {
     explanation: `हे प्राण! तू अपनी तेजस्विता से इन्द्र है; तू रुद्र है, परिरक्षक है; तू अन्तरिक्ष में विचरता है; तू सूर्य है — ज्योतियों का स्वामी।`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '2:2010': {
+  '2:102030': {
     explanation: `हे प्राण! जब तू वर्षा करता है, तब ये प्रजाएँ आनन्द-रूप में खड़ी हो जाती हैं — "अब हमारी इच्छा का अन्न होगा।"`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '2:2011': {
+  '2:102031': {
     explanation: `हे प्राण! तू व्रात्य (अदीक्षित) है, एकर्षि है, अन्न का भोक्ता है, विश्व का सत्पति है। हम तेरे लिए अन्न देने वाले हैं; हे मातरिश्वन्, तू ही हमारा पिता है।`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '2:2012': {
+  '2:102032': {
     explanation: `हे प्राण! तेरा जो रूप वाणी, श्रोत्र, नेत्र, और मन में फैला है — उसे शिव (कल्याणकारी) बना। मत निकल जा।`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '2:2013': {
+  '2:102033': {
     explanation: `जो कुछ त्रिदिव (तीन लोकों) में प्रतिष्ठित है — सब प्राण के अधीन है। माता जैसे अपने पुत्रों की रक्षा करती है, वैसे ही हमारी रक्षा कर; हमें श्री (समृद्धि) और प्रज्ञा (बुद्धि) प्रदान कर।`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '3:3004': {
+  '3:103034': {
     explanation: `जैसे सम्राट् अधिकारियों को नियुक्त करता है — "इन गाँवों का, उन गाँवों का प्रबन्ध करो" — वैसे ही प्राण अन्य प्राणों को उनके पृथक्-पृथक् स्थानों पर नियुक्त करता है।`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '3:3005': {
+  '3:103035': {
     explanation: `अपान गुदा और जननेन्द्रिय में स्थित है। प्राण स्वयं नेत्र, श्रोत्र, मुख और नासिका में बसता है। मध्य में समान है — जो खाये हुए अन्न को समान रूप से बाँटता है, जिससे सात अग्नियाँ प्रकट होती हैं।`,
     science: `Ecopsychology: exposure to natural environments reduces cortisol and enhances emotional regulation.`,
     lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is a return, not an escape.`,
   },
-  '3:3006': {
+  '3:103036': {
     explanation: `आत्मा हृदय में निवास करता है। यहाँ से एक सौ एक मुख्य नाडियाँ निकलती हैं; प्रत्येक से सौ-सौ, फिर हर एक से बहत्तर हजार शाखाएँ। इन सबमें व्यान संचार करता है।`,
     science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain. The default mode network generates the sense of "I" — meditation temporarily deactivates this network.`,
     lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear.`,
   },
-  '3:3007': {
+  '3:103037': {
     explanation: `एक मुख्य नाडी से ऊपर की ओर उदान चलता है — पुण्य के द्वारा पुण्य-लोक में, पाप के द्वारा पाप-लोक में, और दोनों के द्वारा मनुष्य-लोक में ले जाता है।`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '3:3008': {
+  '3:103038': {
     explanation: `सूर्य ही बाह्य प्राण है जो उदय होता है — वह नेत्र में स्थित प्राण को अनुगृहीत करता है। पृथ्वी में जो देवता है, वह मनुष्य के अपान को नीचे की ओर खींचता है। मध्य का आकाश समान है; वायु व्यान है।`,
     science: `Ecopsychology: exposure to natural environments reduces cortisol and enhances emotional regulation.`,
     lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is a return, not an escape.`,
   },
-  '3:3009': {
+  '3:103039': {
     explanation: `तेज ही उदान है। जब वह तेज शान्त होता है, तब इन्द्रियाँ मन में लीन होकर पुनः जन्म प्राप्त होता है।`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '3:3010': {
+  '3:103040': {
     explanation: `अन्तिम चित्त-वृत्ति के साथ जीव प्राण में प्रवेश करता है। प्राण — तेज और आत्मा के साथ — संकल्प के अनुसार लोक की ओर ले जाता है।`,
     science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain. The default mode network generates the sense of "I" — meditation temporarily deactivates this network.`,
     lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear.`,
   },
-  '3:3011': {
+  '3:103041': {
     explanation: `जो विद्वान् इस प्रकार प्राण को जानता है, उसकी प्रजा क्षीण नहीं होती; वह अमर हो जाता है। इसलिए यह श्लोक:`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '3:3012': {
+  '3:103042': {
     explanation: `प्राण की उत्पत्ति, आगमन, स्थान, पञ्चधा प्रभुता, और आध्यात्मिक स्वरूप को जानकर — मनुष्य अमृतत्व प्राप्त करता है, अमृतत्व प्राप्त करता है।`,
     science: `Cosmology: the universe emerged from a singularity 13.8 billion years ago. The ancient insight of creation from a single source parallels modern cosmology.`,
     lifeLesson: `You are not separate from creation — you are an expression of the same universal process.`,
   },
-  '4:4005': {
+  '4:104045': {
     explanation: `स्वप्न में यह आत्म-देव अपनी ही महिमा का अनुभव करता है। जो देखा है उसे फिर देखता है, जो सुना है उसे फिर सुनता है, दूर के देश-दिशाओं में जो अनुभव किया है — उसे फिर अनुभव करता है। देखा-अनदेखा, सुना-अनसुना, अनुभूत-अननुभूत, सत्-असत् — सब कुछ देखता है। वह स्वयं सब है।`,
     science: `Ecopsychology: exposure to natural environments reduces cortisol and enhances emotional regulation.`,
     lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is a return, not an escape.`,
   },
-  '4:4006': {
+  '4:104046': {
     explanation: `जब मन गहन तेज से अभिभूत हो जाता है, तब यह आत्म-देव स्वप्न नहीं देखता; तब इस शरीर में सुख होता है।`,
     science: `Ecopsychology: exposure to natural environments reduces cortisol and enhances emotional regulation.`,
     lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is a return, not an escape.`,
   },
-  '4:4007': {
+  '4:104047': {
     explanation: `हे सौम्य! जैसे पक्षी रात्रि में अपने आश्रय-वृक्ष पर लौट आते हैं, वैसे ही ये सब परम आत्मा में प्रतिष्ठित हो जाते हैं।`,
     science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain. The default mode network generates the sense of "I" — meditation temporarily deactivates this network.`,
     lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear.`,
   },
-  '4:4008': {
+  '4:104048': {
     explanation: `पृथिवी और उसकी सूक्ष्म-मात्रा, जल और उसकी मात्रा, अग्नि और मात्रा, वायु और मात्रा, आकाश और मात्रा; नेत्र और दर्शनीय, श्रोत्र और श्रोतव्य, घ्राण और घ्रातव्य, रस और रसयितव्य, त्वचा और स्पर्शनीय; वाणी और वक्तव्य, हाथ और ग्राह्य, उपस्थ और आनन्दनीय, पायु और त्याज्य, पैर और गन्तव्य; मन और मन्तव्य, बुद्धि और बोद्धव्य, अहङ्कार और अहङ्कर्तव्य, चित्त और चेतयितव्य, तेज और विद्योत्य, प्राण और धारयितव्य —`,
     science: `Ecopsychology: exposure to natural environments reduces cortisol and enhances emotional regulation.`,
     lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is a return, not an escape.`,
   },
-  '4:4009': {
+  '4:104049': {
     explanation: `यही द्रष्टा है, स्पर्शकर्ता, श्रोता, घ्राता, रसयिता, मन्ता, बोद्धा, कर्ता — विज्ञानात्मा पुरुष। वह परम अक्षर आत्मा में प्रतिष्ठित है।`,
     science: `Cognitive neuroscience: insight emerges from gamma-wave synchrony across brain regions. Knowledge is the reorganization of neural patterns into a new coherent whole.`,
     lifeLesson: `Knowing about a thing is not the same as knowing it. True knowledge transforms the knower.`,
   },
-  '4:4010': {
+  '4:104050': {
     explanation: `जो उस छाया-रहित, शरीर-रहित, रक्त-रहित, शुभ्र, अक्षर को जानता है — वही, हे सौम्य, परम अक्षर को प्राप्त होता है। वह सर्वज्ञ हो जाता है, सब कुछ हो जाता है। इसी विषय में यह श्लोक:`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '4:4011': {
+  '4:104051': {
     explanation: `जहाँ विज्ञानात्मा सहित सब देव, प्राण और भूत प्रतिष्ठित हो जाते हैं — उसी अक्षर को, हे सौम्य, जो जानता है — वह सर्वज्ञ होकर सर्व में प्रवेश कर जाता है।`,
     science: `Cognitive neuroscience: insight emerges from gamma-wave synchrony across brain regions. Knowledge is the reorganization of neural patterns into a new coherent whole.`,
     lifeLesson: `Knowing about a thing is not the same as knowing it. True knowledge transforms the knower.`,
   },
-  '5:5006': {
+  '5:105056': {
     explanation: `तीनों मात्राएँ अलग-अलग प्रयुक्त की जायें तो मृत्युयुक्त हैं। परन्तु जब वे परस्पर सम्बद्ध और अविच्छिन्न रूप से जुड़ी रहती हैं — बाह्य, आन्तरिक और मध्य की क्रियाओं में सम्यक् प्रयुक्त — तब ज्ञानी डगमगाता नहीं।`,
     science: `Cognitive neuroscience: insight emerges from gamma-wave synchrony across brain regions. Knowledge is the reorganization of neural patterns into a new coherent whole.`,
     lifeLesson: `Knowing about a thing is not the same as knowing it. True knowledge transforms the knower.`,
   },
-  '5:5007': {
+  '5:105057': {
     explanation: `ऋच् से इस (पृथ्वी) लोक को, यजुस् से अन्तरिक्ष को, साम से उस लोक को कवि-जन प्राप्त करते हैं। पर विद्वान् केवल ओंकार के आश्रय से उसी को प्राप्त करता है — जो शान्त, अजर, अमर, अभय और परम है।`,
     science: `Ecopsychology: exposure to natural environments reduces cortisol and enhances emotional regulation.`,
     lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is a return, not an escape.`,
   },
-  '6:6007': {
+  '6:106067': {
     explanation: `उसने उन्हें कहा — "इतना ही मैं उस परम ब्रह्म के विषय में जानता हूँ। इससे आगे कुछ नहीं है।"`,
     science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
     lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
-  '6:6008': {
+  '6:106068': {
     explanation: `उन्होंने उसकी पूजा करते हुए कहा — "आप ही हमारे पिता हैं, जो हमें अविद्या के पार ले जाते हैं।" परम ऋषियों को नमस्कार, परम ऋषियों को नमस्कार।`,
     science: `Neuroscience of devotion (Newberg): devotional practice activates the prefrontal cortex and quiets the parietal lobe, dissolving the boundary between self and other.`,
     lifeLesson: `Devotion is not weakness — it is the courage to surrender the ego to something greater. Choose wisely what you devote yourself to.`,
