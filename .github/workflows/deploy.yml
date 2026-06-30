@@ -55,10 +55,9 @@ jobs:
         run: touch dist/.nojekyll
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
           path: dist
-          include-hidden-files: true
 
   deploy:
     name: Deploy
