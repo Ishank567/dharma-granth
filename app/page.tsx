@@ -1,4 +1,3 @@
-import Link from "next/link";
 import type { ReactNode } from "react";
 import { categories } from "@/data/scripture-meta";
 import {
@@ -10,6 +9,10 @@ import {
 } from "@/data/scriptures";
 import { FadeUp, FadeUpOnView, Stagger, StaggerItem } from "@/app/components/motion/primitives";
 import { ScriptureCard } from "@/app/components/motion/ScriptureCard";
+import { ParallaxLayer } from "@/app/components/motion/ParallaxLayer";
+import { MagneticButton } from "@/app/components/motion/MagneticButton";
+import { ScrollReveal } from "@/app/components/motion/ScrollReveal";
+import { AuroraBackground } from "@/app/components/motion/AuroraBackground";
 import { InteractiveInfographic } from "@/app/components/InteractiveInfographic";
 import { PanchangCalendar } from "@/app/components/PanchangCalendar";
 import { NityaKarmaKriya } from "@/app/components/NityaKarmaKriya";
@@ -130,18 +133,21 @@ export default function HomePage() {
         />
 
         <div className="text-center">
-          <Link
+          <MagneticButton
             href={`/scripture/bhagavadgita/chapter/${featuredVerse.chapter}`}
-            className="inline-flex items-center gap-2 bg-gradient-to-r from-saffron-600 to-amber-600 text-white px-8 py-4 rounded-full text-sm font-bold hover:from-saffron-700 hover:to-amber-700 transition-all shadow-lg hover:shadow-xl hover:scale-105 transform"
+            className="inline-flex items-center gap-2 bg-gradient-to-r from-saffron-600 to-amber-600 text-white px-8 py-4 rounded-full text-sm font-bold hover:from-saffron-700 hover:to-amber-700 transition-all shadow-lg hover:shadow-xl shine-sweep"
+            strength={20}
+            tilt={8}
           >
             सभी श्लोक पढ़ें
             <ArrowRight className="w-4 h-4" />
-          </Link>
+          </MagneticButton>
         </div>
         </FadeUpOnView>
       </section>
 
             {/* ── Stats ─────────────────────────────────────────────────── */}
+      <ParallaxLayer speed={0.85} className="relative">
       <StatsInfographic stats={[
         {
           value: realVerses,
@@ -176,6 +182,7 @@ export default function HomePage() {
           trend: "+15%"
         },
       ]} />
+      </ParallaxLayer>
 
       {/* ── Panchang Calendar ────────────────────────────────────── */}
       <PanchangCalendar />
@@ -191,12 +198,13 @@ export default function HomePage() {
 
       {/* ── Featured Texts ────────────────────────────────────────── */}
       {featured.length > 0 && (
-        <section className="max-w-6xl mx-auto px-6 py-20">
-          <FadeUpOnView className="flex items-end justify-between mb-10">
+        <section className="max-w-6xl mx-auto px-6 py-20 relative">
+          <AuroraBackground className="-z-10" opacity={0.6} />
+          <FadeUpOnView className="flex items-end justify-between mb-10 relative">
             <div>
-              <h2 className="text-4xl font-serif font-bold text-dharma-text mb-2">
+              <ScrollReveal as="h2" variant="3d" className="text-4xl font-serif font-bold text-dharma-text mb-2" stagger={0.08}>
                 Featured Texts
-              </h2>
+              </ScrollReveal>
               <p className="text-dharma-muted text-lg">
                 Currently available with verse-by-verse explanations
               </p>
@@ -207,7 +215,7 @@ export default function HomePage() {
               <StaggerItem key={s.id}>
                 <ScriptureCard
                   href={`/scripture/${s.id}`}
-                  className="scripture-card group bg-white/80 backdrop-blur-sm"
+                  className="scripture-card group glass-card depth-card depth-card-hover"
                 >
                   <div className="flex items-start justify-between mb-4">
                     <span className="inline-block px-3 py-1.5 rounded-full text-xs font-semibold bg-gradient-to-r from-saffron-100 to-amber-100 text-saffron-800 uppercase tracking-wide border border-saffron-200">
@@ -245,11 +253,12 @@ export default function HomePage() {
       )}
 
       {/* ── Categories ────────────────────────────────────────────── */}
-      <section className="max-w-6xl mx-auto px-6 pb-24">
-        <FadeUpOnView className="mb-10">
-          <h2 className="text-4xl font-serif font-bold text-dharma-text mb-2">
+      <section className="max-w-6xl mx-auto px-6 pb-24 relative">
+        <AuroraBackground className="-z-10" opacity={0.5} colors={['rgba(99, 102, 241, 0.2)', 'rgba(168, 85, 247, 0.15)', 'rgba(20, 184, 166, 0.15)', 'rgba(249, 115, 22, 0.12)']} />
+        <FadeUpOnView className="mb-10 relative">
+          <ScrollReveal as="h2" variant="3d" className="text-4xl font-serif font-bold text-dharma-text mb-2" stagger={0.08}>
             Browse by Category
-          </h2>
+          </ScrollReveal>
           <p className="text-dharma-muted text-lg">
             Explore the major streams of sacred literature
           </p>
@@ -263,7 +272,7 @@ export default function HomePage() {
               <StaggerItem key={cat.id}>
                 <ScriptureCard
                   href={`/scriptures#${cat.id}`}
-                  className="scripture-card group bg-white/80 backdrop-blur-sm"
+                  className="scripture-card group glass-card depth-card depth-card-hover"
                 >
                   <div className="flex items-center gap-4 mb-4">
                     <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-saffron-100 to-amber-100 text-saffron-700 flex items-center justify-center group-hover:from-saffron-600 group-hover:to-amber-600 group-hover:text-white transition-all shadow-sm group-hover:shadow-md">
@@ -285,36 +294,69 @@ export default function HomePage() {
       </section>
 
       {/* ── Footer CTA ────────────────────────────────────────────── */}
-      <section className="bg-gradient-to-br from-dharma-dark via-stone-900 to-dharma-dark text-white py-20">
-        <FadeUpOnView className="max-w-4xl mx-auto px-6 text-center">
-          {/* Upanishad quote */}
-          <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-8 shadow-lg">
-            <span className="font-devanagari text-3xl text-saffron-300">ॐ</span>
-          </div>
-          <p className="font-devanagari text-5xl text-saffron-300 font-bold mb-3 drop-shadow-lg">
-            अहं ब्रह्मास्मि
-          </p>
-          <p className="text-white/60 text-sm italic mb-10 max-w-lg mx-auto">
-            — बृहदारण्यक उपनिषद् १.४.१० • &ldquo;I am Brahman — the infinite
-            consciousness.&rdquo;
-          </p>
+      <section className="relative bg-gradient-to-br from-dharma-dark via-stone-900 to-dharma-dark text-white py-24 overflow-hidden">
+        <AuroraBackground opacity={0.4} colors={['rgba(249, 115, 22, 0.3)', 'rgba(245, 158, 11, 0.2)', 'rgba(99, 102, 241, 0.15)', 'rgba(20, 184, 166, 0.12)']} />
+        <div className="absolute inset-0 mandala-bg opacity-[0.06] pointer-events-none" />
+        <FadeUpOnView className="max-w-4xl mx-auto px-6 text-center relative">
+          {/* Parallax ॐ medallion with 3D glow */}
+          <ParallaxLayer speed={0.3} distance={60} className="mb-8">
+            <div className="inline-flex items-center justify-center w-20 h-20 rounded-full glass-dark border border-saffron-400/30 shadow-2xl animate-float-gentle">
+              <span className="font-devanagari text-4xl text-saffron-300 text-glow-saffron">ॐ</span>
+            </div>
+          </ParallaxLayer>
 
-          <h2 className="text-4xl font-serif font-bold mb-5">
+          <ParallaxLayer speed={0.5} distance={40}>
+            <p className="font-devanagari text-5xl md:text-6xl text-saffron-300 font-bold mb-3 text-glow-saffron">
+              अहं ब्रह्मास्मि
+            </p>
+            <p className="text-white/60 text-sm italic mb-10 max-w-lg mx-auto">
+              — बृहदारण्यक उपनिषद् १.४.१० • &ldquo;I am Brahman — the infinite
+              consciousness.&rdquo;
+            </p>
+          </ParallaxLayer>
+
+          <ScrollReveal as="h2" variant="fade-up" className="text-4xl md:text-5xl font-serif font-bold mb-5 text-glow-white" stagger={0.06}>
             A Journey Through Eternal Wisdom
-          </h2>
-          <p className="text-xl opacity-80 mb-10 max-w-2xl mx-auto leading-relaxed">
-            From the Vedas to the Puranas, every verse holds timeless truth.
-            This project makes every scripture accessible — with deep Hindi
-            meanings and modern scientific connections.
-          </p>
-          <div className="flex flex-wrap justify-center gap-4 text-sm opacity-70 font-medium">
-            <span className="px-3 py-1 bg-white/10 rounded-full">Vedas</span>
-            <span className="px-3 py-1 bg-white/10 rounded-full">Upanishads</span>
-            <span className="px-3 py-1 bg-white/10 rounded-full">Ramayana</span>
-            <span className="px-3 py-1 bg-white/10 rounded-full">Mahabharata</span>
-            <span className="px-3 py-1 bg-white/10 rounded-full">Puranas</span>
-            <span className="px-3 py-1 bg-white/10 rounded-full">Smritis</span>
-            <span className="px-3 py-1 bg-white/10 rounded-full">More</span>
+          </ScrollReveal>
+
+          <ParallaxLayer speed={0.7} distance={30}>
+            <p className="text-xl opacity-80 mb-10 max-w-2xl mx-auto leading-relaxed">
+              From the Vedas to the Puranas, every verse holds timeless truth.
+              This project makes every scripture accessible — with deep Hindi
+              meanings and modern scientific connections.
+            </p>
+          </ParallaxLayer>
+
+          {/* Magnetic CTA buttons */}
+          <div className="flex flex-wrap justify-center gap-5 mb-12">
+            <MagneticButton
+              href="/scripture/bhagavadgita"
+              className="inline-flex items-center gap-2.5 bg-gradient-to-r from-saffron-500 to-amber-500 text-white px-8 py-4 rounded-full font-bold shine-sweep shadow-xl"
+              strength={24}
+              tilt={10}
+            >
+              <Flame className="w-5 h-5" />
+              Start Reading the Gita
+            </MagneticButton>
+            <MagneticButton
+              href="/scriptures"
+              className="inline-flex items-center gap-2.5 glass-dark text-white px-8 py-4 rounded-full font-semibold border border-white/20 shine-sweep"
+              strength={20}
+              tilt={8}
+            >
+              <BookOpen className="w-5 h-5" />
+              Browse the Library
+            </MagneticButton>
+          </div>
+
+          <div className="flex flex-wrap justify-center gap-3 text-sm opacity-70 font-medium">
+            <span className="px-4 py-1.5 glass-dark rounded-full border border-white/10">Vedas</span>
+            <span className="px-4 py-1.5 glass-dark rounded-full border border-white/10">Upanishads</span>
+            <span className="px-4 py-1.5 glass-dark rounded-full border border-white/10">Ramayana</span>
+            <span className="px-4 py-1.5 glass-dark rounded-full border border-white/10">Mahabharata</span>
+            <span className="px-4 py-1.5 glass-dark rounded-full border border-white/10">Puranas</span>
+            <span className="px-4 py-1.5 glass-dark rounded-full border border-white/10">Smritis</span>
+            <span className="px-4 py-1.5 glass-dark rounded-full border border-white/10">More</span>
           </div>
         </FadeUpOnView>
       </section>

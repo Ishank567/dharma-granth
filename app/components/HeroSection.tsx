@@ -8,10 +8,10 @@ import {
   useTransform,
   useReducedMotion,
 } from 'framer-motion';
-import Link from 'next/link';
 import { useEffect, useRef, useState, type PointerEvent } from 'react';
 import { Flame, BookOpen } from 'lucide-react';
 import { FadeUp } from '@/app/components/motion/primitives';
+import { MagneticButton } from '@/app/components/motion/MagneticButton';
 
 function CelestialParticles() {
   const reduce = useReducedMotion();
@@ -276,7 +276,7 @@ export function HeroSection() {
 
         <FadeUp delay={0.08}>
           <motion.h1
-            className="text-6xl sm:text-7xl md:text-9xl font-serif font-bold mb-5 md:mb-6 tracking-normal drop-shadow-2xl bg-gradient-to-r from-white via-saffron-100 to-amber-100 bg-clip-text text-transparent"
+            className="text-6xl sm:text-7xl md:text-9xl font-serif font-bold mb-5 md:mb-6 tracking-normal drop-shadow-2xl bg-gradient-to-r from-white via-saffron-100 to-amber-100 bg-clip-text text-transparent text-3d animate-gradient-shift"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1, duration: 0.8 }}
@@ -329,31 +329,31 @@ export function HeroSection() {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.3, duration: 0.5 }}
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.98 }}
           >
-            <Link
+            <MagneticButton
               href="/scripture/bhagavadgita"
-              className="inline-flex items-center gap-2.5 bg-white text-saffron-800 px-8 py-4 md:px-10 md:py-5 rounded-full font-bold hover:bg-saffron-50 transition-all shadow-2xl hover:shadow-3xl transform"
+              className="inline-flex items-center gap-2.5 bg-white text-saffron-800 px-8 py-4 md:px-10 md:py-5 rounded-full font-bold hover:bg-saffron-50 transition-all shadow-2xl shine-sweep"
+              strength={28}
+              tilt={12}
             >
               <Flame className="w-5 h-5" />
               भगवद्गीता पढ़ें
-            </Link>
+            </MagneticButton>
           </motion.div>
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.35, duration: 0.5 }}
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.98 }}
           >
-            <Link
+            <MagneticButton
               href="/scriptures"
-              className="inline-flex items-center gap-2.5 bg-white/20 backdrop-blur-md border-2 border-white/30 text-white px-8 py-4 md:px-10 md:py-5 rounded-full font-semibold hover:bg-white/30 transition-all shadow-xl hover:shadow-2xl transform"
+              className="inline-flex items-center gap-2.5 bg-white/20 backdrop-blur-md border-2 border-white/30 text-white px-8 py-4 md:px-10 md:py-5 rounded-full font-semibold hover:bg-white/30 transition-all shadow-xl shine-sweep"
+              strength={24}
+              tilt={10}
             >
               <BookOpen className="w-5 h-5" />
               Browse the Library
-            </Link>
+            </MagneticButton>
           </motion.div>
         </FadeUp>
       </motion.div>
