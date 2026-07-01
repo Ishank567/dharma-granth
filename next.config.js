@@ -11,6 +11,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  experimental: {
+    parallelism: 1,
+  },
 };
 
 module.exports = nextConfig;

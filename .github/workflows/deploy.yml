@@ -51,7 +51,7 @@ jobs:
       - name: Build GitHub Pages export
         run: npm run build:pages
         env:
-          NODE_OPTIONS: "--max-old-space-size=8192"
+          NODE_OPTIONS: "--max-old-space-size=6144"
 
       - name: Disable Jekyll
         run: touch dist/.nojekyll
