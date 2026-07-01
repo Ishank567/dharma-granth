@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Atom, BookOpen, Edit3, Feather, Languages, Lightbulb, ScrollText, Sparkles, Sun } from 'lucide-react';
 import type { ScriptureCategory } from '@/data/types';
-import { getVerseExplanationHi, getVerseLifeLessonHi, getVerseScienceHi } from '@/data/verse-explanations-hi';
+import type { HiCommentaryFragment } from '@/data/hi-commentary/_types';
 import { canonicalVerseId } from '@/lib/canonical-verse-id';
 import { getVerseGraphicClass, getVerseGraphicStyle } from './verse-background';
 import { ContributeMeaningModal } from './ContributeMeaningModal';
@@ -52,7 +52,7 @@ interface Props {
 type State =
   | { kind: 'idle' }
   | { kind: 'loading' }
-  | { kind: 'ready'; verses: FullVerse[]; source?: FullScripture['source'] }
+  | { kind: 'ready'; verses: FullVerse[]; commentary?: HiCommentaryFragment; source?: FullScripture['source'] }
   | { kind: 'empty' }
   | { kind: 'error'; message: string };
 
@@ -69,14 +69,19 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
     let cancelled = false;
     (async () => {
       try {
-        const res = await fetch(`${basePath}/data/scriptures-full/${scriptureId}.json`, {
-          cache: 'force-cache',
-        });
-        if (!res.ok) {
+        const [scriptureRes, commentaryRes] = await Promise.all([
+          fetch(`${basePath}/data/scriptures-full/${scriptureId}.json`, {
+            cache: 'force-cache',
+          }),
+          fetch(`${basePath}/data/hi-commentary/${scriptureId}.json`, {
+            cache: 'force-cache',
+          }),
+        ]);
+        if (!scriptureRes.ok) {
           if (!cancelled) setState({ kind: 'empty' });
           return;
         }
-        const data: FullScripture = await res.json();
+        const data: FullScripture = await scriptureRes.json();
         const chapter = data.chapters.find((c) => c.number === chapterId);
         if (!chapter || chapter.verses.length === 0) {
           if (!cancelled) setState({ kind: 'empty' });
@@ -85,8 +90,11 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
         const extras = chapter.verses.filter(
           (v) => !curatedVerseSet.has(canonicalVerseId(chapterId, v.number)),
         );
+        const commentary: HiCommentaryFragment | undefined = commentaryRes.ok
+          ? await commentaryRes.json()
+          : undefined;
         if (!cancelled) {
-          setState({ kind: 'ready', verses: extras, source: data.source });
+          setState({ kind: 'ready', verses: extras, commentary, source: data.source });
         }
       } catch (err) {
         if (!cancelled) setState({ kind: 'error', message: (err as Error).message });
@@ -163,15 +171,10 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
         {state.verses.map((v, index) => {
           const verseKey = canonicalVerseId(chapterId, v.number);
           const verseIdNum = Number(verseKey);
-          const explanationHi = Number.isFinite(verseIdNum)
-            ? getVerseExplanationHi(scriptureId, chapterId, verseIdNum)
-            : undefined;
-          const scienceHi = Number.isFinite(verseIdNum)
-            ? getVerseScienceHi(scriptureId, chapterId, verseIdNum)
-            : undefined;
-          const lifeLessonHi = Number.isFinite(verseIdNum)
-            ? getVerseLifeLessonHi(scriptureId, chapterId, verseIdNum)
-            : undefined;
+          const comment = state.commentary?.[`${chapterId}:${verseIdNum}`];
+          const explanationHi = comment?.explanation;
+          const scienceHi = comment?.science;
+          const lifeLessonHi = comment?.lifeLesson;
           const explanation = explanationHi ?? v.explanation ?? v.commentary;
           const explanationIsHi = Boolean(explanationHi);
           const science = scienceHi ?? v.science;

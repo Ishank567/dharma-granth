@@ -13,7 +13,7 @@ import { VerseDisplay } from '@/app/components/VerseDisplay';
 import { FadeUpOnView, Stagger, StaggerItem } from '@/app/components/motion/primitives';
 import { getBookExplanation } from '@/data/book-explanations';
 import { getScripture, getScriptureMeta, getAllScriptures } from '@/data/scriptures';
-import { getVerseExplanationHi, getVerseScienceHi, getVerseLifeLessonHi } from '@/data/verse-explanations-hi';
+import { getVerseCommentary } from '@/data/hi-commentary-loader';
 import { ArrowLeft, ArrowRight, BookOpen, Sparkles } from 'lucide-react';
 
 /**
@@ -152,12 +152,15 @@ export default function ChapterPage({ params }: PageProps) {
   const previousChapter = chapterIndex > 0 ? scripture.chapters[chapterIndex - 1] : undefined;
   const nextChapter = chapterIndex < scripture.chapters.length - 1 ? scripture.chapters[chapterIndex + 1] : undefined;
   const explanation = getBookExplanation(params.id);
-  const learningVerses = chapter.verses.map(verse => ({
-    ...verse,
-    explanationHi: getVerseExplanationHi(params.id, chapter.id, verse.id),
-    scienceHi: getVerseScienceHi(params.id, chapter.id, verse.id),
-    lifeLessonHi: getVerseLifeLessonHi(params.id, chapter.id, verse.id),
-  }));
+  const learningVerses = chapter.verses.map(verse => {
+    const commentary = getVerseCommentary(params.id, chapter.id, verse.id);
+    return {
+      ...verse,
+      explanationHi: commentary?.explanation,
+      scienceHi: commentary?.science,
+      lifeLessonHi: commentary?.lifeLesson,
+    };
+  });
 
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://dharmagranth.example';
   const chapterJsonLd = {
