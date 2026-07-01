@@ -318,11 +318,11 @@ export default function LearnPage() {
                               )}
                             </div>
                           </div>
-                          <span className={`text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded-full '${
+                          <span className={`text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded-full ${
                             quiz.difficulty === 'beginner' ? 'bg-emerald-100 text-emerald-700' :
                             quiz.difficulty === 'intermediate' ? 'bg-amber-100 text-amber-700' :
                             'bg-rose-100 text-rose-700'
-                          }'`}>{quiz.difficulty}</span>
+                          }`}>{quiz.difficulty}</span>
                         </div>
                         <p className="text-sm text-dharma-muted leading-relaxed mb-3">{quiz.description}</p>
                         <div className="flex items-center justify-between text-xs text-dharma-muted">

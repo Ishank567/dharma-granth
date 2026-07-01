@@ -4,9 +4,9 @@ import { FadeUp } from '@/app/components/motion/primitives';
 import { concepts } from '@/data/concepts';
 
 export const metadata: Metadata = {
-  title: 'Concept Knowledge Graph — Dharma Granth',
+  title: 'अवधारणा ज्ञान ग्राफ — Dharma Granth',
   description:
-    'Explore the interconnected web of Vedic and Hindu philosophical concepts — Atman, Brahman, Karma, Dharma, Moksha, and more — in an interactive knowledge graph.',
+    'वैदिक और हिंदू दर्शन की अवधारणाओं — आत्मन्, ब्रह्मन्, कर्म, धर्म, मोक्ष और अधिक — के अंतरसंबंधों का अन्वेषण करें।',
 };
 
 export default function ConceptsPage() {
@@ -19,13 +19,13 @@ export default function ConceptsPage() {
         <div className="max-w-6xl mx-auto px-6 relative">
           <FadeUp>
             <p className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-saffron-200 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
-              तत्त्वज्ञान — Interactive Knowledge Graph
+              तत्त्वमीमांसा — ज्ञान ग्राफ (Knowledge Graph)
             </p>
             <h1 className="text-5xl font-serif font-bold mb-4">
-              Concept Knowledge Graph
+              अवधारणा ज्ञान ग्राफ (Concept Knowledge Graph)
             </h1>
             <p className="text-xl opacity-90 max-w-2xl">
-              Explore the deep interconnections between {concepts.length} foundational concepts of Vedic and Hindu philosophy. Click any concept to discover its relationships, scriptural sources, and deeper meaning.
+              वैदिक और हिंदू दर्शन की {concepts.length} मूल अवधारणाओं के गहरे अंतरसंबंधों का अन्वेषण करें। किसी भी अवधारणा पर क्लिक कर उसके संबंधों, ग्रंथ स्रोतों और गहरे अर्थ को जानें।
             </p>
           </FadeUp>
         </div>

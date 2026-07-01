@@ -16,7 +16,8 @@ import { ThemeToggle } from './ThemeToggle';
 const navItems = [
   { label: 'Home', href: '/' },
   { label: 'Library', href: '/scriptures' },
-  { label: 'Concepts', href: '/concepts' },
+  { label: 'अवधारणाएँ', href: '/concepts' },
+  { label: 'Topics', href: '/topics' },
   { label: 'Bhagavad Gita', href: '/scripture/bhagavadgita' },
   { label: 'Bookmarks', href: '/bookmarks' },
   { label: 'Pathways', href: '/learn/pathways' },

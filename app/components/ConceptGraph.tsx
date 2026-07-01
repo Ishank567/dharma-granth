@@ -10,6 +10,9 @@ import {
   type ConceptCategory,
   getConnectedConcepts,
 } from '@/data/concepts';
+import { getConceptVerses, type ConceptVerse } from '@/data/concept-verses';
+import Link from 'next/link';
+import { BookOpen } from 'lucide-react';
 
 // ── Force-directed layout simulation ────────────────────────────
 interface SimNode { id: string; x: number; y: number; vx: number; vy: number; }
@@ -259,6 +262,7 @@ export function ConceptGraph() {
 
   const selectedConcept = selectedId ? allConcepts.find((c) => c.id === selectedId) : null;
   const selectedConnections = selectedId ? getConnectedConcepts(selectedId) : [];
+  const selectedVerses = selectedId ? getConceptVerses(selectedId) : [];
 
   const toggleCat = (cat: ConceptCategory) => {
     setActiveCats((prev) => {
@@ -280,7 +284,7 @@ export function ConceptGraph() {
             type="text"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            placeholder="Search concepts..."
+            placeholder="अवधारणाएँ खोजें..."
             className="w-full pl-10 pr-4 py-2.5 rounded-xl bg-dharma-card border border-dharma-border text-sm text-dharma-text placeholder:text-dharma-muted focus:outline-none focus:border-saffron-400 focus:ring-2 focus:ring-saffron-200 transition"
           />
           {search && (
@@ -298,7 +302,7 @@ export function ConceptGraph() {
           <button
             onClick={() => setZoom((z) => Math.max(0.5, z - 0.2))}
             className="p-2 rounded-lg bg-dharma-card border border-dharma-border hover:bg-saffron-50 transition"
-            title="Zoom out"
+            title="ज़ूम आउट"
           >
             <ZoomOut className="w-4 h-4" />
           </button>
@@ -308,14 +312,14 @@ export function ConceptGraph() {
           <button
             onClick={() => setZoom((z) => Math.min(2.5, z + 0.2))}
             className="p-2 rounded-lg bg-dharma-card border border-dharma-border hover:bg-saffron-50 transition"
-            title="Zoom in"
+            title="ज़ूम इन"
           >
             <ZoomIn className="w-4 h-4" />
           </button>
           <button
             onClick={() => { setZoom(1); setPan({ x: 0, y: 0 }); }}
             className="p-2 rounded-lg bg-dharma-card border border-dharma-border hover:bg-saffron-50 transition"
-            title="Reset view"
+            title="दृश्य रीसेट"
           >
             <Maximize className="w-4 h-4" />
           </button>
@@ -501,7 +505,7 @@ export function ConceptGraph() {
         {/* Hint overlay */}
         {!selectedId && !search && (
           <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-xs text-dharma-muted bg-dharma-card/80 backdrop-blur-sm px-4 py-2 rounded-full border border-dharma-border pointer-events-none">
-            Click a concept to explore • Drag nodes to rearrange • Scroll to pan
+            किसी अवधारणा पर क्लिक करें • नोड्स को खींचकर पुनर्व्यवस्थित करें • स्क्रॉल कर पैन करें
           </div>
         )}
       </div>
@@ -574,7 +578,7 @@ export function ConceptGraph() {
               {selectedConcept.scriptureRefs && selectedConcept.scriptureRefs.length > 0 && (
                 <div className="mb-6">
                   <p className="text-xs font-bold text-dharma-muted uppercase tracking-wider mb-2">
-                    Found in
+                    ग्रंथों में मिलता है
                   </p>
                   <div className="flex flex-wrap gap-2">
                     {selectedConcept.scriptureRefs.map((ref) => (
@@ -589,12 +593,66 @@ export function ConceptGraph() {
                 </div>
               )}
 
+              {/* Related Verses */}
+              {selectedVerses.length > 0 && (
+                <div className="mb-6">
+                  <p className="text-xs font-bold text-dharma-muted uppercase tracking-wider mb-3 flex items-center gap-2">
+                    <BookOpen className="w-3 h-3" />
+                    Related Verses ({selectedVerses.length})
+                  </p>
+                  <div className="space-y-3">
+                    {selectedVerses.map((verse, i) => {
+                      const verseUrl =
+                        verse.scriptureId && verse.chapterId && verse.verseId
+                          ? `/scripture/${verse.scriptureId}/chapter/${verse.chapterId}#verse-${verse.verseId}`
+                          : verse.scriptureId
+                            ? `/scripture/${verse.scriptureId}`
+                            : null;
+                      return (
+                        <div
+                          key={i}
+                          className="relative rounded-xl border border-dharma-border bg-dharma-bg/40 p-4 hover:border-saffron-200 transition"
+                        >
+                          <div className="absolute -top-2.5 left-4 w-5 h-5 rounded-full bg-gradient-to-br from-saffron-500 to-amber-600 text-white text-[10px] font-bold flex items-center justify-center shadow-sm">
+                            {i + 1}
+                          </div>
+                          <p lang="sa" className="font-devanagari text-base text-dharma-text leading-relaxed mb-2 mt-1">
+                            {verse.sanskrit}
+                          </p>
+                          {verse.transliteration && (
+                            <p className="text-xs italic text-dharma-muted mb-2">
+                              {verse.transliteration}
+                            </p>
+                          )}
+                          <p className="text-sm text-dharma-text leading-relaxed mb-2">
+                            {verse.translation}
+                          </p>
+                          <div className="flex items-center justify-between">
+                            <span className="text-[10px] font-bold text-saffron-700 uppercase tracking-wider">
+                              {verse.reference}
+                            </span>
+                            {verseUrl && (
+                              <Link
+                                href={verseUrl}
+                                className="text-[10px] font-semibold text-saffron-600 hover:text-saffron-800 transition"
+                              >
+                                Read in context →
+                              </Link>
+                            )}
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
+
               {/* Connected concepts */}
               {selectedConnections.length > 0 && (
                 <div>
                   <p className="text-xs font-bold text-dharma-muted uppercase tracking-wider mb-3 flex items-center gap-2">
                     <Sparkles className="w-3 h-3" />
-                    Connected Concepts ({selectedConnections.length})
+                    संबंधित अवधारणाएँ ({selectedConnections.length})
                   </p>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                     {selectedConnections.map((conn) => {
