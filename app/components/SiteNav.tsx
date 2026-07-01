@@ -19,6 +19,8 @@ const navItems = [
   { label: 'Concepts', href: '/concepts' },
   { label: 'Bhagavad Gita', href: '/scripture/bhagavadgita' },
   { label: 'Bookmarks', href: '/bookmarks' },
+  { label: 'Pathways', href: '/learn/pathways' },
+  { label: 'Dashboard', href: '/dashboard' },
 ];
 
 export function SiteNav() {

@@ -139,7 +139,7 @@ export default function PathwaysPage() {
                           <div className="mb-5 rounded-xl bg-saffron-50/40 border border-saffron-100 p-4">
                             <p className="text-xs font-bold uppercase tracking-wider text-saffron-700 mb-2 flex items-center gap-1.5">
                               <Target className="w-3.5 h-3.5" />
-                              What you'll gain
+                              What you&apos;ll gain
                             </p>
                             <ul className="space-y-1">
                               {pathway.learningOutcomes.map((outcome, i) => (
@@ -229,7 +229,7 @@ export default function PathwaysPage() {
                                 Pathway Complete! 🎉
                               </h4>
                               <p className="text-sm text-dharma-muted mb-4">
-                                You've completed all {pathway.steps.length} steps. Claim your certificate of completion.
+                                You&apos;ve completed all {pathway.steps.length} steps. Claim your certificate of completion.
                               </p>
                               <button
                                 onClick={() => setShowCertificateFor(pathway.id)}

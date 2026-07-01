@@ -5,11 +5,16 @@ import { FlashCard, FlashCardData } from '@/app/components/FlashCard';
 import { SlideDeck, SlideData } from '@/app/components/SlideDeck';
 import { MindMap, MindMapNode } from '@/app/components/MindMap';
 import { Timeline, TimelineEvent } from '@/app/components/Timeline';
-import { BookOpen, Brain, Sparkles, Clock } from 'lucide-react';
+import { BookOpen, Brain, Sparkles, Clock, Trophy } from 'lucide-react';
+import { QuizRunner } from '@/app/components/QuizRunner';
+import { quizzes } from '@/data/quizzes';
+import { useStudyProgress } from '@/lib/useStudyProgress';
 import { FadeUp, FadeUpOnView } from '@/app/components/motion/primitives';
 
 export default function LearnPage() {
-  const [activeTab, setActiveTab] = useState<'flashcards' | 'slides' | 'mindmap' | 'timeline'>('flashcards');
+  const [activeTab, setActiveTab] = useState<'flashcards' | 'slides' | 'mindmap' | 'timeline' | 'quizzes'>('flashcards');
+  const [selectedQuizId, setSelectedQuizId] = useState<string | null>(null);
+  const study = useStudyProgress();
   const [flashcards, setFlashcards] = useState<FlashCardData[]>([
     {
       front: {
@@ -208,6 +213,7 @@ export default function LearnPage() {
             { id: 'slides' as const, label: 'Slides', icon: <Sparkles className="w-4 h-4" /> },
             { id: 'mindmap' as const, label: 'Mind Map', icon: <Brain className="w-4 h-4" /> },
             { id: 'timeline' as const, label: 'Timeline', icon: <Clock className="w-4 h-4" /> },
+            { id: 'quizzes' as const, label: 'Quizzes', icon: <Trophy className="w-4 h-4" /> },
           ].map((tab) => (
             <button
               key={tab.id}
@@ -271,6 +277,67 @@ export default function LearnPage() {
           {activeTab === 'timeline' && (
             <div className="py-8">
               <Timeline events={timelineEvents} />
+            </div>
+          )}
+
+          {activeTab === 'quizzes' && (
+            <div className="py-8">
+              {selectedQuizId ? (
+                <div>
+                  <button
+                    onClick={() => setSelectedQuizId(null)}
+                    className="mb-6 inline-flex items-center gap-2 text-sm font-semibold text-saffron-700 hover:text-saffron-800 transition"
+                  >
+                    ← Back to quizzes
+                  </button>
+                  <QuizRunner
+                    quiz={quizzes.find((q) => q.id === selectedQuizId)!}
+                    onComplete={(score, total) => study.recordQuizResult(selectedQuizId, score, total)}
+                    bestScore={study.getBestQuizScore(selectedQuizId)}
+                  />
+                </div>
+              ) : (
+                <div className="grid md:grid-cols-2 gap-4">
+                  {quizzes.map((quiz) => {
+                    const best = study.getBestQuizScore(quiz.id);
+                    return (
+                      <button
+                        key={quiz.id}
+                        onClick={() => setSelectedQuizId(quiz.id)}
+                        className="text-left rounded-2xl border border-dharma-border bg-dharma-card p-6 hover:shadow-lg hover:border-saffron-300 transition group"
+                      >
+                        <div className="flex items-start justify-between mb-3">
+                          <div className="flex items-center gap-3">
+                            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-saffron-100 to-amber-100 text-saffron-700 flex items-center justify-center">
+                              <Trophy className="w-5 h-5" />
+                            </div>
+                            <div>
+                              <h3 className="text-base font-serif font-bold text-dharma-text group-hover:text-saffron-700 transition">{quiz.title}</h3>
+                              {quiz.titleSanskrit && (
+                                <p lang="sa" className="font-devanagari text-sm text-saffron-600">{quiz.titleSanskrit}</p>
+                              )}
+                            </div>
+                          </div>
+                          <span className={`text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded-full '${
+                            quiz.difficulty === 'beginner' ? 'bg-emerald-100 text-emerald-700' :
+                            quiz.difficulty === 'intermediate' ? 'bg-amber-100 text-amber-700' :
+                            'bg-rose-100 text-rose-700'
+                          }'`}>{quiz.difficulty}</span>
+                        </div>
+                        <p className="text-sm text-dharma-muted leading-relaxed mb-3">{quiz.description}</p>
+                        <div className="flex items-center justify-between text-xs text-dharma-muted">
+                          <span>{quiz.questions.length} questions</span>
+                          {best && (
+                            <span className="font-semibold text-saffron-700">
+                              Best: {best.score}/{best.total}
+                            </span>
+                          )}
+                        </div>
+                      </button>
+                    );
+                  })}
+                </div>
+              )}
             </div>
           )}
         </FadeUpOnView>
