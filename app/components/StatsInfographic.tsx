@@ -1,7 +1,8 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { BookOpen, Scroll, Flame, TreePine, TrendingUp } from 'lucide-react';
+import { TrendingUp } from 'lucide-react';
+import { KineticCard } from '@/app/components/motion/KineticCard';
 
 interface StatItem {
   value: number;
@@ -20,26 +21,34 @@ export function StatsInfographic({ stats }: StatsInfographicProps) {
   return (
     <section className="max-w-6xl mx-auto px-6 py-10">
       <motion.div
-        className="relative"
+        className="relative overflow-hidden rounded-[2rem] border border-dharma-border/70 bg-dharma-card/55 p-4 shadow-[0_24px_70px_-48px_rgba(45,42,38,0.55)] backdrop-blur-sm"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        {/* Background decorative elements */}
-        <div className="absolute -top-20 -left-20 w-40 h-40 rounded-full bg-saffron-100/50 blur-3xl" />
-        <div className="absolute -bottom-20 -right-20 w-40 h-40 rounded-full bg-emerald-100/50 blur-3xl" />
+        <div className="absolute inset-x-6 top-0 h-px bg-gradient-to-r from-transparent via-saffron-300/80 to-transparent" />
+        <div className="absolute inset-0 opacity-[0.18] mandala-bg pointer-events-none" />
         
         <div className="relative grid grid-cols-2 md:grid-cols-4 gap-4">
           {stats.map((stat, index) => (
             <motion.div
               key={stat.label}
-              className="relative group"
+              className="relative"
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: index * 0.1, duration: 0.5 }}
             >
               {/* Card with depth */}
-              <div className="relative bg-white rounded-2xl border border-dharma-border p-6 text-center shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 overflow-hidden">
+              <KineticCard
+                wrapperClassName="h-full"
+                className="relative h-full overflow-hidden rounded-2xl border border-dharma-border bg-white/90 shadow-lg"
+                contentClassName="p-6 text-center"
+                rotate={6}
+                depth={30}
+                lift={8}
+                hoverScale={1.018}
+                hoverShadow="0 28px 58px -22px rgba(45, 42, 38, 0.35)"
+              >
                 {/* Animated gradient background on hover */}
                 <div className="absolute inset-0 bg-gradient-to-br from-transparent via-white/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 
@@ -84,7 +93,7 @@ export function StatsInfographic({ stats }: StatsInfographicProps) {
                 {/* Decorative corner accents */}
                 <div className="absolute top-0 left-0 w-8 h-8 border-t-2 border-l-2 border-saffron-200 rounded-tl-xl opacity-0 group-hover:opacity-100 transition-opacity" />
                 <div className="absolute bottom-0 right-0 w-8 h-8 border-b-2 border-r-2 border-saffron-200 rounded-br-xl opacity-0 group-hover:opacity-100 transition-opacity" />
-              </div>
+              </KineticCard>
             </motion.div>
           ))}
         </div>

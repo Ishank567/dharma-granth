@@ -1,7 +1,8 @@
 'use client';
 
-import { motion } from 'framer-motion';
+import { motion, useReducedMotion } from 'framer-motion';
 import { Languages, Atom, ShieldCheck, BookOpen, Brain, Heart } from 'lucide-react';
+import { KineticCard } from '@/app/components/motion/KineticCard';
 
 interface Pillar {
   id: string;
@@ -48,11 +49,12 @@ const pillars: Pillar[] = [
 ];
 
 export function ThreePillarsInfographic() {
+  const reduce = useReducedMotion();
+
   return (
     <section className="max-w-6xl mx-auto px-6 py-12 relative overflow-hidden">
-      {/* Background decorative elements */}
-      <div className="absolute top-0 left-1/4 w-64 h-64 rounded-full bg-saffron-100/30 blur-3xl" />
-      <div className="absolute bottom-0 right-1/4 w-64 h-64 rounded-full bg-indigo-100/30 blur-3xl" />
+      <div className="absolute inset-x-6 top-0 h-px bg-gradient-to-r from-transparent via-saffron-300/80 to-transparent" />
+      <div className="absolute inset-0 -z-10 opacity-[0.12] mandala-bg" />
       
       <motion.div
         className="text-center mb-12 relative"
@@ -75,7 +77,7 @@ export function ThreePillarsInfographic() {
           className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 rounded-full bg-gradient-to-br from-saffron-100 to-amber-100 border-2 border-saffron-200 flex items-center justify-center shadow-xl z-10"
           initial={{ scale: 0, rotate: -180 }}
           animate={{ scale: 1, rotate: 0 }}
-          transition={{ duration: 0.8, type: "spring" }}
+          transition={reduce ? { duration: 0 } : { duration: 0.8, type: "spring" }}
         >
           <div className="text-center">
             <BookOpen className="w-8 h-8 mx-auto text-saffron-700 mb-1" />
@@ -125,7 +127,16 @@ export function ThreePillarsInfographic() {
               transition={{ delay: index * 0.2, duration: 0.6 }}
             >
               {/* Card with enhanced depth */}
-              <div className="relative bg-white/90 backdrop-blur-sm rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-dharma-border overflow-hidden group">
+              <KineticCard
+                wrapperClassName="h-full"
+                className="relative h-full overflow-hidden rounded-3xl border border-dharma-border bg-white/90 shadow-xl backdrop-blur-sm"
+                contentClassName="relative h-full p-8"
+                rotate={6}
+                depth={30}
+                lift={8}
+                hoverScale={1.018}
+                hoverShadow="0 34px 72px -30px rgba(45, 42, 38, 0.35)"
+              >
                 {/* Animated background gradient */}
                 <div className={`absolute inset-0 bg-gradient-to-br ${pillar.color} opacity-0 group-hover:opacity-5 transition-opacity duration-500`} />
                 
@@ -181,13 +192,15 @@ export function ThreePillarsInfographic() {
                 {/* Decorative elements */}
                 <div className="absolute top-0 left-0 w-16 h-16 border-t-4 border-l-4 border-saffron-200 rounded-tl-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 <div className="absolute bottom-0 right-0 w-16 h-16 border-b-4 border-r-4 border-saffron-200 rounded-br-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-              </div>
+              </KineticCard>
 
               {/* Floating icon decoration */}
               <motion.div
                 className="absolute -top-4 -right-4 w-12 h-12 rounded-full bg-white shadow-lg flex items-center justify-center"
-                animate={{ y: [0, -10, 0] }}
-                transition={{ duration: 3, repeat: Infinity, delay: index * 0.5 }}
+                animate={reduce ? undefined : { y: [0, -10, 0] }}
+                transition={
+                  reduce ? undefined : { duration: 3, repeat: Infinity, delay: index * 0.5 }
+                }
               >
                 {index === 0 && <BookOpen className="w-5 h-5 text-saffron-600" />}
                 {index === 1 && <Brain className="w-5 h-5 text-indigo-600" />}

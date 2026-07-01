@@ -82,7 +82,7 @@
     h4,
     h5,
     h6 {
-        @apply font-serif tracking-tight;
+        @apply font-serif tracking-normal;
     }
     h1 {
         @apply text-4xl md:text-5xl lg:text-6xl;
@@ -109,7 +109,18 @@
         @apply inline-flex items-center justify-center w-9 h-9 rounded-full bg-gradient-to-br from-saffron-500 to-saffron-700 text-white text-sm font-bold shadow-md;
     }
     .scripture-card {
-        @apply bg-dharma-card rounded-xl border border-dharma-border shadow-md transition-all hover:shadow-2xl hover:border-saffron-300 hover:-translate-y-1 hover:scale-[1.02];
+        @apply bg-dharma-card rounded-xl border border-dharma-border transition-[box-shadow,border-color] duration-300 hover:border-saffron-300 p-6;
+        box-shadow:
+            0 1px 0 rgba(255, 255, 255, 0.6) inset,
+            0 2px 4px rgba(45, 42, 38, 0.04),
+            0 12px 28px -10px rgba(124, 45, 18, 0.14);
+        will-change: transform;
+    }
+    .scripture-card:hover {
+        box-shadow:
+            0 1px 0 rgba(255, 255, 255, 0.7) inset,
+            0 8px 18px rgba(45, 42, 38, 0.08),
+            0 30px 60px -18px rgba(124, 45, 18, 0.3);
     }
     .scripture-pin-card {
         @apply p-0;

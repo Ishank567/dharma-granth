@@ -150,7 +150,11 @@ export default function ChapterPage({ params }: PageProps) {
   const nextChapter = chapterIndex < scripture.chapters.length - 1 ? scripture.chapters[chapterIndex + 1] : undefined;
   const explanation = getBookExplanation(params.id);
   const learningVerses = chapter.verses.map(verse => {
-    const commentary = getVerseCommentary(params.id, chapter.id, verse.id);
+    const commentary = getVerseCommentary(
+      params.id,
+      chapter.id,
+      verse.number ?? verse.id,
+    );
     return {
       ...verse,
       explanationHi: commentary?.explanation,
@@ -267,7 +271,7 @@ export default function ChapterPage({ params }: PageProps) {
           scriptureId={params.id}
           category={meta.category}
           chapterId={chapter.id}
-          curatedVerseIds={chapter.verses.map((v) => v.id)}
+          curatedVerseIds={chapter.verses.map((v) => v.number ?? v.id)}
           basePath={process.env.NEXT_PUBLIC_BASE_PATH || ''}
           autoLoad={chapter.verses.length === 0}
         />

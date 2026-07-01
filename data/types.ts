@@ -12,7 +12,8 @@ export const scriptureCategories = [
 export type ScriptureCategory = (typeof scriptureCategories)[number];
 
 export interface Verse {
-  id: number;
+  id: number | string;
+  number?: number | string;
   sanskrit: string;
   transliteration: string;
   translation: string;

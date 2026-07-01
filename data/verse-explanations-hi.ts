@@ -199,18 +199,18 @@ for (const [scriptureId, fragment] of Object.entries(fragments)) {
   }
 }
 
-function key(scriptureId: string, chapterId: number, verseId: number): string {
+function key(scriptureId: string, chapterId: number, verseId: number | string): string {
   return `${scriptureId}:${chapterId}:${verseId}`;
 }
 
-export function getVerseExplanationHi(scriptureId: string, chapterId: number, verseId: number): string | undefined {
+export function getVerseExplanationHi(scriptureId: string, chapterId: number, verseId: number | string): string | undefined {
   return verseExplanationsHi[key(scriptureId, chapterId, verseId)];
 }
 
-export function getVerseScienceHi(scriptureId: string, chapterId: number, verseId: number): string | undefined {
+export function getVerseScienceHi(scriptureId: string, chapterId: number, verseId: number | string): string | undefined {
   return verseScienceHi[key(scriptureId, chapterId, verseId)];
 }
 
-export function getVerseLifeLessonHi(scriptureId: string, chapterId: number, verseId: number): string | undefined {
+export function getVerseLifeLessonHi(scriptureId: string, chapterId: number, verseId: number | string): string | undefined {
   return verseLifeLessonHi[key(scriptureId, chapterId, verseId)];
 }

@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import type { ReactNode } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
 import {
   CalendarDays,
   ChevronLeft,
@@ -14,6 +14,7 @@ import {
   Sun,
   Star,
 } from 'lucide-react';
+import { KineticCard } from '@/app/components/motion/KineticCard';
 
 const MS_PER_DAY = 86_400_000;
 const SYNODIC_MONTH = 29.530588861;
@@ -265,6 +266,7 @@ function getWeekDays(center: Date) {
 
 export function PanchangCalendar() {
   const [selectedDate, setSelectedDate] = useState<Date | null>(null);
+  const reduce = useReducedMotion();
 
   useEffect(() => {
     setSelectedDate(startOfLocalDay(new Date()));
@@ -333,8 +335,8 @@ export function PanchangCalendar() {
               <FloatingParticles />
               <motion.div
                 className="absolute inset-0 mandala-bg opacity-15"
-                animate={{ rotate: 360 }}
-                transition={{ duration: 120, repeat: Infinity, ease: "linear" }}
+                animate={reduce ? undefined : { rotate: 360 }}
+                transition={reduce ? undefined : { duration: 120, repeat: Infinity, ease: "linear" }}
               />
               <div className="relative">
                 <div className="mb-8 flex items-center justify-between gap-4">
@@ -345,15 +347,16 @@ export function PanchangCalendar() {
                   >
                     <motion.p
                       className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 text-xs font-bold uppercase tracking-widest text-saffron-100"
-                      animate={{ scale: [1, 1.05, 1] }}
-                      transition={{ duration: 2, repeat: Infinity }}
+                      animate={reduce ? undefined : { scale: [1, 1.05, 1] }}
+                      transition={reduce ? undefined : { duration: 2, repeat: Infinity }}
                     >
-                      <motion.div
-                        animate={{ rotate: 360 }}
-                        transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
+                      <motion.span
+                        className="inline-flex"
+                        animate={reduce ? undefined : { rotate: 360 }}
+                        transition={reduce ? undefined : { duration: 10, repeat: Infinity, ease: "linear" }}
                       >
                         <Sun className="h-3.5 w-3.5" />
-                      </motion.div>
+                      </motion.span>
                       पंचांग Calendar
                     </motion.p>
                     <h2 className="mt-4 text-3xl font-serif font-bold md:text-4xl">
@@ -390,17 +393,17 @@ export function PanchangCalendar() {
                       style={{
                         background: `conic-gradient(#fde68a ${panchang.illumination}%, rgba(255,255,255,0.16) ${panchang.illumination}% 100%)`,
                       }}
-                      animate={{ rotate: 360 }}
-                      transition={{ duration: 30, repeat: Infinity, ease: "linear" }}
+                      animate={reduce ? undefined : { rotate: 360 }}
+                      transition={reduce ? undefined : { duration: 30, repeat: Infinity, ease: "linear" }}
                     >
                       <motion.div
                         className="flex h-20 w-20 flex-col items-center justify-center rounded-full bg-saffron-950/80 text-center shadow-inner"
-                        animate={{ scale: [1, 1.05, 1] }}
-                        transition={{ duration: 3, repeat: Infinity }}
+                        animate={reduce ? undefined : { scale: [1, 1.05, 1] }}
+                        transition={reduce ? undefined : { duration: 3, repeat: Infinity }}
                       >
                         <motion.div
-                          animate={{ rotate: -360 }}
-                          transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
+                          animate={reduce ? undefined : { rotate: -360 }}
+                          transition={reduce ? undefined : { duration: 20, repeat: Infinity, ease: "linear" }}
                         >
                           <Moon className="h-5 w-5 text-saffron-200" />
                         </motion.div>
@@ -419,14 +422,18 @@ export function PanchangCalendar() {
                       </motion.div>
                       <motion.div
                         className="absolute inset-0 rounded-full"
-                        animate={{
-                          boxShadow: [
-                            `0 0 20px rgba(253, 230, 138, 0.3)`,
-                            `0 0 40px rgba(253, 230, 138, 0.5)`,
-                            `0 0 20px rgba(253, 230, 138, 0.3)`,
-                          ],
-                        }}
-                        transition={{ duration: 2, repeat: Infinity }}
+                        animate={
+                          reduce
+                            ? undefined
+                            : {
+                                boxShadow: [
+                                  `0 0 20px rgba(253, 230, 138, 0.3)`,
+                                  `0 0 40px rgba(253, 230, 138, 0.5)`,
+                                  `0 0 20px rgba(253, 230, 138, 0.3)`,
+                                ],
+                              }
+                        }
+                        transition={reduce ? undefined : { duration: 2, repeat: Infinity }}
                       />
                     </motion.div>
                     <div>
@@ -523,13 +530,18 @@ export function PanchangCalendar() {
             <div className="p-5 md:p-8">
               <div className="grid gap-4 md:grid-cols-3">
                 {mainCards.map((card, index) => (
-                  <motion.article
+                  <KineticCard
                     key={card.label}
-                    className="rounded-xl border border-dharma-border bg-dharma-bg p-4 shadow-sm"
+                    className="h-full overflow-hidden rounded-xl border border-dharma-border bg-dharma-bg shadow-sm"
+                    contentClassName="p-4"
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.4 + index * 0.1 }}
-                    whileHover={{ scale: 1.03, y: -2 }}
+                    rotate={4}
+                    depth={20}
+                    lift={4}
+                    hoverScale={1.012}
+                    hoverShadow="0 20px 45px -26px rgba(124, 45, 18, 0.32)"
                   >
                     <div className="mb-3 flex items-center justify-between gap-3">
                       <motion.div
@@ -569,7 +581,7 @@ export function PanchangCalendar() {
                     <p className="mt-3 text-xs leading-relaxed text-dharma-muted">
                       {card.detail}
                     </p>
-                  </motion.article>
+                  </KineticCard>
                 ))}
               </div>
 
@@ -590,8 +602,8 @@ export function PanchangCalendar() {
                       </h3>
                     </div>
                     <motion.div
-                      animate={{ rotate: 360 }}
-                      transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
+                      animate={reduce ? undefined : { rotate: 360 }}
+                      transition={reduce ? undefined : { duration: 20, repeat: Infinity, ease: "linear" }}
                     >
                       <Clock3 className="h-5 w-5 text-saffron-600" />
                     </motion.div>
@@ -696,8 +708,8 @@ export function PanchangCalendar() {
               >
                 <div className="flex gap-3">
                   <motion.div
-                    animate={{ rotate: [0, 5, -5, 0] }}
-                    transition={{ duration: 2, repeat: Infinity }}
+                    animate={reduce ? undefined : { rotate: [0, 5, -5, 0] }}
+                    transition={reduce ? undefined : { duration: 2, repeat: Infinity }}
                   >
                     <Info className="mt-0.5 h-5 w-5 shrink-0 text-saffron-600" />
                   </motion.div>
@@ -729,14 +741,26 @@ function FadeShell({ children }: { children: ReactNode }) {
 }
 
 function FloatingParticles() {
-  const particles = Array.from({ length: 20 }, (_, i) => ({
-    id: i,
-    x: Math.random() * 100,
-    y: Math.random() * 100,
-    size: Math.random() * 3 + 1,
-    delay: Math.random() * 5,
-    duration: Math.random() * 3 + 4,
-  }));
+  const reduce = useReducedMotion();
+  const [particles, setParticles] = useState<
+    { id: number; x: number; y: number; size: number; delay: number; duration: number }[]
+  >([]);
+
+  useEffect(() => {
+    if (reduce) return;
+    setParticles(
+      Array.from({ length: 20 }, (_, i) => ({
+        id: i,
+        x: Math.random() * 100,
+        y: Math.random() * 100,
+        size: Math.random() * 3 + 1,
+        delay: Math.random() * 5,
+        duration: Math.random() * 3 + 4,
+      })),
+    );
+  }, [reduce]);
+
+  if (reduce) return null;
 
   return (
     <div className="absolute inset-0 pointer-events-none overflow-hidden">

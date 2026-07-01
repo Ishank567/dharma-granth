@@ -28,6 +28,7 @@ import {
 type LearningVerse = Verse & {
   explanationHi?: string;
 };
+type VerseId = Verse["id"];
 
 type Language = "en" | "hi";
 type RevealKey =
@@ -119,7 +120,7 @@ export function ChapterLearningClient({
   const [activeIndex, setActiveIndex] = useState(0);
   const reduce = useReducedMotion();
   const [reveal, setReveal] = useState(initialReveal);
-  const [learnedVerseIds, setLearnedVerseIds] = useState<number[]>([]);
+  const [learnedVerseIds, setLearnedVerseIds] = useState<VerseId[]>([]);
   const [reflection, setReflection] = useState("");
   const [isCardFlipped, setIsCardFlipped] = useState(false);
   const [shareStatus, setShareStatus] = useState<
@@ -147,6 +148,7 @@ export function ChapterLearningClient({
 
   const labels = copy[language];
   const activeVerse = verses[activeIndex];
+  const activeVerseLabel = activeVerse.number ?? activeVerse.id;
   const learnedSet = useMemo(() => new Set(learnedVerseIds), [learnedVerseIds]);
   const progress =
     verses.length === 0
@@ -251,7 +253,7 @@ export function ChapterLearningClient({
     try {
       const saved = localStorage.getItem(storageKey);
       if (saved) {
-        const parsed = JSON.parse(saved) as { cardTheme?: string; learnedVerseIds?: number[] };
+        const parsed = JSON.parse(saved) as { cardTheme?: string; learnedVerseIds?: VerseId[] };
         if (
           typeof parsed.cardTheme === "string" &&
           ["saffron", "blue", "green", "purple"].includes(parsed.cardTheme)
@@ -505,6 +507,7 @@ export function ChapterLearningClient({
             {verses.map((verse, index) => {
               const isActive = index === activeIndex;
               const isLearned = learnedSet.has(verse.id);
+              const verseLabel = verse.number ?? verse.id;
               return (
                 <button
                   key={verse.id}
@@ -516,7 +519,7 @@ export function ChapterLearningClient({
                       : "border-dharma-border bg-dharma-card text-dharma-text hover:border-saffron-300 hover:bg-saffron-500/10"
                   }`}
                 >
-                  {verse.id}
+                  {verseLabel}
                   {isLearned && (
                     <CheckCircle2
                       className={`absolute -right-1 -top-1 h-4 w-4 ${isActive ? "text-white" : "text-green-600"}`}
@@ -540,7 +543,7 @@ export function ChapterLearningClient({
           <div className="border-b border-dharma-border bg-saffron-50/20 p-5">
             <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
               <div className="flex items-center gap-3">
-                <span className="verse-number">{activeVerse.id}</span>
+                <span className="verse-number">{activeVerseLabel}</span>
                 <div>
                   <p className="text-xs font-semibold uppercase tracking-wider text-saffron-800">
                     {labels.verses} {activeIndex + 1} / {verses.length}
@@ -749,8 +752,8 @@ export function ChapterLearningClient({
                   <h3 className="mt-1 text-xl font-serif font-bold">
                     {chapterTitle} •{" "}
                     {language === "hi"
-                      ? `श्लोक ${activeVerse.id}`
-                      : `Verse ${activeVerse.id}`}
+                      ? `श्लोक ${activeVerseLabel}`
+                      : `Verse ${activeVerseLabel}`}
                   </h3>
                 </div>
                 <div className={`rounded-3xl p-6 shadow-sm min-h-[260px] flex flex-col justify-center ${

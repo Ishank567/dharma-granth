@@ -6,7 +6,8 @@ import { Feather, Sun, ScrollText, Sparkles, Atom, Lightbulb, X } from 'lucide-r
 import { useTheme, type Theme } from './ThemeProvider';
 
 export interface MindMapVerse {
-  id: number;
+  id: number | string;
+  number?: number | string;
   sanskrit: string;
   transliteration?: string;
   translation?: string;
@@ -211,6 +212,7 @@ export function VerseMindMap({ verse }: { verse: MindMapVerse }) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const rootRef = containerRef; // single element doubles as ResizeObserver target + keyboard root
   const [containerWidth, setContainerWidth] = useState(640);
+  const verseLabel = verse.number ?? verse.id;
 
   useEffect(() => {
     if (!containerRef.current) return;
@@ -376,7 +378,7 @@ export function VerseMindMap({ verse }: { verse: MindMapVerse }) {
       ref={containerRef}
       tabIndex={0}
       role="group"
-      aria-label={`Verse ${verse.id} mindmap — arrow keys to navigate branches`}
+      aria-label={`Verse ${verseLabel} mindmap — arrow keys to navigate branches`}
     >
       <div className="relative mx-auto w-full" style={{ maxWidth: 640, aspectRatio: '1 / 1' }}>
         {/* Swipe-gesture overlay. Sits behind interactive elements so
@@ -512,7 +514,7 @@ export function VerseMindMap({ verse }: { verse: MindMapVerse }) {
             type="button"
             onClick={() => setFocused(null)}
             className="relative w-full h-full rounded-full bg-gradient-to-br from-saffron-500 via-saffron-600 to-amber-700 text-white shadow-2xl ring-4 ring-white flex flex-col items-center justify-center hover:scale-105 transition-transform"
-            aria-label={`Verse ${verse.id} — click to reset focus`}
+            aria-label={`Verse ${verseLabel} — click to reset focus`}
           >
             <span
               className="font-devanagari leading-none"
@@ -531,7 +533,7 @@ export function VerseMindMap({ verse }: { verse: MindMapVerse }) {
               className="font-bold leading-none"
               style={{ fontSize: Math.max(11, centerSizePx * 0.22) }}
             >
-              {verse.id}
+              {verseLabel}
             </span>
             {!reduce && (
               <>

@@ -25,17 +25,7 @@ import {
   Scale,
   Heart,
   ChevronRight,
-  Languages,
-  Sparkles,
-  ShieldCheck,
-  Atom,
-  Lightbulb,
   ArrowRight,
-  Star,
-  Brain,
-  Zap,
-  Music,
-  WandSparkles,
 } from "lucide-react";
 
 // ── Featured Verse: Bhagavad Gita 2.47 ──────────────────────────
@@ -85,13 +75,6 @@ export default function HomePage() {
       {/* ── Featured Verse Infographic ────────────────────────────── */}
       <section className="max-w-6xl mx-auto px-6 -mt-8 mb-12 relative z-10">
         <FadeUpOnView>
-        <div className="text-center mb-8">
-          <p className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-saffron-700 bg-gradient-to-r from-saffron-100 to-amber-100 border border-saffron-200 px-5 py-2 rounded-full shadow-sm">
-            <Star className="w-3.5 h-3.5" />
-            आज का श्लोक — Featured Verse
-          </p>
-        </div>
-
         <InteractiveInfographic
           sections={[
             {
@@ -219,7 +202,7 @@ export default function HomePage() {
               </p>
             </div>
           </FadeUpOnView>
-          <Stagger className="grid md:grid-cols-2 lg:grid-cols-3 gap-6" amount={0.1}>
+          <Stagger className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {featured.map((s) => (
               <StaggerItem key={s.id}>
                 <ScriptureCard
@@ -271,7 +254,7 @@ export default function HomePage() {
             Explore the major streams of sacred literature
           </p>
         </FadeUpOnView>
-        <Stagger className="grid md:grid-cols-2 lg:grid-cols-3 gap-6" amount={0.1}>
+        <Stagger className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {categories.map((cat) => {
             const count = scriptures.filter(
               (s) => s.category === cat.id,

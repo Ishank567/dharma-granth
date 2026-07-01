@@ -8,7 +8,7 @@ interface SearchResult {
   id: string;
   scriptureId: string;
   chapterId: number;
-  verseNumber: number;
+  verseNumber: number | string;
   sanskrit?: string;
   hindi?: string;
   english?: string;

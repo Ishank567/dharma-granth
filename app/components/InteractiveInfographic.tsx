@@ -2,7 +2,8 @@
 
 import { motion, useReducedMotion } from 'framer-motion';
 import { useState, useEffect } from 'react';
-import { Printer, Bookmark, Share2, Check, Sparkles, ArrowRight } from 'lucide-react';
+import { Printer, Bookmark, Share2, Sparkles, ArrowRight } from 'lucide-react';
+import { KineticCard } from '@/app/components/motion/KineticCard';
 
 export interface InfographicSection {
   id: string;
@@ -30,14 +31,28 @@ interface InteractiveInfographicProps {
 }
 
 function ConnectionParticles() {
-  const particles = Array.from({ length: 15 }, (_, i) => ({
-    id: i,
-    x: Math.random() * 100,
-    y: Math.random() * 100,
-    size: Math.random() * 3 + 1,
-    delay: Math.random() * 3,
-    duration: Math.random() * 3 + 4,
-  }));
+  const reduce = useReducedMotion();
+  // Math.random() differs server vs client and trips a hydration mismatch.
+  // Generate only after mount so the server emits nothing and the client fills in.
+  const [particles, setParticles] = useState<
+    { id: number; x: number; y: number; size: number; delay: number; duration: number }[]
+  >([]);
+
+  useEffect(() => {
+    if (reduce) return;
+    setParticles(
+      Array.from({ length: 15 }, (_, i) => ({
+        id: i,
+        x: Math.random() * 100,
+        y: Math.random() * 100,
+        size: Math.random() * 3 + 1,
+        delay: Math.random() * 3,
+        duration: Math.random() * 3 + 4,
+      })),
+    );
+  }, [reduce]);
+
+  if (reduce) return null;
 
   return (
     <div className="absolute inset-0 pointer-events-none overflow-hidden">
@@ -150,8 +165,8 @@ export function InteractiveInfographic({ sections, className = '' }: Interactive
           className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-saffron-700 bg-gradient-to-r from-saffron-100 to-amber-100 border border-saffron-200 px-5 py-2 rounded-full shadow-sm mb-6"
         >
           <motion.div
-            animate={{ rotate: 360 }}
-            transition={{ duration: 8, repeat: Infinity, ease: "linear" }}
+            animate={reduce ? undefined : { rotate: 360 }}
+            transition={reduce ? undefined : { duration: 8, repeat: Infinity, ease: "linear" }}
           >
             <Sparkles className="w-3.5 h-3.5" />
           </motion.div>
@@ -170,7 +185,7 @@ export function InteractiveInfographic({ sections, className = '' }: Interactive
           transition={reduce ? {} : { delay: 0.2 }}
           className="text-dharma-muted text-lg"
         >
-          Click on any section to explore deeper connections
+          Ancient wisdom, practical meaning, science, and daily action in one connected path.
         </motion.p>
       </div>
 
@@ -223,22 +238,28 @@ export function InteractiveInfographic({ sections, className = '' }: Interactive
                 >
                   <motion.div
                     className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-2 h-2 rounded-full bg-saffron-500"
-                    animate={{ scale: [1, 1.5, 1] }}
-                    transition={{ duration: 2, repeat: Infinity }}
+                    animate={reduce ? undefined : { scale: [1, 1.5, 1] }}
+                    transition={reduce ? undefined : { duration: 2, repeat: Infinity }}
                   />
                 </motion.div>
               )}
 
               {/* Section card */}
-              <motion.div
-                className={`relative bg-dharma-card rounded-3xl border-2 shadow-lg cursor-pointer transition-all ${
-                  isActive ? 'shadow-2xl scale-105' : 'hover:shadow-xl hover:scale-[1.02]'
-                } ${isActive ? colors.border : 'border-dharma-border'}`}
+              <KineticCard
+                className={`relative rounded-3xl border-2 bg-dharma-card shadow-lg cursor-pointer transition-colors duration-300 ${
+                  isActive ? `shadow-2xl ${colors.border}` : 'border-dharma-border hover:border-saffron-300'
+                }`}
+                contentClassName="relative"
                 onClick={() => setActiveSection(isActive ? null : section.id)}
                 onMouseEnter={() => setHoveredSection(section.id)}
                 onMouseLeave={() => setHoveredSection(null)}
-                whileHover={reduce ? {} : { scale: 1.02 }}
-                whileTap={reduce ? {} : { scale: 0.98 }}
+                animate={reduce ? {} : { scale: isActive ? 1.018 : 1 }}
+                transition={{ type: 'spring', stiffness: 260, damping: 26 }}
+                rotate={isActive ? 3 : 5}
+                depth={26}
+                lift={isActive ? 2 : 7}
+                hoverScale={isActive ? 1.018 : 1.012}
+                hoverShadow="0 34px 70px -30px rgba(124, 45, 18, 0.34)"
               >
                 {/* Bookmark button */}
                 <button
@@ -334,8 +355,8 @@ export function InteractiveInfographic({ sections, className = '' }: Interactive
                     >
                       <p className="text-xs font-bold text-dharma-muted uppercase tracking-wider mb-3 flex items-center gap-2">
                         <motion.div
-                          animate={{ rotate: 360 }}
-                          transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
+                          animate={reduce ? undefined : { rotate: 360 }}
+                          transition={reduce ? undefined : { duration: 3, repeat: Infinity, ease: "linear" }}
                         >
                           <Sparkles className="w-3 h-3" />
                         </motion.div>
@@ -369,7 +390,7 @@ export function InteractiveInfographic({ sections, className = '' }: Interactive
                     transition={reduce ? {} : { duration: 0.5 }}
                   />
                 )}
-              </motion.div>
+              </KineticCard>
             </motion.div>
           );
         })}
@@ -389,8 +410,8 @@ export function InteractiveInfographic({ sections, className = '' }: Interactive
         <div className="relative">
           <motion.div
             className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm mb-6 mx-auto"
-            animate={{ scale: [1, 1.1, 1] }}
-            transition={{ duration: 2, repeat: Infinity }}
+            animate={reduce ? undefined : { scale: [1, 1.1, 1] }}
+            transition={reduce ? undefined : { duration: 2, repeat: Infinity }}
           >
             <Sparkles className="w-8 h-8" />
           </motion.div>
@@ -398,7 +419,7 @@ export function InteractiveInfographic({ sections, className = '' }: Interactive
             Complete the Journey
           </h3>
           <p className="opacity-90 max-w-2xl mx-auto">
-            Explore each section to understand the deeper connections between ancient wisdom and modern knowledge.
+            The verse moves from source to meaning, evidence, and daily practice.
           </p>
           
           {/* Progress indicator */}

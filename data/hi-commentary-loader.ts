@@ -21,7 +21,7 @@ export function loadCommentaryFragment(scriptureId: string): HiCommentaryFragmen
 export function getVerseCommentary(
   scriptureId: string,
   chapterId: number,
-  verseId: number,
+  verseId: number | string,
 ): { explanation?: string; science?: string; lifeLesson?: string } | undefined {
   const fragment = loadCommentaryFragment(scriptureId);
   if (!fragment) return undefined;

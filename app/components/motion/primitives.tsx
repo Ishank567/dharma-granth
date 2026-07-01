@@ -86,40 +86,45 @@ export function FadeUpOnView({
   );
 }
 
-const staggerParent: Variants = {
-  hidden: {},
-  visible: {
-    transition: { staggerChildren: 0.08, delayChildren: 0.15 },
-  },
-};
-
 /**
- * Wrap a list with `Stagger` and each list item with `StaggerItem` to
- * get a cascade of fade-ups as the list enters view. The stagger delay
- * is fixed at 80ms per child — slow enough to read as deliberate, fast
- * enough that a 10-verse chapter doesn't make the user wait.
+ * Wrap a list with `Stagger` and each list item with `StaggerItem` to get a
+ * list of fade-ups.
+ *
+ * The `StaggerItem`s animate themselves on mount (see below) rather than
+ * relying on this parent to orchestrate them, so `Stagger` is now just a
+ * layout wrapper. `amount` is still accepted for call-site compatibility but
+ * is unused — the reveal no longer depends on the parent reaching a
+ * props-bearing "visible" variant (which framer would not fire when the
+ * variant holds only a stagger transition), which left tall / below-the-fold
+ * lists stuck at `opacity: 0`.
  */
 export function Stagger({
   children,
   className,
-  amount = 0.1,
+  amount: _amount,
   ...rest
-}: { children: ReactNode; amount?: number } & HTMLMotionProps<'div'>) {
-  const reduce = useReducedMotion();
+}: { children: ReactNode; amount?: 'some' | 'all' | number } & HTMLMotionProps<'div'>) {
+  // A plain layout wrapper (motion.div with no animation) — it accepts the
+  // motion prop types callers may pass, but the reveal is driven per-item.
   return (
-    <motion.div
-      className={className}
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, amount }}
-      variants={reduce ? reducedVariants : staggerParent}
-      {...rest}
-    >
+    <motion.div className={className} {...rest}>
       {children}
     </motion.div>
   );
 }
 
+/**
+ * A single staggered item. Animates hidden → visible on mount with a small
+ * per-item delay so a list still reveals as a cascade.
+ *
+ * Why self-animate instead of inheriting from a `<Stagger>` parent? A parent
+ * whose "visible" variant carries only `staggerChildren` (no animatable
+ * props of its own) does not reliably propagate the variant to its children
+ * for tall / below-the-fold lists — leaving every item stuck at `opacity: 0`.
+ * Driving each item's own `initial`/`animate` (its `visible` variant has real
+ * `opacity`/`y` values) makes the reveal bulletproof regardless of list
+ * height or scroll position, exactly like `FadeUp`.
+ */
 export function StaggerItem({
   children,
   className,
@@ -129,7 +134,9 @@ export function StaggerItem({
   return (
     <motion.div
       className={className}
-      variants={reduce ? reducedVariants : fadeUpVariants}
+      initial={reduce ? false : { opacity: 0, y: FADE_UP_DISTANCE }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: FADE_DURATION, ease: [0.22, 1, 0.36, 1] }}
       {...rest}
     >
       {children}

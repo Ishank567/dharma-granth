@@ -8,7 +8,7 @@ interface VerseBookmarkProps {
   verseId: string;
   scriptureId: string;
   chapterId: number;
-  verseNumber: number;
+  verseNumber: number | string;
   sanskrit?: string;
   hindi?: string;
   english?: string;
@@ -19,7 +19,7 @@ interface BookmarkData {
   verseId: string;
   scriptureId: string;
   chapterId: number;
-  verseNumber: number;
+  verseNumber: number | string;
   sanskrit?: string;
   hindi?: string;
   english?: string;

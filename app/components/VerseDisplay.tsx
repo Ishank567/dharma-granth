@@ -95,6 +95,7 @@ export function VerseDisplay({
   const scienceIsHi = Boolean(verse.scienceHi);
   const lesson = verse.lifeLessonHi ?? verse.lifeLesson;
   const lessonIsHi = Boolean(verse.lifeLessonHi);
+  const verseLabel = verse.number ?? verse.id;
   const storedVerse: StoredVerse = {
     scriptureId,
     scriptureTitle,
@@ -166,7 +167,7 @@ export function VerseDisplay({
       dragElastic={0.14}
       onDragEnd={handleDragEnd}
       whileDrag={reduce ? undefined : { scale: 0.985, rotate: swipeAction === 'save' ? -1 : 1 }}
-      aria-label={`Verse ${verse.id}`}
+      aria-label={`Verse ${verseLabel}`}
       style={getVerseGraphicStyle({ category, verseId: verse.id })}
     >
       <AnimatePresence>
@@ -189,13 +190,13 @@ export function VerseDisplay({
 
       <div className="verse-modern-header flex flex-col gap-4 border-b border-dharma-border px-5 py-4 md:flex-row md:items-center md:justify-between">
         <div className="flex items-center gap-3">
-          <span className="verse-number shadow-lg shadow-saffron-500/20">{verse.id}</span>
+          <span className="verse-number shadow-lg shadow-saffron-500/20">{verseLabel}</span>
           <div>
             <div className="text-[10px] font-semibold uppercase tracking-widest text-saffron-800/70">
               {scriptureTitle}
             </div>
             <div className="text-sm font-bold text-dharma-text">
-              {chapterTitle} · श्लोक {verse.id}
+              {chapterTitle} · श्लोक {verseLabel}
             </div>
           </div>
         </div>
