@@ -12,7 +12,7 @@ import { FullChapterVerses } from '@/app/components/FullChapterVerses';
 import { VerseDisplay } from '@/app/components/VerseDisplay';
 import { FadeUpOnView, Stagger, StaggerItem } from '@/app/components/motion/primitives';
 import { getBookExplanation } from '@/data/book-explanations';
-import { getScripture, getScriptureMeta, getAllScriptures } from '@/data/scriptures';
+import { getScripture, getScriptureMeta, getAllScriptures, getScriptureChapters } from '@/data/scriptures';
 import { getVerseCommentary } from '@/data/hi-commentary-loader';
 import { ArrowLeft, ArrowRight, BookOpen, Sparkles } from 'lucide-react';
 
@@ -49,14 +49,11 @@ export function generateStaticParams() {
   const params: { id: string; chapterId: string }[] = [];
   for (const meta of getAllScriptures()) {
     const seen = new Set<string>();
-    const scripture = getScripture(meta.id);
-    if (scripture && scripture.chapters && scripture.chapters.length > 0) {
-      for (const ch of scripture.chapters) {
-        const cid = String(ch.id);
-        if (!seen.has(cid)) {
-          params.push({ id: meta.id, chapterId: cid });
-          seen.add(cid);
-        }
+    for (const ch of getScriptureChapters(meta.id)) {
+      const cid = String(ch.id);
+      if (!seen.has(cid)) {
+        params.push({ id: meta.id, chapterId: cid });
+        seen.add(cid);
       }
     }
     // Also emit params for chapters that exist only in the seeded

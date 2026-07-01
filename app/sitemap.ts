@@ -1,5 +1,5 @@
 import type { MetadataRoute } from 'next';
-import { getAllScriptures, getScripture } from '@/data/scriptures';
+import { getAllScriptures, getScriptureChapters } from '@/data/scriptures';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://dharmagranth.example';
 
@@ -21,14 +21,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const chapterRoutes: MetadataRoute.Sitemap = [];
   for (const meta of getAllScriptures()) {
-    const scripture = getScripture(meta.id);
-    if (!scripture) continue;
-    for (const chapter of scripture.chapters) {
+    for (const chapter of getScriptureChapters(meta.id)) {
       chapterRoutes.push({
         url: `${SITE_URL}/scripture/${meta.id}/chapter/${chapter.id}`,
         lastModified: now,
         changeFrequency: 'monthly',
-        priority: chapter.verses.length > 0 ? 0.8 : 0.3,
+        priority: chapter.verseCount > 0 ? 0.8 : 0.3,
       });
     }
   }

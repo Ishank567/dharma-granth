@@ -1,0 +1,13 @@
+[build]
+  command = "npm run build:pages"
+  publish = "dist"
+
+[build.environment]
+  NEXT_PUBLIC_BASE_PATH = ""
+  NEXT_PUBLIC_SITE_URL = "https://dharma-granth.netlify.app"
+  NEXT_TELEMETRY_DISABLED = "1"
+
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404

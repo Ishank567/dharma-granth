@@ -1,13 +1,52 @@
+import { existsSync, readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
 import type { Scripture, ScriptureCategory, ScriptureMeta } from "../types";
 import { scriptureCatalog } from "../scripture-meta";
-import { loadScriptureFromJSON } from "./lazy";
+import { loadScripture } from "./lazy";
 
+interface ChapterInfo {
+  id: number;
+  title: string;
+  titleSanskrit?: string;
+  verseCount: number;
+}
+
+interface Stats {
+  realVerseCount: number;
+  realChapterCount: number;
+  realScriptureCount: number;
+}
+
+let chaptersCache: Record<string, ChapterInfo[]> | null = null;
+let statsCache: Stats | null = null;
+
+function getChapters(): Record<string, ChapterInfo[]> {
+  if (chaptersCache) return chaptersCache;
+  const filePath = resolve(process.cwd(), 'public/data/chapters.json');
+  if (!existsSync(filePath)) return {};
+  try {
+    chaptersCache = JSON.parse(readFileSync(filePath, 'utf8')) as Record<string, ChapterInfo[]>;
+    return chaptersCache;
+  } catch {
+    return {};
+  }
+}
+
+function getStats(): Stats {
+  if (statsCache) return statsCache;
+  const filePath = resolve(process.cwd(), 'public/data/stats.json');
+  if (!existsSync(filePath)) return { realVerseCount: 0, realChapterCount: 0, realScriptureCount: 0 };
+  try {
+    statsCache = JSON.parse(readFileSync(filePath, 'utf8')) as Stats;
+    return statsCache;
+  } catch {
+    return { realVerseCount: 0, realChapterCount: 0, realScriptureCount: 0 };
+  }
+}
 
 function hasVerseData(id: string): boolean {
-  const scripture = loadScriptureFromJSON(id);
-  return Boolean(
-    scripture?.chapters.some((chapter) => chapter.verses.length > 0),
-  );
+  const chapters = getChapters()[id];
+  return chapters?.some((chapter) => chapter.verseCount > 0) ?? false;
 }
 
 function withDataAvailability(meta: ScriptureMeta): ScriptureMeta {
@@ -18,7 +57,7 @@ function withDataAvailability(meta: ScriptureMeta): ScriptureMeta {
 }
 
 export function getScripture(id: string): Scripture | undefined {
-  return loadScriptureFromJSON(id);
+  return loadScripture(id);
 }
 
 export function getAllScriptures(): ScriptureMeta[] {
@@ -44,34 +83,19 @@ export function getScriptureMeta(id: string): ScriptureMeta | undefined {
 
 /** Honest, real-time count of verses that actually have full hand-authored data on disk. */
 export function getRealVerseCount(): number {
-  return getAllScriptures().reduce((total, meta) => {
-    const scripture = loadScriptureFromJSON(meta.id);
-    return (
-      total +
-      (scripture?.chapters.reduce(
-        (subtotal, chapter) => subtotal + chapter.verses.length,
-        0,
-      ) ?? 0)
-    );
-  }, 0);
+  return getStats().realVerseCount;
 }
 
 /** Honest count of chapters that contain at least one authored verse. */
 export function getRealChapterCount(): number {
-  return getAllScriptures().reduce((total, meta) => {
-    const scripture = loadScriptureFromJSON(meta.id);
-    return (
-      total +
-      (scripture?.chapters.filter((chapter) => chapter.verses.length > 0)
-        .length ?? 0)
-    );
-  }, 0);
+  return getStats().realChapterCount;
 }
 
 /** How many scriptures actually ship verse data right now. */
 export function getRealScriptureCount(): number {
-  return getAllScriptures().filter((meta) => {
-    const scripture = loadScriptureFromJSON(meta.id);
-    return scripture?.chapters.some((c) => c.verses.length > 0);
-  }).length;
+  return getStats().realScriptureCount;
+}
+
+export function getScriptureChapters(id: string): ChapterInfo[] {
+  return getChapters()[id] ?? [];
 }
