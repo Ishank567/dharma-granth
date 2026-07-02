@@ -16,8 +16,9 @@ concurrency:
 
 env:
   NEXT_TELEMETRY_DISABLED: 1
-  NEXT_PUBLIC_BASE_PATH: /dharma-granth
-  NEXT_PUBLIC_SITE_URL: https://ishank567.github.io/dharma-granth
+  # Custom domain (dharmagranth.in) serves from the root — no repo base path.
+  NEXT_PUBLIC_BASE_PATH: ""
+  NEXT_PUBLIC_SITE_URL: https://dharmagranth.in
 
 jobs:
   build:
