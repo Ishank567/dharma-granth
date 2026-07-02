@@ -1,0 +1,188 @@
+export type TimelineType = 'narrative' | 'traditional' | 'academic' | 'commentarial' | 'acharya' | 'manuscript';
+
+export interface TimelineEvent {
+  id: string;
+  title: string;
+  sanskrit?: string;
+  date: string;
+  dateRange?: [string, string];
+  type: TimelineType;
+  description: string;
+  significance: string;
+  relatedTexts?: string[];
+  relatedFigures?: string[];
+}
+
+export interface Timeline {
+  id: string;
+  title: string;
+  sanskrit: string;
+  description: string;
+  type: TimelineType;
+  events: TimelineEvent[];
+}
+
+export const timelineTypeLabels: Record<TimelineType, { label: string; color: string; description: string }> = {
+  'narrative': {
+    label: 'काव्य-कथा क्रम (Narrative)',
+    color: 'text-blue-700 bg-blue-50 border-blue-200',
+    description: 'कथा के भीतर की घटनाओं का क्रम — ऐतिहासिक दिनांक नहीं।',
+  },
+  'traditional': {
+    label: 'पारंपरिक कालगणना (Traditional)',
+    color: 'text-saffron-700 bg-saffron-50 border-saffron-200',
+    description: 'परंपरा द्वारा स्वीकृत पवित्र कालगणना — श्रद्धा आधारित।',
+  },
+  'academic': {
+    label: 'ऐतिहासिक-शैक्षणिक (Academic)',
+    color: 'text-emerald-700 bg-emerald-50 border-emerald-200',
+    description: 'विद्वानों द्वारा अनुमानित दिनांक — प्रमाण आधारित, अनुमान सहित।',
+  },
+  'commentarial': {
+    label: 'टीका-परंपरा (Commentarial)',
+    color: 'text-purple-700 bg-purple-50 border-purple-200',
+    description: 'भाष्यों और टीकाओं के विकास का क्रम।',
+  },
+  'acharya': {
+    label: 'आचार्य और संत (Ācāryas & Saints)',
+    color: 'text-rose-700 bg-rose-50 border-rose-200',
+    description: 'प्रमुख आचार्यों और संतों का काल।',
+  },
+  'manuscript': {
+    label: 'पांडुलिपि और मुद्रित संस्करण (Manuscripts)',
+    color: 'text-amber-700 bg-amber-50 border-amber-200',
+    description: 'पांडुलिपियों और मुद्रित संस्करणों का इतिहास।',
+  },
+};
+
+export const timelines: Timeline[] = [
+  {
+    id: 'ramayana-narrative',
+    title: 'रामायण — काव्य-कथा क्रम',
+    sanskrit: 'रामायणम्',
+    description: 'वाल्मीकि रामायण के भीतर की घटनाओं का क्रम — ऐतिहासिक दिनांक नहीं, कथा-क्रम है।',
+    type: 'narrative',
+    events: [
+      { id: 'r1', title: 'राम का जन्म', sanskrit: 'रामजन्म', date: 'कथा-क्रम', type: 'narrative', description: 'अयोध्या में दशरथ के पुत्र के रूप में राम का जन्म।', significance: 'मर्यादा पुरुषोत्तम का अवतरण।' },
+      { id: 'r2', title: 'विश्वामित्र के साथ यात्रा', date: 'कथा-क्रम', type: 'narrative', description: 'विश्वामित्र के साथ राक्षसों का वध और शिक्षा।', significance: 'दिव्य अस्त्रों की प्राप्ति।' },
+      { id: 'r3', title: 'सीता स्वयंवर', date: 'कथा-क्रम', type: 'narrative', description: 'मिथिला में शिव धनुष तोड़कर सीता से विवाह।', significance: 'सीता-राम विवाह।' },
+      { id: 'r4', title: 'वनवास', date: 'कथा-क्रम', type: 'narrative', description: 'कैकेयी के वरदान से 14 वर्ष का वनवास।', significance: 'धर्म का पालन — पिता के वचन।' },
+      { id: 'r5', title: 'सीता हरण', date: 'कथा-क्रम', type: 'narrative', description: 'रावण द्वारा सीता का अपहरण।', significance: 'राम-रावण संघर्ष का आरंभ।' },
+      { id: 'r6', title: 'हनुमान की लंका यात्रा', date: 'कथा-क्रम', type: 'narrative', description: 'हनुमान द्वारा सीता की खोज और लंका दहन।', significance: 'भक्ति और शक्ति का प्रतीक।' },
+      { id: 'r7', title: 'रामसेतु निर्माण', date: 'कथा-क्रम', type: 'narrative', description: 'वानर सेना द्वारा समुद्र पर सेतु का निर्माण।', significance: 'लंका अभियान का आरंभ।' },
+      { id: 'r8', title: 'रावण वध', date: 'कथा-क्रम', type: 'narrative', description: 'राम द्वारा रावण का वध और सीता की मुक्ति।', significance: 'धर्म की विजय।' },
+      { id: 'r9', title: 'अयोध्या वापसी — रामराज्य', date: 'कथा-क्रम', type: 'narrative', description: '14 वर्ष बाद अयोध्या वापसी और राज्याभिषेक।', significance: 'आदर्श राज्य — रामराज्य की स्थापना।' },
+    ],
+  },
+  {
+    id: 'mahabharata-narrative',
+    title: 'महाभारत — काव्य-कथा क्रम',
+    sanskrit: 'महाभारतम्',
+    description: 'महाभारत के भीतर की घटनाओं का क्रम — कथा-क्रम, ऐतिहासिक दिनांक नहीं।',
+    type: 'narrative',
+    events: [
+      { id: 'm1', title: 'शांतनु और गंगा', date: 'कथा-क्रम', type: 'narrative', description: 'शांतनु का गंगा से विवाह, भीष्म का जन्म।', significance: 'कुरु वंश का आरंभ।' },
+      { id: 'm2', title: 'भीष्म का प्रतिज्ञा', date: 'कथा-क्रम', type: 'narrative', description: 'भीष्म का आजीवन ब्रह्मचर्य का व्रत।', significance: 'त्याग और व्रत का प्रतीक।' },
+      { id: 'm3', title: 'पांडव और कौरव जन्म', date: 'कथा-क्रम', type: 'narrative', description: 'पांडु और धृतराष्ट्र के पुत्रों का जन्म।', significance: 'वंश-वृक्ष का विस्तार।' },
+      { id: 'm4', title: 'द्रोण के अंतर्गत शिक्षा', date: 'कथा-क्रम', type: 'narrative', description: 'द्रोणाचार्य से पांडव और कौरवों की शिक्षा।', significance: 'अर्जुन का श्रेष्ठ धनुर्धर बनना।' },
+      { id: 'm5', title: 'द्रौपदी स्वयंवर और विवाह', date: 'कथा-क्रम', type: 'narrative', description: 'अर्जुन द्वारा द्रौपदी को जीता, पांचों भाइयों से विवाह।', significance: 'पांचाल-पांडव संबंध।' },
+      { id: 'm6', title: 'द्यूत क्रीड़ा और वनवास', date: 'कथा-क्रम', type: 'narrative', description: 'शकुनि के छल से राज्य हानि, 13 वर्ष वनवास।', significance: 'धर्म-अधर्म संघर्ष का आरंभ।' },
+      { id: 'm7', title: 'कुरुक्षेत्र युद्ध', date: 'कथा-क्रम', type: 'narrative', description: '18 दिन का महायुद्ध, गीता उपदेश, कौरवों का वध।', significance: 'धर्म की विजय — गीता का उपदेश।' },
+      { id: 'm8', title: 'युधिष्ठिर का राज्याभिषेक', date: 'कथा-क्रम', type: 'narrative', description: 'युद्ध के बाद युधिष्ठिर का राजा बनना, अश्वमेध यज्ञ।', significance: 'धर्मराज्य स्थापना।' },
+      { id: 'm9', title: 'महाप्रस्थान', date: 'कथा-क्रम', type: 'narrative', description: 'पांडवों का अंतिम यात्रा, युधिष्ठिर का स्वर्गारोहण।', significance: 'मृत्यु और मोक्ष पर विचार।' },
+    ],
+  },
+  {
+    id: 'traditional-chronology',
+    title: 'पारंपरिक कालगणना (Traditional Sacred Chronology)',
+    sanskrit: 'पारंपरिक कालगणना',
+    description: 'परंपरा द्वारा स्वीकृत पवित्र कालगणना — युगों और दिव्य वर्षों पर आधारित। यह श्रद्धा-आधारित है, ऐतिहासिक प्रमाण नहीं।',
+    type: 'traditional',
+    events: [
+      { id: 't1', title: 'सत्य युग (Krita Yuga)', sanskrit: 'सत्ययुगम्', date: '17,28,000 वर्ष', type: 'traditional', description: 'सत्य का स्वर्ण युग — धर्म चार पादों पर स्थित।', significance: 'सबसे शुद्ध युग, अहिंसा और सत्य का युग।' },
+      { id: 't2', title: 'त्रेता युग', sanskrit: 'त्रेतायुगम्', date: '12,96,000 वर्ष', type: 'traditional', description: 'रजत युग — धर्म तीन पादों पर, रामावतार।', significance: 'राम का अवतार, यज्ञों का प्राधान्य।' },
+      { id: 't3', title: 'द्वापर युग', sanskrit: 'द्वापरयुगम्', date: '8,64,000 वर्ष', type: 'traditional', description: 'कांस्य युग — धर्म दो पादों पर, कृष्णावतार।', significance: 'कृष्ण का अवतार, गीता उपदेश।' },
+      { id: 't4', title: 'कलि युग (वर्तमान)', sanskrit: 'कलियुगम्', date: '4,32,000 वर्ष (लगभग 5,000 वर्ष बीते)', type: 'traditional', description: 'लौह युग — धर्म एक पाद पर, अधर्म का प्राधान्य।', significance: 'वर्तमान युग — भक्ति सबसे सरल मार्ग।' },
+      { id: 't5', title: 'राम का काल (पारंपरिक)', date: 'त्रेता युग — लगभग 12 लाख वर्ष पूर्व', type: 'traditional', description: 'परंपरा के अनुसार राम त्रेता युग में अवतरित हुए।', significance: 'मर्यादा पुरुषोत्तम का अवतार।' },
+      { id: 't6', title: 'कृष्ण का काल (पारंपरिक)', date: 'द्वापर युग का अंत — लगभग 3,100 BCE (पारंपरिक)', type: 'traditional', description: 'परंपरा के अनुसार कृष्ण का जन्म द्वापर युग के अंत में, कलियुग के आरंभ में।', significance: 'कलियुग का आरंभ कृष्ण के देहत्याग से।' },
+      { id: 't7', title: 'वेदों का प्रकटन', date: 'सत्य युग के आरंभ में', type: 'traditional', description: 'परंपरा के अनुसार वेद अनादि और अपौरुषेय हैं — ऋषियों को "दृष्ट" किए गए।', significance: 'श्रुति — दिव्य ज्ञान का अवतरण।' },
+    ],
+  },
+  {
+    id: 'academic-chronology',
+    title: 'ऐतिहासिक-शैक्षणिक कालगणना (Academic Chronology)',
+    sanskrit: 'ऐतिहासिक कालगणना',
+    description: 'विद्वानों द्वारा अनुमानित दिनांक — प्रमाण आधारित, किंतु अनुमान सहित। यह पारंपरिक कालगणना से भिन्न है।',
+    type: 'academic',
+    events: [
+      { id: 'a1', title: 'ऋग्वेद संहिता', date: '1500-1000 BCE', type: 'academic', description: 'ऋग्वेद की संहिता का संकलन — मौखिक परंपरा से।', significance: 'वैदिक सभ्यता का प्राचीनतम लिखित प्रमाण।', relatedTexts: ['ऋग्वेद'] },
+      { id: 'a2', title: 'अन्य वेद संहिताएँ', date: '1200-800 BCE', type: 'academic', description: 'यजुर्वेद, सामवेद, अथर्ववेद संहिताओं का संकलन।', significance: 'वैदिक अनुष्ठान का विकास।' },
+      { id: 'a3', title: 'ब्राह्मण और आरण्यक', date: '1000-700 BCE', type: 'academic', description: 'ब्राह्मण ग्रंथों और आरण्यकों का संकलन।', significance: 'यज्ञ दर्शन का विस्तार।' },
+      { id: 'a4', title: 'प्राचीन उपनिषद्', date: '800-500 BCE', type: 'academic', description: 'बृहदारण्यक, छांदोग्य, ऐतरेय, कौषीतकी, तैत्तिरीय, केन, कठ, ईश, श्वेताश्वतर।', significance: 'वेदांत दर्शन का आरंभ — आत्मन्-ब्रह्मन् की पहचान।', relatedTexts: ['उपनिषद्'] },
+      { id: 'a5', title: 'रामायण (मूल संहिता)', date: '700-500 BCE (अनुमानित)', type: 'academic', description: 'वाल्मीकि रामायण के मूल 5 कांडों का संकलन (बालकांड और उत्तरकांड बाद में जोड़े गए हो सकते हैं)।', significance: 'संस्कृत काव्य का आदि ग्रंथ।', relatedTexts: ['रामायण'] },
+      { id: 'a6', title: 'महाभारत (मूल भारत)', date: '400 BCE-400 CE (विस्तार के साथ)', type: 'academic', description: 'मूल "भारत" (8,800 श्लोक) से विस्तारित "महाभारत" (1,00,000 श्लोक) तक।', significance: 'भारतीय सभ्यता का विश्वकोश।', relatedTexts: ['महाभारत'] },
+      { id: 'a7', title: 'भगवद्गीता', date: '200 BCE-200 CE (अनुमानित)', type: 'academic', description: 'गीता का संकलन महाभारत के भीष्म पर्व में।', significance: 'सर्वाधिक प्रभावशाली हिंदू ग्रंथ।', relatedTexts: ['भगवद्गीता'] },
+      { id: 'a8', title: 'प्राचीन पुराण', date: '300 CE-1000 CE', type: 'academic', description: 'अठारह पुराणों का विकास और संकलन।', significance: 'भक्ति परंपरा का विस्तार।', relatedTexts: ['पुराण'] },
+      { id: 'a9', title: 'धर्मशास्त्र (मनुस्मृति)', date: '200 BCE-200 CE', type: 'academic', description: 'मनुस्मृति और अन्य धर्मशास्त्रों का संकलन।', significance: 'सामाजिक व्यवस्था और नीति।', relatedTexts: ['मनुस्मृति'] },
+    ],
+  },
+  {
+    id: 'commentarial-tradition',
+    title: 'टीका-परंपरा का विकास (Commentarial Traditions)',
+    sanskrit: 'टीकापरंपरा',
+    description: 'प्रमुख भाष्यों और टीकाओं के विकास का क्रम — वेदांत और अन्य दर्शनों में।',
+    type: 'commentarial',
+    events: [
+      { id: 'c1', title: 'ब्रह्म सूत्र', date: '200 BCE-200 CE (अनुमानित)', type: 'commentarial', description: 'बादरायण द्वारा ब्रह्म सूत्र का संकलन — वेदांत का मूल ग्रंथ।', significance: 'उपनिषदों का सूत्र रूप।', relatedTexts: ['ब्रह्म सूत्र'] },
+      { id: 'c2', title: 'शंकराचार्य के भाष्य', date: '8वीं सदी CE', type: 'commentarial', description: 'ब्रह्म सूत्र, उपनिषद् और गीता पर अद्वैत भाष्य।', significance: 'अद्वैत वेदांत की स्थापना।', relatedFigures: ['shankara'] },
+      { id: 'c3', title: 'रामानुजाचार्य के भाष्य', date: '11वीं-12वीं सदी CE', type: 'commentarial', description: 'श्री भाष्य (ब्रह्म सूत्र), गीता भाष्य — विशिष्टाद्वैत।', significance: 'विशिष्टाद्वैत वेदांत की स्थापना।', relatedFigures: ['ramanuja'] },
+      { id: 'c4', title: 'मध्वाचार्य के भाष्य', date: '13वीं सदी CE', type: 'commentarial', description: 'ब्रह्म सूत्र भाष्य — द्वैत वेदांत।', significance: 'द्वैत वेदांत की स्थापना।' },
+      { id: 'c5', title: 'निम्बार्काचार्य', date: '12वीं-13वीं सदी CE', type: 'commentarial', description: 'द्वैताद्वैत (भेदाभेद) दर्शन की स्थापना।', significance: 'भेद-अभेद दर्शन।' },
+      { id: 'c6', title: 'वल्लभाचार्य', date: '15वीं-16वीं सदी CE', type: 'commentarial', description: 'शुद्धाद्वैत दर्शन, पुष्टिमार्ग की स्थापना।', significance: 'कृष्ण-भक्ति का पुष्टि मार्ग।' },
+      { id: 'c7', title: 'चैतन्य महाप्रभु', date: '16वीं सदी CE', type: 'commentarial', description: 'अचिंत्य भेदाभेद दर्शन, गौड़ीय वैष्णव परंपरा।', significance: 'कृष्ण-भक्ति आंदोलन का विस्तार।' },
+    ],
+  },
+  {
+    id: 'acharyas-saints',
+    title: 'प्रमुख आचार्य और संत (Major Ācāryas & Saints)',
+    sanskrit: 'आचार्याः',
+    description: 'हिंदू दर्शन और भक्ति परंपरा के प्रमुख आचार्यों और संतों का कालक्रम।',
+    type: 'acharya',
+    events: [
+      { id: 's1', title: 'आदि शंकराचार्य', sanskrit: 'आदिशङ्करः', date: 'c. 8वीं सदी CE', type: 'acharya', description: 'अद्वैत वेदांत के प्रवर्तक, चार मठों की स्थापना।', significance: 'हिंदू धर्म का पुनरुत्थान।', relatedFigures: ['shankara'] },
+      { id: 's2', title: 'रामानुजाचार्य', sanskrit: 'रामानुजः', date: 'c. 1017-1137 CE', type: 'acharya', description: 'विशिष्टाद्वैत वेदांत, श्री वैष्णव परंपरा।', significance: 'भक्ति और प्रपत्ति मार्ग।', relatedFigures: ['ramanuja'] },
+      { id: 's3', title: 'मध्वाचार्य', date: 'c. 1238-1317 CE', type: 'acharya', description: 'द्वैत वेदांत के प्रवर्तक।', significance: 'भेद दर्शन की स्थापना।' },
+      { id: 's4', title: 'निम्बार्काचार्य', date: 'c. 12वीं-13वीं सदी CE', type: 'acharya', description: 'द्वैताद्वैत दर्शन।', significance: 'भेदाभेद दर्शन।' },
+      { id: 's5', title: 'ज्ञानेश्वर', date: 'c. 1275-1296 CE', type: 'acharya', description: 'मराठी ज्ञानेश्वरी (गीता भाष्य), वारकरी संप्रदाय।', significance: 'मराठी भक्ति आंदोलन।' },
+      { id: 's6', title: 'रामानंद', date: '14वीं-15वीं सदी CE', type: 'acharya', description: 'रामानंदी संप्रदाय, सब जातियों को भक्ति में समाहित।', significance: 'समानता का भक्ति आंदोलन।' },
+      { id: 's7', title: 'कबीर', date: 'c. 1398-1518 CE', type: 'acharya', description: 'निर्गुण ब्रह्म के कवि, जाति-पांति का विरोध।', significance: 'निर्गुण भक्ति और समानता।' },
+      { id: 's8', title: 'वल्लभाचार्य', date: 'c. 1479-1531 CE', type: 'acharya', description: 'शुद्धाद्वैत, पुष्टिमार्ग, कृष्ण-भक्ति।', significance: 'कृष्ण-भक्ति का पुष्टि मार्ग।' },
+      { id: 's9', title: 'चैतन्य महाप्रभु', date: 'c. 1486-1534 CE', type: 'acharya', description: 'गौड़ीय वैष्णव, कृष्ण-भक्ति, संकीर्तन।', significance: 'बंगाल में कृष्ण-भक्ति आंदोलन।' },
+      { id: 's10', title: 'मीराबाई', date: 'c. 1498-1547 CE', type: 'acharya', description: 'कृष्ण की परम भक्त, भक्ति गीतों की कवयित्री।', significance: 'नारी भक्ति का प्रतीक।' },
+      { id: 's11', title: 'तुलसीदास', date: 'c. 1532-1623 CE', type: 'acharya', description: 'रामचरितमानस के रचयिता, राम-भक्ति।', significance: 'हिंदी साहित्य का शिखर।' },
+      { id: 's12', title: 'सूरदास', date: 'c. 1478-1581 CE', type: 'acharya', description: 'कृष्ण-लीला के पद, सूरसागर।', significance: 'ब्रज भक्ति का केंद्र।' },
+      { id: 's13', title: 'स्वामी विवेकानंद', date: 'c. 1863-1902 CE', type: 'acharya', description: 'वेदांत का विश्व प्रचार, रामकृष्ण मिशन।', significance: 'आधुनिक हिंदू धर्म का पुनरुत्थान।' },
+      { id: 's14', title: 'अरविंद घोष', date: 'c. 1872-1950 CE', type: 'acharya', description: 'समग्र योग, आध्यात्मिक विकास।', significance: 'आधुनिक वेदांत और योग।' },
+      { id: 's15', title: 'रामकृष्ण परमहंस', date: 'c. 1836-1886 CE', type: 'acharya', description: 'सभी धर्मों की एकता का अनुभव।', significance: 'सर्वधर्म समभाव।' },
+    ],
+  },
+  {
+    id: 'manuscripts-editions',
+    title: 'पांडुलिपि और मुद्रित संस्करण (Manuscripts & Printed Editions)',
+    sanskrit: 'पांडुलिपयः',
+    description: 'प्रमुख ग्रंथों की पांडुलिपियों और मुद्रित संस्करणों का इतिहास।',
+    type: 'manuscript',
+    events: [
+      { id: 'p1', title: 'अशोक के शिलालेख', date: 'c. 250 BCE', type: 'manuscript', description: 'ब्राह्मी और खरोष्ठी लिपि में प्राचीनतम लेख।', significance: 'भारतीय लेखन परंपरा का प्राचीनतम प्रमाण।' },
+      { id: 'p2', title: 'प्राचीन संस्कृत पांडुलिपियां', date: 'c. 300 CE onwards', type: 'manuscript', description: 'तालपत्र, भोजपत्र और कागज पर संस्कृत ग्रंथ।', significance: 'ग्रंथों का संरक्षण।' },
+      { id: 'p3', title: 'महाभारत — कृतिवर्ण संस्करण', date: '19वीं सदी CE', type: 'manuscript', description: 'बंबई (मुंबई) में महाभारत का विद्वान-संपादित संस्करण।', significance: 'महाभारत का आलोचनात्मक संस्करण।', relatedTexts: ['महाभारत'] },
+      { id: 'p4', title: 'रामायण — एशियाटिक सोसायटी संस्करण', date: '19वीं सदी CE', type: 'manuscript', description: 'कलकत्ता (कोलकाता) में वाल्मीकि रामायण का विद्वान संस्करण।', significance: 'रामायण का आलोचनात्मक संस्करण।', relatedTexts: ['रामायण'] },
+      { id: 'p5', title: 'मुद्रण का आरंभ', date: '19वीं सदी CE', type: 'manuscript', description: 'भारत में ग्रंथों का मुद्रण आरंभ — श्रीरामपुर मिशन प्रेस।', significance: 'जनसाधारण तक ग्रंथों की पहुंच।' },
+      { id: 'p6', title: 'गीता प्रेस, गोरखपुर', date: '1923 CE', type: 'manuscript', description: 'गीता प्रेस द्वारा हिंदू ग्रंथों का किफायती मुद्रण।', significance: 'ग्रंथों का व्यापक प्रचार।', relatedTexts: ['भगवद्गीता', 'रामचरितमानस'] },
+    ],
+  },
+];
+
+export function getTimelinesByType(type: TimelineType): Timeline[] {
+  return timelines.filter((t) => t.type === type);
+}
