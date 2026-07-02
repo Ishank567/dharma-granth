@@ -1,0 +1,247 @@
+{
+  "id": "kaivalya",
+  "title": "Kaivalya Upanishad",
+  "titleSanskrit": "कैवल्य उपनिषद्",
+  "category": "upanishad",
+  "source": {
+    "repo": "https://sanskritdocuments.org/doc_upanishhat/kaivalya.itx",
+    "license": "Sanskrit mūla — public domain. Digitized by sanskritdocuments.org.",
+    "fetchedAt": "2026-06-03T13:44:37.595Z"
+  },
+  "totalVerses": 25,
+  "totalChapters": 1,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Full Text",
+      "titleSanskrit": "सम्पूर्ण पाठ",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "अथ अश्वलायनो भगवन्तं परमेष्टिनमुपसमेत्योवाच अधीहि भगवन् ब्रह्मविद्यां वरिष्ठां सदा सद्भिः सेव्यमानां निगूढां यया चिरात् सर्वपापं व्यपोह्य परात्परं पुरुषं याति विद्वान्",
+          "transliteration": "atha ashvalāyano bhagavantam parameṣṭinam upasametya uvāca adhīhi bhagavan brahmavidyāṃ variṣṭhāṃ sadā sadbhiḥ sevyamānāṃ nigūdhāṃ yayā chīrāt sarvapāpam vyapohya parātparam puruṣaṃ yāti vidvān",
+          "translation": "Then Asvalayana approached the highest Lord (the Creator Brahma) and said: Oh Bhagavan, teach me the highest Science of Reality, cultivated always by good people, which is ever a hidden secret for man, a knowledge by which a wise man, discarding all sins, can reach the Highest.",
+          "hindi": "तब अश्वलायन ने परमेष्टि (ब्रह्मा) के पास जाकर कहा: हे भगवन, मुझे उच्चतम वास्तविकता का विज्ञान सिखाएं, जिसे सदा अच्छे लोग अपनाते हैं, जो मनुष्य के लिए हमेशा गुप्त रहता है, जिस ज्ञान से बुद्धिमान व्यक्ति सभी पापों को छोड़कर उच्चतम पुरुष को प्राप्त होता है।",
+          "commentary": "The opening of the Kaivalya Upanishad: the seeker Asvalayana approaches Brahma with the right attitude — seeking the highest knowledge that leads to liberation. The emphasis on \"hidden secret\" (nigūdhā) indicates that this knowledge is not found in ordinary teachings but must be revealed by a qualified teacher.",
+          "wordMeaning": "The opening of the Kaivalya Upanishad: the seeker Asvalayana approaches Brahma with the right attitude — seeking the highest knowledge that leads to liberation. The emphasis on \"hidden secret\" (nigūdhā) indicates that this knowledge is not found in ordinary teachings but must be revealed by a qualified teacher."
+        },
+        {
+          "number": 2,
+          "sanskrit": "तस्मै स होवाच पितामहाश्च श्रद्धा भक्ति ध्यान योगादवैहि",
+          "transliteration": "tasmai sa hovāca pitāmāhāśca śraddhā bhakti dhyāna yogādavaihi",
+          "translation": "To him (Asvalayana), the Grandsire Brahma said: Know this supreme knowledge by Faith, Devotion and Meditation (Yoga).",
+          "hindi": "उससे (अश्वलायन को) पितामह ब्रह्मा ने कहा: इस परम ज्ञान को श्रद्धा, भक्ति और ध्यान (योग) द्वारा जानो।",
+          "commentary": "Brahma's response: the path to supreme knowledge is threefold — faith (śraddhā), devotion (bhakti), and meditation (dhyāna). These are not separate but integrated practices that together open the heart to direct experience.",
+          "wordMeaning": "Brahma's response: the path to supreme knowledge is threefold — faith (śraddhā), devotion (bhakti), and meditation (dhyāna). These are not separate but integrated practices that together open the heart to direct experience."
+        },
+        {
+          "number": 3,
+          "sanskrit": "न कर्मणा न प्रजया धनेन त्यागेनैके अमृतत्वमानशुः | परेण नाकं निहितं गुहायां विभ्राजते यद्यतयो विशन्ति ||",
+          "transliteration": "na karmaṇā na prajayā dhanena tyāgenaike amṛtatvamānaśuḥ | pareṇa nākaṃ nihitaṃ guhāyāṃ vibhrājate yadyatayo viśanti ||",
+          "translation": "Not through karma, not through progeny, not through wealth — through renunciation alone have some attained immortality. That supreme bliss shines in the cave of the heart; into it the ascetics enter.",
+          "hindi": "कर्म से नहीं, संतान से नहीं, धन से नहीं — केवल त्याग से कुछ लोगों ने अमृतत्व प्राप्त किया। वह परम आनन्द हृदय की गुफा में प्रकाशित है; उसमें संन्यासी प्रवेश करते हैं।",
+          "commentary": "The Kaivalya Upanishad's most radical claim, echoed from the Mundaka: immortality is not achieved by any accumulation — not virtue accumulation (karma), not biological legacy (progeny), not material security (wealth). It is achieved by renunciation — the letting go of identification with what comes and goes. The \"cave of the heart\" (guhayam) is the innermost space of consciousness where the self rests in its own nature, undistracted by the world's noise.",
+          "wordMeaning": "The Kaivalya Upanishad's most radical claim, echoed from the Mundaka: immortality is not achieved by any accumulation — not virtue accumulation (karma), not biological legacy (progeny), not material security (wealth). It is achieved by renunciation — the letting go of identification with what comes and goes. The \"cave of the heart\" (guhayam) is the innermost space of consciousness where the self rests in its own nature, undistracted by the world's noise."
+        },
+        {
+          "number": 4,
+          "sanskrit": "वेदान्तविज्ञान सुनिश्चितार्थाः सन्यासयोगाद् यतयाःः शुद्ध सत्त्वाः ते ब्रह्मलोकेषु परान्तकाले परामृतात् परिमुच्यन्ति सर्वे",
+          "transliteration": "vedāntavijñāna suniścitārthāhā sanyāsayogād yatayāhāḥ śuddha sattvāhā te brahmalokeṣu parāntakāle parāmṛtāt parimuchyanti sarve",
+          "translation": "Those who are pure in mind, striving through the path of renunciation, come to ascertain clearly the deeper imports of the Knowledge, which is the theme of the Upanishad (Vedanta). In the end, they gain the world of Brahma, and liberating themselves from everything, gain the Highest Immortality.",
+          "hindi": "जो शुद्ध चित्त वाले, सन्यास के मार्ग से प्रयास करते हैं, वे उपनिषद (वेदान्त) के विषय के गहरे अर्थ को स्पष्ट रूप से समझते हैं। अंत में, वे ब्रह्मलोक को प्राप्त करते हैं, और सब कुछ से मुक्त होकर, उच्चतम अमृतत्व को प्राप्त करते हैं।",
+          "commentary": "The path of renunciation combined with Vedantic study leads to liberation. Purity of mind (śuddha sattvā) is essential for understanding the deeper meaning of the scriptures.",
+          "wordMeaning": "The path of renunciation combined with Vedantic study leads to liberation. Purity of mind (śuddha sattvā) is essential for understanding the deeper meaning of the scriptures."
+        },
+        {
+          "number": 5,
+          "sanskrit": "योऽसावात्मनिश्चयेन मनसा नित्यं धारयेत् | स एव शुद्धः साक्षात् शिवोऽसौ शिवमाप्नुयात् ||",
+          "transliteration": "yo'sāvātmaniścayena manasā nityaṃ dhārayet | sa eva śuddhaḥ sākṣāt śivo'sau śivamāpnuyāt ||",
+          "translation": "He who constantly holds the conviction \"I am the Self\" in his mind — he alone is pure, he directly perceives, he is Shiva, he attains Shiva.",
+          "hindi": "जो मन में नित्य \"मैं आत्मा हूँ\" का निश्चय धारण करता है — वह शुद्ध है, वह साक्षात् देखता है, वह शिव है, वह शिव को प्राप्त करता है।",
+          "commentary": "The practice of self-conviction (atma-nischaya). Constantly holding the awareness \"I am the Self\" is the direct path to liberation. This is not intellectual affirmation but living recognition.",
+          "wordMeaning": "The practice of self-conviction (atma-nischaya). Constantly holding the awareness \"I am the Self\" is the direct path to liberation. This is not intellectual affirmation but living recognition."
+        },
+        {
+          "number": 6,
+          "sanskrit": "अचिन्त्यमव्यक्तमनन्तरूपं शिवं प्रशान्तममृतं ब्रह्मयोनिं तथा आदिमध्यान्त विहीनं एकं विभूं चिदानन्दरूपमद्भुतम्",
+          "transliteration": "achintyam avyaktam anantarūpaṃ śivaṃ praśāntamam amṛtam brahmayonim tathā ādimadhyaanta vihīnaṃ ekaṃ vibhūṃ chidānandarūpaṃ adbhutam",
+          "translation": "The Unthinkable, the Unmanifest, the One of endless forms, the Ever-auspicious, the Peaceful, the Immortal, the Origin of the very Creator, the One without a beginning, a middle or an end, the Only One, the All-pervading, the Knowledge-Bliss, the Formless, and the Wonderful.",
+          "hindi": "अचिन्त्य, अव्यक्त, अनंत रूपों वाला, सदैव शुभ, शांत, अमर, ब्रह्मा का उद्गम, जिसका न आदि है न मध्य न अंत, एक, सर्वव्यापी, ज्ञान-आनंद, निराकार, और अद्भुत।",
+          "commentary": "A comprehensive description of the Absolute Reality using negation and affirmation. These terms are given for contemplation in the cave of the heart.",
+          "wordMeaning": "A comprehensive description of the Absolute Reality using negation and affirmation. These terms are given for contemplation in the cave of the heart."
+        },
+        {
+          "number": 7,
+          "sanskrit": "सर्वे भूताः सुखिनो भवन्ति सर्वे भूताः शान्तिनो भवन्ति | सर्वे भूताः मुक्ता भवन्ति यो ब्रह्म वेद न तत्र संशयः ||",
+          "transliteration": "sarve bhūtāḥ sukhino bhavanti sarve bhūtāḥ śāntino bhavanti | sarve bhūtāḥ muktā bhavanti yo brahma veda na tatra saṃśayaḥ ||",
+          "translation": "All beings become happy, all beings become peaceful, all beings become liberated — for one who knows Brahman, there is no doubt.",
+          "hindi": "सभी प्राणी सुखी हो जाते हैं, सभी प्राणी शांत हो जाते हैं, सभी प्राणी मुक्त हो जाते हैं — जो ब्रह्म को जानता है, उसमें कोई संशय नहीं।",
+          "commentary": "The transformative effect of Brahman-knowledge on the world. When the knower recognizes Brahman, all beings appear in their true nature — happy, peaceful, liberated.",
+          "wordMeaning": "The transformative effect of Brahman-knowledge on the world. When the knower recognizes Brahman, all beings appear in their true nature — happy, peaceful, liberated."
+        },
+        {
+          "number": 8,
+          "sanskrit": "स ब्रह्मा स शिवाः सेन्द्राः सोक्षराः परमस्स्वरात् स एव विष्णुः स प्राणाः स कालोग्निः स चन्द्रमाः",
+          "transliteration": "sa brahmā sa śivāhā sendrāhā sōkṣarahā paramas svarāt sa eva viṣṇuḥ sa prāṇahā sa kālōgni sa chandramāhā",
+          "translation": "He is Brahma, He is Siva, He is Indra. He is the Immutable, Imperishable, the Supreme, the Self-luminous. He alone is Vishnu, He is Prana, He is Time and Fire. He is the Moon.",
+          "hindi": "वह ब्रह्मा है, वह शिव है, वह इन्द्र है। वह अविनाशी, अक्षय, परम, स्वयं प्रकाशित है। वही विष्णु है, वह प्राण है, वह काल और अग्नि है। वह चंद्रमा है।",
+          "commentary": "The unity of all deities in the One Reality. All gods are manifestations of the same supreme consciousness.",
+          "wordMeaning": "The unity of all deities in the One Reality. All gods are manifestations of the same supreme consciousness."
+        },
+        {
+          "number": 9,
+          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो ब्रह्मणि लीनो न तत्र संशयो भवति ||",
+          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo brahmaṇ līno na tatra saṃśayo bhavati ||",
+          "translation": "As rivers merge into the ocean, as lamps merge into light — so the individual self merges into Brahman. There is no doubt about this.",
+          "hindi": "जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।",
+          "commentary": "The dissolution of individuality into the absolute. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains.",
+          "wordMeaning": "The dissolution of individuality into the absolute. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains."
+        },
+        {
+          "number": 10,
+          "sanskrit": "एव सर्वं यद्भूतं यच्च भव्यं सनातनं ज्ञात्वा तं मृत्युमत्येति नान्यहा पन्था विमुक्तये",
+          "transliteration": "a eva sarvaṃ yadbhūtaṃ yaccha bhavyaṃ sanātanaṃ jñātvā taṃ mṛtyumatyeti na anyahā panthā vimuktaye",
+          "translation": "He alone is all that was, and all that will be, the Eternal. Knowing Him one goes behind the sting of death. There is no other way to attain complete Freedom.",
+          "hindi": "वही सब है जो था, और जो होगा, जो सनातन है। उसे जानकर व्यक्ति मृत्यु से पार जाता है। पूर्ण स्वतंत्रता प्राप्त करने का कोई अन्य मार्ग नहीं है।",
+          "commentary": "The declaration that the Eternal alone is all that was and will be. Knowing this Reality is the only way to transcend death.",
+          "wordMeaning": "The declaration that the Eternal alone is all that was and will be. Knowing this Reality is the only way to transcend death."
+        },
+        {
+          "number": 11,
+          "sanskrit": "सर्वभूतस्थमात्मानं सर्वभूतानि चात्मनि सम्पश्यन ब्रह्म परमं याति नान्येन हेतुना",
+          "transliteration": "sarvabhūtasthamātmānaṃ sarvabhūtāni chātmani saṃpaśyan brahmā paramaṃ yāti na anyena hetunā",
+          "translation": "Experiencing one's own Self in all beings and all beings in the Self, one attains the Highest Brahman, and not by any other means.",
+          "hindi": "सभी प्राणियों में अपने आत्मा को और आत्मा में सभी प्राणियों को अनुभव करकर, व्यक्ति परम ब्रह्म को प्राप्त होता है, और किसी अन्य साधन से नहीं।",
+          "commentary": "The practice of seeing the Self in all beings and all beings in the Self. This non-dual perception is the direct path to Brahman.",
+          "wordMeaning": "The practice of seeing the Self in all beings and all beings in the Self. This non-dual perception is the direct path to Brahman."
+        },
+        {
+          "number": 12,
+          "sanskrit": "ब्रह्म वेद ब्रह्म भूत्वा ब्रह्म वेद ब्रह्म रूपता | ब्रह्म वेद ब्रह्म सर्वं ब्रह्म वेद ब्रह्म सर्वतः ||",
+          "transliteration": "brahma veda brahma bhūtvā brahma veda brahma rūpatā | brahma veda brahma sarvaṃ brahma veda brahma sarvataḥ ||",
+          "translation": "Know Brahman as Brahman in being, know Brahman as Brahman in form, know Brahman as Brahman in all, know Brahman as Brahman everywhere.",
+          "hindi": "ब्रह्म को ब्रह्म के रूप में जानो, ब्रह्म को ब्रह्म के स्वरूप में जानो, ब्रह्म को सब में ब्रह्म के रूप में जानो, ब्रह्म को सब जगह ब्रह्म के रूप में जानो।",
+          "commentary": "The practice of seeing Brahman in all forms and in all places. This is the essence of non-dual perception.",
+          "wordMeaning": "The practice of seeing Brahman in all forms and in all places. This is the essence of non-dual perception."
+        },
+        {
+          "number": 13,
+          "sanskrit": "स एव मायापरिमोहितात्मा शरीरमास्थाय करोति सर्वं स्त्रियन्नपानादिविचित्रभोगैहि स एव जाग्रत्परितृप्तमेति",
+          "transliteration": "sa eva māyāparimohitātmā shareeramāsthāya karoti sarvaṃ striyannapānādivichitrabhogaihi sa eva jāgratparitṛpameti",
+          "translation": "The Self deluded by Maya (Illusion) is he, who identifying with the body, does all actions (all perceptions, feelings and thoughts). In the waking state it is he (this Jiva) who engages in gratification through the varied objects of enjoyment, such as woman, food, wine, etc.",
+          "hindi": "माया (भ्रम) से मोहित आत्मा वही है, जो शरीर के साथ पहचान करकर सभी कर्म करता है। जाग्रत अवस्था में वही (यह जीव) स्त्री, अन्न, पान आदि विविध भोगों से सुख में लिप्त होता है।",
+          "commentary": "The description of the deluded Self identifying with the body and seeking gratification through sensory objects. This is the state of bondage.",
+          "wordMeaning": "The description of the deluded Self identifying with the body and seeking gratification through sensory objects. This is the state of bondage."
+        },
+        {
+          "number": 14,
+          "sanskrit": "यदा दृष्ट्वा दृश्यमेव दृष्टा शान्तिमाप्नुयात् | तदा तदा भवेत् तत्त्वमभिन्नं शाश्वतमच्युतम् ||",
+          "transliteration": "yadā dṛṣṭvā dṛṣyameva dṛṣṭā śāntimāpnuyāt | tadā tadā bhavet tattvamabhinnaṃ śāśvatamacyutam ||",
+          "translation": "When one sees only the seer after seeing the seen, then one attains peace — that which is distinct from the mutable, eternal and immutable.",
+          "hindi": "जब दृश्य को देखने के बाद केवल द्रष्टा को देखा जाता है, तब शांति प्राप्त होती है — वह जो परिवर्तनीय से भिन्न, शाश्वत और अच्युत है।",
+          "commentary": "The shift from seeing objects to seeing the seer. When awareness rests in itself, peace arises. This is the immutable Self beyond all change.",
+          "wordMeaning": "The shift from seeing objects to seeing the seer. When awareness rests in itself, peace arises. This is the immutable Self beyond all change."
+        },
+        {
+          "number": 15,
+          "sanskrit": "स्वप्ने स जीवाः सुखदुखभोक्ता स्वमायया कल्पितजेवलोके सुषुप्तिकाले सकले विलीने तमोभिभूताः सुखारूपमेति",
+          "transliteration": "svapne sa jīvahā sukhaduhkhabhoktā svamāyayā kalpitajēvaloke suṣhuptikāle sakale vilīne tamobhibhūtahā sukhārūpameti",
+          "translation": "That very same individualized ego, in the dream state, experiences its pleasure and pain, in a field of existence created by its own Maya (misapprehension of Reality). During the state of profound sleep when everything is merged, it is overpowered by Tamas (ignorance or non-apprehension) and comes to exist as deep happiness or Bliss.",
+          "hindi": "वही व्यक्तिगत अहंकार, स्वप्न अवस्था में, अपने माया (वास्तविकता की गलत समझ) द्वारा बनाए गए अस्तित्व के क्षेत्र में अपना सुख और दुख अनुभव करता है। गहरी नींद की अवस्था में जब सब कुछ विलीन हो जाता है, तो वह तमस (अज्ञान) से दब जाता है और गहरे सुख या आनंद के रूप में अस्तित्व में रहता है।",
+          "commentary": "The three states of consciousness — waking, dreaming, and deep sleep — and how the ego experiences each. In deep sleep, the ego temporarily dissolves into bliss.",
+          "wordMeaning": "The three states of consciousness — waking, dreaming, and deep sleep — and how the ego experiences each. In deep sleep, the ego temporarily dissolves into bliss."
+        },
+        {
+          "number": 16,
+          "sanskrit": "शान्तमृत्यु अमृतत्वं शाश्वतम् अनन्तमच्युतम् | तत्त्वमेव तत्त्वं वेद यस्तु तत्त्वं न वेद न सः ||",
+          "transliteration": "śāntamṛtyu amṛtatvaṃ śāśvatamanantamacyutam | tattvameva tattvaṃ veda yastu tattvaṃ na veda na saḥ ||",
+          "translation": "Peace, liberation, immortality, eternity, infinity, immutability — know That alone as That. He who does not know That, is not.",
+          "hindi": "शांति, मुक्ति, अमरत्व, शाश्वतता, अनंतता, अच्युतता — उसी को वही जानो। जो उसे नहीं जानता, वह नहीं।",
+          "commentary": "A litany of attributes of the Self. All these qualities point to the same reality — Tattva (Thatness). Knowing or not knowing makes all the difference.",
+          "wordMeaning": "A litany of attributes of the Self. All these qualities point to the same reality — Tattva (Thatness). Knowing or not knowing makes all the difference."
+        },
+        {
+          "number": 17,
+          "sanskrit": "पुनश्च जन्मान्तरकर्मयोगात् स एव जीवाः स्वपिति प्रबुद्धाः पुरत्रये क्रीडति यश्च जीवस्ततस्तु जातं सकलं विचित्रं धारामानन्दं खण्डबोधं यस्मिल्लयं याति पुरत्रयं च",
+          "transliteration": "punaścha janmāntarakarmayogāt sa eva jīvahā svapiti prabuddhahā puratraye krīḍati yaścha jīvastatastu jātaṃ sakalaṃ vichitraṃ dhārāmānandaṃ khaṇḍabodhaṃ yasmiṃllayaṃ yāti puratrayaṃ cha",
+          "translation": "Again, due to its connection with the deeds done in its previous births, that very same individuality (Jeeva) comes back to the dream or the waking-state. The being who sports thus in the 'three cities' (waking, dream and deep sleep), from Whom has sprung up all diversities, He is the substratum, the Indivisible Bliss-Consciousness, and in Him alone the 'three cities' go into dissolution.",
+          "hindi": "पुनः पूर्व जन्मों के कर्मों के संबंध से, वही व्यक्तित्व (जीव) स्वप्न या जाग्रत अवस्था में वापस आता है। जो पुरत्रय (जाग्रत, स्वप्न, सुषुप्ति) में खेलता है, जिससे सभी विविधताएं उत्पन्न होती हैं, वह आधार है, अखंड आनंद-चैतन्य है, और उसी में 'तीन नगर' विलीन हो जाते हैं।",
+          "commentary": "The cycle of rebirth driven by karma, and the ultimate reality beyond the three states. The true Self is the substratum of all experience.",
+          "wordMeaning": "The cycle of rebirth driven by karma, and the ultimate reality beyond the three states. The true Self is the substratum of all experience."
+        },
+        {
+          "number": 18,
+          "sanskrit": "एतस्माज्जायते प्राणो मनः सर्वेन्द्रियाणि च खं वायुर्ज्योतिरापः पृथिवी विश्वस्य धारिणी",
+          "transliteration": "etasmājjāyate prāṇo manaḥ sarvendriyāṇi cha khaṃ vāyurjyotirāpahā pṛthivī viśvasya dhāriṇī",
+          "translation": "From 'This' is born Prana (Vital Force), mind, all organs, Space, Air, Fire, Water and Earth that supports all.",
+          "hindi": "'इस' से प्राण (वायु), मन, सभी इंद्रिय, आकाश, वायु, अग्नि, जल और पृथ्वी उत्पन्न होते हैं जो सब का धारण करती है।",
+          "commentary": "The cosmic manifestation from the One Reality. All elements and organs emerge from the supreme Self.",
+          "wordMeaning": "The cosmic manifestation from the One Reality. All elements and organs emerge from the supreme Self."
+        },
+        {
+          "number": 19,
+          "sanskrit": "यो ब्रह्मणि सर्वं भूतं ब्रह्म सर्वमिदं जगत् | ब्रह्म एवान्तरं भूतं ब्रह्म बाह्यमिदं जगत् ||",
+          "transliteration": "yo brahmaṇ sarvaṃ bhūtaṃ brahma sarvamidaṃ jagat | brahma evāntaraṃ bhūtaṃ brahma bāhyamidaṃ jagat ||",
+          "translation": "He in whom all beings are in Brahman, he for whom the world is all Brahman — Brahman is within all beings, Brahman is outside this world.",
+          "hindi": "जिसमें सभी प्राणी ब्रह्म में हैं, जिसके लिए जगत सब ब्रह्म है — ब्रह्म सभी प्राणियों के भीतर है, ब्रह्म इस जगत के बाहर है।",
+          "commentary": "Brahman is both immanent (within all beings) and transcendent (beyond the world). This non-dual recognition is liberation.",
+          "wordMeaning": "Brahman is both immanent (within all beings) and transcendent (beyond the world). This non-dual recognition is liberation."
+        },
+        {
+          "number": 20,
+          "sanskrit": "यत्परं ब्रह्म सर्वात्मा विश्वस्यायतनं महात् सूक्ष्मत्सूक्ष्मतरं नित्यं तत्त्वमेव त्वमेव तत्",
+          "transliteration": "yatparam brahmā sarvātmā viśvasyāyatanam mahāt sūkṣmatsūkṣmataram nityaṃ tattvameva tvameva tat",
+          "translation": "That which is the Supreme Brahman, the Self in all, the Support of the Universe, Subtler than the subtle and Eternal, That alone You are. You alone are That.",
+          "hindi": "जो परम ब्रह्म है, सभी में आत्मा है, ब्रह्मांड का आधार है, सूक्ष्म से भी सूक्ष्म है और नित्य है, वही तुम हो। तुम ही वह हो।",
+          "commentary": "The mahavakya \"Tat Tvam Asi\" — You Are That. The Supreme Brahman, which is subtler than the subtle and supports the universe, is your own true Self.",
+          "wordMeaning": "The mahavakya \"Tat Tvam Asi\" — You Are That. The Supreme Brahman, which is subtler than the subtle and supports the universe, is your own true Self."
+        },
+        {
+          "number": 21,
+          "sanskrit": "जाग्नत्स्वप्न सुषुप्त्यादि प्रपञ्चं यत्प्रकाशते तद्ब्रह्माहमिति ज्ञात्वा सर्वबन्धात्प्रमुच्यते",
+          "transliteration": "jāgnaṭsvapna suṣhuptyādi prapañchaṃ yatprakāśate tadbrahmāhamiti jñātvā sarvabanDhāt pramuchyate",
+          "translation": "\"That which illumines the worlds of relative experiences lived in the waking, dream and deep sleep conditions, that Brahman am I\" — realizing thus (by experience), one is liberated from all shackles.",
+          "hindi": "\"जो जाग्रत, स्वप्न और सुषुप्ति की सापेक्ष अनुभवों की दुनिया को प्रकाशित करता है, वह ब्रह्म मैं हूँ\" — इस प्रकार (अनुभव से) जानकर, व्यक्ति सभी बंधनों से मुक्त हो जाता है।",
+          "commentary": "The recognition of the witnessing consciousness that illumines all three states. This recognition is liberation.",
+          "wordMeaning": "The recognition of the witnessing consciousness that illumines all three states. This recognition is liberation."
+        },
+        {
+          "number": 22,
+          "sanskrit": "एको देवो द्वितीयो नास्ति यो ब्रह्म वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
+          "transliteration": "eko devo dvitīyo nāsti yo brahma veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||",
+          "translation": "There is one God, no second — he who knows Brahman in truth. I am He, not any being, no death, no sorrow, and so on.",
+          "hindi": "एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।",
+          "commentary": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering.",
+          "wordMeaning": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering."
+        },
+        {
+          "number": 23,
+          "sanskrit": "त्रिषु धामसु यद्भोग्न्यं भोक्ता भोगश्च यद्भवेत तेभ्यो विलक्षणस साक्षी चिन्मात्रोहं सदाशिवाः",
+          "transliteration": "triṣhu dhāmasu yadbhognyam bhoktā bhogaścha yadbhavet tebhyo vilakṣaṇas sākṣī chinmātroham sadāśivahā",
+          "translation": "All that constitutes the enjoyable, the enjoyer and the enjoyment in the three realms, different from them all am I, the Witness, the Ever-Auspicious Pure Consciousness.",
+          "hindi": "तीनों लोकों में जो भोग्य, भोक्ता और भोग है, उन सब से भिन्न मैं साक्षी, सदा शुभ शुद्ध चैतन्य हूँ।",
+          "commentary": "The declaration of the Self as the witness, distinct from all experience. The witness is pure consciousness, ever-auspicious.",
+          "wordMeaning": "The declaration of the Self as the witness, distinct from all experience. The witness is pure consciousness, ever-auspicious."
+        },
+        {
+          "number": 24,
+          "sanskrit": "मय्येव सकलं जातं मयि सर्वं प्रतिष्ठितं मयि सर्वं लयं याति तद्ब्रह्माद्वयमस्म्यहाम्",
+          "transliteration": "mayyeva sakalaṃ jātaṃ mayi sarvaṃ pratiṣṭhitaṃ mayi sarvaṃ layaṃ yāti tadbrahmādvayamasyahām",
+          "translation": "In me alone everything is born, in me alone does everything exist, and in me is everything dissolved. I am that non-dual Brahman.",
+          "hindi": "मेरे में ही सब कुछ जन्म लेता है, मेरे में ही सब कुछ स्थित है, और मेरे में ही सब कुछ विलीन होता है। मैं वह अद्वैत ब्रह्म हूँ।",
+          "commentary": "The cosmic declaration: all creation, sustenance, and dissolution happen in the Self alone. This is non-dual Brahman.",
+          "wordMeaning": "The cosmic declaration: all creation, sustenance, and dissolution happen in the Self alone. This is non-dual Brahman."
+        },
+        {
+          "number": 25,
+          "sanskrit": "अणोरणीयानहामेव तद्वन्महानाहं विश्वमहां विचित्रं पुरातनोहां पुरुषोहामीशो हिरण्मयोहां शिवरूपमस्मि",
+          "transliteration": "aṇorāṇiyānahāmeva tadvanmahānāhaṃ viśvamahāṃ vichitraṃ purātanoahāṃ puruṣohāmīśo hiraṇmayoahāṃ śivarūpamasmi",
+          "translation": "I am smaller than the atom (the smallest) and I am also vast, greater than the greatest. I am the manifold Universe and Amazing. I am the Ancient One, the Self, the Supreme Ruler am I, the Effulgent One, by nature Ever-Auspicious, the Siva of golden hue in manifestation.",
+          "hindi": "मैं परमाणु से छोटा हूँ और मैं विशाल भी हूँ, महानतम से भी बड़ा। मैं विविध ब्रह्मांड और अद्भुत हूँ। मैं प्राचीन हूँ, आत्मा हूँ, परम शासक हूँ, प्रकाशमान हूँ, स्वभाव से सदैव शुभ, प्रकट में सुवर्ण वर्ण का शिव हूँ।",
+          "commentary": "The paradoxical description of the Self — both smaller than the smallest and greater than the greatest. This points to consciousness as both immanent and transcendent.",
+          "wordMeaning": "The paradoxical description of the Self — both smaller than the smallest and greater than the greatest. This points to consciousness as both immanent and transcendent."
+        }
+      ]
+    }
+  ]
+}

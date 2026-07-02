@@ -1,0 +1,220 @@
+{
+  "id": "amritabindu",
+  "title": "Amrita-Bindu Upanishad",
+  "titleSanskrit": "अमृतबिन्दु उपनिषद्",
+  "category": "upanishad",
+  "source": {
+    "repo": "https://sanskritdocuments.org/doc_upanishhat/",
+    "license": "Full itx not available. Curated highlights are hand-authored.",
+    "fetchedAt": "2026-06-03T13:44:38.222Z"
+  },
+  "totalVerses": 22,
+  "totalChapters": 1,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Mind — The Cause of Both Bondage and Freedom",
+      "titleSanskrit": "मन एव कारणम्",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "मनो हि द्विविधं प्रोक्तं शुद्धं चाशुद्धमेव च | अशुद्धं कामसंकल्पं शुद्धं कामविवर्जितम् ||",
+          "transliteration": "mano hi dvividhaṃ proktaṃ śuddhaṃ cāśuddhameva ca | aśuddhaṃ kāmasaṃkalpaṃ śuddhaṃ kāmavivarjitam ||",
+          "translation": "The mind is said to be of two kinds: pure and impure. The impure mind is full of desires; the pure mind is free from desires.",
+          "hindi": "मन दो प्रकार का कहा गया है: शुद्ध और अशुद्ध। अशुद्ध मन काम संकल्प से भरा है; शुद्ध मन काम से रहित है।",
+          "commentary": "The fundamental distinction: the same mind can be in two states. When filled with desire (kāmasaṃkalpa), it is impure — fragmented, seeking, bound. When free from desire (kāmavivarjita), it is pure — whole, complete, luminous. This is not about eliminating the mind but about its mode of operation.",
+          "wordMeaning": "The fundamental distinction: the same mind can be in two states. When filled with desire (kāmasaṃkalpa), it is impure — fragmented, seeking, bound. When free from desire (kāmavivarjita), it is pure — whole, complete, luminous. This is not about eliminating the mind but about its mode of operation."
+        },
+        {
+          "number": 2,
+          "sanskrit": "मन एव मनुष्याणां कारणं बन्धमोक्षयोः | बन्धाय विषयासक्तं मुक्त्यै निर्विषयं स्मृतम् ||",
+          "transliteration": "mana eva manuṣyāṇāṃ kāraṇaṃ bandhamokṣayoḥ | bandhāya viṣayāsaktaṃ muktyai nirviṣayaṃ smṛtam ||",
+          "translation": "The mind alone is the cause of both bondage and liberation for human beings. The mind attached to objects leads to bondage; the mind freed from objects leads to liberation.",
+          "hindi": "मनुष्यों के बन्धन और मोक्ष — दोनों का कारण केवल मन ही है। विषयों में आसक्त मन बन्धन का कारण है; विषयरहित मन मुक्ति का।",
+          "commentary": "The Amrita-Bindu's radical opening: bondage and liberation are not external conditions. They are two modes of the same mind. The mind in \"viṣayāsakta\" mode — attached to sensory objects, addicted to stimulation, identified with its contents — is in bondage. The same mind in \"nirviṣaya\" mode — aware but not attached, present but not grasping — is already free. Liberation is not a future state to be achieved; it is the mind's own nature when it stops clutching.",
+          "wordMeaning": "The Amrita-Bindu's radical opening: bondage and liberation are not external conditions. They are two modes of the same mind. The mind in \"viṣayāsakta\" mode — attached to sensory objects, addicted to stimulation, identified with its contents — is in bondage. The same mind in \"nirviṣaya\" mode — aware but not attached, present but not grasping — is already free. Liberation is not a future state to be achieved; it is the mind's own nature when it stops clutching."
+        },
+        {
+          "number": 3,
+          "sanskrit": "यतो निर्विषयस्यास्य मनसो मुक्तिरीष्यते | अतो निर्विषयं नित्यं मनः कार्यं मुमुक्षुणा ||",
+          "transliteration": "yato nirviṣayasyāsya manaso muktirīṣyate | ato nirviṣayaṃ nityaṃ manaḥ kāryaṃ mumukṣuṇā ||",
+          "translation": "From where the liberation of this mind from objects is sought, therefore the mind should always be made objectless by the seeker of liberation.",
+          "hindi": "जहाँ से इस मन की विषयों से मुक्ति की इच्छा होती है, इसलिए मोक्ष की इच्छा रखने वाले को मन को सदा विषयरहित करना चाहिए।",
+          "commentary": "The practical instruction: if you want liberation, make the mind objectless. This is not about suppressing thoughts but about their relationship to objects. Thoughts can arise without attachment — like clouds in the sky. The objectless mind is the sky, not the clouds.",
+          "wordMeaning": "The practical instruction: if you want liberation, make the mind objectless. This is not about suppressing thoughts but about their relationship to objects. Thoughts can arise without attachment — like clouds in the sky. The objectless mind is the sky, not the clouds."
+        },
+        {
+          "number": 4,
+          "sanskrit": "निरस्तविषयाङ्गं सन्निरुद्धं मनो हृदि | यदायात्यात्मनो भावं तदा तत्परमं पदम् ||",
+          "transliteration": "nirastaviṣayāṅgaṃ sanniruddhaṃ mano hṛdi | yadāyātyātmano bhāvaṃ tadā tatparamaṃ padam ||",
+          "translation": "When the mind, with its object-attachments destroyed, is controlled in the heart, and when it attains the state of the Self, then that is the supreme state.",
+          "hindi": "जब मन, जिसके विषय-अंग नष्ट हो गए हों, हृदय में नियंत्रित होता है, और जब वह आत्मा के भाव को प्राप्त करता है, तब वह परम पद है।",
+          "commentary": "The condition for the supreme state: the mind must be both objectless (nirastaviṣayāṅga) and controlled (sanniruddha) in the heart. When these two conditions are met, the mind naturally attains the state of the Self — not by effort but by removal of obstacles.",
+          "wordMeaning": "The condition for the supreme state: the mind must be both objectless (nirastaviṣayāṅga) and controlled (sanniruddha) in the heart. When these two conditions are met, the mind naturally attains the state of the Self — not by effort but by removal of obstacles."
+        },
+        {
+          "number": 5,
+          "sanskrit": "तावदेव निरोद्धव्यं यावदृदि गतं क्षयं | एतज्ज्ञानं च ध्यानं च शेषो न्यायश्च विस्तरः ||",
+          "transliteration": "tāvadeva niroddhavyaṃ yāvadṛdi gataṃ kṣayaṃ | etajjñānaṃ ca dhyānaṃ ca śeṣo nyāyaśca vistaraḥ ||",
+          "translation": "It should be controlled as long as there is life in the body. This is knowledge, this is meditation; the rest is logical elaboration.",
+          "hindi": "जब तक शरीर में प्राण है, तब तक इसे नियंत्रित करना चाहिए। यह ज्ञान है, यह ध्यान है; शेष तर्क-विस्तार है।",
+          "commentary": "The essence: mind control is the core practice. Knowledge and meditation are not separate from this control. All philosophical elaboration (nyāya vistara) is secondary to the direct practice of mind control.",
+          "wordMeaning": "The essence: mind control is the core practice. Knowledge and meditation are not separate from this control. All philosophical elaboration (nyāya vistara) is secondary to the direct practice of mind control."
+        },
+        {
+          "number": 6,
+          "sanskrit": "यदा न लीयते चित्तं न च विक्षिप्यते पुनः | अनिञ्जनं तदा चित्तं ब्रह्मप्राप्तिस्तदोच्यते ||",
+          "transliteration": "yadā na līyate cittaṃ na ca vikṣipyate punaḥ | aniñjanaṃ tadā cittaṃ brahmaprāptistadocyate ||",
+          "translation": "When the mind neither dissolves (in sleep) nor is scattered (in distraction) — when it is motionless — then that state is declared to be the attainment of Brahman.",
+          "hindi": "जब चित्त न तो लीन हो (नींद में) और न विक्षिप्त हो (चंचलता में) — जब वह अनिञ्जन (निश्चल) हो — उस अवस्था को ब्रह्मप्राप्ति कहा जाता है।",
+          "commentary": "The Amrita-Bindu identifies two failure modes of meditation: laya (dissolution into sleepiness) and vikshepa (scattering in distraction). The meditator must navigate between these two — neither dull nor hyperactive, but alert and still. This \"aniñjana\" state — motionless but awake — is not produced by effort but discovered when both extremes are released. It is the \"drop of immortality\" the text is named for.",
+          "wordMeaning": "The Amrita-Bindu identifies two failure modes of meditation: laya (dissolution into sleepiness) and vikshepa (scattering in distraction). The meditator must navigate between these two — neither dull nor hyperactive, but alert and still. This \"aniñjana\" state — motionless but awake — is not produced by effort but discovered when both extremes are released. It is the \"drop of immortality\" the text is named for."
+        },
+        {
+          "number": 7,
+          "sanskrit": "स्वरेण संधयेद्योगमस्वरं भावयेत्परम् | अस्वरेणानुभावेन नाभावो भाव ईश्यते ||",
+          "transliteration": "svareṇa saṃdhayed yogam asvaraṃ bhāvayet param | asvareṇānubhāvena nābhāvo bhāva īśyate ||",
+          "translation": "One should practice yoga with sound, and meditate on the soundless as the supreme. Through the experience of the soundless, the non-existent becomes existent.",
+          "hindi": "स्वर के साथ योग का अभ्यास करना चाहिए, और अस्वर (निर्गुण) को परम के रूप में ध्यान करना चाहिए। अस्वर के अनुभव से, अभाव भाव बन जाता है।",
+          "commentary": "The progression from sound (svara) to soundless (asvara). Sound here refers to OM or mantra; the soundless is the absolute beyond all vibration. The practice is to use sound as a vehicle to reach the soundless — like using a raft to cross a river.",
+          "wordMeaning": "The progression from sound (svara) to soundless (asvara). Sound here refers to OM or mantra; the soundless is the absolute beyond all vibration. The practice is to use sound as a vehicle to reach the soundless — like using a raft to cross a river."
+        },
+        {
+          "number": 8,
+          "sanskrit": "ॐकाराच्च विकारोऽयं प्रणवस्य प्रणवोऽथवा | मनोऽपि तद्विकारोऽयं नित्यमेवानुपश्यति ||",
+          "transliteration": "oṃkārāc ca vikāro'yaṃ praṇavasya praṇavo'thavā | mano'pi tadvikāro'yaṃ nityamevānupaśyati ||",
+          "translation": "This change is of OM; the OM itself is unchanging. The mind also is a change of That; That itself is eternally perceived.",
+          "hindi": "यह परिवर्तन ॐ का है; ॐ स्वयं अपरिवर्तनीय है। मन भी उसी का परिवर्तन है; वह स्वयं नित्य दृष्ट होता है।",
+          "commentary": "The relationship between OM (Pranava) and the mind. OM is the unchanging sound of consciousness; the mind is its changing manifestation. The practice of OM meditation aligns the changing mind with its unchanging source.",
+          "wordMeaning": "The relationship between OM (Pranava) and the mind. OM is the unchanging sound of consciousness; the mind is its changing manifestation. The practice of OM meditation aligns the changing mind with its unchanging source."
+        },
+        {
+          "number": 9,
+          "sanskrit": "निर्विकल्पमनन्तं च हेतुदृष्टान्तवर्जितम् | अप्रमेयमनादीं च यज्ज्ञात्वा मुच्यते बुधः ||",
+          "transliteration": "nirvikalpamanantaṃ ca hetudṛṣṭāntavarjitam | aprameyamanādīṃ ca yajjñātvā muchyate budhaḥ ||",
+          "translation": "Without parts, infinite, free from examples and analogies, immeasurable, beginningless — knowing this, the wise one becomes free.",
+          "hindi": "निर्विकल्प, अनंत, उदाहरणों से रहित, अप्रमेय, अनादि — इसे जानकर बुद्धिमान व्यक्ति मुक्त हो जाता है।",
+          "commentary": "The description of Brahman: it cannot be conceptualized (nirvikalpa), is infinite (ananta), cannot be captured by analogies (hetudṛṣṭāntavarjita), cannot be measured (aprameya), and has no beginning (anādī). Knowing this — not intellectually but as direct experience — is liberation.",
+          "wordMeaning": "The description of Brahman: it cannot be conceptualized (nirvikalpa), is infinite (ananta), cannot be captured by analogies (hetudṛṣṭāntavarjita), cannot be measured (aprameya), and has no beginning (anādī). Knowing this — not intellectually but as direct experience — is liberation."
+        },
+        {
+          "number": 10,
+          "sanskrit": "यथा नदी समुद्रेषु यथा दूदं दहन्ति अग्निः | तथा दहति मनः सर्वं यो जानाति प्रणवं तथा ||",
+          "transliteration": "yathā nadī samudreṣu yathā dūdaṃ dahanti agniḥ | tathā dahati manaḥ sarvaṃ yo jānāti praṇavaṃ tathā ||",
+          "translation": "As rivers merge into the ocean, as fire burns butter — so the mind burns everything for one who knows OM.",
+          "hindi": "जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे अग्नि घृत को जलाता है — वैसे ही ॐ को जानने वाले का मन सब कुछ जला देता है।",
+          "commentary": "The fire of OM awareness burns all mental impurities. The verse gives two images of complete absorption: rivers into ocean (loss of separate identity), fire into butter (transformation).",
+          "wordMeaning": "The fire of OM awareness burns all mental impurities. The verse gives two images of complete absorption: rivers into ocean (loss of separate identity), fire into butter (transformation)."
+        },
+        {
+          "number": 11,
+          "sanskrit": "एक एवात्मा मन्तव्यो जाग्रत्स्वप्नसुषुप्तिषु | स्थानत्रयव्यतीतस्य पुनर्जन्म न विद्यते ||",
+          "transliteration": "eka evātmā mantavyo jāgratsvapnasuṣuptiṣu | sthānatrayavyatītasya punarjanma na vidyate ||",
+          "translation": "The Self alone should be meditated upon — in waking, dreaming, and deep sleep. For one who has transcended the three states, there is no rebirth.",
+          "hindi": "आत्मा की ही एकांत में उपासना करनी चाहिए — जाग्रत, स्वप्न और सुषुप्ति में। जिसने तीनों अवस्थाओं को पार कर लिया है, उसका पुनर्जन्म नहीं होता।",
+          "commentary": "The Self is the constant witness through all three states of consciousness: waking (jāgrat), dreaming (svapna), and deep sleep (suṣupti). When one recognizes this witness as one's true identity — transcending all three states — the cycle of rebirth ends.",
+          "wordMeaning": "The Self is the constant witness through all three states of consciousness: waking (jāgrat), dreaming (svapna), and deep sleep (suṣupti). When one recognizes this witness as one's true identity — transcending all three states — the cycle of rebirth ends."
+        },
+        {
+          "number": 12,
+          "sanskrit": "द्वादशाक्षरा मन्त्रा द्वादशाक्षरः प्रणवः | त्रिकालभ्यासयुक्तो यो जानाति स शिवो भवेत् ||",
+          "transliteration": "dvādaśākṣarā mantrā dvādaśākṣaraḥ praṇavaḥ | trikālabhyāsayukto yo jānāti sa śivo bhavet ||",
+          "translation": "The twelve-syllabled mantra, the twelve-syllabled OM — he who knows it, practiced in the three times, becomes Shiva.",
+          "hindi": "बारह अक्षरों वाला मंत्र, बारह अक्षरों वाला ॐ — जो तीन कालों में इसका अभ्यास करकर जानता है, वह शिव हो जाता है।",
+          "commentary": "The twelve-syllabled mantra refers to the Gayatri (om bhur bhuvah svah...). Practiced consistently in past, present, and future, it leads to identification with Shiva — the auspicious, liberated state.",
+          "wordMeaning": "The twelve-syllabled mantra refers to the Gayatri (om bhur bhuvah svah...). Practiced consistently in past, present, and future, it leads to identification with Shiva — the auspicious, liberated state."
+        },
+        {
+          "number": 13,
+          "sanskrit": "घटसंवृतमाकाशं नीयमानो घटे यथा | घटो नीयेत नाकाशस्तद्वज्जीवो नभोपमः ||",
+          "transliteration": "ghaṭasaṃvṛtamākāśaṃ nīyamāno ghaṭe yathā | ghaṭo nīyeta nākāśastadvajjīvo nabhopamaḥ ||",
+          "translation": "As the space enclosed in a jar moves when the jar moves, but the space itself does not move — so the embodied self is like space.",
+          "hindi": "जैसे घट में बंद आकाश घट के साथ चलता है, पर आकाश स्वयं नहीं चलता — वैसे ही शरीरी जीव आकाश के समान है।",
+          "commentary": "The classic metaphor of the space in the jar. The space inside the jar appears to move when the jar moves, but space itself is unmoving. Similarly, the Self appears to be embodied and limited, but like space, it is actually untouched by the container (the body).",
+          "wordMeaning": "The classic metaphor of the space in the jar. The space inside the jar appears to move when the jar moves, but space itself is unmoving. Similarly, the Self appears to be embodied and limited, but like space, it is actually untouched by the container (the body)."
+        },
+        {
+          "number": 14,
+          "sanskrit": "घटवद्विविधाकारं भिद्यमानं पुनः पुनः | तद्भदे न च जानाति स जानाति च नित्यशः ||",
+          "transliteration": "ghaṭadvadvividhākāraṃ bhidyamānaṃ punaḥ punaḥ | tadbhede na cha jānāti sa jānāti cha nityaśaḥ ||",
+          "translation": "Like a jar with various forms, being broken again and again — when it is broken, one does not know it, yet one knows it eternally.",
+          "hindi": "जैसे विविध रूपों वाला घट बार-बार टूटता है — जब वह टूटता है, तब उसे नहीं जानते, फिर भी उसे नित्य जानते हैं।",
+          "commentary": "The paradox of knowing and not knowing. When the jar (body) breaks, the individual form is lost — one does not \"know\" it as an object. Yet the space (Self) that was in the jar continues to be known eternally, for it is one with all space.",
+          "wordMeaning": "The paradox of knowing and not knowing. When the jar (body) breaks, the individual form is lost — one does not \"know\" it as an object. Yet the space (Self) that was in the jar continues to be known eternally, for it is one with all space."
+        },
+        {
+          "number": 15,
+          "sanskrit": "यथा नानावतांस्तोयं नानावतांस्तथा मनः | अविकल्पितमनस्कं यो जानाति स शिवो भवेत् ||",
+          "transliteration": "yathā nānāvatāṃstoyaṃ nānāvatāṃstathā manaḥ | avikalpitamanaskaṃ yo jānāti sa śivo bhavet ||",
+          "translation": "As the mind is distracted, so is this world. He who knows the undistracted mind becomes Shiva.",
+          "hindi": "जैसे मन विकल्पित है, वैसा ही यह जगत है। जो अविकल्पित मन को जानता है, वह शिव हो जाता है।",
+          "commentary": "The world appears according to the state of the mind. A distracted mind sees a fragmented world. An undistracted mind sees unity. This is the principle of perception shaping reality.",
+          "wordMeaning": "The world appears according to the state of the mind. A distracted mind sees a fragmented world. An undistracted mind sees unity. This is the principle of perception shaping reality."
+        },
+        {
+          "number": 16,
+          "sanskrit": "शब्दाक्षरं परं ब्रह्म तस्मिंक्षीणे यदक्षरं | तद्विद्वानक्षरं ध्यायेद्यदीच्छेच्छान्तिमात्मनः ||",
+          "transliteration": "śabdākṣaraṃ paraṃ brahma tasmiṃkṣīṇe yadakṣaraṃ | tadvidvānakṣaraṃ dhyāyedyadīcchechChāntimātmanaḥ ||",
+          "translation": "The syllable OM is the supreme Brahman. In that which ends, what is without end — the knower should meditate on the imperishable if he desires the highest end.",
+          "hindi": "ॐ अक्षर परम ब्रह्म है। जिसमें अंत होता है, उसमें जो अनंत है — जो ज्ञाता अंतिम लक्ष्य चाहता है, उसे अक्षर का ध्यान करना चाहिए।",
+          "commentary": "OM (śabdākṣara) is both the sound that begins and ends, and the Brahman that is without end (akṣara). The practice is to meditate on OM as the bridge between the finite and the infinite — the sound that leads to the soundless.",
+          "wordMeaning": "OM (śabdākṣara) is both the sound that begins and ends, and the Brahman that is without end (akṣara). The practice is to meditate on OM as the bridge between the finite and the infinite — the sound that leads to the soundless."
+        },
+        {
+          "number": 17,
+          "sanskrit": "द्वे विद्ये वेदितव्ये तु शब्दब्रह्म परं च यत् | शब्दब्रह्मणि निष्णातः परं ब्रह्माधिगच्छति ||",
+          "transliteration": "dve vidye veditavye tu śabdabrahma paraṃ ca yat | śabdabrahmaṇi niṣṇātaḥ paraṃ brahmādhigacchati ||",
+          "translation": "Two knowledges are to be known: the Brahman of sound, and the supreme Brahman. Having become established in the Brahman of sound, one attains the supreme Brahman.",
+          "hindi": "दो विद्याएँ जाननी चाहिएं: शब्दब्रह्म और परम ब्रह्म। शब्दब्रह्म में स्थिर होकर, परम ब्रह्म को प्राप्त किया जाता है।",
+          "commentary": "The two stages: first, mastery of sound (śabdabrahma) — mantra, sacred sound, OM. Through this practice, one attains the supreme Brahman (paraṃ brahma) — the soundless absolute. Sound is the means; the absolute is the end.",
+          "wordMeaning": "The two stages: first, mastery of sound (śabdabrahma) — mantra, sacred sound, OM. Through this practice, one attains the supreme Brahman (paraṃ brahma) — the soundless absolute. Sound is the means; the absolute is the end."
+        },
+        {
+          "number": 18,
+          "sanskrit": "यो देहं त्यजति सर्वं यो मनः संशमोच्यते | यो विचारयते शान्तं स ब्रह्म प्राप्नोति निश्चितम् ||",
+          "transliteration": "yo dehaṃ tyajati sarvaṃ yo manaḥ saṃśamocyate | yo vicārayate śāntaṃ sa brahma prāpnoti niścitam ||",
+          "translation": "He who renounces the body entirely, quiets the mind, contemplates the peace — that one certainly attains Brahman.",
+          "hindi": "जो शरीर का पूर्ण त्याग करता है, मन को शांत करता है, शांति का चिंतन करता है — वह निश्चित रूप से ब्रह्म को प्राप्त करता है।",
+          "commentary": "The threefold practice: renunciation of body-identification, quieting the mind, and contemplating peace. This is the direct path to Brahman-realization.",
+          "wordMeaning": "The threefold practice: renunciation of body-identification, quieting the mind, and contemplating peace. This is the direct path to Brahman-realization."
+        },
+        {
+          "number": 19,
+          "sanskrit": "गवामनेकवर्णाणां क्षीरस्याप्येकवर्णता | क्षीरवत्पश्यते ज्ञानं लिङ्गिनस्तु गवां यथा ||",
+          "transliteration": "gavāmanekavarṇāṇāṃ kṣīrasyāpyekavarṇatā | kṣīravatpaśyate jñānaṃ liṅginastu gavāṃ yathā ||",
+          "translation": "As milk of cows of many colors is of one color, so knowledge is seen like milk; the sign is like the cows.",
+          "hindi": "जैसे विभिन्न रंगों की गायों का दूध एक ही रंग का होता है, वैसे ही ज्ञान दूध के समान दिखता है; लिंग गायों के समान है।",
+          "commentary": "The metaphor of milk and cows: cows may be different colors, but their milk is uniformly white. Similarly, the various paths and teachings (the cows) may appear different, but the knowledge they yield (the milk) is one — pure, luminous consciousness.",
+          "wordMeaning": "The metaphor of milk and cows: cows may be different colors, but their milk is uniformly white. Similarly, the various paths and teachings (the cows) may appear different, but the knowledge they yield (the milk) is one — pure, luminous consciousness."
+        },
+        {
+          "number": 20,
+          "sanskrit": "योगश्चित्तवृत्तिर्नित्यमेवं नित्यमेव च | योगो मनोऽनिलो भूत्वा ब्रह्म प्राप्नोति निश्चितम् ||",
+          "transliteration": "yogaścittavṛttirnityamevaṃ nityameva ca | yogo mano'nilo bhūtvā brahma prāpnoti niścitam ||",
+          "translation": "Yoga is the cessation of mental modifications, always and always. When the mind becomes windless, one certainly attains Brahman.",
+          "hindi": "योग चित्त-वृत्तियों का निवृत्ति है, सदा और सदा। मन जब वायुरहित हो जाता है, तब व्यक्ति निश्चित रूप से ब्रह्म को प्राप्त करता है।",
+          "commentary": "This is the famous definition of yoga from Yoga Sutras 1.2: yogash chitta vritti nirodhah. The mind becomes \"anila\" — windless, motionless — and in that stillness, Brahman is revealed.",
+          "wordMeaning": "This is the famous definition of yoga from Yoga Sutras 1.2: yogash chitta vritti nirodhah. The mind becomes \"anila\" — windless, motionless — and in that stillness, Brahman is revealed."
+        },
+        {
+          "number": 21,
+          "sanskrit": "ज्ञाननेत्रं समाधाय चोद्धरेद्वाह्निवत्परम् | निष्कलं निश्चलं शान्तं तद्ब्रह्माहमिति स्मृतम् ||",
+          "transliteration": "jñānanetraṃ samādhāya choddharedvāhnivatparam | niṣkalaṃ niścalaṃ śāntaṃ tadbrahmāhamiti smṛtam ||",
+          "translation": "Having established the eye of knowledge, one should cast off like fire the supreme — without parts, motionless, peaceful. That is Brahman; \"I am That\" — thus one should remember.",
+          "hindi": "ज्ञान की आँख स्थापित करके, अग्नि की तरह परम को उड़ा देना चाहिए — निष्कल, निश्चल, शांत। वह ब्रह्म है; \"मैं वही हूँ\" — इस प्रकार याद करना चाहिए।",
+          "commentary": "The practice of \"casting off\" — like fire burning away impurities. The \"eye of knowledge\" (jñānanetra) is the direct seeing of reality. When this seeing is established, all that is not Brahman is burned away. What remains is without parts, motionless, peaceful — and that is recognized as \"I am That.\"",
+          "wordMeaning": "The practice of \"casting off\" — like fire burning away impurities. The \"eye of knowledge\" (jñānanetra) is the direct seeing of reality. When this seeing is established, all that is not Brahman is burned away. What remains is without parts, motionless, peaceful — and that is recognized as \"I am That.\""
+        },
+        {
+          "number": 22,
+          "sanskrit": "यस्य सर्वे भवन्ति शुभा यस्य सर्वे भवन्ति शान्ताः | यस्य सर्वे भवन्ति सुखी यस्य सर्वे भवन्ति सुद्धाः ||",
+          "transliteration": "yasya sarve bhavanti śubhā yasya sarve bhavanti śāntāḥ | yasya sarve bhavanti sukhī yasya sarve bhavanti suddhāḥ ||",
+          "translation": "For whom all beings become auspicious, peaceful, happy, and pure — he is the knower of Brahman.",
+          "hindi": "जिसके लिए सभी प्राणी शुभ, शांत, सुखी और शुद्ध हो जाते हैं — वह ब्रह्म का ज्ञाता है।",
+          "commentary": "The sign of Brahman-realization: the world transforms for the realized one. All beings appear auspicious, peaceful, happy, and pure. This is not projection but recognition of the divine in all.",
+          "wordMeaning": "The sign of Brahman-realization: the world transforms for the realized one. All beings appear auspicious, peaceful, happy, and pure. This is not projection but recognition of the divine in all."
+        }
+      ]
+    }
+  ]
+}

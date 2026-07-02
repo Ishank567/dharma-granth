@@ -1,0 +1,1060 @@
+{
+  "id": "bhagavatapurana",
+  "title": "Bhagavata Purana",
+  "titleSanskrit": "श्रीमद्भागवतम्",
+  "category": "purana",
+  "source": {
+    "repo": "https://sanskritdocuments.org/doc_purana/",
+    "license": "Sanskrit mūla — public domain (3000+ years old). sanskritdocuments.org publishes digitized text under permissive terms.",
+    "fetchedAt": "2026-06-03T13:48:27.847Z"
+  },
+  "totalVerses": 106,
+  "totalChapters": 13,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Skandha 1 — Creation and First Steps",
+      "verses": [
+        {
+          "number": "1.1",
+          "sanskrit": "धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां | वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ||",
+          "transliteration": "dharmaḥ projjhitakaitavo'tra paramo nirmatsarāṇāṃ satāṃ | vedyaṃ vāstavamattra vastu śivadaṃ tāpatrayonmūlanam ||",
+          "translation": "Here is the highest dharma — completely free from all deceit — for the pure-hearted. Herein is the real good to be known: that which is auspicious and which uproots the three-fold suffering.",
+          "hindi": "यहाँ (इस ग्रंथ में) निर्मत्सर साधुजनों के लिए सर्वोच्च धर्म वर्णित है — जो कपट-रहित है। यहाँ वास्तविक तत्त्व जाना जाता है — जो कल्याणकारक है और त्रिताप (आधि-व्याधि-उपाधि) को नष्ट करता है।",
+          "commentary": "The Bhagavata opens with a declaration of its purpose: to present dharma freed from all ulterior motives, to reveal the real nature of things (vastu), and to uproot the three-fold suffering of humanity. The \"three sufferings\" (tapatraya) are suffering arising from one's own body and mind, from other beings, and from natural forces.",
+          "wordMeaning": "The Bhagavata opens with a declaration of its purpose: to present dharma freed from all ulterior motives, to reveal the real nature of things (vastu), and to uproot the three-fold suffering of humanity. The \"three sufferings\" (tapatraya) are suffering arising from one's own body and mind, from other beings, and from natural forces."
+        },
+        {
+          "number": 3,
+          "sanskrit": "स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे | अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ||",
+          "transliteration": "sa vai puṃsāṃ paro dharmo yato bhaktiradhokṣaje | ahaituk yapratihata yayātmā samprasīdati ||",
+          "translation": "The supreme dharma for humanity is that which produces unmotivated and uninterrupted devotion to God — by which the Self attains complete contentment.",
+          "hindi": "मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।",
+          "commentary": "The Bhagavata's revolutionary thesis: the highest religion is not ritual, study, or even moral action — it is pure, unmotivated, unbroken love for the divine. Not \"I worship God for this blessing\" or \"I pray to avoid that suffering\" — but love with no agenda. This love (bhakti) produces the deepest contentment (prasada) possible.",
+          "wordMeaning": "The Bhagavata's revolutionary thesis: the highest religion is not ritual, study, or even moral action — it is pure, unmotivated, unbroken love for the divine. Not \"I worship God for this blessing\" or \"I pray to avoid that suffering\" — but love with no agenda. This love (bhakti) produces the deepest contentment (prasada) possible."
+        },
+        {
+          "number": "1.4",
+          "sanskrit": "भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् | नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ||",
+          "transliteration": "bhagavān bhaktibhāvena grāhyaḥ premagunairnṛṇām | nānyathā bhāvyate kvāpi yadi syādbrāhmasammataḥ ||",
+          "translation": "The Lord is to be grasped by human beings through the attitude of devotion — through the qualities of love. In no other way can He be known, even if one is a great Brahman.",
+          "hindi": "भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।",
+          "commentary": "The Bhagavata's consistent thesis: God is not grasped by intellectual achievement, ritual expertise, or social status — but by love. The story of Ambarisha confirms this: Ambarisha is not a sage or renunciant, but a king who loves God with his whole heart. When the greatest sage Durvasa curses him in rage, the curse bounces back because Ambarisha's devotion has made him untouchable.",
+          "wordMeaning": "The Bhagavata's consistent thesis: God is not grasped by intellectual achievement, ritual expertise, or social status — but by love. The story of Ambarisha confirms this: Ambarisha is not a sage or renunciant, but a king who loves God with his whole heart. When the greatest sage Durvasa curses him in rage, the curse bounces back because Ambarisha's devotion has made him untouchable."
+        },
+        {
+          "number": "1.5",
+          "sanskrit": "नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये | तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ||",
+          "transliteration": "nāyaṃ deho dehabhājāṃ nṛloke kaṣṭān kāmānarhat viḍbhujāṃ ye | tapo divyaṃ putrakā yena sattvaṃ śuddhyed yasmād brahmasaukhyaṃ tvanantam ||",
+          "translation": "This human body is not meant, O children, for pursuing the pleasures that even animals can enjoy with effort. It is meant for divine austerity by which the inner being is purified — from which comes the infinite joy of Brahman.",
+          "hindi": "हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।",
+          "commentary": "Rishabhadeva's teaching to his hundred sons — one of the most direct statements of the Bhagavata's central value: the human birth is rare and precious precisely because only humans can consciously pursue purification and liberation. To spend it on pleasure-seeking that any creature can pursue is a profound waste. This is not asceticism — it is recognition of unique potential.",
+          "wordMeaning": "Rishabhadeva's teaching to his hundred sons — one of the most direct statements of the Bhagavata's central value: the human birth is rare and precious precisely because only humans can consciously pursue purification and liberation. To spend it on pleasure-seeking that any creature can pursue is a profound waste. This is not asceticism — it is recognition of unique potential."
+        },
+        {
+          "number": "1.9",
+          "sanskrit": "यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा | न चान्तं विन्दते पुम्भिः परभावविशारदाः ||",
+          "transliteration": "yāṃ matiściodito yānti manasā karmaṇā girā | na cāntaṃ vindate pumbhiḥ parabhāvaviśāradāḥ ||",
+          "translation": "What the wise who are skilled in understanding the supreme being go toward — with mind, action, and speech — its end is not found by anyone.",
+          "hindi": "जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।",
+          "commentary": "Dhruva's story is the Bhagavata's icon of uncompromising, totality of aspiration. A five-year-old boy, rejected by his father, seeks God with all his heart — and finds not just comfort but the infinite. The verse encodes the paradox: the highest is sought with complete effort of mind, action, and speech — and yet its end is never found, because it is infinite. You can enter it entirely, but you cannot exhaust it.",
+          "wordMeaning": "Dhruva's story is the Bhagavata's icon of uncompromising, totality of aspiration. A five-year-old boy, rejected by his father, seeks God with all his heart — and finds not just comfort but the infinite. The verse encodes the paradox: the highest is sought with complete effort of mind, action, and speech — and yet its end is never found, because it is infinite. You can enter it entirely, but you cannot exhaust it."
+        },
+        {
+          "number": "1.13",
+          "sanskrit": "नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् | प्रणामो दुःखशमनस्तं नमामि हरिं परम् ||",
+          "transliteration": "nāmasaṃkīrtanaṃ yasya sarvapāpapraṇāśanam | praṇāmo duḥkhaśamanastam namāmi hariṃ param ||",
+          "translation": "The singing of whose name destroys all sin; whose salutation removes all sorrow — I bow to that Hari, the Supreme.",
+          "hindi": "जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।",
+          "commentary": "The Bhagavata closes as it opened: with devotion. The twelfth Skandha describes the deterioration of Kali Yuga — the loss of truth, the shortening of life, the coarsening of culture. It might seem like despair. But the Bhagavata's final message is the opposite: even in Kali Yuga, the Name is sufficient. What required lifetimes of austerity in other ages can be accomplished in Kali Yuga through kirtan alone. The deterioration of everything external is met by the invincible availability of the Name.",
+          "wordMeaning": "The Bhagavata closes as it opened: with devotion. The twelfth Skandha describes the deterioration of Kali Yuga — the loss of truth, the shortening of life, the coarsening of culture. It might seem like despair. But the Bhagavata's final message is the opposite: even in Kali Yuga, the Name is sufficient. What required lifetimes of austerity in other ages can be accomplished in Kali Yuga through kirtan alone. The deterioration of everything external is met by the invincible availability of the Name."
+        },
+        {
+          "number": "2.25",
+          "sanskrit": "सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव | सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ||",
+          "transliteration": "satsaṅgo muktaduḥsaṅgo hanti saṃsṛtimuddha | satsaṅgasya hi mahimā puṇyaślokānukīrtanam ||",
+          "translation": "The company of the holy — freed from bad association — destroys the cycle of birth and death. The greatness of such company is the praise of the blessed Lord.",
+          "hindi": "संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।",
+          "commentary": "Kapila's teaching on the transformative power of satsang — the company of those who are genuinely free. The Bhagavata makes the mechanism explicit: when you associate with those who praise God and embody dharma, their orientation becomes yours. You absorb not just their words but their state. The highest form of satsang, Kapila says, is itself the praise of the Lord — the activity that the holy engage in together.",
+          "wordMeaning": "Kapila's teaching on the transformative power of satsang — the company of those who are genuinely free. The Bhagavata makes the mechanism explicit: when you associate with those who praise God and embody dharma, their orientation becomes yours. You absorb not just their words but their state. The highest form of satsang, Kapila says, is itself the praise of the Lord — the activity that the holy engage in together."
+        },
+        {
+          "number": "7.47",
+          "sanskrit": "मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् | यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ||",
+          "transliteration": "manye'bhimukhīkṛto'rkaḥ pṛthivyāṃ mānuṣīmatanom | yadvandanāt sukhaṃ bhūyaḥ prapedye yatra kṛṣṇastat ||",
+          "translation": "I consider the sun itself to have turned toward earth, taking human form — by whose salutation I attained a joy that is more than this world's joy. That is where Krishna is.",
+          "hindi": "मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।",
+          "commentary": "The gopis' response to Uddhava — who has come from Krishna with a philosophical message — is one of the Bhagavata's most extraordinary passages. The gopis are not interested in philosophy. They have already arrived at the destination that philosophy points toward: they have no self separate from Krishna. Their love has dissolved the ego completely. Uddhava, the great philosopher and companion of Krishna, bows to the gopis and says he wishes to be born as a blade of grass in Vrindavan so the dust of their feet might touch him.",
+          "wordMeaning": "The gopis' response to Uddhava — who has come from Krishna with a philosophical message — is one of the Bhagavata's most extraordinary passages. The gopis are not interested in philosophy. They have already arrived at the destination that philosophy points toward: they have no self separate from Krishna. Their love has dissolved the ego completely. Uddhava, the great philosopher and companion of Krishna, bows to the gopis and says he wishes to be born as a blade of grass in Vrindavan so the dust of their feet might touch him."
+        }
+      ],
+      "titleSanskrit": "प्रथम स्कन्ध"
+    },
+    {
+      "number": 2,
+      "title": "Skandha 2 — Cosmic Manifestation",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "एतावानेव लोकेऽस्मिन् पुंसां धर्मः परः स्मृतः | भक्तियोगो भगवति तन्नामग्रहणादिभिः ||",
+          "transliteration": "etāvāneva loke'smin puṃsāṃ dharmaḥ paraḥ smṛtaḥ | bhaktiyogo bhagavati tannāmagrahaṇādibhiḥ ||",
+          "translation": "This alone is the supreme dharma for human beings in this world: loving devotion to the Lord through the repetition of His names and related practices.",
+          "hindi": "इस संसार में मनुष्यों का यही एकमात्र परम धर्म है — भगवान के नाम-ग्रहण और उससे सम्बंधित अभ्यास के माध्यम से उनमें भक्तियोग।",
+          "commentary": "The Bhagavata distils the entire Vedic tradition to a single practice available to everyone: bhakti-yoga — loving devotion — beginning with the simplest act possible, the repetition of God's names. This is the Bhagavata's democratic, accessible offering: no caste, no learning, no lengthy initiation required. Begin with the Name. That is the door, and it is always open.",
+          "wordMeaning": "The Bhagavata distils the entire Vedic tradition to a single practice available to everyone: bhakti-yoga — loving devotion — beginning with the simplest act possible, the repetition of God's names. This is the Bhagavata's democratic, accessible offering: no caste, no learning, no lengthy initiation required. Begin with the Name. That is the door, and it is always open."
+        },
+        {
+          "number": "1.2",
+          "sanskrit": "धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां | वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ||",
+          "transliteration": "dharmaḥ projjhitakaitavo'tra paramo nirmatsarāṇāṃ satāṃ | vedyaṃ vāstavamattra vastu śivadaṃ tāpatrayonmūlanam ||",
+          "translation": "Here is the highest dharma — completely free from all deceit — for the pure-hearted. Herein is the real good to be known: that which is auspicious and which uproots the three-fold suffering.",
+          "hindi": "यहाँ (इस ग्रंथ में) निर्मत्सर साधुजनों के लिए सर्वोच्च धर्म वर्णित है — जो कपट-रहित है। यहाँ वास्तविक तत्त्व जाना जाता है — जो कल्याणकारक है और त्रिताप (आधि-व्याधि-उपाधि) को नष्ट करता है।",
+          "commentary": "The Bhagavata opens with a declaration of its purpose: to present dharma freed from all ulterior motives, to reveal the real nature of things (vastu), and to uproot the three-fold suffering of humanity. The \"three sufferings\" (tapatraya) are suffering arising from one's own body and mind, from other beings, and from natural forces.",
+          "wordMeaning": "The Bhagavata opens with a declaration of its purpose: to present dharma freed from all ulterior motives, to reveal the real nature of things (vastu), and to uproot the three-fold suffering of humanity. The \"three sufferings\" (tapatraya) are suffering arising from one's own body and mind, from other beings, and from natural forces."
+        },
+        {
+          "number": "1.3",
+          "sanskrit": "स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे | अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ||",
+          "transliteration": "sa vai puṃsāṃ paro dharmo yato bhaktiradhokṣaje | ahaituk yapratihata yayātmā samprasīdati ||",
+          "translation": "The supreme dharma for humanity is that which produces unmotivated and uninterrupted devotion to God — by which the Self attains complete contentment.",
+          "hindi": "मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।",
+          "commentary": "The Bhagavata's revolutionary thesis: the highest religion is not ritual, study, or even moral action — it is pure, unmotivated, unbroken love for the divine. Not \"I worship God for this blessing\" or \"I pray to avoid that suffering\" — but love with no agenda. This love (bhakti) produces the deepest contentment (prasada) possible.",
+          "wordMeaning": "The Bhagavata's revolutionary thesis: the highest religion is not ritual, study, or even moral action — it is pure, unmotivated, unbroken love for the divine. Not \"I worship God for this blessing\" or \"I pray to avoid that suffering\" — but love with no agenda. This love (bhakti) produces the deepest contentment (prasada) possible."
+        },
+        {
+          "number": "1.4",
+          "sanskrit": "भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् | नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ||",
+          "transliteration": "bhagavān bhaktibhāvena grāhyaḥ premagunairnṛṇām | nānyathā bhāvyate kvāpi yadi syādbrāhmasammataḥ ||",
+          "translation": "The Lord is to be grasped by human beings through the attitude of devotion — through the qualities of love. In no other way can He be known, even if one is a great Brahman.",
+          "hindi": "भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।",
+          "commentary": "The Bhagavata's consistent thesis: God is not grasped by intellectual achievement, ritual expertise, or social status — but by love. The story of Ambarisha confirms this: Ambarisha is not a sage or renunciant, but a king who loves God with his whole heart. When the greatest sage Durvasa curses him in rage, the curse bounces back because Ambarisha's devotion has made him untouchable.",
+          "wordMeaning": "The Bhagavata's consistent thesis: God is not grasped by intellectual achievement, ritual expertise, or social status — but by love. The story of Ambarisha confirms this: Ambarisha is not a sage or renunciant, but a king who loves God with his whole heart. When the greatest sage Durvasa curses him in rage, the curse bounces back because Ambarisha's devotion has made him untouchable."
+        },
+        {
+          "number": "1.5",
+          "sanskrit": "नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये | तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ||",
+          "transliteration": "nāyaṃ deho dehabhājāṃ nṛloke kaṣṭān kāmānarhat viḍbhujāṃ ye | tapo divyaṃ putrakā yena sattvaṃ śuddhyed yasmād brahmasaukhyaṃ tvanantam ||",
+          "translation": "This human body is not meant, O children, for pursuing the pleasures that even animals can enjoy with effort. It is meant for divine austerity by which the inner being is purified — from which comes the infinite joy of Brahman.",
+          "hindi": "हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।",
+          "commentary": "Rishabhadeva's teaching to his hundred sons — one of the most direct statements of the Bhagavata's central value: the human birth is rare and precious precisely because only humans can consciously pursue purification and liberation. To spend it on pleasure-seeking that any creature can pursue is a profound waste. This is not asceticism — it is recognition of unique potential.",
+          "wordMeaning": "Rishabhadeva's teaching to his hundred sons — one of the most direct statements of the Bhagavata's central value: the human birth is rare and precious precisely because only humans can consciously pursue purification and liberation. To spend it on pleasure-seeking that any creature can pursue is a profound waste. This is not asceticism — it is recognition of unique potential."
+        },
+        {
+          "number": "1.9",
+          "sanskrit": "यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा | न चान्तं विन्दते पुम्भिः परभावविशारदाः ||",
+          "transliteration": "yāṃ matiściodito yānti manasā karmaṇā girā | na cāntaṃ vindate pumbhiḥ parabhāvaviśāradāḥ ||",
+          "translation": "What the wise who are skilled in understanding the supreme being go toward — with mind, action, and speech — its end is not found by anyone.",
+          "hindi": "जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।",
+          "commentary": "Dhruva's story is the Bhagavata's icon of uncompromising, totality of aspiration. A five-year-old boy, rejected by his father, seeks God with all his heart — and finds not just comfort but the infinite. The verse encodes the paradox: the highest is sought with complete effort of mind, action, and speech — and yet its end is never found, because it is infinite. You can enter it entirely, but you cannot exhaust it.",
+          "wordMeaning": "Dhruva's story is the Bhagavata's icon of uncompromising, totality of aspiration. A five-year-old boy, rejected by his father, seeks God with all his heart — and finds not just comfort but the infinite. The verse encodes the paradox: the highest is sought with complete effort of mind, action, and speech — and yet its end is never found, because it is infinite. You can enter it entirely, but you cannot exhaust it."
+        },
+        {
+          "number": "1.13",
+          "sanskrit": "नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् | प्रणामो दुःखशमनस्तं नमामि हरिं परम् ||",
+          "transliteration": "nāmasaṃkīrtanaṃ yasya sarvapāpapraṇāśanam | praṇāmo duḥkhaśamanastam namāmi hariṃ param ||",
+          "translation": "The singing of whose name destroys all sin; whose salutation removes all sorrow — I bow to that Hari, the Supreme.",
+          "hindi": "जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।",
+          "commentary": "The Bhagavata closes as it opened: with devotion. The twelfth Skandha describes the deterioration of Kali Yuga — the loss of truth, the shortening of life, the coarsening of culture. It might seem like despair. But the Bhagavata's final message is the opposite: even in Kali Yuga, the Name is sufficient. What required lifetimes of austerity in other ages can be accomplished in Kali Yuga through kirtan alone. The deterioration of everything external is met by the invincible availability of the Name.",
+          "wordMeaning": "The Bhagavata closes as it opened: with devotion. The twelfth Skandha describes the deterioration of Kali Yuga — the loss of truth, the shortening of life, the coarsening of culture. It might seem like despair. But the Bhagavata's final message is the opposite: even in Kali Yuga, the Name is sufficient. What required lifetimes of austerity in other ages can be accomplished in Kali Yuga through kirtan alone. The deterioration of everything external is met by the invincible availability of the Name."
+        },
+        {
+          "number": "1.25",
+          "sanskrit": "सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव | सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ||",
+          "transliteration": "satsaṅgo muktaduḥsaṅgo hanti saṃsṛtimuddha | satsaṅgasya hi mahimā puṇyaślokānukīrtanam ||",
+          "translation": "The company of the holy — freed from bad association — destroys the cycle of birth and death. The greatness of such company is the praise of the blessed Lord.",
+          "hindi": "संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।",
+          "commentary": "Kapila's teaching on the transformative power of satsang — the company of those who are genuinely free. The Bhagavata makes the mechanism explicit: when you associate with those who praise God and embody dharma, their orientation becomes yours. You absorb not just their words but their state. The highest form of satsang, Kapila says, is itself the praise of the Lord — the activity that the holy engage in together.",
+          "wordMeaning": "Kapila's teaching on the transformative power of satsang — the company of those who are genuinely free. The Bhagavata makes the mechanism explicit: when you associate with those who praise God and embody dharma, their orientation becomes yours. You absorb not just their words but their state. The highest form of satsang, Kapila says, is itself the praise of the Lord — the activity that the holy engage in together."
+        },
+        {
+          "number": "7.47",
+          "sanskrit": "मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् | यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ||",
+          "transliteration": "manye'bhimukhīkṛto'rkaḥ pṛthivyāṃ mānuṣīmatanom | yadvandanāt sukhaṃ bhūyaḥ prapedye yatra kṛṣṇastat ||",
+          "translation": "I consider the sun itself to have turned toward earth, taking human form — by whose salutation I attained a joy that is more than this world's joy. That is where Krishna is.",
+          "hindi": "मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।",
+          "commentary": "The gopis' response to Uddhava — who has come from Krishna with a philosophical message — is one of the Bhagavata's most extraordinary passages. The gopis are not interested in philosophy. They have already arrived at the destination that philosophy points toward: they have no self separate from Krishna. Their love has dissolved the ego completely. Uddhava, the great philosopher and companion of Krishna, bows to the gopis and says he wishes to be born as a blade of grass in Vrindavan so the dust of their feet might touch him.",
+          "wordMeaning": "The gopis' response to Uddhava — who has come from Krishna with a philosophical message — is one of the Bhagavata's most extraordinary passages. The gopis are not interested in philosophy. They have already arrived at the destination that philosophy points toward: they have no self separate from Krishna. Their love has dissolved the ego completely. Uddhava, the great philosopher and companion of Krishna, bows to the gopis and says he wishes to be born as a blade of grass in Vrindavan so the dust of their feet might touch him."
+        }
+      ],
+      "titleSanskrit": "द्वितीय स्कन्ध"
+    },
+    {
+      "number": 3,
+      "title": "Skandha 3 — Status Quo",
+      "verses": [
+        {
+          "number": "1.1",
+          "sanskrit": "सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव | सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ||",
+          "transliteration": "satsaṅgo muktaduḥsaṅgo hanti saṃsṛtimuddha | satsaṅgasya hi mahimā puṇyaślokānukīrtanam ||",
+          "translation": "The company of the holy — freed from bad association — destroys the cycle of birth and death. The greatness of such company is the praise of the blessed Lord.",
+          "hindi": "संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।",
+          "commentary": "Kapila's teaching on the transformative power of satsang — the company of those who are genuinely free. The Bhagavata makes the mechanism explicit: when you associate with those who praise God and embody dharma, their orientation becomes yours. You absorb not just their words but their state. The highest form of satsang, Kapila says, is itself the praise of the Lord — the activity that the holy engage in together.",
+          "wordMeaning": "Kapila's teaching on the transformative power of satsang — the company of those who are genuinely free. The Bhagavata makes the mechanism explicit: when you associate with those who praise God and embody dharma, their orientation becomes yours. You absorb not just their words but their state. The highest form of satsang, Kapila says, is itself the praise of the Lord — the activity that the holy engage in together."
+        },
+        {
+          "number": "1.2",
+          "sanskrit": "धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां | वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ||",
+          "transliteration": "dharmaḥ projjhitakaitavo'tra paramo nirmatsarāṇāṃ satāṃ | vedyaṃ vāstavamattra vastu śivadaṃ tāpatrayonmūlanam ||",
+          "translation": "Here is the highest dharma — completely free from all deceit — for the pure-hearted. Herein is the real good to be known: that which is auspicious and which uproots the three-fold suffering.",
+          "hindi": "यहाँ (इस ग्रंथ में) निर्मत्सर साधुजनों के लिए सर्वोच्च धर्म वर्णित है — जो कपट-रहित है। यहाँ वास्तविक तत्त्व जाना जाता है — जो कल्याणकारक है और त्रिताप (आधि-व्याधि-उपाधि) को नष्ट करता है।",
+          "commentary": "The Bhagavata opens with a declaration of its purpose: to present dharma freed from all ulterior motives, to reveal the real nature of things (vastu), and to uproot the three-fold suffering of humanity. The \"three sufferings\" (tapatraya) are suffering arising from one's own body and mind, from other beings, and from natural forces.",
+          "wordMeaning": "The Bhagavata opens with a declaration of its purpose: to present dharma freed from all ulterior motives, to reveal the real nature of things (vastu), and to uproot the three-fold suffering of humanity. The \"three sufferings\" (tapatraya) are suffering arising from one's own body and mind, from other beings, and from natural forces."
+        },
+        {
+          "number": "1.3",
+          "sanskrit": "स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे | अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ||",
+          "transliteration": "sa vai puṃsāṃ paro dharmo yato bhaktiradhokṣaje | ahaituk yapratihata yayātmā samprasīdati ||",
+          "translation": "The supreme dharma for humanity is that which produces unmotivated and uninterrupted devotion to God — by which the Self attains complete contentment.",
+          "hindi": "मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।",
+          "commentary": "The Bhagavata's revolutionary thesis: the highest religion is not ritual, study, or even moral action — it is pure, unmotivated, unbroken love for the divine. Not \"I worship God for this blessing\" or \"I pray to avoid that suffering\" — but love with no agenda. This love (bhakti) produces the deepest contentment (prasada) possible.",
+          "wordMeaning": "The Bhagavata's revolutionary thesis: the highest religion is not ritual, study, or even moral action — it is pure, unmotivated, unbroken love for the divine. Not \"I worship God for this blessing\" or \"I pray to avoid that suffering\" — but love with no agenda. This love (bhakti) produces the deepest contentment (prasada) possible."
+        },
+        {
+          "number": "1.4",
+          "sanskrit": "भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् | नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ||",
+          "transliteration": "bhagavān bhaktibhāvena grāhyaḥ premagunairnṛṇām | nānyathā bhāvyate kvāpi yadi syādbrāhmasammataḥ ||",
+          "translation": "The Lord is to be grasped by human beings through the attitude of devotion — through the qualities of love. In no other way can He be known, even if one is a great Brahman.",
+          "hindi": "भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।",
+          "commentary": "The Bhagavata's consistent thesis: God is not grasped by intellectual achievement, ritual expertise, or social status — but by love. The story of Ambarisha confirms this: Ambarisha is not a sage or renunciant, but a king who loves God with his whole heart. When the greatest sage Durvasa curses him in rage, the curse bounces back because Ambarisha's devotion has made him untouchable.",
+          "wordMeaning": "The Bhagavata's consistent thesis: God is not grasped by intellectual achievement, ritual expertise, or social status — but by love. The story of Ambarisha confirms this: Ambarisha is not a sage or renunciant, but a king who loves God with his whole heart. When the greatest sage Durvasa curses him in rage, the curse bounces back because Ambarisha's devotion has made him untouchable."
+        },
+        {
+          "number": "1.5",
+          "sanskrit": "नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये | तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ||",
+          "transliteration": "nāyaṃ deho dehabhājāṃ nṛloke kaṣṭān kāmānarhat viḍbhujāṃ ye | tapo divyaṃ putrakā yena sattvaṃ śuddhyed yasmād brahmasaukhyaṃ tvanantam ||",
+          "translation": "This human body is not meant, O children, for pursuing the pleasures that even animals can enjoy with effort. It is meant for divine austerity by which the inner being is purified — from which comes the infinite joy of Brahman.",
+          "hindi": "हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।",
+          "commentary": "Rishabhadeva's teaching to his hundred sons — one of the most direct statements of the Bhagavata's central value: the human birth is rare and precious precisely because only humans can consciously pursue purification and liberation. To spend it on pleasure-seeking that any creature can pursue is a profound waste. This is not asceticism — it is recognition of unique potential.",
+          "wordMeaning": "Rishabhadeva's teaching to his hundred sons — one of the most direct statements of the Bhagavata's central value: the human birth is rare and precious precisely because only humans can consciously pursue purification and liberation. To spend it on pleasure-seeking that any creature can pursue is a profound waste. This is not asceticism — it is recognition of unique potential."
+        },
+        {
+          "number": "1.9",
+          "sanskrit": "यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा | न चान्तं विन्दते पुम्भिः परभावविशारदाः ||",
+          "transliteration": "yāṃ matiściodito yānti manasā karmaṇā girā | na cāntaṃ vindate pumbhiḥ parabhāvaviśāradāḥ ||",
+          "translation": "What the wise who are skilled in understanding the supreme being go toward — with mind, action, and speech — its end is not found by anyone.",
+          "hindi": "जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।",
+          "commentary": "Dhruva's story is the Bhagavata's icon of uncompromising, totality of aspiration. A five-year-old boy, rejected by his father, seeks God with all his heart — and finds not just comfort but the infinite. The verse encodes the paradox: the highest is sought with complete effort of mind, action, and speech — and yet its end is never found, because it is infinite. You can enter it entirely, but you cannot exhaust it.",
+          "wordMeaning": "Dhruva's story is the Bhagavata's icon of uncompromising, totality of aspiration. A five-year-old boy, rejected by his father, seeks God with all his heart — and finds not just comfort but the infinite. The verse encodes the paradox: the highest is sought with complete effort of mind, action, and speech — and yet its end is never found, because it is infinite. You can enter it entirely, but you cannot exhaust it."
+        },
+        {
+          "number": "1.13",
+          "sanskrit": "नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् | प्रणामो दुःखशमनस्तं नमामि हरिं परम् ||",
+          "transliteration": "nāmasaṃkīrtanaṃ yasya sarvapāpapraṇāśanam | praṇāmo duḥkhaśamanastam namāmi hariṃ param ||",
+          "translation": "The singing of whose name destroys all sin; whose salutation removes all sorrow — I bow to that Hari, the Supreme.",
+          "hindi": "जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।",
+          "commentary": "The Bhagavata closes as it opened: with devotion. The twelfth Skandha describes the deterioration of Kali Yuga — the loss of truth, the shortening of life, the coarsening of culture. It might seem like despair. But the Bhagavata's final message is the opposite: even in Kali Yuga, the Name is sufficient. What required lifetimes of austerity in other ages can be accomplished in Kali Yuga through kirtan alone. The deterioration of everything external is met by the invincible availability of the Name.",
+          "wordMeaning": "The Bhagavata closes as it opened: with devotion. The twelfth Skandha describes the deterioration of Kali Yuga — the loss of truth, the shortening of life, the coarsening of culture. It might seem like despair. But the Bhagavata's final message is the opposite: even in Kali Yuga, the Name is sufficient. What required lifetimes of austerity in other ages can be accomplished in Kali Yuga through kirtan alone. The deterioration of everything external is met by the invincible availability of the Name."
+        },
+        {
+          "number": "5.47",
+          "sanskrit": "मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् | यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ||",
+          "transliteration": "manye'bhimukhīkṛto'rkaḥ pṛthivyāṃ mānuṣīmatanom | yadvandanāt sukhaṃ bhūyaḥ prapedye yatra kṛṣṇastat ||",
+          "translation": "I consider the sun itself to have turned toward earth, taking human form — by whose salutation I attained a joy that is more than this world's joy. That is where Krishna is.",
+          "hindi": "मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।",
+          "commentary": "The gopis' response to Uddhava — who has come from Krishna with a philosophical message — is one of the Bhagavata's most extraordinary passages. The gopis are not interested in philosophy. They have already arrived at the destination that philosophy points toward: they have no self separate from Krishna. Their love has dissolved the ego completely. Uddhava, the great philosopher and companion of Krishna, bows to the gopis and says he wishes to be born as a blade of grass in Vrindavan so the dust of their feet might touch him.",
+          "wordMeaning": "The gopis' response to Uddhava — who has come from Krishna with a philosophical message — is one of the Bhagavata's most extraordinary passages. The gopis are not interested in philosophy. They have already arrived at the destination that philosophy points toward: they have no self separate from Krishna. Their love has dissolved the ego completely. Uddhava, the great philosopher and companion of Krishna, bows to the gopis and says he wishes to be born as a blade of grass in Vrindavan so the dust of their feet might touch him."
+        }
+      ],
+      "titleSanskrit": "तृतीय स्कन्ध"
+    },
+    {
+      "number": 4,
+      "title": "Skandha 4 — Creation of the Fourth Order",
+      "verses": [
+        {
+          "number": "1.1",
+          "sanskrit": "यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा | न चान्तं विन्दते पुम्भिः परभावविशारदाः ||",
+          "transliteration": "yāṃ matiściodito yānti manasā karmaṇā girā | na cāntaṃ vindate pumbhiḥ parabhāvaviśāradāḥ ||",
+          "translation": "What the wise who are skilled in understanding the supreme being go toward — with mind, action, and speech — its end is not found by anyone.",
+          "hindi": "जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।",
+          "commentary": "Dhruva's story is the Bhagavata's icon of uncompromising, totality of aspiration. A five-year-old boy, rejected by his father, seeks God with all his heart — and finds not just comfort but the infinite. The verse encodes the paradox: the highest is sought with complete effort of mind, action, and speech — and yet its end is never found, because it is infinite. You can enter it entirely, but you cannot exhaust it.",
+          "wordMeaning": "Dhruva's story is the Bhagavata's icon of uncompromising, totality of aspiration. A five-year-old boy, rejected by his father, seeks God with all his heart — and finds not just comfort but the infinite. The verse encodes the paradox: the highest is sought with complete effort of mind, action, and speech — and yet its end is never found, because it is infinite. You can enter it entirely, but you cannot exhaust it."
+        },
+        {
+          "number": "1.2",
+          "sanskrit": "धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां | वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ||",
+          "transliteration": "dharmaḥ projjhitakaitavo'tra paramo nirmatsarāṇāṃ satāṃ | vedyaṃ vāstavamattra vastu śivadaṃ tāpatrayonmūlanam ||",
+          "translation": "Here is the highest dharma — completely free from all deceit — for the pure-hearted. Herein is the real good to be known: that which is auspicious and which uproots the three-fold suffering.",
+          "hindi": "यहाँ (इस ग्रंथ में) निर्मत्सर साधुजनों के लिए सर्वोच्च धर्म वर्णित है — जो कपट-रहित है। यहाँ वास्तविक तत्त्व जाना जाता है — जो कल्याणकारक है और त्रिताप (आधि-व्याधि-उपाधि) को नष्ट करता है।",
+          "commentary": "The Bhagavata opens with a declaration of its purpose: to present dharma freed from all ulterior motives, to reveal the real nature of things (vastu), and to uproot the three-fold suffering of humanity. The \"three sufferings\" (tapatraya) are suffering arising from one's own body and mind, from other beings, and from natural forces.",
+          "wordMeaning": "The Bhagavata opens with a declaration of its purpose: to present dharma freed from all ulterior motives, to reveal the real nature of things (vastu), and to uproot the three-fold suffering of humanity. The \"three sufferings\" (tapatraya) are suffering arising from one's own body and mind, from other beings, and from natural forces."
+        },
+        {
+          "number": "1.3",
+          "sanskrit": "स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे | अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ||",
+          "transliteration": "sa vai puṃsāṃ paro dharmo yato bhaktiradhokṣaje | ahaituk yapratihata yayātmā samprasīdati ||",
+          "translation": "The supreme dharma for humanity is that which produces unmotivated and uninterrupted devotion to God — by which the Self attains complete contentment.",
+          "hindi": "मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।",
+          "commentary": "The Bhagavata's revolutionary thesis: the highest religion is not ritual, study, or even moral action — it is pure, unmotivated, unbroken love for the divine. Not \"I worship God for this blessing\" or \"I pray to avoid that suffering\" — but love with no agenda. This love (bhakti) produces the deepest contentment (prasada) possible.",
+          "wordMeaning": "The Bhagavata's revolutionary thesis: the highest religion is not ritual, study, or even moral action — it is pure, unmotivated, unbroken love for the divine. Not \"I worship God for this blessing\" or \"I pray to avoid that suffering\" — but love with no agenda. This love (bhakti) produces the deepest contentment (prasada) possible."
+        },
+        {
+          "number": "1.4",
+          "sanskrit": "भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् | नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ||",
+          "transliteration": "bhagavān bhaktibhāvena grāhyaḥ premagunairnṛṇām | nānyathā bhāvyate kvāpi yadi syādbrāhmasammataḥ ||",
+          "translation": "The Lord is to be grasped by human beings through the attitude of devotion — through the qualities of love. In no other way can He be known, even if one is a great Brahman.",
+          "hindi": "भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।",
+          "commentary": "The Bhagavata's consistent thesis: God is not grasped by intellectual achievement, ritual expertise, or social status — but by love. The story of Ambarisha confirms this: Ambarisha is not a sage or renunciant, but a king who loves God with his whole heart. When the greatest sage Durvasa curses him in rage, the curse bounces back because Ambarisha's devotion has made him untouchable.",
+          "wordMeaning": "The Bhagavata's consistent thesis: God is not grasped by intellectual achievement, ritual expertise, or social status — but by love. The story of Ambarisha confirms this: Ambarisha is not a sage or renunciant, but a king who loves God with his whole heart. When the greatest sage Durvasa curses him in rage, the curse bounces back because Ambarisha's devotion has made him untouchable."
+        },
+        {
+          "number": "1.5",
+          "sanskrit": "नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये | तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ||",
+          "transliteration": "nāyaṃ deho dehabhājāṃ nṛloke kaṣṭān kāmānarhat viḍbhujāṃ ye | tapo divyaṃ putrakā yena sattvaṃ śuddhyed yasmād brahmasaukhyaṃ tvanantam ||",
+          "translation": "This human body is not meant, O children, for pursuing the pleasures that even animals can enjoy with effort. It is meant for divine austerity by which the inner being is purified — from which comes the infinite joy of Brahman.",
+          "hindi": "हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।",
+          "commentary": "Rishabhadeva's teaching to his hundred sons — one of the most direct statements of the Bhagavata's central value: the human birth is rare and precious precisely because only humans can consciously pursue purification and liberation. To spend it on pleasure-seeking that any creature can pursue is a profound waste. This is not asceticism — it is recognition of unique potential.",
+          "wordMeaning": "Rishabhadeva's teaching to his hundred sons — one of the most direct statements of the Bhagavata's central value: the human birth is rare and precious precisely because only humans can consciously pursue purification and liberation. To spend it on pleasure-seeking that any creature can pursue is a profound waste. This is not asceticism — it is recognition of unique potential."
+        },
+        {
+          "number": "1.13",
+          "sanskrit": "नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् | प्रणामो दुःखशमनस्तं नमामि हरिं परम् ||",
+          "transliteration": "nāmasaṃkīrtanaṃ yasya sarvapāpapraṇāśanam | praṇāmo duḥkhaśamanastam namāmi hariṃ param ||",
+          "translation": "The singing of whose name destroys all sin; whose salutation removes all sorrow — I bow to that Hari, the Supreme.",
+          "hindi": "जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।",
+          "commentary": "The Bhagavata closes as it opened: with devotion. The twelfth Skandha describes the deterioration of Kali Yuga — the loss of truth, the shortening of life, the coarsening of culture. It might seem like despair. But the Bhagavata's final message is the opposite: even in Kali Yuga, the Name is sufficient. What required lifetimes of austerity in other ages can be accomplished in Kali Yuga through kirtan alone. The deterioration of everything external is met by the invincible availability of the Name.",
+          "wordMeaning": "The Bhagavata closes as it opened: with devotion. The twelfth Skandha describes the deterioration of Kali Yuga — the loss of truth, the shortening of life, the coarsening of culture. It might seem like despair. But the Bhagavata's final message is the opposite: even in Kali Yuga, the Name is sufficient. What required lifetimes of austerity in other ages can be accomplished in Kali Yuga through kirtan alone. The deterioration of everything external is met by the invincible availability of the Name."
+        },
+        {
+          "number": "1.25",
+          "sanskrit": "सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव | सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ||",
+          "transliteration": "satsaṅgo muktaduḥsaṅgo hanti saṃsṛtimuddha | satsaṅgasya hi mahimā puṇyaślokānukīrtanam ||",
+          "translation": "The company of the holy — freed from bad association — destroys the cycle of birth and death. The greatness of such company is the praise of the blessed Lord.",
+          "hindi": "संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।",
+          "commentary": "Kapila's teaching on the transformative power of satsang — the company of those who are genuinely free. The Bhagavata makes the mechanism explicit: when you associate with those who praise God and embody dharma, their orientation becomes yours. You absorb not just their words but their state. The highest form of satsang, Kapila says, is itself the praise of the Lord — the activity that the holy engage in together.",
+          "wordMeaning": "Kapila's teaching on the transformative power of satsang — the company of those who are genuinely free. The Bhagavata makes the mechanism explicit: when you associate with those who praise God and embody dharma, their orientation becomes yours. You absorb not just their words but their state. The highest form of satsang, Kapila says, is itself the praise of the Lord — the activity that the holy engage in together."
+        },
+        {
+          "number": "1.47",
+          "sanskrit": "मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् | यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ||",
+          "transliteration": "manye'bhimukhīkṛto'rkaḥ pṛthivyāṃ mānuṣīmatanom | yadvandanāt sukhaṃ bhūyaḥ prapedye yatra kṛṣṇastat ||",
+          "translation": "I consider the sun itself to have turned toward earth, taking human form — by whose salutation I attained a joy that is more than this world's joy. That is where Krishna is.",
+          "hindi": "मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।",
+          "commentary": "The gopis' response to Uddhava — who has come from Krishna with a philosophical message — is one of the Bhagavata's most extraordinary passages. The gopis are not interested in philosophy. They have already arrived at the destination that philosophy points toward: they have no self separate from Krishna. Their love has dissolved the ego completely. Uddhava, the great philosopher and companion of Krishna, bows to the gopis and says he wishes to be born as a blade of grass in Vrindavan so the dust of their feet might touch him.",
+          "wordMeaning": "The gopis' response to Uddhava — who has come from Krishna with a philosophical message — is one of the Bhagavata's most extraordinary passages. The gopis are not interested in philosophy. They have already arrived at the destination that philosophy points toward: they have no self separate from Krishna. Their love has dissolved the ego completely. Uddhava, the great philosopher and companion of Krishna, bows to the gopis and says he wishes to be born as a blade of grass in Vrindavan so the dust of their feet might touch him."
+        }
+      ],
+      "titleSanskrit": "चतुर्थ स्कन्ध"
+    },
+    {
+      "number": 5,
+      "title": "Skandha 5 — Creative Impetus",
+      "verses": [
+        {
+          "number": "1.1",
+          "sanskrit": "नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये | तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ||",
+          "transliteration": "nāyaṃ deho dehabhājāṃ nṛloke kaṣṭān kāmānarhat viḍbhujāṃ ye | tapo divyaṃ putrakā yena sattvaṃ śuddhyed yasmād brahmasaukhyaṃ tvanantam ||",
+          "translation": "This human body is not meant, O children, for pursuing the pleasures that even animals can enjoy with effort. It is meant for divine austerity by which the inner being is purified — from which comes the infinite joy of Brahman.",
+          "hindi": "हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।",
+          "commentary": "Rishabhadeva's teaching to his hundred sons — one of the most direct statements of the Bhagavata's central value: the human birth is rare and precious precisely because only humans can consciously pursue purification and liberation. To spend it on pleasure-seeking that any creature can pursue is a profound waste. This is not asceticism — it is recognition of unique potential.",
+          "wordMeaning": "Rishabhadeva's teaching to his hundred sons — one of the most direct statements of the Bhagavata's central value: the human birth is rare and precious precisely because only humans can consciously pursue purification and liberation. To spend it on pleasure-seeking that any creature can pursue is a profound waste. This is not asceticism — it is recognition of unique potential."
+        },
+        {
+          "number": "1.2",
+          "sanskrit": "धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां | वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ||",
+          "transliteration": "dharmaḥ projjhitakaitavo'tra paramo nirmatsarāṇāṃ satāṃ | vedyaṃ vāstavamattra vastu śivadaṃ tāpatrayonmūlanam ||",
+          "translation": "Here is the highest dharma — completely free from all deceit — for the pure-hearted. Herein is the real good to be known: that which is auspicious and which uproots the three-fold suffering.",
+          "hindi": "यहाँ (इस ग्रंथ में) निर्मत्सर साधुजनों के लिए सर्वोच्च धर्म वर्णित है — जो कपट-रहित है। यहाँ वास्तविक तत्त्व जाना जाता है — जो कल्याणकारक है और त्रिताप (आधि-व्याधि-उपाधि) को नष्ट करता है।",
+          "commentary": "The Bhagavata opens with a declaration of its purpose: to present dharma freed from all ulterior motives, to reveal the real nature of things (vastu), and to uproot the three-fold suffering of humanity. The \"three sufferings\" (tapatraya) are suffering arising from one's own body and mind, from other beings, and from natural forces.",
+          "wordMeaning": "The Bhagavata opens with a declaration of its purpose: to present dharma freed from all ulterior motives, to reveal the real nature of things (vastu), and to uproot the three-fold suffering of humanity. The \"three sufferings\" (tapatraya) are suffering arising from one's own body and mind, from other beings, and from natural forces."
+        },
+        {
+          "number": "1.3",
+          "sanskrit": "स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे | अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ||",
+          "transliteration": "sa vai puṃsāṃ paro dharmo yato bhaktiradhokṣaje | ahaituk yapratihata yayātmā samprasīdati ||",
+          "translation": "The supreme dharma for humanity is that which produces unmotivated and uninterrupted devotion to God — by which the Self attains complete contentment.",
+          "hindi": "मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।",
+          "commentary": "The Bhagavata's revolutionary thesis: the highest religion is not ritual, study, or even moral action — it is pure, unmotivated, unbroken love for the divine. Not \"I worship God for this blessing\" or \"I pray to avoid that suffering\" — but love with no agenda. This love (bhakti) produces the deepest contentment (prasada) possible.",
+          "wordMeaning": "The Bhagavata's revolutionary thesis: the highest religion is not ritual, study, or even moral action — it is pure, unmotivated, unbroken love for the divine. Not \"I worship God for this blessing\" or \"I pray to avoid that suffering\" — but love with no agenda. This love (bhakti) produces the deepest contentment (prasada) possible."
+        },
+        {
+          "number": "1.4",
+          "sanskrit": "भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् | नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ||",
+          "transliteration": "bhagavān bhaktibhāvena grāhyaḥ premagunairnṛṇām | nānyathā bhāvyate kvāpi yadi syādbrāhmasammataḥ ||",
+          "translation": "The Lord is to be grasped by human beings through the attitude of devotion — through the qualities of love. In no other way can He be known, even if one is a great Brahman.",
+          "hindi": "भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।",
+          "commentary": "The Bhagavata's consistent thesis: God is not grasped by intellectual achievement, ritual expertise, or social status — but by love. The story of Ambarisha confirms this: Ambarisha is not a sage or renunciant, but a king who loves God with his whole heart. When the greatest sage Durvasa curses him in rage, the curse bounces back because Ambarisha's devotion has made him untouchable.",
+          "wordMeaning": "The Bhagavata's consistent thesis: God is not grasped by intellectual achievement, ritual expertise, or social status — but by love. The story of Ambarisha confirms this: Ambarisha is not a sage or renunciant, but a king who loves God with his whole heart. When the greatest sage Durvasa curses him in rage, the curse bounces back because Ambarisha's devotion has made him untouchable."
+        },
+        {
+          "number": "1.9",
+          "sanskrit": "यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा | न चान्तं विन्दते पुम्भिः परभावविशारदाः ||",
+          "transliteration": "yāṃ matiściodito yānti manasā karmaṇā girā | na cāntaṃ vindate pumbhiḥ parabhāvaviśāradāḥ ||",
+          "translation": "What the wise who are skilled in understanding the supreme being go toward — with mind, action, and speech — its end is not found by anyone.",
+          "hindi": "जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।",
+          "commentary": "Dhruva's story is the Bhagavata's icon of uncompromising, totality of aspiration. A five-year-old boy, rejected by his father, seeks God with all his heart — and finds not just comfort but the infinite. The verse encodes the paradox: the highest is sought with complete effort of mind, action, and speech — and yet its end is never found, because it is infinite. You can enter it entirely, but you cannot exhaust it.",
+          "wordMeaning": "Dhruva's story is the Bhagavata's icon of uncompromising, totality of aspiration. A five-year-old boy, rejected by his father, seeks God with all his heart — and finds not just comfort but the infinite. The verse encodes the paradox: the highest is sought with complete effort of mind, action, and speech — and yet its end is never found, because it is infinite. You can enter it entirely, but you cannot exhaust it."
+        },
+        {
+          "number": "1.13",
+          "sanskrit": "नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् | प्रणामो दुःखशमनस्तं नमामि हरिं परम् ||",
+          "transliteration": "nāmasaṃkīrtanaṃ yasya sarvapāpapraṇāśanam | praṇāmo duḥkhaśamanastam namāmi hariṃ param ||",
+          "translation": "The singing of whose name destroys all sin; whose salutation removes all sorrow — I bow to that Hari, the Supreme.",
+          "hindi": "जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।",
+          "commentary": "The Bhagavata closes as it opened: with devotion. The twelfth Skandha describes the deterioration of Kali Yuga — the loss of truth, the shortening of life, the coarsening of culture. It might seem like despair. But the Bhagavata's final message is the opposite: even in Kali Yuga, the Name is sufficient. What required lifetimes of austerity in other ages can be accomplished in Kali Yuga through kirtan alone. The deterioration of everything external is met by the invincible availability of the Name.",
+          "wordMeaning": "The Bhagavata closes as it opened: with devotion. The twelfth Skandha describes the deterioration of Kali Yuga — the loss of truth, the shortening of life, the coarsening of culture. It might seem like despair. But the Bhagavata's final message is the opposite: even in Kali Yuga, the Name is sufficient. What required lifetimes of austerity in other ages can be accomplished in Kali Yuga through kirtan alone. The deterioration of everything external is met by the invincible availability of the Name."
+        },
+        {
+          "number": "1.25",
+          "sanskrit": "सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव | सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ||",
+          "transliteration": "satsaṅgo muktaduḥsaṅgo hanti saṃsṛtimuddha | satsaṅgasya hi mahimā puṇyaślokānukīrtanam ||",
+          "translation": "The company of the holy — freed from bad association — destroys the cycle of birth and death. The greatness of such company is the praise of the blessed Lord.",
+          "hindi": "संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।",
+          "commentary": "Kapila's teaching on the transformative power of satsang — the company of those who are genuinely free. The Bhagavata makes the mechanism explicit: when you associate with those who praise God and embody dharma, their orientation becomes yours. You absorb not just their words but their state. The highest form of satsang, Kapila says, is itself the praise of the Lord — the activity that the holy engage in together.",
+          "wordMeaning": "Kapila's teaching on the transformative power of satsang — the company of those who are genuinely free. The Bhagavata makes the mechanism explicit: when you associate with those who praise God and embody dharma, their orientation becomes yours. You absorb not just their words but their state. The highest form of satsang, Kapila says, is itself the praise of the Lord — the activity that the holy engage in together."
+        }
+      ],
+      "titleSanskrit": "पञ्चम स्कन्ध"
+    },
+    {
+      "number": 6,
+      "title": "Skandha 6 — Prescribed Duties for Mankind",
+      "verses": [
+        {
+          "number": "1.1",
+          "sanskrit": "आपदामपहर्तारं दातारं सर्वसम्पदाम् | लोकाभिरामं श्रीरामं भूयो भूयो नमाम्यहम् ||",
+          "transliteration": "āpadāmapahartāraṃ dātāraṃ sarvasampadām | lokābhirāmaṃ śrīrāmaṃ bhūyo bhūyo namāmyaham ||",
+          "translation": "I bow again and again to Shri Rama — the remover of calamities, the giver of all prosperity, the delight of all the worlds.",
+          "hindi": "मैं श्रीराम को बार-बार नमस्कार करता हूँ — जो आपदाओं को दूर करते हैं, समस्त सम्पदा देते हैं, और सब लोकों के आनन्द हैं।",
+          "commentary": "The Ajamila story pivots on a single principle: even an involuntary utterance of God's name at the moment of death carries transformative power. Ajamila was not a saint — he had spent decades in adharma. But his heart still carried the name, and at the threshold of death, he called it. The Vishnu-dutas (God's messengers) arrive before the Yama-dutas (Death's messengers) and claim him. The Bhagavata's point: the Name is more powerful than all accumulated karma.",
+          "wordMeaning": "The Ajamila story pivots on a single principle: even an involuntary utterance of God's name at the moment of death carries transformative power. Ajamila was not a saint — he had spent decades in adharma. But his heart still carried the name, and at the threshold of death, he called it. The Vishnu-dutas (God's messengers) arrive before the Yama-dutas (Death's messengers) and claim him. The Bhagavata's point: the Name is more powerful than all accumulated karma."
+        },
+        {
+          "number": "1.3",
+          "sanskrit": "स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे | अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ||",
+          "transliteration": "sa vai puṃsāṃ paro dharmo yato bhaktiradhokṣaje | ahaituk yapratihata yayātmā samprasīdati ||",
+          "translation": "The supreme dharma for humanity is that which produces unmotivated and uninterrupted devotion to God — by which the Self attains complete contentment.",
+          "hindi": "मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।",
+          "commentary": "The Bhagavata's revolutionary thesis: the highest religion is not ritual, study, or even moral action — it is pure, unmotivated, unbroken love for the divine. Not \"I worship God for this blessing\" or \"I pray to avoid that suffering\" — but love with no agenda. This love (bhakti) produces the deepest contentment (prasada) possible.",
+          "wordMeaning": "The Bhagavata's revolutionary thesis: the highest religion is not ritual, study, or even moral action — it is pure, unmotivated, unbroken love for the divine. Not \"I worship God for this blessing\" or \"I pray to avoid that suffering\" — but love with no agenda. This love (bhakti) produces the deepest contentment (prasada) possible."
+        },
+        {
+          "number": "1.4",
+          "sanskrit": "भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् | नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ||",
+          "transliteration": "bhagavān bhaktibhāvena grāhyaḥ premagunairnṛṇām | nānyathā bhāvyate kvāpi yadi syādbrāhmasammataḥ ||",
+          "translation": "The Lord is to be grasped by human beings through the attitude of devotion — through the qualities of love. In no other way can He be known, even if one is a great Brahman.",
+          "hindi": "भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।",
+          "commentary": "The Bhagavata's consistent thesis: God is not grasped by intellectual achievement, ritual expertise, or social status — but by love. The story of Ambarisha confirms this: Ambarisha is not a sage or renunciant, but a king who loves God with his whole heart. When the greatest sage Durvasa curses him in rage, the curse bounces back because Ambarisha's devotion has made him untouchable.",
+          "wordMeaning": "The Bhagavata's consistent thesis: God is not grasped by intellectual achievement, ritual expertise, or social status — but by love. The story of Ambarisha confirms this: Ambarisha is not a sage or renunciant, but a king who loves God with his whole heart. When the greatest sage Durvasa curses him in rage, the curse bounces back because Ambarisha's devotion has made him untouchable."
+        },
+        {
+          "number": "1.5",
+          "sanskrit": "नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये | तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ||",
+          "transliteration": "nāyaṃ deho dehabhājāṃ nṛloke kaṣṭān kāmānarhat viḍbhujāṃ ye | tapo divyaṃ putrakā yena sattvaṃ śuddhyed yasmād brahmasaukhyaṃ tvanantam ||",
+          "translation": "This human body is not meant, O children, for pursuing the pleasures that even animals can enjoy with effort. It is meant for divine austerity by which the inner being is purified — from which comes the infinite joy of Brahman.",
+          "hindi": "हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।",
+          "commentary": "Rishabhadeva's teaching to his hundred sons — one of the most direct statements of the Bhagavata's central value: the human birth is rare and precious precisely because only humans can consciously pursue purification and liberation. To spend it on pleasure-seeking that any creature can pursue is a profound waste. This is not asceticism — it is recognition of unique potential.",
+          "wordMeaning": "Rishabhadeva's teaching to his hundred sons — one of the most direct statements of the Bhagavata's central value: the human birth is rare and precious precisely because only humans can consciously pursue purification and liberation. To spend it on pleasure-seeking that any creature can pursue is a profound waste. This is not asceticism — it is recognition of unique potential."
+        },
+        {
+          "number": "1.9",
+          "sanskrit": "यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा | न चान्तं विन्दते पुम्भिः परभावविशारदाः ||",
+          "transliteration": "yāṃ matiściodito yānti manasā karmaṇā girā | na cāntaṃ vindate pumbhiḥ parabhāvaviśāradāḥ ||",
+          "translation": "What the wise who are skilled in understanding the supreme being go toward — with mind, action, and speech — its end is not found by anyone.",
+          "hindi": "जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।",
+          "commentary": "Dhruva's story is the Bhagavata's icon of uncompromising, totality of aspiration. A five-year-old boy, rejected by his father, seeks God with all his heart — and finds not just comfort but the infinite. The verse encodes the paradox: the highest is sought with complete effort of mind, action, and speech — and yet its end is never found, because it is infinite. You can enter it entirely, but you cannot exhaust it.",
+          "wordMeaning": "Dhruva's story is the Bhagavata's icon of uncompromising, totality of aspiration. A five-year-old boy, rejected by his father, seeks God with all his heart — and finds not just comfort but the infinite. The verse encodes the paradox: the highest is sought with complete effort of mind, action, and speech — and yet its end is never found, because it is infinite. You can enter it entirely, but you cannot exhaust it."
+        },
+        {
+          "number": "1.13",
+          "sanskrit": "नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् | प्रणामो दुःखशमनस्तं नमामि हरिं परम् ||",
+          "transliteration": "nāmasaṃkīrtanaṃ yasya sarvapāpapraṇāśanam | praṇāmo duḥkhaśamanastam namāmi hariṃ param ||",
+          "translation": "The singing of whose name destroys all sin; whose salutation removes all sorrow — I bow to that Hari, the Supreme.",
+          "hindi": "जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।",
+          "commentary": "The Bhagavata closes as it opened: with devotion. The twelfth Skandha describes the deterioration of Kali Yuga — the loss of truth, the shortening of life, the coarsening of culture. It might seem like despair. But the Bhagavata's final message is the opposite: even in Kali Yuga, the Name is sufficient. What required lifetimes of austerity in other ages can be accomplished in Kali Yuga through kirtan alone. The deterioration of everything external is met by the invincible availability of the Name.",
+          "wordMeaning": "The Bhagavata closes as it opened: with devotion. The twelfth Skandha describes the deterioration of Kali Yuga — the loss of truth, the shortening of life, the coarsening of culture. It might seem like despair. But the Bhagavata's final message is the opposite: even in Kali Yuga, the Name is sufficient. What required lifetimes of austerity in other ages can be accomplished in Kali Yuga through kirtan alone. The deterioration of everything external is met by the invincible availability of the Name."
+        },
+        {
+          "number": "1.25",
+          "sanskrit": "सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव | सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ||",
+          "transliteration": "satsaṅgo muktaduḥsaṅgo hanti saṃsṛtimuddha | satsaṅgasya hi mahimā puṇyaślokānukīrtanam ||",
+          "translation": "The company of the holy — freed from bad association — destroys the cycle of birth and death. The greatness of such company is the praise of the blessed Lord.",
+          "hindi": "संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।",
+          "commentary": "Kapila's teaching on the transformative power of satsang — the company of those who are genuinely free. The Bhagavata makes the mechanism explicit: when you associate with those who praise God and embody dharma, their orientation becomes yours. You absorb not just their words but their state. The highest form of satsang, Kapila says, is itself the praise of the Lord — the activity that the holy engage in together.",
+          "wordMeaning": "Kapila's teaching on the transformative power of satsang — the company of those who are genuinely free. The Bhagavata makes the mechanism explicit: when you associate with those who praise God and embody dharma, their orientation becomes yours. You absorb not just their words but their state. The highest form of satsang, Kapila says, is itself the praise of the Lord — the activity that the holy engage in together."
+        },
+        {
+          "number": "1.47",
+          "sanskrit": "मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् | यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ||",
+          "transliteration": "manye'bhimukhīkṛto'rkaḥ pṛthivyāṃ mānuṣīmatanom | yadvandanāt sukhaṃ bhūyaḥ prapedye yatra kṛṣṇastat ||",
+          "translation": "I consider the sun itself to have turned toward earth, taking human form — by whose salutation I attained a joy that is more than this world's joy. That is where Krishna is.",
+          "hindi": "मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।",
+          "commentary": "The gopis' response to Uddhava — who has come from Krishna with a philosophical message — is one of the Bhagavata's most extraordinary passages. The gopis are not interested in philosophy. They have already arrived at the destination that philosophy points toward: they have no self separate from Krishna. Their love has dissolved the ego completely. Uddhava, the great philosopher and companion of Krishna, bows to the gopis and says he wishes to be born as a blade of grass in Vrindavan so the dust of their feet might touch him.",
+          "wordMeaning": "The gopis' response to Uddhava — who has come from Krishna with a philosophical message — is one of the Bhagavata's most extraordinary passages. The gopis are not interested in philosophy. They have already arrived at the destination that philosophy points toward: they have no self separate from Krishna. Their love has dissolved the ego completely. Uddhava, the great philosopher and companion of Krishna, bows to the gopis and says he wishes to be born as a blade of grass in Vrindavan so the dust of their feet might touch him."
+        }
+      ],
+      "titleSanskrit": "षष्ठ स्कन्ध"
+    },
+    {
+      "number": 7,
+      "title": "Skandha 7 — The Science of God (Prahlada)",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "श्रवणं कीर्तनं विष्णोः स्मरणं पादसेवनम् | अर्चनं वन्दनं दास्यं सख्यमात्मनिवेदनम् ||",
+          "transliteration": "śravaṇaṃ kīrtanaṃ viṣṇoḥ smaraṇaṃ pādasevanam | arcanaṃ vandanaṃ dāsyaṃ sakhyamātmanivedanam ||",
+          "translation": "Hearing of Vishnu, singing of Him, remembering Him, serving His feet, worshipping Him, saluting Him, being His servant, His friend, and surrendering oneself completely to Him — these are the nine forms of devotion.",
+          "hindi": "श्रवण, कीर्तन, स्मरण, पाद-सेवन, अर्चन, वन्दन, दास्य, सख्य और आत्म-निवेदन — ये भक्ति के नौ अंग हैं।",
+          "commentary": "Prahlada's exposition of the Navadha Bhakti — the nine forms of devotion. This is the most influential schema of bhakti in all Hindu thought. Note: the nine forms range from receptive (hearing, remembering) to expressive (singing, salutation) to relational (service, friendship) to the ultimate (atma-nivedanam — complete self-surrender). Anyone can begin with any one form. They all lead to the same destination.",
+          "wordMeaning": "Prahlada's exposition of the Navadha Bhakti — the nine forms of devotion. This is the most influential schema of bhakti in all Hindu thought. Note: the nine forms range from receptive (hearing, remembering) to expressive (singing, salutation) to relational (service, friendship) to the ultimate (atma-nivedanam — complete self-surrender). Anyone can begin with any one form. They all lead to the same destination."
+        },
+        {
+          "number": "1.2",
+          "sanskrit": "धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां | वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ||",
+          "transliteration": "dharmaḥ projjhitakaitavo'tra paramo nirmatsarāṇāṃ satāṃ | vedyaṃ vāstavamattra vastu śivadaṃ tāpatrayonmūlanam ||",
+          "translation": "Here is the highest dharma — completely free from all deceit — for the pure-hearted. Herein is the real good to be known: that which is auspicious and which uproots the three-fold suffering.",
+          "hindi": "यहाँ (इस ग्रंथ में) निर्मत्सर साधुजनों के लिए सर्वोच्च धर्म वर्णित है — जो कपट-रहित है। यहाँ वास्तविक तत्त्व जाना जाता है — जो कल्याणकारक है और त्रिताप (आधि-व्याधि-उपाधि) को नष्ट करता है।",
+          "commentary": "The Bhagavata opens with a declaration of its purpose: to present dharma freed from all ulterior motives, to reveal the real nature of things (vastu), and to uproot the three-fold suffering of humanity. The \"three sufferings\" (tapatraya) are suffering arising from one's own body and mind, from other beings, and from natural forces.",
+          "wordMeaning": "The Bhagavata opens with a declaration of its purpose: to present dharma freed from all ulterior motives, to reveal the real nature of things (vastu), and to uproot the three-fold suffering of humanity. The \"three sufferings\" (tapatraya) are suffering arising from one's own body and mind, from other beings, and from natural forces."
+        },
+        {
+          "number": "1.3",
+          "sanskrit": "स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे | अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ||",
+          "transliteration": "sa vai puṃsāṃ paro dharmo yato bhaktiradhokṣaje | ahaituk yapratihata yayātmā samprasīdati ||",
+          "translation": "The supreme dharma for humanity is that which produces unmotivated and uninterrupted devotion to God — by which the Self attains complete contentment.",
+          "hindi": "मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।",
+          "commentary": "The Bhagavata's revolutionary thesis: the highest religion is not ritual, study, or even moral action — it is pure, unmotivated, unbroken love for the divine. Not \"I worship God for this blessing\" or \"I pray to avoid that suffering\" — but love with no agenda. This love (bhakti) produces the deepest contentment (prasada) possible.",
+          "wordMeaning": "The Bhagavata's revolutionary thesis: the highest religion is not ritual, study, or even moral action — it is pure, unmotivated, unbroken love for the divine. Not \"I worship God for this blessing\" or \"I pray to avoid that suffering\" — but love with no agenda. This love (bhakti) produces the deepest contentment (prasada) possible."
+        },
+        {
+          "number": "1.4",
+          "sanskrit": "भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् | नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ||",
+          "transliteration": "bhagavān bhaktibhāvena grāhyaḥ premagunairnṛṇām | nānyathā bhāvyate kvāpi yadi syādbrāhmasammataḥ ||",
+          "translation": "The Lord is to be grasped by human beings through the attitude of devotion — through the qualities of love. In no other way can He be known, even if one is a great Brahman.",
+          "hindi": "भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।",
+          "commentary": "The Bhagavata's consistent thesis: God is not grasped by intellectual achievement, ritual expertise, or social status — but by love. The story of Ambarisha confirms this: Ambarisha is not a sage or renunciant, but a king who loves God with his whole heart. When the greatest sage Durvasa curses him in rage, the curse bounces back because Ambarisha's devotion has made him untouchable.",
+          "wordMeaning": "The Bhagavata's consistent thesis: God is not grasped by intellectual achievement, ritual expertise, or social status — but by love. The story of Ambarisha confirms this: Ambarisha is not a sage or renunciant, but a king who loves God with his whole heart. When the greatest sage Durvasa curses him in rage, the curse bounces back because Ambarisha's devotion has made him untouchable."
+        },
+        {
+          "number": "1.5",
+          "sanskrit": "नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये | तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ||",
+          "transliteration": "nāyaṃ deho dehabhājāṃ nṛloke kaṣṭān kāmānarhat viḍbhujāṃ ye | tapo divyaṃ putrakā yena sattvaṃ śuddhyed yasmād brahmasaukhyaṃ tvanantam ||",
+          "translation": "This human body is not meant, O children, for pursuing the pleasures that even animals can enjoy with effort. It is meant for divine austerity by which the inner being is purified — from which comes the infinite joy of Brahman.",
+          "hindi": "हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।",
+          "commentary": "Rishabhadeva's teaching to his hundred sons — one of the most direct statements of the Bhagavata's central value: the human birth is rare and precious precisely because only humans can consciously pursue purification and liberation. To spend it on pleasure-seeking that any creature can pursue is a profound waste. This is not asceticism — it is recognition of unique potential.",
+          "wordMeaning": "Rishabhadeva's teaching to his hundred sons — one of the most direct statements of the Bhagavata's central value: the human birth is rare and precious precisely because only humans can consciously pursue purification and liberation. To spend it on pleasure-seeking that any creature can pursue is a profound waste. This is not asceticism — it is recognition of unique potential."
+        },
+        {
+          "number": "1.9",
+          "sanskrit": "यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा | न चान्तं विन्दते पुम्भिः परभावविशारदाः ||",
+          "transliteration": "yāṃ matiściodito yānti manasā karmaṇā girā | na cāntaṃ vindate pumbhiḥ parabhāvaviśāradāḥ ||",
+          "translation": "What the wise who are skilled in understanding the supreme being go toward — with mind, action, and speech — its end is not found by anyone.",
+          "hindi": "जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।",
+          "commentary": "Dhruva's story is the Bhagavata's icon of uncompromising, totality of aspiration. A five-year-old boy, rejected by his father, seeks God with all his heart — and finds not just comfort but the infinite. The verse encodes the paradox: the highest is sought with complete effort of mind, action, and speech — and yet its end is never found, because it is infinite. You can enter it entirely, but you cannot exhaust it.",
+          "wordMeaning": "Dhruva's story is the Bhagavata's icon of uncompromising, totality of aspiration. A five-year-old boy, rejected by his father, seeks God with all his heart — and finds not just comfort but the infinite. The verse encodes the paradox: the highest is sought with complete effort of mind, action, and speech — and yet its end is never found, because it is infinite. You can enter it entirely, but you cannot exhaust it."
+        },
+        {
+          "number": "1.13",
+          "sanskrit": "नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् | प्रणामो दुःखशमनस्तं नमामि हरिं परम् ||",
+          "transliteration": "nāmasaṃkīrtanaṃ yasya sarvapāpapraṇāśanam | praṇāmo duḥkhaśamanastam namāmi hariṃ param ||",
+          "translation": "The singing of whose name destroys all sin; whose salutation removes all sorrow — I bow to that Hari, the Supreme.",
+          "hindi": "जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।",
+          "commentary": "The Bhagavata closes as it opened: with devotion. The twelfth Skandha describes the deterioration of Kali Yuga — the loss of truth, the shortening of life, the coarsening of culture. It might seem like despair. But the Bhagavata's final message is the opposite: even in Kali Yuga, the Name is sufficient. What required lifetimes of austerity in other ages can be accomplished in Kali Yuga through kirtan alone. The deterioration of everything external is met by the invincible availability of the Name.",
+          "wordMeaning": "The Bhagavata closes as it opened: with devotion. The twelfth Skandha describes the deterioration of Kali Yuga — the loss of truth, the shortening of life, the coarsening of culture. It might seem like despair. But the Bhagavata's final message is the opposite: even in Kali Yuga, the Name is sufficient. What required lifetimes of austerity in other ages can be accomplished in Kali Yuga through kirtan alone. The deterioration of everything external is met by the invincible availability of the Name."
+        },
+        {
+          "number": "1.25",
+          "sanskrit": "सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव | सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ||",
+          "transliteration": "satsaṅgo muktaduḥsaṅgo hanti saṃsṛtimuddha | satsaṅgasya hi mahimā puṇyaślokānukīrtanam ||",
+          "translation": "The company of the holy — freed from bad association — destroys the cycle of birth and death. The greatness of such company is the praise of the blessed Lord.",
+          "hindi": "संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।",
+          "commentary": "Kapila's teaching on the transformative power of satsang — the company of those who are genuinely free. The Bhagavata makes the mechanism explicit: when you associate with those who praise God and embody dharma, their orientation becomes yours. You absorb not just their words but their state. The highest form of satsang, Kapila says, is itself the praise of the Lord — the activity that the holy engage in together.",
+          "wordMeaning": "Kapila's teaching on the transformative power of satsang — the company of those who are genuinely free. The Bhagavata makes the mechanism explicit: when you associate with those who praise God and embody dharma, their orientation becomes yours. You absorb not just their words but their state. The highest form of satsang, Kapila says, is itself the praise of the Lord — the activity that the holy engage in together."
+        },
+        {
+          "number": "1.47",
+          "sanskrit": "मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् | यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ||",
+          "transliteration": "manye'bhimukhīkṛto'rkaḥ pṛthivyāṃ mānuṣīmatanom | yadvandanāt sukhaṃ bhūyaḥ prapedye yatra kṛṣṇastat ||",
+          "translation": "I consider the sun itself to have turned toward earth, taking human form — by whose salutation I attained a joy that is more than this world's joy. That is where Krishna is.",
+          "hindi": "मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।",
+          "commentary": "The gopis' response to Uddhava — who has come from Krishna with a philosophical message — is one of the Bhagavata's most extraordinary passages. The gopis are not interested in philosophy. They have already arrived at the destination that philosophy points toward: they have no self separate from Krishna. Their love has dissolved the ego completely. Uddhava, the great philosopher and companion of Krishna, bows to the gopis and says he wishes to be born as a blade of grass in Vrindavan so the dust of their feet might touch him.",
+          "wordMeaning": "The gopis' response to Uddhava — who has come from Krishna with a philosophical message — is one of the Bhagavata's most extraordinary passages. The gopis are not interested in philosophy. They have already arrived at the destination that philosophy points toward: they have no self separate from Krishna. Their love has dissolved the ego completely. Uddhava, the great philosopher and companion of Krishna, bows to the gopis and says he wishes to be born as a blade of grass in Vrindavan so the dust of their feet might touch him."
+        }
+      ],
+      "titleSanskrit": "सप्तम स्कन्ध — प्रह्लाद चरित"
+    },
+    {
+      "number": 8,
+      "title": "Skandha 8 — Withdrawal of the Cosmic Creations",
+      "verses": [
+        {
+          "number": "1.1",
+          "sanskrit": "नमो नमस्तेऽखिलकारणाय निष्कारणायाद्भुतकारणाय | सर्वागमाम्नायमहार्णवाय नमोपवर्गाय परायणाय ||",
+          "transliteration": "namo namaste'khilakāraṇāya niṣkāraṇāyādbhutakāraṇāya | sarvāgamāmnāyamahārṇavāya namopavargāya parāyaṇāya ||",
+          "translation": "Salutations to You, the cause of all — who have no cause, whose causation is wondrous; You are the great ocean of all scriptural traditions; salutations to You, the final refuge, the supreme destination.",
+          "hindi": "आपको नमस्कार — सभी कारणों के कारण, जो स्वयं कारण-रहित हैं, जिनका कारण अद्भुत है। सभी शास्त्रों के महासमुद्र को नमस्कार; मुक्ति के और परम लक्ष्य को नमस्कार।",
+          "commentary": "Gajendra's prayer is among the most celebrated in the Bhagavata. After a thousand years of struggle against the crocodile, Gajendra's pride as the king of elephants finally breaks. With nothing left — no strategy, no strength, no allies — he simply calls out to God with absolute surrender. The prayer he offers is profound theology: God as the cause of all causes, who has no cause, whose very causation is beyond comprehension. But more than the theology is the state from which it arises: total, egoless need.",
+          "wordMeaning": "Gajendra's prayer is among the most celebrated in the Bhagavata. After a thousand years of struggle against the crocodile, Gajendra's pride as the king of elephants finally breaks. With nothing left — no strategy, no strength, no allies — he simply calls out to God with absolute surrender. The prayer he offers is profound theology: God as the cause of all causes, who has no cause, whose very causation is beyond comprehension. But more than the theology is the state from which it arises: total, egoless need."
+        },
+        {
+          "number": "1.2",
+          "sanskrit": "धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां | वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ||",
+          "transliteration": "dharmaḥ projjhitakaitavo'tra paramo nirmatsarāṇāṃ satāṃ | vedyaṃ vāstavamattra vastu śivadaṃ tāpatrayonmūlanam ||",
+          "translation": "Here is the highest dharma — completely free from all deceit — for the pure-hearted. Herein is the real good to be known: that which is auspicious and which uproots the three-fold suffering.",
+          "hindi": "यहाँ (इस ग्रंथ में) निर्मत्सर साधुजनों के लिए सर्वोच्च धर्म वर्णित है — जो कपट-रहित है। यहाँ वास्तविक तत्त्व जाना जाता है — जो कल्याणकारक है और त्रिताप (आधि-व्याधि-उपाधि) को नष्ट करता है।",
+          "commentary": "The Bhagavata opens with a declaration of its purpose: to present dharma freed from all ulterior motives, to reveal the real nature of things (vastu), and to uproot the three-fold suffering of humanity. The \"three sufferings\" (tapatraya) are suffering arising from one's own body and mind, from other beings, and from natural forces.",
+          "wordMeaning": "The Bhagavata opens with a declaration of its purpose: to present dharma freed from all ulterior motives, to reveal the real nature of things (vastu), and to uproot the three-fold suffering of humanity. The \"three sufferings\" (tapatraya) are suffering arising from one's own body and mind, from other beings, and from natural forces."
+        },
+        {
+          "number": "1.4",
+          "sanskrit": "भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् | नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ||",
+          "transliteration": "bhagavān bhaktibhāvena grāhyaḥ premagunairnṛṇām | nānyathā bhāvyate kvāpi yadi syādbrāhmasammataḥ ||",
+          "translation": "The Lord is to be grasped by human beings through the attitude of devotion — through the qualities of love. In no other way can He be known, even if one is a great Brahman.",
+          "hindi": "भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।",
+          "commentary": "The Bhagavata's consistent thesis: God is not grasped by intellectual achievement, ritual expertise, or social status — but by love. The story of Ambarisha confirms this: Ambarisha is not a sage or renunciant, but a king who loves God with his whole heart. When the greatest sage Durvasa curses him in rage, the curse bounces back because Ambarisha's devotion has made him untouchable.",
+          "wordMeaning": "The Bhagavata's consistent thesis: God is not grasped by intellectual achievement, ritual expertise, or social status — but by love. The story of Ambarisha confirms this: Ambarisha is not a sage or renunciant, but a king who loves God with his whole heart. When the greatest sage Durvasa curses him in rage, the curse bounces back because Ambarisha's devotion has made him untouchable."
+        },
+        {
+          "number": "1.5",
+          "sanskrit": "नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये | तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ||",
+          "transliteration": "nāyaṃ deho dehabhājāṃ nṛloke kaṣṭān kāmānarhat viḍbhujāṃ ye | tapo divyaṃ putrakā yena sattvaṃ śuddhyed yasmād brahmasaukhyaṃ tvanantam ||",
+          "translation": "This human body is not meant, O children, for pursuing the pleasures that even animals can enjoy with effort. It is meant for divine austerity by which the inner being is purified — from which comes the infinite joy of Brahman.",
+          "hindi": "हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।",
+          "commentary": "Rishabhadeva's teaching to his hundred sons — one of the most direct statements of the Bhagavata's central value: the human birth is rare and precious precisely because only humans can consciously pursue purification and liberation. To spend it on pleasure-seeking that any creature can pursue is a profound waste. This is not asceticism — it is recognition of unique potential.",
+          "wordMeaning": "Rishabhadeva's teaching to his hundred sons — one of the most direct statements of the Bhagavata's central value: the human birth is rare and precious precisely because only humans can consciously pursue purification and liberation. To spend it on pleasure-seeking that any creature can pursue is a profound waste. This is not asceticism — it is recognition of unique potential."
+        },
+        {
+          "number": "1.9",
+          "sanskrit": "यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा | न चान्तं विन्दते पुम्भिः परभावविशारदाः ||",
+          "transliteration": "yāṃ matiściodito yānti manasā karmaṇā girā | na cāntaṃ vindate pumbhiḥ parabhāvaviśāradāḥ ||",
+          "translation": "What the wise who are skilled in understanding the supreme being go toward — with mind, action, and speech — its end is not found by anyone.",
+          "hindi": "जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।",
+          "commentary": "Dhruva's story is the Bhagavata's icon of uncompromising, totality of aspiration. A five-year-old boy, rejected by his father, seeks God with all his heart — and finds not just comfort but the infinite. The verse encodes the paradox: the highest is sought with complete effort of mind, action, and speech — and yet its end is never found, because it is infinite. You can enter it entirely, but you cannot exhaust it.",
+          "wordMeaning": "Dhruva's story is the Bhagavata's icon of uncompromising, totality of aspiration. A five-year-old boy, rejected by his father, seeks God with all his heart — and finds not just comfort but the infinite. The verse encodes the paradox: the highest is sought with complete effort of mind, action, and speech — and yet its end is never found, because it is infinite. You can enter it entirely, but you cannot exhaust it."
+        },
+        {
+          "number": "1.13",
+          "sanskrit": "नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् | प्रणामो दुःखशमनस्तं नमामि हरिं परम् ||",
+          "transliteration": "nāmasaṃkīrtanaṃ yasya sarvapāpapraṇāśanam | praṇāmo duḥkhaśamanastam namāmi hariṃ param ||",
+          "translation": "The singing of whose name destroys all sin; whose salutation removes all sorrow — I bow to that Hari, the Supreme.",
+          "hindi": "जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।",
+          "commentary": "The Bhagavata closes as it opened: with devotion. The twelfth Skandha describes the deterioration of Kali Yuga — the loss of truth, the shortening of life, the coarsening of culture. It might seem like despair. But the Bhagavata's final message is the opposite: even in Kali Yuga, the Name is sufficient. What required lifetimes of austerity in other ages can be accomplished in Kali Yuga through kirtan alone. The deterioration of everything external is met by the invincible availability of the Name.",
+          "wordMeaning": "The Bhagavata closes as it opened: with devotion. The twelfth Skandha describes the deterioration of Kali Yuga — the loss of truth, the shortening of life, the coarsening of culture. It might seem like despair. But the Bhagavata's final message is the opposite: even in Kali Yuga, the Name is sufficient. What required lifetimes of austerity in other ages can be accomplished in Kali Yuga through kirtan alone. The deterioration of everything external is met by the invincible availability of the Name."
+        },
+        {
+          "number": "1.25",
+          "sanskrit": "सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव | सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ||",
+          "transliteration": "satsaṅgo muktaduḥsaṅgo hanti saṃsṛtimuddha | satsaṅgasya hi mahimā puṇyaślokānukīrtanam ||",
+          "translation": "The company of the holy — freed from bad association — destroys the cycle of birth and death. The greatness of such company is the praise of the blessed Lord.",
+          "hindi": "संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।",
+          "commentary": "Kapila's teaching on the transformative power of satsang — the company of those who are genuinely free. The Bhagavata makes the mechanism explicit: when you associate with those who praise God and embody dharma, their orientation becomes yours. You absorb not just their words but their state. The highest form of satsang, Kapila says, is itself the praise of the Lord — the activity that the holy engage in together.",
+          "wordMeaning": "Kapila's teaching on the transformative power of satsang — the company of those who are genuinely free. The Bhagavata makes the mechanism explicit: when you associate with those who praise God and embody dharma, their orientation becomes yours. You absorb not just their words but their state. The highest form of satsang, Kapila says, is itself the praise of the Lord — the activity that the holy engage in together."
+        },
+        {
+          "number": "5.47",
+          "sanskrit": "मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् | यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ||",
+          "transliteration": "manye'bhimukhīkṛto'rkaḥ pṛthivyāṃ mānuṣīmatanom | yadvandanāt sukhaṃ bhūyaḥ prapedye yatra kṛṣṇastat ||",
+          "translation": "I consider the sun itself to have turned toward earth, taking human form — by whose salutation I attained a joy that is more than this world's joy. That is where Krishna is.",
+          "hindi": "मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।",
+          "commentary": "The gopis' response to Uddhava — who has come from Krishna with a philosophical message — is one of the Bhagavata's most extraordinary passages. The gopis are not interested in philosophy. They have already arrived at the destination that philosophy points toward: they have no self separate from Krishna. Their love has dissolved the ego completely. Uddhava, the great philosopher and companion of Krishna, bows to the gopis and says he wishes to be born as a blade of grass in Vrindavan so the dust of their feet might touch him.",
+          "wordMeaning": "The gopis' response to Uddhava — who has come from Krishna with a philosophical message — is one of the Bhagavata's most extraordinary passages. The gopis are not interested in philosophy. They have already arrived at the destination that philosophy points toward: they have no self separate from Krishna. Their love has dissolved the ego completely. Uddhava, the great philosopher and companion of Krishna, bows to the gopis and says he wishes to be born as a blade of grass in Vrindavan so the dust of their feet might touch him."
+        }
+      ],
+      "titleSanskrit": "अष्टम स्कन्ध"
+    },
+    {
+      "number": 9,
+      "title": "Skandha 9 — Liberation",
+      "verses": [
+        {
+          "number": "1.1",
+          "sanskrit": "भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् | नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ||",
+          "transliteration": "bhagavān bhaktibhāvena grāhyaḥ premagunairnṛṇām | nānyathā bhāvyate kvāpi yadi syādbrāhmasammataḥ ||",
+          "translation": "The Lord is to be grasped by human beings through the attitude of devotion — through the qualities of love. In no other way can He be known, even if one is a great Brahman.",
+          "hindi": "भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।",
+          "commentary": "The Bhagavata's consistent thesis: God is not grasped by intellectual achievement, ritual expertise, or social status — but by love. The story of Ambarisha confirms this: Ambarisha is not a sage or renunciant, but a king who loves God with his whole heart. When the greatest sage Durvasa curses him in rage, the curse bounces back because Ambarisha's devotion has made him untouchable.",
+          "wordMeaning": "The Bhagavata's consistent thesis: God is not grasped by intellectual achievement, ritual expertise, or social status — but by love. The story of Ambarisha confirms this: Ambarisha is not a sage or renunciant, but a king who loves God with his whole heart. When the greatest sage Durvasa curses him in rage, the curse bounces back because Ambarisha's devotion has made him untouchable."
+        },
+        {
+          "number": "1.2",
+          "sanskrit": "धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां | वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ||",
+          "transliteration": "dharmaḥ projjhitakaitavo'tra paramo nirmatsarāṇāṃ satāṃ | vedyaṃ vāstavamattra vastu śivadaṃ tāpatrayonmūlanam ||",
+          "translation": "Here is the highest dharma — completely free from all deceit — for the pure-hearted. Herein is the real good to be known: that which is auspicious and which uproots the three-fold suffering.",
+          "hindi": "यहाँ (इस ग्रंथ में) निर्मत्सर साधुजनों के लिए सर्वोच्च धर्म वर्णित है — जो कपट-रहित है। यहाँ वास्तविक तत्त्व जाना जाता है — जो कल्याणकारक है और त्रिताप (आधि-व्याधि-उपाधि) को नष्ट करता है।",
+          "commentary": "The Bhagavata opens with a declaration of its purpose: to present dharma freed from all ulterior motives, to reveal the real nature of things (vastu), and to uproot the three-fold suffering of humanity. The \"three sufferings\" (tapatraya) are suffering arising from one's own body and mind, from other beings, and from natural forces.",
+          "wordMeaning": "The Bhagavata opens with a declaration of its purpose: to present dharma freed from all ulterior motives, to reveal the real nature of things (vastu), and to uproot the three-fold suffering of humanity. The \"three sufferings\" (tapatraya) are suffering arising from one's own body and mind, from other beings, and from natural forces."
+        },
+        {
+          "number": "1.3",
+          "sanskrit": "स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे | अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ||",
+          "transliteration": "sa vai puṃsāṃ paro dharmo yato bhaktiradhokṣaje | ahaituk yapratihata yayātmā samprasīdati ||",
+          "translation": "The supreme dharma for humanity is that which produces unmotivated and uninterrupted devotion to God — by which the Self attains complete contentment.",
+          "hindi": "मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।",
+          "commentary": "The Bhagavata's revolutionary thesis: the highest religion is not ritual, study, or even moral action — it is pure, unmotivated, unbroken love for the divine. Not \"I worship God for this blessing\" or \"I pray to avoid that suffering\" — but love with no agenda. This love (bhakti) produces the deepest contentment (prasada) possible.",
+          "wordMeaning": "The Bhagavata's revolutionary thesis: the highest religion is not ritual, study, or even moral action — it is pure, unmotivated, unbroken love for the divine. Not \"I worship God for this blessing\" or \"I pray to avoid that suffering\" — but love with no agenda. This love (bhakti) produces the deepest contentment (prasada) possible."
+        },
+        {
+          "number": "1.5",
+          "sanskrit": "नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये | तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ||",
+          "transliteration": "nāyaṃ deho dehabhājāṃ nṛloke kaṣṭān kāmānarhat viḍbhujāṃ ye | tapo divyaṃ putrakā yena sattvaṃ śuddhyed yasmād brahmasaukhyaṃ tvanantam ||",
+          "translation": "This human body is not meant, O children, for pursuing the pleasures that even animals can enjoy with effort. It is meant for divine austerity by which the inner being is purified — from which comes the infinite joy of Brahman.",
+          "hindi": "हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।",
+          "commentary": "Rishabhadeva's teaching to his hundred sons — one of the most direct statements of the Bhagavata's central value: the human birth is rare and precious precisely because only humans can consciously pursue purification and liberation. To spend it on pleasure-seeking that any creature can pursue is a profound waste. This is not asceticism — it is recognition of unique potential.",
+          "wordMeaning": "Rishabhadeva's teaching to his hundred sons — one of the most direct statements of the Bhagavata's central value: the human birth is rare and precious precisely because only humans can consciously pursue purification and liberation. To spend it on pleasure-seeking that any creature can pursue is a profound waste. This is not asceticism — it is recognition of unique potential."
+        },
+        {
+          "number": "1.9",
+          "sanskrit": "यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा | न चान्तं विन्दते पुम्भिः परभावविशारदाः ||",
+          "transliteration": "yāṃ matiściodito yānti manasā karmaṇā girā | na cāntaṃ vindate pumbhiḥ parabhāvaviśāradāḥ ||",
+          "translation": "What the wise who are skilled in understanding the supreme being go toward — with mind, action, and speech — its end is not found by anyone.",
+          "hindi": "जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।",
+          "commentary": "Dhruva's story is the Bhagavata's icon of uncompromising, totality of aspiration. A five-year-old boy, rejected by his father, seeks God with all his heart — and finds not just comfort but the infinite. The verse encodes the paradox: the highest is sought with complete effort of mind, action, and speech — and yet its end is never found, because it is infinite. You can enter it entirely, but you cannot exhaust it.",
+          "wordMeaning": "Dhruva's story is the Bhagavata's icon of uncompromising, totality of aspiration. A five-year-old boy, rejected by his father, seeks God with all his heart — and finds not just comfort but the infinite. The verse encodes the paradox: the highest is sought with complete effort of mind, action, and speech — and yet its end is never found, because it is infinite. You can enter it entirely, but you cannot exhaust it."
+        },
+        {
+          "number": "1.13",
+          "sanskrit": "नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् | प्रणामो दुःखशमनस्तं नमामि हरिं परम् ||",
+          "transliteration": "nāmasaṃkīrtanaṃ yasya sarvapāpapraṇāśanam | praṇāmo duḥkhaśamanastam namāmi hariṃ param ||",
+          "translation": "The singing of whose name destroys all sin; whose salutation removes all sorrow — I bow to that Hari, the Supreme.",
+          "hindi": "जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।",
+          "commentary": "The Bhagavata closes as it opened: with devotion. The twelfth Skandha describes the deterioration of Kali Yuga — the loss of truth, the shortening of life, the coarsening of culture. It might seem like despair. But the Bhagavata's final message is the opposite: even in Kali Yuga, the Name is sufficient. What required lifetimes of austerity in other ages can be accomplished in Kali Yuga through kirtan alone. The deterioration of everything external is met by the invincible availability of the Name.",
+          "wordMeaning": "The Bhagavata closes as it opened: with devotion. The twelfth Skandha describes the deterioration of Kali Yuga — the loss of truth, the shortening of life, the coarsening of culture. It might seem like despair. But the Bhagavata's final message is the opposite: even in Kali Yuga, the Name is sufficient. What required lifetimes of austerity in other ages can be accomplished in Kali Yuga through kirtan alone. The deterioration of everything external is met by the invincible availability of the Name."
+        },
+        {
+          "number": "1.25",
+          "sanskrit": "सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव | सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ||",
+          "transliteration": "satsaṅgo muktaduḥsaṅgo hanti saṃsṛtimuddha | satsaṅgasya hi mahimā puṇyaślokānukīrtanam ||",
+          "translation": "The company of the holy — freed from bad association — destroys the cycle of birth and death. The greatness of such company is the praise of the blessed Lord.",
+          "hindi": "संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।",
+          "commentary": "Kapila's teaching on the transformative power of satsang — the company of those who are genuinely free. The Bhagavata makes the mechanism explicit: when you associate with those who praise God and embody dharma, their orientation becomes yours. You absorb not just their words but their state. The highest form of satsang, Kapila says, is itself the praise of the Lord — the activity that the holy engage in together.",
+          "wordMeaning": "Kapila's teaching on the transformative power of satsang — the company of those who are genuinely free. The Bhagavata makes the mechanism explicit: when you associate with those who praise God and embody dharma, their orientation becomes yours. You absorb not just their words but their state. The highest form of satsang, Kapila says, is itself the praise of the Lord — the activity that the holy engage in together."
+        },
+        {
+          "number": "4.47",
+          "sanskrit": "मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् | यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ||",
+          "transliteration": "manye'bhimukhīkṛto'rkaḥ pṛthivyāṃ mānuṣīmatanom | yadvandanāt sukhaṃ bhūyaḥ prapedye yatra kṛṣṇastat ||",
+          "translation": "I consider the sun itself to have turned toward earth, taking human form — by whose salutation I attained a joy that is more than this world's joy. That is where Krishna is.",
+          "hindi": "मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।",
+          "commentary": "The gopis' response to Uddhava — who has come from Krishna with a philosophical message — is one of the Bhagavata's most extraordinary passages. The gopis are not interested in philosophy. They have already arrived at the destination that philosophy points toward: they have no self separate from Krishna. Their love has dissolved the ego completely. Uddhava, the great philosopher and companion of Krishna, bows to the gopis and says he wishes to be born as a blade of grass in Vrindavan so the dust of their feet might touch him.",
+          "wordMeaning": "The gopis' response to Uddhava — who has come from Krishna with a philosophical message — is one of the Bhagavata's most extraordinary passages. The gopis are not interested in philosophy. They have already arrived at the destination that philosophy points toward: they have no self separate from Krishna. Their love has dissolved the ego completely. Uddhava, the great philosopher and companion of Krishna, bows to the gopis and says he wishes to be born as a blade of grass in Vrindavan so the dust of their feet might touch him."
+        }
+      ],
+      "titleSanskrit": "नवम स्कन्ध"
+    },
+    {
+      "number": 10,
+      "title": "Skandha 10 — Summum Bonum (Part 1)",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "जातो गतः पितृगृहाद्व्रजमेधितार्थः हित्वा यदून् सुहृदो रुक्मवतीः सुतांश्च | विप्रोपसृष्टमपि शाङ्गभृदहं रराम स्वच्छन्दतोऽहमजितो हृदयाब्जदृष्टः ||",
+          "transliteration": "jāto gataḥ pitṛgṛhādvrajamedhitārthaḥ hitvā yadūn suhṛdo rukmavatīḥ sutāṃśca | viproprasṛṣṭamapi śārṅgabhṛdahaṃ rarāma svacchandato'hamajito hṛdayābjadṛṣṭaḥ ||",
+          "translation": "Born and quickly taken from his father's house to Vraja for a great purpose; abandoning the Yadu princes, friends, golden wives, and sons; even when invoked by sages I, the bearer of the Sharanga bow, played freely — unconquered, seen only in the lotus of the heart.",
+          "hindi": "जन्म लेकर तुरन्त पिता के गृह से व्रज को महान् प्रयोजन से चले गए; यदुवंश, मित्र, सोने के समान पत्नियाँ और पुत्रों को छोड़कर; ऋषियों द्वारा बुलाए जाने पर भी शाङ्ग-धारी मैं स्वच्छंद विहार करता हूँ — अजेय, हृदय-कमल में ही दृष्ट।",
+          "commentary": "A condensed statement of Krishna's entire avatar. He moves freely between roles — child, lover, prince, charioteer, sage — never bound to any one of them. The deepest truth: he is \"ajita\" (unconquered) and \"hridaya-abja-drishtah\" (seen only in the lotus of the heart). The external story is captivating, but the real Krishna is only ever encountered within. The Rasa Lila is not just a narrative; it is an icon of the soul's play within the divine.",
+          "wordMeaning": "A condensed statement of Krishna's entire avatar. He moves freely between roles — child, lover, prince, charioteer, sage — never bound to any one of them. The deepest truth: he is \"ajita\" (unconquered) and \"hridaya-abja-drishtah\" (seen only in the lotus of the heart). The external story is captivating, but the real Krishna is only ever encountered within. The Rasa Lila is not just a narrative; it is an icon of the soul's play within the divine."
+        },
+        {
+          "number": "1.2",
+          "sanskrit": "धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां | वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ||",
+          "transliteration": "dharmaḥ projjhitakaitavo'tra paramo nirmatsarāṇāṃ satāṃ | vedyaṃ vāstavamattra vastu śivadaṃ tāpatrayonmūlanam ||",
+          "translation": "Here is the highest dharma — completely free from all deceit — for the pure-hearted. Herein is the real good to be known: that which is auspicious and which uproots the three-fold suffering.",
+          "hindi": "यहाँ (इस ग्रंथ में) निर्मत्सर साधुजनों के लिए सर्वोच्च धर्म वर्णित है — जो कपट-रहित है। यहाँ वास्तविक तत्त्व जाना जाता है — जो कल्याणकारक है और त्रिताप (आधि-व्याधि-उपाधि) को नष्ट करता है।",
+          "commentary": "The Bhagavata opens with a declaration of its purpose: to present dharma freed from all ulterior motives, to reveal the real nature of things (vastu), and to uproot the three-fold suffering of humanity. The \"three sufferings\" (tapatraya) are suffering arising from one's own body and mind, from other beings, and from natural forces.",
+          "wordMeaning": "The Bhagavata opens with a declaration of its purpose: to present dharma freed from all ulterior motives, to reveal the real nature of things (vastu), and to uproot the three-fold suffering of humanity. The \"three sufferings\" (tapatraya) are suffering arising from one's own body and mind, from other beings, and from natural forces."
+        },
+        {
+          "number": "1.3",
+          "sanskrit": "स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे | अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ||",
+          "transliteration": "sa vai puṃsāṃ paro dharmo yato bhaktiradhokṣaje | ahaituk yapratihata yayātmā samprasīdati ||",
+          "translation": "The supreme dharma for humanity is that which produces unmotivated and uninterrupted devotion to God — by which the Self attains complete contentment.",
+          "hindi": "मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।",
+          "commentary": "The Bhagavata's revolutionary thesis: the highest religion is not ritual, study, or even moral action — it is pure, unmotivated, unbroken love for the divine. Not \"I worship God for this blessing\" or \"I pray to avoid that suffering\" — but love with no agenda. This love (bhakti) produces the deepest contentment (prasada) possible.",
+          "wordMeaning": "The Bhagavata's revolutionary thesis: the highest religion is not ritual, study, or even moral action — it is pure, unmotivated, unbroken love for the divine. Not \"I worship God for this blessing\" or \"I pray to avoid that suffering\" — but love with no agenda. This love (bhakti) produces the deepest contentment (prasada) possible."
+        },
+        {
+          "number": "1.4",
+          "sanskrit": "भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् | नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ||",
+          "transliteration": "bhagavān bhaktibhāvena grāhyaḥ premagunairnṛṇām | nānyathā bhāvyate kvāpi yadi syādbrāhmasammataḥ ||",
+          "translation": "The Lord is to be grasped by human beings through the attitude of devotion — through the qualities of love. In no other way can He be known, even if one is a great Brahman.",
+          "hindi": "भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।",
+          "commentary": "The Bhagavata's consistent thesis: God is not grasped by intellectual achievement, ritual expertise, or social status — but by love. The story of Ambarisha confirms this: Ambarisha is not a sage or renunciant, but a king who loves God with his whole heart. When the greatest sage Durvasa curses him in rage, the curse bounces back because Ambarisha's devotion has made him untouchable.",
+          "wordMeaning": "The Bhagavata's consistent thesis: God is not grasped by intellectual achievement, ritual expertise, or social status — but by love. The story of Ambarisha confirms this: Ambarisha is not a sage or renunciant, but a king who loves God with his whole heart. When the greatest sage Durvasa curses him in rage, the curse bounces back because Ambarisha's devotion has made him untouchable."
+        },
+        {
+          "number": "1.5",
+          "sanskrit": "नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये | तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ||",
+          "transliteration": "nāyaṃ deho dehabhājāṃ nṛloke kaṣṭān kāmānarhat viḍbhujāṃ ye | tapo divyaṃ putrakā yena sattvaṃ śuddhyed yasmād brahmasaukhyaṃ tvanantam ||",
+          "translation": "This human body is not meant, O children, for pursuing the pleasures that even animals can enjoy with effort. It is meant for divine austerity by which the inner being is purified — from which comes the infinite joy of Brahman.",
+          "hindi": "हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।",
+          "commentary": "Rishabhadeva's teaching to his hundred sons — one of the most direct statements of the Bhagavata's central value: the human birth is rare and precious precisely because only humans can consciously pursue purification and liberation. To spend it on pleasure-seeking that any creature can pursue is a profound waste. This is not asceticism — it is recognition of unique potential.",
+          "wordMeaning": "Rishabhadeva's teaching to his hundred sons — one of the most direct statements of the Bhagavata's central value: the human birth is rare and precious precisely because only humans can consciously pursue purification and liberation. To spend it on pleasure-seeking that any creature can pursue is a profound waste. This is not asceticism — it is recognition of unique potential."
+        },
+        {
+          "number": "1.9",
+          "sanskrit": "यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा | न चान्तं विन्दते पुम्भिः परभावविशारदाः ||",
+          "transliteration": "yāṃ matiściodito yānti manasā karmaṇā girā | na cāntaṃ vindate pumbhiḥ parabhāvaviśāradāḥ ||",
+          "translation": "What the wise who are skilled in understanding the supreme being go toward — with mind, action, and speech — its end is not found by anyone.",
+          "hindi": "जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।",
+          "commentary": "Dhruva's story is the Bhagavata's icon of uncompromising, totality of aspiration. A five-year-old boy, rejected by his father, seeks God with all his heart — and finds not just comfort but the infinite. The verse encodes the paradox: the highest is sought with complete effort of mind, action, and speech — and yet its end is never found, because it is infinite. You can enter it entirely, but you cannot exhaust it.",
+          "wordMeaning": "Dhruva's story is the Bhagavata's icon of uncompromising, totality of aspiration. A five-year-old boy, rejected by his father, seeks God with all his heart — and finds not just comfort but the infinite. The verse encodes the paradox: the highest is sought with complete effort of mind, action, and speech — and yet its end is never found, because it is infinite. You can enter it entirely, but you cannot exhaust it."
+        },
+        {
+          "number": "1.13",
+          "sanskrit": "नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् | प्रणामो दुःखशमनस्तं नमामि हरिं परम् ||",
+          "transliteration": "nāmasaṃkīrtanaṃ yasya sarvapāpapraṇāśanam | praṇāmo duḥkhaśamanastam namāmi hariṃ param ||",
+          "translation": "The singing of whose name destroys all sin; whose salutation removes all sorrow — I bow to that Hari, the Supreme.",
+          "hindi": "जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।",
+          "commentary": "The Bhagavata closes as it opened: with devotion. The twelfth Skandha describes the deterioration of Kali Yuga — the loss of truth, the shortening of life, the coarsening of culture. It might seem like despair. But the Bhagavata's final message is the opposite: even in Kali Yuga, the Name is sufficient. What required lifetimes of austerity in other ages can be accomplished in Kali Yuga through kirtan alone. The deterioration of everything external is met by the invincible availability of the Name.",
+          "wordMeaning": "The Bhagavata closes as it opened: with devotion. The twelfth Skandha describes the deterioration of Kali Yuga — the loss of truth, the shortening of life, the coarsening of culture. It might seem like despair. But the Bhagavata's final message is the opposite: even in Kali Yuga, the Name is sufficient. What required lifetimes of austerity in other ages can be accomplished in Kali Yuga through kirtan alone. The deterioration of everything external is met by the invincible availability of the Name."
+        },
+        {
+          "number": "1.25",
+          "sanskrit": "सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव | सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ||",
+          "transliteration": "satsaṅgo muktaduḥsaṅgo hanti saṃsṛtimuddha | satsaṅgasya hi mahimā puṇyaślokānukīrtanam ||",
+          "translation": "The company of the holy — freed from bad association — destroys the cycle of birth and death. The greatness of such company is the praise of the blessed Lord.",
+          "hindi": "संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।",
+          "commentary": "Kapila's teaching on the transformative power of satsang — the company of those who are genuinely free. The Bhagavata makes the mechanism explicit: when you associate with those who praise God and embody dharma, their orientation becomes yours. You absorb not just their words but their state. The highest form of satsang, Kapila says, is itself the praise of the Lord — the activity that the holy engage in together.",
+          "wordMeaning": "Kapila's teaching on the transformative power of satsang — the company of those who are genuinely free. The Bhagavata makes the mechanism explicit: when you associate with those who praise God and embody dharma, their orientation becomes yours. You absorb not just their words but their state. The highest form of satsang, Kapila says, is itself the praise of the Lord — the activity that the holy engage in together."
+        },
+        {
+          "number": "1.47",
+          "sanskrit": "मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् | यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ||",
+          "transliteration": "manye'bhimukhīkṛto'rkaḥ pṛthivyāṃ mānuṣīmatanom | yadvandanāt sukhaṃ bhūyaḥ prapedye yatra kṛṣṇastat ||",
+          "translation": "I consider the sun itself to have turned toward earth, taking human form — by whose salutation I attained a joy that is more than this world's joy. That is where Krishna is.",
+          "hindi": "मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।",
+          "commentary": "The gopis' response to Uddhava — who has come from Krishna with a philosophical message — is one of the Bhagavata's most extraordinary passages. The gopis are not interested in philosophy. They have already arrived at the destination that philosophy points toward: they have no self separate from Krishna. Their love has dissolved the ego completely. Uddhava, the great philosopher and companion of Krishna, bows to the gopis and says he wishes to be born as a blade of grass in Vrindavan so the dust of their feet might touch him.",
+          "wordMeaning": "The gopis' response to Uddhava — who has come from Krishna with a philosophical message — is one of the Bhagavata's most extraordinary passages. The gopis are not interested in philosophy. They have already arrived at the destination that philosophy points toward: they have no self separate from Krishna. Their love has dissolved the ego completely. Uddhava, the great philosopher and companion of Krishna, bows to the gopis and says he wishes to be born as a blade of grass in Vrindavan so the dust of their feet might touch him."
+        }
+      ],
+      "titleSanskrit": "दशम स्कन्ध — कृष्ण लीला (पूर्वार्ध)"
+    },
+    {
+      "number": 11,
+      "title": "Skandha 10 — Summum Bonum (Part 2)",
+      "verses": [
+        {
+          "number": "1.1",
+          "sanskrit": "मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् | यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ||",
+          "transliteration": "manye'bhimukhīkṛto'rkaḥ pṛthivyāṃ mānuṣīmatanom | yadvandanāt sukhaṃ bhūyaḥ prapedye yatra kṛṣṇastat ||",
+          "translation": "I consider the sun itself to have turned toward earth, taking human form — by whose salutation I attained a joy that is more than this world's joy. That is where Krishna is.",
+          "hindi": "मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।",
+          "commentary": "The gopis' response to Uddhava — who has come from Krishna with a philosophical message — is one of the Bhagavata's most extraordinary passages. The gopis are not interested in philosophy. They have already arrived at the destination that philosophy points toward: they have no self separate from Krishna. Their love has dissolved the ego completely. Uddhava, the great philosopher and companion of Krishna, bows to the gopis and says he wishes to be born as a blade of grass in Vrindavan so the dust of their feet might touch him.",
+          "wordMeaning": "The gopis' response to Uddhava — who has come from Krishna with a philosophical message — is one of the Bhagavata's most extraordinary passages. The gopis are not interested in philosophy. They have already arrived at the destination that philosophy points toward: they have no self separate from Krishna. Their love has dissolved the ego completely. Uddhava, the great philosopher and companion of Krishna, bows to the gopis and says he wishes to be born as a blade of grass in Vrindavan so the dust of their feet might touch him."
+        },
+        {
+          "number": "1.2",
+          "sanskrit": "धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां | वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ||",
+          "transliteration": "dharmaḥ projjhitakaitavo'tra paramo nirmatsarāṇāṃ satāṃ | vedyaṃ vāstavamattra vastu śivadaṃ tāpatrayonmūlanam ||",
+          "translation": "Here is the highest dharma — completely free from all deceit — for the pure-hearted. Herein is the real good to be known: that which is auspicious and which uproots the three-fold suffering.",
+          "hindi": "यहाँ (इस ग्रंथ में) निर्मत्सर साधुजनों के लिए सर्वोच्च धर्म वर्णित है — जो कपट-रहित है। यहाँ वास्तविक तत्त्व जाना जाता है — जो कल्याणकारक है और त्रिताप (आधि-व्याधि-उपाधि) को नष्ट करता है।",
+          "commentary": "The Bhagavata opens with a declaration of its purpose: to present dharma freed from all ulterior motives, to reveal the real nature of things (vastu), and to uproot the three-fold suffering of humanity. The \"three sufferings\" (tapatraya) are suffering arising from one's own body and mind, from other beings, and from natural forces.",
+          "wordMeaning": "The Bhagavata opens with a declaration of its purpose: to present dharma freed from all ulterior motives, to reveal the real nature of things (vastu), and to uproot the three-fold suffering of humanity. The \"three sufferings\" (tapatraya) are suffering arising from one's own body and mind, from other beings, and from natural forces."
+        },
+        {
+          "number": "1.3",
+          "sanskrit": "स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे | अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ||",
+          "transliteration": "sa vai puṃsāṃ paro dharmo yato bhaktiradhokṣaje | ahaituk yapratihata yayātmā samprasīdati ||",
+          "translation": "The supreme dharma for humanity is that which produces unmotivated and uninterrupted devotion to God — by which the Self attains complete contentment.",
+          "hindi": "मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।",
+          "commentary": "The Bhagavata's revolutionary thesis: the highest religion is not ritual, study, or even moral action — it is pure, unmotivated, unbroken love for the divine. Not \"I worship God for this blessing\" or \"I pray to avoid that suffering\" — but love with no agenda. This love (bhakti) produces the deepest contentment (prasada) possible.",
+          "wordMeaning": "The Bhagavata's revolutionary thesis: the highest religion is not ritual, study, or even moral action — it is pure, unmotivated, unbroken love for the divine. Not \"I worship God for this blessing\" or \"I pray to avoid that suffering\" — but love with no agenda. This love (bhakti) produces the deepest contentment (prasada) possible."
+        },
+        {
+          "number": "1.4",
+          "sanskrit": "भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् | नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ||",
+          "transliteration": "bhagavān bhaktibhāvena grāhyaḥ premagunairnṛṇām | nānyathā bhāvyate kvāpi yadi syādbrāhmasammataḥ ||",
+          "translation": "The Lord is to be grasped by human beings through the attitude of devotion — through the qualities of love. In no other way can He be known, even if one is a great Brahman.",
+          "hindi": "भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।",
+          "commentary": "The Bhagavata's consistent thesis: God is not grasped by intellectual achievement, ritual expertise, or social status — but by love. The story of Ambarisha confirms this: Ambarisha is not a sage or renunciant, but a king who loves God with his whole heart. When the greatest sage Durvasa curses him in rage, the curse bounces back because Ambarisha's devotion has made him untouchable.",
+          "wordMeaning": "The Bhagavata's consistent thesis: God is not grasped by intellectual achievement, ritual expertise, or social status — but by love. The story of Ambarisha confirms this: Ambarisha is not a sage or renunciant, but a king who loves God with his whole heart. When the greatest sage Durvasa curses him in rage, the curse bounces back because Ambarisha's devotion has made him untouchable."
+        },
+        {
+          "number": "1.5",
+          "sanskrit": "नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये | तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ||",
+          "transliteration": "nāyaṃ deho dehabhājāṃ nṛloke kaṣṭān kāmānarhat viḍbhujāṃ ye | tapo divyaṃ putrakā yena sattvaṃ śuddhyed yasmād brahmasaukhyaṃ tvanantam ||",
+          "translation": "This human body is not meant, O children, for pursuing the pleasures that even animals can enjoy with effort. It is meant for divine austerity by which the inner being is purified — from which comes the infinite joy of Brahman.",
+          "hindi": "हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।",
+          "commentary": "Rishabhadeva's teaching to his hundred sons — one of the most direct statements of the Bhagavata's central value: the human birth is rare and precious precisely because only humans can consciously pursue purification and liberation. To spend it on pleasure-seeking that any creature can pursue is a profound waste. This is not asceticism — it is recognition of unique potential.",
+          "wordMeaning": "Rishabhadeva's teaching to his hundred sons — one of the most direct statements of the Bhagavata's central value: the human birth is rare and precious precisely because only humans can consciously pursue purification and liberation. To spend it on pleasure-seeking that any creature can pursue is a profound waste. This is not asceticism — it is recognition of unique potential."
+        },
+        {
+          "number": "1.9",
+          "sanskrit": "यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा | न चान्तं विन्दते पुम्भिः परभावविशारदाः ||",
+          "transliteration": "yāṃ matiściodito yānti manasā karmaṇā girā | na cāntaṃ vindate pumbhiḥ parabhāvaviśāradāḥ ||",
+          "translation": "What the wise who are skilled in understanding the supreme being go toward — with mind, action, and speech — its end is not found by anyone.",
+          "hindi": "जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।",
+          "commentary": "Dhruva's story is the Bhagavata's icon of uncompromising, totality of aspiration. A five-year-old boy, rejected by his father, seeks God with all his heart — and finds not just comfort but the infinite. The verse encodes the paradox: the highest is sought with complete effort of mind, action, and speech — and yet its end is never found, because it is infinite. You can enter it entirely, but you cannot exhaust it.",
+          "wordMeaning": "Dhruva's story is the Bhagavata's icon of uncompromising, totality of aspiration. A five-year-old boy, rejected by his father, seeks God with all his heart — and finds not just comfort but the infinite. The verse encodes the paradox: the highest is sought with complete effort of mind, action, and speech — and yet its end is never found, because it is infinite. You can enter it entirely, but you cannot exhaust it."
+        },
+        {
+          "number": "1.13",
+          "sanskrit": "नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् | प्रणामो दुःखशमनस्तं नमामि हरिं परम् ||",
+          "transliteration": "nāmasaṃkīrtanaṃ yasya sarvapāpapraṇāśanam | praṇāmo duḥkhaśamanastam namāmi hariṃ param ||",
+          "translation": "The singing of whose name destroys all sin; whose salutation removes all sorrow — I bow to that Hari, the Supreme.",
+          "hindi": "जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।",
+          "commentary": "The Bhagavata closes as it opened: with devotion. The twelfth Skandha describes the deterioration of Kali Yuga — the loss of truth, the shortening of life, the coarsening of culture. It might seem like despair. But the Bhagavata's final message is the opposite: even in Kali Yuga, the Name is sufficient. What required lifetimes of austerity in other ages can be accomplished in Kali Yuga through kirtan alone. The deterioration of everything external is met by the invincible availability of the Name.",
+          "wordMeaning": "The Bhagavata closes as it opened: with devotion. The twelfth Skandha describes the deterioration of Kali Yuga — the loss of truth, the shortening of life, the coarsening of culture. It might seem like despair. But the Bhagavata's final message is the opposite: even in Kali Yuga, the Name is sufficient. What required lifetimes of austerity in other ages can be accomplished in Kali Yuga through kirtan alone. The deterioration of everything external is met by the invincible availability of the Name."
+        },
+        {
+          "number": "1.25",
+          "sanskrit": "सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव | सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ||",
+          "transliteration": "satsaṅgo muktaduḥsaṅgo hanti saṃsṛtimuddha | satsaṅgasya hi mahimā puṇyaślokānukīrtanam ||",
+          "translation": "The company of the holy — freed from bad association — destroys the cycle of birth and death. The greatness of such company is the praise of the blessed Lord.",
+          "hindi": "संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।",
+          "commentary": "Kapila's teaching on the transformative power of satsang — the company of those who are genuinely free. The Bhagavata makes the mechanism explicit: when you associate with those who praise God and embody dharma, their orientation becomes yours. You absorb not just their words but their state. The highest form of satsang, Kapila says, is itself the praise of the Lord — the activity that the holy engage in together.",
+          "wordMeaning": "Kapila's teaching on the transformative power of satsang — the company of those who are genuinely free. The Bhagavata makes the mechanism explicit: when you associate with those who praise God and embody dharma, their orientation becomes yours. You absorb not just their words but their state. The highest form of satsang, Kapila says, is itself the praise of the Lord — the activity that the holy engage in together."
+        }
+      ],
+      "titleSanskrit": "दशम स्कन्ध — कृष्ण लीला (उत्तरार्ध)"
+    },
+    {
+      "number": 12,
+      "title": "Skandha 11 — Uddhava Gita",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "न हि कल्याणकृत् कश्चिद् दुर्गतिं तात गच्छति ||",
+          "transliteration": "na hi kalyāṇakṛt kaścid durgatiṃ tāta gacchati ||",
+          "translation": "Verily, O dear one, no one who does good ever comes to grief.",
+          "hindi": "हे तात! जो व्यक्ति कल्याण (सद्कर्म) करता है, वह कभी दुर्गति को प्राप्त नहीं होता।",
+          "commentary": "One of the most reassuring verses in the entire Bhagavata — and indeed in all Indian literature. No one who sincerely does good — who acts with genuine care for what is right — ultimately comes to a bad end. This is not a promise of worldly success; it is a statement about the ultimate moral architecture of existence.",
+          "wordMeaning": "One of the most reassuring verses in the entire Bhagavata — and indeed in all Indian literature. No one who sincerely does good — who acts with genuine care for what is right — ultimately comes to a bad end. This is not a promise of worldly success; it is a statement about the ultimate moral architecture of existence."
+        },
+        {
+          "number": "1.2",
+          "sanskrit": "धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां | वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ||",
+          "transliteration": "dharmaḥ projjhitakaitavo'tra paramo nirmatsarāṇāṃ satāṃ | vedyaṃ vāstavamattra vastu śivadaṃ tāpatrayonmūlanam ||",
+          "translation": "Here is the highest dharma — completely free from all deceit — for the pure-hearted. Herein is the real good to be known: that which is auspicious and which uproots the three-fold suffering.",
+          "hindi": "यहाँ (इस ग्रंथ में) निर्मत्सर साधुजनों के लिए सर्वोच्च धर्म वर्णित है — जो कपट-रहित है। यहाँ वास्तविक तत्त्व जाना जाता है — जो कल्याणकारक है और त्रिताप (आधि-व्याधि-उपाधि) को नष्ट करता है।",
+          "commentary": "The Bhagavata opens with a declaration of its purpose: to present dharma freed from all ulterior motives, to reveal the real nature of things (vastu), and to uproot the three-fold suffering of humanity. The \"three sufferings\" (tapatraya) are suffering arising from one's own body and mind, from other beings, and from natural forces.",
+          "wordMeaning": "The Bhagavata opens with a declaration of its purpose: to present dharma freed from all ulterior motives, to reveal the real nature of things (vastu), and to uproot the three-fold suffering of humanity. The \"three sufferings\" (tapatraya) are suffering arising from one's own body and mind, from other beings, and from natural forces."
+        },
+        {
+          "number": "1.3",
+          "sanskrit": "स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे | अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ||",
+          "transliteration": "sa vai puṃsāṃ paro dharmo yato bhaktiradhokṣaje | ahaituk yapratihata yayātmā samprasīdati ||",
+          "translation": "The supreme dharma for humanity is that which produces unmotivated and uninterrupted devotion to God — by which the Self attains complete contentment.",
+          "hindi": "मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।",
+          "commentary": "The Bhagavata's revolutionary thesis: the highest religion is not ritual, study, or even moral action — it is pure, unmotivated, unbroken love for the divine. Not \"I worship God for this blessing\" or \"I pray to avoid that suffering\" — but love with no agenda. This love (bhakti) produces the deepest contentment (prasada) possible.",
+          "wordMeaning": "The Bhagavata's revolutionary thesis: the highest religion is not ritual, study, or even moral action — it is pure, unmotivated, unbroken love for the divine. Not \"I worship God for this blessing\" or \"I pray to avoid that suffering\" — but love with no agenda. This love (bhakti) produces the deepest contentment (prasada) possible."
+        },
+        {
+          "number": "1.4",
+          "sanskrit": "भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् | नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ||",
+          "transliteration": "bhagavān bhaktibhāvena grāhyaḥ premagunairnṛṇām | nānyathā bhāvyate kvāpi yadi syādbrāhmasammataḥ ||",
+          "translation": "The Lord is to be grasped by human beings through the attitude of devotion — through the qualities of love. In no other way can He be known, even if one is a great Brahman.",
+          "hindi": "भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।",
+          "commentary": "The Bhagavata's consistent thesis: God is not grasped by intellectual achievement, ritual expertise, or social status — but by love. The story of Ambarisha confirms this: Ambarisha is not a sage or renunciant, but a king who loves God with his whole heart. When the greatest sage Durvasa curses him in rage, the curse bounces back because Ambarisha's devotion has made him untouchable.",
+          "wordMeaning": "The Bhagavata's consistent thesis: God is not grasped by intellectual achievement, ritual expertise, or social status — but by love. The story of Ambarisha confirms this: Ambarisha is not a sage or renunciant, but a king who loves God with his whole heart. When the greatest sage Durvasa curses him in rage, the curse bounces back because Ambarisha's devotion has made him untouchable."
+        },
+        {
+          "number": "1.5",
+          "sanskrit": "नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये | तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ||",
+          "transliteration": "nāyaṃ deho dehabhājāṃ nṛloke kaṣṭān kāmānarhat viḍbhujāṃ ye | tapo divyaṃ putrakā yena sattvaṃ śuddhyed yasmād brahmasaukhyaṃ tvanantam ||",
+          "translation": "This human body is not meant, O children, for pursuing the pleasures that even animals can enjoy with effort. It is meant for divine austerity by which the inner being is purified — from which comes the infinite joy of Brahman.",
+          "hindi": "हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।",
+          "commentary": "Rishabhadeva's teaching to his hundred sons — one of the most direct statements of the Bhagavata's central value: the human birth is rare and precious precisely because only humans can consciously pursue purification and liberation. To spend it on pleasure-seeking that any creature can pursue is a profound waste. This is not asceticism — it is recognition of unique potential.",
+          "wordMeaning": "Rishabhadeva's teaching to his hundred sons — one of the most direct statements of the Bhagavata's central value: the human birth is rare and precious precisely because only humans can consciously pursue purification and liberation. To spend it on pleasure-seeking that any creature can pursue is a profound waste. This is not asceticism — it is recognition of unique potential."
+        },
+        {
+          "number": "1.9",
+          "sanskrit": "यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा | न चान्तं विन्दते पुम्भिः परभावविशारदाः ||",
+          "transliteration": "yāṃ matiściodito yānti manasā karmaṇā girā | na cāntaṃ vindate pumbhiḥ parabhāvaviśāradāḥ ||",
+          "translation": "What the wise who are skilled in understanding the supreme being go toward — with mind, action, and speech — its end is not found by anyone.",
+          "hindi": "जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।",
+          "commentary": "Dhruva's story is the Bhagavata's icon of uncompromising, totality of aspiration. A five-year-old boy, rejected by his father, seeks God with all his heart — and finds not just comfort but the infinite. The verse encodes the paradox: the highest is sought with complete effort of mind, action, and speech — and yet its end is never found, because it is infinite. You can enter it entirely, but you cannot exhaust it.",
+          "wordMeaning": "Dhruva's story is the Bhagavata's icon of uncompromising, totality of aspiration. A five-year-old boy, rejected by his father, seeks God with all his heart — and finds not just comfort but the infinite. The verse encodes the paradox: the highest is sought with complete effort of mind, action, and speech — and yet its end is never found, because it is infinite. You can enter it entirely, but you cannot exhaust it."
+        },
+        {
+          "number": "1.13",
+          "sanskrit": "नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् | प्रणामो दुःखशमनस्तं नमामि हरिं परम् ||",
+          "transliteration": "nāmasaṃkīrtanaṃ yasya sarvapāpapraṇāśanam | praṇāmo duḥkhaśamanastam namāmi hariṃ param ||",
+          "translation": "The singing of whose name destroys all sin; whose salutation removes all sorrow — I bow to that Hari, the Supreme.",
+          "hindi": "जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।",
+          "commentary": "The Bhagavata closes as it opened: with devotion. The twelfth Skandha describes the deterioration of Kali Yuga — the loss of truth, the shortening of life, the coarsening of culture. It might seem like despair. But the Bhagavata's final message is the opposite: even in Kali Yuga, the Name is sufficient. What required lifetimes of austerity in other ages can be accomplished in Kali Yuga through kirtan alone. The deterioration of everything external is met by the invincible availability of the Name.",
+          "wordMeaning": "The Bhagavata closes as it opened: with devotion. The twelfth Skandha describes the deterioration of Kali Yuga — the loss of truth, the shortening of life, the coarsening of culture. It might seem like despair. But the Bhagavata's final message is the opposite: even in Kali Yuga, the Name is sufficient. What required lifetimes of austerity in other ages can be accomplished in Kali Yuga through kirtan alone. The deterioration of everything external is met by the invincible availability of the Name."
+        },
+        {
+          "number": "2.25",
+          "sanskrit": "सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव | सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ||",
+          "transliteration": "satsaṅgo muktaduḥsaṅgo hanti saṃsṛtimuddha | satsaṅgasya hi mahimā puṇyaślokānukīrtanam ||",
+          "translation": "The company of the holy — freed from bad association — destroys the cycle of birth and death. The greatness of such company is the praise of the blessed Lord.",
+          "hindi": "संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।",
+          "commentary": "Kapila's teaching on the transformative power of satsang — the company of those who are genuinely free. The Bhagavata makes the mechanism explicit: when you associate with those who praise God and embody dharma, their orientation becomes yours. You absorb not just their words but their state. The highest form of satsang, Kapila says, is itself the praise of the Lord — the activity that the holy engage in together.",
+          "wordMeaning": "Kapila's teaching on the transformative power of satsang — the company of those who are genuinely free. The Bhagavata makes the mechanism explicit: when you associate with those who praise God and embody dharma, their orientation becomes yours. You absorb not just their words but their state. The highest form of satsang, Kapila says, is itself the praise of the Lord — the activity that the holy engage in together."
+        },
+        {
+          "number": "2.47",
+          "sanskrit": "मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् | यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ||",
+          "transliteration": "manye'bhimukhīkṛto'rkaḥ pṛthivyāṃ mānuṣīmatanom | yadvandanāt sukhaṃ bhūyaḥ prapedye yatra kṛṣṇastat ||",
+          "translation": "I consider the sun itself to have turned toward earth, taking human form — by whose salutation I attained a joy that is more than this world's joy. That is where Krishna is.",
+          "hindi": "मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।",
+          "commentary": "The gopis' response to Uddhava — who has come from Krishna with a philosophical message — is one of the Bhagavata's most extraordinary passages. The gopis are not interested in philosophy. They have already arrived at the destination that philosophy points toward: they have no self separate from Krishna. Their love has dissolved the ego completely. Uddhava, the great philosopher and companion of Krishna, bows to the gopis and says he wishes to be born as a blade of grass in Vrindavan so the dust of their feet might touch him.",
+          "wordMeaning": "The gopis' response to Uddhava — who has come from Krishna with a philosophical message — is one of the Bhagavata's most extraordinary passages. The gopis are not interested in philosophy. They have already arrived at the destination that philosophy points toward: they have no self separate from Krishna. Their love has dissolved the ego completely. Uddhava, the great philosopher and companion of Krishna, bows to the gopis and says he wishes to be born as a blade of grass in Vrindavan so the dust of their feet might touch him."
+        }
+      ],
+      "titleSanskrit": "एकादश स्कन्ध — उद्धवगीता"
+    },
+    {
+      "number": 13,
+      "title": "Skandha 12 — The Age of Deterioration",
+      "verses": [
+        {
+          "number": "1.1",
+          "sanskrit": "नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् | प्रणामो दुःखशमनस्तं नमामि हरिं परम् ||",
+          "transliteration": "nāmasaṃkīrtanaṃ yasya sarvapāpapraṇāśanam | praṇāmo duḥkhaśamanastam namāmi hariṃ param ||",
+          "translation": "The singing of whose name destroys all sin; whose salutation removes all sorrow — I bow to that Hari, the Supreme.",
+          "hindi": "जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।",
+          "commentary": "The Bhagavata closes as it opened: with devotion. The twelfth Skandha describes the deterioration of Kali Yuga — the loss of truth, the shortening of life, the coarsening of culture. It might seem like despair. But the Bhagavata's final message is the opposite: even in Kali Yuga, the Name is sufficient. What required lifetimes of austerity in other ages can be accomplished in Kali Yuga through kirtan alone. The deterioration of everything external is met by the invincible availability of the Name.",
+          "wordMeaning": "The Bhagavata closes as it opened: with devotion. The twelfth Skandha describes the deterioration of Kali Yuga — the loss of truth, the shortening of life, the coarsening of culture. It might seem like despair. But the Bhagavata's final message is the opposite: even in Kali Yuga, the Name is sufficient. What required lifetimes of austerity in other ages can be accomplished in Kali Yuga through kirtan alone. The deterioration of everything external is met by the invincible availability of the Name."
+        },
+        {
+          "number": "1.2",
+          "sanskrit": "कलौ कल्मषचित्तानां पापद्रष्ट्याऽऽप्लुतात्मनाम् | विविक्तध्यानसंसिद्ध्या निर्वाणपदमाश्रयेत् ||",
+          "transliteration": "kalau kalmaṣacittānāṃ pāpadraṣṭyā''plutātmanām | viviktadhyānasamsiddhyā nirvāṇapadamāśrayet ||",
+          "translation": "In Kali Yuga, when minds are polluted and souls are flooded with sinful vision — liberation is attained through the perfection of solitary meditation.",
+          "hindi": "कलियुग में, जब चित्त कल्मषित और आत्मा पाप-दृष्टि से आप्लुत हो, विवेकपूर्ण ध्यान-सिद्धि से ही निर्वाण-पद की प्राप्ति होती है।",
+          "commentary": "The Bhagavata's closing teaching on Kali Yuga: when the external world becomes corrupt and minds are naturally inclined toward distortion, the path to liberation turns inward. \"Vivikta-dhyana\" — solitary meditation — is not escapism but the recognition that when the social environment is toxic, the individual must cultivate inner clarity as the primary practice. The Bhagavata does not condemn Kali Yuga; it prescribes the appropriate medicine for the disease of the age.",
+          "wordMeaning": "The Bhagavata's closing teaching on Kali Yuga: when the external world becomes corrupt and minds are naturally inclined toward distortion, the path to liberation turns inward. \"Vivikta-dhyana\" — solitary meditation — is not escapism but the recognition that when the social environment is toxic, the individual must cultivate inner clarity as the primary practice. The Bhagavata does not condemn Kali Yuga; it prescribes the appropriate medicine for the disease of the age."
+        },
+        {
+          "number": "1.3",
+          "sanskrit": "स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे | अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ||",
+          "transliteration": "sa vai puṃsāṃ paro dharmo yato bhaktiradhokṣaje | ahaituk yapratihata yayātmā samprasīdati ||",
+          "translation": "The supreme dharma for humanity is that which produces unmotivated and uninterrupted devotion to God — by which the Self attains complete contentment.",
+          "hindi": "मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।",
+          "commentary": "The Bhagavata's revolutionary thesis: the highest religion is not ritual, study, or even moral action — it is pure, unmotivated, unbroken love for the divine. Not \"I worship God for this blessing\" or \"I pray to avoid that suffering\" — but love with no agenda. This love (bhakti) produces the deepest contentment (prasada) possible.",
+          "wordMeaning": "The Bhagavata's revolutionary thesis: the highest religion is not ritual, study, or even moral action — it is pure, unmotivated, unbroken love for the divine. Not \"I worship God for this blessing\" or \"I pray to avoid that suffering\" — but love with no agenda. This love (bhakti) produces the deepest contentment (prasada) possible."
+        },
+        {
+          "number": "1.4",
+          "sanskrit": "भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् | नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ||",
+          "transliteration": "bhagavān bhaktibhāvena grāhyaḥ premagunairnṛṇām | nānyathā bhāvyate kvāpi yadi syādbrāhmasammataḥ ||",
+          "translation": "The Lord is to be grasped by human beings through the attitude of devotion — through the qualities of love. In no other way can He be known, even if one is a great Brahman.",
+          "hindi": "भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।",
+          "commentary": "The Bhagavata's consistent thesis: God is not grasped by intellectual achievement, ritual expertise, or social status — but by love. The story of Ambarisha confirms this: Ambarisha is not a sage or renunciant, but a king who loves God with his whole heart. When the greatest sage Durvasa curses him in rage, the curse bounces back because Ambarisha's devotion has made him untouchable.",
+          "wordMeaning": "The Bhagavata's consistent thesis: God is not grasped by intellectual achievement, ritual expertise, or social status — but by love. The story of Ambarisha confirms this: Ambarisha is not a sage or renunciant, but a king who loves God with his whole heart. When the greatest sage Durvasa curses him in rage, the curse bounces back because Ambarisha's devotion has made him untouchable."
+        },
+        {
+          "number": "1.9",
+          "sanskrit": "यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा | न चान्तं विन्दते पुम्भिः परभावविशारदाः ||",
+          "transliteration": "yāṃ matiściodito yānti manasā karmaṇā girā | na cāntaṃ vindate pumbhiḥ parabhāvaviśāradāḥ ||",
+          "translation": "What the wise who are skilled in understanding the supreme being go toward — with mind, action, and speech — its end is not found by anyone.",
+          "hindi": "जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।",
+          "commentary": "Dhruva's story is the Bhagavata's icon of uncompromising, totality of aspiration. A five-year-old boy, rejected by his father, seeks God with all his heart — and finds not just comfort but the infinite. The verse encodes the paradox: the highest is sought with complete effort of mind, action, and speech — and yet its end is never found, because it is infinite. You can enter it entirely, but you cannot exhaust it.",
+          "wordMeaning": "Dhruva's story is the Bhagavata's icon of uncompromising, totality of aspiration. A five-year-old boy, rejected by his father, seeks God with all his heart — and finds not just comfort but the infinite. The verse encodes the paradox: the highest is sought with complete effort of mind, action, and speech — and yet its end is never found, because it is infinite. You can enter it entirely, but you cannot exhaust it."
+        },
+        {
+          "number": "1.25",
+          "sanskrit": "सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव | सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ||",
+          "transliteration": "satsaṅgo muktaduḥsaṅgo hanti saṃsṛtimuddha | satsaṅgasya hi mahimā puṇyaślokānukīrtanam ||",
+          "translation": "The company of the holy — freed from bad association — destroys the cycle of birth and death. The greatness of such company is the praise of the blessed Lord.",
+          "hindi": "संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।",
+          "commentary": "Kapila's teaching on the transformative power of satsang — the company of those who are genuinely free. The Bhagavata makes the mechanism explicit: when you associate with those who praise God and embody dharma, their orientation becomes yours. You absorb not just their words but their state. The highest form of satsang, Kapila says, is itself the praise of the Lord — the activity that the holy engage in together.",
+          "wordMeaning": "Kapila's teaching on the transformative power of satsang — the company of those who are genuinely free. The Bhagavata makes the mechanism explicit: when you associate with those who praise God and embody dharma, their orientation becomes yours. You absorb not just their words but their state. The highest form of satsang, Kapila says, is itself the praise of the Lord — the activity that the holy engage in together."
+        },
+        {
+          "number": "3.47",
+          "sanskrit": "मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् | यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ||",
+          "transliteration": "manye'bhimukhīkṛto'rkaḥ pṛthivyāṃ mānuṣīmatanom | yadvandanāt sukhaṃ bhūyaḥ prapedye yatra kṛṣṇastat ||",
+          "translation": "I consider the sun itself to have turned toward earth, taking human form — by whose salutation I attained a joy that is more than this world's joy. That is where Krishna is.",
+          "hindi": "मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।",
+          "commentary": "The gopis' response to Uddhava — who has come from Krishna with a philosophical message — is one of the Bhagavata's most extraordinary passages. The gopis are not interested in philosophy. They have already arrived at the destination that philosophy points toward: they have no self separate from Krishna. Their love has dissolved the ego completely. Uddhava, the great philosopher and companion of Krishna, bows to the gopis and says he wishes to be born as a blade of grass in Vrindavan so the dust of their feet might touch him.",
+          "wordMeaning": "The gopis' response to Uddhava — who has come from Krishna with a philosophical message — is one of the Bhagavata's most extraordinary passages. The gopis are not interested in philosophy. They have already arrived at the destination that philosophy points toward: they have no self separate from Krishna. Their love has dissolved the ego completely. Uddhava, the great philosopher and companion of Krishna, bows to the gopis and says he wishes to be born as a blade of grass in Vrindavan so the dust of their feet might touch him."
+        }
+      ],
+      "titleSanskrit": "द्वादश स्कन्ध"
+    }
+  ]
+}

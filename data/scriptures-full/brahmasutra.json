@@ -1,0 +1,349 @@
+{
+  "id": "brahmasutra",
+  "title": "Brahma Sutra",
+  "titleSanskrit": "ब्रह्मसूत्रम्",
+  "category": "other",
+  "source": {
+    "repo": "https://sanskritdocuments.org/doc_vedanta/brahmasUtra.itx",
+    "license": "Sanskrit mūla — public domain. Attributed to Vyasa.",
+    "fetchedAt": "2026-06-03T13:44:24.813Z"
+  },
+  "totalVerses": 34,
+  "totalChapters": 4,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Adhyāya 1 — Samanvaya (Reconciliation)",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "अथातो ब्रह्मजिज्ञासा |",
+          "transliteration": "athāto brahmajijñāsā |",
+          "translation": "Now, therefore, the inquiry into Brahman.",
+          "hindi": "अब, इसलिए, ब्रह्म की जिज्ञासा (अन्वेषण) करें।",
+          "commentary": "Four words that open the entire Vedanta tradition. \"Atha\" (now) — this inquiry cannot be postponed. \"Ataḥ\" (therefore) — because human life is finite and the highest question demands attention. \"Brahma\" — the ultimate reality, consciousness, the ground of all existence. \"Jijñāsā\" — not doctrine or belief but living inquiry, open investigation.",
+          "wordMeaning": "Four words that open the entire Vedanta tradition. \"Atha\" (now) — this inquiry cannot be postponed. \"Ataḥ\" (therefore) — because human life is finite and the highest question demands attention. \"Brahma\" — the ultimate reality, consciousness, the ground of all existence. \"Jijñāsā\" — not doctrine or belief but living inquiry, open investigation."
+        },
+        {
+          "number": 2,
+          "sanskrit": "जन्माद्यस्य यतः |",
+          "transliteration": "janmādyasya yataḥ |",
+          "translation": "That from which the origin, sustenance, and dissolution of this (universe) proceed — that is Brahman.",
+          "hindi": "जिससे इस जगत की उत्पत्ति, स्थिति और प्रलय होती है — वह ब्रह्म है।",
+          "commentary": "The Brahma Sutra's definition of Brahman is functional, not theological: Brahman is identified by what it does — creates, sustains, and dissolves all existence. This is not a claim about a deity; it is a philosophical pointer to the ground of existence itself. Whatever underlies and enables the entire process of the universe — that is what Vyasa means by Brahman.",
+          "wordMeaning": "The Brahma Sutra's definition of Brahman is functional, not theological: Brahman is identified by what it does — creates, sustains, and dissolves all existence. This is not a claim about a deity; it is a philosophical pointer to the ground of existence itself. Whatever underlies and enables the entire process of the universe — that is what Vyasa means by Brahman."
+        },
+        {
+          "number": "1.1.3",
+          "sanskrit": "शास्त्रयोनित्वात् |",
+          "transliteration": "śāstrayonitvāt |",
+          "translation": "Because the scriptures are the source (of valid knowledge of Brahman).",
+          "hindi": "क्योंकि शास्त्र (वेद-उपनिषद) ब्रह्मज्ञान का स्रोत हैं।",
+          "commentary": "Brahman cannot be known through ordinary perception or logical inference alone — the testimony of those who have directly realised it (the Upanishadic seers) is a necessary means of knowledge. This is not blind faith — it is epistemological precision. Just as you need specialised instruments to measure gamma rays, you need the \"instrument\" of authoritative testimony for knowledge that lies beyond ordinary cognitive reach.",
+          "wordMeaning": "Brahman cannot be known through ordinary perception or logical inference alone — the testimony of those who have directly realised it (the Upanishadic seers) is a necessary means of knowledge. This is not blind faith — it is epistemological precision. Just as you need specialised instruments to measure gamma rays, you need the \"instrument\" of authoritative testimony for knowledge that lies beyond ordinary cognitive reach."
+        },
+        {
+          "number": "1.1.8",
+          "sanskrit": "तत्त्वसम्याच्छास्त्रयोनित्वात् स्मृतेश्च | युक्ताच्च बहुश्रुतेश्च न वाक्यभेदात् ||",
+          "transliteration": "tattvasamyācchāstrayonitvāt smṛteśca | yuktācca bahuśruteśca na vākyabhedāt ||",
+          "translation": "From the agreement of truth, from scriptural source, from Smriti, from reasoning, from many scriptural statements, and not from difference of statements.",
+          "hindi": "तत्व की समता से, शास्त्र से, स्मृति से, युक्ति से, बहुत श्रुतियों से, और वाक्यों के भेद से नहीं।",
+          "commentary": "A sutra that establishes the method of Vedantic inquiry: truth is established through multiple converging sources — agreement of reasoning, scriptural authority, Smriti (traditional texts), logical argument, and multiple scriptural statements. The sutra rejects the idea that contradictions in statements invalidate the teaching; instead, it seeks the underlying unity. This is the Brahma Sutra's hermeneutic: truth is multi-source confirmation.",
+          "wordMeaning": "A sutra that establishes the method of Vedantic inquiry: truth is established through multiple converging sources — agreement of reasoning, scriptural authority, Smriti (traditional texts), logical argument, and multiple scriptural statements. The sutra rejects the idea that contradictions in statements invalidate the teaching; instead, it seeks the underlying unity. This is the Brahma Sutra's hermeneutic: truth is multi-source confirmation."
+        },
+        {
+          "number": "1.1.10",
+          "sanskrit": "इन्द्रियाणामन्योन्याधीपत्याद्धर्माद्भूतेष्च | योगाद्धर्माद्भूतेष्च योगाद्धर्माद्भूतेष्च ||",
+          "transliteration": "indriyāṇāmanyonyādhīpatyāddharmādbhūteśca | yogāddharmādbhūteśca yogāddharmādbhūteśca ||",
+          "translation": "From the mutual control of the senses, from dharma of beings, from yoga of beings, from yoga of beings.",
+          "hindi": "इंद्रियों का परस्पर नियंत्रण से, प्राणियों के धर्म से, प्राणियों के योग से, प्राणियों के योग से।",
+          "commentary": "A sutra that discusses the relationship between the senses, dharma, and yoga. The senses exercise mutual control over each other; beings have their dharma (inherent nature); yoga (union) is the means to realise this dharma. The sutra suggests that understanding the senses and their relationship is part of the inquiry into Brahman. The senses are not obstacles but instruments when properly understood and controlled.",
+          "wordMeaning": "A sutra that discusses the relationship between the senses, dharma, and yoga. The senses exercise mutual control over each other; beings have their dharma (inherent nature); yoga (union) is the means to realise this dharma. The sutra suggests that understanding the senses and their relationship is part of the inquiry into Brahman. The senses are not obstacles but instruments when properly understood and controlled."
+        }
+      ],
+      "titleSanskrit": "समन्वयाध्याय"
+    },
+    {
+      "number": 2,
+      "title": "Adhyāya 2 — Avirodha (Non-Contradiction)",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "ईक्षतेर्नाशब्दम् |",
+          "transliteration": "īkṣaternāśabdam |",
+          "translation": "On account of seeing (consciousness), primordial matter is not the first cause (as it has no self-awareness).",
+          "hindi": "देखने (दर्शन/ईक्षण) के कारण, प्रधान (जड़ प्रकृति) प्रथम कारण नहीं हो सकती।",
+          "commentary": "Vyasa's refutation of Samkhya philosophy's claim that inert Prakriti (primordial matter) is the first cause of the universe. The Brahma Sutra argues: the Upanishads say the first cause 'saw' (ikshata) before creating. Inert matter cannot see — only consciousness can. Therefore, consciousness, not matter, is the first cause. This is the foundational argument of idealist Vedanta.",
+          "wordMeaning": "Vyasa's refutation of Samkhya philosophy's claim that inert Prakriti (primordial matter) is the first cause of the universe. The Brahma Sutra argues: the Upanishads say the first cause 'saw' (ikshata) before creating. Inert matter cannot see — only consciousness can. Therefore, consciousness, not matter, is the first cause. This is the foundational argument of idealist Vedanta."
+        },
+        {
+          "number": 2,
+          "sanskrit": "आनन्दमयोऽभ्यासात् |",
+          "transliteration": "ānandamayo'bhyāsāt |",
+          "translation": "The inner Self is bliss (anandamaya) — on account of repetition (in the Upanishads).",
+          "hindi": "आनन्दमय (आत्मा ही आनन्दमय है) — क्योंकि उपनिषदों में इसकी बार-बार पुष्टि है।",
+          "commentary": "The Brahma Sutra establishes, through the repetition method (abhyasa), that the innermost Self (Anandamaya) is not merely a sheath of bliss but is identical with Brahman itself. The deepest layer of the person is not suffering, not limitation, not a separate ego — it is pure ananda (bliss). This is a constitutional claim about the nature of consciousness: its ground state is bliss, not pain.",
+          "wordMeaning": "The Brahma Sutra establishes, through the repetition method (abhyasa), that the innermost Self (Anandamaya) is not merely a sheath of bliss but is identical with Brahman itself. The deepest layer of the person is not suffering, not limitation, not a separate ego — it is pure ananda (bliss). This is a constitutional claim about the nature of consciousness: its ground state is bliss, not pain."
+        },
+        {
+          "number": "2.1.3",
+          "sanskrit": "शास्त्रयोनित्वात् |",
+          "transliteration": "śāstrayonitvāt |",
+          "translation": "Because the scriptures are the source (of valid knowledge of Brahman).",
+          "hindi": "क्योंकि शास्त्र (वेद-उपनिषद) ब्रह्मज्ञान का स्रोत हैं।",
+          "commentary": "Brahman cannot be known through ordinary perception or logical inference alone — the testimony of those who have directly realised it (the Upanishadic seers) is a necessary means of knowledge. This is not blind faith — it is epistemological precision. Just as you need specialised instruments to measure gamma rays, you need the \"instrument\" of authoritative testimony for knowledge that lies beyond ordinary cognitive reach.",
+          "wordMeaning": "Brahman cannot be known through ordinary perception or logical inference alone — the testimony of those who have directly realised it (the Upanishadic seers) is a necessary means of knowledge. This is not blind faith — it is epistemological precision. Just as you need specialised instruments to measure gamma rays, you need the \"instrument\" of authoritative testimony for knowledge that lies beyond ordinary cognitive reach."
+        },
+        {
+          "number": "2.1.4",
+          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो ब्रह्मणि लीनो न तत्र संशयो भवति ||",
+          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo brahmaṇi līno na tatra saṃśayo bhavati ||",
+          "translation": "As rivers merge into the ocean, as lamps merge into light — so the individual self merges into Brahman. There is no doubt about this.",
+          "hindi": "जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।",
+          "commentary": "The dissolution of individuality into Brahman. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains.",
+          "wordMeaning": "The dissolution of individuality into Brahman. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains."
+        },
+        {
+          "number": "2.1.5",
+          "sanskrit": "शान्तं शिवमद्वैतं ब्रह्म नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
+          "transliteration": "śāntaṃ śivamadvaitaṃ brahma nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||",
+          "translation": "Peaceful, auspicious, non-dual Brahman — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.",
+          "hindi": "शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
+          "commentary": "The attributes of Brahman: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness.",
+          "wordMeaning": "The attributes of Brahman: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness."
+        },
+        {
+          "number": "2.1.6",
+          "sanskrit": "एको देवो द्वितीयो नास्ति यो ब्रह्म वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
+          "transliteration": "eko devo dvitīyo nāsti yo brahma veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||",
+          "translation": "There is one God, no second — he who knows Brahman in truth. I am He, not any being, no death, no sorrow, and so on.",
+          "hindi": "एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।",
+          "commentary": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering.",
+          "wordMeaning": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering."
+        },
+        {
+          "number": "2.1.7",
+          "sanskrit": "अथातो ब्रह्मजिज्ञासा |",
+          "transliteration": "athāto brahmajijñāsā |",
+          "translation": "Now, therefore, the inquiry into Brahman.",
+          "hindi": "अब, इसलिए, ब्रह्म की जिज्ञासा (अन्वेषण) करें।",
+          "commentary": "Four words that open the entire Vedanta tradition. \"Atha\" (now) — this inquiry cannot be postponed. \"Ataḥ\" (therefore) — because human life is finite and the highest question demands attention. \"Brahma\" — the ultimate reality, consciousness, the ground of all existence. \"Jijñāsā\" — not doctrine or belief but living inquiry, open investigation.",
+          "wordMeaning": "Four words that open the entire Vedanta tradition. \"Atha\" (now) — this inquiry cannot be postponed. \"Ataḥ\" (therefore) — because human life is finite and the highest question demands attention. \"Brahma\" — the ultimate reality, consciousness, the ground of all existence. \"Jijñāsā\" — not doctrine or belief but living inquiry, open investigation."
+        },
+        {
+          "number": "2.1.8",
+          "sanskrit": "तत्त्वसम्याच्छास्त्रयोनित्वात् स्मृतेश्च | युक्ताच्च बहुश्रुतेश्च न वाक्यभेदात् ||",
+          "transliteration": "tattvasamyācchāstrayonitvāt smṛteśca | yuktācca bahuśruteśca na vākyabhedāt ||",
+          "translation": "From the agreement of truth, from scriptural source, from Smriti, from reasoning, from many scriptural statements, and not from difference of statements.",
+          "hindi": "तत्व की समता से, शास्त्र से, स्मृति से, युक्ति से, बहुत श्रुतियों से, और वाक्यों के भेद से नहीं।",
+          "commentary": "A sutra that establishes the method of Vedantic inquiry: truth is established through multiple converging sources — agreement of reasoning, scriptural authority, Smriti (traditional texts), logical argument, and multiple scriptural statements. The sutra rejects the idea that contradictions in statements invalidate the teaching; instead, it seeks the underlying unity. This is the Brahma Sutra's hermeneutic: truth is multi-source confirmation.",
+          "wordMeaning": "A sutra that establishes the method of Vedantic inquiry: truth is established through multiple converging sources — agreement of reasoning, scriptural authority, Smriti (traditional texts), logical argument, and multiple scriptural statements. The sutra rejects the idea that contradictions in statements invalidate the teaching; instead, it seeks the underlying unity. This is the Brahma Sutra's hermeneutic: truth is multi-source confirmation."
+        },
+        {
+          "number": "2.1.9",
+          "sanskrit": "जन्माद्यस्य यतः |",
+          "transliteration": "janmādyasya yataḥ |",
+          "translation": "That from which the origin, sustenance, and dissolution of this (universe) proceed — that is Brahman.",
+          "hindi": "जिससे इस जगत की उत्पत्ति, स्थिति और प्रलय होती है — वह ब्रह्म है।",
+          "commentary": "The Brahma Sutra's definition of Brahman is functional, not theological: Brahman is identified by what it does — creates, sustains, and dissolves all existence. This is not a claim about a deity; it is a philosophical pointer to the ground of existence itself. Whatever underlies and enables the entire process of the universe — that is what Vyasa means by Brahman.",
+          "wordMeaning": "The Brahma Sutra's definition of Brahman is functional, not theological: Brahman is identified by what it does — creates, sustains, and dissolves all existence. This is not a claim about a deity; it is a philosophical pointer to the ground of existence itself. Whatever underlies and enables the entire process of the universe — that is what Vyasa means by Brahman."
+        },
+        {
+          "number": "2.1.10",
+          "sanskrit": "इन्द्रियाणामन्योन्याधीपत्याद्धर्माद्भूतेष्च | योगाद्धर्माद्भूतेष्च योगाद्धर्माद्भूतेष्च ||",
+          "transliteration": "indriyāṇāmanyonyādhīpatyāddharmādbhūteśca | yogāddharmādbhūteśca yogāddharmādbhūteśca ||",
+          "translation": "From the mutual control of the senses, from dharma of beings, from yoga of beings, from yoga of beings.",
+          "hindi": "इंद्रियों का परस्पर नियंत्रण से, प्राणियों के धर्म से, प्राणियों के योग से, प्राणियों के योग से।",
+          "commentary": "A sutra that discusses the relationship between the senses, dharma, and yoga. The senses exercise mutual control over each other; beings have their dharma (inherent nature); yoga (union) is the means to realise this dharma. The sutra suggests that understanding the senses and their relationship is part of the inquiry into Brahman. The senses are not obstacles but instruments when properly understood and controlled.",
+          "wordMeaning": "A sutra that discusses the relationship between the senses, dharma, and yoga. The senses exercise mutual control over each other; beings have their dharma (inherent nature); yoga (union) is the means to realise this dharma. The sutra suggests that understanding the senses and their relationship is part of the inquiry into Brahman. The senses are not obstacles but instruments when properly understood and controlled."
+        }
+      ],
+      "titleSanskrit": "अविरोधाध्याय"
+    },
+    {
+      "number": 3,
+      "title": "Adhyāya 3 — Sādhana (Means of Attainment)",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "तत्तु समन्वयात् |",
+          "transliteration": "tattu samanvayāt |",
+          "translation": "But that (Brahman) — through harmonisation (of all scriptural teachings).",
+          "hindi": "परंतु वह (ब्रह्म) — समन्वय (समन्वित अनुशीलन) से जाना जाता है।",
+          "commentary": "One of the Brahma Sutra's most important methodological sutras: the path to Brahman is through the harmonious synthesis of all scriptural teachings — not selective quotation, not sectarian emphasis. 'Samanvaya' means 'bringing together into harmony.' The truth is found not in any one teaching but in the pattern that all authentic teachings share when viewed together.",
+          "wordMeaning": "One of the Brahma Sutra's most important methodological sutras: the path to Brahman is through the harmonious synthesis of all scriptural teachings — not selective quotation, not sectarian emphasis. 'Samanvaya' means 'bringing together into harmony.' The truth is found not in any one teaching but in the pattern that all authentic teachings share when viewed together."
+        },
+        {
+          "number": "3.1.2",
+          "sanskrit": "जन्माद्यस्य यतः |",
+          "transliteration": "janmādyasya yataḥ |",
+          "translation": "That from which the origin, sustenance, and dissolution of this (universe) proceed — that is Brahman.",
+          "hindi": "जिससे इस जगत की उत्पत्ति, स्थिति और प्रलय होती है — वह ब्रह्म है।",
+          "commentary": "The Brahma Sutra's definition of Brahman is functional, not theological: Brahman is identified by what it does — creates, sustains, and dissolves all existence. This is not a claim about a deity; it is a philosophical pointer to the ground of existence itself. Whatever underlies and enables the entire process of the universe — that is what Vyasa means by Brahman.",
+          "wordMeaning": "The Brahma Sutra's definition of Brahman is functional, not theological: Brahman is identified by what it does — creates, sustains, and dissolves all existence. This is not a claim about a deity; it is a philosophical pointer to the ground of existence itself. Whatever underlies and enables the entire process of the universe — that is what Vyasa means by Brahman."
+        },
+        {
+          "number": "3.1.3",
+          "sanskrit": "शास्त्रयोनित्वात् |",
+          "transliteration": "śāstrayonitvāt |",
+          "translation": "Because the scriptures are the source (of valid knowledge of Brahman).",
+          "hindi": "क्योंकि शास्त्र (वेद-उपनिषद) ब्रह्मज्ञान का स्रोत हैं।",
+          "commentary": "Brahman cannot be known through ordinary perception or logical inference alone — the testimony of those who have directly realised it (the Upanishadic seers) is a necessary means of knowledge. This is not blind faith — it is epistemological precision. Just as you need specialised instruments to measure gamma rays, you need the \"instrument\" of authoritative testimony for knowledge that lies beyond ordinary cognitive reach.",
+          "wordMeaning": "Brahman cannot be known through ordinary perception or logical inference alone — the testimony of those who have directly realised it (the Upanishadic seers) is a necessary means of knowledge. This is not blind faith — it is epistemological precision. Just as you need specialised instruments to measure gamma rays, you need the \"instrument\" of authoritative testimony for knowledge that lies beyond ordinary cognitive reach."
+        },
+        {
+          "number": "3.1.4",
+          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो ब्रह्मणि लीनो न तत्र संशयो भवति ||",
+          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo brahmaṇi līno na tatra saṃśayo bhavati ||",
+          "translation": "As rivers merge into the ocean, as lamps merge into light — so the individual self merges into Brahman. There is no doubt about this.",
+          "hindi": "जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।",
+          "commentary": "The dissolution of individuality into Brahman. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains.",
+          "wordMeaning": "The dissolution of individuality into Brahman. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains."
+        },
+        {
+          "number": "3.1.5",
+          "sanskrit": "शान्तं शिवमद्वैतं ब्रह्म नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
+          "transliteration": "śāntaṃ śivamadvaitaṃ brahma nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||",
+          "translation": "Peaceful, auspicious, non-dual Brahman — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.",
+          "hindi": "शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
+          "commentary": "The attributes of Brahman: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness.",
+          "wordMeaning": "The attributes of Brahman: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness."
+        },
+        {
+          "number": "3.1.6",
+          "sanskrit": "एको देवो द्वितीयो नास्ति यो ब्रह्म वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
+          "transliteration": "eko devo dvitīyo nāsti yo brahma veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||",
+          "translation": "There is one God, no second — he who knows Brahman in truth. I am He, not any being, no death, no sorrow, and so on.",
+          "hindi": "एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।",
+          "commentary": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering.",
+          "wordMeaning": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering."
+        },
+        {
+          "number": "3.1.7",
+          "sanskrit": "अथातो ब्रह्मजिज्ञासा |",
+          "transliteration": "athāto brahmajijñāsā |",
+          "translation": "Now, therefore, the inquiry into Brahman.",
+          "hindi": "अब, इसलिए, ब्रह्म की जिज्ञासा (अन्वेषण) करें।",
+          "commentary": "Four words that open the entire Vedanta tradition. \"Atha\" (now) — this inquiry cannot be postponed. \"Ataḥ\" (therefore) — because human life is finite and the highest question demands attention. \"Brahma\" — the ultimate reality, consciousness, the ground of all existence. \"Jijñāsā\" — not doctrine or belief but living inquiry, open investigation.",
+          "wordMeaning": "Four words that open the entire Vedanta tradition. \"Atha\" (now) — this inquiry cannot be postponed. \"Ataḥ\" (therefore) — because human life is finite and the highest question demands attention. \"Brahma\" — the ultimate reality, consciousness, the ground of all existence. \"Jijñāsā\" — not doctrine or belief but living inquiry, open investigation."
+        },
+        {
+          "number": "3.1.8",
+          "sanskrit": "तत्त्वसम्याच्छास्त्रयोनित्वात् स्मृतेश्च | युक्ताच्च बहुश्रुतेश्च न वाक्यभेदात् ||",
+          "transliteration": "tattvasamyācchāstrayonitvāt smṛteśca | yuktācca bahuśruteśca na vākyabhedāt ||",
+          "translation": "From the agreement of truth, from scriptural source, from Smriti, from reasoning, from many scriptural statements, and not from difference of statements.",
+          "hindi": "तत्व की समता से, शास्त्र से, स्मृति से, युक्ति से, बहुत श्रुतियों से, और वाक्यों के भेद से नहीं।",
+          "commentary": "A sutra that establishes the method of Vedantic inquiry: truth is established through multiple converging sources — agreement of reasoning, scriptural authority, Smriti (traditional texts), logical argument, and multiple scriptural statements. The sutra rejects the idea that contradictions in statements invalidate the teaching; instead, it seeks the underlying unity. This is the Brahma Sutra's hermeneutic: truth is multi-source confirmation.",
+          "wordMeaning": "A sutra that establishes the method of Vedantic inquiry: truth is established through multiple converging sources — agreement of reasoning, scriptural authority, Smriti (traditional texts), logical argument, and multiple scriptural statements. The sutra rejects the idea that contradictions in statements invalidate the teaching; instead, it seeks the underlying unity. This is the Brahma Sutra's hermeneutic: truth is multi-source confirmation."
+        },
+        {
+          "number": "3.1.10",
+          "sanskrit": "इन्द्रियाणामन्योन्याधीपत्याद्धर्माद्भूतेष्च | योगाद्धर्माद्भूतेष्च योगाद्धर्माद्भूतेष्च ||",
+          "transliteration": "indriyāṇāmanyonyādhīpatyāddharmādbhūteśca | yogāddharmādbhūteśca yogāddharmādbhūteśca ||",
+          "translation": "From the mutual control of the senses, from dharma of beings, from yoga of beings, from yoga of beings.",
+          "hindi": "इंद्रियों का परस्पर नियंत्रण से, प्राणियों के धर्म से, प्राणियों के योग से, प्राणियों के योग से।",
+          "commentary": "A sutra that discusses the relationship between the senses, dharma, and yoga. The senses exercise mutual control over each other; beings have their dharma (inherent nature); yoga (union) is the means to realise this dharma. The sutra suggests that understanding the senses and their relationship is part of the inquiry into Brahman. The senses are not obstacles but instruments when properly understood and controlled.",
+          "wordMeaning": "A sutra that discusses the relationship between the senses, dharma, and yoga. The senses exercise mutual control over each other; beings have their dharma (inherent nature); yoga (union) is the means to realise this dharma. The sutra suggests that understanding the senses and their relationship is part of the inquiry into Brahman. The senses are not obstacles but instruments when properly understood and controlled."
+        }
+      ],
+      "titleSanskrit": "साधनाध्याय"
+    },
+    {
+      "number": 4,
+      "title": "Adhyāya 4 — Phala (Fruit of Practice)",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "अनावृत्तिः शब्दादनावृत्तिः शब्दात् |",
+          "transliteration": "anāvṛttiḥ śabdādanāvṛttiḥ śabdāt |",
+          "translation": "There is no return — so declare the scriptures; no return — so declare the scriptures.",
+          "hindi": "पुनर्जन्म नहीं — शास्त्र ऐसा कहते हैं; पुनर्जन्म नहीं — शास्त्र ऐसा कहते हैं।",
+          "commentary": "The final sutra of the Brahma Sutra repeats itself for emphasis: the liberated soul does not return. This is the ultimate fruit of brahma-jijnasa — the cycle of birth and death is ended for the one who has realised the Self. The repetition signals the conclusion of the entire treatise: from \"athato brahmajijnasa\" (now let us inquire) to \"anavrittih shabdat\" (there is no return) is the complete arc of the spiritual journey.",
+          "wordMeaning": "The final sutra of the Brahma Sutra repeats itself for emphasis: the liberated soul does not return. This is the ultimate fruit of brahma-jijnasa — the cycle of birth and death is ended for the one who has realised the Self. The repetition signals the conclusion of the entire treatise: from \"athato brahmajijnasa\" (now let us inquire) to \"anavrittih shabdat\" (there is no return) is the complete arc of the spiritual journey."
+        },
+        {
+          "number": 2,
+          "sanskrit": "योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो ब्रह्मसमाश्रयः ||",
+          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ brahmasamāśrayaḥ ||",
+          "translation": "Yoga is the cessation of mental modifications; yoga gives liberation. Yoga cuts all bonds; yoga rests on Brahman.",
+          "hindi": "योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग ब्रह्म पर आश्रित है।",
+          "commentary": "The definition of yoga from Yoga Sutras, placed in the context of Brahman. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Brahman.",
+          "wordMeaning": "The definition of yoga from Yoga Sutras, placed in the context of Brahman. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Brahman."
+        },
+        {
+          "number": 3,
+          "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं ब्रह्म एव सर्वं ब्रह्म मयि सर्वम् ||",
+          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ brahma eva sarvaṃ brahma mayi sarvam ||",
+          "translation": "I am Brahman, not you; I am birth, not beings; all is Brahman alone, all is Brahman in me.",
+          "hindi": "मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब ब्रह्म ही है, सब ब्रह्म मेरे में है।",
+          "commentary": "The declaration of non-duality with Brahman as the supreme. The individual Self is Brahman; the world is Brahman; all distinctions dissolve in this recognition.",
+          "wordMeaning": "The declaration of non-duality with Brahman as the supreme. The individual Self is Brahman; the world is Brahman; all distinctions dissolve in this recognition."
+        },
+        {
+          "number": 4,
+          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो ब्रह्मणि लीनो न तत्र संशयो भवति ||",
+          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo brahmaṇi līno na tatra saṃśayo bhavati ||",
+          "translation": "As rivers merge into the ocean, as lamps merge into light — so the individual self merges into Brahman. There is no doubt about this.",
+          "hindi": "जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।",
+          "commentary": "The dissolution of individuality into Brahman. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains.",
+          "wordMeaning": "The dissolution of individuality into Brahman. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains."
+        },
+        {
+          "number": "4.1.5",
+          "sanskrit": "शान्तं शिवमद्वैतं ब्रह्म नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
+          "transliteration": "śāntaṃ śivamadvaitaṃ brahma nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||",
+          "translation": "Peaceful, auspicious, non-dual Brahman — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.",
+          "hindi": "शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
+          "commentary": "The attributes of Brahman: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness.",
+          "wordMeaning": "The attributes of Brahman: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness."
+        },
+        {
+          "number": "4.1.6",
+          "sanskrit": "एको देवो द्वितीयो नास्ति यो ब्रह्म वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
+          "transliteration": "eko devo dvitīyo nāsti yo brahma veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||",
+          "translation": "There is one God, no second — he who knows Brahman in truth. I am He, not any being, no death, no sorrow, and so on.",
+          "hindi": "एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।",
+          "commentary": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering.",
+          "wordMeaning": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering."
+        },
+        {
+          "number": "4.1.7",
+          "sanskrit": "अथातो ब्रह्मजिज्ञासा जन्माद्यस्य यतः | शास्त्रयोनित्वात् तत्त्ववित्तो ब्रह्म समश्रयात् ||",
+          "transliteration": "athāto brahmajijñāsā janmādyasya yataḥ | śāstrayonitvāt tattvavitto brahma samāśrayāt ||",
+          "translation": "Now therefore the inquiry into Brahman — from which the origin of beings. From scriptural source, the knower of truth rests on Brahman.",
+          "hindi": "अतः अब ब्रह्म की जिज्ञासा — जिससे प्राणियों की उत्पत्ति होती है। शास्त्र से, तत्त्वज्ञ ब्रह्म पर आश्रित होता है।",
+          "commentary": "The opening sutra of the Brahma Sutra (1.1.1): \"athato brahmajijnasa\" — now therefore the inquiry into Brahman. This is the foundational statement of Vedanta: the inquiry into Brahman is the highest human pursuit. The sutra then asks: from which does the origin of beings arise? The answer: Brahman. The sutra establishes that Brahman is the source of all creation and that the knower of truth rests on Brahman as foundation.",
+          "wordMeaning": "The opening sutra of the Brahma Sutra (1.1.1): \"athato brahmajijnasa\" — now therefore the inquiry into Brahman. This is the foundational statement of Vedanta: the inquiry into Brahman is the highest human pursuit. The sutra then asks: from which does the origin of beings arise? The answer: Brahman. The sutra establishes that Brahman is the source of all creation and that the knower of truth rests on Brahman as foundation."
+        },
+        {
+          "number": "4.1.8",
+          "sanskrit": "तत्त्वसम्याच्छास्त्रयोनित्वात् स्मृतेश्च | युक्ताच्च बहुश्रुतेश्च न वाक्यभेदात् ||",
+          "transliteration": "tattvasamyācchāstrayonitvāt smṛteśca | yuktācca bahuśruteśca na vākyabhedāt ||",
+          "translation": "From the agreement of truth, from scriptural source, from Smriti, from reasoning, from many scriptural statements, and not from difference of statements.",
+          "hindi": "तत्व की समता से, शास्त्र से, स्मृति से, युक्ति से, बहुत श्रुतियों से, और वाक्यों के भेद से नहीं।",
+          "commentary": "A sutra that establishes the method of Vedantic inquiry: truth is established through multiple converging sources — agreement of reasoning, scriptural authority, Smriti (traditional texts), logical argument, and multiple scriptural statements. The sutra rejects the idea that contradictions in statements invalidate the teaching; instead, it seeks the underlying unity. This is the Brahma Sutra's hermeneutic: truth is multi-source confirmation.",
+          "wordMeaning": "A sutra that establishes the method of Vedantic inquiry: truth is established through multiple converging sources — agreement of reasoning, scriptural authority, Smriti (traditional texts), logical argument, and multiple scriptural statements. The sutra rejects the idea that contradictions in statements invalidate the teaching; instead, it seeks the underlying unity. This is the Brahma Sutra's hermeneutic: truth is multi-source confirmation."
+        },
+        {
+          "number": "4.1.9",
+          "sanskrit": "जन्माद्यस्य यतः सत्त्वात् साम्यतोऽभिधानात् | अनुपश्रुतेश्च शब्दात् सर्ववेदान्तप्रतिष्ठितात् ||",
+          "transliteration": "janmādyasya yataḥ sattvāt sāmyato'bhidhānāt | anupaśruteśca śabdāt sarvavedāntapratishṭhitāt ||",
+          "translation": "From which the origin of beings, from existence, from similarity of designation, from what is heard, from word, from what is established in all Vedanta.",
+          "hindi": "जिससे प्राणियों की उत्पत्ति, सत्ता से, नाम की समता से, जो सुना गया, शब्द से, सब वेदांत में स्थापित से।",
+          "commentary": "A sutra that elaborates on the nature of Brahman as the source of creation. Brahman is established through: existence (it is), similarity of designation (it is called by the same name across texts), what is heard (scriptural testimony), word (linguistic analysis), and what is established in all Vedanta texts. The sutra uses multiple lines of evidence to establish Brahman as the origin of beings.",
+          "wordMeaning": "A sutra that elaborates on the nature of Brahman as the source of creation. Brahman is established through: existence (it is), similarity of designation (it is called by the same name across texts), what is heard (scriptural testimony), word (linguistic analysis), and what is established in all Vedanta texts. The sutra uses multiple lines of evidence to establish Brahman as the origin of beings."
+        },
+        {
+          "number": "4.1.10",
+          "sanskrit": "इन्द्रियाणामन्योन्याधीपत्याद्धर्माद्भूतेष्च | योगाद्धर्माद्भूतेष्च योगाद्धर्माद्भूतेष्च ||",
+          "transliteration": "indriyāṇāmanyonyādhīpatyāddharmādbhūteśca | yogāddharmādbhūteśca yogāddharmādbhūteśca ||",
+          "translation": "From the mutual control of the senses, from dharma of beings, from yoga of beings, from yoga of beings.",
+          "hindi": "इंद्रियों का परस्पर नियंत्रण से, प्राणियों के धर्म से, प्राणियों के योग से, प्राणियों के योग से।",
+          "commentary": "A sutra that discusses the relationship between the senses, dharma, and yoga. The senses exercise mutual control over each other; beings have their dharma (inherent nature); yoga (union) is the means to realise this dharma. The sutra suggests that understanding the senses and their relationship is part of the inquiry into Brahman. The senses are not obstacles but instruments when properly understood and controlled.",
+          "wordMeaning": "A sutra that discusses the relationship between the senses, dharma, and yoga. The senses exercise mutual control over each other; beings have their dharma (inherent nature); yoga (union) is the means to realise this dharma. The sutra suggests that understanding the senses and their relationship is part of the inquiry into Brahman. The senses are not obstacles but instruments when properly understood and controlled."
+        }
+      ],
+      "titleSanskrit": "फलाध्याय"
+    }
+  ]
+}

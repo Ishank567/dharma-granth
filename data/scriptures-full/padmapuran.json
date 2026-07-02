@@ -1,0 +1,233 @@
+{
+  "id": "padmapuran",
+  "title": "Padma Purana",
+  "titleSanskrit": "पद्मपुराण",
+  "category": "purana",
+  "source": {
+    "repo": "https://sanskritdocuments.org/",
+    "license": "Full text not available. Curated highlights are hand-authored.",
+    "fetchedAt": "2026-06-03T13:44:46.448Z"
+  },
+  "totalVerses": 18,
+  "totalChapters": 8,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Srishti Khanda — Sacred Relationships",
+      "titleSanskrit": "सृष्टिखण्ड",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "सर्वतीर्थमयी माता सर्वदेवमयः पिता |\nमातरं पितरं तस्माद्रक्षेद्धर्मपरायणः ||",
+          "transliteration": "sarvatīrthamayī mātā sarvadevamayaḥ pitā |\nmātaraṃ pitaraṃ tasmādrakṣeddharmaparāyaṇaḥ ||",
+          "translation": "The mother embodies all sacred pilgrimages; the father embodies all gods. Therefore, one devoted to dharma should serve and protect both.",
+          "hindi": "माता सभी तीर्थों का स्वरूप है; पिता सभी देवताओं का। इसलिए धर्मपरायण व्यक्ति को माता और पिता की सेवा करनी चाहिए।",
+          "commentary": "The Padma Purana makes a radical statement about pilgrimage: you don't need to travel anywhere. Your mother IS every Kashi, every Tirupati. Your father IS every deity. Service to parents is more meritorious than any external pilgrimage.",
+          "wordMeaning": "The Padma Purana makes a radical statement about pilgrimage: you don't need to travel anywhere. Your mother IS every Kashi, every Tirupati. Your father IS every deity. Service to parents is more meritorious than any external pilgrimage."
+        },
+        {
+          "number": 2,
+          "sanskrit": "न तेन वृद्धो भवति येनास्य पलितं शिरः |\nयो वै युवाप्यधीयानस्तं देवाः स्थविरं विदुः ||",
+          "transliteration": "na tena vṛddho bhavati yenāsya palitaṃ śiraḥ |\nyo vai yuvāpyadhīyānastaṃ devāḥ sthaviraṃ viduḥ ||",
+          "translation": "One does not become an elder merely because one's hair has turned grey. The one who, even as a youth, is engaged in learning and wisdom — the gods call that one the elder.",
+          "hindi": "केवल बालों के सफेद होने से कोई वृद्ध नहीं हो जाता। जो युवा होते हुए भी विद्या और ज्ञान में लगा है — देवता उसे ही वृद्ध (आदरणीय) मानते हैं।",
+          "commentary": "True seniority is earned not by age but by wisdom. Physical ageing is automatic; inner maturity requires deliberate effort. A young person who pursues genuine learning is more deserving of respect than an aged person who has remained shallow and unconscious.",
+          "wordMeaning": "True seniority is earned not by age but by wisdom. Physical ageing is automatic; inner maturity requires deliberate effort. A young person who pursues genuine learning is more deserving of respect than an aged person who has remained shallow and unconscious."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Uttara Khanda — The Path of Bhakti",
+      "titleSanskrit": "उत्तरखण्ड — भक्तिमार्ग",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "भक्तिर्भगवतो लाभः सुखं सेवा जनार्दने | निर्वेदः स्यादनित्येषु विद्या चात्मनि दर्शनम् ||",
+          "transliteration": "bhaktirbhagavato lābhaḥ sukhaṃ sevā janārdane | nirvedaḥ syādanityeṣu vidyā cātmani darśanam ||",
+          "translation": "Devotion is the gain of the Lord; happiness is service to Janardana; detachment is in the impermanent; knowledge is the vision of the Self.",
+          "hindi": "भगवान की प्राप्ति ही भक्ति है; सुख जनार्दन की सेवा में है; अनित्य वस्तुओं में वैराग्य और आत्मा का दर्शन ही विद्या है।",
+          "commentary": "The Padma Purana defines four essential orientations: devotion as the means of communion with the divine, service as the ground of happiness, detachment from transient things, and self-knowledge as the ultimate form of learning. These four together constitute the complete inner life of a person walking the path of dharma.",
+          "wordMeaning": "The Padma Purana defines four essential orientations: devotion as the means of communion with the divine, service as the ground of happiness, detachment from transient things, and self-knowledge as the ultimate form of learning. These four together constitute the complete inner life of a person walking the path of dharma."
+        },
+        {
+          "number": 2,
+          "sanskrit": "नामसंकीर्तनं विष्णोः सर्वपापप्रणाशनम् | प्रणामः सर्वदुःखघ्नः स्तुतिः कामार्थदायिनी ||",
+          "transliteration": "nāmasaṃkīrtanaṃ viṣṇoḥ sarvapāpapraṇāśanam | praṇāmaḥ sarvaduḥkhghnaḥ stutiḥ kāmārthadāyinī ||",
+          "translation": "The singing of Vishnu's names destroys all sins; bowing destroys all sorrow; praise fulfils desires for meaning and purpose.",
+          "hindi": "विष्णु का नामसंकीर्तन सभी पापों को नष्ट करता है; प्रणाम सभी दुखों को; और स्तुति सभी काम और अर्थ की प्राप्ति देती है।",
+          "commentary": "The Padma Purana prescribes three specific acts of devotion: singing sacred names (kirtan), prostration (pranam), and praise (stuti). Each has its own specific benefit. The deeper teaching is that each activates a different faculty: voice (kirtan), body (pranam), and mind (stuti). Complete devotion engages the whole person — body, breath, and thought — in the direction of the divine.",
+          "wordMeaning": "The Padma Purana prescribes three specific acts of devotion: singing sacred names (kirtan), prostration (pranam), and praise (stuti). Each has its own specific benefit. The deeper teaching is that each activates a different faculty: voice (kirtan), body (pranam), and mind (stuti). Complete devotion engages the whole person — body, breath, and thought — in the direction of the divine."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Bhoomi Khanda — Earth, Pilgrimage and Sacred Geography",
+      "titleSanskrit": "भूमिखण्ड — तीर्थ माहात्म्य",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "तीर्थं नामेह विख्यातं यत्र पापं विनश्यति | मनसा कर्मणा वाचा यत्र सिद्धिर्न दुर्लभा ||",
+          "transliteration": "tīrthaṃ nāmeha vikhyātaṃ yatra pāpaṃ vinaśyati | manasā karmaṇā vācā yatra siddhirnā durlabhā ||",
+          "translation": "A tirtha (sacred place) is that place where sin dissolves — in thought, deed, and word — and where spiritual attainment is not difficult.",
+          "hindi": "वह स्थान तीर्थ कहलाता है जहाँ मन, कर्म और वाणी के पापों का नाश होता है, और जहाँ सिद्धि प्राप्त करना कठिन नहीं होता।",
+          "commentary": "The Padma Purana defines a tirtha not by geography but by what it does: it dissolves the accumulated weight of negative patterns in thought, action, and speech. This is a functional definition — a place becomes sacred when it creates the conditions for transformation. And significantly, that transformation is \"not difficult\" there — suggesting the environment itself is a facilitator.",
+          "wordMeaning": "The Padma Purana defines a tirtha not by geography but by what it does: it dissolves the accumulated weight of negative patterns in thought, action, and speech. This is a functional definition — a place becomes sacred when it creates the conditions for transformation. And significantly, that transformation is \"not difficult\" there — suggesting the environment itself is a facilitator."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Svarga Khanda — Heaven, Virtue, and What Actually Lasts",
+      "titleSanskrit": "स्वर्गखण्ड — स्वर्ग, धर्म और स्थायित्व",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "ते तं भुक्त्वा स्वर्गलोकं विशालं क्षीणे पुण्ये मर्त्यलोकं विशन्ति | एवं त्रयीधर्ममनुप्रपन्ना गतागतं कामकामा लभन्ते ||",
+          "transliteration": "te taṃ bhuktvā svargalokaṃ viśālaṃ kṣīṇe puṇye martyalokaṃ viśanti | evaṃ trayīdharmAmanuprapannā gatāgataṃ kāmakāmā labhante ||",
+          "translation": "Having enjoyed that vast heaven, when the merit is exhausted they re-enter the mortal world. Thus those who follow the three-Veda dharma for the sake of desire — attain only the going and coming back.",
+          "hindi": "उस विशाल स्वर्गलोक को भोगकर, जब पुण्य क्षीण होता है, वे मृत्युलोक में लौट आते हैं। इस प्रकार जो कामनाओं के लिए त्रयी-धर्म का पालन करते हैं — वे केवल आना-जाना प्राप्त करते हैं।",
+          "commentary": "The Padma Purana quotes directly from the Bhagavad Gita (9.21) — Krishna's frank dismissal of heavenly reward as a spiritual goal. The phrase \"gatāgataṃ\" — \"going and coming back\" — is one of the most devastating summaries of transactional religion in all literature. Those who perform virtuous action for the sake of heavenly reward get exactly what they pay for: a temporary stay in a pleasant state, followed by an equally automatic return to where they started. Nothing has been transformed. The Padma Purana places this teaching in its Svarga Khanda deliberately: the chapter about heaven is also the chapter that explains why heaven is not the point.",
+          "wordMeaning": "The Padma Purana quotes directly from the Bhagavad Gita (9.21) — Krishna's frank dismissal of heavenly reward as a spiritual goal. The phrase \"gatāgataṃ\" — \"going and coming back\" — is one of the most devastating summaries of transactional religion in all literature. Those who perform virtuous action for the sake of heavenly reward get exactly what they pay for: a temporary stay in a pleasant state, followed by an equally automatic return to where they started. Nothing has been transformed. The Padma Purana places this teaching in its Svarga Khanda deliberately: the chapter about heaven is also the chapter that explains why heaven is not the point."
+        },
+        {
+          "number": 18,
+          "sanskrit": "धर्मस्य तत्त्वं निहितं गुहायां महाजनो येन गतः स पन्थाः | तर्कोऽप्रतिष्ठः श्रुतयो विभिन्नाः नैको मुनिर्यस्य वचः प्रमाणम् ||",
+          "transliteration": "dharmasya tattvaṃ nihitaṃ guhāyāṃ mahājano yena gataḥ sa panthāḥ | tarko'pratiṣṭhaḥ śrutayo vibhinnāḥ naiko munirYasya vacaḥ pramāṇam ||",
+          "translation": "The essence of dharma is hidden in a cave. The path is that which the great ones have walked. Logic has no firm ground; the scriptures differ; no single sage is the sole authority.",
+          "hindi": "धर्म का तत्त्व गुहा में निहित है। महाजन जिस मार्ग से गये — वही पन्थ है। तर्क अप्रतिष्ठित है; श्रुतियाँ विभिन्न हैं; कोई एक मुनि प्रमाण नहीं है।",
+          "commentary": "One of the most cited verses in all of Sanskrit literature — quoted by Yudhishthira in the Mahabharata and echoed throughout the Puranas. Four observations about the difficulty of knowing dharma: (1) its essence is hidden (not obvious, not on the surface); (2) logic alone cannot determine it (arguments can be constructed for any position); (3) the scriptures themselves differ on key points (they cannot be mechanically applied); (4) no single authority is infallible. The only reliable guide: \"mahājano yena gataḥ sa panthāḥ\" — the path that the great ones have actually walked. Not what they said in theory, but where their lives actually went.",
+          "wordMeaning": "One of the most cited verses in all of Sanskrit literature — quoted by Yudhishthira in the Mahabharata and echoed throughout the Puranas. Four observations about the difficulty of knowing dharma: (1) its essence is hidden (not obvious, not on the surface); (2) logic alone cannot determine it (arguments can be constructed for any position); (3) the scriptures themselves differ on key points (they cannot be mechanically applied); (4) no single authority is infallible. The only reliable guide: \"mahājano yena gataḥ sa panthāḥ\" — the path that the great ones have actually walked. Not what they said in theory, but where their lives actually went."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Patala Khanda — The Teaching to Shiva, on Rama",
+      "titleSanskrit": "पातालखण्ड — शिव को राम का उपदेश",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "रामो राजमणिः सदा विजयते रामं रमेशं भजे | रामेणाभिहता निशाचरचमू रामाय तस्मै नमः | रामान्नास्ति परायणं परतरं रामस्य दासोऽस्म्यहम् | रामे चित्तलयः सदा भवतु मे भो राम मामुद्धर ||",
+          "transliteration": "rāmo rājamaṇiḥ sadā vijayate rāmaṃ rameśaṃ bhaje | rāmeṇābhihatā niśācaracamū rāmāya tasmai namaḥ | rāmānnāsti parāyaṇaṃ parataraṃ rāmasya dāso'smyaham | rāme cittaLayaḥ sadā bhavatu me bho rāma māmuddhara ||",
+          "translation": "Rama, the jewel of kings, always triumphs — I worship Rama, the Lord of Lakshmi. By Rama the army of night-wanderers was struck down — salutation to that Rama. There is no higher refuge than Rama — I am Rama's servant. May my mind always dissolve in Rama — O Rama, uplift me.",
+          "hindi": "राजमणि राम सदा विजयी होते हैं — रमेश राम को मैं भजता हूँ। राम ने राक्षस-सेना को मारा — उस राम को नमस्कार। राम से बड़ा कोई परायण नहीं — मैं राम का दास हूँ। मेरा चित्त सदा राम में लीन रहे — हे राम, मेरा उद्धार करो।",
+          "commentary": "This is Shiva's own prayer to Rama — spoken in the Padma Purana's Patala Khanda. The significance cannot be overstated: in the Hindu theological landscape, Shiva is the supreme deity of the Shaiva tradition and Rama is the supreme deity of one Vaishnava tradition. Shiva praying to Rama with complete surrender — \"rāmasya dāso'smyaham\" (I am Rama's servant) — is the Padma Purana's theological declaration of unity: the highest recognition of any form of the divine dissolves sectarian distinction. \"Rāme citta-layaḥ\" — dissolution of the mind in Rama — is the same state described in Advaita, Yoga, and Bhakti by different names.",
+          "wordMeaning": "This is Shiva's own prayer to Rama — spoken in the Padma Purana's Patala Khanda. The significance cannot be overstated: in the Hindu theological landscape, Shiva is the supreme deity of the Shaiva tradition and Rama is the supreme deity of one Vaishnava tradition. Shiva praying to Rama with complete surrender — \"rāmasya dāso'smyaham\" (I am Rama's servant) — is the Padma Purana's theological declaration of unity: the highest recognition of any form of the divine dissolves sectarian distinction. \"Rāme citta-layaḥ\" — dissolution of the mind in Rama — is the same state described in Advaita, Yoga, and Bhakti by different names."
+        },
+        {
+          "number": 45,
+          "sanskrit": "श्रीरामचन्द्रः शरणं ममास्तु | श्रीरामचन्द्रः शरणं ममास्तु || सर्वे च देवाः शरणं ममास्तु | सर्वे च धर्माः शरणं ममास्तु ||",
+          "transliteration": "śrīrāmacandraḥ śaraṇaṃ mamāstu | śrīrāmacandraḥ śaraṇaṃ mamāstu || sarve ca devāḥ śaraṇaṃ mamāstu | sarve ca dharmāḥ śaraṇaṃ mamāstu ||",
+          "translation": "May Shri Ramachandra be my refuge. May Shri Ramachandra be my refuge. May all the gods be my refuge. May all the dharmas be my refuge.",
+          "hindi": "श्रीरामचन्द्र मेरी शरण हों। श्रीरामचन्द्र मेरी शरण हों। सभी देव मेरी शरण हों। सभी धर्म मेरी शरण हों।",
+          "commentary": "The Padma Purana's sharanagati (refuge-taking) mantra — structured as a progressive surrender: first to Rama specifically (twice — emphasis by repetition), then to all the gods collectively, then to dharma itself as a principle. The structure teaches that genuine surrender is not sectarian narrowness but universal openness: one who has truly surrendered to one form of the divine finds themselves surrendered to all forms and to the principle of the good itself. \"Sarve ca dharmāḥ śaraṇaṃ\" — all the dharmas as refuge — is the Padma Purana's most inclusive formulation: whoever is genuinely walking any path of the good is walking toward the same destination.",
+          "wordMeaning": "The Padma Purana's sharanagati (refuge-taking) mantra — structured as a progressive surrender: first to Rama specifically (twice — emphasis by repetition), then to all the gods collectively, then to dharma itself as a principle. The structure teaches that genuine surrender is not sectarian narrowness but universal openness: one who has truly surrendered to one form of the divine finds themselves surrendered to all forms and to the principle of the good itself. \"Sarve ca dharmāḥ śaraṇaṃ\" — all the dharmas as refuge — is the Padma Purana's most inclusive formulation: whoever is genuinely walking any path of the good is walking toward the same destination."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Kriya Yoga Khanda — The Yoga of Sacred Action",
+      "titleSanskrit": "क्रियायोगखण्ड",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "अन्नं ब्रह्मेति व्यजानात् | प्राणो ब्रह्मेति व्यजानात् | मनो ब्रह्मेति व्यजानात् | वाचं ब्रह्मेति व्यजानात् ||",
+          "transliteration": "annaṃ brahmeti vyajānāt | prāṇo brahmeti vyajānāt | mano brahmeti vyajānāt | vācaṃ brahmeti vyajānāt ||",
+          "translation": "He recognised food as Brahman. He recognised life-breath as Brahman. He recognised mind as Brahman. He recognised speech as Brahman.",
+          "hindi": "उसने अन्न को ब्रह्म जाना। प्राण को ब्रह्म जाना। मन को ब्रह्म जाना। वाणी को ब्रह्म जाना।",
+          "commentary": "The Padma Purana quotes the Taittiriya Upanishad's sequential revelation in the Brahmananda Valli — the teaching of Bhrigu. Each stage of recognising Brahman is a progressively deeper recognition: first the material (food/body), then the vital (breath), then the psychological (mind), then the expressive (speech). This is not a hierarchy in which the earlier recognitions are discarded — each is an expansion of the previous. The one who recognises food as Brahman eats differently: with gratitude, with attention, with the recognition that the energy entering the body is the energy of the cosmos. This is Kriya Yoga made practical: consecrate every act by recognising its substance as the divine.",
+          "wordMeaning": "The Padma Purana quotes the Taittiriya Upanishad's sequential revelation in the Brahmananda Valli — the teaching of Bhrigu. Each stage of recognising Brahman is a progressively deeper recognition: first the material (food/body), then the vital (breath), then the psychological (mind), then the expressive (speech). This is not a hierarchy in which the earlier recognitions are discarded — each is an expansion of the previous. The one who recognises food as Brahman eats differently: with gratitude, with attention, with the recognition that the energy entering the body is the energy of the cosmos. This is Kriya Yoga made practical: consecrate every act by recognising its substance as the divine."
+        },
+        {
+          "number": 28,
+          "sanskrit": "सर्वं कर्म मयि सन्न्यस्य अध्यात्मचेतसा | निराशीर्निर्ममो भूत्वा युध्यस्व विगतज्वरः ||",
+          "transliteration": "sarvaṃ karma mayi sannyasya adhyātmacetasā | nirāśīrnirmamo bhūtvā yudhyasva vigatajvaraḥ ||",
+          "translation": "Having surrendered all actions to Me — with a mind focused on the Self — be without longing, without \"mine,\" and fight — fever-free.",
+          "hindi": "सब कर्म मुझमें अर्पण करके, अध्यात्म-चेतना से — निराशी, निर्मम होकर, ज्वर-रहित होकर युद्ध करो।",
+          "commentary": "The Padma Purana quotes the Bhagavad Gita (3.30) in its Kriya Yoga section — as the definitive instruction for sacred action. Three conditions for karma-yoga: (1) \"sarvaṃ karma mayi sannyasya\" — surrender all actions to the divine (offer the fruit, retain the action); (2) \"adhyātma-cetasā\" — with a mind established in the Self (not ego-driven); (3) \"nirāśīr nirmamo\" — without longing for result, without possessiveness about the outcome. The result: \"vigata-jvaraḥ\" — fever-free. Jvara (fever) is the Gita's and the Padma Purana's metaphor for the anxiety, heat, and agitation that self-centred action generates. Ego-less action runs cool.",
+          "wordMeaning": "The Padma Purana quotes the Bhagavad Gita (3.30) in its Kriya Yoga section — as the definitive instruction for sacred action. Three conditions for karma-yoga: (1) \"sarvaṃ karma mayi sannyasya\" — surrender all actions to the divine (offer the fruit, retain the action); (2) \"adhyātma-cetasā\" — with a mind established in the Self (not ego-driven); (3) \"nirāśīr nirmamo\" — without longing for result, without possessiveness about the outcome. The result: \"vigata-jvaraḥ\" — fever-free. Jvara (fever) is the Gita's and the Padma Purana's metaphor for the anxiety, heat, and agitation that self-centred action generates. Ego-less action runs cool."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Shiva-Gita — Shiva's Teaching on Brahman to Kartikeya",
+      "titleSanskrit": "शिवगीता",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "अहमेव परं ब्रह्म सच्चिदानन्दमव्ययम् | अहमेव परं धाम अहमेव परं पदम् ||",
+          "transliteration": "ahameva paraṃ brahma saccidānandamavyayam | ahameva paraṃ dhāma ahameva paraṃ padam ||",
+          "translation": "I alone am the supreme Brahman — Existence-Consciousness-Bliss, imperishable. I alone am the supreme abode; I alone am the supreme state.",
+          "hindi": "मैं ही परम ब्रह्म हूँ — सच्चिदानन्द, अव्यय। मैं ही परम धाम हूँ; मैं ही परम पद हूँ।",
+          "commentary": "The Shiva-Gita's central declaration — Shiva's first-person identification with Brahman in three terms: Sat (existence — that which is, as opposed to what merely appears to be), Chit (consciousness — that which knows, as opposed to the inert), Ananda (bliss — that whose nature is joy, as opposed to the suffering produced by finitude). Together, Satchidananda is the most precise formulation of what Brahman is: not a being among beings but the ground of being itself, pure knowing itself, and self-luminous joy itself. Shiva does not claim to be one god among many — he claims identity with the ground of all existence. The Padma Purana places this declaration in Shiva's mouth to make its non-sectarian point: the reality that Vedanta calls Brahman, Vaishnavas call Vishnu, and Shaivas call Shiva is the same Satchidananda.",
+          "wordMeaning": "The Shiva-Gita's central declaration — Shiva's first-person identification with Brahman in three terms: Sat (existence — that which is, as opposed to what merely appears to be), Chit (consciousness — that which knows, as opposed to the inert), Ananda (bliss — that whose nature is joy, as opposed to the suffering produced by finitude). Together, Satchidananda is the most precise formulation of what Brahman is: not a being among beings but the ground of being itself, pure knowing itself, and self-luminous joy itself. Shiva does not claim to be one god among many — he claims identity with the ground of all existence. The Padma Purana places this declaration in Shiva's mouth to make its non-sectarian point: the reality that Vedanta calls Brahman, Vaishnavas call Vishnu, and Shaivas call Shiva is the same Satchidananda."
+        },
+        {
+          "number": 5,
+          "sanskrit": "शिवः सर्वत्र शिवः सर्वः शिवः सर्वेषु भूतेषु | यः शिवं पश्यति सर्वत्र स शिवं पश्यति नान्यथा ||",
+          "transliteration": "śivaḥ sarvatra śivaḥ sarvaḥ śivaḥ sarveṣu bhūteṣu | yaḥ śivaṃ paśyati sarvatra sa śivaṃ paśyati nānyathā ||",
+          "translation": "Shiva is everywhere, Shiva is all, Shiva is in all beings. He who sees Shiva everywhere, sees Shiva — not otherwise.",
+          "hindi": "शिव सर्वत्र है, शिव सब कुछ है, शिव सभी प्राणियों में है। जो शिव को सर्वत्र देखता है, वही शिव को देखता है — अन्यथा नहीं।",
+          "commentary": "The Shiva-Gita's teaching on universal Shiva-vision: Shiva is not in temples alone, not in meditation alone, not in holy places alone. \"Sarvatra\" — everywhere, in all things, in all beings. The one who cultivates this vision sees Shiva in the annoying colleague, the difficult relative, the polluted river, the broken system. This is not naive optimism; it is the recognition that consciousness — the one thing common to all experience — is Shiva. To see Shiva everywhere is to recognise the single thread of awareness running through all apparent diversity.",
+          "wordMeaning": "The Shiva-Gita's teaching on universal Shiva-vision: Shiva is not in temples alone, not in meditation alone, not in holy places alone. \"Sarvatra\" — everywhere, in all things, in all beings. The one who cultivates this vision sees Shiva in the annoying colleague, the difficult relative, the polluted river, the broken system. This is not naive optimism; it is the recognition that consciousness — the one thing common to all experience — is Shiva. To see Shiva everywhere is to recognise the single thread of awareness running through all apparent diversity."
+        },
+        {
+          "number": 22,
+          "sanskrit": "न जायते म्रियते वा कदाचिन्नायं भूत्वा भविता वा न भूयः | अजो नित्यः शाश्वतोऽयं पुराणो न हन्यते हन्यमाने शरीरे ||",
+          "transliteration": "na jāyate mriyate vā kadācinnāyaṃ bhūtvā bhavitā vā na bhūyaḥ | ajo nityaḥ śāśvato'yaṃ purāṇo na hanyate hanyamāne śarīre ||",
+          "translation": "It is never born and never dies at any time. It has not come into being and will not come into being. Unborn, eternal, ever-existing, primeval — it is not slain when the body is slain.",
+          "hindi": "यह कभी जन्म नहीं लेता और न मरता है। यह होकर फिर नहीं होगा। अज, नित्य, शाश्वत, पुराण — शरीर के मारे जाने पर यह नहीं मारा जाता।",
+          "commentary": "The Shiva-Gita quotes the Bhagavad Gita (2.20) verbatim — Shiva citing Krishna's teaching as his own authority, a deliberate gesture of unity between Shaiva and Vaishnava traditions. The verse describes the ātman with four negatives and four positives. Negatives: not born, not dying, not having become, not becoming again. Positives: unborn (aja), eternal (nitya), ever-existing (śāśvata), primeval (purāṇa). The key logic: the ātman is the very capacity for existence itself. You cannot destroy the ground of existence with a process that depends on that ground — destruction itself requires existence in order to occur. This is not consolation theology; it is ontological argument.",
+          "wordMeaning": "The Shiva-Gita quotes the Bhagavad Gita (2.20) verbatim — Shiva citing Krishna's teaching as his own authority, a deliberate gesture of unity between Shaiva and Vaishnava traditions. The verse describes the ātman with four negatives and four positives. Negatives: not born, not dying, not having become, not becoming again. Positives: unborn (aja), eternal (nitya), ever-existing (śāśvata), primeval (purāṇa). The key logic: the ātman is the very capacity for existence itself. You cannot destroy the ground of existence with a process that depends on that ground — destruction itself requires existence in order to occur. This is not consolation theology; it is ontological argument."
+        },
+        {
+          "number": 48,
+          "sanskrit": "ज्ञानं यज्ञेन पर्युप्तं यज्ञस्तपसि तिष्ठति | तप आत्मनि तिष्ठत्यात्मा सर्वत्र तिष्ठति ||",
+          "transliteration": "jñānaṃ yajñena paryuptaṃ yajñastapasitiṣṭhati | tapa ātmani tiṣṭhatyātmā sarvatra tiṣṭhati ||",
+          "translation": "Knowledge is purified by sacrifice; sacrifice rests in austerity; austerity rests in the Self; the Self rests everywhere.",
+          "hindi": "ज्ञान यज्ञ से परिष्कृत होता है; यज्ञ तप में स्थित है; तप आत्मा में स्थित है; आत्मा सर्वत्र स्थित है।",
+          "commentary": "The Shiva-Gita's hierarchical teaching on the four great practices: knowledge (jnana) must be purified by sacrifice/offering (yajna) — raw intellectual knowledge without the discipline of offering it back is ego-knowledge, not liberating knowledge. That offering rests in tapas (austerity — the burning of what is unnecessary). Tapas rests in the ātman — all inner discipline is grounded in what is already complete and does not need to be built. And the ātman rests everywhere — it is the universal ground, not a private possession. The chain moves from periphery to centre and then dissolves the centre into the universal. Each step is both a practice and a pointer to the one beneath it.",
+          "wordMeaning": "The Shiva-Gita's hierarchical teaching on the four great practices: knowledge (jnana) must be purified by sacrifice/offering (yajna) — raw intellectual knowledge without the discipline of offering it back is ego-knowledge, not liberating knowledge. That offering rests in tapas (austerity — the burning of what is unnecessary). Tapas rests in the ātman — all inner discipline is grounded in what is already complete and does not need to be built. And the ātman rests everywhere — it is the universal ground, not a private possession. The chain moves from periphery to centre and then dissolves the centre into the universal. Each step is both a practice and a pointer to the one beneath it."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Uttara Khanda — Marks of the True Devotee",
+      "titleSanskrit": "उत्तरखण्ड — भागवत लक्षण",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "अपि चेत्सुदुराचारो भजते मामनन्यभाक् | साधुरेव स मन्तव्यः सम्यग्व्यवसितो हि सः ||",
+          "transliteration": "api cet sudurācāro bhajate māmananyabhāk | sādhureva sa mantavyaḥ samyagvyavasito hi saḥ ||",
+          "translation": "Even if a person of very bad conduct worships Me with undivided devotion — he is to be considered a saint, for he has resolved rightly.",
+          "hindi": "यदि अत्यंत दुराचारी भी अनन्य भाव से मेरा भजन करता है — वह साधु ही मानना चाहिए, क्योंकि उसका निश्चय सम्यक है।",
+          "commentary": "The Padma Purana's Uttara Khanda quotes the Bhagavad Gita (9.30) — one of the most radical verses in Sanskrit literature. A person of \"very bad conduct\" (su-durācāra — with the intensive prefix \"su\") who worships with undivided devotion (ananya-bhāk — not divided between the divine and anything else) is to be considered a sādhu — a saint. The criterion is entirely internal: \"samyag vyavasita\" — rightly resolved, correctly oriented. The direction of the will is the determining factor, not the current state of action. This is the most uncompromising statement of the priority of inner orientation over external conduct in the entire tradition.",
+          "wordMeaning": "The Padma Purana's Uttara Khanda quotes the Bhagavad Gita (9.30) — one of the most radical verses in Sanskrit literature. A person of \"very bad conduct\" (su-durācāra — with the intensive prefix \"su\") who worships with undivided devotion (ananya-bhāk — not divided between the divine and anything else) is to be considered a sādhu — a saint. The criterion is entirely internal: \"samyag vyavasita\" — rightly resolved, correctly oriented. The direction of the will is the determining factor, not the current state of action. This is the most uncompromising statement of the priority of inner orientation over external conduct in the entire tradition."
+        },
+        {
+          "number": 18,
+          "sanskrit": "समोऽहं सर्वभूतेषु न मे द्वेष्योऽस्ति न प्रियः | ये भजन्ति तु मां भक्त्या मयि ते तेषु चाप्यहम् ||",
+          "transliteration": "samo'haṃ sarvabhūteṣu na me dveṣyo'sti na priyaḥ | ye bhajanti tu māṃ bhaktyā mayi te teṣu cāpyaham ||",
+          "translation": "I am equal to all beings — none is hateful to Me, none is dear. But those who worship Me with devotion — they are in Me, and I am in them.",
+          "hindi": "मैं सभी प्राणियों में समान हूँ — न कोई द्वेष्य, न प्रिय। किन्तु जो भक्ति से भजते हैं — वे मुझमें हैं और मैं उनमें हूँ।",
+          "commentary": "The Padma Purana quotes the Bhagavad Gita (9.29) — the divine's own account of how devotion works. Two statements that seem contradictory but resolve beautifully: (1) \"samo'ham sarvabhūteṣu\" — I am equal to all beings, none is specially dear; and (2) \"ye bhajanti... mayi te teṣu cāpyaham\" — those who worship with devotion are in Me and I am in them. The apparent contradiction is the heart of bhakti theology: the divine has no favourites by nature — it is unconditional, like sunlight. But the devotee who turns toward the divine and opens completely creates a specific, intimate relationship — like a window opened toward the sun. The sun doesn't move; the window opens. The relationship is created by the devotee's opening, not by the divine's favouritism.",
+          "wordMeaning": "The Padma Purana quotes the Bhagavad Gita (9.29) — the divine's own account of how devotion works. Two statements that seem contradictory but resolve beautifully: (1) \"samo'ham sarvabhūteṣu\" — I am equal to all beings, none is specially dear; and (2) \"ye bhajanti... mayi te teṣu cāpyaham\" — those who worship with devotion are in Me and I am in them. The apparent contradiction is the heart of bhakti theology: the divine has no favourites by nature — it is unconditional, like sunlight. But the devotee who turns toward the divine and opens completely creates a specific, intimate relationship — like a window opened toward the sun. The sun doesn't move; the window opens. The relationship is created by the devotee's opening, not by the divine's favouritism."
+        },
+        {
+          "number": 35,
+          "sanskrit": "मच्चित्ता मद्गतप्राणा बोधयन्तः परस्परम् | कथयन्तश्च मां नित्यं तुष्यन्ति च रमन्ति च ||",
+          "transliteration": "maccittā madgataprāṇā bodhayantaḥ parasparam | kathayantaśca māṃ nityaṃ tuṣyanti ca ramanti ca ||",
+          "translation": "Their minds absorbed in Me, their life-breath gone to Me — enlightening one another, always speaking of Me — they are satisfied and they rejoice.",
+          "hindi": "मुझमें मन लगाए, मुझमें प्राण अर्पित किए — परस्पर बोध देते हुए, नित्य मेरी कथा करते हुए — वे तृप्त होते हैं और आनन्दित होते हैं।",
+          "commentary": "The Padma Purana quotes Bhagavad Gita (10.9) as the description of the true devotee's life — and it is a description of community, not solitude. \"Bodhayantaḥ parasparam\" — enlightening one another mutually. \"Kathayantaś ca māṃ nityaṃ\" — always speaking of the divine with each other. The genuine bhakta is not a solitary mystic but a member of a community of mutual awakening. The result: \"tuṣyanti ca ramanti ca\" — they are satisfied (content, no longer restlessly seeking) AND they rejoice (active delight, aliveness). The pairing is important: satisfaction without delight is numbness; delight without satisfaction is restlessness. Both together is the mark of genuine bhakti.",
+          "wordMeaning": "The Padma Purana quotes Bhagavad Gita (10.9) as the description of the true devotee's life — and it is a description of community, not solitude. \"Bodhayantaḥ parasparam\" — enlightening one another mutually. \"Kathayantaś ca māṃ nityaṃ\" — always speaking of the divine with each other. The genuine bhakta is not a solitary mystic but a member of a community of mutual awakening. The result: \"tuṣyanti ca ramanti ca\" — they are satisfied (content, no longer restlessly seeking) AND they rejoice (active delight, aliveness). The pairing is important: satisfaction without delight is numbness; delight without satisfaction is restlessness. Both together is the mark of genuine bhakti."
+        }
+      ]
+    }
+  ]
+}

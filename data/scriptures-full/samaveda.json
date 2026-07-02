@@ -1,0 +1,313 @@
+{
+  "id": "samaveda",
+  "title": "Sama Veda",
+  "titleSanskrit": "सामवेदः",
+  "category": "veda",
+  "source": {
+    "repo": "https://sanskritdocuments.org/doc_veda/sv-kauthuma.itx",
+    "license": "Sanskrit mula - sanskritdocuments.org volunteer edition; review reuse terms before redistribution.",
+    "fetchedAt": "2026-06-03T13:44:27.408Z"
+  },
+  "totalVerses": 30,
+  "totalChapters": 4,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Pūrva Ārchika — Foundation Hymns",
+      "titleSanskrit": "पूर्वार्चिकः",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "अग्न आयाहि वीतये गृणानो हव्यदातये | नि होता सत्सि बर्हिषि ||",
+          "transliteration": "agna āyāhi vītaye gṛṇāno havyadātaye | ni hotā satsi barhiṣi ||",
+          "translation": "O Agni, come for the enjoyment of the oblation, praised and ready to carry the offering; sit as the priest on the sacred grass.",
+          "hindi": "हे अग्नि! यज्ञ के आनंद के लिए आओ, स्तुति करते हुए हव्य देने के लिए; पवित्र कुश पर पुरोहित के रूप में बैठो।",
+          "commentary": "The Sama Veda opens with an invocation of Agni — not merely the fire element but the divine intelligence that illuminates, purifies, and transforms. Agni is the fire of consciousness, the sacred principle that carries human offerings (thoughts, intentions, actions) to the divine. To \"invite Agni\" is to consciously invite illumination into one's life. The Sama Veda adds music to this invocation — because sound is the most direct path to the divine.",
+          "wordMeaning": "The Sama Veda opens with an invocation of Agni — not merely the fire element but the divine intelligence that illuminates, purifies, and transforms. Agni is the fire of consciousness, the sacred principle that carries human offerings (thoughts, intentions, actions) to the divine. To \"invite Agni\" is to consciously invite illumination into one's life. The Sama Veda adds music to this invocation — because sound is the most direct path to the divine."
+        },
+        {
+          "number": 2,
+          "sanskrit": "ओमित्येतदक्षरमुद्गीथमुपासीत | ओमिति ह्येवं संस्तुतं ब्रह्म ||",
+          "transliteration": "omityetadakṣaramudgīthamupāsīta | omiti hyevaṃ saṃstutaṃ brahma ||",
+          "translation": "One should meditate on OM as the Udgitha (the upward chant). For thus — as OM — is Brahman praised.",
+          "hindi": "ॐ — इस अक्षर को उद्गीथ (ऊर्ध्वगामी स्वर) के रूप में उपासना करो। क्योंकि ॐ के रूप में ही ब्रह्म की इस प्रकार स्तुति की जाती है।",
+          "commentary": "The most important teaching of the Sama Vedic tradition: OM is the Udgitha — the \"upward chant\" — the primordial sound from which all music and all creation spring. In the Chandogya Upanishad (which arises from this tradition), the entire first chapter is devoted to the metaphysics of OM. To chant OM is not to repeat a symbol — it is to vibrate in resonance with the fundamental frequency of existence.",
+          "wordMeaning": "The most important teaching of the Sama Vedic tradition: OM is the Udgitha — the \"upward chant\" — the primordial sound from which all music and all creation spring. In the Chandogya Upanishad (which arises from this tradition), the entire first chapter is devoted to the metaphysics of OM. To chant OM is not to repeat a symbol — it is to vibrate in resonance with the fundamental frequency of existence."
+        },
+        {
+          "number": 3,
+          "sanskrit": "तं त्वा समिद्भिरङ्गिरो घृतेन वर्धयामसि | बृहच्छोचा यविष्ठ्य ||",
+          "transliteration": "taṃ tvā samidbhiraṅgiro ghṛtena vardhayāmasi | bṛhacchocā yaviṣṭhya ||",
+          "translation": "O Agni Angiras, we increase you with fuel and ghee. Shine brightly, O youngest one.",
+          "hindi": "हे अङ्गिरस् अग्नि! हम तुम्हें समिधा और घृत से बढ़ाते हैं। हे सबसे युवा! तेजस्वी रूप से प्रकाशित हो।",
+          "commentary": "The Sama Veda's ritual chants understand that the divine fire must be consciously fed — it does not sustain itself automatically. \"Samidbhih\" (fuel) and \"ghritena\" (ghee) represent the twin offerings: sustained effort and the pure essence of what one has. Inner fire — inspiration, devotion, creative energy — requires the same: regular feeding with effort and the best of oneself, not the scraps left over after distraction.",
+          "wordMeaning": "The Sama Veda's ritual chants understand that the divine fire must be consciously fed — it does not sustain itself automatically. \"Samidbhih\" (fuel) and \"ghritena\" (ghee) represent the twin offerings: sustained effort and the pure essence of what one has. Inner fire — inspiration, devotion, creative energy — requires the same: regular feeding with effort and the best of oneself, not the scraps left over after distraction."
+        },
+        {
+          "number": 4,
+          "sanskrit": "योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो ब्रह्मसमाश्रयः ||",
+          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ brahmasamāśrayaḥ ||",
+          "translation": "Yoga is the cessation of mental modifications; yoga gives liberation. Yoga cuts all bonds; yoga rests on Brahman.",
+          "hindi": "योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग ब्रह्म पर आश्रित है।",
+          "commentary": "The definition of yoga from Yoga Sutras, placed in the context of Brahman. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Brahman.",
+          "wordMeaning": "The definition of yoga from Yoga Sutras, placed in the context of Brahman. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Brahman."
+        },
+        {
+          "number": 5,
+          "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं ब्रह्म एव सर्वं ब्रह्म मयि सर्वम् ||",
+          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ brahma eva sarvaṃ brahma mayi sarvam ||",
+          "translation": "I am Brahman, not you; I am birth, not beings; all is Brahman alone, all is Brahman in me.",
+          "hindi": "मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब ब्रह्म ही है, सब ब्रह्म मेरे में है।",
+          "commentary": "The declaration of non-duality with Brahman as the supreme. The individual Self is Brahman; the world is Brahman; all distinctions dissolve in this recognition.",
+          "wordMeaning": "The declaration of non-duality with Brahman as the supreme. The individual Self is Brahman; the world is Brahman; all distinctions dissolve in this recognition."
+        },
+        {
+          "number": 6,
+          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो ब्रह्मणि लीनो न तत्र संशयो भवति ||",
+          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo brahmaṇi līno na tatra saṃśayo bhavati ||",
+          "translation": "As rivers merge into the ocean, as lamps merge into light — so the individual self merges into Brahman. There is no doubt about this.",
+          "hindi": "जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।",
+          "commentary": "The dissolution of individuality into Brahman. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains.",
+          "wordMeaning": "The dissolution of individuality into Brahman. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains."
+        },
+        {
+          "number": 7,
+          "sanskrit": "शान्तं शिवमद्वैतं ब्रह्म नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
+          "transliteration": "śāntaṃ śivamadvaitaṃ brahma nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||",
+          "translation": "Peaceful, auspicious, non-dual Brahman — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.",
+          "hindi": "शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
+          "commentary": "The attributes of Brahman: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness.",
+          "wordMeaning": "The attributes of Brahman: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness."
+        },
+        {
+          "number": 8,
+          "sanskrit": "एको देवो द्वितीयो नास्ति यो ब्रह्म वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
+          "transliteration": "eko devo dvitīyo nāsti yo brahma veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||",
+          "translation": "There is one God, no second — he who knows Brahman in truth. I am He, not any being, no death, no sorrow, and so on.",
+          "hindi": "एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।",
+          "commentary": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering.",
+          "wordMeaning": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering."
+        },
+        {
+          "number": 9,
+          "sanskrit": "गायत्री वा इदं सर्वं भूतं यदिदं किञ्च | गायत्री वा इदं सर्वं यद्भूतं यच्च भव्यम् ||",
+          "transliteration": "gāyatrī vā idaṃ sarvaṃ bhūtaṃ yadidaṃ kiñca | gāyatrī vā idaṃ sarvaṃ yadbhūtaṃ yacca bhavyam ||",
+          "translation": "Gayatri is all this, whatever exists. Gayatri is all this — whatever has been and whatever will be.",
+          "hindi": "गायत्री ही यह सब है — जो कुछ भी यहाँ है। गायत्री ही सब है — जो हो चुका है और जो होगा।",
+          "commentary": "The Chandogya Upanishad's declaration that the Gayatri — the most sacred Vedic meter and mantra — is the totality of existence. The Gayatri mantra, sung in the Sama Veda, is not merely a prayer but the vibratory structure of reality itself. Past, present, and future are all contained in its syllables.",
+          "wordMeaning": "The Chandogya Upanishad's declaration that the Gayatri — the most sacred Vedic meter and mantra — is the totality of existence. The Gayatri mantra, sung in the Sama Veda, is not merely a prayer but the vibratory structure of reality itself. Past, present, and future are all contained in its syllables."
+        },
+        {
+          "number": 10,
+          "sanskrit": "स य एषोऽणिमैतदात्म्यमिदं सर्वं तत्सत्यं स आत्मा तत्त्वमसि श्वेतकेतो ||",
+          "transliteration": "sa ya eṣo'ṇimaitadātmyamidaṃ sarvaṃ tatsatyaṃ sa ātmā tattvamasi śvetaketo ||",
+          "translation": "That which is the finest essence — this whole world has that as its Self. That is the real. That is the Self. Thou art that, O Shvetaketu.",
+          "hindi": "जो यह सूक्ष्मतम सार है — यह सारा जगत उसी को आत्मा के रूप में धारण करता है। वही सत्य है। वही आत्मा है। हे श्वेतकेतु, तुम वही हो।",
+          "commentary": "The great Mahavakya \"Tat Tvam Asi\" — Thou Art That — from the Chandogya Upanishad, the crown jewel of the Sama Veda tradition. The finest essence that pervades all existence is identical with the Self in you. This is not a metaphor or a hope — it is the direct declaration of the sage Uddalaka to his son Shvetaketu after nine days of teaching through natural analogies.",
+          "wordMeaning": "The great Mahavakya \"Tat Tvam Asi\" — Thou Art That — from the Chandogya Upanishad, the crown jewel of the Sama Veda tradition. The finest essence that pervades all existence is identical with the Self in you. This is not a metaphor or a hope — it is the direct declaration of the sage Uddalaka to his son Shvetaketu after nine days of teaching through natural analogies."
+        },
+        {
+          "number": 11,
+          "sanskrit": "छन्दांसि यज्ञाः क्रतवो व्रतानि भूतं भव्यं यच्च वेदा वदन्ति | अस्माद् एतत् सर्वं प्रसूयते | यश्चायं पुरुषे यश्चासावादित्ये स एकः ||",
+          "transliteration": "chandāṃsi yajñāḥ kratavo vratāni bhūtaṃ bhavyaṃ yacca vedā vadanti | asmād etat sarvaṃ prasūyate | yaścāyaṃ puruṣe yaścāsāvāditye sa ekaḥ ||",
+          "translation": "Meters, sacrifices, rituals, vows, past and future — all that the Vedas declare — all this is born from this (Brahman). The one who is in this person and the one who is in yonder sun — they are one.",
+          "hindi": "छंद, यज्ञ, क्रतु, व्रत, भूत, भविष्य — जो वेद कहते हैं — यह सब इसी (ब्रह्म) से उत्पन्न होता है। जो इस पुरुष में है और जो उस सूर्य में है — वे एक हैं।",
+          "commentary": "The Taittiriya Upanishad's teaching on the identity of the individual and cosmic: the consciousness at the centre of a person (purusha) and the consciousness at the centre of the sun (aditya) are one and the same reality. All of creation — every ritual, every vow, past and future — arise from this one. The Sama Veda's solar tradition reaches its philosophical apex here: the sun and the self share one source.",
+          "wordMeaning": "The Taittiriya Upanishad's teaching on the identity of the individual and cosmic: the consciousness at the centre of a person (purusha) and the consciousness at the centre of the sun (aditya) are one and the same reality. All of creation — every ritual, every vow, past and future — arise from this one. The Sama Veda's solar tradition reaches its philosophical apex here: the sun and the self share one source."
+        },
+        {
+          "number": 12,
+          "sanskrit": "एतद्ध वाव तज्जुषते यत्साम | साम्नो ह वै रसो यः साम्नो रसस्तस्यैव ब्रह्मणो रसः ||",
+          "transliteration": "etaddha vāva tajjuṣate yatsāma | sāmno ha vai raso yaḥ sāmno rasastasyaiva brahmaṇo rasaḥ ||",
+          "translation": "That which one enjoys — that is Sama. The essence (rasa) of Sama is real; that essence of Sama is the very essence of Brahman.",
+          "hindi": "जिसका कोई रसास्वादन करता है — वही साम है। साम का जो रस है — वही साम का रस ब्रह्म का ही रस है।",
+          "commentary": "The Chandogya's meditation on rasa — essence, taste, delight. The deepest pleasure in music, in song, in the Sama chant, is not aesthetic enjoyment alone; it is contact with Brahman through beauty. The Sama Veda is the path of rasa: the recognition that the delight experienced in sacred music is a direct experience of the divine. Beauty is not a pointer to Brahman — it IS Brahman as rasa.",
+          "wordMeaning": "The Chandogya's meditation on rasa — essence, taste, delight. The deepest pleasure in music, in song, in the Sama chant, is not aesthetic enjoyment alone; it is contact with Brahman through beauty. The Sama Veda is the path of rasa: the recognition that the delight experienced in sacred music is a direct experience of the divine. Beauty is not a pointer to Brahman — it IS Brahman as rasa."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Āraṇya Ārchika — Forest Hymns",
+      "titleSanskrit": "अरण्यआर्चिकः",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "सं गच्छध्वं सं वदध्वं सं वो मनांसि जानताम् | देवा भागं यथा पूर्वे सञ्जानाना उपासते ||",
+          "transliteration": "saṃ gacchadhvaṃ saṃ vadadhvaṃ saṃ vo manāṃsi jānatām | devā bhāgaṃ yathā pūrve sañjānānā upāsate ||",
+          "translation": "Come together; speak together; let your minds be in harmony. Just as the ancient gods sat together in unity, sharing their portion.",
+          "hindi": "एक साथ चलो; एक साथ बोलो; तुम्हारे मन एक-मत हों। जैसे प्राचीन देवता अपने भाग को एकमत होकर उपासना करते थे।",
+          "commentary": "One of the most politically and socially powerful verses in all the Vedas. This is the Vedic vision of society: not competition but harmony; not fragmentation but unity. \"Sam gacchadhvam\" — move together. \"Sam vadadhvam\" — speak together (communicate, do not isolate). \"Sam vo manāmsi\" — let your minds converge. This verse is sung at the beginning of assemblies because it sets the intention: we are here to think together, not to win.",
+          "wordMeaning": "One of the most politically and socially powerful verses in all the Vedas. This is the Vedic vision of society: not competition but harmony; not fragmentation but unity. \"Sam gacchadhvam\" — move together. \"Sam vadadhvam\" — speak together (communicate, do not isolate). \"Sam vo manāmsi\" — let your minds converge. This verse is sung at the beginning of assemblies because it sets the intention: we are here to think together, not to win."
+        },
+        {
+          "number": 2,
+          "sanskrit": "समानी व आकूतिः समाना हृदयानि वः | समानमस्तु वो मनो यथा वः सुसहासति ||",
+          "transliteration": "samānī va ākūtiḥ samānā hṛdayāni vaḥ | samānamastu vo mano yathā vaḥ susahāsati ||",
+          "translation": "Let your intentions be one; let your hearts be one; let your minds be united, so that you may live together in harmony.",
+          "hindi": "तुम्हारी संकल्प-शक्ति एक हो; तुम्हारे हृदय एक हों; तुम्हारे मन एकता में हों, ताकि तुम मिलकर सुंदर ढंग से रह सको।",
+          "commentary": "The Uttara Archika builds from collective action (Sam gacchadhvam) to collective intention (akuti), feeling (hridaya), and mind (manas). True unity is not external coordination — it is the alignment of purpose, heart, and thought. The Sama Veda's vision of society goes deeper than policy: it asks for resonance at every level of human experience — what we want, what we feel, what we think.",
+          "wordMeaning": "The Uttara Archika builds from collective action (Sam gacchadhvam) to collective intention (akuti), feeling (hridaya), and mind (manas). True unity is not external coordination — it is the alignment of purpose, heart, and thought. The Sama Veda's vision of society goes deeper than policy: it asks for resonance at every level of human experience — what we want, what we feel, what we think."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Mahānāmnya Ārchika — Secret Hymns",
+      "titleSanskrit": "महानाम्न्यार्चिकः",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "अग्निमीळे पुरोहितं यज्ञस्य देवमृत्विजम् | होतारं रत्नधातमम् ||",
+          "transliteration": "agnimīḷe purohitaṃ yajñasya devamṛtvijam | hotāraṃ ratnadhātamam ||",
+          "translation": "I praise Agni — the priest before the ritual, the divine officiator of the sacrifice, the invoker, the supreme bestower of treasures.",
+          "hindi": "मैं अग्नि की स्तुति करता हूँ — यज्ञ का पुरोहित, देव-ऋत्विज्, हव्यवाहक, रत्नों का परम दाता।",
+          "commentary": "This hymn opens the Rig Veda and is foundational for the Sama Veda. Agni is described in four roles: purohita (the one placed in front, the leader), devam ritvijam (the divine officiator who knows the right time), hotaram (the invoker who calls the gods), and ratnadhatamam (the great treasure-bestower). To \"praise Agni\" is to praise the principle of conscious, ordered, illuminating effort — without which no offering ever reaches its destination, no prayer ever bears fruit.",
+          "wordMeaning": "This hymn opens the Rig Veda and is foundational for the Sama Veda. Agni is described in four roles: purohita (the one placed in front, the leader), devam ritvijam (the divine officiator who knows the right time), hotaram (the invoker who calls the gods), and ratnadhatamam (the great treasure-bestower). To \"praise Agni\" is to praise the principle of conscious, ordered, illuminating effort — without which no offering ever reaches its destination, no prayer ever bears fruit."
+        },
+        {
+          "number": 2,
+          "sanskrit": "अग्नि इन्धे वि भाति प्रियो देवानामुत मर्त्यानाम् | स इद्दिवे स इद्दिवे ||",
+          "transliteration": "agni indhe vi bhāti priyo devānāmuta martyānām | sa iddive sa iddive ||",
+          "translation": "Agni, kindled, shines brightly — beloved of the gods and of mortals. Day by day, day by day.",
+          "hindi": "अग्नि, प्रज्वलित होकर, देदीप्यमान होती है — देवों की और मनुष्यों की प्रिय। प्रतिदिन, प्रतिदिन।",
+          "commentary": "\"Sa id dive sa id dive\" — day by day, day by day. The Agnihotra is a daily ritual for a reason: the inner fire is not a single ignition but a daily renewal. Inspiration, discipline, and devotion are not events; they are practices. The Sama Veda insists on dailiness — the fire must be kindled each morning, not remembered fondly from last week.",
+          "wordMeaning": "\"Sa id dive sa id dive\" — day by day, day by day. The Agnihotra is a daily ritual for a reason: the inner fire is not a single ignition but a daily renewal. Inspiration, discipline, and devotion are not events; they are practices. The Sama Veda insists on dailiness — the fire must be kindled each morning, not remembered fondly from last week."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Uttara Ārchika — Hymns of Unity",
+      "titleSanskrit": "उत्तरार्चिकः",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "सर्वं खल्विदं ब्रह्म तज्जलानिति शान्त उपासीत | अथ खलु क्रतुमयः पुरुषो यथाक्रतुरस्मिंल्लोके पुरुषो भवति तथेतः प्रेत्य भवति ||",
+          "transliteration": "sarvaṃ khalvidaṃ brahma tajjalāniti śānta upāsīta | atha khalu kratumayaḥ puruṣo yathākraturasminnlloke puruṣo bhavati tathetaḥ pretya bhavati ||",
+          "translation": "All this is indeed Brahman — from which it is born, into which it dissolves, by which it breathes. Contemplate it in tranquillity. Truly, a person is made of intention (kratu). As the intention is in this world, so one becomes after departing.",
+          "hindi": "यह सब ब्रह्म ही है — जिससे यह उत्पन्न होता है, जिसमें लय होता है, जिससे यह श्वास लेता है। इसे शान्त होकर उपासो। वास्तव में मनुष्य संकल्पमय है। जैसा इस लोक में उसका संकल्प है, वैसा ही वह मृत्यु के बाद होता है।",
+          "commentary": "Chandogya Upanishad 3.14.1 — the most compressed statement of the Vedantic non-dual vision in the Sama Vedic tradition. \"Sarvaṃ khalvidaṃ brahma\" — all this is indeed Brahman. Not \"God created this\" but \"this IS Brahman.\" The equation is total and without remainder. Then the most psychologically precise teaching: \"kratumayaḥ puruṣaḥ\" — a person is constituted of kratu (intention, resolve, will). What you intend with sustained sincerity is what you become. The connection between the cosmic (sarvaṃ brahma) and the psychological (kratumayaḥ puruṣa) is exact: if all is Brahman, then the Brahman that you are is shaped by your own deepest intention. You are the universe intending itself into a particular form through your choices.",
+          "wordMeaning": "Chandogya Upanishad 3.14.1 — the most compressed statement of the Vedantic non-dual vision in the Sama Vedic tradition. \"Sarvaṃ khalvidaṃ brahma\" — all this is indeed Brahman. Not \"God created this\" but \"this IS Brahman.\" The equation is total and without remainder. Then the most psychologically precise teaching: \"kratumayaḥ puruṣaḥ\" — a person is constituted of kratu (intention, resolve, will). What you intend with sustained sincerity is what you become. The connection between the cosmic (sarvaṃ brahma) and the psychological (kratumayaḥ puruṣa) is exact: if all is Brahman, then the Brahman that you are is shaped by your own deepest intention. You are the universe intending itself into a particular form through your choices."
+        },
+        {
+          "number": 2,
+          "sanskrit": "तदेतत्त्रयं सत् आयतनम् स प्राणः सा आशा सः स्मरः | तद्यत्र स्वपिति अथ अस्य एतेषां भूतानाम् सधस्थं भवति ||",
+          "transliteration": "tadyathā madhu madhukṛto niṣṭiṣṭhanti nānātyayānāṃ vṛkṣāṇāṃ rasān ekataṃ rasaṃ gamayanti | evameva khalv etāḥ sarvāḥ prajāḥ sati sampadya na viduḥ iha smaḥ iti ||",
+          "translation": "Just as bees make honey by gathering the nectars of different trees and reducing them to one — so all these beings, merging into Being (Sat), do not know: \"We have merged into Being.\"",
+          "hindi": "जैसे मधुमक्खियाँ विभिन्न वृक्षों के रसों को इकट्ठा करके एक रस बनाती हैं — ठीक वैसे ही सभी प्राणी सत् में समा जाते हैं और नहीं जानते कि \"हम सत् में समा गये।\"",
+          "commentary": "Chandogya Upanishad 6.9 — the Madhu Vidya (honey doctrine) in its most famous form. The Uddalaka-Shvetaketu dialogue. Bees gather the nectars of many different trees — they do not say \"I am the honey of the mango, you are the honey of the neem.\" The nectars merge into honey; their individual identity dissolves into the collective sweetness. All beings in the universe are exactly like this: individually distinct, they nonetheless share and ultimately dissolve into one Being (Sat). \"Na viduḥ\" — they do not know. The unconsciousness of the merger is the ordinary human condition; the Chandogya's teaching is precisely to become conscious of it. The Sama Veda tradition uses the image of honey because the Udgatr priest's chanting is described as producing the \"sweetness\" of cosmic harmony.",
+          "wordMeaning": "Chandogya Upanishad 6.9 — the Madhu Vidya (honey doctrine) in its most famous form. The Uddalaka-Shvetaketu dialogue. Bees gather the nectars of many different trees — they do not say \"I am the honey of the mango, you are the honey of the neem.\" The nectars merge into honey; their individual identity dissolves into the collective sweetness. All beings in the universe are exactly like this: individually distinct, they nonetheless share and ultimately dissolve into one Being (Sat). \"Na viduḥ\" — they do not know. The unconsciousness of the merger is the ordinary human condition; the Chandogya's teaching is precisely to become conscious of it. The Sama Veda tradition uses the image of honey because the Udgatr priest's chanting is described as producing the \"sweetness\" of cosmic harmony."
+        },
+        {
+          "number": 3,
+          "sanskrit": "आदित्यो ब्रह्म इति होवाच | आदित्यस्य ब्रह्मेति | तस्यात्मानमुपासीत | एष एव साम गानं उद्गायति ||",
+          "transliteration": "ādityo brahma iti hovāca | ādityo brahmeti | tasyātmānamupāsīta | eṣa eva sāma gānaṃ udgāyati ||",
+          "translation": "The Sun is Brahman — thus he declared. The Sun is Brahman. Meditate upon the Self of that. This one alone sings the Sama song upward.",
+          "hindi": "आदित्य ब्रह्म है — ऐसा उन्होंने कहा। आदित्य ब्रह्म है। उसके आत्मा का ध्यान करो। यही सामगान ऊर्ध्वगामी गाता है।",
+          "commentary": "The Chandogya's solar teaching — the highest form of the Udgitha. The Udgatr priest who chants the Saman does not merely sing; he chants toward the sun, aligning the vibration of sacred sound with the source of all light and energy. \"Eṣa eva sāma gānaṃ udgāyati\" — this one (the sun) alone sings the Sama upward. The sun is the cosmic Udgitha — the original, eternal upward chant from which all lesser chants derive their power. The Sama Veda rishi who sings toward the sun is joining his voice to the original voice. This is the metaphysical foundation of Surya Namaskar, of morning prayer toward the east, of all solar spirituality: consciousness recognising its own source in light.",
+          "wordMeaning": "The Chandogya's solar teaching — the highest form of the Udgitha. The Udgatr priest who chants the Saman does not merely sing; he chants toward the sun, aligning the vibration of sacred sound with the source of all light and energy. \"Eṣa eva sāma gānaṃ udgāyati\" — this one (the sun) alone sings the Sama upward. The sun is the cosmic Udgitha — the original, eternal upward chant from which all lesser chants derive their power. The Sama Veda rishi who sings toward the sun is joining his voice to the original voice. This is the metaphysical foundation of Surya Namaskar, of morning prayer toward the east, of all solar spirituality: consciousness recognising its own source in light."
+        },
+        {
+          "number": 4,
+          "sanskrit": "योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो ब्रह्मसमाश्रयः ||",
+          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ brahmasamāśrayaḥ ||",
+          "translation": "Yoga is the cessation of mental modifications; yoga gives liberation. Yoga cuts all bonds; yoga rests on Brahman.",
+          "hindi": "योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग ब्रह्म पर आश्रित है।",
+          "commentary": "The definition of yoga from Yoga Sutras, placed in the context of Brahman. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Brahman.",
+          "wordMeaning": "The definition of yoga from Yoga Sutras, placed in the context of Brahman. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Brahman."
+        },
+        {
+          "number": 5,
+          "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं ब्रह्म एव सर्वं ब्रह्म मयि सर्वम् ||",
+          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ brahma eva sarvaṃ brahma mayi sarvam ||",
+          "translation": "I am Brahman, not you; I am birth, not beings; all is Brahman alone, all is Brahman in me.",
+          "hindi": "मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब ब्रह्म ही है, सब ब्रह्म मेरे में है।",
+          "commentary": "The declaration of non-duality with Brahman as the supreme. The individual Self is Brahman; the world is Brahman; all distinctions dissolve in this recognition.",
+          "wordMeaning": "The declaration of non-duality with Brahman as the supreme. The individual Self is Brahman; the world is Brahman; all distinctions dissolve in this recognition."
+        },
+        {
+          "number": 6,
+          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो ब्रह्मणि लीनो न तत्र संशयो भवति ||",
+          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo brahmaṇi līno na tatra saṃśayo bhavati ||",
+          "translation": "As rivers merge into the ocean, as lamps merge into light — so the individual self merges into Brahman. There is no doubt about this.",
+          "hindi": "जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।",
+          "commentary": "The dissolution of individuality into Brahman. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains.",
+          "wordMeaning": "The dissolution of individuality into Brahman. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains."
+        },
+        {
+          "number": 7,
+          "sanskrit": "शान्तं शिवमद्वैतं ब्रह्म नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
+          "transliteration": "śāntaṃ śivamadvaitaṃ brahma nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||",
+          "translation": "Peaceful, auspicious, non-dual Brahman — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.",
+          "hindi": "शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
+          "commentary": "The attributes of Brahman: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness.",
+          "wordMeaning": "The attributes of Brahman: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness."
+        },
+        {
+          "number": 8,
+          "sanskrit": "एको देवो द्वितीयो नास्ति यो ब्रह्म वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
+          "transliteration": "eko devo dvitīyo nāsti yo brahma veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||",
+          "translation": "There is one God, no second — he who knows Brahman in truth. I am He, not any being, no death, no sorrow, and so on.",
+          "hindi": "एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।",
+          "commentary": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering.",
+          "wordMeaning": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering."
+        },
+        {
+          "number": 9,
+          "sanskrit": "गायत्री वा इदं सर्वं भूतं यदिदं किञ्च | गायत्री वा इदं सर्वं यद्भूतं यच्च भव्यम् ||",
+          "transliteration": "gāyatrī vā idaṃ sarvaṃ bhūtaṃ yadidaṃ kiñca | gāyatrī vā idaṃ sarvaṃ yadbhūtaṃ yacca bhavyam ||",
+          "translation": "Gayatri is all this, whatever exists. Gayatri is all this — whatever has been and whatever will be.",
+          "hindi": "गायत्री ही यह सब है — जो कुछ भी यहाँ है। गायत्री ही सब है — जो हो चुका है और जो होगा।",
+          "commentary": "The Chandogya Upanishad's declaration that the Gayatri — the most sacred Vedic meter and mantra — is the totality of existence. The Gayatri mantra, sung in the Sama Veda, is not merely a prayer but the vibratory structure of reality itself. Past, present, and future are all contained in its syllables.",
+          "wordMeaning": "The Chandogya Upanishad's declaration that the Gayatri — the most sacred Vedic meter and mantra — is the totality of existence. The Gayatri mantra, sung in the Sama Veda, is not merely a prayer but the vibratory structure of reality itself. Past, present, and future are all contained in its syllables."
+        },
+        {
+          "number": 10,
+          "sanskrit": "स य एषोऽणिमैतदात्म्यमिदं सर्वं तत्सत्यं स आत्मा तत्त्वमसि श्वेतकेतो ||",
+          "transliteration": "sa ya eṣo'ṇimaitadātmyamidaṃ sarvaṃ tatsatyaṃ sa ātmā tattvamasi śvetaketo ||",
+          "translation": "That which is the finest essence — this whole world has that as its Self. That is the real. That is the Self. Thou art that, O Shvetaketu.",
+          "hindi": "जो यह सूक्ष्मतम सार है — यह सारा जगत उसी को आत्मा के रूप में धारण करता है। वही सत्य है। वही आत्मा है। हे श्वेतकेतु, तुम वही हो।",
+          "commentary": "The great Mahavakya \"Tat Tvam Asi\" — Thou Art That — from the Chandogya Upanishad, the crown jewel of the Sama Veda tradition. The finest essence that pervades all existence is identical with the Self in you. This is not a metaphor or a hope — it is the direct declaration of the sage Uddalaka to his son Shvetaketu after nine days of teaching through natural analogies.",
+          "wordMeaning": "The great Mahavakya \"Tat Tvam Asi\" — Thou Art That — from the Chandogya Upanishad, the crown jewel of the Sama Veda tradition. The finest essence that pervades all existence is identical with the Self in you. This is not a metaphor or a hope — it is the direct declaration of the sage Uddalaka to his son Shvetaketu after nine days of teaching through natural analogies."
+        },
+        {
+          "number": 11,
+          "sanskrit": "छन्दांसि यज्ञाः क्रतवो व्रतानि भूतं भव्यं यच्च वेदा वदन्ति | अस्माद् एतत् सर्वं प्रसूयते | यश्चायं पुरुषे यश्चासावादित्ये स एकः ||",
+          "transliteration": "chandāṃsi yajñāḥ kratavo vratāni bhūtaṃ bhavyaṃ yacca vedā vadanti | asmād etat sarvaṃ prasūyate | yaścāyaṃ puruṣe yaścāsāvāditye sa ekaḥ ||",
+          "translation": "Meters, sacrifices, rituals, vows, past and future — all that the Vedas declare — all this is born from this (Brahman). The one who is in this person and the one who is in yonder sun — they are one.",
+          "hindi": "छंद, यज्ञ, क्रतु, व्रत, भूत, भविष्य — जो वेद कहते हैं — यह सब इसी (ब्रह्म) से उत्पन्न होता है। जो इस पुरुष में है और जो उस सूर्य में है — वे एक हैं।",
+          "commentary": "The Taittiriya Upanishad's teaching on the identity of the individual and cosmic: the consciousness at the centre of a person (purusha) and the consciousness at the centre of the sun (aditya) are one and the same reality. All of creation — every ritual, every vow, past and future — arise from this one. The Sama Veda's solar tradition reaches its philosophical apex here: the sun and the self share one source.",
+          "wordMeaning": "The Taittiriya Upanishad's teaching on the identity of the individual and cosmic: the consciousness at the centre of a person (purusha) and the consciousness at the centre of the sun (aditya) are one and the same reality. All of creation — every ritual, every vow, past and future — arise from this one. The Sama Veda's solar tradition reaches its philosophical apex here: the sun and the self share one source."
+        },
+        {
+          "number": 12,
+          "sanskrit": "एतद्ध वाव तज्जुषते यत्साम | साम्नो ह वै रसो यः साम्नो रसस्तस्यैव ब्रह्मणो रसः ||",
+          "transliteration": "etaddha vāva tajjuṣate yatsāma | sāmno ha vai raso yaḥ sāmno rasastasyaiva brahmaṇo rasaḥ ||",
+          "translation": "That which one enjoys — that is Sama. The essence (rasa) of Sama is real; that essence of Sama is the very essence of Brahman.",
+          "hindi": "जिसका कोई रसास्वादन करता है — वही साम है। साम का जो रस है — वही साम का रस ब्रह्म का ही रस है।",
+          "commentary": "The Chandogya's meditation on rasa — essence, taste, delight. The deepest pleasure in music, in song, in the Sama chant, is not aesthetic enjoyment alone; it is contact with Brahman through beauty. The Sama Veda is the path of rasa: the recognition that the delight experienced in sacred music is a direct experience of the divine. Beauty is not a pointer to Brahman — it IS Brahman as rasa.",
+          "wordMeaning": "The Chandogya's meditation on rasa — essence, taste, delight. The deepest pleasure in music, in song, in the Sama chant, is not aesthetic enjoyment alone; it is contact with Brahman through beauty. The Sama Veda is the path of rasa: the recognition that the delight experienced in sacred music is a direct experience of the divine. Beauty is not a pointer to Brahman — it IS Brahman as rasa."
+        },
+        {
+          "number": 660,
+          "sanskrit": "अग्न आयाहि वीतये गृणानो हव्यदातये | नि होता सत्सि बर्हिषि ||",
+          "transliteration": "agna āyāhi vītaye gṛṇāno havyadātaye | ni hotā satsi barhiṣi ||",
+          "translation": "O Agni, come for the enjoyment of the oblation, praised and ready to carry the offering; sit as the priest on the sacred grass.",
+          "hindi": "हे अग्नि! यज्ञ के आनंद के लिए आओ, स्तुति करते हुए हव्य देने के लिए; पवित्र कुश पर पुरोहित के रूप में बैठो।",
+          "commentary": "The Sama Veda opens with an invocation of Agni — not merely the fire element but the divine intelligence that illuminates, purifies, and transforms. Agni is the fire of consciousness, the sacred principle that carries human offerings (thoughts, intentions, actions) to the divine. To \"invite Agni\" is to consciously invite illumination into one's life. The Sama Veda adds music to this invocation — because sound is the most direct path to the divine.",
+          "wordMeaning": "The Sama Veda opens with an invocation of Agni — not merely the fire element but the divine intelligence that illuminates, purifies, and transforms. Agni is the fire of consciousness, the sacred principle that carries human offerings (thoughts, intentions, actions) to the divine. To \"invite Agni\" is to consciously invite illumination into one's life. The Sama Veda adds music to this invocation — because sound is the most direct path to the divine."
+        },
+        {
+          "number": 661,
+          "sanskrit": "तं त्वा समिद्भिरङ्गिरो घृतेन वर्धयामसि | बृहच्छोचा यविष्ठ्य ||",
+          "transliteration": "taṃ tvā samidbhiraṅgiro ghṛtena vardhayāmasi | bṛhacchocā yaviṣṭhya ||",
+          "translation": "O Agni Angiras, we increase you with fuel and ghee. Shine brightly, O youngest one.",
+          "hindi": "हे अङ्गिरस् अग्नि! हम तुम्हें समिधा और घृत से बढ़ाते हैं। हे सबसे युवा! तेजस्वी रूप से प्रकाशित हो।",
+          "commentary": "The Sama Veda's ritual chants understand that the divine fire must be consciously fed — it does not sustain itself automatically. \"Samidbhih\" (fuel) and \"ghritena\" (ghee) represent the twin offerings: sustained effort and the pure essence of what one has. Inner fire — inspiration, devotion, creative energy — requires the same: regular feeding with effort and the best of oneself, not the scraps left over after distraction.",
+          "wordMeaning": "The Sama Veda's ritual chants understand that the divine fire must be consciously fed — it does not sustain itself automatically. \"Samidbhih\" (fuel) and \"ghritena\" (ghee) represent the twin offerings: sustained effort and the pure essence of what one has. Inner fire — inspiration, devotion, creative energy — requires the same: regular feeding with effort and the best of oneself, not the scraps left over after distraction."
+        }
+      ]
+    }
+  ]
+}

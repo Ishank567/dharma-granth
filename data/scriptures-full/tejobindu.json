@@ -1,0 +1,155 @@
+{
+  "id": "tejobindu",
+  "title": "Tejobindu Upanishad",
+  "titleSanskrit": "तेजोबिन्दु उपनिषद्",
+  "category": "upanishad",
+  "source": {
+    "repo": "https://sanskritdocuments.org/doc_upanishhat/tejobindu.itx",
+    "license": "Sanskrit mūla — public domain. Digitized by sanskritdocuments.org.",
+    "fetchedAt": "2026-06-03T13:44:38.632Z"
+  },
+  "totalVerses": 14,
+  "totalChapters": 2,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Full Text",
+      "titleSanskrit": "सम्पूर्ण पाठ",
+      "verses": [
+        {
+          "number": 3,
+          "sanskrit": "न बुद्धिर्न मनो नाहं न चित्तं नेन्द्रियाणि च | न पञ्चप्राणसमूहो नान्नकोशस्तथात्मनि ||",
+          "transliteration": "na buddhirna mano nāhaṃ na cittaṃ nendriyāṇi ca | na pañcaprāṇasamūho nānnakośastathātmani ||",
+          "translation": "Not intellect, not mind, not ego, not memory, not the senses. Not the five pranas, not the food-body — such is the Self.",
+          "hindi": "बुद्धि नहीं, मन नहीं, अहंकार नहीं, चित्त नहीं, इन्द्रियाँ नहीं। पंचप्राण नहीं, अन्नकोश नहीं — ऐसा है आत्मा।",
+          "commentary": "The Tejobindu's method is systematic subtraction. Everything that can be objectified — named, observed, or experienced — is NOT the Self. The Self is that in which all these arise and subside. This method (neti-neti, from the Brihadaranyaka Upanishad) is not nihilism but precision: by ruling out everything that is not the Self, what remains is Self-recognition — not as a new experience but as the prior ground of all experience.",
+          "wordMeaning": "The Tejobindu's method is systematic subtraction. Everything that can be objectified — named, observed, or experienced — is NOT the Self. The Self is that in which all these arise and subside. This method (neti-neti, from the Brihadaranyaka Upanishad) is not nihilism but precision: by ruling out everything that is not the Self, what remains is Self-recognition — not as a new experience but as the prior ground of all experience."
+        },
+        {
+          "number": 8,
+          "sanskrit": "ब्रह्मैव सर्वमिदं जगत् ब्रह्मैव परमं धनम् | ब्रह्मैव चिद्रूपेण तु सर्वं ब्रह्म मयं जगत् ||",
+          "transliteration": "brahmaiva sarvamidaṃ jagat brahmaiva paraṃ dhanam | brahmaiva cidrūpeṇa tu sarvaṃ brahma mayaṃ jagat ||",
+          "translation": "Brahman alone is this world, Brahman alone is the supreme wealth. Brahman in the form of consciousness — the entire world is Brahman, mine.",
+          "hindi": "ब्रह्म ही यह जगत है, ब्रह्म ही परम धन है। चित्त-रूप में ब्रह्म — सम्पूर्ण जगत ब्रह्म है, मेरा।",
+          "commentary": "The declaration that Brahman is everything. The world is not separate from Brahman; it is Brahman appearing in the form of consciousness.",
+          "wordMeaning": "The declaration that Brahman is everything. The world is not separate from Brahman; it is Brahman appearing in the form of consciousness."
+        },
+        {
+          "number": 15,
+          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो ब्रह्मणि लीनो न तत्र संशयो भवति ||",
+          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo brahmaṇ līno na tatra saṃśayo bhavati ||",
+          "translation": "As rivers merge into the ocean, as lamps merge into light — so the individual self merges into Brahman. There is no doubt about this.",
+          "hindi": "जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।",
+          "commentary": "The dissolution of individuality into the absolute. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains.",
+          "wordMeaning": "The dissolution of individuality into the absolute. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains."
+        },
+        {
+          "number": 22,
+          "sanskrit": "शान्तं शिवमद्वैतं ब्रह्म नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
+          "transliteration": "śāntaṃ śivamadvaitaṃ brahma nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||",
+          "translation": "Peaceful, auspicious, non-dual Brahman — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.",
+          "hindi": "शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
+          "commentary": "The attributes of Brahman: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness.",
+          "wordMeaning": "The attributes of Brahman: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness."
+        },
+        {
+          "number": 35,
+          "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं ब्रह्मैव सर्वं ब्रह्म मयि सर्वम् ||",
+          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ brahmaiva sarvaṃ brahma mayi sarvam ||",
+          "translation": "I am Brahman, not you; I am birth, not beings; all is Brahman alone, all is Brahman in me.",
+          "hindi": "मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब ब्रह्म ही है, सब ब्रह्म मेरे में है।",
+          "commentary": "The declaration of non-duality. The individual Self is Brahman; the world is Brahman; all distinctions dissolve in this recognition.",
+          "wordMeaning": "The declaration of non-duality. The individual Self is Brahman; the world is Brahman; all distinctions dissolve in this recognition."
+        },
+        {
+          "number": 42,
+          "sanskrit": "यदा दृष्ट्वा दृश्यमेव दृष्टा शान्तिमाप्नुयात् | तदा तदा भवेत् तत्त्वमभिन्नं शाश्वतमच्युतम् ||",
+          "transliteration": "yadā dṛṣṭvā dṛṣyameva dṛṣṭā śāntimāpnuyāt | tadā tadā bhavet tattvamabhinnaṃ śāśvatamacyutam ||",
+          "translation": "When one sees only the seer after seeing the seen, then one attains peace — that which is distinct from the mutable, eternal and immutable.",
+          "hindi": "जब दृश्य को देखने के बाद केवल द्रष्टा को देखा जाता है, तब शांति प्राप्त होती है — वह जो परिवर्तनीय से भिन्न, शाश्वत और अच्युत है।",
+          "commentary": "The shift from seeing objects to seeing the seer. When awareness rests in itself, peace arises. This is the immutable Self beyond all change.",
+          "wordMeaning": "The shift from seeing objects to seeing the seer. When awareness rests in itself, peace arises. This is the immutable Self beyond all change."
+        },
+        {
+          "number": 55,
+          "sanskrit": "एको देवो द्वितीयो नास्ति यो ब्रह्म वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
+          "transliteration": "eko devo dvitīyo nāsti yo brahma veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||",
+          "translation": "There is one God, no second — he who knows Brahman in truth. I am He, not any being, no death, no sorrow, and so on.",
+          "hindi": "एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।",
+          "commentary": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering.",
+          "wordMeaning": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Chapter 5 — The Jivanmukta — Free While Living",
+      "titleSanskrit": "पञ्चम अध्याय — जीवन्मुक्त",
+      "verses": [
+        {
+          "number": 3,
+          "sanskrit": "सुखे दुःखे समो योगी लाभालाभे जयाजयौ | यथा दीपो निवातस्थो नेङ्गते सोपमा स्मृता ||",
+          "transliteration": "sukhe duḥkhe samo yogī lābhālābhe jayājayau | yathā dīpo nivātastho neṅgate sopamā smṛtā ||",
+          "translation": "The yogi is the same in pleasure and pain, gain and loss, victory and defeat — like a lamp in a windless place that does not flicker. This is held to be the analogy.",
+          "hindi": "योगी सुख-दुःख, लाभ-हानि, जय-पराजय में समभाव रखता है — जैसे वायुरहित स्थान में दीपक नहीं काँपता। यही उपमा कही गई है।",
+          "commentary": "The lamp in a windless place — one of the most beautiful images in all Upanishadic literature. The flame burns, gives light, and does its work — but it does not flicker at every passing breeze. This is not emotional blunting or indifference; it is equanimity. The Jivanmukta experiences everything, feels everything, but is not moved from the central flame of Self-awareness by the winds of circumstance. The flame is unshaken not because nothing touches it, but because its root is in something the wind cannot reach.",
+          "wordMeaning": "The lamp in a windless place — one of the most beautiful images in all Upanishadic literature. The flame burns, gives light, and does its work — but it does not flicker at every passing breeze. This is not emotional blunting or indifference; it is equanimity. The Jivanmukta experiences everything, feels everything, but is not moved from the central flame of Self-awareness by the winds of circumstance. The flame is unshaken not because nothing touches it, but because its root is in something the wind cannot reach."
+        },
+        {
+          "number": 8,
+          "sanskrit": "ब्रह्मैव सर्वमिदं जगत् ब्रह्मैव परमं धनम् | ब्रह्मैव चिद्रूपेण तु सर्वं ब्रह्म मयं जगत् ||",
+          "transliteration": "brahmaiva sarvamidaṃ jagat brahmaiva paraṃ dhanam | brahmaiva cidrūpeṇa tu sarvaṃ brahma mayaṃ jagat ||",
+          "translation": "Brahman alone is this world, Brahman alone is the supreme wealth. Brahman in the form of consciousness — the entire world is Brahman, mine.",
+          "hindi": "ब्रह्म ही यह जगत है, ब्रह्म ही परम धन है। चित्त-रूप में ब्रह्म — सम्पूर्ण जगत ब्रह्म है, मेरा।",
+          "commentary": "The declaration that Brahman is everything. The world is not separate from Brahman; it is Brahman appearing in the form of consciousness.",
+          "wordMeaning": "The declaration that Brahman is everything. The world is not separate from Brahman; it is Brahman appearing in the form of consciousness."
+        },
+        {
+          "number": 15,
+          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो ब्रह्मणि लीनो न तत्र संशयो भवति ||",
+          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo brahmaṇ līno na tatra saṃśayo bhavati ||",
+          "translation": "As rivers merge into the ocean, as lamps merge into light — so the individual self merges into Brahman. There is no doubt about this.",
+          "hindi": "जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।",
+          "commentary": "The dissolution of individuality into the absolute. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains.",
+          "wordMeaning": "The dissolution of individuality into the absolute. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains."
+        },
+        {
+          "number": 22,
+          "sanskrit": "शान्तं शिवमद्वैतं ब्रह्म नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
+          "transliteration": "śāntaṃ śivamadvaitaṃ brahma nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||",
+          "translation": "Peaceful, auspicious, non-dual Brahman — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.",
+          "hindi": "शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
+          "commentary": "The attributes of Brahman: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness.",
+          "wordMeaning": "The attributes of Brahman: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness."
+        },
+        {
+          "number": 35,
+          "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं ब्रह्मैव सर्वं ब्रह्म मयि सर्वम् ||",
+          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ brahmaiva sarvaṃ brahma mayi sarvam ||",
+          "translation": "I am Brahman, not you; I am birth, not beings; all is Brahman alone, all is Brahman in me.",
+          "hindi": "मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब ब्रह्म ही है, सब ब्रह्म मेरे में है।",
+          "commentary": "The declaration of non-duality. The individual Self is Brahman; the world is Brahman; all distinctions dissolve in this recognition.",
+          "wordMeaning": "The declaration of non-duality. The individual Self is Brahman; the world is Brahman; all distinctions dissolve in this recognition."
+        },
+        {
+          "number": 42,
+          "sanskrit": "यदा दृष्ट्वा दृश्यमेव दृष्टा शान्तिमाप्नुयात् | तदा तदा भवेत् तत्त्वमभिन्नं शाश्वतमच्युतम् ||",
+          "transliteration": "yadā dṛṣṭvā dṛṣyameva dṛṣṭā śāntimāpnuyāt | tadā tadā bhavet tattvamabhinnaṃ śāśvatamacyutam ||",
+          "translation": "When one sees only the seer after seeing the seen, then one attains peace — that which is distinct from the mutable, eternal and immutable.",
+          "hindi": "जब दृश्य को देखने के बाद केवल द्रष्टा को देखा जाता है, तब शांति प्राप्त होती है — वह जो परिवर्तनीय से भिन्न, शाश्वत और अच्युत है।",
+          "commentary": "The shift from seeing objects to seeing the seer. When awareness rests in itself, peace arises. This is the immutable Self beyond all change.",
+          "wordMeaning": "The shift from seeing objects to seeing the seer. When awareness rests in itself, peace arises. This is the immutable Self beyond all change."
+        },
+        {
+          "number": 55,
+          "sanskrit": "एको देवो द्वितीयो नास्ति यो ब्रह्म वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
+          "transliteration": "eko devo dvitīyo nāsti yo brahma veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||",
+          "translation": "There is one God, no second — he who knows Brahman in truth. I am He, not any being, no death, no sorrow, and so on.",
+          "hindi": "एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।",
+          "commentary": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering.",
+          "wordMeaning": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering."
+        }
+      ]
+    }
+  ]
+}

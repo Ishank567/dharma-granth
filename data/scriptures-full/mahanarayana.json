@@ -1,0 +1,162 @@
+{
+  "id": "mahanarayana",
+  "title": "Mahanarayana Upanishad",
+  "titleSanskrit": "महानारायण उपनिषद्",
+  "category": "upanishad",
+  "source": {
+    "repo": "https://sanskritdocuments.org/doc_upanishhat/mahanarayana.itx",
+    "license": "Sanskrit mūla — public domain. Digitized by sanskritdocuments.org.",
+    "fetchedAt": "2026-06-03T13:44:37.189Z"
+  },
+  "totalVerses": 14,
+  "totalChapters": 3,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Full Text",
+      "titleSanskrit": "सम्पूर्ण पाठ",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "अन्तर्बहिश्च तत्सर्वं व्याप्य नारायणः स्थितः ||",
+          "transliteration": "antarbahiśca tatsarvaṃ vyāpya nārāyaṇaḥ sthitaḥ ||",
+          "translation": "Narayana pervades all this — both within and without — and remains.",
+          "hindi": "नारायण इस सम्पूर्ण जगत को — भीतर और बाहर दोनों को — व्याप्त करके स्थित हैं।",
+          "commentary": "The Mahanarayana Upanishad's core declaration: Narayana (the all-pervading divine) is not located in a specific place — not just in temples, or in the sky, or in the heart. He is antarbahish — within and without simultaneously. The within is consciousness; the without is the material universe. One reality pervades both. This is not theology but metaphysics: the same ground supports subjective experience and objective reality.",
+          "wordMeaning": "The Mahanarayana Upanishad's core declaration: Narayana (the all-pervading divine) is not located in a specific place — not just in temples, or in the sky, or in the heart. He is antarbahish — within and without simultaneously. The within is consciousness; the without is the material universe. One reality pervades both. This is not theology but metaphysics: the same ground supports subjective experience and objective reality."
+        },
+        {
+          "number": 5,
+          "sanskrit": "योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो नारायणसमाश्रयः ||",
+          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogo nārāyaṇasamāśrayaḥ ||",
+          "translation": "Yoga is the cessation of mental modifications; yoga gives liberation. Yoga cuts all bonds; yoga rests on Narayana.",
+          "hindi": "योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग नारायण पर आश्रित है।",
+          "commentary": "The definition of yoga from Yoga Sutras, placed in the context of Narayana worship. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Narayana.",
+          "wordMeaning": "The definition of yoga from Yoga Sutras, placed in the context of Narayana worship. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Narayana."
+        },
+        {
+          "number": 8,
+          "sanskrit": "त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् | उर्वारुकमिव बन्धनान्मृत्योर्मुक्षीय माऽमृतात् ||",
+          "transliteration": "tryambakaṃ yajāmahe sugandhinaṃ puṣṭivardhanam | urvārukamiva bandhanānmṛtyormukṣīya māmṛtāt ||",
+          "translation": "We worship the three-eyed one, the fragrant one, the one who nourishes and increases. May we be liberated from death as the cucumber from its vine — and not from immortality.",
+          "hindi": "हम सुगन्धित, पोषण करने वाले त्र्यम्बक (तीन नेत्रों वाले शिव) की उपासना करते हैं। जैसे ककड़ी बन्धन से मुक्त हो जाती है — हम मृत्यु से मुक्त हों, अमृत से नहीं।",
+          "commentary": "The most beautiful mantra in the Vedic tradition — and one of the most psychologically precise prayers ever composed. The image of the cucumber (urvaru) is exact: the cucumber does not tear itself from the vine — it ripens fully, and then detaches naturally. The prayer is not for early death or violent rupture from life, but for the natural ripening that makes detachment effortless. Death is not the enemy; clinging to what is impermanent is the enemy. When life is fully lived, death is not a rupture but a natural release.",
+          "wordMeaning": "The most beautiful mantra in the Vedic tradition — and one of the most psychologically precise prayers ever composed. The image of the cucumber (urvaru) is exact: the cucumber does not tear itself from the vine — it ripens fully, and then detaches naturally. The prayer is not for early death or violent rupture from life, but for the natural ripening that makes detachment effortless. Death is not the enemy; clinging to what is impermanent is the enemy. When life is fully lived, death is not a rupture but a natural release."
+        },
+        {
+          "number": 10,
+          "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं नारायण एव सर्वं नारायण मयि सर्वम् ||",
+          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ nārāyaṇa eva sarvaṃ nārāyaṇa mayi sarvam ||",
+          "translation": "I am Brahman, not you; I am birth, not beings; all is Narayana alone, all is Narayana in me.",
+          "hindi": "मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब नारायण ही है, सब नारायण मेरे में है।",
+          "commentary": "The declaration of non-duality with Narayana as the supreme. The individual Self is Brahman; the world is Narayana; all distinctions dissolve in this recognition.",
+          "wordMeaning": "The declaration of non-duality with Narayana as the supreme. The individual Self is Brahman; the world is Narayana; all distinctions dissolve in this recognition."
+        },
+        {
+          "number": 15,
+          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो नारायणे लीनो न तत्र संशयो भवति ||",
+          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo nārāyaṇe līno na tatra saṃśayo bhavati ||",
+          "translation": "As rivers merge into the ocean, as lamps merge into light — so the individual self merges into Narayana. There is no doubt about this.",
+          "hindi": "जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव नारायण में लीन हो जाता है। इसमें कोई संशय नहीं।",
+          "commentary": "The dissolution of individuality into Narayana. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains.",
+          "wordMeaning": "The dissolution of individuality into Narayana. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains."
+        },
+        {
+          "number": 20,
+          "sanskrit": "शान्तं शिवमद्वैतं नारायण नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
+          "transliteration": "śāntaṃ śivamadvaitaṃ nārāyaṇa nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||",
+          "translation": "Peaceful, auspicious, non-dual Narayana — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.",
+          "hindi": "शांत, शिव, अद्वैत नारायण — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
+          "commentary": "The attributes of Narayana: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness.",
+          "wordMeaning": "The attributes of Narayana: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness."
+        },
+        {
+          "number": 25,
+          "sanskrit": "एको देवो द्वितीयो नास्ति यो नारायणं वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
+          "transliteration": "eko devo dvitīyo nāsti yo nārāyaṇaṃ veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||",
+          "translation": "There is one God, no second — he who knows Narayana in truth. I am He, not any being, no death, no sorrow, and so on.",
+          "hindi": "एक ही देव है, दूसरा कोई नहीं — जो नारायण को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।",
+          "commentary": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering.",
+          "wordMeaning": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Mahamrityunjaya — The Great Death-Conquering Mantra",
+      "titleSanskrit": "त्र्यम्बक मन्त्र — महामृत्युञ्जय",
+      "verses": [
+        {
+          "number": 8,
+          "sanskrit": "त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् | उर्वारुकमिव बन्धनान्मृत्योर्मुक्षीय माऽमृतात् ||",
+          "transliteration": "tryambakaṃ yajāmahe sugandhinaṃ puṣṭivardhanam | urvārukamiva bandhanānmṛtyormukṣīya māmṛtāt ||",
+          "translation": "We worship the three-eyed one, the fragrant one, the one who nourishes and increases. May we be liberated from death as the cucumber from its vine — and not from immortality.",
+          "hindi": "हम सुगन्धित, पोषण करने वाले त्र्यम्बक (तीन नेत्रों वाले शिव) की उपासना करते हैं। जैसे ककड़ी बन्धन से मुक्त हो जाती है — हम मृत्यु से मुक्त हों, अमृत से नहीं।",
+          "commentary": "The most beautiful mantra in the Vedic tradition — and one of the most psychologically precise prayers ever composed. The image of the cucumber (urvaru) is exact: the cucumber does not tear itself from the vine — it ripens fully, and then detaches naturally. The prayer is not for early death or violent rupture from life, but for the natural ripening that makes detachment effortless. Death is not the enemy; clinging to what is impermanent is the enemy. When life is fully lived, death is not a rupture but a natural release.",
+          "wordMeaning": "The most beautiful mantra in the Vedic tradition — and one of the most psychologically precise prayers ever composed. The image of the cucumber (urvaru) is exact: the cucumber does not tear itself from the vine — it ripens fully, and then detaches naturally. The prayer is not for early death or violent rupture from life, but for the natural ripening that makes detachment effortless. Death is not the enemy; clinging to what is impermanent is the enemy. When life is fully lived, death is not a rupture but a natural release."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Purusha Sukta — The Cosmic Being",
+      "titleSanskrit": "पुरुष सूक्त",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "सहस्रशीर्षा पुरुषः सहस्राक्षः सहस्रपात् | स भूमिं विश्वतो वृत्वाऽत्यतिष्ठद्दशाङ्गुलम् ||",
+          "transliteration": "sahasraśīrṣā puruṣaḥ sahasrākṣaḥ sahasrapāt | sa bhūmiṃ viśvato vṛtvā'tyatiṣṭhaddaśāṅgulam ||",
+          "translation": "The Cosmic Being has a thousand heads, a thousand eyes, a thousand feet. He pervades the entire earth and extends ten fingers' breadth beyond.",
+          "hindi": "पुरुष के सहस्र शीर्ष, सहस्र नेत्र और सहस्र पाद हैं। वे सम्पूर्ण पृथ्वी को व्याप्त करके दस अंगुल ऊपर स्थित हैं।",
+          "commentary": "The Purusha Sukta's opening image is deliberately impossible to visualise: a thousand heads, a thousand eyes, a thousand feet. This is not description but dissolution of description — the Cosmic Being cannot be grasped as an object because He is the subject that underlies all objects. The \"ten fingers beyond\" the entire universe means: the Purusha is not contained by what He contains. Consciousness is always greater than its contents.",
+          "wordMeaning": "The Purusha Sukta's opening image is deliberately impossible to visualise: a thousand heads, a thousand eyes, a thousand feet. This is not description but dissolution of description — the Cosmic Being cannot be grasped as an object because He is the subject that underlies all objects. The \"ten fingers beyond\" the entire universe means: the Purusha is not contained by what He contains. Consciousness is always greater than its contents."
+        },
+        {
+          "number": 5,
+          "sanskrit": "योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो नारायणसमाश्रयः ||",
+          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogo nārāyaṇasamāśrayaḥ ||",
+          "translation": "Yoga is the cessation of mental modifications; yoga gives liberation. Yoga cuts all bonds; yoga rests on Narayana.",
+          "hindi": "योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग नारायण पर आश्रित है।",
+          "commentary": "The definition of yoga from Yoga Sutras, placed in the context of Narayana worship. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Narayana.",
+          "wordMeaning": "The definition of yoga from Yoga Sutras, placed in the context of Narayana worship. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Narayana."
+        },
+        {
+          "number": 10,
+          "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं नारायण एव सर्वं नारायण मयि सर्वम् ||",
+          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ nārāyaṇa eva sarvaṃ nārāyaṇa mayi sarvam ||",
+          "translation": "I am Brahman, not you; I am birth, not beings; all is Narayana alone, all is Narayana in me.",
+          "hindi": "मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब नारायण ही है, सब नारायण मेरे में है।",
+          "commentary": "The declaration of non-duality with Narayana as the supreme. The individual Self is Brahman; the world is Narayana; all distinctions dissolve in this recognition.",
+          "wordMeaning": "The declaration of non-duality with Narayana as the supreme. The individual Self is Brahman; the world is Narayana; all distinctions dissolve in this recognition."
+        },
+        {
+          "number": 15,
+          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो नारायणे लीनो न तत्र संशयो भवति ||",
+          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo nārāyaṇe līno na tatra saṃśayo bhavati ||",
+          "translation": "As rivers merge into the ocean, as lamps merge into light — so the individual self merges into Narayana. There is no doubt about this.",
+          "hindi": "जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव नारायण में लीन हो जाता है। इसमें कोई संशय नहीं।",
+          "commentary": "The dissolution of individuality into Narayana. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains.",
+          "wordMeaning": "The dissolution of individuality into Narayana. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains."
+        },
+        {
+          "number": 20,
+          "sanskrit": "शान्तं शिवमद्वैतं नारायण नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
+          "transliteration": "śāntaṃ śivamadvaitaṃ nārāyaṇa nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||",
+          "translation": "Peaceful, auspicious, non-dual Narayana — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.",
+          "hindi": "शांत, शिव, अद्वैत नारायण — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
+          "commentary": "The attributes of Narayana: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness.",
+          "wordMeaning": "The attributes of Narayana: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness."
+        },
+        {
+          "number": 25,
+          "sanskrit": "एको देवो द्वितीयो नास्ति यो नारायणं वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
+          "transliteration": "eko devo dvitīyo nāsti yo nārāyaṇaṃ veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||",
+          "translation": "There is one God, no second — he who knows Narayana in truth. I am He, not any being, no death, no sorrow, and so on.",
+          "hindi": "एक ही देव है, दूसरा कोई नहीं — जो नारायण को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।",
+          "commentary": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering.",
+          "wordMeaning": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering."
+        }
+      ]
+    }
+  ]
+}

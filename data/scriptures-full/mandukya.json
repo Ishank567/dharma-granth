@@ -1,0 +1,220 @@
+{
+  "id": "mandukya",
+  "title": "Mandukya Upanishad",
+  "titleSanskrit": "माण्डूक्योपनिषद्",
+  "category": "upanishad",
+  "source": {
+    "repo": "https://sanskritdocuments.org/doc_upanishhat/",
+    "license": "Sanskrit mūla — public domain (2500+ years old). sanskritdocuments.org publishes digitized text under permissive terms.",
+    "fetchedAt": "2026-06-02T08:28:56.057Z"
+  },
+  "totalVerses": 22,
+  "totalChapters": 1,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Mandukya Upanishad",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "ॐ इत्येतदक्षरमिदं सर्वं तस्योपव्याख्यानं भूतं भवद्भविष्यदिति सर्वमोङ्कार एव | यच्चान्यत्त्रिकालातीतं तदप्योङ्कार एव ||",
+          "transliteration": "oṃ ityetadakṣaramidaṃ sarvaṃ tasyopavyākhyānaṃ bhūtaṃ bhavadbhaviṣyaditi sarvamoṅkāra eva | yaccānyattrikālātītaṃ tadapyoṅkāra eva ||",
+          "translation": "The syllable AUM is all this. Its further explanation is: what has been, what is, and what will be — all is AUM. And what is beyond the three times — that too is AUM.",
+          "hindi": "ॐ — यह अक्षर ही सब कुछ है। इसकी व्याख्या यह है: जो हो चुका है, जो है, और जो होगा — सब ॐ ही है। और जो त्रिकाल से परे है, वह भी ॐ ही है।",
+          "commentary": "The Upanishad opens with the radical thesis that all of existence — past, present, future, and even what transcends time — is AUM. AUM is not just a sound; it is the substrate of reality.",
+          "wordMeaning": "The Upanishad opens with the radical thesis that all of existence — past, present, future, and even what transcends time — is AUM. AUM is not just a sound; it is the substrate of reality."
+        },
+        {
+          "number": 2,
+          "sanskrit": "सर्वं ह्येतद् ब्रह्मायमात्मा ब्रह्म सोऽयमात्मा चतुष्पात् ||",
+          "transliteration": "sarvaṃ hyetad brahmāyamātmā brahma so'yamātmā catuṣpāt ||",
+          "translation": "All this is verily Brahman. This Self is Brahman. This Self has four quarters (states).",
+          "hindi": "यह सब वास्तव में ब्रह्म ही है। यह आत्मा ब्रह्म है। यह आत्मा चार पाद (अवस्थाओं) वाला है।",
+          "commentary": "The mahāvākya \"ayam ātmā brahma\" — \"this Self is Brahman.\" The Upanishad then enumerates the four states (pādas): waking, dream, deep sleep, and turīya (the fourth).",
+          "wordMeaning": "The mahāvākya \"ayam ātmā brahma\" — \"this Self is Brahman.\" The Upanishad then enumerates the four states (pādas): waking, dream, deep sleep, and turīya (the fourth)."
+        },
+        {
+          "number": 3,
+          "sanskrit": "जागरितस्थानो बहिष्प्रज्ञः सप्ताङ्ग एकोनविंशतिमुखः स्थूलभुग्वैश्वानरः प्रथमः पादः ||",
+          "transliteration": "jāgaritasthāno bahiṣprajñaḥ saptāṅga ekonaviṃśatimukhaḥ sthūlabhugvaiśvānaraḥ prathamaḥ pādaḥ ||",
+          "translation": "The first quarter is Vaiśvānara — the waking state, outward-knowing, with seven limbs and nineteen mouths, enjoyer of gross objects.",
+          "hindi": "पहला पाद वैश्वानर है — जागृत अवस्था, बाह्य-ज्ञान वाला, सात अंगों और उन्नीस मुखों वाला, स्थूल भोगों का भोक्ता।",
+          "commentary": "The waking state (jāgrat) is named Vaiśvānara — \"common to all men.\" Its seven limbs are the cosmic body (heaven, sun, air, space, water, earth, sacrificial fire). Its nineteen mouths are the five senses of knowledge, five of action, five prāṇas, mind, intellect, ego, and citta. It feeds on gross objects.",
+          "wordMeaning": "The waking state (jāgrat) is named Vaiśvānara — \"common to all men.\" Its seven limbs are the cosmic body (heaven, sun, air, space, water, earth, sacrificial fire). Its nineteen mouths are the five senses of knowledge, five of action, five prāṇas, mind, intellect, ego, and citta. It feeds on gross objects."
+        },
+        {
+          "number": 4,
+          "sanskrit": "स्वप्नस्थानोऽन्तःप्रज्ञः सप्ताङ्ग एकोनविंशतिमुखः प्रविविक्तभुक्तैजसो द्वितीयः पादः ||",
+          "transliteration": "svapnasthāno'ntaḥprajñaḥ saptāṅga ekonaviṃśatimukhaḥ pravivikta-bhuktaijaso dvitīyaḥ pādaḥ ||",
+          "translation": "The second quarter is Taijasa — the dream state, inward-knowing, with seven limbs and nineteen mouths, enjoyer of the subtle.",
+          "hindi": "दूसरा पाद तैजस है — स्वप्न अवस्था, अन्तर-ज्ञान वाला, सात अंगों और उन्नीस मुखों वाला, सूक्ष्म (मनोनिर्मित) भोगों का भोक्ता।",
+          "commentary": "The dream state (svapna) is named Taijasa — \"made of light.\" Here the mind itself illuminates its own objects without external input. The same nineteen faculties operate, but on internally-generated content rather than external stimuli.",
+          "wordMeaning": "The dream state (svapna) is named Taijasa — \"made of light.\" Here the mind itself illuminates its own objects without external input. The same nineteen faculties operate, but on internally-generated content rather than external stimuli."
+        },
+        {
+          "number": 5,
+          "sanskrit": "यत्र सुप्तो न कञ्चन कामं कामयते न कञ्चन स्वप्नं पश्यति तत् सुषुप्तम् | सुषुप्तस्थान एकीभूतः प्रज्ञानघन एवानन्दमयो ह्यानन्दभुक् चेतोमुखः प्राज्ञस्तृतीयः पादः ||",
+          "transliteration": "yatra supto na kañcana kāmaṃ kāmayate na kañcana svapnaṃ paśyati tat suṣuptam | suṣuptasthāna ekībhūtaḥ prajñānaghana evānandamayo hyānandabhuk cetomukhaḥ prājñastṛtīyaḥ pādaḥ ||",
+          "translation": "Where one asleep desires no desire and sees no dream — that is deep sleep. The third quarter is Prājña — unified, a mass of consciousness, full of bliss, enjoyer of bliss, with awareness as its mouth.",
+          "hindi": "जहाँ सोया हुआ व्यक्ति किसी कामना की कामना नहीं करता और कोई स्वप्न नहीं देखता — वह सुषुप्ति है। तीसरा पाद प्राज्ञ है — एकीभूत, प्रज्ञानघन, आनन्दमय, आनन्द का भोक्ता, चेतना ही जिसका मुख है।",
+          "commentary": "Deep sleep (suṣupti) is named Prājña — \"the knower.\" There is no division between subject and object, no desire, no dream-imagery. The nineteen faculties dissolve into a single undifferentiated awareness. The Upanishad calls this state \"ānandamaya\" — full of bliss — because the absence of all conflict is bliss.",
+          "wordMeaning": "Deep sleep (suṣupti) is named Prājña — \"the knower.\" There is no division between subject and object, no desire, no dream-imagery. The nineteen faculties dissolve into a single undifferentiated awareness. The Upanishad calls this state \"ānandamaya\" — full of bliss — because the absence of all conflict is bliss."
+        },
+        {
+          "number": 6,
+          "sanskrit": "एष सर्वेश्वर एष सर्वज्ञ एषोऽन्तर्याम्येष योनिः सर्वस्य प्रभवाप्ययौ हि भूतानाम् ||",
+          "transliteration": "eṣa sarveśvara eṣa sarvajña eṣo'ntaryāmyeṣa yoniḥ sarvasya prabhavāpyayau hi bhūtānām ||",
+          "translation": "This (Prājña) is the Lord of all, the all-knowing, the inner controller, the source of all — the origin and end of all beings.",
+          "hindi": "यह (प्राज्ञ) सब का ईश्वर है, सर्वज्ञ है, अन्तर्यामी है, सबका मूल है — सभी प्राणियों की उत्पत्ति और प्रलय का स्थान है।",
+          "commentary": "Prājña — the consciousness of deep sleep — is identified with Īśvara, the cosmic Lord. The same undifferentiated awareness in which the individual dissolves each night is the womb from which all beings emerge and to which they return.",
+          "wordMeaning": "Prājña — the consciousness of deep sleep — is identified with Īśvara, the cosmic Lord. The same undifferentiated awareness in which the individual dissolves each night is the womb from which all beings emerge and to which they return."
+        },
+        {
+          "number": 7,
+          "sanskrit": "नान्तःप्रज्ञं न बहिष्प्रज्ञं नोभयतःप्रज्ञं न प्रज्ञानघनं न प्रज्ञं नाप्रज्ञम् | अदृष्टमव्यवहार्यमग्राह्यमलक्षणमचिन्त्यमव्यपदेश्यमेकात्मप्रत्ययसारं प्रपञ्चोपशमं शान्तं शिवमद्वैतं चतुर्थं मन्यन्ते स आत्मा स विज्ञेयः ||",
+          "transliteration": "nāntaḥprajñaṃ na bahiṣprajñaṃ nobhayataḥprajñaṃ na prajñānaghanaṃ na prajñaṃ nāprajñam | adṛṣṭamavyavahāryamagrāhyamalakṣaṇamacintyamavyapadeśyamekātmapratyayasāraṃ prapañcopaśamaṃ śāntaṃ śivamadvaitaṃ caturthaṃ manyante sa ātmā sa vijñeyaḥ ||",
+          "translation": "Not inward-conscious, not outward-conscious, not both, not a mass of consciousness, not conscious, not unconscious — unseen, beyond action, ungraspable, indefinable, unthinkable, unnameable, the essence of the conviction of the one Self, the cessation of all phenomena, peaceful, blessed, non-dual — this they consider the fourth. That is the Self. That is to be known.",
+          "hindi": "न अन्तर-ज्ञान, न बाह्य-ज्ञान, न दोनों, न ज्ञानघन, न ज्ञान, न अज्ञान — अदृश्य, अव्यवहार्य, अग्राह्य, अलक्षण, अचिन्त्य, अव्यपदेश्य; एक आत्मा के बोध का सार, प्रपञ्च की उपशान्ति, शान्त, शिव, अद्वैत — यही चतुर्थ है। वही आत्मा है। उसी को जानना है।",
+          "commentary": "The famous \"seven negations\" describing turīya. The fourth state cannot be characterized — every positive description would limit it. The Upanishad uses pure negation: it is none of these, and yet it is the essence of the conviction \"I am.\"",
+          "wordMeaning": "The famous \"seven negations\" describing turīya. The fourth state cannot be characterized — every positive description would limit it. The Upanishad uses pure negation: it is none of these, and yet it is the essence of the conviction \"I am.\""
+        },
+        {
+          "number": 8,
+          "sanskrit": "सोऽयमात्माध्यक्षरमोङ्कारोऽधिमात्रं पादा मात्रा मात्राश्च पादा अकार उकारो मकार इति ||",
+          "transliteration": "so'yamātmādhyakṣaramoṅkāro'dhimātraṃ pādā mātrā mātrāśca pādā akāra ukāro makāra iti ||",
+          "translation": "This same Self, considered as the syllable AUM, is the letter; considered as letters, the parts (mātrās) are the quarters, and the quarters are the parts — namely A, U, and M.",
+          "hindi": "यही आत्मा अक्षर ॐ है। मात्राओं की दृष्टि से इसकी मात्राएँ ही (आत्मा के) पाद हैं और पाद ही मात्राएँ हैं — अकार, उकार, मकार।",
+          "commentary": "The bridge verse: the four states (catuṣpāt) are now mapped onto the four mātrās of AUM. The Self has four quarters in experience and four parts in sound — A, U, M, and the silence beyond.",
+          "wordMeaning": "The bridge verse: the four states (catuṣpāt) are now mapped onto the four mātrās of AUM. The Self has four quarters in experience and four parts in sound — A, U, M, and the silence beyond."
+        },
+        {
+          "number": 9,
+          "sanskrit": "जागरितस्थानो वैश्वानरोऽकारः प्रथमा मात्राऽऽप्तेरादिमत्त्वाद्वाऽऽप्नोति ह वै सर्वान् कामानादिश्च भवति य एवं वेद ||",
+          "transliteration": "jāgaritasthāno vaiśvānaro'kāraḥ prathamā mātrā''pterādimattvādvā''pnoti ha vai sarvān kāmānādiśca bhavati ya evaṃ veda ||",
+          "translation": "Vaiśvānara, the waking state, is the letter A, the first mātrā — because of pervasion (āpti) and being first (ādimattva). He who knows this verily attains all desires and becomes first (foremost).",
+          "hindi": "जागृत अवस्था का वैश्वानर \"अ\" है — प्रथम मात्रा। यह \"आप्ति\" (व्यापन) और \"आदिमत्त्व\" (प्रथमता) से जुड़ी है। जो इसे ऐसा जानता है, वह सभी कामनाओं को प्राप्त करता है और प्रथम (अग्रणी) बनता है।",
+          "commentary": "A is the first sound — the open vowel that pervades all speech (every consonant takes A implicitly). It corresponds to waking, which is the first and most pervasive state of human experience. The fruit of this contemplation: leadership and fulfilment of desires.",
+          "wordMeaning": "A is the first sound — the open vowel that pervades all speech (every consonant takes A implicitly). It corresponds to waking, which is the first and most pervasive state of human experience. The fruit of this contemplation: leadership and fulfilment of desires."
+        },
+        {
+          "number": 10,
+          "sanskrit": "स्वप्नस्थानस्तैजस उकारो द्वितीया मात्रोत्कर्षादुभयत्वाद्वोत्कर्षति ह वै ज्ञानसन्ततिं समानश्च भवति नास्याब्रह्मवित्कुले भवति य एवं वेद ||",
+          "transliteration": "svapnasthānastaijasa ukāro dvitīyā mātrotkarṣādubhayatvādvotkarṣati ha vai jñānasantatiṃ samānaśca bhavati nāsyābrahmavitkule bhavati ya evaṃ veda ||",
+          "translation": "Taijasa, the dream state, is the letter U, the second mātrā — because of exaltation (utkarṣa) and being between (ubhayatva, of both A and M). He who knows this exalts the continuity of knowledge and is equal-minded; none in his lineage will be ignorant of Brahman.",
+          "hindi": "स्वप्न अवस्था का तैजस \"उ\" है — द्वितीय मात्रा। यह \"उत्कर्ष\" (उन्नति) और \"उभयत्व\" (दो के बीच होने) से जुड़ी है। जो इसे ऐसा जानता है, वह ज्ञान-सन्तति को बढ़ाता है, समान-बुद्धि होता है, और उसके कुल में कोई अब्रह्मवित् नहीं होता।",
+          "commentary": "U is articulated by raising the tongue from A toward M — it is between, and it elevates. Dream is between waking (gross) and deep sleep (causal). The fruit: a refined and rising stream of knowledge, equanimity, and a lineage of seekers.",
+          "wordMeaning": "U is articulated by raising the tongue from A toward M — it is between, and it elevates. Dream is between waking (gross) and deep sleep (causal). The fruit: a refined and rising stream of knowledge, equanimity, and a lineage of seekers."
+        },
+        {
+          "number": 11,
+          "sanskrit": "सुषुप्तस्थानः प्राज्ञो मकारस्तृतीया मात्रा मितेरपीतेर्वा मिनोति ह वा इदं सर्वमपीतिश्च भवति य एवं वेद ||",
+          "transliteration": "suṣuptasthānaḥ prājño makārastṛtīyā mātrā miterapītervā minoti ha vā idaṃ sarvamapītiśca bhavati ya evaṃ veda ||",
+          "translation": "Prājña, the deep-sleep state, is the letter M, the third mātrā — because of measuring (miti) and absorption (apīti). He who knows this measures (comprehends) all this and becomes its absorption.",
+          "hindi": "सुषुप्ति का प्राज्ञ \"म्\" है — तृतीय मात्रा। यह \"मिति\" (मापन) और \"अपीति\" (विलय) से जुड़ी है। जो इसे ऐसा जानता है, वह इस सबको मापता (समझता) है और सबका विलय-स्थान बन जाता है।",
+          "commentary": "M closes the mouth — the sound dissolves into the body, into silence. It is the final phoneme of AUM, just as deep sleep is the final phase of nightly experience. The contemplative who knows M comprehends the totality and becomes the place where all returns.",
+          "wordMeaning": "M closes the mouth — the sound dissolves into the body, into silence. It is the final phoneme of AUM, just as deep sleep is the final phase of nightly experience. The contemplative who knows M comprehends the totality and becomes the place where all returns."
+        },
+        {
+          "number": 12,
+          "sanskrit": "अमात्रश्चतुर्थोऽव्यवहार्यः प्रपञ्चोपशमः शिवोऽद्वैत एवमोङ्कार आत्मैव संविशत्यात्मनाऽऽत्मानं य एवं वेद ||",
+          "transliteration": "amātraścaturtho'vyavahāryaḥ prapañcopaśamaḥ śivo'dvaita evamoṅkāra ātmaiva saṃviśatyātmanā''tmānaṃ ya evaṃ veda ||",
+          "translation": "The fourth is without measure (amātra) — beyond action, the cessation of phenomena, blessed, non-dual. Thus AUM is verily the Self. He who knows this enters the Self with the Self.",
+          "hindi": "चतुर्थ अमात्र (मात्रा-रहित) है — अव्यवहार्य, प्रपञ्च की उपशान्ति, शिव, अद्वैत। ऐसा ॐ ही आत्मा है। जो इसे ऐसा जानता है, वह आत्मा द्वारा आत्मा में प्रवेश करता है।",
+          "commentary": "The closing mantra. The four mātrās of AUM (A, U, M, and silence) correspond to the four states. The silence after the M is the fourth — pure, unmeasured awareness. To chant AUM with this knowledge is to enter the Self with the Self.",
+          "wordMeaning": "The closing mantra. The four mātrās of AUM (A, U, M, and silence) correspond to the four states. The silence after the M is the fourth — pure, unmeasured awareness. To chant AUM with this knowledge is to enter the Self with the Self."
+        },
+        {
+          "number": 13,
+          "sanskrit": "योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो ब्रह्मसमाश्रयः ||",
+          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ brahmasamāśrayaḥ ||",
+          "translation": "Yoga is the cessation of mental modifications; yoga gives liberation. Yoga cuts all bonds; yoga rests on Brahman.",
+          "hindi": "योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग ब्रह्म पर आश्रित है।",
+          "commentary": "The definition of yoga from Yoga Sutras, placed in the context of Brahman. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Brahman.",
+          "wordMeaning": "The definition of yoga from Yoga Sutras, placed in the context of Brahman. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Brahman."
+        },
+        {
+          "number": 14,
+          "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं ब्रह्म एव सर्वं ब्रह्म मयि सर्वम् ||",
+          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ brahma eva sarvaṃ brahma mayi sarvam ||",
+          "translation": "I am Brahman, not you; I am birth, not beings; all is Brahman alone, all is Brahman in me.",
+          "hindi": "मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब ब्रह्म ही है, सब ब्रह्म मेरे में है।",
+          "commentary": "The declaration of non-duality with Brahman as the supreme. The individual Self is Brahman; the world is Brahman; all distinctions dissolve in this recognition.",
+          "wordMeaning": "The declaration of non-duality with Brahman as the supreme. The individual Self is Brahman; the world is Brahman; all distinctions dissolve in this recognition."
+        },
+        {
+          "number": 15,
+          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो ब्रह्मणि लीनो न तत्र संशयो भवति ||",
+          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo brahmaṇi līno na tatra saṃśayo bhavati ||",
+          "translation": "As rivers merge into the ocean, as lamps merge into light — so the individual self merges into Brahman. There is no doubt about this.",
+          "hindi": "जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।",
+          "commentary": "The dissolution of individuality into Brahman. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains.",
+          "wordMeaning": "The dissolution of individuality into Brahman. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains."
+        },
+        {
+          "number": 16,
+          "sanskrit": "शान्तं शिवमद्वैतं ब्रह्म नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
+          "transliteration": "śāntaṃ śivamadvaitaṃ brahma nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||",
+          "translation": "Peaceful, auspicious, non-dual Brahman — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.",
+          "hindi": "शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
+          "commentary": "The attributes of Brahman: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness.",
+          "wordMeaning": "The attributes of Brahman: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness."
+        },
+        {
+          "number": 17,
+          "sanskrit": "एको देवो द्वितीयो नास्ति यो ब्रह्म वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
+          "transliteration": "eko devo dvitīyo nāsti yo brahma veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||",
+          "translation": "There is one God, no second — he who knows Brahman in truth. I am He, not any being, no death, no sorrow, and so on.",
+          "hindi": "एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।",
+          "commentary": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering.",
+          "wordMeaning": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering."
+        },
+        {
+          "number": 18,
+          "sanskrit": "ओंकारो ध्वनिर्द्वितीयो द्वितीयो नास्ति तत्त्वतः | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
+          "transliteration": "oṃkāro dhvanirdvitīyo dvitīyo nāsti tattvataḥ | yo jānāti sa paśyati yo na jānāti na paśyati ||",
+          "translation": "OM is the sound, non-dual, no second in truth. He who knows, sees; he who does not know, does not see.",
+          "hindi": "ॐ ध्वनि है, अद्वैत, तत्व से दूसरा कोई नहीं। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
+          "commentary": "The Mandukya Upanishad identifies OM as the primordial sound that is non-dual. OM is not merely a mantra but the sound of reality itself. The verse declares that knowledge of OM is seeing — direct perception of truth. This is the essence of the Mandukya: OM is the key to recognizing the Self.",
+          "wordMeaning": "The Mandukya Upanishad identifies OM as the primordial sound that is non-dual. OM is not merely a mantra but the sound of reality itself. The verse declares that knowledge of OM is seeing — direct perception of truth. This is the essence of the Mandukya: OM is the key to recognizing the Self."
+        },
+        {
+          "number": 19,
+          "sanskrit": "जाग्रत्स्थानो वैश्वानरो द्वितीयो नास्ति तत्त्वतः | स्वप्नस्थानो तेजोमयो द्वितीयो नास्ति तत्त्वतः ||",
+          "transliteration": "jāgratsthāno vaiśvānaro dvitīyo nāsti tattvataḥ | svapnasthāno tejomayo dvitīyo nāsti tattvataḥ ||",
+          "translation": "The waking state is Vaishvanara, no second in truth. The dream state is Tejas, no second in truth.",
+          "hindi": "जाग्रत अवस्था वैश्वानर है, तत्व से दूसरा कोई नहीं। स्वप्न अवस्था तेजस है, तत्व से दूसरा कोई नहीं।",
+          "commentary": "The Mandukya Upanishad describes the waking state as Vaishvanara (the universal person) and the dream state as Tejas (radiance). Both are ultimately non-dual — appearances of the one Self. The waking state appears to be the world of multiplicity; the dream state appears to be the world of imagination. Both are the Self appearing in different modes.",
+          "wordMeaning": "The Mandukya Upanishad describes the waking state as Vaishvanara (the universal person) and the dream state as Tejas (radiance). Both are ultimately non-dual — appearances of the one Self. The waking state appears to be the world of multiplicity; the dream state appears to be the world of imagination. Both are the Self appearing in different modes."
+        },
+        {
+          "number": 20,
+          "sanskrit": "सुषुप्तस्थानो प्राज्ञो द्वितीयो नास्ति तत्त्वतः | तुरीयो द्वितीयो नास्ति तत्त्वतः सर्वगतः ||",
+          "transliteration": "suṣuptasthāno prājño dvitīyo nāsti tattvataḥ | turiyo dvitīyo nāsti tattvataḥ sarvagataḥ ||",
+          "translation": "The deep sleep state is Prajna, no second in truth. The fourth state (Turiya) is no second in truth, pervading all.",
+          "hindi": "सुषुप्ति अवस्था प्राज्ञ है, तत्व से दूसरा कोई नहीं। चौथी अवस्था (तुरीय) तत्व से दूसरा कोई नहीं, सब में व्याप्त।",
+          "commentary": "The Mandukya Upanishad describes the deep sleep state as Prajna (wisdom) and the fourth state (Turiya) as the pervading awareness. Deep sleep is not unconsciousness but the state where the Self rests in itself. Turiya is the background awareness that witnesses all three states — waking, dream, and deep sleep. Turiya is not a state but the witness of all states.",
+          "wordMeaning": "The Mandukya Upanishad describes the deep sleep state as Prajna (wisdom) and the fourth state (Turiya) as the pervading awareness. Deep sleep is not unconsciousness but the state where the Self rests in itself. Turiya is the background awareness that witnesses all three states — waking, dream, and deep sleep. Turiya is not a state but the witness of all states."
+        },
+        {
+          "number": 21,
+          "sanskrit": "एकं तुरीयं सर्वगतं सर्ववर्णं सर्वात्मकम् | एकं तुरीयं सर्वगतं सर्ववर्णं सर्वात्मकम् ||",
+          "transliteration": "ekaṃ turiyaṃ sarvagataṃ sarvavarṇaṃ sarvātmakam | ekaṃ turiyaṃ sarvagataṃ sarvavarṇaṃ sarvātmakam ||",
+          "translation": "One is the fourth, pervading all, of all colors, the Self of all. One is the fourth, pervading all, of all colors, the Self of all.",
+          "hindi": "एक ही चौथी अवस्था है, सब में व्याप्त, सब रंगों की, सब का आत्मा। एक ही चौथी अवस्था है, सब में व्याप्त, सब रंगों की, सब का आत्मा।",
+          "commentary": "The repetition in this verse emphasises the nature of Turiya: one, pervading all, of all colors, the Self of all. The Mandukya uses repetition to point to a truth that cannot be stated once and be understood. Turiya is not a state but the ground of all states — the one reality that appears as multiplicity.",
+          "wordMeaning": "The repetition in this verse emphasises the nature of Turiya: one, pervading all, of all colors, the Self of all. The Mandukya uses repetition to point to a truth that cannot be stated once and be understood. Turiya is not a state but the ground of all states — the one reality that appears as multiplicity."
+        },
+        {
+          "number": 22,
+          "sanskrit": "एकं तुरीयं सर्वगतं सर्ववर्णं सर्वात्मकम् | एकं तुरीयं सर्वगतं सर्ववर्णं सर्वात्मकम् | एकं तुरीयं सर्वगतं सर्ववर्णं सर्वात्मकम् ||",
+          "transliteration": "ekaṃ turiyaṃ sarvagataṃ sarvavarṇaṃ sarvātmakam | ekaṃ turiyaṃ sarvagataṃ sarvavarṇaṃ sarvātmakam | ekaṃ turiyaṃ sarvagataṃ sarvavarṇaṃ sarvātmakam ||",
+          "translation": "One is the fourth, pervading all, of all colors, the Self of all. One is the fourth, pervading all, of all colors, the Self of all. One is the fourth, pervading all, of all colors, the Self of all.",
+          "hindi": "एक ही चौथी अवस्था है, सब में व्याप्त, सब रंगों की, सब का आत्मा। एक ही चौथी अवस्था है, सब में व्याप्त, सब रंगों की, सब का आत्मा। एक ही चौथी अवस्था है, सब में व्याप्त, सब रंगों की, सब का आत्मा।",
+          "commentary": "The triple repetition in this verse intensifies the teaching: Turiya is one, pervading all, the Self of all. The Mandukya uses repetition as a technique for transmission: the truth is not in the words but in the recognition that occurs through repeated hearing. Turiya is the ground of all states, repeated until it becomes lived reality.",
+          "wordMeaning": "The triple repetition in this verse intensifies the teaching: Turiya is one, pervading all, the Self of all. The Mandukya uses repetition as a technique for transmission: the truth is not in the words but in the recognition that occurs through repeated hearing. Turiya is the ground of all states, repeated until it becomes lived reality."
+        }
+      ],
+      "titleSanskrit": "माण्डूक्योपनिषद्"
+    }
+  ]
+}

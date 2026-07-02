@@ -1,0 +1,246 @@
+{
+  "id": "shvetashvatara",
+  "title": "Shvetashvatara Upanishad",
+  "titleSanskrit": "श्वेताश्वतरोपनिषद्",
+  "category": "upanishad",
+  "source": {
+    "repo": "https://sanskritdocuments.org/doc_upanishhat/",
+    "license": "Sanskrit mūla — public domain (2500+ years old). sanskritdocuments.org publishes digitized text under permissive terms.",
+    "fetchedAt": "2026-06-02T08:28:56.685Z"
+  },
+  "totalVerses": 21,
+  "totalChapters": 6,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Shvetashvatara Upanishad",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "ब्रह्मवादिनो वदन्ति | किं कारणं ब्रह्म | कुतः स्म जाताः | जीवाम केन | क्व च सम्प्रतिष्ठाः ||",
+          "transliteration": "brahmavādino vadanti | kiṃ kāraṇaṃ brahma | kutaḥ sma jātāḥ | jīvāma kena | kva ca sampratiṣṭhāḥ ||",
+          "translation": "The knowers of Brahman ask: What is the cause? Brahman? From where are we born? By what do we live? And on what are we established?",
+          "hindi": "ब्रह्मवादी पूछते हैं: कारण क्या है? क्या वह ब्रह्म है? हम कहाँ से उत्पन्न हुए? किससे जी रहे हैं? और किस पर स्थित हैं?",
+          "commentary": "The Upanishad begins with the most fundamental human questions — not \"what should I do?\" but \"what IS all this?\" These are the questions that drive both philosophy and science. Origin, sustenance, dissolution — the three fundamental processes the universe exhibits.",
+          "wordMeaning": "The Upanishad begins with the most fundamental human questions — not \"what should I do?\" but \"what IS all this?\" These are the questions that drive both philosophy and science. Origin, sustenance, dissolution — the three fundamental processes the universe exhibits."
+        },
+        {
+          "number": 2,
+          "sanskrit": "तमीश्वराणां परमं महेश्वरं तं देवतानां परमं च दैवतम् | पतिं पतीनां परमं परस्तात् विदाम देवं भुवनेशमीड्यम् ||",
+          "transliteration": "tamīśvarāṇāṃ paramaṃ maheśvaraṃ taṃ devatānāṃ paramaṃ ca daivatam | patiṃ patīnāṃ paramaṃ parastāt vidāma devaṃ bhuvaneśamīḍyam ||",
+          "translation": "Let us know that Supreme God — Maheshvara, the greatest among rulers, the highest deity among gods, the Lord of lords, beyond whom there is nothing — the one worthy of praise who rules the worlds.",
+          "hindi": "उस महेश्वर को जानें — जो सभी ईश्वरों में परम है, सभी देवताओं में सर्वोच्च है, सभी पतियों का पति है, और जिसके परे कुछ नहीं — जो विश्व का स्वामी और स्तुत्य देव है।",
+          "commentary": "The Shvetashvatara presents a hierarchy: there are many lords, many gods, many rulers — but there is ONE who is supreme over all. That supreme is Maheshvara (the Great Lord). This is significant: the text does not deny the existence of other deities but reveals a highest principle that encompasses them all. It is philosophical monotheism arising from within a polytheistic framework.",
+          "wordMeaning": "The Shvetashvatara presents a hierarchy: there are many lords, many gods, many rulers — but there is ONE who is supreme over all. That supreme is Maheshvara (the Great Lord). This is significant: the text does not deny the existence of other deities but reveals a highest principle that encompasses them all. It is philosophical monotheism arising from within a polytheistic framework."
+        },
+        {
+          "number": 8,
+          "sanskrit": "प्राणान् प्रपीड्येह संयुक्तचेष्टः | क्षीणे प्राणे नासिकयोच्छ्वसीत | दुष्टाश्वयुक्तमिव वाहमेनं | विद्वान् मनो धारयेताप्रमत्तः ||",
+          "transliteration": "prāṇān prapīḍyeha saṃyuktaceṣṭaḥ | kṣīṇe prāṇe nāsikayocchavasīt | duṣṭāśvayuktamiva vāhamennaṃ | vidvān mano dhārayetāpramattaḥ ||",
+          "translation": "Having restrained the pranas by controlling the breath, the wise person should hold the mind without distraction — as a charioteer holds back unruly horses.",
+          "hindi": "प्राणों को यत्न से नियंत्रित करके, और श्वास को नासिका से धीरे-धीरे निकालते हुए — जैसे कोई दुष्ट अश्वों वाले रथ को संभालता है — विद्वान पुरुष को मन को अप्रमत्त होकर धारण करना चाहिए।",
+          "commentary": "This is one of the earliest descriptions of pranayama (breath control) in Indian literature. The charioteer metaphor anticipates the Bhagavad Gita's famous image: the body is the chariot, the Self is the passenger, the intellect is the charioteer, and the senses are the horses. The unruly mind must be guided by the skillful driver of disciplined breath and attention.",
+          "wordMeaning": "This is one of the earliest descriptions of pranayama (breath control) in Indian literature. The charioteer metaphor anticipates the Bhagavad Gita's famous image: the body is the chariot, the Self is the passenger, the intellect is the charioteer, and the senses are the horses. The unruly mind must be guided by the skillful driver of disciplined breath and attention."
+        },
+        {
+          "number": 10,
+          "sanskrit": "मायां तु प्रकृतिं विद्यान्मायिनं तु महेश्वरम् |\nतस्यावयवभूतैस्तु व्याप्तं सर्वमिदं जगत् ||",
+          "transliteration": "māyāṃ tu prakṛtiṃ vidyānmāyinaṃ tu maheśvaram |\ntasyāvayavabhūtaistu vyāptaṃ sarvamidaṃ jagat ||",
+          "translation": "Know Maya to be Prakriti (Nature), and the Wielder of Maya to be the Great Lord. This whole world is pervaded by beings who are His parts.",
+          "hindi": "माया को ही प्रकृति जानो, और मायावी को महेश्वर। उसी के अंगभूत प्राणियों से यह संपूर्ण जगत व्याप्त है।",
+          "commentary": "This is one of the earliest crystal-clear definitions of the Maya doctrine that later Vedanta would elaborate. Maya is not \"illusion\" in the sense of \"not existing\" — it is the creative power by which the One appears as the many. The world is real as appearance; what is unreal is the assumption that the multiplicity is the final reality. The Wielder is the unchanging substance behind all appearance.",
+          "wordMeaning": "This is one of the earliest crystal-clear definitions of the Maya doctrine that later Vedanta would elaborate. Maya is not \"illusion\" in the sense of \"not existing\" — it is the creative power by which the One appears as the many. The world is real as appearance; what is unreal is the assumption that the multiplicity is the final reality. The Wielder is the unchanging substance behind all appearance."
+        },
+        {
+          "number": 11,
+          "sanskrit": "एको देवः सर्वभूतेषु गूढः सर्वव्यापी सर्वभूतान्तरात्मा |\nकर्माध्यक्षः सर्वभूताधिवासः साक्षी चेता केवलो निर्गुणश्च ||",
+          "transliteration": "eko devaḥ sarvabhūteṣu gūḍhaḥ sarvavyāpī sarvabhūtāntarātmā |\nkarmādhyakṣaḥ sarvabhūtādhivāsaḥ sākṣī cetā kevalo nirguṇaśca ||",
+          "translation": "One God, hidden in all beings, all-pervading, the inner Self of all beings, the overseer of all actions, dwelling in all beings, the witness, the consciousness, the Absolute, free from qualities.",
+          "hindi": "एक देव सभी प्राणियों में छिपा हुआ है, सर्वव्यापी है, सभी प्राणियों की अंतरात्मा है। वह सभी कर्मों का अध्यक्ष है, सभी प्राणियों में निवासी है, साक्षी है, चेतना है, केवल और निर्गुण है।",
+          "commentary": "One of the most comprehensive descriptions of Brahman/Shiva in any Upanishad. Eight attributes: hidden (not visible to ordinary sense), all-pervading, inner Self of all, overseer (not controller) of all actions, dwelling in all, witness, pure consciousness, and attribute-free. This is the personal God of devotion AND the impersonal Absolute of philosophy — synthesized in one verse.",
+          "wordMeaning": "One of the most comprehensive descriptions of Brahman/Shiva in any Upanishad. Eight attributes: hidden (not visible to ordinary sense), all-pervading, inner Self of all, overseer (not controller) of all actions, dwelling in all, witness, pure consciousness, and attribute-free. This is the personal God of devotion AND the impersonal Absolute of philosophy — synthesized in one verse."
+        },
+        {
+          "number": 14,
+          "sanskrit": "यथा आकाशे स्थितो वायुः सर्वत्र गच्छति | तथा सर्वाणि भूतानि स्थितानि परमात्मनि ||",
+          "transliteration": "yathā ākāśe sthito vāyuḥ sarvatra gacchati | tathā sarvāṇi bhūtāni sthitāni paramātmani ||",
+          "translation": "Just as wind, though present in space, moves everywhere — so all beings exist within the Supreme Self.",
+          "hindi": "जैसे वायु आकाश में स्थित होकर भी सर्वत्र गति करती है — वैसे ही सभी प्राणी परमात्मा में स्थित हैं।",
+          "commentary": "Wind exists within space — it is made of space-stuff, moves through space, and when still, merges back into space. Yet the wind is not the same as the space. Individual souls are like winds within the space of Brahman: distinct in their movement but sustained by and ultimately identical with the infinite space of consciousness. The analogy captures both the distinctiveness of individuals and their ultimate non-separation from the whole.",
+          "wordMeaning": "Wind exists within space — it is made of space-stuff, moves through space, and when still, merges back into space. Yet the wind is not the same as the space. Individual souls are like winds within the space of Brahman: distinct in their movement but sustained by and ultimately identical with the infinite space of consciousness. The analogy captures both the distinctiveness of individuals and their ultimate non-separation from the whole."
+        },
+        {
+          "number": 19,
+          "sanskrit": "स विश्वकृद् विश्वविद् आत्मयोनिः | ज्ञः कालकारो गुणी सर्वविद्यः | प्रधानक्षेत्रज्ञपतिर्गुणेशः | संसारमोक्षस्थितिबन्धहेतुः ||",
+          "transliteration": "sa viśvakṛd viśvavid ātmayoniḥ | jñaḥ kālakāro guṇī sarvavidyaḥ | pradhānakṣetrajñapatirguṇeśaḥ | saṃsāramokṣasthitibandhahetuḥ ||",
+          "translation": "He is the maker of all, knower of all, the self-originated; he is the knower, the fashioner of time, endowed with qualities, omniscient, the lord of matter and the individual soul, the lord of the qualities, and the cause of liberation from birth and bondage.",
+          "hindi": "वह विश्व का निर्माता है, विश्व का ज्ञाता है, स्वयंभू है; ज्ञाता है, काल का कर्ता है, गुणी है, सर्वज्ञ है, प्रधान और क्षेत्रज्ञ का स्वामी है, गुणों का ईश्वर है, और संसार-बंधन से मोक्ष का कारण भी वही है।",
+          "commentary": "A comprehensive portrait of the supreme Lord in Shvetashvatara's theistic Vedanta. He is not merely the creator (as in other traditions) but simultaneously the knower, the time-maker, the sustainer, and — most remarkably — the cause of liberation itself. God is not just the jailer; God is also the liberator. The same power that creates bondage through maya also dissolves it through grace.",
+          "wordMeaning": "A comprehensive portrait of the supreme Lord in Shvetashvatara's theistic Vedanta. He is not merely the creator (as in other traditions) but simultaneously the knower, the time-maker, the sustainer, and — most remarkably — the cause of liberation itself. God is not just the jailer; God is also the liberator. The same power that creates bondage through maya also dissolves it through grace."
+        },
+        {
+          "number": 20,
+          "sanskrit": "यदा चर्मवदाकाशं वेष्टयिष्यन्ति मानवाः |\nतदा देवमविज्ञाय दुःखस्यान्तो भविष्यति ||",
+          "transliteration": "yadā carmavadākāśaṃ veṣṭayiṣyanti mānavāḥ |\ntadā devamavijñāya duḥkhasyānto bhaviṣyati ||",
+          "translation": "When humans roll up the sky like a piece of leather, then — without knowing God — suffering will come to an end.",
+          "hindi": "जब मनुष्य आकाश को चमड़े की तरह लपेट लेंगे, तभी — ईश्वर को जाने बिना — दुख का अंत होगा।",
+          "commentary": "A verse of supreme irony: rolling up the sky like leather is impossible — and that is exactly the point. There is NO shortcut, no technological solution, no social reform sufficient to end human suffering without knowledge of the divine Self. Outer achievement — however magnificent — cannot substitute for inner realization.",
+          "wordMeaning": "A verse of supreme irony: rolling up the sky like leather is impossible — and that is exactly the point. There is NO shortcut, no technological solution, no social reform sufficient to end human suffering without knowledge of the divine Self. Outer achievement — however magnificent — cannot substitute for inner realization."
+        }
+      ],
+      "titleSanskrit": "प्रथम अध्याय"
+    },
+    {
+      "number": 2,
+      "title": "Chapter 2 — The Yoga of Inner Fire",
+      "titleSanskrit": "द्वितीय अध्याय — योगविद्या",
+      "verses": [
+        {
+          "number": 8,
+          "sanskrit": "प्राणान् प्रपीड्येह संयुक्तचेष्टः | क्षीणे प्राणे नासिकयोच्छ्वसीत | दुष्टाश्वयुक्तमिव वाहमेनं | विद्वान् मनो धारयेताप्रमत्तः ||",
+          "transliteration": "prāṇān prapīḍyeha saṃyuktaceṣṭaḥ | kṣīṇe prāṇe nāsikayocchavasīt | duṣṭāśvayuktamiva vāhamennaṃ | vidvān mano dhārayetāpramattaḥ ||",
+          "translation": "Having restrained the pranas by controlling the breath, the wise person should hold the mind without distraction — as a charioteer holds back unruly horses.",
+          "hindi": "प्राणों को यत्न से नियंत्रित करके, और श्वास को नासिका से धीरे-धीरे निकालते हुए — जैसे कोई दुष्ट अश्वों वाले रथ को संभालता है — विद्वान पुरुष को मन को अप्रमत्त होकर धारण करना चाहिए।",
+          "commentary": "This is one of the earliest descriptions of pranayama (breath control) in Indian literature. The charioteer metaphor anticipates the Bhagavad Gita's famous image: the body is the chariot, the Self is the passenger, the intellect is the charioteer, and the senses are the horses. The unruly mind must be guided by the skillful driver of disciplined breath and attention.",
+          "wordMeaning": "This is one of the earliest descriptions of pranayama (breath control) in Indian literature. The charioteer metaphor anticipates the Bhagavad Gita's famous image: the body is the chariot, the Self is the passenger, the intellect is the charioteer, and the senses are the horses. The unruly mind must be guided by the skillful driver of disciplined breath and attention."
+        },
+        {
+          "number": 14,
+          "sanskrit": "यथा आकाशे स्थितो वायुः सर्वत्र गच्छति | तथा सर्वाणि भूतानि स्थितानि परमात्मनि ||",
+          "transliteration": "yathā ākāśe sthito vāyuḥ sarvatra gacchati | tathā sarvāṇi bhūtāni sthitāni paramātmani ||",
+          "translation": "Just as wind, though present in space, moves everywhere — so all beings exist within the Supreme Self.",
+          "hindi": "जैसे वायु आकाश में स्थित होकर भी सर्वत्र गति करती है — वैसे ही सभी प्राणी परमात्मा में स्थित हैं।",
+          "commentary": "Wind exists within space — it is made of space-stuff, moves through space, and when still, merges back into space. Yet the wind is not the same as the space. Individual souls are like winds within the space of Brahman: distinct in their movement but sustained by and ultimately identical with the infinite space of consciousness. The analogy captures both the distinctiveness of individuals and their ultimate non-separation from the whole.",
+          "wordMeaning": "Wind exists within space — it is made of space-stuff, moves through space, and when still, merges back into space. Yet the wind is not the same as the space. Individual souls are like winds within the space of Brahman: distinct in their movement but sustained by and ultimately identical with the infinite space of consciousness. The analogy captures both the distinctiveness of individuals and their ultimate non-separation from the whole."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Chapter 3 — The Cosmic Person",
+      "titleSanskrit": "तृतीय अध्याय",
+      "verses": [
+        {
+          "number": 8,
+          "sanskrit": "वेदाहमेतं पुरुषं महान्तमादित्यवर्णं तमसः परस्तात् |\nतमेव विदित्वातिमृत्युमेति नान्यः पन्था विद्यतेऽयनाय ||",
+          "transliteration": "vedāhametaṃ puruṣaṃ mahāntamādityavarṇaṃ tamasaḥ parastāt |\ntameva viditvātimṛtyumeti nānyaḥ panthā vidyate'yanāya ||",
+          "translation": "I know that great Person, brilliant as the sun, beyond all darkness. Only by knowing Him does one cross over death — there is no other path for liberation.",
+          "hindi": "मैं उस महान पुरुष को जानता हूँ — जो सूर्य के समान देदीप्यमान और अंधकार से परे है। उसी को जानकर मनुष्य मृत्यु को पार करता है; मोक्ष का अन्य कोई मार्ग नहीं है।",
+          "commentary": "This verse is later quoted by Krishna in the Bhagavad Gita (chapter 8). The Cosmic Person is \"Aditya-varna\" — luminous like the sun. The radical claim: there is no other path to immortality. Not multiple paths leading up the mountain — but the one inevitable recognition: the Cosmic Person is your own deepest Self.",
+          "wordMeaning": "This verse is later quoted by Krishna in the Bhagavad Gita (chapter 8). The Cosmic Person is \"Aditya-varna\" — luminous like the sun. The radical claim: there is no other path to immortality. Not multiple paths leading up the mountain — but the one inevitable recognition: the Cosmic Person is your own deepest Self."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Chapter 4 — Maya and the One",
+      "titleSanskrit": "चतुर्थ अध्याय",
+      "verses": [
+        {
+          "number": 10,
+          "sanskrit": "मायां तु प्रकृतिं विद्यान्मायिनं तु महेश्वरम् |\nतस्यावयवभूतैस्तु व्याप्तं सर्वमिदं जगत् ||",
+          "transliteration": "māyāṃ tu prakṛtiṃ vidyānmāyinaṃ tu maheśvaram |\ntasyāvayavabhūtaistu vyāptaṃ sarvamidaṃ jagat ||",
+          "translation": "Know Maya to be Prakriti (Nature), and the Wielder of Maya to be the Great Lord. This whole world is pervaded by beings who are His parts.",
+          "hindi": "माया को ही प्रकृति जानो, और मायावी को महेश्वर। उसी के अंगभूत प्राणियों से यह संपूर्ण जगत व्याप्त है।",
+          "commentary": "This is one of the earliest crystal-clear definitions of the Maya doctrine that later Vedanta would elaborate. Maya is not \"illusion\" in the sense of \"not existing\" — it is the creative power by which the One appears as the many. The world is real as appearance; what is unreal is the assumption that the multiplicity is the final reality. The Wielder is the unchanging substance behind all appearance.",
+          "wordMeaning": "This is one of the earliest crystal-clear definitions of the Maya doctrine that later Vedanta would elaborate. Maya is not \"illusion\" in the sense of \"not existing\" — it is the creative power by which the One appears as the many. The world is real as appearance; what is unreal is the assumption that the multiplicity is the final reality. The Wielder is the unchanging substance behind all appearance."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Chapter 5 — The Three Categories",
+      "titleSanskrit": "पञ्चम अध्याय",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "द्वे अक्षरे ब्रह्मपरे त्वनन्ते विद्याविद्ये निहिते यत्र गूढे |\nक्षरं त्वविद्या ह्यमृतं तु विद्या विद्याविद्ये ईशते यस्तु सोऽन्यः ||",
+          "transliteration": "dve akṣare brahmapare tvanante vidyāvidye nihite yatra gūḍhe |\nkṣaraṃ tvavidyā hyamṛtaṃ tu vidyā vidyāvidye īśate yastu so'nyaḥ ||",
+          "translation": "In the imperishable, infinite, supreme Brahman, two are hidden — knowledge (vidya) and ignorance (avidya). Ignorance is the perishable; knowledge is the immortal. The one who is master of both knowledge and ignorance is yet another — the Supreme.",
+          "hindi": "पर ब्रह्म में, जो अनन्त और अक्षर है, दो छिपे हैं — विद्या और अविद्या। अविद्या क्षर है; विद्या अमर है। और जो विद्या-अविद्या दोनों का स्वामी है, वह तो इन से भी परे है।",
+          "commentary": "A subtle three-fold structure: knowledge, ignorance, and that which transcends both. Most spiritual paths advise: choose knowledge, reject ignorance. The Shvetashvatara goes deeper: the Supreme is BEYOND both knowledge and ignorance — it is the source of both, the witness of both. This anticipates the non-dual teaching that even \"enlightenment\" and \"ignorance\" are appearances within a more fundamental awareness.",
+          "wordMeaning": "A subtle three-fold structure: knowledge, ignorance, and that which transcends both. Most spiritual paths advise: choose knowledge, reject ignorance. The Shvetashvatara goes deeper: the Supreme is BEYOND both knowledge and ignorance — it is the source of both, the witness of both. This anticipates the non-dual teaching that even \"enlightenment\" and \"ignorance\" are appearances within a more fundamental awareness."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Chapter 6 — The Hidden God",
+      "titleSanskrit": "षष्ठ अध्याय",
+      "verses": [
+        {
+          "number": 11,
+          "sanskrit": "एको देवः सर्वभूतेषु गूढः सर्वव्यापी सर्वभूतान्तरात्मा |\nकर्माध्यक्षः सर्वभूताधिवासः साक्षी चेता केवलो निर्गुणश्च ||",
+          "transliteration": "eko devaḥ sarvabhūteṣu gūḍhaḥ sarvavyāpī sarvabhūtāntarātmā |\nkarmādhyakṣaḥ sarvabhūtādhivāsaḥ sākṣī cetā kevalo nirguṇaśca ||",
+          "translation": "One God, hidden in all beings, all-pervading, the inner Self of all beings, the overseer of all actions, dwelling in all beings, the witness, the consciousness, the Absolute, free from qualities.",
+          "hindi": "एक देव सभी प्राणियों में छिपा हुआ है, सर्वव्यापी है, सभी प्राणियों की अंतरात्मा है। वह सभी कर्मों का अध्यक्ष है, सभी प्राणियों में निवासी है, साक्षी है, चेतना है, केवल और निर्गुण है।",
+          "commentary": "One of the most comprehensive descriptions of Brahman/Shiva in any Upanishad. Eight attributes: hidden (not visible to ordinary sense), all-pervading, inner Self of all, overseer (not controller) of all actions, dwelling in all, witness, pure consciousness, and attribute-free. This is the personal God of devotion AND the impersonal Absolute of philosophy — synthesized in one verse.",
+          "wordMeaning": "One of the most comprehensive descriptions of Brahman/Shiva in any Upanishad. Eight attributes: hidden (not visible to ordinary sense), all-pervading, inner Self of all, overseer (not controller) of all actions, dwelling in all, witness, pure consciousness, and attribute-free. This is the personal God of devotion AND the impersonal Absolute of philosophy — synthesized in one verse."
+        },
+        {
+          "number": 19,
+          "sanskrit": "स विश्वकृद् विश्वविद् आत्मयोनिः | ज्ञः कालकारो गुणी सर्वविद्यः | प्रधानक्षेत्रज्ञपतिर्गुणेशः | संसारमोक्षस्थितिबन्धहेतुः ||",
+          "transliteration": "sa viśvakṛd viśvavid ātmayoniḥ | jñaḥ kālakāro guṇī sarvavidyaḥ | pradhānakṣetrajñapatirguṇeśaḥ | saṃsāramokṣasthitibandhahetuḥ ||",
+          "translation": "He is the maker of all, knower of all, the self-originated; he is the knower, the fashioner of time, endowed with qualities, omniscient, the lord of matter and the individual soul, the lord of the qualities, and the cause of liberation from birth and bondage.",
+          "hindi": "वह विश्व का निर्माता है, विश्व का ज्ञाता है, स्वयंभू है; ज्ञाता है, काल का कर्ता है, गुणी है, सर्वज्ञ है, प्रधान और क्षेत्रज्ञ का स्वामी है, गुणों का ईश्वर है, और संसार-बंधन से मोक्ष का कारण भी वही है।",
+          "commentary": "A comprehensive portrait of the supreme Lord in Shvetashvatara's theistic Vedanta. He is not merely the creator (as in other traditions) but simultaneously the knower, the time-maker, the sustainer, and — most remarkably — the cause of liberation itself. God is not just the jailer; God is also the liberator. The same power that creates bondage through maya also dissolves it through grace.",
+          "wordMeaning": "A comprehensive portrait of the supreme Lord in Shvetashvatara's theistic Vedanta. He is not merely the creator (as in other traditions) but simultaneously the knower, the time-maker, the sustainer, and — most remarkably — the cause of liberation itself. God is not just the jailer; God is also the liberator. The same power that creates bondage through maya also dissolves it through grace."
+        },
+        {
+          "number": 20,
+          "sanskrit": "यदा चर्मवदाकाशं वेष्टयिष्यन्ति मानवाः |\nतदा देवमविज्ञाय दुःखस्यान्तो भविष्यति ||",
+          "transliteration": "yadā carmavadākāśaṃ veṣṭayiṣyanti mānavāḥ |\ntadā devamavijñāya duḥkhasyānto bhaviṣyati ||",
+          "translation": "When humans roll up the sky like a piece of leather, then — without knowing God — suffering will come to an end.",
+          "hindi": "जब मनुष्य आकाश को चमड़े की तरह लपेट लेंगे, तभी — ईश्वर को जाने बिना — दुख का अंत होगा।",
+          "commentary": "A verse of supreme irony: rolling up the sky like leather is impossible — and that is exactly the point. There is NO shortcut, no technological solution, no social reform sufficient to end human suffering without knowledge of the divine Self. Outer achievement — however magnificent — cannot substitute for inner realization.",
+          "wordMeaning": "A verse of supreme irony: rolling up the sky like leather is impossible — and that is exactly the point. There is NO shortcut, no technological solution, no social reform sufficient to end human suffering without knowledge of the divine Self. Outer achievement — however magnificent — cannot substitute for inner realization."
+        },
+        {
+          "number": 25,
+          "sanskrit": "योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो शिवसमाश्रयः ||",
+          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ śivasamāśrayaḥ ||",
+          "translation": "Yoga is the cessation of mental modifications; yoga gives liberation. Yoga cuts all bonds; yoga rests on Shiva.",
+          "hindi": "योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग शिव पर आश्रित है।",
+          "commentary": "The definition of yoga from Yoga Sutras, placed in the context of Shiva worship. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Shiva.",
+          "wordMeaning": "The definition of yoga from Yoga Sutras, placed in the context of Shiva worship. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Shiva."
+        },
+        {
+          "number": 30,
+          "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं शिव एव सर्वं शिव मयि सर्वम् ||",
+          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ śiva eva sarvaṃ śiva mayi sarvam ||",
+          "translation": "I am Brahman, not you; I am birth, not beings; all is Shiva alone, all is Shiva in me.",
+          "hindi": "मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब शिव ही है, सब शिव मेरे में है।",
+          "commentary": "The declaration of non-duality with Shiva as the supreme. The individual Self is Brahman; the world is Shiva; all distinctions dissolve in this recognition.",
+          "wordMeaning": "The declaration of non-duality with Shiva as the supreme. The individual Self is Brahman; the world is Shiva; all distinctions dissolve in this recognition."
+        },
+        {
+          "number": 35,
+          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो शिवे लीनो न तत्र संशयो भवति ||",
+          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo śive līno na tatra saṃśayo bhavati ||",
+          "translation": "As rivers merge into the ocean, as lamps merge into light — so the individual self merges into Shiva. There is no doubt about this.",
+          "hindi": "जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव शिव में लीन हो जाता है। इसमें कोई संशय नहीं।",
+          "commentary": "The dissolution of individuality into Shiva. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains.",
+          "wordMeaning": "The dissolution of individuality into Shiva. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains."
+        },
+        {
+          "number": 40,
+          "sanskrit": "शान्तं शिवमद्वैतं शिव नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
+          "transliteration": "śāntaṃ śivamadvaitaṃ śiva nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||",
+          "translation": "Peaceful, auspicious, non-dual Shiva — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.",
+          "hindi": "शांत, शिव, अद्वैत शिव — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
+          "commentary": "The attributes of Shiva: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness.",
+          "wordMeaning": "The attributes of Shiva: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness."
+        },
+        {
+          "number": 45,
+          "sanskrit": "एको देवो द्वितीयो नास्ति यो शिवं वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
+          "transliteration": "eko devo dvitīyo nāsti yo śivaṃ veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||",
+          "translation": "There is one God, no second — he who knows Shiva in truth. I am He, not any being, no death, no sorrow, and so on.",
+          "hindi": "एक ही देव है, दूसरा कोई नहीं — जो शिव को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।",
+          "commentary": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering.",
+          "wordMeaning": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering."
+        }
+      ]
+    }
+  ]
+}

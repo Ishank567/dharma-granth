@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://ishank567.github.io/dharma-granth
+Sitemap: https://ishank567.github.io/dharma-granth/sitemap.xml

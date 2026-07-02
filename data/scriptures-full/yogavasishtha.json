@@ -1,0 +1,111 @@
+{
+  "id": "yogavasishtha",
+  "title": "Yoga Vasishtha",
+  "titleSanskrit": "योगवासिष्ठः",
+  "category": "other",
+  "source": {
+    "repo": "https://sanskritdocuments.org/doc_yoga/yogavAsiShTha01.itx (parts 01–01)",
+    "license": "Sanskrit mūla — public domain. Digitized by sanskritdocuments.org.",
+    "fetchedAt": "2026-06-03T13:44:27.881Z"
+  },
+  "totalVerses": 6,
+  "totalChapters": 6,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Vairagya Prakarana — Dispassion",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "चिद्भित्तौ चित्रमिव ब्रह्मात्मनोर्भेदः स्फुरत्यदः | भेदाभेदावुभौ नास्तः सत्तास्फूर्तिः पुनः पुनः ||",
+          "transliteration": "cidbhittau citramiva brahmātmanorbhedaḥ sphuratyādaḥ | bhedābhedāvubhau nāstaḥ sattāsphūrtiḥ punaḥ punaḥ ||",
+          "translation": "Like a picture on a wall of consciousness, the apparent difference between Brahman and the individual Self shines forth. But neither difference nor non-difference truly exists — only pure Being-Consciousness shines again and again.",
+          "hindi": "जैसे दीवार पर चित्र बना होता है, वैसे ही चेतना की भित्ति पर ब्रह्म और आत्मा का भेद प्रकट होता है। परंतु न तो भेद सत्य है, न अभेद — केवल सत्-चित् बार-बार स्फुरित होती रहती है।",
+          "commentary": "The Yoga Vasishtha teaches through metaphor. Consciousness is the wall; the apparent duality between Brahman (universal Self) and Atman (individual self) is like a picture painted on that wall — it appears real but has no substance of its own. The picture does not exist apart from the wall; the individual self does not exist apart from universal consciousness.",
+          "wordMeaning": "The Yoga Vasishtha teaches through metaphor. Consciousness is the wall; the apparent duality between Brahman (universal Self) and Atman (individual self) is like a picture painted on that wall — it appears real but has no substance of its own. The picture does not exist apart from the wall; the individual self does not exist apart from universal consciousness."
+        }
+      ],
+      "titleSanskrit": "वैराग्यप्रकरण"
+    },
+    {
+      "number": 2,
+      "title": "Mumukshu Vyavahara — The Seeker's Conduct",
+      "titleSanskrit": "मुमुक्षुव्यवहार",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "शमो विचारः सन्तोषश्चतुर्थः साधुसङ्गमः | एते मोक्षस्य द्वारे च द्वारपालाश्चतुर्विधाः ||",
+          "transliteration": "śamo vicāraḥ santoṣaścaturthaḥ sādhu-saṅgamaḥ | ete mokṣasya dvāre ca dvārapālāścaturvidhāḥ ||",
+          "translation": "Shama (self-control), Vichara (self-inquiry), Santosha (contentment), and Sadhu-sanga (good company) — these four are the gatekeepers of liberation.",
+          "hindi": "शम (मन का निग्रह), विचार (आत्म-विचार), संतोष और साधु-संग — ये चार मोक्ष के द्वार के चार द्वारपाल हैं।",
+          "commentary": "One of the most practical frameworks in all Indian wisdom literature. You do not need to master all four simultaneously — befriending even one opens the door. Shama (calm mind) allows inquiry. Vichara (inquiry into \"who am I?\") leads to contentment. Contentment makes one seek authentic company. And good company deepens shama. They are mutually reinforcing.",
+          "wordMeaning": "One of the most practical frameworks in all Indian wisdom literature. You do not need to master all four simultaneously — befriending even one opens the door. Shama (calm mind) allows inquiry. Vichara (inquiry into \"who am I?\") leads to contentment. Contentment makes one seek authentic company. And good company deepens shama. They are mutually reinforcing."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Utpatti Prakarana — The Story of Creation",
+      "titleSanskrit": "उत्पत्तिप्रकरण",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "यथा काकतालीयन्यायेन शाखापातफलद्वयम् | आकस्मिकमपि भूतं हि बुद्धिमन्नायतेऽन्यथा ||",
+          "transliteration": "yathā kākatālīyanyāyena śākhāpātaphala-dvayam | ākasmikamapi bhūtaṃ hi buddhimānnāyate'nyathā ||",
+          "translation": "Just as by the \"crow-and-palm\" logic — when a crow lands on a palm tree and the fruit falls simultaneously — the intelligent person does not conclude that one caused the other.",
+          "hindi": "जैसे काकतालीय न्याय में — जब कौआ बैठता है और उसी समय ताड़ का फल गिरता है — बुद्धिमान व्यक्ति यह नहीं मानता कि एक दूसरे का कारण था।",
+          "commentary": "The Yoga Vasishtha introduces the Kakataliiya Nyaya (crow-and-palm fallacy) — the logical error of assuming that temporal coincidence implies causation. Events happen in the universe; the mind constructs causal stories about them. Most of our suffering comes from incorrect causal attributions: \"This happened BECAUSE of that person, that choice, that circumstance.\"",
+          "wordMeaning": "The Yoga Vasishtha introduces the Kakataliiya Nyaya (crow-and-palm fallacy) — the logical error of assuming that temporal coincidence implies causation. Events happen in the universe; the mind constructs causal stories about them. Most of our suffering comes from incorrect causal attributions: \"This happened BECAUSE of that person, that choice, that circumstance.\""
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Sthiti Prakarana — The Persistence of the World",
+      "titleSanskrit": "स्थितिप्रकरण",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "चित्तं वासनारूपं वासनैव हि सृष्टिः | वासनाक्षयमेव मोक्ष इति निश्चयः ||",
+          "transliteration": "cittaṃ vāsanārūpaṃ vāsanaiva hi sṛṣṭiḥ | vāsanākṣayameva mokṣa iti niścayaḥ ||",
+          "translation": "The mind is composed of vasanas (impressions); creation itself is nothing but vasana. The exhaustion of vasanas alone is liberation — this is the conclusion.",
+          "hindi": "चित्त वासना-रूप ही है; सृष्टि भी वासना ही है। वासनाओं का क्षय ही मोक्ष है — यही निश्चय है।",
+          "commentary": "A staggering claim of the Yoga Vasishtha: the world we see is nothing other than the vasanas (deep tendencies, impressions, samskaras) within the mind. As long as vasanas operate, the world keeps appearing exactly as the vasanas demand it to appear. Two people in the same room inhabit different worlds because they project their respective vasanas onto the same scene. Liberation is not destruction of the world; it is the exhaustion of the impressions that produce it.",
+          "wordMeaning": "A staggering claim of the Yoga Vasishtha: the world we see is nothing other than the vasanas (deep tendencies, impressions, samskaras) within the mind. As long as vasanas operate, the world keeps appearing exactly as the vasanas demand it to appear. Two people in the same room inhabit different worlds because they project their respective vasanas onto the same scene. Liberation is not destruction of the world; it is the exhaustion of the impressions that produce it."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Upashama Prakarana — The Quieting of the Mind",
+      "titleSanskrit": "उपशमप्रकरण",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "न मनो मानवो हन्तुं शक्यते परमेणपि | विचारेणैव सुलभं मनसो मरणं स्मृतम् ||",
+          "transliteration": "na mano mānavo hantuṃ śakyate parameṇapi | vicāreṇaiva sulabhaṃ manaso maraṇaṃ smṛtam ||",
+          "translation": "The mind cannot be killed by a human being, however supreme his effort. By inquiry alone, the death of the mind is easily attained — so it has been said.",
+          "hindi": "कितने भी प्रयास से कोई मनुष्य मन को नहीं मार सकता। केवल विचार (आत्म-विचार) से ही मन की मृत्यु सुलभता से होती है — ऐसा कहा गया है।",
+          "commentary": "A liberating reversal: you cannot suppress the mind into stillness through willpower. The harder you fight thoughts, the more they multiply. But through vichara — patient, honest inquiry into the nature of the thinker — the mind subsides effortlessly. Why? Because the agitated mind is sustained by misidentification (\"I am these thoughts\"). When the misidentification ends through inquiry, the agitation has no fuel.",
+          "wordMeaning": "A liberating reversal: you cannot suppress the mind into stillness through willpower. The harder you fight thoughts, the more they multiply. But through vichara — patient, honest inquiry into the nature of the thinker — the mind subsides effortlessly. Why? Because the agitated mind is sustained by misidentification (\"I am these thoughts\"). When the misidentification ends through inquiry, the agitation has no fuel."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Nirvana Prakarana — The Final Liberation",
+      "titleSanskrit": "निर्वाणप्रकरण",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "व्यवहारन्तु जीवन्मुक्तानां स्वच्छन्दतः सदा | सर्वत्र समदर्शित्वान्न रागद्वेषलक्षणम् ||",
+          "transliteration": "vyavahārantu jīvanmuktānāṃ svacchandataḥ sadā | sarvatra samadarśitvānna rāgadveṣalakṣaṇam ||",
+          "translation": "The conduct of the jivanmuktas is ever free and natural. Seeing all things equally, they show neither attachment nor aversion.",
+          "hindi": "जीवन्मुक्तों का व्यवहार सदा स्वच्छंद और सहज होता है। सर्वत्र समदर्शी होने के कारण उनमें न राग है, न द्वेष।",
+          "commentary": "The jivanmukta — one who has attained liberation while still in the body — is not withdrawn from life. Vasishtha's description: their actions are natural, free, spontaneous. They neither cling to pleasure nor flee from pain. This is not indifference; it is a quality of presence in which the inner reactivity (raga-dvesha) has been exhausted. They participate fully in life without being captured by it.",
+          "wordMeaning": "The jivanmukta — one who has attained liberation while still in the body — is not withdrawn from life. Vasishtha's description: their actions are natural, free, spontaneous. They neither cling to pleasure nor flee from pain. This is not indifference; it is a quality of presence in which the inner reactivity (raga-dvesha) has been exhausted. They participate fully in life without being captured by it."
+        }
+      ]
+    }
+  ]
+}

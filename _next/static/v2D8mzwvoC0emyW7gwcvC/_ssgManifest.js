@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fcharacters\u002F[id]","\u002Fdictionary\u002F[id]","\u002Fscripture\u002F[id]","\u002Fscripture\u002F[id]\u002Fchapter\u002F[chapterId]","\u002Ftopics\u002F[id]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

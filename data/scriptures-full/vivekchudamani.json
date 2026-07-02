@@ -1,0 +1,198 @@
+{
+  "id": "vivekchudamani",
+  "title": "Vivekachudamani",
+  "titleSanskrit": "विवेकचूडामणिः",
+  "category": "other",
+  "source": {
+    "repo": "https://sanskritdocuments.org/doc_vedanta/vivekachUDAmaNi.itx",
+    "license": "Sanskrit mūla — public domain. Attributed to Adi Shankaracharya.",
+    "fetchedAt": "2026-06-03T13:44:24.309Z"
+  },
+  "totalVerses": 18,
+  "totalChapters": 3,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Vivekachudamani",
+      "verses": [
+        {
+          "number": 1,
+          "sanskrit": "जन्तूनां नरजन्म दुर्लभमतः पुंस्त्वं ततो विप्रता | तस्माद्वैदिकधर्ममार्गपरता विद्वत्त्वमस्मात् परम् ||",
+          "transliteration": "jantūnāṃ narajanma durlabhamataḥ puṃstvaṃ tato vipratā | tasmādvaidikadharmamārgaparatā vidvattvamāsmāt param ||",
+          "translation": "Among all beings, human birth is rare; rarer still is full human development; rarer is commitment to the path of dharma; rarest of all is wisdom.",
+          "hindi": "सभी प्राणियों में मनुष्य जन्म दुर्लभ है; उससे भी दुर्लभ है पूर्ण पुरुषत्व; उससे भी दुर्लभ है वैदिक धर्म में श्रद्धा; और उससे भी दुर्लभ है विद्वत्ता (वास्तविक ज्ञान)।",
+          "commentary": "Shankara opens with a ladder of rarity: existence → human existence → full development → ethical commitment → wisdom. The rarest of all gifts is not wealth, health, or talent — it is viveka: discriminative wisdom. This verse is a call to urgency.",
+          "wordMeaning": "Shankara opens with a ladder of rarity: existence → human existence → full development → ethical commitment → wisdom. The rarest of all gifts is not wealth, health, or talent — it is viveka: discriminative wisdom. This verse is a call to urgency."
+        },
+        {
+          "number": 3,
+          "sanskrit": "दुर्लभं त्रयमेवैतद् देवानुग्रहहेतुकम् | मनुष्यत्वं मुमुक्षुत्वं महापुरुषसंश्रयः ||",
+          "transliteration": "durlabhaṃ trayamevaitad devānugrahachetukam | manuṣyatvaṃ mumukṣutvaṃ mahāpuruṣasaṃśrayaḥ ||",
+          "translation": "Three things are rare and come only by the grace of God: human birth, the desire for liberation, and the company of a great teacher.",
+          "hindi": "तीन चीजें बड़ी दुर्लभ हैं और ईश्वर की कृपा से मिलती हैं: मनुष्य जन्म, मुमुक्षुत्व (मोक्ष की इच्छा), और महापुरुष का संग।",
+          "commentary": "Shankara identifies three essential ingredients for spiritual transformation: the instrument (human birth), the motivation (genuine desire for liberation — not temporary enthusiasm but sustained yearning), and the method (guidance from an authentic teacher). All three must be present. Intelligence without genuine seeking produces mere scholarship.",
+          "wordMeaning": "Shankara identifies three essential ingredients for spiritual transformation: the instrument (human birth), the motivation (genuine desire for liberation — not temporary enthusiasm but sustained yearning), and the method (guidance from an authentic teacher). All three must be present. Intelligence without genuine seeking produces mere scholarship."
+        },
+        {
+          "number": 10,
+          "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं ब्रह्म एव सर्वं ब्रह्म मयि सर्वम् ||",
+          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ brahma eva sarvaṃ brahma mayi sarvam ||",
+          "translation": "I am Brahman, not you; I am birth, not beings; all is Brahman alone, all is Brahman in me.",
+          "hindi": "मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब ब्रह्म ही है, सब ब्रह्म मेरे में है।",
+          "commentary": "The declaration of non-duality with Brahman as the supreme. The individual Self is Brahman; the world is Brahman; all distinctions dissolve in this recognition.",
+          "wordMeaning": "The declaration of non-duality with Brahman as the supreme. The individual Self is Brahman; the world is Brahman; all distinctions dissolve in this recognition."
+        },
+        {
+          "number": 15,
+          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो ब्रह्मणि लीनो न तत्र संशयो भवति ||",
+          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo brahmaṇi līno na tatra saṃśayo bhavati ||",
+          "translation": "As rivers merge into the ocean, as lamps merge into light — so the individual self merges into Brahman. There is no doubt about this.",
+          "hindi": "जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।",
+          "commentary": "The dissolution of individuality into Brahman. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains.",
+          "wordMeaning": "The dissolution of individuality into Brahman. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains."
+        },
+        {
+          "number": 20,
+          "sanskrit": "ब्रह्म सत्यं जगन्मिथ्या जीवो ब्रह्मैव नापरः | अनेन वेद्यं सच्छास्त्रमिति वेदान्तडिण्डिमः ||",
+          "transliteration": "brahma satyaṃ jaganmithyā jīvo brahmaiva nāparaḥ | anena vedyaṃ sacchāstramiti vedāntaḍiṇḍimaḥ ||",
+          "translation": "Brahman is real; the world is illusory; the individual soul is none other than Brahman — this alone is to be known from all true scriptures. This is the proclamation of Vedanta.",
+          "hindi": "ब्रह्म सत्य है, जगत मिथ्या है, जीव ब्रह्म से अभिन्न है — यही सब सच्छास्त्रों से जानने योग्य है। यही वेदान्त की घोषणा है।",
+          "commentary": "The most compact summary of Advaita Vedanta: Brahma satyam, jagat mithya, jivo brahmaiva naparah. The world is not \"unreal\" in the sense of nonexistent — it is \"mithya\" = apparently real but not independently real, like a dream within consciousness. Brahman alone is ultimately real.",
+          "wordMeaning": "The most compact summary of Advaita Vedanta: Brahma satyam, jagat mithya, jivo brahmaiva naparah. The world is not \"unreal\" in the sense of nonexistent — it is \"mithya\" = apparently real but not independently real, like a dream within consciousness. Brahman alone is ultimately real."
+        },
+        {
+          "number": 25,
+          "sanskrit": "एको देवो द्वितीयो नास्ति यो ब्रह्मं वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
+          "transliteration": "eko devo dvitīyo nāsti yo brahmaṃ veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||",
+          "translation": "There is one God, no second — he who knows Brahman in truth. I am He, not any being, no death, no sorrow, and so on.",
+          "hindi": "एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।",
+          "commentary": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering.",
+          "wordMeaning": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering."
+        },
+        {
+          "number": 47,
+          "sanskrit": "रज्जुसर्पवदात्मानं जीवं ज्ञात्वा भयं यदा | तदा यथार्थज्ञानेन भयं नश्यति तत्क्षणात् ||",
+          "transliteration": "rajjusarpavadātmānaṃ jīvaṃ jñātvā bhayaṃ yadā | tadā yathārthajñānena bhayaṃ naśyati tatkṣaṇāt ||",
+          "translation": "When, like the rope mistaken for a snake, the individual self is known as Brahman — at that very moment, with that correct knowledge, fear dissolves instantaneously.",
+          "hindi": "जैसे रस्सी को साँप समझकर जो भय होता है, वैसे ही जीव को भ्रम से भय होता है। सत्य ज्ञान होते ही वह भय तत्क्षण नष्ट हो जाता है।",
+          "commentary": "The rope-snake analogy is Shankara's most famous illustration: a person sees a rope in dim light and mistakes it for a snake. The fear is real; the snake is not. The moment they see clearly — 'it is only a rope' — the fear vanishes instantly. No snake was destroyed; only the misperception was corrected. Liberation is not achievement but correction of perception.",
+          "wordMeaning": "The rope-snake analogy is Shankara's most famous illustration: a person sees a rope in dim light and mistakes it for a snake. The fear is real; the snake is not. The moment they see clearly — 'it is only a rope' — the fear vanishes instantly. No snake was destroyed; only the misperception was corrected. Liberation is not achievement but correction of perception."
+        },
+        {
+          "number": 155,
+          "sanskrit": "अन्नमयं नो जीवः स्यात् प्राणमयोऽपि न केवलः | मनोमयो नैव जीवः | बुद्धिरात्मा न चेत्यसत् ||",
+          "transliteration": "annamayaṃ no jīvaḥ syāt prāṇamayo'pi na kevalaḥ | manomayo naiva jīvaḥ | buddhirātmā na cetyasat ||",
+          "translation": "The food-body (annamaya) is not the Self. The vital-body (pranamaya) is not the Self alone. The mental-body (manomaya) is not the Self. The intellect (buddhi) is not the Self either — all these are unreal.",
+          "hindi": "अन्नमय कोश जीव नहीं है; प्राणमय भी केवल जीव नहीं है; मनोमय भी जीव नहीं है; और बुद्धि भी आत्मा नहीं है — ये सब असत् हैं।",
+          "commentary": "Shankara systematically peels away each of the five sheaths that appear to be the Self but are not. The food-body (annamaya) is what we are born and die with. The vital-body (pranamaya) is the life-force. The mental body (manomaya) is thoughts and emotions. The intellectual sheath (vijnanamaya) is discrimination and judgment. None of these is the actual Self — they are instruments OF the Self.",
+          "wordMeaning": "Shankara systematically peels away each of the five sheaths that appear to be the Self but are not. The food-body (annamaya) is what we are born and die with. The vital-body (pranamaya) is the life-force. The mental body (manomaya) is thoughts and emotions. The intellectual sheath (vijnanamaya) is discrimination and judgment. None of these is the actual Self — they are instruments OF the Self."
+        },
+        {
+          "number": 478,
+          "sanskrit": "एको देवः सर्वभूतेषु गूढः सर्वव्यापी चात्मा | साक्षी चेताः केवलो निर्गुणश्च | नित्यः शुद्धो बुद्ध एव मुक्तः ||",
+          "transliteration": "eko devaḥ sarvabhūteṣu gūḍhaḥ sarvavyāpī cātmā | sākṣī cetāḥ kevalo nirguṇaśca | nityaḥ śuddho buddha eva muktaḥ ||",
+          "translation": "The one Self, hidden in all beings, all-pervading, the witness, consciousness, attribute-free — eternal, pure, enlightened, free.",
+          "hindi": "एक आत्मा, सभी प्राणियों में छिपी, सर्वव्यापी, साक्षी, चेतना, निर्गुण — नित्य, शुद्ध, बुद्ध और मुक्त।",
+          "commentary": "Shankara's final description of the liberated Self: hidden in all beings (as the witness), all-pervading (not localized in any body), pure consciousness (not a product of the brain), attribute-free (not definable by any characteristic), eternal (not born or dying), pure (not contaminated by any experience), enlightened (self-luminous, not dependent on external sources of knowledge), and free (not bound by karma or rebirth). This is the true nature of the Self — your true nature.",
+          "wordMeaning": "Shankara's final description of the liberated Self: hidden in all beings (as the witness), all-pervading (not localized in any body), pure consciousness (not a product of the brain), attribute-free (not definable by any characteristic), eternal (not born or dying), pure (not contaminated by any experience), enlightened (self-luminous, not dependent on external sources of knowledge), and free (not bound by karma or rebirth). This is the true nature of the Self — your true nature."
+        }
+      ],
+      "titleSanskrit": "प्रथम प्रकरण"
+    },
+    {
+      "number": 2,
+      "title": "The Real and the Unreal",
+      "titleSanskrit": "सत्-असत् विवेक",
+      "verses": [
+        {
+          "number": 20,
+          "sanskrit": "ब्रह्म सत्यं जगन्मिथ्या जीवो ब्रह्मैव नापरः | अनेन वेद्यं सच्छास्त्रमिति वेदान्तडिण्डिमः ||",
+          "transliteration": "brahma satyaṃ jaganmithyā jīvo brahmaiva nāparaḥ | anena vedyaṃ sacchāstramiti vedāntaḍiṇḍimaḥ ||",
+          "translation": "Brahman is real; the world is illusory; the individual soul is none other than Brahman — this alone is to be known from all true scriptures. This is the proclamation of Vedanta.",
+          "hindi": "ब्रह्म सत्य है, जगत मिथ्या है, जीव ब्रह्म से अभिन्न है — यही सब सच्छास्त्रों से जानने योग्य है। यही वेदान्त की घोषणा है।",
+          "commentary": "The most compact summary of Advaita Vedanta: Brahma satyam, jagat mithya, jivo brahmaiva naparah. The world is not \"unreal\" in the sense of nonexistent — it is \"mithya\" = apparently real but not independently real, like a dream within consciousness. Brahman alone is ultimately real.",
+          "wordMeaning": "The most compact summary of Advaita Vedanta: Brahma satyam, jagat mithya, jivo brahmaiva naparah. The world is not \"unreal\" in the sense of nonexistent — it is \"mithya\" = apparently real but not independently real, like a dream within consciousness. Brahman alone is ultimately real."
+        },
+        {
+          "number": 47,
+          "sanskrit": "रज्जुसर्पवदात्मानं जीवं ज्ञात्वा भयं यदा | तदा यथार्थज्ञानेन भयं नश्यति तत्क्षणात् ||",
+          "transliteration": "rajjusarpavadātmānaṃ jīvaṃ jñātvā bhayaṃ yadā | tadā yathārthajñānena bhayaṃ naśyati tatkṣaṇāt ||",
+          "translation": "When, like the rope mistaken for a snake, the individual self is known as Brahman — at that very moment, with that correct knowledge, fear dissolves instantaneously.",
+          "hindi": "जैसे रस्सी को साँप समझकर जो भय होता है, वैसे ही जीव को भ्रम से भय होता है। सत्य ज्ञान होते ही वह भय तत्क्षण नष्ट हो जाता है।",
+          "commentary": "The rope-snake analogy is Shankara's most famous illustration: a person sees a rope in dim light and mistakes it for a snake. The fear is real; the snake is not. The moment they see clearly — 'it is only a rope' — the fear vanishes instantly. No snake was destroyed; only the misperception was corrected. Liberation is not achievement but correction of perception.",
+          "wordMeaning": "The rope-snake analogy is Shankara's most famous illustration: a person sees a rope in dim light and mistakes it for a snake. The fear is real; the snake is not. The moment they see clearly — 'it is only a rope' — the fear vanishes instantly. No snake was destroyed; only the misperception was corrected. Liberation is not achievement but correction of perception."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "The Sheaths and the Self",
+      "titleSanskrit": "पञ्चकोश विवेक",
+      "verses": [
+        {
+          "number": 5,
+          "sanskrit": "योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो ब्रह्मसमाश्रयः ||",
+          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ brahmasamāśrayaḥ ||",
+          "translation": "Yoga is the cessation of mental modifications; yoga gives liberation. Yoga cuts all bonds; yoga rests on Brahman.",
+          "hindi": "योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग ब्रह्म पर आश्रित है।",
+          "commentary": "The definition of yoga from Yoga Sutras, placed in the context of Brahman realization. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Brahman.",
+          "wordMeaning": "The definition of yoga from Yoga Sutras, placed in the context of Brahman realization. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Brahman."
+        },
+        {
+          "number": 10,
+          "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं ब्रह्म एव सर्वं ब्रह्म मयि सर्वम् ||",
+          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ brahma eva sarvaṃ brahma mayi sarvam ||",
+          "translation": "I am Brahman, not you; I am birth, not beings; all is Brahman alone, all is Brahman in me.",
+          "hindi": "मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब ब्रह्म ही है, सब ब्रह्म मेरे में है।",
+          "commentary": "The declaration of non-duality with Brahman as the supreme. The individual Self is Brahman; the world is Brahman; all distinctions dissolve in this recognition.",
+          "wordMeaning": "The declaration of non-duality with Brahman as the supreme. The individual Self is Brahman; the world is Brahman; all distinctions dissolve in this recognition."
+        },
+        {
+          "number": 15,
+          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो ब्रह्मणि लीनो न तत्र संशयो भवति ||",
+          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo brahmaṇi līno na tatra saṃśayo bhavati ||",
+          "translation": "As rivers merge into the ocean, as lamps merge into light — so the individual self merges into Brahman. There is no doubt about this.",
+          "hindi": "जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।",
+          "commentary": "The dissolution of individuality into Brahman. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains.",
+          "wordMeaning": "The dissolution of individuality into Brahman. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains."
+        },
+        {
+          "number": 20,
+          "sanskrit": "शान्तं शिवमद्वैतं ब्रह्म नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
+          "transliteration": "śāntaṃ śivamadvaitaṃ brahma nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||",
+          "translation": "Peaceful, auspicious, non-dual Brahman — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.",
+          "hindi": "शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
+          "commentary": "The attributes of Brahman: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness.",
+          "wordMeaning": "The attributes of Brahman: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness."
+        },
+        {
+          "number": 25,
+          "sanskrit": "एको देवो द्वितीयो नास्ति यो ब्रह्मं वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
+          "transliteration": "eko devo dvitīyo nāsti yo brahmaṃ veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||",
+          "translation": "There is one God, no second — he who knows Brahman in truth. I am He, not any being, no death, no sorrow, and so on.",
+          "hindi": "एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।",
+          "commentary": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering.",
+          "wordMeaning": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering."
+        },
+        {
+          "number": 155,
+          "sanskrit": "अन्नमयं नो जीवः स्यात् प्राणमयोऽपि न केवलः | मनोमयो नैव जीवः | बुद्धिरात्मा न चेत्यसत् ||",
+          "transliteration": "annamayaṃ no jīvaḥ syāt prāṇamayo'pi na kevalaḥ | manomayo naiva jīvaḥ | buddhirātmā na cetyasat ||",
+          "translation": "The food-body (annamaya) is not the Self. The vital-body (pranamaya) is not the Self alone. The mental-body (manomaya) is not the Self. The intellect (buddhi) is not the Self either — all these are unreal.",
+          "hindi": "अन्नमय कोश जीव नहीं है; प्राणमय भी केवल जीव नहीं है; मनोमय भी जीव नहीं है; और बुद्धि भी आत्मा नहीं है — ये सब असत् हैं।",
+          "commentary": "Shankara systematically peels away each of the five sheaths that appear to be the Self but are not. The food-body (annamaya) is what we are born and die with. The vital-body (pranamaya) is the life-force. The mental body (manomaya) is thoughts and emotions. The intellectual sheath (vijnanamaya) is discrimination and judgment. None of these is the actual Self — they are instruments OF the Self.",
+          "wordMeaning": "Shankara systematically peels away each of the five sheaths that appear to be the Self but are not. The food-body (annamaya) is what we are born and die with. The vital-body (pranamaya) is the life-force. The mental body (manomaya) is thoughts and emotions. The intellectual sheath (vijnanamaya) is discrimination and judgment. None of these is the actual Self — they are instruments OF the Self."
+        },
+        {
+          "number": 478,
+          "sanskrit": "एको देवः सर्वभूतेषु गूढः सर्वव्यापी चात्मा | साक्षी चेताः केवलो निर्गुणश्च | नित्यः शुद्धो बुद्ध एव मुक्तः ||",
+          "transliteration": "eko devaḥ sarvabhūteṣu gūḍhaḥ sarvavyāpī cātmā | sākṣī cetāḥ kevalo nirguṇaśca | nityaḥ śuddho buddha eva muktaḥ ||",
+          "translation": "The one Self, hidden in all beings, all-pervading, the witness, consciousness, attribute-free — eternal, pure, enlightened, free.",
+          "hindi": "एक आत्मा, सभी प्राणियों में छिपी, सर्वव्यापी, साक्षी, चेतना, निर्गुण — नित्य, शुद्ध, बुद्ध और मुक्त।",
+          "commentary": "Shankara's final description of the liberated Self: hidden in all beings (as the witness), all-pervading (not localized in any body), pure consciousness (not a product of the brain), attribute-free (not definable by any characteristic), eternal (not born or dying), pure (not contaminated by any experience), enlightened (self-luminous, not dependent on external sources of knowledge), and free (not bound by karma or rebirth). This is the true nature of the Self — your true nature.",
+          "wordMeaning": "Shankara's final description of the liberated Self: hidden in all beings (as the witness), all-pervading (not localized in any body), pure consciousness (not a product of the brain), attribute-free (not definable by any characteristic), eternal (not born or dying), pure (not contaminated by any experience), enlightened (self-luminous, not dependent on external sources of knowledge), and free (not bound by karma or rebirth). This is the true nature of the Self — your true nature."
+        }
+      ]
+    }
+  ]
+}
