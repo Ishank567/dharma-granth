@@ -123,7 +123,7 @@ export function DailyVerse() {
 
   return (
     <FadeUp>
-      <div className="relative overflow-hidden rounded-3xl border border-saffron-200 bg-gradient-to-br from-saffron-50 via-amber-50 to-orange-50 p-8 md:p-10 shadow-lg">
+      <div className="daily-verse-card relative overflow-hidden rounded-3xl border border-saffron-200 bg-gradient-to-br from-saffron-50 via-amber-50 to-orange-50 p-8 md:p-10 shadow-lg">
         {/* Decorative mandala */}
         <div className="absolute inset-0 mandala-bg opacity-[0.04] pointer-events-none" />
 

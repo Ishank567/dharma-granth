@@ -19,6 +19,15 @@ export function useLocalStorage<T>(
   initial: T,
 ): [T, (value: T | ((prev: T) => T)) => void, () => void] {
   const [value, setValue] = useState<T>(initial);
+  // Gates the persist effect until the hydrated value has actually rendered.
+  // A state flag (not a ref) is deliberate: within the mount commit the
+  // persist effect runs right after the hydrate effect, and with a ref it
+  // would immediately write `initial` over the stored value — which, under
+  // StrictMode's double-effect pass in dev, the second hydrate then reads
+  // back, silently wiping stored data. With state, persist stays skipped
+  // until the post-hydration re-render, so it can only ever write values
+  // the user has genuinely seen.
+  const [hydrated, setHydrated] = useState(false);
   const keyRef = useRef(key);
   keyRef.current = key;
 
@@ -32,16 +41,19 @@ export function useLocalStorage<T>(
     } catch {
       // ignore parse / access errors
     }
+    setHydrated(true);
   }, [keyRef]);
 
-  // Persist on change.
+  // Persist on change (only after hydration, so the initial value can never
+  // overwrite previously stored data).
   useEffect(() => {
+    if (!hydrated) return;
     try {
       window.localStorage.setItem(keyRef.current, JSON.stringify(value));
     } catch {
       // ignore quota / access errors
     }
-  }, [value, keyRef]);
+  }, [value, hydrated, keyRef]);
 
   // Cross-tab sync.
   useEffect(() => {

@@ -14,14 +14,20 @@ import {
 import { ThemeToggle } from './ThemeToggle';
 
 const navItems = [
-  { label: 'Home', href: '/' },
-  { label: 'Library', href: '/scriptures' },
+  { label: 'मुख', href: '/' },
+  { label: 'ग्रंथालय', href: '/scriptures' },
   { label: 'अवधारणाएँ', href: '/concepts' },
-  { label: 'Topics', href: '/topics' },
-  { label: 'Bhagavad Gita', href: '/scripture/bhagavadgita' },
-  { label: 'Bookmarks', href: '/bookmarks' },
-  { label: 'Pathways', href: '/learn/pathways' },
-  { label: 'Dashboard', href: '/dashboard' },
+  { label: 'विषय', href: '/topics' },
+  { label: 'पात्र', href: '/characters' },
+  { label: 'स्थान', href: '/locations' },
+  { label: 'कालखंड', href: '/timelines' },
+  { label: 'उत्सव', href: '/festivals' },
+  { label: 'अनुष्ठान', href: '/rituals' },
+  { label: 'गीता', href: '/scripture/bhagavadgita' },
+  { label: 'बुकमार्क', href: '/bookmarks' },
+  { label: 'पथ', href: '/learn/pathways' },
+  { label: 'साधना', href: '/practice' },
+  { label: 'डैशबोर्ड', href: '/dashboard' },
 ];
 
 export function SiteNav() {
@@ -38,8 +44,11 @@ export function SiteNav() {
   const isActive = (href: string): boolean =>
     href === '/' ? pathname === '/' : pathname.startsWith(href);
 
+  // shrink-0 matters: these are flex children of a scrollable strip, and
+  // overflow-hidden zeroes their automatic flex minimum — without it the
+  // links compress and clip their labels instead of letting the strip scroll.
   const linkClass = (href: string): string =>
-    `relative overflow-hidden px-4 py-2.5 rounded-xl text-sm font-semibold transition-colors duration-200 ${
+    `relative overflow-hidden shrink-0 whitespace-nowrap px-4 py-2.5 rounded-xl text-sm font-semibold transition-colors duration-200 ${
       isActive(href)
         ? 'text-saffron-700'
         : 'text-dharma-text hover:text-saffron-700 hover:bg-saffron-50/50'
@@ -51,7 +60,7 @@ export function SiteNav() {
         <div className="h-18 flex items-center justify-between py-3">
 
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2.5 group">
+          <Link href="/" className="flex items-center gap-2.5 group shrink-0">
             <motion.span 
               className="font-devanagari text-3xl text-saffron-600 leading-none group-hover:text-saffron-700 transition"
               whileHover={reduce ? undefined : { scale: 1.1, rotate: 5 }}
@@ -63,8 +72,10 @@ export function SiteNav() {
             </span>
           </Link>
 
-          {/* Desktop nav links */}
-          <div className="hidden md:flex items-center gap-1">
+          {/* Desktop nav links. 14 items don't fit at most widths, so the
+              strip scrolls horizontally (scrollbar hidden) instead of
+              clipping links off the edge. */}
+          <div className="hidden md:flex items-center gap-1 flex-1 min-w-0 overflow-x-auto whitespace-nowrap mx-3 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
             {navItems.map((item) => (
               <Link key={item.href} href={item.href} className={linkClass(item.href)}>
                 {isActive(item.href) && (
@@ -80,9 +91,10 @@ export function SiteNav() {
           </div>
 
           {/* Desktop right actions */}
-          <div className="hidden md:flex items-center gap-4">
+          <div className="hidden md:flex items-center gap-4 shrink-0">
             <ThemeToggle />
             <motion.div
+              className="hidden xl:block"
               whileHover={reduce ? undefined : { scale: 1.05 }}
               whileTap={reduce ? undefined : { scale: 0.98 }}
             >

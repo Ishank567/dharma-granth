@@ -493,6 +493,41 @@
         color: #fed7aa;
     }
 
+    /* Daily Verse card: its light-mode look is a hardcoded saffron gradient,
+     * so in night theme the surface must flip too — otherwise the var-based
+     * text colors (--dharma-text goes light) vanish against the cream bg. */
+    :root[data-theme='night'] .daily-verse-card {
+        background: linear-gradient(135deg, var(--dharma-card-soft), var(--dharma-panel-muted));
+        border-color: var(--dharma-border);
+    }
+    :root[data-theme='night'] .daily-verse-card .text-saffron-800,
+    :root[data-theme='night'] .daily-verse-card .text-saffron-700 {
+        color: #fdba74;
+    }
+    :root[data-theme='night'] .daily-verse-card .text-saffron-600 {
+        color: #fb923c;
+    }
+    :root[data-theme='night'] .daily-verse-card .text-rose-800 {
+        color: #fda4af;
+    }
+    :root[data-theme='night'] .daily-verse-card .bg-saffron-100 {
+        background-color: rgba(249, 115, 22, 0.14);
+        border-color: rgba(249, 115, 22, 0.28);
+        color: #fed7aa;
+    }
+    :root[data-theme='night'] .daily-verse-card .bg-saffron-300 {
+        background-color: rgba(249, 115, 22, 0.35);
+    }
+
+    /* Practice dashboard tool-picker chips: selected state is a light saffron
+     * pill in day/sunset; in night theme use the translucent ember treatment
+     * shared with .chip so it sits on the dark canvas instead of glowing. */
+    :root[data-theme='night'] .practice-tool-chip-on {
+        background-color: rgba(249, 115, 22, 0.16);
+        border-color: rgba(249, 115, 22, 0.32);
+        color: #fed7aa;
+    }
+
     :root[data-theme='sunset'] .section-sanskrit,
     :root[data-theme='sunset'] .section-translit,
     :root[data-theme='sunset'] .section-translation,
