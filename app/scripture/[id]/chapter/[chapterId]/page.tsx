@@ -3,18 +3,14 @@ import { resolve } from 'node:path';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { BookExplanationPanel } from '@/app/components/BookExplanationPanel';
 import { AmbientOrbs } from '@/app/components/motion/AmbientOrbs';
 import { ChapterHero } from '@/app/components/motion/ChapterHero';
-import { ChapterLearningClient } from '@/app/components/ChapterLearningClient';
-import { ChapterPreparationClient } from '@/app/components/ChapterPreparationClient';
 import { FullChapterVerses } from '@/app/components/FullChapterVerses';
-import { VerseDisplay } from '@/app/components/VerseDisplay';
-import { FadeUpOnView, Stagger, StaggerItem } from '@/app/components/motion/primitives';
-import { getBookExplanation } from '@/data/book-explanations';
-import { getScripture, getScriptureMeta, getAllScriptures, getScriptureChapters } from '@/data/scriptures';
-import { getVerseCommentary } from '@/data/hi-commentary-loader';
+import { FadeUpOnView } from '@/app/components/motion/primitives';
+import { getScriptureMeta, getAllScriptures, getScriptureChapters } from '@/data/scriptures';
 import { ArrowLeft, ArrowRight, BookOpen, Sparkles } from 'lucide-react';
+
+const seededChapterNumbersCache = new Map<string, number[]>();
 
 /**
  * Read the chapter numbers present in a scripture's seeded full-text JSON
@@ -23,6 +19,9 @@ import { ArrowLeft, ArrowRight, BookOpen, Sparkles } from 'lucide-react';
  * chapters so the seeded mūla text is reachable.
  */
 function readSeededChapterNumbers(scriptureId: string): number[] {
+  const cached = seededChapterNumbersCache.get(scriptureId);
+  if (cached) return cached;
+
   try {
     const filePath = resolve(
       process.cwd(),
@@ -33,9 +32,11 @@ function readSeededChapterNumbers(scriptureId: string): number[] {
     const data = JSON.parse(readFileSync(filePath, 'utf8')) as {
       chapters?: { number?: number | string }[];
     };
-    return (data.chapters ?? [])
+    const chapterNumbers = (data.chapters ?? [])
       .map((c) => (typeof c.number === 'number' ? c.number : Number(c.number)))
       .filter((n): n is number => Number.isFinite(n));
+    seededChapterNumbersCache.set(scriptureId, chapterNumbers);
+    return chapterNumbers;
   } catch {
     return [];
   }
@@ -43,6 +44,78 @@ function readSeededChapterNumbers(scriptureId: string): number[] {
 
 interface PageProps {
   params: { id: string; chapterId: string };
+}
+
+interface ChapterPreview {
+  id: number;
+  title: string;
+  titleSanskrit?: string;
+  summary?: string;
+  verseCount: number;
+}
+
+const seededChapterPreviewCache = new Map<string, ChapterPreview[]>();
+
+function readSeededChapterPreviews(scriptureId: string): ChapterPreview[] {
+  const cached = seededChapterPreviewCache.get(scriptureId);
+  if (cached) return cached;
+
+  try {
+    const filePath = resolve(
+      process.cwd(),
+      'public/data/scriptures-full',
+      `${scriptureId}.json`,
+    );
+    if (!existsSync(filePath)) return [];
+    const data = JSON.parse(readFileSync(filePath, 'utf8')) as {
+      chapters?: Array<{
+        number?: number | string;
+        title?: string;
+        titleSanskrit?: string;
+        verses?: unknown[];
+      }>;
+    };
+
+    const previews = (data.chapters ?? [])
+      .map((chapter): ChapterPreview | undefined => {
+        const id =
+          typeof chapter.number === 'number'
+            ? chapter.number
+            : Number(chapter.number);
+        if (!Number.isFinite(id)) return undefined;
+        return {
+          id,
+          title: chapter.title || `अध्याय ${id}`,
+          titleSanskrit: chapter.titleSanskrit,
+          summary: 'मुक्त-स्रोत संग्रह से पूर्ण मूल पाठ उपलब्ध है।',
+          verseCount: chapter.verses?.length ?? 0,
+        };
+      })
+      .filter((chapter): chapter is ChapterPreview => Boolean(chapter));
+    seededChapterPreviewCache.set(scriptureId, previews);
+    return previews;
+  } catch {
+    return [];
+  }
+}
+
+function getChapterPreview(scriptureId: string, chapterId: number): ChapterPreview | undefined {
+  const indexedChapter = getScriptureChapters(scriptureId).find(
+    (chapter) => chapter.id === chapterId,
+  );
+  const seededChapter = readSeededChapterPreviews(scriptureId).find(
+    (chapter) => chapter.id === chapterId,
+  );
+
+  if (!indexedChapter && !seededChapter) return undefined;
+
+  return {
+    id: chapterId,
+    title: indexedChapter?.title ?? seededChapter?.title ?? `अध्याय ${chapterId}`,
+    titleSanskrit: indexedChapter?.titleSanskrit ?? seededChapter?.titleSanskrit,
+    summary: seededChapter?.summary,
+    verseCount: Math.max(indexedChapter?.verseCount ?? 0, seededChapter?.verseCount ?? 0),
+  };
 }
 
 export function generateStaticParams() {
@@ -73,12 +146,11 @@ export function generateStaticParams() {
 }
 
 export function generateMetadata({ params }: PageProps): Metadata {
-  const scripture = getScripture(params.id);
   const meta = getScriptureMeta(params.id);
-  if (!scripture || !meta) return {};
+  if (!meta) return {};
 
   const chapterId = parseInt(params.chapterId, 10);
-  const chapter = scripture.chapters.find(c => c.id === chapterId);
+  const chapter = getChapterPreview(params.id, chapterId);
   if (!chapter) return {};
 
   const title = `${chapter.title} — ${meta.title} (अध्याय ${chapter.id})`;
@@ -115,26 +187,18 @@ export function generateMetadata({ params }: PageProps): Metadata {
 }
 
 export default function ChapterPage({ params }: PageProps) {
-  const scripture = getScripture(params.id);
   const meta = getScriptureMeta(params.id);
-  if (!scripture || !meta) return notFound();
+  if (!meta) return notFound();
 
   const chapterId = parseInt(params.chapterId, 10);
   if (!Number.isFinite(chapterId) || chapterId < 1) return notFound();
-  const chapterIndex = scripture.chapters.findIndex(c => c.id === chapterId);
-  const curatedChapter = scripture.chapters[chapterIndex];
 
-  // If the curated TS module doesn't have this chapter, fall back to a
-  // synthetic stub. The seeded full-text JSON (loaded by FullChapterVerses)
-  // covers everything; the stub is just a placeholder so the page can
-  // render headers and pagination. `generateStaticParams` already emits
-  // params for these chapters when seeded JSON exists.
-  const chapter = curatedChapter ?? {
+  const chapter = getChapterPreview(params.id, chapterId) ?? {
     id: chapterId,
     title: `अध्याय ${chapterId}`,
     titleSanskrit: undefined,
-    summary: undefined,
-    verses: [],
+    summary: 'मुक्त-स्रोत संग्रह से पूर्ण मूल पाठ उपलब्ध है।',
+    verseCount: 0,
   };
 
   // Determine the navigable chapter range. Curated TS may stop short
@@ -143,27 +207,12 @@ export default function ChapterPage({ params }: PageProps) {
   // moving forward into seeded-only chapters.
   const seededChapters = readSeededChapterNumbers(meta.id);
   const maxSeeded = seededChapters.reduce((m, n) => (n > m ? n : m), 0);
-  const totalChapterCount = Math.max(scripture.chapters.length, maxSeeded);
+  const indexedChapters = getScriptureChapters(meta.id);
+  const maxIndexed = indexedChapters.reduce((m, ch) => (ch.id > m ? ch.id : m), 0);
+  const totalChapterCount = Math.max(meta.totalChapters, maxIndexed, maxSeeded);
   if (chapterId > totalChapterCount) return notFound();
 
-  const previousChapter = chapterIndex > 0 ? scripture.chapters[chapterIndex - 1] : undefined;
-  const nextChapter = chapterIndex < scripture.chapters.length - 1 ? scripture.chapters[chapterIndex + 1] : undefined;
-  const explanation = getBookExplanation(params.id);
-  const learningVerses = chapter.verses.map(verse => {
-    const commentary = getVerseCommentary(
-      params.id,
-      chapter.id,
-      verse.number ?? verse.id,
-    );
-    return {
-      ...verse,
-      explanationHi: commentary?.explanation,
-      scienceHi: commentary?.science,
-      lifeLessonHi: commentary?.lifeLesson,
-    };
-  });
-
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://dharmagranth.example';
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://dharmagranth.in';
   const chapterJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Chapter',
@@ -226,11 +275,11 @@ export default function ChapterPage({ params }: PageProps) {
           </div>
           <p className="text-base opacity-80 max-w-3xl leading-relaxed">{chapter.summary}</p>
           <div className="mt-5 flex flex-wrap items-center gap-3">
-            {chapter.verses.length > 0 ? (
+            {chapter.verseCount > 0 ? (
               <>
                 <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/15 backdrop-blur text-xs font-medium">
                   <BookOpen className="w-3.5 h-3.5" />
-                  {chapter.verses.length} चयनित श्लोक
+                  {chapter.verseCount} श्लोक
                 </span>
                 <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/15 backdrop-blur text-xs font-medium">
                   <Sparkles className="w-3.5 h-3.5" />
@@ -250,30 +299,13 @@ export default function ChapterPage({ params }: PageProps) {
       <div className="relative max-w-4xl mx-auto px-6 py-12">
         <AmbientOrbs />
         <div className="relative">
-        {chapter.verses.length > 0 ? (
-          <Stagger className="space-y-10">
-            {learningVerses.map((v) => (
-              <StaggerItem key={v.id}>
-                <VerseDisplay
-                  verse={v}
-                  scriptureId={params.id}
-                  scriptureTitle={meta.title}
-                  chapterId={chapter.id}
-                  chapterTitle={chapter.title}
-                  category={meta.category}
-                />
-              </StaggerItem>
-            ))}
-          </Stagger>
-        ) : null}
-
         <FullChapterVerses
           scriptureId={params.id}
           category={meta.category}
           chapterId={chapter.id}
-          curatedVerseIds={chapter.verses.map((v) => v.number ?? v.id)}
+          curatedVerseIds={[]}
           basePath={process.env.NEXT_PUBLIC_BASE_PATH || ''}
-          autoLoad={chapter.verses.length === 0}
+          autoLoad
         />
 
         <FadeUpOnView className="mt-14 flex items-center justify-between gap-4">

@@ -42,7 +42,7 @@ const THEME_INIT_SCRIPT = `
 `;
 
 const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL || "https://dharmagranth.example";
+  process.env.NEXT_PUBLIC_SITE_URL || "https://dharmagranth.in";
 const SITE_NAME = "Dharma Granth";
 const DEFAULT_TITLE = "Dharma Granth — Hindu Scriptures, Verse by Verse";
 const DEFAULT_DESCRIPTION =
