@@ -95,6 +95,13 @@ export const metadata: Metadata = {
       "max-video-preview": -1,
     },
   },
+  // Google Search Console ownership proof for https://dharmagranth.in/
+  // (URL-prefix property). Env var overrides for other environments.
+  verification: {
+    google:
+      process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION ||
+      "YWMSMR_2e_0e1w2nqm5_sMRIgnkVNgF-6IRNRRdyYS4",
+  },
   category: "religion",
 };
 
