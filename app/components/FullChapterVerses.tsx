@@ -7,6 +7,8 @@ import type { HiCommentaryFragment } from '@/data/hi-commentary/_types';
 import { canonicalVerseId } from '@/lib/canonical-verse-id';
 import { getVerseGraphicClass, getVerseGraphicStyle } from './verse-background';
 import { ContributeMeaningModal } from './ContributeMeaningModal';
+import { ListenButton } from './ListenButton';
+import { ShareVerseButton } from './ShareVerseButton';
 
 interface FullVerse {
   number: number | string;
@@ -40,6 +42,9 @@ interface Props {
   category: ScriptureCategory;
   chapterId: number;
   curatedVerseIds: Array<number | string>;
+  /** Display titles for the share card; fall back to ids when absent. */
+  scriptureTitle?: string;
+  chapterTitle?: string;
   basePath?: string;
   /**
    * Skip the "Load full chapter text" button and fetch immediately. Used on
@@ -56,7 +61,7 @@ type State =
   | { kind: 'empty' }
   | { kind: 'error'; message: string };
 
-export function FullChapterVerses({ scriptureId, category, chapterId, curatedVerseIds, basePath = '', autoLoad = false }: Props) {
+export function FullChapterVerses({ scriptureId, category, chapterId, curatedVerseIds, scriptureTitle, chapterTitle, basePath = '', autoLoad = false }: Props) {
   const [state, setState] = useState<State>({ kind: autoLoad ? 'loading' : 'idle' });
   const [contributeVerse, setContributeVerse] = useState<FullVerse | null>(null);
   const curatedVerseSet = useMemo(
@@ -69,24 +74,42 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
     let cancelled = false;
     (async () => {
       try {
-        const [scriptureRes, commentaryRes] = await Promise.all([
-          fetch(`${basePath}/data/scriptures-full/${scriptureId}.json`, {
+        const shardRes = await fetch(
+          `${basePath}/data/scriptures-full/${scriptureId}/ch-${chapterId}.json`,
+          { cache: 'force-cache' },
+        );
+
+        let chapter: FullChapter | undefined;
+        let source: FullScripture['source'];
+
+        if (shardRes.ok) {
+          const shard = (await shardRes.json()) as {
+            chapter?: FullChapter;
+            source?: FullScripture['source'];
+          };
+          chapter = shard.chapter;
+          source = shard.source;
+        } else {
+          const bookRes = await fetch(`${basePath}/data/scriptures-full/${scriptureId}.json`, {
             cache: 'force-cache',
-          }),
-          fetch(`${basePath}/data/hi-commentary/${scriptureId}.json`, {
-            cache: 'force-cache',
-          }),
-        ]);
-        if (!scriptureRes.ok) {
-          if (!cancelled) setState({ kind: 'empty' });
-          return;
+          });
+          if (!bookRes.ok) {
+            if (!cancelled) setState({ kind: 'empty' });
+            return;
+          }
+          const data: FullScripture = await bookRes.json();
+          chapter = data.chapters.find((c) => c.number === chapterId);
+          source = data.source;
         }
-        const data: FullScripture = await scriptureRes.json();
-        const chapter = data.chapters.find((c) => c.number === chapterId);
+
         if (!chapter || chapter.verses.length === 0) {
           if (!cancelled) setState({ kind: 'empty' });
           return;
         }
+
+        const commentaryRes = await fetch(`${basePath}/data/hi-commentary/${scriptureId}.json`, {
+          cache: 'force-cache',
+        });
         const extras = chapter.verses.filter(
           (v) => !curatedVerseSet.has(canonicalVerseId(chapterId, v.number)),
         );
@@ -94,7 +117,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
           ? await commentaryRes.json()
           : undefined;
         if (!cancelled) {
-          setState({ kind: 'ready', verses: extras, commentary, source: data.source });
+          setState({ kind: 'ready', verses: extras, commentary, source });
         }
       } catch (err) {
         if (!cancelled) setState({ kind: 'error', message: (err as Error).message });
@@ -202,14 +225,32 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
               <div className="text-[10px] uppercase tracking-widest text-saffron-800/70 font-semibold">
                 श्लोक {v.number}
               </div>
-              <button
-                type="button"
-                onClick={() => setContributeVerse(v)}
-                className="ml-auto inline-flex items-center gap-1 rounded-full border border-dharma-border/60 bg-dharma-bg px-2.5 py-0.5 text-[10px] font-medium text-dharma-muted hover:border-saffron-300 hover:text-saffron-700"
-                title="Contribute or improve meaning for this verse"
-              >
-                <Edit3 className="h-3 w-3" /> Contribute
-              </button>
+              <div className="ml-auto flex items-center gap-1.5">
+                <ListenButton
+                  compact
+                  sanskrit={v.sanskrit}
+                  hindi={v.hindi}
+                  translation={v.translation}
+                />
+                <ShareVerseButton
+                  compact
+                  scriptureTitle={scriptureTitle ?? scriptureId}
+                  chapterTitle={chapterTitle ?? `अध्याय ${chapterId}`}
+                  verseLabel={String(v.number)}
+                  sanskrit={v.sanskrit}
+                  transliteration={v.transliteration}
+                  hindi={v.hindi}
+                  translation={v.translation}
+                />
+                <button
+                  type="button"
+                  onClick={() => setContributeVerse(v)}
+                  className="inline-flex items-center gap-1 rounded-full border border-dharma-border/60 bg-dharma-bg px-2.5 py-0.5 text-[10px] font-medium text-dharma-muted hover:border-saffron-300 hover:text-saffron-700"
+                  title="Contribute or improve meaning for this verse"
+                >
+                  <Edit3 className="h-3 w-3" /> Contribute
+                </button>
+              </div>
             </div>
             {v.sanskrit && (
               <div className="mb-4">

@@ -18,6 +18,8 @@ import {
   Sun,
 } from 'lucide-react';
 import { ContributeMeaningModal } from './ContributeMeaningModal';
+import { ListenButton } from './ListenButton';
+import { ShareVerseButton } from './ShareVerseButton';
 import { VerseMindMap, type MindMapVerse } from './VerseMindMap';
 import type { ScriptureCategory } from '@/data/types';
 import { getVerseGraphicClass, getVerseGraphicStyle } from './verse-background';
@@ -234,6 +236,21 @@ export function VerseDisplay({
               <Bookmark className="h-4 w-4" />
             )}
           </button>
+
+          <ListenButton
+            sanskrit={verse.sanskrit}
+            hindi={verse.hindi}
+            translation={verse.translation}
+          />
+          <ShareVerseButton
+            scriptureTitle={scriptureTitle}
+            chapterTitle={chapterTitle}
+            verseLabel={String(verseLabel)}
+            sanskrit={verse.sanskrit}
+            transliteration={verse.transliteration}
+            hindi={verse.hindi}
+            translation={verse.translation}
+          />
 
           {/* Contribute meaning */}
           <button

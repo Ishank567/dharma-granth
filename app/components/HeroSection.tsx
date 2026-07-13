@@ -12,6 +12,7 @@ import { useEffect, useRef, useState, type PointerEvent } from 'react';
 import { Flame, BookOpen } from 'lucide-react';
 import { FadeUp } from '@/app/components/motion/primitives';
 import { MagneticButton } from '@/app/components/motion/MagneticButton';
+import { SurpriseVerseButton } from '@/app/components/SurpriseVerseButton';
 
 function CelestialParticles() {
   const reduce = useReducedMotion();
@@ -354,6 +355,13 @@ export function HeroSection() {
               <BookOpen className="w-5 h-5" />
               Browse the Library
             </MagneticButton>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ delay: 0.4, duration: 0.5 }}
+          >
+            <SurpriseVerseButton />
           </motion.div>
         </FadeUp>
       </motion.div>

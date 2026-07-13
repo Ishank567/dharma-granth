@@ -304,6 +304,8 @@ export default function ChapterPage({ params }: PageProps) {
           category={meta.category}
           chapterId={chapter.id}
           curatedVerseIds={[]}
+          scriptureTitle={meta.title}
+          chapterTitle={chapter.title || `अध्याय ${chapter.id}`}
           basePath={process.env.NEXT_PUBLIC_BASE_PATH || ''}
           autoLoad
         />
