@@ -1,366 +1,320 @@
-import type { ReactNode } from "react";
-import { categories } from "@/data/scripture-meta";
+import type { ReactNode } from 'react';
+import Link from 'next/link';
+import { categories } from '@/data/scripture-meta';
 import {
   getAllScriptures,
   getAvailableScriptures,
   getRealChapterCount,
   getRealScriptureCount,
   getRealVerseCount,
-} from "@/data/scriptures";
-import { FadeUp, FadeUpOnView, Stagger, StaggerItem } from "@/app/components/motion/primitives";
-import { ScriptureCard } from "@/app/components/motion/ScriptureCard";
-import { ParallaxLayer } from "@/app/components/motion/ParallaxLayer";
-import { MagneticButton } from "@/app/components/motion/MagneticButton";
-import { ScrollReveal } from "@/app/components/motion/ScrollReveal";
-import { AuroraBackground } from "@/app/components/motion/AuroraBackground";
-import { InteractiveInfographic } from "@/app/components/InteractiveInfographic";
-import { PanchangCalendar } from "@/app/components/PanchangCalendar";
-import { NityaKarmaKriya } from "@/app/components/NityaKarmaKriya";
-import { StatsInfographic } from "@/app/components/StatsInfographic";
-import { ThreePillarsInfographic } from "@/app/components/ThreePillarsInfographic";
-import { ScienceSpiritualityInfographic } from "@/app/components/ScienceSpiritualityInfographic";
-import { HeroSection } from "@/app/components/HeroSection";
+} from '@/data/scriptures';
+import { HeroSection } from '@/app/components/HeroSection';
+import { PanchangCalendar } from '@/app/components/PanchangCalendar';
+import { NityaKarmaKriya } from '@/app/components/NityaKarmaKriya';
 import {
-  BookOpen,
-  Flame,
-  Scroll,
-  TreePine,
-  Scale,
-  Heart,
-  ChevronRight,
   ArrowRight,
-} from "lucide-react";
+  BookOpen,
+  ChevronRight,
+  ExternalLink,
+  Flame,
+  Heart,
+  Scale,
+  Scroll,
+  ShieldCheck,
+  TreePine,
+} from 'lucide-react';
 
-// ── Featured Verse: Bhagavad Gita 2.47 ──────────────────────────
 const featuredVerse = {
   sanskrit:
-    "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन ।\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि ॥",
+    'कर्मण्येवाधिकारस्ते मा फलेषु कदाचन ।\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि ॥',
   transliteration:
     "karmaṇyevādhikāraste mā phaleṣu kadācana |\nmā karmaphalaheturbhūrmā te saṅgo'stvakarmaṇi ||",
   translation:
-    "You have a right only to perform your duty; the fruits thereof are not your concern. Let not the fruit of action be your motive, nor let attachment to inaction take hold of you.",
+    'You have a right only to perform your duty; the fruits thereof are not your concern. Let not the fruit of action be your motive, nor let attachment to inaction take hold of you.',
   hindi:
-    "तुम्हारा अधिकार केवल कर्म करने में है, फल में कभी नहीं। न तो कर्म के फल का कारण बनो, और न ही कर्म न करने में आसक्त हो।",
+    'तुम्हारा अधिकार केवल कर्म करने में है, फल में कभी नहीं। न तो कर्म के फल का कारण बनो, और न ही कर्म न करने में आसक्त हो।',
   hindiExplanation:
-    "यह गीता का सर्वश्रेष्ठ और सबसे प्रसिद्ध श्लोक है। श्रीकृष्ण सिखाते हैं — अपने कर्म पर पूरा ध्यान दो, परिणाम की चिंता छोड़ो। जब हम फल की आसक्ति त्यागते हैं, तभी हम अपना सर्वश्रेष्ठ कर्म करते हैं और जीवन में वास्तविक शांति पाते हैं।",
-  science:
-    'मनोवैज्ञानिक Carol Dweck (Stanford) के शोध से सिद्ध — जो लोग "प्रक्रिया" पर ध्यान देते हैं न कि "परिणाम" पर, वे 40% अधिक सफल होते हैं। Mihaly Csikszentmihalyi के "Flow State" सिद्धांत के अनुसार: सर्वोच्च प्रदर्शन तभी आता है जब परिणाम से आसक्ति छूट जाती है। यह वही है जो गीता ने 2500 वर्ष पहले कहा था।',
-  lifeLesson:
-    "आज का एक कदम: जो काम हाथ में है, उसे 100% मन लगाकर करो — बिना इस चिंता के कि परिणाम क्या होगा। चिंता (Anxiety) परिणाम के डर से जन्म लेती है; शांति समर्पित कर्म से।",
-  keywords: ["कर्म", "अनासक्ति", "Flow State", "निष्काम कर्म"],
-  source: "भगवद्गीता  २.४७",
+    'श्रीकृष्ण यहाँ कर्म पर पूरा ध्यान देने और परिणाम की आसक्ति छोड़ने की शिक्षा देते हैं। यह निष्क्रियता नहीं, बल्कि उद्देश्यपूर्ण कर्म करते हुए फल को नियंत्रित करने के भ्रम से मुक्त होना है।',
+  researchNote:
+    'आधुनिक मनोविज्ञान में “nonattachment” को अनुभवों से चिपके बिना उनके साथ संतुलित ढंग से जुड़ने के रूप में अध्ययन किया जाता है। शोध में इसका बेहतर well-being और कम psychological distress से संबंध मिला है, लेकिन उपलब्ध प्रमाण मुख्यतः सहसंबंधात्मक हैं—यह गीता की शिक्षा का वैज्ञानिक सत्यापन या कारण-परिणाम का प्रमाण नहीं है।',
+  source: 'भगवद्गीता २.४७',
   chapter: 2,
 };
 
-type ListedCategory = (typeof categories)[number]["id"];
+type ListedCategory = (typeof categories)[number]['id'];
 
 const categoryIcons: Record<ListedCategory, ReactNode> = {
-  veda: <Flame className="w-6 h-6" />,
-  upanishad: <BookOpen className="w-6 h-6" />,
-  itihasa: <Scroll className="w-6 h-6" />,
-  purana: <TreePine className="w-6 h-6" />,
-  smriti: <Scale className="w-6 h-6" />,
-  other: <Heart className="w-6 h-6" />,
+  veda: <Flame className="h-5 w-5" aria-hidden="true" />,
+  upanishad: <BookOpen className="h-5 w-5" aria-hidden="true" />,
+  itihasa: <Scroll className="h-5 w-5" aria-hidden="true" />,
+  purana: <TreePine className="h-5 w-5" aria-hidden="true" />,
+  smriti: <Scale className="h-5 w-5" aria-hidden="true" />,
+  other: <Heart className="h-5 w-5" aria-hidden="true" />,
 };
+
+function formatCount(value: number): string {
+  return new Intl.NumberFormat('en-IN').format(value);
+}
 
 export default function HomePage() {
   const scriptures = getAllScriptures();
-  const featured = getAvailableScriptures();
+  const availableScriptures = getAvailableScriptures();
+  const featuredTexts = availableScriptures.slice(0, 6);
   const realVerses = getRealVerseCount();
   const realChapters = getRealChapterCount();
   const realScriptures = getRealScriptureCount();
-  const cataloged = scriptures.length;
 
   return (
     <main className="min-h-screen">
       <HeroSection />
 
-      {/* ── Featured Verse Infographic ────────────────────────────── */}
-      <section className="max-w-6xl mx-auto px-6 -mt-8 mb-12 relative z-10">
-        <FadeUpOnView>
-        <InteractiveInfographic
-          sections={[
-            {
-              id: 'verse',
-              type: 'verse',
-              title: 'The Verse',
-              titleSanskrit: 'श्लोक',
-              content: {
-                sanskrit: featuredVerse.sanskrit,
-                transliteration: featuredVerse.transliteration,
-                english: featuredVerse.translation,
-              },
-              visual: { icon: '🕉️', color: 'saffron' },
-              connections: ['Hindi Meaning', 'Science', 'Life Lesson'],
-            },
-            {
-              id: 'hindi',
-              type: 'concept',
-              title: 'Hindi Meaning',
-              titleSanskrit: 'हिंदी अर्थ',
-              content: {
-                hindi: featuredVerse.hindi,
-                english: featuredVerse.hindiExplanation,
-              },
-              visual: { icon: '🪷', color: 'rose' },
-              connections: ['The Verse', 'Life Lesson'],
-            },
-            {
-              id: 'science',
-              type: 'comparison',
-              title: 'Scientific Connection',
-              titleSanskrit: 'वैज्ञानिक दृष्टि',
-              content: {
-                english: featuredVerse.science,
-              },
-              visual: { icon: '⚛️', color: 'indigo' },
-              connections: ['The Verse', 'Modern Psychology'],
-            },
-            {
-              id: 'lesson',
-              type: 'flow',
-              title: 'Life Lesson',
-              titleSanskrit: 'जीवन पाठ',
-              content: {
-                english: featuredVerse.lifeLesson,
-                explanation: 'Apply this wisdom to your daily life for inner peace and clarity.',
-              },
-              visual: { icon: '💡', color: 'amber' },
-              connections: ['Hindi Meaning', 'The Verse'],
-            },
-          ]}
-          className="mb-8"
-        />
-
-        <div className="text-center">
-          <MagneticButton
-            href={`/scripture/bhagavadgita/chapter/${featuredVerse.chapter}`}
-            className="inline-flex items-center gap-2 bg-gradient-to-r from-saffron-600 to-amber-600 text-white px-8 py-4 rounded-full text-sm font-bold hover:from-saffron-700 hover:to-amber-700 transition-all shadow-lg hover:shadow-xl shine-sweep"
-            strength={20}
-            tilt={8}
-          >
-            सभी श्लोक पढ़ें
-            <ArrowRight className="w-4 h-4" />
-          </MagneticButton>
-        </div>
-        </FadeUpOnView>
-      </section>
-
-            {/* ── Stats ─────────────────────────────────────────────────── */}
-      <ParallaxLayer speed={0.85} className="relative">
-      <StatsInfographic stats={[
-        {
-          value: realVerses,
-          label: "Verses Explained",
-          icon: <BookOpen className="w-5 h-5" />,
-          color: "text-saffron-700 bg-gradient-to-br from-saffron-50 to-amber-50",
-          border: "border-saffron-200",
-          trend: "+12%"
-        },
-        {
-          value: realChapters,
-          label: "Chapters Live",
-          icon: <Scroll className="w-5 h-5" />,
-          color: "text-emerald-700 bg-gradient-to-br from-emerald-50 to-green-50",
-          border: "border-emerald-200",
-          trend: "+8%"
-        },
-        {
-          value: realScriptures,
-          label: "Scriptures Indexed",
-          icon: <Flame className="w-5 h-5" />,
-          color: "text-indigo-700 bg-gradient-to-br from-indigo-50 to-blue-50",
-          border: "border-indigo-200",
-          trend: "+5%"
-        },
-        {
-          value: cataloged,
-          label: "In the Library",
-          icon: <TreePine className="w-5 h-5" />,
-          color: "text-amber-700 bg-gradient-to-br from-amber-50 to-yellow-50",
-          border: "border-amber-200",
-          trend: "+15%"
-        },
-      ]} />
-      </ParallaxLayer>
-
-      {/* ── Panchang Calendar ────────────────────────────────────── */}
-      <PanchangCalendar />
-
-      {/* ── Nitya Karma Kriya ────────────────────────────────────── */}
-      <NityaKarmaKriya />
-
-            {/* ── Three Pillars ─────────────────────────────────────────── */}
-      <ThreePillarsInfographic />
-
-            {/* ── Science Meets Spirituality ─────────────────────── */}
-      <ScienceSpiritualityInfographic />
-
-      {/* ── Featured Texts ────────────────────────────────────────── */}
-      {featured.length > 0 && (
-        <section className="max-w-6xl mx-auto px-6 py-20 relative">
-          <AuroraBackground className="-z-10" opacity={0.6} />
-          <FadeUpOnView className="flex items-end justify-between mb-10 relative">
+      <section
+        aria-labelledby="featured-texts-heading"
+        className="border-b border-dharma-border bg-dharma-bg py-14 sm:py-16"
+      >
+        <div className="mx-auto max-w-6xl px-5 sm:px-6">
+          <div className="mb-8 flex flex-col gap-5 sm:flex-row sm:items-end sm:justify-between">
             <div>
-              <ScrollReveal as="h2" variant="3d" className="text-4xl font-serif font-bold text-dharma-text mb-2" stagger={0.08}>
+              <p className="mb-2 text-xs font-bold uppercase tracking-[0.2em] text-saffron-700">
+                Start reading
+              </p>
+              <h2
+                id="featured-texts-heading"
+                className="text-3xl font-bold text-dharma-text sm:text-4xl"
+              >
                 Featured Texts
-              </ScrollReveal>
-              <p className="text-dharma-muted text-lg">
-                Currently available with verse-by-verse explanations
+              </h2>
+              <p className="mt-2 max-w-2xl text-dharma-muted">
+                Begin with texts that already include verse-by-verse translations and commentary.
               </p>
             </div>
-          </FadeUpOnView>
-          <Stagger className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {featured.map((s) => (
-              <StaggerItem key={s.id}>
-                <ScriptureCard
-                  href={`/scripture/${s.id}`}
-                  className="scripture-card group glass-card depth-card depth-card-hover"
-                >
-                  <div className="flex items-start justify-between mb-4">
-                    <span className="inline-block px-3 py-1.5 rounded-full text-xs font-semibold bg-gradient-to-r from-saffron-100 to-amber-100 text-saffron-800 uppercase tracking-wide border border-saffron-200">
-                      {s.category}
-                    </span>
-                    <ChevronRight className="w-5 h-5 text-dharma-muted group-hover:text-saffron-600 transition group-hover:translate-x-1 transform" />
-                  </div>
-                  <h3 className="text-xl font-serif font-bold text-dharma-text mb-2 group-hover:text-saffron-700 transition">
-                    {s.title}
-                  </h3>
-                  <p
-                    lang="sa"
-                    className="text-sm text-dharma-muted font-devanagari mb-4"
-                  >
-                    {s.titleSanskrit}
-                  </p>
-                  <p className="text-sm text-dharma-text line-clamp-3 leading-relaxed">
-                    {s.description}
-                  </p>
-                  <div className="mt-5 flex items-center gap-4 text-xs text-dharma-muted font-semibold">
-                    <span className="flex items-center gap-1">
-                      <BookOpen className="w-3 h-3" />
-                      {s.totalChapters} Chapters
-                    </span>
-                    <span className="flex items-center gap-1">
-                      <Flame className="w-3 h-3" />
-                      {s.totalVerses.toLocaleString()} Verses
-                    </span>
-                  </div>
-                </ScriptureCard>
-              </StaggerItem>
-            ))}
-          </Stagger>
-        </section>
-      )}
+            <Link
+              href="/scriptures?explained=1"
+              className="inline-flex w-fit items-center gap-2 rounded-full border border-dharma-border bg-dharma-card px-5 py-2.5 text-sm font-bold text-dharma-text transition hover:border-saffron-300 hover:text-saffron-700"
+            >
+              View the full library
+              <ArrowRight className="h-4 w-4" aria-hidden="true" />
+            </Link>
+          </div>
 
-      {/* ── Categories ────────────────────────────────────────────── */}
-      <section className="max-w-6xl mx-auto px-6 pb-24 relative">
-        <AuroraBackground className="-z-10" opacity={0.5} colors={['rgba(99, 102, 241, 0.2)', 'rgba(168, 85, 247, 0.15)', 'rgba(20, 184, 166, 0.15)', 'rgba(249, 115, 22, 0.12)']} />
-        <FadeUpOnView className="mb-10 relative">
-          <ScrollReveal as="h2" variant="3d" className="text-4xl font-serif font-bold text-dharma-text mb-2" stagger={0.08}>
-            Browse by Category
-          </ScrollReveal>
-          <p className="text-dharma-muted text-lg">
-            Explore the major streams of sacred literature
-          </p>
-        </FadeUpOnView>
-        <Stagger className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {categories.map((cat) => {
-            const count = scriptures.filter(
-              (s) => s.category === cat.id,
-            ).length;
-            return (
-              <StaggerItem key={cat.id}>
-                <ScriptureCard
-                  href={`/scriptures#${cat.id}`}
-                  className="scripture-card group glass-card depth-card depth-card-hover"
-                >
-                  <div className="flex items-center gap-4 mb-4">
-                    <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-saffron-100 to-amber-100 text-saffron-700 flex items-center justify-center group-hover:from-saffron-600 group-hover:to-amber-600 group-hover:text-white transition-all shadow-sm group-hover:shadow-md">
-                      {categoryIcons[cat.id]}
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-serif font-bold text-dharma-text group-hover:text-saffron-700 transition">
-                        {cat.label}
-                      </h3>
-                      <p className="text-xs text-dharma-muted font-semibold">{count} texts</p>
-                    </div>
-                  </div>
-                  <p className="text-sm text-dharma-muted leading-relaxed">{cat.description}</p>
-                </ScriptureCard>
-              </StaggerItem>
-            );
-          })}
-        </Stagger>
-      </section>
-
-      {/* ── Footer CTA ────────────────────────────────────────────── */}
-      <section className="relative bg-gradient-to-br from-dharma-dark via-stone-900 to-dharma-dark text-white py-24 overflow-hidden">
-        <AuroraBackground opacity={0.4} colors={['rgba(249, 115, 22, 0.3)', 'rgba(245, 158, 11, 0.2)', 'rgba(99, 102, 241, 0.15)', 'rgba(20, 184, 166, 0.12)']} />
-        <div className="absolute inset-0 mandala-bg opacity-[0.06] pointer-events-none" />
-        <FadeUpOnView className="max-w-4xl mx-auto px-6 text-center relative">
-          {/* Parallax ॐ medallion with 3D glow */}
-          <ParallaxLayer speed={0.3} distance={60} className="mb-8">
-            <div className="inline-flex items-center justify-center w-20 h-20 rounded-full glass-dark border border-saffron-400/30 shadow-2xl animate-float-gentle">
-              <span className="font-devanagari text-4xl text-saffron-300 text-glow-saffron">ॐ</span>
+          <dl className="mb-8 flex flex-wrap gap-x-7 gap-y-2 border-y border-dharma-border py-4 text-sm">
+            <div className="flex items-baseline gap-2">
+              <dt className="text-dharma-muted">Explained texts</dt>
+              <dd className="font-bold text-dharma-text">{formatCount(realScriptures)}</dd>
             </div>
-          </ParallaxLayer>
+            <div className="flex items-baseline gap-2">
+              <dt className="text-dharma-muted">Chapters</dt>
+              <dd className="font-bold text-dharma-text">{formatCount(realChapters)}</dd>
+            </div>
+            <div className="flex items-baseline gap-2">
+              <dt className="text-dharma-muted">Verses</dt>
+              <dd className="font-bold text-dharma-text">{formatCount(realVerses)}</dd>
+            </div>
+          </dl>
 
-          <ParallaxLayer speed={0.5} distance={40}>
-            <p className="font-devanagari text-5xl md:text-6xl text-saffron-300 font-bold mb-3 text-glow-saffron">
-              अहं ब्रह्मास्मि
-            </p>
-            <p className="text-white/60 text-sm italic mb-10 max-w-lg mx-auto">
-              — बृहदारण्यक उपनिषद् १.४.१० • &ldquo;I am Brahman — the infinite
-              consciousness.&rdquo;
-            </p>
-          </ParallaxLayer>
-
-          <ScrollReveal as="h2" variant="fade-up" className="text-4xl md:text-5xl font-serif font-bold mb-5 text-glow-white" stagger={0.06}>
-            A Journey Through Eternal Wisdom
-          </ScrollReveal>
-
-          <ParallaxLayer speed={0.7} distance={30}>
-            <p className="text-xl opacity-80 mb-10 max-w-2xl mx-auto leading-relaxed">
-              From the Vedas to the Puranas, every verse holds timeless truth.
-              This project makes every scripture accessible — with deep Hindi
-              meanings and modern scientific connections.
-            </p>
-          </ParallaxLayer>
-
-          {/* Magnetic CTA buttons */}
-          <div className="flex flex-wrap justify-center gap-5 mb-12">
-            <MagneticButton
-              href="/scripture/bhagavadgita"
-              className="inline-flex items-center gap-2.5 bg-gradient-to-r from-saffron-500 to-amber-500 text-white px-8 py-4 rounded-full font-bold shine-sweep shadow-xl"
-              strength={24}
-              tilt={10}
-            >
-              <Flame className="w-5 h-5" />
-              Start Reading the Gita
-            </MagneticButton>
-            <MagneticButton
-              href="/scriptures"
-              className="inline-flex items-center gap-2.5 glass-dark text-white px-8 py-4 rounded-full font-semibold border border-white/20 shine-sweep"
-              strength={20}
-              tilt={8}
-            >
-              <BookOpen className="w-5 h-5" />
-              Browse the Library
-            </MagneticButton>
+          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+            {featuredTexts.map((scripture) => (
+              <Link
+                key={scripture.id}
+                href={`/scripture/${scripture.id}`}
+                className="group flex h-full flex-col rounded-2xl border border-dharma-border bg-dharma-card p-5 shadow-sm transition-[border-color,box-shadow,transform] duration-200 hover:-translate-y-0.5 hover:border-saffron-300 hover:shadow-lg"
+              >
+                <div className="mb-4 flex items-start justify-between gap-4">
+                  <span className="rounded-full bg-saffron-500/10 px-3 py-1 text-xs font-bold uppercase tracking-wide text-saffron-700">
+                    {scripture.category}
+                  </span>
+                  <ChevronRight
+                    className="h-5 w-5 text-dharma-muted transition-transform group-hover:translate-x-0.5 group-hover:text-saffron-600"
+                    aria-hidden="true"
+                  />
+                </div>
+                <h3 className="text-xl font-bold text-dharma-text transition group-hover:text-saffron-700">
+                  {scripture.title}
+                </h3>
+                <p lang="sa" className="mt-1 font-devanagari text-sm text-dharma-muted">
+                  {scripture.titleSanskrit}
+                </p>
+                <p className="mt-3 line-clamp-2 text-sm text-dharma-muted">
+                  {scripture.description}
+                </p>
+                <p className="mt-auto pt-5 text-xs font-semibold text-dharma-muted">
+                  {formatCount(scripture.totalChapters)} chapters ·{' '}
+                  {formatCount(scripture.totalVerses)} verses
+                </p>
+              </Link>
+            ))}
           </div>
-
-          <div className="flex flex-wrap justify-center gap-3 text-sm opacity-70 font-medium">
-            <span className="px-4 py-1.5 glass-dark rounded-full border border-white/10">Vedas</span>
-            <span className="px-4 py-1.5 glass-dark rounded-full border border-white/10">Upanishads</span>
-            <span className="px-4 py-1.5 glass-dark rounded-full border border-white/10">Ramayana</span>
-            <span className="px-4 py-1.5 glass-dark rounded-full border border-white/10">Mahabharata</span>
-            <span className="px-4 py-1.5 glass-dark rounded-full border border-white/10">Puranas</span>
-            <span className="px-4 py-1.5 glass-dark rounded-full border border-white/10">Smritis</span>
-            <span className="px-4 py-1.5 glass-dark rounded-full border border-white/10">More</span>
-          </div>
-        </FadeUpOnView>
+        </div>
       </section>
+
+      <section
+        aria-labelledby="categories-heading"
+        className="border-b border-dharma-border bg-dharma-card/45 py-14 sm:py-16"
+      >
+        <div className="mx-auto max-w-6xl px-5 sm:px-6">
+          <div className="mb-8">
+            <p className="mb-2 text-xs font-bold uppercase tracking-[0.2em] text-saffron-700">
+              Explore the tradition
+            </p>
+            <h2 id="categories-heading" className="text-3xl font-bold text-dharma-text sm:text-4xl">
+              Browse by Category
+            </h2>
+            <p className="mt-2 text-dharma-muted">Find the branch of sacred literature you want to study.</p>
+          </div>
+
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {categories.map((category) => {
+              const count = scriptures.filter((scripture) => scripture.category === category.id).length;
+              return (
+                <Link
+                  key={category.id}
+                  href={`/scriptures#${category.id}`}
+                  className="group flex items-start gap-4 rounded-2xl border border-dharma-border bg-dharma-card p-4 transition hover:border-saffron-300 hover:shadow-md"
+                >
+                  <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-saffron-500/10 text-saffron-700 transition group-hover:bg-saffron-600 group-hover:text-white">
+                    {categoryIcons[category.id]}
+                  </span>
+                  <span className="min-w-0">
+                    <span className="flex items-baseline justify-between gap-3">
+                      <span className="font-serif text-lg font-bold text-dharma-text group-hover:text-saffron-700">
+                        {category.label}
+                      </span>
+                      <span className="shrink-0 text-xs font-semibold text-dharma-muted">{count} texts</span>
+                    </span>
+                    <span className="mt-1 block line-clamp-2 text-sm leading-relaxed text-dharma-muted">
+                      {category.description}
+                    </span>
+                  </span>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="daily-wisdom-heading" className="bg-dharma-bg py-14 sm:py-20">
+        <div className="mx-auto max-w-6xl px-5 sm:px-6">
+          <div className="mb-8">
+            <p className="mb-2 text-xs font-bold uppercase tracking-[0.2em] text-saffron-700">
+              Daily wisdom
+            </p>
+            <h2 id="daily-wisdom-heading" className="text-3xl font-bold text-dharma-text sm:text-4xl">
+              One verse, read with care
+            </h2>
+          </div>
+
+          <article className="overflow-hidden rounded-3xl border border-dharma-border bg-dharma-card shadow-lg">
+            <div className="grid lg:grid-cols-[0.9fr_1.1fr]">
+              <div className="bg-gradient-to-br from-saffron-800 to-amber-700 p-6 text-white sm:p-8 lg:p-10">
+                <p className="text-xs font-bold uppercase tracking-[0.18em] text-saffron-100/80">
+                  {featuredVerse.source}
+                </p>
+                <p className="mt-6 whitespace-pre-line font-devanagari text-2xl leading-loose text-white sm:text-3xl">
+                  {featuredVerse.sanskrit}
+                </p>
+                <p className="mt-5 whitespace-pre-line text-sm italic leading-relaxed text-saffron-100/80">
+                  {featuredVerse.transliteration}
+                </p>
+              </div>
+
+              <div className="space-y-6 p-6 sm:p-8 lg:p-10">
+                <div>
+                  <h3 className="text-sm font-bold uppercase tracking-[0.14em] text-dharma-muted">
+                    Plain-English meaning
+                  </h3>
+                  <p className="mt-2 text-base leading-relaxed text-dharma-text">
+                    {featuredVerse.translation}
+                  </p>
+                </div>
+                <div className="border-t border-dharma-border pt-5">
+                  <h3 className="font-devanagari text-sm font-bold text-rose-700">हिंदी भावार्थ</h3>
+                  <p className="mt-2 font-devanagari leading-loose text-dharma-text">
+                    {featuredVerse.hindi}
+                  </p>
+                  <p className="mt-2 font-devanagari text-sm leading-loose text-dharma-muted">
+                    {featuredVerse.hindiExplanation}
+                  </p>
+                </div>
+
+                <details className="group rounded-2xl border border-dharma-border bg-dharma-bg p-4">
+                  <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold text-dharma-text marker:content-none">
+                    <span className="inline-flex items-center gap-2">
+                      <ShieldCheck className="h-4 w-4 text-emerald-600" aria-hidden="true" />
+                      Research note and source
+                    </span>
+                    <ChevronRight
+                      className="h-4 w-4 text-dharma-muted transition-transform group-open:rotate-90"
+                      aria-hidden="true"
+                    />
+                  </summary>
+                  <div className="pt-4 text-sm leading-relaxed text-dharma-muted">
+                    <p className="font-devanagari">{featuredVerse.researchNote}</p>
+                    <a
+                      href="https://pubmed.ncbi.nlm.nih.gov/35690041/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="mt-3 inline-flex items-center gap-1.5 font-semibold text-saffron-700 underline decoration-saffron-300 underline-offset-4"
+                    >
+                      Read the 2022 meta-analysis on PubMed
+                      <ExternalLink className="h-3.5 w-3.5" aria-hidden="true" />
+                    </a>
+                  </div>
+                </details>
+
+                <Link
+                  href={`/scripture/bhagavadgita/chapter/${featuredVerse.chapter}`}
+                  className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-saffron-600 to-amber-600 px-6 py-3 text-sm font-bold text-white shadow-md transition hover:from-saffron-700 hover:to-amber-700 hover:shadow-lg"
+                >
+                  अध्याय २ पढ़ें
+                  <ArrowRight className="h-4 w-4" aria-hidden="true" />
+                </Link>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section aria-labelledby="daily-practice-heading" className="border-t border-dharma-border bg-dharma-card/35 py-14">
+        <div className="mx-auto max-w-6xl px-5 sm:px-6">
+          <p className="mb-2 text-xs font-bold uppercase tracking-[0.2em] text-saffron-700">Practice</p>
+          <h2 id="daily-practice-heading" className="text-3xl font-bold text-dharma-text sm:text-4xl">
+            Bring the teaching into your day
+          </h2>
+          <p className="mt-2 max-w-2xl text-dharma-muted">
+            Use the calendar and daily-practice guide when you are ready to move from reading to routine.
+          </p>
+        </div>
+        <PanchangCalendar />
+        <NityaKarmaKriya />
+      </section>
+
+      <footer className="border-t border-white/10 bg-stone-950 py-12 text-white">
+        <div className="mx-auto flex max-w-6xl flex-col gap-8 px-5 sm:flex-row sm:items-end sm:justify-between sm:px-6">
+          <div className="max-w-2xl">
+            <p className="font-devanagari text-2xl font-bold text-saffron-300">अहं ब्रह्मास्मि</p>
+            <p className="mt-2 text-sm text-white/55">बृहदारण्यक उपनिषद् १.४.१०</p>
+            <p className="mt-5 text-lg text-white/80">
+              Read sacred texts with translation, context, and carefully framed modern parallels.
+            </p>
+          </div>
+          <div className="flex flex-wrap gap-3">
+            <Link
+              href="/scripture/bhagavadgita"
+              className="inline-flex items-center gap-2 rounded-full bg-saffron-600 px-5 py-3 text-sm font-bold text-white transition hover:bg-saffron-500"
+            >
+              <Flame className="h-4 w-4" aria-hidden="true" />
+              Read the Gita
+            </Link>
+            <Link
+              href="/scriptures"
+              className="inline-flex items-center gap-2 rounded-full border border-white/20 px-5 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
+            >
+              <BookOpen className="h-4 w-4" aria-hidden="true" />
+              Browse all texts
+            </Link>
+          </div>
+        </div>
+      </footer>
     </main>
   );
 }
-

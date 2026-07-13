@@ -14,8 +14,7 @@ import { FadeUp } from '@/app/components/motion/primitives';
 import { MagneticButton } from '@/app/components/motion/MagneticButton';
 import { SurpriseVerseButton } from '@/app/components/SurpriseVerseButton';
 
-function CelestialParticles() {
-  const reduce = useReducedMotion();
+function CelestialParticles({ active }: { active: boolean }) {
   // Positions use Math.random(), which differs between the server and client
   // render and would trip a hydration mismatch. Generate them only after
   // mount so the server emits an empty layer and the client fills it in.
@@ -33,7 +32,10 @@ function CelestialParticles() {
   >([]);
 
   useEffect(() => {
-    if (reduce) return;
+    if (!active) {
+      setParticles([]);
+      return;
+    }
     setParticles(
       Array.from({ length: 24 }, (_, i) => ({
         id: i,
@@ -46,9 +48,9 @@ function CelestialParticles() {
         drift: (Math.random() - 0.5) * 20,
       })),
     );
-  }, [reduce]);
+  }, [active]);
 
-  if (reduce) return null;
+  if (!active) return null;
 
   return (
     <div className="absolute inset-0 pointer-events-none overflow-hidden">
@@ -81,43 +83,42 @@ function CelestialParticles() {
   );
 }
 
-function MandalaRing({ size, duration, reverse = false, className = '' }: { size: string, duration: number, reverse?: boolean, className?: string }) {
-  const reduce = useReducedMotion();
+function MandalaRing({ active, size, duration, reverse = false, className = '' }: { active: boolean, size: string, duration: number, reverse?: boolean, className?: string }) {
   return (
     <motion.div
       className={`absolute rounded-full border border-white/10 ${className}`}
       style={{ width: size, height: size }}
-      animate={reduce ? undefined : { rotate: reverse ? -360 : 360 }}
-      transition={reduce ? undefined : { duration, repeat: Infinity, ease: "linear" }}
+      animate={active ? { rotate: reverse ? -360 : 360 } : undefined}
+      transition={active ? { duration, repeat: Infinity, ease: "linear" } : undefined}
     />
   );
 }
 
 function ScripturePlane({
+  active,
   children,
   className = '',
   baseRotate = 0,
   delay = 0,
 }: {
+  active: boolean;
   children: string;
   className?: string;
   baseRotate?: number;
   delay?: number;
 }) {
-  const reduce = useReducedMotion();
-
   return (
     <motion.div
       aria-hidden="true"
       className={`absolute hidden md:flex h-24 w-48 items-center justify-center rounded-2xl border border-white/15 bg-white/[0.08] px-6 text-center shadow-2xl backdrop-blur-md ${className}`}
       initial={{ rotate: baseRotate }}
       animate={
-        reduce
+        !active
           ? { rotate: baseRotate }
           : { y: [0, -10, 0], rotate: [baseRotate, baseRotate + 1.5, baseRotate] }
       }
       transition={
-        reduce
+        !active
           ? undefined
           : { duration: 7, delay, repeat: Infinity, ease: 'easeInOut' }
       }
@@ -131,6 +132,7 @@ function ScripturePlane({
 
 export function HeroSection() {
   const reduce = useReducedMotion();
+  const [ambientMotion, setAmbientMotion] = useState(false);
   const ref = useRef<HTMLElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -156,8 +158,18 @@ export function HeroSection() {
   const tiltX = useSpring(useTransform(my, [-0.5, 0.5], [12, -12]), spring);
   const tiltY = useSpring(useTransform(mx, [-0.5, 0.5], [-14, 14]), spring);
 
+  useEffect(() => {
+    const query = window.matchMedia('(min-width: 768px) and (pointer: fine)');
+    const update = () => setAmbientMotion(query.matches);
+    update();
+    query.addEventListener('change', update);
+    return () => query.removeEventListener('change', update);
+  }, []);
+
+  const animateAmbient = !reduce && ambientMotion;
+
   function handleMove(e: PointerEvent<HTMLElement>) {
-    if (reduce) return;
+    if (!animateAmbient) return;
     const el = ref.current;
     if (!el) return;
     const r = el.getBoundingClientRect();
@@ -181,38 +193,38 @@ export function HeroSection() {
       {/* Enhanced celestial background — drifts against the cursor for depth */}
       <motion.div
         className="absolute inset-0 pointer-events-none overflow-hidden"
-        style={reduce ? undefined : { y: bgScrollY }}
+        style={animateAmbient ? { y: bgScrollY } : undefined}
       >
         <motion.div
           className="absolute inset-[-5%]"
-          style={reduce ? undefined : { x: bgX, y: bgY }}
+          style={animateAmbient ? { x: bgX, y: bgY } : undefined}
         >
           {/* A restrained set of mandala rings keeps the background atmospheric. */}
-          <MandalaRing size="24rem" duration={60} className="-top-32 -left-32" />
-          <MandalaRing size="18rem" duration={45} reverse className="-top-20 -left-20" />
-          <MandalaRing size="24rem" duration={55} className="-bottom-32 -right-32" />
-          <MandalaRing size="18rem" duration={40} reverse className="-bottom-20 -right-20" />
+          <MandalaRing active={animateAmbient} size="24rem" duration={60} className="-top-32 -left-32" />
+          <MandalaRing active={animateAmbient} size="18rem" duration={45} reverse className="-top-20 -left-20" />
+          <MandalaRing active={animateAmbient} size="24rem" duration={55} className="-bottom-32 -right-32" />
+          <MandalaRing active={animateAmbient} size="18rem" duration={40} reverse className="-bottom-20 -right-20" />
 
           <motion.div
             className="absolute inset-0"
-            style={reduce ? undefined : { x: farPlaneX, y: farPlaneY }}
+            style={animateAmbient ? { x: farPlaneX, y: farPlaneY } : undefined}
           >
-            <ScripturePlane className="left-[8%] top-[24%]" baseRotate={-10} delay={0.6}>
+            <ScripturePlane active={animateAmbient} className="left-[8%] top-[24%]" baseRotate={-10} delay={0.6}>
               तत्त्वमसि
             </ScripturePlane>
-            <ScripturePlane className="right-[9%] top-[20%]" baseRotate={9} delay={1.2}>
+            <ScripturePlane active={animateAmbient} className="right-[9%] top-[20%]" baseRotate={9} delay={1.2}>
               सत्यमेव जयते
             </ScripturePlane>
           </motion.div>
 
           <motion.div
             className="absolute inset-0"
-            style={reduce ? undefined : { x: nearPlaneX, y: nearPlaneY }}
+            style={animateAmbient ? { x: nearPlaneX, y: nearPlaneY } : undefined}
           >
-            <ScripturePlane className="left-[16%] bottom-[18%]" baseRotate={7} delay={0.2}>
+            <ScripturePlane active={animateAmbient} className="left-[16%] bottom-[18%]" baseRotate={7} delay={0.2}>
               योगः कर्मसु कौशलम्
             </ScripturePlane>
-            <ScripturePlane className="right-[16%] bottom-[20%]" baseRotate={-8} delay={1.8}>
+            <ScripturePlane active={animateAmbient} className="right-[16%] bottom-[20%]" baseRotate={-8} delay={1.8}>
               अहं ब्रह्मास्मि
             </ScripturePlane>
           </motion.div>
@@ -228,14 +240,14 @@ export function HeroSection() {
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(251,191,36,0.2),transparent_60%)]" />
 
           {/* Animated particles */}
-          <CelestialParticles />
+          <CelestialParticles active={animateAmbient} />
         </motion.div>
       </motion.div>
 
       <motion.div
-        className="relative z-10 mx-auto max-w-6xl px-5 pb-24 pt-14 text-center sm:px-6 md:py-24"
+        className="relative z-10 mx-auto max-w-6xl px-5 pb-16 pt-10 text-center sm:px-6 sm:pb-24 sm:pt-14 md:py-24"
         style={
-          reduce
+          !animateAmbient
             ? { transformStyle: 'preserve-3d' }
             : { y: contentScrollY, opacity: contentOpacity, transformStyle: 'preserve-3d' }
         }
@@ -244,9 +256,9 @@ export function HeroSection() {
         <FadeUp>
           <motion.div
             className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full border border-white/20 bg-white/10 shadow-2xl backdrop-blur-md md:h-20 md:w-20"
-            style={{ rotateX: tiltX, rotateY: tiltY, transformStyle: 'preserve-3d' }}
+            style={animateAmbient ? { rotateX: tiltX, rotateY: tiltY, transformStyle: 'preserve-3d' } : undefined}
             animate={
-              reduce
+              !animateAmbient
                 ? undefined
                 : {
                     scale: [1, 1.08, 1],
@@ -257,12 +269,12 @@ export function HeroSection() {
                     ],
                   }
             }
-            transition={reduce ? undefined : { duration: 3, repeat: Infinity }}
+            transition={animateAmbient ? { duration: 3, repeat: Infinity } : undefined}
           >
             <motion.span
               className="font-devanagari text-4xl leading-none text-saffron-100 drop-shadow-lg md:text-5xl"
-              animate={reduce ? undefined : { rotate: [0, 5, -5, 0] }}
-              transition={reduce ? undefined : { duration: 4, repeat: Infinity }}
+              animate={animateAmbient ? { rotate: [0, 5, -5, 0] } : undefined}
+              transition={animateAmbient ? { duration: 4, repeat: Infinity } : undefined}
             >
               ॐ
             </motion.span>
@@ -279,7 +291,7 @@ export function HeroSection() {
             Timeless wisdom · Thoughtful study
           </motion.p>
           <motion.h1
-            className="mb-3 bg-gradient-to-r from-white via-saffron-100 to-amber-100 bg-clip-text font-serif text-5xl font-bold tracking-normal text-transparent drop-shadow-2xl sm:text-6xl md:text-7xl"
+            className="mb-3 bg-gradient-to-r from-white via-saffron-100 to-amber-100 bg-clip-text font-serif text-4xl font-bold tracking-normal text-transparent drop-shadow-2xl sm:text-6xl md:text-7xl"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1, duration: 0.8 }}
@@ -301,7 +313,7 @@ export function HeroSection() {
         
         <FadeUp delay={0.2}>
           <motion.p
-            className="mx-auto mb-3 max-w-3xl text-2xl font-medium leading-relaxed opacity-95 drop-shadow-sm md:text-3xl"
+            className="mx-auto mb-3 max-w-3xl text-xl font-medium leading-relaxed opacity-95 drop-shadow-sm sm:text-2xl md:text-3xl"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.8 }}
@@ -363,12 +375,13 @@ export function HeroSection() {
           >
             <MagneticButton
               href="/scripture/bhagavadgita"
-              className="inline-flex items-center gap-2.5 rounded-full bg-white px-6 py-3.5 font-bold text-saffron-800 shadow-xl transition-all hover:bg-saffron-50 shine-sweep"
+              className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-3.5 font-bold text-saffron-800 shadow-xl transition-all hover:bg-saffron-50 sm:gap-2.5 sm:px-6 shine-sweep"
               strength={28}
               tilt={12}
             >
               <Flame className="w-5 h-5" />
-              भगवद्गीता पढ़ें
+              <span className="sm:hidden">Read Gita</span>
+              <span className="hidden sm:inline">भगवद्गीता पढ़ें</span>
             </MagneticButton>
           </motion.div>
           <motion.div
@@ -378,12 +391,13 @@ export function HeroSection() {
           >
             <MagneticButton
               href="/scriptures"
-              className="inline-flex items-center gap-2.5 rounded-full border border-white/30 bg-white/15 px-6 py-3.5 font-semibold text-white shadow-xl backdrop-blur-md transition-all hover:bg-white/25 shine-sweep"
+              className="inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/15 px-4 py-3.5 font-semibold text-white shadow-xl backdrop-blur-md transition-all hover:bg-white/25 sm:gap-2.5 sm:px-6 shine-sweep"
               strength={24}
               tilt={10}
             >
               <BookOpen className="w-5 h-5" />
-              Browse the Library
+              <span className="sm:hidden">Library</span>
+              <span className="hidden sm:inline">Browse the Library</span>
             </MagneticButton>
           </motion.div>
           <motion.div
@@ -391,7 +405,7 @@ export function HeroSection() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.4, duration: 0.5 }}
           >
-            <SurpriseVerseButton className="inline-flex items-center gap-2.5 rounded-full border border-white/20 px-5 py-3.5 font-semibold text-white/90 transition hover:border-white/40 hover:bg-white/10" />
+            <SurpriseVerseButton className="hidden items-center gap-2.5 rounded-full border border-white/20 px-5 py-3.5 font-semibold text-white/90 transition hover:border-white/40 hover:bg-white/10 sm:inline-flex" />
           </motion.div>
         </FadeUp>
       </motion.div>

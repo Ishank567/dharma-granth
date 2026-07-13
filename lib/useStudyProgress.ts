@@ -101,15 +101,17 @@ const KEYS = {
   quizzes: 'dharma.quizzes',
 } as const;
 
+const EMPTY_STREAK: StreakData = {
+  currentStreak: 0,
+  longestStreak: 0,
+  lastReadDate: '',
+  totalDaysRead: 0,
+};
+
 /* ── Hook ──────────────────────────────────────────────────────────── */
 
 export function useStudyProgress() {
-  const [streak, setStreak] = useState<StreakData>({
-    currentStreak: 0,
-    longestStreak: 0,
-    lastReadDate: '',
-    totalDaysRead: 0,
-  });
+  const [streak, setStreak] = useState<StreakData>(EMPTY_STREAK);
   const [notes, setNotes] = useState<VerseNote[]>([]);
   const [highlights, setHighlights] = useState<VerseHighlight[]>([]);
   const [collections, setCollections] = useState<StudyCollection[]>([]);
@@ -119,7 +121,7 @@ export function useStudyProgress() {
 
   // Hydrate from localStorage on mount.
   useEffect(() => {
-    setStreak(load(KEYS.streak, streak));
+    setStreak(load(KEYS.streak, EMPTY_STREAK));
     setNotes(load(KEYS.notes, []));
     setHighlights(load(KEYS.highlights, []));
     setCollections(load(KEYS.collections, []));
