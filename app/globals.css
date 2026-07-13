@@ -65,6 +65,9 @@
 }
 
 @layer base {
+    html {
+        scroll-padding-top: 5.5rem;
+    }
     body {
         @apply bg-dharma-bg text-dharma-text;
         background-image:
@@ -99,9 +102,19 @@
     ::selection {
         @apply bg-saffron-200 text-saffron-900;
     }
+    :where(a, button, input, select, textarea, [tabindex]):focus-visible {
+        outline: 3px solid #f97316;
+        outline-offset: 3px;
+    }
 }
 
 @layer components {
+    .skip-link {
+        @apply fixed left-4 top-3 z-[100] -translate-y-20 rounded-lg bg-stone-950 px-4 py-3 text-sm font-bold text-white shadow-xl transition-transform;
+    }
+    .skip-link:focus {
+        @apply translate-y-0;
+    }
     .sanskrit-text {
         @apply font-devanagari text-xl leading-loose;
     }
@@ -818,5 +831,20 @@
     }
     100% {
         background-position: 200% 0;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
     }
 }

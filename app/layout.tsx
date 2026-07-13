@@ -1,6 +1,5 @@
 import type { Metadata, Viewport } from "next";
 import { SiteNav } from "@/app/components/SiteNav";
-import { DarkModeToggle } from "@/app/components/DarkModeToggle";
 import { ThemeProvider } from "@/app/components/ThemeProvider";
 import { PageTransition } from "@/app/components/motion/PageTransition";
 // Self-hosted fonts via @fontsource — bundled at build time so the build
@@ -124,8 +123,13 @@ export default function RootLayout({
       </head>
       <body className="font-sans bg-dharma-bg text-dharma-text antialiased">
         <ThemeProvider>
+          <a href="#main-content" className="skip-link">
+            Skip to main content
+          </a>
           <SiteNav />
-          <PageTransition>{children}</PageTransition>
+          <div id="main-content" tabIndex={-1}>
+            <PageTransition>{children}</PageTransition>
+          </div>
         </ThemeProvider>
       </body>
     </html>

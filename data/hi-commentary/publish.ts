@@ -19,7 +19,7 @@ export function loadLegacyCuratedKeys(): Set<string> {
   const block = src.match(/legacyVerseExplanationsHi[\s\S]*?=\s*\{([\s\S]*?)\n\};/);
   const keys = new Set<string>();
   if (block) {
-    for (const m of block[1].matchAll(/'([^']+)':/g)) keys.add(m[1]);
+    for (const m of Array.from(block[1].matchAll(/'([^']+)':/g))) keys.add(m[1]);
   }
   legacyKeysCache = keys;
   return keys;

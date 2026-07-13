@@ -9,7 +9,7 @@ import {
   useReducedMotion,
 } from 'framer-motion';
 import { useEffect, useRef, useState, type PointerEvent } from 'react';
-import { Flame, BookOpen } from 'lucide-react';
+import { ArrowRight, BookOpen, Flame, Search } from 'lucide-react';
 import { FadeUp } from '@/app/components/motion/primitives';
 import { MagneticButton } from '@/app/components/motion/MagneticButton';
 import { SurpriseVerseButton } from '@/app/components/SurpriseVerseButton';
@@ -35,7 +35,7 @@ function CelestialParticles() {
   useEffect(() => {
     if (reduce) return;
     setParticles(
-      Array.from({ length: 50 }, (_, i) => ({
+      Array.from({ length: 24 }, (_, i) => ({
         id: i,
         x: Math.random() * 100,
         y: Math.random() * 100,
@@ -175,7 +175,7 @@ export function HeroSection() {
       ref={ref}
       onPointerMove={handleMove}
       onPointerLeave={handleLeave}
-      className="relative bg-gradient-to-br from-saffron-900 via-saffron-800 to-amber-900 text-white overflow-hidden min-h-[640px] md:min-h-[700px]"
+      className="relative min-h-[620px] overflow-hidden bg-[linear-gradient(135deg,var(--dharma-hero-start),var(--dharma-hero-mid),var(--dharma-hero-end))] text-white"
       style={{ perspective: '1200px' }}
     >
       {/* Enhanced celestial background — drifts against the cursor for depth */}
@@ -187,17 +187,11 @@ export function HeroSection() {
           className="absolute inset-[-5%]"
           style={reduce ? undefined : { x: bgX, y: bgY }}
         >
-          {/* Multiple mandala rings with different speeds and sizes */}
+          {/* A restrained set of mandala rings keeps the background atmospheric. */}
           <MandalaRing size="24rem" duration={60} className="-top-32 -left-32" />
           <MandalaRing size="18rem" duration={45} reverse className="-top-20 -left-20" />
           <MandalaRing size="24rem" duration={55} className="-bottom-32 -right-32" />
           <MandalaRing size="18rem" duration={40} reverse className="-bottom-20 -right-20" />
-          <MandalaRing size="16rem" duration={70} className="top-1/4 right-1/4" />
-          <MandalaRing size="20rem" duration={65} reverse className="bottom-1/4 left-1/4" />
-
-          {/* Additional decorative rings for depth */}
-          <MandalaRing size="32rem" duration={80} className="top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-30" />
-          <MandalaRing size="40rem" duration={90} reverse className="top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-20" />
 
           <motion.div
             className="absolute inset-0"
@@ -239,7 +233,7 @@ export function HeroSection() {
       </motion.div>
 
       <motion.div
-        className="relative z-10 max-w-6xl mx-auto px-6 pt-20 pb-4 sm:pb-10 md:py-40 text-center"
+        className="relative z-10 mx-auto max-w-6xl px-5 pb-24 pt-14 text-center sm:px-6 md:py-24"
         style={
           reduce
             ? { transformStyle: 'preserve-3d' }
@@ -249,7 +243,7 @@ export function HeroSection() {
         {/* OM symbol with enhanced glow, animation, and cursor-driven 3D tilt */}
         <FadeUp>
           <motion.div
-            className="inline-flex items-center justify-center w-24 h-24 md:w-28 md:h-28 rounded-full bg-white/10 border-2 border-white/20 mb-8 md:mb-10 shadow-2xl backdrop-blur-md"
+            className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full border border-white/20 bg-white/10 shadow-2xl backdrop-blur-md md:h-20 md:w-20"
             style={{ rotateX: tiltX, rotateY: tiltY, transformStyle: 'preserve-3d' }}
             animate={
               reduce
@@ -266,7 +260,7 @@ export function HeroSection() {
             transition={reduce ? undefined : { duration: 3, repeat: Infinity }}
           >
             <motion.span
-              className="font-devanagari text-5xl md:text-6xl text-saffron-100 leading-none drop-shadow-lg"
+              className="font-devanagari text-4xl leading-none text-saffron-100 drop-shadow-lg md:text-5xl"
               animate={reduce ? undefined : { rotate: [0, 5, -5, 0] }}
               transition={reduce ? undefined : { duration: 4, repeat: Infinity }}
             >
@@ -276,8 +270,16 @@ export function HeroSection() {
         </FadeUp>
 
         <FadeUp delay={0.08}>
+          <motion.p
+            className="mb-3 text-xs font-bold uppercase tracking-[0.24em] text-saffron-100/80 sm:text-sm"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.08, duration: 0.7 }}
+          >
+            Timeless wisdom · Thoughtful study
+          </motion.p>
           <motion.h1
-            className="text-6xl sm:text-7xl md:text-9xl font-serif font-bold mb-5 md:mb-6 tracking-normal drop-shadow-2xl bg-gradient-to-r from-white via-saffron-100 to-amber-100 bg-clip-text text-transparent text-3d animate-gradient-shift"
+            className="mb-3 bg-gradient-to-r from-white via-saffron-100 to-amber-100 bg-clip-text font-serif text-5xl font-bold tracking-normal text-transparent drop-shadow-2xl sm:text-6xl md:text-7xl"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1, duration: 0.8 }}
@@ -288,7 +290,7 @@ export function HeroSection() {
         
         <FadeUp delay={0.14}>
           <motion.p
-            className="font-devanagari text-3xl md:text-5xl text-saffron-100 mb-5 md:mb-6 drop-shadow-md"
+            className="mb-5 font-devanagari text-2xl text-saffron-100 drop-shadow-md md:text-3xl"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.15, duration: 0.8 }}
@@ -299,15 +301,15 @@ export function HeroSection() {
         
         <FadeUp delay={0.2}>
           <motion.p
-            className="text-xl md:text-4xl font-light opacity-95 max-w-3xl mx-auto mb-4 drop-shadow-sm leading-relaxed"
+            className="mx-auto mb-3 max-w-3xl text-2xl font-medium leading-relaxed opacity-95 drop-shadow-sm md:text-3xl"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.8 }}
           >
-            Famous verses, deeply explained.
+            Read the scriptures. Understand the wisdom. Live the teaching.
           </motion.p>
           <motion.p
-            className="font-devanagari text-lg md:text-3xl opacity-85 max-w-2xl mx-auto mb-4 md:mb-5"
+            className="mx-auto mb-3 max-w-2xl font-devanagari text-base opacity-85 md:text-xl"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.22, duration: 0.8 }}
@@ -315,17 +317,45 @@ export function HeroSection() {
             प्रसिद्ध श्लोक — गहरा हिंदी अर्थ — वैज्ञानिक दृष्टिकोण
           </motion.p>
           <motion.p
-            className="text-sm md:text-lg opacity-75 max-w-xl mx-auto mb-10 md:mb-14 font-medium tracking-wide"
+            className="mx-auto mb-7 max-w-xl text-sm font-medium tracking-wide opacity-75 md:text-base"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.24, duration: 0.8 }}
           >
-            Sanskrit · Hindi · English · Science — verse by verse, free,
-            ad-free.
+            Sanskrit · Hindi · English · context and commentary — always free,
+            always ad-free.
           </motion.p>
         </FadeUp>
 
-        <FadeUp delay={0.3} className="flex flex-wrap justify-center gap-5">
+        <FadeUp delay={0.26}>
+          <form
+            action="/scriptures"
+            method="get"
+            role="search"
+            className="mx-auto mb-6 flex max-w-2xl items-center rounded-2xl border border-white/25 bg-white/95 p-1.5 text-left shadow-2xl backdrop-blur-md focus-within:ring-4 focus-within:ring-white/20"
+          >
+            <Search className="ml-3 h-5 w-5 shrink-0 text-saffron-700" aria-hidden="true" />
+            <label htmlFor="hero-scripture-search" className="sr-only">
+              Search the scripture library
+            </label>
+            <input
+              id="hero-scripture-search"
+              name="q"
+              type="search"
+              placeholder="Search Gita, Upanishads, karma, meditation…"
+              className="min-w-0 flex-1 bg-transparent px-3 py-3 text-sm text-stone-900 outline-none placeholder:text-stone-500 sm:text-base"
+            />
+            <button
+              type="submit"
+              className="inline-flex shrink-0 items-center gap-2 rounded-xl bg-saffron-700 px-4 py-3 text-sm font-bold text-white transition hover:bg-saffron-800 sm:px-5"
+            >
+              <span className="hidden sm:inline">Search</span>
+              <ArrowRight className="h-4 w-4" aria-hidden="true" />
+            </button>
+          </form>
+        </FadeUp>
+
+        <FadeUp delay={0.32} className="flex flex-wrap justify-center gap-3">
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -333,7 +363,7 @@ export function HeroSection() {
           >
             <MagneticButton
               href="/scripture/bhagavadgita"
-              className="inline-flex items-center gap-2.5 bg-white text-saffron-800 px-8 py-4 md:px-10 md:py-5 rounded-full font-bold hover:bg-saffron-50 transition-all shadow-2xl shine-sweep"
+              className="inline-flex items-center gap-2.5 rounded-full bg-white px-6 py-3.5 font-bold text-saffron-800 shadow-xl transition-all hover:bg-saffron-50 shine-sweep"
               strength={28}
               tilt={12}
             >
@@ -348,7 +378,7 @@ export function HeroSection() {
           >
             <MagneticButton
               href="/scriptures"
-              className="inline-flex items-center gap-2.5 bg-white/20 backdrop-blur-md border-2 border-white/30 text-white px-8 py-4 md:px-10 md:py-5 rounded-full font-semibold hover:bg-white/30 transition-all shadow-xl shine-sweep"
+              className="inline-flex items-center gap-2.5 rounded-full border border-white/30 bg-white/15 px-6 py-3.5 font-semibold text-white shadow-xl backdrop-blur-md transition-all hover:bg-white/25 shine-sweep"
               strength={24}
               tilt={10}
             >
@@ -361,13 +391,13 @@ export function HeroSection() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.4, duration: 0.5 }}
           >
-            <SurpriseVerseButton />
+            <SurpriseVerseButton className="inline-flex items-center gap-2.5 rounded-full border border-white/20 px-5 py-3.5 font-semibold text-white/90 transition hover:border-white/40 hover:bg-white/10" />
           </motion.div>
         </FadeUp>
       </motion.div>
 
       {/* Bottom gradient transition */}
-      <div className="pointer-events-none absolute bottom-0 left-0 right-0 z-[1] h-24 bg-gradient-to-b from-transparent to-saffron-700" />
+      <div className="pointer-events-none absolute bottom-0 left-0 right-0 z-[1] h-20 bg-gradient-to-b from-transparent to-dharma-bg" />
     </section>
   );
 }
