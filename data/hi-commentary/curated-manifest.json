@@ -1,0 +1,4569 @@
+{
+  "generatedAt": "2026-07-02T23:19:37.781Z",
+  "entries": {
+    "agnipuran:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "agnipuran:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "agnipuran:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "agnipuran:2:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "agnipuran:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "agnipuran:3:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "agnipuran:3:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:1:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:1:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:2:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:2:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:2:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:2:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:3:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:3:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:3:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:3:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:3:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:3:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:3:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:3:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:3:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:3:11": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:3:12": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:3:13": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:3:14": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:4:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:4:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:4:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:4:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:4:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:4:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:5:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:5:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:5:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:5:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:5:34": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:5:35": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:5:36": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:5:37": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "aitareya:5:38": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "amritabindu:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "amritabindu:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "amritabindu:1:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "amritabindu:1:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "amritabindu:1:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "amritabindu:1:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "amritabindu:1:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "amritabindu:1:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "amritabindu:1:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "amritabindu:1:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "amritabindu:1:11": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "amritabindu:1:12": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "amritabindu:1:13": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "amritabindu:1:14": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "amritabindu:1:15": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "amritabindu:1:16": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "amritabindu:1:17": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "amritabindu:1:18": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "amritabindu:1:19": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "amritabindu:1:20": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "amritabindu:1:21": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "amritabindu:1:22": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "atharvaveda:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "atharvaveda:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "atharvaveda:1:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "atharvaveda:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "atharvaveda:2:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "atharvaveda:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "atharvaveda:3:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "atharvaveda:3:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "atharvaveda:3:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "atharvaveda:3:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "atharvaveda:3:11": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "atharvaveda:3:12": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:1:20": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:1:28": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:1:31": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:1:46": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:1:47": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:2:11": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:2:13": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:2:14": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:2:27": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:2:20": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:2:38": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:2:47": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:3:19": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:3:30": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:3:35": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:3:42": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:4:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:4:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:5:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:6:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:6:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:7:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:7:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:8:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:8:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:9:22": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:9:27": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:10:20": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:10:34": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:11:32": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:12:13": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:12:15": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:13:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:13:28": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:14:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:14:17": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:14:26": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:15:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:15:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:15:15": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:16:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:16:21": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:17:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:17:17": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:18:66": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavadgita:18:78": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavatapurana:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavatapurana:1:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavatapurana:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavatapurana:3:25": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavatapurana:4:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavatapurana:5:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavatapurana:6:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavatapurana:7:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavatapurana:8:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavatapurana:9:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavatapurana:10:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavatapurana:11:47": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavatapurana:12:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavatapurana:13:13": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "bhagavatapurana:13:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmandpuran:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmandpuran:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmandpuran:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmandpuran:2:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmandpuran:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmandpuran:3:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmapuran:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmapuran:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmapuran:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmapuran:2:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmapuran:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmapuran:3:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmapuran:4:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmapuran:4:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmasutra:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmasutra:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmasutra:1:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmasutra:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmasutra:2:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmasutra:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmasutra:4:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmasutra:4:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmasutra:4:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmasutra:4:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmasutra:4:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmavaivartapuran:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmavaivartapuran:1:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmavaivartapuran:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmavaivartapuran:2:42": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmavaivartapuran:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmavaivartapuran:4:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmavaivartapuran:4:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmavaivartapuran:4:26": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmavaivartapuran:4:27": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmavaivartapuran:4:28": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brahmavaivartapuran:4:88": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brihadaranyaka:1:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brihadaranyaka:1:15": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brihadaranyaka:2:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brihadaranyaka:2:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brihadaranyaka:2:14": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brihadaranyaka:3:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brihadaranyaka:3:26": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brihadaranyaka:4:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brihadaranyaka:5:28": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "brihadaranyaka:6:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "chandogya:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "chandogya:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "chandogya:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "chandogya:2:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "chandogya:2:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "chandogya:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "chandogya:3:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "chandogya:4:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "chandogya:4:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "chandogya:5:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "chandogya:6:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "chandogya:7:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "chandogya:7:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "chandogya:7:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "devibhagavat:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "devibhagavat:2:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "devibhagavat:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "devibhagavat:3:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "devibhagavat:4:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "devibhagavat:5:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "devibhagavat:6:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "devibhagavat:7:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "devibhagavat:7:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "devibhagavat:7:26": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "devibhagavat:7:27": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "devibhagavat:7:28": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "devibhagavat:7:29": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "devibhagavat:8:16": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "devibhagavat:9:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "devibhagavat:10:16": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "devibhagavat:11:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "devibhagavat:12:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "durgasaptashati:1:73": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "durgasaptashati:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "durgasaptashati:3:38": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "durgasaptashati:4:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "durgasaptashati:5:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "durgasaptashati:6:17": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "durgasaptashati:7:22": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "durgasaptashati:8:60": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "durgasaptashati:9:14": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "durgasaptashati:10:30": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "durgasaptashati:11:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "durgasaptashati:11:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "durgasaptashati:12:12": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "durgasaptashati:13:27": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "garudpurana:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "garudpurana:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "garudpurana:1:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "garudpurana:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "garudpurana:2:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "garudpurana:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "garudpurana:3:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "garudpurana:3:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "harivanshpuran:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "harivanshpuran:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "harivanshpuran:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "harivanshpuran:2:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "harivanshpuran:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "harivanshpuran:3:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "harivanshpuran:3:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ishavasya:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ishavasya:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ishavasya:1:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ishavasya:1:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ishavasya:1:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ishavasya:1:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ishavasya:1:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ishavasya:1:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ishavasya:1:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ishavasya:1:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ishavasya:1:11": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ishavasya:1:12": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ishavasya:1:13": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ishavasya:1:14": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ishavasya:1:15": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ishavasya:1:16": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ishavasya:1:17": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ishavasya:1:18": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ishavasya:1:19": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ishavasya:1:20": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ishavasya:1:21": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ishavasya:1:22": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ishavasya:1:23": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ishavasya:1:24": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ishavasya:1:25": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ishavasya:1:26": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ishavasya:1:27": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ishavasya:1:28": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "jabala:1:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "jabala:1:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaivalya:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaivalya:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaivalya:1:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaivalya:1:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaivalya:1:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaivalya:1:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaivalya:1:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaivalya:1:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaivalya:1:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaivalya:1:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaivalya:1:11": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaivalya:1:12": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaivalya:1:13": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaivalya:1:14": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaivalya:1:15": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaivalya:1:16": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaivalya:1:17": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaivalya:1:18": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaivalya:1:19": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaivalya:1:20": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaivalya:1:21": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaivalya:1:22": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaivalya:1:23": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaivalya:1:24": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaivalya:1:25": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kalkipuran:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kalkipuran:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kalkipuran:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kalkipuran:2:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kalkipuran:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kalkipuran:3:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kalkipuran:3:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kalkipuran:3:26": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kalkipuran:3:27": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kalkipuran:3:28": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:1:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:1:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:1:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:1:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:1:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:1:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:1:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:1:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:1:11": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:1:12": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:1:13": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:1:14": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:1:15": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:1:16": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:1:17": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:1:18": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:1:19": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:1:20": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:1:21": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:1:22": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:1:23": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:1:24": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:1:25": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:1:26": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:1:27": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:1:28": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:1:29": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:2:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:2:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:2:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:2:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:2:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:2:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:2:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:2:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:2:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:2:11": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:2:12": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:2:13": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:2:14": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:2:15": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:2:16": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:2:17": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:2:18": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:2:19": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:2:20": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:2:21": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:2:22": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:2:23": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:2:24": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:2:25": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:3:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:3:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:3:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:3:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:3:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:3:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:3:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:3:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:3:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:3:11": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:3:12": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:3:13": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:3:14": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:3:15": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:3:16": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:3:17": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:4:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:4:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:4:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:4:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:4:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:4:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:4:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:4:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:4:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:4:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:4:11": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:4:12": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:4:13": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:4:14": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:4:15": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:5:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:5:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:5:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:5:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:5:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:5:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:5:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:5:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:5:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:5:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:5:11": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:5:12": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:5:13": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:5:14": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:5:15": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:6:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:6:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:6:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:6:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:6:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:6:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:6:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:6:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:6:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:6:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:6:11": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:6:12": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:6:13": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:6:14": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:6:15": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:6:16": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:6:17": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:6:18": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:6:19": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:6:20": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:6:21": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:6:22": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "katha:6:23": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaushitaki:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaushitaki:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaushitaki:1:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaushitaki:1:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaushitaki:1:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaushitaki:2:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaushitaki:2:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaushitaki:3:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaushitaki:3:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaushitaki:4:14": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaushitaki:4:15": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaushitaki:4:16": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaushitaki:4:17": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kaushitaki:4:18": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:1:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:1:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:1:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:1:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:1:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:1:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:1:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:2:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:2:11": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:2:12": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:2:13": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:2:14": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:3:15": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:3:16": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:3:17": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:3:18": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:3:19": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:3:20": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:3:21": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:3:22": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:3:23": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:3:24": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:3:25": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:3:26": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:4:27": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:4:28": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:4:29": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:4:30": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:4:31": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:4:32": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:4:33": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:4:34": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:4:35": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:4:36": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:4:37": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:4:38": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:4:39": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kena:4:40": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kurmapuran:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kurmapuran:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kurmapuran:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kurmapuran:2:11": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kurmapuran:3:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "kurmapuran:3:35": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "lingapuran:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "lingapuran:1:17": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "lingapuran:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "lingapuran:3:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "lingapuran:3:23": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "lingapuran:3:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mahabharata:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mahabharata:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mahabharata:2:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mahabharata:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mahabharata:3:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mahabharata:4:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mahabharata:4:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mahabharata:5:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mahabharata:6:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mahabharata:7:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mahabharata:7:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mahabharata:7:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mahabharata:7:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mahabharata:7:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mahanarayana:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mahanarayana:2:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mahanarayana:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "maitri:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "maitri:2:18": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "maitri:2:20": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mandukya:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mandukya:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mandukya:1:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mandukya:1:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mandukya:1:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mandukya:1:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mandukya:1:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mandukya:1:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mandukya:1:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mandukya:1:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mandukya:1:11": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mandukya:1:12": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mandukya:1:13": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mandukya:1:14": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mandukya:1:15": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mandukya:1:16": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mandukya:1:17": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mandukya:1:18": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mandukya:1:19": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mandukya:1:20": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mandukya:1:21": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mandukya:1:22": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "manusmriti:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "manusmriti:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "manusmriti:1:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "manusmriti:1:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "manusmriti:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "manusmriti:2:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "manusmriti:2:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "manusmriti:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "manusmriti:3:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "manusmriti:3:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "manusmriti:4:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "manusmriti:4:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "markandeypuran:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "markandeypuran:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "markandeypuran:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "markandeypuran:2:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "markandeypuran:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "markandeypuran:3:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "markandeypuran:3:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "markandeypuran:3:26": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "markandeypuran:3:27": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "matsyapuran:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "matsyapuran:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "matsyapuran:2:215": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "matsyapuran:2:220": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "matsyapuran:3:252": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "matsyapuran:4:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "matsyapuran:4:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "matsyapuran:5:105": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "matsyapuran:5:110": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "matsyapuran:6:215": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "matsyapuran:6:227": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "matsyapuran:6:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "matsyapuran:6:26": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "matsyapuran:6:27": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "matsyapuran:6:28": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "muktika:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "muktika:1:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "muktika:2:28": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "muktika:2:45": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "muktika:3:78": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "muktika:3:95": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:1:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:1:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:1:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:1:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:1:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:1:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:1:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:2:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:2:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:2:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:2:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:2:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:2:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:2:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:2:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:2:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:2:11": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:2:12": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:2:13": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:3:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:3:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:3:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:3:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:3:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:3:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:3:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:3:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:3:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:4:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:4:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:4:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:4:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:4:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:4:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:4:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:4:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:4:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:4:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:4:11": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:5:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:5:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:5:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:5:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:5:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:5:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:5:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:5:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:5:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:5:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:6:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:6:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:6:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:6:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:6:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:6:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:6:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:6:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:6:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:6:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:6:11": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:6:12": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:6:13": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:6:14": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:6:15": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:6:16": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:6:17": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:6:18": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:6:19": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "mundaka:6:20": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradabhaktisutra:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradabhaktisutra:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradabhaktisutra:1:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradabhaktisutra:1:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradabhaktisutra:1:16": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradabhaktisutra:1:17": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradabhaktisutra:1:21": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradabhaktisutra:1:25": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradabhaktisutra:2:54": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradabhaktisutra:2:55": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradabhaktisutra:2:56": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradabhaktisutra:2:57": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradabhaktisutra:2:58": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradabhaktisutra:2:82": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradabhaktisutra:2:39": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradabhaktisutra:2:44": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradabhaktisutra:2:50": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradabhaktisutra:2:59": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradabhaktisutra:2:60": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradabhaktisutra:2:65": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradabhaktisutra:2:70": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradabhaktisutra:2:75": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradabhaktisutra:2:80": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradabhaktisutra:2:84": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradabhaktisutra:3:83": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradabhaktisutra:3:84": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradapuran:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradapuran:1:15": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradapuran:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradapuran:2:12": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradapuran:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradapuran:3:25": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradapuran:4:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradapuran:4:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradapuran:5:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradapuran:5:18": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradapuran:6:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradapuran:6:42": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradapuran:6:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradapuran:6:26": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradapuran:6:27": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "naradapuran:6:28": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "narasimhapuran:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "narasimhapuran:1:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "narasimhapuran:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "narasimhapuran:2:35": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "narasimhapuran:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "narasimhapuran:3:18": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "narasimhapuran:4:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "narasimhapuran:4:22": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "niralamba:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "niralamba:1:20": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "nityakarmakriya:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "nityakarmakriya:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "nityakarmakriya:1:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "nityakarmakriya:1:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "nityakarmakriya:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "nityakarmakriya:2:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "nityakarmakriya:2:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "nityakarmakriya:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "nityakarmakriya:3:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "nityakarmakriya:3:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "nityakarmakriya:4:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "nityakarmakriya:4:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "nityakarmakriya:4:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "nityakarmakriya:5:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "nityakarmakriya:5:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "nityakarmakriya:5:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "padmapuran:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "padmapuran:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "padmapuran:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "padmapuran:2:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "padmapuran:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "padmapuran:4:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "padmapuran:4:18": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "padmapuran:5:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "padmapuran:5:45": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "padmapuran:6:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "padmapuran:6:28": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "padmapuran:7:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "padmapuran:7:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "padmapuran:7:22": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "padmapuran:7:48": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "padmapuran:8:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "padmapuran:8:18": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "padmapuran:8:35": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:1:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:1:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:1:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:1:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:1:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:1:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:1:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:1:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:1:11": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:1:12": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:1:13": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:1:14": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:1:15": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:1:16": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:2:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:2:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:2:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:2:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:2:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:2:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:2:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:2:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:2:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:2:11": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:2:12": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:2:13": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:3:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:3:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:3:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:3:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:3:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:3:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:3:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:3:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:3:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:3:11": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:3:12": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:4:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:4:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:4:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:4:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:4:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:4:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:4:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:4:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:4:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:4:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:4:11": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:5:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:5:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:5:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:5:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:5:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:5:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:5:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:6:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:6:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:6:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:6:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:6:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:6:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:6:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "prashna:6:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramayana:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramayana:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramayana:1:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramayana:1:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramayana:2:20": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramayana:2:21": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramayana:2:22": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramayana:2:112": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramayana:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramayana:3:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramayana:3:14": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramayana:4:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramayana:4:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramayana:4:24": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramayana:5:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramayana:5:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramayana:5:22": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramayana:6:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramayana:6:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramayana:6:111": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramayana:7:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramayana:7:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramayana:7:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramayana:7:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramayana:7:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramcharitmanas:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramcharitmanas:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramcharitmanas:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramcharitmanas:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramcharitmanas:4:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramcharitmanas:4:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramcharitmanas:5:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramcharitmanas:6:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramcharitmanas:6:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramcharitmanas:7:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramcharitmanas:7:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramcharitmanas:7:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramcharitmanas:7:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramcharitmanas:7:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramcharitmanas:7:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramcharitmanas:7:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramcharitmanas:7:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramcharitmanas:7:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ramcharitmanas:7:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:1:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:2:22": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:3:18": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:4:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:4:14": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:4:20": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:4:25": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:5:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:5:28": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:6:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:6:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:7:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:7:18": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:8:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:8:22": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:8:38": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:9:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:9:28": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:10:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:10:19": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:11:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:11:18": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:11:33": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:12:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:12:31": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:13:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:13:19": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:14:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:14:14": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:15:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:15:22": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:15:40": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:16:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:16:17": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:17:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:17:22": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:18:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:18:19": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:19:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:19:14": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "ravanasamhita:19:33": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "rigveda:1:0": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "rigveda:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "rigveda:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "rigveda:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "rigveda:2:12": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "rigveda:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "rigveda:3:62": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "rigveda:4:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "rigveda:4:17": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "rigveda:5:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "rigveda:5:18": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "rigveda:6:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "rigveda:6:47": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "rigveda:7:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "rigveda:7:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "rigveda:7:89": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "rigveda:8:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "rigveda:8:48": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "rigveda:9:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "rigveda:9:83": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "rigveda:10:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "rigveda:10:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "rigveda:10:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "rigveda:10:190": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "rigveda:10:196": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "rigveda:10:197": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "rigveda:10:198": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "rigveda:10:199": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "rigveda:10:200": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "samaveda:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "samaveda:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "samaveda:1:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "samaveda:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "samaveda:2:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "samaveda:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "samaveda:3:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "samaveda:4:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "samaveda:4:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "samaveda:4:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "samaveda:4:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "samaveda:4:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "samaveda:4:11": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "samaveda:4:12": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shandilyabhaktisutra:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shandilyabhaktisutra:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shandilyabhaktisutra:1:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shandilyabhaktisutra:1:11": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shandilyabhaktisutra:2:22": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shandilyabhaktisutra:2:35": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shandilyabhaktisutra:3:68": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shandilyabhaktisutra:3:78": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shandilyabhaktisutra:4:85": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shandilyabhaktisutra:4:96": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivasamhita:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivasamhita:1:17": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivasamhita:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivasamhita:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivasamhita:3:78": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivasamhita:4:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivasamhita:4:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivasamhita:4:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivasamhita:4:15": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivasamhita:4:20": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivasamhita:4:25": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivasamhita:4:30": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivasamhita:4:35": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivasamhita:4:52": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivaswarodaya:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivaswarodaya:1:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivaswarodaya:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivaswarodaya:2:35": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivaswarodaya:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivaswarodaya:3:82": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivaswarodaya:4:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivaswarodaya:4:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivaswarodaya:4:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivaswarodaya:4:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivaswarodaya:4:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivaswarodaya:4:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivaswarodaya:4:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivaswarodaya:4:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivaswarodaya:4:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivaswarodaya:4:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivpurana:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivpurana:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivpurana:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivpurana:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivpurana:4:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivpurana:4:22": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivpurana:5:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivpurana:6:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivpurana:6:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shivpurana:6:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shvetashvatara:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shvetashvatara:1:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shvetashvatara:2:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shvetashvatara:2:14": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shvetashvatara:3:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shvetashvatara:4:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shvetashvatara:5:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shvetashvatara:6:11": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shvetashvatara:6:19": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "shvetashvatara:6:20": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "skandapuran:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "skandapuran:1:47": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "skandapuran:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "skandapuran:2:96": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "skandapuran:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "skandapuran:4:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "skandapuran:4:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "skandapuran:4:26": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "skandapuran:4:27": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "skandapuran:4:28": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "taittiriya:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "taittiriya:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "taittiriya:1:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "taittiriya:1:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "taittiriya:1:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "taittiriya:1:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "taittiriya:1:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "taittiriya:1:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "taittiriya:1:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "taittiriya:1:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "taittiriya:1:11": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "taittiriya:1:12": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "taittiriya:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "taittiriya:2:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "taittiriya:2:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "taittiriya:2:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "taittiriya:2:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "taittiriya:2:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "taittiriya:2:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "taittiriya:2:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "taittiriya:2:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "taittiriya:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "taittiriya:3:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "taittiriya:3:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "taittiriya:3:4": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "taittiriya:3:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "taittiriya:3:6": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "taittiriya:3:7": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "taittiriya:3:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "taittiriya:3:9": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "taittiriya:3:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "tejobindu:1:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "tejobindu:2:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vamanpuran:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vamanpuran:1:15": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vamanpuran:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vamanpuran:2:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vamanpuran:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vamanpuran:3:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "varahapuran:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "varahapuran:1:12": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "varahapuran:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "varahapuran:2:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "varahapuran:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "varahapuran:3:22": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "varahapuran:3:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "varahapuran:3:26": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "varahapuran:3:27": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "varahapuran:3:28": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vayupuran:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vayupuran:1:8": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vayupuran:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vayupuran:2:18": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vayupuran:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vayupuran:3:44": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vayupuran:3:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vayupuran:3:26": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vayupuran:3:27": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vayupuran:3:28": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "viduraniti:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "viduraniti:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "viduraniti:1:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "viduraniti:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "viduraniti:2:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "viduraniti:2:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "viduraniti:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "viduraniti:3:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vinayapatrika:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vinayapatrika:1:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vinayapatrika:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vinayapatrika:2:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vinayapatrika:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vinayapatrika:3:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vinayapatrika:3:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vinayapatrika:4:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vinayapatrika:4:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vinayapatrika:4:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vinayapatrika:4:15": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vinayapatrika:4:20": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vinayapatrika:4:25": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vishnupurana:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vishnupurana:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vishnupurana:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vishnupurana:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vishnupurana:3:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vivekchudamani:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vivekchudamani:1:3": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vivekchudamani:2:20": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vivekchudamani:2:47": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vivekchudamani:3:155": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "vivekchudamani:3:478": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yajurveda:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yajurveda:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yajurveda:2:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yajurveda:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yajurveda:4:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yogarasayanam:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yogarasayanam:1:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yogarasayanam:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yogarasayanam:2:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yogarasayanam:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yogarasayanam:3:2": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yogarasayanam:3:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yogarasayanam:3:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yogarasayanam:3:15": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yogarasayanam:3:20": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yogarasayanam:3:25": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yogavasishtha:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yogavasishtha:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yogavasishtha:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yogavasishtha:4:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yogavasishtha:5:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yogavasishtha:6:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yogavasistha:1:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yogavasistha:1:14": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yogavasistha:2:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yogavasistha:3:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yogavasistha:4:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yogavasistha:5:1": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yogavasistha:5:5": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yogavasistha:5:10": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yogavasistha:5:15": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yogavasistha:5:20": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yogavasistha:5:25": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yogavasistha:5:30": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yogavasistha:5:35": {
+      "science": true,
+      "lifeLesson": true
+    },
+    "yogavasistha:5:40": {
+      "science": true,
+      "lifeLesson": true
+    }
+  }
+}

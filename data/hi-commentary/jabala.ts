@@ -29,35 +29,22 @@ export const jabalaHi: HiCommentaryFragment = {
   '1:18': {
     explanation: `यह श्लोक 16 का प्रतिरूप है। आत्मज्ञान शांति लाता है। "शांत" की पुनरावृत्ति मुक्ति के परिणाम की पुष्टि करती है।`,
   },
-
   '1:3': {
     explanation: `शरीर ही काशी क्षेत्र है; ज्ञानगंगा त्रिभुवन की जननी, व्यापिनी है; भक्ति ही शिव है; गुरु ही मुक्ति है — यही काशी है।`,
-    science: `Neuroscience of devotion (Newberg): devotional practice activates the prefrontal cortex and quiets the parietal lobe, dissolving the boundary between self and other. This is the neural correlate of ego dissolution through bhakti.`,
-    lifeLesson: `Devotion is not weakness — it is the courage to surrender the ego to something greater. When you love something deeply, you become it. Choose wisely what you devote yourself to.`,
   },
   '1:5': {
     explanation: `जो ब्रह्म को जानता है वह सब जानता है; जो ब्रह्म को नहीं जानता वह कुछ भी नहीं जानता। जब ब्रह्म पूर्ण ज्ञात हो जाता है, तब ब्रह्म पूर्ण शांत होता है।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
   '1:7': {
     explanation: `मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब ब्रह्म ही है, सब ब्रह्म मेरे में है।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
   '1:8': {
     explanation: `मैं शुद्ध हूँ, मैं शुद्ध हूँ, मैं शुद्ध हूँ, मैं शुद्ध हूँ; ब्रह्म शुद्ध है, ब्रह्म शुद्ध है, ब्रह्म शुद्ध है, शुद्ध मेरा है।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
   '1:10': {
     explanation: `जो "मैं यह नहीं" नहीं जानता, जो नहीं जानता, जो नहीं समझता, जो मुक्ति नहीं चाहता — वह दुःख का कारण है, वह दुःख का कारण है, वह दुःख का कारण है, वह दुःख का कारण है।`,
-    science: `Neuroscience of flow (Csikszentmihalyi): in flow states, the prefrontal cortex temporarily deactivates — self-referential thinking ceases, and action becomes spontaneous. This is the psychological correlate of liberation: action without the doer.`,
-    lifeLesson: `Freedom is not the absence of responsibility — it is the absence of the ego that resists responsibility. When you act without attachment to results, you are already free, even in the midst of action.`,
   },
   '1:12': {
     explanation: `जो "मैं यह नहीं" जानता है, जो जानता है, जो समझता है, जो मुक्ति चाहता है — वह शांत है, वह शांत है, वह शांत है, वह शांत है।`,
-    science: `Neuroscience of flow (Csikszentmihalyi): in flow states, the prefrontal cortex temporarily deactivates — self-referential thinking ceases, and action becomes spontaneous. This is the psychological correlate of liberation: action without the doer.`,
-    lifeLesson: `Freedom is not the absence of responsibility — it is the absence of the ego that resists responsibility. When you act without attachment to results, you are already free, even in the midst of action.`,
   },
 };

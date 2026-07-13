@@ -1,7 +1,6 @@
 import type { HiCommentaryFragment } from './_types';
 
 export const aitareyaHi: HiCommentaryFragment = {
-  // ── अध्याय 1 · खण्ड 1 — लोकों की सृष्टि ──────────────────────────────────
   '1:1': {
     explanation: `उपनिषद् सबसे मूलभूत आध्यात्मिक दावे से प्रारम्भ होती है — किसी भी अन्य वस्तु से पहले केवल आत्मा ही थी। सृष्टि जड़ पदार्थ से नहीं, अपितु उस चेतना से उत्पन्न हुई जिसने *सृष्टि का निर्णय लिया*। परम सत्ता का प्रथम कार्य एक संज्ञानात्मक क्रिया था — 'स ईक्षत' (उसने सोचा)।`,
     science: `'Participatory Anthropic Principle' (John Wheeler): द्रष्टा केवल निष्क्रिय नहीं होते — चेतना किसी न किसी रूप में यथार्थ की संरचना में भाग लेती है। उपनिषद् पदार्थ से पूर्व चेतना को स्थान देती है — जो भौतिकी की आधारभूत समस्याओं में Penrose, Hoffman और Kastrup द्वारा गम्भीरता से ली जाने वाली स्थिति है।`,
@@ -22,8 +21,6 @@ export const aitareyaHi: HiCommentaryFragment = {
     science: `सूक्ष्म-जगत के रूप में शरीर की अवधारणा अनेक प्राचीन परम्पराओं में मिलती है। आधुनिक Systems Thinking भी इसी नेस्टिंग को पहचानता है: जीव और पारिस्थितिकी-तंत्र संरचनात्मक प्रतिरूप साझा करते हैं। उपनिषद् ब्रह्माण्ड को पुरुष के शरीर के रूप में देखती है।`,
     lifeLesson: `आपकी प्रत्येक इन्द्रिय एक ब्रह्माण्डीय प्रतिपक्ष से सम्बन्धित है। जब आप देखते हैं, तो आप सूर्य के देखने में भागीदार होते हैं। जब साँस लेते हैं, तो वायु की साँस में। शरीर लघु-आकार में ब्रह्माण्ड है; उसे उसी के अनुरूप सम्मान दें।`,
   },
-
-  // ── अध्याय 1 · खण्ड 2 — देव आयतन की खोज करते हैं ─────────────────────────
   '2:1': {
     explanation: `नव-सृष्ट देवता ब्रह्माण्डीय महासागर में गिर पड़ते हैं — उत्पन्न तो हुए, पर घर-रहित। भूख और प्यास उन्हें सताती है। वे निवेदन करते हैं: 'हमारे लिये एक ऐसा शरीर खोजो जिसमें हम बस सकें और भोजन कर सकें।' मूर्त-रूप की नाटकीय समस्या।`,
     science: `आधार-रहित उद्भव: एक नया प्रतिरूप स्थिर होने के लिये एक आधार चाहता है। उसके बिना वह विलीन हो जाता है। उपनिषद् इसे पौराणिक रूप में काव्यात्मक ढंग से प्रस्तुत करती है।`,
@@ -49,8 +46,6 @@ export const aitareyaHi: HiCommentaryFragment = {
     science: `प्रेरणा-शोध: भूख, प्यास और जीवन-रक्षा की प्रेरणाएँ प्रत्येक संज्ञानात्मक प्रणाली को प्रभावित करती हैं। वे किसी एक परिपथ में स्थानीयकृत नहीं, बल्कि सर्वव्यापी हैं। उपनिषद् इस प्रणालीगत दृष्टि का पूर्वाभास देती है।`,
     lifeLesson: `ध्यान दें कि तीव्र भूख या प्यास प्रत्येक इन्द्रिय को किस रंग में रंग देती है। अपनी भावनात्मक या संज्ञानात्मक अवस्था का मूल्यांकन करने से पहले इन्हें पहले नियन्त्रित करें।`,
   },
-
-  // ── अध्याय 1 · खण्ड 3 — मस्तक के शीर्ष से आत्मा का प्रवेश ──────────────────
   '3:1': {
     explanation: `अब तक का सबसे गहरा आत्म-प्रश्न। यदि प्रत्येक कार्य किसी इन्द्रिय द्वारा किया जाता है, तो 'मैं' के लिये क्या शेष बचता है? उपनिषद् आधुनिक प्रश्न का पूर्वाभास देती है: क्या 'स्व' के लिये कुछ करने को शेष है, या 'स्व' केवल कार्यों के समूह का एक नाम है?`,
     science: `संज्ञान-विज्ञान: अनेक दार्शनिक तर्क देते हैं कि 'स्व' एक उपयोगी कल्पना है — एक मॉडल जो मस्तिष्क अपनी ही गतिविधि पर चलाता है। फिर भी अनुभव-जन्य 'मैं' एक घटनात्मक तथ्य के रूप में बना रहता है। उपनिषद् का यह प्रश्न वर्तमान चेतना-शोध में खुला है।`,
@@ -121,8 +116,6 @@ export const aitareyaHi: HiCommentaryFragment = {
     science: `तीन-स्तरीय तनाव-स्रोत: आन्तरिक (मानसिक), बाह्य (पर्यावरणीय), और संरचनात्मक (वृहत्-स्तरीय परिस्थितियाँ)। त्रिविध शान्ति-प्रार्थना तीनों परतों को सम्बोधित करती है।`,
     lifeLesson: `अपने दिन का अन्त एक धीमे 'शान्तिः शान्तिः शान्तिः' से करें। मन में भी कहने पर तीनों परतें क्रमशः विश्राम पाती हैं।`,
   },
-
-  // ── अध्याय 2 — आत्मा के तीन जन्म ───────────────────────────────────────────
   '4:1': {
     explanation: `द्वितीय अध्याय के लिये पुनर्कथन। प्रथम जन्म = गर्भाधान। जो आत्मा पिता को प्राणित करती है, वही बीज में संघनित होकर हस्तान्तरित की जाती है। पुनरावृत्ति ब्रह्माण्डीय महत्त्व को रेखांकित करती है।`,
     science: `आनुवंशिक संचरण: माता-पिता की प्रत्येक कोशिका आनुवंशिक जानकारी वहन करती है; युग्मक इसे एक वाहन में सांद्रित करते हैं। उपनिषद् का 'सब अंगों से एकत्र' का अन्तर्बोध व्यापक रूप से सटीक है।`,
@@ -153,8 +146,6 @@ export const aitareyaHi: HiCommentaryFragment = {
     science: `प्रक्षेप-पथ-स्थिरता: एक स्पष्ट ब्रह्माण्ड-दर्शन जो जीवन और मृत्यु दोनों से पार ले जाए, वृद्धावस्था में मापनीय मनोवैज्ञानिक स्थिरता प्रदान करता है।`,
     lifeLesson: `मृत्यु के बाद क्या होता है, इसका एक कार्यसाधक सिद्धान्त अपने पास रखें। चाहे वह शाब्दिक हो या प्रतीकात्मक, उसे रखना ही चिन्ता को घटाता है।`,
   },
-
-  // ── अध्याय 3 — प्रज्ञानं ब्रह्म ─────────────────────────────────────────────
   '5:1': {
     explanation: `प्रश्न उठाया जाता है: कौन है आत्मा? उत्तर गणना द्वारा दिखाया जाता है: जो प्रत्येक संज्ञानात्मक कार्य सम्पन्न करता है। आत्मा को कार्यात्मक रूप से पहचाना जाता है।`,
     science: `एकीकृत-अनुभव शोध: प्रत्येक संवेदी माध्यम एक ही 'मैं-परिप्रेक्ष्य' में एकीकृत होता है। उपनिषद् इस एकीकरणकर्ता की ओर संकेत करती है और उसे आत्मा नाम देती है।`,
@@ -200,45 +191,28 @@ export const aitareyaHi: HiCommentaryFragment = {
     science: `'Non-dual awareness' और भावनात्मक कल्याण पर शोध (Travis, Shear): अद्वैत अनुभव की स्थायी अवस्था में amygdala की प्रतिक्रियशीलता कम होती है और प्रीफ्रंटल कॉर्टेक्स का नियंत्रण बढ़ता है — 'मैं वही हूँ' की पहचान वास्तविक तंत्रिका-शान्ति उत्पन्न करती है।`,
     lifeLesson: `'मैं वही हूँ' — यह पहचान जीवन के सभी भय, शोक और दुःखों को जड़ से काट देती है। आज किसी भी चिंता के समय रुककर यह स्मरण कीजिए: 'मैं शरीर नहीं, मैं वही हूँ जो शरीर को देख रहा है।'`,
   },
-
   '1:7': {
     explanation: `वह पालन करने वाली — पालन के योग्य हो जाती है। स्त्री गर्भ को धारण करती है। वह (पिता) जन्म से पहले भी और जन्म के बाद भी कुमार को पोषित करता है। जब वह जन्म से पहले और बाद में कुमार को पोषित करता है, तब वह अपने ही आत्मा को पोषित करता है — इन लोकों की सन्तति के लिये। इस प्रकार ये लोक चलते रहते हैं। यह उसका द्वितीय जन्म है।`,
-    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
-    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
   },
   '1:8': {
     explanation: `यह (पुत्र रूपी) उसका आत्मा — पुण्य-कर्मों के लिये उसके स्थान पर स्थापित किया जाता है। और यह अन्य आत्मा (पिता) — कृतकृत्य होकर, आयु को प्राप्त होकर — प्रयाण करता है। यहाँ से जाकर वह पुनः जन्म लेता है। यह उसका तृतीय जन्म है।`,
-    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
-    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
   },
   '1:9': {
     explanation: `इसलिये ऋषि ने कहा — "गर्भ में रहते हुए ही मैंने इन सब देवों के जन्मों को जान लिया। मुझे सौ लोह-पुरियाँ रोकती रहीं, परन्तु मैं — श्येन (बाज) — वेग से नीचे निकल आया।" वामदेव ने गर्भ में सोते हुए ही यह कहा।`,
-    science: `Neuroscience of ego (default mode network): the DMN generates self-referential thinking — the constant narrative of "me and mine." Overactivity of this network is linked to depression and anxiety. Spiritual practices that dissolve ego literally quiet this network.`,
-    lifeLesson: `The ego is not your enemy — it is a useful tool that has mistaken itself for your identity. Use it when needed, but do not let it use you. When the ego is small, the soul has room to grow.`,
   },
   '1:10': {
     explanation: `वह — इस प्रकार ज्ञानी — शरीर के विभेद पर ऊर्ध्व उत्क्रमण करके — उस स्वर्ग-लोक में सब कामनाएँ प्राप्त करके — अमर हो गया, अमर हो गया।`,
-    science: `Cognitive neuroscience: insight and understanding emerge from gamma-wave synchrony across brain regions. Knowledge is not merely accumulated information — it is the reorganization of neural patterns into a new coherent whole.`,
-    lifeLesson: `Knowing about a thing is not the same as knowing it. True knowledge transforms the knower. Pursue not just information but the insight that changes who you are.`,
   },
   '1:11': {
     explanation: `ॐ। मेरी वाणी मन में प्रतिष्ठित हो; मेरा मन वाणी में प्रतिष्ठित हो। हे आविर्भूत होने वाले! मुझ पर प्रकट हो।`,
-    science: `Neuroscience of sound (chanting): repetitive sound (mantra, om) entrains brainwaves toward theta and alpha states, reducing stress and enhancing focus. The vagus nerve is stimulated by vocal chanting, activating the parasympathetic nervous system.`,
-    lifeLesson: `Sound shapes consciousness. The words you speak and the sounds you surround yourself with influence your mental state. Choose sounds that elevate — whether mantra, music, or speech — and notice how they reshape your inner world.`,
   },
   '1:12': {
     explanation: `मेरे वेद-ज्ञान को बाँधे रखो। मेरी श्रुति मुझे न छोड़े। इस अधीत के द्वारा दिन-रात को संयुक्त करूँ। ऋत बोलूँगा; सत्य बोलूँगा।`,
-    science: `Cognitive neuroscience: insight and understanding emerge from gamma-wave synchrony across brain regions. Knowledge is not merely accumulated information — it is the reorganization of neural patterns into a new coherent whole.`,
-    lifeLesson: `Knowing about a thing is not the same as knowing it. True knowledge transforms the knower. Pursue not just information but the insight that changes who you are.`,
   },
   '1:13': {
     explanation: `वह मेरी रक्षा करे; वह वक्ता की रक्षा करे। मेरी रक्षा करे; वक्ता की रक्षा करे; वक्ता की रक्षा करे।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
   '1:14': {
     explanation: `ॐ। शान्ति, शान्ति, शान्ति।`,
-    science: `Neuroscience of sound (chanting): repetitive sound (mantra, om) entrains brainwaves toward theta and alpha states, reducing stress and enhancing focus. The vagus nerve is stimulated by vocal chanting, activating the parasympathetic nervous system.`,
-    lifeLesson: `Sound shapes consciousness. The words you speak and the sounds you surround yourself with influence your mental state. Choose sounds that elevate — whether mantra, music, or speech — and notice how they reshape your inner world.`,
   },
 };

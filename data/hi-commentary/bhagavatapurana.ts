@@ -76,510 +76,307 @@ export const bhagavatapuranaHi: HiCommentaryFragment = {
     science: `शहरी मनोविज्ञान और ध्यान पुनर्प्राप्ति (Attention Restoration Theory): शोध निरंतर दर्शाते हैं कि प्राकृतिक व शांत वातावरण में समय बिताना — और वहाँ एकांत ध्यान का अभ्यास करना — आधुनिक शहरी जीवन द्वारा उत्पन्न मानसिक बोझ, तनाव और एकाग्रता के ह्रास का सबसे प्रभावी उपचार है। भागवत का "विविक्त-ध्यान" प्राचीन काल का वह नुस्खा है जिसकी आज पर्यावरण मनोविज्ञान (environmental psychology) पुरजोर सिफारिश करता है।`,
     lifeLesson: `यदि आप आज के आधुनिक जीवन के कोलाहल, कपट और बिखराव से स्वयं को थका हुआ महसूस करते हैं, तो भागवत का उत्तर इस युग से लड़ना नहीं है, बल्कि अपनी एकांत साधना को और गहरा करना है। अपने लिए एक शांत स्थान खोजें — आन्तरिक भी और बाहरी भी — और प्रतिदिन वहाँ लौटें। वहाँ आप जो आन्तरिक स्पष्टता विकसित करेंगे, वही वह चश्मा बनेगी जिससे आप संसार को देख सकेंगे, न कि संसार आपकी आन्तरिक शांति को भंग कर पाएगा।`,
   },
-
   '1:1001': {
     explanation: `यहाँ (इस ग्रंथ में) निर्मत्सर साधुजनों के लिए सर्वोच्च धर्म वर्णित है — जो कपट-रहित है। यहाँ वास्तविक तत्त्व जाना जाता है — जो कल्याणकारक है और त्रिताप (आधि-व्याधि-उपाधि) को नष्ट करता है।`,
-    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation. Dharma is the codified wisdom of what sustains both individual and collective flourishing.`,
-    lifeLesson: `Do what is right, not what is easy. Dharma is not about rules — it is about alignment with the natural order that sustains life. When in doubt, choose the action that benefits the whole, not just yourself.`,
   },
   '1:1004': {
     explanation: `भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।`,
-    science: `Neuroscience of devotion (Newberg): devotional practice activates the prefrontal cortex and quiets the parietal lobe, dissolving the boundary between self and other. This is the neural correlate of ego dissolution through bhakti.`,
-    lifeLesson: `Devotion is not weakness — it is the courage to surrender the ego to something greater. When you love something deeply, you become it. Choose wisely what you devote yourself to.`,
   },
   '1:1005': {
     explanation: `हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।`,
-    science: `Psychology of gratitude (Emmons): gratitude practice measurably increases well-being, strengthens relationships, and improves physical health. Grace is the spiritual dimension of gratitude — the recognition that life itself is a gift.`,
-    lifeLesson: `Grace is not earned — it is received. When you stop trying to deserve everything and simply appreciate what you have been given, life becomes lighter. Practice gratitude daily; it transforms ordinary moments into blessings.`,
   },
   '1:1009': {
     explanation: `जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।`,
-    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
-    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
   },
   '1:1013': {
     explanation: `जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
   '1:2025': {
     explanation: `संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
   '1:7047': {
     explanation: `मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।`,
-    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
-    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
   },
   '2:1002': {
     explanation: `यहाँ (इस ग्रंथ में) निर्मत्सर साधुजनों के लिए सर्वोच्च धर्म वर्णित है — जो कपट-रहित है। यहाँ वास्तविक तत्त्व जाना जाता है — जो कल्याणकारक है और त्रिताप (आधि-व्याधि-उपाधि) को नष्ट करता है।`,
-    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation. Dharma is the codified wisdom of what sustains both individual and collective flourishing.`,
-    lifeLesson: `Do what is right, not what is easy. Dharma is not about rules — it is about alignment with the natural order that sustains life. When in doubt, choose the action that benefits the whole, not just yourself.`,
   },
   '2:1003': {
     explanation: `मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।`,
-    science: `Neuroscience of devotion (Newberg): devotional practice activates the prefrontal cortex and quiets the parietal lobe, dissolving the boundary between self and other. This is the neural correlate of ego dissolution through bhakti.`,
-    lifeLesson: `Devotion is not weakness — it is the courage to surrender the ego to something greater. When you love something deeply, you become it. Choose wisely what you devote yourself to.`,
   },
   '2:1004': {
     explanation: `भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।`,
-    science: `Neuroscience of devotion (Newberg): devotional practice activates the prefrontal cortex and quiets the parietal lobe, dissolving the boundary between self and other. This is the neural correlate of ego dissolution through bhakti.`,
-    lifeLesson: `Devotion is not weakness — it is the courage to surrender the ego to something greater. When you love something deeply, you become it. Choose wisely what you devote yourself to.`,
   },
   '2:1005': {
     explanation: `हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।`,
-    science: `Psychology of gratitude (Emmons): gratitude practice measurably increases well-being, strengthens relationships, and improves physical health. Grace is the spiritual dimension of gratitude — the recognition that life itself is a gift.`,
-    lifeLesson: `Grace is not earned — it is received. When you stop trying to deserve everything and simply appreciate what you have been given, life becomes lighter. Practice gratitude daily; it transforms ordinary moments into blessings.`,
   },
   '2:1009': {
     explanation: `जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।`,
-    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
-    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
   },
   '2:1013': {
     explanation: `जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
   '2:1025': {
     explanation: `संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
   '2:7047': {
     explanation: `मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।`,
-    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
-    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
   },
   '3:1001': {
     explanation: `संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
   '3:1002': {
     explanation: `यहाँ (इस ग्रंथ में) निर्मत्सर साधुजनों के लिए सर्वोच्च धर्म वर्णित है — जो कपट-रहित है। यहाँ वास्तविक तत्त्व जाना जाता है — जो कल्याणकारक है और त्रिताप (आधि-व्याधि-उपाधि) को नष्ट करता है।`,
-    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation. Dharma is the codified wisdom of what sustains both individual and collective flourishing.`,
-    lifeLesson: `Do what is right, not what is easy. Dharma is not about rules — it is about alignment with the natural order that sustains life. When in doubt, choose the action that benefits the whole, not just yourself.`,
   },
   '3:1003': {
     explanation: `मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।`,
-    science: `Neuroscience of devotion (Newberg): devotional practice activates the prefrontal cortex and quiets the parietal lobe, dissolving the boundary between self and other. This is the neural correlate of ego dissolution through bhakti.`,
-    lifeLesson: `Devotion is not weakness — it is the courage to surrender the ego to something greater. When you love something deeply, you become it. Choose wisely what you devote yourself to.`,
   },
   '3:1004': {
     explanation: `भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।`,
-    science: `Neuroscience of devotion (Newberg): devotional practice activates the prefrontal cortex and quiets the parietal lobe, dissolving the boundary between self and other. This is the neural correlate of ego dissolution through bhakti.`,
-    lifeLesson: `Devotion is not weakness — it is the courage to surrender the ego to something greater. When you love something deeply, you become it. Choose wisely what you devote yourself to.`,
   },
   '3:1005': {
     explanation: `हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।`,
-    science: `Psychology of gratitude (Emmons): gratitude practice measurably increases well-being, strengthens relationships, and improves physical health. Grace is the spiritual dimension of gratitude — the recognition that life itself is a gift.`,
-    lifeLesson: `Grace is not earned — it is received. When you stop trying to deserve everything and simply appreciate what you have been given, life becomes lighter. Practice gratitude daily; it transforms ordinary moments into blessings.`,
   },
   '3:1009': {
     explanation: `जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।`,
-    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
-    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
   },
   '3:1013': {
     explanation: `जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
   '3:5047': {
     explanation: `मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।`,
-    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
-    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
   },
   '4:1001': {
     explanation: `जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।`,
-    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
-    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
   },
   '4:1002': {
     explanation: `यहाँ (इस ग्रंथ में) निर्मत्सर साधुजनों के लिए सर्वोच्च धर्म वर्णित है — जो कपट-रहित है। यहाँ वास्तविक तत्त्व जाना जाता है — जो कल्याणकारक है और त्रिताप (आधि-व्याधि-उपाधि) को नष्ट करता है।`,
-    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation. Dharma is the codified wisdom of what sustains both individual and collective flourishing.`,
-    lifeLesson: `Do what is right, not what is easy. Dharma is not about rules — it is about alignment with the natural order that sustains life. When in doubt, choose the action that benefits the whole, not just yourself.`,
   },
   '4:1003': {
     explanation: `मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।`,
-    science: `Neuroscience of devotion (Newberg): devotional practice activates the prefrontal cortex and quiets the parietal lobe, dissolving the boundary between self and other. This is the neural correlate of ego dissolution through bhakti.`,
-    lifeLesson: `Devotion is not weakness — it is the courage to surrender the ego to something greater. When you love something deeply, you become it. Choose wisely what you devote yourself to.`,
   },
   '4:1004': {
     explanation: `भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।`,
-    science: `Neuroscience of devotion (Newberg): devotional practice activates the prefrontal cortex and quiets the parietal lobe, dissolving the boundary between self and other. This is the neural correlate of ego dissolution through bhakti.`,
-    lifeLesson: `Devotion is not weakness — it is the courage to surrender the ego to something greater. When you love something deeply, you become it. Choose wisely what you devote yourself to.`,
   },
   '4:1005': {
     explanation: `हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।`,
-    science: `Psychology of gratitude (Emmons): gratitude practice measurably increases well-being, strengthens relationships, and improves physical health. Grace is the spiritual dimension of gratitude — the recognition that life itself is a gift.`,
-    lifeLesson: `Grace is not earned — it is received. When you stop trying to deserve everything and simply appreciate what you have been given, life becomes lighter. Practice gratitude daily; it transforms ordinary moments into blessings.`,
   },
   '4:1013': {
     explanation: `जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
   '4:1025': {
     explanation: `संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
   '4:1047': {
     explanation: `मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।`,
-    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
-    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
   },
   '5:1001': {
     explanation: `हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।`,
-    science: `Psychology of gratitude (Emmons): gratitude practice measurably increases well-being, strengthens relationships, and improves physical health. Grace is the spiritual dimension of gratitude — the recognition that life itself is a gift.`,
-    lifeLesson: `Grace is not earned — it is received. When you stop trying to deserve everything and simply appreciate what you have been given, life becomes lighter. Practice gratitude daily; it transforms ordinary moments into blessings.`,
   },
   '5:1002': {
     explanation: `यहाँ (इस ग्रंथ में) निर्मत्सर साधुजनों के लिए सर्वोच्च धर्म वर्णित है — जो कपट-रहित है। यहाँ वास्तविक तत्त्व जाना जाता है — जो कल्याणकारक है और त्रिताप (आधि-व्याधि-उपाधि) को नष्ट करता है।`,
-    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation. Dharma is the codified wisdom of what sustains both individual and collective flourishing.`,
-    lifeLesson: `Do what is right, not what is easy. Dharma is not about rules — it is about alignment with the natural order that sustains life. When in doubt, choose the action that benefits the whole, not just yourself.`,
   },
   '5:1003': {
     explanation: `मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।`,
-    science: `Neuroscience of devotion (Newberg): devotional practice activates the prefrontal cortex and quiets the parietal lobe, dissolving the boundary between self and other. This is the neural correlate of ego dissolution through bhakti.`,
-    lifeLesson: `Devotion is not weakness — it is the courage to surrender the ego to something greater. When you love something deeply, you become it. Choose wisely what you devote yourself to.`,
   },
   '5:1004': {
     explanation: `भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।`,
-    science: `Neuroscience of devotion (Newberg): devotional practice activates the prefrontal cortex and quiets the parietal lobe, dissolving the boundary between self and other. This is the neural correlate of ego dissolution through bhakti.`,
-    lifeLesson: `Devotion is not weakness — it is the courage to surrender the ego to something greater. When you love something deeply, you become it. Choose wisely what you devote yourself to.`,
   },
   '5:1009': {
     explanation: `जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।`,
-    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
-    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
   },
   '5:1013': {
     explanation: `जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
   '5:1025': {
     explanation: `संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
   '6:1001': {
     explanation: `मैं श्रीराम को बार-बार नमस्कार करता हूँ — जो आपदाओं को दूर करते हैं, समस्त सम्पदा देते हैं, और सब लोकों के आनन्द हैं।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
   '6:1003': {
     explanation: `मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।`,
-    science: `Neuroscience of devotion (Newberg): devotional practice activates the prefrontal cortex and quiets the parietal lobe, dissolving the boundary between self and other. This is the neural correlate of ego dissolution through bhakti.`,
-    lifeLesson: `Devotion is not weakness — it is the courage to surrender the ego to something greater. When you love something deeply, you become it. Choose wisely what you devote yourself to.`,
   },
   '6:1004': {
     explanation: `भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।`,
-    science: `Neuroscience of devotion (Newberg): devotional practice activates the prefrontal cortex and quiets the parietal lobe, dissolving the boundary between self and other. This is the neural correlate of ego dissolution through bhakti.`,
-    lifeLesson: `Devotion is not weakness — it is the courage to surrender the ego to something greater. When you love something deeply, you become it. Choose wisely what you devote yourself to.`,
   },
   '6:1005': {
     explanation: `हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।`,
-    science: `Psychology of gratitude (Emmons): gratitude practice measurably increases well-being, strengthens relationships, and improves physical health. Grace is the spiritual dimension of gratitude — the recognition that life itself is a gift.`,
-    lifeLesson: `Grace is not earned — it is received. When you stop trying to deserve everything and simply appreciate what you have been given, life becomes lighter. Practice gratitude daily; it transforms ordinary moments into blessings.`,
   },
   '6:1009': {
     explanation: `जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।`,
-    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
-    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
   },
   '6:1013': {
     explanation: `जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
   '6:1025': {
     explanation: `संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
   '6:1047': {
     explanation: `मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।`,
-    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
-    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
   },
   '7:1002': {
     explanation: `यहाँ (इस ग्रंथ में) निर्मत्सर साधुजनों के लिए सर्वोच्च धर्म वर्णित है — जो कपट-रहित है। यहाँ वास्तविक तत्त्व जाना जाता है — जो कल्याणकारक है और त्रिताप (आधि-व्याधि-उपाधि) को नष्ट करता है।`,
-    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation. Dharma is the codified wisdom of what sustains both individual and collective flourishing.`,
-    lifeLesson: `Do what is right, not what is easy. Dharma is not about rules — it is about alignment with the natural order that sustains life. When in doubt, choose the action that benefits the whole, not just yourself.`,
   },
   '7:1003': {
     explanation: `मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।`,
-    science: `Neuroscience of devotion (Newberg): devotional practice activates the prefrontal cortex and quiets the parietal lobe, dissolving the boundary between self and other. This is the neural correlate of ego dissolution through bhakti.`,
-    lifeLesson: `Devotion is not weakness — it is the courage to surrender the ego to something greater. When you love something deeply, you become it. Choose wisely what you devote yourself to.`,
   },
   '7:1004': {
     explanation: `भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।`,
-    science: `Neuroscience of devotion (Newberg): devotional practice activates the prefrontal cortex and quiets the parietal lobe, dissolving the boundary between self and other. This is the neural correlate of ego dissolution through bhakti.`,
-    lifeLesson: `Devotion is not weakness — it is the courage to surrender the ego to something greater. When you love something deeply, you become it. Choose wisely what you devote yourself to.`,
   },
   '7:1005': {
     explanation: `हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।`,
-    science: `Psychology of gratitude (Emmons): gratitude practice measurably increases well-being, strengthens relationships, and improves physical health. Grace is the spiritual dimension of gratitude — the recognition that life itself is a gift.`,
-    lifeLesson: `Grace is not earned — it is received. When you stop trying to deserve everything and simply appreciate what you have been given, life becomes lighter. Practice gratitude daily; it transforms ordinary moments into blessings.`,
   },
   '7:1009': {
     explanation: `जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।`,
-    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
-    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
   },
   '7:1013': {
     explanation: `जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
   '7:1025': {
     explanation: `संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
   '7:1047': {
     explanation: `मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।`,
-    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
-    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
   },
   '8:1001': {
     explanation: `आपको नमस्कार — सभी कारणों के कारण, जो स्वयं कारण-रहित हैं, जिनका कारण अद्भुत है। सभी शास्त्रों के महासमुद्र को नमस्कार; मुक्ति के और परम लक्ष्य को नमस्कार।`,
-    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
-    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
   },
   '8:1002': {
     explanation: `यहाँ (इस ग्रंथ में) निर्मत्सर साधुजनों के लिए सर्वोच्च धर्म वर्णित है — जो कपट-रहित है। यहाँ वास्तविक तत्त्व जाना जाता है — जो कल्याणकारक है और त्रिताप (आधि-व्याधि-उपाधि) को नष्ट करता है।`,
-    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation. Dharma is the codified wisdom of what sustains both individual and collective flourishing.`,
-    lifeLesson: `Do what is right, not what is easy. Dharma is not about rules — it is about alignment with the natural order that sustains life. When in doubt, choose the action that benefits the whole, not just yourself.`,
   },
   '8:1004': {
     explanation: `भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।`,
-    science: `Neuroscience of devotion (Newberg): devotional practice activates the prefrontal cortex and quiets the parietal lobe, dissolving the boundary between self and other. This is the neural correlate of ego dissolution through bhakti.`,
-    lifeLesson: `Devotion is not weakness — it is the courage to surrender the ego to something greater. When you love something deeply, you become it. Choose wisely what you devote yourself to.`,
   },
   '8:1005': {
     explanation: `हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।`,
-    science: `Psychology of gratitude (Emmons): gratitude practice measurably increases well-being, strengthens relationships, and improves physical health. Grace is the spiritual dimension of gratitude — the recognition that life itself is a gift.`,
-    lifeLesson: `Grace is not earned — it is received. When you stop trying to deserve everything and simply appreciate what you have been given, life becomes lighter. Practice gratitude daily; it transforms ordinary moments into blessings.`,
   },
   '8:1009': {
     explanation: `जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।`,
-    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
-    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
   },
   '8:1013': {
     explanation: `जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
   '8:1025': {
     explanation: `संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
   '8:5047': {
     explanation: `मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।`,
-    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
-    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
   },
   '9:1001': {
     explanation: `भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।`,
-    science: `Neuroscience of devotion (Newberg): devotional practice activates the prefrontal cortex and quiets the parietal lobe, dissolving the boundary between self and other. This is the neural correlate of ego dissolution through bhakti.`,
-    lifeLesson: `Devotion is not weakness — it is the courage to surrender the ego to something greater. When you love something deeply, you become it. Choose wisely what you devote yourself to.`,
   },
   '9:1002': {
     explanation: `यहाँ (इस ग्रंथ में) निर्मत्सर साधुजनों के लिए सर्वोच्च धर्म वर्णित है — जो कपट-रहित है। यहाँ वास्तविक तत्त्व जाना जाता है — जो कल्याणकारक है और त्रिताप (आधि-व्याधि-उपाधि) को नष्ट करता है।`,
-    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation. Dharma is the codified wisdom of what sustains both individual and collective flourishing.`,
-    lifeLesson: `Do what is right, not what is easy. Dharma is not about rules — it is about alignment with the natural order that sustains life. When in doubt, choose the action that benefits the whole, not just yourself.`,
   },
   '9:1003': {
     explanation: `मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।`,
-    science: `Neuroscience of devotion (Newberg): devotional practice activates the prefrontal cortex and quiets the parietal lobe, dissolving the boundary between self and other. This is the neural correlate of ego dissolution through bhakti.`,
-    lifeLesson: `Devotion is not weakness — it is the courage to surrender the ego to something greater. When you love something deeply, you become it. Choose wisely what you devote yourself to.`,
   },
   '9:1005': {
     explanation: `हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।`,
-    science: `Psychology of gratitude (Emmons): gratitude practice measurably increases well-being, strengthens relationships, and improves physical health. Grace is the spiritual dimension of gratitude — the recognition that life itself is a gift.`,
-    lifeLesson: `Grace is not earned — it is received. When you stop trying to deserve everything and simply appreciate what you have been given, life becomes lighter. Practice gratitude daily; it transforms ordinary moments into blessings.`,
   },
   '9:1009': {
     explanation: `जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।`,
-    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
-    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
   },
   '9:1013': {
     explanation: `जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
   '9:1025': {
     explanation: `संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
   '9:4047': {
     explanation: `मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।`,
-    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
-    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
   },
   '10:1002': {
     explanation: `यहाँ (इस ग्रंथ में) निर्मत्सर साधुजनों के लिए सर्वोच्च धर्म वर्णित है — जो कपट-रहित है। यहाँ वास्तविक तत्त्व जाना जाता है — जो कल्याणकारक है और त्रिताप (आधि-व्याधि-उपाधि) को नष्ट करता है।`,
-    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation. Dharma is the codified wisdom of what sustains both individual and collective flourishing.`,
-    lifeLesson: `Do what is right, not what is easy. Dharma is not about rules — it is about alignment with the natural order that sustains life. When in doubt, choose the action that benefits the whole, not just yourself.`,
   },
   '10:1003': {
     explanation: `मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।`,
-    science: `Neuroscience of devotion (Newberg): devotional practice activates the prefrontal cortex and quiets the parietal lobe, dissolving the boundary between self and other. This is the neural correlate of ego dissolution through bhakti.`,
-    lifeLesson: `Devotion is not weakness — it is the courage to surrender the ego to something greater. When you love something deeply, you become it. Choose wisely what you devote yourself to.`,
   },
   '10:1004': {
     explanation: `भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।`,
-    science: `Neuroscience of devotion (Newberg): devotional practice activates the prefrontal cortex and quiets the parietal lobe, dissolving the boundary between self and other. This is the neural correlate of ego dissolution through bhakti.`,
-    lifeLesson: `Devotion is not weakness — it is the courage to surrender the ego to something greater. When you love something deeply, you become it. Choose wisely what you devote yourself to.`,
   },
   '10:1005': {
     explanation: `हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।`,
-    science: `Psychology of gratitude (Emmons): gratitude practice measurably increases well-being, strengthens relationships, and improves physical health. Grace is the spiritual dimension of gratitude — the recognition that life itself is a gift.`,
-    lifeLesson: `Grace is not earned — it is received. When you stop trying to deserve everything and simply appreciate what you have been given, life becomes lighter. Practice gratitude daily; it transforms ordinary moments into blessings.`,
   },
   '10:1009': {
     explanation: `जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।`,
-    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
-    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
   },
   '10:1013': {
     explanation: `जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
   '10:1025': {
     explanation: `संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
   '10:1047': {
     explanation: `मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।`,
-    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
-    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
   },
   '11:1001': {
     explanation: `मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।`,
-    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
-    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
   },
   '11:1002': {
     explanation: `यहाँ (इस ग्रंथ में) निर्मत्सर साधुजनों के लिए सर्वोच्च धर्म वर्णित है — जो कपट-रहित है। यहाँ वास्तविक तत्त्व जाना जाता है — जो कल्याणकारक है और त्रिताप (आधि-व्याधि-उपाधि) को नष्ट करता है।`,
-    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation. Dharma is the codified wisdom of what sustains both individual and collective flourishing.`,
-    lifeLesson: `Do what is right, not what is easy. Dharma is not about rules — it is about alignment with the natural order that sustains life. When in doubt, choose the action that benefits the whole, not just yourself.`,
   },
   '11:1003': {
     explanation: `मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।`,
-    science: `Neuroscience of devotion (Newberg): devotional practice activates the prefrontal cortex and quiets the parietal lobe, dissolving the boundary between self and other. This is the neural correlate of ego dissolution through bhakti.`,
-    lifeLesson: `Devotion is not weakness — it is the courage to surrender the ego to something greater. When you love something deeply, you become it. Choose wisely what you devote yourself to.`,
   },
   '11:1004': {
     explanation: `भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।`,
-    science: `Neuroscience of devotion (Newberg): devotional practice activates the prefrontal cortex and quiets the parietal lobe, dissolving the boundary between self and other. This is the neural correlate of ego dissolution through bhakti.`,
-    lifeLesson: `Devotion is not weakness — it is the courage to surrender the ego to something greater. When you love something deeply, you become it. Choose wisely what you devote yourself to.`,
   },
   '11:1005': {
     explanation: `हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।`,
-    science: `Psychology of gratitude (Emmons): gratitude practice measurably increases well-being, strengthens relationships, and improves physical health. Grace is the spiritual dimension of gratitude — the recognition that life itself is a gift.`,
-    lifeLesson: `Grace is not earned — it is received. When you stop trying to deserve everything and simply appreciate what you have been given, life becomes lighter. Practice gratitude daily; it transforms ordinary moments into blessings.`,
   },
   '11:1009': {
     explanation: `जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।`,
-    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
-    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
   },
   '11:1013': {
     explanation: `जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
   '11:1025': {
     explanation: `संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
   '12:1002': {
     explanation: `यहाँ (इस ग्रंथ में) निर्मत्सर साधुजनों के लिए सर्वोच्च धर्म वर्णित है — जो कपट-रहित है। यहाँ वास्तविक तत्त्व जाना जाता है — जो कल्याणकारक है और त्रिताप (आधि-व्याधि-उपाधि) को नष्ट करता है।`,
-    science: `Evolutionary psychology: moral behavior evolved as a survival strategy through reciprocal altruism and group cooperation. Dharma is the codified wisdom of what sustains both individual and collective flourishing.`,
-    lifeLesson: `Do what is right, not what is easy. Dharma is not about rules — it is about alignment with the natural order that sustains life. When in doubt, choose the action that benefits the whole, not just yourself.`,
   },
   '12:1003': {
     explanation: `मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।`,
-    science: `Neuroscience of devotion (Newberg): devotional practice activates the prefrontal cortex and quiets the parietal lobe, dissolving the boundary between self and other. This is the neural correlate of ego dissolution through bhakti.`,
-    lifeLesson: `Devotion is not weakness — it is the courage to surrender the ego to something greater. When you love something deeply, you become it. Choose wisely what you devote yourself to.`,
   },
   '12:1004': {
     explanation: `भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।`,
-    science: `Neuroscience of devotion (Newberg): devotional practice activates the prefrontal cortex and quiets the parietal lobe, dissolving the boundary between self and other. This is the neural correlate of ego dissolution through bhakti.`,
-    lifeLesson: `Devotion is not weakness — it is the courage to surrender the ego to something greater. When you love something deeply, you become it. Choose wisely what you devote yourself to.`,
   },
   '12:1005': {
     explanation: `हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।`,
-    science: `Psychology of gratitude (Emmons): gratitude practice measurably increases well-being, strengthens relationships, and improves physical health. Grace is the spiritual dimension of gratitude — the recognition that life itself is a gift.`,
-    lifeLesson: `Grace is not earned — it is received. When you stop trying to deserve everything and simply appreciate what you have been given, life becomes lighter. Practice gratitude daily; it transforms ordinary moments into blessings.`,
   },
   '12:1009': {
     explanation: `जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।`,
-    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
-    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
   },
   '12:1013': {
     explanation: `जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
   '12:2025': {
     explanation: `संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
   '12:2047': {
     explanation: `मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।`,
-    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
-    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
   },
   '13:1001': {
     explanation: `जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
   '13:1002': {
     explanation: `कलियुग में, जब चित्त कल्मषित और आत्मा पाप-दृष्टि से आप्लुत हो, विवेकपूर्ण ध्यान-सिद्धि से ही निर्वाण-पद की प्राप्ति होती है।`,
-    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
-    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
   },
   '13:1003': {
     explanation: `मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।`,
-    science: `Neuroscience of devotion (Newberg): devotional practice activates the prefrontal cortex and quiets the parietal lobe, dissolving the boundary between self and other. This is the neural correlate of ego dissolution through bhakti.`,
-    lifeLesson: `Devotion is not weakness — it is the courage to surrender the ego to something greater. When you love something deeply, you become it. Choose wisely what you devote yourself to.`,
   },
   '13:1004': {
     explanation: `भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।`,
-    science: `Neuroscience of devotion (Newberg): devotional practice activates the prefrontal cortex and quiets the parietal lobe, dissolving the boundary between self and other. This is the neural correlate of ego dissolution through bhakti.`,
-    lifeLesson: `Devotion is not weakness — it is the courage to surrender the ego to something greater. When you love something deeply, you become it. Choose wisely what you devote yourself to.`,
   },
   '13:1009': {
     explanation: `जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।`,
-    science: `Behavioral psychology (Bandura): every action creates neural pathways that reinforce future behavior. The law of karma mirrors the neuroplastic principle — repeated actions become character, and character shapes destiny.`,
-    lifeLesson: `Every action you repeat becomes a tendency, every tendency becomes character, and character becomes destiny. Choose your daily actions carefully — they are sculpting your future self.`,
   },
   '13:1025': {
     explanation: `संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
   '13:3047': {
     explanation: `मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।`,
-    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
-    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
   },
 };

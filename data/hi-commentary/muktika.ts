@@ -46,55 +46,34 @@ export const muktikaHi: HiCommentaryFragment = {
   '3:25': {
     explanation: `अद्वैत की पुष्टि: एक ही सत्ता है, दूसरा कोई नहीं। ज्ञाता पहचानता है "मैं वही हूँ" और मृत्यु, शोक तथा समस्त पीड़ा से परे हो जाता है।`,
   },
-
   '1:3': {
     explanation: `मन का नाश विचार से ही होता है — इसमें कोई सन्देह नहीं। उससे वासनाओं का क्षय होता है। उससे ही मोक्ष है — अन्यथा नहीं।`,
-    science: `Neuroscience of flow (Csikszentmihalyi): in flow states, the prefrontal cortex temporarily deactivates — self-referential thinking ceases, and action becomes spontaneous. This is the psychological correlate of liberation: action without the doer.`,
-    lifeLesson: `Freedom is not the absence of responsibility — it is the absence of the ego that resists responsibility. When you act without attachment to results, you are already free, even in the midst of action.`,
   },
   '1:5': {
     explanation: `योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग मुक्ति पर आश्रित है।`,
-    science: `Neuroscience of flow (Csikszentmihalyi): in flow states, the prefrontal cortex temporarily deactivates — self-referential thinking ceases, and action becomes spontaneous. This is the psychological correlate of liberation: action without the doer.`,
-    lifeLesson: `Freedom is not the absence of responsibility — it is the absence of the ego that resists responsibility. When you act without attachment to results, you are already free, even in the midst of action.`,
   },
   '1:10': {
     explanation: `मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब मुक्ति ही है, सब मुक्ति मेरे में है।`,
-    science: `Neuroscience of flow (Csikszentmihalyi): in flow states, the prefrontal cortex temporarily deactivates — self-referential thinking ceases, and action becomes spontaneous. This is the psychological correlate of liberation: action without the doer.`,
-    lifeLesson: `Freedom is not the absence of responsibility — it is the absence of the ego that resists responsibility. When you act without attachment to results, you are already free, even in the midst of action.`,
   },
   '1:15': {
     explanation: `जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव मुक्ति में लीन हो जाता है। इसमें कोई संशय नहीं।`,
-    science: `Neuroscience of flow (Csikszentmihalyi): in flow states, the prefrontal cortex temporarily deactivates — self-referential thinking ceases, and action becomes spontaneous. This is the psychological correlate of liberation: action without the doer.`,
-    lifeLesson: `Freedom is not the absence of responsibility — it is the absence of the ego that resists responsibility. When you act without attachment to results, you are already free, even in the midst of action.`,
   },
   '1:20': {
     explanation: `शांत, शिव, अद्वैत मुक्ति — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
-    science: `Neuroscience of flow (Csikszentmihalyi): in flow states, the prefrontal cortex temporarily deactivates — self-referential thinking ceases, and action becomes spontaneous. This is the psychological correlate of liberation: action without the doer.`,
-    lifeLesson: `Freedom is not the absence of responsibility — it is the absence of the ego that resists responsibility. When you act without attachment to results, you are already free, even in the midst of action.`,
   },
   '1:25': {
     explanation: `एक ही देव है, दूसरा कोई नहीं — जो मुक्ति को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।`,
-    science: `Neuroscience of flow (Csikszentmihalyi): in flow states, the prefrontal cortex temporarily deactivates — self-referential thinking ceases, and action becomes spontaneous. This is the psychological correlate of liberation: action without the doer.`,
-    lifeLesson: `Freedom is not the absence of responsibility — it is the absence of the ego that resists responsibility. When you act without attachment to results, you are already free, even in the midst of action.`,
   },
   '1:28': {
     explanation: `माण्डूक्य सबका सार है, सभी उपनिषदों का रहस्य है, और सम्पूर्ण वेदान्त का सार है। इसमें कोई विचार करने की आवश्यकता नहीं।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
   '1:45': {
     explanation: `उन एक सौ आठ (उपनिषदों) के नाम मैं कहता हूँ — जिनके केवल नाम सुनने मात्र से सभी पापों से मुक्ति हो जाती है।`,
-    science: `Neuroscience of flow (Csikszentmihalyi): in flow states, the prefrontal cortex temporarily deactivates — self-referential thinking ceases, and action becomes spontaneous. This is the psychological correlate of liberation: action without the doer.`,
-    lifeLesson: `Freedom is not the absence of responsibility — it is the absence of the ego that resists responsibility. When you act without attachment to results, you are already free, even in the midst of action.`,
   },
   '1:78': {
     explanation: `जो सर्वत्र समान दृष्टि रखता है; जो सभी प्राणियों के हित में प्रीति रखता है; जो शत्रु और मित्र में समान है — ऐसे को मुक्त कहते हैं।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
   '1:95': {
     explanation: `कामनाएँ कामना-वस्तुओं के उपभोग से कभी शान्त नहीं होतीं — जैसे अग्नि आहुति डालने से और भी बढ़ती है।`,
-    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
-    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
   },
 };

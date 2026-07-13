@@ -31,40 +31,25 @@ export const maitriHi: HiCommentaryFragment = {
   '2:25': {
     explanation: `अद्वैत की पुष्टि: एक ही सत्ता है, दूसरी कोई नहीं। ज्ञाता "मैं वही हूँ" को पहचानता है और मृत्यु, शोक तथा समस्त दुःखों से परे हो जाता है।`,
   },
-
   '1:5': {
     explanation: `योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग आत्मा पर आश्रित है।`,
-    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
-    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
   },
   '1:10': {
     explanation: `मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब आत्मा ही है, सब आत्मा मेरे में है।`,
-    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
-    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
   },
   '1:15': {
     explanation: `जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव आत्मा में लीन हो जाता है। इसमें कोई संशय नहीं।`,
-    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
-    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
   },
   '1:18': {
     explanation: `प्राणायाम, प्रत्याहार, ध्यान, धारणा, तर्क और समाधि — इस षडङ्ग को योग कहते हैं।`,
-    science: `Meditation research (Davidson): sustained meditation practice thickens the prefrontal cortex, strengthens insula connectivity, and reduces amygdala reactivity. These measurable brain changes confirm the transformative power of dhyana.`,
-    lifeLesson: `Meditation is not escape — it is meeting yourself fully. Even 10 minutes daily of sitting with your breath rewires the brain. The mind that watches itself is already beginning to transform.`,
   },
   '1:20': {
     explanation: `जैसे अग्नि ईंधन के बिना नहीं रहती, जैसे सूर्य अपनी किरणें समेट लेता है — उसी प्रकार योगी, सब कुछ त्यागकर, बस रहता है।`,
-    science: `Meditation research (Davidson): sustained meditation practice thickens the prefrontal cortex, strengthens insula connectivity, and reduces amygdala reactivity. These measurable brain changes confirm the transformative power of dhyana.`,
-    lifeLesson: `Meditation is not escape — it is meeting yourself fully. Even 10 minutes daily of sitting with your breath rewires the brain. The mind that watches itself is already beginning to transform.`,
   },
   '1:21': {
     explanation: `शांत, शिव, अद्वैत आत्मा — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।`,
-    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
-    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
   },
   '1:25': {
     explanation: `एक ही देव है, दूसरा कोई नहीं — जो आत्मा को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।`,
-    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
-    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
   },
 };

@@ -19,11 +19,15 @@ import fs from "fs";
 import path from "path";
 import { pathToFileURL } from "url";
 import {
+  legacyCuratedKeys,
   verseExplanationsHi,
   verseScienceHi,
   verseLifeLessonHi,
 } from "../data/verse-explanations-hi";
 import type { Scripture } from "../data/types";
+import { isBoilerplateField, isCuratedAnalysisField } from "../data/hi-commentary/quality";
+
+const MAX_BUNDLE_MB = 10;
 
 const PUB = path.join(process.cwd(), "public/data/scriptures-full");
 const SCRIPT_DIR = path.join(process.cwd(), "data/scriptures");
@@ -187,28 +191,54 @@ async function main() {
       }
     }
 
-    const collect = (table: Record<string, string>, field: "e" | "s" | "l") => {
-      for (const [key, val] of Object.entries(table)) {
-        if (!key.startsWith(id + ":")) continue;
-        const sk = internalSanskrit[key.slice(id.length + 1)];
-        const target = sk ? findBestMatch(sk, pubVerses) ?? undefined : undefined;
-        if (!target) {
-          if (field === "e") lost++;
-          continue;
-        }
-        if (field === "e") matched++;
-        (out[`${id}:${target}`] ||= {})[field] = val;
+    const internalKeys = new Set<string>();
+    for (const table of [verseExplanationsHi, verseScienceHi, verseLifeLessonHi]) {
+      for (const key of Object.keys(table)) {
+        if (key.startsWith(id + ":")) internalKeys.add(key);
       }
-    };
-    collect(verseExplanationsHi, "e");
-    collect(verseScienceHi, "s");
-    collect(verseLifeLessonHi, "l");
+    }
+
+    for (const key of internalKeys) {
+      const curated =
+        legacyCuratedKeys.has(key) ||
+        isCuratedAnalysisField(verseScienceHi[key]) ||
+        isCuratedAnalysisField(verseLifeLessonHi[key]);
+      if (!curated) continue;
+
+      const sk = internalSanskrit[key.slice(id.length + 1)];
+      const target = sk ? findBestMatch(sk, pubVerses) ?? undefined : undefined;
+      if (!target) {
+        if (verseExplanationsHi[key]) lost++;
+        continue;
+      }
+
+      const outKey = `${id}:${target}`;
+      const entry = (out[outKey] ||= {});
+      const explanation = verseExplanationsHi[key];
+      const science = verseScienceHi[key];
+      const lifeLesson = verseLifeLessonHi[key];
+      if (explanation) {
+        entry.e = explanation;
+        matched++;
+      }
+      if (science && !isBoilerplateField(science)) entry.s = science;
+      if (lifeLesson && !isBoilerplateField(lifeLesson)) entry.l = lifeLesson;
+    }
   }
 
   fs.writeFileSync("hi-analysis.json", JSON.stringify(out));
+  const sizeKB = fs.statSync("hi-analysis.json").size / 1024;
+  const sizeMB = sizeKB / 1024;
   console.log(
     `verses: ${Object.keys(out).length} | explanation matched: ${matched} | lost: ${lost} | ` +
-      `${(fs.statSync("hi-analysis.json").size / 1024).toFixed(0)}KB`
+      `${sizeKB.toFixed(0)}KB`,
   );
+  if (sizeMB > MAX_BUNDLE_MB) {
+    console.error(
+      `Bundle too large (${sizeMB.toFixed(1)}MB > ${MAX_BUNDLE_MB}MB). ` +
+        `Refusing to ship — check curated-only filters.`,
+    );
+    process.exit(1);
+  }
 }
 main();

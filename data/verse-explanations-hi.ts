@@ -1,4 +1,4 @@
-export const verseExplanationsHi: Record<string, string> = {
+const legacyVerseExplanationsHi: Record<string, string> = {
   'ishavasya:1:1': 'परम सत्य (अनंत ब्रह्म) पूर्ण है। अनंत स्रोत से अनंत जगत प्रकट होने पर भी वह स्रोत घटता नहीं, बल्कि पूर्ण ही बना रहता है।\n\n📚 संस्कृत: पूर्णम् (पूर्ण) = अव्यय, अक्षय\n🔬 आधुनिक उदाहरण: ब्रह्मांड से ऊर्जा निकलती है, फिर भी कुल ऊर्जा स्थिर रहती है (थर्मोडायनामिक्स का नियम)\n\n✓ मुख्य बातें:\n  • ब्रह्म असीम है; घटना-बढ़ना इसके गुण नहीं\n  • सृष्टि का निर्माण ब्रह्म का ह्रास नहीं है\n  • अनंत से अनंत निकला, फिर भी अनंत बचा',
   'ishavasya:1:2': 'सब कुछ ईश्वर से व्याप्त है। इसलिए संसार में रहते हुए भी यह समझकर जियो कि वास्तव में कुछ भी हमारा निजी स्वामित्व नहीं है।\n\n📚 संस्कृत: वासना (ईश्वरीय उपस्थिति) = सभी में प्रवेश करना\n💡 मनोविज्ञान दृष्टि: आसक्ति ही दुःख का मूल है। अपेक्षा रहित जीवन मानसिक शांति लाता है।\n\n✓ मुख्य बातें:\n  • सब कुछ परमेश्वर के स्वामित्व में है\n  • हम केवल कर्मकार हैं, मालिक नहीं\n  • त्याग (विषय से मुक्ति) से ही भोग (शांति) मिलता है',
   'ishavasya:1:5': 'आत्मा का स्वरूप विरोधाभासी दिखता है: वह अचल है, फिर भी मन से तेज है। सभी गति उसी आधार में घटित होती है।',
@@ -50,7 +50,13 @@ export const verseExplanationsHi: Record<string, string> = {
   'bhagavadgita:18:78': 'गीता का अंतिम श्लोक बताता है कि जहां कृष्ण और अर्जुन धर्मभाव से एक हैं, वहां विजय, समृद्धि और मंगल निश्चित है।',
 };
 
+/** Hand-authored seed keys — always safe to bundle for mobile. */
+export const legacyCuratedKeys = new Set(Object.keys(legacyVerseExplanationsHi));
+
+export const verseExplanationsHi: Record<string, string> = { ...legacyVerseExplanationsHi };
+
 import type { HiCommentaryFragment } from './hi-commentary/_types';
+import { isBoilerplateField } from './hi-commentary/quality';
 import { aitareyaHi } from './hi-commentary/aitareya';
 import { atharvavedaHi } from './hi-commentary/atharvaveda';
 import { agnipuranHi } from './hi-commentary/agnipuran';
@@ -194,8 +200,8 @@ for (const [scriptureId, fragment] of Object.entries(fragments)) {
     // Fragment explanations take precedence over the legacy seed
     // entries above so we get a single source of truth per verse.
     if (entry.explanation) verseExplanationsHi[k] = entry.explanation;
-    if (entry.science) verseScienceHi[k] = entry.science;
-    if (entry.lifeLesson) verseLifeLessonHi[k] = entry.lifeLesson;
+    if (entry.science && !isBoilerplateField(entry.science)) verseScienceHi[k] = entry.science;
+    if (entry.lifeLesson && !isBoilerplateField(entry.lifeLesson)) verseLifeLessonHi[k] = entry.lifeLesson;
   }
 }
 

@@ -1,7 +1,6 @@
 import type { HiCommentaryFragment } from './_types';
 
 export const shvetashvataraHi: HiCommentaryFragment = {
-  // ── अध्याय 1 — ब्रह्म का प्रश्न ──────────────────────────────────────────
   '1:1': {
     explanation: `उपनिषद् का प्रारम्भ मनुष्य के सबसे मूलभूत प्रश्नों से होता है — यह नहीं कि "मुझे क्या करना चाहिए?", बल्कि यह कि "यह सब क्या है?" ये वे प्रश्न हैं जो दर्शन और विज्ञान दोनों को गति देते हैं। उत्पत्ति, स्थिति और प्रलय (विनाश) — ये तीन मौलिक प्रक्रियाएँ हैं जिन्हें यह ब्रह्माण्ड प्रदर्शित करता है।`,
     science: `ये ठीक वही प्रश्न हैं जो आधुनिक ब्रह्माण्ड-विज्ञान (Cosmology) पूछता है: ब्रह्माण्ड की उत्पत्ति (बिग बैंग, और उसका कारण क्या था?), उसकी स्थिति या पोषण (वे कौन से नियम हैं जो ब्रह्माण्ड को बनाए रखते हैं?), और उसका प्रलय या विलय (इसका अन्तिम भाग्य क्या है — हीट डेथ, बिग रिप, या बिग क्रंच?)। प्राचीन दर्शन और आधुनिक विज्ञान दोनों समान प्रश्न पूछते हैं। उपनिषद् का उत्तर — ब्रह्म/शिव — एक संकेत (पॉइंटर) है, कोई अन्तिम भौतिक व्याख्या नहीं।`,
@@ -12,8 +11,6 @@ export const shvetashvataraHi: HiCommentaryFragment = {
     science: `भौतिकी में इसके समानान्तर: यहाँ अनेक बल हैं (गुरुत्वाकर्षण, विद्युत-चुम्बकत्व, परमाणु बल), अनेक कण और अनेक क्षेत्र हैं — परन्तु भौतिक विज्ञानी एक ऐसे 'ग्रैंड यूनिफाइड थ्योरी' (Grand Unified Theory) की खोज में हैं जो इन सभी को समाहित कर सके। भौतिकी में 'स्टैंडर्ड मॉडल' बलों का वर्तमान पदानुक्रम है — एक ऐसा "देवकुल" जिसमें विद्युत-चुम्बकीय बल महेश्वर के समान है और अन्य बल अधीनस्थ देवताओं की तरह हैं। वह एकमात्र एकीकृत क्षेत्र (Unified Field) ही भौतिक विज्ञानी का 'महेश्वर' है।`,
     lifeLesson: `अपने जीवन में आप कई स्वामियों की सेवा करते हैं — काम, परिवार, स्वास्थ्य, सुख-सुविधा, प्रतिष्ठा। परन्तु यहाँ एक पदानुक्रम होना चाहिए: वह क्या है जो आपके गहनतम सत्य की सेवा करता है? सर्वोच्च मूल्य के बारे में स्पष्टता उसके नीचे के सभी निर्णयों को सरल बना देती है। आपका महेश्वर क्या है — वह सर्वोच्च मूल्य जिससे आपके अन्य सभी विकल्पों को एक व्यवस्था और दिशा मिलती है?`,
   },
-
-  // ── अध्याय 2 — भीतरी अग्नि का योग ─────────────────────────────────────────
   '2:8': {
     explanation: `यह भारतीय साहित्य में प्राणायाम (श्वास नियन्त्रण) के सबसे प्रारम्भिक वर्णनों में से एक है। यहाँ सारथी का रूपक श्रीमद्भगवद्गीता की प्रसिद्ध छवि का पूर्वाभास कराता है: शरीर रथ है, आत्मा यात्री है, बुद्धि सारथी है, और इन्द्रियाँ घोड़े हैं। चंचल और बेलगाम मन को अनुशासित श्वास और सजगता के कुशल चालक द्वारा निर्देशित किया जाना चाहिए।`,
     science: `प्राणायाम पर शारीरिक विज्ञान का शोध: नियन्त्रित श्वास वेगस तन्त्रिका (Vagus Nerve) की उत्तेजना के माध्यम से सीधे स्वायत्त तन्त्रिका तन्त्र (Autonomic Nervous System) को प्रभावित करता है। धीमी गति से श्वास बाहर छोड़ना (Exhalation) पैरासिम्पैथेटिक तन्त्र (Rest-and-Digest) को सक्रिय करता है, जिससे हृदय गति धीमी होती है, कोर्टिसोल का स्तर घटता है, और HRV (हृदय गति की परिवर्तनशीलता — जो तन्त्रिका तन्त्र के लचीलेपन का एक मुख्य संकेतक है) बढ़ती है। इस प्रकार श्वास के सचेतन नियमन द्वारा विक्षुब्ध मन के "दुष्ट घोड़ों" को शारीरिक रूप से शान्त किया जाता है।`,
@@ -24,29 +21,21 @@ export const shvetashvataraHi: HiCommentaryFragment = {
     science: `भौतिक विज्ञान: सभी पदार्थ और ऊर्जा उन क्वाण्टम क्षेत्रों (Quantum Fields) के भीतर अस्तित्व में हैं और उनकी अभिव्यक्ति हैं जो सम्पूर्ण आकाश में व्याप्त हैं। इलेक्ट्रॉन, क्वार्क, फोटॉन अंतरिक्ष में तैरती हुई कोई अलग वस्तुएँ नहीं हैं — वे उन क्षेत्रों के स्पन्दन (Excitations) हैं जो स्वयं दिक्-काल (Spacetime) से अविभाज्य हैं। सभी घटनाएँ एक एकीकृत आधार के भीतर बनने वाले प्रतिरूप हैं — यह ठीक उपनिषद् की आकाश में वायु वाली उपमा के समान है।`,
     lifeLesson: `आप ब्रह्माण्ड में इस तरह नहीं हैं जैसे कोई मछली पानी में होती है — एक अलग वस्तु के रूप में जो किसी अन्य चीज़ के भीतर समाई हुई है। आप चेतना के भीतर एक स्पन्दन हैं, ठीक वैसे ही जैसे वायु आकाश के भीतर एक गति है। आपकी विशिष्टता वास्तविक है; परन्तु समष्टि से आपका अलगाव एक भ्रम है। यह बोध — केवल विचार में नहीं, बल्कि जीवन में अनुभव होने पर — सब कुछ बदल देता है।`,
   },
-
-  // ── अध्याय 3 — विराट् पुरुष ──────────────────────────────────────────────
   '3:8': {
     explanation: `यह श्लोक बाद में श्रीमद्भगवद्गीता के ८वें अध्याय में भगवान कृष्ण द्वारा उद्धृत किया गया है। वह विराट् पुरुष "आदित्यवर्ण" है — सूर्य के समान देदीप्यमान। यहाँ एक क्रान्तिकारी दावा किया गया है: अमरत्व का अन्य कोई मार्ग नहीं है। यह पर्वत पर जाने वाले अनेक मार्गों की तरह नहीं है — बल्कि यह एक अनिवार्य बोध है कि वह विराट् पुरुष कोई और नहीं, आपकी अपनी ही गहनतम आत्मा है।`,
     science: `भौतिकी में, प्रकाश ही एकमात्र ऐसी वस्तु है जो ब्रह्माण्ड की अधिकतम गति — c (प्रकाश की गति) से चलती है। हमारे समय के बोध से परे, फोटॉन समय से मुक्त अस्तित्व रखते हैं (अपने स्वयं के सन्दर्भ फ्रेम में)। उपनिषद् का "अन्धकार से परे देदीप्यमान" प्रकाश की उस अनूठी भूमिका से मेल खाता है जिसमें वह काल-प्रवाह (Temporal Flux) से बाहर रहने वाली एकमात्र सत्ता है — एक ऐसी "वस्तु" जिसकी कभी आयु नहीं बढ़ती और जो मृत्यु का अनुभव नहीं करती।`,
     lifeLesson: `एक ऐसा बोध है जो यदि एक बार हो जाए, तो उसे कभी भुलाया नहीं जा सकता — कि आप केवल यह शरीर और व्यक्तित्व नहीं हैं, बल्कि वह साक्षी चेतना हैं जिसमें ये सब प्रकट होते हैं। आप जीवन भर इस बोध से बच सकते हैं। परन्तु एक बार जब आप सीधे इसकी ओर मुड़ते हैं, चाहे क्षण भर के लिए ही सही, तो भीतर कुछ सक्रिय हो जाता है। इस ओर मुड़ना आरम्भ करें।`,
   },
-
-  // ── अध्याय 4 — माया और परम सत्य ──────────────────────────────────────────
   '4:10': {
     explanation: `यह माया के सिद्धान्त की सबसे स्पष्ट और आरम्भिक परिभाषाओं में से एक है जिसे बाद में वेदान्त दर्शन ने विस्तार से प्रतिपादित किया। माया उस अर्थ में "भ्रम" नहीं है कि उसका कोई अस्तित्व ही नहीं है — बल्कि यह वह रचनात्मक शक्ति है जिसके द्वारा वह एक तत्त्व अनेक रूपों में प्रकट होता है। यह संसार अपनी प्रतीति में वास्तविक है; जो अवास्तविक है वह यह धारणा है कि यह विविधता ही अन्तिम सत्य है। इस माया का स्वामी वह अपरिवर्तनीय आधार है जो सभी प्रतीतियों के पीछे स्थित है।`,
     science: `क्वाण्टम यांत्रिकी (Quantum Mechanics): तरंग फलन (Wave Function — जो एक एकल गणितीय सत्ता है) मापन के समय कणों की स्पष्ट विविधता को जन्म देता है। वह "एक अन्तर्निहित वास्तविकता" इन "अनेक प्रेक्षित परिघटनाओं" को उत्पन्न करती है — यह ठीक माया की उसी संरचना के समान है जिसे उपनिषद् वर्णित करता है। श्रोडिंगर (Schrödinger) स्वयं, जो वेदान्त से गहरे प्रभावित थे, उन्होंने इस समानता को स्पष्ट रूप से रेखांकित किया था।`,
     lifeLesson: `आपके जीवन की ये "अनेक चीजें" — आपकी भूमिकाएँ, सम्बन्ध, सम्पत्ति, संघर्ष — आपकी सजगता के एकमात्र आकाश में प्रकट होने वाली झाँकियाँ हैं। माया बुरी नहीं है; यह एक रचनात्मक लीला है। कष्ट तब शुरू होता है जब आप इन प्रतीतियों को ही अन्तिम सत्य मान बैठते हैं। उस मूल आधार को याद रखें, और तब यह जीवन-लीला दमनकारी होने के बजाय आनन्दमयी हो जाएगी।`,
   },
-
-  // ── अध्याय 5 — तीन श्रेणियाँ ────────────────────────────────────────────
   '5:1': {
     explanation: `एक सूक्ष्म त्रिस्तरीय संरचना: विद्या (ज्ञान), अविद्या (अज्ञान), और वह जो इन दोनों से परे है। अधिकांश आध्यात्मिक मार्ग सलाह देते हैं: ज्ञान को चुनो, अज्ञान को त्यागो। श्वेताश्वतर उपनिषद् और गहरे जाता है: वह परम तत्त्व विद्या और अविद्या दोनों से परे (BEYOND) है — वह दोनों का स्रोत है, दोनों का साक्षी है। यह इस अद्वैत शिक्षा का पूर्वाभास देता है कि "ज्ञान/बोध" और "अज्ञान/भ्रम" भी एक अधिक मौलिक चेतना के भीतर प्रकट होने वाले तरंग मात्र हैं।`,
     science: `सूचना सिद्धान्त (Information Theory) में, संकेत (Signal) और कोलाहल (Noise) एक-दूसरे के पूरक हैं — दोनों एक ही माध्यम (Channel) का हिस्सा हैं। बिना किसी कोलाहल के सन्दर्भ के शुद्ध संकेत अर्थहीन हो जाता है। बिना अज्ञान के विरोध के शुद्ध "ज्ञान" वैचारिक रूप से शून्य है। उपनिषद् इसे संरचनात्मक रूप से पहचानता है: वह परम तत्त्व वह आधार (Substrate) है जो जानने और न-जानने के इस खेल को सम्भव बनाता है — न कि उस द्वन्द्व का कोई एक सिरा।`,
     lifeLesson: `ज्ञान की सेना लेकर अपने अज्ञान से युद्ध न करें। ज्ञान और अज्ञान दोनों सजगता (Awareness) में उदित होते हैं; दोनों आते और जाते हैं। उस साक्षी चेतना के रूप में विश्राम करें जिसमें ये प्रकट होते हैं, और तब यह संघर्ष शान्त हो जाएगा। उस धरातल से, जहाँ आवश्यकता होगी वहाँ ज्ञान स्वतः प्रकट होगा, और जहाँ अज्ञान होगा वह स्वतः विलीन हो जाएगा।`,
   },
-
-  // ── अध्याय 6 — छिपा हुआ परमेश्वर ──────────────────────────────────────────
   '6:11': {
     explanation: `किसी भी उपनिषद् में ब्रह्म/शिव का यह सबसे व्यापक वर्णनों में से एक है। यहाँ आठ लक्षण बताए गए हैं: गूढ़ (साधारण इन्द्रियों से अदृश्य), सर्वव्यापी, सभी प्राणियों की अंतरात्मा, सभी कर्मों का अध्यक्ष (नियन्त्रक नहीं, बल्कि साक्षी रूप में देखरेख करने वाला), सभी में निवास करने वाला, साक्षी, शुद्ध चेतना, और निर्गुण (गुणों से परे)। यह भक्ति के सगुण ईश्वर और दर्शन के निर्गुण निराकार दोनों का एक ही श्लोक में किया गया अनुपम समन्वय है।`,
     science: `यह "साक्षी" (Sakshi) भाव उस क्रिया से मेल खाता है जिसे तन्त्रिका-वैज्ञानिक 'मेटा-कॉग्निटिव' (Meta-Cognitive) क्षमता कहते हैं — अपने स्वयं के मानसिक विचारों और प्रक्रियाओं को देखने की योग्यता। मस्तिष्क के चित्रण (Brain Imaging) अध्ययनों से पता चलता है कि यह साक्षी सजगता 'मीडियल प्रीफ्रंटल कॉर्टेक्स' (Medial Prefrontal Cortex) और 'पोस्टीरियर सिंगुलेट कॉर्टेक्स' (Posterior Cingulate Cortex) से जुड़ी है — जो ध्यान के दौरान सबसे अधिक सक्रिय होने वाले क्षेत्र हैं। जिसे उपनिषद् भीतरी दिव्य साक्षी कहता है, तन्त्रिका-विज्ञान उसे चेतना की प्रेक्षण क्षमता (Observing Capacity) के रूप में निरूपित करता है।`,
@@ -77,40 +66,25 @@ export const shvetashvataraHi: HiCommentaryFragment = {
   '6:45': {
     explanation: `एक ही देव है, दूसरा कोई नहीं — जो तत्व से शिव को जानता है। मैं वही हूँ, कोई संसारी जीव नहीं, न मृत्यु है, न शोक है, इत्यादि।`,
   },
-
   '1:2': {
     explanation: `उस महेश्वर को जानें — जो सभी ईश्वरों में परम है, सभी देवताओं में सर्वोच्च है, सभी पतियों का पति है, और जिसके परे कुछ नहीं — जो विश्व का स्वामी और स्तुत्य देव है।`,
-    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
-    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
   },
   '1:8': {
     explanation: `प्राणों को यत्न से नियंत्रित करके, और श्वास को नासिका से धीरे-धीरे निकालते हुए — जैसे कोई दुष्ट अश्वों वाले रथ को संभालता है — विद्वान पुरुष को मन को अप्रमत्त होकर धारण करना चाहिए।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
   '1:10': {
     explanation: `माया को ही प्रकृति जानो, और मायावी को महेश्वर। उसी के अंगभूत प्राणियों से यह संपूर्ण जगत व्याप्त है।`,
-    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
-    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
   },
   '1:11': {
     explanation: `एक देव सभी प्राणियों में छिपा हुआ है, सर्वव्यापी है, सभी प्राणियों की अंतरात्मा है। वह सभी कर्मों का अध्यक्ष है, सभी प्राणियों में निवासी है, साक्षी है, चेतना है, केवल और निर्गुण है।`,
-    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
-    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
   },
   '1:14': {
     explanation: `जैसे वायु आकाश में स्थित होकर भी सर्वत्र गति करती है — वैसे ही सभी प्राणी परमात्मा में स्थित हैं।`,
-    science: `Ecopsychology: exposure to natural environments reduces cortisol, improves attention, and enhances emotional regulation. The ancient reverence for the five elements reflects an intuitive understanding that human well-being is inseparable from the natural world.`,
-    lifeLesson: `You are made of the same elements as the world around you. Spend time in nature — it is not an escape but a return. When you reconnect with the elements, you reconnect with your own fundamental nature.`,
   },
   '1:19': {
     explanation: `वह विश्व का निर्माता है, विश्व का ज्ञाता है, स्वयंभू है; ज्ञाता है, काल का कर्ता है, गुणी है, सर्वज्ञ है, प्रधान और क्षेत्रज्ञ का स्वामी है, गुणों का ईश्वर है, और संसार-बंधन से मोक्ष का कारण भी वही है।`,
-    science: `Neuroscience of self (Damasio): the "self" is a constructed narrative by the brain, not a fixed entity. The default mode network generates the sense of "I" — meditation and self-inquiry temporarily deactivate this network, revealing the witness consciousness behind it.`,
-    lifeLesson: `You are not your thoughts, emotions, or body — you are the awareness in which they appear. When you identify with the witness rather than the witnessed, suffering loses its grip.`,
   },
   '1:20': {
     explanation: `जब मनुष्य आकाश को चमड़े की तरह लपेट लेंगे, तभी — ईश्वर को जाने बिना — दुख का अंत होगा।`,
-    science: `Modern psychology and neuroscience increasingly validate ancient insights: human well-being depends on self-awareness, ethical living, and mental discipline. This verse's wisdom anticipates findings in cognitive science, behavioral psychology, and contemplative neuroscience.`,
-    lifeLesson: `Reflect on this verse's teaching and find one practical way to apply it in your daily life. Ancient wisdom becomes living wisdom only when practiced. Even one small change, sustained over time, transforms character and destiny.`,
   },
 };
