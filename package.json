@@ -45,6 +45,7 @@
     "seed:atharvaveda-hindi": "tsx scripts/seed-atharvaveda-hindi.ts",
     "seed:narasimhapuran-translations": "tsx scripts/seed-narasimhapuran-translations.ts",
     "seed:markandeypuran-translations": "tsx scripts/seed-markandeypuran-translations.ts",
+    "seed:durgasaptashati-translations": "tsx scripts/seed-durgasaptashati-translations.ts",
     "seed:vishnupurana-translations": "tsx scripts/seed-vishnupurana-translations.ts",
     "seed:vishnupurana-hindi": "tsx scripts/seed-vishnupurana-hindi.ts",
     "seed:vamanpuran-translations": "tsx scripts/seed-vamanpuran-translations.ts",

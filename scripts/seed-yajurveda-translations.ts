@@ -36,6 +36,16 @@ const YAJURVEDA_PATCHES: Record<string, string> = {
   // Griffith prints this block as a second "21" after verse 23.
   "36:24":
     "Through hundred autumns may we see that bright Eye, God-appointed, rise, A hundred autumns may we live. Through hundred autumns may we hear; through hundred autumns clearly speak: through hundred autumns live content; a hundred autumns, yea, beyond a hundred autumns may we see.",
+  // Parser dropped/truncated these (see VERSE_AUDIT critical gaps).
+  "12:9":
+    "Return again with nourishment; Agni, again with food and life. Again preserve us from distress.",
+  "23:38":
+    "What then? As men whose fields are full of barley reap the ripe corn, removing it in order, So bring the food of these men, bring it hither, who pay the Sacred Grass their spoken homage.",
+  // Book XXXVI omits printed verse 4; cross-refs to XXVII.39–41.
+  "36:4":
+    "What succour will he bring to us, wonderful, ever-prospering Friend? With what most mighty company?",
+  "36:5":
+    "What, genuine and most liberal draught will spirit thee with juice to burst Open e'en strongly-guarded wealth?",
 };
 
 function verseIndex(chapterNum: number, verseNumber: number | string): number {

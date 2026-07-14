@@ -602,6 +602,29 @@ export function fetchManuHtml(
   return html;
 }
 
+/**
+ * True when a translation field is usable for readers.
+ * Rejects empty strings, bare page numbers, OCR fragments, and
+ * "translation pending" placeholders (aligned with verse-audit.js).
+ */
 export function hasTranslation(text?: string): boolean {
-  return Boolean((text ?? "").trim());
+  if (text == null) return false;
+  const v = String(text).trim();
+  if (v.length < 4) return false;
+  const lower = v.toLowerCase();
+  if (/^translation\s*(not available|pending|coming soon|todo|tbd)/i.test(v)) {
+    return false;
+  }
+  if (/^commentary\s*(not available|pending|coming soon|todo|tbd)/i.test(v)) {
+    return false;
+  }
+  // Bare page numbers / OCR debris ("181", "32.", "40.", "-", ").\"")
+  if (/^\d{1,4}\.?$/.test(v)) return false;
+  if (/^[-–—]+$/.test(v)) return false;
+  if (/^[.)\]"'”’]+$/.test(v)) return false;
+  // Isolated function words / fragments that are not real translations
+  if (/^(and|or|the|of|to|in|a|an|me\.?|etc\.?)$/i.test(v)) return false;
+  // Devanagari-only fragments (e.g. "चन") with no Latin content
+  if (/^[\u0900-\u097F\s।॥]+$/.test(v) && v.length < 12) return false;
+  return Boolean(lower);
 }

@@ -143,6 +143,20 @@ def clean_text(text: str) -> str:
     return text.strip()
 
 
+def is_junk_translation(text: str) -> bool:
+    s = text.strip()
+    if len(s) < 4:
+        return True
+    if re.fullmatch(r"\d{1,4}\.?", s):
+        return True
+    if re.fullmatch(r"[-–—]+", s):
+        return True
+    # OCR debris like ')."'
+    if re.fullmatch(r"[.)\]\"'”’]+", s):
+        return True
+    return False
+
+
 def parse_canto(chunk: str) -> dict[int, str]:
     verses: dict[int, str] = {}
     current = 0
@@ -151,7 +165,9 @@ def parse_canto(chunk: str) -> dict[int, str]:
     def flush() -> None:
         nonlocal current, buffer
         if current and buffer:
-            verses[current] = clean_text(" ".join(buffer))
+            cleaned = clean_text(" ".join(buffer))
+            if cleaned and not is_junk_translation(cleaned):
+                verses[current] = cleaned
         current = 0
         buffer = []
 
@@ -252,8 +268,9 @@ def main() -> None:
             fallback = [parsed[n] for n in ordered_nums]
             fallback_map = map_sequential(fallback, len(verse_keys))
             for key, text in zip(verse_keys, fallback_map, strict=True):
-                if key not in chapter_cache and text.strip():
-                    chapter_cache[key] = text.strip()
+                cleaned = text.strip()
+                if key not in chapter_cache and cleaned and not is_junk_translation(cleaned):
+                    chapter_cache[key] = cleaned
 
         cache[str(number)] = chapter_cache
         stats.append(

@@ -232,6 +232,19 @@ def parse_hymn_stanzas(body: str) -> list[str]:
     ):
         lines.pop(0)
 
+    def is_junk(stanza: str) -> bool:
+        s = stanza.strip()
+        if not s or len(s) < 4:
+            return True
+        # Page numbers and OCR debris from PDF footers
+        if re.fullmatch(r"\d{1,4}\.?", s):
+            return True
+        if re.fullmatch(r"[-–—]+", s):
+            return True
+        if re.fullmatch(r"(and|or|the|of|to|in|a|an|me\.?|etc\.?)", s, re.I):
+            return True
+        return False
+
     stanzas: list[str] = []
     buffer = ""
     for line in lines:
@@ -240,9 +253,9 @@ def parse_hymn_stanzas(body: str) -> list[str]:
             continue
         chunk = f"{buffer} {line}".strip() if buffer else line
         buffer = ""
-        if chunk and not chunk.startswith("It appears that hymns"):
+        if chunk and not chunk.startswith("It appears that hymns") and not is_junk(chunk):
             stanzas.append(re.sub(r"\s+", " ", chunk))
-    if buffer:
+    if buffer and not is_junk(buffer):
         stanzas.append(re.sub(r"\s+", " ", buffer))
     return stanzas
 
