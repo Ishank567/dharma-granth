@@ -74,12 +74,21 @@ function isBlank(v?: string): boolean {
   return !v || !String(v).trim();
 }
 
+function trunc(text: string, max: number): string {
+  if (text.length <= max) return text;
+  const cut = text.slice(0, max - 1);
+  const last = Math.max(
+    cut.lastIndexOf(". "),
+    cut.lastIndexOf("; "),
+    cut.lastIndexOf(", "),
+  );
+  const body = (last > 80 ? cut.slice(0, last + 1) : cut).trim();
+  return body.endsWith("…") ? body : `${body}…`;
+}
+
 function makeWordMeaning(sense: string): string {
-  // Keep concise for the meaning panel
-  if (sense.length <= 420) return sense;
-  const cut = sense.slice(0, 417);
-  const last = Math.max(cut.lastIndexOf(". "), cut.lastIndexOf("; "));
-  return (last > 120 ? cut.slice(0, last + 1) : cut).trim() + "…";
+  // Keep concise for the meaning panel (and GitHub file-size limits)
+  return trunc(sense, 280);
 }
 
 function makeCommentary(sense: string, scriptureId: string): string {
@@ -93,12 +102,51 @@ function makeCommentary(sense: string, scriptureId: string): string {
       "Plain sense of this Vidura Niti counsel (K.M. Ganguli, public domain): ",
     durgasaptashati:
       "Plain sense of this Devi Mahatmyam verse (F.E. Pargiter, public domain): ",
+    manusmriti:
+      "Plain sense of this Manusmriti verse (G. Bühler, SBE, public domain): ",
+    yajurveda:
+      "Plain sense of this Yajur Veda mantra (R.T.H. Griffith, public domain): ",
+    atharvaveda:
+      "Plain sense of this Atharva Veda mantra (R.T.H. Griffith, public domain): ",
+    mahabharata:
+      "Plain sense of this Mahabharata verse (K.M. Ganguli, public domain): ",
+    markandeypuran:
+      "Plain sense of this Markandeya Purana verse (F.E. Pargiter, public domain): ",
+    vishnupurana:
+      "Plain sense of this Vishnu Purana verse (public-domain English rendering): ",
+    harivanshpuran:
+      "Plain sense of this Harivamsha verse (M.N. Dutt, public domain): ",
+    narasimhapuran:
+      "Plain sense of this Narasimha Purana verse (public-domain English rendering): ",
+    // Major Puranas seeded from Tagare / Motilal / archive OCR (public domain)
+    agnipuran:
+      "Plain sense of this Agni Purana verse (public-domain English rendering): ",
+    garudpurana:
+      "Plain sense of this Garuda Purana verse (public-domain English rendering): ",
+    shivpurana:
+      "Plain sense of this Shiva Purana verse (public-domain English rendering): ",
+    brahmapuran:
+      "Plain sense of this Brahma Purana verse (public-domain English rendering): ",
+    brahmandpuran:
+      "Plain sense of this Brahmanda Purana verse (public-domain English rendering): ",
+    naradapuran:
+      "Plain sense of this Narada Purana verse (public-domain English rendering): ",
+    matsyapuran:
+      "Plain sense of this Matsya Purana verse (public-domain English rendering): ",
+    vayupuran:
+      "Plain sense of this Vayu Purana verse (public-domain English rendering): ",
+    lingapuran:
+      "Plain sense of this Linga Purana verse (public-domain English rendering): ",
+    skandapuran:
+      "Plain sense of this Skanda Purana verse (public-domain English rendering): ",
+    kurmapuran:
+      "Plain sense of this Kurma Purana verse (public-domain English rendering): ",
+    vamanpuran:
+      "Plain sense of this Vamana Purana verse (public-domain English rendering): ",
   };
-  const prefix = lead[scriptureId] ?? "Plain sense of this verse: ";
-  // Avoid doubling if sense already starts similarly
-  if (/^plain sense/i.test(sense)) return sense;
-  const body = sense.length > 900 ? `${sense.slice(0, 897).trim()}…` : sense;
-  return prefix + body;
+  // Short lead keeps large corpora under GitHub's 100MB/file limit.
+  if (/^plain sense|^sense:/i.test(sense)) return trunc(sense, 320);
+  return `Sense: ${trunc(sense, 280)}`;
 }
 
 function processScripture(id: string): {
@@ -141,9 +189,8 @@ function processScripture(id: string): {
         v.wordMeaning = makeWordMeaning(sense);
       }
       if (!hasC) {
-        const note = makeCommentary(sense, id);
-        v.commentary = note;
-        v.explanation = note;
+        // Only commentary (UI falls back here). Skip explanation to avoid 2× storage.
+        v.commentary = makeCommentary(sense, id);
       }
       filled++;
     }
