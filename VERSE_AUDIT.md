@@ -10,8 +10,8 @@ _Per-verse field completeness across the published scripture JSON corpus._
 | Declared verses | 183,150 |
 | Loaded verses | 183,150 |
 | Not-yet-loaded verses | 0 |
-| Empty commentary / explanation | 180,531 |
-| Empty word meaning | 180,531 |
+| Empty commentary / explanation | 178,716 |
+| Empty word meaning | 178,716 |
 | Critical gaps (core text) | 0 |
 | Duplicate verse refs | 0 (0 scriptures) |
 
@@ -36,10 +36,10 @@ _Per-verse field completeness across the published scripture JSON corpus._
 | brahmapuran | Brahma Purana | 13443 | 13443 | 0 | 0 | 0 | 0 | 0 | 13435 | 13435 |
 | brahmasutra | Brahma Sutra | 34 | 34 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | brahmavaivartapuran | Brahmavaivarta Purana | 11 | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| brihadaranyaka | Brihadaranyaka Upanishad | 397 | 397 | 0 | 0 | 0 | 0 | 0 | 356 | 356 |
-| chandogya | Chandogya Upanishad | 618 | 618 | 0 | 0 | 0 | 0 | 0 | 565 | 565 |
+| brihadaranyaka | Brihadaranyaka Upanishad | 397 | 397 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| chandogya | Chandogya Upanishad | 618 | 618 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | devibhagavat | Devi Bhagavata Purana | 118 | 118 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| durgasaptashati | Durga Saptashati | 634 | 634 | 0 | 0 | 0 | 0 | 618 | 618 | 618 |
+| durgasaptashati | Durga Saptashati | 634 | 634 | 0 | 0 | 0 | 0 | 618 | 0 | 0 |
 | garudpurana | Garuda Purana | 11877 | 11877 | 0 | 0 | 0 | 0 | 0 | 11866 | 11866 |
 | harivanshpuran | Harivamsha Purana | 5870 | 5870 | 0 | 0 | 0 | 0 | 0 | 5861 | 5861 |
 | ishavasya | Isha Upanishad | 26 | 26 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -83,7 +83,7 @@ _Per-verse field completeness across the published scripture JSON corpus._
 | vamanpuran | Vamana Purana | 5558 | 5558 | 0 | 0 | 0 | 0 | 0 | 5548 | 5548 |
 | varahapuran | Varaha Purana | 10 | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | vayupuran | Vayu Purana | 7641 | 7641 | 0 | 0 | 0 | 0 | 0 | 7622 | 7622 |
-| viduraniti | Vidura Niti | 299 | 299 | 0 | 0 | 0 | 0 | 0 | 276 | 276 |
+| viduraniti | Vidura Niti | 299 | 299 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | vinayapatrika | Vinaya Patrika | 13 | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | vishnupurana | Vishnu Purana | 5488 | 5488 | 0 | 0 | 0 | 0 | 0 | 5480 | 5480 |
 | vivekchudamani | Vivekachudamani | 18 | 18 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -118,10 +118,6 @@ These are the scriptures that have verse records but are missing explanatory con
 | narasimhapuran | Narasimha Purana | 3361 | 3337 | 3337 |
 | yajurveda | Yajur Veda | 1809 | 1800 | 1800 |
 | manusmriti | Manusmriti | 1801 | 1769 | 1769 |
-| durgasaptashati | Durga Saptashati | 634 | 618 | 618 |
-| chandogya | Chandogya Upanishad | 618 | 565 | 565 |
-| brihadaranyaka | Brihadaranyaka Upanishad | 397 | 356 | 356 |
-| viduraniti | Vidura Niti | 299 | 276 | 276 |
 
 ### Sample verse references with missing commentary
 
@@ -150,7 +146,7 @@ These are the scriptures that have verse records but are missing explanatory con
 
 | Scripture | Title | Declared | Loaded | Missing | ∅ Sanskrit | ∅ Transliteration | ∅ Translation | ∅ Hindi | ∅ Commentary | ∅ Word Meaning |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| durgasaptashati | Durga Saptashati | 634 | 634 | 0 | 0 | 0 | 0 | 618 | 618 | 618 |
+| durgasaptashati | Durga Saptashati | 634 | 634 | 0 | 0 | 0 | 0 | 618 | 0 | 0 |
 
 ### Critical gap references
 
