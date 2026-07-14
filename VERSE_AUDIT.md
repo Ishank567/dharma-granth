@@ -10,7 +10,7 @@ _Per-verse field completeness across the published scripture JSON corpus._
 | Declared verses | 183,150 |
 | Loaded verses | 183,150 |
 | Not-yet-loaded verses | 0 |
-| Empty commentary / explanation | 180,801 |
+| Empty commentary / explanation | 180,531 |
 | Empty word meaning | 180,531 |
 | Critical gaps (core text) | 0 |
 | Duplicate verse refs | 0 (0 scriptures) |
@@ -30,7 +30,7 @@ _Per-verse field completeness across the published scripture JSON corpus._
 | aitareya | Aitareya Upanishad | 46 | 46 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | amritabindu | Amrita-Bindu Upanishad | 22 | 22 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | atharvaveda | Atharva Veda | 5627 | 5627 | 0 | 0 | 0 | 0 | 0 | 5598 | 5598 |
-| bhagavadgita | Bhagavad Gita | 644 | 644 | 0 | 0 | 0 | 0 | 0 | 270 | 0 |
+| bhagavadgita | Bhagavad Gita | 644 | 644 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | bhagavatapurana | Bhagavata Purana | 106 | 106 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | brahmandpuran | Brahmanda Purana | 13496 | 13496 | 0 | 0 | 0 | 0 | 0 | 13485 | 13485 |
 | brahmapuran | Brahma Purana | 13443 | 13443 | 0 | 0 | 0 | 0 | 0 | 13435 | 13435 |
@@ -122,7 +122,6 @@ These are the scriptures that have verse records but are missing explanatory con
 | chandogya | Chandogya Upanishad | 618 | 565 | 565 |
 | brihadaranyaka | Brihadaranyaka Upanishad | 397 | 356 | 356 |
 | viduraniti | Vidura Niti | 299 | 276 | 276 |
-| bhagavadgita | Bhagavad Gita | 644 | 270 | 0 |
 
 ### Sample verse references with missing commentary
 
