@@ -10,8 +10,8 @@ _Per-verse field completeness across the published scripture JSON corpus._
 | Declared verses | 183,150 |
 | Loaded verses | 183,150 |
 | Not-yet-loaded verses | 0 |
-| Empty commentary / explanation | 180,802 |
-| Empty word meaning | 180,532 |
+| Empty commentary / explanation | 180,801 |
+| Empty word meaning | 180,531 |
 | Critical gaps (core text) | 0 |
 | Duplicate verse refs | 0 (0 scriptures) |
 
@@ -29,7 +29,7 @@ _Per-verse field completeness across the published scripture JSON corpus._
 | agnipuran | Agni Purana | 11043 | 11043 | 0 | 0 | 0 | 0 | 0 | 11034 | 11034 |
 | aitareya | Aitareya Upanishad | 46 | 46 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | amritabindu | Amrita-Bindu Upanishad | 22 | 22 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| atharvaveda | Atharva Veda | 5627 | 5627 | 0 | 0 | 5598 | 0 | 0 | 5598 | 5598 |
+| atharvaveda | Atharva Veda | 5627 | 5627 | 0 | 0 | 0 | 0 | 0 | 5598 | 5598 |
 | bhagavadgita | Bhagavad Gita | 644 | 644 | 0 | 0 | 0 | 0 | 0 | 270 | 0 |
 | bhagavatapurana | Bhagavata Purana | 106 | 106 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | brahmandpuran | Brahmanda Purana | 13496 | 13496 | 0 | 0 | 0 | 0 | 0 | 13485 | 13485 |
@@ -51,7 +51,7 @@ _Per-verse field completeness across the published scripture JSON corpus._
 | kena | Kena Upanishad | 40 | 40 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | kurmapuran | Kurma Purana | 5572 | 5572 | 0 | 0 | 0 | 0 | 0 | 5560 | 5560 |
 | lingapuran | Linga Purana | 6726 | 6726 | 0 | 0 | 0 | 0 | 0 | 6712 | 6712 |
-| mahabharata | Mahabharata | 32540 | 32540 | 0 | 0 | 32470 | 0 | 0 | 32470 | 32470 |
+| mahabharata | Mahabharata | 32540 | 32540 | 0 | 0 | 0 | 0 | 0 | 32470 | 32470 |
 | mahanarayana | Mahanarayana Upanishad | 14 | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | maitri | Maitri Upanishad | 15 | 15 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | mandukya | Mandukya Upanishad | 22 | 22 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -78,7 +78,7 @@ _Per-verse field completeness across the published scripture JSON corpus._
 | shivpurana | Shiva Purana | 12977 | 12977 | 0 | 0 | 0 | 0 | 0 | 12954 | 12954 |
 | shvetashvatara | Shvetashvatara Upanishad | 21 | 21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | skandapuran | Skanda Purana | 6468 | 6468 | 0 | 0 | 0 | 0 | 0 | 6444 | 6444 |
-| taittiriya | Taittiriya Upanishad | 44 | 44 | 0 | 0 | 0 | 0 | 0 | 1 | 1 |
+| taittiriya | Taittiriya Upanishad | 44 | 44 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | tejobindu | Tejobindu Upanishad | 14 | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | vamanpuran | Vamana Purana | 5558 | 5558 | 0 | 0 | 0 | 0 | 0 | 5548 | 5548 |
 | varahapuran | Varaha Purana | 10 | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -87,7 +87,7 @@ _Per-verse field completeness across the published scripture JSON corpus._
 | vinayapatrika | Vinaya Patrika | 13 | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | vishnupurana | Vishnu Purana | 5488 | 5488 | 0 | 0 | 0 | 0 | 0 | 5480 | 5480 |
 | vivekchudamani | Vivekachudamani | 18 | 18 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| yajurveda | Yajur Veda | 1809 | 1809 | 0 | 0 | 1800 | 0 | 0 | 1800 | 1800 |
+| yajurveda | Yajur Veda | 1809 | 1809 | 0 | 0 | 0 | 0 | 0 | 1800 | 1800 |
 | yogarasayanam | Yoga Rasayanam | 11 | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | yogavasishtha | Yoga Vasishtha | 6 | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | yogavasistha | Yoga Vasistha | 14 | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -123,7 +123,6 @@ These are the scriptures that have verse records but are missing explanatory con
 | brihadaranyaka | Brihadaranyaka Upanishad | 397 | 356 | 356 |
 | viduraniti | Vidura Niti | 299 | 276 | 276 |
 | bhagavadgita | Bhagavad Gita | 644 | 270 | 0 |
-| taittiriya | Taittiriya Upanishad | 44 | 1 | 1 |
 
 ### Sample verse references with missing commentary
 
@@ -152,10 +151,7 @@ These are the scriptures that have verse records but are missing explanatory con
 
 | Scripture | Title | Declared | Loaded | Missing | ∅ Sanskrit | ∅ Transliteration | ∅ Translation | ∅ Hindi | ∅ Commentary | ∅ Word Meaning |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| atharvaveda | Atharva Veda | 5627 | 5627 | 0 | 0 | 5598 | 0 | 0 | 5598 | 5598 |
 | durgasaptashati | Durga Saptashati | 634 | 634 | 0 | 0 | 0 | 0 | 618 | 618 | 618 |
-| mahabharata | Mahabharata | 32540 | 32540 | 0 | 0 | 32470 | 0 | 0 | 32470 | 32470 |
-| yajurveda | Yajur Veda | 1809 | 1809 | 0 | 0 | 1800 | 0 | 0 | 1800 | 1800 |
 
 ### Critical gap references
 
