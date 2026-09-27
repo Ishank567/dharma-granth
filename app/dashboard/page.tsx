@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { Flame, BookOpen, Bookmark, Award, ArrowRight, TrendingUp, FolderOpen, Highlighter, StickyNote } from 'lucide-react';
 import { useStudyProgress } from '@/lib/useStudyProgress';
 import { DailyVerse } from '@/app/components/DailyVerse';
+import { PinterestWisdom } from '@/app/components/PinterestWisdom';
 import { FadeUp, FadeUpOnView, Stagger, StaggerItem } from '@/app/components/motion/primitives';
 import { pathways } from '@/data/pathways';
 import { quizzes } from '@/data/quizzes';
@@ -105,6 +106,9 @@ export default function DashboardPage() {
 
         {/* Daily Verse */}
         <DailyVerse />
+
+        {/* Pinterest Wisdom */}
+        <PinterestWisdom />
 
         {/* Learning Pathways */}
         <FadeUpOnView>
