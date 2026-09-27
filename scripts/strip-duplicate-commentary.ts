@@ -14,6 +14,10 @@
  * Curated thematic notes (which do repeat across highlight verses) and
  * genuine 1–5× notes are left untouched. No verse counts change.
  *
+ * Also removes `wordMeaning` wherever it is an exact copy of `translation`:
+ * the seed scripts filled it by copying the translation, so the reader showed
+ * the same English twice (अनुवाद and सरल अर्थ).
+ *
  *   npx tsx scripts/strip-duplicate-commentary.ts          (dry-run)
  *   npx tsx scripts/strip-duplicate-commentary.ts --write
  *   npm run shard:scriptures   (afterwards, to refresh ch-*.json shards)
@@ -35,6 +39,8 @@ const DUP_THRESHOLD = 6;
 interface Verse {
   number?: number | string;
   commentary?: string;
+  translation?: string;
+  wordMeaning?: string;
   [k: string]: unknown;
 }
 interface Scripture {
@@ -55,6 +61,7 @@ function isBulkTranslatorNote(value: string): boolean {
 function main(): void {
   const files = readdirSync(DIR).filter((f) => f.endsWith(".json")).sort();
   let totalStripped = 0;
+  let totalMeaning = 0;
   let bytesSaved = 0;
 
   for (const file of files) {
@@ -71,9 +78,8 @@ function main(): void {
     for (const [value, n] of freq) {
       if (n >= DUP_THRESHOLD && isBulkTranslatorNote(value)) junk.add(value);
     }
-    if (!junk.size) continue;
-
     let stripped = 0;
+    let meaning = 0;
     for (const ch of doc.chapters) {
       for (const v of ch.verses) {
         const c = (v.commentary || "").trim();
@@ -82,14 +88,23 @@ function main(): void {
           delete v.commentary;
           stripped++;
         }
+        const w = (v.wordMeaning || "").trim();
+        if (w && w === (v.translation || "").trim()) {
+          bytesSaved += Buffer.byteLength(JSON.stringify(w));
+          delete v.wordMeaning;
+          meaning++;
+        }
       }
     }
+    if (!stripped && !meaning) continue;
     totalStripped += stripped;
+    totalMeaning += meaning;
     const keptDup = [...freq.entries()].filter(
       ([v, n]) => n >= DUP_THRESHOLD && !junk.has(v),
     ).length;
     console.log(
-      `${doc.id}: stripped ${stripped} bulk notes (${junk.size} distinct)` +
+      `${doc.id}: stripped ${stripped} bulk notes (${junk.size} distinct), ` +
+        `${meaning} wordMeaning copies of translation` +
         `${keptDup ? `; kept ${keptDup} curated repeated notes` : ""}`,
     );
 
@@ -103,7 +118,8 @@ function main(): void {
   }
 
   console.log(
-    `\n${WRITE ? "Wrote" : "Would strip"} ${totalStripped} commentary fields ` +
+    `\n${WRITE ? "Wrote" : "Would strip"} ${totalStripped} commentary fields, ` +
+      `${totalMeaning} wordMeaning copies ` +
       `(~${(bytesSaved / 1024 / 1024).toFixed(1)}MB) across ${files.length} scriptures.`,
   );
 }
