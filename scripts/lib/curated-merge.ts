@@ -101,12 +101,6 @@ export function findCuratedVerse(
   index: number,
   chapterNumber?: number,
 ): CuratedVerse | undefined {
-  if (chapterNumber !== undefined) {
-    const key = canonicalVerseId(chapterNumber, pubVerse.number);
-    const byStructure = curatedVerses.find((v) => String(v.id) === key);
-    if (byStructure) return byStructure;
-  }
-
   const pubFp = sanskritFingerprint(pubVerse.sanskrit ?? "");
   const pubTr = transliterationFingerprint(pubVerse.transliteration ?? "");
 
@@ -119,7 +113,14 @@ export function findCuratedVerse(
     const byOverlap = curatedVerses.find((v) => {
       const cv = sanskritFingerprint(v.sanskrit ?? "", 80);
       if (!cv) return false;
-      return pubFp.startsWith(cv.slice(0, 40)) || cv.startsWith(pubFp.slice(0, 40));
+      const pubStart = pubFp.slice(0, 40);
+      const curatedStart = cv.slice(0, 40);
+      return (
+        pubFp.startsWith(curatedStart) ||
+        cv.startsWith(pubStart) ||
+        pubFp.includes(curatedStart) ||
+        cv.includes(pubStart)
+      );
     });
     if (byOverlap) return byOverlap;
 
@@ -148,16 +149,51 @@ export function findCuratedVerse(
     if (byTr) return byTr;
   }
 
+  // Numbering is only a fallback. Some seeded texts split speakers and half
+  // verses into separate records, so a matching chapter/verse number can
+  // still refer to different Sanskrit (Durga Saptashati is one example).
+  if (chapterNumber !== undefined) {
+    const key = canonicalVerseId(chapterNumber, pubVerse.number);
+    const byStructure = curatedVerses.find((v) => String(v.id) === key);
+    if (byStructure) {
+      const curatedFp = sanskritFingerprint(byStructure.sanskrit ?? "");
+      if (
+        !pubFp ||
+        !curatedFp ||
+        pubFp.startsWith(curatedFp.slice(0, 20)) ||
+        curatedFp.startsWith(pubFp.slice(0, 20)) ||
+        pubFp.includes(curatedFp.slice(0, 20)) ||
+        curatedFp.includes(pubFp.slice(0, 20))
+      ) {
+        return byStructure;
+      }
+    }
+  }
+
   const key = verseLookupKey(pubVerse.number);
   const byId = curatedVerses.find((v) => String(v.id) === key);
   if (byId) {
     const curatedFp = sanskritFingerprint(byId.sanskrit ?? "");
-    if (!pubFp || !curatedFp || pubFp.startsWith(curatedFp.slice(0, 20)) || curatedFp.startsWith(pubFp.slice(0, 20))) {
+    if (
+      !pubFp ||
+      !curatedFp ||
+      pubFp.startsWith(curatedFp.slice(0, 20)) ||
+      curatedFp.startsWith(pubFp.slice(0, 20)) ||
+      pubFp.includes(curatedFp.slice(0, 20)) ||
+      curatedFp.includes(pubFp.slice(0, 20))
+    ) {
       return byId;
     }
   }
 
-  if (index >= 0 && index < curatedVerses.length) return curatedVerses[index];
+  // Positional fallback is safe only when neither side provides text that can
+  // be validated. Never overwrite a real verse with a different curated one.
+  if (!pubFp && !pubTr && index >= 0 && index < curatedVerses.length) {
+    const candidate = curatedVerses[index];
+    if (!candidate.sanskrit?.trim() && !candidate.transliteration?.trim()) {
+      return candidate;
+    }
+  }
 
   return undefined;
 }

@@ -22,7 +22,7 @@
     "seed:gretil": "tsx scripts/seed-gretil.ts",
     "seed:all": "npm run seed:gita && npm run seed:ramayana && npm run seed:ramcharitmanas && npm run seed:vedas && npm run seed:upanishads && npm run seed:mahabharata && npm run seed:puranas && npm run seed:missing && npm run seed:gretil",
     "og:build": "tsx scripts/generate-og-images.ts",
-    "check": "tsx scripts/check-data.ts && tsx scripts/check-commentary-quality.ts",
+    "check": "tsx scripts/check-data.ts && tsx scripts/check-commentary-quality.ts && tsx scripts/check-published-scriptures.ts",
     "check:commentary": "tsx scripts/check-commentary-quality.ts",
     "strip:commentary-boilerplate": "tsx scripts/strip-commentary-boilerplate.ts",
     "generate:hi-analysis": "tsx scripts/generate-hi-analysis.ts && tsx scripts/generate-analysis-index.ts",
@@ -79,7 +79,9 @@
     "seed:mahabharata-translations": "tsx scripts/seed-mahabharata-translations.ts",
     "seed:mahabharata-hindi": "tsx scripts/seed-mahabharata-hindi.ts",
     "migrate:devanagari": "tsx scripts/migrate-romanize-to-devanagari.ts",
-    "test:parser": "tsx scripts/test-itrans-parser.ts"
+    "fix:translation-artifacts": "tsx scripts/fix-editorial-translation-artifacts.ts",
+    "test:parser": "tsx scripts/test-itrans-parser.ts",
+    "fetch:pinterest": "tsx scripts/fetch-pinterest-pins.ts"
   },
   "dependencies": {
     "@fontsource/inter": "^5.2.8",

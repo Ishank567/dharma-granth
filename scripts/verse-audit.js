@@ -17,7 +17,41 @@ function looksLikePlaceholder(value) {
   if (/^translation\s*(not available|pending|coming soon|todo|tbd)/i.test(v)) return true;
   if (/^commentary\s*(not available|pending|coming soon|todo|tbd)/i.test(v)) return true;
   if (/^explanation\s*(not available|pending|coming soon|todo|tbd)/i.test(v)) return true;
+  if (/^go directly to\b/i.test(v)) return true;
+  if (/^(?:previous|next)(?: page)?:/i.test(v)) return true;
+  if (/^footnotes?(?: and references?)?[.:]?$/i.test(v)) return true;
+  if (/^the (?:bombay|calcutta) edition\b/i.test(v)) return true;
+  if (/^for .{1,100} read .{1,100}\.?$/i.test(v)) return true;
+  if (/\uFFFD|\?{3,}/.test(v)) return true;
   return false;
+}
+
+// Keep this plain-JS copy aligned with scripts/lib/translation-quality.ts so
+// the audit can run directly with Node.
+function translationQualityIssue(value, sanskrit = "") {
+  if (value == null || String(value).trim().length < 4) return "missing translation";
+
+  const text = String(value).trim();
+  if (looksLikePlaceholder(text)) return "translation placeholder";
+  if (/^https?:\/\//i.test(text)) return "source URL";
+  if (/^(?:canto|chapter|book|part)\s+[ivxlcdm\d]+\.?$/i.test(text)) return "section heading";
+  if (/^(?:(?:p|pp|v|vs|mt|vol|volume|note|fn)\.?\s*)?\d+(?:[.\s:,-]+\d+){1,6}\.?$/i.test(text)) {
+    return "editorial citation";
+  }
+  if (/^[A-Z]{2,}(?:\s+[A-Z]{2,}){0,3}[.!]?$/.test(text)) return "OCR gibberish";
+  if (/[£¤]/.test(text)) return "OCR gibberish";
+  if (/<\/?[a-z][^>]*>/i.test(text)) return "HTML markup";
+  if (/\uFFFD|\?{3,}/.test(text)) return "encoding corruption";
+
+  const sourceLength = String(sanskrit || "").replace(/\s+/g, "").length;
+  const wordCount = (text.match(/[\p{L}\p{N}]+/gu) || []).length;
+  if (sourceLength > 40 && text.length < 30 && wordCount <= 3) {
+    return "implausibly short for one verse";
+  }
+  if (text.length > 800 && sourceLength > 0 && text.length > sourceLength * 15) {
+    return "implausibly long for one verse";
+  }
+  return undefined;
 }
 
 function commentaryOf(v) {
@@ -39,6 +73,8 @@ let grandLoaded = 0;
 let grandMissing = 0;
 let grandEmptyCommentary = 0;
 let grandEmptyWordMeaning = 0;
+let grandEmptyHindi = 0;
+let grandUnusableTranslation = 0;
 
 for (const file of files) {
   const data = JSON.parse(fs.readFileSync(path.join(baseDir, file), "utf8"));
@@ -48,10 +84,12 @@ for (const file of files) {
   let emptySanskrit = 0;
   let emptyTransliteration = 0;
   let emptyTranslation = 0;
+  let unusableTranslation = 0;
   let emptyHindi = 0;
   let emptyCommentary = 0;
   let emptyWordMeaning = 0;
   const commentarySamples = [];
+  const translationSamples = [];
   const verseRefCounts = {};
 
   for (const ch of data.chapters || []) {
@@ -63,7 +101,20 @@ for (const file of files) {
 
       if (isBlank(v.sanskrit)) emptySanskrit++;
       if (isBlank(v.transliteration)) emptyTransliteration++;
-      if (looksLikePlaceholder(v.translation)) emptyTranslation++;
+      const translationIssue = translationQualityIssue(v.translation, v.sanskrit);
+      if (translationIssue === "missing translation" || translationIssue === "translation placeholder") {
+        emptyTranslation++;
+      }
+      if (translationIssue) {
+        unusableTranslation++;
+        if (translationSamples.length < 3) {
+          translationSamples.push({
+            ref: `${id}:${chNum}:${v.number}`,
+            issue: translationIssue,
+            snippet: String(v.translation || "").slice(0, 100).replace(/\n/g, " "),
+          });
+        }
+      }
       if (isBlank(v.hindi)) emptyHindi++;
       const c = commentaryOf(v);
       if (isBlank(c)) {
@@ -74,7 +125,7 @@ for (const file of files) {
       }
       if (isBlank(v.wordMeaning)) emptyWordMeaning++;
 
-      if (isBlank(v.sanskrit) || looksLikePlaceholder(v.translation)) {
+      if (isBlank(v.sanskrit) || translationIssue) {
         criticalGaps.push({
           id,
           chapter: chNum,
@@ -82,7 +133,8 @@ for (const file of files) {
           ref,
           occurrence: verseRefCounts[ref],
           sanskrit: isBlank(v.sanskrit),
-          translation: looksLikePlaceholder(v.translation),
+          translation: Boolean(translationIssue),
+          translationIssue,
           snippet: String(v.sanskrit || v.translation || "").slice(0, 60).replace(/\n/g, " "),
         });
       }
@@ -101,6 +153,8 @@ for (const file of files) {
   grandMissing += Math.max(0, total - loaded);
   grandEmptyCommentary += emptyCommentary;
   grandEmptyWordMeaning += emptyWordMeaning;
+  grandEmptyHindi += emptyHindi;
+  grandUnusableTranslation += unusableTranslation;
 
   rows.push({
     id,
@@ -111,10 +165,12 @@ for (const file of files) {
     emptySanskrit,
     emptyTransliteration,
     emptyTranslation,
+    unusableTranslation,
     emptyHindi,
     emptyCommentary,
     emptyWordMeaning,
     commentarySamples,
+    translationSamples,
   });
 
   if (emptyCommentary > 0 || emptyWordMeaning > 0) {
@@ -145,6 +201,7 @@ const summaryColumns = [
   { label: "∅ Sanskrit", get: (r) => String(r.emptySanskrit) },
   { label: "∅ Transliteration", get: (r) => String(r.emptyTransliteration) },
   { label: "∅ Translation", get: (r) => String(r.emptyTranslation) },
+  { label: "Unusable Translation", get: (r) => String(r.unusableTranslation) },
   { label: "∅ Hindi", get: (r) => String(r.emptyHindi) },
   { label: "∅ Commentary", get: (r) => String(r.emptyCommentary) },
   { label: "∅ Word Meaning", get: (r) => String(r.emptyWordMeaning) },
@@ -155,7 +212,11 @@ const rowsWithCommentaryGaps = rows
   .sort((a, b) => b.emptyCommentary - a.emptyCommentary);
 
 const criticalRows = rows.filter(
-  (r) => r.emptySanskrit > 0 || r.emptyTranslation > 0 || r.emptyTransliteration > 0 || r.emptyHindi > 0
+  (r) => r.emptySanskrit > 0 || r.unusableTranslation > 0
+);
+const translationGapRows = rows.filter((r) => r.unusableTranslation > 0);
+const supportingGapRows = rows.filter(
+  (r) => r.emptyTransliteration > 0 || r.emptyHindi > 0
 );
 
 const lines = [
@@ -173,6 +234,7 @@ const lines = [
   `| Not-yet-loaded verses | ${grandMissing.toLocaleString()} |`,
   `| Empty commentary / explanation | ${grandEmptyCommentary.toLocaleString()} |`,
   `| Empty word meaning | ${grandEmptyWordMeaning.toLocaleString()} |`,
+  `| Empty Hindi | ${grandEmptyHindi.toLocaleString()} |`,
   `| Critical gaps (core text) | ${criticalGaps.length} |`,
   `| Duplicate verse refs | ${duplicateVerseRefs.reduce((sum, d) => sum + d.count, 0).toLocaleString()} (${duplicateVerseRefs.length} scriptures) |`,
   "",
@@ -180,6 +242,7 @@ const lines = [
   "",
   "- **Missing** = `totalVerses` minus actually loaded verses. These scriptures are represented by curated highlights rather than full texts.",
   "- **Critical gaps** are verses missing `sanskrit` or English `translation` (the fields required for rendering a verse at all).",
+  "- **Supporting-language gaps** are missing transliteration or Hindi; these do not make the core verse unreadable.",
   "- **Commentary gaps** count both `commentary` and `explanation` fields as empty.",
   "- **Word meaning gaps** count empty `wordMeaning` fields.",
   "",
@@ -244,6 +307,15 @@ if (criticalRows.length === 0) {
   if (criticalGaps.length > listed) {
     lines.push(`- ... and ${criticalGaps.length - listed} more.`);
   }
+}
+
+lines.push("");
+lines.push("## Scriptures with supporting-language gaps");
+lines.push("");
+if (supportingGapRows.length === 0) {
+  lines.push("No transliteration or Hindi gaps found.");
+} else {
+  lines.push(mdTable(supportingGapRows, summaryColumns));
 }
 
 lines.push("");
