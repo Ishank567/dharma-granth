@@ -39,6 +39,8 @@ export type { SearchResultItem } from '@/lib/search';
 interface Props {
   isOpen: boolean;
   onClose: () => void;
+  /** Prefills the search box when the modal opens (e.g. from the home hero). */
+  initialQuery?: string;
 }
 
 const RECOMMENDED_IDS = [
@@ -149,7 +151,7 @@ function highlight(text: string, tokens: string[]): ReactNode {
   );
 }
 
-export function GlobalSearchModal({ isOpen, onClose }: Props) {
+export function GlobalSearchModal({ isOpen, onClose, initialQuery = '' }: Props) {
   const router = useRouter();
   const reduce = useReducedMotion();
   const [query, setQuery] = useState('');
@@ -173,15 +175,21 @@ export function GlobalSearchModal({ isOpen, onClose }: Props) {
     };
   }, [isOpen, chaptersReady]);
 
-  // Reset and focus on open
+  // Reset (to any prefilled query) and focus on open
   useEffect(() => {
     if (!isOpen) return;
-    setQuery('');
+    setQuery(initialQuery);
     setCategory(null);
     setSelectedIndex(0);
-    const t = setTimeout(() => inputRef.current?.focus(), 50);
+    const t = setTimeout(() => {
+      const input = inputRef.current;
+      if (!input) return;
+      input.focus();
+      // Caret at the end so a prefilled query can be refined straight away.
+      input.setSelectionRange(input.value.length, input.value.length);
+    }, 50);
     return () => clearTimeout(t);
-  }, [isOpen]);
+  }, [isOpen, initialQuery]);
 
   // Lock body scroll when open
   useEffect(() => {

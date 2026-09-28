@@ -10,54 +10,10 @@ import { getBookExplanation } from '@/data/book-explanations';
 import { getScripture, getScriptureMeta, getAllScriptures } from '@/data/scriptures';
 import { ArrowLeft } from 'lucide-react';
 
+import { ChapterPreview, readSeededChapterPreviews } from '@/lib/read-seeded-chapters';
+
 interface PageProps {
   params: { id: string };
-}
-
-interface ChapterPreview {
-  id: number;
-  title: string;
-  titleSanskrit?: string;
-  summary?: string;
-  verseCount: number;
-}
-
-function readSeededChapterPreviews(scriptureId: string): ChapterPreview[] {
-  try {
-    const filePath = resolve(
-      process.cwd(),
-      'public/data/scriptures-full',
-      `${scriptureId}.json`,
-    );
-    if (!existsSync(filePath)) return [];
-    const data = JSON.parse(readFileSync(filePath, 'utf8')) as {
-      chapters?: Array<{
-        number?: number | string;
-        title?: string;
-        titleSanskrit?: string;
-        verses?: unknown[];
-      }>;
-    };
-
-    const previews: ChapterPreview[] = [];
-    for (const chapter of data.chapters ?? []) {
-      const id =
-        typeof chapter.number === 'number'
-          ? chapter.number
-          : Number(chapter.number);
-      if (!Number.isFinite(id)) continue;
-      previews.push({
-        id,
-        title: chapter.title || `अध्याय ${id}`,
-        titleSanskrit: chapter.titleSanskrit,
-        summary: 'मुक्त-स्रोत संग्रह से पूर्ण मूल पाठ उपलब्ध है।',
-        verseCount: chapter.verses?.length ?? 0,
-      });
-    }
-    return previews;
-  } catch {
-    return [];
-  }
 }
 
 export function generateStaticParams() {

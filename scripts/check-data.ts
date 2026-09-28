@@ -10,6 +10,9 @@
  *   - seeded JSON chapter numbers that don't align with curated chapter IDs
  *     (the FullChapterVerses dedup silently fails when these drift)
  *   - curated verses missing core fields
+ *   - the same Sanskrit verse filed in two slots (strict for the Gita,
+ *     ratcheted against a baseline for other texts)
+ *   - Bhagavad Gita verse counts differing from the canonical 18-chapter shape
  *
  * Run: npm run check
  * Exit non-zero if any failure — wire into CI before `npm run build`.
@@ -20,9 +23,12 @@ import { scriptureCatalog } from "../data/scripture-meta";
 import {
   getAllScriptures,
   getScripture,
+  getScriptureChapters,
   getScriptureMeta,
 } from "../data/scriptures";
+import { bhagavadGita } from "../data/scriptures/bhagavadgita";
 import type { Scripture, ScriptureMeta } from "../data/types";
+import { GITA_CANONICAL_VERSE_COUNTS, normalizeVerseText } from "./lib/verse-identity";
 
 const ROOT = resolve(__dirname, "..");
 const OG_DIR = resolve(ROOT, "public/og");
@@ -135,7 +141,169 @@ function checkOgImages(): void {
 
 interface FullScriptureJson {
   id: string;
-  chapters: Array<{ number: number; verses: Array<{ number: number | string }> }>;
+  chapters: Array<{
+    number: number;
+    verses: Array<{ number: number | string; sanskrit?: string }>;
+  }>;
+}
+
+/** Shorter normalized texts (refrains, "ॐ शान्तिः…") legitimately recur. */
+const MIN_DUPLICATE_TEXT_LENGTH = 24;
+
+/**
+ * Cross-chapter duplicate verses that already existed when this check was
+ * added (2026-09) — they predate the Gita repair and come from the original
+ * seeds. Some are genuine repetitions (Vedic mantras, Upanishad passages
+ * quoted in several places); many look like the same-slot copy bug that hit
+ * the Gita (e.g. ramayana 1.1.21 = 2.1.2). This is a ratchet: counts may only
+ * go down. Lower an entry when you fix a text; never raise one.
+ */
+const KNOWN_CROSS_CHAPTER_DUPLICATES: Record<string, number> = {
+  agnipuran: 2,
+  aitareya: 13,
+  atharvaveda: 42,
+  bhagavatapurana: 91,
+  brahmandpuran: 5,
+  brahmapuran: 4,
+  brahmasutra: 12,
+  brihadaranyaka: 22,
+  chandogya: 44,
+  devibhagavat: 100,
+  garudpurana: 9,
+  harivanshpuran: 2,
+  kurmapuran: 7,
+  lingapuran: 11,
+  mahabharata: 61,
+  mahanarayana: 6,
+  maitri: 7,
+  manusmriti: 15,
+  markandeypuran: 8,
+  matsyapuran: 27,
+  muktika: 9,
+  naradapuran: 50,
+  narasimhapuran: 13,
+  ramayana: 74,
+  ramcharitmanas: 51,
+  rigveda: 39,
+  samaveda: 11,
+  shandilyabhaktisutra: 13,
+  shivpurana: 36,
+  shvetashvatara: 6,
+  skandapuran: 19,
+  taittiriya: 3,
+  tejobindu: 6,
+  vamanpuran: 4,
+  vayupuran: 20,
+  viduraniti: 10,
+  vishnupurana: 3,
+  vivekchudamani: 7,
+  yajurveda: 40,
+};
+
+/** Scriptures whose text must never repeat a verse anywhere, within a chapter or across. */
+const STRICT_NO_DUPLICATES = new Set(["bhagavadgita"]);
+
+function checkDuplicateVerses(id: string, data: FullScriptureJson): void {
+  const firstSeen = new Map<string, { chapter: number; ref: string }>();
+  const cross: string[] = [];
+  const within: string[] = [];
+  for (const chapter of data.chapters) {
+    for (const verse of chapter.verses) {
+      const text = normalizeVerseText(verse.sanskrit ?? "");
+      if (text.length < MIN_DUPLICATE_TEXT_LENGTH) continue;
+      const ref = `${chapter.number}.${verse.number}`;
+      const prev = firstSeen.get(text);
+      if (!prev) {
+        firstSeen.set(text, { chapter: chapter.number, ref });
+      } else if (prev.chapter === chapter.number) {
+        within.push(`${prev.ref} = ${ref}`);
+      } else {
+        cross.push(`${prev.ref} = ${ref}`);
+      }
+    }
+  }
+
+  const sample = (list: string[]) =>
+    list.slice(0, 5).join(", ") + (list.length > 5 ? ` … (+${list.length - 5})` : "");
+
+  if (STRICT_NO_DUPLICATES.has(id)) {
+    const all = cross.concat(within);
+    if (all.length > 0) {
+      error(id, `${all.length} verse(s) repeat the Sanskrit of another slot: ${sample(all)}`);
+    }
+    return;
+  }
+  const allowed = KNOWN_CROSS_CHAPTER_DUPLICATES[id] ?? 0;
+  if (cross.length > allowed) {
+    error(
+      id,
+      `${cross.length} cross-chapter duplicate verses (baseline ${allowed}) — the same Sanskrit ` +
+        `appears in two chapters: ${sample(cross)}`,
+    );
+  } else if (cross.length < allowed) {
+    warn(
+      id,
+      `cross-chapter duplicates dropped to ${cross.length} (baseline ${allowed}) — ` +
+        `lower KNOWN_CROSS_CHAPTER_DUPLICATES.${id} in scripts/check-data.ts`,
+    );
+  }
+}
+
+/**
+ * The Gita is the flagship text and was once silently corrupted by a
+ * position-based merge (commit 3a17ed9: 8.28 showed Gita 1.28). Pin it to the
+ * canonical shape, and require the curated .ts (not read at runtime, but the
+ * source other scripts merge from) to carry the same verse in every slot as
+ * the seeded JSON.
+ */
+function checkGitaCanonical(data: FullScriptureJson): void {
+  const id = "bhagavadgita";
+  const expected = GITA_CANONICAL_VERSE_COUNTS.join(",");
+  const countsOf = (chapters: Array<{ verses: unknown[] }>) =>
+    chapters.map((c) => c.verses.length).join(",");
+
+  const jsonCounts = countsOf(data.chapters);
+  if (jsonCounts !== expected) {
+    error(id, `seeded JSON verse counts per chapter [${jsonCounts}] ≠ canonical [${expected}]`);
+  }
+  const misnumbered = data.chapters.filter((c) =>
+    c.verses.some((v, i) => Number(v.number) !== i + 1),
+  );
+  if (misnumbered.length > 0) {
+    error(
+      id,
+      `seeded JSON verses are not numbered 1..N in chapter(s) ${misnumbered.map((c) => c.number).join(", ")}`,
+    );
+  }
+
+  const indexCounts = getScriptureChapters(id).map((c) => c.verseCount).join(",");
+  if (indexCounts !== expected) {
+    error(id, `public/data/chapters.json verse counts [${indexCounts}] ≠ canonical [${expected}]`);
+  }
+
+  const curated = bhagavadGita;
+  const curatedCounts = countsOf(curated.chapters);
+  if (curatedCounts !== expected) {
+    error(id, `curated .ts verse counts per chapter [${curatedCounts}] ≠ canonical [${expected}]`);
+  }
+  const jsonText = new Map<string, string>();
+  for (const c of data.chapters) {
+    for (const v of c.verses) jsonText.set(`${c.number}:${v.number}`, normalizeVerseText(v.sanskrit ?? ""));
+  }
+  const mismatched: string[] = [];
+  for (const c of curated.chapters) {
+    for (const v of c.verses) {
+      const key = `${c.id}:${v.id}`;
+      if (jsonText.get(key) !== normalizeVerseText(v.sanskrit)) mismatched.push(key);
+    }
+  }
+  if (mismatched.length > 0) {
+    error(
+      id,
+      `${mismatched.length} curated verse(s) carry different Sanskrit than the seeded JSON at the same ` +
+        `chapter:verse: ${mismatched.slice(0, 5).join(", ")}${mismatched.length > 5 ? " …" : ""}`,
+    );
+  }
 }
 
 function checkSeededJsonAlignment(): void {
@@ -150,6 +318,9 @@ function checkSeededJsonAlignment(): void {
       error(meta.id, `${path} is not valid JSON: ${(err as Error).message}`);
       continue;
     }
+
+    checkDuplicateVerses(meta.id, data);
+    if (meta.id === "bhagavadgita") checkGitaCanonical(data);
 
     const curated = getScripture(meta.id);
     if (!curated) continue;

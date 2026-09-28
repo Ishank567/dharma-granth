@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { DEFAULT_OG_IMAGE } from '@/lib/og';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import {
@@ -26,6 +27,7 @@ export function generateMetadata({ params }: { params: { id: string } }): Metada
     description: term.shortDef,
     alternates: { canonical: `/dictionary/${term.id}` },
     openGraph: {
+      images: [DEFAULT_OG_IMAGE],
       title: `${term.term} (${term.sanskrit}) — Dharma Granth Dictionary`,
       description: term.shortDef,
       url: `https://dharmagranth.in/dictionary/${term.id}`,

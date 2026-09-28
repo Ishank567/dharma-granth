@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { DEFAULT_OG_IMAGE } from '@/lib/og';
 import { getBookExplanation } from '@/data/book-explanations';
 import { categories } from '@/data/scripture-meta';
 import { getAllScriptures } from '@/data/scriptures';
@@ -11,6 +12,7 @@ export const metadata: Metadata = {
     'The full library of Hindu sacred texts catalogued at Dharma Granth — Vedas, Upanishads, Itihasas, Puranas, Smritis, and more. Texts with verse-by-verse explanations are marked.',
   alternates: { canonical: '/scriptures' },
   openGraph: {
+    images: [DEFAULT_OG_IMAGE],
     type: 'website',
     title: 'All Scriptures — Dharma Granth',
     description:

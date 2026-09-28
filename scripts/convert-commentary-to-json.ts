@@ -1,6 +1,8 @@
 /**
  * Publish curated-only hi-commentary JSON for the web/mobile fetch layer.
  * Bulk machine-generated explanations are excluded (same policy as hi-analysis.json).
+ * AI drafts from data/ai-commentary/ are included only once a reviewer has
+ * set them to "approved", never over hand-written entries, and marked `ai`.
  *
  *   npm run publish:commentary
  */
@@ -8,6 +10,8 @@ import fs from "node:fs";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { filterCuratedFragment } from "../data/hi-commentary/publish";
+import { aiQueueScriptureIds, approvedAiEntries } from "../data/hi-commentary/_ai-queue";
+import type { HiCommentaryFragment } from "../data/hi-commentary/_types";
 
 const SRC = path.resolve("data/hi-commentary");
 const OUT = path.resolve("public/data/hi-commentary");
@@ -29,18 +33,37 @@ async function main(): Promise<void> {
   let totalEntries = 0;
   let totalBytes = 0;
   let skipped = 0;
+  let aiPublished = 0;
 
-  for (const file of files.sort()) {
-    const name = path.basename(file, ".ts");
-    const exportName = `${name}Hi`;
-    const mod = await import(pathToFileURL(path.join(SRC, file)).href);
-    const fragment = mod[exportName];
-    if (!fragment) {
-      console.warn(`skip ${file}: no export ${exportName}`);
-      continue;
+  const fragmentNames = files.map((f) => path.basename(f, ".ts"));
+  // Scriptures that only have AI drafts still get a file.
+  const names = Array.from(new Set([...fragmentNames, ...aiQueueScriptureIds()])).sort();
+
+  for (const name of names) {
+    let curated: HiCommentaryFragment = {};
+    if (fragmentNames.includes(name)) {
+      const exportName = `${name}Hi`;
+      const mod = await import(pathToFileURL(path.join(SRC, `${name}.ts`)).href);
+      const fragment = mod[exportName];
+      if (!fragment) {
+        console.warn(`skip ${name}.ts: no export ${exportName}`);
+        continue;
+      }
+      curated = filterCuratedFragment(name, fragment);
     }
 
-    const curated = filterCuratedFragment(name, fragment);
+    // Approved AI drafts fill gaps only; hand-written commentary always wins.
+    const { entries: ai, stale } = approvedAiEntries(name);
+    for (const key of stale) {
+      console.warn(`⚠ ${name}:${key} approved AI draft skipped — the verse text changed since review`);
+    }
+    for (const [key, entry] of Object.entries(ai)) {
+      // Any hand-written field for this verse means a human owns it; never mix.
+      if (curated[key]) continue;
+      curated[key] = entry;
+      aiPublished++;
+    }
+
     const entryCount = Object.keys(curated).length;
     if (entryCount === 0) {
       skipped++;
@@ -58,8 +81,9 @@ async function main(): Promise<void> {
 
   const totalMB = totalBytes / (1024 * 1024);
   console.log(
-    `\nPublished ${totalEntries} entries across ${files.length - skipped} files ` +
-      `(${(totalBytes / 1024).toFixed(0)}KB total, ${skipped} empty scriptures skipped)`,
+    `\nPublished ${totalEntries} entries across ${names.length - skipped} files ` +
+      `(${(totalBytes / 1024).toFixed(0)}KB total, ${skipped} empty scriptures skipped, ` +
+      `${aiPublished} approved AI drafts)`,
   );
 
   if (totalMB > MAX_TOTAL_MB) {

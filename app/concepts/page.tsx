@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { DEFAULT_OG_IMAGE } from '@/lib/og';
 import { ConceptGraph } from '@/app/components/ConceptGraph';
 import { FadeUp } from '@/app/components/motion/primitives';
 import { concepts } from '@/data/concepts';
@@ -9,6 +10,7 @@ export const metadata: Metadata = {
     'वैदिक और हिंदू दर्शन की अवधारणाओं — आत्मन्, ब्रह्मन्, कर्म, धर्म, मोक्ष और अधिक — के अंतरसंबंधों का अन्वेषण करें।',
   alternates: { canonical: '/concepts' },
   openGraph: {
+    images: [DEFAULT_OG_IMAGE],
     title: 'अवधारणा ज्ञान ग्राफ (Concepts Knowledge Graph) — Dharma Granth',
     description:
       'वैदिक और हिंदू दर्शन की अवधारणाओं — आत्मन्, ब्रह्मन्, कर्म, धर्म, मोक्ष और अधिक — के अंतरसंबंधों का अन्वेषण करें।',

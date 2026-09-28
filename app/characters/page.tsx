@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { DEFAULT_OG_IMAGE } from '@/lib/og';
 import { CharacterMap } from '@/app/components/CharacterMap';
 import { FadeUp } from '@/app/components/motion/primitives';
 import { characters } from '@/data/characters';
@@ -9,6 +10,7 @@ export const metadata: Metadata = {
     'महाभारत, रामायण, पुराण, गुरु-शिष्य परंपरा और देवताओं के पात्रों के अंतरसंबंधों का अन्वेषण करें।',
   alternates: { canonical: '/characters' },
   openGraph: {
+    images: [DEFAULT_OG_IMAGE],
     title: 'पात्र एवं संबंध मानचित्र (Character Knowledge Graph) — Dharma Granth',
     description:
       'महाभारत, रामायण, पुराण, गुरु-शिष्य परंपरा और देवताओं के पात्रों के अंतरसंबंधों का अन्वेषण करें।',

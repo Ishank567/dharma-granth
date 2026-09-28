@@ -1,5 +1,6 @@
 'use client';
 
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { Flame, BookOpen, Bookmark, Award, ArrowRight, TrendingUp, FolderOpen, Highlighter, StickyNote } from 'lucide-react';
 import { useStudyProgress } from '@/lib/useStudyProgress';
@@ -8,9 +9,35 @@ import { PinterestWisdom } from '@/app/components/PinterestWisdom';
 import { FadeUp, FadeUpOnView, Stagger, StaggerItem } from '@/app/components/motion/primitives';
 import { pathways } from '@/data/pathways';
 import { quizzes } from '@/data/quizzes';
+import { scriptureCatalog } from '@/data/scripture-meta';
+import type { VerseHighlight } from '@/lib/useStudyProgress';
+
+// Literal class strings so Tailwind keeps them (matches VerseCard's palette).
+const HIGHLIGHT_SWATCH: Record<VerseHighlight['color'], string> = {
+  saffron: 'bg-saffron-500',
+  amber: 'bg-amber-400',
+  rose: 'bg-rose-500',
+  emerald: 'bg-emerald-500',
+  indigo: 'bg-indigo-500',
+};
+
+const scriptureTitles = new Map(scriptureCatalog.map((s) => [s.id, s.title]));
 
 export default function DashboardPage() {
   const progress = useStudyProgress();
+  const [bookmarkCount, setBookmarkCount] = useState<number>(0);
+
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem('dharma.bookmarkedVerses');
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        if (Array.isArray(parsed)) {
+          setBookmarkCount(parsed.length);
+        }
+      }
+    } catch {}
+  }, []);
 
   if (!progress.hydrated) {
     return (
@@ -31,6 +58,29 @@ export default function DashboardPage() {
     const isComplete = pct === 100;
     return { ...p, completed, total, pct, isComplete };
   });
+
+  // Notes and highlights, merged per verse, newest first.
+  const marks = new Map<
+    string,
+    { scriptureId: string; chapterId: number; verseId: string; note?: string; color?: VerseHighlight['color']; at: string }
+  >();
+  for (const n of notes) {
+    const key = `${n.scriptureId}:${n.chapterId}:${n.verseId}`;
+    marks.set(key, { scriptureId: n.scriptureId, chapterId: n.chapterId, verseId: String(n.verseId), note: n.text, at: n.updatedAt });
+  }
+  for (const h of highlights) {
+    const key = `${h.scriptureId}:${h.chapterId}:${h.verseId}`;
+    const existing = marks.get(key);
+    if (existing) {
+      existing.color = h.color;
+      if (h.createdAt > existing.at) existing.at = h.createdAt;
+    } else {
+      marks.set(key, { scriptureId: h.scriptureId, chapterId: h.chapterId, verseId: String(h.verseId), color: h.color, at: h.createdAt });
+    }
+  }
+  const recentMarks = Array.from(marks.values())
+    .sort((a, b) => b.at.localeCompare(a.at))
+    .slice(0, 8);
 
   const completedPathways = pathwayStats.filter((p) => p.isComplete).length;
   const inProgressPathways = pathwayStats.filter((p) => p.completed > 0 && !p.isComplete).length;
@@ -85,9 +135,11 @@ export default function DashboardPage() {
                 <span className="text-xs font-bold uppercase tracking-wider text-rose-700">Bookmarks</span>
               </div>
               <p className="text-3xl font-bold text-dharma-text">
-                {collections.reduce((acc, c) => acc + c.verseRefs.length, 0) > 0
+                {bookmarkCount > 0
+                  ? bookmarkCount
+                  : collections.reduce((acc, c) => acc + c.verseRefs.length, 0) > 0
                   ? collections.reduce((acc, c) => acc + c.verseRefs.length, 0)
-                  : '—'}
+                  : '0'}
               </p>
               <p className="text-xs text-dharma-muted group-hover:text-rose-600 transition">saved verses</p>
             </Link>
@@ -102,6 +154,55 @@ export default function DashboardPage() {
               <p className="text-xs text-dharma-muted">personal reflections</p>
             </div>
           </div>
+        </FadeUpOnView>
+
+        {/* My notes & highlights */}
+        <FadeUpOnView>
+          <section aria-labelledby="my-marks-heading">
+            <h2 id="my-marks-heading" className="mb-1 text-2xl font-serif font-bold text-dharma-text">
+              मेरे नोट्स और हाइलाइट्स
+            </h2>
+            <p className="mb-5 text-sm text-dharma-muted">
+              {notes.length} नोट्स · {highlights.length} हाइलाइट्स
+            </p>
+            {recentMarks.length === 0 ? (
+              <div className="rounded-2xl border border-dashed border-dharma-border bg-dharma-card p-6 text-sm text-dharma-muted">
+                किसी भी श्लोक पर <Highlighter className="inline h-4 w-4 text-amber-600" aria-label="हाइलाइट" /> से
+                रंग लगाएँ या <StickyNote className="inline h-4 w-4 text-indigo-600" aria-label="नोट" /> से अपना विचार
+                लिखें — वे यहाँ दिखेंगे।
+              </div>
+            ) : (
+              <ul className="grid gap-3 md:grid-cols-2">
+                {recentMarks.map((m) => (
+                  <li key={`${m.scriptureId}:${m.chapterId}:${m.verseId}`}>
+                    <Link
+                      href={`/scripture/${m.scriptureId}/chapter/${m.chapterId}#verse-${m.verseId}`}
+                      className="group flex h-full gap-3 rounded-2xl border border-dharma-border bg-dharma-card p-4 transition hover:border-saffron-300 hover:shadow-md"
+                    >
+                      <span
+                        aria-hidden="true"
+                        className={`mt-1 w-1.5 shrink-0 rounded-full ${m.color ? HIGHLIGHT_SWATCH[m.color] : 'bg-indigo-300'}`}
+                      />
+                      <span className="min-w-0 flex-1">
+                        <span className="block text-sm font-bold text-dharma-text group-hover:text-saffron-700">
+                          {scriptureTitles.get(m.scriptureId) ?? m.scriptureId} · {m.chapterId}.{m.verseId}
+                        </span>
+                        {m.note ? (
+                          <span className="mt-1 line-clamp-2 block text-sm text-dharma-muted">{m.note}</span>
+                        ) : (
+                          <span className="mt-1 block text-xs text-dharma-muted">हाइलाइट किया गया श्लोक</span>
+                        )}
+                      </span>
+                      <ArrowRight
+                        className="h-4 w-4 shrink-0 self-center text-dharma-muted transition group-hover:translate-x-0.5 group-hover:text-saffron-600"
+                        aria-hidden="true"
+                      />
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </section>
         </FadeUpOnView>
 
         {/* Daily Verse */}

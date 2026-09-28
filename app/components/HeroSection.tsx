@@ -13,6 +13,8 @@ import { ArrowRight, BookOpen, Flame, Search } from 'lucide-react';
 import { FadeUp } from '@/app/components/motion/primitives';
 import { MagneticButton } from '@/app/components/motion/MagneticButton';
 import { SurpriseVerseButton } from '@/app/components/SurpriseVerseButton';
+import { openGlobalSearch } from '@/lib/search-events';
+import { triggerTactileFeedback } from '@/lib/haptics';
 
 function CelestialParticles({ active }: { active: boolean }) {
   // Positions use Math.random(), which differs between the server and client
@@ -252,19 +254,25 @@ export function HeroSection() {
             : { y: contentScrollY, opacity: contentOpacity, transformStyle: 'preserve-3d' }
         }
       >
-        {/* OM symbol with enhanced glow, animation, and cursor-driven 3D tilt */}
+        {/* Interactive OM medallion with celestial sound resonance, 3D tilt, and tactile feedback */}
         <FadeUp>
-          <motion.div
-            className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full border border-white/20 bg-white/10 shadow-2xl backdrop-blur-md md:h-20 md:w-20"
+          <motion.button
+            type="button"
+            onClick={() => triggerTactileFeedback('celestial', 'omBowl')}
+            whileHover={!animateAmbient ? undefined : { scale: 1.12 }}
+            whileTap={{ scale: 0.92, y: 2 }}
+            title="ॐ पवित्र नाद — Tap for Cosmic Om Resonance & Chime"
+            aria-label="Sound sacred Om"
+            className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full border border-white/30 bg-white/15 shadow-2xl backdrop-blur-md md:h-20 md:w-20 cursor-pointer transition-all active:ring-4 active:ring-amber-300/40"
             style={animateAmbient ? { rotateX: tiltX, rotateY: tiltY, transformStyle: 'preserve-3d' } : undefined}
             animate={
               !animateAmbient
                 ? undefined
                 : {
-                    scale: [1, 1.08, 1],
+                    scale: [1, 1.06, 1],
                     boxShadow: [
                       '0 0 30px rgba(251, 191, 36, 0.4)',
-                      '0 0 60px rgba(251, 191, 36, 0.6)',
+                      '0 0 60px rgba(251, 191, 36, 0.7)',
                       '0 0 30px rgba(251, 191, 36, 0.4)',
                     ],
                   }
@@ -272,13 +280,13 @@ export function HeroSection() {
             transition={animateAmbient ? { duration: 3, repeat: Infinity } : undefined}
           >
             <motion.span
-              className="font-devanagari text-4xl leading-none text-saffron-100 drop-shadow-lg md:text-5xl"
-              animate={animateAmbient ? { rotate: [0, 5, -5, 0] } : undefined}
+              className="font-devanagari text-4xl leading-none text-saffron-100 drop-shadow-[0_2px_12px_rgba(251,191,36,0.8)] md:text-5xl select-none"
+              animate={animateAmbient ? { rotate: [0, 4, -4, 0] } : undefined}
               transition={animateAmbient ? { duration: 4, repeat: Infinity } : undefined}
             >
               ॐ
             </motion.span>
-          </motion.div>
+          </motion.button>
         </FadeUp>
 
         <FadeUp delay={0.08}>
@@ -340,15 +348,23 @@ export function HeroSection() {
         </FadeUp>
 
         <FadeUp delay={0.26}>
+          {/* Opens the global search (chapters, concepts, dictionary…) with the
+              query; the GET action is only a no-JS fallback. */}
           <form
-            action="/scriptures"
+            action={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/scriptures/`}
             method="get"
             role="search"
+            onSubmit={(event) => {
+              event.preventDefault();
+              const input = event.currentTarget.elements.namedItem('q');
+              const query = input instanceof HTMLInputElement ? input.value.trim() : '';
+              openGlobalSearch(query);
+            }}
             className="mx-auto mb-6 flex max-w-2xl items-center rounded-2xl border border-white/25 bg-white/95 p-1.5 text-left shadow-2xl backdrop-blur-md focus-within:ring-4 focus-within:ring-white/20"
           >
             <Search className="ml-3 h-5 w-5 shrink-0 text-saffron-700" aria-hidden="true" />
             <label htmlFor="hero-scripture-search" className="sr-only">
-              Search the scripture library
+              Search scriptures, chapters, and concepts
             </label>
             <input
               id="hero-scripture-search"

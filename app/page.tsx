@@ -27,8 +27,13 @@ import {
   Scale,
   Scroll,
   ShieldCheck,
+  Sparkles,
   TreePine,
 } from 'lucide-react';
+import { Realistic3DCard } from '@/app/components/motion/Realistic3DCard';
+import { Realistic3DGranth } from '@/app/components/motion/Realistic3DGranth';
+import { SacredChakra3D } from '@/app/components/motion/SacredChakra3D';
+import { MagneticButton } from '@/app/components/motion/MagneticButton';
 
 const featuredVerse = {
   sanskrit:
@@ -119,36 +124,44 @@ export default function HomePage() {
             </div>
           </dl>
 
-          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             {featuredTexts.map((scripture) => (
-              <Link
+              <Realistic3DCard
                 key={scripture.id}
-                href={`/scripture/${scripture.id}`}
-                className="group flex h-full flex-col rounded-2xl border border-dharma-border bg-dharma-card p-5 shadow-sm transition-[border-color,box-shadow,transform] duration-200 hover:-translate-y-0.5 hover:border-saffron-300 hover:shadow-lg"
+                maxTilt={10}
+                depth={24}
+                glareIntensity={0.24}
+                className="h-full border border-dharma-border bg-dharma-card card-3d-depth"
+                contentClassName="flex h-full flex-col p-5"
               >
-                <div className="mb-4 flex items-start justify-between gap-4">
-                  <span className="rounded-full bg-saffron-500/10 px-3 py-1 text-xs font-bold uppercase tracking-wide text-saffron-700">
-                    {scripture.category}
-                  </span>
-                  <ChevronRight
-                    className="h-5 w-5 text-dharma-muted transition-transform group-hover:translate-x-0.5 group-hover:text-saffron-600"
-                    aria-hidden="true"
-                  />
-                </div>
-                <h3 className="text-xl font-bold text-dharma-text transition group-hover:text-saffron-700">
-                  {scripture.title}
-                </h3>
-                <p lang="sa" className="mt-1 font-devanagari text-sm text-dharma-muted">
-                  {scripture.titleSanskrit}
-                </p>
-                <p className="mt-3 line-clamp-2 text-sm text-dharma-muted">
-                  {scripture.description}
-                </p>
-                <p className="mt-auto pt-5 text-xs font-semibold text-dharma-muted">
-                  {formatCount(scripture.totalChapters)} chapters ·{' '}
-                  {formatCount(scripture.totalVerses)} verses
-                </p>
-              </Link>
+                <Link
+                  href={`/scripture/${scripture.id}`}
+                  className="group flex h-full flex-col"
+                >
+                  <div className="mb-4 flex items-start justify-between gap-4">
+                    <span className="rounded-full bg-saffron-500/10 px-3 py-1 text-xs font-bold uppercase tracking-wide text-saffron-700 border border-saffron-500/20">
+                      {scripture.category}
+                    </span>
+                    <ChevronRight
+                      className="h-5 w-5 text-dharma-muted transition-transform group-hover:translate-x-1 group-hover:text-saffron-600"
+                      aria-hidden="true"
+                    />
+                  </div>
+                  <h3 className="text-xl font-bold text-dharma-text transition group-hover:text-saffron-700">
+                    {scripture.title}
+                  </h3>
+                  <p lang="sa" className="mt-1 font-devanagari text-sm text-dharma-muted">
+                    {scripture.titleSanskrit}
+                  </p>
+                  <p className="mt-3 line-clamp-2 text-sm text-dharma-muted">
+                    {scripture.description}
+                  </p>
+                  <p className="mt-auto pt-5 text-xs font-semibold text-dharma-muted">
+                    {formatCount(scripture.totalChapters)} chapters ·{' '}
+                    {formatCount(scripture.totalVerses)} verses
+                  </p>
+                </Link>
+              </Realistic3DCard>
             ))}
           </div>
         </div>
@@ -173,28 +186,81 @@ export default function HomePage() {
             {categories.map((category) => {
               const count = scriptures.filter((scripture) => scripture.category === category.id).length;
               return (
-                <Link
+                <Realistic3DCard
                   key={category.id}
-                  href={`/scriptures#${category.id}`}
-                  className="group flex items-start gap-4 rounded-2xl border border-dharma-border bg-dharma-card p-4 transition hover:border-saffron-300 hover:shadow-md"
+                  maxTilt={8}
+                  depth={18}
+                  glareIntensity={0.2}
+                  className="border border-dharma-border bg-dharma-card card-3d-depth"
+                  contentClassName="p-4"
                 >
-                  <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-saffron-500/10 text-saffron-700 transition group-hover:bg-saffron-600 group-hover:text-white">
-                    {categoryIcons[category.id]}
-                  </span>
-                  <span className="min-w-0">
-                    <span className="flex items-baseline justify-between gap-3">
-                      <span className="font-serif text-lg font-bold text-dharma-text group-hover:text-saffron-700">
-                        {category.label}
+                  <Link
+                    href={`/scriptures#${category.id}`}
+                    className="group flex items-start gap-4"
+                  >
+                    <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-saffron-500/10 text-saffron-700 transition group-hover:bg-saffron-600 group-hover:text-white shadow-sm">
+                      {categoryIcons[category.id]}
+                    </span>
+                    <span className="min-w-0">
+                      <span className="flex items-baseline justify-between gap-3">
+                        <span className="font-serif text-lg font-bold text-dharma-text group-hover:text-saffron-700 transition">
+                          {category.label}
+                        </span>
+                        <span className="shrink-0 text-xs font-semibold text-dharma-muted">{count} texts</span>
                       </span>
-                      <span className="shrink-0 text-xs font-semibold text-dharma-muted">{count} texts</span>
+                      <span className="mt-1 block line-clamp-2 text-sm leading-relaxed text-dharma-muted">
+                        {category.description}
+                      </span>
                     </span>
-                    <span className="mt-1 block line-clamp-2 text-sm leading-relaxed text-dharma-muted">
-                      {category.description}
-                    </span>
-                  </span>
-                </Link>
+                  </Link>
+                </Realistic3DCard>
               );
             })}
+          </div>
+        </div>
+      </section>
+
+      {/* ── Realistic 3D Interactive Sacred Space ── */}
+      <section
+        aria-labelledby="sacred-space-heading"
+        className="relative overflow-hidden border-b border-dharma-border bg-gradient-to-b from-dharma-card/60 via-amber-500/5 to-dharma-bg py-16 sm:py-24"
+      >
+        <div className="mx-auto max-w-6xl px-5 sm:px-6">
+          <div className="mb-12 text-center">
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-saffron-500/10 text-saffron-700 text-xs font-bold uppercase tracking-[0.2em] border border-saffron-500/20 shadow-sm">
+              <Sparkles className="w-3.5 h-3.5 text-amber-500 animate-spin-slow" />
+              Realistic 3D Experience · त्रिविमीय दर्शन
+            </span>
+            <h2 id="sacred-space-heading" className="mt-3 text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-dharma-text">
+              Touch and Explore the Sacred
+            </h2>
+            <p className="mt-3 text-dharma-muted max-w-2xl mx-auto text-base sm:text-lg">
+              Interact with the 3D Scripture Codex and the Sacred Dharma Chakra in real-time. Drag to spin with rotational physics, tilt to catch golden specular reflections, and feel the tactile feedback.
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-12 items-center justify-items-center">
+            {/* 3D Scripture Codex */}
+            <div className="flex flex-col items-center text-center">
+              <Realistic3DGranth
+                title="श्रीमद्भगवद्गीता"
+                subTitle="The Song of Eternal Truth"
+                verseCount="७०० श्लोक · १८ अध्याय"
+                href="/scripture/bhagavadgita"
+              />
+              <p className="mt-5 text-xs font-semibold text-dharma-muted flex items-center gap-1.5">
+                <span className="inline-block w-2 h-2 rounded-full bg-saffron-500 animate-pulse" />
+                Move cursor or tilt phone to rotate in 3D · Click to open
+              </p>
+            </div>
+
+            {/* 3D Interactive Dharma Chakra */}
+            <div className="flex flex-col items-center text-center">
+              <SacredChakra3D size={420} interactive={true} />
+              <p className="mt-5 text-xs font-semibold text-dharma-muted">
+                3D Dharmachakra with 24-spoke geometry & celestial energy particles
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -210,16 +276,17 @@ export default function HomePage() {
             </h2>
           </div>
 
-          <article className="overflow-hidden rounded-3xl border border-dharma-border bg-dharma-card shadow-lg">
+          <article className="overflow-hidden rounded-3xl border border-dharma-border bg-dharma-card card-3d-depth shadow-2xl">
             <div className="grid lg:grid-cols-[0.9fr_1.1fr]">
-              <div className="bg-gradient-to-br from-saffron-800 to-amber-700 p-6 text-white sm:p-8 lg:p-10">
-                <p className="text-xs font-bold uppercase tracking-[0.18em] text-saffron-100/80">
+              <div className="bg-gradient-to-br from-saffron-800 via-amber-800 to-amber-900 p-6 text-white sm:p-8 lg:p-10 relative overflow-hidden">
+                <div className="absolute inset-0 mandala-bg opacity-10 pointer-events-none" />
+                <p className="relative z-10 text-xs font-bold uppercase tracking-[0.2em] text-amber-300">
                   {featuredVerse.source}
                 </p>
-                <p className="mt-6 whitespace-pre-line font-devanagari text-2xl leading-loose text-white sm:text-3xl">
+                <p className="relative z-10 mt-6 whitespace-pre-line font-devanagari text-2xl leading-loose text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.5)] sm:text-3xl">
                   {featuredVerse.sanskrit}
                 </p>
-                <p className="mt-5 whitespace-pre-line text-sm italic leading-relaxed text-saffron-100/80">
+                <p className="relative z-10 mt-5 whitespace-pre-line text-sm italic leading-relaxed text-amber-100/80">
                   {featuredVerse.transliteration}
                 </p>
               </div>
@@ -243,7 +310,7 @@ export default function HomePage() {
                   </p>
                 </div>
 
-                <details className="group rounded-2xl border border-dharma-border bg-dharma-bg p-4">
+                <details className="group rounded-2xl border border-dharma-border bg-dharma-bg p-4 transition-colors">
                   <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold text-dharma-text marker:content-none">
                     <span className="inline-flex items-center gap-2">
                       <ShieldCheck className="h-4 w-4 text-emerald-600" aria-hidden="true" />
@@ -268,13 +335,17 @@ export default function HomePage() {
                   </div>
                 </details>
 
-                <Link
-                  href={`/scripture/bhagavadgita/chapter/${featuredVerse.chapter}`}
-                  className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-saffron-600 to-amber-600 px-6 py-3 text-sm font-bold text-white shadow-md transition hover:from-saffron-700 hover:to-amber-700 hover:shadow-lg"
-                >
-                  अध्याय २ पढ़ें
-                  <ArrowRight className="h-4 w-4" aria-hidden="true" />
-                </Link>
+                <div className="pt-2">
+                  <MagneticButton
+                    href={`/scripture/bhagavadgita/chapter/${featuredVerse.chapter}`}
+                    className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-saffron-600 to-amber-600 px-7 py-3 text-sm font-bold text-white shadow-xl hover:from-saffron-700 hover:to-amber-700 shine-sweep"
+                    strength={20}
+                    tilt={8}
+                  >
+                    <span className="font-devanagari">अध्याय २ पढ़ें</span>
+                    <ArrowRight className="h-4 w-4" aria-hidden="true" />
+                  </MagneticButton>
+                </div>
               </div>
             </div>
           </article>

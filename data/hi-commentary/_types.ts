@@ -2,6 +2,11 @@ export interface HiCommentaryEntry {
   explanation?: string;
   science?: string;
   lifeLesson?: string;
+  /**
+   * Drafted by AI (scripts/generate-verse-commentary.ts) and approved by a
+   * reviewer; the site labels these. Absent for hand-written commentary.
+   */
+  ai?: true;
 }
 
 /**

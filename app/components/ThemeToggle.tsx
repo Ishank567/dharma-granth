@@ -3,6 +3,7 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { Sun, Sunset, Moon } from 'lucide-react';
 import type { ReactNode } from 'react';
+import { triggerTactileFeedback } from '@/lib/haptics';
 import { THEMES, useTheme, type Theme } from './ThemeProvider';
 
 const ICONS: Record<Theme, ReactNode> = {
@@ -43,7 +44,10 @@ export function ThemeToggle({ className = '' }: { className?: string }) {
           <button
             key={option}
             type="button"
-            onClick={() => setTheme(option)}
+            onClick={() => {
+              setTheme(option);
+              triggerTactileFeedback('light', 'softTap');
+            }}
             role="radio"
             aria-checked={active}
             aria-label={`${LABELS[option]} theme`}

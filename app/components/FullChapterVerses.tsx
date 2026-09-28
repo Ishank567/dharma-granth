@@ -2,23 +2,13 @@
 
 import { useEffect, useMemo, useRef, useState } from 'react';
 import {
-  Atom,
   BookOpen,
-  Bookmark,
-  BookmarkCheck,
-  Check,
-  Copy,
-  Edit3,
-  Feather,
   Flame,
-  Languages,
-  Lightbulb,
+  Headphones,
+  Maximize2,
   RotateCcw,
-  ScrollText,
   Search,
   SlidersHorizontal,
-  Sparkles,
-  Sun,
   X,
 } from 'lucide-react';
 import type { ScriptureCategory } from '@/data/types';
@@ -26,10 +16,12 @@ import type { HiCommentaryFragment } from '@/data/hi-commentary/_types';
 import { canonicalVerseId } from '@/lib/canonical-verse-id';
 import { normalizeForSearch, normalizeTransliteration } from '@/lib/normalize-search';
 import { useStudyProgress } from '@/lib/useStudyProgress';
-import { getVerseGraphicClass, getVerseGraphicStyle } from './verse-background';
+import { updateLastVerse } from '@/lib/reading-history';
+import { reciteVerse, stopRecitation } from '@/lib/verse-recite';
 import { ContributeMeaningModal } from './ContributeMeaningModal';
-import { ListenButton } from './ListenButton';
-import { ShareVerseButton } from './ShareVerseButton';
+import { VerseCard } from './VerseCard';
+import { MobileFocusMode } from './MobileFocusMode';
+import { triggerTactileFeedback } from '@/lib/haptics';
 
 interface FullVerse {
   number: number | string;
@@ -101,8 +93,15 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
   const [filterQuery, setFilterQuery] = useState('');
   const [copiedId, setCopiedId] = useState<string | null>(null);
   const [bookmarkedMap, setBookmarkedMap] = useState<Record<string, boolean>>({});
+  const [continuousRecite, setContinuousRecite] = useState(false);
+  const continuousReciteRef = useRef(false);
+  continuousReciteRef.current = continuousRecite;
+  const [focusModeOpen, setFocusModeOpen] = useState(false);
+  const [focusVerseIndex, setFocusVerseIndex] = useState(0);
   const layersMenuRef = useRef<HTMLDivElement>(null);
-  const { recordReading } = useStudyProgress();
+  // One store for the whole chapter (not one per card): notes and highlights
+  // are passed down to each VerseCard.
+  const { recordReading, getNote, setNote, getHighlight, toggleHighlight } = useStudyProgress();
 
   // Auto-record study reading when chapter is loaded
   useEffect(() => {
@@ -110,6 +109,32 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
       recordReading();
     }
   }, [state, recordReading]);
+
+  // Remember the verse being read, so "continue reading" resumes at it.
+  useEffect(() => {
+    if (state.kind !== 'ready') return;
+    let timer = 0;
+    const record = () => {
+      // The reading line: a third of the way down the viewport.
+      const line = window.innerHeight / 3;
+      const cards = document.querySelectorAll<HTMLElement>('.verse-card[id^="verse-"]');
+      for (const card of Array.from(cards)) {
+        if (card.getBoundingClientRect().bottom > line) {
+          updateLastVerse(scriptureId, chapterId, card.id.slice('verse-'.length));
+          return;
+        }
+      }
+    };
+    const onScroll = () => {
+      window.clearTimeout(timer);
+      timer = window.setTimeout(record, 600);
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => {
+      window.clearTimeout(timer);
+      window.removeEventListener('scroll', onScroll);
+    };
+  }, [state.kind, scriptureId, chapterId]);
 
   // Load verse bookmark statuses from localStorage
   useEffect(() => {
@@ -180,6 +205,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
         ...prev,
         [vId]: !isCurrentlySaved,
       }));
+      triggerTactileFeedback(!isCurrentlySaved ? 'success' : 'medium', !isCurrentlySaved ? 'success' : 'softTap');
     } catch (err) {
       console.error('Failed to toggle bookmark:', err);
     }
@@ -278,6 +304,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
       }
       await navigator.clipboard.writeText(parts.join('\n\n'));
       setCopiedId(String(v.number));
+      triggerTactileFeedback('medium', 'click');
       setTimeout(() => setCopiedId(null), 2000);
     } catch (err) {
       console.error('Failed to copy verse:', err);
@@ -311,6 +338,26 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
       );
     });
   }, [state, filterQuery, verseSearchKeys]);
+
+  const handleVerseReciteFinish = (currentIndex: number, naturalEnd: boolean) => {
+    if (!continuousReciteRef.current || !naturalEnd) return;
+    const nextIndex = currentIndex + 1;
+    if (nextIndex < filteredVerses.length) {
+      const nextVerse = filteredVerses[nextIndex];
+      scrollToVerse(nextVerse.number);
+      setTimeout(() => {
+        if (!continuousReciteRef.current) return;
+        reciteVerse(
+          {
+            sanskrit: nextVerse.sanskrit,
+            hindi: nextVerse.hindi,
+            translation: nextVerse.translation,
+          },
+          (nextNatural) => handleVerseReciteFinish(nextIndex, nextNatural),
+        );
+      }, 750);
+    }
+  };
 
   const sanskritFontSizeClass =
     fontSize === 'xl'
@@ -379,6 +426,14 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
     };
   }, [state.kind, scriptureId, chapterId, curatedVerseSet, basePath]);
 
+  // Retry by itself once the connection comes back.
+  useEffect(() => {
+    if (state.kind !== 'error') return;
+    const retry = () => setState({ kind: 'loading' });
+    window.addEventListener('online', retry);
+    return () => window.removeEventListener('online', retry);
+  }, [state.kind]);
+
   if (state.kind === 'idle') {
     return (
       <div className="mt-14 rounded-2xl border border-dashed border-saffron-300 bg-saffron-500/10 p-6 text-center">
@@ -419,9 +474,32 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
   }
 
   if (state.kind === 'error') {
+    const offline = typeof navigator !== 'undefined' && navigator.onLine === false;
     return (
-      <div className="mt-14 rounded-2xl border border-rose-200 bg-rose-50/10 p-6 text-center text-sm text-rose-900">
-        पूरा अध्याय लोड नहीं हो सका: {state.message}
+      <div
+        role="alert"
+        className="mt-14 rounded-2xl border border-rose-200 bg-rose-50/10 p-6 text-center"
+      >
+        <p className="font-semibold text-rose-900">
+          {offline ? 'आप ऑफ़लाइन हैं — अध्याय लोड नहीं हो सका।' : 'अध्याय लोड नहीं हो सका।'}
+        </p>
+        <p className="mt-1 text-sm text-dharma-muted">
+          {offline
+            ? 'इंटरनेट से जुड़ने के बाद फिर से प्रयास करें।'
+            : 'कनेक्शन में रुकावट हो सकती है। कृपया फिर से प्रयास करें।'}
+        </p>
+        <button
+          type="button"
+          onClick={() => setState({ kind: 'loading' })}
+          className="mt-4 inline-flex items-center gap-2 rounded-full bg-saffron-600 px-5 py-2.5 text-sm font-bold text-white transition hover:bg-saffron-700"
+        >
+          <RotateCcw className="h-4 w-4" aria-hidden="true" />
+          पुनः प्रयास करें
+        </button>
+        {/* Kept for bug reports, out of the way of readers. */}
+        <p className="mt-3 text-[11px] text-dharma-muted/70" lang="en">
+          {state.message}
+        </p>
       </div>
     );
   }
@@ -450,6 +528,29 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
             </div>
 
             <div className="flex flex-wrap items-center gap-2">
+              {/* Continuous Guided Recitation Toggle */}
+              <button
+                type="button"
+                onClick={() => {
+                  const next = !continuousRecite;
+                  setContinuousRecite(next);
+                  triggerTactileFeedback('medium', next ? 'softTap' : 'click');
+                  if (!next) {
+                    stopRecitation();
+                  }
+                }}
+                className={`inline-flex items-center gap-1.5 rounded-xl px-3 py-1.5 text-xs font-semibold transition ${
+                  continuousRecite
+                    ? 'bg-amber-600 text-white shadow-sm ring-2 ring-amber-400/30'
+                    : 'border border-dharma-border bg-dharma-bg text-dharma-text hover:border-amber-300 hover:text-amber-700'
+                }`}
+                title="एक श्लोक समाप्त होने पर स्वतः अगले श्लोक का पाठ शुरू करें"
+                aria-pressed={continuousRecite}
+              >
+                <Headphones className={`h-3.5 w-3.5 ${continuousRecite ? 'text-white' : 'text-amber-600'}`} />
+                <span>निरंतर पाठ</span>
+              </button>
+
               {/* Chanting Mode Toggle */}
               <button
                 type="button"
@@ -463,6 +564,21 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
               >
                 <Flame className={`h-3.5 w-3.5 ${chantingMode ? 'text-white' : 'text-saffron-600'}`} />
                 <span>स्वाध्याय मोड</span>
+              </button>
+
+              {/* Focus Mode Button */}
+              <button
+                type="button"
+                onClick={() => {
+                  setFocusVerseIndex(0);
+                  setFocusModeOpen(true);
+                  triggerTactileFeedback('medium', 'click');
+                }}
+                className="inline-flex items-center gap-1.5 rounded-xl border border-dharma-border bg-dharma-bg px-3 py-1.5 text-xs font-semibold text-dharma-text transition hover:border-saffron-300 hover:text-saffron-700 active:scale-95"
+                title="एक-एक श्लोक स्वाध्याय के लिए एकाग्रता मोड खोलें (Focus Mode)"
+              >
+                <Maximize2 className="h-3.5 w-3.5 text-amber-600" />
+                <span>एकाग्रता मोड</span>
               </button>
 
               {/* Font Size Selector */}
@@ -650,255 +766,46 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
               const scienceIsHi = Boolean(scienceHi);
               const lesson = lifeLessonHi ?? v.lifeLesson;
               const lessonIsHi = Boolean(lifeLessonHi);
-              const hasMeaning = Boolean(
-                v.hindi ||
-                  v.translation ||
-                  v.wordMeaning ||
-                  explanation ||
-                  science ||
-                  lesson,
-              );
               return (
-                <article
+                <VerseCard
                   key={`${String(v.number)}-${index}`}
-                  id={`verse-${v.number}`}
-                  className={`scroll-mt-24 rounded-xl border border-dharma-border bg-dharma-card p-5 md:p-6 shadow-sm transition-all duration-300 ${
-                    chantingMode ? 'border-saffron-200/70 shadow-md ring-1 ring-saffron-500/10' : ''
-                  } ${getVerseGraphicClass(category)}`}
-                  style={getVerseGraphicStyle({ category, verseId: v.number })}
-                >
-                  <div className="flex items-center gap-3 mb-4">
-                    <span className="inline-flex items-center justify-center w-9 h-9 rounded-full bg-saffron-100 text-saffron-800 font-bold text-sm">
-                      {v.number}
-                    </span>
-                    <div className="text-[10px] uppercase tracking-widest text-saffron-800/70 font-semibold">
-                      श्लोक {v.number}
-                    </div>
-                    <div className="ml-auto flex items-center gap-1.5">
-                      {/* Bookmark Button */}
-                      <button
-                        type="button"
-                        onClick={() => toggleBookmark(v)}
-                        className={`inline-flex items-center gap-1 rounded-full border px-2.5 py-0.5 text-[10px] font-medium transition ${
-                          bookmarkedMap[String(v.number)]
-                            ? 'border-saffron-400 bg-saffron-50 text-saffron-800 font-semibold'
-                            : 'border-dharma-border/60 bg-dharma-bg text-dharma-muted hover:border-saffron-300 hover:text-saffron-700'
-                        }`}
-                        title={
-                          bookmarkedMap[String(v.number)]
-                            ? 'बुकमार्क हटाएं (Remove bookmark)'
-                            : 'बुकमार्क करें (Save to bookmarks)'
-                        }
-                        aria-label="Bookmark verse"
-                        aria-pressed={Boolean(bookmarkedMap[String(v.number)])}
-                      >
-                        {bookmarkedMap[String(v.number)] ? (
-                          <>
-                            <BookmarkCheck className="h-3 w-3 text-saffron-600 fill-saffron-500/20" />
-                            <span className="text-saffron-700">सहेजा</span>
-                          </>
-                        ) : (
-                          <>
-                            <Bookmark className="h-3 w-3" />
-                            <span>सहेजें</span>
-                          </>
-                        )}
-                      </button>
-
-                      <button
-                        type="button"
-                        onClick={() => handleCopyVerse(v)}
-                        className="inline-flex items-center gap-1 rounded-full border border-dharma-border/60 bg-dharma-bg px-2.5 py-0.5 text-[10px] font-medium text-dharma-muted hover:border-saffron-300 hover:text-saffron-700 transition"
-                        title="Copy verse with citation"
-                        aria-label="Copy verse"
-                      >
-                        {copiedId === String(v.number) ? (
-                          <>
-                            <Check className="h-3 w-3 text-emerald-600" />
-                            <span className="text-emerald-700 font-semibold">Copied</span>
-                          </>
-                        ) : (
-                          <>
-                            <Copy className="h-3 w-3" />
-                            <span>Copy</span>
-                          </>
-                        )}
-                      </button>
-                      <ListenButton
-                        compact
-                        sanskrit={v.sanskrit}
-                        hindi={v.hindi}
-                        translation={v.translation}
-                      />
-                      <ShareVerseButton
-                        compact
-                        scriptureTitle={scriptureTitle ?? scriptureId}
-                        chapterTitle={chapterTitle ?? `अध्याय ${chapterId}`}
-                        verseLabel={String(v.number)}
-                        sanskrit={v.sanskrit}
-                        transliteration={v.transliteration}
-                        hindi={v.hindi}
-                        translation={v.translation}
-                      />
-                      {!chantingMode && (
-                        <button
-                          type="button"
-                          onClick={() => setContributeVerse(v)}
-                          className="inline-flex items-center gap-1 rounded-full border border-dharma-border/60 bg-dharma-bg px-2.5 py-0.5 text-[10px] font-medium text-dharma-muted hover:border-saffron-300 hover:text-saffron-700"
-                          title="Contribute or improve meaning for this verse"
-                        >
-                          <Edit3 className="h-3 w-3" /> Contribute
-                        </button>
-                      )}
-                    </div>
-                  </div>
-
-                  {v.sanskrit && (
-                    <div className="mb-4">
-                      {!chantingMode && (
-                        <div className="flex items-center gap-1.5 text-[10px] uppercase tracking-widest text-saffron-800/70 font-semibold mb-1.5">
-                          <Feather className="w-3 h-3" />
-                          संस्कृत
-                        </div>
-                      )}
-                      <p lang="sa" className={`font-devanagari ${sanskritFontSizeClass} text-dharma-text whitespace-pre-line`}>
-                        {v.sanskrit}
-                      </p>
-                    </div>
-                  )}
-
-                  {v.transliteration && showTranslit && (
-                    <div className="mb-4">
-                      {!chantingMode && (
-                        <div className="flex items-center gap-1.5 text-[10px] uppercase tracking-widest text-stone-700 font-semibold mb-1.5">
-                          <Languages className="w-3 h-3" />
-                          लिप्यंतरण
-                        </div>
-                      )}
-                      <p lang="sa-Latn" className="text-sm md:text-base italic text-stone-700 whitespace-pre-line leading-relaxed">
-                        {v.transliteration}
-                      </p>
-                    </div>
-                  )}
-
-                  {!chantingMode && (
-                    <>
-                      {v.hindi && showHindi && (
-                        <div className="mb-4">
-                          <div className="flex items-center gap-1.5 text-[10px] uppercase tracking-widest text-rose-800 font-semibold mb-1.5">
-                            <Sun className="w-3 h-3" />
-                            हिन्दी अर्थ
-                          </div>
-                          <p lang="hi" className="text-sm md:text-base text-rose-950 leading-loose">{v.hindi}</p>
-                        </div>
-                      )}
-
-                      {v.translation && showEnglish && (
-                        <div className="mb-4">
-                          <div className="flex items-center gap-1.5 text-[10px] uppercase tracking-widest text-blue-800 font-semibold mb-1.5">
-                            <ScrollText className="w-3 h-3" />
-                            अनुवाद
-                            {v.translationSource === 'ai' && (
-                              <span
-                                className="ml-1 rounded-full border border-blue-200 bg-blue-50 px-1.5 py-px text-[9px] font-medium normal-case tracking-normal text-blue-700"
-                                title="Machine-translated from the Sanskrit; not a scholarly translation"
-                              >
-                                AI translation
-                              </span>
-                            )}
-                          </div>
-                          <p lang="en" className="text-sm md:text-base text-dharma-text leading-relaxed">{v.translation}</p>
-                        </div>
-                      )}
-
-                      {showCommentary && (
-                        <>
-                          {v.wordMeaning && (
-                            <div className="mb-4">
-                              <div className="flex items-center gap-1.5 text-[10px] uppercase tracking-widest text-emerald-800 font-semibold mb-1.5">
-                                <Sparkles className="w-3 h-3" />
-                                सरल अर्थ
-                              </div>
-                              <p className="text-sm md:text-base text-emerald-950 leading-relaxed">{v.wordMeaning}</p>
-                            </div>
-                          )}
-
-                          {explanation && (
-                            <div className="mb-4">
-                              <div className="flex items-center gap-1.5 text-[10px] uppercase tracking-widest text-emerald-800 font-semibold mb-1.5">
-                                <Sparkles className="w-3 h-3" />
-                                {explanationIsHi ? 'आध्यात्मिक व्याख्या' : 'अंग्रेज़ी व्याख्या'}
-                              </div>
-                              <p
-                                lang={explanationIsHi ? 'hi' : 'en'}
-                                className={`text-sm md:text-base text-emerald-950 leading-relaxed ${explanationIsHi ? 'font-devanagari' : ''}`}
-                              >
-                                {explanation}
-                              </p>
-                            </div>
-                          )}
-
-                          {science && (
-                            <div className="mb-4">
-                              <div className="flex items-center gap-1.5 text-[10px] uppercase tracking-widest text-indigo-800 font-semibold mb-1.5">
-                                <Atom className="w-3 h-3" />
-                                {scienceIsHi ? 'वैज्ञानिक दृष्टिकोण' : 'अंग्रेज़ी वैज्ञानिक दृष्टिकोण'}
-                              </div>
-                              <p
-                                lang={scienceIsHi ? 'hi' : 'en'}
-                                className={`text-sm md:text-base text-indigo-950 leading-relaxed ${scienceIsHi ? 'font-devanagari' : ''}`}
-                              >
-                                {science}
-                              </p>
-                            </div>
-                          )}
-
-                          {lesson && (
-                            <div className="mb-4">
-                              <div className="flex items-center gap-1.5 text-[10px] uppercase tracking-widest text-amber-800 font-semibold mb-1.5">
-                                <Lightbulb className="w-3 h-3" />
-                                {lessonIsHi ? 'जीवन की सीख — आज अपनाएँ' : 'अंग्रेज़ी जीवन की सीख'}
-                              </div>
-                              <p
-                                lang={lessonIsHi ? 'hi' : 'en'}
-                                className={`text-sm md:text-base text-amber-950 leading-relaxed font-medium ${lessonIsHi ? 'font-devanagari' : ''}`}
-                              >
-                                {lesson}
-                              </p>
-                            </div>
-                          )}
-                        </>
-                      )}
-
-                      {v.keywords && v.keywords.length > 0 && (
-                        <div className="flex flex-wrap gap-2 pt-1">
-                          {v.keywords.map((k) => (
-                            <span
-                              key={k}
-                              className="inline-flex items-center rounded-full bg-saffron-100 px-2.5 py-0.5 text-[11px] font-semibold text-saffron-800"
-                            >
-                              #{k}
-                            </span>
-                          ))}
-                        </div>
-                      )}
-
-                      {!hasMeaning && (
-                        <div className="mt-3 rounded-lg border border-dashed border-dharma-border/60 bg-dharma-bg/60 p-3 text-xs text-dharma-muted">
-                          <p className="italic">इस श्लोक के लिए विस्तृत हिन्दी व्याख्या, आधुनिक विज्ञान-दृष्टि और जीवन-शिक्षा अभी क्यूरेटेड चयन में उपलब्ध है।</p>
-                          <p className="mt-1">ऊपर दिखाए गए &lsquo;सीखने वाले श्लोकों&rsquo; में गहन अर्थ (explanation + science + lifeLesson) देखें। पूर्ण अध्याय का मूल पाठ मुख्यतः पाठन और संदर्भ के लिए है।</p>
-                          <button
-                            type="button"
-                            onClick={() => setContributeVerse(v)}
-                            className="mt-2 inline-flex items-center gap-1.5 rounded-md border border-saffron-300 bg-saffron-50 px-2.5 py-1 text-[11px] font-semibold text-saffron-800 hover:bg-saffron-100"
-                          >
-                            <Edit3 className="h-3.5 w-3.5" /> Be the first to contribute a meaning
-                          </button>
-                        </div>
-                      )}
-                    </>
-                  )}
-                </article>
+                  verse={v}
+                  meaning={{
+                    isAi: Boolean(comment?.ai),
+                    explanation,
+                    explanationIsHi,
+                    science,
+                    scienceIsHi,
+                    lesson,
+                    lessonIsHi,
+                  }}
+                  layers={{
+                    translit: showTranslit,
+                    hindi: showHindi,
+                    english: showEnglish,
+                    commentary: showCommentary,
+                  }}
+                  chapterId={chapterId}
+                  category={category}
+                  scriptureTitle={scriptureTitle ?? scriptureId}
+                  chapterTitle={chapterTitle ?? `अध्याय ${chapterId}`}
+                  chantingMode={chantingMode}
+                  sanskritFontSizeClass={sanskritFontSizeClass}
+                  bookmarked={Boolean(bookmarkedMap[String(v.number)])}
+                  copied={copiedId === String(v.number)}
+                  onToggleBookmark={() => toggleBookmark(v)}
+                  onCopy={() => handleCopyVerse(v)}
+                  onContribute={() => setContributeVerse(v)}
+                  note={getNote(scriptureId, chapterId, v.number)?.text}
+                  onSaveNote={(text) => setNote(scriptureId, chapterId, v.number, text)}
+                  highlight={getHighlight(scriptureId, chapterId, v.number)?.color}
+                  onHighlight={(color) => toggleHighlight(scriptureId, chapterId, v.number, color)}
+                  onReciteFinish={(naturalEnd) => handleVerseReciteFinish(index, naturalEnd)}
+                  onOpenFocus={() => {
+                    setFocusVerseIndex(index);
+                    setFocusModeOpen(true);
+                  }}
+                />
               );
             })
           )}
@@ -931,6 +838,23 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
           science: contributeVerse?.science,
           lifeLesson: contributeVerse?.lifeLesson,
         }}
+      />
+
+      {/* Fullscreen Mobile & Screen Focus Mode */}
+      <MobileFocusMode
+        isOpen={focusModeOpen}
+        onClose={() => setFocusModeOpen(false)}
+        verses={filteredVerses}
+        initialVerseIndex={focusVerseIndex}
+        scriptureId={scriptureId}
+        scriptureTitle={scriptureTitle ?? scriptureId}
+        chapterTitle={chapterTitle ?? `अध्याय ${chapterId}`}
+        chapterId={chapterId}
+        category={category}
+        commentary={state.commentary}
+        bookmarkedMap={bookmarkedMap}
+        onToggleBookmark={(v) => toggleBookmark(v as FullVerse)}
+        onVerseChange={(verseNum) => scrollToVerse(verseNum)}
       />
     </>
   );

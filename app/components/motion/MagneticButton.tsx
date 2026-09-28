@@ -9,6 +9,7 @@ import {
 } from 'framer-motion';
 import Link from 'next/link';
 import { useRef, type ReactNode, type PointerEvent } from 'react';
+import { triggerTactileFeedback } from '@/lib/haptics';
 
 type MagneticButtonProps = {
   children: ReactNode;
@@ -82,6 +83,7 @@ export function MagneticButton({
       className={`relative inline-block ${className}`}
       onPointerMove={handleMove}
       onPointerLeave={handleLeave}
+      onClick={() => triggerTactileFeedback('medium', 'click')}
       style={{ perspective: 800 }}
     >
       <motion.div

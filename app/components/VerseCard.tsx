@@ -1,0 +1,834 @@
+'use client';
+
+import { useEffect, useId, useMemo, useRef, useState, type KeyboardEvent, type PointerEvent } from 'react';
+import { AnimatePresence, motion, useReducedMotion } from 'framer-motion';
+import {
+  Atom,
+  Bookmark,
+  BookmarkCheck,
+  Check,
+  Copy,
+  Edit3,
+  Highlighter,
+  Lightbulb,
+  Maximize2,
+  ScrollText,
+  Sparkles,
+  StickyNote,
+  X,
+} from 'lucide-react';
+import Link from 'next/link';
+import type { ScriptureCategory } from '@/data/types';
+import type { VerseHighlight } from '@/lib/useStudyProgress';
+import { resolveKeywordTarget } from '@/lib/keyword-links';
+import { subscribeRecitation, type RecitationState } from '@/lib/verse-recite';
+import { ListenButton } from './ListenButton';
+import { ShareVerseButton } from './ShareVerseButton';
+import { getVerseGraphicClass, getVerseGraphicStyle } from './verse-background';
+
+export interface VerseCardData {
+  number: number | string;
+  sanskrit?: string;
+  transliteration?: string;
+  translation?: string;
+  translationSource?: 'ai';
+  hindi?: string;
+  wordMeaning?: string;
+  keywords?: string[];
+}
+
+/** Commentary resolved by the parent (Hindi commentary file first, then verse fields). */
+export interface VerseMeaning {
+  /** AI-drafted and reviewer-approved (not hand-written); shown with a label. */
+  isAi?: boolean;
+  explanation?: string;
+  explanationIsHi: boolean;
+  science?: string;
+  scienceIsHi: boolean;
+  lesson?: string;
+  lessonIsHi: boolean;
+}
+
+export interface VerseLayers {
+  translit: boolean;
+  hindi: boolean;
+  english: boolean;
+  commentary: boolean;
+}
+
+interface Props {
+  verse: VerseCardData;
+  meaning: VerseMeaning;
+  layers: VerseLayers;
+  chapterId: number;
+  category: ScriptureCategory;
+  scriptureTitle: string;
+  chapterTitle: string;
+  chantingMode: boolean;
+  sanskritFontSizeClass: string;
+  bookmarked: boolean;
+  copied: boolean;
+  onToggleBookmark: () => void;
+  onCopy: () => void;
+  onContribute: () => void;
+  /** The reader's own note on this verse, if any. */
+  note?: string;
+  /** Saves the note; an empty string deletes it. */
+  onSaveNote: (text: string) => void;
+  highlight?: HighlightColor;
+  /** Same colour again removes the highlight (useStudyProgress toggle semantics). */
+  onHighlight: (color: HighlightColor) => void;
+  /** Callback fired when recitation of this verse finishes */
+  onReciteFinish?: (naturalEnd: boolean) => void;
+  /** Opens full-screen focus contemplation mode on this verse */
+  onOpenFocus?: () => void;
+}
+
+type TabId = 'meaning' | 'explain' | 'science';
+type HighlightColor = VerseHighlight['color'];
+
+const NOTE_MAX = 2000;
+
+// Full class strings (not built dynamically) so Tailwind keeps them.
+const HIGHLIGHTS: Record<HighlightColor, { label: string; swatch: string; ring: string; spine: string }> = {
+  saffron: { label: 'केसरिया', swatch: 'bg-saffron-500', ring: 'ring-2 ring-saffron-400/70', spine: 'from-saffron-400 via-saffron-500 to-saffron-600' },
+  amber: { label: 'सुनहरा', swatch: 'bg-amber-400', ring: 'ring-2 ring-amber-400/70', spine: 'from-amber-300 via-amber-400 to-amber-500' },
+  rose: { label: 'गुलाबी', swatch: 'bg-rose-500', ring: 'ring-2 ring-rose-400/70', spine: 'from-rose-400 via-rose-500 to-rose-600' },
+  emerald: { label: 'हरा', swatch: 'bg-emerald-500', ring: 'ring-2 ring-emerald-400/70', spine: 'from-emerald-400 via-emerald-500 to-emerald-600' },
+  indigo: { label: 'नीला', swatch: 'bg-indigo-500', ring: 'ring-2 ring-indigo-400/70', spine: 'from-indigo-400 via-indigo-500 to-indigo-600' },
+};
+
+const DEVANAGARI_DIGITS = '०१२३४५६७८९';
+const EASE_OUT_QUINT: [number, number, number, number] = [0.22, 1, 0.36, 1];
+
+/** Decide the language from the text itself: more Devanagari than Latin letters = Hindi. */
+function isMostlyDevanagari(text: string | undefined): boolean {
+  if (!text) return false;
+  let deva = 0;
+  let latin = 0;
+  for (const ch of text) {
+    if (ch >= 'ऀ' && ch <= 'ॿ') deva++;
+    else if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) latin++;
+  }
+  return deva > latin;
+}
+
+function sameText(a: string, b: string): boolean {
+  const n = (s: string) => s.replace(/\s+/g, ' ').trim().toLowerCase();
+  const x = n(a);
+  const y = n(b);
+  // Many sources store one field as a prefix/copy of the other.
+  return x === y || x.startsWith(y) || y.startsWith(x);
+}
+
+function toDevanagari(value: number | string): string {
+  return String(value).replace(/[0-9]/g, (d) => DEVANAGARI_DIGITS[Number(d)]);
+}
+
+/**
+ * Split a verse into its pādas for line-by-line setting. Source text is
+ * either newline-separated or uses | / । as half-verse markers. Any trailing
+ * "॥ 28 ॥"-style terminator is dropped; the card draws its own.
+ */
+function verseLines(sanskrit: string): string[] {
+  const cleaned = sanskrit.replace(/[\s|।॥0-9०-९.]+$/, '').trim();
+  const byNewline = cleaned.split(/\n+/).map((l) => l.trim()).filter(Boolean);
+  if (byNewline.length > 1) return byNewline;
+
+  const lines: string[] = [];
+  let current = '';
+  for (const ch of cleaned) {
+    current += ch;
+    if (ch === '|' || ch === '।') {
+      lines.push(current.trim());
+      current = '';
+    }
+  }
+  if (current.trim()) lines.push(current.trim());
+  return lines.length ? lines : [cleaned];
+}
+
+/** Lotus-petal medallion carrying the verse number in Devanagari numerals. */
+function VerseMedallion({ label }: { label: string }) {
+  const gradId = useId();
+  const petals = Array.from({ length: 8 }, (_, i) => i * 45);
+  return (
+    <span className="relative inline-flex h-12 w-12 shrink-0 items-center justify-center">
+      <svg viewBox="0 0 48 48" className="absolute inset-0 h-full w-full drop-shadow-sm" aria-hidden="true">
+        <defs>
+          <linearGradient id={gradId} x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stopColor="#fbbf24" />
+            <stop offset="55%" stopColor="#f97316" />
+            <stop offset="100%" stopColor="#c2410c" />
+          </linearGradient>
+        </defs>
+        {petals.map((deg) => (
+          <ellipse
+            key={deg}
+            cx="24"
+            cy="9"
+            rx="5"
+            ry="8.5"
+            fill={`url(#${gradId})`}
+            opacity="0.28"
+            transform={`rotate(${deg} 24 24)`}
+          />
+        ))}
+        <circle cx="24" cy="24" r="14" fill={`url(#${gradId})`} />
+        <circle cx="24" cy="24" r="11.5" fill="none" stroke="rgba(255,255,255,0.55)" strokeWidth="0.8" />
+      </svg>
+      <span className="relative font-devanagari text-[15px] font-bold leading-none text-white">{label}</span>
+    </span>
+  );
+}
+
+const iconButton =
+  'inline-flex h-9 w-9 items-center justify-center rounded-full border border-dharma-border/70 bg-dharma-card/80 text-dharma-muted backdrop-blur transition hover:border-saffron-300 hover:text-saffron-700';
+
+export function VerseCard({
+  verse: v,
+  meaning,
+  layers,
+  chapterId,
+  category,
+  scriptureTitle,
+  chapterTitle,
+  chantingMode,
+  sanskritFontSizeClass,
+  bookmarked,
+  copied,
+  onToggleBookmark,
+  onCopy,
+  onContribute,
+  note,
+  onSaveNote,
+  highlight,
+  onHighlight,
+  onReciteFinish,
+  onOpenFocus,
+}: Props) {
+  const reduce = useReducedMotion();
+  const cardRef = useRef<HTMLElement>(null);
+  const tabsId = useId();
+
+  // ── Line-by-line recitation follow-along ──
+  const [activeSpeakingLine, setActiveSpeakingLine] = useState<number | 'meaning' | null>(null);
+  const myVerseKey = v.sanskrit || v.hindi || v.translation || '';
+
+  useEffect(() => {
+    const unsubscribe = subscribeRecitation((recState: RecitationState) => {
+      if (recState.activeKey === myVerseKey && recState.isSpeaking) {
+        setActiveSpeakingLine(recState.lineIndex);
+      } else {
+        setActiveSpeakingLine(null);
+      }
+    });
+    return unsubscribe;
+  }, [myVerseKey]);
+
+  // ── Highlight colour picker ──
+  const [pickerOpen, setPickerOpen] = useState(false);
+  const pickerRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    if (!pickerOpen) return;
+    const onDown = (e: MouseEvent) => {
+      if (!pickerRef.current?.contains(e.target as Node)) setPickerOpen(false);
+    };
+    const onKey = (e: globalThis.KeyboardEvent) => {
+      if (e.key === 'Escape') setPickerOpen(false);
+    };
+    document.addEventListener('mousedown', onDown);
+    document.addEventListener('keydown', onKey);
+    return () => {
+      document.removeEventListener('mousedown', onDown);
+      document.removeEventListener('keydown', onKey);
+    };
+  }, [pickerOpen]);
+
+  // ── Personal note ──
+  const [editingNote, setEditingNote] = useState(false);
+  const [draft, setDraft] = useState('');
+  const openNoteEditor = () => {
+    setDraft(note ?? '');
+    setEditingNote(true);
+  };
+  const saveNote = () => {
+    onSaveNote(draft.trim());
+    setEditingNote(false);
+  };
+
+  const lines = useMemo(() => (v.sanskrit ? verseLines(v.sanskrit) : []), [v.sanskrit]);
+
+  const { explanation, science, lesson } = meaning;
+  // The source flag only says which file the text came from; Hindi व्याख्या
+  // also lives in the verse data itself, so check the text.
+  const explanationIsHi = meaning.explanationIsHi || isMostlyDevanagari(explanation);
+  const scienceIsHi = meaning.scienceIsHi || isMostlyDevanagari(science);
+  const lessonIsHi = meaning.lessonIsHi || isMostlyDevanagari(lesson);
+  // Most sources repeat the explanation as the "simple meaning" (641 of 644
+  // Gita verses); show it once, keeping the longer text.
+  const wordMeaning =
+    v.wordMeaning && explanation && sameText(v.wordMeaning, explanation) ? undefined : v.wordMeaning;
+  const showHindi = Boolean(v.hindi && layers.hindi);
+  const showEnglish = Boolean(v.translation && layers.english);
+
+  const tabs = useMemo(() => {
+    const list: Array<{ id: TabId; label: string; icon: typeof Sparkles }> = [];
+    if (showHindi || showEnglish) list.push({ id: 'meaning', label: 'अर्थ', icon: ScrollText });
+    if (layers.commentary && (wordMeaning || explanation)) {
+      list.push({ id: 'explain', label: 'व्याख्या', icon: Sparkles });
+    }
+    if (layers.commentary && science) list.push({ id: 'science', label: 'विज्ञान', icon: Atom });
+    return list;
+  }, [showHindi, showEnglish, layers.commentary, wordMeaning, explanation, science]);
+
+  const [chosenTab, setChosenTab] = useState<TabId>('meaning');
+  // Fall back to the first available tab if the chosen one was switched off.
+  const activeTab = tabs.some((t) => t.id === chosenTab) ? chosenTab : tabs[0]?.id;
+  const showLesson = Boolean(layers.commentary && lesson);
+  const hasMeaning = tabs.length > 0 || showLesson;
+
+  // Cursor spotlight: CSS variables only, no React re-render per move.
+  const onPointerMove = (e: PointerEvent<HTMLElement>) => {
+    const el = cardRef.current;
+    if (!el || reduce || e.pointerType !== 'mouse') return;
+    const rect = el.getBoundingClientRect();
+    el.style.setProperty('--mx', `${e.clientX - rect.left}px`);
+    el.style.setProperty('--my', `${e.clientY - rect.top}px`);
+  };
+
+  // WAI-ARIA tabs: arrow keys / Home / End move between tabs.
+  const onTabKeyDown = (e: KeyboardEvent<HTMLButtonElement>, index: number) => {
+    let next = -1;
+    if (e.key === 'ArrowRight') next = (index + 1) % tabs.length;
+    else if (e.key === 'ArrowLeft') next = (index - 1 + tabs.length) % tabs.length;
+    else if (e.key === 'Home') next = 0;
+    else if (e.key === 'End') next = tabs.length - 1;
+    if (next === -1) return;
+    e.preventDefault();
+    setChosenTab(tabs[next].id);
+    document.getElementById(`${tabsId}-tab-${tabs[next].id}`)?.focus();
+  };
+
+  const fadeIn = (i: number) =>
+    reduce
+      ? {}
+      : {
+          initial: { opacity: 0, y: 10, filter: 'blur(4px)' },
+          whileInView: { opacity: 1, y: 0, filter: 'blur(0px)' },
+          viewport: { once: true, margin: '0px 0px -40px 0px' },
+          transition: { duration: 0.55, delay: 0.08 + i * 0.12, ease: EASE_OUT_QUINT },
+        };
+
+  const verseLabel = String(v.number);
+
+  return (
+    <article
+      ref={cardRef}
+      id={`verse-${v.number}`}
+      onPointerMove={onPointerMove}
+      className={`verse-card group relative scroll-mt-24 rounded-[28px] border border-dharma-border bg-dharma-card card-3d-depth ${
+        highlight ? HIGHLIGHTS[highlight].ring : chantingMode ? 'ring-2 ring-saffron-500/25' : ''
+      } ${getVerseGraphicClass(category)}`}
+      style={getVerseGraphicStyle({ category, verseId: v.number })}
+      aria-label={`श्लोक ${verseLabel}${highlight ? ` · ${HIGHLIGHTS[highlight].label} हाइलाइट` : ''}`}
+    >
+      {/* Clips the decorative layers to the rounded card; kept separate so
+          the highlight picker can overflow the card edge. */}
+      <div aria-hidden="true" className="pointer-events-none absolute inset-0 overflow-hidden rounded-[28px]">
+        <div className="verse-card-spotlight" />
+        {/* Gilded spine, like the binding edge of a manuscript leaf; takes the highlight colour */}
+        <div
+          className={`absolute inset-y-8 left-0 rounded-r-full bg-gradient-to-b opacity-80 ${
+            highlight ? `w-1.5 ${HIGHLIGHTS[highlight].spine}` : 'w-1 from-amber-300 via-saffron-500 to-rose-500'
+          }`}
+        />
+      </div>
+
+      <div className="relative p-5 md:p-7">
+        {/* ── Header ─────────────────────────────────────────── */}
+        <header className="mb-5 flex flex-wrap items-center gap-x-3 gap-y-3">
+          {onOpenFocus ? (
+            <button
+              type="button"
+              onClick={onOpenFocus}
+              className="flex items-center gap-3 text-left focus:outline-none group/hdr"
+              title="एकाग्रता मोड में पढ़ें (Focus Mode)"
+            >
+              <VerseMedallion label={toDevanagari(verseLabel)} />
+              <div className="shrink-0 whitespace-nowrap">
+                <p className="text-[11px] font-semibold text-saffron-700/80 dark:text-saffron-300/80">
+                  अध्याय {toDevanagari(chapterId)}
+                </p>
+                <p className="font-serif text-base font-bold text-dharma-text group-hover/hdr:text-saffron-700 transition-colors">
+                  श्लोक {verseLabel}
+                </p>
+              </div>
+            </button>
+          ) : (
+            <div className="flex items-center gap-3">
+              <VerseMedallion label={toDevanagari(verseLabel)} />
+              <div className="shrink-0 whitespace-nowrap">
+                <p className="text-[11px] font-semibold text-saffron-700/80 dark:text-saffron-300/80">
+                  अध्याय {toDevanagari(chapterId)}
+                </p>
+                <p className="font-serif text-base font-bold text-dharma-text">श्लोक {verseLabel}</p>
+              </div>
+            </div>
+          )}
+
+          {/* On phones the actions get their own row so all of them fit. */}
+          <div
+            className="order-last flex w-full items-center justify-between gap-1 sm:order-none sm:ml-auto sm:w-auto sm:justify-end sm:gap-1.5"
+            role="toolbar"
+            aria-label="श्लोक विकल्प (Verse actions)"
+          >
+            <button
+              type="button"
+              onClick={onToggleBookmark}
+              className={`${iconButton} ${bookmarked ? '!border-saffron-400 !bg-saffron-50 !text-saffron-700 dark:!bg-saffron-900/30' : ''}`}
+              aria-pressed={bookmarked}
+              aria-label={bookmarked ? 'बुकमार्क हटाएं (Remove bookmark)' : 'बुकमार्क करें (Bookmark)'}
+              title={bookmarked ? 'बुकमार्क हटाएं' : 'बुकमार्क करें'}
+            >
+              {bookmarked ? (
+                <BookmarkCheck className="h-4 w-4 fill-saffron-500/25" />
+              ) : (
+                <Bookmark className="h-4 w-4" />
+              )}
+            </button>
+
+            {/* Highlight: colour picker popover */}
+            <div className="relative" ref={pickerRef}>
+              <button
+                type="button"
+                onClick={() => setPickerOpen((o) => !o)}
+                className={`${iconButton} ${highlight ? '!border-transparent !text-white ' + HIGHLIGHTS[highlight].swatch : ''}`}
+                aria-expanded={pickerOpen}
+                aria-haspopup="true"
+                aria-label={highlight ? `हाइलाइट: ${HIGHLIGHTS[highlight].label} (Change highlight)` : 'हाइलाइट करें (Highlight)'}
+                title="हाइलाइट करें"
+              >
+                <Highlighter className="h-4 w-4" />
+              </button>
+              <AnimatePresence>
+                {pickerOpen && (
+                  <motion.div
+                    role="group"
+                    aria-label="हाइलाइट रंग चुनें (Choose highlight colour)"
+                    initial={reduce ? { opacity: 0 } : { opacity: 0, y: -4, scale: 0.95 }}
+                    animate={{ opacity: 1, y: 0, scale: 1 }}
+                    exit={{ opacity: 0 }}
+                    transition={{ duration: 0.14 }}
+                    className="absolute left-1/2 top-full z-30 mt-2 flex -translate-x-1/2 items-center gap-1.5 rounded-full border border-dharma-border bg-dharma-card p-1.5 shadow-xl"
+                  >
+                    {(Object.keys(HIGHLIGHTS) as HighlightColor[]).map((c) => (
+                      <button
+                        key={c}
+                        type="button"
+                        onClick={() => {
+                          onHighlight(c);
+                          setPickerOpen(false);
+                        }}
+                        className={`h-7 w-7 rounded-full ${HIGHLIGHTS[c].swatch} transition hover:scale-110 ${
+                          highlight === c ? 'ring-2 ring-offset-2 ring-offset-dharma-card ring-dharma-text/60' : ''
+                        }`}
+                        aria-pressed={highlight === c}
+                        aria-label={`${HIGHLIGHTS[c].label}${highlight === c ? ' (हटाने के लिए दबाएँ)' : ''}`}
+                        title={HIGHLIGHTS[c].label}
+                      />
+                    ))}
+                    {highlight && (
+                      <button
+                        type="button"
+                        onClick={() => {
+                          onHighlight(highlight); // same colour toggles it off
+                          setPickerOpen(false);
+                        }}
+                        className="flex h-7 w-7 items-center justify-center rounded-full border border-dharma-border text-dharma-muted hover:text-dharma-text"
+                        aria-label="हाइलाइट हटाएँ (Remove highlight)"
+                        title="हटाएँ"
+                      >
+                        <X className="h-3.5 w-3.5" />
+                      </button>
+                    )}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+
+            <button
+              type="button"
+              onClick={() => (editingNote ? setEditingNote(false) : openNoteEditor())}
+              className={`${iconButton} ${note ? '!border-indigo-300 !bg-indigo-50 !text-indigo-700 dark:!bg-indigo-500/15 dark:!text-indigo-300' : ''}`}
+              aria-expanded={editingNote}
+              aria-label={note ? 'नोट संपादित करें (Edit note)' : 'नोट लिखें (Add a note)'}
+              title={note ? 'नोट संपादित करें' : 'नोट लिखें'}
+            >
+              <StickyNote className="h-4 w-4" />
+            </button>
+            <button
+              type="button"
+              onClick={onCopy}
+              className={`${iconButton} ${copied ? '!border-emerald-300 !text-emerald-600' : ''}`}
+              aria-label={copied ? 'कॉपी हो गया (Copied)' : 'उद्धरण सहित कॉपी करें (Copy with citation)'}
+              title="कॉपी करें"
+            >
+              {copied ? <Check className="h-4 w-4" /> : <Copy className="h-4 w-4" />}
+            </button>
+            <span className="[&>button]:h-9 [&>button]:w-9">
+              <ListenButton
+                sanskrit={v.sanskrit}
+                hindi={v.hindi}
+                translation={v.translation}
+                onReciteFinish={onReciteFinish}
+              />
+            </span>
+            <span className="[&>button]:h-9 [&>button]:w-9">
+              <ShareVerseButton
+                scriptureTitle={scriptureTitle}
+                chapterTitle={chapterTitle}
+                verseLabel={verseLabel}
+                sanskrit={v.sanskrit}
+                transliteration={v.transliteration}
+                hindi={v.hindi}
+                translation={v.translation}
+              />
+            </span>
+            {onOpenFocus && (
+              <button
+                type="button"
+                onClick={onOpenFocus}
+                className={iconButton}
+                aria-label="एकाग्रता मोड में पढ़ें (Focus Mode)"
+                title="एकाग्रता मोड (Focus Mode)"
+              >
+                <Maximize2 className="h-4 w-4" />
+              </button>
+            )}
+            {!chantingMode && (
+              <button
+                type="button"
+                onClick={onContribute}
+                className={`${iconButton} hidden sm:inline-flex`}
+                aria-label="अर्थ जोड़ें या सुधारें (Contribute a meaning)"
+                title="योगदान करें"
+              >
+                <Edit3 className="h-4 w-4" />
+              </button>
+            )}
+          </div>
+        </header>
+
+        {/* ── Sanskrit on a manuscript leaf ───────────────────── */}
+        {lines.length > 0 && (
+          <div className="verse-leaf relative rounded-2xl px-5 py-6 text-center md:px-10 md:py-8">
+            <span aria-hidden="true" className="verse-leaf-ornament left-3 top-2">❁</span>
+            <span aria-hidden="true" className="verse-leaf-ornament right-3 top-2">❁</span>
+            <p lang="sa" className={`font-devanagari ${sanskritFontSizeClass} text-dharma-text`}>
+              {lines.map((line, i) => {
+                const isLineSpeaking = activeSpeakingLine === i;
+                return (
+                  <motion.span
+                    key={i}
+                    className={`block rounded-xl px-2.5 py-1 -mx-2.5 transition-all duration-300 ${
+                      isLineSpeaking
+                        ? 'bg-gradient-to-r from-saffron-500/25 via-amber-500/20 to-saffron-500/25 text-saffron-950 dark:text-amber-100 font-bold shadow-sm ring-1 ring-saffron-400/60 scale-[1.01]'
+                        : ''
+                    }`}
+                    {...fadeIn(i)}
+                  >
+                    {line}
+                  </motion.span>
+                );
+              })}
+              <motion.span
+                className="mt-2 block font-bold text-saffron-700 dark:text-amber-300"
+                {...fadeIn(lines.length)}
+              >
+                ॥ {toDevanagari(verseLabel)} ॥
+              </motion.span>
+            </p>
+            {v.transliteration && layers.translit && (
+              <p
+                lang="sa-Latn"
+                className="mx-auto mt-4 max-w-2xl whitespace-pre-line border-t border-amber-700/15 pt-4 text-sm italic leading-relaxed text-dharma-muted md:text-[15px]"
+              >
+                {/* The ॥ N ॥ above already closes the verse; drop the source's trailing "||". */}
+                {v.transliteration.replace(/[\s|।॥0-9.]+$/, '')}
+              </p>
+            )}
+          </div>
+        )}
+
+        {/* ── The reader's own note ─────────────────────────── */}
+        {!chantingMode && (editingNote || note) && (
+          <div className="mt-5 rounded-2xl border border-indigo-200/80 bg-indigo-50/60 p-4 dark:border-indigo-400/25 dark:bg-indigo-500/10">
+            <p className="mb-2 flex items-center gap-1.5 text-xs font-bold text-indigo-700 dark:text-indigo-300">
+              <StickyNote className="h-3.5 w-3.5" aria-hidden="true" />
+              मेरा नोट
+            </p>
+            {editingNote ? (
+              <>
+                <textarea
+                  autoFocus
+                  value={draft}
+                  maxLength={NOTE_MAX}
+                  onChange={(e) => setDraft(e.target.value)}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Escape') setEditingNote(false);
+                    if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) saveNote();
+                  }}
+                  rows={3}
+                  placeholder="इस श्लोक पर आपका विचार, प्रश्न या अनुभव…"
+                  aria-label={`श्लोक ${verseLabel} पर नोट`}
+                  className="w-full resize-y rounded-xl border border-indigo-200 bg-dharma-card p-3 text-sm leading-relaxed text-dharma-text outline-none focus:border-indigo-400 focus:ring-2 focus:ring-indigo-400/20 dark:border-indigo-400/30"
+                />
+                <div className="mt-2 flex items-center gap-2">
+                  <button
+                    type="button"
+                    onClick={saveNote}
+                    className="rounded-full bg-indigo-600 px-4 py-1.5 text-xs font-bold text-white transition hover:bg-indigo-700"
+                  >
+                    सहेजें
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setEditingNote(false)}
+                    className="rounded-full px-3 py-1.5 text-xs font-semibold text-dharma-muted transition hover:text-dharma-text"
+                  >
+                    रद्द करें
+                  </button>
+                  {note && (
+                    <button
+                      type="button"
+                      onClick={() => {
+                        onSaveNote('');
+                        setEditingNote(false);
+                      }}
+                      className="ml-auto rounded-full px-3 py-1.5 text-xs font-semibold text-rose-600 transition hover:bg-rose-50 dark:hover:bg-rose-500/10"
+                    >
+                      हटाएँ
+                    </button>
+                  )}
+                  <span
+                    className={`hidden text-[11px] text-dharma-muted sm:inline ${note ? '' : 'ml-auto'}`}
+                    aria-hidden="true"
+                  >
+                    Ctrl + Enter
+                  </span>
+                </div>
+              </>
+            ) : (
+              <button
+                type="button"
+                onClick={openNoteEditor}
+                className="block w-full whitespace-pre-line text-left text-sm leading-relaxed text-dharma-text"
+                aria-label="नोट संपादित करें (Edit note)"
+              >
+                {note}
+              </button>
+            )}
+          </div>
+        )}
+
+        {!chantingMode && (
+          <>
+            {/* ── Meaning tabs ──────────────────────────────── */}
+            {tabs.length > 0 && activeTab && (
+              <div className="mt-5">
+                {tabs.length > 1 && (
+                  <div
+                    role="tablist"
+                    aria-label="अर्थ और व्याख्या"
+                    className="relative mb-4 inline-flex rounded-full border border-dharma-border/70 bg-dharma-bg/70 p-1"
+                  >
+                    {tabs.map((tab, i) => {
+                      const selected = tab.id === activeTab;
+                      const Icon = tab.icon;
+                      return (
+                        <button
+                          key={tab.id}
+                          id={`${tabsId}-tab-${tab.id}`}
+                          type="button"
+                          role="tab"
+                          aria-selected={selected}
+                          aria-controls={`${tabsId}-panel`}
+                          tabIndex={selected ? 0 : -1}
+                          onClick={() => setChosenTab(tab.id)}
+                          onKeyDown={(e) => onTabKeyDown(e, i)}
+                          className={`relative inline-flex items-center gap-1.5 rounded-full px-3.5 py-1.5 text-xs font-bold transition-colors ${
+                            selected ? 'text-white' : 'text-dharma-muted hover:text-dharma-text'
+                          }`}
+                        >
+                          {selected && (
+                            <motion.span
+                              layoutId={`${tabsId}-pill`}
+                              className="absolute inset-0 rounded-full bg-gradient-to-r from-saffron-600 to-amber-500 shadow-md"
+                              transition={reduce ? { duration: 0 } : { type: 'spring', stiffness: 480, damping: 36 }}
+                            />
+                          )}
+                          <Icon className="relative h-3.5 w-3.5" aria-hidden="true" />
+                          <span className="relative">{tab.label}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                )}
+
+                <AnimatePresence mode="wait" initial={false}>
+                  <motion.div
+                    key={activeTab}
+                    id={`${tabsId}-panel`}
+                    role={tabs.length > 1 ? 'tabpanel' : undefined}
+                    aria-labelledby={tabs.length > 1 ? `${tabsId}-tab-${activeTab}` : undefined}
+                    initial={reduce ? false : { opacity: 0, y: 6 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={reduce ? undefined : { opacity: 0, y: -4 }}
+                    transition={{ duration: 0.18 }}
+                    className={`space-y-4 rounded-2xl transition-all duration-300 ${
+                      activeSpeakingLine === 'meaning'
+                        ? 'ring-2 ring-saffron-400/60 bg-saffron-500/10 p-3.5 -m-3.5 shadow-sm'
+                        : ''
+                    }`}
+                  >
+                    {activeTab === 'meaning' && (
+                      <>
+                        {showHindi && (
+                          <p lang="hi" className="font-devanagari text-base leading-loose text-dharma-text md:text-[17px]">
+                            {v.hindi}
+                          </p>
+                        )}
+                        {showEnglish && (
+                          <p lang="en" className="text-sm leading-relaxed text-dharma-muted md:text-base">
+                            {v.translation}
+                            {v.translationSource === 'ai' && (
+                              <span
+                                className="ml-2 inline-block rounded-full border border-blue-200 bg-blue-50 px-1.5 py-px align-middle text-[9px] font-medium text-blue-700 dark:border-blue-400/30 dark:bg-blue-500/10 dark:text-blue-300"
+                                title="Machine-translated from the Sanskrit; not a scholarly translation"
+                              >
+                                AI translation
+                              </span>
+                            )}
+                          </p>
+                        )}
+                      </>
+                    )}
+
+                    {(activeTab === 'explain' || activeTab === 'science') && meaning.isAi && (
+                      <p
+                        className="inline-flex items-center gap-1.5 rounded-full border border-violet-200 bg-violet-50 px-2.5 py-0.5 text-[11px] font-semibold text-violet-700 dark:border-violet-400/30 dark:bg-violet-500/10 dark:text-violet-300"
+                        title="AI द्वारा तैयार और संपादक द्वारा समीक्षित — Drafted by AI, approved by a reviewer"
+                      >
+                        <Sparkles className="h-3 w-3" aria-hidden="true" />
+                        AI व्याख्या · समीक्षित
+                      </p>
+                    )}
+
+                    {activeTab === 'explain' && (
+                      <>
+                        {explanation && !explanationIsHi && (
+                          <p className="inline-flex items-center gap-1.5 rounded-full border border-dharma-border/70 bg-dharma-bg/70 px-2.5 py-0.5 text-[11px] font-semibold text-dharma-muted">
+                            हिन्दी व्याख्या शीघ्र · English commentary for now
+                          </p>
+                        )}
+                        {wordMeaning && (
+                          <p
+                            lang={isMostlyDevanagari(wordMeaning) ? 'hi' : 'en'}
+                            className="text-sm leading-relaxed text-dharma-text md:text-base"
+                          >
+                            {wordMeaning}
+                          </p>
+                        )}
+                        {explanation && (
+                          <p
+                            lang={explanationIsHi ? 'hi' : 'en'}
+                            className={`text-sm leading-relaxed text-dharma-text md:text-base ${explanationIsHi ? 'font-devanagari leading-loose' : ''}`}
+                          >
+                            {explanation}
+                          </p>
+                        )}
+                      </>
+                    )}
+
+                    {activeTab === 'science' && science && (
+                      <p
+                        lang={scienceIsHi ? 'hi' : 'en'}
+                        className={`border-l-2 border-indigo-400/60 pl-4 text-sm leading-relaxed text-dharma-text md:text-base ${scienceIsHi ? 'font-devanagari leading-loose' : ''}`}
+                      >
+                        {science}
+                      </p>
+                    )}
+                  </motion.div>
+                </AnimatePresence>
+              </div>
+            )}
+
+            {/* ── Life lesson: always visible, the takeaway ─────── */}
+            {showLesson && (
+              <motion.aside
+                {...(reduce
+                  ? {}
+                  : {
+                      initial: { opacity: 0, scale: 0.98 },
+                      whileInView: { opacity: 1, scale: 1 },
+                      viewport: { once: true },
+                      transition: { duration: 0.4 },
+                    })}
+                className="relative mt-5 overflow-hidden rounded-2xl border border-amber-300/60 bg-gradient-to-br from-amber-50 via-orange-50/70 to-transparent p-4 dark:border-amber-400/25 dark:from-amber-500/10 dark:via-orange-500/5"
+              >
+                {/* Letter-spacing only for the Latin label; it breaks Devanagari. */}
+                <p
+                  className={`mb-1.5 flex items-center gap-1.5 font-bold text-amber-700 dark:text-amber-300 ${
+                    lessonIsHi ? 'text-xs' : 'text-[11px] uppercase tracking-[0.18em]'
+                  }`}
+                >
+                  <Lightbulb className="h-3.5 w-3.5" aria-hidden="true" />
+                  {lessonIsHi ? 'आज की सीख' : "Today's lesson"}
+                </p>
+                <p
+                  lang={lessonIsHi ? 'hi' : 'en'}
+                  className={`text-sm font-medium leading-relaxed text-dharma-text md:text-base ${lessonIsHi ? 'font-devanagari leading-loose' : ''}`}
+                >
+                  {lesson}
+                </p>
+              </motion.aside>
+            )}
+
+            {v.keywords && v.keywords.length > 0 && (
+              <div className="mt-4 flex flex-wrap items-center gap-1.5">
+                <span className="text-[11px] font-medium text-dharma-muted/80 mr-1">संबंधित:</span>
+                {v.keywords.map((k) => {
+                  const target = resolveKeywordTarget(k);
+                  return (
+                    <Link
+                      key={k}
+                      href={target.href}
+                      title={target.tooltip}
+                      className="inline-flex items-center gap-1 rounded-full border border-saffron-200/80 bg-saffron-50/70 px-2.5 py-0.5 text-[11px] font-semibold text-saffron-800 transition-all hover:border-saffron-400 hover:bg-saffron-100 hover:text-saffron-900 hover:shadow-sm hover:-translate-y-0.5 active:translate-y-0 dark:border-saffron-400/25 dark:bg-saffron-500/10 dark:text-saffron-200 dark:hover:bg-saffron-500/20"
+                    >
+                      <span>#{k.replace(/^#+/, '')}</span>
+                    </Link>
+                  );
+                })}
+              </div>
+            )}
+
+            {!hasMeaning && (
+              <div className="mt-5 flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-dashed border-dharma-border bg-dharma-bg/60 p-4">
+                <p className="text-sm text-dharma-muted">इस श्लोक का अर्थ अभी जोड़ा जाना बाकी है।</p>
+                <button
+                  type="button"
+                  onClick={onContribute}
+                  className="inline-flex items-center gap-1.5 rounded-full border border-saffron-300 bg-saffron-50 px-3 py-1.5 text-xs font-bold text-saffron-800 transition hover:bg-saffron-100 dark:bg-saffron-500/10 dark:text-saffron-200"
+                >
+                  <Edit3 className="h-3.5 w-3.5" aria-hidden="true" /> पहला अर्थ जोड़ें
+                </button>
+              </div>
+            )}
+          </>
+        )}
+      </div>
+    </article>
+  );
+}

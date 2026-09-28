@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { DEFAULT_OG_IMAGE } from '@/lib/og';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import {
@@ -25,6 +26,7 @@ export function generateMetadata({ params }: { params: { id: string } }): Metada
     description: topic.shortDesc,
     alternates: { canonical: `/topics/${topic.id}` },
     openGraph: {
+      images: [DEFAULT_OG_IMAGE],
       title: `${topic.title} — Dharma Granth`,
       description: topic.shortDesc,
       url: `https://dharmagranth.in/topics/${topic.id}`,

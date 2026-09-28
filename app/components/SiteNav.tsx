@@ -13,6 +13,7 @@ import {
   useSpring,
 } from 'framer-motion';
 import { ThemeToggle } from './ThemeToggle';
+import { OPEN_SEARCH_EVENT, type OpenSearchDetail } from '@/lib/search-events';
 
 // The modal bundles the whole search index (concepts, dictionary, festivals…),
 // so keep it out of every page's JS and fetch it only when search is used.
@@ -59,6 +60,7 @@ export function SiteNav() {
   const [searchOpen, setSearchOpen] = useState(false);
   // Mount the modal only after first use so its chunk isn't fetched up front.
   const [searchMounted, setSearchMounted] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
   const [shortcutLabel, setShortcutLabel] = useState('Ctrl K');
   const discoverRef = useRef<HTMLDivElement>(null);
   const reduce = useReducedMotion();
@@ -76,7 +78,19 @@ export function SiteNav() {
 
   useEffect(() => {
     if (searchOpen) setSearchMounted(true);
+    else setSearchQuery('');
   }, [searchOpen]);
+
+  // Other components (e.g. the home hero) open search via openGlobalSearch().
+  useEffect(() => {
+    function handleOpenSearch(e: Event) {
+      const { query } = (e as CustomEvent<OpenSearchDetail>).detail ?? {};
+      setSearchQuery(query ?? '');
+      setSearchOpen(true);
+    }
+    window.addEventListener(OPEN_SEARCH_EVENT, handleOpenSearch);
+    return () => window.removeEventListener(OPEN_SEARCH_EVENT, handleOpenSearch);
+  }, []);
 
   useEffect(() => {
     if (/Mac|iPhone|iPad/.test(navigator.platform || navigator.userAgent)) {
@@ -398,7 +412,11 @@ export function SiteNav() {
       />
 
       {searchMounted && (
-        <GlobalSearchModal isOpen={searchOpen} onClose={() => setSearchOpen(false)} />
+        <GlobalSearchModal
+          isOpen={searchOpen}
+          initialQuery={searchQuery}
+          onClose={() => setSearchOpen(false)}
+        />
       )}
     </nav>
   );

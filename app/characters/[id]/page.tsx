@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { DEFAULT_OG_IMAGE } from '@/lib/og';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import {
@@ -26,6 +27,7 @@ export function generateMetadata({ params }: { params: { id: string } }): Metada
     description: character.shortDesc,
     alternates: { canonical: `/characters/${character.id}` },
     openGraph: {
+      images: [DEFAULT_OG_IMAGE],
       title: `${character.name} (${character.sanskrit}) — Dharma Granth`,
       description: character.shortDesc,
       url: `https://dharmagranth.in/characters/${character.id}`,

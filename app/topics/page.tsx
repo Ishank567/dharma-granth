@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { DEFAULT_OG_IMAGE } from '@/lib/og';
 import Link from 'next/link';
 import { FadeUp, FadeUpOnView } from '@/app/components/motion/primitives';
 import { topics, topicCategories, type Topic } from '@/data/topics';
@@ -9,6 +10,7 @@ export const metadata: Metadata = {
     'Discover how the Bhagavad Gita, Upanishads, and other Hindu scriptures speak to contemporary challenges — career, stress, relationships, parenting, social media, money, leadership, and more.',
   alternates: { canonical: '/topics' },
   openGraph: {
+    images: [DEFAULT_OG_IMAGE],
     title: 'Modern-Life Application — Dharma Granth',
     description:
       'Discover how the Bhagavad Gita, Upanishads, and other Hindu scriptures speak to contemporary challenges.',

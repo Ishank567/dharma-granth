@@ -70,6 +70,23 @@ function main(): void {
         fs.writeFileSync(path.join(outDir, `ch-${num}.json`), json);
       }
     }
+
+    if (!DRY) {
+      const manifest = {
+        id,
+        totalChapters: book.chapters?.length ?? 0,
+        chapters: (book.chapters ?? []).map((ch) => ({
+          number: typeof ch.number === "number" ? ch.number : Number(ch.number),
+          title: ch.title || `अध्याय ${ch.number}`,
+          titleSanskrit: ch.titleSanskrit,
+          summary: ch.summary,
+          verseCount: ch.verses?.length ?? 0,
+        })),
+        source: book.source,
+      };
+      fs.writeFileSync(path.join(outDir, "manifest.json"), JSON.stringify(manifest));
+    }
+
     totalBytes += shardBytes;
     console.log(
       `${id}: ${book.chapters?.length ?? 0} chapters → ${(shardBytes / 1024).toFixed(0)}KB shards`,

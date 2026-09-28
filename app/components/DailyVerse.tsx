@@ -5,6 +5,8 @@ import Link from 'next/link';
 import { motion, useReducedMotion } from 'framer-motion';
 import { Sparkles, ArrowRight, BookOpen } from 'lucide-react';
 import { FadeUp } from '@/app/components/motion/primitives';
+import { Realistic3DCard } from '@/app/components/motion/Realistic3DCard';
+import { MagneticButton } from '@/app/components/motion/MagneticButton';
 
 interface DailyVerseData {
   sanskrit: string;
@@ -123,14 +125,20 @@ export function DailyVerse() {
 
   return (
     <FadeUp>
-      <div className="daily-verse-card relative overflow-hidden rounded-3xl border border-saffron-200 bg-gradient-to-br from-saffron-50 via-amber-50 to-orange-50 p-8 md:p-10 shadow-lg">
+      <Realistic3DCard
+        maxTilt={8}
+        depth={24}
+        glareIntensity={0.25}
+        className="daily-verse-card relative overflow-hidden rounded-3xl border border-saffron-200 bg-gradient-to-br from-saffron-50 via-amber-50 to-orange-50 shadow-2xl card-3d-depth"
+        contentClassName="p-8 md:p-10"
+      >
         {/* Decorative mandala */}
-        <div className="absolute inset-0 mandala-bg opacity-[0.04] pointer-events-none" />
+        <div className="absolute inset-0 mandala-bg opacity-[0.05] pointer-events-none" />
 
-        <div className="relative">
+        <div className="relative z-10">
           <div className="flex items-center gap-2 mb-6">
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-saffron-100 text-saffron-800 text-xs font-bold uppercase tracking-wider border border-saffron-200">
-              <Sparkles className="w-3.5 h-3.5" />
+              <Sparkles className="w-3.5 h-3.5 text-amber-600 animate-spin-slow" />
               Verse of the Day
             </span>
             <span className="text-xs text-dharma-muted">
@@ -138,7 +146,7 @@ export function DailyVerse() {
             </span>
           </div>
 
-          <p lang="sa" className="font-devanagari text-3xl md:text-4xl text-saffron-800 mb-4 leading-relaxed">
+          <p lang="sa" className="font-devanagari text-3xl md:text-4xl text-saffron-800 mb-4 leading-relaxed drop-shadow-sm">
             {verse.sanskrit}
           </p>
 
@@ -148,10 +156,10 @@ export function DailyVerse() {
 
           <div className="w-12 h-px bg-saffron-300 mb-4" />
 
-          <p className="text-lg text-dharma-text mb-2 leading-relaxed">
+          <p className="text-lg text-dharma-text mb-2 leading-relaxed font-serif">
             {verse.translation}
           </p>
-          <p lang="hi" className="text-sm text-rose-800 font-devanagari mb-4">
+          <p lang="hi" className="text-sm text-rose-800 font-devanagari mb-4 leading-relaxed">
             {verse.hindi}
           </p>
 
@@ -159,21 +167,23 @@ export function DailyVerse() {
             {verse.explanation}
           </p>
 
-          <div className="flex flex-wrap items-center justify-between gap-4">
+          <div className="flex flex-wrap items-center justify-between gap-4 pt-2">
             <span className="text-xs font-semibold text-saffron-700 uppercase tracking-wider">
               {verse.scriptureTitle} • {verse.chapterTitle} • Verse {verse.verseId}
             </span>
-            <Link
+            <MagneticButton
               href={verseUrl}
-              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-saffron-600 to-amber-600 text-white text-sm font-bold hover:from-saffron-700 hover:to-amber-700 transition shadow-md hover:shadow-lg"
+              className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-gradient-to-r from-saffron-600 to-amber-600 text-white text-sm font-bold shadow-lg hover:from-saffron-700 hover:to-amber-700 shine-sweep"
+              strength={16}
+              tilt={8}
             >
               <BookOpen className="w-4 h-4" />
               Study this verse
               <ArrowRight className="w-4 h-4" />
-            </Link>
+            </MagneticButton>
           </div>
         </div>
-      </div>
+      </Realistic3DCard>
     </FadeUp>
   );
 }

@@ -36,10 +36,12 @@ export function ContinueReading() {
       <div className="mx-auto max-w-6xl px-5 sm:px-6">
         <h2
           id="continue-reading-heading"
-          className="mb-4 flex items-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-saffron-700"
+          className="mb-4 flex items-center gap-2 text-xs font-bold text-saffron-700"
         >
           <History className="h-4 w-4" aria-hidden="true" />
-          पढ़ना जारी रखें · Continue reading
+          {/* Letter-spacing on the Latin half only; it breaks Devanagari. */}
+          पढ़ना जारी रखें ·{' '}
+          <span className="uppercase tracking-[0.2em]">Continue reading</span>
         </h2>
 
         <div className="grid gap-4 lg:grid-cols-[1.4fr_1fr]">
@@ -86,11 +88,11 @@ export function ContinueReading() {
             </div>
             <div className="mt-5 flex flex-wrap gap-2">
               <Link
-                href={chapterHref(latest)}
+                href={`${chapterHref(latest)}${latest.verseId ? `#verse-${latest.verseId}` : ''}`}
                 className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-saffron-600 to-amber-600 px-5 py-2.5 text-sm font-bold text-white shadow-md transition hover:from-saffron-700 hover:to-amber-700"
               >
                 <BookOpen className="h-4 w-4" aria-hidden="true" />
-                जारी रखें
+                {latest.verseId ? `श्लोक ${latest.verseId} से जारी रखें` : 'जारी रखें'}
               </Link>
               {hasNext && (
                 <Link
@@ -109,7 +111,7 @@ export function ContinueReading() {
               {others.slice(0, 3).map((v) => (
                 <li key={v.scriptureId}>
                   <Link
-                    href={chapterHref(v)}
+                    href={`${chapterHref(v)}${v.verseId ? `#verse-${v.verseId}` : ''}`}
                     className="group flex items-center justify-between gap-3 rounded-xl border border-dharma-border bg-dharma-card px-4 py-3 transition hover:border-saffron-300"
                   >
                     <span className="min-w-0">

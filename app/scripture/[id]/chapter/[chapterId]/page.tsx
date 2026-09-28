@@ -7,6 +7,7 @@ import { AmbientOrbs } from '@/app/components/motion/AmbientOrbs';
 import { ChapterHero } from '@/app/components/motion/ChapterHero';
 import { FullChapterVerses } from '@/app/components/FullChapterVerses';
 import { ChapterKeyboardNav } from '@/app/components/ChapterKeyboardNav';
+import { ChapterCompletion } from '@/app/components/ChapterCompletion';
 import { ChapterVisitRecorder } from '@/app/components/ChapterVisitRecorder';
 import { FadeUpOnView } from '@/app/components/motion/primitives';
 import { getScriptureMeta, getAllScriptures, getScriptureChapters } from '@/data/scriptures';
@@ -291,6 +292,15 @@ export default function ChapterPage({ params }: PageProps) {
             <kbd className="rounded border border-dharma-border px-1 font-mono">→</kbd> से अध्याय बदलें
           </p>
         )}
+        <ChapterCompletion
+          key={`${meta.id}-${chapter.id}`}
+          scriptureId={meta.id}
+          chapterId={chapter.id}
+          chapterTitle={chapter.title || `अध्याय ${chapter.id}`}
+          totalChapters={totalChapterCount}
+          nextHref={nextHref}
+          nextLabel={nextLabel}
+        />
         <ChapterKeyboardNav prevHref={prevHref} nextHref={nextHref} />
         <ChapterVisitRecorder
           scriptureId={meta.id}

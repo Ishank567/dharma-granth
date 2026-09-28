@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { motion, useReducedMotion, useMotionValue, useTransform, PanInfo } from 'framer-motion';
 import { ChevronRight, ChevronLeft, RotateCcw, Volume2, Shuffle, Keyboard, BarChart3 } from 'lucide-react';
+import { triggerTactileFeedback } from '@/lib/haptics';
 
 export interface FlashCardData {
   front: {
@@ -39,22 +40,26 @@ export function FlashCard({ data, onNext, onPrevious, onReset, currentIndex, tot
   const rotateX = useTransform(x, [-200, 200], [15, -15]);
 
   const handleFlip = useCallback(() => {
+    triggerTactileFeedback('medium', 'softTap');
     setIsFlipped(i => !i);
   }, []);
 
   const handleNext = useCallback(() => {
+    triggerTactileFeedback('light', 'click');
     setIsFlipped(false);
     setShowHint(false);
     onNext();
   }, [onNext]);
 
   const handlePrevious = useCallback(() => {
+    triggerTactileFeedback('light', 'click');
     setIsFlipped(false);
     setShowHint(false);
     onPrevious();
   }, [onPrevious]);
 
   const handleReset = useCallback(() => {
+    triggerTactileFeedback('heavy', 'softTap');
     setIsFlipped(false);
     setShowHint(false);
     onReset();
