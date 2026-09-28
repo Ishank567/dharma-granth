@@ -16,17 +16,55 @@ interface Utterance {
   rate: number;
 }
 
+/**
+ * Clean Sanskrit text for natural speech synthesis:
+ * - Strips shloka numbers e.g. ॥ १ ॥, || 15 ||, ॥१-१॥
+ * - Converts dandas into natural breathing pauses (, or .)
+ * - Normalizes whitespace and removes trailing verse numbers
+ */
+function cleanSanskritForSpeech(sanskrit: string): string {
+  return sanskrit
+    .replace(/[॥।]\s*[\d०-९\-\:\.]+\s*[॥।]/g, '।')
+    .replace(/\|\s*[\d\-\:\.]+\s*\|/g, ',')
+    .replace(/[\d०-९]+$/gm, '')
+    .replace(/॥+/g, '। ')
+    .replace(/।+/g, ', ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+/**
+ * Clean meaning text for speech:
+ * - Strips footnotes, citations, and brackets like [1], (1)
+ * - Normalizes quotes and spacing
+ */
+function cleanMeaningForSpeech(text: string): string {
+  return text
+    .replace(/\[\d+\]|\(\d+\)/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
 function utterancesFor(verse: RecitableVerse): Utterance[] {
   const queue: Utterance[] = [];
   if (verse.sanskrit?.trim()) {
-    queue.push({ text: verse.sanskrit.trim(), lang: DEVANAGARI_LANG, rate: 1 });
+    const cleaned = cleanSanskritForSpeech(verse.sanskrit);
+    if (cleaned) {
+      // Measured, serene cadence for Sanskrit recitation (0.86 rate)
+      queue.push({ text: cleaned, lang: DEVANAGARI_LANG, rate: 0.86 });
+    }
   }
-  const meaning = verse.hindi?.trim()
-    ? { text: verse.hindi.trim(), lang: DEVANAGARI_LANG, rate: 1 }
-    : verse.translation?.trim()
-      ? { text: verse.translation.trim(), lang: ENGLISH_LANG, rate: 1 }
-      : null;
-  if (meaning) queue.push(meaning);
+  if (verse.hindi?.trim()) {
+    const cleaned = cleanMeaningForSpeech(verse.hindi);
+    if (cleaned) {
+      queue.push({ text: cleaned, lang: DEVANAGARI_LANG, rate: 0.95 });
+    }
+  } else if (verse.translation?.trim()) {
+    const cleaned = cleanMeaningForSpeech(verse.translation);
+    if (cleaned) {
+      queue.push({ text: cleaned, lang: ENGLISH_LANG, rate: 0.95 });
+    }
+  }
   return queue;
 }
 
