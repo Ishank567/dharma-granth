@@ -1,5 +1,10 @@
+import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 import Link from 'next/link';
+
+export const metadata: Metadata = {
+  alternates: { canonical: '/' },
+};
 import { categories } from '@/data/scripture-meta';
 import {
   getAllScriptures,

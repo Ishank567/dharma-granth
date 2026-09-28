@@ -4,9 +4,16 @@ import { FadeUp, FadeUpOnView } from '@/app/components/motion/primitives';
 import { dictionary, termCategories, type DictionaryTerm } from '@/data/dictionary';
 
 export const metadata: Metadata = {
-  title: 'Terminology Dictionary — Dharma Granth',
+  title: 'Terminology Dictionary (शब्दकोश) — Dharma Granth',
   description:
     'A structured dictionary of fundamental Hindu terminology — Dharma, Ṛta, Satya, Ātman, Brahman, Īśvara, Jīva, Karma, Saṃsāra, Mokṣa, Śraddhā, Tapas, Vairāgya. Each term includes Sanskrit, etymology, cross-tradition interpretations, and related verses.',
+  alternates: { canonical: '/dictionary' },
+  openGraph: {
+    title: 'Terminology Dictionary (शब्दकोश) — Dharma Granth',
+    description:
+      'A structured dictionary of fundamental Hindu terminology: Dharma, Ṛta, Satya, Ātman, Brahman, Mokṣa, and more.',
+    url: 'https://dharmagranth.in/dictionary',
+  },
 };
 
 export default function DictionaryPage() {

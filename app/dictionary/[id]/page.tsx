@@ -24,6 +24,12 @@ export function generateMetadata({ params }: { params: { id: string } }): Metada
   return {
     title: `${term.term} (${term.sanskrit}) — Dharma Granth Dictionary`,
     description: term.shortDef,
+    alternates: { canonical: `/dictionary/${term.id}` },
+    openGraph: {
+      title: `${term.term} (${term.sanskrit}) — Dharma Granth Dictionary`,
+      description: term.shortDef,
+      url: `https://dharmagranth.in/dictionary/${term.id}`,
+    },
   };
 }
 

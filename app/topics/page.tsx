@@ -7,6 +7,13 @@ export const metadata: Metadata = {
   title: 'Modern-Life Application — Dharma Granth',
   description:
     'Discover how the Bhagavad Gita, Upanishads, and other Hindu scriptures speak to contemporary challenges — career, stress, relationships, parenting, social media, money, leadership, and more.',
+  alternates: { canonical: '/topics' },
+  openGraph: {
+    title: 'Modern-Life Application — Dharma Granth',
+    description:
+      'Discover how the Bhagavad Gita, Upanishads, and other Hindu scriptures speak to contemporary challenges.',
+    url: 'https://dharmagranth.in/topics',
+  },
 };
 
 export default function TopicsPage() {

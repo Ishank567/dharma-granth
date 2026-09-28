@@ -23,6 +23,12 @@ export function generateMetadata({ params }: { params: { id: string } }): Metada
   return {
     title: `${topic.title} — Dharma Granth`,
     description: topic.shortDesc,
+    alternates: { canonical: `/topics/${topic.id}` },
+    openGraph: {
+      title: `${topic.title} — Dharma Granth`,
+      description: topic.shortDesc,
+      url: `https://dharmagranth.in/topics/${topic.id}`,
+    },
   };
 }
 

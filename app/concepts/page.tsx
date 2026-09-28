@@ -4,9 +4,16 @@ import { FadeUp } from '@/app/components/motion/primitives';
 import { concepts } from '@/data/concepts';
 
 export const metadata: Metadata = {
-  title: 'अवधारणा ज्ञान ग्राफ — Dharma Granth',
+  title: 'अवधारणा ज्ञान ग्राफ (Concepts Knowledge Graph) — Dharma Granth',
   description:
     'वैदिक और हिंदू दर्शन की अवधारणाओं — आत्मन्, ब्रह्मन्, कर्म, धर्म, मोक्ष और अधिक — के अंतरसंबंधों का अन्वेषण करें।',
+  alternates: { canonical: '/concepts' },
+  openGraph: {
+    title: 'अवधारणा ज्ञान ग्राफ (Concepts Knowledge Graph) — Dharma Granth',
+    description:
+      'वैदिक और हिंदू दर्शन की अवधारणाओं — आत्मन्, ब्रह्मन्, कर्म, धर्म, मोक्ष और अधिक — के अंतरसंबंधों का अन्वेषण करें।',
+    url: 'https://dharmagranth.in/concepts',
+  },
 };
 
 export default function ConceptsPage() {
