@@ -20,6 +20,7 @@ import { updateLastVerse } from '@/lib/reading-history';
 import { reciteVerse, stopRecitation } from '@/lib/verse-recite';
 import { ContributeMeaningModal } from './ContributeMeaningModal';
 import { VerseCard } from './VerseCard';
+import { VerseText } from './VerseText';
 import { MobileFocusMode } from './MobileFocusMode';
 import { triggerTactileFeedback } from '@/lib/haptics';
 
@@ -66,6 +67,18 @@ interface Props {
    * nothing else on the page so prompting for a click is wasted friction.
    */
   autoLoad?: boolean;
+  /**
+   * The chapter's verses and commentary, read at build time by the page. When
+   * given, the verses are in the exported HTML (for crawlers, link previews
+   * and no-JS readers) and nothing is fetched.
+   */
+  initialChapter?: InitialChapter;
+}
+
+export interface InitialChapter {
+  verses: FullVerse[];
+  commentary?: HiCommentaryFragment;
+  source?: FullScripture['source'];
 }
 
 type State =
@@ -75,13 +88,29 @@ type State =
   | { kind: 'empty' }
   | { kind: 'error'; message: string };
 
-export function FullChapterVerses({ scriptureId, category, chapterId, curatedVerseIds, scriptureTitle, chapterTitle, basePath = '', autoLoad = false }: Props) {
-  const [state, setState] = useState<State>({ kind: autoLoad ? 'loading' : 'idle' });
-  const [contributeVerse, setContributeVerse] = useState<FullVerse | null>(null);
+export function FullChapterVerses({ scriptureId, category, chapterId, curatedVerseIds, scriptureTitle, chapterTitle, basePath = '', autoLoad = false, initialChapter }: Props) {
   const curatedVerseSet = useMemo(
     () => new Set(curatedVerseIds.map((id) => String(id))),
     [curatedVerseIds],
   );
+  const [state, setState] = useState<State>(() => {
+    if (initialChapter && initialChapter.verses.length > 0) {
+      return {
+        kind: 'ready',
+        verses: initialChapter.verses.filter(
+          (v) => !curatedVerseSet.has(canonicalVerseId(chapterId, v.number)),
+        ),
+        commentary: initialChapter.commentary,
+        source: initialChapter.source,
+      };
+    }
+    return { kind: autoLoad ? 'loading' : 'idle' };
+  });
+  const [contributeVerse, setContributeVerse] = useState<FullVerse | null>(null);
+  // The server render (and the first client render, which must match it)
+  // lists plain VerseText; interactive cards replace them once hydrated.
+  const [hydrated, setHydrated] = useState(false);
+  useEffect(() => setHydrated(true), []);
 
   const [fontSize, setFontSize] = useState<'normal' | 'large' | 'xl'>('normal');
   const [chantingMode, setChantingMode] = useState(false);
@@ -428,13 +457,15 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
 
   // Warm the cache for the next chapter so prev/next navigation feels
   // instant. Failure-silent: a missing shard just means there is no next
-  // chapter.
+  // chapter. Pages built with their verses (initialChapter) skip this: the
+  // next chapter's page carries its own, and next/link prefetches it.
+  const fetchesShards = !initialChapter;
   useEffect(() => {
-    if (state.kind !== 'ready') return;
+    if (!fetchesShards || state.kind !== 'ready') return;
     fetch(`${basePath}/data/scriptures-full/${scriptureId}/ch-${chapterId + 1}.json`, {
       priority: 'low',
     } as RequestInit).catch(() => {});
-  }, [state.kind, basePath, scriptureId, chapterId]);
+  }, [fetchesShards, state.kind, basePath, scriptureId, chapterId]);
 
   // Retry by itself once the connection comes back.
   useEffect(() => {
@@ -791,6 +822,9 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
             </div>
           ) : (
             filteredVerses.map((v, index) => {
+              if (!hydrated) {
+                return <VerseText key={`${String(v.number)}-${index}`} verse={v} chapterId={chapterId} />;
+              }
               const verseKey = canonicalVerseId(chapterId, v.number);
               const verseIdNum = Number(verseKey);
               const comment = state.commentary?.[`${chapterId}:${verseIdNum}`];

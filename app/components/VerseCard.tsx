@@ -121,7 +121,7 @@ function sameText(a: string, b: string): boolean {
   return x === y || x.startsWith(y) || y.startsWith(x);
 }
 
-function toDevanagari(value: number | string): string {
+export function toDevanagari(value: number | string): string {
   return String(value).replace(/[0-9]/g, (d) => DEVANAGARI_DIGITS[Number(d)]);
 }
 
@@ -130,7 +130,7 @@ function toDevanagari(value: number | string): string {
  * either newline-separated or uses | / । as half-verse markers. Any trailing
  * "॥ 28 ॥"-style terminator is dropped; the card draws its own.
  */
-function verseLines(sanskrit: string): string[] {
+export function verseLines(sanskrit: string): string[] {
   const cleaned = sanskrit.replace(/[\s|।॥0-9०-९.]+$/, '').trim();
   const byNewline = cleaned.split(/\n+/).map((l) => l.trim()).filter(Boolean);
   if (byNewline.length > 1) return byNewline;

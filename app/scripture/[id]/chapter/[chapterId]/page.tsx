@@ -12,11 +12,18 @@ import { ChapterVisitRecorder } from '@/app/components/ChapterVisitRecorder';
 import { FadeUpOnView } from '@/app/components/motion/primitives';
 import { getScriptureMeta, getAllScriptures, getScriptureChapters } from '@/data/scriptures';
 import {
+  readChapterCommentary,
+  readSeededChapter,
   readSeededChapterNumbers,
   readSeededChapterPreviews,
   type ChapterPreview,
 } from '@/lib/read-seeded-chapters';
+import type { InitialChapter } from '@/app/components/FullChapterVerses';
+import type { HiCommentaryEntry } from '@/data/hi-commentary/_types';
 import { ArrowLeft, ArrowRight, BookOpen, Sparkles } from 'lucide-react';
+
+/** Chapters whose verse data is larger than this are fetched client-side. */
+const INLINE_CHAPTER_MAX_BYTES = 1024 * 1024;
 
 interface PageProps {
   params: { id: string; chapterId: string };
@@ -146,6 +153,24 @@ export default function ChapterPage({ params }: PageProps) {
   const totalChapterCount = Math.max(meta.totalChapters, maxIndexed, maxSeeded);
   if (chapterId > totalChapterCount) return notFound();
 
+  // The chapter's text, read at build time so every verse is in the exported
+  // HTML — scripture never changes between builds, and crawlers, link
+  // previews and AI search engines don't run the page's JavaScript.
+  // Giant chapters (a few Mahabharata/Purana ones run to 12,000+ verses and
+  // several MB) stay client-loaded from their shard instead: inlined they
+  // would be tens of MB of HTML.
+  const seeded = readSeededChapter(meta.id, chapterId);
+  const initialChapter: InitialChapter | undefined =
+    seeded &&
+    seeded.chapter.verses.length > 0 &&
+    Buffer.byteLength(JSON.stringify(seeded.chapter.verses)) <= INLINE_CHAPTER_MAX_BYTES
+      ? {
+          verses: seeded.chapter.verses as InitialChapter['verses'],
+          commentary: readChapterCommentary<HiCommentaryEntry>(meta.id, chapterId),
+          source: seeded.source as InitialChapter['source'],
+        }
+      : undefined;
+
   const prevHref = chapterId > 1 ? `/scripture/${params.id}/chapter/${chapterId - 1}` : undefined;
   const nextHref =
     chapterId < totalChapterCount ? `/scripture/${params.id}/chapter/${chapterId + 1}` : undefined;
@@ -248,6 +273,7 @@ export default function ChapterPage({ params }: PageProps) {
           chapterTitle={chapter.title || `अध्याय ${chapter.id}`}
           basePath={process.env.NEXT_PUBLIC_BASE_PATH || ''}
           autoLoad
+          initialChapter={initialChapter}
         />
 
         <FadeUpOnView className="mt-14 flex items-stretch justify-between gap-4">

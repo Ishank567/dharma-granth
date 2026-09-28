@@ -201,3 +201,36 @@ export function readSeededChapter(
   }
   return null;
 }
+
+const commentaryCache = new Map<string, Record<string, unknown> | null>();
+
+/**
+ * One chapter's slice of the published Hindi commentary
+ * (`public/data/hi-commentary/{id}.json`, keyed `${chapter}:${verse}`), for
+ * rendering into the chapter page at build time. Undefined when the scripture
+ * has no commentary for that chapter.
+ */
+export function readChapterCommentary<T = unknown>(
+  scriptureId: string,
+  chapterId: number,
+): Record<string, T> | undefined {
+  if (!SAFE_ID.test(scriptureId)) return undefined;
+  let all = commentaryCache.get(scriptureId);
+  if (all === undefined) {
+    const path = resolve(process.cwd(), 'public/data/hi-commentary', `${scriptureId}.json`);
+    try {
+      all = existsSync(path) ? (JSON.parse(readFileSync(path, 'utf8')) as Record<string, unknown>) : null;
+    } catch (err) {
+      console.error(`Error reading commentary for ${scriptureId}:`, err);
+      all = null;
+    }
+    commentaryCache.set(scriptureId, all);
+  }
+  if (!all) return undefined;
+  const prefix = `${chapterId}:`;
+  const slice: Record<string, T> = {};
+  for (const [key, value] of Object.entries(all)) {
+    if (key.startsWith(prefix)) slice[key] = value as T;
+  }
+  return Object.keys(slice).length > 0 ? slice : undefined;
+}

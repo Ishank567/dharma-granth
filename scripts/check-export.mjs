@@ -3,8 +3,9 @@
 // each found by hand:
 //   • pages server-rendered at opacity:0 (framer `initial`), invisible until
 //     hydration — the h1 of every key page must not sit inside such a block;
-//   • chapter shards drifting from their source (a stale Gita chapter showed
-//     65 of 72 verses) — every shard must match its scriptures-full chapter;
+//   • chapters missing verses (a stale Gita chapter showed 65 of 72) or
+//     shipping none in the HTML — every chapter page must carry as many
+//     verse cards as its scriptures-full source;
 //   • chapters without an exported page (deep links would 404);
 //   • course content rendered client-only (the pathways page shipped a spinner);
 //   • the splash screen leaking onto deep-link landing pages.
@@ -111,8 +112,11 @@ for (const route of KEY_PAGES) {
   }
 }
 
-// ── 2 & 3. Every source chapter has a matching shard and an exported page ──
+// ── 2 & 3. Every source chapter has an exported page carrying all its verses ──
+// (Chapter pages render their verses at build time, so crawlers see the text;
+// a stale or missing verse would show up as a count mismatch here.)
 let chaptersChecked = 0;
+let inlined = 0;
 for (const file of readdirSync(SOURCE).filter((f) => f.endsWith('.json'))) {
   const id = file.replace(/\.json$/, '');
   let source;
@@ -125,17 +129,26 @@ for (const file of readdirSync(SOURCE).filter((f) => f.endsWith('.json'))) {
   for (const chapter of source.chapters ?? []) {
     chaptersChecked++;
     const ref = `${id} ch${chapter.number}`;
-    const shardPath = join(DIST, 'data/scriptures-full', id, `ch-${chapter.number}.json`);
-    if (!existsSync(shardPath)) {
-      fail(ref, 'chapter shard missing from dist (run npm run shard:scriptures before building)');
-    } else {
-      const shard = JSON.parse(readFileSync(shardPath, 'utf8'));
-      const want = chapter.verses?.length ?? 0;
-      const got = shard.chapter?.verses?.length ?? 0;
-      if (got !== want) fail(ref, `shard has ${got} verses, source has ${want} (stale shard?)`);
-    }
-    if (!existsSync(join(DIST, 'scripture', id, 'chapter', String(chapter.number), 'index.html'))) {
+    const pagePath = join(DIST, 'scripture', id, 'chapter', String(chapter.number), 'index.html');
+    if (!existsSync(pagePath)) {
       fail(ref, 'chapter page was not exported');
+      continue;
+    }
+    const want = chapter.verses?.length ?? 0;
+    const html = readFileSync(pagePath, 'utf8');
+    const got = new Set(html.match(/<article[^>]*\bid="verse-[^"]+"/g) ?? []).size;
+    if (got > 0) {
+      if (got !== want) fail(ref, `page HTML has ${got} verse cards, source has ${want}`);
+      inlined++;
+    } else {
+      // Giant chapters load client-side: their shard must ship, and match.
+      const shardPath = join(DIST, 'data/scriptures-full', id, `ch-${chapter.number}.json`);
+      if (!existsSync(shardPath)) {
+        fail(ref, 'no verses in the page HTML and no shard to load them from');
+      } else {
+        const shardVerses = JSON.parse(readFileSync(shardPath, 'utf8')).chapter?.verses?.length ?? 0;
+        if (shardVerses !== want) fail(ref, `shard has ${shardVerses} verses, source has ${want} (stale shard?)`);
+      }
     }
   }
 }
@@ -146,4 +159,7 @@ if (errors.length > 0) {
   if (errors.length > 40) console.error(`  … and ${errors.length - 40} more`);
   process.exit(1);
 }
-console.log(`✓ Export check passed: ${KEY_PAGES.length} key pages visible, ${chaptersChecked} chapters match their shards and pages.`);
+console.log(
+  `✓ Export check passed: ${KEY_PAGES.length} key pages visible; ${inlined}/${chaptersChecked} chapter pages ` +
+    `carry all their verses in HTML, the rest load a matching shard.`,
+);
