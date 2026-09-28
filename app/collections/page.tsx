@@ -20,10 +20,33 @@ export default function CollectionsPage() {
   const [newDesc, setNewDesc] = useState('');
   const [expandedId, setExpandedId] = useState<string | null>(null);
 
+  // The header is static, so it renders (and is exported) straight away; only
+  // the reader's collections below wait for localStorage.
+  const header = (
+    <section className="bg-gradient-to-br from-saffron-900 via-saffron-800 to-amber-900 text-white py-14">
+      <div className="max-w-6xl mx-auto px-6">
+        <FadeUp>
+          <p className="text-xs font-semibold uppercase tracking-widest text-saffron-200 mb-2">
+            Personal Study
+          </p>
+          <h1 className="text-4xl md:text-5xl font-serif font-bold mb-3">
+            Study Collections
+          </h1>
+          <p className="text-lg opacity-90 max-w-2xl">
+            Organize your saved verses into thematic collections. Track your highlights and personal notes across all scriptures.
+          </p>
+        </FadeUp>
+      </div>
+    </section>
+  );
+
   if (!progress.hydrated) {
     return (
-      <main className="min-h-screen bg-dharma-bg flex items-center justify-center">
-        <div className="h-8 w-8 animate-spin rounded-full border-4 border-saffron-200 border-t-saffron-600" />
+      <main className="min-h-screen bg-dharma-bg">
+        {header}
+        <div className="flex min-h-[300px] items-center justify-center" aria-busy="true">
+          <div className="h-8 w-8 animate-spin rounded-full border-4 border-saffron-200 border-t-saffron-600" />
+        </div>
       </main>
     );
   }
@@ -49,22 +72,7 @@ export default function CollectionsPage() {
 
   return (
     <main className="min-h-screen bg-dharma-bg">
-      {/* Header */}
-      <section className="bg-gradient-to-br from-saffron-900 via-saffron-800 to-amber-900 text-white py-14">
-        <div className="max-w-6xl mx-auto px-6">
-          <FadeUp>
-            <p className="text-xs font-semibold uppercase tracking-widest text-saffron-200 mb-2">
-              Personal Study
-            </p>
-            <h1 className="text-4xl md:text-5xl font-serif font-bold mb-3">
-              Study Collections
-            </h1>
-            <p className="text-lg opacity-90 max-w-2xl">
-              Organize your saved verses into thematic collections. Track your highlights and personal notes across all scriptures.
-            </p>
-          </FadeUp>
-        </div>
-      </section>
+      {header}
 
       <div className="max-w-6xl mx-auto px-6 py-10 space-y-10">
         {/* Stats row */}

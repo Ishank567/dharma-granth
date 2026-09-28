@@ -20,7 +20,7 @@ import type { ReactNode } from 'react';
 import type { ScriptureCategory, ScriptureMeta } from '@/data/types';
 import type { BookExplanation } from '@/data/book-explanations';
 import { ScriptureCard } from '@/app/components/motion/ScriptureCard';
-import { FadeUpOnView, Stagger, StaggerItem } from '@/app/components/motion/primitives';
+import { FadeUp, FadeUpOnView, Stagger, StaggerItem } from '@/app/components/motion/primitives';
 
 type CategoryOption = {
   id: ScriptureCategory;
@@ -195,6 +195,7 @@ export function ScriptureLibraryClient({
         .length,
     }))
     .filter((category) => category.total > 0);
+  const firstCategoryId = visibleCategories.find((category) => category.scriptures.length > 0)?.id;
 
   const hasActiveFilters =
     query.length > 0 ||
@@ -361,24 +362,34 @@ export function ScriptureLibraryClient({
         visibleCategories.map((category) => {
           if (category.scriptures.length === 0) return null;
 
+          const heading = (
+            <>
+              <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-saffron-100 text-saffron-700">
+                {categoryIcons[category.id]}
+              </div>
+              <div>
+                <div className="flex flex-wrap items-center gap-3">
+                  <h2 className="text-2xl font-serif font-bold text-dharma-text">
+                    {category.label}
+                  </h2>
+                  <span className="rounded-full bg-dharma-card px-2.5 py-1 text-xs font-semibold text-dharma-muted ring-1 ring-dharma-border">
+                    {category.scriptures.length} shown
+                  </span>
+                </div>
+                <p className="text-sm text-dharma-muted">{category.description}</p>
+              </div>
+            </>
+          );
+
           return (
             <section key={category.id} id={category.id} className="mb-14 scroll-mt-24">
-              <FadeUpOnView className="mb-6 flex items-start gap-3">
-                <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-saffron-100 text-saffron-700">
-                  {categoryIcons[category.id]}
-                </div>
-                <div>
-                  <div className="flex flex-wrap items-center gap-3">
-                    <h2 className="text-2xl font-serif font-bold text-dharma-text">
-                      {category.label}
-                    </h2>
-                    <span className="rounded-full bg-dharma-card px-2.5 py-1 text-xs font-semibold text-dharma-muted ring-1 ring-dharma-border">
-                      {category.scriptures.length} shown
-                    </span>
-                  </div>
-                  <p className="text-sm text-dharma-muted">{category.description}</p>
-                </div>
-              </FadeUpOnView>
+              {/* The first heading is on screen at load: a scroll reveal would
+                  keep it server-rendered hidden until hydration. */}
+              {category.id === firstCategoryId ? (
+                <FadeUp className="mb-6 flex items-start gap-3">{heading}</FadeUp>
+              ) : (
+                <FadeUpOnView className="mb-6 flex items-start gap-3">{heading}</FadeUpOnView>
+              )}
 
               <Stagger
                 className="columns-1 gap-5 md:columns-2 xl:columns-3"

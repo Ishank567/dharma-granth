@@ -5,8 +5,9 @@ import { useEffect, useRef } from 'react';
 import logoSplash from '@/public/logo-splash.webp';
 
 /**
- * Brand splash, shown once per browser session on the first page a reader
- * lands on (the head script in layout.tsx hides it on later pages).
+ * Brand splash on the home page, shown once per browser session (the head
+ * script in layout.tsx hides it on later loads, including when a reader
+ * first landed on another page).
  *
  * Everything is CSS (`.splash*` in globals.css): the markup is server-rendered
  * and the animation plays and dismisses itself before hydration, so the splash
@@ -27,6 +28,9 @@ export function SplashScreen() {
     return () => {
       window.removeEventListener('pointerdown', skip);
       window.removeEventListener('keydown', skip);
+      // The home page remounts on client-side navigation back to it; mark the
+      // splash seen so it does not replay within this page load.
+      document.documentElement.setAttribute('data-splash', 'seen');
     };
   }, []);
 

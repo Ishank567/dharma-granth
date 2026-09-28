@@ -4,7 +4,6 @@ import { ThemeProvider } from "@/app/components/ThemeProvider";
 import { PageTransition } from "@/app/components/motion/PageTransition";
 import { DEFAULT_OG_IMAGE } from "@/lib/og";
 import { FloatingCompanion } from "@/app/components/FloatingCompanion";
-import { SplashScreen } from "@/app/components/SplashScreen";
 import { TactileLayer } from "@/app/components/TactileLayer";
 import { SpatialLightCursor } from "@/app/components/motion/SpatialLightCursor";
 // Self-hosted fonts via @fontsource — bundled at build time so the build
@@ -42,14 +41,18 @@ const THEME_INIT_SCRIPT = `
       document.documentElement.setAttribute('data-theme', t);
     }
   } catch (e) {}
-  // Splash plays once per browser session; later page loads skip it before
-  // first paint. Without storage it simply plays each load.
+  // The home-page splash plays once per browser session; later page loads
+  // skip it before first paint. Landing on any other page first also counts
+  // as seen. Without storage it simply plays on each home-page load.
   try {
-    if (sessionStorage.getItem('dharma-splash')) {
+    var base = ${JSON.stringify(process.env.NEXT_PUBLIC_BASE_PATH || "")};
+    var path = location.pathname;
+    if (base && path.indexOf(base) === 0) path = path.slice(base.length);
+    var isHome = path === '' || path === '/';
+    if (sessionStorage.getItem('dharma-splash') || !isHome) {
       document.documentElement.setAttribute('data-splash', 'seen');
-    } else {
-      sessionStorage.setItem('dharma-splash', '1');
     }
+    sessionStorage.setItem('dharma-splash', '1');
   } catch (e) {}
 })();
 `;
@@ -190,7 +193,6 @@ export default function RootLayout({
       </head>
       <body className="font-sans bg-dharma-bg text-dharma-text antialiased">
         <ThemeProvider>
-          <SplashScreen />
           <SpatialLightCursor />
           <a href="#main-content" className="skip-link">
             Skip to main content

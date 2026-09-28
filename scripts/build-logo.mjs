@@ -2,6 +2,8 @@
 //   public/logo.png           full logo (emblem + wordmark), 512×512, for Schema.org
 //   public/logo-mark.webp     emblem only (sage, book, halo), for the site header
 //   public/logo-splash.webp   the same emblem at 320px, for the splash screen
+//   assets/logo-emblem.png    the emblem at full resolution, for app icons and
+//                             the share image (npm run og:build -- --brand-only)
 // Run: node scripts/build-logo.mjs
 import sharp from 'sharp';
 import { mkdirSync } from 'node:fs';
@@ -48,6 +50,13 @@ await sharp(SOURCE)
   .webp({ quality: 90 })
   .toFile(resolve(ROOT, 'public/logo-mark.webp'));
 
+// Full-resolution emblem as PNG (satori can't read WebP): the source for the
+// home-screen icons and share image in scripts/generate-og-images.ts.
+await sharp(SOURCE)
+  .extract(crop)
+  .png({ compressionLevel: 9 })
+  .toFile(resolve(ROOT, 'assets/logo-emblem.png'));
+
 // Larger emblem for the splash screen (shown at ~160px, so 2× density).
 await sharp(SOURCE)
   .extract(crop)
@@ -58,4 +67,4 @@ await sharp(SOURCE)
 await sharp(SOURCE).resize(512, 512).png({ compressionLevel: 9 }).toFile(resolve(ROOT, 'public/logo.png'));
 
 console.log('emblem box', box, 'crop', crop);
-console.log('✓ public/logo-mark.webp  ✓ public/logo-splash.webp  ✓ public/logo.png');
+console.log('✓ public/logo-mark.webp  ✓ public/logo-splash.webp  ✓ public/logo.png  ✓ assets/logo-emblem.png');

@@ -14,6 +14,7 @@ import {
   getRealVerseCount,
 } from '@/data/scriptures';
 import { HeroSection } from '@/app/components/HeroSection';
+import { SplashScreen } from '@/app/components/SplashScreen';
 import { ContinueReading } from '@/app/components/ContinueReading';
 import { PanchangCalendar } from '@/app/components/PanchangCalendar';
 import { NityaKarmaKriya } from '@/app/components/NityaKarmaKriya';
@@ -77,6 +78,8 @@ export default function HomePage() {
 
   return (
     <main className="min-h-screen">
+      {/* Home only: readers arriving on a verse from search go straight to it. */}
+      <SplashScreen />
       <HeroSection />
       <ContinueReading />
 

@@ -243,8 +243,37 @@ async function renderOne(meta: ScriptureMeta, fonts: SatoriFont[]): Promise<void
 
 const BRAND_FROM = "#c2410c";
 const BRAND_TO = "#f59e0b";
+/** Cream behind the logo emblem, matching the artwork's own background. */
+const EMBLEM_BG = "#fdf6ea";
 
-function defaultOgTemplate() {
+/** The logo emblem (sage, book, halo) as a data URI; built by `npm run logo:build`. */
+function loadEmblem(): string {
+  const path = resolve(ROOT, "assets/logo-emblem.png");
+  if (!existsSync(path)) throw new Error(`${path} missing — run \`npm run logo:build\` first`);
+  return `data:image/png;base64,${readFileSync(path).toString("base64")}`;
+}
+
+/** The emblem in a round cream badge. */
+function emblemBadge(emblem: string, size: number, ring: string) {
+  return {
+    type: "div",
+    props: {
+      style: {
+        width: size,
+        height: size,
+        display: "flex",
+        borderRadius: size / 2,
+        overflow: "hidden",
+        background: EMBLEM_BG,
+        border: `${Math.round(size * 0.02)}px solid ${ring}`,
+        boxShadow: "0 18px 48px rgba(0,0,0,0.25)",
+      },
+      children: [{ type: "img", props: { src: emblem, width: size, height: size } }],
+    },
+  };
+}
+
+function defaultOgTemplate(emblem: string) {
   return {
     type: "div",
     props: {
@@ -259,27 +288,14 @@ function defaultOgTemplate() {
         fontFamily: "Noto Sans",
       },
       children: [
-        {
-          type: "div",
-          props: {
-            style: {
-              fontFamily: "Noto Sans Devanagari",
-              fontSize: 260,
-              fontWeight: 700,
-              lineHeight: 1,
-              opacity: 0.95,
-              marginRight: 72,
-            },
-            children: "ॐ",
-          },
-        },
+        { type: "div", props: { style: { display: "flex", marginRight: 72 }, children: [emblemBadge(emblem, 300, "rgba(255,237,213,0.85)")] } },
         {
           type: "div",
           props: {
             style: { display: "flex", flexDirection: "column" },
             children: [
               // No Devanagari title line: satori doesn't shape conjuncts
-              // (र्म, ग्र render with a visible halant), so ॐ carries it.
+              // (र्म, ग्र render with a visible halant).
               { type: "div", props: { style: { fontSize: 84, fontWeight: 700, lineHeight: 1.05 }, children: "Dharma Granth" } },
               {
                 type: "div",
@@ -326,6 +342,34 @@ function iconTemplate(size: number, { rounded, padding }: { rounded: boolean; pa
   };
 }
 
+/**
+ * The logo emblem on cream, for icons large enough to show it (≥180px).
+ * `padding` is the inset as a fraction of the size; maskable icons need the
+ * emblem inside the central 80% safe zone.
+ */
+function emblemIconTemplate(
+  emblem: string,
+  size: number,
+  { rounded, padding }: { rounded: boolean; padding: number },
+) {
+  const inner = Math.round(size * (1 - padding * 2));
+  return {
+    type: "div",
+    props: {
+      style: {
+        width: "100%",
+        height: "100%",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        background: EMBLEM_BG,
+        borderRadius: rounded ? size * 0.22 : 0,
+      },
+      children: [{ type: "img", props: { src: emblem, width: inner, height: inner } }],
+    },
+  };
+}
+
 async function renderSvg(tree: unknown, width: number, height: number, fonts: SatoriFont[]): Promise<string> {
   return satori(tree as Parameters<typeof satori>[0], { width, height, fonts });
 }
@@ -336,8 +380,9 @@ function svgToPng(svg: string, width: number): Buffer {
 
 async function renderBrandAssets(fonts: SatoriFont[]): Promise<void> {
   mkdirSync(ICON_DIR, { recursive: true });
+  const emblem = loadEmblem();
 
-  const ogSvg = await renderSvg(defaultOgTemplate(), WIDTH, HEIGHT, fonts);
+  const ogSvg = await renderSvg(defaultOgTemplate(emblem), WIDTH, HEIGHT, fonts);
   writeFileSync(resolve(ROOT, "public/og-default.png"), svgToPng(ogSvg, WIDTH));
   console.log("  ✓ og-default.png");
 
@@ -346,16 +391,19 @@ async function renderBrandAssets(fonts: SatoriFont[]): Promise<void> {
   writeFileSync(resolve(ROOT, "public/favicon.svg"), faviconSvg);
   console.log("  ✓ favicon.svg");
 
-  const pngIcons: Array<{ file: string; size: number; rounded: boolean; padding: number }> = [
+  // Tab-size icons keep the ॐ glyph (the emblem is illegible at 16–32px);
+  // home-screen sizes carry the logo emblem.
+  const pngIcons: Array<{ file: string; size: number; rounded: boolean; padding: number; emblem?: boolean }> = [
     { file: "icon-32.png", size: 32, rounded: true, padding: 0.08 },
-    { file: "icon-192.png", size: 192, rounded: true, padding: 0.1 },
-    { file: "icon-512.png", size: 512, rounded: true, padding: 0.1 },
+    { file: "icon-192.png", size: 192, rounded: true, padding: 0.04, emblem: true },
+    { file: "icon-512.png", size: 512, rounded: true, padding: 0.04, emblem: true },
     // Full-bleed: iOS and Android mask these themselves.
-    { file: "apple-touch-icon.png", size: 180, rounded: false, padding: 0.14 },
-    { file: "icon-maskable-512.png", size: 512, rounded: false, padding: 0.2 },
+    { file: "apple-touch-icon.png", size: 180, rounded: false, padding: 0.06, emblem: true },
+    { file: "icon-maskable-512.png", size: 512, rounded: false, padding: 0.12, emblem: true },
   ];
   for (const icon of pngIcons) {
-    const svg = await renderSvg(iconTemplate(icon.size, icon), icon.size, icon.size, fonts);
+    const tree = icon.emblem ? emblemIconTemplate(emblem, icon.size, icon) : iconTemplate(icon.size, icon);
+    const svg = await renderSvg(tree, icon.size, icon.size, fonts);
     writeFileSync(resolve(ICON_DIR, icon.file), svgToPng(svg, icon.size));
     console.log(`  ✓ icons/${icon.file}`);
   }
@@ -365,10 +413,13 @@ async function main(): Promise<void> {
   mkdirSync(THUMB_DIR, { recursive: true });
   console.log(`[og] loading fonts...`);
   const fonts = await loadFonts();
-  console.log(`[og] rendering ${scriptureCatalog.length} OG images + thumbnails to ${OUT_DIR}`);
-  for (const meta of scriptureCatalog) {
-    await renderOne(meta, fonts);
-    process.stdout.write(`  ✓ ${meta.id}\n`);
+  // --brand-only: just the share image and app icons (e.g. after a logo change).
+  if (!process.argv.includes("--brand-only")) {
+    console.log(`[og] rendering ${scriptureCatalog.length} OG images + thumbnails to ${OUT_DIR}`);
+    for (const meta of scriptureCatalog) {
+      await renderOne(meta, fonts);
+      process.stdout.write(`  ✓ ${meta.id}\n`);
+    }
   }
   console.log(`[og] rendering brand assets`);
   await renderBrandAssets(fonts);

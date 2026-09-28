@@ -6,7 +6,8 @@
 //   • chapter shards drifting from their source (a stale Gita chapter showed
 //     65 of 72 verses) — every shard must match its scriptures-full chapter;
 //   • chapters without an exported page (deep links would 404);
-//   • course content rendered client-only (the pathways page shipped a spinner).
+//   • course content rendered client-only (the pathways page shipped a spinner);
+//   • the splash screen leaking onto deep-link landing pages.
 import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 
@@ -39,6 +40,10 @@ const KEY_PAGES = [
   '/rituals/',
   '/locations/',
   '/timelines/',
+  // Personal pages: data is client-side, but the header must still export.
+  '/dashboard/',
+  '/collections/',
+  '/bookmarks/',
 ];
 const VOID = new Set(['area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input', 'link', 'meta', 'source', 'track', 'wbr']);
 const RAW_TEXT = new Set(['script', 'style']);
@@ -87,6 +92,13 @@ for (const route of KEY_PAGES) {
   const visibility = firstH1Visibility(html);
   if (visibility === null) fail(route, 'no <h1> in the exported HTML (content rendered client-only?)');
   else if (visibility) fail(route, `<h1> is server-rendered hidden, ${visibility}`);
+}
+
+// ── Splash screen is home-only (readers arriving from search go straight in) ──
+for (const route of KEY_PAGES) {
+  const hasSplash = /class="splash"/.test(pageHtml(route) ?? '');
+  if (route === '/' && !hasSplash) fail(route, 'home page is missing the splash screen');
+  if (route !== '/' && hasSplash) fail(route, 'splash screen should only be on the home page');
 }
 
 // ── 4. Pathways ship their course content, not just a shell ──
