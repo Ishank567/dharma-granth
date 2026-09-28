@@ -9,6 +9,7 @@ import {
   AnimatePresence,
   motion,
   useReducedMotion,
+  LayoutGroup,
   useScroll,
   useSpring,
 } from 'framer-motion';
@@ -284,7 +285,8 @@ export function SiteNav() {
                 {shortcutLabel}
               </kbd>
             </button>
-            <ThemeToggle />
+            {/* On phones the picker lives in the menu: it took half the bar. */}
+            <ThemeToggle className="hidden sm:inline-flex" />
             <Link
               href="/scripture/bhagavadgita"
               className="hidden items-center gap-2 rounded-full bg-gradient-to-r from-saffron-600 to-amber-600 px-5 py-2.5 text-sm font-bold text-white shadow-md transition hover:from-saffron-700 hover:to-amber-700 hover:shadow-lg xl:inline-flex"
@@ -336,7 +338,7 @@ export function SiteNav() {
               <section aria-labelledby="mobile-main-heading">
                 <h2
                   id="mobile-main-heading"
-                  className="mb-2 px-2 text-xs font-bold uppercase tracking-[0.16em] text-dharma-muted"
+                  className="mb-2 px-2 text-xs font-bold uppercase text-dharma-muted"
                 >
                   मुख्य
                 </h2>
@@ -360,7 +362,7 @@ export function SiteNav() {
               <section aria-labelledby="mobile-discover-heading">
                 <h2
                   id="mobile-discover-heading"
-                  className="mb-2 px-2 text-xs font-bold uppercase tracking-[0.16em] text-dharma-muted"
+                  className="mb-2 px-2 text-xs font-bold uppercase text-dharma-muted"
                 >
                   अन्वेषण
                 </h2>
@@ -384,7 +386,7 @@ export function SiteNav() {
               <section aria-labelledby="mobile-personal-heading">
                 <h2
                   id="mobile-personal-heading"
-                  className="mb-2 px-2 text-xs font-bold uppercase tracking-[0.16em] text-dharma-muted"
+                  className="mb-2 px-2 text-xs font-bold uppercase text-dharma-muted"
                 >
                   मेरा अध्ययन
                 </h2>
@@ -399,6 +401,20 @@ export function SiteNav() {
                     </Link>
                   ))}
                 </div>
+              </section>
+
+              <section aria-labelledby="mobile-theme-heading" className="sm:hidden">
+                <h2
+                  id="mobile-theme-heading"
+                  className="mb-2 px-2 text-xs font-bold uppercase text-dharma-muted"
+                >
+                  थीम
+                </h2>
+                {/* Own group: the header picker stays mounted (just hidden),
+                    and a shared layoutId would fly the pill between them. */}
+                <LayoutGroup id="mobile-theme">
+                  <ThemeToggle />
+                </LayoutGroup>
               </section>
             </div>
           </motion.div>

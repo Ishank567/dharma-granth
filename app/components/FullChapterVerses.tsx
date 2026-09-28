@@ -435,7 +435,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
 
   if (state.kind === 'idle') {
     return (
-      <div className="mt-14 rounded-2xl border border-dashed border-saffron-300 bg-saffron-500/10 p-6 text-center">
+      <div className="rounded-2xl border border-dashed border-saffron-300 bg-saffron-500/10 p-6 text-center">
         <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-saffron-100/80 text-saffron-700 mb-3">
           <BookOpen className="w-6 h-6" />
         </div>
@@ -456,7 +456,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
 
   if (state.kind === 'loading') {
     return (
-      <div className="mt-14 rounded-2xl border border-dharma-border bg-dharma-card p-6 text-center text-sm text-dharma-muted">
+      <div className="rounded-2xl border border-dharma-border bg-dharma-card p-6 text-center text-sm text-dharma-muted">
         अध्याय लोड हो रहा है…
       </div>
     );
@@ -464,7 +464,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
 
   if (state.kind === 'empty') {
     return (
-      <div className="mt-14 rounded-2xl border border-dashed border-dharma-border bg-dharma-card p-6 text-center text-sm text-dharma-muted">
+      <div className="rounded-2xl border border-dashed border-dharma-border bg-dharma-card p-6 text-center text-sm text-dharma-muted">
         इस ग्रंथ का पूर्ण-पाठ अभी तैयार नहीं हुआ है। पूर्ण पाठ संग्रहीत करने के लिए{' '}
         <code className="font-mono text-xs px-1.5 py-0.5 rounded bg-stone-100">npm run seed:all</code> चलाएँ ताकि{' '}
         <code className="font-mono text-xs px-1.5 py-0.5 rounded bg-stone-100">public/data/scriptures-full/</code> भर जाए।
@@ -477,7 +477,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
     return (
       <div
         role="alert"
-        className="mt-14 rounded-2xl border border-rose-200 bg-rose-50/10 p-6 text-center"
+        className="rounded-2xl border border-rose-200 bg-rose-50/10 p-6 text-center"
       >
         <p className="font-semibold text-rose-900">
           {offline ? 'आप ऑफ़लाइन हैं — अध्याय लोड नहीं हो सका।' : 'अध्याय लोड नहीं हो सका।'}
@@ -505,7 +505,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
 
   if (state.verses.length === 0) {
     return (
-      <div className="mt-14 rounded-2xl border border-dharma-border bg-dharma-card p-6 text-center text-sm text-dharma-muted">
+      <div className="rounded-2xl border border-dharma-border bg-dharma-card p-6 text-center text-sm text-dharma-muted">
         इस अध्याय के सभी श्लोक ऊपर दिखाए जा चुके हैं।
       </div>
     );
@@ -513,7 +513,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
 
   return (
     <>
-      <section className="mt-14">
+      <section>
         {/* Reader Customization Toolbar */}
         <div className="mb-6 rounded-2xl border border-dharma-border/80 bg-dharma-card p-4 shadow-sm">
           <div className="flex flex-wrap items-center justify-between gap-3">
@@ -544,10 +544,12 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
                     : 'border border-dharma-border bg-dharma-bg text-dharma-text hover:border-amber-300 hover:text-amber-700'
                 }`}
                 title="एक श्लोक समाप्त होने पर स्वतः अगले श्लोक का पाठ शुरू करें"
+                aria-label="निरंतर पाठ"
                 aria-pressed={continuousRecite}
               >
                 <Headphones className={`h-3.5 w-3.5 ${continuousRecite ? 'text-white' : 'text-amber-600'}`} />
-                <span>निरंतर पाठ</span>
+                {/* Icon-only on phones so the whole toolbar fits one row. */}
+                <span className="hidden sm:inline">निरंतर पाठ</span>
               </button>
 
               {/* Chanting Mode Toggle */}
@@ -560,9 +562,11 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
                     : 'border border-dharma-border bg-dharma-bg text-dharma-text hover:border-saffron-300 hover:text-saffron-700'
                 }`}
                 title="केवल मूल संस्कृत श्लोक पाठ के लिए स्वाध्याय मोड ऑन/ऑफ करें"
+                aria-label="स्वाध्याय मोड"
+                aria-pressed={chantingMode}
               >
                 <Flame className={`h-3.5 w-3.5 ${chantingMode ? 'text-white' : 'text-saffron-600'}`} />
-                <span>स्वाध्याय मोड</span>
+                <span className="hidden sm:inline">स्वाध्याय मोड</span>
               </button>
 
               {/* Focus Mode Button */}
@@ -575,9 +579,10 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
                 }}
                 className="inline-flex items-center gap-1.5 rounded-xl border border-dharma-border bg-dharma-bg px-3 py-1.5 text-xs font-semibold text-dharma-text transition hover:border-saffron-300 hover:text-saffron-700 active:scale-95"
                 title="एक-एक श्लोक स्वाध्याय के लिए एकाग्रता मोड खोलें (Focus Mode)"
+                aria-label="एकाग्रता मोड"
               >
                 <Maximize2 className="h-3.5 w-3.5 text-amber-600" />
-                <span>एकाग्रता मोड</span>
+                <span className="hidden sm:inline">एकाग्रता मोड</span>
               </button>
 
               {/* Font Size Selector */}
@@ -632,9 +637,11 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
                         : 'border-dharma-border bg-dharma-bg text-dharma-text hover:border-saffron-300'
                     }`}
                     title="भाषा व व्याख्या विकल्प"
+                    aria-label="दृश्य — भाषा व व्याख्या विकल्प"
+                    aria-expanded={showLayersMenu}
                   >
                     <SlidersHorizontal className="h-3.5 w-3.5 text-saffron-600" />
-                    <span>दृश्य</span>
+                    <span className="hidden sm:inline">दृश्य</span>
                   </button>
 
                   {showLayersMenu && (

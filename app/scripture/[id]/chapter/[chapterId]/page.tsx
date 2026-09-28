@@ -236,7 +236,7 @@ export default function ChapterPage({ params }: PageProps) {
         </div>
       </ChapterHero>
 
-      <div className="relative max-w-4xl mx-auto px-6 py-12">
+      <div className="relative max-w-4xl mx-auto px-4 py-8 sm:px-6 md:py-12">
         <AmbientOrbs />
         <div className="relative">
         <FullChapterVerses
