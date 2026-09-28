@@ -14,6 +14,7 @@ import {
   getRealVerseCount,
 } from '@/data/scriptures';
 import { HeroSection } from '@/app/components/HeroSection';
+import { ContinueReading } from '@/app/components/ContinueReading';
 import { PanchangCalendar } from '@/app/components/PanchangCalendar';
 import { NityaKarmaKriya } from '@/app/components/NityaKarmaKriya';
 import {
@@ -72,6 +73,7 @@ export default function HomePage() {
   return (
     <main className="min-h-screen">
       <HeroSection />
+      <ContinueReading />
 
       <section
         aria-labelledby="featured-texts-heading"

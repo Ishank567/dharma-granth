@@ -4,6 +4,8 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import {
   Atom,
   BookOpen,
+  Bookmark,
+  BookmarkCheck,
   Check,
   Copy,
   Edit3,
@@ -22,6 +24,8 @@ import {
 import type { ScriptureCategory } from '@/data/types';
 import type { HiCommentaryFragment } from '@/data/hi-commentary/_types';
 import { canonicalVerseId } from '@/lib/canonical-verse-id';
+import { normalizeForSearch, normalizeTransliteration } from '@/lib/normalize-search';
+import { useStudyProgress } from '@/lib/useStudyProgress';
 import { getVerseGraphicClass, getVerseGraphicStyle } from './verse-background';
 import { ContributeMeaningModal } from './ContributeMeaningModal';
 import { ListenButton } from './ListenButton';
@@ -96,7 +100,114 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
   const [showLayersMenu, setShowLayersMenu] = useState(false);
   const [filterQuery, setFilterQuery] = useState('');
   const [copiedId, setCopiedId] = useState<string | null>(null);
+  const [bookmarkedMap, setBookmarkedMap] = useState<Record<string, boolean>>({});
   const layersMenuRef = useRef<HTMLDivElement>(null);
+  const { recordReading } = useStudyProgress();
+
+  // Auto-record study reading when chapter is loaded
+  useEffect(() => {
+    if (state.kind === 'ready' && state.verses.length > 0) {
+      recordReading();
+    }
+  }, [state, recordReading]);
+
+  // Load verse bookmark statuses from localStorage
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem('dharma.bookmarkedVerses');
+      if (saved) {
+        const list: Array<{
+          scriptureId: string;
+          chapterId?: number;
+          verseId: number | string;
+        }> = JSON.parse(saved);
+        const map: Record<string, boolean> = {};
+        for (const b of list) {
+          if (b.scriptureId === scriptureId && b.chapterId === chapterId) {
+            map[String(b.verseId)] = true;
+          }
+        }
+        setBookmarkedMap(map);
+      }
+    } catch {}
+  }, [scriptureId, chapterId]);
+
+  const toggleBookmark = (v: FullVerse) => {
+    try {
+      const saved = localStorage.getItem('dharma.bookmarkedVerses');
+      const list: Array<{
+        scriptureId: string;
+        scriptureTitle: string;
+        chapterId?: number;
+        chapterTitle: string;
+        verseId: number | string;
+        sanskrit: string;
+        translation: string;
+        hindi?: string;
+        timestamp: string;
+      }> = saved ? JSON.parse(saved) : [];
+
+      const vId = String(v.number);
+      const isCurrentlySaved = Boolean(bookmarkedMap[vId]);
+
+      let nextList: typeof list;
+      if (isCurrentlySaved) {
+        nextList = list.filter(
+          (b) =>
+            !(
+              b.scriptureId === scriptureId &&
+              b.chapterId === chapterId &&
+              String(b.verseId) === vId
+            ),
+        );
+      } else {
+        const item = {
+          scriptureId,
+          scriptureTitle: scriptureTitle ?? scriptureId,
+          chapterId,
+          chapterTitle: chapterTitle ?? `अध्याय ${chapterId}`,
+          verseId: v.number,
+          sanskrit: v.sanskrit ?? '',
+          translation: v.translation ?? v.hindi ?? '',
+          hindi: v.hindi,
+          timestamp: new Date().toISOString(),
+        };
+        nextList = [item, ...list];
+      }
+
+      localStorage.setItem('dharma.bookmarkedVerses', JSON.stringify(nextList));
+      setBookmarkedMap((prev) => ({
+        ...prev,
+        [vId]: !isCurrentlySaved,
+      }));
+    } catch (err) {
+      console.error('Failed to toggle bookmark:', err);
+    }
+  };
+
+  const scrollToVerse = (verseNum: string | number) => {
+    const el = document.getElementById(`verse-${verseNum}`);
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  };
+
+  // Deep-link auto-scroll on mount if ?verse= or #verse- is present
+  useEffect(() => {
+    if (state.kind !== 'ready') return;
+    const urlParams = new URLSearchParams(window.location.search);
+    const targetVerse =
+      urlParams.get('verse') ||
+      (window.location.hash.startsWith('#verse-')
+        ? window.location.hash.replace('#verse-', '')
+        : null);
+    if (targetVerse) {
+      const timer = setTimeout(() => {
+        scrollToVerse(targetVerse);
+      }, 350);
+      return () => clearTimeout(timer);
+    }
+  }, [state.kind]);
 
   // Close layers menu on outside click
   useEffect(() => {
@@ -173,20 +284,33 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
     }
   };
 
+  // Match keys computed once per chapter, not on every keystroke.
+  const verseSearchKeys = useMemo(() => {
+    if (state.kind !== 'ready') return [];
+    return state.verses.map((v) => ({
+      number: String(v.number),
+      // Transliteration gets phonetic folding, so "dharmakshetre" finds IAST
+      // "dharmakṣetre".
+      phonetic: normalizeTransliteration(v.transliteration ?? ''),
+      text: normalizeForSearch([v.sanskrit, v.hindi, v.translation].filter(Boolean).join(' ')),
+    }));
+  }, [state]);
+
   const filteredVerses = useMemo(() => {
     if (state.kind !== 'ready') return [];
-    const q = filterQuery.trim().toLowerCase();
+    const q = normalizeForSearch(filterQuery);
     if (!q) return state.verses;
-    return state.verses.filter((v) => {
-      const num = String(v.number).toLowerCase();
-      if (num === q || num.includes(q)) return true;
-      if (v.sanskrit?.toLowerCase().includes(q)) return true;
-      if (v.transliteration?.toLowerCase().includes(q)) return true;
-      if (v.hindi?.toLowerCase().includes(q)) return true;
-      if (v.translation?.toLowerCase().includes(q)) return true;
-      return false;
+    const qPhonetic = normalizeTransliteration(filterQuery);
+    const rawNumber = filterQuery.trim();
+    return state.verses.filter((_, i) => {
+      const keys = verseSearchKeys[i];
+      return (
+        keys.number.includes(rawNumber) ||
+        (qPhonetic !== '' && keys.phonetic.includes(qPhonetic)) ||
+        keys.text.includes(q)
+      );
     });
-  }, [state, filterQuery]);
+  }, [state, filterQuery, verseSearchKeys]);
 
   const sanskritFontSizeClass =
     fontSize === 'xl'
@@ -216,6 +340,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
           chapter = shard.chapter;
           source = shard.source;
         } else {
+          // Fallback to monolithic book JSON
           const bookRes = await fetch(`${basePath}/data/scriptures-full/${scriptureId}.json`, {
             cache: 'force-cache',
           });
@@ -224,7 +349,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
             return;
           }
           const data: FullScripture = await bookRes.json();
-          chapter = data.chapters.find((c) => c.number === chapterId);
+          chapter = data.chapters?.find((c) => c.number === chapterId);
           source = data.source;
         }
 
@@ -447,9 +572,9 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
             </div>
           </div>
 
-          {/* Quick in-chapter search input */}
-          <div className="mt-3 pt-3 border-t border-dharma-border/60 flex items-center gap-2">
-            <div className="relative flex-1">
+          {/* Quick in-chapter search & verse jump */}
+          <div className="mt-3 pt-3 border-t border-dharma-border/60 flex flex-wrap items-center gap-3">
+            <div className="relative flex-1 min-w-[200px]">
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-dharma-muted" />
               <input
                 type="text"
@@ -469,6 +594,32 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
                 </button>
               )}
             </div>
+
+            {state.verses.length > 5 && (
+              <div className="flex items-center gap-1.5 text-xs text-dharma-muted">
+                <span className="shrink-0 text-[11px] font-medium">श्लोक पर जाएं:</span>
+                <select
+                  onChange={(e) => {
+                    if (e.target.value) {
+                      scrollToVerse(e.target.value);
+                      e.target.value = '';
+                    }
+                  }}
+                  defaultValue=""
+                  aria-label="श्लोक पर सीधे जाएं"
+                  className="rounded-lg border border-dharma-border/70 bg-dharma-bg px-2 py-1 text-xs text-dharma-text outline-none focus:border-saffron-400 cursor-pointer"
+                >
+                  <option value="" disabled>
+                    चुनें...
+                  </option>
+                  {state.verses.map((v) => (
+                    <option key={String(v.number)} value={String(v.number)}>
+                      श्लोक {v.number}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            )}
           </div>
         </div>
 
@@ -510,7 +661,8 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
               return (
                 <article
                   key={`${String(v.number)}-${index}`}
-                  className={`rounded-xl border border-dharma-border bg-dharma-card p-5 md:p-6 shadow-sm ${
+                  id={`verse-${v.number}`}
+                  className={`scroll-mt-24 rounded-xl border border-dharma-border bg-dharma-card p-5 md:p-6 shadow-sm transition-all duration-300 ${
                     chantingMode ? 'border-saffron-200/70 shadow-md ring-1 ring-saffron-500/10' : ''
                   } ${getVerseGraphicClass(category)}`}
                   style={getVerseGraphicStyle({ category, verseId: v.number })}
@@ -523,6 +675,36 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
                       श्लोक {v.number}
                     </div>
                     <div className="ml-auto flex items-center gap-1.5">
+                      {/* Bookmark Button */}
+                      <button
+                        type="button"
+                        onClick={() => toggleBookmark(v)}
+                        className={`inline-flex items-center gap-1 rounded-full border px-2.5 py-0.5 text-[10px] font-medium transition ${
+                          bookmarkedMap[String(v.number)]
+                            ? 'border-saffron-400 bg-saffron-50 text-saffron-800 font-semibold'
+                            : 'border-dharma-border/60 bg-dharma-bg text-dharma-muted hover:border-saffron-300 hover:text-saffron-700'
+                        }`}
+                        title={
+                          bookmarkedMap[String(v.number)]
+                            ? 'बुकमार्क हटाएं (Remove bookmark)'
+                            : 'बुकमार्क करें (Save to bookmarks)'
+                        }
+                        aria-label="Bookmark verse"
+                        aria-pressed={Boolean(bookmarkedMap[String(v.number)])}
+                      >
+                        {bookmarkedMap[String(v.number)] ? (
+                          <>
+                            <BookmarkCheck className="h-3 w-3 text-saffron-600 fill-saffron-500/20" />
+                            <span className="text-saffron-700">सहेजा</span>
+                          </>
+                        ) : (
+                          <>
+                            <Bookmark className="h-3 w-3" />
+                            <span>सहेजें</span>
+                          </>
+                        )}
+                      </button>
+
                       <button
                         type="button"
                         onClick={() => handleCopyVerse(v)}
@@ -579,7 +761,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
                           संस्कृत
                         </div>
                       )}
-                      <p className={`font-devanagari ${sanskritFontSizeClass} text-dharma-text whitespace-pre-line`}>
+                      <p lang="sa" className={`font-devanagari ${sanskritFontSizeClass} text-dharma-text whitespace-pre-line`}>
                         {v.sanskrit}
                       </p>
                     </div>
@@ -593,7 +775,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
                           लिप्यंतरण
                         </div>
                       )}
-                      <p className="text-sm md:text-base italic text-stone-700 whitespace-pre-line leading-relaxed">
+                      <p lang="sa-Latn" className="text-sm md:text-base italic text-stone-700 whitespace-pre-line leading-relaxed">
                         {v.transliteration}
                       </p>
                     </div>
@@ -607,7 +789,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
                             <Sun className="w-3 h-3" />
                             हिन्दी अर्थ
                           </div>
-                          <p className="text-sm md:text-base text-rose-950 leading-loose">{v.hindi}</p>
+                          <p lang="hi" className="text-sm md:text-base text-rose-950 leading-loose">{v.hindi}</p>
                         </div>
                       )}
 
@@ -625,7 +807,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
                               </span>
                             )}
                           </div>
-                          <p className="text-sm md:text-base text-dharma-text leading-relaxed">{v.translation}</p>
+                          <p lang="en" className="text-sm md:text-base text-dharma-text leading-relaxed">{v.translation}</p>
                         </div>
                       )}
 
@@ -648,6 +830,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
                                 {explanationIsHi ? 'आध्यात्मिक व्याख्या' : 'अंग्रेज़ी व्याख्या'}
                               </div>
                               <p
+                                lang={explanationIsHi ? 'hi' : 'en'}
                                 className={`text-sm md:text-base text-emerald-950 leading-relaxed ${explanationIsHi ? 'font-devanagari' : ''}`}
                               >
                                 {explanation}
@@ -662,6 +845,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
                                 {scienceIsHi ? 'वैज्ञानिक दृष्टिकोण' : 'अंग्रेज़ी वैज्ञानिक दृष्टिकोण'}
                               </div>
                               <p
+                                lang={scienceIsHi ? 'hi' : 'en'}
                                 className={`text-sm md:text-base text-indigo-950 leading-relaxed ${scienceIsHi ? 'font-devanagari' : ''}`}
                               >
                                 {science}
@@ -676,6 +860,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
                                 {lessonIsHi ? 'जीवन की सीख — आज अपनाएँ' : 'अंग्रेज़ी जीवन की सीख'}
                               </div>
                               <p
+                                lang={lessonIsHi ? 'hi' : 'en'}
                                 className={`text-sm md:text-base text-amber-950 leading-relaxed font-medium ${lessonIsHi ? 'font-devanagari' : ''}`}
                               >
                                 {lesson}

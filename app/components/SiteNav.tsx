@@ -1,5 +1,6 @@
 'use client';
 
+import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
@@ -12,7 +13,20 @@ import {
   useSpring,
 } from 'framer-motion';
 import { ThemeToggle } from './ThemeToggle';
-import { GlobalSearchModal } from './GlobalSearchModal';
+
+// The modal bundles the whole search index (concepts, dictionary, festivals…),
+// so keep it out of every page's JS and fetch it only when search is used.
+const loadSearchModal = () => import('./GlobalSearchModal');
+const GlobalSearchModal = dynamic(
+  () => loadSearchModal().then((m) => m.GlobalSearchModal),
+  { ssr: false },
+);
+
+function isTypingTarget(target: EventTarget | null): boolean {
+  if (!(target instanceof HTMLElement)) return false;
+  const tag = target.tagName;
+  return tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT' || target.isContentEditable;
+}
 
 const primaryItems = [
   { label: 'मुख', href: '/' },
@@ -43,6 +57,9 @@ export function SiteNav() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [discoverOpen, setDiscoverOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
+  // Mount the modal only after first use so its chunk isn't fetched up front.
+  const [searchMounted, setSearchMounted] = useState(false);
+  const [shortcutLabel, setShortcutLabel] = useState('Ctrl K');
   const discoverRef = useRef<HTMLDivElement>(null);
   const reduce = useReducedMotion();
   const { scrollYProgress } = useScroll();
@@ -58,10 +75,29 @@ export function SiteNav() {
   const discoveryIsActive = discoveryItems.some((item) => isActive(item.href));
 
   useEffect(() => {
+    if (searchOpen) setSearchMounted(true);
+  }, [searchOpen]);
+
+  useEffect(() => {
+    if (/Mac|iPhone|iPad/.test(navigator.platform || navigator.userAgent)) {
+      setShortcutLabel('⌘K');
+    }
+  }, []);
+
+  useEffect(() => {
     function handleGlobalKey(e: KeyboardEvent) {
-      if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
         e.preventDefault();
         setSearchOpen((prev) => !prev);
+      } else if (
+        e.key === '/' &&
+        !e.metaKey &&
+        !e.ctrlKey &&
+        !e.altKey &&
+        !isTypingTarget(e.target)
+      ) {
+        e.preventDefault();
+        setSearchOpen(true);
       }
     }
     window.addEventListener('keydown', handleGlobalKey);
@@ -222,13 +258,16 @@ export function SiteNav() {
             <button
               type="button"
               onClick={() => setSearchOpen(true)}
+              onPointerEnter={() => void loadSearchModal()}
+              onFocus={() => void loadSearchModal()}
               className="flex items-center gap-2 rounded-xl border border-dharma-border/80 bg-dharma-bg/70 px-3 py-2 text-xs font-semibold text-dharma-muted transition hover:border-saffron-300 hover:text-dharma-text focus:outline-none focus:ring-2 focus:ring-saffron-500/20"
               aria-label="खोजें (Search)"
+              aria-keyshortcuts="Control+K Meta+K /"
             >
               <Search className="h-4 w-4 text-saffron-600" />
               <span className="hidden sm:inline">खोजें...</span>
               <kbd className="hidden rounded border border-dharma-border bg-dharma-card px-1.5 py-0.5 font-mono text-[10px] text-dharma-muted md:inline-block">
-                ⌘K
+                {shortcutLabel}
               </kbd>
             </button>
             <ThemeToggle />
@@ -278,9 +317,6 @@ export function SiteNav() {
               >
                 <Search className="h-4 w-4 text-saffron-600" />
                 <span>ग्रंथ, श्लोक, विषय खोजें...</span>
-                <span className="ml-auto rounded border border-dharma-border bg-dharma-card px-1.5 py-0.5 font-mono text-[10px] text-dharma-muted">
-                  ⌘K
-                </span>
               </button>
 
               <section aria-labelledby="mobile-main-heading">
@@ -361,7 +397,9 @@ export function SiteNav() {
         style={{ scaleX: reduce ? scrollYProgress : progress }}
       />
 
-      <GlobalSearchModal isOpen={searchOpen} onClose={() => setSearchOpen(false)} />
+      {searchMounted && (
+        <GlobalSearchModal isOpen={searchOpen} onClose={() => setSearchOpen(false)} />
+      )}
     </nav>
   );
 }

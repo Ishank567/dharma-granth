@@ -90,5 +90,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...dictionaryRoutes,
     ...scriptureRoutes,
     ...chapterRoutes,
-  ];
+  ].map((entry) => ({ ...entry, url: withTrailingSlash(entry.url) }));
+}
+
+/**
+ * next.config sets `trailingSlash: true`, so pages are served at `/path/` and
+ * `/path` redirects. List the final URLs so crawlers don't hit a redirect.
+ */
+function withTrailingSlash(url: string): string {
+  return url.endsWith('/') ? url : `${url}/`;
 }

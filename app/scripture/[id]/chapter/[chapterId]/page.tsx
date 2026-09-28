@@ -6,66 +6,19 @@ import Link from 'next/link';
 import { AmbientOrbs } from '@/app/components/motion/AmbientOrbs';
 import { ChapterHero } from '@/app/components/motion/ChapterHero';
 import { FullChapterVerses } from '@/app/components/FullChapterVerses';
+import { ChapterKeyboardNav } from '@/app/components/ChapterKeyboardNav';
+import { ChapterVisitRecorder } from '@/app/components/ChapterVisitRecorder';
 import { FadeUpOnView } from '@/app/components/motion/primitives';
 import { getScriptureMeta, getAllScriptures, getScriptureChapters } from '@/data/scriptures';
-import { readSeededChapterNumbers } from '@/lib/read-seeded-chapters';
+import {
+  readSeededChapterNumbers,
+  readSeededChapterPreviews,
+  type ChapterPreview,
+} from '@/lib/read-seeded-chapters';
 import { ArrowLeft, ArrowRight, BookOpen, Sparkles } from 'lucide-react';
 
 interface PageProps {
   params: { id: string; chapterId: string };
-}
-
-interface ChapterPreview {
-  id: number;
-  title: string;
-  titleSanskrit?: string;
-  summary?: string;
-  verseCount: number;
-}
-
-const seededChapterPreviewCache = new Map<string, ChapterPreview[]>();
-
-function readSeededChapterPreviews(scriptureId: string): ChapterPreview[] {
-  const cached = seededChapterPreviewCache.get(scriptureId);
-  if (cached) return cached;
-
-  try {
-    const filePath = resolve(
-      process.cwd(),
-      'public/data/scriptures-full',
-      `${scriptureId}.json`,
-    );
-    if (!existsSync(filePath)) return [];
-    const data = JSON.parse(readFileSync(filePath, 'utf8')) as {
-      chapters?: Array<{
-        number?: number | string;
-        title?: string;
-        titleSanskrit?: string;
-        verses?: unknown[];
-      }>;
-    };
-
-    const previews = (data.chapters ?? [])
-      .map((chapter): ChapterPreview | undefined => {
-        const id =
-          typeof chapter.number === 'number'
-            ? chapter.number
-            : Number(chapter.number);
-        if (!Number.isFinite(id)) return undefined;
-        return {
-          id,
-          title: chapter.title || `अध्याय ${id}`,
-          titleSanskrit: chapter.titleSanskrit,
-          summary: 'मुक्त-स्रोत संग्रह से पूर्ण मूल पाठ उपलब्ध है।',
-          verseCount: chapter.verses?.length ?? 0,
-        };
-      })
-      .filter((chapter): chapter is ChapterPreview => Boolean(chapter));
-    seededChapterPreviewCache.set(scriptureId, previews);
-    return previews;
-  } catch {
-    return [];
-  }
 }
 
 function getChapterPreview(scriptureId: string, chapterId: number): ChapterPreview | undefined {
@@ -85,6 +38,17 @@ function getChapterPreview(scriptureId: string, chapterId: number): ChapterPrevi
     summary: seededChapter?.summary,
     verseCount: Math.max(indexedChapter?.verseCount ?? 0, seededChapter?.verseCount ?? 0),
   };
+}
+
+const GENERIC_TITLE = /^(adhyaya|chapter|अध्याय)\s*[\d०-९]+$/i;
+
+/** A neighbouring chapter's name for the prev/next buttons, if it says more than its number. */
+function neighbourLabel(scriptureId: string, chapterId: number): string | undefined {
+  const preview = getChapterPreview(scriptureId, chapterId);
+  if (!preview) return undefined;
+  return [preview.title, preview.titleSanskrit].find(
+    (t): t is string => Boolean(t?.trim()) && !GENERIC_TITLE.test(t!.trim()),
+  );
 }
 
 export function generateStaticParams() {
@@ -180,6 +144,12 @@ export default function ChapterPage({ params }: PageProps) {
   const maxIndexed = indexedChapters.reduce((m, ch) => (ch.id > m ? ch.id : m), 0);
   const totalChapterCount = Math.max(meta.totalChapters, maxIndexed, maxSeeded);
   if (chapterId > totalChapterCount) return notFound();
+
+  const prevHref = chapterId > 1 ? `/scripture/${params.id}/chapter/${chapterId - 1}` : undefined;
+  const nextHref =
+    chapterId < totalChapterCount ? `/scripture/${params.id}/chapter/${chapterId + 1}` : undefined;
+  const prevLabel = prevHref ? neighbourLabel(meta.id, chapterId - 1) : undefined;
+  const nextLabel = nextHref ? neighbourLabel(meta.id, chapterId + 1) : undefined;
 
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://dharmagranth.in';
   const chapterJsonLd = {
@@ -279,34 +249,57 @@ export default function ChapterPage({ params }: PageProps) {
           autoLoad
         />
 
-        <FadeUpOnView className="mt-14 flex items-center justify-between gap-4">
-          {chapterId > 1 ? (
+        <FadeUpOnView className="mt-14 flex items-stretch justify-between gap-4">
+          {prevHref ? (
             <Link
-              href={`/scripture/${params.id}/chapter/${chapterId - 1}`}
-              className="group inline-flex items-center gap-2 px-5 py-3 rounded-xl border border-dharma-border bg-white text-dharma-text hover:bg-saffron-50 hover:border-saffron-300 hover:shadow-md transition"
+              href={prevHref}
+              aria-keyshortcuts="ArrowLeft"
+              className="group inline-flex min-w-0 max-w-[48%] items-center gap-2 px-5 py-3 rounded-xl border border-dharma-border bg-white text-dharma-text hover:bg-saffron-50 hover:border-saffron-300 hover:shadow-md transition"
             >
-              <ArrowLeft className="w-4 h-4 group-hover:-translate-x-0.5 transition-transform" />
-              <span>
-                <div className="text-[10px] uppercase tracking-widest text-dharma-muted">पिछला</div>
-                <div className="text-sm font-semibold">अध्याय {chapterId - 1}</div>
+              <ArrowLeft className="w-4 h-4 shrink-0 group-hover:-translate-x-0.5 transition-transform" />
+              <span className="min-w-0">
+                <span className="block text-[10px] uppercase tracking-widest text-dharma-muted">पिछला</span>
+                <span className="block text-sm font-semibold">अध्याय {chapterId - 1}</span>
+                {prevLabel && (
+                  <span className="block truncate text-xs text-dharma-muted">{prevLabel}</span>
+                )}
               </span>
             </Link>
           ) : (
             <div />
           )}
-          {chapterId < totalChapterCount && (
+          {nextHref && (
             <Link
-              href={`/scripture/${params.id}/chapter/${chapterId + 1}`}
-              className="group inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-gradient-to-br from-saffron-600 to-saffron-700 text-white hover:shadow-lg transition ml-auto"
+              href={nextHref}
+              aria-keyshortcuts="ArrowRight"
+              className="group inline-flex min-w-0 max-w-[48%] items-center gap-2 px-5 py-3 rounded-xl bg-gradient-to-br from-saffron-600 to-saffron-700 text-white hover:shadow-lg transition ml-auto"
             >
-              <span className="text-right">
-                <div className="text-[10px] uppercase tracking-widest opacity-80">अगला</div>
-                <div className="text-sm font-semibold">अध्याय {chapterId + 1}</div>
+              <span className="min-w-0 text-right">
+                <span className="block text-[10px] uppercase tracking-widest opacity-80">अगला</span>
+                <span className="block text-sm font-semibold">अध्याय {chapterId + 1}</span>
+                {nextLabel && (
+                  <span className="block truncate text-xs opacity-80">{nextLabel}</span>
+                )}
               </span>
-              <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
+              <ArrowRight className="w-4 h-4 shrink-0 group-hover:translate-x-0.5 transition-transform" />
             </Link>
           )}
         </FadeUpOnView>
+        {(prevHref || nextHref) && (
+          <p className="mt-3 hidden text-center text-xs text-dharma-muted md:block">
+            कीबोर्ड: <kbd className="rounded border border-dharma-border px-1 font-mono">←</kbd>{' '}
+            <kbd className="rounded border border-dharma-border px-1 font-mono">→</kbd> से अध्याय बदलें
+          </p>
+        )}
+        <ChapterKeyboardNav prevHref={prevHref} nextHref={nextHref} />
+        <ChapterVisitRecorder
+          scriptureId={meta.id}
+          scriptureTitle={meta.title}
+          scriptureTitleSanskrit={meta.titleSanskrit}
+          chapterId={chapter.id}
+          chapterTitle={chapter.title || `अध्याय ${chapter.id}`}
+          totalChapters={totalChapterCount}
+        />
         </div>
       </div>
     </main>

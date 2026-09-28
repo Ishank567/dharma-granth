@@ -1,6 +1,9 @@
 import type { Config } from 'tailwindcss';
 
 const config: Config = {
+  // Follow the site's own theme switcher (ThemeProvider sets data-theme on
+  // <html>), not the OS colour scheme, so `dark:` matches what users picked.
+  darkMode: ['selector', '[data-theme="night"]'],
   content: [
     './app/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
