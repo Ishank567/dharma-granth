@@ -7,6 +7,8 @@ export interface FullVerse {
   sanskrit?: string;
   transliteration?: string;
   translation?: string;
+  /** "ai" when the translation was machine-generated from the Sanskrit. */
+  translationSource?: "ai";
   hindi?: string;
   wordMeaning?: string;
   commentary?: string;

@@ -15,6 +15,7 @@ interface FullVerse {
   sanskrit?: string;
   transliteration?: string;
   translation?: string;
+  translationSource?: 'ai';
   hindi?: string;
   wordMeaning?: string;
   commentary?: string;
@@ -288,6 +289,14 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
                 <div className="flex items-center gap-1.5 text-[10px] uppercase tracking-widest text-blue-800 font-semibold mb-1.5">
                   <ScrollText className="w-3 h-3" />
                   अनुवाद
+                  {v.translationSource === 'ai' && (
+                    <span
+                      className="ml-1 rounded-full border border-blue-200 bg-blue-50 px-1.5 py-px text-[9px] font-medium normal-case tracking-normal text-blue-700"
+                      title="Machine-translated from the Sanskrit; not a scholarly translation"
+                    >
+                      AI translation
+                    </span>
+                  )}
                 </div>
                 <p className="text-sm md:text-base text-dharma-text leading-relaxed">{v.translation}</p>
               </div>
