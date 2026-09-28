@@ -1,6 +1,7 @@
 'use client';
 
 import dynamic from 'next/dynamic';
+import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
@@ -14,6 +15,7 @@ import {
   useSpring,
 } from 'framer-motion';
 import { ThemeToggle } from './ThemeToggle';
+import logoMark from '@/public/logo-mark.webp';
 import { OPEN_SEARCH_EVENT, type OpenSearchDetail } from '@/lib/search-events';
 
 // The modal bundles the whole search index (concepts, dictionary, festivals…),
@@ -174,12 +176,14 @@ export function SiteNav() {
             className="group flex shrink-0 items-center gap-2.5 rounded-lg"
             aria-label="Dharma Granth home"
           >
+            {/* Emblem from the logo artwork (scripts/build-logo.mjs). A cream
+                badge so it reads on the dark theme too. */}
             <motion.span
-              className="font-devanagari text-3xl leading-none text-saffron-600 transition group-hover:text-saffron-700"
-              whileHover={reduce ? undefined : { scale: 1.08, rotate: 4 }}
+              className="flex h-11 w-11 shrink-0 overflow-hidden rounded-full bg-[#fdf6ea] shadow-sm ring-1 ring-saffron-500/25 transition group-hover:ring-saffron-500/60"
+              whileHover={reduce ? undefined : { scale: 1.06 }}
               aria-hidden="true"
             >
-              ॐ
+              <Image src={logoMark} alt="" width={44} height={44} priority className="h-full w-full" />
             </motion.span>
             <span className="hidden font-serif text-xl font-bold text-dharma-text transition group-hover:text-saffron-700 sm:inline">
               Dharma Granth

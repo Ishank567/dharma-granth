@@ -4,6 +4,7 @@ import { ThemeProvider } from "@/app/components/ThemeProvider";
 import { PageTransition } from "@/app/components/motion/PageTransition";
 import { DEFAULT_OG_IMAGE } from "@/lib/og";
 import { FloatingCompanion } from "@/app/components/FloatingCompanion";
+import { SplashScreen } from "@/app/components/SplashScreen";
 import { TactileLayer } from "@/app/components/TactileLayer";
 import { SpatialLightCursor } from "@/app/components/motion/SpatialLightCursor";
 // Self-hosted fonts via @fontsource — bundled at build time so the build
@@ -39,6 +40,15 @@ const THEME_INIT_SCRIPT = `
     var t = localStorage.getItem('dharma-theme');
     if (t === 'sunset' || t === 'night' || t === 'day') {
       document.documentElement.setAttribute('data-theme', t);
+    }
+  } catch (e) {}
+  // Splash plays once per browser session; later page loads skip it before
+  // first paint. Without storage it simply plays each load.
+  try {
+    if (sessionStorage.getItem('dharma-splash')) {
+      document.documentElement.setAttribute('data-splash', 'seen');
+    } else {
+      sessionStorage.setItem('dharma-splash', '1');
     }
   } catch (e) {}
 })();
@@ -137,8 +147,9 @@ const siteJsonLd = {
       "@id": `${SITE_URL}/#organization`,
       name: SITE_NAME,
       url: SITE_URL,
-      // Square, per Google's logo guidelines (min 112×112).
-      logo: `${SITE_URL}/icons/icon-512.png`,
+      // Square, per Google's logo guidelines (min 112×112). Built by
+      // scripts/build-logo.mjs from assets/logo-source.webp.
+      logo: `${SITE_URL}/logo.png`,
       image: `${SITE_URL}${DEFAULT_OG_IMAGE.url}`,
       description: DEFAULT_DESCRIPTION,
     },
@@ -179,6 +190,7 @@ export default function RootLayout({
       </head>
       <body className="font-sans bg-dharma-bg text-dharma-text antialiased">
         <ThemeProvider>
+          <SplashScreen />
           <SpatialLightCursor />
           <a href="#main-content" className="skip-link">
             Skip to main content

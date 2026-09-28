@@ -103,6 +103,8 @@ export function VerseBookmark({
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
         title={isBookmarked ? 'Remove bookmark' : 'Bookmark this verse'}
+        aria-label={isBookmarked ? 'Remove bookmark' : 'Bookmark this verse'}
+        aria-pressed={isBookmarked}
       >
         <AnimatePresence mode="wait">
           {isBookmarked ? (
@@ -133,6 +135,7 @@ export function VerseBookmark({
       <AnimatePresence>
         {showTooltip && (
           <motion.div
+            role="status"
             initial={{ opacity: 0, y: 10, scale: 0.9 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 10, scale: 0.9 }}
@@ -146,6 +149,7 @@ export function VerseBookmark({
       {/* Bookmark count badge */}
       {bookmarks.length > 0 && (
         <motion.div
+          aria-hidden="true"
           className="absolute -top-2 -right-2 w-5 h-5 bg-gradient-to-br from-saffron-500 to-amber-600 text-white text-xs font-bold rounded-full flex items-center justify-center shadow-md"
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
@@ -168,6 +172,15 @@ export function BookmarkManager() {
     }
   }, []);
 
+  useEffect(() => {
+    if (!isOpen) return;
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setIsOpen(false);
+    };
+    document.addEventListener('keydown', onKeyDown);
+    return () => document.removeEventListener('keydown', onKeyDown);
+  }, [isOpen]);
+
   const removeBookmark = (verseId: string) => {
     const newBookmarks = bookmarks.filter(b => b.verseId !== verseId);
     setBookmarks(newBookmarks);
@@ -187,10 +200,12 @@ export function BookmarkManager() {
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
         title="View bookmarks"
+        aria-label={`View saved verses (${bookmarks.length} bookmark${bookmarks.length === 1 ? '' : 's'})`}
       >
         <Heart className="w-5 h-5" />
         {bookmarks.length > 0 && (
           <motion.div
+            aria-hidden="true"
             className="absolute -top-2 -right-2 w-5 h-5 bg-gradient-to-br from-saffron-500 to-amber-600 text-white text-xs font-bold rounded-full flex items-center justify-center shadow-md"
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
@@ -209,8 +224,12 @@ export function BookmarkManager() {
               exit={{ opacity: 0 }}
               onClick={() => setIsOpen(false)}
               className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50"
+              aria-hidden="true"
             />
             <motion.div
+              role="dialog"
+              aria-modal="true"
+              aria-label={`Saved verses (${bookmarks.length})`}
               initial={{ opacity: 0, scale: 0.95, y: 20 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.95, y: 20 }}
@@ -224,6 +243,7 @@ export function BookmarkManager() {
                 <button
                   onClick={() => setIsOpen(false)}
                   className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+                  aria-label="Close saved verses"
                 >
                   <X className="w-5 h-5" />
                 </button>
@@ -252,6 +272,7 @@ export function BookmarkManager() {
                           <button
                             onClick={() => removeBookmark(bookmark.verseId)}
                             className="p-1 rounded hover:bg-white dark:hover:bg-gray-800 transition-colors"
+                            aria-label={`Remove bookmark for ${bookmark.scriptureId} chapter ${bookmark.chapterId} verse ${bookmark.verseNumber}`}
                           >
                             <X className="w-4 h-4 text-dharma-muted" />
                           </button>

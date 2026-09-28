@@ -248,6 +248,12 @@ export function VerseCard({
   // ── Personal note ──
   const [editingNote, setEditingNote] = useState(false);
   const [draft, setDraft] = useState('');
+  // Focus the editor when the reader opens it (not autoFocus, which also
+  // fires on mount and is flagged by jsx-a11y).
+  const noteRef = useRef<HTMLTextAreaElement>(null);
+  useEffect(() => {
+    if (editingNote) noteRef.current?.focus();
+  }, [editingNote]);
   const openNoteEditor = () => {
     setDraft(note ?? '');
     setEditingNote(true);
@@ -571,7 +577,7 @@ export function VerseCard({
             {editingNote ? (
               <>
                 <textarea
-                  autoFocus
+                  ref={noteRef}
                   value={draft}
                   maxLength={NOTE_MAX}
                   onChange={(e) => setDraft(e.target.value)}

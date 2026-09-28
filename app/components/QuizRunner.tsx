@@ -145,7 +145,14 @@ export function QuizRunner({ quiz, onComplete, bestScore }: QuizRunnerProps) {
             Score: {score}
           </span>
         </div>
-        <div className="w-full h-2 bg-dharma-border rounded-full overflow-hidden">
+        <div
+          className="w-full h-2 bg-dharma-border rounded-full overflow-hidden"
+          role="progressbar"
+          aria-valuemin={0}
+          aria-valuemax={100}
+          aria-valuenow={Math.round(progress)}
+          aria-label={`Quiz progress: question ${currentIdx + 1} of ${total}`}
+        >
           <motion.div
             className="h-full bg-gradient-to-r from-saffron-500 to-amber-500"
             initial={{ width: 0 }}
@@ -221,6 +228,7 @@ export function QuizRunner({ quiz, onComplete, bestScore }: QuizRunnerProps) {
                 initial={reduce ? {} : { opacity: 0, height: 0 }}
                 animate={{ opacity: 1, height: 'auto' }}
                 className="overflow-hidden mb-6"
+                aria-live="polite"
               >
                 <div className="rounded-xl bg-saffron-50/50 border border-saffron-200 p-4">
                   <p className="text-sm text-dharma-text leading-relaxed">

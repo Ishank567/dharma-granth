@@ -178,6 +178,7 @@ export function FlashCardDeckSystem({ decks, className = '' }: FlashCardDeckSyst
         <div className="flex items-center gap-2 bg-dharma-card border border-dharma-border rounded-lg p-1">
           <button
             onClick={() => setViewMode('grid')}
+            aria-pressed={viewMode === 'grid'}
             className={`flex items-center gap-2 px-4 py-2 rounded-md text-sm font-semibold transition ${
               viewMode === 'grid' 
                 ? 'bg-saffron-500 text-white' 
@@ -189,6 +190,7 @@ export function FlashCardDeckSystem({ decks, className = '' }: FlashCardDeckSyst
           </button>
           <button
             onClick={() => setViewMode('list')}
+            aria-pressed={viewMode === 'list'}
             className={`flex items-center gap-2 px-4 py-2 rounded-md text-sm font-semibold transition ${
               viewMode === 'list' 
                 ? 'bg-saffron-500 text-white' 
@@ -206,6 +208,7 @@ export function FlashCardDeckSystem({ decks, className = '' }: FlashCardDeckSyst
           <select
             value={filterCategory || 'all'}
             onChange={(e) => setFilterCategory(e.target.value === 'all' ? null : e.target.value)}
+            aria-label="Filter decks by category"
             className="px-4 py-2 bg-dharma-card border border-dharma-border rounded-lg text-sm font-semibold text-dharma-text focus:outline-none focus:ring-2 focus:ring-saffron-500"
           >
             <option value="all">All Categories</option>
@@ -230,13 +233,23 @@ export function FlashCardDeckSystem({ decks, className = '' }: FlashCardDeckSyst
               transition={{ delay: index * 0.1 }}
             >
               <motion.div
-                className={`bg-white rounded-2xl border-2 shadow-lg cursor-pointer transition-all hover:shadow-2xl hover:scale-105 ${
+                className={`bg-white rounded-2xl border-2 shadow-lg cursor-pointer transition-all hover:shadow-2xl hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-saffron-500 ${
                   expandedDeck === deck.id 
                     ? `${categoryColors[deck.category]} shadow-2xl scale-105` 
                     : 'border-dharma-border'
                 }`}
                 onClick={() => {
                   setExpandedDeck(expandedDeck === deck.id ? null : deck.id);
+                }}
+                role="button"
+                tabIndex={0}
+                aria-expanded={expandedDeck === deck.id}
+                aria-label={`${deck.name} deck, ${deck.cards.length} cards — toggle details`}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    setExpandedDeck(expandedDeck === deck.id ? null : deck.id);
+                  }
                 }}
               >
                 {/* Header */}
@@ -345,13 +358,23 @@ export function FlashCardDeckSystem({ decks, className = '' }: FlashCardDeckSyst
               transition={{ delay: index * 0.1 }}
             >
               <motion.div
-                className={`bg-white rounded-xl border-2 shadow-md cursor-pointer transition-all hover:shadow-xl ${
+                className={`bg-white rounded-xl border-2 shadow-md cursor-pointer transition-all hover:shadow-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-saffron-500 ${
                   expandedDeck === deck.id 
                     ? `${categoryColors[deck.category]} shadow-xl` 
                     : 'border-dharma-border'
                 }`}
                 onClick={() => {
                   setExpandedDeck(expandedDeck === deck.id ? null : deck.id);
+                }}
+                role="button"
+                tabIndex={0}
+                aria-expanded={expandedDeck === deck.id}
+                aria-label={`${deck.name} deck, ${deck.cards.length} cards — toggle details`}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    setExpandedDeck(expandedDeck === deck.id ? null : deck.id);
+                  }
                 }}
               >
                 <div className="p-6 flex items-center justify-between">

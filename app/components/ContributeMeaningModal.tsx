@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Copy, X, Github, Edit3, Check } from 'lucide-react';
 
@@ -49,6 +49,15 @@ export function ContributeMeaningModal({
     notes: '',
   });
   const [copied, setCopied] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (!open) return;
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose();
+    };
+    document.addEventListener('keydown', onKeyDown);
+    return () => document.removeEventListener('keydown', onKeyDown);
+  }, [open, onClose]);
 
   const ch = String(chapterId);
   const v = String(verseId);
@@ -164,13 +173,17 @@ export function ContributeMeaningModal({
   return (
     <AnimatePresence>
       {open && (
-        <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/70 p-4" onClick={onClose}>
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
+          <div className="absolute inset-0 bg-black/70" onClick={onClose} aria-hidden="true" />
           <motion.div
+            role="dialog"
+            aria-modal="true"
+            aria-label={`Contribute meaning for ${scriptureTitle || scriptureId} ${ch}:${v}`}
             initial={{ opacity: 0, scale: 0.96, y: 10 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.97, y: 6 }}
             transition={{ duration: 0.18 }}
-            className="w-full max-w-2xl rounded-2xl border border-dharma-border bg-dharma-card shadow-2xl overflow-hidden"
+            className="relative w-full max-w-2xl rounded-2xl border border-dharma-border bg-dharma-card shadow-2xl overflow-hidden"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Header */}
@@ -207,8 +220,9 @@ export function ContributeMeaningModal({
               {/* Form */}
               <div className="space-y-4">
                 <div>
-                  <label className="block text-xs font-semibold uppercase text-emerald-700 mb-1.5">व्याख्या / Explanation</label>
+                  <label htmlFor="contribute-explanation" className="block text-xs font-semibold uppercase text-emerald-700 mb-1.5">व्याख्या / Explanation</label>
                   <textarea
+                    id="contribute-explanation"
                     value={form.explanation}
                     onChange={(e) => updateField('explanation', e.target.value)}
                     placeholder="Provide a clear, insightful explanation (Hindi or English). Include key Sanskrit terms if helpful."
@@ -217,8 +231,9 @@ export function ContributeMeaningModal({
                 </div>
 
                 <div>
-                  <label className="block text-xs font-semibold uppercase text-indigo-700 mb-1.5">आधुनिक दृष्टि / Science or modern parallel (optional)</label>
+                  <label htmlFor="contribute-science" className="block text-xs font-semibold uppercase text-indigo-700 mb-1.5">आधुनिक दृष्टि / Science or modern parallel (optional)</label>
                   <textarea
+                    id="contribute-science"
                     value={form.science}
                     onChange={(e) => updateField('science', e.target.value)}
                     placeholder="Connect to psychology, physics, biology, history, etc."
@@ -227,8 +242,9 @@ export function ContributeMeaningModal({
                 </div>
 
                 <div>
-                  <label className="block text-xs font-semibold uppercase text-amber-700 mb-1.5">जीवन शिक्षा / Life lesson (optional)</label>
+                  <label htmlFor="contribute-life-lesson" className="block text-xs font-semibold uppercase text-amber-700 mb-1.5">जीवन शिक्षा / Life lesson (optional)</label>
                   <textarea
+                    id="contribute-life-lesson"
                     value={form.lifeLesson}
                     onChange={(e) => updateField('lifeLesson', e.target.value)}
                     placeholder="A practical takeaway someone can apply today."
@@ -237,8 +253,9 @@ export function ContributeMeaningModal({
                 </div>
 
                 <div>
-                  <label className="block text-xs font-semibold uppercase text-rose-700 mb-1.5">हिन्दी अर्थ / Hindi translation or arth (optional)</label>
+                  <label htmlFor="contribute-hindi" className="block text-xs font-semibold uppercase text-rose-700 mb-1.5">हिन्दी अर्थ / Hindi translation or arth (optional)</label>
                   <textarea
+                    id="contribute-hindi"
                     value={form.hindi}
                     onChange={(e) => updateField('hindi', e.target.value)}
                     placeholder="Short or detailed Hindi meaning."
@@ -247,8 +264,9 @@ export function ContributeMeaningModal({
                 </div>
 
                 <div>
-                  <label className="block text-xs font-semibold uppercase tracking-wider text-dharma-muted mb-1.5">Notes / Sources (optional)</label>
+                  <label htmlFor="contribute-notes" className="block text-xs font-semibold uppercase tracking-wider text-dharma-muted mb-1.5">Notes / Sources (optional)</label>
                   <textarea
+                    id="contribute-notes"
                     value={form.notes}
                     onChange={(e) => updateField('notes', e.target.value)}
                     placeholder="Any references, Gita Press page, personal insight, etc."

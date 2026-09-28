@@ -99,6 +99,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
   const [focusModeOpen, setFocusModeOpen] = useState(false);
   const [focusVerseIndex, setFocusVerseIndex] = useState(0);
   const layersMenuRef = useRef<HTMLDivElement>(null);
+  const layersTriggerRef = useRef<HTMLButtonElement>(null);
   // One store for the whole chapter (not one per card): notes and highlights
   // are passed down to each VerseCard.
   const { recordReading, getNote, setNote, getHighlight, toggleHighlight } = useStudyProgress();
@@ -237,16 +238,26 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
     }
   }, [state.kind]);
 
-  // Close layers menu on outside click
+  // Close layers menu on outside click or Escape
   useEffect(() => {
     function handlePointerDown(e: MouseEvent) {
       if (!layersMenuRef.current?.contains(e.target as Node)) {
         setShowLayersMenu(false);
       }
     }
+    function handleKeyDown(e: KeyboardEvent) {
+      if (e.key === 'Escape') {
+        setShowLayersMenu(false);
+        layersTriggerRef.current?.focus();
+      }
+    }
     if (showLayersMenu) {
       document.addEventListener('mousedown', handlePointerDown);
-      return () => document.removeEventListener('mousedown', handlePointerDown);
+      document.addEventListener('keydown', handleKeyDown);
+      return () => {
+        document.removeEventListener('mousedown', handlePointerDown);
+        document.removeEventListener('keydown', handleKeyDown);
+      };
     }
   }, [showLayersMenu]);
 
@@ -370,60 +381,60 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
 
   useEffect(() => {
     if (state.kind !== 'loading') return;
-    let cancelled = false;
+    const controller = new AbortController();
     (async () => {
       try {
         // Default caching, not 'force-cache': that serves a cached copy however
         // old, so readers kept seeing chapters from before a data repair.
         const shardRes = await fetch(
           `${basePath}/data/scriptures-full/${scriptureId}/ch-${chapterId}.json`,
+          { signal: controller.signal },
         );
 
-        let chapter: FullChapter | undefined;
-        let source: FullScripture['source'];
-
-        if (shardRes.ok) {
-          const shard = (await shardRes.json()) as {
-            chapter?: FullChapter;
-            source?: FullScripture['source'];
-          };
-          chapter = shard.chapter;
-          source = shard.source;
-        } else {
-          // Fallback to monolithic book JSON
-          const bookRes = await fetch(`${basePath}/data/scriptures-full/${scriptureId}.json`);
-          if (!bookRes.ok) {
-            if (!cancelled) setState({ kind: 'empty' });
-            return;
-          }
-          const data: FullScripture = await bookRes.json();
-          chapter = data.chapters?.find((c) => c.number === chapterId);
-          source = data.source;
-        }
-
-        if (!chapter || chapter.verses.length === 0) {
-          if (!cancelled) setState({ kind: 'empty' });
+        if (!shardRes.ok) {
+          setState({ kind: 'empty' });
           return;
         }
 
-        const commentaryRes = await fetch(`${basePath}/data/hi-commentary/${scriptureId}.json`);
+        const shard = (await shardRes.json()) as {
+          chapter?: FullChapter;
+          source?: FullScripture['source'];
+        };
+        const chapter = shard.chapter;
+        const source = shard.source;
+
+        if (!chapter || chapter.verses.length === 0) {
+          setState({ kind: 'empty' });
+          return;
+        }
+
+        const commentaryRes = await fetch(`${basePath}/data/hi-commentary/${scriptureId}.json`, {
+          signal: controller.signal,
+        });
         const extras = chapter.verses.filter(
           (v) => !curatedVerseSet.has(canonicalVerseId(chapterId, v.number)),
         );
         const commentary: HiCommentaryFragment | undefined = commentaryRes.ok
           ? await commentaryRes.json()
           : undefined;
-        if (!cancelled) {
-          setState({ kind: 'ready', verses: extras, commentary, source });
-        }
+        setState({ kind: 'ready', verses: extras, commentary, source });
       } catch (err) {
-        if (!cancelled) setState({ kind: 'error', message: (err as Error).message });
+        if (controller.signal.aborted) return;
+        setState({ kind: 'error', message: (err as Error).message });
       }
     })();
-    return () => {
-      cancelled = true;
-    };
+    return () => controller.abort();
   }, [state.kind, scriptureId, chapterId, curatedVerseSet, basePath]);
+
+  // Warm the cache for the next chapter so prev/next navigation feels
+  // instant. Failure-silent: a missing shard just means there is no next
+  // chapter.
+  useEffect(() => {
+    if (state.kind !== 'ready') return;
+    fetch(`${basePath}/data/scriptures-full/${scriptureId}/ch-${chapterId + 1}.json`, {
+      priority: 'low',
+    } as RequestInit).catch(() => {});
+  }, [state.kind, basePath, scriptureId, chapterId]);
 
   // Retry by itself once the connection comes back.
   useEffect(() => {
@@ -456,8 +467,27 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
 
   if (state.kind === 'loading') {
     return (
-      <div className="rounded-2xl border border-dharma-border bg-dharma-card p-6 text-center text-sm text-dharma-muted">
-        अध्याय लोड हो रहा है…
+      <div className="space-y-6" role="status" aria-label="अध्याय लोड हो रहा है…">
+        {[0, 1, 2].map((i) => (
+          <div
+            key={i}
+            className="rounded-2xl border border-dharma-border bg-dharma-card overflow-hidden shadow-sm animate-pulse"
+          >
+            <div className="bg-gradient-to-r from-saffron-50 via-amber-50 to-rose-50 px-6 py-4 border-b border-dharma-border flex items-center gap-3">
+              <div className="w-9 h-9 rounded-full bg-stone-200/70" />
+              <div className="space-y-1.5">
+                <div className="w-14 h-2 rounded bg-stone-200/70" />
+                <div className="w-20 h-3 rounded bg-stone-200/70" />
+              </div>
+            </div>
+            <div className="p-6 md:p-7 space-y-3">
+              <div className="w-full h-3 rounded bg-stone-200/70" />
+              <div className="w-11/12 h-3 rounded bg-stone-200/70" />
+              <div className="w-5/6 h-3 rounded bg-stone-200/70" />
+            </div>
+          </div>
+        ))}
+        <span className="sr-only">अध्याय लोड हो रहा है…</span>
       </div>
     );
   }
@@ -630,6 +660,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
                 <div className="relative" ref={layersMenuRef}>
                   <button
                     type="button"
+                    ref={layersTriggerRef}
                     onClick={() => setShowLayersMenu(!showLayersMenu)}
                     className={`inline-flex items-center gap-1.5 rounded-xl border px-3 py-1.5 text-xs font-semibold transition ${
                       showLayersMenu || (!showTranslit || !showHindi || !showEnglish || !showCommentary)

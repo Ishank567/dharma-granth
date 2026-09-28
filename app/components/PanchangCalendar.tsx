@@ -335,6 +335,7 @@ export function PanchangCalendar() {
               <FloatingParticles />
               <motion.div
                 className="absolute inset-0 mandala-bg opacity-15"
+                aria-hidden="true"
                 animate={reduce ? undefined : { rotate: 360 }}
                 transition={reduce ? undefined : { duration: 120, repeat: Infinity, ease: "linear" }}
               />
@@ -497,6 +498,7 @@ export function PanchangCalendar() {
                   <motion.button
                     type="button"
                     onClick={() => setSelectedDate((date) => addDays(date ?? new Date(), -1))}
+                    aria-label="Previous day"
                     className="inline-flex items-center gap-2 rounded-lg border border-white/25 bg-white/10 px-3 py-2 text-sm font-semibold text-white transition hover:bg-white/20"
                     whileHover={{ scale: 1.05, backgroundColor: "rgba(255,255,255,0.25)" }}
                     whileTap={{ scale: 0.95 }}
@@ -507,6 +509,7 @@ export function PanchangCalendar() {
                   <motion.button
                     type="button"
                     onClick={() => setSelectedDate(startOfLocalDay(new Date()))}
+                    aria-label="Go to today"
                     className="rounded-lg bg-white px-4 py-2 text-sm font-bold text-saffron-800 transition hover:bg-saffron-50"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
@@ -516,6 +519,7 @@ export function PanchangCalendar() {
                   <motion.button
                     type="button"
                     onClick={() => setSelectedDate((date) => addDays(date ?? new Date(), 1))}
+                    aria-label="Next day"
                     className="inline-flex items-center gap-2 rounded-lg border border-white/25 bg-white/10 px-3 py-2 text-sm font-semibold text-white transition hover:bg-white/20"
                     whileHover={{ scale: 1.05, backgroundColor: "rgba(255,255,255,0.25)" }}
                     whileTap={{ scale: 0.95 }}
@@ -608,17 +612,20 @@ export function PanchangCalendar() {
                       <Clock3 className="h-5 w-5 text-saffron-600" />
                     </motion.div>
                   </div>
-                  <div className="grid grid-cols-7 gap-2">
+                  <div className="grid grid-cols-7 gap-2" role="grid" aria-label="Week view: select a day">
+                    <div role="row" className="contents">
                     {weekDays.map((day, index) => {
                       const dayPanchang = calculatePanchang(day);
                       const isSelected =
                         day.toDateString() === selectedDate.toDateString();
 
                       return (
+                        <div role="gridcell" className="contents" key={day.toISOString()}>
                         <motion.button
-                          key={day.toISOString()}
                           type="button"
                           onClick={() => setSelectedDate(day)}
+                          aria-label={`${formatDate(day)}, tithi ${dayPanchang.tithiNumber}${isSelected ? ', selected' : ''}`}
+                          aria-pressed={isSelected}
                           className={`rounded-lg border p-2 text-center transition ${
                             isSelected
                               ? 'border-saffron-500 bg-saffron-600 text-white shadow-md'
@@ -642,8 +649,10 @@ export function PanchangCalendar() {
                             T{dayPanchang.tithiNumber}
                           </span>
                         </motion.button>
+                        </div>
                       );
                     })}
+                    </div>
                   </div>
                 </motion.div>
 
@@ -763,7 +772,7 @@ function FloatingParticles() {
   if (reduce) return null;
 
   return (
-    <div className="absolute inset-0 pointer-events-none overflow-hidden">
+    <div className="absolute inset-0 pointer-events-none overflow-hidden" aria-hidden="true">
       {particles.map((p) => (
         <motion.div
           key={p.id}

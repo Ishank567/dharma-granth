@@ -22,6 +22,7 @@
     "seed:gretil": "tsx scripts/seed-gretil.ts",
     "seed:all": "npm run seed:gita && npm run seed:ramayana && npm run seed:ramcharitmanas && npm run seed:vedas && npm run seed:upanishads && npm run seed:mahabharata && npm run seed:puranas && npm run seed:missing && npm run seed:gretil",
     "og:build": "tsx scripts/generate-og-images.ts",
+    "logo:build": "node scripts/build-logo.mjs",
     "check": "tsx scripts/check-data.ts && tsx scripts/check-commentary-quality.ts && tsx scripts/check-published-scriptures.ts",
     "check:commentary": "tsx scripts/check-commentary-quality.ts",
     "strip:commentary-boilerplate": "tsx scripts/strip-commentary-boilerplate.ts",

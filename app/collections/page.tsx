@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
 import { FolderOpen, Plus, Trash2, BookOpen, ArrowRight, Highlighter, StickyNote, X } from 'lucide-react';
@@ -11,6 +11,11 @@ export default function CollectionsPage() {
   const reduce = useReducedMotion();
   const progress = useStudyProgress();
   const [showCreate, setShowCreate] = useState(false);
+  // Focus the name field when the dialog opens (instead of autoFocus).
+  const nameInputRef = useRef<HTMLInputElement>(null);
+  useEffect(() => {
+    if (showCreate) nameInputRef.current?.focus();
+  }, [showCreate]);
   const [newName, setNewName] = useState('');
   const [newDesc, setNewDesc] = useState('');
   const [expandedId, setExpandedId] = useState<string | null>(null);
@@ -303,23 +308,25 @@ export default function CollectionsPage() {
               </div>
               <div className="space-y-4">
                 <div>
-                  <label className="block text-xs font-bold uppercase tracking-wider text-dharma-muted mb-1.5">
+                  <label htmlFor="new-collection-name" className="block text-xs font-bold uppercase tracking-wider text-dharma-muted mb-1.5">
                     Name
                   </label>
                   <input
+                    id="new-collection-name"
                     type="text"
                     value={newName}
                     onChange={(e) => setNewName(e.target.value)}
                     placeholder="e.g. Verses on Karma"
                     className="w-full px-4 py-2.5 rounded-xl border border-dharma-border bg-dharma-bg text-dharma-text text-sm focus:outline-none focus:ring-2 focus:ring-saffron-500"
-                    autoFocus
+                    ref={nameInputRef}
                   />
                 </div>
                 <div>
-                  <label className="block text-xs font-bold uppercase tracking-wider text-dharma-muted mb-1.5">
+                  <label htmlFor="new-collection-desc" className="block text-xs font-bold uppercase tracking-wider text-dharma-muted mb-1.5">
                     Description (optional)
                   </label>
                   <textarea
+                    id="new-collection-desc"
                     value={newDesc}
                     onChange={(e) => setNewDesc(e.target.value)}
                     placeholder="What is this collection about?"

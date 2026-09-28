@@ -12,6 +12,26 @@ interface ChapterIndexEntry {
   verseCount: number;
 }
 
+type ChaptersIndex = Record<string, ChapterIndexEntry[]>;
+
+// Shared across clicks; a failed fetch is forgotten so the next click retries.
+let chaptersIndexRequest: Promise<ChaptersIndex> | null = null;
+
+function ensureChaptersIndex(): Promise<ChaptersIndex> {
+  if (!chaptersIndexRequest) {
+    chaptersIndexRequest = fetch(`${BASE_PATH}/data/chapters.json`)
+      .then((res) => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return res.json() as Promise<ChaptersIndex>;
+      })
+      .catch((err) => {
+        chaptersIndexRequest = null;
+        throw err;
+      });
+  }
+  return chaptersIndexRequest;
+}
+
 /**
  * "Surprise me" — opens a random chapter from anywhere in the library, using
  * the lightweight chapters index so no scripture text is downloaded up front.
@@ -24,9 +44,7 @@ export function SurpriseVerseButton({ className = '' }: { className?: string }) 
     if (busy) return;
     setBusy(true);
     try {
-      const res = await fetch(`${BASE_PATH}/data/chapters.json`);
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const index = (await res.json()) as Record<string, ChapterIndexEntry[]>;
+      const index = await ensureChaptersIndex();
       const ids = Object.keys(index).filter((k) => (index[k]?.length ?? 0) > 0);
       if (ids.length === 0) return;
       const scriptureId = ids[Math.floor(Math.random() * ids.length)];

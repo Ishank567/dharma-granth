@@ -133,11 +133,12 @@ export function AdvancedSearch({ scriptures, onResultClick, className = '' }: Ad
             <div className="grid grid-cols-2 gap-4">
               {/* Category Filter */}
               <div>
-                <label className="text-xs font-bold text-dharma-muted uppercase tracking-wider mb-2 block">
+                <label htmlFor="advanced-search-category" className="text-xs font-bold text-dharma-muted uppercase tracking-wider mb-2 block">
                   Category
                 </label>
                 <div className="relative">
                   <select
+                    id="advanced-search-category"
                     value={category}
                     onChange={(e) => setCategory(e.target.value)}
                     className="w-full px-3 py-2 bg-white dark:bg-gray-900 border border-dharma-border dark:border-gray-700 rounded-lg text-dharma-text dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-saffron-500 appearance-none cursor-pointer"
@@ -154,11 +155,12 @@ export function AdvancedSearch({ scriptures, onResultClick, className = '' }: Ad
 
               {/* Language Filter */}
               <div>
-                <label className="text-xs font-bold text-dharma-muted uppercase tracking-wider mb-2 block">
+                <label htmlFor="advanced-search-language" className="text-xs font-bold text-dharma-muted uppercase tracking-wider mb-2 block">
                   Language
                 </label>
                 <div className="relative">
                   <select
+                    id="advanced-search-language"
                     value={language}
                     onChange={(e) => setLanguage(e.target.value)}
                     className="w-full px-3 py-2 bg-white dark:bg-gray-900 border border-dharma-border dark:border-gray-700 rounded-lg text-dharma-text dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-saffron-500 appearance-none cursor-pointer"
