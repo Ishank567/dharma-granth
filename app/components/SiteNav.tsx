@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
-import { ChevronDown, Flame, Menu, X } from 'lucide-react';
+import { ChevronDown, Flame, Menu, Search, X } from 'lucide-react';
 import {
   AnimatePresence,
   motion,
@@ -12,6 +12,7 @@ import {
   useSpring,
 } from 'framer-motion';
 import { ThemeToggle } from './ThemeToggle';
+import { GlobalSearchModal } from './GlobalSearchModal';
 
 const primaryItems = [
   { label: 'मुख', href: '/' },
@@ -41,6 +42,7 @@ export function SiteNav() {
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [discoverOpen, setDiscoverOpen] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
   const discoverRef = useRef<HTMLDivElement>(null);
   const reduce = useReducedMotion();
   const { scrollYProgress } = useScroll();
@@ -54,6 +56,17 @@ export function SiteNav() {
     href === '/' ? pathname === '/' : pathname.startsWith(href);
 
   const discoveryIsActive = discoveryItems.some((item) => isActive(item.href));
+
+  useEffect(() => {
+    function handleGlobalKey(e: KeyboardEvent) {
+      if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+        e.preventDefault();
+        setSearchOpen((prev) => !prev);
+      }
+    }
+    window.addEventListener('keydown', handleGlobalKey);
+    return () => window.removeEventListener('keydown', handleGlobalKey);
+  }, []);
 
   useEffect(() => {
     setMobileOpen(false);
@@ -148,7 +161,7 @@ export function SiteNav() {
                 aria-expanded={discoverOpen}
                 aria-controls="desktop-discovery-menu"
               >
-                खोजें
+                अन्वेषण
                 <ChevronDown
                   className={`h-4 w-4 transition-transform ${discoverOpen ? 'rotate-180' : ''}`}
                   aria-hidden="true"
@@ -206,6 +219,18 @@ export function SiteNav() {
           </div>
 
           <div className="flex shrink-0 items-center gap-2">
+            <button
+              type="button"
+              onClick={() => setSearchOpen(true)}
+              className="flex items-center gap-2 rounded-xl border border-dharma-border/80 bg-dharma-bg/70 px-3 py-2 text-xs font-semibold text-dharma-muted transition hover:border-saffron-300 hover:text-dharma-text focus:outline-none focus:ring-2 focus:ring-saffron-500/20"
+              aria-label="खोजें (Search)"
+            >
+              <Search className="h-4 w-4 text-saffron-600" />
+              <span className="hidden sm:inline">खोजें...</span>
+              <kbd className="hidden rounded border border-dharma-border bg-dharma-card px-1.5 py-0.5 font-mono text-[10px] text-dharma-muted md:inline-block">
+                ⌘K
+              </kbd>
+            </button>
             <ThemeToggle />
             <Link
               href="/scripture/bhagavadgita"
@@ -243,6 +268,21 @@ export function SiteNav() {
             aria-label="Navigation menu"
           >
             <div className="mx-auto max-w-2xl space-y-6 px-4 py-5 sm:px-6">
+              <button
+                type="button"
+                onClick={() => {
+                  setMobileOpen(false);
+                  setSearchOpen(true);
+                }}
+                className="flex w-full items-center gap-2.5 rounded-xl border border-dharma-border bg-dharma-bg px-4 py-3 text-sm font-semibold text-dharma-muted transition hover:border-saffron-300 hover:text-dharma-text"
+              >
+                <Search className="h-4 w-4 text-saffron-600" />
+                <span>ग्रंथ, श्लोक, विषय खोजें...</span>
+                <span className="ml-auto rounded border border-dharma-border bg-dharma-card px-1.5 py-0.5 font-mono text-[10px] text-dharma-muted">
+                  ⌘K
+                </span>
+              </button>
+
               <section aria-labelledby="mobile-main-heading">
                 <h2
                   id="mobile-main-heading"
@@ -272,7 +312,7 @@ export function SiteNav() {
                   id="mobile-discover-heading"
                   className="mb-2 px-2 text-xs font-bold uppercase tracking-[0.16em] text-dharma-muted"
                 >
-                  खोजें
+                  अन्वेषण
                 </h2>
                 <div className="grid grid-cols-2 gap-1 sm:grid-cols-3">
                   {discoveryItems.map((item) => (
@@ -320,6 +360,8 @@ export function SiteNav() {
         className="absolute inset-x-0 bottom-0 h-0.5 origin-left bg-gradient-to-r from-saffron-500 via-amber-400 to-emerald-400"
         style={{ scaleX: reduce ? scrollYProgress : progress }}
       />
+
+      <GlobalSearchModal isOpen={searchOpen} onClose={() => setSearchOpen(false)} />
     </nav>
   );
 }
