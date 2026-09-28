@@ -486,7 +486,7 @@ export function GlobalSearchModal({ isOpen, onClose, initialQuery = '' }: Props)
                                     {highlight(item.title, tokens)}
                                   </span>
                                   {item.subtitle && (
-                                    <span className="truncate font-devanagari text-xs text-dharma-muted">
+                                    <span lang="hi" className="truncate font-devanagari text-xs text-dharma-muted">
                                       {highlight(item.subtitle, tokens)}
                                     </span>
                                   )}

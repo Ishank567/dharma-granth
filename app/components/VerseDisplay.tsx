@@ -339,7 +339,7 @@ export function VerseDisplay({
                     <Sparkles className="w-3.5 h-3.5" />
                     {explanationIsHi ? 'आध्यात्मिक व्याख्या' : 'अंग्रेज़ी व्याख्या'}
                   </div>
-                  <p className={`text-sm md:text-base text-emerald-950 leading-relaxed ${explanationIsHi ? 'font-devanagari' : ''}`}>{explanation}</p>
+                  <p lang="hi" className={`text-sm md:text-base text-emerald-950 leading-relaxed ${explanationIsHi ? 'font-devanagari' : ''}`}>{explanation}</p>
                 </div>
               )}
 
@@ -349,7 +349,7 @@ export function VerseDisplay({
                     <Atom className="w-3.5 h-3.5" />
                     {scienceIsHi ? 'वैज्ञानिक दृष्टिकोण' : 'अंग्रेज़ी वैज्ञानिक दृष्टिकोण'}
                   </div>
-                  <p className={`text-sm md:text-base text-indigo-950 leading-relaxed ${scienceIsHi ? 'font-devanagari' : ''}`}>{science}</p>
+                  <p lang="hi" className={`text-sm md:text-base text-indigo-950 leading-relaxed ${scienceIsHi ? 'font-devanagari' : ''}`}>{science}</p>
                 </div>
               )}
 
@@ -359,7 +359,7 @@ export function VerseDisplay({
                     <Lightbulb className="w-3.5 h-3.5" />
                     {lessonIsHi ? 'जीवन की सीख — आज अपनाएँ' : 'अंग्रेज़ी जीवन की सीख'}
                   </div>
-                  <p className={`text-sm md:text-base text-amber-950 leading-relaxed font-medium ${lessonIsHi ? 'font-devanagari' : ''}`}>{lesson}</p>
+                  <p lang="hi" className={`text-sm md:text-base text-amber-950 leading-relaxed font-medium ${lessonIsHi ? 'font-devanagari' : ''}`}>{lesson}</p>
                 </div>
               )}
 

@@ -40,7 +40,7 @@ export function FestivalReminder() {
               >
                 <div className="min-w-0">
                   <p className="text-sm font-bold text-dharma-text truncate">
-                    {f.nameHindi ? <span className="font-devanagari">{f.nameHindi}</span> : f.name}
+                    {f.nameHindi ? <span lang="hi" className="font-devanagari">{f.nameHindi}</span> : f.name}
                   </p>
                   <p className="text-xs text-dharma-muted truncate">{f.name}{f.note ? ` — ${f.note}` : ''}</p>
                 </div>

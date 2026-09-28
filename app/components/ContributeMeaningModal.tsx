@@ -213,7 +213,7 @@ export function ContributeMeaningModal({
               {sanskrit && (
                 <div className="rounded-xl border border-dharma-border bg-dharma-bg p-4">
                   <div className="text-[10px] uppercase text-saffron-700 mb-1">मूल संस्कृत</div>
-                  <p className="font-devanagari text-base leading-relaxed text-dharma-text whitespace-pre-line">{sanskrit}</p>
+                  <p lang="sa" className="font-devanagari text-base leading-relaxed text-dharma-text whitespace-pre-line">{sanskrit}</p>
                 </div>
               )}
 

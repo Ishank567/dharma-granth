@@ -55,7 +55,7 @@ export function ToolCard({
         </div>
         <div>
           <h3 className="text-lg font-serif font-bold text-dharma-text leading-tight">{title}</h3>
-          <p className="font-devanagari text-xs text-dharma-muted">{titleHindi}</p>
+          <p lang="hi" className="font-devanagari text-xs text-dharma-muted">{titleHindi}</p>
         </div>
       </div>
       <div className="flex-1">{children}</div>

@@ -47,7 +47,7 @@ export function Certificate({
 
           {/* Watermark */}
           <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-            <span className="font-devanagari text-[200px] text-saffron-50 select-none">ॐ</span>
+            <span lang="sa" className="font-devanagari text-[200px] text-saffron-50 select-none">ॐ</span>
           </div>
 
           <div className="relative text-center">

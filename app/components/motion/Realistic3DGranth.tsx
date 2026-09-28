@@ -181,7 +181,7 @@ export function Realistic3DGranth({
                 <Sparkles className="w-3 h-3 text-amber-300" />
                 <span>पवित्र ग्रंथ</span>
               </div>
-              <span className="font-devanagari text-2xl font-bold text-amber-300/80 drop-shadow">ॐ</span>
+              <span lang="sa" className="font-devanagari text-2xl font-bold text-amber-300/80 drop-shadow">ॐ</span>
             </div>
 
             {/* Center: Embossed Sacred Title */}
@@ -193,7 +193,7 @@ export function Realistic3DGranth({
                 <div className="w-12 h-12 mx-auto mb-3 rounded-full bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center text-stone-950 font-bold shadow-lg">
                   <Flame className="w-6 h-6 text-stone-950" />
                 </div>
-                <h3 className="font-devanagari text-2xl sm:text-3xl font-extrabold tracking-wide bg-gradient-to-r from-amber-100 via-amber-300 to-amber-100 bg-clip-text text-transparent drop-shadow-[0_2px_10px_rgba(251,191,36,0.5)]">
+                <h3 lang="sa" className="font-devanagari text-2xl sm:text-3xl font-extrabold tracking-wide bg-gradient-to-r from-amber-100 via-amber-300 to-amber-100 bg-clip-text text-transparent drop-shadow-[0_2px_10px_rgba(251,191,36,0.5)]">
                   {title}
                 </h3>
                 <p className="mt-1.5 text-xs sm:text-sm font-serif italic text-amber-200/90 tracking-wide">
@@ -205,7 +205,7 @@ export function Realistic3DGranth({
 
             {/* Bottom Meta & Action */}
             <div className="relative z-10 flex items-center justify-between text-xs text-amber-200/80">
-              <span className="font-devanagari">{verseCount}</span>
+              <span lang="hi" className="font-devanagari">{verseCount}</span>
               <span className="inline-flex items-center gap-1 font-semibold text-amber-300 group-hover:text-white transition">
                 <span>खोलें</span>
                 <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-1" />
@@ -223,7 +223,7 @@ export function Realistic3DGranth({
           className="absolute top-full mt-4 left-1/2 -translate-x-1/2 z-50 w-72 sm:w-80 rounded-2xl border border-amber-300/40 bg-stone-950/95 p-5 text-white shadow-2xl backdrop-blur-xl"
         >
           <div className="flex items-start justify-between mb-2">
-            <h4 className="font-devanagari font-bold text-amber-300 text-lg">{title}</h4>
+            <h4 lang="sa" className="font-devanagari font-bold text-amber-300 text-lg">{title}</h4>
             <button
               onClick={() => setIsOpen(false)}
               className="text-stone-400 hover:text-white text-xs px-2 py-0.5 rounded-full bg-white/10"

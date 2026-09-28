@@ -12,6 +12,7 @@ import {
 } from 'lucide-react';
 import { FadeUp, FadeUpOnView } from '@/app/components/motion/primitives';
 import { topics, getTopic, type Topic } from '@/data/topics';
+import { readHref } from '@/lib/verse-paths';
 
 export function generateStaticParams() {
   return topics.map((t) => ({ id: t.id }));
@@ -245,7 +246,7 @@ function VerseBlock({
 }) {
   const verseUrl =
     verse.scriptureId && verse.chapterId && verse.verseId
-      ? `/scripture/${verse.scriptureId}/chapter/${verse.chapterId}#verse-${verse.verseId}`
+      ? readHref(verse.scriptureId, verse.chapterId, verse.verseId)
       : verse.scriptureId
         ? `/scripture/${verse.scriptureId}`
         : null;

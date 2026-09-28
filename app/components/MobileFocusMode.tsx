@@ -498,7 +498,7 @@ export function MobileFocusMode({
                   <span aria-hidden="true" className="absolute left-4 top-3 text-amber-500/20 text-lg">❁</span>
                   <span aria-hidden="true" className="absolute right-4 top-3 text-amber-500/20 text-lg">❁</span>
 
-                  <div className="mb-4 inline-flex items-center justify-center h-10 w-10 rounded-full bg-gradient-to-br from-amber-500/20 to-saffron-500/30 text-amber-300 font-devanagari font-bold border border-amber-500/30">
+                  <div lang="hi" className="mb-4 inline-flex items-center justify-center h-10 w-10 rounded-full bg-gradient-to-br from-amber-500/20 to-saffron-500/30 text-amber-300 font-devanagari font-bold border border-amber-500/30">
                     {toDevanagari(verseLabel)}
                   </div>
 
@@ -570,7 +570,7 @@ export function MobileFocusMode({
                 {/* ── Life Lesson / Commentary ── */}
                 {showCommentary && lesson && (
                   <div className="rounded-2xl border border-amber-400/20 bg-gradient-to-br from-amber-500/10 via-stone-900/70 to-transparent p-4">
-                    <p className="mb-1 text-xs font-bold text-amber-300 flex items-center gap-1.5 font-devanagari">
+                    <p lang="hi" className="mb-1 text-xs font-bold text-amber-300 flex items-center gap-1.5 font-devanagari">
                       <span>✨</span> आज की सीख (Life Insight)
                     </p>
                     <p lang="hi" className="font-devanagari text-sm md:text-base leading-relaxed text-stone-200">

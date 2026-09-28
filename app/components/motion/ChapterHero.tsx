@@ -85,7 +85,7 @@ export function ChapterHero({ children, className = '' }: { children: ReactNode;
       {!reduce && <FloatingPetals />}
 
       {/* Layer 3: parallax ॐ */}
-      <motion.div
+      <motion.div lang="sa"
         aria-hidden
         className="pointer-events-none absolute top-4 right-6 text-white/10 text-[10rem] md:text-[14rem] font-devanagari leading-none select-none"
         style={{

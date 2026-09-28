@@ -1,87 +1,89 @@
 import type { MetadataRoute } from 'next';
 import { getAllScriptures, getScriptureChapters } from '@/data/scriptures';
 import { readSeededChapterNumbers } from '@/lib/read-seeded-chapters';
+import { lastChanged, scriptureLastChanged } from '@/lib/content-dates';
+import { verseStaticParams } from '@/lib/verse-pages';
 import { topics } from '@/data/topics';
 import { characters } from '@/data/characters';
 import { dictionary } from '@/data/dictionary';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://dharmagranth.in';
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
+type Entry = MetadataRoute.Sitemap[number];
 
+/**
+ * lastModified comes from git history (see lib/content-dates): each URL's date
+ * is when its content last changed, and it is omitted when unknown. A single
+ * build timestamp on every URL is ignored by Google.
+ */
+function entry(
+  path: string,
+  lastModified: Date | undefined,
+  changeFrequency: Entry['changeFrequency'],
+  priority: number,
+): Entry {
+  return {
+    url: `${SITE_URL}${path}`,
+    ...(lastModified ? { lastModified } : {}),
+    changeFrequency,
+    priority,
+  };
+}
+
+/** A top-level page: its own page file, plus the data file it renders. */
+function pageDate(route: string, ...dataFiles: string[]): Date | undefined {
+  const page = route === '/' ? 'app/page.tsx' : `app${route}/page.tsx`;
+  return lastChanged(page, ...dataFiles);
+}
+
+export default function sitemap(): MetadataRoute.Sitemap {
   // 1. Static Top-Level Routes
   const staticRoutes: MetadataRoute.Sitemap = [
-    { url: `${SITE_URL}/`, lastModified: now, changeFrequency: 'weekly', priority: 1.0 },
-    { url: `${SITE_URL}/scriptures`, lastModified: now, changeFrequency: 'weekly', priority: 0.95 },
-    { url: `${SITE_URL}/learn`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
-    { url: `${SITE_URL}/learn/pathways`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
-    { url: `${SITE_URL}/concepts`, lastModified: now, changeFrequency: 'weekly', priority: 0.85 },
-    { url: `${SITE_URL}/topics`, lastModified: now, changeFrequency: 'weekly', priority: 0.85 },
-    { url: `${SITE_URL}/characters`, lastModified: now, changeFrequency: 'weekly', priority: 0.85 },
-    { url: `${SITE_URL}/locations`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${SITE_URL}/festivals`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${SITE_URL}/timelines`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${SITE_URL}/rituals`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${SITE_URL}/dictionary`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${SITE_URL}/practice`, lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
-    { url: `${SITE_URL}/collections`, lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
+    entry('/', pageDate('/'), 'weekly', 1.0),
+    entry('/scriptures', pageDate('/scriptures', 'data/scripture-meta.ts'), 'weekly', 0.95),
+    entry('/learn', pageDate('/learn'), 'weekly', 0.9),
+    entry('/learn/pathways', pageDate('/learn/pathways', 'data/pathways.ts'), 'weekly', 0.9),
+    entry('/concepts', pageDate('/concepts'), 'weekly', 0.85),
+    entry('/topics', pageDate('/topics', 'data/topics.ts'), 'weekly', 0.85),
+    entry('/characters', pageDate('/characters', 'data/characters.ts'), 'weekly', 0.85),
+    entry('/locations', pageDate('/locations'), 'monthly', 0.8),
+    entry('/festivals', pageDate('/festivals'), 'monthly', 0.8),
+    entry('/timelines', pageDate('/timelines'), 'monthly', 0.8),
+    entry('/rituals', pageDate('/rituals'), 'monthly', 0.8),
+    entry('/dictionary', pageDate('/dictionary', 'data/dictionary.ts'), 'monthly', 0.8),
+    entry('/practice', pageDate('/practice'), 'monthly', 0.75),
+    entry('/collections', pageDate('/collections'), 'monthly', 0.75),
   ];
 
   // 2. Individual Entity Pages
-  const topicRoutes: MetadataRoute.Sitemap = topics.map((t) => ({
-    url: `${SITE_URL}/topics/${t.id}`,
-    lastModified: now,
-    changeFrequency: 'monthly',
-    priority: 0.8,
-  }));
+  const topicDate = lastChanged('data/topics.ts', 'app/topics/[id]/page.tsx');
+  const topicRoutes = topics.map((t) => entry(`/topics/${t.id}`, topicDate, 'monthly', 0.8));
 
-  const characterRoutes: MetadataRoute.Sitemap = characters.map((c) => ({
-    url: `${SITE_URL}/characters/${c.id}`,
-    lastModified: now,
-    changeFrequency: 'monthly',
-    priority: 0.8,
-  }));
+  const characterDate = lastChanged('data/characters.ts', 'app/characters/[id]/page.tsx');
+  const characterRoutes = characters.map((c) => entry(`/characters/${c.id}`, characterDate, 'monthly', 0.8));
 
-  const dictionaryRoutes: MetadataRoute.Sitemap = dictionary.map((d) => ({
-    url: `${SITE_URL}/dictionary/${d.id}`,
-    lastModified: now,
-    changeFrequency: 'monthly',
-    priority: 0.8,
-  }));
+  const dictionaryDate = lastChanged('data/dictionary.ts', 'app/dictionary/[id]/page.tsx');
+  const dictionaryRoutes = dictionary.map((d) => entry(`/dictionary/${d.id}`, dictionaryDate, 'monthly', 0.8));
 
-  // 3. Scripture Landing Pages (65 scriptures)
-  const scriptureRoutes: MetadataRoute.Sitemap = getAllScriptures().map((s) => ({
-    url: `${SITE_URL}/scripture/${s.id}`,
-    lastModified: now,
-    changeFrequency: 'monthly',
-    priority: s.hasData ? 0.9 : 0.5,
-  }));
-
-  // 4. Chapter Pages (All seeded + curated chapters across all scriptures)
+  // 3. Scripture Landing Pages, 4. Chapter Pages (all seeded + curated
+  // chapters) and 5. Verse Pages — dated by when the scripture's text or
+  // commentary last changed.
+  const scriptureRoutes: MetadataRoute.Sitemap = [];
   const chapterRoutes: MetadataRoute.Sitemap = [];
   for (const meta of getAllScriptures()) {
-    const chapterSet = new Set<number>();
+    const date = scriptureLastChanged(meta.id);
+    scriptureRoutes.push(entry(`/scripture/${meta.id}`, date, 'monthly', meta.hasData ? 0.9 : 0.5));
 
-    // Add seeded chapters from public/data/scriptures-full
-    for (const chNum of readSeededChapterNumbers(meta.id)) {
-      chapterSet.add(chNum);
-    }
-
-    // Add curated chapters
-    for (const ch of getScriptureChapters(meta.id)) {
-      chapterSet.add(ch.id);
-    }
-
+    const chapterSet = new Set<number>(readSeededChapterNumbers(meta.id));
+    for (const ch of getScriptureChapters(meta.id)) chapterSet.add(ch.id);
     for (const chId of Array.from(chapterSet).sort((a, b) => a - b)) {
-      chapterRoutes.push({
-        url: `${SITE_URL}/scripture/${meta.id}/chapter/${chId}`,
-        lastModified: now,
-        changeFrequency: 'monthly',
-        priority: 0.75,
-      });
+      chapterRoutes.push(entry(`/scripture/${meta.id}/chapter/${chId}`, date, 'monthly', 0.75));
     }
   }
+
+  const verseRoutes = verseStaticParams().map((p) =>
+    entry(`/scripture/${p.id}/chapter/${p.chapterId}/verse/${p.verseId}`, scriptureLastChanged(p.id), 'monthly', 0.7),
+  );
 
   return [
     ...staticRoutes,
@@ -90,7 +92,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...dictionaryRoutes,
     ...scriptureRoutes,
     ...chapterRoutes,
-  ].map((entry) => ({ ...entry, url: withTrailingSlash(entry.url) }));
+    ...verseRoutes,
+  ].map((e) => ({ ...e, url: withTrailingSlash(e.url) }));
 }
 
 /**

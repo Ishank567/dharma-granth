@@ -13,6 +13,7 @@ import {
 import { getConceptVerses, type ConceptVerse } from '@/data/concept-verses';
 import Link from 'next/link';
 import { BookOpen } from 'lucide-react';
+import { readHref } from '@/lib/verse-paths';
 
 // ── Force-directed layout simulation ────────────────────────────
 interface SimNode { id: string; x: number; y: number; vx: number; vy: number; }
@@ -604,7 +605,7 @@ export function ConceptGraph() {
                     {selectedVerses.map((verse, i) => {
                       const verseUrl =
                         verse.scriptureId && verse.chapterId && verse.verseId
-                          ? `/scripture/${verse.scriptureId}/chapter/${verse.chapterId}#verse-${verse.verseId}`
+                          ? readHref(verse.scriptureId, verse.chapterId, verse.verseId)
                           : verse.scriptureId
                             ? `/scripture/${verse.scriptureId}`
                             : null;

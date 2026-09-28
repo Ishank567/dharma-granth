@@ -11,6 +11,7 @@ import { pathways } from '@/data/pathways';
 import { quizzes } from '@/data/quizzes';
 import { scriptureCatalog } from '@/data/scripture-meta';
 import type { VerseHighlight } from '@/lib/useStudyProgress';
+import { chapterVerseHref } from '@/lib/verse-paths';
 
 // Literal class strings so Tailwind keeps them (matches VerseCard's palette).
 const HIGHLIGHT_SWATCH: Record<VerseHighlight['color'], string> = {
@@ -184,7 +185,7 @@ export default function DashboardPage() {
                 {recentMarks.map((m) => (
                   <li key={`${m.scriptureId}:${m.chapterId}:${m.verseId}`}>
                     <Link
-                      href={`/scripture/${m.scriptureId}/chapter/${m.chapterId}#verse-${m.verseId}`}
+                      href={chapterVerseHref(m.scriptureId, m.chapterId, m.verseId)}
                       className="group flex h-full gap-3 rounded-2xl border border-dharma-border bg-dharma-card p-4 transition hover:border-saffron-300 hover:shadow-md"
                     >
                       <span

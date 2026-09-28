@@ -13,7 +13,10 @@
  *   public/og-default.png              site-wide share image / JSON-LD logo
  *   public/icons/*, public/favicon.svg app icons for tabs, home screens, manifest
  *
+ *   public/og/verse/<id>/<chapter>-<verse>.jpg   per-verse share image (`npm run og:verses`)
+ *
  * Run: npm run og:build
+ *      npm run og:verses
  */
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
@@ -24,6 +27,8 @@ import sharp from "sharp";
 import wawoff2 from "wawoff2";
 import { scriptureCatalog } from "../data/scripture-meta";
 import type { ScriptureMeta } from "../data/types";
+import { readSeededChapter } from "../lib/read-seeded-chapters";
+import { VERSE_PAGE_SCRIPTURE_IDS, verseSlug, verseStaticParams } from "../lib/verse-pages";
 
 const ROOT = resolve(__dirname, "..");
 const OUT_DIR = resolve(ROOT, "public/og");
@@ -51,6 +56,21 @@ const FONTS = [
     cacheName: "NotoSans-Bold.ttf",
     woff2: "node_modules/@fontsource/noto-sans/files/noto-sans-latin-700-normal.woff2",
     family: "Noto Sans",
+    weight: 700 as const,
+  },
+  // Latin Extended (ā ṇ ṣ ṛ ṁ ḥ …) for IAST transliteration. Its own family
+  // name, listed after "Noto Sans" in fontFamily: satori does not fall back
+  // between two fonts registered under the same name.
+  {
+    cacheName: "NotoSans-LatinExt-Regular.ttf",
+    woff2: "node_modules/@fontsource/noto-sans/files/noto-sans-latin-ext-400-normal.woff2",
+    family: "Noto Sans Ext",
+    weight: 400 as const,
+  },
+  {
+    cacheName: "NotoSans-LatinExt-Bold.ttf",
+    woff2: "node_modules/@fontsource/noto-sans/files/noto-sans-latin-ext-700-normal.woff2",
+    family: "Noto Sans Ext",
     weight: 700 as const,
   },
   {
@@ -378,6 +398,108 @@ function svgToPng(svg: string, width: number): Buffer {
   return new Resvg(svg, { fitTo: { mode: "width", value: width } }).render().asPng();
 }
 
+async function renderVerseImages(fonts: SatoriFont[]): Promise<void> {
+  const params = verseStaticParams();
+  console.log(`[og] rendering up to ${params.length} verse share images`);
+  let written = 0;
+  for (const param of params) {
+    const chapterId = Number(param.chapterId);
+    // JPEG: ~5× smaller than PNG for this gradient, and every link-preview
+    // consumer accepts it. Path must match verseOgPath() in lib/verse-paths.
+    const fileName = `${chapterId}-${param.verseId.replace(/\./g, "-")}.jpg`;
+    const dir = resolve(OUT_DIR, "verse", param.id);
+    const file = resolve(dir, fileName);
+    if (existsSync(file)) continue;
+    const seeded = readSeededChapter(param.id, chapterId);
+    const verses = (seeded?.chapter.verses ?? []) as Array<{
+      number?: number | string;
+      transliteration?: string;
+      translation?: string;
+    }>;
+    const verse = verses.find((item) => verseSlug(item.number) === param.verseId);
+    const meta = scriptureCatalog.find((item) => item.id === param.id);
+    // Latin script only: satori does not shape Devanagari conjuncts
+    // (कर्मण्येवाधिकारस्ते renders as कर्‌मण्‌ये… with visible halants), so the
+    // verse is identified by its IAST opening line and English meaning. The
+    // page itself carries the Devanagari.
+    const clip = (text: string, max: number) =>
+      text.length > max ? `${text.slice(0, max - 1).trimEnd()}…` : text;
+    const opening = clip(
+      (verse?.transliteration ?? "")
+        .split(/\n+|\|/)
+        .map((line) => line.trim())
+        .filter(Boolean)[0]
+        ?.replace(/[।॥|0-9.\s]+$/g, "")
+        .trim() ?? "",
+      70,
+    );
+    const english = clip((verse?.translation ?? "").replace(/\s+/g, " ").trim(), 150);
+    const label = `${meta?.title ?? param.id} ${chapterId}.${param.verseId}`;
+    const tree = {
+      type: "div",
+      props: {
+        style: {
+          width: "100%",
+          height: "100%",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          background: "linear-gradient(135deg, #7c2d12 0%, #c2410c 50%, #9a3412 100%)",
+          color: "white",
+          padding: "56px 72px",
+          fontFamily: "Noto Sans, Noto Sans Ext",
+        },
+        children: [
+          {
+            type: "div",
+            props: {
+              style: { fontSize: 30, fontWeight: 700, opacity: 0.9 },
+              children: label,
+            },
+          },
+          ...(opening
+            ? [
+                {
+                  type: "div",
+                  props: {
+                    style: { fontSize: 42, fontWeight: 700, marginTop: 28, lineHeight: 1.3 },
+                    children: opening,
+                  },
+                },
+              ]
+            : []),
+          ...(english
+            ? [
+                {
+                  type: "div",
+                  props: {
+                    style: { fontSize: 26, marginTop: 24, opacity: 0.92, lineHeight: 1.45 },
+                    children: english,
+                  },
+                },
+              ]
+            : []),
+          {
+            type: "div",
+            props: {
+              style: { fontSize: 22, marginTop: 36, opacity: 0.75 },
+              children: "Dharma Granth · Sanskrit · Hindi · English",
+            },
+          },
+        ],
+      },
+    };
+    mkdirSync(dir, { recursive: true });
+    const svg = await renderSvg(tree, WIDTH, HEIGHT, fonts);
+    writeFileSync(file, await sharp(svgToPng(svg, WIDTH)).jpeg({ quality: 82, mozjpeg: true }).toBuffer());
+    written++;
+    if (written % 50 === 0) console.log(`  ${written} new verse images`);
+  }
+  console.log(
+    `  ✓ ${written} new, ${params.length - written} already present (${VERSE_PAGE_SCRIPTURE_IDS.length} books)`,
+  );
+}
+
 async function renderBrandAssets(fonts: SatoriFont[]): Promise<void> {
   mkdirSync(ICON_DIR, { recursive: true });
   const emblem = loadEmblem();
@@ -413,6 +535,11 @@ async function main(): Promise<void> {
   mkdirSync(THUMB_DIR, { recursive: true });
   console.log(`[og] loading fonts...`);
   const fonts = await loadFonts();
+  if (process.argv.includes("--verses")) {
+    await renderVerseImages(fonts);
+    console.log(`[og] verse images done.`);
+    return;
+  }
   // --brand-only: just the share image and app icons (e.g. after a logo change).
   if (!process.argv.includes("--brand-only")) {
     console.log(`[og] rendering ${scriptureCatalog.length} OG images + thumbnails to ${OUT_DIR}`);

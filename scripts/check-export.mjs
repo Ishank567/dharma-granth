@@ -17,6 +17,7 @@ const DIST = join(ROOT, 'dist');
 const SOURCE = join(ROOT, 'public/data/scriptures-full');
 
 const errors = [];
+let verseScripts = '';
 const fail = (scope, msg) => errors.push(`[${scope}] ${msg}`);
 
 if (!existsSync(DIST)) {
@@ -41,6 +42,7 @@ const KEY_PAGES = [
   '/rituals/',
   '/locations/',
   '/timelines/',
+  '/scripture/bhagavadgita/chapter/2/verse/47/',
   // Personal pages: data is client-side, but the header must still export.
   '/dashboard/',
   '/collections/',
@@ -102,6 +104,41 @@ for (const route of KEY_PAGES) {
   if (route !== '/' && hasSplash) fail(route, 'splash screen should only be on the home page');
 }
 
+// ── Canary: the most-searched verse's text is in its chapter page's HTML ──
+if (!(pageHtml('/scripture/bhagavadgita/chapter/2/') ?? '').includes('कर्मण्येवाधिकारस्ते')) {
+  fail('/scripture/bhagavadgita/chapter/2/', 'verse 2.47 (कर्मण्येवाधिकारस्ते) is not in the exported HTML');
+}
+
+// ── Verse pages: one per verse of each scripture in VERSE_PAGE_SCRIPTURE_IDS
+// (lib/verse-paths.ts), each with its text and structured data ──
+{
+  const idsSrc = readFileSync(join(ROOT, 'lib/verse-paths.ts'), 'utf8');
+  const listSrc = /VERSE_PAGE_SCRIPTURE_IDS\s*=\s*\[([^\]]*)\]/.exec(idsSrc)?.[1] ?? '';
+  const ids = [...listSrc.matchAll(/'([^']+)'/g)].map((m) => m[1]);
+  if (ids.length === 0) fail('verse pages', 'could not read VERSE_PAGE_SCRIPTURE_IDS from lib/verse-paths.ts');
+  let expected = 0;
+  let missing = 0;
+  let sample = '';
+  for (const id of ids) {
+    const path = join(SOURCE, `${id}.json`);
+    if (!existsSync(path)) continue;
+    const book = JSON.parse(readFileSync(path, 'utf8'));
+    for (const chapter of book.chapters ?? []) {
+      for (const verse of chapter.verses ?? []) {
+        if (!/^[0-9A-Za-z]+(?:[.\-][0-9A-Za-z]+)*$/.test(String(verse.number))) continue;
+        expected++;
+        const html = pageHtml(`/scripture/${id}/chapter/${chapter.number}/verse/${verse.number}/`);
+        if (!html || !html.includes(`id="verse-${verse.number}"`) || !html.includes('"FAQPage"')) {
+          missing++;
+          sample ||= `${id} ${chapter.number}.${verse.number}`;
+        }
+      }
+    }
+  }
+  if (missing > 0) fail('verse pages', `${missing}/${expected} verse pages missing or incomplete (first: ${sample})`);
+  else verseScripts = `${expected} verse pages across ${ids.length} scriptures`;
+}
+
 // ── 4. Pathways ship their course content, not just a shell ──
 {
   const html = pageHtml('/learn/pathways/') ?? '';
@@ -137,11 +174,12 @@ for (const file of readdirSync(SOURCE).filter((f) => f.endsWith('.json'))) {
     const want = chapter.verses?.length ?? 0;
     const html = readFileSync(pagePath, 'utf8');
     const got = new Set(html.match(/<article[^>]*\bid="verse-[^"]+"/g) ?? []).size;
-    if (got > 0) {
-      if (got !== want) fail(ref, `page HTML has ${got} verse cards, source has ${want}`);
+    if (want > 0 && got === want) {
       inlined++;
-    } else {
-      // Giant chapters load client-side: their shard must ship, and match.
+    } else if (want > 0 && got > 0) {
+      fail(ref, `page HTML has ${got} verse cards, source has ${want}`);
+    } else if (want > 0) {
+      // A few parvas are too large for one HTML file; they still load a shard.
       const shardPath = join(DIST, 'data/scriptures-full', id, `ch-${chapter.number}.json`);
       if (!existsSync(shardPath)) {
         fail(ref, 'no verses in the page HTML and no shard to load them from');
@@ -153,6 +191,14 @@ for (const file of readdirSync(SOURCE).filter((f) => f.endsWith('.json'))) {
   }
 }
 
+{
+  const gita2 = pageHtml('/scripture/bhagavadgita/chapter/2/') ?? '';
+  const mentions = gita2.split('कर्मण्येवाधिकारस्ते').length - 1;
+  if (mentions < 1) {
+    fail('/scripture/bhagavadgita/chapter/2/', 'Sanskrit of 2.47 is missing from the server HTML');
+  }
+}
+
 if (errors.length > 0) {
   console.error(`✗ Export check failed (${errors.length}):`);
   for (const e of errors.slice(0, 40)) console.error(`  ${e}`);
@@ -161,5 +207,5 @@ if (errors.length > 0) {
 }
 console.log(
   `✓ Export check passed: ${KEY_PAGES.length} key pages visible; ${inlined}/${chaptersChecked} chapter pages ` +
-    `carry all their verses in HTML, the rest load a matching shard.`,
+    `carry all their verses in HTML, the rest load a matching shard; ${verseScripts}.`,
 );

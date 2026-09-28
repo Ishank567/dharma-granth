@@ -14,6 +14,7 @@ import {
 import type { ScriptureCategory } from '@/data/types';
 import type { HiCommentaryFragment } from '@/data/hi-commentary/_types';
 import { canonicalVerseId } from '@/lib/canonical-verse-id';
+import { versePageHref } from '@/lib/verse-paths';
 import { normalizeForSearch, normalizeTransliteration } from '@/lib/normalize-search';
 import { useStudyProgress } from '@/lib/useStudyProgress';
 import { updateLastVerse } from '@/lib/reading-history';
@@ -68,9 +69,8 @@ interface Props {
    */
   autoLoad?: boolean;
   /**
-   * The chapter's verses and commentary, read at build time by the page. When
-   * given, the verses are in the exported HTML (for crawlers, link previews
-   * and no-JS readers) and nothing is fetched.
+   * The chapter's verses and commentary, read at build time by the page.
+   * Passed so the island can upgrade the server-rendered list into cards.
    */
   initialChapter?: InitialChapter;
 }
@@ -110,7 +110,9 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
   // The server render (and the first client render, which must match it)
   // lists plain VerseText; interactive cards replace them once hydrated.
   const [hydrated, setHydrated] = useState(false);
-  useEffect(() => setHydrated(true), []);
+  useEffect(() => {
+    setHydrated(true);
+  }, []);
 
   const [fontSize, setFontSize] = useState<'normal' | 'large' | 'xl'>('normal');
   const [chantingMode, setChantingMode] = useState(false);
@@ -823,7 +825,14 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
           ) : (
             filteredVerses.map((v, index) => {
               if (!hydrated) {
-                return <VerseText key={`${String(v.number)}-${index}`} verse={v} chapterId={chapterId} />;
+                return (
+                  <VerseText
+                    key={`${String(v.number)}-${index}`}
+                    verse={v}
+                    chapterId={chapterId}
+                    href={versePageHref(scriptureId, chapterId, v.number)}
+                  />
+                );
               }
               const verseKey = canonicalVerseId(chapterId, v.number);
               const verseIdNum = Number(verseKey);
@@ -876,6 +885,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
                     setFocusVerseIndex(index);
                     setFocusModeOpen(true);
                   }}
+                  versePageHref={versePageHref(scriptureId, chapterId, v.number)}
                 />
               );
             })

@@ -156,9 +156,9 @@ export default function ChapterPage({ params }: PageProps) {
   // The chapter's text, read at build time so every verse is in the exported
   // HTML — scripture never changes between builds, and crawlers, link
   // previews and AI search engines don't run the page's JavaScript.
-  // Giant chapters (a few Mahabharata/Purana ones run to 12,000+ verses and
-  // several MB) stay client-loaded from their shard instead: inlined they
-  // would be tens of MB of HTML.
+  // Chapters over 1 MB (11 Mahabharata/Purana ones, up to 12,000+ verses)
+  // stay client-loaded from their shard: inlined they would be tens of MB of
+  // HTML, past Cloudflare Pages' 25 MB per-file limit.
   const seeded = readSeededChapter(meta.id, chapterId);
   const initialChapter: InitialChapter | undefined =
     seeded &&
@@ -235,7 +235,7 @@ export default function ChapterPage({ params }: PageProps) {
             <div className="flex-1 min-w-0">
               <div className="text-xs uppercase text-saffron-200/90 mb-1">अध्याय {chapter.id} / {totalChapterCount}</div>
               <h1 className="text-3xl md:text-4xl font-serif font-bold mb-1">{chapter.title}</h1>
-              <p className="text-xl font-devanagari opacity-90">{chapter.titleSanskrit}</p>
+              <p lang="sa" className="text-xl font-devanagari opacity-90">{chapter.titleSanskrit}</p>
             </div>
           </div>
           <p className="text-base opacity-80 max-w-3xl leading-relaxed">{chapter.summary}</p>
@@ -246,7 +246,7 @@ export default function ChapterPage({ params }: PageProps) {
                   <BookOpen className="w-3.5 h-3.5" />
                   {chapter.verseCount} श्लोक
                 </span>
-                <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/15 backdrop-blur text-xs font-medium">
+                <span lang="hi" className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/15 backdrop-blur text-xs font-medium">
                   <Sparkles className="w-3.5 h-3.5" />
                   हिन्दी एवं विज्ञान सहित
                 </span>
@@ -264,6 +264,9 @@ export default function ChapterPage({ params }: PageProps) {
       <div className="relative max-w-4xl mx-auto px-4 py-8 sm:px-6 md:py-12">
         <AmbientOrbs />
         <div className="relative">
+        {/* With initialChapter, the reader's server render is the plain
+            VerseText list (every verse in the HTML); it swaps in the
+            interactive cards once hydrated. */}
         <FullChapterVerses
           scriptureId={params.id}
           category={meta.category}

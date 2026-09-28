@@ -78,7 +78,7 @@ export function ReadingPlan() {
                 <p className="text-sm font-bold text-dharma-text group-hover:text-emerald-700 transition">
                   {p.title}
                 </p>
-                <p className="font-devanagari text-xs text-dharma-muted mt-0.5">{p.titleHindi}</p>
+                <p lang="hi" className="font-devanagari text-xs text-dharma-muted mt-0.5">{p.titleHindi}</p>
                 {partial > 0 && (
                   <p className="text-xs text-emerald-700 mt-1">
                     {partial}/{p.days} done — continue
@@ -93,7 +93,7 @@ export function ReadingPlan() {
           <div className="flex items-start justify-between gap-2">
             <div>
               <p className="text-sm font-bold text-dharma-text">{plan.title}</p>
-              <p className="font-devanagari text-xs text-dharma-muted">{plan.titleHindi}</p>
+              <p lang="hi" className="font-devanagari text-xs text-dharma-muted">{plan.titleHindi}</p>
             </div>
             <button
               type="button"
@@ -127,7 +127,7 @@ export function ReadingPlan() {
                   >
                     {isDone ? <CheckCircle2 className="w-4 h-4" /> : <Circle className="w-4 h-4" />}
                   </button>
-                  <Link
+                  <Link lang="hi"
                     href={plan.hrefForDay(day)}
                     className={`font-devanagari hover:text-emerald-700 transition ${
                       isDone ? 'text-dharma-muted line-through' : 'text-dharma-text'

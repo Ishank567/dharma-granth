@@ -153,7 +153,7 @@ export function BookLearningClient({ meta, explanation, chapters }: BookLearning
       if (chapters.length === 0) {
         return (
           <div className="rounded-lg border border-dharma-border bg-dharma-bg p-5">
-            <p className={`leading-relaxed text-dharma-text ${language === 'hi' ? 'font-devanagari text-lg' : 'text-base'}`}>
+            <p lang="hi" className={`leading-relaxed text-dharma-text ${language === 'hi' ? 'font-devanagari text-lg' : 'text-base'}`}>
               {labels.cataloged}
             </p>
           </div>
@@ -192,7 +192,7 @@ export function BookLearningClient({ meta, explanation, chapters }: BookLearning
 
     return (
       <div className="rounded-lg border border-dharma-border bg-dharma-bg p-5">
-        <p className={`mb-4 leading-relaxed text-dharma-text ${language === 'hi' ? 'font-devanagari text-lg' : 'text-base'}`}>
+        <p lang="hi" className={`mb-4 leading-relaxed text-dharma-text ${language === 'hi' ? 'font-devanagari text-lg' : 'text-base'}`}>
           {labels.reflectionPrompt}
         </p>
         <textarea

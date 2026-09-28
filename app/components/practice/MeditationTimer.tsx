@@ -88,9 +88,9 @@ export function MeditationTimer() {
 
         {done ? (
           <div className="flex flex-col items-center py-4">
-            <span className="font-devanagari text-5xl text-saffron-600 mb-2">ॐ</span>
+            <span lang="sa" className="font-devanagari text-5xl text-saffron-600 mb-2">ॐ</span>
             <p className="text-sm font-semibold text-dharma-text">Session complete</p>
-            <p className="font-devanagari text-xs text-dharma-muted">शान्तिः शान्तिः शान्तिः</p>
+            <p lang="sa" className="font-devanagari text-xs text-dharma-muted">शान्तिः शान्तिः शान्तिः</p>
           </div>
         ) : (
           <div className="relative flex items-center justify-center py-2">

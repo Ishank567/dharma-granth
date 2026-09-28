@@ -454,7 +454,7 @@ export function PanchangCalendar() {
                         </motion.p>
                       </AnimatePresence>
                       <AnimatePresence mode="wait">
-                        <motion.p
+                        <motion.p lang="hi"
                           key={panchang.pakshaHi}
                           className="mt-2 font-devanagari text-lg text-saffron-100"
                           initial={{ opacity: 0, x: -10 }}
@@ -571,7 +571,7 @@ export function PanchangCalendar() {
                       </motion.h3>
                     </AnimatePresence>
                     <AnimatePresence mode="wait">
-                      <motion.p
+                      <motion.p lang="hi"
                         key={card.subValue}
                         className="mt-1 font-devanagari text-sm text-saffron-700"
                         initial={{ opacity: 0 }}

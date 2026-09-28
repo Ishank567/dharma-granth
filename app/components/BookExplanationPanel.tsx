@@ -25,10 +25,10 @@ export function BookExplanationPanel({ explanation, title = 'Book Explanation' }
           <p className="text-xs font-semibold uppercase tracking-wider text-saffron-700 mb-3">
             हिन्दी व्याख्या
           </p>
-          <p className="font-devanagari text-base leading-relaxed text-dharma-text mb-4">
+          <p lang="hi" className="font-devanagari text-base leading-relaxed text-dharma-text mb-4">
             {explanation.overview.hi}
           </p>
-          <p className="font-devanagari text-sm leading-relaxed text-dharma-muted">
+          <p lang="hi" className="font-devanagari text-sm leading-relaxed text-dharma-muted">
             {explanation.focus.hi}
           </p>
         </div>

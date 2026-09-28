@@ -278,7 +278,7 @@ export function BookmarkManager() {
                           </button>
                         </div>
                         {bookmark.sanskrit && (
-                          <p className="font-devanagari text-saffron-800 dark:text-saffron-200 mb-1">{bookmark.sanskrit}</p>
+                          <p lang="sa" className="font-devanagari text-saffron-800 dark:text-saffron-200 mb-1">{bookmark.sanskrit}</p>
                         )}
                         {bookmark.english && (
                           <p className="text-sm text-dharma-text dark:text-gray-200">{bookmark.english}</p>

@@ -101,7 +101,7 @@ export function PracticeDashboard() {
                     : 'border-dharma-border text-dharma-muted hover:border-saffron-200'
                 }`}
               >
-                <span className="font-devanagari">{t.label}</span>
+                <span lang="hi" className="font-devanagari">{t.label}</span>
                 <span className="opacity-70"> · {t.sub}</span>
               </button>
             ))}

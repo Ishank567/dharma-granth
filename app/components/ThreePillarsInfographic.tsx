@@ -164,7 +164,7 @@ export function ThreePillarsInfographic() {
                 <h3 className="font-serif font-bold text-xl text-dharma-text mb-2">
                   {pillar.title}
                 </h3>
-                <p className="font-devanagari text-lg text-saffron-700 mb-4">
+                <p lang="hi" className="font-devanagari text-lg text-saffron-700 mb-4">
                   {pillar.titleHi}
                 </p>
 

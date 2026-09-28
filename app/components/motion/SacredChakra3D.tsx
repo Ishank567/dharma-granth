@@ -348,8 +348,15 @@ export function SacredChakra3D({
         }`}
         // Shrinks with its container on phones while staying a circle.
         style={{ width: '100%', maxWidth: size, aspectRatio: '1 / 1', height: 'auto' }}
-        aria-label="Interactive 3D Sacred Chakra - Click and drag to spin in 3D"
-        title="Click and drag to spin the Sacred Dharma Chakra in 3D"
+        aria-label="Interactive 3D Sacred Chakra. Arrow keys spin it."
+        aria-keyshortcuts="ArrowLeft ArrowRight"
+        tabIndex={interactive ? 0 : undefined}
+        onKeyDown={(e) => {
+          if (!interactive) return;
+          if (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') return;
+          e.preventDefault();
+          rotY.current += e.key === 'ArrowRight' ? 0.18 : -0.18;
+        }}
       />
       <div className="pointer-events-none absolute bottom-2 flex items-center gap-1.5 rounded-full border border-white/15 bg-black/40 px-3 py-1 text-[11px] font-semibold text-amber-200/90 backdrop-blur-md">
         <span>☸ Drag to spin in 3D</span>

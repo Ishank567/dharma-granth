@@ -16,7 +16,7 @@ export default function ChapterLoading() {
       {/* Hero placeholder */}
       <div className="relative bg-gradient-to-br from-saffron-900 via-saffron-700 to-orange-600 text-white py-16 overflow-hidden">
         {/* Slowly-rotating, pulsing OM placeholder */}
-        <motion.div
+        <motion.div lang="sa"
           aria-hidden
           className="pointer-events-none absolute inset-0 flex items-center justify-center text-white/10 text-[14rem] font-devanagari select-none"
           animate={{ opacity: [0.06, 0.16, 0.06], scale: [0.95, 1.02, 0.95] }}

@@ -16,6 +16,7 @@ import {
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ListenButton } from "@/app/components/ListenButton";
+import { chapterVerseHref } from "@/lib/verse-paths";
 
 interface BookmarkedVerse {
   scriptureId: string;
@@ -206,7 +207,10 @@ export default function BookmarksPage() {
               const chapterParam =
                 bookmark.chapterId ??
                 bookmark.chapterTitle.trim().toLowerCase().replace(/\s+/g, "-");
-              const targetUrl = `/scripture/${bookmark.scriptureId}/chapter/${chapterParam}?verse=${bookmark.verseId}#verse-${bookmark.verseId}`;
+              const targetUrl =
+                typeof bookmark.chapterId === "number"
+                  ? chapterVerseHref(bookmark.scriptureId, bookmark.chapterId, bookmark.verseId)
+                  : `/scripture/${bookmark.scriptureId}/chapter/${chapterParam}?verse=${bookmark.verseId}#verse-${bookmark.verseId}`;
               const key = `${bookmark.scriptureId}-${bookmark.verseId}`;
 
               return (

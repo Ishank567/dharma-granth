@@ -30,6 +30,8 @@ jobs:
         uses: actions/checkout@v4
         with:
           lfs: true
+          # Full history: the sitemap's lastmod dates come from git log.
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4

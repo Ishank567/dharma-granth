@@ -1,6 +1,6 @@
-// Remove files from the static export that no deployed page needs, keeping
-// the site under GitHub Pages' 1 GB limit. Run after `next build` (postbuild),
-// after check-export.
+// Remove files from the static export that no deployed page needs, then check
+// the result against Cloudflare Pages' deployment limits. Run after
+// `next build` (postbuild), after check-export.
 //
 // dist/data/scriptures-full/ (~400 MB) holds the full-book JSONs and the
 // per-chapter shards. Chapter pages carry their verses in the HTML (read at
@@ -51,13 +51,51 @@ if (existsSync(DATA)) {
   }
 }
 
-const total = sizeOf(DIST);
+// Archives in public/ (e.g. pinterest/katha/katha-pinterest-jpg.zip, 26 MB)
+// are working bundles no page links to; one exceeds the 25 MiB file limit.
+(function dropArchives(dir) {
+  for (const name of readdirSync(dir)) {
+    const path = join(dir, name);
+    if (statSync(path).isDirectory()) dropArchives(path);
+    else if (name.endsWith('.zip')) {
+      freed += remove(path);
+      console.log(`  pruned dist/${path.slice(DIST.length + 1)} (archive, not linked)`);
+    }
+  }
+})(DIST);
+
+// Cloudflare Pages limits (free plan): 20,000 files per deployment and
+// 25 MiB per file. Fail the build here rather than at upload.
+const MAX_FILES = 20_000;
+const MAX_FILE_BYTES = 25 * 1024 * 1024;
+let files = 0;
+let total = 0;
+const oversized = [];
+(function walk(dir) {
+  for (const name of readdirSync(dir)) {
+    const path = join(dir, name);
+    const st = statSync(path);
+    if (st.isDirectory()) {
+      walk(path);
+      continue;
+    }
+    files++;
+    total += st.size;
+    if (st.size > MAX_FILE_BYTES) oversized.push(`${path.slice(DIST.length + 1)} (${(st.size / 1024 / 1024).toFixed(1)} MB)`);
+  }
+})(DIST);
+
 console.log(
   `✓ Export pruned: freed ${(freed / 1024 / 1024).toFixed(0)} MB, kept ${kept} shard(s) for client-loaded chapters; ` +
-    `dist is ${(total / 1024 / 1024).toFixed(0)} MB.`,
+    `dist is ${(total / 1024 / 1024).toFixed(0)} MB in ${files} files.`,
 );
-// GitHub Pages rejects sites over 1 GB; fail the build before deploy does.
-if (total > 1000 * 1024 * 1024) {
-  console.error('✗ dist exceeds 1000 MB — GitHub Pages would reject the deploy.');
-  process.exit(1);
+let ok = true;
+if (files > MAX_FILES) {
+  console.error(`✗ ${files} files — Cloudflare Pages allows ${MAX_FILES} per deployment.`);
+  ok = false;
 }
+if (oversized.length > 0) {
+  console.error(`✗ ${oversized.length} file(s) over Cloudflare Pages' 25 MiB limit: ${oversized.slice(0, 5).join(', ')}`);
+  ok = false;
+}
+if (!ok) process.exit(1);

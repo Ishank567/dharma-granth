@@ -42,7 +42,7 @@ export function DailyReflection() {
       <div className="flex flex-col gap-3 h-full">
         <blockquote className="border-l-4 border-rose-300 pl-3">
           <p className="text-sm font-semibold text-dharma-text">{prompt.en}</p>
-          <p className="font-devanagari text-xs text-dharma-muted mt-0.5">{prompt.hi}</p>
+          <p lang="hi" className="font-devanagari text-xs text-dharma-muted mt-0.5">{prompt.hi}</p>
         </blockquote>
         <textarea
           value={text}

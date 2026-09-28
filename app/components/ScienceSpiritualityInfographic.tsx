@@ -149,7 +149,7 @@ export function ScienceSpiritualityInfographic() {
                     <p className="text-xs text-indigo-300 mb-1 font-semibold tracking-wider">
                       {row.verse}
                     </p>
-                    <p className="font-devanagari text-sm text-white font-semibold mb-1">
+                    <p lang="hi" className="font-devanagari text-sm text-white font-semibold mb-1">
                       {row.claim}
                     </p>
                     <div className="flex items-center gap-2 mt-2">

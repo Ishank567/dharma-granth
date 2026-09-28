@@ -1114,7 +1114,7 @@ export function ChapterLearningClient({
                     — {labels.scienceSubtitle}
                   </span>
                 </h3>
-                <p
+                <p lang="hi"
                   className={`text-sm leading-relaxed text-indigo-900 ${language === "hi" ? "font-devanagari text-base" : ""}`}
                 >
                   {activeVerse.science}
@@ -1131,7 +1131,7 @@ export function ChapterLearningClient({
                     — {labels.lifeLessonSubtitle}
                   </span>
                 </h3>
-                <p
+                <p lang="hi"
                   className={`text-sm leading-relaxed text-amber-900 ${language === "hi" ? "font-devanagari text-base" : ""}`}
                 >
                   {activeVerse.lifeLesson}
@@ -1148,7 +1148,7 @@ export function ChapterLearningClient({
                 <p className="mb-3 text-sm font-medium text-dharma-text">
                   {labels.prompt}
                 </p>
-                <p
+                <p lang="hi"
                   className={`mb-4 text-sm leading-relaxed text-dharma-muted ${language === "hi" ? "font-devanagari text-base" : ""}`}
                 >
                   {explanation}

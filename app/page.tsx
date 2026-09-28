@@ -28,13 +28,12 @@ import {
   Scale,
   Scroll,
   ShieldCheck,
-  Sparkles,
   TreePine,
 } from 'lucide-react';
 import { Realistic3DCard } from '@/app/components/motion/Realistic3DCard';
-import { Realistic3DGranth } from '@/app/components/motion/Realistic3DGranth';
-import { SacredChakra3D } from '@/app/components/motion/SacredChakra3D';
+import { SacredSpace } from '@/app/components/motion/SacredSpace';
 import { MagneticButton } from '@/app/components/motion/MagneticButton';
+import { readHref } from '@/lib/verse-paths';
 
 const featuredVerse = {
   sanskrit:
@@ -223,50 +222,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── Realistic 3D Interactive Sacred Space ── */}
-      <section
-        aria-labelledby="sacred-space-heading"
-        className="relative overflow-hidden border-b border-dharma-border bg-gradient-to-b from-dharma-card/60 via-amber-500/5 to-dharma-bg py-16 sm:py-24"
-      >
-        <div className="mx-auto max-w-6xl px-5 sm:px-6">
-          <div className="mb-12 text-center">
-            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-saffron-500/10 text-saffron-700 text-xs font-bold uppercase tracking-[0.2em] border border-saffron-500/20 shadow-sm">
-              <Sparkles className="w-3.5 h-3.5 text-amber-500 animate-spin-slow" />
-              Realistic 3D Experience · त्रिविमीय दर्शन
-            </span>
-            <h2 id="sacred-space-heading" className="mt-3 text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-dharma-text">
-              Touch and Explore the Sacred
-            </h2>
-            <p className="mt-3 text-dharma-muted max-w-2xl mx-auto text-base sm:text-lg">
-              Interact with the 3D Scripture Codex and the Sacred Dharma Chakra in real-time. Drag to spin with rotational physics, tilt to catch golden specular reflections, and feel the tactile feedback.
-            </p>
-          </div>
-
-          <div className="grid lg:grid-cols-2 gap-12 items-center justify-items-center">
-            {/* 3D Scripture Codex */}
-            <div className="flex flex-col items-center text-center">
-              <Realistic3DGranth
-                title="श्रीमद्भगवद्गीता"
-                subTitle="The Song of Eternal Truth"
-                verseCount="७०० श्लोक · १८ अध्याय"
-                href="/scripture/bhagavadgita"
-              />
-              <p className="mt-5 text-xs font-semibold text-dharma-muted flex items-center gap-1.5">
-                <span className="inline-block w-2 h-2 rounded-full bg-saffron-500 animate-pulse" />
-                Move cursor or tilt phone to rotate in 3D · Click to open
-              </p>
-            </div>
-
-            {/* 3D Interactive Dharma Chakra */}
-            <div className="flex flex-col items-center text-center">
-              <SacredChakra3D size={420} interactive={true} />
-              <p className="mt-5 text-xs font-semibold text-dharma-muted">
-                3D Dharmachakra with 24-spoke geometry & celestial energy particles
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <SacredSpace />
 
       <section aria-labelledby="daily-wisdom-heading" className="bg-dharma-bg py-14 sm:py-20">
         <div className="mx-auto max-w-6xl px-5 sm:px-6">
@@ -286,7 +242,7 @@ export default function HomePage() {
                 <p className="relative z-10 text-xs font-bold uppercase tracking-[0.2em] text-amber-300">
                   {featuredVerse.source}
                 </p>
-                <p className="relative z-10 mt-6 whitespace-pre-line font-devanagari text-2xl leading-loose text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.5)] sm:text-3xl">
+                <p lang="sa" className="relative z-10 mt-6 whitespace-pre-line font-devanagari text-2xl leading-loose text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.5)] sm:text-3xl">
                   {featuredVerse.sanskrit}
                 </p>
                 <p className="relative z-10 mt-5 whitespace-pre-line text-sm italic leading-relaxed text-amber-100/80">
@@ -304,11 +260,11 @@ export default function HomePage() {
                   </p>
                 </div>
                 <div className="border-t border-dharma-border pt-5">
-                  <h3 className="font-devanagari text-sm font-bold text-rose-700">हिंदी भावार्थ</h3>
-                  <p className="mt-2 font-devanagari leading-loose text-dharma-text">
+                  <h3 lang="hi" className="font-devanagari text-sm font-bold text-rose-700">हिंदी भावार्थ</h3>
+                  <p lang="hi" className="mt-2 font-devanagari leading-loose text-dharma-text">
                     {featuredVerse.hindi}
                   </p>
-                  <p className="mt-2 font-devanagari text-sm leading-loose text-dharma-muted">
+                  <p lang="hi" className="mt-2 font-devanagari text-sm leading-loose text-dharma-muted">
                     {featuredVerse.hindiExplanation}
                   </p>
                 </div>
@@ -325,7 +281,7 @@ export default function HomePage() {
                     />
                   </summary>
                   <div className="pt-4 text-sm leading-relaxed text-dharma-muted">
-                    <p className="font-devanagari">{featuredVerse.researchNote}</p>
+                    <p lang="hi" className="font-devanagari">{featuredVerse.researchNote}</p>
                     <a
                       href="https://pubmed.ncbi.nlm.nih.gov/35690041/"
                       target="_blank"
@@ -340,12 +296,12 @@ export default function HomePage() {
 
                 <div className="pt-2">
                   <MagneticButton
-                    href={`/scripture/bhagavadgita/chapter/${featuredVerse.chapter}`}
+                    href={readHref('bhagavadgita', featuredVerse.chapter, 47)}
                     className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-saffron-600 to-amber-600 px-7 py-3 text-sm font-bold text-white shadow-xl hover:from-saffron-700 hover:to-amber-700 shine-sweep"
                     strength={20}
                     tilt={8}
                   >
-                    <span className="font-devanagari">अध्याय २ पढ़ें</span>
+                    <span lang="hi" className="font-devanagari">श्लोक २.४७ पढ़ें</span>
                     <ArrowRight className="h-4 w-4" aria-hidden="true" />
                   </MagneticButton>
                 </div>
@@ -372,7 +328,7 @@ export default function HomePage() {
       <footer className="border-t border-white/10 bg-stone-950 py-12 text-white">
         <div className="mx-auto flex max-w-6xl flex-col gap-8 px-5 sm:flex-row sm:items-end sm:justify-between sm:px-6">
           <div className="max-w-2xl">
-            <p className="font-devanagari text-2xl font-bold text-saffron-300">अहं ब्रह्मास्मि</p>
+            <p lang="sa" className="font-devanagari text-2xl font-bold text-saffron-300">अहं ब्रह्मास्मि</p>
             <p className="mt-2 text-sm text-white/55">बृहदारण्यक उपनिषद् १.४.१०</p>
             <p className="mt-5 text-lg text-white/80">
               Read sacred texts with translation, context, and carefully framed modern parallels.

@@ -293,8 +293,10 @@
         --verse-graphic-glow: rgba(99, 102, 241, 0.09);
         --verse-graphic-ink: rgba(6, 95, 70, 0.05);
     }
+    /* Large headings only: the lightest stop (saffron-600, 3.6:1 on the day
+       background) meets WCAG's 3:1 for large text; saffron-500 did not. */
     .gradient-text {
-        @apply bg-gradient-to-r from-saffron-700 via-saffron-500 to-amber-600 bg-clip-text text-transparent;
+        @apply bg-gradient-to-r from-saffron-700 via-saffron-600 to-amber-700 bg-clip-text text-transparent;
     }
     .decorative-divider {
         @apply flex items-center justify-center gap-3 my-8 text-saffron-500;
@@ -851,6 +853,63 @@
     .fade-up-in {
         animation: none;
     }
+}
+
+/* ── Static verse (<VerseText>) ─────────────────────────────────────
+   The exported, pre-hydration form of a verse card. Short class names on
+   purpose: this markup repeats for ~180k verses across the export. Mirrors
+   VerseCard's box (p-5 md:p-7, rounded-[28px]), header and leaf. */
+@layer components {
+    .vt {
+        @apply relative scroll-mt-24 rounded-[28px] border border-dharma-border bg-dharma-card p-5 md:p-7;
+    }
+    .vt-head {
+        @apply mb-5 flex flex-wrap items-center gap-x-3 gap-y-3;
+    }
+    .vt-medal {
+        @apply flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-saffron-500/15 font-devanagari text-sm font-bold text-saffron-700;
+    }
+    .vt-ch {
+        @apply text-[11px] font-semibold text-saffron-700/80;
+    }
+    .vt-title {
+        @apply font-serif text-base font-bold text-dharma-text;
+    }
+    .vt-title a {
+        color: inherit;
+        text-underline-offset: 2px;
+    }
+    .vt-title a:hover {
+        text-decoration: underline;
+    }
+    .vt-toolbar {
+        @apply order-last h-11 w-full sm:hidden;
+    }
+    .vt-leaf {
+        @apply relative rounded-2xl px-5 py-6 text-center md:px-10 md:py-8;
+    }
+    .vt-sa {
+        @apply font-devanagari text-base leading-loose text-dharma-text md:text-lg;
+    }
+    .vt-sa > span {
+        @apply block px-2.5 py-1;
+    }
+    .vt-sa > .vt-num {
+        @apply mt-2 font-bold text-saffron-700;
+    }
+    .vt-tr {
+        @apply mx-auto mt-4 max-w-2xl whitespace-pre-line border-t border-amber-700/15 pt-4 text-sm italic leading-relaxed text-dharma-muted md:text-[15px];
+    }
+    .vt-hi {
+        @apply mt-5 font-devanagari text-base leading-loose text-dharma-text md:text-[17px];
+    }
+    .vt-en {
+        @apply mt-4 text-sm leading-relaxed text-dharma-muted md:text-base;
+    }
+}
+:root[data-theme='night'] .vt-ch,
+:root[data-theme='night'] .vt-sa > .vt-num {
+    color: theme('colors.amber.300');
 }
 
 /* ── Splash screen (<SplashScreen>) ─────────────────────────────────

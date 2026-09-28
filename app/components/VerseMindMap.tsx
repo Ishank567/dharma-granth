@@ -516,7 +516,7 @@ export function VerseMindMap({ verse }: { verse: MindMapVerse }) {
             className="relative w-full h-full rounded-full bg-gradient-to-br from-saffron-500 via-saffron-600 to-amber-700 text-white shadow-2xl ring-4 ring-white flex flex-col items-center justify-center hover:scale-105 transition-transform"
             aria-label={`Verse ${verseLabel} — click to reset focus`}
           >
-            <span
+            <span lang="sa"
               className="font-devanagari leading-none"
               style={{ fontSize: centerSizePx * 0.32 }}
               aria-hidden
@@ -642,7 +642,7 @@ export function VerseMindMap({ verse }: { verse: MindMapVerse }) {
                 </div>
               </div>
               {layout.showHiLabel && (
-                <div
+                <div lang="hi"
                   className="font-devanagari font-bold text-white/95"
                   style={{ fontSize: 11, marginBottom: 2 }}
                 >
@@ -722,10 +722,10 @@ export function VerseMindMap({ verse }: { verse: MindMapVerse }) {
               </span>
               <div>
                 <div className="text-[10px] uppercase tracking-widest font-bold opacity-80">{focusedBranch.label}</div>
-                <div className="font-devanagari text-base font-bold">{focusedBranch.labelHi}</div>
+                <div lang="hi" className="font-devanagari text-base font-bold">{focusedBranch.labelHi}</div>
               </div>
             </div>
-            <p
+            <p lang="hi"
               className={`text-sm md:text-base text-dharma-text leading-relaxed ${focusedBranch.isDevanagari ? 'font-devanagari' : ''} whitespace-pre-line`}
             >
               {focusedBranch.text}

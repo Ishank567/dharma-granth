@@ -8,6 +8,11 @@ function chapterHref(v: ChapterVisit, chapterId = v.chapterId): string {
   return `/scripture/${v.scriptureId}/chapter/${chapterId}`;
 }
 
+/** Resume in the chapter at the saved verse (not the single-verse page). */
+function resumeHref(v: ChapterVisit): string {
+  return `${chapterHref(v)}${v.verseId ? `#verse-${v.verseId}` : ''}`;
+}
+
 function timeAgo(iso: string): string {
   const minutes = Math.round((Date.now() - new Date(iso).getTime()) / 60_000);
   if (!Number.isFinite(minutes) || minutes < 1) return 'अभी';
@@ -88,7 +93,7 @@ export function ContinueReading() {
             </div>
             <div className="mt-5 flex flex-wrap gap-2">
               <Link
-                href={`${chapterHref(latest)}${latest.verseId ? `#verse-${latest.verseId}` : ''}`}
+                href={resumeHref(latest)}
                 className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-saffron-600 to-amber-600 px-5 py-2.5 text-sm font-bold text-white shadow-md transition hover:from-saffron-700 hover:to-amber-700"
               >
                 <BookOpen className="h-4 w-4" aria-hidden="true" />
@@ -111,7 +116,7 @@ export function ContinueReading() {
               {others.slice(0, 3).map((v) => (
                 <li key={v.scriptureId}>
                   <Link
-                    href={`${chapterHref(v)}${v.verseId ? `#verse-${v.verseId}` : ''}`}
+                    href={resumeHref(v)}
                     className="group flex items-center justify-between gap-3 rounded-xl border border-dharma-border bg-dharma-card px-4 py-3 transition hover:border-saffron-300"
                   >
                     <span className="min-w-0">

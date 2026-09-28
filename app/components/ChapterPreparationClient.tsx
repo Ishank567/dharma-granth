@@ -131,7 +131,7 @@ export function ChapterPreparationClient({
           <div>
             <p className="text-xs font-semibold uppercase tracking-wider text-saffron-700">{labels.label}</p>
             <h2 className="mt-1 text-2xl font-serif font-bold text-dharma-text">{chapterTitle}</h2>
-            {chapterTitleSanskrit && <p className="font-devanagari text-sm text-dharma-muted">{chapterTitleSanskrit}</p>}
+            {chapterTitleSanskrit && <p lang="sa" className="font-devanagari text-sm text-dharma-muted">{chapterTitleSanskrit}</p>}
             <p className="mt-1 text-sm text-dharma-muted">{scriptureTitle}</p>
           </div>
           <div className="inline-flex items-center gap-1 rounded-lg border border-dharma-border bg-dharma-bg p-1">
@@ -164,7 +164,7 @@ export function ChapterPreparationClient({
                 <h3 className="mt-2 text-xl font-semibold text-dharma-text">{labels.status}</h3>
               </div>
             </div>
-            <p className={`leading-relaxed text-dharma-text ${language === 'hi' ? 'font-devanagari text-base' : 'text-sm'}`}>
+            <p lang="hi" className={`leading-relaxed text-dharma-text ${language === 'hi' ? 'font-devanagari text-base' : 'text-sm'}`}>
               {labels.message}
             </p>
             <div className="mt-6 grid gap-2 sm:grid-cols-3">
@@ -212,12 +212,12 @@ export function ChapterPreparationClient({
               <div className="mb-5 text-center">
                 <p className="text-xs font-semibold uppercase tracking-wider text-saffron-700">{scriptureTitle}</p>
                 <h3 className="mt-1 text-xl font-serif font-bold text-dharma-text">{chapterTitle}</h3>
-                {chapterTitleSanskrit && <p className="font-devanagari text-sm text-saffron-800">{chapterTitleSanskrit}</p>}
+                {chapterTitleSanskrit && <p lang="sa" className="font-devanagari text-sm text-saffron-800">{chapterTitleSanskrit}</p>}
               </div>
               <div className="rounded-3xl bg-dharma-card p-6 shadow-sm min-h-[160px] flex flex-col justify-center">
                 <div className="text-center">
                   <h4 className="text-xs uppercase tracking-wider text-dharma-muted mb-4">{labels.summary}</h4>
-                  <p className={`text-base leading-relaxed text-dharma-text ${language === 'hi' ? 'font-devanagari text-lg' : ''}`}>
+                  <p lang="hi" className={`text-base leading-relaxed text-dharma-text ${language === 'hi' ? 'font-devanagari text-lg' : ''}`}>
                     {summary}
                   </p>
                 </div>
@@ -253,7 +253,7 @@ export function ChapterPreparationClient({
           <div className="mb-4 flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
             <div>
               <h3 className="text-sm font-semibold uppercase tracking-wider text-dharma-muted">{labels.reflection}</h3>
-              <p className={`mt-2 text-sm leading-relaxed text-dharma-text ${language === 'hi' ? 'font-devanagari text-base' : 'text-sm'}`}>
+              <p lang="hi" className={`mt-2 text-sm leading-relaxed text-dharma-text ${language === 'hi' ? 'font-devanagari text-base' : 'text-sm'}`}>
                 {labels.prompt}
               </p>
             </div>

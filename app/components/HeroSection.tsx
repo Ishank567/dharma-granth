@@ -125,7 +125,7 @@ function ScripturePlane({
           : { duration: 7, delay, repeat: Infinity, ease: 'easeInOut' }
       }
     >
-      <span className="font-devanagari text-2xl text-saffron-100/75 drop-shadow">
+      <span lang="sa" className="font-devanagari text-2xl text-saffron-100/75 drop-shadow">
         {children}
       </span>
     </motion.div>
@@ -279,7 +279,7 @@ export function HeroSection() {
             }
             transition={animateAmbient ? { duration: 3, repeat: Infinity } : undefined}
           >
-            <motion.span
+            <motion.span lang="sa"
               className="font-devanagari text-4xl leading-none text-saffron-100 drop-shadow-[0_2px_12px_rgba(251,191,36,0.8)] md:text-5xl select-none"
               animate={animateAmbient ? { rotate: [0, 4, -4, 0] } : undefined}
               transition={animateAmbient ? { duration: 4, repeat: Infinity } : undefined}
@@ -299,7 +299,7 @@ export function HeroSection() {
         </FadeUp>
 
         <FadeUp delay={0.14}>
-          <p className="mb-5 font-devanagari text-2xl text-saffron-100 drop-shadow-md md:text-3xl">
+          <p lang="hi" className="mb-5 font-devanagari text-2xl text-saffron-100 drop-shadow-md md:text-3xl">
             धर्म ग्रंथ
           </p>
         </FadeUp>
@@ -308,7 +308,7 @@ export function HeroSection() {
           <p className="mx-auto mb-3 max-w-3xl text-xl font-medium leading-relaxed opacity-95 drop-shadow-sm sm:text-2xl md:text-3xl">
             Read the scriptures. Understand the wisdom. Live the teaching.
           </p>
-          <p className="mx-auto mb-3 max-w-2xl font-devanagari text-base opacity-85 md:text-xl">
+          <p lang="hi" className="mx-auto mb-3 max-w-2xl font-devanagari text-base opacity-85 md:text-xl">
             प्रसिद्ध श्लोक — गहरा हिंदी अर्थ — वैज्ञानिक दृष्टिकोण
           </p>
           <p className="mx-auto mb-7 max-w-xl text-sm font-medium tracking-wide opacity-75 md:text-base">

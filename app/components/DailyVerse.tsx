@@ -7,6 +7,7 @@ import { Sparkles, ArrowRight, BookOpen } from 'lucide-react';
 import { FadeUp } from '@/app/components/motion/primitives';
 import { Realistic3DCard } from '@/app/components/motion/Realistic3DCard';
 import { MagneticButton } from '@/app/components/motion/MagneticButton';
+import { readHref } from '@/lib/verse-paths';
 
 interface DailyVerseData {
   sanskrit: string;
@@ -121,7 +122,7 @@ export function DailyVerse() {
     return DAILY_VERSES[dayIndex];
   }, []);
 
-  const verseUrl = `/scripture/${verse.scriptureId}/chapter/${verse.chapterId}?verse=${verse.verseId}`;
+  const verseUrl = readHref(verse.scriptureId, verse.chapterId, verse.verseId);
 
   return (
     <FadeUp>

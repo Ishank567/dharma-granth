@@ -6,6 +6,7 @@ import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
 import { FolderOpen, Plus, Trash2, BookOpen, ArrowRight, Highlighter, StickyNote, X } from 'lucide-react';
 import { useStudyProgress } from '@/lib/useStudyProgress';
 import { FadeUp, FadeUpOnView, Stagger, StaggerItem } from '@/app/components/motion/primitives';
+import { chapterVerseHref } from '@/lib/verse-paths';
 
 export default function CollectionsPage() {
   const reduce = useReducedMotion();
@@ -202,7 +203,7 @@ export default function CollectionsPage() {
                                       </p>
                                     </div>
                                     <Link
-                                      href={`/scripture/${ref.scriptureId}/chapter/${ref.chapterId}?verse=${ref.verseId}`}
+                                      href={chapterVerseHref(ref.scriptureId, ref.chapterId, ref.verseId)}
                                       className="inline-flex items-center gap-1 text-xs font-semibold text-saffron-700 hover:text-saffron-800 transition flex-shrink-0"
                                     >
                                       <BookOpen className="w-3 h-3" />
@@ -246,7 +247,7 @@ export default function CollectionsPage() {
                     <Highlighter className="w-3.5 h-3.5 text-dharma-muted" />
                   </div>
                   <Link
-                    href={`/scripture/${h.scriptureId}/chapter/${h.chapterId}?verse=${h.verseId}`}
+                    href={chapterVerseHref(h.scriptureId, h.chapterId, h.verseId)}
                     className="text-sm font-semibold text-dharma-text hover:text-saffron-700 transition"
                   >
                     View verse →

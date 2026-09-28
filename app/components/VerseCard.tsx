@@ -21,6 +21,7 @@ import Link from 'next/link';
 import type { ScriptureCategory } from '@/data/types';
 import type { VerseHighlight } from '@/lib/useStudyProgress';
 import { resolveKeywordTarget } from '@/lib/keyword-links';
+import { toDevanagari, verseLines } from '@/lib/verse-format';
 import { subscribeRecitation, type RecitationState } from '@/lib/verse-recite';
 import { ListenButton } from './ListenButton';
 import { ShareVerseButton } from './ShareVerseButton';
@@ -82,6 +83,8 @@ interface Props {
   onReciteFinish?: (naturalEnd: boolean) => void;
   /** Opens full-screen focus contemplation mode on this verse */
   onOpenFocus?: () => void;
+  /** Dedicated verse page, linked from the card so the URL survives hydration. */
+  versePageHref?: string;
 }
 
 type TabId = 'meaning' | 'explain' | 'science';
@@ -98,7 +101,6 @@ const HIGHLIGHTS: Record<HighlightColor, { label: string; swatch: string; ring: 
   indigo: { label: 'नीला', swatch: 'bg-indigo-500', ring: 'ring-2 ring-indigo-400/70', spine: 'from-indigo-400 via-indigo-500 to-indigo-600' },
 };
 
-const DEVANAGARI_DIGITS = '०१२३४५६७८९';
 const EASE_OUT_QUINT: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
 /** Decide the language from the text itself: more Devanagari than Latin letters = Hindi. */
@@ -119,33 +121,6 @@ function sameText(a: string, b: string): boolean {
   const y = n(b);
   // Many sources store one field as a prefix/copy of the other.
   return x === y || x.startsWith(y) || y.startsWith(x);
-}
-
-export function toDevanagari(value: number | string): string {
-  return String(value).replace(/[0-9]/g, (d) => DEVANAGARI_DIGITS[Number(d)]);
-}
-
-/**
- * Split a verse into its pādas for line-by-line setting. Source text is
- * either newline-separated or uses | / । as half-verse markers. Any trailing
- * "॥ 28 ॥"-style terminator is dropped; the card draws its own.
- */
-export function verseLines(sanskrit: string): string[] {
-  const cleaned = sanskrit.replace(/[\s|।॥0-9०-९.]+$/, '').trim();
-  const byNewline = cleaned.split(/\n+/).map((l) => l.trim()).filter(Boolean);
-  if (byNewline.length > 1) return byNewline;
-
-  const lines: string[] = [];
-  let current = '';
-  for (const ch of cleaned) {
-    current += ch;
-    if (ch === '|' || ch === '।') {
-      lines.push(current.trim());
-      current = '';
-    }
-  }
-  if (current.trim()) lines.push(current.trim());
-  return lines.length ? lines : [cleaned];
 }
 
 /** Lotus-petal medallion carrying the verse number in Devanagari numerals. */
@@ -177,7 +152,7 @@ function VerseMedallion({ label }: { label: string }) {
         <circle cx="24" cy="24" r="14" fill={`url(#${gradId})`} />
         <circle cx="24" cy="24" r="11.5" fill="none" stroke="rgba(255,255,255,0.55)" strokeWidth="0.8" />
       </svg>
-      <span className="relative font-devanagari text-[15px] font-bold leading-none text-white">{label}</span>
+      <span lang="hi" className="relative font-devanagari text-[15px] font-bold leading-none text-white">{label}</span>
     </span>
   );
 }
@@ -206,6 +181,7 @@ export function VerseCard({
   onHighlight,
   onReciteFinish,
   onOpenFocus,
+  versePageHref,
 }: Props) {
   const reduce = useReducedMotion();
   const cardRef = useRef<HTMLElement>(null);
@@ -525,6 +501,17 @@ export function VerseCard({
             )}
           </div>
         </header>
+
+        {versePageHref && (
+          <p className="mb-4 -mt-2 text-xs">
+            <Link
+              href={versePageHref}
+              className="font-semibold text-saffron-700 underline-offset-2 hover:underline"
+            >
+              इस श्लोक का अपना पृष्ठ
+            </Link>
+          </p>
+        )}
 
         {/* ── Sanskrit on a manuscript leaf ───────────────────── */}
         {lines.length > 0 && (
