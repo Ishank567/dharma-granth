@@ -143,7 +143,7 @@ interface FullScriptureJson {
   id: string;
   chapters: Array<{
     number: number;
-    verses: Array<{ number: number | string; sanskrit?: string }>;
+    verses: Array<{ number: number | string; sanskrit?: string; hindi?: string }>;
   }>;
 }
 
@@ -302,6 +302,38 @@ function checkGitaCanonical(data: FullScriptureJson): void {
       id,
       `${mismatched.length} curated verse(s) carry different Sanskrit than the seeded JSON at the same ` +
         `chapter:verse: ${mismatched.slice(0, 5).join(", ")}${mismatched.length > 5 ? " …" : ""}`,
+    );
+  }
+
+  // Every verse needs a real Hindi meaning. The source text shipped with a
+  // "।।2.47।।" label on each meaning, 18.2 carried only the translator credit
+  // ("Hindi Translation By …") and 13.1 the placeholder "No Translation" —
+  // readers saw all of them on the page.
+  // 13.1 (Arjuna's question, absent from many editions) has no Hindi in the
+  // source; it is left empty so the page simply omits the Hindi layer.
+  const NO_HINDI_IN_SOURCE = new Set(["13.1"]);
+  const badHindi: string[] = [];
+  for (const c of data.chapters) {
+    for (const v of c.verses) {
+      const ref = `${c.number}.${v.number}`;
+      const hindi = v.hindi?.trim() ?? "";
+      if (NO_HINDI_IN_SOURCE.has(ref) && hindi === "") continue;
+      const devanagari = hindi.match(/[ऀ-ॿ]/g)?.length ?? 0;
+      if (
+        devanagari < 20 ||
+        /^[।|]{1,2}\s*\d/.test(hindi) ||
+        /translation by|no translation/i.test(hindi) ||
+        /^\(श्लोक (\d+)–\1\)/.test(hindi)
+      ) {
+        badHindi.push(ref);
+      }
+    }
+  }
+  if (badHindi.length > 0) {
+    error(
+      id,
+      `${badHindi.length} verse(s) have a missing, credit-only or verse-labelled Hindi meaning: ` +
+        `${badHindi.slice(0, 5).join(", ")}${badHindi.length > 5 ? " …" : ""}`,
     );
   }
 }

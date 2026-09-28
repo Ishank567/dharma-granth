@@ -113,32 +113,22 @@ export function Stagger({
 }
 
 /**
- * A single staggered item. Animates hidden → visible on mount with a small
- * per-item delay so a list still reveals as a cascade.
+ * A single list item that fades up on mount.
  *
- * Why self-animate instead of inheriting from a `<Stagger>` parent? A parent
- * whose "visible" variant carries only `staggerChildren` (no animatable
- * props of its own) does not reliably propagate the variant to its children
- * for tall / below-the-fold lists — leaving every item stuck at `opacity: 0`.
- * Driving each item's own `initial`/`animate` (its `visible` variant has real
- * `opacity`/`y` values) makes the reveal bulletproof regardless of list
- * height or scroll position, exactly like `FadeUp`.
+ * Self-animating rather than inheriting from a `<Stagger>` parent: a parent
+ * whose "visible" variant carries only `staggerChildren` did not reliably
+ * propagate to tall / below-the-fold lists, leaving items stuck at
+ * `opacity: 0`. Like `FadeUp`, this is the CSS `.fade-up-in` animation, so
+ * server-rendered items are visible without waiting for hydration.
  */
 export function StaggerItem({
   children,
   className,
   ...rest
-}: { children: ReactNode } & HTMLMotionProps<'div'>) {
-  const reduce = useReducedMotion();
+}: { children: ReactNode } & HTMLAttributes<HTMLDivElement>) {
   return (
-    <motion.div
-      className={className}
-      initial={reduce ? false : { opacity: 0, y: FADE_UP_DISTANCE }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: FADE_DURATION, ease: [0.22, 1, 0.36, 1] }}
-      {...rest}
-    >
+    <div className={className ? `fade-up-in ${className}` : 'fade-up-in'} {...rest}>
       {children}
-    </motion.div>
+    </div>
   );
 }

@@ -16,14 +16,9 @@ export default function PathwaysPage() {
   const [showCertificateFor, setShowCertificateFor] = useState<string | null>(null);
   const [selectedLevel, setSelectedLevel] = useState<'all' | 'beginner' | 'intermediate' | 'advanced'>('all');
 
-  if (!progress.hydrated) {
-    return (
-      <main className="min-h-screen bg-dharma-bg flex items-center justify-center">
-        <div className="h-8 w-8 animate-spin rounded-full border-4 border-saffron-200 border-t-saffron-600" />
-      </main>
-    );
-  }
-
+  // No loading gate: the pathways themselves are static content (and must be
+  // in the exported HTML for search engines). Only the reader's progress comes
+  // from localStorage; until it loads, every pathway reads as not started.
   const filteredPathways =
     selectedLevel === 'all'
       ? pathways
@@ -146,6 +141,8 @@ export default function PathwaysPage() {
                           onClick={() => setExpandedId(isExpanded ? null : pathway.id)}
                           className="rounded-lg p-1.5 text-dharma-muted hover:bg-dharma-bg hover:text-dharma-text"
                           aria-label={isExpanded ? 'Collapse pathway' : 'Expand pathway'}
+                          aria-expanded={isExpanded}
+                          aria-controls={`pathway-steps-${pathway.id}`}
                         >
                           {isExpanded ? (
                             <ChevronUp className="w-5 h-5" />
@@ -178,6 +175,8 @@ export default function PathwaysPage() {
                         type="button"
                         onClick={() => setExpandedId(isExpanded ? null : pathway.id)}
                         className="text-xs font-semibold text-dharma-muted hover:text-saffron-700"
+                        aria-expanded={isExpanded}
+                        aria-controls={`pathway-steps-${pathway.id}`}
                       >
                         {isExpanded ? 'Hide Steps' : `Show all ${pathway.steps.length} steps`}
                       </button>
@@ -194,15 +193,17 @@ export default function PathwaysPage() {
                     </div>
                   </div>
 
-                  {/* Expanded steps */}
-                  <AnimatePresence>
-                    {isExpanded && (
-                      <motion.div
-                        initial={reduce ? {} : { height: 0, opacity: 0 }}
-                        animate={{ height: 'auto', opacity: 1 }}
-                        exit={reduce ? {} : { height: 0, opacity: 0 }}
-                        className="overflow-hidden"
-                      >
+                  {/* Steps: always in the HTML (so the course content is
+                      indexable), collapsed with a grid-rows transition and
+                      inert while closed so it stays out of the tab order. */}
+                  <div
+                    id={`pathway-steps-${pathway.id}`}
+                    className={`grid transition-[grid-template-rows] duration-300 ease-out motion-reduce:transition-none ${
+                      isExpanded ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'
+                    }`}
+                    {...({ inert: isExpanded ? undefined : '' } as Record<string, string | undefined>)}
+                  >
+                      <div className="overflow-hidden">
                         <div className="px-6 pb-6 pt-2 border-t border-dharma-border">
                           {/* Learning outcomes */}
                           <div className="mb-5 rounded-xl bg-saffron-50/40 border border-saffron-100 p-4">
@@ -310,9 +311,8 @@ export default function PathwaysPage() {
                             </div>
                           )}
                         </div>
-                      </motion.div>
-                    )}
-                  </AnimatePresence>
+                      </div>
+                  </div>
                 </div>
               </StaggerItem>
             );
