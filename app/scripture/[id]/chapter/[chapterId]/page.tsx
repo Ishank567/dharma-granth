@@ -94,10 +94,30 @@ export function generateMetadata({ params }: PageProps): Metadata {
   const chapter = getChapterPreview(params.id, chapterId);
   if (!chapter) return {};
 
-  const title = `${chapter.title} — ${meta.title} (अध्याय ${chapter.id})`;
-  const description = chapter.summary
-    ? `${meta.title}, अध्याय ${chapter.id}: ${chapter.title} (${chapter.titleSanskrit ?? ''}). ${chapter.summary}`.trim()
-    : `${meta.title} — अध्याय ${chapter.id}: ${chapter.title}`;
+  // Hindi first: most searches for scripture meanings in India are in Hindi
+  // ("भगवद गीता अध्याय 2 हिंदी अर्थ"). The English names stay in the title for
+  // English searches; the first verse's meaning makes each description unique.
+  const genericTitle = GENERIC_TITLE.test(chapter.title);
+  const hindiPart = `${meta.titleSanskrit} अध्याय ${chapter.id}${chapter.titleSanskrit ? ` — ${chapter.titleSanskrit}` : ''}`;
+  const englishPart = genericTitle ? ` (${meta.title} ${chapter.id})` : ` (${chapter.title})`;
+  // Long English chapter names ("Adhyāya 1 · Vallī 1 — Naciketas Goes to
+  // Death") would push the title far past what results show; keep the
+  // Hindi, and fall back to just the book's English name.
+  const title =
+    Array.from(`${hindiPart}${englishPart}`).length <= 75
+      ? `${hindiPart}${englishPart} | हिंदी अर्थ`
+      : `${hindiPart} (${meta.title}) | हिंदी अर्थ`;
+  const firstVerse = readSeededChapter(meta.id, chapterId)?.chapter.verses[0] as
+    | { hindi?: string; translation?: string }
+    | undefined;
+  const opening = (firstVerse?.hindi || firstVerse?.translation || chapter.summary || '').replace(/\s+/g, ' ').trim();
+  const lead =
+    `${meta.titleSanskrit} (${meta.title}) अध्याय ${chapter.id}` +
+    (chapter.verseCount > 0 ? ` के ${chapter.verseCount} श्लोक` : '') +
+    ' — संस्कृत मूल, हिंदी अर्थ और English translation।';
+  const room = 158 - lead.length - 1;
+  const description =
+    opening && room > 30 ? `${lead} ${opening.length > room ? `${opening.slice(0, room - 1).trimEnd()}…` : opening}` : lead;
 
   const ogImage = {
     url: `/og/${meta.id}.png`,
@@ -112,6 +132,8 @@ export function generateMetadata({ params }: PageProps): Metadata {
     alternates: { canonical: `/scripture/${meta.id}/chapter/${chapter.id}` },
     openGraph: {
       type: 'article',
+      locale: 'hi_IN',
+      alternateLocale: ['en_US'],
       title,
       description,
       url: `/scripture/${meta.id}/chapter/${chapter.id}`,

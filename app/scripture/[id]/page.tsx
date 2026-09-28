@@ -24,10 +24,20 @@ export function generateMetadata({ params }: PageProps): Metadata {
   const meta = getScriptureMeta(params.id);
   if (!meta) return {};
 
-  const title = `${meta.title} — Verse by Verse`;
-  const description = meta.hasData
-    ? `${meta.title} (${meta.titleSanskrit}) — Sanskrit, transliteration, translation, and verse-by-verse commentary in Hindi and English. ${meta.description}`
-    : `${meta.title} (${meta.titleSanskrit}) in our growing library. ${meta.description}`;
+  // Hindi first, as people search ("भगवद गीता हिंदी अर्थ"); English name kept.
+  const title = `${meta.titleSanskrit} (${meta.title}) — हिंदी अर्थ सहित श्लोक`;
+  const counts =
+    meta.totalChapters > 0 && meta.totalVerses > 0
+      ? `${meta.totalChapters} अध्याय, ${meta.totalVerses.toLocaleString('en-IN')} श्लोक — `
+      : '';
+  const lead = meta.hasData
+    ? `${meta.titleSanskrit} (${meta.title}): ${counts}संस्कृत मूल, हिंदी अर्थ और English translation, श्लोक-दर-श्लोक।`
+    : `${meta.titleSanskrit} (${meta.title}) — हमारे बढ़ते ग्रंथालय में।`;
+  const room = 158 - lead.length - 1;
+  const description =
+    room > 30
+      ? `${lead} ${meta.description.length > room ? `${meta.description.slice(0, room - 1).trimEnd()}…` : meta.description}`
+      : lead;
 
   const ogImage = {
     url: `/og/${meta.id}.png`,
@@ -42,6 +52,8 @@ export function generateMetadata({ params }: PageProps): Metadata {
     alternates: { canonical: `/scripture/${meta.id}` },
     openGraph: {
       type: 'article',
+      locale: 'hi_IN',
+      alternateLocale: ['en_US'],
       title,
       description,
       url: `/scripture/${meta.id}`,
