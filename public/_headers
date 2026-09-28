@@ -1,13 +1,28 @@
-# Applied by Cloudflare Pages (and Netlify). GitHub Pages ignores this file.
-# If Cloudflare only proxies the GitHub Pages origin, set the same values as
-# a Cache Rule and Response Header Transform in the Cloudflare dashboard.
+# Response headers for Cloudflare Pages (docs/deploy-cloudflare.md).
+# GitHub Pages ignores this file.
 
+/*
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' https://cloudflareinsights.com; media-src 'self' data: blob:; worker-src 'self' blob:; frame-ancestors 'self'; base-uri 'self'; form-action 'self'; object-src 'none'; upgrade-insecure-requests
+
+# Fingerprinted build assets never change.
 /_next/static/*
   Cache-Control: public, max-age=31536000, immutable
 
-/*
-  X-Content-Type-Options: nosniff
-  Referrer-Policy: strict-origin-when-cross-origin
-  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
-  X-Frame-Options: SAMEORIGIN
-  Permissions-Policy: camera=(), microphone=(), geolocation=()
+# Share images and fonts change rarely; a week, then revalidate.
+/og/*
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
+/icons/*
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
+
+# Notes on the policy:
+# - 'unsafe-inline' for scripts is required: the static Next export injects
+#   inline bootstrap scripts and cannot use per-request nonces.
+# - cloudflareinsights.com is allowed so Cloudflare Web Analytics can be
+#   switched on without editing this file.
+# - HSTS has no `preload`: submitting the domain to browsers' preload lists is
+#   hard to undo; add it only once every subdomain is permanently HTTPS.

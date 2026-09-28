@@ -2,7 +2,7 @@
 // index.html, trailing slashes, 404.html), for testing production builds:
 //   npm run build && node scripts/serve-dist.mjs   → http://localhost:4173
 import { createServer } from 'node:http';
-import { createReadStream, existsSync, statSync } from 'node:fs';
+import { createReadStream, existsSync, readFileSync, statSync } from 'node:fs';
 import { extname, join, normalize, resolve } from 'node:path';
 
 const ROOT = resolve(process.cwd(), 'dist');
@@ -36,6 +36,30 @@ function resolveFile(urlPath) {
   return null;
 }
 
+// Apply dist/_headers like Cloudflare Pages does (path patterns with `*`),
+// so the Content-Security-Policy can be tested locally.
+function loadHeaderRules() {
+  const file = join(ROOT, '_headers');
+  if (!existsSync(file)) return [];
+  const rules = [];
+  let current = null;
+  for (const raw of readFileSync(file, 'utf8').split(/\r?\n/)) {
+    if (!raw.trim() || raw.trim().startsWith('#')) continue;
+    if (!/^\s/.test(raw)) {
+      const pattern = new RegExp(`^${raw.trim().replace(/[.+?^${}()|[\]\\]/g, '\\$&').replace(/\*/g, '.*')}$`);
+      current = { pattern, headers: {} };
+      rules.push(current);
+    } else if (current) {
+      const i = raw.indexOf(':');
+      if (i > 0) current.headers[raw.slice(0, i).trim()] = raw.slice(i + 1).trim();
+    }
+  }
+  return rules;
+}
+const headerRules = loadHeaderRules();
+const headersFor = (path) =>
+  Object.assign({}, ...headerRules.filter((r) => r.pattern.test(path)).map((r) => r.headers));
+
 createServer((req, res) => {
   const url = req.url ?? '/';
   // Directory URLs without a slash redirect, as GitHub Pages does.
@@ -49,6 +73,7 @@ createServer((req, res) => {
   const status = file ? 200 : 404;
   const target = file ?? join(ROOT, '404.html');
   res.writeHead(status, {
+    ...headersFor(pathOnly),
     'Content-Type': TYPES[extname(target)] ?? 'application/octet-stream',
     'Cache-Control': 'no-cache',
   });

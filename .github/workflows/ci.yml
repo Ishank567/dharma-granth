@@ -1,8 +1,8 @@
 name: CI
 
+# Pull requests only: pushes to master are built (with the same checks) by
+# deploy-cloudflare.yml.
 on:
-  push:
-    branches: ["master"]
   pull_request:
     branches: ["master"]
   workflow_dispatch:
@@ -26,6 +26,8 @@ jobs:
         uses: actions/checkout@v4
         with:
           lfs: true
+          # Full history: the sitemap's lastmod dates come from git log.
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -42,11 +44,14 @@ jobs:
       - name: Type check
         run: npm run typecheck
 
-      - name: Build GitHub Pages export
-        run: npm run build:pages
+      - name: Cache verse share images
+        uses: actions/cache@v4
+        with:
+          path: public/og/verse
+          key: og-verse-${{ hashFiles('scripts/generate-og-images.ts', 'lib/verse-paths.ts', 'public/data/scriptures-full/*.json') }}
 
-      - name: Verify static export
-        run: |
-          test -f dist/index.html
-          test -f dist/404.html
-          test -d dist/_next
+      - name: Build static export
+        # postbuild runs the export checks, prune and Cloudflare size limits.
+        run: npm run build
+        env:
+          NODE_OPTIONS: "--max-old-space-size=6144"
