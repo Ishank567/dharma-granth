@@ -211,10 +211,10 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
     }
   };
 
-  const scrollToVerse = (verseNum: string | number) => {
+  const scrollToVerse = (verseNum: string | number, behavior: ScrollBehavior = 'smooth') => {
     const el = document.getElementById(`verse-${verseNum}`);
     if (el) {
-      el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      el.scrollIntoView({ behavior, block: 'center' });
     }
   };
 
@@ -229,7 +229,9 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
         : null);
     if (targetVerse) {
       const timer = setTimeout(() => {
-        scrollToVerse(targetVerse);
+        // Jump, like a native #hash link: a smooth scroll across a long
+        // chapter is slow and can be cut short by layout shifts.
+        scrollToVerse(targetVerse, 'auto');
       }, 350);
       return () => clearTimeout(timer);
     }
@@ -371,9 +373,10 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
     let cancelled = false;
     (async () => {
       try {
+        // Default caching, not 'force-cache': that serves a cached copy however
+        // old, so readers kept seeing chapters from before a data repair.
         const shardRes = await fetch(
           `${basePath}/data/scriptures-full/${scriptureId}/ch-${chapterId}.json`,
-          { cache: 'force-cache' },
         );
 
         let chapter: FullChapter | undefined;
@@ -388,9 +391,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
           source = shard.source;
         } else {
           // Fallback to monolithic book JSON
-          const bookRes = await fetch(`${basePath}/data/scriptures-full/${scriptureId}.json`, {
-            cache: 'force-cache',
-          });
+          const bookRes = await fetch(`${basePath}/data/scriptures-full/${scriptureId}.json`);
           if (!bookRes.ok) {
             if (!cancelled) setState({ kind: 'empty' });
             return;
@@ -405,9 +406,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
           return;
         }
 
-        const commentaryRes = await fetch(`${basePath}/data/hi-commentary/${scriptureId}.json`, {
-          cache: 'force-cache',
-        });
+        const commentaryRes = await fetch(`${basePath}/data/hi-commentary/${scriptureId}.json`);
         const extras = chapter.verses.filter(
           (v) => !curatedVerseSet.has(canonicalVerseId(chapterId, v.number)),
         );

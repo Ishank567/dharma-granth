@@ -35,7 +35,9 @@ export function FloatingCompanion() {
   const [scrollPercent, setScrollPercent] = useState(0);
   const [chimeActive, setChimeActive] = useState(false);
   const [showNotification, setShowNotification] = useState<string | null>(null);
-  const [hidden, setHidden] = useState(false);
+  // Starts hidden: at the top of a page the dock sat over the hero buttons
+  // and the reader controls, and the header already offers search.
+  const [hidden, setHidden] = useState(true);
   const [streak, setStreak] = useState(0);
   const dockRef = useRef<HTMLElement>(null);
 
@@ -46,15 +48,23 @@ export function FloatingCompanion() {
     });
   }, [scrollYProgress]);
 
-  // Tuck the dock away while reading down (it would cover text and the
-  // chapter nav buttons); bring it back on any upward scroll or near the top.
+  // Keep the dock out of the way above the fold, and tuck it away while
+  // reading down (it would cover text and the chapter nav buttons); bring it
+  // back on any upward scroll further down the page.
+  const nearTop = (y: number) => y < window.innerHeight * 0.5;
   useMotionValueEvent(scrollY, 'change', (y) => {
     const prev = scrollY.getPrevious() ?? 0;
     const delta = y - prev;
     if (dockRef.current?.contains(document.activeElement)) return; // keyboard users
-    if (y < 120 || delta < -4) setHidden(false);
+    if (nearTop(y)) setHidden(true);
+    else if (delta < -4) setHidden(false);
     else if (delta > 6) setHidden(true);
   });
+
+  // A page restored mid-scroll (back button, #verse- link) shows it at once.
+  useEffect(() => {
+    setHidden(nearTop(window.scrollY));
+  }, [pathname]);
 
   // Streak changes when a chapter is read; refresh on navigation and on the
   // completion celebration.
@@ -105,6 +115,7 @@ export function FloatingCompanion() {
     <aside
       ref={dockRef}
       aria-label="Interactive Companion"
+      onFocus={() => setHidden(false)}
       className="fixed bottom-5 left-1/2 -translate-x-1/2 z-40 select-none"
     >
       {/* Slide wrapper: the aside's own transform does the centring, so the

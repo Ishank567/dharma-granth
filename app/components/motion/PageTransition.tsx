@@ -2,7 +2,7 @@
 
 import { motion, useReducedMotion } from 'framer-motion';
 import { usePathname } from 'next/navigation';
-import type { ReactNode } from 'react';
+import { useEffect, useRef, type ReactNode } from 'react';
 
 /**
  * Per-route fade-in wrapper plus a brief shimmer sweep across the
@@ -27,6 +27,13 @@ import type { ReactNode } from 'react';
 export function PageTransition({ children }: { children: ReactNode }) {
   const reduce = useReducedMotion();
   const pathname = usePathname();
+  // No fade on the first load: its `initial` is server-rendered, so the
+  // whole page would sit at opacity 0 until hydration. Client-side
+  // navigations (JS already running) still fade in.
+  const firstLoad = useRef(true);
+  useEffect(() => {
+    firstLoad.current = false;
+  }, []);
 
   return (
     <>
@@ -56,7 +63,7 @@ export function PageTransition({ children }: { children: ReactNode }) {
 
       <motion.div
         key={pathname}
-        initial={reduce ? false : { opacity: 0, y: 8 }}
+        initial={reduce || firstLoad.current ? false : { opacity: 0, y: 8 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.25, ease: 'easeOut' }}
       >

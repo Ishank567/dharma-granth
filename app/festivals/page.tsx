@@ -111,7 +111,7 @@ function FestivalDetail({ festival, onClose }: { festival: Festival; onClose: ()
           <div className="flex items-start gap-3 bg-blue-50 border border-blue-200 rounded-xl p-4">
             <Clock className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
             <div>
-              <p className="text-xs font-bold text-blue-800 uppercase tracking-wider mb-1">समय (Timing)</p>
+              <p className="text-xs font-bold text-blue-800 uppercase mb-1">समय (Timing)</p>
               <p className="text-sm text-dharma-text">{festival.timing}</p>
             </div>
           </div>
@@ -197,11 +197,11 @@ function FestivalDetail({ festival, onClose }: { festival: Festival; onClose: ()
               {festival.scripturalVsCustom.map((item, i) => (
                 <div key={i} className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-3">
-                    <p className="text-xs font-bold text-emerald-800 uppercase tracking-wider mb-1">शास्त्रीय</p>
+                    <p className="text-xs font-bold text-emerald-800 uppercase mb-1">शास्त्रीय</p>
                     <p className="text-sm text-dharma-text">{item.scriptural}</p>
                   </div>
                   <div className="bg-amber-50 border border-amber-200 rounded-xl p-3">
-                    <p className="text-xs font-bold text-amber-800 uppercase tracking-wider mb-1">सांस्कृतिक रिवाज़</p>
+                    <p className="text-xs font-bold text-amber-800 uppercase mb-1">सांस्कृतिक रिवाज़</p>
                     <p className="text-sm text-dharma-text">{item.custom}</p>
                   </div>
                 </div>

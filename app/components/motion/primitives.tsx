@@ -1,7 +1,7 @@
 'use client';
 
 import { motion, useReducedMotion, type HTMLMotionProps, type Variants } from 'framer-motion';
-import type { ReactNode } from 'react';
+import type { HTMLAttributes, ReactNode } from 'react';
 
 /**
  * Shared motion primitives for the Dharma Granth reader.
@@ -36,26 +36,25 @@ const reducedVariants: Variants = {
 
 /**
  * Fade-up on mount. Use for hero headlines, single elements that should
- * settle in once on load.
+ * settle in once on load. A CSS animation (`.fade-up-in` in globals.css),
+ * not framer-motion: it plays from the server-rendered HTML, so above-the-
+ * fold text never waits on hydration to become visible.
  */
 export function FadeUp({
   children,
   delay = 0,
   className,
+  style,
   ...rest
-}: { children: ReactNode; delay?: number } & HTMLMotionProps<'div'>) {
-  const reduce = useReducedMotion();
+}: { children: ReactNode; delay?: number } & HTMLAttributes<HTMLDivElement>) {
   return (
-    <motion.div
-      className={className}
-      initial="hidden"
-      animate="visible"
-      variants={reduce ? reducedVariants : fadeUpVariants}
-      transition={{ delay }}
+    <div
+      className={className ? `fade-up-in ${className}` : 'fade-up-in'}
+      style={delay ? { animationDelay: `${delay}s`, ...style } : style}
       {...rest}
     >
       {children}
-    </motion.div>
+    </div>
   );
 }
 

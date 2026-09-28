@@ -24,7 +24,7 @@ export function SurpriseVerseButton({ className = '' }: { className?: string }) 
     if (busy) return;
     setBusy(true);
     try {
-      const res = await fetch(`${BASE_PATH}/data/chapters.json`, { cache: 'force-cache' });
+      const res = await fetch(`${BASE_PATH}/data/chapters.json`);
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const index = (await res.json()) as Record<string, ChapterIndexEntry[]>;
       const ids = Object.keys(index).filter((k) => (index[k]?.length ?? 0) > 0);

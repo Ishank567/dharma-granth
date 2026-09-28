@@ -208,7 +208,7 @@ export default function ChapterPage({ params }: PageProps) {
               {chapter.id}
             </span>
             <div className="flex-1 min-w-0">
-              <div className="text-xs uppercase tracking-[0.3em] text-saffron-200/90 mb-1">अध्याय {chapter.id} / {totalChapterCount}</div>
+              <div className="text-xs uppercase text-saffron-200/90 mb-1">अध्याय {chapter.id} / {totalChapterCount}</div>
               <h1 className="text-3xl md:text-4xl font-serif font-bold mb-1">{chapter.title}</h1>
               <p className="text-xl font-devanagari opacity-90">{chapter.titleSanskrit}</p>
             </div>
@@ -259,7 +259,7 @@ export default function ChapterPage({ params }: PageProps) {
             >
               <ArrowLeft className="w-4 h-4 shrink-0 group-hover:-translate-x-0.5 transition-transform" />
               <span className="min-w-0">
-                <span className="block text-[10px] uppercase tracking-widest text-dharma-muted">पिछला</span>
+                <span className="block text-[10px] uppercase text-dharma-muted">पिछला</span>
                 <span className="block text-sm font-semibold">अध्याय {chapterId - 1}</span>
                 {prevLabel && (
                   <span className="block truncate text-xs text-dharma-muted">{prevLabel}</span>
@@ -276,7 +276,7 @@ export default function ChapterPage({ params }: PageProps) {
               className="group inline-flex min-w-0 max-w-[48%] items-center gap-2 px-5 py-3 rounded-xl bg-gradient-to-br from-saffron-600 to-saffron-700 text-white hover:shadow-lg transition ml-auto"
             >
               <span className="min-w-0 text-right">
-                <span className="block text-[10px] uppercase tracking-widest opacity-80">अगला</span>
+                <span className="block text-[10px] uppercase opacity-80">अगला</span>
                 <span className="block text-sm font-semibold">अध्याय {chapterId + 1}</span>
                 {nextLabel && (
                   <span className="block truncate text-xs opacity-80">{nextLabel}</span>

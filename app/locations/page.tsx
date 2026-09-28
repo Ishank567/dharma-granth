@@ -243,13 +243,13 @@ function LocationDetail({ location }: { location: SacredLocation }) {
 
         {/* Significance */}
         <div className="mb-4 rounded-xl bg-teal-50 border border-teal-200 p-3">
-          <p className="text-xs font-bold text-teal-700 uppercase tracking-wider mb-1">महत्व (Significance)</p>
+          <p className="text-xs font-bold text-teal-700 uppercase mb-1">महत्व (Significance)</p>
           <p className="text-sm text-dharma-text">{location.significance}</p>
         </div>
 
         {/* Associations */}
         <div className="mb-4">
-          <p className="text-xs font-bold text-dharma-muted uppercase tracking-wider mb-2">संबंध (Associations)</p>
+          <p className="text-xs font-bold text-dharma-muted uppercase mb-2">संबंध (Associations)</p>
           <div className="flex flex-wrap gap-2">
             {location.associations.map((assoc) => (
               <span key={assoc} className="px-2.5 py-1 bg-teal-50 text-teal-800 rounded-full text-xs font-semibold border border-teal-200">
@@ -261,28 +261,28 @@ function LocationDetail({ location }: { location: SacredLocation }) {
 
         {/* Identifications */}
         <div className="space-y-3">
-          <p className="text-xs font-bold text-dharma-muted uppercase tracking-wider">स्थान पहचान (Location Identification)</p>
+          <p className="text-xs font-bold text-dharma-muted uppercase">स्थान पहचान (Location Identification)</p>
 
           <div className="rounded-xl border border-saffron-200 bg-saffron-50 p-3">
-            <p className="text-xs font-bold text-saffron-700 uppercase tracking-wider mb-1">पारंपरिक (Traditional)</p>
+            <p className="text-xs font-bold text-saffron-700 uppercase mb-1">पारंपरिक (Traditional)</p>
             <p className="text-sm text-dharma-text leading-relaxed">{location.identifications.traditional}</p>
           </div>
 
           <div className="rounded-xl border border-emerald-200 bg-emerald-50 p-3">
-            <p className="text-xs font-bold text-emerald-700 uppercase tracking-wider mb-1">वर्तमान (Present Day)</p>
+            <p className="text-xs font-bold text-emerald-700 uppercase mb-1">वर्तमान (Present Day)</p>
             <p className="text-sm text-dharma-text leading-relaxed">{location.identifications.presentDay}</p>
           </div>
 
           {location.identifications.debated && (
             <div className="rounded-xl border border-amber-200 bg-amber-50 p-3">
-              <p className="text-xs font-bold text-amber-700 uppercase tracking-wider mb-1">विवादित (Debated)</p>
+              <p className="text-xs font-bold text-amber-700 uppercase mb-1">विवादित (Debated)</p>
               <p className="text-sm text-dharma-text leading-relaxed">{location.identifications.debated}</p>
             </div>
           )}
 
           {location.identifications.symbolic && (
             <div className="rounded-xl border border-violet-200 bg-violet-50 p-3">
-              <p className="text-xs font-bold text-violet-700 uppercase tracking-wider mb-1">प्रतीकात्मक / ब्रह्मांडीय (Symbolic / Cosmological)</p>
+              <p className="text-xs font-bold text-violet-700 uppercase mb-1">प्रतीकात्मक / ब्रह्मांडीय (Symbolic / Cosmological)</p>
               <p className="text-sm text-dharma-text leading-relaxed">{location.identifications.symbolic}</p>
             </div>
           )}

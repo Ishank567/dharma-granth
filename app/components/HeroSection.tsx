@@ -290,61 +290,31 @@ export function HeroSection() {
         </FadeUp>
 
         <FadeUp delay={0.08}>
-          <motion.p
-            className="mb-3 text-xs font-bold uppercase tracking-[0.24em] text-saffron-100/80 sm:text-sm"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.08, duration: 0.7 }}
-          >
+          <p className="mb-3 text-xs font-bold uppercase tracking-[0.24em] text-saffron-100/80 sm:text-sm">
             Timeless wisdom · Thoughtful study
-          </motion.p>
-          <motion.h1
-            className="mb-3 bg-gradient-to-r from-white via-saffron-100 to-amber-100 bg-clip-text font-serif text-4xl font-bold tracking-normal text-transparent drop-shadow-2xl sm:text-6xl md:text-7xl"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1, duration: 0.8 }}
-          >
+          </p>
+          <h1 className="mb-3 bg-gradient-to-r from-white via-saffron-100 to-amber-100 bg-clip-text font-serif text-4xl font-bold tracking-normal text-transparent drop-shadow-2xl sm:text-6xl md:text-7xl">
             Dharma Granth
-          </motion.h1>
+          </h1>
         </FadeUp>
-        
+
         <FadeUp delay={0.14}>
-          <motion.p
-            className="mb-5 font-devanagari text-2xl text-saffron-100 drop-shadow-md md:text-3xl"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.15, duration: 0.8 }}
-          >
+          <p className="mb-5 font-devanagari text-2xl text-saffron-100 drop-shadow-md md:text-3xl">
             धर्म ग्रंथ
-          </motion.p>
+          </p>
         </FadeUp>
-        
+
         <FadeUp delay={0.2}>
-          <motion.p
-            className="mx-auto mb-3 max-w-3xl text-xl font-medium leading-relaxed opacity-95 drop-shadow-sm sm:text-2xl md:text-3xl"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.2, duration: 0.8 }}
-          >
+          <p className="mx-auto mb-3 max-w-3xl text-xl font-medium leading-relaxed opacity-95 drop-shadow-sm sm:text-2xl md:text-3xl">
             Read the scriptures. Understand the wisdom. Live the teaching.
-          </motion.p>
-          <motion.p
-            className="mx-auto mb-3 max-w-2xl font-devanagari text-base opacity-85 md:text-xl"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.22, duration: 0.8 }}
-          >
+          </p>
+          <p className="mx-auto mb-3 max-w-2xl font-devanagari text-base opacity-85 md:text-xl">
             प्रसिद्ध श्लोक — गहरा हिंदी अर्थ — वैज्ञानिक दृष्टिकोण
-          </motion.p>
-          <motion.p
-            className="mx-auto mb-7 max-w-xl text-sm font-medium tracking-wide opacity-75 md:text-base"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.24, duration: 0.8 }}
-          >
+          </p>
+          <p className="mx-auto mb-7 max-w-xl text-sm font-medium tracking-wide opacity-75 md:text-base">
             Sanskrit · Hindi · English · context and commentary — always free,
             always ad-free.
-          </motion.p>
+          </p>
         </FadeUp>
 
         <FadeUp delay={0.26}>
@@ -384,11 +354,7 @@ export function HeroSection() {
         </FadeUp>
 
         <FadeUp delay={0.32} className="flex flex-wrap justify-center gap-3">
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.3, duration: 0.5 }}
-          >
+          <div>
             <MagneticButton
               href="/scripture/bhagavadgita"
               className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-3.5 font-bold text-saffron-800 shadow-xl transition-all hover:bg-saffron-50 sm:gap-2.5 sm:px-6 shine-sweep"
@@ -399,12 +365,8 @@ export function HeroSection() {
               <span className="sm:hidden">Read Gita</span>
               <span className="hidden sm:inline">भगवद्गीता पढ़ें</span>
             </MagneticButton>
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.35, duration: 0.5 }}
-          >
+          </div>
+          <div>
             <MagneticButton
               href="/scriptures"
               className="inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/15 px-4 py-3.5 font-semibold text-white shadow-xl backdrop-blur-md transition-all hover:bg-white/25 sm:gap-2.5 sm:px-6 shine-sweep"
@@ -415,14 +377,10 @@ export function HeroSection() {
               <span className="sm:hidden">Library</span>
               <span className="hidden sm:inline">Browse the Library</span>
             </MagneticButton>
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.4, duration: 0.5 }}
-          >
+          </div>
+          <div>
             <SurpriseVerseButton className="hidden items-center gap-2.5 rounded-full border border-white/20 px-5 py-3.5 font-semibold text-white/90 transition hover:border-white/40 hover:bg-white/10 sm:inline-flex" />
-          </motion.div>
+          </div>
         </FadeUp>
       </motion.div>
 

@@ -199,7 +199,7 @@ export function ContributeMeaningModal({
               {/* Verse context */}
               {sanskrit && (
                 <div className="rounded-xl border border-dharma-border bg-dharma-bg p-4">
-                  <div className="text-[10px] uppercase tracking-widest text-saffron-700 mb-1">मूल संस्कृत</div>
+                  <div className="text-[10px] uppercase text-saffron-700 mb-1">मूल संस्कृत</div>
                   <p className="font-devanagari text-base leading-relaxed text-dharma-text whitespace-pre-line">{sanskrit}</p>
                 </div>
               )}
@@ -207,7 +207,7 @@ export function ContributeMeaningModal({
               {/* Form */}
               <div className="space-y-4">
                 <div>
-                  <label className="block text-xs font-semibold uppercase tracking-wider text-emerald-700 mb-1.5">व्याख्या / Explanation</label>
+                  <label className="block text-xs font-semibold uppercase text-emerald-700 mb-1.5">व्याख्या / Explanation</label>
                   <textarea
                     value={form.explanation}
                     onChange={(e) => updateField('explanation', e.target.value)}
@@ -217,7 +217,7 @@ export function ContributeMeaningModal({
                 </div>
 
                 <div>
-                  <label className="block text-xs font-semibold uppercase tracking-wider text-indigo-700 mb-1.5">आधुनिक दृष्टि / Science or modern parallel (optional)</label>
+                  <label className="block text-xs font-semibold uppercase text-indigo-700 mb-1.5">आधुनिक दृष्टि / Science or modern parallel (optional)</label>
                   <textarea
                     value={form.science}
                     onChange={(e) => updateField('science', e.target.value)}
@@ -227,7 +227,7 @@ export function ContributeMeaningModal({
                 </div>
 
                 <div>
-                  <label className="block text-xs font-semibold uppercase tracking-wider text-amber-700 mb-1.5">जीवन शिक्षा / Life lesson (optional)</label>
+                  <label className="block text-xs font-semibold uppercase text-amber-700 mb-1.5">जीवन शिक्षा / Life lesson (optional)</label>
                   <textarea
                     value={form.lifeLesson}
                     onChange={(e) => updateField('lifeLesson', e.target.value)}
@@ -237,7 +237,7 @@ export function ContributeMeaningModal({
                 </div>
 
                 <div>
-                  <label className="block text-xs font-semibold uppercase tracking-wider text-rose-700 mb-1.5">हिन्दी अर्थ / Hindi translation or arth (optional)</label>
+                  <label className="block text-xs font-semibold uppercase text-rose-700 mb-1.5">हिन्दी अर्थ / Hindi translation or arth (optional)</label>
                   <textarea
                     value={form.hindi}
                     onChange={(e) => updateField('hindi', e.target.value)}
