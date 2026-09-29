@@ -47,6 +47,10 @@ npm-test.out.log
 # typescript
 *.tsbuildinfo
 
+# Playwright output (npm run test:e2e)
+test-results/
+playwright-report/
+
 # Verse share images are generated at build time (`npm run og:verses`).
 public/og/verse/
 

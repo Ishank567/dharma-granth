@@ -20,6 +20,12 @@ interface DailyVerseData {
   chapterId: number;
   chapterTitle: string;
   verseId: number | string;
+  /**
+   * Where "Study this verse" goes, when the site's numbering differs from the
+   * traditional reference shown on the card (found by the verse's text), or
+   * null when the library does not have the text.
+   */
+  href?: string | null;
 }
 
 const DAILY_VERSES: DailyVerseData[] = [
@@ -46,6 +52,7 @@ const DAILY_VERSES: DailyVerseData[] = [
     chapterId: 6,
     chapterTitle: 'Chapter 6',
     verseId: 71,
+    href: null, // The Maha Upanishad is not in the library.
   },
   {
     sanskrit: 'सत्यमेव जयते',
@@ -53,11 +60,12 @@ const DAILY_VERSES: DailyVerseData[] = [
     translation: 'Truth alone triumphs.',
     hindi: 'सत्य की ही विजय होती है।',
     explanation: 'From the Mundaka Upanishad — the enduring power of truth over falsehood, a principle that guides ethical living.',
-    scriptureId: 'mundaka-upanishad',
+    scriptureId: 'mundaka',
     scriptureTitle: 'Mundaka Upanishad',
     chapterId: 3,
     chapterTitle: 'Chapter 3',
     verseId: 6,
+    href: readHref('mundaka', 5, 6), // Mundaka 3.1.6 = the site's khanda 5
   },
   {
     sanskrit: 'अहं ब्रह्मास्मि',
@@ -65,11 +73,12 @@ const DAILY_VERSES: DailyVerseData[] = [
     translation: 'I am Brahman — the infinite consciousness.',
     hindi: 'मैं ही ब्रह्म हूँ।',
     explanation: 'From the Brihadaranyaka Upanishad — the great declaration of non-dualism, identifying the individual self with the universal consciousness.',
-    scriptureId: 'brihadaranyaka-upanishad',
+    scriptureId: 'brihadaranyaka',
     scriptureTitle: 'Brihadaranyaka Upanishad',
     chapterId: 1,
     chapterTitle: 'Chapter 1',
     verseId: 10,
+    href: readHref('brihadaranyaka', 1, 2),
   },
   {
     sanskrit: 'योगः कर्मसु कौशलम्',
@@ -89,11 +98,12 @@ const DAILY_VERSES: DailyVerseData[] = [
     translation: 'That Thou Art — you are the infinite.',
     hindi: 'तत् त्वम् असि — तुम्ही वह हो।',
     explanation: 'From the Chandogya Upanishad — one of the four Mahavakyas (great declarations), pointing to the identity of the individual self with the universal Self.',
-    scriptureId: 'chandogya-upanishad',
+    scriptureId: 'chandogya',
     scriptureTitle: 'Chandogya Upanishad',
     chapterId: 6,
     chapterTitle: 'Chapter 6',
     verseId: 8,
+    href: readHref('chandogya', 1, '1.1.9'),
   },
   {
     sanskrit: 'ॐ पूर्णमदः पूर्णमिदम्',
@@ -101,11 +111,13 @@ const DAILY_VERSES: DailyVerseData[] = [
     translation: 'OM. That is full; this is full. From fullness, fullness comes.',
     hindi: 'ॐ। वह पूर्ण है, यह पूर्ण है। पूर्ण से ही पूर्ण निकलता है।',
     explanation: 'The Isha Upanishad invocation — a meditation on the infinite nature of reality, where taking fullness from fullness still leaves fullness.',
-    scriptureId: 'isha-upanishad',
+    scriptureId: 'ishavasya',
     scriptureTitle: 'Isha Upanishad',
     chapterId: 1,
     chapterTitle: 'Invocation',
     verseId: 1,
+    // The invocation (शान्ति पाठ) is not in the text; open the Upanishad.
+    href: '/scripture/ishavasya/chapter/1',
   },
 ];
 
@@ -122,7 +134,8 @@ export function DailyVerse() {
     return DAILY_VERSES[dayIndex];
   }, []);
 
-  const verseUrl = readHref(verse.scriptureId, verse.chapterId, verse.verseId);
+  const verseUrl =
+    verse.href === undefined ? readHref(verse.scriptureId, verse.chapterId, verse.verseId) : verse.href;
 
   return (
     <FadeUp>
@@ -172,16 +185,18 @@ export function DailyVerse() {
             <span className="text-xs font-semibold text-saffron-700 uppercase tracking-wider">
               {verse.scriptureTitle} • {verse.chapterTitle} • Verse {verse.verseId}
             </span>
-            <MagneticButton
-              href={verseUrl}
-              className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-gradient-to-r from-saffron-600 to-amber-600 text-white text-sm font-bold shadow-lg hover:from-saffron-700 hover:to-amber-700 shine-sweep"
-              strength={16}
-              tilt={8}
-            >
-              <BookOpen className="w-4 h-4" />
-              Study this verse
-              <ArrowRight className="w-4 h-4" />
-            </MagneticButton>
+            {verseUrl && (
+              <MagneticButton
+                href={verseUrl}
+                className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-gradient-to-r from-saffron-600 to-amber-600 text-white text-sm font-bold shadow-lg hover:from-saffron-700 hover:to-amber-700 shine-sweep"
+                strength={16}
+                tilt={8}
+              >
+                <BookOpen className="w-4 h-4" />
+                Study this verse
+                <ArrowRight className="w-4 h-4" />
+              </MagneticButton>
+            )}
           </div>
         </div>
       </Realistic3DCard>

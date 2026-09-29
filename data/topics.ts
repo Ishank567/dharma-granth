@@ -192,7 +192,7 @@ export const topics: Topic[] = [
         reference: 'Bhagavad Gita 13.28',
       },
       {
-        scriptureId: 'upanishads',
+        scriptureId: 'brihadaranyaka',
         sanskrit: 'यथा पूर्वं तथा परम्',
         transliteration: 'yathā pūrvaṃ tathā param',
         translation: 'As before, so after — the bond that unites two souls is eternal, a reflection of the unity that underlies all existence.',
@@ -304,7 +304,7 @@ export const topics: Topic[] = [
         reference: 'Bhagavad Gita 6.35',
       },
       {
-        scriptureId: 'upanishads',
+        scriptureId: 'taittiriya',
         sanskrit: 'आचार्यादेव विद्या विद्या चाचार्याद्धम्',
         transliteration: 'ācāryādeva vidyā vidyā cācāryāddham',
         translation: 'From the teacher comes learning; from learning, understanding. Approach knowledge with reverence and humility.',
@@ -530,7 +530,7 @@ export const topics: Topic[] = [
         reference: 'Bhagavad Gita 7.9',
       },
       {
-        scriptureId: 'upanishads',
+        scriptureId: 'atharvaveda',
         sanskrit: 'पृथिवी माता मम अहं पृथिव्याः सूनुः',
         transliteration: 'pṛthivī mātā mama ahaṃ pṛthivyaḥ sūnuḥ',
         translation: 'The Earth is my mother, and I am the child of the Earth.',

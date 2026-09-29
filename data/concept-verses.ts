@@ -20,14 +20,14 @@ export const conceptVerses: Record<string, ConceptVerse[]> = {
       reference: 'Bhagavad Gita 10.12',
     },
     {
-      scriptureId: 'upanishads',
+      scriptureId: 'chandogya',
       sanskrit: 'सर्वं खल्विदं ब्रह्म',
       transliteration: 'sarvaṃ khalvidaṃ brahma',
       translation: 'All this is verily Brahman. Everything emerges from, is sustained by, and dissolves into Brahman.',
       reference: 'Chandogya Upanishad 3.14.1',
     },
     {
-      scriptureId: 'upanishads',
+      scriptureId: 'taittiriya',
       sanskrit: 'सत्यं ज्ञानमनन्तं ब्रह्म',
       transliteration: 'satiyaṃ jñānamanantaṃ brahma',
       translation: 'Brahman is Truth, Knowledge, and Infinite.',
@@ -54,7 +54,7 @@ export const conceptVerses: Record<string, ConceptVerse[]> = {
       reference: 'Bhagavad Gita 2.23',
     },
     {
-      scriptureId: 'upanishads',
+      scriptureId: 'chandogya',
       sanskrit: 'तत्त्वमसि',
       transliteration: 'tat tvam asi',
       translation: 'That thou art — the Self within you is identical with the Supreme Reality.',
@@ -139,7 +139,7 @@ export const conceptVerses: Record<string, ConceptVerse[]> = {
       reference: 'Bhagavad Gita 4.6',
     },
     {
-      scriptureId: 'upanishads',
+      scriptureId: 'ishavasya',
       sanskrit: 'विद्या चाविद्या च यस्तद्वेदोभयं सह',
       transliteration: 'vidyā cāvidyā ca yastadvedobhayaṃ saha',
       translation: 'He who knows both knowledge and ignorance together — crosses death through ignorance and attains immortality through knowledge.',
@@ -166,7 +166,7 @@ export const conceptVerses: Record<string, ConceptVerse[]> = {
       reference: 'Bhagavad Gita 18.66',
     },
     {
-      scriptureId: 'upanishads',
+      scriptureId: 'mundaka',
       sanskrit: 'ब्रह्मविद् ब्रह्मैव भवति',
       transliteration: 'brahmavid brahmaiva bhavati',
       translation: 'The knower of Brahman becomes Brahman itself — this is the state of liberation.',
@@ -193,7 +193,7 @@ export const conceptVerses: Record<string, ConceptVerse[]> = {
       reference: 'Bhagavad Gita 8.6',
     },
     {
-      scriptureId: 'upanishads',
+      scriptureId: 'katha',
       sanskrit: 'समानि प्रकृतयः प्रतिलोमानि यथा विपर्यसेत्',
       transliteration: 'samāni prakṛtayaḥ pratilomāni yathā viparyaset',
       translation: 'As the same material nature cycles forward and backward, so the soul wanders through the cycle of rebirth.',
@@ -249,7 +249,7 @@ export const conceptVerses: Record<string, ConceptVerse[]> = {
       reference: 'Bhagavad Gita 15.17',
     },
     {
-      scriptureId: 'upanishads',
+      scriptureId: 'mundaka',
       sanskrit: 'द्वा सुपर्णा सयुजा सखाया समानं वृक्षं परिषस्वजाते',
       transliteration: 'dvā suparṇā sayujā sakhāyā samānaṃ vṛkṣaṃ pariṣasvajāte',
       translation: 'Two birds on the same tree — one eats the fruit (the individual soul), the other merely watches (the Supreme Purusha).',
@@ -334,7 +334,7 @@ export const conceptVerses: Record<string, ConceptVerse[]> = {
       reference: 'Bhagavad Gita 4.39',
     },
     {
-      scriptureId: 'upanishads',
+      scriptureId: 'ishavasya',
       sanskrit: 'विद्या चाविद्या च यस्तद्वेदोभयं सह',
       transliteration: 'vidyā cāvidyā ca yastadvedobhayaṃ saha',
       translation: 'He who knows both knowledge and ignorance — crosses death through ignorance and attains immortality through knowledge.',
@@ -448,7 +448,7 @@ export const conceptVerses: Record<string, ConceptVerse[]> = {
       reference: 'Bhagavad Gita 4.10',
     },
     {
-      scriptureId: 'upanishads',
+      scriptureId: 'ishavasya',
       sanskrit: 'अविद्यया मृत्युं तीर्त्वा विद्ययामृतमश्नुते',
       transliteration: 'avidyayā mṛtyuṃ tīrtvā vidyayāmṛtamaśnute',
       translation: 'Crossing over death through ignorance, one attains immortality through knowledge.',
@@ -475,7 +475,7 @@ export const conceptVerses: Record<string, ConceptVerse[]> = {
       reference: 'Bhagavad Gita 6.5',
     },
     {
-      scriptureId: 'upanishads',
+      scriptureId: 'vivekchudamani',
       sanskrit: 'विवेकिनः सदा युक्तस्य धीरस्य ब्रह्मनिष्ठस्य',
       transliteration: 'vivekinaḥ sadā yuktasya dhīrasya brahmaniṣṭhasya',
       translation: 'For the one who is discriminating, ever-established, steady, and devoted to Brahman — liberation is near.',
@@ -560,7 +560,7 @@ export const conceptVerses: Record<string, ConceptVerse[]> = {
       reference: 'Bhagavad Gita 7.8',
     },
     {
-      scriptureId: 'upanishads',
+      scriptureId: 'katha',
       sanskrit: 'ओमिति ब्रह्म ओमितीदमक्षरम्',
       transliteration: 'omiti brahma omitīdamakṣaram',
       translation: 'Om is Brahman. Om is this all. The syllable Om is the highest support.',

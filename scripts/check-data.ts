@@ -17,7 +17,7 @@
  * Run: npm run check
  * Exit non-zero if any failure — wire into CI before `npm run build`.
  */
-import { existsSync, readFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { resolve } from "node:path";
 import { scriptureCatalog } from "../data/scripture-meta";
 import {
@@ -379,6 +379,37 @@ function checkVerseOrder(id: string, data: FullScriptureJson): void {
   }
 }
 
+/**
+ * Hard-coded scripture references in app/, data/ and lib/ (`scriptureId:
+ * '…'`, `/scripture/…` paths) must name a real scripture — made-up ids like
+ * 'isha-upanishad' or 'upanishads' produced links to pages that don't exist.
+ */
+const NOT_IN_LIBRARY = new Set(['maha-upanishad']); // cited, deliberately unlinked
+function checkScriptureReferences(): void {
+  const known = new Set(scriptureCatalog.map((m) => m.id));
+  const bad = new Set<string>();
+  const walk = (dir: string) => {
+    for (const name of readdirSync(dir)) {
+      const path = resolve(dir, name);
+      if (statSync(path).isDirectory()) walk(path);
+      else if (/\.(ts|tsx)$/.test(name)) {
+        const src = readFileSync(path, 'utf8');
+        const rel = path.slice(resolve(__dirname, '..').length + 1);
+        for (const m of src.matchAll(/scriptureId:\s*['"]([a-z0-9-]+)['"]/g)) {
+          if (!known.has(m[1]) && !NOT_IN_LIBRARY.has(m[1])) bad.add(`${rel}: ${m[1]}`);
+        }
+        for (const m of src.matchAll(/['"`]\/scripture\/([a-z0-9-]+)(?=[/'"`?#])/g)) {
+          if (!known.has(m[1])) bad.add(`${rel}: /scripture/${m[1]}`);
+        }
+      }
+    }
+  };
+  for (const dir of ['app', 'data', 'lib']) walk(resolve(__dirname, '..', dir));
+  if (bad.size > 0) {
+    error('references', `${bad.size} link(s) to scriptures that don't exist: ${[...bad].slice(0, 5).join('; ')}`);
+  }
+}
+
 function checkSeededJsonAlignment(): void {
   for (const meta of scriptureCatalog) {
     const path = resolve(FULL_DIR, `${meta.id}.json`);
@@ -439,6 +470,7 @@ function main(): void {
   checkCatalogAlignment();
   checkOgImages();
   checkSeededJsonAlignment();
+  checkScriptureReferences();
 
   const errors = issues.filter((i) => i.severity === "error");
   const warns = issues.filter((i) => i.severity === "warn");

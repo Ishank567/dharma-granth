@@ -70,6 +70,14 @@ jobs:
         env:
           NODE_OPTIONS: "--max-old-space-size=6144"
 
+      # Real-browser smoke test of dist/ with _headers (CSP) applied: runtime
+      # errors, hydration, redirects. A failure stops the deploy.
+      - name: Install Chromium for the browser test
+        run: npx playwright install --with-deps chromium
+
+      - name: Browser smoke test
+        run: npm run test:e2e
+
       - name: Deploy to Cloudflare Pages
         if: env.HAS_CLOUDFLARE_SECRETS == 'true'
         uses: cloudflare/wrangler-action@v3

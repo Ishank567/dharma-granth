@@ -55,3 +55,9 @@ jobs:
         run: npm run build
         env:
           NODE_OPTIONS: "--max-old-space-size=6144"
+
+      - name: Install Chromium for the browser test
+        run: npx playwright install --with-deps chromium
+
+      - name: Browser smoke test
+        run: npm run test:e2e
