@@ -256,3 +256,15 @@ Future re-seeds via `npm run seed:missing` inherit this automatically.
   shivpurana.json ch1: mixed numbering (2/1), 3 out of order — left as is
   shivpurana.json ch6: mixed numbering (2/1), 3 out of order — left as is
 ```
+
+---
+
+## Why the translation gaps must not be "refilled" from the seed caches
+
+The English/Hindi gaps in P1/P1b are what is left after `scripts/dedupe-bulk-translations.ts`
+removed passage-level text that the Purana and Mahabharata seeders had copied onto every verse
+of a passage. Re-running e.g. `npm run seed:mahabharata-translations` reports 100% coverage but
+re-creates the problem (checked 2026-09-29: Mahabharata 8.1.6 showed Janamejaya's opening
+paragraph as the "translation" of a Duryodhana verse; ~3,200 distinct texts across 32,540
+verses, one repeated 208 times, plus `[paragraph continues]` scraping artifacts).
+Closing these gaps needs a **verse-aligned** source, not more passage-level text.
