@@ -67,3 +67,6 @@ scripts/cache/wisdomlib-*.html
 
 # local logs
 *.log
+
+# OCR/extracted source material: kept locally, not redistributed (see scripts/README.md)
+/sources/

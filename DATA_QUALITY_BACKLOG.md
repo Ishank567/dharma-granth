@@ -268,3 +268,10 @@ re-creates the problem (checked 2026-09-29: Mahabharata 8.1.6 showed Janamejaya'
 paragraph as the "translation" of a Duryodhana verse; ~3,200 distinct texts across 32,540
 verses, one repeated 208 times, plus `[paragraph continues]` scraping artifacts).
 Closing these gaps needs a **verse-aligned** source, not more passage-level text.
+
+### P4 resolution (2026-09-29)
+
+The remaining 15 chapters were inspected: Ramayana ch1–7 are curated 13–16-verse selections per kanda
+(numbers like `1, 1.2, 3, 4, 1.6 … 2.10, 1.14` are selection order, not a sort bug) and Manusmriti ch1 is a
+sparse selection (`1, 1.2, 3, 4, 1.15, 1.20, 1.25`). Their order is intentional — leave them. The
+bhagavatapurana/devibhagavat/mahabharata/shivpurana/brahmasutra entries are 2–7 verses each and are left as is.
