@@ -55,3 +55,50 @@ for (const theme of THEMES) {
     });
   }
 }
+
+/** Interactive states: overlays and menus that the page-load audit never opens. */
+async function audit(page: import('@playwright/test').Page, label: string) {
+  await page.waitForTimeout(800);
+  const { violations } = await new AxeBuilder({ page })
+    .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'])
+    .analyze();
+  const blocking = violations.filter((v) => v.impact === 'serious' || v.impact === 'critical');
+  console.log(`${label}: ` + (violations.map((v) => `${v.id}(${v.impact},${v.nodes.length})`).join(' ') || 'clean'));
+  expect(
+    blocking.map((v) => `${v.id}: ${v.help} — ${v.nodes.slice(0, 3).map((n) => n.target.join(' ')).join(' | ')}`),
+  ).toEqual([]);
+}
+
+for (const theme of THEMES) {
+  test(`a11y [${theme}]: search modal with results`, async ({ page }) => {
+    await page.emulateMedia({ reducedMotion: 'reduce' });
+    await page.addInitScript((t) => localStorage.setItem('dharma-theme', t), theme);
+    await page.goto('/scriptures/');
+    await page.waitForLoadState('networkidle');
+    await page.getByRole('button', { name: /खोजें|Search/ }).first().click();
+    const box = page.getByRole('dialog', { name: 'Global Search' }).getByRole('combobox');
+    await box.fill('karma');
+    await expect(page.getByRole('dialog', { name: 'Global Search' }).getByRole('option').first()).toBeVisible();
+    await audit(page, `${theme} search modal`);
+  });
+
+  test(`a11y [${theme}]: mobile navigation menu`, async ({ page }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.emulateMedia({ reducedMotion: 'reduce' });
+    await page.addInitScript((t) => localStorage.setItem('dharma-theme', t), theme);
+    await page.goto('/scriptures/');
+    await page.waitForLoadState('networkidle');
+    await page.getByRole('button', { name: 'Open navigation menu' }).click();
+    await expect(page.locator('#mobile-navigation')).toBeVisible();
+    await audit(page, `${theme} mobile menu`);
+  });
+}
+
+test('a11y: desktop discovery menu', async ({ page }) => {
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  await page.goto('/scriptures/');
+  await page.waitForLoadState('networkidle');
+  await page.getByRole('button', { name: 'अन्वेषण' }).click();
+  await expect(page.locator('#desktop-discovery-menu')).toBeVisible();
+  await audit(page, 'desktop discovery menu');
+});

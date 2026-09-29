@@ -308,7 +308,7 @@ export function GlobalSearchModal({ isOpen, onClose, initialQuery = '' }: Props)
   const chipClass = (active: boolean) =>
     `shrink-0 rounded-full border px-3 py-1 text-xs font-semibold transition ${
       active
-        ? 'border-saffron-400 bg-saffron-500 text-white'
+        ? 'border-saffron-600 bg-saffron-600 text-white'
         : 'border-dharma-border bg-dharma-bg text-dharma-muted hover:border-saffron-300 hover:text-dharma-text'
     }`;
 

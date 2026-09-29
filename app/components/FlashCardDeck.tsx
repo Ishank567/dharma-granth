@@ -181,7 +181,7 @@ export function FlashCardDeckSystem({ decks, className = '' }: FlashCardDeckSyst
             aria-pressed={viewMode === 'grid'}
             className={`flex items-center gap-2 px-4 py-2 rounded-md text-sm font-semibold transition ${
               viewMode === 'grid' 
-                ? 'bg-saffron-500 text-white' 
+                ? 'bg-saffron-600 text-white' 
                 : 'text-dharma-text hover:bg-saffron-50/20'
             }`}
           >
@@ -193,7 +193,7 @@ export function FlashCardDeckSystem({ decks, className = '' }: FlashCardDeckSyst
             aria-pressed={viewMode === 'list'}
             className={`flex items-center gap-2 px-4 py-2 rounded-md text-sm font-semibold transition ${
               viewMode === 'list' 
-                ? 'bg-saffron-500 text-white' 
+                ? 'bg-saffron-600 text-white' 
                 : 'text-dharma-text hover:bg-saffron-50/20'
             }`}
           >
