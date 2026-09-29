@@ -8,6 +8,7 @@ import { festivals } from '@/data/festivals';
 import { rituals } from '@/data/rituals';
 import { pathways } from '@/data/pathways';
 import { normalizeForSearch } from '@/lib/normalize-search';
+import { versePageHref } from '@/lib/verse-paths';
 
 export type SearchCategory =
   | 'scripture'
@@ -269,11 +270,13 @@ function parseChapterNumber(token: string): number | null {
  */
 function chapterJumps(tokens: string[]): SearchResultItem[] {
   const numbers = tokens.map(parseChapterNumber);
-  const numIdx = numbers.findIndex((n) => n !== null);
-  if (numIdx === -1 || numbers.filter((n) => n !== null).length > 1) return [];
-  const n = numbers[numIdx] as number;
-  const words = tokens.filter((_, i) => i !== numIdx);
-  if (n < 1 || words.length === 0) return [];
+  const numTokens = numbers.filter((n): n is number => n !== null);
+  if (numTokens.length === 0 || numTokens.length > 2) return [];
+  const n = numTokens[0];
+  // "gita 2.47" / "गीता २:४७" → chapter 2, verse 47.
+  const verse = numTokens.length === 2 ? numTokens[1] : null;
+  const words = tokens.filter((_, i) => numbers[i] === null);
+  if (n < 1 || (verse !== null && verse < 1) || words.length === 0) return [];
 
   const candidates: Array<{ entry: IndexedItem; score: number }> = [];
   for (const entry of getIndexed()) {
@@ -297,15 +300,22 @@ function chapterJumps(tokens: string[]): SearchResultItem[] {
     const meta = scriptureCatalog.find((s) => s.id === scriptureId);
     const max = chapterCounts?.[scriptureId] ?? meta?.totalChapters ?? 0;
     if (n > max) continue;
-    const href = chapterHref(scriptureId, n);
+    const chapter = chapterHref(scriptureId, n);
+    const href =
+      verse === null
+        ? chapter
+        : (versePageHref(scriptureId, n, verse) ?? `${chapter}#verse-${n}.${verse}`);
     jumps.push({
-      id: `jump-${scriptureId}-${n}`,
-      title: `${entry.item.title} · अध्याय ${n}`,
+      id: `jump-${scriptureId}-${n}${verse === null ? '' : `-${verse}`}`,
+      title: `${entry.item.title} · ${verse === null ? `अध्याय ${n}` : `श्लोक ${n}.${verse}`}`,
       subtitle: entry.item.subtitle,
       category: 'chapter',
-      categoryLabel: 'अध्याय · Chapter',
+      categoryLabel: verse === null ? 'अध्याय · Chapter' : 'श्लोक · Verse',
       href,
-      description: chapterTitleByHref.get(href) ?? 'सीधे अध्याय पर जाएँ · Jump to chapter',
+      description:
+        verse === null
+          ? (chapterTitleByHref.get(href) ?? 'सीधे अध्याय पर जाएँ · Jump to chapter')
+          : `अध्याय ${n} · सीधे श्लोक पर जाएँ · Jump to verse`,
     });
   }
   return jumps;

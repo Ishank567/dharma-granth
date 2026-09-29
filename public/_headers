@@ -13,6 +13,10 @@
 /_next/static/*
   Cache-Control: public, max-age=31536000, immutable
 
+# The service worker must always be revalidated so updates reach users.
+/sw.js
+  Cache-Control: no-cache
+
 # Share images and fonts change rarely; a week, then revalidate.
 /og/*
   Cache-Control: public, max-age=604800, stale-while-revalidate=86400

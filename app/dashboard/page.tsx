@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { Flame, BookOpen, Bookmark, Award, ArrowRight, TrendingUp, FolderOpen, Highlighter, StickyNote } from 'lucide-react';
 import { useStudyProgress } from '@/lib/useStudyProgress';
+import { BackupRestore } from '@/app/components/BackupRestore';
 import { DailyVerse } from '@/app/components/DailyVerse';
 import { PinterestWisdom } from '@/app/components/PinterestWisdom';
 import { FadeUp, FadeUpOnView, Stagger, StaggerItem } from '@/app/components/motion/primitives';
@@ -345,6 +346,7 @@ export default function DashboardPage() {
             </Link>
           </FadeUpOnView>
         </div>
+        <BackupRestore />
       </div>
     </main>
   );

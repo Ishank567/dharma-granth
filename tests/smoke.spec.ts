@@ -90,3 +90,34 @@ test('floating dock stays out of the way at the top', async ({ page }) => {
   const dock = page.locator('aside[aria-label="Interactive Companion"] > div');
   await expect(dock).toHaveCSS('pointer-events', 'none');
 });
+
+test('service worker registers and serves an opened page offline', async ({ page, context }) => {
+  await page.goto('/scripture/bhagavadgita/chapter/2/');
+  await page.evaluate(() => navigator.serviceWorker.ready);
+  // Reload once so the page is fetched under the worker's control and cached.
+  await page.reload();
+  await page.waitForLoadState('networkidle');
+  await context.setOffline(true);
+  await page.reload();
+  await expect(page.locator('h1').first()).toBeVisible();
+  await context.setOffline(false);
+});
+
+test('dashboard backup exports bookmarks and restores them', async ({ page }) => {
+  await page.goto('/dashboard/');
+  await page.evaluate(() => localStorage.setItem('dharma.bookmarkedVerses', '["x"]'));
+  const download = page.waitForEvent('download');
+  await page.getByRole('button', { name: /export/i }).click();
+  const file = await download;
+  const path = await file.path();
+  const json = JSON.parse(require('node:fs').readFileSync(path!, 'utf8'));
+  expect(json.format).toBe('dharma-granth-backup');
+  expect(json.data['dharma.bookmarkedVerses']).toBe('["x"]');
+
+  await page.evaluate(() => localStorage.clear());
+  await page.locator('input[type=file]').setInputFiles(path!);
+  await page.waitForLoadState('load');
+  await expect
+    .poll(() => page.evaluate(() => localStorage.getItem('dharma.bookmarkedVerses')))
+    .toBe('["x"]');
+});
