@@ -58,3 +58,76 @@ test('skip link is the first Tab stop and moves focus to the main content', asyn
   await page.keyboard.press('Enter');
   await expect(page.locator('#main-content')).toBeFocused();
 });
+
+/** Chapter reader controls, keyboard only. */
+
+test('reader: layers menu opens with Enter, Space toggles a layer, Escape closes and restores focus', async ({ page }) => {
+  await page.goto('/scripture/bhagavadgita/chapter/2/');
+  await expect(page.locator('article.verse-card:not(.vt)').first()).toBeVisible();
+  const trigger = page.getByRole('button', { name: /भाषा व व्याख्या विकल्प/ });
+  await trigger.focus();
+  await page.keyboard.press('Enter');
+  await expect(trigger).toHaveAttribute('aria-expanded', 'true');
+
+  const hindi = page.getByRole('checkbox', { name: /हिन्दी अर्थ/ });
+  await hindi.focus();
+  const before = await hindi.isChecked();
+  await page.keyboard.press('Space');
+  expect(await hindi.isChecked()).toBe(!before);
+  await page.keyboard.press('Space');
+
+  await page.keyboard.press('Escape');
+  await expect(trigger).toHaveAttribute('aria-expanded', 'false');
+  await expect(trigger).toBeFocused();
+});
+
+test('reader: ArrowRight goes to the next chapter, ArrowLeft back', async ({ page }) => {
+  await page.goto('/scripture/bhagavadgita/chapter/2/');
+  await expect(page.locator('article.verse-card:not(.vt)').first()).toBeVisible();
+  await page.locator('body').click({ position: { x: 5, y: 5 } });
+  await page.keyboard.press('ArrowRight');
+  await expect(page).toHaveURL(/chapter\/3\/?$/);
+  await page.waitForLoadState('networkidle');
+  await page.keyboard.press('ArrowLeft');
+  await expect(page).toHaveURL(/chapter\/2\/?$/);
+});
+
+test('reader: toggle buttons expose their state to keyboard users', async ({ page }) => {
+  await page.goto('/scripture/bhagavadgita/chapter/2/');
+  await expect(page.locator('article.verse-card:not(.vt)').first()).toBeVisible();
+  const chanting = page.getByRole('button', { name: 'स्वाध्याय मोड' });
+  await chanting.focus();
+  await expect(chanting).toHaveAttribute('aria-pressed', 'false');
+  await page.keyboard.press('Enter');
+  await expect(chanting).toHaveAttribute('aria-pressed', 'true');
+  await page.keyboard.press('Enter');
+  await expect(chanting).toHaveAttribute('aria-pressed', 'false');
+});
+
+test('reader: every button and link that takes focus shows a focus indicator', async ({ page }) => {
+  await page.goto('/scripture/bhagavadgita/chapter/2/');
+  await expect(page.locator('article.verse-card:not(.vt)').first()).toBeVisible();
+  const missing: string[] = [];
+  for (let i = 0; i < 40; i++) {
+    await page.keyboard.press('Tab');
+    const info = await page.evaluate(() => {
+      const el = document.activeElement as HTMLElement | null;
+      if (!el || el === document.body) return null;
+      const snap = () => {
+        const cs = getComputedStyle(el);
+        return [cs.outlineStyle, cs.outlineWidth, cs.outlineColor, cs.boxShadow, cs.borderColor, cs.backgroundColor, cs.color, cs.textDecorationLine].join('|');
+      };
+      // A real indicator changes something when the element gains focus.
+      const focused = snap();
+      el.blur();
+      const unfocused = snap();
+      el.focus();
+      const outline = focused !== unfocused;
+      const ring = false;
+      const label = (el.getAttribute('aria-label') || el.textContent || el.tagName).trim().slice(0, 40);
+      return { visible: outline || ring, label, tag: el.tagName };
+    });
+    if (info && !info.visible) missing.push(`${info.tag} "${info.label}"`);
+  }
+  expect(missing).toEqual([]);
+});
