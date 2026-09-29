@@ -163,6 +163,7 @@ export function GlobalSearchModal({ isOpen, onClose, initialQuery = '' }: Props)
   );
   const [chaptersReady, setChaptersReady] = useState(isChapterIndexLoaded);
   const inputRef = useRef<HTMLInputElement>(null);
+  const windowRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (!isOpen || chaptersReady) return;
@@ -181,6 +182,7 @@ export function GlobalSearchModal({ isOpen, onClose, initialQuery = '' }: Props)
     setQuery(initialQuery);
     setCategory(null);
     setSelectedIndex(0);
+    inputRef.current?.focus();
     const t = setTimeout(() => {
       const input = inputRef.current;
       if (!input) return;
@@ -284,6 +286,52 @@ export function GlobalSearchModal({ isOpen, onClose, initialQuery = '' }: Props)
     onClose();
   };
 
+  // Escape and the Tab trap must work even before the input has focus (focus may
+  // still be on the page behind the modal), so they listen on the document.
+  useEffect(() => {
+    if (!isOpen) return;
+    const onDocKey = (e: KeyboardEvent) => {
+      const win = windowRef.current;
+      if (!win) return;
+      if (e.key === 'Escape') {
+        e.preventDefault();
+        onClose();
+        return;
+      }
+      if (e.key !== 'Tab') return;
+      // aria-modal promises the page behind is inert: keep Tab inside the window.
+      const focusable = Array.from(
+        win.querySelectorAll<HTMLElement>(
+          'a[href], button:not([disabled]), input:not([disabled]), [tabindex]:not([tabindex="-1"])',
+        ),
+      ).filter((el) => el.offsetParent !== null);
+      if (focusable.length === 0) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      const active = document.activeElement;
+      const outside = !win.contains(active);
+      if (e.shiftKey && (active === first || outside)) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && (active === last || outside)) {
+        e.preventDefault();
+        first.focus();
+      }
+    };
+    // Catch-all for tab stops the query above cannot know about (scrollable
+    // regions, browser UI hand-off): if focus lands outside, pull it back in.
+    const onFocusIn = (e: FocusEvent) => {
+      const win = windowRef.current;
+      if (win && e.target instanceof Node && !win.contains(e.target)) inputRef.current?.focus();
+    };
+    document.addEventListener('keydown', onDocKey);
+    document.addEventListener('focusin', onFocusIn);
+    return () => {
+      document.removeEventListener('keydown', onDocKey);
+      document.removeEventListener('focusin', onFocusIn);
+    };
+  }, [isOpen, onClose]);
+
   const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === 'ArrowDown') {
       e.preventDefault();
@@ -297,9 +345,6 @@ export function GlobalSearchModal({ isOpen, onClose, initialQuery = '' }: Props)
         e.preventDefault();
         openItem(target);
       }
-    } else if (e.key === 'Escape') {
-      e.preventDefault();
-      onClose();
     }
   };
 
@@ -340,6 +385,7 @@ export function GlobalSearchModal({ isOpen, onClose, initialQuery = '' }: Props)
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.96, y: -8 }}
             transition={{ duration: reduce ? 0 : 0.18 }}
+            ref={windowRef}
             className="relative z-10 flex w-full max-w-2xl flex-col overflow-hidden rounded-2xl border border-dharma-border/80 bg-dharma-card shadow-2xl"
             onKeyDown={handleKeyDown}
           >
