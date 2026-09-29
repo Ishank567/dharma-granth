@@ -325,7 +325,7 @@ export function ScriptureLibraryClient({
             >
               {categoryIcons[category.id]}
               {category.label}
-              <span className="text-xs opacity-70">{category.total}</span>
+              <span className="text-xs">{category.total}</span>
             </button>
           ))}
         </div>

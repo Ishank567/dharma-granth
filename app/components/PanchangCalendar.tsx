@@ -645,7 +645,7 @@ export function PanchangCalendar() {
                           <span className="mt-1 block text-lg font-bold">
                             {day.getDate()}
                           </span>
-                          <span className="mt-1 block truncate text-[10px] font-semibold opacity-80">
+                          <span className="mt-1 block truncate text-[10px] font-semibold">
                             T{dayPanchang.tithiNumber}
                           </span>
                         </motion.button>

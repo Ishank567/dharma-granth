@@ -867,10 +867,10 @@
         @apply mb-5 flex flex-wrap items-center gap-x-3 gap-y-3;
     }
     .vt-medal {
-        @apply flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-saffron-500/15 font-devanagari text-sm font-bold text-saffron-700;
+        @apply flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-saffron-500/15 font-devanagari text-sm font-bold text-saffron-800;
     }
     .vt-ch {
-        @apply text-[11px] font-semibold text-saffron-700/80;
+        @apply text-[11px] font-semibold text-saffron-700;
     }
     .vt-title {
         @apply font-serif text-base font-bold text-dharma-text;
@@ -895,7 +895,7 @@
         @apply block px-2.5 py-1;
     }
     .vt-sa > .vt-num {
-        @apply mt-2 font-bold text-saffron-700;
+        @apply mt-2 font-bold text-saffron-800;
     }
     .vt-tr {
         @apply mx-auto mt-4 max-w-2xl whitespace-pre-line border-t border-amber-700/15 pt-4 text-sm italic leading-relaxed text-dharma-muted md:text-[15px];
