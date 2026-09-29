@@ -237,10 +237,9 @@ Future re-seeds via `npm run seed:missing` inherit this automatically.
 
 ## P4 — Chapters with mixed verse numbering (needs a human decision)
 
-`node scripts/fix-verse-order.mjs` re-sorts verses only where every number has one shape. These 18 chapters mix schemes (e.g. `1`, `1.2`) or step back across sections, so they are reported, not changed. Ramayana ch1-7 and Manusmriti ch1 look like curated selections; **shivpurana ch9/ch10 (2,636 and 1,248 out of order) and atharvaveda ch20 (471) are large enough to be a source/parser bug** and are the ones worth investigating first.
+`node scripts/fix-verse-order.mjs` re-sorts verses only where every number has one shape. These 18 chapters mix schemes (e.g. `1`, `1.2`) or step back across sections, so they are reported, not changed. Ramayana ch1-7 and Manusmriti ch1 look like curated selections; Shivpurana ch9/ch10 and atharvaveda ch20 were plain text-order sorts with a few odd numbers; fixed on 2026-09-29 via the FORCE_MIXED allowlist in the script. The rest need a human decision.
 
 ```
-  atharvaveda.json ch20: mixed numbering (2/1), 471 out of order — left as is
   bhagavatapurana.json ch1: mixed numbering (2/1), 6 out of order — left as is
   brahmasutra.json ch1: mixed numbering (1/3), 4 out of order — left as is
   devibhagavat.json ch7: mixed numbering (1/2), 2 out of order — left as is
@@ -256,6 +255,4 @@ Future re-seeds via `npm run seed:missing` inherit this automatically.
   ramayana.json ch7: mixed numbering (1/2), 12 out of order — left as is
   shivpurana.json ch1: mixed numbering (2/1), 3 out of order — left as is
   shivpurana.json ch6: mixed numbering (2/1), 3 out of order — left as is
-  shivpurana.json ch9: mixed numbering (2/4), 2636 out of order — left as is
-  shivpurana.json ch10: mixed numbering (2/4), 1248 out of order — left as is
 ```

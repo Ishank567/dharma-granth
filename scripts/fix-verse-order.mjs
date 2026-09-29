@@ -11,6 +11,11 @@ import fs from 'node:fs';
 const BASE = 'public/data/scriptures-full';
 const WRITE = process.argv.includes('--write');
 
+// Chapters that mix a few odd numbers ('3', '23.6.23.10') into dotted text-order
+// numbering; inspected by hand, they are plain text-sorted and safe to fix. The
+// cross-section check below still applies.
+const FORCE_MIXED = new Set(['atharvaveda.json:20', 'shivpurana.json:9', 'shivpurana.json:10']);
+
 const parts = (n) => String(n).split('.');
 const shape = (n) => {
   const p = parts(n);
@@ -50,7 +55,7 @@ for (const file of fs.readdirSync(BASE).filter((f) => f.endsWith('.json'))) {
     const moved = verses.filter((v, i) => v !== sorted[i]).length;
     if (moved === 0) continue;
     const shapes = new Set(verses.map((v) => shape(v.number)));
-    if (shapes.size !== 1 || shapes.has(-1)) {
+    if ((shapes.size !== 1 || shapes.has(-1)) && !FORCE_MIXED.has(`${file}:${chapter.number}`)) {
       skipped.push(`${file} ch${chapter.number}: mixed numbering (${[...shapes].join('/')}), ${moved} out of order — left as is`);
       continue;
     }
