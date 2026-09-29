@@ -102,3 +102,18 @@ test('a11y: desktop discovery menu', async ({ page }) => {
   await expect(page.locator('#desktop-discovery-menu')).toBeVisible();
   await audit(page, 'desktop discovery menu');
 });
+
+/** WCAG 2.2 AA: touch targets on a phone-sized screen. */
+for (const path of ['/', '/scriptures/', '/scripture/bhagavadgita/', '/scripture/bhagavadgita/chapter/2/', '/dashboard/']) {
+  test(`a11y [mobile target size]: ${path}`, async ({ page }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.emulateMedia({ reducedMotion: 'reduce' });
+    await page.goto(path);
+    await page.waitForLoadState('networkidle');
+    await page.waitForTimeout(1200);
+    const { violations } = await new AxeBuilder({ page }).withRules(['target-size']).analyze();
+    expect(
+      violations.map((v) => `${v.id}: ${v.nodes.slice(0, 3).map((n) => n.target.join(' ')).join(' | ')}`),
+    ).toEqual([]);
+  });
+}
