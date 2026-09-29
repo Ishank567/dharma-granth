@@ -36,7 +36,7 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tessera
 
 Once installed, run:
 ```powershell
-python extract-pdf-ocr.py
+python scripts/legacy/extract-pdf-ocr.py
 ```
 
 This will attempt OCR on the PDF to extract text.
