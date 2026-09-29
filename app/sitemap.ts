@@ -3,6 +3,7 @@ import { getAllScriptures, getScriptureChapters } from '@/data/scriptures';
 import { readSeededChapterNumbers } from '@/lib/read-seeded-chapters';
 import { lastChanged, scriptureLastChanged } from '@/lib/content-dates';
 import { verseStaticParams } from '@/lib/verse-pages';
+import { chapterPartHref, chapterParts } from '@/lib/chapter-parts';
 import { topics } from '@/data/topics';
 import { characters } from '@/data/characters';
 import { dictionary } from '@/data/dictionary';
@@ -78,6 +79,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const ch of getScriptureChapters(meta.id)) chapterSet.add(ch.id);
     for (const chId of Array.from(chapterSet).sort((a, b) => a - b)) {
       chapterRoutes.push(entry(`/scripture/${meta.id}/chapter/${chId}`, date, 'monthly', 0.75));
+      // Parts 2…N of chapters too large for one page (lib/chapter-parts).
+      for (const part of chapterParts(meta.id, chId)?.slice(1) ?? []) {
+        chapterRoutes.push(entry(chapterPartHref(meta.id, chId, part.part), date, 'monthly', 0.6));
+      }
     }
   }
 

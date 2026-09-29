@@ -338,6 +338,47 @@ function checkGitaCanonical(data: FullScriptureJson): void {
   }
 }
 
+/**
+ * Verses stored in text order (73.1, 73.10, 73.11, 73.2 …) — how some seeds
+ * sorted "section.verse" numbers. Fixed by scripts/fix-verse-order.mjs; this
+ * keeps a re-seed from bringing it back. Same rule as that script: only
+ * chapters with one numbering shape whose backward steps stay in a section.
+ */
+function checkVerseOrder(id: string, data: FullScriptureJson): void {
+  const parts = (n: number | string) => String(n).split('.');
+  const shape = (n: number | string) => {
+    const p = parts(n);
+    return p.every((x, i) => (i === p.length - 1 ? /^\d+(-\d+)?$/ : /^\d+$/).test(x)) ? p.length : -1;
+  };
+  const key = (n: number | string) => parts(n).map((x) => Number.parseInt(x, 10));
+  const before = (a: number | string, b: number | string) => {
+    const x = key(a);
+    const y = key(b);
+    for (let i = 0; i < x.length; i++) if (x[i] !== y[i]) return x[i] < y[i];
+    return false;
+  };
+  const bad: string[] = [];
+  for (const chapter of data.chapters) {
+    const nums = chapter.verses.map((v) => v.number);
+    const shapes = new Set(nums.map(shape));
+    if (shapes.size !== 1 || shapes.has(-1)) continue;
+    let textSorted = false;
+    let crossSection = false;
+    for (let i = 1; i < nums.length; i++) {
+      if (!before(nums[i], nums[i - 1])) continue;
+      if (key(nums[i])[0] === key(nums[i - 1])[0]) textSorted = true;
+      else crossSection = true;
+    }
+    if (textSorted && !crossSection) bad.push(String(chapter.number));
+  }
+  if (bad.length > 0) {
+    error(
+      id,
+      `chapter(s) ${bad.join(', ')} list verses in text order (x.10 before x.2) — run node scripts/fix-verse-order.mjs --write`,
+    );
+  }
+}
+
 function checkSeededJsonAlignment(): void {
   for (const meta of scriptureCatalog) {
     const path = resolve(FULL_DIR, `${meta.id}.json`);
@@ -352,6 +393,7 @@ function checkSeededJsonAlignment(): void {
     }
 
     checkDuplicateVerses(meta.id, data);
+    checkVerseOrder(meta.id, data);
     if (meta.id === "bhagavadgita") checkGitaCanonical(data);
 
     const curated = getScripture(meta.id);

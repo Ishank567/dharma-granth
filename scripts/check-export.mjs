@@ -154,6 +154,7 @@ if (!(pageHtml('/scripture/bhagavadgita/chapter/2/') ?? '').includes('कर्�
 // a stale or missing verse would show up as a count mismatch here.)
 let chaptersChecked = 0;
 let inlined = 0;
+let splitChapters = 0;
 for (const file of readdirSync(SOURCE).filter((f) => f.endsWith('.json'))) {
   const id = file.replace(/\.json$/, '');
   let source;
@@ -173,7 +174,18 @@ for (const file of readdirSync(SOURCE).filter((f) => f.endsWith('.json'))) {
     }
     const want = chapter.verses?.length ?? 0;
     const html = readFileSync(pagePath, 'utf8');
-    const got = new Set(html.match(/<article[^>]*\bid="verse-[^"]+"/g) ?? []).size;
+    const cards = (h) => new Set(h.match(/<article[^>]*\bid="verse-[^"]+"/g) ?? []).size;
+    let got = cards(html);
+    // Chapters split into parts (lib/chapter-parts): part 1 is the chapter
+    // page, the rest live at part/{n}/; together they carry every verse.
+    const partsDir = join(DIST, 'scripture', id, 'chapter', String(chapter.number), 'part');
+    if (existsSync(partsDir)) {
+      for (const p of readdirSync(partsDir)) {
+        const partPage = join(partsDir, p, 'index.html');
+        if (existsSync(partPage)) got += cards(readFileSync(partPage, 'utf8'));
+      }
+      splitChapters++;
+    }
     if (want > 0 && got === want) {
       inlined++;
     } else if (want > 0 && got > 0) {
@@ -206,6 +218,6 @@ if (errors.length > 0) {
   process.exit(1);
 }
 console.log(
-  `✓ Export check passed: ${KEY_PAGES.length} key pages visible; ${inlined}/${chaptersChecked} chapter pages ` +
-    `carry all their verses in HTML, the rest load a matching shard; ${verseScripts}.`,
+  `✓ Export check passed: ${KEY_PAGES.length} key pages visible; ${inlined}/${chaptersChecked} chapters ` +
+    `carry all their verses in HTML (${splitChapters} split into parts), the rest load a matching shard; ${verseScripts}.`,
 );
