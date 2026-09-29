@@ -99,7 +99,7 @@ export function DictionaryClient() {
                 }`}
               >
                 <span>{cat.label}</span>
-                <span lang="sa" className="font-devanagari opacity-80 text-[11px]">
+                <span lang="sa" className="font-devanagari text-[11px]">
                   ({cat.sanskrit})
                 </span>
                 <span className="text-[10px] opacity-75">{count}</span>

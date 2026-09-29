@@ -91,7 +91,7 @@ function TopicCard({ topic }: { topic: Topic }) {
           {topic.icon}
         </div>
         {topic.sanskrit && (
-          <p lang="sa" className="font-devanagari text-lg text-saffron-600 opacity-80">
+          <p lang="sa" className="font-devanagari text-lg text-saffron-600">
             {topic.sanskrit}
           </p>
         )}
