@@ -9,7 +9,8 @@
 //   • chapters without an exported page (deep links would 404);
 //   • course content rendered client-only (the pathways page shipped a spinner);
 //   • the splash screen leaking onto deep-link landing pages.
-import { existsSync, readFileSync, readdirSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs';
+import { gzipSync } from 'node:zlib';
 import { join, resolve } from 'node:path';
 
 const ROOT = resolve(process.cwd());
@@ -208,6 +209,42 @@ for (const file of readdirSync(SOURCE).filter((f) => f.endsWith('.json'))) {
   const mentions = gita2.split('कर्मण्येवाधिकारस्ते').length - 1;
   if (mentions < 1) {
     fail('/scripture/bhagavadgita/chapter/2/', 'Sanskrit of 2.47 is missing from the server HTML');
+  }
+}
+
+// ── Page-weight budgets (measured 2026-09-29: worst page 1.15 MB raw / 240 KB gz,
+// first-load JS 215–260 KB gz). Headroom is deliberate; a breach means a change
+// made pages meaningfully heavier and should be looked at, not waved through.
+const MAX_HTML_BYTES = 1.5 * 1024 * 1024;
+const MAX_FIRST_LOAD_JS_GZ = 320 * 1024;
+{
+  let worst = { size: 0, path: '' };
+  const walk = (dir) => {
+    for (const name of readdirSync(dir)) {
+      const p = join(dir, name);
+      const st = statSync(p);
+      if (st.isDirectory()) {
+        if (!['_next', 'og', 'pinterest', 'data'].includes(name)) walk(p);
+      } else if (name === 'index.html' && st.size > worst.size) {
+        worst = { size: st.size, path: p };
+      }
+    }
+  };
+  walk(DIST);
+  if (worst.size > MAX_HTML_BYTES) {
+    fail('weight', `${worst.path} is ${Math.round(worst.size / 1024)} KB (budget ${MAX_HTML_BYTES / 1024} KB)`);
+  }
+  for (const path of ['/', '/scripture/bhagavadgita/chapter/2/', '/dashboard/']) {
+    const html = pageHtml(path) ?? '';
+    const files = new Set([...html.matchAll(/_next\/static\/[^"']+\.js/g)].map((m) => m[0]));
+    let gz = 0;
+    for (const f of files) {
+      const file = join(DIST, f);
+      if (existsSync(file)) gz += gzipSync(readFileSync(file)).length;
+    }
+    if (gz > MAX_FIRST_LOAD_JS_GZ) {
+      fail('weight', `${path} loads ${Math.round(gz / 1024)} KB gz of JS (budget ${MAX_FIRST_LOAD_JS_GZ / 1024} KB)`);
+    }
   }
 }
 
