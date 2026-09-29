@@ -4,14 +4,14 @@ _Audit of `public/data/scriptures-full/*.json` — the JSON the web and mobile
 apps read directly. 65 scriptures, 316,102 verses. Refresh the
 numbers with `python scripts/audit-data-quality.py`._
 
-## Status (updated 2026-06-23)
+## Status (re-measured 2026-09-29)
 
 | Item | State |
 |---|---|
 | **P0** — romanized → Devanagari | ✅ **Done** — `npm run migrate:devanagari` |
 | **P2** — header-artifact verses | ✅ **Done** — `tsx scripts/strip-header-artifacts.ts` |
-| **P1** — missing English translations | ✅ **Done** — 65/65 scriptures at 100% (`npx tsx scripts/_coverage-report.ts`) |
-| **P1b** — missing Hindi (bulk corpus) | ✅ **Done** — 65/65 scriptures at 100% (`npx tsx scripts/_hindi-coverage-report.ts`) |
+| **P1** — missing English translations | ⚠️ **Open** — 48/65 complete; worst: mahabharata (10%, 29k missing), agnipuran, naradapuran, brahmapuran (`npx tsx scripts/_coverage-report.ts`) |
+| **P1b** — missing Hindi (bulk corpus) | ⚠️ **Open** — 53/65 complete; worst: shivpurana, brahmapuran, brahmandpuran, skandapuran, manusmriti (35%), durgasaptashati (2%) (`npx tsx scripts/_hindi-coverage-report.ts`) |
 | **P3** — durgasaptashati misalignment | ✅ **Done** — structural `chapter.id` + `verse.id` merge (16/16 aligned) |
 | **P2b** — mangled mixed-script headers | ✅ **Done** — parser fix + `fix-mixed-script-verses.ts` (0 mixed-script verses remain) |
 
