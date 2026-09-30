@@ -225,8 +225,11 @@ export function mergeCuratedChapters(id: string, seeded: FullChapter[]): FullCha
     };
   });
 
+  // Curated-only chapters are appended ONLY when the source produced no chapters at all (no source
+  // text available, so the curated highlights are all there is). Appending them to a real seed pads
+  // the text with hand-authored extras that are not in it — that is how invented verses got in.
   for (const cc of curated.chapters) {
-    if (!seededNumbers.has(cc.id)) {
+    if (seeded.length === 0 && !seededNumbers.has(cc.id)) {
       finalChapters.push({
         number: cc.id,
         title: cc.title,

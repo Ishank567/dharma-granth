@@ -199,7 +199,7 @@ const PURANAS: PuranaConfig[] = [
   {
     id: "bhagavatapurana",
     title: "Bhagavata Purana",
-    titleSanskrit: "श्रीमद्भागवतम्",
+    titleSanskrit: "श्रीमद्भागवतपुराण",
     groupingMode: "book",
     parts: [
       { basename: "bhagpur-01", label: "Skandha 1 — Creation and First Steps" },
@@ -220,7 +220,7 @@ const PURANAS: PuranaConfig[] = [
   {
     id: "devibhagavat",
     title: "Devi Bhagavata Purana",
-    titleSanskrit: "देवीभागवतम्",
+    titleSanskrit: "देवीभागवतपुराण",
     groupingMode: "book",
     parts: Array.from({ length: 12 }, (_, i) => ({
       basename: `devIbhAgavatam${String(i + 1).padStart(2, "0")}`,
@@ -230,14 +230,14 @@ const PURANAS: PuranaConfig[] = [
   {
     id: "garudpurana",
     title: "Garuda Purana",
-    titleSanskrit: "गरुडपुराणम्",
+    titleSanskrit: "गरुडपुराण",
     groupingMode: "adhyaya",
     parts: [{ basename: "garuDapurANa" }],
   },
   {
     id: "shivpurana",
     title: "Shiva Purana",
-    titleSanskrit: "शिवपुराणम्",
+    titleSanskrit: "शिवपुराण",
     groupingMode: "book",
     parts: [
       { basename: "shivapurANam1vidyeshvarasaMhitA", label: "Vidyeshvara Samhita" },

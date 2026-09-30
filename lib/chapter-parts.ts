@@ -20,6 +20,12 @@ import { readSeededChapter } from '@/lib/read-seeded-chapters';
  * (at 1 MB, chapters just under the line made 2.5 MB pages).
  */
 export const INLINE_CHAPTER_MAX_BYTES = 450 * 1024;
+/**
+ * Short verses render far heavier than their JSON (each carries the same card markup), so a chapter of
+ * more than this many verses is split even when its data is small (Sama Veda's Uttarārcika: 404 KB of
+ * data, 1,223 mantras, a 1.5 MB page).
+ */
+export const INLINE_CHAPTER_MAX_VERSES = 1000;
 /** Target verse data per part (~350 KB JSON ≈ 600 KB of page HTML). */
 const PART_MAX_BYTES = 350 * 1024;
 
@@ -56,7 +62,7 @@ export function chapterParts(scriptureId: string, chapterId: number): ChapterPar
   const verses = (seeded?.chapter.verses ?? []) as Verse[];
   const sizes = verses.map(verseBytes);
   const total = sizes.reduce((sum, n) => sum + n, 0);
-  if (verses.length === 0 || total <= INLINE_CHAPTER_MAX_BYTES) {
+  if (verses.length === 0 || (total <= INLINE_CHAPTER_MAX_BYTES && verses.length <= INLINE_CHAPTER_MAX_VERSES)) {
     cache.set(cacheKey, null);
     return null;
   }

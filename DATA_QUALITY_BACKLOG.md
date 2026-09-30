@@ -1,10 +1,19 @@
 # Data Quality Backlog — `scriptures-full`
 
 _Audit of `public/data/scriptures-full/*.json` — the JSON the web and mobile
-apps read directly. 65 scriptures, 316,102 verses. Refresh the
-numbers with `python scripts/audit-data-quality.py`._
+apps read directly. 66 scriptures, 187,395 verses (re-counted 2026-09-30;
+the older 316,102 figure was not a count of these files). Coverage:
+`npx tsx scripts/_coverage-report.ts` and `scripts/_hindi-coverage-report.ts`._
 
-## Status (re-measured 2026-09-29)
+## Status (re-measured 2026-09-30)
+
+| Item | State |
+|---|---|
+| **P4** — invented "filler" verses in ~40 scriptures | ✅ **Done** — removed from JSON, curated `.ts` and Hindi commentary; `scripts/check-filler.ts` (part of `npm run check`) blocks them and caps principal-Upanishad counts; the curated merge no longer appends curated-only chapters to a real seed |
+| **P5** — Upanishads rebuilt from source | ✅ **Done** for Kaivalya, Jabala, Shvetashvatara (113), Tejobindu, Niralamba, Maitri, Mahanarayana, Muktika (`scripts/rebuild-upanishads.ts`); Brahma Sutra, Vivekachudamani, Samaveda re-seeded in full. **Open:** Taittiriya (accented source), Kaushitaki, Amritabindu (no source found) |
+| **P6** — newly rebuilt texts have no translation/Hindi | ⚠️ **Open** — tejobindu, mahanarayana, maitri, muktika, samaveda, brahmasutra, vivekchudamani, shvetashvatara |
+
+Earlier status (2026-09-29), kept for the items below:
 
 | Item | State |
 |---|---|

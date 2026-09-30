@@ -24,6 +24,7 @@
  *
  * Run: npm run seed:missing
  */
+import Sanscript from "@indic-transliteration/sanscript";
 import {
   FullChapter,
   FullScripture,
@@ -315,7 +316,7 @@ async function seedVishnuPurana(): Promise<FullScripture> {
   return {
     id: "vishnupurana",
     title: "Vishnu Purana",
-    titleSanskrit: "विष्णुपुराणम्",
+    titleSanskrit: "विष्णुपुराण",
     category: "purana",
     source: {
       repo: "https://sanskritdocuments.org/doc_purana/",
@@ -341,7 +342,7 @@ async function seedMarkandeyaPurana(): Promise<FullScripture> {
   return {
     id: "markandeypuran",
     title: "Markandeya Purana",
-    titleSanskrit: "मार्कण्डेयपुराणम्",
+    titleSanskrit: "मार्कण्डेयपुराण",
     category: "purana",
     source: {
       repo: "https://sanskritdocuments.org/doc_purana/mArkaNDeyapurANam.itx",
@@ -361,7 +362,7 @@ async function seedAgniPurana(): Promise<FullScripture> {
   return {
     id: "agnipuran",
     title: "Agni Purana",
-    titleSanskrit: "अग्निपुराणम्",
+    titleSanskrit: "अग्निपुराण",
     category: "purana",
     source: {
       repo: "https://sanskritdocuments.org/doc_purana/",
@@ -497,7 +498,7 @@ async function seedVivekachudamani(): Promise<FullScripture> {
   return {
     id: "vivekchudamani",
     title: "Vivekachudamani",
-    titleSanskrit: "विवेकचूडामणिः",
+    titleSanskrit: "विवेकचूडामणि",
     category: "other",
     source: {
       repo: "https://sanskritdocuments.org/doc_vedanta/vivekachUDAmaNi.itx",
@@ -555,7 +556,7 @@ async function seedBrahmasutra(): Promise<FullScripture> {
   return {
     id: "brahmasutra",
     title: "Brahma Sutra",
-    titleSanskrit: "ब्रह्मसूत्रम्",
+    titleSanskrit: "ब्रह्मसूत्र",
     category: "other",
     source: {
       repo: "https://sanskritdocuments.org/doc_vedanta/brahmasUtra.itx",
@@ -617,7 +618,7 @@ async function seedManusmriti(): Promise<FullScripture> {
   return {
     id: "manusmriti",
     title: "Manusmriti",
-    titleSanskrit: "मनुस्मृतिः",
+    titleSanskrit: "मनुस्मृति",
     category: "smriti",
     source: {
       repo: "https://sanskritdocuments.org/doc_dharma/manusmRRiti.itx",
@@ -701,7 +702,7 @@ async function seedSamaveda(): Promise<FullScripture> {
   return {
     id: "samaveda",
     title: "Sama Veda",
-    titleSanskrit: "सामवेदः",
+    titleSanskrit: "सामवेद",
     category: "veda",
     source: {
       repo: url,
@@ -799,7 +800,7 @@ async function seedYogaVasishtha(): Promise<FullScripture> {
   return {
     id: "yogavasishtha",
     title: "Yoga Vasishtha",
-    titleSanskrit: "योगवासिष्ठः",
+    titleSanskrit: "योगवासिष्ठ",
     category: "other",
     source: {
       repo: `${SD}/doc_yoga/yogavAsiShTha01.itx (parts 01–${String(partsFetched).padStart(2,"0")})`,
@@ -863,6 +864,114 @@ async function seedMahanarayana(): Promise<FullScripture> {
     `${SD}/doc_upanishhat/mahAnArAyaNa.itx`,
     `${SD}/doc_upanishhat/mahanarayana.itx`,
   ]);
+}
+
+/**
+ * maha.itx marks verses `... .. 12..` (double danda + number) and each chapter
+ * with a footer `iti … adhyAyaH .. N..`, unlike the `|| N ||` form the shared
+ * parser expects. Chapter 1 and the tail of chapter 6 are prose without verse
+ * numbers; those are split at the double danda that ends each passage and
+ * numbered in sequence. Chapter 4 has no verse 9 in the source (the numbering
+ * jumps 8 → 10 with nothing lost), so that gap is genuine.
+ */
+function parseMahaUpanishad(body: string): { chapters: FullChapter[]; totalVerses: number } {
+  const text = body.replace(/\\-\s*\n\s*/g, "");
+  const footer = /dhyAyaH\s*\.\.\s*\d+\s*\.\./g;
+  const parts: string[] = [];
+  let last = 0;
+  let m: RegExpExecArray | null;
+  while ((m = footer.exec(text)) !== null) {
+    parts.push(text.slice(last, m.index));
+    last = m.index + m[0].length;
+  }
+  const toVerse = (number: number, itx: string): FullVerse | null => {
+    // Drop the trailing "iti mahopaniShat.h ." / "iti" stub the footer leaves behind.
+    const clean = itx.replace(/\s*\biti(?:\s+\S+)?\s*\.?\s*$/, "").trim();
+    if (clean.length === 0) return null;
+    const sanskrit = itxToDevanagari(clean);
+    return {
+      number,
+      sanskrit,
+      // IAST like the other Upanishads (not raw ITRANS with `.n` / `.h`).
+      transliteration: Sanscript.t(sanskrit, "devanagari", "iast").replace(/।/g, "|"),
+    };
+  };
+  // Prose passages have no verse numbers; break long ones at sentence ends
+  // (" . ") into chunks of roughly MIN_CHUNK characters or more.
+  const MIN_CHUNK = 220;
+  const MAX_PASSAGE = 400;
+  const splitPassages = (segment: string): string[] => {
+    const passages = segment.split(/\s*\.\.(?=\s|$)/).map((s) => s.trim()).filter(Boolean);
+    return passages.flatMap((p) => {
+      if (p.length <= MAX_PASSAGE) return [p];
+      const chunks: string[] = [];
+      let cur = "";
+      for (const sentence of p.split(/\s\.(?=\s)/)) {
+        cur = cur ? `${cur} . ${sentence.trim()}` : sentence.trim();
+        if (cur.length >= MIN_CHUNK) {
+          chunks.push(cur);
+          cur = "";
+        }
+      }
+      if (cur) chunks.push(cur);
+      return chunks;
+    });
+  };
+
+  const chapters: FullChapter[] = [];
+  let totalVerses = 0;
+  parts.forEach((partBody, i) => {
+    const verses: FullVerse[] = [];
+    const marker = /\.\.\s*(\d+)\s*\.\./g;
+    let from = 0;
+    let vm: RegExpExecArray | null;
+    const numbered = partBody.search(marker) >= 0;
+    if (numbered) {
+      let lastNumber = 0;
+      while ((vm = marker.exec(partBody)) !== null) {
+        const v = toVerse(Number(vm[1]), partBody.slice(from, vm.index));
+        if (v) verses.push(v);
+        lastNumber = Number(vm[1]);
+        from = vm.index + vm[0].length;
+      }
+      // Prose after the last numbered verse (the closing phalashruti of ch. 6).
+      splitPassages(partBody.slice(from)).forEach((t, k) => {
+        const v = toVerse(lastNumber + 1 + k, t);
+        if (v) verses.push(v);
+      });
+    } else {
+      splitPassages(partBody).forEach((t, k) => {
+        const v = toVerse(k + 1, t);
+        if (v) verses.push(v);
+      });
+    }
+    if (verses.length === 0) return;
+    chapters.push({ number: i + 1, title: `Adhyāya ${i + 1}`, verses });
+    totalVerses += verses.length;
+  });
+  return { chapters, totalVerses };
+}
+
+async function seedMahaUpanishad(): Promise<FullScripture> {
+  log("Fetching Maha Upanishad...");
+  const url = `${SD}/doc_upanishhat/maha.itx`;
+  const body = cleanItx(await fetchText(url));
+  const { chapters, totalVerses } = parseMahaUpanishad(body);
+  log(`  ${chapters.length} chapters · ${totalVerses} verses`);
+  return {
+    id: "mahaupanishad",
+    title: "Maha Upanishad",
+    titleSanskrit: "महोपनिषद्",
+    category: "upanishad",
+    source: {
+      repo: url,
+      license: "Sanskrit mūla — public domain. Digitized by sanskritdocuments.org.",
+      fetchedAt: new Date().toISOString(),
+    },
+    totalVerses,
+    totalChapters: chapters.length,
+    chapters,
+  };
 }
 
 async function seedKaivalya(): Promise<FullScripture> {
@@ -1213,7 +1322,7 @@ async function seedKalkiPurana(): Promise<FullScripture> {
       return {
         id: "kalkipuran",
         title: "Kalki Purana",
-        titleSanskrit: "कल्किपुराणम्",
+        titleSanskrit: "कल्किपुराण",
         category: "purana",
         source: {
           repo: url,
@@ -1232,7 +1341,7 @@ async function seedKalkiPurana(): Promise<FullScripture> {
   return {
     id: "kalkipuran",
     title: "Kalki Purana",
-    titleSanskrit: "कल्किपुराणम्",
+    titleSanskrit: "कल्किपुराण",
     category: "purana",
     source: {
       repo: "https://sanskritdocuments.org/doc_purana/",
@@ -1299,7 +1408,7 @@ async function seedHarivanshPurana(): Promise<FullScripture> {
   return {
     id: "harivanshpuran",
     title: "Harivamsha Purana",
-    titleSanskrit: "हरिवंशपुराणम्",
+    titleSanskrit: "हरिवंशपुराण",
     category: "purana",
     source: {
       repo: "https://sanskritdocuments.org/doc_mahabharata/ (harivaMsha1-3.itx)",
@@ -1571,6 +1680,7 @@ const SEEDERS: Array<{ name: string; fn: () => Promise<FullScripture> }> = [
   { name: "kaushitaki", fn: seedKaushitaki },
   { name: "maitri", fn: seedMaitri },
   { name: "mahanarayana", fn: seedMahanarayana },
+  { name: "mahaupanishad", fn: seedMahaUpanishad },
   { name: "kaivalya", fn: seedKaivalya },
   { name: "amritabindu", fn: seedAmritabindu },
   { name: "tejobindu", fn: seedTejobindu },

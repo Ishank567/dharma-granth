@@ -277,23 +277,23 @@ async function seedFromGretil(config: GretilConfig): Promise<FullScripture> {
 }
 
 const CONFIGS: GretilConfig[] = [
-  { id: "vishnupurana", title: "Vishnu Purana", titleSanskrit: "विष्णुपुराणम्", category: "purana", filename: "sa_viSNupurANa-crit.txt", abbrev: "ViP" },
-  { id: "agnipuran", title: "Agni Purana", titleSanskrit: "अग्निपुराणम्", category: "purana", filename: "sa_agnipurANa.txt", abbrev: "AgnP" },
-  { id: "brahmandpuran", title: "Brahmanda Purana", titleSanskrit: "ब्रह्माण्डपुराणम्", category: "purana", filename: "sa_brahmANDapurANa.txt", abbrev: "BrāhP" },
-  { id: "brahmapuran", title: "Brahma Purana", titleSanskrit: "ब्रह्मपुराणम्", category: "purana", filename: "sa_brahmapurANa-1-246.txt", abbrev: "BrahmP" },
-  { id: "garudpurana", title: "Garuda Purana", titleSanskrit: "गरुडपुराणम्", category: "purana", filename: "sa_garuDapurANa.txt", abbrev: "GarP" },
-  { id: "harivanshpuran", title: "Harivamsha Purana", titleSanskrit: "हरिवंशपुराणम्", category: "purana", filename: "sa_harivaMza.txt", abbrev: "HV" },
-  { id: "kurmapuran", title: "Kurma Purana", titleSanskrit: "कूर्मपुराणम्", category: "purana", filename: "sa_kUrmapurANa.txt", abbrev: "KurP" },
-  { id: "lingapuran", title: "Linga Purana", titleSanskrit: "लिङ्गपुराणम्", category: "purana", filename: "sa_liGgapurANa1-108.txt", abbrev: "LiṅP" },
-  { id: "markandeypuran", title: "Markandeya Purana", titleSanskrit: "मार्कण्डेयपुराणम्", category: "purana", filename: "sa_mArkaNDeyapurANa1-93.txt", abbrev: "MārkP" },
-  { id: "matsyapuran", title: "Matsya Purana", titleSanskrit: "मत्स्यपुराणम्", category: "purana", filename: "sa_matsyapurANa1-176.txt", abbrev: "MatsP" },
-  { id: "naradapuran", title: "Narada Purana", titleSanskrit: "नारदपुराणम्", category: "purana", filename: "sa_nAradapurANa.txt", abbrev: "NāP" },
-  { id: "narasimhapuran", title: "Narasimha Purana", titleSanskrit: "नृसिंहपुराणम्", category: "purana", filename: "sa_narasiMhapurANa.txt", abbrev: "NārasP" },
-  { id: "skandapuran", title: "Skanda Purana", titleSanskrit: "स्कन्दपुराणम्", category: "purana", filename: "sa_skandapurANa-revAkhaNDa-rks.txt", abbrev: "rks" },
+  { id: "vishnupurana", title: "Vishnu Purana", titleSanskrit: "विष्णुपुराण", category: "purana", filename: "sa_viSNupurANa-crit.txt", abbrev: "ViP" },
+  { id: "agnipuran", title: "Agni Purana", titleSanskrit: "अग्निपुराण", category: "purana", filename: "sa_agnipurANa.txt", abbrev: "AgnP" },
+  { id: "brahmandpuran", title: "Brahmanda Purana", titleSanskrit: "ब्रह्माण्डपुराण", category: "purana", filename: "sa_brahmANDapurANa.txt", abbrev: "BrāhP" },
+  { id: "brahmapuran", title: "Brahma Purana", titleSanskrit: "ब्रह्मपुराण", category: "purana", filename: "sa_brahmapurANa-1-246.txt", abbrev: "BrahmP" },
+  { id: "garudpurana", title: "Garuda Purana", titleSanskrit: "गरुडपुराण", category: "purana", filename: "sa_garuDapurANa.txt", abbrev: "GarP" },
+  { id: "harivanshpuran", title: "Harivamsha Purana", titleSanskrit: "हरिवंशपुराण", category: "purana", filename: "sa_harivaMza.txt", abbrev: "HV" },
+  { id: "kurmapuran", title: "Kurma Purana", titleSanskrit: "कूर्मपुराण", category: "purana", filename: "sa_kUrmapurANa.txt", abbrev: "KurP" },
+  { id: "lingapuran", title: "Linga Purana", titleSanskrit: "लिङ्गपुराण", category: "purana", filename: "sa_liGgapurANa1-108.txt", abbrev: "LiṅP" },
+  { id: "markandeypuran", title: "Markandeya Purana", titleSanskrit: "मार्कण्डेयपुराण", category: "purana", filename: "sa_mArkaNDeyapurANa1-93.txt", abbrev: "MārkP" },
+  { id: "matsyapuran", title: "Matsya Purana", titleSanskrit: "मत्स्यपुराण", category: "purana", filename: "sa_matsyapurANa1-176.txt", abbrev: "MatsP" },
+  { id: "naradapuran", title: "Narada Purana", titleSanskrit: "नारदपुराण", category: "purana", filename: "sa_nAradapurANa.txt", abbrev: "NāP" },
+  { id: "narasimhapuran", title: "Narasimha Purana", titleSanskrit: "नृसिंहपुराण", category: "purana", filename: "sa_narasiMhapurANa.txt", abbrev: "NārasP" },
+  { id: "skandapuran", title: "Skanda Purana", titleSanskrit: "स्कन्दपुराण", category: "purana", filename: "sa_skandapurANa-revAkhaNDa-rks.txt", abbrev: "rks" },
   {
     id: "vamanpuran",
     title: "Vamana Purana",
-    titleSanskrit: "वामनपुराणम्",
+    titleSanskrit: "वामनपुराण",
     category: "purana",
     abbrev: "VāmP",
     urls: [
@@ -301,7 +301,7 @@ const CONFIGS: GretilConfig[] = [
       `${GRETIL_BASE}/sa_vAmanapurANasaromAhAtmya.txt`,
     ],
   },
-  { id: "vayupuran", title: "Vayu Purana", titleSanskrit: "वायुपुराणम्", category: "purana", filename: "sa_revAkhANDa-of-the-vAyupurANa-rkv.txt", abbrev: "VāyP" },
+  { id: "vayupuran", title: "Vayu Purana", titleSanskrit: "वायुपुराण", category: "purana", filename: "sa_revAkhANDa-of-the-vAyupurANa-rkv.txt", abbrev: "VāyP" },
 ];
 
 async function main(): Promise<void> {

@@ -49,8 +49,10 @@ function mergeCuratedChapters(id: string, seeded: FullChapter[]): FullChapter[] 
   const seededNumbers = new Set(seeded.map((c) => c.number));
   const finalChapters = [...seeded];
 
+  // Only when the source gave nothing: appending curated extras to a real seed pads it with
+  // invented verses (see scripts/check-filler.ts).
   for (const cc of curated.chapters) {
-    if (!seededNumbers.has(cc.id)) {
+    if (seeded.length === 0 && !seededNumbers.has(cc.id)) {
       finalChapters.push({
         number: cc.id,
         title: cc.title,
