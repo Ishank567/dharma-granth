@@ -146,7 +146,7 @@ function dotNumbered(footer: RegExp, opts: { dropInvocation?: boolean } = {}): B
   return (body) => {
     const text = body
       .replace(/\\-\s*\n\s*/g, "")
-      .split(/Encoded and proofread|Encoded by|Please send corrections/i)[0];
+      .split(/Encoded and proofread|Encoded by|Encoded NA|Please send corrections|\.\.\s*iti\s+sha~NkarAchArya/i)[0];
     const parts = text.split(new RegExp(footer.source, "gi"));
     const chapters: FullChapter[] = [];
     parts.forEach((part) => {
@@ -243,6 +243,13 @@ const TARGETS: Record<string, Target> = {
   kaivalya: { files: ["kaivalya.itx"], build: kaivalya, chapterUnit: "Khaṇḍa" },
   jabala: { files: ["jabala.itx"], build: flat, chapterUnit: "" },
   mahanarayana: { files: ["mahAnArAyaNa.itx", "mahanarayana.itx"], build: byAnuvaka, chapterUnit: "Anuvāka" },
+  // Not an Upanishad, but the same ".. N .." numbered-passage format; the original seeder missed the
+  // markers and kept only the first 580 lines (187 of 581 ślokas, each split into fragments).
+  vivekchudamani: {
+    files: ["https://sanskritdocuments.org/doc_z_misc_shankara/viveknew.itx"],
+    build: (body) => dotNumbered(/(?!)/)(body.replace(/##\s*var\s*##[^\n]*/g, " ")),
+    chapterUnit: "",
+  },
   niralamba: { files: ["nirAlamba.itx", "niralamba.itx"], build: dotNumbered(/(?!)/, { dropInvocation: true }), chapterUnit: "" },
   maitri: { files: ["maitrI.itx", "maitri.itx"], build: dotNumbered(/(?:iti\s+)?(?:\S+\s+)?prapAThakaH\s*\.\.|\.?\s*atha\s+prapAThaka\s*\d+\s*\./, { dropInvocation: true }), chapterUnit: "Prapāṭhaka" },
   muktika: { files: ["muktikA.itx", "muktika.itx"], build: dotNumbered(/iti\s+\S*dhyAyaH\s*\.\.\s*\d+\s*\.\.|iti\s+muktikopaniShatsamAptA\s*\.\./, { dropInvocation: true }), chapterUnit: "Adhyāya" },
@@ -386,10 +393,10 @@ async function main() {
   let raw = "";
   let used = "";
   for (const f of target.files) {
-    const r = await fetch(SD + f);
+    const r = await fetch(f.startsWith("http") ? f : SD + f);
     if (r.ok) {
       raw = await r.text();
-      used = SD + f;
+      used = f.startsWith("http") ? f : SD + f;
       break;
     }
   }
