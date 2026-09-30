@@ -8,7 +8,7 @@
     "license": "Sanskrit mūla — public domain. Digitized by sanskritdocuments.org.",
     "fetchedAt": "2026-06-03T13:44:16.318Z"
   },
-  "totalVerses": 44,
+  "totalVerses": 39,
   "totalChapters": 3,
   "chapters": [
     {
@@ -371,51 +371,6 @@
           "hindi": "\"किसी को आवास से मना मत कर\" — यह व्रत है। इसलिये किसी भी विधि से बहु-अन्न प्राप्त करो — उसे \"अराध्य अन्न\" कहते हैं। [विभिन्न मानुष-दैव संज्ञाएँ।] जो ऐसा जानता है — इस लोक से जाकर — अन्नमय, प्राणमय, मनोमय, विज्ञानमय, आनन्दमय आत्मा को क्रमशः पार करके — कामरूप होकर लोकों में विचरता है — यह साम गाता हुआ रहता है — \"हा³वु हा³वु हा³वु! मैं अन्न, मैं अन्न, मैं अन्न! मैं अन्न-भोक्ता, मैं अन्न-भोक्ता, मैं अन्न-भोक्ता! मैं श्लोक-कर्ता, मैं श्लोक-कर्ता, मैं श्लोक-कर्ता! मैं ऋत का प्रथमजा — देवों से पहले, अमृत-नाभि में। जो मुझे देता है — उसने मुझे ही पाया। मैं — अन्न — अन्न-भोक्ता को खाता हूँ। मैंने पूरे भुवन में प्रवेश किया है। मैं सुवर्ण-ज्योति हूँ।\" — जो ऐसा जानता है। यह उपनिषद् है।",
           "commentary": "The grand finale. Refuse no guest shelter — third great vow. Many correspondences enumerated (human and divine). The realized seeker, having passed through all five kośas, sings the great Sāman: 'I am food, I am the eater of food.' Identity-claim of the cosmic Self. The final 'iti upaniṣat' marks the close of the entire teaching.",
           "wordMeaning": "The grand finale. Refuse no guest shelter — third great vow. Many correspondences enumerated (human and divine). The realized seeker, having passed through all five kośas, sings the great Sāman: 'I am food, I am the eater of food.' Identity-claim of the cosmic Self. The final 'iti upaniṣat' marks the close of the entire teaching."
-        },
-        {
-          "number": 11,
-          "sanskrit": "योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो ब्रह्मसमाश्रयः ||",
-          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ brahmasamāśrayaḥ ||",
-          "translation": "Yoga is the cessation of mental modifications; yoga gives liberation. Yoga cuts all bonds; yoga rests on Brahman.",
-          "hindi": "योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग ब्रह्म पर आश्रित है।",
-          "commentary": "The definition of yoga from Yoga Sutras, placed in the context of Brahman. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Brahman.",
-          "wordMeaning": "The definition of yoga from Yoga Sutras, placed in the context of Brahman. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Brahman."
-        },
-        {
-          "number": 12,
-          "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं ब्रह्म एव सर्वं ब्रह्म मयि सर्वम् ||",
-          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ brahma eva sarvaṃ brahma mayi sarvam ||",
-          "translation": "I am Brahman, not you; I am birth, not beings; all is Brahman alone, all is Brahman in me.",
-          "hindi": "मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब ब्रह्म ही है, सब ब्रह्म मेरे में है।",
-          "commentary": "The declaration of non-duality with Brahman as the supreme. The individual Self is Brahman; the world is Brahman; all distinctions dissolve in this recognition.",
-          "wordMeaning": "The declaration of non-duality with Brahman as the supreme. The individual Self is Brahman; the world is Brahman; all distinctions dissolve in this recognition."
-        },
-        {
-          "number": 13,
-          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो ब्रह्मणि लीनो न तत्र संशयो भवति ||",
-          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo brahmaṇi līno na tatra saṃśayo bhavati ||",
-          "translation": "As rivers merge into the ocean, as lamps merge into light — so the individual self merges into Brahman. There is no doubt about this.",
-          "hindi": "जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।",
-          "commentary": "The dissolution of individuality into Brahman. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains.",
-          "wordMeaning": "The dissolution of individuality into Brahman. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains."
-        },
-        {
-          "number": 14,
-          "sanskrit": "शान्तं शिवमद्वैतं ब्रह्म नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
-          "transliteration": "śāntaṃ śivamadvaitaṃ brahma nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||",
-          "translation": "Peaceful, auspicious, non-dual Brahman — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.",
-          "hindi": "शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
-          "commentary": "The attributes of Brahman: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness.",
-          "wordMeaning": "The attributes of Brahman: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness."
-        },
-        {
-          "number": 15,
-          "sanskrit": "एको देवो द्वितीयो नास्ति यो ब्रह्म वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
-          "transliteration": "eko devo dvitīyo nāsti yo brahma veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||",
-          "translation": "There is one God, no second — he who knows Brahman in truth. I am He, not any being, no death, no sorrow, and so on.",
-          "hindi": "एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।",
-          "commentary": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering.",
-          "wordMeaning": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering."
         },
         {
           "number": 16,

@@ -128,17 +128,6 @@ export const brahmavaivartapuran: Scripture = {
           keywords: ['Brahmanda', 'CosmicEgg', 'PrimordialUnity', 'ContainedPotential'],
         },
         {
-          id: 26,
-          sanskrit: 'कृष्णः सर्वभूतानां हृदये संनिविष्टः | यो जानाति स पश्यति यो न जानाति न पश्यति ||',
-          transliteration: 'kṛṣṇaḥ sarvabhūtānāṃ hṛdaye saṃniviṣṭaḥ | yo jānāti sa paśyati yo na jānāti na paśyati ||',
-          translation: 'Krishna dwells in the heart of all beings. He who knows, sees; he who does not know, does not see.',
-          hindi: 'कृष्ण सभी प्राणियों के हृदय में निवास करते हैं। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।',
-          explanation: 'The Brahmavaivarta Purana declares that Krishna dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Krishna is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there.',
-          science: 'Research on interoception and heart-brain connection (Porges on polyvagal theory; Damasio on somatic markers): the heart is not merely a pump but a centre of intelligence and perception. The Brahmavaivarta Purana\'s "kṛṣṇaḥ sarvabhūtānāṃ hṛdaye saṃniviṣṭaḥ" — Krishna dwells in the heart of all beings — maps onto what physiology recognises: the heart is a centre of profound information processing and emotional intelligence. The recognition of Krishna in the heart is the recognition of this inner intelligence.',
-          lifeLesson: 'The Brahmavaivarta Purana teaches that Krishna dwells in your heart — not metaphorically but literally. The practice is to turn attention to the heart and recognise the presence there. Not a thought about the heart, but the direct sensing of the heart space. When you rest attention in the heart, you are resting in Krishna. This is the simplest and most direct spiritual practice.',
-          keywords: ['KrishnaInHeart', 'InnerPresence', 'Interoception', 'HeartIntelligence'],
-        },
-        {
           id: 27,
           sanskrit: 'राधा कृष्णयोः एकत्वं परमं तत्त्वमुच्यते | यो राधाकृष्णयोरेकं जानाति स परां गतिम् ||',
           transliteration: 'rādhā kṛṣṇayoḥ ekatvaṃ paramaṃ tattvamucyate | yo rādhākṛṣṇayorekaṃ jānāti sa parāṃ gatim ||',

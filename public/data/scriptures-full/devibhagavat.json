@@ -1,14 +1,14 @@
 {
   "id": "devibhagavat",
   "title": "Devi Bhagavata Purana",
-  "titleSanskrit": "देवीभागवतम्",
+  "titleSanskrit": "देवीभागवतपुराण",
   "category": "purana",
   "source": {
     "repo": "https://sanskritdocuments.org/doc_purana/",
     "license": "Sanskrit mūla — public domain (3000+ years old). sanskritdocuments.org publishes digitized text under permissive terms.",
     "fetchedAt": "2026-06-03T13:48:33.848Z"
   },
-  "totalVerses": 118,
+  "totalVerses": 106,
   "totalChapters": 12,
   "chapters": [
     {
@@ -77,15 +77,6 @@
           "hindi": "देवी को ही जगत् का तत्त्व कहा गया है — मेरे द्वारा, ऋषियों द्वारा, देवों-गंधर्वों द्वारा और अन्य मनीषियों द्वारा भी।",
           "commentary": "Skandha 8 moves from cosmography to metaphysics: the islands, worlds, and cosmic regions are not dead geography but expressions of one underlying tattva. Devi is named as the principle that makes the universe intelligible. The text asks us to see cosmology not as a map of places only, but as a map of dependence on the Mother.",
           "wordMeaning": "Skandha 8 moves from cosmography to metaphysics: the islands, worlds, and cosmic regions are not dead geography but expressions of one underlying tattva. Devi is named as the principle that makes the universe intelligible. The text asks us to see cosmology not as a map of places only, but as a map of dependence on the Mother."
-        },
-        {
-          "number": "2.26",
-          "sanskrit": "देवी सर्वभूतानां हृदये संनिविष्टा | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
-          "transliteration": "devī sarvabhūtānāṃ hṛdaye saṃniviṣṭā | yo jānāti sa paśyati yo na jānāti na paśyati ||",
-          "translation": "Devi dwells in the heart of all beings. He who knows, sees; he who does not know, does not see.",
-          "hindi": "देवी सभी प्राणियों के हृदय में निवास करती हैं। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
-          "commentary": "The Devi Bhagavata declares that Devi dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Devi is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there.",
-          "wordMeaning": "The Devi Bhagavata declares that Devi dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Devi is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there."
         },
         {
           "number": "2.27",
@@ -174,15 +165,6 @@
           "hindi": "देवी को ही जगत् का तत्त्व कहा गया है — मेरे द्वारा, ऋषियों द्वारा, देवों-गंधर्वों द्वारा और अन्य मनीषियों द्वारा भी।",
           "commentary": "Skandha 8 moves from cosmography to metaphysics: the islands, worlds, and cosmic regions are not dead geography but expressions of one underlying tattva. Devi is named as the principle that makes the universe intelligible. The text asks us to see cosmology not as a map of places only, but as a map of dependence on the Mother.",
           "wordMeaning": "Skandha 8 moves from cosmography to metaphysics: the islands, worlds, and cosmic regions are not dead geography but expressions of one underlying tattva. Devi is named as the principle that makes the universe intelligible. The text asks us to see cosmology not as a map of places only, but as a map of dependence on the Mother."
-        },
-        {
-          "number": "1.26",
-          "sanskrit": "देवी सर्वभूतानां हृदये संनिविष्टा | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
-          "transliteration": "devī sarvabhūtānāṃ hṛdaye saṃniviṣṭā | yo jānāti sa paśyati yo na jānāti na paśyati ||",
-          "translation": "Devi dwells in the heart of all beings. He who knows, sees; he who does not know, does not see.",
-          "hindi": "देवी सभी प्राणियों के हृदय में निवास करती हैं। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
-          "commentary": "The Devi Bhagavata declares that Devi dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Devi is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there.",
-          "wordMeaning": "The Devi Bhagavata declares that Devi dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Devi is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there."
         },
         {
           "number": "1.27",
@@ -282,15 +264,6 @@
           "wordMeaning": "Skandha 8 moves from cosmography to metaphysics: the islands, worlds, and cosmic regions are not dead geography but expressions of one underlying tattva. Devi is named as the principle that makes the universe intelligible. The text asks us to see cosmology not as a map of places only, but as a map of dependence on the Mother."
         },
         {
-          "number": "1.26",
-          "sanskrit": "देवी सर्वभूतानां हृदये संनिविष्टा | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
-          "transliteration": "devī sarvabhūtānāṃ hṛdaye saṃniviṣṭā | yo jānāti sa paśyati yo na jānāti na paśyati ||",
-          "translation": "Devi dwells in the heart of all beings. He who knows, sees; he who does not know, does not see.",
-          "hindi": "देवी सभी प्राणियों के हृदय में निवास करती हैं। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
-          "commentary": "The Devi Bhagavata declares that Devi dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Devi is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there.",
-          "wordMeaning": "The Devi Bhagavata declares that Devi dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Devi is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there."
-        },
-        {
           "number": "1.27",
           "sanskrit": "शक्तिश्च शिवश्च एकैव भिन्ना नास्ति कदाचन | यो शक्तिशिवयोरेकं जानाति स परां गतिम् ||",
           "transliteration": "śaktiśca śivaśca ekaiva bhinna nāsti kadācana | yo śaktiśivayorekaṃ jānāti sa parāṃ gatim ||",
@@ -377,15 +350,6 @@
           "hindi": "देवी को ही जगत् का तत्त्व कहा गया है — मेरे द्वारा, ऋषियों द्वारा, देवों-गंधर्वों द्वारा और अन्य मनीषियों द्वारा भी।",
           "commentary": "Skandha 8 moves from cosmography to metaphysics: the islands, worlds, and cosmic regions are not dead geography but expressions of one underlying tattva. Devi is named as the principle that makes the universe intelligible. The text asks us to see cosmology not as a map of places only, but as a map of dependence on the Mother.",
           "wordMeaning": "Skandha 8 moves from cosmography to metaphysics: the islands, worlds, and cosmic regions are not dead geography but expressions of one underlying tattva. Devi is named as the principle that makes the universe intelligible. The text asks us to see cosmology not as a map of places only, but as a map of dependence on the Mother."
-        },
-        {
-          "number": "1.26",
-          "sanskrit": "देवी सर्वभूतानां हृदये संनिविष्टा | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
-          "transliteration": "devī sarvabhūtānāṃ hṛdaye saṃniviṣṭā | yo jānāti sa paśyati yo na jānāti na paśyati ||",
-          "translation": "Devi dwells in the heart of all beings. He who knows, sees; he who does not know, does not see.",
-          "hindi": "देवी सभी प्राणियों के हृदय में निवास करती हैं। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
-          "commentary": "The Devi Bhagavata declares that Devi dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Devi is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there.",
-          "wordMeaning": "The Devi Bhagavata declares that Devi dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Devi is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there."
         },
         {
           "number": "1.27",
@@ -476,15 +440,6 @@
           "wordMeaning": "Skandha 8 moves from cosmography to metaphysics: the islands, worlds, and cosmic regions are not dead geography but expressions of one underlying tattva. Devi is named as the principle that makes the universe intelligible. The text asks us to see cosmology not as a map of places only, but as a map of dependence on the Mother."
         },
         {
-          "number": "1.26",
-          "sanskrit": "देवी सर्वभूतानां हृदये संनिविष्टा | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
-          "transliteration": "devī sarvabhūtānāṃ hṛdaye saṃniviṣṭā | yo jānāti sa paśyati yo na jānāti na paśyati ||",
-          "translation": "Devi dwells in the heart of all beings. He who knows, sees; he who does not know, does not see.",
-          "hindi": "देवी सभी प्राणियों के हृदय में निवास करती हैं। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
-          "commentary": "The Devi Bhagavata declares that Devi dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Devi is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there.",
-          "wordMeaning": "The Devi Bhagavata declares that Devi dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Devi is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there."
-        },
-        {
           "number": "1.27",
           "sanskrit": "शक्तिश्च शिवश्च एकैव भिन्ना नास्ति कदाचन | यो शक्तिशिवयोरेकं जानाति स परां गतिम् ||",
           "transliteration": "śaktiśca śivaśca ekaiva bhinna nāsti kadācana | yo śaktiśivayorekaṃ jānāti sa parāṃ gatim ||",
@@ -573,15 +528,6 @@
           "wordMeaning": "Skandha 8 moves from cosmography to metaphysics: the islands, worlds, and cosmic regions are not dead geography but expressions of one underlying tattva. Devi is named as the principle that makes the universe intelligible. The text asks us to see cosmology not as a map of places only, but as a map of dependence on the Mother."
         },
         {
-          "number": "1.26",
-          "sanskrit": "देवी सर्वभूतानां हृदये संनिविष्टा | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
-          "transliteration": "devī sarvabhūtānāṃ hṛdaye saṃniviṣṭā | yo jānāti sa paśyati yo na jānāti na paśyati ||",
-          "translation": "Devi dwells in the heart of all beings. He who knows, sees; he who does not know, does not see.",
-          "hindi": "देवी सभी प्राणियों के हृदय में निवास करती हैं। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
-          "commentary": "The Devi Bhagavata declares that Devi dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Devi is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there.",
-          "wordMeaning": "The Devi Bhagavata declares that Devi dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Devi is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there."
-        },
-        {
           "number": "1.27",
           "sanskrit": "शक्तिश्च शिवश्च एकैव भिन्ना नास्ति कदाचन | यो शक्तिशिवयोरेकं जानाति स परां गतिम् ||",
           "transliteration": "śaktiśca śivaśca ekaiva bhinna nāsti kadācana | yo śaktiśivayorekaṃ jānāti sa parāṃ gatim ||",
@@ -632,15 +578,6 @@
           "hindi": "सब कुछ वास्तव में ब्रह्म है — शांत होकर उसी का उपासन करो। फिर यह माया से सृष्ट संघात, यह प्रपंच, किसका है?",
           "commentary": "The Devi Bhagavata echoes the Chandogya Upanishad's \"sarvam khalvidam brahma\" while adding a crucial twist. It affirms non-dual Brahman as the substance of all — but then asks the penetrating question: \"From what was this created illusion, this manifold world?\" The Devi Bhagavata's answer: from Mahamaya, the great illusion, which is herself. The Devi is both the reality (Brahman) and the power of illusion (Maya). This is the Shakta non-duality: the one reality has two faces — the face of truth (sat) and the face of creative illusion (maya). Both are the Devi.",
           "wordMeaning": "The Devi Bhagavata echoes the Chandogya Upanishad's \"sarvam khalvidam brahma\" while adding a crucial twist. It affirms non-dual Brahman as the substance of all — but then asks the penetrating question: \"From what was this created illusion, this manifold world?\" The Devi Bhagavata's answer: from Mahamaya, the great illusion, which is herself. The Devi is both the reality (Brahman) and the power of illusion (Maya). This is the Shakta non-duality: the one reality has two faces — the face of truth (sat) and the face of creative illusion (maya). Both are the Devi."
-        },
-        {
-          "number": "1.3",
-          "sanskrit": "देवी सर्वभूतानां हृदये संनिविष्टा | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
-          "transliteration": "devī sarvabhūtānāṃ hṛdaye saṃniviṣṭā | yo jānāti sa paśyati yo na jānāti na paśyati ||",
-          "translation": "Devi dwells in the heart of all beings. He who knows, sees; he who does not know, does not see.",
-          "hindi": "देवी सभी प्राणियों के हृदय में निवास करती हैं। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
-          "commentary": "The Devi Bhagavata declares that Devi dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Devi is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there.",
-          "wordMeaning": "The Devi Bhagavata declares that Devi dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Devi is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there."
         },
         {
           "number": "1.6",
@@ -731,15 +668,6 @@
           "wordMeaning": "Skandha 9 gives one of the clearest Shakta metaphors: Shakti is to Brahman as burning power is to fire. You cannot separate fire from its capacity to burn, nor consciousness from its power to manifest. The verse dissolves the idea that Shakti is secondary. She is Brahman's own living potency."
         },
         {
-          "number": "1.26",
-          "sanskrit": "देवी सर्वभूतानां हृदये संनिविष्टा | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
-          "transliteration": "devī sarvabhūtānāṃ hṛdaye saṃniviṣṭā | yo jānāti sa paśyati yo na jānāti na paśyati ||",
-          "translation": "Devi dwells in the heart of all beings. He who knows, sees; he who does not know, does not see.",
-          "hindi": "देवी सभी प्राणियों के हृदय में निवास करती हैं। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
-          "commentary": "The Devi Bhagavata declares that Devi dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Devi is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there.",
-          "wordMeaning": "The Devi Bhagavata declares that Devi dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Devi is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there."
-        },
-        {
           "number": "1.27",
           "sanskrit": "शक्तिश्च शिवश्च एकैव भिन्ना नास्ति कदाचन | यो शक्तिशिवयोरेकं जानाति स परां गतिम् ||",
           "transliteration": "śaktiśca śivaśca ekaiva bhinna nāsti kadācana | yo śaktiśivayorekaṃ jānāti sa parāṃ gatim ||",
@@ -826,15 +754,6 @@
           "hindi": "देवी को ही जगत् का तत्त्व कहा गया है — मेरे द्वारा, ऋषियों द्वारा, देवों-गंधर्वों द्वारा और अन्य मनीषियों द्वारा भी।",
           "commentary": "Skandha 8 moves from cosmography to metaphysics: the islands, worlds, and cosmic regions are not dead geography but expressions of one underlying tattva. Devi is named as the principle that makes the universe intelligible. The text asks us to see cosmology not as a map of places only, but as a map of dependence on the Mother.",
           "wordMeaning": "Skandha 8 moves from cosmography to metaphysics: the islands, worlds, and cosmic regions are not dead geography but expressions of one underlying tattva. Devi is named as the principle that makes the universe intelligible. The text asks us to see cosmology not as a map of places only, but as a map of dependence on the Mother."
-        },
-        {
-          "number": "1.26",
-          "sanskrit": "देवी सर्वभूतानां हृदये संनिविष्टा | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
-          "transliteration": "devī sarvabhūtānāṃ hṛdaye saṃniviṣṭā | yo jānāti sa paśyati yo na jānāti na paśyati ||",
-          "translation": "Devi dwells in the heart of all beings. He who knows, sees; he who does not know, does not see.",
-          "hindi": "देवी सभी प्राणियों के हृदय में निवास करती हैं। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
-          "commentary": "The Devi Bhagavata declares that Devi dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Devi is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there.",
-          "wordMeaning": "The Devi Bhagavata declares that Devi dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Devi is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there."
         },
         {
           "number": "1.27",
@@ -925,15 +844,6 @@
           "wordMeaning": "Skandha 9 gives one of the clearest Shakta metaphors: Shakti is to Brahman as burning power is to fire. You cannot separate fire from its capacity to burn, nor consciousness from its power to manifest. The verse dissolves the idea that Shakti is secondary. She is Brahman's own living potency."
         },
         {
-          "number": "2.26",
-          "sanskrit": "देवी सर्वभूतानां हृदये संनिविष्टा | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
-          "transliteration": "devī sarvabhūtānāṃ hṛdaye saṃniviṣṭā | yo jānāti sa paśyati yo na jānāti na paśyati ||",
-          "translation": "Devi dwells in the heart of all beings. He who knows, sees; he who does not know, does not see.",
-          "hindi": "देवी सभी प्राणियों के हृदय में निवास करती हैं। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
-          "commentary": "The Devi Bhagavata declares that Devi dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Devi is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there.",
-          "wordMeaning": "The Devi Bhagavata declares that Devi dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Devi is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there."
-        },
-        {
           "number": "2.27",
           "sanskrit": "शक्तिश्च शिवश्च एकैव भिन्ना नास्ति कदाचन | यो शक्तिशिवयोरेकं जानाति स परां गतिम् ||",
           "transliteration": "śaktiśca śivaśca ekaiva bhinna nāsti kadācana | yo śaktiśivayorekaṃ jānāti sa parāṃ gatim ||",
@@ -1022,15 +932,6 @@
           "wordMeaning": "Skandha 8 moves from cosmography to metaphysics: the islands, worlds, and cosmic regions are not dead geography but expressions of one underlying tattva. Devi is named as the principle that makes the universe intelligible. The text asks us to see cosmology not as a map of places only, but as a map of dependence on the Mother."
         },
         {
-          "number": "1.26",
-          "sanskrit": "देवी सर्वभूतानां हृदये संनिविष्टा | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
-          "transliteration": "devī sarvabhūtānāṃ hṛdaye saṃniviṣṭā | yo jānāti sa paśyati yo na jānāti na paśyati ||",
-          "translation": "Devi dwells in the heart of all beings. He who knows, sees; he who does not know, does not see.",
-          "hindi": "देवी सभी प्राणियों के हृदय में निवास करती हैं। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
-          "commentary": "The Devi Bhagavata declares that Devi dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Devi is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there.",
-          "wordMeaning": "The Devi Bhagavata declares that Devi dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Devi is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there."
-        },
-        {
           "number": "1.27",
           "sanskrit": "शक्तिश्च शिवश्च एकैव भिन्ना नास्ति कदाचन | यो शक्तिशिवयोरेकं जानाति स परां गतिम् ||",
           "transliteration": "śaktiśca śivaśca ekaiva bhinna nāsti kadācana | yo śaktiśivayorekaṃ jānāti sa parāṃ gatim ||",
@@ -1117,15 +1018,6 @@
           "hindi": "देवी को ही जगत् का तत्त्व कहा गया है — मेरे द्वारा, ऋषियों द्वारा, देवों-गंधर्वों द्वारा और अन्य मनीषियों द्वारा भी।",
           "commentary": "Skandha 8 moves from cosmography to metaphysics: the islands, worlds, and cosmic regions are not dead geography but expressions of one underlying tattva. Devi is named as the principle that makes the universe intelligible. The text asks us to see cosmology not as a map of places only, but as a map of dependence on the Mother.",
           "wordMeaning": "Skandha 8 moves from cosmography to metaphysics: the islands, worlds, and cosmic regions are not dead geography but expressions of one underlying tattva. Devi is named as the principle that makes the universe intelligible. The text asks us to see cosmology not as a map of places only, but as a map of dependence on the Mother."
-        },
-        {
-          "number": "1.26",
-          "sanskrit": "देवी सर्वभूतानां हृदये संनिविष्टा | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
-          "transliteration": "devī sarvabhūtānāṃ hṛdaye saṃniviṣṭā | yo jānāti sa paśyati yo na jānāti na paśyati ||",
-          "translation": "Devi dwells in the heart of all beings. He who knows, sees; he who does not know, does not see.",
-          "hindi": "देवी सभी प्राणियों के हृदय में निवास करती हैं। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
-          "commentary": "The Devi Bhagavata declares that Devi dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Devi is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there.",
-          "wordMeaning": "The Devi Bhagavata declares that Devi dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Devi is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there."
         },
         {
           "number": "1.27",

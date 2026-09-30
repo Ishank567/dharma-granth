@@ -8,7 +8,7 @@
     "license": "Sanskrit mūla — public domain (2500+ years old). sanskritdocuments.org publishes digitized text under permissive terms.",
     "fetchedAt": "2026-06-02T08:28:55.740Z"
   },
-  "totalVerses": 73,
+  "totalVerses": 64,
   "totalChapters": 6,
   "chapters": [
     {
@@ -625,87 +625,6 @@
           "hindi": "इसी सत्य को ऋषि अंगिरस ने पूर्व काल में कहा था। जिसने व्रत का पालन नहीं किया, वह इसे नहीं पढ़ता। परम ऋषियों को नमस्कार; परम ऋषियों को नमस्कार।",
           "commentary": "Closing of the Mundaka. Aṅgiras — the teacher who began the lineage — declared this truth. The text closes with the traditional twofold 'namaḥ' — the structural marker of completion. Honor to the supreme seers.",
           "wordMeaning": "Closing of the Mundaka. Aṅgiras — the teacher who began the lineage — declared this truth. The text closes with the traditional twofold 'namaḥ' — the structural marker of completion. Honor to the supreme seers."
-        },
-        {
-          "number": 12,
-          "sanskrit": "योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो ब्रह्मसमाश्रयः ||",
-          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ brahmasamāśrayaḥ ||",
-          "translation": "Yoga is the cessation of mental modifications; yoga gives liberation. Yoga cuts all bonds; yoga rests on Brahman.",
-          "hindi": "योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग ब्रह्म पर आश्रित है।",
-          "commentary": "The definition of yoga from Yoga Sutras, placed in the context of Brahman. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Brahman.",
-          "wordMeaning": "The definition of yoga from Yoga Sutras, placed in the context of Brahman. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Brahman."
-        },
-        {
-          "number": 13,
-          "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं ब्रह्म एव सर्वं ब्रह्म मयि सर्वम् ||",
-          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ brahma eva sarvaṃ brahma mayi sarvam ||",
-          "translation": "I am Brahman, not you; I am birth, not beings; all is Brahman alone, all is Brahman in me.",
-          "hindi": "मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब ब्रह्म ही है, सब ब्रह्म मेरे में है।",
-          "commentary": "The declaration of non-duality with Brahman as the supreme. The individual Self is Brahman; the world is Brahman; all distinctions dissolve in this recognition.",
-          "wordMeaning": "The declaration of non-duality with Brahman as the supreme. The individual Self is Brahman; the world is Brahman; all distinctions dissolve in this recognition."
-        },
-        {
-          "number": 14,
-          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो ब्रह्मणि लीनो न तत्र संशयो भवति ||",
-          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo brahmaṇi līno na tatra saṃśayo bhavati ||",
-          "translation": "As rivers merge into the ocean, as lamps merge into light — so the individual self merges into Brahman. There is no doubt about this.",
-          "hindi": "जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।",
-          "commentary": "The dissolution of individuality into Brahman. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains.",
-          "wordMeaning": "The dissolution of individuality into Brahman. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains."
-        },
-        {
-          "number": 15,
-          "sanskrit": "शान्तं शिवमद्वैतं ब्रह्म नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
-          "transliteration": "śāntaṃ śivamadvaitaṃ brahma nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||",
-          "translation": "Peaceful, auspicious, non-dual Brahman — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.",
-          "hindi": "शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
-          "commentary": "The attributes of Brahman: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness.",
-          "wordMeaning": "The attributes of Brahman: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness."
-        },
-        {
-          "number": 16,
-          "sanskrit": "एको देवो द्वितीयो नास्ति यो ब्रह्म वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
-          "transliteration": "eko devo dvitīyo nāsti yo brahma veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||",
-          "translation": "There is one God, no second — he who knows Brahman in truth. I am He, not any being, no death, no sorrow, and so on.",
-          "hindi": "एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।",
-          "commentary": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering.",
-          "wordMeaning": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering."
-        },
-        {
-          "number": 17,
-          "sanskrit": "द्वा सुपर्णा सयूजा सर्पिर्यक्ता निष्यन्दति तिष्ठति | यत्र द्वे नाम न स्यातं तत्र अमृतं भवति ||",
-          "transliteration": "dvā suparṇā sayūjā sarpiryaktā niṣyandati tiṣṭhati | yatra dve nāma na syātaṃ tatra amṛtaṃ bhavati ||",
-          "translation": "Two birds, united and beautiful, cling to the same tree. One eats the fruit; the other looks on without eating. Where there is no duality, there is immortality.",
-          "hindi": "दो पक्षी, संयुक्त और सुंदर, एक ही वृक्ष पर बैठे हैं। एक फल खाता है; दूसरा बिना खाए देखता है। जहाँ द्वैत नहीं है, वहाँ अमृत है।",
-          "commentary": "The famous Mundaka Upanishad metaphor of the two birds: the individual self (jiva) and the supreme Self (paramatman) both perched on the same tree (the body). The jiva eats the fruit of karma (experiences pleasure and pain), while the paramatman witnesses without participation. When the jiva recognises its identity with the paramatman, duality dissolves and immortality is attained.",
-          "wordMeaning": "The famous Mundaka Upanishad metaphor of the two birds: the individual self (jiva) and the supreme Self (paramatman) both perched on the same tree (the body). The jiva eats the fruit of karma (experiences pleasure and pain), while the paramatman witnesses without participation. When the jiva recognises its identity with the paramatman, duality dissolves and immortality is attained."
-        },
-        {
-          "number": 18,
-          "sanskrit": "ब्रह्मविद्यां यदापश्यति तदेव ब्रह्म निविश्यते | यदा च न विद्यते न तदा निविश्यति ||",
-          "transliteration": "brahmavidyāṃ yadāpaśyati tadeva brahma niviśyate | yadā ca na vidyate na tathā niviśyati ||",
-          "translation": "When one sees the knowledge of Brahman, then one becomes established in Brahman. When one does not see, then one is not established.",
-          "hindi": "जब कोई ब्रह्म-विद्या देखता है, तब वह ब्रह्म में स्थापित हो जाता है। जब नहीं देखता, तब स्थापित नहीं होता।",
-          "commentary": "The Mundaka Upanishad teaches that seeing Brahman-vidya (knowledge of Brahman) is itself becoming established in Brahman. The seeing and the becoming are not separate. When you truly see, you are already established. When you do not see, you remain unestablished. This is the paradox of Vedanta: the recognition of Brahman is the attainment of Brahman.",
-          "wordMeaning": "The Mundaka Upanishad teaches that seeing Brahman-vidya (knowledge of Brahman) is itself becoming established in Brahman. The seeing and the becoming are not separate. When you truly see, you are already established. When you do not see, you remain unestablished. This is the paradox of Vedanta: the recognition of Brahman is the attainment of Brahman."
-        },
-        {
-          "number": 19,
-          "sanskrit": "यथा नद्यः समुद्रे गच्छन्ति नामरूपं विनश्यति | तथा विद्वान्नामरूपं विनश्यति ब्रह्मणि संलीनः ||",
-          "transliteration": "yathā nadyaḥ samudre gacchanti nāmarūpaṃ vināśyati | tathā vidvānnāmarūpaṃ vināśyati brahmaṇi saṃlīnaḥ ||",
-          "translation": "As rivers flow into the ocean and lose name and form, so the knower loses name and form, merged in Brahman.",
-          "hindi": "जैसे नदियाँ समुद्र में बहती हैं और नाम-रूप खो देती हैं, वैसे ही विद्वान नाम-रूप खो देता है, ब्रह्म में लीन हो जाता है।",
-          "commentary": "The Mundaka Upanishad uses the river-into-ocean metaphor to describe the dissolution of the individual self into Brahman. The rivers lose their individual names and forms when they merge into the ocean. Similarly, the knower loses name and form (the limited identity) when merged in Brahman. This is not destruction but transcendence: the water remains, but the separateness is gone.",
-          "wordMeaning": "The Mundaka Upanishad uses the river-into-ocean metaphor to describe the dissolution of the individual self into Brahman. The rivers lose their individual names and forms when they merge into the ocean. Similarly, the knower loses name and form (the limited identity) when merged in Brahman. This is not destruction but transcendence: the water remains, but the separateness is gone."
-        },
-        {
-          "number": 20,
-          "sanskrit": "यदा च न विद्यते न तथा निविश्यति | यदा विद्यते तदा निविश्यति ||",
-          "transliteration": "yadā ca na vidyate na tathā niviśyati | yadā vidyate tadā niviśyati ||",
-          "translation": "When one does not know, one is not established. When one knows, then one is established.",
-          "hindi": "जब नहीं जानता, तब स्थापित नहीं होता। जब जानता है, तब स्थापित होता है।",
-          "commentary": "The Mundaka Upanishad reiterates the importance of knowledge: without knowledge, there is no establishment; with knowledge, there is establishment. This is not intellectual knowledge but direct recognition. The repetition emphasises that knowledge is the key to liberation.",
-          "wordMeaning": "The Mundaka Upanishad reiterates the importance of knowledge: without knowledge, there is no establishment; with knowledge, there is establishment. This is not intellectual knowledge but direct recognition. The repetition emphasises that knowledge is the key to liberation."
         }
       ],
       "titleSanskrit": "तृतीय मुण्डक · द्वितीय खण्ड"

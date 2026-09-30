@@ -8,7 +8,7 @@
     "license": "Sanskrit mūla — public domain (2500+ years old). sanskritdocuments.org publishes digitized text under permissive terms.",
     "fetchedAt": "2026-06-02T08:28:56.057Z"
   },
-  "totalVerses": 22,
+  "totalVerses": 12,
   "totalChapters": 1,
   "chapters": [
     {
@@ -122,96 +122,6 @@
           "hindi": "चतुर्थ अमात्र (मात्रा-रहित) है — अव्यवहार्य, प्रपञ्च की उपशान्ति, शिव, अद्वैत। ऐसा ॐ ही आत्मा है। जो इसे ऐसा जानता है, वह आत्मा द्वारा आत्मा में प्रवेश करता है।",
           "commentary": "The closing mantra. The four mātrās of AUM (A, U, M, and silence) correspond to the four states. The silence after the M is the fourth — pure, unmeasured awareness. To chant AUM with this knowledge is to enter the Self with the Self.",
           "wordMeaning": "The closing mantra. The four mātrās of AUM (A, U, M, and silence) correspond to the four states. The silence after the M is the fourth — pure, unmeasured awareness. To chant AUM with this knowledge is to enter the Self with the Self."
-        },
-        {
-          "number": 13,
-          "sanskrit": "योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो ब्रह्मसमाश्रयः ||",
-          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ brahmasamāśrayaḥ ||",
-          "translation": "Yoga is the cessation of mental modifications; yoga gives liberation. Yoga cuts all bonds; yoga rests on Brahman.",
-          "hindi": "योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग ब्रह्म पर आश्रित है।",
-          "commentary": "The definition of yoga from Yoga Sutras, placed in the context of Brahman. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Brahman.",
-          "wordMeaning": "The definition of yoga from Yoga Sutras, placed in the context of Brahman. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of Brahman."
-        },
-        {
-          "number": 14,
-          "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं ब्रह्म एव सर्वं ब्रह्म मयि सर्वम् ||",
-          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ brahma eva sarvaṃ brahma mayi sarvam ||",
-          "translation": "I am Brahman, not you; I am birth, not beings; all is Brahman alone, all is Brahman in me.",
-          "hindi": "मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब ब्रह्म ही है, सब ब्रह्म मेरे में है।",
-          "commentary": "The declaration of non-duality with Brahman as the supreme. The individual Self is Brahman; the world is Brahman; all distinctions dissolve in this recognition.",
-          "wordMeaning": "The declaration of non-duality with Brahman as the supreme. The individual Self is Brahman; the world is Brahman; all distinctions dissolve in this recognition."
-        },
-        {
-          "number": 15,
-          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो ब्रह्मणि लीनो न तत्र संशयो भवति ||",
-          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo brahmaṇi līno na tatra saṃśayo bhavati ||",
-          "translation": "As rivers merge into the ocean, as lamps merge into light — so the individual self merges into Brahman. There is no doubt about this.",
-          "hindi": "जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव ब्रह्म में लीन हो जाता है। इसमें कोई संशय नहीं।",
-          "commentary": "The dissolution of individuality into Brahman. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains.",
-          "wordMeaning": "The dissolution of individuality into Brahman. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains."
-        },
-        {
-          "number": 16,
-          "sanskrit": "शान्तं शिवमद्वैतं ब्रह्म नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
-          "transliteration": "śāntaṃ śivamadvaitaṃ brahma nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||",
-          "translation": "Peaceful, auspicious, non-dual Brahman — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.",
-          "hindi": "शांत, शिव, अद्वैत ब्रह्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
-          "commentary": "The attributes of Brahman: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness.",
-          "wordMeaning": "The attributes of Brahman: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness."
-        },
-        {
-          "number": 17,
-          "sanskrit": "एको देवो द्वितीयो नास्ति यो ब्रह्म वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
-          "transliteration": "eko devo dvitīyo nāsti yo brahma veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||",
-          "translation": "There is one God, no second — he who knows Brahman in truth. I am He, not any being, no death, no sorrow, and so on.",
-          "hindi": "एक ही देव है, दूसरा कोई नहीं — जो ब्रह्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।",
-          "commentary": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering.",
-          "wordMeaning": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering."
-        },
-        {
-          "number": 18,
-          "sanskrit": "ओंकारो ध्वनिर्द्वितीयो द्वितीयो नास्ति तत्त्वतः | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
-          "transliteration": "oṃkāro dhvanirdvitīyo dvitīyo nāsti tattvataḥ | yo jānāti sa paśyati yo na jānāti na paśyati ||",
-          "translation": "OM is the sound, non-dual, no second in truth. He who knows, sees; he who does not know, does not see.",
-          "hindi": "ॐ ध्वनि है, अद्वैत, तत्व से दूसरा कोई नहीं। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
-          "commentary": "The Mandukya Upanishad identifies OM as the primordial sound that is non-dual. OM is not merely a mantra but the sound of reality itself. The verse declares that knowledge of OM is seeing — direct perception of truth. This is the essence of the Mandukya: OM is the key to recognizing the Self.",
-          "wordMeaning": "The Mandukya Upanishad identifies OM as the primordial sound that is non-dual. OM is not merely a mantra but the sound of reality itself. The verse declares that knowledge of OM is seeing — direct perception of truth. This is the essence of the Mandukya: OM is the key to recognizing the Self."
-        },
-        {
-          "number": 19,
-          "sanskrit": "जाग्रत्स्थानो वैश्वानरो द्वितीयो नास्ति तत्त्वतः | स्वप्नस्थानो तेजोमयो द्वितीयो नास्ति तत्त्वतः ||",
-          "transliteration": "jāgratsthāno vaiśvānaro dvitīyo nāsti tattvataḥ | svapnasthāno tejomayo dvitīyo nāsti tattvataḥ ||",
-          "translation": "The waking state is Vaishvanara, no second in truth. The dream state is Tejas, no second in truth.",
-          "hindi": "जाग्रत अवस्था वैश्वानर है, तत्व से दूसरा कोई नहीं। स्वप्न अवस्था तेजस है, तत्व से दूसरा कोई नहीं।",
-          "commentary": "The Mandukya Upanishad describes the waking state as Vaishvanara (the universal person) and the dream state as Tejas (radiance). Both are ultimately non-dual — appearances of the one Self. The waking state appears to be the world of multiplicity; the dream state appears to be the world of imagination. Both are the Self appearing in different modes.",
-          "wordMeaning": "The Mandukya Upanishad describes the waking state as Vaishvanara (the universal person) and the dream state as Tejas (radiance). Both are ultimately non-dual — appearances of the one Self. The waking state appears to be the world of multiplicity; the dream state appears to be the world of imagination. Both are the Self appearing in different modes."
-        },
-        {
-          "number": 20,
-          "sanskrit": "सुषुप्तस्थानो प्राज्ञो द्वितीयो नास्ति तत्त्वतः | तुरीयो द्वितीयो नास्ति तत्त्वतः सर्वगतः ||",
-          "transliteration": "suṣuptasthāno prājño dvitīyo nāsti tattvataḥ | turiyo dvitīyo nāsti tattvataḥ sarvagataḥ ||",
-          "translation": "The deep sleep state is Prajna, no second in truth. The fourth state (Turiya) is no second in truth, pervading all.",
-          "hindi": "सुषुप्ति अवस्था प्राज्ञ है, तत्व से दूसरा कोई नहीं। चौथी अवस्था (तुरीय) तत्व से दूसरा कोई नहीं, सब में व्याप्त।",
-          "commentary": "The Mandukya Upanishad describes the deep sleep state as Prajna (wisdom) and the fourth state (Turiya) as the pervading awareness. Deep sleep is not unconsciousness but the state where the Self rests in itself. Turiya is the background awareness that witnesses all three states — waking, dream, and deep sleep. Turiya is not a state but the witness of all states.",
-          "wordMeaning": "The Mandukya Upanishad describes the deep sleep state as Prajna (wisdom) and the fourth state (Turiya) as the pervading awareness. Deep sleep is not unconsciousness but the state where the Self rests in itself. Turiya is the background awareness that witnesses all three states — waking, dream, and deep sleep. Turiya is not a state but the witness of all states."
-        },
-        {
-          "number": 21,
-          "sanskrit": "एकं तुरीयं सर्वगतं सर्ववर्णं सर्वात्मकम् | एकं तुरीयं सर्वगतं सर्ववर्णं सर्वात्मकम् ||",
-          "transliteration": "ekaṃ turiyaṃ sarvagataṃ sarvavarṇaṃ sarvātmakam | ekaṃ turiyaṃ sarvagataṃ sarvavarṇaṃ sarvātmakam ||",
-          "translation": "One is the fourth, pervading all, of all colors, the Self of all. One is the fourth, pervading all, of all colors, the Self of all.",
-          "hindi": "एक ही चौथी अवस्था है, सब में व्याप्त, सब रंगों की, सब का आत्मा। एक ही चौथी अवस्था है, सब में व्याप्त, सब रंगों की, सब का आत्मा।",
-          "commentary": "The repetition in this verse emphasises the nature of Turiya: one, pervading all, of all colors, the Self of all. The Mandukya uses repetition to point to a truth that cannot be stated once and be understood. Turiya is not a state but the ground of all states — the one reality that appears as multiplicity.",
-          "wordMeaning": "The repetition in this verse emphasises the nature of Turiya: one, pervading all, of all colors, the Self of all. The Mandukya uses repetition to point to a truth that cannot be stated once and be understood. Turiya is not a state but the ground of all states — the one reality that appears as multiplicity."
-        },
-        {
-          "number": 22,
-          "sanskrit": "एकं तुरीयं सर्वगतं सर्ववर्णं सर्वात्मकम् | एकं तुरीयं सर्वगतं सर्ववर्णं सर्वात्मकम् | एकं तुरीयं सर्वगतं सर्ववर्णं सर्वात्मकम् ||",
-          "transliteration": "ekaṃ turiyaṃ sarvagataṃ sarvavarṇaṃ sarvātmakam | ekaṃ turiyaṃ sarvagataṃ sarvavarṇaṃ sarvātmakam | ekaṃ turiyaṃ sarvagataṃ sarvavarṇaṃ sarvātmakam ||",
-          "translation": "One is the fourth, pervading all, of all colors, the Self of all. One is the fourth, pervading all, of all colors, the Self of all. One is the fourth, pervading all, of all colors, the Self of all.",
-          "hindi": "एक ही चौथी अवस्था है, सब में व्याप्त, सब रंगों की, सब का आत्मा। एक ही चौथी अवस्था है, सब में व्याप्त, सब रंगों की, सब का आत्मा। एक ही चौथी अवस्था है, सब में व्याप्त, सब रंगों की, सब का आत्मा।",
-          "commentary": "The triple repetition in this verse intensifies the teaching: Turiya is one, pervading all, the Self of all. The Mandukya uses repetition as a technique for transmission: the truth is not in the words but in the recognition that occurs through repeated hearing. Turiya is the ground of all states, repeated until it becomes lived reality.",
-          "wordMeaning": "The triple repetition in this verse intensifies the teaching: Turiya is one, pervading all, the Self of all. The Mandukya uses repetition as a technique for transmission: the truth is not in the words but in the recognition that occurs through repeated hearing. Turiya is the ground of all states, repeated until it becomes lived reality."
         }
       ],
       "titleSanskrit": "माण्डूक्योपनिषद्"

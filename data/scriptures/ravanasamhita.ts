@@ -139,17 +139,6 @@ export const ravanasamhita: Scripture = {
           lifeLesson: 'The Ravana Samhita invites you to become a "kāla-jña" — a knower of time. This does not mean astrology in the modern sense. It means understanding the temporal structure of your own life: what season are you in? What is ripe now? What needs more time? What has passed its moment? These are not astrological questions; they are questions of self-knowledge in time.',
           keywords: ['JyotishaAsVedanga', 'KalaVidya', 'TimePerspective', 'BalancedTime', 'KalaJna'],
         },
-        {
-          id: 25,
-          sanskrit: 'शिवः सर्वभूतानां हृदये संनिविष्टः | यो जानाति स पश्यति यो न जानाति न पश्यति ||',
-          transliteration: 'śivaḥ sarvabhūtānāṃ hṛdaye saṃniviṣṭaḥ | yo jānāti sa paśyati yo na jānāti na paśyati ||',
-          translation: 'Shiva dwells in the heart of all beings. He who knows, sees; he who does not know, does not see.',
-          hindi: 'शिव सभी प्राणियों के हृदय में निवास करते हैं। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।',
-          explanation: 'The Ravana Samhita declares that Shiva dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Shiva is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there.',
-          science: 'Research on interoception and heart-brain connection (Porges on polyvagal theory; Damasio on somatic markers): the heart is not merely a pump but a centre of intelligence and perception. The Ravana Samhita\'s "śivaḥ sarvabhūtānāṃ hṛdaye saṃniviṣṭaḥ" — Shiva dwells in the heart of all beings — maps onto what physiology recognises: the heart is a centre of profound information processing and emotional intelligence. The recognition of Shiva in the heart is the recognition of this inner intelligence.',
-          lifeLesson: 'The Ravana Samhita teaches that Shiva dwells in your heart — not metaphorically but literally. The practice is to turn attention to the heart and recognise the presence there. Not a thought about the heart, but the direct sensing of the heart space. When you rest attention in the heart, you are resting in Shiva. This is the simplest and most direct spiritual practice.',
-          keywords: ['ShivaInHeart', 'InnerPresence', 'Interoception', 'HeartIntelligence'],
-        },
       ],
     },
     {

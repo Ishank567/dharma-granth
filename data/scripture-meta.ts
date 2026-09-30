@@ -52,7 +52,7 @@ export const scriptureCatalog: ScriptureMeta[] = [
     description:
       "The story of Nachiketa and Yama (Death). Explores the nature of death, the eternal soul, and the path to liberation.",
     totalChapters: 2,
-    totalVerses: 120,
+    totalVerses: 119,
     tags: ["Upanishad", "Death", "Soul", "Liberation"],
     hasData: true,
   },
@@ -172,7 +172,7 @@ export const scriptureCatalog: ScriptureMeta[] = [
     description:
       "A principal Upanishad of the Krishna Yajurveda. Features King Brihadratha's existential crisis, the six-limbed yoga, and the identity of Atman with the cosmic Self. One of the earliest sources for systematic yoga.",
     totalChapters: 7,
-    totalVerses: 230,
+    totalVerses: 99,
     tags: ["Upanishad", "Yoga", "Prana", "Samkhya", "KrishnaYajurveda"],
     hasData: true,
   },
@@ -183,9 +183,21 @@ export const scriptureCatalog: ScriptureMeta[] = [
     category: "upanishad",
     description:
       "A major Upanishad of the Krishna Yajurveda containing the Narayana Sukta, Purusha Sukta, and the Mahamrityunjaya (Tryambaka) mantra. Centres on Narayana as the all-pervading supreme reality.",
-    totalChapters: 64,
-    totalVerses: 580,
+    totalChapters: 79,
+    totalVerses: 263,
     tags: ["Upanishad", "Narayana", "PurushaSukta", "Mahamrityunjaya", "Vishnu"],
+    hasData: true,
+  },
+  {
+    id: "mahaupanishad",
+    title: "Maha Upanishad",
+    titleSanskrit: "महोपनिषद्",
+    category: "upanishad",
+    description:
+      "A Samanya Upanishad of the Samaveda in six chapters: the creation from Narayana, the dialogues of Shuka, Nidagha and Janaka on liberation while living (jivanmukti), and the celebrated verse 'the whole world is one family' (vasudhaiva kutumbakam, 6.71).",
+    totalChapters: 6,
+    totalVerses: 553,
+    tags: ["Upanishad", "Samaveda", "Jivanmukti", "Advaita", "VasudhaivaKutumbakam"],
     hasData: true,
   },
   {
@@ -195,14 +207,14 @@ export const scriptureCatalog: ScriptureMeta[] = [
     category: "upanishad",
     description:
       "A short Upanishad of the Atharvaveda. Teaches liberation through meditation on the Self in the heart-cave. Climaxes with the Mahavakya 'Aham eva param Brahma' — I alone am supreme Brahman.",
-    totalChapters: 1,
-    totalVerses: 25,
+    totalChapters: 2,
+    totalVerses: 24,
     tags: ["Upanishad", "Kaivalya", "Advaita", "Shiva", "Liberation"],
     hasData: true,
   },
   {
     id: "amritabindu",
-    title: "Amrita-Bindu Upanishad",
+    title: "Amritabindu Upanishad",
     titleSanskrit: "अमृतबिन्दु उपनिषद्",
     category: "upanishad",
     description:
@@ -219,8 +231,8 @@ export const scriptureCatalog: ScriptureMeta[] = [
     category: "upanishad",
     description:
       "The 'drop of light.' A Shiva-Kartikeya dialogue in the Advaita tradition. Employs the neti-neti method of self-inquiry and describes the Jivanmukta — one liberated while still living — as a lamp in a windless place.",
-    totalChapters: 6,
-    totalVerses: 260,
+    totalChapters: 7,
+    totalVerses: 463,
     tags: ["Upanishad", "Advaita", "NetiNeti", "Shiva", "Jivanmukta"],
     hasData: true,
   },
@@ -232,7 +244,7 @@ export const scriptureCatalog: ScriptureMeta[] = [
     description:
       "A short but radical Atharvaveda Upanishad. Declares renunciation (sannyasa) valid at any stage of life — not only old age — and teaches that the sacred city of Kashi (Varanasi) is within the seeker's own body.",
     totalChapters: 1,
-    totalVerses: 18,
+    totalVerses: 6,
     tags: ["Upanishad", "Sannyasa", "Kashi", "Renunciation", "Shiva"],
     hasData: true,
   },
@@ -244,7 +256,7 @@ export const scriptureCatalog: ScriptureMeta[] = [
     description:
       "The 'supportless' Upanishad. Teaches that the Self requires no external support — all external props are impermanent. Discusses maya, the five sheaths, and the state of the liberated sage through the Advaita framework.",
     totalChapters: 1,
-    totalVerses: 32,
+    totalVerses: 21,
     tags: ["Upanishad", "Niralamba", "Maya", "Koshas", "Liberation", "Advaita"],
     hasData: true,
   },
@@ -256,7 +268,7 @@ export const scriptureCatalog: ScriptureMeta[] = [
     description:
       "The canonical meta-Upanishad — a dialogue between Rama (guru) and Hanuman (disciple). Lists and canonises all 108 Upanishads. Declares the Mandukya alone sufficient for liberation. Teaches manonasha through vicara (dissolution of mind through inquiry), the exhaustion of vasanas, and the marks of the jivanmukta: equal vision, love for all beings, sameness toward friend and enemy.",
     totalChapters: 2,
-    totalVerses: 108,
+    totalVerses: 136,
     tags: ["Upanishad", "Muktika", "Rama", "Hanuman", "Mandukya", "108Upanishads", "Jivanmukti"],
     hasData: true,
   },
@@ -292,7 +304,7 @@ export const scriptureCatalog: ScriptureMeta[] = [
     description:
       "The Veda of melodies and chants — the world's oldest musical scripture (1,875 verses). Krishna in the Gita: 'Among the Vedas, I am the Sama Veda.' Purva Archika: Agni invoked through sacred sound; OM as Udgitha (the upward chant); the inner fire that must be fed daily. Uttara Archika: 'Sam gacchadhvam sam vadadhvam' — come together, speak together, let your minds be one (the Vedic vision of collective intelligence). Agnihotra: 'Sa id dive sa id dive' — day by day; the daily renewal of the inner fire. Chandogya Udgitha (the Upanishad rooted in Sama tradition): 'Sarvam khalvidam brahma' — all this is Brahman; kratumayaḥ puruṣaḥ — a person is made of intention; Madhu Vidya — all beings merge into Being as honey; Adityo brahma — the Sun sings the cosmic Sama upward. Foundation of Indian classical music (raga system, saptasvara).",
     totalChapters: 4,
-    totalVerses: 1875,
+    totalVerses: 1873,
     tags: ["Veda", "Music", "Chants", "Udgitha", "OM", "SamGacchadhvam", "ChandogyaUpanishad", "MadhuVidya", "SarvamBrahma", "Kratumaya", "AdityoBrahma", "SacredSound", "Agnihotra"],
     hasData: true,
   },
@@ -311,7 +323,7 @@ export const scriptureCatalog: ScriptureMeta[] = [
   {
     id: "ramayana",
     title: "Ramayana",
-    titleSanskrit: "रामायण",
+    titleSanskrit: "वाल्मीकि रामायण",
     category: "itihasa",
     description:
       "The Valmiki Ramayana — Adi Kavya, the first poem (~24,000 shlokas, 7 Kandas). Born from shoka (grief) becoming shloka (verse). Complete Gita Press edition (~6191 pages). Each Kanda is a study in a facet of dharmic life: Bala (ideal character), Ayodhya (equanimity and servant leadership — Bharata's sandals), Aranya (dharma's reciprocity, Jatayu's sacrifice), Kishkindha (alliance, Tara's lament on moral complexity), Sundara (single-pointed purpose; Sita's inner sovereignty), Yuddha (war as duty; learn from your enemy — Ravana's dying teaching), Uttara (the tragedy of public vs private dharma).",
@@ -398,7 +410,7 @@ export const scriptureCatalog: ScriptureMeta[] = [
   {
     id: "garudpurana",
     title: "Garuda Purana",
-    titleSanskrit: "गरुड़पुराण",
+    titleSanskrit: "गरुडपुराण",
     category: "purana",
     description:
       "Covers cosmology, genealogies, and detailed descriptions of death rituals, afterlife, and the journey of the soul.",
@@ -611,7 +623,7 @@ export const scriptureCatalog: ScriptureMeta[] = [
       "The foundational text of Vedanta philosophy by Vyasa, consisting of 555 aphorisms (sutras) systematizing the Upanishads.",
     author: "Vyasa",
     totalChapters: 4,
-    totalVerses: 555,
+    totalVerses: 564,
     tags: ["Vedanta", "Sutras", "Philosophy", "Upanishads"],
     hasData: true,
   },

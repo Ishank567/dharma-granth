@@ -2,7 +2,7 @@ import { Scripture } from '../types';
 
 export const amritabindu: Scripture = {
   id: 'amritabindu',
-  title: 'Amrita-Bindu Upanishad',
+  title: 'Amritabindu Upanishad',
   titleSanskrit: 'अमृतबिन्दु उपनिषद्',
   category: 'upanishad',
   description: 'The "drop of immortality" — a short, dense Upanishad of the Atharvaveda. Teaches that mind is the cause of both bondage and liberation. The text prescribes the practice of mantra as the direct method for stilling the mind and realising the Self. Highly regarded in the traditions of nada yoga and mantra yoga.',

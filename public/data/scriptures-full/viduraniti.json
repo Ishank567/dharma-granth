@@ -14,7 +14,7 @@
     "hindiLicense": "Gita Press Vidura Niti Hindi anuvad by Hanuman Prasad Poddar (public domain scan).",
     "hindiFetchedAt": "2026-06-21T00:51:21.659Z"
   },
-  "totalVerses": 299,
+  "totalVerses": 284,
   "totalChapters": 8,
   "chapters": [
     {
@@ -46,51 +46,6 @@
           "hindi": "जो भविष्य के लिए तैयारी करता है वह पण्डित है। जो भाग्य ने जो नष्ट किया उस पर शोक नहीं करता; जो सही समय की प्रतीक्षा करता हुआ सदा तैयार रहता है — वह प्रयत्न से सफल होता है।",
           "commentary": "The pandit's relationship with time: three components. (1) \"Anāgataṃ yaḥ kurute\" — prepares for what has not yet arrived. Proactive preparation — not reactive scrambling. The pandit does not wait for the crisis to prepare; they prepare before the crisis. (2) \"Daivāhataṃ naiva vicintayet\" — does not grieve what fate has destroyed. What is gone is gone. The energy spent in grief over irreversible loss is energy not available for the present. (3) \"Kālaṃ pratīkṣan kṛtasaṃniveśaḥ\" — awaits the right time while remaining in prepared readiness. Patient timing combined with continuous preparation — not passive waiting but active preparation during a fallow period. The integration: prepare before, release after, stay ready during. \"Nityaṃ jayati\" — always succeeds.",
           "wordMeaning": "The pandit's relationship with time: three components. (1) \"Anāgataṃ yaḥ kurute\" — prepares for what has not yet arrived. Proactive preparation — not reactive scrambling. The pandit does not wait for the crisis to prepare; they prepare before the crisis. (2) \"Daivāhataṃ naiva vicintayet\" — does not grieve what fate has destroyed. What is gone is gone. The energy spent in grief over irreversible loss is energy not available for the present. (3) \"Kālaṃ pratīkṣan kṛtasaṃniveśaḥ\" — awaits the right time while remaining in prepared readiness. Patient timing combined with continuous preparation — not passive waiting but active preparation during a fallow period. The integration: prepare before, release after, stay ready during. \"Nityaṃ jayati\" — always succeeds."
-        },
-        {
-          "number": 5,
-          "sanskrit": "योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो धर्मसमाश्रयः ||",
-          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ dharmasamāśrayaḥ ||",
-          "translation": "Yoga is the cessation of mental modifications; yoga gives liberation. Yoga cuts all bonds; yoga rests on dharma.",
-          "hindi": "योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग धर्म पर आश्रित है।",
-          "commentary": "The definition of yoga from Yoga Sutras, placed in the context of dharma. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of dharma.",
-          "wordMeaning": "The definition of yoga from Yoga Sutras, placed in the context of dharma. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of dharma."
-        },
-        {
-          "number": 10,
-          "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं धर्म एव सर्वं धर्म मयि सर्वम् ||",
-          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ dharma eva sarvaṃ dharma mayi sarvam ||",
-          "translation": "I am Brahman, not you; I am birth, not beings; all is dharma alone, all is dharma in me.",
-          "hindi": "मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब धर्म ही है, सब धर्म मेरे में है।",
-          "commentary": "The declaration of non-duality with dharma as the supreme. The individual Self is Brahman; the world is dharma; all distinctions dissolve in this recognition.",
-          "wordMeaning": "The declaration of non-duality with dharma as the supreme. The individual Self is Brahman; the world is dharma; all distinctions dissolve in this recognition."
-        },
-        {
-          "number": 15,
-          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो धर्मे लीनो न तत्र संशयो भवति ||",
-          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo dharme līno na tatra saṃśayo bhavati ||",
-          "translation": "As rivers merge into the ocean, as lamps merge into light — so the individual self merges into dharma. There is no doubt about this.",
-          "hindi": "जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव धर्म में लीन हो जाता है। इसमें कोई संशय नहीं।",
-          "commentary": "The dissolution of individuality into dharma. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains.",
-          "wordMeaning": "The dissolution of individuality into dharma. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains."
-        },
-        {
-          "number": 20,
-          "sanskrit": "शान्तं शिवमद्वैतं धर्म नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
-          "transliteration": "śāntaṃ śivamadvaitaṃ dharma nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||",
-          "translation": "Peaceful, auspicious, non-dual dharma — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.",
-          "hindi": "शांत, शिव, अद्वैत धर्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
-          "commentary": "The attributes of dharma: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness.",
-          "wordMeaning": "The attributes of dharma: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness."
-        },
-        {
-          "number": 25,
-          "sanskrit": "एको देवो द्वितीयो नास्ति यो धर्मं वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
-          "transliteration": "eko devo dvitīyo nāsti yo dharmaṃ veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||",
-          "translation": "There is one God, no second — he who knows dharma in truth. I am He, not any being, no death, no sorrow, and so on.",
-          "hindi": "एक ही देव है, दूसरा कोई नहीं — जो धर्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।",
-          "commentary": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering.",
-          "wordMeaning": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering."
         }
       ],
       "title": "Pandit Lakshana — The Marks of the Wise",
@@ -125,51 +80,6 @@
           "hindi": "जिसके कार्य को कोई नहीं जानता, जिसकी मंत्रणा और गुप्त बात छुपी रहती है — और जिसके काम को लोग तभी जानते हैं जब वह हो जाता है — वह पण्डित कहलाता है।",
           "commentary": "Vidura's counsel on strategic silence. The pandit does not announce plans before they are executed. Three reasons: (1) Premature announcement invites interference — opposition that might not have materialized has time to organize. (2) The energy of intention dissipates when spoken prematurely — psychological research on goal-sharing confirms that talking about a goal activates the same neural reward as achieving it, reducing motivation to actually do it. (3) The pandit is measured by results, not by impressions — \"kṛtamevāsya jānanti\" — they know only the done thing. This is the ethic of action over announcement. Vidura is not counseling secrecy for its own sake but the discipline of completing before claiming.",
           "wordMeaning": "Vidura's counsel on strategic silence. The pandit does not announce plans before they are executed. Three reasons: (1) Premature announcement invites interference — opposition that might not have materialized has time to organize. (2) The energy of intention dissipates when spoken prematurely — psychological research on goal-sharing confirms that talking about a goal activates the same neural reward as achieving it, reducing motivation to actually do it. (3) The pandit is measured by results, not by impressions — \"kṛtamevāsya jānanti\" — they know only the done thing. This is the ethic of action over announcement. Vidura is not counseling secrecy for its own sake but the discipline of completing before claiming."
-        },
-        {
-          "number": 5,
-          "sanskrit": "योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो धर्मसमाश्रयः ||",
-          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ dharmasamāśrayaḥ ||",
-          "translation": "Yoga is the cessation of mental modifications; yoga gives liberation. Yoga cuts all bonds; yoga rests on dharma.",
-          "hindi": "योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग धर्म पर आश्रित है।",
-          "commentary": "The definition of yoga from Yoga Sutras, placed in the context of dharma. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of dharma.",
-          "wordMeaning": "The definition of yoga from Yoga Sutras, placed in the context of dharma. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of dharma."
-        },
-        {
-          "number": 10,
-          "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं धर्म एव सर्वं धर्म मयि सर्वम् ||",
-          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ dharma eva sarvaṃ dharma mayi sarvam ||",
-          "translation": "I am Brahman, not you; I am birth, not beings; all is dharma alone, all is dharma in me.",
-          "hindi": "मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब धर्म ही है, सब धर्म मेरे में है।",
-          "commentary": "The declaration of non-duality with dharma as the supreme. The individual Self is Brahman; the world is dharma; all distinctions dissolve in this recognition.",
-          "wordMeaning": "The declaration of non-duality with dharma as the supreme. The individual Self is Brahman; the world is dharma; all distinctions dissolve in this recognition."
-        },
-        {
-          "number": 15,
-          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो धर्मे लीनो न तत्र संशयो भवति ||",
-          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo dharme līno na tatra saṃśayo bhavati ||",
-          "translation": "As rivers merge into the ocean, as lamps merge into light — so the individual self merges into dharma. There is no doubt about this.",
-          "hindi": "जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव धर्म में लीन हो जाता है। इसमें कोई संशय नहीं।",
-          "commentary": "The dissolution of individuality into dharma. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains.",
-          "wordMeaning": "The dissolution of individuality into dharma. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains."
-        },
-        {
-          "number": 20,
-          "sanskrit": "शान्तं शिवमद्वैतं धर्म नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
-          "transliteration": "śāntaṃ śivamadvaitaṃ dharma nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||",
-          "translation": "Peaceful, auspicious, non-dual dharma — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.",
-          "hindi": "शांत, शिव, अद्वैत धर्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
-          "commentary": "The attributes of dharma: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness.",
-          "wordMeaning": "The attributes of dharma: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness."
-        },
-        {
-          "number": 25,
-          "sanskrit": "एको देवो द्वितीयो नास्ति यो धर्मं वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
-          "transliteration": "eko devo dvitīyo nāsti yo dharmaṃ veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||",
-          "translation": "There is one God, no second — he who knows dharma in truth. I am He, not any being, no death, no sorrow, and so on.",
-          "hindi": "एक ही देव है, दूसरा कोई नहीं — जो धर्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।",
-          "commentary": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering.",
-          "wordMeaning": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering."
         }
       ],
       "title": "Niti Vakya — Governance and Practical Ethics",
@@ -195,51 +105,6 @@
           "hindi": "धर्म नष्ट होने पर नष्ट करता है, रक्षित होने पर रक्षा करता है। इसलिए धर्म को नष्ट न करो, नहीं तो नष्ट किया हुआ धर्म हमें नष्ट करेगा।",
           "commentary": "The most memorable verse of the Vidura Niti — and one of the most cited in the entire Mahabharata. The logical structure is elegant and unambiguous: dharma is not neutral. It is either protective or destructive depending on how it is treated. When you protect dharma (act rightly, maintain honesty, fulfill your obligations), dharma protects you — not through supernatural reward but through the natural consequence of trustworthy conduct: others trust you, systems function, relationships hold. When you violate dharma — compromise your integrity for short-term gain, use unjust means for just ends — the violation returns. The Mahabharata itself is the demonstration: Dhritarashtra's violation of dharma (tolerating Duryodhana's adharma) eventually destroys everything he tried to protect.",
           "wordMeaning": "The most memorable verse of the Vidura Niti — and one of the most cited in the entire Mahabharata. The logical structure is elegant and unambiguous: dharma is not neutral. It is either protective or destructive depending on how it is treated. When you protect dharma (act rightly, maintain honesty, fulfill your obligations), dharma protects you — not through supernatural reward but through the natural consequence of trustworthy conduct: others trust you, systems function, relationships hold. When you violate dharma — compromise your integrity for short-term gain, use unjust means for just ends — the violation returns. The Mahabharata itself is the demonstration: Dhritarashtra's violation of dharma (tolerating Duryodhana's adharma) eventually destroys everything he tried to protect."
-        },
-        {
-          "number": 3,
-          "sanskrit": "योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो धर्मसमाश्रयः ||",
-          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ dharmasamāśrayaḥ ||",
-          "translation": "Yoga is the cessation of mental modifications; yoga gives liberation. Yoga cuts all bonds; yoga rests on dharma.",
-          "hindi": "योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग धर्म पर आश्रित है।",
-          "commentary": "The definition of yoga from Yoga Sutras, placed in the context of dharma. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of dharma.",
-          "wordMeaning": "The definition of yoga from Yoga Sutras, placed in the context of dharma. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of dharma."
-        },
-        {
-          "number": 4,
-          "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं धर्म एव सर्वं धर्म मयि सर्वम् ||",
-          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ dharma eva sarvaṃ dharma mayi sarvam ||",
-          "translation": "I am Brahman, not you; I am birth, not beings; all is dharma alone, all is dharma in me.",
-          "hindi": "मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब धर्म ही है, सब धर्म मेरे में है।",
-          "commentary": "The declaration of non-duality with dharma as the supreme. The individual Self is Brahman; the world is dharma; all distinctions dissolve in this recognition.",
-          "wordMeaning": "The declaration of non-duality with dharma as the supreme. The individual Self is Brahman; the world is dharma; all distinctions dissolve in this recognition."
-        },
-        {
-          "number": 6,
-          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो धर्मे लीनो न तत्र संशयो भवति ||",
-          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo dharme līno na tatra saṃśayo bhavati ||",
-          "translation": "As rivers merge into the ocean, as lamps merge into light — so the individual self merges into dharma. There is no doubt about this.",
-          "hindi": "जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव धर्म में लीन हो जाता है। इसमें कोई संशय नहीं।",
-          "commentary": "The dissolution of individuality into dharma. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains.",
-          "wordMeaning": "The dissolution of individuality into dharma. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains."
-        },
-        {
-          "number": 7,
-          "sanskrit": "शान्तं शिवमद्वैतं धर्म नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
-          "transliteration": "śāntaṃ śivamadvaitaṃ dharma nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||",
-          "translation": "Peaceful, auspicious, non-dual dharma — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.",
-          "hindi": "शांत, शिव, अद्वैत धर्म — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
-          "commentary": "The attributes of dharma: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness.",
-          "wordMeaning": "The attributes of dharma: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness."
-        },
-        {
-          "number": 8,
-          "sanskrit": "एको देवो द्वितीयो नास्ति यो धर्मं वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
-          "transliteration": "eko devo dvitīyo nāsti yo dharmaṃ veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||",
-          "translation": "There is one God, no second — he who knows dharma in truth. I am He, not any being, no death, no sorrow, and so on.",
-          "hindi": "एक ही देव है, दूसरा कोई नहीं — जो धर्म को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।",
-          "commentary": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering.",
-          "wordMeaning": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering."
         }
       ],
       "title": "Dharmarajya — Counsel to the King",

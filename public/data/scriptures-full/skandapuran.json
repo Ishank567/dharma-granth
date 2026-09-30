@@ -1,7 +1,7 @@
 {
   "id": "skandapuran",
   "title": "Skanda Purana",
-  "titleSanskrit": "स्कन्दपुराणम्",
+  "titleSanskrit": "स्कन्दपुराण",
   "category": "purana",
   "source": {
     "repo": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_skandapurANa-revAkhaNDa-rks.txt",
@@ -14,7 +14,7 @@
     "hindiLicense": "Gita Press Gorakhpur condensed Hindi Skanda Purana Revakhanda (public domain scan, archive.org OCR).",
     "hindiFetchedAt": "2026-06-23T04:02:56.531Z"
   },
-  "totalVerses": 6468,
+  "totalVerses": 6464,
   "totalChapters": 116,
   "chapters": [
     {
@@ -56,15 +56,6 @@
           "hindi": "सभी तीर्थ, और सभी दिशाओं में गंगा — शिव भक्त स्वयं तीर्थ हैं, जो शिव में गहरी भक्ति रखते हैं।",
           "commentary": "The Skanda Purana teaches that the true tirtha is not a place but a person — specifically, the Shiva devotee. All external sacred places and the Ganga in all directions are secondary to the devotee who embodies devotion. This is the radical teaching: the sacred geography is internalised in the devotee. The devotee becomes the tirtha.",
           "wordMeaning": "The Skanda Purana teaches that the true tirtha is not a place but a person — specifically, the Shiva devotee. All external sacred places and the Ganga in all directions are secondary to the devotee who embodies devotion. This is the radical teaching: the sacred geography is internalised in the devotee. The devotee becomes the tirtha."
-        },
-        {
-          "number": 27,
-          "sanskrit": "शिवः सर्वभूतानां हृदये संनिविष्टः | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
-          "transliteration": "śivaḥ sarvabhūtānāṃ hṛdaye saṃniviṣṭaḥ | yo jānāti sa paśyati yo na jānāti na paśyati ||",
-          "translation": "Shiva dwells in the heart of all beings. He who knows, sees; he who does not know, does not see.",
-          "hindi": "शिव सभी प्राणियों के हृदय में निवास करते हैं। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
-          "commentary": "The Skanda Purana declares that Shiva dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Shiva is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there.",
-          "wordMeaning": "The Skanda Purana declares that Shiva dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Shiva is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there."
         },
         {
           "number": 28,
@@ -119,15 +110,6 @@
           "wordMeaning": "The Skanda Purana teaches that the true tirtha is not a place but a person — specifically, the Shiva devotee. All external sacred places and the Ganga in all directions are secondary to the devotee who embodies devotion. This is the radical teaching: the sacred geography is internalised in the devotee. The devotee becomes the tirtha."
         },
         {
-          "number": 27,
-          "sanskrit": "शिवः सर्वभूतानां हृदये संनिविष्टः | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
-          "transliteration": "śivaḥ sarvabhūtānāṃ hṛdaye saṃniviṣṭaḥ | yo jānāti sa paśyati yo na jānāti na paśyati ||",
-          "translation": "Shiva dwells in the heart of all beings. He who knows, sees; he who does not know, does not see.",
-          "hindi": "शिव सभी प्राणियों के हृदय में निवास करते हैं। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
-          "commentary": "The Skanda Purana declares that Shiva dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Shiva is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there.",
-          "wordMeaning": "The Skanda Purana declares that Shiva dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Shiva is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there."
-        },
-        {
           "number": 28,
           "sanskrit": "शिवः साक्षात् परं ब्रह्म निर्गुणो निश्चलः शुद्धः | योगिनां हृदये नित्यं शिवो भवति साक्षात् ||",
           "transliteration": "śivaḥ sākṣāt paraṃ brahma nirguṇo niścalaḥ śuddhaḥ | yogināṃ hṛdaye nityaṃ śivo bhavati sākṣāt ||",
@@ -169,15 +151,6 @@
           "hindi": "सभी तीर्थ, और सभी दिशाओं में गंगा — शिव भक्त स्वयं तीर्थ हैं, जो शिव में गहरी भक्ति रखते हैं।",
           "commentary": "The Skanda Purana teaches that the true tirtha is not a place but a person — specifically, the Shiva devotee. All external sacred places and the Ganga in all directions are secondary to the devotee who embodies devotion. This is the radical teaching: the sacred geography is internalised in the devotee. The devotee becomes the tirtha.",
           "wordMeaning": "The Skanda Purana teaches that the true tirtha is not a place but a person — specifically, the Shiva devotee. All external sacred places and the Ganga in all directions are secondary to the devotee who embodies devotion. This is the radical teaching: the sacred geography is internalised in the devotee. The devotee becomes the tirtha."
-        },
-        {
-          "number": 27,
-          "sanskrit": "शिवः सर्वभूतानां हृदये संनिविष्टः | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
-          "transliteration": "śivaḥ sarvabhūtānāṃ hṛdaye saṃniviṣṭaḥ | yo jānāti sa paśyati yo na jānāti na paśyati ||",
-          "translation": "Shiva dwells in the heart of all beings. He who knows, sees; he who does not know, does not see.",
-          "hindi": "शिव सभी प्राणियों के हृदय में निवास करते हैं। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
-          "commentary": "The Skanda Purana declares that Shiva dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Shiva is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there.",
-          "wordMeaning": "The Skanda Purana declares that Shiva dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Shiva is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there."
         },
         {
           "number": 28,
@@ -230,15 +203,6 @@
           "hindi": "सभी तीर्थ, और सभी दिशाओं में गंगा — शिव भक्त स्वयं तीर्थ हैं, जो शिव में गहरी भक्ति रखते हैं।",
           "commentary": "The Skanda Purana teaches that the true tirtha is not a place but a person — specifically, the Shiva devotee. All external sacred places and the Ganga in all directions are secondary to the devotee who embodies devotion. This is the radical teaching: the sacred geography is internalised in the devotee. The devotee becomes the tirtha.",
           "wordMeaning": "The Skanda Purana teaches that the true tirtha is not a place but a person — specifically, the Shiva devotee. All external sacred places and the Ganga in all directions are secondary to the devotee who embodies devotion. This is the radical teaching: the sacred geography is internalised in the devotee. The devotee becomes the tirtha."
-        },
-        {
-          "number": 4,
-          "sanskrit": "शिवः सर्वभूतानां हृदये संनिविष्टः | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
-          "transliteration": "śivaḥ sarvabhūtānāṃ hṛdaye saṃniviṣṭaḥ | yo jānāti sa paśyati yo na jānāti na paśyati ||",
-          "translation": "Shiva dwells in the heart of all beings. He who knows, sees; he who does not know, does not see.",
-          "hindi": "शिव सभी प्राणियों के हृदय में निवास करते हैं। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
-          "commentary": "The Skanda Purana declares that Shiva dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Shiva is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there.",
-          "wordMeaning": "The Skanda Purana declares that Shiva dwells in the heart of all beings — not in distant heavens but in the innermost center of every living being. The verse then states the paradox of recognition: knowledge is seeing, ignorance is blindness. Shiva is equally present in all hearts, but only those who know can see. The seeing is not visual but recognitional — the recognition of the presence that is always there."
         },
         {
           "number": 6,

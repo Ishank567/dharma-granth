@@ -6,209 +6,700 @@
   "source": {
     "repo": "https://sanskritdocuments.org/doc_upanishhat/muktika.itx",
     "license": "Sanskrit mūla — public domain. Digitized by sanskritdocuments.org.",
-    "fetchedAt": "2026-06-03T13:44:40.855Z"
+    "fetchedAt": "2026-09-30T09:42:57.770Z"
   },
-  "totalVerses": 20,
-  "totalChapters": 3,
+  "totalVerses": 136,
+  "totalChapters": 2,
   "chapters": [
     {
       "number": 1,
-      "title": "Full Text",
-      "titleSanskrit": "सम्पूर्ण पाठ",
+      "title": "Adhyāya 1",
       "verses": [
         {
           "number": 1,
-          "sanskrit": "श्रीरामचन्द्र उवाच — माण्डूक्यमेकमेवालं मुमुक्षूणां विमुक्तये | अन्येषामुपनिषदां पाठनं फलदं भवेत् ||",
-          "transliteration": "śrīrāmacandra uvāca — māṇḍūkyamekamevālaṃ mumukṣūṇāṃ vimuktaye | anyeṣāmupaniṣadāṃ pāṭhanaṃ phaladaṃ bhavet ||",
-          "translation": "Sri Ramachandra said: The Mandukya alone is quite sufficient for the liberation of those who seek liberation. The study of the other Upanishads becomes fruitful (as well).",
-          "hindi": "श्रीरामचन्द्र ने कहा: मुमुक्षुओं की मुक्ति के लिए अकेला माण्डूक्य ही पर्याप्त है। अन्य उपनिषदों का पाठ भी फलदायी है।",
-          "commentary": "The most provocative opening in all Upanishadic literature. Rama — speaking as the ultimate teacher — does not recommend a vast curriculum. He says: one text is enough. The Mandukya Upanishad in 12 verses maps the entire territory of consciousness (waking, dream, deep sleep, and turiya — the fourth), establishes AUM as the symbol of this totality, and identifies the individual self with Brahman. Rama's claim is not anti-intellectual — he immediately affirms that study of all 108 is also fruitful. But he refuses to make liberation contingent on vast scholarship. The gateway is always narrow, always close, always now.",
-          "wordMeaning": "The most provocative opening in all Upanishadic literature. Rama — speaking as the ultimate teacher — does not recommend a vast curriculum. He says: one text is enough. The Mandukya Upanishad in 12 verses maps the entire territory of consciousness (waking, dream, deep sleep, and turiya — the fourth), establishes AUM as the symbol of this totality, and identifies the individual self with Brahman. Rama's claim is not anti-intellectual — he immediately affirms that study of all 108 is also fruitful. But he refuses to make liberation contingent on vast scholarship. The gateway is always narrow, always close, always now."
+          "sanskrit": "ॐ अयोध्यानगरे रम्ये रत्नमण्डपमध्यमे । सीताभरतसौमित्रिशत्रुघ्नाद्यैः समन्वितम्",
+          "transliteration": "oṃ ayodhyānagare ramye ratnamaṇḍapamadhyame | sītābharatasaumitriśatrughnādyaiḥ samanvitam"
+        },
+        {
+          "number": 2,
+          "sanskrit": "सनकाद्यैर्मुनिगणैर्वसिष्ठाद्यैः शुकादिभिः । अन्यैर्भागवतैश्चापि स्तूयमानमहर्निशम्",
+          "transliteration": "sanakādyairmunigaṇairvasiṣṭhādyaiḥ śukādibhiḥ | anyairbhāgavataiścāpi stūyamānamaharniśam"
         },
         {
           "number": 3,
-          "sanskrit": "मनोनाशो विचारेण भवत्येव न संशयः | वासनानां क्षयो भूयस्ततो मोक्षो न चान्यथा ||",
-          "transliteration": "manonāśo vicāreṇa bhavatyeva na saṃśayaḥ | vāsanānāṃ kṣayo bhūyastato mokṣo na cānyathā ||",
-          "translation": "The dissolution of the mind occurs through enquiry — there is no doubt about this. The exhaustion of vasanas (deep impressions/tendencies) follows from this. Liberation comes from that — not otherwise.",
-          "hindi": "मन का नाश विचार से ही होता है — इसमें कोई सन्देह नहीं। उससे वासनाओं का क्षय होता है। उससे ही मोक्ष है — अन्यथा नहीं।",
-          "commentary": "Rama gives Hanuman the precise mechanism of liberation in two steps: (1) manonasha — dissolution of the mind, achieved through vicara (enquiry, self-investigation); (2) vasana-kshaya — exhaustion of the deep impressions (vasanas) that perpetuate the mind's conditioning. Liberation is not a sudden external event; it is the result of sustained investigation that progressively dissolves the habitual tendencies that create the illusion of a separate, suffering self. \"Not otherwise\" (na cānyathā) — Rama closes every escape route: there is no shortcut that bypasses genuine enquiry.",
-          "wordMeaning": "Rama gives Hanuman the precise mechanism of liberation in two steps: (1) manonasha — dissolution of the mind, achieved through vicara (enquiry, self-investigation); (2) vasana-kshaya — exhaustion of the deep impressions (vasanas) that perpetuate the mind's conditioning. Liberation is not a sudden external event; it is the result of sustained investigation that progressively dissolves the habitual tendencies that create the illusion of a separate, suffering self. \"Not otherwise\" (na cānyathā) — Rama closes every escape route: there is no shortcut that bypasses genuine enquiry."
+          "sanskrit": "धीविक्रियासहस्राणां साक्षिणं निर्विकारिणम् । स्वरूपध्याननिरतं समाधिविरमे हरिम्",
+          "transliteration": "dhīvikriyāsahasrāṇāṃ sākṣiṇaṃ nirvikāriṇam | svarūpadhyānanirataṃ samādhivirame harim"
+        },
+        {
+          "number": 4,
+          "sanskrit": "भक्त्या शुश्रूषया रामं स्तुवन्पप्रच्छ मारुतिः । राम त्वं परमात्मसि सच्चिदानन्दविग्रहः",
+          "transliteration": "bhaktyā śuśrūṣayā rāmaṃ stuvanpapraccha mārutiḥ | rāma tvaṃ paramātmasi saccidānandavigrahaḥ"
         },
         {
           "number": 5,
-          "sanskrit": "योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो मुक्तिसमाश्रयः ||",
-          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ muktisamāśrayaḥ ||",
-          "translation": "Yoga is the cessation of mental modifications; yoga gives liberation. Yoga cuts all bonds; yoga rests on liberation.",
-          "hindi": "योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग मुक्ति पर आश्रित है।",
-          "commentary": "The definition of yoga from Yoga Sutras, placed in the context of liberation. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of mukti.",
-          "wordMeaning": "The definition of yoga from Yoga Sutras, placed in the context of liberation. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of mukti."
+          "sanskrit": "इदानीं त्वां रघुश्रेष्ठ प्रणमामि मुहुर्मुहुः । त्वद्रूपं ज्ञातुमिच्छामि तत्त्वतो राम मुक्तये",
+          "transliteration": "idānīṃ tvāṃ raghuśreṣṭha praṇamāmi muhurmuhuḥ | tvadrūpaṃ jñātumicchāmi tattvato rāma muktaye"
+        },
+        {
+          "number": 6,
+          "sanskrit": "अनायासेन येनाहं मुच्येयं भवबन्धनात् । कृपया वद मे राम येन मुक्तो भवाम्यहम्",
+          "transliteration": "anāyāsena yenāhaṃ mucyeyaṃ bhavabandhanāt | kṛpayā vada me rāma yena mukto bhavāmyaham"
+        },
+        {
+          "number": 7,
+          "sanskrit": "साधु पृष्टं महाबाहो वदामि शृणु तत्त्वतः । वेदान्ते सुप्रतिष्ठोऽहं वेदान्तं समुपाश्रय",
+          "transliteration": "sādhu pṛṣṭaṃ mahābāho vadāmi śṛṇu tattvataḥ | vedānte supratiṣṭho'haṃ vedāntaṃ samupāśraya"
+        },
+        {
+          "number": 8,
+          "sanskrit": "वेदान्ताः के रघुश्रेष्ठ वर्तन्ते कुत्र ते वद । हनूमञ्छृणु वक्ष्यामि वेदान्तस्थितिमञ्जसा",
+          "transliteration": "vedāntāḥ ke raghuśreṣṭha vartante kutra te vada | hanūmañchṛṇu vakṣyāmi vedāntasthitimañjasā"
+        },
+        {
+          "number": 9,
+          "sanskrit": "निश्वासभूता मे विष्णोर्वेदा जाताः सुविस्तराः । तिलेषु तैलवद्वेदे वेदान्तः सुप्रतिष्ठितः",
+          "transliteration": "niśvāsabhūtā me viṣṇorvedā jātāḥ suvistarāḥ | tileṣu tailavadvede vedāntaḥ supratiṣṭhitaḥ"
         },
         {
           "number": 10,
-          "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं मुक्ति एव सर्वं मुक्ति मयि सर्वम् ||",
-          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ mukti eva sarvaṃ mukti mayi sarvam ||",
-          "translation": "I am Brahman, not you; I am birth, not beings; all is liberation alone, all is liberation in me.",
-          "hindi": "मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब मुक्ति ही है, सब मुक्ति मेरे में है।",
-          "commentary": "The declaration of non-duality with liberation as the supreme. The individual Self is Brahman; the world is liberation; all distinctions dissolve in this recognition.",
-          "wordMeaning": "The declaration of non-duality with liberation as the supreme. The individual Self is Brahman; the world is liberation; all distinctions dissolve in this recognition."
+          "sanskrit": "राम वेदाः कतिविधास्तेषां शाखाश्च राघव । तासूपनिषदाः काः स्युः कृपया वद तत्त्वतः",
+          "transliteration": "rāma vedāḥ katividhāsteṣāṃ śākhāśca rāghava | tāsūpaniṣadāḥ kāḥ syuḥ kṛpayā vada tattvataḥ"
+        },
+        {
+          "number": 11,
+          "sanskrit": "श्रीराम उवाच । ऋग्वेदादिविभागेन वेदाश्चत्वार ईरिताः । तेषां शाखा ह्यनेकाः स्युस्तासूपनिषदस्तथा",
+          "transliteration": "śrīrāma uvāca | ṛgvedādivibhāgena vedāścatvāra īritāḥ | teṣāṃ śākhā hyanekāḥ syustāsūpaniṣadastathā"
+        },
+        {
+          "number": 12,
+          "sanskrit": "ऋग्वेदस्य तु शाखाः स्युरेकविंशतिसङ्ख्यकाः । नवाधिकशतं शाखा यजुषो मारुतात्मज",
+          "transliteration": "ṛgvedasya tu śākhāḥ syurekaviṃśatisaṅkhyakāḥ | navādhikaśataṃ śākhā yajuṣo mārutātmaja"
+        },
+        {
+          "number": 13,
+          "sanskrit": "सहस्रसङ्ख्यया जाताः शाखाः साम्नः परन्तप । अथर्वणस्य शाखाः स्युः पञ्चाशद्भेदतो हरे",
+          "transliteration": "sahasrasaṅkhyayā jātāḥ śākhāḥ sāmnaḥ parantapa | atharvaṇasya śākhāḥ syuḥ pañcāśadbhedato hare"
+        },
+        {
+          "number": 14,
+          "sanskrit": "एकैकस्यास्तु शाखाया एकैकोपनिषन्मता । तासामेकामृचं यश्च पठते भक्तितो मयि",
+          "transliteration": "ekaikasyāstu śākhāyā ekaikopaniṣanmatā | tāsāmekāmṛcaṃ yaśca paṭhate bhaktito mayi"
         },
         {
           "number": 15,
-          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो मुक्तौ लीनो न तत्र संशयो भवति ||",
-          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo muktau līno na tatra saṃśayo bhavati ||",
-          "translation": "As rivers merge into the ocean, as lamps merge into light — so the individual self merges into liberation. There is no doubt about this.",
-          "hindi": "जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव मुक्ति में लीन हो जाता है। इसमें कोई संशय नहीं।",
-          "commentary": "The dissolution of individuality into liberation. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains.",
-          "wordMeaning": "The dissolution of individuality into liberation. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains."
+          "sanskrit": "स मत्सायुज्यपदवीं प्राप्नोति मुनिदुर्लभाम् । राम केचिन्मुनिश्रेष्ठा मुक्तिरेकेति चक्षिरे",
+          "transliteration": "sa matsāyujyapadavīṃ prāpnoti munidurlabhām | rāma kecinmuniśreṣṭhā muktireketi cakṣire"
+        },
+        {
+          "number": 16,
+          "sanskrit": "केचित्त्वन्नामभजनात्काश्यां तारोपदेशतः । अन्येतु साङ्ख्ययोगेन भक्तियोगेन चापरे",
+          "transliteration": "kecittvannāmabhajanātkāśyāṃ tāropadeśataḥ | anyetu sāṅkhyayogena bhaktiyogena cāpare"
+        },
+        {
+          "number": 17,
+          "sanskrit": "अन्ये वेदान्तवाक्यार्थविचारात्परमर्षयः । सालोक्यादिविभागेन चतुर्धा मुक्तिरीरिता",
+          "transliteration": "anye vedāntavākyārthavicārātparamarṣayaḥ | sālokyādivibhāgena caturdhā muktirīritā"
+        },
+        {
+          "number": 18,
+          "sanskrit": "सहोवाच श्रीरामः । कैवल्यमुक्तिरेकैव परमार्थिकरूपिणी । दुराचाररतो वापि मन्नामभजनात्कपे",
+          "transliteration": "sahovāca śrīrāmaḥ | kaivalyamuktirekaiva paramārthikarūpiṇī | durācārarato vāpi mannāmabhajanātkape"
+        },
+        {
+          "number": 19,
+          "sanskrit": "सालोक्यमुक्तिमाप्नोति न तु लोकान्तरादिकम् । काश्यां तु ब्रह्मनालेऽस्मिन्मृतो मत्तारमाप्नुयात्",
+          "transliteration": "sālokyamuktimāpnoti na tu lokāntarādikam | kāśyāṃ tu brahmanāle'sminmṛto mattāramāpnuyāt"
         },
         {
           "number": 20,
-          "sanskrit": "शान्तं शिवमद्वैतं मुक्ति नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
-          "transliteration": "śāntaṃ śivamadvaitaṃ mukti nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||",
-          "translation": "Peaceful, auspicious, non-dual liberation — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.",
-          "hindi": "शांत, शिव, अद्वैत मुक्ति — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
-          "commentary": "The attributes of liberation: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness.",
-          "wordMeaning": "The attributes of liberation: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness."
+          "sanskrit": "पुनरावृत्तिरहितां मुक्तिं प्राप्नोति मानवः । यत्र कुत्रापि वा काश्यां मरणे स महेश्वरः",
+          "transliteration": "punarāvṛttirahitāṃ muktiṃ prāpnoti mānavaḥ | yatra kutrāpi vā kāśyāṃ maraṇe sa maheśvaraḥ"
+        },
+        {
+          "number": 21,
+          "sanskrit": "जन्तोर्दक्षिणकर्णे तु मत्तारं समुपादिशेत् । निर्धूताशेषपापौघो मत्सारूप्यं भजत्ययम्",
+          "transliteration": "jantordakṣiṇakarṇe tu mattāraṃ samupādiśet | nirdhūtāśeṣapāpaugho matsārūpyaṃ bhajatyayam"
+        },
+        {
+          "number": 22,
+          "sanskrit": "सैव सालोक्यसारूप्यमुक्तिरत्यभिधीयते । सदाचाररतो भूत्वा द्विजो नित्यमनन्यधीः",
+          "transliteration": "saiva sālokyasārūpyamuktiratyabhidhīyate | sadācārarato bhūtvā dvijo nityamananyadhīḥ"
+        },
+        {
+          "number": 23,
+          "sanskrit": "मयि सर्वात्मको भावो मत्सामीप्यं भजत्ययम् । सैव सालोक्यसारूप्यसामीप्या मुक्तिरिष्यते",
+          "transliteration": "mayi sarvātmako bhāvo matsāmīpyaṃ bhajatyayam | saiva sālokyasārūpyasāmīpyā muktiriṣyate"
+        },
+        {
+          "number": 24,
+          "sanskrit": "गुरूपदिष्टमार्गेण ध्यायन्मद्गुणमव्ययम् । मत्सायुज्यं द्विजः सम्यग्भजेद्भ्रमरकीटवत्",
+          "transliteration": "gurūpadiṣṭamārgeṇa dhyāyanmadguṇamavyayam | matsāyujyaṃ dvijaḥ samyagbhajedbhramarakīṭavat"
         },
         {
           "number": 25,
-          "sanskrit": "एको देवो द्वितीयो नास्ति यो मुक्तिं वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
-          "transliteration": "eko devo dvitīyo nāsti yo muktiṃ veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||",
-          "translation": "There is one God, no second — he who knows liberation in truth. I am He, not any being, no death, no sorrow, and so on.",
-          "hindi": "एक ही देव है, दूसरा कोई नहीं — जो मुक्ति को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।",
-          "commentary": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering.",
-          "wordMeaning": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering."
+          "sanskrit": "सैव सायुज्यमुक्तिः स्याद्ब्रह्मानन्दकरी शिवा । चतुर्विधा तु या मुक्तिर्मदुपासनया भवेत्",
+          "transliteration": "saiva sāyujyamuktiḥ syādbrahmānandakarī śivā | caturvidhā tu yā muktirmadupāsanayā bhavet"
+        },
+        {
+          "number": 26,
+          "sanskrit": "इयं कैवल्यमुक्तिस्तु केनोपायेन सिद्ध्यति । माण्डूक्यमेकमेवालं मुमुक्षूणां विमुक्तये",
+          "transliteration": "iyaṃ kaivalyamuktistu kenopāyena siddhyati | māṇḍūkyamekamevālaṃ mumukṣūṇāṃ vimuktaye"
+        },
+        {
+          "number": 27,
+          "sanskrit": "तथाप्यसिद्धं चेज्ज्ञानं दशोपनिषदं पठ । ज्ञानं लब्ध्वा चिरादेव मामकं धाम यास्यसि",
+          "transliteration": "tathāpyasiddhaṃ cejjñānaṃ daśopaniṣadaṃ paṭha | jñānaṃ labdhvā cirādeva māmakaṃ dhāma yāsyasi"
         },
         {
           "number": 28,
-          "sanskrit": "मण्डूकः सर्वसारोऽयं सर्वोपनिषदां रहः | सर्ववेदान्तसारश्च नात्र कार्या विचारणा ||",
-          "transliteration": "maṇḍūkaḥ sarvasāro'yaṃ sarvopaniṣadāṃ rahaḥ | sarvāvedāntasāraśca nātra kāryā vicāraṇā ||",
-          "translation": "The Mandukya is the essence of everything, the secret of all Upanishads, and the essence of all Vedanta. No deliberation need be made about this.",
-          "hindi": "माण्डूक्य सबका सार है, सभी उपनिषदों का रहस्य है, और सम्पूर्ण वेदान्त का सार है। इसमें कोई विचार करने की आवश्यकता नहीं।",
-          "commentary": "The Muktika's most compact summary of its thesis. The Mandukya is not merely one among 108 — it is the secret (rahasya) that the other 107 point toward. The 108 Upanishads are 108 approaches to the same territory. The Mandukya maps that territory most directly. Rama says \"nātra kāryā vicāraṇā\" — no deliberation is needed. This is not the closing of inquiry but the recognition that some truths are not arrived at by argument; they are recognised by direct seeing. The Mandukya invites you to see — now, directly — what is always already present.",
-          "wordMeaning": "The Muktika's most compact summary of its thesis. The Mandukya is not merely one among 108 — it is the secret (rahasya) that the other 107 point toward. The 108 Upanishads are 108 approaches to the same territory. The Mandukya maps that territory most directly. Rama says \"nātra kāryā vicāraṇā\" — no deliberation is needed. This is not the closing of inquiry but the recognition that some truths are not arrived at by argument; they are recognised by direct seeing. The Mandukya invites you to see — now, directly — what is always already present."
+          "sanskrit": "तथापि दृढता न चेद्विद्ज्ञानस्याञ्जनासुत । द्वात्रिंशाख्योपनिषदं समभ्यस्य निवर्तय",
+          "transliteration": "tathāpi dṛḍhatā na cedvidjñānasyāñjanāsuta | dvātriṃśākhyopaniṣadaṃ samabhyasya nivartaya"
+        },
+        {
+          "number": 29,
+          "sanskrit": "विदेहमुक्ताविच्छा चेदष्टोत्तरशतं पठ । तासां क्रम सशान्तिं च श्रुणु वक्ष्यामि तत्त्वतः",
+          "transliteration": "videhamuktāvicchā cedaṣṭottaraśataṃ paṭha | tāsāṃ krama saśāntiṃ ca śruṇu vakṣyāmi tattvataḥ"
+        },
+        {
+          "number": 30,
+          "sanskrit": "ईशकेनकठप्रश्नमुण्डमाण्डूक्यतित्तिरिः । ऐतरेयं च छान्दोग्यं बृहदारण्यकं तथा",
+          "transliteration": "īśakenakaṭhapraśnamuṇḍamāṇḍūkyatittiriḥ | aitareyaṃ ca chāndogyaṃ bṛhadāraṇyakaṃ tathā"
+        },
+        {
+          "number": 31,
+          "sanskrit": "ब्रह्मकैवल्यजाबालश्वेताश्वो हंस आरुणिः । गर्भो नारायणो हंसो बिन्दुर्नादशिरः शिखा",
+          "transliteration": "brahmakaivalyajābālaśvetāśvo haṃsa āruṇiḥ | garbho nārāyaṇo haṃso bindurnādaśiraḥ śikhā"
+        },
+        {
+          "number": 32,
+          "sanskrit": "मैत्रायणी कौषीतकी बृहज्जाबालतापनी । कालाग्निरुद्रमैत्रेयी सुबालक्षुरिमन्त्रिका",
+          "transliteration": "maitrāyaṇī kauṣītakī bṛhajjābālatāpanī | kālāgnirudramaitreyī subālakṣurimantrikā"
+        },
+        {
+          "number": 33,
+          "sanskrit": "सर्वसारं निरालम्बं रहस्यं वज्रसूचिकम् । तेजोनादध्यानविद्यायोगतत्त्वात्मबोधकम्",
+          "transliteration": "sarvasāraṃ nirālambaṃ rahasyaṃ vajrasūcikam | tejonādadhyānavidyāyogatattvātmabodhakam"
+        },
+        {
+          "number": 34,
+          "sanskrit": "परिव्राट् त्रिशिखी सीता चूडा निर्वाणमण्डलम् । दक्षिणा शरभं स्कन्दं महानारायणाह्वयम्",
+          "transliteration": "parivrāṭ triśikhī sītā cūḍā nirvāṇamaṇḍalam | dakṣiṇā śarabhaṃ skandaṃ mahānārāyaṇāhvayam"
+        },
+        {
+          "number": 35,
+          "sanskrit": "रहस्यं रामतपनं वासुदेवं च मुद्गलम् । शाण्डिल्यं पैङ्गलं भिक्षुमहच्छारीरकं शिखा",
+          "transliteration": "rahasyaṃ rāmatapanaṃ vāsudevaṃ ca mudgalam | śāṇḍilyaṃ paiṅgalaṃ bhikṣumahacchārīrakaṃ śikhā"
+        },
+        {
+          "number": 36,
+          "sanskrit": "तुरीयातीतसंन्यासपरिव्राजाक्षमालिका । अव्यक्तैकाक्षरं पूर्णा सूर्याक्ष्यध्यात्मकुण्डिका",
+          "transliteration": "turīyātītasaṃnyāsaparivrājākṣamālikā | avyaktaikākṣaraṃ pūrṇā sūryākṣyadhyātmakuṇḍikā"
+        },
+        {
+          "number": 37,
+          "sanskrit": "सावित्र्यात्मा पाशुपतं परं ब्रह्मावधूतकम् । त्रिपुरातपनं देवीत्रिपुरा कठभावना । हृदयं कुण्डली भस्म रुद्राक्षगणदर्शनम्",
+          "transliteration": "sāvitryātmā pāśupataṃ paraṃ brahmāvadhūtakam | tripurātapanaṃ devītripurā kaṭhabhāvanā | hṛdayaṃ kuṇḍalī bhasma rudrākṣagaṇadarśanam"
+        },
+        {
+          "number": 38,
+          "sanskrit": "तारसारमहावाक्य पञ्चब्रह्माग्निहोत्रकम् । गोपालतपनं कृष्णं याज्ञवल्क्यं वराहकम्",
+          "transliteration": "tārasāramahāvākya pañcabrahmāgnihotrakam | gopālatapanaṃ kṛṣṇaṃ yājñavalkyaṃ varāhakam"
+        },
+        {
+          "number": 39,
+          "sanskrit": "शाट्यायनी हयग्रीवं दत्तात्रेयं च गारुडम् । कलिजाबालिसौभाग्यरहस्यऋचमुक्तिका",
+          "transliteration": "śāṭyāyanī hayagrīvaṃ dattātreyaṃ ca gāruḍam | kalijābālisaubhāgyarahasyaṛcamuktikā"
+        },
+        {
+          "number": 40,
+          "sanskrit": "एवमष्टोत्तरशतं भावनात्रयनाशनम् । ज्ञानवैराग्यदं पुंसां वासनात्रयनाशनम्",
+          "transliteration": "evamaṣṭottaraśataṃ bhāvanātrayanāśanam | jñānavairāgyadaṃ puṃsāṃ vāsanātrayanāśanam"
+        },
+        {
+          "number": 41,
+          "sanskrit": "पूर्वोत्तरेषु विहिततत्तच्छान्तिपुरःसरम् । वेदविद्याव्रतस्नातदेशिकस्य मुखात्स्वयम्",
+          "transliteration": "pūrvottareṣu vihitatattacchāntipuraḥsaram | vedavidyāvratasnātadeśikasya mukhātsvayam"
+        },
+        {
+          "number": 42,
+          "sanskrit": "गृहीत्वाष्टोत्तरशतं ये पठन्ति द्विजोत्तमाः । प्रारब्धक्षयपर्यन्तं जीवन्मुक्ता भवन्ति ते",
+          "transliteration": "gṛhītvāṣṭottaraśataṃ ye paṭhanti dvijottamāḥ | prārabdhakṣayaparyantaṃ jīvanmuktā bhavanti te"
+        },
+        {
+          "number": 43,
+          "sanskrit": "ततः कालवशादेव प्रारब्धे तु क्षयं गते । वैदेहीं मामकीं मुक्तिं यान्ति नास्त्यत्रसंशयः",
+          "transliteration": "tataḥ kālavaśādeva prārabdhe tu kṣayaṃ gate | vaidehīṃ māmakīṃ muktiṃ yānti nāstyatrasaṃśayaḥ"
+        },
+        {
+          "number": 44,
+          "sanskrit": "सर्वोपनिषदां मध्ये सारमष्टोत्तरशतम् । सकृच्छ्रवणमात्रेण सर्वाघौघनिकृन्तनम्",
+          "transliteration": "sarvopaniṣadāṃ madhye sāramaṣṭottaraśatam | sakṛcchravaṇamātreṇa sarvāghaughanikṛntanam"
         },
         {
           "number": 45,
-          "sanskrit": "अष्टोत्तरशतं तेषां नामान्यपि वदाम्यहम् | येषां श्रवणमात्रेण सर्वपापैः प्रमुच्यते ||",
-          "transliteration": "aṣṭottaraśataṃ teṣāṃ nāmānyapi vadāmyaham | yeṣāṃ śravaṇamātreṇa sarvapāpaiḥ pramucyate ||",
-          "translation": "I shall also declare the names of those one hundred and eight — by the mere hearing of whose names one is freed from all sins.",
-          "hindi": "उन एक सौ आठ (उपनिषदों) के नाम मैं कहता हूँ — जिनके केवल नाम सुनने मात्र से सभी पापों से मुक्ति हो जाती है।",
-          "commentary": "The Muktika's transition into the canonical list. The number 108 is not arbitrary — it is one of the most geometrically and astronomically significant numbers in the Hindu tradition: the ratio of the Sun's distance from Earth to the Sun's diameter is approximately 108; same for the Moon. The distance from Earth to the Sun is approximately 108 times the Sun's diameter. The 108 names of the divine, the 108 beads of the mala, the 108 Upanishads — all invoke this number as the symbol of cosmic completeness. The universe's fundamental proportions are encoded in the canon.",
-          "wordMeaning": "The Muktika's transition into the canonical list. The number 108 is not arbitrary — it is one of the most geometrically and astronomically significant numbers in the Hindu tradition: the ratio of the Sun's distance from Earth to the Sun's diameter is approximately 108; same for the Moon. The distance from Earth to the Sun is approximately 108 times the Sun's diameter. The 108 names of the divine, the 108 beads of the mala, the 108 Upanishads — all invoke this number as the symbol of cosmic completeness. The universe's fundamental proportions are encoded in the canon."
+          "sanskrit": "मयोपदिष्टं शिष्याय तुभ्यं पवननन्दन । इदं शास्त्रं मयादिष्टं गुह्यमष्टोत्तरं शतम्",
+          "transliteration": "mayopadiṣṭaṃ śiṣyāya tubhyaṃ pavananandana | idaṃ śāstraṃ mayādiṣṭaṃ guhyamaṣṭottaraṃ śatam"
         },
         {
-          "number": 78,
-          "sanskrit": "सर्वत्र समदर्शित्वं सर्वभूतहिते रतिः | समः शत्रौ च मित्रे च एवं मुक्तः स उच्यते ||",
-          "transliteration": "sarvatra samadarśitvaṃ sarvabhūtahite ratiḥ | samaḥ śatrau ca mitre ca evaṃ muktaḥ sa ucyate ||",
-          "translation": "One who sees equally everywhere; who is devoted to the welfare of all beings; who is the same toward enemy and friend — such a one is called liberated.",
-          "hindi": "जो सर्वत्र समान दृष्टि रखता है; जो सभी प्राणियों के हित में प्रीति रखता है; जो शत्रु और मित्र में समान है — ऐसे को मुक्त कहते हैं।",
-          "commentary": "The Muktika's portrait of the jivanmukta — and it is entirely ethical and relational. Liberation is not described in terms of meditative states, supernatural powers, or philosophical knowledge. It is described in terms of how one relates to others: samadarshitva (equal vision everywhere), sarvabhuta-hite rati (love for the welfare of all beings), sama toward enemy and friend. The liberated person is recognised not by their inner experience but by the quality of their presence in the world. This is the Muktika's most practical teaching.",
-          "wordMeaning": "The Muktika's portrait of the jivanmukta — and it is entirely ethical and relational. Liberation is not described in terms of meditative states, supernatural powers, or philosophical knowledge. It is described in terms of how one relates to others: samadarshitva (equal vision everywhere), sarvabhuta-hite rati (love for the welfare of all beings), sama toward enemy and friend. The liberated person is recognised not by their inner experience but by the quality of their presence in the world. This is the Muktika's most practical teaching."
+          "number": 46,
+          "sanskrit": "ज्ञानतोऽज्ञानतो वापि पठतां बन्धमोचकम् । राज्यं देयं धनं देयं याचतः कामपूरणम्",
+          "transliteration": "jñānato'jñānato vāpi paṭhatāṃ bandhamocakam | rājyaṃ deyaṃ dhanaṃ deyaṃ yācataḥ kāmapūraṇam"
         },
         {
-          "number": 95,
-          "sanskrit": "न जातु कामः कामानामुपभोगेन शाम्यति | हविषा कृष्णवर्त्मेव भूय एवाभिवर्धते ||",
-          "transliteration": "na jātu kāmaḥ kāmānāmupabhogena śāmyati | haviṣā kṛṣṇavartmeva bhūya evābhivardhate ||",
-          "translation": "Desire is never quenched by the enjoyment of desired objects — just as fire grows ever larger when fed with oblations.",
-          "hindi": "कामनाएँ कामना-वस्तुओं के उपभोग से कभी शान्त नहीं होतीं — जैसे अग्नि आहुति डालने से और भी बढ़ती है।",
-          "commentary": "Quoted by Rama from the Manusmriti (2.94) and the Mahabharata, this verse is the Muktika's explanation of why ordinary desire-satisfaction cannot produce liberation. The fire analogy is precise: oblations (havis) are the fuel offered into the sacrificial fire, which they feed rather than extinguish. Every satisfied desire creates the template for a stronger desire. This is not an argument against enjoyment but an argument against the strategy of seeking liberation through satisfaction. The jivanmukta does not suppress desire — they no longer require its satisfaction for peace.",
-          "wordMeaning": "Quoted by Rama from the Manusmriti (2.94) and the Mahabharata, this verse is the Muktika's explanation of why ordinary desire-satisfaction cannot produce liberation. The fire analogy is precise: oblations (havis) are the fuel offered into the sacrificial fire, which they feed rather than extinguish. Every satisfied desire creates the template for a stronger desire. This is not an argument against enjoyment but an argument against the strategy of seeking liberation through satisfaction. The jivanmukta does not suppress desire — they no longer require its satisfaction for peace."
+          "number": 47,
+          "sanskrit": "इदमष्टोत्तरशतं न देयं यस्य कस्यचित् । नास्तिकाय कृतघ्नाय दुराचाररताय वै",
+          "transliteration": "idamaṣṭottaraśataṃ na deyaṃ yasya kasyacit | nāstikāya kṛtaghnāya durācāraratāya vai"
+        },
+        {
+          "number": 48,
+          "sanskrit": "मद्भक्तिविमुखायापि शास्त्रगर्तेषु मुह्यते । गुरुभक्तिविहीनाय दातव्यं न कदाचन",
+          "transliteration": "madbhaktivimukhāyāpi śāstragarteṣu muhyate | gurubhaktivihīnāya dātavyaṃ na kadācana"
+        },
+        {
+          "number": 49,
+          "sanskrit": "सेवापराय शिष्याय हितपुत्राय मारुते । मद्भक्ताय सुशीलाय कुलीनाय सुमेधसे",
+          "transliteration": "sevāparāya śiṣyāya hitaputrāya mārute | madbhaktāya suśīlāya kulīnāya sumedhase"
+        },
+        {
+          "number": 50,
+          "sanskrit": "सम्यक् परीक्ष्य दातव्यमेवमष्टोत्तरं शतम् । यः पठेच्छृणुयाद्वापि स मामेति न संशयः । तदेतदृचाभ्युक्तम् । विद्या ह वै ब्राह्मणमाजगाम गोपाय मा शेवधिष्टीऽहमस्मि । असूयकायानृजवे शठाय मा मा ब्रूया वीर्यवती तथा स्याम् । यमेव विद्याश्रुतमप्रमत्तं मेधाविनं ब्रह्मचर्योपपन्नम् । तस्मा इमामुपसन्नाय सम्यक् परीक्ष्य दद्याद्वैष्णवीमात्मनिष्ठाम्",
+          "transliteration": "samyak parīkṣya dātavyamevamaṣṭottaraṃ śatam | yaḥ paṭhecchṛṇuyādvāpi sa māmeti na saṃśayaḥ | tadetadṛcābhyuktam | vidyā ha vai brāhmaṇamājagāma gopāya mā śevadhiṣṭī'hamasmi | asūyakāyānṛjave śaṭhāya mā mā brūyā vīryavatī tathā syām | yameva vidyāśrutamapramattaṃ medhāvinaṃ brahmacaryopapannam | tasmā imāmupasannāya samyak parīkṣya dadyādvaiṣṇavīmātmaniṣṭhām"
+        },
+        {
+          "number": 51,
+          "sanskrit": "इति ॥ अथ हैनं श्रीरामचन्द्रं मारुतिः पप्रच्छ ऋग्वेदादिविभागेन पृथक् शान्तिमनुब्रूहीति । स होवाच श्रीरामः । ऐतरेयकौषीतकीनादबिन्द्वात्मप्रबोधनिर्वाणमुद्गलाक्षमालिकात्रिपुरासौभाग्यबह्वृचा नामृग्वेदगतानां दशसंख्याकानामुपनिषदां वाङ्मे मनसीति शान्तिः",
+          "transliteration": "iti || atha hainaṃ śrīrāmacandraṃ mārutiḥ papraccha ṛgvedādivibhāgena pṛthak śāntimanubrūhīti | sa hovāca śrīrāmaḥ | aitareyakauṣītakīnādabindvātmaprabodhanirvāṇamudgalākṣamālikātripurāsaubhāgyabahvṛcā nāmṛgvedagatānāṃ daśasaṃkhyākānāmupaniṣadāṃ vāṅme manasīti śāntiḥ"
+        },
+        {
+          "number": 52,
+          "sanskrit": "ईशावास्यबृहदारण्यजाबालहंसपरमहंससुबालमन्त्रिकानिरालम्बत्रिशिखीब्राह्मणमण्डलब्राह्मणाद्वयतारकपैङ्गलभिक्षुतुरीयातीताध्यात्मतारसारयाज्ञवल्क्यशाट्यायनीमुक्तिकानां शुक्लयजुर्वेदगतानामेकोनविंशतिसंख्याकानामुपनिषदां पूर्णमद इति शान्तिः",
+          "transliteration": "īśāvāsyabṛhadāraṇyajābālahaṃsaparamahaṃsasubālamantrikānirālambatriśikhībrāhmaṇamaṇḍalabrāhmaṇādvayatārakapaiṅgalabhikṣuturīyātītādhyātmatārasārayājñavalkyaśāṭyāyanīmuktikānāṃ śuklayajurvedagatānāmekonaviṃśatisaṃkhyākānāmupaniṣadāṃ pūrṇamada iti śāntiḥ"
+        },
+        {
+          "number": 53,
+          "sanskrit": "कठवल्लीतैत्तिरीयकब्रह्मकैवल्यश्वेताश्वतरगर्भनारायणामृतबिन्द्वमृतनादकालाग्निरुद्रक्षुरिकासर्वसारशुकरहस्यतेजोबिन्दुध्यानबिन्दुब्रह्मविद्यायोगतत्त्वदक्षिणामूर्तिस्कन्दशारीरकयोगशिखैकाक्षराक्ष्यवधूतकठरुद्रहृदययोगकुण्डलिनीपञ्चब्रह्मप्राणाग्निहोत्रवराहकलिसन्तरणसरस्वतीरहस्यानां कृष्णयजुर्वेदगतानां द्वात्रिंशत्संख्याकानमुपनिषदां सह नाववत्विति शान्तिः",
+          "transliteration": "kaṭhavallītaittirīyakabrahmakaivalyaśvetāśvataragarbhanārāyaṇāmṛtabindvamṛtanādakālāgnirudrakṣurikāsarvasāraśukarahasyatejobindudhyānabindubrahmavidyāyogatattvadakṣiṇāmūrtiskandaśārīrakayogaśikhaikākṣarākṣyavadhūtakaṭharudrahṛdayayogakuṇḍalinīpañcabrahmaprāṇāgnihotravarāhakalisantaraṇasarasvatīrahasyānāṃ kṛṣṇayajurvedagatānāṃ dvātriṃśatsaṃkhyākānamupaniṣadāṃ saha nāvavatviti śāntiḥ"
+        },
+        {
+          "number": 54,
+          "sanskrit": "केनछान्दोग्यारुणिमैत्रायणिमैत्रेयीवज्रसूचिकायोगचूडामणिवासुदेवमहत्संन्यासाव्यक्तकुण्डिकासावित्रीरुद्राक्षजाबालदर्शनजाबालीनां सामवेदगतानां षोडशसंख्याकानामुपनिषदानामाप्यायन्त्विति शान्तिः",
+          "transliteration": "kenachāndogyāruṇimaitrāyaṇimaitreyīvajrasūcikāyogacūḍāmaṇivāsudevamahatsaṃnyāsāvyaktakuṇḍikāsāvitrīrudrākṣajābāladarśanajābālīnāṃ sāmavedagatānāṃ ṣoḍaśasaṃkhyākānāmupaniṣadānāmāpyāyantviti śāntiḥ"
+        },
+        {
+          "number": 55,
+          "sanskrit": "प्रश्नमुण्डकमाण्डुक्याथर्वशिरोऽथर्वशिखाबृहज्जाबालनृसिंहतापनीनारदपरिव्राजकसीताशरभमहानारायणरामरहस्यरामतापनीशाण्डिल्यपरमहंसपरिव्राजकान्नपूर्णासूर्यात्मपाशुपतपरब्रह्मत्रिपुरातपनदेवीभावनाब्रह्मजाबालगणपतिमहावाक्यगोपालतपनकृष्णहयग्रीवदत्तात्रेयगारुडानामथर्ववेदगतानामेकत्रिंशत्संख्याकानामुपनिषदां भद्रं कर्णेभिरिति शान्तिः",
+          "transliteration": "praśnamuṇḍakamāṇḍukyātharvaśiro'tharvaśikhābṛhajjābālanṛsiṃhatāpanīnāradaparivrājakasītāśarabhamahānārāyaṇarāmarahasyarāmatāpanīśāṇḍilyaparamahaṃsaparivrājakānnapūrṇāsūryātmapāśupataparabrahmatripurātapanadevībhāvanābrahmajābālagaṇapatimahāvākyagopālatapanakṛṣṇahayagrīvadattātreyagāruḍānāmatharvavedagatānāmekatriṃśatsaṃkhyākānāmupaniṣadāṃ bhadraṃ karṇebhiriti śāntiḥ"
+        },
+        {
+          "number": 56,
+          "sanskrit": "मुमुक्षवः पुरुषाः साधनचतुष्टयसम्पन्नाः श्रद्धावन्तः सुकुलभवं श्रोत्रियं शास्त्रवात्सल्यगुणवन्तमकुटिलं सर्वभूतहितेरतं दयासमुद्रं सद्गुरुं विधिवदुपसंगम्योपहारपाणयोऽष्टोत्तरशतोपनिषदं विधिवदधीत्य श्रवणमनननिदिध्यासनानि नैरन्तर्येण कृत्वा प्रारब्धक्षयाद्देहत्रयभंगं प्राप्योपाधिविनिर्मुक्तघटाकाशवत्परिपूर्णता विदेहमुक्तिः",
+          "transliteration": "mumukṣavaḥ puruṣāḥ sādhanacatuṣṭayasampannāḥ śraddhāvantaḥ sukulabhavaṃ śrotriyaṃ śāstravātsalyaguṇavantamakuṭilaṃ sarvabhūtahiterataṃ dayāsamudraṃ sadguruṃ vidhivadupasaṃgamyopahārapāṇayo'ṣṭottaraśatopaniṣadaṃ vidhivadadhītya śravaṇamanananididhyāsanāni nairantaryeṇa kṛtvā prārabdhakṣayāddehatrayabhaṃgaṃ prāpyopādhivinirmuktaghaṭākāśavatparipūrṇatā videhamuktiḥ"
+        },
+        {
+          "number": 57,
+          "sanskrit": "सैव कैवल्यमुक्तिरिति । अत एव ब्रह्मलोकस्था अपि ब्रह्ममुखाद्वेदान्तश्रवणादि कृत्वा तेन सह कैवल्यं लभन्ते । अतः सर्वेषां कैवल्यमुक्तिर्ज्ञानमात्रेणोक्ता । न कर्मसांख्ययोगोपासनादिभिरित्युपनिषत्",
+          "transliteration": "saiva kaivalyamuktiriti | ata eva brahmalokasthā api brahmamukhādvedāntaśravaṇādi kṛtvā tena saha kaivalyaṃ labhante | ataḥ sarveṣāṃ kaivalyamuktirjñānamātreṇoktā | na karmasāṃkhyayogopāsanādibhirityupaniṣat"
         }
       ]
     },
     {
       "number": 2,
-      "title": "The Canon of 108 — All Upanishads as One Path",
-      "titleSanskrit": "अष्टोत्तरशतोपनिषद् — एक मार्ग",
+      "title": "Adhyāya 2",
       "verses": [
         {
-          "number": 28,
-          "sanskrit": "मण्डूकः सर्वसारोऽयं सर्वोपनिषदां रहः | सर्ववेदान्तसारश्च नात्र कार्या विचारणा ||",
-          "transliteration": "maṇḍūkaḥ sarvasāro'yaṃ sarvopaniṣadāṃ rahaḥ | sarvāvedāntasāraśca nātra kāryā vicāraṇā ||",
-          "translation": "The Mandukya is the essence of everything, the secret of all Upanishads, and the essence of all Vedanta. No deliberation need be made about this.",
-          "hindi": "माण्डूक्य सबका सार है, सभी उपनिषदों का रहस्य है, और सम्पूर्ण वेदान्त का सार है। इसमें कोई विचार करने की आवश्यकता नहीं।",
-          "commentary": "The Muktika's most compact summary of its thesis. The Mandukya is not merely one among 108 — it is the secret (rahasya) that the other 107 point toward. The 108 Upanishads are 108 approaches to the same territory. The Mandukya maps that territory most directly. Rama says \"nātra kāryā vicāraṇā\" — no deliberation is needed. This is not the closing of inquiry but the recognition that some truths are not arrived at by argument; they are recognised by direct seeing. The Mandukya invites you to see — now, directly — what is always already present.",
-          "wordMeaning": "The Muktika's most compact summary of its thesis. The Mandukya is not merely one among 108 — it is the secret (rahasya) that the other 107 point toward. The 108 Upanishads are 108 approaches to the same territory. The Mandukya maps that territory most directly. Rama says \"nātra kāryā vicāraṇā\" — no deliberation is needed. This is not the closing of inquiry but the recognition that some truths are not arrived at by argument; they are recognised by direct seeing. The Mandukya invites you to see — now, directly — what is always already present."
+          "number": 1,
+          "sanskrit": "तथा हैनं श्रीरामचन्द्रं मारुतिः पप्रच्छ । केयं वा तत्सिद्धिः सिद्ध्या वा किं प्रयोजनमिति । सहोवाच श्रीरामः । पुरुषस्य कर्तृत्वभोक्तृत्वसुखदुःखादिलक्षणश्चित्तधर्मः क्लेशरूपत्वाद्बन्धो भवति । तन्निरोधनं जीवन्मुक्तिः । उपाधिविनिर्मुक्तघटाकाशवत्प्रारब्धक्षयाद्विदेहमुक्तिः । जीवन्मुक्तिविदेहमुक्त्योरष्टोत्तरशतोपनिषदः प्रमाणम् । कर्तृत्वादिदुःखनिवृत्तिद्वारा नित्यानन्दावाप्तिः प्रयोजनं भवति । तत्पुरुषप्रयत्नसाध्यं भवति । यथा पुत्रकामेष्टिना पुत्रं वाणिज्यादिना वित्तं ज्योतिष्टोमेन स्वर्गं तथा पुरुषप्रयत्नसाध्यवेदान्तश्रवणादिजनितसमाधिना जीवन्मुक्त्यादिलाभो भवति । सर्ववासनाक्षयात्तल्लाभः । अत्र श्लोका भवन्ति ॥ उच्छास्त्रं शास्त्रितं चेति पौरुषं द्विविधं मतम् । अत्रोच्छस्त्रमनर्थाय परमार्थाय शास्त्रितम्",
+          "transliteration": "tathā hainaṃ śrīrāmacandraṃ mārutiḥ papraccha | keyaṃ vā tatsiddhiḥ siddhyā vā kiṃ prayojanamiti | sahovāca śrīrāmaḥ | puruṣasya kartṛtvabhoktṛtvasukhaduḥkhādilakṣaṇaścittadharmaḥ kleśarūpatvādbandho bhavati | tannirodhanaṃ jīvanmuktiḥ | upādhivinirmuktaghaṭākāśavatprārabdhakṣayādvidehamuktiḥ | jīvanmuktividehamuktyoraṣṭottaraśatopaniṣadaḥ pramāṇam | kartṛtvādiduḥkhanivṛttidvārā nityānandāvāptiḥ prayojanaṃ bhavati | tatpuruṣaprayatnasādhyaṃ bhavati | yathā putrakāmeṣṭinā putraṃ vāṇijyādinā vittaṃ jyotiṣṭomena svargaṃ tathā puruṣaprayatnasādhyavedāntaśravaṇādijanitasamādhinā jīvanmuktyādilābho bhavati | sarvavāsanākṣayāttallābhaḥ | atra ślokā bhavanti || ucchāstraṃ śāstritaṃ ceti pauruṣaṃ dvividhaṃ matam | atrocchastramanarthāya paramārthāya śāstritam"
         },
         {
-          "number": 45,
-          "sanskrit": "अष्टोत्तरशतं तेषां नामान्यपि वदाम्यहम् | येषां श्रवणमात्रेण सर्वपापैः प्रमुच्यते ||",
-          "transliteration": "aṣṭottaraśataṃ teṣāṃ nāmānyapi vadāmyaham | yeṣāṃ śravaṇamātreṇa sarvapāpaiḥ pramucyate ||",
-          "translation": "I shall also declare the names of those one hundred and eight — by the mere hearing of whose names one is freed from all sins.",
-          "hindi": "उन एक सौ आठ (उपनिषदों) के नाम मैं कहता हूँ — जिनके केवल नाम सुनने मात्र से सभी पापों से मुक्ति हो जाती है।",
-          "commentary": "The Muktika's transition into the canonical list. The number 108 is not arbitrary — it is one of the most geometrically and astronomically significant numbers in the Hindu tradition: the ratio of the Sun's distance from Earth to the Sun's diameter is approximately 108; same for the Moon. The distance from Earth to the Sun is approximately 108 times the Sun's diameter. The 108 names of the divine, the 108 beads of the mala, the 108 Upanishads — all invoke this number as the symbol of cosmic completeness. The universe's fundamental proportions are encoded in the canon.",
-          "wordMeaning": "The Muktika's transition into the canonical list. The number 108 is not arbitrary — it is one of the most geometrically and astronomically significant numbers in the Hindu tradition: the ratio of the Sun's distance from Earth to the Sun's diameter is approximately 108; same for the Moon. The distance from Earth to the Sun is approximately 108 times the Sun's diameter. The 108 names of the divine, the 108 beads of the mala, the 108 Upanishads — all invoke this number as the symbol of cosmic completeness. The universe's fundamental proportions are encoded in the canon."
-        }
-      ]
-    },
-    {
-      "number": 3,
-      "title": "Jivanmukti — Liberation While Living",
-      "titleSanskrit": "जीवन्मुक्ति",
-      "verses": [
+          "number": 2,
+          "sanskrit": "लोकवासनया जन्तोः शास्त्रवासनयापि च । देहवासनया ज्ञानं यथावन्नैव जायते",
+          "transliteration": "lokavāsanayā jantoḥ śāstravāsanayāpi ca | dehavāsanayā jñānaṃ yathāvannaiva jāyate"
+        },
+        {
+          "number": 3,
+          "sanskrit": "द्विविधा वासनाव्यूहः शुभश्चैवाशुभश्च तौ । वासनौघेन शुद्धेन तत्र चेदनुनीयसे",
+          "transliteration": "dvividhā vāsanāvyūhaḥ śubhaścaivāśubhaśca tau | vāsanaughena śuddhena tatra cedanunīyase"
+        },
+        {
+          "number": 4,
+          "sanskrit": "तत्क्रमेणाशु तेनैव मामकं पदमाप्नुहि । अथ चेदशुभो भावस्त्वां योजयति संकटे",
+          "transliteration": "tatkrameṇāśu tenaiva māmakaṃ padamāpnuhi | atha cedaśubho bhāvastvāṃ yojayati saṃkaṭe"
+        },
         {
           "number": 5,
-          "sanskrit": "योगश्चित्तवृत्तिरोधो योगो मोक्षप्रदायकः | योगः सर्वबन्धानां योगो मुक्तिसमाश्रयः ||",
-          "transliteration": "yogaścittavṛttirodho yogo mokṣapradāyakaḥ | yogaḥ sarvabandhānāṃ yogaḥ muktisamāśrayaḥ ||",
-          "translation": "Yoga is the cessation of mental modifications; yoga gives liberation. Yoga cuts all bonds; yoga rests on liberation.",
-          "hindi": "योग चित्त-वृत्तियों का निरोध है; योग मोक्ष देता है। योग सभी बंधनों को काटता है; योग मुक्ति पर आश्रित है।",
-          "commentary": "The definition of yoga from Yoga Sutras, placed in the context of liberation. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of mukti.",
-          "wordMeaning": "The definition of yoga from Yoga Sutras, placed in the context of liberation. Yoga is the cessation of mental modifications, leading to liberation. All bonds are cut through this practice, which rests on the foundation of mukti."
+          "sanskrit": "प्राक्तनस्तदसौ यत्नाज्जेतव्यो भवता कपे । शुभाशुभाभ्यां मार्गाभ्यां वहन्ती वासनासरित्",
+          "transliteration": "prāktanastadasau yatnājjetavyo bhavatā kape | śubhāśubhābhyāṃ mārgābhyāṃ vahantī vāsanāsarit"
+        },
+        {
+          "number": 6,
+          "sanskrit": "पौरुषेण प्रयत्नेन योजनीया शुभे पथि । अशुभेषु समाविष्टं शुभेष्वेवावतारयेत्",
+          "transliteration": "pauruṣeṇa prayatnena yojanīyā śubhe pathi | aśubheṣu samāviṣṭaṃ śubheṣvevāvatārayet"
+        },
+        {
+          "number": 7,
+          "sanskrit": "अशुभाच्चालितं याति शुभं तस्मादपीतरत् । पौरुषेण प्रयत्नेन लालयेच्चित्तबालकम्",
+          "transliteration": "aśubhāccālitaṃ yāti śubhaṃ tasmādapītarat | pauruṣeṇa prayatnena lālayeccittabālakam"
+        },
+        {
+          "number": 8,
+          "sanskrit": "द्रागभ्यासवशाद्याति यदा ते वासनोदयम् । तदाभ्यासस्य साफल्यं विद्धि त्वममरिमर्दन",
+          "transliteration": "drāgabhyāsavaśādyāti yadā te vāsanodayam | tadābhyāsasya sāphalyaṃ viddhi tvamamarimardana"
+        },
+        {
+          "number": 9,
+          "sanskrit": "सन्दिग्धायामपि भृशं शुभामेव समाचर । शुभायां वासनावृद्धौ न दोषाय मरुत्सुत",
+          "transliteration": "sandigdhāyāmapi bhṛśaṃ śubhāmeva samācara | śubhāyāṃ vāsanāvṛddhau na doṣāya marutsuta"
         },
         {
           "number": 10,
-          "sanskrit": "अहं ब्रह्मास्मि न त्वं भूतिर्न च भूतानि | सर्वं मुक्ति एव सर्वं मुक्ति मयि सर्वम् ||",
-          "transliteration": "ahaṃ brahmāsmi na tvaṃ bhūtirna ca bhūtāni | sarvaṃ mukti eva sarvaṃ mukti mayi sarvam ||",
-          "translation": "I am Brahman, not you; I am birth, not beings; all is liberation alone, all is liberation in me.",
-          "hindi": "मैं ब्रह्म हूँ, तुम नहीं; मैं जन्म हूँ, प्राणी नहीं; सब मुक्ति ही है, सब मुक्ति मेरे में है।",
-          "commentary": "The declaration of non-duality with liberation as the supreme. The individual Self is Brahman; the world is liberation; all distinctions dissolve in this recognition.",
-          "wordMeaning": "The declaration of non-duality with liberation as the supreme. The individual Self is Brahman; the world is liberation; all distinctions dissolve in this recognition."
+          "sanskrit": "वासनाक्षयविज्ञानमनोनाशा महामते । समकालं चिराभ्यस्ता भवन्ति फलदा मताः",
+          "transliteration": "vāsanākṣayavijñānamanonāśā mahāmate | samakālaṃ cirābhyastā bhavanti phaladā matāḥ"
+        },
+        {
+          "number": 11,
+          "sanskrit": "त्रय एवं समं यावन्नाभ्यस्ताश्च पुनः पुनः । तावन्न पदसम्प्राप्तिर्भवत्यपि समाशतैः",
+          "transliteration": "traya evaṃ samaṃ yāvannābhyastāśca punaḥ punaḥ | tāvanna padasamprāptirbhavatyapi samāśataiḥ"
+        },
+        {
+          "number": 12,
+          "sanskrit": "एकैकशो निषेव्यन्ते यद्येते चिरमप्यलम् । तन्न सिद्धिं प्रयच्छन्ति मन्त्राः संकीर्तिता इव",
+          "transliteration": "ekaikaśo niṣevyante yadyete ciramapyalam | tanna siddhiṃ prayacchanti mantrāḥ saṃkīrtitā iva"
+        },
+        {
+          "number": 13,
+          "sanskrit": "त्रिभिरेतैश्चिराभ्यस्तैर्हृदयग्रन्थयो दृढाः । निःशङ्कमेव त्रुठ्यन्ति बिसच्छेदाद्गुणा इव",
+          "transliteration": "tribhiretaiścirābhyastairhṛdayagranthayo dṛḍhāḥ | niḥśaṅkameva truṭhyanti bisacchedādguṇā iva"
+        },
+        {
+          "number": 14,
+          "sanskrit": "जन्मान्तशताभ्यस्ता मिथ्या संसारवासना । सा चिराभ्यासयोगेन विना न क्षीयते क्वचित्",
+          "transliteration": "janmāntaśatābhyastā mithyā saṃsāravāsanā | sā cirābhyāsayogena vinā na kṣīyate kvacit"
         },
         {
           "number": 15,
-          "sanskrit": "यथा नदी समुद्रेषु यथा दीपो दीतेषु | तथा जीवो मुक्तौ लीनो न तत्र संशयो भवति ||",
-          "transliteration": "yathā nadī samudreṣu yathā dīpo dīpiteṣu | tathā jīvo muktau līno na tatra saṃśayo bhavati ||",
-          "translation": "As rivers merge into the ocean, as lamps merge into light — so the individual self merges into liberation. There is no doubt about this.",
-          "hindi": "जैसे नदियाँ समुद्र में लीन हो जाती हैं, जैसे दीप ज्योति में लीन हो जाते हैं — वैसे ही जीव मुक्ति में लीन हो जाता है। इसमें कोई संशय नहीं।",
-          "commentary": "The dissolution of individuality into liberation. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains.",
-          "wordMeaning": "The dissolution of individuality into liberation. The images of rivers into ocean and lamps into light illustrate the loss of separate identity while the essence remains."
+          "sanskrit": "तस्मात्सौम्य प्रयत्नेन पौरुषेण विवेकिना । भोगेच्छां दूरतस्त्यक्त्वा त्रयमेव समाश्रय",
+          "transliteration": "tasmātsaumya prayatnena pauruṣeṇa vivekinā | bhogecchāṃ dūratastyaktvā trayameva samāśraya"
+        },
+        {
+          "number": 16,
+          "sanskrit": "तस्माद्वासनया युक्तं मनो बद्धं विदुर्बुधाः । सम्यग्वासनया त्यक्तं मुक्तमित्यभिधीयते । मनोनिर्वासनीभावमाचराशु महाकपे",
+          "transliteration": "tasmādvāsanayā yuktaṃ mano baddhaṃ vidurbudhāḥ | samyagvāsanayā tyaktaṃ muktamityabhidhīyate | manonirvāsanībhāvamācarāśu mahākape"
+        },
+        {
+          "number": 17,
+          "sanskrit": "सम्यगालोचनात्सत्याद्वासना प्रविलीयते । वासनाविलये चेतः शममायाति दीपवत्",
+          "transliteration": "samyagālocanātsatyādvāsanā pravilīyate | vāsanāvilaye cetaḥ śamamāyāti dīpavat"
+        },
+        {
+          "number": 18,
+          "sanskrit": "वासनां सम्परित्यज्य मयि चिन्मात्र विग्रहे । यस्तिष्ठति गतो व्यग्रः सोऽहं सच्चित्सुखात्मकः",
+          "transliteration": "vāsanāṃ samparityajya mayi cinmātra vigrahe | yastiṣṭhati gato vyagraḥ so'haṃ saccitsukhātmakaḥ"
+        },
+        {
+          "number": 19,
+          "sanskrit": "समाधिमथ कार्याणि मा करोतु करोतु वा । हृदयेनात्तसर्वेहो मुक्त एवोत्तमाशयः",
+          "transliteration": "samādhimatha kāryāṇi mā karotu karotu vā | hṛdayenāttasarveho mukta evottamāśayaḥ"
         },
         {
           "number": 20,
-          "sanskrit": "शान्तं शिवमद्वैतं मुक्ति नित्यं शुद्धमच्युतम् | यो जानाति स पश्यति यो न जानाति न पश्यति ||",
-          "transliteration": "śāntaṃ śivamadvaitaṃ mukti nityaṃ śuddhamacyutam | yo jānāti sa paśyati yo na jānāti na paśyati ||",
-          "translation": "Peaceful, auspicious, non-dual liberation — eternal, pure, immutable. He who knows, sees; he who does not know, does not see.",
-          "hindi": "शांत, शिव, अद्वैत मुक्ति — नित्य, शुद्ध, अच्युत। जो जानता है, वह देखता है; जो नहीं जानता, वह नहीं देखता।",
-          "commentary": "The attributes of liberation: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness.",
-          "wordMeaning": "The attributes of liberation: peaceful, auspicious, non-dual, eternal, pure, immutable. Knowledge is seeing; ignorance is blindness."
+          "sanskrit": "नैष्कर्म्येण न तस्यार्थस्तस्यार्थोऽस्ति न कर्मभिः । न ससाधनजाप्याभ्यां यस्य निर्वासनं मनः",
+          "transliteration": "naiṣkarmyeṇa na tasyārthastasyārtho'sti na karmabhiḥ | na sasādhanajāpyābhyāṃ yasya nirvāsanaṃ manaḥ"
+        },
+        {
+          "number": 21,
+          "sanskrit": "संत्यक्तवासनान्मौनादृते नास्त्युत्तमं पदम्",
+          "transliteration": "saṃtyaktavāsanānmaunādṛte nāstyuttamaṃ padam"
+        },
+        {
+          "number": 22,
+          "sanskrit": "वासनाहीनमप्येतच्चक्षुरादीन्द्रियं स्वतः । प्रवर्तते बहिः स्वाऽर्थे वासनामात्रकारणम्",
+          "transliteration": "vāsanāhīnamapyetaccakṣurādīndriyaṃ svataḥ | pravartate bahiḥ svā'rthe vāsanāmātrakāraṇam"
+        },
+        {
+          "number": 23,
+          "sanskrit": "अयत्नोपनतेष्वक्षि दृग्द्रव्येषु यथा पुनः । नीरागमेव पतति तद्वत्कार्येषु धीरधीः",
+          "transliteration": "ayatnopanateṣvakṣi dṛgdravyeṣu yathā punaḥ | nīrāgameva patati tadvatkāryeṣu dhīradhīḥ"
+        },
+        {
+          "number": 24,
+          "sanskrit": "भावसंवित्प्रकटितामनुरूपा च मारुते । चित्तस्योत्पत्युपरमा वासनां मुनयो विदुः",
+          "transliteration": "bhāvasaṃvitprakaṭitāmanurūpā ca mārute | cittasyotpatyuparamā vāsanāṃ munayo viduḥ"
         },
         {
           "number": 25,
-          "sanskrit": "एको देवो द्वितीयो नास्ति यो मुक्तिं वेद तत्त्वतः | सोऽहमस्मि न किंचिद्भूतो न मृत्युर्न शोको न तथा ||",
-          "transliteration": "eko devo dvitīyo nāsti yo muktiṃ veda tattvataḥ | so'hamasmi na kiñcidbhūto na mṛtyurna śoko na tathā ||",
-          "translation": "There is one God, no second — he who knows liberation in truth. I am He, not any being, no death, no sorrow, and so on.",
-          "hindi": "एक ही देव है, दूसरा कोई नहीं — जो मुक्ति को तत्व से जानता है। मैं वही हूँ, कोई प्राणी नहीं, मृत्यु नहीं, शोक नहीं, वगैरह।",
-          "commentary": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering.",
-          "wordMeaning": "The affirmation of non-duality: one reality, no second. The knower recognizes \"I am He\" and transcends death, sorrow, and all suffering."
+          "sanskrit": "दृढाभ्यस्तपदार्थैकभावनादतिचञ्चलम् । चित्तं संजायते जन्मजरामरणकारणम्",
+          "transliteration": "dṛḍhābhyastapadārthaikabhāvanādaticañcalam | cittaṃ saṃjāyate janmajarāmaraṇakāraṇam"
+        },
+        {
+          "number": 26,
+          "sanskrit": "वासनावशतः प्राणस्पन्दस्तेन च वासना । क्रियते चित्तबीजस्य तेन बीजाङ्कुरक्रमः",
+          "transliteration": "vāsanāvaśataḥ prāṇaspandastena ca vāsanā | kriyate cittabījasya tena bījāṅkurakramaḥ"
+        },
+        {
+          "number": 27,
+          "sanskrit": "द्वे बीजे चित्तवृक्षस्य प्राणस्पन्दनवासने । एकस्मिंश्च तयोः क्षीणे क्षिप्रं द्वे अपि नश्यतः",
+          "transliteration": "dve bīje cittavṛkṣasya prāṇaspandanavāsane | ekasmiṃśca tayoḥ kṣīṇe kṣipraṃ dve api naśyataḥ"
+        },
+        {
+          "number": 28,
+          "sanskrit": "असङ्गव्यवहारत्वाद्भवभावनवर्जनात् । शरीरनाशदर्शित्वाद्वासना न प्रवर्तते । वासनासम्परित्यागाच्चितं गच्छत्यचित्तताम्",
+          "transliteration": "asaṅgavyavahāratvādbhavabhāvanavarjanāt | śarīranāśadarśitvādvāsanā na pravartate | vāsanāsamparityāgāccitaṃ gacchatyacittatām"
+        },
+        {
+          "number": 29,
+          "sanskrit": "अवासनत्वात्सततं यदा न मनुते मनः । अमनस्ता तदोदेति परमोपशमप्रदा",
+          "transliteration": "avāsanatvātsatataṃ yadā na manute manaḥ | amanastā tadodeti paramopaśamapradā"
+        },
+        {
+          "number": 30,
+          "sanskrit": "अव्युत्पन्नमना यावद्भवानज्ञाततत्पदः । गुरुशास्त्रप्रमाणैस्तु निर्णीतं तावदाचर",
+          "transliteration": "avyutpannamanā yāvadbhavānajñātatatpadaḥ | guruśāstrapramāṇaistu nirṇītaṃ tāvadācara"
+        },
+        {
+          "number": 31,
+          "sanskrit": "ततः पक्वकषायेण नूनं विज्ञात वस्तुना । शुभोऽप्यसौ त्वया त्याज्यो वासनौघो निराधिना",
+          "transliteration": "tataḥ pakvakaṣāyeṇa nūnaṃ vijñāta vastunā | śubho'pyasau tvayā tyājyo vāsanaugho nirādhinā"
+        },
+        {
+          "number": 32,
+          "sanskrit": "द्विविधचित्तनाशोऽस्ति सरूपोऽरूप एव च । जीवन्मुक्तः सरूपः स्यादरूपो देहमुक्तिगः",
+          "transliteration": "dvividhacittanāśo'sti sarūpo'rūpa eva ca | jīvanmuktaḥ sarūpaḥ syādarūpo dehamuktigaḥ"
+        },
+        {
+          "number": 34,
+          "sanskrit": "अस्य नाशमिदानीं त्वं पावने श्रुणु सादरम् ॥ ३३। चित्तानाशाभिधानं हि यदा ते विद्यते पुनः । मैत्र्यादिभिर्गुणैर्युक्तं शान्तिमेति न संशयः । भूयोजन्मविनिर्मुक्तं जीवन्मुक्तस्य तन्मनः",
+          "transliteration": "asya nāśamidānīṃ tvaṃ pāvane śruṇu sādaram || 33| cittānāśābhidhānaṃ hi yadā te vidyate punaḥ | maitryādibhirguṇairyuktaṃ śāntimeti na saṃśayaḥ | bhūyojanmavinirmuktaṃ jīvanmuktasya tanmanaḥ"
+        },
+        {
+          "number": 35,
+          "sanskrit": "सरूपोऽसौ मनोनाशो जीवन्मुक्तस्य विद्यते । अरूपस्तु मनोनाशो वैदेही मुक्तिगो भवेत्",
+          "transliteration": "sarūpo'sau manonāśo jīvanmuktasya vidyate | arūpastu manonāśo vaidehī muktigo bhavet"
+        },
+        {
+          "number": 36,
+          "sanskrit": "सहस्राङ्कुरशाखात्मफलपल्लवशालिनः",
+          "transliteration": "sahasrāṅkuraśākhātmaphalapallavaśālinaḥ"
+        },
+        {
+          "number": 37,
+          "sanskrit": "अस्य संसारवृक्षस्य मनोमूलमिदं स्थितम् । संकल्प एव तन्मन्ये संकल्पोपशमेन तत्",
+          "transliteration": "asya saṃsāravṛkṣasya manomūlamidaṃ sthitam | saṃkalpa eva tanmanye saṃkalpopaśamena tat"
+        },
+        {
+          "number": 38,
+          "sanskrit": "शोषयाशु यथा शोषमेति संसारपादपः । उपाय एक एवास्ति मनसः स्वस्य निग्रहे",
+          "transliteration": "śoṣayāśu yathā śoṣameti saṃsārapādapaḥ | upāya eka evāsti manasaḥ svasya nigrahe"
+        },
+        {
+          "number": 39,
+          "sanskrit": "मनसोऽभ्युदयो नाशो मनोनाशो महोदयः । ज्ञमनो नाशमभ्येति मनो ज्ञस्य हि शृङ्खला",
+          "transliteration": "manaso'bhyudayo nāśo manonāśo mahodayaḥ | jñamano nāśamabhyeti mano jñasya hi śṛṅkhalā"
+        },
+        {
+          "number": 40,
+          "sanskrit": "तावन्निशीव वेताला वल्गन्ति हृदि वासनाः । एकतत्त्वदृढाभ्यासाद्यावन्न विजितं मनः",
+          "transliteration": "tāvanniśīva vetālā valganti hṛdi vāsanāḥ | ekatattvadṛḍhābhyāsādyāvanna vijitaṃ manaḥ"
+        },
+        {
+          "number": 41,
+          "sanskrit": "प्रक्षीणचित्तदर्पस्य निगृहीतेन्द्रियद्विषः । पद्मिन्य इव हेमन्ते क्षीयन्ते भोगवासनाः",
+          "transliteration": "prakṣīṇacittadarpasya nigṛhītendriyadviṣaḥ | padminya iva hemante kṣīyante bhogavāsanāḥ"
+        },
+        {
+          "number": 42,
+          "sanskrit": "हस्तं हस्तेन सम्पीड्य दन्तैर्दन्तान्विचूर्ण्य च । अङ्गान्यङ्गैः समाक्रम्य जयेदादौ स्वकं मनः",
+          "transliteration": "hastaṃ hastena sampīḍya dantairdantānvicūrṇya ca | aṅgānyaṅgaiḥ samākramya jayedādau svakaṃ manaḥ"
+        },
+        {
+          "number": 43,
+          "sanskrit": "उपविश्योपविश्यैकां चिन्तकेन मुहुर्मुहुः । न शक्यते मनो जेतुं विना युक्तिमनिन्दिताम्",
+          "transliteration": "upaviśyopaviśyaikāṃ cintakena muhurmuhuḥ | na śakyate mano jetuṃ vinā yuktimaninditām"
+        },
+        {
+          "number": 44,
+          "sanskrit": "अङ्कुशेन विना मत्तो यथा दुष्टमतङ्गजः । अध्यात्मविद्याधिगमः साधुसंगतिरेव च",
+          "transliteration": "aṅkuśena vinā matto yathā duṣṭamataṅgajaḥ | adhyātmavidyādhigamaḥ sādhusaṃgatireva ca"
+        },
+        {
+          "number": 45,
+          "sanskrit": "वासनासम्परित्यागः प्राणस्पन्दनिरोधनम् । एतास्ता युक्तयः पुष्टाः सन्ति चित्तजये किल",
+          "transliteration": "vāsanāsamparityāgaḥ prāṇaspandanirodhanam | etāstā yuktayaḥ puṣṭāḥ santi cittajaye kila"
+        },
+        {
+          "number": 46,
+          "sanskrit": "सतीषु युक्तिष्वेतासु हठान्नियमन्ति ये । चेतसो दीपमुत्सृज्य विचिन्वन्ति तमोऽञ्जनैः",
+          "transliteration": "satīṣu yuktiṣvetāsu haṭhānniyamanti ye | cetaso dīpamutsṛjya vicinvanti tamo'ñjanaiḥ"
+        },
+        {
+          "number": 47,
+          "sanskrit": "विमूढाः कर्तुमुद्युक्ता ये हठाच्चेतसो जयम् । ते निबध्नन्ति नागेन्द्रमुन्मत्तं बिसतन्तुभिः",
+          "transliteration": "vimūḍhāḥ kartumudyuktā ye haṭhāccetaso jayam | te nibadhnanti nāgendramunmattaṃ bisatantubhiḥ"
+        },
+        {
+          "number": 48,
+          "sanskrit": "द्वे बीजे चित्तवृक्षस्य वृत्तिव्रततिधारणः । एकं प्राणपरिस्पन्दो द्वितीयं दृढभावना",
+          "transliteration": "dve bīje cittavṛkṣasya vṛttivratatidhāraṇaḥ | ekaṃ prāṇaparispando dvitīyaṃ dṛḍhabhāvanā"
+        },
+        {
+          "number": 49,
+          "sanskrit": "सा हि सर्वगता संवित्प्राणास्पन्देन चाल्यते । चित्तैकाग्र्याद्यतो ज्ञानमुक्तं समुपजायते",
+          "transliteration": "sā hi sarvagatā saṃvitprāṇāspandena cālyate | cittaikāgryādyato jñānamuktaṃ samupajāyate"
+        },
+        {
+          "number": 50,
+          "sanskrit": "तत्साधनमथो ध्यानं यथावदुपदिश्यते । विनाप्यविकृतिं कृत्स्नां संभवव्यत्ययक्रमात् । यशोऽरिष्टं च चिन्मात्रं चिदानन्दं विचिन्तय",
+          "transliteration": "tatsādhanamatho dhyānaṃ yathāvadupadiśyate | vināpyavikṛtiṃ kṛtsnāṃ saṃbhavavyatyayakramāt | yaśo'riṣṭaṃ ca cinmātraṃ cidānandaṃ vicintaya"
+        },
+        {
+          "number": 51,
+          "sanskrit": "अपानेऽस्तंगते प्राणो यावन्नाभ्युदितो हृदि । तावत्सा कुंभकावस्था योगिभिर्यानुभूयते",
+          "transliteration": "apāne'staṃgate prāṇo yāvannābhyudito hṛdi | tāvatsā kuṃbhakāvasthā yogibhiryānubhūyate"
+        },
+        {
+          "number": 52,
+          "sanskrit": "बहिरस्तंगते प्राणे यावन्नापान उद्गतः । तावत्पूर्णां समावस्थां बहिष्ठं कुम्भकं विदुः",
+          "transliteration": "bahirastaṃgate prāṇe yāvannāpāna udgataḥ | tāvatpūrṇāṃ samāvasthāṃ bahiṣṭhaṃ kumbhakaṃ viduḥ"
+        },
+        {
+          "number": 53,
+          "sanskrit": "ब्रह्माकारमनोवृत्तिप्रवाहोऽहंकृतं विना । सम्प्रज्ञातसमाधिः स्याद्ध्यानाभ्यासप्रकर्षतः",
+          "transliteration": "brahmākāramanovṛttipravāho'haṃkṛtaṃ vinā | samprajñātasamādhiḥ syāddhyānābhyāsaprakarṣataḥ"
+        },
+        {
+          "number": 54,
+          "sanskrit": "प्रशान्तवृत्तिकं चित्तं परमानन्ददायकम् । असम्प्रज्ञातनामायं समाधिर्योगिनां प्रियः",
+          "transliteration": "praśāntavṛttikaṃ cittaṃ paramānandadāyakam | asamprajñātanāmāyaṃ samādhiryogināṃ priyaḥ"
+        },
+        {
+          "number": 55,
+          "sanskrit": "प्रभाशून्यं मनःशून्यं बुद्धिशून्यं चिदात्मकम् । अतद्व्यावृत्तिरूपोऽसौ समाधिर्मुनिभावितः",
+          "transliteration": "prabhāśūnyaṃ manaḥśūnyaṃ buddhiśūnyaṃ cidātmakam | atadvyāvṛttirūpo'sau samādhirmunibhāvitaḥ"
+        },
+        {
+          "number": 56,
+          "sanskrit": "ऊर्ध्वपूर्णमधःपूर्णं मध्यपूर्णं शिवात्मकम् । साक्षाद्विधिमुखो ह्येष समाधिः पारमार्थिकः",
+          "transliteration": "ūrdhvapūrṇamadhaḥpūrṇaṃ madhyapūrṇaṃ śivātmakam | sākṣādvidhimukho hyeṣa samādhiḥ pāramārthikaḥ"
+        },
+        {
+          "number": 57,
+          "sanskrit": "दृढभावनया त्यक्तपूर्वापरविचारणम् । यदादानं पदार्थस्य वासना सा प्रकीर्तिता",
+          "transliteration": "dṛḍhabhāvanayā tyaktapūrvāparavicāraṇam | yadādānaṃ padārthasya vāsanā sā prakīrtitā"
+        },
+        {
+          "number": 58,
+          "sanskrit": "भावितं तीव्रसंवेगादात्मना यत्तदेव सः । भवत्याशु कपिश्रेष्ठ विगतेतरवासनः",
+          "transliteration": "bhāvitaṃ tīvrasaṃvegādātmanā yattadeva saḥ | bhavatyāśu kapiśreṣṭha vigatetaravāsanaḥ"
+        },
+        {
+          "number": 59,
+          "sanskrit": "तादृग्रूपो हि पुरुषो वासनाविवशीकृतः । सम्पश्यति यदैवैतत्सद्वस्त्विति विमुह्यति",
+          "transliteration": "tādṛgrūpo hi puruṣo vāsanāvivaśīkṛtaḥ | sampaśyati yadaivaitatsadvastviti vimuhyati"
+        },
+        {
+          "number": 60,
+          "sanskrit": "वासनावेगवैचित्र्यात्स्वरूपं न जहाति तत् । भ्रान्तं पश्यति दुर्दृष्टिः सर्वं मदवशादिव",
+          "transliteration": "vāsanāvegavaicitryātsvarūpaṃ na jahāti tat | bhrāntaṃ paśyati durdṛṣṭiḥ sarvaṃ madavaśādiva"
+        },
+        {
+          "number": 61,
+          "sanskrit": "वासना द्विविधा प्रोक्ता शुद्धा च मलिना तथा । मलिना जन्महेतुः स्याच्छुद्धा जन्मविनाशिनी",
+          "transliteration": "vāsanā dvividhā proktā śuddhā ca malinā tathā | malinā janmahetuḥ syācchuddhā janmavināśinī"
+        },
+        {
+          "number": 62,
+          "sanskrit": "अज्ञानसुघनाकारा घनाहंकारशालिनी । पुनर्जन्मकरी प्रोक्ता मलिना वासना बुधैः । पुनर्जन्माङ्कुरं त्यक्त्वा स्थितिः संभृष्टबीजवत्",
+          "transliteration": "ajñānasughanākārā ghanāhaṃkāraśālinī | punarjanmakarī proktā malinā vāsanā budhaiḥ | punarjanmāṅkuraṃ tyaktvā sthitiḥ saṃbhṛṣṭabījavat"
+        },
+        {
+          "number": 63,
+          "sanskrit": "बहुशास्त्रकथाकन्थारोमन्थेन वृथैव किम् । अन्वेष्टव्यं प्रयत्नेन मारुते ज्योतिरान्तरम्",
+          "transliteration": "bahuśāstrakathākanthāromanthena vṛthaiva kim | anveṣṭavyaṃ prayatnena mārute jyotirāntaram"
+        },
+        {
+          "number": 64,
+          "sanskrit": "दर्शनादर्शने हित्वा स्वयं केवलरूपतः । य आस्ते कपिशार्दूल ब्रह्म स ब्रह्मवित्स्वयम्",
+          "transliteration": "darśanādarśane hitvā svayaṃ kevalarūpataḥ | ya āste kapiśārdūla brahma sa brahmavitsvayam"
+        },
+        {
+          "number": 65,
+          "sanskrit": "अधीत्य चतुरो वेदान्सर्वशास्त्राण्यनेकशः । ब्रह्मतत्त्वं न जानाति दर्वी पाकरसं यथा",
+          "transliteration": "adhītya caturo vedānsarvaśāstrāṇyanekaśaḥ | brahmatattvaṃ na jānāti darvī pākarasaṃ yathā"
+        },
+        {
+          "number": 66,
+          "sanskrit": "स्वदेहाशुचिगन्धेन न विरज्येत यः पुमान् । विरागकारणं तस्य किमन्यदुपदिश्यते",
+          "transliteration": "svadehāśucigandhena na virajyeta yaḥ pumān | virāgakāraṇaṃ tasya kimanyadupadiśyate"
+        },
+        {
+          "number": 67,
+          "sanskrit": "अत्यन्तमलिनो देहो देही चात्यन्तनिर्मलः । उभयोरन्तरं ज्ञात्वा कस्य शौचं विधीयते",
+          "transliteration": "atyantamalino deho dehī cātyantanirmalaḥ | ubhayorantaraṃ jñātvā kasya śaucaṃ vidhīyate"
+        },
+        {
+          "number": 68,
+          "sanskrit": "बद्धो हि वासनाबद्धो मोक्षः स्याद्वासनाक्षयः । वासनां सम्परित्यज्य मोक्षार्थित्वमपि त्यज",
+          "transliteration": "baddho hi vāsanābaddho mokṣaḥ syādvāsanākṣayaḥ | vāsanāṃ samparityajya mokṣārthitvamapi tyaja"
+        },
+        {
+          "number": 69,
+          "sanskrit": "मानसीर्वासनाः पूर्वं त्यक्त्वा विषयवासनाः । मैत्र्यादिवासनानाम्नीर्गृहाणामलवासनाः",
+          "transliteration": "mānasīrvāsanāḥ pūrvaṃ tyaktvā viṣayavāsanāḥ | maitryādivāsanānāmnīrgṛhāṇāmalavāsanāḥ"
+        },
+        {
+          "number": 70,
+          "sanskrit": "ता अप्यतः परित्यज्य ताभिर्व्यवहरन्नपि । अन्तःशान्तः समस्नेहो भव चिन्मात्रवासनः",
+          "transliteration": "tā apyataḥ parityajya tābhirvyavaharannapi | antaḥśāntaḥ samasneho bhava cinmātravāsanaḥ"
+        },
+        {
+          "number": 71,
+          "sanskrit": "तामप्यथ परित्यज्य मनोबुद्धिसमन्विताम् । शेषस्थिरसमाधानो मयि त्वं भव मारुते",
+          "transliteration": "tāmapyatha parityajya manobuddhisamanvitām | śeṣasthirasamādhāno mayi tvaṃ bhava mārute"
+        },
+        {
+          "number": 72,
+          "sanskrit": "अशब्दमस्पर्शमरूपमव्ययं तथाऽरसं नित्यमगन्धवच्च यत् । अनामगोत्रं मम रूपमीदृशं भजस्व नित्यं पवनात्मजार्तिहन्",
+          "transliteration": "aśabdamasparśamarūpamavyayaṃ tathā'rasaṃ nityamagandhavacca yat | anāmagotraṃ mama rūpamīdṛśaṃ bhajasva nityaṃ pavanātmajārtihan"
+        },
+        {
+          "number": 73,
+          "sanskrit": "दृशिस्वरूपं गगनोपमं परं सकृद्विभातं त्वजमेकमक्षरम् । अलेपकं सर्वगतं यदद्वयं तदेव चाहं सकलं विमुक्तॐ",
+          "transliteration": "dṛśisvarūpaṃ gaganopamaṃ paraṃ sakṛdvibhātaṃ tvajamekamakṣaram | alepakaṃ sarvagataṃ yadadvayaṃ tadeva cāhaṃ sakalaṃ vimuktaoṃ"
+        },
+        {
+          "number": 74,
+          "sanskrit": "दृशिस्तु शुद्धोऽहमविक्रियात्मको न मेऽस्ति कश्चिद्विषयः स्वभावतः । पुरस्तिरश्चोर्ध्वमधश्च सर्वतः सुपूर्णभूमाहमितीह भावय",
+          "transliteration": "dṛśistu śuddho'hamavikriyātmako na me'sti kaścidviṣayaḥ svabhāvataḥ | purastiraścordhvamadhaśca sarvataḥ supūrṇabhūmāhamitīha bhāvaya"
+        },
+        {
+          "number": 75,
+          "sanskrit": "अजोऽमरश्चैव तथाजरोऽमृतः स्वयंप्रभः सर्वगतोऽहमव्ययः । न कारणं कार्यमतीत्य निर्मलः सदैव तृप्तोऽहमितीह भावय",
+          "transliteration": "ajo'maraścaiva tathājaro'mṛtaḥ svayaṃprabhaḥ sarvagato'hamavyayaḥ | na kāraṇaṃ kāryamatītya nirmalaḥ sadaiva tṛpto'hamitīha bhāvaya"
+        },
+        {
+          "number": 76,
+          "sanskrit": "जीवन्मुक्तपदं त्यक्त्वा स्वदेहे कालसात्कृते । विशत्यदेहमुक्तत्वं पवनोऽस्पन्दतामिव",
+          "transliteration": "jīvanmuktapadaṃ tyaktvā svadehe kālasātkṛte | viśatyadehamuktatvaṃ pavano'spandatāmiva"
+        },
+        {
+          "number": 77,
+          "sanskrit": "तदेतदृचाभ्युक्तम्",
+          "transliteration": "tadetadṛcābhyuktam"
         },
         {
           "number": 78,
-          "sanskrit": "सर्वत्र समदर्शित्वं सर्वभूतहिते रतिः | समः शत्रौ च मित्रे च एवं मुक्तः स उच्यते ||",
-          "transliteration": "sarvatra samadarśitvaṃ sarvabhūtahite ratiḥ | samaḥ śatrau ca mitre ca evaṃ muktaḥ sa ucyate ||",
-          "translation": "One who sees equally everywhere; who is devoted to the welfare of all beings; who is the same toward enemy and friend — such a one is called liberated.",
-          "hindi": "जो सर्वत्र समान दृष्टि रखता है; जो सभी प्राणियों के हित में प्रीति रखता है; जो शत्रु और मित्र में समान है — ऐसे को मुक्त कहते हैं।",
-          "commentary": "The Muktika's portrait of the jivanmukta — and it is entirely ethical and relational. Liberation is not described in terms of meditative states, supernatural powers, or philosophical knowledge. It is described in terms of how one relates to others: samadarshitva (equal vision everywhere), sarvabhuta-hite rati (love for the welfare of all beings), sama toward enemy and friend. The liberated person is recognised not by their inner experience but by the quality of their presence in the world. This is the Muktika's most practical teaching.",
-          "wordMeaning": "The Muktika's portrait of the jivanmukta — and it is entirely ethical and relational. Liberation is not described in terms of meditative states, supernatural powers, or philosophical knowledge. It is described in terms of how one relates to others: samadarshitva (equal vision everywhere), sarvabhuta-hite rati (love for the welfare of all beings), sama toward enemy and friend. The liberated person is recognised not by their inner experience but by the quality of their presence in the world. This is the Muktika's most practical teaching."
+          "sanskrit": "तद्विष्णोः परमं पदं सदा पश्यन्ति सूरयः । दिवीव चक्षुराततम्",
+          "transliteration": "tadviṣṇoḥ paramaṃ padaṃ sadā paśyanti sūrayaḥ | divīva cakṣurātatam"
         },
         {
-          "number": 95,
-          "sanskrit": "न जातु कामः कामानामुपभोगेन शाम्यति | हविषा कृष्णवर्त्मेव भूय एवाभिवर्धते ||",
-          "transliteration": "na jātu kāmaḥ kāmānāmupabhogena śāmyati | haviṣā kṛṣṇavartmeva bhūya evābhivardhate ||",
-          "translation": "Desire is never quenched by the enjoyment of desired objects — just as fire grows ever larger when fed with oblations.",
-          "hindi": "कामनाएँ कामना-वस्तुओं के उपभोग से कभी शान्त नहीं होतीं — जैसे अग्नि आहुति डालने से और भी बढ़ती है।",
-          "commentary": "Quoted by Rama from the Manusmriti (2.94) and the Mahabharata, this verse is the Muktika's explanation of why ordinary desire-satisfaction cannot produce liberation. The fire analogy is precise: oblations (havis) are the fuel offered into the sacrificial fire, which they feed rather than extinguish. Every satisfied desire creates the template for a stronger desire. This is not an argument against enjoyment but an argument against the strategy of seeking liberation through satisfaction. The jivanmukta does not suppress desire — they no longer require its satisfaction for peace.",
-          "wordMeaning": "Quoted by Rama from the Manusmriti (2.94) and the Mahabharata, this verse is the Muktika's explanation of why ordinary desire-satisfaction cannot produce liberation. The fire analogy is precise: oblations (havis) are the fuel offered into the sacrificial fire, which they feed rather than extinguish. Every satisfied desire creates the template for a stronger desire. This is not an argument against enjoyment but an argument against the strategy of seeking liberation through satisfaction. The jivanmukta does not suppress desire — they no longer require its satisfaction for peace."
+          "number": 79,
+          "sanskrit": "तद्विप्रासो विपन्यवो जागृवांसः समिन्धते । विष्णोर्यत्परमं पदम्",
+          "transliteration": "tadviprāso vipanyavo jāgṛvāṃsaḥ samindhate | viṣṇoryatparamaṃ padam"
+        },
+        {
+          "number": 80,
+          "sanskrit": "ॐ सत्यमित्युपनिषत् । ॐ पूर्णमदः पूर्णमिदं पूर्णात्पूर्णमुदच्यते । पूर्णस्य पूर्णमादाय पूर्णमेवावशिष्यते",
+          "transliteration": "oṃ satyamityupaniṣat | oṃ pūrṇamadaḥ pūrṇamidaṃ pūrṇātpūrṇamudacyate | pūrṇasya pūrṇamādāya pūrṇamevāvaśiṣyate"
         }
       ]
     }
