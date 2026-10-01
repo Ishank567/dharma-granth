@@ -33622,13 +33622,17 @@
           "number": 14,
           "sanskrit": "रात्रौ वार्तां विजानाति आत्मनश् च परस्य च । १ अध ऊर्ध्वं याम्यवामे इति ख॥ २ संरम्भमन्सेति छ॥ :प् ८६ दुर्गे दुर्गे रक्षणीति दुर्गां प्रार्च्यारिहा भवेत्",
           "transliteration": "rātrau vārtāṃ vijānāti ātmanaś ca parasya ca / 1 adha ūrdhvaṃ yāmyavāme iti kha.. 2 saṃrambhamanseti cha.. :p 86 durge durge rakṣaṇīti durgāṃ prārcyārihā bhavet",
-          "hindi": "ज्ञाता हो जाता है। अब पाँच मन्त्रोंसे बने हुए मन्त्रपीठका वर्णन करूँगा। वे मन्त्र सभी “ नास्ति’ रूप सत्तामें स्थित हैं। ऋग्वेद, यजुर्वेद, सामवेद, अथर्ववेद-इन चारों वेदोंके मन्त्रोंको प्रथम मन्त्र कहते हैं। सद्योजातादि मन्त्र द्वितीय"
+          "hindi": "ज्ञाता हो जाता है। अब पाँच मन्त्रोंसे बने हुए मन्त्रपीठका वर्णन करूँगा। वे मन्त्र सभी “ नास्ति’ रूप सत्तामें स्थित हैं। ऋग्वेद, यजुर्वेद, सामवेद, अथर्ववेद-इन चारों वेदोंके मन्त्रोंको प्रथम मन्त्र कहते हैं। सद्योजातादि मन्त्र द्वितीय",
+          "translation": "At night one learns news of oneself and of others; \"Protect in every fort, Durga\" — having worshipped Durga one becomes a slayer of foes.",
+          "translationSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "जप्त्वा हसक्षमलवरयुम्भैरवीं घातयेदरिं ॥१५",
           "transliteration": "japtvā hasakṣamalavarayumbhairavīṃ ghātayedariṃ //15",
-          "hindi": "अग्नि तथा इन्द्रादि देवता-ये चौथे मन्त्रके स्वरूप हैं। अ, इ, उ, ए, ओ-ये पाँचौं स्वर पञ्चम मन्त्रके स्वरूप हैं। इन्हीं स्वरोंको मूलब्रह्म भी कहते हैं"
+          "hindi": "अग्नि तथा इन्द्रादि देवता-ये चौथे मन्त्रके स्वरूप हैं। अ, इ, उ, ए, ओ-ये पाँचौं स्वर पञ्चम मन्त्रके स्वरूप हैं। इन्हीं स्वरोंको मूलब्रह्म भी कहते हैं",
+          "translation": "Having repeated \"Ha Sa Ksha Ma La Va Ra Yum,\" one should destroy the enemy through Bhairavi.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -33830,43 +33834,57 @@
           "number": 11,
           "sanskrit": "सूर्यत्रिदशपक्षैश् च शैलैः स्त्री लेपतो वशा । चन्द्रेन्द्रफणिरुद्रैश् च योनिलेपाद्वशाः स्त्रियः",
           "transliteration": "sūryatridaśapakṣaiś ca śailaiḥ strī lepato vaśā / candrendraphaṇirudraiś ca yonilepādvaśāḥ striyaḥ",
-          "hindi": "सूर्य तथा चन्द्रमा एक ही हैं तथा उनको शक्तियाँ भी भूतभेदसे एक-एक ही हैं। जैसे भूतलपर नदीके जलको स्थानभेदसे ' तीर्थ' संज्ञा हो जाती है, शरीरके अस्थिपञ्जरमें रहनेवाला"
+          "hindi": "सूर्य तथा चन्द्रमा एक ही हैं तथा उनको शक्तियाँ भी भूतभेदसे एक-एक ही हैं। जैसे भूतलपर नदीके जलको स्थानभेदसे ' तीर्थ' संज्ञा हो जाती है, शरीरके अस्थिपञ्जरमें रहनेवाला",
+          "translation": "With the sun, gods, fortnights and mountains, a woman is subdued by anointing; with moon, Indra, serpents and Rudras, women are subdued by anointing the yoni.",
+          "translationSource": "ai"
         },
         {
           "number": 12,
           "sanskrit": "तिथिदिग्युगवाणैश् च गुटिका तु वशङ्करी । भक्ष्ये भोज्ये तथा पाने दातव्या गुटिका वशे",
           "transliteration": "tithidigyugavāṇaiś ca guṭikā tu vaśaṅkarī / bhakṣye bhojye tathā pāne dātavyā guṭikā vaśe",
-          "hindi": "एक ही प्राण कई मण्डलों (चक्रों)-से विभक्त हो जाता है। जैसे वाम तथा दक्षिण अङ्गके योगसे वही वायु दस प्रकारका हो जाता है, वैसे ही वही वायु तत्त्वरूपी सस्त्रमें छिपकर विचित्र बिन्दुरूपी मुण्डके द्वारा कपालरूपी ब्रह्माण्डके अमृतका पान करता है"
+          "hindi": "एक ही प्राण कई मण्डलों (चक्रों)-से विभक्त हो जाता है। जैसे वाम तथा दक्षिण अङ्गके योगसे वही वायु दस प्रकारका हो जाता है, वैसे ही वही वायु तत्त्वरूपी सस्त्रमें छिपकर विचित्र बिन्दुरूपी मुण्डके द्वारा कपालरूपी ब्रह्माण्डके अमृतका पान करता है",
+          "translation": "With lunar days, directions, ages and arrows the pill is subduing; in food, meals and drink the subduing pill is to be given.",
+          "translationSource": "ai"
         },
         {
           "number": 13,
           "sanskrit": "ऋत्विग्ग्रहाक्षिशैलैश् च शस्त्रस्तम्भे मुखे धृता । शैलेन्द्रवेदरन्ध्रैश् च अङ्गलेपाज्जले वसेत्",
           "transliteration": "ṛtviggrahākṣiśailaiś ca śastrastambhe mukhe dhṛtā / śailendravedarandhraiś ca aṅgalepājjale vaset",
-          "hindi": "अब पञ्चवर्गके बलसे जिस प्रकार युद्धमें विजय होती है, उसे सुनो-' अ, आ, क, च, ट, त, प, य, श'-यह प्रथम वर्ग कहा गया है।"
+          "hindi": "अब पञ्चवर्गके बलसे जिस प्रकार युद्धमें विजय होती है, उसे सुनो-' अ, आ, क, च, ट, त, प, य, श'-यह प्रथम वर्ग कहा गया है।",
+          "translation": "With priests, planets, eyes and mountains, worn in the mouth, it paralyzes weapons; with mountains, Indra, Vedas and openings, from anointing the body one may dwell in water.",
+          "translationSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "वाणाक्षिमनुरुद्रैश् च गुटिका क्षुत्तृषादिनुत् । त्रिषोडशदिशावाणैर् लेपात् स्त्री दुर्भगा शुभा",
           "transliteration": "vāṇākṣimanurudraiś ca guṭikā kṣuttṛṣādinut / triṣoḍaśadiśāvāṇair lepāt strī durbhagā śubhā",
-          "hindi": "यह तृतीय वर्ग है। 'ए, ऐ, घ, झ, ढ, ध, भ, व, ह'-यह चौथा वर्ग है। 'ओ, औँ, अं, अः, ङु ज, ण, न, म'-यह पञ्चम वर्ग है। ये पैंतालीस अक्षर मनुष्योंके अभ्युदयके लिये हैं। इन वर्गोके क्रमसे बाल, कुमार, युवा, वृद्ध और मृत्यु-ये पाँच नाम हैं॥ १६-१९ ३॥"
+          "hindi": "यह तृतीय वर्ग है। 'ए, ऐ, घ, झ, ढ, ध, भ, व, ह'-यह चौथा वर्ग है। 'ओ, औँ, अं, अः, ङु ज, ण, न, म'-यह पञ्चम वर्ग है। ये पैंतालीस अक्षर मनुष्योंके अभ्युदयके लिये हैं। इन वर्गोके क्रमसे बाल, कुमार, युवा, वृद्ध और मृत्यु-ये पाँच नाम हैं॥ १६-१९ ३॥",
+          "translation": "With arrows, eyes, Manus and Rudras the pill removes hunger, thirst and the like; with three-sixteen, directions and arrows, by anointing an unfortunate woman becomes fortunate.",
+          "translationSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "त्रिदशाक्षिदिशानेत्रैर् लेपात् क्रीडेच्च पत्रगैः । त्रिदशाक्षेशभुजगैर् लेपात् स्त्री सूयते सुखं",
           "transliteration": "tridaśākṣidiśānetrair lepāt krīḍecca patragaiḥ / tridaśākṣeśabhujagair lepāt strī sūyate sukhaṃ",
-          "hindi": "(अब तिथि, वार और नक्षत्रोंके योगसे काल-ज्ञानका वर्णन करते हैं-) आत्मपीड़, शोषक, उदासीन-ये तीन प्रकारके काल होते हैं। मङ्गलवारको प्रतिपदा तिथि तथा कृत्तिका"
+          "hindi": "(अब तिथि, वार और नक्षत्रोंके योगसे काल-ज्ञानका वर्णन करते हैं-) आत्मपीड़, शोषक, उदासीन-ये तीन प्रकारके काल होते हैं। मङ्गलवारको प्रतिपदा तिथि तथा कृत्तिका",
+          "translation": "With gods, eyes, directions and eyes, by anointing one sports with serpents; with gods, eyes, lords and serpents, by anointing a woman gives birth easily.",
+          "translationSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "सप्तदिङ्मुनिरन्ध्रैश् च द्यूतजिह्वस्त्रलेपतः । त्रिदशाक्ष्यब्धिमुनिभिर्ध्वजलेपात्(१) रतौ सुतः",
           "transliteration": "saptadiṅmunirandhraiś ca dyūtajihvastralepataḥ / tridaśākṣyabdhimunibhirdhvajalepāt(1) ratau sutaḥ",
-          "hindi": "नक्षत्र हों तो वे प्राणीके लिये लाभदायक होते हैं। मङ्गलवारको षष्ठी तिथि तथा मघा नक्षत्र हों तो पीड़ाकारक होते हैं। मङ्गलवारको एकादशी तिथि और आर्द्रा नक्षत्र हों तो वे मृत्युदायक होते हैं। बुधवार, द्वितीया तिथि तथा मघा नक्षत्रका"
+          "hindi": "नक्षत्र हों तो वे प्राणीके लिये लाभदायक होते हैं। मङ्गलवारको षष्ठी तिथि तथा मघा नक्षत्र हों तो पीड़ाकारक होते हैं। मङ्गलवारको एकादशी तिथि और आर्द्रा नक्षत्र हों तो वे मृत्युदायक होते हैं। बुधवार, द्वितीया तिथि तथा मघा नक्षत्रका",
+          "translation": "With seven, directions, sages and openings, by anointing gambling... tongue-weapon; with gods, eyes, oceans and sages, by anointing the banner a son in union.",
+          "translationSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "ग्रहाब्धिसर्प्यत्रिदशैर् गुटिका स्याद् वशङ्करी । ऋत्विक्पदस्थितौषध्याः प्रभावः प्रतिपादितः",
           "transliteration": "grahābdhisarpyatridaśair guṭikā syād vaśaṅkarī / ṛtvikpadasthitauṣadhyāḥ prabhāvaḥ pratipāditaḥ",
-          "hindi": "नक्षत्रका योग लाभदायक होते हैं। बुधवार और भरणी नक्षत्रका योग हानिकारक होता है। इसी प्रकार बुधवार तथा श्रवण नक्षत्रके योगमें “कालयोग' होता है। बृहस्पतिवार, तृतीया तिथि"
+          "hindi": "नक्षत्रका योग लाभदायक होते हैं। बुधवार और भरणी नक्षत्रका योग हानिकारक होता है। इसी प्रकार बुधवार तथा श्रवण नक्षत्रके योगमें “कालयोग' होता है। बृहस्पतिवार, तृतीया तिथि",
+          "translation": "With planets, oceans, snakes and gods the pill becomes subduing. The power of the herb standing at the priest's station has been presented.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -33917,67 +33935,89 @@
           "number": 6,
           "sanskrit": "क्रमादेकादिसञ्ज्ञानि ह्य् औपधानि महान्ति हि । सर्वरोगहराणि स्युरमरीकरणानि च",
           "transliteration": "kramādekādisañjñāni hy aupadhāni mahānti hi / sarvarogaharāṇi syuramarīkaraṇāni ca",
-          "hindi": "चाहिए, जैसा कि पहले दिशाओंके साथ कहा गया है। सूर्यके सम्बन्धसे युद्धमें कोई उत्तम फल नहीं होता। सोमका सम्बन्ध संधिके लिये होता है। मङ्गलके सम्बन्धसे कलह होता"
+          "hindi": "चाहिए, जैसा कि पहले दिशाओंके साथ कहा गया है। सूर्यके सम्बन्धसे युद्धमें कोई उत्तम फल नहीं होता। सोमका सम्बन्ध संधिके लिये होता है। मङ्गलके सम्बन्धसे कलह होता",
+          "translation": "In order the great herbs named one and so on; they are removers of all diseases and make one deathless;",
+          "translationSource": "ai"
         },
         {
           "number": 7,
           "sanskrit": "बलीपलितभेत्तॄणि(२) सर्वकोष्ठगतानि तु । एषां चूर्णञ्च वटिका रसेन परिभाविता",
           "transliteration": "balīpalitabhettṝṇi(2) sarvakoṣṭhagatāni tu / eṣāṃ cūrṇañca vaṭikā rasena paribhāvitā",
-          "hindi": "है। बुधके सम्बन्धसे संग्राम करनेसे अभीष्टसाधनकी प्राप्ति होती है। गुरुके सम्बन्धसे विजयलाभ होता है। शुक्रके सम्बन्धसे अभीष्ट सिद्ध होता है एवं शनिके सम्बन्धसे युद्धमें पराजय होती (पिड़ला (पक्षि)-चक्रसे शुभाशुभ कहते हैँ--) एक पक्षीका आकार लिखकर उसके"
+          "hindi": "है। बुधके सम्बन्धसे संग्राम करनेसे अभीष्टसाधनकी प्राप्ति होती है। गुरुके सम्बन्धसे विजयलाभ होता है। शुक्रके सम्बन्धसे अभीष्ट सिद्ध होता है एवं शनिके सम्बन्धसे युद्धमें पराजय होती (पिड़ला (पक्षि)-चक्रसे शुभाशुभ कहते हैँ--) एक पक्षीका आकार लिखकर उसके",
+          "translation": "breakers of wrinkles and grey hair, going into all bowels. Their powder, and pills prepared with juice,",
+          "translationSource": "ai"
         },
         {
           "number": 8,
           "sanskrit": "अवलेहः कषायो वा मोदको गुडखण्डकः । १ चव्यनिम्बका इति ज॥ , झ॥ च २ बलीपलितभेदीनीति छ॥ :प् ९१ मधुतो धृततो वापि घृतन्तैलमथापि वा",
           "transliteration": "avalehaḥ kaṣāyo vā modako guḍakhaṇḍakaḥ / 1 cavyanimbakā iti ja.. , jha.. ca 2 balīpalitabhedīnīti cha.. :p 91 madhuto dhṛtato vāpi ghṛtantailamathāpi vā",
-          "hindi": "पंखमें सूर्यके नक्षत्रसे तीन-तीन नक्षत्र लिखे। पैरवाले तीन नक्षत्रोंमें रण करनेसे मृत्यु होती है तथा पंखवाले तीन नक्षत्रोंमें धनका नाश होता है। मुखवाले तीन नक्षत्रोंमें पीड़ा होती है और"
+          "hindi": "पंखमें सूर्यके नक्षत्रसे तीन-तीन नक्षत्र लिखे। पैरवाले तीन नक्षत्रोंमें रण करनेसे मृत्यु होती है तथा पंखवाले तीन नक्षत्रोंमें धनका नाश होता है। मुखवाले तीन नक्षत्रोंमें पीड़ा होती है और",
+          "translation": "a lick or a decoction, a sweet ball, a piece of jaggery, with honey or ghee, or ghee or oil,",
+          "translationSource": "ai"
         },
         {
           "number": 9,
           "sanskrit": "सर्वात्मनोपयुक्तं हि मृतसञ्जीवनम्भवेत् । कर्षार्धं कर्षमेकं वा पलार्धं पलमेककं",
           "transliteration": "sarvātmanopayuktaṃ hi mṛtasañjīvanambhavet / karṣārdhaṃ karṣamekaṃ vā palārdhaṃ palamekakaṃ",
-          "hindi": "सिरवाले तीन नक्षत्रोंमें कार्यका नाश होता है। कुक्षिवाले तीन नक्षत्रोंमें रण करनेसे उत्तम फल होता है (अब राहुचक्र कहते हैं-) पूर्वसे नै्ऋत्यकोणतक, नै्ऋत्यकोणसे उत्तर दिशातक, उत्तर दिशासे अग्निकोणतक, अग्निकोणसे पश्चिमतक,"
+          "hindi": "सिरवाले तीन नक्षत्रोंमें कार्यका नाश होता है। कुक्षिवाले तीन नक्षत्रोंमें रण करनेसे उत्तम फल होता है (अब राहुचक्र कहते हैं-) पूर्वसे नै्ऋत्यकोणतक, नै्ऋत्यकोणसे उत्तर दिशातक, उत्तर दिशासे अग्निकोणतक, अग्निकोणसे पश्चिमतक,",
+          "translation": "taken by oneself in every way becomes revival of the dead: half a karsha or one karsha, half a pala or one pala;",
+          "translationSource": "ai"
         },
         {
           "number": 10,
           "sanskrit": "यथेष्टाचारनिरतो(१) जीवेद्वर्षशतत्रयं । मृतसञ्जीवनीकल्पे योगो नास्मात् परो ऽस्ति हि",
           "transliteration": "yatheṣṭācāranirato(1) jīvedvarṣaśatatrayaṃ / mṛtasañjīvanīkalpe yogo nāsmāt paro 'sti hi",
-          "hindi": "पश्चिमसे ईशानतक, ईशानसे दक्षिणतक, दक्षिणसे वायव्यकोणतक, वायव्यकोणसे उत्तरतक चार- चार दण्डतक राहुका भ्रमण होता है। राहुको पृष्ठकी ओर रखकर रण करना विजयप्रद होता"
+          "hindi": "पश्चिमसे ईशानतक, ईशानसे दक्षिणतक, दक्षिणसे वायव्यकोणतक, वायव्यकोणसे उत्तरतक चार- चार दण्डतक राहुका भ्रमण होता है। राहुको पृष्ठकी ओर रखकर रण करना विजयप्रद होता",
+          "translation": "devoted to conduct as desired, one may live three hundred years; in the rule of Mrita-sanjivani there is no better yoga than this.",
+          "translationSource": "ai"
         },
         {
           "number": 11,
           "sanskrit": "प्रथमान्नवकाद्योगात् सर्वरोगैः प्रमुच्यते । द्वितीयाच्च तृतीयाच्च चतुर्थान्मुच्यते रुजः",
           "transliteration": "prathamānnavakādyogāt sarvarogaiḥ pramucyate / dvitīyācca tṛtīyācca caturthānmucyate rujaḥ",
-          "hindi": "है तथा राहुके सम्मुख रहनेसे मृत्यु हो जाती है प्रिये! मैं तुमसे अब तिथि-राहुका वर्णन करता हूँ। पूर्णिमाके बाद कृष्णपक्षकी प्रतिपदासे अग्निकोणसे लेकर ईशानकोणतक अर्थात् कृष्णपक्षको अष्टमी तिथितक राहु पूर्व दिशामें"
+          "hindi": "है तथा राहुके सम्मुख रहनेसे मृत्यु हो जाती है प्रिये! मैं तुमसे अब तिथि-राहुका वर्णन करता हूँ। पूर्णिमाके बाद कृष्णपक्षकी प्रतिपदासे अग्निकोणसे लेकर ईशानकोणतक अर्थात् कृष्णपक्षको अष्टमी तिथितक राहु पूर्व दिशामें",
+          "translation": "By the first group of nine one is freed from all diseases; by the second and third and fourth one is freed of ailments;",
+          "translationSource": "ai"
         },
         {
           "number": 12,
           "sanskrit": "एवं षट्काच्च प्रथमाद् द्वितीयाच्च तृतीयतः । चतुर्थात्पञ्चमात् षष्ठात्तथा नवचतुष्कतः",
           "transliteration": "evaṃ ṣaṭkācca prathamād dvitīyācca tṛtīyataḥ / caturthātpañcamāt ṣaṣṭhāttathā navacatuṣkataḥ",
-          "hindi": "रहता है। उसमें युद्ध करनेसे जय होती है। इसी तरह ईशानसे अग्निकोणतक और नैऋत्यकोणसे वायव्यकोणतक राहुका भ्रमण होता रहता है। मेषादि राशियोंको पूर्वादि दिशामें रखना चाहिए ।"
+          "hindi": "रहता है। उसमें युद्ध करनेसे जय होती है। इसी तरह ईशानसे अग्निकोणतक और नैऋत्यकोणसे वायव्यकोणतक राहुका भ्रमण होता रहता है। मेषादि राशियोंको पूर्वादि दिशामें रखना चाहिए ।",
+          "translation": "thus from the sixfold, first, second and third, fourth, fifth, sixth, and likewise from nine and four;",
+          "translationSource": "ai"
         },
         {
           "number": 13,
           "sanskrit": "एकदित्रिचतुःपञ्चषट्सप्ताष्टमतो ऽनिलात् । अग्निभास्करषड्विंशसप्तविंशैश् च पित्ततः",
           "transliteration": "ekaditricatuḥpañcaṣaṭsaptāṣṭamato 'nilāt / agnibhāskaraṣaḍviṃśasaptaviṃśaiś ca pittataḥ",
-          "hindi": "इस तरह रखनेपर मेष, सिंह, धनु राशियाँ पूर्वमें; वृष, कन्या, मकर-ये दक्षिणमें; मिथुन, तुला, कुम्भ-ये पश्चिममें; कर्क, वृश्चिक, मीन-ये उत्तरमें हो जाती हैं। सूर्यकी राशिसे सूर्यकी दिशा जानकर सम्मुख सूर्यमें रण करना मृत्युकारक होता है॥ ३५--३७॥"
+          "hindi": "इस तरह रखनेपर मेष, सिंह, धनु राशियाँ पूर्वमें; वृष, कन्या, मकर-ये दक्षिणमें; मिथुन, तुला, कुम्भ-ये पश्चिममें; कर्क, वृश्चिक, मीन-ये उत्तरमें हो जाती हैं। सूर्यकी राशिसे सूर्यकी दिशा जानकर सम्मुख सूर्यमें रण करना मृत्युकारक होता है॥ ३५--३७॥",
+          "translation": "from wind by one, two, three, four, five, six, seven, eight; from bile by fire, sun, twenty-six and twenty-seven;",
+          "translationSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "वाणर्तुशैलवसुभिस्तिथिभिर्मुच्यते कफात् । वेदाग्निभिर्बाणगुणैः षद्गुणैः स्याद्वशे धृते",
           "transliteration": "vāṇartuśailavasubhistithibhirmucyate kaphāt / vedāgnibhirbāṇaguṇaiḥ ṣadguṇaiḥ syādvaśe dhṛte",
-          "hindi": "(भद्राकी तिथिका निर्णय बताते हैं) कृष्णपक्षमें तृतीया, सप्तमी, दशमी तथा चतुर्दशीको ' भद्रा' होती है। शुक्लपक्षमें चतुर्थी, एकादशी, अष्टमी और पूर्णिमाको ' भद्रा' होती है। भद्राका"
+          "hindi": "(भद्राकी तिथिका निर्णय बताते हैं) कृष्णपक्षमें तृतीया, सप्तमी, दशमी तथा चतुर्दशीको ' भद्रा' होती है। शुक्लपक्षमें चतुर्थी, एकादशी, अष्टमी और पूर्णिमाको ' भद्रा' होती है। भद्राका",
+          "translation": "from phlegm by arrows, seasons, mountains, Vasus and lunar days one is freed; by Vedas, fires, arrow-qualities and six qualities one holds it in control.",
+          "translationSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "ग्रहादिग्रहणान्तैश् च सर्वैर् एव विमुच्यते । एकद्वित्रिरसैः शैलैर् वसुग्रहशिवैः क्रमात्",
           "transliteration": "grahādigrahaṇāntaiś ca sarvair eva vimucyate / ekadvitrirasaiḥ śailair vasugrahaśivaiḥ kramāt",
-          "hindi": "निवास अग्निकोणसे वायव्यकोणतक रहता है। अ, क, च, ट, त, प, य, शये आठ वर्ग होते हैं, जिनके स्वामी क्रमसे सूर्य, चन्द्रमा, मङ्गल, बुध, बृहस्पति, शुक्र, शनि, राहु ग्रह होते हैं। इन ग्रहोंके वाहन क्रमसे गृध्र, उलूक, बाज, पिङ्गल, कौशिक (उलूक), सारस, मयूर, गोरङ्क नामके पक्षी हैं। पहले हवन करके मन्त्रोंको सिद्ध कर लेना चाहिए। उच्चाटनमें मन्त्रोंका प्रयोग पल्लवरूपसे"
+          "hindi": "निवास अग्निकोणसे वायव्यकोणतक रहता है। अ, क, च, ट, त, प, य, शये आठ वर्ग होते हैं, जिनके स्वामी क्रमसे सूर्य, चन्द्रमा, मङ्गल, बुध, बृहस्पति, शुक्र, शनि, राहु ग्रह होते हैं। इन ग्रहोंके वाहन क्रमसे गृध्र, उलूक, बाज, पिङ्गल, कौशिक (उलूक), सारस, मयूर, गोरङ्क नामके पक्षी हैं। पहले हवन करके मन्त्रोंको सिद्ध कर लेना चाहिए। उच्चाटनमें मन्त्रोंका प्रयोग पल्लवरूपसे",
+          "translation": "From planets and the rest up to seizure one is freed of all; by one, two, three, flavors, mountains, Vasus, planets, Shiva in order,",
+          "translationSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "द्वात्रिंशत्तिथिसूर्यैश् च नात्र कार्या विचारणा । षट्त्रिंशत्पदकज्ञानं न देयं यस्य कस्य चित्",
           "transliteration": "dvātriṃśattithisūryaiś ca nātra kāryā vicāraṇā / ṣaṭtriṃśatpadakajñānaṃ na deyaṃ yasya kasya cit",
-          "hindi": "करना चाहिए॥ ३८-४० ३ ॥"
+          "hindi": "करना चाहिए॥ ३८-४० ३ ॥",
+          "translation": "by thirty-two, lunar days and suns — no inquiry is needed here. The knowledge of thirty-six words is not to be given to just anyone.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -34038,85 +34078,113 @@
           "number": 7,
           "sanskrit": "एकद्व्यष्टद्वादशमः पाददृष्टिश् च तं त्यजेत् । दिनाधिपः प्रहरभाक् शेषा यामार्धभागिनः(३)",
           "transliteration": "ekadvyaṣṭadvādaśamaḥ pādadṛṣṭiś ca taṃ tyajet / dinādhipaḥ praharabhāk śeṣā yāmārdhabhāginaḥ(3)",
-          "hindi": "बौषट्।' है देवि! इस मन्त्रसे उस मृत्तिकामयी देवीको पूजा करके (शत्रुके) शस्त्रसमूहका स्तम्भन करना चाहिए ॥ ४७-४९ इ ॥ अब संग्राममें विजय दिलानेवाले अग्निकार्यका वर्णन करूँगा-रातमें शमशानमें जाकर नंग-धडुंग, शिखा खोलकर, दक्षिणमुख बैठकर जलती हुई चितामें मनुष्यका मांस,"
+          "hindi": "बौषट्।' है देवि! इस मन्त्रसे उस मृत्तिकामयी देवीको पूजा करके (शत्रुके) शस्त्रसमूहका स्तम्भन करना चाहिए ॥ ४७-४९ इ ॥ अब संग्राममें विजय दिलानेवाले अग्निकार्यका वर्णन करूँगा-रातमें शमशानमें जाकर नंग-धडुंग, शिखा खोलकर, दक्षिणमुख बैठकर जलती हुई चितामें मनुष्यका मांस,",
+          "translation": "The first, second, eighth and twelfth, a foot-vision — one should leave it. The lord of the day takes a watch; the rest share half-watches;",
+          "translationSource": "ai"
         },
         {
           "number": 8,
           "sanskrit": "१ मन्त्रौषधादिचक्राणीति घ॥ , ञ॥ च २ विशेषेणेति ख॥ ३ यामार्धभोगिन इति क॥ , ग॥ , ङ॥ , ज॥ च :प् ९३ शनिभागन्त्यजेद्युद्धे दिनराहुं वदामि ते । रवौ पूर्वे ऽनिले मन्दे गुरौ याम्ये ऽनले भृगौ",
           "transliteration": "1 mantrauṣadhādicakrāṇīti gha.. , ña.. ca 2 viśeṣeṇeti kha.. 3 yāmārdhabhogina iti ka.. , ga.. , ṅa.. , ja.. ca :p 93 śanibhāgantyajedyuddhe dinarāhuṃ vadāmi te / ravau pūrve 'nile mande gurau yāmye 'nale bhṛgau",
-          "hindi": "रुधिर, विष, भूसी और हड्डीके टुकड़े मिलाकर नीचे लिखे मन्त्रसे आठ सौ बार शत्रुका नाम लेकर हवन करे-3 नमो भगवति कौमारि लल लल लालय लालय घण्टादेवि! अमुकं मारय"
+          "hindi": "रुधिर, विष, भूसी और हड्डीके टुकड़े मिलाकर नीचे लिखे मन्त्रसे आठ सौ बार शत्रुका नाम लेकर हवन करे-3 नमो भगवति कौमारि लल लल लालय लालय घण्टादेवि! अमुकं मारय",
+          "translation": "one should leave Saturn's portion in battle; I tell you day-Rahu: in the east on Sunday; in the northwest on Saturday; Jupiter in the south; Venus in fire;",
+          "translationSource": "ai"
         },
         {
           "number": 9,
           "sanskrit": "अग्नौ कुजे भवेत् सोम्ये स्थिते राहुर्बुधे सदा । फणिराहुस्तु प्रहरमैशे वह्नौ च राक्षसे",
           "transliteration": "agnau kuje bhavet somye sthite rāhurbudhe sadā / phaṇirāhustu praharamaiśe vahnau ca rākṣase",
-          "hindi": "इस विद्यासे हवन करनेपर शत्रु अंधा हो जाता है (सब प्रकारको सफलताके लिये हनुमानूजीका"
+          "hindi": "इस विद्यासे हवन करनेपर शत्रु अंधा हो जाता है (सब प्रकारको सफलताके लिये हनुमानूजीका",
+          "translation": "Mars in fire; on Monday in the north; Rahu is always on Mercury. Phani-Rahu is one watch in the northeast, fire and southwest;",
+          "translationSource": "ai"
         },
         {
           "number": 10,
           "sanskrit": "वायौ संवेष्टयित्वा च शत्रुं हन्तीशसन्मुखं । तिथिराहुं प्रवक्ष्यामि पूर्णिमाग्नेयगोचरे",
           "transliteration": "vāyau saṃveṣṭayitvā ca śatruṃ hantīśasanmukhaṃ / tithirāhuṃ pravakṣyāmi pūrṇimāgneyagocare",
-          "hindi": "कपिलपिङ्गल करालवदनोर्ध्वकेश महाबल रक्तमुख तडिज्जिह महारौद्र दंष्ट्रोत्कट कटकरालिन् महादूढप्रहार लङ्केश्वरसेतुबन्ध शैलप्रवाह गगनचर,"
+          "hindi": "कपिलपिङ्गल करालवदनोर्ध्वकेश महाबल रक्तमुख तडिज्जिह महारौद्र दंष्ट्रोत्कट कटकरालिन् महादूढप्रहार लङ्केश्वरसेतुबन्ध शैलप्रवाह गगनचर,",
+          "translation": "having surrounded the enemy in the northwest he kills one facing the northeast. I shall tell the lunar-day Rahu: in the full moon in the southeast,",
+          "translationSource": "ai"
         },
         {
           "number": 11,
           "sanskrit": "अमावास्या वायवे च राहुः सम्मुखशत्रुहा । काद्या जान्ताः सम्मुखे स्युः साद्या दान्ताश् च दक्षिणे",
           "transliteration": "amāvāsyā vāyave ca rāhuḥ sammukhaśatruhā / kādyā jāntāḥ sammukhe syuḥ sādyā dāntāś ca dakṣiṇe",
-          "hindi": "जम्भय जम्भय खन खन वैते हूं फट्।' देवि! इस सब प्रकारके कार्योको सिद्ध कर देते हैं। कपड़ेपर हनुमानूजीकी मूर्ति लिखकर दिखानेसे शत्रुओंका विनाश होता है"
+          "hindi": "जम्भय जम्भय खन खन वैते हूं फट्।' देवि! इस सब प्रकारके कार्योको सिद्ध कर देते हैं। कपड़ेपर हनुमानूजीकी मूर्ति लिखकर दिखानेसे शत्रुओंका विनाश होता है",
+          "translation": "on the new moon in the northwest, Rahu, killer of the enemy in front. Ka and the rest, those ending in Ja, are in front; Sa and the rest, those ending in Da, in the south;",
+          "translationSource": "ai"
         },
         {
           "number": 12,
           "sanskrit": "अक्ले त्यजेत् कुजगणान् धाद्या मान्ताश् च पूर्वतः । याद्या हान्ता उत्तरे स्युस्तिथिदृष्टिं विवर्जयेत्",
           "transliteration": "akle tyajet kujagaṇān dhādyā māntāś ca pūrvataḥ / yādyā hāntā uttare syustithidṛṣṭiṃ vivarjayet",
-          "hindi": "इस प्रकार आदि आग्नेय महापृराणमें 'युद्धजयार्णव-सम्बन्धी विविध चक्रोका वर्णन” नामक एक सौ पचीसवाँ अध्याय पूरा हुआ"
+          "hindi": "इस प्रकार आदि आग्नेय महापृराणमें 'युद्धजयार्णव-सम्बन्धी विविध चक्रोका वर्णन” नामक एक सौ पचीसवाँ अध्याय पूरा हुआ",
+          "translation": "one should leave the Mars-groups in the A-less; Dha and the rest ending in Ma in the east; Ya and the rest ending in Ha in the north; one should avoid the lunar-day sight.",
+          "translationSource": "ai"
         },
         {
           "number": 13,
           "sanskrit": "पूर्वाश् च दक्षिणास्तिस्रो रेखा वै मूलभेदके । सूर्यराश्यादि संलिख्य दृष्टौ हानिर्जयो ऽन्यथा",
           "transliteration": "pūrvāś ca dakṣiṇāstisro rekhā vai mūlabhedake / sūryarāśyādi saṃlikhya dṛṣṭau hānirjayo 'nyathā",
-          "hindi": "नक्षत्र-सम्बन्धी पिण्डका वर्णन शंकरजी कहते हैं-- देवि! अब मैं प्राणियोंक  लिखे। उसके बाद उसी नक्षत्रसे प्रारम्भ करके शुभाशुभ फलकी जानकारीके लिये नाक्षत्रिक पिण्डका वर्णन करूँगा। (जिस राजा या मनुष्यके लिये शुभाशुभ फलका ज्ञान करना हो, उसकी प्रतिकृतिरूपसे एक मनुष्यका आकार बनाकर)"
+          "hindi": "नक्षत्र-सम्बन्धी पिण्डका वर्णन शंकरजी कहते हैं-- देवि! अब मैं प्राणियोंक  लिखे। उसके बाद उसी नक्षत्रसे प्रारम्भ करके शुभाशुभ फलकी जानकारीके लिये नाक्षत्रिक पिण्डका वर्णन करूँगा। (जिस राजा या मनुष्यके लिये शुभाशुभ फलका ज्ञान करना हो, उसकी प्रतिकृतिरूपसे एक मनुष्यका आकार बनाकर)",
+          "translation": "Three lines, eastern and southern, in the Mula-breaker; having written the sun's sign and the rest, loss in sight, otherwise victory.",
+          "translationSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "विष्टिराहुं प्रवक्ष्यामि अष्टौ रेखास्तु पातयेत् । शिवाद्यमं यमाद्वायुं वायोरिन्द्रं ततो ऽम्बुपं",
           "transliteration": "viṣṭirāhuṃ pravakṣyāmi aṣṭau rekhāstu pātayet / śivādyamaṃ yamādvāyuṃ vāyorindraṃ tato 'mbupaṃ",
-          "hindi": "सूर्य जिस नक्षत्रमें हों, उससे तीन नक्षत्र उसके मस्तकमें, एक मुखमें, दो नेत्रोंमें, चार हाथ और पैरमें, पाँच हृदयमें और पाँच जानुमें लिखकर आयु-वृद्धिका विचार करना चाहिए। सिरवाले"
+          "hindi": "सूर्य जिस नक्षत्रमें हों, उससे तीन नक्षत्र उसके मस्तकमें, एक मुखमें, दो नेत्रोंमें, चार हाथ और पैरमें, पाँच हृदयमें और पाँच जानुमें लिखकर आयु-वृद्धिका विचार करना चाहिए। सिरवाले",
+          "translation": "I shall tell the Vishti-Rahu: one should draw eight lines. From Shiva to Yama, from Yama to Vayu, from Vayu to Indra, then Varuna;",
+          "translationSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "नैरृताच्च नयेच्चन्द्रं चन्द्रादग्निं ततो जले । जलादीशे चरेद्राहुर्विष्ट्या सह महाबलः",
           "transliteration": "nairṛtācca nayeccandraṃ candrādagniṃ tato jale / jalādīśe caredrāhurviṣṭyā saha mahābalaḥ",
-          "hindi": "नक्षत्रोंमें संग्राम (कार्य) करनेसे राज्यकी प्राप्ति होती है। मुखवाले नक्षत्रमें सुख, नेत्रवाले नक्षत्रोंमें सुन्दर सौभाग्य, हृदयवाले नक्षत्रोंमें द्रव्यसंग्रह, हाथवाले नक्षत्रोंमें चोरी और पैरवाले नक्षत्रोंमें मार्गमें ही मृत्यु --इस तरह क्रमशः फल होते हैं॥ १--३ ३ ॥"
+          "hindi": "नक्षत्रोंमें संग्राम (कार्य) करनेसे राज्यकी प्राप्ति होती है। मुखवाले नक्षत्रमें सुख, नेत्रवाले नक्षत्रोंमें सुन्दर सौभाग्य, हृदयवाले नक्षत्रोंमें द्रव्यसंग्रह, हाथवाले नक्षत्रोंमें चोरी और पैरवाले नक्षत्रोंमें मार्गमें ही मृत्यु --इस तरह क्रमशः फल होते हैं॥ १--३ ३ ॥",
+          "translation": "from Nirriti one should lead to the moon, from the moon to fire, then to water; from water to Ishana, Rahu of great strength moves with Vishti.",
+          "translationSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "ऐशान्यां च तृतीयादौ सप्तम्यादौ च याम्यके । एवं कृष्णे सिते पक्षे वायौ राहुश् च हन्त्यरीन्",
           "transliteration": "aiśānyāṃ ca tṛtīyādau saptamyādau ca yāmyake / evaṃ kṛṣṇe site pakṣe vāyau rāhuś ca hantyarīn",
-          "hindi": "(अब 'कुम्भ-चक्र' कह रहे हैं--) आठ कुम्भको पूर्वादि आठ दिशाओंमें स्थापित करना चाहिए। प्रत्येक कुम्भमें तीन-तीन नक्षत्रोंकी स्थापना करनेपर आठ कुम्भोंमें चौबीस नक्षत्रोंका"
+          "hindi": "(अब 'कुम्भ-चक्र' कह रहे हैं--) आठ कुम्भको पूर्वादि आठ दिशाओंमें स्थापित करना चाहिए। प्रत्येक कुम्भमें तीन-तीन नक्षत्रोंकी स्थापना करनेपर आठ कुम्भोंमें चौबीस नक्षत्रोंका",
+          "translation": "In the northeast from the third, in the south from the seventh; thus in the dark and bright fortnight, in the northwest, Rahu kills the foes.",
+          "translationSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "इन्द्रादीन् भैरवादींश् च ब्रह्माण्यादीन् ग्रहादिकान् । अष्टाष्टकञ्च पूर्वादौ याम्यादौ वातयोगिनीं",
           "transliteration": "indrādīn bhairavādīṃś ca brahmāṇyādīn grahādikān / aṣṭāṣṭakañca pūrvādau yāmyādau vātayoginīṃ",
-          "hindi": "ही 'सूर्यकुम्भ' कहते हैं। यह सूर्यकुम्भ अशुभ होता है। शेष पूर्वादि दिशाओंवाले कुम्भ- सम्बन्धी नक्षत्र शुभ होते हैं। (इसका उपयोग नाम-नक्षत्रसे हैनिक नक्षत्रतक गिनकर उसी संख्यासे करना चाहिए।)"
+          "hindi": "ही 'सूर्यकुम्भ' कहते हैं। यह सूर्यकुम्भ अशुभ होता है। शेष पूर्वादि दिशाओंवाले कुम्भ- सम्बन्धी नक्षत्र शुभ होते हैं। (इसका उपयोग नाम-नक्षत्रसे हैनिक नक्षत्रतक गिनकर उसी संख्यासे करना चाहिए।)",
+          "translation": "Indra and the rest, Bhairava and the rest, Brahmani and the rest, planets and the rest; eight and eight in the east and the rest, in the south and the rest the wind-yogini;",
+          "translationSource": "ai"
         },
         {
           "number": 18,
           "sanskrit": "यान्दिशं वहते वायुस्तत्रस्थो घातयेदरीन् । दृढीकरणमाख्यास्ये कण्ठे बाह्वादिधारिता",
           "transliteration": "yāndiśaṃ vahate vāyustatrastho ghātayedarīn / dṛḍhīkaraṇamākhyāsye kaṇṭhe bāhvādidhāritā",
-          "hindi": "अब मैं संग्राममें जय-पराजयका विवेक प्रदान करनेवाले सर्पाकार राहुचक्रका वर्णन करता हूँ।"
+          "hindi": "अब मैं संग्राममें जय-पराजयका विवेक प्रदान करनेवाले सर्पाकार राहुचक्रका वर्णन करता हूँ।",
+          "translation": "whichever direction the wind blows, standing there one should slay the enemies. I shall tell the strengthening: worn at the neck, arms and the rest,",
+          "translationSource": "ai"
         },
         {
           "number": 19,
           "sanskrit": "पुष्योद्धृता काण्डलक्ष्यं वारयेत् शरपुङ्खिका । तथा पराजिता पाठा द्वाभ्यां खड्गं निवारयेत्",
           "transliteration": "puṣyoddhṛtā kāṇḍalakṣyaṃ vārayet śarapuṅkhikā / tathā parājitā pāṭhā dvābhyāṃ khaḍgaṃ nivārayet",
-          "hindi": "प्रथम अट्ठाईस बिन्दुओंको लिखे, उसमें तीन-तीनका विभाग कर दे, इस तरह आठ विभाग कर देनेपर चौबीस नक्षत्रोंका निवेश हो जायगा। चार शेष रह जायेगे। उसपर रेखा करे। इस तरह करनेपर 'सर्पाकार चक्र' बन जायगा। जिस नक्षत्रमें राहु रहे, उसको सर्पके फणमें"
+          "hindi": "प्रथम अट्ठाईस बिन्दुओंको लिखे, उसमें तीन-तीनका विभाग कर दे, इस तरह आठ विभाग कर देनेपर चौबीस नक्षत्रोंका निवेश हो जायगा। चार शेष रह जायेगे। उसपर रेखा करे। इस तरह करनेपर 'सर्पाकार चक्र' बन जायगा। जिस नक्षत्रमें राहु रहे, उसको सर्पके फणमें",
+          "translation": "the one uprooted in Pushya wards off an arrow aimed — shara-pungkhika; likewise aparajita and patha: with the two one wards off a sword.",
+          "translationSource": "ai"
         },
         {
           "number": 20,
           "sanskrit": "ॐ नमो भगवति वज्रशृङ्खले हन २ ॐ भक्ष २ ॐ खाद ॐ अरे रक्तं पिब कपालेन रक्ताक्षि रक्तपटे भस्माङ्गि भस्मलिप्तशरीरे वज्रायुधे वज्राकारनिचिते पूर्वां दिशं बन्ध २ ॐ दक्षिणां दिशम्बन्ध २ ॐ पश्चिमां दिशम्बन्ध २ उत्तरां दिशम्बन्ध २ नागान् बन्ध २ नागपत्नीर्बन्ध २ ॐ असुरान् बन्ध २ ॐ यक्षराक्षसपिशाचान् बन्ध २ ॐ प्रेतभूतगन्धर्वादयो ये केचिदुपद्रवास्तेभ्यो रक्ष २ ॐ ऊर्धवं रक्ष २ अधा रक्ष २ ॐ क्षुरिक बन्ध २ ॐ ज्वल महाबले घटि २ ॐ मोटि २ सटावलिवज्जाग्निवज्रप्राकारे हुं फट् ह्रीं ह्रूं श्रीं फट् ह्रीं हः फूं फें फः सर्वग्रहेभ्यः सर्वव्याधिभ्यः सर्वदुष्टोपद्रवेभ्यो ह्रीं अशेषेभ्यो रक्ष २ ग्रहज्वरादिभूतेषु सर्वकर्मसु योजयेत् ॥२०",
           "transliteration": "oṃ namo bhagavati vajraśṛṅkhale hana 2 oṃ bhakṣa 2 oṃ khāda oṃ are raktaṃ piba kapālena raktākṣi raktapaṭe bhasmāṅgi bhasmaliptaśarīre vajrāyudhe vajrākāranicite pūrvāṃ diśaṃ bandha 2 oṃ dakṣiṇāṃ diśambandha 2 oṃ paścimāṃ diśambandha 2 uttarāṃ diśambandha 2 nāgān bandha 2 nāgapatnīrbandha 2 oṃ asurān bandha 2 oṃ yakṣarākṣasapiśācān bandha 2 oṃ pretabhūtagandharvādayo ye kecidupadravāstebhyo rakṣa 2 oṃ ūrdhavaṃ rakṣa 2 adhā rakṣa 2 oṃ kṣurika bandha 2 oṃ jvala mahābale ghaṭi 2 oṃ moṭi 2 saṭāvalivajjāgnivajraprākāre huṃ phaṭ hrīṃ hrūṃ śrīṃ phaṭ hrīṃ haḥ phūṃ pheṃ phaḥ sarvagrahebhyaḥ sarvavyādhibhyaḥ sarvaduṣṭopadravebhyo hrīṃ aśeṣebhyo rakṣa 2 grahajvarādibhūteṣu sarvakarmasu yojayet //20",
-          "hindi": "क्रमशः सत्ताईस नक्षत्रोंका निवेश करे ॥ ५--७॥"
+          "hindi": "क्रमशः सत्ताईस नक्षत्रोंका निवेश करे ॥ ५--७॥",
+          "translation": "\"Om, homage to the revered Vajrashrinkhala, kill, kill; Om eat, eat; Om devour; ah, drink blood with a skull, red-eyed, red-clothed, ash-limbed, ash-smeared, vajra-armed, formed of vajra-shape, bind the east direction, bind; Om bind the south, bind; Om bind the west, bind; bind the north, bind; bind Nagas, bind; bind Naga women, bind; Om bind Asuras; Om bind Yakshas, Rakshasas, Pishachas; Om protect from whatever troubles from ghosts, spirits, Gandharvas and the rest; Om protect above, protect below; Om bind the dagger; Om blaze, great-strong, shake, shake; Om twist, twist, with a wall of mane, vajra and fire, hum phat Hrim Hrum Shrim phat Hrim Hah Phum Phem Phah — from all seizers, all diseases, all evil troubles, Hrim, protect from all, protect.\" One should apply it in seizers, fevers and so on, spirits and all works.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -34143,91 +34211,121 @@
           "number": 3,
           "sanskrit": "ह्रौं स्फें ह स ख क छ ड ॐ कारो भैरवः शिखा । भेलखी कवचं दूती नेत्राख्या रक्तचण्डिका",
           "transliteration": "hrauṃ spheṃ ha sa kha ka cha ḍa oṃ kāro bhairavaḥ śikhā / bhelakhī kavacaṃ dūtī netrākhyā raktacaṇḍikā",
-          "hindi": "(अर्धयामेशका वर्णन करते हैं --) जैसे चार प्रहरका एक दिन होता है तो एक दिनमें आठ अर्धप्रहर होंगे। यदि दिनमान बत्तीस दण्डका हो तो एक अर्ध प्रहरका मान चार दण्डका होगा। दिनमान-प्रमाणमें आठसे भाग देनेपर जो लब्धि होगी, वही एक अर्धप्रहरका मान होता है। रवि आदि सात वारोंमें प्रत्येक अर्धप्रहरका कौन ग्रह स्वामी होगा-इसपर विचार करते हुए केवल"
+          "hindi": "(अर्धयामेशका वर्णन करते हैं --) जैसे चार प्रहरका एक दिन होता है तो एक दिनमें आठ अर्धप्रहर होंगे। यदि दिनमान बत्तीस दण्डका हो तो एक अर्ध प्रहरका मान चार दण्डका होगा। दिनमान-प्रमाणमें आठसे भाग देनेपर जो लब्धि होगी, वही एक अर्धप्रहरका मान होता है। रवि आदि सात वारोंमें प्रत्येक अर्धप्रहरका कौन ग्रह स्वामी होगा-इसपर विचार करते हुए केवल",
+          "translation": "\"Haum Sphem Ha Sa Kha Ka Chha Da\" — the Om-syllable is Bhairava, the crest. Bhelakhi the armor; the messenger; the eye-called Raktachandika;",
+          "translationSource": "ai"
         },
         {
           "number": 4,
           "sanskrit": "ततो गुह्यक्रुञ्जिकास्त्रं मण्डले स्थानके यजेत् । अग्नौ कूर्चशिरो रुद्रे नैरृत्ये ऽथ शिखानिले",
           "transliteration": "tato guhyakruñjikāstraṃ maṇḍale sthānake yajet / agnau kūrcaśiro rudre nairṛtye 'tha śikhānile",
-          "hindi": "रविवारके दिन प्रत्येक अर्धप्रहरके स्वामियोंको बता रहे हैं। जैसे रविवारमें एकसे लेकर आठ अर्धप्रहरोंके स्वामी क्रमशः सूर्य, शुक्र, बुध, सोम, शनि, गुरु, मङ्गल और राहु ग्रह होते हैं। (इनमें"
+          "hindi": "रविवारके दिन प्रत्येक अर्धप्रहरके स्वामियोंको बता रहे हैं। जैसे रविवारमें एकसे लेकर आठ अर्धप्रहरोंके स्वामी क्रमशः सूर्य, शुक्र, बुध, सोम, शनि, गुरु, मङ्गल और राहु ग्रह होते हैं। (इनमें",
+          "translation": "then one should worship the secret Kunjika weapon in the mandala-place: in fire the Kurcha-head, in Rudra's, in the southwest the crest in the wind;",
+          "translationSource": "ai"
         },
         {
           "number": 5,
           "sanskrit": "कवचम्मध्यतो नेत्रं अस्त्रन्दिक्षु च मण्डले । द्वात्रिंशता कर्णिकायां स्र्ॐहसक्षमलनववषडसचात्ममन्त्रवीजकं",
           "transliteration": "kavacammadhyato netraṃ astrandikṣu ca maṇḍale / dvātriṃśatā karṇikāyāṃ sroṃhasakṣamalanavavaṣaḍasacātmamantravījakaṃ",
-          "hindi": "जिस विभागका स्वामी शनि होता है, वह समय शुभ कार्यामें त्याज्य है और उसे ही 'वारवेला' (विशेष -रविवारके अर्धयामेशोंको देखनेसे यह अनुमान होता है कि रविवारके अतिरिक्त जिस दिनका अर्धयामेश जानना हो तो प्रथम"
+          "hindi": "जिस विभागका स्वामी शनि होता है, वह समय शुभ कार्यामें त्याज्य है और उसे ही 'वारवेला' (विशेष -रविवारके अर्धयामेशोंको देखनेसे यह अनुमान होता है कि रविवारके अतिरिक्त जिस दिनका अर्धयामेश जानना हो तो प्रथम",
+          "translation": "the armor in the middle, the eye, the weapon in the directions in the mandala; in the pericarp with thirty-two the self-mantra seed \"Srom Ha Sa Ksha Ma La Na Va Va Sha Da Sa...\"",
+          "translationSource": "ai"
         },
         {
           "number": 6,
           "sanskrit": "ब्रह्माणी चैव माहेशो कौमारी वैष्णवी तथा । वाराही चैव माहेन्द्री चामुण्डा चण्डिकेन्द्रकात्",
           "transliteration": "brahmāṇī caiva māheśo kaumārī vaiṣṇavī tathā / vārāhī caiva māhendrī cāmuṇḍā caṇḍikendrakāt",
-          "hindi": "अर्धयामेश तो दिनपति ही होगा और बादके अर्धयामोंके स्वामी छः संख्यावाले ग्रह होंगे। इसी आधारपर रविवारसे लेकर शनिवारतकके अर्धयामोंके स्वामी नीचे चक्रमें दिये जा रहे हैं"
+          "hindi": "अर्धयामेश तो दिनपति ही होगा और बादके अर्धयामोंके स्वामी छः संख्यावाले ग्रह होंगे। इसी आधारपर रविवारसे लेकर शनिवारतकके अर्धयामोंके स्वामी नीचे चक्रमें दिये जा रहे हैं",
+          "translation": "Brahmani, Maheshi, Kaumari, Vaishnavi, Varahi, Mahendri, Chamunda, Chandika from Indra's,",
+          "translationSource": "ai"
         },
         {
           "number": 7,
           "sanskrit": "यजेद्रवलकसहान् शिवेन्दाग्नियमे ऽद्निपे । जले तु कुसुममालामद्रिकाणां च पञ्चकं",
           "transliteration": "yajedravalakasahān śivendāgniyame 'dnipe / jale tu kusumamālāmadrikāṇāṃ ca pañcakaṃ",
-          "hindi": "शनि, सूर्य तथा राहुको यत्नसे पीठ पीछे करके जो संग्राम करता है, वह सैन्यसमुदायपर विजय प्राप्त करता है तथा जूआ, मार्ग और युद्धमें सफल होता है (नक्षत्रोंकी स्थिरादि संज्ञा तथा उसका प्रयोजन कहते हैं --) रोहिणी, तीनों उत्तराएँ, मृगशिरा-- इन पाँच नक्षत्रोंकी 'स्थिर' संज्ञा है। अश्विनी,"
+          "hindi": "शनि, सूर्य तथा राहुको यत्नसे पीठ पीछे करके जो संग्राम करता है, वह सैन्यसमुदायपर विजय प्राप्त करता है तथा जूआ, मार्ग और युद्धमें सफल होता है (नक्षत्रोंकी स्थिरादि संज्ञा तथा उसका प्रयोजन कहते हैं --) रोहिणी, तीनों उत्तराएँ, मृगशिरा-- इन पाँच नक्षत्रोंकी 'स्थिर' संज्ञा है। अश्विनी,",
+          "translation": "one should worship... in Shiva's, moon's, fire's, Yama's quarters; in the water the five garlands of Matrikas,",
+          "translationSource": "ai"
         },
         {
           "number": 8,
           "sanskrit": "जालन्धरं पूर्णगिरिं कामरूपं क्रमाद्यजेत् । मरुदेशाग्निनैरृत्ये मध्ये वै वज्रकुब्जिकां",
           "transliteration": "jālandharaṃ pūrṇagiriṃ kāmarūpaṃ kramādyajet / marudeśāgninairṛtye madhye vai vajrakubjikāṃ",
-          "hindi": "नक्षत्रोंकी 'क्षिप्र' संज्ञा है । इनमें यात्रार्थीको यात्रा करनी चाहिए। अनुराधा, हस्त, मूल, मृगशिरा, पुष्य, पुनर्वसु --इनमें प्रत्येक कार्य हो सकता है। ज्येष्ठा, चित्रा, विशाखा, तीनों पूर्वाएँ, कृत्तिका,"
+          "hindi": "नक्षत्रोंकी 'क्षिप्र' संज्ञा है । इनमें यात्रार्थीको यात्रा करनी चाहिए। अनुराधा, हस्त, मूल, मृगशिरा, पुष्य, पुनर्वसु --इनमें प्रत्येक कार्य हो सकता है। ज्येष्ठा, चित्रा, विशाखा, तीनों पूर्वाएँ, कृत्तिका,",
+          "translation": "Jalandhara, Purnagiri, Kamarupa in order; in Marut, Isha, fire, southwest, in the middle Vajrakubjika;",
+          "translationSource": "ai"
         },
         {
           "number": 9,
           "sanskrit": "अनादिविमलः पूज्यः सर्वज्ञविमलस्तुतः । प्रसिद्धविमलश्चाथ संयोगविमलस्तुतः",
           "transliteration": "anādivimalaḥ pūjyaḥ sarvajñavimalastutaḥ / prasiddhavimalaścātha saṃyogavimalastutaḥ",
-          "hindi": "भरणी, मघा, आर्द्रा, आश्लेषा--इनकी 'दारुण' संज्ञा है। स्थिर कार्योमें स्थिर संज्ञावाले नक्षत्रोंको लेना चाहिए। यात्रामें 'क्षिप्र' संज्ञक नक्षत्र उत्तम माने गये हैं। “मृदु' संज्ञक नक्षत्रॉंमें सौभाग्यका काम तथा 'उग्र' संज्ञक नक्षत्रोंमें उग्र काम करना चाहिए। “ दारुण' संज्ञक नक्षत्र दारुण (भयानक) कामके लिये उपयुक्त होते हैं"
+          "hindi": "भरणी, मघा, आर्द्रा, आश्लेषा--इनकी 'दारुण' संज्ञा है। स्थिर कार्योमें स्थिर संज्ञावाले नक्षत्रोंको लेना चाहिए। यात्रामें 'क्षिप्र' संज्ञक नक्षत्र उत्तम माने गये हैं। “मृदु' संज्ञक नक्षत्रॉंमें सौभाग्यका काम तथा 'उग्र' संज्ञक नक्षत्रोंमें उग्र काम करना चाहिए। “ दारुण' संज्ञक नक्षत्र दारुण (भयानक) कामके लिये उपयुक्त होते हैं",
+          "translation": "Anadi-vimala is to be worshipped, praised by Sarvajna-vimala; then Prasiddha-vimala, praised by Samyoga-vimala,",
+          "translationSource": "ai"
         },
         {
           "number": 10,
           "sanskrit": "समयाख्यो ऽथ विमल एतद्विमलपञ्चकं । मरुदीशाननैरृत्ये वह्नौ चोत्तरशृङ्गके",
           "transliteration": "samayākhyo 'tha vimala etadvimalapañcakaṃ / marudīśānanairṛtye vahnau cottaraśṛṅgake",
-          "hindi": "(अब अधोमुख, तिर्यङ्मुख आदि नक्षत्रोंका नाम तथा प्रयोजन कहता हूँ-) कृत्तिका,"
+          "hindi": "(अब अधोमुख, तिर्यङ्मुख आदि नक्षत्रोंका नाम तथा प्रयोजन कहता हूँ-) कृत्तिका,",
+          "translation": "then Samaya-vimala — these five Vimalas; in the northwest, northeast, southwest, fire, and on the northern peak;",
+          "translationSource": "ai"
         },
         {
           "number": 11,
           "sanskrit": "कुब्जार्थं खिंखिनी षष्ठा सोपन्ना सुस्थिरा तथा । रत्नसुन्दरी चैशाने शृङ्गे चाष्टादिनाथकाः",
           "transliteration": "kubjārthaṃ khiṃkhinī ṣaṣṭhā sopannā susthirā tathā / ratnasundarī caiśāne śṛṅge cāṣṭādināthakāḥ",
-          "hindi": "पूर्वाएँ-ये अधोमुख नक्षत्र हैं। इनमें अधोमुख कर्म करना चाहिए। उदाहरणार्थं कूप, तड़ाग, विद्याकर्म, चिकित्सा, स्थापन, नौका-निर्माण, कूपोंका विधान, गड्ढा खोदना आदि कार्य इन्हीं अधोमुख नक्षत्रोंमें करना चाहिए। रेवती, अश्विनी,"
+          "hindi": "पूर्वाएँ-ये अधोमुख नक्षत्र हैं। इनमें अधोमुख कर्म करना चाहिए। उदाहरणार्थं कूप, तड़ाग, विद्याकर्म, चिकित्सा, स्थापन, नौका-निर्माण, कूपोंका विधान, गड्ढा खोदना आदि कार्य इन्हीं अधोमुख नक्षत्रोंमें करना चाहिए। रेवती, अश्विनी,",
+          "translation": "for Kubja, Khinkhini the sixth, Sopanna, Susthira, and Ratnasundari in Ishana; on the peak the eight lords;",
+          "translationSource": "ai"
         },
         {
           "number": 12,
           "sanskrit": "मित्र ओडीशषष्ठ्याख्यौ वर्षा अग्न्यम्बुपे ऽनिले । भवेद्गगनरत्नं स्याच्चाप्ये कवचरत्नकं",
           "transliteration": "mitra oḍīśaṣaṣṭhyākhyau varṣā agnyambupe 'nile / bhavedgaganaratnaṃ syāccāpye kavacaratnakaṃ",
-          "hindi": "ज्येष्ठ--ये नौ नक्षत्र तिर्यङ्मुख हैं। इनमें राज्याभिषेक, हाथी तथा घोड़ेको पट्टा बाँधना, बाग लगाना, गृह तथा प्रासादका निर्माण, प्राकार बनाना, क्षेत्र, तोरण, ध्वजा, पताका लगाना-इन सभी कार्योको"
+          "hindi": "ज्येष्ठ--ये नौ नक्षत्र तिर्यङ्मुख हैं। इनमें राज्याभिषेक, हाथी तथा घोड़ेको पट्टा बाँधना, बाग लगाना, गृह तथा प्रासादका निर्माण, प्राकार बनाना, क्षेत्र, तोरण, ध्वजा, पताका लगाना-इन सभी कार्योको",
+          "translation": "Mitra, Odisha, Shashthya, Varsha in fire, water, wind; there is Gaganaratna; in the west Kavacharatna;",
+          "translationSource": "ai"
         },
         {
           "number": 13,
           "sanskrit": "ब्रुं मर्त्यः पञ्चनामाख्यो(१) मरुदीशानवह्निगः । याम्याग्नेये पञ्चरत्नं ज्येष्ठा रौद्री तथान्तिका",
           "transliteration": "bruṃ martyaḥ pañcanāmākhyo(1) marudīśānavahnigaḥ / yāmyāgneye pañcaratnaṃ jyeṣṭhā raudrī tathāntikā",
-          "hindi": "करना चाहिए। रविवारको द्वादशी, सोमवारको एकादशी, मङ्गलवारको दशमी, बुधवारको तृतीया, बृहस्पतिवारको षष्टी, शुक्रबारको द्वितीया, शनिवारको सप्तमी हो तो 'दग्धयोग' होता है (अब त्रिपुष्कर योग बतलाते हैं--) द्वितीया,"
+          "hindi": "करना चाहिए। रविवारको द्वादशी, सोमवारको एकादशी, मङ्गलवारको दशमी, बुधवारको तृतीया, बृहस्पतिवारको षष्टी, शुक्रबारको द्वितीया, शनिवारको सप्तमी हो तो 'दग्धयोग' होता है (अब त्रिपुष्कर योग बतलाते हैं--) द्वितीया,",
+          "translation": "\"Brum\" — a mortal, called the five names, in the wind, Ishana, fire; the five jewels in south and southeast: Jyeshtha, Raudri and Antika;",
+          "translationSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "तिस्रो ह्य् आसां महावृद्धाः पञ्चप्रणवतो ऽखिलाः । सप्तविंशत्यष्टविंशभेदात् सम्पूजनं द्विधा",
           "transliteration": "tisro hy āsāṃ mahāvṛddhāḥ pañcapraṇavato 'khilāḥ / saptaviṃśatyaṣṭaviṃśabhedāt sampūjanaṃ dvidhā",
-          "hindi": "शनि-तीन वारये छः 'त्रिपुष्कर' हैं तथा विशाखा, कृत्तिका, दोनों उत्तराएँ, पुनर्वसु, पूर्वाभाद्रपदा-ये छः नक्षत्र भी 'त्रिपुष्कर' हैं। अर्थात् रवि, शनि, मङ्गलवारोंमें द्वितीया, सप्तमी,"
+          "hindi": "शनि-तीन वारये छः 'त्रिपुष्कर' हैं तथा विशाखा, कृत्तिका, दोनों उत्तराएँ, पुनर्वसु, पूर्वाभाद्रपदा-ये छः नक्षत्र भी 'त्रिपुष्कर' हैं। अर्थात् रवि, शनि, मङ्गलवारोंमें द्वितीया, सप्तमी,",
+          "translation": "these three of them are the great old ones; all with five Oms; by difference of twenty-seven and twenty-eight the worship is twofold:",
+          "translationSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "ॐ ऐं गूं क्रमगणपतिं प्रणवं वटुकं यजेत् । चतुरस्रे मण्डले च दक्षिणे गणपं यजेत्",
           "transliteration": "oṃ aiṃ gūṃ kramagaṇapatiṃ praṇavaṃ vaṭukaṃ yajet / caturasre maṇḍale ca dakṣiṇe gaṇapaṃ yajet",
-          "hindi": "द्वादशीमेंसे कोई तिथि हो तथा उपर्युक्त नक्षत्रोंमेंसे कोई नक्षत्र हो तो 'त्रिपुष्कर-योग' होता है। त्रिपुष्कर योगमें लाभ, हानि, विजय, वृद्धि, पुत्रजन्म, वस्तुओंका नष्ट एवं विनष्ट होना-ये सब त्रिगुणित हो जाते हैं"
+          "hindi": "द्वादशीमेंसे कोई तिथि हो तथा उपर्युक्त नक्षत्रोंमेंसे कोई नक्षत्र हो तो 'त्रिपुष्कर-योग' होता है। त्रिपुष्कर योगमें लाभ, हानि, विजय, वृद्धि, पुत्रजन्म, वस्तुओंका नष्ट एवं विनष्ट होना-ये सब त्रिगुणित हो जाते हैं",
+          "translation": "\"Om Aim Gum\" — one should worship Kramaganapati, Om, Vatuka; in a square mandala on the right Ganapa one should worship,",
+          "translationSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "वामे च वटुकं कोणे गुरून् सोडशनाथकान् । वायव्यादौ चाष्ट दश प्रतिषट्कोणके ततः",
           "transliteration": "vāme ca vaṭukaṃ koṇe gurūn soḍaśanāthakān / vāyavyādau cāṣṭa daśa pratiṣaṭkoṇake tataḥ",
-          "hindi": "(अब नक्षत्रोंकी स्वक्ष, मध्याक्ष, मन्दाक्ष और अन्धाक्ष संज्ञा तथा प्रयोजन कहते हैं-) अश्विनी, भरणी, आश्लेषा, पुष्य, स्वाती, विशाखा, श्रवण, पुनर्वसु ये दृढ़ नेत्रवाले नक्षत्र हैं और दसों"
+          "hindi": "(अब नक्षत्रोंकी स्वक्ष, मध्याक्ष, मन्दाक्ष और अन्धाक्ष संज्ञा तथा प्रयोजन कहते हैं-) अश्विनी, भरणी, आश्लेषा, पुष्य, स्वाती, विशाखा, श्रवण, पुनर्वसु ये दृढ़ नेत्रवाले नक्षत्र हैं और दसों",
+          "translation": "on the left Vatuka, in the corner the teachers, sixteen lords; in the northwest and the rest eighteen, at each hexagon corner then;",
+          "translationSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "ब्रह्माद्याश्चाष्ट परितस्तन्मध्ये च नवात्मकः । कुब्जिका कुलटा चैव क्रमपूजा तु सर्वदा",
           "transliteration": "brahmādyāścāṣṭa paritastanmadhye ca navātmakaḥ / kubjikā kulaṭā caiva kramapūjā tu sarvadā",
-          "hindi": "प्रत्येक दिनकी अर्धयामेश-संख्या आठ है तथा दिनपति रविसे लेकर शनितक सात ही हैं। अतः आठवें अर्धयामको ग्रन्थान्तरोंमें “निरीश' माना गया है। जैसे"
+          "hindi": "प्रत्येक दिनकी अर्धयामेश-संख्या आठ है तथा दिनपति रविसे लेकर शनितक सात ही हैं। अतः आठवें अर्धयामको ग्रन्थान्तरोंमें “निरीश' माना गया है। जैसे",
+          "translation": "eight Brahmas around, in the middle nine-natured; Kubjika and Kulata — the order of worship always.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -34280,193 +34378,257 @@
           "number": 6,
           "sanskrit": "अतलदेवी श्रीचन्द्रा देवीत्यन्तास्ततस्त्विमे । भगात्मपुङ्गणदेवमोहनीं पादुकां यजेत्",
           "transliteration": "ataladevī śrīcandrā devītyantāstatastvime / bhagātmapuṅgaṇadevamohanīṃ pādukāṃ yajet",
-          "hindi": "देना चाहिए। आश्लेषाके अन्तका तथा मघाके आदिके चार दण्ड “द्वितीय गण्डान्त' कहे गये हैं। भैरवि! अब “तृतीय गण्डान्त'को सुनो- ज्येष्ठा तथा मूलके बीचका एक प्रहर बहुत ही भयानक होता है। यदि व्यक्ति अपना जीवन चाहता हो तो उसे इस कालमें कोई शुभ कार्य नहीं करना चाहिए। इस समयमें यदि बालक पैदा हो तो उसके माता-पिता जीवित नहीं रहते ॥ ३३--३६ ॥"
+          "hindi": "देना चाहिए। आश्लेषाके अन्तका तथा मघाके आदिके चार दण्ड “द्वितीय गण्डान्त' कहे गये हैं। भैरवि! अब “तृतीय गण्डान्त'को सुनो- ज्येष्ठा तथा मूलके बीचका एक प्रहर बहुत ही भयानक होता है। यदि व्यक्ति अपना जीवन चाहता हो तो उसे इस कालमें कोई शुभ कार्य नहीं करना चाहिए। इस समयमें यदि बालक पैदा हो तो उसके माता-पिता जीवित नहीं रहते ॥ ३३--३६ ॥",
+          "translation": "Atala-devi, Shrichandra, up to Devi — these then; one should worship the sandals of Bhagatma-pungana-deva-mohini;",
+          "translationSource": "ai"
         },
         {
           "number": 7,
           "sanskrit": "अतीतभुवनानन्दरत्नाढ्यां पादुकां यजेत् । ब्रह्मज्ञानाथ कमला परमा विद्यया सह",
           "transliteration": "atītabhuvanānandaratnāḍhyāṃ pādukāṃ yajet / brahmajñānātha kamalā paramā vidyayā saha",
-          "hindi": "'नक्षत्रोके निर्णयका प्रतिपादन ' नामक"
+          "hindi": "'नक्षत्रोके निर्णयका प्रतिपादन ' नामक",
+          "translation": "one should worship the sandals rich in the jewel of bliss of the past worlds; Brahmajnana, Kamala, with Parama Vidya;",
+          "translationSource": "ai"
         },
         {
           "number": 8,
           "sanskrit": "विद्यादेवीगुरुशुद्धिस्त्रिशुद्धिं प्रवदामि ते । गगनश् चटुली चात्मा पद्मानन्दो मणिः कला",
           "transliteration": "vidyādevīguruśuddhistriśuddhiṃ pravadāmi te / gaganaś caṭulī cātmā padmānando maṇiḥ kalā",
-          "hindi": "एक सौ छब्बीसवाँ अध्याय पूरा हुआ विभिन्न बलोंका वर्णन"
+          "hindi": "एक सौ छब्बीसवाँ अध्याय पूरा हुआ विभिन्न बलोंका वर्णन",
+          "translation": "Vidyadevi, Guru-shuddhi — I shall tell you the threefold purity: Gagana, Chatuli, Atma, Padmananda, Mani, Kala,",
+          "translationSource": "ai"
         },
         {
           "number": 9,
           "sanskrit": "१ वह्निकुब्जिनि इति ख॥ , छ॥ च :प् ९८ कमलो माणिक्यकण्ठो गगनः कुमुदस्ततः । श्रीपद्मो भैरवानन्दो देवः कमल इत्य् अतः",
           "transliteration": "1 vahnikubjini iti kha.. , cha.. ca :p 98 kamalo māṇikyakaṇṭho gaganaḥ kumudastataḥ / śrīpadmo bhairavānando devaḥ kamala ity ataḥ",
-          "hindi": "शंकरजी कहते हैं--' विष्कुम्भ योग ' की तीन घड़ियाँ, “शूल योग 'की पाँच 'गण्ड' तथा ' अतिगण्ड योग'की छः 'व्याघात' तथा 'वज्र योग' की नौ घड़ियोंको सभी शुभ कार्योमें त्याग देना चाहिए।"
+          "hindi": "शंकरजी कहते हैं--' विष्कुम्भ योग ' की तीन घड़ियाँ, “शूल योग 'की पाँच 'गण्ड' तथा ' अतिगण्ड योग'की छः 'व्याघात' तथा 'वज्र योग' की नौ घड़ियोंको सभी शुभ कार्योमें त्याग देना चाहिए।",
+          "translation": "Kamala, Manikyakantha, Gagana, then Kumuda; Shri-Padma, Bhairavananda, Deva Kamala;",
+          "translationSource": "ai"
         },
         {
           "number": 10,
           "sanskrit": "शिवो भवो ऽथ कृष्णश् च नवसिद्धाश् च षोडश । चन्द्रपूरो ऽथ गुल्मश् च शुभः कामो ऽतिमुक्तकः(१)",
           "transliteration": "śivo bhavo 'tha kṛṣṇaś ca navasiddhāś ca ṣoḍaśa / candrapūro 'tha gulmaś ca śubhaḥ kāmo 'timuktakaḥ(1)",
-          "hindi": "'परिघ', “व्यतीपात' और 'वैधृति' योगोंमें पूरा दिन त्याज्य बतलाया गया है। इन योगोंमें यात्रा- युद्धादि कार्य नहीं करने चाहिए देवि! अब मैं मेषादि राशि तथा ग्रहोंके द्वारा शुभाशुभका निर्णय बताता हूँ-जन्म-राशिके चन्द्रमा तथा शुक्र वर्जित होनेपर ही शुभदायक होते हैं। जन्म-राशि तथा लग्नसे दूसरे स्थानमें सूर्य, शनि,"
+          "hindi": "'परिघ', “व्यतीपात' और 'वैधृति' योगोंमें पूरा दिन त्याज्य बतलाया गया है। इन योगोंमें यात्रा- युद्धादि कार्य नहीं करने चाहिए देवि! अब मैं मेषादि राशि तथा ग्रहोंके द्वारा शुभाशुभका निर्णय बताता हूँ-जन्म-राशिके चन्द्रमा तथा शुक्र वर्जित होनेपर ही शुभदायक होते हैं। जन्म-राशि तथा लग्नसे दूसरे स्थानमें सूर्य, शनि,",
+          "translation": "Shiva, Bhava, Krishna, and the sixteen Siddhas; Chandrapura, Gulma, Shubha, Kama, Atimuktaka,",
+          "translationSource": "ai"
         },
         {
           "number": 11,
           "sanskrit": "कण्ठो वीरः(२) प्रयोगो ऽथ कुशलो देवभोगकः । विश्वदेवः खड्गदेवो रुद्रो धातासिरेव च",
           "transliteration": "kaṇṭho vīraḥ(2) prayogo 'tha kuśalo devabhogakaḥ / viśvadevaḥ khaḍgadevo rudro dhātāsireva ca",
-          "hindi": "राहु अथवा मङ्गल हो तो प्राप्त द्रव्यका नाश और अप्रापका अलाभ होता है तथा युद्धमें पराजय होती है। चन्द्रमा, बुध, गुरु, शुक्र-ये दूसरे स्थानमें शुभप्रद होते हैं। सूर्य, शनि, मङ्गल,"
+          "hindi": "राहु अथवा मङ्गल हो तो प्राप्त द्रव्यका नाश और अप्रापका अलाभ होता है तथा युद्धमें पराजय होती है। चन्द्रमा, बुध, गुरु, शुक्र-ये दूसरे स्थानमें शुभप्रद होते हैं। सूर्य, शनि, मङ्गल,",
+          "translation": "Kantha, Vira, Prayoga, Kushala, Devabhogaka, Vishvadeva, Khadgadeva, Rudra, and Dhata,",
+          "translationSource": "ai"
         },
         {
           "number": 12,
           "sanskrit": "मुद्रास्फीटी वंशपूरो भोजः षोडश सिद्धकाः । समयान्यस्तु देहस्तु षोढान्यासेन यन्त्रितः",
           "transliteration": "mudrāsphīṭī vaṃśapūro bhojaḥ ṣoḍaśa siddhakāḥ / samayānyastu dehastu ṣoḍhānyāsena yantritaḥ",
-          "hindi": "शुक्र, बुध, चन्द्रमा, राहु-ये तीसरे घरमें हों तो शुभ फल देते हैं । बुध, शुक्र चौथे भावमें हों तो शुभ तथा शेष ग्रह भयदायक होते हैं। बृहस्पति, शुक्र, बुध, चन्द्रमा-ये पञ्चम भावमें हों तो अभीष्ट लाभकी प्राप्ति कराते हैं। देवि! अपनी राशिसे छठे भावमें सूर्य, चन्द्र, शनि, मङ्गल,"
+          "hindi": "शुक्र, बुध, चन्द्रमा, राहु-ये तीसरे घरमें हों तो शुभ फल देते हैं । बुध, शुक्र चौथे भावमें हों तो शुभ तथा शेष ग्रह भयदायक होते हैं। बृहस्पति, शुक्र, बुध, चन्द्रमा-ये पञ्चम भावमें हों तो अभीष्ट लाभकी प्राप्ति कराते हैं। देवि! अपनी राशिसे छठे भावमें सूर्य, चन्द्र, शनि, मङ्गल,",
+          "translation": "Mudraspheti, Vamshapura, Bhoja — sixteen Siddhas. The body of the Samaya is controlled by the sixfold placement;",
+          "translationSource": "ai"
         },
         {
           "number": 13,
           "sanskrit": "प्रक्षिप्य मण्डले पुष्पं मण्डलान्यथ पूजयेत् । अनन्तञ्च महान्तञ्च सर्वदा शिवपादुकां",
           "transliteration": "prakṣipya maṇḍale puṣpaṃ maṇḍalānyatha pūjayet / anantañca mahāntañca sarvadā śivapādukāṃ",
-          "hindi": "बुध-ये ग्रह शुभ फल देते हैं; किंतु छठे भावका शुक्र तथा गुरु शुभ नहीं होता। सप्तम भावके सूर्य, शनि, मङ्गल, राहु हानिकारक होते हैं तथा बुध, गुरु, शुक्र सुखदायक होते हैं। अष्टम"
+          "hindi": "बुध-ये ग्रह शुभ फल देते हैं; किंतु छठे भावका शुक्र तथा गुरु शुभ नहीं होता। सप्तम भावके सूर्य, शनि, मङ्गल, राहु हानिकारक होते हैं तथा बुध, गुरु, शुक्र सुखदायक होते हैं। अष्टम",
+          "translation": "having cast a flower on the mandala one should then worship the mandalas: Ananta and Mahanta, and always Shiva's sandals;",
+          "translationSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "महाव्याप्तिश् च शून्यञ्च पञ्चतत्त्वात्ममण्डलं । श्रीकण्ठनाथपादुकां शङ्करानन्तकौ यजेत्",
           "transliteration": "mahāvyāptiś ca śūnyañca pañcatattvātmamaṇḍalaṃ / śrīkaṇṭhanāthapādukāṃ śaṅkarānantakau yajet",
-          "hindi": "भावके बुध और शुक्र-शुभ तथा शेष ग्रह हानिकारक होते हैं। नवम भावके बुध, शुक्र शुभ तथा शेष ग्रह अशुभ होते हैं। दशम भावके शुक्र, सूर्य लाभकर होते हैं तथा शनि, मङ्गल, राहु, चन्द्रमा-बुध शुभकारक होते हैं। ग्यारहवें भावमें प्रत्येक ग्रह शुभ फल देता है, परंतु दसवें बृहस्पति त्याज्य हैं । द्वादश भावमें बुध-शुक्र शुभ तथा शेष ग्रह अशुभ होते हैं। एक दिन-रातमें"
+          "hindi": "भावके बुध और शुक्र-शुभ तथा शेष ग्रह हानिकारक होते हैं। नवम भावके बुध, शुक्र शुभ तथा शेष ग्रह अशुभ होते हैं। दशम भावके शुक्र, सूर्य लाभकर होते हैं तथा शनि, मङ्गल, राहु, चन्द्रमा-बुध शुभकारक होते हैं। ग्यारहवें भावमें प्रत्येक ग्रह शुभ फल देता है, परंतु दसवें बृहस्पति त्याज्य हैं । द्वादश भावमें बुध-शुक्र शुभ तथा शेष ग्रह अशुभ होते हैं। एक दिन-रातमें",
+          "translation": "Mahavyapti, Shunya, the mandala of the five principles; one should worship the sandals of Shrikantha-natha; Shankara and Anantaka;",
+          "translationSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "सदाशिवः पिङ्गलश् च भृग्वानन्दश् च नाथकः । लाङ्गूलानन्दसंवर्तौ मण्डलस्थानके यजेत्",
           "transliteration": "sadāśivaḥ piṅgalaś ca bhṛgvānandaś ca nāthakaḥ / lāṅgūlānandasaṃvartau maṇḍalasthānake yajet",
-          "hindi": "द्वादश राशियाँ भोग करती हैं। अब मैं उनका"
+          "hindi": "द्वादश राशियाँ भोग करती हैं। अब मैं उनका",
+          "translation": "Sadashiva and Pingala, and Bhriguananda the lord; Langulananda and Samvarta one should worship in the mandala place;",
+          "translationSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "नैरृत्ये श्रीमहकालः पिनाकी च महेन्द्रकः । खड्गो भुजङ्गो वाणश् च अघासिः शब्दको वशः",
           "transliteration": "nairṛtye śrīmahakālaḥ pinākī ca mahendrakaḥ / khaḍgo bhujaṅgo vāṇaś ca aghāsiḥ śabdako vaśaḥ",
-          "hindi": "वर्णन कर रहा हूँ॥ ३--१२॥ (राशियोंका भोगकाल एवं चरादि संज्ञा तथा प्रयोजन कह रहे हैं--) मीन, मेष, मिथुन--इनमें प्रत्येकके चार दण्ड; वृष, कर्क, सिंह, कन्या-- इनमें प्रत्येकके छः दण्ड; तुला, वृश्चिक, धनु,"
+          "hindi": "वर्णन कर रहा हूँ॥ ३--१२॥ (राशियोंका भोगकाल एवं चरादि संज्ञा तथा प्रयोजन कह रहे हैं--) मीन, मेष, मिथुन--इनमें प्रत्येकके चार दण्ड; वृष, कर्क, सिंह, कन्या-- इनमें प्रत्येकके छः दण्ड; तुला, वृश्चिक, धनु,",
+          "translation": "in the southwest Shri-Mahakala and Pinaki and Mahendraka; Khadga, Bhujanga, Bana, Aghasi, Shabdaka, Vasha;",
+          "translationSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "आज्ञारूपो नन्दरूपो बलिन्दत्वा क्रमं यजेत् । ह्रीं खं खं हूं सौं वटुकाय अरु २ अर्घं पुष्पं धूपं दीपंगन्धं बलिं पूजां गृह्ण २ नमस्तुभ्यं । ॐ ह्रां ह्रीं ह्रूं क्षें क्षेत्रपालाय अवतर २ महाकपिलजटाभार भास्वरत्रिनेत्रज्वालामुख एह्येहि गन्ह्दपुष्पबलिपूजां गृह्ण २ खः खः ॐ कः ॐ लः ॐ महाडामराधिपतये(३) स्वाहा १ कामो ऽथ मुक्तक इति ज॥ , छ॥ , ञ॥ च २ वटो वीर इति ज॥ , छ॥ च ३ प्रमथाधिपतये इति ङ॥ । महामायाधिपतये इति ज॥ :प् ९९ बलिशेषे ऽथ यजेत् ह्रीं ह्रूं हां श्रीं वै त्रिकूटकं",
           "transliteration": "ājñārūpo nandarūpo balindatvā kramaṃ yajet / hrīṃ khaṃ khaṃ hūṃ sauṃ vaṭukāya aru 2 arghaṃ puṣpaṃ dhūpaṃ dīpaṃgandhaṃ baliṃ pūjāṃ gṛhṇa 2 namastubhyaṃ / oṃ hrāṃ hrīṃ hrūṃ kṣeṃ kṣetrapālāya avatara 2 mahākapilajaṭābhāra bhāsvaratrinetrajvālāmukha ehyehi ganhdapuṣpabalipūjāṃ gṛhṇa 2 khaḥ khaḥ oṃ kaḥ oṃ laḥ oṃ mahāḍāmarādhipataye(3) svāhā 1 kāmo 'tha muktaka iti ja.. , cha.. , ña.. ca 2 vaṭo vīra iti ja.. , cha.. ca 3 pramathādhipataye iti ṅa.. / mahāmāyādhipataye iti ja.. :p 99 baliśeṣe 'tha yajet hrīṃ hrūṃ hāṃ śrīṃ vai trikūṭakaṃ",
-          "hindi": "मकर, कुम्भ --इनमें प्रत्येकके पाँच दण्ड भोगकाल हैं। सूर्य जिस राशिमें रहते हैं, उसीका उदय होता है और उसी राशिसे अन्य राशियोंका भोगकाल प्रारम्भ होता है। मेषादि राशियोंकी क्रमशः ' चर ',"
+          "hindi": "मकर, कुम्भ --इनमें प्रत्येकके पाँच दण्ड भोगकाल हैं। सूर्य जिस राशिमें रहते हैं, उसीका उदय होता है और उसी राशिसे अन्य राशियोंका भोगकाल प्रारम्भ होता है। मेषादि राशियोंकी क्रमशः ' चर ',",
+          "translation": "Ajnarupa, Nandarupa — having given the offering one should worship in order. \"Hrim Kham Kham Hum Saum, to Vatuka\" — then one should worship the remainder of the offering; \"Hrim Hrum Ham Shrim\" — the Trikuta.",
+          "translationSource": "ai"
         },
         {
           "number": 18,
           "sanskrit": "वामे च दक्षिणे ह्य् अग्रे याम्ये निशानाथपादुकाः । दक्षे तमोरिनाथस्य हग्रे कालानलस्य च",
           "transliteration": "vāme ca dakṣiṇe hy agre yāmye niśānāthapādukāḥ / dakṣe tamorināthasya hagre kālānalasya ca",
-          "hindi": "'स्थिर' और 'द्विस्वभाव' संज्ञा होती है। जैसे-- मेष, कर्क, तुला, मकर-इन राशियोंको “चर' 'स्थिर' संज्ञा है। इनमें स्थायी कार्य करना चाहिए। इन लग्नोंमें बाहर गये हुए व्यक्तिसे शीघ्र समागम नहीं होता तथा रोगीको शीघ्र रोगसे मुक्ति नहीं"
+          "hindi": "'स्थिर' और 'द्विस्वभाव' संज्ञा होती है। जैसे-- मेष, कर्क, तुला, मकर-इन राशियोंको “चर' 'स्थिर' संज्ञा है। इनमें स्थायी कार्य करना चाहिए। इन लग्नोंमें बाहर गये हुए व्यक्तिसे शीघ्र समागम नहीं होता तथा रोगीको शीघ्र रोगसे मुक्ति नहीं",
+          "translation": "On the left and right in front, on the south, the sandals of Nishanatha; on the right of Tamorinatha, in front of Kalanala;",
+          "translationSource": "ai"
         },
         {
           "number": 19,
           "sanskrit": "उड्डियाणं जालन्धरं पूर्णं वै कामरुपकं । गगनानन्ददेवञ्च स्वर्गानन्दं सवर्गकं(१)",
           "transliteration": "uḍḍiyāṇaṃ jālandharaṃ pūrṇaṃ vai kāmarupakaṃ / gaganānandadevañca svargānandaṃ savargakaṃ(1)",
-          "hindi": "राशियोंकी ' द्विस्वभाव ' संज्ञा है। ये द्विस्वभावसंज्ञक राशियाँ प्रत्येक कार्यमें शुभ फल देनेवाली हैं। इनमें यात्रा, व्यापार, संग्राम, विवाह एवं राजदर्शन होनेपर वृद्धि, जय तथा लाभ होते हैं और युद्धमें"
+          "hindi": "राशियोंकी ' द्विस्वभाव ' संज्ञा है। ये द्विस्वभावसंज्ञक राशियाँ प्रत्येक कार्यमें शुभ फल देनेवाली हैं। इनमें यात्रा, व्यापार, संग्राम, विवाह एवं राजदर्शन होनेपर वृद्धि, जय तथा लाभ होते हैं और युद्धमें",
+          "translation": "Uddiyana, Jalandhara, Purna and Kamarupa; Gagananandadeva and Svargananda with the group;",
+          "translationSource": "ai"
         },
         {
           "number": 20,
           "sanskrit": "परमानन्ददेवञ्च(२) सत्यानन्दस्य पादुकां(३) । नागानन्दञ्च वर्गाख्यमुक्तान्ते रत्नपञ्चकं",
           "transliteration": "paramānandadevañca(2) satyānandasya pādukāṃ(3) / nāgānandañca vargākhyamuktānte ratnapañcakaṃ",
-          "hindi": "विजय होती है। अश्विनी नक्षत्रकी बीस ताराएँ हैं और घोड़ेके समान उसका आकार है । यदि इसमें वर्षा हो तो एक राततक घनघोर वर्षा होती है। संज्ञा है। इनमें शुभ तथा अशुभ स्थायी कार्य करने  यदि भरणीमें वर्षा आरम्भ हो तो पंद्रह दिनतक चाहिए। वृष, सिंह, वृश्चिक, कुम्भ-इन राशियोंको  लगातार वर्षा होती रहती है"
+          "hindi": "विजय होती है। अश्विनी नक्षत्रकी बीस ताराएँ हैं और घोड़ेके समान उसका आकार है । यदि इसमें वर्षा हो तो एक राततक घनघोर वर्षा होती है। संज्ञा है। इनमें शुभ तथा अशुभ स्थायी कार्य करने  यदि भरणीमें वर्षा आरम्भ हो तो पंद्रह दिनतक चाहिए। वृष, सिंह, वृश्चिक, कुम्भ-इन राशियोंको  लगातार वर्षा होती रहती है",
+          "translation": "Paramanandadeva and the sandals of Satyananda; Nagananda, Vargakhya; at the end of the declared, the five jewels;",
+          "translationSource": "ai"
         },
         {
           "number": 21,
           "sanskrit": "सौम्ये शिवे यजेत् षट्कं सुरनाथस्य पादुकां । श्रीमत्समयकोटीशं विद्याकोटीश्वरं यजेत्",
           "transliteration": "saumye śive yajet ṣaṭkaṃ suranāthasya pādukāṃ / śrīmatsamayakoṭīśaṃ vidyākoṭīśvaraṃ yajet",
-          "hindi": "इस प्रकार आदि आग्नेय महापुराणे “विभिन्न बलोका वर्णन” नामक एक सौ सत्ताईसवाँ अध्याय पूरा हुआ"
+          "hindi": "इस प्रकार आदि आग्नेय महापुराणे “विभिन्न बलोका वर्णन” नामक एक सौ सत्ताईसवाँ अध्याय पूरा हुआ",
+          "translation": "in the north in Shiva one should worship six, the sandals of Suranatha; one should worship Shrimat-Samayakotisha, Vidyakotishvara;",
+          "translationSource": "ai"
         },
         {
           "number": 22,
           "sanskrit": "कोटीशं विन्दुकोटीशं सिद्धकोटीश्वरन्तथा । सिद्धचतुष्कमाग्नेय्यां अमरीशेश्वरं यजेत्",
           "transliteration": "koṭīśaṃ vindukoṭīśaṃ siddhakoṭīśvarantathā / siddhacatuṣkamāgneyyāṃ amarīśeśvaraṃ yajet",
-          "hindi": "शंकरजी कहते हैं-- अब मैं 'कोटचक्र' का  अर्थात् प्रथम नाड़ीमें आठ नक्षत्र हो जायँगे। इसी वर्णन करता हूँ-पहले चतुर्भुज लिखे, उसके  तरह पूर्वादि दिशाओंके अनुसार रोहिणी, पुष्य, भीतर दूसरा चतुर्भुज, उसके भीतर तीसरा चतुर्भुज  पूर्वाफाल्गुनी, स्वाती, ज्येष्ठा, अभिजित्, शतभिषा, और उसके भीतर चौथा चतुर्भुज लिखे। इस तरह  अश्विनी-ये आठ नक्षत्र, मध्यनाड़ीमें हो जाते लिख देनेपर 'कोटचक्र' बन जाता है। कोटचक्रके  हैं। कोटके भीतर जो अन्तनाड़ी है, उसमें भी भीतर तीन मेखलाएँ बनती हैं, जिनका नाम  पूर्वादि दिशाओंके अनुसार पूर्वमें मृगशिरा, क्रमसे “प्रथम नाडी ', 'मध्यनाड़ी' और ' अन्तनाड़ी'  अग्निकोणमें पुनर्वसु, दक्षिणमें उत्तराफाल्गुनी, है  कोटचक्रके ऊपर पूर्वादि दिशाओंको लिखकर  नैऋत्यमें चित्रा, पश्चिममें मूल, वायव्यमें उत्तराषाढ़ा,"
+          "hindi": "शंकरजी कहते हैं-- अब मैं 'कोटचक्र' का  अर्थात् प्रथम नाड़ीमें आठ नक्षत्र हो जायँगे। इसी वर्णन करता हूँ-पहले चतुर्भुज लिखे, उसके  तरह पूर्वादि दिशाओंके अनुसार रोहिणी, पुष्य, भीतर दूसरा चतुर्भुज, उसके भीतर तीसरा चतुर्भुज  पूर्वाफाल्गुनी, स्वाती, ज्येष्ठा, अभिजित्, शतभिषा, और उसके भीतर चौथा चतुर्भुज लिखे। इस तरह  अश्विनी-ये आठ नक्षत्र, मध्यनाड़ीमें हो जाते लिख देनेपर 'कोटचक्र' बन जाता है। कोटचक्रके  हैं। कोटके भीतर जो अन्तनाड़ी है, उसमें भी भीतर तीन मेखलाएँ बनती हैं, जिनका नाम  पूर्वादि दिशाओंके अनुसार पूर्वमें मृगशिरा, क्रमसे “प्रथम नाडी ', 'मध्यनाड़ी' और ' अन्तनाड़ी'  अग्निकोणमें पुनर्वसु, दक्षिणमें उत्तराफाल्गुनी, है  कोटचक्रके ऊपर पूर्वादि दिशाओंको लिखकर  नैऋत्यमें चित्रा, पश्चिममें मूल, वायव्यमें उत्तराषाढ़ा,",
+          "translation": "Kotisha, Bindukotisha, Siddhakotishvara likewise; the four Siddhas in the southeast, one should worship Amarishesvara;",
+          "translationSource": "ai"
         },
         {
           "number": 23,
           "sanskrit": "चक्रीशनाथं कुरुङ्गेशं वृत्रेशञ्चन्द्रनाथकं(४) । यजेद्गन्धादिभिश् चैतान् याम्ये विमलपञ्चकं",
           "transliteration": "cakrīśanāthaṃ kuruṅgeśaṃ vṛtreśañcandranāthakaṃ(4) / yajedgandhādibhiś caitān yāmye vimalapañcakaṃ",
-          "hindi": "मेषादि राशियोंको भी लिख देना चाहिए।उत्तरमें पूर्वाभाद्रपदा और ईशानमें रेवतीको (कोटचक्रमें नक्षत्रोंका न्यास कहते हैं-) पूर्व लिखे। इस तरह लिख देनेपर अन्तनाड़ीमें भी भागमें कृत्तिका, अग्निकोणमें आश्लेषा, दक्षिणमें  आठ नक्षत्र हो जाते हैं। आर्द्रा, हस्त, पूर्वाषाढ़ा मघा, नैऋत्यमें विशाखा, पश्चिममें अनुराधा,  तथा उत्तराभाद्रपदा-ये चार नक्षत्र कोटचक्रके"
+          "hindi": "मेषादि राशियोंको भी लिख देना चाहिए।उत्तरमें पूर्वाभाद्रपदा और ईशानमें रेवतीको (कोटचक्रमें नक्षत्रोंका न्यास कहते हैं-) पूर्व लिखे। इस तरह लिख देनेपर अन्तनाड़ीमें भी भागमें कृत्तिका, अग्निकोणमें आश्लेषा, दक्षिणमें  आठ नक्षत्र हो जाते हैं। आर्द्रा, हस्त, पूर्वाषाढ़ा मघा, नैऋत्यमें विशाखा, पश्चिममें अनुराधा,  तथा उत्तराभाद्रपदा-ये चार नक्षत्र कोटचक्रके",
+          "translation": "Chakrishanatha, Kurangesha, Vritresha, Chandranatha; one should worship these with scent and the rest; in the south the five Vimalas;",
+          "translationSource": "ai"
         },
         {
           "number": 24,
           "sanskrit": "यजेदनादिविमलं सर्वज्ञविमलं ततः । यजेद्योगीशविमलं सिद्धाख्यं समयाख्यकं",
           "transliteration": "yajedanādivimalaṃ sarvajñavimalaṃ tataḥ / yajedyogīśavimalaṃ siddhākhyaṃ samayākhyakaṃ",
-          "hindi": "वायुकोणमें श्रवण, उत्तरमें धनिष्ठा, ईशानमें भरणीको  मध्यमें स्तम्भ होते हैं। इस तरह चक्रको लिख लिखे। इस तरह लिख देनेपर बाह्य नाड़ीमें  देनेपर बाहरका स्थान दिशाके स्वामियोंका होता  आद्रा हस्तस्तथाषाढा तुर्यमृत्तरभाद्रकम्। मध्ये स्तम्भचतुष्कं तु दद्यात् कोटस्य कोटरे॥ (अग्निपु० १२८।९)"
+          "hindi": "वायुकोणमें श्रवण, उत्तरमें धनिष्ठा, ईशानमें भरणीको  मध्यमें स्तम्भ होते हैं। इस तरह चक्रको लिख लिखे। इस तरह लिख देनेपर बाह्य नाड़ीमें  देनेपर बाहरका स्थान दिशाके स्वामियोंका होता  आद्रा हस्तस्तथाषाढा तुर्यमृत्तरभाद्रकम्। मध्ये स्तम्भचतुष्कं तु दद्यात् कोटस्य कोटरे॥ (अग्निपु० १२८।९)",
+          "translation": "one should worship Anadivimala, then Sarvajnavimala; one should worship Yogishavimala, called Siddha, called Samaya;",
+          "translationSource": "ai"
         },
         {
           "number": 25,
           "sanskrit": "नैऋत्ये चतुरो देवान्(५) जयेत् कन्दर्पनाथकं । पूर्वाः शक्तीश् च सर्वाश् च(६) कुब्जिकापादुकां यजेत्",
           "transliteration": "naiṛtye caturo devān(5) jayet kandarpanāthakaṃ / pūrvāḥ śaktīś ca sarvāś ca(6) kubjikāpādukāṃ yajet",
-          "hindi": "ग्रन्थान्तरमें भी ऐसा ही वर्णन है।"
+          "hindi": "ग्रन्थान्तरमें भी ऐसा ही वर्णन है।",
+          "translation": "in the southwest one should conquer the four gods, Kandarpanatha; the earlier Shaktis and all, one should worship the sandals of Kubjika;",
+          "translationSource": "ai"
         },
         {
           "number": 26,
           "sanskrit": "१ स्वर्गानन्दञ्च देवकमिति घ॥ , ञ॥ च २ पन्नगानन्ददेवञ्चेति ञ॥ । पवनानन्ददेवञ्चेति ज॥ ३ मर्त्यानन्दस्य पादुकामिति ख॥ , ग॥ , ङ॥ , झ॥ , ज॥ च ४ भूतोशं मन्त्रनायकमिति ज॥ । भूतीशं मन्त्रनायकमिति ञ॥ ५ चतुरो वेदानिति ख॥ , छ॥ , ज॥ च ६ पूर्वान् सशक्तीन् सर्वांश्चेति ज॥ , ञ॥ च :प् १०० नवातम्केन मन्त्रेण पञ्चप्रणवकेन वा । सहस्राक्षमनवद्यं विष्णुं शिवं सदा यजेत्(१)",
           "transliteration": "1 svargānandañca devakamiti gha.. , ña.. ca 2 pannagānandadevañceti ña.. / pavanānandadevañceti ja.. 3 martyānandasya pādukāmiti kha.. , ga.. , ṅa.. , jha.. , ja.. ca 4 bhūtośaṃ mantranāyakamiti ja.. / bhūtīśaṃ mantranāyakamiti ña.. 5 caturo vedāniti kha.. , cha.. , ja.. ca 6 pūrvān saśaktīn sarvāṃśceti ja.. , ña.. ca :p 100 navātamkena mantreṇa pañcapraṇavakena vā / sahasrākṣamanavadyaṃ viṣṇuṃ śivaṃ sadā yajet(1)",
-          "hindi": "“नृपतिजयचर्या' नामक ग्रन्थमें समचतुरस्र कोटचक्रके प्रकरणमें २३ वें श्लोकमें स्तम्भ-चतुष्टयका वर्णन इस प्रकार किया गया है-- है। आगन्तुक योद्धा जिस दिशामें जो नक्षत्र है,  बुध-ये जब नक्षत्रके अन्तमें रहें, तब यदि युद्ध उसी नक्षत्रमें उसी दिशासे कोटमें यदि प्रवेश  आरम्भ किया जाय तो आक्रमणकारीकी पराजय करता है तो उसकी विजय होती है। कोटके  होती है। प्रवेशवाले चार नक्षत्रोंमें यदि युद्ध छेड़ा बीचमें जो नक्षत्र हैं, उन नक्षत्रोंमें जब शुभ ग्रह  जाय तो वह दुर्ग वशमेँ हो जाता है --इसमें कोई"
+          "hindi": "“नृपतिजयचर्या' नामक ग्रन्थमें समचतुरस्र कोटचक्रके प्रकरणमें २३ वें श्लोकमें स्तम्भ-चतुष्टयका वर्णन इस प्रकार किया गया है-- है। आगन्तुक योद्धा जिस दिशामें जो नक्षत्र है,  बुध-ये जब नक्षत्रके अन्तमें रहें, तब यदि युद्ध उसी नक्षत्रमें उसी दिशासे कोटमें यदि प्रवेश  आरम्भ किया जाय तो आक्रमणकारीकी पराजय करता है तो उसकी विजय होती है। कोटके  होती है। प्रवेशवाले चार नक्षत्रोंमें यदि युद्ध छेड़ा बीचमें जो नक्षत्र हैं, उन नक्षत्रोंमें जब शुभ ग्रह  जाय तो वह दुर्ग वशमेँ हो जाता है --इसमें कोई",
+          "translation": "with the nine-fold mantra or with the five Oms; one should always worship the thousand-eyed, blameless Vishnu and Shiva.",
+          "translationSource": "ai"
         },
         {
           "number": 27,
           "sanskrit": "पूर्वाच्छिवान्तं ब्रह्मादि ब्रह्माणी च महेश्वरी । कौमारी वैष्णवी चैव वाराही शक्रशक्तिका",
           "transliteration": "pūrvācchivāntaṃ brahmādi brahmāṇī ca maheśvarī / kaumārī vaiṣṇavī caiva vārāhī śakraśaktikā",
-          "hindi": "आये, तब युद्ध करनेसे मध्यवालेकी विजय तथा  आश्चर्यकी बात नहीं है॥ १--१३॥ (विशेष-- चढ़ाई करनेवालेकी पराजय होती है। प्रवेश  प्रथम नाड़ीके आठ नक्षत्र दिशाके नक्षत्र हैं, उन्हींको करनेवाले नक्षत्रमें प्रवेश करना तथा निर्गमवाले  “बाह्म' भी कहते हैं। मध्य तथा अन्त नाडीवाले नक्षत्रमें निकलना चाहिए। शुक्र, मङ्गल और  नक्षत्रोंको कोटके मध्यका समझना चाहिए।)"
+          "hindi": "आये, तब युद्ध करनेसे मध्यवालेकी विजय तथा  आश्चर्यकी बात नहीं है॥ १--१३॥ (विशेष-- चढ़ाई करनेवालेकी पराजय होती है। प्रवेश  प्रथम नाड़ीके आठ नक्षत्र दिशाके नक्षत्र हैं, उन्हींको करनेवाले नक्षत्रमें प्रवेश करना तथा निर्गमवाले  “बाह्म' भी कहते हैं। मध्य तथा अन्त नाडीवाले नक्षत्रमें निकलना चाहिए। शुक्र, मङ्गल और  नक्षत्रोंको कोटके मध्यका समझना चाहिए।)",
+          "translation": "From the east to the end of Shiva: Brahma and the rest; Brahmani and Maheshvari, Kaumari, Vaishnavi, Varahi, Shakra's Shakti,",
+          "translationSource": "ai"
         },
         {
           "number": 28,
           "sanskrit": "चामुण्डा च महालक्ष्मीः पूर्वादीशान्तमर्चयेत् । डाकिनी राकिनी पूज्या लाकिनी काकिनी तथा",
           "transliteration": "cāmuṇḍā ca mahālakṣmīḥ pūrvādīśāntamarcayet / ḍākinī rākinī pūjyā lākinī kākinī tathā",
-          "hindi": "इस प्रकार आदि आग्नेय महापुराणमें 'कोटचक्रका वर्णन” नामक एक सौ अद्वाईसवाँ अध्याय पूरा हुआ  दिशाओंके स्वामीके लिये रामाचार्य 'मुहूर्त-चिन्तामणि' नामक ग्रन्थके यात्रा-प्रकरणमें लिखते हैं--"
+          "hindi": "इस प्रकार आदि आग्नेय महापुराणमें 'कोटचक्रका वर्णन” नामक एक सौ अद्वाईसवाँ अध्याय पूरा हुआ  दिशाओंके स्वामीके लिये रामाचार्य 'मुहूर्त-चिन्तामणि' नामक ग्रन्थके यात्रा-प्रकरणमें लिखते हैं--",
+          "translation": "Chamunda and Mahalakshmi — one should worship from east to northeast; Dakini and Rakini are to be worshipped, Lakini and Kakini likewise,",
+          "translationSource": "ai"
         },
         {
           "number": 29,
           "sanskrit": "शाकिनी याकिनी पूज्या वायव्यादुग्रषट्षु च । यजेद् ध्यात्वा ततो देवीं द्वात्रिंशद्वर्णकात्मकां",
           "transliteration": "śākinī yākinī pūjyā vāyavyādugraṣaṭṣu ca / yajed dhyātvā tato devīṃ dvātriṃśadvarṇakātmakāṃ",
-          "hindi": "“पूर्वके सूर्य, अग्निकोणके शुक्र, दक्षिणके मङ्गल, नैत्यके राहु, पश्चिमके शनि, वायव्यके चन्द्र, उत्तरके बुध, ईशानके बृहस्पति -- इस प्रकार क्रमशः दिशाओंके स्वामी कहे गये हैं ।"
+          "hindi": "“पूर्वके सूर्य, अग्निकोणके शुक्र, दक्षिणके मङ्गल, नैत्यके राहु, पश्चिमके शनि, वायव्यके चन्द्र, उत्तरके बुध, ईशानके बृहस्पति -- इस प्रकार क्रमशः दिशाओंके स्वामी कहे गये हैं ।",
+          "translation": "Shakini and Yakini are to be worshipped in the northwest and the six fierce; then having meditated one should worship the goddess of thirty-two letters,",
+          "translationSource": "ai"
         },
         {
           "number": 30,
           "sanskrit": "पञ्चप्रणवकेनापि ह्रीं कारेणाथवा यजेत् । नीलोत्पलदलश्यामा षड्वक्त्रा(२) षट्प्रकारिका",
           "transliteration": "pañcapraṇavakenāpi hrīṃ kāreṇāthavā yajet / nīlotpaladalaśyāmā ṣaḍvaktrā(2) ṣaṭprakārikā",
-          "hindi": "विशेष--भरणी, कृत्तिका, आश्लेषा, मघा, विशाखा, अनुराधा, श्रवण, धनिष्ठा--ये आठ नक्षत्र बाह्य (प्रथम नाड़ी) हैं। अश्विनी, रोहिणी, पुष्य, पू० फा०, स्वाती, ज्येष्ठा, अभि०, शतभिषा--ये मध्यनाड़ीके आठ नक्षत्र हैं। रेवती, मृगशिरा, पुनर्वसु, उत्तराफाल्गुनी, चित्रा, मूल, उत्तराषाढा, पूर्वाभाद्रपदा-ये आठ नक्षत्र अन्तनाड़ीके हैं। मध्य तथा अन्तनाड़ीके नक्षत्रोंको 'मध्यके नक्षत्र' कहते हैं। दिशाके नक्षत्रको 'प्रवेशर्क् कहते हैं। उसके विरुद्ध दिशाके नक्षत्रको 'निर्गम' कहते हैं। जैसे पूर्व प्रवेश तो पश्चिम निर्गम होगा। अर्घकाण्डका प्रतिपादन"
+          "hindi": "विशेष--भरणी, कृत्तिका, आश्लेषा, मघा, विशाखा, अनुराधा, श्रवण, धनिष्ठा--ये आठ नक्षत्र बाह्य (प्रथम नाड़ी) हैं। अश्विनी, रोहिणी, पुष्य, पू० फा०, स्वाती, ज्येष्ठा, अभि०, शतभिषा--ये मध्यनाड़ीके आठ नक्षत्र हैं। रेवती, मृगशिरा, पुनर्वसु, उत्तराफाल्गुनी, चित्रा, मूल, उत्तराषाढा, पूर्वाभाद्रपदा-ये आठ नक्षत्र अन्तनाड़ीके हैं। मध्य तथा अन्तनाड़ीके नक्षत्रोंको 'मध्यके नक्षत्र' कहते हैं। दिशाके नक्षत्रको 'प्रवेशर्क् कहते हैं। उसके विरुद्ध दिशाके नक्षत्रको 'निर्गम' कहते हैं। जैसे पूर्व प्रवेश तो पश्चिम निर्गम होगा। अर्घकाण्डका प्रतिपादन",
+          "translation": "with five Oms or with \"Hrim\": dark as a blue lotus petal, six-faced, of six kinds,",
+          "translationSource": "ai"
         },
         {
           "number": 31,
           "sanskrit": "चिच्छक्तिक्तिरष्टादशाख्या बाहुद्वादशसंयुता । सिंहासनसुखासीना प्रेतपद्मोपरिस्थिता",
           "transliteration": "cicchaktiktiraṣṭādaśākhyā bāhudvādaśasaṃyutā / siṃhāsanasukhāsīnā pretapadmoparisthitā",
-          "hindi": "शंकरजी कहते हैं-- अब मैं वस्तुओंको महँगी तथा सस्तीके सम्बन्धमें विचार प्रकट कर रहा हूँ। जब कभी भूतलपर उल्कापात, भूकम्प, निर्घात (वञ्रापात), चन्द्र और सूर्यके ग्रहण तथा"
+          "hindi": "शंकरजी कहते हैं-- अब मैं वस्तुओंको महँगी तथा सस्तीके सम्बन्धमें विचार प्रकट कर रहा हूँ। जब कभी भूतलपर उल्कापात, भूकम्प, निर्घात (वञ्रापात), चन्द्र और सूर्यके ग्रहण तथा",
+          "translation": "the power of consciousness, called of eighteen, with twelve arms, seated at ease on a lion-throne, standing above a corpse-lotus,",
+          "translationSource": "ai"
         },
         {
           "number": 32,
           "sanskrit": "कुलकोटिसहस्राढ्या कर्कोटो मेखलास्थितः । तक्षकेणोपरिष्टाच्च गले हारश् च वासुकिः",
           "transliteration": "kulakoṭisahasrāḍhyā karkoṭo mekhalāsthitaḥ / takṣakeṇopariṣṭācca gale hāraś ca vāsukiḥ",
-          "hindi": "दिशाओंमें अधिक गरमीका अनुभव हो तो इस बातका प्रत्येक मासमें लक्ष्य करना चाहिए। यदि उपर्युक्त लक्षणोंमेंसे कोई लक्षण चैत्रमें हो तो अलंकार-सामग्रियों (सोना-चाँदी आदि)-का संग्रह करना चाहिए। वह छः मासके बाद चौगुने मूल्यपर बिक सकता है। यदि वैशाखमें हो तो वस्त्र, धान्य, सुवर्ण, घृतादि सब पदार्थोंका संग्रह करना चाहिए। वे आठवें मासमें छ:गुने मूल्यपर"
+          "hindi": "दिशाओंमें अधिक गरमीका अनुभव हो तो इस बातका प्रत्येक मासमें लक्ष्य करना चाहिए। यदि उपर्युक्त लक्षणोंमेंसे कोई लक्षण चैत्रमें हो तो अलंकार-सामग्रियों (सोना-चाँदी आदि)-का संग्रह करना चाहिए। वह छः मासके बाद चौगुने मूल्यपर बिक सकता है। यदि वैशाखमें हो तो वस्त्र, धान्य, सुवर्ण, घृतादि सब पदार्थोंका संग्रह करना चाहिए। वे आठवें मासमें छ:गुने मूल्यपर",
+          "translation": "rich in a thousand crores of clans, Karkota on her girdle, Takshaka above, Vasuki as the necklace;",
+          "translationSource": "ai"
         },
         {
           "number": 33,
           "sanskrit": "कुलिकः कर्णयोर्यस्याः कूर्मः कुण्डलमण्डलह्ः । भ्रुवोः पद्मो मकापद्मो वामे नागः कपालकः",
           "transliteration": "kulikaḥ karṇayoryasyāḥ kūrmaḥ kuṇḍalamaṇḍalahḥ / bhruvoḥ padmo makāpadmo vāme nāgaḥ kapālakaḥ",
-          "hindi": "बिकते हैं। यदि ज्येष्ठ तथा आषाढ़ मासमें मिले तो जौ, गेहूँ और धान्यका संग्रह करना चाहिए। यदि श्रावणमें मिले तो घृत-तैलादि रस-पदार्थोंका संग्रह करना चाहिए। यदि आश्चिनमें मिले तो"
+          "hindi": "बिकते हैं। यदि ज्येष्ठ तथा आषाढ़ मासमें मिले तो जौ, गेहूँ और धान्यका संग्रह करना चाहिए। यदि श्रावणमें मिले तो घृत-तैलादि रस-पदार्थोंका संग्रह करना चाहिए। यदि आश्चिनमें मिले तो",
+          "translation": "Kulika at her ears, a tortoise her earring-circle; on her brows Padma and Mahapadma; on the left a Naga, a skull;",
+          "translationSource": "ai"
         },
         {
           "number": 34,
           "sanskrit": "अक्षसूत्रञ्च खट्वाङ्गं शङ्कं पुस्तञ्च दक्षिणे । त्रिशूलन्तदर्पणं खड्गं रत्नमालाङ्कुशन्धनुः(३)",
           "transliteration": "akṣasūtrañca khaṭvāṅgaṃ śaṅkaṃ pustañca dakṣiṇe / triśūlantadarpaṇaṃ khaḍgaṃ ratnamālāṅkuśandhanuḥ(3)",
-          "hindi": "वस्त्र तथा धान्य दोनोंका संग्रह करना चाहिए। यदि कार्तिकमें मिले तो सब प्रकारका अन्न खरीदकर रखना चाहिए। अगहन तथा पौषमें यदि मिले तो कुङ्कुम तथा सुगन्धित पदार्थाँसे लाभ होता है। माघमें यदि उक्त लक्षण मिले तो धान्यसे लाभ होता है। फाल्गुनमें मिले तो सुगन्धित पदार्थोंसे लाभ होता है। लाभको अवधि छः या आठ मास समझनी चाहिए"
+          "hindi": "वस्त्र तथा धान्य दोनोंका संग्रह करना चाहिए। यदि कार्तिकमें मिले तो सब प्रकारका अन्न खरीदकर रखना चाहिए। अगहन तथा पौषमें यदि मिले तो कुङ्कुम तथा सुगन्धित पदार्थाँसे लाभ होता है। माघमें यदि उक्त लक्षण मिले तो धान्यसे लाभ होता है। फाल्गुनमें मिले तो सुगन्धित पदार्थोंसे लाभ होता है। लाभको अवधि छः या आठ मास समझनी चाहिए",
+          "translation": "rosary, skull-staff, conch and book on the right; trident, mirror, sword, jewel-garland, goad and bow;",
+          "translationSource": "ai"
         },
         {
           "number": 35,
           "sanskrit": "श्वेतमूर्ध्वमुखन्देव्या ऊर्ध्वश्वेतन्तथापरं । पूर्वास्यं पाण्डरं क्रोधि दक्षिणं कृष्णवर्णकं",
           "transliteration": "śvetamūrdhvamukhandevyā ūrdhvaśvetantathāparaṃ / pūrvāsyaṃ pāṇḍaraṃ krodhi dakṣiṇaṃ kṛṣṇavarṇakaṃ",
-          "hindi": "इस प्रकार आदि आग्नेय महापुराण्मे 'अर्घकाण्डका प्रतिपादन ' नामक एक सौ उन्तीसवाँ अध्याय पूरा हुआ"
+          "hindi": "इस प्रकार आदि आग्नेय महापुराण्मे 'अर्घकाण्डका प्रतिपादन ' नामक एक सौ उन्तीसवाँ अध्याय पूरा हुआ",
+          "translation": "the goddess's upward face is white, another upward white; the eastern one pale, the angry south one dark;",
+          "translationSource": "ai"
         },
         {
           "number": 36,
           "sanskrit": "१ सदाशिवं स्वयं यजेदिति ङ॥ , छ॥ , ज॥ च २ षड्वर्णेति ज॥ ३ वनमालङ्कुशं धनुरिति घ॥ , ङ॥ च :प् १०१ हिमकुन्देन्दभं सौम्यं ब्रह्मा पादतले स्थितः । विष्णुस्तु जघने रुद्रो हृदि कण्ठे तथेश्वरः",
           "transliteration": "1 sadāśivaṃ svayaṃ yajediti ṅa.. , cha.. , ja.. ca 2 ṣaḍvarṇeti ja.. 3 vanamālaṅkuśaṃ dhanuriti gha.. , ṅa.. ca :p 101 himakundendabhaṃ saumyaṃ brahmā pādatale sthitaḥ / viṣṇustu jaghane rudro hṛdi kaṇṭhe tatheśvaraḥ",
-          "hindi": "विविध मण्डलोंका वर्णन शंकरजी कहते हैं- भत्रे! अब मैं विजयके लिये चार प्रकारके मण्डलका वर्णन करता हूँ। कृत्तिका, मघा, पुष्य, पूर्वाफाल्गुनी, विशाखा, भरणी, पूर्वाभाद्रपदा -इन नक्षत्रोंका “आग्नेय"
+          "hindi": "विविध मण्डलोंका वर्णन शंकरजी कहते हैं- भत्रे! अब मैं विजयके लिये चार प्रकारके मण्डलका वर्णन करता हूँ। कृत्तिका, मघा, पुष्य, पूर्वाफाल्गुनी, विशाखा, भरणी, पूर्वाभाद्रपदा -इन नक्षत्रोंका “आग्नेय",
+          "translation": "the gentle one like snow, jasmine and moon; Brahma stands at the soles, Vishnu at the hips, Rudra at the heart, Ishvara at the throat,",
+          "translationSource": "ai"
         },
         {
           "number": 37,
           "sanskrit": "सदाशिवो ललाटे स्याच्छिवस्तस्योर्ध्वतः स्थितः । आघूर्णिता कुब्जिकैवन्ध्येया पूजादिकर्मसु",
           "transliteration": "sadāśivo lalāṭe syācchivastasyordhvataḥ sthitaḥ / āghūrṇitā kubjikaivandhyeyā pūjādikarmasu",
-          "hindi": "मण्डल' होता है, उसका लक्षण बतलाता हूँ। इस मण्डलमें यदि विशेष वायुका प्रकोप हो, सूर्य- चन्द्रका परिवेष लगे, भूकम्प हो, देशको क्षति हो, चन्द्र-सूर्यका ग्रहण हो, धूमज्वाला देखनेमें"
+          "hindi": "मण्डल' होता है, उसका लक्षण बतलाता हूँ। इस मण्डलमें यदि विशेष वायुका प्रकोप हो, सूर्य- चन्द्रका परिवेष लगे, भूकम्प हो, देशको क्षति हो, चन्द्र-सूर्यका ग्रहण हो, धूमज्वाला देखनेमें",
+          "translation": "Sadashiva on the forehead; above him Shiva stands. Kubjika, reeling, is to be meditated in worship and rites.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -34559,55 +34721,73 @@
           "number": 11,
           "sanskrit": "भ भीषणी दक्षस्कन्धे वायुवेगा म वामके । डनामा दक्षबाहौ तु ढ वामे च विनायका",
           "transliteration": "bha bhīṣaṇī dakṣaskandhe vāyuvegā ma vāmake / ḍanāmā dakṣabāhau tu ḍha vāme ca vināyakā",
-          "hindi": "सूर्यके साथ चन्द्रमा जब रहेगा, तब अमावास्या तिथि होगी। सूर्यके नक्षत्रसे पंद्रहवें नक्षत्रमें चन्द्रमा आयेगा तो सूर्यसे सातवीं राशिमें चन्द्रमा रहेगा; क्योंकि सवा दो नक्षत्रकी एक राशि होती है। जब सूर्यसे सातवीं राशिमें चन्द्रमा रहता है, तब पूर्णिमा ही तिथि होती है। उसे ही 'सोमग्राम' कहते हैं। (अब युद्धमें जय-पराजयका लक्षण बतलाते हैं —) युद्धारम्भके समय सेनापति पहले जिसका नाम लेकर बुलाता है, उस व्यक्तिके नामका आदि-अक्षर यदि 'दीर्घ' हो तो उसकी घोर"
+          "hindi": "सूर्यके साथ चन्द्रमा जब रहेगा, तब अमावास्या तिथि होगी। सूर्यके नक्षत्रसे पंद्रहवें नक्षत्रमें चन्द्रमा आयेगा तो सूर्यसे सातवीं राशिमें चन्द्रमा रहेगा; क्योंकि सवा दो नक्षत्रकी एक राशि होती है। जब सूर्यसे सातवीं राशिमें चन्द्रमा रहता है, तब पूर्णिमा ही तिथि होती है। उसे ही 'सोमग्राम' कहते हैं। (अब युद्धमें जय-पराजयका लक्षण बतलाते हैं —) युद्धारम्भके समय सेनापति पहले जिसका नाम लेकर बुलाता है, उस व्यक्तिके नामका आदि-अक्षर यदि 'दीर्घ' हो तो उसकी घोर",
+          "translation": "\"Bha\" Bhishani on the right shoulder; \"Ma\" Vayuvega on the left; \"Da\"-named on the right arm; \"Dha\" Vinayaka on the left;",
+          "translationSource": "ai"
         },
         {
           "number": 12,
           "sanskrit": "प पूर्णिमा द्विहस्ते तु ओकाराद्यङ्गुलीयके । अं दर्शनी वामाङ्गुल्य अः स्यात्सञ्जीवनी करे",
           "transliteration": "pa pūrṇimā dvihaste tu okārādyaṅgulīyake / aṃ darśanī vāmāṅgulya aḥ syātsañjīvanī kare",
-          "hindi": "संग्राममें भी विजय होती है। यदि नामका आदि- वर्ण 'हस्व' हो तो निश्चय ही मृत्यु होती है। जैसे --एक सैनिकका नाम  आदित्य' और दूसरेका नाम है--' गुरु!  इन दोनोंमें प्रथमके नामके आदिमें"
+          "hindi": "संग्राममें भी विजय होती है। यदि नामका आदि- वर्ण 'हस्व' हो तो निश्चय ही मृत्यु होती है। जैसे --एक सैनिकका नाम  आदित्य' और दूसरेका नाम है--' गुरु!  इन दोनोंमें प्रथमके नामके आदिमें",
+          "translation": "\"Pa\" Purnima in the two hands; the vowel \"O\" and the rest on the fingers; \"Am\" Darshani on the left finger; \"Ah\" Sanjivani in the hand;",
+          "translationSource": "ai"
         },
         {
           "number": 13,
           "sanskrit": "ट कपालिनी कपालं शूलदण्डे त दीपनी । त्रिशूले ज जयन्ती स्याद्वृद्धिर्यः साधनी(४) स्मृता",
           "transliteration": "ṭa kapālinī kapālaṃ śūladaṇḍe ta dīpanī / triśūle ja jayantī syādvṛddhiryaḥ sādhanī(4) smṛtā",
-          "hindi": "“आ' दीर्घ स्वर है और दूसरेके नामके आदिमें उ' हस्व स्वर है; अतः यदि दीर्घ स्वरवाले व्यक्तिको बुलाया जायगा तो विजय और हृस्ववालेको (अब 'नरचक्र'के द्वारा घाताङ्गका निर्णय"
+          "hindi": "“आ' दीर्घ स्वर है और दूसरेके नामके आदिमें उ' हस्व स्वर है; अतः यदि दीर्घ स्वरवाले व्यक्तिको बुलाया जायगा तो विजय और हृस्ववालेको (अब 'नरचक्र'के द्वारा घाताङ्गका निर्णय",
+          "translation": "\"Ta\" Kapalini on the skull; \"Ta\" Dipani on the skull-staff; \"Ja\" Jayanti on the trident; \"Ya\" Vriddhi Sadhani is remembered;",
+          "translationSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "१ शक्तिः स्याद्या विवर्णिका इति ज॥ । शक्तिश्चान्या त्रिखण्डिकेति ञ॥ २ फटत्रयं स्यात् तर्युद्धे सर्वसाद्धकमिति ख॥ , छ॥ च ३ खश्वसनीति ख॥ , छ॥ च ४ पावनीति ज॥ , ञ॥ च :प् १०३ जीवे श परमाख्या स्याद् ह प्राणे चाम्बिका स्मृता । दक्षस्तने छ शरीरा न वामे पूतना स्तने",
           "transliteration": "1 śaktiḥ syādyā vivarṇikā iti ja.. / śaktiścānyā trikhaṇḍiketi ña.. 2 phaṭatrayaṃ syāt taryuddhe sarvasāddhakamiti kha.. , cha.. ca 3 khaśvasanīti kha.. , cha.. ca 4 pāvanīti ja.. , ña.. ca :p 103 jīve śa paramākhyā syād ha prāṇe cāmbikā smṛtā / dakṣastane cha śarīrā na vāme pūtanā stane",
-          "hindi": "करते हैं) नक्षत्र-पिण्डके आधारपर नर- चक्रका वर्णन करता हूँ। पहले एक मनुष्यका आकार बनावे। तत्पश्चात् उसमें नक्षत्रोंका न्यास करे। सूर्यके नक्षत्रसे नामके नक्षत्रतक गिनकर"
+          "hindi": "करते हैं) नक्षत्र-पिण्डके आधारपर नर- चक्रका वर्णन करता हूँ। पहले एक मनुष्यका आकार बनावे। तत्पश्चात् उसमें नक्षत्रोंका न्यास करे। सूर्यके नक्षत्रसे नामके नक्षत्रतक गिनकर",
+          "translation": "\"Sha\" Paramakhya on the life; \"Ha\" Ambika on the breath is remembered; \"Chha\" Sharira on the right breast; on the left Putana on the breast;",
+          "translationSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "अ स्तनक्षीरा आ मोटो लम्बोदर्युदरे च थ । नाभौ संहारिका क्ष स्यान् महाकाली नितम्बम",
           "transliteration": "a stanakṣīrā ā moṭo lambodaryudare ca tha / nābhau saṃhārikā kṣa syān mahākālī nitambama",
-          "hindi": "संख्या जान ले। पहले तीनको नरके सिरमें, एक मुखमें, दो नेत्रमें, चार हाथमें, दो कानमें, पाँच हृदयमें और छः पैरोंमें लिखे। फिर नाम- नक्षत्रका स्पष्ट रूपसे चक्रके मध्यमें न्यास करे। इस तरह लिखनेपर नरके नेत्र, सिर, दाहिना कान, दाहिना हाथ, दोनों पैर, हृदय, ग्रीवा, बायाँ हाथ और गुह्याङ्गमेंसे जहाँ शनि, मङ्गल, सूर्य तथा राहुके नक्षत्र पड़ते हों, युद्धमें उसी अङ्गमें"
+          "hindi": "संख्या जान ले। पहले तीनको नरके सिरमें, एक मुखमें, दो नेत्रमें, चार हाथमें, दो कानमें, पाँच हृदयमें और छः पैरोंमें लिखे। फिर नाम- नक्षत्रका स्पष्ट रूपसे चक्रके मध्यमें न्यास करे। इस तरह लिखनेपर नरके नेत्र, सिर, दाहिना कान, दाहिना हाथ, दोनों पैर, हृदय, ग्रीवा, बायाँ हाथ और गुह्याङ्गमेंसे जहाँ शनि, मङ्गल, सूर्य तथा राहुके नक्षत्र पड़ते हों, युद्धमें उसी अङ्गमें",
+          "translation": "\"A\" Stanakshira; \"Aa\" Mota; \"Tha\" Lambodari on the belly; \"Ksha\" Samharika at the navel; Mahakali at the hips;",
+          "translationSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "गुह्ये स कुसुममाला ष शुक्रे शुक्रदेविका । उरुद्वये त तारास्याह ज्ञाना दक्षजानुनि",
           "transliteration": "guhye sa kusumamālā ṣa śukre śukradevikā / urudvaye ta tārāsyāha jñānā dakṣajānuni",
-          "hindi": "घात (चोट) होता है॥ ८--१२॥"
+          "hindi": "घात (चोट) होता है॥ ८--१२॥",
+          "translation": "\"Sa\" Kusumamala on the secret place; \"Sha\" Shukradevika in the seed; \"Ta\" Tara-asya on the two thighs; \"Jna\" on the right knee;",
+          "translationSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "वामे स्यादौ क्रियाशक्तिरो गायत्री च जङ्घगा । ओ सावित्री वामजङ्घा दक्षे दो दोहनी पदे",
           "transliteration": "vāme syādau kriyāśaktiro gāyatrī ca jaṅghagā / o sāvitrī vāmajaṅghā dakṣe do dohanī pade",
-          "hindi": "पश्चिमतक तेरह रेखाएँ बनाकर पुनः उत्तरसे दक्षिणतक छः तिरछी रेखाएँ खींचे। (इस तरह लिखनेपर जयचक्र बन जायगा।) उसमें अ से ह तक अक्षरोंको लिखे और १०।९।७।१२ ११।१५।२४।१८। ४। २७। २४-इन अङ्कोंका भी न्यास करे। अङ्कोंको ऊपर लिखकर अकारादि अक्षरोंको उसके नीचे लिखे। शत्रुके नामाक्षरके"
+          "hindi": "पश्चिमतक तेरह रेखाएँ बनाकर पुनः उत्तरसे दक्षिणतक छः तिरछी रेखाएँ खींचे। (इस तरह लिखनेपर जयचक्र बन जायगा।) उसमें अ से ह तक अक्षरोंको लिखे और १०।९।७।१२ ११।१५।२४।१८। ४। २७। २४-इन अङ्कोंका भी न्यास करे। अङ्कोंको ऊपर लिखकर अकारादि अक्षरोंको उसके नीचे लिखे। शत्रुके नामाक्षरके",
+          "translation": "on the left Kriyashakti; Gayatri on the shank; \"O\" Savitri on the left shank; \"Do\" Dohani on the right foot;",
+          "translationSource": "ai"
         },
         {
           "number": 18,
           "sanskrit": "फ फेत्कारी वामपादे नवात्मा मालिनी मनुः । अ श्रीकण्ठः शिखायां स्यादावक्त्रे स्यादनन्तकः",
           "transliteration": "pha phetkārī vāmapāde navātmā mālinī manuḥ / a śrīkaṇṭhaḥ śikhāyāṃ syādāvaktre syādanantakaḥ",
-          "hindi": "स्वर तथा व्यञ्जन वर्णके सामने जो अङ्क हों, उन सबको जोड़कर पिण्ड बनाये। उसमें सातसे भाग देनेपर एक आदि शेषके अनुसार सूर्यादि ग्रहोंका"
+          "hindi": "स्वर तथा व्यञ्जन वर्णके सामने जो अङ्क हों, उन सबको जोड़कर पिण्ड बनाये। उसमें सातसे भाग देनेपर एक आदि शेषके अनुसार सूर्यादि ग्रहोंका",
+          "translation": "\"Pha\" Phetkari on the left foot; the nine-natured Malini Manu; \"A\" Shrikantha on the crest; \"Aa\" Anantaka on the face;",
+          "translationSource": "ai"
         },
         {
           "number": 19,
           "sanskrit": "इ सूक्ष्मो दक्षनेत्रे स्यादी त्रिमूर्तिस्तु वामके । उ दक्षकर्णे ऽमरौश ऊ कर्णेर्घांशको ऽपरे",
           "transliteration": "i sūkṣmo dakṣanetre syādī trimūrtistu vāmake / u dakṣakarṇe 'marauśa ū karṇerghāṃśako 'pare",
-          "hindi": "भाग जाने। १ शेषमें सूर्य, २ में चन्द्र, में भौम, ४ में बुध, ५ में गुरु, ६ में शुक्र, ७ में शनिका भाग होता है--यों समझना चाहिए । जब सूर्य, शनि और मङ्गलका भाग आये तो विजय होती है तथा शुभ ग्रहके भागमें संधि होती है॥ १३-१५ ३ ॥"
+          "hindi": "भाग जाने। १ शेषमें सूर्य, २ में चन्द्र, में भौम, ४ में बुध, ५ में गुरु, ६ में शुक्र, ७ में शनिका भाग होता है--यों समझना चाहिए । जब सूर्य, शनि और मङ्गलका भाग आये तो विजय होती है तथा शुभ ग्रहके भागमें संधि होती है॥ १३-१५ ३ ॥",
+          "translation": "\"I\" Sukshma on the right eye; \"Ii\" Trimurti on the left; \"U\" Amaresha on the right ear; \"Uu\" Arghamshaka on the other ear.",
+          "translationSource": "ai"
         },
         {
           "number": 20,
