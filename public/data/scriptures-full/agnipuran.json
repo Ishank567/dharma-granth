@@ -77934,79 +77934,105 @@
           "number": 15,
           "sanskrit": "तदाश्रयश् च पात्रस्य प्रवेशस्तत् प्रवृत्तकं । सूत्रधारस्य वाक्यं वा यत्र वाक्यार्थमेव वा",
           "transliteration": "tadāśrayaś ca pātrasya praveśastat pravṛttakaṃ / sūtradhārasya vākyaṃ vā yatra vākyārthameva vā",
-          "hindi": "अत्यधिक आवृत्ति होती है। अनुस्वार, विसर्ग निरन्तर प्रयुक्त होनेपर परुषता प्रकट करते हैं। रेफसंयुक्त श, ष, स का प्रयोग, अधिक अकारका प्रयोग, अन्तःस्थ वर्णोका अधिक निवेश तथा"
+          "hindi": "अत्यधिक आवृत्ति होती है। अनुस्वार, विसर्ग निरन्तर प्रयुक्त होनेपर परुषता प्रकट करते हैं। रेफसंयुक्त श, ष, स का प्रयोग, अधिक अकारका प्रयोग, अन्तःस्थ वर्णोका अधिक निवेश तथा",
+          "translation": "Pravrittaka is the entry of a character depending on that, or the stage-manager's speech where it is exactly the meaning of the line;",
+          "translationSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "गृहीत्वा प्रविशेत् पात्रं कथोद्घातः स उच्यते । प्रयोगेषु प्रयोगन्तु सूत्रधृग्यत्र वर्णयेत्",
           "transliteration": "gṛhītvā praviśet pātraṃ kathodghātaḥ sa ucyate / prayogeṣu prayogantu sūtradhṛgyatra varṇayet",
-          "hindi": "रेफ और अन्तःस्थसे भेदित एवं संयुक्त 'हकार' भी परुषताका कारण होता है। और प्रकारसे भी जो गुरु वर्ण है, वह यदि माधुर्यविरोधी वर्णसे संयुक्त हो, तो परुषता लानेवाला होता है। उस परुष-रचनामें वर्गका आदि अक्षर ही संयुक्त एवं गुरु हो तो श्रेष्ठ माना गया है। पञ्चम वर्ण यदि संयुक्त हो तो परुष-रचनामें उसे प्रशस्त नहीं माना गया है। किसीपर आक्षेप करना हो या"
+          "hindi": "रेफ और अन्तःस्थसे भेदित एवं संयुक्त 'हकार' भी परुषताका कारण होता है। और प्रकारसे भी जो गुरु वर्ण है, वह यदि माधुर्यविरोधी वर्णसे संयुक्त हो, तो परुषता लानेवाला होता है। उस परुष-रचनामें वर्गका आदि अक्षर ही संयुक्त एवं गुरु हो तो श्रेष्ठ माना गया है। पञ्चम वर्ण यदि संयुक्त हो तो परुष-रचनामें उसे प्रशस्त नहीं माना गया है। किसीपर आक्षेप करना हो या",
+          "translation": "having taken it, the character enters — that is called Kathodghata. In applications, where the stage-manager describes an application,",
+          "translationSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "ततश् च प्रविशेत् पात्रं प्रयोगातिशयो हि सः । शरीरं नाटकादीनामितिवृत्तं प्रचक्षते",
           "transliteration": "tataś ca praviśet pātraṃ prayogātiśayo hi saḥ / śarīraṃ nāṭakādīnāmitivṛttaṃ pracakṣate",
-          "hindi": "किसी कठोर शब्दका अनुकरण करना हो, तो वहाँ “परुषा वृत्ति' भी प्रयोगमें लायी जाती है।"
+          "hindi": "किसी कठोर शब्दका अनुकरण करना हो, तो वहाँ “परुषा वृत्ति' भी प्रयोगमें लायी जाती है।",
+          "translation": "and then the character enters, that is Prayogatishaya. The \"body\" of dramas and the like they call the plot (itivritta);",
+          "translationSource": "ai"
         },
         {
           "number": 18,
           "sanskrit": "सिद्धमुत्प्रेक्षितञ्चेति तस्य भेदाबुभौ स्मृतौ । सिद्धमागमदृष्टञ्च सृष्टमुत्प्रेक्षितं कवेः",
           "transliteration": "siddhamutprekṣitañceti tasya bhedābubhau smṛtau / siddhamāgamadṛṣṭañca sṛṣṭamutprekṣitaṃ kaveḥ",
-          "hindi": "और ऊष्मा अक्षरोंके क्रमशः आवर्तनसे जो वृत्ति होती है, उसके बारह भेद हैं-कर्णाटी, कौन्तली, कौंको, कौंकणी, वाणवासिका, द्राविडी, माथुरी, मात्सी, मागधी, ताम्रलिसिका, औण्ड्री तथा अनेक वर्णोंकी जो आवृत्ति होती है, वह यदि भिन्न-भिन्न अर्थोकी प्रतिपादिका हो, तो उसे “यमक' कहते हैं। यमक दो प्रकारका होता है--"
+          "hindi": "और ऊष्मा अक्षरोंके क्रमशः आवर्तनसे जो वृत्ति होती है, उसके बारह भेद हैं-कर्णाटी, कौन्तली, कौंको, कौंकणी, वाणवासिका, द्राविडी, माथुरी, मात्सी, मागधी, ताम्रलिसिका, औण्ड्री तथा अनेक वर्णोंकी जो आवृत्ति होती है, वह यदि भिन्न-भिन्न अर्थोकी प्रतिपादिका हो, तो उसे “यमक' कहते हैं। यमक दो प्रकारका होता है--",
+          "translation": "its two kinds are remembered as the established and the imagined. The established is seen in tradition; the imagined is created by the poet.",
+          "translationSource": "ai"
         },
         {
           "number": 19,
           "sanskrit": "वीजं विन्दुः पताका च प्रकरी कार्यमेव च । अर्थप्रकृतयः पञ्च पञ्च चेष्टा अपि क्रमात्",
           "transliteration": "vījaṃ vinduḥ patākā ca prakarī kāryameva ca / arthaprakṛtayaḥ pañca pañca ceṣṭā api kramāt",
-          "hindi": "'अव्यपेत' और व्यवधानसे आवृत्त होनेवाला 'व्यपेत' कहा जाता है। स्थान और पादके भेदसे इन दोनोंके दो-दो भेद होनेपर कुल चार भेद हुए। आदि पादके आदि, मध्य और अन्तमें"
+          "hindi": "'अव्यपेत' और व्यवधानसे आवृत्त होनेवाला 'व्यपेत' कहा जाता है। स्थान और पादके भेदसे इन दोनोंके दो-दो भेद होनेपर कुल चार भेद हुए। आदि पादके आदि, मध्य और अन्तमें",
+          "translation": "Seed (bija), drop (bindu), banner (pataka), episode (prakari) and the action itself — five elements of the plot, and five efforts in order:",
+          "translationSource": "ai"
         },
         {
           "number": 20,
           "sanskrit": "प्रारम्भश् च प्रयत्नश् च प्राप्तिः सद्भाव एव च । नियता च फलप्राप्तिः फलयोगश् च पञ्चमः",
           "transliteration": "prārambhaś ca prayatnaś ca prāptiḥ sadbhāva eva ca / niyatā ca phalaprāptiḥ phalayogaś ca pañcamaḥ",
-          "hindi": "१. भोजराजने इसमें तालव्य वर्णोका भी समावेश माना है। 'ललिता'का उदाहरण इस प्रकार है-- २. भोजराजके मतसे इसमें प्रायः मूर्धन्य, अन्तःस्थ तथा संयोगपूर्व गुरुवर्णोका प्रयोग होता है। यथा--"
+          "hindi": "१. भोजराजने इसमें तालव्य वर्णोका भी समावेश माना है। 'ललिता'का उदाहरण इस प्रकार है-- २. भोजराजके मतसे इसमें प्रायः मूर्धन्य, अन्तःस्थ तथा संयोगपूर्व गुरुवर्णोका प्रयोग होता है। यथा--",
+          "translation": "beginning, effort, attainment, certainty, and the attainment of fruit — union with fruit is the fifth.",
+          "translationSource": "ai"
         },
         {
           "number": 21,
           "sanskrit": "मुखं प्रतिमुखं गर्भो विमर्षश् च तथैव च । तथा निर्वहणञ्चेति क्रमात् पञ्चैव सन्धयः",
           "transliteration": "mukhaṃ pratimukhaṃ garbho vimarṣaś ca tathaiva ca / tathā nirvahaṇañceti kramāt pañcaiva sandhayaḥ",
-          "hindi": "कृत्वा पुंवत्पातमुचैर्भृगुभ्यां मूर्धि ग्राव्णां जर्जरा निर्झरौघाः । कुर्वन्ति द्यामुत्पतन्तं स्मरार्त स्वर्लोकस्त्रीगात्रनिर्वाणमत्र॥"
+          "hindi": "कृत्वा पुंवत्पातमुचैर्भृगुभ्यां मूर्धि ग्राव्णां जर्जरा निर्झरौघाः । कुर्वन्ति द्यामुत्पतन्तं स्मरार्त स्वर्लोकस्त्रीगात्रनिर्वाणमत्र॥",
+          "translation": "Opening (mukha), progression (pratimukha), womb (garbha), reflection (vimarsha) and conclusion (nirvahana) — in order the five junctures.",
+          "translationSource": "ai"
         },
         {
           "number": 22,
           "sanskrit": "अल्पमात्रं समुद्दिष्टं बहुधा यत् प्रसर्पति । फलावसानं यच्चैव वीजं तदभिधीयते",
           "transliteration": "alpamātraṃ samuddiṣṭaṃ bahudhā yat prasarpati / phalāvasānaṃ yaccaiva vījaṃ tadabhidhīyate",
-          "hindi": "३. कोमला या भद्राका उदाहरण-- दारुणरणे रणन्तं करिदारणकारणं कृपाणं ते। रमणकृते रणरणको पश्यति तरुणीजनो दिव्यः ॥ (सर० कं० २। १९७)"
+          "hindi": "३. कोमला या भद्राका उदाहरण-- दारुणरणे रणन्तं करिदारणकारणं कृपाणं ते। रमणकृते रणरणको पश्यति तरुणीजनो दिव्यः ॥ (सर० कं० २। १९७)",
+          "translation": "What is indicated in small measure and spreads in many ways, ending in the fruit, is called the seed.",
+          "translationSource": "ai"
         },
         {
           "number": 23,
           "sanskrit": "यत्र वीजसमुत्पत्तिर्नानार्थरससम्भवा । काव्ये शरीरानुगतं तन्मुखं परिकीर्तितं",
           "transliteration": "yatra vījasamutpattirnānārtharasasambhavā / kāvye śarīrānugataṃ tanmukhaṃ parikīrtitaṃ",
-          "hindi": "५. अग्निपुराणवर्णित इन वृत्तियोंके देश-भेदसे जो बारह भेद हैं, उन्हें भोजराजने ' सरस्वतीकण्ठाभरण ' में ज्यों-का-त्यों ले लिया है और अपनी ओरसे उनके लक्षण तथा उदाहरण प्रस्तुत किये हैं (द्रष्टव्य: २। ७८-८१ कारिकातक) ।"
+          "hindi": "५. अग्निपुराणवर्णित इन वृत्तियोंके देश-भेदसे जो बारह भेद हैं, उन्हें भोजराजने ' सरस्वतीकण्ठाभरण ' में ज्यों-का-त्यों ले लिया है और अपनी ओरसे उनके लक्षण तथा उदाहरण प्रस्तुत किये हैं (द्रष्टव्य: २। ७८-८१ कारिकातक) ।",
+          "translation": "Where the origin of the seed arises from various meanings and sentiments, following the body in the poem, that is declared the opening.",
+          "translationSource": "ai"
         },
         {
           "number": 24,
           "sanskrit": "इष्टस्यार्थस्य रचना वृत्तान्तस्यानुपक्षयः । रागप्राप्तिः प्रयोगस्य गुह्यानाञ्चैव गूहनम्",
           "transliteration": "iṣṭasyārthasya racanā vṛttāntasyānupakṣayaḥ / rāgaprāptiḥ prayogasya guhyānāñcaiva gūhanam",
-          "hindi": "६.  नाट्यशास्त्र में भरतमुनिने ' शब्दाभ्यासस्तु यमकं पादादिषु विकल्पितम्।' (१।५९) --इस प्रकार 'यमक' का लक्षण किया है। इसीका आशय लेकर व्यासजीने ' अनेकवर्णावृत्तिर्या भिन्नार्थप्रतिपादिका। यमकं साव्यपेतं च व्यपेतं चेति तद् द्विधा ॥'-एऐसा लक्षण किया है। इसीका आश्रय लेकर दण्डीने--' अव्यपेतव्यपेतात्मा याऽऽवृत्तिर्वर्णसंहतेः । यमकं तत् \" ॥'--ऐसा लक्षण प्रस्तुत किया है। (काव्यादर्श ३। १) इन्हीं लक्षणोंको आधार बनाकर भोजराजने 'यमक'का लक्षण इस प्रकार किया है-- विभिन्नार्थैकरूपाया याऽऽवृत्तिर्वर्णसंहतेः । अव्यपेतव्यपेतात्मा यमकं तन्निगद्यते ॥ (२। ५८)"
+          "hindi": "६.  नाट्यशास्त्र में भरतमुनिने ' शब्दाभ्यासस्तु यमकं पादादिषु विकल्पितम्।' (१।५९) --इस प्रकार 'यमक' का लक्षण किया है। इसीका आशय लेकर व्यासजीने ' अनेकवर्णावृत्तिर्या भिन्नार्थप्रतिपादिका। यमकं साव्यपेतं च व्यपेतं चेति तद् द्विधा ॥'-एऐसा लक्षण किया है। इसीका आश्रय लेकर दण्डीने--' अव्यपेतव्यपेतात्मा याऽऽवृत्तिर्वर्णसंहतेः । यमकं तत् \" ॥'--ऐसा लक्षण प्रस्तुत किया है। (काव्यादर्श ३। १) इन्हीं लक्षणोंको आधार बनाकर भोजराजने 'यमक'का लक्षण इस प्रकार किया है-- विभिन्नार्थैकरूपाया याऽऽवृत्तिर्वर्णसंहतेः । अव्यपेतव्यपेतात्मा यमकं तन्निगद्यते ॥ (२। ५८)",
+          "translation": "Arrangement of the desired matter, non-diminution of the account, attainment of passion in the performance and concealing of secrets,",
+          "translationSource": "ai"
         },
         {
           "number": 25,
           "sanskrit": "आश् चर्यवदभिख्यातं प्रकाशानां प्रकाशनम् । अङ्गहीनं नरो यद्वन्न श्रेष्ठं काव्यमेव च",
           "transliteration": "āś caryavadabhikhyātaṃ prakāśānāṃ prakāśanam / aṅgahīnaṃ naro yadvanna śreṣṭhaṃ kāvyameva ca",
-          "hindi": "७१६  अग्निपुराण"
+          "hindi": "७१६  अग्निपुराण",
+          "translation": "described as wonderful, revelation of the revealed. As a man without limbs, so a poem is not excellent.",
+          "translationSource": "ai"
         },
         {
           "number": 26,
           "sanskrit": "देशकालौ विना किञ्चिन्नेतिवृत्तं प्रवर्तते । अतस्तयोरुपादाननियमात् पदमुच्यते",
           "transliteration": "deśakālau vinā kiñcinnetivṛttaṃ pravartate / atastayorupādānaniyamāt padamucyate",
-          "hindi": "एक, दो और तीन वर्णोंकी पर्यायसे आवृत्ति  यमक, आम्रेडित यमक, चतुर्व्यवसित यमक होनेपर कुल सात भेद होते हैं। यदि सात पादोंमें  तथा माला: यमक। इनके भी अन्य अनेक भेद! उत्तरोत्तर पाद एक, दो और तीन पदोंसे आरम्भ  होते हैं॥ ११--१७॥ हो तो अन्तिम पाद छः प्रकारका हो जाता है। सहदयजन भिन्नार्थवाची पदकी आवृत्तिको तीसरा पाद पादके आदि, मध्य और अन्तमें  'स्वतन्त्र' एवं ' अस्वतन्त्रः पदके आवर्त्तनसे दो आवृत्ति होनेसे तीन प्रकारका होता है। श्रेष्ठ  प्रकारकी मानते हैं। दो आवृत्त पदोंका समास यमकके निम्नलिखित दस भेद होते हैं-पादान्त  होनेपर ' समस्ता' और उनके समासरहित रहनेपर"
+          "hindi": "एक, दो और तीन वर्णोंकी पर्यायसे आवृत्ति  यमक, आम्रेडित यमक, चतुर्व्यवसित यमक होनेपर कुल सात भेद होते हैं। यदि सात पादोंमें  तथा माला: यमक। इनके भी अन्य अनेक भेद! उत्तरोत्तर पाद एक, दो और तीन पदोंसे आरम्भ  होते हैं॥ ११--१७॥ हो तो अन्तिम पाद छः प्रकारका हो जाता है। सहदयजन भिन्नार्थवाची पदकी आवृत्तिको तीसरा पाद पादके आदि, मध्य और अन्तमें  'स्वतन्त्र' एवं ' अस्वतन्त्रः पदके आवर्त्तनसे दो आवृत्ति होनेसे तीन प्रकारका होता है। श्रेष्ठ  प्रकारकी मानते हैं। दो आवृत्त पदोंका समास यमकके निम्नलिखित दस भेद होते हैं-पादान्त  होनेपर ' समस्ता' और उनके समासरहित रहनेपर",
+          "translation": "Without place and time no plot proceeds; therefore by the rule of taking those two the point is stated.",
+          "translationSource": "ai"
         },
         {
           "number": 27,
           "sanskrit": "देशेषु भारतं वर्षं काले कृतयुगत्रयं । नर्ते ताभ्यां प्राणभृतां सुखदुःखोदयः क्वचित् । सर्गे सर्गादिवार्ता च प्रसज्जन्ती न दुष्यति",
           "transliteration": "deśeṣu bhārataṃ varṣaṃ kāle kṛtayugatrayaṃ / narte tābhyāṃ prāṇabhṛtāṃ sukhaduḥkhodayaḥ kvacit / sarge sargādivārtā ca prasajjantī na duṣyati",
-          "hindi": "यमक, काञ्जी यमक, समुद्ग यमक, विक्रान्त्य  'व्यस्ता' आवृत्ति कही जाती है। एक पादमें यमक, वक्रवाल यमक, संदष्ट यमक, पादादि  विग्रह होनेसे असमासत्वप्रयुक्त ' व्यस्ता’ जानी"
+          "hindi": "यमक, काञ्जी यमक, समुद्ग यमक, विक्रान्त्य  'व्यस्ता' आवृत्ति कही जाती है। एक पादमें यमक, वक्रवाल यमक, संदष्ट यमक, पादादि  विग्रह होनेसे असमासत्वप्रयुक्त ' व्यस्ता’ जानी",
+          "translation": "Of places, the land of Bharata; of times, the three ages beginning with Krita; without these two, the rise of happiness and sorrow of beings in places is nowhere. In a canto, news from the beginning of a canto, if brought in, is not a fault.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -78025,31 +78051,41 @@
           "number": 2,
           "sanskrit": "आनन्दः सहजस्तस्य व्यज्यते स कदाचन । व्यक्तिः सा तस्य चैतन्यचमत्काररसाह्वया",
           "transliteration": "ānandaḥ sahajastasya vyajyate sa kadācana / vyaktiḥ sā tasya caitanyacamatkārarasāhvayā",
-          "hindi": "आचार्य भामहने यमकके पाँच ही भेद दिये हैं -आदि यमक, मध्यान्त यमक, पादाभ्यास, आवली और समस्तपाद यमक (द्रष्टव्य भामह ' काव्यालं० ' द्वितीय परिच्छेद) । आचार्य वामने पाद-यमक', एक पादके आदिमध्यान्त्य यमक, दो पादोंके आदिमध्यान्त्य यमक, एकान्तर पादान्त यमक, एकान्तर पादादि मध्य यमक, द्विविध अक्षर यमक, त्रिविध भृङ्गमार्ग-शृङ्कुला, परिवर्तक और चूर्ण आदि भेद माने हैं।"
+          "hindi": "आचार्य भामहने यमकके पाँच ही भेद दिये हैं -आदि यमक, मध्यान्त यमक, पादाभ्यास, आवली और समस्तपाद यमक (द्रष्टव्य भामह ' काव्यालं० ' द्वितीय परिच्छेद) । आचार्य वामने पाद-यमक', एक पादके आदिमध्यान्त्य यमक, दो पादोंके आदिमध्यान्त्य यमक, एकान्तर पादान्त यमक, एकान्तर पादादि मध्य यमक, द्विविध अक्षर यमक, त्रिविध भृङ्गमार्ग-शृङ्कुला, परिवर्तक और चूर्ण आदि भेद माने हैं।",
+          "translation": "Bliss is innate in him; it is sometimes manifested. That manifestation of his is called the sentiment (rasa) of the wonder of consciousness.",
+          "translationSource": "ai"
         },
         {
           "number": 3,
           "sanskrit": "आद्यस्तस्य विकारो यः सो ऽहङ्कार इति स्मृतः । ततो ऽभिमानस्तत्रेदं समाप्तं भुवनत्रयं",
           "transliteration": "ādyastasya vikāro yaḥ so 'haṅkāra iti smṛtaḥ / tato 'bhimānastatredaṃ samāptaṃ bhuvanatrayaṃ",
-          "hindi": "२. 'सरस्वतीकण्ठाभरण' के रचयिता भोजराजने अग्निपुराणके इसी प्रसङ्गमें अपनी सुस्पष्ट वाणीद्वारा इस प्रकार कहा है- विभिन्नार्थैकरूपाया याऽऽवृत्तिर्वर्णसंहतेः । अव्यपेतव्यपेतात्मा यमकं तन्निगद्यते॥ चतुस्त्रद्ठेकपादेषु यमकानां विकल्पनाः । आदिमध्यान्तमध्यान्तमध्याद्यन्ताश्च॒सर्वतः॥ अत्यन्तबहवस्तेषां भेदाः सम्भेदयोनयः । सुकरा दुष्कराश्चैव दृश्यन्ते तत्र केचन॥"
+          "hindi": "२. 'सरस्वतीकण्ठाभरण' के रचयिता भोजराजने अग्निपुराणके इसी प्रसङ्गमें अपनी सुस्पष्ट वाणीद्वारा इस प्रकार कहा है- विभिन्नार्थैकरूपाया याऽऽवृत्तिर्वर्णसंहतेः । अव्यपेतव्यपेतात्मा यमकं तन्निगद्यते॥ चतुस्त्रद्ठेकपादेषु यमकानां विकल्पनाः । आदिमध्यान्तमध्यान्तमध्याद्यन्ताश्च॒सर्वतः॥ अत्यन्तबहवस्तेषां भेदाः सम्भेदयोनयः । सुकरा दुष्कराश्चैव दृश्यन्ते तत्र केचन॥",
+          "translation": "The first modification of it is remembered as ego (ahankara); from that arises self-conceit, wherein this triple world ends.",
+          "translationSource": "ai"
         },
         {
           "number": 4,
           "sanskrit": "अभिमानाद्रतिः सा च परिपोषमुपेयुषी । व्यभिचार्यादिसामान्यात् शृङ्गार इति गीयते",
           "transliteration": "abhimānādratiḥ sā ca paripoṣamupeyuṣī / vyabhicāryādisāmānyāt śṛṅgāra iti gīyate",
-          "hindi": "उपर्युक्त श्लोकोंके अनुसार यमकोंके भेद इस प्रकार बनते हैँ-- स्थानयमक' और ' अस्थानयमक'। स्थानयमकोंमें चतुष्पाद यमक, त्रिपाद यमक, द्विपाद यमक और एकपाद यमक होते हैं। चतुष्पाद यमकोंमें अव्यपेत आदि यमक, अव्यपेत मध्य यमक, अव्यपेत अन्त्य यमक, आदिमध्य यमक, आद्यन्त यमक, मध्यान्त यमक तथा आदिमध्यान्त यमक। त्रिपाद यमकोंमें अव्यपेत आदि यमक, अव्यपेत मध्य यमक, अव्यपेत अन्त्य यमक, मध्य यमक, अन्त्य यमक। द्विपाद यमकोंमें अव्यपेत आदि यमक, अव्यपेत मध्य"
+          "hindi": "उपर्युक्त श्लोकोंके अनुसार यमकोंके भेद इस प्रकार बनते हैँ-- स्थानयमक' और ' अस्थानयमक'। स्थानयमकोंमें चतुष्पाद यमक, त्रिपाद यमक, द्विपाद यमक और एकपाद यमक होते हैं। चतुष्पाद यमकोंमें अव्यपेत आदि यमक, अव्यपेत मध्य यमक, अव्यपेत अन्त्य यमक, आदिमध्य यमक, आद्यन्त यमक, मध्यान्त यमक तथा आदिमध्यान्त यमक। त्रिपाद यमकोंमें अव्यपेत आदि यमक, अव्यपेत मध्य यमक, अव्यपेत अन्त्य यमक, मध्य यमक, अन्त्य यमक। द्विपाद यमकोंमें अव्यपेत आदि यमक, अव्यपेत मध्य",
+          "translation": "From conceit arises love, which, attaining fullness, by commonality with transient feelings and the like is sung as the erotic (shringara).",
+          "translationSource": "ai"
         },
         {
           "number": 5,
           "sanskrit": "तद्भेदाः काममितरे हास्याद्या अप्यनेकशः । स्वस्वस्थादिविशेषोत्थपरिघोषस्वलक्षणाः",
           "transliteration": "tadbhedāḥ kāmamitare hāsyādyā apyanekaśaḥ / svasvasthādiviśeṣotthaparighoṣasvalakṣaṇāḥ",
-          "hindi": "यमक, अन्त्य यमक, आदिमध्य यमक इत्यादि। एकपाद यमकोंमें अव्यपेत आदि यमक, अव्यपेत अन्त्य यमक, मध्य यमक। इसी प्रकार सकृत् आवृत्ति और असकृत् आवृत्तिमें भी अव्यपेत यमक होता है। ' अव्यपेत'का अर्थ है-अव्यवहित और 'व्यपेत' का अर्थ है--व्यवधानयुक्त। आवृत्तिकी एकरूपता और अधिकतामें भी अव्यपेत आदि, मध्यादि यमक होने सम्भव हैं। व्यपेत आदि यमक, मध्य यमक, अन्त्य यमक, आदिमध्य यमक, मध्यान्त्य यमक और आदिमध्यान्त्य यमक-ये चतुष्पाद यमकोंमें होते हैं । त्रिपाद और द्विपाद यमकोंमें भी व्यपेत आदि यमक, मध्य यमक और अन्त्य यमक होते हैं। आवृत्तिकी अधिकतामें भी आदि, मध्य यमकके व्यपेतरूप देखे जाते हैं। इसी तरह आवृत्तिकी एकरूपतामें भी आदि, मध्य तथा मध्यान्त्य यमक कविजनोंकी रचनाओंमें उपलब्ध हैं । इन सबमें आवृत्ति व्यवहित होती है, इसलिये इनको 'व्यपेत यमक' कहा जाता है। जहाँ आदि, मध्य और अन्तका नियम न हो, ऐसे यमकोंको ' अस्थानयमक' कहते हैं । इनके भी व्यपेत और अव्यपेत आदि बहुत-से स्थूल-सूक्ष्म भेद हैं। इन सबका विस्तार ' सरस्वतीकण्ठाभरण',"
+          "hindi": "यमक, अन्त्य यमक, आदिमध्य यमक इत्यादि। एकपाद यमकोंमें अव्यपेत आदि यमक, अव्यपेत अन्त्य यमक, मध्य यमक। इसी प्रकार सकृत् आवृत्ति और असकृत् आवृत्तिमें भी अव्यपेत यमक होता है। ' अव्यपेत'का अर्थ है-अव्यवहित और 'व्यपेत' का अर्थ है--व्यवधानयुक्त। आवृत्तिकी एकरूपता और अधिकतामें भी अव्यपेत आदि, मध्यादि यमक होने सम्भव हैं। व्यपेत आदि यमक, मध्य यमक, अन्त्य यमक, आदिमध्य यमक, मध्यान्त्य यमक और आदिमध्यान्त्य यमक-ये चतुष्पाद यमकोंमें होते हैं । त्रिपाद और द्विपाद यमकोंमें भी व्यपेत आदि यमक, मध्य यमक और अन्त्य यमक होते हैं। आवृत्तिकी अधिकतामें भी आदि, मध्य यमकके व्यपेतरूप देखे जाते हैं। इसी तरह आवृत्तिकी एकरूपतामें भी आदि, मध्य तथा मध्यान्त्य यमक कविजनोंकी रचनाओंमें उपलब्ध हैं । इन सबमें आवृत्ति व्यवहित होती है, इसलिये इनको 'व्यपेत यमक' कहा जाता है। जहाँ आदि, मध्य और अन्तका नियम न हो, ऐसे यमकोंको ' अस्थानयमक' कहते हैं । इनके भी व्यपेत और अव्यपेत आदि बहुत-से स्थूल-सूक्ष्म भेद हैं। इन सबका विस्तार ' सरस्वतीकण्ठाभरण',",
+          "translation": "Its divisions are the other sentiments, love, the comic and the rest, in many ways, with marks of sounds arising from special states of self and the like;",
+          "translationSource": "ai"
         },
         {
           "number": 6,
           "sanskrit": "सत्त्वादिगुणसन्तानाज्जायन्ते परमात्मनः । रागाद्भवति शृङ्गारो रौद्रस्तैक्ष्णात् प्रजायते",
           "transliteration": "sattvādiguṇasantānājjāyante paramātmanaḥ / rāgādbhavati śṛṅgāro raudrastaikṣṇāt prajāyate",
-          "hindi": "द्वितीय परिच्छेदमें देखना चाहिए।"
+          "hindi": "द्वितीय परिच्छेदमें देखना चाहिए।",
+          "translation": "they arise from the continuum of qualities such as sattva from the Supreme Self. From passion arises the erotic; the furious from sharpness.",
+          "translationSource": "ai"
         },
         {
           "number": 7,
@@ -78143,223 +78179,297 @@
           "number": 18,
           "sanskrit": "हर्षादिजन्मवाक्सङ्गः स्वरभेदो भयादिभिः । मनोवैक्लव्यमिच्छन्ति शोकमिष्टक्षयादिभिः",
           "transliteration": "harṣādijanmavāksaṅgaḥ svarabhedo bhayādibhiḥ / manovaiklavyamicchanti śokamiṣṭakṣayādibhiḥ",
-          "hindi": "दण्डीके ' काव्यादर्श ' में भी मिलती है और भोजराजने ' सरस्वतीकण्ठाभरण ' में उनका विस्तारपूर्वक विवेचन किया है। २. भोजराजके मतमें 'प्रहेलिका'के छः भेद यों होते हैं-च्युताक्षरा, दत्ताक्षरा, च्युतदत्ताक्षरा, अक्षरमुष्टिका, विन्दुमोती तथा अर्थवती।"
+          "hindi": "दण्डीके ' काव्यादर्श ' में भी मिलती है और भोजराजने ' सरस्वतीकण्ठाभरण ' में उनका विस्तारपूर्वक विवेचन किया है। २. भोजराजके मतमें 'प्रहेलिका'के छः भेद यों होते हैं-च्युताक्षरा, दत्ताक्षरा, च्युतदत्ताक्षरा, अक्षरमुष्टिका, विन्दुमोती तथा अर्थवती।",
+          "translation": "From joy and the like arises stammering of speech; voice-change from fear and the like. They hold mind-disturbance and grief from loss of the desired and the like;",
+          "translationSource": "ai"
         },
         {
           "number": 19,
           "sanskrit": "क्रोधस्तैक्ष्णप्रबोधश् च प्रतिकूलानुकारिणि । पुरुषार्थसमाप्त्यार्थो यः स उत्साह उच्यते",
           "transliteration": "krodhastaikṣṇaprabodhaś ca pratikūlānukāriṇi / puruṣārthasamāptyārtho yaḥ sa utsāha ucyate",
-          "hindi": "काव्यमें प्रातिलोम्य और आनुलोम्यसे विकल्पना होती है। 'प्रातिलोम्य' और ' आनुलोम्य' शब्द और अर्थके द्वारा भी होता है। विविध वृत्तोंके वर्णविन्यासके द्वारा उन-उन प्रसिद्ध वस्तुओंके चित्रकर्मादिकी कल्पनाको 'बन्ध' कहते हैं। बन्धके निम्नाङ्कित आठ भेद माने जाते हैं- गोमूत्रिका, अद्धभ्रमक, सर्वतोभद्र, कमल, चक्र, चक्राब्जक, दण्ड और मुरज। जिसमें श्लोकके"
+          "hindi": "काव्यमें प्रातिलोम्य और आनुलोम्यसे विकल्पना होती है। 'प्रातिलोम्य' और ' आनुलोम्य' शब्द और अर्थके द्वारा भी होता है। विविध वृत्तोंके वर्णविन्यासके द्वारा उन-उन प्रसिद्ध वस्तुओंके चित्रकर्मादिकी कल्पनाको 'बन्ध' कहते हैं। बन्धके निम्नाङ्कित आठ भेद माने जाते हैं- गोमूत्रिका, अद्धभ्रमक, सर्वतोभद्र, कमल, चक्र, चक्राब्जक, दण्ड और मुरज। जिसमें श्लोकके",
+          "translation": "anger is sharp awakening toward the hostile imitator; what is for completing human aims is called energy (utsaha).",
+          "translationSource": "ai"
         },
         {
           "number": 20,
           "sanskrit": "चित्तक्षोभभवोत्तम्भो वेपथुः परिकीर्तितः । वैवर्ण्यञ्च विषादादिजन्मा कान्तिविपर्ययः",
           "transliteration": "cittakṣobhabhavottambho vepathuḥ parikīrtitaḥ / vaivarṇyañca viṣādādijanmā kāntiviparyayaḥ",
-          "hindi": "दोनों-दोनों अर्द्धभागों तथा प्रत्येक पादमें एक- एक अक्षरके व्यवधानसे अक्षरसाम्य प्रयुक्त हो, उसको 'गोमूत्रिका-बन्ध' कहते हैं । ' गोमूत्रिका- बन्ध'के दो भेद कहे जाते हैं--' पूर्वा गोमूत्रिका'"
+          "hindi": "दोनों-दोनों अर्द्धभागों तथा प्रत्येक पादमें एक- एक अक्षरके व्यवधानसे अक्षरसाम्य प्रयुक्त हो, उसको 'गोमूत्रिका-बन्ध' कहते हैं । ' गोमूत्रिका- बन्ध'के दो भेद कहे जाते हैं--' पूर्वा गोमूत्रिका'",
+          "translation": "Shaking from agitation of mind is declared trembling; discoloration, from despair and the like, is the reversal of luster;",
+          "translationSource": "ai"
         },
         {
           "number": 21,
           "sanskrit": "दुःखानन्दादिजन्नेत्रजलमश्रु च विश्रुतम् । इन्द्रयाणामस्तमयः प्रलयो लङ्घनादिभिः",
           "transliteration": "duḥkhānandādijannetrajalamaśru ca viśrutam / indrayāṇāmastamayaḥ pralayo laṅghanādibhiḥ",
-          "hindi": "जिसको कुछ काव्यवेत्ता ' अश्वपदा' भी कहते हैं, वह प्रति अरद्धभागमें एक-एक अक्षरके बाद अक्षरसाम्यसे युक्त होती है। ' अन्त्या गोमूत्रिका' जिसको 'धेनुजालबन्ध' भी कहते हैं, वह प्रत्येक पदमें एक-एक अक्षरके अन्तरे अक्षरसाम्यसमन्वित होती है"
+          "hindi": "जिसको कुछ काव्यवेत्ता ' अश्वपदा' भी कहते हैं, वह प्रति अरद्धभागमें एक-एक अक्षरके बाद अक्षरसाम्यसे युक्त होती है। ' अन्त्या गोमूत्रिका' जिसको 'धेनुजालबन्ध' भी कहते हैं, वह प्रत्येक पदमें एक-एक अक्षरके अन्तरे अक्षरसाम्यसमन्वित होती है",
+          "translation": "water in the eyes from sorrow, joy and the like is famed as tears; setting of the senses, dissolution, from transgression and the like;",
+          "translationSource": "ai"
         },
         {
           "number": 22,
           "sanskrit": "वैराग्यादिर्मनःखेदो निर्वेद इति कथ्यते । मनःपीडादिजन्मा च सादो ग्लानिः शरीरगा",
           "transliteration": "vairāgyādirmanaḥkhedo nirveda iti kathyate / manaḥpīḍādijanmā ca sādo glāniḥ śarīragā",
-          "hindi": "पूर्वी ( अशवपदा ) मोमत्रिकानन्ध"
+          "hindi": "पूर्वी ( अशवपदा ) मोमत्रिकानन्ध",
+          "translation": "mind's weariness from detachment and the like is called despondency (nirveda); dejection arisen from mental pain and the like, exhaustion in the body;",
+          "translationSource": "ai"
         },
         {
           "number": 23,
           "sanskrit": "शङ्कानिष्टागमोत्प्रेक्षा स्यादसूया च मत्सरः । मदिराद्युपयोगोत्थं मनःसंमोहनं मदः",
           "transliteration": "śaṅkāniṣṭāgamotprekṣā syādasūyā ca matsaraḥ / madirādyupayogotthaṃ manaḥsaṃmohanaṃ madaḥ",
-          "hindi": "00000000000000 । से विक सदुध्यानं साथ ने प्य बिणा दिसिः ४ अन्त्या (धेनुजाल ) गोखजिका बन्‍थ हु"
+          "hindi": "00000000000000 । से विक सदुध्यानं साथ ने प्य बिणा दिसिः ४ अन्त्या (धेनुजाल ) गोखजिका बन्‍थ हु",
+          "translation": "apprehension is anticipation of coming evil; envy and jealousy; bewilderment of mind from use of intoxicants and the like is intoxication;",
+          "translationSource": "ai"
         },
         {
           "number": 24,
           "sanskrit": "क्रियातिशयजन्मान्तःशरीरोत्थक्लमः श्रमः । शृङ्गारादिक्रियाद्वेषश्चित्तस्यालस्यमुच्यते",
           "transliteration": "kriyātiśayajanmāntaḥśarīrotthaklamaḥ śramaḥ / śṛṅgārādikriyādveṣaścittasyālasyamucyate",
-          "hindi": "गोमूत्रिका-बन्धके पूर्वोक्त दोनों भेदोंका क्रमशः अरद्धभागों और अद्धपादोंसे विन्यास करना चाहिए"
+          "hindi": "गोमूत्रिका-बन्धके पूर्वोक्त दोनों भेदोंका क्रमशः अरद्धभागों और अद्धपादोंसे विन्यास करना चाहिए",
+          "translation": "fatigue arising from excessive action, a weariness within the body; aversion to action such as love is called laziness of mind;",
+          "translationSource": "ai"
         },
         {
           "number": 25,
           "sanskrit": "१ भयरागाद्युपस्थित इति ख॥ :प् २०७ दैन्यं सत्त्वादपभ्रंशश्चिन्तार्थपरिभावनं । इतिकर्तव्यतोपायाद्रशनं मोह उच्यते",
           "transliteration": "1 bhayarāgādyupasthita iti kha.. :p 207 dainyaṃ sattvādapabhraṃśaścintārthaparibhāvanaṃ / itikartavyatopāyādraśanaṃ moha ucyate",
-          "hindi": "यहाँ क्रमशः नीचे-नीचे विन्यस्त वर्णोका, नीचे-नीचे स्थित वर्णोंका जबतक चतुर्थ पाद पूर्ण न हो जाय, तबतक नयन करे। चतुर्थ पाद पूर्ण हो जानेपर प्रतिलोमक्रमसे अक्षरोंको पादार्ध- पर्यन्त ऊपर ले जाय। इस तरह तीन प्रकारका 'सर्वतोभद्र-मण्डल' बनता है। कमलबन्धके तीन प्रकार हैं-चतुर्दल, अष्टदल और षोडशदल। चतुर्दल कमलको इस प्रकारसे आबद्ध किया"
+          "hindi": "यहाँ क्रमशः नीचे-नीचे विन्यस्त वर्णोका, नीचे-नीचे स्थित वर्णोंका जबतक चतुर्थ पाद पूर्ण न हो जाय, तबतक नयन करे। चतुर्थ पाद पूर्ण हो जानेपर प्रतिलोमक्रमसे अक्षरोंको पादार्ध- पर्यन्त ऊपर ले जाय। इस तरह तीन प्रकारका 'सर्वतोभद्र-मण्डल' बनता है। कमलबन्धके तीन प्रकार हैं-चतुर्दल, अष्टदल और षोडशदल। चतुर्दल कमलको इस प्रकारसे आबद्ध किया",
+          "translation": "wretchedness is fall from sattva; anxiety is consideration of an object; failure to see the means of what is to be done is called delusion;",
+          "translationSource": "ai"
         },
         {
           "number": 26,
           "sanskrit": "स्मृतिः स्यादनुभूतस्य वस्तुनः प्रतिविम्बनं । मतिरर्थपरिच्छेदस्तत्त्वज्ञानोपनायितः",
           "transliteration": "smṛtiḥ syādanubhūtasya vastunaḥ prativimbanaṃ / matirarthaparicchedastattvajñānopanāyitaḥ",
-          "hindi": "जाता है-प्रथम पादके ऊपरी तीन पदोंवाले अक्षर सभी पादोंके अन्तमें रखे जाते हैं। पूर्वपादके अन्तिम वर्णको पिछले पादके आदिमें प्रातिलोम्यक्रमसे रखा जाय। अन्तिम पादके"
+          "hindi": "जाता है-प्रथम पादके ऊपरी तीन पदोंवाले अक्षर सभी पादोंके अन्तमें रखे जाते हैं। पूर्वपादके अन्तिम वर्णको पिछले पादके आदिमें प्रातिलोम्यक्रमसे रखा जाय। अन्तिम पादके",
+          "translation": "memory is reflection of an object experienced; judgment is determination of an object, brought by knowledge of truth;",
+          "translationSource": "ai"
         },
         {
           "number": 27,
           "sanskrit": "व्रीडानुरागादिभवः सङ्कोचः कोपि चेतसः । भवेच्चपलातास्थैर्यं हर्षश्चित्तप्रसन्नता",
           "transliteration": "vrīḍānurāgādibhavaḥ saṅkocaḥ kopi cetasaḥ / bhaveccapalātāsthairyaṃ harṣaścittaprasannatā",
-          "hindi": "अन्तिम दो अक्षरोंको प्रथम पादके आदिमं निविष्ट किया जाय। यह स्थिति चतुर्दल कमलमें होती है। अष्टदल कमलमें अन्त्य पादके अन्तिम तीन अक्षरोंको प्रथम पादके आदिमें विन्यस्त किया जाता है। षोडशदल कमलमें दो अक्षरोंके बीचमें कर्णिका-मध्यवर्ती एक अक्षरका उच्चारण होता है। कर्णिकाके अन्तमें ऊपर पत्राकार अक्षरोंकी पङ्कि लिखे और उसे कर्णिकामें प्रविष्ट"
+          "hindi": "अन्तिम दो अक्षरोंको प्रथम पादके आदिमं निविष्ट किया जाय। यह स्थिति चतुर्दल कमलमें होती है। अष्टदल कमलमें अन्त्य पादके अन्तिम तीन अक्षरोंको प्रथम पादके आदिमें विन्यस्त किया जाता है। षोडशदल कमलमें दो अक्षरोंके बीचमें कर्णिका-मध्यवर्ती एक अक्षरका उच्चारण होता है। कर्णिकाके अन्तमें ऊपर पत्राकार अक्षरोंकी पङ्कि लिखे और उसे कर्णिकामें प्रविष्ट",
+          "translation": "shyness arisen from modesty, love and the like, a certain contraction of the mind; fickleness is instability; joy is clarity of mind;",
+          "translationSource": "ai"
         },
         {
           "number": 28,
           "sanskrit": "आवेशश् च प्रतीकारः शयो वैधुर्यमात्मनः । कर्तव्ये प्रतिभाभ्रंशो जडतेत्यभिधीयते",
           "transliteration": "āveśaś ca pratīkāraḥ śayo vaidhuryamātmanaḥ / kartavye pratibhābhraṃśo jaḍatetyabhidhīyate",
-          "hindi": "कराये। यह बात चतुर्दल कमलके विषयमें कही गयी है। कर्णिकामें एक अक्षर लिखे और दिशाओं तथा विदिशाओंमें दो-दो अक्षर लिखे; प्रवेश और निर्गमका मार्ग प्रत्येक दिशामें रखे।"
+          "hindi": "कराये। यह बात चतुर्दल कमलके विषयमें कही गयी है। कर्णिकामें एक अक्षर लिखे और दिशाओं तथा विदिशाओंमें दो-दो अक्षर लिखे; प्रवेश और निर्गमका मार्ग प्रत्येक दिशामें रखे।",
+          "translation": "possession, retaliation, sleeplessness, distress of the self; in a duty, failure of insight — is called dullness;",
+          "translationSource": "ai"
         },
         {
           "number": 29,
           "sanskrit": "इष्टप्राप्तेरूपचितः सम्पदाभ्युदयो धृतिः । गर्वाः परेष्ववज्ञानमात्मन्युत्कर्षभावना",
           "transliteration": "iṣṭaprāpterūpacitaḥ sampadābhyudayo dhṛtiḥ / garvāḥ pareṣvavajñānamātmanyutkarṣabhāvanā",
-          "hindi": "यह बात “अष्टदल कमल 'के विषयमें कही गयी है। चारों ओर विषम-वर्णोंका उतनी ही पत्रावली बनाकर न्यास करे और मध्यकर्णिकामें सम अक्षरोंका एक अक्षरके रूपमें न्यास करे। यह बात 'षोडशदल कमल'के विषयमें बतायी गयी है। 'चक्रबन्ध' दो प्रकारका होता है-एक चार अरोंका और दूसरा छः अरोंका। उनमें जो आदिम, अर्थात् चार अरोंवाला चक्र है, उसके"
+          "hindi": "यह बात “अष्टदल कमल 'के विषयमें कही गयी है। चारों ओर विषम-वर्णोंका उतनी ही पत्रावली बनाकर न्यास करे और मध्यकर्णिकामें सम अक्षरोंका एक अक्षरके रूपमें न्यास करे। यह बात 'षोडशदल कमल'के विषयमें बतायी गयी है। 'चक्रबन्ध' दो प्रकारका होता है-एक चार अरोंका और दूसरा छः अरोंका। उनमें जो आदिम, अर्थात् चार अरोंवाला चक्र है, उसके",
+          "translation": "fortitude is the prosperity of increase from obtaining the desired; pride is contempt for others, feeling of superiority in oneself;",
+          "translationSource": "ai"
         },
         {
           "number": 30,
           "sanskrit": "भवेद्विषादो दैवादेर्विघातो ऽभीष्टवस्तुनि । औत्सुक्यमीप्सिताप्राप्तेर्वाञ्छया तरला स्थितिः",
           "transliteration": "bhavedviṣādo daivādervighāto 'bhīṣṭavastuni / autsukyamīpsitāprāptervāñchayā taralā sthitiḥ",
-          "hindi": "ूर्वारद्धमें समवर्णोकी स्थापना करे और प्रत्येक पादके जो प्रथम, पञ्चम आदि विषमवर्ण हैं, उनको एवं चौथे और आठवें, दोनों समवर्णोको क्रमशः उत्तर, पूर्व, दक्षिण और पश्चिमके आरोंमें"
+          "hindi": "ूर्वारद्धमें समवर्णोकी स्थापना करे और प्रत्येक पादके जो प्रथम, पञ्चम आदि विषमवर्ण हैं, उनको एवं चौथे और आठवें, दोनों समवर्णोको क्रमशः उत्तर, पूर्व, दक्षिण और पश्चिमके आरोंमें",
+          "translation": "dejection is the frustration of fate and the like in a desired object; eagerness is trembling state from desire of the unattained;",
+          "translationSource": "ai"
         },
         {
           "number": 31,
           "sanskrit": "चित्तेन्द्रियाणां स्तैमित्यमपस्मारो ऽचला स्थितिः । युद्धे बाधादिभीस्त्रासो वीप्सा चित्तचमत्कृतिः",
           "transliteration": "cittendriyāṇāṃ staimityamapasmāro 'calā sthitiḥ / yuddhe bādhādibhīstrāso vīpsā cittacamatkṛtiḥ",
-          "hindi": "उत्तर पादार्धके चार अक्षरोंको नाभिमें रखे और उसके आदि अक्षरको पिछले दो अरोंमें ले जाय। शेष दो पदोंको नेमिमें स्थापित करे। तृतीय अक्षरको चतुर्थ पादके अन्तमें तथा प्रथम दो समवर्णोको तीनों पादोंके अन्तमें रखे। यदि दसवाँ अक्षर सम हो तो उसे प्रथम अरेपर रखे और छः अक्षरोंको पश्चिम अरेपर स्थापित करे। वे दो-दोके अन्तरसे स्थापित होंगे। इस प्रकार"
+          "hindi": "उत्तर पादार्धके चार अक्षरोंको नाभिमें रखे और उसके आदि अक्षरको पिछले दो अरोंमें ले जाय। शेष दो पदोंको नेमिमें स्थापित करे। तृतीय अक्षरको चतुर्थ पादके अन्तमें तथा प्रथम दो समवर्णोको तीनों पादोंके अन्तमें रखे। यदि दसवाँ अक्षर सम हो तो उसे प्रथम अरेपर रखे और छः अक्षरोंको पश्चिम अरेपर स्थापित करे। वे दो-दोके अन्तरसे स्थापित होंगे। इस प्रकार",
+          "translation": "stupor of the mind and senses, epilepsy is immobile state; in battle terror from fear of obstacles and the like; curiosity is amazement of mind;",
+          "translationSource": "ai"
         },
         {
           "number": 32,
           "sanskrit": "क्रोधस्याप्रशमो ऽमर्षः प्रबोधश्चेतनोदयः । अवहित्थं भवेद्गुप्तिरिङ्गिताकारगोचरा",
           "transliteration": "krodhasyāpraśamo 'marṣaḥ prabodhaścetanodayaḥ / avahitthaṃ bhavedguptiriṅgitākāragocarā",
-          "hindi": "'बृहच्चक्र'का निर्माण होगा। यह 'बृहच्चक्र' बताया गया। सामनेके दो आरोंमें क्रमशः एक- एक पाद लिखे। नाभिमें दशम अक्षर अङ्कित करे और नेमिमें चतुर्थ चरणको ले जाय। श्लोकके"
+          "hindi": "'बृहच्चक्र'का निर्माण होगा। यह 'बृहच्चक्र' बताया गया। सामनेके दो आरोंमें क्रमशः एक- एक पाद लिखे। नाभिमें दशम अक्षर अङ्कित करे और नेमिमें चतुर्थ चरणको ले जाय। श्लोकके",
+          "translation": "non-calming of anger is impatience; awakening is the rise of consciousness; concealment is hiding by gesture and form;",
+          "translationSource": "ai"
         },
         {
           "number": 33,
           "sanskrit": "रोषतो गुरुवाग्दण्डपारुष्यं विदुरुग्रतां । ऊहो वितर्कःस्याद्व्याधिर्मनोवपुरवग्रहः",
           "transliteration": "roṣato guruvāgdaṇḍapāruṣyaṃ vidurugratāṃ / ūho vitarkaḥsyādvyādhirmanovapuravagrahaḥ",
-          "hindi": "दूसरे और चौथे चरणोंके आदि और अन्तिम अक्षर भी समान हों। प्रथम और चौथे चरणके द्वितीय चरणको विलोमक्रमसे पढ्नेपर यदि तृतीय चरण बन जाता हो तो उसे पत्रके स्थानमें स्थापित करे तो उस रचनाका नाम ' दण्डचक्राब्जबन्ध' समझना चाहिए। पूर्वदल"
+          "hindi": "दूसरे और चौथे चरणोंके आदि और अन्तिम अक्षर भी समान हों। प्रथम और चौथे चरणके द्वितीय चरणको विलोमक्रमसे पढ्नेपर यदि तृतीय चरण बन जाता हो तो उसे पत्रके स्थानमें स्थापित करे तो उस रचनाका नाम ' दण्डचक्राब्जबन्ध' समझना चाहिए। पूर्वदल",
+          "translation": "from rage, harshness of heavy speech and punishment they know as fierceness; reasoning is conjecture; disease is mind's and body's obstruction;",
+          "translationSource": "ai"
         },
         {
           "number": 34,
           "sanskrit": "अनिबद्धप्रलापादिरुन्मादो मदनादिभिः । तत्त्वज्ञानादिना चेतःकषायो परमः शमः",
           "transliteration": "anibaddhapralāpādirunmādo madanādibhiḥ / tattvajñānādinā cetaḥkaṣāyo paramaḥ śamaḥ",
-          "hindi": "(पूर्वाद्ध) -में दोनों चरणोंके द्वितीय अक्षर एक समान हों और उत्तराद्धमें दोनों चरणोंके सातवें अक्षर समान हों। साथ ही द्वितीय अक्षरोंकी दृष्टिसे भी पूर्वाद्ध और उत्तरारद्ध परस्पर समता"
+          "hindi": "(पूर्वाद्ध) -में दोनों चरणोंके द्वितीय अक्षर एक समान हों और उत्तराद्धमें दोनों चरणोंके सातवें अक्षर समान हों। साथ ही द्वितीय अक्षरोंकी दृष्टिसे भी पूर्वाद्ध और उत्तरारद्ध परस्पर समता",
+          "translation": "madness is incoherent talk and the like from passion; by knowledge of truth and the like, the dissolving of mind's stains is supreme peace (shama).",
+          "translationSource": "ai"
         },
         {
           "number": 35,
           "sanskrit": "कविभिर्योजनीया वै भावाः काव्यादिके रसाः । विभाव्यते हि रत्यादिर्यत्र येन विभाव्यते",
           "transliteration": "kavibhiryojanīyā vai bhāvāḥ kāvyādike rasāḥ / vibhāvyate hi ratyādiryatra yena vibhāvyate",
-          "hindi": "एक-दूसरेके तुल्य हों। उत्तराद्ध भागके सातवें अक्षर प्रथम और चतुर्थ चरणोंके उन्हीं अक्षरोंके पञ्चम अक्षरको क्रमशः योजना करनी चाहिए। क्रमपादगत जो चतुर्थ अक्षर हैं, उनको तथा दलान्त वर्णोको पूर्ववत् स्थापित करना चाहिए। 'मुरजबन्ध'में पूर्वार्ध और उत्तरार्द्ध दोनोंके अन्तिम"
+          "hindi": "एक-दूसरेके तुल्य हों। उत्तराद्ध भागके सातवें अक्षर प्रथम और चतुर्थ चरणोंके उन्हीं अक्षरोंके पञ्चम अक्षरको क्रमशः योजना करनी चाहिए। क्रमपादगत जो चतुर्थ अक्षर हैं, उनको तथा दलान्त वर्णोको पूर्ववत् स्थापित करना चाहिए। 'मुरजबन्ध'में पूर्वार्ध और उत्तरार्द्ध दोनोंके अन्तिम",
+          "translation": "Poets should employ the feelings and sentiments in poetry and the like. That by which love and the like is brought out,",
+          "translationSource": "ai"
         },
         {
           "number": 36,
           "sanskrit": "विभावो नाम सद्वेधालम्बनोद्दीपनात्मकः । रत्यादिभाववर्गो ऽयं यमाजीव्योपजायते",
           "transliteration": "vibhāvo nāma sadvedhālambanoddīpanātmakaḥ / ratyādibhāvavargo 'yaṃ yamājīvyopajāyate",
-          "hindi": "और आदि अक्षर समान होते हैं। पादार्ध भागमें स्थित जो वर्ण है, उसे प्रातिलोम्यानुलोम्य-क्रमसे स्थापित करे। अन्तिम अक्षरको इस प्रकार निबद्ध करे कि वह चौथे चरणका आदि अक्षर"
+          "hindi": "और आदि अक्षर समान होते हैं। पादार्ध भागमें स्थित जो वर्ण है, उसे प्रातिलोम्यानुलोम्य-क्रमसे स्थापित करे। अन्तिम अक्षरको इस प्रकार निबद्ध करे कि वह चौथे चरणका आदि अक्षर",
+          "translation": "is called a determinant (vibhava), twofold: of object and of stimulus; this group of feelings, love and the like, arises from it.",
+          "translationSource": "ai"
         },
         {
           "number": 37,
           "sanskrit": "आलम्बनविभावो ऽसौ नायकादिभवस् तथा । धीरोदात्तो धीरोद्धतः स्याद्धीरललितस् तथा",
           "transliteration": "ālambanavibhāvo 'sau nāyakādibhavas tathā / dhīrodātto dhīroddhataḥ syāddhīralalitas tathā",
-          "hindi": "बन जाय। चौथे चरणमें जो आदि अक्षर हो, उससे नवें तथा सोलहवें अक्षरसे पुटकके बीच- बीचमें चार-चार अक्षरोंका निवेश करे। ऐसा करनेसे उस श्लोकबन्धद्वारा मुरज (ढोल)-को आकृति स्पष्ट हो जाती है। द्वितीय चक्र ' शार्दूलविक्रोडित' छन्दसे सम्पादित होता है। 'गोमूत्रिकाबन्ध' सभी छन्दोसे निर्मित हो सकता है। अन्य सब बन्ध अनुष्टुप् छन्दसे निर्मित होते"
+          "hindi": "बन जाय। चौथे चरणमें जो आदि अक्षर हो, उससे नवें तथा सोलहवें अक्षरसे पुटकके बीच- बीचमें चार-चार अक्षरोंका निवेश करे। ऐसा करनेसे उस श्लोकबन्धद्वारा मुरज (ढोल)-को आकृति स्पष्ट हो जाती है। द्वितीय चक्र ' शार्दूलविक्रोडित' छन्दसे सम्पादित होता है। 'गोमूत्रिकाबन्ध' सभी छन्दोसे निर्मित हो सकता है। अन्य सब बन्ध अनुष्टुप् छन्दसे निर्मित होते",
+          "translation": "The object-determinant arises from the hero and the like: the steady-exalted, steady-arrogant, steady-playful,",
+          "translationSource": "ai"
         },
         {
           "number": 38,
           "sanskrit": "धीरप्रशान्त इत्य् एवं चतुर्धा नायकः स्मृतः । अनुकूलो दक्षिणश् च शठो धृष्टः प्रवर्तितः",
           "transliteration": "dhīrapraśānta ity evaṃ caturdhā nāyakaḥ smṛtaḥ / anukūlo dakṣiṇaś ca śaṭho dhṛṣṭaḥ pravartitaḥ",
-          "hindi": "हैं। यदि इन बन्धोंमें कवि और काव्यका नाम न हो तो मित्रभाव रखनेवाले लोग संतुष्ट होते हैं तथा शत्रु भी खिन्न नहीं होता। बाण,"
+          "hindi": "हैं। यदि इन बन्धोंमें कवि और काव्यका नाम न हो तो मित्रभाव रखनेवाले लोग संतुष्ट होते हैं तथा शत्रु भी खिन्न नहीं होता। बाण,",
+          "translation": "and steady-peaceful — thus the hero is remembered fourfold; favorable, courteous, deceitful, brazen are the classes;",
+          "translationSource": "ai"
         },
         {
           "number": 39,
           "sanskrit": "पीठमर्दो विटश् चैव विदूषक इति त्रयः । शृङ्गारे नर्मसचिवा नायकस्यानुनायकाः",
           "transliteration": "pīṭhamardo viṭaś caiva vidūṣaka iti trayaḥ / śṛṅgāre narmasacivā nāyakasyānunāyakāḥ",
-          "hindi": "रथपद, नागपद, पुष्करिणी, असिपुत्रिका (कटारी या छुरी)-इन सबको आकृतियोंमें चित्रबन्ध लिखे जाते हैं। ये तथा और भी बहुत-से 'चित्रबन्ध' हो सकते हैं, जिन्हें विद्वान् पुरुषोंको स्वयं जानना चाहिए॥ ५०--६५ ॥"
+          "hindi": "रथपद, नागपद, पुष्करिणी, असिपुत्रिका (कटारी या छुरी)-इन सबको आकृतियोंमें चित्रबन्ध लिखे जाते हैं। ये तथा और भी बहुत-से 'चित्रबन्ध' हो सकते हैं, जिन्हें विद्वान् पुरुषोंको स्वयं जानना चाहिए॥ ५०--६५ ॥",
+          "translation": "the pithamarda, vita and vidushaka — three; in the erotic, the hero's confidants are subsidiaries;",
+          "translationSource": "ai"
         },
         {
           "number": 40,
           "sanskrit": "पीठमर्दः सम्बलकः श्रीमांस्तद्वेशजो विटः । विदूषको वैहसिकस्त्वष्टनायकनायिकाः",
           "transliteration": "pīṭhamardaḥ sambalakaḥ śrīmāṃstadveśajo viṭaḥ / vidūṣako vaihasikastvaṣṭanāyakanāyikāḥ",
-          "hindi": "इस प्रकार आदि आग्नेय महापुराणे 'शब्दालंकारका कथन” नामक तीन सौ तैंतालीसवाँ अध्याय पूरा हुआ"
+          "hindi": "इस प्रकार आदि आग्नेय महापुराणे 'शब्दालंकारका कथन” नामक तीन सौ तैंतालीसवाँ अध्याय पूरा हुआ",
+          "translation": "pithamarda, sambalaka, the glorious vita of his kind, the jester, the humorist: eight heroes and heroines.",
+          "translationSource": "ai"
         },
         {
           "number": 41,
           "sanskrit": "स्वकीया परकीया च पुनर्भूरिति कौशिकाः । सामान्या न पुनर्भूरिरित्याद्या बहुभेदतः",
           "transliteration": "svakīyā parakīyā ca punarbhūriti kauśikāḥ / sāmānyā na punarbhūrirityādyā bahubhedataḥ",
-          "hindi": "इस अध्यायके अन्तिम बीस-पचीस श्लोकोंका मूल अधिक स्पष्ट नहीं है। इनका आधार अन्वेषणीय है। ७२०  अग्निपुराण"
+          "hindi": "इस अध्यायके अन्तिम बीस-पचीस श्लोकोंका मूल अधिक स्पष्ट नहीं है। इनका आधार अन्वेषणीय है। ७२०  अग्निपुराण",
+          "translation": "Own wife, another's wife, and remarried — say the Kaushikas; the common one, not the remarried, and so on, in many divisions.",
+          "translationSource": "ai"
         },
         {
           "number": 42,
           "sanskrit": "उद्दिपनविभावास्ते संस्कारैर् विविधैः स्थितैः । आलम्बनविभावेषु भावानुद्वीपयन्ति ये",
           "transliteration": "uddipanavibhāvāste saṃskārair vividhaiḥ sthitaiḥ / ālambanavibhāveṣu bhāvānudvīpayanti ye",
-          "hindi": "अर्थालंकारोंका निरूपण"
+          "hindi": "अर्थालंकारोंका निरूपण",
+          "translation": "The stimulus-determinants stand through various refinements; those which kindle the feelings in the object-determinants;",
+          "translationSource": "ai"
         },
         {
           "number": 43,
           "sanskrit": "चतुःषष्टिकला द्वेधा कर्माद्यैर् गीतिकादिभिः । कुहकं स्मृतिरप्येषां प्रायो हासोपहारकः",
           "transliteration": "catuḥṣaṣṭikalā dvedhā karmādyair gītikādibhiḥ / kuhakaṃ smṛtirapyeṣāṃ prāyo hāsopahārakaḥ",
-          "hindi": "अग्निदेव कहते हैं--वसिष्ठ! अर्थोंका  स्वभावको 'स्वरूप' कहते हैं। उसके दो भेद अलंकरण ' अर्थालंकार' कहा जाता है। उसके  बतलाये गये हैं-'निज' एवं ' आगन्तुक । बिना शब्द-सौन्दर्यं भी मनको आकर्षित नहीं  सांसिद्धिकको निज' तथा नैमित्तिकको ' आगन्तुक ' करता है । अर्थालंकारसे हीन सरस्वती विधवाके  कहा जाता है। धर्मको समानताको 'सादूश्य' समान शोभाहीन है। अर्थालंकारके आठ भेद  कहते हैं। वह भी उपमा, रूपक, सहोक्ति तथा माने गये हैं -स्वरूप, सादृश्य, उत्प्रेक्षा, अतिशय,  अर्थान्तरन्यासके भेदसे चार प्रकारका होता है। विभावना, विरोध, हेतु और सम। पदार्थोके  जिसमें भेद और सामान्यधर्मके साथ उपमान एन हेतु और सम। पदार्थोके  जिसमें भेद और सामान्यधर्मके साथ उपमान एवं"
+          "hindi": "अग्निदेव कहते हैं--वसिष्ठ! अर्थोंका  स्वभावको 'स्वरूप' कहते हैं। उसके दो भेद अलंकरण ' अर्थालंकार' कहा जाता है। उसके  बतलाये गये हैं-'निज' एवं ' आगन्तुक । बिना शब्द-सौन्दर्यं भी मनको आकर्षित नहीं  सांसिद्धिकको निज' तथा नैमित्तिकको ' आगन्तुक ' करता है । अर्थालंकारसे हीन सरस्वती विधवाके  कहा जाता है। धर्मको समानताको 'सादूश्य' समान शोभाहीन है। अर्थालंकारके आठ भेद  कहते हैं। वह भी उपमा, रूपक, सहोक्ति तथा माने गये हैं -स्वरूप, सादृश्य, उत्प्रेक्षा, अतिशय,  अर्थान्तरन्यासके भेदसे चार प्रकारका होता है। विभावना, विरोध, हेतु और सम। पदार्थोके  जिसमें भेद और सामान्यधर्मके साथ उपमान एन हेतु और सम। पदार्थोके  जिसमें भेद और सामान्यधर्मके साथ उपमान एवं",
+          "translation": "the sixty-four arts, twofold by action and the like, by songs and the like; jugglery and memory — mostly the offering of laughter;",
+          "translationSource": "ai"
         },
         {
           "number": 44,
           "sanskrit": "आलम्बनविभावस्य भावैर् उद्बुद्धसंस्कृतैः । मनोवाग्बुद्धिवपुषां स्मृतीछाद्वेषयत्नतः",
           "transliteration": "ālambanavibhāvasya bhāvair udbuddhasaṃskṛtaiḥ / manovāgbuddhivapuṣāṃ smṛtīchādveṣayatnataḥ",
-          "hindi": "' अलंकार' शब्दकी व्युत्पत्ति तीन प्रकारसे उपलब्ध होती है-(१) “अलंकरणमलंकारः।' (२) ' अलंक्रियते अनेन इति वा अलंकार: ।' (३) ' अलंकरोति इति अलंकारः ' । प्रथम व्युत्पत्तिके अनुसार ' अलंकार ' शब्द भावघञन्त है। दूसरीके अनुसार करणदजन्त तथा तीसरीके अनुसार कत्रर्थप्रधान ' अण्'-प्रत्ययान्त है। ' अलंकरणमर्थानामर्थालंकार इष्यते ।'—यों कहकर अग्निपुराणमें भावघजन्त ' अलंकार' शब्दकी ही व्युत्पत्ति प्रदर्शित की गयी है। दण्डीने काव्य-शोभाकारी धर्मोको “अलंकार” कहा है (काव्यादर्श २।१)।"
+          "hindi": "' अलंकार' शब्दकी व्युत्पत्ति तीन प्रकारसे उपलब्ध होती है-(१) “अलंकरणमलंकारः।' (२) ' अलंक्रियते अनेन इति वा अलंकार: ।' (३) ' अलंकरोति इति अलंकारः ' । प्रथम व्युत्पत्तिके अनुसार ' अलंकार ' शब्द भावघञन्त है। दूसरीके अनुसार करणदजन्त तथा तीसरीके अनुसार कत्रर्थप्रधान ' अण्'-प्रत्ययान्त है। ' अलंकरणमर्थानामर्थालंकार इष्यते ।'—यों कहकर अग्निपुराणमें भावघजन्त ' अलंकार' शब्दकी ही व्युत्पत्ति प्रदर्शित की गयी है। दण्डीने काव्य-शोभाकारी धर्मोको “अलंकार” कहा है (काव्यादर्श २।१)।",
+          "translation": "of the object-determinant by the awakened refined feelings; from memory, desire, aversion and effort of mind, speech, intellect and body,",
+          "translationSource": "ai"
         },
         {
           "number": 45,
           "sanskrit": "आरम्भ एव विदुषामनुभाव इति स्मृतः । स चानुभूयते चात्र भवत्युत निरुच्यते",
           "transliteration": "ārambha eva viduṣāmanubhāva iti smṛtaḥ / sa cānubhūyate cātra bhavatyuta nirucyate",
-          "hindi": "बामनके मतमें सौन्दर्य और अलंकार पर्यायवाची शब्द हैं  सौन्दर्यमलंकारः १। २। इन दोनोंने क्रमशः करणदअन्त और भावघजन्त व्युत्पत्ति स्वीकार की है। किसी भी व्युत्पत्तिके अनुसार अर्थोका अलंकरण ही ' अर्थालंकार' है, इस मान्यतामें कोई बाधा नहीं आती । अतः दण्डी और वामनपर भी अग्निपुराणका ही प्रभाव मानना चाहिए। भामहने ' अलंकार' शब्दकी कोई सुस्पष्ट व्युत्पत्ति नहीं दी है। अतः उपर्युक्त व्युत्पत्तियोंपर अग्निपुराणोक्त व्युत्पत्तिका ही प्रभाव परिलक्षित होता है। मम्मटने “उपकुर्वन्ति तं सन्तं येऽङ्गद्वारेण जातुचित्।'--ऐसा लिखकर ' अलंकार' शब्दकी तीसरी व्युत्पत्ति स्वीकार की है। जैसे हार आदि शरीरके अलंकरणद्वारा शरीरीको अलंकृत करते हैं, उसी प्रकार उपमा आदि अलंकार काव्यके अलंकरणद्वारा काव्यात्मा रसका अलंकरण बनते हैं। अतः वे रसके उपकारी हैं। विश्वनाथका भी ऐसा ही मत है। भोजराजने--' अलमर्थमलंकर्तु यद्व्युत्पत्त्यादिवर्त्मना' इत्यादि लिखकर अग्निपुराणोक्त मतका ही अनुकरण किया है।"
+          "hindi": "बामनके मतमें सौन्दर्य और अलंकार पर्यायवाची शब्द हैं  सौन्दर्यमलंकारः १। २। इन दोनोंने क्रमशः करणदअन्त और भावघजन्त व्युत्पत्ति स्वीकार की है। किसी भी व्युत्पत्तिके अनुसार अर्थोका अलंकरण ही ' अर्थालंकार' है, इस मान्यतामें कोई बाधा नहीं आती । अतः दण्डी और वामनपर भी अग्निपुराणका ही प्रभाव मानना चाहिए। भामहने ' अलंकार' शब्दकी कोई सुस्पष्ट व्युत्पत्ति नहीं दी है। अतः उपर्युक्त व्युत्पत्तियोंपर अग्निपुराणोक्त व्युत्पत्तिका ही प्रभाव परिलक्षित होता है। मम्मटने “उपकुर्वन्ति तं सन्तं येऽङ्गद्वारेण जातुचित्।'--ऐसा लिखकर ' अलंकार' शब्दकी तीसरी व्युत्पत्ति स्वीकार की है। जैसे हार आदि शरीरके अलंकरणद्वारा शरीरीको अलंकृत करते हैं, उसी प्रकार उपमा आदि अलंकार काव्यके अलंकरणद्वारा काव्यात्मा रसका अलंकरण बनते हैं। अतः वे रसके उपकारी हैं। विश्वनाथका भी ऐसा ही मत है। भोजराजने--' अलमर्थमलंकर्तु यद्व्युत्पत्त्यादिवर्त्मना' इत्यादि लिखकर अग्निपुराणोक्त मतका ही अनुकरण किया है।",
+          "translation": "the very beginning is remembered by the wise as the consequent (anubhava). It is experienced here and is stated.",
+          "translationSource": "ai"
         },
         {
           "number": 46,
           "sanskrit": "मनोव्यापारभूयिष्ठो मन आरम्भ उच्यते । द्विविधः पौरुषस्त्रैण ईदृशो ऽपि प्रसिध्यति",
           "transliteration": "manovyāpārabhūyiṣṭho mana ārambha ucyate / dvividhaḥ pauruṣastraiṇa īdṛśo 'pi prasidhyati",
-          "hindi": "अलंकारोंकी संख्याके विषयमें अनेक मत उपलब्ध होते हैं। भरतमुनिके ' नाट्यशास्त्र'में उपमा, दीपक, रूपक तथा यमक--केवल इन चार अलंकारोंका ही उल्लेख है-- उपमा दीपकं चैव रूपकं यमकं तथा। काव्यस्यैते ह्यलंकाराश्चत्वारः परिकीर्तिताः ॥' (ना० शा० १६। ४३) यद्यपि भूषण, अक्षरसंघात, शोभा और उदाहरण आदि छत्तीस अलंकार ' नाट्यशास्त्र 'में लक्षणसहित लिखे गये हैं तथापि वे विशेषतः नाट्योपयोगी हैं। उनका काव्यबन्धोंमें भी यथासम्भव प्रयोग करनेकी प्रेरणा दी गयी है, तथापि काव्य-सम्बन्धी अलंकार चार ही"
+          "hindi": "अलंकारोंकी संख्याके विषयमें अनेक मत उपलब्ध होते हैं। भरतमुनिके ' नाट्यशास्त्र'में उपमा, दीपक, रूपक तथा यमक--केवल इन चार अलंकारोंका ही उल्लेख है-- उपमा दीपकं चैव रूपकं यमकं तथा। काव्यस्यैते ह्यलंकाराश्चत्वारः परिकीर्तिताः ॥' (ना० शा० १६। ४३) यद्यपि भूषण, अक्षरसंघात, शोभा और उदाहरण आदि छत्तीस अलंकार ' नाट्यशास्त्र 'में लक्षणसहित लिखे गये हैं तथापि वे विशेषतः नाट्योपयोगी हैं। उनका काव्यबन्धोंमें भी यथासम्भव प्रयोग करनेकी प्रेरणा दी गयी है, तथापि काव्य-सम्बन्धी अलंकार चार ही",
+          "translation": "What is mostly mental activity is called mental beginning; twofold, masculine and feminine, such is also famed.",
+          "translationSource": "ai"
         },
         {
           "number": 47,
           "sanskrit": "शोभा विलासो माधुर्यं स्थैर्यं गाम्भीर्यमेव च । ललितञ्च तथौदार्यन्तेजो ऽष्टाविति पौरुषाः",
           "transliteration": "śobhā vilāso mādhuryaṃ sthairyaṃ gāmbhīryameva ca / lalitañca tathaudāryantejo 'ṣṭāviti pauruṣāḥ",
-          "hindi": "भरतमुनिको पूर्वपरम्परासे प्राप्त रहे हैं, जिनका उन्होंने ' परिकीर्तिता: कहकर स्पष्टीकरण किया है। वामनने अलंकारोंके तैंतीस भेद दिखलाये हैं । दण्डीने पैंतीस, भामहने उनतालीस और उद्धटने चालीस प्रकारके अलंकारोंका वर्णन किया है । रुद्रटने अपने ' काव्यालंकार में बावन तथा मम्मटने सडसठ अलंकारभेद दिखलाये हैं। जयदेवके “चन्द्रालोक'में अलंकारोंकी संख्या सौ हो गयी है और अप्पय्य दीक्षितके 'कुवलयानन्द'में वह संख्या बढ़कर एक सौ चौबीसतक पहुँच गयी है। सरस्वतीकण्ठाभरणकारने शब्दालंकार, अर्थालंकार और शब्दार्थोभयालंकार --इन तीन भेदोंमें अलंकारोंका विभाजन करके तीनोंकी ही पृथक्-पृथक् चौबीस-चौबीस संख्याएँ स्वीकार की हैं। इस प्रकार उन्होंने बहत्तर अलंकारोंके लक्षण और उदाहरण प्रस्तुत किये हैं। साहित्यदर्पणकारने सतहत्तर अर्थालंकारोंका उल्लेख करके उन सबके सोदाहरण लक्षण दिये हैं। इन सभी अलंकारोंके अवान्तरभेद और सांकर्यभेदसे इन सबकी संख्या बहुत अधिक हो जाती है । अग्निपुराणमें अर्थालंकारके मूलतः आठ भेद माने हैं -स्वरूप, सादृश्य, उत्प्रेक्षा, अतिशय, विभावना, विरोध, हेतु और सम।"
+          "hindi": "भरतमुनिको पूर्वपरम्परासे प्राप्त रहे हैं, जिनका उन्होंने ' परिकीर्तिता: कहकर स्पष्टीकरण किया है। वामनने अलंकारोंके तैंतीस भेद दिखलाये हैं । दण्डीने पैंतीस, भामहने उनतालीस और उद्धटने चालीस प्रकारके अलंकारोंका वर्णन किया है । रुद्रटने अपने ' काव्यालंकार में बावन तथा मम्मटने सडसठ अलंकारभेद दिखलाये हैं। जयदेवके “चन्द्रालोक'में अलंकारोंकी संख्या सौ हो गयी है और अप्पय्य दीक्षितके 'कुवलयानन्द'में वह संख्या बढ़कर एक सौ चौबीसतक पहुँच गयी है। सरस्वतीकण्ठाभरणकारने शब्दालंकार, अर्थालंकार और शब्दार्थोभयालंकार --इन तीन भेदोंमें अलंकारोंका विभाजन करके तीनोंकी ही पृथक्-पृथक् चौबीस-चौबीस संख्याएँ स्वीकार की हैं। इस प्रकार उन्होंने बहत्तर अलंकारोंके लक्षण और उदाहरण प्रस्तुत किये हैं। साहित्यदर्पणकारने सतहत्तर अर्थालंकारोंका उल्लेख करके उन सबके सोदाहरण लक्षण दिये हैं। इन सभी अलंकारोंके अवान्तरभेद और सांकर्यभेदसे इन सबकी संख्या बहुत अधिक हो जाती है । अग्निपुराणमें अर्थालंकारके मूलतः आठ भेद माने हैं -स्वरूप, सादृश्य, उत्प्रेक्षा, अतिशय, विभावना, विरोध, हेतु और सम।",
+          "translation": "Beauty, play, sweetness, steadiness, depth, gracefulness, generosity, splendor — eight are the masculine ones;",
+          "translationSource": "ai"
         },
         {
           "number": 48,
           "sanskrit": "नीचनिन्दोत्तमस्पर्धा शौर्यं दाक्षादिकारणं । मनोधर्मे भवेच्छोभा शोभते भवनं यथा",
           "transliteration": "nīcanindottamaspardhā śauryaṃ dākṣādikāraṇaṃ / manodharme bhavecchobhā śobhate bhavanaṃ yathā",
-          "hindi": "फिर स्वरूपके दो भेद, सादूश्यके चार भेद, अतिशयके दो भेद और विभावनाके साथ विशेषोक्तिको जोड़कर दो भेद किये हैं । सादूश्यके चार भेद--उपमा, रूपक, सहोक्ति और अर्थान्तरन्यास बताकर उपमाके लगभग उनतीस भेदोंका उल्लेख किया है। इन भेदोंमें ही अन्य बहुत-से अलंकार समाविष्ट हो गये हैं, जो दूसरे-दूसरे नामोंसे व्यवहत होते हैं। उन्होंने उपमाके जो अन्तिम पाँच भेद लिखे हैं, उनके नाम हैं--प्रशंसा, निन्दा, कल्पिता, सदूशी और किंचित्सदूशी। ये भेद भरतमुनिके ' नाट्यशास्त्र 'में भी वर्णित हैं और वहाँ उनके लक्षण"
+          "hindi": "फिर स्वरूपके दो भेद, सादूश्यके चार भेद, अतिशयके दो भेद और विभावनाके साथ विशेषोक्तिको जोड़कर दो भेद किये हैं । सादूश्यके चार भेद--उपमा, रूपक, सहोक्ति और अर्थान्तरन्यास बताकर उपमाके लगभग उनतीस भेदोंका उल्लेख किया है। इन भेदोंमें ही अन्य बहुत-से अलंकार समाविष्ट हो गये हैं, जो दूसरे-दूसरे नामोंसे व्यवहत होते हैं। उन्होंने उपमाके जो अन्तिम पाँच भेद लिखे हैं, उनके नाम हैं--प्रशंसा, निन्दा, कल्पिता, सदूशी और किंचित्सदूशी। ये भेद भरतमुनिके ' नाट्यशास्त्र 'में भी वर्णित हैं और वहाँ उनके लक्षण",
+          "translation": "censure of the low, rivalry with the high, valor, skill and the like as causes; in the mind's nature there is beauty, as a house is adorned.",
+          "translationSource": "ai"
         },
         {
           "number": 49,
           "sanskrit": "भावो हावश् च हेला च शोभा कान्तिस्तथैव च । दीप्तिर्माधुर्यशौर्ये च प्रागल्भ्यं स्यादुदारता",
           "transliteration": "bhāvo hāvaś ca helā ca śobhā kāntistathaiva ca / dīptirmādhuryaśaurye ca prāgalbhyaṃ syādudāratā",
-          "hindi": "तथा उदाहरण भी दिये गये हैं। अग्निपुराणमें उनके नाममात्रका संकलन वहींसे किया गया है, ऐसा जान पड़ता है। उपमेयकी सत्ता हो, उसको 'उपमा\" कहते हैं; क्योंकि यत्किचिद्विवक्षित सारूप्यका आश्रय लेकर ही लोकयात्रा प्रवर्तित होती है। प्रतियोगी (उपमान) -के समस्त और असमस्त होनेसे उपमा"
+          "hindi": "तथा उदाहरण भी दिये गये हैं। अग्निपुराणमें उनके नाममात्रका संकलन वहींसे किया गया है, ऐसा जान पड़ता है। उपमेयकी सत्ता हो, उसको 'उपमा\" कहते हैं; क्योंकि यत्किचिद्विवक्षित सारूप्यका आश्रय लेकर ही लोकयात्रा प्रवर्तित होती है। प्रतियोगी (उपमान) -के समस्त और असमस्त होनेसे उपमा",
+          "translation": "Bhava, hava, hela, shobha, kanti, dipti, madhurya, shaurya, pragalbhya, udarata,",
+          "translationSource": "ai"
         },
         {
           "number": 50,
           "sanskrit": "स्थैर्यं गम्भीरता स्त्रीणां विभावा द्वादशेरिताः । भावो विलासो हावःस्याद्भावः किञ्चिच्च हर्षजः",
           "transliteration": "sthairyaṃ gambhīratā strīṇāṃ vibhāvā dvādaśeritāḥ / bhāvo vilāso hāvaḥsyādbhāvaḥ kiñcicca harṣajaḥ",
-          "hindi": "दो प्रकारकी मानी गयी है-ससमासा' एवं ' असमासा'। “घन इव श्यामः ' इत्यादि पदोंमें समासके कारण वाचक शब्दके लुप्त होनेसे 'ससमासा उपमा' कही गयी है, इससे भिन्न"
+          "hindi": "दो प्रकारकी मानी गयी है-ससमासा' एवं ' असमासा'। “घन इव श्यामः ' इत्यादि पदोंमें समासके कारण वाचक शब्दके लुप्त होनेसे 'ससमासा उपमा' कही गयी है, इससे भिन्न",
+          "translation": "sthairya, gambhirata — for women twelve determinants are told. Bhava, vilasa, hava: bhava is something born of joy;",
+          "translationSource": "ai"
         },
         {
           "number": 51,
           "sanskrit": "वाचो युक्तिर्भवेद्वागारम्भो द्वादश एव सः । तत्राभाषणमालापः प्रलापो वचनं वहु(१)",
           "transliteration": "vāco yuktirbhavedvāgārambho dvādaśa eva saḥ / tatrābhāṣaṇamālāpaḥ pralāpo vacanaṃ vahu(1)",
-          "hindi": "प्रकारकी उपमा ' असमासा' है । कहीं उपमाद्योतक 'इवादि' पद, कहीं उपमेय और कहीं दोनोंके विरहसे 'ससमासा' उपमाके तीन भेद होते हैं। इसी प्रकार 'असमासा' उपमाके भी तीन भेद हैं। विशेषणसे युक्त होनेपर उपमाके अठारह भेद होते हैं। जिसमें साधारण धर्मका कथन या ज्ञान होता है-उपमाके उस भेदविशेषको धर्म या"
+          "hindi": "प्रकारकी उपमा ' असमासा' है । कहीं उपमाद्योतक 'इवादि' पद, कहीं उपमेय और कहीं दोनोंके विरहसे 'ससमासा' उपमाके तीन भेद होते हैं। इसी प्रकार 'असमासा' उपमाके भी तीन भेद हैं। विशेषणसे युक्त होनेपर उपमाके अठारह भेद होते हैं। जिसमें साधारण धर्मका कथन या ज्ञान होता है-उपमाके उस भेदविशेषको धर्म या",
+          "translation": "the logic of speech is the beginning of speech, twelvefold: address (abhashana), converse (alapa), prattle (pralapa), much speech;",
+          "translationSource": "ai"
         },
         {
           "number": 52,
           "sanskrit": "विलापो दुःखवचनमनुलापो ऽसकृद्वचः । संलाप उक्तप्रत्युक्तमपलापो ऽन्यथावचः",
           "transliteration": "vilāpo duḥkhavacanamanulāpo 'sakṛdvacaḥ / saṃlāpa uktapratyuktamapalāpo 'nyathāvacaḥ",
-          "hindi": "वस्तुको प्रधानताके कारण \"धर्मोपमा एवं “वस्तूपमा' कहा जाता है। जिसमें उपमान और उपमेयकी प्रसिद्धिके अनुसार परस्पर तुल्य उपमा दी जाती है, वह 'परस्परोपमा' होती है।"
+          "hindi": "वस्तुको प्रधानताके कारण \"धर्मोपमा एवं “वस्तूपमा' कहा जाता है। जिसमें उपमान और उपमेयकी प्रसिद्धिके अनुसार परस्पर तुल्य उपमा दी जाती है, वह 'परस्परोपमा' होती है।",
+          "translation": "lament is speech of grief; repeated speech is anulapa; dialogue is utterance and reply; apalapa is speech otherwise;",
+          "translationSource": "ai"
         },
         {
           "number": 53,
           "sanskrit": "वार्ताप्रयाणं सन्देशो निर्देशः प्रतिपादनम् । तत्त्वदेशो ऽतिदेशो ऽयमपदेशो ऽन्यवर्णनम्",
           "transliteration": "vārtāprayāṇaṃ sandeśo nirdeśaḥ pratipādanam / tattvadeśo 'tideśo 'yamapadeśo 'nyavarṇanam",
-          "hindi": "प्रसिद्धिके विपरीत उपमान और उपमेयकी विषमतामें जब उपमा दी जाती है, तब वह 'विपरीतोपमा \" कहलाती है। उपमा--जहाँ एक वस्तुसे ही उपमा देकर अन्य उपमानोंका व्यावर्तन-निराकरण किया जाता है, वहाँ \"नियमोपमा\" होती है। यदि उपमेयके गुणादि धर्मको अन्य उपमानोंमें भी अनुवृत्ति हो तो उसे ' अनियमोपमा कहते हैं"
+          "hindi": "प्रसिद्धिके विपरीत उपमान और उपमेयकी विषमतामें जब उपमा दी जाती है, तब वह 'विपरीतोपमा \" कहलाती है। उपमा--जहाँ एक वस्तुसे ही उपमा देकर अन्य उपमानोंका व्यावर्तन-निराकरण किया जाता है, वहाँ \"नियमोपमा\" होती है। यदि उपमेयके गुणादि धर्मको अन्य उपमानोंमें भी अनुवृत्ति हो तो उसे ' अनियमोपमा कहते हैं",
+          "translation": "news, departure, message, direction, exposition, essential instruction, application, pretext, description of another;",
+          "translationSource": "ai"
         },
         {
           "number": 54,
           "sanskrit": "उपदेशश् च शिक्षावाक् व्याजोक्तिर्व्यपदेशकः । बोधाय एष व्यापारःसुबुद्ध्यारम्भ इष्यते । तस्य भेदास्त्रयस्ते च रीतिवृत्तिप्रवृत्तयः",
           "transliteration": "upadeśaś ca śikṣāvāk vyājoktirvyapadeśakaḥ / bodhāya eṣa vyāpāraḥsubuddhyārambha iṣyate / tasya bhedāstrayaste ca rītivṛttipravṛttayaḥ",
-          "hindi": "एकसे भिन्न धर्मोके बाहुल्यका कीर्तन होनेसे “समुच्चयोपमा“ होती है। जहाँ अनेक धर्मोंकी समानता होनेपर भी उपमानसे उपमेयकी विलक्षणता"
+          "hindi": "एकसे भिन्न धर्मोके बाहुल्यका कीर्तन होनेसे “समुच्चयोपमा“ होती है। जहाँ अनेक धर्मोंकी समानता होनेपर भी उपमानसे उपमेयकी विलक्षणता",
+          "translation": "instruction, teaching words, pretended speech, naming — this activity is for awakening, the beginning of right understanding; its three kinds are style, mode and function.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -78393,43 +78503,57 @@
           "number": 4,
           "sanskrit": "लाटीया स्फुटसन्धर्भा नातिविस्फुरविग्रहा । परित्यक्तापि भूयोभिरुपचारैर् उदाहृता",
           "transliteration": "lāṭīyā sphuṭasandharbhā nātivisphuravigrahā / parityaktāpi bhūyobhirupacārair udāhṛtā",
-          "hindi": "४. 'परस्परोपमा 'का दूसरा नाम “ अन्योन्योपमा' है । दण्डीने इसी नामसे इसका उल्लेख किया है । जहाँ उपमान और उपमेय --दोनों एक-दूसरेके उपमेय तथा उपमान बनते है, वहाँ ' परस्परोपमा' होती है। जैसे --' तुम्हारे मुखके समान कमल है और कमलके समान तुम्हारा मुख है।'"
+          "hindi": "४. 'परस्परोपमा 'का दूसरा नाम “ अन्योन्योपमा' है । दण्डीने इसी नामसे इसका उल्लेख किया है । जहाँ उपमान और उपमेय --दोनों एक-दूसरेके उपमेय तथा उपमान बनते है, वहाँ ' परस्परोपमा' होती है। जैसे --' तुम्हारे मुखके समान कमल है और कमलके समान तुम्हारा मुख है।'",
+          "translation": "The Latiya style has clear arrangement and not too brilliant an embodiment; though abandoned, it is told with many ornaments;",
+          "translationSource": "ai"
         },
         {
           "number": 5,
           "sanskrit": "क्रियास्वविषमा वृत्तिर्भारत्यारभटी तथा । कौशिकी सात्वती चेति सा चतुर्धा प्रतिष्ठिता",
           "transliteration": "kriyāsvaviṣamā vṛttirbhāratyārabhaṭī tathā / kauśikī sātvatī ceti sā caturdhā pratiṣṭhitā",
-          "hindi": "५. दण्डीने अपने ' काव्यादर्श ' में विपरीतोपमाका ' विपर्यासोपमा 'के नामसे उल्लेख किया है । जहाँ प्रसिद्धिके विपरीत उपमानोपमेयभाव गृहीत होता है, वहाँ 'विपरीतोपमा' होती है। जैसे -'खिला हुआ कमल तुम्हारे मुखके समान प्रतीत होता था'-इत्यादि। ६. दण्डीने इसका उदाहरण इस प्रकार प्रस्तुत किया है --' तुम्हारा मुख कमलके ही समान है, दूसरी किसी वस्तुके समान नहीं ।'"
+          "hindi": "५. दण्डीने अपने ' काव्यादर्श ' में विपरीतोपमाका ' विपर्यासोपमा 'के नामसे उल्लेख किया है । जहाँ प्रसिद्धिके विपरीत उपमानोपमेयभाव गृहीत होता है, वहाँ 'विपरीतोपमा' होती है। जैसे -'खिला हुआ कमल तुम्हारे मुखके समान प्रतीत होता था'-इत्यादि। ६. दण्डीने इसका उदाहरण इस प्रकार प्रस्तुत किया है --' तुम्हारा मुख कमलके ही समान है, दूसरी किसी वस्तुके समान नहीं ।'",
+          "translation": "the mode that is even in actions: Bharati, Arabhati, Kaishiki and Sattvati — thus it is established fourfold.",
+          "translationSource": "ai"
         },
         {
           "number": 6,
           "sanskrit": "वाक्प्रधाना नरप्राया स्त्रीयुक्ता प्राकृतोक्तिता । भरतेन प्रणीतत्वाद् भारती रीतिरुच्यते",
           "transliteration": "vākpradhānā naraprāyā strīyuktā prākṛtoktitā / bharatena praṇītatvād bhāratī rītirucyate",
-          "hindi": "७. इसका उदाहरण दण्डीके ' काव्यादर्श ' में इस प्रकार दिया गया है -'कमल तो तुम्हारे मुखका अनुकरण करता ही है, यदि दूसरी वस्तुएँ (चन्द्र आदि) भी तुम्हारे मुखके समान हैं तो रहें।'"
+          "hindi": "७. इसका उदाहरण दण्डीके ' काव्यादर्श ' में इस प्रकार दिया गया है -'कमल तो तुम्हारे मुखका अनुकरण करता ही है, यदि दूसरी वस्तुएँ (चन्द्र आदि) भी तुम्हारे मुखके समान हैं तो रहें।'",
+          "translation": "Primarily speech, mostly men, with women, in Prakrit — because composed by Bharata it is called the Bharati style.",
+          "translationSource": "ai"
         },
         {
           "number": 7,
           "sanskrit": "चत्वार्यङ्गानि भारत्या वीथी प्रहसनन्तथा । प्रस्तावना नाटकादेर्वीथ्यङ्गाश् च त्रयोदश",
           "transliteration": "catvāryaṅgāni bhāratyā vīthī prahasanantathā / prastāvanā nāṭakādervīthyaṅgāś ca trayodaśa",
-          "hindi": "८. 'समुच्चयोपमा' का उदाहरण दण्डीने इस प्रकार किया है -' सुन्दरि! तुम्हारा मुख केवल कान्तिसे ही नहीं, आह्वादनकर्मसे भी इन्दुका अनुसरण करता है।' यहाँ कान्तिगुण और आह्लादनकर्म -दोनोंका समुच्चय होनेके कारण “समुच्चयोपमा' कही गयी है। विवक्षित हो और इसके कारण जो अतिरिक्तत्वका कथन होता है, उसे 'व्यतिरेकोपमा'' कहते हैं।"
+          "hindi": "८. 'समुच्चयोपमा' का उदाहरण दण्डीने इस प्रकार किया है -' सुन्दरि! तुम्हारा मुख केवल कान्तिसे ही नहीं, आह्वादनकर्मसे भी इन्दुका अनुसरण करता है।' यहाँ कान्तिगुण और आह्लादनकर्म -दोनोंका समुच्चय होनेके कारण “समुच्चयोपमा' कही गयी है। विवक्षित हो और इसके कारण जो अतिरिक्तत्वका कथन होता है, उसे 'व्यतिरेकोपमा'' कहते हैं।",
+          "translation": "Bharati has four limbs: Vithi, Prahasana, Prastavana of plays and the like; and the Vithi limbs are thirteen:",
+          "translationSource": "ai"
         },
         {
           "number": 8,
           "sanskrit": "उद्घातकं तथैव स्याल्लपितं स्याद्द्वितीयकम् । असत्प्रलापो वाक्श्रेणी(१) नालिका विपणन्तथा",
           "transliteration": "udghātakaṃ tathaiva syāllapitaṃ syāddvitīyakam / asatpralāpo vākśreṇī(1) nālikā vipaṇantathā",
-          "hindi": "जाय, उसे “बहूपमा? माना गया है। यदि उनमेंसे प्रत्येक उपमान भिन्न-भिन्न साधारण धर्मोसे युक्त हो तो उसे “मालोपमा २ कहा जाता है। उपमेयको उपमानका विकार बताकर तुलना की जाय तो"
+          "hindi": "जाय, उसे “बहूपमा? माना गया है। यदि उनमेंसे प्रत्येक उपमान भिन्न-भिन्न साधारण धर्मोसे युक्त हो तो उसे “मालोपमा २ कहा जाता है। उपमेयको उपमानका विकार बताकर तुलना की जाय तो",
+          "translation": "Udghataka, Lapita the second, Asatpralapa, Vakshreni, Nalika, Vipana,",
+          "translationSource": "ai"
         },
         {
           "number": 9,
           "sanskrit": "व्याहारस्तिमतञ्चैव(२) छलावस्कन्दिते तथा । १ वाग्वेणीति क॥ , ञ॥ , ट॥ च २ व्याहारस्त्रिगतञ्चैवेति ख॥ :प् २११ गण्डो ऽथ मृदवश् चैव त्रयोदशमथाचितम्",
           "transliteration": "vyāhārastimatañcaiva(2) chalāvaskandite tathā / 1 vāgveṇīti ka.. , ña.. , ṭa.. ca 2 vyāhārastrigatañcaiveti kha.. :p 211 gaṇḍo 'tha mṛdavaś caiva trayodaśamathācitam",
-          "hindi": "“विक्रियोपमा” होती है। यदि कवि उपमानमें किसी ऐसे वैशिष्ट्यका, जो तीनों लोकोंमें असम्भव हो, आरोप करके उसके द्वारा उपमा देता है, तो वह “अद्भुतोपमा कही जाती है। उपमानको आरोपित करके उससे अभिन्नरूपमें जो उपमेयका कीर्तन होता है और उससे जो भ्रम होनेका वर्णन किया जाता है, उसे “मोहोपमा कहा जाता है। दो धर्मियोंमेंसे किसी एकका यथार्थ निश्चय न"
+          "hindi": "“विक्रियोपमा” होती है। यदि कवि उपमानमें किसी ऐसे वैशिष्ट्यका, जो तीनों लोकोंमें असम्भव हो, आरोप करके उसके द्वारा उपमा देता है, तो वह “अद्भुतोपमा कही जाती है। उपमानको आरोपित करके उससे अभिन्नरूपमें जो उपमेयका कीर्तन होता है और उससे जो भ्रम होनेका वर्णन किया जाता है, उसे “मोहोपमा कहा जाता है। दो धर्मियोंमेंसे किसी एकका यथार्थ निश्चय न",
+          "translation": "Vyahara, Timata, Chhalavaskandita, Ganda, Mridava, and the thirteenth Achita.",
+          "translationSource": "ai"
         },
         {
           "number": 10,
           "sanskrit": "तापसादेः प्रहसनं परिहासपरं वचः । मायेन्द्रजालयुद्धादिबहुलारभटी स्मृता । मङ्क्षिप्तकारपातौ च(१) वस्तूत्थापनमेव च",
           "transliteration": "tāpasādeḥ prahasanaṃ parihāsaparaṃ vacaḥ / māyendrajālayuddhādibahulārabhaṭī smṛtā / maṅkṣiptakārapātau ca(1) vastūtthāpanameva ca",
-          "hindi": "होनेसे 'संशयोपमा\" तथा पहले संशय होकर फिर निश्चय होनेसे 'निश्चयोपमा “ होती है। जहाँ वाक्यार्थको उपमान बनाकर उससे ही वाक्यार्थकी उपमा दी जाय, उसको “ वाक्यार्थोपमा १ कहते"
+          "hindi": "होनेसे 'संशयोपमा\" तथा पहले संशय होकर फिर निश्चय होनेसे 'निश्चयोपमा “ होती है। जहाँ वाक्यार्थको उपमान बनाकर उससे ही वाक्यार्थकी उपमा दी जाय, उसको “ वाक्यार्थोपमा १ कहते",
+          "translation": "Prahasana is speech aimed at ridicule of ascetics and the like; Arabhati is remembered as full of magic, jugglery, battle and the like. Sankshiptaka, Pata and the raising of the matter...",
+          "translationSource": "ai"
         }
       ]
     },
@@ -78487,79 +78611,105 @@
           "number": 7,
           "sanskrit": "न प्रयोगः क्वचिन्मुख्यन्तिरश्चीनञ्च तत् क्वचित् । आकम्पितं कम्पितञ्च(१) धूतं विधूतमेव च",
           "transliteration": "na prayogaḥ kvacinmukhyantiraścīnañca tat kvacit / ākampitaṃ kampitañca(1) dhūtaṃ vidhūtameva ca",
-          "hindi": "८. दण्डीने इसे ' निर्णयोपमा' नाम दिया है। उनके द्वारा प्रस्तुत उदाहरण इस प्रकार है-'जिस कमलको चन्द्रमाने अभिभूत कर दिया था, उसकी कान्ति स्वयं चन्द्रमाको ही लज्जित कर दे, ऐसा नहीं हो सकता। अत: यह तुम्हारा मुख ही है (कमल नहीं है) ।' अर्वाचीन आचार्यगण इसे ' निश्चयान्त संदेहालंकार' ही मानते हैं। ९. दण्डीने भी 'वाक्यार्थोपमा'का ऐसा ही लक्षण किया है। वे भी इसके दो ही भेद मानते हैं। परंतु उनके दोनों भेदोंके नाम"
+          "hindi": "८. दण्डीने इसे ' निर्णयोपमा' नाम दिया है। उनके द्वारा प्रस्तुत उदाहरण इस प्रकार है-'जिस कमलको चन्द्रमाने अभिभूत कर दिया था, उसकी कान्ति स्वयं चन्द्रमाको ही लज्जित कर दे, ऐसा नहीं हो सकता। अत: यह तुम्हारा मुख ही है (कमल नहीं है) ।' अर्वाचीन आचार्यगण इसे ' निश्चयान्त संदेहालंकार' ही मानते हैं। ९. दण्डीने भी 'वाक्यार्थोपमा'का ऐसा ही लक्षण किया है। वे भी इसके दो ही भेद मानते हैं। परंतु उनके दोनों भेदोंके नाम",
+          "translation": "No chief application anywhere, and that sometimes oblique. Akampita and Kampita, Dhuta and Vidhuta,",
+          "translationSource": "ai"
         },
         {
           "number": 8,
           "sanskrit": "परिवाहितमाधूतमवधूतमथाचितं । निकुञ्चितं परावृत्तमुत्क्षिप्तञ्चाप्यधोगतम्",
           "transliteration": "parivāhitamādhūtamavadhūtamathācitaṃ / nikuñcitaṃ parāvṛttamutkṣiptañcāpyadhogatam",
-          "hindi": "और ' अनेकेवशब्दा'-इस प्रकार दो भेदोंका उल्लेख किया है। इनके उदाहरण 'काव्यादर्श' (२।४४-४५) में द्रष्टव्य हैं ।"
+          "hindi": "और ' अनेकेवशब्दा'-इस प्रकार दो भेदोंका उल्लेख किया है। इनके उदाहरण 'काव्यादर्श' (२।४४-४५) में द्रष्टव्य हैं ।",
+          "translation": "Parivahita, Adhuta, Avadhuta, Achita, Nikunchita, Paravritta, Utkshipta and Adhogata,",
+          "translationSource": "ai"
         },
         {
           "number": 9,
           "sanskrit": "ललितञ्चेति विज्ञेयं त्रयोदशविधं शिरः । भ्रूकर्म सप्तधा ज्ञेयं पातनं भ्रूकुटीमुखं",
           "transliteration": "lalitañceti vijñeyaṃ trayodaśavidhaṃ śiraḥ / bhrūkarma saptadhā jñeyaṃ pātanaṃ bhrūkuṭīmukhaṃ",
-          "hindi": "अर्थात् दोनों एक-दूसरेके उपमान-उपमेय कहे  होनेपर उपमा ही 'रूपक' हो जाती है। तुल्यधर्मसे गये हों तो उसे 'अन्योन्योपमा” कहते हैं। इस  युक्त दो पदार्थोका एक साथ रहनेका वर्णन प्रकार यदि उत्तरोत्तर क्रम चलता जाय तो'सहोक्ति कहा जाता है उसको 'गमनोपमा\" कहा जाता है। इसके सिवा  पूर्ववर्णित वस्तुके समर्थनके लिये साधर्म्य उपमाके और भी पाँच भेद होते हैं--' प्रशस्त”  अथवा वैधर्म्यसे जो अर्थान्तरका उपन्यास किया “निन्दा”  कल्पिता“ 'सदूशी '' एवं 'किंचितसटूशी' ।  जाता है, उसे ' अर्थान्तरन्यास” कहते हैं। गुणोंकी समानता देखकर उपमेयका जो तत्त्व  जिसमें चेतन या अचेतन पदार्थको अन्यथास्थित"
+          "hindi": "अर्थात् दोनों एक-दूसरेके उपमान-उपमेय कहे  होनेपर उपमा ही 'रूपक' हो जाती है। तुल्यधर्मसे गये हों तो उसे 'अन्योन्योपमा” कहते हैं। इस  युक्त दो पदार्थोका एक साथ रहनेका वर्णन प्रकार यदि उत्तरोत्तर क्रम चलता जाय तो'सहोक्ति कहा जाता है उसको 'गमनोपमा\" कहा जाता है। इसके सिवा  पूर्ववर्णित वस्तुके समर्थनके लिये साधर्म्य उपमाके और भी पाँच भेद होते हैं--' प्रशस्त”  अथवा वैधर्म्यसे जो अर्थान्तरका उपन्यास किया “निन्दा”  कल्पिता“ 'सदूशी '' एवं 'किंचितसटूशी' ।  जाता है, उसे ' अर्थान्तरन्यास” कहते हैं। गुणोंकी समानता देखकर उपमेयका जो तत्त्व  जिसमें चेतन या अचेतन पदार्थको अन्यथास्थित",
+          "translation": "and Lalita — thus the head is to be known as thirteenfold. The brow-work is sevenfold: Patana, Bhrukuti, Mukha;",
+          "translationSource": "ai"
         },
         {
           "number": 10,
           "sanskrit": "दृष्तिस्त्रिधा रमस्थायिसञ्चारिप्रतिबन्धना । षट्त्रिंशद्भेदविधुरा रसजा तत्र चाष्टधा",
           "transliteration": "dṛṣtistridhā ramasthāyisañcāripratibandhanā / ṣaṭtriṃśadbhedavidhurā rasajā tatra cāṣṭadhā",
-          "hindi": "उपमानसे रूपित अभेदेन प्रतिपादित होता है,  परिस्थितिको दूसरी तरहसे माना जाता है, उसे “रूपक” मानते हैं। अथवा भेदके तिरोहित  उसको “उत्प्रेक्षा कहते हैं। लोकसीमातीत"
+          "hindi": "उपमानसे रूपित अभेदेन प्रतिपादित होता है,  परिस्थितिको दूसरी तरहसे माना जाता है, उसे “रूपक” मानते हैं। अथवा भेदके तिरोहित  उसको “उत्प्रेक्षा कहते हैं। लोकसीमातीत",
+          "translation": "the glance is threefold: love, steady, transient, obstructive; with thirty-six divisions; the sentiment-born has eightfold there;",
+          "translationSource": "ai"
         },
         {
           "number": 11,
           "sanskrit": "नवधा तारकाकर्म भ्रमणञ्चलनादिकं । षोढा च नासिका ज्ञेया निश्वासो नवधा मतः",
           "transliteration": "navadhā tārakākarma bhramaṇañcalanādikaṃ / ṣoḍhā ca nāsikā jñeyā niśvāso navadhā mataḥ",
-          "hindi": "१. काव्यादर्शमें इसका उदाहरण इस प्रकार प्रस्तुत किया गया है--' तुम्हारे मुखके समान कमल है और कमलके समान तुम्हारा मुख है।' इसे ही 'उपमेयोपमा' भी कहते हैं। २. काव्यादर्शकारने 'गमनोपमा' का उल्लेख नहीं किया है। अग्निपुराणमें दिये गये लक्षणके अनुसार हम ' गमनोपमा' को ' अन्योन्योपमा'की माला कह सकते हैं। उदाहरणके लिये निम्नाङ्कित श्लोक द्रष्टव्य है --"
+          "hindi": "१. काव्यादर्शमें इसका उदाहरण इस प्रकार प्रस्तुत किया गया है--' तुम्हारे मुखके समान कमल है और कमलके समान तुम्हारा मुख है।' इसे ही 'उपमेयोपमा' भी कहते हैं। २. काव्यादर्शकारने 'गमनोपमा' का उल्लेख नहीं किया है। अग्निपुराणमें दिये गये लक्षणके अनुसार हम ' गमनोपमा' को ' अन्योन्योपमा'की माला कह सकते हैं। उदाहरणके लिये निम्नाङ्कित श्लोक द्रष्टव्य है --",
+          "translation": "the eyeball action ninefold: whirling, moving and the like; the nose sixfold; the breath ninefold is held;",
+          "translationSource": "ai"
         },
         {
           "number": 12,
           "sanskrit": "षोटौष्ठकर्मकं पापं सप्तधा चिवुकक्रिया । कलुषादिमुखं षोढा ग्रीवा नवविधा स्मृता",
           "transliteration": "ṣoṭauṣṭhakarmakaṃ pāpaṃ saptadhā civukakriyā / kaluṣādimukhaṃ ṣoḍhā grīvā navavidhā smṛtā",
-          "hindi": "कौमुदीव भवती विभाति मे कातराक्षि भवतीव कौमुदी। अम्बुजेन तुलितं विलोचनं लोचनेन च तवाम्बुजं समम्॥"
+          "hindi": "कौमुदीव भवती विभाति मे कातराक्षि भवतीव कौमुदी। अम्बुजेन तुलितं विलोचनं लोचनेन च तवाम्बुजं समम्॥",
+          "translation": "the lip work: sixfold; the chin action sevenfold; the face with turbidity and the like sixfold; the neck is remembered ninefold.",
+          "translationSource": "ai"
         },
         {
           "number": 13,
           "sanskrit": "असंयुतः संयुतश् च भूम्ना हस्तः प्रमुच्यते । पताकस्त्रिपाताकश् च तथा वै कर्तरीमुखः",
           "transliteration": "asaṃyutaḥ saṃyutaś ca bhūmnā hastaḥ pramucyate / patākastripātākaś ca tathā vai kartarīmukhaḥ",
-          "hindi": "३-७, इससे पहले उपमाके अठारह भेद कहे गये हैं। इन्हीं भेदोंका विस्तार करके दण्डीने बत्तीस प्रकारकी उपमाएँ प्रदर्शित की हैं। उक्त भेदोंके अतिरिक्त जो उपमाके ' प्रशंसा? आदि पाँच भेद और कहे गये हैं, उनका आधार है- भरतका 'नाट्यशास्त्र' (द्रष्टव्य १६। ४६) । भरतमुनिने प्रशंसा आदि पाँचों भेदोंके जो उदाहरण दिये हैं, वे भी सोलहवें अध्यायके श्लोक सैंतालीससे इक्यावनतक द्रष्टव्य हैं। ८. अग्निपुराणोक्त 'रूपक'का लक्षण नाट्यशास्त्रोक्त लक्षणका संक्षिप्त रूप है। अग्निपुराणके ही भावको लेकर दण्डीने “उपमैव तिरोभूतभेदा रूपकमुच्यते'-ऐसा लक्षण किया है। अर्वाचीन आलंकारिकोंने “रूपक 'के बहुत-से भेदों और उपभेदोंकी चर्चा की है। 'रूपक'का उदाहरण 'नाट्यशास्त्र' १६। ५८ में द्रष्टव्य है।"
+          "hindi": "३-७, इससे पहले उपमाके अठारह भेद कहे गये हैं। इन्हीं भेदोंका विस्तार करके दण्डीने बत्तीस प्रकारकी उपमाएँ प्रदर्शित की हैं। उक्त भेदोंके अतिरिक्त जो उपमाके ' प्रशंसा? आदि पाँच भेद और कहे गये हैं, उनका आधार है- भरतका 'नाट्यशास्त्र' (द्रष्टव्य १६। ४६) । भरतमुनिने प्रशंसा आदि पाँचों भेदोंके जो उदाहरण दिये हैं, वे भी सोलहवें अध्यायके श्लोक सैंतालीससे इक्यावनतक द्रष्टव्य हैं। ८. अग्निपुराणोक्त 'रूपक'का लक्षण नाट्यशास्त्रोक्त लक्षणका संक्षिप्त रूप है। अग्निपुराणके ही भावको लेकर दण्डीने “उपमैव तिरोभूतभेदा रूपकमुच्यते'-ऐसा लक्षण किया है। अर्वाचीन आलंकारिकोंने “रूपक 'के बहुत-से भेदों और उपभेदोंकी चर्चा की है। 'रूपक'का उदाहरण 'नाट्यशास्त्र' १६। ५८ में द्रष्टव्य है।",
+          "translation": "The hand is said to be mostly uncombined and combined: Pataka, Tripataka, and Kartarimukha,",
+          "translationSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "अर्धचन्द्रोत्करालश् च शुकतुण्डस्तथैव च । सुष्टिश् च शिखरश् चैव कपित्थः खेटकामुखः",
           "transliteration": "ardhacandrotkarālaś ca śukatuṇḍastathaiva ca / suṣṭiś ca śikharaś caiva kapitthaḥ kheṭakāmukhaḥ",
-          "hindi": "९. दण्डीने गुण और क्रियाका सहभावसे कथन 'सहोक्ति' माना है और “सह दीर्घा मम श्वासैरिमाः सम्प्रति रात्रयः।' (इस समय मेरी लम्बी साँसोंके साथ ये रातें भी बहुत बड़ी हो गयी हैं) ऐसा उदाहरण दिया है।"
+          "hindi": "९. दण्डीने गुण और क्रियाका सहभावसे कथन 'सहोक्ति' माना है और “सह दीर्घा मम श्वासैरिमाः सम्प्रति रात्रयः।' (इस समय मेरी लम्बी साँसोंके साथ ये रातें भी बहुत बड़ी हो गयी हैं) ऐसा उदाहरण दिया है।",
+          "translation": "Ardhachandra, Utkarala, Shukatunda, Mushti, Shikhara, Kapittha, Khetakamukha,",
+          "translationSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "सूच्यास्यः पद्मकोषो हि शिराः समृगशीर्षकाः । कांमूलकालपद्मौ(२)* च चतुरभ्रमरौ तथा",
           "transliteration": "sūcyāsyaḥ padmakoṣo hi śirāḥ samṛgaśīrṣakāḥ / kāṃmūlakālapadmau(2)* ca caturabhramarau tathā",
-          "hindi": "१०. अर्थान्तरन्यासका जो लक्षण अग्निपुराणमें दिया गया है, लगभग इसीकी छायाको लेकर भामहने इस प्रकार अपने ग्रन्थमें उक्त अलंकारका लक्षण लिखा है -- उपन्यसनमन्यस्य यदर्थस्योदितादृते। ज्ञेयः सोऽर्थान्तरन्यासः पूर्वार्थानुगतो यथा॥ (का०२। ७१)"
+          "hindi": "१०. अर्थान्तरन्यासका जो लक्षण अग्निपुराणमें दिया गया है, लगभग इसीकी छायाको लेकर भामहने इस प्रकार अपने ग्रन्थमें उक्त अलंकारका लक्षण लिखा है -- उपन्यसनमन्यस्य यदर्थस्योदितादृते। ज्ञेयः सोऽर्थान्तरन्यासः पूर्वार्थानुगतो यथा॥ (का०२। ७१)",
+          "translation": "Suchyasya, Padmakosha, Shiras, Mrigashirsha, Kamulakalapadma, and Chatura, Bhramara,",
+          "translationSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "हंसास्यहंसपक्षौ च सन्दंशमुकुलौ तथा । १ आकल्पितं कल्पितञ्चेति ख॥ २ काङ्गूलकालपद्माविति ञ॥ कांमूलकालपद्मौ काङ्गूलकालपद्मौ एतत्पाठद्वयं न समीचीनं :प् २१३ उर्णनाभस्ताम्रचूडश् चतुर्विंशतिरित्यमी",
           "transliteration": "haṃsāsyahaṃsapakṣau ca sandaṃśamukulau tathā / 1 ākalpitaṃ kalpitañceti kha.. 2 kāṅgūlakālapadmāviti ña.. kāṃmūlakālapadmau kāṅgūlakālapadmau etatpāṭhadvayaṃ na samīcīnaṃ :p 213 urṇanābhastāmracūḍaś caturviṃśatirityamī",
-          "hindi": "वामनने इसमें सादृश्य, असादृश्य (साधर्म्य, वैधर्म्य)-की चर्चा नहीं की है, परंतु 'पूर्वार्धानुगतः '-यह विशेषण देकर उसी अर्थको व्यक्त किया है। अर्थात् जिस अर्थान्तरका उपन्यास किया जाय, वह पूर्वोदित अर्थका अनुगामी होना चाहिए। यह अनुगमन सादृश्य अथवा वैसाटृश्यसे ही सम्भव है। वामने अग्निपुराण तथा भामहके भावोंको अपने सूत्रमें और भी अधिक स्पष्ट किया है।"
+          "hindi": "वामनने इसमें सादृश्य, असादृश्य (साधर्म्य, वैधर्म्य)-की चर्चा नहीं की है, परंतु 'पूर्वार्धानुगतः '-यह विशेषण देकर उसी अर्थको व्यक्त किया है। अर्थात् जिस अर्थान्तरका उपन्यास किया जाय, वह पूर्वोदित अर्थका अनुगामी होना चाहिए। यह अनुगमन सादृश्य अथवा वैसाटृश्यसे ही सम्भव है। वामने अग्निपुराण तथा भामहके भावोंको अपने सूत्रमें और भी अधिक स्पष्ट किया है।",
+          "translation": "Hamsasya, Hamsapaksha, Sandamsha, Mukula, Urnanabha, Tamrachuda — these twenty-four;",
+          "translationSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "असंयुतकराः प्रोक्ताः संयुतास्तु त्रयोदश । अञ्जलिश् च कपोतश् च कर्कटः स्वस्तिकस् तथा",
           "transliteration": "asaṃyutakarāḥ proktāḥ saṃyutāstu trayodaśa / añjaliś ca kapotaś ca karkaṭaḥ svastikas tathā",
-          "hindi": "उक्तसिद्ध्यै वस्तुनो ऽर्थान्तरस्यैव न्यसनमर्थान्तरन्यासः ॥ (का०सू० ४। ३। २१) काव्यादर्शकार दण्डीने इसके लक्षणको और भी स्वच्छरूपसे प्रस्तुत किया है। यथा -- आचार्य मम्मरतक पहुँचते-पहुँचते इसका लक्षण पूर्णतः निखर उठा है। वे लिखते हैं -- सामान्यं वा विशेषो वा तदन्येन समर्थ्यते । यत्तु सोऽर्थान्तरन्यासः साधर्म्येणेतरेण या॥ (का०प्र० १०। १०९) अर्थात् -सामान्य अथवा विशेषका उससे भिन्न विशेष और सामान्यसे जो समर्थन किया जाता है, वह ' अर्थान्तरन्यास' है। यह समर्थन साधर्म्य अथवा वैधर्म्यको लेकर किया जाता है। इस प्रकार अर्थान्तरन्यासके चार भेद होते हैं। इनके उदाहरण काव्यप्रकाशमें"
+          "hindi": "उक्तसिद्ध्यै वस्तुनो ऽर्थान्तरस्यैव न्यसनमर्थान्तरन्यासः ॥ (का०सू० ४। ३। २१) काव्यादर्शकार दण्डीने इसके लक्षणको और भी स्वच्छरूपसे प्रस्तुत किया है। यथा -- आचार्य मम्मरतक पहुँचते-पहुँचते इसका लक्षण पूर्णतः निखर उठा है। वे लिखते हैं -- सामान्यं वा विशेषो वा तदन्येन समर्थ्यते । यत्तु सोऽर्थान्तरन्यासः साधर्म्येणेतरेण या॥ (का०प्र० १०। १०९) अर्थात् -सामान्य अथवा विशेषका उससे भिन्न विशेष और सामान्यसे जो समर्थन किया जाता है, वह ' अर्थान्तरन्यास' है। यह समर्थन साधर्म्य अथवा वैधर्म्यको लेकर किया जाता है। इस प्रकार अर्थान्तरन्यासके चार भेद होते हैं। इनके उदाहरण काव्यप्रकाशमें",
+          "translation": "the uncombined hands are told; the combined are thirteen: Anjali, Kapota, Karkata, Svastika,",
+          "translationSource": "ai"
         },
         {
           "number": 18,
           "sanskrit": "कटको वर्धमानश्चाप्यसङ्गो निषधस् तथा । दोलः पुष्पपुटश् चैव तथा मकर एव च",
           "transliteration": "kaṭako vardhamānaścāpyasaṅgo niṣadhas tathā / dolaḥ puṣpapuṭaś caiva tathā makara eva ca",
-          "hindi": "द्रष्टव्य हैं। ११. इसी लक्षणको कुछ और विशद करते हुए भामहने इस प्रकार कहा है अविवक्षितसामान्या किंचिच्चोपमया सह । अतदूणक्रियायोगादुत्प्रेक्षातिशयान्विता॥ (का० २।९१) वामनने अग्निदेव तथा भामह-दोनोंके भावोंको अपने सूत्रमें इस प्रकार संकलित किया है--"
+          "hindi": "द्रष्टव्य हैं। ११. इसी लक्षणको कुछ और विशद करते हुए भामहने इस प्रकार कहा है अविवक्षितसामान्या किंचिच्चोपमया सह । अतदूणक्रियायोगादुत्प्रेक्षातिशयान्विता॥ (का० २।९१) वामनने अग्निदेव तथा भामह-दोनोंके भावोंको अपने सूत्रमें इस प्रकार संकलित किया है--",
+          "translation": "Katakavardhamana, Asanga, Nishadha, Dola, Pushpaputa, and Makara,",
+          "translationSource": "ai"
         },
         {
           "number": 19,
           "sanskrit": "गजदन्तो वहिस्तम्भो वर्धमानो ऽपरे कराः । उरः पञ्चविधं स्यात्तु आभुग्ननर्तनादिकम्",
           "transliteration": "gajadanto vahistambho vardhamāno 'pare karāḥ / uraḥ pañcavidhaṃ syāttu ābhugnanartanādikam",
-          "hindi": "७२४  अग्निपुराण + वस्तु-धर्मका कीर्तन ' अतिशयालंकार'' कहलाता  दिखाते हुए) अन्य किसी कारणको उद्भावना को है। यह 'सम्भव' और 'असम्भव'के भेदसे दो  जाय अथवा स्वाभाविकता स्वीकार की जाय प्रकारका माना जाता है। जिसमें विशेष्यदर्शनके  अर्थात् बिना किसी कारणके ही स्वाभाविक लिये गुण, जाति एवं क्रियादिकी विकलताका  रूपसे कार्यको उत्पत्ति मानी जाय, उसे विभावना?"
+          "hindi": "७२४  अग्निपुराण + वस्तु-धर्मका कीर्तन ' अतिशयालंकार'' कहलाता  दिखाते हुए) अन्य किसी कारणको उद्भावना को है। यह 'सम्भव' और 'असम्भव'के भेदसे दो  जाय अथवा स्वाभाविकता स्वीकार की जाय प्रकारका माना जाता है। जिसमें विशेष्यदर्शनके  अर्थात् बिना किसी कारणके ही स्वाभाविक लिये गुण, जाति एवं क्रियादिकी विकलताका  रूपसे कार्यको उत्पत्ति मानी जाय, उसे विभावना?",
+          "translation": "Gajadanta, Bahistambha, Vardhamana — other hands. The chest is fivefold: Abhugna, dancing and the like.",
+          "translationSource": "ai"
         },
         {
           "number": 20,
