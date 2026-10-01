@@ -51941,43 +51941,57 @@
           "number": 20,
           "sanskrit": "१ मण्डलेषु च सर्वेषु सुरेश्वरसमा हि ते इत्य् अर्धश्लोक आसारस्त्वित्यस्य पूर्वं ट॥ पुस्तके वर्तते, परन्त्वसंलग्नः :प् ३४४ न कस्यचिद्रिपुर्मित्रङ्कारणाच्छत्रुमित्रके । मण्डलं तव सम्प्रोक्तमेतद् द्वादशराजकं",
           "transliteration": "1 maṇḍaleṣu ca sarveṣu sureśvarasamā hi te ity ardhaśloka āsārastvityasya pūrvaṃ ṭa.. pustake vartate, parantvasaṃlagnaḥ :p 344 na kasyacidripurmitraṅkāraṇācchatrumitrake / maṇḍalaṃ tava samproktametad dvādaśarājakaṃ",
-          "hindi": "नायक (गाँवोंके मुखिया) मूर्ख और व्यसनग्रस्त हों, ऐसा जनपद राजाके लिये प्रशस्त कहा गया है। (मुखिया मूर्ख और व्यसनी हो तो वह राजाके विरुद्ध आन्दोलन नहीं कर सकता)"
+          "hindi": "नायक (गाँवोंके मुखिया) मूर्ख और व्यसनग्रस्त हों, ऐसा जनपद राजाके लिये प्रशस्त कहा गया है। (मुखिया मूर्ख और व्यसनी हो तो वह राजाके विरुद्ध आन्दोलन नहीं कर सकता)",
+          "translation": "No one is an enemy or friend of anyone by nature; by cause enemy and friend. This twelve-king circle has been told to you.",
+          "translationSource": "ai"
         },
         {
           "number": 21,
           "sanskrit": "त्रिविधा रिपवो ज्ञेयाः कुल्यानन्तरकृत्रिमाः । पूर्वपूर्वो गुरुस्तेषां दुश्चिकित्स्यतमो मतः",
           "transliteration": "trividhā ripavo jñeyāḥ kulyānantarakṛtrimāḥ / pūrvapūrvo gurusteṣāṃ duścikitsyatamo mataḥ",
-          "hindi": "जिसकी सीमा बहुत बड़ी एवं विस्तृत हो, जिसके चारों ओर विशाल खाइयाँ बनी हों, जिसके प्राकार (परकोटे) और गोपुर (फाटक) जंगलका आश्रय लेकर बना हो, ऐसे पुर (दुर्ग) - में राजाको निवास करना चाहिए। जहाँ जल, धान्य और धन प्रचुरमात्रामें विद्यमान हों, वह दुर्ग दीर्घकालतक शत्रुके आक्रमणका सामना करनेमें"
+          "hindi": "जिसकी सीमा बहुत बड़ी एवं विस्तृत हो, जिसके चारों ओर विशाल खाइयाँ बनी हों, जिसके प्राकार (परकोटे) और गोपुर (फाटक) जंगलका आश्रय लेकर बना हो, ऐसे पुर (दुर्ग) - में राजाको निवास करना चाहिए। जहाँ जल, धान्य और धन प्रचुरमात्रामें विद्यमान हों, वह दुर्ग दीर्घकालतक शत्रुके आक्रमणका सामना करनेमें",
+          "translation": "Enemies are to be known as of three kinds: kinsman, next-neighbor and artificial; the earlier one is the heavier, held hardest to cure.",
+          "translationSource": "ai"
         },
         {
           "number": 22,
           "sanskrit": "अनन्तरो ऽपि यः शत्रुः सो ऽपि मे कृत्रिमो मतः । पार्ष्णिग्राहो भवेच्छत्रोर्मित्राणि रिपवस् तथा",
           "transliteration": "anantaro 'pi yaḥ śatruḥ so 'pi me kṛtrimo mataḥ / pārṣṇigrāho bhavecchatrormitrāṇi ripavas tathā",
-          "hindi": "समर्थ होता है। जलमय, पर्वतमय, वृक्षमय, ऐरिण (उजाड या वीरान स्थानपर बना हुआ) तथा धान्वन (मरुभूमि या बालुकामय प्रदेशमें स्थित) ये पाँच प्रकारके दुर्ग हँ । (दुर्गका विचार करनेवाले"
+          "hindi": "समर्थ होता है। जलमय, पर्वतमय, वृक्षमय, ऐरिण (उजाड या वीरान स्थानपर बना हुआ) तथा धान्वन (मरुभूमि या बालुकामय प्रदेशमें स्थित) ये पाँच प्रकारके दुर्ग हँ । (दुर्गका विचार करनेवाले",
+          "translation": "Even the next-door enemy is considered artificial by me. The Parshnigraha would be the enemy's friends and enemies likewise;",
+          "translationSource": "ai"
         },
         {
           "number": 23,
           "sanskrit": "पार्ष्णिग्राहमुपायैश् च शमयेच्च तथा स्वकं । मित्रेण शत्रोरुच्छेदं प्रशंसन्ति पुरातनाः",
           "transliteration": "pārṣṇigrāhamupāyaiś ca śamayecca tathā svakaṃ / mitreṇa śatrorucchedaṃ praśaṃsanti purātanāḥ",
-          "hindi": "उत्तम बुद्धिमान् पुरुषोंने इन सभी दुगाँको प्रशस्त बतलाया है) जिसमें आय अधिक हो और खर्च कम, अर्थात् जिसमें जमा अधिक होता हो और जिसमेंसे धनको कम निकाला जाता हो, जिसकी ख्याति खूब हो तथा जिसमें धनसम्बन्धी देवता (लक्ष्मी,"
+          "hindi": "उत्तम बुद्धिमान् पुरुषोंने इन सभी दुगाँको प्रशस्त बतलाया है) जिसमें आय अधिक हो और खर्च कम, अर्थात् जिसमें जमा अधिक होता हो और जिसमेंसे धनको कम निकाला जाता हो, जिसकी ख्याति खूब हो तथा जिसमें धनसम्बन्धी देवता (लक्ष्मी,",
+          "translation": "one should pacify the Parshnigraha by means, and likewise one's own. The ancients praise the uprooting of the enemy through a friend;",
+          "translationSource": "ai"
         },
         {
           "number": 24,
           "sanskrit": "मित्रञ्च शत्रुतामेति सामन्तत्वादनन्तरं । शत्रुं जिगोषुरुच्छिन्द्यात्(१) स्वयं शक्नोति चेद्यदि",
           "transliteration": "mitrañca śatrutāmeti sāmantatvādanantaraṃ / śatruṃ jigoṣurucchindyāt(1) svayaṃ śaknoti cedyadi",
-          "hindi": "कुबेर आदि)-का सदा पूजन किया जाता हो, जो मनोवाञ्छित द्रव्यासे भरा-पूरा हो, मनोरम हो और विश्वस्त जनोंकी देख-रेखमें हो, जिसका अर्जन धर्म एवं न्यायपूर्वक किया गया हो तथा"
+          "hindi": "कुबेर आदि)-का सदा पूजन किया जाता हो, जो मनोवाञ्छित द्रव्यासे भरा-पूरा हो, मनोरम हो और विश्वस्त जनोंकी देख-रेखमें हो, जिसका अर्जन धर्म एवं न्यायपूर्वक किया गया हो तथा",
+          "translation": "and a friend becomes an enemy by being next-neighbor. The conqueror should uproot the enemy himself, if he is able;",
+          "translationSource": "ai"
         },
         {
           "number": 25,
           "sanskrit": "प्रतापवृद्धौ तेनापि नामित्राज्जायते भयं । यथास्य नोद्विजेल्लोको विश्वासश् च यथा भवेत्",
           "transliteration": "pratāpavṛddhau tenāpi nāmitrājjāyate bhayaṃ / yathāsya nodvijelloko viśvāsaś ca yathā bhavet",
-          "hindi": "जो महान् व्ययको भी सह लेनेमें समर्थ हो -- ऐसा कोष श्रेष्ठ माना गया है। कोषका उपयोग धर्मादिकी वृद्धि तथा मूल्योंके भरण-पोषण आदिके लिये होना चाहिए"
+          "hindi": "जो महान् व्ययको भी सह लेनेमें समर्थ हो -- ऐसा कोष श्रेष्ठ माना गया है। कोषका उपयोग धर्मादिकी वृद्धि तथा मूल्योंके भरण-पोषण आदिके लिये होना चाहिए",
+          "translation": "when his might has grown, fear does not come from a non-friend either. So that the people are not distressed and trust arises,",
+          "translationSource": "ai"
         },
         {
           "number": 26,
           "sanskrit": "जिगीषुर्धर्मविजयी तथा लोकं वशन्नयेत् ।",
           "transliteration": "jigīṣurdharmavijayī tathā lokaṃ vaśannayet /",
-          "hindi": "जो बाप-दादोंके समयसे ही सैनिक सेवा करते आ रहे हों, बशमें रहते (अनुशासन मानते) हों, संगठित हों, जिनका वेतन चुका दिया जाता हो --बाकी न रहता हो, जिनके पुरुषार्थकी प्रसिद्धि"
+          "hindi": "जो बाप-दादोंके समयसे ही सैनिक सेवा करते आ रहे हों, बशमें रहते (अनुशासन मानते) हों, संगठित हों, जिनका वेतन चुका दिया जाता हो --बाकी न रहता हो, जिनके पुरुषार्थकी प्रसिद्धि",
+          "translation": "the conqueror, victorious by dharma, should bring the people under control.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -52115,55 +52129,73 @@
           "number": 17,
           "sanskrit": "सन्धिश् च विग्रहश् चैव यानमासनमेव च । द्वैधीभावः संशयश् च षड्गुणाः परिकीर्तिताः",
           "transliteration": "sandhiś ca vigrahaś caiva yānamāsanameva ca / dvaidhībhāvaḥ saṃśayaś ca ṣaḍguṇāḥ parikīrtitāḥ",
-          "hindi": "जो पापी राजाके प्रिय होनेपर भी राज्यको हानि पहुँचा रहे हों, वे दण्डनीय हैं। राजा उन सबको दण्ड दे तथा विष आदिसे अपनी रक्षा करे। स्त्रियोंपर, पुत्रोंपर तथा शत्रुओंपर कभी इस प्रकार आदि आग्रेय महापुराणे 'राजधर्मकथन ' नामक दो सौ उनतालीसवाँ अध्याय पूरा हुआ"
+          "hindi": "जो पापी राजाके प्रिय होनेपर भी राज्यको हानि पहुँचा रहे हों, वे दण्डनीय हैं। राजा उन सबको दण्ड दे तथा विष आदिसे अपनी रक्षा करे। स्त्रियोंपर, पुत्रोंपर तथा शत्रुओंपर कभी इस प्रकार आदि आग्रेय महापुराणे 'राजधर्मकथन ' नामक दो सौ उनतालीसवाँ अध्याय पूरा हुआ",
+          "translation": "Peace, war, march, halt, dual policy and seeking refuge — the six measures are declared.",
+          "translationSource": "ai"
         },
         {
           "number": 18,
           "sanskrit": "पणबन्धः स्मृतः सन्धिरपकारस्तु विग्रहः । जिगीषोः शत्रुविषये यानं यात्राभिधीयते",
           "transliteration": "paṇabandhaḥ smṛtaḥ sandhirapakārastu vigrahaḥ / jigīṣoḥ śatruviṣaye yānaṃ yātrābhidhīyate",
-          "hindi": "श्रीराम कहते हैं- राजाको चाहिए कि वह मुख्य द्वादश राजमण्डलका चिन्तन करे। १. अरि,"
+          "hindi": "श्रीराम कहते हैं- राजाको चाहिए कि वह मुख्य द्वादश राजमण्डलका चिन्तन करे। १. अरि,",
+          "translation": "Peace is remembered as a bond by stake; war is injury; the conqueror's march into the enemy's region is called yana;",
+          "translationSource": "ai"
         },
         {
           "number": 19,
           "sanskrit": "विग्रहेण स्वके देशे स्थितिरासनमुच्यते । बलार्धेन प्रयाणन्तु द्वैधीभावः स उच्यते",
           "transliteration": "vigraheṇa svake deśe sthitirāsanamucyate / balārdhena prayāṇantu dvaidhībhāvaḥ sa ucyate",
-          "hindi": "तथा ५. अरिमित्रमित्र-ये क्रमशः विजिगीषुके सामनेवाले राजा कहे गये हैं। विजिगीषुके पीछे क्रमशः चार राजा होते हैं, जिनके नाम इस प्रकार हैं-१. पाष्णिग्राह, उसके बाद २. आक्रन्द, तदनन्तर इन दोनोंके आसार अर्थात् ३."
+          "hindi": "तथा ५. अरिमित्रमित्र-ये क्रमशः विजिगीषुके सामनेवाले राजा कहे गये हैं। विजिगीषुके पीछे क्रमशः चार राजा होते हैं, जिनके नाम इस प्रकार हैं-१. पाष्णिग्राह, उसके बाद २. आक्रन्द, तदनन्तर इन दोनोंके आसार अर्थात् ३.",
+          "translation": "staying in one's own country while at war is called asana; marching with half the force is called dvaidhibhava;",
+          "translationSource": "ai"
         },
         {
           "number": 20,
           "sanskrit": "उदासीनो मध्यगो वा संश्रयात्संशयः स्मृतः । समेन सन्धिरन्वेष्यो ऽहीनेन च बलीयसा",
           "transliteration": "udāsīno madhyago vā saṃśrayātsaṃśayaḥ smṛtaḥ / samena sandhiranveṣyo 'hīnena ca balīyasā",
-          "hindi": "विजिगीषु-दोनोंके राज्यसे जिसकी सीमा मिलती है, वह राजा “मध्यम' कहा गया है। अरि और"
+          "hindi": "विजिगीषु-दोनोंके राज्यसे जिसकी सीमा मिलती है, वह राजा “मध्यम' कहा गया है। अरि और",
+          "translation": "taking refuge with a neutral or middle king is called samshraya. Peace should be sought with an equal, and with a stronger one not inferior;",
+          "translationSource": "ai"
         },
         {
           "number": 21,
           "sanskrit": "हीनेन विग्रहः कार्यः स्वयं राज्ञा बलीयसा । तत्रापि शुद्धपार्ष्णिस्तु बलीयांसं समाश्रयेत्",
           "transliteration": "hīnena vigrahaḥ kāryaḥ svayaṃ rājñā balīyasā / tatrāpi śuddhapārṣṇistu balīyāṃsaṃ samāśrayet",
-          "hindi": "संगठित हो गये हों तो मध्यम राजा कोष और सेना आदिकी सहायता देकर इन दोनोंपर अनुग्रह करनेमें समर्थ होता है और यदि ये परस्पर संगठित न हों तो वह मध्यम राजा पृथक्-पृथक् या बारी-बारीसे इन दोनोंका वध करनेमें समर्थ होता है। इन सबके मण्डलसे बाहर जो अधिक"
+          "hindi": "संगठित हो गये हों तो मध्यम राजा कोष और सेना आदिकी सहायता देकर इन दोनोंपर अनुग्रह करनेमें समर्थ होता है और यदि ये परस्पर संगठित न हों तो वह मध्यम राजा पृथक्-पृथक् या बारी-बारीसे इन दोनोंका वध करनेमें समर्थ होता है। इन सबके मण्डलसे बाहर जो अधिक",
+          "translation": "war should be made by the king himself with an inferior; and with a stronger one, one whose rear is clean should take refuge.",
+          "translationSource": "ai"
         },
         {
           "number": 22,
           "sanskrit": "आसीनः कर्मविच्छेदं शक्तः कर्तुं रिपोर्यदा । अशुद्धपार्ष्णिश्चासीत विगृह्य वसुधाधिपः",
           "transliteration": "āsīnaḥ karmavicchedaṃ śaktaḥ kartuṃ riporyadā / aśuddhapārṣṇiścāsīta vigṛhya vasudhādhipaḥ",
-          "hindi": "बलशाली या अधिक सैनिकशक्तिसे सम्पन्न राजा है, उसकी 'उदासीन' संज्ञा है। विजिगीषु, अरि"
+          "hindi": "बलशाली या अधिक सैनिकशक्तिसे सम्पन्न राजा है, उसकी 'उदासीन' संज्ञा है। विजिगीषु, अरि",
+          "translation": "When one sitting is able to cut off the enemy's operations, one with unclean rear should sit, after making war, the lord of the earth;",
+          "translationSource": "ai"
         },
         {
           "number": 23,
           "sanskrit": "अशुद्धपार्ष्णिर्बलवान् द्वैधीभावं समाश्रयेत् । बलिना विगृहीतस्तु(२) यो ऽसन्देहेन पार्थिवः",
           "transliteration": "aśuddhapārṣṇirbalavān dvaidhībhāvaṃ samāśrayet / balinā vigṛhītastu(2) yo 'sandehena pārthivaḥ",
-          "hindi": "राजा इनपर अनुग्रहमात्र कर सकता है और यदि ये संगठित न होकर पृथक्-पृथक् हों तो वह 'उदासीन' इन सबका वध कर डालनेमें समर्थ हो जाता है और आसन आदिके विषयमें बता रहा हूँ। किसी बलवान् राजाके साथ युद्ध ठन जानेपर यदि"
+          "hindi": "राजा इनपर अनुग्रहमात्र कर सकता है और यदि ये संगठित न होकर पृथक्-पृथक् हों तो वह 'उदासीन' इन सबका वध कर डालनेमें समर्थ हो जाता है और आसन आदिके विषयमें बता रहा हूँ। किसी बलवान् राजाके साथ युद्ध ठन जानेपर यदि",
+          "translation": "the strong with an unclean rear should resort to the dual policy. The king who is attacked by a strong one without doubt",
+          "translationSource": "ai"
         },
         {
           "number": 24,
           "sanskrit": "संश्रयस्तेन वक्तव्यो गुणानामधमो गुणः । १ प्रासादाग्रे प्रदर्शयेदिति ट॥ २ विगृहीतस्तु इति ख॥ :प् ३४७ बहुक्षयव्ययायासं(१) तेषां यानं प्रकीर्तितं",
           "transliteration": "saṃśrayastena vaktavyo guṇānāmadhamo guṇaḥ / 1 prāsādāgre pradarśayediti ṭa.. 2 vigṛhītastu iti kha.. :p 347 bahukṣayavyayāyāsaṃ(1) teṣāṃ yānaṃ prakīrtitaṃ",
-          "hindi": "यदि विजयकी इच्छा रखनेवाले राजाको नौ हजार योजनके क्षेत्रफलवाले चक्रवर्ति-क्षेत्रपर विजय प्राप्त करना हो, तो उसे अपने"
+          "hindi": "यदि विजयकी इच्छा रखनेवाले राजाको नौ हजार योजनके क्षेत्रफलवाले चक्रवर्ति-क्षेत्रपर विजय प्राप्त करना हो, तो उसे अपने",
+          "translation": "should resort to refuge — the lowest of the measures. Their march involves much loss, expense and effort;",
+          "translationSource": "ai"
         },
         {
           "number": 25,
           "sanskrit": "बहुलाभकरं पश्चात्तदा राजा समाश्रयेत्(२) । सर्वशक्तिविहीनस्तु तदा कुर्यात्तु संश्रयं",
           "transliteration": "bahulābhakaraṃ paścāttadā rājā samāśrayet(2) / sarvaśaktivihīnastu tadā kuryāttu saṃśrayaṃ",
-          "hindi": "आगेके पाँच तथा पीछेके चार राजाओंकी ओर ध्यान देना होगा। इसी तरह अगल-बगलके उस राज्यपर भी विचार करना होगा, जिसकी सीमा अपने राज्यसे तथा शत्रुके राज्यसे भी मिलती होगी; ऐसे राज्यकी “मध्यम' संज्ञा है। इस सम्पूर्ण मण्डलसे बाहर जो प्रबल राज्य या राजा है -उसकी संज्ञा 'उदासीन' है । विजिगीषुके सामनेके जो पाँच राज्य हैं, उनके नामोंका क्रमश: इस प्रकार व्यवहार होगा--(१) शत्रु-राज्य, (२) मित्र-राज्य, (३) शत्रुके मित्रका राज्य, (४) मित्रके मित्रका राज्य तथा (५) शत्रुके मित्रके मित्रका राज्य। विजिगीषुके पीछेके जो चार राज्य हैं, वे क्रमशः --१. पार्णिग्राह, २. आक्रन्द, ३. पार्ण्णिग्राहासार, ४. आक्रन्दासार-इन नामोंसे व्यवहत होंगे। विजिगीषुसहित इन सबकी संख्या बारह होती है। सम्भावनात्मक संख्या दी गयी है। यदि विजिगीषु इससे अधिकके क्षेत्रको अपनी विजयका लक्ष्य बनाता है तो इसी ढंगसे अन्य राज्य भी इसी मण्डलमें परिगणित होंगे और द्वादशकी जगह अधिक राजमण्डल भी हो सकते हैं। नीचे द्वादशात्मक राजमण्डलका एक परिचयात्मक क्रम दिया जाता है--"
+          "hindi": "आगेके पाँच तथा पीछेके चार राजाओंकी ओर ध्यान देना होगा। इसी तरह अगल-बगलके उस राज्यपर भी विचार करना होगा, जिसकी सीमा अपने राज्यसे तथा शत्रुके राज्यसे भी मिलती होगी; ऐसे राज्यकी “मध्यम' संज्ञा है। इस सम्पूर्ण मण्डलसे बाहर जो प्रबल राज्य या राजा है -उसकी संज्ञा 'उदासीन' है । विजिगीषुके सामनेके जो पाँच राज्य हैं, उनके नामोंका क्रमश: इस प्रकार व्यवहार होगा--(१) शत्रु-राज्य, (२) मित्र-राज्य, (३) शत्रुके मित्रका राज्य, (४) मित्रके मित्रका राज्य तथा (५) शत्रुके मित्रके मित्रका राज्य। विजिगीषुके पीछेके जो चार राज्य हैं, वे क्रमशः --१. पार्णिग्राह, २. आक्रन्द, ३. पार्ण्णिग्राहासार, ४. आक्रन्दासार-इन नामोंसे व्यवहत होंगे। विजिगीषुसहित इन सबकी संख्या बारह होती है। सम्भावनात्मक संख्या दी गयी है। यदि विजिगीषु इससे अधिकके क्षेत्रको अपनी विजयका लक्ष्य बनाता है तो इसी ढंगसे अन्य राज्य भी इसी मण्डलमें परिगणित होंगे और द्वादशकी जगह अधिक राजमण्डल भी हो सकते हैं। नीचे द्वादशात्मक राजमण्डलका एक परिचयात्मक क्रम दिया जाता है--",
+          "translation": "then afterward, bringing much gain, the king should take it up; one deprived of all power should then seek refuge.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -52230,61 +52262,81 @@
           "number": 8,
           "sanskrit": "तत्रस्थो ब्राह्मणान् पश्येदमात्यान्मन्त्रिणस् तथा । प्रकृतीश् च महाभाग प्रतीहारनिवेदिताः",
           "transliteration": "tatrastho brāhmaṇān paśyedamātyānmantriṇas tathā / prakṛtīś ca mahābhāga pratīhāraniveditāḥ",
-          "hindi": "७. एकपर ही चढ़ाई करनेके लिये जब शत्रु और विजिगीषु दोनों जाते हैं, उस समय यात्राकालमें जो उन दोनोंमें संगठन या साँठ-गाँठ हो जाती है, ऐसी संधिको संयोग कहते हैं। ८. जहाँ दो राजाओंमें एक नतमस्तक हो जाता है और दूसरा यह शर्त रखता है कि मेरे और तुम्हारे दोनों सेनापति मिलकर मेरा अमुक कार्य सिद्ध करें, तो उस शर्तपर होनेवाली संधि पुरुषान्तर कही जाती है।"
+          "hindi": "७. एकपर ही चढ़ाई करनेके लिये जब शत्रु और विजिगीषु दोनों जाते हैं, उस समय यात्राकालमें जो उन दोनोंमें संगठन या साँठ-गाँठ हो जाती है, ऐसी संधिको संयोग कहते हैं। ८. जहाँ दो राजाओंमें एक नतमस्तक हो जाता है और दूसरा यह शर्त रखता है कि मेरे और तुम्हारे दोनों सेनापति मिलकर मेरा अमुक कार्य सिद्ध करें, तो उस शर्तपर होनेवाली संधि पुरुषान्तर कही जाती है।",
+          "translation": "Staying there he should see Brahmins, ministers and counselors, and the subjects, great one, announced by the door-keeper;",
+          "translationSource": "ai"
         },
         {
           "number": 9,
           "sanskrit": "श्रुत्वेतिहासं कार्याणि कार्याणां कार्यनिर्णयम् । व्यवहारन्ततः पश्येन्मन्त्रं कुर्यात्तु मन्त्रिभिः",
           "transliteration": "śrutvetihāsaṃ kāryāṇi kāryāṇāṃ kāryanirṇayam / vyavahārantataḥ paśyenmantraṃ kuryāttu mantribhiḥ",
-          "hindi": "९. अकेले तुम मेरा अमुक कार्य सिद्ध करो, उसमें मैं अथवा मेरी सेनाका कोई योद्धा साथ नहीं रहेगा -जहाँ शत्रु ऐसी शर्त सामने रखे, वहाँ उस शर्तपर की जानेवाली संधि ' अदृष्ट-पुरुष'कही जाती है। उसमें एक पक्षका कोई भी पुरुष देखनेमें नहीं आता, अतएव उसका नाम अष्ृष्टपुरुष है।"
+          "hindi": "९. अकेले तुम मेरा अमुक कार्य सिद्ध करो, उसमें मैं अथवा मेरी सेनाका कोई योद्धा साथ नहीं रहेगा -जहाँ शत्रु ऐसी शर्त सामने रखे, वहाँ उस शर्तपर की जानेवाली संधि ' अदृष्ट-पुरुष'कही जाती है। उसमें एक पक्षका कोई भी पुरुष देखनेमें नहीं आता, अतएव उसका नाम अष्ृष्टपुरुष है।",
+          "translation": "having heard history, tasks and decision of the tasks, he should then see to legal business; he should take counsel with counselors.",
+          "translationSource": "ai"
         },
         {
           "number": 10,
           "sanskrit": "नैकेन सहितः कुर्यान्न कुर्याद्बहुभिः सह । न च मूर्खैर् नचानाप्तैर् गुप्तं न प्रकटं चरेत्(१)",
           "transliteration": "naikena sahitaḥ kuryānna kuryādbahubhiḥ saha / na ca mūrkhair nacānāptair guptaṃ na prakaṭaṃ caret(1)",
-          "hindi": "११. जहाँ अपनी सेना देकर संधि की जाती है, वहाँ अपने-आपको ही आमिष (भोग्य) बना देनेके कारण उस संधिका नाम आत्मामिष है। १२. जहाँ प्राणरक्षाके लिये सर्वस्व अर्पण कर दिया जाता है, वह संधि उपग्रह कही गयी है।"
+          "hindi": "११. जहाँ अपनी सेना देकर संधि की जाती है, वहाँ अपने-आपको ही आमिष (भोग्य) बना देनेके कारण उस संधिका नाम आत्मामिष है। १२. जहाँ प्राणरक्षाके लिये सर्वस्व अर्पण कर दिया जाता है, वह संधि उपग्रह कही गयी है।",
+          "translation": "He should not take counsel with one alone, nor with many, nor with fools or the untrustworthy; he should act secretly, not openly;",
+          "translationSource": "ai"
         },
         {
           "number": 11,
           "sanskrit": "मन्त्रं स्वधिष्ठितं कुर्याद्येन राष्ट्रं न बाधते । आकारग्रहणे राज्ञो मन्त्ररक्षा परा मता(२)",
           "transliteration": "mantraṃ svadhiṣṭhitaṃ kuryādyena rāṣṭraṃ na bādhate / ākāragrahaṇe rājño mantrarakṣā parā matā(2)",
-          "hindi": "१३. जहाँ कोषका एक भाग, कुप्य (वस्त्र, कम्बल आदि) अथवा सारा ही खजाना देकर शेष प्रकृति (अमात्य, राष्ट्र आदि) - की रक्षा की जाती है, वहाँ मानो उस धनसे उन शेष प्रकृतियोंका क्रय किया जाता है; अतएव उस संधिको परिक्रय कहते हैं।"
+          "hindi": "१३. जहाँ कोषका एक भाग, कुप्य (वस्त्र, कम्बल आदि) अथवा सारा ही खजाना देकर शेष प्रकृति (अमात्य, राष्ट्र आदि) - की रक्षा की जाती है, वहाँ मानो उस धनसे उन शेष प्रकृतियोंका क्रय किया जाता है; अतएव उस संधिको परिक्रय कहते हैं।",
+          "translation": "he should make the counsel well established so that the nation is not harmed. In the matter of reading the king's expressions, protection of counsel is held supreme;",
+          "translationSource": "ai"
         },
         {
           "number": 12,
           "sanskrit": "आकारैर् इङ्गितैः प्रज्ञा मन्त्रं गृह्णन्ति पण्डिताः । सांवत्सराणां वैद्यानां मन्त्रिणां वचने रतः",
           "transliteration": "ākārair iṅgitaiḥ prajñā mantraṃ gṛhṇanti paṇḍitāḥ / sāṃvatsarāṇāṃ vaidyānāṃ mantriṇāṃ vacane rataḥ",
-          "hindi": "१४. जहाँ सारभूत भूमि (कोष आदिकी अधिक वृद्धि करानेवाले भूभाग)-को देकर संधि की जाती है, वह अपना उच्छेद करनेके समान होनेसे उच्छिन्न कहलाती है। १५. अपनी सम्पूर्ण भूमिसे जो भी फल या लाभ प्राप्त होता है, उसको कुछ अधिक मिलाकर देनेके बाद जो संधि होती है, वह परदूषण कही गयी है।"
+          "hindi": "१४. जहाँ सारभूत भूमि (कोष आदिकी अधिक वृद्धि करानेवाले भूभाग)-को देकर संधि की जाती है, वह अपना उच्छेद करनेके समान होनेसे उच्छिन्न कहलाती है। १५. अपनी सम्पूर्ण भूमिसे जो भी फल या लाभ प्राप्त होता है, उसको कुछ अधिक मिलाकर देनेके बाद जो संधि होती है, वह परदूषण कही गयी है।",
+          "translation": "the wise grasp counsel by expressions and hints with intelligence. The king who is attentive to the words of astrologers, physicians and counselors",
+          "translationSource": "ai"
         },
         {
           "number": 13,
           "sanskrit": "राजा विभूतिमाप्नोति(३) धारयन्ति नृपं हि ते । मन्त्रं कृत्वाथ व्यायामञ्चक्रे याने च शस्त्रके",
           "transliteration": "rājā vibhūtimāpnoti(3) dhārayanti nṛpaṃ hi te / mantraṃ kṛtvātha vyāyāmañcakre yāne ca śastrake",
-          "hindi": ". १६. जहाँ परिंगणित फल (लाभ) खण्ड-खण्ड करके अर्थात् कई किश्तोंमें बाँटकर पहुँचाये जाते हैं, वैसी संधि स्कन्धोपनेय कही"
+          "hindi": ". १६. जहाँ परिंगणित फल (लाभ) खण्ड-खण्ड करके अर्थात् कई किश्तोंमें बाँटकर पहुँचाये जाते हैं, वैसी संधि स्कन्धोपनेय कही",
+          "translation": "obtains prosperity, for they support the king. Having taken counsel, then exercise, in vehicle and weapons,",
+          "translationSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "निःसत्त्वादौ नृपः स्नातः पश्येद्विष्णुं सुपूजितं । हुतञ्च पावकं पश्येद्विप्रान् पश्येत्सुपूजितान्",
           "transliteration": "niḥsattvādau nṛpaḥ snātaḥ paśyedviṣṇuṃ supūjitaṃ / hutañca pāvakaṃ paśyedviprān paśyetsupūjitān",
-          "hindi": "है, वह 'संधेय' कहलाता है। उसके दो भेद हैं अभियोक्ता और अनभियोक्ता। उक्त संधियोंमेंसे उपन्यास, प्रतीकार और संयोग ये तीन संधियाँ अनभियोक्ता (अनाक्रमणकारी)-के प्रति करनी चाहिए। शेष सभी अभियोक्ता (आक्रमणकारी)- के प्रति कर्तव्य हैं ॥ ५--८॥"
+          "hindi": "है, वह 'संधेय' कहलाता है। उसके दो भेद हैं अभियोक्ता और अनभियोक्ता। उक्त संधियोंमेंसे उपन्यास, प्रतीकार और संयोग ये तीन संधियाँ अनभियोक्ता (अनाक्रमणकारी)-के प्रति करनी चाहिए। शेष सभी अभियोक्ता (आक्रमणकारी)- के प्रति कर्तव्य हैं ॥ ५--८॥",
+          "translation": "the king, bathed, seeing Vishnu well worshipped, should see the oblation-fire and see well-honored Brahmins;",
+          "translationSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "१ गुप्तं चाप्रकटं चरेदिति ग॥ , ज॥ , ट॥ च २ आकार ग्रहणे राज्ञो मन्त्ररक्षा परा मता इत्य् अस्य स्थाने आकारेङ्गिततत्त्वज्ञः कार्याकार्यविचक्षण इति ट॥ पुस्तकपाठः ३ राजाधिभूतिमाप्नोतीति ज॥ :प् ३४९ भूषितो भोजनङ्कुर्याद् दानाद्यैः सुपरीक्षितं । भुक्त्वा गृहीतताम्बूलो वामपार्श्वेन संस्थितः(१)",
           "transliteration": "1 guptaṃ cāprakaṭaṃ carediti ga.. , ja.. , ṭa.. ca 2 ākāra grahaṇe rājño mantrarakṣā parā matā ity asya sthāne ākāreṅgitatattvajñaḥ kāryākāryavicakṣaṇa iti ṭa.. pustakapāṭhaḥ 3 rājādhibhūtimāpnotīti ja.. :p 349 bhūṣito bhojanaṅkuryād dānādyaiḥ suparīkṣitaṃ / bhuktvā gṛhītatāmbūlo vāmapārśvena saṃsthitaḥ(1)",
-          "hindi": "परस्परोपकार, मैत्र, सम्बन्धज तथा उपहार -- ये ही चार संधिके भेद जानने चाहिए-ऐसा अन्य लोगोंका मत है"
+          "hindi": "परस्परोपकार, मैत्र, सम्बन्धज तथा उपहार -- ये ही चार संधिके भेद जानने चाहिए-ऐसा अन्य लोगोंका मत है",
+          "translation": "adorned he should take food, well tested, by gifts and the rest; having eaten, taking betel, resting on the left side,",
+          "translationSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "शास्त्राणि चिन्तयेद् दृष्ट्वा योधान् कोष्ठायुधं गृहं । अन्वास्य पश्चिमां सन्ध्यां कार्याणि च विचिन्त्य तु",
           "transliteration": "śāstrāṇi cintayed dṛṣṭvā yodhān koṣṭhāyudhaṃ gṛhaṃ / anvāsya paścimāṃ sandhyāṃ kāryāṇi ca vicintya tu",
-          "hindi": "बालक, वृद्ध, चिरकालका रोगी, भाई- बन्धुओंसे बहिष्कृत, डरपोक, भीरु सैनिकोंवाला, लोभी-लालची सेवकोंसे घिरा हुआ, अमात्य आदि प्रकृतियोंके अनुरागसे वञ्चित, अत्यन्त विषयासक्त, अस्थिरचित्त और अनेक लोगोंके सामने मन्त्र प्रकट करनेवाला, देवताओं और ब्राह्मणोंका निन्दक, हैवका मारा हुआ, हैवको ही सम्पत्ति और विपत्तिका कारण मानकर स्वयं उद्योग न करनेवाला, जिसके"
+          "hindi": "बालक, वृद्ध, चिरकालका रोगी, भाई- बन्धुओंसे बहिष्कृत, डरपोक, भीरु सैनिकोंवाला, लोभी-लालची सेवकोंसे घिरा हुआ, अमात्य आदि प्रकृतियोंके अनुरागसे वञ्चित, अत्यन्त विषयासक्त, अस्थिरचित्त और अनेक लोगोंके सामने मन्त्र प्रकट करनेवाला, देवताओं और ब्राह्मणोंका निन्दक, हैवका मारा हुआ, हैवको ही सम्पत्ति और विपत्तिका कारण मानकर स्वयं उद्योग न करनेवाला, जिसके",
+          "translation": "he should think of scriptures; having seen warriors, the armory and the house; having attended the evening twilight and thought about the tasks,",
+          "translationSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "चरान् सम्प्रेष्य भुक्तान्नमन्तःपुरचरो भवेत् । वाद्यगीतैर् अक्षितो ऽन्यैर् एवन्नित्यञ्चरेन्नृपः",
           "transliteration": "carān sampreṣya bhuktānnamantaḥpuracaro bhavet / vādyagītair akṣito 'nyair evannityañcarennṛpaḥ",
-          "hindi": "ऊपर दुर्भिक्षका संकट आया हो वह, जिसको सेना कैद कर ली गयी हो अथवा शत्रुओंसे घिर गयी हो वह, अयोग्य देशमें स्थित (अपनी सेनाको पहुँचसे बाहरके स्थानमें विद्यमान), बहुत-से"
+          "hindi": "ऊपर दुर्भिक्षका संकट आया हो वह, जिसको सेना कैद कर ली गयी हो अथवा शत्रुओंसे घिर गयी हो वह, अयोग्य देशमें स्थित (अपनी सेनाको पहुँचसे बाहरके स्थानमें विद्यमान), बहुत-से",
+          "translation": "having sent out spies, having eaten, he should be a frequenter of the inner palace; guarded with music and songs and others, the king should thus always conduct himself.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -52328,295 +52380,393 @@
           "number": 5,
           "sanskrit": "इष्टानिष्टे ममाचक्ष्व स्वप्ने सुप्तस्य शाश्वत । यज्जाग्रतो दूरमिति पुरोधा मन्त्रमुच्चरेत्",
           "transliteration": "iṣṭāniṣṭe mamācakṣva svapne suptasya śāśvata / yajjāgrato dūramiti purodhā mantramuccaret",
-          "hindi": "धर्मविघात, हैव (प्रारब्धजनित दुरवस्था), सुग्रीव आदि-जैसे मित्रोंके प्रयोजनकी सिद्धि, माननीय जनोंका अपमान, बन्धुवर्गका विनाश, भूतानुग्रहविच्छेद (प्राणियोंको दिये गये अभयदानका खण्डन--जैसे एकने किसी वनमें बहाँके जन्तुओंको अभय देनेके लिये मृगयाकी मनाही कर दी, किंतु दूसरा उस नियमको तोड़कर शिकार खेलने आ गया-यही ' भूतानुग्रहविच्छेद' है), मण्डलदूषण"
+          "hindi": "धर्मविघात, हैव (प्रारब्धजनित दुरवस्था), सुग्रीव आदि-जैसे मित्रोंके प्रयोजनकी सिद्धि, माननीय जनोंका अपमान, बन्धुवर्गका विनाश, भूतानुग्रहविच्छेद (प्राणियोंको दिये गये अभयदानका खण्डन--जैसे एकने किसी वनमें बहाँके जन्तुओंको अभय देनेके लिये मृगयाकी मनाही कर दी, किंतु दूसरा उस नियमको तोड़कर शिकार खेलने आ गया-यही ' भूतानुग्रहविच्छेद' है), मण्डलदूषण",
+          "translation": "\"Tell me what is desired and undesired in the dream of the one sleeping, eternal one.\" The priest should utter the mantra \"yaj jagrato dura\";",
+          "translationSource": "ai"
         },
         {
           "number": 6,
           "sanskrit": "तृतीये ऽहनि दिक्पालान् रुद्रांस्तान् दिक्पतीन्यजेत् । ग्रहान् यजेच्चतुर्थे ऽह्नि पञ्चमे चाश्विनौ यजेत्",
           "transliteration": "tṛtīye 'hani dikpālān rudrāṃstān dikpatīnyajet / grahān yajeccaturthe 'hni pañcame cāśvinau yajet",
-          "hindi": "(द्वादशराजमण्डलमेंसे किसीको विजिगीषुके विरुद्ध उभाड़ना), एकार्थाभिनिवेशित्व (जो भूमि या स्त्री आदि अर्थ एकको अभीष्ट है, उसीको लेनेके लिये दूसरेका भी दुराग्रह)-ये बीस विग्रहके"
+          "hindi": "(द्वादशराजमण्डलमेंसे किसीको विजिगीषुके विरुद्ध उभाड़ना), एकार्थाभिनिवेशित्व (जो भूमि या स्त्री आदि अर्थ एकको अभीष्ट है, उसीको लेनेके लिये दूसरेका भी दुराग्रह)-ये बीस विग्रहके",
+          "translation": "on the third day one should worship the world-guardians, the Rudras, the lords of directions; on the fourth day one should worship the planets, on the fifth the Ashvins;",
+          "translationSource": "ai"
         },
         {
           "number": 7,
           "sanskrit": "मार्गे या देवतास्तासान्नद्यादीनाञ्च पूजनं । दिव्यान्तरीक्षभौमस्थदेवानाञ्च तथा बलिः",
           "transliteration": "mārge yā devatāstāsānnadyādīnāñca pūjanaṃ / divyāntarīkṣabhaumasthadevānāñca tathā baliḥ",
-          "hindi": "कारण हैं ॥ १६-- १८ ॥ सापत्र (रावण और विभीषणकी भाँति सौतेले भाइयोंका वैमनस्य), वास्तुज (भूमि, सुवर्ण आदिके हरणसे होनेवाला अमर्ष), स्त्रीके अपहरणसे"
+          "hindi": "कारण हैं ॥ १६-- १८ ॥ सापत्र (रावण और विभीषणकी भाँति सौतेले भाइयोंका वैमनस्य), वास्तुज (भूमि, सुवर्ण आदिके हरणसे होनेवाला अमर्ष), स्त्रीके अपहरणसे",
+          "translation": "worship of the deities on the road and of rivers and the like, and likewise offerings to the gods dwelling in heaven, sky and earth;",
+          "translationSource": "ai"
         },
         {
           "number": 8,
           "sanskrit": "रात्रौ भूतगणानाञ्च वासुदेवादिपूजनं । भद्रकाल्याः श्रियः कुर्यात् प्रार्थयेत् सर्वदेवताः",
           "transliteration": "rātrau bhūtagaṇānāñca vāsudevādipūjanaṃ / bhadrakālyāḥ śriyaḥ kuryāt prārthayet sarvadevatāḥ",
-          "hindi": "अपराधजनित प्रतिशोधकी भावना-ये पाँच प्रकारके वैर अन्य विद्वानोंने बताये हैं'"
+          "hindi": "अपराधजनित प्रतिशोधकी भावना-ये पाँच प्रकारके वैर अन्य विद्वानोंने बताये हैं'",
+          "translation": "at night worship of the hosts of beings, Vasudeva and the rest; one should perform for Bhadrakali and Shri; one should pray to all gods:",
+          "translationSource": "ai"
         },
         {
           "number": 9,
           "sanskrit": "वासुदेवः सङ्कर्षणः प्रद्युम्नश्चानिरुद्धकः । नारायणो ऽब्जजो विष्णुर् नारसिंहो वराहकः",
           "transliteration": "vāsudevaḥ saṅkarṣaṇaḥ pradyumnaścāniruddhakaḥ / nārāyaṇo 'bjajo viṣṇur nārasiṃho varāhakaḥ",
-          "hindi": "(१) जिस विग्रहसे बहुत कम लाभ होनेवाला १. ' परस्परोपकार' ही प्रतीकार है; 'मैत्र'का ही नाम “संगत” संधि है। सम्बन्धजको ही “संतान' कहा गया है और 'उपहार'"
+          "hindi": "(१) जिस विग्रहसे बहुत कम लाभ होनेवाला १. ' परस्परोपकार' ही प्रतीकार है; 'मैत्र'का ही नाम “संगत” संधि है। सम्बन्धजको ही “संतान' कहा गया है और 'उपहार'",
+          "translation": "Vasudeva, Sankarshana, Pradyumna and Aniruddha, Narayana, the lotus-born, Vishnu, Narasimha, Varaha,",
+          "translationSource": "ai"
         },
         {
           "number": 10,
           "sanskrit": "शिव ईशस्तत्पुरुषो(१) ह्य् अघोरो राम सत्यजः(२) । सूर्यः सोमः कुजश्चान्द्रिजीवशुक्रशनैश् चराः",
           "transliteration": "śiva īśastatpuruṣo(1) hy aghoro rāma satyajaḥ(2) / sūryaḥ somaḥ kujaścāndrijīvaśukraśanaiś carāḥ",
-          "hindi": "तो पूर्वकथित 'उपहार' है ही। इन्हींमें अन्य सबका समावेश है।"
+          "hindi": "तो पूर्वकथित 'उपहार' है ही। इन्हींमें अन्य सबका समावेश है।",
+          "translation": "Shiva, Isha, Tatpurusha, Aghora, Rama, Satyaja; Sun, Moon, Mars, Mercury, Jupiter, Venus, Saturn,",
+          "translationSource": "ai"
         },
         {
           "number": 11,
           "sanskrit": "राहुः केतुर्गणपतिः सेनानी चण्डिका ह्य् उमा । लक्ष्मीः सरस्वती दुर्गा ब्रह्माणीप्रमुखा गणाः",
           "transliteration": "rāhuḥ keturgaṇapatiḥ senānī caṇḍikā hy umā / lakṣmīḥ sarasvatī durgā brahmāṇīpramukhā gaṇāḥ",
-          "hindi": "२. सापत्र-वैरमें पूर्वोक्त एकार्थाभिनिवेशका अन्तर्भाव हो जाता है, स्त्री और वास्तुके अपहरणजनित वैरमें पूर्वकथित स्त्रीस्थानापहारज वैरका अन्तर्भाव है । वाग्जात वैरमें पूर्वोक्त ज्ञानापहारज और अपमानजनित वैर अन्तर्भूत होते हैं और अपराधजनित बैरमें पूर्वोक्तशेष १४ कारणोंका समावेश हो जाता है।"
+          "hindi": "२. सापत्र-वैरमें पूर्वोक्त एकार्थाभिनिवेशका अन्तर्भाव हो जाता है, स्त्री और वास्तुके अपहरणजनित वैरमें पूर्वकथित स्त्रीस्थानापहारज वैरका अन्तर्भाव है । वाग्जात वैरमें पूर्वोक्त ज्ञानापहारज और अपमानजनित वैर अन्तर्भूत होते हैं और अपराधजनित बैरमें पूर्वोक्तशेष १४ कारणोंका समावेश हो जाता है।",
+          "translation": "Rahu, Ketu, Ganapati, the Commander, Chandika and Uma, Lakshmi, Sarasvati, Durga, the hosts headed by Brahmani,",
+          "translationSource": "ai"
         },
         {
           "number": 12,
           "sanskrit": "रुद्रा इन्द्रादयो वह्निर् नागास्तार्क्ष्यो ऽपरे सुराः । दिव्यान्तरीक्षभूमिष्ठा विजयाय भवन्तु मे",
           "transliteration": "rudrā indrādayo vahnir nāgāstārkṣyo 'pare surāḥ / divyāntarīkṣabhūmiṣṭhā vijayāya bhavantu me",
-          "hindi": "हो, (२) जो निष्फल हो, (३) जिससे फलप्राप्तिमें संदेह हो, (४) जो तत्काल दोषजनक (विग्रहके समय मित्रादिके साथ विरोध पैदा करनेवाला), (५) भविष्यकालमें भी निष्फल, (६) वर्तमान"
+          "hindi": "हो, (२) जो निष्फल हो, (३) जिससे फलप्राप्तिमें संदेह हो, (४) जो तत्काल दोषजनक (विग्रहके समय मित्रादिके साथ विरोध पैदा करनेवाला), (५) भविष्यकालमें भी निष्फल, (६) वर्तमान",
+          "translation": "Rudras, Indra and the rest, Fire, nagas, Garuda, other gods — may those dwelling in heaven, sky and earth be for my victory.",
+          "translationSource": "ai"
         },
         {
           "number": 13,
           "sanskrit": "मर्दयन्तु रणे शत्रून्(३) सम्प्रगृह्योपहारकं । सपुत्रमातृभृत्यो ऽहं(४) देवा वः शरणङ्गतः",
           "transliteration": "mardayantu raṇe śatrūn(3) sampragṛhyopahārakaṃ / saputramātṛbhṛtyo 'haṃ(4) devā vaḥ śaraṇaṅgataḥ",
-          "hindi": "और भविष्यमें भी दोषजनक हो, (७) जो अज्ञात बल-पराक्रमवाले शत्रुके साथ किया जाय एवं (८) दूसरोंके द्वारा उभाड़ा गया हो, (९) जो दूसरोंको स्वार्थसिद्धिके लिये किंवा, (१०) किसी साधारण स्त्रीको पानेके लिये किया जा रहा हो, (११) जिसके दीर्घकालतक चलते रहनेकी सम्भावना हो, (१२) जो श्रेष्ठ द्विजोंके साथ छेड़ा गया हो, (१३) जो वरदान आदि पाकर"
+          "hindi": "और भविष्यमें भी दोषजनक हो, (७) जो अज्ञात बल-पराक्रमवाले शत्रुके साथ किया जाय एवं (८) दूसरोंके द्वारा उभाड़ा गया हो, (९) जो दूसरोंको स्वार्थसिद्धिके लिये किंवा, (१०) किसी साधारण स्त्रीको पानेके लिये किया जा रहा हो, (११) जिसके दीर्घकालतक चलते रहनेकी सम्भावना हो, (१२) जो श्रेष्ठ द्विजोंके साथ छेड़ा गया हो, (१३) जो वरदान आदि पाकर",
+          "translation": "\"May they crush the enemies in battle, accepting the offering. I, with son, mother and servants, have gone to you gods for refuge.",
+          "translationSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "२ रात्रावित्यादिः, सत्यज इत्य् अन्तः पाठः ग॥ पुस्तके नास्ति ३ मर्दयन्तु च मे शत्रूनिति घ॥ , ञ॥ च ४ अवन्तु मां स्वभृत्यो ऽहमिति ज॥ , ट॥ च :प् ३५१ चामूनां पृष्ठतो गत्वा रिपुनाशा नमो ऽस्तु वः(१) । विनिवृत्तः प्रदास्यामि(२) दत्तादभ्यधिकं बलिं",
           "transliteration": "2 rātrāvityādiḥ, satyaja ity antaḥ pāṭhaḥ ga.. pustake nāsti 3 mardayantu ca me śatrūniti gha.. , ña.. ca 4 avantu māṃ svabhṛtyo 'hamiti ja.. , ṭa.. ca :p 351 cāmūnāṃ pṛṣṭhato gatvā ripunāśā namo 'stu vaḥ(1) / vinivṛttaḥ pradāsyāmi(2) dattādabhyadhikaṃ baliṃ",
-          "hindi": "अकस्मात् हैवबलसे सम्पन्न हुए पुरुषके साथ छिड्नेवाला हो, (१४) जिसके अधिक बलशाली मित्र हों, ऐसे पुरुषके साथ जो छिड्नेवाला हो, (१५) जो वर्तमान कालमें फलद, किंतु भविष्यमें"
+          "hindi": "अकस्मात् हैवबलसे सम्पन्न हुए पुरुषके साथ छिड्नेवाला हो, (१४) जिसके अधिक बलशाली मित्र हों, ऐसे पुरुषके साथ जो छिड्नेवाला हो, (१५) जो वर्तमान कालमें फलद, किंतु भविष्यमें",
+          "translation": "Having gone behind the armies, homage to you, destroyers of enemies. Returning, I shall give an offering greater than what is given.\"",
+          "translationSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "षष्ठे ऽह्नि विजयस्नानं कर्तव्यं चाभिषेकवत् । यात्रादिने सप्तमे च पूजयेच्च त्रिविक्रमं",
           "transliteration": "ṣaṣṭhe 'hni vijayasnānaṃ kartavyaṃ cābhiṣekavat / yātrādine saptame ca pūjayecca trivikramaṃ",
-          "hindi": "निष्फल हो तथा (१६) जो भविष्यमें फलद किंतु वर्तमानमें निष्फल हो-इन सोलह प्रकारके विग्रहोंमें कभी हाथ न डाले। जो वर्तमान और भविष्यमें परिशुद्ध पूर्णतः लाभदायक हो, वही विग्रह राजाको छेड्ना चाहिए"
+          "hindi": "निष्फल हो तथा (१६) जो भविष्यमें फलद किंतु वर्तमानमें निष्फल हो-इन सोलह प्रकारके विग्रहोंमें कभी हाथ न डाले। जो वर्तमान और भविष्यमें परिशुद्ध पूर्णतः लाभदायक हो, वही विग्रह राजाको छेड्ना चाहिए",
+          "translation": "On the sixth day the victory bath should be done like a consecration. On the seventh day of the journey one should worship Trivikrama;",
+          "translationSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "नीराजनोक्तमन्त्रैश् च आयुधं वाहनं यजेत् । पुण्याहजयशब्देन मन्त्रमेतन्निशामयेत्",
           "transliteration": "nīrājanoktamantraiś ca āyudhaṃ vāhanaṃ yajet / puṇyāhajayaśabdena mantrametanniśāmayet",
-          "hindi": "राजा जब अच्छी तरह समझ ले कि मेरी सेना हृष्ट-पुष्ट अर्थात् उत्साह और शक्तिसे सम्पन्न है तथा शत्रुको अवस्था इसके विपरीत है, तब वह उसका निग्रह करनेके लिये विग्रह आरम्भ करे।"
+          "hindi": "राजा जब अच्छी तरह समझ ले कि मेरी सेना हृष्ट-पुष्ट अर्थात् उत्साह और शक्तिसे सम्पन्न है तथा शत्रुको अवस्था इसके विपरीत है, तब वह उसका निग्रह करनेके लिये विग्रह आरम्भ करे।",
+          "translation": "with the mantras stated in the lustration one should worship weapon and vehicle; with the sound of auspicious day and victory one should listen to this mantra:",
+          "translationSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "दिव्यान्तरीक्षभूमिष्ठाः सन्त्वायुर्दाः सुराश् च ते । देवसिद्धिं प्राप्नुहि त्वं देवयात्रास्तु(३) सा तव",
           "transliteration": "divyāntarīkṣabhūmiṣṭhāḥ santvāyurdāḥ surāś ca te / devasiddhiṃ prāpnuhi tvaṃ devayātrāstu(3) sā tava",
-          "hindi": "जब मित्र, आक्रन्द तथा आक्रन्दासार -इन तीनोंकी राजाके प्रति दृढ़भक्ति हो तथा शत्रुके मित्र आदि विपरीत स्थितिमें हों अर्थात् उसके प्रति भक्तिभाव न रखते हों, तब उसके साथ विग्रह आरम्भ (जिसके बल एवं पराक्रम उच्च कोटिके हों, जो विजिगीषुके गुणोंसे सम्पन्न हो और विजयकी अभिलाषा रखता हो तथा जिसकी अमात्यादि प्रकृति उसके सद्गुणोंसे उसमें अनुरक्त हो, ऐसे"
+          "hindi": "जब मित्र, आक्रन्द तथा आक्रन्दासार -इन तीनोंकी राजाके प्रति दृढ़भक्ति हो तथा शत्रुके मित्र आदि विपरीत स्थितिमें हों अर्थात् उसके प्रति भक्तिभाव न रखते हों, तब उसके साथ विग्रह आरम्भ (जिसके बल एवं पराक्रम उच्च कोटिके हों, जो विजिगीषुके गुणोंसे सम्पन्न हो और विजयकी अभिलाषा रखता हो तथा जिसकी अमात्यादि प्रकृति उसके सद्गुणोंसे उसमें अनुरक्त हो, ऐसे",
+          "translation": "\"May the gods dwelling in heaven, sky and earth be givers of life to you; obtain success of the gods; may that be your divine journey.",
+          "translationSource": "ai"
         },
         {
           "number": 18,
           "sanskrit": "रक्षन्तु देवताः सर्वा इति श्रुत्वा नृपो व्रजेत् । गृहीत्वा सशरञ्चापं धनुर्नागेति मन्त्रत",
           "transliteration": "rakṣantu devatāḥ sarvā iti śrutvā nṛpo vrajet / gṛhītvā saśarañcāpaṃ dhanurnāgeti mantrata",
-          "hindi": "राजाका युद्धके लिये यात्रा करना “यान' कहलाता है।) विगृह्यामन, संधायगमन, सम्भूयगमन, प्रसङ्गतः"
+          "hindi": "राजाका युद्धके लिये यात्रा करना “यान' कहलाता है।) विगृह्यामन, संधायगमन, सम्भूयगमन, प्रसङ्गतः",
+          "translation": "May all deities protect\" — hearing this the king should go. Taking the bow with arrow, with the mantra \"dhanur naga,\"",
+          "translationSource": "ai"
         },
         {
           "number": 19,
           "sanskrit": "तद्विष्णोरिति जप्त्वाथ दद्याद्रिपुमुखे पदं । दक्षिणं पदं द्वात्रिंशद्दिक्षु प्राच्यादिषु क्रमात्",
           "transliteration": "tadviṣṇoriti japtvātha dadyādripumukhe padaṃ / dakṣiṇaṃ padaṃ dvātriṃśaddikṣu prācyādiṣu kramāt",
-          "hindi": "यानके पाँच भेद कहे गये हैं  बलवान् राजा जब समस्त शत्रुओंके साथ विग्रह आरम्भ करके युद्धके लिये यात्रा करता है, तब उसकी उस यात्राको नीतिशास्त्रके विद्वान् ' विगृह्यगमन' कहते हैं; अथवा शत्रुके समस्त मित्रोंको अर्थात् उसके आगे और पीछेके शुभचिन्तकोंको अपने सामने और पीछेवाले मित्रोद्वारा छेड़े गये विग्रहमें फँसाकर शत्रुपर जो चढ़ाई की जाती है, उसे ' विगृह्ययमन' या 'विगृह्ययान' कहते हैं। जब अपनी चेष्टामें अवरोध उत्पन्न करनेवाले सभी प्रकारके शत्रुओंके साथ संधि करके जो एकमात्र किसी अन्य शत्रुपर आक्रमण"
+          "hindi": "यानके पाँच भेद कहे गये हैं  बलवान् राजा जब समस्त शत्रुओंके साथ विग्रह आरम्भ करके युद्धके लिये यात्रा करता है, तब उसकी उस यात्राको नीतिशास्त्रके विद्वान् ' विगृह्यगमन' कहते हैं; अथवा शत्रुके समस्त मित्रोंको अर्थात् उसके आगे और पीछेके शुभचिन्तकोंको अपने सामने और पीछेवाले मित्रोद्वारा छेड़े गये विग्रहमें फँसाकर शत्रुपर जो चढ़ाई की जाती है, उसे ' विगृह्ययमन' या 'विगृह्ययान' कहते हैं। जब अपनी चेष्टामें अवरोध उत्पन्न करनेवाले सभी प्रकारके शत्रुओंके साथ संधि करके जो एकमात्र किसी अन्य शत्रुपर आक्रमण",
+          "translation": "having recited \"tad vishnoh,\" he should place his foot on the enemy's face; the right foot in thirty-two directions in order beginning with the east;",
+          "translationSource": "ai"
         },
         {
           "number": 20,
           "sanskrit": "नागं रथं हयञ्चैव धुर्यांश् चैवारुहेत् क्रमात् । आरुह्य वाद्यैर् गच्छेत् पृष्थतो नावलोकयेत्",
           "transliteration": "nāgaṃ rathaṃ hayañcaiva dhuryāṃś caivāruhet kramāt / āruhya vādyair gacchet pṛṣthato nāvalokayet",
-          "hindi": "किया जाता है, वह 'संधायगमन' कहा जाता है। अथवा आपने पार्ष्णिग्राह संज्ञावाले पृष्ठवर्ती शत्रुके साथ संधि करके जो अन्यत्र -- अपने सामनेवाले शत्रुपर आक्रमणके लिये यात्रा की जाती है, विजिगीषुकी उस यात्राको भी 'संधायगमन' कहते हैं। सामूहिक लाभमें समानरूपसे भागी होनेवाले सामन्तोंके साथ, जो शक्ति और शुद्धभावसे युक्त हों, एकीभूत होकर मिलकर जो किसी एक ही शत्रुपर चढ़ाई की जाती है, उसका नाम 'सम्भूयगमन' है। अथवा जो विजिगीषु और उसके शत्रु दोनोंकी प्रकृतियोंका विनाश करनेके कारण"
+          "hindi": "किया जाता है, वह 'संधायगमन' कहा जाता है। अथवा आपने पार्ष्णिग्राह संज्ञावाले पृष्ठवर्ती शत्रुके साथ संधि करके जो अन्यत्र -- अपने सामनेवाले शत्रुपर आक्रमणके लिये यात्रा की जाती है, विजिगीषुकी उस यात्राको भी 'संधायगमन' कहते हैं। सामूहिक लाभमें समानरूपसे भागी होनेवाले सामन्तोंके साथ, जो शक्ति और शुद्धभावसे युक्त हों, एकीभूत होकर मिलकर जो किसी एक ही शत्रुपर चढ़ाई की जाती है, उसका नाम 'सम्भूयगमन' है। अथवा जो विजिगीषु और उसके शत्रु दोनोंकी प्रकृतियोंका विनाश करनेके कारण",
+          "translation": "he should mount in order elephant, chariot, horse and draught animals. Having mounted, he should go with music, not looking behind;",
+          "translationSource": "ai"
         },
         {
           "number": 21,
           "sanskrit": "क्रोशमात्रं गतस्तिष्ठेत् पूजयेद्देवता द्विजान् । परदेशं व्रजेत् पश्चादात्मसैन्यं हि पालयन्",
           "transliteration": "krośamātraṃ gatastiṣṭhet pūjayeddevatā dvijān / paradeśaṃ vrajet paścādātmasainyaṃ hi pālayan",
-          "hindi": "दोनोंका शत्रु हो, उसके प्रति विजिगीषु तथा शत्रु दोनोंका मिलकर युद्धके लिये यात्रा करना ' सम्भूयगमन' है। इसके उदाहरण हैं-सूर्य और हनुमान्। हनुमान् बाल्यावस्थामें लोहित सूर्यमण्डलको उदित हुआ देख, “यह क्या है'-इस बातको जाननेके लिये बालोचित चपलतावश उछलकर उसे पकड्नेके लिये आगे बढ़े। निकट पहुँचनेपर उन्होंने देखा कि भानुको ग्रहण करनेके लिये स्वर्भानु (राहु) आया है। फिर तो उसे ही अपना प्रतिद्वद्वी जान हनुमानजी उसपर टूट पड़े। उस समय सूर्यने भी अपने प्रमुख शत्रु राहुको दबानेके लिये अपने भोले-भाले शत्रु हनुमानजीका ही साथ दिया। एकपर आक्रमण करनेके लिये प्रस्थित हुआ राजा यदि प्रसङ्गवश उसके विरोधी दूसरे पक्षको अपने आक्रमणका लक्ष्य बना लेता है तो उसकी उस यात्राको ' प्रसङ्गतःगमन' या 'प्रसङ्गयान' कहते हैं। इसके दृष्टान्त हैं राजा शल्य। वे दुर्योधनपर पाण्डवपक्षसे आक्रमणके लिये चले थे, किंतु मार्गमें दुर्योधनके अति सत्कारसे प्रसन्न हो उसे वर माँगनेके लिये कहकर उसको प्रार्थनासे उसीके सेनापति हो गये और अपने भानजे युधिष्ठिरको ही अपने आक्रमणका लक्ष्य बनाया।"
+          "hindi": "दोनोंका शत्रु हो, उसके प्रति विजिगीषु तथा शत्रु दोनोंका मिलकर युद्धके लिये यात्रा करना ' सम्भूयगमन' है। इसके उदाहरण हैं-सूर्य और हनुमान्। हनुमान् बाल्यावस्थामें लोहित सूर्यमण्डलको उदित हुआ देख, “यह क्या है'-इस बातको जाननेके लिये बालोचित चपलतावश उछलकर उसे पकड्नेके लिये आगे बढ़े। निकट पहुँचनेपर उन्होंने देखा कि भानुको ग्रहण करनेके लिये स्वर्भानु (राहु) आया है। फिर तो उसे ही अपना प्रतिद्वद्वी जान हनुमानजी उसपर टूट पड़े। उस समय सूर्यने भी अपने प्रमुख शत्रु राहुको दबानेके लिये अपने भोले-भाले शत्रु हनुमानजीका ही साथ दिया। एकपर आक्रमण करनेके लिये प्रस्थित हुआ राजा यदि प्रसङ्गवश उसके विरोधी दूसरे पक्षको अपने आक्रमणका लक्ष्य बना लेता है तो उसकी उस यात्राको ' प्रसङ्गतःगमन' या 'प्रसङ्गयान' कहते हैं। इसके दृष्टान्त हैं राजा शल्य। वे दुर्योधनपर पाण्डवपक्षसे आक्रमणके लिये चले थे, किंतु मार्गमें दुर्योधनके अति सत्कारसे प्रसन्न हो उसे वर माँगनेके लिये कहकर उसको प्रार्थनासे उसीके सेनापति हो गये और अपने भानजे युधिष्ठिरको ही अपने आक्रमणका लक्ष्य बनाया।",
+          "translation": "having gone a krosha he should stop and worship the deities and Brahmins. Afterward he should go to the enemy country protecting his own army.",
+          "translationSource": "ai"
         },
         {
           "number": 22,
           "sanskrit": "राजा प्राप्य देवेशन्तु(४) देशपालन्तु पालयेत्(५) । देवानां पूजनं कुर्यान्न छिन्द्यादायमत्र तु",
           "transliteration": "rājā prāpya deveśantu(4) deśapālantu pālayet(5) / devānāṃ pūjanaṃ kuryānna chindyādāyamatra tu",
-          "hindi": "शत्रुके प्रति आक्रमण करनेवाले विजिगीषुको रोकनेके लिये यदि उस शत्रुके बलवान् मित्र आ पहुँचे तो उस शत्रुकी उपेक्षा करके उसके उन मित्रोंपर ही चढ़ाई करना “उपेक्षायान' कहलाता है-जैसे इन्द्रकी आज्ञासे निवातकवचोंका वध करनेके लिये प्रस्थित हुए अर्जुनको रोकनेके निमित्त जब हिरण्यपुरवासी 'कालकंज' नामक असुर आ पहुँचे, तब अर्जुन उन निवातकवचोंकी उपेक्षा करके कालकंजोंपर ही टूट पड़े और उनको परास्त करनेके बाद ही उन्होंने निवातकवचोंका वध किया।"
+          "hindi": "शत्रुके प्रति आक्रमण करनेवाले विजिगीषुको रोकनेके लिये यदि उस शत्रुके बलवान् मित्र आ पहुँचे तो उस शत्रुकी उपेक्षा करके उसके उन मित्रोंपर ही चढ़ाई करना “उपेक्षायान' कहलाता है-जैसे इन्द्रकी आज्ञासे निवातकवचोंका वध करनेके लिये प्रस्थित हुए अर्जुनको रोकनेके निमित्त जब हिरण्यपुरवासी 'कालकंज' नामक असुर आ पहुँचे, तब अर्जुन उन निवातकवचोंकी उपेक्षा करके कालकंजोंपर ही टूट पड़े और उनको परास्त करनेके बाद ही उन्होंने निवातकवचोंका वध किया।",
+          "translation": "The king, having reached the lord of gods, should protect the country-guardian; he should worship the gods and not cut the revenue there;",
+          "translationSource": "ai"
         },
         {
           "number": 23,
           "sanskrit": "नावमानयेत्तद्देश्यानागत्य स्वपुरं पुनः । २ जित्वा शत्रुं प्रदास्यामीति ट॥ ३ जैत्रा यात्रास्त्विति ट॥ ४ प्राप्तविदेशस्तु इति ग॥ , घ॥ , ञ॥ च ५ देशाचारन्तु पालयेदिति ख॥ । देशाचारणेण पालयेदिति ग॥ , घ॥ , छ॥ , ज॥ , ञ॥ च :प् ३५२ जयं प्राप्यार्चयेद्देवान् दद्याद्दानानि पार्थिवः",
           "transliteration": "nāvamānayettaddeśyānāgatya svapuraṃ punaḥ / 2 jitvā śatruṃ pradāsyāmīti ṭa.. 3 jaitrā yātrāstviti ṭa.. 4 prāptavideśastu iti ga.. , gha.. , ña.. ca 5 deśācārantu pālayediti kha.. / deśācāraṇeṇa pālayediti ga.. , gha.. , cha.. , ja.. , ña.. ca :p 352 jayaṃ prāpyārcayeddevān dadyāddānāni pārthivaḥ",
-          "hindi": "जब विजिगीषु और शत्रु-दोनों एक-दूसरेको शक्तिका विधात न कर सकनेके कारण आक्रमण न करके बैठ रहें तो इसे 'आसन' कहा जाता है; इसके भी 'यान'की ही भाँति पाँच भेद होते हैं-१. विगृह्य आसन, २. संधाय"
+          "hindi": "जब विजिगीषु और शत्रु-दोनों एक-दूसरेको शक्तिका विधात न कर सकनेके कारण आक्रमण न करके बैठ रहें तो इसे 'आसन' कहा जाता है; इसके भी 'यान'की ही भाँति पाँच भेद होते हैं-१. विगृह्य आसन, २. संधाय",
+          "translation": "he should not insult the people of that country; having come again to his own city, having obtained victory, the king should worship the gods and give gifts.",
+          "translationSource": "ai"
         },
         {
           "number": 24,
           "sanskrit": "द्वितीये अहनि सङ्ग्रामो भविष्यति यदा तदा । स्नपयेद्गजमश्वादि यजेद्देवं नृपसिंहकं",
           "transliteration": "dvitīye ahani saṅgrāmo bhaviṣyati yadā tadā / snapayedgajamaśvādi yajeddevaṃ nṛpasiṃhakaṃ",
-          "hindi": "दो बलवान् शत्रुओंके बीचमें पड़कर वाणीद्वारा दोनोंको ही आत्मसमर्पण करे-'मैं और मेरा! राज्य दोनोंके ही हैं', यह संदेश दोनोंके ही पास गुप्तरूपसे भेजे और स्वयं दुर्गमें छिपा रहे। यह"
+          "hindi": "दो बलवान् शत्रुओंके बीचमें पड़कर वाणीद्वारा दोनोंको ही आत्मसमर्पण करे-'मैं और मेरा! राज्य दोनोंके ही हैं', यह संदेश दोनोंके ही पास गुप्तरूपसे भेजे और स्वयं दुर्गमें छिपा रहे। यह",
+          "translation": "When on the second day a battle will take place, then one should bathe elephant, horse and the rest, and worship the god Nripasimha;",
+          "translationSource": "ai"
         },
         {
           "number": 25,
           "sanskrit": "छत्रादिराजलिङ्गानि शस्त्राणि निशि वै गणान् । प्रातर्नृसिंहकं पूज्य वाहनाद्यमशेषतः",
           "transliteration": "chatrādirājaliṅgāni śastrāṇi niśi vai gaṇān / prātarnṛsiṃhakaṃ pūjya vāhanādyamaśeṣataḥ",
-          "hindi": "'द्रेघीभाव'की नीति है । जब उक्त दोनों शत्रु पहलेसे ही संगठित होकर आक्रमण करते हों, तब जो उनमें अधिक बलशाली हो, उसकी शरण ले। यदि वे दोनों शत्रु परस्पर मन्त्रणा करके उसके साथ किसी भी शर्तपर संधि न करना चाहते हों, तब विजिगीषु उन दोनोंके ही किसी शत्रुका आश्रय ले अथवा किसी भी अधिक शक्तिशाली राजाकी शरण लेकर आत्मरक्षा करे"
+          "hindi": "'द्रेघीभाव'की नीति है । जब उक्त दोनों शत्रु पहलेसे ही संगठित होकर आक्रमण करते हों, तब जो उनमें अधिक बलशाली हो, उसकी शरण ले। यदि वे दोनों शत्रु परस्पर मन्त्रणा करके उसके साथ किसी भी शर्तपर संधि न करना चाहते हों, तब विजिगीषु उन दोनोंके ही किसी शत्रुका आश्रय ले अथवा किसी भी अधिक शक्तिशाली राजाकी शरण लेकर आत्मरक्षा करे",
+          "translation": "the umbrella and other royal insignia, weapons at night, and the hosts; in the morning having worshipped Narasimha, vehicles and the rest entirely,",
+          "translationSource": "ai"
         },
         {
           "number": 26,
           "sanskrit": "पुरोधसा हुतं पश्येद्वह्निं हुत्वा द्विजान्यजेत् । गृहीत्वा सशरञ्चापं गजाद्यारुह्य वै व्रजेत्",
           "transliteration": "purodhasā hutaṃ paśyedvahniṃ hutvā dvijānyajet / gṛhītvā saśarañcāpaṃ gajādyāruhya vai vrajet",
-          "hindi": "यदि विजिगीषुपर किसी बलवान् शत्रुका आक्रमण हो और वह उच्छिन्न होने लगे तथा किसी उपायसे उस संकटका निवारण करना उसके लिये असम्भव हो जाय, तब वह किसी"
+          "hindi": "यदि विजिगीषुपर किसी बलवान् शत्रुका आक्रमण हो और वह उच्छिन्न होने लगे तथा किसी उपायसे उस संकटका निवारण करना उसके लिये असम्भव हो जाय, तब वह किसी",
+          "translation": "he should see the fire oblation done by the priest; having offered, worship Brahmins; taking bow with arrows, mounting an elephant and the rest, he should go.",
+          "translationSource": "ai"
         },
         {
           "number": 27,
           "sanskrit": "देशे त्वदृश्यः शत्रूणां कुर्यात् प्रकृतिकल्पनां । संहतान् योधयेदल्पान् कामं विस्तारयेद्बहून्",
           "transliteration": "deśe tvadṛśyaḥ śatrūṇāṃ kuryāt prakṛtikalpanāṃ / saṃhatān yodhayedalpān kāmaṃ vistārayedbahūn",
-          "hindi": "कुलीन, सत्यवादी, सदाचारी तथा शत्रुकी अपेक्षा अधिक बलशाली राजाकी शरण ले। उस आश्रयदाताके दर्शनके लिये उसको आराधना करना, सदा उसके अभिप्रायके अनुकूल चलना, उसीके लिये कार्य करना और सदा उसके प्रति आदरका भाव रखना-यह आश्रय लेनेवालेका व्यवहार बतलाया गया है"
+          "hindi": "कुलीन, सत्यवादी, सदाचारी तथा शत्रुकी अपेक्षा अधिक बलशाली राजाकी शरण ले। उस आश्रयदाताके दर्शनके लिये उसको आराधना करना, सदा उसके अभिप्रायके अनुकूल चलना, उसीके लिये कार्य करना और सदा उसके प्रति आदरका भाव रखना-यह आश्रय लेनेवालेका व्यवहार बतलाया गया है",
+          "translation": "In the country, unseen by enemies, he should arrange the constituents; he should make a few fight in a compact body, spread the many as desired.",
+          "translationSource": "ai"
         },
         {
           "number": 28,
           "sanskrit": "सूचीमुखमनीकं स्यादल्पानां बहुभिः सह । व्यूहाः प्राण्यङ्गरूपाश् च द्रव्यरूपाश् च कीर्तिताः",
           "transliteration": "sūcīmukhamanīkaṃ syādalpānāṃ bahubhiḥ saha / vyūhāḥ prāṇyaṅgarūpāś ca dravyarūpāś ca kīrtitāḥ",
-          "hindi": "इस प्रकार आदि आग्रेय महापुराणमें “बाड्गुण्यकथन' नामक दो सौ चालीसवाँ अध्याय पूरा हुआ"
+          "hindi": "इस प्रकार आदि आग्रेय महापुराणमें “बाड्गुण्यकथन' नामक दो सौ चालीसवाँ अध्याय पूरा हुआ",
+          "translation": "An army for a few with many would be needle-faced. Formations are declared in the form of animal limbs and of objects:",
+          "translationSource": "ai"
         },
         {
           "number": 29,
           "sanskrit": "गरुडो मकरव्यूहश् चक्रः श्येनस्तथैव च । अर्धचन्द्रश् च वज्रश् च शकटव्यूह एव च",
           "transliteration": "garuḍo makaravyūhaś cakraḥ śyenastathaiva ca / ardhacandraś ca vajraś ca śakaṭavyūha eva ca",
-          "hindi": "जब शत्रु और विजिगीषु परस्पर आक्रमण करके कारणवशात् युद्ध बंद करके बैठ जायँ तो इसे “विगृह्यासन' कहते हैं। यह एक प्रकार है। विजिगीषु शत्रुके किसी प्रदेशको क्षति पहुँचाकर जब स्वतः युद्धसे विरत होकर बैठ जाता है, तब यह भी 'विगृह्यासन' कहलाता है।"
+          "hindi": "जब शत्रु और विजिगीषु परस्पर आक्रमण करके कारणवशात् युद्ध बंद करके बैठ जायँ तो इसे “विगृह्यासन' कहते हैं। यह एक प्रकार है। विजिगीषु शत्रुके किसी प्रदेशको क्षति पहुँचाकर जब स्वतः युद्धसे विरत होकर बैठ जाता है, तब यह भी 'विगृह्यासन' कहलाता है।",
+          "translation": "Garuda, Makara formation, Wheel, Hawk likewise, Half-moon, Thunderbolt, and Cart formation,",
+          "translationSource": "ai"
         },
         {
           "number": 30,
           "sanskrit": "मण्डलः सर्वतोभद्रः सूचीव्यूहश् च ते नराः । व्यूहानामथ सर्वेषां पञ्चधा सैन्यकल्पना",
           "transliteration": "maṇḍalaḥ sarvatobhadraḥ sūcīvyūhaś ca te narāḥ / vyūhānāmatha sarveṣāṃ pañcadhā sainyakalpanā",
-          "hindi": "यदि शत्रु दुर्गके भीतर स्थित होनेके कारण पकड़ा न जा सके, तो उसके आसार ( मित्रवर्ग) तथा बीज (अनाजको फसल"
+          "hindi": "यदि शत्रु दुर्गके भीतर स्थित होनेके कारण पकड़ा न जा सके, तो उसके आसार ( मित्रवर्ग) तथा बीज (अनाजको फसल",
+          "translation": "Circle, All-auspicious, and Needle formation — those men. For all formations the army arrangement is fivefold:",
+          "translationSource": "ai"
         },
         {
           "number": 31,
           "sanskrit": "द्वौ पक्षावनुपक्षौ द्वावश्यं पञ्चमं भवेत् । एकेन यदि वा द्वाभ्यां भागाभ्यां युद्धमाचरेत्",
           "transliteration": "dvau pakṣāvanupakṣau dvāvaśyaṃ pañcamaṃ bhavet / ekena yadi vā dvābhyāṃ bhāgābhyāṃ yuddhamācaret",
-          "hindi": "आदि)-को नष्ट करके उसके साथ विग्रह छोड़कर बैठ रहे दीर्घकालतक ऐसा करनेसे प्रजा आदि प्रकृतियाँ उस शत्रु राजासे विरक्त हो जाती हैं। अतः समयानुसार वह वशीभूत हो जाता है। शत्रु और विजिगीषु समान बलशाली होनेके कारण युद्ध छिड्नेपर जब समानरूपसे क्षीण होने लगें, तब परस्पर संधि करके बैठ जायँ। यह “संधाय आसन' कहलाता है । पूर्वकालमें निवातकवचोंके साथ जब दिग्विजयी रावणका युद्ध होने लगा, तब दोनों पक्ष ब्रह्माजीके वरदानसे शक्तिशाली होनेके कारण एक-दूसरेको परास्त न कर सके। उस दशामें ब्रह्माजीको ही बीचमें डालकर रावण संधि करके बैठ रहा। यह 'संधाय आसन' का उदाहरण है।"
+          "hindi": "आदि)-को नष्ट करके उसके साथ विग्रह छोड़कर बैठ रहे दीर्घकालतक ऐसा करनेसे प्रजा आदि प्रकृतियाँ उस शत्रु राजासे विरक्त हो जाती हैं। अतः समयानुसार वह वशीभूत हो जाता है। शत्रु और विजिगीषु समान बलशाली होनेके कारण युद्ध छिड्नेपर जब समानरूपसे क्षीण होने लगें, तब परस्पर संधि करके बैठ जायँ। यह “संधाय आसन' कहलाता है । पूर्वकालमें निवातकवचोंके साथ जब दिग्विजयी रावणका युद्ध होने लगा, तब दोनों पक्ष ब्रह्माजीके वरदानसे शक्तिशाली होनेके कारण एक-दूसरेको परास्त न कर सके। उस दशामें ब्रह्माजीको ही बीचमें डालकर रावण संधि करके बैठ रहा। यह 'संधाय आसन' का उदाहरण है।",
+          "translation": "two wings, two supporting wings, and a fifth, the reserve; one should fight with one or two parts;",
+          "translationSource": "ai"
         },
         {
           "number": 32,
           "sanskrit": "भागत्रयं स्थापयेत्तु तेषां रक्षार्थमेव च । न व्यूहकल्पना कार्या राज्ञो भवति कर्हिचित्",
           "transliteration": "bhāgatrayaṃ sthāpayettu teṣāṃ rakṣārthameva ca / na vyūhakalpanā kāryā rājño bhavati karhicit",
-          "hindi": "विजिगीषु और उसके शत्रुको उदासीन और मध्यमसे आक्रमणकी समानरूपसे शङ्का हो, तब उन दोनोंको मिल जाना चाहिए। इस प्रकार मिलकर बैठना ' सम्भूय आसन' कहलाता है। जब मध्यम और उदासीनमेंसे कोई-सा भी विजिगीषु और उसके शत्रु -- दोनोंका विनाश करना चाहता हो, तब वह उन दोनोंका शत्रु समझा जाता है; उस दशामें विजिगीषु अपने शत्रुके साथ मिलकर दोनोंके ही अधिक बलवान् शत्रुभूत उस मध्यम या उदासीनका सामना करें। यही “सम्भूय आसन' है।"
+          "hindi": "विजिगीषु और उसके शत्रुको उदासीन और मध्यमसे आक्रमणकी समानरूपसे शङ्का हो, तब उन दोनोंको मिल जाना चाहिए। इस प्रकार मिलकर बैठना ' सम्भूय आसन' कहलाता है। जब मध्यम और उदासीनमेंसे कोई-सा भी विजिगीषु और उसके शत्रु -- दोनोंका विनाश करना चाहता हो, तब वह उन दोनोंका शत्रु समझा जाता है; उस दशामें विजिगीषु अपने शत्रुके साथ मिलकर दोनोंके ही अधिक बलवान् शत्रुभूत उस मध्यम या उदासीनका सामना करें। यही “सम्भूय आसन' है।",
+          "translation": "three parts one should station for their protection. The king should never be made part of the formation;",
+          "translationSource": "ai"
         },
         {
           "number": 33,
           "sanskrit": "मूलच्छेदे विनाशः स्यान्न युध्येच्च स्वयन्नृपः । सैन्यस्य पश्चात्तिष्ठेत्तु क्रोशमात्रे महीपतिः",
           "transliteration": "mūlacchede vināśaḥ syānna yudhyecca svayannṛpaḥ / sainyasya paścāttiṣṭhettu krośamātre mahīpatiḥ",
-          "hindi": "यदि विजिगीषु किसी अन्य शत्रुपर आक्रमणकी इच्छा रखता हो; किंतु कार्यान्तर (अर्थलाभ या अनर्थ-प्रतिकार)-के प्रसङ्ग से अन्यत्र बैठे रहे तो इसे “प्रसङ्गासन' कहते हैं।  अधिक शक्तिशाली शत्रुकी उपेक्षा करके अपने स्थानपर बैठे रहना 'उपेक्षासन' कहलाता है। भगवान् श्रीकृष्णने जब पारिजातहरण किया था, उस समय उन्हें अधिक शक्तिशाली जानकर इन्द्रदेव उपेक्षा करके बैठ रहे, यह उपेक्षासनका उदाहरण है। इसका एक दूसरा उदाहरण रुक्मी है। महाभारत-युद्धमें वह क्रथ और क्रैशिकोंकी सेना लेकर बारी-बारीसे कौरवों और पाण्डवोंके पास गया और बोला, 'यदि तुम डरे हुए हो तो हम तुम्हारी सहायता करके तुम्हें विजय दिलायें।' उसकी इस बातपर दोनोंने उसको"
+          "hindi": "यदि विजिगीषु किसी अन्य शत्रुपर आक्रमणकी इच्छा रखता हो; किंतु कार्यान्तर (अर्थलाभ या अनर्थ-प्रतिकार)-के प्रसङ्ग से अन्यत्र बैठे रहे तो इसे “प्रसङ्गासन' कहते हैं।  अधिक शक्तिशाली शत्रुकी उपेक्षा करके अपने स्थानपर बैठे रहना 'उपेक्षासन' कहलाता है। भगवान् श्रीकृष्णने जब पारिजातहरण किया था, उस समय उन्हें अधिक शक्तिशाली जानकर इन्द्रदेव उपेक्षा करके बैठ रहे, यह उपेक्षासनका उदाहरण है। इसका एक दूसरा उदाहरण रुक्मी है। महाभारत-युद्धमें वह क्रथ और क्रैशिकोंकी सेना लेकर बारी-बारीसे कौरवों और पाण्डवोंके पास गया और बोला, 'यदि तुम डरे हुए हो तो हम तुम्हारी सहायता करके तुम्हें विजय दिलायें।' उसकी इस बातपर दोनोंने उसको",
+          "translation": "if the root is cut, destruction results; the king should not fight himself. The king should stay a krosha behind the army;",
+          "translationSource": "ai"
         },
         {
           "number": 34,
           "sanskrit": "भग्नसन्धारणं तत्र योधानां परिकीर्तितं । प्रधानभङ्गे सैन्यस्य नाशस्थानं विधीयते",
           "transliteration": "bhagnasandhāraṇaṃ tatra yodhānāṃ parikīrtitaṃ / pradhānabhaṅge sainyasya nāśasthānaṃ vidhīyate",
-          "hindi": "उपेक्षा कर दी। अतः वह किसी ओरसे युद्ध न करके अपने घरपर ही बैठा रहा।"
+          "hindi": "उपेक्षा कर दी। अतः वह किसी ओरसे युद्ध न करके अपने घरपर ही बैठा रहा।",
+          "translation": "there the rallying of the broken warriors is declared; when the chief is broken the army meets its place of destruction.",
+          "translationSource": "ai"
         },
         {
           "number": 35,
           "sanskrit": "न संहतान्न विरलान्योधान् व्यूहे प्रकल्पयेत् । आयुधानान्तु सम्मर्दो यथा न स्यात् परस्परं",
           "transliteration": "na saṃhatānna viralānyodhān vyūhe prakalpayet / āyudhānāntu sammardo yathā na syāt parasparaṃ",
-          "hindi": "श्रीराम कहते हैं-- ' लक्ष्मण! प्रभावशक्ति और उत्साह-शक्तिसे मन्त्रशक्ति श्रेष्ठ बतायी गयी है। प्रभाव और उत्साहसे सम्पन्न शुक्राचार्यको देवपुरोहित बृहस्पतिने मन्त्र-बलसे जीत लिया जो विश्वसनीय होनेके साथ-ही-साथ नीतिशास्त्रका विद्वान् हो, उसीके साथ राजा अपने कर्तव्यके विषयमें मन्त्रणा करे। (जो विश्वसनीय"
+          "hindi": "श्रीराम कहते हैं-- ' लक्ष्मण! प्रभावशक्ति और उत्साह-शक्तिसे मन्त्रशक्ति श्रेष्ठ बतायी गयी है। प्रभाव और उत्साहसे सम्पन्न शुक्राचार्यको देवपुरोहित बृहस्पतिने मन्त्र-बलसे जीत लिया जो विश्वसनीय होनेके साथ-ही-साथ नीतिशास्त्रका विद्वान् हो, उसीके साथ राजा अपने कर्तव्यके विषयमें मन्त्रणा करे। (जो विश्वसनीय",
+          "translation": "One should not arrange warriors in a formation too close or too sparse, so that weapons do not crowd one another;",
+          "translationSource": "ai"
         },
         {
           "number": 36,
           "sanskrit": "भेत्तुकामः परानीकं संहतैर् एव भेदयेत् । भेदरक्ष्याः परेणापि कर्तव्याः संहतास् तथा",
           "transliteration": "bhettukāmaḥ parānīkaṃ saṃhatair eva bhedayet / bhedarakṣyāḥ pareṇāpi kartavyāḥ saṃhatās tathā",
-          "hindi": "अविश्वसनीय हो, ऐसे मन्त्रीको त्याग दे। कौन कार्य किया जा सकता है और कौन अशक्य है, इसका स्वच्छ बुद्धिसे विवेचन करे।) जो अशक्य कार्यका आरम्भ करते हैं, उन्हें क्लेश"
+          "hindi": "अविश्वसनीय हो, ऐसे मन्त्रीको त्याग दे। कौन कार्य किया जा सकता है और कौन अशक्य है, इसका स्वच्छ बुद्धिसे विवेचन करे।) जो अशक्य कार्यका आरम्भ करते हैं, उन्हें क्लेश",
+          "translation": "one wishing to break the enemy's force should break with compact ones; those protected from breaking should be kept compact by the enemy too.",
+          "translationSource": "ai"
         },
         {
           "number": 37,
           "sanskrit": "व्यूहं भेदावहं कुर्यात् परव्यूहेषु चेच्छया । गजस्य पादरक्षार्थाश् चत्वारस्तु तथा द्विज",
           "transliteration": "vyūhaṃ bhedāvahaṃ kuryāt paravyūheṣu cecchayā / gajasya pādarakṣārthāś catvārastu tathā dvija",
-          "hindi": "उठानेके सिवा कोई फल कैसे प्राप्त हो सकता है ? अविज्ञात (परोक्ष)-का ज्ञान, विज्ञातका निश्चय, कर्तव्यके विषयमें दुविधा उत्पन्न होनेपर संशयका"
+          "hindi": "उठानेके सिवा कोई फल कैसे प्राप्त हो सकता है ? अविज्ञात (परोक्ष)-का ज्ञान, विज्ञातका निश्चय, कर्तव्यके विषयमें दुविधा उत्पन्न होनेपर संशयका",
+          "translation": "One should make a formation that breaks others' formations at will. Four men for protecting an elephant's feet, twice-born,",
+          "translationSource": "ai"
         },
         {
           "number": 38,
           "sanskrit": "रथस्य चाश्वाश् चत्वारः समास्तस्य च चर्मिणः । धन्विनश् चर्मिभिस्तुल्याः पुरस्ताच्चर्मिणो रणे",
           "transliteration": "rathasya cāśvāś catvāraḥ samāstasya ca carmiṇaḥ / dhanvinaś carmibhistulyāḥ purastāccarmiṇo raṇe",
-          "hindi": "कर्तव्य)-की उपलब्धि--ये सब मन्त्रियोंके ही अधीन हैं। सहायक, कार्यसाधनके उपाय, देश और कालका विभाग, विपत्तिका निवारण तथा कर्तव्यको सिद्धि--ये मन्त्रियोंकी मन्त्रणाके पाँच"
+          "hindi": "कर्तव्य)-की उपलब्धि--ये सब मन्त्रियोंके ही अधीन हैं। सहायक, कार्यसाधनके उपाय, देश और कालका विभाग, विपत्तिका निवारण तथा कर्तव्यको सिद्धि--ये मन्त्रियोंकी मन्त्रणाके पाँच",
+          "translation": "and four horses for a chariot; equal to it are those with shields; archers equal to shield-bearers; in battle shield-bearers in front,",
+          "translationSource": "ai"
         },
         {
           "number": 39,
           "sanskrit": "पृष्ठतो धन्विनः प्रश्चाद्धन्विनान्तुरगा रथाः । रथानां कुञ्जराः पश्चाद्दातव्याः पृथिवीक्षिता",
           "transliteration": "pṛṣṭhato dhanvinaḥ praścāddhanvinānturagā rathāḥ / rathānāṃ kuñjarāḥ paścāddātavyāḥ pṛthivīkṣitā",
-          "hindi": "मनको प्रसन्नता, श्रद्धा (कार्यसिद्धिके विषयमें हढ़ विश्वास), जञानेन्द्रियों तथा कर्मेन्द्रियोंकी स्वविषयक व्यापारमें क्षमता, सहाय-सम्पत्ति (सहायकोंका बाहुल्य अथवा सत्त्वादि गुणोंका योग) तथा उत्थान-सम्पत्ति (शीघ्रतापूर्वक उत्थान करनेका स्वभाव)-ये"
+          "hindi": "मनको प्रसन्नता, श्रद्धा (कार्यसिद्धिके विषयमें हढ़ विश्वास), जञानेन्द्रियों तथा कर्मेन्द्रियोंकी स्वविषयक व्यापारमें क्षमता, सहाय-सम्पत्ति (सहायकोंका बाहुल्य अथवा सत्त्वादि गुणोंका योग) तथा उत्थान-सम्पत्ति (शीघ्रतापूर्वक उत्थान करनेका स्वभाव)-ये",
+          "translation": "archers behind, horses behind archers, chariots; behind chariots elephants should be placed by the king.",
+          "translationSource": "ai"
         },
         {
           "number": 40,
           "sanskrit": "पदातिकुञ्जराश्वानां धर्मकार्यं प्रयत्नतः । शूराः प्रमुखतो देयाः स्कन्धमात्रप्रदर्शनं",
           "transliteration": "padātikuñjarāśvānāṃ dharmakāryaṃ prayatnataḥ / śūrāḥ pramukhato deyāḥ skandhamātrapradarśanaṃ",
-          "hindi": "कर्मोकी सिद्धिके लक्षण हैं"
+          "hindi": "कर्मोकी सिद्धिके लक्षण हैं",
+          "translation": "The duty of infantry, elephants and horses is to be carried out with effort. Brave ones should be placed in front, showing only shoulder;",
+          "translationSource": "ai"
         },
         {
           "number": 41,
           "sanskrit": "कर्तव्यं भीरुसङ्घेन शत्रुविद्रावकारकं(१) । दारयन्ति पुरस्तात्तु न देया भीरवः पुरः",
           "transliteration": "kartavyaṃ bhīrusaṅghena śatruvidrāvakārakaṃ(1) / dārayanti purastāttu na deyā bhīravaḥ puraḥ",
-          "hindi": "मद (मदिरा आदिका नशा), प्रमाद (कार्यान्तरके प्रसङ्गसे असावधानी), काम (कामभावनासे प्रेरित होकर स््त्रियोंपर विश्वास), स्वप्नावस्थामें किये गये प्रलाप, खंभे आदिकी ओटमें लुके-छिपे लोग, पार्श्ववर्तिनी कामिनियाँ तथा उपेक्षित प्राणी (तोता, मैना, बालक, बहरे आदि) -ये मन्त्रका भेदन करनेमें कारण बनते हैं"
+          "hindi": "मद (मदिरा आदिका नशा), प्रमाद (कार्यान्तरके प्रसङ्गसे असावधानी), काम (कामभावनासे प्रेरित होकर स््त्रियोंपर विश्वास), स्वप्नावस्थामें किये गये प्रलाप, खंभे आदिकी ओटमें लुके-छिपे लोग, पार्श्ववर्तिनी कामिनियाँ तथा उपेक्षित प्राणी (तोता, मैना, बालक, बहरे आदि) -ये मन्त्रका भेदन करनेमें कारण बनते हैं",
+          "translation": "the troop of the timid should do what makes the enemy flee; those who tear in front, the timid should not be placed in front;",
+          "translationSource": "ai"
         },
         {
           "number": 42,
           "sanskrit": "प्रोत्साहन्त्येव रणे भीरून् शूराः पुरस्थिताः । प्रांशवः शकुनाशाश् च ये चाजिह्मेक्षणा(२) नराः",
           "transliteration": "protsāhantyeva raṇe bhīrūn śūrāḥ purasthitāḥ / prāṃśavaḥ śakunāśāś ca ye cājihmekṣaṇā(2) narāḥ",
-          "hindi": "सभामें निर्भीक बोलनेवाला, स्मरणशक्तिसे सम्पन्न, प्रवचन-कुशल, शस्त्र और शास्त्रमें परिनिष्ठित तथा दूतोचित कर्मके अभ्याससे सम्पन्न पुरुष राजदूत होनेके योग्य होता है। निसृष्टार्थ"
+          "hindi": "सभामें निर्भीक बोलनेवाला, स्मरणशक्तिसे सम्पन्न, प्रवचन-कुशल, शस्त्र और शास्त्रमें परिनिष्ठित तथा दूतोचित कर्मके अभ्याससे सम्पन्न पुरुष राजदूत होनेके योग्य होता है। निसृष्टार्थ",
+          "translation": "the brave standing in front encourage the timid in battle. Tall men, those who see omens and those of straight gaze,",
+          "translationSource": "ai"
         },
         {
           "number": 43,
           "sanskrit": "संहतभ्रूयुगाश् चैव क्रोधना कलहप्रियाः । नित्यहृष्टाः प्रहृष्टाश् च शूरा ज्ञेयाश् चकामिनः",
           "transliteration": "saṃhatabhrūyugāś caiva krodhanā kalahapriyāḥ / nityahṛṣṭāḥ prahṛṣṭāś ca śūrā jñeyāś cakāminaḥ",
-          "hindi": "(जिसपर संधि-विग्रह आदि कार्यको इच्छानुसार करनेका पूरा भार सौंपा गया हो, वह), मितार्थ (जिसे परिमित कार्य-भार दिया गया हो, यथा-- इतना ही करना या इतना ही बोलना चाहिए), तथा शासनहारक (लिखित आदेशको पहुँचानेवाला) “ये दूतके तीन भेद कहे गये हैं"
+          "hindi": "(जिसपर संधि-विग्रह आदि कार्यको इच्छानुसार करनेका पूरा भार सौंपा गया हो, वह), मितार्थ (जिसे परिमित कार्य-भार दिया गया हो, यथा-- इतना ही करना या इतना ही बोलना चाहिए), तथा शासनहारक (लिखित आदेशको पहुँचानेवाला) “ये दूतके तीन भेद कहे गये हैं",
+          "translation": "with brows joined, angry, fond of quarrels, ever glad and exultant, are to be known as brave, and the amorous.",
+          "translationSource": "ai"
         },
         {
           "number": 44,
           "sanskrit": "संहतानां हतानां च रणापनयनक्रिया(३) । प्रतियुद्धं गजानाञ्च तोयदानादिकञ्च यत्",
           "transliteration": "saṃhatānāṃ hatānāṃ ca raṇāpanayanakriyā(3) / pratiyuddhaṃ gajānāñca toyadānādikañca yat",
-          "hindi": "दूत अपने आगमनकी सूचना दिये बिना शत्रुके दुर्ग तथा संसद्में प्रवेश न करे (अन्यथा वह संदेहका पात्र बन जाता है)। वह कार्यसिद्धिके लिये समयकी प्रतीक्षा करे तथा शत्रु राजाकी"
+          "hindi": "दूत अपने आगमनकी सूचना दिये बिना शत्रुके दुर्ग तथा संसद्में प्रवेश न करे (अन्यथा वह संदेहका पात्र बन जाता है)। वह कार्यसिद्धिके लिये समयकी प्रतीक्षा करे तथा शत्रु राजाकी",
+          "translation": "The act of removing the compact and the slain from the battle, counter-fighting of elephants and the giving of water and the like,",
+          "translationSource": "ai"
         },
         {
           "number": 45,
           "sanskrit": "१ शत्रुद्रावकारणमिति ख॥ , ग॥ , घ॥ , ञ॥ च २ ये च जिह्मेक्षणा इति ख॥ , ग॥ , घ॥ , ञ॥ च ३ वलापनयनक्रियेति ज॥ :प् ३५४ आयुधानयनं चैव पत्तिकर्म विधीयते । रिपूणां भेत्तुकामानां स्वसैन्यस्य तु रक्षणं",
           "transliteration": "1 śatrudrāvakāraṇamiti kha.. , ga.. , gha.. , ña.. ca 2 ye ca jihmekṣaṇā iti kha.. , ga.. , gha.. , ña.. ca 3 valāpanayanakriyeti ja.. :p 354 āyudhānayanaṃ caiva pattikarma vidhīyate / ripūṇāṃ bhettukāmānāṃ svasainyasya tu rakṣaṇaṃ",
-          "hindi": "आज्ञा लेकर वहाँसे विदा हो। उसे शत्रुके छिद्र (दुर्बलता)-को जानकारी प्राप्त करनी चाहिए। उसके कोष, मित्र और सेनाके विषयमें भी वह जाने तथा शत्रुको दृष्टि एवं शरीरको चेष्टाओंसे अपने प्रति राग और विरक्तिका भी अनुमान कर लेना चाहिए"
+          "hindi": "आज्ञा लेकर वहाँसे विदा हो। उसे शत्रुके छिद्र (दुर्बलता)-को जानकारी प्राप्त करनी चाहिए। उसके कोष, मित्र और सेनाके विषयमें भी वह जाने तथा शत्रुको दृष्टि एवं शरीरको चेष्टाओंसे अपने प्रति राग और विरक्तिका भी अनुमान कर लेना चाहिए",
+          "translation": "fetching weapons, is ordained as infantry work; protecting one's own army from enemies wishing to break it,",
+          "translationSource": "ai"
         },
         {
           "number": 46,
           "sanskrit": "भेदनं संहतानाञ्च चर्मिणां कर्म कीर्तितं । विमुखीकरणं युद्धे धन्विनां च तथोच्यते",
           "transliteration": "bhedanaṃ saṃhatānāñca carmiṇāṃ karma kīrtitaṃ / vimukhīkaraṇaṃ yuddhe dhanvināṃ ca tathocyate",
-          "hindi": "वह उभय पक्षोंके कुलकी (यथा--'आप उदितोदित कुलके रल हैं' आदि), नामकी (यथा-- “आपका नाम दिग्दिगन्तमें विख्यात है' इत्यादि), द्रव्यको (यथा--' आपका द्रव्य परोपकारमें लगता"
+          "hindi": "वह उभय पक्षोंके कुलकी (यथा--'आप उदितोदित कुलके रल हैं' आदि), नामकी (यथा-- “आपका नाम दिग्दिगन्तमें विख्यात है' इत्यादि), द्रव्यको (यथा--' आपका द्रव्य परोपकारमें लगता",
+          "translation": "and breaking the compact, is declared the shield-bearers' work; turning away in battle is likewise said of archers;",
+          "translationSource": "ai"
         },
         {
           "number": 47,
           "sanskrit": "दूरापसरणं यानं सुहतस्य तथोच्यते । त्रासनं रिपुसैन्यानां रथकर्म तथोच्यते",
           "transliteration": "dūrāpasaraṇaṃ yānaṃ suhatasya tathocyate / trāsanaṃ ripusainyānāṃ rathakarma tathocyate",
-          "hindi": "है' इत्यादि) तथा श्रेष्ठ कर्मको (यथा--' आपके सत्कर्मको श्रेष्ठ लोग भूरि-भूरि प्रशंसा करते हैं' आदि कहकर) बड़ाई करे। इस तरह चतुर्विध स्तुति करनी चाहिए। तपस्वीके वेषमें रहनेवाले ४६४  अग्निपुराण"
+          "hindi": "है' इत्यादि) तथा श्रेष्ठ कर्मको (यथा--' आपके सत्कर्मको श्रेष्ठ लोग भूरि-भूरि प्रशंसा करते हैं' आदि कहकर) बड़ाई करे। इस तरह चतुर्विध स्तुति करनी चाहिए। तपस्वीके वेषमें रहनेवाले ४६४  अग्निपुराण",
+          "translation": "retreat far and transport for the well-slain is said; terrifying the enemy army is said to be chariot work;",
+          "translationSource": "ai"
         },
         {
           "number": 48,
           "sanskrit": "भेदनं संहतानाञ्च भेदानामपि संहतिः । प्राकारतोरणाट्टालद्रुमभङ्गश् च सङ्गते",
           "transliteration": "bhedanaṃ saṃhatānāñca bhedānāmapi saṃhatiḥ / prākāratoraṇāṭṭāladrumabhaṅgaś ca saṅgate",
-          "hindi": "अपने चरोंके साथ संवाद करे। अर्थात् उनसे बात करके यथार्थ स्थितिको जाननेकी चेष्टा करे"
+          "hindi": "अपने चरोंके साथ संवाद करे। अर्थात् उनसे बात करके यथार्थ स्थितिको जाननेकी चेष्टा करे",
+          "translation": "breaking the compact and rejoining the broken; breaking ramparts, gates, watchtowers and trees in an encounter.",
+          "translationSource": "ai"
         },
         {
           "number": 49,
           "sanskrit": "पत्तिभूर्विषमा ज्ञेया रथाश्वस्य तथा समा । सकर्दमा च नागानां युद्धभूमिरुदाहृता",
           "transliteration": "pattibhūrviṣamā jñeyā rathāśvasya tathā samā / sakardamā ca nāgānāṃ yuddhabhūmirudāhṛtā",
-          "hindi": "चर दो प्रकारके होते हैं--प्रकाश (प्रकट) और अप्रकाश (गुप्त)। इनमें जो प्रकाश है, उसकी 'दूत' संज्ञा है और अप्रकाश 'चर' कहा गया है। वणिक् (वैदेहक), किसान (गृहपति), (उदास्थित), अध्यापक (छात्रवृत्तिसे रहनेवाला - कार्पटिक)-इन चारोंकी स्थितिके लिये संस्थाएँ हैं। इनके लिये वृत्ति (जीविका)-को व्यवस्था की जानी चाहिए, जिससे ये सुखसे रह"
+          "hindi": "चर दो प्रकारके होते हैं--प्रकाश (प्रकट) और अप्रकाश (गुप्त)। इनमें जो प्रकाश है, उसकी 'दूत' संज्ञा है और अप्रकाश 'चर' कहा गया है। वणिक् (वैदेहक), किसान (गृहपति), (उदास्थित), अध्यापक (छात्रवृत्तिसे रहनेवाला - कार्पटिक)-इन चारोंकी स्थितिके लिये संस्थाएँ हैं। इनके लिये वृत्ति (जीविका)-को व्यवस्था की जानी चाहिए, जिससे ये सुखसे रह",
+          "translation": "The ground for infantry is to be known as uneven, for chariot and horse level, and for elephants muddy: so the battlefield is declared.",
+          "translationSource": "ai"
         },
         {
           "number": 50,
           "sanskrit": "एवं विरचितव्यूहः कृतपृष्ठदिवाकरः । तथानुलोमशुक्रार्किदिक्पालमृदुमारुताः",
           "transliteration": "evaṃ viracitavyūhaḥ kṛtapṛṣṭhadivākaraḥ / tathānulomaśukrārkidikpālamṛdumārutāḥ",
-          "hindi": "जब दूतकी चेष्टा विफल हो जाय तथा शत्रु व्यसनग्रस्त हो, तब उसपर चढ़ाई करे॥ १२ ३ ॥"
+          "hindi": "जब दूतकी चेष्टा विफल हो जाय तथा शत्रु व्यसनग्रस्त हो, तब उसपर चढ़ाई करे॥ १२ ३ ॥",
+          "translation": "Thus with the formation arranged, the sun at his back, and favorable Venus, sun, direction-guardians and gentle wind,",
+          "translationSource": "ai"
         },
         {
           "number": 51,
           "sanskrit": "योधानुत्तेजयेत्सर्वान्नामगोत्रावदानतः । भोगप्राप्त्या च विजये स्वर्गप्राप्त्या मृतस्य च",
           "transliteration": "yodhānuttejayetsarvānnāmagotrāvadānataḥ / bhogaprāptyā ca vijaye svargaprāptyā mṛtasya ca",
-          "hindi": "जिससे अपनी प्रकृतियाँ व्यसनग्रस्त हो गयी हों, उस कारणको शान्त करके विजिगीषु शत्रुपर चढ़ाई करे। व्यसन दो प्रकारके होते हैं-मानुष और हैव। अनय और अपनय दोनोंके संयोगसे प्रकृति-व्यसन प्राप्त होता है । अथवा केवल हैवसे भी उसकी प्राप्ति होती है। वह श्रेय (अभीष्ट अर्थ)-को व्यस्त (क्षिप्त या नष्ट) कर देता है, इसलिये 'व्यसन' कहलाता है। अग्नि (आग लगना),"
+          "hindi": "जिससे अपनी प्रकृतियाँ व्यसनग्रस्त हो गयी हों, उस कारणको शान्त करके विजिगीषु शत्रुपर चढ़ाई करे। व्यसन दो प्रकारके होते हैं-मानुष और हैव। अनय और अपनय दोनोंके संयोगसे प्रकृति-व्यसन प्राप्त होता है । अथवा केवल हैवसे भी उसकी प्राप्ति होती है। वह श्रेय (अभीष्ट अर्थ)-को व्यस्त (क्षिप्त या नष्ट) कर देता है, इसलिये 'व्यसन' कहलाता है। अग्नि (आग लगना),",
+          "translation": "one should rouse all warriors by names, clans and deeds: with enjoyment obtained in victory and heaven obtained for the dead;",
+          "translationSource": "ai"
         },
         {
           "number": 52,
           "sanskrit": "जित्वारीन् भोगसम्प्राप्तिः मृतस्य च परा गतिः । निष्कृतिः स्वामिपिण्डस्य नास्ति युद्धसमा गतिः",
           "transliteration": "jitvārīn bhogasamprāptiḥ mṛtasya ca parā gatiḥ / niṣkṛtiḥ svāmipiṇḍasya nāsti yuddhasamā gatiḥ",
-          "hindi": "जल (अतिवृष्टि या बाढ़), रोग, दुर्भिक्ष (अकाल पड़ना) और मरक (महामारी) -ये पाँच प्रकारके “हैव-व्यसन' हैं। शेष “मानुष-व्यसन' हैं। पुरुषार्थ अथवा अथर्ववेदोक्त शान्तिकर्मसे हैव-व्यसनका"
+          "hindi": "जल (अतिवृष्टि या बाढ़), रोग, दुर्भिक्ष (अकाल पड़ना) और मरक (महामारी) -ये पाँच प्रकारके “हैव-व्यसन' हैं। शेष “मानुष-व्यसन' हैं। पुरुषार्थ अथवा अथर्ववेदोक्त शान्तिकर्मसे हैव-व्यसनका",
+          "translation": "having conquered enemies, enjoyment is gained; for the dead, the supreme goal. Repayment of the master's rice: there is no goal equal to battle.",
+          "translationSource": "ai"
         },
         {
           "number": 53,
           "sanskrit": "शूराणां रक्तमायाति तेन पापन्त्यजन्ति ते । धातादिदुःखसहनं रणे तत् परमन्तपः",
           "transliteration": "śūrāṇāṃ raktamāyāti tena pāpantyajanti te / dhātādiduḥkhasahanaṃ raṇe tat paramantapaḥ",
-          "hindi": "निवारण करे। उत्थान-शीलता (दुर्गादि- साम आदिके प्रयोगके द्वारा मानुष-व्यसनकी शान्ति करे॥ १३-१५ ३॥"
+          "hindi": "निवारण करे। उत्थान-शीलता (दुर्गादि- साम आदिके प्रयोगके द्वारा मानुष-व्यसनकी शान्ति करे॥ १३-१५ ३॥",
+          "translation": "The blood of the brave comes forth; by it they abandon sin. Enduring the pain of wounds and the like in battle is the supreme austerity.",
+          "translationSource": "ai"
         },
         {
           "number": 54,
