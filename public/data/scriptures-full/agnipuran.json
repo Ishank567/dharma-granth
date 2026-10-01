@@ -54412,7 +54412,9 @@
           "number": 68,
           "sanskrit": "छिन्नपाटितभिन्नानां संसृतानां च दर्शनं । इतीन्द्रजालं द्विषताम्भोत्यर्थमुपकल्पयेत्",
           "transliteration": "chinnapāṭitabhinnānāṃ saṃsṛtānāṃ ca darśanaṃ / itīndrajālaṃ dviṣatāmbhotyarthamupakalpayet",
-          "hindi": "“वसिष्ठनन्दिनी नन्दे! मुझे धन एवं पुत्र-पौत्रोसे संयुक्त करके आनन्दित करो। भार्गवपुत्रि जये! आपके प्रजाभूत हमलोगोंको विजय प्रदान करो। अङ्गिरसतनये पूर्णे ! मेरी कामनाओंको पूर्ण करो ।"
+          "hindi": "“वसिष्ठनन्दिनी नन्दे! मुझे धन एवं पुत्र-पौत्रोसे संयुक्त करके आनन्दित करो। भार्गवपुत्रि जये! आपके प्रजाभूत हमलोगोंको विजय प्रदान करो। अङ्गिरसतनये पूर्णे ! मेरी कामनाओंको पूर्ण करो ।",
+          "translation": "and the sight of the cut, torn, broken and the united — thus one should arrange jugglery for the dismay of enemies.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -54604,301 +54606,401 @@
           "number": 24,
           "sanskrit": "अभिन्नानामनीकानां भेदनं भिन्नसङ्ग्रहः । विभीषकाद्वारघातं कोषरक्षेभकर्म च",
           "transliteration": "abhinnānāmanīkānāṃ bhedanaṃ bhinnasaṅgrahaḥ / vibhīṣakādvāraghātaṃ koṣarakṣebhakarma ca",
-          "hindi": "खड्ग (तलवार आदि)-को “अमुक्त' कहते हैं और जिसमें अस्त्र-शस्त्रोंका प्रयोग न करके मल्लोंकी भाँति लड़ा जाय, उस युद्धको 'नियुद्ध' या 'बाहुयुद्ध ' कहते हैं॥ १--५॥"
+          "hindi": "खड्ग (तलवार आदि)-को “अमुक्त' कहते हैं और जिसमें अस्त्र-शस्त्रोंका प्रयोग न करके मल्लोंकी भाँति लड़ा जाय, उस युद्धको 'नियुद्ध' या 'बाहुयुद्ध ' कहते हैं॥ १--५॥",
+          "translation": "Breaking of unbroken forces and gathering of the broken, frightening, striking at the gate, protecting the treasury, elephant work,",
+          "translationSource": "ai"
         },
         {
           "number": 25,
           "sanskrit": "अभिन्नभेदनं मित्रसन्धानं रथकर्म च । वनदिङ्मार्गविचये वीवधासारलक्षणं",
           "transliteration": "abhinnabhedanaṃ mitrasandhānaṃ rathakarma ca / vanadiṅmārgavicaye vīvadhāsāralakṣaṇaṃ",
-          "hindi": "युद्धकी इच्छा रखनेवाला पुरुष श्रमको जीते और योग्य पात्रोंका संग्रह करे। जिनमें धनुष- बाणका प्रयोग हो, वे युद्ध श्रेष्ठ कहे गये हैं; जिनमें भालोंकी मार हो, वे मध्यम कोटिके हैं। जिनमें खड्गोंसे प्रहार किया जाय, वे निम्नश्रेणीके युद्ध हैं और बाहुयुद्ध सबसे निकृष्ट कोटिके अन्तर्गत हैं। धनुर्वेदमें क्षत्रिय और वैश्य--इन दो वर्णोका भी गुरु' ब्राह्मण ही बताया गया है।"
+          "hindi": "युद्धकी इच्छा रखनेवाला पुरुष श्रमको जीते और योग्य पात्रोंका संग्रह करे। जिनमें धनुष- बाणका प्रयोग हो, वे युद्ध श्रेष्ठ कहे गये हैं; जिनमें भालोंकी मार हो, वे मध्यम कोटिके हैं। जिनमें खड्गोंसे प्रहार किया जाय, वे निम्नश्रेणीके युद्ध हैं और बाहुयुद्ध सबसे निकृष्ट कोटिके अन्तर्गत हैं। धनुर्वेदमें क्षत्रिय और वैश्य--इन दो वर्णोका भी गुरु' ब्राह्मण ही बताया गया है।",
+          "translation": "breaking the unbroken, joining friends, chariot work; scouting forest, direction and paths, marking provisions and rear-support,",
+          "translationSource": "ai"
         },
         {
           "number": 26,
           "sanskrit": "अनुयानापसरणे शीघ्रकार्योपपादनं । दीनानुसरणं घातः कोटीनां जघनस्य च",
           "transliteration": "anuyānāpasaraṇe śīghrakāryopapādanaṃ / dīnānusaraṇaṃ ghātaḥ koṭīnāṃ jaghanasya ca",
-          "hindi": "आपत्तिकालमें स्वयं शिक्षा लेकर शूद्रको भी युद्धका अधिकार प्राप्त है। देश या राष्ट्रमें रहनेवाले वर्णसंकरोंको भी युद्धमें राजाकी सहायता करनी चाहिए! ॥ ६--८ ॥"
+          "hindi": "आपत्तिकालमें स्वयं शिक्षा लेकर शूद्रको भी युद्धका अधिकार प्राप्त है। देश या राष्ट्रमें रहनेवाले वर्णसंकरोंको भी युद्धमें राजाकी सहायता करनी चाहिए! ॥ ६--८ ॥",
+          "translation": "following and retreating, accomplishing quick tasks, following the wretched, striking at the tips and the rear;",
+          "translationSource": "ai"
         },
         {
           "number": 27,
           "sanskrit": "अश्वकर्माथ पत्तेश् च सर्वदा शस्त्रधारणं । शिविरस्य च मार्गादेः शोधनं वस्तिकर्म च",
           "transliteration": "aśvakarmātha patteś ca sarvadā śastradhāraṇaṃ / śivirasya ca mārgādeḥ śodhanaṃ vastikarma ca",
-          "hindi": "पैर--ये एक साथ रहकर परस्पर सटे हुए हों तो लक्षणके अनुसार इसे 'समपद' नामक स्थानः कहते हैं। दोनों पैर बाह्य अङ्गलियोंके बलपर पैरोंके बीचका फैसला तीन बित्ता हो, तो यह “वैशाख'नामक स्थान कहलाता है। जिसमें दोनों घुटने हंसपंक्तिके आकारकी भाँति दिखायी देते हों और दोनोंमें चार बित्तेका अन्तर हो, वह"
+          "hindi": "पैर--ये एक साथ रहकर परस्पर सटे हुए हों तो लक्षणके अनुसार इसे 'समपद' नामक स्थानः कहते हैं। दोनों पैर बाह्य अङ्गलियोंके बलपर पैरोंके बीचका फैसला तीन बित्ता हो, तो यह “वैशाख'नामक स्थान कहलाता है। जिसमें दोनों घुटने हंसपंक्तिके आकारकी भाँति दिखायी देते हों और दोनोंमें चार बित्तेका अन्तर हो, वह",
+          "translation": "horse work and the infantry's constant bearing of weapons, clearing the camp, roads and the like, and settling work.",
+          "translationSource": "ai"
         },
         {
           "number": 28,
           "sanskrit": "संस्थूलस्थाणुवल्मीकवृक्षगुल्मापकण्टकं । सापसारा पदातीनां भूर्नातिविषमा मता",
           "transliteration": "saṃsthūlasthāṇuvalmīkavṛkṣagulmāpakaṇṭakaṃ / sāpasārā padātīnāṃ bhūrnātiviṣamā matā",
-          "hindi": "'मण्डल' स्थान माना गया है। जिसमें दाहिनी जाँघ और घुटना स्तब्ध (तना हुआ) हो और दोनों पैरोंके बीचका विस्तार पाँच बित्तेका हो, उसे 'आलीढ़'नामक स्थान कहा गया है। इसके"
+          "hindi": "'मण्डल' स्थान माना गया है। जिसमें दाहिनी जाँघ और घुटना स्तब्ध (तना हुआ) हो और दोनों पैरोंके बीचका विस्तार पाँच बित्तेका हो, उसे 'आलीढ़'नामक स्थान कहा गया है। इसके",
+          "translation": "Ground for infantry free of thick stumps, anthills, trees, bushes and thorns, with space to retreat, not too uneven, is held good;",
+          "translationSource": "ai"
         },
         {
           "number": 29,
           "sanskrit": "स्वल्पवृक्षोपला क्षिप्रलङ्घनीयनगा स्थिरा । निःशर्करा विपङ्का च सापसारा च वाजिभूः",
           "transliteration": "svalpavṛkṣopalā kṣipralaṅghanīyanagā sthirā / niḥśarkarā vipaṅkā ca sāpasārā ca vājibhūḥ",
-          "hindi": "तथा दोनों पैरोंके बीचका विस्तार पाँच बित्ता हो, वह “प्रत्यालीढ़'नामक स्थान है। जहाँ बायाँ पैर और पार्ष्णिभाग पाँच अङ्गुलके अन्तरपर स्थित हों तो यह बारह अङ्गुल बड़ा 'स्थानक' कहा गया है। यदि बायें पैरका घुटना सीधा हो और"
+          "hindi": "तथा दोनों पैरोंके बीचका विस्तार पाँच बित्ता हो, वह “प्रत्यालीढ़'नामक स्थान है। जहाँ बायाँ पैर और पार्ष्णिभाग पाँच अङ्गुलके अन्तरपर स्थित हों तो यह बारह अङ्गुल बड़ा 'स्थानक' कहा गया है। यदि बायें पैरका घुटना सीधा हो और",
+          "translation": "for horses ground with few trees and stones, with hills easily crossed, firm, free of gravel and mud and with room to retreat;",
+          "translationSource": "ai"
         },
         {
           "number": 30,
           "sanskrit": "निस्थाणुवृक्षकेदारा रथभूमिरकर्दमा । मर्दनीयतरुच्छेद्यव्रततीपङ्कवर्जिता",
           "transliteration": "nisthāṇuvṛkṣakedārā rathabhūmirakardamā / mardanīyatarucchedyavratatīpaṅkavarjitā",
-          "hindi": "दाहिना घुटना कुन्जाकार एवं निश्चल हो या घुटनेके साथ ही दायाँ चरण दण्डाकार विशाल दिखायी दे तो ऐसी स्थितिमें 'विकट'नामक स्थान कहा गया है। इसमें दोनों पैरोंका अन्तर"
+          "hindi": "दाहिना घुटना कुन्जाकार एवं निश्चल हो या घुटनेके साथ ही दायाँ चरण दण्डाकार विशाल दिखायी दे तो ऐसी स्थितिमें 'विकट'नामक स्थान कहा गया है। इसमें दोनों पैरोंका अन्तर",
+          "translation": "for chariots ground without stumps, trees or ditches, free of mud, free of trees to be crushed or cut, and creepers and mud;",
+          "translationSource": "ai"
         },
         {
           "number": 31,
           "sanskrit": "निर्झरागम्यशैला(१) च विषमा गजमेदिनी । उरस्यादीनि भिन्नानि प्रतिगृह्णन् बलानि हि",
           "transliteration": "nirjharāgamyaśailā(1) ca viṣamā gajamedinī / urasyādīni bhinnāni pratigṛhṇan balāni hi",
-          "hindi": "दो हाथ बड़ा होता है। जिसमें दोनों घुटने दुहरे १. 'गुरु' शब्दका अर्थ है-धनुर्वेदकी शिक्षा देनेवाला आचार्य । ' धनुर्वेदसंहिता'में सात प्रकारके युद्धोंका उल्लेख करके उन सातोंके ज्ञाताको ' आचार्य' कहा गया है-- आचार्य: सप्तयुद्धः स्यात्।' धनुष, चक्र, कुन्त, खङ्ग, क्षुरिका, गदा और बाहु -इन सातोंसे"
+          "hindi": "दो हाथ बड़ा होता है। जिसमें दोनों घुटने दुहरे १. 'गुरु' शब्दका अर्थ है-धनुर्वेदकी शिक्षा देनेवाला आचार्य । ' धनुर्वेदसंहिता'में सात प्रकारके युद्धोंका उल्लेख करके उन सातोंके ज्ञाताको ' आचार्य' कहा गया है-- आचार्य: सप्तयुद्धः स्यात्।' धनुष, चक्र, कुन्त, खङ्ग, क्षुरिका, गदा और बाहु -इन सातोंसे",
+          "translation": "for elephants uneven ground, with streams and hills not easily approached. Receiving the broken forces from the chest and the like",
+          "translationSource": "ai"
         },
         {
           "number": 32,
           "sanskrit": "प्रतिग्रह इति ख्यातो राजकार्यान्तरक्षमः । तेन शून्यस्तु यो व्यूहः स भिन्न इव लक्ष्यते",
           "transliteration": "pratigraha iti khyāto rājakāryāntarakṣamaḥ / tena śūnyastu yo vyūhaḥ sa bhinna iva lakṣyate",
-          "hindi": "किये जानेवाले युद्धको ही “सात प्रकारका युद्ध' कहते हैं।"
+          "hindi": "किये जानेवाले युद्धको ही “सात प्रकारका युद्ध' कहते हैं।",
+          "translation": "is called the reserve (pratigraha), capable of the king's other works; a formation empty of it appears as if broken.",
+          "translationSource": "ai"
         },
         {
           "number": 33,
           "sanskrit": "जयार्थी न च युद्ध्येत मतिमानप्रतिग्रहः । यत्र राजा तत्र कोषः कोषाधीना हि राजता",
           "transliteration": "jayārthī na ca yuddhyeta matimānapratigrahaḥ / yatra rājā tatra koṣaḥ koṣādhīnā hi rājatā",
-          "hindi": "२. “वीरचिन्तामणि' के ६-७ श्लोकोंमें कहा गया है कि ' आचार्य ब्राह्मण शिष्यको धनुष, क्षत्रियको खड्ग, वैश्यको कुन्त (भाला) और शूद्रको गदाकी शिक्षा प्रदान करे।' इससे भी सूचित होता है कि अस्त्र-विद्या और युद्धकी शिक्षा सभी वर्णके लोगोंको दी जाती थी। अग्निपुराणके अनुसार वर्णसंकर भी इसकी शिक्षा पाते थे और युद्धमेंराष्ट्रकी रक्षाके लिये राजाकी सहायता करते थे।"
+          "hindi": "२. “वीरचिन्तामणि' के ६-७ श्लोकोंमें कहा गया है कि ' आचार्य ब्राह्मण शिष्यको धनुष, क्षत्रियको खड्ग, वैश्यको कुन्त (भाला) और शूद्रको गदाकी शिक्षा प्रदान करे।' इससे भी सूचित होता है कि अस्त्र-विद्या और युद्धकी शिक्षा सभी वर्णके लोगोंको दी जाती थी। अग्निपुराणके अनुसार वर्णसंकर भी इसकी शिक्षा पाते थे और युद्धमेंराष्ट्रकी रक्षाके लिये राजाकी सहायता करते थे।",
+          "translation": "The wise one desiring victory should not fight without a reserve. Where the king is, there is the treasury; kingship depends on the treasury;",
+          "translationSource": "ai"
         },
         {
           "number": 34,
           "sanskrit": "योधेभ्यस्तु ततो दद्यात् किञ्चिद्दातुं(२) न युज्यते । द्रव्यलक्षं राजघाते तदर्धं तत्सुतार्दने",
           "transliteration": "yodhebhyastu tato dadyāt kiñciddātuṃ(2) na yujyate / dravyalakṣaṃ rājaghāte tadardhaṃ tatsutārdane",
-          "hindi": "३. “वीरचिन्तामणि' आदि ग्रन्थोंमें आठ प्रकारके 'स्थानों', पाँच प्रकारकी 'मुष्टियों' तथा पाँच तरहके ' व्याम' का वर्णन उपलब्ध होता है। अग्निपुराणमें 'मुष्टि' और 'व्याम'के भेद नहीं हैं। अगले अध्यायके पाँचवें श्लोकमें 'सिंहकर्ण' नामक मुष्टिको चर्चा अवश्य की गयी है। परंतु स्थानके आठों भेदोंका लक्षणसहित वर्णन उपलब्ध होता है। इस वर्णनको देखते हुए 'स्थान' शब्दका अभिप्राय योद्धाओंके युद्धस्थलमें खड़े होनेका ढंग जान पड़ता है। योद्धाओंको किस-किस ढंगसे खड़ा होना चाहिए और कौन-सा ढंग कब"
+          "hindi": "३. “वीरचिन्तामणि' आदि ग्रन्थोंमें आठ प्रकारके 'स्थानों', पाँच प्रकारकी 'मुष्टियों' तथा पाँच तरहके ' व्याम' का वर्णन उपलब्ध होता है। अग्निपुराणमें 'मुष्टि' और 'व्याम'के भेद नहीं हैं। अगले अध्यायके पाँचवें श्लोकमें 'सिंहकर्ण' नामक मुष्टिको चर्चा अवश्य की गयी है। परंतु स्थानके आठों भेदोंका लक्षणसहित वर्णन उपलब्ध होता है। इस वर्णनको देखते हुए 'स्थान' शब्दका अभिप्राय योद्धाओंके युद्धस्थलमें खड़े होनेका ढंग जान पड़ता है। योद्धाओंको किस-किस ढंगसे खड़ा होना चाहिए और कौन-सा ढंग कब",
+          "translation": "therefore he should give to the warriors; it is not proper to give little. A lakh of wealth for killing a king; half that for harassing his son;",
+          "translationSource": "ai"
         },
         {
           "number": 35,
           "sanskrit": "सेनापतिबधे तद्वद्दद्याद्धस्त्यादिमर्दने । अथवा खलु युध्येरन् प्रत्यश्वरथदन्तिनः",
           "transliteration": "senāpatibadhe tadvaddadyāddhastyādimardane / athavā khalu yudhyeran pratyaśvarathadantinaḥ",
-          "hindi": "उपयोगी होता है--इसीकी ओर इस प्रसङ्गमें संकेत किया गया है। और दोनों पैर उत्तान हो जायँ, इस विधानके योगसे जो 'स्थान' बनता है, उसका नाम ' सम्पुट' है। जहाँ कुछ घूमे हुए दोनों पैर समभावसे दण्डके समान विशाल एवं स्थिर दिखायी दें,"
+          "hindi": "उपयोगी होता है--इसीकी ओर इस प्रसङ्गमें संकेत किया गया है। और दोनों पैर उत्तान हो जायँ, इस विधानके योगसे जो 'स्थान' बनता है, उसका नाम ' सम्पुट' है। जहाँ कुछ घूमे हुए दोनों पैर समभावसे दण्डके समान विशाल एवं स्थिर दिखायी दें,",
+          "translation": "likewise for killing a commander, for crushing elephants and the like. Or warriors should fight horse against horse, chariot, elephant:",
+          "translationSource": "ai"
         },
         {
           "number": 36,
           "sanskrit": "१ निःशर्करा गम्यशैलेति ज॥ २ किं हि दातुमिति घ॥ , ञ॥ च :प् ३७९ यथा भवेदसंबाधो व्यायामविनिवर्तने । असङ्करेण युद्धेरन् सङ्करः सङ्कुलावहः",
           "transliteration": "1 niḥśarkarā gamyaśaileti ja.. 2 kiṃ hi dātumiti gha.. , ña.. ca :p 379 yathā bhavedasaṃbādho vyāyāmavinivartane / asaṅkareṇa yuddheran saṅkaraḥ saṅkulāvahaḥ",
-          "hindi": "वहाँ दोनोंके बीचकी लंबाई सोलह अङ्गुलकी ही देखी गयी है। यह स्थानका यथोचित स्वरूप है"
+          "hindi": "वहाँ दोनोंके बीचकी लंबाई सोलह अङ्गुलकी ही देखी गयी है। यह स्थानका यथोचित स्वरूप है",
+          "translation": "so that there is no obstruction in the turning back of exercise; they should fight without mixing; mixing brings confusion.",
+          "translationSource": "ai"
         },
         {
           "number": 37,
           "sanskrit": "महासङ्कुलयुद्धेषु संश्रयेरन्मतङ्गजं । अश्वस्य प्रतियोद्धारो भवेयुः पुरुषास्त्रयः",
           "transliteration": "mahāsaṅkulayuddheṣu saṃśrayeranmataṅgajaṃ / aśvasya pratiyoddhāro bhaveyuḥ puruṣāstrayaḥ",
-          "hindi": "ब्रह्मन्! योद्धाओंको चाहिए कि पहले बायें हाथमें धनुष और दायें हाथमें बाण लेकर उसे चलायें और उन छोड़े हुए बाणोंको स्वस्तिकाकार करके उनके द्वारा गुरुजनोंको प्रणाम करें। धनुषका प्रेमी योद्धा “वैशाख? स्थानके सिद्ध हो जानेपर “स्थिति' (वर्तमान) या 'आयति' (भविष्य) -में जब आवश्यकता हो, धनुषपर डोरीको फैलाकर धनुषकी निचली कोटि और बाणके फलदेशको"
+          "hindi": "ब्रह्मन्! योद्धाओंको चाहिए कि पहले बायें हाथमें धनुष और दायें हाथमें बाण लेकर उसे चलायें और उन छोड़े हुए बाणोंको स्वस्तिकाकार करके उनके द्वारा गुरुजनोंको प्रणाम करें। धनुषका प्रेमी योद्धा “वैशाख? स्थानके सिद्ध हो जानेपर “स्थिति' (वर्तमान) या 'आयति' (भविष्य) -में जब आवश्यकता हो, धनुषपर डोरीको फैलाकर धनुषकी निचली कोटि और बाणके फलदेशको",
+          "translation": "In great confused fights they should take refuge with an elephant. Three men should be opponents for a horse;",
+          "translationSource": "ai"
         },
         {
           "number": 38,
           "sanskrit": "इति कल्प्यास्त्रयश्चाश्वा विधेयाः कुञ्जरस्य तु । पादगोपा भवेयुश् च पुरुषा दश पञ्च च",
           "transliteration": "iti kalpyāstrayaścāśvā vidheyāḥ kuñjarasya tu / pādagopā bhaveyuś ca puruṣā daśa pañca ca",
-          "hindi": "धरतीपर टिकाकर रखे और उसी अवस्थामें मुड़ी"
+          "hindi": "धरतीपर टिकाकर रखे और उसी अवस्थामें मुड़ी",
+          "translation": "thus three horses should be arranged for an elephant; and fifteen men should be foot-guards;",
+          "translationSource": "ai"
         },
         {
           "number": 39,
           "sanskrit": "विधानमिति नागस्य विहितं स्यन्दनस्य च । अनीकमिति विज्ञेयमिति कल्प्या नव द्विपाः",
           "transliteration": "vidhānamiti nāgasya vihitaṃ syandanasya ca / anīkamiti vijñeyamiti kalpyā nava dvipāḥ",
-          "hindi": "व्रतका पालन करनेवाले वसिष्ठ! उस योद्धाके बाणसे धनुष सर्वथा बड़ा होना चाहिए और मुष्टिके सामने बाणके पुङ्ख तथा धनुषके डंडेमें बारह अङ्गुलका अन्तर होना चाहिए। ऐसी स्थिति हो तो धनुर्दण्डको प्रत्यञ्चासे संयुक्त कर देना चाहिए। वह अधिक छोटा या बड़ा नहीं होना चाहिए"
+          "hindi": "व्रतका पालन करनेवाले वसिष्ठ! उस योद्धाके बाणसे धनुष सर्वथा बड़ा होना चाहिए और मुष्टिके सामने बाणके पुङ्ख तथा धनुषके डंडेमें बारह अङ्गुलका अन्तर होना चाहिए। ऐसी स्थिति हो तो धनुर्दण्डको प्रत्यञ्चासे संयुक्त कर देना चाहिए। वह अधिक छोटा या बड़ा नहीं होना चाहिए",
+          "translation": "thus the arrangement for an elephant and for a chariot is prescribed. An \"anika\" is to be known: nine elephants are to be arranged;",
+          "translationSource": "ai"
         },
         {
           "number": 40,
           "sanskrit": "तथानीकस्य रन्ध्रन्तु पञ्चधा च प्रचक्षते । इत्यनीकविभगेन स्थापयेद् व्यूहसम्पदः",
           "transliteration": "tathānīkasya randhrantu pañcadhā ca pracakṣate / ityanīkavibhagena sthāpayed vyūhasampadaḥ",
-          "hindi": "धनुषको नाभिस्थानमें और बाण-संचयको नितम्बपर रखकर उठे हुए हाथको आँख और कानके बीचमें कर ले तथा उस अवस्थामें बाणको फेंके। पहले बाणको मुट्ठीमें पकड़े और उसे"
+          "hindi": "धनुषको नाभिस्थानमें और बाण-संचयको नितम्बपर रखकर उठे हुए हाथको आँख और कानके बीचमें कर ले तथा उस अवस्थामें बाणको फेंके। पहले बाणको मुट्ठीमें पकड़े और उसे",
+          "translation": "and the gap of the anika is said to be fivefold; so by division of the anika one should establish the riches of formations.",
+          "translationSource": "ai"
         },
         {
           "number": 41,
           "sanskrit": "उरस्यकक्षपक्षांस्तु कल्प्यानेतान् प्रचक्षते । उरःकक्षौ च पक्षौ च मध्यं पृष्ठं प्रतिग्रहः",
           "transliteration": "urasyakakṣapakṣāṃstu kalpyānetān pracakṣate / uraḥkakṣau ca pakṣau ca madhyaṃ pṛṣṭhaṃ pratigrahaḥ",
-          "hindi": "दाहिने स्तनाग्रको सीधमें रखे। तदनन्तर उसे प्रत्यज्ञापर ले जाकर उस मौवी (डोरी या प्रत्यञ्चा)- को खींचकर पूर्णरूपसे फैलावे। प्रत्यञ्चा न तो आवेष्टित। वह सम, स्थिरतासे युक्त और दण्डको भाँति सीधी होनी चाहिए। इस प्रकार पहले इस"
+          "hindi": "दाहिने स्तनाग्रको सीधमें रखे। तदनन्तर उसे प्रत्यज्ञापर ले जाकर उस मौवी (डोरी या प्रत्यञ्चा)- को खींचकर पूर्णरूपसे फैलावे। प्रत्यञ्चा न तो आवेष्टित। वह सम, स्थिरतासे युक्त और दण्डको भाँति सीधी होनी चाहिए। इस प्रकार पहले इस",
+          "translation": "The chest, flanks and wings are these arrangements: chest, flanks and wings, middle, back, reserve,",
+          "translationSource": "ai"
         },
         {
           "number": 42,
           "sanskrit": "कोटी च व्यूहशास्त्रज्ञैः सप्ताङ्गो व्यूह उच्यते । उरस्यकक्षपक्षास्तु व्यूहो ऽयं सप्रतिग्रहः",
           "transliteration": "koṭī ca vyūhaśāstrajñaiḥ saptāṅgo vyūha ucyate / urasyakakṣapakṣāstu vyūho 'yaṃ sapratigrahaḥ",
-          "hindi": "मुष्टिके द्वारा लक्ष्यको आच्छादित करके बाणको छोड़ना चाहिए॥ २४--२७॥"
+          "hindi": "मुष्टिके द्वारा लक्ष्यको आच्छादित करके बाणको छोड़ना चाहिए॥ २४--२७॥",
+          "translation": "and the tips — by those who know the science of formations a formation is called seven-limbed. Chest, flanks and wings are this formation with reserve;",
+          "translationSource": "ai"
         },
         {
           "number": 43,
           "sanskrit": "गुरोरेष च शुक्रस्य कक्षाभ्यां परिवर्जितः । तिष्ठेयुः सेनापतयः प्रवीरैः पुरुषैर् वृताः",
           "transliteration": "guroreṣa ca śukrasya kakṣābhyāṃ parivarjitaḥ / tiṣṭheyuḥ senāpatayaḥ pravīraiḥ puruṣair vṛtāḥ",
-          "hindi": "धनुर्धर योद्धाको यत्रपूर्वक अपनी छाती ऊँची रखनी चाहिए और इस तरह झुककर खड़ा होना चाहिए, जिससे शरीर त्रिकोणाकार जान पड़े। कंधा ढीला, ग्रीवा निश्चल और मस्तक मयूरकी भाँति शोभित हो। ललाट, नासिका, मुख, बाहुमूल और कोहनी-ये सम अवस्थामें रहें। ठोढ़ी और कंधेमें तीन अङ्गुलका अन्तर समझना चाहिए।"
+          "hindi": "धनुर्धर योद्धाको यत्रपूर्वक अपनी छाती ऊँची रखनी चाहिए और इस तरह झुककर खड़ा होना चाहिए, जिससे शरीर त्रिकोणाकार जान पड़े। कंधा ढीला, ग्रीवा निश्चल और मस्तक मयूरकी भाँति शोभित हो। ललाट, नासिका, मुख, बाहुमूल और कोहनी-ये सम अवस्थामें रहें। ठोढ़ी और कंधेमें तीन अङ्गुलका अन्तर समझना चाहिए।",
+          "translation": "this is of the teacher and of Shukra, avoided with the flanks. The commanders should stand surrounded by heroic men;",
+          "translationSource": "ai"
         },
         {
           "number": 44,
           "sanskrit": "अभेदेन च युध्येरन् रक्षेयुश् च परस्परं । मध्यव्यूहे फल्गु सैन्यं युद्धवस्तु जघन्यतः",
           "transliteration": "abhedena ca yudhyeran rakṣeyuś ca parasparaṃ / madhyavyūhe phalgu sainyaṃ yuddhavastu jaghanyataḥ",
-          "hindi": "और तीसरी बार ठोढ़ी तथा कंधेका अन्तर एक ही अङ्गुलका बताया गया है"
+          "hindi": "और तीसरी बार ठोढ़ी तथा कंधेका अन्तर एक ही अङ्गुलका बताया गया है",
+          "translation": "they should fight without division and protect each other. In the middle formation the army is thin; the fighting material is at the rear.",
+          "translationSource": "ai"
         },
         {
           "number": 45,
           "sanskrit": "युद्धं हि नायकप्राणं हन्यते तदनायकं । उरसि स्थापयेन्नागान् प्रचण्डान् कक्षयो रथान्",
           "transliteration": "yuddhaṃ hi nāyakaprāṇaṃ hanyate tadanāyakaṃ / urasi sthāpayennāgān pracaṇḍān kakṣayo rathān",
-          "hindi": "बाणको पुछुकी ओरसे तर्जनी एवं अँगूठेसे पकड़े। फिर मध्यमा एवं अनामिकासे भी पकड़ उपक्रम करके विधिपूर्वक बाणको छोड़ना चाहिए"
+          "hindi": "बाणको पुछुकी ओरसे तर्जनी एवं अँगूठेसे पकड़े। फिर मध्यमा एवं अनामिकासे भी पकड़ उपक्रम करके विधिपूर्वक बाणको छोड़ना चाहिए",
+          "translation": "Battle has the leader as its life; when the leader is struck, it is struck. In the chest one should station fierce elephants, chariots on the flanks,",
+          "translationSource": "ai"
         },
         {
           "number": 46,
           "sanskrit": "हयांश् च पक्षयोर्व्यूहो मध्यभेदी प्रकीर्तितः । मध्यदेशे हयानीकं रथानीकञ्च कक्षयोः",
           "transliteration": "hayāṃś ca pakṣayorvyūho madhyabhedī prakīrtitaḥ / madhyadeśe hayānīkaṃ rathānīkañca kakṣayoḥ",
-          "hindi": "सुब्रत! पहले दृष्टि और मुष्टिसे आहत हुए लक्ष्यको ही बाणसे विदीर्ण करे। बाणको छोड़कर पिछला हाथ बड़े वेगसे पीठको ओर ले जाय; क्योंकि ब्रह्मन्! यह ज्ञात होना चाहिए कि शत्रु"
+          "hindi": "सुब्रत! पहले दृष्टि और मुष्टिसे आहत हुए लक्ष्यको ही बाणसे विदीर्ण करे। बाणको छोड़कर पिछला हाथ बड़े वेगसे पीठको ओर ले जाय; क्योंकि ब्रह्मन्! यह ज्ञात होना चाहिए कि शत्रु",
+          "translation": "and horses on the wings; the formation is declared a middle-breaker. In the middle a horse-force, chariot-force on the flanks,",
+          "translationSource": "ai"
         },
         {
           "number": 47,
           "sanskrit": "पक्षयोश् च गजानीकं व्यूहोन्तर्भेद्ययं स्मृतः । रथस्थाने हयान् दद्यात् पदातींश् च हयश्राये",
           "transliteration": "pakṣayoś ca gajānīkaṃ vyūhontarbhedyayaṃ smṛtaḥ / rathasthāne hayān dadyāt padātīṃś ca hayaśrāye",
-          "hindi": "इस हाथको काट डालनेको इच्छा करते हैं। अतः धनुर्धर पुरुषको चाहिए, धनुषको खींचकर कोहनीके नीचे कर ले और बाण छोड़ते समय उसके ऊपर करे। धनुःशास्त्र-विशारद पुरुषोंको यह विशेष- रूपसे जानना चाहिए। कोहनीका आँखसे सटाना मध्यम श्रेणीका बचाव है और शत्रुके लक्ष्यसे दूर रखना उत्तम है॥ ३३--३५॥"
+          "hindi": "इस हाथको काट डालनेको इच्छा करते हैं। अतः धनुर्धर पुरुषको चाहिए, धनुषको खींचकर कोहनीके नीचे कर ले और बाण छोड़ते समय उसके ऊपर करे। धनुःशास्त्र-विशारद पुरुषोंको यह विशेष- रूपसे जानना चाहिए। कोहनीका आँखसे सटाना मध्यम श्रेणीका बचाव है और शत्रुके लक्ष्यसे दूर रखना उत्तम है॥ ३३--३५॥",
+          "translation": "and elephant-force on the wings — this is remembered as the inner-breaker. In place of chariots one should give horses, infantry in place of horses;",
+          "translationSource": "ai"
         },
         {
           "number": 48,
           "sanskrit": "रथाभावे तु द्विरदान् व्यूहे सर्वत्र दापयेत् । यदि स्याद्दण्डबाहुल्यमाबाधः सम्प्रकीर्तितः",
           "transliteration": "rathābhāve tu dviradān vyūhe sarvatra dāpayet / yadi syāddaṇḍabāhulyamābādhaḥ samprakīrtitaḥ",
-          "hindi": "उत्तम श्रेणीका बाण बारह मुष्टियोंके मापका होना चाहिए। ग्यारह मुष्टियोंका ' मध्यम' और दस मुष्टियोंका 'कनिष्ठ' माना गया है।"
+          "hindi": "उत्तम श्रेणीका बाण बारह मुष्टियोंके मापका होना चाहिए। ग्यारह मुष्टियोंका ' मध्यम' और दस मुष्टियोंका 'कनिष्ठ' माना गया है।",
+          "translation": "in absence of chariots one should give elephants everywhere in the formation. If there is a preponderance of the staff, it is called \"abadha\";",
+          "translationSource": "ai"
         },
         {
           "number": 49,
           "sanskrit": "मण्डलांसंहतो भोगो दण्डास्ते बहुधा शृणु । तिर्यग्वृत्तिस्तु दण्डः स्याद् भोगो ऽन्यावृत्तिरेव च",
           "transliteration": "maṇḍalāṃsaṃhato bhogo daṇḍāste bahudhā śṛṇu / tiryagvṛttistu daṇḍaḥ syād bhogo 'nyāvṛttireva ca",
-          "hindi": "हाथका हो तो 'मध्यम' और तीन हाथका हो तो “कनिष्ठ' कहा गया है। पैदल योद्धाके लिये ४८४  अग्निपुराण"
+          "hindi": "हाथका हो तो 'मध्यम' और तीन हाथका हो तो “कनिष्ठ' कहा गया है। पैदल योद्धाके लिये ४८४  अग्निपुराण",
+          "translation": "the circle, the uncompact \"bhoga,\" those \"danda\" in many ways — hear: a staff is a transverse movement; the bhoga is another movement;",
+          "translationSource": "ai"
         },
         {
           "number": 50,
           "sanskrit": "मण्डलः सर्वतोवृत्तिः पृथग्वृत्तिरसंहतः । प्रदरो दृढको ऽसह्यः चापो वै कुक्षिरेव च",
           "transliteration": "maṇḍalaḥ sarvatovṛttiḥ pṛthagvṛttirasaṃhataḥ / pradaro dṛḍhako 'sahyaḥ cāpo vai kukṣireva ca",
-          "hindi": "सदा तीन हाथके ही धनुषको ग्रहण करनेका  धनुषका ही प्रयोग करनेका विधान किया गया विधान है। घोड़े, रथ और हाथीपर श्रेष्ठ  है"
+          "hindi": "सदा तीन हाथके ही धनुषको ग्रहण करनेका  धनुषका ही प्रयोग करनेका विधान किया गया विधान है। घोड़े, रथ और हाथीपर श्रेष्ठ  है",
+          "translation": "the mandala is all-round movement; the asamhata is separate movement; pradara, dridhaka, asahya, chapa and kukshi;",
+          "translationSource": "ai"
         },
         {
           "number": 51,
           "sanskrit": "प्रतिष्ठः सुप्रतिष्ठश् च श्येनो विजयसञ्जयौ । विशालो विजयः शूची स्थूणाकर्णचमूमुखौ",
           "transliteration": "pratiṣṭhaḥ supratiṣṭhaś ca śyeno vijayasañjayau / viśālo vijayaḥ śūcī sthūṇākarṇacamūmukhau",
-          "hindi": "इस प्रकार आदि आग्रेय महापुराणमें 'धनुर्वेदका वर्णन” नामक दो सौ उनचासवाँ अध्याय पूरा हुआ लक्ष्यवेधके लिये धनुष-बाण लेने और उनके समुचित प्रयोग करनेकी शिक्षा तथा वेध्यके विविध भेदोंका वर्णन"
+          "hindi": "इस प्रकार आदि आग्रेय महापुराणमें 'धनुर्वेदका वर्णन” नामक दो सौ उनचासवाँ अध्याय पूरा हुआ लक्ष्यवेधके लिये धनुष-बाण लेने और उनके समुचित प्रयोग करनेकी शिक्षा तथा वेध्यके विविध भेदोंका वर्णन",
+          "translation": "pratishtha and supratishtha, shyena, vijaya and sanjaya; vishala, vijaya, suchi, sthuna, karna and chamumukha;",
+          "translationSource": "ai"
         },
         {
           "number": 52,
           "sanskrit": "सर्पास्यो वलयश् चैव दण्ड दण्डभेदाश् च दुर्जयाः । अतिक्रान्तः प्रतिक्रान्तः कक्षाभ्याञ्चैकक्षपक्षतः",
           "transliteration": "sarpāsyo valayaś caiva daṇḍa daṇḍabhedāś ca durjayāḥ / atikrāntaḥ pratikrāntaḥ kakṣābhyāñcaikakṣapakṣataḥ",
-          "hindi": "अग्निदेव कहते हैं-- ब्रह्मन्! द्विजको चाहिए कि पूरी लम्बाईवाले धनुषका निर्माण कराकर, उसे अच्छी तरह धो-पोंछकर यज्ञभूमिमें स्थापित करे तथा गदा आदि आयुधोंको भलीभाँति साफ"
+          "hindi": "अग्निदेव कहते हैं-- ब्रह्मन्! द्विजको चाहिए कि पूरी लम्बाईवाले धनुषका निर्माण कराकर, उसे अच्छी तरह धो-पोंछकर यज्ञभूमिमें स्थापित करे तथा गदा आदि आयुधोंको भलीभाँति साफ",
+          "translation": "sarpasya and valaya — staff and divisions of staff are hard to conquer. Atikranta and pratikranta by the flanks and one flank or wing;",
+          "translationSource": "ai"
         },
         {
           "number": 53,
           "sanskrit": "अतिक्रान्तस्तु पक्षाभ्यां त्रयो ऽन्ये तद्विपर्यये । पक्षोरस्यैर् अतिक्रान्तः प्रतिष्ठो ऽन्यो विपर्ययः",
           "transliteration": "atikrāntastu pakṣābhyāṃ trayo 'nye tadviparyaye / pakṣorasyair atikrāntaḥ pratiṣṭho 'nyo viparyayaḥ",
-          "hindi": "तत्पश्चात् बाणोंका संग्रह करके, कवच- धारणपूर्वक एकाग्रचित्त हो, तूणीर ले, उसे पीठकी ओर दाहिनी काँखके पास दृढ़ताके साथ बाँधे । ऐसा करनेसे विलक्ष्य बाण भी उस तूणीरमें सुस्थिर रहता है। फिर दाहिने हाथसे तूणीरके भीतरसे बाणको निकाले। उसके साथ ही बायें हाथसे धनुषको वहाँसे उठा ले और उसके मध्यभागमें बाणका संधान' करे॥ २--४॥"
+          "hindi": "तत्पश्चात् बाणोंका संग्रह करके, कवच- धारणपूर्वक एकाग्रचित्त हो, तूणीर ले, उसे पीठकी ओर दाहिनी काँखके पास दृढ़ताके साथ बाँधे । ऐसा करनेसे विलक्ष्य बाण भी उस तूणीरमें सुस्थिर रहता है। फिर दाहिने हाथसे तूणीरके भीतरसे बाणको निकाले। उसके साथ ही बायें हाथसे धनुषको वहाँसे उठा ले और उसके मध्यभागमें बाणका संधान' करे॥ २--४॥",
+          "translation": "atikranta by two wings; three others are the reverse of that. By wings and chest, atikranta; pratishtha is another reversal;",
+          "translationSource": "ai"
         },
         {
           "number": 54,
           "sanskrit": "स्थूणापक्षो धनुःपक्षो द्विस्थूणो दण्ड ऊर्ध्वगः । द्विगुणोन्तस्त्वतिक्रान्तपक्षो ऽन्यस्य विपर्ययः",
           "transliteration": "sthūṇāpakṣo dhanuḥpakṣo dvisthūṇo daṇḍa ūrdhvagaḥ / dviguṇontastvatikrāntapakṣo 'nyasya viparyayaḥ",
-          "hindi": "चित्तमें विषादको न आने दे-उत्साह-सम्पन्न हो, धनुषकी डोरीपर बाणका पुङ्खभाग रखे, फिर “सिंहकर्ण' नामक मुष्टिद्वारा डोरीको पुङ्खके साथ ही दृढतापूर्वक दबाकर समभावसे संधान करे"
+          "hindi": "चित्तमें विषादको न आने दे-उत्साह-सम्पन्न हो, धनुषकी डोरीपर बाणका पुङ्खभाग रखे, फिर “सिंहकर्ण' नामक मुष्टिद्वारा डोरीको पुङ्खके साथ ही दृढतापूर्वक दबाकर समभावसे संधान करे",
+          "translation": "sthunapaksha, dhanuhpaksha, dvisthuna, upward-moving staff, dviguna; atikrantapaksha is another reversal;",
+          "translationSource": "ai"
         },
         {
           "number": 55,
           "sanskrit": "द्विचतुर्दण्ड इत्य् एते ज्ञेया लक्षणतः क्रमात् । गोमूत्रिकाहिसञ्चारीशकटो मकरस् तथा",
           "transliteration": "dvicaturdaṇḍa ity ete jñeyā lakṣaṇataḥ kramāt / gomūtrikāhisañcārīśakaṭo makaras tathā",
-          "hindi": "और बाणको लक्ष्यकी ओर छोड़े। यदि बायें हाथसे बाणको चलाना हो तो बायें हाथमें बाण ले और दाहिने हाथसे धनुषकी मुट्ठी पकड़े। फिर प्रत्यञ्चापर बाणको इस तरह रखे कि खींचनेपर उसका फल या पुङ्ख बायें कानके समीप आ जाय। उस समय बाणको बायें हाथकी (तर्जनी और अङ्गुष्ठके अतिरिक्त) मध्यमा अङ्गलीसे"
+          "hindi": "और बाणको लक्ष्यकी ओर छोड़े। यदि बायें हाथसे बाणको चलाना हो तो बायें हाथमें बाण ले और दाहिने हाथसे धनुषकी मुट्ठी पकड़े। फिर प्रत्यञ्चापर बाणको इस तरह रखे कि खींचनेपर उसका फल या पुङ्ख बायें कानके समीप आ जाय। उस समय बाणको बायें हाथकी (तर्जनी और अङ्गुष्ठके अतिरिक्त) मध्यमा अङ्गलीसे",
+          "translation": "dvi-chatur-danda — these are to be known by their marks in order. Gomutrika, ahisancari, shakata and makara likewise",
+          "translationSource": "ai"
         },
         {
           "number": 56,
           "sanskrit": "भोगभेदाः समाख्यातास् तथा परिप्लवङ्गकः । दण्डपक्षौ युगारस्यः शकटस्तद्विपर्यये",
           "transliteration": "bhogabhedāḥ samākhyātās tathā pariplavaṅgakaḥ / daṇḍapakṣau yugārasyaḥ śakaṭastadviparyaye",
-          "hindi": "भी धारण किये रहे। बाण चलानेकी विधिको जाननेवाला पुरुष उपर्युक्त मुष्टिके द्वारा धनुषको दृढतापूर्वक पकड़कर, मनको दृष्टिके साथ ही लक्ष्यगत करके बाणको शरीरके दाहिने भागकी"
+          "hindi": "भी धारण किये रहे। बाण चलानेकी विधिको जाननेवाला पुरुष उपर्युक्त मुष्टिके द्वारा धनुषको दृढतापूर्वक पकड़कर, मनको दृष्टिके साथ ही लक्ष्यगत करके बाणको शरीरके दाहिने भागकी",
+          "translation": "are declared the divisions of bhoga; so too pariplavanga; the staff and wings: yugarasya; shakata is the reverse;",
+          "translationSource": "ai"
         },
         {
           "number": 57,
           "sanskrit": "मकरो व्यतिकीर्णश् च शेषः कुञ्जरराजिभिः । मण्डलव्यूहभेदौ तु सर्वतोभद्रदुर्जयौ",
           "transliteration": "makaro vyatikīrṇaś ca śeṣaḥ kuñjararājibhiḥ / maṇḍalavyūhabhedau tu sarvatobhadradurjayau",
-          "hindi": "ओर रखते हुए लक्ष्यकी ओर छोड़े॥ ५--७॥ धनुषका दण्ड इतना बड़ा हो कि भूमिपर खड़ा करनेपर उसकी ऊँचाई ललाटतक आ जाय। उसपर लक्ष्यवेधके लिये सोलह अङ्गुल लंबे चन्द्रक (बाणविशेष)-का संधान करे और उसे भलीभाँति"
+          "hindi": "ओर रखते हुए लक्ष्यकी ओर छोड़े॥ ५--७॥ धनुषका दण्ड इतना बड़ा हो कि भूमिपर खड़ा करनेपर उसकी ऊँचाई ललाटतक आ जाय। उसपर लक्ष्यवेधके लिये सोलह अङ्गुल लंबे चन्द्रक (बाणविशेष)-का संधान करे और उसे भलीभाँति",
+          "translation": "makara is the mixed; the rest by rows of elephants. The two divisions of the mandala formation are sarvatobhadra and durjaya;",
+          "translationSource": "ai"
         },
         {
           "number": 58,
           "sanskrit": "अष्टानीको द्वितीयस्तु प्रथमः सर्वतोमुखः । अर्धचन्द्रक ऊर्ध्वाङ्गो वज्रभेदास्तु संहतेः",
           "transliteration": "aṣṭānīko dvitīyastu prathamaḥ sarvatomukhaḥ / ardhacandraka ūrdhvāṅgo vajrabhedāstu saṃhateḥ",
-          "hindi": "खींचकर लक्ष्यपर प्रहार करे। इस तरह एक बाणका प्रहार करके फिर तत्काल ही तूणीरसे अङ्नुष्ठ एवं तर्जनी अङ्गुलिद्वारा बारंबार बाण निकाले। उसे मध्यमा अङ्गुलिसे भी दबाकर काबूमें करे"
+          "hindi": "खींचकर लक्ष्यपर प्रहार करे। इस तरह एक बाणका प्रहार करके फिर तत्काल ही तूणीरसे अङ्नुष्ठ एवं तर्जनी अङ्गुलिद्वारा बारंबार बाण निकाले। उसे मध्यमा अङ्गुलिसे भी दबाकर काबूमें करे",
+          "translation": "the second is eight-forced, the first all-faced; ardhachandraka, urdhvanga, and varieties of vajra from the compact;",
+          "translationSource": "ai"
         },
         {
           "number": 59,
           "sanskrit": "तथा कर्कटशृङ्गी च काकपादौ च गोधिका । त्रिचतुःसैन्यानां ज्ञेया आकारभेदतः",
           "transliteration": "tathā karkaṭaśṛṅgī ca kākapādau ca godhikā / tricatuḥsainyānāṃ jñeyā ākārabhedataḥ",
-          "hindi": "और शीघ्र ही दृष्टिगत लक्ष्यको ओर चलावे। चारों ओर तथा दक्षिण ओर लक्ष्यवेधका क्रम जारी रखे। योद्धा पहलेसे ही चारों ओर बाण १. ' वासिष्ठ-धनुर्वेद'के अनुसार 'संधान' तीन प्रकारके हैं-अध, ऊर्ध्व और सम । इनका क्रमशः तीन कारयामें ही उपयोग करना चाहिए। दूरके लक्ष्यको मार गिराना हो तो 'अधःसंधान' उपयोगी होता है। लक्ष्य निश्चल हो तो 'समसंधान'से उसका वेध करना चाहिए तथा चञ्चल लक्ष्यका वेध करनेके लिये 'ऊर्ध्वसंधान'से काम लेना चाहिए।"
+          "hindi": "और शीघ्र ही दृष्टिगत लक्ष्यको ओर चलावे। चारों ओर तथा दक्षिण ओर लक्ष्यवेधका क्रम जारी रखे। योद्धा पहलेसे ही चारों ओर बाण १. ' वासिष्ठ-धनुर्वेद'के अनुसार 'संधान' तीन प्रकारके हैं-अध, ऊर्ध्व और सम । इनका क्रमशः तीन कारयामें ही उपयोग करना चाहिए। दूरके लक्ष्यको मार गिराना हो तो 'अधःसंधान' उपयोगी होता है। लक्ष्य निश्चल हो तो 'समसंधान'से उसका वेध करना चाहिए तथा चञ्चल लक्ष्यका वेध करनेके लिये 'ऊर्ध्वसंधान'से काम लेना चाहिए।",
+          "translation": "and karkata-shringi, kakapada and godhika are to be known for three- and four-fold armies by difference of shape.",
+          "translationSource": "ai"
         },
         {
           "number": 60,
           "sanskrit": "दण्डस्य स्युः सप्तदश व्यूहा द्वौ मण्डलस्य च । असङ्घातस्य षट् पञ्च भोगस्यैव तु सङ्गरे",
           "transliteration": "daṇḍasya syuḥ saptadaśa vyūhā dvau maṇḍalasya ca / asaṅghātasya ṣaṭ pañca bhogasyaiva tu saṅgare",
-          "hindi": "२. महर्षि वसिष्ठकृत ' धनुर्वेद-संहिता में ' मुष्टि 'के पाँच भेद बताये गये हैं-पताका, वज्रमुष्टि, सिंहकर्ण, मत्सरी तथा काकतुण्डी ।"
+          "hindi": "२. महर्षि वसिष्ठकृत ' धनुर्वेद-संहिता में ' मुष्टि 'के पाँच भेद बताये गये हैं-पताका, वज्रमुष्टि, सिंहकर्ण, मत्सरी तथा काकतुण्डी ।",
+          "translation": "For the staff there are seventeen formations, two for the circle, six for the uncompact, five for the bhoga in battle.",
+          "translationSource": "ai"
         },
         {
           "number": 61,
           "sanskrit": "पक्षादीनामथैकेन हत्वा शेषैः परिक्षिपेत् । उरसा वा समाहत्य कोटिभ्यां परिवेष्टयेत्(१)",
           "transliteration": "pakṣādīnāmathaikena hatvā śeṣaiḥ parikṣipet / urasā vā samāhatya koṭibhyāṃ pariveṣṭayet(1)",
-          "hindi": "वहीं 'सिंहकर्ण नामक मुष्टिका लक्षण इस प्रकार दिया गया है-- 'अङ्गष्ठमध्यदेशे तु तर्जन्यग्रं शुभं स्थितम्। सिंहकर्णः स विज्ञेयो"
+          "hindi": "वहीं 'सिंहकर्ण नामक मुष्टिका लक्षण इस प्रकार दिया गया है-- 'अङ्गष्ठमध्यदेशे तु तर्जन्यग्रं शुभं स्थितम्। सिंहकर्णः स विज्ञेयो",
+          "translation": "Having struck with one of wings and the rest, one should surround with the rest; or having struck with the chest, one should enclose with the two tips;",
+          "translationSource": "ai"
         },
         {
           "number": 62,
           "sanskrit": "परे कोटी समाक्रम्य पक्षाभ्यामप्रतिग्रहात् । कोटिभ्याञ्जघनं हन्यादुरसा च प्रपीडयेत्",
           "transliteration": "pare koṭī samākramya pakṣābhyāmapratigrahāt / koṭibhyāñjaghanaṃ hanyādurasā ca prapīḍayet",
-          "hindi": "दृढलक्ष्यस्य वेधने ॥' अर्थात् “ धनुष पकड़ते समय अङ्गष्ठके मध्यदेशमें तर्जनीके अग्रभागको भलीभाँति टिकाकर जो मुष्टि बाँधी जाती है, उसका नाम 'सिंहकर्ण' जानना चाहिए। वह दूढ्लक्ष्यके वेधके लिये उपयोगी है।''"
+          "hindi": "दृढलक्ष्यस्य वेधने ॥' अर्थात् “ धनुष पकड़ते समय अङ्गष्ठके मध्यदेशमें तर्जनीके अग्रभागको भलीभाँति टिकाकर जो मुष्टि बाँधी जाती है, उसका नाम 'सिंहकर्ण' जानना चाहिए। वह दूढ्लक्ष्यके वेधके लिये उपयोगी है।''",
+          "translation": "having assailed the enemy's tips with the wings, because of lack of reserve, one should strike the rear with the tips and press with the chest.",
+          "translationSource": "ai"
         },
         {
           "number": 63,
           "sanskrit": "यतः फल्गु यतो भिन्नं यतश्चान्यैर् अधिष्ठितं । ततश्चारिबलं हन्यादात्मनश्चोपवृंहयेत्",
           "transliteration": "yataḥ phalgu yato bhinnaṃ yataścānyair adhiṣṭhitaṃ / tataścāribalaṃ hanyādātmanaścopavṛṃhayet",
-          "hindi": "मारकर सब ओरके लक्ष्यको वेधनेका अभ्यास तदनन्तर वह तीक्ष्ण, परावृत्त, गत, निम्न, उन्नत तथा क्षिप्र वेधका अभ्यास बढावे ।' वेध्य लक्ष्यके ये जो उपर्युक्त स्थान हैं, इनमें सत्त्व (बल एवं धैर्य)-का पुट देते हुए विचित्र एवं"
+          "hindi": "मारकर सब ओरके लक्ष्यको वेधनेका अभ्यास तदनन्तर वह तीक्ष्ण, परावृत्त, गत, निम्न, उन्नत तथा क्षिप्र वेधका अभ्यास बढावे ।' वेध्य लक्ष्यके ये जो उपर्युक्त स्थान हैं, इनमें सत्त्व (बल एवं धैर्य)-का पुट देते हुए विचित्र एवं",
+          "translation": "Where the force is thin, where broken, and where occupied by others, there one should strike the enemy's force and reinforce one's own;",
+          "translationSource": "ai"
         },
         {
           "number": 64,
           "sanskrit": "सारं द्विगुणसारेण फल्गुसारेण पीडयेत् । संहतञ्च गजानीकैः प्रचण्डैर् दारयेद्बलं",
           "transliteration": "sāraṃ dviguṇasāreṇa phalgusāreṇa pīḍayet / saṃhatañca gajānīkaiḥ pracaṇḍair dārayedbalaṃ",
-          "hindi": "दुस्तर रीतिसे सैकड़ों बार हाथसे बाणोंके निकालने एवं छोड्नेको क्रियाद्वारा धनुषका तर्जन करे उसपर टङ्कारः दे"
+          "hindi": "दुस्तर रीतिसे सैकड़ों बार हाथसे बाणोंके निकालने एवं छोड्नेको क्रियाद्वारा धनुषका तर्जन करे उसपर टङ्कारः दे",
+          "translation": "one should press the strong by a double-strong and the thin by a strong; one should split the compact force with fierce elephant-forces.",
+          "translationSource": "ai"
         },
         {
           "number": 65,
           "sanskrit": "स्यात् कक्षपक्षोरस्यश् च वर्तमानस्तु दण्डकः । तत्र प्रयोगो डण्डस्य स्थानन्तुर्येण दर्शयेत्",
           "transliteration": "syāt kakṣapakṣorasyaś ca vartamānastu daṇḍakaḥ / tatra prayogo ḍaṇḍasya sthānanturyeṇa darśayet",
-          "hindi": "विप्रवर! उक्त वेध्यके अनेक भेद हैं। पहले तो दृढ़, दुष्कर तथा चित्र दुष्कर-ये वेध्यके तीन भेद हैं। ये तीनों ही भेद दो-दो प्रकारके होते हैं । “ नतनिम्न' और तीक्ष्ण'-ये 'दृढ़वेध्य ' के दो भेद हैं। 'दुष्करवेध्य'के भी “निम्न? और ऊर्ध्वगत'--ये दो भेद कहे गये हैं तथा ' चित्रदुष्कर' वेध्यके मस्तकपन' और 'मध्य'-ये दो भेद बताये गये हैं॥ १३-१४ ३॥"
+          "hindi": "विप्रवर! उक्त वेध्यके अनेक भेद हैं। पहले तो दृढ़, दुष्कर तथा चित्र दुष्कर-ये वेध्यके तीन भेद हैं। ये तीनों ही भेद दो-दो प्रकारके होते हैं । “ नतनिम्न' और तीक्ष्ण'-ये 'दृढ़वेध्य ' के दो भेद हैं। 'दुष्करवेध्य'के भी “निम्न? और ऊर्ध्वगत'--ये दो भेद कहे गये हैं तथा ' चित्रदुष्कर' वेध्यके मस्तकपन' और 'मध्य'-ये दो भेद बताये गये हैं॥ १३-१४ ३॥",
+          "translation": "The staff formation may be with flanks, wings and chest, in operation; there the application of the staff one should show by the fourth position.",
+          "translationSource": "ai"
         },
         {
           "number": 66,
           "sanskrit": "स्याद्दण्डसमपक्षाभ्यामतिक्रान्तो दृढः स्मृतः । भवेत्स पक्षकक्षाभ्यामतिक्रान्तः प्रदारकः",
           "transliteration": "syāddaṇḍasamapakṣābhyāmatikrānto dṛḍhaḥ smṛtaḥ / bhavetsa pakṣakakṣābhyāmatikrāntaḥ pradārakaḥ",
-          "hindi": "इस प्रकार इन वेध्यगणोंको सिद्ध करके वीर"
+          "hindi": "इस प्रकार इन वेध्यगणोंको सिद्ध करके वीर",
+          "translation": "Surpassed by staff and equal wings it is remembered as \"dridha\"; surpassed by wings and flanks it would be \"pradaraka\";",
+          "translationSource": "ai"
         },
         {
           "number": 67,
           "sanskrit": "कक्षाभ्याञ्च प्रतिक्रान्तव्यूहो ऽसह्यः स्मृतो यथा । कक्षपक्षावधः स्थप्योरस्यैः कान्तश् च खातकः",
           "transliteration": "kakṣābhyāñca pratikrāntavyūho 'sahyaḥ smṛto yathā / kakṣapakṣāvadhaḥ sthapyorasyaiḥ kāntaś ca khātakaḥ",
-          "hindi": "पुरुष पहले दायें अथवा बायें पार्श्वसे शत्रुसेनापर चढ़ाई करे। इससे मनुष्यको अपने लक्ष्यपर विजय प्राप्त होती है। प्रयोक्ता पुरुषोंने वेध्यके विषयमें यही विधि देखी और बतायी है योद्धाके लिये उस वेध्यको अपेक्षा भ्रमणको अधिक उत्तम बताया गया है। वह लक्ष्यको अपने बाणके पुङ्खभागसे आच्छादित करके उसकी ओर दृढतापूर्वक शर-संधान करे । जो लक्ष्य भ्रमणशील,"
+          "hindi": "पुरुष पहले दायें अथवा बायें पार्श्वसे शत्रुसेनापर चढ़ाई करे। इससे मनुष्यको अपने लक्ष्यपर विजय प्राप्त होती है। प्रयोक्ता पुरुषोंने वेध्यके विषयमें यही विधि देखी और बतायी है योद्धाके लिये उस वेध्यको अपेक्षा भ्रमणको अधिक उत्तम बताया गया है। वह लक्ष्यको अपने बाणके पुङ्खभागसे आच्छादित करके उसकी ओर दृढतापूर्वक शर-संधान करे । जो लक्ष्य भ्रमणशील,",
+          "translation": "by the flanks the formation advanced is remembered as \"asahya\"; with flanks and wings below, and the chest, the \"kanta\" and \"khataka.\"",
+          "translationSource": "ai"
         },
         {
           "number": 68,
           "sanskrit": "द्वौ दण्डौ बलयः प्रोक्तो कान्तश् च खातकः । दुर्जयश् चतुर्वलयः शत्रोर्बलविमर्दनः",
           "transliteration": "dvau daṇḍau balayaḥ prokto kāntaś ca khātakaḥ / durjayaś caturvalayaḥ śatrorbalavimardanaḥ",
-          "hindi": "ओरसे प्रहार करे। उसका भेदन और छेदन करे तथा उसे सर्वथा पीड़ा पहुँचाये"
+          "hindi": "ओरसे प्रहार करे। उसका भेदन और छेदन करे तथा उसे सर्वथा पीड़ा पहुँचाये",
+          "translation": "Two staffs are called valaya, and kanta and khataka; the four-valaya is unconquerable, crusher of the enemy's force.",
+          "translationSource": "ai"
         },
         {
           "number": 69,
           "sanskrit": "कक्षपक्षौरस्यैर् भोगो विषयं परिवर्तयन् । १ कोटिभ्यां परिकल्पयेदिति घ॥ , ञ॥ च :प् ३८२ सर्पचारी गोमूत्रिका शर्कटः शकटाकृतिः",
           "transliteration": "kakṣapakṣaurasyair bhogo viṣayaṃ parivartayan / 1 koṭibhyāṃ parikalpayediti gha.. , ña.. ca :p 382 sarpacārī gomūtrikā śarkaṭaḥ śakaṭākṛtiḥ",
-          "hindi": "कर्मयोगके विधानका ज्ञाता पुरुष इस प्रकार समझ-बूझकर उचित विधिका आचरण (अनुष्ठान) करे। जिसने मन, नेत्र और दृष्टिके द्वारा लक्ष्यके साथ एकता-स्थापनकी कला सीख ली है, वह योद्धा यमराजको भी जीत सकता है । (पाठान्तरके अनुसार वह श्रमको जीत लेता है-युद्ध करते- करते थकता नहीं।)"
+          "hindi": "कर्मयोगके विधानका ज्ञाता पुरुष इस प्रकार समझ-बूझकर उचित विधिका आचरण (अनुष्ठान) करे। जिसने मन, नेत्र और दृष्टिके द्वारा लक्ष्यके साथ एकता-स्थापनकी कला सीख ली है, वह योद्धा यमराजको भी जीत सकता है । (पाठान्तरके अनुसार वह श्रमको जीत लेता है-युद्ध करते- करते थकता नहीं।)",
+          "translation": "With flanks, wings and chest the bhoga turns the field: serpent-moving, gomutrika, shakata with cart shape;",
+          "translationSource": "ai"
         },
         {
           "number": 70,
           "sanskrit": "विपर्ययो ऽमरः प्रोक्तः सर्वशत्रुविमर्दकः । स्यात् कक्षपक्षोरस्यानामेकीभावस्तु मण्डलः",
           "transliteration": "viparyayo 'maraḥ proktaḥ sarvaśatruvimardakaḥ / syāt kakṣapakṣorasyānāmekībhāvastu maṇḍalaḥ",
-          "hindi": "इस प्रकार आदि आग्रेय महापुराणमें 'धनुर्वेदका कथन” नामक दो सौ पचासवाँ अध्याय पूरा हुआ"
+          "hindi": "इस प्रकार आदि आग्रेय महापुराणमें 'धनुर्वेदका कथन” नामक दो सौ पचासवाँ अध्याय पूरा हुआ",
+          "translation": "the reverse is called \"amara,\" crusher of all enemies. The mandala is the merging of flanks, wings and chest;",
+          "translationSource": "ai"
         },
         {
           "number": 71,
           "sanskrit": "चक्रपद्मादयो भेदा मण्डलस्य प्रभेदकाः । एवञ्च सर्वतोभद्रो वज्राक्षवरकाकवत्",
           "transliteration": "cakrapadmādayo bhedā maṇḍalasya prabhedakāḥ / evañca sarvatobhadro vajrākṣavarakākavat",
-          "hindi": "१. 'वासिष्ठ-धनुर्वेद' में 'वेध' तीन प्रकारका बताया गया है-पुष्पवेध, मत्स्यवेध और मांसवेध। फलरहित बाणसे फूलको वेधना 'पुष्पवेध' है। फलयुक्त बाणसे मत्स्यका भेदन करना 'मत्स्यवेध' है। तदनन्तर मांसके प्रति लक्ष्यका स्थिरीकरण 'मांसवेध' २. “वीरचिन्तामणि'में ' श्रमकरण' (धनुष चलानेके परिश्रमपूर्वक अभ्यास)-के प्रकरणमें इस तरहकी बातें लिखी हैं। यथा-- पहले धनुषको चढ़ाकर शिखा बाँध ले, पूर्वोक्त स्थानभेदमेंसे किसी एकका आश्रय ले, खड़ा हो, बाणके ऊपर हाथ रखे। धनुषके तोलनपूर्वक उसे बायें हाथमें ले। तदनन्तर बाणका आदान करके संधान करे। एक बार धनुषकी प्रत्यञ्चा खींचकर भूमिवेधन करे। पहले भगवान् शंकर, विध्नराज गणेश, गुरुदेव तथा धनुष-बाणको नमस्कार करे। फिर बाण खींचनेके लिये गुरुसे आज्ञा माँगे।"
+          "hindi": "१. 'वासिष्ठ-धनुर्वेद' में 'वेध' तीन प्रकारका बताया गया है-पुष्पवेध, मत्स्यवेध और मांसवेध। फलरहित बाणसे फूलको वेधना 'पुष्पवेध' है। फलयुक्त बाणसे मत्स्यका भेदन करना 'मत्स्यवेध' है। तदनन्तर मांसके प्रति लक्ष्यका स्थिरीकरण 'मांसवेध' २. “वीरचिन्तामणि'में ' श्रमकरण' (धनुष चलानेके परिश्रमपूर्वक अभ्यास)-के प्रकरणमें इस तरहकी बातें लिखी हैं। यथा-- पहले धनुषको चढ़ाकर शिखा बाँध ले, पूर्वोक्त स्थानभेदमेंसे किसी एकका आश्रय ले, खड़ा हो, बाणके ऊपर हाथ रखे। धनुषके तोलनपूर्वक उसे बायें हाथमें ले। तदनन्तर बाणका आदान करके संधान करे। एक बार धनुषकी प्रत्यञ्चा खींचकर भूमिवेधन करे। पहले भगवान् शंकर, विध्नराज गणेश, गुरुदेव तथा धनुष-बाणको नमस्कार करे। फिर बाण खींचनेके लिये गुरुसे आज्ञा माँगे।",
+          "translation": "wheel, lotus and the rest are the varieties of the mandala. So too sarvatobhadra, vajra-like, shreshtha-kaka-like,",
+          "translationSource": "ai"
         },
         {
           "number": 72,
           "sanskrit": "अर्धचन्द्रश् च शृङ्गाटो ह्य् अचलो नामरूपतः(१) । व्यूहा यथासुखं कर्याः शत्रूणां बलवारणाः",
           "transliteration": "ardhacandraś ca śṛṅgāṭo hy acalo nāmarūpataḥ(1) / vyūhā yathāsukhaṃ karyāḥ śatrūṇāṃ balavāraṇāḥ",
-          "hindi": "प्राणवायुके प्रयत्न (पूरक प्राणायाम)-के साथ बाणसे धनुषको पूरित करे। कुम्भक प्राणायामके द्वारा उसे स्थिर करके रेचक प्राणायाम एवं हुंकारके साथ वायु एवं बाणका विसर्जन करे । सिद्धिकी इच्छावाले धनुर्धर योद्धाको यह अभ्यास-क्रिया अवश्य करनी चाहिए। छः मासमें 'मुष्टि' सिद्ध होती है और एक वर्षमें 'बाण'। 'नाराच' तो उसीके सिद्ध होते हैं, जिसपर भगवान् महेश्वरकी कृपा हो जाय। अपनी सिद्धि चाहनेवाला योद्धा बाणको फूलकी भाँति धारण करे। फिर धनुषको सर्पकी भाँति दबावे तथा लक्ष्यका बहुमूल्य"
+          "hindi": "प्राणवायुके प्रयत्न (पूरक प्राणायाम)-के साथ बाणसे धनुषको पूरित करे। कुम्भक प्राणायामके द्वारा उसे स्थिर करके रेचक प्राणायाम एवं हुंकारके साथ वायु एवं बाणका विसर्जन करे । सिद्धिकी इच्छावाले धनुर्धर योद्धाको यह अभ्यास-क्रिया अवश्य करनी चाहिए। छः मासमें 'मुष्टि' सिद्ध होती है और एक वर्षमें 'बाण'। 'नाराच' तो उसीके सिद्ध होते हैं, जिसपर भगवान् महेश्वरकी कृपा हो जाय। अपनी सिद्धि चाहनेवाला योद्धा बाणको फूलकी भाँति धारण करे। फिर धनुषको सर्पकी भाँति दबावे तथा लक्ष्यका बहुमूल्य",
+          "translation": "half-moon, shringata, and achala by name and form. Formations should be made at ease to ward off the enemies' force.",
+          "translationSource": "ai"
         },
         {
           "number": 73,
           "sanskrit": "अग्निर् उवाचरामस्तु रावणं हत्वा अयोध्यां प्राप्तवान् द्विज । रामोक्तनीत्येन्द्रजितं हतवांल्लक्ष्मणः पुरा",
           "transliteration": "agnir uvācarāmastu rāvaṇaṃ hatvā ayodhyāṃ prāptavān dvija / rāmoktanītyendrajitaṃ hatavāṃllakṣmaṇaḥ purā",
-          "hindi": "धनकी भाँति चिन्तन करे, इत्यादि । पाशके निर्माण और प्रयोगकी विधि तथा तलवार और लाठीको अपने पास रखने एवं शत्रुपर चलानेकी उपयुक्त पद्धतिका निर्देश"
+          "hindi": "धनकी भाँति चिन्तन करे, इत्यादि । पाशके निर्माण और प्रयोगकी विधि तथा तलवार और लाठीको अपने पास रखने एवं शत्रुपर चलानेकी उपयुक्त पद्धतिका निर्देश",
+          "translation": "Agni said: Rama, having killed Ravana, reached Ayodhya, twice-born; by the policy told by Rama Lakshmana earlier killed Indrajit.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -54949,127 +55051,169 @@
           "number": 6,
           "sanskrit": "षडुन्नतो ऽष्टवंशश् च सप्तस्नेहो नवामलः । दशपद्मो दशव्यूहो न्यग्रोधपरिमण्डलः",
           "transliteration": "ṣaḍunnato 'ṣṭavaṃśaś ca saptasneho navāmalaḥ / daśapadmo daśavyūho nyagrodhaparimaṇḍalaḥ",
-          "hindi": "छः अङ्गुल और लंबाई या ऊँचाई सात हाथकी हो लोहेकी बनी हुई कई शलाकाएँ और नाना प्रकारके कवच अपने आधे या समूचे हाथमें लगा ले; अगल-बगलमें और ऊपर-नीचे भी शरीरकी रक्षाके लिये इन सब वस्तुओंको विधिवत्"
+          "hindi": "छः अङ्गुल और लंबाई या ऊँचाई सात हाथकी हो लोहेकी बनी हुई कई शलाकाएँ और नाना प्रकारके कवच अपने आधे या समूचे हाथमें लगा ले; अगल-बगलमें और ऊपर-नीचे भी शरीरकी रक्षाके लिये इन सब वस्तुओंको विधिवत्",
+          "translation": "Six high, eight-boned, seven oily, nine clean, ten lotus-like, ten spread, with banyan-like proportions,",
+          "translationSource": "ai"
         },
         {
           "number": 7,
           "sanskrit": "चतुर्दशसमद्वन्द्वः षोडशाक्षयश् च शस्यते । धर्मार्थकामसंयुक्तो धर्मो ह्य् एकाधिको मतः",
           "transliteration": "caturdaśasamadvandvaḥ ṣoḍaśākṣayaś ca śasyate / dharmārthakāmasaṃyukto dharmo hy ekādhiko mataḥ",
-          "hindi": "युद्धमें विजयके लिये जिस विधिसे जैसी योजना बनानी चाहिए, वह बताता हूँ, सुनो। तूणीरके चमड़ेसे मढ़ी हुई एक नयी और मजबूत लाठी अपने पास रख ले। उस लाठीको दाहिने"
+          "hindi": "युद्धमें विजयके लिये जिस विधिसे जैसी योजना बनानी चाहिए, वह बताता हूँ, सुनो। तूणीरके चमड़ेसे मढ़ी हुई एक नयी और मजबूत लाठी अपने पास रख ले। उस लाठीको दाहिने",
+          "translation": "fourteen paired equal, sixteen imperishable is praised; joined with dharma, wealth and desire, dharma is held as one more.",
+          "translationSource": "ai"
         },
         {
           "number": 8,
           "sanskrit": "तारकाभ्यां विना नेत्रे शुक्रदन्तो द्विशुक्लकः । गम्भीरस्त्रिश्रवो नाभिः सत्त्वञ्चैकं त्रिकं स्मृतं",
           "transliteration": "tārakābhyāṃ vinā netre śukradanto dviśuklakaḥ / gambhīrastriśravo nābhiḥ sattvañcaikaṃ trikaṃ smṛtaṃ",
-          "hindi": "हाथकी अँगुलियोंसे उठाकर वह जिसके ऊपर जोरसे आघात करेगा, उस शत्रुका अवश्य नाश हो जायगा। इस क्रियामें सिद्धि मिलनेपर वह दोनों हाथोंसे लाठीको शत्रुके ऊपर गिरावे। इससे अनायास ही वह उसका वध कर सकता है। इस तरह युद्धमें सिद्धिकी बात बतायी गयी। रणभूमिमें भलीभाँति संचरणके लिये अपने वाहनोंसे श्रम कराते रहना चाहिए, यह बात तुम्हें पहले बतायी"
+          "hindi": "हाथकी अँगुलियोंसे उठाकर वह जिसके ऊपर जोरसे आघात करेगा, उस शत्रुका अवश्य नाश हो जायगा। इस क्रियामें सिद्धि मिलनेपर वह दोनों हाथोंसे लाठीको शत्रुके ऊपर गिरावे। इससे अनायास ही वह उसका वध कर सकता है। इस तरह युद्धमें सिद्धिकी बात बतायी गयी। रणभूमिमें भलीभाँति संचरणके लिये अपने वाहनोंसे श्रम कराते रहना चाहिए, यह बात तुम्हें पहले बतायी",
+          "translation": "Eyes without pupils... white teeth, two white things, deep, three-eared, navel, and one sattva — the triad is remembered:",
+          "translationSource": "ai"
         },
         {
           "number": 9,
           "sanskrit": "अनसूया दया क्षान्तिर्मङ्गलाचारयुक्तता । शौचं स्पृहा त्वकार्पण्यमनायासश् च शौर्यता",
           "transliteration": "anasūyā dayā kṣāntirmaṅgalācārayuktatā / śaucaṃ spṛhā tvakārpaṇyamanāyāsaś ca śauryatā",
-          "hindi": "इस प्रकार आदि आग्रेय महापुराणमें “धनुर्वेदका कथन” नामक दो सौ इक्यावनवाँ अध्याय पूरा हुआ"
+          "hindi": "इस प्रकार आदि आग्रेय महापुराणमें “धनुर्वेदका कथन” नामक दो सौ इक्यावनवाँ अध्याय पूरा हुआ",
+          "translation": "freedom from envy, compassion, forbearance, auspicious conduct, purity, desirelessness, non-meanness, effortlessness and valor.",
+          "translationSource": "ai"
         },
         {
           "number": 10,
           "sanskrit": "चित्रिकस्त्रिप्रलम्बः स्याद्वृषणे भुजयोर्नरः । दिग्देशजातिवर्गांश् च तेजसा यशसा श्रिया",
           "transliteration": "citrikastripralambaḥ syādvṛṣaṇe bhujayornaraḥ / digdeśajātivargāṃś ca tejasā yaśasā śriyā",
-          "hindi": "तलवारके बत्तीस हाथ, पाश, चक्र, शूल, तोमर, गदा, परशु, मल्लयुद्धके दाँव और पैंतरोंका वर्णन अग्निदेव कहते हैं-- ब्रह्मन्! भ्रान्त, उद्भ्रान्त,  चाहिए"
+          "hindi": "तलवारके बत्तीस हाथ, पाश, चक्र, शूल, तोमर, गदा, परशु, मल्लयुद्धके दाँव और पैंतरोंका वर्णन अग्निदेव कहते हैं-- ब्रह्मन्! भ्रान्त, उद्भ्रान्त,  चाहिए",
+          "translation": "A man with three marks, three long parts, in testicles and arms; one who by splendor, fame and prosperity pervades directions, places, castes and groups",
+          "translationSource": "ai"
         },
         {
           "number": 11,
           "sanskrit": "व्याप्नोति यस्त्रिकव्यापी त्रिबलीमान्नरस्त्वसौ । उदरे बलयस्तिस्रो नरन्त्रिविनतं शृणु",
           "transliteration": "vyāpnoti yastrikavyāpī tribalīmānnarastvasau / udare balayastisro narantrivinataṃ śṛṇu",
-          "hindi": "सव्य, दक्षिण, अनालक्षित, विस्फोट, करालेनद्र, महासख, विकराल, निपात, विभीषण, भयानक,"
+          "hindi": "सव्य, दक्षिण, अनालक्षित, विस्फोट, करालेनद्र, महासख, विकराल, निपात, विभीषण, भयानक,",
+          "translation": "is a three-pervader, a man with three folds; three folds on the belly — hear of the three-bent man:",
+          "translationSource": "ai"
         },
         {
           "number": 12,
           "sanskrit": "देवतानां द्विजानाञ्च गुरूणां प्रणतस्तु यः । धर्मार्थकामकालज्ञस्त्रिकालज्ञो ऽभिधीयते",
           "transliteration": "devatānāṃ dvijānāñca gurūṇāṃ praṇatastu yaḥ / dharmārthakāmakālajñastrikālajño 'bhidhīyate",
-          "hindi": "रणभूमिमें दिखाये जानेवाले ढाल-तलवारके बत्तीस हाथ (या चलानेके ढंग) हैं; इन्हें जानना चाहिए और ग्राह-ग्राह्म-ये युद्धमें ' पाश' फेंकनेके ग्यारह प्रकार हैं"
+          "hindi": "रणभूमिमें दिखाये जानेवाले ढाल-तलवारके बत्तीस हाथ (या चलानेके ढंग) हैं; इन्हें जानना चाहिए और ग्राह-ग्राह्म-ये युद्धमें ' पाश' फेंकनेके ग्यारह प्रकार हैं",
+          "translation": "one who bows to gods, Brahmins and teachers, knower of times of dharma, wealth and desire, is called a knower of three times.",
+          "translationSource": "ai"
         },
         {
           "number": 13,
           "sanskrit": "उरो ललाटं वक्त्रञ्च त्रिविस्तीर्णो विलेखवान् । द्वौ पाणी द्वौ तथा पादौ ध्वजच्छत्रादिभिर्युतौ",
           "transliteration": "uro lalāṭaṃ vaktrañca trivistīrṇo vilekhavān / dvau pāṇī dvau tathā pādau dhvajacchatrādibhiryutau",
-          "hindi": "ये पाँच कर्म 'व्यस्तपाश' के लिये महात्माओंने बताये हैं"
+          "hindi": "ये पाँच कर्म 'व्यस्तपाश' के लिये महात्माओंने बताये हैं",
+          "translation": "Chest, forehead and face broad, with lines; both hands and both feet joined with banner, umbrella and the like;",
+          "translationSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "अङ्गुल्यो हृदयं पृष्ठं कटिः शस्तं चतुःसमं । षण्णवत्यङ्गुलोत्सेधश् चतुष्किष्कुप्रमाणतः",
           "transliteration": "aṅgulyo hṛdayaṃ pṛṣṭhaṃ kaṭiḥ śastaṃ catuḥsamaṃ / ṣaṇṇavatyaṅgulotsedhaś catuṣkiṣkupramāṇataḥ",
-          "hindi": "छेदन, भेदन, पात, भ्रमण, शमन, विकर्तन तथा कर्तन-ये सात कर्म “चक्र 'के हैं और आघात-ये छः 'शूल'के कर्म जानो"
+          "hindi": "छेदन, भेदन, पात, भ्रमण, शमन, विकर्तन तथा कर्तन-ये सात कर्म “चक्र 'के हैं और आघात-ये छः 'शूल'के कर्म जानो",
+          "translation": "fingers, heart, back and waist praised as four-equal; ninety-six fingers in height by four cubits measure;",
+          "translationSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "द्रंष्ट्राश् चतस्रश् चन्द्राभाश् चतुःकृष्णं वदामि ते । नेत्रतारौ भ्रुवौ श्मश्रुः कृष्णाः केशास्तथैव च",
           "transliteration": "draṃṣṭrāś catasraś candrābhāś catuḥkṛṣṇaṃ vadāmi te / netratārau bhruvau śmaśruḥ kṛṣṇāḥ keśāstathaiva ca",
-          "hindi": "ऋजुपात, पक्षपात और इषुपात-ये “तोमर 'के कार्य कहे गये हैं"
+          "hindi": "ऋजुपात, पक्षपात और इषुपात-ये “तोमर 'के कार्य कहे गये हैं",
+          "translation": "four teeth moon-bright; I tell you the four blacks: pupils of the eyes, brows, beard and hair black likewise;",
+          "translationSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "नासायां वदने स्वेदे कक्षयोर्विडगन्धकः । ह्रस्वं लिङ्गं तथा ग्रीवा जङ्घे स्याद्वेदह्रस्वकं",
           "transliteration": "nāsāyāṃ vadane svede kakṣayorviḍagandhakaḥ / hrasvaṃ liṅgaṃ tathā grīvā jaṅghe syādvedahrasvakaṃ",
-          "hindi": "तथा विमद-ये 'गदा-सम्बन्धी' कर्म कहे गये हैं कराल, अवघात, दंशोपप्लुत, क्षिप्तहस्त, स्थित और शून्य-ये 'फरसे'के कर्म समझने"
+          "hindi": "तथा विमद-ये 'गदा-सम्बन्धी' कर्म कहे गये हैं कराल, अवघात, दंशोपप्लुत, क्षिप्तहस्त, स्थित और शून्य-ये 'फरसे'के कर्म समझने",
+          "translation": "in nose, mouth, sweat, and armpits a scent like feces; short organ, neck and shanks, and short veda...",
+          "translationSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "सूक्ष्माण्यङ्गुलिपर्वाणि नखकेशद्विजत्वचः । हनू नेत्रे ललाटे च नासा दीर्घा स्तनान्तरं",
           "transliteration": "sūkṣmāṇyaṅguliparvāṇi nakhakeśadvijatvacaḥ / hanū netre lalāṭe ca nāsā dīrghā stanāntaraṃ",
-          "hindi": "घातन -ये 'मुद्गर'के कर्म हैं"
+          "hindi": "घातन -ये 'मुद्गर'के कर्म हैं",
+          "translation": "delicate finger-joints, nails, hair, teeth and skin; jaws, eyes and forehead, nose long, between the breasts;",
+          "translationSource": "ai"
         },
         {
           "number": 18,
           "sanskrit": "वक्षः कक्षौ नखा नासोन्नतं वक्त्रं कृकाटिका । स्निग्धास्त्वक्केशदन्ताश् च लोम दृष्टिर्नखाश् च वाक्",
           "transliteration": "vakṣaḥ kakṣau nakhā nāsonnataṃ vaktraṃ kṛkāṭikā / snigdhāstvakkeśadantāś ca loma dṛṣṭirnakhāś ca vāk",
-          "hindi": "“भिन्दिपाल'के कर्म हैं और 'लगुड'के भी वे ही कर्म बताये गये हैं निदेशान्त-ये ' वञ्र' और “पट्टिश के कर्म हैं"
+          "hindi": "“भिन्दिपाल'के कर्म हैं और 'लगुड'के भी वे ही कर्म बताये गये हैं निदेशान्त-ये ' वञ्र' और “पट्टिश के कर्म हैं",
+          "translation": "chest, armpits, nails, nose, raised face, nape; glossy skin, hair and teeth; body-hair, gaze, nails and speech;",
+          "translationSource": "ai"
         },
         {
           "number": 19,
           "sanskrit": "जान्वोरुर्वोश् च पृष्ठस्थ वंशौ द्वौ करनासयोः । नेत्रे नासापुटौ कर्णौ मेढ्रं पायुमुखे ऽमलं",
           "transliteration": "jānvorurvoś ca pṛṣṭhastha vaṃśau dvau karanāsayoḥ / netre nāsāpuṭau karṇau meḍhraṃ pāyumukhe 'malaṃ",
-          "hindi": "स्फोटन ये 'कृपाण'के कर्म कहे गये हैं"
+          "hindi": "स्फोटन ये 'कृपाण'के कर्म कहे गये हैं",
+          "translation": "of knees and thighs and back; two bamboos, of hands and nose; eyes, nostrils, ears, organ, anus and mouth clean;",
+          "translationSource": "ai"
         },
         {
           "number": 20,
           "sanskrit": "जिह्वोष्ठे तालुनेत्रे तु हस्तपादौ नखास् तथा । शिश्नाग्रवक्त्रं शस्यन्ते पद्माभा दश देहिनां",
           "transliteration": "jihvoṣṭhe tālunetre tu hastapādau nakhās tathā / śiśnāgravaktraṃ śasyante padmābhā daśa dehināṃ",
-          "hindi": "ये 'क्षेपणी' (गोफन)-के कार्य कहे गये हैं। ये ही 'यन्त्र'के भी कर्म हैं संत्याग, अवदंश, वराहोद्धूतक, हस्तावहस्त, आलीन, एकहस्त, अवहस्तक, द्विहस्त, बाहुपाश,"
+          "hindi": "ये 'क्षेपणी' (गोफन)-के कार्य कहे गये हैं। ये ही 'यन्त्र'के भी कर्म हैं संत्याग, अवदंश, वराहोद्धूतक, हस्तावहस्त, आलीन, एकहस्त, अवहस्तक, द्विहस्त, बाहुपाश,",
+          "translation": "tongue, lips, palate, eyes, hands, feet and nails, tip of organ and face — these ten of embodied beings are praised as lotus-like.",
+          "translationSource": "ai"
         },
         {
           "number": 21,
           "sanskrit": "पाणिपादं मुखं ग्रीवा श्रवणे हृदयं शिरः । ललाटमुदरं पृष्ठं वृहन्तः पूजिता दश",
           "transliteration": "pāṇipādaṃ mukhaṃ grīvā śravaṇe hṛdayaṃ śiraḥ / lalāṭamudaraṃ pṛṣṭhaṃ vṛhantaḥ pūjitā daśa",
-          "hindi": "भुजाविधमन, करोद्धूत, विमान, पादाहति,"
+          "hindi": "भुजाविधमन, करोद्धूत, विमान, पादाहति,",
+          "translation": "Hands and feet, face, neck, ears, heart, head, forehead, belly, back — ten large ones are honored.",
+          "translationSource": "ai"
         },
         {
           "number": 22,
           "sanskrit": "प्रसारितभुजस्येह मध्यमाग्रद्वयान्तरं । उच्छ्रायेण समं यस्य न्यग्रोधपरिमण्डलः",
           "transliteration": "prasāritabhujasyeha madhyamāgradvayāntaraṃ / ucchrāyeṇa samaṃ yasya nyagrodhaparimaṇḍalaḥ",
-          "hindi": "' गदायुद्ध के हाथ जानने चाहिए। अब 'मल्लयुद्ध'के दाव-पेंच बताये जाते हैं आकर्षण, विकर्षण, बाहुमूल, ग्रीवाविपरिवर्त,"
+          "hindi": "' गदायुद्ध के हाथ जानने चाहिए। अब 'मल्लयुद्ध'के दाव-पेंच बताये जाते हैं आकर्षण, विकर्षण, बाहुमूल, ग्रीवाविपरिवर्त,",
+          "translation": "For one with arms stretched, the span between the tips of the two middle fingers equals his height — banyan-measured.",
+          "translationSource": "ai"
         },
         {
           "number": 23,
           "sanskrit": "पादौ गुल्फौ स्फिचौ पार्श्वौ वङ्क्षणौ वृषणौ कुचौ । कर्णौष्ठे सक्थिनी जङ्घे हस्तौ बाहू तथाक्षिणी",
           "transliteration": "pādau gulphau sphicau pārśvau vaṅkṣaṇau vṛṣaṇau kucau / karṇauṣṭhe sakthinī jaṅghe hastau bāhū tathākṣiṇī",
-          "hindi": "विस्पष्टकरण, उद्धूत, अवधूत, तिर्यड्मार्गगत, गजस्कन्ध, अवक्षेप, अपराड्मुख, देवमार्ग, अधोमार्ग,"
+          "hindi": "विस्पष्टकरण, उद्धूत, अवधूत, तिर्यड्मार्गगत, गजस्कन्ध, अवक्षेप, अपराड्मुख, देवमार्ग, अधोमार्ग,",
+          "translation": "Feet, ankles, buttocks, sides, groins, testicles, breasts, ears, lips, thighs, shanks, hands, arms and eyes —",
+          "translationSource": "ai"
         },
         {
           "number": 24,
           "sanskrit": "चतुर्दशसमद्वन्द्व एतत्सामान्यतो नरः । विद्याश् चतुर्दश द्व्यक्षैः पश्येद्यः षोडशाक्षकः",
           "transliteration": "caturdaśasamadvandva etatsāmānyato naraḥ / vidyāś caturdaśa dvyakṣaiḥ paśyedyaḥ ṣoḍaśākṣakaḥ",
-          "hindi": "युद्धमें कवच धारण करके, अस्त्र-शस्त्रसे सम्पन्न हो, हाथी आदि वाहनोंपर चढ़कर उपस्थित होना चाहिए। हाथीपर उत्तम अङ्कुश धारण किये दो महावत या चालक रहने चाहिए। उनमेंसे एक तो हाथीकी गर्दनपर सवार हो और दूसरा उसके कंधेपर। इनके अतिरिक्त सवारोंमें दो धनुर्धर होने चाहिए और दो खड्गधारी"
+          "hindi": "युद्धमें कवच धारण करके, अस्त्र-शस्त्रसे सम्पन्न हो, हाथी आदि वाहनोंपर चढ़कर उपस्थित होना चाहिए। हाथीपर उत्तम अङ्कुश धारण किये दो महावत या चालक रहने चाहिए। उनमेंसे एक तो हाथीकी गर्दनपर सवार हो और दूसरा उसके कंधेपर। इनके अतिरिक्त सवारोंमें दो धनुर्धर होने चाहिए और दो खड्गधारी",
+          "translation": "fourteen pairs equal: such is the man in general. One who sees the fourteen knowledges with two eyes, with sixteen eyes —",
+          "translationSource": "ai"
         },
         {
           "number": 25,
           "sanskrit": "रूक्षं शिराततं गात्रमशुभं मांसवर्जितं । दुर्गन्धिविपरीतं यच्छस्तन्दृष्ट्या प्रसन्नया",
           "transliteration": "rūkṣaṃ śirātataṃ gātramaśubhaṃ māṃsavarjitaṃ / durgandhiviparītaṃ yacchastandṛṣṭyā prasannayā",
-          "hindi": "प्रत्येक रथ और हाथीको रक्षाके लिये तीन-"
+          "hindi": "प्रत्येक रथ और हाथीको रक्षाके लिये तीन-",
+          "translation": "rough, with spread veins, inauspicious, fleshless, foul-smelling, the reverse of what is praised — with a gracious look.",
+          "translationSource": "ai"
         },
         {
           "number": 26,
           "sanskrit": "धन्यस्य मधुरा वाणी गतिर्मत्तेभसन्निभा । एककूपभवं रोम भये रक्षा सकृत् सकृत्",
           "transliteration": "dhanyasya madhurā vāṇī gatirmattebhasannibhā / ekakūpabhavaṃ roma bhaye rakṣā sakṛt sakṛt",
-          "hindi": "तीन घुड़सवार सैनिक रहें तथा घोड़ेको रक्षाके लिये तीन-तीन धनुर्धर पैदल-सैनिक रहने चाहिए। धनुर्धरकी रक्षाके लिये चर्म या ढाल लिये रहनेवाले योद्धाकी नियुक्ति करनी चाहिए जो प्रत्येक शस्त्रका उसके अपने मन्त्रोंसे पूजन करके ' त्रैलोक्यमोहन-कवच'का पाठ करनेके अनन्तर युद्धमें जाता है, वह शत्रुओंपर विजय पाता और भूतलकी रक्षा करता है। (पाठान्तरके"
+          "hindi": "तीन घुड़सवार सैनिक रहें तथा घोड़ेको रक्षाके लिये तीन-तीन धनुर्धर पैदल-सैनिक रहने चाहिए। धनुर्धरकी रक्षाके लिये चर्म या ढाल लिये रहनेवाले योद्धाकी नियुक्ति करनी चाहिए जो प्रत्येक शस्त्रका उसके अपने मन्त्रोंसे पूजन करके ' त्रैलोक्यमोहन-कवच'का पाठ करनेके अनन्तर युद्धमें जाता है, वह शत्रुओंपर विजय पाता और भूतलकी रक्षा करता है। (पाठान्तरके",
+          "translation": "A fortunate man's speech is sweet, gait like an elephant in rut; hair from one pore; in fear protection again and again.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -55096,19 +55240,25 @@
           "number": 3,
           "sanskrit": "नाभिः प्रदक्षिणावर्ता गुह्यमश्वत्थपत्रवत् । गुल्फौ निगूढौ मध्येन नाभिरङ्गुष्ठमानिका",
           "transliteration": "nābhiḥ pradakṣiṇāvartā guhyamaśvatthapatravat / gulphau nigūḍhau madhyena nābhiraṅguṣṭhamānikā",
-          "hindi": "अग्निदेव कहते हैं-- वसिष्ठ! अब मैं व्यवहारका वर्णन करता हूँ, जो नय और अनयका विवेक प्रदान करनेवाला है। उसके चार चरण, चार स्थान और चार साधन बतलाये गये हैं। वह"
+          "hindi": "अग्निदेव कहते हैं-- वसिष्ठ! अब मैं व्यवहारका वर्णन करता हूँ, जो नय और अनयका विवेक प्रदान करनेवाला है। उसके चार चरण, चार स्थान और चार साधन बतलाये गये हैं। वह",
+          "translation": "Navel turning to the right, private part like a pipal leaf, ankles concealed, navel a thumb in size at the middle;",
+          "translationSource": "ai"
         },
         {
           "number": 4,
           "sanskrit": "जठरन्न प्रलम्बञ्च रोमरूक्षा न शोभना । नर्क्षवृक्षनदीनाम्नी न सदा(१) कलहप्रिया",
           "transliteration": "jaṭharanna pralambañca romarūkṣā na śobhanā / narkṣavṛkṣanadīnāmnī na sadā(1) kalahapriyā",
-          "hindi": "चारका हितकारी, चारमें व्याप्त और चारका कर्ता कहा जाता है। वह आठ अङ्ग, अठारह द्वार और दो गतियोंसे युक्त है"
+          "hindi": "चारका हितकारी, चारमें व्याप्त और चारका कर्ता कहा जाता है। वह आठ अङ्ग, अठारह द्वार और दो गतियोंसे युक्त है",
+          "translation": "belly not hanging, body-hair not rough — such is not good. One not named after stars, trees or rivers, not always fond of quarrel,",
+          "translationSource": "ai"
         },
         {
           "number": 5,
           "sanskrit": "न लोलुपा न दुर्भाषा शुभा देवादिपूजिता । गण्डैर् मधूकपुष्पाभैर् न शिराला न लोमशा",
           "transliteration": "na lolupā na durbhāṣā śubhā devādipūjitā / gaṇḍair madhūkapuṣpābhair na śirālā na lomaśā",
-          "hindi": "धर्म, व्यवहार, चरित्र और राजशासन-ये व्यवहारदर्शनके चार चरण हैं। इनमें उत्तरोत्तर पाद पूर्व-पूर्व पादके साधक हैं। इन सबमें ' धर्म ' का आधार सत्य है, 'व्यवहार'का आधार साक्षी"
+          "hindi": "धर्म, व्यवहार, चरित्र और राजशासन-ये व्यवहारदर्शनके चार चरण हैं। इनमें उत्तरोत्तर पाद पूर्व-पूर्व पादके साधक हैं। इन सबमें ' धर्म ' का आधार सत्य है, 'व्यवहार'का आधार साक्षी",
+          "translation": "not greedy, not foul-spoken, is auspicious, honored by gods and the rest; with cheeks like madhuka flowers, not veiny, not hairy.",
+          "translationSource": "ai"
         },
         {
           "number": 6,
