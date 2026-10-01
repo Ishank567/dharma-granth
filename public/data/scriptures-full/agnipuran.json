@@ -71816,49 +71816,65 @@
           "number": 19,
           "sanskrit": "तरलं पयसा युक्तं कार्पासफलपल्ल्वं । अपामार्गस्य पुष्पाग्रं नवं समहिषीपयः",
           "transliteration": "taralaṃ payasā yuktaṃ kārpāsaphalapallvaṃ / apāmārgasya puṣpāgraṃ navaṃ samahiṣīpayaḥ",
-          "hindi": "अब दस बीजरूप प्रणव बताये जाते हैं- ओजको अनुस्वारसे युक्त करके 'ओम्' इस प्रथम वर्णका उद्धार करे। अंशुमान् और अंशुका योग “आं' यह नायकस्वरूप द्वितीय वर्ण है। अंशुमान् और ईश्वर--'ई'--यह तृतीय वर्ण है, जो मुक्ति प्रदान करनेवाला है । अंशु (अनुस्वार)- से आक्रान्त ऊहक अर्थात् ॐ' यह चतुर्थ वर्ण है। सानुस्वार वरुण (व्), प्राण (यू) और तेजस्"
+          "hindi": "अब दस बीजरूप प्रणव बताये जाते हैं- ओजको अनुस्वारसे युक्त करके 'ओम्' इस प्रथम वर्णका उद्धार करे। अंशुमान् और अंशुका योग “आं' यह नायकस्वरूप द्वितीय वर्ण है। अंशुमान् और ईश्वर--'ई'--यह तृतीय वर्ण है, जो मुक्ति प्रदान करनेवाला है । अंशु (अनुस्वार)- से आक्रान्त ऊहक अर्थात् ॐ' यह चतुर्थ वर्ण है। सानुस्वार वरुण (व्), प्राण (यू) और तेजस्",
+          "translation": "Taralaka with milk, cotton fruit and leaves; the new flower-tips of apamarga with buffalo-milk —",
+          "translationSource": "ai"
         },
         {
           "number": 20,
           "sanskrit": "पुत्रार्थञ्चार्धषट्शाकैर् योगाश् चत्वार ईरिताः । शर्करोत्पलपुष्पाक्षलोध्रचन्दनसारिवाः",
           "transliteration": "putrārthañcārdhaṣaṭśākair yogāś catvāra īritāḥ / śarkarotpalapuṣpākṣalodhracandanasārivāḥ",
-          "hindi": "१.  श्रीविद्यार्णवतन्त्र' में महापाशुपतास्त्र-मन्त्र इस प्रकार उद्धत किया गया है--' 3३ शलीं इसकलहीं पशुहसकलहाँ हं सकल"
+          "hindi": "१.  श्रीविद्यार्णवतन्त्र' में महापाशुपतास्त्र-मन्त्र इस प्रकार उद्धत किया गया है--' 3३ शलीं इसकलहीं पशुहसकलहाँ हं सकल",
+          "translation": "for a son, with the six half-vegetables; four combinations are declared. Sugar, utpala, flower, akshas, lodhra, sandal and sariva",
+          "translationSource": "ai"
         },
         {
           "number": 21,
           "sanskrit": "स्रवमाणे स्त्रिया गर्भे दातव्यास्तण्डुलाम्भसा । लाजा यष्टिसिताद्राक्षाक्षौद्रसर्पींषि वा लिहेत्",
           "transliteration": "sravamāṇe striyā garbhe dātavyāstaṇḍulāmbhasā / lājā yaṣṭisitādrākṣākṣaudrasarpīṃṣi vā lihet",
-          "hindi": "२. साङ्ग-मन्त्रके बीज हस्व स्वरोंसे भेदित होते हैं। न्यास तथा पूजनके लिये उनका स्वरूप यों समझना चाहिए--' हों ईशानायोर्ध्ववक्त्राय नमः । हें तत्पुरुषाय पूर्ववक्त्राय नम: । हुं अघोराय दक्षिणवक्त्राय नम: । हिं वामदेवाय उत्तरवक्त्राय नम: । हं सद्योजाताय पश्चिमवक्त्राय नमः ।'"
+          "hindi": "२. साङ्ग-मन्त्रके बीज हस्व स्वरोंसे भेदित होते हैं। न्यास तथा पूजनके लिये उनका स्वरूप यों समझना चाहिए--' हों ईशानायोर्ध्ववक्त्राय नमः । हें तत्पुरुषाय पूर्ववक्त्राय नम: । हुं अघोराय दक्षिणवक्त्राय नम: । हिं वामदेवाय उत्तरवक्त्राय नम: । हं सद्योजाताय पश्चिमवक्त्राय नमः ।'",
+          "translation": "should be given with rice-water when a woman's pregnancy is leaking; or one should lick parched rice, licorice, sugar, grapes, honey and ghee.",
+          "translationSource": "ai"
         },
         {
           "number": 22,
           "sanskrit": "अटरुषकलाङ्गुल्यः काकमाच्याः शिफा पृथक् । नाभेरधः समालिप्य प्रसूते प्रमदा सुखम्",
           "transliteration": "aṭaruṣakalāṅgulyaḥ kākamācyāḥ śiphā pṛthak / nābheradhaḥ samālipya prasūte pramadā sukham",
-          "hindi": "३. यथा--वों ब्रह्मणे क्षों विष्णवे ईशानाय नम: । वें ब्रह्मणे क्षें विष्णवे तत्पुरुषाय नमः । हुं ब्रह्मणे क्षुं विष्णवे अघोराय नम: । विं ब्रह्मणे क्षिं विष्णवे वामदेवाय नमः। वं ब्रह्मणे क्षं विष्णवे सद्योजाताय नम: । ये पूजनके मन्त्र हैं । अङ्गन्यास वां ब्रह्मणे क्षां विष्णवे हृदयाय नमः। वीं ब्रह्मणे क्षीं विष्णवे शिरसे स्वाहा। वूं ब्रह्मणे क्षूं विष्णवे शिखायै वषट्। वैं ब्रह्मणे क्षं विष्णवे कवचाय हुम्। वौं ब्रह्मणे क्षौं विष्णवे नेत्रत्रयाय वौषट्। व: ब्रह्मणे क्षः विष्णवे अस्त्राय फट्।"
+          "hindi": "३. यथा--वों ब्रह्मणे क्षों विष्णवे ईशानाय नम: । वें ब्रह्मणे क्षें विष्णवे तत्पुरुषाय नमः । हुं ब्रह्मणे क्षुं विष्णवे अघोराय नम: । विं ब्रह्मणे क्षिं विष्णवे वामदेवाय नमः। वं ब्रह्मणे क्षं विष्णवे सद्योजाताय नम: । ये पूजनके मन्त्र हैं । अङ्गन्यास वां ब्रह्मणे क्षां विष्णवे हृदयाय नमः। वीं ब्रह्मणे क्षीं विष्णवे शिरसे स्वाहा। वूं ब्रह्मणे क्षूं विष्णवे शिखायै वषट्। वैं ब्रह्मणे क्षं विष्णवे कवचाय हुम्। वौं ब्रह्मणे क्षौं विष्णवे नेत्रत्रयाय वौषट्। व: ब्रह्मणे क्षः विष्णवे अस्त्राय फट्।",
+          "translation": "Atarushaka, langali, kakamachi, shipha separately — having smeared below the navel, a woman delivers easily.",
+          "translationSource": "ai"
         },
         {
           "number": 23,
           "sanskrit": "रक्तं शुक्लं जावापुष्पं रक्तशुक्लस्त्रुतौ पिवेत् । केशरं वृहतीमूलं गोपीयष्टितृणोत्पलम्",
           "transliteration": "raktaṃ śuklaṃ jāvāpuṣpaṃ raktaśuklastrutau pivet / keśaraṃ vṛhatīmūlaṃ gopīyaṣṭitṛṇotpalam",
-          "hindi": "(२)--अर्थात् “व्यूं' इसे पञ्चम बीजाक्षर बताया गया है। तत्पश्चात् सानुस्वार कृतान्त (मकार) अर्थात् “मं' यह षष्ठ बीज है। सानुस्वार उदक और प्राण (व्यं) सप्तम बीजके रूपमें उद्धृत हुआ है। इन्दुयुक्त पद्म-'पं' आठवाँ तथा एकपादयुक्त नन्दीश 'नें' नवाँ बीज है। अन्तमें प्रथम बीज 'ओम्'का ही उल्लेख किया जाता है। इस प्रकार जो दशबीजात्मक मन्त्र है, इसे"
+          "hindi": "(२)--अर्थात् “व्यूं' इसे पञ्चम बीजाक्षर बताया गया है। तत्पश्चात् सानुस्वार कृतान्त (मकार) अर्थात् “मं' यह षष्ठ बीज है। सानुस्वार उदक और प्राण (व्यं) सप्तम बीजके रूपमें उद्धृत हुआ है। इन्दुयुक्त पद्म-'पं' आठवाँ तथा एकपादयुक्त नन्दीश 'नें' नवाँ बीज है। अन्तमें प्रथम बीज 'ओम्'का ही उल्लेख किया जाता है। इस प्रकार जो दशबीजात्मक मन्त्र है, इसे",
+          "translation": "Red and white hibiscus flower one should drink in red and white discharge; kesara, brihati root, gopi, yashti, grass and utpala,",
+          "translationSource": "ai"
         },
         {
           "number": 24,
           "sanskrit": "साजक्षीरं सतैलं तद्भक्षणं रोमजन्मकृत् । शीर्यमाणेषु केशेषु स्थापनञ्च भवेदिदम्",
           "transliteration": "sājakṣīraṃ satailaṃ tadbhakṣaṇaṃ romajanmakṛt / śīryamāṇeṣu keśeṣu sthāpanañca bhavedidam",
-          "hindi": "'क्षपण' कहा गया है। इसका पहला, तीसरा,"
+          "hindi": "'क्षपण' कहा गया है। इसका पहला, तीसरा,",
+          "translation": "with goat's milk and oil — eating it makes hair grow. When hair is falling, this is the stabilizer:",
+          "translationSource": "ai"
         },
         {
           "number": 25,
           "sanskrit": "धात्रीभृङ्गरसप्रस्थतैलञ्च क्षिरमाढकम् । ॐ नमो भगवते त्र्यम्बकाय उपशमय २ चुलु २ मिलि २ भिद २ गोमानिनि चक्रिणि ह्रूं फट् ॥ अस्मिन् ग्रामे गोकुलस्य रक्षां कुरु २ शान्तिं कुरु २ घण्डाकर्णो महासेनो वीरः प्रोक्तो महाबलः",
           "transliteration": "dhātrībhṛṅgarasaprasthatailañca kṣiramāḍhakam / oṃ namo bhagavate tryambakāya upaśamaya 2 culu 2 mili 2 bhida 2 gomānini cakriṇi hrūṃ phaṭ || asmin grāme gokulasya rakṣāṃ kuru 2 śāntiṃ kuru 2 ghaṇḍākarṇo mahāseno vīraḥ prokto mahābalaḥ",
-          "hindi": "तत्पुरुष, अघोर, वामदेव और सद्योजातस्वरूप है। द्वितीय आदि बीज हृदयादि अङ्गन्यासमें उपयुक्त होते हैं। दसों प्रणवात्मक बीजोंके एक साथ उच्चारणपूर्वक ' अस्त्राय फट्' बोलकर अस्त्रन्यास' करे । ईशानादि मूर्तियोंके अन्तमें “नमः ' जोड़कर ही बोलना चाहिए, अन्यथा नहीं। द्वितीय"
+          "hindi": "तत्पुरुष, अघोर, वामदेव और सद्योजातस्वरूप है। द्वितीय आदि बीज हृदयादि अङ्गन्यासमें उपयुक्त होते हैं। दसों प्रणवात्मक बीजोंके एक साथ उच्चारणपूर्वक ' अस्त्राय फट्' बोलकर अस्त्रन्यास' करे । ईशानादि मूर्तियोंके अन्तमें “नमः ' जोड़कर ही बोलना चाहिए, अन्यथा नहीं। द्वितीय",
+          "translation": "oil of a prastha of amalaka and bhringaraja juice, and an adhaka of milk. \"Om homage to the Lord Tryambaka: calm calm, chulu chulu, mili mili, bhinda, Gomanini, Chakrini hum phat — in this village protect the cow-herd, make peace; Ghantakarna, Mahasena, the hero, is said to be of great strength,",
+          "translationSource": "ai"
         },
         {
           "number": 26,
           "sanskrit": "मारीनिर्नाशनकरः स मां पातु जगत्पतिः । श्लोकौ चैव न्यसेदेतौ मन्त्रौ गोरक्षकौ पृथक्",
           "transliteration": "mārīnirnāśanakaraḥ sa māṃ pātu jagatpatiḥ / ślokau caiva nyasedetau mantrau gorakṣakau pṛthak",
-          "hindi": "बीजसे लेकर नवम बीजतकके जो आठ बीज हैं, वे आठ विद्येश्वररूप हैं। उनके नाम ये हैं- अनन्तेश, सूक्ष्म, शिवोत्तम, एकमूर्ति, एकरूप,"
+          "hindi": "बीजसे लेकर नवम बीजतकके जो आठ बीज हैं, वे आठ विद्येश्वररूप हैं। उनके नाम ये हैं- अनन्तेश, सूक्ष्म, शिवोत्तम, एकमूर्ति, एकरूप,",
+          "translation": "the destroyer of epidemics; may that Lord of the world protect me.\" One should place these two verses separately as the two cow-protecting mantras.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -71885,85 +71901,113 @@
           "number": 3,
           "sanskrit": "तारो मेषो विषं दन्ती नरो दीर्घो वणा रसः । क्रूद्धोल्काय महोल्काय वीरोल्काय शिखा भवेत्",
           "transliteration": "tāro meṣo viṣaṃ dantī naro dīrgho vaṇā rasaḥ / krūddholkāya maholkāya vīrolkāya śikhā bhavet",
-          "hindi": "भगवान् शिव कहते हैं- स्कन्द! जिसके ऊपर तेज (र्) हो, ऐसे विश्वरूप ( हू)-को उद्धत करके फिर नरसिंह (क्षु )-के नीचे कृतान्त (म्) रखे। उसके अन्तमें “प्रणब” लगा दे। ऐसा कर 'र्हक्षमों' बना। इसके बाद ऊहक (ऊ), अंशुमान् () तथा विश्व (ह)-को संयुक्त करे। इससे 'हूँ' बनेगा। ये दोनों क्रमशः अन्तःस्थ और कण्ठोष्ठ कहे गये हैं। (र्)"
+          "hindi": "भगवान् शिव कहते हैं- स्कन्द! जिसके ऊपर तेज (र्) हो, ऐसे विश्वरूप ( हू)-को उद्धत करके फिर नरसिंह (क्षु )-के नीचे कृतान्त (म्) रखे। उसके अन्तमें “प्रणब” लगा दे। ऐसा कर 'र्हक्षमों' बना। इसके बाद ऊहक (ऊ), अंशुमान् () तथा विश्व (ह)-को संयुक्त करे। इससे 'हूँ' बनेगा। ये दोनों क्रमशः अन्तःस्थ और कण्ठोष्ठ कहे गये हैं। (र्)",
+          "translation": "Tara, Mesha, Visha, Danti, Nara, Dirgha, Vana, Rasa: \"To the angry Ulka, Mahaulka, Viraulka\" is the crest;",
+          "translationSource": "ai"
         },
         {
           "number": 4,
           "sanskrit": "ह्यल्काय राहसोल्काय वैष्णवोष्टाक्षरो मनुः । कनिष्ठादितदष्टानामङ्गुलीनाञ्च पर्वसु",
           "transliteration": "hyalkāya rāhasolkāya vaiṣṇavoṣṭākṣaro manuḥ / kaniṣṭhāditadaṣṭānāmaṅgulīnāñca parvasu",
-          "hindi": "अन्तःस्थ वर्ण आदिमें होनेसे उस पूरे मन्त्रकी ' अन्तःस्थ’ संज्ञा हुई है। दूसरे मन्त्रमें ह्, कण्ठ स्थानीय है और ऊकार ओऑष्ठस्थानीय; अतः उसे"
+          "hindi": "अन्तःस्थ वर्ण आदिमें होनेसे उस पूरे मन्त्रकी ' अन्तःस्थ’ संज्ञा हुई है। दूसरे मन्त्रमें ह्, कण्ठ स्थानीय है और ऊकार ओऑष्ठस्थानीय; अतः उसे",
+          "translation": "\"to Hyulka, to Rahasaulka\" — the eight-syllable Vaishnava mantra. On the finger-joints of those bitten, beginning with the little finger,",
+          "translationSource": "ai"
         },
         {
           "number": 5,
           "sanskrit": "ज्येष्ठाग्रेण क्रमात्तावन् मूर्धन्यष्टाक्षरं न्यसेत् । तर्जन्यान्तारमङ्गुष्ठे लग्ने मध्यमया च तत्",
           "transliteration": "jyeṣṭhāgreṇa kramāttāvan mūrdhanyaṣṭākṣaraṃ nyaset / tarjanyāntāramaṅguṣṭhe lagne madhyamayā ca tat",
-          "hindi": "'कण्ठोष्ठ' नाम दिया गया है। इनके अन्तमें “नमः ' जोड़ देनेसे ये दोनों मन्त्र चार अक्षरवाले हो जाते हैं। यथा--' ३» रहक्षमों नमः। ॐ हूं नमः।' विश्वरूप (हकार) कारण माना गया है। उसे बारह मात्राओंसे गुणित करे। इन बारहमेंसे"
+          "hindi": "'कण्ठोष्ठ' नाम दिया गया है। इनके अन्तमें “नमः ' जोड़ देनेसे ये दोनों मन्त्र चार अक्षरवाले हो जाते हैं। यथा--' ३» रहक्षमों नमः। ॐ हूं नमः।' विश्वरूप (हकार) कारण माना गया है। उसे बारह मात्राओंसे गुणित करे। इन बारहमेंसे",
+          "translation": "with the tip of the elder in order one should place the eight-syllable on the head so many times. With the forefinger touching the thumb and the middle finger,",
+          "translationSource": "ai"
         },
         {
           "number": 6,
           "sanskrit": "तलेङ्गुष्ठे तदुत्तारं वीजोत्तारं ततो न्यसेत् । रक्तगौरधूम्रहरिज्जातरूपाः सितास्त्रयः",
           "transliteration": "taleṅguṣṭhe taduttāraṃ vījottāraṃ tato nyaset / raktagauradhūmraharijjātarūpāḥ sitāstrayaḥ",
-          "hindi": "ब्रह्ममूर्तियोंकी पूजा करे और दीर्घात्मक छः बीजोंद्वारा पहलेकी ही भाँति यहाँ अङ्गन्यासका कार्य सम्पन्न करे"
+          "hindi": "ब्रह्ममूर्तियोंकी पूजा करे और दीर्घात्मक छः बीजोंद्वारा पहलेकी ही भाँति यहाँ अङ्गन्यासका कार्य सम्पन्न करे",
+          "translation": "on the palm and thumb, then the transposed and seed-transposed. Red, white, smoky, green, golden, white — three white:",
+          "translationSource": "ai"
         },
         {
           "number": 7,
           "sanskrit": "एवं रूपानिमान् वर्णान् भावबुद्धान्न्यसेत् क्रमात् । हृदास्यनेत्रमूर्धाङ्घ्रितालुगुह्यकरादिषु(१)",
           "transliteration": "evaṃ rūpānimān varṇān bhāvabuddhānnyaset kramāt / hṛdāsyanetramūrdhāṅghritāluguhyakarādiṣu(1)",
-          "hindi": "अब अधघोरास्त्रः-मन्त्रका उद्धार करते हैं-  'ह्वीं' लिखकर दो बार 'स्फुर-स्फुर' लिखे। १. यथा-ओम् ईशानाय नमः । ई तत्पुरुषाय नमः । व्यं अघोराय नमः। व्यं वामदेवाय नमः । नें सद्योजाताय नमः॥ अङ्गन्यासका क्रम इस प्रकार है आं हृदयाय नमः । ॐ शिरसे स्वाहा। मं शिखायै वषट्। पं कवचाय हुम्। ओम् नेत्रत्रयाय वौषट्। ओं आं ई 39 व््यं मं व्यं पं नें ओम् अस्त्राय फट्। इसी क्रमसे करन्यास भी कर सकते हैं।"
+          "hindi": "अब अधघोरास्त्रः-मन्त्रका उद्धार करते हैं-  'ह्वीं' लिखकर दो बार 'स्फुर-स्फुर' लिखे। १. यथा-ओम् ईशानाय नमः । ई तत्पुरुषाय नमः । व्यं अघोराय नमः। व्यं वामदेवाय नमः । नें सद्योजाताय नमः॥ अङ्गन्यासका क्रम इस प्रकार है आं हृदयाय नमः । ॐ शिरसे स्वाहा। मं शिखायै वषट्। पं कवचाय हुम्। ओम् नेत्रत्रयाय वौषट्। ओं आं ई 39 व््यं मं व्यं पं नें ओम् अस्त्राय फट्। इसी क्रमसे करन्यास भी कर सकते हैं।",
+          "translation": "thus these colors, understood by feeling, one should place in order: on heart, mouth, eyes, head, feet, palate, private part, hands and the rest.",
+          "translationSource": "ai"
         },
         {
           "number": 8,
           "sanskrit": "अङ्गानि च न्यसेद्वीजान्न्यस्याथ करदेहयोः । यथात्मनि तथा देवे न्यासः कार्यः करं विना",
           "transliteration": "aṅgāni ca nyasedvījānnyasyātha karadehayoḥ / yathātmani tathā deve nyāsaḥ kāryaḥ karaṃ vinā",
-          "hindi": "२. यथा-आं शिखण्डिने नम: । ई श्रीकण्ठाय नमः । ३ त्रिमूर्तये नमः । व्यं एकरूपाय नमः । मं एकमूर्तये नमः । इत्यादि।"
+          "hindi": "२. यथा-आं शिखण्डिने नम: । ई श्रीकण्ठाय नमः । ३ त्रिमूर्तये नमः । व्यं एकरूपाय नमः । मं एकमूर्तये नमः । इत्यादि।",
+          "translation": "One should place also the limbs and seeds; then having placed on hands and body: as in oneself so in the god the placing should be done, without the hand.",
+          "translationSource": "ai"
         },
         {
           "number": 9,
           "sanskrit": "हृदादिस्थानगान् वर्णान् गन्धपुष्पै समर्चयेत् । धर्माद्यग्न्याद्यधर्मादि गात्रे पीठे ऽम्बुजे न्यसेत्",
           "transliteration": "hṛdādisthānagān varṇān gandhapuṣpai samarcayet / dharmādyagnyādyadharmādi gātre pīṭhe 'mbuje nyaset",
-          "hindi": "३. अग्निपुराणकी उपलब्ध पुस्तकें लिखावट या छपाईके दोषसे ' अघोरास्त्र-मन्त्र' पूरा व्यक्त नहीं कर पाती हैं ।' श्रीविद्यार्णवतन्त्र'के अनुसार किंचिन्मात्र संशोधनसे मन्त्र स्पष्ट हो जाता है; अतः यहाँ शुद्ध पाठ दिया गया है। इसके बाद इन दोनोंके आदिमें 'प्र' जोड़कर पुनरुल्लेख करे --' प्रस्फुर प्रस्फुर।' तत्पश्चात् “कह”, “वम' और 'बन्ध'-इन तीनों पदोंको दो-दो बार लिखे। फिर दो बार 'घातय' लिखकर"
+          "hindi": "३. अग्निपुराणकी उपलब्ध पुस्तकें लिखावट या छपाईके दोषसे ' अघोरास्त्र-मन्त्र' पूरा व्यक्त नहीं कर पाती हैं ।' श्रीविद्यार्णवतन्त्र'के अनुसार किंचिन्मात्र संशोधनसे मन्त्र स्पष्ट हो जाता है; अतः यहाँ शुद्ध पाठ दिया गया है। इसके बाद इन दोनोंके आदिमें 'प्र' जोड़कर पुनरुल्लेख करे --' प्रस्फुर प्रस्फुर।' तत्पश्चात् “कह”, “वम' और 'बन्ध'-इन तीनों पदोंको दो-दो बार लिखे। फिर दो बार 'घातय' लिखकर",
+          "translation": "One should worship the letters standing in the heart and other places with scents and flowers. Dharma and the rest, Agni and the rest, adharma and the rest one should place in the body, on the seat, on the lotus;",
+          "translationSource": "ai"
         },
         {
           "number": 10,
           "sanskrit": "यत्र केशरकिञ्जल्कव्यापिसूर्येन्दुदाहिनां । मण्डलन्त्रितयन्तावद् भेदैस्तत्र न्यसेत् क्रमात्",
           "transliteration": "yatra keśarakiñjalkavyāpisūryendudāhināṃ / maṇḍalantritayantāvad bhedaistatra nyaset kramāt",
-          "hindi": "अन्तमें ‘हुं फट्'का उच्चारण करे। (सब जोड़नेपर ऐसा बनता है- ह्रीं स्फुर स्फुर प्रस्फुर प्रस्फुर"
+          "hindi": "अन्तमें ‘हुं फट्'का उच्चारण करे। (सब जोड़नेपर ऐसा बनता है- ह्रीं स्फुर स्फुर प्रस्फुर प्रस्फुर",
+          "translation": "where the filaments, the stamens, the pervading sun, moon and fire — those three circles by their divisions one should place there in order.",
+          "translationSource": "ai"
         },
         {
           "number": 11,
           "sanskrit": "गुणाश् च तन्त्रसत्वाद्याः केशरस्थाश् च शक्तयः । विमलोत्कर्षणीज्ञानक्रियायोगाश् च वै क्रमात्",
           "transliteration": "guṇāś ca tantrasatvādyāḥ keśarasthāś ca śaktayaḥ / vimalotkarṣaṇījñānakriyāyogāś ca vai kramāt",
-          "hindi": "इक्यावन अक्षरोंका मन्त्र है।) इस प्रकार ' अघोरास्त्र- आदिको विधि ' श्रीविद्यार्णव-तन्त्र'के ३०वें श्वासमें द्रष्टव्य है) अब 'शिव-गायत्री' बतायी जाती है। “महेशाय विदाहे। महादेवाय धीमहि। तन्नः शिवः प्रचोदयात्।' यह 'शिव-गायत्री ' (ही पूर्वाध्यायमें"
+          "hindi": "इक्यावन अक्षरोंका मन्त्र है।) इस प्रकार ' अघोरास्त्र- आदिको विधि ' श्रीविद्यार्णव-तन्त्र'के ३०वें श्वासमें द्रष्टव्य है) अब 'शिव-गायत्री' बतायी जाती है। “महेशाय विदाहे। महादेवाय धीमहि। तन्नः शिवः प्रचोदयात्।' यह 'शिव-गायत्री ' (ही पूर्वाध्यायमें",
+          "translation": "Qualities such as tantra, sattva and the rest, and the powers abiding in the filaments: Vimala, Utkarshani, Jnana, Kriya, and Yoga in order;",
+          "translationSource": "ai"
         },
         {
           "number": 12,
           "sanskrit": "प्रह्वी सत्या तथेशानानुग्रहा मध्यतस्ततः । योगपीठं समभ्यर्च्य समावह्य हरिं यजेत्",
           "transliteration": "prahvī satyā tatheśānānugrahā madhyatastataḥ / yogapīṭhaṃ samabhyarcya samāvahya hariṃ yajet",
-          "hindi": "कथित प्रासाद-मन्त्रका आठवाँ भेद शिव-रूप' है।) सम्पूर्ण अभीष्ट वस्तुओंको सिद्ध करनेवाली"
+          "hindi": "कथित प्रासाद-मन्त्रका आठवाँ भेद शिव-रूप' है।) सम्पूर्ण अभीष्ट वस्तुओंको सिद्ध करनेवाली",
+          "translation": "Prahvi, Satya, Ishana, Anugraha in the middle — having worshipped the yoga-seat, having invoked, one should worship Hari.",
+          "translationSource": "ai"
         },
         {
           "number": 13,
           "sanskrit": "पाद्यार्घ्याचमनीयञ्च पीतवस्त्रविभूषणं । एतत् पञ्चोपचारञ्च सर्वं मूलेन दीयते",
           "transliteration": "pādyārghyācamanīyañca pītavastravibhūṣaṇaṃ / etat pañcopacārañca sarvaṃ mūlena dīyate",
-          "hindi": "यात्रामें तथा विजय आदिके कार्यमें पहले गणको पूजा करनी चाहिए; इससे 'श्री'को प्राप्ति होती है। पहले चौकोर क्षेत्रको सब ओरसे बारह-बारह कोष्ठोंमें विभाजित करे। ऐसा करनेसे एक सौ चौवालीस पदोंका चतुष्कोण क्षेत्र बनेगा। मध्यवर्ती चार पदोंमें त्रिकोणकी रचना करके उसके बीचमें तीन दलोंसे युक्त कमल लिखे। उसके पृष्ठभागमें पदिका और"
+          "hindi": "यात्रामें तथा विजय आदिके कार्यमें पहले गणको पूजा करनी चाहिए; इससे 'श्री'को प्राप्ति होती है। पहले चौकोर क्षेत्रको सब ओरसे बारह-बारह कोष्ठोंमें विभाजित करे। ऐसा करनेसे एक सौ चौवालीस पदोंका चतुष्कोण क्षेत्र बनेगा। मध्यवर्ती चार पदोंमें त्रिकोणकी रचना करके उसके बीचमें तीन दलोंसे युक्त कमल लिखे। उसके पृष्ठभागमें पदिका और",
+          "translation": "Water for the feet, arghya and rinsing, yellow garment and adornment — these five services are all given with the root mantra.",
+          "translationSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "वासुदेवादयः पूज्याश् चत्वारो दिक्षु मूर्तयः । विदिक्षु श्रीसरस्वत्यै रतिशान्त्यै च पूजयेत्",
           "transliteration": "vāsudevādayaḥ pūjyāś catvāro dikṣu mūrtayaḥ / vidikṣu śrīsarasvatyai ratiśāntyai ca pūjayet",
-          "hindi": "वीथीके भागमें तीन दलवाला अश्वयुक्त कमल बनावे  तदनन्तर वसुदेव-पुत्रों (वासुदेव, संकर्षण और गद)-से, जो तीन दलवाले कमलोंसे सुशोभित हैं, पादपट्रिकाका निर्माण करे। उसके"
+          "hindi": "वीथीके भागमें तीन दलवाला अश्वयुक्त कमल बनावे  तदनन्तर वसुदेव-पुत्रों (वासुदेव, संकर्षण और गद)-से, जो तीन दलवाले कमलोंसे सुशोभित हैं, पादपट्रिकाका निर्माण करे। उसके",
+          "translation": "Vasudeva and the rest, four forms in the directions, are to be worshipped; in the corners one should worship Shri, Sarasvati, Rati and Shanti;",
+          "translationSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "१ हृदास्यनेत्रमूर्धाङ्घ्रिजानुगुह्यकरादिष्विति ख॥ :प् ११८ शङ्खं चक्रं गदां पद्मं मुषलं खड्गशार्ङ्गिके । वनमालान्वितं दिक्षु विदिक्षु च यजेत् क्रमात्",
           "transliteration": "1 hṛdāsyanetramūrdhāṅghrijānuguhyakarādiṣviti kha.. :p 118 śaṅkhaṃ cakraṃ gadāṃ padmaṃ muṣalaṃ khaḍgaśārṅgike / vanamālānvitaṃ dikṣu vidikṣu ca yajet kramāt",
-          "hindi": "ऊपर भागमात्रके प्रमाणसे एक वेदीकी रचना करे। पूर्वादि दिशाओंमें द्वार तथा कोणभागोंमें उपद्वारको रचना करे। इस प्रकार द्वारों तथा उपद्वारोंसे रचित मण्डल विध्ननाशक है। मध्यमें जो कमल है, वह आरक्त वर्णका हो। उसके बाहरके कमल भी वैसे ही हों। वीथी श्वेतवर्णको होनी चाहिए। द्वारोंका रंग अपने इच्छानुसार रख सकते हैं। कर्णिका पीले रंगसे"
+          "hindi": "ऊपर भागमात्रके प्रमाणसे एक वेदीकी रचना करे। पूर्वादि दिशाओंमें द्वार तथा कोणभागोंमें उपद्वारको रचना करे। इस प्रकार द्वारों तथा उपद्वारोंसे रचित मण्डल विध्ननाशक है। मध्यमें जो कमल है, वह आरक्त वर्णका हो। उसके बाहरके कमल भी वैसे ही हों। वीथी श्वेतवर्णको होनी चाहिए। द्वारोंका रंग अपने इच्छानुसार रख सकते हैं। कर्णिका पीले रंगसे",
+          "translation": "conch, discus, mace, lotus, pestle, sword and Sarnga bow, with forest-garland, in the directions and corners one should worship in order.",
+          "translationSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "अभ्यर्च्य च वहिस्तार्क्ष्यं देवस्य पुरतो ऽर्चयेत् । विश्वक्सेनञ्च सोमेशं मध्ये आवरणाद्वहिः(१) । इन्द्रादिपरिचारेण पूज्य सर्वमवाप्नुयात्",
           "transliteration": "abhyarcya ca vahistārkṣyaṃ devasya purato 'rcayet / viśvaksenañca someśaṃ madhye āvaraṇādvahiḥ(1) / indrādiparicāreṇa pūjya sarvamavāpnuyāt",
-          "hindi": "रँगी जायगी तथा केसर भी पीले ही होंगे। यह “विघ्नमर्द' नामक मण्डल है। इसके मध्यभागे गणपतिका पूजन करे। नामका आदि अक्षर अनुस्वारसहित बोलकर आदिमें 'ओं' और"
+          "hindi": "रँगी जायगी तथा केसर भी पीले ही होंगे। यह “विघ्नमर्द' नामक मण्डल है। इसके मध्यभागे गणपतिका पूजन करे। नामका आदि अक्षर अनुस्वारसहित बोलकर आदिमें 'ओं' और",
+          "translation": "Having worshipped outside, Tarkshya should be worshipped before the god; Vishvaksena and Someshvara in the middle outside the enclosure. Having honored with the attendants of Indra and the rest, one obtains everything.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -72014,217 +72058,289 @@
           "number": 6,
           "sanskrit": "१ मध्येषु तोरणद्वहिरिति ख॥ , ज॥ , ञ॥ च :प् ११९ मूलमूर्त्यङ्गविद्याभिस्तण्डुलक्षेपणादिकम् । कृत्वा चरुञ्च यत् क्षीरं पुनस्तद्विभजेत् त्रिधा",
           "transliteration": "1 madhyeṣu toraṇadvahiriti kha.. , ja.. , ña.. ca :p 119 mūlamūrtyaṅgavidyābhistaṇḍulakṣepaṇādikam / kṛtvā caruñca yat kṣīraṃ punastadvibhajet tridhā",
-          "hindi": "आहुति दे। तत्पश्चात् पूर्णाहुति देकर अभिषेक  साधक भूमि, गौ, अश्व, हाथी तथा वस्त्र आदि करे। इससे सम्पूर्ण मनोरथ सिद्ध होता है।  देकर गुरुदेवकी पूजा करे"
+          "hindi": "आहुति दे। तत्पश्चात् पूर्णाहुति देकर अभिषेक  साधक भूमि, गौ, अश्व, हाथी तथा वस्त्र आदि करे। इससे सम्पूर्ण मनोरथ सिद्ध होता है।  देकर गुरुदेवकी पूजा करे",
+          "translation": "With the root, image, limb and knowledge mantras, having done the throwing of rice and the rest, the cooked offering — the milk — one should divide again in three;",
+          "translationSource": "ai"
         },
         {
           "number": 7,
           "sanskrit": "निवेद्यैकं परं हुत्वा सशिष्यो ऽन्यद्भजेद्गुरुः । आचम्य सकलीकृत्य दद्याच्च्छिष्याय देशिकः",
           "transliteration": "nivedyaikaṃ paraṃ hutvā saśiṣyo 'nyadbhajedguruḥ / ācamya sakalīkṛtya dadyāccchiṣyāya deśikaḥ",
-          "hindi": "इस प्रकार आदि आग्रेय महापुराणमें 'गणपति-पूजनके विधानका कथन” नामक तीन सौ अगरहवाँ अध्याय पूरा हुआ वागीश्वरीकी पूजा एवं मन्त्र आदि"
+          "hindi": "इस प्रकार आदि आग्रेय महापुराणमें 'गणपति-पूजनके विधानका कथन” नामक तीन सौ अगरहवाँ अध्याय पूरा हुआ वागीश्वरीकी पूजा एवं मन्त्र आदि",
+          "translation": "having offered one, having offered another, the teacher with disciple should partake of the other; having rinsed and consecrated, the teacher should give to the disciple.",
+          "translationSource": "ai"
         },
         {
           "number": 8,
           "sanskrit": "दन्तकाष्ठं हृदा जप्तं क्षीरवृक्षादिसम्भवम् । संशोध्य दन्तान् संक्षिप्त्वा प्रज्ञाल्यैतत् क्षिपेद्भुवि",
           "transliteration": "dantakāṣṭhaṃ hṛdā japtaṃ kṣīravṛkṣādisambhavam / saṃśodhya dantān saṃkṣiptvā prajñālyaitat kṣipedbhuvi",
-          "hindi": "भगवान् शिव कहते हैँ--स्कन्द! अब में मण्डलसहित 'वागीश्वरी-पूजन'को विधि बता रहा हूँ। ऊहक (ऊ)-को काल (घ)-से संयुक्त करके उसका चन्द्रमा (अनुस्वार)-से योग करें"
+          "hindi": "भगवान् शिव कहते हैँ--स्कन्द! अब में मण्डलसहित 'वागीश्वरी-पूजन'को विधि बता रहा हूँ। ऊहक (ऊ)-को काल (घ)-से संयुक्त करके उसका चन्द्रमा (अनुस्वार)-से योग करें",
+          "translation": "A tooth-stick recited over with the heart, from milk-tree and the like; having cleaned the teeth, having thrown it away, having washed, one should cast it on the ground;",
+          "translationSource": "ai"
         },
         {
           "number": 9,
           "sanskrit": "पूर्वेण सौम्यवारीशगतं शुभमतौ शुभम् । पुनस्तं शिष्यमायान्तं(१) शिश्वाबन्धादिरक्षितं",
           "transliteration": "pūrveṇa saumyavārīśagataṃ śubhamatau śubham / punastaṃ śiṣyamāyāntaṃ(1) śiśvābandhādirakṣitaṃ",
-          "hindi": "तो वह एकाक्षर मन्त्र बनेगा (घूं)। निषादपर ईश्वर (ई)-का योग करके उसे बिन्दु-विसर्गसे समन्वित करे। इस एकाक्षर मन्त्रका उपदेश सबको नहीं देना चाहिए। वागीश्वरीदेवीका ध्यान इस प्रकार करे-- देवीको अङ्गकान्ति कुन्दकुसुम तथा चन्द्रमाके समान उज्चल है। वे पचास वर्णोका मालामय रूप धारण करती हैं। मुक्ताकी माला तथा श्वेतपुष्पके हारोंसे सुशोभित हैं। उनके"
+          "hindi": "तो वह एकाक्षर मन्त्र बनेगा (घूं)। निषादपर ईश्वर (ई)-का योग करके उसे बिन्दु-विसर्गसे समन्वित करे। इस एकाक्षर मन्त्रका उपदेश सबको नहीं देना चाहिए। वागीश्वरीदेवीका ध्यान इस प्रकार करे-- देवीको अङ्गकान्ति कुन्दकुसुम तथा चन्द्रमाके समान उज्चल है। वे पचास वर्णोका मालामय रूप धारण करती हैं। मुक्ताकी माला तथा श्वेतपुष्पके हारोंसे सुशोभित हैं। उनके",
+          "translation": "by the east, it goes to the northern or the water-lord's direction — good for one of good mind. Again that disciple coming, protected by a child-binding and the like,",
+          "translationSource": "ai"
         },
         {
           "number": 10,
           "sanskrit": "कृत्वा वेद्यां सहानेन स्वपेद्दर्भास्तरे बुधः । सुषुप्तं वीक्ष्य तं शिष्यः प्रभाते श्रावयेद्गुरुं",
           "transliteration": "kṛtvā vedyāṃ sahānena svapeddarbhāstare budhaḥ / suṣuptaṃ vīkṣya taṃ śiṣyaḥ prabhāte śrāvayedguruṃ",
-          "hindi": "चार हाथोंमें क्रमशः वरद, अभय, अक्षमाला तथा पुस्तक शोभा पाते हैं। वे तीन नेत्रोंसे युक्त हैं।' इस प्रकार ध्यान करके उक्त एकाक्षर-मन्त्रका एक लाख जप करे। “देवी पैरॉंसे लेकर"
+          "hindi": "चार हाथोंमें क्रमशः वरद, अभय, अक्षमाला तथा पुस्तक शोभा पाते हैं। वे तीन नेत्रोंसे युक्त हैं।' इस प्रकार ध्यान करके उक्त एकाक्षर-मन्त्रका एक लाख जप करे। “देवी पैरॉंसे लेकर",
+          "translation": "having made on the altar, the wise should sleep with him on a darbha spread. Seeing him well asleep, the disciple at dawn should tell the teacher;",
+          "translationSource": "ai"
         },
         {
           "number": 11,
           "sanskrit": "शुभैः सिद्धिपदैर् भक्तिस्तैः पुनर्मण्डलार्चनम् । मण्डलं भद्रकाद्युक्तं पूजयेत्सर्वसिद्धिदं",
           "transliteration": "śubhaiḥ siddhipadair bhaktistaiḥ punarmaṇḍalārcanam / maṇḍalaṃ bhadrakādyuktaṃ pūjayetsarvasiddhidaṃ",
-          "hindi": "मस्तकपर्यन्त अथवा कंधोंतक ककारसे लेकर क्षकारतककी वर्णमाला धारण करती हैँ'--इस प्रकार उनके स्वरूपका स्मरण करे गुरु दीक्षा देने या मन्त्रोपदेश करनेके लिये एक मण्डल बनाये। वह सूर्याग्र हो और इन्दुसे विभक्त हो। दो भागोंमें कमल बनाये। वह कमल साधकके लिये हितकर होता है। फिर"
+          "hindi": "मस्तकपर्यन्त अथवा कंधोंतक ककारसे लेकर क्षकारतककी वर्णमाला धारण करती हैँ'--इस प्रकार उनके स्वरूपका स्मरण करे गुरु दीक्षा देने या मन्त्रोपदेश करनेके लिये एक मण्डल बनाये। वह सूर्याग्र हो और इन्दुसे विभक्त हो। दो भागोंमें कमल बनाये। वह कमल साधकके लिये हितकर होता है। फिर",
+          "translation": "by auspicious signs of success, devotion; with them again the worship of the mandala. One should worship the mandala told as the Bhadra and the rest, giver of all success.",
+          "translationSource": "ai"
         },
         {
           "number": 12,
           "sanskrit": "स्नात्वाचम्य मृदा देहं मन्त्रैर् आलिप्य कल्प्यते । शिवतीर्थे नरः स्नायादघमर्षणपूर्वकम्",
           "transliteration": "snātvācamya mṛdā dehaṃ mantrair ālipya kalpyate / śivatīrthe naraḥ snāyādaghamarṣaṇapūrvakam",
-          "hindi": "वीथी और पाया बनाये। चार पदोंमें आठ कमल बनाये। उनके बाह्यभागमें वीथी और पदिकाका निर्माण करे। दो-दो पदोंद्वारा प्रत्येक दिशामें द्वार बनाये। इसी तरह उपद्वारोंका भी निर्माण करे।"
+          "hindi": "वीथी और पाया बनाये। चार पदोंमें आठ कमल बनाये। उनके बाह्यभागमें वीथी और पदिकाका निर्माण करे। दो-दो पदोंद्वारा प्रत्येक दिशामें द्वार बनाये। इसी तरह उपद्वारोंका भी निर्माण करे।",
+          "translation": "Having bathed and rinsed, having smeared the body with clay with mantras, it is arranged; a man should bathe at a Shiva-tirtha beginning with the Aghamarshana;",
+          "translationSource": "ai"
         },
         {
           "number": 13,
           "sanskrit": "हस्ताभिषेकं कृत्वाथ प्रायात् पूजादिकं बुधः । मूलेनाब्जासनं कुर्यात्तेन पूरककुम्भकान्",
           "transliteration": "hastābhiṣekaṃ kṛtvātha prāyāt pūjādikaṃ budhaḥ / mūlenābjāsanaṃ kuryāttena pūrakakumbhakān",
-          "hindi": "कोणोंमें दो-दो पट्टिकाएँ निर्मित करे। अब नौ कमल (वर्णाब्ज तथा दिशाओंसे सम्बद्ध कमल) श्वेतवर्णके रखे। कर्णिकापर सोनेके रंगका चूर्ण गिराकर उसे पीली कर दे। केसरोंको अनेक रंगोंसे रँगकर कोणोंको लाल रंगसे भरे। व्योमरेखान्तर काला रखे द्वारोंका मान इन्द्रके हाथीके मानके अनुसार रखे। मध्यकमलमें सरस्वतीको, पूर्वगत कमलमें वागीशीको, फिर"
+          "hindi": "कोणोंमें दो-दो पट्टिकाएँ निर्मित करे। अब नौ कमल (वर्णाब्ज तथा दिशाओंसे सम्बद्ध कमल) श्वेतवर्णके रखे। कर्णिकापर सोनेके रंगका चूर्ण गिराकर उसे पीली कर दे। केसरोंको अनेक रंगोंसे रँगकर कोणोंको लाल रंगसे भरे। व्योमरेखान्तर काला रखे द्वारोंका मान इन्द्रके हाथीके मानके अनुसार रखे। मध्यकमलमें सरस्वतीको, पूर्वगत कमलमें वागीशीको, फिर",
+          "translation": "having done the hand-consecration, the wise should proceed to worship and the rest. With the root mantra one should make the lotus seat; with it inhalations and retentions;",
+          "translationSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "आत्मानं योजयित्वोर्ध्वं शिखान्ते द्वादशाङ्गुले । संशोष्य दग्ध्वा स्वतनुं प्लावयेदमृतेन च",
           "transliteration": "ātmānaṃ yojayitvordhvaṃ śikhānte dvādaśāṅgule / saṃśoṣya dagdhvā svatanuṃ plāvayedamṛtena ca",
-          "hindi": "अग्नि आदि कोणोंके क्रमसे हल्लेखा, चित्रवागीशी, गायत्री, विश्वरूपा, शाङ्करी, मति और धृतिको स्थापित करके उन सबका पूजन करे। नामके आदिमं 'ह्वां' तथा नामके आदि अक्षरको बीज-"
+          "hindi": "अग्नि आदि कोणोंके क्रमसे हल्लेखा, चित्रवागीशी, गायत्री, विश्वरूपा, शाङ्करी, मति और धृतिको स्थापित करके उन सबका पूजन करे। नामके आदिमं 'ह्वां' तथा नामके आदि अक्षरको बीज-",
+          "translation": "having joined the self upward at twelve fingers beyond the crest, having dried and burned one's own body, one should flood it with nectar;",
+          "translationSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "ध्मात्वा दिव्यं वपुस्तस्मिन्नात्मानञ्च पुनर्नयेत् । कृत्वेवं चात्मशुद्धिः स्याद्विन्यस्यार्चनमारभेत्",
           "transliteration": "dhmātvā divyaṃ vapustasminnātmānañca punarnayet / kṛtvevaṃ cātmaśuddhiḥ syādvinyasyārcanamārabhet",
-          "hindi": "रूपॉमें बोलकर पूजा करनी चाहिए। यथा-- पूर्वमें 'हीं वां वागीश्यै नमः ' इत्यादि। सरस्वती ही वागीश्वरीके रूपमें ध्येय हैं। जप पूरा करके कपिला गायके घीसे हवन करे। ऐसा करनेवाला साधक संस्कृत तथा प्राकृत भाषाओं में काव्य- रचना करनेवाला कवि होता है और काव्यशास्त्र आदिका विद्वान् हो जाता है"
+          "hindi": "रूपॉमें बोलकर पूजा करनी चाहिए। यथा-- पूर्वमें 'हीं वां वागीश्यै नमः ' इत्यादि। सरस्वती ही वागीश्वरीके रूपमें ध्येय हैं। जप पूरा करके कपिला गायके घीसे हवन करे। ऐसा करनेवाला साधक संस्कृत तथा प्राकृत भाषाओं में काव्य- रचना करनेवाला कवि होता है और काव्यशास्त्र आदिका विद्वान् हो जाता है",
+          "translation": "having inflated the divine body, one should again lead the self into it. Having done thus there is self-purification; having placed, one should begin the worship.",
+          "translationSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "क्रमात् कृष्णसितश्यामरक्तपीता नगादयः । मन्त्रार्णा दण्डिनाङ्गानि तेषु सर्वास्तु मूर्तयः",
           "transliteration": "kramāt kṛṣṇasitaśyāmaraktapītā nagādayaḥ / mantrārṇā daṇḍināṅgāni teṣu sarvāstu mūrtayaḥ",
-          "hindi": "इस प्रकार आदि आग्रेय महापुराणमें 'वागीश्वरी-पूजा' नामक तीन सौ उन्नीसवाँ अध्याय पूरा हुआ"
+          "hindi": "इस प्रकार आदि आग्रेय महापुराणमें 'वागीश्वरी-पूजा' नामक तीन सौ उन्नीसवाँ अध्याय पूरा हुआ",
+          "translation": "In order black, white, dark, red, yellow are the mountains and the rest; the mantra letters, Dandin and limbs, in them all the forms;",
+          "translationSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "१ शिष्यमाचान्तमिति ञ॥ :प् १२० अङ्गुष्ठादिकनिष्ठान्तं विन्यस्याङ्गानि सर्वतः । न्यसेन्मन्त्राक्षरं पादगुह्यहृद्वक्त्रमूर्धसु",
           "transliteration": "1 śiṣyamācāntamiti ña.. :p 120 aṅguṣṭhādikaniṣṭhāntaṃ vinyasyāṅgāni sarvataḥ / nyasenmantrākṣaraṃ pādaguhyahṛdvaktramūrdhasu",
-          "hindi": "सर्वतोभद्र आदि मण्डलोंका वर्णन भगवान् शिव कहते हैँ--स्कन्द! अब मैं  प्रदान करनेवाले हैं॥ १--९॥ “सर्वतोभद्र' नामक आठ प्रकारके मण्डलोंका वर्णन करता हूँ। पहले शङ्कु या कीलसे प्राचीदिशाका साधन करे। इस प्राचीका निश्चय हो जानेपर विद्वान् पुरुष विषुवकालमें चित्रा और"
+          "hindi": "सर्वतोभद्र आदि मण्डलोंका वर्णन भगवान् शिव कहते हैँ--स्कन्द! अब मैं  प्रदान करनेवाले हैं॥ १--९॥ “सर्वतोभद्र' नामक आठ प्रकारके मण्डलोंका वर्णन करता हूँ। पहले शङ्कु या कीलसे प्राचीदिशाका साधन करे। इस प्राचीका निश्चय हो जानेपर विद्वान् पुरुष विषुवकालमें चित्रा और",
+          "translation": "from thumb to little finger having placed the limbs all round, one should place the mantra-syllable on feet, private part, heart, mouth and head;",
+          "translationSource": "ai"
         },
         {
           "number": 18,
           "sanskrit": "व्यापकं न्यस्य मूर्धादि मूलमङ्गानि विन्यसेत् । रक्तपीतश्यामसितान् पीठपादान् स्वकालजान्",
           "transliteration": "vyāpakaṃ nyasya mūrdhādi mūlamaṅgāni vinyaset / raktapītaśyāmasitān pīṭhapādān svakālajān",
-          "hindi": "स्वाती नक्षत्रके अन्तरसे, अथवा प्रत्यक्ष सूतको लेकर पूर्वसे पश्चिमतक उसे फैलाकर मध्यमें दो कोटियोंको अङ्कित करे। उन दोनोंके मध्यभागसे उत्तर-दक्षिणकी लंबी रेखा खींचे। दो मत्स्योंका"
+          "hindi": "स्वाती नक्षत्रके अन्तरसे, अथवा प्रत्यक्ष सूतको लेकर पूर्वसे पश्चिमतक उसे फैलाकर मध्यमें दो कोटियोंको अङ्कित करे। उन दोनोंके मध्यभागसे उत्तर-दक्षिणकी लंबी रेखा खींचे। दो मत्स्योंका",
+          "translation": "having placed the pervading from head onward, one should place the root and limbs. Red, yellow, dark and white seat-feet born of their own times;",
+          "translationSource": "ai"
         },
         {
           "number": 19,
           "sanskrit": "स्वाङ्गान्मन्त्रैर् न्यसेद्गात्राण्यधर्मादीनि दिक्षु च । तत्र पद्मञ्च सुर्यादिमण्डले त्रितयं गुणान्",
           "transliteration": "svāṅgānmantrair nyasedgātrāṇyadharmādīni dikṣu ca / tatra padmañca suryādimaṇḍale tritayaṃ guṇān",
-          "hindi": "निर्माण करे तथा उन्हें दक्षिणसे उत्तरी ओर आस्फालित करे। क्षतपद क्षेत्रके आधे मानसे कोण सम्पात करे। इस तरह चार बार सूत्रके क्षेत्रमे आस्फालनसे एक चौकोर रेखा बनती है। उसमें चार हाथका शुभ भद्रमण्डल बनाये। आठ पदोंमें सब ओरसे विभक्त चौंसठ पदवालेमेंसे बीस पदवाले क्षेत्रमें बाहरको ओर एक वीथीका निर्माण करे। यह वीथी एक मन्त्रको होगी।"
+          "hindi": "निर्माण करे तथा उन्हें दक्षिणसे उत्तरी ओर आस्फालित करे। क्षतपद क्षेत्रके आधे मानसे कोण सम्पात करे। इस तरह चार बार सूत्रके क्षेत्रमे आस्फालनसे एक चौकोर रेखा बनती है। उसमें चार हाथका शुभ भद्रमण्डल बनाये। आठ पदोंमें सब ओरसे विभक्त चौंसठ पदवालेमेंसे बीस पदवाले क्षेत्रमें बाहरको ओर एक वीथीका निर्माण करे। यह वीथी एक मन्त्रको होगी।",
+          "translation": "one should place one's own limbs with mantras, the bodily parts, adharma and the rest in directions. There the lotus, and the triad of qualities in the solar and other circles;",
+          "translationSource": "ai"
         },
         {
           "number": 20,
           "sanskrit": "पूर्वादिपत्रे कामाद्या नवकं कर्णिकोपरि । वामा ज्येष्ठा क्रमाद्रौद्रो काली कलविकारिणी",
           "transliteration": "pūrvādipatre kāmādyā navakaṃ karṇikopari / vāmā jyeṣṭhā kramādraudro kālī kalavikāriṇī",
-          "hindi": "कमलके मानसे दो पदोंका द्वार बनाये। द्वार कपोलयुक्त होना चाहिए। कोणबन्धके कारण उसकी विचित्र शोभा हो, ऐसा द्विपदका द्वार- निर्माणमें उपयोग करे। कमल श्वेतवर्णका हो,"
+          "hindi": "कमलके मानसे दो पदोंका द्वार बनाये। द्वार कपोलयुक्त होना चाहिए। कोणबन्धके कारण उसकी विचित्र शोभा हो, ऐसा द्विपदका द्वार- निर्माणमें उपयोग करे। कमल श्वेतवर्णका हो,",
+          "translation": "on the east petal and so on the ninefold beginning with Kama on the pericarp: Vama, Jyeshtha, in order Raudri, Kali, Kalavikarini,",
+          "translationSource": "ai"
         },
         {
           "number": 21,
           "sanskrit": "बलविकारिणी चार्थ बलप्रमथनी तथा । सर्वभूतदमनी च नवमी च मनोन्मनी",
           "transliteration": "balavikāriṇī cārtha balapramathanī tathā / sarvabhūtadamanī ca navamī ca manonmanī",
-          "hindi": "कर्णिका पीतवर्णसे रँगी जाय, केसर चित्रवर्णका हो, अर्थात् उसके निर्माणमें अनेक रंगोंका उपयोग किया जाय। वीथीको लाल रंगसे भरा जाय। द्वार लोकपाल-स्वरूप होता है। नित्य तथा नैमित्तिक विधिमें कोणोंका रंग लाल होना चाहिए। अब कमलका वर्णन सुनो । कमलके दो भेद हैं-' असंसक्त’ तथा “संसक्त'। ' असंसक्त' मोक्षकी तथा संसक्त भोगको प्राप्ति करानेवाला"
+          "hindi": "कर्णिका पीतवर्णसे रँगी जाय, केसर चित्रवर्णका हो, अर्थात् उसके निर्माणमें अनेक रंगोंका उपयोग किया जाय। वीथीको लाल रंगसे भरा जाय। द्वार लोकपाल-स्वरूप होता है। नित्य तथा नैमित्तिक विधिमें कोणोंका रंग लाल होना चाहिए। अब कमलका वर्णन सुनो । कमलके दो भेद हैं-' असंसक्त’ तथा “संसक्त'। ' असंसक्त' मोक्षकी तथा संसक्त भोगको प्राप्ति करानेवाला",
+          "translation": "Balavikarini and then Balapramathani, Sarvabhutadamani and the ninth Manonmani;",
+          "translationSource": "ai"
         },
         {
           "number": 22,
           "sanskrit": "श्वेता रक्ता सिता पीता श्यामा वह्निनिभाषिता । कृष्णारुणाश् च ताः शक्तीर्ज्वालारूपाः स्मरेत् क्रमात्",
           "transliteration": "śvetā raktā sitā pītā śyāmā vahninibhāṣitā / kṛṣṇāruṇāś ca tāḥ śaktīrjvālārūpāḥ smaret kramāt",
-          "hindi": "है। ' असंसक्त' कमल मुमुक्षुओंके लिये उपयुक्त है। संसक्त कमलके तीन भेद हैं-बाल, युवा तथा वृद्ध। वे अपने नामके अनुसार फलसिद्धि"
+          "hindi": "है। ' असंसक्त' कमल मुमुक्षुओंके लिये उपयुक्त है। संसक्त कमलके तीन भेद हैं-बाल, युवा तथा वृद्ध। वे अपने नामके अनुसार फलसिद्धि",
+          "translation": "white, red, pale, yellow, dark, fire-colored and black-red — those powers in the form of flames one should remember in order.",
+          "translationSource": "ai"
         },
         {
           "number": 23,
           "sanskrit": "अनन्तयोगपीठाय आवाह्याथ हृदब्जतः । स्फटिकाभं चतुर्वाहुं फलशूलधरं शिवम्",
           "transliteration": "anantayogapīṭhāya āvāhyātha hṛdabjataḥ / sphaṭikābhaṃ caturvāhuṃ phalaśūladharaṃ śivam",
-          "hindi": "कमलके क्षेत्रमै दिशा तथा कोणदिशाको ओर सूत-चालन करे तथा कमलके समान पाँच वृत्त निर्माण करे। प्रथम वृत्तमें नौ पुष्करोंसे युक्त कर्णिका होगी, दूसरेमें चौबीस केसर रहेंगे, तीसरेमें दलोंको संधि होगी, जिसकी आकृति हाथीके कुम्भस्थलके सदृश होगी, चौथे वृत्तमें दलोंके अग्रभाग होंगे तथा पाँचवें वृत्तमें आकाशमात्र “शून्य' रहेगा। इसे 'संसक्त कमल' कहा गया है।"
+          "hindi": "कमलके क्षेत्रमै दिशा तथा कोणदिशाको ओर सूत-चालन करे तथा कमलके समान पाँच वृत्त निर्माण करे। प्रथम वृत्तमें नौ पुष्करोंसे युक्त कर्णिका होगी, दूसरेमें चौबीस केसर रहेंगे, तीसरेमें दलोंको संधि होगी, जिसकी आकृति हाथीके कुम्भस्थलके सदृश होगी, चौथे वृत्तमें दलोंके अग्रभाग होंगे तथा पाँचवें वृत्तमें आकाशमात्र “शून्य' रहेगा। इसे 'संसक्त कमल' कहा गया है।",
+          "translation": "\"To the endless yoga-seat\" — having invoked from the heart-lotus Shiva crystal-bright, four-armed, bearing fruit and trident,",
+          "translationSource": "ai"
         },
         {
           "number": 24,
           "sanskrit": "साभयं वरदं पञ्चवदंनञ्च त्रिलोचनम् । पत्रेषु मुर्तयः पञ्च स्थाप्यास्तत्पुरुषादयः",
           "transliteration": "sābhayaṃ varadaṃ pañcavadaṃnañca trilocanam / patreṣu murtayaḥ pañca sthāpyāstatpuruṣādayaḥ",
-          "hindi": "' असंसक्त कमल'में दलाग्रभागपर जो दिशाओंके भाग हैं, उनके विस्तारके अनुसार दो भाग छोड़कर आठ भागोंसे दल बनाये। संधि- विस्तारसूत्रसे उसके मानके अनुसार दलको"
+          "hindi": "' असंसक्त कमल'में दलाग्रभागपर जो दिशाओंके भाग हैं, उनके विस्तारके अनुसार दो भाग छोड़कर आठ भागोंसे दल बनाये। संधि- विस्तारसूत्रसे उसके मानके अनुसार दलको",
+          "translation": "with fearlessness and boon, five-faced and three-eyed. On the petals five forms are to be established: Tatpurusha and the rest:",
+          "translationSource": "ai"
         },
         {
           "number": 25,
           "sanskrit": "पूर्वे तत्पुरुषः श्वेतो अघोरो ऽष्टभुजो ऽसिताः । चतुर्वाहुमुखः पीताः सद्योजातश् च पश्चिमे",
           "transliteration": "pūrve tatpuruṣaḥ śveto aghoro 'ṣṭabhujo 'sitāḥ / caturvāhumukhaḥ pītāḥ sadyojātaś ca paścime",
-          "hindi": "रचना करे। इसमें बायेंसे दक्षिणके क्रमसे प्रवृत्त होना चाहिए। इस तरह यह ' वृद्ध संसक्त कमल' बनता है अथवा संधिके बीचसे सूतको अर्धचन्द्राकार घुमाये या दो संधियोंके अग्रवती सूतको (अर्धचन्द्राकार) घुमाये। ऐसा करनेसे 'बालपद्म' बनता है। संधिसूत्रके अग्रभागसे पृष्ठभागको ओर"
+          "hindi": "रचना करे। इसमें बायेंसे दक्षिणके क्रमसे प्रवृत्त होना चाहिए। इस तरह यह ' वृद्ध संसक्त कमल' बनता है अथवा संधिके बीचसे सूतको अर्धचन्द्राकार घुमाये या दो संधियोंके अग्रवती सूतको (अर्धचन्द्राकार) घुमाये। ऐसा करनेसे 'बालपद्म' बनता है। संधिसूत्रके अग्रभागसे पृष्ठभागको ओर",
+          "translation": "in the east Tatpurusha, white; Aghora eight-armed, black; four-armed and four-faced, yellow, Sadyojata in the west;",
+          "translationSource": "ai"
         },
         {
           "number": 26,
           "sanskrit": "वामदेवः स्त्रीविलासी चतुर्वक्त्रभुजो ऽरुणः । सौम्ये पञ्चास्य ईशाने ईशानः सर्वदः सितः",
           "transliteration": "vāmadevaḥ strīvilāsī caturvaktrabhujo 'ruṇaḥ / saumye pañcāsya īśāne īśānaḥ sarvadaḥ sitaḥ",
-          "hindi": "सूत घुमाये। वह तीक्ष्ण अग्रभागवाला 'युवा' संज्ञक है। ऐसे कमलसे भोग और मोक्षको उपलब्धि होती है। सम (छः) मुखवाले स्कन्द! मुक्तिके उद्देश्यसे किये जानेवाले आराधनात्मक"
+          "hindi": "सूत घुमाये। वह तीक्ष्ण अग्रभागवाला 'युवा' संज्ञक है। ऐसे कमलसे भोग और मोक्षको उपलब्धि होती है। सम (छः) मुखवाले स्कन्द! मुक्तिके उद्देश्यसे किये जानेवाले आराधनात्मक",
+          "translation": "Vamadeva amorous, four-faced and four-armed, red; in the north five-faced, in the northeast Ishana, giver of all, white.",
+          "translationSource": "ai"
         },
         {
           "number": 27,
           "sanskrit": "इष्टाङ्गानि यथान्यायमनन्तं सूक्ष्ममर्चयेत् । सिद्धेश्वरं त्वेकनेत्रं पूर्वादौ दिश पूजयेत्",
           "transliteration": "iṣṭāṅgāni yathānyāyamanantaṃ sūkṣmamarcayet / siddheśvaraṃ tvekanetraṃ pūrvādau diśa pūjayet",
-          "hindi": "कर्ममें ‘वृद्ध कमल'का उपयोग करना चाहिए तथा वशीकरण आदिमे 'बालपद्म'का। 'नवनाभ' कमलचक्र नौ हाथोंका होता है। उसमें मन्त्रात्मक नौ भाग होते हैं। उसके मध्यभागमें कमल होता है। उस कमलके ही मानके अनुसार उसमें पट्टिका, वीथी और द्वारे साथ कण्ठ एवं उपकण्ठके निर्माणकी बात भी कही गयी है। उसके बाह्यमभागमें वीथीकी स्थिति मानी गयी है।"
+          "hindi": "कर्ममें ‘वृद्ध कमल'का उपयोग करना चाहिए तथा वशीकरण आदिमे 'बालपद्म'का। 'नवनाभ' कमलचक्र नौ हाथोंका होता है। उसमें मन्त्रात्मक नौ भाग होते हैं। उसके मध्यभागमें कमल होता है। उस कमलके ही मानके अनुसार उसमें पट्टिका, वीथी और द्वारे साथ कण्ठ एवं उपकण्ठके निर्माणकी बात भी कही गयी है। उसके बाह्यमभागमें वीथीकी स्थिति मानी गयी है।",
+          "translation": "One should worship the desired limbs as is fit, the Infinite, the Subtle; Siddheshvara with one eye in the east and other directions;",
+          "translationSource": "ai"
         },
         {
           "number": 28,
           "sanskrit": "एकरुद्रं त्रिनेत्रञ्च श्रीकण्ठञ्च शिखण्डिनम् । ऐशान्यादिविदिक्ष्वेते विद्येशाः कमलासनाः(१)",
           "transliteration": "ekarudraṃ trinetrañca śrīkaṇṭhañca śikhaṇḍinam / aiśānyādividikṣvete vidyeśāḥ kamalāsanāḥ(1)",
-          "hindi": "पाँच भागमें तो वीथी होती है और अपने चारों ओर वह दस भागका स्थान लिये रहती है। उसके आठ दिशाओंमें आठ कमल होते हैं तथा वीथीसहित एक द्वारपद्म भी होता है। उसके"
+          "hindi": "पाँच भागमें तो वीथी होती है और अपने चारों ओर वह दस भागका स्थान लिये रहती है। उसके आठ दिशाओंमें आठ कमल होते हैं तथा वीथीसहित एक द्वारपद्म भी होता है। उसके",
+          "translation": "Ekarudra, Trinetra, Shrikantha, Shikhandin in the northeast and other corners — these Vidyeshas lotus-seated;",
+          "translationSource": "ai"
         },
         {
           "number": 29,
           "sanskrit": "श्वेतः पीतः सितो रक्तो धूम्रो रक्तो ऽरुणः शितः । शूलाशनिशरेश्वासवाहवश् चतुराननाः",
           "transliteration": "śvetaḥ pītaḥ sito rakto dhūmro rakto 'ruṇaḥ śitaḥ / śūlāśaniśareśvāsavāhavaś caturānanāḥ",
-          "hindi": "बाह्मभागमें पाँच पदोंकी वीथी होती है, जो लता आदिसे विभूषित हुआ करती है। द्वारके कण्ठमें कमल होता है। द्वारका ओष्ठ और कण्ठभाग एक-एक पदका होता है। कपोल-भाग एक पदका बनाना चाहिए। तीन दिशाओंमें तीन द्वार स्पष्ट होते हैं। कोणबन्ध तीन पट्टियों, दो पद तथा वञ्र-चिहसे युक्त होता है। मध्यकमल शुक्लवर्णका होता है तथा शेष दिशाओंके कमल"
+          "hindi": "बाह्मभागमें पाँच पदोंकी वीथी होती है, जो लता आदिसे विभूषित हुआ करती है। द्वारके कण्ठमें कमल होता है। द्वारका ओष्ठ और कण्ठभाग एक-एक पदका होता है। कपोल-भाग एक पदका बनाना चाहिए। तीन दिशाओंमें तीन द्वार स्पष्ट होते हैं। कोणबन्ध तीन पट्टियों, दो पद तथा वञ्र-चिहसे युक्त होता है। मध्यकमल शुक्लवर्णका होता है तथा शेष दिशाओंके कमल",
+          "translation": "white, yellow, pale, red, smoky, red, ruddy and black, with trident, thunderbolt, arrow, breath and arms, four-faced;",
+          "translationSource": "ai"
         },
         {
           "number": 30,
           "sanskrit": "उमा वण्डेशनन्दीशौ महाकालो गणेश्वरः । वृषो भृङ्गरिटिस्कन्दानुत्तरादौ प्रपूजयेत्",
           "transliteration": "umā vaṇḍeśanandīśau mahākālo gaṇeśvaraḥ / vṛṣo bhṛṅgariṭiskandānuttarādau prapūjayet",
-          "hindi": "पूर्वादिक्रमसे पीत, रक्त, नील, पीत, शुक्ल, धूम्र, रक्त तथा पीतवर्णके होते हैं। यह कमलचक्र मुक्तिदायक है"
+          "hindi": "पूर्वादिक्रमसे पीत, रक्त, नील, पीत, शुक्ल, धूम्र, रक्त तथा पीतवर्णके होते हैं। यह कमलचक्र मुक्तिदायक है",
+          "translation": "Uma, Chandesha, Nandisha, Mahakala, Ganeshvara, Bull, Bhringi, Riti, Skanda — in the north and so on one should worship;",
+          "translationSource": "ai"
         },
         {
           "number": 31,
           "sanskrit": "कुलिशं शक्तिदण्डौ च खड्गपाशध्वजौ गदां । शूलं चक्रं यजेत् पद्मं पूव्वादौ देवमर्च्य च",
           "transliteration": "kuliśaṃ śaktidaṇḍau ca khaḍgapāśadhvajau gadāṃ / śūlaṃ cakraṃ yajet padmaṃ pūvvādau devamarcya ca",
-          "hindi": "पूर्व आदि दिशाओंमें आठ कमलोंका तथा शिव-विष्णु आदि देवताओंका यजन करे। विष्णु आदिका पूजन प्रासादके मध्यवर्ती कमलमें करके पूर्वादि कमलोंमें इन्द्र आदि लोकपालोंको पूजा करे। इनकी बाह्यवीथीकी पूर्वादि दिशामें उन-  उन इन्द्र आदि देवताओंके वज्र आदि आयुधोंको पूजा करे। वहाँ विष्णु आदिकी पूजा करके साधक अश्वमेधयज्ञके फलका भागी होता है।"
+          "hindi": "पूर्व आदि दिशाओंमें आठ कमलोंका तथा शिव-विष्णु आदि देवताओंका यजन करे। विष्णु आदिका पूजन प्रासादके मध्यवर्ती कमलमें करके पूर्वादि कमलोंमें इन्द्र आदि लोकपालोंको पूजा करे। इनकी बाह्यवीथीकी पूर्वादि दिशामें उन-  उन इन्द्र आदि देवताओंके वज्र आदि आयुधोंको पूजा करे। वहाँ विष्णु आदिकी पूजा करके साधक अश्वमेधयज्ञके फलका भागी होता है।",
+          "translation": "vajra, shakti and staff, sword, noose, banner, mace, trident, discus and lotus one should worship; in the east and so on having worshipped the god.",
+          "translationSource": "ai"
         },
         {
           "number": 32,
           "sanskrit": "ततो ऽधिवासितं शिष्यं पाययेद्गव्यपञ्चकम् । आचान्तं प्रोक्ष्ये नेत्रान्तैर् नेत्रे नेत्रेण बन्धयेत्",
           "transliteration": "tato 'dhivāsitaṃ śiṣyaṃ pāyayedgavyapañcakam / ācāntaṃ prokṣye netrāntair netre netreṇa bandhayet",
-          "hindi": "पवित्रारोपण आदिमें महान् मण्डलकी रचना करे। आठ हाथ लंबे क्षेत्रका छब्बीससे विवर्तन (विभाजन) करे। मध्यवर्ती दो पदोमें कमल- निर्माण करे। तदनन्तर एक पदकी वीथी हो।"
+          "hindi": "पवित्रारोपण आदिमें महान् मण्डलकी रचना करे। आठ हाथ लंबे क्षेत्रका छब्बीससे विवर्तन (विभाजन) करे। मध्यवर्ती दो पदोमें कमल- निर्माण करे। तदनन्तर एक पदकी वीथी हो।",
+          "translation": "Then the disciple, made fit, should be made to drink the five cow-products. Having rinsed, sprinkled with the eye-endings, one should bind the eyes with the eye-mantra;",
+          "translationSource": "ai"
         },
         {
           "number": 33,
           "sanskrit": "द्वारं प्रवेशयेच्छिप्यं मण्डपस्याथ दक्षिणे । सासनादिकुशासीनं तत्र संशोधयेद्गुरुः",
           "transliteration": "dvāraṃ praveśayecchipyaṃ maṇḍapasyātha dakṣiṇe / sāsanādikuśāsīnaṃ tatra saṃśodhayedguruḥ",
-          "hindi": "तत्पश्चात् दिशाओं तथा विदिशाओंमें आठ नीलकमलोंका निर्माण करे। मध्यवर्ती कमलके ही मानसे उसमें कुल तीस पद्म निर्मित किये जायँ। वे सब दलसंधिसे रहित हों तथा नीलवर्णके 'इन्दीवर' संज्ञक कमल हों। उसके पृष्ठभागमें एक पदक वीथी हो। उसके ऊपर स्वस्तिकचिहू बने हों। तात्पर्य यह कि वीथीके ऊपरी भाग या"
+          "hindi": "तत्पश्चात् दिशाओं तथा विदिशाओंमें आठ नीलकमलोंका निर्माण करे। मध्यवर्ती कमलके ही मानसे उसमें कुल तीस पद्म निर्मित किये जायँ। वे सब दलसंधिसे रहित हों तथा नीलवर्णके 'इन्दीवर' संज्ञक कमल हों। उसके पृष्ठभागमें एक पदक वीथी हो। उसके ऊपर स्वस्तिकचिहू बने हों। तात्पर्य यह कि वीथीके ऊपरी भाग या",
+          "translation": "one should lead the disciple through the door to the south of the pavilion; seated on a kusha seat and the like there the teacher should purify him;",
+          "translationSource": "ai"
         },
         {
           "number": 34,
           "sanskrit": "आदितत्त्वानि संहृत्य परमार्थे लयः क्रमात् । पुनरुत्पादयेच्छिष्यं सृष्टिमार्गेण देशिकः",
           "transliteration": "āditattvāni saṃhṛtya paramārthe layaḥ kramāt / punarutpādayecchiṣyaṃ sṛṣṭimārgeṇa deśikaḥ",
-          "hindi": "बाह्यमभागमें दो-दो पदोंके विभक्त स्थानोंमें कुल"
+          "hindi": "बाह्यमभागमें दो-दो पदोंके विभक्त स्थानोंमें कुल",
+          "translation": "having withdrawn the primary principles, dissolution in the supreme reality in order; again the teacher should produce the disciple by the creation path;",
+          "translationSource": "ai"
         },
         {
           "number": 35,
           "sanskrit": "न्यासं शिष्ये ततः कृत्वा तं प्रदक्षिणमानयेत् । पश्चिमद्वारमानीय क्षेपयेत् कुसुमाञ्जलिम्",
           "transliteration": "nyāsaṃ śiṣye tataḥ kṛtvā taṃ pradakṣiṇamānayet / paścimadvāramānīya kṣepayet kusumāñjalim",
-          "hindi": "बाह्यभागमें वीथिका रहे। द्वार, कमल तथा उपकण्ठ सब कुछ रहने चाहिए। कोणका रंग लाल और वीथीका पीला होना चाहिए। मण्डलके बीचका कमल नीलवर्णका होगा। कार्तिकेय! बिचित्र रंगोंसे युक्त स्वस्तिक आदि मण्डल सम्पूर्ण कामनाओंको देनेवाला है ॥ २३-२९ ३ ॥"
+          "hindi": "बाह्यभागमें वीथिका रहे। द्वार, कमल तथा उपकण्ठ सब कुछ रहने चाहिए। कोणका रंग लाल और वीथीका पीला होना चाहिए। मण्डलके बीचका कमल नीलवर्णका होगा। कार्तिकेय! बिचित्र रंगोंसे युक्त स्वस्तिक आदि मण्डल सम्पूर्ण कामनाओंको देनेवाला है ॥ २३-२९ ३ ॥",
+          "translation": "having then placed on the disciple, one should lead him round clockwise; having brought to the west door, one should have a handful of flowers thrown;",
+          "translationSource": "ai"
         },
         {
           "number": 36,
           "sanskrit": "यस्मिन् पतन्ति पुष्पाणि तन्नामाद्यं विनिर्दिशेत् । पार्श्वेयागभुवः खाते कुण्डे सन्नभिमेखले(२)",
           "transliteration": "yasmin patanti puṣpāṇi tannāmādyaṃ vinirdiśet / pārśveyāgabhuvaḥ khāte kuṇḍe sannabhimekhale(2)",
-          "hindi": "“पञ्चाब्ज-मण्डल' पाँच हाथके क्षेत्रको सब ओरसे दससे विभाजित करके बनाया जाता है। इसमें दो पदोंका कमल, उसके बाह्यभागमें वीथी, फिर पट्टिका, फिर चार दिशाओंमें चार"
+          "hindi": "“पञ्चाब्ज-मण्डल' पाँच हाथके क्षेत्रको सब ओरसे दससे विभाजित करके बनाया जाता है। इसमें दो पदोंका कमल, उसके बाह्यभागमें वीथी, फिर पट्टिका, फिर चार दिशाओंमें चार",
+          "translation": "on whomever the flowers fall, that one's name and so on should be declared. At the side in the sacrifice ground in a dug pit, with girdle,",
+          "translationSource": "ai"
         },
         {
           "number": 37,
           "sanskrit": "शिवाग्निं जनयित्वेष्ट्वा पुनः शिष्येण चार्चयेत् । ध्यानेनात्मनिभं शिष्यं संहृत्य प्रलयः क्रमात्",
           "transliteration": "śivāgniṃ janayitveṣṭvā punaḥ śiṣyeṇa cārcayet / dhyānenātmanibhaṃ śiṣyaṃ saṃhṛtya pralayaḥ kramāt",
-          "hindi": "कमल होते हैं। इन चारोंके बाद पृष्ठभागमें वीथी हो, जो एक पद अथवा दो पदोंके स्थानमें बनायी गयी हो। कण्ठ और उपकण्ठसे युक्त द्वार हों और द्वारके मध्यभागमें कमल हो। इस पञ्चान्ज-मण्डलमें पूर्ववर्ती कमल श्वेत और पीतवर्णका होता है। दक्षिणदिग्वर्ती कमल वैदूर्यमणिके रंगका, पञ्चिमवर्ती कमल कुन्दके समान श्वेतवर्णका तथा उत्तरदिशाका कमल शङ्खके"
+          "hindi": "कमल होते हैं। इन चारोंके बाद पृष्ठभागमें वीथी हो, जो एक पद अथवा दो पदोंके स्थानमें बनायी गयी हो। कण्ठ और उपकण्ठसे युक्त द्वार हों और द्वारके मध्यभागमें कमल हो। इस पञ्चान्ज-मण्डलमें पूर्ववर्ती कमल श्वेत और पीतवर्णका होता है। दक्षिणदिग्वर्ती कमल वैदूर्यमणिके रंगका, पञ्चिमवर्ती कमल कुन्दके समान श्वेतवर्णका तथा उत्तरदिशाका कमल शङ्खके",
+          "translation": "having produced the Shiva-fire and worshipped, again with the disciple one should worship; having withdrawn the disciple, in the likeness of oneself by meditation, dissolution in order;",
+          "translationSource": "ai"
         },
         {
           "number": 38,
           "sanskrit": "पुनरुत्पाद्य तत्पाणौ दद्याद्दर्भांश् च मन्त्रितान् । पृथिव्यादीनि तत्त्वानि जुहुयाद्धृदयादिभिः",
           "transliteration": "punarutpādya tatpāṇau dadyāddarbhāṃś ca mantritān / pṛthivyādīni tattvāni juhuyāddhṛdayādibhiḥ",
-          "hindi": "सदूश उज्चल होता है। शेष सब विचित्र वर्णके होते हैं"
+          "hindi": "सदूश उज्चल होता है। शेष सब विचित्र वर्णके होते हैं",
+          "translation": "having produced again, one should place consecrated darbha in his hand; one should offer the principles beginning with earth with the heart-mantra and the rest;",
+          "translationSource": "ai"
         },
         {
           "number": 39,
           "sanskrit": "१ कमलानना इति ञ॥ २ सन्धादिमेखले इति ख॥ :प् १२२ एकैकस्य शतं हुत्वा व्योममूलेन होमयेत् । हुत्वा पूर्णाहुतिं कुर्यादस्त्रेणाष्टाहुतीर्हुनेत्",
           "transliteration": "1 kamalānanā iti ña.. 2 sandhādimekhale iti kha.. :p 122 ekaikasya śataṃ hutvā vyomamūlena homayet / hutvā pūrṇāhutiṃ kuryādastreṇāṣṭāhutīrhunet",
-          "hindi": "अब मैं दस हाथके मण्डलका वर्णन करता हूँ, जो सम्पूर्ण कामनाओंको देनेवाला है। उसको विकार-संख्या (२४) द्वारा सब ओर विभक्त करके चौकोर क्षेत्र बना ले। इसमें दो-दो पदोंका द्वार होगा। पूर्वोक्त चक्रोंकी भाँति इसके भी मध्यभागमें कमल होगा । अब मैं 'विघ्नध्वंस- चक्र'का वर्णन करता हूँ। चार हाथका पुर (चौकोर क्षेत्र) बनाकर उसके मध्यभागमें दो"
+          "hindi": "अब मैं दस हाथके मण्डलका वर्णन करता हूँ, जो सम्पूर्ण कामनाओंको देनेवाला है। उसको विकार-संख्या (२४) द्वारा सब ओर विभक्त करके चौकोर क्षेत्र बना ले। इसमें दो-दो पदोंका द्वार होगा। पूर्वोक्त चक्रोंकी भाँति इसके भी मध्यभागमें कमल होगा । अब मैं 'विघ्नध्वंस- चक्र'का वर्णन करता हूँ। चार हाथका पुर (चौकोर क्षेत्र) बनाकर उसके मध्यभागमें दो",
+          "translation": "having offered a hundred for each, one should offer with the sky root mantra; having offered, one should make the full oblation; with the weapon eight oblations;",
+          "translationSource": "ai"
         },
         {
           "number": 40,
           "sanskrit": "प्रायश्चित्तं विशुद्ध्यर्थं ततः शेषं समापयेत् । कुम्भं समन्त्रितं प्रार्च्य शिशुं पीठे ऽभिषेचयेत्",
           "transliteration": "prāyaścittaṃ viśuddhyarthaṃ tataḥ śeṣaṃ samāpayet / kumbhaṃ samantritaṃ prārcya śiśuṃ pīṭhe 'bhiṣecayet",
-          "hindi": "हाथके घेरेमें वृत्त (गोलाकर चक्र) बनाये। एक हाथको वीथी होगी, जो सब ओरसे स्वस्तिक- चिह्रोद्वारा घिरी रहेगी। एक-एक हाथमें चारों ओर द्वार बनेंगे। चारों दिशाओंमें वृत्त होंगे,"
+          "hindi": "हाथके घेरेमें वृत्त (गोलाकर चक्र) बनाये। एक हाथको वीथी होगी, जो सब ओरसे स्वस्तिक- चिह्रोद्वारा घिरी रहेगी। एक-एक हाथमें चारों ओर द्वार बनेंगे। चारों दिशाओंमें वृत्त होंगे,",
+          "translation": "expiation for purification; then one should complete the rest. Having worshipped the pot consecrated with mantras, one should consecrate the child on the seat;",
+          "translationSource": "ai"
         },
         {
           "number": 41,
           "sanskrit": "शिष्ये तु समयं दत्वा स्वर्णाद्यैः स्वगुरुं यजेत् । दीक्षा पञ्चाक्षरस्योक्ता विष्ण्वादेरेवमेव हि",
           "transliteration": "śiṣye tu samayaṃ datvā svarṇādyaiḥ svaguruṃ yajet / dīkṣā pañcākṣarasyoktā viṣṇvāderevameva hi",
-          "hindi": "जिनमें कमल अङ्कित रहेंगे। इस प्रकार इस चक्रमें पाँच कमल होंगे, जिनका वर्ण श्वेत होगा। मध्यवर्ती कमलमें निष्कल (निराकार परमात्मा)-का पूजन करना चाहिए। पूर्वादि दिशाओंमें हृदय आदि अङ्गोंकी तथा विदिशाओंमें अस्त्रोंकी पूजा होनी चाहिए। पूर्ववत् “सद्योजात' आदि पाँच ब्रह्ममय मुखोंका भी पूजन आवश्यक है॥ ३४--३७॥ अब मैं 'बुद्भ्याधार-चक्र'का वर्णन करता"
+          "hindi": "जिनमें कमल अङ्कित रहेंगे। इस प्रकार इस चक्रमें पाँच कमल होंगे, जिनका वर्ण श्वेत होगा। मध्यवर्ती कमलमें निष्कल (निराकार परमात्मा)-का पूजन करना चाहिए। पूर्वादि दिशाओंमें हृदय आदि अङ्गोंकी तथा विदिशाओंमें अस्त्रोंकी पूजा होनी चाहिए। पूर्ववत् “सद्योजात' आदि पाँच ब्रह्ममय मुखोंका भी पूजन आवश्यक है॥ ३४--३७॥ अब मैं 'बुद्भ्याधार-चक्र'का वर्णन करता",
+          "translation": "having given the covenant to the disciple, one should worship one's teacher with gold and the like. Initiation into the five-syllable is told; likewise for Vishnu and the rest.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -72291,61 +72407,81 @@
           "number": 8,
           "sanskrit": "काशीतटे महायोगं विरजायां रिपुञ्जयम् । विशाखयूपे ह्य् अजितन्नेपाले लोकभावनम्",
           "transliteration": "kāśītaṭe mahāyogaṃ virajāyāṃ ripuñjayam / viśākhayūpe hy ajitannepāle lokabhāvanam",
-          "hindi": "इस प्रकार आदि आग्रेय महापुराणमें 'मण्डलविधानका वर्णन” नामक तीन सौ बीसवाँ अध्याय पूरा हुआ तीन सौ इक्कीसवाँ अध्याय"
+          "hindi": "इस प्रकार आदि आग्रेय महापुराणमें 'मण्डलविधानका वर्णन” नामक तीन सौ बीसवाँ अध्याय पूरा हुआ तीन सौ इक्कीसवाँ अध्याय",
+          "translation": "On the bank at Kashi the Great Yoga; at Viraja the conqueror of enemies; at Vishakhayupa the Unconquered; in Nepal the Sustainer of the worlds;",
+          "translationSource": "ai"
         },
         {
           "number": 9,
           "sanskrit": "द्वारकायां विद्धि कृष्णं मन्दरे मधुसूदनम् । लोकाकुले रिपुहरं शालग्रामे हरिं स्मरेत्",
           "transliteration": "dvārakāyāṃ viddhi kṛṣṇaṃ mandare madhusūdanam / lokākule ripuharaṃ śālagrāme hariṃ smaret",
-          "hindi": "अघोरास्त्र आदि शान्ति-विधानका कथन"
+          "hindi": "अघोरास्त्र आदि शान्ति-विधानका कथन",
+          "translation": "at Dvaraka know Krishna; at Mandara Madhusudana; at Lokakula the destroyer of enemies; at Shalagrama one should remember Hari;",
+          "translationSource": "ai"
         },
         {
           "number": 10,
           "sanskrit": "पुरुषं पूरुषवटे विमले च जगत्प्रभुं । अनन्तं सैन्धवारण्ये दण्डके शार्ङ्गधारिणम्",
           "transliteration": "puruṣaṃ pūruṣavaṭe vimale ca jagatprabhuṃ / anantaṃ saindhavāraṇye daṇḍake śārṅgadhāriṇam",
-          "hindi": "महादेवजी कहते हैं- स्कन्द! पहले समस्त कमाँमें 'अस्त्रयाग' करना चाहिए। यह सिद्धि प्रदान करनेवाला है। मध्यभागमें शिव, विष्णु आदिके अस्त्रकी पूजा करनी चाहिए तथा पूर्वादि दिशाओंमें क्रमशः इन्द्रादि दिक्पालोंके वज्र आदि अस्त्रोंका पूजन करना चाहिए। भगवान् शंकरके पाँच मुख तथा दस हाथ हैं। उनके इस स्वरूपका"
+          "hindi": "महादेवजी कहते हैं- स्कन्द! पहले समस्त कमाँमें 'अस्त्रयाग' करना चाहिए। यह सिद्धि प्रदान करनेवाला है। मध्यभागमें शिव, विष्णु आदिके अस्त्रकी पूजा करनी चाहिए तथा पूर्वादि दिशाओंमें क्रमशः इन्द्रादि दिक्पालोंके वज्र आदि अस्त्रोंका पूजन करना चाहिए। भगवान् शंकरके पाँच मुख तथा दस हाथ हैं। उनके इस स्वरूपका",
+          "translation": "Purusha at Purushavata and at Vimala the Lord of the world; Ananta in the Saindhava forest; the Sarnga-bearer in Dandaka;",
+          "translationSource": "ai"
         },
         {
           "number": 11,
           "sanskrit": "उत्पलावर्तके शौरीं नर्मदायां श्रियः पतिं । दामोदरं रैवतके नन्दायां जलशायिनं",
           "transliteration": "utpalāvartake śaurīṃ narmadāyāṃ śriyaḥ patiṃ / dāmodaraṃ raivatake nandāyāṃ jalaśāyinaṃ",
-          "hindi": "ध्यान करते हुए युद्धसे पूर्व पूजा कर ली जाय तो विजयकी प्राप्ति होती है। ग्रहपूजा करते समय नवग्रहचक्रके मध्यमें सूर्यदेवको तथा पूर्वादि दिशाओंमें सोम आदिको अर्चना करनी चाहिए।"
+          "hindi": "ध्यान करते हुए युद्धसे पूर्व पूजा कर ली जाय तो विजयकी प्राप्ति होती है। ग्रहपूजा करते समय नवग्रहचक्रके मध्यमें सूर्यदेवको तथा पूर्वादि दिशाओंमें सोम आदिको अर्चना करनी चाहिए।",
+          "translation": "Shauri at Utpalavartaka; the Lord of Shri at Narmada; Damodara at Raivataka; the Water-Sleeper at Nanda;",
+          "translationSource": "ai"
         },
         {
           "number": 12,
           "sanskrit": "गोपीश्वरञ्च सिन्ध्वव्धौ माहेन्द्रे चाच्युतं विटुः । सहाद्रौ देवदेवेशं वैकुण्ठं मागधे वने",
           "transliteration": "gopīśvarañca sindhvavdhau māhendre cācyutaṃ viṭuḥ / sahādrau devadeveśaṃ vaikuṇṭhaṃ māgadhe vane",
-          "hindi": "ग्रहोंकी पूजा करनेसे सभी ग्रह एकादश (ग्यारहवें) स्थानमें स्थित होते हैं और उस स्थानमें स्थितकी भाँति उत्तम फल देते हैं अब मैं समस्त उत्पातोंका नाश करनेवाली ' अस्त्रशान्ति 'का वर्णन करूँगा। यह शान्ति ग्रहरोग आदिको शान्त करनेवाली तथा महामारी एवं शत्रुका मर्दन करनेवाली है । विघ्नकारक गणोंके"
+          "hindi": "ग्रहोंकी पूजा करनेसे सभी ग्रह एकादश (ग्यारहवें) स्थानमें स्थित होते हैं और उस स्थानमें स्थितकी भाँति उत्तम फल देते हैं अब मैं समस्त उत्पातोंका नाश करनेवाली ' अस्त्रशान्ति 'का वर्णन करूँगा। यह शान्ति ग्रहरोग आदिको शान्त करनेवाली तथा महामारी एवं शत्रुका मर्दन करनेवाली है । विघ्नकारक गणोंके",
+          "translation": "Gopishvara at the Sindhu ocean; Achyuta at Mahendra, they know; at Sahyadri the god of gods; Vaikuntha in the Magadha forest;",
+          "translationSource": "ai"
         },
         {
           "number": 13,
           "sanskrit": "सर्वपापहरं विन्ध्ये औड्रे तु पुरुषोत्तमम् । आत्मानं हृदये विद्धि जपतां भुक्तिमुक्तिदम्",
           "transliteration": "sarvapāpaharaṃ vindhye auḍre tu puruṣottamam / ātmānaṃ hṛdaye viddhi japatāṃ bhuktimuktidam",
-          "hindi": "द्वारा उत्पादित उत्पातको भी शान्त करती है। मनुष्य ' अघोरास्त्र'का जप करे। एक लाख जप करनेसे ग्रहबाधा आदिका निवारण होता है और तिलसे दशांश होम कर दिया जाय तो उत्पातोंका"
+          "hindi": "द्वारा उत्पादित उत्पातको भी शान्त करती है। मनुष्य ' अघोरास्त्र'का जप करे। एक लाख जप करनेसे ग्रहबाधा आदिका निवारण होता है और तिलसे दशांश होम कर दिया जाय तो उत्पातोंका",
+          "translation": "the destroyer of all sin in Vindhya; Purushottama in Odra; know the Self in the heart, giver of enjoyment and liberation to reciters.",
+          "translationSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "वटे वटे वैश्रवणं चत्वरे चत्वरे शिवम् । पर्वते पर्वते रामं सर्वत्र मधुसूदनं",
           "transliteration": "vaṭe vaṭe vaiśravaṇaṃ catvare catvare śivam / parvate parvate rāmaṃ sarvatra madhusūdanaṃ",
-          "hindi": "नाश होता है। एक लाख जप-होमसे दिव्य उत्पातका तथा आधे लक्ष जप-होमसे आकाशज उत्पातका विनाश होता है। घीकी एक लाख आहुति देनेसे भूमिज उत्पातके निवारणमें सफलता प्राप्त होती है। घृतमिश्रित गुग्गुलके होमसे सम्पूर्ण उत्पात आदिका शमन हो जाता है। दूर्वा, अक्षत तथा घीकी आहुति देनेसे सारे रोग दूर होते हैं। केवल घीकी एक सहस्र आहुतिसे बुरे"
+          "hindi": "नाश होता है। एक लाख जप-होमसे दिव्य उत्पातका तथा आधे लक्ष जप-होमसे आकाशज उत्पातका विनाश होता है। घीकी एक लाख आहुति देनेसे भूमिज उत्पातके निवारणमें सफलता प्राप्त होती है। घृतमिश्रित गुग्गुलके होमसे सम्पूर्ण उत्पात आदिका शमन हो जाता है। दूर्वा, अक्षत तथा घीकी आहुति देनेसे सारे रोग दूर होते हैं। केवल घीकी एक सहस्र आहुतिसे बुरे",
+          "translation": "Vaishravana in tree after tree; Shiva at crossing after crossing; Rama on mountain after mountain; Madhusudana everywhere;",
+          "translationSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "नरं भूमौ तथा व्योम्नि वशिष्ठे गरुडध्वजम् । वासुदेवञ्च सर्वत्र संस्मरन् भुक्तिमुक्तिभाक्",
           "transliteration": "naraṃ bhūmau tathā vyomni vaśiṣṭhe garuḍadhvajam / vāsudevañca sarvatra saṃsmaran bhuktimuktibhāk",
-          "hindi": "स्वप्न नष्ट हो जाते हैं, इसमें संशय नहीं है। वही आहुति यदि दस हजारकी संख्यामें दी जाय तो ग्रहदोषका शमन होता है। घृतमिश्रित जौकी दस हजार आहुतियोंसे विनायकजनित पीड़ाका निवारण"
+          "hindi": "स्वप्न नष्ट हो जाते हैं, इसमें संशय नहीं है। वही आहुति यदि दस हजारकी संख्यामें दी जाय तो ग्रहदोषका शमन होता है। घृतमिश्रित जौकी दस हजार आहुतियोंसे विनायकजनित पीड़ाका निवारण",
+          "translation": "Nara on earth, and in the sky; Garudadhvaja at Vashishtha; remembering Vasudeva everywhere one shares enjoyment and liberation.",
+          "translationSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "नामान्येतानि विष्णीश् च जप्त्वा सर्वमवाप्नुयात् । क्षेत्रेष्वेतेषु यत् श्राद्धं दानं जप्यञ्च तर्पणम्",
           "transliteration": "nāmānyetāni viṣṇīś ca japtvā sarvamavāpnuyāt / kṣetreṣveteṣu yat śrāddhaṃ dānaṃ japyañca tarpaṇam",
-          "hindi": "होता है। दस हजार घीकी आहुतिसे तथा गुग्गुलको भी दस सहस्र आहुतिसे भूत-वेताल आदिकी शान्ति होती है। यदि कोई बड़ा भारी वृक्ष आँधी आदिसे स्वतः उखड़कर गिर जाय, घरमें सर्पका कङ्काल हो तथा वनमें प्रवेश करना पड़े तो दूर्वा, घी और अक्षतके होमसे विघ्नकी"
+          "hindi": "होता है। दस हजार घीकी आहुतिसे तथा गुग्गुलको भी दस सहस्र आहुतिसे भूत-वेताल आदिकी शान्ति होती है। यदि कोई बड़ा भारी वृक्ष आँधी आदिसे स्वतः उखड़कर गिर जाय, घरमें सर्पका कङ्काल हो तथा वनमें प्रवेश करना पड़े तो दूर्वा, घी और अक्षतके होमसे विघ्नकी",
+          "translation": "Having recited these names of Vishnu one obtains everything. In these holy places whatever ancestral rite, gift, recitation and libation",
+          "translationSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "तत्सर्वं कोटिगुणितं मृतो ब्रह्ममयो भवेत् । यः पठेत् शृणुयाद्वापि निर्मलः स्वर्गमाप्नुयात्",
           "transliteration": "tatsarvaṃ koṭiguṇitaṃ mṛto brahmamayo bhavet / yaḥ paṭhet śṛṇuyādvāpi nirmalaḥ svargamāpnuyāt",
-          "hindi": "शान्ति होती है। उल्कापात या भूकम्प हो तो तिल और घीसे होम करनेसे कल्याण होता है। वृक्षोंसे रक्त बहे, असमयमें फल-फूल लगें, राष्ट्रभङ्ग हो, मारणकर्म हो, जब मनुष्य-पशु"
+          "hindi": "शान्ति होती है। उल्कापात या भूकम्प हो तो तिल और घीसे होम करनेसे कल्याण होता है। वृक्षोंसे रक्त बहे, असमयमें फल-फूल लगें, राष्ट्रभङ्ग हो, मारणकर्म हो, जब मनुष्य-पशु",
+          "translation": "is all increased a crore-fold; dying he becomes Brahman-formed. One who reads or hears this becomes stainless and attains heaven.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -72364,43 +72500,57 @@
           "number": 2,
           "sanskrit": "ॐ नमो भगवते उन्मत्तरुद्राय भ्रम २ भ्रामय २ अमुकं वित्रासय उद्भ्रामय २ रौद्रेण रूपेण हूं फठ् ठ २ श्मशाने निशि जप्तेन त्रिलक्षं मधुना हुनेत् । चिताग्नौ धूर्तसमिदुभिर्भ्राम्यते सततं रिपुः",
           "transliteration": "oṃ namo bhagavate unmattarudrāya bhrama 2 bhrāmaya 2 amukaṃ vitrāsaya udbhrāmaya 2 raudreṇa rūpeṇa hūṃ phaṭh ṭha 2 śmaśāne niśi japtena trilakṣaṃ madhunā hunet / citāgnau dhūrtasamidubhirbhrāmyate satataṃ ripuḥ",
-          "hindi": "जहाँ असंमयमें गर्भपात हो या जहाँ बालक जन्म लेते ही मर जाता हो तथा जिस घरमें विकृत अङ्गवाले शिशु उत्पन्न होते हों तथा जहाँ समय पूर्ण होनेसे पूर्व ही बालकका"
+          "hindi": "जहाँ असंमयमें गर्भपात हो या जहाँ बालक जन्म लेते ही मर जाता हो तथा जिस घरमें विकृत अङ्गवाले शिशु उत्पन्न होते हों तथा जहाँ समय पूर्ण होनेसे पूर्व ही बालकका",
+          "translation": "\"Om homage to the Lord Unmatta-Rudra: bhrama bhrama, bhramaya bhramaya, terrify so-and-so, bewilder bewilder, in the terrible form, hum phat tha tha.\" Recited at night in a cremation ground, one should offer three lakh with honey; on the funeral fire with rogues' fuel the enemy is made to wander constantly.",
+          "translationSource": "ai"
         },
         {
           "number": 3,
           "sanskrit": "हेमगैरिकया कृष्णा प्रतिमा हैमसूचिभिः । जप्त्वा विध्येच्च तत्कण्ठे हृदि वा मियते रिपुः",
           "transliteration": "hemagairikayā kṛṣṇā pratimā haimasūcibhiḥ / japtvā vidhyecca tatkaṇṭhe hṛdi vā miyate ripuḥ",
-          "hindi": "जन्म होता हो, वहाँ इन सब दोषोंके शमनके लिये दस हजार आहुतियाँ देनी चाहिए। सिद्धि- साधनमें तिलमिश्रित घीसे एक लाख हवन किया जाय तो वह उत्तम है, मध्यम सिद्धिके साधनमें अर्धलक्ष और अधम सिद्धिके लिये पचीस हजार आहुति देनी चाहिए। जैसा जप हो, उसके अनुसार ही होम होना चाहिए। इससे संग्राममें विजय प्राप्त होती है। न्यासपूर्वक तेजस्वी"
+          "hindi": "जन्म होता हो, वहाँ इन सब दोषोंके शमनके लिये दस हजार आहुतियाँ देनी चाहिए। सिद्धि- साधनमें तिलमिश्रित घीसे एक लाख हवन किया जाय तो वह उत्तम है, मध्यम सिद्धिके साधनमें अर्धलक्ष और अधम सिद्धिके लिये पचीस हजार आहुति देनी चाहिए। जैसा जप हो, उसके अनुसार ही होम होना चाहिए। इससे संग्राममें विजय प्राप्त होती है। न्यासपूर्वक तेजस्वी",
+          "translation": "A black image made with golden ochre, with golden needles, having recited, one should pierce it at the throat or heart; the enemy dies.",
+          "translationSource": "ai"
         },
         {
           "number": 4,
           "sanskrit": "खरबालचिताभस्म ब्रह्मदण्डी च मर्कटी । गृहे वा मूर्ध्नि तच्चूर्णं जप्तमुत्सादकृत क्षिपेत्",
           "transliteration": "kharabālacitābhasma brahmadaṇḍī ca markaṭī / gṛhe vā mūrdhni taccūrṇaṃ japtamutsādakṛta kṣipet",
-          "hindi": "पञ्चमुखका ध्यान करके 'अघोरास्त्र'का जप करना चाहिए ॥ १३ १६॥"
+          "hindi": "पञ्चमुखका ध्यान करके 'अघोरास्त्र'का जप करना चाहिए ॥ १३ १६॥",
+          "translation": "Ash from a donkey's tail-hair funeral pyre, brahmadandi and markati: that powder, recited over, thrown in a house or on the head, causes uprooting.",
+          "translationSource": "ai"
         },
         {
           "number": 5,
           "sanskrit": "भृग्वाकाशौ सदीप्ताग्निर्भृगुर्वह्निश् च वर्म फट् । एवं सहस्रारे हूं फट् आचक्राय स्वाहा हृदयं विचक्राय शिवः शिखाचक्रायाथ कवचं विचक्रायाथ नेत्रकम्",
           "transliteration": "bhṛgvākāśau sadīptāgnirbhṛgurvahniś ca varma phaṭ / evaṃ sahasrāre hūṃ phaṭ ācakrāya svāhā hṛdayaṃ vicakrāya śivaḥ śikhācakrāyātha kavacaṃ vicakrāyātha netrakam",
-          "hindi": "इस प्रकार आदि आग्रेय महापुराणमें 'अघोरास्त्र आदि विविध शान्तिका कथन” नामक तीन सौ इक्कीसवाँ अध्याय पूरा हुआ पाशुपतास्त्र-मन्त्रद्ठारा शान्तिका कथन"
+          "hindi": "इस प्रकार आदि आग्रेय महापुराणमें 'अघोरास्त्र आदि विविध शान्तिका कथन” नामक तीन सौ इक्कीसवाँ अध्याय पूरा हुआ पाशुपतास्त्र-मन्त्रद्ठारा शान्तिका कथन",
+          "translation": "Bhrigu and sky, with blazing fire, Bhrigu and fire and \"varma phat\" — thus, in the thousand-spoked, \"hum phat; to Achakra svaha\" the heart; \"to Vichakra\" Shiva, the crest; \"to Chakra\" then the armor; \"to Vichakra\" then the eye;",
+          "translationSource": "ai"
         },
         {
           "number": 6,
           "sanskrit": "सञ्चक्रायास्त्रमुदिष्टं ज्यालाचक्राय पूर्ववत् । शार्ङ्गं सुदर्शनं क्षुद्रग्रहहृत् सर्वसाधनम्",
           "transliteration": "sañcakrāyāstramudiṣṭaṃ jyālācakrāya pūrvavat / śārṅgaṃ sudarśanaṃ kṣudragrahahṛt sarvasādhanam",
-          "hindi": "महादेवजी कहते हैं-स्कन्द! अब मैं  बात बताऊँगा। शान्ति और जप आदि पूर्ववत् पाशुपतास्त्र-मन्त्रसे शान्ति तथा पूजा आदिको  (पूर्व अध्यायमें कहे अनुसार) कर्तव्य हैं। इस"
+          "hindi": "महादेवजी कहते हैं-स्कन्द! अब मैं  बात बताऊँगा। शान्ति और जप आदि पूर्ववत् पाशुपतास्त्र-मन्त्रसे शान्ति तथा पूजा आदिको  (पूर्व अध्यायमें कहे अनुसार) कर्तव्य हैं। इस",
+          "translation": "\"to Sanchakra\" the weapon is told; \"to Jvalachakra\" as before. Sarnga, Sudarshana, remover of minor seizers, accomplishing all;",
+          "translationSource": "ai"
         },
         {
           "number": 7,
           "sanskrit": "मूर्धाक्षिमुखहृद्गुह्यपादे ह्य् अस्याक्षरान्न्यसेत् । चक्राब्जासनमग्न्याभं दंष्ट्रणञ्च चतुर्भुजम्",
           "transliteration": "mūrdhākṣimukhahṛdguhyapāde hy asyākṣarānnyaset / cakrābjāsanamagnyābhaṃ daṃṣṭraṇañca caturbhujam",
-          "hindi": "अघोरास्त्र-मन्त्रको ३१८ वें अध्यायमें स्पष्ट कर दिया गया है। नाश होता है; किंतु फडन्त-सम्पूर्ण मन्त्रका जप आपत्ति आदिका निवारण करनेवाला है"
+          "hindi": "अघोरास्त्र-मन्त्रको ३१८ वें अध्यायमें स्पष्ट कर दिया गया है। नाश होता है; किंतु फडन्त-सम्पूर्ण मन्त्रका जप आपत्ति आदिका निवारण करनेवाला है",
+          "translation": "one should place its letters on head, eyes, mouth, heart, private part and feet. Seated on a discus-lotus, fire-bright, with tusks, four-armed,",
+          "translationSource": "ai"
         },
         {
           "number": 8,
           "sanskrit": "शङ्खचक्रगदापद्मशलाकाङ्कुशपाणिनम् । चापिनं पिङ्गकेशाक्षमरव्याप्तत्रिपिष्टपं",
           "transliteration": "śaṅkhacakragadāpadmaśalākāṅkuśapāṇinam / cāpinaṃ piṅgakeśākṣamaravyāptatripiṣṭapaṃ",
-          "hindi": "शाकिनीक्षोभजनकाय व्याधि-निग्रहकारिणे पापभञ्जनाय सूर्यसोमाग्निनेत्राय विष्णुकवचाय"
+          "hindi": "शाकिनीक्षोभजनकाय व्याधि-निग्रहकारिणे पापभञ्जनाय सूर्यसोमाग्निनेत्राय विष्णुकवचाय",
+          "translation": "holding conch, discus, mace, lotus, rod and goad in hands, with bow, tawny-haired, covering the three worlds —",
+          "translationSource": "ai"
         },
         {
           "number": 9,
