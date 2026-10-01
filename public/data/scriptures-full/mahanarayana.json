@@ -1321,7 +1321,9 @@
         {
           "number": 1,
           "sanskrit": "घृणिः सूर्य आदित्यो न प्रभा वात्यक्षरम् । मधु क्षरन्ति तद्रसम् । सत्यं वै तद्रसमापो ज्योती रसोऽमृतं ब्रह्म भूर्भुवः सुवरोम्",
-          "transliteration": "ghṛṇiḥ sūrya ādityo na prabhā vātyakṣaram | madhu kṣaranti tadrasam | satyaṃ vai tadrasamāpo jyotī raso'mṛtaṃ brahma bhūrbhuvaḥ suvarom"
+          "transliteration": "ghṛṇiḥ sūrya ādityo na prabhā vātyakṣaram | madhu kṣaranti tadrasam | satyaṃ vai tadrasamāpo jyotī raso'mṛtaṃ brahma bhūrbhuvaḥ suvarom",
+          "translation": "The shining Sun, Aditya, not light but the imperishable; they drip honey, that essence. Truth is that essence: the waters, light, essence, immortality, Brahman; Bhur Bhuvah Svah. Om.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1332,12 +1334,16 @@
         {
           "number": 1,
           "sanskrit": "ब्रह्ममेतु माम् । मधुमेतु माम् । ब्रह्ममेव मधुमेतु माम् । यास्ते सोम प्रजा वत्सोऽभि सो अहम् । दुःष्वप्नहन् दुरुष्षह । यास्ते सोम प्राणाँस्ताञ्जुहोमि",
-          "transliteration": "brahmametu mām | madhumetu mām | brahmameva madhumetu mām | yāste soma prajā vatso'bhi so aham | duḥṣvapnahan duruṣṣaha | yāste soma prāṇā~stāñjuhomi"
+          "transliteration": "brahmametu mām | madhumetu mām | brahmameva madhumetu mām | yāste soma prajā vatso'bhi so aham | duḥṣvapnahan duruṣṣaha | yāste soma prāṇā~stāñjuhomi",
+          "translation": "May Brahman come to me. May honey come to me. May Brahman and honey come to me. The offspring that are yours, Soma — I am their calf. Destroyer of bad dreams, hard to endure, the breaths that are yours, Soma, I offer.",
+          "translationSource": "ai"
         },
         {
           "number": 2,
           "sanskrit": "त्रिसुपर्णमयाचितं ब्राह्मणाय दद्यात् । ब्रह्महत्यां वा एते घ्नन्ति । ये ब्राह्मणास्त्रिसुपर्णं पठन्ति । ते सोमं प्राप्नुवन्ति । आ सहस्रात् पङ्क्तिं पुनन्ति । ॐ",
-          "transliteration": "trisuparṇamayācitaṃ brāhmaṇāya dadyāt | brahmahatyāṃ vā ete ghnanti | ye brāhmaṇāstrisuparṇaṃ paṭhanti | te somaṃ prāpnuvanti | ā sahasrāt paṅktiṃ punanti | oṃ"
+          "transliteration": "trisuparṇamayācitaṃ brāhmaṇāya dadyāt | brahmahatyāṃ vā ete ghnanti | ye brāhmaṇāstrisuparṇaṃ paṭhanti | te somaṃ prāpnuvanti | ā sahasrāt paṅktiṃ punanti | oṃ",
+          "translation": "One should give the Trisuparna, unasked, to a Brahmin. These indeed destroy the sin of killing a Brahmin: the Brahmins who recite the Trisuparna. They attain soma; they purify a row up to a thousand. Om.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1348,37 +1354,51 @@
         {
           "number": 1,
           "sanskrit": "ब्रह्म मेधया । मधु मेधया । ब्रह्ममेव मधुमेधया",
-          "transliteration": "brahma medhayā | madhu medhayā | brahmameva madhumedhayā"
+          "transliteration": "brahma medhayā | madhu medhayā | brahmameva madhumedhayā",
+          "translation": "Brahman with insight. Honey with insight. Brahman and honey with insight.",
+          "translationSource": "ai"
         },
         {
           "number": 2,
           "sanskrit": "अद्यानो देव सवितः प्रजावत्सावीः सौभगम् । परा दुःष्वप्नियँ सुव",
-          "transliteration": "adyāno deva savitaḥ prajāvatsāvīḥ saubhagam | parā duḥṣvapniya~ suva"
+          "transliteration": "adyāno deva savitaḥ prajāvatsāvīḥ saubhagam | parā duḥṣvapniya~ suva",
+          "translation": "Today, O god Savitar, bring us good fortune with offspring; drive away the bad dream.",
+          "translationSource": "ai"
         },
         {
           "number": 3,
           "sanskrit": "विश्वानि देव सवितर्दुरितानि परासुव । यद्भद्रं तन्मम आसुव",
-          "transliteration": "viśvāni deva savitarduritāni parāsuva | yadbhadraṃ tanmama āsuva"
+          "transliteration": "viśvāni deva savitarduritāni parāsuva | yadbhadraṃ tanmama āsuva",
+          "translation": "O god Savitar, drive away all evils; whatever is good, bring that to me.",
+          "translationSource": "ai"
         },
         {
           "number": 4,
           "sanskrit": "मधुवाता ऋतायते मधुक्षरन्ति सिन्धवः । माध्वीर्नः सन्त्वोषधीः",
-          "transliteration": "madhuvātā ṛtāyate madhukṣaranti sindhavaḥ | mādhvīrnaḥ santvoṣadhīḥ"
+          "transliteration": "madhuvātā ṛtāyate madhukṣaranti sindhavaḥ | mādhvīrnaḥ santvoṣadhīḥ",
+          "translation": "The winds blow honey for the lawful; the rivers flow honey; may the plants be honey to us.",
+          "translationSource": "ai"
         },
         {
           "number": 5,
           "sanskrit": "मधु नक्तमुतोषसि मधुमत्पार्थिवँ रजः । मधुद्यौरस्तु नः पिता",
-          "transliteration": "madhu naktamutoṣasi madhumatpārthiva~ rajaḥ | madhudyaurastu naḥ pitā"
+          "transliteration": "madhu naktamutoṣasi madhumatpārthiva~ rajaḥ | madhudyaurastu naḥ pitā",
+          "translation": "Honey by night and at dawn; honey the dust of the earth; may heaven our father be honey to us.",
+          "translationSource": "ai"
         },
         {
           "number": 6,
           "sanskrit": "मधुमान्नो वनस्पतिर्मधुमाँ अस्तु सूर्यः । माध्वीर्गावो भवन्तु नः",
-          "transliteration": "madhumānno vanaspatirmadhumā~ astu sūryaḥ | mādhvīrgāvo bhavantu naḥ"
+          "transliteration": "madhumānno vanaspatirmadhumā~ astu sūryaḥ | mādhvīrgāvo bhavantu naḥ",
+          "translation": "May the forest tree be honeyed for us; may the Sun be honeyed; may the cows be honeyed for us.",
+          "translationSource": "ai"
         },
         {
           "number": 7,
           "sanskrit": "य इमं त्रिसुपर्णमयाचितं ब्राह्मणाय दद्यात् । भ्रूणहत्यां वा एते घ्नन्ति । ये ब्राह्मणास्त्रिसुपर्णं पठन्ति । ते सोमं प्राप्नुवन्ति । आ सहस्रात्पङ्क्तिं पुनन्ति । ॐ",
-          "transliteration": "ya imaṃ trisuparṇamayācitaṃ brāhmaṇāya dadyāt | bhrūṇahatyāṃ vā ete ghnanti | ye brāhmaṇāstrisuparṇaṃ paṭhanti | te somaṃ prāpnuvanti | ā sahasrātpaṅktiṃ punanti | oṃ"
+          "transliteration": "ya imaṃ trisuparṇamayācitaṃ brāhmaṇāya dadyāt | bhrūṇahatyāṃ vā ete ghnanti | ye brāhmaṇāstrisuparṇaṃ paṭhanti | te somaṃ prāpnuvanti | ā sahasrātpaṅktiṃ punanti | oṃ",
+          "translation": "Whoever would give this Trisuparna, unasked, to a Brahmin — these indeed destroy the sin of killing an embryo: the Brahmins who recite the Trisuparna. They attain soma; they purify a row up to a thousand. Om.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1389,32 +1409,44 @@
         {
           "number": 1,
           "sanskrit": "ब्रह्म मेधवा । मधु मेधवा । ब्रह्ममेव मधु मेधवा",
-          "transliteration": "brahma medhavā | madhu medhavā | brahmameva madhu medhavā"
+          "transliteration": "brahma medhavā | madhu medhavā | brahmameva madhu medhavā",
+          "translation": "Brahman with wisdom. Honey with wisdom. Brahman and honey with wisdom.",
+          "translationSource": "ai"
         },
         {
           "number": 2,
           "sanskrit": "ब्रह्मा देवानां पदवीः कवीनामृषिर्विप्राणां महिषो मृगाणाम् । श्येनो गृद्धाणाँ स्वधितिर्वनानाँ सोमः पवित्रमत्येति रेभत्",
-          "transliteration": "brahmā devānāṃ padavīḥ kavīnāmṛṣirviprāṇāṃ mahiṣo mṛgāṇām | śyeno gṛddhāṇā~ svadhitirvanānā~ somaḥ pavitramatyeti rebhat"
+          "transliteration": "brahmā devānāṃ padavīḥ kavīnāmṛṣirviprāṇāṃ mahiṣo mṛgāṇām | śyeno gṛddhāṇā~ svadhitirvanānā~ somaḥ pavitramatyeti rebhat",
+          "translation": "Brahma of the gods, the leader of seers, the sage of the wise, the buffalo of beasts, the falcon of vultures, the axe of woods — Soma crosses the filter roaring.",
+          "translationSource": "ai"
         },
         {
           "number": 3,
           "sanskrit": "हँसः शुचिषद्वसुरन्तरिक्षसद्धोता वेदिषदतिथिर्दुरोणसत् । नृषद्वरसदृतसद्व्योमसदब्जा गोजा ऋतजा अद्रिजा ऋतं बृहत्",
-          "transliteration": "ha~saḥ śuciṣadvasurantarikṣasaddhotā vediṣadatithirduroṇasat | nṛṣadvarasadṛtasadvyomasadabjā gojā ṛtajā adrijā ṛtaṃ bṛhat"
+          "transliteration": "ha~saḥ śuciṣadvasurantarikṣasaddhotā vediṣadatithirduroṇasat | nṛṣadvarasadṛtasadvyomasadabjā gojā ṛtajā adrijā ṛtaṃ bṛhat",
+          "translation": "The swan dwelling in purity, the Vasu in the air, the priest at the altar, the guest in the house; dwelling among men, in the best, in truth, in the sky, born of water, of cattle, of truth, of mountain — the great truth.",
+          "translationSource": "ai"
         },
         {
           "number": 4,
           "sanskrit": "ऋचे त्वा ऋचे त्वा समित्स्रवन्ति सरितो न धेनाः । अन्तर्हृदा मनसा पूयमानाः । घृतस्य धारा अभिचाकशीमि",
-          "transliteration": "ṛce tvā ṛce tvā samitsravanti sarito na dhenāḥ | antarhṛdā manasā pūyamānāḥ | ghṛtasya dhārā abhicākaśīmi"
+          "transliteration": "ṛce tvā ṛce tvā samitsravanti sarito na dhenāḥ | antarhṛdā manasā pūyamānāḥ | ghṛtasya dhārā abhicākaśīmi",
+          "translation": "For the verse I take you; for the verse I take you. The streams flow together like milch-cows, purified within by heart and mind; I look upon the streams of ghee.",
+          "translationSource": "ai"
         },
         {
           "number": 5,
           "sanskrit": "हिरण्ययो वेतसो मध्य आसाम् । तस्मिन्त्सुपर्णो मधुकृत् कुलायी भजन्नास्ते मधु देवताभ्यः । तस्यासते हरयः सप्त तीरे स्वधां दुहाना अमृतस्य धाराम्",
-          "transliteration": "hiraṇyayo vetaso madhya āsām | tasmintsuparṇo madhukṛt kulāyī bhajannāste madhu devatābhyaḥ | tasyāsate harayaḥ sapta tīre svadhāṃ duhānā amṛtasya dhārām"
+          "transliteration": "hiraṇyayo vetaso madhya āsām | tasmintsuparṇo madhukṛt kulāyī bhajannāste madhu devatābhyaḥ | tasyāsate harayaḥ sapta tīre svadhāṃ duhānā amṛtasya dhārām",
+          "translation": "A golden reed in the midst of them; on it the fair-winged honey-maker, nesting, enjoys honey for the deities. On its bank sit seven bay ones, milking the offering, the stream of immortality.",
+          "translationSource": "ai"
         },
         {
           "number": 6,
           "sanskrit": "य इदं त्रिसुपर्णमयाचितं ब्राह्मणाय दद्यात् । वीरहत्यां वा एते घ्नन्ति । ये ब्राह्मणास्त्रिसुपर्णं पठन्ति । ते सोमं प्राप्नुवन्ति । आसहस्रात् पङ्क्तिं पुनन्ति । ॐ",
-          "transliteration": "ya idaṃ trisuparṇamayācitaṃ brāhmaṇāya dadyāt | vīrahatyāṃ vā ete ghnanti | ye brāhmaṇāstrisuparṇaṃ paṭhanti | te somaṃ prāpnuvanti | āsahasrāt paṅktiṃ punanti | oṃ"
+          "transliteration": "ya idaṃ trisuparṇamayācitaṃ brāhmaṇāya dadyāt | vīrahatyāṃ vā ete ghnanti | ye brāhmaṇāstrisuparṇaṃ paṭhanti | te somaṃ prāpnuvanti | āsahasrāt paṅktiṃ punanti | oṃ",
+          "translation": "Whoever would give this Trisuparna, unasked, to a Brahmin — these indeed destroy the sin of killing a hero: the Brahmins who recite the Trisuparna. They attain soma; they purify a row up to a thousand. Om.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1425,12 +1457,16 @@
         {
           "number": 1,
           "sanskrit": "मेधादेवी जुषमाणा न आगाद्विश्वाची भद्रा सुमनस्यमाना । त्वया जुष्टा जुषमाणा दुरुक्तान्बृहद्वदेम विदथे सुवीराः",
-          "transliteration": "medhādevī juṣamāṇā na āgādviśvācī bhadrā sumanasyamānā | tvayā juṣṭā juṣamāṇā duruktānbṛhadvadema vidathe suvīrāḥ"
+          "transliteration": "medhādevī juṣamāṇā na āgādviśvācī bhadrā sumanasyamānā | tvayā juṣṭā juṣamāṇā duruktānbṛhadvadema vidathe suvīrāḥ",
+          "translation": "May the goddess Medha, well pleased, come to us, all-pervading, auspicious, gracious; enjoyed by you, may we speak greatly at the gathering, rich in heroes.",
+          "translationSource": "ai"
         },
         {
           "number": 2,
           "sanskrit": "त्वया जुष्ट ऋषिर्भवति देवि त्वया ब्रह्मागतश्रीरुत त्वया । त्वया जुष्टश्चित्रं विन्दते वसु सा नो जुषस्व द्रविणेन मेधे",
-          "transliteration": "tvayā juṣṭa ṛṣirbhavati devi tvayā brahmāgataśrīruta tvayā | tvayā juṣṭaścitraṃ vindate vasu sā no juṣasva draviṇena medhe"
+          "transliteration": "tvayā juṣṭa ṛṣirbhavati devi tvayā brahmāgataśrīruta tvayā | tvayā juṣṭaścitraṃ vindate vasu sā no juṣasva draviṇena medhe",
+          "translation": "Enjoyed by you, O goddess, one becomes a sage; by you a Brahmin attains glory; enjoyed by you one finds wondrous wealth; accept us with riches, O Medha.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1441,12 +1477,16 @@
         {
           "number": 1,
           "sanskrit": "मेधां म इन्द्रो ददातु मेअधां देवी सरस्वती । मेधां मे अश्विनावुभावाधत्तां पुष्करस्रजौ",
-          "transliteration": "medhāṃ ma indro dadātu meadhāṃ devī sarasvatī | medhāṃ me aśvināvubhāvādhattāṃ puṣkarasrajau"
+          "transliteration": "medhāṃ ma indro dadātu meadhāṃ devī sarasvatī | medhāṃ me aśvināvubhāvādhattāṃ puṣkarasrajau",
+          "translation": "May Indra give me insight; may the goddess Sarasvati give me insight; may the two Ashvins, wearing lotus garlands, place insight in me.",
+          "translationSource": "ai"
         },
         {
           "number": 2,
           "sanskrit": "अप्सरासु च या मेधा गन्धर्वेषु च यन्मनः । दैवी मेधा सरस्वती स मां मेधा सुरभिर्जुषताँ स्वाहा",
-          "transliteration": "apsarāsu ca yā medhā gandharveṣu ca yanmanaḥ | daivī medhā sarasvatī sa māṃ medhā surabhirjuṣatā~ svāhā"
+          "transliteration": "apsarāsu ca yā medhā gandharveṣu ca yanmanaḥ | daivī medhā sarasvatī sa māṃ medhā surabhirjuṣatā~ svāhā",
+          "translation": "The insight that is among the Apsarases and the mind among the Gandharvas, the divine insight, Sarasvati — may that fragrant Medha accept me, svaha.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1457,7 +1497,9 @@
         {
           "number": 1,
           "sanskrit": "आ मां मेधा सुरभिर्विश्वरूपा हिरण्यवर्णा जगती जगम्या । ऊर्जस्वती पयसा पिन्वमाना सा मां मेधा सुप्रतीका जुषताम्",
-          "transliteration": "ā māṃ medhā surabhirviśvarūpā hiraṇyavarṇā jagatī jagamyā | ūrjasvatī payasā pinvamānā sā māṃ medhā supratīkā juṣatām"
+          "transliteration": "ā māṃ medhā surabhirviśvarūpā hiraṇyavarṇā jagatī jagamyā | ūrjasvatī payasā pinvamānā sā māṃ medhā supratīkā juṣatām",
+          "translation": "May that fragrant Medha of all forms, golden-colored, of the world, to be reached, strong, swelling with milk, well-faced, accept me.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1468,7 +1510,9 @@
         {
           "number": 1,
           "sanskrit": "मयि मेधां मयि प्रजां मय्यग्निस्तेजो दधातु । मयि मेधां मयि प्रजां मयीन्द्र इन्द्रियं दधातु । मयि मेधां मयि प्रजां मयि सूर्यो भ्राजो दधातु",
-          "transliteration": "mayi medhāṃ mayi prajāṃ mayyagnistejo dadhātu | mayi medhāṃ mayi prajāṃ mayīndra indriyaṃ dadhātu | mayi medhāṃ mayi prajāṃ mayi sūryo bhrājo dadhātu"
+          "transliteration": "mayi medhāṃ mayi prajāṃ mayyagnistejo dadhātu | mayi medhāṃ mayi prajāṃ mayīndra indriyaṃ dadhātu | mayi medhāṃ mayi prajāṃ mayi sūryo bhrājo dadhātu",
+          "translation": "In me insight, in me offspring; may Agni place radiance in me. In me insight, in me offspring; may Indra place vigor in me. In me insight, in me offspring; may the Sun place splendor in me.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1479,7 +1523,9 @@
         {
           "number": 1,
           "sanskrit": "अपैतु मृत्युरमृतं न आगन्वैवस्वतो नो अभयं कृणोतु । पर्णं वनस्पतेरिवाभि नः शीयताँरयिः सचतां नः शचीपतिः",
-          "transliteration": "apaitu mṛtyuramṛtaṃ na āganvaivasvato no abhayaṃ kṛṇotu | parṇaṃ vanaspaterivābhi naḥ śīyatā~rayiḥ sacatāṃ naḥ śacīpatiḥ"
+          "transliteration": "apaitu mṛtyuramṛtaṃ na āganvaivasvato no abhayaṃ kṛṇotu | parṇaṃ vanaspaterivābhi naḥ śīyatā~rayiḥ sacatāṃ naḥ śacīpatiḥ",
+          "translation": "May death depart; may immortality come to us; may Vaivasvata make us fearless. As the leaf of a tree falls away, may wealth fall to us; may the lord of powers be with us.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1490,7 +1536,9 @@
         {
           "number": 1,
           "sanskrit": "परं मृत्यो अनुपरेहि पन्थां यस्ते स्व इतरो देवयानात् । चक्षुष्मते शृण्वते ते ब्रवीमि मा नः प्रजाँ रीरिषो मोत वीरान्",
-          "transliteration": "paraṃ mṛtyo anuparehi panthāṃ yaste sva itaro devayānāt | cakṣuṣmate śṛṇvate te bravīmi mā naḥ prajā~ rīriṣo mota vīrān"
+          "transliteration": "paraṃ mṛtyo anuparehi panthāṃ yaste sva itaro devayānāt | cakṣuṣmate śṛṇvate te bravīmi mā naḥ prajā~ rīriṣo mota vīrān",
+          "translation": "Go away, Death, by another path, which is yours apart from the path of the gods. I speak to you who see and hear: do not harm our offspring nor our heroes.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1501,7 +1549,9 @@
         {
           "number": 1,
           "sanskrit": "वातं प्राणं मनसान्वारभामहे प्रजापतिं यो भुवनस्य गोपाः । स नो मृत्योस्त्रायतां पात्वँहसो ज्योग्जीवा जराम शीमहि",
-          "transliteration": "vātaṃ prāṇaṃ manasānvārabhāmahe prajāpatiṃ yo bhuvanasya gopāḥ | sa no mṛtyostrāyatāṃ pātva~haso jyogjīvā jarāma śīmahi"
+          "transliteration": "vātaṃ prāṇaṃ manasānvārabhāmahe prajāpatiṃ yo bhuvanasya gopāḥ | sa no mṛtyostrāyatāṃ pātva~haso jyogjīvā jarāma śīmahi",
+          "translation": "We take hold, with the mind, of Vata and Prana, of Prajapati, the guardian of the world. May he save us from death and protect us from distress; may we live long and attain old age.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1512,7 +1562,9 @@
         {
           "number": 1,
           "sanskrit": "अमुत्रभूयादध यद्यमस्य बृहस्पते अभिशस्तेरमुञ्चः । प्रत्यौहतामश्विना मृत्युमस्मद्देवानामग्ने भिषजा शचीभिः",
-          "transliteration": "amutrabhūyādadha yadyamasya bṛhaspate abhiśasteramuñcaḥ | pratyauhatāmaśvinā mṛtyumasmaddevānāmagne bhiṣajā śacībhiḥ"
+          "transliteration": "amutrabhūyādadha yadyamasya bṛhaspate abhiśasteramuñcaḥ | pratyauhatāmaśvinā mṛtyumasmaddevānāmagne bhiṣajā śacībhiḥ",
+          "translation": "May it be there, then, if Yama's — Brihaspati, you freed from curse. May the Ashvins, physicians of the gods, Agni, with their powers drive death away from us.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1523,7 +1575,9 @@
         {
           "number": 1,
           "sanskrit": "हरिँ हरन्तमनुयन्ति देवा विश्वस्येशानं वृषभं मतीनाम् । ब्रह्मसरूपमनु मेदमागादयनं मा विवधीर्विक्रमस्व",
-          "transliteration": "hari~ harantamanuyanti devā viśvasyeśānaṃ vṛṣabhaṃ matīnām | brahmasarūpamanu medamāgādayanaṃ mā vivadhīrvikramasva"
+          "transliteration": "hari~ harantamanuyanti devā viśvasyeśānaṃ vṛṣabhaṃ matīnām | brahmasarūpamanu medamāgādayanaṃ mā vivadhīrvikramasva",
+          "translation": "The gods follow the bay one who takes away, the ruler of all, the bull of thoughts; the form of Brahman has come after the fat; do not hinder the going; stride forth.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1534,7 +1588,9 @@
         {
           "number": 1,
           "sanskrit": "शल्कैरग्निमिन्धान उभौ लोकौ सनेमहम् । उभयोर्लोकयोरृध्वाति मृत्युं तराम्यहम्",
-          "transliteration": "śalkairagnimindhāna ubhau lokau sanemaham | ubhayorlokayorṛdhvāti mṛtyuṃ tarāmyaham"
+          "transliteration": "śalkairagnimindhāna ubhau lokau sanemaham | ubhayorlokayorṛdhvāti mṛtyuṃ tarāmyaham",
+          "translation": "Kindling Agni with chips, may I win both worlds; in both worlds I prosper; may I cross death.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1545,7 +1601,9 @@
         {
           "number": 1,
           "sanskrit": "मा छिदो मृत्यो मा वधीर्मा मे बलं विवृहो मा प्रमोषीः । प्रजां मा मे रीरिष आयुरुग्र नृचक्षसं त्वा हविषा विधेम",
-          "transliteration": "mā chido mṛtyo mā vadhīrmā me balaṃ vivṛho mā pramoṣīḥ | prajāṃ mā me rīriṣa āyurugra nṛcakṣasaṃ tvā haviṣā vidhema"
+          "transliteration": "mā chido mṛtyo mā vadhīrmā me balaṃ vivṛho mā pramoṣīḥ | prajāṃ mā me rīriṣa āyurugra nṛcakṣasaṃ tvā haviṣā vidhema",
+          "translation": "Do not cut me off, Death; do not slay me; do not take away my strength; do not rob me. Do not harm my offspring, fierce one; we serve you, who watch men, with offering.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1556,7 +1614,9 @@
         {
           "number": 1,
           "sanskrit": "मा नो महान्तमुत मा नो अर्भकं मा न उक्षन्तमुत मा न उक्षितम् । मा नो वधीः पितरं मोत मातरं प्रिया मा नस्तनुवो रुद्र रीरिषः",
-          "transliteration": "mā no mahāntamuta mā no arbhakaṃ mā na ukṣantamuta mā na ukṣitam | mā no vadhīḥ pitaraṃ mota mātaraṃ priyā mā nastanuvo rudra rīriṣaḥ"
+          "transliteration": "mā no mahāntamuta mā no arbhakaṃ mā na ukṣantamuta mā na ukṣitam | mā no vadhīḥ pitaraṃ mota mātaraṃ priyā mā nastanuvo rudra rīriṣaḥ",
+          "translation": "Do not harm our great one nor our small, nor our growing nor our grown; do not slay our father or mother; do not harm our dear bodies, Rudra.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1567,7 +1627,9 @@
         {
           "number": 1,
           "sanskrit": "मा नस्तोके तनये मा न आयुषि मा नो गोषु मा नो अश्वेषु रीरिषः । वीरान्मा नो रुद्र भामितो वधीर्हविष्मन्तो नमसा विधेम ते",
-          "transliteration": "mā nastoke tanaye mā na āyuṣi mā no goṣu mā no aśveṣu rīriṣaḥ | vīrānmā no rudra bhāmito vadhīrhaviṣmanto namasā vidhema te"
+          "transliteration": "mā nastoke tanaye mā na āyuṣi mā no goṣu mā no aśveṣu rīriṣaḥ | vīrānmā no rudra bhāmito vadhīrhaviṣmanto namasā vidhema te",
+          "translation": "Do not harm us in our children and grandchildren, nor in our life, nor in our cattle, nor in our horses; do not slay our heroes in anger, Rudra; with offerings we serve you with homage.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1578,7 +1640,9 @@
         {
           "number": 1,
           "sanskrit": "प्रजापते न त्वदेतान्यन्यो विश्वा जातानि परि ता बभूव । यत्कामस्ते जुहुमस्तन्नो अस्तु वयँ स्याम पतयो रयीणाम्",
-          "transliteration": "prajāpate na tvadetānyanyo viśvā jātāni pari tā babhūva | yatkāmaste juhumastanno astu vaya~ syāma patayo rayīṇām"
+          "transliteration": "prajāpate na tvadetānyanyo viśvā jātāni pari tā babhūva | yatkāmaste juhumastanno astu vaya~ syāma patayo rayīṇām",
+          "translation": "Prajapati, none other than you has embraced all these things born; whatever we desire in offering to you, let that be ours; may we be lords of wealth.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1589,7 +1653,9 @@
         {
           "number": 1,
           "sanskrit": "स्वस्तिदा विशस्पतिर्वृत्रहा विमृधो वशी । वृषेन्द्रः पुर एतु नः स्वस्तिदा अभयङ्करः",
-          "transliteration": "svastidā viśaspatirvṛtrahā vimṛdho vaśī | vṛṣendraḥ pura etu naḥ svastidā abhayaṅkaraḥ"
+          "transliteration": "svastidā viśaspatirvṛtrahā vimṛdho vaśī | vṛṣendraḥ pura etu naḥ svastidā abhayaṅkaraḥ",
+          "translation": "Giver of welfare, lord of the clans, Vritra-slayer, subduer of enemies, master — may bull Indra go before us, giver of welfare, maker of fearlessness.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1615,7 +1681,9 @@
         {
           "number": 1,
           "sanskrit": "ये ते सहस्रमयु पाशा मृत्यो मर्त्याय हन्तवे । तान् यज्ञस्य मायया सर्वानवयजामहे",
-          "transliteration": "ye te sahasramayu pāśā mṛtyo martyāya hantave | tān yajñasya māyayā sarvānavayajāmahe"
+          "transliteration": "ye te sahasramayu pāśā mṛtyo martyāya hantave | tān yajñasya māyayā sarvānavayajāmahe",
+          "translation": "The thousand fetters of yours, Death, for the slaying of mortals — all those we undo by the magic of the sacrifice.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1626,7 +1694,9 @@
         {
           "number": 1,
           "sanskrit": "मृत्यवे स्वाहा मृत्यवे स्वाहा",
-          "transliteration": "mṛtyave svāhā mṛtyave svāhā"
+          "transliteration": "mṛtyave svāhā mṛtyave svāhā",
+          "translation": "To Death, svaha; to Death, svaha.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1637,7 +1707,9 @@
         {
           "number": 1,
           "sanskrit": "देवकृतस्यैनसोऽवयजनमसि स्वाहा । मनुष्यकृतस्यैनसोऽवयजनमसि स्वाहा । पितृकृतस्यैसोऽवयजनमसि स्वाहा । आत्मकृतस्यैनसोऽवयजनमसि स्वाहा । अन्यकृतस्यैनसोऽवयजनमसि स्वाहा । अस्मत्कृतस्यैनसोऽवयजनमसि स्वाहा । यद्दिवा च नक्तं चैनश्चकृम तस्यावयजनमसि स्वाहा । यत्स्वपन्तश्च जाग्रतश्चैनश्चकृम तस्यावयजनमसि स्वाहा । यत्सुषुप्तश्च जाग्रतश्चैनश्चकृम तस्यावयजनमसि स्वाहा । यद्विद्वाँसश्चाविद्वाँसश्चैनश्चकृम तस्यावयजनमसि स्वाहा । एनस एनसोऽवयजनमसि स्वाहा",
-          "transliteration": "devakṛtasyainaso'vayajanamasi svāhā | manuṣyakṛtasyainaso'vayajanamasi svāhā | pitṛkṛtasyaiso'vayajanamasi svāhā | ātmakṛtasyainaso'vayajanamasi svāhā | anyakṛtasyainaso'vayajanamasi svāhā | asmatkṛtasyainaso'vayajanamasi svāhā | yaddivā ca naktaṃ cainaścakṛma tasyāvayajanamasi svāhā | yatsvapantaśca jāgrataścainaścakṛma tasyāvayajanamasi svāhā | yatsuṣuptaśca jāgrataścainaścakṛma tasyāvayajanamasi svāhā | yadvidvā~saścāvidvā~saścainaścakṛma tasyāvayajanamasi svāhā | enasa enaso'vayajanamasi svāhā"
+          "transliteration": "devakṛtasyainaso'vayajanamasi svāhā | manuṣyakṛtasyainaso'vayajanamasi svāhā | pitṛkṛtasyaiso'vayajanamasi svāhā | ātmakṛtasyainaso'vayajanamasi svāhā | anyakṛtasyainaso'vayajanamasi svāhā | asmatkṛtasyainaso'vayajanamasi svāhā | yaddivā ca naktaṃ cainaścakṛma tasyāvayajanamasi svāhā | yatsvapantaśca jāgrataścainaścakṛma tasyāvayajanamasi svāhā | yatsuṣuptaśca jāgrataścainaścakṛma tasyāvayajanamasi svāhā | yadvidvā~saścāvidvā~saścainaścakṛma tasyāvayajanamasi svāhā | enasa enaso'vayajanamasi svāhā",
+          "translation": "You are the expiation of sin done by gods, svaha. You are the expiation of sin done by men, svaha. You are the expiation of sin done by fathers, svaha. You are the expiation of sin done by oneself, svaha. You are the expiation of sin done by others, svaha. You are the expiation of sin done by us, svaha. Of whatever sin we have done by day and night, you are the expiation, svaha. Of whatever sin we have done sleeping and waking, you are the expiation, svaha. Of whatever sin we have done asleep and awake, you are the expiation, svaha. Of whatever sin we have done knowing and not knowing, you are the expiation, svaha. Of sin after sin you are the expiation, svaha.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1648,7 +1720,9 @@
         {
           "number": 1,
           "sanskrit": "यद्वो देवाश्चकृम जिह्वयां गुरु मनसो वा प्रयुती देवहेडनम् । अरावा यो नो अभि दुच्छुनायते तस्मिन् तदेनो वसवो निधेतन स्वाहा",
-          "transliteration": "yadvo devāścakṛma jihvayāṃ guru manaso vā prayutī devaheḍanam | arāvā yo no abhi ducchunāyate tasmin tadeno vasavo nidhetana svāhā"
+          "transliteration": "yadvo devāścakṛma jihvayāṃ guru manaso vā prayutī devaheḍanam | arāvā yo no abhi ducchunāyate tasmin tadeno vasavo nidhetana svāhā",
+          "translation": "Whatever offense against the gods we have committed by tongue, whatever grave by mind or impulse; he who plots evil against us without cause — place that sin upon him, O Vasus, svaha.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1659,7 +1733,9 @@
         {
           "number": 1,
           "sanskrit": "कामोऽकार्षीन्नमो नमः । कामोऽकार्शीत्कामः करोति नाहं करोमि कामः कर्ता नाहं कर्ता कामः कारयिता नाहं कारयिता एष ते काम कामाय स्वाहा",
-          "transliteration": "kāmo'kārṣīnnamo namaḥ | kāmo'kārśītkāmaḥ karoti nāhaṃ karomi kāmaḥ kartā nāhaṃ kartā kāmaḥ kārayitā nāhaṃ kārayitā eṣa te kāma kāmāya svāhā"
+          "transliteration": "kāmo'kārṣīnnamo namaḥ | kāmo'kārśītkāmaḥ karoti nāhaṃ karomi kāmaḥ kartā nāhaṃ kartā kāmaḥ kārayitā nāhaṃ kārayitā eṣa te kāma kāmāya svāhā",
+          "translation": "Desire did it; homage, homage. Desire did it; desire does; I do not do; desire is the doer, not I; desire is the causer, not I. This is yours, Desire, for Desire, svaha.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1670,7 +1746,9 @@
         {
           "number": 1,
           "sanskrit": "मन्युरकार्षीन्नमो नमः । मन्युरकार्षीन्मन्युः करोति नाहं करोमि मन्युः कर्ता नाहं कर्ता मन्युः कारयिता नाहं कारयिता एष ते मन्यो मन्यवे स्वाहा",
-          "transliteration": "manyurakārṣīnnamo namaḥ | manyurakārṣīnmanyuḥ karoti nāhaṃ karomi manyuḥ kartā nāhaṃ kartā manyuḥ kārayitā nāhaṃ kārayitā eṣa te manyo manyave svāhā"
+          "transliteration": "manyurakārṣīnnamo namaḥ | manyurakārṣīnmanyuḥ karoti nāhaṃ karomi manyuḥ kartā nāhaṃ kartā manyuḥ kārayitā nāhaṃ kārayitā eṣa te manyo manyave svāhā",
+          "translation": "Anger did it; homage, homage. Anger did it; anger does; I do not do; anger is the doer, not I; anger is the causer, not I. This is yours, Anger, for Anger, svaha.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1681,17 +1759,23 @@
         {
           "number": 1,
           "sanskrit": "तिलाञ्जुहोमि सरसान् सपिष्टान् गन्धार मम चित्ते रमन्तु स्वाहा",
-          "transliteration": "tilāñjuhomi sarasān sapiṣṭān gandhāra mama citte ramantu svāhā"
+          "transliteration": "tilāñjuhomi sarasān sapiṣṭān gandhāra mama citte ramantu svāhā",
+          "translation": "I offer sesame seeds, juicy and with ground meal; may they delight my mind, O Gandhara, svaha.",
+          "translationSource": "ai"
         },
         {
           "number": 2,
           "sanskrit": "गावो हिरण्यं धनमन्नपानँ सर्वेषाँ श्रियै स्वाहा",
-          "transliteration": "gāvo hiraṇyaṃ dhanamannapāna~ sarveṣā~ śriyai svāhā"
+          "transliteration": "gāvo hiraṇyaṃ dhanamannapāna~ sarveṣā~ śriyai svāhā",
+          "translation": "Cattle, gold, wealth, food and drink — for the glory of all, svaha.",
+          "translationSource": "ai"
         },
         {
           "number": 3,
           "sanskrit": "श्रियं च लक्ष्मीं च पुष्टिं च कीर्तिं चानृण्यताम् । ब्राह्मण्यं बहुपुत्रताम् । श्रद्धामेधे प्रजाः संददातु स्वाहा",
-          "transliteration": "śriyaṃ ca lakṣmīṃ ca puṣṭiṃ ca kīrtiṃ cānṛṇyatām | brāhmaṇyaṃ bahuputratām | śraddhāmedhe prajāḥ saṃdadātu svāhā"
+          "transliteration": "śriyaṃ ca lakṣmīṃ ca puṣṭiṃ ca kīrtiṃ cānṛṇyatām | brāhmaṇyaṃ bahuputratām | śraddhāmedhe prajāḥ saṃdadātu svāhā",
+          "translation": "Glory, Lakshmi, nourishment, fame, freedom from debt, Brahminhood, many sons — may Faith and Insight give us offspring, svaha.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1702,17 +1786,23 @@
         {
           "number": 1,
           "sanskrit": "तिलाः कृष्णास्तिलाः श्वेतास्तिलाः सौम्या वशानुगाः । तिलाः पुनन्तु मे पापं यत्किञ्चिद् दुरितं मयि स्वाहा",
-          "transliteration": "tilāḥ kṛṣṇāstilāḥ śvetāstilāḥ saumyā vaśānugāḥ | tilāḥ punantu me pāpaṃ yatkiñcid duritaṃ mayi svāhā"
+          "transliteration": "tilāḥ kṛṣṇāstilāḥ śvetāstilāḥ saumyā vaśānugāḥ | tilāḥ punantu me pāpaṃ yatkiñcid duritaṃ mayi svāhā",
+          "translation": "Black sesame, white sesame, gentle sesame, obedient sesame — may the sesame purify my sin, whatever evil is in me, svaha.",
+          "translationSource": "ai"
         },
         {
           "number": 2,
           "sanskrit": "चोरस्यान्नं नवश्राद्धं ब्रह्महा गुरुतल्पगः । गोस्तेयँ सुरापानं भ्रूणहत्या तिला शान्तिँ शमयन्तु स्वाहा",
-          "transliteration": "corasyānnaṃ navaśrāddhaṃ brahmahā gurutalpagaḥ | gosteya~ surāpānaṃ bhrūṇahatyā tilā śānti~ śamayantu svāhā"
+          "transliteration": "corasyānnaṃ navaśrāddhaṃ brahmahā gurutalpagaḥ | gosteya~ surāpānaṃ bhrūṇahatyā tilā śānti~ śamayantu svāhā",
+          "translation": "Food of a thief, the first funerary rite, the Brahmin-killer, the violator of a teacher's bed, cattle-theft, drinking liquor, killing an embryo — may sesame quell these with peace, svaha.",
+          "translationSource": "ai"
         },
         {
           "number": 3,
           "sanskrit": "श्रीश्च लक्ष्मीश्च पुष्टीश्च कीर्तिं चानृण्यताम् । ब्रह्मण्यं बहुपुत्रताम् । श्रद्धामेधे प्रज्ञा तु जातवेदः संददातु स्वाहा",
-          "transliteration": "śrīśca lakṣmīśca puṣṭīśca kīrtiṃ cānṛṇyatām | brahmaṇyaṃ bahuputratām | śraddhāmedhe prajñā tu jātavedaḥ saṃdadātu svāhā"
+          "transliteration": "śrīśca lakṣmīśca puṣṭīśca kīrtiṃ cānṛṇyatām | brahmaṇyaṃ bahuputratām | śraddhāmedhe prajñā tu jātavedaḥ saṃdadātu svāhā",
+          "translation": "May Shri, Lakshmi, nourishment, fame, freedom from debt, Brahminhood, many sons, faith, insight and wisdom be given by Jatavedas, svaha.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1723,27 +1813,37 @@
         {
           "number": 1,
           "sanskrit": "प्राणापानव्यानोदानसमाना मे शुध्यन्तां ज्योतिरहं विरजा विपाप्मा भूयासँ स्वाहा",
-          "transliteration": "prāṇāpānavyānodānasamānā me śudhyantāṃ jyotirahaṃ virajā vipāpmā bhūyāsa~ svāhā"
+          "transliteration": "prāṇāpānavyānodānasamānā me śudhyantāṃ jyotirahaṃ virajā vipāpmā bhūyāsa~ svāhā",
+          "translation": "May my prana, apana, vyana, udana and samana be purified; may I be light, free of dust, free of sin, svaha.",
+          "translationSource": "ai"
         },
         {
           "number": 2,
           "sanskrit": "वाङ्मनश्चक्षुःश्रोत्रजिह्वाघ्राणरेतोबुद्ध्याकूतिःसङ्कल्पा मे शुध्यन्तां ज्योतिरहं विरजा विपाप्मा भूयासँ स्वाहा",
-          "transliteration": "vāṅmanaścakṣuḥśrotrajihvāghrāṇaretobuddhyākūtiḥsaṅkalpā me śudhyantāṃ jyotirahaṃ virajā vipāpmā bhūyāsa~ svāhā"
+          "transliteration": "vāṅmanaścakṣuḥśrotrajihvāghrāṇaretobuddhyākūtiḥsaṅkalpā me śudhyantāṃ jyotirahaṃ virajā vipāpmā bhūyāsa~ svāhā",
+          "translation": "May my speech, mind, eye, ear, tongue, nose, seed, intellect, intention and resolve be purified; may I be light, free of dust, free of sin, svaha.",
+          "translationSource": "ai"
         },
         {
           "number": 3,
           "sanskrit": "त्वक्चर्ममांसरुधिरमेदोमज्जास्नायवोऽस्थीनि मे शुध्यन्तां ज्योतिरहं विरजा विपाप्मा भूयासँ स्वाहा",
-          "transliteration": "tvakcarmamāṃsarudhiramedomajjāsnāyavo'sthīni me śudhyantāṃ jyotirahaṃ virajā vipāpmā bhūyāsa~ svāhā"
+          "transliteration": "tvakcarmamāṃsarudhiramedomajjāsnāyavo'sthīni me śudhyantāṃ jyotirahaṃ virajā vipāpmā bhūyāsa~ svāhā",
+          "translation": "May my skin, hide, flesh, blood, fat, marrow, sinews and bones be purified; may I be light, free of dust, free of sin, svaha.",
+          "translationSource": "ai"
         },
         {
           "number": 4,
           "sanskrit": "शिरःपाणिपादपार्श्वपृष्ठोरूधरजङ्घाशिश्नोपस्थपायव् ओ मे शुध्यन्तां ज्योतिरहं विरजा विपाप्मा भूयासँ स्वाहा",
-          "transliteration": "śiraḥpāṇipādapārśvapṛṣṭhorūdharajaṅghāśiśnopasthapāyav o me śudhyantāṃ jyotirahaṃ virajā vipāpmā bhūyāsa~ svāhā"
+          "transliteration": "śiraḥpāṇipādapārśvapṛṣṭhorūdharajaṅghāśiśnopasthapāyav o me śudhyantāṃ jyotirahaṃ virajā vipāpmā bhūyāsa~ svāhā",
+          "translation": "May my head, hands, feet, sides, back, thighs, belly, shanks, organ, generative and excretory organs be purified; may I be light, free of dust, free of sin, svaha.",
+          "translationSource": "ai"
         },
         {
           "number": 5,
           "sanskrit": "उत्तिष्ठ पुरुष हरित पिङ्गल लोहिताक्षि देहि देहि ददापयिता मे शुध्यन्तां ज्योतिरहं विरजा विपाप्मा भूयासँ स्वाहा",
-          "transliteration": "uttiṣṭha puruṣa harita piṅgala lohitākṣi dehi dehi dadāpayitā me śudhyantāṃ jyotirahaṃ virajā vipāpmā bhūyāsa~ svāhā"
+          "transliteration": "uttiṣṭha puruṣa harita piṅgala lohitākṣi dehi dehi dadāpayitā me śudhyantāṃ jyotirahaṃ virajā vipāpmā bhūyāsa~ svāhā",
+          "translation": "Arise, Person, green, tawny, red-eyed; give, give, causer of giving; may I be purified; may I be light, free of dust, free of sin, svaha.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1754,52 +1854,72 @@
         {
           "number": 1,
           "sanskrit": "पृथिव्यप्तेजोवायुराकाशा मे शुध्यन्तां ज्योतिरहं विरजा विपाप्मा भूयासँ स्वाहा",
-          "transliteration": "pṛthivyaptejovāyurākāśā me śudhyantāṃ jyotirahaṃ virajā vipāpmā bhūyāsa~ svāhā"
+          "transliteration": "pṛthivyaptejovāyurākāśā me śudhyantāṃ jyotirahaṃ virajā vipāpmā bhūyāsa~ svāhā",
+          "translation": "May my earth, water, fire, air and space be purified; may I be light, free of dust, free of sin, svaha.",
+          "translationSource": "ai"
         },
         {
           "number": 2,
           "sanskrit": "शब्दस्पर्शरूपरसगन्धा मे शुध्यन्तां ज्योतिरहं विरजा विपाप्मा भूयासँ स्वाहा",
-          "transliteration": "śabdasparśarūparasagandhā me śudhyantāṃ jyotirahaṃ virajā vipāpmā bhūyāsa~ svāhā"
+          "transliteration": "śabdasparśarūparasagandhā me śudhyantāṃ jyotirahaṃ virajā vipāpmā bhūyāsa~ svāhā",
+          "translation": "May my sound, touch, form, taste and smell be purified; may I be light, free of dust, free of sin, svaha.",
+          "translationSource": "ai"
         },
         {
           "number": 3,
           "sanskrit": "मनोवाक्कायकर्माणि मे शुध्यन्तां ज्योतिरहं विरजा विपाप्मा भूयासँ स्वाहा",
-          "transliteration": "manovākkāyakarmāṇi me śudhyantāṃ jyotirahaṃ virajā vipāpmā bhūyāsa~ svāhā"
+          "transliteration": "manovākkāyakarmāṇi me śudhyantāṃ jyotirahaṃ virajā vipāpmā bhūyāsa~ svāhā",
+          "translation": "May my mind, speech, body and actions be purified; may I be light, free of dust, free of sin, svaha.",
+          "translationSource": "ai"
         },
         {
           "number": 4,
           "sanskrit": "अव्यक्तभावैरहङ्कारैर्- ज्योतिरहं विरजा विपाप्मा भूयासँ स्वाहा",
-          "transliteration": "avyaktabhāvairahaṅkārair- jyotirahaṃ virajā vipāpmā bhūyāsa~ svāhā"
+          "transliteration": "avyaktabhāvairahaṅkārair- jyotirahaṃ virajā vipāpmā bhūyāsa~ svāhā",
+          "translation": "By unmanifest states and egoisms — may I be light, free of dust, free of sin, svaha.",
+          "translationSource": "ai"
         },
         {
           "number": 5,
           "sanskrit": "आत्मा मे शुध्यन्तां ज्योतिरहं विरजा विपाप्मा भूयासँ स्वाहा",
-          "transliteration": "ātmā me śudhyantāṃ jyotirahaṃ virajā vipāpmā bhūyāsa~ svāhā"
+          "transliteration": "ātmā me śudhyantāṃ jyotirahaṃ virajā vipāpmā bhūyāsa~ svāhā",
+          "translation": "May my Self be purified; may I be light, free of dust, free of sin, svaha.",
+          "translationSource": "ai"
         },
         {
           "number": 6,
           "sanskrit": "अन्तरात्मा मे शुध्यन्तां ज्योतिरहं विरजा विपाप्मा भूयासँ स्वाहा",
-          "transliteration": "antarātmā me śudhyantāṃ jyotirahaṃ virajā vipāpmā bhūyāsa~ svāhā"
+          "transliteration": "antarātmā me śudhyantāṃ jyotirahaṃ virajā vipāpmā bhūyāsa~ svāhā",
+          "translation": "May my inner Self be purified; may I be light, free of dust, free of sin, svaha.",
+          "translationSource": "ai"
         },
         {
           "number": 7,
           "sanskrit": "परमात्मा मे शुध्यन्तां ज्योतिरहं विरजा विपाप्मा भूयासँ स्वाहा",
-          "transliteration": "paramātmā me śudhyantāṃ jyotirahaṃ virajā vipāpmā bhūyāsa~ svāhā"
+          "transliteration": "paramātmā me śudhyantāṃ jyotirahaṃ virajā vipāpmā bhūyāsa~ svāhā",
+          "translation": "May my Supreme Self be purified; may I be light, free of dust, free of sin, svaha.",
+          "translationSource": "ai"
         },
         {
           "number": 8,
           "sanskrit": "क्षुधे स्वाहा । क्षुत्पिपासाय स्वाहा । विविट्यै स्वाहा । ऋग्विधानाय स्वाहा । कषोत्काय स्वाहा । ॐ स्वाहा",
-          "transliteration": "kṣudhe svāhā | kṣutpipāsāya svāhā | viviṭyai svāhā | ṛgvidhānāya svāhā | kaṣotkāya svāhā | oṃ svāhā"
+          "transliteration": "kṣudhe svāhā | kṣutpipāsāya svāhā | viviṭyai svāhā | ṛgvidhānāya svāhā | kaṣotkāya svāhā | oṃ svāhā",
+          "translation": "To hunger, svaha. To hunger and thirst, svaha. To Vivitti, svaha. To Rigvidhana, svaha. To Kashotka, svaha. Om, svaha.",
+          "translationSource": "ai"
         },
         {
           "number": 9,
           "sanskrit": "क्षुत्पिपासामलं ज्येष्ठामललक्ष्मीर्नाशयाम्यहम् । अभूतिमसमृद्धिं च सर्वान्निर्णुद मे पाप्मानँ स्वाहा",
-          "transliteration": "kṣutpipāsāmalaṃ jyeṣṭhāmalalakṣmīrnāśayāmyaham | abhūtimasamṛddhiṃ ca sarvānnirṇuda me pāpmāna~ svāhā"
+          "transliteration": "kṣutpipāsāmalaṃ jyeṣṭhāmalalakṣmīrnāśayāmyaham | abhūtimasamṛddhiṃ ca sarvānnirṇuda me pāpmāna~ svāhā",
+          "translation": "I destroy the stain of hunger and thirst, the eldest, and Alakshmi; drive from me ill fortune, non-prosperity and all sin, svaha.",
+          "translationSource": "ai"
         },
         {
           "number": 10,
           "sanskrit": "अन्नमयप्राणमयमनोमयविज्ञानमयमानन्दमयमात्मा मे शुध्यन्तां ज्योतिरहं विरजा विपाप्मा भूयासँ स्वाहा",
-          "transliteration": "annamayaprāṇamayamanomayavijñānamayamānandamayamātmā me śudhyantāṃ jyotirahaṃ virajā vipāpmā bhūyāsa~ svāhā"
+          "transliteration": "annamayaprāṇamayamanomayavijñānamayamānandamayamātmā me śudhyantāṃ jyotirahaṃ virajā vipāpmā bhūyāsa~ svāhā",
+          "translation": "May my Self, made of food, breath, mind, knowledge and bliss, be purified; may I be light, free of dust, free of sin, svaha.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1810,17 +1930,23 @@
         {
           "number": 1,
           "sanskrit": "अग्नये स्वाहा । विश्वेभ्यो देवेभ्यः स्वाहा । ध्रुवाय भूमाय स्वाहा । ध्रुवक्षितये स्वाहा । अच्युतक्षितये स्वाहा । अग्नये स्विष्टकृते स्वाहा ॥ धर्माय स्वाहा । अधर्माय स्वाहा । अद्भ्यः स्वाहा । ओषधिवनस्पतिभ्यः स्वाहा । रक्षोदेवजनेभ्यः स्वाहा । गृह्याभ्यः स्वाहा । अवसानेभ्यः स्वाहा । अवसानपतिभ्यः स्वाहा । सर्वभूतेभ्यः स्वाहा । कामाय स्वाहा । अन्तरिक्षाय स्वाहा । यदेजति जगति यच्च चेष्टति नाम्नो भागोऽयं नाम्ने स्वाहा । पृथिव्यै स्वाहा । अन्तरिक्षाय स्वाहा । दिवे स्वाहा । सूर्याय स्वाहा । चन्द्रमसे स्वाहा । नक्षत्रेभ्यः स्वाहा । इन्द्राय स्वाहा । बृहस्पतये स्वाहा । प्रजापतये स्वाहा । ब्रह्मणे स्वाहा । स्वधा पितृभ्यः स्वाहा । नमो रुद्राय पशुपतये स्वाहा । देवेभ्यः स्वाहा । पितृभ्यः स्वधास्तु । भूतेभ्यो नमः । मनुष्येभ्यो हन्ता । प्रजापतये स्वाहा । परमेष्ठिने स्वाहा",
-          "transliteration": "agnaye svāhā | viśvebhyo devebhyaḥ svāhā | dhruvāya bhūmāya svāhā | dhruvakṣitaye svāhā | acyutakṣitaye svāhā | agnaye sviṣṭakṛte svāhā || dharmāya svāhā | adharmāya svāhā | adbhyaḥ svāhā | oṣadhivanaspatibhyaḥ svāhā | rakṣodevajanebhyaḥ svāhā | gṛhyābhyaḥ svāhā | avasānebhyaḥ svāhā | avasānapatibhyaḥ svāhā | sarvabhūtebhyaḥ svāhā | kāmāya svāhā | antarikṣāya svāhā | yadejati jagati yacca ceṣṭati nāmno bhāgo'yaṃ nāmne svāhā | pṛthivyai svāhā | antarikṣāya svāhā | dive svāhā | sūryāya svāhā | candramase svāhā | nakṣatrebhyaḥ svāhā | indrāya svāhā | bṛhaspataye svāhā | prajāpataye svāhā | brahmaṇe svāhā | svadhā pitṛbhyaḥ svāhā | namo rudrāya paśupataye svāhā | devebhyaḥ svāhā | pitṛbhyaḥ svadhāstu | bhūtebhyo namaḥ | manuṣyebhyo hantā | prajāpataye svāhā | parameṣṭhine svāhā"
+          "transliteration": "agnaye svāhā | viśvebhyo devebhyaḥ svāhā | dhruvāya bhūmāya svāhā | dhruvakṣitaye svāhā | acyutakṣitaye svāhā | agnaye sviṣṭakṛte svāhā || dharmāya svāhā | adharmāya svāhā | adbhyaḥ svāhā | oṣadhivanaspatibhyaḥ svāhā | rakṣodevajanebhyaḥ svāhā | gṛhyābhyaḥ svāhā | avasānebhyaḥ svāhā | avasānapatibhyaḥ svāhā | sarvabhūtebhyaḥ svāhā | kāmāya svāhā | antarikṣāya svāhā | yadejati jagati yacca ceṣṭati nāmno bhāgo'yaṃ nāmne svāhā | pṛthivyai svāhā | antarikṣāya svāhā | dive svāhā | sūryāya svāhā | candramase svāhā | nakṣatrebhyaḥ svāhā | indrāya svāhā | bṛhaspataye svāhā | prajāpataye svāhā | brahmaṇe svāhā | svadhā pitṛbhyaḥ svāhā | namo rudrāya paśupataye svāhā | devebhyaḥ svāhā | pitṛbhyaḥ svadhāstu | bhūtebhyo namaḥ | manuṣyebhyo hantā | prajāpataye svāhā | parameṣṭhine svāhā",
+          "translation": "To Agni, svaha. To all the gods, svaha. To the firm earth, svaha. To the firm dweller, svaha. To the undying dweller, svaha. To Agni Svishtakrit, svaha. To dharma, svaha. To adharma, svaha. To the waters, svaha. To plants and trees, svaha. To the demons, gods and people, svaha. To the household ones, svaha. To the boundaries, svaha. To the lords of the boundaries, svaha. To all beings, svaha. To desire, svaha. To the air, svaha. Whatever moves in the world and whatever stirs — this is the share of the name, to the name, svaha. To earth, svaha. To air, svaha. To heaven, svaha. To the Sun, svaha. To the Moon, svaha. To the stars, svaha. To Indra, svaha. To Brihaspati, svaha. To Prajapati, svaha. To Brahma, svaha. Svadha to the fathers, svaha. Homage to Rudra, lord of beasts, svaha. To the gods, svaha. To the fathers, svadha. Homage to beings. To men, hanta. To Prajapati, svaha. To Parameshthi, svaha.",
+          "translationSource": "ai"
         },
         {
           "number": 2,
           "sanskrit": "यथा कूपः शतधारः सहस्रधारो अक्षितः । एवा मे अस्तु धान्यँ सहस्रधारमक्षितम् ॥ धनधान्यै स्वाहा",
-          "transliteration": "yathā kūpaḥ śatadhāraḥ sahasradhāro akṣitaḥ | evā me astu dhānya~ sahasradhāramakṣitam || dhanadhānyai svāhā"
+          "transliteration": "yathā kūpaḥ śatadhāraḥ sahasradhāro akṣitaḥ | evā me astu dhānya~ sahasradhāramakṣitam || dhanadhānyai svāhā",
+          "translation": "As a well of a hundred streams, of a thousand streams, is unfailing, so may my grain be of a thousand streams, unfailing. To wealth and grain, svaha.",
+          "translationSource": "ai"
         },
         {
           "number": 3,
           "sanskrit": "ये भूताः प्रचरन्ति दिवानक्तं बलिमिच्छन्तो वितुदस्य प्रेष्याः । तेभ्यो बलिं पुष्टिकामो हरामि मयि पुष्टिं पुष्टिपतिर्दधातु स्वाहा",
-          "transliteration": "ye bhūtāḥ pracaranti divānaktaṃ balimicchanto vitudasya preṣyāḥ | tebhyo baliṃ puṣṭikāmo harāmi mayi puṣṭiṃ puṣṭipatirdadhātu svāhā"
+          "transliteration": "ye bhūtāḥ pracaranti divānaktaṃ balimicchanto vitudasya preṣyāḥ | tebhyo baliṃ puṣṭikāmo harāmi mayi puṣṭiṃ puṣṭipatirdadhātu svāhā",
+          "translation": "The beings who roam day and night desiring an offering, servants of Vitudu — to them I bring the offering, desiring nourishment; may the lord of nourishment place nourishment in me, svaha.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1831,12 +1957,16 @@
         {
           "number": 1,
           "sanskrit": "ॐ तद्ब्रह्म । ॐ तद्वायुअः । ॐ तदात्मा । ॐ तत्सत्यम् । ॐ तत्सर्वम् । ॐ तत्पुरोर्नमः",
-          "transliteration": "oṃ tadbrahma | oṃ tadvāyuaḥ | oṃ tadātmā | oṃ tatsatyam | oṃ tatsarvam | oṃ tatpurornamaḥ"
+          "transliteration": "oṃ tadbrahma | oṃ tadvāyuaḥ | oṃ tadātmā | oṃ tatsatyam | oṃ tatsarvam | oṃ tatpurornamaḥ",
+          "translation": "Om, that is Brahman. Om, that is Vayu. Om, that is the Self. Om, that is truth. Om, that is all. Om, that is before; homage.",
+          "translationSource": "ai"
         },
         {
           "number": 2,
           "sanskrit": "ॐ अन्तश्वरति भूतेषु गुहायां विश्वमूर्तिषु । त्वं यज्ञस्त्वं वषट्कारस्त्वमिन्द्रस्त्वँ रुद्रस्त्वं विष्णुस्त्वं ब्रह्म त्वं प्रजापतिः । त्वं तदाप आपो ज्योती रसोऽमृतं ब्रह्म भूर्भुवः सुवरोम्",
-          "transliteration": "oṃ antaśvarati bhūteṣu guhāyāṃ viśvamūrtiṣu | tvaṃ yajñastvaṃ vaṣaṭkārastvamindrastva~ rudrastvaṃ viṣṇustvaṃ brahma tvaṃ prajāpatiḥ | tvaṃ tadāpa āpo jyotī raso'mṛtaṃ brahma bhūrbhuvaḥ suvarom"
+          "transliteration": "oṃ antaśvarati bhūteṣu guhāyāṃ viśvamūrtiṣu | tvaṃ yajñastvaṃ vaṣaṭkārastvamindrastva~ rudrastvaṃ viṣṇustvaṃ brahma tvaṃ prajāpatiḥ | tvaṃ tadāpa āpo jyotī raso'mṛtaṃ brahma bhūrbhuvaḥ suvarom",
+          "translation": "Om. You move within beings, in the cave, in all forms. You are sacrifice, you are the vashat call, you are Indra, you are Rudra, you are Vishnu, you are Brahman, you are Prajapati. You are that, the waters, light, essence, immortality, Brahman; Bhur Bhuvah Svah. Om.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1847,22 +1977,30 @@
         {
           "number": 1,
           "sanskrit": "श्रद्धायां प्राणे निविष्टोऽमृतं जुहोमि । श्रद्धायामपाने निविष्टोऽमृतं जुहोमि । श्रद्धायां व्याने निविष्टोऽमृतं जुहोमि । श्रद्धायामुदाने निविष्टोऽमृतं जुहोमि । श्रद्धायाँ समाने निविष्टोऽमृतं जुहोमि । ब्रह्मणि म आत्मामृतत्वाय",
-          "transliteration": "śraddhāyāṃ prāṇe niviṣṭo'mṛtaṃ juhomi | śraddhāyāmapāne niviṣṭo'mṛtaṃ juhomi | śraddhāyāṃ vyāne niviṣṭo'mṛtaṃ juhomi | śraddhāyāmudāne niviṣṭo'mṛtaṃ juhomi | śraddhāyā~ samāne niviṣṭo'mṛtaṃ juhomi | brahmaṇi ma ātmāmṛtatvāya"
+          "transliteration": "śraddhāyāṃ prāṇe niviṣṭo'mṛtaṃ juhomi | śraddhāyāmapāne niviṣṭo'mṛtaṃ juhomi | śraddhāyāṃ vyāne niviṣṭo'mṛtaṃ juhomi | śraddhāyāmudāne niviṣṭo'mṛtaṃ juhomi | śraddhāyā~ samāne niviṣṭo'mṛtaṃ juhomi | brahmaṇi ma ātmāmṛtatvāya",
+          "translation": "Established in faith in the prana, I offer immortality. Established in faith in the apana, I offer immortality. Established in faith in the vyana, I offer immortality. Established in faith in the udana, I offer immortality. Established in faith in the samana, I offer immortality. My Self is in Brahman for immortality.",
+          "translationSource": "ai"
         },
         {
           "number": 2,
           "sanskrit": "अमृतोपस्तरणमसि",
-          "transliteration": "amṛtopastaraṇamasi"
+          "transliteration": "amṛtopastaraṇamasi",
+          "translation": "You are the spreading-cover of immortality.",
+          "translationSource": "ai"
         },
         {
           "number": 3,
           "sanskrit": "श्रद्धायां प्राणे निविष्टोऽमृतं जुहोमि । शिवो मा विशाप्रदाहाय । प्राणाय स्वाहा ॥ श्रद्धायामपाने निविष्टोऽमृतं जुहोमि । शिवो मा विशाप्रदाहाय । अपानाय स्वाहा ॥ श्रद्धायां व्याने निविष्टोऽमृतं जुहोमि । शिवो मा विशाप्रदाहाय । व्यानाय स्वाहा ॥ श्रद्धायामुदाने निविष्टोऽमृतं जुहोमि । शिवो मा विशाप्रदाहाय । उदानाय स्वाहा ॥ श्रद्धायाँ समाने निविष्टोऽमृतं जुहोमि । शिवो मा विशाप्रदाहाय । समानाय स्वाहा ॥ ब्रह्मणि म आत्मामृतत्वाय",
-          "transliteration": "śraddhāyāṃ prāṇe niviṣṭo'mṛtaṃ juhomi | śivo mā viśāpradāhāya | prāṇāya svāhā || śraddhāyāmapāne niviṣṭo'mṛtaṃ juhomi | śivo mā viśāpradāhāya | apānāya svāhā || śraddhāyāṃ vyāne niviṣṭo'mṛtaṃ juhomi | śivo mā viśāpradāhāya | vyānāya svāhā || śraddhāyāmudāne niviṣṭo'mṛtaṃ juhomi | śivo mā viśāpradāhāya | udānāya svāhā || śraddhāyā~ samāne niviṣṭo'mṛtaṃ juhomi | śivo mā viśāpradāhāya | samānāya svāhā || brahmaṇi ma ātmāmṛtatvāya"
+          "transliteration": "śraddhāyāṃ prāṇe niviṣṭo'mṛtaṃ juhomi | śivo mā viśāpradāhāya | prāṇāya svāhā || śraddhāyāmapāne niviṣṭo'mṛtaṃ juhomi | śivo mā viśāpradāhāya | apānāya svāhā || śraddhāyāṃ vyāne niviṣṭo'mṛtaṃ juhomi | śivo mā viśāpradāhāya | vyānāya svāhā || śraddhāyāmudāne niviṣṭo'mṛtaṃ juhomi | śivo mā viśāpradāhāya | udānāya svāhā || śraddhāyā~ samāne niviṣṭo'mṛtaṃ juhomi | śivo mā viśāpradāhāya | samānāya svāhā || brahmaṇi ma ātmāmṛtatvāya",
+          "translation": "Established in faith in the prana, I offer immortality; be auspicious to me, enter me not for burning; to prana, svaha. Established in faith in the apana, I offer immortality; be auspicious, enter me not for burning; to apana, svaha. Established in faith in the vyana, I offer immortality; be auspicious, enter me not for burning; to vyana, svaha. Established in faith in the udana, I offer immortality; be auspicious, enter me not for burning; to udana, svaha. Established in faith in the samana, I offer immortality; be auspicious, enter me not for burning; to samana, svaha. My Self is in Brahman for immortality.",
+          "translationSource": "ai"
         },
         {
           "number": 4,
           "sanskrit": "अमृतापिधानमसि",
-          "transliteration": "amṛtāpidhānamasi"
+          "transliteration": "amṛtāpidhānamasi",
+          "translation": "You are the covering of immortality.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1873,7 +2011,9 @@
         {
           "number": 1,
           "sanskrit": "अङ्गुष्ठमात्रः पुरुषोऽङ्गुष्ठं च समाश्रितः । ईशः सर्वस्य जगतः प्रभुः प्रीणातु विश्वभुक्",
-          "transliteration": "aṅguṣṭhamātraḥ puruṣo'ṅguṣṭhaṃ ca samāśritaḥ | īśaḥ sarvasya jagataḥ prabhuḥ prīṇātu viśvabhuk"
+          "transliteration": "aṅguṣṭhamātraḥ puruṣo'ṅguṣṭhaṃ ca samāśritaḥ | īśaḥ sarvasya jagataḥ prabhuḥ prīṇātu viśvabhuk",
+          "translation": "The Person of thumb size, resting on the thumb, lord of all the world, master — may the all-enjoyer be pleased.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1884,7 +2024,9 @@
         {
           "number": 1,
           "sanskrit": "वाङ् म आसन् । नसोः प्राणः । अक्ष्योश्चक्षुः । कर्णयोः श्रोत्रम् । बाहुवोर्बलम् । उरुवोरोजः । अरिष्टा विश्वान्यङ्गानि तनूः । तनुवा मे सह नमस्ते अस्तु मा मा हिँसीः",
-          "transliteration": "vāṅ ma āsan | nasoḥ prāṇaḥ | akṣyoścakṣuḥ | karṇayoḥ śrotram | bāhuvorbalam | uruvorojaḥ | ariṣṭā viśvānyaṅgāni tanūḥ | tanuvā me saha namaste astu mā mā hi~sīḥ"
+          "transliteration": "vāṅ ma āsan | nasoḥ prāṇaḥ | akṣyoścakṣuḥ | karṇayoḥ śrotram | bāhuvorbalam | uruvorojaḥ | ariṣṭā viśvānyaṅgāni tanūḥ | tanuvā me saha namaste astu mā mā hi~sīḥ",
+          "translation": "Speech was in my mouth; breath in my nostrils; sight in my eyes; hearing in my ears; strength in my arms; vigor in my thighs; unharmed all my limbs and body; with my body, homage to you; do not harm me.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1895,7 +2037,9 @@
         {
           "number": 1,
           "sanskrit": "वयः सुपर्णा उपसेदुरिन्द्रं प्रियमेधा ऋषयो नाधमानाः । अप ध्वान्तमूर्णुहि पूर्धि चक्षुर्मुमुग्ध्यस्मान्निधयेव बद्धान्",
-          "transliteration": "vayaḥ suparṇā upasedurindraṃ priyamedhā ṛṣayo nādhamānāḥ | apa dhvāntamūrṇuhi pūrdhi cakṣurmumugdhyasmānnidhayeva baddhān"
+          "transliteration": "vayaḥ suparṇā upasedurindraṃ priyamedhā ṛṣayo nādhamānāḥ | apa dhvāntamūrṇuhi pūrdhi cakṣurmumugdhyasmānnidhayeva baddhān",
+          "translation": "The birds, the fair-winged, the sages of dear wisdom, sat near Indra, begging; drive away the darkness, fill the eye, free us who are bound as with a snare.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1906,7 +2050,9 @@
         {
           "number": 1,
           "sanskrit": "प्राणानां ग्रन्थिरसि रुद्रो मा विशान्तकः । तेनान्नेनाप्यायस्व",
-          "transliteration": "prāṇānāṃ granthirasi rudro mā viśāntakaḥ | tenānnenāpyāyasva"
+          "transliteration": "prāṇānāṃ granthirasi rudro mā viśāntakaḥ | tenānnenāpyāyasva",
+          "translation": "You are the knot of the breaths; Rudra, the ender, do not enter me; by that food be satisfied.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1917,7 +2063,9 @@
         {
           "number": 1,
           "sanskrit": "नमो रुद्राय विष्णवे मृत्युर्मे पाहि",
-          "transliteration": "namo rudrāya viṣṇave mṛtyurme pāhi"
+          "transliteration": "namo rudrāya viṣṇave mṛtyurme pāhi",
+          "translation": "Homage to Rudra and Vishnu; Death, protect me.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1928,7 +2076,9 @@
         {
           "number": 1,
           "sanskrit": "त्वमग्ने द्युभिस्त्वमाशुशुक्षणिस्त्वमद्भ्यस्त्वमश्मनस्परि । त्वं वनेभ्यस्त्वमोषधीभ्यस्त्वं नृणां नृपते जायसे शुचिः",
-          "transliteration": "tvamagne dyubhistvamāśuśukṣaṇistvamadbhyastvamaśmanaspari | tvaṃ vanebhyastvamoṣadhībhyastvaṃ nṛṇāṃ nṛpate jāyase śuciḥ"
+          "transliteration": "tvamagne dyubhistvamāśuśukṣaṇistvamadbhyastvamaśmanaspari | tvaṃ vanebhyastvamoṣadhībhyastvaṃ nṛṇāṃ nṛpate jāyase śuciḥ",
+          "translation": "You, Agni, are born pure, by days; you, the swift-flaming; you from the waters; you from the stones; you from the woods, you from the plants; you, lord of men.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1939,7 +2089,9 @@
         {
           "number": 1,
           "sanskrit": "शिवेन मे संतिष्ठस्व स्योनेन मे संतिष्ठस्व ब्रह्मवर्चसेन मे संतिष्ठस्व यज्ञस्यर्द्धिमनुसंतिष्ठस्वोप ते यज्ञ नम उप ते नम उप ते नमः",
-          "transliteration": "śivena me saṃtiṣṭhasva syonena me saṃtiṣṭhasva brahmavarcasena me saṃtiṣṭhasva yajñasyarddhimanusaṃtiṣṭhasvopa te yajña nama upa te nama upa te namaḥ"
+          "transliteration": "śivena me saṃtiṣṭhasva syonena me saṃtiṣṭhasva brahmavarcasena me saṃtiṣṭhasva yajñasyarddhimanusaṃtiṣṭhasvopa te yajña nama upa te nama upa te namaḥ",
+          "translation": "Be united with me by the auspicious; be united with me by the kind; be united with me by Brahmanical splendor; be united with me following the prosperity of the sacrifice. Homage to you, sacrifice; homage to you; homage to you.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1950,62 +2102,86 @@
         {
           "number": 1,
           "sanskrit": "सत्यं परं परँ सत्यँ सत्येन न सुवर्गाल्लोकाच्च्यवन्ते कदाचन सताँ हि सत्यं तस्मात्सत्ये रमन्ते",
-          "transliteration": "satyaṃ paraṃ para~ satya~ satyena na suvargāllokāccyavante kadācana satā~ hi satyaṃ tasmātsatye ramante"
+          "transliteration": "satyaṃ paraṃ para~ satya~ satyena na suvargāllokāccyavante kadācana satā~ hi satyaṃ tasmātsatye ramante",
+          "translation": "Truth is the highest; the highest is truth. By truth they never fall from the heavenly world; truth belongs to the good; therefore they delight in truth.",
+          "translationSource": "ai"
         },
         {
           "number": 2,
           "sanskrit": "तप इति तपो नानशनात्परं यद्धि परं तपस्तद् दुर्धर्षं तद् दुराधष तस्मात्तपसि रमन्ते",
-          "transliteration": "tapa iti tapo nānaśanātparaṃ yaddhi paraṃ tapastad durdharṣaṃ tad durādhaṣa tasmāttapasi ramante"
+          "transliteration": "tapa iti tapo nānaśanātparaṃ yaddhi paraṃ tapastad durdharṣaṃ tad durādhaṣa tasmāttapasi ramante",
+          "translation": "Austerity — \"austerity\" — there is nothing higher than fasting; for what is the highest austerity is unassailable and hard to overcome; therefore they delight in austerity.",
+          "translationSource": "ai"
         },
         {
           "number": 3,
           "sanskrit": "दम इति नियतं ब्रह्मचारिणस्तस्माद्दमे रमन्ते",
-          "transliteration": "dama iti niyataṃ brahmacāriṇastasmāddame ramante"
+          "transliteration": "dama iti niyataṃ brahmacāriṇastasmāddame ramante",
+          "translation": "Self-control — \"self-control\" — the students of Brahman are restrained; therefore they delight in self-control.",
+          "translationSource": "ai"
         },
         {
           "number": 4,
           "sanskrit": "शम इत्यरण्ये मुनस्तमाच्छमे रमन्ते",
-          "transliteration": "śama ityaraṇye munastamācchame ramante"
+          "transliteration": "śama ityaraṇye munastamācchame ramante",
+          "translation": "Calm — \"calm\" — sages in the forest; therefore they delight in calm.",
+          "translationSource": "ai"
         },
         {
           "number": 5,
           "sanskrit": "दानमिति सर्वाणि भूतानि प्रशँसन्ति दानान्नातिदुष्करं तस्माद्दाने रमन्ते",
-          "transliteration": "dānamiti sarvāṇi bhūtāni praśa~santi dānānnātiduṣkaraṃ tasmāddāne ramante"
+          "transliteration": "dānamiti sarvāṇi bhūtāni praśa~santi dānānnātiduṣkaraṃ tasmāddāne ramante",
+          "translation": "Giving — \"giving\" — all beings praise; nothing is harder than giving; therefore they delight in giving.",
+          "translationSource": "ai"
         },
         {
           "number": 6,
           "sanskrit": "धर्म इति धर्मेण सर्वमिदं परिगृहीतं धर्मान्नातिदुश्चरं तस्माद्धर्मे रमन्ते",
-          "transliteration": "dharma iti dharmeṇa sarvamidaṃ parigṛhītaṃ dharmānnātiduścaraṃ tasmāddharme ramante"
+          "transliteration": "dharma iti dharmeṇa sarvamidaṃ parigṛhītaṃ dharmānnātiduścaraṃ tasmāddharme ramante",
+          "translation": "Dharma — \"dharma\" — all this is upheld by dharma; nothing is harder to practice than dharma; therefore they delight in dharma.",
+          "translationSource": "ai"
         },
         {
           "number": 7,
           "sanskrit": "प्रजन इति भूयाँसस्तस्मात् भूयिष्ठाः प्रजायन्ते तस्मात् भूयिष्ठाः प्रजनने रमन्ते",
-          "transliteration": "prajana iti bhūyā~sastasmāt bhūyiṣṭhāḥ prajāyante tasmāt bhūyiṣṭhāḥ prajanane ramante"
+          "transliteration": "prajana iti bhūyā~sastasmāt bhūyiṣṭhāḥ prajāyante tasmāt bhūyiṣṭhāḥ prajanane ramante",
+          "translation": "Procreation — \"procreation\" — more are born therefrom; therefore they delight in procreation.",
+          "translationSource": "ai"
         },
         {
           "number": 8,
           "sanskrit": "अग्नय इत्याह तस्मादग्नय आधातव्याः",
-          "transliteration": "agnaya ityāha tasmādagnaya ādhātavyāḥ"
+          "transliteration": "agnaya ityāha tasmādagnaya ādhātavyāḥ",
+          "translation": "\"Fires,\" he said; therefore the fires are to be established.",
+          "translationSource": "ai"
         },
         {
           "number": 9,
           "sanskrit": "अग्निहोत्रमित्याह तस्मादग्निहोत्रे रमन्ते",
-          "transliteration": "agnihotramityāha tasmādagnihotre ramante"
+          "transliteration": "agnihotramityāha tasmādagnihotre ramante",
+          "translation": "\"Agnihotra,\" he said; therefore they delight in Agnihotra.",
+          "translationSource": "ai"
         },
         {
           "number": 10,
           "sanskrit": "यज्ञ इति यज्ञेन हि देवा दिवं गतास्तस्माद्यज्ञे रमन्ते",
-          "transliteration": "yajña iti yajñena hi devā divaṃ gatāstasmādyajñe ramante"
+          "transliteration": "yajña iti yajñena hi devā divaṃ gatāstasmādyajñe ramante",
+          "translation": "Sacrifice — \"sacrifice\" — by sacrifice the gods went to heaven; therefore they delight in sacrifice.",
+          "translationSource": "ai"
         },
         {
           "number": 11,
           "sanskrit": "मानसमिति विद्वाँसस्तस्माद्विद्वाँस एव मानसे रमन्ते",
-          "transliteration": "mānasamiti vidvā~sastasmādvidvā~sa eva mānase ramante"
+          "transliteration": "mānasamiti vidvā~sastasmādvidvā~sa eva mānase ramante",
+          "translation": "\"Mental,\" the wise say; therefore the wise delight in the mental.",
+          "translationSource": "ai"
         },
         {
           "number": 12,
           "sanskrit": "न्यास इति ब्रह्मा ब्रह्मा हि परः परो हि ब्रह्मा तानि वा एतान्यवराणि तपाँसि न्यास एवात्यरेचयत् य एवं वेदेत्युपनिषत्",
-          "transliteration": "nyāsa iti brahmā brahmā hi paraḥ paro hi brahmā tāni vā etānyavarāṇi tapā~si nyāsa evātyarecayat ya evaṃ vedetyupaniṣat"
+          "transliteration": "nyāsa iti brahmā brahmā hi paraḥ paro hi brahmā tāni vā etānyavarāṇi tapā~si nyāsa evātyarecayat ya evaṃ vedetyupaniṣat",
+          "translation": "\"Renunciation\": Brahma is Brahman, for Brahman is supreme; these are the lower austerities; renunciation alone surpasses them — for him who knows thus. Thus the Upanishad.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -2016,92 +2192,128 @@
         {
           "number": 1,
           "sanskrit": "प्राजापत्यो हारुणिः सुपर्णेयः प्रजापतिं पितरमुपससार किं भगवन्तः परमं वदन्तीति तस्मै प्रोवाच",
-          "transliteration": "prājāpatyo hāruṇiḥ suparṇeyaḥ prajāpatiṃ pitaramupasasāra kiṃ bhagavantaḥ paramaṃ vadantīti tasmai provāca"
+          "transliteration": "prājāpatyo hāruṇiḥ suparṇeyaḥ prajāpatiṃ pitaramupasasāra kiṃ bhagavantaḥ paramaṃ vadantīti tasmai provāca",
+          "translation": "Prajapati's son Aruni Suparneya approached his father Prajapati: \"What do the revered ones call supreme?\" He told him:",
+          "translationSource": "ai"
         },
         {
           "number": 2,
           "sanskrit": "सत्येन वायुरावाति सत्येनादित्यो रोचते दिवि सत्यं वाचः प्रतिष्ठा सत्ये सर्वं प्रतिष्ठितं तस्मात्सत्यं परमं वदन्ति",
-          "transliteration": "satyena vāyurāvāti satyenādityo rocate divi satyaṃ vācaḥ pratiṣṭhā satye sarvaṃ pratiṣṭhitaṃ tasmātsatyaṃ paramaṃ vadanti"
+          "transliteration": "satyena vāyurāvāti satyenādityo rocate divi satyaṃ vācaḥ pratiṣṭhā satye sarvaṃ pratiṣṭhitaṃ tasmātsatyaṃ paramaṃ vadanti",
+          "translation": "By truth the wind blows; by truth the sun shines in heaven; truth is the foundation of speech; in truth all is established; therefore they call truth supreme.",
+          "translationSource": "ai"
         },
         {
           "number": 3,
           "sanskrit": "तपसा देवा देवतामग्र आयन् तपसार्षयः सुवरन्वविन्दन् तपसा सपत्नान्प्रणुदामारातीस्तपसि सर्वं प्रतिष्ठितं तस्मात्तपः परमं वदन्ति",
-          "transliteration": "tapasā devā devatāmagra āyan tapasārṣayaḥ suvaranvavindan tapasā sapatnānpraṇudāmārātīstapasi sarvaṃ pratiṣṭhitaṃ tasmāttapaḥ paramaṃ vadanti"
+          "transliteration": "tapasā devā devatāmagra āyan tapasārṣayaḥ suvaranvavindan tapasā sapatnānpraṇudāmārātīstapasi sarvaṃ pratiṣṭhitaṃ tasmāttapaḥ paramaṃ vadanti",
+          "translation": "By austerity the gods first attained divinity; by austerity the seers found heaven; by austerity we drive away rivals and enemies; in austerity all is established; therefore they call austerity supreme.",
+          "translationSource": "ai"
         },
         {
           "number": 4,
           "sanskrit": "दमेन दान्ताः किल्बिषमवधून्वन्ति दमेन ब्रह्मचारिणः सुवरगच्छन् दमो भूतानां दुराधर्षं दमे सर्वं प्रतिष्ठितं तस्माद्दमः परमं वदन्ति",
-          "transliteration": "damena dāntāḥ kilbiṣamavadhūnvanti damena brahmacāriṇaḥ suvaragacchan damo bhūtānāṃ durādharṣaṃ dame sarvaṃ pratiṣṭhitaṃ tasmāddamaḥ paramaṃ vadanti"
+          "transliteration": "damena dāntāḥ kilbiṣamavadhūnvanti damena brahmacāriṇaḥ suvaragacchan damo bhūtānāṃ durādharṣaṃ dame sarvaṃ pratiṣṭhitaṃ tasmāddamaḥ paramaṃ vadanti",
+          "translation": "By self-control the self-controlled shake off sin; by self-control the students of Brahman went to heaven; self-control is hard for beings to overcome; in self-control all is established; therefore they call self-control supreme.",
+          "translationSource": "ai"
         },
         {
           "number": 5,
           "sanskrit": "शमेन शान्ताः शिवमाचरन्ति शमेन नाकं मुनयोऽन्वविन्दन् शमो भूतानां दुराधर्षं शमे सर्वं प्रतिष्ठितं तस्माच्छमः परमं वदन्ति",
-          "transliteration": "śamena śāntāḥ śivamācaranti śamena nākaṃ munayo'nvavindan śamo bhūtānāṃ durādharṣaṃ śame sarvaṃ pratiṣṭhitaṃ tasmācchamaḥ paramaṃ vadanti"
+          "transliteration": "śamena śāntāḥ śivamācaranti śamena nākaṃ munayo'nvavindan śamo bhūtānāṃ durādharṣaṃ śame sarvaṃ pratiṣṭhitaṃ tasmācchamaḥ paramaṃ vadanti",
+          "translation": "By calm the calm practice the auspicious; by calm the sages found heaven; calm is hard for beings to overcome; in calm all is established; therefore they call calm supreme.",
+          "translationSource": "ai"
         },
         {
           "number": 6,
           "sanskrit": "दानं यज्ञानां वरूथं दक्षिणा लोके दातारँ सर्वभूतान्युपजीवन्ति दानेनारातीरपानुदन्त दानेन द्विषन्तो मित्रा भवन्ति दाने सर्वं प्रतिष्ठितं तस्माद्दानं परमं वदन्ति",
-          "transliteration": "dānaṃ yajñānāṃ varūthaṃ dakṣiṇā loke dātāra~ sarvabhūtānyupajīvanti dānenārātīrapānudanta dānena dviṣanto mitrā bhavanti dāne sarvaṃ pratiṣṭhitaṃ tasmāddānaṃ paramaṃ vadanti"
+          "transliteration": "dānaṃ yajñānāṃ varūthaṃ dakṣiṇā loke dātāra~ sarvabhūtānyupajīvanti dānenārātīrapānudanta dānena dviṣanto mitrā bhavanti dāne sarvaṃ pratiṣṭhitaṃ tasmāddānaṃ paramaṃ vadanti",
+          "translation": "Giving is the shelter of sacrifices; the fee in the world; all beings live on the giver; by giving they drive away enemies; by giving haters become friends; in giving all is established; therefore they call giving supreme.",
+          "translationSource": "ai"
         },
         {
           "number": 7,
           "sanskrit": "धर्मो विश्वस्य जगतः प्रतिष्ठा लोके धर्मिष्ठ प्रजा उपसर्पन्ति धर्मेण पापमपनुदति धर्मे सर्वं प्रतिष्ठितं तस्माद्धर्मं परमं वदन्ति",
-          "transliteration": "dharmo viśvasya jagataḥ pratiṣṭhā loke dharmiṣṭha prajā upasarpanti dharmeṇa pāpamapanudati dharme sarvaṃ pratiṣṭhitaṃ tasmāddharmaṃ paramaṃ vadanti"
+          "transliteration": "dharmo viśvasya jagataḥ pratiṣṭhā loke dharmiṣṭha prajā upasarpanti dharmeṇa pāpamapanudati dharme sarvaṃ pratiṣṭhitaṃ tasmāddharmaṃ paramaṃ vadanti",
+          "translation": "Dharma is the foundation of the whole world; in the world people approach the most righteous; by dharma one drives away sin; in dharma all is established; therefore they call dharma supreme.",
+          "translationSource": "ai"
         },
         {
           "number": 8,
           "sanskrit": "प्रजननं वै प्रतिष्ठा लोके साधु प्रजायास्तन्तुं तन्वानः पितृणामनुणो भवति तदेव तस्यानृणं तस्मात् प्रजननं परमं वदन्ति",
-          "transliteration": "prajananaṃ vai pratiṣṭhā loke sādhu prajāyāstantuṃ tanvānaḥ pitṛṇāmanuṇo bhavati tadeva tasyānṛṇaṃ tasmāt prajananaṃ paramaṃ vadanti"
+          "transliteration": "prajananaṃ vai pratiṣṭhā loke sādhu prajāyāstantuṃ tanvānaḥ pitṛṇāmanuṇo bhavati tadeva tasyānṛṇaṃ tasmāt prajananaṃ paramaṃ vadanti",
+          "translation": "Procreation is the foundation in the world; extending the thread of offspring, one becomes free of debt to the fathers; that is his freedom from debt; therefore they call procreation supreme.",
+          "translationSource": "ai"
         },
         {
           "number": 9,
           "sanskrit": "अग्नयो वै त्रयी विद्या देवयानः पन्था गार्हपत्य ऋक् पृथिवी रथन्तरमन्वाहार्यपचनः यजुरन्तरिक्षं वामदेव्यमाहवनीयः साम सुवर्गो लोको बृहत्तस्मादग्नीन् परमं वदन्ति",
-          "transliteration": "agnayo vai trayī vidyā devayānaḥ panthā gārhapatya ṛk pṛthivī rathantaramanvāhāryapacanaḥ yajurantarikṣaṃ vāmadevyamāhavanīyaḥ sāma suvargo loko bṛhattasmādagnīn paramaṃ vadanti"
+          "transliteration": "agnayo vai trayī vidyā devayānaḥ panthā gārhapatya ṛk pṛthivī rathantaramanvāhāryapacanaḥ yajurantarikṣaṃ vāmadevyamāhavanīyaḥ sāma suvargo loko bṛhattasmādagnīn paramaṃ vadanti",
+          "translation": "The fires are the threefold knowledge, the path of the gods; the Garhapatya is the Rik, the earth, the Rathantara; the Anvaharyapachana; the Yajus, the air, the Vamadevya, the Ahavaniya; the Saman, the heavenly world, the Brihat; therefore they call the fires supreme.",
+          "translationSource": "ai"
         },
         {
           "number": 10,
           "sanskrit": "अग्निहोत्रँ सायं प्रातर्गृहाणां निष्कृतिः स्विष्टँ सुहुतं यज्ञक्रतूनां प्रायणँ सुवर्गस्य लोकस्य ज्योतिस्तस्मादग्निहोत्रं परमं वदन्ति",
-          "transliteration": "agnihotra~ sāyaṃ prātargṛhāṇāṃ niṣkṛtiḥ sviṣṭa~ suhutaṃ yajñakratūnāṃ prāyaṇa~ suvargasya lokasya jyotistasmādagnihotraṃ paramaṃ vadanti"
+          "transliteration": "agnihotra~ sāyaṃ prātargṛhāṇāṃ niṣkṛtiḥ sviṣṭa~ suhutaṃ yajñakratūnāṃ prāyaṇa~ suvargasya lokasya jyotistasmādagnihotraṃ paramaṃ vadanti",
+          "translation": "The Agnihotra evening and morning is the atonement for households; well-offered, well-poured, the way of sacrificial rites, the light of the heavenly world; therefore they call Agnihotra supreme.",
+          "translationSource": "ai"
         },
         {
           "number": 11,
           "sanskrit": "यज्ञ इति यज्ञो हि देवानां यज्ञेन हि देवा दिवं गता यज्ञेनासुरानपानुदन्त यज्ञेन द्विषन्तो मित्रा भवन्ति यज्ञे सर्वं प्रतिष्ठितं तस्माद्यज्ञं परमं वदन्ति",
-          "transliteration": "yajña iti yajño hi devānāṃ yajñena hi devā divaṃ gatā yajñenāsurānapānudanta yajñena dviṣanto mitrā bhavanti yajñe sarvaṃ pratiṣṭhitaṃ tasmādyajñaṃ paramaṃ vadanti"
+          "transliteration": "yajña iti yajño hi devānāṃ yajñena hi devā divaṃ gatā yajñenāsurānapānudanta yajñena dviṣanto mitrā bhavanti yajñe sarvaṃ pratiṣṭhitaṃ tasmādyajñaṃ paramaṃ vadanti",
+          "translation": "Sacrifice — \"sacrifice\" — sacrifice is of the gods; by sacrifice the gods went to heaven; by sacrifice they drove away the Asuras; by sacrifice haters become friends; in sacrifice all is established; therefore they call sacrifice supreme.",
+          "translationSource": "ai"
         },
         {
           "number": 12,
           "sanskrit": "मानसं वै प्राजापत्यं पवित्रं मानसेन मनसा साधु पश्यति ऋषयः प्रजा असृजन्त मानसे सर्वं प्रतिष्ठितं तस्मान्मानसं परमं वदन्ति",
-          "transliteration": "mānasaṃ vai prājāpatyaṃ pavitraṃ mānasena manasā sādhu paśyati ṛṣayaḥ prajā asṛjanta mānase sarvaṃ pratiṣṭhitaṃ tasmānmānasaṃ paramaṃ vadanti"
+          "transliteration": "mānasaṃ vai prājāpatyaṃ pavitraṃ mānasena manasā sādhu paśyati ṛṣayaḥ prajā asṛjanta mānase sarvaṃ pratiṣṭhitaṃ tasmānmānasaṃ paramaṃ vadanti",
+          "translation": "The mental is Prajapati's, pure; by the mind one sees well; the seers created offspring; in the mental all is established; therefore they call the mental supreme.",
+          "translationSource": "ai"
         },
         {
           "number": 13,
           "sanskrit": "न्यास इत्याहुर्मनीषिणो ब्रह्माणं ब्रह्मा विश्वः कतमः स्वयम्भूः प्रजापतिः संवत्सर इति",
-          "transliteration": "nyāsa ityāhurmanīṣiṇo brahmāṇaṃ brahmā viśvaḥ katamaḥ svayambhūḥ prajāpatiḥ saṃvatsara iti"
+          "transliteration": "nyāsa ityāhurmanīṣiṇo brahmāṇaṃ brahmā viśvaḥ katamaḥ svayambhūḥ prajāpatiḥ saṃvatsara iti",
+          "translation": "\"Renunciation,\" the wise say: Brahma is Brahman; Brahma is the universe; which one? The self-existent Prajapati, the year.",
+          "translationSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "संवत्सरोऽसावादित्यो य एष आदित्ये पुरुषः स परमेष्ठी ब्रह्मात्मा",
-          "transliteration": "saṃvatsaro'sāvādityo ya eṣa āditye puruṣaḥ sa parameṣṭhī brahmātmā"
+          "transliteration": "saṃvatsaro'sāvādityo ya eṣa āditye puruṣaḥ sa parameṣṭhī brahmātmā",
+          "translation": "The year is that Aditya; the Person in that Aditya is Parameshthi, the Self of Brahman.",
+          "translationSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "याभिरादित्यस्तपति रश्मिभिस्ताभिः पर्जन्यो वर्षति पर्जन्येनौषधिवनस्पतयः प्रजायन्त ओषधिवनस्पतिभिरन्नं भवत्यन्नेन प्राणाः प्राणैर्बलं बलेन तपस्तपसा श्रद्धा श्रद्धया मेधा मेधया मनीषा मनीषया मनो मनसा शान्तिः शान्त्या चित्तं चित्तेन स्मृतिः स्मृत्या स्मारँ स्मारेण विज्ञानं विज्ञानेनात्मानं वेदयति तस्मादन्नं ददन्सर्वाण्येतानि ददात्यन्नात्प्राणा भवन्ति भूतानां प्राणैर्मनो मनसश्च विज्ञानं विज्ञानादानन्दो ब्रह्म योनिः",
-          "transliteration": "yābhirādityastapati raśmibhistābhiḥ parjanyo varṣati parjanyenauṣadhivanaspatayaḥ prajāyanta oṣadhivanaspatibhirannaṃ bhavatyannena prāṇāḥ prāṇairbalaṃ balena tapastapasā śraddhā śraddhayā medhā medhayā manīṣā manīṣayā mano manasā śāntiḥ śāntyā cittaṃ cittena smṛtiḥ smṛtyā smāra~ smāreṇa vijñānaṃ vijñānenātmānaṃ vedayati tasmādannaṃ dadansarvāṇyetāni dadātyannātprāṇā bhavanti bhūtānāṃ prāṇairmano manasaśca vijñānaṃ vijñānādānando brahma yoniḥ"
+          "transliteration": "yābhirādityastapati raśmibhistābhiḥ parjanyo varṣati parjanyenauṣadhivanaspatayaḥ prajāyanta oṣadhivanaspatibhirannaṃ bhavatyannena prāṇāḥ prāṇairbalaṃ balena tapastapasā śraddhā śraddhayā medhā medhayā manīṣā manīṣayā mano manasā śāntiḥ śāntyā cittaṃ cittena smṛtiḥ smṛtyā smāra~ smāreṇa vijñānaṃ vijñānenātmānaṃ vedayati tasmādannaṃ dadansarvāṇyetāni dadātyannātprāṇā bhavanti bhūtānāṃ prāṇairmano manasaśca vijñānaṃ vijñānādānando brahma yoniḥ",
+          "translation": "By the rays by which Aditya shines, by them Parjanya rains; by Parjanya the plants and trees are born; from plants and trees comes food; from food the breaths; from the breaths strength; from strength austerity; from austerity faith; from faith insight; from insight thought; from thought mind; from mind peace; from peace the heart; from the heart memory; from memory recollection; from recollection knowledge; by knowledge one knows the Self; therefore giving food one gives all these; from food the breaths of beings; from breaths mind; from mind knowledge; from knowledge bliss, Brahman the source.",
+          "translationSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "स वा एष पुरुषः पञ्चधा पञ्चात्मा येन सर्वमिदं प्रोतं पृथिवी चान्तरिक्षं च द्यौश्च दिशश्चावान्तरदिशाश्च स वै सर्वमिदं जगत्स सभूतँ स भव्यं जिज्ञासक्लृप्त ऋतजा रयिष्ठाः श्रद्धा सत्यो पहस्वान्तमसोपरिष्टात् । ज्ञात्वा तमेवं मनसा हृदा च भूयो न मृत्युमुपयाहि विद्वान् । तस्मान्न्यासमेषां तपसामतिरिक्तमाहुः",
-          "transliteration": "sa vā eṣa puruṣaḥ pañcadhā pañcātmā yena sarvamidaṃ protaṃ pṛthivī cāntarikṣaṃ ca dyauśca diśaścāvāntaradiśāśca sa vai sarvamidaṃ jagatsa sabhūta~ sa bhavyaṃ jijñāsaklṛpta ṛtajā rayiṣṭhāḥ śraddhā satyo pahasvāntamasopariṣṭāt | jñātvā tamevaṃ manasā hṛdā ca bhūyo na mṛtyumupayāhi vidvān | tasmānnyāsameṣāṃ tapasāmatiriktamāhuḥ"
+          "transliteration": "sa vā eṣa puruṣaḥ pañcadhā pañcātmā yena sarvamidaṃ protaṃ pṛthivī cāntarikṣaṃ ca dyauśca diśaścāvāntaradiśāśca sa vai sarvamidaṃ jagatsa sabhūta~ sa bhavyaṃ jijñāsaklṛpta ṛtajā rayiṣṭhāḥ śraddhā satyo pahasvāntamasopariṣṭāt | jñātvā tamevaṃ manasā hṛdā ca bhūyo na mṛtyumupayāhi vidvān | tasmānnyāsameṣāṃ tapasāmatiriktamāhuḥ",
+          "translation": "This Person is fivefold, five-natured, by whom all this is woven: earth, air, heaven, directions and intermediate directions; he is all this world, he is the past and future, desired by the seeker, born of truth, rich in wealth, faith, truth, beyond darkness. Knowing him thus by mind and heart, a knower does not again approach death. Therefore they say renunciation exceeds these austerities.",
+          "translationSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "वसुरण्वो विभूरसि प्राणे त्वमसि सन्धाता ब्रह्मन् त्वमसि विश्वसृत्तेजोदास्त्वमस्यग्नेरसि वर्चोदास्त्वमसि सूर्यस्य द्युम्नोदास्त्वमसि चन्द्रमस उपयामगृहीतोऽसि ब्रह्मणे त्वा महसे",
-          "transliteration": "vasuraṇvo vibhūrasi prāṇe tvamasi sandhātā brahman tvamasi viśvasṛttejodāstvamasyagnerasi varcodāstvamasi sūryasya dyumnodāstvamasi candramasa upayāmagṛhīto'si brahmaṇe tvā mahase"
+          "transliteration": "vasuraṇvo vibhūrasi prāṇe tvamasi sandhātā brahman tvamasi viśvasṛttejodāstvamasyagnerasi varcodāstvamasi sūryasya dyumnodāstvamasi candramasa upayāmagṛhīto'si brahmaṇe tvā mahase",
+          "translation": "You are the Vasu, subtle, all-pervading; in the breath you are the joiner; O Brahman, you are the world-creator; you are the giver of radiance, of Agni; you are the giver of splendor of the Sun; you are the giver of the Moon; you are taken with a pledge; for Brahman, for greatness I take you.",
+          "translationSource": "ai"
         },
         {
           "number": 18,
           "sanskrit": "ओमित्यात्मानं युञ्जीत । एतद्वै महोपनिषदं देवानां गुह्यम् । य एवं वेद ब्रह्मणो महिमानमाप्नोति तस्माद्ब्रह्मणो महिमानमित्युपनिषत्",
-          "transliteration": "omityātmānaṃ yuñjīta | etadvai mahopaniṣadaṃ devānāṃ guhyam | ya evaṃ veda brahmaṇo mahimānamāpnoti tasmādbrahmaṇo mahimānamityupaniṣat"
+          "transliteration": "omityātmānaṃ yuñjīta | etadvai mahopaniṣadaṃ devānāṃ guhyam | ya evaṃ veda brahmaṇo mahimānamāpnoti tasmādbrahmaṇo mahimānamityupaniṣat",
+          "translation": "With Om one should yoke the Self. This is the secret of the gods, the Mahopanishad. He who knows thus attains the greatness of Brahman; therefore the greatness of Brahman — thus the Upanishad.",
+          "translationSource": "ai"
         }
       ]
     },
