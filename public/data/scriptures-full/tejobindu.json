@@ -995,157 +995,219 @@
         {
           "number": 44,
           "sanskrit": "न हि किञ्चित्स्वरूपोऽस्मि निर्व्यापारस्वरूपवान् । निरंशोऽस्मि निराभासो न मनो नेन्द्रियोऽस्म्यहम्",
-          "transliteration": "na hi kiñcitsvarūpo'smi nirvyāpārasvarūpavān | niraṃśo'smi nirābhāso na mano nendriyo'smyaham"
+          "transliteration": "na hi kiñcitsvarūpo'smi nirvyāpārasvarūpavān | niraṃśo'smi nirābhāso na mano nendriyo'smyaham",
+          "translation": "I am of no particular nature; I am of the nature of non-action; I am partless, without appearance; I am neither mind nor sense.",
+          "translationSource": "ai"
         },
         {
           "number": 45,
           "sanskrit": "न बुद्धिर्न विकल्पोऽहं न देहादित्रयोऽस्म्यहम् । न जाग्रत्स्वप्नरूपोऽहं न सुषुप्तिस्वरूपवान्",
-          "transliteration": "na buddhirna vikalpo'haṃ na dehāditrayo'smyaham | na jāgratsvapnarūpo'haṃ na suṣuptisvarūpavān"
+          "transliteration": "na buddhirna vikalpo'haṃ na dehāditrayo'smyaham | na jāgratsvapnarūpo'haṃ na suṣuptisvarūpavān",
+          "translation": "I am neither intellect nor conception; I am not the three bodies; I am not of the form of waking or dream, nor of the nature of deep sleep.",
+          "translationSource": "ai"
         },
         {
           "number": 46,
           "sanskrit": "न तापत्रयरूपोऽहं नेषणात्रयवानहम् । श्रवणं नास्ति मे सिद्धेर्मननं च चिदात्मनि",
-          "transliteration": "na tāpatrayarūpo'haṃ neṣaṇātrayavānaham | śravaṇaṃ nāsti me siddhermananaṃ ca cidātmani"
+          "transliteration": "na tāpatrayarūpo'haṃ neṣaṇātrayavānaham | śravaṇaṃ nāsti me siddhermananaṃ ca cidātmani",
+          "translation": "I am not of the form of the three afflictions; I do not have the three desires; for the Self of consciousness I have no hearing or reflection that perfects.",
+          "translationSource": "ai"
         },
         {
           "number": 47,
           "sanskrit": "सजातीयं न मे किञ्चिद्विजातीयं न मे क्वचित् । स्वगतं च न मे किञ्चिन्न मे भेदत्रयं क्वचित्",
-          "transliteration": "sajātīyaṃ na me kiñcidvijātīyaṃ na me kvacit | svagataṃ ca na me kiñcinna me bhedatrayaṃ kvacit"
+          "transliteration": "sajātīyaṃ na me kiñcidvijātīyaṃ na me kvacit | svagataṃ ca na me kiñcinna me bhedatrayaṃ kvacit",
+          "translation": "I have nothing of the same kind, nothing of a different kind anywhere; nothing within myself; I have the three kinds of difference nowhere.",
+          "translationSource": "ai"
         },
         {
           "number": 48,
           "sanskrit": "असत्यं हि मनोरूपमसत्यं बुद्धिरूपकम् । अहङ्कारमसिद्धीति नित्योऽहं शाश्वतो ह्यजः",
-          "transliteration": "asatyaṃ hi manorūpamasatyaṃ buddhirūpakam | ahaṅkāramasiddhīti nityo'haṃ śāśvato hyajaḥ"
+          "transliteration": "asatyaṃ hi manorūpamasatyaṃ buddhirūpakam | ahaṅkāramasiddhīti nityo'haṃ śāśvato hyajaḥ",
+          "translation": "The form of mind is unreal, the form of intellect is unreal; ego is not established — I am eternal, everlasting, unborn.",
+          "translationSource": "ai"
         },
         {
           "number": 49,
           "sanskrit": "देहत्रयमसद्विद्धि कालत्रयमसत्सदा । गुणत्रयमसत्विद्धि ह्ययं सत्यात्मकः शुचिः",
-          "transliteration": "dehatrayamasadviddhi kālatrayamasatsadā | guṇatrayamasatviddhi hyayaṃ satyātmakaḥ śuciḥ"
+          "transliteration": "dehatrayamasadviddhi kālatrayamasatsadā | guṇatrayamasatviddhi hyayaṃ satyātmakaḥ śuciḥ",
+          "translation": "Know the three bodies to be unreal; the three times are always unreal; know the three qualities to be unreal; this one is of the nature of truth, pure.",
+          "translationSource": "ai"
         },
         {
           "number": 50,
           "sanskrit": "श्रुतं सर्वमसत्द्विद्धि वेदं सर्वमसत्सदा । शास्त्रं सर्वमसत्द्विद्धि ह्यहं सत्यचिदात्मकः",
-          "transliteration": "śrutaṃ sarvamasatdviddhi vedaṃ sarvamasatsadā | śāstraṃ sarvamasatdviddhi hyahaṃ satyacidātmakaḥ"
+          "transliteration": "śrutaṃ sarvamasatdviddhi vedaṃ sarvamasatsadā | śāstraṃ sarvamasatdviddhi hyahaṃ satyacidātmakaḥ",
+          "translation": "Know all that is heard to be unreal; all Veda is always unreal; know all scripture to be unreal; I am of the nature of true consciousness.",
+          "translationSource": "ai"
         },
         {
           "number": 51,
           "sanskrit": "मूर्तित्रयमसद्विद्धि सर्वभूतमसत्सदा । सर्वतत्त्वमसद्विद्धि ह्ययं भूमा सदाशिवः",
-          "transliteration": "mūrtitrayamasadviddhi sarvabhūtamasatsadā | sarvatattvamasadviddhi hyayaṃ bhūmā sadāśivaḥ"
+          "transliteration": "mūrtitrayamasadviddhi sarvabhūtamasatsadā | sarvatattvamasadviddhi hyayaṃ bhūmā sadāśivaḥ",
+          "translation": "Know the three forms to be unreal; all beings are always unreal; know all principles to be unreal; this is the fullness, Sadashiva.",
+          "translationSource": "ai"
         },
         {
           "number": 52,
           "sanskrit": "गुरुशिष्यमसद्विद्धि गुरोर्मन्त्रमसत्ततः । यद्दृश्यं तदसद्विद्धि न मां विद्धि तथाविधम्",
-          "transliteration": "guruśiṣyamasadviddhi gurormantramasattataḥ | yaddṛśyaṃ tadasadviddhi na māṃ viddhi tathāvidham"
+          "transliteration": "guruśiṣyamasadviddhi gurormantramasattataḥ | yaddṛśyaṃ tadasadviddhi na māṃ viddhi tathāvidham",
+          "translation": "Know teacher and disciple to be unreal, and the teacher's mantra then unreal; whatever is seen, know it as unreal; do not know me as of that kind.",
+          "translationSource": "ai"
         },
         {
           "number": 53,
           "sanskrit": "यच्चिन्त्यं तदसद्विद्धि यन्न्यायं तदसत्सदा । यद्धितं तदसद्विद्धि न मां विद्धि तथाविधम्",
-          "transliteration": "yaccintyaṃ tadasadviddhi yannyāyaṃ tadasatsadā | yaddhitaṃ tadasadviddhi na māṃ viddhi tathāvidham"
+          "transliteration": "yaccintyaṃ tadasadviddhi yannyāyaṃ tadasatsadā | yaddhitaṃ tadasadviddhi na māṃ viddhi tathāvidham",
+          "translation": "Know whatever is thought to be unreal; whatever is reasoning is always unreal; whatever is beneficial, know it as unreal; do not know me as of that kind.",
+          "translationSource": "ai"
         },
         {
           "number": 54,
           "sanskrit": "सर्वान्प्राणानसद्विद्धि सर्वान्भोगानसत्त्विति । दृष्टं श्रुतमसद्विद्धि ओतं प्रोतमसन्मयम्",
-          "transliteration": "sarvānprāṇānasadviddhi sarvānbhogānasattviti | dṛṣṭaṃ śrutamasadviddhi otaṃ protamasanmayam"
+          "transliteration": "sarvānprāṇānasadviddhi sarvānbhogānasattviti | dṛṣṭaṃ śrutamasadviddhi otaṃ protamasanmayam",
+          "translation": "Know all breaths to be unreal, all pleasures unreal; know the seen and heard as unreal; the woven and interwoven as made of the unreal.",
+          "translationSource": "ai"
         },
         {
           "number": 55,
           "sanskrit": "कार्याकार्यमसद्विद्धि नष्टं प्राप्तमसन्मयम् । दुःखादुःखमसद्विद्धि सर्वासर्वमन्मयम्",
-          "transliteration": "kāryākāryamasadviddhi naṣṭaṃ prāptamasanmayam | duḥkhāduḥkhamasadviddhi sarvāsarvamanmayam"
+          "transliteration": "kāryākāryamasadviddhi naṣṭaṃ prāptamasanmayam | duḥkhāduḥkhamasadviddhi sarvāsarvamanmayam",
+          "translation": "Know what is to be done and not to be done as unreal; what is lost and gained as made of the unreal; know pain and no-pain as unreal; all and not-all as made of the unreal.",
+          "translationSource": "ai"
         },
         {
           "number": 56,
           "sanskrit": "पूर्णापूर्णमसद्विद्धि धर्माधर्ममसन्मयम् । लाभालाभावसद्विद्धि जयाजयमसन्मयम्",
-          "transliteration": "pūrṇāpūrṇamasadviddhi dharmādharmamasanmayam | lābhālābhāvasadviddhi jayājayamasanmayam"
+          "transliteration": "pūrṇāpūrṇamasadviddhi dharmādharmamasanmayam | lābhālābhāvasadviddhi jayājayamasanmayam",
+          "translation": "Know full and not-full as unreal; merit and demerit as made of the unreal; know gain and loss as unreal; victory and defeat as made of the unreal.",
+          "translationSource": "ai"
         },
         {
           "number": 57,
           "sanskrit": "शब्दं सर्वमसद्विद्धि स्पर्शं सर्वमसत्सदा । रूपं सर्वमसद्विद्धि रसं सर्वमसन्मयम्",
-          "transliteration": "śabdaṃ sarvamasadviddhi sparśaṃ sarvamasatsadā | rūpaṃ sarvamasadviddhi rasaṃ sarvamasanmayam"
+          "transliteration": "śabdaṃ sarvamasadviddhi sparśaṃ sarvamasatsadā | rūpaṃ sarvamasadviddhi rasaṃ sarvamasanmayam",
+          "translation": "Know all sound as unreal; all touch is always unreal; know all form as unreal; all taste as made of the unreal.",
+          "translationSource": "ai"
         },
         {
           "number": 58,
           "sanskrit": "गन्धं सर्वमसद्विद्धि सर्वाज्ञानमसन्मयम् । असदेव सदा सर्वमसदेव भवोद्भवम्",
-          "transliteration": "gandhaṃ sarvamasadviddhi sarvājñānamasanmayam | asadeva sadā sarvamasadeva bhavodbhavam"
+          "transliteration": "gandhaṃ sarvamasadviddhi sarvājñānamasanmayam | asadeva sadā sarvamasadeva bhavodbhavam",
+          "translation": "Know all smell as unreal; all ignorance as made of the unreal; all is always only unreal; the arising of becoming is only unreal.",
+          "translationSource": "ai"
         },
         {
           "number": 59,
           "sanskrit": "असदेव गुणं सर्वं सन्मात्रमहमेव हि । स्वात्ममन्त्रं सदा पश्येत्स्वात्ममन्त्रं सदाभ्यसेत्",
-          "transliteration": "asadeva guṇaṃ sarvaṃ sanmātramahameva hi | svātmamantraṃ sadā paśyetsvātmamantraṃ sadābhyaset"
+          "transliteration": "asadeva guṇaṃ sarvaṃ sanmātramahameva hi | svātmamantraṃ sadā paśyetsvātmamantraṃ sadābhyaset",
+          "translation": "All qualities are only unreal; I alone am mere being. One should always see the mantra of one's own Self; one should always practice the mantra of one's own Self.",
+          "translationSource": "ai"
         },
         {
           "number": 60,
           "sanskrit": "अहं ब्रह्मास्मि मन्त्रोऽयं दृश्यपापं विनाशयेत् । अहं ब्रह्मास्मि मन्त्रोऽयमन्यमन्त्रं विनाशयेत्",
-          "transliteration": "ahaṃ brahmāsmi mantro'yaṃ dṛśyapāpaṃ vināśayet | ahaṃ brahmāsmi mantro'yamanyamantraṃ vināśayet"
+          "transliteration": "ahaṃ brahmāsmi mantro'yaṃ dṛśyapāpaṃ vināśayet | ahaṃ brahmāsmi mantro'yamanyamantraṃ vināśayet",
+          "translation": "This mantra \"I am Brahman\" destroys the sin of the seen; this mantra \"I am Brahman\" destroys other mantras.",
+          "translationSource": "ai"
         },
         {
           "number": 61,
           "sanskrit": "अहं ब्रह्मास्मि मन्त्रोऽयं देहदोषं विनाशयेत् । अहं ब्रह्मास्मि मन्त्रोऽयं जन्मपापं विनाशयेत्",
-          "transliteration": "ahaṃ brahmāsmi mantro'yaṃ dehadoṣaṃ vināśayet | ahaṃ brahmāsmi mantro'yaṃ janmapāpaṃ vināśayet"
+          "transliteration": "ahaṃ brahmāsmi mantro'yaṃ dehadoṣaṃ vināśayet | ahaṃ brahmāsmi mantro'yaṃ janmapāpaṃ vināśayet",
+          "translation": "This mantra \"I am Brahman\" destroys the faults of the body; this mantra \"I am Brahman\" destroys the sin of birth.",
+          "translationSource": "ai"
         },
         {
           "number": 62,
           "sanskrit": "अहं ब्रह्मास्मि मन्त्रोऽयं मृत्युपाशं विनाशयेत् । अहं ब्रह्मास्मि मन्त्रोऽयं द्वैतदुःखं विनाशयेत्",
-          "transliteration": "ahaṃ brahmāsmi mantro'yaṃ mṛtyupāśaṃ vināśayet | ahaṃ brahmāsmi mantro'yaṃ dvaitaduḥkhaṃ vināśayet"
+          "transliteration": "ahaṃ brahmāsmi mantro'yaṃ mṛtyupāśaṃ vināśayet | ahaṃ brahmāsmi mantro'yaṃ dvaitaduḥkhaṃ vināśayet",
+          "translation": "This mantra \"I am Brahman\" destroys the noose of death; this mantra \"I am Brahman\" destroys the sorrow of duality.",
+          "translationSource": "ai"
         },
         {
           "number": 63,
           "sanskrit": "अहं ब्रह्मास्मि मन्त्रोऽयं भेदबुद्धिं विनाशयेत् । अहं ब्रह्मास्मि मन्त्रोऽयं चिन्तादुःखं विनाशयेत्",
-          "transliteration": "ahaṃ brahmāsmi mantro'yaṃ bhedabuddhiṃ vināśayet | ahaṃ brahmāsmi mantro'yaṃ cintāduḥkhaṃ vināśayet"
+          "transliteration": "ahaṃ brahmāsmi mantro'yaṃ bhedabuddhiṃ vināśayet | ahaṃ brahmāsmi mantro'yaṃ cintāduḥkhaṃ vināśayet",
+          "translation": "This mantra \"I am Brahman\" destroys the notion of difference; this mantra \"I am Brahman\" destroys the sorrow of anxiety.",
+          "translationSource": "ai"
         },
         {
           "number": 64,
           "sanskrit": "अहं ब्रह्मास्मि मन्त्रोऽयं बुद्धिव्याधिं विनाशयेत् । अहं ब्रह्मास्मि मन्त्रोऽयं चित्तबन्धं विनाशयेत्",
-          "transliteration": "ahaṃ brahmāsmi mantro'yaṃ buddhivyādhiṃ vināśayet | ahaṃ brahmāsmi mantro'yaṃ cittabandhaṃ vināśayet"
+          "transliteration": "ahaṃ brahmāsmi mantro'yaṃ buddhivyādhiṃ vināśayet | ahaṃ brahmāsmi mantro'yaṃ cittabandhaṃ vināśayet",
+          "translation": "This mantra \"I am Brahman\" destroys the disease of the intellect; this mantra \"I am Brahman\" destroys the bondage of the mind.",
+          "translationSource": "ai"
         },
         {
           "number": 65,
           "sanskrit": "अहं ब्रह्मास्मि मन्त्रोऽयं सर्वव्याधीन्विनाशयेत् । अहं ब्रह्मास्मि मन्त्रोऽयं सर्वशोकं विनाशयेत्",
-          "transliteration": "ahaṃ brahmāsmi mantro'yaṃ sarvavyādhīnvināśayet | ahaṃ brahmāsmi mantro'yaṃ sarvaśokaṃ vināśayet"
+          "transliteration": "ahaṃ brahmāsmi mantro'yaṃ sarvavyādhīnvināśayet | ahaṃ brahmāsmi mantro'yaṃ sarvaśokaṃ vināśayet",
+          "translation": "This mantra \"I am Brahman\" destroys all diseases; this mantra \"I am Brahman\" destroys all grief.",
+          "translationSource": "ai"
         },
         {
           "number": 66,
           "sanskrit": "अहं ब्रह्मास्मि मन्त्रोऽयं कामादीन्नाशयेत्क्षणात् । अहं ब्रह्मास्मि मन्त्रोऽयं क्रोधशक्तिं विनाशयेत्",
-          "transliteration": "ahaṃ brahmāsmi mantro'yaṃ kāmādīnnāśayetkṣaṇāt | ahaṃ brahmāsmi mantro'yaṃ krodhaśaktiṃ vināśayet"
+          "transliteration": "ahaṃ brahmāsmi mantro'yaṃ kāmādīnnāśayetkṣaṇāt | ahaṃ brahmāsmi mantro'yaṃ krodhaśaktiṃ vināśayet",
+          "translation": "This mantra \"I am Brahman\" destroys desire and the rest in a moment; this mantra \"I am Brahman\" destroys the power of anger.",
+          "translationSource": "ai"
         },
         {
           "number": 67,
           "sanskrit": "अहं ब्रह्मास्मि मन्त्रोऽयं चित्तवृत्तिं विनाशयेत् । अहं ब्रह्मास्मि मन्त्रोऽयं सङ्कल्पादीन्विनाशयेत्",
-          "transliteration": "ahaṃ brahmāsmi mantro'yaṃ cittavṛttiṃ vināśayet | ahaṃ brahmāsmi mantro'yaṃ saṅkalpādīnvināśayet"
+          "transliteration": "ahaṃ brahmāsmi mantro'yaṃ cittavṛttiṃ vināśayet | ahaṃ brahmāsmi mantro'yaṃ saṅkalpādīnvināśayet",
+          "translation": "This mantra \"I am Brahman\" destroys the modifications of the mind; this mantra \"I am Brahman\" destroys intention and the rest.",
+          "translationSource": "ai"
         },
         {
           "number": 68,
           "sanskrit": "अहं ब्रह्मास्मि मन्त्रोऽयं कोटिदोषं विनाशयेत् । अहं ब्रह्मास्मि मन्त्रोऽयं सर्वतन्त्रं विनाशयेत्",
-          "transliteration": "ahaṃ brahmāsmi mantro'yaṃ koṭidoṣaṃ vināśayet | ahaṃ brahmāsmi mantro'yaṃ sarvatantraṃ vināśayet"
+          "transliteration": "ahaṃ brahmāsmi mantro'yaṃ koṭidoṣaṃ vināśayet | ahaṃ brahmāsmi mantro'yaṃ sarvatantraṃ vināśayet",
+          "translation": "This mantra \"I am Brahman\" destroys crores of faults; this mantra \"I am Brahman\" destroys every other system.",
+          "translationSource": "ai"
         },
         {
           "number": 69,
           "sanskrit": "अहं ब्रह्मास्मि मन्त्रोऽयमात्माज्ञानं विनाशयेत् । अहं ब्रह्मास्मि मन्त्रोऽयमात्मलोकजयप्रदः",
-          "transliteration": "ahaṃ brahmāsmi mantro'yamātmājñānaṃ vināśayet | ahaṃ brahmāsmi mantro'yamātmalokajayapradaḥ"
+          "transliteration": "ahaṃ brahmāsmi mantro'yamātmājñānaṃ vināśayet | ahaṃ brahmāsmi mantro'yamātmalokajayapradaḥ",
+          "translation": "This mantra \"I am Brahman\" destroys ignorance of the Self; this mantra \"I am Brahman\" gives conquest of the world of the Self.",
+          "translationSource": "ai"
         },
         {
           "number": 70,
           "sanskrit": "अहं ब्रह्मास्मि मन्त्रोऽयमप्रतर्क्यसुखप्रदः । अहं ब्रह्मास्मि मन्त्रोऽयमजडत्वं प्रयच्छति",
-          "transliteration": "ahaṃ brahmāsmi mantro'yamapratarkyasukhapradaḥ | ahaṃ brahmāsmi mantro'yamajaḍatvaṃ prayacchati"
+          "transliteration": "ahaṃ brahmāsmi mantro'yamapratarkyasukhapradaḥ | ahaṃ brahmāsmi mantro'yamajaḍatvaṃ prayacchati",
+          "translation": "This mantra \"I am Brahman\" gives happiness beyond argument; this mantra \"I am Brahman\" gives non-dullness.",
+          "translationSource": "ai"
         },
         {
           "number": 71,
           "sanskrit": "अहं ब्रह्मास्मि मन्त्रोऽयमनात्मासुरमर्दनः । अहं ब्रह्मास्मि वज्रोऽयमनात्माख्यगिरीन्हरेत्",
-          "transliteration": "ahaṃ brahmāsmi mantro'yamanātmāsuramardanaḥ | ahaṃ brahmāsmi vajro'yamanātmākhyagirīnharet"
+          "transliteration": "ahaṃ brahmāsmi mantro'yamanātmāsuramardanaḥ | ahaṃ brahmāsmi vajro'yamanātmākhyagirīnharet",
+          "translation": "This mantra \"I am Brahman\" crushes the demons of the non-Self; this \"I am Brahman\" is a thunderbolt that shatters the mountains called non-Self.",
+          "translationSource": "ai"
         },
         {
           "number": 72,
           "sanskrit": "अहं ब्रह्मास्मि मन्त्रोऽयमनात्माख्यासुरान्हरेत् । अहं ब्रह्मास्मि मन्त्रोऽयं सर्वांस्तान्मोक्षयिष्यति",
-          "transliteration": "ahaṃ brahmāsmi mantro'yamanātmākhyāsurānharet | ahaṃ brahmāsmi mantro'yaṃ sarvāṃstānmokṣayiṣyati"
+          "transliteration": "ahaṃ brahmāsmi mantro'yamanātmākhyāsurānharet | ahaṃ brahmāsmi mantro'yaṃ sarvāṃstānmokṣayiṣyati",
+          "translation": "This mantra \"I am Brahman\" removes the demons called non-Self; this mantra \"I am Brahman\" will free them all.",
+          "translationSource": "ai"
         },
         {
           "number": 73,
           "sanskrit": "अहं ब्रह्मास्मि मन्त्रोऽयं ज्ञानानन्दं प्रयच्छति । सप्तकोटिमहामन्त्रं जन्मकोटिशतप्रदम्",
-          "transliteration": "ahaṃ brahmāsmi mantro'yaṃ jñānānandaṃ prayacchati | saptakoṭimahāmantraṃ janmakoṭiśatapradam"
+          "transliteration": "ahaṃ brahmāsmi mantro'yaṃ jñānānandaṃ prayacchati | saptakoṭimahāmantraṃ janmakoṭiśatapradam",
+          "translation": "This mantra \"I am Brahman\" gives knowledge-bliss; it is the great mantra of seven crores, giving a hundred crores of births.",
+          "translationSource": "ai"
         },
         {
           "number": 74,
           "sanskrit": "सर्वमन्त्रान्समुत्सृज्य एतं मन्त्रं समभ्यसेत् । सद्यो मोक्षमवाप्नोति नात्र सन्देहमण्वपि",
-          "transliteration": "sarvamantrānsamutsṛjya etaṃ mantraṃ samabhyaset | sadyo mokṣamavāpnoti nātra sandehamaṇvapi"
+          "transliteration": "sarvamantrānsamutsṛjya etaṃ mantraṃ samabhyaset | sadyo mokṣamavāpnoti nātra sandehamaṇvapi",
+          "translation": "Abandoning all mantras, one should practice this mantra; one attains liberation at once — there is not even an atom of doubt.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -1156,397 +1218,555 @@
         {
           "number": 1,
           "sanskrit": "कुमारः परमेश्वरं पप्रच्छ जीवन्मुक्तविदेहमुक्तयोः स्थितिमनुब्रूहीति । स होवाच परः शिवः । चिदात्माहं परात्माहं निर्गुणोऽहं परात्परः । आत्ममात्रेण यस्तिष्ठेत्स जीवन्मुक्त उच्यते",
-          "transliteration": "kumāraḥ parameśvaraṃ papraccha jīvanmuktavidehamuktayoḥ sthitimanubrūhīti | sa hovāca paraḥ śivaḥ | cidātmāhaṃ parātmāhaṃ nirguṇo'haṃ parātparaḥ | ātmamātreṇa yastiṣṭhetsa jīvanmukta ucyate"
+          "transliteration": "kumāraḥ parameśvaraṃ papraccha jīvanmuktavidehamuktayoḥ sthitimanubrūhīti | sa hovāca paraḥ śivaḥ | cidātmāhaṃ parātmāhaṃ nirguṇo'haṃ parātparaḥ | ātmamātreṇa yastiṣṭhetsa jīvanmukta ucyate",
+          "translation": "Kumara asked the Supreme Lord: \"Tell me the state of the liberated-while-living and the bodiless liberated.\" The Supreme Shiva said: I am the Self of consciousness, I am the Supreme Self, I am attributeless, I am higher than the highest. He who stays as the Self alone is called liberated while living.",
+          "translationSource": "ai"
         },
         {
           "number": 2,
           "sanskrit": "देहत्रयातिरिक्तोऽहं शुद्धचैतन्यमस्म्यहम् । ब्रह्माहमिति यस्यान्तः स जीवनमुक्त उच्यते",
-          "transliteration": "dehatrayātirikto'haṃ śuddhacaitanyamasmyaham | brahmāhamiti yasyāntaḥ sa jīvanamukta ucyate"
+          "transliteration": "dehatrayātirikto'haṃ śuddhacaitanyamasmyaham | brahmāhamiti yasyāntaḥ sa jīvanamukta ucyate",
+          "translation": "I am beyond the three bodies; I am pure consciousness. He in whom there is inwardly \"I am Brahman\" is called liberated while living.",
+          "translationSource": "ai"
         },
         {
           "number": 3,
           "sanskrit": "आनन्दघनरूपोऽस्मि परानन्दघनोऽस्म्यहम् । यस्य देहादिकं नास्ति यस्य ब्रह्मेति निश्चयः । परमानन्दपूर्णो यः स जीवन्मुक्त उच्यते",
-          "transliteration": "ānandaghanarūpo'smi parānandaghano'smyaham | yasya dehādikaṃ nāsti yasya brahmeti niścayaḥ | paramānandapūrṇo yaḥ sa jīvanmukta ucyate"
+          "transliteration": "ānandaghanarūpo'smi parānandaghano'smyaham | yasya dehādikaṃ nāsti yasya brahmeti niścayaḥ | paramānandapūrṇo yaḥ sa jīvanmukta ucyate",
+          "translation": "I am of the form of a mass of bliss; I am a mass of supreme bliss. He who has no body and the like, who has the certainty \"Brahman,\" who is full of supreme bliss, is called liberated while living.",
+          "translationSource": "ai"
         },
         {
           "number": 4,
           "sanskrit": "यस्य किञ्चिदहं नास्ति चिन्मात्रेणावतिष्ठते । चैतन्यमात्रो यस्यान्तश्चिन्मात्रैकस्वरूपवान्",
-          "transliteration": "yasya kiñcidahaṃ nāsti cinmātreṇāvatiṣṭhate | caitanyamātro yasyāntaścinmātraikasvarūpavān"
+          "transliteration": "yasya kiñcidahaṃ nāsti cinmātreṇāvatiṣṭhate | caitanyamātro yasyāntaścinmātraikasvarūpavān",
+          "translation": "He in whom there is no \"I\" of anything, who stays as mere consciousness, whose inner self is mere consciousness, of the single nature of mere consciousness,",
+          "translationSource": "ai"
         },
         {
           "number": 5,
           "sanskrit": "सर्वत्र पूर्णरूपात्मा सर्वत्रात्मावशेषकः । आनन्दरतिरव्यक्तः परिपूर्णश्चिदात्मकः",
-          "transliteration": "sarvatra pūrṇarūpātmā sarvatrātmāvaśeṣakaḥ | ānandaratiravyaktaḥ paripūrṇaścidātmakaḥ"
+          "transliteration": "sarvatra pūrṇarūpātmā sarvatrātmāvaśeṣakaḥ | ānandaratiravyaktaḥ paripūrṇaścidātmakaḥ",
+          "translation": "whose self is of full form everywhere, who is the Self remaining everywhere, delighting in bliss, unmanifest, wholly full, of the nature of consciousness,",
+          "translationSource": "ai"
         },
         {
           "number": 7,
           "sanskrit": "शुद्धचैतन्यरूपात्मा सर्वसङ्गविवर्जितः । नित्यानन्दः प्रसन्नात्मा ह्यन्यचिन्ताविवर्जितः ॥ ६ किञ्चिदस्तित्वहीनो यः स जीवन्मुक्त उच्यते । न मे चित्तं न मे बुद्धिर्नाहङ्कारो न चेन्द्रियम्",
-          "transliteration": "śuddhacaitanyarūpātmā sarvasaṅgavivarjitaḥ | nityānandaḥ prasannātmā hyanyacintāvivarjitaḥ || 6 kiñcidastitvahīno yaḥ sa jīvanmukta ucyate | na me cittaṃ na me buddhirnāhaṅkāro na cendriyam"
+          "transliteration": "śuddhacaitanyarūpātmā sarvasaṅgavivarjitaḥ | nityānandaḥ prasannātmā hyanyacintāvivarjitaḥ || 6 kiñcidastitvahīno yaḥ sa jīvanmukta ucyate | na me cittaṃ na me buddhirnāhaṅkāro na cendriyam",
+          "translation": "of the form of pure consciousness, free of all attachment, of eternal bliss, serene, free of other thoughts, devoid of any trace of existence — he is called liberated while living. \"Mine is not the mind, not the intellect, not the ego, not the senses.",
+          "translationSource": "ai"
         },
         {
           "number": 8,
           "sanskrit": "न मे देहः कदाचिद्वा न मे प्राणादयः क्वचित् । न मे माया न मे कामो न मे क्रोधः परोऽस्म्यहम्",
-          "transliteration": "na me dehaḥ kadācidvā na me prāṇādayaḥ kvacit | na me māyā na me kāmo na me krodhaḥ paro'smyaham"
+          "transliteration": "na me dehaḥ kadācidvā na me prāṇādayaḥ kvacit | na me māyā na me kāmo na me krodhaḥ paro'smyaham",
+          "translation": "\"Mine is not the body at any time; not the breath and the rest anywhere; not illusion is mine, not desire, not anger — I am the supreme.",
+          "translationSource": "ai"
         },
         {
           "number": 9,
           "sanskrit": "न मे किञ्चिदिदं वापि न मे किञ्चित्क्वचिज्जगत् । न मे दोषो न मे लिङ्गं न मे चक्षुर्न मे मनः",
-          "transliteration": "na me kiñcididaṃ vāpi na me kiñcitkvacijjagat | na me doṣo na me liṅgaṃ na me cakṣurna me manaḥ"
+          "transliteration": "na me kiñcididaṃ vāpi na me kiñcitkvacijjagat | na me doṣo na me liṅgaṃ na me cakṣurna me manaḥ",
+          "translation": "\"Mine is not anything this; mine is not any world anywhere; not fault is mine, not mark, not eye, not mind.",
+          "translationSource": "ai"
         },
         {
           "number": 10,
           "sanskrit": "न मे श्रोत्रं न मे नासा न मे जिह्वा न मे करः । न मे जाग्रन्न मे स्वप्नं न मे कारणमण्वपि",
-          "transliteration": "na me śrotraṃ na me nāsā na me jihvā na me karaḥ | na me jāgranna me svapnaṃ na me kāraṇamaṇvapi"
+          "transliteration": "na me śrotraṃ na me nāsā na me jihvā na me karaḥ | na me jāgranna me svapnaṃ na me kāraṇamaṇvapi",
+          "translation": "\"Mine is not ear, nose, tongue or hand; not waking, not dream, not even an atom of the cause.",
+          "translationSource": "ai"
         },
         {
           "number": 11,
           "sanskrit": "न मे तुरीयमिति यः स जीवन्मुक्त उच्यते । इदं सर्वं न मे किञ्चिदयं सर्वं न मे क्वचित्",
-          "transliteration": "na me turīyamiti yaḥ sa jīvanmukta ucyate | idaṃ sarvaṃ na me kiñcidayaṃ sarvaṃ na me kvacit"
+          "transliteration": "na me turīyamiti yaḥ sa jīvanmukta ucyate | idaṃ sarvaṃ na me kiñcidayaṃ sarvaṃ na me kvacit",
+          "translation": "\"Mine is not even the Fourth\" — he who thus knows is called liberated while living. \"All this is nothing of mine; this all is nowhere mine.",
+          "translationSource": "ai"
         },
         {
           "number": 12,
           "sanskrit": "न मे कालो न मे देशो न मे वस्तु न मे मतिः । न मे स्नानं न मे सन्ध्या न मे दैवं न मे स्थलम्",
-          "transliteration": "na me kālo na me deśo na me vastu na me matiḥ | na me snānaṃ na me sandhyā na me daivaṃ na me sthalam"
+          "transliteration": "na me kālo na me deśo na me vastu na me matiḥ | na me snānaṃ na me sandhyā na me daivaṃ na me sthalam",
+          "translation": "\"Mine is not time, not place, not thing, not thought; not bathing, not twilight prayer, not deity, not place.",
+          "translationSource": "ai"
         },
         {
           "number": 13,
           "sanskrit": "न मे तीर्थं न मे सेवा न मे ज्ञानं न मे पदम् । न मे बन्धो न मे जन्म न मे वाक्यं न मे रविः",
-          "transliteration": "na me tīrthaṃ na me sevā na me jñānaṃ na me padam | na me bandho na me janma na me vākyaṃ na me raviḥ"
+          "transliteration": "na me tīrthaṃ na me sevā na me jñānaṃ na me padam | na me bandho na me janma na me vākyaṃ na me raviḥ",
+          "translation": "\"Mine is not pilgrimage, not service, not knowledge, not state; not bondage, not birth, not word, not the sun.",
+          "translationSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "न मे पुण्यं न मे पापं न मे कार्यं न मे शुभम् । ने मे जीव इति स्वात्मा न मे किञ्चिज्जगत्रयम्",
-          "transliteration": "na me puṇyaṃ na me pāpaṃ na me kāryaṃ na me śubham | ne me jīva iti svātmā na me kiñcijjagatrayam"
+          "transliteration": "na me puṇyaṃ na me pāpaṃ na me kāryaṃ na me śubham | ne me jīva iti svātmā na me kiñcijjagatrayam",
+          "translation": "\"Mine is not merit, not sin, not work, not the auspicious; not 'I am the individual' — the Self is mine; nothing of the three worlds is mine.",
+          "translationSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "न मे मोक्षो न मे द्वैतं न मे वेदो न मे विधिः । न मेऽन्तिकं न मे दूरं न मे बोधो न मे रहः",
-          "transliteration": "na me mokṣo na me dvaitaṃ na me vedo na me vidhiḥ | na me'ntikaṃ na me dūraṃ na me bodho na me rahaḥ"
+          "transliteration": "na me mokṣo na me dvaitaṃ na me vedo na me vidhiḥ | na me'ntikaṃ na me dūraṃ na me bodho na me rahaḥ",
+          "translation": "\"Mine is not liberation, not duality, not the Veda, not the rite; not near, not far, not awakening, not secret.",
+          "translationSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "न मे गुरुर्न मे शिष्यो न मे हीनो न चाधिकः । न मे ब्रह्म न मे विष्णुर्न मे रुद्रो न चन्द्रमाः",
-          "transliteration": "na me gururna me śiṣyo na me hīno na cādhikaḥ | na me brahma na me viṣṇurna me rudro na candramāḥ"
+          "transliteration": "na me gururna me śiṣyo na me hīno na cādhikaḥ | na me brahma na me viṣṇurna me rudro na candramāḥ",
+          "translation": "\"Mine is not teacher, not disciple, not inferior, not superior; not Brahma, not Vishnu, not Rudra, not the moon.",
+          "translationSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "न मे पृथ्वी न मे तोयं न मे वायुर्न मे वियत् । न मे वह्निर्न मे गोत्रं न मे लक्ष्यं न मे भवः",
-          "transliteration": "na me pṛthvī na me toyaṃ na me vāyurna me viyat | na me vahnirna me gotraṃ na me lakṣyaṃ na me bhavaḥ"
+          "transliteration": "na me pṛthvī na me toyaṃ na me vāyurna me viyat | na me vahnirna me gotraṃ na me lakṣyaṃ na me bhavaḥ",
+          "translation": "\"Mine is not earth, not water, not wind, not space; not fire, not lineage, not aim, not becoming.",
+          "translationSource": "ai"
         },
         {
           "number": 18,
           "sanskrit": "न मे ध्याता न मे ध्येयं न मे ध्यानं न मे मनुः । न मे शीतं न मे चोष्णं न मे तृष्णा न मे क्षुधा",
-          "transliteration": "na me dhyātā na me dhyeyaṃ na me dhyānaṃ na me manuḥ | na me śītaṃ na me coṣṇaṃ na me tṛṣṇā na me kṣudhā"
+          "transliteration": "na me dhyātā na me dhyeyaṃ na me dhyānaṃ na me manuḥ | na me śītaṃ na me coṣṇaṃ na me tṛṣṇā na me kṣudhā",
+          "translation": "\"Mine is not the meditator, not the object of meditation, not meditation, not the mantra; not cold, not heat, not thirst, not hunger.",
+          "translationSource": "ai"
         },
         {
           "number": 19,
           "sanskrit": "न मे मित्रं न मे शत्रुर्न मे मोहो न मे जयः । न मे पूर्वं न मे पश्चान्न मे चोर्ध्वं न मे दिशः",
-          "transliteration": "na me mitraṃ na me śatrurna me moho na me jayaḥ | na me pūrvaṃ na me paścānna me cordhvaṃ na me diśaḥ"
+          "transliteration": "na me mitraṃ na me śatrurna me moho na me jayaḥ | na me pūrvaṃ na me paścānna me cordhvaṃ na me diśaḥ",
+          "translation": "\"Mine is not friend, not enemy, not delusion, not victory; not before, not after, not above, not the directions.",
+          "translationSource": "ai"
         },
         {
           "number": 20,
           "sanskrit": "न मे वक्तव्यमल्पं वा न मे श्रोतव्यमण्वपि । न मे गन्तव्यमीषद्वा न मे ध्यातव्यमण्वपि",
-          "transliteration": "na me vaktavyamalpaṃ vā na me śrotavyamaṇvapi | na me gantavyamīṣadvā na me dhyātavyamaṇvapi"
+          "transliteration": "na me vaktavyamalpaṃ vā na me śrotavyamaṇvapi | na me gantavyamīṣadvā na me dhyātavyamaṇvapi",
+          "translation": "\"Mine is nothing to be said, even slight; nothing to be heard, even an atom; nothing to go to, even slightly; nothing to be meditated on, even an atom.",
+          "translationSource": "ai"
         },
         {
           "number": 21,
           "sanskrit": "न मे भोक्तव्यमीषद्वा न मे स्मर्तव्यमण्वपि । न मे भोगो न मे रागो न मे यागो न मे लयः",
-          "transliteration": "na me bhoktavyamīṣadvā na me smartavyamaṇvapi | na me bhogo na me rāgo na me yāgo na me layaḥ"
+          "transliteration": "na me bhoktavyamīṣadvā na me smartavyamaṇvapi | na me bhogo na me rāgo na me yāgo na me layaḥ",
+          "translation": "\"Mine is nothing to be enjoyed, even slightly; nothing to be remembered, even an atom; not pleasure, not attachment, not sacrifice, not dissolution.",
+          "translationSource": "ai"
         },
         {
           "number": 22,
           "sanskrit": "न मे मौर्ख्यं न मे शान्तं न मे बन्धो न मे प्रियम् । न मे मोदः प्रमोदो वा न मे स्थूलं न मे कृशम्",
-          "transliteration": "na me maurkhyaṃ na me śāntaṃ na me bandho na me priyam | na me modaḥ pramodo vā na me sthūlaṃ na me kṛśam"
+          "transliteration": "na me maurkhyaṃ na me śāntaṃ na me bandho na me priyam | na me modaḥ pramodo vā na me sthūlaṃ na me kṛśam",
+          "translation": "\"Mine is not foolishness, not peace, not bondage, not the dear; not joy or great joy; not stout, not thin.",
+          "translationSource": "ai"
         },
         {
           "number": 23,
           "sanskrit": "न मे दीर्घं न मे ह्रस्वं न मे वृद्धिर्न मे क्षयः । अध्यारोपोऽपवादो वा न मे चैकं न मे बहु",
-          "transliteration": "na me dīrghaṃ na me hrasvaṃ na me vṛddhirna me kṣayaḥ | adhyāropo'pavādo vā na me caikaṃ na me bahu"
+          "transliteration": "na me dīrghaṃ na me hrasvaṃ na me vṛddhirna me kṣayaḥ | adhyāropo'pavādo vā na me caikaṃ na me bahu",
+          "translation": "\"Mine is not long, not short; not growth, not decay; superimposition or retraction is not mine; not one, not many.",
+          "translationSource": "ai"
         },
         {
           "number": 24,
           "sanskrit": "न मे आन्ध्यं न मे मान्द्यं न मे पट्विदमण्वपि । न मे मांसं न मे रक्तं न मे मेदो न मे ह्यसृक्",
-          "transliteration": "na me āndhyaṃ na me māndyaṃ na me paṭvidamaṇvapi | na me māṃsaṃ na me raktaṃ na me medo na me hyasṛk"
+          "transliteration": "na me āndhyaṃ na me māndyaṃ na me paṭvidamaṇvapi | na me māṃsaṃ na me raktaṃ na me medo na me hyasṛk",
+          "translation": "\"Mine is not blindness, not dullness, not even an atom of cleverness; not flesh, not blood, not fat, not marrow.",
+          "translationSource": "ai"
         },
         {
           "number": 25,
           "sanskrit": "न मे मज्जा न मेऽस्थिर्वा न मे त्वग्धातु सप्तकम् । न मे शुक्लं न मे रक्तं न मे नीलं नमे पृथक्",
-          "transliteration": "na me majjā na me'sthirvā na me tvagdhātu saptakam | na me śuklaṃ na me raktaṃ na me nīlaṃ name pṛthak"
+          "transliteration": "na me majjā na me'sthirvā na me tvagdhātu saptakam | na me śuklaṃ na me raktaṃ na me nīlaṃ name pṛthak",
+          "translation": "\"Mine is not marrow, not bone, not skin — the seven constituents; not white, not red, not blue, not separate.",
+          "translationSource": "ai"
         },
         {
           "number": 26,
           "sanskrit": "न मे तापो न मे लाभो मुख्यं गौणं न मे क्वचित् । न मे भ्रान्तिर्न मे स्थैर्यं न मे गुह्यं न मे कुलम्",
-          "transliteration": "na me tāpo na me lābho mukhyaṃ gauṇaṃ na me kvacit | na me bhrāntirna me sthairyaṃ na me guhyaṃ na me kulam"
+          "transliteration": "na me tāpo na me lābho mukhyaṃ gauṇaṃ na me kvacit | na me bhrāntirna me sthairyaṃ na me guhyaṃ na me kulam",
+          "translation": "\"Mine is not heat, not gain; the primary and secondary are nowhere mine; not delusion, not steadiness, not secret, not family.",
+          "translationSource": "ai"
         },
         {
           "number": 27,
           "sanskrit": "न मे त्याज्यं न मे ग्राह्यं न मे हास्यं न मे नयः । न मे वृत्तं न मे ग्लानिर्न मे शोष्यं न मे सुखम्",
-          "transliteration": "na me tyājyaṃ na me grāhyaṃ na me hāsyaṃ na me nayaḥ | na me vṛttaṃ na me glānirna me śoṣyaṃ na me sukham"
+          "transliteration": "na me tyājyaṃ na me grāhyaṃ na me hāsyaṃ na me nayaḥ | na me vṛttaṃ na me glānirna me śoṣyaṃ na me sukham",
+          "translation": "\"Mine is not to be abandoned, not to be taken; not laughable, not policy; not conduct, not weariness, not dryness, not pleasure.",
+          "translationSource": "ai"
         },
         {
           "number": 28,
           "sanskrit": "न मे ज्ञाता न मे ज्ञानं न मे ज्ञेयं न मे स्वयम् । न मे तुभ्यं नमे मह्यं न मे त्वं च न मे त्वहम्",
-          "transliteration": "na me jñātā na me jñānaṃ na me jñeyaṃ na me svayam | na me tubhyaṃ name mahyaṃ na me tvaṃ ca na me tvaham"
+          "transliteration": "na me jñātā na me jñānaṃ na me jñeyaṃ na me svayam | na me tubhyaṃ name mahyaṃ na me tvaṃ ca na me tvaham",
+          "translation": "\"Mine is not knower, not knowledge, not knowable, not self; not for you, not for me; not you and not I.",
+          "translationSource": "ai"
         },
         {
           "number": 29,
           "sanskrit": "न मे जरा न मे बाल्यं न मे यौवनमण्वपि । अहं ब्रह्मास्म्यहं ब्रह्मास्म्यहं ब्रह्मेति निश्चयः",
-          "transliteration": "na me jarā na me bālyaṃ na me yauvanamaṇvapi | ahaṃ brahmāsmyahaṃ brahmāsmyahaṃ brahmeti niścayaḥ"
+          "transliteration": "na me jarā na me bālyaṃ na me yauvanamaṇvapi | ahaṃ brahmāsmyahaṃ brahmāsmyahaṃ brahmeti niścayaḥ",
+          "translation": "\"Mine is not old age, not childhood, not even an atom of youth. I am Brahman, I am Brahman — thus is the certainty.",
+          "translationSource": "ai"
         },
         {
           "number": 30,
           "sanskrit": "चिदहं चिदहं चेति स जीवन्मुक्त उच्यते । ब्रह्मैवाहं चिदेवाहं परो वाहं न संशयः",
-          "transliteration": "cidahaṃ cidahaṃ ceti sa jīvanmukta ucyate | brahmaivāhaṃ cidevāhaṃ paro vāhaṃ na saṃśayaḥ"
+          "transliteration": "cidahaṃ cidahaṃ ceti sa jīvanmukta ucyate | brahmaivāhaṃ cidevāhaṃ paro vāhaṃ na saṃśayaḥ",
+          "translation": "\"I am consciousness, I am consciousness\" — he who thus holds is called liberated while living. \"I am Brahman alone, I am consciousness alone, or I am the supreme\" — no doubt.",
+          "translationSource": "ai"
         },
         {
           "number": 31,
           "sanskrit": "स्वयमेव स्वयं हंसः स्वयमेव स्वयं स्थितः । स्वयमेव स्वयं पश्येत्स्वात्मराज्ये सुखं वसेत्",
-          "transliteration": "svayameva svayaṃ haṃsaḥ svayameva svayaṃ sthitaḥ | svayameva svayaṃ paśyetsvātmarājye sukhaṃ vaset"
+          "transliteration": "svayameva svayaṃ haṃsaḥ svayameva svayaṃ sthitaḥ | svayameva svayaṃ paśyetsvātmarājye sukhaṃ vaset",
+          "translation": "By himself the swan, by himself established; by himself one should see by oneself; one should dwell in bliss in the kingdom of one's own Self.",
+          "translationSource": "ai"
         },
         {
           "number": 32,
           "sanskrit": "स्वात्मानन्दं स्वयं भोक्ष्येत्स जीवन्मुक्त उच्यते । स्वयमेवैकवीरोऽग्रे स्वयमेव प्रभुः स्मृतः",
-          "transliteration": "svātmānandaṃ svayaṃ bhokṣyetsa jīvanmukta ucyate | svayamevaikavīro'gre svayameva prabhuḥ smṛtaḥ"
+          "transliteration": "svātmānandaṃ svayaṃ bhokṣyetsa jīvanmukta ucyate | svayamevaikavīro'gre svayameva prabhuḥ smṛtaḥ",
+          "translation": "He who himself enjoys the bliss of his own Self is called liberated while living; he himself is the one hero in front, he himself is called the lord.",
+          "translationSource": "ai"
         },
         {
           "number": 33,
           "sanskrit": "ब्रह्मभूतः प्रशान्तात्मा ब्रह्मानन्दमयः सुखी । स्वच्छरूपो महामौनी वैदेही मुक्त एव सः",
-          "transliteration": "brahmabhūtaḥ praśāntātmā brahmānandamayaḥ sukhī | svaccharūpo mahāmaunī vaidehī mukta eva saḥ"
+          "transliteration": "brahmabhūtaḥ praśāntātmā brahmānandamayaḥ sukhī | svaccharūpo mahāmaunī vaidehī mukta eva saḥ",
+          "translation": "One who has become Brahman, of quiet mind, made of Brahman-bliss, happy, of clear form, a great silent one — he is bodiless and liberated.",
+          "translationSource": "ai"
         },
         {
           "number": 34,
           "sanskrit": "सर्वात्मा समरूपात्मा शुद्धात्मा त्वहमुत्थितः । एकवर्जित एकात्मा सर्वात्मा स्वात्ममात्रकः",
-          "transliteration": "sarvātmā samarūpātmā śuddhātmā tvahamutthitaḥ | ekavarjita ekātmā sarvātmā svātmamātrakaḥ"
+          "transliteration": "sarvātmā samarūpātmā śuddhātmā tvahamutthitaḥ | ekavarjita ekātmā sarvātmā svātmamātrakaḥ",
+          "translation": "The Self of all, of even form, pure Self, I have arisen; free of the one, the one Self, the Self of all, mere own Self.",
+          "translationSource": "ai"
         },
         {
           "number": 35,
           "sanskrit": "अजात्मा चामृतात्माहं स्वयमात्माहमव्ययः । लक्ष्यात्मा ललितात्माहं तूष्णीमात्मस्वभाववान्",
-          "transliteration": "ajātmā cāmṛtātmāhaṃ svayamātmāhamavyayaḥ | lakṣyātmā lalitātmāhaṃ tūṣṇīmātmasvabhāvavān"
+          "transliteration": "ajātmā cāmṛtātmāhaṃ svayamātmāhamavyayaḥ | lakṣyātmā lalitātmāhaṃ tūṣṇīmātmasvabhāvavān",
+          "translation": "I am the unborn Self, the immortal Self; I am myself the Self, imperishable; the Self as aim, the playful Self, silent, of the nature of the Self.",
+          "translationSource": "ai"
         },
         {
           "number": 36,
           "sanskrit": "आनन्दात्मा प्रियो ह्यात्मा मोक्षात्मा बन्धवर्जितः । ब्रह्मैवाहं चिदेवाहमेवं वापि न चिन्त्यते",
-          "transliteration": "ānandātmā priyo hyātmā mokṣātmā bandhavarjitaḥ | brahmaivāhaṃ cidevāhamevaṃ vāpi na cintyate"
+          "transliteration": "ānandātmā priyo hyātmā mokṣātmā bandhavarjitaḥ | brahmaivāhaṃ cidevāhamevaṃ vāpi na cintyate",
+          "translation": "The Self of bliss, the dear Self, the Self of liberation, free of bondage; \"I am Brahman alone, I am consciousness alone\" — even this is not thought.",
+          "translationSource": "ai"
         },
         {
           "number": 37,
           "sanskrit": "चिन्मात्रेणैव यस्तिष्ठेद्वैदेही मुक्त एव सः",
-          "transliteration": "cinmātreṇaiva yastiṣṭhedvaidehī mukta eva saḥ"
+          "transliteration": "cinmātreṇaiva yastiṣṭhedvaidehī mukta eva saḥ",
+          "translation": "He who stays as mere consciousness alone is bodiless and liberated.",
+          "translationSource": "ai"
         },
         {
           "number": 38,
           "sanskrit": "निश्चयं च परित्यज्य अहं ब्रह्मेति निश्चयम् । आनन्दभरितस्वान्तो वैदेही मुक्त एव सः",
-          "transliteration": "niścayaṃ ca parityajya ahaṃ brahmeti niścayam | ānandabharitasvānto vaidehī mukta eva saḥ"
+          "transliteration": "niścayaṃ ca parityajya ahaṃ brahmeti niścayam | ānandabharitasvānto vaidehī mukta eva saḥ",
+          "translation": "Abandoning certainty, even the certainty \"I am Brahman,\" with a heart filled with bliss, he is bodiless and liberated.",
+          "translationSource": "ai"
         },
         {
           "number": 39,
           "sanskrit": "सर्वमस्तीति नास्तीति निश्चयं त्यज्य तिष्ठति । अहं ब्रह्मास्मि नास्मीति सच्चिदानन्दमात्रकः",
-          "transliteration": "sarvamastīti nāstīti niścayaṃ tyajya tiṣṭhati | ahaṃ brahmāsmi nāsmīti saccidānandamātrakaḥ"
+          "transliteration": "sarvamastīti nāstīti niścayaṃ tyajya tiṣṭhati | ahaṃ brahmāsmi nāsmīti saccidānandamātrakaḥ",
+          "translation": "He stays abandoning the certainty \"all exists\" or \"does not exist\"; \"I am Brahman\" or \"I am not\" — he is mere being-consciousness-bliss.",
+          "translationSource": "ai"
         },
         {
           "number": 40,
           "sanskrit": "किञ्चित्क्वचित्कदाचिच्च आत्मानं न स्पृशत्यसौ । तूष्णीमेव स्थितस्तूष्णीं तूष्णीं सत्यं न किञ्चन",
-          "transliteration": "kiñcitkvacitkadācicca ātmānaṃ na spṛśatyasau | tūṣṇīmeva sthitastūṣṇīṃ tūṣṇīṃ satyaṃ na kiñcana"
+          "transliteration": "kiñcitkvacitkadācicca ātmānaṃ na spṛśatyasau | tūṣṇīmeva sthitastūṣṇīṃ tūṣṇīṃ satyaṃ na kiñcana",
+          "translation": "He does not touch the Self with anything, anywhere, at any time; silent, remaining silent, silent, truth — nothing.",
+          "translationSource": "ai"
         },
         {
           "number": 41,
           "sanskrit": "परमात्मा गुणातीतः सर्वात्मा भूतभावनः । कालभेदं वस्तुभेदं देशभेदं स्वभेदकम्",
-          "transliteration": "paramātmā guṇātītaḥ sarvātmā bhūtabhāvanaḥ | kālabhedaṃ vastubhedaṃ deśabhedaṃ svabhedakam"
+          "transliteration": "paramātmā guṇātītaḥ sarvātmā bhūtabhāvanaḥ | kālabhedaṃ vastubhedaṃ deśabhedaṃ svabhedakam",
+          "translation": "The Supreme Self, beyond the qualities, the Self of all, the maker of beings' notions: difference of time, difference of things, difference of place, difference of self —",
+          "translationSource": "ai"
         },
         {
           "number": 42,
           "sanskrit": "किञ्चिद्भेदं न तस्यास्ति किञ्चिद्वापि न विद्यते । अहं त्वं तदिदं सोऽयं कालात्मा कालहीनकः",
-          "transliteration": "kiñcidbhedaṃ na tasyāsti kiñcidvāpi na vidyate | ahaṃ tvaṃ tadidaṃ so'yaṃ kālātmā kālahīnakaḥ"
+          "transliteration": "kiñcidbhedaṃ na tasyāsti kiñcidvāpi na vidyate | ahaṃ tvaṃ tadidaṃ so'yaṃ kālātmā kālahīnakaḥ",
+          "translation": "of him there is no difference whatever; nor does anything exist at all. \"I,\" \"you,\" \"that,\" \"this,\" \"he\" — the Self of time, devoid of time.",
+          "translationSource": "ai"
         },
         {
           "number": 43,
           "sanskrit": "शून्यात्मा सूक्ष्मरूपात्मा विश्वात्मा विश्वहीनकः । देवात्मादेवहीनात्मा मेयात्मा मेयवर्जितः",
-          "transliteration": "śūnyātmā sūkṣmarūpātmā viśvātmā viśvahīnakaḥ | devātmādevahīnātmā meyātmā meyavarjitaḥ"
+          "transliteration": "śūnyātmā sūkṣmarūpātmā viśvātmā viśvahīnakaḥ | devātmādevahīnātmā meyātmā meyavarjitaḥ",
+          "translation": "The Self of void, of subtle form, the Self of the universe, devoid of the universe; the Self of gods, devoid of gods; the Self of the measurable, free of measure.",
+          "translationSource": "ai"
         },
         {
           "number": 44,
           "sanskrit": "सर्वत्र जडहीनात्मा सर्वेषामन्तरात्मकः । सर्वसङ्कल्पहीनात्मा चिन्मात्रोऽस्मीति सर्वदा",
-          "transliteration": "sarvatra jaḍahīnātmā sarveṣāmantarātmakaḥ | sarvasaṅkalpahīnātmā cinmātro'smīti sarvadā"
+          "transliteration": "sarvatra jaḍahīnātmā sarveṣāmantarātmakaḥ | sarvasaṅkalpahīnātmā cinmātro'smīti sarvadā",
+          "translation": "Everywhere the Self devoid of dullness, the inner Self of all, the Self devoid of all intentions, always \"I am mere consciousness.\"",
+          "translationSource": "ai"
         },
         {
           "number": 45,
           "sanskrit": "केवलः परमात्माहं केवलो ज्ञानविग्रहः । सत्तामात्रस्वरूपात्मा नान्यत्किञ्चिज्जगद्भयम्",
-          "transliteration": "kevalaḥ paramātmāhaṃ kevalo jñānavigrahaḥ | sattāmātrasvarūpātmā nānyatkiñcijjagadbhayam"
+          "transliteration": "kevalaḥ paramātmāhaṃ kevalo jñānavigrahaḥ | sattāmātrasvarūpātmā nānyatkiñcijjagadbhayam",
+          "translation": "I am the Supreme Self alone, the body of knowledge alone, the Self of the nature of mere being; no other fear of the world whatever.",
+          "translationSource": "ai"
         },
         {
           "number": 46,
           "sanskrit": "जीवेश्वरेति वाक्क्वेति वेदशास्त्राद्यहं त्विति । इदं चैतन्यमेवेति अहं चैतन्यमित्यपि",
-          "transliteration": "jīveśvareti vākkveti vedaśāstrādyahaṃ tviti | idaṃ caitanyameveti ahaṃ caitanyamityapi"
+          "transliteration": "jīveśvareti vākkveti vedaśāstrādyahaṃ tviti | idaṃ caitanyameveti ahaṃ caitanyamityapi",
+          "translation": "\"Individual,\" \"Lord,\" where are these words? \"I am\" from Veda and scripture — \"this is only consciousness,\" \"I am consciousness\" —",
+          "translationSource": "ai"
         },
         {
           "number": 47,
           "sanskrit": "इति निश्चयशून्यो यो वैदेही मुक्त एव सः । चैतन्यमात्रसंसिद्धः स्वात्मारामः सुखासनः",
-          "transliteration": "iti niścayaśūnyo yo vaidehī mukta eva saḥ | caitanyamātrasaṃsiddhaḥ svātmārāmaḥ sukhāsanaḥ"
+          "transliteration": "iti niścayaśūnyo yo vaidehī mukta eva saḥ | caitanyamātrasaṃsiddhaḥ svātmārāmaḥ sukhāsanaḥ",
+          "translation": "he who is void even of such certainty is bodiless and liberated. Perfected in mere consciousness, delighting in his own Self, at ease in his seat,",
+          "translationSource": "ai"
         },
         {
           "number": 48,
           "sanskrit": "अपरिच्छिन्नरूपात्मा अणुस्थूलादिवर्जितः । तुर्यतुर्या परानन्दो वैदेही मुक्त एव सः",
-          "transliteration": "aparicchinnarūpātmā aṇusthūlādivarjitaḥ | turyaturyā parānando vaidehī mukta eva saḥ"
+          "transliteration": "aparicchinnarūpātmā aṇusthūlādivarjitaḥ | turyaturyā parānando vaidehī mukta eva saḥ",
+          "translation": "of unlimited form, free of atomic, gross and the like, the Fourth of the Fourth, supreme bliss — he is bodiless and liberated.",
+          "translationSource": "ai"
         },
         {
           "number": 49,
           "sanskrit": "नामरूपविहीनात्मा परसंवित्सुखात्मकः । तुरीयातीतरूपात्मा शुभाशुभविवर्जितः",
-          "transliteration": "nāmarūpavihīnātmā parasaṃvitsukhātmakaḥ | turīyātītarūpātmā śubhāśubhavivarjitaḥ"
+          "transliteration": "nāmarūpavihīnātmā parasaṃvitsukhātmakaḥ | turīyātītarūpātmā śubhāśubhavivarjitaḥ",
+          "translation": "The Self devoid of name and form, of the nature of the happiness of supreme awareness, of form beyond the Fourth, free of good and bad,",
+          "translationSource": "ai"
         },
         {
           "number": 50,
           "sanskrit": "योगात्मा योगयुक्तात्मा बन्धमोक्षविवर्जितः । गुणागुणविहीनात्मा देशकालादिवर्जितः",
-          "transliteration": "yogātmā yogayuktātmā bandhamokṣavivarjitaḥ | guṇāguṇavihīnātmā deśakālādivarjitaḥ"
+          "transliteration": "yogātmā yogayuktātmā bandhamokṣavivarjitaḥ | guṇāguṇavihīnātmā deśakālādivarjitaḥ",
+          "translation": "the Self of yoga, the yoga-yoked Self, free of bondage and liberation, the Self devoid of quality and non-quality, free of place and time and the rest,",
+          "translationSource": "ai"
         },
         {
           "number": 51,
           "sanskrit": "साक्ष्यसाक्षित्वहीनात्मा किञ्चित्किञ्चिन्न किञ्चन । यस्य प्रपञ्चमानं न ब्रह्माकारमपीह न",
-          "transliteration": "sākṣyasākṣitvahīnātmā kiñcitkiñcinna kiñcana | yasya prapañcamānaṃ na brahmākāramapīha na"
+          "transliteration": "sākṣyasākṣitvahīnātmā kiñcitkiñcinna kiñcana | yasya prapañcamānaṃ na brahmākāramapīha na",
+          "translation": "the Self devoid of witness and non-witness, something and nothing, none at all; in whom there is no measure of the world, nor even Brahman-form here.",
+          "translationSource": "ai"
         },
         {
           "number": 52,
           "sanskrit": "स्वस्वरूपे स्वयञ्ज्योतिः स्वस्वरूपे स्वयंरतिः । वाचामगोचरानन्दो वाङ्मनोगोचरः स्वयम्",
-          "transliteration": "svasvarūpe svayañjyotiḥ svasvarūpe svayaṃratiḥ | vācāmagocarānando vāṅmanogocaraḥ svayam"
+          "transliteration": "svasvarūpe svayañjyotiḥ svasvarūpe svayaṃratiḥ | vācāmagocarānando vāṅmanogocaraḥ svayam",
+          "translation": "In his own nature self-luminous, in his own nature self-delighting; bliss beyond speech's reach, himself within reach of speech and mind;",
+          "translationSource": "ai"
         },
         {
           "number": 53,
           "sanskrit": "अतीतातीतभावो यो वैदेही मुक्त एव सः । चित्तवृत्तेरतीतो यश्चित्तवृत्त्यवभासकः",
-          "transliteration": "atītātītabhāvo yo vaidehī mukta eva saḥ | cittavṛtteratīto yaścittavṛttyavabhāsakaḥ"
+          "transliteration": "atītātītabhāvo yo vaidehī mukta eva saḥ | cittavṛtteratīto yaścittavṛttyavabhāsakaḥ",
+          "translation": "he whose state is beyond the beyond is bodiless and liberated. Who is beyond the mind's modification, the illuminator of the mind's modification,",
+          "translationSource": "ai"
         },
         {
           "number": 54,
           "sanskrit": "सर्ववृत्तिविहीनात्मा वैदेही मुक्त एव सः । तस्मिन्काले विदेहीति देहस्मरणवर्जितः",
-          "transliteration": "sarvavṛttivihīnātmā vaidehī mukta eva saḥ | tasminkāle videhīti dehasmaraṇavarjitaḥ"
+          "transliteration": "sarvavṛttivihīnātmā vaidehī mukta eva saḥ | tasminkāle videhīti dehasmaraṇavarjitaḥ",
+          "translation": "the Self devoid of all modification is bodiless and liberated. At that time \"bodiless,\" free of remembering the body;",
+          "translationSource": "ai"
         },
         {
           "number": 55,
           "sanskrit": "ईषन्मात्रं स्मृतं चेद्यस्तदा सर्वसमन्वितः । परैरदृष्टबाह्यात्मा परमानन्दचिद्धनः",
-          "transliteration": "īṣanmātraṃ smṛtaṃ cedyastadā sarvasamanvitaḥ | parairadṛṣṭabāhyātmā paramānandaciddhanaḥ"
+          "transliteration": "īṣanmātraṃ smṛtaṃ cedyastadā sarvasamanvitaḥ | parairadṛṣṭabāhyātmā paramānandaciddhanaḥ",
+          "translation": "if he remembers even slightly, then he is endowed with all; unseen by others in his outer self, a mass of supreme bliss and consciousness;",
+          "translationSource": "ai"
         },
         {
           "number": 56,
           "sanskrit": "परैरदृष्टबाह्यात्मा सर्ववेदान्तगोचरः । ब्रह्मामृतरसास्वादो ब्रह्मामृतरसायनः",
-          "transliteration": "parairadṛṣṭabāhyātmā sarvavedāntagocaraḥ | brahmāmṛtarasāsvādo brahmāmṛtarasāyanaḥ"
+          "transliteration": "parairadṛṣṭabāhyātmā sarvavedāntagocaraḥ | brahmāmṛtarasāsvādo brahmāmṛtarasāyanaḥ",
+          "translation": "unseen by others in his outer self, within the reach of all Vedanta; tasting the nectar-savor of Brahman, the elixir of Brahman-nectar-savor;",
+          "translationSource": "ai"
         },
         {
           "number": 57,
           "sanskrit": "ब्रह्मामृतरसासक्तो ब्रह्मामृतरसः स्वयम् । ब्रह्मामृतरसे मग्नो ब्रह्मानन्दशिवार्चनः",
-          "transliteration": "brahmāmṛtarasāsakto brahmāmṛtarasaḥ svayam | brahmāmṛtarase magno brahmānandaśivārcanaḥ"
+          "transliteration": "brahmāmṛtarasāsakto brahmāmṛtarasaḥ svayam | brahmāmṛtarase magno brahmānandaśivārcanaḥ",
+          "translation": "attached to the nectar-savor of Brahman, himself the nectar-savor of Brahman; immersed in the nectar-savor of Brahman, worshipping Shiva in Brahman-bliss;",
+          "translationSource": "ai"
         },
         {
           "number": 58,
           "sanskrit": "ब्रह्मामृतरसे तृप्तो ब्रह्मानन्दानुभावकः । ब्रह्मानन्दशिवानन्दो ब्रह्मानन्दरसप्रभः",
-          "transliteration": "brahmāmṛtarase tṛpto brahmānandānubhāvakaḥ | brahmānandaśivānando brahmānandarasaprabhaḥ"
+          "transliteration": "brahmāmṛtarase tṛpto brahmānandānubhāvakaḥ | brahmānandaśivānando brahmānandarasaprabhaḥ",
+          "translation": "satisfied by the nectar-savor of Brahman, an experiencer of Brahman-bliss; Brahman-bliss and Shiva-bliss, radiant with the savor of Brahman-bliss;",
+          "translationSource": "ai"
         },
         {
           "number": 59,
           "sanskrit": "ब्रह्मानन्दपरं ज्योतिर्ब्रह्मानन्दनिरन्तरः । ब्रह्मानन्दरसान्नादो ब्रह्मानन्दकुटुम्बकः",
-          "transliteration": "brahmānandaparaṃ jyotirbrahmānandanirantaraḥ | brahmānandarasānnādo brahmānandakuṭumbakaḥ"
+          "transliteration": "brahmānandaparaṃ jyotirbrahmānandanirantaraḥ | brahmānandarasānnādo brahmānandakuṭumbakaḥ",
+          "translation": "the supreme light of Brahman-bliss, continuous in Brahman-bliss; with the sound of the food of Brahman-bliss-savor, a family of Brahman-bliss;",
+          "translationSource": "ai"
         },
         {
           "number": 60,
           "sanskrit": "ब्रह्मानन्दरसारूढो ब्रह्मानन्दैकचिद्धनः । ब्रह्मानन्दरसोद्बाहो ब्रह्मानन्दरसम्भरः",
-          "transliteration": "brahmānandarasārūḍho brahmānandaikaciddhanaḥ | brahmānandarasodbāho brahmānandarasambharaḥ"
+          "transliteration": "brahmānandarasārūḍho brahmānandaikaciddhanaḥ | brahmānandarasodbāho brahmānandarasambharaḥ",
+          "translation": "mounted on the savor of Brahman-bliss, a sole mass of Brahman-bliss consciousness; bearing the savor of Brahman-bliss, filled with the savor of Brahman-bliss;",
+          "translationSource": "ai"
         },
         {
           "number": 61,
           "sanskrit": "ब्रह्मानन्दजनैर्युक्तो ब्रह्मानन्दात्मनि स्थितः । आत्मरूपमिदं सर्वमात्मनोऽन्यन्न कञ्चन",
-          "transliteration": "brahmānandajanairyukto brahmānandātmani sthitaḥ | ātmarūpamidaṃ sarvamātmano'nyanna kañcana"
+          "transliteration": "brahmānandajanairyukto brahmānandātmani sthitaḥ | ātmarūpamidaṃ sarvamātmano'nyanna kañcana",
+          "translation": "joined with those of Brahman-bliss, established in the Self of Brahman-bliss. All this is of the nature of the Self; nothing is other than the Self.",
+          "translationSource": "ai"
         },
         {
           "number": 62,
           "sanskrit": "सर्वमात्माहमात्मास्मि परमात्मा परात्मकः । नित्यानन्द स्वरूपात्मा वैदेही मुक्त एव सः",
-          "transliteration": "sarvamātmāhamātmāsmi paramātmā parātmakaḥ | nityānanda svarūpātmā vaidehī mukta eva saḥ"
+          "transliteration": "sarvamātmāhamātmāsmi paramātmā parātmakaḥ | nityānanda svarūpātmā vaidehī mukta eva saḥ",
+          "translation": "All is the Self; I am the Self; the Supreme Self, the highest; of the nature of eternal bliss — he is bodiless and liberated.",
+          "translationSource": "ai"
         },
         {
           "number": 63,
           "sanskrit": "पूर्णरूपो महानात्मा प्रीतात्मा शाश्वतात्मकः । सर्वान्तर्यामिरूपात्मा निर्मलात्मा निरात्मकः",
-          "transliteration": "pūrṇarūpo mahānātmā prītātmā śāśvatātmakaḥ | sarvāntaryāmirūpātmā nirmalātmā nirātmakaḥ"
+          "transliteration": "pūrṇarūpo mahānātmā prītātmā śāśvatātmakaḥ | sarvāntaryāmirūpātmā nirmalātmā nirātmakaḥ",
+          "translation": "Of full form, the great Self, the pleased Self, the everlasting Self, of the form of the inner controller of all, the stainless Self, the selfless;",
+          "translationSource": "ai"
         },
         {
           "number": 64,
           "sanskrit": "निर्विकारस्वरूपात्मा शुद्धात्मा शान्तरूपकः । शान्ताशान्तस्वरूपात्मा नैकात्मत्वविवर्जितः",
-          "transliteration": "nirvikārasvarūpātmā śuddhātmā śāntarūpakaḥ | śāntāśāntasvarūpātmā naikātmatvavivarjitaḥ"
+          "transliteration": "nirvikārasvarūpātmā śuddhātmā śāntarūpakaḥ | śāntāśāntasvarūpātmā naikātmatvavivarjitaḥ",
+          "translation": "of changeless nature, pure Self, of peaceful form; the Self of peaceful and unpeaceful nature, free of the sense of unity of the Self;",
+          "translationSource": "ai"
         },
         {
           "number": 65,
           "sanskrit": "जीवात्मपरमात्मेति चिन्तासर्वस्ववर्जितः । मुक्तामुक्तस्वरूपात्मा मुक्तामुक्तविवर्जितः",
-          "transliteration": "jīvātmaparamātmeti cintāsarvasvavarjitaḥ | muktāmuktasvarūpātmā muktāmuktavivarjitaḥ"
+          "transliteration": "jīvātmaparamātmeti cintāsarvasvavarjitaḥ | muktāmuktasvarūpātmā muktāmuktavivarjitaḥ",
+          "translation": "free of the thought \"individual self, supreme Self,\" whose Self is of liberated and unliberated nature, free of liberated and unliberated;",
+          "translationSource": "ai"
         },
         {
           "number": 66,
           "sanskrit": "बन्धमोक्षस्वरूपात्मा बन्धमोक्षविवर्जितः । द्वैताद्वैतस्वरूपात्मा द्वैताद्वैतविवर्जितः",
-          "transliteration": "bandhamokṣasvarūpātmā bandhamokṣavivarjitaḥ | dvaitādvaitasvarūpātmā dvaitādvaitavivarjitaḥ"
+          "transliteration": "bandhamokṣasvarūpātmā bandhamokṣavivarjitaḥ | dvaitādvaitasvarūpātmā dvaitādvaitavivarjitaḥ",
+          "translation": "the Self of the nature of bondage and liberation, free of bondage and liberation; the Self of dual and non-dual nature, free of dual and non-dual;",
+          "translationSource": "ai"
         },
         {
           "number": 67,
           "sanskrit": "सर्वासर्वस्वरूपात्मा सर्वासर्वविवर्जितः । मोदप्रमोदरूपात्मा मोदादिविनिवर्जितः",
-          "transliteration": "sarvāsarvasvarūpātmā sarvāsarvavivarjitaḥ | modapramodarūpātmā modādivinivarjitaḥ"
+          "transliteration": "sarvāsarvasvarūpātmā sarvāsarvavivarjitaḥ | modapramodarūpātmā modādivinivarjitaḥ",
+          "translation": "the Self of the nature of all and not-all, free of all and not-all; of the form of joy and great joy, free of joy and the rest;",
+          "translationSource": "ai"
         },
         {
           "number": 68,
           "sanskrit": "सर्वसङ्कल्पहीनात्मा वैदेही मुक्त एव सः । निष्कलात्मा निर्मलात्मा बुद्धात्मापुरुषात्मकः",
-          "transliteration": "sarvasaṅkalpahīnātmā vaidehī mukta eva saḥ | niṣkalātmā nirmalātmā buddhātmāpuruṣātmakaḥ"
+          "transliteration": "sarvasaṅkalpahīnātmā vaidehī mukta eva saḥ | niṣkalātmā nirmalātmā buddhātmāpuruṣātmakaḥ",
+          "translation": "the Self devoid of all intentions is bodiless and liberated. The partless Self, the stainless Self, the awakened Self, the non-person Self;",
+          "translationSource": "ai"
         },
         {
           "number": 69,
           "sanskrit": "आनन्दादिविहीनात्मा अमृतात्मामृतात्मकः । कालत्रयस्वरूपात्मा कालत्रयविवर्जितः",
-          "transliteration": "ānandādivihīnātmā amṛtātmāmṛtātmakaḥ | kālatrayasvarūpātmā kālatrayavivarjitaḥ"
+          "transliteration": "ānandādivihīnātmā amṛtātmāmṛtātmakaḥ | kālatrayasvarūpātmā kālatrayavivarjitaḥ",
+          "translation": "the Self devoid of bliss and the rest, the immortal Self, of immortal nature; of the nature of the three times, free of the three times;",
+          "translationSource": "ai"
         },
         {
           "number": 70,
           "sanskrit": "अखिलात्मा ह्यमेयात्मा मानात्मा मानवर्जितः । नित्यप्रत्यक्षरूपात्मा नित्यप्रत्यक्षनिर्णयः",
-          "transliteration": "akhilātmā hyameyātmā mānātmā mānavarjitaḥ | nityapratyakṣarūpātmā nityapratyakṣanirṇayaḥ"
+          "transliteration": "akhilātmā hyameyātmā mānātmā mānavarjitaḥ | nityapratyakṣarūpātmā nityapratyakṣanirṇayaḥ",
+          "translation": "the entire Self, the immeasurable Self, the Self of measure, free of measure; the Self of eternally evident nature, the determination of the eternally evident;",
+          "translationSource": "ai"
         },
         {
           "number": 71,
           "sanskrit": "अन्यहीनस्वभावात्मा अन्यहीनस्वयम्प्रभः । विद्याविद्यादिमेयात्मा विद्याविद्यादिवर्जितः",
-          "transliteration": "anyahīnasvabhāvātmā anyahīnasvayamprabhaḥ | vidyāvidyādimeyātmā vidyāvidyādivarjitaḥ"
+          "transliteration": "anyahīnasvabhāvātmā anyahīnasvayamprabhaḥ | vidyāvidyādimeyātmā vidyāvidyādivarjitaḥ",
+          "translation": "of nature devoid of another, self-luminous devoid of another; the Self measured by knowledge and ignorance and the like, free of knowledge and ignorance;",
+          "translationSource": "ai"
         },
         {
           "number": 72,
           "sanskrit": "नित्यानित्यविहीनात्मा इहामुत्रविवर्जितः । शमादिषट्कशून्यात्मा मुमुक्षुत्वादिवर्जितः",
-          "transliteration": "nityānityavihīnātmā ihāmutravivarjitaḥ | śamādiṣaṭkaśūnyātmā mumukṣutvādivarjitaḥ"
+          "transliteration": "nityānityavihīnātmā ihāmutravivarjitaḥ | śamādiṣaṭkaśūnyātmā mumukṣutvādivarjitaḥ",
+          "translation": "the Self devoid of eternal and non-eternal, free of here and hereafter; the Self empty of the sixfold means beginning with peace, free of the desire for liberation and the like;",
+          "translationSource": "ai"
         },
         {
           "number": 73,
           "sanskrit": "स्थूलदेहविहीनात्मा सूक्ष्मदेहविवर्जितः । कारणादिविहीनात्मा तुरीयादिविवर्जितः",
-          "transliteration": "sthūladehavihīnātmā sūkṣmadehavivarjitaḥ | kāraṇādivihīnātmā turīyādivivarjitaḥ"
+          "transliteration": "sthūladehavihīnātmā sūkṣmadehavivarjitaḥ | kāraṇādivihīnātmā turīyādivivarjitaḥ",
+          "translation": "the Self devoid of the gross body, free of the subtle body; the Self devoid of cause and the rest, free of the Fourth and the rest;",
+          "translationSource": "ai"
         },
         {
           "number": 74,
           "sanskrit": "अन्नकोशविहीनात्मा प्राणकोशविवर्जितः । मनःकोशविहीनात्मा विज्ञानादिविवर्जितः",
-          "transliteration": "annakośavihīnātmā prāṇakośavivarjitaḥ | manaḥkośavihīnātmā vijñānādivivarjitaḥ"
+          "transliteration": "annakośavihīnātmā prāṇakośavivarjitaḥ | manaḥkośavihīnātmā vijñānādivivarjitaḥ",
+          "translation": "the Self devoid of the food-sheath, free of the breath-sheath; the Self devoid of the mind-sheath, free of the knowledge-sheath and the rest;",
+          "translationSource": "ai"
         },
         {
           "number": 75,
           "sanskrit": "आनन्दकोशहीनात्मा पञ्चकोशविवर्जितः । निर्विकल्पस्वरूपात्मा सविकल्पविवर्जितः",
-          "transliteration": "ānandakośahīnātmā pañcakośavivarjitaḥ | nirvikalpasvarūpātmā savikalpavivarjitaḥ"
+          "transliteration": "ānandakośahīnātmā pañcakośavivarjitaḥ | nirvikalpasvarūpātmā savikalpavivarjitaḥ",
+          "translation": "the Self devoid of the bliss-sheath, free of the five sheaths; the Self of non-conceptual nature, free of the conceptual;",
+          "translationSource": "ai"
         },
         {
           "number": 76,
           "sanskrit": "दृश्यानुविद्धहीनात्मा शब्दविद्धविवर्जितः । सदा समाधिशून्यात्मा आदिमध्यान्तवर्जितः",
-          "transliteration": "dṛśyānuviddhahīnātmā śabdaviddhavivarjitaḥ | sadā samādhiśūnyātmā ādimadhyāntavarjitaḥ"
+          "transliteration": "dṛśyānuviddhahīnātmā śabdaviddhavivarjitaḥ | sadā samādhiśūnyātmā ādimadhyāntavarjitaḥ",
+          "translation": "the Self devoid of association with the seen, free of association with sound; always the Self empty of samadhi, free of beginning, middle and end;",
+          "translationSource": "ai"
         },
         {
           "number": 77,
           "sanskrit": "प्रज्ञानवाक्यहीनात्मा अहम्ब्रह्मास्मिवर्जितः । तत्त्वमस्यादिहीनात्मा अयमात्मेत्यभावकः",
-          "transliteration": "prajñānavākyahīnātmā ahambrahmāsmivarjitaḥ | tattvamasyādihīnātmā ayamātmetyabhāvakaḥ"
+          "transliteration": "prajñānavākyahīnātmā ahambrahmāsmivarjitaḥ | tattvamasyādihīnātmā ayamātmetyabhāvakaḥ",
+          "translation": "the Self devoid of the saying \"consciousness is Brahman,\" free of \"I am Brahman\"; the Self devoid of \"That thou art\" and the like, without the notion \"this Self\";",
+          "translationSource": "ai"
         },
         {
           "number": 78,
           "sanskrit": "ओङ्कारवाच्यहीनात्मा सर्ववाच्यविवर्जितः । अवस्थात्रयहीनात्मा अक्षरात्मा चिदात्मकः",
-          "transliteration": "oṅkāravācyahīnātmā sarvavācyavivarjitaḥ | avasthātrayahīnātmā akṣarātmā cidātmakaḥ"
+          "transliteration": "oṅkāravācyahīnātmā sarvavācyavivarjitaḥ | avasthātrayahīnātmā akṣarātmā cidātmakaḥ",
+          "translation": "the Self devoid of what Om signifies, free of all that can be said; the Self devoid of the three states, the imperishable Self, of the nature of consciousness;",
+          "translationSource": "ai"
         },
         {
           "number": 79,
           "sanskrit": "आत्मज्ञेयादिहीनात्मा यत्किञ्चिदिदमात्मकः । भानाभानविहीनात्मा वैदेही मुक्त एव सः",
-          "transliteration": "ātmajñeyādihīnātmā yatkiñcididamātmakaḥ | bhānābhānavihīnātmā vaidehī mukta eva saḥ"
+          "transliteration": "ātmajñeyādihīnātmā yatkiñcididamātmakaḥ | bhānābhānavihīnātmā vaidehī mukta eva saḥ",
+          "translation": "the Self devoid of the knowable and the like, whatever this is of Self; the Self devoid of appearing and non-appearing — he is bodiless and liberated.",
+          "translationSource": "ai"
         },
         {
           "number": 80,
           "sanskrit": "आत्मानमेव वीक्षस्व आत्मानं बोधय स्वकम् । स्वमात्मानं स्वयं भुङ्क्ष्व स्वस्थो भव षडानन",
-          "transliteration": "ātmānameva vīkṣasva ātmānaṃ bodhaya svakam | svamātmānaṃ svayaṃ bhuṅkṣva svastho bhava ṣaḍānana"
+          "transliteration": "ātmānameva vīkṣasva ātmānaṃ bodhaya svakam | svamātmānaṃ svayaṃ bhuṅkṣva svastho bhava ṣaḍānana",
+          "translation": "Look at the Self alone; awaken your own Self; by yourself enjoy your own Self; be established in yourself, O six-faced one.",
+          "translationSource": "ai"
         },
         {
           "number": "81",
