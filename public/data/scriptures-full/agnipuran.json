@@ -47361,25 +47361,33 @@
           "number": 38,
           "sanskrit": "देवस्य दक्षिणां मूर्तिं पञ्चलक्षं स्थितो जपेत् । जपान्ते घृतहोमस्तु दशसाहस्रिको भवेत्",
           "transliteration": "devasya dakṣiṇāṃ mūrtiṃ pañcalakṣaṃ sthito japet / japānte ghṛtahomastu daśasāhasriko bhavet",
-          "hindi": "१. ३कारस्य ब्रह्मा ऋषिर्गायत्री छन्दोऽग्नि्देवता शुक्लो वर्णः सर्वकर्मारम्भे विनियोगः । २. सप्तव्याहतीनां विश्वामित्रजमदग्निभरद्वाजगोतमात्रिवसिष्ठकश्यपा ऋषयो गायत्र्युष्णिगनुष्टुन्बृहती प ड्त्रष्टुन्जगत्यश्छन्दांस्यग्नि- वास्व्रादित्यबृहस्पतिवरुणेनद्रविश्वेदेवा देवता अनादिष्टप्रायश्चितते प्राणायामे विनियोगः ।"
+          "hindi": "१. ३कारस्य ब्रह्मा ऋषिर्गायत्री छन्दोऽग्नि्देवता शुक्लो वर्णः सर्वकर्मारम्भे विनियोगः । २. सप्तव्याहतीनां विश्वामित्रजमदग्निभरद्वाजगोतमात्रिवसिष्ठकश्यपा ऋषयो गायत्र्युष्णिगनुष्टुन्बृहती प ड्त्रष्टुन्जगत्यश्छन्दांस्यग्नि- वास्व्रादित्यबृहस्पतिवरुणेनद्रविश्वेदेवा देवता अनादिष्टप्रायश्चितते प्राणायामे विनियोगः ।",
+          "translation": "Standing, one should recite five lakhs to the right form of the god; at the end of the recitation the ghee oblation should be ten thousand.",
+          "translationSource": "ai"
         },
         {
           "number": 39,
           "sanskrit": "एवमाप्यायितो मन्त्रो वश्योच्चाटादि कारयेत् । ऊर्ध्वे शून्यमधः शून्यं मध्ये शून्यं निरामयं",
           "transliteration": "evamāpyāyito mantro vaśyoccāṭādi kārayet / ūrdhve śūnyamadhaḥ śūnyaṃ madhye śūnyaṃ nirāmayaṃ",
-          "hindi": "जलके भीतर “ऋतं च०'-- इस अघमर्षण- “आपो हिष्ठा' आदि तीन ऋचाओंके सिन्धुद्वीप ऋषि, गायत्री छन्द और जल देवता माने गये हैं। ब्राह्मस्नानके लिये मार्जनमें इसका विनियोग किया जाता है।"
+          "hindi": "जलके भीतर “ऋतं च०'-- इस अघमर्षण- “आपो हिष्ठा' आदि तीन ऋचाओंके सिन्धुद्वीप ऋषि, गायत्री छन्द और जल देवता माने गये हैं। ब्राह्मस्नानके लिये मार्जनमें इसका विनियोग किया जाता है।",
+          "translation": "The mantra thus nourished may be made to do subjugation, banishing and the like. Empty above, empty below, empty in the middle, free of disease —",
+          "translationSource": "ai"
         },
         {
           "number": 40,
           "sanskrit": "त्रिशून्यं यो विजानाति मुच्यते ऽसौ ध्रुवं द्विजः । प्रासादं यो न जानाति पञ्चमन्त्रमहातनुं",
           "transliteration": "triśūnyaṃ yo vijānāti mucyate 'sau dhruvaṃ dvijaḥ / prāsādaṃ yo na jānāti pañcamantramahātanuṃ",
-          "hindi": "(अधघमर्षण-मन्त्रका विनियोग इस प्रकार करना चाहिए --) इस अघमर्षण-सूक्तके अघमर्षण ऋषि, अनुष्टुप् छन्द और भाववृत्त देवता हैं। पापनि:सारणके कर्में इसका प्रयोग किया जाता है?।"
+          "hindi": "(अधघमर्षण-मन्त्रका विनियोग इस प्रकार करना चाहिए --) इस अघमर्षण-सूक्तके अघमर्षण ऋषि, अनुष्टुप् छन्द और भाववृत्त देवता हैं। पापनि:सारणके कर्में इसका प्रयोग किया जाता है?।",
+          "translation": "the twice-born who knows the three voids is surely freed. One who does not know the Prasada, the great body of five mantras,",
+          "translationSource": "ai"
         },
         {
           "number": 41,
           "sanskrit": "अष्टत्रिंशत्कलायुक्तं न स आचार्य उच्यते । तथोङ्कारञ्च गायत्रीं रुद्रादीन् वेत्त्य।असौ गुरुः",
           "transliteration": "aṣṭatriṃśatkalāyuktaṃ na sa ācārya ucyate / tathoṅkārañca gāyatrīṃ rudrādīn vettya.asau guruḥ",
-          "hindi": "' ३० आपो ज्योती रसोऽमृतं ब्रह्म भूर्भुवः स्वरोम्।' यह गायत्री-मन्त्रका शिरोभाग है। इसके प्रजापति ऋषि हैं। यह छन्दरहित यजुर्मन्त्र है; क्योंकि यजुर्वेदके मन्त्र किसी नियत अक्षरवाले वायु और सूर्य देवता माने गये हैं। प्राणायामसे वायु, वायुसे अग्नि और अग्निसे जलको उत्पत्ति होती है तथा उसी जलसे शुद्धि होती है। इसलिये जलका आचमन निम्नलिखित मन्त्रसे करे"
+          "hindi": "' ३० आपो ज्योती रसोऽमृतं ब्रह्म भूर्भुवः स्वरोम्।' यह गायत्री-मन्त्रका शिरोभाग है। इसके प्रजापति ऋषि हैं। यह छन्दरहित यजुर्मन्त्र है; क्योंकि यजुर्वेदके मन्त्र किसी नियत अक्षरवाले वायु और सूर्य देवता माने गये हैं। प्राणायामसे वायु, वायुसे अग्नि और अग्निसे जलको उत्पत्ति होती है तथा उसी जलसे शुद्धि होती है। इसलिये जलका आचमन निम्नलिखित मन्त्रसे करे",
+          "translation": "endowed with thirty-eight parts, is not called a teacher; he who knows Omkara, Gayatri, Rudra and the rest is the guru.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -47461,241 +47469,321 @@
           "number": 10,
           "sanskrit": "पापे कृते तिलैर् होमो गायत्रीजप ईरितः । जप्त्वा सहस्रं गायत्र्या उपवासी स पापहा(१)",
           "transliteration": "pāpe kṛte tilair homo gāyatrījapa īritaḥ / japtvā sahasraṃ gāyatryā upavāsī sa pāpahā(1)",
-          "hindi": "ॐ अन्तश्चरसि भूतेषु गुहायां विश्वतोमुखः । त्वं यज्ञस्त्वं वषट्कार आपो ज्योती रसोऽमृतम् ॥ ६. उदुत्यमिति प्रस्कण्व ऋषिर्गायत्री छन्दः सूर्यो देवता सूर्योपस्थाने विनियोगः । ७. चित्रमित्यस्य कौत्स ऋषिस्त्रष्टुपूछन्दः सूर्यो देवता सूर्योपस्थाने विनियोगः । भी 'भर्ग' शब्द निष्पन्न होता है; क्योंकि सूर्यदेवका तेज ओषधि आदिको पकाता है। 'भ्राजु' धातु भी दीप्त्यर्थक होता है। ' भ्राजते इति भर्ग: '-इस व्युत्पत्तिके अनुसार ' भ्राज' धातुसे भी ' भर्ग' शब्द"
+          "hindi": "ॐ अन्तश्चरसि भूतेषु गुहायां विश्वतोमुखः । त्वं यज्ञस्त्वं वषट्कार आपो ज्योती रसोऽमृतम् ॥ ६. उदुत्यमिति प्रस्कण्व ऋषिर्गायत्री छन्दः सूर्यो देवता सूर्योपस्थाने विनियोगः । ७. चित्रमित्यस्य कौत्स ऋषिस्त्रष्टुपूछन्दः सूर्यो देवता सूर्योपस्थाने विनियोगः । भी 'भर्ग' शब्द निष्पन्न होता है; क्योंकि सूर्यदेवका तेज ओषधि आदिको पकाता है। 'भ्राजु' धातु भी दीप्त्यर्थक होता है। ' भ्राजते इति भर्ग: '-इस व्युत्पत्तिके अनुसार ' भ्राज' धातुसे भी ' भर्ग' शब्द",
+          "translation": "When sin is done, oblation with sesame and recitation of the Gayatri are declared; having repeated the Gayatri a thousand times, fasting, he is a sin-destroyer.",
+          "translationSource": "ai"
         },
         {
           "number": 11,
           "sanskrit": "गोघ्नः पितृघ्नो मातृघ्नो ब्रह्महा गुरुतल्पगः । ब्रह्मघ्नः स्वर्णहारी च सुरापो लक्षजप्यतः",
           "transliteration": "goghnaḥ pitṛghno mātṛghno brahmahā gurutalpagaḥ / brahmaghnaḥ svarṇahārī ca surāpo lakṣajapyataḥ",
-          "hindi": "बनता है। बहुलं छन्दसि'--इस वैदिक व्याकरणसूत्रके अनुसार उक्त सभी धातुओंसे आवश्यक प्रत्यय, आगम एवं विकारको ऊहा करनेसे ' भर्ग' शब्द बन सकता है। 'वरेण्य'का अर्थ है-' सम्पूर्ण तेजोंसे"
+          "hindi": "बनता है। बहुलं छन्दसि'--इस वैदिक व्याकरणसूत्रके अनुसार उक्त सभी धातुओंसे आवश्यक प्रत्यय, आगम एवं विकारको ऊहा करनेसे ' भर्ग' शब्द बन सकता है। 'वरेण्य'का अर्थ है-' सम्पूर्ण तेजोंसे",
+          "translation": "A cow-killer, father-killer, mother-killer, Brahmin-killer, violator of the teacher's bed, Brahmin-killer, gold-thief, liquor-drinker — by a lakh of recitations",
+          "translationSource": "ai"
         },
         {
           "number": 12,
           "sanskrit": "शुध्यते वाथ वा स्नात्वा शतमन्तर्जले जपेत् । अपः शतेन पीत्वा तु गायत्र्याः पापहा भवेत्",
           "transliteration": "śudhyate vātha vā snātvā śatamantarjale japet / apaḥ śatena pītvā tu gāyatryāḥ pāpahā bhavet",
-          "hindi": "श्रेष्ठ परमपदस्वरूप'। अथवा स्वर्ग एवं मोक्षकी कामना करनेवालोंके द्वार सदा ही वरणीय होनेके कारण भी वह 'वरेण्य' कहलाता है; क्योंकि 'वुञ्' धातु वरणार्थक है। ' धीमहि’ पदका यह अभिप्राय है कि “हम जाग्रत् और सुषुप्ति आदि अवस्थाओंसे अतीत नित्य शुद्ध, बुद्ध, एकमात्र सत्य एवं ज्योतिःस्वरूप परब्रह्म परमेश्वरका मुक्तिके लिये ध्यान करते हैं'"
+          "hindi": "श्रेष्ठ परमपदस्वरूप'। अथवा स्वर्ग एवं मोक्षकी कामना करनेवालोंके द्वार सदा ही वरणीय होनेके कारण भी वह 'वरेण्य' कहलाता है; क्योंकि 'वुञ्' धातु वरणार्थक है। ' धीमहि’ पदका यह अभिप्राय है कि “हम जाग्रत् और सुषुप्ति आदि अवस्थाओंसे अतीत नित्य शुद्ध, बुद्ध, एकमात्र सत्य एवं ज्योतिःस्वरूप परब्रह्म परमेश्वरका मुक्तिके लिये ध्यान करते हैं'",
+          "translation": "he is purified; or having bathed one should recite a hundred in the water. Having drunk water with a hundred Gayatris one becomes a sin-destroyer.",
+          "translationSource": "ai"
         },
         {
           "number": 13,
           "sanskrit": "शतं जप्ता तु गायत्री पापोपशमनी स्मृता । सहस्रं शप्ता सा देवी उपपातकनाशिनी",
           "transliteration": "śataṃ japtā tu gāyatrī pāpopaśamanī smṛtā / sahasraṃ śaptā sā devī upapātakanāśinī",
-          "hindi": "जगत्को सृष्टि आदिके कारण भगवान् श्रीविष्णु ही वह ज्योति हैं। कुछ लोग शिवको वह ज्योति मानते हैं, कुछ लोग शक्तिको मानते हैं और कोई सूर्यको तथा कुछ अग्निहोत्री वेदज्ञ अग्निको वह"
+          "hindi": "जगत्को सृष्टि आदिके कारण भगवान् श्रीविष्णु ही वह ज्योति हैं। कुछ लोग शिवको वह ज्योति मानते हैं, कुछ लोग शक्तिको मानते हैं और कोई सूर्यको तथा कुछ अग्निहोत्री वेदज्ञ अग्निको वह",
+          "translation": "The Gayatri recited a hundred times is remembered as sin-quieting; recited a thousand times that goddess destroys minor sins;",
+          "translationSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "अभीष्टदा कोटिजप्या देवत्वं राजतामियात् । ओङ्कारं पूर्वमुच्चार्य भूर्भुवः स्वस्तथैव च",
           "transliteration": "abhīṣṭadā koṭijapyā devatvaṃ rājatāmiyāt / oṅkāraṃ pūrvamuccārya bhūrbhuvaḥ svastathaiva ca",
-          "hindi": "ज्योति मानते हैं। वस्तुतः अग्नि आदि रूपोंमें स्थित विष्णु ही वेद-वेदाङ्गोंमें 'ब्रह्म' माने गये हैं। इसलिये ' देवस्य सवितुः '— अर्थात् जगत्के उत्पादक श्रीविष्णुदेवका ही वह परमपद माना गया है; क्योंकि वे स्वयं ज्योतिःस्वरूप भगवान् श्रीहरि महत्तत्त्व आदिका प्रसव (उत्पत्ति) करते हैं। वे ही पर्जन्य,"
+          "hindi": "ज्योति मानते हैं। वस्तुतः अग्नि आदि रूपोंमें स्थित विष्णु ही वेद-वेदाङ्गोंमें 'ब्रह्म' माने गये हैं। इसलिये ' देवस्य सवितुः '— अर्थात् जगत्के उत्पादक श्रीविष्णुदेवका ही वह परमपद माना गया है; क्योंकि वे स्वयं ज्योतिःस्वरूप भगवान् श्रीहरि महत्तत्त्व आदिका प्रसव (उत्पत्ति) करते हैं। वे ही पर्जन्य,",
+          "translation": "recited a crore she gives what is desired; one attains divinity and kingship. Having first uttered Omkara, then \"bhur bhuvah svah\" likewise,",
+          "translationSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "गायत्री प्रणवश्चान्ते जपे चैवमुदाहृतं । विश्वामित्र ऋषिच्छन्दो गायत्रं सविता तथा",
           "transliteration": "gāyatrī praṇavaścānte jape caivamudāhṛtaṃ / viśvāmitra ṛṣicchando gāyatraṃ savitā tathā",
-          "hindi": "अन्नका पोषण करते हैं। अग्निमें विधिपूर्वक दी हुई आहुति सूर्यको प्राप्त होती है और सूर्यसे वृष्टि, वृष्टिसे अन्न और अन्नसे प्रजाओंकी उत्पत्ति होती है। “धीमहि ' पद धारणार्थक ' डुधाज्' धातुसे भी"
+          "hindi": "अन्नका पोषण करते हैं। अग्निमें विधिपूर्वक दी हुई आहुति सूर्यको प्राप्त होती है और सूर्यसे वृष्टि, वृष्टिसे अन्न और अन्नसे प्रजाओंकी उत्पत्ति होती है। “धीमहि ' पद धारणार्थक ' डुधाज्' धातुसे भी",
+          "translation": "the Gayatri, and Pranava at the end — this is the stated form in recitation. Vishvamitra is the seer, the meter Gayatri, and Savitri;",
+          "translationSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "देवतोपनये जप्ये विनियोगो हुते तथा । अग्निर्वायू रविर्विद्युत् यमो जलपतिर्गुरुः",
           "transliteration": "devatopanaye japye viniyogo hute tathā / agnirvāyū ravirvidyut yamo jalapatirguruḥ",
-          "hindi": "सिद्ध होता है। इसलिये हम उस तेजका मनसे धारण-चिन्तन करते हैं-यह भी अर्थ होगा। (यः) परमात्मा श्रीविष्णुका वह तेज (नः) हम सब प्राणियोंकी (धियः) बुद्धि-वृत्तियोंको (प्रचोदयात्) प्रेरित करे। वे ईश्वर ही कर्मफलका भोग करनेवाले समस्त प्राणियोंके प्रत्यक्ष और अप्रत्यक्ष परिणामोंसे युक्त समस्त कमॉमें विष्णु, सूर्य और अग्निरूपसे स्थित हैं। यह प्राणी ईश्वरकी"
+          "hindi": "सिद्ध होता है। इसलिये हम उस तेजका मनसे धारण-चिन्तन करते हैं-यह भी अर्थ होगा। (यः) परमात्मा श्रीविष्णुका वह तेज (नः) हम सब प्राणियोंकी (धियः) बुद्धि-वृत्तियोंको (प्रचोदयात्) प्रेरित करे। वे ईश्वर ही कर्मफलका भोग करनेवाले समस्त प्राणियोंके प्रत्यक्ष और अप्रत्यक्ष परिणामोंसे युक्त समस्त कमॉमें विष्णु, सूर्य और अग्निरूपसे स्थित हैं। यह प्राणी ईश्वरकी",
+          "translation": "the deity; in initiation, in recitation and in oblation is the application: Agni, Vayu, Ravi, Vidyut, Yama, the lord of waters, Guru,",
+          "translationSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "पर्जन्य इन्द्रो गन्धर्वः पूषा च तदनन्तरं । मित्रो ऽथ वरुणस्त्वष्टा वसवो मरुतः शशी",
           "transliteration": "parjanya indro gandharvaḥ pūṣā ca tadanantaraṃ / mitro 'tha varuṇastvaṣṭā vasavo marutaḥ śaśī",
-          "hindi": "प्रेरणासे ही शुभाशुभ कर्मानुसार स्वर्ग अथवा नरकको प्राप्त होता है। श्रीहरि द्वारा महत्तत्व आदि रूपसे निर्मित यह सम्पूर्ण जगत् ईश्वरका आवासस्थान है। वे सर्वसमर्थ हंसस्वरूप परम पुरुष स्वर्गादि लोकोंसे"
+          "hindi": "प्रेरणासे ही शुभाशुभ कर्मानुसार स्वर्ग अथवा नरकको प्राप्त होता है। श्रीहरि द्वारा महत्तत्व आदि रूपसे निर्मित यह सम्पूर्ण जगत् ईश्वरका आवासस्थान है। वे सर्वसमर्थ हंसस्वरूप परम पुरुष स्वर्गादि लोकोंसे",
+          "translation": "Parjanya, Indra, Gandharva, Pusha next, Mitra, Varuna, Tvashtri, the Vasus, the Maruts, the Moon,",
+          "translationSource": "ai"
         },
         {
           "number": 18,
           "sanskrit": "अङ्गिरा विश्वनासत्यौ कस् तथा सर्वदेवताः । रुद्रो ब्रह्मा च विष्णुश् च क्रमशो ऽक्षरदेवताः",
           "transliteration": "aṅgirā viśvanāsatyau kas tathā sarvadevatāḥ / rudro brahmā ca viṣṇuś ca kramaśo 'kṣaradevatāḥ",
-          "hindi": "क्रीड़ा करते हैं, इसलिये वे 'देव'' कहलाते हैं । आदित्यमें जो ' भर्ग' नामसे प्रसिद्ध दिव्य तेज है, वह उन्हींका स्वरूप है । मोक्ष चाहनेवाले पुरुषोंको जन्म-मरणके कष्टसे और हैहिक, हैविक तथा भौतिक त्रिविध दुःखोंसे छुटकारा पानेके लिये ध्यानस्थ होकर इन परमपुरुषका सूर्यमण्डलमें दर्शन करना चाहिए। वे ही 'तत्त्वरमसि' आदि"
+          "hindi": "क्रीड़ा करते हैं, इसलिये वे 'देव'' कहलाते हैं । आदित्यमें जो ' भर्ग' नामसे प्रसिद्ध दिव्य तेज है, वह उन्हींका स्वरूप है । मोक्ष चाहनेवाले पुरुषोंको जन्म-मरणके कष्टसे और हैहिक, हैविक तथा भौतिक त्रिविध दुःखोंसे छुटकारा पानेके लिये ध्यानस्थ होकर इन परमपुरुषका सूर्यमण्डलमें दर्शन करना चाहिए। वे ही 'तत्त्वरमसि' आदि",
+          "translation": "Angiras, the Vishvedevas, the Ashvins, Ka, and all gods; Rudra, Brahma and Vishnu are in order the deities of the syllables;",
+          "translationSource": "ai"
         },
         {
           "number": 19,
           "sanskrit": "गयत्र्या जपकाले तु कथिताः पापनाशनाः । पादाङ्गुष्ठौ च गुल्फौ च नलकौ जानुनी तथा",
           "transliteration": "gayatryā japakāle tu kathitāḥ pāpanāśanāḥ / pādāṅguṣṭhau ca gulphau ca nalakau jānunī tathā",
-          "hindi": "परब्रह्म हैं। सम्पूर्ण लोकोंका निर्माण करनेवाले सविता देवताका जो सबके लिये वरणीय भर्ग है, बह विष्णुका परमपद है और वही गायत्रीका ब्रह्मरूप “चतुर्थ पाद’ है। ' धीमहि’ पदसे यह"
+          "hindi": "परब्रह्म हैं। सम्पूर्ण लोकोंका निर्माण करनेवाले सविता देवताका जो सबके लिये वरणीय भर्ग है, बह विष्णुका परमपद है और वही गायत्रीका ब्रह्मरूप “चतुर्थ पाद’ है। ' धीमहि’ पदसे यह",
+          "translation": "at the time of Gayatri recitation they are told as sin-destroyers. Great toes of feet, ankles, shins, knees,",
+          "translationSource": "ai"
         },
         {
           "number": 20,
           "sanskrit": "जङ्घे शिश्रश् च वृषणौ कटिर् नाभिस्तथोदरं । १ उपपातकपापहेति ग॥ , घ॥ , ङ॥ च :प् २८३ स्तनौ च हृदयं ग्रीवा मुखन्तालु च नासिके",
           "transliteration": "jaṅghe śiśraś ca vṛṣaṇau kaṭir nābhistathodaraṃ / 1 upapātakapāpaheti ga.. , gha.. , ṅa.. ca :p 283 stanau ca hṛdayaṃ grīvā mukhantālu ca nāsike",
-          "hindi": "अभिप्राय ग्रहण करना चाहिए कि देहादिको जाग्रत्-अवस्थामें सामान्य जीवसे लेकर ब्रह्मपर्यन्त मैं ही ब्रह्म हुँ और आदित्यमण्डलमें जो पुरुष है, वह भी मैं ही हूँ-मैं अनन्त सर्वतः परिपूर्ण ओम् (सच्चिदानन्द) हूँ। ' प्रचोदयात्’ पदके कर्तारूपसे उन परमेश्वरको ग्रहण करना चाहिए, जो सदा यज्ञ आदि शुभ कर्मोके प्रवर्तक हैं"
+          "hindi": "अभिप्राय ग्रहण करना चाहिए कि देहादिको जाग्रत्-अवस्थामें सामान्य जीवसे लेकर ब्रह्मपर्यन्त मैं ही ब्रह्म हुँ और आदित्यमण्डलमें जो पुरुष है, वह भी मैं ही हूँ-मैं अनन्त सर्वतः परिपूर्ण ओम् (सच्चिदानन्द) हूँ। ' प्रचोदयात्’ पदके कर्तारूपसे उन परमेश्वरको ग्रहण करना चाहिए, जो सदा यज्ञ आदि शुभ कर्मोके प्रवर्तक हैं",
+          "translation": "thighs, genital, testicles, waist, navel, belly, breasts, heart, neck, mouth, palate, nose,",
+          "translationSource": "ai"
         },
         {
           "number": 21,
           "sanskrit": "चक्षुषी च भ्रुवोर्मध्यं ललाटं पूर्वमाननं । दक्षिणोत्तरपार्श्वे द्वे शिर आस्यमनुक्रमात्",
           "transliteration": "cakṣuṣī ca bhruvormadhyaṃ lalāṭaṃ pūrvamānanaṃ / dakṣiṇottarapārśve dve śira āsyamanukramāt",
-          "hindi": "इस प्रकार आदि आग्नेय महापृराणमें “गायत्री-मन्त्रके तात्पर्यका वर्णन” नामक दो सौ सोलहवाँ अध्याय पूरा हुआ"
+          "hindi": "इस प्रकार आदि आग्नेय महापृराणमें “गायत्री-मन्त्रके तात्पर्यका वर्णन” नामक दो सौ सोलहवाँ अध्याय पूरा हुआ",
+          "translation": "eyes, between the brows, forehead, the east face, the right and left sides, head and mouth in order:",
+          "translationSource": "ai"
         },
         {
           "number": 22,
           "sanskrit": "पीतः श्यामश् च कपिलो मरकतो ऽग्निसन्निभः । रुक्मविद्युद्धूम्रकृष्णरक्तगौरेन्द्रनीलभाः",
           "transliteration": "pītaḥ śyāmaś ca kapilo marakato 'gnisannibhaḥ / rukmavidyuddhūmrakṛṣṇaraktagaurendranīlabhāḥ",
-          "hindi": "'देव' शब्द क्रीडार्थक 'दिवु' धातुसे बनता है। गायत्रीसे निर्वाणकी प्राप्ति"
+          "hindi": "'देव' शब्द क्रीडार्थक 'दिवु' धातुसे बनता है। गायत्रीसे निर्वाणकी प्राप्ति",
+          "translation": "yellow, dark, tawny, emerald, fire-like, gold, lightning, smoky, black, red, fair, sapphire-hued;",
+          "translationSource": "ai"
         },
         {
           "number": 23,
           "sanskrit": "स्फाटिकस्वर्णपाण्ड्वाभाः पद्मरागो ऽखिलद्युतिः(१) । हेमधूम्ररक्तनीलरक्तकृष्णसुवर्णभाः",
           "transliteration": "sphāṭikasvarṇapāṇḍvābhāḥ padmarāgo 'khiladyutiḥ(1) / hemadhūmraraktanīlaraktakṛṣṇasuvarṇabhāḥ",
-          "hindi": "अग्निदेव कहते हैं-- वसिष्ठ! किसी अन्य वसिष्ठने गायत्री-जपपूर्वक लिङ्गमूर्ति शिवको स्तुति करके भगवान् शंकरसे निर्वाणस्वरूप परब्रह्मकी प्राप्ति को"
+          "hindi": "अग्निदेव कहते हैं-- वसिष्ठ! किसी अन्य वसिष्ठने गायत्री-जपपूर्वक लिङ्गमूर्ति शिवको स्तुति करके भगवान् शंकरसे निर्वाणस्वरूप परब्रह्मकी प्राप्ति को",
+          "translation": "crystal, golden, pale, ruby, all-radiant, golden, smoky, red, blue, red, black, golden-hued;",
+          "translationSource": "ai"
         },
         {
           "number": 24,
           "sanskrit": "शुक्लकृष्णपालाशाभा(२) गायत्र्या वर्णकाः क्रमात् । ध्यानकाले पापहरा हुतैषा सर्वकामदा",
           "transliteration": "śuklakṛṣṇapālāśābhā(2) gāyatryā varṇakāḥ kramāt / dhyānakāle pāpaharā hutaiṣā sarvakāmadā",
-          "hindi": "( वसिष्ठने कहा -- ) कनकलिङ्गको नमस्कार, वेदलिङ्गको नमस्कार, परमलिङ्गको नमस्कार और आकाशलिङ्गको नमस्कार है। मैं सह्रलिङ्ग, वह्रिलिङ्ग, पुराणलिङ्ग और वेदलिङ्ग शिवको बारंबार नमस्कार करता हूँ। पाताललिङ्ग, ब्रह्मलिङ्ग, सप्तद्वीपोर्ध्वलिङ्गको बारंबार नमस्कार है। मैं सर्वात्मलिङ्ग, सर्वलोकाङ्गलिङ्ग, अव्यक्तलिङ्ग, बुद्धिलिङ्ग, अहंकारलिङ्ग, भूतलिङ्ग, इन्द्रियलिङ्ग,"
+          "hindi": "( वसिष्ठने कहा -- ) कनकलिङ्गको नमस्कार, वेदलिङ्गको नमस्कार, परमलिङ्गको नमस्कार और आकाशलिङ्गको नमस्कार है। मैं सह्रलिङ्ग, वह्रिलिङ्ग, पुराणलिङ्ग और वेदलिङ्ग शिवको बारंबार नमस्कार करता हूँ। पाताललिङ्ग, ब्रह्मलिङ्ग, सप्तद्वीपोर्ध्वलिङ्गको बारंबार नमस्कार है। मैं सर्वात्मलिङ्ग, सर्वलोकाङ्गलिङ्ग, अव्यक्तलिङ्ग, बुद्धिलिङ्ग, अहंकारलिङ्ग, भूतलिङ्ग, इन्द्रियलिङ्ग,",
+          "translation": "white, black, palasha-colored — these are the colors of the Gayatri in order. At the time of meditation she removes sin; oblation to her gives all desires.",
+          "translationSource": "ai"
         },
         {
           "number": 25,
           "sanskrit": "गायत्र्या तु तिलैर् होमः सर्वपापप्रणाशनः । शान्तिकामो यवैः कुर्यादायुष्कामो घृतेन च",
           "transliteration": "gāyatryā tu tilair homaḥ sarvapāpapraṇāśanaḥ / śāntikāmo yavaiḥ kuryādāyuṣkāmo ghṛtena ca",
-          "hindi": "समलिङ्ग, यज्ञाङ्गलिङ्ग, यज्ञलिङ्ग, तत््वलिङ्ग और देवानुगतलिङ्गरूप आप शंकरको बारंबार नमस्कार करता हुँ। प्रभो! आप मुझे परमयोगका उपदेश कीजिये और मेरे समान पुत्र प्रदान कीजिये।"
+          "hindi": "समलिङ्ग, यज्ञाङ्गलिङ्ग, यज्ञलिङ्ग, तत््वलिङ्ग और देवानुगतलिङ्गरूप आप शंकरको बारंबार नमस्कार करता हुँ। प्रभो! आप मुझे परमयोगका उपदेश कीजिये और मेरे समान पुत्र प्रदान कीजिये।",
+          "translation": "Oblation of sesame with the Gayatri destroys all sin. One desiring peace should do it with barley, one desiring life with ghee,",
+          "translationSource": "ai"
         },
         {
           "number": 26,
           "sanskrit": "सिद्धार्थकैः कर्मसिद्ध्यै पयसा ब्रह्मवर्चसे । पुत्रकामस् तथा दध्ना धान्यकामस्तु शालिभिः",
           "transliteration": "siddhārthakaiḥ karmasiddhyai payasā brahmavarcase / putrakāmas tathā dadhnā dhānyakāmastu śālibhiḥ",
-          "hindi": "भगवन्! मुझे अविनाशी परब्रह्म एवं परमशान्तिको प्राप्ति कराइये। मेरा बंश कभी क्षीण न हो और मेरी बुद्धि सदा धर्में लगी रहे अग्निदेव कहते हैं-- प्राचीनकालमें श्रीशैलपर वसिष्ठके इस प्रकार स्तुति करनेपर भगवान् शंकर प्रसन्न हो गये और वसिष्ठको वर देकर वहीं अन्तर्धान हो गये"
+          "hindi": "भगवन्! मुझे अविनाशी परब्रह्म एवं परमशान्तिको प्राप्ति कराइये। मेरा बंश कभी क्षीण न हो और मेरी बुद्धि सदा धर्में लगी रहे अग्निदेव कहते हैं-- प्राचीनकालमें श्रीशैलपर वसिष्ठके इस प्रकार स्तुति करनेपर भगवान् शंकर प्रसन्न हो गये और वसिष्ठको वर देकर वहीं अन्तर्धान हो गये",
+          "translation": "with mustard seed for success of works, with milk for Brahmic radiance; desiring a son likewise with curds, desiring grain with rice,",
+          "translationSource": "ai"
         },
         {
           "number": 27,
           "sanskrit": "क्षीरवृक्षसमिद्धिस्तु ग्रहपीडोपशान्तये । धनकामस् तथा बिल्वैः श्रीकामः कमलैस् तथा",
           "transliteration": "kṣīravṛkṣasamiddhistu grahapīḍopaśāntaye / dhanakāmas tathā bilvaiḥ śrīkāmaḥ kamalais tathā",
-          "hindi": "इस प्रकार आदि आग्नेय महापृराणमें 'गायत्री-निर्वाणका कथन” नामक दो सौ सत्रहवाँ अध्याय पूरा हुआ"
+          "hindi": "इस प्रकार आदि आग्नेय महापृराणमें 'गायत्री-निर्वाणका कथन” नामक दो सौ सत्रहवाँ अध्याय पूरा हुआ",
+          "translation": "with fuel sticks of milk-trees for quieting planetary affliction; desiring wealth with bilva, desiring prosperity with lotuses,",
+          "translationSource": "ai"
         },
         {
           "number": 28,
           "sanskrit": "आरोग्यकामो दूर्वाभिर्गुरूत्पाते स एव हि । सौभाग्येच्छुर्गुग्गुलुना विद्यार्थी पायसेन च",
           "transliteration": "ārogyakāmo dūrvābhirgurūtpāte sa eva hi / saubhāgyecchurguggulunā vidyārthī pāyasena ca",
-          "hindi": "राजाके अभिषेककी विधि अग्निदेव कहते हैं- वसिष्ठ! पूर्वकालमें परशुरामजीके पूछनेपर पुष्करने उनसे जिस प्रकार राजधर्मका वर्णन किया था, वही मैं तुमसे बतला रहा हूँ"
+          "hindi": "राजाके अभिषेककी विधि अग्निदेव कहते हैं- वसिष्ठ! पूर्वकालमें परशुरामजीके पूछनेपर पुष्करने उनसे जिस प्रकार राजधर्मका वर्णन किया था, वही मैं तुमसे बतला रहा हूँ",
+          "translation": "desiring health with durva grass; in grave portents that same; desiring good fortune with guggulu, a student with pudding;",
+          "translationSource": "ai"
         },
         {
           "number": 29,
           "sanskrit": "अयुतेनोक्तसिद्धिः स्याल्लक्षेण मनसेप्सितं । कोट्या ब्रह्मबधान् मुक्तः कुलोद्धारी हरिर्भवेत्",
           "transliteration": "ayutenoktasiddhiḥ syāllakṣeṇa manasepsitaṃ / koṭyā brahmabadhān muktaḥ kuloddhārī harirbhavet",
-          "hindi": "पुष्करने कहा-- राम! मैं सम्पूर्ण राजधर्मोसे संगृहीत करके राजाके धर्मका वर्णन करूँगा। राजाको प्रजाका रक्षक, शत्रुओंका नाशक और दण्डका उचित उपयोग करनेवाला होना चाहिए।"
+          "hindi": "पुष्करने कहा-- राम! मैं सम्पूर्ण राजधर्मोसे संगृहीत करके राजाके धर्मका वर्णन करूँगा। राजाको प्रजाका रक्षक, शत्रुओंका नाशक और दण्डका उचित उपयोग करनेवाला होना चाहिए।",
+          "translation": "by ten thousand the stated success results, by a lakh what the mind desires; by a crore he is freed from Brahmin-killing and becomes Hari, saver of the family.",
+          "translationSource": "ai"
         },
         {
           "number": 30,
           "sanskrit": "ग्रहयज्ञमुखो वापि होमो ऽयुतमुखो ऽर्थकृत् । १ पद्मरागो ऽमलद्युतिरिति ख॥ , छ॥ , ज॥ , ट॥ च २ शुक्लपद्मपलाशाभेति ङ॥ , ञ॥ च :प् २८४ आवाहनञ्च गायत्र्यास्तत ओङ्कारमभ्यसेत्",
           "transliteration": "grahayajñamukho vāpi homo 'yutamukho 'rthakṛt / 1 padmarāgo 'maladyutiriti kha.. , cha.. , ja.. , ṭa.. ca 2 śuklapadmapalāśābheti ṅa.. , ña.. ca :p 284 āvāhanañca gāyatryāstata oṅkāramabhyaset",
-          "hindi": "वह प्रजाजनोंसे कहे कि 'धर्म-मार्गपर स्थित रहनेवाले आप सब लोगोंकी मैं रक्षा करूँगा' और अपनी इस प्रतिज्ञाका सदा पालन करे। राजाको वर्षफल बतानेवाले एक ज्यौतिषी तथा ब्राह्मण पुरोहितका वरण कर लेना चाहिए। साथ"
+          "hindi": "वह प्रजाजनोंसे कहे कि 'धर्म-मार्गपर स्थित रहनेवाले आप सब लोगोंकी मैं रक्षा करूँगा' और अपनी इस प्रतिज्ञाका सदा पालन करे। राजाको वर्षफल बतानेवाले एक ज्यौतिषी तथा ब्राह्मण पुरोहितका वरण कर लेना चाहिए। साथ",
+          "translation": "Or oblation beginning with the planet-sacrifice, by ten thousand it brings wealth. Then one should practice the invocation of the Gayatri and Omkara;",
+          "translationSource": "ai"
         },
         {
           "number": 31,
           "sanskrit": "स्मृत्वौङ्कारन्तु गायत्र्या निबध्नीयाच्छिखान्ततः । पुनराचम्य हृडयं नाभिं स्कन्धौ च संस्पृशेत्",
           "transliteration": "smṛtvauṅkārantu gāyatryā nibadhnīyācchikhāntataḥ / punarācamya hṛḍayaṃ nābhiṃ skandhau ca saṃspṛśet",
-          "hindi": "ही सम्पूर्ण राजशास्त्रीय विषयों तथा आत्माका ज्ञान रखनेवाले मन्त्रियोंका और धार्मिक लक्षणोंसे सम्पन्न राजमहिषीका भी वरण करना उचित है। राज्यभार ग्रहण करनेके एक वर्ष बाद राजाको"
+          "hindi": "ही सम्पूर्ण राजशास्त्रीय विषयों तथा आत्माका ज्ञान रखनेवाले मन्त्रियोंका और धार्मिक लक्षणोंसे सम्पन्न राजमहिषीका भी वरण करना उचित है। राज्यभार ग्रहण करनेके एक वर्ष बाद राजाको",
+          "translation": "having remembered Omkara one should bind the top-knot with the Gayatri; having rinsed again one should touch heart, navel and shoulders.",
+          "translationSource": "ai"
         },
         {
           "number": 32,
           "sanskrit": "प्रणवस्य ऋषिर्ब्रह्मा गायत्रीच्छन्द एव च । देवो ऽग्निः परमात्मा स्याद्योगो वै सर्वकर्मसु",
           "transliteration": "praṇavasya ṛṣirbrahmā gāyatrīcchanda eva ca / devo 'gniḥ paramātmā syādyogo vai sarvakarmasu",
-          "hindi": "सब सामग्री एकत्रित करके अच्छे समयमें विशेष समारोहके साथ अपना अभिषेक कराना चाहिए। पहलेवाले राजाको मृत्यु होनेपर शीघ्र ही राजासन ग्रहण करना उचित है; ऐसे समयमें कालका कोई नियम नहीं है। ज्यौतिषी और पुरोहितके द्वारा तिल, सर्षप आदि सामग्रियोंका उपयोग करते हुए राजा स्नान करे तथा भद्रासनपर विराजमान होकर समूचे राज्यमें राजाको विजय घोषित"
+          "hindi": "सब सामग्री एकत्रित करके अच्छे समयमें विशेष समारोहके साथ अपना अभिषेक कराना चाहिए। पहलेवाले राजाको मृत्यु होनेपर शीघ्र ही राजासन ग्रहण करना उचित है; ऐसे समयमें कालका कोई नियम नहीं है। ज्यौतिषी और पुरोहितके द्वारा तिल, सर्षप आदि सामग्रियोंका उपयोग करते हुए राजा स्नान करे तथा भद्रासनपर विराजमान होकर समूचे राज्यमें राजाको विजय घोषित",
+          "translation": "The seer of Pranava is Brahma, the meter Gayatri, the deity Agni, the Supreme Self; its application is in all rites.",
+          "translationSource": "ai"
         },
         {
           "number": 33,
           "sanskrit": "शुक्ला चाग्निमुखी देव्या कात्यायनसगोत्रजा । त्रैलोक्यवरणा दिव्या पृथिव्याधारसंयुता",
           "transliteration": "śuklā cāgnimukhī devyā kātyāyanasagotrajā / trailokyavaraṇā divyā pṛthivyādhārasaṃyutā",
-          "hindi": "करे। फिर अभयकी घोषणा कराकर राज्यके"
+          "hindi": "करे। फिर अभयकी घोषणा कराकर राज्यके",
+          "translation": "The goddess is white, fire-faced, of Katyayana gotra, choosing the three worlds, divine, joined with the earth as support,",
+          "translationSource": "ai"
         },
         {
           "number": 34,
           "sanskrit": "अक्षरसूत्रधरा देवी पद्मासनगता शुभा । ॐ तेजो ऽसि महो ऽसि बलमसि भ्राजो ऽसि देवानान्धामनामासि । विश्वमसि विश्वायुः सर्वमसि सर्वायुः ॐ अभि भूः आगच्छ वरदे देवि जप्ये मे सन्निधौ भव",
           "transliteration": "akṣarasūtradharā devī padmāsanagatā śubhā / oṃ tejo 'si maho 'si balamasi bhrājo 'si devānāndhāmanāmāsi / viśvamasi viśvāyuḥ sarvamasi sarvāyuḥ oṃ abhi bhūḥ āgaccha varade devi japye me sannidhau bhava",
-          "hindi": "समस्त कैदियोंको बन्धनसे मुक्त कर दे। पुरोहितके द्वारा अभिषेक होनेसे पहले इन्द्र देवताकी शान्ति करानी चाहिए। अभिषेकके दिन राजा उपवास करके वेदीपर स्थापित की हुई अग्निमें मन्त्रपाठपूर्वक हवन करे। विष्णु, इन्द्र, सविता, विश्वेदेव और सोम-देवतासम्बन्धी वैदिक ऋचाओंका तथा"
+          "hindi": "समस्त कैदियोंको बन्धनसे मुक्त कर दे। पुरोहितके द्वारा अभिषेक होनेसे पहले इन्द्र देवताकी शान्ति करानी चाहिए। अभिषेकके दिन राजा उपवास करके वेदीपर स्थापित की हुई अग्निमें मन्त्रपाठपूर्वक हवन करे। विष्णु, इन्द्र, सविता, विश्वेदेव और सोम-देवतासम्बन्धी वैदिक ऋचाओंका तथा",
+          "translation": "the goddess bearing a rosary, seated in a lotus posture, auspicious. \"Om, you are radiance, you are greatness, you are strength, you are splendor, you are the abode of the gods; you are the universe, universal life, all, all-life. Om, come, boon-giving goddess; be near me in recitation.\"",
+          "translationSource": "ai"
         },
         {
           "number": 35,
           "sanskrit": "व्याहृतीनान्तु सर्वासामृषिरेव प्रजापतिः । व्यस्ताश् चैव समस्ताश् च ब्राह्ममक्षरमोमिति",
           "transliteration": "vyāhṛtīnāntu sarvāsāmṛṣireva prajāpatiḥ / vyastāś caiva samastāś ca brāhmamakṣaramomiti",
-          "hindi": "तत्पश्चात् अग्निके दक्षिण किनारे अपराजिता देवी तथा सुवर्णमय कलशकीो, जिसमें जल गिरानेके लिये अनेकों छिद्र बने हुए हों, स्थापना करके चन्दन और फूलोंके द्वारा उनका पूजन करे।"
+          "hindi": "तत्पश्चात् अग्निके दक्षिण किनारे अपराजिता देवी तथा सुवर्णमय कलशकीो, जिसमें जल गिरानेके लिये अनेकों छिद्र बने हुए हों, स्थापना करके चन्दन और फूलोंके द्वारा उनका पूजन करे।",
+          "translation": "Of all the vyahritis the seer is Prajapati; separately and together the Brahma-syllable is Om.",
+          "translationSource": "ai"
         },
         {
           "number": 36,
           "sanskrit": "विश्वामित्रो यमदग्निर्भरद्वाजो ऽथ गोतमः । ऋषिरत्रिर्वशिष्ठश् च काश्यपश् च यथाक्रमं",
           "transliteration": "viśvāmitro yamadagnirbharadvājo 'tha gotamaḥ / ṛṣiratrirvaśiṣṭhaś ca kāśyapaś ca yathākramaṃ",
-          "hindi": "यदि अग्निको शिखा दक्षिणावर्त हो, तपाये हुए सोनेके समान उसकी उत्तम कान्ति हो, रथ और मेघके समान उससे ध्वनि निकलती हो, धुआँ बिलकुल नहीं दिखायी देता हो, अग्निदेव अनुकूल होकर हविष्य ग्रहण करते हों, होमाग्निसे उत्तम गन्ध फैल रही हो, अग्निसे स्वस्तिकके आकारकी लपटें निकलती हों, उसकी शिखा स्वच्छ हो और ऊँचेतक उठती हो तथा उसके भीतरसे"
+          "hindi": "यदि अग्निको शिखा दक्षिणावर्त हो, तपाये हुए सोनेके समान उसकी उत्तम कान्ति हो, रथ और मेघके समान उससे ध्वनि निकलती हो, धुआँ बिलकुल नहीं दिखायी देता हो, अग्निदेव अनुकूल होकर हविष्य ग्रहण करते हों, होमाग्निसे उत्तम गन्ध फैल रही हो, अग्निसे स्वस्तिकके आकारकी लपटें निकलती हों, उसकी शिखा स्वच्छ हो और ऊँचेतक उठती हो तथा उसके भीतरसे",
+          "translation": "Vishvamitra, Jamadagni, Bharadvaja, Gautama, Atri, Vasishtha and Kashyapa are in order the seers;",
+          "translationSource": "ai"
         },
         {
           "number": 37,
           "sanskrit": "अग्निर्वायू रविश् चैव वाक्पतिर्वरुणस् तथा । इन्द्रो विष्णुर्व्याहृतीनां दैवतानि यथाक्रमं",
           "transliteration": "agnirvāyū raviś caiva vākpatirvaruṇas tathā / indro viṣṇurvyāhṛtīnāṃ daivatāni yathākramaṃ",
-          "hindi": "चिनगारियाँ नहीं छूटती हों तो ऐसी अग्नि- ज्वाला श्रेष्ठ एवं हितकर मानी गयी है"
+          "hindi": "चिनगारियाँ नहीं छूटती हों तो ऐसी अग्नि- ज्वाला श्रेष्ठ एवं हितकर मानी गयी है",
+          "translation": "Agni, Vayu, Ravi, Vakpati, Varuna, Indra and Vishnu are in order the deities of the vyahritis.",
+          "translationSource": "ai"
         },
         {
           "number": 38,
           "sanskrit": "गायत्र्यष्टिगनुष्टुप् च वृहती पङ्क्तिरेव च । त्रिष्टुप् च जगती चेति छन्दांस्याहुरनुक्तामात्",
           "transliteration": "gāyatryaṣṭiganuṣṭup ca vṛhatī paṅktireva ca / triṣṭup ca jagatī ceti chandāṃsyāhuranuktāmāt",
-          "hindi": "राजा और आगके मध्यसे बिल्ली, मृग तथा . पक्षी नहीं जाने चाहिए। राजा पहले पर्वतशिखरकी मृत्तिकासे अपने मस्तकको शुद्धि करे। फिर बाँबीकी मिट्टीसे दोनों कान, भगवान् विष्णुके मन्दिरको धूलिसे मुख, इन्द्रके मन्दिरको मिट्टीसे ग्रीवा, राजाके आँगनकी मृत्तिकासे हृदय, हाथीके दाँतोंद्वारा खोदी हुई मिट्टीसे दाहिनी बाँ, बैलके सींगसे उठायी हुई मृत्तिकाद्वारा बायीं भुजा,"
+          "hindi": "राजा और आगके मध्यसे बिल्ली, मृग तथा . पक्षी नहीं जाने चाहिए। राजा पहले पर्वतशिखरकी मृत्तिकासे अपने मस्तकको शुद्धि करे। फिर बाँबीकी मिट्टीसे दोनों कान, भगवान् विष्णुके मन्दिरको धूलिसे मुख, इन्द्रके मन्दिरको मिट्टीसे ग्रीवा, राजाके आँगनकी मृत्तिकासे हृदय, हाथीके दाँतोंद्वारा खोदी हुई मिट्टीसे दाहिनी बाँ, बैलके सींगसे उठायी हुई मृत्तिकाद्वारा बायीं भुजा,",
+          "translation": "Gayatri, Ushnih, Anushtubh, Brihati, Pankti, Trishtubh and Jagati — the meters, they say, in order.",
+          "translationSource": "ai"
         },
         {
           "number": 39,
           "sanskrit": "विनियोगे व्याहृतीनां प्राणायामे च होमके । आपोहिष्ठेत्यृचा चापान्द्रुपदादीति वा स्मृता(१)",
           "transliteration": "viniyoge vyāhṛtīnāṃ prāṇāyāme ca homake / āpohiṣṭhetyṛcā cāpāndrupadādīti vā smṛtā(1)",
-          "hindi": "पोखरेकी मिट्टीसे पीठ, दो नदियोंके संगमकी मृत्तिकासे पेट तथा नदीके दोनों किनारोंको मिट्टीसे अपनी दोनों पसलियोंका शोधन करे। वेश्याके दरवाजेकी मिट्टीसे राजाके कटिभागकी"
+          "hindi": "पोखरेकी मिट्टीसे पीठ, दो नदियोंके संगमकी मृत्तिकासे पेट तथा नदीके दोनों किनारोंको मिट्टीसे अपनी दोनों पसलियोंका शोधन करे। वेश्याके दरवाजेकी मिट्टीसे राजाके कटिभागकी",
+          "translation": "In the application of the vyahritis, in breath-control and in oblation, with the verse \"Apo hi shtha\" or \"Drupadadiva\" it is remembered;",
+          "translationSource": "ai"
         },
         {
           "number": 40,
           "sanskrit": "१ द्रुपदादीनि वाप्यृचा इति ङ॥ , ज॥ , ञ॥ च :प् २८५ तथा हिरण्यवर्णाभिः पावमानीभिरन्ततः । विप्रुषो ऽष्टौ क्षिपेदूर्ध्वमाजन्मकृतपापजित्",
           "transliteration": "1 drupadādīni vāpyṛcā iti ṅa.. , ja.. , ña.. ca :p 285 tathā hiraṇyavarṇābhiḥ pāvamānībhirantataḥ / vipruṣo 'ṣṭau kṣipedūrdhvamājanmakṛtapāpajit",
-          "hindi": "शुद्धि की जाती है, यज्ञशालाकी मृत्तिकासे वह दोनों ऊरु, गोशालाकी मिट्टीसे दोनों घुटनों, घुड्सारकी मिट्टीसे दोनों जाँघ तथा रथके पहियेकी मृत्तिकासे दोनों चरणोंको शुद्धि करे। इसके बाद पञ्चगव्यके द्वारा राजाके मस्तकको शुद्धि करनी चाहिए। तदनन्तर चार अमात्य भद्रासनपर बैठे हुए राजाका कलशोंद्वारा अभिषेक करें। ब्राह्मणजातीय सचिव पूर्व दिशाको ओरसे घृतपूर्ण सुवर्णकलशद्वारा"
+          "hindi": "शुद्धि की जाती है, यज्ञशालाकी मृत्तिकासे वह दोनों ऊरु, गोशालाकी मिट्टीसे दोनों घुटनों, घुड्सारकी मिट्टीसे दोनों जाँघ तथा रथके पहियेकी मृत्तिकासे दोनों चरणोंको शुद्धि करे। इसके बाद पञ्चगव्यके द्वारा राजाके मस्तकको शुद्धि करनी चाहिए। तदनन्तर चार अमात्य भद्रासनपर बैठे हुए राजाका कलशोंद्वारा अभिषेक करें। ब्राह्मणजातीय सचिव पूर्व दिशाको ओरसे घृतपूर्ण सुवर्णकलशद्वारा",
+          "translation": "likewise at the end with the Hiranyavarna and Pavamani verses; one should throw eight drops upward, conquering sin done since birth.",
+          "translationSource": "ai"
         },
         {
           "number": 41,
           "sanskrit": "अन्तर्जले ऋतञ्चेति उपेत्त्रिरघमर्षणं । आपोहिष्ठेत्यृचो ऽस्याश् च सिन्धुद्वीप ऋषिः स्मृतः",
           "transliteration": "antarjale ṛtañceti upettriraghamarṣaṇaṃ / āpohiṣṭhetyṛco 'syāś ca sindhudvīpa ṛṣiḥ smṛtaḥ",
-          "hindi": "अभिषेक आरम्भ करे। क्षत्रिय दक्षिणको ओर खड़ा होकर दूधसे भरे हुए चाँदीके कलशसे, वैश्य पश्चिम दिशामें स्थित हो ताम्र कलश एवं दहीसे तथा शूद्र उत्तरकी ओरसे मिट्टीके घड़ेके"
+          "hindi": "अभिषेक आरम्भ करे। क्षत्रिय दक्षिणको ओर खड़ा होकर दूधसे भरे हुए चाँदीके कलशसे, वैश्य पश्चिम दिशामें स्थित हो ताम्र कलश एवं दहीसे तथा शूद्र उत्तरकी ओरसे मिट्टीके घड़ेके",
+          "translation": "Within the water, with \"Rtam ca\" and so on, thrice the Aghamarshana. For the verses \"Apo hi shtha\" the seer is remembered as Sindhudvipa;",
+          "translationSource": "ai"
         },
         {
           "number": 42,
           "sanskrit": "ब्रह्मस्नानाय छन्दो ऽस्य गायत्री देवता जलं । मार्जने विनियोगस्य हयावभृथके क्रतोः",
           "transliteration": "brahmasnānāya chando 'sya gāyatrī devatā jalaṃ / mārjane viniyogasya hayāvabhṛthake kratoḥ",
-          "hindi": "जलसे राजाका अभिषेक करे तदनन्तर बह्नचों (ऋग्वेदी विद्वानों) -में श्रेष्ठ ब्राह्मण मधुसे और 'छन्दोग' अर्थात् सामवेदी विप्र कुशके जलसे नरपतिका अभिषेक करे। इसके बाद पुरोहित जल गिरानेके अनेकों छिद्रोंसे"
+          "hindi": "जलसे राजाका अभिषेक करे तदनन्तर बह्नचों (ऋग्वेदी विद्वानों) -में श्रेष्ठ ब्राह्मण मधुसे और 'छन्दोग' अर्थात् सामवेदी विप्र कुशके जलसे नरपतिका अभिषेक करे। इसके बाद पुरोहित जल गिरानेके अनेकों छिद्रोंसे",
+          "translation": "for Brahma-bathing its meter is Gayatri, the deity water; the application is in sprinkling and in the Hayavabhritha of the sacrifice.",
+          "translationSource": "ai"
         },
         {
           "number": 43,
           "sanskrit": "अघमर्षणसूक्तस्य ऋषिरेवाघमर्षणं । अनुष्टुप् च भवेच्छन्दो भाववृत्तस्तु दैवतं",
           "transliteration": "aghamarṣaṇasūktasya ṛṣirevāghamarṣaṇaṃ / anuṣṭup ca bhavecchando bhāvavṛttastu daivataṃ",
-          "hindi": "युक्त (सुवर्णमय) कलशके पास जा, सदस्योंके बीच विधिवत् अग्निरक्षाका कार्य सम्पादन करके, राज्याभिषेकके लिये जो मन्त्र बताये गये हैं, उनके द्वारा अभिषेक करे। उस"
+          "hindi": "युक्त (सुवर्णमय) कलशके पास जा, सदस्योंके बीच विधिवत् अग्निरक्षाका कार्य सम्पादन करके, राज्याभिषेकके लिये जो मन्त्र बताये गये हैं, उनके द्वारा अभिषेक करे। उस",
+          "translation": "For the Aghamarshana hymn the seer is Aghamarshana; the meter would be Anushtubh; the deity is Bhavavritta.",
+          "translationSource": "ai"
         },
         {
           "number": 44,
           "sanskrit": "आपीज्योरीरस इति गायत्र्यास्तु शिरः स्मृतं । ऋषिः प्रजापतिस्तस्य छन्दोहीनं यजुर्यतः",
           "transliteration": "āpījyorīrasa iti gāyatryāstu śiraḥ smṛtaṃ / ṛṣiḥ prajāpatistasya chandohīnaṃ yajuryataḥ",
-          "hindi": "समय ब्राह्मणोंको वेद-मन्त्रोच्चारण करते रहना चाहिए। तत्पश्चात् पुरोहित वेदीके निकट जाय और सुवर्णके बने हुए सौ छिद्रोंवाले कलशसे अभिषेक आरम्भ करे। “या ओषधीः० '-- इत्यादि फूलोंद्वारा, ' ब्राह्मण: ० ' इत्यादि मन्त्रसे बीजोंद्वारा, ' आशुः शिशानः०' आदि मन्त्रसे रत्मोंद्वारा तथा “ये देवाः० '-- इत्यादि मन्त्रसे कुशयुक्त जलोंद्वारा अभिषेक करे। यजुर्वेदी और अथर्ववेदी ब्राह्मण"
+          "hindi": "समय ब्राह्मणोंको वेद-मन्त्रोच्चारण करते रहना चाहिए। तत्पश्चात् पुरोहित वेदीके निकट जाय और सुवर्णके बने हुए सौ छिद्रोंवाले कलशसे अभिषेक आरम्भ करे। “या ओषधीः० '-- इत्यादि फूलोंद्वारा, ' ब्राह्मण: ० ' इत्यादि मन्त्रसे बीजोंद्वारा, ' आशुः शिशानः०' आदि मन्त्रसे रत्मोंद्वारा तथा “ये देवाः० '-- इत्यादि मन्त्रसे कुशयुक्त जलोंद्वारा अभिषेक करे। यजुर्वेदी और अथर्ववेदी ब्राह्मण",
+          "translation": "\"Apo jyoti raso\" is remembered as the head of the Gayatri; its seer is Prajapati; being a yajus it has no meter;",
+          "translationSource": "ai"
         },
         {
           "number": 45,
           "sanskrit": "ब्रह्माग्निवायुसूर्याश् च देवताः परिकीर्तिताः । प्राणरोधात्तु वायुः स्याद्वायोरग्निश् च जायते",
           "transliteration": "brahmāgnivāyusūryāś ca devatāḥ parikīrtitāḥ / prāṇarodhāttu vāyuḥ syādvāyoragniś ca jāyate",
-          "hindi": "' गन्धद्वारां दुराधर्षा' इत्यादि मन्त्रसे गोरोचनद्वारा मस्तक तथा कण्ठमें तिलक करे। इसके बाद अन्यान्य ब्राह्मण सब तीर्थोके जलसे अभिषेक"
+          "hindi": "' गन्धद्वारां दुराधर्षा' इत्यादि मन्त्रसे गोरोचनद्वारा मस्तक तथा कण्ठमें तिलक करे। इसके बाद अन्यान्य ब्राह्मण सब तीर्थोके जलसे अभिषेक",
+          "translation": "Brahma, Agni, Vayu and Surya are declared the deities. By restraint of breath there is Vayu; from Vayu Agni is born;",
+          "translationSource": "ai"
         },
         {
           "number": 46,
           "sanskrit": "अग्नेरापस्ततः शुद्धिस्ततश्चाचमनञ्चरेत् । अन्तश् चरति भूतेषु गुहायां विश्वमूर्तिषु",
           "transliteration": "agnerāpastataḥ śuddhistataścācamanañcaret / antaś carati bhūteṣu guhāyāṃ viśvamūrtiṣu",
-          "hindi": "उस समय कुछ लोग गीत और बाजे आदिके शब्दोंके साथ चँवर और व्यजन धारण करें। राजाके सामने सर्वौषधियुक्त कलश लेकर खड़े हों। राजा पहले उस कलशको देखें, फिर दर्पण तथा घृत आदि माङ्गलिक वस्तुओंका दर्शन करें। इसके बाद विष्णु, ब्रह्मा और इन्द्र आदि"
+          "hindi": "उस समय कुछ लोग गीत और बाजे आदिके शब्दोंके साथ चँवर और व्यजन धारण करें। राजाके सामने सर्वौषधियुक्त कलश लेकर खड़े हों। राजा पहले उस कलशको देखें, फिर दर्पण तथा घृत आदि माङ्गलिक वस्तुओंका दर्शन करें। इसके बाद विष्णु, ब्रह्मा और इन्द्र आदि",
+          "translation": "from Agni water; then purity; then one should perform the rinsing. \"Within, he moves in beings, in the cave, in the universal forms;\"",
+          "translationSource": "ai"
         },
         {
           "number": 47,
           "sanskrit": "तपोयज्ञवषट्कार आपो ज्योती रसो ऽमृतं । उदुत्यं जातवेदसमृषिः प्रष्कन्न उच्यते",
           "transliteration": "tapoyajñavaṣaṭkāra āpo jyotī raso 'mṛtaṃ / udutyaṃ jātavedasamṛṣiḥ praṣkanna ucyate",
-          "hindi": "मधुपर्क आदि देकर राजाके मस्तकपर मुकुट बाँधे। पाँच प्रकारके चमड़ोंके आसनपर बैठकर राजाको मुकुट बँधाना चाहिए। ' ्रुवाद्यैः ० '— इत्यादि मन्त्रके द्वारा उन आसनोंपर बैठे। वृष,"
+          "hindi": "मधुपर्क आदि देकर राजाके मस्तकपर मुकुट बाँधे। पाँच प्रकारके चमड़ोंके आसनपर बैठकर राजाको मुकुट बँधाना चाहिए। ' ्रुवाद्यैः ० '— इत्यादि मन्त्रके द्वारा उन आसनोंपर बैठे। वृष,",
+          "translation": "austerity, sacrifice, vashat-call, waters, light, essence, nectar. For \"Ud u tyam jatavedasam\" the seer is called Prashkanva;",
+          "translationSource": "ai"
         },
         {
           "number": 48,
           "sanskrit": "गायत्रीच्छन्द आख्यातं सूर्यश् चैव तु दैवतम् । अतिरात्रे नियोगः स्यादग्नीषोमो नियोगकः",
           "transliteration": "gāyatrīcchanda ākhyātaṃ sūryaś caiva tu daivatam / atirātre niyogaḥ syādagnīṣomo niyogakaḥ",
-          "hindi": "वृषभांश, वृक, व्याघ्र और सिंह-इन्हीं पाँचोंके चर्मका उस समय आसनके लिये उपयोग किया जाता है। अभिषेकके बाद प्रतीहार अमात्य और सचिव आदिको दिखाये--प्रजाजनोंसे उनका परिचय दे। तदनन्तर राजा गौ, बकरी, भेड़ तथा गृह आदि दान करके सांवत्सर (ज्यौतिषी) और"
+          "hindi": "वृषभांश, वृक, व्याघ्र और सिंह-इन्हीं पाँचोंके चर्मका उस समय आसनके लिये उपयोग किया जाता है। अभिषेकके बाद प्रतीहार अमात्य और सचिव आदिको दिखाये--प्रजाजनोंसे उनका परिचय दे। तदनन्तर राजा गौ, बकरी, भेड़ तथा गृह आदि दान करके सांवत्सर (ज्यौतिषी) और",
+          "translation": "the meter is declared Gayatri, and the deity Surya; the application is in the Atiratra; Agni-Soma is the application;",
+          "translationSource": "ai"
         },
         {
           "number": 49,
           "sanskrit": "चित्रं देवेति ऋचके ऋषिः कौत्स उदाहृतः । त्रिष्टुप् छन्दो दैवतञ्च सूर्यो ऽस्याः परिकीर्तितं",
           "transliteration": "citraṃ deveti ṛcake ṛṣiḥ kautsa udāhṛtaḥ / triṣṭup chando daivatañca sūryo 'syāḥ parikīrtitaṃ",
-          "hindi": "पुरोहितका पूजन करे। फिर पृथ्वी, गौ तथा अन्न आदि देकर अन्यान्य ब्राह्मणोंकी भी पूजा करे। तत्पश्चात् अग्निकी प्रदक्षिणा करके गुरु (पुरोहित) - को प्रणाम करे। फिर बैलकी पीठका स्पर्श"
+          "hindi": "पुरोहितका पूजन करे। फिर पृथ्वी, गौ तथा अन्न आदि देकर अन्यान्य ब्राह्मणोंकी भी पूजा करे। तत्पश्चात् अग्निकी प्रदक्षिणा करके गुरु (पुरोहित) - को प्रणाम करे। फिर बैलकी पीठका स्पर्श",
+          "translation": "for the verse \"Chitram devanam\" the seer is said to be Kutsa; the meter Trishtubh; its deity is declared Surya.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -47738,91 +47826,121 @@
           "number": 5,
           "sanskrit": "वरेण्यं सर्वतेजोभ्यः श्रेष्ठं वै परमं पदं । स्वर्गापवर्गकामैर् वा वरणीयं सदैव हि",
           "transliteration": "vareṇyaṃ sarvatejobhyaḥ śreṣṭhaṃ vai paramaṃ padaṃ / svargāpavargakāmair vā varaṇīyaṃ sadaiva hi",
-          "hindi": "(उस समय निम्नाङ्कित मन्त्रोंका पाठ करना चाहिए) “राजन्! ब्रह्मा, विष्णु और शिव आदि सम्पूर्ण देवता तुम्हारा अभिषेक करें। भगवान् वासुदेव, संकर्षण, प्रद्युम्न, अनिरुद्ध, इन्द्र आदि दस दिक्पाल, रुद्र, धर्म, मनु, दक्ष, रुचि"
+          "hindi": "(उस समय निम्नाङ्कित मन्त्रोंका पाठ करना चाहिए) “राजन्! ब्रह्मा, विष्णु और शिव आदि सम्पूर्ण देवता तुम्हारा अभिषेक करें। भगवान् वासुदेव, संकर्षण, प्रद्युम्न, अनिरुद्ध, इन्द्र आदि दस दिक्पाल, रुद्र, धर्म, मनु, दक्ष, रुचि",
+          "translation": "\"Varenyam\" — best of all radiances, the supreme abode, always to be chosen by those desiring heaven and liberation;",
+          "translationSource": "ai"
         },
         {
           "number": 6,
           "sanskrit": "वृणोतेर्वरणार्थत्वाज्जाग्रत्स्वप्नादिवर्जितं । नित्यशुद्धबुद्धमेकं सत्यन्तद्धीमहीश्वरं",
           "transliteration": "vṛṇotervaraṇārthatvājjāgratsvapnādivarjitaṃ / nityaśuddhabuddhamekaṃ satyantaddhīmahīśvaraṃ",
-          "hindi": "करनेवाले हों। भृगु, अत्रि, वसिष्ठ, सनक, सनन्दन,"
+          "hindi": "करनेवाले हों। भृगु, अत्रि, वसिष्ठ, सनक, सनन्दन,",
+          "translation": "from the root vri in the sense of choosing: free of waking, dream and the rest, ever pure, awake, one, true — we meditate on that Lord.",
+          "translationSource": "ai"
         },
         {
           "number": 7,
           "sanskrit": "अहं ब्रह्म परं ज्योतिर्ध्ययेमहि विमुक्तये । तज् ज्योतिर्भगवान् विष्णुर्जगज्जन्मादिकारणं",
           "transliteration": "ahaṃ brahma paraṃ jyotirdhyayemahi vimuktaye / taj jyotirbhagavān viṣṇurjagajjanmādikāraṇaṃ",
-          "hindi": "और कश्यप आदि ऋषि-महर्षि प्रजाका शासन करनेवाले भूपतिकी रक्षा करें। अपनी प्रभासे प्रकाशित होनेवाले 'बर्हिषद्' और ' अग्निष्वात्त' नामवाले पितर तुम्हारा पालन करें। क्रव्याद (राक्षस), आवाहन किये हुए आज्यपा (घृतपान"
+          "hindi": "और कश्यप आदि ऋषि-महर्षि प्रजाका शासन करनेवाले भूपतिकी रक्षा करें। अपनी प्रभासे प्रकाशित होनेवाले 'बर्हिषद्' और ' अग्निष्वात्त' नामवाले पितर तुम्हारा पालन करें। क्रव्याद (राक्षस), आवाहन किये हुए आज्यपा (घृतपान",
+          "translation": "\"I am Brahman, supreme light; we would meditate for liberation.\" That light is the Lord Vishnu, cause of the world's birth and the rest;",
+          "translationSource": "ai"
         },
         {
           "number": 8,
           "sanskrit": "शिवं केचित् पठन्ति स्म शक्तिरूपं पठन्ति च । केचित् सूर्यङ्केचिदग्निं वेदगा अग्निहोत्रिणः",
           "transliteration": "śivaṃ kecit paṭhanti sma śaktirūpaṃ paṭhanti ca / kecit sūryaṅkecidagniṃ vedagā agnihotriṇaḥ",
-          "hindi": "करनेवाले देवता और पितर), सुकाली (सुकाल लानेवाले देवता) तथा धर्मप्रिया लक्ष्मी आदि देवियाँ प्रवृद्ध अग्नियोंके साथ तुम्हारा अभिषेक करें। अनेकों पुत्रोंवाले प्रजापति, कश्यपके आदित्य"
+          "hindi": "करनेवाले देवता और पितर), सुकाली (सुकाल लानेवाले देवता) तथा धर्मप्रिया लक्ष्मी आदि देवियाँ प्रवृद्ध अग्नियोंके साथ तुम्हारा अभिषेक करें। अनेकों पुत्रोंवाले प्रजापति, कश्यपके आदित्य",
+          "translation": "some read Shiva; some read it in the form of Shakti; some the Sun, some Agni — the Veda-knowers, those who keep Agnihotra.",
+          "translationSource": "ai"
         },
         {
           "number": 9,
           "sanskrit": "१ कायान् प्राणांस्तथैव चेति ञ॥ :प् २८७ अग्न्यादिरूपो विष्णुर्हि वेदादौ ब्रह्म गीयते । तत् पदं परमं विष्णोर्देवस्य सवितुः स्मृतं",
           "transliteration": "1 kāyān prāṇāṃstathaiva ceti ña.. :p 287 agnyādirūpo viṣṇurhi vedādau brahma gīyate / tat padaṃ paramaṃ viṣṇordevasya savituḥ smṛtaṃ",
-          "hindi": "आदि प्रिय पुत्रगण, अग्निनन्दन कृशाश्व तथा अरिष्टनेमिकी पत्नियाँ भी तुम्हारा अभिषेक करें। चन्द्रमाकी अश्विनी आदि भार्याएँ, पुलहकी प्रिय दनु, श्येनी, भाषी, क्रौञ्ची, धृतराष्ट्री तथा शुको आदि देवियाँ एवं सूर्यके सारथि अरुण-ये सब"
+          "hindi": "आदि प्रिय पुत्रगण, अग्निनन्दन कृशाश्व तथा अरिष्टनेमिकी पत्नियाँ भी तुम्हारा अभिषेक करें। चन्द्रमाकी अश्विनी आदि भार्याएँ, पुलहकी प्रिय दनु, श्येनी, भाषी, क्रौञ्ची, धृतराष्ट्री तथा शुको आदि देवियाँ एवं सूर्यके सारथि अरुण-ये सब",
+          "translation": "Vishnu in the form of Agni and others is sung as Brahman at the Veda's beginning. That supreme station of Vishnu is remembered as of the god Savitri.",
+          "translationSource": "ai"
         },
         {
           "number": 10,
           "sanskrit": "महदाज्यं सूयते हि स्वयं ज्योतिर्हरिः प्रभुः । पर्जन्यो वायुरादित्यः शीतोष्णाद्यैश् च पाचयेत्",
           "transliteration": "mahadājyaṃ sūyate hi svayaṃ jyotirhariḥ prabhuḥ / parjanyo vāyurādityaḥ śītoṣṇādyaiś ca pācayet",
-          "hindi": "तुम्हारे अभिषेकका कार्य सम्पन्न करें। आयति, नियति, रात्रि, निद्रा, लोकरक्षामें तत्पर रहनेवाली उमा, मेना और शची आदि देवियाँ, धूमा, ऊर्णा,"
+          "hindi": "तुम्हारे अभिषेकका कार्य सम्पन्न करें। आयति, नियति, रात्रि, निद्रा, लोकरक्षामें तत्पर रहनेवाली उमा, मेना और शची आदि देवियाँ, धूमा, ऊर्णा,",
+          "translation": "The great ghee is pressed out; Hari, the Lord, is self-luminous; Parjanya, Vayu and Aditya cook by cold, heat and the rest.",
+          "translationSource": "ai"
         },
         {
           "number": 11,
           "sanskrit": "अग्नौ प्रास्ताहुतिः सम्यगादित्यमुपतिष्ठते । आदित्याज्जायते वृष्टिर्वृष्टेरन्नन्ततः प्रजाः",
           "transliteration": "agnau prāstāhutiḥ samyagādityamupatiṣṭhate / ādityājjāyate vṛṣṭirvṛṣṭerannantataḥ prajāḥ",
-          "hindi": "असिक्नी, ज्योत्स्ना, देवाङ्गनाएँ तथा वनस्पति ये सब तुम्हारा पालन करें॥ २--११॥ संध्या, तिथि, मुहूर्त तथा कालके विभिन्न अवयव (छोटे-छोटे भेद) तुम्हारी रक्षा करें। सूर्य आदि ग्रह और स्वायम्भुव आदि मनु तुम्हारी रक्षा करें।"
+          "hindi": "असिक्नी, ज्योत्स्ना, देवाङ्गनाएँ तथा वनस्पति ये सब तुम्हारा पालन करें॥ २--११॥ संध्या, तिथि, मुहूर्त तथा कालके विभिन्न अवयव (छोटे-छोटे भेद) तुम्हारी रक्षा करें। सूर्य आदि ग्रह और स्वायम्भुव आदि मनु तुम्हारी रक्षा करें।",
+          "translation": "The oblation thrown into the fire rises to the sun; from the sun rain is born; from rain food; then creatures.",
+          "translationSource": "ai"
         },
         {
           "number": 12,
           "sanskrit": "दधातेर्वा धीमहीति मनसा धारयेमहि । नो ऽस्माकं यश् च भर्गश् च सर्वेषां प्राणिनां धियः",
           "transliteration": "dadhātervā dhīmahīti manasā dhārayemahi / no 'smākaṃ yaś ca bhargaś ca sarveṣāṃ prāṇināṃ dhiyaḥ",
-          "hindi": "चाक्षुष, वैवस्वत, सावर्णि, ब्रह्मपुत्र, धर्मपुत्र,"
+          "hindi": "चाक्षुष, वैवस्वत, सावर्णि, ब्रह्मपुत्र, धर्मपुत्र,",
+          "translation": "Or from the root dha: \"dhimahi\" — we hold in mind. \"Nah\" — ours; \"bhargah\" — of all beings the minds;",
+          "translationSource": "ai"
         },
         {
           "number": 13,
           "sanskrit": "चोदयात् प्रेरयेद् बुद्धीर्भोक्तॄणां सर्वकर्मसु । दृष्टादृष्टविपाकेषु विष्णुसूर्याग्निरूपवान्",
           "transliteration": "codayāt prerayed buddhīrbhoktṝṇāṃ sarvakarmasu / dṛṣṭādṛṣṭavipākeṣu viṣṇusūryāgnirūpavān",
-          "hindi": "इन्द्र, रैवन्त, कुमार कार्तिकेय, वत्सविनायक, वीरभद्र, नन्दी, विश्वकर्मा, पुरोजव, देववैद्य सभी प्रधान देवता यहाँ पदार्पण करके तुम्हारे अभिषेकका कार्य सम्पन्न करें। अङ्गिराके कुलमें उत्पन्न दस देवता और चारों वेद सिद्धिके लिये तुम्हारा अभिषेक करें। आत्मा, आयु, मन, दक्ष,"
+          "hindi": "इन्द्र, रैवन्त, कुमार कार्तिकेय, वत्सविनायक, वीरभद्र, नन्दी, विश्वकर्मा, पुरोजव, देववैद्य सभी प्रधान देवता यहाँ पदार्पण करके तुम्हारे अभिषेकका कार्य सम्पन्न करें। अङ्गिराके कुलमें उत्पन्न दस देवता और चारों वेद सिद्धिके लिये तुम्हारा अभिषेक करें। आत्मा, आयु, मन, दक्ष,",
+          "translation": "\"may he inspire\": may he impel the intellects of the enjoyers in all acts; in the results seen and unseen, he who has the form of Vishnu, Sun and Fire,",
+          "translationSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "ईश्वरप्रेरितो गच्छेत् स्वर्गं वाश्वभ्रमेव वा । ईशावास्यमिदं सर्वं महदादिजगद्धरिः",
           "transliteration": "īśvaraprerito gacchet svargaṃ vāśvabhrameva vā / īśāvāsyamidaṃ sarvaṃ mahadādijagaddhariḥ",
-          "hindi": "ये तुम्हारी रक्षा करें तथा क्रतु, दक्ष, बसु, सत्य, काल, काम और धुरि-ये तुम्हें विजय प्रदान करें । पुरूरवा, आर्द्र॑वा, विश्वेदेव, रोचन, अङ्गारक"
+          "hindi": "ये तुम्हारी रक्षा करें तथा क्रतु, दक्ष, बसु, सत्य, काल, काम और धुरि-ये तुम्हें विजय प्रदान करें । पुरूरवा, आर्द्र॑वा, विश्वेदेव, रोचन, अङ्गारक",
+          "translation": "impelled by the Lord one goes to heaven or to a pit. \"All this is to be dwelt in by the Lord\" — Hari, the great and the world;",
+          "translationSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "स्वर्गाद्यैः क्रीडते देवो यो ऽहं स पुरुषः प्रभुः । आदित्यान्तर्गतं यच्च भर्गाख्यं वै मुमुक्षुभिः",
           "transliteration": "svargādyaiḥ krīḍate devo yo 'haṃ sa puruṣaḥ prabhuḥ / ādityāntargataṃ yacca bhargākhyaṃ vai mumukṣubhiḥ",
-          "hindi": "ये सब तुम्हारी रक्षा करें। अजैकपाद, अहिर्बुध्न्य, धूमकेतु, रुद्रके पुत्र, भरत, मृत्यु, कापालि, मूर्धा, याजन और उशना-ये तुम्हारी रक्षा करें। प्रसव, अव्यय, दक्ष, भृगुवंशी ऋषि, देवता, मनु,"
+          "hindi": "ये सब तुम्हारी रक्षा करें। अजैकपाद, अहिर्बुध्न्य, धूमकेतु, रुद्रके पुत्र, भरत, मृत्यु, कापालि, मूर्धा, याजन और उशना-ये तुम्हारी रक्षा करें। प्रसव, अव्यय, दक्ष, भृगुवंशी ऋषि, देवता, मनु,",
+          "translation": "the god sports with heaven and the rest, \"who I am, that Person, the Lord.\" What is within the sun and called Bharga by those seeking liberation,",
+          "translationSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "जन्ममृत्युविनाशाय दुःखस्य त्रिविधस्य च । ध्यानेन पुरुषो ऽयञ्च द्रष्टव्यः सूर्यमण्डले",
           "transliteration": "janmamṛtyuvināśāya duḥkhasya trividhasya ca / dhyānena puruṣo 'yañca draṣṭavyaḥ sūryamaṇḍale",
-          "hindi": "नारायण-संसारके हितमें लगे रहनेवाले ये श्रेष्ठ"
+          "hindi": "नारायण-संसारके हितमें लगे रहनेवाले ये श्रेष्ठ",
+          "translation": "for destruction of birth and death and of threefold suffering, this Person is to be seen by meditation in the solar disc.",
+          "translationSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "तत्त्वं सदसि चिद्ब्रह्म विष्णोर्यत् परमं पदं । देवस्य सवितुर्भर्गो वरेण्यं हि तुरीयकं",
           "transliteration": "tattvaṃ sadasi cidbrahma viṣṇoryat paramaṃ padaṃ / devasya saviturbhargo vareṇyaṃ hi turīyakaṃ",
-          "hindi": "सविता, भास्कर और विष्णु-ये बारह सूर्य तुम्हारी रक्षा करें। एकज्योति, द्विज्योति, त्रिज्योति, ऋतजित्, सत्यजित्, सुषेण, सेनजित्, अतिमित्र,"
+          "hindi": "सविता, भास्कर और विष्णु-ये बारह सूर्य तुम्हारी रक्षा करें। एकज्योति, द्विज्योति, त्रिज्योति, ऋतजित्, सत्यजित्, सुषेण, सेनजित्, अतिमित्र,",
+          "translation": "The truth, being and non-being, consciousness-Brahman, which is Vishnu's supreme abode; the radiance of the god Savitri, the choice, the fourth state;",
+          "translationSource": "ai"
         },
         {
           "number": 18,
           "sanskrit": "देहादिजाग्रदाब्रह्म अहं ब्रह्मेति धीमहि । यो ऽसावादित्यपुरुषः सो ऽसावहमनन्त ॐ",
           "transliteration": "dehādijāgradābrahma ahaṃ brahmeti dhīmahi / yo 'sāvādityapuruṣaḥ so 'sāvahamananta oṃ",
-          "hindi": "धाता, विधाता, धारण, ध्रुव, इन्द्रके परम मित्र"
+          "hindi": "धाता, विधाता, धारण, ध्रुव, इन्द्रके परम मित्र",
+          "translation": "\"From the body and the rest, waking, up to Brahman — I am Brahman\" — we meditate. \"He who is that Person in the sun is I, the infinite, Om.\"",
+          "translationSource": "ai"
         },
         {
           "number": 19,
           "sanskrit": "ज्ञानानि शुभकर्मादीन् प्रवर्तयति यः सदा ॥१९",
           "transliteration": "jñānāni śubhakarmādīn pravartayati yaḥ sadā //19",
-          "hindi": "धृति, वसु, अनाधृष्य, राम, काम, जय और विराट्-ये उन्चास मरुत् नामक देवता तुम्हारा अभिषेक करें तथा तुम्हें लक्ष्मी प्रदान करें। चित्राङ्गद, चित्ररथ, चित्रसेन, कलि, ऊर्णायु, उग्रसेन, और तुम्बुरु -ये गन्धर्व तुम्हारे अभिषेकका कार्य सम्पन्न करें और तुम्हें विजयी बनावें। प्रधान- प्रधान मुनि तथा अनवद्या, सुकेशी, मेनका,"
+          "hindi": "धृति, वसु, अनाधृष्य, राम, काम, जय और विराट्-ये उन्चास मरुत् नामक देवता तुम्हारा अभिषेक करें तथा तुम्हें लक्ष्मी प्रदान करें। चित्राङ्गद, चित्ररथ, चित्रसेन, कलि, ऊर्णायु, उग्रसेन, और तुम्बुरु -ये गन्धर्व तुम्हारे अभिषेकका कार्य सम्पन्न करें और तुम्हें विजयी बनावें। प्रधान- प्रधान मुनि तथा अनवद्या, सुकेशी, मेनका,",
+          "translation": "He who ever sets in motion knowledge, good deeds and the rest.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -48015,97 +48133,129 @@
           "number": 10,
           "sanskrit": "प्रदक्षिणावर्तशिखस्तप्तजाम्बूनदप्रभः । रथौघमेघनिर्घोषो विधूमश् च हुताशनः",
           "transliteration": "pradakṣiṇāvartaśikhastaptajāmbūnadaprabhaḥ / rathaughameghanirghoṣo vidhūmaś ca hutāśanaḥ",
-          "hindi": "हो, जो रत्न आदिकी परख कर सके और धन बढ़ानेके साधनोंमें तत्पर रहे। राजवैद्यको आयुर्वेदका पूर्ण ज्ञान होना चाहिए। इसी प्रकार गजाध्यक्षको भी गजविद्यासे परिचित होना आवश्यक है।"
+          "hindi": "हो, जो रत्न आदिकी परख कर सके और धन बढ़ानेके साधनोंमें तत्पर रहे। राजवैद्यको आयुर्वेदका पूर्ण ज्ञान होना चाहिए। इसी प्रकार गजाध्यक्षको भी गजविद्यासे परिचित होना आवश्यक है।",
+          "translation": "With flame turning to the right, bright as molten gold, with sound like a mass of chariots and clouds, smokeless is the fire;",
+          "translationSource": "ai"
         },
         {
           "number": 11,
           "sanskrit": "अनुलोमः सुगन्धश् च स्वस्तिकाकारसन्निभः । प्रसन्नार्चिर्महाज्वालः स्फुलिङ्गरहितो हितः",
           "transliteration": "anulomaḥ sugandhaś ca svastikākārasannibhaḥ / prasannārcirmahājvālaḥ sphuliṅgarahito hitaḥ",
-          "hindi": "हाथी-सवार परिश्रमसे थकनेवाला न हो। घोड़ोंका अध्यक्ष अश्वविद्याका विद्वान् होना चाहिए। दुर्गके अध्यक्षको भी हितैषी एवं बुद्धिमान् होना आवश्यक है। शिल्पी अथवा कारीगर वास्तुविद्याका ज्ञाता हो। जो मशीनसे हथियार चलाने, हाथसे शस्त्रोंका प्रयोग करने, शस्त्रको न छोड़ने, छोड़े हुए शस्त्रको रोकने या निवारण करनेमें तथा युद्धको कलामें कुशल और राजाका हित चाहनेवाला हो,"
+          "hindi": "हाथी-सवार परिश्रमसे थकनेवाला न हो। घोड़ोंका अध्यक्ष अश्वविद्याका विद्वान् होना चाहिए। दुर्गके अध्यक्षको भी हितैषी एवं बुद्धिमान् होना आवश्यक है। शिल्पी अथवा कारीगर वास्तुविद्याका ज्ञाता हो। जो मशीनसे हथियार चलाने, हाथसे शस्त्रोंका प्रयोग करने, शस्त्रको न छोड़ने, छोड़े हुए शस्त्रको रोकने या निवारण करनेमें तथा युद्धको कलामें कुशल और राजाका हित चाहनेवाला हो,",
+          "translation": "favorable, fragrant, shaped like a swastika, of clear flame, great-flamed, free of sparks, beneficial;",
+          "translationSource": "ai"
         },
         {
           "number": 12,
           "sanskrit": "न व्रजेयुश् च मध्येन मार्जारमृगपक्षिणः । पर्वताग्रमृदा तावन्मूर्धानं शोधयेन्नृपः",
           "transliteration": "na vrajeyuś ca madhyena mārjāramṛgapakṣiṇaḥ / parvatāgramṛdā tāvanmūrdhānaṃ śodhayennṛpaḥ",
-          "hindi": "उसे ही अस्त्राचार्यके पदपर नियुक्त करना चाहिए । रनिवासका अध्यक्ष वृद्ध पुरुषको बनाना चाहिए। पचास वर्षकी स्त्रियाँ और सत्तर वर्षके बूढ़े पुरुष अन्तःपुरके सभी कार्योमें लगाये जा सकते हैं।"
+          "hindi": "उसे ही अस्त्राचार्यके पदपर नियुक्त करना चाहिए । रनिवासका अध्यक्ष वृद्ध पुरुषको बनाना चाहिए। पचास वर्षकी स्त्रियाँ और सत्तर वर्षके बूढ़े पुरुष अन्तःपुरके सभी कार्योमें लगाये जा सकते हैं।",
+          "translation": "cats, deer and birds should not pass through the middle. The king should purify his head with earth from a mountain peak,",
+          "translationSource": "ai"
         },
         {
           "number": 13,
           "sanskrit": "वल्मीकाग्रमृदा कर्णौ वदनं केशवालयात् । इन्द्रालयमृदा(१) ग्रीवां हृदयन्तु नृपाजिरात्",
           "transliteration": "valmīkāgramṛdā karṇau vadanaṃ keśavālayāt / indrālayamṛdā(1) grīvāṃ hṛdayantu nṛpājirāt",
-          "hindi": "शस्त्रागारमें ऐसे पुरुषको रखना चाहिए, जो सदा सजग रहकर पहरा देता रहे। भृत्योंके कार्योंको समझकर उनके लिये तदनुकूल जीविकाका प्रबन्ध करना उचित है। राजाको चाहिए कि वह उत्तम, मध्यम और निकृष्ट कार्योका विचार करके उनमें ऐसे ही पुरुषोंको नियुक्त करे। पृथ्वीपर विजय चाहनेवाला भूपाल हितैषी सहायकोंका संग्रह करे। धर्मके कार्योमें धर्मात्मा पुरुषोंको, युद्धमें"
+          "hindi": "शस्त्रागारमें ऐसे पुरुषको रखना चाहिए, जो सदा सजग रहकर पहरा देता रहे। भृत्योंके कार्योंको समझकर उनके लिये तदनुकूल जीविकाका प्रबन्ध करना उचित है। राजाको चाहिए कि वह उत्तम, मध्यम और निकृष्ट कार्योका विचार करके उनमें ऐसे ही पुरुषोंको नियुक्त करे। पृथ्वीपर विजय चाहनेवाला भूपाल हितैषी सहायकोंका संग्रह करे। धर्मके कार्योमें धर्मात्मा पुरुषोंको, युद्धमें",
+          "translation": "ears with earth from an anthill top, face with earth from Keshava's temple, neck with earth from Indra's temple, heart with earth from the king's courtyard;",
+          "translationSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "करिदन्तोद्धृतमृदा दक्षिणन्तु तथा भुजं । वृषशृङ्गोद्धृतमृदा वामञ्चैव तथा भुजं",
           "transliteration": "karidantoddhṛtamṛdā dakṣiṇantu tathā bhujaṃ / vṛṣaśṛṅgoddhṛtamṛdā vāmañcaiva tathā bhujaṃ",
-          "hindi": "शूरवीरोंको और धनोपार्जनके कार्योमें अर्थकुशल व्यक्तियोंको लगावे। इस बातका ध्यान रखे कि सभी कायाँमें नियुक्त हुए पुरुष शुद्ध आचार-"
+          "hindi": "शूरवीरोंको और धनोपार्जनके कार्योमें अर्थकुशल व्यक्तियोंको लगावे। इस बातका ध्यान रखे कि सभी कायाँमें नियुक्त हुए पुरुष शुद्ध आचार-",
+          "translation": "the right arm with earth raised by an elephant's tusk, likewise the left arm with earth raised by a bull's horn;",
+          "translationSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "सरोमृदा तथा पृष्ठमुदरं सङ्गमान् मृदा । नदीतटद्वयमृदा पार्श्वे संशोधयेत्तथा(२)",
           "transliteration": "saromṛdā tathā pṛṣṭhamudaraṃ saṅgamān mṛdā / nadītaṭadvayamṛdā pārśve saṃśodhayettathā(2)",
-          "hindi": "स्त्रियोंकी देख-भालमें नपुंसकोंको नियुक्त करे। कठोर कर्मोमें तीखे स्वभाववाले पुरुषोंको लगावे । तात्पर्यं यह कि राजा धर्म-अर्थ अथवा कामके साधनमें जिस पुरुषको जहाँके लिये शुद्ध एवं उपयोगी समझे, उसकी वहीँ नियुक्ति करे। निकृष्ट श्रेणीके कामोंमें बैसे ही पुरुषोंको लगावे ।"
+          "hindi": "स्त्रियोंकी देख-भालमें नपुंसकोंको नियुक्त करे। कठोर कर्मोमें तीखे स्वभाववाले पुरुषोंको लगावे । तात्पर्यं यह कि राजा धर्म-अर्थ अथवा कामके साधनमें जिस पुरुषको जहाँके लिये शुद्ध एवं उपयोगी समझे, उसकी वहीँ नियुक्ति करे। निकृष्ट श्रेणीके कामोंमें बैसे ही पुरुषोंको लगावे ।",
+          "translation": "the back with earth from a lake, the belly with earth from a confluence, the sides with earth from both river banks;",
+          "translationSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "वेश्याद्वारमृदा राज्ञः कटिशौचं विधीयते । यज्ञस्थानात्तथैवोरू गोस्थानाज्जानुनी तथा",
           "transliteration": "veśyādvāramṛdā rājñaḥ kaṭiśaucaṃ vidhīyate / yajñasthānāttathaivorū gosthānājjānunī tathā",
-          "hindi": "वह मन्त्री, जिसको दूसरे देशके राजाओंसे सुलहकी बातचीत करने या युद्ध छेड़नेका अधिकार दिया गया हो।"
+          "hindi": "वह मन्त्री, जिसको दूसरे देशके राजाओंसे सुलहकी बातचीत करने या युद्ध छेड़नेका अधिकार दिया गया हो।",
+          "translation": "for the king the cleansing of the waist is prescribed with earth from a courtesan's door; the thighs from a sacrifice place, the knees from a cow-pen;",
+          "translationSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "अश्वस्थानात्तथा जङ्घे रथचक्रमृदाङ्घ्रिके । मूर्धानं पञ्चगव्येन भद्रासनगतं नृपं",
           "transliteration": "aśvasthānāttathā jaṅghe rathacakramṛdāṅghrike / mūrdhānaṃ pañcagavyena bhadrāsanagataṃ nṛpaṃ",
-          "hindi": "राजाके लिये उचित है कि वह तरह-तरहके उपायोंसे मनुष्योंकी परीक्षा करके उन्हें यथायोग्य कार्योमें नियोजित करे। मन्त्रीसे सलाह ले, कुछ व्यक्तियोंको यथोचित वृत्ति देकर हाथियोंके जंगलमें तैनात करे तथा उनका पता लगाते रहनेके लिये कई उत्साही अध्यक्षोंको नियुक्त करे। जिसको जिस काममें निपुण देखे, उसको उसीमें लगावे और बाप-दादोंके समयसे चले आते हुए भृत्योंको"
+          "hindi": "राजाके लिये उचित है कि वह तरह-तरहके उपायोंसे मनुष्योंकी परीक्षा करके उन्हें यथायोग्य कार्योमें नियोजित करे। मन्त्रीसे सलाह ले, कुछ व्यक्तियोंको यथोचित वृत्ति देकर हाथियोंके जंगलमें तैनात करे तथा उनका पता लगाते रहनेके लिये कई उत्साही अध्यक्षोंको नियुक्त करे। जिसको जिस काममें निपुण देखे, उसको उसीमें लगावे और बाप-दादोंके समयसे चले आते हुए भृत्योंको",
+          "translation": "the shanks from a horse-stall, the feet with earth of a chariot wheel; the king seated on a Bhadrasana, the head with pancha-gavya.",
+          "translationSource": "ai"
         },
         {
           "number": 18,
           "sanskrit": "अभिषिञ्चेदमात्यानां चतुष्टयमथो घटैः । १ चन्द्रालयमृदेति ज॥ २ सरोमृदेत्यादिः संशोधयेत्तथेत्यन्तः पाठः ज॥ पुस्तके नास्ति :प् २९२ पूर्वतो हेमकुम्भेन घृतपूर्णेन ब्राहणः",
           "transliteration": "abhiṣiñcedamātyānāṃ catuṣṭayamatho ghaṭaiḥ / 1 candrālayamṛdeti ja.. 2 saromṛdetyādiḥ saṃśodhayettathetyantaḥ pāṭhaḥ ja.. pustake nāsti :p 292 pūrvato hemakumbhena ghṛtapūrṇena brāhaṇaḥ",
-          "hindi": "सभी तरहके कार्योमें नियुक्त करे। केवल उत्तराधिकारीके कार्योमें उनकी नियुक्ति नहीं करे; क्योंकि वहाँ वे सब-के-सब एक समान हैं । जो लोग दूसरे राजाके आश्रयसे हटकर अपने"
+          "hindi": "सभी तरहके कार्योमें नियुक्त करे। केवल उत्तराधिकारीके कार्योमें उनकी नियुक्ति नहीं करे; क्योंकि वहाँ वे सब-के-सब एक समान हैं । जो लोग दूसरे राजाके आश्रयसे हटकर अपने",
+          "translation": "Then the four ministers should anoint with pots: from the east with a golden pot full of ghee, the Brahmin;",
+          "translationSource": "ai"
         },
         {
           "number": 19,
           "sanskrit": "रूप्यकुम्भेन याम्ये च क्षीरपूर्णेन क्षत्रियः । दध्ना च ताम्रकुम्भेन वैश्यः पश्चिमगेन च",
           "transliteration": "rūpyakumbhena yāmye ca kṣīrapūrṇena kṣatriyaḥ / dadhnā ca tāmrakumbhena vaiśyaḥ paścimagena ca",
-          "hindi": "पास शरण लेनेको इच्छासे आवें, वे दुष्ट हों या होनेपर उनका विश्वास न करे और उनकी जीविकावृत्तिको अपने ही अधीन रखे। जो लोग दूसरे देशोंसे अपने पास आये हों, उनके विषयमें गुप्तचरोंद्वारा सभी बातें जानकर उनका यथावत्"
+          "hindi": "पास शरण लेनेको इच्छासे आवें, वे दुष्ट हों या होनेपर उनका विश्वास न करे और उनकी जीविकावृत्तिको अपने ही अधीन रखे। जो लोग दूसरे देशोंसे अपने पास आये हों, उनके विषयमें गुप्तचरोंद्वारा सभी बातें जानकर उनका यथावत्",
+          "translation": "from the south with a silver pot full of milk, the Kshatriya; with a copper pot with curds, the Vaishya, from the west;",
+          "translationSource": "ai"
         },
         {
           "number": 20,
           "sanskrit": "मृण्मयेन जलेनोदक् शूद्रामात्यो ऽभिषिचयेत् । ततो ऽभिषेकं नृपतेर्बह्वृचप्रवरो द्विजः",
           "transliteration": "mṛṇmayena jalenodak śūdrāmātyo 'bhiṣicayet / tato 'bhiṣekaṃ nṛpaterbahvṛcapravaro dvijaḥ",
-          "hindi": "सत्कार करे। शत्रु, अग्नि, विष, साँप और"
+          "hindi": "सत्कार करे। शत्रु, अग्नि, विष, साँप और",
+          "translation": "from the north the Shudra minister should anoint with water in a clay pot. Then the consecration of the king, the Rigvedic best Brahmin,",
+          "translationSource": "ai"
         },
         {
           "number": 21,
           "sanskrit": "कुर्वीत मधुना विप्रश्छन्दोगश् च कुशोदकैः । सम्पातवन्तं कलशं तथा गत्वा पुरोहितः",
           "transliteration": "kurvīta madhunā vipraśchandogaś ca kuśodakaiḥ / sampātavantaṃ kalaśaṃ tathā gatvā purohitaḥ",
-          "hindi": "दूसरी ओर, इनमें दुष्ट भृत्योंको ही अधिक भयंकर समझना चाहिए। राजाको चारचक्षु होना उचित है। अर्थात् उसे गुप्तचरोंद्वारा सभी बातें देखनी-उनको जानकारी प्राप्त करनी चाहिए। इसलिये वह हमेशा सबकी देख-भालके लिये गुप्तचर तैनात किये रहे। गुप्तचर ऐसे हों, जिन्हें दूसरे लोग पहचानते न हों, जिनका स्वभाव"
+          "hindi": "दूसरी ओर, इनमें दुष्ट भृत्योंको ही अधिक भयंकर समझना चाहिए। राजाको चारचक्षु होना उचित है। अर्थात् उसे गुप्तचरोंद्वारा सभी बातें देखनी-उनको जानकारी प्राप्त करनी चाहिए। इसलिये वह हमेशा सबकी देख-भालके लिये गुप्तचर तैनात किये रहे। गुप्तचर ऐसे हों, जिन्हें दूसरे लोग पहचानते न हों, जिनका स्वभाव",
+          "translation": "the Chhandoga Brahmin with honey and kusha water should perform; the priest, having gone to the pot holding the stream,",
+          "translationSource": "ai"
         },
         {
           "number": 22,
           "sanskrit": "विधाय वह्निरक्षान्तु सदस्येषु यथाविधि । राजश्रियाभिषेके च ये मन्त्राः परिकीर्तिताः",
           "transliteration": "vidhāya vahnirakṣāntu sadasyeṣu yathāvidhi / rājaśriyābhiṣeke ca ye mantrāḥ parikīrtitāḥ",
-          "hindi": "शान्त एवं कोमल हो तथा जो परस्पर एक- दूसरेसे भी अपरिचित हों। उनमें कोई वैश्यके रूपमें हो, कोई मन्त्र-तन्त्रमें कुशल, कोई ज्यौतिषी, कोई वैद्य, कोई संन्यास-वेषधारी और कोई"
+          "hindi": "शान्त एवं कोमल हो तथा जो परस्पर एक- दूसरेसे भी अपरिचित हों। उनमें कोई वैश्यके रूपमें हो, कोई मन्त्र-तन्त्रमें कुशल, कोई ज्यौतिषी, कोई वैद्य, कोई संन्यास-वेषधारी और कोई",
+          "translation": "having duly arranged the fire's protection among the assembly, those mantras declared for the king's prosperity-consecration;",
+          "translationSource": "ai"
         },
         {
           "number": 23,
           "sanskrit": "तैस्तु दद्यान्महाभाग ब्राह्मणानां स्वनैस् तथा । ततः पुरोहितो गच्छेद्वेदिमूलन्तदेव तु(१)",
           "transliteration": "taistu dadyānmahābhāga brāhmaṇānāṃ svanais tathā / tataḥ purohito gacchedvedimūlantadeva tu(1)",
-          "hindi": "बलाबलका विचार करनेवाले व्यक्तिके रूपमें हो। राजाको चाहिए कि किसी एक गुप्तचरकी बातपर विश्वास न करे। जब बहुतोंके मुखसे एक तरहको बात सुने, तभी उसे विश्वसनीय समझे । भृत्योंके हृदयमें राजाके प्रति अनुराग है या विरक्ति, किस मनुष्यमें कौन-से गुण तथा अवगुण हैं, कौन शुभचिन्तक हैं और कौन अशुभ चाहनेवाले-अपने भृत्यवर्गको वशमें रखनेके"
+          "hindi": "बलाबलका विचार करनेवाले व्यक्तिके रूपमें हो। राजाको चाहिए कि किसी एक गुप्तचरकी बातपर विश्वास न करे। जब बहुतोंके मुखसे एक तरहको बात सुने, तभी उसे विश्वसनीय समझे । भृत्योंके हृदयमें राजाके प्रति अनुराग है या विरक्ति, किस मनुष्यमें कौन-से गुण तथा अवगुण हैं, कौन शुभचिन्तक हैं और कौन अशुभ चाहनेवाले-अपने भृत्यवर्गको वशमें रखनेके",
+          "translation": "with them, great one, one should give, along with Brahmins' chanting. Then the priest should go to the base of the altar;",
+          "translationSource": "ai"
         },
         {
           "number": 24,
           "sanskrit": "शतच्छिद्रेण पात्रेण सौवर्णेनाभिषेचयेत् । या ओषधीत्योषधीभीरथेत्युक्त्वेति गन्धकैः",
           "transliteration": "śatacchidreṇa pātreṇa sauvarṇenābhiṣecayet / yā oṣadhītyoṣadhībhīrathetyuktveti gandhakaiḥ",
-          "hindi": "लिये राजाको ये सभी बातें जाननी चाहिए। वह ऐसा कर्म करे, जो प्रजाका अनुराग बढ़ानेवाला हो। जिससे लोगोंके मनमें विरक्ति हो, ऐसा कोई काम न करे। प्रजाका अनुराग बढानेवाली"
+          "hindi": "लिये राजाको ये सभी बातें जाननी चाहिए। वह ऐसा कर्म करे, जो प्रजाका अनुराग बढ़ानेवाला हो। जिससे लोगोंके मनमें विरक्ति हो, ऐसा कोई काम न करे। प्रजाका अनुराग बढानेवाली",
+          "translation": "one should anoint with a hundred-holed golden vessel, saying \"Ya oshadhih,\" \"oshadhibhih,\" \"ratha,\" with scents,",
+          "translationSource": "ai"
         },
         {
           "number": 25,
           "sanskrit": "पुष्पैः पुष्पवतीत्येव ब्राह्मणेति च वीजकैः(२) । रत्नैर् आशुः शिशानश् च ये देवाश् च कुशोदकैः",
           "transliteration": "puṣpaiḥ puṣpavatītyeva brāhmaṇeti ca vījakaiḥ(2) / ratnair āśuḥ śiśānaś ca ye devāś ca kuśodakaiḥ",
-          "hindi": "लक्ष्मीसे युक्त राजा ही वास्तवमें राजा है। वह सब लोगोंका रञ्जन करने --उनकी प्रसन्नता बढ़ानेके कारण ही 'राजा' कहलाता है॥ १३--२४॥ इस प्रकार आदि आग्नेय महापुराणमें 'राजाकी सहायसम्पत्तिका वर्णन' नामक दो सौ बीसवाँ अध्याय पूरा हुआ"
+          "hindi": "लक्ष्मीसे युक्त राजा ही वास्तवमें राजा है। वह सब लोगोंका रञ्जन करने --उनकी प्रसन्नता बढ़ानेके कारण ही 'राजा' कहलाता है॥ १३--२४॥ इस प्रकार आदि आग्नेय महापुराणमें 'राजाकी सहायसम्पत्तिका वर्णन' नामक दो सौ बीसवाँ अध्याय पूरा हुआ",
+          "translation": "\"pushpavatih\" with flowers, \"brahmana\" with seeds, \"ashuh shishanah\" with jewels, \"ye devah\" with kusha water.",
+          "translationSource": "ai"
         },
         {
           "number": 26,
