@@ -67351,19 +67351,25 @@
           "number": 75,
           "sanskrit": "कल्केनालोड्य निम्बस्य कषायो वमनाय सः । स्निग्धस्विन्नयवन्तोयं प्रदातव्यं विरेचनम्",
           "transliteration": "kalkenāloḍya nimbasya kaṣāyo vamanāya saḥ / snigdhasvinnayavantoyaṃ pradātavyaṃ virecanam",
-          "hindi": "अपनी दोनों मुट्टियोंको चबाता है। ऐसे शिशुको लाल चन्दन, कूट, बच और सरसोंसे लेप और वानरके नख एवं रोमसे धूपन करे। दसवीं 'रोदनी' नामकी ग्रही है। इससे गृहीत शिशुको निम्नलिखित चेष्टाएँ होती हैं। बह सदा रोता है, उसका शरीर नील वर्ण और सुगन्धसे युक्त हो जाता है। ऐसे शिशुको निम्बका धूप और कूट, बच, राई तथा रालका लेपन करे। 'रोदनी'"
+          "hindi": "अपनी दोनों मुट्टियोंको चबाता है। ऐसे शिशुको लाल चन्दन, कूट, बच और सरसोंसे लेप और वानरके नख एवं रोमसे धूपन करे। दसवीं 'रोदनी' नामकी ग्रही है। इससे गृहीत शिशुको निम्नलिखित चेष्टाएँ होती हैं। बह सदा रोता है, उसका शरीर नील वर्ण और सुगन्धसे युक्त हो जाता है। ऐसे शिशुको निम्बका धूप और कूट, बच, राई तथा रालका लेपन करे। 'रोदनी'",
+          "translation": "Mixed with paste, a decoction of neem is for vomiting; water of oily, sweated barley should be given as a purgative.",
+          "translationSource": "ai"
         },
         {
           "number": 76,
           "sanskrit": "अन्यथा योजितं कुर्यात् मन्दाग्निं गौरवारुचिं । पथ्यासैन्धवकृष्णानां(३) चूर्णमुष्णाम्बुना पिवेत्",
           "transliteration": "anyathā yojitaṃ kuryāt mandāgniṃ gauravāruciṃ / pathyāsaindhavakṛṣṇānāṃ(3) cūrṇamuṣṇāmbunā pivet",
-          "hindi": "ग्रहीके उद्देश्यसे लाजा, कुल्माष, वनमूँग और भातकी बलि दे। इस प्रकार ये धूपदान आदिकी क्रियाएँ शिशुके जन्मके तेरहवें दिनतक की जाती हैं। (शेष तीन दिनोंकी सारी क्रियाएँ दसवें"
+          "hindi": "ग्रहीके उद्देश्यसे लाजा, कुल्माष, वनमूँग और भातकी बलि दे। इस प्रकार ये धूपदान आदिकी क्रियाएँ शिशुके जन्मके तेरहवें दिनतक की जाती हैं। (शेष तीन दिनोंकी सारी क्रियाएँ दसवें",
+          "translation": "If applied otherwise it causes weak digestion, heaviness and distaste. One should drink with warm water powder of pathya, rock salt and krishna.",
+          "translationSource": "ai"
         },
         {
           "number": 77,
           "sanskrit": "विरेकः सर्वरोगघ्नः श्रेष्ठो नाराचसंज्ञकः । १ कृष्णमिति ख॥ २ कुष्ठमिति ञ॥ ३ पथ्यासैन्धवकुष्ठानामिति ख॥ :प् ५७ सिद्धयोगा मुनिभ्यो ये आत्रेयेण प्रदर्शिताः । सर्वरोगहराः सर्वयोगाग्र्याः सुश्रुतेन हि",
           "transliteration": "virekaḥ sarvarogaghnaḥ śreṣṭho nārācasaṃjñakaḥ / 1 kṛṣṇamiti kha.. 2 kuṣṭhamiti ña.. 3 pathyāsaindhavakuṣṭhānāmiti kha.. :p 57 siddhayogā munibhyo ye ātreyeṇa pradarśitāḥ / sarvarogaharāḥ sarvayogāgryāḥ suśrutena hi",
-          "hindi": "दिनके समान समझनी चाहिए।) एक मासके शिशुको “पूतना' नामकी ग्रही ग्रहण करती है। उसका स्वरूप शकुनि (पक्षिणी बको)-का है। इससे पीड़ित बालक कौएके समान काँव-काँव करता, रोता, लंबी साँसें लेता,"
+          "hindi": "दिनके समान समझनी चाहिए।) एक मासके शिशुको “पूतना' नामकी ग्रही ग्रहण करती है। उसका स्वरूप शकुनि (पक्षिणी बको)-का है। इससे पीड़ित बालक कौएके समान काँव-काँव करता, रोता, लंबी साँसें लेता,",
+          "translation": "The purge called Narachaka is the best, destroying all diseases. The proven combinations shown by Atreya to the sages — destroyers of all diseases, chief of all combinations — are indeed by Sushruta.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -67417,115 +67423,153 @@
           "number": 6,
           "sanskrit": "उच्चटामधुना कर्षं पयःपा मृत्युजिन्नरः । मध्वाज्यैः पयसा वापि निर्गुण्डी रोगमृत्युजित्",
           "transliteration": "uccaṭāmadhunā karṣaṃ payaḥpā mṛtyujinnaraḥ / madhvājyaiḥ payasā vāpi nirguṇḍī rogamṛtyujit",
-          "hindi": "शिशुकी मृत्यु अवश्य हो जाती है। पाँचवीं “ललना' नामकी ग्रही होती है। इससे पीड़ित शिशुका शरीर शिथिल होता है और मुख सूखने लगता है। उसकी देह पीली पड़ जाती है और अपानवायु निकलती है। “ललना'की शान्तिके लिये दक्षिणदिशामें पूर्वोक्त पदार्थांको बलि दे। छठे मासमें “पङ्कजा' नामको ग्रही शिशुको पीड़ित करती है। इससे गृहीत शिशुकी चेष्टाएँ रुदन और"
+          "hindi": "शिशुकी मृत्यु अवश्य हो जाती है। पाँचवीं “ललना' नामकी ग्रही होती है। इससे पीड़ित शिशुका शरीर शिथिल होता है और मुख सूखने लगता है। उसकी देह पीली पड़ जाती है और अपानवायु निकलती है। “ललना'की शान्तिके लिये दक्षिणदिशामें पूर्वोक्त पदार्थांको बलि दे। छठे मासमें “पङ्कजा' नामको ग्रही शिशुको पीड़ित करती है। इससे गृहीत शिशुकी चेष्टाएँ रुदन और",
+          "translation": "A man who drinks uchchata with honey, a karsha, living on milk, conquers death; or nirgundi with honey, ghee or milk conquers disease and death.",
+          "translationSource": "ai"
         },
         {
           "number": 7,
           "sanskrit": "१ तैलमिति ञ॥ :प् ५८ पलाशतैलं कर्षैकं षण्मासं मधुना पिवेत् । दुग्धभोजी पञ्चशती सहस्रायुर्भवेन्नरः",
           "transliteration": "1 tailamiti ña.. :p 58 palāśatailaṃ karṣaikaṃ ṣaṇmāsaṃ madhunā pivet / dugdhabhojī pañcaśatī sahasrāyurbhavennaraḥ",
-          "hindi": "विकृत स्वर आदि हैं। 'पङ्कजा'को भी पूर्वोक्त पदार्थ, भात, पुष्प, गन्ध आदिको बलि प्रदान करे। सातवें महीनेमें “निराहारा' नामकी ग्रही"
+          "hindi": "विकृत स्वर आदि हैं। 'पङ्कजा'को भी पूर्वोक्त पदार्थ, भात, पुष्प, गन्ध आदिको बलि प्रदान करे। सातवें महीनेमें “निराहारा' नामकी ग्रही",
+          "translation": "One should drink a karsha of palasha oil with honey for six months; living on milk the man would live five hundred (years), a thousand-year life.",
+          "translationSource": "ai"
         },
         {
           "number": 8,
           "sanskrit": "ज्योतिष्मतीपत्ररसं पयसा त्रिफलां पिवेत् । मधुनाज्यन्ततस्तद्वत् शतावर्या रजः पलं",
           "transliteration": "jyotiṣmatīpatrarasaṃ payasā triphalāṃ pivet / madhunājyantatastadvat śatāvaryā rajaḥ palaṃ",
-          "hindi": "पलाश, गूलर, पीपल, वट और बेलके पत्ते “पञ्चपत्र' या 'पञ्चभङ्ग कहलाते हैं।' शिशुको ग्रहण करती है। इससे पीडित शिशु दुर्गन्ध और दन्तरोगसे युक्त होता है। “निराहारा'के निमित्त मिष्टान्न और पूर्वोक्त पदार्थोकी बलि दे। आठवें मासमें “यमुना” नामवाली ग्रही शिशुपर"
+          "hindi": "पलाश, गूलर, पीपल, वट और बेलके पत्ते “पञ्चपत्र' या 'पञ्चभङ्ग कहलाते हैं।' शिशुको ग्रहण करती है। इससे पीडित शिशु दुर्गन्ध और दन्तरोगसे युक्त होता है। “निराहारा'के निमित्त मिष्टान्न और पूर्वोक्त पदार्थोकी बलि दे। आठवें मासमें “यमुना” नामवाली ग्रही शिशुपर",
+          "translation": "One should drink juice of jyotishmati leaf with milk, triphala with honey and ghee likewise, a pala of shatavari powder;",
+          "translationSource": "ai"
         },
         {
           "number": 9,
           "sanskrit": "क्षौद्राज्यैः पयसा वापि निर्गुण्डी रोगमृत्युजित् । पञ्चाङ्गं निम्बचूर्णस्य खदिरक्वाथभावितं",
           "transliteration": "kṣaudrājyaiḥ payasā vāpi nirguṇḍī rogamṛtyujit / pañcāṅgaṃ nimbacūrṇasya khadirakvāthabhāvitaṃ",
-          "hindi": "आक्रमण करती है । इससे पीड़ित शिशुके शरीरमें दाने (फोड़े-फुन्सियाँ) उभर आते हैं और शरीर सूख जाता है। इसकी चिकित्सा नहीं करानी चाहिए। नवम मासमें 'कुम्भकर्णी' नामवाली"
+          "hindi": "आक्रमण करती है । इससे पीड़ित शिशुके शरीरमें दाने (फोड़े-फुन्सियाँ) उभर आते हैं और शरीर सूख जाता है। इसकी चिकित्सा नहीं करानी चाहिए। नवम मासमें 'कुम्भकर्णी' नामवाली",
+          "translation": "or with honey, ghee and milk, nirgundi conquers disease and death. The five parts of neem powder steeped in khadira decoction,",
+          "translationSource": "ai"
         },
         {
           "number": 10,
           "sanskrit": "कर्षं भृङ्गरसेनापि रोगजिच्चामरो(१) भवेत् । रुदन्तिकाज्यमधुभुक् दुग्धभोजी च मृत्युजित्",
           "transliteration": "karṣaṃ bhṛṅgarasenāpi rogajiccāmaro(1) bhavet / rudantikājyamadhubhuk dugdhabhojī ca mṛtyujit",
-          "hindi": "ग्रहीसे पीड़ित हुआ बालक ज्वर और सर्दीसे कष्ट पाता है तथा बहुत रोता है। 'कुम्भकर्णी के चना) आदि पदार्थोंको ईशानकोणमें बलि दे। दशम मासमें “तापसी' ग्रही बालकपर आक्रमण करती है। इससे ग्रस्त बालक आहारका परित्याग कर देता है और आँखें मूँदे रहता है । “तापसी \"के"
+          "hindi": "ग्रहीसे पीड़ित हुआ बालक ज्वर और सर्दीसे कष्ट पाता है तथा बहुत रोता है। 'कुम्भकर्णी के चना) आदि पदार्थोंको ईशानकोणमें बलि दे। दशम मासमें “तापसी' ग्रही बालकपर आक्रमण करती है। इससे ग्रस्त बालक आहारका परित्याग कर देता है और आँखें मूँदे रहता है । “तापसी \"के",
+          "translation": "a karsha with bhringaraja juice conquers disease and one becomes undying. Rudantika with ghee and honey, living on milk, conquers death.",
+          "translationSource": "ai"
         },
         {
           "number": 11,
           "sanskrit": "कर्षचूर्णं हरीतक्या भावितं भृङ्गराड्रसैः । घृतेन मधुना सेव्य त्रिशतायुश् च रोगजित्",
           "transliteration": "karṣacūrṇaṃ harītakyā bhāvitaṃ bhṛṅgarāḍrasaiḥ / ghṛtena madhunā sevya triśatāyuś ca rogajit",
-          "hindi": "उद्देश्यसे घण्टा, पताका, पिष्टान्न आदि पदार्थांकी बलि प्रदान करे। ग्यारहवां 'राक्षसी' नामकी ग्रही है। इससे गृहीत बालक नेत्ररोगसे पीड़ित होता है। उसकी चिकित्सा व्यर्थ होती है। बारहवें महीनेमें"
+          "hindi": "उद्देश्यसे घण्टा, पताका, पिष्टान्न आदि पदार्थांकी बलि प्रदान करे। ग्यारहवां 'राक्षसी' नामकी ग्रही है। इससे गृहीत बालक नेत्ररोगसे पीड़ित होता है। उसकी चिकित्सा व्यर्थ होती है। बारहवें महीनेमें",
+          "translation": "A karsha of haritaki powder steeped in bhringaraja juices, taken with ghee and honey, gives three hundred years and conquers disease.",
+          "translationSource": "ai"
         },
         {
           "number": 12,
           "sanskrit": "वाराहिका भृङ्गरसं लोहचूर्णं शतावरी । साज्यं कर्षं(२) पञ्चशती कर्तचूर्णं शतावरी",
           "transliteration": "vārāhikā bhṛṅgarasaṃ lohacūrṇaṃ śatāvarī / sājyaṃ karṣaṃ(2) pañcaśatī kartacūrṇaṃ śatāvarī",
-          "hindi": "“चञ्चला' ग्रही शिशुको ग्रहण करती है। इसके आदि चेष्टाओंसे युक्त होता है। इस ग्रहीके शान्त्यर्थं मध्याहके समय पूर्वदिशामें कुल्माष और तिल आदिकी बलि दे"
+          "hindi": "“चञ्चला' ग्रही शिशुको ग्रहण करती है। इसके आदि चेष्टाओंसे युक्त होता है। इस ग्रहीके शान्त्यर्थं मध्याहके समय पूर्वदिशामें कुल्माष और तिल आदिकी बलि दे",
+          "translation": "Varahika, bhringaraja juice, iron powder, shatavari with ghee — a karsha gives five hundred years; shatavari powder as made;",
+          "translationSource": "ai"
         },
         {
           "number": 13,
           "sanskrit": "भावितं भृङ्गराजेन मध्वाज्यन्त्रिशती भवेत् । ताम्रं मृतं(३) सृततुल्यं(४) गन्धकञ्च कुमारिका",
           "transliteration": "bhāvitaṃ bhṛṅgarājena madhvājyantriśatī bhavet / tāmraṃ mṛtaṃ(3) sṛtatulyaṃ(4) gandhakañca kumārikā",
-          "hindi": "द्वितीय वर्षमें “यातना' नामको ग्रही शिशुको ग्रहण करती है। इससे शिशुको ' यातना' सहनी पड़ती है और उसमें रोदन आदि दोष प्रकट होते हैं। “यातना' ग्रहीको तिलके गूदे और पूर्वोक्त"
+          "hindi": "द्वितीय वर्षमें “यातना' नामको ग्रही शिशुको ग्रहण करती है। इससे शिशुको ' यातना' सहनी पड़ती है और उसमें रोदन आदि दोष प्रकट होते हैं। “यातना' ग्रहीको तिलके गूदे और पूर्वोक्त",
+          "translation": "steeped in bhringaraja with honey and ghee, it gives three hundred. Calcined copper equal to mercury, sulphur and kumari,",
+          "translationSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "रसैर् विमृज्य द्वे गुञ्जे साज्यं पञ्चशताब्दवान् । अश्वगन्धा पलं तैलं साज्यं खण्डं शताब्दवान्",
           "transliteration": "rasair vimṛjya dve guñje sājyaṃ pañcaśatābdavān / aśvagandhā palaṃ tailaṃ sājyaṃ khaṇḍaṃ śatābdavān",
-          "hindi": "और राजफलके छिलकेसे धूप दे चतुर्थ वर्षमें 'चटका' नामको राक्षसी शिशुको ग्रहण करती है। उससे ग्रस्त हुए बालकको ज्वर आता है और सारे अङ्गोंमें व्यथा होती है। चटकाको पूर्वोक्त पदार्थ एवं तिल आदिकी बलि दे"
+          "hindi": "और राजफलके छिलकेसे धूप दे चतुर्थ वर्षमें 'चटका' नामको राक्षसी शिशुको ग्रहण करती है। उससे ग्रस्त हुए बालकको ज्वर आता है और सारे अङ्गोंमें व्यथा होती है। चटकाको पूर्वोक्त पदार्थ एवं तिल आदिकी बलि दे",
+          "translation": "rubbed with juices, two gunjas with ghee, one has five hundred years. Ashvagandha a pala, oil with ghee and sugar, gives a hundred years;",
+          "translationSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "पलम्पुनर् नवाचूर्णं मध्वाज्यपयसा पिवम् । अशोकचूर्णस्य पलं मध्वाज्यं पयसार्तिनुत्",
           "transliteration": "palampunar navācūrṇaṃ madhvājyapayasā pivam / aśokacūrṇasya palaṃ madhvājyaṃ payasārtinut",
-          "hindi": "और बालकको स्त्रान कराकर उसके लिये धूपन करे। पञ्चम वर्षमें ' चञ्चला' शिशुपर अधिकार कर लेती है। इससे पीडित बालक ज्वर, भय और अङ्ग-शैथिल्यसे युक्त होता है। चञ्चलाको भात"
+          "hindi": "और बालकको स्त्रान कराकर उसके लिये धूपन करे। पञ्चम वर्षमें ' चञ्चला' शिशुपर अधिकार कर लेती है। इससे पीडित बालक ज्वर, भय और अङ्ग-शैथिल्यसे युक्त होता है। चञ्चलाको भात",
+          "translation": "a pala of punarnava powder with honey, ghee and milk — drink; a pala of ashoka powder with honey, ghee and milk removes affliction.",
+          "translationSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "तिलस्य तैलं समधु नस्यात् कृष्णकचः शती । कर्षमक्षं समध्वाज्यं शतायुः पयसा पिवन्",
           "transliteration": "tilasya tailaṃ samadhu nasyāt kṛṣṇakacaḥ śatī / karṣamakṣaṃ samadhvājyaṃ śatāyuḥ payasā pivan",
-          "hindi": "आदि पदार्थोंकी बलि दे और बालकको काकड़ासिंगीसे धूपित करे । साथ ही पलाश, गूलर, पीपल, बड़ और बिल्वपत्रके जलसे उसका अभिषेक किया जाय। छठे वर्षमें ' धावनी' नामको ग्रही बालकपर आक्रमण करती है। उससे गृहीत बालकका शरीर नीरस होकर सूखने लगता है। उसके अङ्ग-अङ्गमें पीड़ा होती है । इसके उद्देश्यसे सात दिनतक पूर्वोक्त पदार्थोंकी बलि और बालकका"
+          "hindi": "आदि पदार्थोंकी बलि दे और बालकको काकड़ासिंगीसे धूपित करे । साथ ही पलाश, गूलर, पीपल, बड़ और बिल्वपत्रके जलसे उसका अभिषेक किया जाय। छठे वर्षमें ' धावनी' नामको ग्रही बालकपर आक्रमण करती है। उससे गृहीत बालकका शरीर नीरस होकर सूखने लगता है। उसके अङ्ग-अङ्गमें पीड़ा होती है । इसके उद्देश्यसे सात दिनतक पूर्वोक्त पदार्थोंकी बलि और बालकका",
+          "translation": "Sesame oil with honey as nasal medicine gives black hair for a hundred; a karsha of akshaka with honey and ghee; drinking milk, one lives a hundred years.",
+          "translationSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "१ रोगनुच्चामरो भवेदिति ञ॥ २ साज्यं सर्वमिति ख॥ ३ ताम्रामृतमिति ख॥ ४ सुरतुस्यमिति ज॥ , ञ॥ च :प् ५९ अभयं सगुडञ्चग्ध्वा घृतेन मधुरादिभिः । दुग्धान्नभुक् कृष्णकेशो ऽरोगी पञ्चशताब्दवान्",
           "transliteration": "1 roganuccāmaro bhavediti ña.. 2 sājyaṃ sarvamiti kha.. 3 tāmrāmṛtamiti kha.. 4 suratusyamiti ja.. , ña.. ca :p 59 abhayaṃ saguḍañcagdhvā ghṛtena madhurādibhiḥ / dugdhānnabhuk kṛṣṇakeśo 'rogī pañcaśatābdavān",
-          "hindi": "भृङ्गराजसे स्नापन और धूपन करे ॥ ३६-३८ ३ ॥ सप्तम वर्षमें “यमुना' ग्रहीसे पीड़ित बालक सर्दी, मुक्ता तथा अत्यन्त हास एवं रोदनसे युक्त होता है। इस ग्रहीके निमित्त पायस और पूर्वोक्त"
+          "hindi": "भृङ्गराजसे स्नापन और धूपन करे ॥ ३६-३८ ३ ॥ सप्तम वर्षमें “यमुना' ग्रहीसे पीड़ित बालक सर्दी, मुक्ता तथा अत्यन्त हास एवं रोदनसे युक्त होता है। इस ग्रहीके निमित्त पायस और पूर्वोक्त",
+          "translation": "Having eaten abhaya with jaggery, with ghee, honey and sweet things, living on milk-food, with black hair, free of disease, he has five hundred years.",
+          "translationSource": "ai"
         },
         {
           "number": 18,
           "sanskrit": "पलङ्कुष्माण्डिकाचूर्णं मध्वाज्यपयसा पिवन् । मासं दुग्धान्नभोजी च सहस्रायुर्विरोगवान्",
           "transliteration": "palaṅkuṣmāṇḍikācūrṇaṃ madhvājyapayasā pivan / māsaṃ dugdhānnabhojī ca sahasrāyurvirogavān",
-          "hindi": "पदार्थ आदिको बलि दे एवं बालकका पूर्ववत् विधिसे स्रापन और धूपन करे। अष्टम वर्षमें “जातवेदा? नामकी ग्रही बालकपर अधिकार करती है। इससे पीड़ित बालक भोजन छोड़ देता है और बहुत रोता है। जातवेदाके निमित्त कृसर (खिचड़ी), मालपूए और दही आदिको बलि प्रदान करे। बालकको स्नान कराके धूपित भी"
+          "hindi": "पदार्थ आदिको बलि दे एवं बालकका पूर्ववत् विधिसे स्रापन और धूपन करे। अष्टम वर्षमें “जातवेदा? नामकी ग्रही बालकपर अधिकार करती है। इससे पीड़ित बालक भोजन छोड़ देता है और बहुत रोता है। जातवेदाके निमित्त कृसर (खिचड़ी), मालपूए और दही आदिको बलि प्रदान करे। बालकको स्नान कराके धूपित भी",
+          "translation": "Drinking a pala of kushmandika powder with honey, ghee and milk for a month, living on milk food, one has a thousand years free of disease.",
+          "translationSource": "ai"
         },
         {
           "number": 19,
           "sanskrit": "शालूकचूर्णं भृङ्गाज्यं समध्वाज्यं शताब्दकृत् । कटुतुम्बीतैलनस्यं कर्षं शतद्वयाब्दवान्",
           "transliteration": "śālūkacūrṇaṃ bhṛṅgājyaṃ samadhvājyaṃ śatābdakṛt / kaṭutumbītailanasyaṃ karṣaṃ śatadvayābdavān",
-          "hindi": "पदार्थोंको बलि दे। स्नान आदि कर्म पूर्ववत्  करे। नवम वर्षमें काला' नामको ग्रही बालकको"
+          "hindi": "पदार्थोंको बलि दे। स्नान आदि कर्म पूर्ववत्  करे। नवम वर्षमें काला' नामको ग्रही बालकको",
+          "translation": "Shaluka powder with bhringa, ghee and honey gives a hundred years; nasal oil of pungent tumbi, a karsha, gives two hundred years.",
+          "translationSource": "ai"
         },
         {
           "number": 20,
           "sanskrit": "त्रिफला पिप्पली शुण्ठी सेविता त्रिशताब्दकृत् । शतावर्याः पूर्वयोगः सहस्रायुर्बलातिकृत्",
           "transliteration": "triphalā pippalī śuṇṭhī sevitā triśatābdakṛt / śatāvaryāḥ pūrvayogaḥ sahasrāyurbalātikṛt",
-          "hindi": "विधिसे करना चाहिए। तृतीय वर्षमें बालकपर पकड्ती है। इससे ग्रस्त बालक अपनी भुजाओंको"
+          "hindi": "विधिसे करना चाहिए। तृतीय वर्षमें बालकपर पकड्ती है। इससे ग्रस्त बालक अपनी भुजाओंको",
+          "translation": "Triphala, pippali and ginger taken give three hundred years; the earlier combination of shatavari gives a thousand years and great strength.",
+          "translationSource": "ai"
         },
         {
           "number": 21,
           "sanskrit": "चित्रकेन तथा पुर्वस् तथा शुण्ठीविडङ्गतः । लोहेन भृङ्गराजेन बलया निम्बपञ्चकैः",
           "transliteration": "citrakena tathā purvas tathā śuṇṭhīviḍaṅgataḥ / lohena bhṛṅgarājena balayā nimbapañcakaiḥ",
-          "hindi": "' रोदिनी' अधिकार करती है। इससे ग्रस्त बालक  कँपाता है, गर्जना करता है और भयभीत रहता काँपता और रोता है तथा उसके पेशाबमें रक्त  है। कालाके शान्त्यर्थ कुसर, मालपूए, सत्तू"
+          "hindi": "' रोदिनी' अधिकार करती है। इससे ग्रस्त बालक  कँपाता है, गर्जना करता है और भयभीत रहता काँपता और रोता है तथा उसके पेशाबमें रक्त  है। कालाके शान्त्यर्थ कुसर, मालपूए, सत्तू",
+          "translation": "With chitraka likewise the earlier; so too from ginger and vidanga; with iron, bhringaraja, bala, the five of neem;",
+          "translationSource": "ai"
         },
         {
           "number": 22,
           "sanskrit": "खदिरेण च निर्गुण्ड्या कण्टकार्याथ वासकात् । वर्षाभुवा तद्रसैर् वा भावितो वटिकाकृतः",
           "transliteration": "khadireṇa ca nirguṇḍyā kaṇṭakāryātha vāsakāt / varṣābhuvā tadrasair vā bhāvito vaṭikākṛtaḥ",
-          "hindi": "आता है। इसके उद्देश्यसे गुड़, भात, तिलका पूआ और पीसे हुए तिलको बनी प्रतिमा दे। बालकको तिलमिश्रित जलसे स्नान कराकर पञ्चपत्र कुल्माष और पायस (खीर)-की बलि दे। दसवें वर्षमै “कलहंसी? बालकको ग्रहण करती है। इससे उसके शरीरमें जलन होती है, अङ्ग दुर्बल"
+          "hindi": "आता है। इसके उद्देश्यसे गुड़, भात, तिलका पूआ और पीसे हुए तिलको बनी प्रतिमा दे। बालकको तिलमिश्रित जलसे स्नान कराकर पञ्चपत्र कुल्माष और पायस (खीर)-की बलि दे। दसवें वर्षमै “कलहंसी? बालकको ग्रहण करती है। इससे उसके शरीरमें जलन होती है, अङ्ग दुर्बल",
+          "translation": "with khadira, nirgundi, kantakari and vasaka, with punarnava or its juices, made as a pill,",
+          "translationSource": "ai"
         },
         {
           "number": 23,
           "sanskrit": "चूर्णङ्घृतैर् वा मधुना गुडाद्यैर् वारिणा तथा । ॐ ह्रूं स इतिमन्त्रेण मन्त्रतो योगराजकः",
           "transliteration": "cūrṇaṅghṛtair vā madhunā guḍādyair vāriṇā tathā / oṃ hrūṃ sa itimantreṇa mantrato yogarājakaḥ",
-          "hindi": "हो जाते हैं और वह ज्वरग्रस्त रहता है । इसके"
+          "hindi": "हो जाते हैं और वह ज्वरग्रस्त रहता है । इसके",
+          "translation": "powder with ghee or honey, jaggery and the like, or with water; with the mantra \"Om hrum sah,\" by mantra, the king of combinations;",
+          "translationSource": "ai"
         },
         {
           "number": 24,
           "sanskrit": "मृतसञ्जीवनीकल्पो रोगमृत्युञ्जयो भवेत् । सुरासुरैश् च मुनिभिः सेविताः कल्पसागराः गजायुर्वेदं प्रोवाच पालकाप्ये ऽङ्गराजकं",
           "transliteration": "mṛtasañjīvanīkalpo rogamṛtyuñjayo bhavet / surāsuraiś ca munibhiḥ sevitāḥ kalpasāgarāḥ gajāyurvedaṃ provāca pālakāpye 'ṅgarājakaṃ",
-          "hindi": "अन्नकी बलि देनी चाहिए। बालक का निम्बपत्रोंसे धूपन और कूटका अनुलेपन करे। ग्यारहवें वर्षमें कुमारको 'देवदूती' नामकी ग्रही ग्रहण करती है। इससे वह कठोर वचन बोलता है । ' देवदूती 'के उद्देश्यसे पूर्ववत् बलिदान और लेपादिक करे। बारहवें वर्षमें “बलिका 'से आक्रान्त बालक श्वास- रोगसे युक्त होता है। इसके निमित्त भी पूर्वोक्त विधिसे बलि एवं लेपादि करे। तेरहवें वर्षमें"
+          "hindi": "अन्नकी बलि देनी चाहिए। बालक का निम्बपत्रोंसे धूपन और कूटका अनुलेपन करे। ग्यारहवें वर्षमें कुमारको 'देवदूती' नामकी ग्रही ग्रहण करती है। इससे वह कठोर वचन बोलता है । ' देवदूती 'के उद्देश्यसे पूर्ववत् बलिदान और लेपादिक करे। बारहवें वर्षमें “बलिका 'से आक्रान्त बालक श्वास- रोगसे युक्त होता है। इसके निमित्त भी पूर्वोक्त विधिसे बलि एवं लेपादि करे। तेरहवें वर्षमें",
+          "translation": "the Mritasanjivani regimen would be the conqueror of disease and death. Oceans of regimens attended by gods, demons and sages; he taught the Gaja-ayurveda (elephant medicine) to Palakapya, Angaraja.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -67892,319 +67936,425 @@
           "number": 12,
           "sanskrit": "ग्रहाश् च हेषिते चैव तथैवोरसि वासुकिः । उपोषितो ऽर्चयेत् सादी हयं दक्षश्रुतौ जपेत्",
           "transliteration": "grahāś ca heṣite caiva tathaivorasi vāsukiḥ / upoṣito 'rcayet sādī hayaṃ dakṣaśrutau japet",
-          "hindi": "दे। अथवा पञ्चगव्य घीका उस रोगमें प्रयोग करे।"
+          "hindi": "दे। अथवा पञ्चगव्य घीका उस रोगमें प्रयोग करे।",
+          "translation": "Planets are in neighing and likewise Vasuki is in the chest. Fasting, the rider should worship the horse and recite in the right ear:",
+          "translationSource": "ai"
         },
         {
           "number": 13,
           "sanskrit": "हय गन्धर्वराजस्त्वं शृणुष्व वचनं गम । गन्धर्वकुलजातस्त्वं माभूस्त्वं कुलदूषकः",
           "transliteration": "haya gandharvarājastvaṃ śṛṇuṣva vacanaṃ gama / gandharvakulajātastvaṃ mābhūstvaṃ kuladūṣakaḥ",
-          "hindi": "(इस मन्त्रके जपसे ज्चर दूर होता है।) श्वास (दमा)-का रोगी कृष्णोषण (काली मिर्च), हल्दी, रास्ना, द्राक्षा और तिलका तैल एवं गुड़का आस्वादन करे। अथवा वह रोगी जेठीमधु (मुलहठी) और घीके साथ भार्गीका सेवन करे या पाठा, तिक्ता (कुटको), कर्णा (पिप्पली) तथा भार्गीको मधुके साथ चारे। धात्री (आँवला),"
+          "hindi": "(इस मन्त्रके जपसे ज्चर दूर होता है।) श्वास (दमा)-का रोगी कृष्णोषण (काली मिर्च), हल्दी, रास्ना, द्राक्षा और तिलका तैल एवं गुड़का आस्वादन करे। अथवा वह रोगी जेठीमधु (मुलहठी) और घीके साथ भार्गीका सेवन करे या पाठा, तिक्ता (कुटको), कर्णा (पिप्पली) तथा भार्गीको मधुके साथ चारे। धात्री (आँवला),",
+          "translation": "\"Horse, you are king of the Gandharvas; hear my word, go. You are born of a Gandharva family; do not be a defiler of the family.",
+          "translationSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "द्विजानां सत्यवाक्येन सोमस्य गरुडस्य च । रुद्रस्य वरुणस्यैव पवनस्य बलेन च",
           "transliteration": "dvijānāṃ satyavākyena somasya garuḍasya ca / rudrasya varuṇasyaiva pavanasya balena ca",
-          "hindi": "हिक्का (हिचकी) दूर करनेवाले हैं। उपर्युक्त तीनों योग मधुके साथ लेने चाहिए। कामल- रोगसे ग्रस्त मनुष्यको जीरा, माण्ड्कपर्णी, हल्दी और आँवलेका रस पिलाना चाहिए। त्रिकटु,"
+          "hindi": "हिक्का (हिचकी) दूर करनेवाले हैं। उपर्युक्त तीनों योग मधुके साथ लेने चाहिए। कामल- रोगसे ग्रस्त मनुष्यको जीरा, माण्ड्कपर्णी, हल्दी और आँवलेका रस पिलाना चाहिए। त्रिकटु,",
+          "translation": "By the true word of Brahmins, and by Soma, Garuda, Rudra, Varuna, and the strength of the wind,",
+          "translationSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "हुताशनस्य दीप्त्या च स्मर जातिं तुरङ्गम । स्मर राजेन्द्रपुत्रस्त्वं सत्यवाक्यमनुस्मर",
           "transliteration": "hutāśanasya dīptyā ca smara jātiṃ turaṅgama / smara rājendraputrastvaṃ satyavākyamanusmara",
-          "hindi": "पद्मकाष्ठ, त्रिफला, वायविङङ्ग, देवदारु तथा रास्रा-इन सबको सममात्रामें लेकर चूर्ण बना ले और खाँड मिलाकर उसे खाये। इस औषधसे अवश्य ही खाँसी दूर हो जाती है॥ ३२--३५॥ इस प्रकार आदि आग्रेय महापुराणमें 'ग्रहनाधाहारी मन्त्र तथा औषधका कथन” नामक तीन सवाँ अध्याय पूरा हुआ"
+          "hindi": "पद्मकाष्ठ, त्रिफला, वायविङङ्ग, देवदारु तथा रास्रा-इन सबको सममात्रामें लेकर चूर्ण बना ले और खाँड मिलाकर उसे खाये। इस औषधसे अवश्य ही खाँसी दूर हो जाती है॥ ३२--३५॥ इस प्रकार आदि आग्रेय महापुराणमें 'ग्रहनाधाहारी मन्त्र तथा औषधका कथन” नामक तीन सवाँ अध्याय पूरा हुआ",
+          "translation": "and the radiance of fire, remember your birth, horse. Remember you are a king's son; remember the true word;",
+          "translationSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "१ कणिकां विनेति क॥ , ञ॥ च :प् ६५ स्मर त्वं वारुणीं कन्यां स्मर त्वं कौस्तुभं मणिं । क्षिरोदसागरे चैव मथ्यमाने सुरासुरैः",
           "transliteration": "1 kaṇikāṃ vineti ka.. , ña.. ca :p 65 smara tvaṃ vāruṇīṃ kanyāṃ smara tvaṃ kaustubhaṃ maṇiṃ / kṣirodasāgare caiva mathyamāne surāsuraiḥ",
-          "hindi": "सिद्धि-गणपति आदि मन्त्र तथा सूर्यदेवको आराधना"
+          "hindi": "सिद्धि-गणपति आदि मन्त्र तथा सूर्यदेवको आराधना",
+          "translation": "remember the Varuni maiden; remember the Kaustubha jewel when the milk ocean was churned by gods and demons;",
+          "translationSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "तत्र देवकुले जातः स्ववाक्यं परिपालय । कुले जातस्त्वमश्वानां मित्रं मे भव शास्वतम्",
           "transliteration": "tatra devakule jātaḥ svavākyaṃ paripālaya / kule jātastvamaśvānāṃ mitraṃ me bhava śāsvatam",
-          "hindi": "अग्निदेव कहते हैं— वसिष्ठ ! शार्ङ्गी (गकार),  विष्णु (ईकार) और पावक (रकार) हो तो इन दण्डी (अनुस्वारयुक्त) हो, उसके साथ पद्मेश  चार अक्षरोंके मेलसे पिण्डीभूत बीज (ग्रीं) » यहाँ पिप्पलीका नाम दुबारा आया है। जो द्रव्य दो बार आया हो, उसका दो भाग लिया जाता है।"
+          "hindi": "अग्निदेव कहते हैं— वसिष्ठ ! शार्ङ्गी (गकार),  विष्णु (ईकार) और पावक (रकार) हो तो इन दण्डी (अनुस्वारयुक्त) हो, उसके साथ पद्मेश  चार अक्षरोंके मेलसे पिण्डीभूत बीज (ग्रीं) » यहाँ पिप्पलीका नाम दुबारा आया है। जो द्रव्य दो बार आया हो, उसका दो भाग लिया जाता है।",
+          "translation": "there you were born in the divine family; keep your own word. Born in the horse family, be my eternal friend.",
+          "translationSource": "ai"
         },
         {
           "number": 18,
           "sanskrit": "शृणु मित्र त्वमेतच्च सिद्धो मे भव वाहन । विजयं रक्ष माञ्चैव समरे सिद्धिमावह",
           "transliteration": "śṛṇu mitra tvametacca siddho me bhava vāhana / vijayaṃ rakṣa māñcaiva samare siddhimāvaha",
-          "hindi": "प्रकट होता है । यह सर्वार्थसाधक माना गया है' ।  गणेशजीके चार विग्रहोंका पूजन करे। इसी प्रकार"
+          "hindi": "प्रकट होता है । यह सर्वार्थसाधक माना गया है' ।  गणेशजीके चार विग्रहोंका पूजन करे। इसी प्रकार",
+          "translation": "Hear this, friend; be accomplished for me, steed; guard victory and me; bring success in battle.",
+          "translationSource": "ai"
         },
         {
           "number": 19,
           "sanskrit": "तव पृष्ठं समारुह्य हता दैत्याः सुरैः पुरा । अधुना त्वां समारुह्य जेष्यामि रिपुवाहिनीं",
           "transliteration": "tava pṛṣṭhaṃ samāruhya hatā daityāḥ suraiḥ purā / adhunā tvāṃ samāruhya jeṣyāmi ripuvāhinīṃ",
-          "hindi": "उपर्युक्त बीजके आदिमें क्रमशः दीर्घ स्वरोंको जोड़कर उनके द्वारा अङ्गन्यास करे। यथा--ग्रां हृदयाय नमः। ग्रीं शिरसे स्वाहा। ग्रूं शिखायै ग्रः अस्त्राय फट्।' (“ग' इस एकाक्षर बीजसे भी इसी प्रकार न्यास करना चाहिए। उसमें दीर्घ"
+          "hindi": "उपर्युक्त बीजके आदिमें क्रमशः दीर्घ स्वरोंको जोड़कर उनके द्वारा अङ्गन्यास करे। यथा--ग्रां हृदयाय नमः। ग्रीं शिरसे स्वाहा। ग्रूं शिखायै ग्रः अस्त्राय फट्।' (“ग' इस एकाक्षर बीजसे भी इसी प्रकार न्यास करना चाहिए। उसमें दीर्घ",
+          "translation": "Mounting your back the demons were slain by the gods of old; now mounting you I shall conquer the enemy's army.\"",
+          "translationSource": "ai"
         },
         {
           "number": 20,
           "sanskrit": "कर्णजापन्ततः कृत्वा विमुह्य च तथा प्यरीन्(१) । पर्यानयेद्धयं सादी वहयेद्युद्धतो जयः",
           "transliteration": "karṇajāpantataḥ kṛtvā vimuhya ca tathā pyarīn(1) / paryānayeddhayaṃ sādī vahayedyuddhato jayaḥ",
-          "hindi": "(म्)-इनसे युक्त खान्त (ग)-का उच्चारण किया जाय। ऐसा करनेसे 'गं', 'गः'-ये दो बीज प्रकट हुए। औकार और बिन्दुसे युक्त 'गौं' तीसरा बीज है। बिन्दु और कला दोनोंसे युक्त"
+          "hindi": "(म्)-इनसे युक्त खान्त (ग)-का उच्चारण किया जाय। ऐसा करनेसे 'गं', 'गः'-ये दो बीज प्रकट हुए। औकार और बिन्दुसे युक्त 'गौं' तीसरा बीज है। बिन्दु और कला दोनोंसे युक्त",
+          "translation": "Having whispered in the ear and having bewildered the enemies too, the rider should lead the horse around; he should ride it; victory is from battle.",
+          "translationSource": "ai"
         },
         {
           "number": 21,
           "sanskrit": "सञ्जाताः स्वशरीरेण(२) दोषाः प्रायेण वाजिनां । हन्यन्ते ऽतिप्रयत्नेन गुणाः सादिवरैः पुनः",
           "transliteration": "sañjātāḥ svaśarīreṇa(2) doṣāḥ prāyeṇa vājināṃ / hanyante 'tiprayatnena guṇāḥ sādivaraiḥ punaḥ",
-          "hindi": "'गंः'-यह चौथा बीज और केवल गकार पाँचवाँ बीज है।' इस प्रकार विघ्नराज गणपतिके ये पाँच बीज हैं, जिनके पृथक्-पृथक् फल देखे गये हैं गणेशसम्बन्धी मन्त्रोंके लिये सामान्य पञ्चाङ्गन्यास"
+          "hindi": "'गंः'-यह चौथा बीज और केवल गकार पाँचवाँ बीज है।' इस प्रकार विघ्नराज गणपतिके ये पाँच बीज हैं, जिनके पृथक्-पृथक् फल देखे गये हैं गणेशसम्बन्धी मन्त्रोंके लिये सामान्य पञ्चाङ्गन्यास",
+          "translation": "The faults arising from their own bodies in horses mostly are removed with great effort, and virtues again by the best riders;",
+          "translationSource": "ai"
         },
         {
           "number": 22,
           "sanskrit": "सहजा इव दृश्यन्ते गुणाः सादिवरोद्भवाः । नाशयन्ति गुणानन्ये सादिनः सहजानपि",
           "transliteration": "sahajā iva dṛśyante guṇāḥ sādivarodbhavāḥ / nāśayanti guṇānanye sādinaḥ sahajānapi",
-          "hindi": "हुँ फट् शिरसे स्वाहा। अचलकर्णिने नमो नमः"
+          "hindi": "हुँ फट् शिरसे स्वाहा। अचलकर्णिने नमो नमः",
+          "translation": "virtues arisen from the best riders appear as if innate; other riders destroy even innate virtues.",
+          "translationSource": "ai"
         },
         {
           "number": 23,
           "sanskrit": "गुणानेको विजानाति वेत्ति दोषांस् तथापरः । धन्यो धीमान् हयं वेत्ति मन्दधीः",
           "transliteration": "guṇāneko vijānāti vetti doṣāṃs tathāparaḥ / dhanyo dhīmān hayaṃ vetti mandadhīḥ",
-          "hindi": "फट्।' यह सर्वसामान्य पञ्चाङ्ग है। उक्त एकाक्षर बीज-मन्त्रके एक लाख जपसे सिद्धि प्राप्त होती है अष्टदल कमल बनाकर उसके दिग्वर्ती दलोंमें"
+          "hindi": "फट्।' यह सर्वसामान्य पञ्चाङ्ग है। उक्त एकाक्षर बीज-मन्त्रके एक लाख जपसे सिद्धि प्राप्त होती है अष्टदल कमल बनाकर उसके दिग्वर्ती दलोंमें",
+          "translation": "One knows the virtues, another knows the faults; the fortunate wise one knows the horse; the dull-minded —",
+          "translationSource": "ai"
         },
         {
           "number": 24,
           "sanskrit": "अकर्मज्ञो ऽनुपायज्ञो वेगासक्तो ऽतिकोपनः । घनदण्डरतिच्छिद्रे यः ममोपि न शस्यते",
           "transliteration": "akarmajño 'nupāyajño vegāsakto 'tikopanaḥ / ghanadaṇḍaraticchidre yaḥ mamopi na śasyate",
-          "hindi": "वहाँ क्रमशः पाँच अङ्गोंकी भी पूजा करनी चाहिए। विग्रहोंके पूजन-सम्बन्धी मन्त्र इस प्रकार हैं-"
+          "hindi": "वहाँ क्रमशः पाँच अङ्गोंकी भी पूजा करनी चाहिए। विग्रहोंके पूजन-सम्बन्धी मन्त्र इस प्रकार हैं-",
+          "translation": "one who does not know the work, does not know the means, is attached to speed, over-angry, delights in heavy beating in an opening, is not praised even by me.",
+          "translationSource": "ai"
         },
         {
           "number": 25,
           "sanskrit": "उपायज्ञो ऽथ चित्तज्ञो विशुद्धो दोषनाशनः । गुणार्जनपरो नित्यं सर्वकर्मविशारदः",
           "transliteration": "upāyajño 'tha cittajño viśuddho doṣanāśanaḥ / guṇārjanaparo nityaṃ sarvakarmaviśāradaḥ",
-          "hindi": "३-गणनायकाय नमः। ४-गणक्रीडाय नमः। (हृदयादि चार अङ्गोंकी तो कोणवर्ती चार दलोंमें और अस्त्रको मध्यमें पूजा करे।) 'वबक्रतुण्डाय नमः । लम्बोदराय नमः । विकटाय नमः । विघ्नराजाय नमः। धूम्रवर्णाय नमः ।'--इन आठ मूर्तियोंको कमलचक्रके दिग्वर्ती तथा कोणवर्ती दलोमें पूजा करे। फिर इन्द्रादि लोकपालों तथा उनके"
+          "hindi": "३-गणनायकाय नमः। ४-गणक्रीडाय नमः। (हृदयादि चार अङ्गोंकी तो कोणवर्ती चार दलोंमें और अस्त्रको मध्यमें पूजा करे।) 'वबक्रतुण्डाय नमः । लम्बोदराय नमः । विकटाय नमः । विघ्नराजाय नमः। धूम्रवर्णाय नमः ।'--इन आठ मूर्तियोंको कमलचक्रके दिग्वर्ती तथा कोणवर्ती दलोमें पूजा करे। फिर इन्द्रादि लोकपालों तथा उनके",
+          "translation": "One who knows the means, knows the mind, pure, destroying faults, devoted to gaining virtues, always skilled in all works,",
+          "translationSource": "ai"
         },
         {
           "number": 26,
           "sanskrit": "प्रग्रहेण गृहीत्वाथ प्रविष्टो वाहभूतलम् । सव्यापसव्यभेदेन वाहनीयः स्वसादिना",
           "transliteration": "pragraheṇa gṛhītvātha praviṣṭo vāhabhūtalam / savyāpasavyabhedena vāhanīyaḥ svasādinā",
-          "hindi": "अस्त्रोंकी अर्चना करे। मुद्रा-प्रदर्शनद्वारा पूजन अभीष्ट है । मध्यमा तथा तर्जनीके मध्यमें अँगूठेको डालकर मुट्ठी बाँध लेना-यह गणेशजीके लिये मुद्रा है। उनका ध्यान इस प्रकार करे--' भगवान्"
+          "hindi": "अस्त्रोंकी अर्चना करे। मुद्रा-प्रदर्शनद्वारा पूजन अभीष्ट है । मध्यमा तथा तर्जनीके मध्यमें अँगूठेको डालकर मुट्ठी बाँध लेना-यह गणेशजीके लिये मुद्रा है। उनका ध्यान इस प्रकार करे--' भगवान्",
+          "translation": "having taken it by the rein, entering the riding ground, should be ridden by his own rider by left and right distinctions.",
+          "translationSource": "ai"
         },
         {
           "number": 27,
           "sanskrit": "१ तथासुरनिति ज॥ , ञ॥ , ट॥ च २ सह जाताः शरीरेणेति ञ॥ :प् ६६ आरुह्य सहसा नैव ताड्नीयो हयोत्तमः । ताडनादुभयमाप्नोति भयान्मोहश् च जायते",
           "transliteration": "1 tathāsuraniti ja.. , ña.. , ṭa.. ca 2 saha jātāḥ śarīreṇeti ña.. :p 66 āruhya sahasā naiva tāḍnīyo hayottamaḥ / tāḍanādubhayamāpnoti bhayānmohaś ca jāyate",
-          "hindi": "गणेशके चार भुजाएँ हैं । वे एक हाथमें मोदक लिये हुए हैं और शेष तीन हाथोंमें दण्ड, पाश एवं अंकुशसे सुशोभित हैं। दाँतोंमें उन्होंने भक्ष्य- पदार्थ लडूको दबा रखा है और उनकी अङ्गकान्ति लाल है। वे कमल, पाश और अङ्कुशसे घिरे हुए हैं"
+          "hindi": "गणेशके चार भुजाएँ हैं । वे एक हाथमें मोदक लिये हुए हैं और शेष तीन हाथोंमें दण्ड, पाश एवं अंकुशसे सुशोभित हैं। दाँतोंमें उन्होंने भक्ष्य- पदार्थ लडूको दबा रखा है और उनकी अङ्गकान्ति लाल है। वे कमल, पाश और अङ्कुशसे घिरे हुए हैं",
+          "translation": "Having mounted, the best horse should not be beaten suddenly; from beating it gets both, and from fear bewilderment arises.",
+          "translationSource": "ai"
         },
         {
           "number": 28,
           "sanskrit": "प्रातः सादी प्लुतेनैव वल्गामुद्धृत्य चालयेत् । मन्दं मन्दं विना नालं धृतवल्गो दिनान्तरे",
           "transliteration": "prātaḥ sādī plutenaiva valgāmuddhṛtya cālayet / mandaṃ mandaṃ vinā nālaṃ dhṛtavalgo dināntare",
-          "hindi": "गणेशजीकी नित्य पूजा करे, किंतु चतुर्थीको विशेषरूपसे पूजाका आयोजन करे। सफेद आकको जड्से उनको प्रतिमा बनाकर पूजा करे। उनके लिये तिलकी आहुति देनेपर सम्पूर्ण मनोरथोंकी"
+          "hindi": "गणेशजीकी नित्य पूजा करे, किंतु चतुर्थीको विशेषरूपसे पूजाका आयोजन करे। सफेद आकको जड्से उनको प्रतिमा बनाकर पूजा करे। उनके लिये तिलकी आहुति देनेपर सम्पूर्ण मनोरथोंकी",
+          "translation": "In the morning the rider should lift the rein with a leap and move it, slowly, slowly, not without need, holding the rein day by day.",
+          "translationSource": "ai"
         },
         {
           "number": 29,
           "sanskrit": "प्रोक्तमाश्वसनं सामभेदो ऽश्वेन नियोज्यते । कषादिताड्नं दण्डो दानं कालसहिष्णुता",
           "transliteration": "proktamāśvasanaṃ sāmabhedo 'śvena niyojyate / kaṣāditāḍnaṃ daṇḍo dānaṃ kālasahiṣṇutā",
-          "hindi": "१. ' श्रीविद्यार्णवतन्त्र' में इस मन्त्रका उद्धार इस प्रकार मिलता है-- 'स्मृतिर्गकारः । अग्नी रेफः। वामाक्षि ईकारः । बिन्दुरनुस्वारः । एतैः पिण्डितं बीजम् 'ग्रीम्' इति मायाबीजद्वयस्य मध्ये स्थापितं सत्"
+          "hindi": "१. ' श्रीविद्यार्णवतन्त्र' में इस मन्त्रका उद्धार इस प्रकार मिलता है-- 'स्मृतिर्गकारः । अग्नी रेफः। वामाक्षि ईकारः । बिन्दुरनुस्वारः । एतैः पिण्डितं बीजम् 'ग्रीम्' इति मायाबीजद्वयस्य मध्ये स्थापितं सत्",
+          "translation": "Reassurance is told; the conciliatory approach is applied to the horse; beating with the whip and the like is the stick; giving and endurance of time.",
+          "translationSource": "ai"
         },
         {
           "number": 30,
           "sanskrit": "पर्वपूर्वविशुद्धौ तु विदध्यादुत्तरोत्तरम् । जिह्वातले विनायोगं विदध्याद्वाहने हये",
           "transliteration": "parvapūrvaviśuddhau tu vidadhyāduttarottaram / jihvātale vināyogaṃ vidadhyādvāhane haye",
-          "hindi": "इसके अनुसार इस 'ग्रीं' बीजको आदि-अन्तमें 'हीं' बीजसे सम्पुटित कर दिया जाय तो यह “त्र्यक्षर मन्त्र' हो जाता है।"
+          "hindi": "इसके अनुसार इस 'ग्रीं' बीजको आदि-अन्तमें 'हीं' बीजसे सम्पुटित कर दिया जाय तो यह “त्र्यक्षर मन्त्र' हो जाता है।",
+          "translation": "When the joints are purified one after the other, one should do the next. One should apply, on the tongue, in riding the horse, without engaging;",
+          "translationSource": "ai"
         },
         {
           "number": 31,
           "sanskrit": "गुणेतरशतां वल्गां सृक्कण्या सह गाहयेत् । विस्मार्य वाहनं कुर्याच्छिथिलानां शनैः शनैः",
           "transliteration": "guṇetaraśatāṃ valgāṃ sṛkkaṇyā saha gāhayet / vismārya vāhanaṃ kuryācchithilānāṃ śanaiḥ śanaiḥ",
-          "hindi": "प्रकारकी सिद्धि देनेवाला है। कहीं-कहीं - शार्ङ्गी प्रीतियुतः प्रोक्तो गणेशस्यैकवर्णकः' ऐसा पाठ देखा जाता है। इसके अनुसार शारङ्गी -गकारको प्रीति-अनुस्वारसे युक्त कर दिया जाय तो 'गं' एक अक्षरका गणेश-बीज बनता है। २. “नारायणीय तन्त्र' में यही बात इस प्रकार कही गयी है -- खान्तं सान्तविषं सबिन्दुसकलं बिन्द्रौयुतं केवलं। पञ्चैतानि पृथक् फलं विदधते बीजानि विध्नेशितुः ॥ ३. 'शारदातिलक' और 'श्रीविद्यार्णब-तनत्र' में ऐसा ही उल्लेख है। वहाँ ' महोदरहस्ताय'के स्थानमें 'महोदराय' है।"
+          "hindi": "प्रकारकी सिद्धि देनेवाला है। कहीं-कहीं - शार्ङ्गी प्रीतियुतः प्रोक्तो गणेशस्यैकवर्णकः' ऐसा पाठ देखा जाता है। इसके अनुसार शारङ्गी -गकारको प्रीति-अनुस्वारसे युक्त कर दिया जाय तो 'गं' एक अक्षरका गणेश-बीज बनता है। २. “नारायणीय तन्त्र' में यही बात इस प्रकार कही गयी है -- खान्तं सान्तविषं सबिन्दुसकलं बिन्द्रौयुतं केवलं। पञ्चैतानि पृथक् फलं विदधते बीजानि विध्नेशितुः ॥ ३. 'शारदातिलक' और 'श्रीविद्यार्णब-तनत्र' में ऐसा ही उल्लेख है। वहाँ ' महोदरहस्ताय'के स्थानमें 'महोदराय' है।",
+          "translation": "the rein of a hundred other virtues should be made to enter along with the corners of the mouth. One should ride, making it forget, the relaxed ones slowly, slowly.",
+          "translationSource": "ai"
         },
         {
           "number": 32,
           "sanskrit": "हयं जिह्वाङ्गमाहीने जिह्वाग्रन्थिं विमोचयेत् । गाटतां मोचयेत्तावद्यावत् स्तोभं न सुञ्चति",
           "transliteration": "hayaṃ jihvāṅgamāhīne jihvāgranthiṃ vimocayet / gāṭatāṃ mocayettāvadyāvat stobhaṃ na suñcati",
-          "hindi": "प्राप्ति होती है। यदि दही, मधु और घीसे मिले हुए चावलसे आहुति दी जाय तो सौभाग्यकी सिद्धि एवं वशित्वकी प्राप्ति होती है"
+          "hindi": "प्राप्ति होती है। यदि दही, मधु और घीसे मिले हुए चावलसे आहुति दी जाय तो सौभाग्यकी सिद्धि एवं वशित्वकी प्राप्ति होती है",
+          "translation": "When the horse lacks the tongue-part one should release the tongue-knot; one should release the tightness until it does not release the bit.",
+          "translationSource": "ai"
         },
         {
           "number": 33,
           "sanskrit": "कुर्याच्छतमुरस्त्राणमविलालञ्च मुञ्चति । ऊर्धाननः स्वभाद्यस्तस्योरस्त्राणमश्लथम्",
           "transliteration": "kuryācchatamurastrāṇamavilālañca muñcati / ūrdhānanaḥ svabhādyastasyorastrāṇamaślatham",
-          "hindi": "(औँ), अर्घी (उ) तथा दण्ड (अनुस्वार)--यह सब मिलकर सूर्यदेवका 'हृयौ ३»'-- ऐसा “मार्तण्डभैरव' नामक बीज होता है। इसको बिम्ब-बीजसे' सम्पुटित कर दिया जाय तो यह साधकोंको धर्म, अर्थ, काम तथा मोक्षचारों पुरुषार्थोंकी प्राप्ति करानेवाला होता है। पाँच हस्व अक्षरोंको आदिमें बीज बनाकर उनके द्वारा पाँच मूर्तियोंका न्यास करे। यथा--'अं सूर्याय"
+          "hindi": "(औँ), अर्घी (उ) तथा दण्ड (अनुस्वार)--यह सब मिलकर सूर्यदेवका 'हृयौ ३»'-- ऐसा “मार्तण्डभैरव' नामक बीज होता है। इसको बिम्ब-बीजसे' सम्पुटित कर दिया जाय तो यह साधकोंको धर्म, अर्थ, काम तथा मोक्षचारों पुरुषार्थोंकी प्राप्ति करानेवाला होता है। पाँच हस्व अक्षरोंको आदिमें बीज बनाकर उनके द्वारा पाँच मूर्तियोंका न्यास करे। यथा--'अं सूर्याय",
+          "translation": "One should make a hundred chest-protections and the one who releases the saliva; whose face is up, his chest-protection is not loose;",
+          "translationSource": "ai"
         },
         {
           "number": 34,
           "sanskrit": "विधाय वाहयेद्दृष्ट्या लीलया सादिसत्तमः । तस्य सव्येन पूर्वेण संयुक्तं सव्यवल्गया",
           "transliteration": "vidhāya vāhayeddṛṣṭyā līlayā sādisattamaḥ / tasya savyena pūrveṇa saṃyuktaṃ savyavalgayā",
-          "hindi": "नमः। इ भास्कराय नमः। उँ भानवे नमः। एं रवये नमः। ओं दिवाकराय नमः।'' दीर्घस्वरोंके बीजसे हृदयादि अङ्गन्यास करे। यथा-'आं हृदयाय नमः।' इत्यादि। इस प्रकार न्यास करके"
+          "hindi": "नमः। इ भास्कराय नमः। उँ भानवे नमः। एं रवये नमः। ओं दिवाकराय नमः।'' दीर्घस्वरोंके बीजसे हृदयादि अङ्गन्यास करे। यथा-'आं हृदयाय नमः।' इत्यादि। इस प्रकार न्यास करके",
+          "translation": "having made it, the best rider should ride with sportive look; for him with the left front joined with left rein,",
+          "translationSource": "ai"
         },
         {
           "number": 35,
           "sanskrit": "यः कुर्यात्पश्चिमं पादं गृहीतस्तेन दक्षिणः । क्रमेणानेन यो सेवां कुरुते वामवल्गया",
           "transliteration": "yaḥ kuryātpaścimaṃ pādaṃ gṛhītastena dakṣiṇaḥ / krameṇānena yo sevāṃ kurute vāmavalgayā",
-          "hindi": "ध्यान करे-- भगवान् सूर्य ईशानकोणमें विराजमान हैं। उनकी अङ्गकान्ति सिन्दूरके सदृश अरुण है। उनके आधे वामाङ्गमें उनकी प्राणवल्लभा विराज रही हैं' (' श्रीविद्यार्णव-तन्त्रमें मार्तण्डभेरव-बीजको ही दीर्घ स्वरोंसे युक्त करके उनके द्वारा हदयादि- न्यासका विधान किया गया है। यथा-'ह्ृयां हृदयाय नमः।' 'हथीं शिरसे स्वाहा।' इत्यादि।)"
+          "hindi": "ध्यान करे-- भगवान् सूर्य ईशानकोणमें विराजमान हैं। उनकी अङ्गकान्ति सिन्दूरके सदृश अरुण है। उनके आधे वामाङ्गमें उनकी प्राणवल्लभा विराज रही हैं' (' श्रीविद्यार्णव-तन्त्रमें मार्तण्डभेरव-बीजको ही दीर्घ स्वरोंसे युक्त करके उनके द्वारा हदयादि- न्यासका विधान किया गया है। यथा-'ह्ृयां हृदयाय नमः।' 'हथीं शिरसे स्वाहा।' इत्यादि।)",
+          "translation": "whoever makes the rear foot, the right is taken by it. By this order one who serves with the left rein,",
+          "translationSource": "ai"
         },
         {
           "number": 36,
           "sanskrit": "पादौ तेनापि पादः स्याद्गृहीतो वाम एव हि । अग्रे चेच्चरणे त्यक्ते जायते सुदृढासनं",
           "transliteration": "pādau tenāpi pādaḥ syādgṛhīto vāma eva hi / agre ceccaraṇe tyakte jāyate sudṛḍhāsanaṃ",
-          "hindi": "फिर ईशानकोणमें कृतान्तके लिये निर्माल्य और चण्डके लिये दीप्ततेज (दीपज्योति) अर्पित करे। रोचना, कुङ्कुम, जल, रक्त चन्दन, अक्षत, अङ्कुर, वेणुबीज, जौ, अगहनी, धानका चावल,"
+          "hindi": "फिर ईशानकोणमें कृतान्तके लिये निर्माल्य और चण्डके लिये दीप्ततेज (दीपज्योति) अर्पित करे। रोचना, कुङ्कुम, जल, रक्त चन्दन, अक्षत, अङ्कुर, वेणुबीज, जौ, अगहनी, धानका चावल,",
+          "translation": "by that too the foot is the left taken. If the front foot is released, a very firm seat arises.",
+          "translationSource": "ai"
         },
         {
           "number": 37,
           "sanskrit": "यौ हृतौ दुष्करे चैव मोटके नाटकायनं । सव्यहीनं खलीकारो हनेन गुणने तथ",
           "transliteration": "yau hṛtau duṣkare caiva moṭake nāṭakāyanaṃ / savyahīnaṃ khalīkāro hanena guṇane tatha",
-          "hindi": "साबाँ, तिल तथा राई और जपाके फूल अर्घ्यपात्रमें डाले। फिर उस अर्घ्यपात्रको सिरपर रखकर दोनों घुटने धरतीपर टिका दे और सूर्यदेवको अर्घ्य अर्पित करे। अपने मन्त्रसे अभिमन्त्रित नौ कलशांद्वारा ग्रहोंका पूजन करके ग्रहादिकी शान्तिके लिये शान्ति-कलशके जलसे स्नान एवं सूर्यमन्त्रका जप करनेसे मनुष्य सब कुछ पा सकता है। (एक सौ अड़तालीसवें अध्यायमें कथित) ' संग्रामविजय-"
+          "hindi": "साबाँ, तिल तथा राई और जपाके फूल अर्घ्यपात्रमें डाले। फिर उस अर्घ्यपात्रको सिरपर रखकर दोनों घुटने धरतीपर टिका दे और सूर्यदेवको अर्घ्य अर्पित करे। अपने मन्त्रसे अभिमन्त्रित नौ कलशांद्वारा ग्रहोंका पूजन करके ग्रहादिकी शान्तिके लिये शान्ति-कलशके जलसे स्नान एवं सूर्यमन्त्रका जप करनेसे मनुष्य सब कुछ पा सकता है। (एक सौ अड़तालीसवें अध्यायमें कथित) ' संग्रामविजय-",
+          "translation": "Those taken in difficult ways — mota, natakayana; without the left, khalikara, by hana and guna.",
+          "translationSource": "ai"
         },
         {
           "number": 38,
           "sanskrit": "स्वहावं हि तुरङ्गस्य मुखव्यावर्तनं पुरः । न चैवेत्थं तुरङ्गाणां पादग्रहणहेतवः",
           "transliteration": "svahāvaṃ hi turaṅgasya mukhavyāvartanaṃ puraḥ / na caivetthaṃ turaṅgāṇāṃ pādagrahaṇahetavaḥ",
-          "hindi": "'र' जोड़कर उस सम्पूर्ण मन्त्रका मूर्धासे लेकर चरणपर्यन्त व्यापकन्यास करके मूलमन्त्रका, अर्थात् उसके उच्चारणपूर्वक सूर्यदेवका ' आवाहनी' आदि मुद्राओंके प्रदर्शनपूर्वक पूजन करे। तदनन्तर"
+          "hindi": "'र' जोड़कर उस सम्पूर्ण मन्त्रका मूर्धासे लेकर चरणपर्यन्त व्यापकन्यास करके मूलमन्त्रका, अर्थात् उसके उच्चारणपूर्वक सूर्यदेवका ' आवाहनी' आदि मुद्राओंके प्रदर्शनपूर्वक पूजन करे। तदनन्तर",
+          "translation": "The horse's own nature is turning the face forward; thus there are no reasons for foot-taking of horses.",
+          "translationSource": "ai"
         },
         {
           "number": 39,
           "sanskrit": "विश्वस्तं हयमालोक्य गाढमापीड्य चासनं । रोकयित्वा मुखे पादं ग्राह्यतो लोकनं हितं",
           "transliteration": "viśvastaṃ hayamālokya gāḍhamāpīḍya cāsanaṃ / rokayitvā mukhe pādaṃ grāhyato lokanaṃ hitaṃ",
-          "hindi": "यथोक्त अङ्गन्यास करके अपने-आपका रविके रूपमें चिन्तन करे । अर्थात् मेरी आत्मा सूर्यस्वरूप है, ऐसी भावना करे। मारण और स्तम्भनकर्ममें सूर्यदेवके पीतवर्णका, अप्यायनमें श्रेतवर्णका, शत्रुघातकी क्रियामें कृष्णवर्णका तथा मोहनकर्ममें इन्द्र्धनुषके समान वर्णका चिन्तन करे। जो सूर्यदेवके अभिषेक,जप, ध्यान, पूजा और होमकर्ममें सदा तत्पर रहता है, वह तेजस्वी, अजेय तथा"
+          "hindi": "यथोक्त अङ्गन्यास करके अपने-आपका रविके रूपमें चिन्तन करे । अर्थात् मेरी आत्मा सूर्यस्वरूप है, ऐसी भावना करे। मारण और स्तम्भनकर्ममें सूर्यदेवके पीतवर्णका, अप्यायनमें श्रेतवर्णका, शत्रुघातकी क्रियामें कृष्णवर्णका तथा मोहनकर्ममें इन्द्र्धनुषके समान वर्णका चिन्तन करे। जो सूर्यदेवके अभिषेक,जप, ध्यान, पूजा और होमकर्ममें सदा तत्पर रहता है, वह तेजस्वी, अजेय तथा",
+          "translation": "Seeing a horse trusting, pressing the seat firmly, stopping the foot at the mouth, looking is beneficial in taking.",
+          "translationSource": "ai"
         },
         {
           "number": 40,
           "sanskrit": "गाढमापीड्य रागाभ्यां वल्गामाकृष्य गृह्यते । तद्वन्धनाद् युग्मपादं(१) तद्वद्वक्वनमुच्यते",
           "transliteration": "gāḍhamāpīḍya rāgābhyāṃ valgāmākṛṣya gṛhyate / tadvandhanād yugmapādaṃ(1) tadvadvakvanamucyate",
-          "hindi": "श्रीसम्पन्न होता है और युद्धमें विजय पाता है। ताम्बूल आदिमें उक्त मन्त्रका न्यास करके जपपूर्वक उसमें खसका इत्र डाले तथा अपने हाथमें भी 'संग्राम-विजय'के बीजोंका न्यास करके उस"
+          "hindi": "श्रीसम्पन्न होता है और युद्धमें विजय पाता है। ताम्बूल आदिमें उक्त मन्त्रका न्यास करके जपपूर्वक उसमें खसका इत्र डाले तथा अपने हाथमें भी 'संग्राम-विजय'के बीजोंका न्यास करके उस",
+          "translation": "Pressing firmly with the two reins and pulling the rein it is taken; by binding it the pair of feet, thus it is called vakvana.",
+          "translationSource": "ai"
         },
         {
           "number": 41,
           "sanskrit": "संयोज्य वल्गया पादान् वल्गामामोच्य वाञ्छितम् । वाह्यपार्ष्णिप्रयोगात्तु(२) यत्र तत्ताडनं मतम्",
           "transliteration": "saṃyojya valgayā pādān valgāmāmocya vāñchitam / vāhyapārṣṇiprayogāttu(2) yatra tattāḍanaṃ matam",
-          "hindi": "हाथसे किसीको वह ताम्बूल अर्पण करे, अथवा उस हाथसे किसीका स्पर्श कर ले तो वह उसके वशमें हो जाता है “इस प्रकार आदि आग्रेय महापुराणमें “गणपति तथा सूर्यकी अर्चाका कथन” नामक तीन सौ एकवाँ अध्याय पूरा हुआ"
+          "hindi": "हाथसे किसीको वह ताम्बूल अर्पण करे, अथवा उस हाथसे किसीका स्पर्श कर ले तो वह उसके वशमें हो जाता है “इस प्रकार आदि आग्रेय महापुराणमें “गणपति तथा सूर्यकी अर्चाका कथन” नामक तीन सौ एकवाँ अध्याय पूरा हुआ",
+          "translation": "Having joined the feet with the rein, having released the rein, as wished; where there is application of the outer heel, that is held beating.",
+          "translationSource": "ai"
         },
         {
           "number": 42,
           "sanskrit": "प्रलयाविप्लवे ज्ञात्वा क्रमेणानेन बुद्धिमान् । मोटनेन चतुर्थेन विधिरेष बिधीयते",
           "transliteration": "pralayāviplave jñātvā krameṇānena buddhimān / moṭanena caturthena vidhireṣa bidhīyate",
-          "hindi": "१. “शारदातिलक ' में बिम्बबीज ' हिं' बताया गया है । उसका उद्धार यों किया गया है-- टान्तं दहननेत्रेन्दुसहितं तदुदीरितम्' (१४। १७)"
+          "hindi": "१. “शारदातिलक ' में बिम्बबीज ' हिं' बताया गया है । उसका उद्धार यों किया गया है-- टान्तं दहननेत्रेन्दुसहितं तदुदीरितम्' (१४। १७)",
+          "translation": "Knowing the rout in the disorder, the wise one by this order, with the fourth mota, this rule is ordained.",
+          "translationSource": "ai"
         },
         {
           "number": 43,
           "sanskrit": "नाधत्ते ऽधश् च पादं यो ऽश्वो लघुनि मण्डले । मोटनोद्वक्कनाभ्यान्तु ग्राहयेत् पादमीशितं",
           "transliteration": "nādhatte 'dhaś ca pādaṃ yo 'śvo laghuni maṇḍale / moṭanodvakkanābhyāntu grāhayet pādamīśitaṃ",
-          "hindi": "२. सूर्यादि पाँच मूर्तियोंका उल्लेख 'शारदातिलक ' में है। नाना प्रकारके मन्त्र और औषधोंका वर्णन"
+          "hindi": "२. सूर्यादि पाँच मूर्तियोंका उल्लेख 'शारदातिलक ' में है। नाना प्रकारके मन्त्र और औषधोंका वर्णन",
+          "translation": "A horse that does not put down the foot in a light circle should be made to take the desired foot with mota and udvakkana.",
+          "translationSource": "ai"
         },
         {
           "number": 44,
           "sanskrit": "वटयित्वासने(३) गाटं मन्दमादाय यो ब्रजेत् । ग्राह्यते संग्रहाद्यत्र तत्संग्रहणमुच्यते",
           "transliteration": "vaṭayitvāsane(3) gāṭaṃ mandamādāya yo brajet / grāhyate saṃgrahādyatra tatsaṃgrahaṇamucyate",
-          "hindi": "अग्निदेव कहते हैं--'ऐं कुलजे ऐं सरस्वति स्वाहा'- यह ग्यारह अक्षरोंका मन्त्र मुख्य “सरस्वतीविद्या' है। जो क्षारलवणसे रहित आहार ग्रहण करते हुए मन्त्रोंको अक्षरसंख्याके अनुसार"
+          "hindi": "अग्निदेव कहते हैं--'ऐं कुलजे ऐं सरस्वति स्वाहा'- यह ग्यारह अक्षरोंका मन्त्र मुख्य “सरस्वतीविद्या' है। जो क्षारलवणसे रहित आहार ग्रहण करते हुए मन्त्रोंको अक्षरसंख्याके अनुसार",
+          "translation": "One who, having made the firm seat, goes slowly taking — where it is taken by gathering, that is called sangrahana.",
+          "translationSource": "ai"
         },
         {
           "number": 45,
           "sanskrit": "हत्वा पर्श्वे प्रहारेण स्थानस्थो व्यग्रमानसम् । वल्गामाकृष्य पादेन ग्राह्यकण्टकपायनम्(४)",
           "transliteration": "hatvā parśve prahāreṇa sthānastho vyagramānasam / valgāmākṛṣya pādena grāhyakaṇṭakapāyanam(4)",
-          "hindi": "उतने लाख मन्त्रका जप करता है, वह बुद्धिमान् होता है। अत्रि (द्), अग्नि (र), वामनेत्र (ई) तथा बिन्दु () 'द्रीं'-यह मन्त्र महान् विद्रावणकारी (शत्रुको मार भगानेवाला) है। वज्र और कमल धारण करनेवाले पीत वर्णवाले इन्द्रका आवाहन करके उनकी पूजा करे और घी तथा तिलकी एक लाख आहुतियाँ दे। फिर तिलमिश्रित जलसे इन्द्रदेवताका अभिषेक"
+          "hindi": "उतने लाख मन्त्रका जप करता है, वह बुद्धिमान् होता है। अत्रि (द्), अग्नि (र), वामनेत्र (ई) तथा बिन्दु () 'द्रीं'-यह मन्त्र महान् विद्रावणकारी (शत्रुको मार भगानेवाला) है। वज्र और कमल धारण करनेवाले पीत वर्णवाले इन्द्रका आवाहन करके उनकी पूजा करे और घी तथा तिलकी एक लाख आहुतियाँ दे। फिर तिलमिश्रित जलसे इन्द्रदेवताका अभिषेक",
+          "translation": "Having struck at the side by a blow, standing in place, with a distracted mind, pulling the rein with the foot — the taking of the thorn-drink.",
+          "translationSource": "ai"
         },
         {
           "number": 46,
           "sanskrit": "उत्थितो यो ऽङ्घ्रणानेन पार्ष्ण्निपादात्तुरङ्गमः । गृह्यते यत् खलीकृत्य खलीकारः स चेष्यते",
           "transliteration": "utthito yo 'ṅghraṇānena pārṣṇnipādātturaṅgamaḥ / gṛhyate yat khalīkṛtya khalīkāraḥ sa ceṣyate",
-          "hindi": "करे। ऐसा करनेसे राजा आदि अपने छीने"
+          "hindi": "करे। ऐसा करनेसे राजा आदि अपने छीने",
+          "translation": "The horse that rises with this foot from the heel-foot, taken by bridling, that is desired as khalikara.",
+          "translationSource": "ai"
         },
         {
           "number": 47,
           "sanskrit": "गतित्रये पियः पादमादत्ते नैव वाञ्छितः । हत्वा तु यत्र दण्डेन ग्राह्यते गहनं हि तत्",
           "transliteration": "gatitraye piyaḥ pādamādatte naiva vāñchitaḥ / hatvā tu yatra daṇḍena grāhyate gahanaṃ hi tat",
-          "hindi": "(मनोवाञ्छित वस्तुओं)-को पा सकते हैं। हल्लेखा (ह्वी)-यह 'शक्तिदेवा' नामसे प्रसिद्ध है। इसका उद्धार यों है-घोष (ह), अग्नि (र), दण्डी (ई), दण्ड () 'ह्वी'। शिवा और शिवका पूजन करके शक्तिमन्त्र (हीं)-का जप करे। अष्टमीसे लेकर चतुर्दशीतक आराधनामें संलग्न रहे। हाथोंमें चक्र, पाश, अङ्कुश एवं अभयकी मुद्रा धारण करनेवाली वरदायिनी देवीकी"
+          "hindi": "(मनोवाञ्छित वस्तुओं)-को पा सकते हैं। हल्लेखा (ह्वी)-यह 'शक्तिदेवा' नामसे प्रसिद्ध है। इसका उद्धार यों है-घोष (ह), अग्नि (र), दण्डी (ई), दण्ड () 'ह्वी'। शिवा और शिवका पूजन करके शक्तिमन्त्र (हीं)-का जप करे। अष्टमीसे लेकर चतुर्दशीतक आराधनामें संलग्न रहे। हाथोंमें चक्र, पाश, अङ्कुश एवं अभयकी मुद्रा धारण करनेवाली वरदायिनी देवीकी",
+          "translation": "In the three gaits it takes the foot, not as wished; striking with a staff, where it is taken, that is dense.",
+          "translationSource": "ai"
         },
         {
           "number": 48,
           "sanskrit": "खलीकृत्य चतुष्केण तुरङ्गो वल्गयान्यया । उच्छास्य ग्राह्यते ऽन्यत्र तत्स्यादुच्छासनं पुनः",
           "transliteration": "khalīkṛtya catuṣkeṇa turaṅgo valgayānyayā / ucchāsya grāhyate 'nyatra tatsyāducchāsanaṃ punaḥ",
-          "hindi": "आराधना करके होम आदि करनेपर उपासकको सौभाग्य एवं कवित्वशक्तिकी प्राप्ति होती है तथा वह पुत्रवान् होता है॥ १--५॥"
+          "hindi": "आराधना करके होम आदि करनेपर उपासकको सौभाग्य एवं कवित्वशक्तिकी प्राप्ति होती है तथा वह पुत्रवान् होता है॥ १--५॥",
+          "translation": "Having bridled with the four, the horse by another rein, being made to breathe out is taken elsewhere — that would be again called ucchasana.",
+          "translationSource": "ai"
         },
         {
           "number": 49,
           "sanskrit": "१ भठकालाद्यनुत्पादमिति ज॥ २ बाह्यपार्श्वे प्रयोगात्त्विति ख॥ ३ वण्टयित्वासने इति ख॥ ४ ग्राहकण्टकपायनमिति ख॥ :प् ६८ स्वभावं बहिरस्यन्तं तस्यां दिशि पदायनं । नियोज्य ग्राहयेत्तत्तु मुखव्यापर्तनं मतम्",
           "transliteration": "1 bhaṭhakālādyanutpādamiti ja.. 2 bāhyapārśve prayogāttviti kha.. 3 vaṇṭayitvāsane iti kha.. 4 grāhakaṇṭakapāyanamiti kha.. :p 68 svabhāvaṃ bahirasyantaṃ tasyāṃ diśi padāyanaṃ / niyojya grāhayettattu mukhavyāpartanaṃ matam",
-          "hindi": "‘ॐ हीं ॐ नमः कामाय सर्वजनहिताय ममाऽऽत्मगतं कुरु कुरु ३०॥'- इसके जप आदि करनेसे यह मन्त्र सम्पूर्ण जगत्को अपने वशमें कर सकता है"
+          "hindi": "‘ॐ हीं ॐ नमः कामाय सर्वजनहिताय ममाऽऽत्मगतं कुरु कुरु ३०॥'- इसके जप आदि करनेसे यह मन्त्र सम्पूर्ण जगत्को अपने वशमें कर सकता है",
+          "translation": "The outer nature thrown out, walking in that direction, having engaged it, one should make it take: that is held mukhavyavartana.",
+          "translationSource": "ai"
         },
         {
           "number": 50,
           "sanskrit": "ग्राहयित्वा ततः पादं त्रिविधासु यथाक्रमम् । साधयेत् पञ्चधारासु क्रमशो मण्डलादिषु",
           "transliteration": "grāhayitvā tataḥ pādaṃ trividhāsu yathākramam / sādhayet pañcadhārāsu kramaśo maṇḍalādiṣu",
-          "hindi": "वशमानयानय स्वाहा ३०।' यह चामुण्डाका वशीकरणमन्त्र कहा गया है। स्त्रीको चाहिए कि"
+          "hindi": "वशमानयानय स्वाहा ३०।' यह चामुण्डाका वशीकरणमन्त्र कहा गया है। स्त्रीको चाहिए कि",
+          "translation": "Having then made it take the foot in the three, in order, one should accomplish in the five paths, in circles and the rest, in order.",
+          "translationSource": "ai"
         },
         {
           "number": 51,
           "sanskrit": "आजनोर्धाननं वाहं शिथिलं वाहयेत् सुधीः । अङ्गेषु लाघवं यावत्तावत्तं वाहयेद्धयं",
           "transliteration": "ājanordhānanaṃ vāhaṃ śithilaṃ vāhayet sudhīḥ / aṅgeṣu lāghavaṃ yāvattāvattaṃ vāhayeddhayaṃ",
-          "hindi": "वशीकरणके प्रयोगकालमें त्रिफलाके ठंडे पानीसे अपनी योनिको धोये। अश्वगन्धा, यवक्षार, हल्दी और कपूर आदिसे भी स्त्री अपनी योनिका प्रक्षालन कर सकती है। पिप्पलीके आठ तन्दुल, कालीमिर्चके बीस दाने और भटकटैयाके रसका योनिमें लेप करनेसे उस स्त्रीका पति आमरण उसके वशमें रहता है। कटीरमूल, त्रिकटु (सोंठ, मिर्च और पीपल)-का लेप भी उसी तरह"
+          "hindi": "वशीकरणके प्रयोगकालमें त्रिफलाके ठंडे पानीसे अपनी योनिको धोये। अश्वगन्धा, यवक्षार, हल्दी और कपूर आदिसे भी स्त्री अपनी योनिका प्रक्षालन कर सकती है। पिप्पलीके आठ तन्दुल, कालीमिर्चके बीस दाने और भटकटैयाके रसका योनिमें लेप करनेसे उस स्त्रीका पति आमरण उसके वशमें रहता है। कटीरमूल, त्रिकटु (सोंठ, मिर्च और पीपल)-का लेप भी उसी तरह",
+          "translation": "Having made the knee-high face-up ride, the wise should ride it loose; as long as lightness is in the limbs, so long he should ride that horse.",
+          "translationSource": "ai"
         },
         {
           "number": 52,
           "sanskrit": "मृदुः स्कन्धे लघुर्वक्त्रे शिथिलः सर्वसन्धिषु । यदा ससादिनो वश्यः सङ्गृह्णीयात्तदा हयं",
           "transliteration": "mṛduḥ skandhe laghurvaktre śithilaḥ sarvasandhiṣu / yadā sasādino vaśyaḥ saṅgṛhṇīyāttadā hayaṃ",
-          "hindi": "लाभदायक होता है। हिम, कैथका रस, मागधीपिप्पली, मुलहठी और मधु--इनके लेपका प्रयोग दम्पतिके लिये कल्याणकारी होता है। शक्कर मिला हुआ कदम्ब-रस और मधु-"
+          "hindi": "लाभदायक होता है। हिम, कैथका रस, मागधीपिप्पली, मुलहठी और मधु--इनके लेपका प्रयोग दम्पतिके लिये कल्याणकारी होता है। शक्कर मिला हुआ कदम्ब-रस और मधु-",
+          "translation": "Soft at the shoulder, light at the mouth, loose in all joints — when it is under control with its rider, then he should hold the horse.",
+          "translationSource": "ai"
         },
         {
           "number": 53,
           "sanskrit": "न त्यजेत् पश्चिमं पादं यदा साधुर्भवेत्तदा । तदाकृष्टिर्विधातव्या पाणिभ्यामिह बल्गया",
           "transliteration": "na tyajet paścimaṃ pādaṃ yadā sādhurbhavettadā / tadākṛṣṭirvidhātavyā pāṇibhyāmiha balgayā",
-          "hindi": "इसका योनिमें लेप करनेसे भी वशीकरण होता है। सहदेई, महालक्ष्मी, पुत्रजीवी, कृताञ्जलि (लज्जावती) --इन सबका चूर्ण बनाकर सिरपर डाला जाय तो इहलोकके लिये उत्तम वशीकरणका साधन है। त्रिफला और चन्दनका क्वाथ एक प्रस्थ"
+          "hindi": "इसका योनिमें लेप करनेसे भी वशीकरण होता है। सहदेई, महालक्ष्मी, पुत्रजीवी, कृताञ्जलि (लज्जावती) --इन सबका चूर्ण बनाकर सिरपर डाला जाय तो इहलोकके लिये उत्तम वशीकरणका साधन है। त्रिफला और चन्दनका क्वाथ एक प्रस्थ",
+          "translation": "It should not leave the rear foot when it is good, then; the drawing should be done here with both hands and the rein.",
+          "translationSource": "ai"
         },
         {
           "number": 54,
           "sanskrit": "तत्रत्रिको यथा तिष्ठेदुद्ग्रीवोश्वः समाननः । धरायां पश्चिमौ पादौ अन्तरीक्षे यदाश्रयौ",
           "transliteration": "tatratriko yathā tiṣṭhedudgrīvośvaḥ samānanaḥ / dharāyāṃ paścimau pādau antarīkṣe yadāśrayau",
-          "hindi": "नागकेसरका रस हो, उतनी ही हल्दी, क्षम्बुक, मधु, घीमें पकायी हुई हल्दी और सूखी हल्दी -- इन सबका लेप करे तथा बिदारीकंद और जटामांसीके चूर्णमें चीनी मिलाकर उसको खूब"
+          "hindi": "नागकेसरका रस हो, उतनी ही हल्दी, क्षम्बुक, मधु, घीमें पकायी हुई हल्दी और सूखी हल्दी -- इन सबका लेप करे तथा बिदारीकंद और जटामांसीके चूर्णमें चीनी मिलाकर उसको खूब",
+          "translation": "There, as a three-fold stands, a horse with raised neck and equal face, rear feet on the ground and standing in the air,",
+          "translationSource": "ai"
         },
         {
           "number": 55,
           "sanskrit": "तदा सन्धरणं कुर्याद्गाठवाहञ्च मुष्टिना । सहसैवं समाकृष्टो यस्तुरङ्गो न तिष्ठति",
           "transliteration": "tadā sandharaṇaṃ kuryādgāṭhavāhañca muṣṭinā / sahasaivaṃ samākṛṣṭo yasturaṅgo na tiṣṭhati",
-          "hindi": "मथ दे। फिर दूधके साथ प्रतिदिन पीये। ऐसा करनेवाला पुरुष सैकड़ों स्त्रियोंके साथ सहवासकी शक्ति प्राप्त कर लेता है गुप्ता, उड़द, तिल, चावल--इन सबका चूर्ण बनाकर दूध और मिश्री मिलाये। पीपल, बाँस और कुशकी जड़, 'वैष्णवी' और ' श्री! नामक ओषधियोंकी जड़ तथा दूर्वा और अश्वगन्धाका"
+          "hindi": "मथ दे। फिर दूधके साथ प्रतिदिन पीये। ऐसा करनेवाला पुरुष सैकड़ों स्त्रियोंके साथ सहवासकी शक्ति प्राप्त कर लेता है गुप्ता, उड़द, तिल, चावल--इन सबका चूर्ण बनाकर दूध और मिश्री मिलाये। पीपल, बाँस और कुशकी जड़, 'वैष्णवी' और ' श्री! नामक ओषधियोंकी जड़ तथा दूर्वा और अश्वगन्धाका",
+          "translation": "then one should hold it and ride firmly with the fist. A horse drawn suddenly thus that does not stand,",
+          "translationSource": "ai"
         },
         {
           "number": 56,
           "sanskrit": "शरीरं विक्षिपन्तञ्च साधयेन्मण्डलभ्रमैः । क्षिपेत् स्कन्धञ्च यो वाहं स च स्थाप्यो हि वल्गया",
           "transliteration": "śarīraṃ vikṣipantañca sādhayenmaṇḍalabhramaiḥ / kṣipet skandhañca yo vāhaṃ sa ca sthāpyo hi valgayā",
-          "hindi": "मूल-इन सबको पुत्रको इच्छा रखनेवाली नारी दूधके साथ पीये। कौन्ती, लक्ष्मी, शिवा और धात्री (आँवलेका बीज), लोध्र और वटके अङ्कुरको स्त्री ऋतुकालमें घी और दूधके साथ"
+          "hindi": "मूल-इन सबको पुत्रको इच्छा रखनेवाली नारी दूधके साथ पीये। कौन्ती, लक्ष्मी, शिवा और धात्री (आँवलेका बीज), लोध्र और वटके अङ्कुरको स्त्री ऋतुकालमें घी और दूधके साथ",
+          "translation": "and throws its body about, one should discipline it by circling turns; and one that throws the shoulder in riding should be stopped by the rein.",
+          "translationSource": "ai"
         },
         {
           "number": 57,
           "sanskrit": "गोमयं लवणं मूत्रं क्वथितं मृत्समन्वितम् । अङ्गलेपो मक्षिकादिदंशश्रमविनाशनः",
           "transliteration": "gomayaṃ lavaṇaṃ mūtraṃ kvathitaṃ mṛtsamanvitam / aṅgalepo makṣikādidaṃśaśramavināśanaḥ",
-          "hindi": "पीये। इससे उसको पुत्रकी प्राप्ति होती है।  गोपी, षष्ठी (साठीका तृण) और उत्पल--इनको पुत्रार्थिनी नारी 'श्री' नामक ओषधिको जड़ और वटके अङ्करको दूधके साथ पौये। श्री, वराङ्कुर और देवी-इनके रसका नस्य ले और पीये भी। ' श्री' और 'कमल 'की जड्को, अश्वत्थ"
+          "hindi": "पीये। इससे उसको पुत्रकी प्राप्ति होती है।  गोपी, षष्ठी (साठीका तृण) और उत्पल--इनको पुत्रार्थिनी नारी 'श्री' नामक ओषधिको जड़ और वटके अङ्करको दूधके साथ पौये। श्री, वराङ्कुर और देवी-इनके रसका नस्य ले और पीये भी। ' श्री' और 'कमल 'की जड्को, अश्वत्थ",
+          "translation": "Cow-dung, salt, urine, boiled, mixed with earth — a body-smear that destroys bites of flies and the like and fatigue.",
+          "translationSource": "ai"
         },
         {
           "number": 58,
           "sanskrit": "मध्ये भद्रादिजातीनां मण्डो देयो हि सादिना । दर्शनं भोततीक्षस्य निरुत्साहः क्षुधा हयः",
           "transliteration": "madhye bhadrādijātīnāṃ maṇḍo deyo hi sādinā / darśanaṃ bhotatīkṣasya nirutsāhaḥ kṣudhā hayaḥ",
-          "hindi": "और उत्तरके मूलको दूधके साथ पीये। कपासके फल और पल्लवको दूधमें पीसकर तरल बनाकर पीये। अपामार्गके नूतन पुष्पाग्रको भैसके दूधके साथ पीये। उपर्युक्त साढ़े पाँच श्लोकोंमें पुत्रप्राप्तिके"
+          "hindi": "और उत्तरके मूलको दूधके साथ पीये। कपासके फल और पल्लवको दूधमें पीसकर तरल बनाकर पीये। अपामार्गके नूतन पुष्पाग्रको भैसके दूधके साथ पीये। उपर्युक्त साढ़े पाँच श्लोकोंमें पुत्रप्राप्तिके",
+          "translation": "In the middle for kinds like Bhadra, a gruel should be given by the rider. Sight of a fearful one, lack of energy, hunger of the horse;",
+          "translationSource": "ai"
         },
         {
           "number": 59,
           "sanskrit": "यथा वश्यस् तथा शिक्षा विनश्यन्त्यतिवाहिताः । अवाहिता न मिध्यन्ति तुङ्गवक्त्रांश् च वाहयेत्",
           "transliteration": "yathā vaśyas tathā śikṣā vinaśyantyativāhitāḥ / avāhitā na midhyanti tuṅgavaktrāṃś ca vāhayet",
-          "hindi": "चार योग बताये गये हैं॥ १७-२१ इ ॥ यदि स्त्रीका गर्भ गलित हो जाता हो तो उसे शक्कर, कमलके फूल, कमलगदट्टा, लोध, चन्दन और सारिवालता-इनको चावलके पानीमें पीसकर"
+          "hindi": "चार योग बताये गये हैं॥ १७-२१ इ ॥ यदि स्त्रीका गर्भ गलित हो जाता हो तो उसे शक्कर, कमलके फूल, कमलगदट्टा, लोध, चन्दन और सारिवालता-इनको चावलके पानीमें पीसकर",
+          "translation": "as it is controlled, so is the training; over-ridden ones perish; ones not ridden are not trained; and one should ride tall-mouthed ones.",
+          "translationSource": "ai"
         },
         {
           "number": 60,
           "sanskrit": "सम्पीड्य जानुयुग्मेन स्थिरमुष्टिस्तुरङ्गमं । गोमूत्राकुटिला वेणी पद्ममण्डलमालिका",
           "transliteration": "sampīḍya jānuyugmena sthiramuṣṭisturaṅgamaṃ / gomūtrākuṭilā veṇī padmamaṇḍalamālikā",
-          "hindi": "द्राक्षा मधु और घी-इन सबका अवलेह बनाकर वह स्त्री चाटे"
+          "hindi": "द्राक्षा मधु और घी-इन सबका अवलेह बनाकर वह स्त्री चाटे",
+          "translation": "Having pressed the horse with both knees, with steady fist; gomutra, kutila, veni, padmamandala, malika,",
+          "translationSource": "ai"
         },
         {
           "number": 61,
           "sanskrit": "पञ्चोलूखलिका कार्या गर्वितास्ते ऽतिकीर्तिताः(१) । संक्षिप्तञ्चैव विक्षिप्तं कुञ्चितञ्च यथाचितम्(२)",
           "transliteration": "pañcolūkhalikā kāryā garvitāste 'tikīrtitāḥ(1) / saṃkṣiptañcaiva vikṣiptaṃ kuñcitañca yathācitam(2)",
-          "hindi": "आटरूप (अड्सा), कलाङ्गली, काकमाची शिफा (जटामांसी) -इन सबको नाभिके नीचे पीसकर छाप दे तो स्त्री सुखपूर्वक प्रसव कर सकती है और हींगपत्री पीये। केसर, भटकटैयाकी जड़,"
+          "hindi": "आटरूप (अड्सा), कलाङ्गली, काकमाची शिफा (जटामांसी) -इन सबको नाभिके नीचे पीसकर छाप दे तो स्त्री सुखपूर्वक प्रसव कर सकती है और हींगपत्री पीये। केसर, भटकटैयाकी जड़,",
+          "translation": "panchaulukhalika should be made; they are greatly proud. Contracted and expanded, curved as fit,",
+          "translationSource": "ai"
         },
         {
           "number": 62,
           "sanskrit": "वल्गितावल्गितौ चैव षोटा चेत्थमुदाहृतम् । वीथीधनुःशतं यावदशीतिर् नवतिस् तथा",
           "transliteration": "valgitāvalgitau caiva ṣoṭā cetthamudāhṛtam / vīthīdhanuḥśataṃ yāvadaśītir navatis tathā",
-          "hindi": "बकरीके दूधमें पीसकर तैल मिलाकर खाय तो सिरमें बाल उगते हैं। अगर सिरके बाल झड़ रहे हों तो यह उनको रोकनेका उपाय है"
+          "hindi": "बकरीके दूधमें पीसकर तैल मिलाकर खाय तो सिरमें बाल उगते हैं। अगर सिरके बाल झड़ रहे हों तो यह उनको रोकनेका उपाय है",
+          "translation": "valgita and avalgita, and shota are thus declared. The course is a hundred bows; eighty, ninety likewise.",
+          "translationSource": "ai"
         },
         {
           "number": 63,
           "sanskrit": "भद्रः सुसाध्यो वाजी स्यान्मन्दो दण्डैकमानसः । मृगजङ्घो(३) मृगो वाजी सङ्कीर्णस्तत्समन्वियात्",
           "transliteration": "bhadraḥ susādhyo vājī syānmando daṇḍaikamānasaḥ / mṛgajaṅgho(3) mṛgo vājī saṅkīrṇastatsamanviyāt",
-          "hindi": "आँवला और भँगरैयाका एक सेर तैल, एक आढक दूध, षष्ठी और अञ्जनका एक पल तैल-ये सब सिरके बाल, नेत्र और सिरके लिये हितकारक होते हैं हल्दी, राजवृक्षकी छाल, चिञ्चा (इमलीका"
+          "hindi": "आँवला और भँगरैयाका एक सेर तैल, एक आढक दूध, षष्ठी और अञ्जनका एक पल तैल-ये सब सिरके बाल, नेत्र और सिरके लिये हितकारक होते हैं हल्दी, राजवृक्षकी छाल, चिञ्चा (इमलीका",
+          "translation": "The Bhadra horse is easily trained; the Manda has a single mind for the stick; the Mriga horse has deer-like shanks; the Sankirna accompanies them.",
+          "translationSource": "ai"
         },
         {
           "number": 64,
           "sanskrit": "शर्करामधुलाजादः सुगन्धो ऽश्वः शुचिर्द्विजः । तेजस्वी क्षत्रियश्चाश्बो विनीतो बुद्धिमांश् च यः",
           "transliteration": "śarkarāmadhulājādaḥ sugandho 'śvaḥ śucirdvijaḥ / tejasvī kṣatriyaścāśbo vinīto buddhimāṃś ca yaḥ",
-          "hindi": "गौओंके पेट फूलनेकी बीमारीको तत्काल रोक देते हैं"
+          "hindi": "गौओंके पेट फूलनेकी बीमारीको तत्काल रोक देते हैं",
+          "translation": "A horse that eats sugar, honey and parched rice, fragrant, pure, is a Brahmin; a spirited horse is a Kshatriya; one trained and intelligent...",
+          "translationSource": "ai"
         },
         {
           "number": 65,
