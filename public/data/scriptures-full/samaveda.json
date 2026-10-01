@@ -6533,17 +6533,23 @@
         {
           "number": 927,
           "sanskrit": "पिबा सोममिन्द्र मदन्तु त्वा यं ते सुषाव हर्यश्वाद्रिः । सोतुर्बाहुभ्याँ सुयतो नार्वा",
-          "transliteration": "pibA somamindra madantu tvA yaM te suShAva haryashvAdriH | soturbAhubhyA.N suyato nArvA"
+          "transliteration": "pibA somamindra madantu tvA yaM te suShAva haryashvAdriH | soturbAhubhyA.N suyato nArvA",
+          "translation": "Drink the soma, Indra; may it delight you, which the stone pressed for you, O bay-horsed, held by the arms of the presser like a horse.",
+          "translationSource": "ai"
         },
         {
           "number": 928,
           "sanskrit": "यस्ते मदो युज्यश्चारुरस्ति येन वृत्राणि हर्यश्व हँसि । स त्वामिन्द्र प्रभूवसो ममत्तु",
-          "transliteration": "yaste mado yujyashchArurasti yena vR^itrANi haryashva ha.Nsi | sa tvAmindra prabhUvaso mamattu"
+          "transliteration": "yaste mado yujyashchArurasti yena vR^itrANi haryashva ha.Nsi | sa tvAmindra prabhUvaso mamattu",
+          "translation": "The exhilaration of yours that is lovely, to be yoked, by which you slay Vritras, O bay-horsed — may it delight you, Indra, O lord of wealth.",
+          "translationSource": "ai"
         },
         {
           "number": 929,
           "sanskrit": "बोधा सु मे मघवन्वाचमेमां यां ते वसिष्ठो अर्चति प्रशस्तिम् । इमा ब्रह्म सधमादे जुषस्व",
-          "transliteration": "bodhA su me maghavanvAchamemAM yAM te vasiShTho archati prashastim | imA brahma sadhamAde juShasva"
+          "transliteration": "bodhA su me maghavanvAchamemAM yAM te vasiShTho archati prashastim | imA brahma sadhamAde juShasva",
+          "translation": "Hear well this my word, bounteous one, the praise that Vasishtha offers you; accept these prayers at the shared feast.",
+          "translationSource": "ai"
         },
         {
           "number": 930,
@@ -6555,12 +6561,16 @@
         {
           "number": 931,
           "sanskrit": "नेमिं नमन्ति चक्षसा मेषं विप्रा अभिस्वरे । सुदीतयो वो अद्रुहोऽपि कर्णे तरस्विनः समृक्वभिः",
-          "transliteration": "nemiM namanti chakShasA meShaM viprA abhisvare | sudItayo vo adruho.api karNe tarasvinaH samR^ikvabhiH"
+          "transliteration": "nemiM namanti chakShasA meShaM viprA abhisvare | sudItayo vo adruho.api karNe tarasvinaH samR^ikvabhiH",
+          "translation": "The sages bow the rim with the eye to the ram in the loud chant; your well-shining, guileless ones, strong, in the ear, with the singers.",
+          "translationSource": "ai"
         },
         {
           "number": 932,
           "sanskrit": "समु रेभसो अस्वरन्निन्द्रँ सोमस्य पीतये । स्वःपतिर्यदी वृधे धृतव्रतो ह्योजसा समूतिभिः",
-          "transliteration": "samu rebhaso asvarannindra.N somasya pItaye | svaHpatiryadI vR^idhe dhR^itavrato hyojasA samUtibhiH"
+          "transliteration": "samu rebhaso asvarannindra.N somasya pItaye | svaHpatiryadI vR^idhe dhR^itavrato hyojasA samUtibhiH",
+          "translation": "The singers have raised their voices together to Indra for the drinking of soma; lord of heaven, when he is strengthened, firm in his vows, with might and helps.",
+          "translationSource": "ai"
         },
         {
           "number": 933,
@@ -6572,7 +6582,9 @@
         {
           "number": 934,
           "sanskrit": "इन्द्रं तँ शुम्भ्य पुरुहन्मन्नवसे यस्य द्विता विधर्त्तरि । हस्तेन वज्रः प्रति धायि दर्शतो महां देवो न सूर्यः",
-          "transliteration": "indraM ta.N shumbhya puruhanmannavase yasya dvitA vidharttari | hastena vajraH prati dhAyi darshato mahAM devo na sUryaH"
+          "transliteration": "indraM ta.N shumbhya puruhanmannavase yasya dvitA vidharttari | hastena vajraH prati dhAyi darshato mahAM devo na sUryaH",
+          "translation": "Adorn that Indra, O much-invoked, for help, in whom is the twofold upholding; the thunderbolt is set in his hand, beautiful, great, like a god, like the Sun.",
+          "translationSource": "ai"
         },
         {
           "number": 935,
@@ -6584,22 +6596,30 @@
         {
           "number": 936,
           "sanskrit": "स सूनुर्मातरा शुचिर्जातो जाते अरोचयत् । महान्मही ऋतावृधा",
-          "transliteration": "sa sUnurmAtarA shuchirjAto jAte arochayat | mahAnmahI R^itAvR^idhA"
+          "transliteration": "sa sUnurmAtarA shuchirjAto jAte arochayat | mahAnmahI R^itAvR^idhA",
+          "translation": "That son, pure, born, made shine his two parents at his birth; great, the two great ones, strengtheners of truth.",
+          "translationSource": "ai"
         },
         {
           "number": 937,
           "sanskrit": "प्रप्र क्षयाय पन्यसे जनाय जुष्टो अद्रुहः । वीत्यर्ष पनिष्टये",
-          "transliteration": "prapra kShayAya panyase janAya juShTo adruhaH | vItyarSha paniShTaye"
+          "transliteration": "prapra kShayAya panyase janAya juShTo adruhaH | vItyarSha paniShTaye",
+          "translation": "Go forth for the dwelling, praised, pleasing to the guileless people; go to the feast for praise.",
+          "translationSource": "ai"
         },
         {
           "number": 938,
           "sanskrit": "त्वँ ह्या३ँङ्ग दैव्या पवमान जनिमानि द्युमत्तमः । अमृतत्वाय घोषयन्",
-          "transliteration": "tva.N hyA3.N~Nga daivyA pavamAna janimAni dyumattamaH | amR^itatvAya ghoShayan"
+          "transliteration": "tva.N hyA3.N~Nga daivyA pavamAna janimAni dyumattamaH | amR^itatvAya ghoShayan",
+          "translation": "You indeed, O flowing one, most radiant, proclaim the divine births for immortality.",
+          "translationSource": "ai"
         },
         {
           "number": 939,
           "sanskrit": "येना नवग्वो दध्यङ्ङपोर्णुते येन विप्रास आपिरे । देवानाँ सुम्ने अमृतस्य चारुणो येन श्रवाँस्याशत",
-          "transliteration": "yenA navagvo dadhya~N~NaporNute yena viprAsa Apire | devAnA.N sumne amR^itasya chAruNo yena shravA.NsyAshata"
+          "transliteration": "yenA navagvo dadhya~N~NaporNute yena viprAsa Apire | devAnA.N sumne amR^itasya chAruNo yena shravA.NsyAshata",
+          "translation": "By which the Navagvas and Dadhyanch uncover the waters, by which the sages obtained kinship; by which they attained the glories in the favor of the gods, the lovely immortal.",
+          "translationSource": "ai"
         },
         {
           "number": 940,
@@ -6611,12 +6631,16 @@
         {
           "number": 941,
           "sanskrit": "धीभिर्मृजन्ति वाजिनं वने क्रीडन्तमत्यविम् । अभि त्रिपृष्ठं मतयः समस्वरन्",
-          "transliteration": "dhIbhirmR^ijanti vAjinaM vane krIDantamatyavim | abhi tripR^iShThaM matayaH samasvaran"
+          "transliteration": "dhIbhirmR^ijanti vAjinaM vane krIDantamatyavim | abhi tripR^iShThaM matayaH samasvaran",
+          "translation": "With thoughts they cleanse the racer playing in the wood on the sheep's wool; the prayers sang together to the three-backed one.",
+          "translationSource": "ai"
         },
         {
           "number": 942,
           "sanskrit": "असर्जि कलशाँ अभि मीढ्वान्त्सप्तिर्न वाजयुः । पुनानो वाचं जनयन्नसिष्यदत्",
-          "transliteration": "asarji kalashA.N abhi mIDhvAntsaptirna vAjayuH | punAno vAchaM janayannasiShyadat"
+          "transliteration": "asarji kalashA.N abhi mIDhvAntsaptirna vAjayuH | punAno vAchaM janayannasiShyadat",
+          "translation": "The showering one has been released toward the vessels like a swift horse seeking strength; purifying, he gives birth to speech, he runs.",
+          "translationSource": "ai"
         },
         {
           "number": 943,
@@ -6628,12 +6652,16 @@
         {
           "number": 944,
           "sanskrit": "ब्रह्मा देवानां पदवीः कवीनां ऋषिर्विप्राणां महिषोमृगाणाम् । श्येनो गृध्राणाँ स्वधितिर्वनानाँ सोमः पवित्रमत्येति रेभन्",
-          "transliteration": "brahmA devAnAM padavIH kavInAM R^iShirviprANAM mahiShomR^igANAm | shyeno gR^idhrANA.N svadhitirvanAnA.N somaH pavitramatyeti rebhan"
+          "transliteration": "brahmA devAnAM padavIH kavInAM R^iShirviprANAM mahiShomR^igANAm | shyeno gR^idhrANA.N svadhitirvanAnA.N somaH pavitramatyeti rebhan",
+          "translation": "The Brahman of the gods, the leader of the seers, the sage of the wise, the buffalo of the beasts, the falcon of the vultures, the axe of the woods — Soma crosses the filter roaring.",
+          "translationSource": "ai"
         },
         {
           "number": 945,
           "sanskrit": "प्रावीविपद्वाच ऊर्मिं न सिन्धुर्गिर स्तोमान्पवमानो मनीषाः । अन्तः पश्यन्वृजनेमावराण्या तिष्ठति वृषभो गोषु जानन्",
-          "transliteration": "prAvIvipadvAcha UrmiM na sindhurgira stomAnpavamAno manIShAH | antaH pashyanvR^ijanemAvarANyA tiShThati vR^iShabho goShu jAnan"
+          "transliteration": "prAvIvipadvAcha UrmiM na sindhurgira stomAnpavamAno manIShAH | antaH pashyanvR^ijanemAvarANyA tiShThati vR^iShabho goShu jAnan",
+          "translation": "The river waves the wave of speech, songs and thoughts as it flows; seeing within, the bull stands in the lower realms among the cows, knowing.",
+          "translationSource": "ai"
         },
         {
           "number": 946,
@@ -6645,12 +6673,16 @@
         {
           "number": 947,
           "sanskrit": "अयं यथा न आभुवत्त्वष्टा रूपेव तक्ष्या । अस्य क्रत्वा यशस्वतः",
-          "transliteration": "ayaM yathA na AbhuvattvaShTA rUpeva takShyA | asya kratvA yashasvataH"
+          "transliteration": "ayaM yathA na AbhuvattvaShTA rUpeva takShyA | asya kratvA yashasvataH",
+          "translation": "May this one be with us as Tvashtar is among forms to be fashioned, by the skill of this famed one.",
+          "translationSource": "ai"
         },
         {
           "number": 948,
           "sanskrit": "अयं विश्वा अभि श्रियोऽग्निर्देवेषु पत्यते । आ वाजैरुप नो गमत्",
-          "transliteration": "ayaM vishvA abhi shriyo.agnirdeveShu patyate | A vAjairupa no gamat"
+          "transliteration": "ayaM vishvA abhi shriyo.agnirdeveShu patyate | A vAjairupa no gamat",
+          "translation": "This Agni goes over all glories, rules among the gods; may he come to us with strengths.",
+          "translationSource": "ai"
         },
         {
           "number": 949,
@@ -6662,222 +6694,310 @@
         {
           "number": 950,
           "sanskrit": "न किष्ट्वद्रथीतरो हरी यदिन्द्र यच्छसे । न किष्ट्वानु मज्मना न किः स्वश्व आनशे",
-          "transliteration": "na kiShTvadrathItaro harI yadindra yachChase | na kiShTvAnu majmanA na kiH svashva Anashe"
+          "transliteration": "na kiShTvadrathItaro harI yadindra yachChase | na kiShTvAnu majmanA na kiH svashva Anashe",
+          "translation": "None is a better charioteer than you, Indra, when you drive your two bay horses; none attains your might; none has good horses like you.",
+          "translationSource": "ai"
         },
         {
           "number": 951,
           "sanskrit": "इन्द्राय नूनमर्चतोक्थानि च ब्रवीतन । सुता अमत्सुरिन्दवो ज्येष्ठं नमस्यता सहः",
-          "transliteration": "indrAya nUnamarchatokthAni cha bravItana | sutA amatsurindavo jyeShThaM namasyatA sahaH"
+          "transliteration": "indrAya nUnamarchatokthAni cha bravItana | sutA amatsurindavo jyeShThaM namasyatA sahaH",
+          "translation": "Now honor Indra and speak hymns; the pressed drops have rejoiced; bow to the eldest strength.",
+          "translationSource": "ai"
         },
         {
           "number": 952,
           "sanskrit": "इन्द्र जुषस्व प्र वहा याहि शूर हरिह । पिबा सुतस्य मतिर्न मधोश्चकानश्चारुर्मदाय",
-          "transliteration": "indra juShasva pra vahA yAhi shUra hariha | pibA sutasya matirna madhoshchakAnashchArurmadAya"
+          "transliteration": "indra juShasva pra vahA yAhi shUra hariha | pibA sutasya matirna madhoshchakAnashchArurmadAya",
+          "translation": "Enjoy, Indra, come forth, bay-horsed hero; drink the pressed soma like a thought; loving honey, lovely, for exhilaration.",
+          "translationSource": "ai"
         },
         {
           "number": 953,
           "sanskrit": "इन्द्र जठरं नव्यं न पृणस्व मधोर्दिवो न । अस्य सुतस्य स्वा३र्नोप त्वा मदाः सुवाचो अस्थुः",
-          "transliteration": "indra jaTharaM navyaM na pR^iNasva madhordivo na | asya sutasya svA3rnopa tvA madAH suvAcho asthuH"
+          "transliteration": "indra jaTharaM navyaM na pR^iNasva madhordivo na | asya sutasya svA3rnopa tvA madAH suvAcho asthuH",
+          "translation": "Fill your new belly with honey, Indra, as heaven with water; by the sound of this pressed soma the fair-spoken exhilarations have stood near you.",
+          "translationSource": "ai"
         },
         {
           "number": 954,
           "sanskrit": "इन्द्रस्तुराषाण्मित्रो न जघान वृत्रं यतिर्न । बिभेद वलं भृगुर्न ससाहे शत्रून्मदे सोमस्य",
-          "transliteration": "indrasturAShANmitro na jaghAna vR^itraM yatirna | bibheda valaM bhR^igurna sasAhe shatrUnmade somasya"
+          "transliteration": "indrasturAShANmitro na jaghAna vR^itraM yatirna | bibheda valaM bhR^igurna sasAhe shatrUnmade somasya",
+          "translation": "Indra, the swift conqueror, like Mitra, slew Vritra; like an ascetic he split Vala; like Bhrigu he overcame foes in the joy of soma.",
+          "translationSource": "ai"
         },
         {
           "number": 955,
           "sanskrit": "गोवित्पवस्व वसुविद्धिरण्यविद्रेतोधा इन्दो भुवनेष्वर्पितः । त्वँ सुवीरो असि सोम विश्ववित्तं त्वा नर उप गिरेम आसते",
-          "transliteration": "govitpavasva vasuviddhiraNyavidretodhA indo bhuvaneShvarpitaH | tva.N suvIro asi soma vishvavittaM tvA nara upa girema Asate"
+          "transliteration": "govitpavasva vasuviddhiraNyavidretodhA indo bhuvaneShvarpitaH | tva.N suvIro asi soma vishvavittaM tvA nara upa girema Asate",
+          "translation": "Finder of cattle, flow, finder of wealth, finder of gold, O drop, seed-bearer, placed in the worlds; you, Soma, are well-heroic, all-knowing; men sit near you with songs.",
+          "translationSource": "ai"
         },
         {
           "number": 956,
           "sanskrit": "त्वं नृचक्षा असि सोम विश्वतः पवमान वृषभ ता वि धावसि । स नः पवस्व वसुमद्धिरण्यवद्वयँ स्याम भुवनेषु जीवसे",
-          "transliteration": "tvaM nR^ichakShA asi soma vishvataH pavamAna vR^iShabha tA vi dhAvasi | sa naH pavasva vasumaddhiraNyavadvaya.N syAma bhuvaneShu jIvase"
+          "transliteration": "tvaM nR^ichakShA asi soma vishvataH pavamAna vR^iShabha tA vi dhAvasi | sa naH pavasva vasumaddhiraNyavadvaya.N syAma bhuvaneShu jIvase",
+          "translation": "You are the all-seeing watcher of men, Soma; flowing, O bull, you run apart; flow for us with wealth and gold; may we live in the worlds.",
+          "translationSource": "ai"
         },
         {
           "number": 957,
           "sanskrit": "ईशान इमा भुवनानि ईयसे युजान इन्दो हरितः सुपर्ण्यः । तास्ते क्षरन्तु मधुमद्घृतं पयस्तव व्रते सोम तिष्ठन्तु कृष्टयः",
-          "transliteration": "IshAna imA bhuvanAni Iyase yujAna indo haritaH suparNyaH | tAste kSharantu madhumadghR^itaM payastava vrate soma tiShThantu kR^iShTayaH"
+          "transliteration": "IshAna imA bhuvanAni Iyase yujAna indo haritaH suparNyaH | tAste kSharantu madhumadghR^itaM payastava vrate soma tiShThantu kR^iShTayaH",
+          "translation": "Ruling, you go through these worlds, O drop, with your fair-winged bay mares yoked; let them stream honey, ghee and milk for you; in your law, Soma, let the peoples abide.",
+          "translationSource": "ai"
         },
         {
           "number": 958,
           "sanskrit": "पवमानस्य विश्ववित्प्र ते सर्गा असृक्षत । सूर्यस्येव न रश्मयः",
-          "transliteration": "pavamAnasya vishvavitpra te sargA asR^ikShata | sUryasyeva na rashmayaH"
+          "transliteration": "pavamAnasya vishvavitpra te sargA asR^ikShata | sUryasyeva na rashmayaH",
+          "translation": "The courses of you, flowing all-knowing one, have been released like the rays of the sun.",
+          "translationSource": "ai"
         },
         {
           "number": 959,
           "sanskrit": "केतुं कृण्वं दिवस्परि विश्वा रूपाभ्यर्षसि । समुद्रः सोम पिन्वसे",
-          "transliteration": "ketuM kR^iNvaM divaspari vishvA rUpAbhyarShasi | samudraH soma pinvase"
+          "transliteration": "ketuM kR^iNvaM divaspari vishvA rUpAbhyarShasi | samudraH soma pinvase",
+          "translation": "Making a banner above heaven, you move toward all forms; you swell, Soma, like an ocean.",
+          "translationSource": "ai"
         },
         {
           "number": 960,
           "sanskrit": "जज्ञानो वाचमिष्यसि पवमान विधर्मणि । क्रन्दं देवो न सूर्यः",
-          "transliteration": "jaj~nAno vAchamiShyasi pavamAna vidharmaNi | krandaM devo na sUryaH"
+          "transliteration": "jaj~nAno vAchamiShyasi pavamAna vidharmaNi | krandaM devo na sUryaH",
+          "translation": "Born, you drive speech to the rite, flowing, roaring like the god Sun.",
+          "translationSource": "ai"
         },
         {
           "number": 961,
           "sanskrit": "प्र सोमासो अधन्विषुः पवमानास इन्दवः । श्रीणाना अप्सु वृञ्जते",
-          "transliteration": "pra somAso adhanviShuH pavamAnAsa indavaH | shrINAnA apsu vR^i~njate"
+          "transliteration": "pra somAso adhanviShuH pavamAnAsa indavaH | shrINAnA apsu vR^i~njate",
+          "translation": "The somas have run forth, the flowing drops, mingling in the waters, they cleanse.",
+          "translationSource": "ai"
         },
         {
           "number": 962,
           "sanskrit": "अभि गावो अधन्विषुरापो न प्रवता यतीः । पुनाना इन्द्रमाशत",
-          "transliteration": "abhi gAvo adhanviShurApo na pravatA yatIH | punAnA indramAshata"
+          "transliteration": "abhi gAvo adhanviShurApo na pravatA yatIH | punAnA indramAshata",
+          "translation": "The cows ran toward them like waters flowing down; purified, they reached Indra.",
+          "translationSource": "ai"
         },
         {
           "number": 963,
           "sanskrit": "प्र पवमान धन्वसि सोमेन्द्राय मादनः । नृभिर्यतो वि नीयसे",
-          "transliteration": "pra pavamAna dhanvasi somendrAya mAdanaH | nR^ibhiryato vi nIyase"
+          "transliteration": "pra pavamAna dhanvasi somendrAya mAdanaH | nR^ibhiryato vi nIyase",
+          "translation": "Flow forth, flowing Soma, exhilarating for Indra; held by men, you are led apart.",
+          "translationSource": "ai"
         },
         {
           "number": 964,
           "sanskrit": "इन्दो यदद्रिभिः सुतः पवित्रं परिदीयसे । अरमिन्द्रस्य धाम्ने",
-          "transliteration": "indo yadadribhiH sutaH pavitraM paridIyase | aramindrasya dhAmne"
+          "transliteration": "indo yadadribhiH sutaH pavitraM paridIyase | aramindrasya dhAmne",
+          "translation": "O drop, when pressed by stones you are surrounded by the filter; enough for the abode of Indra.",
+          "translationSource": "ai"
         },
         {
           "number": 965,
           "sanskrit": "त्वँ सोम नृमादनः पवस्व चर्षणीधृतिः । सस्निर्यो अनुमाद्यः",
-          "transliteration": "tva.N soma nR^imAdanaH pavasva charShaNIdhR^itiH | sasniryo anumAdyaH"
+          "transliteration": "tva.N soma nR^imAdanaH pavasva charShaNIdhR^itiH | sasniryo anumAdyaH",
+          "translation": "You, Soma, men's delight, flow, upholder of peoples, victor, to be rejoiced in.",
+          "translationSource": "ai"
         },
         {
           "number": 966,
           "sanskrit": "पवस्व वृत्रहन्तम उक्थेभिरनुमाद्यः । शुचिः पावको अद्भुतः",
-          "transliteration": "pavasva vR^itrahantama ukthebhiranumAdyaH | shuchiH pAvako adbhutaH"
+          "transliteration": "pavasva vR^itrahantama ukthebhiranumAdyaH | shuchiH pAvako adbhutaH",
+          "translation": "Flow, best Vritra-slayer, to be gladdened by hymns, pure, purifying, wonderful.",
+          "translationSource": "ai"
         },
         {
           "number": 967,
           "sanskrit": "शुचिः पावक उच्यते सोमः सुतः स मधुमान् । देवावीरघशँसहा",
-          "transliteration": "shuchiH pAvaka uchyate somaH sutaH sa madhumAn | devAvIraghasha.NsahA"
+          "transliteration": "shuchiH pAvaka uchyate somaH sutaH sa madhumAn | devAvIraghasha.NsahA",
+          "translation": "The pure, purifying one is called Soma, pressed, honeyed, guardian of the gods, slayer of the evil-speaking.",
+          "translationSource": "ai"
         },
         {
           "number": 968,
           "sanskrit": "प्र कविर्देववीतयेऽव्या वारेभिरव्यत । साह्वान्विश्वा अभि स्पृधः",
-          "transliteration": "pra kavirdevavItaye.avyA vArebhiravyata | sAhvAnvishvA abhi spR^idhaH"
+          "transliteration": "pra kavirdevavItaye.avyA vArebhiravyata | sAhvAnvishvA abhi spR^idhaH",
+          "translation": "The seer is cleansed for the gods' feast through the woolen sieves, overcoming all rivals.",
+          "translationSource": "ai"
         },
         {
           "number": 969,
           "sanskrit": "स हि ष्मा जरितृभ्य आ वाजं गोमन्तमिन्वति । पवमानः सहस्रिणम्",
-          "transliteration": "sa hi ShmA jaritR^ibhya A vAjaM gomantaminvati | pavamAnaH sahasriNam"
+          "transliteration": "sa hi ShmA jaritR^ibhya A vAjaM gomantaminvati | pavamAnaH sahasriNam",
+          "translation": "He indeed sends to the singers strength rich in cattle, a thousandfold, flowing.",
+          "translationSource": "ai"
         },
         {
           "number": 970,
           "sanskrit": "परि विश्वानि चेतसा मृज्यसे पवसे मती । स नः सोम श्रवो विदः",
-          "transliteration": "pari vishvAni chetasA mR^ijyase pavase matI | sa naH soma shravo vidaH"
+          "transliteration": "pari vishvAni chetasA mR^ijyase pavase matI | sa naH soma shravo vidaH",
+          "translation": "You are cleansed by the mind, all-around, and you flow by thought; may you, Soma, find us fame.",
+          "translationSource": "ai"
         },
         {
           "number": 971,
           "sanskrit": "अभ्यर्ष बृहद्यशो मघवद्भ्यो ध्रुवँ रयिम् । इषँ स्तोतृभ्य आ भर",
-          "transliteration": "abhyarSha bR^ihadyasho maghavadbhyo dhruva.N rayim | iSha.N stotR^ibhya A bhara"
+          "transliteration": "abhyarSha bR^ihadyasho maghavadbhyo dhruva.N rayim | iSha.N stotR^ibhya A bhara",
+          "translation": "Flow great fame and firm wealth to the bounteous; bring food to the singers.",
+          "translationSource": "ai"
         },
         {
           "number": 972,
           "sanskrit": "त्वँ राजेव सुव्रतो गिरः सोमाविवेशिथ । पुनानो वह्ने अद्भुत",
-          "transliteration": "tva.N rAjeva suvrato giraH somAviveshitha | punAno vahne adbhuta"
+          "transliteration": "tva.N rAjeva suvrato giraH somAviveshitha | punAno vahne adbhuta",
+          "translation": "Like a king of good vows you have entered the songs, Soma, purifying, O wonderful carrier.",
+          "translationSource": "ai"
         },
         {
           "number": 973,
           "sanskrit": "स वह्निरप्सु दुष्टरो मृज्यमानो गभस्त्योः । सोमश्चमूषु सीदति",
-          "transliteration": "sa vahnirapsu duShTaro mR^ijyamAno gabhastyoH | somashchamUShu sIdati"
+          "transliteration": "sa vahnirapsu duShTaro mR^ijyamAno gabhastyoH | somashchamUShu sIdati",
+          "translation": "That carrier in the waters, hard to cross, cleansed by the hands, Soma sits in the vessels.",
+          "translationSource": "ai"
         },
         {
           "number": 974,
           "sanskrit": "क्रीडुर्मखो न मँहयुः पवित्रँ सोम गच्छसि । दधत्स्तोत्रे सुवीर्यम्",
-          "transliteration": "krIDurmakho na ma.NhayuH pavitra.N soma gachChasi | dadhatstotre suvIryam"
+          "transliteration": "krIDurmakho na ma.NhayuH pavitra.N soma gachChasi | dadhatstotre suvIryam",
+          "translation": "Like a playing sacrifice-giver, loving greatness, you go to the filter, Soma, giving heroic strength to the praiser.",
+          "translationSource": "ai"
         },
         {
           "number": 975,
           "sanskrit": "यवंयवं नो अन्धसा पुष्टंपुष्टं परि स्रव । विश्वा च सोम सौभगा",
-          "transliteration": "yavaMyavaM no andhasA puShTaMpuShTaM pari srava | vishvA cha soma saubhagA"
+          "transliteration": "yavaMyavaM no andhasA puShTaMpuShTaM pari srava | vishvA cha soma saubhagA",
+          "translation": "Grain by grain, fatten us with the drink; flow around, Soma, with all good fortune.",
+          "translationSource": "ai"
         },
         {
           "number": 976,
           "sanskrit": "इन्दो यथा तव स्तवो यथा ते जातमन्धसः । नि बर्हिषि प्रिये सदः",
-          "transliteration": "indo yathA tava stavo yathA te jAtamandhasaH | ni barhiShi priye sadaH"
+          "transliteration": "indo yathA tava stavo yathA te jAtamandhasaH | ni barhiShi priye sadaH",
+          "translation": "O drop, as is your praise, as is your birth of the drink, sit in the dear grass.",
+          "translationSource": "ai"
         },
         {
           "number": 977,
           "sanskrit": "उत नो गोविदश्ववित्पवस्व सोमान्धसा । मक्षूतमेभिरहभिः",
-          "transliteration": "uta no govidashvavitpavasva somAndhasA | makShUtamebhirahabhiH"
+          "transliteration": "uta no govidashvavitpavasva somAndhasA | makShUtamebhirahabhiH",
+          "translation": "And for us, finder of cattle and horses, flow, Soma, with drink — swiftest in these days.",
+          "translationSource": "ai"
         },
         {
           "number": 978,
           "sanskrit": "यो जिनाति न जीयते हन्ति शत्रुमभीत्य । स पवस्व सहस्रजित्",
-          "transliteration": "yo jinAti na jIyate hanti shatrumabhItya | sa pavasva sahasrajit"
+          "transliteration": "yo jinAti na jIyate hanti shatrumabhItya | sa pavasva sahasrajit",
+          "translation": "He who conquers and is not conquered, who strikes the foe by approaching — flow as the winner of thousands.",
+          "translationSource": "ai"
         },
         {
           "number": 979,
           "sanskrit": "यास्ते धारा मधुश्चुतोऽसृग्रमिन्द ऊतये । ताभिः पवित्रमासदः",
-          "transliteration": "yAste dhArA madhushchuto.asR^igraminda Utaye | tAbhiH pavitramAsadaH"
+          "transliteration": "yAste dhArA madhushchuto.asR^igraminda Utaye | tAbhiH pavitramAsadaH",
+          "translation": "By those honey-dripping streams of yours, O drop, that have been released for help — by them you sit on the filter.",
+          "translationSource": "ai"
         },
         {
           "number": 980,
           "sanskrit": "सो अर्षेन्द्राय पीतये तिरो वाराण्यव्यया । सीदन्नृतस्य योनिमा",
-          "transliteration": "so arShendrAya pItaye tiro vArANyavyayA | sIdannR^itasya yonimA"
+          "transliteration": "so arShendrAya pItaye tiro vArANyavyayA | sIdannR^itasya yonimA",
+          "translation": "Flow to Indra for drinking across the woolen sieves, sitting in the womb of truth.",
+          "translationSource": "ai"
         },
         {
           "number": 981,
           "sanskrit": "त्वँ सोम परि स्रव स्वादिष्ठो अङ्गिरोभ्यः । वरिवोविद्धृतं पयः",
-          "transliteration": "tva.N soma pari srava svAdiShTho a~NgirobhyaH | varivoviddhR^itaM payaH"
+          "transliteration": "tva.N soma pari srava svAdiShTho a~NgirobhyaH | varivoviddhR^itaM payaH",
+          "translation": "You, Soma, flow around, sweetest for the Angirases, the finder of room, ghee and milk.",
+          "translationSource": "ai"
         },
         {
           "number": 982,
           "sanskrit": "तव श्रियो वर्ष्यस्येव विद्युतोग्नेश्चिकित्र उषसामिवेतयः । यदोषधीरभिसृष्टो वनानि च परि स्वयं चिनुषे अन्नमासनि",
-          "transliteration": "tava shriyo varShyasyeva vidyutogneshchikitra uShasAmivetayaH | yadoShadhIrabhisR^iShTo vanAni cha pari svayaM chinuShe annamAsani"
+          "transliteration": "tava shriyo varShyasyeva vidyutogneshchikitra uShasAmivetayaH | yadoShadhIrabhisR^iShTo vanAni cha pari svayaM chinuShe annamAsani",
+          "translation": "Your glories, O Agni, are noticed like the rain's lightning, like the courses of the dawns; when you are sent among the plants and woods, you yourself gather food in your mouth.",
+          "translationSource": "ai"
         },
         {
           "number": 983,
           "sanskrit": "वातोपजूत इषितो वशाँ अनु तृषु यदन्ना वेविषद्वितिष्ठसे । आ ते यतन्ते रथ्यो३ यथा पृथक्षर्धाँस्यग्ने अजरस्य धक्षतः",
-          "transliteration": "vAtopajUta iShito vashA.N anu tR^iShu yadannA veviShadvitiShThase | A te yatante rathyo3 yathA pR^ithakShardhA.Nsyagne ajarasya dhakShataH"
+          "transliteration": "vAtopajUta iShito vashA.N anu tR^iShu yadannA veviShadvitiShThase | A te yatante rathyo3 yathA pR^ithakShardhA.Nsyagne ajarasya dhakShataH",
+          "translation": "Urged by the wind, sped, when you stand devouring the thirsty food after your desire — your streams strive like chariots separately, O ageless Agni, burning.",
+          "translationSource": "ai"
         },
         {
           "number": 984,
           "sanskrit": "मेधाकारं विदथस्य प्रसाधनमग्निँ होतारं परिभूतरं मतिम् । त्वामर्भस्य हविषः समानमित्तवां महो वृणते नान्यं त्वत्",
-          "transliteration": "medhAkAraM vidathasya prasAdhanamagni.N hotAraM paribhUtaraM matim | tvAmarbhasya haviShaH samAnamittavAM maho vR^iNate nAnyaM tvat"
+          "transliteration": "medhAkAraM vidathasya prasAdhanamagni.N hotAraM paribhUtaraM matim | tvAmarbhasya haviShaH samAnamittavAM maho vR^iNate nAnyaM tvat",
+          "translation": "The wisdom-maker, accomplisher of the rite, Agni the priest, the overcomer of thought; to you the great ones choose the like of a small offering, none other than you.",
+          "translationSource": "ai"
         },
         {
           "number": 985,
           "sanskrit": "पुरूरुणा चिद्ध्यस्त्यवो नूनं वां वरुण । मित्र वँसि वाँ सुमतिम्",
-          "transliteration": "purUruNA chiddhyastyavo nUnaM vAM varuNa | mitra va.Nsi vA.N sumatim"
+          "transliteration": "purUruNA chiddhyastyavo nUnaM vAM varuNa | mitra va.Nsi vA.N sumatim",
+          "translation": "Indeed, Varuna, your help is great, now; Mitra, I desire your favor.",
+          "translationSource": "ai"
         },
         {
           "number": 986,
           "sanskrit": "ता वाँ सम्यगद्रुह्वाणेषमश्याम धाम च । वयं वां मित्रा स्याम",
-          "transliteration": "tA vA.N samyagadruhvANeShamashyAma dhAma cha | vayaM vAM mitrA syAma"
+          "transliteration": "tA vA.N samyagadruhvANeShamashyAma dhAma cha | vayaM vAM mitrA syAma",
+          "translation": "May we reach with right guileless thoughts your two abode; may we be yours, Mitras.",
+          "translationSource": "ai"
         },
         {
           "number": 987,
           "sanskrit": "पातं नो मित्रा पायुभिरुत त्रायेथाँ सुत्रात्रा । साह्याम दस्यूं तनूभिः",
-          "transliteration": "pAtaM no mitrA pAyubhiruta trAyethA.N sutrAtrA | sAhyAma dasyUM tanUbhiH"
+          "transliteration": "pAtaM no mitrA pAyubhiruta trAyethA.N sutrAtrA | sAhyAma dasyUM tanUbhiH",
+          "translation": "Protect us, Mitras, with your guardians, and save us, O good saviors; may we overcome the Dasyus with our bodies.",
+          "translationSource": "ai"
         },
         {
           "number": 988,
           "sanskrit": "उत्तिष्ठन्नोजसा सह पीत्वा शिप्रे अवेपयः । सोममिन्द्र चमूसुतम्",
-          "transliteration": "uttiShThannojasA saha pItvA shipre avepayaH | somamindra chamUsutam"
+          "transliteration": "uttiShThannojasA saha pItvA shipre avepayaH | somamindra chamUsutam",
+          "translation": "Rising with might, having drunk, you shook the two jaws; the soma pressed in the vessels, Indra.",
+          "translationSource": "ai"
         },
         {
           "number": 989,
           "sanskrit": "अनु त्वा रोदसी उभे स्पर्धमानमददेताम् । इन्द्र यद्दस्युहाभवः",
-          "transliteration": "anu tvA rodasI ubhe spardhamAnamadadetAm | indra yaddasyuhAbhavaH"
+          "transliteration": "anu tvA rodasI ubhe spardhamAnamadadetAm | indra yaddasyuhAbhavaH",
+          "translation": "Both heaven and earth rejoiced after you as you contended, Indra, when you became slayer of the Dasyu.",
+          "translationSource": "ai"
         },
         {
           "number": 990,
           "sanskrit": "वाचमष्टापदीमहं नवस्रक्तिमृतावृधम् । इन्द्रात्परितन्वं ममे",
-          "transliteration": "vAchamaShTApadImahaM navasraktimR^itAvR^idham | indrAtparitanvaM mame"
+          "transliteration": "vAchamaShTApadImahaM navasraktimR^itAvR^idham | indrAtparitanvaM mame",
+          "translation": "I hold speech with eight feet, with nine bonds, the strengthener of truth; I measured the body from Indra.",
+          "translationSource": "ai"
         },
         {
           "number": 991,
           "sanskrit": "इन्द्राग्नी युवामिमे३ऽभि स्तोमा अनूषत । पिबतँ शम्भुवा सुतम्",
-          "transliteration": "indrAgnI yuvAmime3.abhi stomA anUShata | pibata.N shambhuvA sutam"
+          "transliteration": "indrAgnI yuvAmime3.abhi stomA anUShata | pibata.N shambhuvA sutam",
+          "translation": "Indra and Agni, these hymns have sung to you; drink the pressed soma, bringers of joy.",
+          "translationSource": "ai"
         },
         {
           "number": 992,
           "sanskrit": "या वाँ सन्ति पुरुस्पृहो नियुतो दाशुषे नरा । इन्द्राग्नी ताभिरा गतम्",
-          "transliteration": "yA vA.N santi puruspR^iho niyuto dAshuShe narA | indrAgnI tAbhirA gatam"
+          "transliteration": "yA vA.N santi puruspR^iho niyuto dAshuShe narA | indrAgnI tAbhirA gatam",
+          "translation": "By those much-desired teams of yours, O men, for the giver, come, Indra and Agni.",
+          "translationSource": "ai"
         },
         {
           "number": 993,
           "sanskrit": "ताभिरा गच्छतं नरोपेदँ सवनँ सुतम् । इन्द्राग्नी सोमपीतये",
-          "transliteration": "tAbhirA gachChataM naropeda.N savana.N sutam | indrAgnI somapItaye"
+          "transliteration": "tAbhirA gachChataM naropeda.N savana.N sutam | indrAgnI somapItaye",
+          "translation": "Come by those, O men, to this pressed libation, Indra and Agni, to drink the soma.",
+          "translationSource": "ai"
         },
         {
           "number": 994,
@@ -6889,12 +7009,16 @@
         {
           "number": 995,
           "sanskrit": "अप्सा इन्द्राय वायवे वरुणाय मरुद्भ्यः । सोमा अर्षन्तु विष्णवे",
-          "transliteration": "apsA indrAya vAyave varuNAya marudbhyaH | somA arShantu viShNave"
+          "transliteration": "apsA indrAya vAyave varuNAya marudbhyaH | somA arShantu viShNave",
+          "translation": "The waters have flowed for Indra, Vayu, Varuna, the Maruts, may the somas flow to Vishnu.",
+          "translationSource": "ai"
         },
         {
           "number": 996,
           "sanskrit": "इषं तोकाय नो दधदस्मभ्यँ सोम विश्वतः । आ पवस्व सहस्रिणम्",
-          "transliteration": "iShaM tokAya no dadhadasmabhya.N soma vishvataH | A pavasva sahasriNam"
+          "transliteration": "iShaM tokAya no dadhadasmabhya.N soma vishvataH | A pavasva sahasriNam",
+          "translation": "Granting food to our offspring, Soma, from all sides flow to us a thousandfold.",
+          "translationSource": "ai"
         },
         {
           "number": 997,
@@ -6906,22 +7030,30 @@
         {
           "number": 998,
           "sanskrit": "अनूपे गोमान्गोभिरक्षाः सोमो दुग्धाभिरक्षाः । समुद्रं न संवरणान्यग्मन्मन्दी मदाय तोशते",
-          "transliteration": "anUpe gomAngobhirakShAH somo dugdhAbhirakShAH | samudraM na saMvaraNAnyagmanmandI madAya toshate"
+          "transliteration": "anUpe gomAngobhirakShAH somo dugdhAbhirakShAH | samudraM na saMvaraNAnyagmanmandI madAya toshate",
+          "translation": "In the water-meadow, rich in cattle, you flowed with cows; Soma flowed with the milked ones; like coverings they came into the sea; joyful, he flows for exhilaration.",
+          "translationSource": "ai"
         },
         {
           "number": 999,
           "sanskrit": "यत्सोम चित्रमुक्थ्यं दिव्यं पार्थिवं वसु । तन्नः पुनान आ भर",
-          "transliteration": "yatsoma chitramukthyaM divyaM pArthivaM vasu | tannaH punAna A bhara"
+          "transliteration": "yatsoma chitramukthyaM divyaM pArthivaM vasu | tannaH punAna A bhara",
+          "translation": "Whatever wondrous, praiseworthy, heavenly or earthly wealth, Soma — purifying, bring us that.",
+          "translationSource": "ai"
         },
         {
           "number": 1000,
           "sanskrit": "वृषा पुनान आयुँषि स्तनयन्नधि बर्हिषि । हरिः सन्योनिमासदः",
-          "transliteration": "vR^iShA punAna Ayu.NShi stanayannadhi barhiShi | hariH sanyonimAsadaH"
+          "transliteration": "vR^iShA punAna Ayu.NShi stanayannadhi barhiShi | hariH sanyonimAsadaH",
+          "translation": "The bull, purifying the lives, thundering on the grass, the bay one sat in his own nest.",
+          "translationSource": "ai"
         },
         {
           "number": 1001,
           "sanskrit": "युवँ हि स्थः स्वःपती इन्द्रश्च सोम गोपती । ईशाना पिप्यतं धियः",
-          "transliteration": "yuva.N hi sthaH svaHpatI indrashcha soma gopatI | IshAnA pipyataM dhiyaH"
+          "transliteration": "yuva.N hi sthaH svaHpatI indrashcha soma gopatI | IshAnA pipyataM dhiyaH",
+          "translation": "You two are lords of heaven, Indra and Soma, lords of cattle; ruling, nourish our thoughts.",
+          "translationSource": "ai"
         },
         {
           "number": 1002,
@@ -6933,27 +7065,37 @@
         {
           "number": 1003,
           "sanskrit": "असि हि वीर सेन्योऽसि भूरि पराददिः । असि दभ्रस्य चिद्वृधो यजमानाय शिक्षसि सुन्वते भूरि ते वसु",
-          "transliteration": "asi hi vIra senyo.asi bhUri parAdadiH | asi dabhrasya chidvR^idho yajamAnAya shikShasi sunvate bhUri te vasu"
+          "transliteration": "asi hi vIra senyo.asi bhUri parAdadiH | asi dabhrasya chidvR^idho yajamAnAya shikShasi sunvate bhUri te vasu",
+          "translation": "You are a hero, to be armed; you take much away; you strengthen even the small one; you teach the pressing sacrificer, much is your wealth.",
+          "translationSource": "ai"
         },
         {
           "number": 1004,
           "sanskrit": "यदुदीरत आजयो धृष्णवे धीयते धनाम् । युङ्क्ष्वा मदच्युता हरी कं हनः कं वसौ दधोऽस्मां इन्द्र वसौ दधः",
-          "transliteration": "yadudIrata Ajayo dhR^iShNave dhIyate dhanAm | yu~NkShvA madachyutA harI kaM hanaH kaM vasau dadho.asmAM indra vasau dadhaH"
+          "transliteration": "yadudIrata Ajayo dhR^iShNave dhIyate dhanAm | yu~NkShvA madachyutA harI kaM hanaH kaM vasau dadho.asmAM indra vasau dadhaH",
+          "translation": "When contests arise, wealth is set for the bold; yoke your two bay horses that drop exhilaration; whom do you slay, in whose wealth do you place us, Indra?",
+          "translationSource": "ai"
         },
         {
           "number": 1005,
           "sanskrit": "स्वादोरित्था विषूवतो मध्वः पिबन्ति गौर्यः । या इन्द्रेण सयावरीर्वृष्णा मदन्ति शोभसे वस्वीरनु स्वराज्यम्",
-          "transliteration": "svAdoritthA viShUvato madhvaH pibanti gauryaH | yA indreNa sayAvarIrvR^iShNA madanti shobhase vasvIranu svarAjyam"
+          "transliteration": "svAdoritthA viShUvato madhvaH pibanti gauryaH | yA indreNa sayAvarIrvR^iShNA madanti shobhase vasvIranu svarAjyam",
+          "translation": "The fair-skinned ones drink of the sweet, all-spread honey, who with Indra, the bull, are joyful for beauty, wealthy, according to self-rule.",
+          "translationSource": "ai"
         },
         {
           "number": 1006,
           "sanskrit": "ता अस्य पृशनायुवः सोमँ श्रीणन्ति पृश्नयः । प्रिया इन्द्रस्य धेनवो वज्रँ हिन्वन्ति सायकं वस्वीरनु स्वराज्यम्",
-          "transliteration": "tA asya pR^ishanAyuvaH soma.N shrINanti pR^ishnayaH | priyA indrasya dhenavo vajra.N hinvanti sAyakaM vasvIranu svarAjyam"
+          "transliteration": "tA asya pR^ishanAyuvaH soma.N shrINanti pR^ishnayaH | priyA indrasya dhenavo vajra.N hinvanti sAyakaM vasvIranu svarAjyam",
+          "translation": "They, the dappled ones, desiring the dappled, mingle his soma; the dear cows of Indra urge on the thunderbolt, the arrow, according to self-rule.",
+          "translationSource": "ai"
         },
         {
           "number": 1007,
           "sanskrit": "ता अस्य नमसा सहः सपर्यन्ति प्रचेतसः । व्रतान्यस्य सश्चिरे पुरूणि पूर्वचित्तये वस्वीरनु स्वराज्यम्",
-          "transliteration": "tA asya namasA sahaH saparyanti prachetasaH | vratAnyasya sashchire purUNi pUrvachittaye vasvIranu svarAjyam"
+          "transliteration": "tA asya namasA sahaH saparyanti prachetasaH | vratAnyasya sashchire purUNi pUrvachittaye vasvIranu svarAjyam",
+          "translation": "With homage the wise attend to his strength; they have followed his many vows for the first knowledge, according to self-rule.",
+          "translationSource": "ai"
         },
         {
           "number": 1008,
@@ -6965,22 +7107,30 @@
         {
           "number": 1009,
           "sanskrit": "शुभ्रमन्धो देववातमप्सु धौतं नृभिः सुतम् । स्वदन्ति गावः पयोभिः",
-          "transliteration": "shubhramandho devavAtamapsu dhautaM nR^ibhiH sutam | svadanti gAvaH payobhiH"
+          "transliteration": "shubhramandho devavAtamapsu dhautaM nR^ibhiH sutam | svadanti gAvaH payobhiH",
+          "translation": "The bright drink, wind-borne by the gods, washed in the waters, pressed by men; the cows sweeten it with milk.",
+          "translationSource": "ai"
         },
         {
           "number": 1010,
           "sanskrit": "आदीमश्वं न हेतारमशूशुभन्नमृताय । मधो रसँ सधमादे",
-          "transliteration": "AdImashvaM na hetAramashUshubhannamR^itAya | madho rasa.N sadhamAde"
+          "transliteration": "AdImashvaM na hetAramashUshubhannamR^itAya | madho rasa.N sadhamAde",
+          "translation": "Then they adorned him like a horse for the urger, for immortality, the essence of honey in the shared feast.",
+          "translationSource": "ai"
         },
         {
           "number": 1011,
           "sanskrit": "अभि द्युभ्नं बृहद्यश इषस्पते दीदिहि देव देवयुम् । वि कोशं मध्यमं युव",
-          "transliteration": "abhi dyubhnaM bR^ihadyasha iShaspate dIdihi deva devayum | vi koshaM madhyamaM yuva"
+          "transliteration": "abhi dyubhnaM bR^ihadyasha iShaspate dIdihi deva devayum | vi koshaM madhyamaM yuva",
+          "translation": "O lord of food, shine great splendor and fame, O god, the god-seeking; open the middle vessel, young one.",
+          "translationSource": "ai"
         },
         {
           "number": 1012,
           "sanskrit": "आ वच्यस्व सुदक्ष चम्वोः सुतो विशां वह्निर्न विश्पतिः । वृष्टिं दिवः पवस्व रीतिमपो जिन्वन्गविष्टये धियः",
-          "transliteration": "A vachyasva sudakSha chamvoH suto vishAM vahnirna vishpatiH | vR^iShTiM divaH pavasva rItimapo jinvangaviShTaye dhiyaH"
+          "transliteration": "A vachyasva sudakSha chamvoH suto vishAM vahnirna vishpatiH | vR^iShTiM divaH pavasva rItimapo jinvangaviShTaye dhiyaH",
+          "translation": "Be spoken of, O skilful one, pressed in the vessels, carrier of the clans, like a lord of the people; send the rain of heaven, urging the flow of waters, for the seeking of cattle through thought.",
+          "translationSource": "ai"
         },
         {
           "number": 1013,
@@ -6992,27 +7142,37 @@
         {
           "number": 1014,
           "sanskrit": "उप त्रितस्य पाष्यो३रभक्त यद्गुहा पदम् । यज्ञस्य सप्त धामभिरध प्रियम्",
-          "transliteration": "upa tritasya pAShyo3rabhakta yadguhA padam | yaj~nasya sapta dhAmabhiradha priyam"
+          "transliteration": "upa tritasya pAShyo3rabhakta yadguhA padam | yaj~nasya sapta dhAmabhiradha priyam",
+          "translation": "Near the two drinking-places of Trita, he shared the hidden step of the sacrifice, with seven abodes, dear.",
+          "translationSource": "ai"
         },
         {
           "number": 1015,
           "sanskrit": "त्रीणि त्रितस्य धारया पृष्टेष्वैरयद्रयिम् । मिमीते अस्य योजना वि सुक्रतुः",
-          "transliteration": "trINi tritasya dhArayA pR^iShTeShvairayadrayim | mimIte asya yojanA vi sukratuH"
+          "transliteration": "trINi tritasya dhArayA pR^iShTeShvairayadrayim | mimIte asya yojanA vi sukratuH",
+          "translation": "With the stream of Trita he sent three kinds of wealth upon the backs; the skilful one measures out his courses.",
+          "translationSource": "ai"
         },
         {
           "number": 1016,
           "sanskrit": "पवस्व वाजसातये पवित्रे धारया सुतः । इन्द्राय सोम विष्णवे देवेभ्यो मधुमत्तरः",
-          "transliteration": "pavasva vAjasAtaye pavitre dhArayA sutaH | indrAya soma viShNave devebhyo madhumattaraH"
+          "transliteration": "pavasva vAjasAtaye pavitre dhArayA sutaH | indrAya soma viShNave devebhyo madhumattaraH",
+          "translation": "Flow for the winning of strength, pressed in the filter with the stream; for Indra, Soma, for Vishnu, for the gods, the most honeyed.",
+          "translationSource": "ai"
         },
         {
           "number": 1017,
           "sanskrit": "त्वाँ रिहन्ति धीतयो हरिं पवित्रे अद्रुहः । वत्सं जातं न मातरः पवमान विधर्मणि",
-          "transliteration": "tvA.N rihanti dhItayo hariM pavitre adruhaH | vatsaM jAtaM na mAtaraH pavamAna vidharmaNi"
+          "transliteration": "tvA.N rihanti dhItayo hariM pavitre adruhaH | vatsaM jAtaM na mAtaraH pavamAna vidharmaNi",
+          "translation": "The thoughts lick you, the bay one, the guileless in the filter, as mothers lick the newborn calf, O flowing one, in the rite.",
+          "translationSource": "ai"
         },
         {
           "number": 1018,
           "sanskrit": "त्वं द्यां च महिव्रत पृथिवीं चाति जभ्रिषे । प्रति द्रापिममुञ्चथाः पवमान महित्वना",
-          "transliteration": "tvaM dyAM cha mahivrata pR^ithivIM chAti jabhriShe | prati drApimamu~nchathAH pavamAna mahitvanA"
+          "transliteration": "tvaM dyAM cha mahivrata pR^ithivIM chAti jabhriShe | prati drApimamu~nchathAH pavamAna mahitvanA",
+          "translation": "You, great-vowed, have sustained both heaven and earth; you freed the bound garment, flowing, by your greatness.",
+          "translationSource": "ai"
         },
         {
           "number": 1019,
@@ -7024,12 +7184,16 @@
         {
           "number": 1020,
           "sanskrit": "अध धारया मध्वा पृचानस्तिरो रोम पवते अद्रिदुग्धः । इन्दुरिन्द्रस्य सख्यं जुषाणो देवो देवस्य मत्सरो मदाय",
-          "transliteration": "adha dhArayA madhvA pR^ichAnastiro roma pavate adridugdhaH | indurindrasya sakhyaM juShANo devo devasya matsaro madAya"
+          "transliteration": "adha dhArayA madhvA pR^ichAnastiro roma pavate adridugdhaH | indurindrasya sakhyaM juShANo devo devasya matsaro madAya",
+          "translation": "Then, mixed with the honeyed stream, the stone-milked one flows through the wool; the drop, enjoying Indra's friendship, a god, the exhilaration of the god, for exhilaration.",
+          "translationSource": "ai"
         },
         {
           "number": 1021,
           "sanskrit": "अभि व्रतानि पवते पुनानो देवो देवान्त्स्वेन रसेन पृञ्चन् । इन्दुर्धर्माण्यृतुथा वसानो दश क्षिपो अव्यत सानो अव्ये",
-          "transliteration": "abhi vratAni pavate punAno devo devAntsvena rasena pR^i~nchan | indurdharmANyR^ituthA vasAno dasha kShipo avyata sAno avye"
+          "transliteration": "abhi vratAni pavate punAno devo devAntsvena rasena pR^i~nchan | indurdharmANyR^ituthA vasAno dasha kShipo avyata sAno avye",
+          "translation": "Purifying, the god flows toward the rites, mingling with the gods by his own essence; the drop, clad in the laws in their seasons, the ten fingers, in the sheep's wool on the peak.",
+          "translationSource": "ai"
         },
         {
           "number": 1022,
@@ -7041,27 +7205,37 @@
         {
           "number": 1023,
           "sanskrit": "आ ते अग्न ऋचा हविः शुक्रस्य ज्योतिषस्पते । सुश्चन्द्र दस्म विश्पते हव्यवाट्तुभ्यँ हूयत इषँ स्तोतृभ्य आ भर",
-          "transliteration": "A te agna R^ichA haviH shukrasya jyotiShaspate | sushchandra dasma vishpate havyavATtubhya.N hUyata iSha.N stotR^ibhya A bhara"
+          "transliteration": "A te agna R^ichA haviH shukrasya jyotiShaspate | sushchandra dasma vishpate havyavATtubhya.N hUyata iSha.N stotR^ibhya A bhara",
+          "translation": "To you, Agni, with the verse comes the offering, O lord of the bright light, O fair-shining, wonderful lord of the people; the offering-carrier is invoked for you; bring food to the singers.",
+          "translationSource": "ai"
         },
         {
           "number": 1024,
           "sanskrit": "ओभे सुश्चन्द्र विश्पते दर्वी श्रीणीष आसनि । उतो न उत्पुपूर्या उक्थेषु शवसस्पत इषँ स्तोतृभ्य आ भर",
-          "transliteration": "obhe sushchandra vishpate darvI shrINISha Asani | uto na utpupUryA uktheShu shavasaspata iSha.N stotR^ibhya A bhara"
+          "transliteration": "obhe sushchandra vishpate darvI shrINISha Asani | uto na utpupUryA uktheShu shavasaspata iSha.N stotR^ibhya A bhara",
+          "translation": "O fair-shining lord of the people, you fill both ladles at the mouth; and also fill us in the hymns, O lord of strength; bring food to the singers.",
+          "translationSource": "ai"
         },
         {
           "number": 1025,
           "sanskrit": "इन्द्राय साम गायत विप्राय बृहते बृहत् । ब्रह्माकृते विपश्चिते पनस्यवे",
-          "transliteration": "indrAya sAma gAyata viprAya bR^ihate bR^ihat | brahmAkR^ite vipashchite panasyave"
+          "transliteration": "indrAya sAma gAyata viprAya bR^ihate bR^ihat | brahmAkR^ite vipashchite panasyave",
+          "translation": "Sing the great Saman to Indra, the wise, the great, the prayer-maker, the sage, the wonder-worker.",
+          "translationSource": "ai"
         },
         {
           "number": 1026,
           "sanskrit": "त्वमिन्द्राभिभूरसि त्वँ सूर्यमरोचयः । विश्वकर्मा विश्वदेवो महाँ असि",
-          "transliteration": "tvamindrAbhibhUrasi tva.N sUryamarochayaH | vishvakarmA vishvadevo mahA.N asi"
+          "transliteration": "tvamindrAbhibhUrasi tva.N sUryamarochayaH | vishvakarmA vishvadevo mahA.N asi",
+          "translation": "You, Indra, are the overcomer; you made the sun shine; you are Vishvakarman, all-divine, great.",
+          "translationSource": "ai"
         },
         {
           "number": 1027,
           "sanskrit": "विभ्राजं ज्योतिषा त्व३रगच्छो रोचनं दिवः । देवास्त इन्द्र सख्याय येमिरे",
-          "transliteration": "vibhrAjaM jyotiShA tva3ragachCho rochanaM divaH | devAsta indra sakhyAya yemire"
+          "transliteration": "vibhrAjaM jyotiShA tva3ragachCho rochanaM divaH | devAsta indra sakhyAya yemire",
+          "translation": "You went with light to the shining realm of heaven; the gods held back for your friendship, Indra.",
+          "translationSource": "ai"
         },
         {
           "number": 1028,
@@ -7073,27 +7247,37 @@
         {
           "number": 1029,
           "sanskrit": "आ तिष्ठ वृत्रहन्रथं युक्ता ते ब्रह्मणा हरी । अर्वाचीनँ सु ते मनो ग्रावा कृणोतु वग्नुना",
-          "transliteration": "A tiShTha vR^itrahanrathaM yuktA te brahmaNA harI | arvAchIna.N su te mano grAvA kR^iNotu vagnunA"
+          "transliteration": "A tiShTha vR^itrahanrathaM yuktA te brahmaNA harI | arvAchIna.N su te mano grAvA kR^iNotu vagnunA",
+          "translation": "Mount your chariot, Vritra-slayer; your two bay horses are yoked by prayer; let the pressing-stone with its sound make your mind turn toward us.",
+          "translationSource": "ai"
         },
         {
           "number": 1030,
           "sanskrit": "इन्द्रमिद्धरी वहतोऽप्रतिधृष्टशवसम् । ऋषीणाँ सुष्टुतीरुप यज्ञं च मानुषाणाम्",
-          "transliteration": "indramiddharI vahato.apratidhR^iShTashavasam | R^iShINA.N suShTutIrupa yaj~naM cha mAnuShANAm"
+          "transliteration": "indramiddharI vahato.apratidhR^iShTashavasam | R^iShINA.N suShTutIrupa yaj~naM cha mAnuShANAm",
+          "translation": "The two bay horses carry Indra, of unassailable strength, to the good praises of the sages and the sacrifice of men.",
+          "translationSource": "ai"
         },
         {
           "number": 1031,
           "sanskrit": "ज्योतिर्यज्ञस्य पवते मधु प्रियं पिता देवानां जनिता विभूवसुः । दधाति रत्नँ स्वधयोरपीच्यं मदिन्तमो मत्सर इन्द्रियो रसः",
-          "transliteration": "jyotiryaj~nasya pavate madhu priyaM pitA devAnAM janitA vibhUvasuH | dadhAti ratna.N svadhayorapIchyaM madintamo matsara indriyo rasaH"
+          "transliteration": "jyotiryaj~nasya pavate madhu priyaM pitA devAnAM janitA vibhUvasuH | dadhAti ratna.N svadhayorapIchyaM madintamo matsara indriyo rasaH",
+          "translation": "The light of the sacrifice flows, the dear honey; the father of the gods, the begetter, the all-pervasive wealth; he sets the jewel of the two worlds, the most exhilarating, joyful, powerful essence.",
+          "translationSource": "ai"
         },
         {
           "number": 1032,
           "sanskrit": "अभिक्रन्दन्कलशं वाज्यर्षति पतिर्दिवः शतधारो विचक्षणः । हरिर्मित्रस्य सदनेषु सीदति मर्मृजानोऽविभिः सिन्धुभिर्वृषा",
-          "transliteration": "abhikrandankalashaM vAjyarShati patirdivaH shatadhAro vichakShaNaH | harirmitrasya sadaneShu sIdati marmR^ijAno.avibhiH sindhubhirvR^iShA"
+          "transliteration": "abhikrandankalashaM vAjyarShati patirdivaH shatadhAro vichakShaNaH | harirmitrasya sadaneShu sIdati marmR^ijAno.avibhiH sindhubhirvR^iShA",
+          "translation": "Roaring, the racer runs to the vessel, lord of heaven, hundred-streamed, all-seeing; the bay one sits in the dwellings of Mitra, cleansed by the sheep's wool and rivers, the bull.",
+          "translationSource": "ai"
         },
         {
           "number": 1033,
           "sanskrit": "अग्रे सिन्धूनां पवमानो अर्षत्यग्रे वाचो अग्रियो गोषु गच्छसि । अग्रे वाजस्य भजसे महद्धनँ स्वायुधः सोतृभिः सोम सूयसे",
-          "transliteration": "agre sindhUnAM pavamAno arShatyagre vAcho agriyo goShu gachChasi | agre vAjasya bhajase mahaddhana.N svAyudhaH sotR^ibhiH soma sUyase"
+          "transliteration": "agre sindhUnAM pavamAno arShatyagre vAcho agriyo goShu gachChasi | agre vAjasya bhajase mahaddhana.N svAyudhaH sotR^ibhiH soma sUyase",
+          "translation": "Flowing, you run in front of the rivers; you go first of speech among the cows; in front you take a great prize of strength; well-armed, Soma, you are pressed by the pressers.",
+          "translationSource": "ai"
         },
         {
           "number": 1034,
@@ -7105,32 +7289,44 @@
         {
           "number": 1036,
           "sanskrit": "शुम्भमानो ऋतायुभिर्मृज्यमाना गभस्त्योः । ते विश्वा दाशुषे वसु सोमा दिव्यानि पार्थिवा । पवन्तामान्तरिक्ष्या",
-          "transliteration": "shumbhamAno R^itAyubhirmR^ijyamAnA gabhastyoH | te vishvA dAshuShe vasu somA divyAni pArthivA | pavantAmAntarikShyA"
+          "transliteration": "shumbhamAno R^itAyubhirmR^ijyamAnA gabhastyoH | te vishvA dAshuShe vasu somA divyAni pArthivA | pavantAmAntarikShyA",
+          "translation": "Adorned by the truth-lovers, cleansed by the hands, those somas bring the giver all the divine and earthly wealth; let those of the air flow.",
+          "translationSource": "ai"
         },
         {
           "number": 1037,
           "sanskrit": "पवस्व देववीरति पवित्रँ सोम रँह्या । इन्द्रमिन्दो वृषा विश",
-          "transliteration": "pavasva devavIrati pavitra.N soma ra.NhyA | indramindo vR^iShA visha"
+          "transliteration": "pavasva devavIrati pavitra.N soma ra.NhyA | indramindo vR^iShA visha",
+          "translation": "Flow, god-protector, across the filter quickly, Soma; O drop, the bull, enter Indra.",
+          "translationSource": "ai"
         },
         {
           "number": 1038,
           "sanskrit": "आ वच्यस्व महि प्सरो वृषेन्दो द्युम्नवत्तमः । आ योनिं धर्णसिः सदः",
-          "transliteration": "A vachyasva mahi psaro vR^iShendo dyumnavattamaH | A yoniM dharNasiH sadaH"
+          "transliteration": "A vachyasva mahi psaro vR^iShendo dyumnavattamaH | A yoniM dharNasiH sadaH",
+          "translation": "Be spoken of, great delight, bull, drop, most splendid; sit, sustainer, in the nest.",
+          "translationSource": "ai"
         },
         {
           "number": 1039,
           "sanskrit": "अधुक्षत प्रियं मधु धारा सुतस्य वेधसः । अपो वसिष्ट सुक्रतुः",
-          "transliteration": "adhukShata priyaM madhu dhArA sutasya vedhasaH | apo vasiShTa sukratuH"
+          "transliteration": "adhukShata priyaM madhu dhArA sutasya vedhasaH | apo vasiShTa sukratuH",
+          "translation": "The streams of the pressed sage have milked the dear honey; the skilful one has clothed the waters.",
+          "translationSource": "ai"
         },
         {
           "number": 1040,
           "sanskrit": "महान्तं त्वा महीरन्वापो अर्षन्ति सिन्धवः । यद्गोभिर्वासयिष्यसे",
-          "transliteration": "mahAntaM tvA mahIranvApo arShanti sindhavaH | yadgobhirvAsayiShyase"
+          "transliteration": "mahAntaM tvA mahIranvApo arShanti sindhavaH | yadgobhirvAsayiShyase",
+          "translation": "The great waters, the rivers, flow after you, the great, when you are clothed with cows.",
+          "translationSource": "ai"
         },
         {
           "number": 1041,
           "sanskrit": "समुद्रो अप्सु मामृजे विष्टम्भो धरुणो दिवः । सोमः पवित्रे अस्मयुः",
-          "transliteration": "samudro apsu mAmR^ije viShTambho dharuNo divaH | somaH pavitre asmayuH"
+          "transliteration": "samudro apsu mAmR^ije viShTambho dharuNo divaH | somaH pavitre asmayuH",
+          "translation": "The ocean in the waters is cleansed, the prop, the support of heaven; Soma in the filter longs for us.",
+          "translationSource": "ai"
         },
         {
           "number": 1042,
@@ -7142,12 +7338,16 @@
         {
           "number": 1043,
           "sanskrit": "गिरस्त इन्द ओजसा मर्मृज्यन्ते अपस्युवः । याभिर्मदाय शुम्भसे",
-          "transliteration": "girasta inda ojasA marmR^ijyante apasyuvaH | yAbhirmadAya shumbhase"
+          "transliteration": "girasta inda ojasA marmR^ijyante apasyuvaH | yAbhirmadAya shumbhase",
+          "translation": "Your songs, O drop, adorn you with might, the working ones, with which you are decorated for exhilaration.",
+          "translationSource": "ai"
         },
         {
           "number": 1044,
           "sanskrit": "तं त्वा मदाय घृष्वय उ लोककृत्नुमीमहे । तव प्रशस्तये महे",
-          "transliteration": "taM tvA madAya ghR^iShvaya u lokakR^itnumImahe | tava prashastaye mahe"
+          "transliteration": "taM tvA madAya ghR^iShvaya u lokakR^itnumImahe | tava prashastaye mahe",
+          "translation": "We ask that you, the bold world-maker, for exhilaration, for your great praise.",
+          "translationSource": "ai"
         },
         {
           "number": 1045,
