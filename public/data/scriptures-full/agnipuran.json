@@ -15627,13 +15627,17 @@
           "number": 8,
           "sanskrit": "आचार्ये द्विगुणं दद्यात् पूर्ववन् मण्डपादिकम् । पापनाशः परा सिद्धिर्वृक्षारामप्रतिष्ठया",
           "transliteration": "ācārye dviguṇaṃ dadyāt pūrvavan maṇḍapādikam / pāpanāśaḥ parā siddhirvṛkṣārāmapratiṣṭhayā",
-          "hindi": "सोमका आवाहन --' बल और वाहनसे सम्पन्न गदाधारी सोम! आप यहाँ पधारिये और उत्तर द्वारकी रक्षा कोजिये। कुबेरसहित आपको नमस्कार है।' इस प्रकार आवाहन करके, “सोमं ° राजानम्०'"
+          "hindi": "सोमका आवाहन --' बल और वाहनसे सम्पन्न गदाधारी सोम! आप यहाँ पधारिये और उत्तर द्वारकी रक्षा कोजिये। कुबेरसहित आपको नमस्कार है।' इस प्रकार आवाहन करके, “सोमं ° राजानम्०'",
+          "translation": "To the teacher one should give double, with the pavilion and the rest as before. Destruction of sin and supreme accomplishment come by the consecration of a grove of trees.",
+          "translationSource": "ai"
         },
         {
           "number": 9,
           "sanskrit": "स्कन्दायेशो यथा प्राह प्रतिष्ठाद्यं तथा शृणु । सूर्येशगणशक्त्यादेः परिवारस्य वै हरेः",
           "transliteration": "skandāyeśo yathā prāha pratiṣṭhādyaṃ tathā śṛṇu / sūryeśagaṇaśaktyādeḥ parivārasya vai hareḥ",
-          "hindi": "इत्यादिसे अथवा 'सोमाय नमः।' इस मन्त्रसे सोमको पूजा करे। ईशानका आवाहन--' वृषभपर"
+          "hindi": "इत्यादिसे अथवा 'सोमाय नमः।' इस मन्त्रसे सोमको पूजा करे। ईशानका आवाहन--' वृषभपर",
+          "translation": "Hear the consecration and the rest as Ishana told it to Skanda: of the Sun, Ishana, Ganesha, Shakti and the rest, and of Hari's retinue.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -15661,31 +15665,41 @@
           "number": 3,
           "sanskrit": "गणो गुरुः पादुका च शक्त्यनन्तौ च धर्मकः । मुख्यास्थिमण्डलं(४) चाधश्चोर्ध्वच्छदनमर्चयेत्",
           "transliteration": "gaṇo guruḥ pādukā ca śaktyanantau ca dharmakaḥ / mukhyāsthimaṇḍalaṃ(4) cādhaścordhvacchadanamarcayet",
-          "hindi": "७-सोमई राजानमवसेऽग्निं गीमिर्हवामहे । आदित्यान् विष्णुं सूर्य ब्रह्माणं च बृहस्पतिम्। (ऋ० मं० १० सू० १४१।३ तथा यजु० ९। २६)"
+          "hindi": "७-सोमई राजानमवसेऽग्निं गीमिर्हवामहे । आदित्यान् विष्णुं सूर्य ब्रह्माणं च बृहस्पतिम्। (ऋ० मं० १० सू० १४१।३ तथा यजु० ९। २६)",
+          "translation": "One should worship the Gana, the teacher, the sandals, Shakti, Ananta and Dharma; the principal bone-circle and the lower and upper coverings.",
+          "translationSource": "ai"
         },
         {
           "number": 4,
           "sanskrit": "पद्मकर्णिकवीजांश् च ज्वालिनीं नन्दयार्चयेत् । सूर्येशा कामरूपा च उदया कामवर्तिनी",
           "transliteration": "padmakarṇikavījāṃś ca jvālinīṃ nandayārcayet / sūryeśā kāmarūpā ca udayā kāmavartinī",
-          "hindi": "करके ईशानमस्य० ' इत्यादिसे अथवा “ईशानाय नमः।' इस मन्त्रसे ईशानदेवताका पूजन करे। ब्रह्माका आवाहन--' हाथके अग्रभागमें खुकु और खुवा लेकर हंसपर आरूढ हुए अजन्मा ब्रह्माजी !"
+          "hindi": "करके ईशानमस्य० ' इत्यादिसे अथवा “ईशानाय नमः।' इस मन्त्रसे ईशानदेवताका पूजन करे। ब्रह्माका आवाहन--' हाथके अग्रभागमें खुकु और खुवा लेकर हंसपर आरूढ हुए अजन्मा ब्रह्माजी !",
+          "translation": "One should worship the lotus-pericarp seed-syllables and Jvalini with Nanda; Suryesha, Kamarupa, Udaya, Kamavartini,",
+          "translationSource": "ai"
         },
         {
           "number": 5,
           "sanskrit": "१ निर्विघ्नां पापनाशिनीमिति ग, घ, चिह्नितपुस्तकद्वयपाठः २ बलकर्णिने चेति ख, ग, घ, ङ, चिह्नितपुस्तकपाठः ३ महोदराये दण्डहस्तायाक्षि इति ङ, चिह्नितपुस्तकपाठः ४ मुख्यास्तिमण्डलमिति ख, ङ, चिह्नितपुस्तकद्वयपाठः :प् २०३ सत्यां च विघ्ननाशा च आसनं गन्धमृत्तिका । यं शोषा रं च दहनं प्लवो लं वं तथामृतम्",
           "transliteration": "1 nirvighnāṃ pāpanāśinīmiti ga, gha, cihnitapustakadvayapāṭhaḥ 2 balakarṇine ceti kha, ga, gha, ṅa, cihnitapustakapāṭhaḥ 3 mahodarāye daṇḍahastāyākṣi iti ṅa, cihnitapustakapāṭhaḥ 4 mukhyāstimaṇḍalamiti kha, ṅa, cihnitapustakadvayapāṭhaḥ :p 203 satyāṃ ca vighnanāśā ca āsanaṃ gandhamṛttikā / yaṃ śoṣā raṃ ca dahanaṃ plavo laṃ vaṃ tathāmṛtam",
-          "hindi": "आइये और लोकसहित यज्ञमण्डपको ऊर्ध्व- दिशाकी रक्षा कीजिये। आपको नमस्कार है।' इस प्रकार आवाहन करके 'हिरण्यगर्भः०'' इत्यादिसे अथवा “नमस्ते ब्रह्मणे’ इस मन्त्रसे"
+          "hindi": "आइये और लोकसहित यज्ञमण्डपको ऊर्ध्व- दिशाकी रक्षा कीजिये। आपको नमस्कार है।' इस प्रकार आवाहन करके 'हिरण्यगर्भः०'' इत्यादिसे अथवा “नमस्ते ब्रह्मणे’ इस मन्त्रसे",
+          "translation": "Satya and Vighnanasha; the seat of scent and clay; \"Yam\" the drier, \"Ram\" the burner, \"Lam\" the flood, \"Vam\" likewise nectar.",
+          "translationSource": "ai"
         },
         {
           "number": 6,
           "sanskrit": "लम्बोदराय विद्महे महोदराय धीमहि तन्नो दन्ती प्रचोदयात् । गणपतिर्गणाधिपो गणेशो गणनायकः । गणक्रीडो वक्रतुण्ड एकदंष्ट्रो महोदरः",
           "transliteration": "lambodarāya vidmahe mahodarāya dhīmahi tanno dantī pracodayāt / gaṇapatirgaṇādhipo gaṇeśo gaṇanāyakaḥ / gaṇakrīḍo vakratuṇḍa ekadaṃṣṭro mahodaraḥ",
-          "hindi": "ब्रह्माजीकी पूजा करे"
+          "hindi": "ब्रह्माजीकी पूजा करे",
+          "translation": "\"We know the pot-bellied; we meditate on the great-bellied; may the tusked one urge us on that.\" Ganapati, Ganadhipa, Ganesha, Gananayaka,",
+          "translationSource": "ai"
         },
         {
           "number": 7,
           "sanskrit": "गजवक्त्रो लम्बुक क्षिर्विकटो विघ्ननाशनः(१) । धूम्रवर्णा महेन्द्राद्याः पूज्या गणपतेः स्मृताः",
           "transliteration": "gajavaktro lambuka kṣirvikaṭo vighnanāśanaḥ(1) / dhūmravarṇā mahendrādyāḥ pūjyā gaṇapateḥ smṛtāḥ",
-          "hindi": "अनन्तका आवाहन--'कच्छपको पीठपर विराजमान, नागगणोंके अधिपति, चक्रधारी अनन्त! आइये और नीचेकी दिशाकी रक्षा कोजिये, रक्षा कीजिये। अनन्तेश्वर! आपको नमस्कार है।' इस"
+          "hindi": "अनन्तका आवाहन--'कच्छपको पीठपर विराजमान, नागगणोंके अधिपति, चक्रधारी अनन्त! आइये और नीचेकी दिशाकी रक्षा कोजिये, रक्षा कीजिये। अनन्तेश्वर! आपको नमस्कार है।' इस",
+          "translation": "Ganakrida, Vakratunda, Ekadamshtra, Mahodara, Gajavaktra, Lambukukshi, Vikata, Vighnanashana. The dark-colored one, Mahendra and the others are remembered as to be worshipped for Ganapati.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -15864,175 +15878,233 @@
           "number": 22,
           "sanskrit": "मन्त्रस्नानं भवेदेवं वारुणाग्नेययोरपि । मनसा मूलमन्त्रेण प्राणायामपुरःसरम्",
           "transliteration": "mantrasnānaṃ bhavedevaṃ vāruṇāgneyayorapi / manasā mūlamantreṇa prāṇāyāmapuraḥsaram",
-          "hindi": "सम्पात-विधिसे कलशोंका प्रोक्षण करे। तदनन्तर  उसे बाँधते समय 'विष्णवे शिपिविष्टाय नमः ।'--"
+          "hindi": "सम्पात-विधिसे कलशोंका प्रोक्षण करे। तदनन्तर  उसे बाँधते समय 'विष्णवे शिपिविष्टाय नमः ।'--",
+          "translation": "Mantra-bathing is thus, of Varuna and Agni too: with the mind, with the root-mantra, preceded by breath-control,",
+          "translationSource": "ai"
         },
         {
           "number": 23,
           "sanskrit": "कुर्वीत मानसं स्नानं सर्वत्र विहितं च यत् । वैष्णवादौ च तन्मन्त्रैर् एवं स्नानादि कारयेत्",
           "transliteration": "kurvīta mānasaṃ snānaṃ sarvatra vihitaṃ ca yat / vaiṣṇavādau ca tanmantrair evaṃ snānādi kārayet",
-          "hindi": "इस मन्त्रका पाठ करे। उस समय आचार्यके हाथमें भी ऊनी सूत, सरसों और रेशमी वस्त्रसे कौतुक बाँध देना चाहिए। मण्डलमें सवस्त्र प्रतिमाकी स्थापना और पूजा करके उसकी स्तुति"
+          "hindi": "इस मन्त्रका पाठ करे। उस समय आचार्यके हाथमें भी ऊनी सूत, सरसों और रेशमी वस्त्रसे कौतुक बाँध देना चाहिए। मण्डलमें सवस्त्र प्रतिमाकी स्थापना और पूजा करके उसकी स्तुति",
+          "translation": "one should do the mental bath, which is prescribed everywhere. In Vaishnava and other rites one should do bathing and the rest with their own mantras.",
+          "translationSource": "ai"
         },
         {
           "number": 24,
           "sanskrit": "सन्ध्याविधिं प्रवक्ष्यामि मन्त्रैर् भिन्नैः समं गुह । संवीक्ष्य त्रिः पिवेदम्बु ब्रह्मतीर्थेन शङ्करैः",
           "transliteration": "sandhyāvidhiṃ pravakṣyāmi mantrair bhinnaiḥ samaṃ guha / saṃvīkṣya triḥ pivedambu brahmatīrthena śaṅkaraiḥ",
-          "hindi": "करते हुए कहे-- विश्वकर्माकी बनायी हुई देवेश्वरि प्रतिमे! तुम्हें नमस्कार है। सम्पूर्ण जगतूको प्रभावित करनेवाली जगदम्ब! तुम्हें मेरा बारंबार प्रणाम है । ईश्वरि! मैं तुममें निरामय नारायणदेवका"
+          "hindi": "करते हुए कहे-- विश्वकर्माकी बनायी हुई देवेश्वरि प्रतिमे! तुम्हें नमस्कार है। सम्पूर्ण जगतूको प्रभावित करनेवाली जगदम्ब! तुम्हें मेरा बारंबार प्रणाम है । ईश्वरि! मैं तुममें निरामय नारायणदेवका",
+          "translation": "I shall tell the rule of twilight prayers with various mantras together, O Guha: having looked, one should drink water thrice at the Brahma-tirtha with the Shankara mantras,",
+          "translationSource": "ai"
         },
         {
           "number": 25,
           "sanskrit": "स्वधान्तैर् आत्मतत्त्वाद्यैस्ततः खानि स्पृशेद्धृदा । शकलीकरणं कृत्वा प्राणायामेन संस्थितः",
           "transliteration": "svadhāntair ātmatattvādyaistataḥ khāni spṛśeddhṛdā / śakalīkaraṇaṃ kṛtvā prāṇāyāmena saṃsthitaḥ",
-          "hindi": "पूजन करता हूँ। तुम शिल्प-सम्बन्धी दोषोंसे"
+          "hindi": "पूजन करता हूँ। तुम शिल्प-सम्बन्धी दोषोंसे",
+          "translation": "with endings of svadha and the principles of the Self and the rest; then one should touch the openings with the heart; having done the dividing, established by breath-control,",
+          "translationSource": "ai"
         },
         {
           "number": 26,
           "sanskrit": "त्रिः समावर्तयेन् मन्त्री मनसा शिवसंहितां । आचम्य न्यस्य सन्ध्याञ्च ब्राह्मीं प्रातः स्मरेन्नरः(३)",
           "transliteration": "triḥ samāvartayen mantrī manasā śivasaṃhitāṃ / ācamya nyasya sandhyāñca brāhmīṃ prātaḥ smarennaraḥ(3)",
-          "hindi": "इस तरह प्रार्थना करके प्रतिमाको स्नान- मण्डपमें ले जाय। शिल्पीको यथेष्ट द्रव्य देकर संतुष्ट करे। गुरुको गोदान दे। “चित्रं देवाना० ' इत्यादि मन्त्रसे प्रतिमाका नेत्रोन्मीलन करे।"
+          "hindi": "इस तरह प्रार्थना करके प्रतिमाको स्नान- मण्डपमें ले जाय। शिल्पीको यथेष्ट द्रव्य देकर संतुष्ट करे। गुरुको गोदान दे। “चित्रं देवाना० ' इत्यादि मन्त्रसे प्रतिमाका नेत्रोन्मीलन करे।",
+          "translation": "the mantra-master should repeat thrice with the mind the Shiva-samhita. Having rinsed and made the placement, in the morning one should recall Brahmi Sandhya,",
+          "translationSource": "ai"
         },
         {
           "number": 27,
           "sanskrit": "हंसपद्मासनां रक्तां चतुर्वक्त्रां चतुर्भुजां । १ गुह्यकाजातसंरवैर् इति ख, चिह्नितपुस्तकपाठः २ तत्खरोत्खातरेणुभिरिति ख, चिह्नितपुस्तकपाठः ३ स्मरेत्तत इति ग, चिह्नितपुस्तकपाठः :प् २०६ प्रस्कन्दमालिनीं दक्षे वामे दण्डकमण्डलुं",
           "transliteration": "haṃsapadmāsanāṃ raktāṃ caturvaktrāṃ caturbhujāṃ / 1 guhyakājātasaṃravair iti kha, cihnitapustakapāṭhaḥ 2 tatkharotkhātareṇubhiriti kha, cihnitapustakapāṭhaḥ 3 smarettata iti ga, cihnitapustakapāṭhaḥ :p 206 praskandamālinīṃ dakṣe vāme daṇḍakamaṇḍaluṃ",
-          "hindi": "' अग्निर्ज्योतिः ०९ ' इत्यादि मन्त्रसे दृष्टिसंचार करे ।"
+          "hindi": "' अग्निर्ज्योतिः ०९ ' इत्यादि मन्त्रसे दृष्टिसंचार करे ।",
+          "translation": "seated on a swan-lotus seat, red, four-faced, four-armed, with a flowing garland on the right, on the left a staff and water-pot.",
+          "translationSource": "ai"
         },
         {
           "number": 28,
           "sanskrit": "तार्क्ष्यपद्मासनां ध्यायेन्मध्याह्ने वैष्णवीं सितां । शङ्खचक्रधरां वामे दक्षिणे सगदाभयं",
           "transliteration": "tārkṣyapadmāsanāṃ dhyāyenmadhyāhne vaiṣṇavīṃ sitāṃ / śaṅkhacakradharāṃ vāme dakṣiṇe sagadābhayaṃ",
-          "hindi": "इसके बाद “मधु वाता०' इत्यादि मन्त्रसे गुरु प्रतिमाके नेत्रॉंमें अञ्जन करे। उस समय"
+          "hindi": "इसके बाद “मधु वाता०' इत्यादि मन्त्रसे गुरु प्रतिमाके नेत्रॉंमें अञ्जन करे। उस समय",
+          "translation": "At midday one should meditate on Vaishnavi, white, on a Garuda-lotus seat, bearing conch and discus on the left and on the right mace and fearlessness.",
+          "translationSource": "ai"
         },
         {
           "number": 29,
           "sanskrit": "रौद्रीं ध्यायेद् वृषाब्जस्थां त्रिनेत्रां शशिभूषितां । त्रिशूलाक्षधरां दक्षे वामे साभयशक्तिकां",
           "transliteration": "raudrīṃ dhyāyed vṛṣābjasthāṃ trinetrāṃ śaśibhūṣitāṃ / triśūlākṣadharāṃ dakṣe vāme sābhayaśaktikāṃ",
-          "hindi": "(यजु० २१। १) इत्यादि मन्त्रोंका कीर्तन करे। तत्पश्चात् पुनः “घृतवती०\"' ऋचाका पाठ करते हुए घृतका अभ्यङ्ग लगावे। इसके बाद मसूरके बेसनसे उबटनका काम लेकर ' अतो देवाः०'"
+          "hindi": "(यजु० २१। १) इत्यादि मन्त्रोंका कीर्तन करे। तत्पश्चात् पुनः “घृतवती०\"' ऋचाका पाठ करते हुए घृतका अभ्यङ्ग लगावे। इसके बाद मसूरके बेसनसे उबटनका काम लेकर ' अतो देवाः०'",
+          "translation": "One should meditate on Raudri seated on a bull-lotus, three-eyed, adorned with a moon, bearing trident and rosary on the right, on the left fearlessness and spear.",
+          "translationSource": "ai"
         },
         {
           "number": 30,
           "sanskrit": "साक्षिणीं कर्मणां सन्ध्यां(१) आत्मानंतत्प्रभानुगं । चतुर्थी ज्ञानिनः सन्ध्या निशीथादौ विभाव्यते",
           "transliteration": "sākṣiṇīṃ karmaṇāṃ sandhyāṃ(1) ātmānaṃtatprabhānugaṃ / caturthī jñāninaḥ sandhyā niśīthādau vibhāvyate",
-          "hindi": "इत्यादि मन्त्रका कीर्तन करे। फिर 'सप्त ते अग्ने०' इत्यादि मन्त्र बोलकर गुरु गर्म जलसे प्रतिमाका प्रक्षालन करे । तदनन्तर 'द्रुषदादिव०“' इत्यादि मन्त्रसे अनुलेपन और ' आपो हि छ्ठा०'"
+          "hindi": "इत्यादि मन्त्रका कीर्तन करे। फिर 'सप्त ते अग्ने०' इत्यादि मन्त्र बोलकर गुरु गर्म जलसे प्रतिमाका प्रक्षालन करे । तदनन्तर 'द्रुषदादिव०“' इत्यादि मन्त्रसे अनुलेपन और ' आपो हि छ्ठा०'",
+          "translation": "Sandhya is the witness of actions, following the Self's radiance; the fourth twilight of the knowers is contemplated at midnight and the rest.",
+          "translationSource": "ai"
         },
         {
           "number": 31,
           "sanskrit": "हृद्बिन्दुब्रह्मरन्ध्रेषु अरूपा तु परे स्थिता । शिवबोधपरा या तु सा सन्ध्या मरमोच्यते",
           "transliteration": "hṛdbindubrahmarandhreṣu arūpā tu pare sthitā / śivabodhaparā yā tu sā sandhyā maramocyate",
-          "hindi": "इत्यादिसे अभिषेक करे। अभिषेकके पश्चात् नदी एवं तीर्थके जलसे स्नान कराकर “पावमानी ' ऋचा (शु० यजु० ३९-४३)-का पाठ करते हुए, रत्न- स्पर्शसे युक्त जलद्वारा स्नान करावे। समुद्रं ° गच्छ"
+          "hindi": "इत्यादिसे अभिषेक करे। अभिषेकके पश्चात् नदी एवं तीर्थके जलसे स्नान कराकर “पावमानी ' ऋचा (शु० यजु० ३९-४३)-का पाठ करते हुए, रत्न- स्पर्शसे युक्त जलद्वारा स्नान करावे। समुद्रं ° गच्छ",
+          "translation": "In heart, bindu and Brahma-aperture, the formless one stands beyond; that which is devoted to the knowledge of Shiva is called the highest Sandhya.",
+          "translationSource": "ai"
         },
         {
           "number": 32,
           "sanskrit": "पैत्र्यं मूले प्रदेशिन्याः कनिष्ठायाः प्रजापतेः । ब्राह्म्यमङ्गुष्ठमूलस्थं तीर्थं दैवं कराग्रतः",
           "transliteration": "paitryaṃ mūle pradeśinyāḥ kaniṣṭhāyāḥ prajāpateḥ / brāhmyamaṅguṣṭhamūlasthaṃ tīrthaṃ daivaṃ karāgrataḥ",
-          "hindi": "स्वाहा०' इत्यादि मन्त्र पढ़कर तीर्थको मृत्तिका"
+          "hindi": "स्वाहा०' इत्यादि मन्त्र पढ़कर तीर्थको मृत्तिका",
+          "translation": "The ancestral tirtha is at the root of the forefinger, Prajapati's at the little finger; the Brahma tirtha at the base of the thumb; the divine at the tips of the hand;",
+          "translationSource": "ai"
         },
         {
           "number": 33,
           "sanskrit": "सव्यपाणितले वह्नेस्तीर्थं सोमस्य वामतः । ऋषीणां तु समग्रेषु अङ्गुलीपर्वसन्धिषु",
           "transliteration": "savyapāṇitale vahnestīrthaṃ somasya vāmataḥ / ṛṣīṇāṃ tu samagreṣu aṅgulīparvasandhiṣu",
-          "hindi": "फिर भद्रपीठपर प्रतिमाको स्थापित करे । तत्पश्चात्  और कलशके जलसे स्नान करावे। 'शं नो\""
+          "hindi": "फिर भद्रपीठपर प्रतिमाको स्थापित करे । तत्पश्चात्  और कलशके जलसे स्नान करावे। 'शं नो\"",
+          "translation": "on the palm of the right hand fire's tirtha; Soma's on the left; and of the sages in all the finger-joints.",
+          "translationSource": "ai"
         },
         {
           "number": 34,
           "sanskrit": "ततः शिवात्मकैर् मन्त्रैः कृत्वा तीर्थं शिवात्मकं । मार्जनं संहितामन्त्रैस्तत्तोयेन समाचरेत्",
           "transliteration": "tataḥ śivātmakair mantraiḥ kṛtvā tīrthaṃ śivātmakaṃ / mārjanaṃ saṃhitāmantraistattoyena samācaret",
-          "hindi": "कुशाग्र इष्टदेवके सिरपर चढ़ावे॥ ६--८॥"
+          "hindi": "कुशाग्र इष्टदेवके सिरपर चढ़ावे॥ ६--८॥",
+          "translation": "Then having made the tirtha Shiva-natured with Shiva mantras, one should perform the sprinkling with the Samhita mantras with that water.",
+          "translationSource": "ai"
         },
         {
           "number": 35,
           "sanskrit": "वामपाणिपतत्तोययोजनं सव्यपाणिना । उत्तमाङ्गे क्रमान्मन्त्रैर् मार्जनं समुदाहृतं",
           "transliteration": "vāmapāṇipatattoyayojanaṃ savyapāṇinā / uttamāṅge kramānmantrair mārjanaṃ samudāhṛtaṃ",
-          "hindi": "१. चित्रं देवानामुदगादनीकं चक्षुर्मित्रस्य"
+          "hindi": "१. चित्रं देवानामुदगादनीकं चक्षुर्मित्रस्य",
+          "translation": "Joining water falling in the left hand with the right hand, the sprinkling on the head with mantras in order is declared.",
+          "translationSource": "ai"
         },
         {
           "number": 36,
           "sanskrit": "नीत्वा तदुपनासाग्रं दक्षपाणिपुटस्थितं । बोधरूपं सितं तोयं वाममाकृष्य स्तम्भयेत्(२)",
           "transliteration": "nītvā tadupanāsāgraṃ dakṣapāṇipuṭasthitaṃ / bodharūpaṃ sitaṃ toyaṃ vāmamākṛṣya stambhayet(2)",
-          "hindi": "देवीः०' इत्यादि तथा गायत्री-मन्त्रसे गरम जलके द्वारा इष्टदेवकी प्रतिमाको नहलावे"
+          "hindi": "देवीः०' इत्यादि तथा गायत्री-मन्त्रसे गरम जलके द्वारा इष्टदेवकी प्रतिमाको नहलावे",
+          "translation": "Having brought to the tip of the nose the white water of the nature of knowledge held in the cupped right hand, drawing it to the left one should hold it.",
+          "translationSource": "ai"
         },
         {
           "number": 37,
           "sanskrit": "तत्पापं कज्जलाभासम्पिङ्गयारिच्य मुष्टिना । क्षिपेद्वज्रशिलायान्तु तद्भवेदघमर्षणं",
           "transliteration": "tatpāpaṃ kajjalābhāsampiṅgayāricya muṣṭinā / kṣipedvajraśilāyāntu tadbhavedaghamarṣaṇaṃ",
-          "hindi": ". (यजु० १३।४) यह मन्त्र अध्याय ५६ की टिप्पणीमें दिया जा चुका है।"
+          "hindi": ". (यजु० १३।४) यह मन्त्र अध्याय ५६ की टिप्पणीमें दिया जा चुका है।",
+          "translation": "One should hurl that sin, looking like collyrium, with the fist onto a thunderbolt rock after exhaling through Pingala; that is Aghamarshana.",
+          "translationSource": "ai"
         },
         {
           "number": 38,
           "sanskrit": "स्वाहान्तशिवमन्त्रेण कुशपुष्पाक्षतान्वितं । शिवायार्घ्याञ्जलिन्दत्वा गायत्रीं शक्तितो जपेत्",
           "transliteration": "svāhāntaśivamantreṇa kuśapuṣpākṣatānvitaṃ / śivāyārghyāñjalindatvā gāyatrīṃ śaktito japet",
-          "hindi": ". घृतवती भुवनानामभिश्रियोवी पृथ्वी मधुदुघे सुपेशसा । द्यावा पृथिवी वरुणस्य धर्मणा विष्कमिते अजरे भूरिरेतसा ॥ (यजु० ३४। ४५) . अतो देवा अवन्तु नो यतो विष्णुर्विचक्रमे पृथिव्याः सप्तधामभिः ॥ (ऋ० म० १, सू० २२। १६)"
+          "hindi": ". घृतवती भुवनानामभिश्रियोवी पृथ्वी मधुदुघे सुपेशसा । द्यावा पृथिवी वरुणस्य धर्मणा विष्कमिते अजरे भूरिरेतसा ॥ (यजु० ३४। ४५) . अतो देवा अवन्तु नो यतो विष्णुर्विचक्रमे पृथिव्याः सप्तधामभिः ॥ (ऋ० म० १, सू० २२। १६)",
+          "translation": "With the Shiva mantra ending in svaha, with kusha, flowers and rice, having given an arghya-handful to Shiva, one should repeat the Gayatri according to capacity.",
+          "translationSource": "ai"
         },
         {
           "number": 39,
           "sanskrit": "१ दाक्षिण्यः कर्मणां सन्ध्या इति ख, चिह्नितपुस्तकपाठः २ कुम्भयेदिति ख, ङ, चिह्नितपुस्तकपाठः :प् २०७ तर्पणं सम्प्रवक्ष्यामि देवतीर्थेन मन्त्रकात् । तर्पयेद्धौं शिवायेति स्वाहान्यान् स्वाहया युतान्",
           "transliteration": "1 dākṣiṇyaḥ karmaṇāṃ sandhyā iti kha, cihnitapustakapāṭhaḥ 2 kumbhayediti kha, ṅa, cihnitapustakapāṭhaḥ :p 207 tarpaṇaṃ sampravakṣyāmi devatīrthena mantrakāt / tarpayeddhauṃ śivāyeti svāhānyān svāhayā yutān",
-          "hindi": "९. आपो हिष्ठा मयोभुवस्ता न ऊर्जे दधातन। महे रणाय चक्षसे ॥ यो वः शिवतमो रसस्तस्य भाजयतेह न:  उशतीरिव मातर: ॥ तस्मा"
+          "hindi": "९. आपो हिष्ठा मयोभुवस्ता न ऊर्जे दधातन। महे रणाय चक्षसे ॥ यो वः शिवतमो रसस्तस्य भाजयतेह न:  उशतीरिव मातर: ॥ तस्मा",
+          "translation": "I shall tell the libation at the divine tirtha with mantras: one should satisfy with \"Haum, to Shiva,\" others with svaha.",
+          "translationSource": "ai"
         },
         {
           "number": 40,
           "sanskrit": "ह्रां हृद्याय ह्रीं शिरसे ह्रूं शिखायै ह्रैं कवचाय । अस्त्रायाष्टौ देवगणान् हृदादित्येभ्य एव च",
           "transliteration": "hrāṃ hṛdyāya hrīṃ śirase hrūṃ śikhāyai hraiṃ kavacāya / astrāyāṣṭau devagaṇān hṛdādityebhya eva ca",
-          "hindi": "समुद्रं गच्छ स्वाहान्तरिक्षं गच्छ स्वाहा देवर सवितारं गच्छ स्वाहा मित्रावरुणौ गच्छ स्वाहाहोरात्रे गच्छ स्वाहा छन्दाईसि गच्छ स्वाहा"
+          "hindi": "समुद्रं गच्छ स्वाहान्तरिक्षं गच्छ स्वाहा देवर सवितारं गच्छ स्वाहा मित्रावरुणौ गच्छ स्वाहाहोरात्रे गच्छ स्वाहा छन्दाईसि गच्छ स्वाहा",
+          "translation": "\"Ham, to the heart; Hrim, to the head; Hrum, to the crest; Hraim, to the armor; to the missile\" — the eight divine groups, and the Adityas of the heart,",
+          "translationSource": "ai"
         },
         {
           "number": 41,
           "sanskrit": "हां वसुभ्यो ऽथ रुद्रेभ्यो विश्वेभ्यश् चैव मरुद्भ्यः । भृगुभ्यो हामङ्गिरोभ्य ऋषीन् कण्ठोपवीत्यथ",
           "transliteration": "hāṃ vasubhyo 'tha rudrebhyo viśvebhyaś caiva marudbhyaḥ / bhṛgubhyo hāmaṅgirobhya ṛṣīn kaṇṭhopavītyatha",
-          "hindi": "द्यावापृथिवी गच्छ स्वाहा यज्ञं गच्छ स्वाहा सोमं गच्छ स्वाहा दिव्यं नभो गच्छ स्वाहागिनं वैश्वानरं गच्छ स्वाहा । मनो मे हार्दि यच्छ"
+          "hindi": "द्यावापृथिवी गच्छ स्वाहा यज्ञं गच्छ स्वाहा सोमं गच्छ स्वाहा दिव्यं नभो गच्छ स्वाहागिनं वैश्वानरं गच्छ स्वाहा । मनो मे हार्दि यच्छ",
+          "translation": "\"Ham to the Vasus, then Rudras, Vishvedevas and Maruts, Bhrigus, Ham to the Angirases\"; then the sages with the sacred thread about the neck.",
+          "translationSource": "ai"
         },
         {
           "number": 42,
           "sanskrit": "अत्रेये ऽथ वसिष्ठाय नमश्चाथ पुलस्तये(१) । कृतवे भारद्वजाय विश्वामित्राय वै नमः",
           "transliteration": "atreye 'tha vasiṣṭhāya namaścātha pulastaye(1) / kṛtave bhāradvajāya viśvāmitrāya vai namaḥ",
-          "hindi": "११. शं नो देवीरभीष्टय आपो भवन्तु पीतये शं योरभि स्रवन्तु नः ।"
+          "hindi": "११. शं नो देवीरभीष्टय आपो भवन्तु पीतये शं योरभि स्रवन्तु नः ।",
+          "translation": "To Atri, then to Vasishtha, homage, then to Pulastya, to Kratu, to Bharadvaja, homage to Vishvamitra;",
+          "translationSource": "ai"
         },
         {
           "number": 43,
           "sanskrit": "प्रचेतसे मनुष्यांश् च सनकाय वषट् तथा । हां सनन्दाय वषट् सनातनाय वै वषट्",
           "transliteration": "pracetase manuṣyāṃś ca sanakāya vaṣaṭ tathā / hāṃ sanandāya vaṣaṭ sanātanāya vai vaṣaṭ",
-          "hindi": "“हिरण्यगर्भः० ' इत्यादि मन्त्रसे पाँच प्रकारकी मृत्तिकाओंद्वारा परमेश्वरको स्नान करावे। इसके बाद 'इमं मे गड्ढे यमुने०' इत्यादि मन्त्रसे बालुकामिश्रित जलके द्वारा तथा 'तद्' विष्णोः०'"
+          "hindi": "“हिरण्यगर्भः० ' इत्यादि मन्त्रसे पाँच प्रकारकी मृत्तिकाओंद्वारा परमेश्वरको स्नान करावे। इसके बाद 'इमं मे गड्ढे यमुने०' इत्यादि मन्त्रसे बालुकामिश्रित जलके द्वारा तथा 'तद्' विष्णोः०'",
+          "translation": "to Prachetas, to men; to Sanaka, vashat; \"Ham to Sananda, vashat,\" to Sanatana, vashat;",
+          "translationSource": "ai"
         },
         {
           "number": 44,
           "sanskrit": "सनत्कुमाराय वषट् कपिलाय तथा वषट् । पञ्चशिखाय द्युभवे संलग्नकरमूलतः",
           "transliteration": "sanatkumārāya vaṣaṭ kapilāya tathā vaṣaṭ / pañcaśikhāya dyubhave saṃlagnakaramūlataḥ",
-          "hindi": "इत्यादि मन्त्रसे बाँबीकी मिट्टी मिले हुए जलसे पूर्ण घटके द्वारा भगवानूको स्नान करावे। “या ओषधीः०'' इत्यादि मन्त्रसे ओषधिमिश्रित जलके द्वारा, “यज्ञा! यज्ञा०' इत्यादि मन्त्रसे"
+          "hindi": "इत्यादि मन्त्रसे बाँबीकी मिट्टी मिले हुए जलसे पूर्ण घटके द्वारा भगवानूको स्नान करावे। “या ओषधीः०'' इत्यादि मन्त्रसे ओषधिमिश्रित जलके द्वारा, “यज्ञा! यज्ञा०' इत्यादि मन्त्रसे",
+          "translation": "to Sanatkumara, vashat; to Kapila, vashat; to Panchashikha, to Dyubhu, with joined palm-base;",
+          "translationSource": "ai"
         },
         {
           "number": 45,
           "sanskrit": "सर्वेभ्यो भूतेभ्यो वौषट् भूतान् देवपितॄनथ । दक्षस्कन्धोपवीती च कुशमूलाग्रतस्तिलैः",
           "transliteration": "sarvebhyo bhūtebhyo vauṣaṭ bhūtān devapitṝnatha / dakṣaskandhopavītī ca kuśamūlāgratastilaiḥ",
-          "hindi": "आँवले आदि कसैले पदार्थासे मिश्रित जलके द्वारा, पयः“ पृथिव्याम्०' इत्यादि मन्त्रसे"
+          "hindi": "आँवले आदि कसैले पदार्थासे मिश्रित जलके द्वारा, पयः“ पृथिव्याम्०' इत्यादि मन्त्रसे",
+          "translation": "to all beings, vaushat; the beings, gods and fathers; with the thread on the right shoulder, with sesame at the root and tip of kusha;",
+          "translationSource": "ai"
         },
         {
           "number": 46,
           "sanskrit": "कव्यबालानलायाथ सोमाय च यमाय च । अर्यम्णे चाग्निसोमाय वर्हिषद्भ्यः स्वधायुतान्",
           "transliteration": "kavyabālānalāyātha somāya ca yamāya ca / aryamṇe cāgnisomāya varhiṣadbhyaḥ svadhāyutān",
-          "hindi": "“विश्वतश्चक्षुः ० ' इत्यादि मन्त्रसे उत्तरवती कलशद्वारा, “सोम” राजानम्० ' इस मन्त्रसे पूर्ववर्ती कलशद्वारा, “विष्णो“ रराटमसि०' इत्यादि मन्त्रसे दक्षिणवर्ती"
+          "hindi": "“विश्वतश्चक्षुः ० ' इत्यादि मन्त्रसे उत्तरवती कलशद्वारा, “सोम” राजानम्० ' इस मन्त्रसे पूर्ववर्ती कलशद्वारा, “विष्णो“ रराटमसि०' इत्यादि मन्त्रसे दक्षिणवर्ती",
+          "translation": "to Kavyavala-Anala, to Soma, to Yama, to Aryaman, to Agnisoma, to the Barhishads, with svadha;",
+          "translationSource": "ai"
         },
         {
           "number": 47,
           "sanskrit": "आज्यपाय च सोमाय विशेषसुरवत् पितॄन् । ॐ हां ईशानाय पित्रे स्वधा दद्यात् पितामहे(२)",
           "transliteration": "ājyapāya ca somāya viśeṣasuravat pitṝn / oṃ hāṃ īśānāya pitre svadhā dadyāt pitāmahe(2)",
-          "hindi": "स्नान करावे॥ १४--१७॥"
+          "hindi": "स्नान करावे॥ १४--१७॥",
+          "translation": "to Ajyapa, to Soma, and especially the fathers like the gods. \"Om Ham, to Ishana\": svadha to the father, to the grandfather;",
+          "translationSource": "ai"
         },
         {
           "number": 48,
           "sanskrit": "शान्तप्रपितामहाय तथाप्रेतपितॄंस् तथा । पितृभ्यः पितामहेभ्यः स्वधाथ प्रपितामहे",
           "transliteration": "śāntaprapitāmahāya tathāpretapitṝṃs tathā / pitṛbhyaḥ pitāmahebhyaḥ svadhātha prapitāmahe",
-          "hindi": "“मूर्द्धानं ° दिवो०' इत्यादि मन्त्रसे आँवले"
+          "hindi": "“मूर्द्धानं ° दिवो०' इत्यादि मन्त्रसे आँवले",
+          "translation": "to the peaceful great-grandfather, and likewise the dead fathers; to the fathers, to the grandfathers, svadha, then to the great-grandfather;",
+          "translationSource": "ai"
         },
         {
           "number": 49,
           "sanskrit": "वृद्धप्रपितामहेभ्यो मातृभ्यश् च स्वधा तथा । हां मातामहेभ्यः स्वधा हां प्रमातामहेभ्यश् च",
           "transliteration": "vṛddhaprapitāmahebhyo mātṛbhyaś ca svadhā tathā / hāṃ mātāmahebhyaḥ svadhā hāṃ pramātāmahebhyaś ca",
-          "hindi": "मिले हुए जलके द्वारा, “मा नस्तोके०९' इत्यादि"
+          "hindi": "मिले हुए जलके द्वारा, “मा नस्तोके०९' इत्यादि",
+          "translation": "to the elder great-grandfathers and to the mothers svadha; \"Ham, to the maternal grandfathers; Ham, to the maternal great-grandfathers\";",
+          "translationSource": "ai"
         },
         {
           "number": 50,
           "sanskrit": "वृद्धप्रमातामहेभ्यः सर्वेभ्यः पितृभ्यस् तथा । १ मरीचये पुलस्त्यायेति ङ, चिह्नितपुस्तकपाठः २ हां ईशानाय पित्रे च सदाज्याय पितामहायेति ख, चिह्नितपुस्तकपाठः :प् २०८ सर्भेभ्यः स्वधा ज्ञातिभ्यः सर्वाचार्येभ्य एव च । दिशां दिक्पतिसिद्धानां मातॄणां ग्रहरक्षसां",
           "transliteration": "vṛddhapramātāmahebhyaḥ sarvebhyaḥ pitṛbhyas tathā / 1 marīcaye pulastyāyeti ṅa, cihnitapustakapāṭhaḥ 2 hāṃ īśānāya pitre ca sadājyāya pitāmahāyeti kha, cihnitapustakapāṭhaḥ :p 208 sarbhebhyaḥ svadhā jñātibhyaḥ sarvācāryebhya eva ca / diśāṃ dikpatisiddhānāṃ mātṝṇāṃ graharakṣasāṃ",
-          "hindi": "इत्यादि मन्त्रसे गन्धमिश्रित जलके द्वारा तथा 'इदमापः०'१' इत्यादि मन्त्रसे इक्यासी पदोंवाले वास्तुमण्डलमें रखे गये कलशोंद्वारा भगवान्को नहलावे। इस प्रकार स्नानके पश्चात् भगवान्को"
+          "hindi": "इत्यादि मन्त्रसे गन्धमिश्रित जलके द्वारा तथा 'इदमापः०'१' इत्यादि मन्त्रसे इक्यासी पदोंवाले वास्तुमण्डलमें रखे गये कलशोंद्वारा भगवान्को नहलावे। इस प्रकार स्नानके पश्चात् भगवान्को",
+          "translation": "to the elder maternal great-grandfathers, likewise to all fathers; svadha to all; to kin and to all teachers; to the quarters, guardians of the quarters, the perfected, the mothers, seizers and demons.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -16115,49 +16187,65 @@
           "number": 10,
           "sanskrit": "पद्ममुद्रां बिल्वमुद्रां प्रदर्श्याग्नौ हृदीरितं । ॐ आं हृदयाय नमः अर्काय शिरसे तथा",
           "transliteration": "padmamudrāṃ bilvamudrāṃ pradarśyāgnau hṛdīritaṃ / oṃ āṃ hṛdayāya namaḥ arkāya śirase tathā",
-          "hindi": ". हिरण्मयेन पात्रेण सत्यस्यापिहितं मुखम्। योऽसावादित्ये पुरुषः सोऽसावहम्। (यजु० ४०। १७) . मयि गृह्णाम्यग्रे अग्निः रायस्पोषाय सुप्रजास्त्वाय सुवीर्याय । मामु देवताः सचन्ताम् ॥ (यजु० १३। १)"
+          "hindi": ". हिरण्मयेन पात्रेण सत्यस्यापिहितं मुखम्। योऽसावादित्ये पुरुषः सोऽसावहम्। (यजु० ४०। १७) . मयि गृह्णाम्यग्रे अग्निः रायस्पोषाय सुप्रजास्त्वाय सुवीर्याय । मामु देवताः सचन्ताम् ॥ (यजु० १३। १)",
+          "translation": "Having shown the lotus mudra and bilva mudra, the fire-sacrifice is said by the heart: \"Om Am, to the heart, homage; to the Sun, to the head\" likewise;",
+          "translationSource": "ai"
         },
         {
           "number": 11,
           "sanskrit": "भूर्भुवः स्वः सुरेशाय शिखायै(२) नैरृते यजेत् । हुं कवचाय(३) वायव्ये हां नेत्रायेति(४) मध्यतः",
           "transliteration": "bhūrbhuvaḥ svaḥ sureśāya śikhāyai(2) nairṛte yajet / huṃ kavacāya(3) vāyavye hāṃ netrāyeti(4) madhyataḥ",
-          "hindi": "इत्यादि मन्त्र पढ़कर भगवानूके श्रीअज्लोंपर दूर्वा"
+          "hindi": "इत्यादि मन्त्र पढ़कर भगवानूके श्रीअज्लोंपर दूर्वा",
+          "translation": "\"Bhur Bhuvah Svah, to the lord of gods,\" one should worship to the crest in the southwest; \"Hum, to the armor\" in the northwest; \"Ham, to the eye\" in the middle;",
+          "translationSource": "ai"
         },
         {
           "number": 12,
           "sanskrit": "वः अस्त्रायेति पूर्वादौ ततो मुद्राः प्रदर्शयेत् । धेनुमुद्रा हृदादीनां गोविषाणा च नेत्रयोः",
           "transliteration": "vaḥ astrāyeti pūrvādau tato mudrāḥ pradarśayet / dhenumudrā hṛdādīnāṃ goviṣāṇā ca netrayoḥ",
-          "hindi": "“काण्डात्०' ' इत्यादि मन्त्रसे निर्मञ्छन करे। 'गन्धवती०'' इत्यादिसे गन्ध अर्पित करे। 'उन्नयामि०' इस मन्त्रसे फूल-माला और “इदं विष्णुः०' इत्यादि मन्त्रसे पवित्रक अर्पित करे।"
+          "hindi": "“काण्डात्०' ' इत्यादि मन्त्रसे निर्मञ्छन करे। 'गन्धवती०'' इत्यादिसे गन्ध अर्पित करे। 'उन्नयामि०' इस मन्त्रसे फूल-माला और “इदं विष्णुः०' इत्यादि मन्त्रसे पवित्रक अर्पित करे।",
+          "translation": "\"Vah, to the missile\" in the east and so on; then one should show the mudras. The cow-mudra for the heart and the rest, the cow-horn for the eyes,",
+          "translationSource": "ai"
         },
         {
           "number": 13,
           "sanskrit": "अस्त्रस्य त्रासनी योज्या ग्रहणां च नमस्क्रिया । स्ॐ सोमं बुं बुधं वृञ्च जीवं भं भार्गवं यजेत्",
           "transliteration": "astrasya trāsanī yojyā grahaṇāṃ ca namaskriyā / soṃ somaṃ buṃ budhaṃ vṛñca jīvaṃ bhaṃ bhārgavaṃ yajet",
-          "hindi": "“बृहस्पते०\"' इत्यादि मन्त्रसे एक जोड़ा वस्त्र चढ़ावे । 'बेदाहमेतम्० ' इत्यादिसे उत्तरीय अर्पित करे। “महाव्रतेन० ' इस मन्त्रसे फूल और औषध-- इन सबको चढ़ावे। तदनन्तर 'धूरसि०' इस"
+          "hindi": "“बृहस्पते०\"' इत्यादि मन्त्रसे एक जोड़ा वस्त्र चढ़ावे । 'बेदाहमेतम्० ' इत्यादिसे उत्तरीय अर्पित करे। “महाव्रतेन० ' इस मन्त्रसे फूल और औषध-- इन सबको चढ़ावे। तदनन्तर 'धूरसि०' इस",
+          "translation": "the frightening one for the missile; and salutation to the planets. \"Som\" Soma; \"Bum\" Budha; \"Brim\" Jiva; \"Bham\" Bhargava one should worship;",
+          "translationSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "दले पूर्वादिके ऽग्न्यादौ अं भौमं शं शनैश् चरं । रं राहुं कें केतवे च गन्धाद्यैश् च खखोल्कया",
           "transliteration": "dale pūrvādike 'gnyādau aṃ bhaumaṃ śaṃ śanaiś caraṃ / raṃ rāhuṃ keṃ ketave ca gandhādyaiś ca khakholkayā",
-          "hindi": "करे । ' युञ्जन्ति०“' इत्यादि मन्त्रसे तिलक लगावे तथा 'दीर्घात्वाय० ' (अथर्व० २।४। १) इस मन्त्रसे"
+          "hindi": "करे । ' युञ्जन्ति०“' इत्यादि मन्त्रसे तिलक लगावे तथा 'दीर्घात्वाय० ' (अथर्व० २।४। १) इस मन्त्रसे",
+          "translation": "on the petals in the east and the fire direction and others: \"Am\" Bhauma; \"Sham\" Shanaishchara; \"Ram\" Rahu; \"Kem\" Ketu, with scent and the rest and with space and torch.",
+          "translationSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "मूलं जप्त्वार्घ्यपात्राम्बु दत्वा सूर्याय संस्तुतिः । नत्वा पराङ्मुखञ्चार्कं(५) क्षमस्वेति ततो वदेत्",
           "transliteration": "mūlaṃ japtvārghyapātrāmbu datvā sūryāya saṃstutiḥ / natvā parāṅmukhañcārkaṃ(5) kṣamasveti tato vadet",
-          "hindi": "७।४।२) इत्यादि मन्त्रसे छत्र, 'विराट्० ' मन्त्रसे दर्पण, 'विकर्ण०' मन्त्रसे चँवर तथा 'रथन्तर०' साम-मन्त्रसे आभूषण निवेदित करे"
+          "hindi": "७।४।२) इत्यादि मन्त्रसे छत्र, 'विराट्० ' मन्त्रसे दर्पण, 'विकर्ण०' मन्त्रसे चँवर तथा 'रथन्तर०' साम-मन्त्रसे आभूषण निवेदित करे",
+          "translation": "Having repeated the root-mantra and given the arghya-vessel water, a praise to the Sun; having bowed, to the Sun facing away one should say \"Forgive.\"",
+          "translationSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "शराणुना फडन्तेन समाहत्याणुसंहृतिं(६) । १ ह्रीं ह्रं ह्रैं स इति घ, चिह्नितपुस्तकपाठः २ सुरेशाय ज्वालिनिशिखायै इति ख, चिह्नितपुस्तकपाठः ३ क्रूं कवचाय इति ख, ङ, चिह्नितपुस्तकद्वयपाठः ४ ह्रीं नेत्रायेतीति ख, चिह्नितपुस्तकपाठः । भां नेत्रायेति ग, चिह्नितपुस्तकपाठः ५ पराङ्मुखञ्चार्घ्यमिति ख, ग, चिह्नितपुस्तकपाठः ६ शवानुना फडन्तेन समाहृत्यानुसंहतिमिति ख, चिह्नितपुस्तकद्वयपाठः । शवाणुना फडन्तेन समहत्यार्थं संहतिमिति ग, चिह्नितपुस्तकपाठः :प् २१० हृत्पद्मे शिवसूर्येतिसंहारिण्योपसंस्कृतिं(१)",
           "transliteration": "śarāṇunā phaḍantena samāhatyāṇusaṃhṛtiṃ(6) / 1 hrīṃ hraṃ hraiṃ sa iti gha, cihnitapustakapāṭhaḥ 2 sureśāya jvāliniśikhāyai iti kha, cihnitapustakapāṭhaḥ 3 krūṃ kavacāya iti kha, ṅa, cihnitapustakadvayapāṭhaḥ 4 hrīṃ netrāyetīti kha, cihnitapustakapāṭhaḥ / bhāṃ netrāyeti ga, cihnitapustakapāṭhaḥ 5 parāṅmukhañcārghyamiti kha, ga, cihnitapustakapāṭhaḥ 6 śavānunā phaḍantena samāhṛtyānusaṃhatimiti kha, cihnitapustakadvayapāṭhaḥ / śavāṇunā phaḍantena samahatyārthaṃ saṃhatimiti ga, cihnitapustakapāṭhaḥ :p 210 hṛtpadme śivasūryetisaṃhāriṇyopasaṃskṛtiṃ(1)",
-          "hindi": "वायुदेवता-सम्बन्धी मन्त्रोद्वारा व्यजन, ' मुञ्चामि त्वा०' (ऋक् १०।१६१।१) इस मन्त्रसे फूल तथा वेदादि (प्रणव)-युक्त पुरुषसूक्तके मन्त्रोंद्वारा श्रीहरिकी स्तुति करे। ये सारी वस्तुएँ पिण्डिका"
+          "hindi": "वायुदेवता-सम्बन्धी मन्त्रोद्वारा व्यजन, ' मुञ्चामि त्वा०' (ऋक् १०।१६१।१) इस मन्त्रसे फूल तथा वेदादि (प्रणव)-युक्त पुरुषसूक्तके मन्त्रोंद्वारा श्रीहरिकी स्तुति करे। ये सारी वस्तुएँ पिण्डिका",
+          "translation": "Having struck with the atom of the arrow ending in \"phat,\" withdrawing the atom, in the lotus of the heart, with the Shiva-Surya withdrawer, the purification,",
+          "translationSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "योजयेत्तेजश् चण्डाय रविनिर्माल्यमर्पयेत् । अभ्यर्च्यैशे(२) जपाद्ध्यानाद्धोमात्सर्वं रवेर्भवेत्",
           "transliteration": "yojayettejaś caṇḍāya ravinirmālyamarpayet / abhyarcyaiśe(2) japāddhyānāddhomātsarvaṃ raverbhavet",
-          "hindi": "आदिपर तथा शिव आदि देवताओंपर इसी प्रकार चढ़ावे। भगवानको उठाते समय 'सौपर्ण'"
+          "hindi": "आदिपर तथा शिव आदि देवताओंपर इसी प्रकार चढ़ावे। भगवानको उठाते समय 'सौपर्ण'",
+          "translation": "one should unite the radiance to Chanda; one should offer the Sun's leftovers. Having worshipped in Ishana, by repetition, meditation and oblation everything belongs to the Sun.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -16504,187 +16592,249 @@
           "number": 43,
           "sanskrit": "आतमद्रव्यमन्त्रलिङ्गशुद्धौ सर्वान् सुरान्यजेत् । वायव्ये गणपतये हां गुरुभ्यो ऽर्चयेच्छिवे",
           "transliteration": "ātamadravyamantraliṅgaśuddhau sarvān surānyajet / vāyavye gaṇapataye hāṃ gurubhyo 'rcayecchive",
-          "hindi": "पिण्डली और दो चरणोंमें क्रमशः उक्त मूल-"
+          "hindi": "पिण्डली और दो चरणोंमें क्रमशः उक्त मूल-",
+          "translation": "In the purification of the Self, the materials, the mantra and the linga, one should worship all gods: in the northwest Ganapati; \"Ham\" to the teachers in Shiva.",
+          "translationSource": "ai"
         },
         {
           "number": 44,
           "sanskrit": "१ चिन्तयेत् सपरिग्रहमिति ङ, चिह्नितपुस्तकपाठः २ रोचयेद्धेनुमुद्रयेति ख, चिह्नितपुस्तकपाठः :प् २१५ आधारशक्तिमङ्कुरनिभां कूर्मशिलास्थितां । यजेद् ब्रह्मशिलारूढं शिवस्यानन्तमासनं",
           "transliteration": "1 cintayet saparigrahamiti ṅa, cihnitapustakapāṭhaḥ 2 rocayeddhenumudrayeti kha, cihnitapustakapāṭhaḥ :p 215 ādhāraśaktimaṅkuranibhāṃ kūrmaśilāsthitāṃ / yajed brahmaśilārūḍhaṃ śivasyānantamāsanaṃ",
-          "hindi": "तत्पश्चात् केशवका मस्तकमें न्यास करे। नारायणका मुखमें, माधवका ग्रीवामें और गोविन्दका दोनों भुजाओंमें न्यास करके विष्णुका हृदयमें न्यास करे। पृष्ठभागमें मधुसूदनका, जठरमें वामनका"
+          "hindi": "तत्पश्चात् केशवका मस्तकमें न्यास करे। नारायणका मुखमें, माधवका ग्रीवामें और गोविन्दका दोनों भुजाओंमें न्यास करके विष्णुका हृदयमें न्यास करे। पृष्ठभागमें मधुसूदनका, जठरमें वामनका",
+          "translation": "One should worship the support-power like a sprout, stationed on the tortoise stone; Shiva's endless seat mounted on the Brahma stone.",
+          "translationSource": "ai"
         },
         {
           "number": 45,
           "sanskrit": "विचित्रकेशप्रख्यानमन्योन्यं पृष्टदर्शिनः । कृतत्रेतादिरूपेण शिवस्यासनपादुकां",
           "transliteration": "vicitrakeśaprakhyānamanyonyaṃ pṛṣṭadarśinaḥ / kṛtatretādirūpeṇa śivasyāsanapādukāṃ",
-          "hindi": "और कठटिमें त्रिविक्रमका न्यास करके जंघा (पिण्डली)-में श्रीधरका न्यास करे। दक्षिण भागमें हृषीकेशका, गुल्फमें पद्मनाभका और दोनों चरणोंमें दामोदरका न्यास करनेके पश्चात्"
+          "hindi": "और कठटिमें त्रिविक्रमका न्यास करके जंघा (पिण्डली)-में श्रीधरका न्यास करे। दक्षिण भागमें हृषीकेशका, गुल्फमें पद्मनाभका और दोनों चरणोंमें दामोदरका न्यास करनेके पश्चात्",
+          "translation": "Of variegated hair, each looking at the other's back, in the form of Krita, Treta and the rest, Shiva's seat and sandals.",
+          "translationSource": "ai"
         },
         {
           "number": 46,
           "sanskrit": "धर्मं ज्ञानञ्च वैराग्यमैश्वर्यञ्चाग्निदिङ्मुखान् । कूर्पारकुङ्कुमस्वर्णकज्जलाभान् यजेत् क्रमात्",
           "transliteration": "dharmaṃ jñānañca vairāgyamaiśvaryañcāgnidiṅmukhān / kūrpārakuṅkumasvarṇakajjalābhān yajet kramāt",
-          "hindi": "हृदयादि षडङ्गन्यास करे"
+          "hindi": "हृदयादि षडङ्गन्यास करे",
+          "translation": "Dharma, knowledge, dispassion and lordship, facing the fire direction, one should worship in order, colored like elbow, saffron, gold and collyrium.",
+          "translationSource": "ai"
         },
         {
           "number": 47,
           "sanskrit": "पद्मञ्च कर्णिकामध्ये पूर्वादौ मध्यतो नव । वरदाभयहस्ताश् च शक्तयो धृतचामराः",
           "transliteration": "padmañca karṇikāmadhye pūrvādau madhyato nava / varadābhayahastāś ca śaktayo dhṛtacāmarāḥ",
-          "hindi": "सत्पुरुषोंमें श्रेष्ठ ब्रह्माजी! यह आदिमूर्तिके लिये न्यासका साधारण क्रम बताया गया है। अथवा जिस देवताकी स्थापनाका आरम्भ हो, उसीके मूल-मन्त्रसे मूर्तिके सजीवकरणकी क्रिया"
+          "hindi": "सत्पुरुषोंमें श्रेष्ठ ब्रह्माजी! यह आदिमूर्तिके लिये न्यासका साधारण क्रम बताया गया है। अथवा जिस देवताकी स्थापनाका आरम्भ हो, उसीके मूल-मन्त्रसे मूर्तिके सजीवकरणकी क्रिया",
+          "translation": "The lotus in the middle of the pericarp, nine in the middle in the east and others; the powers holding fly-whisks with boon-giving and fearless hands:",
+          "translationSource": "ai"
         },
         {
           "number": 48,
           "sanskrit": "वामा ज्येष्ठा च रौद्री च काली कलविकारिणी । बलविकरणी पूज्या बलप्रमथनी क्रमात्",
           "transliteration": "vāmā jyeṣṭhā ca raudrī ca kālī kalavikāriṇī / balavikaraṇī pūjyā balapramathanī kramāt",
-          "hindi": "होनी चाहिए। जिस मूर्तिका जो नाम हो, उसके आदि अक्षरका बारह स्वरोंसे भेदन करके अङ्गोंको कल्पना करनी चाहिए। देवेश्वर! हृदय आदि अङ्गोंका तथा द्वादश अक्षरवाले मूल-"
+          "hindi": "होनी चाहिए। जिस मूर्तिका जो नाम हो, उसके आदि अक्षरका बारह स्वरोंसे भेदन करके अङ्गोंको कल्पना करनी चाहिए। देवेश्वर! हृदय आदि अङ्गोंका तथा द्वादश अक्षरवाले मूल-",
+          "translation": "Vama, Jyeshtha, Raudri, Kali, Kalavikarini, Balavikarini, Balapramathini are to be worshipped in order.",
+          "translationSource": "ai"
         },
         {
           "number": 49,
           "sanskrit": "हां सर्वभूतदमनी केशराग्रे मनोन्मनी । क्षित्त्यादि शुद्धविद्यान्तु तत्त्वव्यापकमासनं",
           "transliteration": "hāṃ sarvabhūtadamanī keśarāgre manonmanī / kṣittyādi śuddhavidyāntu tattvavyāpakamāsanaṃ",
-          "hindi": "करे, वैसे ही अपने शरीरमें भी करे। तत्पश्चात् चक्राकार पद्ममण्डलमें भगवान् विष्णुका गन्ध आदिसे पूजन करे। पूर्ववत् शरीर और वस्त्राभूषणोंसहित भगवान्के आसनका ध्यान करे।"
+          "hindi": "करे, वैसे ही अपने शरीरमें भी करे। तत्पश्चात् चक्राकार पद्ममण्डलमें भगवान् विष्णुका गन्ध आदिसे पूजन करे। पूर्ववत् शरीर और वस्त्राभूषणोंसहित भगवान्के आसनका ध्यान करे।",
+          "translation": "\"Ham — Sarvabhutadamani\" at the tip of the filament, Manonmani; the seat pervading the principles from earth up to pure knowledge.",
+          "translationSource": "ai"
         },
         {
           "number": 50,
           "sanskrit": "न्यसेत् सिंहासने देवं शुक्लं पञ्चमुखं विभुं । दशबाहुं च खण्डेन्दुं दधानन्दक्षिणैः करैः",
           "transliteration": "nyaset siṃhāsane devaṃ śuklaṃ pañcamukhaṃ vibhuṃ / daśabāhuṃ ca khaṇḍenduṃ dadhānandakṣiṇaiḥ karaiḥ",
-          "hindi": "ऊपरी भागमें बारह अरोंसे युक्त सुदर्शनचक्रका चिन्तन करे। वह चक्र तीन नाभि और दो"
+          "hindi": "ऊपरी भागमें बारह अरोंसे युक्त सुदर्शनचक्रका चिन्तन करे। वह चक्र तीन नाभि और दो",
+          "translation": "One should place the god on the lion-throne: white, five-faced, pervading, ten-armed, bearing a crescent moon in his right hands:",
+          "translationSource": "ai"
         },
         {
           "number": 51,
           "sanskrit": "शक्त्यृष्टिशूलखट्वाङ्गवरदं वामकैः करैः । डमरुं वीजपुरञ्च नीलाब्जं सूत्रकोत्पलं",
           "transliteration": "śaktyṛṣṭiśūlakhaṭvāṅgavaradaṃ vāmakaiḥ karaiḥ / ḍamaruṃ vījapurañca nīlābjaṃ sūtrakotpalaṃ",
-          "hindi": "नेमियोंसे युक्त है। साथ ही बारह स्वरोंसे सम्पन्न"
+          "hindi": "नेमियोंसे युक्त है। साथ ही बारह स्वरोंसे सम्पन्न",
+          "translation": "spear, trident, skull-staff, boon-giving; in his left hands a drum, citron, blue lotus, thread and lotus;",
+          "translationSource": "ai"
         },
         {
           "number": 52,
           "sanskrit": "द्वात्रिंशल्लक्षणोपेतां शैवीं मूर्तिन्तु मध्यतः । हां हं हां शिवमूर्तये स्वप्रकाशं शिवं स्मरन्",
           "transliteration": "dvātriṃśallakṣaṇopetāṃ śaivīṃ mūrtintu madhyataḥ / hāṃ haṃ hāṃ śivamūrtaye svaprakāśaṃ śivaṃ smaran",
-          "hindi": "कुण्डमें अग्नि-प्रणयन करे। पूर्वकुण्डमें"
+          "hindi": "कुण्डमें अग्नि-प्रणयन करे। पूर्वकुण्डमें",
+          "translation": "the Shaiva form endowed with thirty-two marks in the middle: \"Ham Ham Ham, to Shiva's form,\" remembering Shiva the self-luminous,",
+          "translationSource": "ai"
         },
         {
           "number": 53,
           "sanskrit": "ब्रह्मादिकारणत्यागान्मन्त्रं नीत्वा शिवास्पदं । ततो ललातमध्यस्थं स्फुरत्तारापतिप्रभं",
           "transliteration": "brahmādikāraṇatyāgānmantraṃ nītvā śivāspadaṃ / tato lalātamadhyasthaṃ sphurattārāpatiprabhaṃ",
-          "hindi": "है। इस प्रकार चक्रका चिन्तन करनेके पश्चात् “ अग्निमग्निम्०'' इत्यादि मन्त्रसे और उत्तर-"
+          "hindi": "है। इस प्रकार चक्रका चिन्तन करनेके पश्चात् “ अग्निमग्निम्०'' इत्यादि मन्त्रसे और उत्तर-",
+          "translation": "having led the mantra by abandoning the cause beginning with Brahma to Shiva's abode; then, standing in the middle of the forehead, with the radiance of the lord of the shining stars,",
+          "translationSource": "ai"
         },
         {
           "number": 54,
           "sanskrit": "षडङ्गेन समाकीर्णं विन्दुरूपं परं शिवं । पुष्पाञ्जलिगतं ध्यात्वा लक्ष्मीमूर्तौ निवेशयेत्",
           "transliteration": "ṣaḍaṅgena samākīrṇaṃ vindurūpaṃ paraṃ śivaṃ / puṣpāñjaligataṃ dhyātvā lakṣmīmūrtau niveśayet",
-          "hindi": "विद्वान् पुरुष पृष्ठदेशमें प्रकृति आदिका निवेश करे। फिर अरोंके अग्रभागमें बारह सूर्योका पूजन"
+          "hindi": "विद्वान् पुरुष पृष्ठदेशमें प्रकृति आदिका निवेश करे। फिर अरोंके अग्रभागमें बारह सूर्योका पूजन",
+          "translation": "filled with the six limbs, Shiva of bindu form, the supreme; having meditated him in the flower-handful, one should place him in the Lakshmi form.",
+          "translationSource": "ai"
         },
         {
           "number": 55,
           "sanskrit": "ॐ हां हौं शिवाय नम आवाहन्या हृद्दा ततः । आवाह्य स्थाप्य स्थापन्या सन्निधायान्तिकं शिवं",
           "transliteration": "oṃ hāṃ hauṃ śivāya nama āvāhanyā hṛddā tataḥ / āvāhya sthāpya sthāpanyā sannidhāyāntikaṃ śivaṃ",
-          "hindi": "कुण्डमें ' अग्निमग्निं' हवीमभिः० ' इत्यादि मन्त्रसे अग्निका प्रणयन करे। अग्निप्रणयन-कालमें “त्वमग्नें"
+          "hindi": "कुण्डमें ' अग्निमग्निं' हवीमभिः० ' इत्यादि मन्त्रसे अग्निका प्रणयन करे। अग्निप्रणयन-कालमें “त्वमग्नें",
+          "translation": "\"Om Ham Haum, homage to Shiva\" with the invoking mantra from the heart; having invoked and established, with the establishing, having made Shiva present near,",
+          "translationSource": "ai"
         },
         {
           "number": 56,
           "sanskrit": "निरोधयेन्निष्ठुरया कालकान्त्या फडन्ततः । विघ्नानुत्सार्य विष्ठ्याथ(१) लिङ्गमुद्रां नमस्कृतिं",
           "transliteration": "nirodhayenniṣṭhurayā kālakāntyā phaḍantataḥ / vighnānutsārya viṣṭhyātha(1) liṅgamudrāṃ namaskṛtiṃ",
-          "hindi": "करे। तदनन्तर वहाँ सोलह कलाओंसे युक्त  द्युभिः०' इत्यादि मन्त्रका पाठ किया जाता"
+          "hindi": "करे। तदनन्तर वहाँ सोलह कलाओंसे युक्त  द्युभिः०' इत्यादि मन्त्रका पाठ किया जाता",
+          "translation": "one should restrain with the harsh Kalakanti ending in \"phat\"; having driven off obstacles, then the linga mudra and salutation,",
+          "translationSource": "ai"
         },
         {
           "number": 57,
           "sanskrit": "हृदावगुण्ठयेत् पश्चादावाहः सम्मुखी ततः । निवेशनं स्थापनं स्यात्सन्निधानं तवास्मि भोः",
           "transliteration": "hṛdāvaguṇṭhayet paścādāvāhaḥ sammukhī tataḥ / niveśanaṃ sthāpanaṃ syātsannidhānaṃ tavāsmi bhoḥ",
-          "hindi": "सोमका ध्यान करे। चक्रकी नाभिमें तीन वसन (वस्त्र या वासस्थान)-का चिन्तन करे । तत्पश्चात् श्रेष्ठ आचार्य पद्मके भीतर द्वादशदल-पद्मका चिन्तन करे॥ ३७--४४॥"
+          "hindi": "सोमका ध्यान करे। चक्रकी नाभिमें तीन वसन (वस्त्र या वासस्थान)-का चिन्तन करे । तत्पश्चात् श्रेष्ठ आचार्य पद्मके भीतर द्वादशदल-पद्मका चिन्तन करे॥ ३७--४४॥",
+          "translation": "one should cover with the heart; afterward the invocation is face-to-face; the placing is establishment; presence is \"I am yours, O lord.\"",
+          "translationSource": "ai"
         },
         {
           "number": 58,
           "sanskrit": "आकर्मकाण्डपर्यन्तं सन्नेधेयोपरिक्षयः । स्वभक्तेश् च(२) प्रकाशोयस्तद्भवेदवगुण्ठनं",
           "transliteration": "ākarmakāṇḍaparyantaṃ sannedheyoparikṣayaḥ / svabhakteś ca(2) prakāśoyastadbhavedavaguṇṭhanaṃ",
-          "hindi": "उस पद्ममें पुरुष-शक्तिका ध्यान करके उसको पूजा करे। फिर प्रतिमामें श्रीहरिका न्यास करके गुरु वहाँ श्रीहरि तथा अन्य देवताओंका पूजन करे। गन्ध, पुष्प आदि उपचारोंसे अङ्ग और"
+          "hindi": "उस पद्ममें पुरुष-शक्तिका ध्यान करके उसको पूजा करे। फिर प्रतिमामें श्रीहरिका न्यास करके गुरु वहाँ श्रीहरि तथा अन्य देवताओंका पूजन करे। गन्ध, पुष्प आदि उपचारोंसे अङ्ग और",
+          "translation": "Up to the ritual section, presence, and beyond: the manifestation of the devotee's own is the covering.",
+          "translationSource": "ai"
         },
         {
           "number": 59,
           "sanskrit": "सकलीकरणं कृत्वा मन्त्रैः षड्भिरथैकतां । अङ्गानामङ्गिना सार्धं विदध्यादमृतीकृतं",
           "transliteration": "sakalīkaraṇaṃ kṛtvā mantraiḥ ṣaḍbhirathaikatāṃ / aṅgānāmaṅginā sārdhaṃ vidadhyādamṛtīkṛtaṃ",
-          "hindi": "आवरणोंसहित इष्टदेवका भलीभाँति पूजन करना चाहिए। द्वादशाक्षर-मन्त्रके एक-एक अक्षरको बीजरूपमें परिवर्तित करके उनके द्वारा केशव आदि भगवद्विग्रहोंकी क्रमशः पूजा करे। द्वादश"
+          "hindi": "आवरणोंसहित इष्टदेवका भलीभाँति पूजन करना चाहिए। द्वादशाक्षर-मन्त्रके एक-एक अक्षरको बीजरूपमें परिवर्तित करके उनके द्वारा केशव आदि भगवद्विग्रहोंकी क्रमशः पूजा करे। द्वादश",
+          "translation": "Having made the fulfillment with the six mantras and then oneness, one should render the limbs with the limbed one nectarized.",
+          "translationSource": "ai"
         },
         {
           "number": 60,
           "sanskrit": "चिच्छक्तिहृदयं शम्भोः शिव ऐश्वर्यमष्टधा(३) । शिखावशित्वं चाभेद्यं तेजः कवचमैश्वरं",
           "transliteration": "cicchaktihṛdayaṃ śambhoḥ śiva aiśvaryamaṣṭadhā(3) / śikhāvaśitvaṃ cābhedyaṃ tejaḥ kavacamaiśvaraṃ",
-          "hindi": "अरोंसे युक्त मण्डलमें लोकपाल आदिको भी क्रमसे अर्चना करे। तदनन्तर द्विज गन्ध, पुष्प आदि उपचारोंद्वारा पुरुषसूक्तसे प्रतिमाको पूजा करे और श्रीसूक्तसे पिण्डिकाको। इसके बाद"
+          "hindi": "अरोंसे युक्त मण्डलमें लोकपाल आदिको भी क्रमसे अर्चना करे। तदनन्तर द्विज गन्ध, पुष्प आदि उपचारोंद्वारा पुरुषसूक्तसे प्रतिमाको पूजा करे और श्रीसूक्तसे पिण्डिकाको। इसके बाद",
+          "translation": "The heart of Shambhu's power of consciousness; Shiva's eightfold lordship; control of the crest and the unbreakable radiance; the lordly armor;",
+          "translationSource": "ai"
         },
         {
           "number": 61,
           "sanskrit": "प्रतापो दुःसहश्चास्त्रमन्तरायापहारकं । नमः स्वधा च स्वाहा च वौषट् चेति यथाक्रमं",
           "transliteration": "pratāpo duḥsahaścāstramantarāyāpahārakaṃ / namaḥ svadhā ca svāhā ca vauṣaṭ ceti yathākramaṃ",
-          "hindi": "जनन आदिके क्रमसे वैष्णव-अग्निको प्रकट करे। तदनन्तर विष्णुदेवता-सम्बन्धी मन्त्रोंद्वारा अग्निमें आहुति देकर विद्वान् पुरुष शान्ति-जल तैयार करे और उसे प्रतिमाके मस्तकपर छिड़ककर"
+          "hindi": "जनन आदिके क्रमसे वैष्णव-अग्निको प्रकट करे। तदनन्तर विष्णुदेवता-सम्बन्धी मन्त्रोंद्वारा अग्निमें आहुति देकर विद्वान् पुरुष शान्ति-जल तैयार करे और उसे प्रतिमाके मस्तकपर छिड़ककर",
+          "translation": "the irresistible majesty and the missile that removes obstacles. \"Namah, svadha, svaha, vaushat\" in order,",
+          "translationSource": "ai"
         },
         {
           "number": 62,
           "sanskrit": "हृत्पुरःसरमुच्चार्य पाद्यादीनि निवेदयेत् । पाद्यं पादाम्बुजद्वन्द्वे वक्त्रेष्वाचमनीयकं",
           "transliteration": "hṛtpuraḥsaramuccārya pādyādīni nivedayet / pādyaṃ pādāmbujadvandve vaktreṣvācamanīyakaṃ",
-          "hindi": "अग्निका प्रणयन करे। विद्वान् पुरुषको चाहिए कि 'अग्निं दूतम्०'' इत्यादि मन्त्रसे दक्षिण-"
+          "hindi": "अग्निका प्रणयन करे। विद्वान् पुरुषको चाहिए कि 'अग्निं दूतम्०'' इत्यादि मन्त्रसे दक्षिण-",
+          "translation": "having uttered preceded by the heart-mantra one should offer foot-water and the rest: foot-water on the two lotus feet; rinsing-water on the mouths;",
+          "translationSource": "ai"
         },
         {
           "number": 63,
           "sanskrit": "अर्घ्यं शिरसि देवस्य दूर्वापुष्पाक्षतानि च । एवं संस्कृत्य संस्कारैर् दशभिः परमेश्वरं",
           "transliteration": "arghyaṃ śirasi devasya dūrvāpuṣpākṣatāni ca / evaṃ saṃskṛtya saṃskārair daśabhiḥ parameśvaraṃ",
-          "hindi": "प्रत्येक कुण्डमें प्रणवके उच्चारणपूर्वक पलाशको एक हजार आठ समिधाओंका तथा जौ आदिका भी होम करे। व्याहति-मन्त्रसे घृतमिश्रित तिलोंका और मूलमन्त्रसे घीका हवन करे। तत्पश्चात्"
+          "hindi": "प्रत्येक कुण्डमें प्रणवके उच्चारणपूर्वक पलाशको एक हजार आठ समिधाओंका तथा जौ आदिका भी होम करे। व्याहति-मन्त्रसे घृतमिश्रित तिलोंका और मूलमन्त्रसे घीका हवन करे। तत्पश्चात्",
+          "translation": "arghya on the head of the god, with durva, flowers and rice. Thus having prepared the Supreme Lord by ten rites,",
+          "translationSource": "ai"
         },
         {
           "number": 64,
           "sanskrit": "यजेत् पञ्चोपचारेण विधिना कुसुमादिभिः । अभ्युक्ष्योद्धर्त्य निर्म्भञ्ज्य राजिकालवणादिभिः",
           "transliteration": "yajet pañcopacāreṇa vidhinā kusumādibhiḥ / abhyukṣyoddhartya nirmbhañjya rājikālavaṇādibhiḥ",
-          "hindi": "मधुरत्रय (घी, शहद और चीनी)-से शान्ति- होम करे। द्वादशाक्षर-मन्त्रसे दोनों पैर, नाभि, हदय और मस्तकका स्पर्श करे। घी, दही और दूधको आहुति देकर मस्तकका स्पर्श करे।"
+          "hindi": "मधुरत्रय (घी, शहद और चीनी)-से शान्ति- होम करे। द्वादशाक्षर-मन्त्रसे दोनों पैर, नाभि, हदय और मस्तकका स्पर्श करे। घी, दही और दूधको आहुति देकर मस्तकका स्पर्श करे।",
+          "translation": "one should worship with the five-fold service by rule, with flowers and the rest; having sprinkled, rubbed, and cleansed with mustard, salt and the like,",
+          "translationSource": "ai"
         },
         {
           "number": 65,
           "sanskrit": "अर्घ्योदविन्दुपुष्पाद्यैर् गड्डूकैः(४) स्नापयेच्छनैः । पयोदधिघृतक्षौद्रशर्कराद्यैर् अनुक्रमात्",
           "transliteration": "arghyodavindupuṣpādyair gaḍḍūkaiḥ(4) snāpayecchanaiḥ / payodadhighṛtakṣaudraśarkarādyair anukramāt",
-          "hindi": "तत्पश्चात् मस्तक, नाभि और चरणोंका स्पर्श करके क्रमशः गङ्गा, यमुना, गोदावरी और सरस्वती-इन चार नदियोंको स्थापना करे। विष्णु-गायत्रीसेः अग्निको प्रज्वलित करे और"
+          "hindi": "तत्पश्चात् मस्तक, नाभि और चरणोंका स्पर्श करके क्रमशः गङ्गा, यमुना, गोदावरी और सरस्वती-इन चार नदियोंको स्थापना करे। विष्णु-गायत्रीसेः अग्निको प्रज्वलित करे और",
+          "translation": "one should bathe him slowly with drops of arghya-water and flowers with pots; with milk, curds, ghee, honey, sugar and the rest in order.",
+          "translationSource": "ai"
         },
         {
           "number": 66,
           "sanskrit": "ईशादिमन्त्रितर्द्रव्यैर् अर्च्य तेषां(५) विपर्ययः । १ छोट्याथ इति ख, चिह्नितपुस्तकपाठः २ अभुक्तेज्या इति ग, चिह्नितपुस्तकपाठः ३ शिवमैश्वर्यमष्टधा इति ग, घ, चिह्नितपुस्तकद्वयपाठः ४ गन्धकैर् इति ख, चिह्नितपुस्तकपाठः ५ इत्य् आदिमन्त्रितैर् भक्ष्यैश् चैषामिति ख, चिह्नितपुस्तकपाठः :प् २१७ तोयधूपान्तरैः सर्वैर् मूलेन स्नपयेच्छिवं",
           "transliteration": "īśādimantritardravyair arcya teṣāṃ(5) viparyayaḥ / 1 choṭyātha iti kha, cihnitapustakapāṭhaḥ 2 abhuktejyā iti ga, cihnitapustakapāṭhaḥ 3 śivamaiśvaryamaṣṭadhā iti ga, gha, cihnitapustakadvayapāṭhaḥ 4 gandhakair iti kha, cihnitapustakapāṭhaḥ 5 ity ādimantritair bhakṣyaiś caiṣāmiti kha, cihnitapustakapāṭhaḥ :p 217 toyadhūpāntaraiḥ sarvair mūlena snapayecchivaṃ",
-          "hindi": "गायत्री-मन्त्रसे उस अग्निमें चरु पकावे । गायत्रीसे ही होम और बलि दे। तदनन्तर ब्राह्मणोंको भोजन करावे"
+          "hindi": "गायत्री-मन्त्रसे उस अग्निमें चरु पकावे । गायत्रीसे ही होम और बलि दे। तदनन्तर ब्राह्मणोंको भोजन करावे",
+          "translation": "Having worshipped with substances consecrated by Ishana and the other mantras, in reverse for them; with all waters and incense in between, one should bathe Shiva with the root-mantra.",
+          "translationSource": "ai"
         },
         {
           "number": 67,
           "sanskrit": "विरूक्ष्य यवचूर्णेन यथेष्टं शीतलैर् जलैः । स्वशक्त्या गन्धतोयेन संस्नाप्य शुचिवाससा",
           "transliteration": "virūkṣya yavacūrṇena yatheṣṭaṃ śītalair jalaiḥ / svaśaktyā gandhatoyena saṃsnāpya śucivāsasā",
-          "hindi": "मासाधिपति बारह आदित्योंको तुष्टिके लिये आचार्यको सुवर्ण और गौकी दक्षिणा दे। दिक्पालोंको बलि देकर रातमें जागरण करे। उस समय वेदपाठ और गीत, कीर्तन आदि करता रहे। इस"
+          "hindi": "मासाधिपति बारह आदित्योंको तुष्टिके लिये आचार्यको सुवर्ण और गौकी दक्षिणा दे। दिक्पालोंको बलि देकर रातमें जागरण करे। उस समय वेदपाठ और गीत, कीर्तन आदि करता रहे। इस",
+          "translation": "Having dried with barley powder, with cool waters as desired, having bathed with scented water by one's own power, with a clean cloth,",
+          "translationSource": "ai"
         },
         {
           "number": 68,
           "sanskrit": "निर्मार्ज्यार्घ्यं प्रदद्याच्च नोपरि भ्रामयेत् करं । न शून्यमस्तकं लिङ्गं पुष्पैः कुर्यात्ततो ददेत्",
           "transliteration": "nirmārjyārghyaṃ pradadyācca nopari bhrāmayet karaṃ / na śūnyamastakaṃ liṅgaṃ puṣpaiḥ kuryāttato dadet",
-          "hindi": "प्रकार अधिवासन-कर्मका सम्पादन करनेपर मनुष्य सम्पूर्ण फलोंका भागी होता है"
+          "hindi": "प्रकार अधिवासन-कर्मका सम्पादन करनेपर मनुष्य सम्पूर्ण फलोंका भागी होता है",
+          "translation": "having wiped him one should give arghya; one should not move the hand over him. One should not leave the linga's head empty; one should make it with flowers and then give;",
+          "translationSource": "ai"
         },
         {
           "number": 69,
           "sanskrit": "चन्दनाद्यैः समालभ्य पुष्पैः प्रार्च्य शिवाणुना(१) । धूपभाजनमस्त्रेण प्रोक्ष्याभ्यर्च्य शिवाणुना(२)",
           "transliteration": "candanādyaiḥ samālabhya puṣpaiḥ prārcya śivāṇunā(1) / dhūpabhājanamastreṇa prokṣyābhyarcya śivāṇunā(2)",
-          "hindi": "इस प्रकार आदि आग्नेय महापुराणे 'देवाधिवास-विधिका वर्णन” नामक उनसठवाँ अध्याय पूरा हुआ"
+          "hindi": "इस प्रकार आदि आग्नेय महापुराणे 'देवाधिवास-विधिका वर्णन” नामक उनसठवाँ अध्याय पूरा हुआ",
+          "translation": "having smeared with sandal and the rest, having worshipped with flowers with the Shiva-mantra; having sprinkled the incense vessel with the missile-mantra and worshipped with the Shiva-mantra,",
+          "translationSource": "ai"
         },
         {
           "number": 70,
           "sanskrit": "अस्त्रेण पूजितां घण्टां चादाय गुग्गुलं ददेत् । दद्यादाचमनं पश्चात् स्वधान्तं हृदयाणुना(३)",
           "transliteration": "astreṇa pūjitāṃ ghaṇṭāṃ cādāya guggulaṃ dadet / dadyādācamanaṃ paścāt svadhāntaṃ hṛdayāṇunā(3)",
-          "hindi": "१. अग्निं दूतं पुरो दधे हव्यवाहमुप ब्रुवे॥ देवाँ २॥ आसादयादिह ॥ (यजु० २२। १७) २. अग्निमग्निं व: समिधा दुवस्यत प्रियं प्रियं वो अतिथिं गृणीषणि। उप वो गीर्भिरमृतं विवासत देवो देवेषु बनते हि वार्य देवो देवेषु"
+          "hindi": "१. अग्निं दूतं पुरो दधे हव्यवाहमुप ब्रुवे॥ देवाँ २॥ आसादयादिह ॥ (यजु० २२। १७) २. अग्निमग्निं व: समिधा दुवस्यत प्रियं प्रियं वो अतिथिं गृणीषणि। उप वो गीर्भिरमृतं विवासत देवो देवेषु बनते हि वार्य देवो देवेषु",
+          "translation": "having taken the bell worshipped with the missile-mantra, one should give guggulu; afterward one should give rinsing water, ending with svadha, by the heart-mantra.",
+          "translationSource": "ai"
         },
         {
           "number": 71,
           "sanskrit": "आरात्रिकं समुत्तार्य तथैवाचामयेत् पुनः । प्रणम्यादाय देवाज्ञां भोगाङ्गानि प्रपूजयेत्",
           "transliteration": "ārātrikaṃ samuttārya tathaivācāmayet punaḥ / praṇamyādāya devājñāṃ bhogāṅgāni prapūjayet",
-          "hindi": "३. अग्निमग्निं हवीमभिः सदा हवन्त विश्पतिम्। हव्यवाहं पुरुप्रियम्॥ (ऋ० मं० १, सू० १२।२) ४. त्वमग्ने झुभिस्त्वमाशुशुक्षणिस्त्वमद्भ्यस्त्वमश्मनस्परि । त्वं वनेभ्यस्त्वमोषधीभ्यस्त्वं नृणां नृपते जायसे शुचिः ॥ (यजु० ११। २७) ५. नारायणाय विद्महे वासुदेवाय धीमहि । तन्नो विष्णुः प्रचोदयात् ।"
+          "hindi": "३. अग्निमग्निं हवीमभिः सदा हवन्त विश्पतिम्। हव्यवाहं पुरुप्रियम्॥ (ऋ० मं० १, सू० १२।२) ४. त्वमग्ने झुभिस्त्वमाशुशुक्षणिस्त्वमद्भ्यस्त्वमश्मनस्परि । त्वं वनेभ्यस्त्वमोषधीभ्यस्त्वं नृणां नृपते जायसे शुचिः ॥ (यजु० ११। २७) ५. नारायणाय विद्महे वासुदेवाय धीमहि । तन्नो विष्णुः प्रचोदयात् ।",
+          "translation": "Having performed the lamp-waving and made him rinse again, having bowed and taken the god's permission, one should worship the enjoyment-limbs:",
+          "translationSource": "ai"
         },
         {
           "number": 72,
           "sanskrit": "हृदग्नौ चन्द्रभं चैशे शिवं चामीकरप्रभं । शिखां रक्ताञ्च नैरृत्ये कृष्णं वर्म च वायवे",
           "transliteration": "hṛdagnau candrabhaṃ caiśe śivaṃ cāmīkaraprabhaṃ / śikhāṃ raktāñca nairṛtye kṛṣṇaṃ varma ca vāyave",
-          "hindi": "TITTIES फक्फ फक्फ फफ न्‍्फफन्‍फ्रफफ फ फा फा फो फ्फ फरफ कक कक कक क कक फ्ऋ्र फा कापी पापी पी फी फो फी फो फक फ कक कक"
+          "hindi": "TITTIES फक्फ फक्फ फफ न्‍्फफन्‍फ्रफफ फ फा फा फो फ्फ फरफ कक कक कक क कक फ्ऋ्र फा कापी पापी पी फी फो फी फो फक फ कक कक",
+          "translation": "the heart in fire, moon-radiant, and Shiva in Ishana, golden-radiant; the crest red in the southwest, black armor in the northwest;",
+          "translationSource": "ai"
         },
         {
           "number": 73,
           "sanskrit": "चतुर्वक्त्रं चतुर्बाहुं(४) दलस्थान्(५) पूजयेदिमान् । दंष्ट्राकरालमप्यस्त्रं पूर्वादौ वज्रसन्निभं",
           "transliteration": "caturvaktraṃ caturbāhuṃ(4) dalasthān(5) pūjayedimān / daṃṣṭrākarālamapyastraṃ pūrvādau vajrasannibhaṃ",
-          "hindi": "वासुदेव आदि देवताओंके स्थापनकी साधारण विधि"
+          "hindi": "वासुदेव आदि देवताओंके स्थापनकी साधारण विधि",
+          "translation": "four-faced and four-armed, one should worship these on the petals; the missile, though terrible with fangs, in the east and others, like a thunderbolt.",
+          "translationSource": "ai"
         },
         {
           "number": 74,
