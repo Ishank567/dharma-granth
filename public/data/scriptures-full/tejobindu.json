@@ -3183,82 +3183,114 @@
         {
           "number": 95,
           "sanskrit": "दरिद्रो धनिकानां च सुखं भुङ्क्ते तदा जगत् । शुना वीर्येण सिंहस्तु जितो यदि जगत्तदा",
-          "transliteration": "daridro dhanikānāṃ ca sukhaṃ bhuṅkte tadā jagat | śunā vīryeṇa siṃhastu jito yadi jagattadā"
+          "transliteration": "daridro dhanikānāṃ ca sukhaṃ bhuṅkte tadā jagat | śunā vīryeṇa siṃhastu jito yadi jagattadā",
+          "translation": "If a poor man enjoyed the happiness of the wealthy, then the world would be; if a dog by its strength conquered a lion, then the world would be.",
+          "translationSource": "ai"
         },
         {
           "number": 96,
           "sanskrit": "ज्ञानिनो हृदयं मूढैर्ज्ञातं चेत्कल्पनं तदा । श्वानेन सागरे पीते निःशेषेण मनो भवेत्",
-          "transliteration": "jñānino hṛdayaṃ mūḍhairjñātaṃ cetkalpanaṃ tadā | śvānena sāgare pīte niḥśeṣeṇa mano bhavet"
+          "transliteration": "jñānino hṛdayaṃ mūḍhairjñātaṃ cetkalpanaṃ tadā | śvānena sāgare pīte niḥśeṣeṇa mano bhavet",
+          "translation": "If the heart of the wise were known by fools, it would be imagination; if a dog drank the ocean entirely, then it would be mind.",
+          "translationSource": "ai"
         },
         {
           "number": 97,
           "sanskrit": "शुद्धाकाशो मनुष्येषु पतितश्चेत्तदा जगत् । भूमौ वा पतितं व्योम व्योमपुष्पं सुगन्धकम्",
-          "transliteration": "śuddhākāśo manuṣyeṣu patitaścettadā jagat | bhūmau vā patitaṃ vyoma vyomapuṣpaṃ sugandhakam"
+          "transliteration": "śuddhākāśo manuṣyeṣu patitaścettadā jagat | bhūmau vā patitaṃ vyoma vyomapuṣpaṃ sugandhakam",
+          "translation": "If pure space fell among men, then the world; or if the sky fell on earth, a sky-flower would be fragrant.",
+          "translationSource": "ai"
         },
         {
           "number": 98,
           "sanskrit": "शुद्धाकाशे वने जाते चलिते तु तदा जगत् । केवले दर्पणे नास्ति प्रतिबिम्बं तदा जगत्",
-          "transliteration": "śuddhākāśe vane jāte calite tu tadā jagat | kevale darpaṇe nāsti pratibimbaṃ tadā jagat"
+          "transliteration": "śuddhākāśe vane jāte calite tu tadā jagat | kevale darpaṇe nāsti pratibimbaṃ tadā jagat",
+          "translation": "If a forest grew in pure space and moved, then the world; if there were a reflection in a bare mirror, then the world.",
+          "translationSource": "ai"
         },
         {
           "number": 99,
           "sanskrit": "अजकुक्षौ जगन्नास्ति ह्यात्मकुक्षौ जगन्नहि । सर्वथा भेदकलनं द्वैताद्वैतं न विद्यते",
-          "transliteration": "ajakukṣau jagannāsti hyātmakukṣau jagannahi | sarvathā bhedakalanaṃ dvaitādvaitaṃ na vidyate"
+          "transliteration": "ajakukṣau jagannāsti hyātmakukṣau jagannahi | sarvathā bhedakalanaṃ dvaitādvaitaṃ na vidyate",
+          "translation": "In the womb of the unborn there is no world; in the womb of the Self there is no world; in every way, imagining of difference, duality and non-duality does not exist.",
+          "translationSource": "ai"
         },
         {
           "number": 100,
           "sanskrit": "मायाकार्यमिदं भेदमस्ति चेद्ब्रह्मभावनम् । देहोऽहमिति दुःखं चेद्ब्रह्माहमिति निश्चयः",
-          "transliteration": "māyākāryamidaṃ bhedamasti cedbrahmabhāvanam | deho'hamiti duḥkhaṃ cedbrahmāhamiti niścayaḥ"
+          "transliteration": "māyākāryamidaṃ bhedamasti cedbrahmabhāvanam | deho'hamiti duḥkhaṃ cedbrahmāhamiti niścayaḥ",
+          "translation": "If this difference, the effect of illusion, exists, there is contemplation of Brahman; if \"I am the body\" is sorrow, the certainty is \"I am Brahman.\"",
+          "translationSource": "ai"
         },
         {
           "number": 101,
           "sanskrit": "हृदयग्रन्थिरस्तित्वे छिद्यते ब्रह्मचक्रकम् । संशये समनुप्राप्ते ब्रह्मनिश्चयमाश्रयेत्",
-          "transliteration": "hṛdayagranthirastitve chidyate brahmacakrakam | saṃśaye samanuprāpte brahmaniścayamāśrayet"
+          "transliteration": "hṛdayagranthirastitve chidyate brahmacakrakam | saṃśaye samanuprāpte brahmaniścayamāśrayet",
+          "translation": "When the knot of the heart exists, the wheel of Brahman cuts it; when doubt arises, one should take refuge in the certainty of Brahman.",
+          "translationSource": "ai"
         },
         {
           "number": 102,
           "sanskrit": "अनात्मरूपचोरश्चेदात्मरत्नस्य रक्षणम् । नित्यानन्दमयं ब्रह्म केवलं सर्वदा स्वयम्",
-          "transliteration": "anātmarūpacoraścedātmaratnasya rakṣaṇam | nityānandamayaṃ brahma kevalaṃ sarvadā svayam"
+          "transliteration": "anātmarūpacoraścedātmaratnasya rakṣaṇam | nityānandamayaṃ brahma kevalaṃ sarvadā svayam",
+          "translation": "If the thief in the form of the non-Self exists, guard the jewel of the Self; Brahman, made of eternal bliss, alone, always by itself.",
+          "translationSource": "ai"
         },
         {
           "number": 103,
           "sanskrit": "एवमादिसुदृष्टान्तैः साधितं ब्रह्ममात्रकम् । ब्रह्मैव सर्वभवनं भुवनं नाम सन्त्यज",
-          "transliteration": "evamādisudṛṣṭāntaiḥ sādhitaṃ brahmamātrakam | brahmaiva sarvabhavanaṃ bhuvanaṃ nāma santyaja"
+          "transliteration": "evamādisudṛṣṭāntaiḥ sādhitaṃ brahmamātrakam | brahmaiva sarvabhavanaṃ bhuvanaṃ nāma santyaja",
+          "translation": "By such good examples Brahman alone is established; Brahman alone is all becoming — abandon the name \"world.\"",
+          "translationSource": "ai"
         },
         {
           "number": 104,
           "sanskrit": "अहं ब्रह्मेति निश्चित्य अहम्भावं परित्यज । सर्वमेव लयं याति सुप्तहस्तस्थपुष्पवत्",
-          "transliteration": "ahaṃ brahmeti niścitya ahambhāvaṃ parityaja | sarvameva layaṃ yāti suptahastasthapuṣpavat"
+          "transliteration": "ahaṃ brahmeti niścitya ahambhāvaṃ parityaja | sarvameva layaṃ yāti suptahastasthapuṣpavat",
+          "translation": "Having ascertained \"I am Brahman,\" give up the sense of \"I\"; everything goes to dissolution like a flower in the hand of one asleep.",
+          "translationSource": "ai"
         },
         {
           "number": 105,
           "sanskrit": "न देहो न च कर्माणि सर्वं ब्रह्मैव केवलम् । न भूतं न च कार्यं च न चावस्थाचतुष्टयम्",
-          "transliteration": "na deho na ca karmāṇi sarvaṃ brahmaiva kevalam | na bhūtaṃ na ca kāryaṃ ca na cāvasthācatuṣṭayam"
+          "transliteration": "na deho na ca karmāṇi sarvaṃ brahmaiva kevalam | na bhūtaṃ na ca kāryaṃ ca na cāvasthācatuṣṭayam",
+          "translation": "No body, no actions: all is Brahman alone. No element, no effect, no fourfold state.",
+          "translationSource": "ai"
         },
         {
           "number": 106,
           "sanskrit": "लक्षणात्रयविज्ञानं सर्वं ब्रह्मैव केवलम् । सर्वव्यापारमुत्सृज्य ह्यहं ब्रह्मेति भावय",
-          "transliteration": "lakṣaṇātrayavijñānaṃ sarvaṃ brahmaiva kevalam | sarvavyāpāramutsṛjya hyahaṃ brahmeti bhāvaya"
+          "transliteration": "lakṣaṇātrayavijñānaṃ sarvaṃ brahmaiva kevalam | sarvavyāpāramutsṛjya hyahaṃ brahmeti bhāvaya",
+          "translation": "Knowledge of the three characteristics: all is Brahman alone; abandoning all activity, contemplate \"I am Brahman.\"",
+          "translationSource": "ai"
         },
         {
           "number": 107,
           "sanskrit": "अहं ब्रह्म न सन्देहो ह्यहं ब्रह्म चिदात्मकम् । सच्चिदानन्दमात्रोऽहमिति निश्चित्य तत्त्यज",
-          "transliteration": "ahaṃ brahma na sandeho hyahaṃ brahma cidātmakam | saccidānandamātro'hamiti niścitya tattyaja"
+          "transliteration": "ahaṃ brahma na sandeho hyahaṃ brahma cidātmakam | saccidānandamātro'hamiti niścitya tattyaja",
+          "translation": "I am Brahman — no doubt; I am Brahman, the Self of consciousness; having ascertained \"I am mere being-consciousness-bliss,\" abandon even that.",
+          "translationSource": "ai"
         },
         {
           "number": 108,
           "sanskrit": "शाङ्करीयं महाशास्त्रं न देयं यस्य कस्यचित् । नास्तिकाय कृतघ्नाय दुर्वृत्ताय दुरात्मने",
-          "transliteration": "śāṅkarīyaṃ mahāśāstraṃ na deyaṃ yasya kasyacit | nāstikāya kṛtaghnāya durvṛttāya durātmane"
+          "transliteration": "śāṅkarīyaṃ mahāśāstraṃ na deyaṃ yasya kasyacit | nāstikāya kṛtaghnāya durvṛttāya durātmane",
+          "translation": "This great scripture in Shankara's line is not to be given to just anyone — not to the unbeliever, the ungrateful, the ill-behaved, the evil-minded.",
+          "translationSource": "ai"
         },
         {
           "number": 109,
           "sanskrit": "गुरुभक्तिविशुद्धान्तःकरणाय महात्मने । सम्यक्परीक्ष्य दातव्यं मासं षाण्मासवत्सरम्",
-          "transliteration": "gurubhaktiviśuddhāntaḥkaraṇāya mahātmane | samyakparīkṣya dātavyaṃ māsaṃ ṣāṇmāsavatsaram"
+          "transliteration": "gurubhaktiviśuddhāntaḥkaraṇāya mahātmane | samyakparīkṣya dātavyaṃ māsaṃ ṣāṇmāsavatsaram",
+          "translation": "It should be given to the great-souled whose inner instrument is purified by devotion to the teacher, after careful testing for a month, six months or a year.",
+          "translationSource": "ai"
         },
         {
           "number": 110,
           "sanskrit": "सर्वोपनिषदभ्यासं दूरतस्त्यज्य सादरम् । तेजोबिन्दूपनिषदमभ्यसेत्सर्वदा मुदा",
-          "transliteration": "sarvopaniṣadabhyāsaṃ dūratastyajya sādaram | tejobindūpaniṣadamabhyasetsarvadā mudā"
+          "transliteration": "sarvopaniṣadabhyāsaṃ dūratastyajya sādaram | tejobindūpaniṣadamabhyasetsarvadā mudā",
+          "translation": "Giving up with respect the study of all other Upanishads, one should always joyfully study the Tejobindu Upanishad.",
+          "translationSource": "ai"
         }
       ]
     }
