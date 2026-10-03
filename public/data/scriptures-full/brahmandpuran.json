@@ -3416,247 +3416,329 @@
           "number": 155,
           "sanskrit": "उपतिष्ठंति तावंतो यावन्तो निर्मितास्तथा । सत्यं बूत यथाभूतं ध्रुवं वो ब्रह्मणास्तु ताः",
           "transliteration": "upatiṣṭhaṃti tāvaṃto yāvanto nirmitāstathā / satyaṃ būta yathābhūtaṃ dhruvaṃ vo brahmaṇāstu tāḥ",
-          "hindi": "एत एव त्रयौ लोका एत एब त्रयो. गुणाः ।"
+          "hindi": "एत एव त्रयौ लोका एत एब त्रयो. गुणाः ।",
+          "translation": "As many as were created attend them; the truth, as it was, is firm for you; they are Brahmins'.",
+          "translationSource": "ai"
         },
         {
           "number": 156,
           "sanskrit": "ये चान्ये ह्यबलास्तेषां संरक्षाकर्म्मणि स्थिताः । क्रीतानि नाशयंति स्म पृथिव्यां ते व्यवस्थिताः",
           "transliteration": "ye cānye hyabalāsteṣāṃ saṃrakṣākarmmaṇi sthitāḥ / krītāni nāśayaṃti sma pṛthivyāṃ te vyavasthitāḥ",
-          "hindi": "प्रवानगुणवेषम्यात्सरगेकाले अवत्तंते ।"
+          "hindi": "प्रवानगुणवेषम्यात्सरगेकाले अवत्तंते ।",
+          "translation": "Others who were weak were stationed in the work of protection; those on earth destroyed what was bought.",
+          "translationSource": "ai"
         },
         {
           "number": 157,
           "sanskrit": "वैश्यानित्येव तानाहुः कीनाशान्वृत्तिसाधकान् । सेवंतश्च द्रवंतश्च परिचर्यासु ये रताः",
           "transliteration": "vaiśyānityeva tānāhuḥ kīnāśānvṛttisādhakān / sevaṃtaśca dravaṃtaśca paricaryāsu ye ratāḥ",
-          "hindi": "अहशऽधिषितात्पूर्वे तस्मात्सदसदात्मकात् ॥१२-"
+          "hindi": "अहशऽधिषितात्पूर्वे तस्मात्सदसदात्मकात् ॥१२-",
+          "translation": "They call them Vaishyas, those who bring about livelihood by tilling; and those who serve and flow, devoted to attendance,",
+          "translationSource": "ai"
         },
         {
           "number": 158,
           "sanskrit": "निस्तेजसो ऽल्पवीर्याश्च शूद्रांस्तानब्रवीच्च सः । तेषां कर्माणि धर्मांश्च ब्रह्मा तु व्यदधात्प्रभुः",
           "transliteration": "nistejaso 'lpavīryāśca śūdrāṃstānabravīcca saḥ / teṣāṃ karmāṇi dharmāṃśca brahmā tu vyadadhātprabhuḥ",
-          "hindi": "ब्रह्मा बुद्धित्वमिथुनं युगपत्संबभूव ह ।"
+          "hindi": "ब्रह्मा बुद्धित्वमिथुनं युगपत्संबभूव ह ।",
+          "translation": "lacking brilliance and of little valour, he called Shudras. The lord Brahma ordained their actions and duties.",
+          "translationSource": "ai"
         },
         {
           "number": 159,
           "sanskrit": "संस्थित्यां तु कृतायां हि यातुर्वर्ण्यस्य तेन वै । पुनः प्रजास्तु ता मोहाद्धर्म्मं तं नान्वपालयन्",
           "transliteration": "saṃsthityāṃ tu kṛtāyāṃ hi yāturvarṇyasya tena vai / punaḥ prajāstu tā mohāddharmmaṃ taṃ nānvapālayan",
-          "hindi": "तस्मात्तमौव्यक्तमयं क्षेत्रह्ले ब्रह्मसंज्ञकः ।"
+          "hindi": "तस्मात्तमौव्यक्तमयं क्षेत्रह्ले ब्रह्मसंज्ञकः ।",
+          "translation": "When the arrangement of the four varnas was made by him, those people through delusion again did not keep that dharma.",
+          "translationSource": "ai"
         },
         {
           "number": 160,
           "sanskrit": "वर्णधर्मैश्च जीवंत्यो व्यरुद्ध्यंत परस्परम् । ब्रह्मा बुद्धा तु तत्सर्वं याथातथ्येन स प्रभुः",
           "transliteration": "varṇadharmaiśca jīvaṃtyo vyaruddhyaṃta parasparam / brahmā buddhā tu tatsarvaṃ yāthātathyena sa prabhuḥ",
-          "hindi": "अयो के तत्वों का ज्ञाता होगा ।४८। वह अपने पितरों के गौरव से सुसमन्बरित होगा ओर महान यत्न से परम घोर तप करके निश्चय ही स्वम से यहाँ पर गङ्गा को लावेगा"
+          "hindi": "अयो के तत्वों का ज्ञाता होगा ।४८। वह अपने पितरों के गौरव से सुसमन्बरित होगा ओर महान यत्न से परम घोर तप करके निश्चय ही स्वम से यहाँ पर गङ्गा को लावेगा",
+          "translation": "Living by the dharmas of varnas, they obstructed one another. Brahma, understanding all that as it was, the lord,",
+          "translationSource": "ai"
         },
         {
           "number": 161,
           "sanskrit": "क्षत्रियाणां बलं दंडं युद्धमाजीव्यमादिशत् । याजनाध्यापने ब्रह्मा तथा दानप्रतिग्रहम्",
           "transliteration": "kṣatriyāṇāṃ balaṃ daṃḍaṃ yuddhamājīvyamādiśat / yājanādhyāpane brahmā tathā dānapratigraham",
-          "hindi": "भागीरथीति लोकेऽस्मिन्सा विख्यातिमुर्ष्यति"
+          "hindi": "भागीरथीति लोकेऽस्मिन्सा विख्यातिमुर्ष्यति",
+          "translation": "assigned to Kshatriyas strength, punishment, war and its livelihood; to Brahmins sacrificing, teaching, giving and accepting gifts.",
+          "translationSource": "ai"
         },
         {
           "number": 162,
           "sanskrit": "ब्राह्मणानां विभुस्तेषां कर्माण्येता न्यथादिशत् । पाशुपाल्यं च वाणिज्यं कृषिं चैव विशां ददौ",
           "transliteration": "brāhmaṇānāṃ vibhusteṣāṃ karmāṇyetā nyathādiśat / pāśupālyaṃ ca vāṇijyaṃ kṛṣiṃ caiva viśāṃ dadau",
-          "hindi": "निरयादपि संयाति देही स्वर्लोकमक्षयग्"
+          "hindi": "निरयादपि संयाति देही स्वर्लोकमक्षयग्",
+          "translation": "Of them the lord thus assigned these works; he gave cattle-keeping, trade and agriculture to the Vaishyas.",
+          "translationSource": "ai"
         },
         {
           "number": 163,
           "sanskrit": "शिल्पाजीवभृतां चैव शूद्राणां व्यदधात्पुनः । सामान्यानि च कर्माणि ब्रह्मक्षत्रविशां पुनः",
           "transliteration": "śilpājīvabhṛtāṃ caiva śūdrāṇāṃ vyadadhātpunaḥ / sāmānyāni ca karmāṇi brahmakṣatraviśāṃ punaḥ",
-          "hindi": "ययौ तेनाभ्यनुज्ञातः साकेतनगरं प्रति"
+          "hindi": "ययौ तेनाभ्यनुज्ञातः साकेतनगरं प्रति",
+          "translation": "And he ordained for the Shudras the livelihood of craftsmen; and common actions for Brahmins, Kshatriyas and Vaishyas.",
+          "translationSource": "ai"
         },
         {
           "number": 164,
           "sanskrit": "यजनाध्यापने दानं सामान्यानीतरेषु च । कर्माजीवं तु वै दत्त्वा तेषामिह परस्परम्",
           "transliteration": "yajanādhyāpane dānaṃ sāmānyānītareṣu ca / karmājīvaṃ tu vai dattvā teṣāmiha parasparam",
-          "hindi": "उस पतित पावनी ग्भा के पुनीत जल से उन सबके गात्रनअस्थि और भस्म के पवित्र हो जाने पर वे समस्त आपके ,पितृगण स्वगे में गति को प्राप्त करेगे ।१०! है नृपनन्दन उस गङ्का का माहारम्य ही ऐसा अद्भुत है । राजा भगीरथ के द्वारा यहाँ लाने से इस लोक में उसका नाम भागीरथी"
+          "hindi": "उस पतित पावनी ग्भा के पुनीत जल से उन सबके गात्रनअस्थि और भस्म के पवित्र हो जाने पर वे समस्त आपके ,पितृगण स्वगे में गति को प्राप्त करेगे ।१०! है नृपनन्दन उस गङ्का का माहारम्य ही ऐसा अद्भुत है । राजा भगीरथ के द्वारा यहाँ लाने से इस लोक में उसका नाम भागीरथी",
+          "translation": "Sacrifice, study and giving are common to the others; having given them mutually a livelihood by action,",
+          "translationSource": "ai"
         },
         {
           "number": 165,
           "sanskrit": "तेषां लोकांतरे मूर्ध्नि स्थानानि विदधे पुनः । प्राजापत्यं द्विजातीनां स्मृतं स्थानं क्रियावताम्",
           "transliteration": "teṣāṃ lokāṃtare mūrdhni sthānāni vidadhe punaḥ / prājāpatyaṃ dvijātīnāṃ smṛtaṃ sthānaṃ kriyāvatām",
-          "hindi": "असिद्ध होगा ।५१। गङ्का का बड़ा अदुभुठ माहातम्य होता है कि उसके जल में किसी भी प्राणी को अस्थि-भस्म-न आदि कोई भी भाग जब प्लावित हो जाता है तो बह प्राणी नरक की यातनाओं से भी मुक्त होकर अक्षय स्वर्गलोक में चला जाया करता है ।५२। इस कारण से अब आप यहां से"
+          "hindi": "असिद्ध होगा ।५१। गङ्का का बड़ा अदुभुठ माहातम्य होता है कि उसके जल में किसी भी प्राणी को अस्थि-भस्म-न आदि कोई भी भाग जब प्लावित हो जाता है तो बह प्राणी नरक की यातनाओं से भी मुक्त होकर अक्षय स्वर्गलोक में चला जाया करता है ।५२। इस कारण से अब आप यहां से",
+          "translation": "he again established their places in the other worlds at the head: the Prajapati's place is remembered for the twice-born who perform rites;",
+          "translationSource": "ai"
         },
         {
           "number": 166,
           "sanskrit": "स्थानमैद्रं क्षत्रियाणां संग्रामेष्वपलायिनाम् । वैश्यानां मारुतं स्थानं स्वस्वकर्मोपजीविनाम्",
           "transliteration": "sthānamaidraṃ kṣatriyāṇāṃ saṃgrāmeṣvapalāyinām / vaiśyānāṃ mārutaṃ sthānaṃ svasvakarmopajīvinām",
-          "hindi": "चले जाइए--आपका कल्याण होगा--आपको कुछ भी शोक नहीं करना चाहिए । अपने पितामह को यह अश्व ले जाकर दे दो ।५३। जैमिनि मुनि"
+          "hindi": "चले जाइए--आपका कल्याण होगा--आपको कुछ भी शोक नहीं करना चाहिए । अपने पितामह को यह अश्व ले जाकर दे दो ।५३। जैमिनि मुनि",
+          "translation": "Indra's place for Kshatriyas who do not flee in battles; the Maruts' place for Vaishyas who live by their own work;",
+          "translationSource": "ai"
         },
         {
           "number": 167,
           "sanskrit": "गांधर्वं शूद्रजातीनां परिचर्ये च तिष्ठताम् । स्थानान्येतानि वर्णानां योग्याचारवतां सताम्",
           "transliteration": "gāṃdharvaṃ śūdrajātīnāṃ paricarye ca tiṣṭhatām / sthānānyetāni varṇānāṃ yogyācāravatāṃ satām",
-          "hindi": "४६  ब्रह्माण्ड पुराण"
+          "hindi": "४६  ब्रह्माण्ड पुराण",
+          "translation": "the Gandharva place for the Shudra classes who remain in service. These are the places of the varnas, of the good with proper conduct.",
+          "translationSource": "ai"
         },
         {
           "number": 168,
           "sanskrit": "संस्थित्यां सुकृतायां वै चातुर्वर्ण्यस्य तस्य तत् । वर्णास्तु दंडभयतः स्वेस्वे वर्ण्ये व्यवस्थिताः । ततः स्थितेषु वर्णेषु स्थापयामास ह्याश्रमान्",
           "transliteration": "saṃsthityāṃ sukṛtāyāṃ vai cāturvarṇyasya tasya tat / varṇāstu daṃḍabhayataḥ svesve varṇye vyavasthitāḥ / tataḥ sthiteṣu varṇeṣu sthāpayāmāsa hyāśramān",
-          "hindi": "योगीश्वरः शरीराणि करोति विकरोति च"
+          "hindi": "योगीश्वरः शरीराणि करोति विकरोति च",
+          "translation": "When the arrangement of the four varnas was well made, the varnas stood each in its own from fear of punishment. Then, the varnas being established, he established the ashramas:",
+          "translationSource": "ai"
         },
         {
           "number": 169,
           "sanskrit": "गृहस्थो ब्रह्मचारी च वानप्रस्थो यतिस्तथा । आश्रमाश्चतुरो ह्येतान्पूर्ववत्स्थापयन्प्रभुः",
           "transliteration": "gṛhastho brahmacārī ca vānaprastho yatistathā / āśramāścaturo hyetānpūrvavatsthāpayanprabhuḥ",
-          "hindi": "बह प्रयम ही शरीर था जो कि धारणत्व से व्यवस्थित था। यहाँ"
+          "hindi": "बह प्रयम ही शरीर था जो कि धारणत्व से व्यवस्थित था। यहाँ",
+          "translation": "householder, celibate student, forest-dweller and ascetic. The lord established these four ashramas as before.",
+          "translationSource": "ai"
         },
         {
           "number": 170,
           "sanskrit": "वर्णकर्माणि ये केचित्तेषामिह चतुर्भवः । कृतकर्म्म कृतावासा आश्रमादुपभुञ्जते",
           "transliteration": "varṇakarmāṇi ye kecitteṣāmiha caturbhavaḥ / kṛtakarmma kṛtāvāsā āśramādupabhuñjate",
-          "hindi": "पर अनृपम ज्ञान से और बेराग्य से सप्तति था। इसके अब्यक्तता के लिए उस मन से वह जो-जो भी इच्छा करता था बही करता था क्योंकि इसके तीनों गुण बश में किये हुए थे और भाव से वे एक दूसरे की अपेक्षा करने बाले थे ।१५-१६। चतुमु' ख ब्रह्मात्व को प्राप्त किया था और अन्त करनेवाले"
+          "hindi": "पर अनृपम ज्ञान से और बेराग्य से सप्तति था। इसके अब्यक्तता के लिए उस मन से वह जो-जो भी इच्छा करता था बही करता था क्योंकि इसके तीनों गुण बश में किये हुए थे और भाव से वे एक दूसरे की अपेक्षा करने बाले थे ।१५-१६। चतुमु' ख ब्रह्मात्व को प्राप्त किया था और अन्त करनेवाले",
+          "translation": "Those who are of the works of varnas, the fourfold among them, having done their works and made their abode, enjoy by the ashrama.",
+          "translationSource": "ai"
         },
         {
           "number": 171,
           "sanskrit": "ब्रह्मा तान्स्थापयामास आश्रमान् भ्रामतामतः । निर्द्दिदेश ततस्तेषां ब्रह्मा धर्मान्प्रभा षते",
           "transliteration": "brahmā tānsthāpayāmāsa āśramān bhrāmatāmataḥ / nirddideśa tatasteṣāṃ brahmā dharmānprabhā ṣate",
-          "hindi": "पुरुष हुए । इस प्रकार से स्वयम्भू की हो ये तीन अवस्थाएं थीं । १७। ब्रह्मत्व की दशा में सब रजोगण है और काल की अबस्था में रजोग,ण और तमो- ग्ण होता है ।.जब पुरुष की दशा में यह होते हैं तो तत्वग,ण के युक्त होते हैं। इस प्रकार से “स्वयम्भू में ग,णों की वृत्ति होती है ।१८। जब ब्रह्मा की"
+          "hindi": "पुरुष हुए । इस प्रकार से स्वयम्भू की हो ये तीन अवस्थाएं थीं । १७। ब्रह्मत्व की दशा में सब रजोगण है और काल की अबस्था में रजोग,ण और तमो- ग्ण होता है ।.जब पुरुष की दशा में यह होते हैं तो तत्वग,ण के युक्त होते हैं। इस प्रकार से “स्वयम्भू में ग,णों की वृत्ति होती है ।१८। जब ब्रह्मा की",
+          "translation": "Brahma established those ashramas for the wandering; then Brahma declared their dharmas.",
+          "translationSource": "ai"
         },
         {
           "number": 172,
           "sanskrit": "प्रस्थानानि तु तेषां च यमान्सनियमांस्तथा । चतुर्वर्णात्मकः पूर्वं गृहस्थस्याश्रमः स्थितः",
           "transliteration": "prasthānāni tu teṣāṃ ca yamānsaniyamāṃstathā / caturvarṇātmakaḥ pūrvaṃ gṛhasthasyāśramaḥ sthitaḥ",
-          "hindi": "दशा में यह रहते हैं तो यह लोकों का सूजन किया करते हैं। जब काल का स्वरूप धारण किया करते है तो उन सभी लोकों का संक्षय करते हैं। जब केबल पुरुष की दशा में होते हैं तो यह उदासीन रहते हैं । ऐसे स्वयम्भू की ही ये यीन भिन्न-भिन्न अबस्थाएँ हुआ करती हैं ।१९। ब्रह्मा कमल के दलों"
+          "hindi": "दशा में यह रहते हैं तो यह लोकों का सूजन किया करते हैं। जब काल का स्वरूप धारण किया करते है तो उन सभी लोकों का संक्षय करते हैं। जब केबल पुरुष की दशा में होते हैं तो यह उदासीन रहते हैं । ऐसे स्वयम्भू की ही ये यीन भिन्न-भिन्न अबस्थाएँ हुआ करती हैं ।१९। ब्रह्मा कमल के दलों",
+          "translation": "Their departures, restraints and observances: the householder's ashrama, formerly made of the four varnas, stands.",
+          "translationSource": "ai"
         },
         {
           "number": 173,
           "sanskrit": "त्रयाणा माश्रमाणां च वृत्तियोनीति चैव हि । यथाक्रमं च वक्ष्यामि व्रतैश्च नियमैस्तथा",
           "transliteration": "trayāṇā māśramāṇāṃ ca vṛttiyonīti caiva hi / yathākramaṃ ca vakṣyāmi vrataiśca niyamaistathā",
-          "hindi": "के समान नेन्नों वाले होते हैं और काल का जब उनका स्वरूप होता है तो अञ्जन के समान कृष्ण बं होता है । जब उदासीन पुरुष के रूप में होते हैं तो यह परमात्मा के स्वरूप से पुण्डरीकाक्ष होते हैं ।२०। एक प्रकार से-- दो प्रकार से-तीन प्रकार से फिर बहुत प्रकार से योगीश्वर प्रभु अनेक"
+          "hindi": "के समान नेन्नों वाले होते हैं और काल का जब उनका स्वरूप होता है तो अञ्जन के समान कृष्ण बं होता है । जब उदासीन पुरुष के रूप में होते हैं तो यह परमात्मा के स्वरूप से पुण्डरीकाक्ष होते हैं ।२०। एक प्रकार से-- दो प्रकार से-तीन प्रकार से फिर बहुत प्रकार से योगीश्वर प्रभु अनेक",
+          "translation": "And the source of livelihood of the three ashramas — I shall tell in order, with vows and observances.",
+          "translationSource": "ai"
         },
         {
           "number": 174,
           "sanskrit": "दाराग्नयश्चातिथय इष्टाः श्राद्धक्रियाः प्रजाः । इत्येष वै गृहस्थस्य समासाद्धर्मसंग्रहः",
           "transliteration": "dārāgnayaścātithaya iṣṭāḥ śrāddhakriyāḥ prajāḥ / ityeṣa vai gṛhasthasya samāsāddharmasaṃgrahaḥ",
-          "hindi": "शरीरों को बनाया करते हैं और बदलते रहा करते हैं"
+          "hindi": "शरीरों को बनाया करते हैं और बदलते रहा करते हैं",
+          "translation": "Wife, fires, guests, sacrifices, shraddha rites and offspring: this is in brief the compendium of the householder's dharma.",
+          "translationSource": "ai"
         },
         {
           "number": 175,
           "sanskrit": "ढंडी च मेखली चैव अधःशायी तथाजिनी । गुरुशुश्रूषणं भैक्ष्यंविद्यार्थी ब्रह्मचारिणः",
           "transliteration": "ḍhaṃḍī ca mekhalī caiva adhaḥśāyī tathājinī / guruśuśrūṣaṇaṃ bhaikṣyaṃvidyārthī brahmacāriṇaḥ",
-          "hindi": "त्रिधा यद्वतंते लोके तस्मात्त्रिगुण उच्यते"
+          "hindi": "त्रिधा यद्वतंते लोके तस्मात्त्रिगुण उच्यते",
+          "translation": "Staff, girdle, sleeping on the ground and deer-skin, service to the teacher, alms: these are for the student seeking learning.",
+          "translationSource": "ai"
         },
         {
           "number": 176,
           "sanskrit": "चीरपत्राजिनानि स्युर्वनमूलफलौषधैः । उभे संध्ये वगाहश्च होमश्चारण्यवासिनाम्",
           "transliteration": "cīrapatrājināni syurvanamūlaphalauṣadhaiḥ / ubhe saṃdhye vagāhaśca homaścāraṇyavāsinām",
-          "hindi": "चतुर्धा प्रविभक्तत्वाच्चतुव्यूं हः प्रकीत्तितः ।"
+          "hindi": "चतुर्धा प्रविभक्तत्वाच्चतुव्यूं हः प्रकीत्तितः ।",
+          "translation": "Bark, leaves and skins, forest roots, fruits and herbs; bathing at both twilights and fire-offering for forest-dwellers.",
+          "translationSource": "ai"
         },
         {
           "number": 177,
           "sanskrit": "विपन्नमुसले भैक्ष्यमास्तेयं शौचमेव च । अप्रमादो ऽव्यवायश्च दया भूतेषु च क्षमा",
           "transliteration": "vipannamusale bhaikṣyamāsteyaṃ śaucameva ca / apramādo 'vyavāyaśca dayā bhūteṣu ca kṣamā",
-          "hindi": "भगवानग्रसद्रभावान्नागो नागस्वसंश्रयात्"
+          "hindi": "भगवानग्रसद्रभावान्नागो नागस्वसंश्रयात्",
+          "translation": "Alms when the pestle is idle, non-stealing and purity, heedfulness, chastity, compassion toward beings and forbearance,",
+          "translationSource": "ai"
         },
         {
           "number": 178,
           "sanskrit": "श्रवणं गुरुशुश्रूषा सत्यं च दशमं स्मृतम् । दशलक्षणको ह्येष धर्मः प्रोक्तः स्वयंभूवा",
           "transliteration": "śravaṇaṃ guruśuśrūṣā satyaṃ ca daśamaṃ smṛtam / daśalakṣaṇako hyeṣa dharmaḥ proktaḥ svayaṃbhūvā",
-          "hindi": "लोक वर्जनम् (१)  fs"
+          "hindi": "लोक वर्जनम् (१)  fs",
+          "translation": "hearing, service to the teacher, and truth as the tenth are remembered; this dharma of ten marks was declared by the Self-born.",
+          "translationSource": "ai"
         },
         {
           "number": 179,
           "sanskrit": "भिक्षोर्व्रतानि पंचात्र भैक्ष्यवेदव्रतानि च । तेषां स्थानान्यशुष्मिं च संस्थिताना मचष्ट सः",
           "transliteration": "bhikṣorvratāni paṃcātra bhaikṣyavedavratāni ca / teṣāṃ sthānānyaśuṣmiṃ ca saṃsthitānā macaṣṭa saḥ",
-          "hindi": "नराणां स्वापनं ब्रह्मा तस्मान्नारायणः स्मृतः ।"
+          "hindi": "नराणां स्वापनं ब्रह्मा तस्मान्नारायणः स्मृतः ।",
+          "translation": "For the mendicant there are five vows and the vows of alms and Veda; he told their places as established.",
+          "translationSource": "ai"
         },
         {
           "number": 180,
           "sanskrit": "अष्टाशीतिसहस्राणि ऋषीणामूर्ध्वरेतसाम् । स्मृतं तेषां तु यत् स्थानं तदेव गुरुवासिनाम्",
           "transliteration": "aṣṭāśītisahasrāṇi ṛṣīṇāmūrdhvaretasām / smṛtaṃ teṣāṃ tu yat sthānaṃ tadeva guruvāsinām",
-          "hindi": "अनेक क्रिया-आकार और स्वरूप का आश्रय ग्रहण किया करते हैं और यह सब अपनी ही लीला से करते रहा करते हैं। लोक में यह तीन प्रकार बाले होकर रहते हैं इसी कारण से इनको विगुण कहा जाता है ।२२। जार भ्रकार से प्रबिभवत होने से यह चतुब्यूं ह कहा गया है। जिस"
+          "hindi": "अनेक क्रिया-आकार और स्वरूप का आश्रय ग्रहण किया करते हैं और यह सब अपनी ही लीला से करते रहा करते हैं। लोक में यह तीन प्रकार बाले होकर रहते हैं इसी कारण से इनको विगुण कहा जाता है ।२२। जार भ्रकार से प्रबिभवत होने से यह चतुब्यूं ह कहा गया है। जिस",
+          "translation": "Eighty-eight thousand sages of upward seed: their place is remembered, the same as that of those living with teachers.",
+          "translationSource": "ai"
         },
         {
           "number": 181,
           "sanskrit": "सप्तर्षीणा तु यत्स्थानं स्मृतं तद्वै वनौकसाम् । प्राजापत्यं गृहस्थानां न्यासिनां ब्रह्मणःक्षयम्",
           "transliteration": "saptarṣīṇā tu yatsthānaṃ smṛtaṃ tadvai vanaukasām / prājāpatyaṃ gṛhasthānāṃ nyāsināṃ brahmaṇaḥkṣayam",
-          "hindi": "समय में यह शयन किया करते हैं उस समय में बह अर्घान्त होते हैं प्रभु"
+          "hindi": "समय में यह शयन किया करते हैं उस समय में बह अर्घान्त होते हैं प्रभु",
+          "translation": "The place of the Seven Sages is remembered as that of forest-dwellers; the Prajapati place for householders, Brahma's abode for renunciants.",
+          "translationSource": "ai"
         },
         {
           "number": 182,
           "sanskrit": "योगिनामकृतं स्थानं तानाजित्बा न विद्यते । स्थानान्याश्रमिणस्तानि ब्रह्मस्थानस्थितानि तु",
           "transliteration": "yogināmakṛtaṃ sthānaṃ tānājitbā na vidyate / sthānānyāśramiṇastāni brahmasthānasthitāni tu",
-          "hindi": "होता है । इसी से आत्मा कहा जाता है ओर ऋषि इसमें सबंगत हैं। वह शरीर में आते हैं ।२५। भगवान् विष्णु सबके स्वामी हैं क्योंकि विष्णु का सभी में प्रवेश होता है। भगवान् अप्रसदुभावस नाग हैं ओर ताग का संश्रयः नहीं होता है ।२५। संप्रहृष्ट होने से परम है और देवता होने से ओस् यह"
+          "hindi": "होता है । इसी से आत्मा कहा जाता है ओर ऋषि इसमें सबंगत हैं। वह शरीर में आते हैं ।२५। भगवान् विष्णु सबके स्वामी हैं क्योंकि विष्णु का सभी में प्रवेश होता है। भगवान् अप्रसदुभावस नाग हैं ओर ताग का संश्रयः नहीं होता है ।२५। संप्रहृष्ट होने से परम है और देवता होने से ओस् यह",
+          "translation": "The place of yogis is unmade; without conquering it is not found. The places of the ashrama-dwellers stand in Brahma's station.",
+          "translationSource": "ai"
         },
         {
           "number": 183,
           "sanskrit": "चत्वार एव पंथानो देवयानानि निर्मिताः । पंथानः पितृयानास्तु समृताश्चत्वार एव ते",
           "transliteration": "catvāra eva paṃthāno devayānāni nirmitāḥ / paṃthānaḥ pitṛyānāstu samṛtāścatvāra eva te",
-          "hindi": "स्मृति है। सबके बिज्ञान होने से यह सर्वेज्ञ हैं क्योंकि यह सबमें हैं अतएव सह् सर्व कहा जाता है ।२६। नरों में अर्थात् जलों में यह स्वपन किया करते हैं इस कारण से ब्रह्माजी नारायण कहे गये हैं और अपने आपके स्वरूप को तीन प्रकार से विभक्त करके यह सकल से संप्रवृत्त हुआ करते हैँ ।२७। इन"
+          "hindi": "स्मृति है। सबके बिज्ञान होने से यह सर्वेज्ञ हैं क्योंकि यह सबमें हैं अतएव सह् सर्व कहा जाता है ।२६। नरों में अर्थात् जलों में यह स्वपन किया करते हैं इस कारण से ब्रह्माजी नारायण कहे गये हैं और अपने आपके स्वरूप को तीन प्रकार से विभक्त करके यह सकल से संप्रवृत्त हुआ करते हैँ ।२७। इन",
+          "translation": "Four paths of the gods were made, and four paths of the ancestors are remembered.",
+          "translationSource": "ai"
         },
         {
           "number": 184,
           "sanskrit": "ब्रह्मणां लोकतन्त्रेण आद्ये मन्वन्तरे पुरा । पंथानो देवयाना ये तेषां द्वारं रंविः स्मृतः । तथैव पितृयानानां चन्द्रमा द्वारमुच्यते",
           "transliteration": "brahmaṇāṃ lokatantreṇa ādye manvantare purā / paṃthāno devayānā ye teṣāṃ dvāraṃ raṃviḥ smṛtaḥ / tathaiva pitṛyānānāṃ candramā dvāramucyate",
-          "hindi": "तीनों स्वरूपो से यह लोकों का सूजन पालन और करम से गसन किया करते हैं। बही सबसे आगे हिरण्यगर्भ होते हुए स्वयं प्रादुभू'त हुए हैं"
+          "hindi": "तीनों स्वरूपो से यह लोकों का सूजन पालन और करम से गसन किया करते हैं। बही सबसे आगे हिरण्यगर्भ होते हुए स्वयं प्रादुभू'त हुए हैं",
+          "translation": "By the world-system of Brahma, in the first manvantara long ago, the paths of the gods have the Sun remembered as their door, and likewise the moon is called the door of the paths of the ancestors.",
+          "translationSource": "ai"
         },
         {
           "number": 185,
           "sanskrit": "एवं वर्णाश्रमाणां च प्रविभागे कृते तदा । यदा प्रजा ना वर्द्धंत वर्णधर्मसमासिकाः",
           "transliteration": "evaṃ varṇāśramāṇāṃ ca pravibhāge kṛte tadā / yadā prajā nā varddhaṃta varṇadharmasamāsikāḥ",
-          "hindi": "तस्माद्धिरण्यगभंश्च पुराणेषु निरुच्यते"
+          "hindi": "तस्माद्धिरण्यगभंश्च पुराणेषु निरुच्यते",
+          "translation": "Thus when the division of varnas and ashramas was made, then when the creatures did not increase, being kept by the dharma of varnas,",
+          "translationSource": "ai"
         },
         {
           "number": 186,
           "sanskrit": "ततो ऽन्यां मानसीं स्वां वै त्रेतामध्ये ऽसृजत्प्रजाः । आत्मनस्तु शरीरेभ्यस्तुल्याश्चैवात्मना तु ताः",
           "transliteration": "tato 'nyāṃ mānasīṃ svāṃ vai tretāmadhye 'sṛjatprajāḥ / ātmanastu śarīrebhyastulyāścaivātmanā tu tāḥ",
-          "hindi": "स्वयंभुवो निवृत्तस्य कालो वर्णाग्रतस्तु यः।"
+          "hindi": "स्वयंभुवो निवृत्तस्य कालो वर्णाग्रतस्तु यः।",
+          "translation": "then he created another mental progeny of his own in the middle of Treta, equal to himself, from his own bodies.",
+          "translationSource": "ai"
         },
         {
           "number": 187,
           "sanskrit": "तस्मिस्त्रेतायुगे त्वाद्ये मध्यं प्राप्ते क्रमेण तु । ततो ऽन्यां मानसीं सो ऽथ प्रजाः स्रष्टुं प्रचक्रमे",
           "transliteration": "tasmistretāyuge tvādye madhyaṃ prāpte krameṇa tu / tato 'nyāṃ mānasīṃ so 'tha prajāḥ sraṣṭuṃ pracakrame",
-          "hindi": "कल्पसंख्यानिवृत्तस्तु परार्धो ब्रह्मणः स्मृतः ।"
+          "hindi": "कल्पसंख्यानिवृत्तस्तु परार्धो ब्रह्मणः स्मृतः ।",
+          "translation": "In that first Treta yuga, when the middle had come in order, he then began to create another mental progeny.",
+          "translationSource": "ai"
         },
         {
           "number": 188,
           "sanskrit": "ततः सत्त्वरजोद्रिक्ताः प्रजाः सह्यसृजत्प्रभुः । धर्मार्थकाममोक्षाणां वार्त्तानां साधकाश्च याः",
           "transliteration": "tataḥ sattvarajodriktāḥ prajāḥ sahyasṛjatprabhuḥ / dharmārthakāmamokṣāṇāṃ vārttānāṃ sādhakāśca yāḥ",
-          "hindi": "तावत्त्वे सोऽस्य कालोऽन्यस्तस्यांते प्रतिबुद्धधते ॥"
+          "hindi": "तावत्त्वे सोऽस्य कालोऽन्यस्तस्यांते प्रतिबुद्धधते ॥",
+          "translation": "Then the lord created creatures pervaded by sattva and rajas, who were accomplishers of dharma, wealth, desire, liberation and livelihood —",
+          "translationSource": "ai"
         },
         {
           "number": 189,
           "sanskrit": "देवाश्च पितरश्चैव ऋषयो मनवस्तथा । युगानुरूपा धर्मेण यैरिमा वर्द्धिताः प्रजाः",
           "transliteration": "devāśca pitaraścaiva ṛṣayo manavastathā / yugānurūpā dharmeṇa yairimā varddhitāḥ prajāḥ",
-          "hindi": "कोटिवर्षसहस्राणि ग्रृहभूतानि यानि च ।"
+          "hindi": "कोटिवर्षसहस्राणि ग्रृहभूतानि यानि च ।",
+          "translation": "gods, ancestors, sages and Manus, by whom these creatures were increased by dharma suited to the yuga.",
+          "translationSource": "ai"
         },
         {
           "number": 190,
           "sanskrit": "उपस्थिते तदा तस्मिन् सृष्टिवर्गे स्वयंभुवः । अभिध्याय प्रजा ब्रह्मा नानावीर्याः स्वमानसीः",
           "transliteration": "upasthite tadā tasmin sṛṣṭivarge svayaṃbhuvaḥ / abhidhyāya prajā brahmā nānāvīryāḥ svamānasīḥ",
-          "hindi": "इब  ब्रह्माण्ड पुराण:"
+          "hindi": "इब  ब्रह्माण्ड पुराण:",
+          "translation": "When that group of the Self-born's creation had come, Brahma reflected on his mental creatures of various powers,",
+          "translationSource": "ai"
         },
         {
           "number": 191,
           "sanskrit": "पूर्वोक्ता या मया तुभ्यं जनानीकं समाश्रिताः । कल्पे ऽतीते पुराण्यासीद्देवाद्यास्तु प्रजा इह",
           "transliteration": "pūrvoktā yā mayā tubhyaṃ janānīkaṃ samāśritāḥ / kalpe 'tīte purāṇyāsīddevādyāstu prajā iha",
-          "hindi": "क्योंकि यह सबसे आदि काल में होने वाले हैं। अतएव यहु स्ववशी हैं अर्थात् अपने' ही' वश में रहने वाले हैं ऐसा हो कहा गया है । उसी कारण से पुराणों में इनको\" हिरण्वगभं' कहा जाया. करता है ।२९। जो स्वयम्भुब है बह निवृत्त का वर्णों में अग्रकाल है। इसकी परिसंख्या x के सेकड़ों बर्षों"
+          "hindi": "क्योंकि यह सबसे आदि काल में होने वाले हैं। अतएव यहु स्ववशी हैं अर्थात् अपने' ही' वश में रहने वाले हैं ऐसा हो कहा गया है । उसी कारण से पुराणों में इनको\" हिरण्वगभं' कहा जाया. करता है ।२९। जो स्वयम्भुब है बह निवृत्त का वर्णों में अग्रकाल है। इसकी परिसंख्या x के सेकड़ों बर्षों",
+          "translation": "those mentioned to you by me before, who had taken refuge in the host of people; in the past kalpa, in earlier cities, creatures such as gods were here.",
+          "translationSource": "ai"
         },
         {
           "number": 192,
           "sanskrit": "ध्यायतस्तस्य तानीह संभूत्यर्थमुपस्तिताः । मन्वंतरक्रमेणेह कनिष्ठाः प्रथमेन ताः",
           "transliteration": "dhyāyatastasya tānīha saṃbhūtyarthamupastitāḥ / manvaṃtarakrameṇeha kaniṣṭhāḥ prathamena tāḥ",
-          "hindi": "में भी नहीं की जा सकती है'३०। कल्पों ' की संख्या से निवृत्तः ब्रह्मा का पराध॑ कहा गया है । उतने ही में इसका वह काल है उसके अन्त में'अन्य' काल\" प्रतिबुद्ध होता' है ।३१। करोड़ों सहस्नर-वर्ष' जो कि इसके'गृहभूत हैं। उतने कल्पों के समतीत हैं और जो शेष हैं वे दूसरे हैं।३२। जो स्वयं कल्प"
+          "hindi": "में भी नहीं की जा सकती है'३०। कल्पों ' की संख्या से निवृत्तः ब्रह्मा का पराध॑ कहा गया है । उतने ही में इसका वह काल है उसके अन्त में'अन्य' काल\" प्रतिबुद्ध होता' है ।३१। करोड़ों सहस्नर-वर्ष' जो कि इसके'गृहभूत हैं। उतने कल्पों के समतीत हैं और जो शेष हैं वे दूसरे हैं।३२। जो स्वयं कल्प",
+          "translation": "As he meditated, they presented themselves for coming into being, in order of manvantaras, the youngest by the first.",
+          "translationSource": "ai"
         },
         {
           "number": 193,
           "sanskrit": "ख्यातास्तु वंश्यैरेतैस्तु पूर्वं यैरिह भाविताः । कुशलाकुशलैः कंदैरक्षीणैस्तैस्तदा युताः",
           "transliteration": "khyātāstu vaṃśyairetaistu pūrvaṃ yairiha bhāvitāḥ / kuśalākuśalaiḥ kaṃdairakṣīṇaistaistadā yutāḥ",
-          "hindi": "है वह वाराह कल्प है“-ऐसा ही समझ'लो। प्रथम उनमें साम्प्रत” है ओर! जो कल्प होता है 7३३। एक सहल्न युगों के पूर्ण हो जाने पर नरेशवरों के द्वारा परिपालन के योग्य है'"
+          "hindi": "है वह वाराह कल्प है“-ऐसा ही समझ'लो। प्रथम उनमें साम्प्रत” है ओर! जो कल्प होता है 7३३। एक सहल्न युगों के पूर्ण हो जाने पर नरेशवरों के द्वारा परिपालन के योग्य है'",
+          "translation": "They were famed by these families, by whom they were formerly brought into being here, then joined with undiminished roots of good and bad.",
+          "translationSource": "ai"
         },
         {
           "number": 194,
           "sanskrit": "तत्कर्मफलदोषेण ह्युपबाधाः प्रजज्ञिरे । देवासुरपितॄंश्चैव यक्षैर्गन्धर्वमानुषैः",
           "transliteration": "tatkarmaphaladoṣeṇa hyupabādhāḥ prajajñire / devāsurapitṝṃścaiva yakṣairgandharvamānuṣaiḥ",
-          "hindi": "एकार्णवेः तदा-तस्मिन्नष्टेः स्थावरजङ्गमे ।"
+          "hindi": "एकार्णवेः तदा-तस्मिन्नष्टेः स्थावरजङ्गमे ।",
+          "translation": "By the fault of the fruit of that action, afflictions were born: among gods, Asuras, ancestors, Yakshas, Gandharvas, humans,",
+          "translationSource": "ai"
         },
         {
           "number": 195,
           "sanskrit": "राक्षसैस्तु पिशाचैस्तैः पशुपक्षिसरीसृपैः । वृक्षनारककीटाद्यैस्तैस्तैः सर्वैरुपस्थिताः । आहारार्थं प्रजानां वै विदात्मानो विनिर्ममे",
           "transliteration": "rākṣasaistu piśācaistaiḥ paśupakṣisarīsṛpaiḥ / vṛkṣanārakakīṭādyaistaistaiḥ sarvairupasthitāḥ / āhārārthaṃ prajānāṃ vai vidātmāno vinirmame",
-          "hindi": "ब्रह्म नारायणाख्यस्तु सुष्वाप सलिले तदा"
+          "hindi": "ब्रह्म नारायणाख्यस्तु सुष्वाप सलिले तदा",
+          "translation": "Rakshasas, Pishachas, animals, birds, reptiles, trees, hell-beings, insects and the like, all were present. For the livelihood of creatures the knower of himself made (provisions).",
+          "translationSource": "ai"
         }
       ]
     },
@@ -4506,331 +4588,441 @@
           "number": 38,
           "sanskrit": "तया स रमते सार्द्धं तस्मात्सा रतिरुच्यते । प्रथमः संप्रयोगः स कल्पादौ समवर्त्तत",
           "transliteration": "tayā sa ramate sārddhaṃ tasmātsā ratirucyate / prathamaḥ saṃprayogaḥ sa kalpādau samavarttata",
-          "hindi": "थीं ।६६। उन ब्रह्मोओ ने अपने मन के द्वारा नो पुत्रों की सृष्टि की थी। वे नौं ये हैं--भूगु- मरीचि--पुलस्त्य--पुलह---कुतु-दक्ष-अत्रि और वसिछ्ठ। उस समय में इनका सृजन किया था"
+          "hindi": "थीं ।६६। उन ब्रह्मोओ ने अपने मन के द्वारा नो पुत्रों की सृष्टि की थी। वे नौं ये हैं--भूगु- मरीचि--पुलस्त्य--पुलह---कुतु-दक्ष-अत्रि और वसिछ्ठ। उस समय में इनका सृजन किया था",
+          "translation": "With her he sports; therefore she is called Rati. That first union occurred at the beginning of the kalpa.",
+          "translationSource": "ai"
         },
         {
           "number": 39,
           "sanskrit": "विराजमसृजद्ब्रह्मा सो ऽभवत्पुरुषो विराट् । सम्राट् सशतरूपस्तु वैराजस्तु मनुः स्मृतः",
           "transliteration": "virājamasṛjadbrahmā so 'bhavatpuruṣo virāṭ / samrāṭ saśatarūpastu vairājastu manuḥ smṛtaḥ",
-          "hindi": "लोकेकल्पनम्(२)   ve"
+          "hindi": "लोकेकल्पनम्(२)   ve",
+          "translation": "Brahma created Viraj; he became the Purusha Virat. Samrat, with Shatarupa, was Vairaja, remembered as Manu.",
+          "translationSource": "ai"
         },
         {
           "number": 40,
           "sanskrit": "स वैराजः प्रजासर्गं ससर्ज पुरुषो मनुः । वैराजात्पुरुषाद्वीरौ शतरूपा व्यजायत",
           "transliteration": "sa vairājaḥ prajāsargaṃ sasarja puruṣo manuḥ / vairājātpuruṣādvīrau śatarūpā vyajāyata",
-          "hindi": "नव ब्राह्मण इत्येते पुराणे निश्चयं गताः ।"
+          "hindi": "नव ब्राह्मण इत्येते पुराणे निश्चयं गताः ।",
+          "translation": "That Vairaja Purusha Manu created the creation of creatures; from the Vairaja Purusha, Shatarupa bore two heroes.",
+          "translationSource": "ai"
         },
         {
           "number": 41,
           "sanskrit": "प्रियव्रतोत्तानपादौ पुत्रौ पुत्रवतां वरौ । कन्ये द्वे सुमहाभागे याभ्यां जाता इमाः प्रजाः",
           "transliteration": "priyavratottānapādau putrau putravatāṃ varau / kanye dve sumahābhāge yābhyāṃ jātā imāḥ prajāḥ",
-          "hindi": "ब्रह्मा यथांत्मकानां तु सवेषां ब्रह्मयोगिनाम्"
+          "hindi": "ब्रह्मा यथांत्मकानां तु सवेषां ब्रह्मयोगिनाम्",
+          "translation": "Priyavrata and Uttanapada, the best of fathers of sons; and two very fortunate daughters from whom these creatures are born,",
+          "translationSource": "ai"
         },
         {
           "number": 42,
           "sanskrit": "देवी नाम्ना तथाकूलिः प्रसूतिश्चैव ते शुभे । स्वायंभुवः प्रसूतिं तु दक्षाय व्यसृजत्प्रभुः",
           "transliteration": "devī nāmnā tathākūliḥ prasūtiścaiva te śubhe / svāyaṃbhuvaḥ prasūtiṃ tu dakṣāya vyasṛjatprabhuḥ",
-          "hindi": "सोऽसुजद्व् यवसायं तु ब्रह्मा भूतं सुखात्मकम् ।"
+          "hindi": "सोऽसुजद्व् यवसायं तु ब्रह्मा भूतं सुखात्मकम् ।",
+          "translation": "named Devi and Akuti, and Prasuti, auspicious ones. The lord gave Prasuti, Svayambhuva's, to Daksha,",
+          "translationSource": "ai"
         },
         {
           "number": 43,
           "sanskrit": "रुचेः प्रजापतेश्चैव आकूतिं प्रत्य पादयत् । आकूत्यां मिथुनं जज्ञे मानसस्य रुचेः शुभम्",
           "transliteration": "ruceḥ prajāpateścaiva ākūtiṃ pratya pādayat / ākūtyāṃ mithunaṃ jajñe mānasasya ruceḥ śubham",
-          "hindi": "भृगुश्च हृदयाज्जज्ञे ऋषिः सलिलयोनिनः ।"
+          "hindi": "भृगुश्च हृदयाज्जज्ञे ऋषिः सलिलयोनिनः ।",
+          "translation": "and gave Akuti to the Prajapati Ruchi. On Akuti was born a pair, auspicious, of the mind-born Ruchi:",
+          "translationSource": "ai"
         },
         {
           "number": 44,
           "sanskrit": "यज्ञश्च दक्षिणा चैव यमलौ तौ बभूवतुः । यज्ञस्य दक्षिणायां च पुत्रा द्वादश जज्ञिरे",
           "transliteration": "yajñaśca dakṣiṇā caiva yamalau tau babhūvatuḥ / yajñasya dakṣiṇāyāṃ ca putrā dvādaśa jajñire",
-          "hindi": "भृग्वादयस्तु ये सृष्टा न च ते ब्रह्मवादिनः"
+          "hindi": "भृग्वादयस्तु ये सृष्टा न च ते ब्रह्मवादिनः",
+          "translation": "Yajna and Dakshina, they became twins. Of Yajna and Dakshina twelve sons were born,",
+          "translationSource": "ai"
         },
         {
           "number": 45,
           "sanskrit": "यामा इति समाख्याता देवाः स्वायंभुवेतरे । यमस्य पुत्रा यज्ञस्य तस्माद्यामास्तु ते स्मृताः",
           "transliteration": "yāmā iti samākhyātā devāḥ svāyaṃbhuvetare / yamasya putrā yajñasya tasmādyāmāstu te smṛtāḥ",
-          "hindi": "गृहमेधिपुराणास्ते विज्ञेया ब्रह्मणः सुताः ।"
+          "hindi": "गृहमेधिपुराणास्ते विज्ञेया ब्रह्मणः सुताः ।",
+          "translation": "famed as the Yamas, gods of the Svayambhuva (manvantara) and others; because they were sons of Yajna, they are remembered as Yamas.",
+          "translationSource": "ai"
         },
         {
           "number": 46,
           "sanskrit": "अजिताश्चैव शुक्राश्च द्वौ गणौ ब्रह्मणः स्मृतौ । यामाः पूर्वं परिक्रान्ता येषां संज्ञा दिवौकसः",
           "transliteration": "ajitāścaiva śukrāśca dvau gaṇau brahmaṇaḥ smṛtau / yāmāḥ pūrvaṃ parikrāntā yeṣāṃ saṃjñā divaukasaḥ",
-          "hindi": "ये नो ब्रह्मा ही हैं-ऐसा पुराण में निश्चय को प्राप्त हुए थे। इन"
+          "hindi": "ये नो ब्रह्मा ही हैं-ऐसा पुराण में निश्चय को प्राप्त हुए थे। इन",
+          "translation": "The Ajitas and the Shukras are remembered as two groups of Brahma; the Yamas who went before, whose names are of the dwellers in heaven.",
+          "translationSource": "ai"
         },
         {
           "number": 47,
           "sanskrit": "स्वायंभूव सुतायां तु प्रसूत्यां लोकमातरः । तस्यां कन्याश्चतुर्विंशद्दक्षस्त्वजनयत्प्रभुः",
           "transliteration": "svāyaṃbhūva sutāyāṃ tu prasūtyāṃ lokamātaraḥ / tasyāṃ kanyāścaturviṃśaddakṣastvajanayatprabhuḥ",
-          "hindi": "सन ब्रह्मयोगी' आत्मकों का ब्रह्मा के ही समान प्रभाव था ।७१। इसके अनन्तर ब्रह्माजोःने रोष रूपी अपने आत्मज रुद्रदेव काःसृजन किया था: सर्कुल्प और धमं का सूजन किया था ओर सभी के पवंतों की रचना की थी ।७२। उन ब्रह्माजो ने व्यवसाय की सृष्टि की थी और ब्रह्मा ने सुखात्मक"
+          "hindi": "सन ब्रह्मयोगी' आत्मकों का ब्रह्मा के ही समान प्रभाव था ।७१। इसके अनन्तर ब्रह्माजोःने रोष रूपी अपने आत्मज रुद्रदेव काःसृजन किया था: सर्कुल्प और धमं का सूजन किया था ओर सभी के पवंतों की रचना की थी ।७२। उन ब्रह्माजो ने व्यवसाय की सृष्टि की थी और ब्रह्मा ने सुखात्मक",
+          "translation": "On Prasuti, Svayambhuva's daughter, mothers of the world, Daksha the lord begot twenty-four daughters.",
+          "translationSource": "ai"
         },
         {
           "number": 48,
           "sanskrit": "सर्वास्ताश्च महाभागाः सर्वाः कमललोचनाः । योगपत्न्यश्च ताः सर्वाः सर्वास्ता योगमातरः",
           "transliteration": "sarvāstāśca mahābhāgāḥ sarvāḥ kamalalocanāḥ / yogapatnyaśca tāḥ sarvāḥ sarvāstā yogamātaraḥ",
-          "hindi": "भूत की रचना की थी उन्होंने अव्यक्त योगी सङ्कल्प से सङ्कुल्प को जन्म दिया था \"॥७३। दक्षः ने प्राण 'वाक्'का सृजन किया था ओर चक्षुओं से मरीचि को-उत्पन्नःकिया-या। सलिल योगी के हृदय से भृगु ऋषि उत्पन्नः इए ये।७४। शिर से अङ्गिरा ने जन्म ग्रहण किया था । उदान वायु सें"
+          "hindi": "भूत की रचना की थी उन्होंने अव्यक्त योगी सङ्कल्प से सङ्कुल्प को जन्म दिया था \"॥७३। दक्षः ने प्राण 'वाक्'का सृजन किया था ओर चक्षुओं से मरीचि को-उत्पन्नःकिया-या। सलिल योगी के हृदय से भृगु ऋषि उत्पन्नः इए ये।७४। शिर से अङ्गिरा ने जन्म ग्रहण किया था । उदान वायु सें",
+          "translation": "All of them fortunate, all lotus-eyed, all wives of yoga, all mothers of yoga,",
+          "translationSource": "ai"
         },
         {
           "number": 49,
           "sanskrit": "सर्वाश्च ब्रह्मवादिन्यः सर्वा विश्वस्य मातरः । श्रद्धा लक्ष्मीर्धृतिस्तुष्टिः पुष्टिर्मेधा तथा क्रिया",
           "transliteration": "sarvāśca brahmavādinyaḥ sarvā viśvasya mātaraḥ / śraddhā lakṣmīrdhṛtistuṣṭiḥ puṣṭirmedhā tathā kriyā",
-          "hindi": "पुलस्त्यः उत्पन्तःहुए\" व्यान-से पुलह का उदुभव हुआ था ।७४। समान नामेक वायु से वसिष्ठ ऋषि की उत्पत्ति हुई थो, अपान वायु से क्रतु ने जन्म ग्रहे किया था । ये इतने ब्रह्माजी के परमञ्र छ बारह पुत्र समुत्पन्न हुए थे  हे"
+          "hindi": "पुलस्त्यः उत्पन्तःहुए\" व्यान-से पुलह का उदुभव हुआ था ।७४। समान नामेक वायु से वसिष्ठ ऋषि की उत्पत्ति हुई थो, अपान वायु से क्रतु ने जन्म ग्रहे किया था । ये इतने ब्रह्माजी के परमञ्र छ बारह पुत्र समुत्पन्न हुए थे  हे",
+          "translation": "all Brahman-speakers, all mothers of the universe: Shraddha, Lakshmi, Dhriti, Tushti, Pushti, Medha, Kriya,",
+          "translationSource": "ai"
         },
         {
           "number": 50,
           "sanskrit": "बुद्धिर्लज्जा वसुः शान्तिः सिद्धिः कीर्त्तिस्त्रयोदश । पत्न्यर्थं प्रतिजग्राह धर्मो दाक्षायणीः प्रभुः",
           "transliteration": "buddhirlajjā vasuḥ śāntiḥ siddhiḥ kīrttistrayodaśa / patnyarthaṃ pratijagrāha dharmo dākṣāyaṇīḥ prabhuḥ",
-          "hindi": "६  अह्याण्ड-पुराण द्विजगणो ! ये ब्रह्माजो के ढादश पुत्र परमन्बेप्ठ हुए-थे॥७६३-धर्म आदिक अथम उत्पन्न होने वाले ब्रह्माजी के पुत्र कड़े गये जानने, चाहिए । जो भूगु आदि की सृष्टि को गयी थी वे ब्रह्मवादी नहीं थे ।७७। वे गृहमेघी पुराण"
+          "hindi": "६  अह्याण्ड-पुराण द्विजगणो ! ये ब्रह्माजो के ढादश पुत्र परमन्बेप्ठ हुए-थे॥७६३-धर्म आदिक अथम उत्पन्न होने वाले ब्रह्माजी के पुत्र कड़े गये जानने, चाहिए । जो भूगु आदि की सृष्टि को गयी थी वे ब्रह्मवादी नहीं थे ।७७। वे गृहमेघी पुराण",
+          "translation": "Buddhi, Lajja, Vasu, Shanti, Siddhi, Kirti — thirteen; Dharma, the lord, took the daughters of Daksha as wives.",
+          "translationSource": "ai"
         },
         {
           "number": 51,
           "sanskrit": "द्वाराण्येतानि चैवास्य विहितानि स्वयंभुवा । यान्याः शिष्टा यवीयस्य एकादश सुलोचनाः",
           "transliteration": "dvārāṇyetāni caivāsya vihitāni svayaṃbhuvā / yānyāḥ śiṣṭā yavīyasya ekādaśa sulocanāḥ",
-          "hindi": "ब्रह्माजी के पुत्र समझने चाहिए । ये द्वादश रुद्र के साथ प्रसूत होते हैं"
+          "hindi": "ब्रह्माजी के पुत्र समझने चाहिए । ये द्वादश रुद्र के साथ प्रसूत होते हैं",
+          "translation": "These doors were ordained for him by the Self-born; the eleven lovely-eyed ones who remained, the younger:",
+          "translationSource": "ai"
         },
         {
           "number": 52,
           "sanskrit": "सती ख्यातिश्च संभूतिः स्मृतिः प्रीतिः क्षमा तथा । सन्नतिश्चानसूया च ऊर्जा स्वाहा स्वधा तथा",
           "transliteration": "satī khyātiśca saṃbhūtiḥ smṛtiḥ prītiḥ kṣamā tathā / sannatiścānasūyā ca ūrjā svāhā svadhā tathā",
-          "hindi": "व्यतीतौ सप्तमे कल्पे पुराणौ लोकसाधकौ ।"
+          "hindi": "व्यतीतौ सप्तमे कल्पे पुराणौ लोकसाधकौ ।",
+          "translation": "Sati, Khyati, Sambhuti, Smriti, Priti, Kshama, Sannati, Anasuya, Urja, Svaha and Svadha.",
+          "translationSource": "ai"
         },
         {
           "number": 53,
           "sanskrit": "तास्तदा प्रत्यगृह्णन्त पुनरन्ये महार्षयः । रुद्रो भृगुर्मरीचिश्च अङ्गिराः पुलहः क्रतुः",
           "transliteration": "tāstadā pratyagṛhṇanta punaranye mahārṣayaḥ / rudro bhṛgurmarīciśca aṅgirāḥ pulahaḥ kratuḥ",
-          "hindi": "विरजेतेऽत्र वं लोके तेजसाक्षिप्य चात्मनः ।"
+          "hindi": "विरजेतेऽत्र वं लोके तेजसाक्षिप्य चात्मनः ।",
+          "translation": "They were then accepted by other great sages: Rudra, Bhrigu, Marichi, Angiras, Pulaha, Kratu,",
+          "translationSource": "ai"
         },
         {
           "number": 54,
           "sanskrit": "पुलस्त्यो ऽत्रिर्वसिष्ठश्च पितरो ऽग्रिस्तथैव च । सतीं भवाय प्रायच्छत्ख्यातिं च भृगवे तथा",
           "transliteration": "pulastyo 'trirvasiṣṭhaśca pitaro 'gristathaiva ca / satīṃ bhavāya prāyacchatkhyātiṃ ca bhṛgave tathā",
-          "hindi": "ताबुभौ योगधर्माणावारोष्यात्मानमारमना ।"
+          "hindi": "ताबुभौ योगधर्माणावारोष्यात्मानमारमना ।",
+          "translation": "Pulastya, Atri, Vasishtha, the ancestors and Agni. He gave Sati to Bhava, and Khyati to Bhrigu;",
+          "translationSource": "ai"
         },
         {
           "number": 55,
           "sanskrit": "मरीचये तु संभूतिं स्मृतिमङ्गिरसे ददौ । प्रीतिं चैव पुलस्त्याय क्षमां वै पुलहाय च",
           "transliteration": "marīcaye tu saṃbhūtiṃ smṛtimaṅgirase dadau / prītiṃ caiva pulastyāya kṣamāṃ vai pulahāya ca",
-          "hindi": "पजाधमं च कामं च वतंयेते महौजसौ ॥"
+          "hindi": "पजाधमं च कामं च वतंयेते महौजसौ ॥",
+          "translation": "Sambhuti to Marichi, Smriti to Angiras, Priti to Pulastya and Kshama to Pulaha,",
+          "translationSource": "ai"
         },
         {
           "number": 56,
           "sanskrit": "क्रतवे संततिं नाम अनसूयां तथात्रये । ऊर्जां ददौ वसिष्ठाय स्वाहां चैवाग्नये ददौ",
           "transliteration": "kratave saṃtatiṃ nāma anasūyāṃ tathātraye / ūrjāṃ dadau vasiṣṭhāya svāhāṃ caivāgnaye dadau",
-          "hindi": "तेषां द्वादश ते वंशा दिव्या देवगणान्विताः ।"
+          "hindi": "तेषां द्वादश ते वंशा दिव्या देवगणान्विताः ।",
+          "translation": "Santati to Kratu, Anasuya to Atri, Urja to Vasishtha, Svaha to Agni,",
+          "translationSource": "ai"
         },
         {
           "number": 57,
           "sanskrit": "स्वधां चैव पितृभ्यस्तु तास्वपत्यानि मे शृणु । एताः सर्वा महाभागाः प्रजास्त्वनुसृताः स्थिताः",
           "transliteration": "svadhāṃ caiva pitṛbhyastu tāsvapatyāni me śṛṇu / etāḥ sarvā mahābhāgāḥ prajāstvanusṛtāḥ sthitāḥ",
-          "hindi": "णजांस्लु स इष्टवा वे ब्रह्मा, द्वादश सात्विकान् ।"
+          "hindi": "णजांस्लु स इष्टवा वे ब्रह्मा, द्वादश सात्विकान् ।",
+          "translation": "and Svadha to the ancestors; hear from me their offspring. All these fortunate ones followed the progeny and stand,",
+          "translationSource": "ai"
         },
         {
           "number": 58,
           "sanskrit": "मन्वन्तरेषु सर्वेषु यावदाभूतसंप्लवम् । श्रद्धा कामं प्रजज्ञे ऽथ दर्पो लक्ष्मी सुतः स्मृतः",
           "transliteration": "manvantareṣu sarveṣu yāvadābhūtasaṃplavam / śraddhā kāmaṃ prajajñe 'tha darpo lakṣmī sutaḥ smṛtaḥ",
-          "hindi": "ततोऽसुरान्पितृ ,न्देवान्मनुष्यांश्चासूजट -भुः"
+          "hindi": "ततोऽसुरान्पितृ ,न्देवान्मनुष्यांश्चासूजट -भुः",
+          "translation": "in all manvantaras until the dissolution of beings. Shraddha bore Kama, then Darpa; Lakshmi's son is remembered.",
+          "translationSource": "ai"
         },
         {
           "number": 59,
           "sanskrit": "धृत्यास्तु नियमः पुत्रस्तुष्ट्याः संतोष उच्यते । पुष्ट्या लाभः सुतश्चापि मेधापुत्रः श्रुतस्तथा",
           "transliteration": "dhṛtyāstu niyamaḥ putrastuṣṭyāḥ saṃtoṣa ucyate / puṣṭyā lābhaḥ sutaścāpi medhāputraḥ śrutastathā",
-          "hindi": "कतु ओर सनत्कुमार ये दो अ्रह्माजी के पुत्र ऊर्ध्वरेता थे । पूर्य की उत्पत्ति में प्राचीन-काल में ये दोनों सबके ्ूब॑ में जन्म ग्रहण करने बाले. हुए: थे ॥७६। प्रथम कल्प में लोक साधक पुराण व्यतीत हो गये थे और-इस लोक में-आत्सा के तेज से आक्षिप्त होकर 'विरेजित होते हैं।८०। योगे"
+          "hindi": "कतु ओर सनत्कुमार ये दो अ्रह्माजी के पुत्र ऊर्ध्वरेता थे । पूर्य की उत्पत्ति में प्राचीन-काल में ये दोनों सबके ्ूब॑ में जन्म ग्रहण करने बाले. हुए: थे ॥७६। प्रथम कल्प में लोक साधक पुराण व्यतीत हो गये थे और-इस लोक में-आत्सा के तेज से आक्षिप्त होकर 'विरेजित होते हैं।८०। योगे",
+          "translation": "Dhriti's son was Niyama, Tushti's is called Santosha, Pushti's son Labha, and Medha's son was Shruta.",
+          "translationSource": "ai"
         },
         {
           "number": 60,
           "sanskrit": "क्रियायास्तनयौ प्रोक्तौ दमश्च शम एव च । बुद्धेर्बोधः सुतश्चापि अप्रमादश्च तावुभौ",
           "transliteration": "kriyāyāstanayau proktau damaśca śama eva ca / buddherbodhaḥ sutaścāpi apramādaśca tāvubhau",
-          "hindi": "घमं वालेःवे दोनों आत्मा से आत्मा का आरोप करके दोसों महानू.ओज' वाले प्रजा के धर्म को और काम'को बत्तित करते हैं ।८१। जेसे ही उत्पन्न हुआ था बैसे ही यहाँ पर कुमार-- यह कहा जाया करता है । इसके अनन्तर उसका नाम सनः 5; Res प्रतिष्ठित हुआ या १८२ उनके  द्वादश बंश ये"
+          "hindi": "घमं वालेःवे दोनों आत्मा से आत्मा का आरोप करके दोसों महानू.ओज' वाले प्रजा के धर्म को और काम'को बत्तित करते हैं ।८१। जेसे ही उत्पन्न हुआ था बैसे ही यहाँ पर कुमार-- यह कहा जाया करता है । इसके अनन्तर उसका नाम सनः 5; Res प्रतिष्ठित हुआ या १८२ उनके  द्वादश बंश ये",
+          "translation": "Of Kriya two sons are told: Dama and Shama. Buddhi's son was Bodha, and Apramada; these two.",
+          "translationSource": "ai"
         },
         {
           "number": 61,
           "sanskrit": "लज्जाया विनयः पुत्रो व्यवसायो वसोः सुतः । क्षेमः शान्तेः सुतश्चापि सुखं सिद्धेर्व्यजायत",
           "transliteration": "lajjāyā vinayaḥ putro vyavasāyo vasoḥ sutaḥ / kṣemaḥ śānteḥ sutaścāpi sukhaṃ siddhervyajāyata",
-          "hindi": "जो परम दिव्य देवगणों से समन्वित ये । वेसब क्रिया वाले येःऔरश महृध्षियों से अलंकृत ये।८३। उन ब्रह्माजी ने-उन-बारह-सा त्वि आणजोंन्‍को देख करः फिर पशु ने असुरों को-पितृषणों को-देवों को और मनुष्यों कको"
+          "hindi": "जो परम दिव्य देवगणों से समन्वित ये । वेसब क्रिया वाले येःऔरश महृध्षियों से अलंकृत ये।८३। उन ब्रह्माजी ने-उन-बारह-सा त्वि आणजोंन्‍को देख करः फिर पशु ने असुरों को-पितृषणों को-देवों को और मनुष्यों कको",
+          "translation": "Lajja's son was Vinaya, Vasu's son Vyavasaya, Shanti's son Kshema, and Siddhi bore Sukha.",
+          "translationSource": "ai"
         },
         {
           "number": 62,
           "sanskrit": "यशः कीर्तेः सुतश्चापि इत्येते धर्मसूनवः । कामस्य तु सुतो हर्षो देव्यां सिद्ध्यां व्यजायत",
           "transliteration": "yaśaḥ kīrteḥ sutaścāpi ityete dharmasūnavaḥ / kāmasya tu suto harṣo devyāṃ siddhyāṃ vyajāyata",
-          "hindi": "लोककल्पनय् (२)  ( ६१"
+          "hindi": "लोककल्पनय् (२)  ( ६१",
+          "translation": "Kirti's son was Yasha: these are the sons of Dharma. Kama's son Harsha was born of the goddess Siddhi.",
+          "translationSource": "ai"
         },
         {
           "number": 63,
           "sanskrit": "इत्येष वै सुखोदर्कः सर्गो धर्मस्य सात्त्विकः । जज्ञे हिंसा त्वधर्माद्वै निकृतिं चानृतं च ते",
           "transliteration": "ityeṣa vai sukhodarkaḥ sargo dharmasya sāttvikaḥ / jajñe hiṃsā tvadharmādvai nikṛtiṃ cānṛtaṃ ca te",
-          "hindi": "सुधायाश्च पितू ,श्डैव देवदेवः ससजै ह ८६"
+          "hindi": "सुधायाश्च पितू ,श्डैव देवदेवः ससजै ह ८६",
+          "translation": "Thus this sattvic creation of Dharma has pleasant results. From Adharma were born Himsa, and Nikriti and Anrita.",
+          "translationSource": "ai"
         },
         {
           "number": 64,
           "sanskrit": "निकृत्यनृतयोर्जज्ञ भयं नरक एव च । माया च वेदना चापि मिथुनद्वयमेतयोः",
           "transliteration": "nikṛtyanṛtayorjajña bhayaṃ naraka eva ca / māyā ca vedanā cāpi mithunadvayametayoḥ",
-          "hindi": "मुख्यामुख्याच् सृजन्देवानसुरांश्व ततः पुनः ।"
+          "hindi": "मुख्यामुख्याच् सृजन्देवानसुरांश्व ततः पुनः ।",
+          "translation": "From Nikriti and Anrita were born Bhaya and Naraka; Maya and Vedana, the pairs of these two.",
+          "translationSource": "ai"
         },
         {
           "number": 65,
           "sanskrit": "मयाज्जज्ञे ऽथ वै माया मृत्युं भूतापहारिणम् । वेदनायां ततश्चापि जेज्ञ दुःखं तु रौरवात्",
           "transliteration": "mayājjajñe 'tha vai māyā mṛtyuṃ bhūtāpahāriṇam / vedanāyāṃ tataścāpi jejña duḥkhaṃ tu rauravāt",
-          "hindi": "ऋचो यजू पि सामानि -निमंमे यज्ञसिद्धये ॥।८'"
+          "hindi": "ऋचो यजू पि सामानि -निमंमे यज्ञसिद्धये ॥।८'",
+          "translation": "From Maya was born Mrityu, taker of beings; from Vedana was born Duhkha, from Raurava.",
+          "translationSource": "ai"
         },
         {
           "number": 66,
           "sanskrit": "मृत्योर्व्याधिर्जराशोकक्रोधासूया विजज्ञिरे । दुःखोत्तराः स्मृता ह्येते सर्वे चाधर्मलक्षणाः",
           "transliteration": "mṛtyorvyādhirjarāśokakrodhāsūyā vijajñire / duḥkhottarāḥ smṛtā hyete sarve cādharmalakṣaṇāḥ",
-          "hindi": "ब्रह्मणस्तु प्रजासगं देवषिपितृमानवम्"
+          "hindi": "ब्रह्मणस्तु प्रजासगं देवषिपितृमानवम्",
+          "translation": "From Mrityu were born Vyadhi, Jara, Shoka, Krodha and Asuya. These are remembered as with sorrow last, all marked by adharma.",
+          "translationSource": "ai"
         },
         {
           "number": 67,
           "sanskrit": "तेषां भार्यास्ति पुत्रो वा सर्वे ह्यनिधनाः स्मृताः । इत्येष तामसः सर्गो जज्ञे धर्मनिया मकः",
           "transliteration": "teṣāṃ bhāryāsti putro vā sarve hyanidhanāḥ smṛtāḥ / ityeṣa tāmasaḥ sargo jajñe dharmaniyā makaḥ",
-          "hindi": "अ्रह्मांजी ने अपने मुख से देवगणों को उत्पम्न किया था; अपने वक्षः स्थल से पितृगणों को जन्म ग्रहण कराया था-प्रजनन से-मनुष्यों को ओर जघन से असुरों को निमित किया था ।७५। फिर देबताओं के भी देव ब्रह्मा जी ने मानुषात्मा की ज्योत्स्ता से राति का सुजन किया था--सुधा की ओर"
+          "hindi": "अ्रह्मांजी ने अपने मुख से देवगणों को उत्पम्न किया था; अपने वक्षः स्थल से पितृगणों को जन्म ग्रहण कराया था-प्रजनन से-मनुष्यों को ओर जघन से असुरों को निमित किया था ।७५। फिर देबताओं के भी देव ब्रह्मा जी ने मानुषात्मा की ज्योत्स्ता से राति का सुजन किया था--सुधा की ओर",
+          "translation": "They have wives or sons; all are remembered as without end. Thus this tamasic creation was born, regulator of dharma.",
+          "translationSource": "ai"
         },
         {
           "number": 68,
           "sanskrit": "प्रजाः सृचेति व्यादिष्टो ब्रह्मणा नीललोहितः । सो ऽभिध्याय सतीं भार्यां निर्ममे चात्मसंभवान्",
           "transliteration": "prajāḥ sṛceti vyādiṣṭo brahmaṇā nīlalohitaḥ / so 'bhidhyāya satīṃ bhāryāṃ nirmame cātmasaṃbhavān",
-          "hindi": "पिलृगणों की सृष्टि को थी ।८६। मुख्य और अमुख्य देवों'का औरःअसुरों का. सूजन करते हुए इसके अधन्तर मन से मनुष्यों का और पिता के ही समान' महाल पितृगणों का सूजन किया था ।८७। विद्युत क्रीबज्थ की-मेघों की और लोहिंत इन्द्र घनुषों फी-ऋचाओं की अर्थात् ऋग्वेद की-यजुर्वेद की."
+          "hindi": "पिलृगणों की सृष्टि को थी ।८६। मुख्य और अमुख्य देवों'का औरःअसुरों का. सूजन करते हुए इसके अधन्तर मन से मनुष्यों का और पिता के ही समान' महाल पितृगणों का सूजन किया था ।८७। विद्युत क्रीबज्थ की-मेघों की और लोहिंत इन्द्र घनुषों फी-ऋचाओं की अर्थात् ऋग्वेद की-यजुर्वेद की.",
+          "translation": "Commanded by Brahma, \"Create creatures,\" the dark-red one (Rudra), reflecting on Sati his wife, made beings from himself.",
+          "translationSource": "ai"
         },
         {
           "number": 69,
           "sanskrit": "नाधिकान्न च हीनास्तान्मानसानात्मना समान् । सहस्रं च सहस्राणामसृजत्कृत्तिवाससः",
           "transliteration": "nādhikānna ca hīnāstānmānasānātmanā samān / sahasraṃ ca sahasrāṇāmasṛjatkṛttivāsasaḥ",
-          "hindi": "और सामवेद की-यज्ञ की सिद्धि के लिये निमित की थी अर्थात् रचना की. थी अर्थात् रचना की थी ।5५। ब्रह्मा के तेज से उच्च और अयच प्राणी उत्पन्नं हुए थे । प्रजा के से में देव ऋषि-पितृगण और मानव सभी'हुए चे ।ब। फिर उन्होंने प्राणियों का-चरों का ओर स्थावरों का सूजन किया"
+          "hindi": "और सामवेद की-यज्ञ की सिद्धि के लिये निमित की थी अर्थात् रचना की. थी अर्थात् रचना की थी ।5५। ब्रह्मा के तेज से उच्च और अयच प्राणी उत्पन्नं हुए थे । प्रजा के से में देव ऋषि-पितृगण और मानव सभी'हुए चे ।ब। फिर उन्होंने प्राणियों का-चरों का ओर स्थावरों का सूजन किया",
+          "translation": "Neither more nor less than him, those mental beings equal to himself, he created a thousand thousands, hide-clad.",
+          "translationSource": "ai"
         },
         {
           "number": 70,
           "sanskrit": "तुल्यानेवात्मना सर्वान् रूपतेजोबल श्रुतैः । पिङ्गलान्सनिषङ्गांश्च कपर्दी नीललोहितान्",
           "transliteration": "tulyānevātmanā sarvān rūpatejobala śrutaiḥ / piṅgalānsaniṣaṅgāṃśca kapardī nīlalohitān",
-          "hindi": "था यक्ष-पिशाच गन्क्रवं और सब प्रकार की अप्सराओं का सृजन करते हैं। ।९०॥ नर-किस्तर-राक्षस्र-पक्षी-पशु-मृम और उरगों का सृजन किया'करते हैं। अव्यय अथवा व्यय दोनों स्थावरों जंसमों का सृजन-करते हैँ"
+          "hindi": "था यक्ष-पिशाच गन्क्रवं और सब प्रकार की अप्सराओं का सृजन करते हैं। ।९०॥ नर-किस्तर-राक्षस्र-पक्षी-पशु-मृम और उरगों का सृजन किया'करते हैं। अव्यय अथवा व्यय दोनों स्थावरों जंसमों का सृजन-करते हैँ",
+          "translation": "All equal to himself in form, brilliance, strength and learning: tawny, with quivers, matted-haired, dark-red,",
+          "translationSource": "ai"
         },
         {
           "number": 71,
           "sanskrit": "विशिखान्हीनकेशांश्च दृष्टिघ्नास्तान्कपालिनः । महारूपान्विरूपांश्च विश्वरूपाश्च रूपिणः",
           "transliteration": "viśikhānhīnakeśāṃśca dṛṣṭighnāstānkapālinaḥ / mahārūpānvirūpāṃśca viśvarūpāśca rūpiṇaḥ",
-          "hindi": "स्स  ब्रह्माण्ड पुराण"
+          "hindi": "स्स  ब्रह्माण्ड पुराण",
+          "translation": "tuftless and hairless, eye-destroying, skull-bearing, great-formed and deformed, universal-formed and having forms,",
+          "translationSource": "ai"
         },
         {
           "number": 72,
           "sanskrit": "रथिनो वर्मिणश्चैव धन्विनो ऽथ वरूथिनः । सहस्रशतबाहूंश्च दिव्यभौमान्तरिक्षगान्",
           "transliteration": "rathino varmiṇaścaiva dhanvino 'tha varūthinaḥ / sahasraśatabāhūṃśca divyabhaumāntarikṣagān",
-          "hindi": "तेषां ते यांति कर्माणि प्राक् सृष्टानि स्वयंभुवा ।"
+          "hindi": "तेषां ते यांति कर्माणि प्राक् सृष्टानि स्वयंभुवा ।",
+          "translation": "with chariots, armour, bows, and retinues, with thousands and hundreds of arms, going in heaven, earth and atmosphere,",
+          "translationSource": "ai"
         },
         {
           "number": 73,
           "sanskrit": "स्थूल शीर्षानष्टदंष्ट्रान् द्विजिह्वांस्तु त्रिलोचनान् । अन्नादान्पिशितादांश्च आज्यपान्सोमपोस्तथा",
           "transliteration": "sthūla śīrṣānaṣṭadaṃṣṭrān dvijihvāṃstu trilocanān / annādānpiśitādāṃśca ājyapānsomapostathā",
-          "hindi": "हि्राहि् मृदुक्रूरे धर्माधमौ' कृताकृते ।"
+          "hindi": "हि्राहि् मृदुक्रूरे धर्माधमौ' कृताकृते ।",
+          "translation": "with thick heads, eight tusks, two tongues, three eyes, eaters of food and flesh, drinkers of ghee and soma,",
+          "translationSource": "ai"
         },
         {
           "number": 74,
           "sanskrit": "अतिमेढ्रोग्रकायांश्च शितिकण्ठोग्रमन्युकान् । सनिषङ्गतनुत्रांश्च धन्विनो ह्यसिचर्मिणः",
           "transliteration": "atimeḍhrograkāyāṃśca śitikaṇṭhogramanyukān / saniṣaṅgatanutrāṃśca dhanvino hyasicarmiṇaḥ",
-          "hindi": "कर्म स्वविषयं प्राहुः सत्वस्थाः समदशिनः ॥६४'"
+          "hindi": "कर्म स्वविषयं प्राहुः सत्वस्थाः समदशिनः ॥६४'",
+          "translation": "with great organs and fierce bodies, dark-necked, fiercely wrathful, with quivers and armour, bow-bearers, with swords and shields,",
+          "translationSource": "ai"
         },
         {
           "number": 75,
           "sanskrit": "आसीनान् धावतश्चापि जृंभतश्चाप्यधिष्ठितान् । अधीयानाश्च जपतो युञ्जतो ध्यायतस्तथा",
           "transliteration": "āsīnān dhāvataścāpi jṛṃbhataścāpyadhiṣṭhitān / adhīyānāśca japato yuñjato dhyāyatastathā",
-          "hindi": "आर्षाणि चेव'नोमानि याश्च देवेषु सृष्टयः ।"
+          "hindi": "आर्षाणि चेव'नोमानि याश्च देवेषु सृष्टयः ।",
+          "translation": "seated, running, yawning, presiding, studying, muttering, yoking, meditating,",
+          "translationSource": "ai"
         },
         {
           "number": 76,
           "sanskrit": "ज्वलतो वर्षतश्चैव द्योतमानान्प्रधूपितान् । बुद्धान्बुद्धतमांश्चैव ब्रह्मस्वान् ब्रह्मदर्शिनः",
           "transliteration": "jvalato varṣataścaiva dyotamānānpradhūpitān / buddhānbuddhatamāṃścaiva brahmasvān brahmadarśinaḥ",
-          "hindi": "इत्येचं कारणाद्भूतो लोकसगंः स्वयंभुवः ।"
+          "hindi": "इत्येचं कारणाद्भूतो लोकसगंः स्वयंभुवः ।",
+          "translation": "blazing, raining, shining, fumigated, awakened and most awakened, possessed of Brahman, seeing Brahman,",
+          "translationSource": "ai"
         },
         {
           "number": 77,
           "sanskrit": "नीलग्रीवान्सहस्राक्षान् सर्वांश्चैव क्षमाचरान् । अदृश्यान्सर्वभूतानां महायोगान्महौजसः",
           "transliteration": "nīlagrīvānsahasrākṣān sarvāṃścaiva kṣamācarān / adṛśyānsarvabhūtānāṃ mahāyogānmahaujasaḥ",
-          "hindi": "महदाद्या विशेषान्ता विकाराः प्राकृताः स्वयम् ।।६७'"
+          "hindi": "महदाद्या विशेषान्ता विकाराः प्राकृताः स्वयम् ।।६७'",
+          "translation": "blue-necked, thousand-eyed, all practising patience, invisible to all beings, great yogis, of great vigour,",
+          "translationSource": "ai"
         },
         {
           "number": 78,
           "sanskrit": "रुदतो द्रवतश्चैव एवं युक्तान्सहस्रशः । अयातयामान् सृजतं रुद्रमेतान्सुरोत्तमान्",
           "transliteration": "rudato dravataścaiva evaṃ yuktānsahasraśaḥ / ayātayāmān sṛjataṃ rudrametānsurottamān",
-          "hindi": "चन्द्रसूयंप्रभो लोको ग्रहनक्षत्रमण्डितः ।"
+          "hindi": "चन्द्रसूयंप्रभो लोको ग्रहनक्षत्रमण्डितः ।",
+          "translation": "weeping and running; thousands thus joined. Creating these unwearied best of gods, Rudra,",
+          "translationSource": "ai"
         },
         {
           "number": 79,
           "sanskrit": "दृष्ट्वा ब्रह्माब्रवीदेनं मास्राक्षीरीदृशीः प्रजाः । न स्रष्टव्यात्मन स्तल्या प्रजा नैवाधिका तथा",
           "transliteration": "dṛṣṭvā brahmābravīdenaṃ māsrākṣīrīdṛśīḥ prajāḥ / na sraṣṭavyātmana stalyā prajā naivādhikā tathā",
-          "hindi": "वे सब उनके कर्मों को प्राप्त होते हैं जिनका कि स्वयदम्धुने पूर्व में ही सृजन कर दिथा था । बार-बार सुजन को श्राप्त होते हुए उन्हीं कर्मों को: प्रतिपन्न हुआ करते हैं ।९२। हिस्र ओर अहिसा वाले, मृदु और क्र, र-धर्म और अधर्म ओर कृत तथा अकृत उनके ही पृथक् उरपन्न हुए थे । यह अवि--"
+          "hindi": "वे सब उनके कर्मों को प्राप्त होते हैं जिनका कि स्वयदम्धुने पूर्व में ही सृजन कर दिथा था । बार-बार सुजन को श्राप्त होते हुए उन्हीं कर्मों को: प्रतिपन्न हुआ करते हैं ।९२। हिस्र ओर अहिसा वाले, मृदु और क्र, र-धर्म और अधर्म ओर कृत तथा अकृत उनके ही पृथक् उरपन्न हुए थे । यह अवि--",
+          "translation": "Brahma, seeing them, said to him: \"Do not create such creatures. Creatures equal to yourself are not to be created, nor greater.",
+          "translationSource": "ai"
         },
         {
           "number": 80,
           "sanskrit": "अन्याः सृजस्व भद्रं ते प्रजास्त्वं मृत्युसंयुताः । नारभन्ते हि कर्माणि प्रजा विगतमृत्यवः",
           "transliteration": "anyāḥ sṛjasva bhadraṃ te prajāstvaṃ mṛtyusaṃyutāḥ / nārabhante hi karmāṇi prajā vigatamṛtyavaḥ",
-          "hindi": "भक्त तीन जात लीजिए ।६३। यह इस प्रकार से है ओर इस प्रकार से नहीं: है-बोनों ही नहीं हैं और दोनों हैं । सत्व में स्थित समदर्शी अर्थात् सबको: एक ही. समान देखने वाले अपने विषय को कर्म कहते हैं ।६४। नामात्म पडन्‍्च- भूतों की और कृतों की प्रपञ्चता को बनाया था। उन महेश्वर ने दिन"
+          "hindi": "भक्त तीन जात लीजिए ।६३। यह इस प्रकार से है ओर इस प्रकार से नहीं: है-बोनों ही नहीं हैं और दोनों हैं । सत्व में स्थित समदर्शी अर्थात् सबको: एक ही. समान देखने वाले अपने विषय को कर्म कहते हैं ।६४। नामात्म पडन्‍्च- भूतों की और कृतों की प्रपञ्चता को बनाया था। उन महेश्वर ने दिन",
+          "translation": "Create others, may you be well, creatures joined with death; creatures free of death do not undertake actions.\"",
+          "translationSource": "ai"
         },
         {
           "number": 81,
           "sanskrit": "एवसुक्तो ऽब्रवीदेनं नाहं मृत्युजरान्विताः । प्रजाः स्रक्ष्यामि भद्रं ते स्थितो ऽहं त्वं सृज प्रभो",
           "transliteration": "evasukto 'bravīdenaṃ nāhaṃ mṛtyujarānvitāḥ / prajāḥ srakṣyāmi bhadraṃ te sthito 'haṃ tvaṃ sṛja prabho",
-          "hindi": "शब्द से ये ही पाँच हैं जिसका निर्माण किया था ।९५। देवों में जो सूष्टियाँ हैं और ऑर्ष नाम हैं शबरी में प्रसूत नहीं होते हैं--फिर प्रभु ने उनके लिए: धारण किया था ।६। यह इसी रीति से स्वयम्भू का कारण से लोकों का सर हुआ था। महत् जिनके आदि में होने वाला है तथा बिशेष के अन्त"
+          "hindi": "शब्द से ये ही पाँच हैं जिसका निर्माण किया था ।९५। देवों में जो सूष्टियाँ हैं और ऑर्ष नाम हैं शबरी में प्रसूत नहीं होते हैं--फिर प्रभु ने उनके लिए: धारण किया था ।६। यह इसी रीति से स्वयम्भू का कारण से लोकों का सर हुआ था। महत् जिनके आदि में होने वाला है तथा बिशेष के अन्त",
+          "translation": "Thus addressed, he said, \"I shall not create creatures endowed with death and old age, may you be well; I stand firm; you create, lord.",
+          "translationSource": "ai"
         },
         {
           "number": 82,
           "sanskrit": "एते ये वै मया सृष्टा विरूपा नीललोहिताः । सहस्रं हि सहस्राणामात्मनो मम निःसृताः",
           "transliteration": "ete ye vai mayā sṛṣṭā virūpā nīlalohitāḥ / sahasraṃ hi sahasrāṇāmātmano mama niḥsṛtāḥ",
-          "hindi": "पर्यन्त विक्रारु स्वयं प्राकृत हैं ॥४७। चन्द्रमा और सूर्य की प्रभा वाला लोक- जो'ग्रहों ओर नक्षत्रों से मण्डित है । जहाँ बहुत नदियाँ हैं--समुद्र है. और सहस्नों पंत हैँ-इन सबसे मण्डित है ।€=।"
+          "hindi": "पर्यन्त विक्रारु स्वयं प्राकृत हैं ॥४७। चन्द्रमा और सूर्य की प्रभा वाला लोक- जो'ग्रहों ओर नक्षत्रों से मण्डित है । जहाँ बहुत नदियाँ हैं--समुद्र है. और सहस्नों पंत हैँ-इन सबसे मण्डित है ।€=।",
+          "translation": "These whom I created, deformed, dark-red, thousand thousands have issued from my self.",
+          "translationSource": "ai"
         },
         {
           "number": 83,
           "sanskrit": "एते देवा भविष्यन्ति रुद्रा नाम महाबलाः । पृथिव्यामन्तरिक्षे च रुद्राण्यस्ताः परिश्रुताः",
           "transliteration": "ete devā bhaviṣyanti rudrā nāma mahābalāḥ / pṛthivyāmantarikṣe ca rudrāṇyastāḥ pariśrutāḥ",
-          "hindi": "लोककल्पनम्ः(२)    ६३"
+          "hindi": "लोककल्पनम्ः(२)    ६३",
+          "translation": "These will be gods, named Rudras, greatly mighty, famed on earth and in the atmosphere as Rudranis.",
+          "translationSource": "ai"
         },
         {
           "number": 84,
           "sanskrit": "शतरुद्रे समाम्नाता भविष्यन्तीह यज्ञियाः । यज्ञभाजो भविष्यन्ति सर्वे देवगणैः सह",
           "transliteration": "śatarudre samāmnātā bhaviṣyantīha yajñiyāḥ / yajñabhājo bhaviṣyanti sarve devagaṇaiḥ saha",
-          "hindi": "पुरैश्व विविधे रम्यैः स्फीतैजैनपहैदस्तथा ।"
+          "hindi": "पुरैश्व विविधे रम्यैः स्फीतैजैनपहैदस्तथा ।",
+          "translation": "They are taught in the Shatarudriya, and will here be worthy of sacrifice; all will be sharers of sacrifice with the hosts of gods.",
+          "translationSource": "ai"
         },
         {
           "number": 85,
           "sanskrit": "मन्वन्तरेषु ये देवा भविष्यन्तीह छन्दजाः । तैः सार्द्धमिज्यमानास्ते स्थास्यन्तीहायुगक्षयात्",
           "transliteration": "manvantareṣu ye devā bhaviṣyantīha chandajāḥ / taiḥ sārddhamijyamānāste sthāsyantīhāyugakṣayāt",
-          "hindi": "अस्मिन् ब्रह्मवनेऽब्यो ब्रह्मा चरति सर्ववित् ॥६ ६"
+          "hindi": "अस्मिन् ब्रह्मवनेऽब्यो ब्रह्मा चरति सर्ववित् ॥६ ६",
+          "translation": "The gods who will be here in the manvantaras, born of metres, with them being worshipped they will stay here until the yuga's end.\"",
+          "translationSource": "ai"
         },
         {
           "number": 86,
           "sanskrit": "एवमुक्तस्ततो ब्रह्मा महादेवेन स प्रभुः । प्रत्युवाच तथा भीमं त्दृष्यमाणः प्रजापतिः",
           "transliteration": "evamuktastato brahmā mahādevena sa prabhuḥ / pratyuvāca tathā bhīmaṃ tdṛṣyamāṇaḥ prajāpatiḥ",
-          "hindi": "बुद्धिस्कन्धमयश्चैव -इन्द्रियान्तरकोटरः ॥"
+          "hindi": "बुद्धिस्कन्धमयश्चैव -इन्द्रियान्तरकोटरः ॥",
+          "translation": "Thus addressed by Mahadeva, the lord Brahma, seen by the Prajapati, replied to the terrible one:",
+          "translationSource": "ai"
         },
         {
           "number": 87,
           "sanskrit": "एवं भवतु भद्रं ते यथा ते व्यात्दृतं प्रभो । ब्रह्मणा समनु ज्ञाते ततः सर्वमभूत्किल",
           "transliteration": "evaṃ bhavatu bhadraṃ te yathā te vyātdṛtaṃ prabho / brahmaṇā samanu jñāte tataḥ sarvamabhūtkila",
-          "hindi": "महाभूतप्रकाशश्च .विशेषे: पत्रवांस्तु सः ।"
+          "hindi": "महाभूतप्रकाशश्च .विशेषे: पत्रवांस्तु सः ।",
+          "translation": "\"So be it, may you be well, as you have said, lord.\" Permitted by Brahma, then all came to be.",
+          "translationSource": "ai"
         },
         {
           "number": 88,
           "sanskrit": "ततः प्रभृति देवः स न प्रासूयत वै प्रजाः । ऊर्ध्वरेताः स्थितः स्थाणुर्यावदाभूतसंप्लवम्",
           "transliteration": "tataḥ prabhṛti devaḥ sa na prāsūyata vai prajāḥ / ūrdhvaretāḥ sthitaḥ sthāṇuryāvadābhūtasaṃplavam",
-          "hindi": "धर्माधमं सुपुष्पस्तु सुखदुःखफलोदयः ।"
+          "hindi": "धर्माधमं सुपुष्पस्तु सुखदुःखफलोदयः ।",
+          "translation": "From then on that god did not beget creatures, but stood with upward seed, as Sthanu, until the dissolution of beings.",
+          "translationSource": "ai"
         },
         {
           "number": 89,
           "sanskrit": "यस्मात्प्रोक्तं स्थितो ऽस्मीति तस्मात्स्थाणुर्बुधैः स्मृतः । ज्ञानं तपश्च सत्यं च ह्यैश्वर्यं धर्म एव च",
           "transliteration": "yasmātproktaṃ sthito 'smīti tasmātsthāṇurbudhaiḥ smṛtaḥ / jñānaṃ tapaśca satyaṃ ca hyaiśvaryaṃ dharma eva ca",
-          "hindi": "आजीवः सर्वभूतानां ब्रह्मवृक्षः सनातनः ।"
+          "hindi": "आजीवः सर्वभूतानां ब्रह्मवृक्षः सनातनः ।",
+          "translation": "Because he said \"I stand,\" therefore the wise remember him as Sthanu. Knowledge, austerity, truth, lordship and dharma,",
+          "translationSource": "ai"
         },
         {
           "number": 90,
           "sanskrit": "वैराग्यमात्मसंबोधः कृत्स्नान्येतानि शङ्करे । सर्वान्देवानृषींश्चैव समेतानसुरैः सह",
           "transliteration": "vairāgyamātmasaṃbodhaḥ kṛtsnānyetāni śaṅkare / sarvāndevānṛṣīṃścaiva sametānasuraiḥ saha",
-          "hindi": "एतद्ब्रह्मवनं चैव ब्रह्मवृक्षस्य तस्य तत्"
+          "hindi": "एतद्ब्रह्मवनं चैव ब्रह्मवृक्षस्य तस्य तत्",
+          "translation": "dispassion and self-realisation: all of these are in Shankara. All the gods and sages gathered with the Asuras",
+          "translationSource": "ai"
         },
         {
           "number": 91,
           "sanskrit": "अत्येति तेजसा देवो महादेवस्ततः स्मृतः । अत्येति देवा नैश्वर्याद्वलेन च महासुरान्",
           "transliteration": "atyeti tejasā devo mahādevastataḥ smṛtaḥ / atyeti devā naiśvaryādvalena ca mahāsurān",
-          "hindi": "अव्यक्त कारणं यत्र नित्यं सदसदात्मकम् ।"
+          "hindi": "अव्यक्त कारणं यत्र नित्यं सदसदात्मकम् ।",
+          "translation": "the god surpasses by brilliance, therefore he is remembered as Mahadeva; he surpasses the gods by lordship and the great Asuras by strength,",
+          "translationSource": "ai"
         },
         {
           "number": 92,
           "sanskrit": "ज्ञानेन च मुनीन्सर्वान्योगाद्भूतानि सर्वशः । एवमेव महादेवः सर्वदेवनमस्कृतः । प्रजामनु द्यामां सृष्ट्वा सर्गादुपरराम ह",
           "transliteration": "jñānena ca munīnsarvānyogādbhūtāni sarvaśaḥ / evameva mahādevaḥ sarvadevanamaskṛtaḥ / prajāmanu dyāmāṃ sṛṣṭvā sargādupararāma ha",
-          "hindi": "धानं कृति मायां जेवाहुस्तत्वचितका: ।"
+          "hindi": "धानं कृति मायां जेवाहुस्तत्वचितका: ।",
+          "translation": "all sages by knowledge and all beings by yoga. Thus Mahadeva, bowed to by all gods, having created the progeny of the sky, ceased from creation.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -5169,283 +5361,377 @@
           "number": 42,
           "sanskrit": "चतुर्थस्य चतुर्थी तु वायुर्नाम्ना तनुस्तव । इत्युक्ते यच्छरीरस्थं पञ्चधा प्राणसंज्ञितम्",
           "transliteration": "caturthasya caturthī tu vāyurnāmnā tanustava / ityukte yaccharīrasthaṃ pañcadhā prāṇasaṃjñitam",
-          "hindi": "ब्राह्मणः आदि -पशु-पक्षो-स्थावर-सरीसृप उस समय में पृथ्वीतल वाली उनके स्थित रहने पर यहां पर सूर्ये की सह्र रश्मियाँ विनष्ट हो जाती हैं ।१२२-१२३। वे सब सूर्य की किरणें सात रश्मियाँ होकर एक-एक सूर्य हो जाया करता है वे क्रम से शत स्वरूप होकर तीनों लोकों को प्रदान किया"
+          "hindi": "ब्राह्मणः आदि -पशु-पक्षो-स्थावर-सरीसृप उस समय में पृथ्वीतल वाली उनके स्थित रहने पर यहां पर सूर्ये की सह्र रश्मियाँ विनष्ट हो जाती हैं ।१२२-१२३। वे सब सूर्य की किरणें सात रश्मियाँ होकर एक-एक सूर्य हो जाया करता है वे क्रम से शत स्वरूप होकर तीनों लोकों को प्रदान किया",
+          "translation": "\"The fourth, of the fourth (name), is your body Vayu.\" When so said, what in his body was called the fivefold life-breath",
+          "translationSource": "ai"
         },
         {
           "number": 43,
           "sanskrit": "विवेश तस्य तद्वायुमीशानस्तन मारुतः । तस्मान्नैनं परिवदेत्प्रवान्तं वायुमीश्वरम्",
           "transliteration": "viveśa tasya tadvāyumīśānastana mārutaḥ / tasmānnainaṃ parivadetpravāntaṃ vāyumīśvaram",
-          "hindi": "करते हैं-॥१२४। जञ्म-और स्थादर-चदी और सव पवंतों को जो पूर्ण में ही"
+          "hindi": "करते हैं-॥१२४। जञ्म-और स्थादर-चदी और सव पवंतों को जो पूर्ण में ही",
+          "translation": "entered that wind of his, Ishana's body, the wind. Therefore one should not revile the wind, the Lord, as it blows.",
+          "translationSource": "ai"
         },
         {
           "number": 44,
           "sanskrit": "यज्ञैर्व्यवहरन्त्येनं ये वै परिचरन्ति च । एवं युक्तं महेशानो नैव देवो हिनस्ति तम्",
           "transliteration": "yajñairvyavaharantyenaṃ ye vai paricaranti ca / evaṃ yuktaṃ maheśāno naiva devo hinasti tam",
-          "hindi": "लोककल्पनस्ः (२)   «७ बृष्टि केत होने से शुष्क हो रहे ये और जिनके \"द्वारा वे शुष्क येः उस्हीं कें द्वारा बहुत तापित किये गये ये अर्थात् शुष्क वे एकदम प्राप्त हो गये थे ।१२५। इस समय में कहीं पर भी परित्राण नहीं था और वे सव विवश"
+          "hindi": "लोककल्पनस्ः (२)   «७ बृष्टि केत होने से शुष्क हो रहे ये और जिनके \"द्वारा वे शुष्क येः उस्हीं कें द्वारा बहुत तापित किये गये ये अर्थात् शुष्क वे एकदम प्राप्त हो गये थे ।१२५। इस समय में कहीं पर भी परित्राण नहीं था और वे सव विवश",
+          "translation": "Those who deal with him in sacrifices and serve him — the god Maheshana does not harm one so joined.",
+          "translationSource": "ai"
         },
         {
           "number": 45,
           "sanskrit": "ततो ऽब्रवीत्पुनर्ब्रह्मा तं देवं ध५म्लमीश्वरम् । नाम यद्वै पशुपतिरित्युक्तं पञ्चमं मया",
           "transliteration": "tato 'bravītpunarbrahmā taṃ devaṃ dha5mlamīśvaram / nāma yadvai paśupatirityuktaṃ pañcamaṃ mayā",
-          "hindi": "होकर सूर्ये के प्रखर प्रत्त किरणों से निःशेष रूप से दग्ध हो गये थे) इनमें सभी स्थावर-जञ्गम और धर्म तथा अधर्म आदि थे"
+          "hindi": "होकर सूर्ये के प्रखर प्रत्त किरणों से निःशेष रूप से दग्ध हो गये थे) इनमें सभी स्थावर-जञ्गम और धर्म तथा अधर्म आदि थे",
+          "translation": "Then Brahma again said to the god, the lord, \"The fifth name I declared, Pashupati,",
+          "translationSource": "ai"
         },
         {
           "number": 46,
           "sanskrit": "पञ्चमी पञ्चम स्यैषा तनुर्नाम्नाग्निरस्तु ते । इत्युक्ते यच्छरीरस्थं तेजस्तस्योष्णसंज्ञितम्",
           "transliteration": "pañcamī pañcama syaiṣā tanurnāmnāgnirastu te / ityukte yaccharīrasthaṃ tejastasyoṣṇasaṃjñitam",
-          "hindi": "दग्धदेहास्तदा ते तु धूतपापा युगात्यये ।"
+          "hindi": "दग्धदेहास्तदा ते तु धूतपापा युगात्यये ।",
+          "translation": "this is the fifth body: let Agni be yours by name.\" When so said, the heat in his body called warmth",
+          "translationSource": "ai"
         },
         {
           "number": 47,
           "sanskrit": "विवेश तत्तदा ह्यग्निं तस्मात्पशुपतिस्तु सः । यस्मादग्निः पशुश्चासीद्यस्मात्पाति पशूंश्च सः",
           "transliteration": "viveśa tattadā hyagniṃ tasmātpaśupatistu saḥ / yasmādagniḥ paśuścāsīdyasmātpāti paśūṃśca saḥ",
-          "hindi": "उषित्वा रजनीं ते च ब्रह्मणोऽव्यक्तजन्मनः"
+          "hindi": "उषित्वा रजनीं ते च ब्रह्मणोऽव्यक्तजन्मनः",
+          "translation": "then entered Agni; hence he is Pashupati, because Agni was the animal and protects animals.",
+          "translationSource": "ai"
         },
         {
           "number": 48,
           "sanskrit": "तस्मात्पशुपतेस्तस्य तनुरग्निर्निरुच्यते । तस्मादमेद्यं न दहेन्न च पादौ प्रतापयेत्",
           "transliteration": "tasmātpaśupatestasya tanuragnirnirucyate / tasmādamedyaṃ na dahenna ca pādau pratāpayet",
-          "hindi": "पुनः सगे भवंतीह मानस्यो ब्रह्मणः प्रजाः ।"
+          "hindi": "पुनः सगे भवंतीह मानस्यो ब्रह्मणः प्रजाः ।",
+          "translation": "Therefore Pashupati's body is called Agni; hence one should not burn the impure nor warm the feet at it,",
+          "translationSource": "ai"
         },
         {
           "number": 49,
           "sanskrit": "अधस्तान्नोपदध्याच्च न चैनमतिलङ्घयेत् । नैनं पशुपतिर्देव एवं युक्तं हिनस्ति वै",
           "transliteration": "adhastānnopadadhyācca na cainamatilaṅghayet / nainaṃ paśupatirdeva evaṃ yuktaṃ hinasti vai",
-          "hindi": "ततस्तं षु प्रपन्नेषु जनै स्त्रं लोक्यवासिषु"
+          "hindi": "ततस्तं षु प्रपन्नेषु जनै स्त्रं लोक्यवासिषु",
+          "translation": "nor put it below, nor step over it; Pashupati, the god, does not harm one so joined.",
+          "translationSource": "ai"
         },
         {
           "number": 50,
           "sanskrit": "ततो ऽब्रवीत्पुनर्ब्रह्मा तं देवं श्वेतपिङ्गलम् । षष्टं नाम मया प्रोक्तं तव भीमेति यत्प्रभो",
           "transliteration": "tato 'bravītpunarbrahmā taṃ devaṃ śvetapiṅgalam / ṣaṣṭaṃ nāma mayā proktaṃ tava bhīmeti yatprabho",
-          "hindi": "निर्दग्धेषु च लोकेषु तदा सूर्येस्वु सप्तभिः ।"
+          "hindi": "निर्दग्धेषु च लोकेषु तदा सूर्येस्वु सप्तभिः ।",
+          "translation": "Then Brahma again said to the white-tawny god, \"The sixth name I spoke for you is Bhima, lord.",
+          "translationSource": "ai"
         },
         {
           "number": 51,
           "sanskrit": "आकाशं तस्य नाम्नस्तु तनुः षष्ठी भवत्विति । इत्युक्ते सुषिरं तस्य शरीरस्थमभूच्च यत्",
           "transliteration": "ākāśaṃ tasya nāmnastu tanuḥ ṣaṣṭhī bhavatviti / ityukte suṣiraṃ tasya śarīrasthamabhūcca yat",
-          "hindi": "आभाति यस्माच्चाभासाद्भाशब्दः कांतिदीप्तिषु ।"
+          "hindi": "आभाति यस्माच्चाभासाद्भाशब्दः कांतिदीप्तिषु ।",
+          "translation": "Let space be the body of that name, the sixth.\" When so said, the hollow in his body",
+          "translationSource": "ai"
         },
         {
           "number": 52,
           "sanskrit": "विवेश तत्तदाकाशं तस्माद्भीमस्य सा तनुः । यदाकाशे स्मृतो देवस्तस्मान्ना संवृतः क्वचित्",
           "transliteration": "viveśa tattadākāśaṃ tasmādbhīmasya sā tanuḥ / yadākāśe smṛto devastasmānnā saṃvṛtaḥ kvacit",
-          "hindi": "उस अवसर पर युग के अत्यय में वे देहों के दग्ध हो जाने पर निष्पाप हो गये थे तथा ब्यातातप और शुभ बन्धा से विनिमुरक्त ये ।१२७। इसके उपरान्त वे तुल्यरूप वाले जनों के स्वाका जन उत्पन्न होते हैं। और वे अब्यक्त जन्म बाले ब्रह्मा की राति में बहाँ निवास करके फिर सृजन की"
+          "hindi": "उस अवसर पर युग के अत्यय में वे देहों के दग्ध हो जाने पर निष्पाप हो गये थे तथा ब्यातातप और शुभ बन्धा से विनिमुरक्त ये ।१२७। इसके उपरान्त वे तुल्यरूप वाले जनों के स्वाका जन उत्पन्न होते हैं। और वे अब्यक्त जन्म बाले ब्रह्मा की राति में बहाँ निवास करके फिर सृजन की",
+          "translation": "entered space then; that is the body of Bhima. Since the god is remembered in space, therefore he is never covered:",
+          "translationSource": "ai"
         },
         {
           "number": 53,
           "sanskrit": "कुर्यान्मूत्रं पुरीषं वा न भुञ्जीत पिबेन्न वा । मैथुनं वापि न चरेदुच्छिष्टानि च नोत्क्षिपेत्",
           "transliteration": "kuryānmūtraṃ purīṣaṃ vā na bhuñjīta pibenna vā / maithunaṃ vāpi na careducchiṣṭāni ca notkṣipet",
-          "hindi": "वेलां में ब्रह्माजी की मानसी प्रजा होती हैं। फिर जनों के साथ त्रेलोक्य वासी उनके प्रयत्न होने पर तथा संतप्त सूर्य की प्रखर किरणों सेउस समय में लोकों के निर्दग्ध हो जाने पर वृष्टि के द्वारा. सम्पात से भूमि के प्लावित होनें पर तथा बिजन अर्णीवों में निमम्न हो जाने: पर समुद्र-मेघ-जल-और"
+          "hindi": "वेलां में ब्रह्माजी की मानसी प्रजा होती हैं। फिर जनों के साथ त्रेलोक्य वासी उनके प्रयत्न होने पर तथा संतप्त सूर्य की प्रखर किरणों सेउस समय में लोकों के निर्दग्ध हो जाने पर वृष्टि के द्वारा. सम्पात से भूमि के प्लावित होनें पर तथा बिजन अर्णीवों में निमम्न हो जाने: पर समुद्र-मेघ-जल-और",
+          "translation": "one should not urinate or defecate, eat or drink, have intercourse or throw leavings (toward it).",
+          "translationSource": "ai"
         },
         {
           "number": 54,
           "sanskrit": "न हिनस्ति च तं देवो यो भीमे ह्येवमाचरेत् । ततो ऽब्रवीत्पुनर्ब्रह्मा तं देवं सबलं प्रभुम्",
           "transliteration": "na hinasti ca taṃ devo yo bhīme hyevamācaret / tato 'bravītpunarbrahmā taṃ devaṃ sabalaṃ prabhum",
-          "hindi": "पाथिव सब शरमाण होते तथा अचल सलिल से ज्ञान वाले होंकर सब ही गमन कर जायो करते हैं अर्यात् विन8 हो जाते हैं ।६२८-१३१। जिस समय"
+          "hindi": "पाथिव सब शरमाण होते तथा अचल सलिल से ज्ञान वाले होंकर सब ही गमन कर जायो करते हैं अर्यात् विन8 हो जाते हैं ।६२८-१३१। जिस समय",
+          "translation": "The god does not harm one who acts so toward Bhima. Then Brahma again said to the god with strength, the lord:",
+          "translationSource": "ai"
         },
         {
           "number": 55,
           "sanskrit": "सप्तमं यन्मया प्रोक्तं नामोग्रेति तव प्रभो । तस्य नाम्नस्तनुस्तुभ्यं द्विजो भवति दीक्षितः",
           "transliteration": "saptamaṃ yanmayā proktaṃ nāmogreti tava prabho / tasya nāmnastanustubhyaṃ dvijo bhavati dīkṣitaḥ",
-          "hindi": "श  अक्माण्डःपुराण"
+          "hindi": "श  अक्माण्डःपुराण",
+          "translation": "\"The seventh name I declared, Ugra, lord: the body of that name for you is the initiated twice-born.\"",
+          "translationSource": "ai"
         },
         {
           "number": 56,
           "sanskrit": "एवमुक्ते तु यत्तस्य चैतन्यं वै शरीरगम् । विवेश दीक्षितं तद्वै ब्राह्मणं सोमयाजिनम्",
           "transliteration": "evamukte tu yattasya caitanyaṃ vai śarīragam / viveśa dīkṣitaṃ tadvai brāhmaṇaṃ somayājinam",
-          "hindi": "भें आगता मलिक जल प्रचुर मात्राः में हो जाता\" है तो बह इस भूमिः को संच्छादित करके सभी\" समुद्र नाम वाला हो जाता है११३२। भी शब्द जिस आभास से कान्ति-दीघ्षियों में आभात होता है। वह सभी आओं को समनु प्राप्त हुए जो'किःभाओं से विभावित होता है"
+          "hindi": "भें आगता मलिक जल प्रचुर मात्राः में हो जाता\" है तो बह इस भूमिः को संच्छादित करके सभी\" समुद्र नाम वाला हो जाता है११३२। भी शब्द जिस आभास से कान्ति-दीघ्षियों में आभात होता है। वह सभी आओं को समनु प्राप्त हुए जो'किःभाओं से विभावित होता है",
+          "translation": "When so said, the consciousness in his body entered the initiated Brahmin, the soma-sacrificer.",
+          "translationSource": "ai"
         },
         {
           "number": 57,
           "sanskrit": "तावत्कालं स्मृतो विप्र उग्रो देवस्तु दीक्षितः । तस्मान्नेमं परिवदेन्नाश्लीलं चास्य कीर्त्तयेत्",
           "transliteration": "tāvatkālaṃ smṛto vipra ugro devastu dīkṣitaḥ / tasmānnemaṃ parivadennāślīlaṃ cāsya kīrttayet",
-          "hindi": "एकार्णवे भवंत्यापो न शीर्णास्तेन ता नराः"
+          "hindi": "एकार्णवे भवंत्यापो न शीर्णास्तेन ता नराः",
+          "translation": "For as long, Brahmins, Ugra is remembered as the god initiated; therefore one should not revile him nor speak obscenity of him.",
+          "translationSource": "ai"
         },
         {
           "number": 58,
           "sanskrit": "ते हरन्त्यस्य पाप्मानं ये वै परिवदन्ति तम् । एवं युक्तान् द्विजानुग्रो देवस्तान्न हिनस्ति वै",
           "transliteration": "te harantyasya pāpmānaṃ ye vai parivadanti tam / evaṃ yuktān dvijānugro devastānna hinasti vai",
-          "hindi": "लस्मिन् युगसहस्रांते संस्थिते ब्रह्मणोऽहनि ।"
+          "hindi": "लस्मिन् युगसहस्रांते संस्थिते ब्रह्मणोऽहनि ।",
+          "translation": "Those who revile him take away his sin; the god Ugra does not harm Brahmins so joined.",
+          "translationSource": "ai"
         },
         {
           "number": 59,
           "sanskrit": "ततोब्रवीत्पुनर्ब्रह्मा तं देवं भास्करद्युतिम् । अष्टमं नाम यत् प्रोक्तं महादेवेति ते मया",
           "transliteration": "tatobravītpunarbrahmā taṃ devaṃ bhāskaradyutim / aṣṭamaṃ nāma yat proktaṃ mahādeveti te mayā",
-          "hindi": "तावत्कालं रजन्यां च वर्तन्त्यां सलिलात्मनः"
+          "hindi": "तावत्कालं रजन्यां च वर्तन्त्यां सलिलात्मनः",
+          "translation": "Then Brahma again said to the god, bright as the sun: \"The eighth name declared by me is Mahadeva.",
+          "translationSource": "ai"
         },
         {
           "number": 60,
           "sanskrit": "तस्य नाम्नो ऽष्टमस्यास्तु तनुस्तुभ्यं तु चन्द्रमाः । इत्युक्ते यन्मन स्तस्य संकल्पकमभूत्प्रभोः",
           "transliteration": "tasya nāmno 'ṣṭamasyāstu tanustubhyaṃ tu candramāḥ / ityukte yanmana stasya saṃkalpakamabhūtprabhoḥ",
-          "hindi": "प्रणांतवातेऽन्धकारे निरालोके समंततः ॥"
+          "hindi": "प्रणांतवातेऽन्धकारे निरालोके समंततः ॥",
+          "translation": "The body of the eighth name for you is the moon.\" When so said, what was the lord's resolving mind",
+          "translationSource": "ai"
         },
         {
           "number": 61,
           "sanskrit": "विवेश तच्चन्द्रमसं महादेवस्ततः शशी । तस्माद्विभाव्यते ह्येष महादेवस्तु चन्द्रमाः",
           "transliteration": "viveśa taccandramasaṃ mahādevastataḥ śaśī / tasmādvibhāvyate hyeṣa mahādevastu candramāḥ",
-          "hindi": "येने वायिष्टितं हीदं ब्रह्मणः पुरुषः प्रभुः ।"
+          "hindi": "येने वायिष्टितं हीदं ब्रह्मणः पुरुषः प्रभुः ।",
+          "translation": "entered the moon; therefore Mahadeva appears as the moon. On the new moon the twice-born should not cut trees, shrubs or herbs;",
+          "translationSource": "ai"
         },
         {
           "number": 62,
           "sanskrit": "अमावास्यां न वै छिन्द्याद्वृक्षगुल्मौषधीर्द्विजः । महादेवः स्मृतः सोमस्तस्यात्मा ह्यौषधीगणः",
           "transliteration": "amāvāsyāṃ na vai chindyādvṛkṣagulmauṣadhīrdvijaḥ / mahādevaḥ smṛtaḥ somastasyātmā hyauṣadhīgaṇaḥ",
-          "hindi": "विभागमस्य लोकस्य प्रकतु' पुनरेच्छत"
+          "hindi": "विभागमस्य लोकस्य प्रकतु' पुनरेच्छत",
+          "translation": "Mahadeva is remembered as Soma, his self is the host of herbs. One who always acts so at each parva",
+          "translationSource": "ai"
         },
         {
           "number": 63,
           "sanskrit": "एवं यो वर्त्तते चैह सदा पर्वणि पर्वणि । न हन्ति तं महादेवो य एवं वेद तं प्रभुम्",
           "transliteration": "evaṃ yo varttate caiha sadā parvaṇi parvaṇi / na hanti taṃ mahādevo ya evaṃ veda taṃ prabhum",
-          "hindi": "एकार्णवे ततस्तस्मिन्नष्टे स्यावरज ङ्के ।"
+          "hindi": "एकार्णवे ततस्तस्मिन्नष्टे स्यावरज ङ्के ।",
+          "translation": "is not killed by Mahadeva, who knows the lord so. By day the Sun guards creatures, by night the moon;",
+          "translationSource": "ai"
         },
         {
           "number": 64,
           "sanskrit": "गोपायति दिवादित्यः प्रजा नक्तं तु चन्द्रमाः । एकरात्रौ समेयातां सूर्या चन्द्रमसावुभौ",
           "transliteration": "gopāyati divādityaḥ prajā naktaṃ tu candramāḥ / ekarātrau sameyātāṃ sūryā candramasāvubhau",
-          "hindi": "तदा भवति स ब्रह्मा सहसाक्षः सहसृपात्"
+          "hindi": "तदा भवति स ब्रह्मा सहसाक्षः सहसृपात्",
+          "translation": "the sun and moon meet in one night, on the night of the new moon; on that night one should be always joined (in devotion).",
+          "translationSource": "ai"
         },
         {
           "number": 65,
           "sanskrit": "अमावास्यानिशायां तु तस्यां युक्तः सादा भवेत् । रुद्राविष्टं सर्वमिदं तनुभिर्न्नामभिश्च ह",
           "transliteration": "amāvāsyāniśāyāṃ tu tasyāṃ yuktaḥ sādā bhavet / rudrāviṣṭaṃ sarvamidaṃ tanubhirnnāmabhiśca ha",
-          "hindi": "ब्रह्मा नारायणाख्यस्तु सुष्वाप सलिले तदा"
+          "hindi": "ब्रह्मा नारायणाख्यस्तु सुष्वाप सलिले तदा",
+          "translation": "All this is pervaded by Rudra, by bodies and names. This sun, roaming alone, is called Rudra;",
+          "translationSource": "ai"
         },
         {
           "number": 66,
           "sanskrit": "एकाकी चश्चरत्येष सूर्यो ऽसौ रुद्र उच्यते । सूर्यस्य यत्प्रकाशेन वीक्षन्ते चक्षुषा प्रजाः",
           "transliteration": "ekākī caścaratyeṣa sūryo 'sau rudra ucyate / sūryasya yatprakāśena vīkṣante cakṣuṣā prajāḥ",
-          "hindi": "सत्वोद्रेकातपरबुद्धस्तु स शून्यं. लोकमैक्षत ।"
+          "hindi": "सत्वोद्रेकातपरबुद्धस्तु स शून्यं. लोकमैक्षत ।",
+          "translation": "by the light of the sun creatures see with the eye. Rudra, standing liberated, drinks water with his rays;",
+          "translationSource": "ai"
         },
         {
           "number": 67,
           "sanskrit": "मुक्तात्मा संस्थितो रुद्रः पिबत्यंभो गभस्तिभिः । अद्यते पीयते चैव ह्यन्नपानादिकाम्यया",
           "transliteration": "muktātmā saṃsthito rudraḥ pibatyaṃbho gabhastibhiḥ / adyate pīyate caiva hyannapānādikāmyayā",
-          "hindi": "अनेनाद्येन पादेन पुराणं परिकोतितम् ॥"
+          "hindi": "अनेनाद्येन पादेन पुराणं परिकोतितम् ॥",
+          "translation": "it is eaten and drunk by desire for food and drink. That body born of water increases in bodies;",
+          "translationSource": "ai"
         },
         {
           "number": 68,
           "sanskrit": "तनुरंबूद्भवा सा वै देहेष्वेवोपचीयते । यया धत्ते प्रजाः सर्वाः स्थिरीभूतेन तेजसा",
           "transliteration": "tanuraṃbūdbhavā sā vai deheṣvevopacīyate / yayā dhatte prajāḥ sarvāḥ sthirībhūtena tejasā",
-          "hindi": "उसके अन्दर जिससे सभी” ओर से इस पृथ्बी .का- विस्तारः किया करता-हैः। धातुं विस्तार को फैलाता है उसके पश्चात् उपतनु कहे गये है । ।१३४।-णारः्यही ही 'णीर्ण हो जाने पर अनेक अरथे'धातु-कहा'जाया'करता है? \"एकमात्र समुद्र में जल ही\" होते हैं। उससे वे नर णीर्ण नहीं होते: हैं।"
+          "hindi": "उसके अन्दर जिससे सभी” ओर से इस पृथ्बी .का- विस्तारः किया करता-हैः। धातुं विस्तार को फैलाता है उसके पश्चात् उपतनु कहे गये है । ।१३४।-णारः्यही ही 'णीर्ण हो जाने पर अनेक अरथे'धातु-कहा'जाया'करता है? \"एकमात्र समुद्र में जल ही\" होते हैं। उससे वे नर णीर्ण नहीं होते: हैं।",
+          "translation": "by which he supports all creatures with firm brilliance. The earthly one is his body, the virtuous one that bears creatures.",
+          "translationSource": "ai"
         },
         {
           "number": 69,
           "sanskrit": "पार्थिवी सा तनुस्तस्य साध्वी धारयते प्रजाः । या च स्थिता शरीरेषु भूतानां प्राणवृत्तिभिः",
           "transliteration": "pārthivī sā tanustasya sādhvī dhārayate prajāḥ / yā ca sthitā śarīreṣu bhūtānāṃ prāṇavṛttibhiḥ",
-          "hindi": "।१३४। उस एक-सहस्र युगों के अस्त में ब्रह्मा के दिन के संस्थित होते-पर तब तक-के समयः में सलिलात्माः की राक्र के बसने पर : रजनी ही रहती है ।३३ष्त इसकेः उपरान्त उस जलमें विनष्ट अरिनि'बासे एथ्वीत्तलः में-वायु के एकदम प्रशान्त होने पर एक दम अन्धकार रहता है और सभी और आलोक"
+          "hindi": "।१३४। उस एक-सहस्र युगों के अस्त में ब्रह्मा के दिन के संस्थित होते-पर तब तक-के समयः में सलिलात्माः की राक्र के बसने पर : रजनी ही रहती है ।३३ष्त इसकेः उपरान्त उस जलमें विनष्ट अरिनि'बासे एथ्वीत्तलः में-वायु के एकदम प्रशान्त होने पर एक दम अन्धकार रहता है और सभी और आलोक",
+          "translation": "That which stays in bodies of beings by the functions of life-breath",
+          "translationSource": "ai"
         },
         {
           "number": 70,
           "sanskrit": "वातात्मिका तु चैशानी सा प्राणः प्राणिनामिह । पीताशितानि पचति भूतानां जठरेष्विह",
           "transliteration": "vātātmikā tu caiśānī sā prāṇaḥ prāṇināmiha / pītāśitāni pacati bhūtānāṃ jaṭhareṣviha",
-          "hindi": "बच अभाव होता है ।१३७। जिसके द्वारा यह अश्विष्टित है ब्रह्मा के पर पुरष अधु ने इस लोक के विभाग करते की इच्छा की थी !१३८। उस समय में केवळ एक ही समुद्र था और सभी चर तथा अचर जगत् एकदम विनष्ट हों गया था । तङ बह ब्रह्मा सहसो पादों बाले होते हैं ।१३९१ वह पुरुष सहसों"
+          "hindi": "बच अभाव होता है ।१३७। जिसके द्वारा यह अश्विष्टित है ब्रह्मा के पर पुरष अधु ने इस लोक के विभाग करते की इच्छा की थी !१३८। उस समय में केवळ एक ही समुद्र था और सभी चर तथा अचर जगत् एकदम विनष्ट हों गया था । तङ बह ब्रह्मा सहसो पादों बाले होते हैं ।१३९१ वह पुरुष सहसों",
+          "translation": "is Ishani, of the nature of wind, life-breath in living beings here; it digests what is drunk and eaten in beings' bellies here.",
+          "translationSource": "ai"
         },
         {
           "number": 71,
           "sanskrit": "तनुः पाशुपती तस्य पाचकः सो ऽग्निरुच्यते । यानीह शुषिराणि स्युर्देहेष्वन्तर्गतानि वै",
           "transliteration": "tanuḥ pāśupatī tasya pācakaḥ so 'gnirucyate / yānīha śuṣirāṇi syurdeheṣvantargatāni vai",
-          "hindi": "शीर्षो वाले हैं जिनका वणं सुरण के समान है और जो इन्द्रियों की पहुँच से परे हैं। उस समय में नाराग्रण नामधारी ब्रह्मजी जल में शयन कर रहे ये ।१४०। सत्य के उद्रेक से प्रक्ष ज्ञान वाले उन्होंने सम्पूर्ण लोक को शून्य देखा था । इस आच पाद ने पुराण को परिकीत्तित किया था"
+          "hindi": "शीर्षो वाले हैं जिनका वणं सुरण के समान है और जो इन्द्रियों की पहुँच से परे हैं। उस समय में नाराग्रण नामधारी ब्रह्मजी जल में शयन कर रहे ये ।१४०। सत्य के उद्रेक से प्रक्ष ज्ञान वाले उन्होंने सम्पूर्ण लोक को शून्य देखा था । इस आच पाद ने पुराण को परिकीत्तित किया था",
+          "translation": "His Pashupata body is called the digesting Agni. The hollow spaces within bodies",
+          "translationSource": "ai"
         },
         {
           "number": 72,
           "sanskrit": "वायोः संचरणार्थानि भीमा सा प्रोच्यते तनुः । वैतान्यादीक्षितानां तु या स्थितिर्ब्रह्मवादिनाम्",
           "transliteration": "vāyoḥ saṃcaraṇārthāni bhīmā sā procyate tanuḥ / vaitānyādīkṣitānāṃ tu yā sthitirbrahmavādinām",
-          "hindi": "सूत उवाच-इस्येवं प्रथमं पादं प्रकृत्यर्थ भ्रकीतितम् । श्रुल्वा तु संहृष्टमनाः कापेयः संजयायति ॥"
+          "hindi": "सूत उवाच-इस्येवं प्रथमं पादं प्रकृत्यर्थ भ्रकीतितम् । श्रुल्वा तु संहृष्टमनाः कापेयः संजयायति ॥",
+          "translation": "for the movement of wind are called the terrible body. The state of the initiated Brahman-speakers in the Vaitana (ritual)",
+          "translationSource": "ai"
         },
         {
           "number": 73,
           "sanskrit": "तनुरुग्रात्मिका सा तु तेनोग्रो दीक्षितः स्मृतः । यत्तु संकल्पकं तस्य प्रजास्विह समास्थितम्",
           "transliteration": "tanurugrātmikā sā tu tenogro dīkṣitaḥ smṛtaḥ / yattu saṃkalpakaṃ tasya prajāsviha samāsthitam",
-          "hindi": "करुपयोरंतरं यत्र प्रतिसंधिश्च यस्तयोः । पत्रो दिठुमिच्छामि यथावत्कुणलो ह्यसि"
+          "hindi": "करुपयोरंतरं यत्र प्रतिसंधिश्च यस्तयोः । पत्रो दिठुमिच्छामि यथावत्कुणलो ह्यसि",
+          "translation": "is the fierce-natured body; hence the initiated is remembered as Ugra. The resolving mind of his that is established in creatures here",
+          "translationSource": "ai"
         },
         {
           "number": 74,
           "sanskrit": "सा तनुर्मानसी तस्य चन्द्रमाः प्राणिषु स्थितः । नवोनवो यो भवति जायमानः पुनःपुनः",
           "transliteration": "sā tanurmānasī tasya candramāḥ prāṇiṣu sthitaḥ / navonavo yo bhavati jāyamānaḥ punaḥpunaḥ",
-          "hindi": "कापेयेनेवमुक्तस्वु सूतः प्रवदतां वर:  अलोक्यस्पोद्भव कृत्स्नदाख्यातुमुपचक्रमे ४"
+          "hindi": "कापेयेनेवमुक्तस्वु सूतः प्रवदतां वर:  अलोक्यस्पोद्भव कृत्स्नदाख्यातुमुपचक्रमे ४",
+          "translation": "is his mental body, the moon, stationed in beings. Newer and newer, born again and again,",
+          "translationSource": "ai"
         },
         {
           "number": 75,
           "sanskrit": "पीयते ऽसौ यथाकालं विबुधैः पितृभिः सह । महादेवो ऽमृतात्मा स चन्द्रमा अम्मयः स्मृतः",
           "transliteration": "pīyate 'sau yathākālaṃ vibudhaiḥ pitṛbhiḥ saha / mahādevo 'mṛtātmā sa candramā ammayaḥ smṛtaḥ",
-          "hindi": "शी सूतजी ने कहा-यह प्रकीत्ति के लिए प्रथम पाद कीतित किया"
+          "hindi": "शी सूतजी ने कहा-यह प्रकीत्ति के लिए प्रथम पाद कीतित किया",
+          "translation": "he is drunk in time by the wise with the ancestors. Mahadeva, immortal-souled, is remembered as the moon, made of water.",
+          "translationSource": "ai"
         },
         {
           "number": 76,
           "sanskrit": "तस्य या प्रथमा नाम्ना तनू रौद्री प्रकीर्त्तिता । पत्नी सुवर्च्चला तस्याः पुत्रश्चास्य शनैश्चरः",
           "transliteration": "tasya yā prathamā nāmnā tanū raudrī prakīrttitā / patnī suvarccalā tasyāḥ putraścāsya śanaiścaraḥ",
-          "hindi": "है । इसका अवण करके कापेय के मन में बहुत हो संदर्ण हुआ था किन्तु उसके मन में संशय भी होता है।६॥ उन्होंने दाणी के द्वारा सूतजो की"
+          "hindi": "है । इसका अवण करके कापेय के मन में बहुत हो संदर्ण हुआ था किन्तु उसके मन में संशय भी होता है।६॥ उन्होंने दाणी के द्वारा सूतजो की",
+          "translation": "His first body by name, Raudri, is declared; his wife Suvarchala, and her son Shanaishchara.",
+          "translationSource": "ai"
         },
         {
           "number": 77,
           "sanskrit": "भवस्य या द्वितीया तु आपो नाम्ना तनुः स्मृता । तस्या धात्री स्मृता पत्नी पुत्रश्च उशना स्मृतः",
           "transliteration": "bhavasya yā dvitīyā tu āpo nāmnā tanuḥ smṛtā / tasyā dhātrī smṛtā patnī putraśca uśanā smṛtaḥ",
-          "hindi": "se   ब्रत्माण्ड पुराण"
+          "hindi": "se   ब्रत्माण्ड पुराण",
+          "translation": "Bhava's second body by name is remembered as Water; her wife Dhatri is remembered, and son Ushana.",
+          "translationSource": "ai"
         },
         {
           "number": 78,
           "sanskrit": "शर्वस्य या तृतीयस्य नाम्नो भूमिस्तनुः स्मृता । तस्याः पत्नी विकेशी तु पुत्रो ऽस्याङ्गारकः स्मृतः",
           "transliteration": "śarvasya yā tṛtīyasya nāmno bhūmistanuḥ smṛtā / tasyāḥ patnī vikeśī tu putro 'syāṅgārakaḥ smṛtaḥ",
-          "hindi": "आराधना की थी और उसका अर्थ तथा दूसरी कया को अवण करने की इच्छा को थो। आज से लेकर कल्पज् प्रति सन्धि कहा जातां है।२। वीत इए करूप का ओर वर्तमान कल्प को इन दोनों का अन्तर और जहाँ पर जनं दोनों की प्रतिसम्धि हैं । यह मैं जानना चाहता हूँ क्योंकि आप ठीके"
+          "hindi": "आराधना की थी और उसका अर्थ तथा दूसरी कया को अवण करने की इच्छा को थो। आज से लेकर कल्पज् प्रति सन्धि कहा जातां है।२। वीत इए करूप का ओर वर्तमान कल्प को इन दोनों का अन्तर और जहाँ पर जनं दोनों की प्रतिसम्धि हैं । यह मैं जानना चाहता हूँ क्योंकि आप ठीके",
+          "translation": "Sharva's third name, Earth, is the body; her wife is Vikeshi and her son Angaraka.",
+          "translationSource": "ai"
         },
         {
           "number": 79,
           "sanskrit": "ईशानस्य चतुर्थस्य नाम्ना वातस्तनुस्तु या । तस्याः पत्नी शिवा नाम पुत्रश्चास्या मनोजवः",
           "transliteration": "īśānasya caturthasya nāmnā vātastanustu yā / tasyāḥ patnī śivā nāma putraścāsyā manojavaḥ",
-          "hindi": "प्रकार से यह बताने के लिए परम कुशल हैं।३। कापेय के द्वारा इंस प्रकार से पूछे जाने पर प्रवचन करने वालों में श्र ष्ठ सूतजी ने यहं सम्पूण ही करने को उपक्रम किया था ।४। भो सूतजो ने कहा था-है सुन्दर ब्रतों वालो ! इस विषय में जो कुछ भी हैं वह सभी यथार्थ रूप से वर्णन करूंगा । कल्प"
+          "hindi": "प्रकार से यह बताने के लिए परम कुशल हैं।३। कापेय के द्वारा इंस प्रकार से पूछे जाने पर प्रवचन करने वालों में श्र ष्ठ सूतजी ने यहं सम्पूण ही करने को उपक्रम किया था ।४। भो सूतजो ने कहा था-है सुन्दर ब्रतों वालो ! इस विषय में जो कुछ भी हैं वह सभी यथार्थ रूप से वर्णन करूंगा । कल्प",
+          "translation": "Ishana's fourth name, Wind, is the body; her wife is called Shiva and her son Manojava,",
+          "translationSource": "ai"
         },
         {
           "number": 80,
           "sanskrit": "अविज्ञातगतिश्चैव द्वौ पुत्रौ चानिलस्य तु । नाम्ना पशुपतेर्या तु तनुरग्निर्द्विजैः स्मृता",
           "transliteration": "avijñātagatiścaiva dvau putrau cānilasya tu / nāmnā paśupateryā tu tanuragnirdvijaiḥ smṛtā",
-          "hindi": "जो हो गये हैं और आगे होने बाले हैं तथा इन दोनों की जो प्रति सन्धिं है- इसको भी बताऊगा ।५। इन कल्पो' में जो-जो भी मन्वन्तर है और जो यह् कल्प ब्तीमान है वहं इस समय कल्प परम शुभ वाराह हैं।६ं। इस कल्प से पूर्ग में होने वाला जो कल्प था जो कि सनातन ब्यतीत हो गया है उसकी"
+          "hindi": "जो हो गये हैं और आगे होने बाले हैं तथा इन दोनों की जो प्रति सन्धिं है- इसको भी बताऊगा ।५। इन कल्पो' में जो-जो भी मन्वन्तर है और जो यह् कल्प ब्तीमान है वहं इस समय कल्प परम शुभ वाराह हैं।६ं। इस कल्प से पूर्ग में होने वाला जो कल्प था जो कि सनातन ब्यतीत हो गया है उसकी",
+          "translation": "and two sons of Anila, Avijnatagati. By the name Pashupati the body is Agni, say the Brahmins;",
+          "translationSource": "ai"
         },
         {
           "number": 81,
           "sanskrit": "तस्याः पत्नी स्मृता स्वाहा स्कन्दस्तस्याः सुतः स्मृतः । नाम्ना षष्ठस्य या भीमा तनुराकाशमुच्यते",
           "transliteration": "tasyāḥ patnī smṛtā svāhā skandastasyāḥ sutaḥ smṛtaḥ / nāmnā ṣaṣṭhasya yā bhīmā tanurākāśamucyate",
-          "hindi": "ओर इस कल्प की जो मध्य में होने वाली अवस्था है उसका शान अब प्राप्त करलो"
+          "hindi": "ओर इस कल्प की जो मध्य में होने वाली अवस्था है उसका शान अब प्राप्त करलो",
+          "translation": "her wife is Svaha, and her son Skanda. The sixth name, Bhima, body, is called space;",
+          "translationSource": "ai"
         },
         {
           "number": 82,
           "sanskrit": "दिशः पत्न्यः स्मृतास्तस्य स्वर्गश्चापि सुतः स्मृतः । अग्रा तनुः सप्तमी या दीक्षितो ब्राह्मणः स्मृतः",
           "transliteration": "diśaḥ patnyaḥ smṛtāstasya svargaścāpi sutaḥ smṛtaḥ / agrā tanuḥ saptamī yā dīkṣito brāhmaṇaḥ smṛtaḥ",
-          "hindi": "अन्यः प्रवर्त्तते कल्पो जनलोकादयः पुनः ॥।="
+          "hindi": "अन्यः प्रवर्त्तते कल्पो जनलोकादयः पुनः ॥।=",
+          "translation": "the directions are remembered as his wives, and Svarga as his son. The seventh, Ugra, body is the initiated Brahmin;",
+          "translationSource": "ai"
         },
         {
           "number": 83,
           "sanskrit": "दीक्षा पत्नी स्मृता तस्याः संतानः पुत्र उच्यते । नाम्नाष्टमस्य महस्तनुर्या चन्द्रमाः स्मृतः",
           "transliteration": "dīkṣā patnī smṛtā tasyāḥ saṃtānaḥ putra ucyate / nāmnāṣṭamasya mahastanuryā candramāḥ smṛtaḥ",
-          "hindi": "एष संस्थितकालन्तु प्रत्याहारस्ततः स्मृतः"
+          "hindi": "एष संस्थितकालन्तु प्रत्याहारस्ततः स्मृतः",
+          "translation": "Diksha is his wife, and Santana his son. The eighth name Mahas, body, is remembered as the moon;",
+          "translationSource": "ai"
         },
         {
           "number": 84,
           "sanskrit": "तस्य वै रोहिणी पत्नी पुत्रस्तस्य बुधः स्मृतः । इत्येतास्तनवस्तस्य नामभिः सह कीर्तिताः",
           "transliteration": "tasya vai rohiṇī patnī putrastasya budhaḥ smṛtaḥ / ityetāstanavastasya nāmabhiḥ saha kīrtitāḥ",
-          "hindi": "है अनघो ! प्रतिसस्धि के बिना पूर्वकल्प के प्रत्यागत होने पर अन्य कल्प प्रवृत्त होता है ओर फिर जन लोकादिक होते हैं ।८। व्युच्छिरन प्रति- सन्धि वाला कल्प से परस्पर में होता है । उस अवसर पर सभी ओर से कल्प के अन्त में सम्पूर्ण प्रजा व्युच्छिन्न हुआ करती है ।६। उस कल्प से कल्प की"
+          "hindi": "है अनघो ! प्रतिसस्धि के बिना पूर्वकल्प के प्रत्यागत होने पर अन्य कल्प प्रवृत्त होता है ओर फिर जन लोकादिक होते हैं ।८। व्युच्छिरन प्रति- सन्धि वाला कल्प से परस्पर में होता है । उस अवसर पर सभी ओर से कल्प के अन्त में सम्पूर्ण प्रजा व्युच्छिन्न हुआ करती है ।६। उस कल्प से कल्प की",
+          "translation": "his wife is Rohini and his son Budha. Thus these his bodies are told together with their names.",
+          "translationSource": "ai"
         },
         {
           "number": 85,
           "sanskrit": "तासु वन्द्यो नमस्यश्च प्रतिनामतनूषु वै । सूर्येप्सूर्व्यां तथा वायावग्नौ व्योम्न्यथ दीक्षिते",
           "transliteration": "tāsu vandyo namasyaśca pratināmatanūṣu vai / sūryepsūrvyāṃ tathā vāyāvagnau vyomnyatha dīkṣite",
-          "hindi": "प्रतिसन्धि नहीं होती है। क युगाख्यों की सन्धियाँ अविच्छिस्न होती हैं।१०। मन्वन्तर युगों के साथ परस्पर से पृ होता है। जो सक्षेप से प्रक्रियां के द्वारा पूर्व कल्प कहे हैं ।११। उन पराघं कल्पों के पूर्ण जिससे जो पर है । पूर्ग कल्प के व्यतीत होने पर पराध से परम जो या ।१२। जो"
+          "hindi": "प्रतिसन्धि नहीं होती है। क युगाख्यों की सन्धियाँ अविच्छिस्न होती हैं।१०। मन्वन्तर युगों के साथ परस्पर से पृ होता है। जो सक्षेप से प्रक्रियां के द्वारा पूर्व कल्प कहे हैं ।११। उन पराघं कल्पों के पूर्ण जिससे जो पर है । पूर्ग कल्प के व्यतीत होने पर पराध से परम जो या ।१२। जो",
+          "translation": "In these he is to be bowed to and honoured in each name-body: in the sun, in the earth, in wind, in fire, in space, in the initiated,",
+          "translationSource": "ai"
         },
         {
           "number": 86,
           "sanskrit": "भक्तैस्तथा चन्द्रमसि भत्तया वन्द्यस्तु नामभिः । एवं यो वेत्ति तं देवं तनुभिर्नामभिश्च ह",
           "transliteration": "bhaktaistathā candramasi bhattayā vandyastu nāmabhiḥ / evaṃ yo vetti taṃ devaṃ tanubhirnāmabhiśca ha",
-          "hindi": "अन्य भविष्य में होने बाले कल्प हैं वे अपराधं गुणी कृत हैं। है द्विजगणो ! उनमें अब होने वाला कल्प है जो कि इस समय में वर्तामान हैं ।१३। इसमें पूर्ण पराध॑ में जो द्वितीय है वह पर कहा जाता है । यह संस्थित काल वाला है और फिर प्रत्याहार कहा गया है"
+          "hindi": "अन्य भविष्य में होने बाले कल्प हैं वे अपराधं गुणी कृत हैं। है द्विजगणो ! उनमें अब होने वाला कल्प है जो कि इस समय में वर्तामान हैं ।१३। इसमें पूर्ण पराध॑ में जो द्वितीय है वह पर कहा जाता है । यह संस्थित काल वाला है और फिर प्रत्याहार कहा गया है",
+          "translation": "in devotees and in the moon, with devotion, by the names. One who knows that god thus with bodies and names",
+          "translationSource": "ai"
         },
         {
           "number": 87,
           "sanskrit": "प्रजावानेति सायुज्यमीश्वरस्य भवस्य सः । इत्येतद्वो मया प्रोक्तं गुह्यं भीमास्य यद्यशः",
           "transliteration": "prajāvāneti sāyujyamīśvarasya bhavasya saḥ / ityetadvo mayā proktaṃ guhyaṃ bhīmāsya yadyaśaḥ",
-          "hindi": "क्षीणे कल्पे ततस्नस्मिन्'दाहकाल उपस्थिते ।"
+          "hindi": "क्षीणे कल्पे ततस्नस्मिन्'दाहकाल उपस्थिते ।",
+          "translation": "with offspring attains union with Ishvara Bhava. Thus this secret has been told to you by me, the fame of this Bhima.",
+          "translationSource": "ai"
         },
         {
           "number": 88,
           "sanskrit": "शन्नो ऽस्तु द्विपदे विप्राः शन्नो ऽस्तु च चतुष्पदे । एतत्प्रोक्तमिदानीं च तनूनां नामभि सह । महादेवस्य देवस्य भृगोस्तु शृणुत प्रजाः",
           "transliteration": "śanno 'stu dvipade viprāḥ śanno 'stu ca catuṣpade / etatproktamidānīṃ ca tanūnāṃ nāmabhi saha / mahādevasya devasya bhṛgostu śṛṇuta prajāḥ",
-          "hindi": "तस्मिन्काले तदा देवा आसन्वैमानिकास्तु ये"
+          "hindi": "तस्मिन्काले तदा देवा आसन्वैमानिकास्तु ये",
+          "translation": "May there be well-being for our two-footed, Brahmins, and for our four-footed. This has now been told with the names of the bodies of the god Mahadeva; hear of Bhrigu, descendants.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -5575,43 +5861,57 @@
           "number": 16,
           "sanskrit": "यजुर्धाम च धीमन्तं स्तंभकाश्यपमेव च । तयोर्गोत्रकरौ पुत्रौ जातौ संन्यासनिश्चितौ",
           "transliteration": "yajurdhāma ca dhīmantaṃ staṃbhakāśyapameva ca / tayorgotrakarau putrau jātau saṃnyāsaniścitau",
-          "hindi": "तदोत्सुका विषादेन त्यक्तस्थालानि भागशः"
+          "hindi": "तदोत्सुका विषादेन त्यक्तस्थालानि भागशः",
+          "translation": "Yajurdhama, and the wise Stambakashyapa; the two sons, founders of gotras, were born, resolved in renunciation.",
+          "translationSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "स्मृतस्त्वं गिरसः पत्नी जज्ञे सा ह्यात्मसंभवान् । पुत्रो कन्याश्चतस्रश्च पुण्यास्ता लोकविश्रुताः",
           "transliteration": "smṛtastvaṃ girasaḥ patnī jajñe sā hyātmasaṃbhavān / putro kanyāścatasraśca puṇyāstā lokaviśrutāḥ",
-          "hindi": "महर्लोकाय संविग्नास्ततस्ते दधिरे मनः ॥२५."
+          "hindi": "महर्लोकाय संविग्नास्ततस्ते दधिरे मनः ॥२५.",
+          "translation": "Smriti was the wife of Angiras; she bore children of her own: a son and four holy daughters, famed in the world:",
+          "translationSource": "ai"
         },
         {
           "number": 18,
           "sanskrit": "सिनीवाली कुहूश्चैव राका चानुमतिस्तथा । तथैव भरताग्निं च कीर्तिमन्तं च तावुभौ",
           "transliteration": "sinīvālī kuhūścaiva rākā cānumatistathā / tathaiva bharatāgniṃ ca kīrtimantaṃ ca tāvubhau",
-          "hindi": "ते युक्तानृपपद्यते महतीं च शरीरिके ।"
+          "hindi": "ते युक्तानृपपद्यते महतीं च शरीरिके ।",
+          "translation": "Sinivali, Kuhu, Raka and Anumati; and likewise Bharata-Agni and Kirtiman, those two.",
+          "translationSource": "ai"
         },
         {
           "number": 19,
           "sanskrit": "अग्नेः पुत्रं च पर्जन्यं सद्वती सुषुवे तथा । हिरण्यरोमा पर्जन्यो मारीच्यामुदपद्यत",
           "transliteration": "agneḥ putraṃ ca parjanyaṃ sadvatī suṣuve tathā / hiraṇyaromā parjanyo mārīcyāmudapadyata",
-          "hindi": "ब्राह्मण: क्षत्रिये वेश्यैस्त-ङ्कर्व्चा परंजनः ।"
+          "hindi": "ब्राह्मण: क्षत्रिये वेश्यैस्त-ङ्कर्व्चा परंजनः ।",
+          "translation": "Sadvati bore Agni's son Parjanya; Hiranyaroma Parjanya was born of Marichi's daughter.",
+          "translationSource": "ai"
         },
         {
           "number": 20,
           "sanskrit": "आभूतसंप्लवस्थायी लोकपालः स वै स्मृतः । यज्ञे कीर्त्तिमतश्चापि धेनुका वीतकल्मषौ",
           "transliteration": "ābhūtasaṃplavasthāyī lokapālaḥ sa vai smṛtaḥ / yajñe kīrttimataścāpi dhenukā vītakalmaṣau",
-          "hindi": "गत्वा तु ते महर्लोकं देवसंघाश्चतुदश ।"
+          "hindi": "गत्वा तु ते महर्लोकं देवसंघाश्चतुदश ।",
+          "translation": "Staying until the dissolution of beings, he is remembered as a world-guardian; at Kirtiman's sacrifice also, Dhenuka and Vitakalmasha,",
+          "translationSource": "ai"
         },
         {
           "number": 21,
           "sanskrit": "चरिष्णुं धृतिमन्तं च उभावङ्गिरसां वरौ । तयोः पुत्राश्च पौत्राश्च अतीता वै सहस्रशः",
           "transliteration": "cariṣṇuṃ dhṛtimantaṃ ca ubhāvaṅgirasāṃ varau / tayoḥ putrāśca pautrāśca atītā vai sahasraśaḥ",
-          "hindi": "ततस्ते जनलोकाय सोद्वेया दधिरे मनः"
+          "hindi": "ततस्ते जनलोकाय सोद्वेया दधिरे मनः",
+          "translation": "Charishnu and Dhritiman, both the best of the Angirases; their sons and grandsons have passed away by thousands.",
+          "translationSource": "ai"
         },
         {
           "number": 22,
           "sanskrit": "अनसूया विजज्ञे वै पञ्चात्रेयानकल्मषान् । कन्यां चैव श्रुतिं नाम माता शङ्खपदस्य सा",
           "transliteration": "anasūyā vijajñe vai pañcātreyānakalmaṣān / kanyāṃ caiva śrutiṃ nāma mātā śaṅkhapadasya sā",
-          "hindi": "इसके उपरान्त वे तान के अभिमानी देवगण जो त्रॅलोक्य के निवासी चे यहाँ पर आत्मा की बुद्धि के अवश्य भावी होने से ये ।२३। उस काल में"
+          "hindi": "इसके उपरान्त वे तान के अभिमानी देवगण जो त्रॅलोक्य के निवासी चे यहाँ पर आत्मा की बुद्धि के अवश्य भावी होने से ये ।२३। उस काल में",
+          "translation": "Anasuya bore five faultless Atreyas, and a daughter named Shruti, the mother of Shankhapada.",
+          "translationSource": "ai"
         },
         {
           "number": 23,
