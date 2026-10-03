@@ -9914,151 +9914,201 @@
           "number": 26,
           "sanskrit": "व्रतोपलोपको यश् च स्वाश्रमाद् विच्युतश् च यः संदंशयातनामध्ये पततस् ताव् उभाव् अपि",
           "transliteration": "vratopalopako yaś ca svāśramād vicyutaś ca yaḥ saṃdaṃśayātanāmadhye patatas tāv ubhāv api",
-          "hindi": "देवीने पूछा--महाभाग  आप इस यज्ञमें क्यों नहीं जाते? ऐसी कौन-सी रुकावट है, जिससे आपका वहाँ जाना नहीं होता?"
+          "hindi": "देवीने पूछा--महाभाग  आप इस यज्ञमें क्यों नहीं जाते? ऐसी कौन-सी रुकावट है, जिससे आपका वहाँ जाना नहीं होता?",
+          "translation": "One who breaks vows and one who has fallen from his own stage of life: both fall into the middle of the torment called Sandamsha.",
+          "translationSource": "ai"
         },
         {
           "number": 27,
           "sanskrit": "दिवा स्वप्नेषु स्यन्दन्ते ये नरा ब्रह्मचारिणः पुत्रैर् अध्यापिता ये तु ते पतन्ति श्वभोजने",
           "transliteration": "divā svapneṣu syandante ye narā brahmacāriṇaḥ putrair adhyāpitā ye tu te patanti śvabhojane",
-          "hindi": "महादेवजी बोले--महाभागे! देवताओंने ही यह सब किया है। उन्होंने किसी भी यज्ञमें मेरा भाग नहीं रखा है। पहलेसे जो मार्ग चला आता है, उसीसे अपनेको भी चलना चाहिए!"
+          "hindi": "महादेवजी बोले--महाभागे! देवताओंने ही यह सब किया है। उन्होंने किसी भी यज्ञमें मेरा भाग नहीं रखा है। पहलेसे जो मार्ग चला आता है, उसीसे अपनेको भी चलना चाहिए!",
+          "translation": "Men who are celibate students but emit semen in dreams by day, and those who are taught by their sons, fall into Shvabhojana.",
+          "translationSource": "ai"
         },
         {
           "number": 28,
           "sanskrit": "एते चान्ये च नरकाः शतशो ऽथ सहस्रशः येषु दुष्कृतकर्माणः पच्यन्ते यातनागताः",
           "transliteration": "ete cānye ca narakāḥ śataśo 'tha sahasraśaḥ yeṣu duṣkṛtakarmāṇaḥ pacyante yātanāgatāḥ",
-          "hindi": "उमाने कहा--भगवन्! आप सब देवताओंमें श्रेष्ठ हें। आपके गुण और प्रभाव सबसे अधिक हैं। आप अपने तेज, यश और श्रीके द्वारा अजेय एवं अधृष्य हें । महाभाग! यज्ञमें आपके भागका"
+          "hindi": "उमाने कहा--भगवन्! आप सब देवताओंमें श्रेष्ठ हें। आपके गुण और प्रभाव सबसे अधिक हैं। आप अपने तेज, यश और श्रीके द्वारा अजेय एवं अधृष्य हें । महाभाग! यज्ञमें आपके भागका",
+          "translation": "These and other hells number hundreds and thousands, in which evildoers undergoing torment are cooked.",
+          "translationSource": "ai"
         },
         {
           "number": 29,
           "sanskrit": "तथैव पापान्य् एतानि तथान्यानि सहस्रशः भुज्यन्ते जातिपुरुषैर् नरकान्तरगोचरैः",
           "transliteration": "tathaiva pāpāny etāni tathānyāni sahasraśaḥ bhujyante jātipuruṣair narakāntaragocaraiḥ",
-          "hindi": "जो यह निषेध है, इससे मुझे बड़ा दु:ख हुआ है। मेरे शरीरमें कम्प छा गया है।"
+          "hindi": "जो यह निषेध है, इससे मुझे बड़ा दु:ख हुआ है। मेरे शरीरमें कम्प छा गया है।",
+          "translation": "Likewise these sins and thousands of others are suffered by the persons of each class who range in the various hells.",
+          "translationSource": "ai"
         },
         {
           "number": 30,
           "sanskrit": "वर्णाश्रमविरुद्धं च कर्म कुर्वन्ति ये नराः कर्मणा मनसा वाचा निरयेषु पतन्ति ते",
           "transliteration": "varṇāśramaviruddhaṃ ca karma kurvanti ye narāḥ karmaṇā manasā vācā nirayeṣu patanti te",
-          "hindi": "महादेवजी बोले- देवि! क्या तुम मुझे नहीं जानतीं! आज तुम्हें जो मोह हुआ है, उससे इन्द्र आदि देवताओंसहित सम्पूर्ण त्रिलोकी नष्ट हो सकती है। मैं ही यज्ञका स्वामी हूँ। मेरी ही सब लोग"
+          "hindi": "महादेवजी बोले- देवि! क्या तुम मुझे नहीं जानतीं! आज तुम्हें जो मोह हुआ है, उससे इन्द्र आदि देवताओंसहित सम्पूर्ण त्रिलोकी नष्ट हो सकती है। मैं ही यज्ञका स्वामी हूँ। मेरी ही सब लोग",
+          "translation": "Men who do actions contrary to their varna and ashrama, by deed, mind or speech, fall into the hells.",
+          "translationSource": "ai"
         },
         {
           "number": 31,
           "sanskrit": "अधःशिरोभिर् दृश्यन्ते नारकैर् दिवि देवताः देवाश् चाधोमुखान् सर्वान् अधः पश्यन्ति नारकान्",
           "transliteration": "adhaḥśirobhir dṛśyante nārakair divi devatāḥ devāś cādhomukhān sarvān adhaḥ paśyanti nārakān",
-          "hindi": "निरन्तर स्तुति करते हैं। मेरे ही संतोषके लिये सब लोग रथन्तर सामका गान करते हैं। ब्राह्मण वेदमन्त्रांसे मेरा ही यजन करते हैं तथा अध्वर्यु लोग यञ्ञमें मेरे ही लिये भागोंकी कल्पना करते हैं।"
+          "hindi": "निरन्तर स्तुति करते हैं। मेरे ही संतोषके लिये सब लोग रथन्तर सामका गान करते हैं। ब्राह्मण वेदमन्त्रांसे मेरा ही यजन करते हैं तथा अध्वर्यु लोग यञ्ञमें मेरे ही लिये भागोंकी कल्पना करते हैं।",
+          "translation": "Denizens of hell are seen by the gods in heaven with heads downward, and the gods see all the denizens of hell face-down below.",
+          "translationSource": "ai"
         },
         {
           "number": 32,
           "sanskrit": "स्थावराः कृमयो ऽज्वाश् च पक्षिणः पशवो नराः धार्मिकास् त्रिदशास् तद्वन् मोक्षिणश् च यथाक्रमम्",
           "transliteration": "sthāvarāḥ kṛmayo 'jvāś ca pakṣiṇaḥ paśavo narāḥ dhārmikās tridaśās tadvan mokṣiṇaś ca yathākramam",
-          "hindi": "प्राणोंके समान प्रियतमा पत्नीसे यों कहकर"
+          "hindi": "प्राणोंके समान प्रियतमा पत्नीसे यों कहकर",
+          "translation": "Plants, worms, goats (?), birds, beasts, men, the righteous, gods and the liberated are, in order, each a thousandth part (of the one before).",
+          "translationSource": "ai"
         },
         {
           "number": 33,
           "sanskrit": "सहस्रभागः प्रथमाद् द्वितीयो ऽनुक्रमात् तथा सर्वे ह्य् एते महाभागा यावन् मुक्तिसमाश्रयाः",
           "transliteration": "sahasrabhāgaḥ prathamād dvitīyo 'nukramāt tathā sarve hy ete mahābhāgā yāvan muktisamāśrayāḥ",
-          "hindi": "0 है टे ॥ हा टर र्ट ह वु क"
+          "hindi": "0 है टे ॥ हा टर र्ट ह वु क",
+          "translation": "The second is in succession a thousandth of the first; all of these are fortunate until they take refuge in liberation.",
+          "translationSource": "ai"
         },
         {
           "number": 34,
           "sanskrit": "यावन्तो जन्तवः स्वर्गे तावन्तो नरकौकसः पापकृद् याति नरकं प्रायश्चित्तपराङ्मुखः",
           "transliteration": "yāvanto jantavaḥ svarge tāvanto narakaukasaḥ pāpakṛd yāti narakaṃ prāyaścittaparāṅmukhaḥ",
-          "hindi": "भगवान् शङ्करने अपने मुखसे क्रोधाग्निजनित एक महाभूतको सृष्टि को। फिर उससे कहा--' तुम मेरी आज्ञासे दक्षके यज्ञमें जाओ और उसका शीघ्र विनाश करो।' तब उसने रुद्रकी आज्ञासे"
+          "hindi": "भगवान् शङ्करने अपने मुखसे क्रोधाग्निजनित एक महाभूतको सृष्टि को। फिर उससे कहा--' तुम मेरी आज्ञासे दक्षके यज्ञमें जाओ और उसका शीघ्र विनाश करो।' तब उसने रुद्रकी आज्ञासे",
+          "translation": "As many creatures as are in heaven, so many dwell in hell. The sinner who turns away from expiation goes to hell.",
+          "translationSource": "ai"
         },
         {
           "number": 35,
           "sanskrit": "पापानाम् अनुरूपाणि प्रायश्चित्तानि यद् यथा तथा तथैव संस्मृत्य प्रोक्तानि परमर्षिभिः",
           "transliteration": "pāpānām anurūpāṇi prāyaścittāni yad yathā tathā tathaiva saṃsmṛtya proktāni paramarṣibhiḥ",
-          "hindi": "सिंहका वेष धारण करके दक्षके यज्ञका विनाश कर डाला। उसने अपने कर्मका साक्षी बनानेके लिये अत्यन्त भयंकर भद्रकालीको भी साथ ले लिया था। भगवानका वह क्रोध वीरभद्रके नामसे"
+          "hindi": "सिंहका वेष धारण करके दक्षके यज्ञका विनाश कर डाला। उसने अपने कर्मका साक्षी बनानेके लिये अत्यन्त भयंकर भद्रकालीको भी साथ ले लिया था। भगवानका वह क्रोध वीरभद्रके नामसे",
+          "translation": "Expiations fitting each sin have been stated by the great sages, recalling them as they should be.",
+          "translationSource": "ai"
         },
         {
           "number": 36,
           "sanskrit": "पापे गुरूणि गुरुणि स्वल्पान्य् अल्पे च तद्विदः प्रायश्चित्तानि विप्रेन्द्रा जगुः स्वायंभुवादयः",
           "transliteration": "pāpe gurūṇi guruṇi svalpāny alpe ca tadvidaḥ prāyaścittāni viprendrā jaguḥ svāyaṃbhuvādayaḥ",
-          "hindi": "विख्यात हुआ, जो श्मशानभूमिमें निवास करता है। उसने पार्वतीदेवीके खेदका निवारण किया था। वीरभद्रने अपने रोमकूपोंसे अनेक रुद्रगण उत्पन्न किये, जो रुद्रके समान ही वीर्यवान् और"
+          "hindi": "विख्यात हुआ, जो श्मशानभूमिमें निवास करता है। उसने पार्वतीदेवीके खेदका निवारण किया था। वीरभद्रने अपने रोमकूपोंसे अनेक रुद्रगण उत्पन्न किये, जो रुद्रके समान ही वीर्यवान् और",
+          "translation": "For grave sins heavy, and for light sins light, expiations were sung by Svayambhuva and others, best of Brahmins, who knew them.",
+          "translationSource": "ai"
         },
         {
           "number": 37,
           "sanskrit": "प्रायश्चित्तान्य् अशेषाणि तपःकर्मात्मकानि वै यानि तेषाम् अशेषाणां कृष्णानुस्मरणं परम्",
           "transliteration": "prāyaścittāny aśeṣāṇi tapaḥkarmātmakāni vai yāni teṣām aśeṣāṇāṃ kṛṣṇānusmaraṇaṃ param",
-          "hindi": "पराक्रमी थे। वे सब सैकड़ों और हजारोंकी संख्यामें झुंड बनाकर उस यज्ञमण्डपमें गये। उनको किलकिलाहटसे समस्त आकाश गूँज उठा। अग्नि और सूर्यका प्रकाश मन्द पड़ गया। चारों ओर"
+          "hindi": "पराक्रमी थे। वे सब सैकड़ों और हजारोंकी संख्यामें झुंड बनाकर उस यज्ञमण्डपमें गये। उनको किलकिलाहटसे समस्त आकाश गूँज उठा। अग्नि और सूर्यका प्रकाश मन्द पड़ गया। चारों ओर",
+          "translation": "Of all the expiations consisting of austerity and rites, the supreme of them all is remembrance of Krishna.",
+          "translationSource": "ai"
         },
         {
           "number": 38,
           "sanskrit": "कृते पापे ऽनुतापो वै यस्य पुंसः प्रजायते प्रायश्चित्तं तु तस्यैकं हरिसंस्मरणं परम्",
           "transliteration": "kṛte pāpe 'nutāpo vai yasya puṃsaḥ prajāyate prāyaścittaṃ tu tasyaikaṃ harisaṃsmaraṇaṃ param",
-          "hindi": "अन्धकार छा गया। उस समय वे समस्त रुद्रगण यज्ञमण्डपमें आग लगाने लगे; किसीने यूपोंको तोड़ डाला, किसीने उन्हें उखाड़ दिया, कोई सिंहनाद करता और कोई वहाँकी सब वस्तुओंको"
+          "hindi": "अन्धकार छा गया। उस समय वे समस्त रुद्रगण यज्ञमण्डपमें आग लगाने लगे; किसीने यूपोंको तोड़ डाला, किसीने उन्हें उखाड़ दिया, कोई सिंहनाद करता और कोई वहाँकी सब वस्तुओंको",
+          "translation": "For the man who feels remorse after sin, the one supreme expiation is remembrance of Hari.",
+          "translationSource": "ai"
         },
         {
           "number": 39,
           "sanskrit": "प्रातर् निशि तथा संध्यामध्याह्नादिषु संस्मरन् नारायणम् अवाप्नोति सद्यः पापक्षयान् नरः",
           "transliteration": "prātar niśi tathā saṃdhyāmadhyāhnādiṣu saṃsmaran nārāyaṇam avāpnoti sadyaḥ pāpakṣayān naraḥ",
-          "hindi": "तहस-नहस कर डालता था। कितने ही वायुके समान वेगसे इधर-उधर दौड़ लगाने लगे। यज्ञपात्र चूर-चूर हो गये। वहाँके मण्डप ढह गये। ऐसा जान पड़ता था, आकाशसे तारे टूटकर गिर रहे"
+          "hindi": "तहस-नहस कर डालता था। कितने ही वायुके समान वेगसे इधर-उधर दौड़ लगाने लगे। यज्ञपात्र चूर-चूर हो गये। वहाँके मण्डप ढह गये। ऐसा जान पड़ता था, आकाशसे तारे टूटकर गिर रहे",
+          "translation": "Remembering Narayana in the morning, at night, at twilights, at midday and the like, a man at once attains destruction of sin.",
+          "translationSource": "ai"
         },
         {
           "number": 40,
           "sanskrit": "विष्णुसंस्मरणात् क्षीणसमस्तक्लेशसंचयः मुक्तिं प्रयाति भो विप्रा विष्णोस् तस्यानुकीर्तनात्",
           "transliteration": "viṣṇusaṃsmaraṇāt kṣīṇasamastakleśasaṃcayaḥ muktiṃ prayāti bho viprā viṣṇos tasyānukīrtanāt",
-          "hindi": "हैं। कोई यज्ञमें रखे हुए भोज्य पदार्थोंको खाते और सब ओर लोगोंको डराते फिरते थे। कितने ही पर्वताकार भूत देवाङ्गनाओंको उठाकर फेंक"
+          "hindi": "हैं। कोई यज्ञमें रखे हुए भोज्य पदार्थोंको खाते और सब ओर लोगोंको डराते फिरते थे। कितने ही पर्वताकार भूत देवाङ्गनाओंको उठाकर फेंक",
+          "translation": "By remembering Vishnu, with the whole mass of afflictions destroyed, one attains liberation, Brahmins, by praising that Vishnu.",
+          "translationSource": "ai"
         },
         {
           "number": 41,
           "sanskrit": "वासुदेवे मनो यस्य जपहोमार्चनादिषु तस्यान्तरायो विप्रेन्द्रा देवेन्द्रत्वादिकं फलम्",
           "transliteration": "vāsudeve mano yasya japahomārcanādiṣu tasyāntarāyo viprendrā devendratvādikaṃ phalam",
-          "hindi": ",/-/////// देते थे। ऐसे गणोंके साथ प्रतापी वीरभद्रने पहुँचकर"
+          "hindi": ",/-/////// देते थे। ऐसे गणोंके साथ प्रतापी वीरभद्रने पहुँचकर",
+          "translation": "Whose mind is on Vasudeva in chanting, offering, worship and the like — for him the obstacle is, best of Brahmins, only the fruit such as Indra-hood.",
+          "translationSource": "ai"
         },
         {
           "number": 42,
           "sanskrit": "क्व नाकपृष्ठगमनं पुनरावृत्तिलक्षणम् क्व जपो वासुदेवेति मुक्तिबीजम् अनुत्तमम्",
           "transliteration": "kva nākapṛṣṭhagamanaṃ punarāvṛttilakṣaṇam kva japo vāsudeveti muktibījam anuttamam",
-          "hindi": "४४ 4/  ही भस्म कर डाला। अन्य रुद्रगण सबको भय ४  उपजानेवाली गर्जना करने लगे। कुछ लोगोंने यज्ञका  मस्तक काटकर भयंकर नाद किया। तब इन्द्र"
+          "hindi": "४४ 4/  ही भस्म कर डाला। अन्य रुद्रगण सबको भय ४  उपजानेवाली गर्जना करने लगे। कुछ लोगोंने यज्ञका  मस्तक काटकर भयंकर नाद किया। तब इन्द्र",
+          "translation": "How can there be a going to heaven, marked by return, compared with chanting \"Vasudeva\", the supreme seed of liberation?",
+          "translationSource": "ai"
         },
         {
           "number": 43,
           "sanskrit": "तस्माद् अहर्निशं विष्णुं संस्मरन् पुरुषो द्विजः न याति नरकं शुद्धः संक्षीणाखिलपातकः",
           "transliteration": "tasmād aharniśaṃ viṣṇuṃ saṃsmaran puruṣo dvijaḥ na yāti narakaṃ śuddhaḥ saṃkṣīṇākhilapātakaḥ",
-          "hindi": "आदि देवताओं और प्रजापति दक्षने हाथ जोड़कर"
+          "hindi": "आदि देवताओं और प्रजापति दक्षने हाथ जोड़कर",
+          "translation": "Therefore the twice-born man who constantly remembers Vishnu day and night does not go to hell; he is pure, all his sins destroyed.",
+          "translationSource": "ai"
         },
         {
           "number": 44,
           "sanskrit": "मनःप्रीतिकरः स्वर्गो नरकस् तद्विपर्ययः नरकस्वर्गसंज्ञे वै पापपुण्ये द्विजोत्तमाः",
           "transliteration": "manaḥprītikaraḥ svargo narakas tadviparyayaḥ narakasvargasaṃjñe vai pāpapuṇye dvijottamāḥ",
-          "hindi": "दक्षद्वारा भगवान् शिवको स्तुति"
+          "hindi": "दक्षद्वारा भगवान् शिवको स्तुति",
+          "translation": "Heaven is what pleases the mind, hell is its opposite; merit and sin are called heaven and hell, best of Brahmins.",
+          "translationSource": "ai"
         },
         {
           "number": 45,
           "sanskrit": "वस्त्व् एकम् एव दुःखाय सुखायेर्ष्योदयाय च कोपाय च यतस् तस्माद् वस्तु दुःखात्मकं कुतः",
           "transliteration": "vastv ekam eva duḥkhāya sukhāyerṣyodayāya ca kopāya ca yatas tasmād vastu duḥkhātmakaṃ kutaḥ",
-          "hindi": "वीरभद्रने कहा--में न देवता हूँ, न हैत्य हूँ। न इस यज्ञमें भोजन करने आया हूँ और न कौतूहलवश इसे देखनेको ही मेरा आना हुआ हे। मैं इस यज्ञका विध्वंस करनेके लिये आया"
+          "hindi": "वीरभद्रने कहा--में न देवता हूँ, न हैत्य हूँ। न इस यज्ञमें भोजन करने आया हूँ और न कौतूहलवश इसे देखनेको ही मेरा आना हुआ हे। मैं इस यज्ञका विध्वंस करनेके लिये आया",
+          "translation": "Since one and the same thing may cause sorrow, pleasure, the rise of envy and anger, how can a thing be of the nature of sorrow?",
+          "translationSource": "ai"
         },
         {
           "number": 46,
           "sanskrit": "तद् एव प्रीतये भूत्वा पुनर् दुःखाय जायते तद् एव कोपालयतः प्रसादाय च जायते",
           "transliteration": "tad eva prītaye bhūtvā punar duḥkhāya jāyate tad eva kopālayataḥ prasādāya ca jāyate",
-          "hindi": "हूँ । मेरा नाम वीरभद्र है । मैं रुद्रके कोपसे प्रकट हुआ हूँ । ये भद्रकाली हैँ। इनका प्रादुर्भाव पार्वतीदेवीके क्रोधसे हुआ है। ये देवाधिदेव महादेवजीके भेजनेसे यज्ञके समीप आयी हैं।"
+          "hindi": "हूँ । मेरा नाम वीरभद्र है । मैं रुद्रके कोपसे प्रकट हुआ हूँ । ये भद्रकाली हैँ। इनका प्रादुर्भाव पार्वतीदेवीके क्रोधसे हुआ है। ये देवाधिदेव महादेवजीके भेजनेसे यज्ञके समीप आयी हैं।",
+          "translation": "The same thing, having been for pleasure, becomes again for sorrow; the same, for one who is angry, becomes for satisfaction.",
+          "translationSource": "ai"
         },
         {
           "number": 47,
           "sanskrit": "तस्माद् दुःखात्मकं नास्ति न च किंचित् सुखात्मकम् मनसः परिणामो ऽयं सुखदुःखादिलक्षणः",
           "transliteration": "tasmād duḥkhātmakaṃ nāsti na ca kiṃcit sukhātmakam manasaḥ pariṇāmo 'yaṃ sukhaduḥkhādilakṣaṇaḥ",
-          "hindi": "राजेन्द्र! तुम देवदेव भगवान् उमापतिकी शरणमें जाओ। उनका क्रोध भी वरदानके ही तुल्य है।"
+          "hindi": "राजेन्द्र! तुम देवदेव भगवान् उमापतिकी शरणमें जाओ। उनका क्रोध भी वरदानके ही तुल्य है।",
+          "translation": "Therefore nothing is of the nature of sorrow and nothing of the nature of pleasure; this is a transformation of the mind marked by pleasure, pain and the like.",
+          "translationSource": "ai"
         },
         {
           "number": 48,
           "sanskrit": "ज्ञानम् एव परं ब्रह्माज्ञानं बन्धाय चेष्यते ज्ञानात्मकम् इदं विश्वं न ज्ञानाद् विद्यते परम्",
           "transliteration": "jñānam eva paraṃ brahmājñānaṃ bandhāya ceṣyate jñānātmakam idaṃ viśvaṃ na jñānād vidyate param",
-          "hindi": "तब प्रजापति दक्ष मन-ही-मन भगवान् शङ्करको शरणमें गये । उन्होंने प्राण और अपानको हृदयमें रोककर यत्रपूर्वक उनका ध्यान किया। तब भगवान् शिव प्रकट हुए और उन्होंने मुसकराकर"
+          "hindi": "तब प्रजापति दक्ष मन-ही-मन भगवान् शङ्करको शरणमें गये । उन्होंने प्राण और अपानको हृदयमें रोककर यत्रपूर्वक उनका ध्यान किया। तब भगवान् शिव प्रकट हुए और उन्होंने मुसकराकर",
+          "translation": "Knowledge alone is the supreme Brahman; ignorance is held to be for bondage. This universe is of the nature of knowledge; there is nothing beyond knowledge.",
+          "translationSource": "ai"
         },
         {
           "number": 49,
           "sanskrit": "विद्याविद्ये हि भो विप्रा ज्ञानम् एवावधार्यताम् एवम् एतद् मयाख्यातं भवतां मण्डलं भुवः",
           "transliteration": "vidyāvidye hi bho viprā jñānam evāvadhāryatām evam etad mayākhyātaṃ bhavatāṃ maṇḍalaṃ bhuvaḥ",
-          "hindi": "पूछा--“कहो, तुम्हारा कौन-सा कार्य सिद्ध करूँ ?' तब दक्षने हाथ जोड़कर कहा--' भगवन्! यदि आप मुझपर प्रसन्न हैं अथवा यदि मैं आपका प्रिय एवं कृपापात्र हूँ तो मुझे यह वरदान दें--"
+          "hindi": "पूछा--“कहो, तुम्हारा कौन-सा कार्य सिद्ध करूँ ?' तब दक्षने हाथ जोड़कर कहा--' भगवन्! यदि आप मुझपर प्रसन्न हैं अथवा यदि मैं आपका प्रिय एवं कृपापात्र हूँ तो मुझे यह वरदान दें--",
+          "translation": "Knowledge and ignorance, Brahmins — let only knowledge be ascertained. Thus this circle of the earth has been told to you by me,",
+          "translationSource": "ai"
         },
         {
           "number": 50,
           "sanskrit": "पातालानि च सर्वाणि तथैव नरका द्विजाः समुद्राः पर्वताश् चैव द्वीपा वर्षाणि निम्नगाः संक्षेपात् सर्वम् आख्यातं किं भूयः श्रोतुम् इच्छथ",
           "transliteration": "pātālāni ca sarvāṇi tathaiva narakā dvijāḥ samudrāḥ parvatāś caiva dvīpā varṣāṇi nimnagāḥ saṃkṣepāt sarvam ākhyātaṃ kiṃ bhūyaḥ śrotum icchatha",
-          "hindi": "“जो भी भोजन-सामग्री यहाँ खा-पी ली गयी, नष्ट कर दी गयी, यज्ञका जो सामान चूर-चूर"
+          "hindi": "“जो भी भोजन-सामग्री यहाँ खा-पी ली गयी, नष्ट कर दी गयी, यज्ञका जो सामान चूर-चूर",
+          "translation": "and all the nether worlds and the hells, Brahmins, oceans, mountains, continents, varshas and rivers; all has been told in brief. What more do you wish to hear?",
+          "translationSource": "ai"
         }
       ]
     },
@@ -10109,235 +10159,313 @@
           "number": 6,
           "sanskrit": "पूर्णे शतसहस्रे तु योजनानां निशाकरात् नक्षत्रमण्डलं कृत्स्नम् उपरिष्टात् प्रकाशते",
           "transliteration": "pūrṇe śatasahasre tu yojanānāṃ niśākarāt nakṣatramaṇḍalaṃ kṛtsnam upariṣṭāt prakāśate",
-          "hindi": "दक्ष बोले--देवदेवेश्वर ! आपको नमस्कार है । आपके हाथ और पैर सब ओर हें । नेत्र, मस्तक और अन्धकासुरको मारनेवाले रुद्र! आपको प्रणाम है। मुख भी सब ओर हैं। आपके सब ओर कान हैं। देवेन्द्र! आप बलमे श्रेष्ठ और देवता तथा दानवोंद्वारा  आप संसारमें सबको व्याप्त करके स्थित हैं । शङ्कुकर्णः पूजित हैं। आप सहस्राक्ष , विरूपाक्ष' और त्र्यक्ष'  महाकर्ण', कुम्भकर्णः, अर्णवालयः, गजेन्द्रकर्ण“,"
+          "hindi": "दक्ष बोले--देवदेवेश्वर ! आपको नमस्कार है । आपके हाथ और पैर सब ओर हें । नेत्र, मस्तक और अन्धकासुरको मारनेवाले रुद्र! आपको प्रणाम है। मुख भी सब ओर हैं। आपके सब ओर कान हैं। देवेन्द्र! आप बलमे श्रेष्ठ और देवता तथा दानवोंद्वारा  आप संसारमें सबको व्याप्त करके स्थित हैं । शङ्कुकर्णः पूजित हैं। आप सहस्राक्ष , विरूपाक्ष' और त्र्यक्ष'  महाकर्ण', कुम्भकर्णः, अर्णवालयः, गजेन्द्रकर्ण“,",
+          "translation": "A full hundred thousand yojanas above the moon, the entire circle of the constellations shines above.",
+          "translationSource": "ai"
         },
         {
           "number": 7,
           "sanskrit": "द्विलक्षे चोत्तरे विप्रा बुधो नक्षत्रमण्डलात् तावत्प्रमाणभागे तु बुधस्याप्य् उशना स्थितः",
           "transliteration": "dvilakṣe cottare viprā budho nakṣatramaṇḍalāt tāvatpramāṇabhāge tu budhasyāpy uśanā sthitaḥ",
-          "hindi": "कहलाते हैं। यक्षराज कुबेरके आप इष्टदेव हैं। गोकर्णः, शतकर्ण'', शतोदर, शतावर्तः, शतजिह्वः,  दक्ष उवाच--नमस्ते देवदेवेश नमस्तेऽन्धकसूदन। देवेन्द्र त्वं बलश्रेष्ठ देवदानवपूजित॥ १. सहस्रो नेत्रोंवाले, २. विकराल नेत्रोंवाले, ३. तीन नेत्रोंवाले, ४. कीलके समान नुकीले कानोंवाले, ५. बड़े-बड़े कानोंवाले, ६. घड़ेके समान कानोंवाले, ७. समुद्र जिनका निवासस्थान है वे, ८. हाथीके समान"
+          "hindi": "कहलाते हैं। यक्षराज कुबेरके आप इष्टदेव हैं। गोकर्णः, शतकर्ण'', शतोदर, शतावर्तः, शतजिह्वः,  दक्ष उवाच--नमस्ते देवदेवेश नमस्तेऽन्धकसूदन। देवेन्द्र त्वं बलश्रेष्ठ देवदानवपूजित॥ १. सहस्रो नेत्रोंवाले, २. विकराल नेत्रोंवाले, ३. तीन नेत्रोंवाले, ४. कीलके समान नुकीले कानोंवाले, ५. बड़े-बड़े कानोंवाले, ६. घड़ेके समान कानोंवाले, ७. समुद्र जिनका निवासस्थान है वे, ८. हाथीके समान",
+          "translation": "Two hundred thousand (yojanas) further up, Brahmins, is Mercury above the circle of the constellations; at an equal distance above Mercury is Venus.",
+          "translationSource": "ai"
         },
         {
           "number": 8,
           "sanskrit": "अङ्गारको ऽपि शुक्रस्य तत्प्रमाणे व्यवस्थितः लक्षद्वयेन भौमस्य स्थितो देवपुरोहितः",
           "transliteration": "aṅgārako 'pi śukrasya tatpramāṇe vyavasthitaḥ lakṣadvayena bhaumasya sthito devapurohitaḥ",
-          "hindi": "कानोंवाले, ९. गायके समान कानोंवाले, १०. सैकड़ों कानोंवाले, ११. सैकड़ों उदरवाले, १२. सैकड़ों भॅवरवाले,"
+          "hindi": "कानोंवाले, ९. गायके समान कानोंवाले, १०. सैकड़ों कानोंवाले, ११. सैकड़ों उदरवाले, १२. सैकड़ों भॅवरवाले,",
+          "translation": "Mars also stands at that same distance above Venus; at two hundred thousand above Mars stands the priest of the gods (Jupiter).",
+          "translationSource": "ai"
         },
         {
           "number": 9,
           "sanskrit": "सौरिर् बृहस्पतेर् ऊर्ध्वं द्विलक्षे समवस्थितः सप्तर्षिमण्डलं तस्माल् लक्षम् एकं द्विजोत्तमाः",
           "transliteration": "saurir bṛhaspater ūrdhvaṃ dvilakṣe samavasthitaḥ saptarṣimaṇḍalaṃ tasmāl lakṣam ekaṃ dvijottamāḥ",
-          "hindi": "और सनातन हैं। आपको नमस्कार है। गायत्रीके उपासक आपका ही गान करते हैं। सूर्यके भक्त आपकी ही सूर्यरूपसे अर्चना करते हैं। आप देवता और दानवोंके रक्षक, ब्रह्मा तथा इन्द्र हैं। आप"
+          "hindi": "और सनातन हैं। आपको नमस्कार है। गायत्रीके उपासक आपका ही गान करते हैं। सूर्यके भक्त आपकी ही सूर्यरूपसे अर्चना करते हैं। आप देवता और दानवोंके रक्षक, ब्रह्मा तथा इन्द्र हैं। आप",
+          "translation": "Saturn is established two hundred thousand above Jupiter; from there, one hundred thousand above, best of Brahmins, is the circle of the Seven Sages.",
+          "translationSource": "ai"
         },
         {
           "number": 10,
           "sanskrit": "ऋषिभ्यस् तु सहस्राणां शताद् ऊर्ध्वं व्यवस्थितः मेढीभूतः समस्तस्य ज्योतिश् चक्रस्य वै ध्रुवः",
           "transliteration": "ṛṣibhyas tu sahasrāṇāṃ śatād ūrdhvaṃ vyavasthitaḥ meḍhībhūtaḥ samastasya jyotiś cakrasya vai dhruvaḥ",
-          "hindi": "मूर्तिमान्, महामूर्ति और जलके भंडाररूप समुद्र हैं। जैसे गोशालामें गौएँ रहती हैं, उसी प्रकार आपमें सम्पूर्ण देवता निवास करते हैं। आपके शरीरमें में चन्द्रमा, अग्नि, वरुण, सूर्य, विष्णु,"
+          "hindi": "मूर्तिमान्, महामूर्ति और जलके भंडाररूप समुद्र हैं। जैसे गोशालामें गौएँ रहती हैं, उसी प्रकार आपमें सम्पूर्ण देवता निवास करते हैं। आपके शरीरमें में चन्द्रमा, अग्नि, वरुण, सूर्य, विष्णु,",
+          "translation": "Above the sages by a hundred thousand is Dhruva established, as the pivot of the whole circle of luminaries.",
+          "translationSource": "ai"
         },
         {
           "number": 11,
           "sanskrit": "त्रैलोक्यम् एतत् कथितं संक्षेपेण द्विजोत्तमाः इज्याफलस्य भूर् एषा इज्या चात्र प्रतिष्ठिता",
           "transliteration": "trailokyam etat kathitaṃ saṃkṣepeṇa dvijottamāḥ ijyāphalasya bhūr eṣā ijyā cātra pratiṣṭhitā",
-          "hindi": "ब्रह्मा तथा बृहस्पतिको देखता हूँ । क्रिया, करण, कार्य, कर्ता, कारण, असत्, सदसत्, उत्पत्ति तथा प्रलय भी आप ही हैं। भव (सृष्टिकर्ता), शर्व, रुद्र (रुलानेवाले), वरद, पशुपति, अन्धकासुरघाती,"
+          "hindi": "ब्रह्मा तथा बृहस्पतिको देखता हूँ । क्रिया, करण, कार्य, कर्ता, कारण, असत्, सदसत्, उत्पत्ति तथा प्रलय भी आप ही हैं। भव (सृष्टिकर्ता), शर्व, रुद्र (रुलानेवाले), वरद, पशुपति, अन्धकासुरघाती,",
+          "translation": "This triple world has been told in brief, best of Brahmins; this earth is the field of the fruit of sacrifice, and sacrifice is established here.",
+          "translationSource": "ai"
         },
         {
           "number": 12,
           "sanskrit": "ध्रुवाद् ऊर्ध्वं महर्लोको यत्र ते कल्पवासिनः एकयोजनकोटी तु महर्लोको विधीयते",
           "transliteration": "dhruvād ūrdhvaṃ maharloko yatra te kalpavāsinaḥ ekayojanakoṭī tu maharloko vidhīyate",
-          "hindi": "त्रिपुनाशक आप भगवान् शिवको नमस्कार है।"
+          "hindi": "त्रिपुनाशक आप भगवान् शिवको नमस्कार है।",
+          "translation": "Above Dhruva is Maharloka, where the dwellers for a kalpa live; Maharloka is ordained as one crore yojanas.",
+          "translationSource": "ai"
         },
         {
           "number": 13,
           "sanskrit": "द्वे कोट्यौ तु जनो लोको यत्र ते ब्रह्मणः सुताः सनन्दनाद्याः कथिता विप्राश् चामलचेतसः",
           "transliteration": "dve koṭyau tu jano loko yatra te brahmaṇaḥ sutāḥ sanandanādyāḥ kathitā viprāś cāmalacetasaḥ",
-          "hindi": "मुंडाये हुए), प्रचण्ड विश्वको धारण करनेवाले, दण्डी, शङ्ककर्ण तथा दण्डिदण्ड (दण्डधारियोंको"
+          "hindi": "मुंडाये हुए), प्रचण्ड विश्वको धारण करनेवाले, दण्डी, शङ्ककर्ण तथा दण्डिदण्ड (दण्डधारियोंको",
+          "translation": "Janaloka is two crores, where Brahma's sons, Sanandana and the others, pure-minded, are said to dwell, Brahmins.",
+          "translationSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "चतुर्गुणोत्तरं चोर्ध्वं जनलोकात् तपः स्मृतम् वैराजा यत्र ते देवाः स्थिता देहविवर्जिताः",
           "transliteration": "caturguṇottaraṃ cordhvaṃ janalokāt tapaḥ smṛtam vairājā yatra te devāḥ sthitā dehavivarjitāḥ",
-          "hindi": "नमस्कार है। आप अप्रतिरूप हैं-आपके समान दूसरा कोई नहीं है। आपको नमस्कार है। आप विरूप (विकराल रूपवाले) होते हुए भी शिव (कल्याणमय) हैं। आप ही सूर्य और उनके"
+          "hindi": "नमस्कार है। आप अप्रतिरूप हैं-आपके समान दूसरा कोई नहीं है। आपको नमस्कार है। आप विरूप (विकराल रूपवाले) होते हुए भी शिव (कल्याणमय) हैं। आप ही सूर्य और उनके",
+          "translation": "Above Janaloka, four times as far, is Tapas, where the Vairaja gods dwell, bodiless.",
+          "translationSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "षड्गुणेन तपोलोकात् सत्यलोको विराजते अपुनर्मारकं यत्र सिद्धादिमुनिसेवितम्",
           "transliteration": "ṣaḍguṇena tapolokāt satyaloko virājate apunarmārakaṃ yatra siddhādimunisevitam",
-          "hindi": "स्वामी हैं। आपकी ध्वजा और पताकामें सूर्यके चिह्न हैं। आपको नमस्कार है । प्रमथगणोंके स्वामी आपको नमस्कार है। आपके कंधे वृषभके कंधेके समान मांसल हैं। आपको नमस्कार है। आप"
+          "hindi": "स्वामी हैं। आपकी ध्वजा और पताकामें सूर्यके चिह्न हैं। आपको नमस्कार है । प्रमथगणोंके स्वामी आपको नमस्कार है। आपके कंधे वृषभके कंधेके समान मांसल हैं। आपको नमस्कार है। आप",
+          "translation": "Six times beyond Tapoloka shines Satyaloka, from which there is no return, served by Siddhas and sages.",
+          "translationSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "पादगम्यं तु यत् किंचिद् वस्त्व् अस्ति पृथिवीमयम् स भूर्लोकः समाख्यातो विस्तारो ऽस्य मयोदितः",
           "transliteration": "pādagamyaṃ tu yat kiṃcid vastv asti pṛthivīmayam sa bhūrlokaḥ samākhyāto vistāro 'sya mayoditaḥ",
-          "hindi": "हिरण्यगर्भ एवं हिरण्यकवच हैं। आपको नमस्कार है। आप हिरण्य (सुवर्ण)-की चूडा धारण करनेवाले और हिरण्यपति हैं। आपको नमस्कार है। आप शत्रुओंके घातक, अत्यन्त क्रोधी तथा पत्तोंके"
+          "hindi": "हिरण्यगर्भ एवं हिरण्यकवच हैं। आपको नमस्कार है। आप हिरण्य (सुवर्ण)-की चूडा धारण करनेवाले और हिरण्यपति हैं। आपको नमस्कार है। आप शत्रुओंके घातक, अत्यन्त क्रोधी तथा पत्तोंके",
+          "translation": "Whatever object reachable on foot is made of earth is called Bhurloka; its extent has been told by me.",
+          "translationSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "भूमिसूर्यान्तरं यत् तु सिद्धादिमुनिसेवितम् भुवर्लोकस् तु सो ऽप्य् उक्तो द्वितीयो मुनिसत्तमाः",
           "transliteration": "bhūmisūryāntaraṃ yat tu siddhādimunisevitam bhuvarlokas tu so 'py ukto dvitīyo munisattamāḥ",
-          "hindi": "समूहपर शयन करनेवाले हैं । आपको नमस्कार है। आपको स्तुति की गयी है, इस समय भी आपको स्तुति की जाती है तथा आप ही स्तुतिस्वरूप हैं। आपको नमस्कार है। आप"
+          "hindi": "समूहपर शयन करनेवाले हैं । आपको नमस्कार है। आपको स्तुति की गयी है, इस समय भी आपको स्तुति की जाती है तथा आप ही स्तुतिस्वरूप हैं। आपको नमस्कार है। आप",
+          "translation": "The region between the earth and the sun, served by Siddhas and sages, is called Bhuvarloka, the second, best of sages.",
+          "translationSource": "ai"
         },
         {
           "number": 18,
           "sanskrit": "ध्रुवसूर्यान्तरं यत् तु नियुतानि चतुर्दश स्वर्लोकः सो ऽपि कथितो लोकसंस्थानचिन्तकैः",
           "transliteration": "dhruvasūryāntaraṃ yat tu niyutāni caturdaśa svarlokaḥ so 'pi kathito lokasaṃsthānacintakaiḥ",
-          "hindi": "स्वस्वरूप, सर्वभक्षी एवं सब भूतोंके अन्तरात्मा"
+          "hindi": "स्वस्वरूप, सर्वभक्षी एवं सब भूतोंके अन्तरात्मा",
+          "translation": "The region between Dhruva and the sun, fourteen niyutas, is called Svarloka by those who ponder the world's arrangement.",
+          "translationSource": "ai"
         },
         {
           "number": 19,
           "sanskrit": "त्रैलोक्यम् एतत् कृतकं विप्रैश् च परिपठ्यते जनस् तपस् तथा सत्यम् इति चाकृतकं त्रयम्",
           "transliteration": "trailokyam etat kṛtakaṃ vipraiś ca paripaṭhyate janas tapas tathā satyam iti cākṛtakaṃ trayam",
-          "hindi": "भी दण्ड देनेवाले) हैं। आपको नमस्कार है।हैं। आपको नमस्कार है।"
+          "hindi": "भी दण्ड देनेवाले) हैं। आपको नमस्कार है।हैं। आपको नमस्कार है।",
+          "translation": "This triple world is recited by the Brahmins as made (kritaka); Jana, Tapas and Satya are the unmade three.",
+          "translationSource": "ai"
         },
         {
           "number": 20,
           "sanskrit": "कृतकाकृतको मध्ये महर्लोक इति स्मृतः शून्यो भवति कल्पान्ते यो ऽन्तं न च विनश्यति",
           "transliteration": "kṛtakākṛtako madhye maharloka iti smṛtaḥ śūnyo bhavati kalpānte yo 'ntaṃ na ca vinaśyati",
-          "hindi": "आप अर्धचण्डिकेश (अद्धनारीश्वर), शुष्क,"
+          "hindi": "आप अर्धचण्डिकेश (अद्धनारीश्वर), शुष्क,",
+          "translation": "Maharloka in the middle is remembered as both made and unmade; it becomes empty at the kalpa's end but does not perish.",
+          "translationSource": "ai"
         },
         {
           "number": 21,
           "sanskrit": "एते सप्त महालोका मया वः कथिता द्विजाः पातालानि च सप्तैव ब्रह्माण्डस्यैष विस्तरः",
           "transliteration": "ete sapta mahālokā mayā vaḥ kathitā dvijāḥ pātālāni ca saptaiva brahmāṇḍasyaiṣa vistaraḥ",
-          "hindi": "आप ही होम और मन्त्र हैं। आपकी ध्वजा-"
+          "hindi": "आप ही होम और मन्त्र हैं। आपकी ध्वजा-",
+          "translation": "These seven great worlds have been told by me, Brahmins, and seven nether worlds: this is the extent of the Brahmanda.",
+          "translationSource": "ai"
         },
         {
           "number": 22,
           "sanskrit": "एतद् अण्डकटाहेन तिर्यग् ऊर्ध्वम् अधस् तथा कपित्थस्य यथा बीजं सर्वतो वै समावृतम्",
           "transliteration": "etad aṇḍakaṭāhena tiryag ūrdhvam adhas tathā kapitthasya yathā bījaṃ sarvato vai samāvṛtam",
-          "hindi": "विकृत, विलोहित, धूम्र और नीलग्रीव हैं। आपको  पताका श्वेत रंगकी है, आपको नमस्कार है। आप"
+          "hindi": "विकृत, विलोहित, धूम्र और नीलग्रीव हैं। आपको  पताका श्वेत रंगकी है, आपको नमस्कार है। आप",
+          "translation": "This egg is enveloped all around — across, above and below — by the egg-shell, as the seed of the kapittha fruit is by its rind.",
+          "translationSource": "ai"
         },
         {
           "number": 23,
           "sanskrit": "दशोत्तरेण पयसा द्विजाश् चाण्डं च तद् वृतम् स चाम्बुपरिवारो ऽसौ वह्निना वेष्टितो बहिः",
           "transliteration": "daśottareṇa payasā dvijāś cāṇḍaṃ ca tad vṛtam sa cāmbuparivāro 'sau vahninā veṣṭito bahiḥ",
-          "hindi": "श्रुतिमाल्लोके सर्वमावृत्य तिष्ठसि।"
+          "hindi": "श्रुतिमाल्लोके सर्वमावृत्य तिष्ठसि।",
+          "translation": "The egg is surrounded by water ten times (its size); that water is surrounded outside by fire;",
+          "translationSource": "ai"
         },
         {
           "number": 24,
           "sanskrit": "वह्निस् तु वायुना वायुर् विप्रास् तु नभसावृतः आकाशो ऽपि मुनिश्रेष्ठा महता परिवेष्टितः",
           "transliteration": "vahnis tu vāyunā vāyur viprās tu nabhasāvṛtaḥ ākāśo 'pi muniśreṣṭhā mahatā pariveṣṭitaḥ",
-          "hindi": "शक रः महाकर्णः कुम्भकर्णोउर्णवालयः ॥"
+          "hindi": "शक रः महाकर्णः कुम्भकर्णोउर्णवालयः ॥",
+          "translation": "fire by wind, wind by space, Brahmins; space too, best of sages, is surrounded by the Mahat.",
+          "translationSource": "ai"
         },
         {
           "number": 25,
           "sanskrit": "दशोत्तराण्य् अशेषाणि विप्राश् चैतानि सप्त वै महान्तं च समावृत्य प्रधानं समवस्थितम्",
           "transliteration": "daśottarāṇy aśeṣāṇi viprāś caitāni sapta vai mahāntaṃ ca samāvṛtya pradhānaṃ samavasthitam",
-          "hindi": "गजेन्द्रकर्णो गोकर्णः शतकर्णो नमोऽस्तु ते। गायन्ति त्वां गायत्रिणो अर्चयन्त्यर्कमर्किंणः। देवदानवगोप्ता च ब्रह्मा च त्वं शतक्रतुः॥ मूर्तिमांस्त्वं महामूर्तिः समुद्रः सरसां निधि:  त्वयि सर्वा देवता हि गावो गोष्ठ इवासते॥ त्वत्तः शरीरे पश्यामि सोममग्निजलेश्वरम्। आदित्यमथ विष्णुं च ब्रह्माणं सबृहस्पतिम्॥"
+          "hindi": "गजेन्द्रकर्णो गोकर्णः शतकर्णो नमोऽस्तु ते। गायन्ति त्वां गायत्रिणो अर्चयन्त्यर्कमर्किंणः। देवदानवगोप्ता च ब्रह्मा च त्वं शतक्रतुः॥ मूर्तिमांस्त्वं महामूर्तिः समुद्रः सरसां निधि:  त्वयि सर्वा देवता हि गावो गोष्ठ इवासते॥ त्वत्तः शरीरे पश्यामि सोममग्निजलेश्वरम्। आदित्यमथ विष्णुं च ब्रह्माणं सबृहस्पतिम्॥",
+          "translation": "All these seven, each ten times the last, enclose Mahat, and Pradhana stands encompassing it.",
+          "translationSource": "ai"
         },
         {
           "number": 26,
           "sanskrit": "अनन्तस्य न तस्यान्तः संख्यानं चापि विद्यते तद् अनन्तम् असंख्यातं प्रमाणेनापि वै यतः",
           "transliteration": "anantasya na tasyāntaḥ saṃkhyānaṃ cāpi vidyate tad anantam asaṃkhyātaṃ pramāṇenāpi vai yataḥ",
-          "hindi": "क्रिया करणकार्ये च कर्ता कारणमेव च। असच्च सदसचैव तथैव प्रभवाप्ययौ॥"
+          "hindi": "क्रिया करणकार्ये च कर्ता कारणमेव च। असच्च सदसचैव तथैव प्रभवाप्ययौ॥",
+          "translation": "There is no end or count of that Infinite; it is infinite and uncounted even by measure.",
+          "translationSource": "ai"
         },
         {
           "number": 27,
           "sanskrit": "हेतुभूतम् अशेषस्य प्रकृतिः सा परा द्विजाः अण्डानां तु सहस्राणां सहस्राण्य् अयुतानि च",
           "transliteration": "hetubhūtam aśeṣasya prakṛtiḥ sā parā dvijāḥ aṇḍānāṃ tu sahasrāṇāṃ sahasrāṇy ayutāni ca",
-          "hindi": "त्रिजटाय त्रिशीर्षाय त्रिशूलवरधारिणे । त्र्यम्बकाय त्रिनेत्राय त्रिपुरञ्ञाय वै नमः॥ नमश्चण्डाय मुण्डाय विश्वचण्डधराय च। दण्डिने शङ्कुकर्णाय दण्डिदण्डाय वै नमः॥ नमोऽर्धचण्डिकिशाय शुष्काय विकृताय च। विलोहिताय धूम्राय नीलग्रीवाय वै नमः॥"
+          "hindi": "त्रिजटाय त्रिशीर्षाय त्रिशूलवरधारिणे । त्र्यम्बकाय त्रिनेत्राय त्रिपुरञ्ञाय वै नमः॥ नमश्चण्डाय मुण्डाय विश्वचण्डधराय च। दण्डिने शङ्कुकर्णाय दण्डिदण्डाय वै नमः॥ नमोऽर्धचण्डिकिशाय शुष्काय विकृताय च। विलोहिताय धूम्राय नीलग्रीवाय वै नमः॥",
+          "translation": "That Prakriti, the supreme, is the cause of all, Brahmins; of eggs there are thousands of thousands and tens of thousands,",
+          "translationSource": "ai"
         },
         {
           "number": 28,
           "sanskrit": "ईदृशानां तथा तत्र कोटिकोटिशतानि च दारुण्य् अग्निर् यथा तैलं तिले तद्वत् पुमान् इह",
           "transliteration": "īdṛśānāṃ tathā tatra koṭikoṭiśatāni ca dāruṇy agnir yathā tailaṃ tile tadvat pumān iha",
-          "hindi": "दक्षद्वारा भगवान् शिवको स्तुति  २१"
+          "hindi": "दक्षद्वारा भगवान् शिवको स्तुति  २१",
+          "translation": "and hundreds of crores of crores of such there. As fire is in wood and oil in sesame, so the Purusha is here.",
+          "translationSource": "ai"
         },
         {
           "number": 29,
           "sanskrit": "प्रधाने ऽवस्थितो व्यापी चेतनात्मनिवेदनः प्रधानं च पुमांश् चैव सर्वभूतानुभूतया",
           "transliteration": "pradhāne 'vasthito vyāpī cetanātmanivedanaḥ pradhānaṃ ca pumāṃś caiva sarvabhūtānubhūtayā",
-          "hindi": "म अनम्य और आप ही नमन करनेके योग्य हैं। आप हर्षमग्न होकर किलकारियाँ भरनेवाले हें । आपको नमस्कार है । सोते हुए, सोये हुए, सोकर उठे हुए, खडे हुए और दौड़ते हुए आपको नमस्कार"
+          "hindi": "म अनम्य और आप ही नमन करनेके योग्य हैं। आप हर्षमग्न होकर किलकारियाँ भरनेवाले हें । आपको नमस्कार है । सोते हुए, सोये हुए, सोकर उठे हुए, खडे हुए और दौड़ते हुए आपको नमस्कार",
+          "translation": "Established in Pradhana, pervading, the Purusha is self-awareness; Pradhana and Purusha, both,",
+          "translationSource": "ai"
         },
         {
           "number": 30,
           "sanskrit": "विष्णुशक्त्या द्विजश्रेष्ठा धृतौ संश्रयधर्मिणौ तयोः सैव पृथग्भावे कारणं संश्रयस्य च",
           "transliteration": "viṣṇuśaktyā dvijaśreṣṭhā dhṛtau saṃśrayadharmiṇau tayoḥ saiva pṛthagbhāve kāraṇaṃ saṃśrayasya ca",
-          "hindi": "है। कुबडे और कुटिलरूपमें आपको नमस्कार है। आप सदा ताण्डव नृत्य करनेवाले और मुखसे बाजा बजानेवाले हैं। आपको नमस्कार है। आप बाधा निवारण करनेवाले, लुब्ध एवं गाना-बजाना"
+          "hindi": "है। कुबडे और कुटिलरूपमें आपको नमस्कार है। आप सदा ताण्डव नृत्य करनेवाले और मुखसे बाजा बजानेवाले हैं। आपको नमस्कार है। आप बाधा निवारण करनेवाले, लुब्ध एवं गाना-बजाना",
+          "translation": "are held by Vishnu's power, which is felt in all beings, best of Brahmins; they depend on each other. That same power is the cause of their separation and of dependence,",
+          "translationSource": "ai"
         },
         {
           "number": 31,
           "sanskrit": "क्षोभकारणभूता च सर्गकाले द्विजोत्तमाः यथा शैत्यं जले वातो बिभर्ति कणिकागतम्",
           "transliteration": "kṣobhakāraṇabhūtā ca sargakāle dvijottamāḥ yathā śaityaṃ jale vāto bibharti kaṇikāgatam",
-          "hindi": "करनेवाले हैं। आपको नमस्कार है। ज्येष्ठ और श्रेष्टरूपमें आपको नमस्कार है। बलका मन्थन करनेवाले आपको नमस्कार है। उग्र रूपवाले आपको सदा नमस्कार है। दस भुजाओंवाले आपको नित्य"
+          "hindi": "करनेवाले हैं। आपको नमस्कार है। ज्येष्ठ और श्रेष्टरूपमें आपको नमस्कार है। बलका मन्थन करनेवाले आपको नमस्कार है। उग्र रूपवाले आपको सदा नमस्कार है। दस भुजाओंवाले आपको नित्य",
+          "translation": "and the cause of agitation at the time of creation, best of Brahmins. As wind carries coolness in water as droplets,",
+          "translationSource": "ai"
         },
         {
           "number": 32,
           "sanskrit": "जगच् छक्तिस् तथा विष्णोः प्रधानपुरुषात्मकम् यथा च पादपो मूलस्कन्धशाखादिसंयुतः",
           "transliteration": "jagac chaktis tathā viṣṇoḥ pradhānapuruṣātmakam yathā ca pādapo mūlaskandhaśākhādisaṃyutaḥ",
-          "hindi": "प्रणाम है । हाथमें कपाल धारण करनेवाले आपको नमस्कार है। श्वेत भस्म आपको अधिक प्रिय है। आप भयभीत करनेवाले, भयंकर एवं कठोर ब्रत धारण करनेवाले हैं। आपको नमस्कार है।"
+          "hindi": "प्रणाम है । हाथमें कपाल धारण करनेवाले आपको नमस्कार है। श्वेत भस्म आपको अधिक प्रिय है। आप भयभीत करनेवाले, भयंकर एवं कठोर ब्रत धारण करनेवाले हैं। आपको नमस्कार है।",
+          "translation": "so Vishnu's world-power consists of Pradhana and Purusha. As a tree with root, trunk, branches and the like",
+          "translationSource": "ai"
         },
         {
           "number": 33,
           "sanskrit": "आद्यबीजात् प्रभवति बीजान्य् अन्यानि वै ततः प्रभवन्ति ततस् तेभ्यो भवन्त्य् अन्ये परे द्रुमाः",
           "transliteration": "ādyabījāt prabhavati bījāny anyāni vai tataḥ prabhavanti tatas tebhyo bhavanty anye pare drumāḥ",
-          "hindi": "आपका मुख नाना प्रकारसे विकृत है, जिह्वा तलवारके समान है और दाँत बड़े भयंकर हैं। पक्ष, मास और लवार्ध आदि कालके भेद आपके ही स्वरूप हैं। आपको तूँबी और वीणा बहुत ही"
+          "hindi": "आपका मुख नाना प्रकारसे विकृत है, जिह्वा तलवारके समान है और दाँत बड़े भयंकर हैं। पक्ष, मास और लवार्ध आदि कालके भेद आपके ही स्वरूप हैं। आपको तूँबी और वीणा बहुत ही",
+          "translation": "arises from an original seed, then other seeds come from it, and from those other trees arise,",
+          "translationSource": "ai"
         },
         {
           "number": 34,
           "sanskrit": "ते ऽपि तल्लक्षणद्रव्यकारणानुगता द्विजाः एवम् अव्याकृतात् पूर्वं जायन्ते महदादयः",
           "transliteration": "te 'pi tallakṣaṇadravyakāraṇānugatā dvijāḥ evam avyākṛtāt pūrvaṃ jāyante mahadādayaḥ",
-          "hindi": "प्रिय है। आपको नमस्कार है। आपका रूप घोर और अघोर दोनों ही है। आप घोर और अघोरतर हैं; ऐसे होते हुए भी आप शिव, शान्त तथा अत्यन्त शान्त हैं। आपको नमस्कार है। शुद्ध"
+          "hindi": "प्रिय है। आपको नमस्कार है। आपका रूप घोर और अघोर दोनों ही है। आप घोर और अघोरतर हैं; ऐसे होते हुए भी आप शिव, शान्त तथा अत्यन्त शान्त हैं। आपको नमस्कार है। शुद्ध",
+          "translation": "these too following the cause, substances with the same marks, Brahmins — so from the Unmanifest first arise Mahat and the rest,",
+          "translationSource": "ai"
         },
         {
           "number": 35,
           "sanskrit": "विशेषान्तास् ततस् तेभ्यः संभवन्ति सुरादयः तेभ्यश् च पुत्रास् तेषां तु पुत्राणां परमे सुताः",
           "transliteration": "viśeṣāntās tatas tebhyaḥ saṃbhavanti surādayaḥ tebhyaś ca putrās teṣāṃ tu putrāṇāṃ parame sutāḥ",
-          "hindi": "बुद्धिरूप आपको नमस्कार है। सबको बाँटना"
+          "hindi": "बुद्धिरूप आपको नमस्कार है। सबको बाँटना",
+          "translation": "ending with the specific; from them arise gods and others, from them sons, and from their sons further sons.",
+          "translationSource": "ai"
         },
         {
           "number": 36,
           "sanskrit": "बीजाद् वृक्षप्ररोहेण यथा नापचयस् तरोः भूतानां भूतसर्गेण नैवास्त्य् अपचयस् तथा",
           "transliteration": "bījād vṛkṣapraroheṇa yathā nāpacayas taroḥ bhūtānāṃ bhūtasargeṇa naivāsty apacayas tathā",
-          "hindi": "आप अधिक पसन्द करते हैं। आप पवन, सूर्य एवं सांख्यपरायण हैं। आप एक प्रचण्ड घण्टा धारण करनेवाले और घण्टा-ध्वनिके समान बोलनेवाले हैं। आपके पास बराबर घण्टा रहा करता है।"
+          "hindi": "आप अधिक पसन्द करते हैं। आप पवन, सूर्य एवं सांख्यपरायण हैं। आप एक प्रचण्ड घण्टा धारण करनेवाले और घण्टा-ध्वनिके समान बोलनेवाले हैं। आपके पास बराबर घण्टा रहा करता है।",
+          "translation": "As there is no loss to the tree by the sprouting of a tree from the seed, so there is no loss to the elements by the creation of beings.",
+          "translationSource": "ai"
         },
         {
           "number": 37,
           "sanskrit": "संनिधानाद् यथाकाशकालाद्याः कारणं तरोः तथैवापरिणामेन विश्वस्य भगवान् हरिः",
           "transliteration": "saṃnidhānād yathākāśakālādyāḥ kāraṇaṃ taroḥ tathaivāpariṇāmena viśvasya bhagavān hariḥ",
-          "hindi": "आप लाखों घण्टेवाले हैं  घण्टोंकी माला आपको अधिक प्रिय है। मैं आपको प्रणाम करता हूं  आप प्राणोंको दण्ड देनेवाले, नित्य एवं लोहितरूप हैं। आपको नमस्कार है। आप हूं-हुं करनेवाले,"
+          "hindi": "आप लाखों घण्टेवाले हैं  घण्टोंकी माला आपको अधिक प्रिय है। मैं आपको प्रणाम करता हूं  आप प्राणोंको दण्ड देनेवाले, नित्य एवं लोहितरूप हैं। आपको नमस्कार है। आप हूं-हुं करनेवाले,",
+          "translation": "As by mere proximity space, time and the rest are the cause of the tree, so the Lord Hari, without transformation, is the cause of the universe.",
+          "translationSource": "ai"
         },
         {
           "number": 38,
           "sanskrit": "व्रीहिबीजे यथा मूलं नालं पत्त्राङ्कुरौ तथा काण्डकोषास् तथा पुष्पं क्षीरं तद्वच् च तण्डुलः",
           "transliteration": "vrīhibīje yathā mūlaṃ nālaṃ pattrāṅkurau tathā kāṇḍakoṣās tathā puṣpaṃ kṣīraṃ tadvac ca taṇḍulaḥ",
-          "hindi": "रुद्र एवं भगाकारप्रिय हैं। आपको नमस्कार है। आपका कहीं पार नहीं है। आप सदा पर्वतीय वृक्षोंको अधिक पसन्द करते हें । आपको नमस्कार है। यज्ञोंके अधिपतिरूपमें आपको नमस्कार है।"
+          "hindi": "रुद्र एवं भगाकारप्रिय हैं। आपको नमस्कार है। आपका कहीं पार नहीं है। आप सदा पर्वतीय वृक्षोंको अधिक पसन्द करते हें । आपको नमस्कार है। यज्ञोंके अधिपतिरूपमें आपको नमस्कार है।",
+          "translation": "As in a rice seed there are root, stalk, leaf, shoot, joint, sheath, flower, milk and grain,",
+          "translationSource": "ai"
         },
         {
           "number": 39,
           "sanskrit": "तुषाः कणाश् च सन्तो वै यान्त्य् आविर्भावम् आत्मनः प्ररोहहेतुसामग्र्यम् आसाद्य मुनिसत्तमाः",
           "transliteration": "tuṣāḥ kaṇāś ca santo vai yānty āvirbhāvam ātmanaḥ prarohahetusāmagryam āsādya munisattamāḥ",
-          "hindi": "आप भूत एवं प्रस्तुत (वर्तमान) -रूप हैं। आपको नमस्कार है। आप यज्ञवाहक, जितेन्द्रिय, सत्यस्वरूप,"
+          "hindi": "आप भूत एवं प्रस्तुत (वर्तमान) -रूप हैं। आपको नमस्कार है। आप यज्ञवाहक, जितेन्द्रिय, सत्यस्वरूप,",
+          "translation": "husks and grains, which come into manifestation of themselves on obtaining the complete causes of sprouting, best of sages,",
+          "translationSource": "ai"
         },
         {
           "number": 40,
           "sanskrit": "तथा कर्मस्व् अनेकेषु देवाद्यास् तनवः स्थिताः विष्णुशक्तिं समासाद्य प्ररोहम् उपयान्ति वै",
           "transliteration": "tathā karmasv anekeṣu devādyās tanavaḥ sthitāḥ viṣṇuśaktiṃ samāsādya praroham upayānti vai",
-          "hindi": "(समुद्र) हैं। आपको नमस्कार है । आप अन्नदाता, अन्नपति और अन्नके भोगी हैं। आपको नमस्कार है। आपके सहस्रों मस्तक और सहस्रं चरण हैं।"
+          "hindi": "(समुद्र) हैं। आपको नमस्कार है । आप अन्नदाता, अन्नपति और अन्नके भोगी हैं। आपको नमस्कार है। आपके सहस्रों मस्तक और सहस्रं चरण हैं।",
+          "translation": "so in many actions the bodies of gods and others stand, and, obtaining Vishnu's power, they come to sprouting.",
+          "translationSource": "ai"
         },
         {
           "number": 41,
           "sanskrit": "स च विष्णुः परं ब्रह्म यतः सर्वम् इदं जगत् जगच् च यो यत्र चेदं यस्मिन् विलयम् एष्यति",
           "transliteration": "sa ca viṣṇuḥ paraṃ brahma yataḥ sarvam idaṃ jagat jagac ca yo yatra cedaṃ yasmin vilayam eṣyati",
-          "hindi": "नेत्रोंवाले हैं। आपको नमस्कार है। आपका वर्ण उदयकालीन सूर्यके समान लाल है। आप बालकरूप धारण करनेवाले हैं। आपको नमस्कार है। आप बालसूर्यस्वरूप हैं और काल आपका खिलौना"
+          "hindi": "नेत्रोंवाले हैं। आपको नमस्कार है। आपका वर्ण उदयकालीन सूर्यके समान लाल है। आप बालकरूप धारण करनेवाले हैं। आपको नमस्कार है। आप बालसूर्यस्वरूप हैं और काल आपका खिलौना",
+          "translation": "And that Vishnu is the Supreme Brahman, from whom is all this world, who is the world, and in whom this will dissolve.",
+          "translationSource": "ai"
         },
         {
           "number": 42,
           "sanskrit": "तद् ब्रह्म परमं धाम सदसत् परमं पदम् यस्य सर्वम् अभेदेन जगद् एतच् चराचरम्",
           "transliteration": "tad brahma paramaṃ dhāma sadasat paramaṃ padam yasya sarvam abhedena jagad etac carācaram",
-          "hindi": "है । आपको नमस्कार है । आप शुद्ध, बुद्ध, क्षोभण तथा क्षयरूप हैं। आपको नमस्कार है।"
+          "hindi": "है । आपको नमस्कार है । आप शुद्ध, बुद्ध, क्षोभण तथा क्षयरूप हैं। आपको नमस्कार है।",
+          "translation": "That Brahman is the supreme abode, the being and non-being, the highest state; whose, without distinction, is this entire world of moving and unmoving.",
+          "translationSource": "ai"
         },
         {
           "number": 43,
           "sanskrit": "स एव मूलप्रकृतिर् व्यक्तरूपी जगच् च सः तस्मिन्न् एव लयं सर्वं याति तत्र च तिष्ठति",
           "transliteration": "sa eva mūlaprakṛtir vyaktarūpī jagac ca saḥ tasminn eva layaṃ sarvaṃ yāti tatra ca tiṣṭhati",
-          "hindi": "नमो नर्तनशीलाय मुखवादित्रकारिणे। बाधापहाय लुब्धाय गीतवादित्रकारिणे ॥"
+          "hindi": "नमो नर्तनशीलाय मुखवादित्रकारिणे। बाधापहाय लुब्धाय गीतवादित्रकारिणे ॥",
+          "translation": "He alone is the root nature, the manifest form, and the world; in him alone all dissolves and in him all stays.",
+          "translationSource": "ai"
         },
         {
           "number": 44,
           "sanskrit": "कर्ता क्रियाणां स च इज्यते क्रतुः स एव तत्कर्मफलं च तस्य यत् युगादि यस्माच् च भवेद् अशेषतो हरेर् न किंचिद् व्यतिरिक्तम् अस्ति तत्",
           "transliteration": "kartā kriyāṇāṃ sa ca ijyate kratuḥ sa eva tatkarmaphalaṃ ca tasya yat yugādi yasmāc ca bhaved aśeṣato harer na kiṃcid vyatiriktam asti tat",
-          "hindi": "ट केश गङ्ाजीको तरङ्गोंसे अङ्कित रहते हैं। आप अपने मस्तकके बाल खुले रखते हैं। आप संध्यादि छः कमोमें निष्ठा रखनेवाले हें तथा सृष्टि आदि तीन कमाँका निरन्तर पालन"
+          "hindi": "ट केश गङ्ाजीको तरङ्गोंसे अङ्कित रहते हैं। आप अपने मस्तकके बाल खुले रखते हैं। आप संध्यादि छः कमोमें निष्ठा रखनेवाले हें तथा सृष्टि आदि तीन कमाँका निरन्तर पालन",
+          "translation": "He is the doer of acts, he is worshipped as the sacrifice, he is the fruit of that action; whatever begins with the yuga and comes to be entirely — nothing is other than Hari.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -10444,85 +10572,113 @@
           "number": 13,
           "sanskrit": "आकाशगङ्गासलिलं तथाहृत्य गभस्तिमान् अनभ्रगतम् एवोर्व्यां सद्यः क्षिपति रश्मिभिः",
           "transliteration": "ākāśagaṅgāsalilaṃ tathāhṛtya gabhastimān anabhragatam evorvyāṃ sadyaḥ kṣipati raśmibhiḥ",
-          "hindi": "विश्वेश्वर! आप ही ब्रह्मा हैं । जलमें स्थित जो ब्रह्म है, उसे आपका ही स्वरूप बतलाते हैं। आप ही सबकी परम योनि हैं। चन्द्रमा और ज्योतिके भंडार भी आप ही हैं। ब्रह्मवादी महर्षि आपको"
+          "hindi": "विश्वेश्वर! आप ही ब्रह्मा हैं । जलमें स्थित जो ब्रह्म है, उसे आपका ही स्वरूप बतलाते हैं। आप ही सबकी परम योनि हैं। चन्द्रमा और ज्योतिके भंडार भी आप ही हैं। ब्रह्मवादी महर्षि आपको",
+          "translation": "Having gathered the water of the heavenly Ganga, the lord of rays at once showers it on the earth with his rays, even from a cloudless sky.",
+          "translationSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "तस्य संस्पर्शनिर्धूतपापपङ्को द्विजोत्तमाः न याति नरकं मर्त्यो दिव्यं स्नानं हि तत् स्मृतम्",
           "transliteration": "tasya saṃsparśanirdhūtapāpapaṅko dvijottamāḥ na yāti narakaṃ martyo divyaṃ snānaṃ hi tat smṛtam",
-          "hindi": "ही ऋक , साम तथा ३कार कहते हैं। सामगान करनेवाले ब्रह्मवेत्ता तथा श्रेष्ठ देवता 'हायि हायि हरे हायि हुवा हाव' आदि साम-ऋचाओंका निरन्तर उच्चारण करते हुए आपका ही यशोगान"
+          "hindi": "ही ऋक , साम तथा ३कार कहते हैं। सामगान करनेवाले ब्रह्मवेत्ता तथा श्रेष्ठ देवता 'हायि हायि हरे हायि हुवा हाव' आदि साम-ऋचाओंका निरन्तर उच्चारण करते हुए आपका ही यशोगान",
+          "translation": "A mortal whose mud of sin is shaken off by its touch, best of Brahmins, does not go to hell; that is remembered as divine bathing.",
+          "translationSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "दृष्टसूर्यं हि तद् वारि पतत्य् अभ्रैर् विना दिवः आकाशगङ्गासलिलं तद् गोभिः क्षिप्यते रवेः",
           "transliteration": "dṛṣṭasūryaṃ hi tad vāri pataty abhrair vinā divaḥ ākāśagaṅgāsalilaṃ tad gobhiḥ kṣipyate raveḥ",
-          "hindi": "करते हें । आप ही यजुर्वेद, ऋगवेद, सामवेद तथा अथर्ववेदमय हैं । ब्रह्मवेत्ता कल्प और उपनिषदादिके समूहोंसे आपके ही स्वरूपका अध्ययन करते हैं।"
+          "hindi": "करते हें । आप ही यजुर्वेद, ऋगवेद, सामवेद तथा अथर्ववेदमय हैं । ब्रह्मवेत्ता कल्प और उपनिषदादिके समूहोंसे आपके ही स्वरूपका अध्ययन करते हैं।",
+          "translation": "That water seen by the sun falls from the sky without clouds; the heavenly Ganga water is cast by the sun's rays.",
+          "translationSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "कृत्तिकादिषु ऋक्षेषु विषमेष्व् अम्बु यद् दिवः दृष्ट्वार्कं पतितं ज्ञेयं तद् गाङ्गं दिग्गजोह्नितम्",
           "transliteration": "kṛttikādiṣu ṛkṣeṣu viṣameṣv ambu yad divaḥ dṛṣṭvārkaṃ patitaṃ jñeyaṃ tad gāṅgaṃ diggajohnitam",
-          "hindi": "और आश्रम हैं, वह सब आप ही हैं। बिजलीकी चमक, मेघको गर्जना, संवत्सर, ऋतु, मास, पक्ष, कला, काष्ठा, निमेष, नक्षत्र और युग-सब"
+          "hindi": "और आश्रम हैं, वह सब आप ही हैं। बिजलीकी चमक, मेघको गर्जना, संवत्सर, ऋतु, मास, पक्ष, कला, काष्ठा, निमेष, नक्षत्र और युग-सब",
+          "translation": "The water that falls from the sky in odd-numbered stars such as Krittika, seen with the sun, should be known as Ganga water, thrown by the elephants of the directions.",
+          "translationSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "युग्मर्क्षेषु तु यत् तोयं पतत्य् अर्कोद्गितं दिवः तत् सूर्यरश्मिभिः सद्यः समादाय निरस्यते",
           "transliteration": "yugmarkṣeṣu tu yat toyaṃ pataty arkodgitaṃ divaḥ tat sūryaraśmibhiḥ sadyaḥ samādāya nirasyate",
-          "hindi": "» दक्षद्वारा भगवान् शिवको स्तुति"
+          "hindi": "» दक्षद्वारा भगवान् शिवको स्तुति",
+          "translation": "The water that falls from the sky in the even-numbered stars, drawn by the sun, is quickly gathered and expelled by the sun's rays.",
+          "translationSource": "ai"
         },
         {
           "number": 18,
           "sanskrit": "उभयं पुण्यम् अत्यर्थं नृणां पापहरं द्विजाः आकाशगङ्गासलिलं दिव्यं स्नानं द्विजोत्तमाः",
           "transliteration": "ubhayaṃ puṇyam atyarthaṃ nṛṇāṃ pāpaharaṃ dvijāḥ ākāśagaṅgāsalilaṃ divyaṃ snānaṃ dvijottamāḥ",
-          "hindi": "क्षीरसागर, मन्त्रोंमें प्रणव, शस्त्रोंमें वज्र और ब्रतोंमें सत्य हैं। आप ही इच्छा, राग, द्वेष,"
+          "hindi": "क्षीरसागर, मन्त्रोंमें प्रणव, शस्त्रोंमें वज्र और ब्रतोंमें सत्य हैं। आप ही इच्छा, राग, द्वेष,",
+          "translation": "Both are exceedingly holy, removers of men's sin, Brahmins; the heavenly Ganga water is divine bathing, best of Brahmins.",
+          "translationSource": "ai"
         },
         {
           "number": 19,
           "sanskrit": "यत् तु मेघैः समुत्सृष्टं वारि तत् प्राणिनां द्विजाः पुष्णात्य् ओषधयः सर्वा जीवनायामृतं हि तत्",
           "transliteration": "yat tu meghaiḥ samutsṛṣṭaṃ vāri tat prāṇināṃ dvijāḥ puṣṇāty oṣadhayaḥ sarvā jīvanāyāmṛtaṃ hi tat",
-          "hindi": "धैर्य, लोभ, काम, क्रोध, जय और पराजय हैँ।"
+          "hindi": "धैर्य, लोभ, काम, क्रोध, जय और पराजय हैँ।",
+          "translation": "The water released by clouds nourishes beings, Brahmins; all plants, for it is the nectar for life.",
+          "translationSource": "ai"
         },
         {
           "number": 20,
           "sanskrit": "तेन वृद्धिं परां नीतः सकलश् चौषधीगणः साधकः फलपाकान्तः प्रजानां तु प्रजायते",
           "transliteration": "tena vṛddhiṃ parāṃ nītaḥ sakalaś cauṣadhīgaṇaḥ sādhakaḥ phalapākāntaḥ prajānāṃ tu prajāyate",
-          "hindi": "धारण करनेवाले हैं। आप ही छेदन, भेदन और प्रहार करनेवाले हैं। नेता और मन्ता (आदर देनेवाले) भी आप ही माने गये हैं। मनूक्त दस लक्षणोंवाला धर्म, अर्थ एवं काम भी आपके ही"
+          "hindi": "धारण करनेवाले हैं। आप ही छेदन, भेदन और प्रहार करनेवाले हैं। नेता और मन्ता (आदर देनेवाले) भी आप ही माने गये हैं। मनूक्त दस लक्षणोंवाला धर्म, अर्थ एवं काम भी आपके ही",
+          "translation": "By it the entire mass of herbs is brought to great growth, and what is required, up to the ripening of fruit, is produced for people.",
+          "translationSource": "ai"
         },
         {
           "number": 21,
           "sanskrit": "तेन यज्ञान् यथाप्रोक्तान् मानवाः शास्त्रचक्षुषः कुर्वते ऽहरहश् चैव देवान् आप्याययन्ति ते",
           "transliteration": "tena yajñān yathāproktān mānavāḥ śāstracakṣuṣaḥ kurvate 'harahaś caiva devān āpyāyayanti te",
-          "hindi": "स्वरूप हैं। चन्द्रमा, समुद्र, नदी, छोटा तालाब,"
+          "hindi": "स्वरूप हैं। चन्द्रमा, समुद्र, नदी, छोटा तालाब,",
+          "translation": "By it humans with the eye of scripture perform sacrifices as prescribed, and every day they gratify the gods.",
+          "translationSource": "ai"
         },
         {
           "number": 22,
           "sanskrit": "एवं यज्ञाश् च वेदाश् च वर्णाश् च द्विजपूर्वकाः सर्वदेवनिकायाश् च पशुभूतगणाश् च ये",
           "transliteration": "evaṃ yajñāś ca vedāś ca varṇāś ca dvijapūrvakāḥ sarvadevanikāyāś ca paśubhūtagaṇāś ca ye",
-          "hindi": "पक्षी भी आप ही हें । द्रव्य, कर्म और गुणोंका आरम्भ भी आपसे ही होता है। आप ही समयपर फूल और फल देनेवाले हैं। आदि, अन्त, मध्य, गायत्री और अकार भी आप ही हैं।"
+          "hindi": "पक्षी भी आप ही हें । द्रव्य, कर्म और गुणोंका आरम्भ भी आपसे ही होता है। आप ही समयपर फूल और फल देनेवाले हैं। आदि, अन्त, मध्य, गायत्री और अकार भी आप ही हैं।",
+          "translation": "Thus sacrifices, Vedas, the varnas headed by Brahmins, all hosts of gods, and the herds of beasts and creatures",
+          "translationSource": "ai"
         },
         {
           "number": 23,
           "sanskrit": "वृष्ट्या धृतम् इदं सर्वं जगत् स्थावरजङ्गमम् सापि निष्पाद्यते वृष्टिः सवित्रा मुनिसत्तमाः",
           "transliteration": "vṛṣṭyā dhṛtam idaṃ sarvaṃ jagat sthāvarajaṅgamam sāpi niṣpādyate vṛṣṭiḥ savitrā munisattamāḥ",
-          "hindi": "हरा, लाल, काला, नीला, पीला, अरुण,"
+          "hindi": "हरा, लाल, काला, नीला, पीला, अरुण,",
+          "translation": "— this whole world, moving and unmoving, is sustained by rain; and that rain is brought about by the Sun, best of sages.",
+          "translationSource": "ai"
         },
         {
           "number": 24,
           "sanskrit": "आधारभूतः सवितुर् ध्रुवो मुनिवरोत्तमाः ध्रुवस्य शिशुमारो ऽसौ सो ऽपि नारायणाश्रयः",
           "transliteration": "ādhārabhūtaḥ savitur dhruvo munivarottamāḥ dhruvasya śiśumāro 'sau so 'pi nārāyaṇāśrayaḥ",
-          "hindi": "श्याम आदि रंग भी आप ही हैं। आप सुवर्णरेता (अग्रि)-के नामसे विख्यात हैं। आप ही सुवर्ण माने गये हैं। सुवर्ण आपका नाम है और सुवर्ण"
+          "hindi": "श्याम आदि रंग भी आप ही हैं। आप सुवर्णरेता (अग्रि)-के नामसे विख्यात हैं। आप ही सुवर्ण माने गये हैं। सुवर्ण आपका नाम है और सुवर्ण",
+          "translation": "The support of the Sun, best of sages, is Dhruva; the Dhruva's is the Shishumara (Dolphin) constellation, and it too rests on Narayana.",
+          "translationSource": "ai"
         },
         {
           "number": 25,
           "sanskrit": "हृदि नारायणस् तस्य शिशुमारस्य संस्थितः विभर्ता सर्वभूतानाम् आदिभूतः सनातनः",
           "transliteration": "hṛdi nārāyaṇas tasya śiśumārasya saṃsthitaḥ vibhartā sarvabhūtānām ādibhūtaḥ sanātanaḥ",
-          "hindi": "आपको प्रिय है। आप ही इन्द्र, यम, वरुण,"
+          "hindi": "आपको प्रिय है। आप ही इन्द्र, यम, वरुण,",
+          "translation": "In the heart of that Shishumara stands Narayana, the supporter of all beings, primeval, eternal.",
+          "translationSource": "ai"
         },
         {
           "number": 26,
           "sanskrit": "एवं मया मुनिश्रेष्ठा ब्रह्माण्डं समुदाहृतम् भूसमुद्रादिभिर् युक्तं किम् अन्यच् छ्रोतुम् इच्छथ",
           "transliteration": "evaṃ mayā muniśreṣṭhā brahmāṇḍaṃ samudāhṛtam bhūsamudrādibhir yuktaṃ kim anyac chrotum icchatha",
-          "hindi": "और भानु (सूर्य) हैं। होता (हवन करनेवाले),"
+          "hindi": "और भानु (सूर्य) हैं। होता (हवन करनेवाले),",
+          "translation": "Thus the Brahmanda with earth, oceans and the rest has been told by me, best of sages. What else do you wish to hear?",
+          "translationSource": "ai"
         }
       ]
     },
@@ -11037,139 +11193,185 @@
           "number": 64,
           "sanskrit": "सुवर्णस्योदपानं च श्वेततीर्थह्रदं तथा कुण्डं घर्घरिकायाश् च श्यामकूपं च चन्द्रिका",
           "transliteration": "suvarṇasyodapānaṃ ca śvetatīrthahradaṃ tathā kuṇḍaṃ ghargharikāyāś ca śyāmakūpaṃ ca candrikā",
-          "hindi": "इस प्रकार महादेबजीकी स्तुति करके प्रजापति दक्ष चुप हो गये। तब भगवान् शिवने कहा-- “उत्तम व्रतका पालन करनेवाले दक्ष! मैं तुम्हारे इस स्तोत्रसे बहुत प्रसन्न हूं। अधिक कहनेसे क्या"
+          "hindi": "इस प्रकार महादेबजीकी स्तुति करके प्रजापति दक्ष चुप हो गये। तब भगवान् शिवने कहा-- “उत्तम व्रतका पालन करनेवाले दक्ष! मैं तुम्हारे इस स्तोत्रसे बहुत प्रसन्न हूं। अधिक कहनेसे क्या",
+          "translation": "the golden well, the Shveta-tirtha lake, the pool of Gharghari, Shyamakupa, Chandrika,",
+          "translationSource": "ai"
         },
         {
           "number": 65,
           "sanskrit": "श्मशानस्तम्भकूपं च विनायकह्रदं तथा कूपं सिन्धूद्भवं चैव पुण्यं ब्रह्मसरं तथा",
           "transliteration": "śmaśānastambhakūpaṃ ca vināyakahradaṃ tathā kūpaṃ sindhūdbhavaṃ caiva puṇyaṃ brahmasaraṃ tathā",
-          "hindi": "श्रेष्ठ हैं, उसी प्रकार सब स्तोत्रोंमें यह दक्षनिर्मित स्तोत्र श्रेष्ठ है। जो लोग यश, स्वर्ग, देवताओंका ऐश्वर्य, धन, विजय और विद्या आदिकी अभिलाषा रखते हैं, उन्हें यन्नपूर्वक भक्तिके साथ इस"
+          "hindi": "श्रेष्ठ हैं, उसी प्रकार सब स्तोत्रोंमें यह दक्षनिर्मित स्तोत्र श्रेष्ठ है। जो लोग यश, स्वर्ग, देवताओंका ऐश्वर्य, धन, विजय और विद्या आदिकी अभिलाषा रखते हैं, उन्हें यन्नपूर्वक भक्तिके साथ इस",
+          "translation": "Shmashanastambha-well, Vinayaka lake, the well born of the Indus, the holy Brahmasara,",
+          "translationSource": "ai"
         },
         {
           "number": 66,
           "sanskrit": "रुद्रावासं तथा तीर्थं नागतीर्थं पुलोमकम् भक्तह्रदं क्षीरसरः प्रेताधारं कुमारकम्",
           "transliteration": "rudrāvāsaṃ tathā tīrthaṃ nāgatīrthaṃ pulomakam bhaktahradaṃ kṣīrasaraḥ pretādhāraṃ kumārakam",
-          "hindi": "स्तोत्रद्वारा भगवान् शिवको स्तुति करनी चाहिए। रोगी, दुःखी, दीन, भय आदिसे ग्रस्त तथा राज- काजमें नियुक्त मनुष्य इस स्तोत्रके प्रभावसे महान् भयसे मुक्त हो जाता है तथा भगवान् शिवसे इस"
+          "hindi": "स्तोत्रद्वारा भगवान् शिवको स्तुति करनी चाहिए। रोगी, दुःखी, दीन, भय आदिसे ग्रस्त तथा राज- काजमें नियुक्त मनुष्य इस स्तोत्रके प्रभावसे महान् भयसे मुक्त हो जाता है तथा भगवान् शिवसे इस",
+          "translation": "Rudravasa tirtha, Nagatirtha, Pulomaka, Bhaktahrada, Kshirasara, Pretadhara, Kumaraka,",
+          "translationSource": "ai"
         },
         {
           "number": 67,
           "sanskrit": "ब्रह्मावर्तं कुशावर्तं दधिकर्णोदपानकम् शृङ्गतीर्थं महातीर्थं तीर्थश्रेष्ठा महानदी",
           "transliteration": "brahmāvartaṃ kuśāvartaṃ dadhikarṇodapānakam śṛṅgatīrthaṃ mahātīrthaṃ tīrthaśreṣṭhā mahānadī",
-          "hindi": "लोकमें सुख पाकर उसी शरीरसे गणोंका स्वामी बन जाता है। यक्ष, पिशाच, नाग और विनायक उस मनुष्यके घरमें विश्न नहीं डालते, जिसके यहाँ भगवान् शिवकी स्तुति होती है। दक्षद्वारा"
+          "hindi": "लोकमें सुख पाकर उसी शरीरसे गणोंका स्वामी बन जाता है। यक्ष, पिशाच, नाग और विनायक उस मनुष्यके घरमें विश्न नहीं डालते, जिसके यहाँ भगवान् शिवकी स्तुति होती है। दक्षद्वारा",
+          "translation": "Brahmavarta, Kushavarta, Dadhikarna well, Shringatirtha, Mahatirtha, the great river best of tirthas,",
+          "translationSource": "ai"
         },
         {
           "number": 68,
           "sanskrit": "दिव्यं ब्रह्मसरं पुण्यं गयाशीर्षाक्षयं वटम् दक्षिणं चोत्तरं चैव गोमयं रूपशीतिकम्",
           "transliteration": "divyaṃ brahmasaraṃ puṇyaṃ gayāśīrṣākṣayaṃ vaṭam dakṣiṇaṃ cottaraṃ caiva gomayaṃ rūpaśītikam",
-          "hindi": "किये हुए इस स्तोत्रका पाठ करनेवाला मनुष्य सब पापोंसे मुक्त हो जाता है और मरनेके बाद"
+          "hindi": "किये हुए इस स्तोत्रका पाठ करनेवाला मनुष्य सब पापोंसे मुक्त हो जाता है और मरनेके बाद",
+          "translation": "the divine holy Brahmasara, Gayashirsha with the Akshaya banyan, the southern and northern, Gomaya, Rupashitika,",
+          "translationSource": "ai"
         },
         {
           "number": 69,
           "sanskrit": "कपिलाह्रदं गृध्रवटं सावित्रीह्रदम् एव च प्रभासनं सीतवनं योनिद्वारं च धेनुकम्",
           "transliteration": "kapilāhradaṃ gṛdhravaṭaṃ sāvitrīhradam eva ca prabhāsanaṃ sītavanaṃ yonidvāraṃ ca dhenukam",
-          "hindi": "लाभ, तुम्हें मेरा सामीप्य प्राप्त होगा।' यों कहकर  देवताओंद्वारा पूजित होता है। इस परम गोपनीय देवेश्वर महादेवजी अपनी पत्नी और पार्षदोंके  स्तोत्रका श्रवण करके पापयोनिवाले मनुष्य तथा साथ अमित तेजस्वी दक्षको दृष्टिसे ओझल हो  वैश्य, स्त्री एवं शूद्र भी रुद्रलोक प्राप्त करते हैं। गये। जो मनुष्य दक्षद्वारा किये हुए इस स्तोत्रका जो द्विज प्रत्येक पर्वमें ब्राह्मणोंको सदा इस"
+          "hindi": "लाभ, तुम्हें मेरा सामीप्य प्राप्त होगा।' यों कहकर  देवताओंद्वारा पूजित होता है। इस परम गोपनीय देवेश्वर महादेवजी अपनी पत्नी और पार्षदोंके  स्तोत्रका श्रवण करके पापयोनिवाले मनुष्य तथा साथ अमित तेजस्वी दक्षको दृष्टिसे ओझल हो  वैश्य, स्त्री एवं शूद्र भी रुद्रलोक प्राप्त करते हैं। गये। जो मनुष्य दक्षद्वारा किये हुए इस स्तोत्रका जो द्विज प्रत्येक पर्वमें ब्राह्मणोंको सदा इस",
+          "translation": "Kapilahrada, Gridhravata, Savitrihrada, Prabhasa, Sitavana, Yonidvara, Dhenuka,",
+          "translationSource": "ai"
         },
         {
           "number": 70,
           "sanskrit": "धन्यकं कोकिलाख्यं च मतङ्गह्रदम् एव च पितृकूपं रुद्रतीर्थं शक्रतीर्थं सुमालिनम्",
           "transliteration": "dhanyakaṃ kokilākhyaṃ ca mataṅgahradam eva ca pitṛkūpaṃ rudratīrthaṃ śakratīrthaṃ sumālinam",
-          "hindi": "श्रवण या कीर्तन करता है, उसका तनिक भी  स्तोत्रका श्रवण कराता है, वह निःसंदेह भगवान् अमङ्गल नहीं होता। उसे दीर्घ आयुकी प्रापि शिवके लोकमें जाता है।"
+          "hindi": "श्रवण या कीर्तन करता है, उसका तनिक भी  स्तोत्रका श्रवण कराता है, वह निःसंदेह भगवान् अमङ्गल नहीं होता। उसे दीर्घ आयुकी प्रापि शिवके लोकमें जाता है।",
+          "translation": "Dhanyaka, Kokila, Matangahrada, Pitrikupa, Rudratirtha, Shakratirtha, Sumalina,",
+          "translationSource": "ai"
         },
         {
           "number": 71,
           "sanskrit": "ब्रह्मस्थानं सप्तकुण्डं मणिरत्नह्रदं तथा कौशिक्यं भरतं चैव तीर्थं ज्येष्ठालिका तथा",
           "transliteration": "brahmasthānaṃ saptakuṇḍaṃ maṇiratnahradaṃ tathā kauśikyaṃ bharataṃ caiva tīrthaṃ jyeṣṭhālikā tathā",
-          "hindi": "ये समुद्रे नदीदुर्गे पर्वतेषु गुहासु च। वृक्षमूलेषु गोष्ठेषु कान्तारगहनेषु च॥"
+          "hindi": "ये समुद्रे नदीदुर्गे पर्वतेषु गुहासु च। वृक्षमूलेषु गोष्ठेषु कान्तारगहनेषु च॥",
+          "translation": "Brahmasthana, Saptakunda, Maniratnahrada, Kaushiki, Bharata, Jyeshthalika tirtha,",
+          "translationSource": "ai"
         },
         {
           "number": 72,
           "sanskrit": "विश्वेश्वरं कल्पसरः कन्यासंवेत्यम् एव च निश्चीवा प्रभवश् चैव वसिष्ठाश्रमम् एव च",
           "transliteration": "viśveśvaraṃ kalpasaraḥ kanyāsaṃvetyam eva ca niścīvā prabhavaś caiva vasiṣṭhāśramam eva ca",
-          "hindi": "ये तु पञ्चसु भूतेषु दिशासु विदिशासु च। इ्न्दरार्कयोर्मध्यगता ये च चन्दरार्करश्मिषु॥"
+          "hindi": "ये तु पञ्चसु भूतेषु दिशासु विदिशासु च। इ्न्दरार्कयोर्मध्यगता ये च चन्दरार्करश्मिषु॥",
+          "translation": "Vishveshvara, Kalpasara, Kanyasamvedya, Nishchira, Prabhava, Vasishtha's hermitage,",
+          "translationSource": "ai"
         },
         {
           "number": 73,
           "sanskrit": "देवकूटं च कूपं च वसिष्ठाश्रमम् एव च वीराश्रमं ब्रह्मसरो ब्रह्मवीरावकापिली",
           "transliteration": "devakūṭaṃ ca kūpaṃ ca vasiṣṭhāśramam eva ca vīrāśramaṃ brahmasaro brahmavīrāvakāpilī",
-          "hindi": "सर्वस्त्वं सर्वगो देवः"
+          "hindi": "सर्वस्त्वं सर्वगो देवः",
+          "translation": "Devakuta and the well, Vasishtha's hermitage, Virashrama, Brahmasara, Brahmaviravakapili,",
+          "translationSource": "ai"
         },
         {
           "number": 74,
           "sanskrit": "कुमारधारा श्रीधारा गौरीशिखरम् एव च शुनः कुण्डो ऽथ तीर्थं च नन्दितीर्थं तथैव च",
           "transliteration": "kumāradhārā śrīdhārā gaurīśikharam eva ca śunaḥ kuṇḍo 'tha tīrthaṃ ca nanditīrthaṃ tathaiva ca",
-          "hindi": "त्वमेव चेज्यसे देव"
+          "hindi": "त्वमेव चेज्यसे देव",
+          "translation": "Kumaradhara, Shridhara, Gaurishikhara, Shunahkunda and tirtha, and Nandi-tirtha,",
+          "translationSource": "ai"
         },
         {
           "number": 75,
           "sanskrit": "कुमारवासं श्रीवासम् और्वीशीतार्थम् एव च कुम्भकर्णह्रदं चैव कौशिकीह्रदम् एव च",
           "transliteration": "kumāravāsaṃ śrīvāsam aurvīśītārtham eva ca kumbhakarṇahradaṃ caiva kauśikīhradam eva ca",
-          "hindi": "प्रसीद मम देवेश त्वमेव शरणं"
+          "hindi": "प्रसीद मम देवेश त्वमेव शरणं",
+          "translation": "Kumaravasa, Shrivasa, Aurvishitartha, Kumbhakarnahrada, Kaushikihrada,",
+          "translationSource": "ai"
         },
         {
           "number": 76,
           "sanskrit": "धर्मतीर्थं कामतीर्थं तीर्थम् उद्दालकं तथा संध्यातीर्थं कारतोयं कपिलं लोहितार्णवम्",
           "transliteration": "dharmatīrthaṃ kāmatīrthaṃ tīrtham uddālakaṃ tathā saṃdhyātīrthaṃ kāratoyaṃ kapilaṃ lohitārṇavam",
-          "hindi": "यज्ञैविविधदक्षिणैः । त्वमेव कर्ता सर्वस्य तेन त्वं न निमन्त्रितः ॥ देव मोहितः सूक्ष्मया तव। तस्मात्तु कारणाद्वापि त्वं मया न निमन्त्रितः ॥"
+          "hindi": "यज्ञैविविधदक्षिणैः । त्वमेव कर्ता सर्वस्य तेन त्वं न निमन्त्रितः ॥ देव मोहितः सूक्ष्मया तव। तस्मात्तु कारणाद्वापि त्वं मया न निमन्त्रितः ॥",
+          "translation": "Dharmatirtha, Kamatirtha, Uddalaka tirtha, Sandhyatirtha, Karatoya, Kapila, Lohitarnava,",
+          "translationSource": "ai"
         },
         {
           "number": 77,
           "sanskrit": "शोणोद्भवं वंशगुल्मम् ऋषभं कलतीर्थकम् पुण्यावतीह्रदं तीर्थं तीर्थं बदरिकाश्रमम्",
           "transliteration": "śoṇodbhavaṃ vaṃśagulmam ṛṣabhaṃ kalatīrthakam puṇyāvatīhradaṃ tīrthaṃ tīrthaṃ badarikāśramam",
-          "hindi": "एकाम्रकक्षेत्र तथा पुरुषोत्तमक्षेत्रकी महिमा"
+          "hindi": "एकाम्रकक्षेत्र तथा पुरुषोत्तमक्षेत्रकी महिमा",
+          "translation": "Shonodbhava, Vamshagulma, Rishabha, Kalatirthaka, Punyavatihrada, Badarikashrama,",
+          "translationSource": "ai"
         },
         {
           "number": 78,
           "sanskrit": "रामतीर्थं पितृवनं विरजातीर्थम् एव च मार्कण्डेयवनं चैव कृष्णतीर्थं तथा वटम्",
           "transliteration": "rāmatīrthaṃ pitṛvanaṃ virajātīrtham eva ca mārkaṇḍeyavanaṃ caiva kṛṣṇatīrthaṃ tathā vaṭam",
-          "hindi": "लोमहर्षणजी कहते हैं-' महर्षियो ! ब्रह्माजीकी  सब जीवोंके लिये सुखद है। वहाँ नाना प्रकारके कही हुई पवित्र कथा सुनकर उन महर्षियोंको  पक्षियोंका कलरव सुनायी पड़ता है। वहाँके उद्यान बडी प्रसन्नता हुई। उनके शरीरमें रोमाञ्च हो  नन्दनवनके समान एवं सबके सेवन करने योग्य आया। उन्होंने कहा-- ब्रह्मन्! अब आप  हैं । वहाँके वृक्ष फलोंके भारसे झुके रहते हैं और"
+          "hindi": "लोमहर्षणजी कहते हैं-' महर्षियो ! ब्रह्माजीकी  सब जीवोंके लिये सुखद है। वहाँ नाना प्रकारके कही हुई पवित्र कथा सुनकर उन महर्षियोंको  पक्षियोंका कलरव सुनायी पड़ता है। वहाँके उद्यान बडी प्रसन्नता हुई। उनके शरीरमें रोमाञ्च हो  नन्दनवनके समान एवं सबके सेवन करने योग्य आया। उन्होंने कहा-- ब्रह्मन्! अब आप  हैं । वहाँके वृक्ष फलोंके भारसे झुके रहते हैं और",
+          "translation": "Ramatirtha, Pitrivana, Virajatirtha, Markandeya's forest, Krishnatirtha and the banyan,",
+          "translationSource": "ai"
         },
         {
           "number": 79,
           "sanskrit": "रोहिणीकूपप्रवरम् इन्द्रद्युम्नसरं च यत् सानुगर्तं समाहेन्द्रं श्रीतीर्थं श्रीनदं तथा",
           "transliteration": "rohiṇīkūpapravaram indradyumnasaraṃ ca yat sānugartaṃ samāhendraṃ śrītīrthaṃ śrīnadaṃ tathā",
-          "hindi": "एकाम्रकक्षेत्रका वर्णन कीजिये।' सभी ऋतुओंमें उनसे फूल झड़ते रहते हैं । दीर्घिका,"
+          "hindi": "एकाम्रकक्षेत्रका वर्णन कीजिये।' सभी ऋतुओंमें उनसे फूल झड़ते रहते हैं । दीर्घिका,",
+          "translation": "Rohini-well, the best, Indradyumna lake, Sanugarta, Samahendra, Shritirtha, Shrinada,",
+          "translationSource": "ai"
         },
         {
           "number": 80,
           "sanskrit": "इषुतीर्थं वार्षभं च कावेरीह्रदम् एव च कन्यातीर्थं च गोकर्णं गायत्रीस्थानम् एव च",
           "transliteration": "iṣutīrthaṃ vārṣabhaṃ ca kāverīhradam eva ca kanyātīrthaṃ ca gokarṇaṃ gāyatrīsthānam eva ca",
-          "hindi": "ब्रह्माजी बोले--मुनिवरो ! वह क्षेत्र सब पापोंको  तड़ाग, पुष्करिणी, वापी तथा अन्यान्य जलाशय हरनेवाला, पवित्र एवं परम दुर्लभ है। मैं उसका  सदा कमलवनसे सुशोभित रहते हैं। भाँति- भाँतिके संक्षेपसे वर्णन करूँगा, सुनो। एकाम्रक नामसे  वृक्ष, नाना प्रकारके सुन्दर पुष्प तथा अनेक प्रकारके विख्यात क्षेत्र वाराणसीके समान कोटि शिवलिड्रोंसे  पवित्र जलाशय सब ओरसे उस स्थानको शोभा"
+          "hindi": "ब्रह्माजी बोले--मुनिवरो ! वह क्षेत्र सब पापोंको  तड़ाग, पुष्करिणी, वापी तथा अन्यान्य जलाशय हरनेवाला, पवित्र एवं परम दुर्लभ है। मैं उसका  सदा कमलवनसे सुशोभित रहते हैं। भाँति- भाँतिके संक्षेपसे वर्णन करूँगा, सुनो। एकाम्रक नामसे  वृक्ष, नाना प्रकारके सुन्दर पुष्प तथा अनेक प्रकारके विख्यात क्षेत्र वाराणसीके समान कोटि शिवलिड्रोंसे  पवित्र जलाशय सब ओरसे उस स्थानको शोभा",
+          "translation": "Ishutirtha, Varshabha, Kaverihrada, Kanyatirtha, Gokarna, Gayatri-sthana,",
+          "translationSource": "ai"
         },
         {
           "number": 81,
           "sanskrit": "बदरीह्रदम् अन्यच् च मध्यस्थानं विकर्णकम् जातीह्रदं देवकूपं कुशप्रवणम् एव च",
           "transliteration": "badarīhradam anyac ca madhyasthānaṃ vikarṇakam jātīhradaṃ devakūpaṃ kuśapravaṇam eva ca",
-          "hindi": "युक्त एवं शुभ है। उसमें आठ तीर्थ हैं। पूर्व  बढ़ाते हैं। कल्पमें वहाँ एक आमका वृक्ष था। उसीके नामसे। उस क्षेत्रमें साक्षात् भगवान् शङ्कर सब लोकोंका वह एकाम्रकक्षेत्रके रूपमें विख्यात हुआ। वह हित करनेके लिये निवास करते हैं। वे भोग और स्थान हृष्ट-पुष्ट मनुष्योंसे भरा रहता है, वहाँ  मोक्ष दोनोंके दाता हैं। इस पृथ्वीपर जितने तीर्थ,"
+          "hindi": "युक्त एवं शुभ है। उसमें आठ तीर्थ हैं। पूर्व  बढ़ाते हैं। कल्पमें वहाँ एक आमका वृक्ष था। उसीके नामसे। उस क्षेत्रमें साक्षात् भगवान् शङ्कर सब लोकोंका वह एकाम्रकक्षेत्रके रूपमें विख्यात हुआ। वह हित करनेके लिये निवास करते हैं। वे भोग और स्थान हृष्ट-पुष्ट मनुष्योंसे भरा रहता है, वहाँ  मोक्ष दोनोंके दाता हैं। इस पृथ्वीपर जितने तीर्थ,",
+          "translation": "another Badarihrada, Madhyasthana, Vikarnaka, Jatihrada, Devakupa, Kushapravana,",
+          "translationSource": "ai"
         },
         {
           "number": 82,
           "sanskrit": "सर्वदेवव्रतं चैव कन्याश्रमह्रदं तथा तथान्यद् वालखिल्यानां सपूर्वाणां तथापरम्",
           "transliteration": "sarvadevavrataṃ caiva kanyāśramahradaṃ tathā tathānyad vālakhilyānāṃ sapūrvāṇāṃ tathāparam",
-          "hindi": "स्त्रियाँ भी रहती हैं और पुरुष भी। उस क्षेत्रमें  नदियाँ, सरोवर, पुष्करिणी, तड़ाग, वापी, कूप विद्वानोंकी अधिकता है, वह धन-धान्यसे सम्पन्न  और सागर हैं, उन सबसे पृथक्-पृथक् जलकी स्थान है। घर और गोपुर वहाँकी शोभा बढ़ाते हें ।  बूँदें संगृहीत करके देवताओंसहित भगवान् शङ्करने वहाँ अनेकों व्यवसायी भरे हुए हैं। भाँति-भाँतिके  उस क्षेत्रमें सम्पूर्ण लोकोंके हितके लिये विन्दुसर"
+          "hindi": "स्त्रियाँ भी रहती हैं और पुरुष भी। उस क्षेत्रमें  नदियाँ, सरोवर, पुष्करिणी, तड़ाग, वापी, कूप विद्वानोंकी अधिकता है, वह धन-धान्यसे सम्पन्न  और सागर हैं, उन सबसे पृथक्-पृथक् जलकी स्थान है। घर और गोपुर वहाँकी शोभा बढ़ाते हें ।  बूँदें संगृहीत करके देवताओंसहित भगवान् शङ्करने वहाँ अनेकों व्यवसायी भरे हुए हैं। भाँति-भाँतिके  उस क्षेत्रमें सम्पूर्ण लोकोंके हितके लिये विन्दुसर",
+          "translation": "Sarvadevavrata, Kanyashramahrada, another of the Valakhilyas, with earlier ones, and another,",
+          "translationSource": "ai"
         },
         {
           "number": 83,
           "sanskrit": "तथान्यच् च महर्षीणाम् अखण्डितह्रदं तथा तीर्थेष्व् एतेषु विधिवत् सम्यक् श्रद्धासमन्वितः",
           "transliteration": "tathānyac ca maharṣīṇām akhaṇḍitahradaṃ tathā tīrtheṣv eteṣu vidhivat samyak śraddhāsamanvitaḥ",
-          "hindi": "रत्न उस क्षेत्रकी शोभा बढ़ाते हैं। नगर, अटारी,  नामक तीर्थ स्थापित किया  इसीलिये वह विन्दुसरके"
+          "hindi": "रत्न उस क्षेत्रकी शोभा बढ़ाते हैं। नगर, अटारी,  नामक तीर्थ स्थापित किया  इसीलिये वह विन्दुसरके",
+          "translation": "and another of the great sages, Akhanditahrada; at these tirthas, by rule, properly, with faith,",
+          "translationSource": "ai"
         },
         {
           "number": 84,
           "sanskrit": "स्नानं करोति यो मर्त्यः सोपवासो जितेन्द्रियः देवान् ऋषीन् मनुष्यांश् च पितॄन् संतर्प्य च क्रमात्",
           "transliteration": "snānaṃ karoti yo martyaḥ sopavāso jitendriyaḥ devān ṛṣīn manuṣyāṃś ca pitṝn saṃtarpya ca kramāt",
-          "hindi": "सड़क और राजहंसोंके समान श्वेत महल आदिके द्वारा उसकी बडी शोभा होती है। उसके चारों ओर सफेद चहारदीवारी बनी है। शस्त्रोंद्वारा उस पुरकी रक्षा होती है। अनेकों खाइयोंसे वह क्षेत्र"
+          "hindi": "सड़क और राजहंसोंके समान श्वेत महल आदिके द्वारा उसकी बडी शोभा होती है। उसके चारों ओर सफेद चहारदीवारी बनी है। शस्त्रोंद्वारा उस पुरकी रक्षा होती है। अनेकों खाइयोंसे वह क्षेत्र",
+          "translation": "the mortal who bathes, fasting, with senses controlled, having satisfied gods, sages, humans and ancestors in order,",
+          "translationSource": "ai"
         },
         {
           "number": 85,
           "sanskrit": "अभ्यर्च्य देवतास् तत्र स्थित्वा च रजनीत्रयम् पृथक् पृथक् फलं तेषु प्रतितीर्थेषु भो द्विजाः",
           "transliteration": "abhyarcya devatās tatra sthitvā ca rajanītrayam pṛthak pṛthak phalaṃ teṣu pratitīrtheṣu bho dvijāḥ",
-          "hindi": "अलङ्कत है। वहाँ प्रतिदिन उत्सवका आनन्द छाया रहता है। नाना प्रकारके बाजोंकी ध्वनि सुनायी पड़ती है। चहारदीवारी और बगीचोंसे युक्त अनेक दिव्य देवमन्दिर सब ओर उस क्षेत्रकी शोभा"
+          "hindi": "अलङ्कत है। वहाँ प्रतिदिन उत्सवका आनन्द छाया रहता है। नाना प्रकारके बाजोंकी ध्वनि सुनायी पड़ती है। चहारदीवारी और बगीचोंसे युक्त अनेक दिव्य देवमन्दिर सब ओर उस क्षेत्रकी शोभा",
+          "translation": "and worshipped the deities, and stayed three nights — in each of these tirthas separately, Brahmins,",
+          "translationSource": "ai"
         },
         {
           "number": 86,
           "sanskrit": "प्राप्नोति हयमेधस्य नरो नास्त्य् अत्र संशयः यस् त्व् इदं शृणुयान् नित्यं तीर्थमाहात्म्यम् उत्तमम् पठेच् च श्रावयेद् वापि सर्वपापैः प्रमुच्यते",
           "transliteration": "prāpnoti hayamedhasya naro nāsty atra saṃśayaḥ yas tv idaṃ śṛṇuyān nityaṃ tīrthamāhātmyam uttamam paṭhec ca śrāvayed vāpi sarvapāpaiḥ pramucyate",
-          "hindi": "बढ़ाते हैं। वहाँके ब्राह्मण, क्षत्रिय, वैश्य तथा शूद्र बड़े धार्मिक हैं। वे अपने-अपने धर्मोमें संलग्न रहते हैं। उस क्षेत्रमें निर्धन, मूर्ख, दूसरोंसे द्वेष"
+          "hindi": "बढ़ाते हैं। वहाँके ब्राह्मण, क्षत्रिय, वैश्य तथा शूद्र बड़े धार्मिक हैं। वे अपने-अपने धर्मोमें संलग्न रहते हैं। उस क्षेत्रमें निर्धन, मूर्ख, दूसरोंसे द्वेष",
+          "translation": "obtains the fruit of a horse-sacrifice; no doubt here. One who constantly hears this excellent glory of the tirthas, or reads or makes it heard, is freed from all sins.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -11244,175 +11446,233 @@
           "number": 9,
           "sanskrit": "कश्यपो जमदग्निश् च भरद्वाजो ऽथ गौतमः वसिष्ठो जैमिनिर् धौम्यो मार्कण्डेयो ऽथ वाल्मिकिः",
           "transliteration": "kaśyapo jamadagniś ca bharadvājo 'tha gautamaḥ vasiṣṭho jaiminir dhaumyo mārkaṇḍeyo 'tha vālmikiḥ",
-          "hindi": "शङ्करको ख्रान कराकर उनके सब अड्डोंमें सुगन्धित"
+          "hindi": "शङ्करको ख्रान कराकर उनके सब अड्डोंमें सुगन्धित",
+          "translation": "Kashyapa, Jamadagni, Bharadvaja, Gautama, Vasishtha, Jaimini, Dhaumya, Markandeya, Valmiki,",
+          "translationSource": "ai"
         },
         {
           "number": 10,
           "sanskrit": "विश्वामित्रः शतानन्दो वात्स्यो गार्ग्यो ऽथ आसुरिः सुमन्तुर् भार्गवो नाम कण्वो मेधातिथिर् गुरुः",
           "transliteration": "viśvāmitraḥ śatānando vātsyo gārgyo 'tha āsuriḥ sumantur bhārgavo nāma kaṇvo medhātithir guruḥ",
-          "hindi": "वहाँ और भी अनेक पवित्र तीर्थ एवं मन्दिर"
+          "hindi": "वहाँ और भी अनेक पवित्र तीर्थ एवं मन्दिर",
+          "translation": "Vishvamitra, Shatananda, Vatsya, Gargya, Asuri, Sumantu, Bhargava, Kanva, Medhatithi, Guru,",
+          "translationSource": "ai"
         },
         {
           "number": 11,
           "sanskrit": "माण्डव्यश् च्यवनो धूम्रो ह्य् असितो देवलस् तथा मौद्गल्यस् तृणयज्ञश् च पिप्पलादो ऽकृतव्रणः",
           "transliteration": "māṇḍavyaś cyavano dhūmro hy asito devalas tathā maudgalyas tṛṇayajñaś ca pippalādo 'kṛtavraṇaḥ",
-          "hindi": "चन्दन एवं केसर लगाये। तदनन्तर नाना प्रकारके  हैं। उनका भी ज्ञान प्राप्त करना चाहिए  समुद्रके"
+          "hindi": "चन्दन एवं केसर लगाये। तदनन्तर नाना प्रकारके  हैं। उनका भी ज्ञान प्राप्त करना चाहिए  समुद्रके",
+          "translation": "Mandavya, Chyavana, Dhumra, Asita, Devala, Maudgalya, Trinayajna, Pippalada, Akritavrana,",
+          "translationSource": "ai"
         },
         {
           "number": 12,
           "sanskrit": "संवर्तः कौशिको रैभ्यो मैत्रेयो हरितस् तथा शाण्डिल्यश् च विभाण्डश् च दुर्वासा लोमशस् तथा",
           "transliteration": "saṃvartaḥ kauśiko raibhyo maitreyo haritas tathā śāṇḍilyaś ca vibhāṇḍaś ca durvāsā lomaśas tathā",
-          "hindi": "आदिके द्वारा वैदिक एवं तान्त्रिक मन्त्रोंसे तथा केवल नाममय मूल मन्त्रसे गन्ध, पुष्प, चन्दन,"
+          "hindi": "आदिके द्वारा वैदिक एवं तान्त्रिक मन्त्रोंसे तथा केवल नाममय मूल मन्त्रसे गन्ध, पुष्प, चन्दन,",
+          "translation": "Samvarta, Kaushika, Raibhya, Maitreya, Harita, Shandilya, Vibhandaka, Durvasas, Lomasha,",
+          "translationSource": "ai"
         },
         {
           "number": 13,
           "sanskrit": "नारदः पर्वतश् चैव वैशंपायनगालवौ भास्करिः पूरणः सूतः पुलस्त्यः कपिलस् तथा",
           "transliteration": "nāradaḥ parvataś caiva vaiśaṃpāyanagālavau bhāskariḥ pūraṇaḥ sūtaḥ pulastyaḥ kapilas tathā",
-          "hindi": "मनोहर गीत-वाद्य, नृत्य, जप, नमस्कार, जय- शब्द तथा प्रदक्षिणा समर्पण करते हुए महादेवजीका पूजन करे । इस प्रकार देवाधिदेवका विधिपूर्वक पूजन करनेवाला पुरुष सब पापोंसे मुक्त हो शिवलोकमें"
+          "hindi": "मनोहर गीत-वाद्य, नृत्य, जप, नमस्कार, जय- शब्द तथा प्रदक्षिणा समर्पण करते हुए महादेवजीका पूजन करे । इस प्रकार देवाधिदेवका विधिपूर्वक पूजन करनेवाला पुरुष सब पापोंसे मुक्त हो शिवलोकमें",
+          "translation": "Narada, Parvata, Vaishampayana, Galava, Bhaskari, Purana, Suta, Pulastya, Kapila,",
+          "translationSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "उलूकः पुलहो वायुर् देवस्थानश् चतुर्भुजः सनत्कुमारः पैलश् च कृष्णः कृष्णानुभौतिकः",
           "transliteration": "ulūkaḥ pulaho vāyur devasthānaś caturbhujaḥ sanatkumāraḥ pailaś ca kṛṣṇaḥ kṛṣṇānubhautikaḥ",
-          "hindi": "जाता है । जो उत्तम बुद्धिवाले पुरुष वहाँ हर समय महादेवजीका दर्शन करते हैं, वे भी पापमुक्त होकर शिवलोकमें जाते हैं। भगवान् शिवसे पश्चिम,"
+          "hindi": "जाता है । जो उत्तम बुद्धिवाले पुरुष वहाँ हर समय महादेवजीका दर्शन करते हैं, वे भी पापमुक्त होकर शिवलोकमें जाते हैं। भगवान् शिवसे पश्चिम,",
+          "translation": "Uluka, Pulaha, Vayu, Devasthana, Chaturbhuja, Sanatkumara, Paila, Krishna, Krishnanubhautika:",
+          "translationSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "एतैर् मुनिवरैश् चान्यैर् वृतः सत्यवतीसुतः रराज स मुनिः श्रीमान् नक्षत्रैर् इव चन्द्रमाः",
           "transliteration": "etair munivaraiś cānyair vṛtaḥ satyavatīsutaḥ rarāja sa muniḥ śrīmān nakṣatrair iva candramāḥ",
-          "hindi": "वह क्षेत्र भोग एवं मोक्ष प्रदान करनेवाला है। उस उत्तम क्षेत्रमें भास्करेश्वर नामसे प्रसिद्ध एक शिवलिङ्ग"
+          "hindi": "वह क्षेत्र भोग एवं मोक्ष प्रदान करनेवाला है। उस उत्तम क्षेत्रमें भास्करेश्वर नामसे प्रसिद्ध एक शिवलिङ्ग",
+          "translation": "surrounded by these and other best of sages, the son of Satyavati, the glorious sage, shone like the moon among stars.",
+          "translationSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "तान् आगतान् मुनीन् सर्वान् पूजयाम् आस वेदवित् ते ऽपि तं प्रतिपूज्यैव कथां चक्रुः परस्परम्",
           "transliteration": "tān āgatān munīn sarvān pūjayām āsa vedavit te 'pi taṃ pratipūjyaiva kathāṃ cakruḥ parasparam",
-          "hindi": "उत्तर-तटपर उस प्रदेशमें एक परम गोपनीय मुक्तिदायक क्षेत्र है, जो सब पापोंका नाश करनेवाला है। उस परमदुर्लभ क्षेत्रका विस्तार दस योजन है। बहाँकी भूमिपर सब ओर बालू बिछी हुई है। वह"
+          "hindi": "उत्तर-तटपर उस प्रदेशमें एक परम गोपनीय मुक्तिदायक क्षेत्र है, जो सब पापोंका नाश करनेवाला है। उस परमदुर्लभ क्षेत्रका विस्तार दस योजन है। बहाँकी भूमिपर सब ओर बालू बिछी हुई है। वह",
+          "translation": "The Veda-knower honoured all those sages who came, and they too, honouring him in return, conversed among themselves.",
+          "translationSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "कथान्ते ते मुनिश्रेष्ठाः कृष्णं सत्यवतीसुतम् पप्रच्छुः संशयं सर्वे तपोवननिवासिनः",
           "transliteration": "kathānte te muniśreṣṭhāḥ kṛṣṇaṃ satyavatīsutam papracchuḥ saṃśayaṃ sarve tapovananivāsinaḥ",
-          "hindi": "परम पवित्र एवं सम्पूर्ण कामनाओंको देनेवाला है। अशोक, अर्जुन, पुंनाग, मौलसिरी, सरल,"
+          "hindi": "परम पवित्र एवं सम्पूर्ण कामनाओंको देनेवाला है। अशोक, अर्जुन, पुंनाग, मौलसिरी, सरल,",
+          "translation": "At the end of the conversation those best of sages, dwellers of the austerity forest, all asked Krishna, Satyavati's son, a doubt:",
+          "translationSource": "ai"
         },
         {
           "number": 18,
           "sanskrit": "मुने वेदांश् च शास्त्राणि पुराणागमभारतम् भूतं भव्यं भविष्यं च सर्वं जानासि वाङ्मयम्",
           "transliteration": "mune vedāṃś ca śāstrāṇi purāṇāgamabhāratam bhūtaṃ bhavyaṃ bhaviṣyaṃ ca sarvaṃ jānāsi vāṅmayam",
-          "hindi": "नागकेसर, पीपल, छितवन, महुआ, सहिजन, शीशम, आँवला, नीम तथा बहेड़ा आदिके वृक्षोंसे उसकी बड़ी शोभा होती है । वहाँ पक्षियोंके मुखसे निकले हुए अत्यन्त मधुर कलरव कानों और मनको"
+          "hindi": "नागकेसर, पीपल, छितवन, महुआ, सहिजन, शीशम, आँवला, नीम तथा बहेड़ा आदिके वृक्षोंसे उसकी बड़ी शोभा होती है । वहाँ पक्षियोंके मुखसे निकले हुए अत्यन्त मधुर कलरव कानों और मनको",
+          "translation": "\"Sage, you know the Vedas and sciences, Puranas, Agamas and the Bharata, past, future and present, all literature.",
+          "translationSource": "ai"
         },
         {
           "number": 19,
           "sanskrit": "कष्टे ऽस्मिन् दुःखबहुले निःसारे भवसागरे रागग्राहाकुले रौद्रे विषयोदकसंप्लवे",
           "transliteration": "kaṣṭe 'smin duḥkhabahule niḥsāre bhavasāgare rāgagrāhākule raudre viṣayodakasaṃplave",
-          "hindi": "बहुत सुख देते हैं। ऊपर बताये हुए वृक्षोंके"
+          "hindi": "बहुत सुख देते हैं। ऊपर बताये हुए वृक्षोंके",
+          "translation": "In this painful ocean of existence, full of sorrow, without essence, crowded with crocodiles of attachment, terrible, flooded by the waters of the senses' objects,",
+          "translationSource": "ai"
         },
         {
           "number": 20,
           "sanskrit": "इन्द्रियावर्तकलिले दृष्टोर्मिशतसंकुले मोहपङ्काविले दुर्गे लोभगम्भीरदुस्तरे",
           "transliteration": "indriyāvartakalile dṛṣṭormiśatasaṃkule mohapaṅkāvile durge lobhagambhīradustare",
-          "hindi": "है। जो लोग वहाँ कुण्डमें स्नान करके भगवान्  भाँति-भाँतिके जलाशयोंसे वह क्षेत्र सुशोभित है।"
+          "hindi": "है। जो लोग वहाँ कुण्डमें स्नान करके भगवान्  भाँति-भाँतिके जलाशयोंसे वह क्षेत्र सुशोभित है।",
+          "translation": "with whirlpools of the senses' mud, thick with hundreds of seen waves, muddy with the mire of delusion, difficult, deep and hard to cross because of greed,",
+          "translationSource": "ai"
         },
         {
           "number": 21,
           "sanskrit": "निमज्जज् जगद् आलोक्य निरालम्बम् अचेतनम् पृच्छामस् त्वां महाभागं ब्रूहि नो मुनिसत्तम",
           "transliteration": "nimajjaj jagad ālokya nirālambam acetanam pṛcchāmas tvāṃ mahābhāgaṃ brūhi no munisattama",
-          "hindi": "सूर्यद्वारा पूजित त्रिनेत्रधारी देवाधिदेव महादेवका दर्शन करते हैं, वे सब पापोंसे मुक्त हो उत्तम विमानपर बैठकर गन्धर्वाके मुखसे अपनी स्तुति सुनते हुए शिवलोकमें जाते हैं अथवा योगियोंके"
+          "hindi": "सूर्यद्वारा पूजित त्रिनेत्रधारी देवाधिदेव महादेवका दर्शन करते हैं, वे सब पापोंसे मुक्त हो उत्तम विमानपर बैठकर गन्धर्वाके मुखसे अपनी स्तुति सुनते हुए शिवलोकमें जाते हैं अथवा योगियोंके",
+          "translation": "seeing the world sinking, unsupported, unconscious, we ask you, fortunate one; tell us, best of sages:",
+          "translationSource": "ai"
         },
         {
           "number": 22,
           "sanskrit": "श्रेयः किम् अत्र संसारे भैरवे लोमहर्षणे उपदेशप्रदानेन लोकान् उद्धर्तुम् अर्हसि",
           "transliteration": "śreyaḥ kim atra saṃsāre bhairave lomaharṣaṇe upadeśapradānena lokān uddhartum arhasi",
-          "hindi": "घरमें वेद-वेदाङ्गोंके पारंगत, सर्वभूतहितकारी श्रेष्ठ"
+          "hindi": "घरमें वेद-वेदाङ्गोंके पारंगत, सर्वभूतहितकारी श्रेष्ठ",
+          "translation": "what is best in this terrible, hair-raising worldly existence? You ought to lift up the worlds by giving instruction.",
+          "translationSource": "ai"
         },
         {
           "number": 23,
           "sanskrit": "दुर्लभं परमं क्षेत्रं वक्तुम् अर्हसि मोक्षदम् पृथिव्यां कर्मभूमिं च श्रोतुम् इच्छामहे वयम्",
           "transliteration": "durlabhaṃ paramaṃ kṣetraṃ vaktum arhasi mokṣadam pṛthivyāṃ karmabhūmiṃ ca śrotum icchāmahe vayam",
-          "hindi": "अनेकानेक ब्रह्मचारी, गृहस्थ, वानप्रस्थ, संन्यासी तथा स्वधर्मपरायण ब्राह्मणादि वर्णोसे उस क्षेत्रकी शोभा होती है। वह हृष्ट-पुष्ट मनुष्यों तथा अनेक नर-नारियोंसे भरा हुआ है । वह सम्पूर्ण विद्याओंका"
+          "hindi": "अनेकानेक ब्रह्मचारी, गृहस्थ, वानप्रस्थ, संन्यासी तथा स्वधर्मपरायण ब्राह्मणादि वर्णोसे उस क्षेत्रकी शोभा होती है। वह हृष्ट-पुष्ट मनुष्यों तथा अनेक नर-नारियोंसे भरा हुआ है । वह सम्पूर्ण विद्याओंका",
+          "translation": "You ought to tell us of the rare supreme holy place that gives liberation, and we wish to hear of the land of action on earth.",
+          "translationSource": "ai"
         },
         {
           "number": 24,
           "sanskrit": "कृत्वा किल नरः सम्यक् कर्म भूमौ यथोदितम् प्राप्नोति परमां सिद्धिं नरकं च विकर्मतः",
           "transliteration": "kṛtvā kila naraḥ samyak karma bhūmau yathoditam prāpnoti paramāṃ siddhiṃ narakaṃ ca vikarmataḥ",
-          "hindi": "स्थान तथा समस्त धर्मो एवं गुणोंका आकर है।"
+          "hindi": "स्थान तथा समस्त धर्मो एवं गुणोंका आकर है।",
+          "translation": "A man who properly does action on earth as prescribed attains supreme success, and hell by wrong action;",
+          "translationSource": "ai"
         },
         {
           "number": 25,
           "sanskrit": "मोक्षक्षेत्रे तथा मोक्षं प्राप्नोति पुरुषः सुधीः तस्माद् ब्रूहि महाप्राज्ञ यत् पृष्टो ऽसि द्विजोत्तम",
           "transliteration": "mokṣakṣetre tathā mokṣaṃ prāpnoti puruṣaḥ sudhīḥ tasmād brūhi mahāprājña yat pṛṣṭo 'si dvijottama",
-          "hindi": "द्विजके रूपमे उत्पन्न होते हैं। उस समय वे मोक्षशास्त्रके  इस प्रकार वह परम दुर्लभ क्षेत्र सर्वगुणसम्पन्न है ।"
+          "hindi": "द्विजके रूपमे उत्पन्न होते हैं। उस समय वे मोक्षशास्त्रके  इस प्रकार वह परम दुर्लभ क्षेत्र सर्वगुणसम्पन्न है ।",
+          "translation": "and in a field of liberation the wise man attains liberation. Therefore tell, greatly wise one, what you are asked, best of Brahmins.\"",
+          "translationSource": "ai"
         },
         {
           "number": 26,
           "sanskrit": "श्रुत्वा तु वचनं तेषां मुनीनां भावितात्मनाम् व्यासः प्रोवाच भगवान् भूतभव्यभविष्यवित्",
           "transliteration": "śrutvā tu vacanaṃ teṣāṃ munīnāṃ bhāvitātmanām vyāsaḥ provāca bhagavān bhūtabhavyabhaviṣyavit",
-          "hindi": "तात्पर्यको समझनेमें कुशल और सर्वत्र समबुद्धि होते हैं तथा भगवान् शङ्करसे श्रेष्ठ योग प्रास करके भव-बन्धनसे मुक्ति पा जाते हैं। द्विजवरो! स्त्री भी श्रद्धापूर्वक वहाँ भगवान् शिवका पूजन करके"
+          "hindi": "तात्पर्यको समझनेमें कुशल और सर्वत्र समबुद्धि होते हैं तथा भगवान् शङ्करसे श्रेष्ठ योग प्रास करके भव-बन्धनसे मुक्ति पा जाते हैं। द्विजवरो! स्त्री भी श्रद्धापूर्वक वहाँ भगवान् शिवका पूजन करके",
+          "translation": "Hearing the words of those sages of purified minds, the revered Vyasa, knower of past, future and present, said:",
+          "translationSource": "ai"
         },
         {
           "number": 27,
           "sanskrit": "शृणुध्वं मुनयः सर्वे वक्ष्यामि यदि पृच्छथ यः संवादो ऽभवत् पूर्वम् ऋषीणां ब्रह्मणा सह",
           "transliteration": "śṛṇudhvaṃ munayaḥ sarve vakṣyāmi yadi pṛcchatha yaḥ saṃvādo 'bhavat pūrvam ṛṣīṇāṃ brahmaṇā saha",
-          "hindi": "पूर्वोक्त फलको प्राप्त कर लेती है। मुनिवरो! भगवान् महेश्वरके अतिरिक्त दूसरा कौन ऐसा है, जो उस उत्तम क्षेत्रके सम्पूर्ण गुणोंका वर्णन कर"
+          "hindi": "पूर्वोक्त फलको प्राप्त कर लेती है। मुनिवरो! भगवान् महेश्वरके अतिरिक्त दूसरा कौन ऐसा है, जो उस उत्तम क्षेत्रके सम्पूर्ण गुणोंका वर्णन कर",
+          "translation": "\"Listen, all you sages; I shall tell, since you ask, the dialogue that took place formerly between the sages and Brahma.",
+          "translationSource": "ai"
         },
         {
           "number": 28,
           "sanskrit": "मेरुपृष्ठे तु विस्तीर्णे नानारत्नविभूषिते नानाद्रुमलताकीर्णे नानापुष्पोपशोभिते",
           "transliteration": "merupṛṣṭhe tu vistīrṇe nānāratnavibhūṣite nānādrumalatākīrṇe nānāpuṣpopaśobhite",
-          "hindi": "मुनिवरो! वहाँ भगवान् श्रीकृष्ण पुरुषोत्तम नामसे विख्यात हैं। उत्कल प्रान्तकी सीमा समुद्रको ओर जहाँतक बतायी गयी है, वह सब स्थान श्रीकृष्णके प्रसादसे अत्यन्त पवित्र है। उस देशमें विश्वात्मा"
+          "hindi": "मुनिवरो! वहाँ भगवान् श्रीकृष्ण पुरुषोत्तम नामसे विख्यात हैं। उत्कल प्रान्तकी सीमा समुद्रको ओर जहाँतक बतायी गयी है, वह सब स्थान श्रीकृष्णके प्रसादसे अत्यन्त पवित्र है। उस देशमें विश्वात्मा",
+          "translation": "On the broad back of Meru, adorned with many jewels, strewn with many trees and creepers, graced with many flowers,",
+          "translationSource": "ai"
         },
         {
           "number": 29,
           "sanskrit": "नानापक्षिरुते रम्ये नानाप्रसवनाकुले नानासत्त्वसमाकीर्णे नानाश्चर्यसमन्विते",
           "transliteration": "nānāpakṣirute ramye nānāprasavanākule nānāsattvasamākīrṇe nānāścaryasamanvite",
-          "hindi": "भगवान् पुरुषोत्तम निवास करते हैं । वे जगद्व्यापी जगन्नाथ हैं। उन्हींमें सब कुछ प्रतिष्ठित है। मैं, भगवान् शिव, इन्द्र तथा अग्नि आदि देवता सदा"
+          "hindi": "भगवान् पुरुषोत्तम निवास करते हैं । वे जगद्व्यापी जगन्नाथ हैं। उन्हींमें सब कुछ प्रतिष्ठित है। मैं, भगवान् शिव, इन्द्र तथा अग्नि आदि देवता सदा",
+          "translation": "lovely with the cries of many birds, crowded with many springs, filled with many creatures, endowed with many wonders,",
+          "translationSource": "ai"
         },
         {
           "number": 30,
           "sanskrit": "नानावर्णशिलाकीर्णे नानाधातुविभूषिते नानामुनिजनाकीर्णे नानाश्रमसमन्विते",
           "transliteration": "nānāvarṇaśilākīrṇe nānādhātuvibhūṣite nānāmunijanākīrṇe nānāśramasamanvite",
-          "hindi": "उस देशमें निवास करते हैं। गन्धर्व, अप्सरा, पितर, देवता, मनुष्य, यक्ष, विद्याधर, सिद्ध, उत्तम व्रतवाले मुनि, बालखिल्य आदि ऋषि, कश्यप"
+          "hindi": "उस देशमें निवास करते हैं। गन्धर्व, अप्सरा, पितर, देवता, मनुष्य, यक्ष, विद्याधर, सिद्ध, उत्तम व्रतवाले मुनि, बालखिल्य आदि ऋषि, कश्यप",
+          "translation": "strewn with rocks of many colours, adorned with many minerals, crowded with many sages, furnished with many hermitages —",
+          "translationSource": "ai"
         },
         {
           "number": 31,
           "sanskrit": "तत्रासीनं जगन्नाथं जगद्योनिं चतुर्मुखम् जगत्पतिं जगद्वन्द्यं जगदाधारम् ईश्वरम्",
           "transliteration": "tatrāsīnaṃ jagannāthaṃ jagadyoniṃ caturmukham jagatpatiṃ jagadvandyaṃ jagadādhāram īśvaram",
-          "hindi": "स्वर्गवासी, अङ्गोंसहित चारों वेद, नाना प्रकारके शास्त्र, इतिहास-पुराण, उत्तम दक्षिणावाले यज्ञ, अनेक पवित्र नदियाँ, पुण्यतीर्थ, मन्दिर, समुद्र तथा पर्वत--सब उस देशमें स्थित हैं । इस प्रकार"
+          "hindi": "स्वर्गवासी, अङ्गोंसहित चारों वेद, नाना प्रकारके शास्त्र, इतिहास-पुराण, उत्तम दक्षिणावाले यज्ञ, अनेक पवित्र नदियाँ, पुण्यतीर्थ, मन्दिर, समुद्र तथा पर्वत--सब उस देशमें स्थित हैं । इस प्रकार",
+          "translation": "there was seated the Lord of the world, source of the world, four-faced, master of the world, worshipped by the world, support of the world, the Lord,",
+          "translationSource": "ai"
         },
         {
           "number": 32,
           "sanskrit": "देवदानवगन्धर्वैर् यक्षविद्याधरोरगैः मुनिसिद्धाप्सरोभिश् च वृतम् अन्यैर् दिवालयैः",
           "transliteration": "devadānavagandharvair yakṣavidyādharoragaiḥ munisiddhāpsarobhiś ca vṛtam anyair divālayaiḥ",
-          "hindi": "पावन प्रदेशमें, जहाँ सब प्रकारके उपभोग सुलभ हैं, निवास करना किसको रुचिकर नहीं प्रतीत होगा। भला, उसके सिवा कौन देश श्रेष्ठ है, उससे बढ़कर दूसरा कौन स्थान है, जहाँ मुक्तिदाता"
+          "hindi": "पावन प्रदेशमें, जहाँ सब प्रकारके उपभोग सुलभ हैं, निवास करना किसको रुचिकर नहीं प्रतीत होगा। भला, उसके सिवा कौन देश श्रेष्ठ है, उससे बढ़कर दूसरा कौन स्थान है, जहाँ मुक्तिदाता",
+          "translation": "surrounded by gods, Danavas, Gandharvas, Yakshas, Vidyadharas, serpents, sages, Siddhas, Apsarases and other dwellers of heaven.",
+          "translationSource": "ai"
         },
         {
           "number": 33,
           "sanskrit": "केचित् स्तुवन्ति तं देवं केचिद् गायन्ति चाग्रतः केचिद् वाद्यानि वाद्यन्ते केचिन् नृत्यन्ति चापरे",
           "transliteration": "kecit stuvanti taṃ devaṃ kecid gāyanti cāgrataḥ kecid vādyāni vādyante kecin nṛtyanti cāpare",
-          "hindi": "भगवान् पुरुषोत्तम स्वयं ही विराजमान हैं। वे"
+          "hindi": "भगवान् पुरुषोत्तम स्वयं ही विराजमान हैं। वे",
+          "translation": "Some praised that god, some sang before him, some played instruments, and others danced.",
+          "translationSource": "ai"
         },
         {
           "number": 34,
           "sanskrit": "एवं प्रमुदिते काले सर्वभूतसमागमे नानाकुसुमगन्धाढ्ये दक्षिणानिलसेविते",
           "transliteration": "evaṃ pramudite kāle sarvabhūtasamāgame nānākusumagandhāḍhye dakṣiṇānilasevite",
-          "hindi": "मनुष्य, जो उत्कलदेशमें निवास करते हैं, देवताओंके समान और धन्य हैं। जो समस्त तीर्थोके राजा समुद्रमें स्नान करके भगवान् पुरुषोत्तमका दर्शन करते हैं, वे मनुष्य स्वर्गमें बसते हैं, यमलोकमें"
+          "hindi": "मनुष्य, जो उत्कलदेशमें निवास करते हैं, देवताओंके समान और धन्य हैं। जो समस्त तीर्थोके राजा समुद्रमें स्नान करके भगवान् पुरुषोत्तमका दर्शन करते हैं, वे मनुष्य स्वर्गमें बसते हैं, यमलोकमें",
+          "translation": "At such a joyful time, at the gathering of all beings, rich with the fragrance of many flowers, served by the southern breeze,",
+          "translationSource": "ai"
         },
         {
           "number": 35,
           "sanskrit": "भृग्वाद्यास् तं तदा देवं प्रणिपत्य पितामहम् इमम् अर्थम् ऋषिवराः पप्रच्छुः पितरं द्विजाः",
           "transliteration": "bhṛgvādyās taṃ tadā devaṃ praṇipatya pitāmaham imam artham ṛṣivarāḥ papracchuḥ pitaraṃ dvijāḥ",
-          "hindi": "नहीं जाते। जो उत्कलदेशीय पवित्र पुरुषोत्तमक्षेत्रमें निवास करते हैं, उन श्रेष्ठ बुद्धिवाले मनुष्योंका जीवन सफल है; क्योंकि वे देवश्रेष्ठ भगवान् श्रीकृष्णके मुखकमलका दर्शन करते हैं। भगवानका"
+          "hindi": "नहीं जाते। जो उत्कलदेशीय पवित्र पुरुषोत्तमक्षेत्रमें निवास करते हैं, उन श्रेष्ठ बुद्धिवाले मनुष्योंका जीवन सफल है; क्योंकि वे देवश्रेष्ठ भगवान् श्रीकृष्णके मुखकमलका दर्शन करते हैं। भगवानका",
+          "translation": "Bhrigu and the others then bowed to the god, the Grandfather, and the best of sages, Brahmins, asked their father this matter:",
+          "translationSource": "ai"
         },
         {
           "number": 36,
           "sanskrit": "भगवञ् श्रोतुम् इच्छामः कर्मभूमिं महीतले वक्तुम् अर्हसि देवेश मोक्षक्षेत्रं च दुर्लभम्",
           "transliteration": "bhagavañ śrotum icchāmaḥ karmabhūmiṃ mahītale vaktum arhasi deveśa mokṣakṣetraṃ ca durlabham",
-          "hindi": "मुखकमल तीनों लोकोंको आनन्द प्रदान करनेवाला है। उनके नेत्र प्रसन्न एवं विशाल हैं । उनकी भौं केश तथा मुकुट सुन्दर हैं, कानोंमें मनोहर कुण्डल शोभा पाते हैं। उनकी मुसकान मनोहर और"
+          "hindi": "मुखकमल तीनों लोकोंको आनन्द प्रदान करनेवाला है। उनके नेत्र प्रसन्न एवं विशाल हैं । उनकी भौं केश तथा मुकुट सुन्दर हैं, कानोंमें मनोहर कुण्डल शोभा पाते हैं। उनकी मुसकान मनोहर और",
+          "translation": "'Revered one, we wish to hear of the land of action on earth; you ought to tell, lord of gods, of the rare field of liberation.'",
+          "translationSource": "ai"
         },
         {
           "number": 37,
           "sanskrit": "तेषां वचनम् आकर्ण्य प्राह ब्रह्मा सुरेश्वरः पप्रच्छुस् ते यथा प्रश्नं तत् सर्वं मुनिसत्तमाः",
           "transliteration": "teṣāṃ vacanam ākarṇya prāha brahmā sureśvaraḥ papracchus te yathā praśnaṃ tat sarvaṃ munisattamāḥ",
-          "hindi": "दन्तपङ्क्ति सुन्दर है। वे सुन्दर नाक, सुन्दर कपोल, सुन्दर ललाट और उत्तम लक्षणोंवाले हैं ।"
+          "hindi": "दन्तपङ्क्ति सुन्दर है। वे सुन्दर नाक, सुन्दर कपोल, सुन्दर ललाट और उत्तम लक्षणोंवाले हैं ।",
+          "translation": "Hearing their words, Brahma, lord of the gods, said — as they had asked the question — all that, best of sages.\"",
+          "translationSource": "ai"
         }
       ]
     },
@@ -11511,121 +11771,161 @@
           "number": 12,
           "sanskrit": "तस्माद् विस्तरतो ब्रह्मन्न् अस्माकं भारतं वद यदि ते ऽस्ति दयास्मासु यथावस्थितिर् एव च",
           "transliteration": "tasmād vistarato brahmann asmākaṃ bhārataṃ vada yadi te 'sti dayāsmāsu yathāvasthitir eva ca",
-          "hindi": "अवन्तीके महाराज इन्द्रद्युम्रका पुरुषोत्तमक्षेत्रमे जाना  ९०१"
+          "hindi": "अवन्तीके महाराज इन्द्रद्युम्रका पुरुषोत्तमक्षेत्रमे जाना  ९०१",
+          "translation": "\"Therefore, Brahma, tell us of Bharata in detail, if you have compassion on us, and as it stands.",
+          "translationSource": "ai"
         },
         {
           "number": 13,
           "sanskrit": "तस्माद् वर्षम् इदं नाथ ये वास्मिन् वर्षपर्वताः भेदाश् च तस्य वर्षस्य ब्रूहि सर्वान् अशेषतः",
           "transliteration": "tasmād varṣam idaṃ nātha ye vāsmin varṣaparvatāḥ bhedāś ca tasya varṣasya brūhi sarvān aśeṣataḥ",
-          "hindi": "और सुभद्राको स्थापना कैसे को? ये सब बातें  दिखायी देते थे। वे सब रल्रोंके दाता तथा सब विस्तारपूर्वक बतानेकी कृपा करें। प्रकारको सम्पत्तियोंको भोगनेवाले थे। वहाँकी ब्रह्माजी बोले--द्विजवरो ! तुम लोग जो प्राचीन  कुलवती स्त्रियाँ सब गुणोंमें आचार्य थीं। वे पतिव्रता, वृत्तान्त पूछ रहे हो, वह सब पापोंको दूर करनेवाला,  सौभाग्यशालिनी तथा सम्पूर्ण गुणोंसे सम्पन्न थीं ।"
+          "hindi": "और सुभद्राको स्थापना कैसे को? ये सब बातें  दिखायी देते थे। वे सब रल्रोंके दाता तथा सब विस्तारपूर्वक बतानेकी कृपा करें। प्रकारको सम्पत्तियोंको भोगनेवाले थे। वहाँकी ब्रह्माजी बोले--द्विजवरो ! तुम लोग जो प्राचीन  कुलवती स्त्रियाँ सब गुणोंमें आचार्य थीं। वे पतिव्रता, वृत्तान्त पूछ रहे हो, वह सब पापोंको दूर करनेवाला,  सौभाग्यशालिनी तथा सम्पूर्ण गुणोंसे सम्पन्न थीं ।",
+          "translation": "Lord, tell us fully of this varsha, of its mountains and the divisions of this varsha.\"",
+          "translationSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "शृणुध्वं भारतं वर्षं नवभेदेन भो द्विजाः समुद्रान्तरिता ज्ञेयास् ते समाश् च परस्परम्",
           "transliteration": "śṛṇudhvaṃ bhārataṃ varṣaṃ navabhedena bho dvijāḥ samudrāntaritā jñeyās te samāś ca parasparam",
-          "hindi": "पवित्र, भोग और मोक्ष देनेवाला तथा शुभ है। उस नगरमें अनेकों बन, उपवन, पवित्र एवं मनोरम इस प्रश्‍नके लिये तुम्हें साधुवाद देता हूँ। तुम  उद्यान, भाँति-भाँतिके पुष्पांसे सुशोभित दिव्य जितेन्द्रिय एवं विशुद्धचित्त होकर सुनो। मैं सत्ययुगके  देवमन्दिर, शाल, ताल, तमाल, बकुल, नागकेसर, राजा इन्द्रद्युप्रका चरित्र बतलाता हूँ । इस पृथ्वीपर पीपल, कनेर, चन्दन, अगर, चम्पा तथा अन्यान्य"
+          "hindi": "पवित्र, भोग और मोक्ष देनेवाला तथा शुभ है। उस नगरमें अनेकों बन, उपवन, पवित्र एवं मनोरम इस प्रश्‍नके लिये तुम्हें साधुवाद देता हूँ। तुम  उद्यान, भाँति-भाँतिके पुष्पांसे सुशोभित दिव्य जितेन्द्रिय एवं विशुद्धचित्त होकर सुनो। मैं सत्ययुगके  देवमन्दिर, शाल, ताल, तमाल, बकुल, नागकेसर, राजा इन्द्रद्युप्रका चरित्र बतलाता हूँ । इस पृथ्वीपर पीपल, कनेर, चन्दन, अगर, चम्पा तथा अन्यान्य",
+          "translation": "\"Hear of the Bharata varsha, Brahmins, of nine divisions; they should be known as separated by sea and mutually inaccessible:",
+          "translationSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "इन्द्रद्वीपः कशेरुश् च ताम्रवर्णो गभस्तिमान् नागद्वीपस् तथा सौम्यो गान्धर्वो वारुणस् तथा",
           "transliteration": "indradvīpaḥ kaśeruś ca tāmravarṇo gabhastimān nāgadvīpas tathā saumyo gāndharvo vāruṇas tathā",
-          "hindi": "मालवामें अवन्ती (उज्जैन) नामकी नगरी विख्यात  मनोहर वृक्ष, लता-गुल्म आदि शोभा पाते थे। है। वही राजा इन्द्रद्यु्नरकी राजधानी थी। अवन्ती  अनेकों जलाशय उस महापुरीको शोभा बढ़ा रहे इस पृथ्वीके मुकुटके समान थी। वहाँ हृष्ट-पुष्ट  थे। अवन्तीपुरीमें त्रिनेत्रधारी त्रिपुरशत्रु भगवान् मनुष्य भरे थे। उसकी चहारदीवारी और दरवाजे  शिव महाकाल नामसे प्रसिद्ध होकर रहते हैं। वे"
+          "hindi": "मालवामें अवन्ती (उज्जैन) नामकी नगरी विख्यात  मनोहर वृक्ष, लता-गुल्म आदि शोभा पाते थे। है। वही राजा इन्द्रद्यु्नरकी राजधानी थी। अवन्ती  अनेकों जलाशय उस महापुरीको शोभा बढ़ा रहे इस पृथ्वीके मुकुटके समान थी। वहाँ हृष्ट-पुष्ट  थे। अवन्तीपुरीमें त्रिनेत्रधारी त्रिपुरशत्रु भगवान् मनुष्य भरे थे। उसकी चहारदीवारी और दरवाजे  शिव महाकाल नामसे प्रसिद्ध होकर रहते हैं। वे",
+          "translation": "Indradvipa, Kaseru, Tamravarna, Gabhastiman, Nagadvipa, Saumya, Gandharva and Varuna,",
+          "translationSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "अयं तु नवमस् तेषां द्वीपः सागरसंवृतः योजनानां सहस्रं वै द्वीपो ऽयं दक्षिणोत्तरः",
           "transliteration": "ayaṃ tu navamas teṣāṃ dvīpaḥ sāgarasaṃvṛtaḥ yojanānāṃ sahasraṃ vai dvīpo 'yaṃ dakṣiṇottaraḥ",
-          "hindi": "दृढ बने हुए थे। दरवाजोंपर मजबूत किंवाड़ और  समस्त कामनाओंके पूर्ण करनेवाले हैं । वहाँ एक सुदृढ़ यन्त्र लगे थे। नगरके चारों ओर अनेकों  शिवकुण्ड है, जो सब पापोंका नाश करनेवाला खाइयाँ बनी हुई थीं। नगरमें बहुत-से व्यापारी  है। उसमें विधिपूर्वक स्नान करके देवताओं, ऋषियों बसते थे। नाना प्रकारके बर्तनोंको अच्छी बिक्री  और पितरोंका तर्पण करे । फिर शिवालयमें जाकर"
+          "hindi": "दृढ बने हुए थे। दरवाजोंपर मजबूत किंवाड़ और  समस्त कामनाओंके पूर्ण करनेवाले हैं । वहाँ एक सुदृढ़ यन्त्र लगे थे। नगरके चारों ओर अनेकों  शिवकुण्ड है, जो सब पापोंका नाश करनेवाला खाइयाँ बनी हुई थीं। नगरमें बहुत-से व्यापारी  है। उसमें विधिपूर्वक स्नान करके देवताओं, ऋषियों बसते थे। नाना प्रकारके बर्तनोंको अच्छी बिक्री  और पितरोंका तर्पण करे । फिर शिवालयमें जाकर",
+          "translation": "and this ninth of them, a continent surrounded by the ocean, a thousand yojanas from south to north.",
+          "translationSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "पूर्वे किराता यस्यासन् पश्चिमे यवनास् तथा ब्राह्मणाः क्षत्रिया वैश्याः शूद्राश् चान्ते स्थिता द्विजाः",
           "transliteration": "pūrve kirātā yasyāsan paścime yavanās tathā brāhmaṇāḥ kṣatriyā vaiśyāḥ śūdrāś cānte sthitā dvijāḥ",
-          "hindi": "होती थी। रथ चलने लायक सड़कें और बाजार  भगवान् शिवको तीन बार प्रदक्षिणा करे । तत्पश्चात् सुन्दर थे। चौराहोंसे चारों ओर जानेके लिये मार्गोका  स्नान, पुष्प, गन्ध, धूप और दीप आदिके द्वारा अच्छी प्रकार विभाग हुआ था। अनेकों घर और  भक्तिपूर्वक महाकालका विधिवत् पूजन करे। ऐसा गोपुर बने हुए थे। बहुत-सी गलियाँ उस नगरकी  करनेवाला मनुष्य एक हजार अश्वमेध-यज्ञोंका"
+          "hindi": "होती थी। रथ चलने लायक सड़कें और बाजार  भगवान् शिवको तीन बार प्रदक्षिणा करे । तत्पश्चात् सुन्दर थे। चौराहोंसे चारों ओर जानेके लिये मार्गोका  स्नान, पुष्प, गन्ध, धूप और दीप आदिके द्वारा अच्छी प्रकार विभाग हुआ था। अनेकों घर और  भक्तिपूर्वक महाकालका विधिवत् पूजन करे। ऐसा गोपुर बने हुए थे। बहुत-सी गलियाँ उस नगरकी  करनेवाला मनुष्य एक हजार अश्वमेध-यज्ञोंका",
+          "translation": "In its east are Kiratas, in the west Yavanas; Brahmins, Kshatriyas, Vaishyas and Shudras are stationed in the middle.",
+          "translationSource": "ai"
         },
         {
           "number": 18,
           "sanskrit": "इज्यायुद्धवणिज्याद्यैः कर्मभिः कृतपावनाः तेषां संव्यवहारश् च एभिः कर्मभिर् इष्यते",
           "transliteration": "ijyāyuddhavaṇijyādyaiḥ karmabhiḥ kṛtapāvanāḥ teṣāṃ saṃvyavahāraś ca ebhiḥ karmabhir iṣyate",
-          "hindi": "शोभा बढ़ाती थीं। राजहंसोंके समान श्वेत और  फल पाता है। वह सब पापोंसे मुक्त हो समस्त मनोहर महल लाखोंको संख्यामें बने हुए थे, जो  कामनाओंको पूर्ण करनेवाले विमानोंद्वारा भगवान् उस पुरीको श्रीवृद्धि कर रहे थे। अनेकों यज्ञसम्बन्धी  शिवके परम धाममें जाता है। उत्सवोंके कारण उस नगरमें आनन्द छाया रहता  अवन्तीमें शिप्रा नामसे प्रसिद्ध पवित्र नदी है ।"
+          "hindi": "शोभा बढ़ाती थीं। राजहंसोंके समान श्वेत और  फल पाता है। वह सब पापोंसे मुक्त हो समस्त मनोहर महल लाखोंको संख्यामें बने हुए थे, जो  कामनाओंको पूर्ण करनेवाले विमानोंद्वारा भगवान् उस पुरीको श्रीवृद्धि कर रहे थे। अनेकों यज्ञसम्बन्धी  शिवके परम धाममें जाता है। उत्सवोंके कारण उस नगरमें आनन्द छाया रहता  अवन्तीमें शिप्रा नामसे प्रसिद्ध पवित्र नदी है ।",
+          "translation": "Purified by actions such as sacrifice, war and trade, their dealings are carried on by these actions;",
+          "translationSource": "ai"
         },
         {
           "number": 19,
           "sanskrit": "स्वर्गापवर्गहेतुश् च पुण्यं पापं च वै तथा महेन्द्रो मलयः सह्यः शुक्तिमान् ऋक्षपर्वतः",
           "transliteration": "svargāpavargahetuś ca puṇyaṃ pāpaṃ ca vai tathā mahendro malayaḥ sahyaḥ śuktimān ṛkṣaparvataḥ",
-          "hindi": "था। गाने और बजानेको ध्वनि गूँजती रहती थी । उसमें विधिपूर्वक स्नान करके देवताओं और पितरोंका भाँति-भाँतिकी ध्वजा और पताकाओंसे वह पुरी  तर्पण करनेसे मनुष्य सब पापोंसे मुक्त हो जाता सुशोभित थी। हाथी, घोड़े, रथ और पैदलोंको  और श्रेष्ठ विमानपर आरूढ़ हो स्वर्गलोकमें नाना सेना सब ओर व्याप्त थी। अनेक प्रकारके सैनिक  प्रकारके भोग भोगता है। वहीं देवाधिदेव भगवान्"
+          "hindi": "था। गाने और बजानेको ध्वनि गूँजती रहती थी । उसमें विधिपूर्वक स्नान करके देवताओं और पितरोंका भाँति-भाँतिकी ध्वजा और पताकाओंसे वह पुरी  तर्पण करनेसे मनुष्य सब पापोंसे मुक्त हो जाता सुशोभित थी। हाथी, घोड़े, रथ और पैदलोंको  और श्रेष्ठ विमानपर आरूढ़ हो स्वर्गलोकमें नाना सेना सब ओर व्याप्त थी। अनेक प्रकारके सैनिक  प्रकारके भोग भोगता है। वहीं देवाधिदेव भगवान्",
+          "translation": "and merit and sin are the causes of heaven and liberation. Mahendra, Malaya, Sahya, Shuktiman, Riksha,",
+          "translationSource": "ai"
         },
         {
           "number": 20,
           "sanskrit": "विन्ध्यश् च पारियात्रश् च सप्तैवात्र कुलाचलाः तेषां सहस्रशश् चान्ये भूधरा ये समीपगाः",
           "transliteration": "vindhyaś ca pāriyātraś ca saptaivātra kulācalāḥ teṣāṃ sahasraśaś cānye bhūdharā ye samīpagāḥ",
-          "hindi": "वहाँ भरे थे। अनेकों जनपदोंके लोग वहाँ बसे  जनार्दन भी निवास करते हैं, जो गोविन्दस्वामीके हुए थे। ब्राह्मण, क्षत्रिय, वैश्य, शूद्र तथा विद्वान्  नामसे प्रसिद्ध हैं। वे भोग और मोक्ष प्रदान करनेवाले पुरुषोंसे वह नगरी सुशोभित थी। वहाँ मलिन,  हैं। उनका दर्शन करके मनुष्य अपनी इक्कीस मूर्ख, निर्धन, रोगी, अङ्गहीन तथा जुवारी मनुष्योंका  पीढ़ियोंसहित मुक्त हो जाता है। उनके सिवा वहीं"
+          "hindi": "वहाँ भरे थे। अनेकों जनपदोंके लोग वहाँ बसे  जनार्दन भी निवास करते हैं, जो गोविन्दस्वामीके हुए थे। ब्राह्मण, क्षत्रिय, वैश्य, शूद्र तथा विद्वान्  नामसे प्रसिद्ध हैं। वे भोग और मोक्ष प्रदान करनेवाले पुरुषोंसे वह नगरी सुशोभित थी। वहाँ मलिन,  हैं। उनका दर्शन करके मनुष्य अपनी इक्कीस मूर्ख, निर्धन, रोगी, अङ्गहीन तथा जुवारी मनुष्योंका  पीढ़ियोंसहित मुक्त हो जाता है। उनके सिवा वहीं",
+          "translation": "Vindhya and Pariyatra: these seven are the family mountains here; of them there are thousands of other mountains nearby,",
+          "translationSource": "ai"
         },
         {
           "number": 21,
           "sanskrit": "विस्तारोच्छ्रयिणो रम्या विपुलाश् चित्रसानवः कोलाहलः स वैभ्राजो मन्दरो दर्दलाचलः",
           "transliteration": "vistārocchrayiṇo ramyā vipulāś citrasānavaḥ kolāhalaḥ sa vaibhrājo mandaro dardalācalaḥ",
-          "hindi": "अभाव था। वहाँके स्त्री-पुरुष सदा प्रसन्नचित्त  विक्रमस्वामीके नामसे भी भगवान् विष्णुका निवास"
+          "hindi": "अभाव था। वहाँके स्त्री-पुरुष सदा प्रसन्नचित्त  विक्रमस्वामीके नामसे भी भगवान् विष्णुका निवास",
+          "translation": "broad and high, lovely, with varied slopes: Kolahala, Vaibhraja, Mandara, Dardala,",
+          "translationSource": "ai"
         },
         {
           "number": 22,
           "sanskrit": "वातंधयो वैद्युतश् च मैनाकः सुरसस् तथा तुङ्गप्रस्थो नागगिरिर् गोधनः पाण्डराचलः",
           "transliteration": "vātaṃdhayo vaidyutaś ca mainākaḥ surasas tathā tuṅgaprastho nāgagirir godhanaḥ pāṇḍarācalaḥ",
-          "hindi": "है। स्त्री अथवा पुरुष, कोई भी उनका दर्शन करके पूर्वोक्त फल प्राप्त कर लेता है। वहाँ इन्द्र आदि देवता और समस्त कामनाएँ पूर्ण करनेवाली देवियाँ भी निवास करती हैं। उन सबकी भक्तिपूर्वक"
+          "hindi": "है। स्त्री अथवा पुरुष, कोई भी उनका दर्शन करके पूर्वोक्त फल प्राप्त कर लेता है। वहाँ इन्द्र आदि देवता और समस्त कामनाएँ पूर्ण करनेवाली देवियाँ भी निवास करती हैं। उन सबकी भक्तिपूर्वक",
+          "translation": "Vatamdhaya, Vaidyuta, Mainaka, Surasa, Tungaprastha, Nagagiri, Godhana, Pandara,",
+          "translationSource": "ai"
         },
         {
           "number": 23,
           "sanskrit": "पुष्पगिरिर् वैजयन्तो रैवतो ऽर्बुद एव च ऋष्यमूकः स गोमन्थः कृतशैलः कृताचलः",
           "transliteration": "puṣpagirir vaijayanto raivato 'rbuda eva ca ṛṣyamūkaḥ sa gomanthaḥ kṛtaśailaḥ kṛtācalaḥ",
-          "hindi": "पूजा और प्रणाम करके मनुष्य सब पापोंसे मुक्त हो स्वर्गलोकमें जाता है। इस प्रकार राजाओंमें श्रेष्ठ इन्द्रद्युप्रके द्वारा पालित वह रमणीय पुरी इन्द्रको अमरावतीके समान नित्य उत्सवके आनन्दसे"
+          "hindi": "पूजा और प्रणाम करके मनुष्य सब पापोंसे मुक्त हो स्वर्गलोकमें जाता है। इस प्रकार राजाओंमें श्रेष्ठ इन्द्रद्युप्रके द्वारा पालित वह रमणीय पुरी इन्द्रको अमरावतीके समान नित्य उत्सवके आनन्दसे",
+          "translation": "Pushpagiri, Vaijayanta, Raivata, Arbuda, Rishyamuka, Gomantha, Kritashaila, Kritachala,",
+          "translationSource": "ai"
         },
         {
           "number": 24,
           "sanskrit": "श्रीपार्वतश् चकोरश् च शतशो ऽन्ये च पर्वताः तैर् विमिश्रा जनपदा म्लेच्छाद्याश् चैव भागशः",
           "transliteration": "śrīpārvataś cakoraś ca śataśo 'nye ca parvatāḥ tair vimiśrā janapadā mlecchādyāś caiva bhāgaśaḥ",
-          "hindi": "परिपूर्ण रहती थी । वहाँ दिन-रात इतिहास-पुराण, नाना प्रकारके शास्त्र तथा काव्यचर्चा सुनी जाती"
+          "hindi": "परिपूर्ण रहती थी । वहाँ दिन-रात इतिहास-पुराण, नाना प्रकारके शास्त्र तथा काव्यचर्चा सुनी जाती",
+          "translation": "Shriparvata, Chakora and hundreds of other mountains. Mixed with them are countries, and Mlecchas and others in portions.",
+          "translationSource": "ai"
         },
         {
           "number": 25,
           "sanskrit": "तैः पीयन्ते सरिच्छ्रेष्ठास् ता बुध्यध्वं द्विजोत्तमाः गङ्गा सरस्वती सिन्धुश् चन्द्रभागा तथापरा",
           "transliteration": "taiḥ pīyante saricchreṣṭhās tā budhyadhvaṃ dvijottamāḥ gaṅgā sarasvatī sindhuś candrabhāgā tathāparā",
-          "hindi": "थी । इस तरह वह उजनी पुरी सब गुणोंसे सम्पन्न  8 बतायी गयी है, जिसमें पूर्वकालमें परम बुद्धिमान् \" ) कळ न गल दु"
+          "hindi": "थी । इस तरह वह उजनी पुरी सब गुणोंसे सम्पन्न  8 बतायी गयी है, जिसमें पूर्वकालमें परम बुद्धिमान् \" ) कळ न गल दु",
+          "translation": "By them the best of rivers are drunk; understand them, best of Brahmins: Ganga, Sarasvati, Sindhu, Chandrabhaga and another,",
+          "translationSource": "ai"
         },
         {
           "number": 26,
           "sanskrit": "यमुना शतद्रुर् विपाशा वितस्तैरावती कुहूः गोमती धूतपापा च बाहुदा च दृषद्वती",
           "transliteration": "yamunā śatadrur vipāśā vitastairāvatī kuhūḥ gomatī dhūtapāpā ca bāhudā ca dṛṣadvatī",
-          "hindi": "राजा इन्द्रद्युम्न हुए थे।"
+          "hindi": "राजा इन्द्रद्युम्न हुए थे।",
+          "translation": "Yamuna, Shatadru, Vipasha, Vitasta, Airavati, Kuhu, Gomati, Dhutapapa, Bahuda, Drishadvati,",
+          "translationSource": "ai"
         },
         {
           "number": 27,
           "sanskrit": "विपाशा देविका चक्षुर् निष्ठीवा गण्डकी तथा कौशिकी चापगा चैव हिमवत्पादनिःसृताः",
           "transliteration": "vipāśā devikā cakṣur niṣṭhīvā gaṇḍakī tathā kauśikī cāpagā caiva himavatpādaniḥsṛtāḥ",
-          "hindi": "उस नगरीमें अपने उत्तम राज्यका उपभोग करते  ईह ds dnd a हुए राजा इन्द्रद्युप्न औरस पुत्रोंकी भाँति प्रजाका  आ"
+          "hindi": "उस नगरीमें अपने उत्तम राज्यका उपभोग करते  ईह ds dnd a हुए राजा इन्द्रद्युप्न औरस पुत्रोंकी भाँति प्रजाका  आ",
+          "translation": "Vipasha, Devika, Chakshu, Nishthivi, Gandaki, Kaushiki, Apaga: those issuing from the foot of the Himalaya.",
+          "translationSource": "ai"
         },
         {
           "number": 28,
           "sanskrit": "देवस्मृतिर् देववती वातघ्नी सिन्धुर् एव च वेण्या तु चन्दना चैव सदानीरा मही तथा",
           "transliteration": "devasmṛtir devavatī vātaghnī sindhur eva ca veṇyā tu candanā caiva sadānīrā mahī tathā",
-          "hindi": "पालन करते थे। वे सत्यवादी, परम बुद्धिमान्,"
+          "hindi": "पालन करते थे। वे सत्यवादी, परम बुद्धिमान्,",
+          "translation": "Devasmriti, Devavati, Vataghni, Sindhu, Veni, Chandana, Sadanira, Mahi,",
+          "translationSource": "ai"
         },
         {
           "number": 29,
           "sanskrit": "चर्मण्वती वृषी चैव विदिशा वेदवत्य् अपि सिप्रा ह्य् अवन्ती च तथा पारियात्रानुगाः स्मृताः",
           "transliteration": "carmaṇvatī vṛṣī caiva vidiśā vedavaty api siprā hy avantī ca tathā pāriyātrānugāḥ smṛtāḥ",
-          "hindi": "शूरवीर, समस्त गुणोंके आकर, मतिमान्, धर्मात्मा  ४"
+          "hindi": "शूरवीर, समस्त गुणोंके आकर, मतिमान्, धर्मात्मा  ४",
+          "translation": "Charmanvati, Vrishi, Vidisha, Vedavati, Sipra and Avanti are remembered as following Pariyatra.",
+          "translationSource": "ai"
         },
         {
           "number": 30,
           "sanskrit": "शोणा महानदी चैव नर्मदा सुरथा क्रिया मन्दाकिनी दशार्णा च चित्रकूटा तथापरा",
           "transliteration": "śoṇā mahānadī caiva narmadā surathā kriyā mandākinī daśārṇā ca citrakūṭā tathāparā",
-          "hindi": "तथा सम्पूर्ण शस्त्रधारियोंमें श्रेष्ठ थे। उनमें सत्य, शील और इन्द्रिय-संयमके गुण थे। दान, यज्ञ"
+          "hindi": "तथा सम्पूर्ण शस्त्रधारियोंमें श्रेष्ठ थे। उनमें सत्य, शील और इन्द्रिय-संयमके गुण थे। दान, यज्ञ",
+          "translation": "Shona, the great river Narmada, Surathā, Kriya, Mandakini, Dasharna and another, Chitrakuta,",
+          "translationSource": "ai"
         },
         {
           "number": 31,
           "sanskrit": "चित्रोत्पला वेत्रवती करमोदा पिशाचिका तथान्यातिलघुश्रोणी विपाप्मा शैवला नदी",
           "transliteration": "citrotpalā vetravatī karamodā piśācikā tathānyātilaghuśroṇī vipāpmā śaivalā nadī",
-          "hindi": "और तपस्यामें उनकी समानता करनेवाला दूसरा  कोई राजा नहीं था। वे अपने प्रत्येक यञ्ञमें श्रेष्ठ भी i ब्राह्मणोंको सोना, मणि, मोती, हाथी और घोडे  छिद्र"
+          "hindi": "और तपस्यामें उनकी समानता करनेवाला दूसरा  कोई राजा नहीं था। वे अपने प्रत्येक यञ्ञमें श्रेष्ठ भी i ब्राह्मणोंको सोना, मणि, मोती, हाथी और घोडे  छिद्र",
+          "translation": "Chitrotpala, Vetravati, Karamoda, Pishachika, another, Atilaghushroni, Vipapma and the river Shaivala.",
+          "translationSource": "ai"
         },
         {
           "number": 32,
