@@ -82355,109 +82355,145 @@
           "number": 13,
           "sanskrit": "एधामहे हरेर्भक्त्या पचतीत्यादि पूर्ववत् । भूयते ऽनुभूयते ऽसौ भावे कर्मणि वै यकि",
           "transliteration": "edhāmahe harerbhaktyā pacatītyādi pūrvavat / bhūyate 'nubhūyate 'sau bhāve karmaṇi vai yaki",
-          "hindi": "जाता। 'केशी' और 'केशिक' उस हैत्यका वाचक है, जो अश्वरूपधारी था और उसकी गर्दनपर बड़े-बड़े बाल (अयाल) थे। 'केशवान्' पद सामान्यतः सभी केशधारियोंके लिये प्रयुक्त होता है। “हिरण्य' तथा 'मणि' शब्दोंसे 'व' प्रत्यय होनेपर “हिरण्यबमणि वः? ' ये प्रयोग सिद्ध होते हैं। 'रजस्' शब्दसे ' वलच्' प्रत्यय होनेपर ' रजस्वलम् ?' पदको सिद्धि होती है"
+          "hindi": "जाता। 'केशी' और 'केशिक' उस हैत्यका वाचक है, जो अश्वरूपधारी था और उसकी गर्दनपर बड़े-बड़े बाल (अयाल) थे। 'केशवान्' पद सामान्यतः सभी केशधारियोंके लिये प्रयुक्त होता है। “हिरण्य' तथा 'मणि' शब्दोंसे 'व' प्रत्यय होनेपर “हिरण्यबमणि वः? ' ये प्रयोग सिद्ध होते हैं। 'रजस्' शब्दसे ' वलच्' प्रत्यय होनेपर ' रजस्वलम् ?' पदको सिद्धि होती है",
+          "translation": "\"Edhamahe\" (we prosper through devotion to Hari), \"pacati\" and the like, as before; \"bhuyate\" and \"anubhuyate\" are the passive/impersonal forms of the root bhu (verb conjugation).",
+          "translationSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "वुभूषति समीत्येवं णिचि भावयतीश्वरं । यङि वोभूयते वाद्यं वोभोतेइ स्याच्च यङ्लुकि",
           "transliteration": "vubhūṣati samītyevaṃ ṇici bhāvayatīśvaraṃ / yaṅi vobhūyate vādyaṃ vobhotei syācca yaṅluki",
-          "hindi": "“धन”, 'कर' तथा 'हस्त'-इन शब्दोंसे 'इनि' प्रत्यय होनेपर क्रमशः ' धनी', 'करी” और 'हस्ती'-ये पद सिद्ध होते हैं। ' धन' शब्दसे"
+          "hindi": "“धन”, 'कर' तथा 'हस्त'-इन शब्दोंसे 'इनि' प्रत्यय होनेपर क्रमशः ' धनी', 'करी” और 'हस्ती'-ये पद सिद्ध होते हैं। ' धन' शब्दसे",
+          "translation": "\"Bubhushati\" (desires to be), \"bhavayati\" (causes to be: \"he causes Ishvara to be\"); the intensive \"bobhuyate\" and the intensive-elided \"bobhoti\" (forms of bhu).",
+          "translationSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "पुत्रीयति पुत्रकाम्यत्येवं पटपटायते । घटयत्य् अथ सनि णिचि बुभूषयति रूपकं",
           "transliteration": "putrīyati putrakāmyatyevaṃ paṭapaṭāyate / ghaṭayaty atha sani ṇici bubhūṣayati rūpakaṃ",
-          "hindi": "पुरुषः'ये प्रयोग सिद्ध होते हैं। 'पयस्' तथा “माया' शब्दोंसे “विनि प्रत्यय होनेपर “पयस्वी ', 'मायावी'-ये रूप बनते हैं। 'ऊर्णा' शब्दसे मत्वर्थीय 'युस्' प्रत्यय होनेपर ' ऊर्णायुः ' पदकी सिद्धि बतायी गयी है। 'वाच्' शब्दसे “ग्मिनि'"
+          "hindi": "पुरुषः'ये प्रयोग सिद्ध होते हैं। 'पयस्' तथा “माया' शब्दोंसे “विनि प्रत्यय होनेपर “पयस्वी ', 'मायावी'-ये रूप बनते हैं। 'ऊर्णा' शब्दसे मत्वर्थीय 'युस्' प्रत्यय होनेपर ' ऊर्णायुः ' पदकी सिद्धि बतायी गयी है। 'वाच्' शब्दसे “ग्मिनि'",
+          "translation": "Denominatives \"putriyati\" (acts like a son), \"putrakamyati\" (desires a son), \"patapatayate\"; causative \"ghatayati\"; desiderative-causative \"bubhushayati\", and \"rupaka\" (verb formations).",
+          "translationSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "भवेद्भवेताञ्च लिङि भवेयुश् च भवेः परे । भवेतञ्च भवेतैवं भवेयञ्च भवेव च भवेम च",
           "transliteration": "bhavedbhavetāñca liṅi bhaveyuś ca bhaveḥ pare / bhavetañca bhavetaivaṃ bhaveyañca bhaveva ca bhavema ca",
-          "hindi": "“वाचालः'-ये रूप बनते हैं। उसीसे 'आटच्' प्रत्यय होनेपर “वाचाटः' रूप बनता है। 'फल' तथा ' बई शब्दोंसे 'इनच्' प्रत्यय होनेपर क्रमशः “फलिनः ', ' बर्हिणः '—ये रूप बनते हैं। 'वृन्द'"
+          "hindi": "“वाचालः'-ये रूप बनते हैं। उसीसे 'आटच्' प्रत्यय होनेपर “वाचाटः' रूप बनता है। 'फल' तथा ' बई शब्दोंसे 'इनच्' प्रत्यय होनेपर क्रमशः “फलिनः ', ' बर्हिणः '—ये रूप बनते हैं। 'वृन्द'",
+          "translation": "Optative forms of bhu: \"bhavet, bhavetam, bhaveyuh, bhaveh, bhavetam, bhaveta, bhaveyam, bhaveva, bhavema\" (optative conjugation).",
+          "translationSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "एधेत एधेयातामेधेरन् मनसा श्रिया । एधेथाश् च एधेयाथामेधेध्वमेधेय एधेवहि एधेमहि",
           "transliteration": "edheta edheyātāmedheran manasā śriyā / edhethāś ca edheyāthāmedhedhvamedheya edhevahi edhemahi",
-          "hindi": "शब्दसे ' आरकन्' प्रत्यय होनेपर ' वृन्दारकः '-- इस पदको सिद्धि होती है“ “शीतं न सहते', “हिमं न सहते'--इस विग्रहमें 'शीत' तथा 'हिम' शब्दोंसे 'आलुच्' प्रत्यय"
+          "hindi": "शब्दसे ' आरकन्' प्रत्यय होनेपर ' वृन्दारकः '-- इस पदको सिद्धि होती है“ “शीतं न सहते', “हिमं न सहते'--इस विग्रहमें 'शीत' तथा 'हिम' शब्दोंसे 'आलुच्' प्रत्यय",
+          "translation": "Optative middle of edh: \"edheta, edheyatam, edheran, edhetha, edheyatham, edhedhvam, edheya, edhevahi, edhemahi\" (\"prospering by mind and fortune\").",
+          "translationSource": "ai"
         },
         {
           "number": 18,
           "sanskrit": "अस्तु तावद्भवताम् लोटि भवन्तु भवताद्भव । भवतं भवत भवानि भवाव च भवाम च",
           "transliteration": "astu tāvadbhavatām loṭi bhavantu bhavatādbhava / bhavataṃ bhavata bhavāni bhavāva ca bhavāma ca",
-          "hindi": "करनेपर 'शीतालु: तथा 'हिमालु: ' रूप बनते हैं। “वात' शब्दसे “उलच्” प्रत्यय होनेपर 'वातुलः' रूप बनता है । 'अपत्य' अर्थमें 'अण्' प्रत्यय होता है । “वसिष्ठस्यापत्यं पुमान् वासिष्ठः।', ' कुरोरपत्यं"
+          "hindi": "करनेपर 'शीतालु: तथा 'हिमालु: ' रूप बनते हैं। “वात' शब्दसे “उलच्” प्रत्यय होनेपर 'वातुलः' रूप बनता है । 'अपत्य' अर्थमें 'अण्' प्रत्यय होता है । “वसिष्ठस्यापत्यं पुमान् वासिष्ठः।', ' कुरोरपत्यं",
+          "translation": "Imperative of bhu: \"astu\", \"bhavantu\", \"bhavatat\", \"bhava\", \"bhavatam\", \"bhavata\", \"bhavani\", \"bhavava\", \"bhavama\" (imperative conjugation).",
+          "translationSource": "ai"
         },
         {
           "number": 19,
           "sanskrit": "एधतामेधेतामेधन्तामेधै पचावहै पचामहै । अभ्यनन्ददपचतामचन्नपचस् तथा",
           "transliteration": "edhatāmedhetāmedhantāmedhai pacāvahai pacāmahai / abhyanandadapacatāmacannapacas tathā",
-          "hindi": "पुमान् कौरबः।' (वसिष्ठको संतान 'वासिष्ठ' कहलाती है तथा कुरुकी संतति “कौरव')-वहाँ उसका निवास है '--इस अर्थमें सप्तम्यन्त 'समर्थ' शब्दसे “अण्' प्रत्यय होता है । यथा ' मथुरायां वासोऽस्येति माथुरः।' (मथुरामे निवास है इसका, इसलिये यह “माथुर” है।) “सोऽस्य वासः ।'--वह इसका वासस्थान है, इस अर्थमें भी प्रथमान्त 'समर्थसे ' “अण्' प्रत्यय होता है। ' उसको जानता और उसे"
+          "hindi": "पुमान् कौरबः।' (वसिष्ठको संतान 'वासिष्ठ' कहलाती है तथा कुरुकी संतति “कौरव')-वहाँ उसका निवास है '--इस अर्थमें सप्तम्यन्त 'समर्थ' शब्दसे “अण्' प्रत्यय होता है । यथा ' मथुरायां वासोऽस्येति माथुरः।' (मथुरामे निवास है इसका, इसलिये यह “माथुर” है।) “सोऽस्य वासः ।'--वह इसका वासस्थान है, इस अर्थमें भी प्रथमान्त 'समर्थसे ' “अण्' प्रत्यय होता है। ' उसको जानता और उसे",
+          "translation": "Imperative middle: \"edhatam, edhetam, edhantam, edhai, pacavahai, pacamahai\"; imperfect forms \"abhyanandat\", \"apacatam\", \"apacan\", \"apacah\" (verb forms).",
+          "translationSource": "ai"
         },
         {
           "number": 20,
           "sanskrit": "अभवतमभवतापचमपचावापचाम च । ऐधतैर्धेतामैधध्वं ऐधे चैधामहीरितं(?)",
           "transliteration": "abhavatamabhavatāpacamapacāvāpacāma ca / aidhatairdhetāmaidhadhvaṃ aidhe caidhāmahīritaṃ(?)",
-          "hindi": "पढ़ता है '--इस अर्थमें द्वितीयान्त “समर्थ' पदसे ' अण्' प्रत्यय होता है। 'चान्द्रं व्याकरणमधीते"
+          "hindi": "पढ़ता है '--इस अर्थमें द्वितीयान्त “समर्थ' पदसे ' अण्' प्रत्यय होता है। 'चान्द्रं व्याकरणमधीते",
+          "translation": "Imperfect forms: \"abhavatam, abhavata, apacam, apacava, apacama\"; middle \"aidhata, aidhetam, aidhadhvam, aidhe, aidhamahi\" (imperfect conjugation).",
+          "translationSource": "ai"
         },
         {
           "number": 21,
           "sanskrit": "अभूदभूतामभूवनभूश्चाभूवमेव लुङ् । ऐधिष्टैधिसातां नरावैधिष्ठा एइधिषीदृशं",
           "transliteration": "abhūdabhūtāmabhūvanabhūścābhūvameva luṅ / aidhiṣṭaidhisātāṃ narāvaidhiṣṭhā eidhiṣīdṛśaṃ",
-          "hindi": "स्वार्थे कप्रत्ययः )। क्रमादि’ शब्दोंसे 'वुन्' प्रत्यय होता है (बु'के स्थानमें 'अक' आदेश होता है।) “क्रम वेत्ति इति क्रमकः '--जो क्रमपाठको जानता है, वह 'क्रमक' है। इसी तरह “पदक: ', 'शिक्षकः', “मीमांसकः ' इत्यादि पद बनते हैं। “कोशम् अधीते वेद वा।'--जो कोशको जानता या पढ़ता है, वह “कौशक' है"
+          "hindi": "स्वार्थे कप्रत्ययः )। क्रमादि’ शब्दोंसे 'वुन्' प्रत्यय होता है (बु'के स्थानमें 'अक' आदेश होता है।) “क्रम वेत्ति इति क्रमकः '--जो क्रमपाठको जानता है, वह 'क्रमक' है। इसी तरह “पदक: ', 'शिक्षकः', “मीमांसकः ' इत्यादि पद बनते हैं। “कोशम् अधीते वेद वा।'--जो कोशको जानता या पढ़ता है, वह “कौशक' है",
+          "translation": "Aorist (lun): \"abhut, abhutam, abhuvan, abhuh, abhuvam\"; middle \"aidhishta, aidhishatam, aidhishthah, aidhishi\" and so on (aorist forms).",
+          "translationSource": "ai"
         },
         {
           "number": 22,
           "sanskrit": "लिटि बभूव बभूवतुः बभूवुश् च बव्हूविथ । बभूवथुर्वभूव च बभूविव बभूविम",
           "transliteration": "liṭi babhūva babhūvatuḥ babhūvuś ca bavhūvitha / babhūvathurvabhūva ca babhūviva babhūvima",
-          "hindi": "१-२. “हिरण्यवः ' का अर्थ “हिरण्यवान्' (सुवर्ण-सम्पत्तिसे युक्त) तथा मणिवः ' शब्द मणिधारी' (मनियारा) सर्प या नागके"
+          "hindi": "१-२. “हिरण्यवः ' का अर्थ “हिरण्यवान्' (सुवर्ण-सम्पत्तिसे युक्त) तथा मणिवः ' शब्द मणिधारी' (मनियारा) सर्प या नागके",
+          "translation": "Perfect (lit): \"babhuva, babhuvatuh, babhuvuh, babhuvitha, babhuvathuh, babhuva, babhuviva, babhuvima\" (perfect conjugation of bhu).",
+          "translationSource": "ai"
         },
         {
           "number": 23,
           "sanskrit": "पेचे पेचाते पेचिरे त्वमेधाञ्चकृषे तथा । एधाञ्चक्राथे पेचिध्वे पेचे पेचिमहे तथा",
           "transliteration": "pece pecāte pecire tvamedhāñcakṛṣe tathā / edhāñcakrāthe pecidhve pece pecimahe tathā",
-          "hindi": "लिये प्रयुक्त होता है। ३. 'रजः कृष्यासुतिपरिषदो वलच्' (५। २। ११२)-इस सूत्रसे 'वलच्' प्रत्यय होनेपर क्रमशः 'रजस्वल', 'कृषीवल', ' आसुतीवल' तथा 'परिषद्वल' शब्द सिद्ध होते हैं। इनके अर्थ क्रमशः इस प्रकार हैं-धूलसे भरा, किसान, जुआरी तथा परिषत्-"
+          "hindi": "लिये प्रयुक्त होता है। ३. 'रजः कृष्यासुतिपरिषदो वलच्' (५। २। ११२)-इस सूत्रसे 'वलच्' प्रत्यय होनेपर क्रमशः 'रजस्वल', 'कृषीवल', ' आसुतीवल' तथा 'परिषद्वल' शब्द सिद्ध होते हैं। इनके अर्थ क्रमशः इस प्रकार हैं-धूलसे भरा, किसान, जुआरी तथा परिषत्-",
+          "translation": "Perfect middle of pac and edh: \"pece, pecate, pecire\", \"edhamchakrishe\", \"edhamchakrathe\", \"pecidhve\", \"pece\", \"pecimahe\" (perfect forms).",
+          "translationSource": "ai"
         },
         {
           "number": 24,
           "sanskrit": "लुटि भविता भवितारौ भवितारो हरादयः । भवितासि भवितास्थो भवितास्मस् तथा वयं",
           "transliteration": "luṭi bhavitā bhavitārau bhavitāro harādayaḥ / bhavitāsi bhavitāstho bhavitāsmas tathā vayaṃ",
-          "hindi": "सभा या समूहसे युक्त।"
+          "hindi": "सभा या समूहसे युक्त।",
+          "translation": "Periphrastic future (lut): \"bhavita, bhavitarau, bhavitarah — Hara and the others\"; \"bhavitasi, bhavitastha, bhavitasmah — and we ourselves\" (future conjugation).",
+          "translationSource": "ai"
         },
         {
           "number": 25,
           "sanskrit": "पक्ता पक्तारौ पक्तारः पक्तासे त्वं शुभौदनं । पक्ताध्वे पक्ताहे चाहं पक्तास्महे हरेश् चरुं",
           "transliteration": "paktā paktārau paktāraḥ paktāse tvaṃ śubhaudanaṃ / paktādhve paktāhe cāhaṃ paktāsmahe hareś caruṃ",
-          "hindi": "४. अत इनिठनौ' (५। २। ११५)--इस सूत्रसे 'इनि' प्रत्यय होनेपर 'धनी' तथा ' ठन्' प्रत्यय होनेपर ' धनिकः? रूप बनते हैं। इसी प्रकार करी, करिकः, हस्ती, हस्तिकः-ये रूप बनते हैं। ' धनी' का अर्थ है-धनवान् तथा 'करी' और 'हस्ती' का अर्थ है--हाथी। 'पयस्वी' का अर्थ है-दूधवाला तथा 'मायावी' का अर्थ है-माया फैलानेवाला। ' विनि' प्रत्ययका विधायक सूत्र है—' अस्मायामेधास्रजो विनिः।' (५। २। १२१) । ' ऊर्णाया युस्।' (५। २। १२३)--इस सूत्रसे ' युस्' प्रत्ययका विधान हुआ। ' ऊर्णायुः '"
+          "hindi": "४. अत इनिठनौ' (५। २। ११५)--इस सूत्रसे 'इनि' प्रत्यय होनेपर 'धनी' तथा ' ठन्' प्रत्यय होनेपर ' धनिकः? रूप बनते हैं। इसी प्रकार करी, करिकः, हस्ती, हस्तिकः-ये रूप बनते हैं। ' धनी' का अर्थ है-धनवान् तथा 'करी' और 'हस्ती' का अर्थ है--हाथी। 'पयस्वी' का अर्थ है-दूधवाला तथा 'मायावी' का अर्थ है-माया फैलानेवाला। ' विनि' प्रत्ययका विधायक सूत्र है—' अस्मायामेधास्रजो विनिः।' (५। २। १२१) । ' ऊर्णाया युस्।' (५। २। १२३)--इस सूत्रसे ' युस्' प्रत्ययका विधान हुआ। ' ऊर्णायुः '",
+          "translation": "\"Pakta, paktarau, paktarah\"; \"paktase — you, the auspicious rice\"; \"paktadhve, paktahe — I\"; \"paktasmahe — we, Hari's offering of cooked rice\" (future of pac).",
+          "translationSource": "ai"
         },
         {
           "number": 26,
           "sanskrit": "लिङाशिषि सुखं भूयात् भूयास्तां हरिशङ्करौ । भूयासुस्ते च भूयास्त्वं युवां भूयास्तमीश्वरौ",
           "transliteration": "liṅāśiṣi sukhaṃ bhūyāt bhūyāstāṃ hariśaṅkarau / bhūyāsuste ca bhūyāstvaṃ yuvāṃ bhūyāstamīśvarau",
-          "hindi": "५. 'वाचोग्मिनिः।' (५। २। १२४) -इस सूत्रसे ' ग्मिनि' प्रत्यय होता है। “आलजाटचौ बहुभाषिणि।' “कुत्सित इति वक्तव्यम्! इन वार्तिकोंद्वारा 'आलच्' और ' आटच्' प्रत्यय होते हैं। अच्छी बातको बहुत बोलनेवाला “वाग्मी कहलाता है और कुत्सित बातको अधिक बोलनेवाला 'वाचाल' और 'वाचाट' कहलाता है। 'फलबर्हाभ्यामिनच्।' इस वार्तिकसे 'इनच्' और ' शृङ्गवृन्दाभ्याम् आरकन्।' इस वार्तिकसे ' आरकन्' प्रत्यय होनेपर \"फलिनः ' (फलवान्), ' बर्हिणः ' (मोर) तथा ' वृन्दारकः ' (देवता) ये प्रयोग सिद्ध होते हैं ।"
+          "hindi": "५. 'वाचोग्मिनिः।' (५। २। १२४) -इस सूत्रसे ' ग्मिनि' प्रत्यय होता है। “आलजाटचौ बहुभाषिणि।' “कुत्सित इति वक्तव्यम्! इन वार्तिकोंद्वारा 'आलच्' और ' आटच्' प्रत्यय होते हैं। अच्छी बातको बहुत बोलनेवाला “वाग्मी कहलाता है और कुत्सित बातको अधिक बोलनेवाला 'वाचाल' और 'वाचाट' कहलाता है। 'फलबर्हाभ्यामिनच्।' इस वार्तिकसे 'इनच्' और ' शृङ्गवृन्दाभ्याम् आरकन्।' इस वार्तिकसे ' आरकन्' प्रत्यय होनेपर \"फलिनः ' (फलवान्), ' बर्हिणः ' (मोर) तथा ' वृन्दारकः ' (देवता) ये प्रयोग सिद्ध होते हैं ।",
+          "translation": "Benedictive (ashirlin): \"May there be happiness: bhuyat; bhuyastam — Hari and Shankara; bhuyasuh; bhuyah; bhuyastam — you two Lords\" (blessing forms).",
+          "translationSource": "ai"
         },
         {
           "number": 27,
           "sanskrit": "भूयास्त यूयं भूयासमहं भूयास्म सर्वदा । यक्षीष्ट ह्य् एधिषीयास्तां यक्षीरन्नेधिसीय च",
           "transliteration": "bhūyāsta yūyaṃ bhūyāsamahaṃ bhūyāsma sarvadā / yakṣīṣṭa hy edhiṣīyāstāṃ yakṣīrannedhisīya ca",
-          "hindi": "२। १)-इस सूत्रके अनुसार धान्योंकी उत्पत्तिके आधारभूत क्षेत्रके अर्थमें षष्ठ्यन्त समर्थ धान्य- वाचक शब्दसे 'खञ्' प्रत्यय होता है। (स्कन्दने कात्यायनको जिसका उपदेश किया, उस कौमार- व्याकरणमें भी यह नियम देखा जाता है।) इसके"
+          "hindi": "२। १)-इस सूत्रके अनुसार धान्योंकी उत्पत्तिके आधारभूत क्षेत्रके अर्थमें षष्ठ्यन्त समर्थ धान्य- वाचक शब्दसे 'खञ्' प्रत्यय होता है। (स्कन्दने कात्यायनको जिसका उपदेश किया, उस कौमार- व्याकरणमें भी यह नियम देखा जाता है।) इसके",
+          "translation": "\"Bhuyasta, bhuyasta yuyam, bhuyasam aham, bhuyasma — always\"; \"yakshishta\", \"edhishiyastam\", \"yakshiran\", \"edhishiya\" (benedictive forms).",
+          "translationSource": "ai"
         },
         {
           "number": 28,
           "sanskrit": "यक्षीवह्येधिसीमहि लिङि चायक्ष्यतेति ऌङ् । अयक्ष्येतामयक्ष्यन्तायक्ष्ये ऽयक्ष्येथां युवां",
           "transliteration": "yakṣīvahyedhisīmahi liṅi cāyakṣyateti ḷṅ / ayakṣyetāmayakṣyantāyakṣye 'yakṣyethāṃ yuvāṃ",
-          "hindi": "( कँगनी )की उत्पत्तिके आधारभूत क्षेत्रका बोध करानेके लिये 'खज्' प्रत्यय होनेपर (ख' के"
+          "hindi": "( कँगनी )की उत्पत्तिके आधारभूत क्षेत्रका बोध करानेके लिये 'खज्' प्रत्यय होनेपर (ख' के",
+          "translation": "\"Yakshivahi, edhishimahi\"; the conditional (lrin): \"ayakshyata, ayakshyetam, ayakshyanta, ayakshye, ayakshyetham — you two\" (conditional forms).",
+          "translationSource": "ai"
         },
         {
           "number": 29,
           "sanskrit": "अयक्ष्यध्वमैधिष्यावह्यैधिष्यामह्यरेर्वयम् । ऌटि स्याद्भविष्यतीति एधिष्यामह ईदृशम्",
           "transliteration": "ayakṣyadhvamaidhiṣyāvahyaidhiṣyāmahyarervayam / ḷṭi syādbhaviṣyatīti edhiṣyāmaha īdṛśam",
-          "hindi": "यह पद बनता है। इसका अर्थ है--'प्रियंगु ( कँगनी ) की उपज देनेवाला खेत'। इसी तरह मूँग, कोदो आदिकी उत्पत्तिके उपयुक्त खेतको “मौद्रीन' तथा 'कौद्रबीण' कहते हैं। यहाँ 'मुद्ग' शब्दसे 'खञ्' होनेपर “मौद्वीन' शब्द और 'कोद्रव' शब्दसे 'खज्' होनेपर 'कौद्रवीण ' शब्दकी सिद्धि होती है। 'विदेहस्यापत्यम्' (विदेहका पुत्र)-इस अर्थमें 'विदेह' शब्दसे"
+          "hindi": "यह पद बनता है। इसका अर्थ है--'प्रियंगु ( कँगनी ) की उपज देनेवाला खेत'। इसी तरह मूँग, कोदो आदिकी उत्पत्तिके उपयुक्त खेतको “मौद्रीन' तथा 'कौद्रबीण' कहते हैं। यहाँ 'मुद्ग' शब्दसे 'खञ्' होनेपर “मौद्वीन' शब्द और 'कोद्रव' शब्दसे 'खज्' होनेपर 'कौद्रवीण ' शब्दकी सिद्धि होती है। 'विदेहस्यापत्यम्' (विदेहका पुत्र)-इस अर्थमें 'विदेह' शब्दसे",
+          "translation": "\"Ayakshyadhvam, aidhishyavahi, aidhishyamahi\"; the simple future (lrit): \"syat, bhavishyati, edhishyamahe\" and similar (future forms).",
+          "translationSource": "ai"
         },
         {
           "number": 30,
           "sanskrit": "एवं विभावयिष्यन्ति बोभविष्यति रूपकं । घटयेत् पटयेत्तद्वत् पुत्रीयति च काम्यति",
           "transliteration": "evaṃ vibhāvayiṣyanti bobhaviṣyati rūpakaṃ / ghaṭayet paṭayettadvat putrīyati ca kāmyati",
-          "hindi": "'अण्' प्रत्यय होनेपर 'बैदेहः' पदको सिद्धि होती है। (इन सबमें आदि स्वरकी वृद्धि होती है।) अकारान्त शब्दसे ' अपत्य' अर्थमें ' अण्'का बाधक 'इ' प्रत्यय होता है। आदि स्वरको वृद्धि"
+          "hindi": "'अण्' प्रत्यय होनेपर 'बैदेहः' पदको सिद्धि होती है। (इन सबमें आदि स्वरकी वृद्धि होती है।) अकारान्त शब्दसे ' अपत्य' अर्थमें ' अण्'का बाधक 'इ' प्रत्यय होता है। आदि स्वरको वृद्धि",
+          "translation": "So too \"vibhavayishyanti\", \"bobhavishyati\" (intensive); \"ghatayet\", \"patayet\"; likewise \"putriyati\" and \"kamyati\" (further verbal formations).",
+          "translationSource": "ai"
         }
       ]
     },
@@ -82485,37 +82521,49 @@
           "number": 3,
           "sanskrit": "क्तिनि वृद्धिस्तुतिमती घञि भावो ऽथ युच्यपि । कारणा भावनेत्यादि अकारे च चिकित्सया",
           "transliteration": "ktini vṛddhistutimatī ghañi bhāvo 'tha yucyapi / kāraṇā bhāvanetyādi akāre ca cikitsayā",
-          "hindi": "प्रत्यय होता है। (“गोत्रे कुञ्जादिभ्यः फञ्।' ४। १। ९८) यह भी फज्-विधायक सूत्र है। ब्रघ्न, शङ्ख, शकट आदि शब्द कुञ्जादिके अन्तर्गत हैं,"
+          "hindi": "प्रत्यय होता है। (“गोत्रे कुञ्जादिभ्यः फञ्।' ४। १। ९८) यह भी फज्-विधायक सूत्र है। ब्रघ्न, शङ्ख, शकट आदि शब्द कुञ्जादिके अन्तर्गत हैं,",
+          "translation": "With the suffix ktin: \"vriddhi\", \"stuti\", \"mati\"; with ghan: \"bhava\"; with yuc: \"karana\", \"bhavana\" and the like; with a: \"chikitsa\" (formation of action nouns).",
+          "translationSource": "ai"
         },
         {
           "number": 4,
           "sanskrit": "तथा तव्यो ह्य् अनीयश् च कर्तव्यं कर्णीयकम् । देयं ध्येयञ्चैव यति ण्यति कार्यञ्च कृत्यकाः",
           "transliteration": "tathā tavyo hy anīyaś ca kartavyaṃ karṇīyakam / deyaṃ dhyeyañcaiva yati ṇyati kāryañca kṛtyakāḥ",
-          "hindi": "सिद्ध होते हैं।) ' गर्गादिभ्यो यञ्’ (४"
+          "hindi": "सिद्ध होते हैं।) ' गर्गादिभ्यो यञ्’ (४",
+          "translation": "Likewise the gerundives in tavya and aniya: \"kartavya\", \"karaniya\"; \"deya\", \"dhyeya\"; with yat and nyat: \"karya\", \"kritya\" (verbal derivatives).",
+          "translationSource": "ai"
         },
         {
           "number": 5,
           "sanskrit": "कर्तरि क्तादयो ज्ञेया भावे कर्मणि च क्वचित् । गतो ग्रामं गतो ग्राम आश्लिष्टश् च गुरुस्त्वया",
           "transliteration": "kartari ktādayo jñeyā bhāve karmaṇi ca kvacit / gato grāmaṃ gato grāma āśliṣṭaś ca gurustvayā",
-          "hindi": "१०५)-इस सूत्रके अनुसार गर्ग, वत्स आदि शब्दोंसे गोत्रापत्यार्थक “यञ्' प्रत्यय होनेपर 'गार्ग्यः', 'वात्स्यः' इत्यादि रूप बनते हैं। ‘स्त्रीभ्यो ढक्।' (४। १। १२०) के नियमानुसार ्त्रीप्रत्ययान्त शब्दोंसे 'अपत्य' अर्थमें 'ढक्' प्रत्यय होता है। फिर उसके स्थानमें 'एय' होता है। जैसे 'विनतायाः पुत्रः? (विनताका पुत्र) 'बैनतेय' कहलाता है। 'सुमित्रा' आदि शब्द"
+          "hindi": "१०५)-इस सूत्रके अनुसार गर्ग, वत्स आदि शब्दोंसे गोत्रापत्यार्थक “यञ्' प्रत्यय होनेपर 'गार्ग्यः', 'वात्स्यः' इत्यादि रूप बनते हैं। ‘स्त्रीभ्यो ढक्।' (४। १। १२०) के नियमानुसार ्त्रीप्रत्ययान्त शब्दोंसे 'अपत्य' अर्थमें 'ढक्' प्रत्यय होता है। फिर उसके स्थानमें 'एय' होता है। जैसे 'विनतायाः पुत्रः? (विनताका पुत्र) 'बैनतेय' कहलाता है। 'सुमित्रा' आदि शब्द",
+          "translation": "Ktadi suffixes (past participles) are known to denote the agent, and sometimes the action or object: \"gato gramam\" (gone to the village), \"gato gramah\", \"alishtash cha gurus tvaya\" (the teacher embraced by you).",
+          "translationSource": "ai"
         },
         {
           "number": 6,
           "sanskrit": "शतृङ् शानचौ भवन् एधमानो भवन्त्यपि । वुण् तृचौ सर्वधातुभ्यो भावको भविता पथा",
           "transliteration": "śatṛṅ śānacau bhavan edhamāno bhavantyapi / vuṇ tṛcau sarvadhātubhyo bhāvako bhavitā pathā",
-          "hindi": "बाह्वादिगणमें पठित हैं, अतः उनसे अपत्यार्थमें “इज्? प्रत्यय होता है। अतएव 'सौमित्रेयः' न होकर 'सौमित्रिः? रूप बनता है। 'चटका' शब्दसे 'चटकाया ऐरक्।' (४। १। १२८) इस"
+          "hindi": "बाह्वादिगणमें पठित हैं, अतः उनसे अपत्यार्थमें “इज्? प्रत्यय होता है। अतएव 'सौमित्रेयः' न होकर 'सौमित्रिः? रूप बनता है। 'चटका' शब्दसे 'चटकाया ऐरक्।' (४। १। १२८) इस",
+          "translation": "Present participles shatri and shanach: \"bhavan\" (being), \"edhamanah\"; \"bhavantyapi\"; the suffixes vun and trich added to all roots: \"bhavaka\" (one who causes to be), \"bhavita\" (one who will be).",
+          "translationSource": "ai"
         },
         {
           "number": 7,
           "sanskrit": "क्विबन्तश् च स्वयम्भूश् च भूते लिटः क्वन्सु कान च । बभूविवान् पेचिवांश् च पेचानः श्रद्दधानकः",
           "transliteration": "kvibantaś ca svayambhūś ca bhūte liṭaḥ kvansu kāna ca / babhūvivān pecivāṃś ca pecānaḥ śraddadhānakaḥ",
-          "hindi": "सूत्रके विधानानुसार 'ऐरक्' प्रत्यय होनेपर \"चटकाया अपत्यं पुमान्’ (चटकाका नर पुत्र) “चाटकैर' कहलाता है। 'गोधा' शब्दसे 'ढूकू' का विधान है। 'गोधाया ढूक्।' (४। १। १२९) अतः गोधाका अपत्य 'गोधेर' कहलाता है। 'आरगुदीचाम्।' (४। १। १३०) के नियमानुसार 'आरक्' प्रत्यय होनेपर 'गौधारः' रूप बनता है। ऐसा वैयाकरणोंने बताया है"
+          "hindi": "सूत्रके विधानानुसार 'ऐरक्' प्रत्यय होनेपर \"चटकाया अपत्यं पुमान्’ (चटकाका नर पुत्र) “चाटकैर' कहलाता है। 'गोधा' शब्दसे 'ढूकू' का विधान है। 'गोधाया ढूक्।' (४। १। १२९) अतः गोधाका अपत्य 'गोधेर' कहलाता है। 'आरगुदीचाम्।' (४। १। १३०) के नियमानुसार 'आरक्' प्रत्यय होनेपर 'गौधारः' रूप बनता है। ऐसा वैयाकरणोंने बताया है",
+          "translation": "Forms ending in kvip, such as \"svayambhu\"; the perfect participles in kvasu and kana: \"babhuvivan\", \"pecivan\", \"pecanah\", \"shraddadhanaka\" (perfect participles).",
+          "translationSource": "ai"
         },
         {
           "number": 8,
           "sanskrit": "अणि स्युः कुम्भकाराद्या भूतेप्युणादयः स्मृताः । वायुः पायुश् च कारुः स्याद्वहुलं छन्दसीरितं",
           "transliteration": "aṇi syuḥ kumbhakārādyā bhūtepyuṇādayaḥ smṛtāḥ / vāyuḥ pāyuś ca kāruḥ syādvahulaṃ chandasīritaṃ",
-          "hindi": "'क्षत्र' शब्दसे 'घ' प्रत्यय होनेपर 'घ' के स्थानमें 'इय' होनेके कारण 'क्षत्रिय' शब्द सिद्ध होता है। 'क्षत्राद् घः।' (४। १। १३८)"
+          "hindi": "'क्षत्र' शब्दसे 'घ' प्रत्यय होनेपर 'घ' के स्थानमें 'इय' होनेके कारण 'क्षत्रिय' शब्द सिद्ध होता है। 'क्षत्राद् घः।' (४। १। १३८)",
+          "translation": "With the suffix an: \"kumbhakara\" (potter) and the like; with the Unadi suffixes also in the past sense: \"vayu\", \"payu\", \"karu\" — and in the Veda the usage is varied (Unadi derivations).",
+          "translationSource": "ai"
         }
       ]
     },
@@ -82704,283 +82752,377 @@
           "number": 23,
           "sanskrit": "तडित्सौदामिनी विद्युच्चञ्चला चपलापि च । स्फुर्जथुर्वज्रनिष्पेषो वृष्टिघातस्त्ववग्रहः",
           "transliteration": "taḍitsaudāminī vidyuccañcalā capalāpi ca / sphurjathurvajraniṣpeṣo vṛṣṭighātastvavagrahaḥ",
-          "hindi": "यह रूप बनता है। 'द्वारं रक्षति, द्वारे नियुक्तो वा दौवारिकः '--जो द्वारको रक्षा करता है, अथवा द्वारपर रक्षाके लिये नियुक्त है, वह “दौवारिक ' है। 'रक्षति।' (पा० सू० ४। ४। ३३) अथवा “तत्र नियुक्तः।' (पा०सू० ४। ४। ६९) सूत्रसे यहाँ 'ठक्' प्रत्यय हुआ है। 'ठ' के स्थानमें 'इक' आदेश हो जाता है तथा 'द्वारादीनां च।' (७। ३। ४)--इस सूत्रसे ऐच्' का आगम होता"
+          "hindi": "यह रूप बनता है। 'द्वारं रक्षति, द्वारे नियुक्तो वा दौवारिकः '--जो द्वारको रक्षा करता है, अथवा द्वारपर रक्षाके लिये नियुक्त है, वह “दौवारिक ' है। 'रक्षति।' (पा० सू० ४। ४। ३३) अथवा “तत्र नियुक्तः।' (पा०सू० ४। ४। ६९) सूत्रसे यहाँ 'ठक्' प्रत्यय हुआ है। 'ठ' के स्थानमें 'इक' आदेश हो जाता है तथा 'द्वारादीनां च।' (७। ३। ४)--इस सूत्रसे ऐच्' का आगम होता",
+          "translation": "Lightning: \"tadit, saudamini, vidyut, chanchala, chapala\"; \"sphurjathu\" is the thunder-crash, \"vajranishpesha\" the thunderbolt; \"vrishtighata\" is a break in the rain, \"avagraha\" a drought.",
+          "translationSource": "ai"
         },
         {
           "number": 24,
           "sanskrit": "धारा सम्पात आशारः शीकरो ऽम्बुकणाः स्मृताः । वर्षोपलस्तु करका मेघछन्ने ऽह्नि दुर्दिनं",
           "transliteration": "dhārā sampāta āśāraḥ śīkaro 'mbukaṇāḥ smṛtāḥ / varṣopalastu karakā meghachanne 'hni durdinaṃ",
-          "hindi": "है। फिर विभक्तिकार्य होनेपर “दौबारिकः' इस पदकी सिद्धि होती है। इस प्रकार 'ठकू' प्रत्यय होनेपर 'दौवारिक' शब्दकी सिद्धि बतायी गयी है। यहाँतक “तद्धितकी सामान्यवृत्ति' कही गयी।"
+          "hindi": "है। फिर विभक्तिकार्य होनेपर “दौबारिकः' इस पदकी सिद्धि होती है। इस प्रकार 'ठकू' प्रत्यय होनेपर 'दौवारिक' शब्दकी सिद्धि बतायी गयी है। यहाँतक “तद्धितकी सामान्यवृत्ति' कही गयी।",
+          "translation": "\"Dhara\" (downpour), \"sampata\", \"ashara\" (heavy shower), \"shikara\" and \"ambukana\" (spray, drops of water); \"varshopala\" is hail; \"durdina\" is a day clouded over by rain.",
+          "translationSource": "ai"
         },
         {
           "number": 25,
           "sanskrit": "अन्तर्धा व्यवधा पुंसि त्वन्तर्धिरपवारणं । अपिधानतिरोधानपिधानच्छदनानि च",
           "transliteration": "antardhā vyavadhā puṃsi tvantardhirapavāraṇaṃ / apidhānatirodhānapidhānacchadanāni ca",
-          "hindi": "अब 'अव्ययसंज्ञक तद्धित'का निरूपण किया जाता है “यस्मादिति यतः', 'तस्मादिति ततः'-यहाँ “पञ्चम्यास्तसिल्।' (५। ३। ७) सूत्रके अनुसार “तसिल्' प्रत्यय होता है। इकार और लकारको इत्संज्ञा होकर उनका लोप हो जाता है। “तसिल्'"
+          "hindi": "अब 'अव्ययसंज्ञक तद्धित'का निरूपण किया जाता है “यस्मादिति यतः', 'तस्मादिति ततः'-यहाँ “पञ्चम्यास्तसिल्।' (५। ३। ७) सूत्रके अनुसार “तसिल्' प्रत्यय होता है। इकार और लकारको इत्संज्ञा होकर उनका लोप हो जाता है। “तसिल्'",
+          "translation": "\"Antardha\", \"vyavadha\" (masculine); \"antardhi\", \"apavarana\" (concealment); \"apidhana\", \"tirodhana\", \"pidhana\", \"chhadana\" (covering).",
+          "translationSource": "ai"
         },
         {
           "number": 26,
           "sanskrit": "अब्जो जैवातृकः सोमो ग्लौर्मृगाङ्कः कलानिधिः । विधुः कुमुदवन्धुश् च विम्बो ऽस्त्री मण्डलं त्रिषु",
           "transliteration": "abjo jaivātṛkaḥ somo glaurmṛgāṅkaḥ kalānidhiḥ / vidhuḥ kumudavandhuś ca vimbo 'strī maṇḍalaṃ triṣu",
-          "hindi": "प्रत्यय विभक्तिसंज्ञक होनेके कारण 'त्यदादीनामः।' (७। २। १०२) के नियमानुसार अकारान्तादेश हो जाता है। अतः, 'यत्' की जगह “य' और तत् की जगह “त' होनेसे “यतः', “ततः '—ये रूप"
+          "hindi": "प्रत्यय विभक्तिसंज्ञक होनेके कारण 'त्यदादीनामः।' (७। २। १०२) के नियमानुसार अकारान्तादेश हो जाता है। अतः, 'यत्' की जगह “य' और तत् की जगह “त' होनेसे “यतः', “ततः '—ये रूप",
+          "translation": "Moon: \"abja, jaivatrika, soma, glau, mriganka, kalanidhi, vidhu, kumudabandhu\"; \"bimba\" (disc, neuter), \"mandala\" (circle, in all genders).",
+          "translationSource": "ai"
         },
         {
           "number": 27,
           "sanskrit": "कला तु षोड्शो भागो भित्तं शकलखण्डके । चन्द्रिका कौमुदी ज्योत्स्ना प्रसादस्तु प्रसन्नता",
           "transliteration": "kalā tu ṣoḍśo bhāgo bhittaṃ śakalakhaṇḍake / candrikā kaumudī jyotsnā prasādastu prasannatā",
-          "hindi": "बनते हैं । “तसिलादयः प्राक् पाशपः।' (“तसिल्' आदिसे लेकर 'पाशप्' प्रत्ययके पूर्वतक जितने प्रत्यय विहित या अभिहित हुए हैं, उन सबको ' अव्ययसंज्ञा’ होती है)--इस परिगणनाके अनुसार हैं । “तसिल्' आदिमें 'त्रल्' प्रत्यय भी आता है। इसका विधायक पाणिनिसूत्र है —' सप्तम्यास्त्रल्।'"
+          "hindi": "बनते हैं । “तसिलादयः प्राक् पाशपः।' (“तसिल्' आदिसे लेकर 'पाशप्' प्रत्ययके पूर्वतक जितने प्रत्यय विहित या अभिहित हुए हैं, उन सबको ' अव्ययसंज्ञा’ होती है)--इस परिगणनाके अनुसार हैं । “तसिल्' आदिमें 'त्रल्' प्रत्यय भी आता है। इसका विधायक पाणिनिसूत्र है —' सप्तम्यास्त्रल्।'",
+          "translation": "\"Kala\" is the sixteenth part (of the moon); \"bhitta\", \"shakala\", \"khandaka\" are a fragment; \"chandrika, kaumudi, jyotsna\" are moonlight; \"prasada\" is clarity, serenity.",
+          "translationSource": "ai"
         },
         {
           "number": 28,
           "sanskrit": "लक्षणं लक्ष्मकं चिह्नं शोभा कान्तिर्द्युतिश्छविः । सुषमा पर्मा शोभा तुषारस्तुहिनं हिमं",
           "transliteration": "lakṣaṇaṃ lakṣmakaṃ cihnaṃ śobhā kāntirdyutiśchaviḥ / suṣamā parmā śobhā tuṣārastuhinaṃ himaṃ",
-          "hindi": "तत्र'-इस लौकिक विग्रहमें “त्रल्” प्रत्यय होनेपर “यस्मिन् त्र, “तस्मिन् त्र।' इस अवस्थामें 'कृत्तद्धितसमासाश्च' (१। २। ४६) से प्रातिपदिक"
+          "hindi": "तत्र'-इस लौकिक विग्रहमें “त्रल्” प्रत्यय होनेपर “यस्मिन् त्र, “तस्मिन् त्र।' इस अवस्थामें 'कृत्तद्धितसमासाश्च' (१। २। ४६) से प्रातिपदिक",
+          "translation": "\"Lakshana, lakshmaka, chihna\" (mark, sign); \"shobha, kanti, dyuti, chhavi\" (beauty, lustre); \"sushama, parama shobha\"; \"tushara, tuhina, hima\" (frost, snow).",
+          "translationSource": "ai"
         },
         {
           "number": 29,
           "sanskrit": "अवस्यायस्तु नीहारः प्रालेयः शिशिरो हिमः । नक्षत्रमृक्षं भन्तारा तारका प्युडु वा स्त्रियां",
           "transliteration": "avasyāyastu nīhāraḥ prāleyaḥ śiśiro himaḥ / nakṣatramṛkṣaṃ bhantārā tārakā pyuḍu vā striyāṃ",
-          "hindi": "सूत्रसे विभक्तिका लोप और “त्यदादीनामः।' (७। २। १०२) सूत्रसे अकारान्तादेश होनेपर “यत्र, तत्र'--इन पदोंकी सिद्धि बतायी गयी है। ' अस्मिन् काले '--इस लौकिक विग्रहमें 'अधुना।' (५। ३। १७) सूत्रसे 'अधुना' प्रत्यय होने ' अस्मिन् अधुना’ इस अवस्थामें विभक्तिलोप, 'इदम्' के स्थानमें 'इश्' अनुबन्धलोप तथा “यस्येति च।' (६। ४। १४८) से इकारलोप"
+          "hindi": "सूत्रसे विभक्तिका लोप और “त्यदादीनामः।' (७। २। १०२) सूत्रसे अकारान्तादेश होनेपर “यत्र, तत्र'--इन पदोंकी सिद्धि बतायी गयी है। ' अस्मिन् काले '--इस लौकिक विग्रहमें 'अधुना।' (५। ३। १७) सूत्रसे 'अधुना' प्रत्यय होने ' अस्मिन् अधुना’ इस अवस्थामें विभक्तिलोप, 'इदम्' के स्थानमें 'इश्' अनुबन्धलोप तथा “यस्येति च।' (६। ४। १४८) से इकारलोप",
+          "translation": "\"Avashyaya, nihara\" (mist); \"praleya, shishira, hima\" (dew, cold); \"nakshatra, riksha, bha, tara, taraka, udu\" (star; \"udu\" also feminine).",
+          "translationSource": "ai"
         },
         {
           "number": 30,
           "sanskrit": "गुरुर्जीव आङ्गिरस उशना भार्गवः कविः । विधुन्तुदस्तमो राहुर् लग्नं राश्युदयः स्मृतः",
           "transliteration": "gururjīva āṅgirasa uśanā bhārgavaḥ kaviḥ / vidhuntudastamo rāhur lagnaṃ rāśyudayaḥ smṛtaḥ",
-          "hindi": "होनेपर 'अधुना' की सिद्धि हुई। इसी अर्थमें “दानीम्' प्रत्यय होनेपर 'इदम्' के स्थानमें 'इ' होकर 'इदानीम्' रूप बनता है। “सर्वस्मिन् काले '--इस विग्रहमें 'सर्वैकान्यकिंयत्तदः काले"
+          "hindi": "होनेपर 'अधुना' की सिद्धि हुई। इसी अर्थमें “दानीम्' प्रत्यय होनेपर 'इदम्' के स्थानमें 'इ' होकर 'इदानीम्' रूप बनता है। “सर्वस्मिन् काले '--इस विग्रहमें 'सर्वैकान्यकिंयत्तदः काले",
+          "translation": "Jupiter: \"guru, jiva, angirasa\"; Venus: \"ushana, bhargava, kavi\"; \"vidhuntuda, tamas, rahu\" is the eclipse-planet; \"lagna\" is the rising of a zodiac sign.",
+          "translationSource": "ai"
         },
         {
           "number": 31,
           "sanskrit": "सप्तर्षयो मरीच्यत्रिमुखाश्चित्रशिखण्डिनः । हरिदश्वव्रघ्मपूषद्युमणिर्मिहिरो रविः",
           "transliteration": "saptarṣayo marīcyatrimukhāścitraśikhaṇḍinaḥ / haridaśvavraghmapūṣadyumaṇirmihiro raviḥ",
-          "hindi": "दा' (५। ३। १५)-इस सूत्रसे 'दा' प्रत्यय होनेपर 'सर्वदा' रूप बनता है । “तस्मिन् काले -- तर्हि’, 'कस्मिन् काले-कर्हि’ यहाँ “तत्' और 'किम्' शब्दोंसे 'काल' अर्थमें 'अनद्यतने हिलन्यतरस्याम्।' (५। ३। २१)--इस सूत्रसे “हिल! प्रत्यय हुआ। फिर पूर्ववत् प्रातिपदिकावयव विभक्तिका लोप होकर 'त्यदादीनामः।' (७"
+          "hindi": "दा' (५। ३। १५)-इस सूत्रसे 'दा' प्रत्यय होनेपर 'सर्वदा' रूप बनता है । “तस्मिन् काले -- तर्हि’, 'कस्मिन् काले-कर्हि’ यहाँ “तत्' और 'किम्' शब्दोंसे 'काल' अर्थमें 'अनद्यतने हिलन्यतरस्याम्।' (५। ३। २१)--इस सूत्रसे “हिल! प्रत्यय हुआ। फिर पूर्ववत् प्रातिपदिकावयव विभक्तिका लोप होकर 'त्यदादीनामः।' (७",
+          "translation": "The seven sages: Marichi, Atri, and the others; \"chitrashikhandin\" (the bright-crested ones); the sun: \"haridashva, brahma, pusha, dyumani, mihira, ravi\" (names of the sun).",
+          "translationSource": "ai"
         },
         {
           "number": 32,
           "sanskrit": "परिवेषस्तु परिधिरुपसूर्यकभण्डले । किरणो ऽस्रमयूखांशुगभस्तिघृणिधृष्णयः",
           "transliteration": "pariveṣastu paridhirupasūryakabhaṇḍale / kiraṇo 'sramayūkhāṃśugabhastighṛṇidhṛṣṇayaḥ",
-          "hindi": "१०२)--इस सूत्रसे 'तत्' के स्थानपर “त' और 'किमः कः।' (७। २। १०३) सूत्रसे 'किम्' के स्थानमै “क' होनेपर 'तर्हि' और 'कर्हि'--इन पदोंकी सिद्धि कही गयी है। 'अस्मिन्'-इस"
+          "hindi": "१०२)--इस सूत्रसे 'तत्' के स्थानपर “त' और 'किमः कः।' (७। २। १०३) सूत्रसे 'किम्' के स्थानमै “क' होनेपर 'तर्हि' और 'कर्हि'--इन पदोंकी सिद्धि कही गयी है। 'अस्मिन्'-इस",
+          "translation": "\"Parivesha\" and \"paridhi\" are the halo; \"upasuryaka\" and \"bhandala\" are other terms for it; rays: \"kirana, asramayukha, amshu, gabhasti, ghrini, dhrishni\".",
+          "translationSource": "ai"
         },
         {
           "number": 33,
           "sanskrit": "भानुः करो मरीचिः स्त्रीपुंसयोर्दीधितिः स्त्रियां । स्युः प्रभा रुग्रुचिस्त्विड्भाभाश्छविद्युतिदीप्तयः",
           "transliteration": "bhānuḥ karo marīciḥ strīpuṃsayordīdhitiḥ striyāṃ / syuḥ prabhā rugrucistviḍbhābhāśchavidyutidīptayaḥ",
-          "hindi": "विग्रहमें 'त्रल्' प्रत्ययकी प्राप्ति हुई, किंतु उसे बाधित करके “इदमो हः।' (५। ३। ११) इस सूत्रसे 'हः' प्रत्यय हो गया। फिर 'इदम्' के स्थानमें इकार होनेपर 'इह' रूपको सिद्धि “येन प्रकारेण यथा, केन प्रकारेण कथम्'- इन स्थलोंपर प्रकारवचने थाल्।' (५। ३। २३) के अनुसार ' थाल्' प्रत्यय होनेपर “यथा', ' तथा' आदि रूप होते हैं। 'किम्' शब्दसे “किमश्च।'"
+          "hindi": "विग्रहमें 'त्रल्' प्रत्ययकी प्राप्ति हुई, किंतु उसे बाधित करके “इदमो हः।' (५। ३। ११) इस सूत्रसे 'हः' प्रत्यय हो गया। फिर 'इदम्' के स्थानमें इकार होनेपर 'इह' रूपको सिद्धि “येन प्रकारेण यथा, केन प्रकारेण कथम्'- इन स्थलोंपर प्रकारवचने थाल्।' (५। ३। २३) के अनुसार ' थाल्' प्रत्यय होनेपर “यथा', ' तथा' आदि रूप होते हैं। 'किम्' शब्दसे “किमश्च।'",
+          "translation": "\"Bhanu, kara, marichi\" (ray), \"didhiti\" (feminine); \"prabha, ruk, ruchi, tvish, bha, bhas, chhavi, dyuti, dipti\" (radiance).",
+          "translationSource": "ai"
         },
         {
           "number": 34,
           "sanskrit": "रोचिः शोचिरुभे क्लीवे प्रकाशो द्योत आतपः । कोष्णं कवोष्णं मन्दोष्णं कदुष्णं त्रिषु तद्वति",
           "transliteration": "rociḥ śocirubhe klīve prakāśo dyota ātapaḥ / koṣṇaṃ kavoṣṇaṃ mandoṣṇaṃ kaduṣṇaṃ triṣu tadvati",
-          "hindi": "(५।३। २५) के अनुसार ' थम्' प्रत्यय होता है।"
+          "hindi": "(५।३। २५) के अनुसार ' थम्' प्रत्यय होता है।",
+          "translation": "\"Rochis\" and \"shochis\" (neuter); \"prakasha, dyota, atapa\" (light, sunshine); \"koshna, kavoshna, mandoshna, kaduṣhna\" (lukewarm, mildly hot) are used of what is hot.",
+          "translationSource": "ai"
         },
         {
           "number": 35,
           "sanskrit": "तिर्मं तीक्ष्णं खरं तद्वद्दिष्टो ऽनेहा च कालकः । घस्रो दिनाहनी चैव सायंसन्ध्या पितृप्रसूः",
           "transliteration": "tirmaṃ tīkṣṇaṃ kharaṃ tadvaddiṣṭo 'nehā ca kālakaḥ / ghasro dināhanī caiva sāyaṃsandhyā pitṛprasūḥ",
-          "hindi": "अतः “कथम्' इस रूपकी सिद्धि होती है। जो शब्द दिशाके अर्थमें रूढ़ होते हैं, ऐसे 'दिशा', 'देश' और 'काल' अर्थमें प्रयुक्त शब्दोंसे स्वार्थमें ' अस्ताति’ प्रत्यय होता है। श्लोकमें 'पूर्वस्याम्' यह सप्तमी विभक्तिका, 'पूर्वस्याः’ यह पञ्चमी विभक्तिका तथा 'पूर्वा' यह प्रथमा विभक्तिका प्रतिरूप है। अर्थात् उक्त शब्द यदि समम्यन्त, पञ्चम्यन्त और प्रथमान्त हों, तभी उनसे ' अस्ताति'"
+          "hindi": "अतः “कथम्' इस रूपकी सिद्धि होती है। जो शब्द दिशाके अर्थमें रूढ़ होते हैं, ऐसे 'दिशा', 'देश' और 'काल' अर्थमें प्रयुक्त शब्दोंसे स्वार्थमें ' अस्ताति’ प्रत्यय होता है। श्लोकमें 'पूर्वस्याम्' यह सप्तमी विभक्तिका, 'पूर्वस्याः’ यह पञ्चमी विभक्तिका तथा 'पूर्वा' यह प्रथमा विभक्तिका प्रतिरूप है। अर्थात् उक्त शब्द यदि समम्यन्त, पञ्चम्यन्त और प्रथमान्त हों, तभी उनसे ' अस्ताति'",
+          "translation": "\"Tigma, tikshna, khara\" (sharp, fierce); \"dishta\" and \"kalaka\"; \"ghasra\" (day), \"dinaha\"; \"sayam-sandhya\" (evening twilight), \"pitriprasu\" (the evening, mother of the ancestors).",
+          "translationSource": "ai"
         },
         {
           "number": 36,
           "sanskrit": "प्रत्यूषो ऽहर्मुखं कल्यमुषःप्रत्यूषसी अपि । प्राह्णापराह्णमध्याह्णास्त्रिसन्ध्यमथ शर्वरी",
           "transliteration": "pratyūṣo 'harmukhaṃ kalyamuṣaḥpratyūṣasī api / prāhṇāparāhṇamadhyāhṇāstrisandhyamatha śarvarī",
-          "hindi": "प्रत्यय होता है। 'पूर्व', 'अधर' और 'अवर' शब्दोंके स्थानमें क्रमशः 'पुर' 'अध' और 'अव' आदेश होते हैं। 'अस्ताति' के स्थानमें 'असि' प्रत्ययका भी विधान होता है। इन निर्दिष्ट"
+          "hindi": "प्रत्यय होता है। 'पूर्व', 'अधर' और 'अवर' शब्दोंके स्थानमें क्रमशः 'पुर' 'अध' और 'अव' आदेश होते हैं। 'अस्ताति' के स्थानमें 'असि' प्रत्ययका भी विधान होता है। इन निर्दिष्ट",
+          "translation": "\"Pratyusha\" (dawn), \"aharmukha\", \"kalya\", \"usha\"; the periods \"prahna\" (forenoon), \"aparahna\" (afternoon), \"madhyahna\" (midday); \"trisandhya\" (three twilights); then \"sharvari\" (night).",
+          "translationSource": "ai"
         },
         {
           "number": 37,
           "sanskrit": "यामी तमी तमिस्रा च ज्योत्स्नी चन्द्रकयान्विता । आगामिवर्तमानाहर्युक्तायां निशि पक्षिणी",
           "transliteration": "yāmī tamī tamisrā ca jyotsnī candrakayānvitā / āgāmivartamānāharyuktāyāṃ niśi pakṣiṇī",
-          "hindi": "नियमोंके अनुसार \"पूर्वस्यां दिशि', ' पूर्वस्याः दिशः' “पूर्वा वा दिक् '--इन लौकिक विग्रहोंमें “पुरः', “पुरस्तात्'--ये रूप होते हैं। उसी प्रकार रूप जानने चाहिए। इनके वाक्यप्रयोग ' पुरस्तात् संचरेद्', “पुरस्ताद् गच्छेत् इत्यादि रूपमें होते हैं। 'समाने अहनि'-इस अर्थमें 'सद्यः'-इस शब्दका प्रयोग होता है। 'समान'का 'स' और"
+          "hindi": "नियमोंके अनुसार \"पूर्वस्यां दिशि', ' पूर्वस्याः दिशः' “पूर्वा वा दिक् '--इन लौकिक विग्रहोंमें “पुरः', “पुरस्तात्'--ये रूप होते हैं। उसी प्रकार रूप जानने चाहिए। इनके वाक्यप्रयोग ' पुरस्तात् संचरेद्', “पुरस्ताद् गच्छेत् इत्यादि रूपमें होते हैं। 'समाने अहनि'-इस अर्थमें 'सद्यः'-इस शब्दका प्रयोग होता है। 'समान'का 'स' और",
+          "translation": "\"Yami, tami, tamisra\" (night), \"jyotsni\" (moonlit night); \"pakshini\" is a night joined to the preceding and following days (as in \"agami\", \"vartamana\" days).",
+          "translationSource": "ai"
         },
         {
           "number": 38,
           "sanskrit": "अर्धरात्रनिशीथौ प्रदोषो रजनीमुखं । स पर्वसन्धिः प्रतिपत्पञ्चदश्योर्य दन्तरम्",
           "transliteration": "ardharātraniśīthau pradoṣo rajanīmukhaṃ / sa parvasandhiḥ pratipatpañcadaśyorya dantaram",
-          "hindi": "'अहनि' के स्थानमें 'द्यस्' निपातित होकर “सद्य:'--इस पदकी सिद्धि होती है । ' पूर्वस्मिन्"
+          "hindi": "'अहनि' के स्थानमें 'द्यस्' निपातित होकर “सद्य:'--इस पदकी सिद्धि होती है । ' पूर्वस्मिन्",
+          "translation": "\"Ardharatra, nishitha\" (midnight), \"pradosha\" (evening), \"rajanimukha\"; \"parvasandhi\" is the junction between the fifteenth and first lunar days.",
+          "translationSource": "ai"
         },
         {
           "number": 39,
           "sanskrit": "पक्षान्तौ पञ्चदश्यौ द्वे पौर्णमासी तु पूर्णिमा । कलाहीने सानुमतिः पूर्णे राका निशाकरे",
           "transliteration": "pakṣāntau pañcadaśyau dve paurṇamāsī tu pūrṇimā / kalāhīne sānumatiḥ pūrṇe rākā niśākare",
-          "hindi": "इस अर्थको बतानेके लिये “परुत्” शब्दका प्रयोग होता है तथा पूर्वसे पूर्व वर्षमें-इस अर्थका बोध करानेके लिये “परारि' शब्दका प्रयोग होता है।) पहलेमें “पूर्व' शब्दके स्थानमें “पर' आदेश होता है और उससे 'उत्' प्रत्यय किया जाता है। दूसरेमें 'आरि' प्रत्यय होता है और 'पूर्व' के स्थानमें “पर' आदेश। ' अस्मिन् संवत्सरे' (इस वर्षमें) इस अर्थका बोध करानेके लिये 'ऐषमः '"
+          "hindi": "इस अर्थको बतानेके लिये “परुत्” शब्दका प्रयोग होता है तथा पूर्वसे पूर्व वर्षमें-इस अर्थका बोध करानेके लिये “परारि' शब्दका प्रयोग होता है।) पहलेमें “पूर्व' शब्दके स्थानमें “पर' आदेश होता है और उससे 'उत्' प्रत्यय किया जाता है। दूसरेमें 'आरि' प्रत्यय होता है और 'पूर्व' के स्थानमें “पर' आदेश। ' अस्मिन् संवत्सरे' (इस वर्षमें) इस अर्थका बोध करानेके लिये 'ऐषमः '",
+          "translation": "\"Pakshanta\" are the two fifteenth tithis; \"paurnamasi\" and \"purnima\" mean the full moon; \"anumati\" when a digit is lacking, \"raka\" when the moon is full.",
+          "translationSource": "ai"
         },
         {
           "number": 40,
           "sanskrit": "अमावास्या त्वमावस्या दर्शः सूर्येन्दुसङ्गमः । सा दृष्टेन्दुः सिनीवाली सा नष्टेन्दुकला कुहूः",
           "transliteration": "amāvāsyā tvamāvasyā darśaḥ sūryendusaṅgamaḥ / sā dṛṣṭenduḥ sinīvālī sā naṣṭendukalā kuhūḥ",
-          "hindi": "पदका प्रयोग होता है। इसमें 'इदम्' शब्दके स्थानमें 'इकार' आदेश और उससे परे 'समसण्' प्रत्ययका निपातन होता है। अकार-णकारको"
+          "hindi": "पदका प्रयोग होता है। इसमें 'इदम्' शब्दके स्थानमें 'इकार' आदेश और उससे परे 'समसण्' प्रत्ययका निपातन होता है। अकार-णकारको",
+          "translation": "\"Amavasya\" and \"amavasya\" (new moon), \"darsha\" is the conjunction of sun and moon; \"sinivali\" when the moon is just seen, \"kuhu\" when the moon's digit is lost.",
+          "translationSource": "ai"
         },
         {
           "number": 41,
           "sanskrit": "संवर्तः प्रलयः कल्पः क्षयः कल्पान्त इत्य् अपि । कलुषं वृजिनैनो ऽघमंहोदुरितदुष्कृतम्",
           "transliteration": "saṃvartaḥ pralayaḥ kalpaḥ kṣayaḥ kalpānta ity api / kaluṣaṃ vṛjinaino 'ghamaṃhoduritaduṣkṛtam",
-          "hindi": "इत्संज्ञा हो जानेपर 'इ+समः'-इस अवस्थामें आदिवृद्धि और सकारके स्थानमें मूर्धन्यादेश होनेपर 'ऐषमः' रूपकी सिद्धि होती है। “परस्मिन्नहनि’ (दूसरे दिन)-के अर्थमें “पर' शब्दसे 'एद्यवि' प्रत्यय करनेपर 'परेद्यवि'-यह रूप होता है। ' अस्मिन्नहनि’ (आजके दिन) इस अर्थमें 'इदम्' शब्दसे “द्य' प्रत्यय होता है और 'इदम्' के स्थानमें 'अ' हो जाता है। इस प्रकार"
+          "hindi": "इत्संज्ञा हो जानेपर 'इ+समः'-इस अवस्थामें आदिवृद्धि और सकारके स्थानमें मूर्धन्यादेश होनेपर 'ऐषमः' रूपकी सिद्धि होती है। “परस्मिन्नहनि’ (दूसरे दिन)-के अर्थमें “पर' शब्दसे 'एद्यवि' प्रत्यय करनेपर 'परेद्यवि'-यह रूप होता है। ' अस्मिन्नहनि’ (आजके दिन) इस अर्थमें 'इदम्' शब्दसे “द्य' प्रत्यय होता है और 'इदम्' के स्थानमें 'अ' हो जाता है। इस प्रकार",
+          "translation": "\"Samvarta, pralaya, kalpa, kshaya, kalpanta\" (dissolution, end of an aeon); \"kalusha, vrijina, ena, agha, amhas, duritam, dushkrita\" (sin, evil deed).",
+          "translationSource": "ai"
         },
         {
           "number": 42,
           "sanskrit": "स्याद्धर्ममस्त्रियां पुण्यश्रेयसी सुकृतं वृषः । मुत्प्रीतिः प्रमदो हर्षः प्रमोदामोदसम्मदाः",
           "transliteration": "syāddharmamastriyāṃ puṇyaśreyasī sukṛtaṃ vṛṣaḥ / mutprītiḥ pramado harṣaḥ pramodāmodasammadāḥ",
-          "hindi": "'अद्य'-यह रूप बनता है। 'पूर्वस्मिन् दिने' (पहले दिन)-इस अर्थमें 'पूर्व' शब्दसे ' एद्युस्' प्रत्यय होता है तो 'पूर्ेदयुः' यह रूप बनता है। इसी प्रकार “परस्मिन् दिने'--' परेद्युः ', ' अन्यस्मिन्"
+          "hindi": "'अद्य'-यह रूप बनता है। 'पूर्वस्मिन् दिने' (पहले दिन)-इस अर्थमें 'पूर्व' शब्दसे ' एद्युस्' प्रत्यय होता है तो 'पूर्ेदयुः' यह रूप बनता है। इसी प्रकार “परस्मिन् दिने'--' परेद्युः ', ' अन्यस्मिन्",
+          "translation": "\"Dharma\" (neuter, masculine); \"punya, shreyas, sukrita, vrisha\" (merit); \"mud, priti, pramada, harsha, pramoda, amoda, sammada\" (joy).",
+          "translationSource": "ai"
         },
         {
           "number": 43,
           "sanskrit": "स्यादानन्दथुरानन्दः शर्मशातसुखानि च । श्वः श्रेयसं शिवं भद्रं कल्याणं मङ्गलं शुभम्",
           "transliteration": "syādānandathurānandaḥ śarmaśātasukhāni ca / śvaḥ śreyasaṃ śivaṃ bhadraṃ kalyāṇaṃ maṅgalaṃ śubham",
-          "hindi": "दिने'—' अन्येद्युः ' इत्यादि प्रयोग जानने चाहिए। “ दक्षिणस्यां दिशि वसेत्' (दक्षिण दिशामें निवास करे।)-इस अर्थमें “दक्षिणा और ' दक्षिणाहि'- ये रूप बनते हैं। पहलेमें 'दक्षिणादाच्' (५ ३६)-इस सूत्रसे 'आच्' प्रत्यय होता है और दूसरेमें 'आहि च दूरे।' (५। ३। ३७)-इस सूत्रसे 'आहि' प्रत्यय किया गया है। दक्षिणाहि वसेत्’ का अर्थ हुआ-'दक्षिण दिशामें दूर"
+          "hindi": "दिने'—' अन्येद्युः ' इत्यादि प्रयोग जानने चाहिए। “ दक्षिणस्यां दिशि वसेत्' (दक्षिण दिशामें निवास करे।)-इस अर्थमें “दक्षिणा और ' दक्षिणाहि'- ये रूप बनते हैं। पहलेमें 'दक्षिणादाच्' (५ ३६)-इस सूत्रसे 'आच्' प्रत्यय होता है और दूसरेमें 'आहि च दूरे।' (५। ३। ३७)-इस सूत्रसे 'आहि' प्रत्यय किया गया है। दक्षिणाहि वसेत्’ का अर्थ हुआ-'दक्षिण दिशामें दूर",
+          "translation": "\"Ananda, anandathu, shama, sharma, shata, sukha\" (happiness); \"shvah-shreyasa, shiva, bhadra, kalyana, mangala, shubha\" (auspicious, good).",
+          "translationSource": "ai"
         },
         {
           "number": 44,
           "sanskrit": "भावुकं भविकं भव्यं कुशलं क्षेममस्त्रियां । दैवं दिष्टं मागधेयं भाग्यं स्त्री नियतिर्विधिः",
           "transliteration": "bhāvukaṃ bhavikaṃ bhavyaṃ kuśalaṃ kṣemamastriyāṃ / daivaṃ diṣṭaṃ māgadheyaṃ bhāgyaṃ strī niyatirvidhiḥ",
-          "hindi": "निवास करे।' 'दक्षिणोत्तराभ्यामतसुच्।' (५।"
+          "hindi": "निवास करे।' 'दक्षिणोत्तराभ्यामतसुच्।' (५।",
+          "translation": "\"Bhavuka, bhavika, bhavya, kushala, kshema\" (welfare), neuter; \"daiva, dishta, magadheya, bhagya\" (fate); \"niyati\" and \"vidhi\" are feminine words for destiny.",
+          "translationSource": "ai"
         },
         {
           "number": 45,
           "sanskrit": "क्षेत्रज्ञ आत्मा पुरुषः प्रधानं प्रकृतिः स्त्रियां । हेतुर्ना कारणं वीजं निदानं त्वादिकारणम्",
           "transliteration": "kṣetrajña ātmā puruṣaḥ pradhānaṃ prakṛtiḥ striyāṃ / heturnā kāraṇaṃ vījaṃ nidānaṃ tvādikāraṇam",
-          "hindi": "३। ३४)-इन सूत्रोंके अनुसार 'दक्षिणतः', भी बनते हैं। 'उत्तरस्यां दिशि वसेत्’ (उत्तर दिशामें निवास करे)-इस अर्थमें 'उत्तराच्च।' (५।३। ३८)--इस सूत्रके अनुसार 'आच्' और"
+          "hindi": "३। ३४)-इन सूत्रोंके अनुसार 'दक्षिणतः', भी बनते हैं। 'उत्तरस्यां दिशि वसेत्’ (उत्तर दिशामें निवास करे)-इस अर्थमें 'उत्तराच्च।' (५।३। ३८)--इस सूत्रके अनुसार 'आच्' और",
+          "translation": "\"Kshetrajna, atma, purusha\" (the knower of the field, the Self, the Person); \"pradhana, prakriti\" (feminine); \"hetu\" (masculine), \"karana, bija, nidana, adikarana\" (cause).",
+          "translationSource": "ai"
         },
         {
           "number": 46,
           "sanskrit": "चित्तन्तु चेतो हृदयं स्वान्तं हृन्मानसम्मनः । बुद्धिर्मनीषा धिषणा धीः प्रज्ञा शेमुषी मतिः",
           "transliteration": "cittantu ceto hṛdayaṃ svāntaṃ hṛnmānasammanaḥ / buddhirmanīṣā dhiṣaṇā dhīḥ prajñā śemuṣī matiḥ",
-          "hindi": "ये दोनों रूप सिद्ध होते हैं। ' अस्ताति” प्रत्ययके"
+          "hindi": "ये दोनों रूप सिद्ध होते हैं। ' अस्ताति” प्रत्ययके",
+          "translation": "\"Chitta, chetas, hridaya, svanta, hrid, manas\" (heart, mind); \"buddhi, manisha, dhishana, dhi, prajna, shemushi, mati\" (intellect).",
+          "translationSource": "ai"
         },
         {
           "number": 47,
           "sanskrit": "प्रेक्षोपलिब्धिश्चित्सम्बित्प्रतिपज्ज्ञप्तिचेतनाः । धीर्धारणावती मेधा सङ्कल्पः कर्म मानसं",
           "transliteration": "prekṣopalibdhiścitsambitpratipajjñapticetanāḥ / dhīrdhāraṇāvatī medhā saṅkalpaḥ karma mānasaṃ",
-          "hindi": "प्रत्यय होते हैं तथा 'ऊर्ध्व' के स्थानमें “उप' आदेश हो जाता है। इस प्रकार उपरि वसेत्', “उपरिष्टाद् भवेत्' इत्यादि प्रयोग सिद्ध होते हैं। 'उत्तर' शब्दसे 'एनप्' प्रत्यय होनेपर 'उत्तरेण' होता है। पूर्वोक्त 'दक्षिणा' शब्दकी सिद्धि 'आच्' प्रत्यय होनेसे होती है-इसका निर्देश पहले किया जा चुका है। 'आहि' प्रत्यय होनेपर"
+          "hindi": "प्रत्यय होते हैं तथा 'ऊर्ध्व' के स्थानमें “उप' आदेश हो जाता है। इस प्रकार उपरि वसेत्', “उपरिष्टाद् भवेत्' इत्यादि प्रयोग सिद्ध होते हैं। 'उत्तर' शब्दसे 'एनप्' प्रत्यय होनेपर 'उत्तरेण' होता है। पूर्वोक्त 'दक्षिणा' शब्दकी सिद्धि 'आच्' प्रत्यय होनेसे होती है-इसका निर्देश पहले किया जा चुका है। 'आहि' प्रत्यय होनेपर",
+          "translation": "\"Preksha, upalabdhi, chit, samvit, pratipat, jnapti, chetana\" (perception, awareness); \"dhi, dharana, medha\" (retention, intelligence); \"sankalpa\" is a mental act.",
+          "translationSource": "ai"
         },
         {
           "number": 48,
           "sanskrit": "सङ्ख्या विचारणा चर्चा विचिकित्सा तु संशयः । अध्याहारस्तर्क ऊहः समौ निर्णयनिश् चयौ",
           "transliteration": "saṅkhyā vicāraṇā carcā vicikitsā tu saṃśayaḥ / adhyāhārastarka ūhaḥ samau nirṇayaniś cayau",
-          "hindi": "'दक्षिणाहि’' पद बनता है-यह भी कहा जा चुका है। “दक्षिणाहि बसेत्' इसका अर्थ भी दिया जा चुका है। संख्याया विधार्थधा।' (५। ३।४२)-इस सूत्रके अनुसार संख्यावाची शब्दोंसे"
+          "hindi": "'दक्षिणाहि’' पद बनता है-यह भी कहा जा चुका है। “दक्षिणाहि बसेत्' इसका अर्थ भी दिया जा चुका है। संख्याया विधार्थधा।' (५। ३।४२)-इस सूत्रके अनुसार संख्यावाची शब्दोंसे",
+          "translation": "\"Sankhya\" (reckoning), \"vicharana, charcha\" (deliberation, discussion), \"vichikitsa, samshaya\" (doubt); \"adhyahara, tarka, uha\" (inference, conjecture); \"nirnaya, nishchaya\" (decision).",
+          "translationSource": "ai"
         },
         {
           "number": 49,
           "sanskrit": "मिथ्यादृष्टिर्नास्तिकता भ्रान्तिर्मिथ्यामतिर्भ्रमः । अङ्गीकाराभ्युपगमप्रतिश्रवसमाधयः",
           "transliteration": "mithyādṛṣṭirnāstikatā bhrāntirmithyāmatirbhramaḥ / aṅgīkārābhyupagamapratiśravasamādhayaḥ",
-          "hindi": "'धा' प्रत्यय करनेपर द्विधा, त्रिधा, चतुर्धा, पञ्चधा इत्यादि रूप होते हैं। 'द्विंधा' का अर्थ है--दो प्रकारका। 'एक' शब्दसे प्रकार अर्थमें पूर्वोक्त नियमानुसार जो 'धा' प्रत्यय होता है, उसके स्थानमें ' ध्यमुञ्' हो जाता है। 'उञ्' की इत्संज्ञा हो जाती है। 'ध्यम्' शेष रह जाता है।"
+          "hindi": "'धा' प्रत्यय करनेपर द्विधा, त्रिधा, चतुर्धा, पञ्चधा इत्यादि रूप होते हैं। 'द्विंधा' का अर्थ है--दो प्रकारका। 'एक' शब्दसे प्रकार अर्थमें पूर्वोक्त नियमानुसार जो 'धा' प्रत्यय होता है, उसके स्थानमें ' ध्यमुञ्' हो जाता है। 'उञ्' की इत्संज्ञा हो जाती है। 'ध्यम्' शेष रह जाता है।",
+          "translation": "\"Mithyadrishti, nastikata\" (false view, unbelief), \"bhranti, mithyamati, bhrama\" (error); \"angikara, abhyupagama, pratishrava, samadhi\" (assent, promise).",
+          "translationSource": "ai"
         },
         {
           "number": 50,
           "sanskrit": "मोक्षे धीर्ज्ञानमन्यत्र विज्ञानं शिल्पशास्त्रयोः । मुक्तिः कैवल्यनिर्वाणश्रेयोनिःश्रेयसामृतं",
           "transliteration": "mokṣe dhīrjñānamanyatra vijñānaṃ śilpaśāstrayoḥ / muktiḥ kaivalyanirvāṇaśreyoniḥśreyasāmṛtaṃ",
-          "hindi": "३। ४४) । \"ऐकध्यं कुरु त्वम्? इस वाक्यका अर्थ है—'तुम एक ही प्रकारसे कर्म करो।' इसी प्रकार 'द्वि' और 'त्रि' शब्दसे 'धा' के स्थानमें ' धमुञ्’ होता है। विकल्पसे (द्रष्टव्य-पा० सू०"
+          "hindi": "३। ४४) । \"ऐकध्यं कुरु त्वम्? इस वाक्यका अर्थ है—'तुम एक ही प्रकारसे कर्म करो।' इसी प्रकार 'द्वि' और 'त्रि' शब्दसे 'धा' के स्थानमें ' धमुञ्’ होता है। विकल्पसे (द्रष्टव्य-पा० सू०",
+          "translation": "In liberation the word is \"dhi\" (wisdom) and \"jnana\"; elsewhere \"vijnana\" is knowledge of crafts and treatises; \"mukti, kaivalya, nirvana, shreyas, nihshreyasa, amrita\" (liberation).",
+          "translationSource": "ai"
         },
         {
           "number": 51,
           "sanskrit": "मोक्षो ऽपवर्गो ऽथाज्ञानमविद्याहम्मतिः स्त्रियां । विमर्दोत्थे परिमलो गन्धे जनमनोहरे",
           "transliteration": "mokṣo 'pavargo 'thājñānamavidyāhammatiḥ striyāṃ / vimardotthe parimalo gandhe janamanohare",
-          "hindi": "होते हैं और 'धमुञ्' न होनेपर 'द्विधा', 'त्रिधा'। 'द्वि', “त्रि! शब्दोंसे सम्बद्ध 'धा' के स्थानमें \"एधाच्? भी होता है। यथा--द्वेधा, त्रेधा। ये सभी प्रयोग सुष्ठुतर हैं॥ २१--२७॥ यहाँतक निपातसंज्ञक तद्धित' (अथवा"
+          "hindi": "होते हैं और 'धमुञ्' न होनेपर 'द्विधा', 'त्रिधा'। 'द्वि', “त्रि! शब्दोंसे सम्बद्ध 'धा' के स्थानमें \"एधाच्? भी होता है। यथा--द्वेधा, त्रेधा। ये सभी प्रयोग सुष्ठुतर हैं॥ २१--२७॥ यहाँतक निपातसंज्ञक तद्धित' (अथवा",
+          "translation": "\"Moksha, apavarga\" (liberation); then ignorance: \"ajnana, avidya, ahammati\" (feminine; self-conceit); \"parimala\" is fragrance rising from crushing, a scent pleasing to people.",
+          "translationSource": "ai"
         },
         {
           "number": 52,
           "sanskrit": "आमोदः सो ऽतिनिर्हारी सुरभिर्घ्राणतर्पणः । शुक्लशुभ्रशुचिश्वेतविशदश्वेतपाण्डराः",
           "transliteration": "āmodaḥ so 'tinirhārī surabhirghrāṇatarpaṇaḥ / śuklaśubhraśuciśvetaviśadaśvetapāṇḍarāḥ",
-          "hindi": "तद्धितका' वर्णन किया जाता है।-'तस्य भावस्त्वतलौ।' (५। ११। ११९)--इस सूत्रके अनुसार भावबोधक प्रत्यय दो हैं--'त्व” और “तल्'। प्रकृतिजन्य बोधमें जो प्रकार होता है,"
+          "hindi": "तद्धितका' वर्णन किया जाता है।-'तस्य भावस्त्वतलौ।' (५। ११। ११९)--इस सूत्रके अनुसार भावबोधक प्रत्यय दो हैं--'त्व” और “तल्'। प्रकृतिजन्य बोधमें जो प्रकार होता है,",
+          "translation": "\"Amoda\" is a far-reaching fragrance; \"surabhi\" gratifies the nose; whites: \"shukla, shubhra, shuchi, shveta, vishada, shveta, pandara\" (white).",
+          "translationSource": "ai"
         },
         {
           "number": 53,
           "sanskrit": "अवदातः सितो गौरो वलक्षो धवलो ऽर्जुनः । हरिणः पाण्डुरः पाण्डुरीषत्पाण्डुस्तु धूसरः",
           "transliteration": "avadātaḥ sito gauro valakṣo dhavalo 'rjunaḥ / hariṇaḥ pāṇḍuraḥ pāṇḍurīṣatpāṇḍustu dhūsaraḥ",
-          "hindi": "उसे 'भाव' कहते हैं। 'पटु' शब्दसे “पटोर्भावः '-- इस अर्थमें 'त्व' प्रत्यय होनेपर “पदुत्वम्' रूप होता है और 'तल्' प्रत्यय होनेपर पटुता'। 'पृथोर्भावः' (पृथुका भाव)-इस अर्थमें “पृथ्वादिभ्य इमनिज्चा।' (५। १। १२२)-इस सूत्रसे वैकल्पिक 'इमनिच्' प्रत्यय होनेपर “प्रथिमा'--यह रूप बनता है। 'प्रथिमा' का"
+          "hindi": "उसे 'भाव' कहते हैं। 'पटु' शब्दसे “पटोर्भावः '-- इस अर्थमें 'त्व' प्रत्यय होनेपर “पदुत्वम्' रूप होता है और 'तल्' प्रत्यय होनेपर पटुता'। 'पृथोर्भावः' (पृथुका भाव)-इस अर्थमें “पृथ्वादिभ्य इमनिज्चा।' (५। १। १२२)-इस सूत्रसे वैकल्पिक 'इमनिच्' प्रत्यय होनेपर “प्रथिमा'--यह रूप बनता है। 'प्रथिमा' का",
+          "translation": "\"Avadata, sita, gaura, valaksha, dhavala, arjuna\" (white); \"harina, pandura, pandu\" (pale, whitish); \"pandu\" slightly; \"dhusara\" (dusky).",
+          "translationSource": "ai"
         },
         {
           "number": 54,
           "sanskrit": "कृष्णे नीलासितश्यामकालश्यामलमेचकाः । पीतो गौरो हरिद्राभः पालाशो हरितो हरित्",
           "transliteration": "kṛṣṇe nīlāsitaśyāmakālaśyāmalamecakāḥ / pīto gauro haridrābhaḥ pālāśo harito harit",
-          "hindi": "अर्थ है--मोटापन। 'सुखस्य भावः कर्म वा' (सुखका भाव या कर्म)-इस अर्थमें 'गुणवचनब्राह्मणादिभ्यः कर्मणि च।' (५"
+          "hindi": "अर्थ है--मोटापन। 'सुखस्य भावः कर्म वा' (सुखका भाव या कर्म)-इस अर्थमें 'गुणवचनब्राह्मणादिभ्यः कर्मणि च।' (५",
+          "translation": "Black: \"nila, asita, shyama, kala, shyamala, mecha(ka)\"; yellow: \"pita, gaura, haridrabha, palasha\"; green: \"harita, harit\".",
+          "translationSource": "ai"
         },
         {
           "number": 55,
           "sanskrit": "रोहितो लोहितो रक्तः शोणः कोकनदच्छविः । अव्यक्तरागस्त्वरुणः श्वेतरक्तस्तु पाटलः",
           "transliteration": "rohito lohito raktaḥ śoṇaḥ kokanadacchaviḥ / avyaktarāgastvaruṇaḥ śvetaraktastu pāṭalaḥ",
-          "hindi": "१२४) इस सूत्रके अनुसार 'ष्यञ्' प्रत्यय होनेपर 'सौख्यम्-इस पदकी सिद्धि कही गयी है। “स्तेनस्य भावः कर्म वा’ (स्तेन चोरका भाव या कर्म)-इस अर्थमें 'स्तेन' शब्दसे “यत्' प्रत्यय और “न'--इस समुदायका लोप हो जाता है। (द्रष्टव्य-पा० सू० ५"
+          "hindi": "१२४) इस सूत्रके अनुसार 'ष्यञ्' प्रत्यय होनेपर 'सौख्यम्-इस पदकी सिद्धि कही गयी है। “स्तेनस्य भावः कर्म वा’ (स्तेन चोरका भाव या कर्म)-इस अर्थमें 'स्तेन' शब्दसे “यत्' प्रत्यय और “न'--इस समुदायका लोप हो जाता है। (द्रष्टव्य-पा० सू० ५",
+          "translation": "Red: \"rohita, lohita, rakta, shona\" (the lotus-hued \"kokanadachhavi\"); \"aruna\" is a faintly marked red; \"patala\" is red mixed with white (pink).",
+          "translationSource": "ai"
         },
         {
           "number": 56,
           "sanskrit": "श्यावः स्यात्कपिशो धूम्रधूमलौ कृष्णलोहिते । कडारः कपिलः पिङ्गपिशङ्गौकद्रुपिङ्गलौ",
           "transliteration": "śyāvaḥ syātkapiśo dhūmradhūmalau kṛṣṇalohite / kaḍāraḥ kapilaḥ piṅgapiśaṅgaukadrupiṅgalau",
-          "hindi": "१२५) । इस प्रकार 'स्तेय' शब्दको सिद्धि होती है। इसी प्रकार \"सख्युर्भावः कर्म वा' (सखाका भाव या कर्म)-इस अर्थमें “य' प्रत्यय होनेपर 'सख्यम्' इस पदकी सिद्धि कही गयी है। यहाँ"
+          "hindi": "१२५) । इस प्रकार 'स्तेय' शब्दको सिद्धि होती है। इसी प्रकार \"सख्युर्भावः कर्म वा' (सखाका भाव या कर्म)-इस अर्थमें “य' प्रत्यय होनेपर 'सख्यम्' इस पदकी सिद्धि कही गयी है। यहाँ",
+          "translation": "\"Shyava\" (dark brown), \"kapisha\" (tawny), \"dhumra, dhumala\" (smoky), \"krishnalohita\" (dark red); \"kadara, kapila, pinga, pishanga, kadrupingala\" (shades of brown-yellow).",
+          "translationSource": "ai"
         },
         {
           "number": 57,
           "sanskrit": "चित्रं किर्मीरकल्माषशवलैताथ कर्वुरे । व्याहर उक्तिर्लपितमपभ्रंशो ऽपशब्दकः",
           "transliteration": "citraṃ kirmīrakalmāṣaśavalaitātha karvure / vyāhara uktirlapitamapabhraṃśo 'paśabdakaḥ",
-          "hindi": "“सख्युर्यः।' (५। १। १२६)--इस सूत्रसे “य' प्रत्यय होता है। 'कपेर्भावः कर्म वा'-इस अर्थमें “कपिज्ञात्योर्ढक् ।' (५। १। १२७) इस सूत्रसे 'ढक्' प्रत्यय होनेपर 'कापेयम्' पदको सिद्धि होती है। 'सेना एव सैन्यम्'-यहाँ 'चतुर्वर्णादीनां स्वार्थ उपसंख्यानम् इस वार्तिकके अनुसार स्वार्थमें 'ष्यज्' प्रत्यय होता है । ' शास्त्रीयात् पथः अनपेतम्' (शास्त्रीय पथसे"
+          "hindi": "“सख्युर्यः।' (५। १। १२६)--इस सूत्रसे “य' प्रत्यय होता है। 'कपेर्भावः कर्म वा'-इस अर्थमें “कपिज्ञात्योर्ढक् ।' (५। १। १२७) इस सूत्रसे 'ढक्' प्रत्यय होनेपर 'कापेयम्' पदको सिद्धि होती है। 'सेना एव सैन्यम्'-यहाँ 'चतुर्वर्णादीनां स्वार्थ उपसंख्यानम् इस वार्तिकके अनुसार स्वार्थमें 'ष्यज्' प्रत्यय होता है । ' शास्त्रीयात् पथः अनपेतम्' (शास्त्रीय पथसे",
+          "translation": "\"Chitra, kirmira, kalmasha, shabala, karbura\" (variegated, spotted); then speech: \"vyahara, ukti, lapita\" (utterance); \"apabhramsha, apashabda\" (corrupt speech).",
+          "translationSource": "ai"
         },
         {
           "number": 58,
           "sanskrit": "तिङ्सुवन्तचयो काव्यं क्रिया वा कारकान्विता । इतिहासः पुरावृत्तं पुराणं पञ्चलक्षणं",
           "transliteration": "tiṅsuvantacayo kāvyaṃ kriyā vā kārakānvitā / itihāsaḥ purāvṛttaṃ purāṇaṃ pañcalakṣaṇaṃ",
-          "hindi": "जो भ्रष्ट नहीं हुआ है, वह)-इस अर्थमें ' धर्मपथ्यर्थन्यायादनपेते।' (४। ४। ९२) इस सूत्रके अनुसार पथिन्' शब्दसे 'यत्' प्रत्यय होनेपर “पथ्यम्'--यह रूप होता है। ' अश्वस्य"
+          "hindi": "जो भ्रष्ट नहीं हुआ है, वह)-इस अर्थमें ' धर्मपथ्यर्थन्यायादनपेते।' (४। ४। ९२) इस सूत्रके अनुसार पथिन्' शब्दसे 'यत्' प्रत्यय होनेपर “पथ्यम्'--यह रूप होता है। ' अश्वस्य",
+          "translation": "A word complete with verbal and nominal endings is poetry, or an action with its factors; \"itihasa\" is ancient narrative; \"purana\" has five characteristics.",
+          "translationSource": "ai"
         },
         {
           "number": 59,
           "sanskrit": "आख्यायिकोपलब्धार्था प्रबन्धः कल्पना कथा । समाहारः संग्रहस्तु प्रवह्लिका प्रहेलिका",
           "transliteration": "ākhyāyikopalabdhārthā prabandhaḥ kalpanā kathā / samāhāraḥ saṃgrahastu pravahlikā prahelikā",
-          "hindi": "भावः कर्म वा आश्वम्'--यहाँ ' अश्व’ शब्दसे “अज्' हुआ है। ('उष्टस्य भावः कर्म वा औष्टम'-यहाँ भी 'अञ्' प्रत्यय हुआ है।) ‘कुमारस्य भावः कर्म वा कौमारम्'-इसमें भी “कुमार” शब्दसे ' अञ्' प्रत्यय हुआ। 'यूनोर्भावः कर्म वा यौबनम्'-यहाँ भी पूर्ववत् 'युवन्' शब्दसे 'अञ्' प्रत्यय हुआ है। इन सबमें 'अञ्' प्रत्यय विधायक सूत्र है-"
+          "hindi": "भावः कर्म वा आश्वम्'--यहाँ ' अश्व’ शब्दसे “अज्' हुआ है। ('उष्टस्य भावः कर्म वा औष्टम'-यहाँ भी 'अञ्' प्रत्यय हुआ है।) ‘कुमारस्य भावः कर्म वा कौमारम्'-इसमें भी “कुमार” शब्दसे ' अञ्' प्रत्यय हुआ। 'यूनोर्भावः कर्म वा यौबनम्'-यहाँ भी पूर्ववत् 'युवन्' शब्दसे 'अञ्' प्रत्यय हुआ है। इन सबमें 'अञ्' प्रत्यय विधायक सूत्र है-",
+          "translation": "\"Akhyayika\" (tale), \"upalabdhartha\", \"prabandha\" (composition), \"kalpana\", \"katha\" (story); \"samahara, sangraha\" (collection); \"pravahlika, prahelika\" (riddle).",
+          "translationSource": "ai"
         },
         {
           "number": 60,
           "sanskrit": "समस्या तु समासार्था स्मृतिस्तु धर्मसंहिता । आख्याह्वे चाभिधानञ्च वार्ता वृत्तान्त ईरितः",
           "transliteration": "samasyā tu samāsārthā smṛtistu dharmasaṃhitā / ākhyāhve cābhidhānañca vārtā vṛttānta īritaḥ",
-          "hindi": "१२९) । ‘आचार्य’ शब्दसे 'कन्' प्रत्यय होनेपर 'आचार्यकम्'-यह रूप बनता है। इसी तरह अन्य भी बहुत-से तद्धित प्रत्यय होते हैं, (उन्हें अन्य ग्रन्थोंसे जानना चाहिए) ॥ २८--३०॥"
+          "hindi": "१२९) । ‘आचार्य’ शब्दसे 'कन्' प्रत्यय होनेपर 'आचार्यकम्'-यह रूप बनता है। इसी तरह अन्य भी बहुत-से तद्धित प्रत्यय होते हैं, (उन्हें अन्य ग्रन्थोंसे जानना चाहिए) ॥ २८--३०॥",
+          "translation": "\"Samasya\" is an abridged meaning; \"smriti\" is a code of law (dharma-samhita); \"akhya, ahva, abhidhana\" (name); \"varta, vrittanta\" (news, narrative).",
+          "translationSource": "ai"
         },
         {
           "number": 61,
           "sanskrit": "हूतिराकारणाह्वानमुपन्यासस्तु वाङ्मुखं । विवादो व्यवहारः स्यात् प्रतिवाक्योत्तरे समे",
           "transliteration": "hūtirākāraṇāhvānamupanyāsastu vāṅmukhaṃ / vivādo vyavahāraḥ syāt prativākyottare same",
-          "hindi": "इस प्रकार आदि आग्नेय महापुराणमें “तद्धितान्त शन्दोके रूपका कथन” नामक तीन सौ छप्पनवाँ अध्याय पूरा हुआ उणादिसिद्ध शब्दरूपोंका दिग्दर्शन"
+          "hindi": "इस प्रकार आदि आग्नेय महापुराणमें “तद्धितान्त शन्दोके रूपका कथन” नामक तीन सौ छप्पनवाँ अध्याय पूरा हुआ उणादिसिद्ध शब्दरूपोंका दिग्दर्शन",
+          "translation": "\"Huti, akarana, ahvana\" (calling, summoning); \"upanyasa\" and \"vanmukha\" (introduction); \"vivada, vyavahara\" is a dispute, a case at law, with \"prativakya\" the reply and \"uttara\" the answer.",
+          "translationSource": "ai"
         },
         {
           "number": 62,
           "sanskrit": "उपोद्धात उदाहारो ह्य् अर्थ मिथ्याभिसंशनम् । अभिशापो यशः कीर्तिः प्रश्नः पृच्छानुयोगकः",
           "transliteration": "upoddhāta udāhāro hy artha mithyābhisaṃśanam / abhiśāpo yaśaḥ kīrtiḥ praśnaḥ pṛcchānuyogakaḥ",
-          "hindi": "कुमार स्कन्द कहते हैं- कात्यायन! अब  लोकभाषामें उसे 'शिल्पी' या 'कारीगर' कहते 'उणादि' प्रत्यय बताये जाते हैं, जो धातुसे परे  हैं) । “कृ” धातुसे 'उण्' प्रत्यय होनेपर अनुबन्धलोप, होते हैं। 'कृबापाजिमिस्वदिसाध्यशुभ्य उण्।'  वृद्धि तथा विभक्तिकार्यं किये जाते हैं। इससे (१)--इस सूत्रके अनुसार 'कृ' आदि धातुओंसे  ' कारु: '-- इस पदकी सिद्धि होती है। 'जि'"
+          "hindi": "कुमार स्कन्द कहते हैं- कात्यायन! अब  लोकभाषामें उसे 'शिल्पी' या 'कारीगर' कहते 'उणादि' प्रत्यय बताये जाते हैं, जो धातुसे परे  हैं) । “कृ” धातुसे 'उण्' प्रत्यय होनेपर अनुबन्धलोप, होते हैं। 'कृबापाजिमिस्वदिसाध्यशुभ्य उण्।'  वृद्धि तथा विभक्तिकार्यं किये जाते हैं। इससे (१)--इस सूत्रके अनुसार 'कृ' आदि धातुओंसे  ' कारु: '-- इस पदकी सिद्धि होती है। 'जि'",
+          "translation": "\"Upodghata, udahara\" (introduction, example); \"artha, mithyabhisamshana\" (false accusation); \"abhishapa\" (curse); \"yasha, kirti\" (fame); \"prashna, prichchha, anuyoga\" (question).",
+          "translationSource": "ai"
         },
         {
           "number": 63,
           "sanskrit": "आम्रेडितं द्विस्त्रिरुक्तं कुत्सानिन्दे च गर्हणे । स्यादाभाषणमालापः प्रलापो ऽनर्थकं वचः",
           "transliteration": "āmreḍitaṃ dvistriruktaṃ kutsāninde ca garhaṇe / syādābhāṣaṇamālāpaḥ pralāpo 'narthakaṃ vacaḥ",
-          "hindi": "“उण् प्रत्यय होता है। “करोतीति कारुः।' (जो  धातुसे 'उण्' होनेपर 'जायुः' रूप बनता है। शिल्पकर्म करता है, वह कारु' कहलाता है।  “जायुः' का अर्थ है--औषध। इसको व्युत्पत्ति इस प्रकार समझनी चाहिए --“जयति रोगान् इति जायुः'। 'मि' धातुसे वही (उण्) प्रत्यय करनेपर 'मायुः'-यह पद सिद्ध होता है। 'मायुः'का अर्थ है'पित्त'। इसकी व्युत्पत्ति इस"
+          "hindi": "“उण् प्रत्यय होता है। “करोतीति कारुः।' (जो  धातुसे 'उण्' होनेपर 'जायुः' रूप बनता है। शिल्पकर्म करता है, वह कारु' कहलाता है।  “जायुः' का अर्थ है--औषध। इसको व्युत्पत्ति इस प्रकार समझनी चाहिए --“जयति रोगान् इति जायुः'। 'मि' धातुसे वही (उण्) प्रत्यय करनेपर 'मायुः'-यह पद सिद्ध होता है। 'मायुः'का अर्थ है'पित्त'। इसकी व्युत्पत्ति इस",
+          "translation": "\"Amredita\" is the doubled or tripled utterance (also in contempt, blame, reproach); \"abhashana, alapa\" (address, conversation); \"pralapa\" is meaningless speech.",
+          "translationSource": "ai"
         },
         {
           "number": 64,
           "sanskrit": "अनुलापो मुहुर्भाषा वोलापः परिदेवनं । विप्रलापो विरोधोक्तिः संलापो भाषणं मिथः",
           "transliteration": "anulāpo muhurbhāṣā volāpaḥ paridevanaṃ / vipralāpo virodhoktiḥ saṃlāpo bhāṣaṇaṃ mithaḥ",
-          "hindi": "प्रकार है--'मिनोति'-- प्रक्षिपति देहे ऊष्माणम् इति मायुः।' इसी प्रकार 'स्वदते-रोचते इति स्वादुः ।', ' साध्नोति परकार्यमिति साधुः।' इत्यादि प्रयोग सिद्ध होते हैं। गोमायुः, आयुः इत्यादि"
+          "hindi": "प्रकार है--'मिनोति'-- प्रक्षिपति देहे ऊष्माणम् इति मायुः।' इसी प्रकार 'स्वदते-रोचते इति स्वादुः ।', ' साध्नोति परकार्यमिति साधुः।' इत्यादि प्रयोग सिद्ध होते हैं। गोमायुः, आयुः इत्यादि",
+          "translation": "\"Anulapa\" (repeated speech), \"volapa\", \"paridevana\" (lament); \"vipralapa\" (contradictory speech); \"samlapa, bhashana\" (mutual conversation).",
+          "translationSource": "ai"
         },
         {
           "number": 65,
           "sanskrit": "सुप्रलापः सुवचनमपलापस्तु निह्नवः । उषती वागकल्याणी सङ्गतं हृदयङ्गमं",
           "transliteration": "supralāpaḥ suvacanamapalāpastu nihnavaḥ / uṣatī vāgakalyāṇī saṅgataṃ hṛdayaṅgamaṃ",
-          "hindi": "प्रयोग भी इसी तरह सिद्ध होते हैं। 'गोमायु'का अर्थ है-गीदड़ तथा 'आयुः' शब्द आयुर्वेदके लिये भी प्रयुक्त होता है । “उणादयो बहुलम्।'-- (३।३।१) इस सूत्रके अनुसार ‘उण्? आदि बाहुल्येन होते हैं। कहीं होते हैं, कहीं नहीं होते।"
+          "hindi": "प्रयोग भी इसी तरह सिद्ध होते हैं। 'गोमायु'का अर्थ है-गीदड़ तथा 'आयुः' शब्द आयुर्वेदके लिये भी प्रयुक्त होता है । “उणादयो बहुलम्।'-- (३।३।१) इस सूत्रके अनुसार ‘उण्? आदि बाहुल्येन होते हैं। कहीं होते हैं, कहीं नहीं होते।",
+          "translation": "\"Supralapa, suvachana\" (fair speech); \"apalapa, nihnava\" (denial); \"ushati\" is gentle but unwholesome speech; \"sangata, hridayangama\" (agreeable, heart-reaching).",
+          "translationSource": "ai"
         },
         {
           "number": 79,
           "sanskrit": "सौगन्धिकन्तु कह्लारं नीलमिन्दीवरं कजं । स्यादुत्पलं कुवलयं सिते कुमुदकैरवे",
           "transliteration": "saugandhikantu kahlāraṃ nīlamindīvaraṃ kajaṃ / syādutpalaṃ kuvalayaṃ site kumudakairave",
-          "hindi": "उणादिसिद्ध हैं। 'किंशारु? नाम है-धान्यके शूकका। 'किं शृणातीति किंशारुः '। यहाँ 'किं' पूर्वक ' श’ धातुसे “जुण्' होता है। 'ञ्' तथा “ण्' अनुबन्ध हैं। किंश्र+उ  वृद्धि होकर ' किंशारुः '"
+          "hindi": "उणादिसिद्ध हैं। 'किंशारु? नाम है-धान्यके शूकका। 'किं शृणातीति किंशारुः '। यहाँ 'किं' पूर्वक ' श’ धातुसे “जुण्' होता है। 'ञ्' तथा “ण्' अनुबन्ध हैं। किंश्र+उ  वृद्धि होकर ' किंशारुः '",
+          "translation": "\"Saugandhika, kahlara\" (white water-lily), \"nilam, indivara, kaja\" (blue lotus); \"utpala, kuvalaya\"; \"kumuda, kairava\" (white night-lotus).",
+          "translationSource": "ai"
         },
         {
           "number": 80,
           "sanskrit": "शालूकमेषां कन्दः स्यात् पद्मं तामरसङ्कजं । नीलोत्पलं कुवलयं रक्तं कोकनदं स्मृतम्",
           "transliteration": "śālūkameṣāṃ kandaḥ syāt padmaṃ tāmarasaṅkajaṃ / nīlotpalaṃ kuvalayaṃ raktaṃ kokanadaṃ smṛtam",
-          "hindi": "बनता है। \"कृकवाकुः? का अर्थ है-मुर्गा या मोर। 'कृकेन गलेन वक्तीति कृकवाकुः।' 'कृके वचः कश्च'इस उणादिसूत्रसे “जुण्' प्रत्यय होनेपर कृक+वच्+जुण्-इस अवस्थामें अनुबन्धलोप, चकारको ककार और “अत उपधायाः।' (पा० सू० ७।२।११६) से वृद्धि होती है। ' भरति बिभर्ति वा भरुः।' ' भृ' धातु से 'उ' प्रत्यय, गुण; विभक्तिकार्य-भरुः। इसका"
+          "hindi": "बनता है। \"कृकवाकुः? का अर्थ है-मुर्गा या मोर। 'कृकेन गलेन वक्तीति कृकवाकुः।' 'कृके वचः कश्च'इस उणादिसूत्रसे “जुण्' प्रत्यय होनेपर कृक+वच्+जुण्-इस अवस्थामें अनुबन्धलोप, चकारको ककार और “अत उपधायाः।' (पा० सू० ७।२।११६) से वृद्धि होती है। ' भरति बिभर्ति वा भरुः।' ' भृ' धातु से 'उ' प्रत्यय, गुण; विभक्तिकार्य-भरुः। इसका",
+          "translation": "\"Shaluka\" is their tuber; \"padma, tamarasa, sankaja\" (lotus); \"nilotpala, kuvalaya\" (blue lotus); \"rakta, kokanada\" (red lotus).",
+          "translationSource": "ai"
         },
         {
           "number": 81,
           "sanskrit": "करहाटः शिफा कन्दं किञ्जल्कः केशरो ऽस्त्रियां । खनिः स्त्रियामाकरः स्यात् पादाः प्रत्यन्तपर्वताः",
           "transliteration": "karahāṭaḥ śiphā kandaṃ kiñjalkaḥ keśaro 'striyāṃ / khaniḥ striyāmākaraḥ syāt pādāḥ pratyantaparvatāḥ",
-          "hindi": "अर्थ है— भर्ता (स्वामी) । मरुः-जलहीन देश। मृ+उ गुणादेश, विभक्तिकार्य=मरुः । शी+उ=शयुः । इसका अर्थ है-सोया पड़ा रहनेवाला अजगर। त्सर+उ=त्सरु:-अर्थात् खड्गको मूठ। 'स्वर्यन्ते"
+          "hindi": "अर्थ है— भर्ता (स्वामी) । मरुः-जलहीन देश। मृ+उ गुणादेश, विभक्तिकार्य=मरुः । शी+उ=शयुः । इसका अर्थ है-सोया पड़ा रहनेवाला अजगर। त्सर+उ=त्सरु:-अर्थात् खड्गको मूठ। 'स्वर्यन्ते",
+          "translation": "\"Karahata, shipha, kanda\" (tuber), \"kinjalka, kesara\" (filament, neuter); \"khani, akara\" (mine, feminine); \"padah\" are foothills, \"pratyantaparvata\" the border mountains.",
+          "translationSource": "ai"
         },
         {
           "number": 82,
           "sanskrit": "उपत्यकाद्रेरासन्ना भूमिरूर्ध्वमधित्यका । स्वर्गपातालवर्गाद्या उक्ता नानार्थकान् शृणु",
           "transliteration": "upatyakādrerāsannā bhūmirūrdhvamadhityakā / svargapātālavargādyā uktā nānārthakān śṛṇu",
-          "hindi": "प्राणा अनेन' इस लौकिक विग्रहमें 'उ' प्रत्यय होता है। फिर गुण होकर 'स्वरुः' पद बनता है। “स्वरु' का अर्थ है-वज्र। त्रपू+उन्त्रपु। त्रपु' नाम है शीशेका। फल्ग्+उ=फल्गुः -सारहीन। अभिकाङ्क्षार्थक गृध्’ धातुसे 'सुसुधागृधिभ्यः क्रन्’, (१९२)-इस सूत्रके अनुसार 'क्रन्' प्रत्यय होनेपर गृध्+क्रन्, ककार-नकारको इत्संज्ञा गृधः' अर्थात् गीध पक्षी। मदि+किरच्=मन्दिरम्।"
+          "hindi": "प्राणा अनेन' इस लौकिक विग्रहमें 'उ' प्रत्यय होता है। फिर गुण होकर 'स्वरुः' पद बनता है। “स्वरु' का अर्थ है-वज्र। त्रपू+उन्त्रपु। त्रपु' नाम है शीशेका। फल्ग्+उ=फल्गुः -सारहीन। अभिकाङ्क्षार्थक गृध्’ धातुसे 'सुसुधागृधिभ्यः क्रन्’, (१९२)-इस सूत्रके अनुसार 'क्रन्' प्रत्यय होनेपर गृध्+क्रन्, ककार-नकारको इत्संज्ञा गृधः' अर्थात् गीध पक्षी। मदि+किरच्=मन्दिरम्।",
+          "translation": "\"Upatyaka\" is the land near a mountain, \"adhityaka\" the land above it. The groups beginning with heaven and the nether world have been told; now hear the words of many meanings.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -83089,25 +83231,33 @@
           "number": 13,
           "sanskrit": "नाम प्राकाश्यसम्भाव्यक्रोधोपगमकुत्सने । अलं भूषणपर्याप्तिशक्तिवारणवाचकम्",
           "transliteration": "nāma prākāśyasambhāvyakrodhopagamakutsane / alaṃ bhūṣaṇaparyāptiśaktivāraṇavācakam",
-          "hindi": "औणादिक सूत्रसे यहाँ 'इनच्' प्रत्यय हुआ है। “हरिण' कहते हैं -मृगको। यह शब्द कामी तथा पात्रविशेषके लिये भी प्रयुक्त होता है। ' अण्डन् कृसृभृवृजः।' (१३४)--इस सूत्रके अनुसार 'कृ'"
+          "hindi": "औणादिक सूत्रसे यहाँ 'इनच्' प्रत्यय हुआ है। “हरिण' कहते हैं -मृगको। यह शब्द कामी तथा पात्रविशेषके लिये भी प्रयुक्त होता है। ' अण्डन् कृसृभृवृजः।' (१३४)--इस सूत्रके अनुसार 'कृ'",
+          "translation": "\"Nama\" (indeed; in manifestation, possibility, anger, approach, contempt); \"alam\" (adornment, sufficiency, capacity, prohibition) — indeclinables and their senses.",
+          "translationSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "हूं वितर्के परिप्रश्ने समयान्तिकमध्ययोः । पुनरप्रथमे भेदे निर्निश् चयनिषेधयोः",
           "transliteration": "hūṃ vitarke paripraśne samayāntikamadhyayoḥ / punaraprathame bhede nirniś cayaniṣedhayoḥ",
-          "hindi": "आदि धातुओंसे ' अण्डन्' प्रत्यय करनेपर क्रमश: -- करण्डः, सरण्डः, भरण्डः, वरण्ड:--ये रूप सिद्ध होते हैं। 'करण्ड' शब्द भाजन और भाण्डका वाचक है। मेदिनीकोशके अनुसार यह शहदके छत्तेके लिये भी प्रयुक्त होता है। 'सरण्ड' शब्द चौपायेका वाचक है । कुछ विद्वान् “सरण्ड' का अर्थ पक्षी मानते हैं। 'बाहुलकात् तृ प्लबनतरणयोः।' इस धातुसे भी 'अण्डन्'"
+          "hindi": "आदि धातुओंसे ' अण्डन्' प्रत्यय करनेपर क्रमश: -- करण्डः, सरण्डः, भरण्डः, वरण्ड:--ये रूप सिद्ध होते हैं। 'करण्ड' शब्द भाजन और भाण्डका वाचक है। मेदिनीकोशके अनुसार यह शहदके छत्तेके लिये भी प्रयुक्त होता है। 'सरण्ड' शब्द चौपायेका वाचक है । कुछ विद्वान् “सरण्ड' का अर्थ पक्षी मानते हैं। 'बाहुलकात् तृ प्लबनतरणयोः।' इस धातुसे भी 'अण्डन्'",
+          "translation": "\"Hum\" (in doubt, in questioning); \"samaya\" (near, middle); \"punar\" (again, not first, difference); \"nir/nis\" (certainty, negation) — particles and their meanings.",
+          "translationSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "स्यात्प्रबन्धे चिरातीते निकटागामिके पुरा । उरर्युरी चोररी च विस्तारे ऽङ्गीकृते त्रयम्",
           "transliteration": "syātprabandhe cirātīte nikaṭāgāmike purā / uraryurī corarī ca vistāre 'ṅgīkṛte trayam",
-          "hindi": "प्रत्यय होकर तरण्ड' पदकी सिद्धि होती है। 'तरण्ड' शब्द काठके बेड़ेके लिये प्रयुक्त होता है। कुछ लोग मछली फँँसानेके लिये बनायी गयी बंसीके डोरेको भी 'तरण्ड' कहते हैं।"
+          "hindi": "प्रत्यय होकर तरण्ड' पदकी सिद्धि होती है। 'तरण्ड' शब्द काठके बेड़ेके लिये प्रयुक्त होता है। कुछ लोग मछली फँँसानेके लिये बनायी गयी बंसीके डोरेको भी 'तरण्ड' कहते हैं।",
+          "translation": "\"Syat\" (in composition); \"chirati\" (long past); \"purā\" (formerly, also of what is about to come); \"urari, uri, orari\" (in extension, assent — three words).",
+          "translationSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "स्वर्गे परे च लोके स्वर्वार्तासम्भावयोः किल । निषेधवाक्यालङ्कारे जिज्ञासावसरे(१) खलु",
           "transliteration": "svarge pare ca loke svarvārtāsambhāvayoḥ kila / niṣedhavākyālaṅkāre jijñāsāvasare(1) khalu",
-          "hindi": "“वरण्ड' शब्द सामवेदके लिये प्रयुक्त होता है। कुछ लोग 'साम' और 'यजुष्'-दो वेदोंके लिये इसका प्रयोग मानते हैं। कुछ लोगोंके मतमें 'वरण्ड' शब्द मुखसम्बन्धी रोगका वाचक है। “स्फायितञ्चिवञ्चि० (१७८)।' इत्यादि सूत्रसे वृद्भ्यर्थक 'स्फायि' धातुसे “रक्' प्रत्यय होनेपर 'स्फार' पदकी सिद्धि होती है। 'स्फार' शब्दका अर्थ होता है--प्रभूत अर्थात् अधिक । ' मेदिनीकोश 'के"
+          "hindi": "“वरण्ड' शब्द सामवेदके लिये प्रयुक्त होता है। कुछ लोग 'साम' और 'यजुष्'-दो वेदोंके लिये इसका प्रयोग मानते हैं। कुछ लोगोंके मतमें 'वरण्ड' शब्द मुखसम्बन्धी रोगका वाचक है। “स्फायितञ्चिवञ्चि० (१७८)।' इत्यादि सूत्रसे वृद्भ्यर्थक 'स्फायि' धातुसे “रक्' प्रत्यय होनेपर 'स्फार' पदकी सिद्धि होती है। 'स्फार' शब्दका अर्थ होता है--प्रभूत अर्थात् अधिक । ' मेदिनीकोश 'के",
+          "translation": "\"Kila\" (in heaven, the other world, hearsay, uncertainty); \"khalu\" (in prohibition, as an ornament of speech, in inquiry, on occasion) — indeclinables and their meanings.",
+          "translationSource": "ai"
         },
         {
           "number": 17,
