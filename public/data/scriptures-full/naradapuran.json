@@ -32803,403 +32803,537 @@
           "number": 171,
           "sanskrit": "अर्द्धमात्रिकमन्येषामन्येषामणुमात्रिकम्",
           "transliteration": "arddhamātrikamanyeṣāmanyeṣāmaṇumātrikam",
-          "hindi": "यह निपातनात् सिद्ध रूप है। इसी प्रकार ' द्रविणस्यु: ' इत्यादि भी है। वेदमें ' क्त्वा' परे रहते हा धातुका “हि!” आदेश विकल्पसे होता है। (हि! आदेश न होनेपर 'घुमास्था० ' इत्यादि सूत्रसे ' आ' के स्थानमें"
+          "hindi": "यह निपातनात् सिद्ध रूप है। इसी प्रकार ' द्रविणस्यु: ' इत्यादि भी है। वेदमें ' क्त्वा' परे रहते हा धातुका “हि!” आदेश विकल्पसे होता है। (हि! आदेश न होनेपर 'घुमास्था० ' इत्यादि सूत्रसे ' आ' के स्थानमें",
+          "translation": "For some a half-mora, for others an atom-mora.",
+          "translationSource": "ai"
         },
         {
           "number": 172,
           "sanskrit": "आपद्यते मकारो रेफोष्मसु प्रत्यये ऽप्यनुस्वारम् । पवेषु परसवर्णं स्पर्शेषु चोत्तमापतिम्",
           "transliteration": "āpadyate makāro rephoṣmasu pratyaye 'pyanusvāram / paveṣu parasavarṇaṃ sparśeṣu cottamāpatim",
-          "hindi": "“ई” हो जाता है; अत: 'हित्वा' और 'हीत्वा' दोनों रूप होते हैं। 'सु' पूर्वक धा-धातुसे “क्त 'प्रत्यय परे होनेपर “इत्व” निपातन किया जाता है; इससे 'सुधितम्' रूप बनता है--यथा “गर्भ माता सुधितं"
+          "hindi": "“ई” हो जाता है; अत: 'हित्वा' और 'हीत्वा' दोनों रूप होते हैं। 'सु' पूर्वक धा-धातुसे “क्त 'प्रत्यय परे होनेपर “इत्व” निपातन किया जाता है; इससे 'सुधितम्' रूप बनता है--यथा “गर्भ माता सुधितं",
+          "translation": "The letter \"m\" becomes anusvara before \"r\", sibilants and \"h\", and even before a suffix; before labials it becomes the homorganic nasal, and before stops, the final one.",
+          "translationSource": "ai"
         },
         {
           "number": 173,
           "sanskrit": "नकारान्ते पदा पूर्वे स्वरे च परतः स्थिते । अकारं रक्तमित्याहुस्तकारेण तु रज्यते",
           "transliteration": "nakārānte padā pūrve svare ca parataḥ sthite / akāraṃ raktamityāhustakāreṇa tu rajyate",
-          "hindi": "रूप निपातनसे सिद्ध हैं। ये ' ध् '-धातुके यड्लुगन्त रूप हैं। 'स्ववद्धि:” अव-धातुसे असुन् करनेपर 'अवस्' रूप होता है। 'शोभनमवो येषां ते स्ववस:,"
+          "hindi": "रूप निपातनसे सिद्ध हैं। ये ' ध् '-धातुके यड्लुगन्त रूप हैं। 'स्ववद्धि:” अव-धातुसे असुन् करनेपर 'अवस्' रूप होता है। 'शोभनमवो येषां ते स्ववस:,",
+          "translation": "When a word ends in \"n\" and a vowel follows, they call the \"a\" coloured (nasalised); it is coloured by the \"t\"-sound.",
+          "translationSource": "ai"
         },
         {
           "number": 174,
           "sanskrit": "नकारान्ते पदे पूर्वे व्यञ्जनैश्च यवोहिषु । अर्द्धमात्रा तु पूर्वस्य रज्यते त्वणुमात्रया",
           "transliteration": "nakārānte pade pūrve vyañjanaiśca yavohiṣu / arddhamātrā tu pūrvasya rajyate tvaṇumātrayā",
-          "hindi": "'स्वव:स्वतवसोरुषसश्रैष्यते ' इस वार्तिकसे भकारादि प्रत्यय परे रहते 'स्ववस्” आदि शब्दोंके 'स्' का 'त्” हो जाता है। प्रसवार्थक 'सू' धातुके लिट्में 'ससूवेति निगमे” सूत्रसे 'ससूव” यह निपातसिद्ध"
+          "hindi": "'स्वव:स्वतवसोरुषसश्रैष्यते ' इस वार्तिकसे भकारादि प्रत्यय परे रहते 'स्ववस्” आदि शब्दोंके 'स्' का 'त्” हो जाता है। प्रसवार्थक 'सू' धातुके लिट्में 'ससूवेति निगमे” सूत्रसे 'ससूव” यह निपातसिद्ध",
+          "translation": "When the preceding word ends in \"n\" and consonants like \"y, v, h\" follow, the half-mora of the former is coloured with an atom-mora.",
+          "translationSource": "ai"
         },
         {
           "number": 175,
           "sanskrit": "नकारस्वरसंयुक्तश्चतुर्युक्तो विधीयते । रेफो रङ्गश्च लोपश्च सानुस्वरो ऽपि वा क्वचित्",
           "transliteration": "nakārasvarasaṃyuktaścaturyukto vidhīyate / repho raṅgaśca lopaśca sānusvaro 'pi vā kvacit",
-          "hindi": "रूप है। यथा--' गृष्टि: ससूव स्थविरम्!। 'सुधित ' इत्यादि सूत्रसे ' धत्स्व' के स्थानमें 'घिस्व” निपातित"
+          "hindi": "रूप है। यथा--' गृष्टि: ससूव स्थविरम्!। 'सुधित ' इत्यादि सूत्रसे ' धत्स्व' के स्थानमें 'घिस्व” निपातित",
+          "translation": "The final \"n\" joined with a vowel is made with the fourth; \"r\", \"ranga\", and elision, or with anusvara, sometimes.",
+          "translationSource": "ai"
         },
         {
           "number": 176,
           "sanskrit": "हृदयादुत्तिष्टतेरङ्गः कांस्येन तु समन्वितः । मृदुश्चैव द्विमात्रश्च दधन्वां इति निदर्शनम्",
           "transliteration": "hṛdayāduttiṣṭateraṅgaḥ kāṃsyena tu samanvitaḥ / mṛduścaiva dvimātraśca dadhanvāṃ iti nidarśanam",
-          "hindi": "प्रप्रायमग्नि: ' यहाँ ' प्रसमुपोद: पादपूरणे” से पादपूर्तिके लिये “प्र” उपसर्गका द्वित्व हो गया है। 'हरिवते हर्यश्वाय' यहाँ 'छन्दसीर: ' से 'मतुप्” के 'म' का 'व! हुआ है। ' अक्षण्वन्त: ' में अक्षि-शब्दसे मतुप्, “छन्दस्यपि दृश्यते! से अनड्-आदेश तथा 'अनो नुट्' से 'नुट का आगम हुआ है। 'सुपथिन्तरः '"
+          "hindi": "प्रप्रायमग्नि: ' यहाँ ' प्रसमुपोद: पादपूरणे” से पादपूर्तिके लिये “प्र” उपसर्गका द्वित्व हो गया है। 'हरिवते हर्यश्वाय' यहाँ 'छन्दसीर: ' से 'मतुप्” के 'म' का 'व! हुआ है। ' अक्षण्वन्त: ' में अक्षि-शब्दसे मतुप्, “छन्दस्यपि दृश्यते! से अनड्-आदेश तथा 'अनो नुट्' से 'नुट का आगम हुआ है। 'सुपथिन्तरः '",
+          "translation": "\"Ranga\" rises from the heart, joined with a bell-metal sound, soft and two moras long; \"dadhanvan\" is an example.",
+          "translationSource": "ai"
         },
         {
           "number": 177,
           "sanskrit": "यथा सौराष्ट्रिका नारी अरां इत्यभिभाषते । एवं रङ्गः प्रयोक्तव्यो नारदैतन्मतं मम",
           "transliteration": "yathā saurāṣṭrikā nārī arāṃ ityabhibhāṣate / evaṃ raṅgaḥ prayoktavyo nāradaitanmataṃ mama",
-          "hindi": "देव सवितः ” यहाँ “त्रिभिस+त्वम्! इस दशामें “युष्मत्तत्ततश्लुष्वन्त:पादम्” इस सूत्रमें 'स्' के स्थानमें 'घ्' होकर प्टत्व होनेसे 'त्रिभिष्ठटम्' बनता है। 'नृभिष्टत: ' यहाँ 'स्तुतस्तोमयोश्छन्दसि ' इस सूत्रसे"
+          "hindi": "देव सवितः ” यहाँ “त्रिभिस+त्वम्! इस दशामें “युष्मत्तत्ततश्लुष्वन्त:पादम्” इस सूत्रमें 'स्' के स्थानमें 'घ्' होकर प्टत्व होनेसे 'त्रिभिष्ठटम्' बनता है। 'नृभिष्टत: ' यहाँ 'स्तुतस्तोमयोश्छन्दसि ' इस सूत्रसे",
+          "translation": "As a woman of Saurashtra says \"aram\", so the ranga should be used; this is my (Narada's) view.",
+          "translationSource": "ai"
         },
         {
           "number": 178,
           "sanskrit": "स्वरा गडदबाश्चैव ङणनमाः सहोष्मभिः । चतुर्णां पदजातीनां पदान्ता दश कीर्तिताः",
           "transliteration": "svarā gaḍadabāścaiva ṅaṇanamāḥ sahoṣmabhiḥ / caturṇāṃ padajātīnāṃ padāntā daśa kīrtitāḥ",
-          "hindi": "“नृभिस्' के 'स्' का 'ष्! होकर प्टत्व हुआ है॥ १७॥ 'अभीषुण: ' यहाँ 'सुज: ' सूत्रसे 'स्' का 'ष्! हुआ है। 'ऋताषाहम्' में 'सहे: पृतनर्ताभ्यां च'” इस सूत्रसे 'स्”का मूर्धन्य आदेश हुआ है।"
+          "hindi": "“नृभिस्' के 'स्' का 'ष्! होकर प्टत्व हुआ है॥ १७॥ 'अभीषुण: ' यहाँ 'सुज: ' सूत्रसे 'स्' का 'ष्! हुआ है। 'ऋताषाहम्' में 'सहे: पृतनर्ताभ्यां च'” इस सूत्रसे 'स्”का मूर्धन्य आदेश हुआ है।",
+          "translation": "The vowels, the letters \"ga, da, da, ba,\" \"n, n, n, m\" with the sibilants — ten are declared as word-finals for the four kinds of words.",
+          "translationSource": "ai"
         },
         {
           "number": 179,
           "sanskrit": "स्वर उच्चः स्वरो नीचः स्वरः स्वरित एव च । व्यञ्जना न तु वर्तन्ते यत्र तिष्टति स स्वरः",
           "transliteration": "svara uccaḥ svaro nīcaḥ svaraḥ svarita eva ca / vyañjanā na tu vartante yatra tiṣṭati sa svaraḥ",
-          "hindi": "“न्यषीदत्' यहाँ भी 'निव्यभिभ्योड्ड्व्यवाये वा"
+          "hindi": "“न्यषीदत्' यहाँ भी 'निव्यभिभ्योड्ड्व्यवाये वा",
+          "translation": "Tone is high, low, and svarita; where consonants do not occur, there the vowel stands.",
+          "translationSource": "ai"
         },
         {
           "number": 180,
           "sanskrit": "स्वरप्रधानं त्रैस्वर्यमाचार्याः प्रतिजानते । मणिवद्व्यञ्जनं विद्यात्सूत्र वञ्च स्वरं विदुः",
           "transliteration": "svarapradhānaṃ traisvaryamācāryāḥ pratijānate / maṇivadvyañjanaṃ vidyātsūtra vañca svaraṃ viduḥ",
-          "hindi": "छनन्‍्दसि” इस सूत्रसे 'स” का मूर्धन्य हुआ है। 'नृमणा:' इस पदमें 'छन्दस्युदवग्रहात्” सूत्रसे 'न' का “'ण' हुआ है। बाहुलक चार प्रकारके होते हैं--कहीं प्रवृत्ति होती है, कहीं अप्रवृत्ति होती है,"
+          "hindi": "छनन्‍्दसि” इस सूत्रसे 'स” का मूर्धन्य हुआ है। 'नृमणा:' इस पदमें 'छन्दस्युदवग्रहात्” सूत्रसे 'न' का “'ण' हुआ है। बाहुलक चार प्रकारके होते हैं--कहीं प्रवृत्ति होती है, कहीं अप्रवृत्ति होती है,",
+          "translation": "The teachers hold the threefold tone to be vowel-dominant. Know the consonant as a jewel, and the vowel as the thread.",
+          "translationSource": "ai"
         },
         {
           "number": 181,
           "sanskrit": "दुर्बलस्य यथा राष्ट्रं हरते बलवान्नृपः । दुर्बलं व्यजनं तद्वद्धरेत बलवान्स्वरः",
           "transliteration": "durbalasya yathā rāṣṭraṃ harate balavānnṛpaḥ / durbalaṃ vyajanaṃ tadvaddhareta balavānsvaraḥ",
-          "hindi": "कहीं वैकल्पिक विधि है और कहीं अन्यथाभाव होता है। इस प्रकार सम्पूर्ण वैदिक पद-समुदाय सिद्ध है। क्रियावाची 'भू” 'वा'आदि शब्दोंकी 'धातु” संज्ञा जाननी चाहिए। 'भू आदि धातु"
+          "hindi": "कहीं वैकल्पिक विधि है और कहीं अन्यथाभाव होता है। इस प्रकार सम्पूर्ण वैदिक पद-समुदाय सिद्ध है। क्रियावाची 'भू” 'वा'आदि शब्दोंकी 'धातु” संज्ञा जाननी चाहिए। 'भू आदि धातु",
+          "translation": "As a strong king seizes the realm of a weak one, so a strong vowel should seize a weak consonant.",
+          "translationSource": "ai"
         },
         {
           "number": 182,
           "sanskrit": "उभावश्च विवृत्तिश्च शषसारेफ एव च । जिह्वामूलमुपध्मा च गतिरष्टविधोष्मणः",
           "transliteration": "ubhāvaśca vivṛttiśca śaṣasārepha eva ca / jihvāmūlamupadhmā ca gatiraṣṭavidhoṣmaṇaḥ",
-          "hindi": "परस्मैपदी माने गये हैं॥ १५८-१९॥ 'एध' आदि छत्तीस धातु उदात्त एवं आत्मनेपदी हैं (इन्हें अनुदात्तेत्” माना गया है)। मुने! 'अत' आदि सैंतीस धातु परस्मैपदी हैं॥२०॥ शी-कृ आदि"
+          "hindi": "परस्मैपदी माने गये हैं॥ १५८-१९॥ 'एध' आदि छत्तीस धातु उदात्त एवं आत्मनेपदी हैं (इन्हें अनुदात्तेत्” माना गया है)। मुने! 'अत' आदि सैंतीस धातु परस्मैपदी हैं॥२०॥ शी-कृ आदि",
+          "translation": "Both \"ubha\" and \"vivritti\", \"sha, sha, sa\", and \"r\", the root of the tongue and upadhmaniya — the movement of the sibilants is eightfold.",
+          "translationSource": "ai"
         },
         {
           "number": 183,
           "sanskrit": "स्वरप्रत्ययाविवृतिः संहितायां तु या भवेत् । विसर्गस्तत्र मन्तव्यरतालव्यश्चात्र जायते",
           "transliteration": "svarapratyayāvivṛtiḥ saṃhitāyāṃ tu yā bhavet / visargastatra mantavyaratālavyaścātra jāyate",
-          "hindi": "बयालीस धातु आत्मनेपदमें परिगणित हुए हैं।"
+          "hindi": "बयालीस धातु आत्मनेपदमें परिगणित हुए हैं।",
+          "translation": "Where vowel and suffix are open in the conjunction (samhita), there it is regarded as visarga, and a palatal arises.",
+          "translationSource": "ai"
         },
         {
           "number": 184,
           "sanskrit": "संध्यक्षरे परे संधौ प्राप्तसुप्तौ यवौ यदि । व्यञ्जनाख्या विवृत्तिस्तु स्वराख्या प्रतिसंहिता",
           "transliteration": "saṃdhyakṣare pare saṃdhau prāptasuptau yavau yadi / vyañjanākhyā vivṛttistu svarākhyā pratisaṃhitā",
-          "hindi": "कहे गये हैं॥२१॥ वर्च आदि इक्कौस धातु अनुदात्तेत् (आत्मनेपदी) बताये गये हैं। 'गुप्'"
+          "hindi": "कहे गये हैं॥२१॥ वर्च आदि इक्कौस धातु अनुदात्तेत् (आत्मनेपदी) बताये गये हैं। 'गुप्'",
+          "translation": "In a diphthong, in the following junction, if \"y\" and \"v\" have fallen asleep, the consonant-named openness is the vowel-named re-combination.",
+          "translationSource": "ai"
         },
         {
           "number": 185,
           "sanskrit": "ऊष्मान्तं विरते यत्र संभावो भवति क्वचित् । विवृत्तिर्या भवेत्तत्र स्वराख्यां तां विनिर्द्दिशेत्",
           "transliteration": "ūṣmāntaṃ virate yatra saṃbhāvo bhavati kvacit / vivṛttiryā bhavettatra svarākhyāṃ tāṃ vinirddiśet",
-          "hindi": "गये हैं॥ २२ ॥ 'घिणि' आदि दस धातु शाब्दिकोंद्वारा 'अनुदात्तेत्” कहे गये हैं। 'अण्!” आदि सत्ताईस धातु 'उदात्तेत्! बताये गये हैं॥ २३॥ ' अय' आदि चौंतीस धातु वैयाकरणोंद्वारा अनुदात्तेत् (आत्मनेपदी )"
+          "hindi": "गये हैं॥ २२ ॥ 'घिणि' आदि दस धातु शाब्दिकोंद्वारा 'अनुदात्तेत्” कहे गये हैं। 'अण्!” आदि सत्ताईस धातु 'उदात्तेत्! बताये गये हैं॥ २३॥ ' अय' आदि चौंतीस धातु वैयाकरणोंद्वारा अनुदात्तेत् (आत्मनेपदी )",
+          "translation": "Where a sibilant ends and pauses and some chance arises, the openness there should be called vowel-named.",
+          "translationSource": "ai"
         },
         {
           "number": 186,
           "sanskrit": "यद्योभावप्रसंधानमृकारादिपरं पदम् । स्वरान्तं तादृशं विद्याद्यदन्यव्द्यक्तमूष्मणः",
           "transliteration": "yadyobhāvaprasaṃdhānamṛkārādiparaṃ padam / svarāntaṃ tādṛśaṃ vidyādyadanyavdyaktamūṣmaṇaḥ",
-          "hindi": "माने गये हैं। 'मव्य” आदि बहत्तर धातु उदात्तानुबन्धी कहे गये हैं॥ २४ ॥ ' धावु” धातु अकेला ही 'स्वरितित्” कहा गया है। ' क्षुध' आदि बावन धातु ' अनुदात्तित्' कहे गये हैं॥२५॥ 'घुषिर!” आदि अठासी धातु"
+          "hindi": "माने गये हैं। 'मव्य” आदि बहत्तर धातु उदात्तानुबन्धी कहे गये हैं॥ २४ ॥ ' धावु” धातु अकेला ही 'स्वरितित्” कहा गया है। ' क्षुध' आदि बावन धातु ' अनुदात्तित्' कहे गये हैं॥२५॥ 'घुषिर!” आदि अठासी धातु",
+          "translation": "If a word follows with \"r\" and the rest after a junction of \"ya\" and \"ubha\", know it as ending in a vowel, otherwise a sibilant is manifest.",
+          "translationSource": "ai"
         },
         {
           "number": 187,
           "sanskrit": "प्रथमा उत्तमाश्चैव पदान्तेषु यदि स्थिताः । द्वितीयं स्थानमापन्नाः शषसप्रत्यया यदि",
           "transliteration": "prathamā uttamāścaiva padānteṣu yadi sthitāḥ / dvitīyaṃ sthānamāpannāḥ śaṣasapratyayā yadi",
-          "hindi": "'उदत्तेत्' माने गये हैं। 'द्युत' आदि बाईस धातु अनुदत्तेत्! स्वीकार किये गये हैं॥ २६ ॥ घटादिमें तेरह धातु 'षित्” और “अनुदात्तेत्' कहे गये हैं।"
+          "hindi": "'उदत्तेत्' माने गये हैं। 'द्युत' आदि बाईस धातु अनुदत्तेत्! स्वीकार किये गये हैं॥ २६ ॥ घटादिमें तेरह धातु 'षित्” और “अनुदात्तेत्' कहे गये हैं।",
+          "translation": "The first and last letters at word-ends, if they have reached the second place, with \"sha, sha, sa\" as suffixes,",
+          "translationSource": "ai"
         },
         {
           "number": 188,
           "sanskrit": "प्रथमानूष्मसंयुक्तान् द्वितीयानिव दर्शयेत् । न चैतान्प्रतिजानीयाद्यथा मत्स्यः क्षुरोप्सराः",
           "transliteration": "prathamānūṣmasaṃyuktān dvitīyāniva darśayet / na caitānpratijānīyādyathā matsyaḥ kṣuropsarāḥ",
-          "hindi": "गये हैं॥ २७॥ “राजृ' धातु 'स्वरितेत्' है। उसके"
+          "hindi": "गये हैं॥ २७॥ “राजृ' धातु 'स्वरितेत्' है। उसके",
+          "translation": "should be shown as though the firsts joined with sibilants were seconds. Do not take them so, as in \"matsya\", \"kshura\", \"apsara\".",
+          "translationSource": "ai"
         },
         {
           "number": 189,
           "sanskrit": "छन्दोमानं च वृत्तं च पादस्थानं त्रिकारणम् । ऋचः स्वच्छन्दवृत्तास्तु पादास्त्वक्षरमानतः",
           "transliteration": "chandomānaṃ ca vṛttaṃ ca pādasthānaṃ trikāraṇam / ṛcaḥ svacchandavṛttāstu pādāstvakṣaramānataḥ",
-          "hindi": "'अनुदात्तेत्'” कहे गये हैं। तदनन्तर 'स्यमु' धातुसे लेकर आगे सभी आइ्युदात्त एवं उदात्तेत् (परस्मैपदी) हैं॥ २८॥ फिर एकमात्र “'षह' धातु 'अनुदात्तेत्' तथा अकेला 'रम' धातु 'आत्मनेपदी' है। उसके"
+          "hindi": "'अनुदात्तेत्'” कहे गये हैं। तदनन्तर 'स्यमु' धातुसे लेकर आगे सभी आइ्युदात्त एवं उदात्तेत् (परस्मैपदी) हैं॥ २८॥ फिर एकमात्र “'षह' धातु 'अनुदात्तेत्' तथा अकेला 'रम' धातु 'आत्मनेपदी' है। उसके",
+          "translation": "Metre-measure, rhythm, and foot-place are the three reasons; verses are of their own free rhythm, and feet are by syllable-count.",
+          "translationSource": "ai"
         },
         {
           "number": 190,
           "sanskrit": "ऋग्वर्य्यान् स्वरभक्तिं च छन्दोमानेन निर्द्दिशेत् । प्रत्ययेत सहारेफमिमीते स्वरभक्तया",
           "transliteration": "ṛgvaryyān svarabhaktiṃ ca chandomānena nirddiśet / pratyayeta sahārephamimīte svarabhaktayā",
-          "hindi": "बाद “सद' आदि तीन धातु “उदात्तेत्” हैं। फिर"
+          "hindi": "बाद “सद' आदि तीन धातु “उदात्तेत्” हैं। फिर",
+          "translation": "One should determine the rik-word vowels and svarabhakti by the metre-measure; \"pratyayeta sa harepham\" he measures with svarabhakti.",
+          "translationSource": "ai"
         },
         {
           "number": 191,
           "sanskrit": "ऋवर्णे तु पृथग्रेफः प्रत्ययस्तु वृथा भवेत । विद्याल्लघुमृकारं तु यदि तूष्माणसंयुतः",
           "transliteration": "ṛvarṇe tu pṛthagrephaḥ pratyayastu vṛthā bhaveta / vidyāllaghumṛkāraṃ tu yadi tūṣmāṇasaṃyutaḥ",
-          "hindi": "ही हैं ॥२९॥ इसके बाद 'हिक्क' आदि पैंतीस धातु 'स्वरितेत्' हैं। 'श्रिज्” धातु स्वरितेत् है। ' भूज्' आदि चार धातु भी स्वरितेत् ही हैं॥३०॥"
+          "hindi": "ही हैं ॥२९॥ इसके बाद 'हिक्क' आदि पैंतीस धातु 'स्वरितेत्' हैं। 'श्रिज्” धातु स्वरितेत् है। ' भूज्' आदि चार धातु भी स्वरितेत् ही हैं॥३०॥",
+          "translation": "In the sound \"ri\" the \"r\" is separate and the suffix would be in vain; know the short \"ri\" if joined with a sibilant.",
+          "translationSource": "ai"
         },
         {
           "number": 192,
           "sanskrit": "ऊष्मणैव हि संयुक्त ऋकारो यत्र पीड्यते । गुरुवर्णः स विज्ञेयस्तृचं चात्र निदर्शनम्",
           "transliteration": "ūṣmaṇaiva hi saṃyukta ṛkāro yatra pīḍyate / guruvarṇaḥ sa vijñeyastṛcaṃ cātra nidarśanam",
-          "hindi": "हैं। 'स्मिडः आदि अठारह धातु आत्मनेपदी माने गये हैं॥ ३१ ॥ फिर 'पूढः ' आदि तीन धातु अनुदात्तेत् कहे गये हैं। 'ह' धातु परस्मैपदी है। फिर “गुप 'से लेकर तीन धातु आत्मनेपदी हैं॥३२॥ “रम!”"
+          "hindi": "हैं। 'स्मिडः आदि अठारह धातु आत्मनेपदी माने गये हैं॥ ३१ ॥ फिर 'पूढः ' आदि तीन धातु अनुदात्तेत् कहे गये हैं। 'ह' धातु परस्मैपदी है। फिर “गुप 'से लेकर तीन धातु आत्मनेपदी हैं॥३२॥ “रम!”",
+          "translation": "Where \"ri\" joined only with a sibilant is pressed, know it as a heavy syllable; here \"trcham\" is an example.",
+          "translationSource": "ai"
         },
         {
           "number": 193,
           "sanskrit": "ऋषभं च गृहीतं च बृहस्पतिं पृथिव्यां च । निरृतिपञ्चमा ह्यत्र ऋकारा नात्र संशयः",
           "transliteration": "ṛṣabhaṃ ca gṛhītaṃ ca bṛhaspatiṃ pṛthivyāṃ ca / nirṛtipañcamā hyatra ṛkārā nātra saṃśayaḥ",
-          "hindi": "आदि धातु अनुदात्तेत् हैं और “जिक्ष्वदा' उदात्तेत् है। स्कम्भु आदि पंद्रह धातु परस्मैपदी हैं॥३३॥ “कित' धातु 'उदात्तेत्! है। 'दान' 'शान'-ये दो धातु उभयपदी हैं। 'पच' आदि नौ धातु स्वरितेत्"
+          "hindi": "आदि धातु अनुदात्तेत् हैं और “जिक्ष्वदा' उदात्तेत् है। स्कम्भु आदि पंद्रह धातु परस्मैपदी हैं॥३३॥ “कित' धातु 'उदात्तेत्! है। 'दान' 'शान'-ये दो धातु उभयपदी हैं। 'पच' आदि नौ धातु स्वरितेत्",
+          "translation": "\"Rishabham\", \"grihitam\", \"Brihaspatim\", \"prithivyam\", \"nirriti\" — in these five there are \"ri\" sounds, without doubt.",
+          "translationSource": "ai"
         },
         {
           "number": 194,
           "sanskrit": "शषसह रादौ रेफः स्परभक्तिर्जायते द्विपदसंधौ । इउवर्णाभ्यां हीना क्वचिदेकपदाक्रमवियुक्ता",
           "transliteration": "śaṣasaha rādau rephaḥ sparabhaktirjāyate dvipadasaṃdhau / iuvarṇābhyāṃ hīnā kvacidekapadākramaviyuktā",
-          "hindi": "(उभयपदी) हैं। वे परस्मैपदी (और आत्मनेपदी दोनों) माने गये हैं॥३४॥ फिर तीन स्वरितेत् धातु हैं। परिभाषणार्थक 'वद” और “वच'” धातु परस्मैपदी हैं। ये एक हजार छः: धातु भ्वादि कहे"
+          "hindi": "(उभयपदी) हैं। वे परस्मैपदी (और आत्मनेपदी दोनों) माने गये हैं॥३४॥ फिर तीन स्वरितेत् धातु हैं। परिभाषणार्थक 'वद” और “वच'” धातु परस्मैपदी हैं। ये एक हजार छः: धातु भ्वादि कहे",
+          "translation": "Before \"sha, sha, sa, ha\" and \"r\", svarabhakti arises at the junction of two words, sometimes lacking \"i\" and \"u\", sometimes without a single word's sequence.",
+          "translationSource": "ai"
         },
         {
           "number": 195,
           "sanskrit": "स्वरभक्तिर्द्विधा प्रोक्ताऋकारे रेफ एव च । स्वरोदा व्यञ्जनोदा च विहिताक्षरचिन्तकैः",
           "transliteration": "svarabhaktirdvidhā proktāṛkāre repha eva ca / svarodā vyañjanodā ca vihitākṣaracintakaiḥ",
-          "hindi": "हैं। 'द्विष” आदि चार धातु स्वरितेत् माने गये हैं ॥ ३६॥ यहाँ केवल “चक्षिड् धातु आत्मनेपदी कहा गया है। फिर 'ईर” आदि तेरह धातु अनुदात्तेत् हैं॥३७॥ मुने! वैयाकरणोंने “घूड़ः और “शीड्--इन दो धातुओंको आत्मनेपदी कहा है। फिर 'षु” आदि सात धातु परस्मैपदी"
+          "hindi": "हैं। 'द्विष” आदि चार धातु स्वरितेत् माने गये हैं ॥ ३६॥ यहाँ केवल “चक्षिड् धातु आत्मनेपदी कहा गया है। फिर 'ईर” आदि तेरह धातु अनुदात्तेत् हैं॥३७॥ मुने! वैयाकरणोंने “घूड़ः और “शीड्--इन दो धातुओंको आत्मनेपदी कहा है। फिर 'षु” आदि सात धातु परस्मैपदी",
+          "translation": "Svarabhakti is said to be twofold: in \"ri\" and in \"r\" — vowel-initial and consonant-initial, as thought by those who consider syllables.",
+          "translationSource": "ai"
         },
         {
           "number": 196,
           "sanskrit": "शषसेषु स्वरोदयां हकारे व्यञ्जनोदयाम् । शषसेषु विवृतां तु हकारे संवृतां विदुः",
           "transliteration": "śaṣaseṣu svarodayāṃ hakāre vyañjanodayām / śaṣaseṣu vivṛtāṃ tu hakāre saṃvṛtāṃ viduḥ",
-          "hindi": "आदि धातु मैंने तुम्हें परस्मैपदी कहे हैं। 'दीधीड्"
+          "hindi": "आदि धातु मैंने तुम्हें परस्मैपदी कहे हैं। 'दीधीड्",
+          "translation": "In the sibilants, vowel-initial; in \"ha\", consonant-initial; they know it open in the sibilants and closed in \"ha\".",
+          "translationSource": "ai"
         },
         {
           "number": 197,
           "sanskrit": "स्वरभक्तिं प्रयुञ्जान स्रीन्दोषान्परिवर्जयेत् । इकारं चाप्युकारं ग्रस्तदोषं तथैव च",
           "transliteration": "svarabhaktiṃ prayuñjāna srīndoṣānparivarjayet / ikāraṃ cāpyukāraṃ grastadoṣaṃ tathaiva ca",
-          "hindi": "हैं ॥४३॥ “षस' आदि तीन धातु “उदात्तेत्” हैं। मुनिश्रेष्ठ! 'चर्करीतं च' यह यड्लुगन्तका प्रतीक है। यह अदादि माना गया है। 'हड धातु अनुदात्तेत् कहा गया है॥ ४४॥ इस प्रकार अदादि"
+          "hindi": "हैं ॥४३॥ “षस' आदि तीन धातु “उदात्तेत्” हैं। मुनिश्रेष्ठ! 'चर्करीतं च' यह यड्लुगन्तका प्रतीक है। यह अदादि माना गया है। 'हड धातु अनुदात्तेत् कहा गया है॥ ४४॥ इस प्रकार अदादि",
+          "translation": "Using svarabhakti, one should avoid faults of \"sri\"; also \"i\", \"u\", and devoured faults likewise.",
+          "translationSource": "ai"
         },
         {
           "number": 198,
           "sanskrit": "संयोगपरं छपरं विसर्जनीयं द्विमात्रकं चैव । अथ सान्तिक च नङ्मसानुस्वारं घुटतं च",
           "transliteration": "saṃyogaparaṃ chaparaṃ visarjanīyaṃ dvimātrakaṃ caiva / atha sāntika ca naṅmasānusvāraṃ ghuṭataṃ ca",
-          "hindi": "गणमें तिहत्तर धातु बताये गये हैं।"
+          "hindi": "गणमें तिहत्तर धातु बताये गये हैं।",
+          "translation": "Followed by a conjunct, followed by \"cha\", visarjaniya, two-mora; then \"santika\", \"n\", \"m\" with anusvara, and \"ghuta\".",
+          "translationSource": "ai"
         },
         {
           "number": 199,
           "sanskrit": "यस्याः पादः प्रथमो द्वादशमात्रस्तथा तृतीयो ऽपि । अष्टादशो द्वितीयः समापन्नः पञ्चदशमात्रः । यस्या लक्षणमुक्तं या त्वन्या सा स्मृता विपुला",
           "transliteration": "yasyāḥ pādaḥ prathamo dvādaśamātrastathā tṛtīyo 'pi / aṣṭādaśo dvitīyaḥ samāpannaḥ pañcadaśamātraḥ / yasyā lakṣaṇamuktaṃ yā tvanyā sā smṛtā vipulā",
-          "hindi": "परस्मैपदी माने गये हैं ॥ ४५ ॥ ' भूज्! धातु स्वरितेत् और “ओहाक्' धातु उदात्तेत् है। 'माड”ः और 'ओहाड--ये दोनों धातु अनुदात्तेत् हैं। दानार्थक 'दा' और धारणार्थक ' धा'--इनमें स्वरितकी इत्संज्ञा"
+          "hindi": "परस्मैपदी माने गये हैं ॥ ४५ ॥ ' भूज्! धातु स्वरितेत् और “ओहाक्' धातु उदात्तेत् है। 'माड”ः और 'ओहाड--ये दोनों धातु अनुदात्तेत् हैं। दानार्थक 'दा' और धारणार्थक ' धा'--इनमें स्वरितकी इत्संज्ञा",
+          "translation": "A verse whose first foot has twelve moras and third also; the second is eighteen, and it has attained fifteen moras; one whose mark is stated, the other is called \"vipula\".",
+          "translationSource": "ai"
         },
         {
           "number": 200,
           "sanskrit": "अक्षराणां लघुह्रस्वमसंयोगपरं यदि । तत्संयोगोत्तरं विद्याद्गुरुदार्घाक्षराणि तु",
           "transliteration": "akṣarāṇāṃ laghuhrasvamasaṃyogaparaṃ yadi / tatsaṃyogottaraṃ vidyādgurudārghākṣarāṇi tu",
-          "hindi": "हुई है ॥ ४६ ॥ 'णिजिर्' आदि तीन धातु स्वरितेत् कहे गये हैं। 'घृ! आदि बारह धातु परस्मैपदी माने गये हैं ॥ ४७ ॥ इस प्रकार ह्वादि (जुहोत्यादि) गणमें बाईस धातु कहे गये हैं।"
+          "hindi": "हुई है ॥ ४६ ॥ 'णिजिर्' आदि तीन धातु स्वरितेत् कहे गये हैं। 'घृ! आदि बारह धातु परस्मैपदी माने गये हैं ॥ ४७ ॥ इस प्रकार ह्वादि (जुहोत्यादि) गणमें बाईस धातु कहे गये हैं।",
+          "translation": "If a short syllable is not followed by a conjunct, it is short; know the long ones as those followed by a conjunct.",
+          "translationSource": "ai"
         },
         {
           "number": 201,
           "sanskrit": "विवृत्तिर् यत्र दृश्यते स्वारस्यैवाग्रतः स्थितः",
           "transliteration": "vivṛttir yatra dṛśyate svārasyaivāgrataḥ sthitaḥ",
-          "hindi": "गये हैं॥४८॥ नारद! 'घषूड” आदि “दूड़--ये आत्मनेपदी हैं। 'षूड” आदि सात धातु ओदित् और आत्मनेपदी माने गये हैं॥४९॥ विप्रवर! “लीड आदि धातु यहाँ आत्मनेपदी बताये गये"
+          "hindi": "गये हैं॥४८॥ नारद! 'घषूड” आदि “दूड़--ये आत्मनेपदी हैं। 'षूड” आदि सात धातु ओदित् और आत्मनेपदी माने गये हैं॥४९॥ विप्रवर! “लीड आदि धातु यहाँ आत्मनेपदी बताये गये",
+          "translation": "Where an opening is seen standing before a svara-syllable,",
+          "translationSource": "ai"
         },
         {
           "number": 202,
           "sanskrit": "गुरुस्वारः सविज्ञेयः क्षैप्रस्तत्र न विद्यते ॥अ अष्टप्रकारं विज्ञेयं पदानां स्वरलक्षणम्",
           "transliteration": "gurusvāraḥ savijñeyaḥ kṣaiprastatra na vidyate //a aṣṭaprakāraṃ vijñeyaṃ padānāṃ svaralakṣaṇam",
-          "hindi": "हैं। श्यति (शो) आदि चार धातु परस्मैपदी हैं॥५० ॥ मुने! 'जनी' आदि पंद्रह धातु आत्मनेपदी हैं। 'मृष' आदि पाँच धातु 'स्वरितेत्” कहे गये हैं॥५१॥ “पद' आदि ग्यारह धातु आत्मनेपदी"
+          "hindi": "हैं। श्यति (शो) आदि चार धातु परस्मैपदी हैं॥५० ॥ मुने! 'जनी' आदि पंद्रह धातु आत्मनेपदी हैं। 'मृष' आदि पाँच धातु 'स्वरितेत्” कहे गये हैं॥५१॥ “पद' आदि ग्यारह धातु आत्मनेपदी",
+          "translation": "know it as a heavy tone; kshaipra is not there. The marks of tone of words are to be known as eightfold.",
+          "translationSource": "ai"
         },
         {
           "number": 203,
           "sanskrit": "अन्तो दात्तमाद्युदात्तमुदात्तमनुदात्तं नीचस्वरितम् । मध्योदात्तं स्वरितं द्विरुदात्तमित्येता अष्टौ पदसंज्ञाः",
           "transliteration": "anto dāttamādyudāttamudāttamanudāttaṃ nīcasvaritam / madhyodāttaṃ svaritaṃ dvirudāttamityetā aṣṭau padasaṃjñāḥ",
-          "hindi": "हैं। यहाँ वृद्धि-अर्थमें ही अकर्मक 'राध' धातुका ग्रहण है। यह स्वादि और चुरादिगणमें भी पढ़ा गया है ॥ ५२ ॥ राध आदि तेरह धातु उदात्तेत् कहे गये हैं। तत्पश्चात् रथ आदि आठ धातु परस्मैपदी"
+          "hindi": "हैं। यहाँ वृद्धि-अर्थमें ही अकर्मक 'राध' धातुका ग्रहण है। यह स्वादि और चुरादिगणमें भी पढ़ा गया है ॥ ५२ ॥ राध आदि तेरह धातु उदात्तेत् कहे गये हैं। तत्पश्चात् रथ आदि आठ धातु परस्मैपदी",
+          "translation": "Final-udatta, initial-udatta, udatta, anudatta, low-svarita, middle-udatta, svarita, double-udatta — these are the eight names of words.",
+          "translationSource": "ai"
         },
         {
           "number": 204,
           "sanskrit": "अग्निः सोमः प्रवो वीर्यं हविषा स्वर्वनस्पतिः । अन्तर्मध्यमयोताम्युदमनुनिपात्य आद्यात्स्वरितमुपसर्गे द्विर्न्नीचमाख्यात इति स्वरितात्पराणि यानि स्युर्द्धारापक्षराणि तु । सर्वाणि प्रचयस्थान्युपोदात्तं निहन्यते",
           "transliteration": "agniḥ somaḥ pravo vīryaṃ haviṣā svarvanaspatiḥ / antarmadhyamayotāmyudamanunipātya ādyātsvaritamupasarge dvirnnīcamākhyāta iti svaritātparāṇi yāni syurddhārāpakṣarāṇi tu / sarvāṇi pracayasthānyupodāttaṃ nihanyate",
-          "hindi": "बताये गये हैं॥५३॥ शम आदि छियालीस धातु उदात्तेत् कहे गये हैं। इस प्रकार दिवादिमें एक सौ चालीस धातु माने गये हैं॥५४॥"
+          "hindi": "बताये गये हैं॥५३॥ शम आदि छियालीस धातु उदात्तेत् कहे गये हैं। इस प्रकार दिवादिमें एक सौ चालीस धातु माने गये हैं॥५४॥",
+          "translation": "\"Agnih\", \"somah\", \"pro vo viryam\", \"havisha\", \"svar\", \"vanaspatih\" — examples. Between... what follows after svarita, the syllables of the stream of pracaya; all pracaya-stationed ones: the pre-udatta is struck.",
+          "translationSource": "ai"
         },
         {
           "number": 205,
           "sanskrit": "प्रचयो यत्र दृश्येत तत्र हन्यात्स्वरं बुधः । स्वरितः केवलो यत्र मृदुस्तत्र निपातयेत्",
           "transliteration": "pracayo yatra dṛśyeta tatra hanyātsvaraṃ budhaḥ / svaritaḥ kevalo yatra mṛdustatra nipātayet",
-          "hindi": "'सु' आदि नौ धातु स्वरितेत् कहे गये हैं।"
+          "hindi": "'सु' आदि नौ धातु स्वरितेत् कहे गये हैं।",
+          "translation": "Where pracaya is seen, the wise should strike the tone; where svarita alone stands, he should lower it softly.",
+          "translationSource": "ai"
         },
         {
           "number": 206,
           "sanskrit": "पञ्चविधमाचार्यकं नाम सुखं न्यासः करणं प्रतिज्ञोच्चारणा । अत्रोच्यते श्रेयः खलु वैश्याः प्रतिज्ञातोच्चारणा यस्य कस्यचिद्वर्णस्य करणं नोपलभ्यते प्रतिज्ञा तत्र वोढव्याकरणं हि तदात्मकम्",
           "transliteration": "pañcavidhamācāryakaṃ nāma sukhaṃ nyāsaḥ karaṇaṃ pratijñoccāraṇā / atrocyate śreyaḥ khalu vaiśyāḥ pratijñātoccāraṇā yasya kasyacidvarṇasya karaṇaṃ nopalabhyate pratijñā tatra voḍhavyākaraṇaṃ hi tadātmakam",
-          "hindi": "हैं॥५५॥ 'अश' और '्टिघ' ये दो धातु अनुदात्तेत् कहे गये हैं। यहाँ (तिक' आदि चौदह"
+          "hindi": "हैं॥५५॥ 'अश' और '्टिघ' ये दो धातु अनुदात्तेत् कहे गये हैं। यहाँ (तिक' आदि चौदह",
+          "translation": "The teacher's fivefold: name, ease, placing, production, assertion, utterance. Here it is said: for a syllable whose production is not obtained, assertion is to be carried; that is its grammar.",
+          "translationSource": "ai"
         },
         {
           "number": 207,
           "sanskrit": "तुंबुरुभवद्विशिष्टविश्वावस्वादयश्च गन्धर्वाः । सामसु निभृतं करणं स्वरसौक्ष्म्यान्नैव जानीयुः",
           "transliteration": "tuṃburubhavadviśiṣṭaviśvāvasvādayaśca gandharvāḥ / sāmasu nibhṛtaṃ karaṇaṃ svarasaukṣmyānnaiva jānīyuḥ",
-          "hindi": "धातुओंको परस्मैपदी माना गया है ॥ ५६ ॥ विप्रवर! स्वादिगणमें कुल बत्तीस धातु बताये गये हैं।"
+          "hindi": "धातुओंको परस्मैपदी माना गया है ॥ ५६ ॥ विप्रवर! स्वादिगणमें कुल बत्तीस धातु बताये गये हैं।",
+          "translation": "Tumburu, Bhavad, Vishvavasu and other Gandharvas do not know the Sama production hidden in the subtlety of tone.",
+          "translationSource": "ai"
         },
         {
           "number": 208,
           "sanskrit": "कौक्षेयाग्निं सदा रक्षेदश्रीपादर्शनं हेतुम् । जीर्णो हारः प्रबुद्धः खलूषसिन्ब्रह्म चिन्तयेत्",
           "transliteration": "kaukṣeyāgniṃ sadā rakṣedaśrīpādarśanaṃ hetum / jīrṇo hāraḥ prabuddhaḥ khalūṣasinbrahma cintayet",
-          "hindi": "“ऋषी' धातु उदात्तेत् है और 'जुषी”' आदि चार धातु आत्मनेपदी हैं। 'ब्रश्चरँ आदि एक सौ पाँच धातु उदात्तेत् कहे गये हैं ॥५८॥ मुनीश्वर! यहाँ केवल '“गुरी' धातु अनुदात्तेत् बताया गया है।"
+          "hindi": "“ऋषी' धातु उदात्तेत् है और 'जुषी”' आदि चार धातु आत्मनेपदी हैं। 'ब्रश्चरँ आदि एक सौ पाँच धातु उदात्तेत् कहे गये हैं ॥५८॥ मुनीश्वर! यहाँ केवल '“गुरी' धातु अनुदात्तेत् बताया गया है।",
+          "translation": "One should always guard the fire of the belly... (a passage on digestion and rising before dawn; text unclear).",
+          "translationSource": "ai"
         },
         {
           "number": 209,
           "sanskrit": "शरद्विषुवतोतीतादुषस्युत्थानमिष्यते । यावद्वासंतिकी रात्रिर्मध्यमा पर्युपस्थिता",
           "transliteration": "śaradviṣuvatotītāduṣasyutthānamiṣyate / yāvadvāsaṃtikī rātrirmadhyamā paryupasthitā",
-          "hindi": "हैं॥५९॥ 'कुड्” धातुको 'अनुदात्तेत्' कहा गया है। यहीं कुटादिगणकी पूर्ति हुई है। 'पृड्ड/ और 'मृड--ये आत्मनेपदी धातु हैं। 'रि' और 'पि' से छः धातुतक परस्मैपदमें गिने गये हैं॥६०॥"
+          "hindi": "हैं॥५९॥ 'कुड्” धातुको 'अनुदात्तेत्' कहा गया है। यहीं कुटादिगणकी पूर्ति हुई है। 'पृड्ड/ और 'मृड--ये आत्मनेपदी धातु हैं। 'रि' और 'पि' से छः धातुतक परस्मैपदमें गिने गये हैं॥६०॥",
+          "translation": "Rising is approved before dawn, after the autumn equinox, as long as the middle night of spring lasts.",
+          "translationSource": "ai"
         },
         {
           "number": 210,
           "sanskrit": "आम्रपालाशबिल्वानामपामार्गशिरीषयोः । वाग्यतः प्रातरुत्थाय भक्षयेद्द्वतधावनम्",
           "transliteration": "āmrapālāśabilvānāmapāmārgaśirīṣayoḥ / vāgyataḥ prātarutthāya bhakṣayeddvatadhāvanam",
-          "hindi": "हैं। मुने! 'प्रच्छ”/ आदि सोलह धातु परस्मैपदी बताये गये हैं॥६१॥ मुने! फिर 'मिल' आदि छः: धातु स्वरितेत् कहे गये हैं। इसके बाद 'कृती' आदि तीन धातु परस्मैपदी हैं॥६२॥ इस"
+          "hindi": "हैं। मुने! 'प्रच्छ”/ आदि सोलह धातु परस्मैपदी बताये गये हैं॥६१॥ मुने! फिर 'मिल' आदि छः: धातु स्वरितेत् कहे गये हैं। इसके बाद 'कृती' आदि तीन धातु परस्मैपदी हैं॥६२॥ इस",
+          "translation": "Rising in the morning in silence, he should chew a tooth-twig of mango, palasha, bilva, apamarga or shirisha.",
+          "translationSource": "ai"
         },
         {
           "number": 211,
           "sanskrit": "खादिरश्च कदम्बश्च करवीरकरञ्जयोः । सर्वे कण्टकिनः पुण्याः क्षीरिणश्च यशस्विनः",
           "transliteration": "khādiraśca kadambaśca karavīrakarañjayoḥ / sarve kaṇṭakinaḥ puṇyāḥ kṣīriṇaśca yaśasvinaḥ",
-          "hindi": "प्रकार तुदादिमें एक सौ सत्तावन धातु हैं।"
+          "hindi": "प्रकार तुदादिमें एक सौ सत्तावन धातु हैं।",
+          "translation": "Khadira, kadamba, karavira and karanja — all thorny, milky, meritorious and famous trees.",
+          "translationSource": "ai"
         },
         {
           "number": 212,
           "sanskrit": "तेनास्य करणे सौक्ष्म्यं माधुर्यं चोप जायते । वर्णांश्च कुरुते सम्यक्प्राचीनौदवतिर्यथा",
           "transliteration": "tenāsya karaṇe saukṣmyaṃ mādhuryaṃ copa jāyate / varṇāṃśca kurute samyakprācīnaudavatiryathā",
-          "hindi": "'रुध' आदि नौ धातु स्वरितेत् हैं। 'कृती' धातु परस्मैपदी है। 'जिइन्धी 'से तीन धातुतक अनुदात्तेत् कहे गये हैं। तत्पश्चात् 'शिष पिष' आदि बारह धातु उदरत्तेत् हैं। इस प्रकार रुधादि-"
+          "hindi": "'रुध' आदि नौ धातु स्वरितेत् हैं। 'कृती' धातु परस्मैपदी है। 'जिइन्धी 'से तीन धातुतक अनुदात्तेत् कहे गये हैं। तत्पश्चात् 'शिष पिष' आदि बारह धातु उदरत्तेत् हैं। इस प्रकार रुधादि-",
+          "translation": "By this subtlety and sweetness arise in his production, and he forms the letters well, as the ancient eastern way.",
+          "translationSource": "ai"
         },
         {
           "number": 213,
           "sanskrit": "त्रिफलां लवणाख्येन भक्षयेच्छिषअयकः सदा । अग्निमेधाजनन्येषा स्वरवर्णकरी तथा",
           "transliteration": "triphalāṃ lavaṇākhyena bhakṣayecchiṣaayakaḥ sadā / agnimedhājananyeṣā svaravarṇakarī tathā",
-          "hindi": "'तनु' धातुसे लेकर सात धातु “स्वरितेत्' कहे गये हैं। “मनु! और “वनु'-ये दोनों आत्मनेपदी हैं। 'कृज्' धातु स्वरितेत् कहा गया है॥ ६५ ॥ विप्रवर! इस प्रकार वैयाकरणोंने तनादिगणमें दस धातुओंकी गणना की है।"
+          "hindi": "'तनु' धातुसे लेकर सात धातु “स्वरितेत्' कहे गये हैं। “मनु! और “वनु'-ये दोनों आत्मनेपदी हैं। 'कृज्' धातु स्वरितेत् कहा गया है॥ ६५ ॥ विप्रवर! इस प्रकार वैयाकरणोंने तनादिगणमें दस धातुओंकी गणना की है।",
+          "translation": "A student should always eat the triphala with salt; this kindles fire and intelligence and refines voice and letters.",
+          "translationSource": "ai"
         },
         {
           "number": 214,
           "sanskrit": "कृत्वा चावश्यकान्धर्माञ्जाठरं पर्युपास्य च । पीत्वा मधुं घृतं चैव शुचिर्भूत्वा ततो वदेत्",
           "transliteration": "kṛtvā cāvaśyakāndharmāñjāṭharaṃ paryupāsya ca / pītvā madhuṃ ghṛtaṃ caiva śucirbhūtvā tato vadet",
-          "hindi": "“क्री' आदि सात धातु उभयपदी हैं। मुनीश्वर !"
+          "hindi": "“क्री' आदि सात धातु उभयपदी हैं। मुनीश्वर !",
+          "translation": "Having done the necessary duties and attended to the belly, having drunk honey and ghee, and being pure, he should then speak.",
+          "translationSource": "ai"
         },
         {
           "number": 215,
           "sanskrit": "मन्द्रेणोपक्रमेत्पूर्वं सर्वशाखास्वयं विधिः । सप्तमन्त्रानतिक्रम्य यथेष्टां वाचमुत्सृजेत्",
           "transliteration": "mandreṇopakrametpūrvaṃ sarvaśākhāsvayaṃ vidhiḥ / saptamantrānatikramya yatheṣṭāṃ vācamutsṛjet",
-          "hindi": "कहे गये हैं। 'क्रूज' आदि बाईस धातु उदात्तेत् कहे गये हैं॥६६-६७॥ “वृड” धातु आत्मनेपदी है। ' श्रन्थ” आदि इक्कीस धातु परस्मैपदी हैं और “ग्रह” धातु स्वरितेत् है॥ ६८ ॥ इस प्रकार दिद्वानोंने"
+          "hindi": "कहे गये हैं। 'क्रूज' आदि बाईस धातु उदात्तेत् कहे गये हैं॥६६-६७॥ “वृड” धातु आत्मनेपदी है। ' श्रन्थ” आदि इक्कीस धातु परस्मैपदी हैं और “ग्रह” धातु स्वरितेत् है॥ ६८ ॥ इस प्रकार दिद्वानोंने",
+          "translation": "He should begin first in the low register; this is the rule in all branches. Passing seven mantras, he may let his voice go as he wishes.",
+          "translationSource": "ai"
         },
         {
           "number": 216,
           "sanskrit": "न तां समीरयेद्वाचं न प्राणमुपरोधयेत् । प्राणानामुपरोधेन वैस्वर्यं चोपजायते । स्वरव्यण्डजनमाधुर्यं लुप्यते नात्र संशयः",
           "transliteration": "na tāṃ samīrayedvācaṃ na prāṇamuparodhayet / prāṇānāmuparodhena vaisvaryaṃ copajāyate / svaravyaṇḍajanamādhuryaṃ lupyate nātra saṃśayaḥ",
-          "hindi": "क्रयादिगणमें बावन धातु गिनाये हैं।"
+          "hindi": "क्रयादिगणमें बावन धातु गिनाये हैं।",
+          "translation": "He should not force the voice, nor obstruct the breath; by obstructing breath, a bad voice arises; the sweetness of voice and consonants is lost, without doubt.",
+          "translationSource": "ai"
         },
         {
           "number": 217,
           "sanskrit": "कुतीर्थादागतं दग्धमपवर्णैश्च भक्षितम् न तस्य परिमोक्षो ऽस्ति पापाहेरिव किल्बिषात्",
           "transliteration": "kutīrthādāgataṃ dagdhamapavarṇaiśca bhakṣitam na tasya parimokṣo 'sti pāpāheriva kilbiṣāt",
-          "hindi": "(उभयपदी) माने गये हैं॥ ६९ ॥ मुने! चित आदि"
+          "hindi": "(उभयपदी) माने गये हैं॥ ६९ ॥ मुने! चित आदि",
+          "translation": "What comes from a bad ford, burnt and eaten by wrong letters — he has no release, as from the sin of a snake-bite.",
+          "translationSource": "ai"
         },
         {
           "number": 218,
           "sanskrit": "सुतीर्थादागतं जग्धुं स्वाम्नातं सुप्रतिष्टितम् । सुस्वरेण स्ववक्रेण प्रयुक्तं ब्रह्म राजति न तकालो न लंबोष्टो न च सर्वानुनासिकः",
           "transliteration": "sutīrthādāgataṃ jagdhuṃ svāmnātaṃ supratiṣṭitam / susvareṇa svavakreṇa prayuktaṃ brahma rājati na takālo na laṃboṣṭo na ca sarvānunāsikaḥ",
-          "hindi": "हैं। 'चर्च'से लेकर ' धृष' धातुतक 'जित्' (उभयपदी) कहे गये हैं॥७०॥ इसके बाद अड़तालीस अदन्त धातु भी उभयपदी ही हैं। 'पद”' आदि दस धातु आत्मनेपदमें परिगणित हुए हैं॥७१॥"
+          "hindi": "हैं। 'चर्च'से लेकर ' धृष' धातुतक 'जित्' (उभयपदी) कहे गये हैं॥७०॥ इसके बाद अड़तालीस अदन्त धातु भी उभयपदी ही हैं। 'पद”' आदि दस धातु आत्मनेपदमें परिगणित हुए हैं॥७१॥",
+          "translation": "What comes from a good ford, memorised, well-established, uttered with a good voice from one's own mouth — Brahman shines; not one who is sing-song, thick-lipped, or wholly nasal.",
+          "translationSource": "ai"
         },
         {
           "number": 219,
           "sanskrit": "गद्गदो बद्धजिह्वश्च प्रयोगान्वक्तुमर्हति",
           "transliteration": "gadgado baddhajihvaśca prayogānvaktumarhati",
-          "hindi": "यहाँ सूत्र आदि आठ धातुओंको भी मनीषी पुरुषोंने उभयपदी कहा है। प्रातिपदिकसे धात्वर्थमें णिच् और प्रायः सब बातें इष्ठ प्रत्ययकी भाँति होती हैं। तात्पर्य यह कि “इष्ठ” प्रत्यय परे रहते"
+          "hindi": "यहाँ सूत्र आदि आठ धातुओंको भी मनीषी पुरुषोंने उभयपदी कहा है। प्रातिपदिकसे धात्वर्थमें णिच् और प्रायः सब बातें इष्ठ प्रत्ययकी भाँति होती हैं। तात्पर्य यह कि “इष्ठ” प्रत्यय परे रहते",
+          "translation": "One who stammers or has a bound tongue is not fit to speak the recitations.",
+          "translationSource": "ai"
         },
         {
           "number": 220,
           "sanskrit": "एकचित्तो निरुद्धान्तः स्नातो गानविवर्ज्जितः । स तु वर्णान्प्रयुञ्जीत देतोष्ठं यस्य शोभनम्",
           "transliteration": "ekacitto niruddhāntaḥ snāto gānavivarjjitaḥ / sa tu varṇānprayuñjīta detoṣṭhaṃ yasya śobhanam",
-          "hindi": "जैसे प्रातिपदिक, पुंवद्धाव, रभाव, टिलोप,"
+          "hindi": "जैसे प्रातिपदिक, पुंवद्धाव, रभाव, टिलोप,",
+          "translation": "With a single mind, inwardly restrained, bathed, and free of song, he should apply the letters whose teeth and lips are fine.",
+          "translationSource": "ai"
         },
         {
           "number": 221,
           "sanskrit": "पञ्चविद्यां न गृह्णन्ति चण्डा स्तब्धाश्च ये नराः । अलसाश्च सरोगाश्च येषां च विसृतं मनः",
           "transliteration": "pañcavidyāṃ na gṛhṇanti caṇḍā stabdhāśca ye narāḥ / alasāśca sarogāśca yeṣāṃ ca visṛtaṃ manaḥ",
-          "hindi": "आदेश और भसंज्ञा आदि कार्य होते हैं, उसी प्रकार 'णि' परे रहते भी सब कार्य होंगे॥ ७२॥ “उसे करता है, अथवा उसे कहता है' इस अर्थमें भी प्रातिपदिकसे णिच् प्रत्यय होता है। प्रयोजक"
+          "hindi": "आदेश और भसंज्ञा आदि कार्य होते हैं, उसी प्रकार 'णि' परे रहते भी सब कार्य होंगे॥ ७२॥ “उसे करता है, अथवा उसे कहता है' इस अर्थमें भी प्रातिपदिकसे णिच् प्रत्यय होता है। प्रयोजक",
+          "translation": "Fierce, stubborn men, the lazy and the sick, and those whose minds wander, do not grasp the five sciences.",
+          "translationSource": "ai"
         },
         {
           "number": 222,
           "sanskrit": "शनैर्विद्यां शनैरर्थानारोहेत्पर्वतं शनैः । शनैरध्वसु वर्तेत योजनान्न परं व्रजेत्",
           "transliteration": "śanairvidyāṃ śanairarthānārohetparvataṃ śanaiḥ / śanairadhvasu varteta yojanānna paraṃ vrajet",
-          "hindi": "व्यापारमें प्रेषण आदि वाच्य हों तो धातुसे णिच् होता है। कर्त-व्यापारके लिये जो करण है, उससे धात्वर्थमें णिचू होता है। चित्र आदि आठ धातु उदत्तेत् हैं। किंतु 'संग्राम' धातुको शब्दशास्त्रके"
+          "hindi": "व्यापारमें प्रेषण आदि वाच्य हों तो धातुसे णिच् होता है। कर्त-व्यापारके लिये जो करण है, उससे धात्वर्थमें णिचू होता है। चित्र आदि आठ धातु उदत्तेत् हैं। किंतु 'संग्राम' धातुको शब्दशास्त्रके",
+          "translation": "Slowly learning, slowly wealth, slowly climbing a mountain, slowly travelling roads, one should not go more than a yojana.",
+          "translationSource": "ai"
         },
         {
           "number": 223,
           "sanskrit": "योजनानां सहस्रं तु शनैर्याति पिपीलिका । अगच्छन्वैनतेयो ऽपि पदमेकं न गच्छति",
           "transliteration": "yojanānāṃ sahasraṃ tu śanairyāti pipīlikā / agacchanvainateyo 'pi padamekaṃ na gacchati",
-          "hindi": "दिद्वानोंने अनुदात्तेत् माना है। सतोभ आदि सोलह धातु अदन्त धातुओंके निदर्शन हैं॥७३-७४॥ “बहुलमेतन्निदर्शनम्'--इसमें जो बहुल शब्द आया है, उससे अन्य जो सूत्रोक्त लौकिक और वैदिक"
+          "hindi": "दिद्वानोंने अनुदात्तेत् माना है। सतोभ आदि सोलह धातु अदन्त धातुओंके निदर्शन हैं॥७३-७४॥ “बहुलमेतन्निदर्शनम्'--इसमें जो बहुल शब्द आया है, उससे अन्य जो सूत्रोक्त लौकिक और वैदिक",
+          "translation": "An ant travels a thousand yojanas slowly; Garuda, not moving, does not go one step.",
+          "translationSource": "ai"
         },
         {
           "number": 224,
           "sanskrit": "नहि पापहता वाणी प्रयोगान्वक्तुमर्हति । बधिरस्येव जल्पस्य विदग्धा वामलोचना",
           "transliteration": "nahi pāpahatā vāṇī prayogānvaktumarhati / badhirasyeva jalpasya vidagdhā vāmalocanā",
-          "hindi": "धातु हैं, उन सबका ग्रहण होता है। सभी धातु सब गणोंमें हैं और सबके अनेक अर्थ हैं॥ ७५॥ इन धातुओंके अतिरिक्त सनादि प्रत्यय जिनके अन्तमें हों, उनकी भी धातु-संज्ञा होती है।"
+          "hindi": "धातु हैं, उन सबका ग्रहण होता है। सभी धातु सब गणोंमें हैं और सबके अनेक अर्थ हैं॥ ७५॥ इन धातुओंके अतिरिक्त सनादि प्रत्यय जिनके अन्तमें हों, उनकी भी धातु-संज्ञा होती है।",
+          "translation": "Speech struck by sin cannot speak the recitations, like the talk of a deaf man, though a clever woman looks on.",
+          "translationSource": "ai"
         },
         {
           "number": 225,
           "sanskrit": "उपांशुचरितं चैव यो ऽधीते वित्रसन्निव । अपि रूपसहस्रेषु संदेहेष्वेव वर्तते",
           "transliteration": "upāṃśucaritaṃ caiva yo 'dhīte vitrasanniva / api rūpasahasreṣu saṃdeheṣveva vartate",
-          "hindi": "नामधातु भी धातु ही हैं। नारद! इस प्रकार अनन्त धातुओंकी उद्धावना हो सकती है। यहाँ संक्षेपसे सब कुछ बताया गया है। इसका विस्तार तत्सम्बन्धी ग्रन्थोंमें है॥ ७६ ॥"
+          "hindi": "नामधातु भी धातु ही हैं। नारद! इस प्रकार अनन्त धातुओंकी उद्धावना हो सकती है। यहाँ संक्षेपसे सब कुछ बताया गया है। इसका विस्तार तत्सम्बन्धी ग्रन्थोंमें है॥ ७६ ॥",
+          "translation": "One who studies in a whisper, as if frightened, remains in doubt among a thousand forms.",
+          "translationSource": "ai"
         },
         {
           "number": 226,
           "sanskrit": "पुस्तकप्रत्ययाधीतं नाधीतं गुरुसन्निधौ । राजते न सभामध्येजारगर्भेव कामिनी",
           "transliteration": "pustakapratyayādhītaṃ nādhītaṃ gurusannidhau / rājate na sabhāmadhyejāragarbheva kāminī",
-          "hindi": "(उपदेशावस्थामें एकाच् अनुदात्त धातुसे परे"
+          "hindi": "(उपदेशावस्थामें एकाच् अनुदात्त धातुसे परे",
+          "translation": "What is learned from a book and not in the presence of a teacher does not shine in an assembly, like a woman pregnant by a paramour.",
+          "translationSource": "ai"
         },
         {
           "number": 227,
           "sanskrit": "अञ्जनस्य क्षयं दृष्ट्वा वल्मीकस्य तु संचयम् । अवन्ध्यं दिवसं कुर्याद्दानाध्ययनकर्मसु",
           "transliteration": "añjanasya kṣayaṃ dṛṣṭvā valmīkasya tu saṃcayam / avandhyaṃ divasaṃ kuryāddānādhyayanakarmasu",
-          "hindi": "वलादि आर्धधातुकको इट्का आगम नहीं होता। जिनमें यह निषेध लागू होता है, उन धातुओंको 'अनिट्' कहते हैं। उन्हीं अनिटू या एकाच् अनुदात्त धातुओंका यहाँ संग्रह किया जाता है--)"
+          "hindi": "वलादि आर्धधातुकको इट्का आगम नहीं होता। जिनमें यह निषेध लागू होता है, उन धातुओंको 'अनिट्' कहते हैं। उन्हीं अनिटू या एकाच् अनुदात्त धातुओंका यहाँ संग्रह किया जाता है--)",
+          "translation": "Seeing the wearing away of eye-ointment and the heap of an anthill, one should make the day fruitful in giving and study.",
+          "translationSource": "ai"
         },
         {
           "number": 228,
           "sanskrit": "यत्कीटैः पांशुभिः श्लक्ष्णैर्वल्मीकः क्रियते महान् । न तत्र बलसामर्थ्यमुद्योगस्गतत्र कारणम्",
           "transliteration": "yatkīṭaiḥ pāṃśubhiḥ ślakṣṇairvalmīkaḥ kriyate mahān / na tatra balasāmarthyamudyogasgatatra kāraṇam",
-          "hindi": "अजन्त धातुओंमें--ऊकारान्त, ऋकारान्त, यु, रु,"
+          "hindi": "अजन्त धातुओंमें--ऊकारान्त, ऋकारान्त, यु, रु,",
+          "translation": "The great anthill made by insects with fine dust: there strength is not the cause, but effort.",
+          "translationSource": "ai"
         },
         {
           "number": 229,
           "sanskrit": "सहस्रगुणिता विद्या शतशः परिकीर्तिता । आगमिष्यति जिह्वाग्रे स्थलान्निम्नमिवोदकम्",
           "transliteration": "sahasraguṇitā vidyā śataśaḥ parikīrtitā / āgamiṣyati jihvāgre sthalānnimnamivodakam",
-          "hindi": "वृजू--इन सबको छोड़कर शेष सभी अनुदात्त (अर्थात् अनिट्) माने गये हैं ॥ ७७ ॥ शक्‍लू, पच्,"
+          "hindi": "वृजू--इन सबको छोड़कर शेष सभी अनुदात्त (अर्थात् अनिट्) माने गये हैं ॥ ७७ ॥ शक्‍लू, पच्,",
+          "translation": "Learning multiplied a thousandfold is hundredfold praised; it will come to the tip of the tongue like water to a low place.",
+          "translationSource": "ai"
         },
         {
           "number": 230,
           "sanskrit": "हयनामिव जात्यानामर्द्धरात्रार्द्धशायिनाम् । नहि वाद्यार्थिनां निद्रा चिरं नेत्रेषु तिष्टति",
           "transliteration": "hayanāmiva jātyānāmarddharātrārddhaśāyinām / nahi vādyārthināṃ nidrā ciraṃ netreṣu tiṣṭati",
-          "hindi": "वह ॥ ८२॥ ये हलन्तोंमें एक सौ दो धातु अनुदात्त माने गये हैं। 'च' आदिकी निपात संज्ञा होती है। 'प्र' आदि उपसर्ग 'गति' कहलाते हैं। भिन्न-भिन्न दिशा, देश और कालमें प्रकट हुए शब्द अनेक अर्थोंके बोधक होते हैं। विप्रवर ! वे देश-कालके भेदसे सभी लिड़्ोंमें प्रयुक्त होते हैं। यहाँ"
+          "hindi": "वह ॥ ८२॥ ये हलन्तोंमें एक सौ दो धातु अनुदात्त माने गये हैं। 'च' आदिकी निपात संज्ञा होती है। 'प्र' आदि उपसर्ग 'गति' कहलाते हैं। भिन्न-भिन्न दिशा, देश और कालमें प्रकट हुए शब्द अनेक अर्थोंके बोधक होते हैं। विप्रवर ! वे देश-कालके भेदसे सभी लिड़्ोंमें प्रयुक्त होते हैं। यहाँ",
+          "translation": "As of well-bred horses who sleep half the night, sleep does not stay long in the eyes of those seeking learning.",
+          "translationSource": "ai"
         },
         {
           "number": 231,
           "sanskrit": "न भोजनबिलंवी स्यान्न च नारीनिवन्धनः । समुद्रमपि विद्यार्थी व्रजेद्गरुडहंसवत्",
           "transliteration": "na bhojanabilaṃvī syānna ca nārīnivandhanaḥ / samudramapi vidyārthī vrajedgaruḍahaṃsavat",
-          "hindi": "'पारायण” कहा गया है। नारद! वैदिक और लौकिक सभी शब्द नित्यसिद्ध हैं॥८३--८५॥ फिर वैयाकरणोंद्वारा जो शब्दोंका संग्रह किया जाता है, उसमें उन शब्दोंका पारायण ही मुख्य"
+          "hindi": "'पारायण” कहा गया है। नारद! वैदिक और लौकिक सभी शब्द नित्यसिद्ध हैं॥८३--८५॥ फिर वैयाकरणोंद्वारा जो शब्दोंका संग्रह किया जाता है, उसमें उन शब्दोंका पारायण ही मुख्य",
+          "translation": "One should not be slow at meals, nor bound by women; a seeker of learning would cross even the ocean like Garuda or a swan.",
+          "translationSource": "ai"
         },
         {
           "number": 232,
           "sanskrit": "अहिरिव गणाद्भितः साहित्यान्नरकादिव । राक्षसीभ्य इव स्रिभ्यः स विद्यामधिगच्छति",
           "transliteration": "ahiriva gaṇādbhitaḥ sāhityānnarakādiva / rākṣasībhya iva sribhyaḥ sa vidyāmadhigacchati",
-          "hindi": "सन्, क्‍्यच्, काम्यच्ू, क्यड् क्यष्, आचारक्विप, णिचू, यझ्भू यकू, आय, इयड्ू णिड्--ये बारह प्रत्यय"
+          "hindi": "सन्, क्‍्यच्, काम्यच्ू, क्यड् क्यष्, आचारक्विप, णिचू, यझ्भू यकू, आय, इयड्ू णिड्--ये बारह प्रत्यय",
+          "translation": "Afraid of crowds like a snake, of company like hell, and of women like demonesses — such a one attains learning.",
+          "translationSource": "ai"
         },
         {
           "number": 233,
           "sanskrit": "न शठाः प्रान्पुवन्त्यर्थान्न क्लिबा न च मानिनः । न च लोकरवा दीना न च स्वस्वप्रतीक्षकाः",
           "transliteration": "na śaṭhāḥ prānpuvantyarthānna klibā na ca māninaḥ / na ca lokaravā dīnā na ca svasvapratīkṣakāḥ",
-          "hindi": "हेतु है (पारायण-जनित पुण्यलाभके लिये ही  प्रकार तुमसे निरुक्तका यत्किंचित् ही वर्णन उनका संकलन होता है)। सिद्ध शब्दोंका ही  किया गया है। नारद! इसका पूर्णरूपसे वर्णन तो प्रकृति, प्रतयय, आदेश और आगम आबदिके द्वारा  कोई भी कर ही नहीं सकता॥ ८६--८८॥ लघुमार्गसे सम्यक् निरूपण किया जाता है। इस  (पूर्वभाग द्वितीयपाद अध्याय ५३)"
+          "hindi": "हेतु है (पारायण-जनित पुण्यलाभके लिये ही  प्रकार तुमसे निरुक्तका यत्किंचित् ही वर्णन उनका संकलन होता है)। सिद्ध शब्दोंका ही  किया गया है। नारद! इसका पूर्णरूपसे वर्णन तो प्रकृति, प्रतयय, आदेश और आगम आबदिके द्वारा  कोई भी कर ही नहीं सकता॥ ८६--८८॥ लघुमार्गसे सम्यक् निरूपण किया जाता है। इस  (पूर्वभाग द्वितीयपाद अध्याय ५३)",
+          "translation": "The deceitful do not gain their ends, nor eunuchs, the proud, noisy, wretched, or those who wait on their own ease.",
+          "translationSource": "ai"
         },
         {
           "number": 234,
           "sanskrit": "यथा खननन्खनित्रेण भूपलं वारि विन्दति । एवं गुरुगतां विद्यां शूश्रूषुरधिगच्छति",
           "transliteration": "yathā khananankhanitreṇa bhūpalaṃ vāri vindati / evaṃ gurugatāṃ vidyāṃ śūśrūṣuradhigacchati",
-          "hindi": "त्रिस्कन्ध ज्यौतिषके वर्णन-प्रसड़में गणितविषयका प्रतिपादन"
+          "hindi": "त्रिस्कन्ध ज्यौतिषके वर्णन-प्रसड़में गणितविषयका प्रतिपादन",
+          "translation": "As by a digging tool a man finds water in the earth, so the one who serves a teacher obtains the learning he holds.",
+          "translationSource": "ai"
         },
         {
           "number": 235,
           "sanskrit": "गुरुशुश्रूषया विद्या पुष्कलेन धनेन वा । अथवा विद्यया विद्या ह्यन्यथा नोपपद्यते",
           "transliteration": "guruśuśrūṣayā vidyā puṣkalena dhanena vā / athavā vidyayā vidyā hyanyathā nopapadyate",
-          "hindi": "ग्रहभावफलं चैवाश्रययोगप्रकीर्णके ॥ ६॥"
+          "hindi": "ग्रहभावफलं चैवाश्रययोगप्रकीर्णके ॥ ६॥",
+          "translation": "Learning comes by service to the teacher, or with abundant wealth, or learning for learning; not otherwise.",
+          "translationSource": "ai"
         },
         {
           "number": 236,
           "sanskrit": "शुश्रूषारहिता विद्या यद्यपि मेधागुणैः समुपयाति । वन्ध्येव यौवनवती न तस्य साफल्यवति भवति",
           "transliteration": "śuśrūṣārahitā vidyā yadyapi medhāguṇaiḥ samupayāti / vandhyeva yauvanavatī na tasya sāphalyavati bhavati",
-          "hindi": "जातकस्कन्धमें राशिभेद, ग्रहयोनि, ( ग्रहोंकी"
+          "hindi": "जातकस्कन्धमें राशिभेद, ग्रहयोनि, ( ग्रहोंकी",
+          "translation": "Learning without service, even if it comes with qualities of intellect, is like a young barren woman — it is not fruitful for him.",
+          "translationSource": "ai"
         },
         {
           "number": 237,
           "sanskrit": "इति दिङ्मात्रमुद्दिष्टं शिक्षाग्रन्थं मया तव । ज्ञात्वा वेदाङ्गमाद्यं तु ब्रह्मभूयाय कल्पते",
           "transliteration": "iti diṅmātramuddiṣṭaṃ śikṣāgranthaṃ mayā tava / jñātvā vedāṅgamādyaṃ tu brahmabhūyāya kalpate",
-          "hindi": "दशाक्रम, कर्माजीव (आजीविका), अष्टकवर्ग,"
+          "hindi": "दशाक्रम, कर्माजीव (आजीविका), अष्टकवर्ग,",
+          "translation": "Thus the text on Shiksha has been given to you in outline; knowing the first of the Vedangas, one becomes fit to be Brahman.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -33687,499 +33821,665 @@
           "number": 60,
           "sanskrit": "कामाय वाससश्चैव क्रव्यादांश्चाधिरोहति । अन्त्यजैर्गर्द्दभैरुष्टैः सहैकत्रावतिष्टते",
           "transliteration": "kāmāya vāsasaścaiva kravyādāṃścādhirohati / antyajairgarddabhairuṣṭaiḥ sahaikatrāvatiṣṭate",
-          "hindi": "६. कल्पना कीजिये कि इष्ट १ है, उसको दोसे गुणा किया तो २ हुआ, उससे १ में भाग दिया तो १६२/१०१५१/ २०१/२ हुआ। उसमें इष्ट १ जोड़ दिया तो १ १/२०३/२ प्रथम संख्या निकल आयी और दूसरी संख्या १ है ही।"
+          "hindi": "६. कल्पना कीजिये कि इष्ट १ है, उसको दोसे गुणा किया तो २ हुआ, उससे १ में भाग दिया तो १६२/१०१५१/ २०१/२ हुआ। उसमें इष्ट १ जोड़ दिया तो १ १/२०३/२ प्रथम संख्या निकल आयी और दूसरी संख्या १ है ही।",
+          "translation": "(Describing the ill effects of planets:) He mounts for desire a meat-eater's animal; he lives with the lowest-born, asses and camels...",
+          "translationSource": "ai"
         },
         {
           "number": 61,
           "sanskrit": "व्रजन्नपि तथात्मानं मन्यते ऽनुगतं परैः विमना विफलारंभः संसीदत्यनिमित्ततः",
           "transliteration": "vrajannapi tathātmānaṃ manyate 'nugataṃ paraiḥ vimanā viphalāraṃbhaḥ saṃsīdatyanimittataḥ",
-          "hindi": "७. कल्पना कीजिये कि इष्ट २ है। इसके वर्गका वर्ग हुआ १६ और उसका घन हुआ ८। दोनोंको अलग-अलग"
+          "hindi": "७. कल्पना कीजिये कि इष्ट २ है। इसके वर्गका वर्ग हुआ १६ और उसका घन हुआ ८। दोनोंको अलग-अलग",
+          "translation": "Even travelling he thinks himself followed by others; he is dejected, his undertakings fail, and he sinks without cause.",
+          "translationSource": "ai"
         },
         {
           "number": 62,
           "sanskrit": "तेनोपसृष्टो लभते न राज्यं राजनन्दनः । कुमारी न च भर्तारमपत्यं गर्भमङ्गना । आचार्यत्वं श्रोत्रियश्च न शिष्यो ऽध्ययनं तथा",
           "transliteration": "tenopasṛṣṭo labhate na rājyaṃ rājanandanaḥ / kumārī na ca bhartāramapatyaṃ garbhamaṅganā / ācāryatvaṃ śrotriyaśca na śiṣyo 'dhyayanaṃ tathā",
-          "hindi": "रा सगुणार्धकृते: पदम। घटा करके और यदि युत हुआ हो तो जोड़ दृष्टस्य च गुणर्धोनयुतं बर्गीकृतं गुण:॥ ३५॥  करके) उसके द्वारा पृथक्ू-पृथक् दृश्य और मूल यदा लवोनयुग्राशिर्दृश्यं भागोनयुग्भुवा। गुणकमें भाग दे; फिर इस नूतन दृश्य और मूलगुणकसे भक्त तथा मूलगुणं ताभ्यां साध्यो5थ व्यक्तवत्॥ ३६ ॥  पूर्ववत् राशिका साधन करना चाहिए॥ ३५-३६ ॥"
+          "hindi": "रा सगुणार्धकृते: पदम। घटा करके और यदि युत हुआ हो तो जोड़ दृष्टस्य च गुणर्धोनयुतं बर्गीकृतं गुण:॥ ३५॥  करके) उसके द्वारा पृथक्ू-पृथक् दृश्य और मूल यदा लवोनयुग्राशिर्दृश्यं भागोनयुग्भुवा। गुणकमें भाग दे; फिर इस नूतन दृश्य और मूलगुणकसे भक्त तथा मूलगुणं ताभ्यां साध्यो5थ व्यक्तवत्॥ ३६ ॥  पूर्ववत् राशिका साधन करना चाहिए॥ ३५-३६ ॥",
+          "translation": "Afflicted by that, a prince does not get a kingdom, a girl no husband, a woman no child, a teacher no learned status, a pupil no learning;",
+          "translationSource": "ai"
         },
         {
           "number": 63,
           "sanskrit": "वणिग्लाभं न चान्पोति कृषिं चापि कृषिबलः । स्नपन तस्य कर्तव्यं पुण्ये ऽह्रि विधिपूर्वकम् । गौरसर्ष पकल्केन स्वस्ति वाच्या द्विजैः शुभाः",
           "transliteration": "vaṇiglābhaṃ na cānpoti kṛṣiṃ cāpi kṛṣibalaḥ / snapana tasya kartavyaṃ puṇye 'hri vidhipūrvakam / gaurasarṣa pakalkena svasti vācyā dvijaiḥ śubhāḥ",
-          "hindi": "गुणकर्म अपने इष्टाड्डंगुणित मूलसे ऊन या। प्रमाणेच्छे सजातीये आद्यन्ते मध्यगं फलम्। युक्त होकर यदि कोई संख्या दृश्य हुई हो तो मूल  इच्छाघ्नमाद्यहत्स्वेष्ट फलं व्यस्ते विपर्ययात्॥ ३७॥ गुणकके आधेका वर्ग दृश्य-संख्यामें जोड़कर मूल (त्रैराशिकमें) प्रमाण और इच्छा ये समान लेना चाहिए। उसमें क्रमसे मूल गुणकके आधा  जातिके होते हैं, इन्हें आदि और अन्तमें रखे,"
+          "hindi": "गुणकर्म अपने इष्टाड्डंगुणित मूलसे ऊन या। प्रमाणेच्छे सजातीये आद्यन्ते मध्यगं फलम्। युक्त होकर यदि कोई संख्या दृश्य हुई हो तो मूल  इच्छाघ्नमाद्यहत्स्वेष्ट फलं व्यस्ते विपर्ययात्॥ ३७॥ गुणकके आधेका वर्ग दृश्य-संख्यामें जोड़कर मूल (त्रैराशिकमें) प्रमाण और इच्छा ये समान लेना चाहिए। उसमें क्रमसे मूल गुणकके आधा  जातिके होते हैं, इन्हें आदि और अन्तमें रखे,",
+          "translation": "a merchant no profit, a farmer no harvest. For him a bath is to be performed on an auspicious day by rule, with white mustard paste, and blessings pronounced by the twice-born.",
+          "translationSource": "ai"
         },
         {
           "number": 64,
           "sanskrit": "अश्वस्थानाद्गजस्थानाद्वल्मीकात्संगमाद्ध्रदात् । मृत्तिकां रोचनां गन्धान् गुग्गुलुं चाशु निक्षिपेत्",
           "transliteration": "aśvasthānādgajasthānādvalmīkātsaṃgamāddhradāt / mṛttikāṃ rocanāṃ gandhān gugguluṃ cāśu nikṣipet",
-          "hindi": "जोड़ना और घटाना चाहिए। (अर्थात् जहाँ  फल भिन्न जातिका है, अतः: उसे मध्यमें स्थापित इष्टगुणितमूलसे ऊन होकर दृश्य हो वहाँ गुणकार्धको  करे। फलको इच्छासे गुणा करके प्रमाणके द्वारा जोड़ना तथा यदि इष्टगुणितमूलयुक्त होकर दृश्य  भाग देनेसे लब्धि इष्टफल होती है। (यह क्रम हो तो उक्त मूलमें गुणकार्ध घटाना चाहिए) फिर  त्रैरशिक बताया गया है।) व्यस्त त्रैराशिकमें इससे"
+          "hindi": "जोड़ना और घटाना चाहिए। (अर्थात् जहाँ  फल भिन्न जातिका है, अतः: उसे मध्यमें स्थापित इष्टगुणितमूलसे ऊन होकर दृश्य हो वहाँ गुणकार्धको  करे। फलको इच्छासे गुणा करके प्रमाणके द्वारा जोड़ना तथा यदि इष्टगुणितमूलयुक्त होकर दृश्य  भाग देनेसे लब्धि इष्टफल होती है। (यह क्रम हो तो उक्त मूलमें गुणकार्ध घटाना चाहिए) फिर  त्रैरशिक बताया गया है।) व्यस्त त्रैराशिकमें इससे",
+          "translation": "Earth from a horse-stable, elephant-stable, anthill, confluence and lake, and rochana, perfumes and guggulu, should be quickly put in.",
+          "translationSource": "ai"
         },
         {
           "number": 65,
           "sanskrit": "पात्र्याहृता ह्येकवर्णैश्चतुर्भिः कलशैर्ह्रदात् । चर्मण्यानुडुहे रक्ते स्थाप्यं भद्रासनं ततः",
           "transliteration": "pātryāhṛtā hyekavarṇaiścaturbhiḥ kalaśairhradāt / carmaṇyānuḍuhe rakte sthāpyaṃ bhadrāsanaṃ tataḥ",
-          "hindi": "उसका वर्ग कर लेनेसे प्रश्नकर्ताकी अभीष्ट राशि  विपरीत क्रिया करनी चाहिए। अर्थात् प्रमाण- (संख्या) सिद्ध होती है'। यदि राशि मूलोन या  फलको प्रमाणसे गुणा करके इच्छासे भाग देनेपर मूलयुक्त होकर पुनः अपने किसी भागसे भी ऊन  लब्धि इष्टफल होती है। (प्रमाण, प्रमाण-फल या युत होकर दृश्य होती हो तो उस भागको १  और इच्छा--इन तीन राशियोंको जानकर इच्छाफल"
+          "hindi": "उसका वर्ग कर लेनेसे प्रश्नकर्ताकी अभीष्ट राशि  विपरीत क्रिया करनी चाहिए। अर्थात् प्रमाण- (संख्या) सिद्ध होती है'। यदि राशि मूलोन या  फलको प्रमाणसे गुणा करके इच्छासे भाग देनेपर मूलयुक्त होकर पुनः अपने किसी भागसे भी ऊन  लब्धि इष्टफल होती है। (प्रमाण, प्रमाण-फल या युत होकर दृश्य होती हो तो उस भागको १  और इच्छा--इन तीन राशियोंको जानकर इच्छाफल",
+          "translation": "Four pots brought from the lake by vessels of one colour; on a red bull's hide he should be seated on a good seat.",
+          "translationSource": "ai"
         },
         {
           "number": 66,
           "sanskrit": "सहस्राक्षं शतधार मृषिभिः पावनं कृतम् । तेन त्वामभिषिञ्चामि पावमान्याः पुंनतु ते",
           "transliteration": "sahasrākṣaṃ śatadhāra mṛṣibhiḥ pāvanaṃ kṛtam / tena tvāmabhiṣiñcāmi pāvamānyāḥ puṃnatu te",
-          "hindi": "८ से गुणा करनेपर एक हुआ १२८ और दूसरा हुआ ६४। यहाँ पहलेमें १ जोड़नेसे १२९ हुआ, यह पहली संख्या है और ६४ दूसरी संख्या हुई।"
+          "hindi": "८ से गुणा करनेपर एक हुआ १२८ और दूसरा हुआ ६४। यहाँ पहलेमें १ जोड़नेसे १२९ हुआ, यह पहली संख्या है और ६४ दूसरी संख्या हुई।",
+          "translation": "\"Thousand-eyed, hundred-streamed, purified by sages — with it I sprinkle you; may the purifying ones purify you.\"",
+          "translationSource": "ai"
         },
         {
           "number": 67,
           "sanskrit": "भगं ते वरुणो राजा भगं सूर्यो बृहस्पतिः । भगमिन्द्रश्च वायुश्च भगं सप्तर्षयो ददुः",
           "transliteration": "bhagaṃ te varuṇo rājā bhagaṃ sūryo bṛhaspatiḥ / bhagamindraśca vāyuśca bhagaṃ saptarṣayo daduḥ",
-          "hindi": "१. यदि कोई पूछे--किसी हंस-समूहके मूलका सप्तगुणित आधा (७/२) भाग सरोवरके तटपर चला गया और बचे हुए २ हंस जलमें ही क्रीड़ा करते देखे गये तो उन हंसोंकी कुल संख्या कितनी थी ? यहाँ मूल गुणक ७/२ है। दृष्ट संख्या २ है। गुणार्ध हुआ ७/४ उसका वर्ग हुआ ४९/१६ उससे दृष्ट २ का योग करनेपर ८१/१६ हुआ। इसका मूल हुआ ९/४ फिर इसे गुणार्ध ७/ ४ से युक्त किया तो १६/४-४ हुआ, इसका वर्ग किया तो १६ हुआ, यही हंसकुलका मान है। (यह मूलोन दृष्टका उदाहरण है।)"
+          "hindi": "१. यदि कोई पूछे--किसी हंस-समूहके मूलका सप्तगुणित आधा (७/२) भाग सरोवरके तटपर चला गया और बचे हुए २ हंस जलमें ही क्रीड़ा करते देखे गये तो उन हंसोंकी कुल संख्या कितनी थी ? यहाँ मूल गुणक ७/२ है। दृष्ट संख्या २ है। गुणार्ध हुआ ७/४ उसका वर्ग हुआ ४९/१६ उससे दृष्ट २ का योग करनेपर ८१/१६ हुआ। इसका मूल हुआ ९/४ फिर इसे गुणार्ध ७/ ४ से युक्त किया तो १६/४-४ हुआ, इसका वर्ग किया तो १६ हुआ, यही हंसकुलका मान है। (यह मूलोन दृष्टका उदाहरण है।)",
+          "translation": "\"May King Varuna give you fortune, the Sun, Brihaspati, Indra, Vayu and the Seven Sages.\"",
+          "translationSource": "ai"
         },
         {
           "number": 68,
           "sanskrit": "यत्ते केशेषु दौर्भाग्यं सीमन्ते यच्च मूर्द्धनि । ललाटे कर्णयोरक्ष्णोरापस्तुदन्तु सर्वदा",
           "transliteration": "yatte keśeṣu daurbhāgyaṃ sīmante yacca mūrddhani / lalāṭe karṇayorakṣṇorāpastudantu sarvadā",
-          "hindi": "भागोन दृष्टका उदाहरण इस प्रकार है--किसी व्यक्तिने अपने धनका आधा १/२ अपने पुत्रको दिया और धन-संख्याके मूलका १२ गुना भाग अपनी स्त्रीको दे दिया। इसके बाद उसके पास १०८०) बच गये तो बताओ उसके सम्पूर्ण धनकी संख्या क्या है?"
+          "hindi": "भागोन दृष्टका उदाहरण इस प्रकार है--किसी व्यक्तिने अपने धनका आधा १/२ अपने पुत्रको दिया और धन-संख्याके मूलका १२ गुना भाग अपनी स्त्रीको दे दिया। इसके बाद उसके पास १०८०) बच गये तो बताओ उसके सम्पूर्ण धनकी संख्या क्या है?",
+          "translation": "\"Whatever ill-fortune is in your hair, parting, head, forehead, ears, eyes, may the waters always drive away.\"",
+          "translationSource": "ai"
         },
         {
           "number": 69,
           "sanskrit": "स्नानस्य सार्षपं तैलं स्रुवेणौदुम्बरेण तु । जुहुयान्मूर्द्धनि कुशान्सव्यन परिगृह्य च",
           "transliteration": "snānasya sārṣapaṃ tailaṃ sruveṇaudumbareṇa tu / juhuyānmūrddhani kuśānsavyana parigṛhya ca",
-          "hindi": "उत्तर--इस प्रश्नमें मूलगुणक १२ है और १/२ भागसे ऊन दृष्ट १०८० है। अत: मूल श्लोकमें वर्णित रीतिके अनुसार भागको एकमें घटानेसे १--१/२-१/२ हुआ। इससे मूल गुणक १२ और दृश्य १०८० में भाग देनेसे क्रमश: नवीन मूलगुणक २४ और नवीन दृश्य २१६० हुआ। पुनः उपर्युक्त रीतिसे इस मूलगुणकके आधे १२ के वर्ग १४४ को दृश्यमें जोड़नेसे २३०४ हुआ। इसके मूल ४८ में गुणक २४ के आधे १२ को जोड़नेसे ६० हुआ और उसका वर्ग ३६०० हुआ; यही उत्तर है।"
+          "hindi": "उत्तर--इस प्रश्नमें मूलगुणक १२ है और १/२ भागसे ऊन दृष्ट १०८० है। अत: मूल श्लोकमें वर्णित रीतिके अनुसार भागको एकमें घटानेसे १--१/२-१/२ हुआ। इससे मूल गुणक १२ और दृश्य १०८० में भाग देनेसे क्रमश: नवीन मूलगुणक २४ और नवीन दृश्य २१६० हुआ। पुनः उपर्युक्त रीतिसे इस मूलगुणकके आधे १२ के वर्ग १४४ को दृश्यमें जोड़नेसे २३०४ हुआ। इसके मूल ४८ में गुणक २४ के आधे १२ को जोड़नेसे ६० हुआ और उसका वर्ग ३६०० हुआ; यही उत्तर है।",
+          "translation": "With mustard oil for the bath, with a ladle of udumbara he should offer on the head with kusha, held with the left hand.",
+          "translationSource": "ai"
         },
         {
           "number": 70,
           "sanskrit": "मितश्च संमितश्चैव तथा शालकटङ्कटौ । कूष्माण्डो राजपुत्र श्चेत्यन्ते स्वाहासमान्वितैः",
           "transliteration": "mitaśca saṃmitaścaiva tathā śālakaṭaṅkaṭau / kūṣmāṇḍo rājaputra ścetyante svāhāsamānvitaiḥ",
-          "hindi": "भागयुत दृष्टका उदाहरण--एक भगवद्धक्त प्रातः:काल जितनी संख्यामें हरिनामका जप करते हैं; उस संख्याके पञ्ञमांशमें उसी जपसंख्याके मूलका १२ गुना जोड़नेसे जो संख्या हो, उतना जप सायंकालमें करते हैं, यदि दोनों समयकी जपसंख्या मिलकर १३२०० है तो प्रातःकाल और सायंकालकी पृथक्ू-पृथक् जपसंख्या बताइये।"
+          "hindi": "भागयुत दृष्टका उदाहरण--एक भगवद्धक्त प्रातः:काल जितनी संख्यामें हरिनामका जप करते हैं; उस संख्याके पञ्ञमांशमें उसी जपसंख्याके मूलका १२ गुना जोड़नेसे जो संख्या हो, उतना जप सायंकालमें करते हैं, यदि दोनों समयकी जपसंख्या मिलकर १३२०० है तो प्रातःकाल और सायंकालकी पृथक्ू-पृथक् जपसंख्या बताइये।",
+          "translation": "Mita, Sammita, Shalakatankata, Kushmanda and Rajaputra — with these names ending in \"svaha\"...",
+          "translationSource": "ai"
         },
         {
           "number": 71,
           "sanskrit": "नामभिर्बलिमन्त्रैश्च नमस्कारसमन्वितैः । दद्याञ्चतुष्पथे सूर्य्ये कुशानास्तीर्य्य सर्वतः",
           "transliteration": "nāmabhirbalimantraiśca namaskārasamanvitaiḥ / dadyāñcatuṣpathe sūryye kuśānāstīryya sarvataḥ",
-          "hindi": "उत्तर-यहाँ मूलगुणक १२ और भाग १/५से युत दृष्ट १३२०० है। अत: उक्त रीतिके अनुसार भागको १ में जोड़ा गया तो ६/५ हुआ। इससे मूलगुणक १२ और दृश्य १३२०० में भाग देनेपर नवीन मूलगुणक १० और नवीन दृश्य ११००० हुआ। उपर्युक्त रीतिक अनुसार गुणकके आधे ५ के वर्ग २५ को नवीन दृश्यमें जोड़नेपर ११०२५ हुआ। इसका मूल १०५ हुआ। इसमें नवीन गुणकके आधे ५ को घटानेसे १०० हुआ। इसका वर्ग १०००० है। यही प्रात:कालकी जपसंख्या हुई। शेष ३२००"
+          "hindi": "उत्तर-यहाँ मूलगुणक १२ और भाग १/५से युत दृष्ट १३२०० है। अत: उक्त रीतिके अनुसार भागको १ में जोड़ा गया तो ६/५ हुआ। इससे मूलगुणक १२ और दृश्य १३२०० में भाग देनेपर नवीन मूलगुणक १० और नवीन दृश्य ११००० हुआ। उपर्युक्त रीतिक अनुसार गुणकके आधे ५ के वर्ग २५ को नवीन दृश्यमें जोड़नेपर ११०२५ हुआ। इसका मूल १०५ हुआ। इसमें नवीन गुणकके आधे ५ को घटानेसे १०० हुआ। इसका वर्ग १०००० है। यही प्रात:कालकी जपसंख्या हुई। शेष ३२००",
+          "translation": "with names, bali-mantras and salutations, he should give at a crossroads, at the sun, spreading kusha all around.",
+          "translationSource": "ai"
         },
         {
           "number": 72,
           "sanskrit": "कृता कृतांस्तण्डुलीश्च पललौदनमेव च । मत्स्यान्पक्वांस्तथैवामान्मांसमेतावदेवतु",
           "transliteration": "kṛtā kṛtāṃstaṇḍulīśca palalaudanameva ca / matsyānpakvāṃstathaivāmānmāṃsametāvadevatu",
-          "hindi": "२. ठदाहरणके लिये यह प्रश्न है--यदि पाँच रुपयेमें १०० आम मिलते हैं तो सात रुपयेमें कितने मिलेंगे? इस प्रश्नमें ५ प्रमाण है, १०० प्रमाण-फल है और ७ इच्छा है। प्रमाण और इच्छा एक जाति (रुपया) तथा प्रमाण-फल भिन्न जाति (आम) है। आदियमें प्रमाण, मध्यमें फल और अन्तमें इच्छाकी स्थापना की गयी--५) में १०० आम तो ७) में कितने ? यहाँ प्रमाण-"
+          "hindi": "२. ठदाहरणके लिये यह प्रश्न है--यदि पाँच रुपयेमें १०० आम मिलते हैं तो सात रुपयेमें कितने मिलेंगे? इस प्रश्नमें ५ प्रमाण है, १०० प्रमाण-फल है और ७ इच्छा है। प्रमाण और इच्छा एक जाति (रुपया) तथा प्रमाण-फल भिन्न जाति (आम) है। आदियमें प्रमाण, मध्यमें फल और अन्तमें इच्छाकी स्थापना की गयी--५) में १०० आम तो ७) में कितने ? यहाँ प्रमाण-",
+          "translation": "Cooked and uncooked rice, a sesame-rice dish, fish cooked and raw, meat — as much as these.",
+          "translationSource": "ai"
         },
         {
           "number": 73,
           "sanskrit": "पुष्पं चित्रं सुगन्धं च सुराञ्च त्रिविधामपि । मूलकं पूरिकापूपांस्तथैवोटस्रजो ऽपि च",
           "transliteration": "puṣpaṃ citraṃ sugandhaṃ ca surāñca trividhāmapi / mūlakaṃ pūrikāpūpāṃstathaivoṭasrajo 'pi ca",
-          "hindi": "सन न न पक्षमें परिवर्तन करके (प्रमाण-पक्षवालेको इच्छा- बहुराशिवधे भक्ते फलं स्वल्पवधेन च॥ ३८ ॥  पक्षमें और इच्छा-पक्षवालेको प्रमाण-पक्षमें रखकर) इष्टकर्मविधेमूलं च्युतं मिश्रात् कलान्तरम् । अधिक राशियोंके घातमें अल्पराशिके घातसे मानघ्नकालश्चातीतकालघ्नफलसंहता: ॥ ३९॥  भाग देनेपर जो लब्धि आवे, वही इच्छाफल"
+          "hindi": "सन न न पक्षमें परिवर्तन करके (प्रमाण-पक्षवालेको इच्छा- बहुराशिवधे भक्ते फलं स्वल्पवधेन च॥ ३८ ॥  पक्षमें और इच्छा-पक्षवालेको प्रमाण-पक्षमें रखकर) इष्टकर्मविधेमूलं च्युतं मिश्रात् कलान्तरम् । अधिक राशियोंके घातमें अल्पराशिके घातसे मानघ्नकालश्चातीतकालघ्नफलसंहता: ॥ ३९॥  भाग देनेपर जो लब्धि आवे, वही इच्छाफल",
+          "translation": "Flowers of many kinds, fragrance, and liquor of the three kinds, radish, pastries and cakes, and garlands of ota (hemp?).",
+          "translationSource": "ai"
         },
         {
           "number": 74,
           "sanskrit": "दध्यन्नं पायसं चैव गुजपिष्ट समोदकम् । एतान्सर्वानुपाहृत्य भूमौ कृत्वा ततः शिरः",
           "transliteration": "dadhyannaṃ pāyasaṃ caiva gujapiṣṭa samodakam / etānsarvānupāhṛtya bhūmau kṛtvā tataḥ śiraḥ",
-          "hindi": "स्वयोगभक्ता मिश्रघ्ता: सम्प्रयुक्ततलानि च। है' ॥ ३८॥ मिश्रधनको इष्ट मानकर इुष्टकर्मसे"
+          "hindi": "स्वयोगभक्ता मिश्रघ्ता: सम्प्रयुक्ततलानि च। है' ॥ ३८॥ मिश्रधनको इष्ट मानकर इुष्टकर्मसे",
+          "translation": "Curd-rice, milk-rice, jaggery-and-flour sweets: having brought all of these and bowed his head to the ground,",
+          "translationSource": "ai"
         },
         {
           "number": 75,
           "sanskrit": "विनायकस्य जननी मुपतिष्टेत्ततो ऽम्बिकाम् । दुर्वासर्षपपुष्पाणां दत्त्वार्घ्यं पूर्णमञ्जलिम्",
           "transliteration": "vināyakasya jananī mupatiṣṭettato 'mbikām / durvāsarṣapapuṣpāṇāṃ dattvārghyaṃ pūrṇamañjalim",
-          "hindi": "पञ्चराशिक, सप्ततराशिक (नवराशिक,  मूलधनका ज्ञान करे, उसको मिश्रधनमें घटानेसे एकादशराशिक) आदिमें फल और हरोंको परस्पर  कलान्तर (सूद) समझना चाहिए।' अपने-अपने"
+          "hindi": "पञ्चराशिक, सप्ततराशिक (नवराशिक,  मूलधनका ज्ञान करे, उसको मिश्रधनमें घटानेसे एकादशराशिक) आदिमें फल और हरोंको परस्पर  कलान्तर (सूद) समझना चाहिए।' अपने-अपने",
+          "translation": "he should approach Ambika, mother of Vinayaka, offering a full handful of water with durva, mustard and flowers.",
+          "translationSource": "ai"
         },
         {
           "number": 76,
           "sanskrit": "रूपं देहि यशो देहि भगं भगवति देहि मे । पुत्रान्देहि धनं देहि सर्वान्कामांश्च देहि मे",
           "transliteration": "rūpaṃ dehi yaśo dehi bhagaṃ bhagavati dehi me / putrāndehi dhanaṃ dehi sarvānkāmāṃśca dehi me",
-          "hindi": "फल १०० को इच्छासे गुणा करके प्रमाणसे भाग दिया जायगा तो १००:७ 5 १४० यह इच्छाफल हुआ (अर्थात् सात रुपयेके १४० आम हुए)। ५"
+          "hindi": "फल १०० को इच्छासे गुणा करके प्रमाणसे भाग दिया जायगा तो १००:७ 5 १४० यह इच्छाफल हुआ (अर्थात् सात रुपयेके १४० आम हुए)। ५",
+          "translation": "\"Give me beauty, give me fame, give me fortune, O Goddess; give me sons, give me wealth, give me all desires.\"",
+          "translationSource": "ai"
         },
         {
           "number": 77,
           "sanskrit": "उपस्थाय शिवां दुर्गामुमापतिमथाचेर्यत् । धूपैदर्पिश्चै नैवेद्यैर्गन्धमाल्यानुलेपनैः",
           "transliteration": "upasthāya śivāṃ durgāmumāpatimathāceryat / dhūpaidarpiścai naivedyairgandhamālyānulepanaiḥ",
-          "hindi": "जहाँ इच्छाकी वृद्धिमें फलकी वृद्धि और इच्छाके हासमें फलका हास हो, वहाँ क्रम-त्राराशिक होता है। जहाँ इच्छाकी वृद्धिमें फलका हास और इच्छाके हासमें फलकी वृद्धि हो, वहाँ व्यस्तत्रैाराशिक होता है। वैसे स्थलोंमें प्रमाणफलको प्रमाणसे गुणा करके उसमें इच्छाके द्वारा भाग देनेसे इच्छाफल होता है। इस प्रकारके व्यस्त-तरैराशिकके कुछ परिगणित स्थल हैं-- 'जीवानां वयसो मौल्ये तौल्ये वर्णस्य हैमने। भागहारे च राशीनां व्यस्तं त्रैरशिकं भवेत्॥' अर्थात् जीवोंकी वयसके मूल्यमें,"
+          "hindi": "जहाँ इच्छाकी वृद्धिमें फलकी वृद्धि और इच्छाके हासमें फलका हास हो, वहाँ क्रम-त्राराशिक होता है। जहाँ इच्छाकी वृद्धिमें फलका हास और इच्छाके हासमें फलकी वृद्धि हो, वहाँ व्यस्तत्रैाराशिक होता है। वैसे स्थलोंमें प्रमाणफलको प्रमाणसे गुणा करके उसमें इच्छाके द्वारा भाग देनेसे इच्छाफल होता है। इस प्रकारके व्यस्त-तरैराशिकके कुछ परिगणित स्थल हैं-- 'जीवानां वयसो मौल्ये तौल्ये वर्णस्य हैमने। भागहारे च राशीनां व्यस्तं त्रैरशिकं भवेत्॥' अर्थात् जीवोंकी वयसके मूल्यमें,",
+          "translation": "Having approached Shiva, Durga and Uma's lord, he should worship with incense, ghee-lamps, offerings, perfume, garlands and ointments.",
+          "translationSource": "ai"
         },
         {
           "number": 78,
           "sanskrit": "ततः शुक्लाम्बरधरः शुक्लमाल्यानुलेपनः । ब्राह्मणान्भोजयेत्पश्चाद्वस्त्रयुगमं गुरोरपि",
           "transliteration": "tataḥ śuklāmbaradharaḥ śuklamālyānulepanaḥ / brāhmaṇānbhojayetpaścādvastrayugamaṃ gurorapi",
-          "hindi": "उत्तमके साथ अधम मोलवाले सोनेके तौलमें तथा किसी संख्यामें भिन्न-भिन्न भाजकसे भाग देनेमें व्यस्तत्रारशिक होता है। एक उदाहरण लीजिये--३ आदमी मिलकर १० दिनमें एक काम पूरा करते हैं तो १५आदमी कितने दिनमें करेंगे? यहाँ १०५३-१५ करनेसे उत्तर आया २; अत: २ दिनमें काम पूरा करेंगे।"
+          "hindi": "उत्तमके साथ अधम मोलवाले सोनेके तौलमें तथा किसी संख्यामें भिन्न-भिन्न भाजकसे भाग देनेमें व्यस्तत्रारशिक होता है। एक उदाहरण लीजिये--३ आदमी मिलकर १० दिनमें एक काम पूरा करते हैं तो १५आदमी कितने दिनमें करेंगे? यहाँ १०५३-१५ करनेसे उत्तर आया २; अत: २ दिनमें काम पूरा करेंगे।",
+          "translation": "Then, clothed in white, with white garlands and ointments, he should feed Brahmins and also give his teacher a pair of garments.",
+          "translationSource": "ai"
         },
         {
           "number": 79,
           "sanskrit": "एवं विनायकं पूज्य ग्रहांश्चैव प्रपूजयेत् । श्रीकामः शान्तिकामो वा पुष्टिवृद्ध्यायुर्वीर्य्यवान्",
           "transliteration": "evaṃ vināyakaṃ pūjya grahāṃścaiva prapūjayet / śrīkāmaḥ śāntikāmo vā puṣṭivṛddhyāyurvīryyavān",
-          "hindi": "१२. इसका प्रश्नात्मक उदाहरण इस प्रकार है--यदि १ मासमें १००) के ५) ब्याज होते हैं तो १२ महीनेमें १६) के कितने होंगे ? इसका न्यास इस प्रकार है--"
+          "hindi": "१२. इसका प्रश्नात्मक उदाहरण इस प्रकार है--यदि १ मासमें १००) के ५) ब्याज होते हैं तो १२ महीनेमें १६) के कितने होंगे ? इसका न्यास इस प्रकार है--",
+          "translation": "Having thus worshipped Vinayaka, he should worship the planets — one desiring prosperity, peace, nourishment, long life and vigour.",
+          "translationSource": "ai"
         },
         {
           "number": 80,
           "sanskrit": "सीर्य्यः सोमो महीपुत्रो बुधो जीवो भृगुः शनिः । राहुकेतू नवाप्येते नवाप्येते स्थापनीया ग्रहाः क्रमात्",
           "transliteration": "sīryyaḥ somo mahīputro budho jīvo bhṛguḥ śaniḥ / rāhuketū navāpyete navāpyete sthāpanīyā grahāḥ kramāt",
-          "hindi": "१ १२ परस्पर पक्षनयन करके इस प्रकार व १२"
+          "hindi": "१ १२ परस्पर पक्षनयन करके इस प्रकार व १२",
+          "translation": "Sun, Moon, Mars, Mercury, Jupiter, Venus, Saturn, Rahu and Ketu — these nine planets are to be established in order.",
+          "translationSource": "ai"
         },
         {
           "number": 81,
           "sanskrit": "ताम्रकाद्रजताद्रक्तचन्दनात्स्वर्णकादपि । हेम्नो रजतादयसः सीसात्कार्या शुभाप्तये",
           "transliteration": "tāmrakādrajatādraktacandanātsvarṇakādapi / hemno rajatādayasaḥ sīsātkāryā śubhāptaye",
-          "hindi": "डे बहुराशिके घात (गुणन) से--१२७१६५०९६० 5"
+          "hindi": "डे बहुराशिके घात (गुणन) से--१२७१६५०९६० 5",
+          "translation": "They should be made of copper, silver, red sandal, gold, gold, silver, iron, lead, for good fortune.",
+          "translationSource": "ai"
         },
         {
           "number": 82,
           "sanskrit": "स्ववर्णैर्वापटे लेख्या गन्धैर्मण्डलकेषु च । यथावर्णं प्रदेयानि वासांसि कुसुमानि च",
           "transliteration": "svavarṇairvāpaṭe lekhyā gandhairmaṇḍalakeṣu ca / yathāvarṇaṃ pradeyāni vāsāṃsi kusumāni ca",
-          "hindi": "अल्पराशिके घात (गुणन) से--१५१००-१०० ९६०-१०००९ 5 5९ (रुपये ब्याज हुए। इसी तरह मूलधन तथा ब्याज जानकर काल बताना चाहिए और काल तथा ब्याज जानकर मूलधन बताना चाहिए। सप्तरशिकका उदाहरण इस प्रकार है-यदि ४ हाथ चौड़ी और ८ हाथ लम्बी १० दरियोंका मूल्य १००) रुपया"
+          "hindi": "अल्पराशिके घात (गुणन) से--१५१००-१०० ९६०-१०००९ 5 5९ (रुपये ब्याज हुए। इसी तरह मूलधन तथा ब्याज जानकर काल बताना चाहिए और काल तथा ब्याज जानकर मूलधन बताना चाहिए। सप्तरशिकका उदाहरण इस प्रकार है-यदि ४ हाथ चौड़ी और ८ हाथ लम्बी १० दरियोंका मूल्य १००) रुपया",
+          "translation": "Or drawn on cloth in their own colours, or in diagrams with perfumes; garments and flowers should be given in the colour of each.",
+          "translationSource": "ai"
         },
         {
           "number": 83,
           "sanskrit": "गन्धाश्च बलयश्चैव धूपो देयश्च गुग्गुलुः । कर्तव्या मन्त्रवन्तश्च चरवः प्रतिदैवतम्",
           "transliteration": "gandhāśca balayaścaiva dhūpo deyaśca gugguluḥ / kartavyā mantravantaśca caravaḥ pratidaivatam",
-          "hindi": "है तो ८ हाथ चौड़ी तथा १० हाथ लम्बी २० दरियोंका मूल्य क्या होगा?"
+          "hindi": "है तो ८ हाथ चौड़ी तथा १० हाथ लम्बी २० दरियोंका मूल्य क्या होगा?",
+          "translation": "Perfumes, offerings, incense and guggulu should be given; and oblations with mantras for each deity should be prepared.",
+          "translationSource": "ai"
         },
         {
           "number": 84,
           "sanskrit": "आकृष्णेन इमन्देवा अग्निर्मूर्द्धादिवः ककुत् । उद्बुधअयस्वाति यदर्यस्तथैवान्नात्परिस्रुतः",
           "transliteration": "ākṛṣṇena imandevā agnirmūrddhādivaḥ kakut / udbudhaayasvāti yadaryastathaivānnātparisrutaḥ",
-          "hindi": "के है अन्योन्य पक्ष-नयनसे अल्पराशि बहुराशि"
+          "hindi": "के है अन्योन्य पक्ष-नयनसे अल्पराशि बहुराशि",
+          "translation": "The mantras: \"Akrishnena\", \"Imam deva\", \"Agnir murdha divah kakut\", \"Udbudhyasva\", \"Yad arya\", and \"Annat parisrutah\".",
+          "translationSource": "ai"
         },
         {
           "number": 85,
           "sanskrit": "शन्नोदेवीस्तथा काण्डात्केतुं कृण्वन्नकेतवः",
           "transliteration": "śannodevīstathā kāṇḍātketuṃ kṛṇvannaketavaḥ",
-          "hindi": "श्लोकोक्त रीतिके अनुसार ८४१०:०२००१०० , ,,) पाँच सौ रुपये। यही उत्तर हुआ। इसी प्रकार नवराशिक आदिको भी जानना चाहिए। ४०८८१८१० २. उदाहरण यह है--१ मासमें १००) के ५) ब्याजके हिसाबसे यदि बारह मासमें मूलधनसहित ब्याज १०००) हुए तो अलग-अलग मूलधन और ब्याजकी संख्या बताओ। इष्टकर्मसे मूलधन जाननेके लिये इष्ट ५ कल्पित मूलधन"
+          "hindi": "श्लोकोक्त रीतिके अनुसार ८४१०:०२००१०० , ,,) पाँच सौ रुपये। यही उत्तर हुआ। इसी प्रकार नवराशिक आदिको भी जानना चाहिए। ४०८८१८१० २. उदाहरण यह है--१ मासमें १००) के ५) ब्याजके हिसाबसे यदि बारह मासमें मूलधनसहित ब्याज १०००) हुए तो अलग-अलग मूलधन और ब्याजकी संख्या बताओ। इष्टकर्मसे मूलधन जाननेके लिये इष्ट ५ कल्पित मूलधन",
+          "translation": "\"Shanno devih\", then from the section, \"Ketum krinvann aketave\".",
+          "translationSource": "ai"
         },
         {
           "number": 86,
           "sanskrit": "अर्कः पलाशः खदिरस्त्वपामार्गो ऽथपिप्पलः । उदुंबरः शमी दूर्वा कुशाश्च समिधः क्रमात्",
           "transliteration": "arkaḥ palāśaḥ khadirastvapāmārgo 'thapippalaḥ / uduṃbaraḥ śamī dūrvā kuśāśca samidhaḥ kramāt",
-          "hindi": "और दृश्य १००० मिश्रधन है। यहाँ कल्पित मूलधनसे पश्चराशिकद्वारा ब्याज जाननेके लिये न्‍्यास--"
+          "hindi": "और दृश्य १००० मिश्रधन है। यहाँ कल्पित मूलधनसे पश्चराशिकद्वारा ब्याज जाननेके लिये न्‍्यास--",
+          "translation": "Arka, palasha, khadira, apamarga, pippala, udumbara, shami, durva and kusha are the fuel sticks, in order.",
+          "translationSource": "ai"
         },
         {
           "number": 87,
           "sanskrit": "एकैकस्मादष्टशतमष्टाविंशतिरेव च । होतव्या मधुसर्पिर्भ्यां दध्ना क्षीरेण वा पुनः",
           "transliteration": "ekaikasmādaṣṭaśatamaṣṭāviṃśatireva ca / hotavyā madhusarpirbhyāṃ dadhnā kṣīreṇa vā punaḥ",
-          "hindi": "१ १२ परस्पर पक्षनयनसे १ २२ बहुराशिके घात (गुणन)-में स्वल्पराशिके १०० ५ १०० ५ घात (गुणन) से भाग देनेपर"
+          "hindi": "१ १२ परस्पर पक्षनयनसे १ २२ बहुराशिके घात (गुणन)-में स्वल्पराशिके १०० ५ १०० ५ घात (गुणन) से भाग देनेपर",
+          "translation": "One hundred and eight, or twenty-eight, of each should be offered with honey and ghee, or with curd or milk.",
+          "translationSource": "ai"
         },
         {
           "number": 88,
           "sanskrit": "गुडौदनं पायसं च हविष्यं क्षीरष्यं क्षीरषाष्टिकम् । दध्योदनं हविश्चूर्णं मांसं चित्रान्नमेव च",
           "transliteration": "guḍaudanaṃ pāyasaṃ ca haviṣyaṃ kṣīraṣyaṃ kṣīraṣāṣṭikam / dadhyodanaṃ haviścūrṇaṃ māṃsaṃ citrānnameva ca",
-          "hindi": "हा गया है। इसी गणितके उदाहरणमें जब इच्छाफल जानकर मूलधन जानना होगा तो 'फलोंको परस्पर पक्षमें परिवर्तन करनेसे प्रमाण- पक्ष (स्वल्पाशि) का फल ही बहुराशि"
+          "hindi": "हा गया है। इसी गणितके उदाहरणमें जब इच्छाफल जानकर मूलधन जानना होगा तो 'फलोंको परस्पर पक्षमें परिवर्तन करनेसे प्रमाण- पक्ष (स्वल्पाशि) का फल ही बहुराशि",
+          "translation": "Jaggery-rice, milk-rice, havishya (pure sacrificial food), milk preparations, rice with milk, curd-rice, flour offerings, meat and variegated food —",
+          "translationSource": "ai"
         },
         {
           "number": 89,
           "sanskrit": "दद्या द्ग्रहक्रमादेतद्द्विजेभ्यो भोजनं बुधः । शक्तितो ऽपि यथा लाभं सत्कृत्य विधिपूर्वकम्",
           "transliteration": "dadyā dgrahakramādetaddvijebhyo bhojanaṃ budhaḥ / śaktito 'pi yathā lābhaṃ satkṛtya vidhipūrvakam",
-          "hindi": "(इच्छापक्ष )-से अधिक होगा। यहाँ राशिजफलको इष्टमास और प्रमाण-फलके गुणनसे भाग देनेपर मूलधन होता है'॥४० ॥"
+          "hindi": "(इच्छापक्ष )-से अधिक होगा। यहाँ राशिजफलको इष्टमास और प्रमाण-फलके गुणनसे भाग देनेपर मूलधन होता है'॥४० ॥",
+          "translation": "the wise should give these to Brahmins as food in the order of the planets, as able, as obtained, honoured, by rule.",
+          "translationSource": "ai"
         },
         {
           "number": 90,
           "sanskrit": "धेनुः शङ्खस्तथानङ्वान्हिमवासो हयः क्रमात् । कृष्णागौरायसं छाग एता वै दक्षिणाः स्मृताः",
           "transliteration": "dhenuḥ śaṅkhastathānaṅvānhimavāso hayaḥ kramāt / kṛṣṇāgaurāyasaṃ chāga etā vai dakṣiṇāḥ smṛtāḥ",
-          "hindi": "भजेच्छिदोंशैस्तैर्मि श्रे रूपं कालश्व पूर्तिकृत् । प्रक्षेप (पूँजीके टुकड़े)-को पृथक्-पृथक्"
+          "hindi": "भजेच्छिदोंशैस्तैर्मि श्रे रूपं कालश्व पूर्तिकृत् । प्रक्षेप (पूँजीके टुकड़े)-को पृथक्-पृथक्",
+          "translation": "A cow, a conch, a bull, a garment, a horse, a black cow, gold, iron, a goat — these are remembered as the fees (for each planet).",
+          "translationSource": "ai"
         },
         {
           "number": 91,
           "sanskrit": "यस्य यस्य तु यद्द्रव्यं पलेनार्च्यः स तेन च । ब्रह्मन्नेषां वरो दत्तः पूजिताः पूजयिष्यथः",
           "transliteration": "yasya yasya tu yaddravyaṃ palenārcyaḥ sa tena ca / brahmanneṣāṃ varo dattaḥ pūjitāḥ pūjayiṣyathaḥ",
-          "hindi": "प्रमाण धनसे अपने-अपने कालको गुणा करना, उसमें अपने-अपने व्यतीत काल और फलके घात (गुणा)-से भाग देना, लब्धिको पृथक् रहने देना, उन सबमें उन्हींके योगका पृथक्-पृथक्"
+          "hindi": "प्रमाण धनसे अपने-अपने कालको गुणा करना, उसमें अपने-अपने व्यतीत काल और फलके घात (गुणा)-से भाग देना, लब्धिको पृथक् रहने देना, उन सबमें उन्हींके योगका पृथक्-पृथक्",
+          "translation": "Whatever substance belongs to each, by that he should be worshipped with his own fee. O Brahmin, a boon has been given to them: \"Worshipped, you will honour.\"",
+          "translationSource": "ai"
         },
         {
           "number": 92,
           "sanskrit": "ग्रहाधीना नरेद्राणां धनजात्युच्छ्रयास्तथा । भावाभावौ च जगतस्तस्मात्पूज्यतमा ग्रहाः",
           "transliteration": "grahādhīnā naredrāṇāṃ dhanajātyucchrayāstathā / bhāvābhāvau ca jagatastasmātpūjyatamā grahāḥ",
-          "hindi": "भाग देना तथा सबको मिश्रधनसे गुणा कर देना चाहिए। फिर क्रमसे प्रयुक्त व्यापारमें लगाये हुए धनखण्डके प्रमाण ज्ञात होते हैं'॥ ३९२॥"
+          "hindi": "भाग देना तथा सबको मिश्रधनसे गुणा कर देना चाहिए। फिर क्रमसे प्रयुक्त व्यापारमें लगाये हुए धनखण्डके प्रमाण ज्ञात होते हैं'॥ ३९२॥",
+          "translation": "The wealth, class and rise of kings depend on the planets, as do the existence and non-existence of the world; therefore the planets are most to be worshipped.",
+          "translationSource": "ai"
         },
         {
           "number": 93,
           "sanskrit": "अदित्यस्य सदा पूजा तिलकं स्वामिनस्तथा । महागणपतेश्चैव कुर्वन्सिद्धिमवान्पुयात्",
           "transliteration": "adityasya sadā pūjā tilakaṃ svāminastathā / mahāgaṇapateścaiva kurvansiddhimavānpuyāt",
-          "hindi": "पञ्चराशिकादिमें फल और हरको अन्योन्य पक्षनयन करनेसे इच्छा-पक्षमें फलके चले जानेसे  मिश्रधनसे गुण देना और उसमें प्रक्षेपके योगसे इच्छापक्ष बहुराशि और प्रमाण-पक्ष स्वल्पराशि  भाग देना चाहिए। इससे पृथक्ू-पृथक् फल ज्ञात १. कल्पित ब्याज हुआ। कल्पित मिश्रधन ५+३०८, इससे इष्टगुणित दृश्यमें भाग देनेसे उद्दिष्ट मूलधन १०००:०-८६२५) इसको मिश्रधन १००० में घटानेसे ३७५) ब्याजके हुए। संक्षेपसे इस प्रकार न्यास करना चाहिए--"
+          "hindi": "पञ्चराशिकादिमें फल और हरको अन्योन्य पक्षनयन करनेसे इच्छा-पक्षमें फलके चले जानेसे  मिश्रधनसे गुण देना और उसमें प्रक्षेपके योगसे इच्छापक्ष बहुराशि और प्रमाण-पक्ष स्वल्पराशि  भाग देना चाहिए। इससे पृथक्ू-पृथक् फल ज्ञात १. कल्पित ब्याज हुआ। कल्पित मिश्रधन ५+३०८, इससे इष्टगुणित दृश्यमें भाग देनेसे उद्दिष्ट मूलधन १०००:०-८६२५) इसको मिश्रधन १००० में घटानेसे ३७५) ब्याजके हुए। संक्षेपसे इस प्रकार न्यास करना चाहिए--",
+          "translation": "Worship of the Sun always, the lord's tilaka, and of Mahaganapati — doing these one attains success.",
+          "translationSource": "ai"
         },
         {
           "number": 94,
           "sanskrit": "कर्मणां सफलत्वं च श्रियं वाप्नोत्यनुत्तमाम्",
           "transliteration": "karmaṇāṃ saphalatvaṃ ca śriyaṃ vāpnotyanuttamām",
-          "hindi": "अथवा इष्टकर्मसे कल्पित इष्ट १"
+          "hindi": "अथवा इष्टकर्मसे कल्पित इष्ट १",
+          "translation": "He attains fruitfulness of his deeds and unsurpassed prosperity.",
+          "translationSource": "ai"
         },
         {
           "number": 95,
           "sanskrit": "अकृत्वा मातृयागं तु यो ग्रहार्चां समारभेत् । कुप्यन्ति मातरस्तस्य प्रत्यूहं कुर्वते तथा",
           "transliteration": "akṛtvā mātṛyāgaṃ tu yo grahārcāṃ samārabhet / kupyanti mātarastasya pratyūhaṃ kurvate tathā",
-          "hindi": "पूर्वोक्त रीतिसे कलान्तर (सूद) ३/५ इससे युक्त १५८/५"
+          "hindi": "पूर्वोक्त रीतिसे कलान्तर (सूद) ३/५ इससे युक्त १५८/५",
+          "translation": "One who begins worship of the planets without having done the worship of the Mothers — the Mothers are angry with him and create obstacles.",
+          "translationSource": "ai"
         },
         {
           "number": 96,
           "sanskrit": "वसोः पवित्रमन्त्रेण वसोर्द्धारां प्रकल्प्य च । गौर्याद्या मातरः पूज्या माङ्गल्येषु शुभार्थिभिः",
           "transliteration": "vasoḥ pavitramantreṇa vasorddhārāṃ prakalpya ca / gauryādyā mātaraḥ pūjyā māṅgalyeṣu śubhārthibhiḥ",
-          "hindi": "२. उदाहरणके लिये यह प्रश्न है--किसीने अपने ९४) रुपये मूलधनके तीन भाग करके एक भागको माहवारी पाँच रुपये सैकड़े ब्याज, दूसरे भागको तीन रुपये और तीसरे भागको चार रुपये सैकड़े ब्याजपर दिया। क्रमशः तीनों भागोंमें सात, दस और पाँच मासमें बराबर ब्याज मिले तो तीनों भागोंकी अलग-अलग संख्या बताओ।"
+          "hindi": "२. उदाहरणके लिये यह प्रश्न है--किसीने अपने ९४) रुपये मूलधनके तीन भाग करके एक भागको माहवारी पाँच रुपये सैकड़े ब्याज, दूसरे भागको तीन रुपये और तीसरे भागको चार रुपये सैकड़े ब्याजपर दिया। क्रमशः तीनों भागोंमें सात, दस और पाँच मासमें बराबर ब्याज मिले तो तीनों भागोंकी अलग-अलग संख्या बताओ।",
+          "translation": "Having arranged the Vasor-dhara with the Vasu purifying mantra, the Mothers beginning with Gauri are to be worshipped in auspicious rites by those wishing welfare.",
+          "translationSource": "ai"
         },
         {
           "number": 97,
           "sanskrit": "गौरी पद्म शची मेधा सावित्री विजया जया । देवसेना स्वधा स्वाहा मातृका वैधृतिर्धृतिः",
           "transliteration": "gaurī padma śacī medhā sāvitrī vijayā jayā / devasenā svadhā svāhā mātṛkā vaidhṛtirdhṛtiḥ",
-          "hindi": "प्रमाणकाल १व्यतीतकाल ७  प्र०्का०श्व्यण्का०१०  प्र० का० १ व्य० का० ५  मूलधन)"
+          "hindi": "प्रमाणकाल १व्यतीतकाल ७  प्र०्का०श्व्यण्का०१०  प्र० का० १ व्य० का० ५  मूलधन)",
+          "translation": "Gauri, Padma, Shachi, Medha, Savitri, Vijaya, Jaya, Devasena, Svadha, Svaha, Matrika, Dhriti,",
+          "translationSource": "ai"
         },
         {
           "number": 98,
           "sanskrit": "पुष्टिर्हृष्टिस्तथा तुष्टिरात्मदेवतया सह । गणेशेनाधिका ह्येता वृद्धौ पूज्यास्तु षोहश",
           "transliteration": "puṣṭirhṛṣṭistathā tuṣṭirātmadevatayā saha / gaṇeśenādhikā hyetā vṛddhau pūjyāstu ṣohaśa",
-          "hindi": "अपने प्रमाणकाल और प्रमाणधनके गुणनफलमें व्यतीतकाल और प्रमाण-फलके गुणनफलसे भाग देनेपर--"
+          "hindi": "अपने प्रमाणकाल और प्रमाणधनके गुणनफलमें व्यतीतकाल और प्रमाण-फलके गुणनफलसे भाग देनेपर--",
+          "translation": "Pushti, Hrishti, Tushti, with the family deity and Ganesha — these sixteen are to be worshipped at times of increase.",
+          "translationSource": "ai"
         },
         {
           "number": 99,
           "sanskrit": "आवाहनं तथा पाद्यमर्ध्यं स्नानं च चन्दनम् । अक्षतांश्चैव पुष्पाणि धूपं दीपं फलानि च",
           "transliteration": "āvāhanaṃ tathā pādyamardhyaṃ snānaṃ ca candanam / akṣatāṃścaiva puṣpāṇi dhūpaṃ dīpaṃ phalāni ca",
-          "hindi": "इनमें इनके योग २३५/२१ से भाग देने और मिश्रधन (९४)-से गुणा करनेपर पृथक्ू-पृथक् भाग इस प्रकार होते हैं--"
+          "hindi": "इनमें इनके योग २३५/२१ से भाग देने और मिश्रधन (९४)-से गुणा करनेपर पृथक्ू-पृथक् भाग इस प्रकार होते हैं--",
+          "translation": "Invocation, water for the feet, welcome water, bath, sandal, whole rice-grains, flowers, incense, lamp, fruits,",
+          "translationSource": "ai"
         },
         {
           "number": 100,
           "sanskrit": "नैवेद्याचमनीयं च तांबूलं पूगमेव च । नीराजनं दक्षिणां च क्रमाद्दद्याञ्च तुष्टये",
           "transliteration": "naivedyācamanīyaṃ ca tāṃbūlaṃ pūgameva ca / nīrājanaṃ dakṣiṇāṃ ca kramāddadyāñca tuṣṭaye",
-          "hindi": "१० के र३५ १००२१०३४ , यह द्वितीय भाग हुआ।"
+          "hindi": "१० के र३५ १००२१०३४ , यह द्वितीय भाग हुआ।",
+          "translation": "food, rinsing water, betel and areca, waving of lights and the fee — in this order they should be offered for satisfaction.",
+          "translationSource": "ai"
         },
         {
           "number": 101,
           "sanskrit": "पितृकल्पं प्रक्ष्यामि धनसंततिवर्द्धनम् । अमावस्याष्टका वृद्धिः कृष्णपक्षायनद्वयम्",
           "transliteration": "pitṛkalpaṃ prakṣyāmi dhanasaṃtativarddhanam / amāvasyāṣṭakā vṛddhiḥ kṛṣṇapakṣāyanadvayam",
-          "hindi": "२. उदाहरण--एक मासमें १००) मूलधनका ५) रुपया ब्याज होता है तो १२ मासमें १६ रुपयेका कितना होगा?"
+          "hindi": "२. उदाहरण--एक मासमें १००) मूलधनका ५) रुपया ब्याज होता है तो १२ मासमें १६ रुपयेका कितना होगा?",
+          "translation": "I shall tell the ancestral rite, which increases wealth and progeny. New moon, eighth days, increase (vriddhi), the two courses and the dark fortnight,",
+          "translationSource": "ai"
         },
         {
           "number": 102,
           "sanskrit": "द्रव्यं ब्राह्मणसंपत्तिर्विषुवत्सुर्यसंक्रमः । व्यतीपातो गजच्छाया ग्रहणं चन्द्रसूर्ययोः",
           "transliteration": "dravyaṃ brāhmaṇasaṃpattirviṣuvatsuryasaṃkramaḥ / vyatīpāto gajacchāyā grahaṇaṃ candrasūryayoḥ",
-          "hindi": "उत्तरार्थ न्यास-- अन्योन्य पक्षनयनसे"
+          "hindi": "उत्तरार्थ न्यास-- अन्योन्य पक्षनयनसे",
+          "translation": "a gift, the acquisition of Brahmins, the equinox, the sun's transit, the Vyatipata, the elephant's shadow, eclipses of moon and sun,",
+          "translationSource": "ai"
         },
         {
           "number": 103,
           "sanskrit": "श्राद्धं प्रतिरुचिश्चैव श्राद्धकालाः प्रकीर्तिताः । अग्र्याः सर्वेषु वेदेषु श्रोत्रियो ब्रह्मविद्युवा",
           "transliteration": "śrāddhaṃ pratiruciścaiva śrāddhakālāḥ prakīrtitāḥ / agryāḥ sarveṣu vedeṣu śrotriyo brahmavidyuvā",
-          "hindi": "लय हैं वापी आदि पूरणके प्रश्नमें--अपने- अपने अंशोंसे हरमें भाग देना, फिर उन सबके योगसे १ में भाग देनेपर वापीके भरनेके समयका ज्ञान होता है'॥४१२॥"
+          "hindi": "लय हैं वापी आदि पूरणके प्रश्नमें--अपने- अपने अंशोंसे हरमें भाग देना, फिर उन सबके योगसे १ में भाग देनेपर वापीके भरनेके समयका ज्ञान होता है'॥४१२॥",
+          "translation": "and one's own inclination — these are declared the times of shraddha. The best in all Vedas: a Vedic scholar, a knower of Brahman,",
+          "translationSource": "ai"
         },
         {
           "number": 104,
           "sanskrit": "वेदार्थविज्ज्येष्टसामा त्रिमधुस्रिसुपर्णकः । स्वस्रीय ऋत्विग्जामाता याज्यश्वशुरमातुलाः",
           "transliteration": "vedārthavijjyeṣṭasāmā trimadhusrisuparṇakaḥ / svasrīya ṛtvigjāmātā yājyaśvaśuramātulāḥ",
-          "hindi": "(द्विगुणचयादि-वृद्धिमें फलका साधन)--"
+          "hindi": "(द्विगुणचयादि-वृद्धिमें फलका साधन)--",
+          "translation": "a knower of Vedic meaning, a reciter of Jyeshtha-Sama, Trimadhu, Trisuparna, a sister's son, priest, son-in-law, sacrificer, father-in-law, maternal uncle,",
+          "translationSource": "ai"
         },
         {
           "number": 105,
           "sanskrit": "त्रिणाचिकेतदौहित्रशिष्यसंबन्धिबान्धवाः । कर्मनिष्टास्तपोनिष्टाः पञ्चाग्निब्रह्मचारिणः",
           "transliteration": "triṇāciketadauhitraśiṣyasaṃbandhibāndhavāḥ / karmaniṣṭāstaponiṣṭāḥ pañcāgnibrahmacāriṇaḥ",
-          "hindi": "उसमें १ घटाकर गुणक लिखे। यदि पद सम हो तो आधा करके वर्गचिह् लिखे। इस प्रकार एक घटाने और आधा करनेमें भी जब विषमाडू"
+          "hindi": "उसमें १ घटाकर गुणक लिखे। यदि पद सम हो तो आधा करके वर्गचिह् लिखे। इस प्रकार एक घटाने और आधा करनेमें भी जब विषमाडू",
+          "translation": "Trinachiketa, daughter's son, disciple, relatives, kinsmen, those devoted to rites, devoted to austerity, keepers of the five fires, celibates,",
+          "translationSource": "ai"
         },
         {
           "number": 106,
           "sanskrit": "पितृमातृपराश्चैव ब्राह्मणाः श्राद्धसंपदः । रोगी न्यूनातिरिक्ताङ्गः काणः पौनर्भवस्तथा",
           "transliteration": "pitṛmātṛparāścaiva brāhmaṇāḥ śrāddhasaṃpadaḥ / rogī nyūnātiriktāṅgaḥ kāṇaḥ paunarbhavastathā",
-          "hindi": "करना एवं जबतक पदकी कुल संख्या समाप्त न हो जाय तबतक करते रहना चाहिए। फिर अन्त्य चिहसे उलटा गुणन और वर्गफल साधन करके आद्य चिहतक जो फल हो, उसमें १"
+          "hindi": "करना एवं जबतक पदकी कुल संख्या समाप्त न हो जाय तबतक करते रहना चाहिए। फिर अन्त्य चिहसे उलटा गुणन और वर्गफल साधन करके आद्य चिहतक जो फल हो, उसमें १",
+          "translation": "and those devoted to father and mother — Brahmins are the wealth of shraddha. A sick man, one with deficient or excess limbs, a one-eyed man, a son of a remarried woman,",
+          "translationSource": "ai"
         },
         {
           "number": 107,
           "sanskrit": "अवकीर्णी कुण्डगोलौ कुनखी श्यावदङ्कः । भृतकाध्यापकः क्लीबः कन्यादूष्यभिशस्तकः",
           "transliteration": "avakīrṇī kuṇḍagolau kunakhī śyāvadaṅkaḥ / bhṛtakādhyāpakaḥ klībaḥ kanyādūṣyabhiśastakaḥ",
-          "hindi": "(जहाँ द्विगुण-त्रिगुण आदि चय हो वहाँ) पद  घटाकर शेषमें एकोन गुणकसे भाग देना यदि विषम संख्या (३, ५, ७ आदि) हो तो  चाहिए। लब्धिको आदि अड्डूसे गुणा करनेपर"
+          "hindi": "(जहाँ द्विगुण-त्रिगुण आदि चय हो वहाँ) पद  घटाकर शेषमें एकोन गुणकसे भाग देना यदि विषम संख्या (३, ५, ७ आदि) हो तो  चाहिए। लब्धिको आदि अड्डूसे गुणा करनेपर",
+          "translation": "one who has broken the vow, a son by adultery (kunda, golaka), one with bad nails, black teeth, a hired teacher, an impotent man, a defiler of a maiden, one falsely accused,",
+          "translationSource": "ai"
         },
         {
           "number": 108,
           "sanskrit": "मित्रध्रुक् पिशुनः सोमविक्रयी परिविन्दकः । मातृपितृगुरुत्यागी कुण्डाशी वृषलात्मजः",
           "transliteration": "mitradhruk piśunaḥ somavikrayī parivindakaḥ / mātṛpitṛgurutyāgī kuṇḍāśī vṛṣalātmajaḥ",
-          "hindi": "श्लोकोक्त रीतिके अनुसार-- १०१६५ . ८ .. इच्छाफल।"
+          "hindi": "श्लोकोक्त रीतिके अनुसार-- १०१६५ . ८ .. इच्छाफल।",
+          "translation": "a friend-betrayer, slanderer, seller of soma, one who marries before his elder brother, abandoner of mother, father and teacher, one who eats the food of a kunda, son of a Shudra woman,",
+          "translationSource": "ai"
         },
         {
           "number": 109,
           "sanskrit": "परपूर्वापतिः स्तेनः कर्मभ्रष्टाश्च निन्दिताः । निमन्त्रयीत पूर्वेद्युर्ब्राह्मणानात्मवान् शुचिः",
           "transliteration": "parapūrvāpatiḥ stenaḥ karmabhraṣṭāśca ninditāḥ / nimantrayīta pūrvedyurbrāhmaṇānātmavān śuciḥ",
-          "hindi": "इसी उदाहरणमें मूलधन जाननेके लिये--"
+          "hindi": "इसी उदाहरणमें मूलधन जाननेके लिये--",
+          "translation": "one who is another's husband first, a thief, and those fallen from their duties are censured. The self-controlled, pure man should invite Brahmins the day before.",
+          "translationSource": "ai"
         },
         {
           "number": 110,
           "sanskrit": "तैश्चापि संयतैर् भाव्यं मनोवाक्कायकर्मभिः । अपराह्ने समघभ्यर्च्य स्वागतेनागतांस्तु तान्",
           "transliteration": "taiścāpi saṃyatair bhāvyaṃ manovākkāyakarmabhiḥ / aparāhne samaghabhyarcya svāgatenāgatāṃstu tān",
-          "hindi": "यहाँ फल और हरके अन्योन्य पक्षनयन करनेसे--"
+          "hindi": "यहाँ फल और हरके अन्योन्य पक्षनयन करनेसे--",
+          "translation": "They too should be restrained in mind, speech and body. In the afternoon, having honoured them with welcome as they arrive,",
+          "translationSource": "ai"
         },
         {
           "number": 111,
           "sanskrit": "पवित्रपाणिराचान्तानासने चोपवेशयेत् । विप्रान्दैवे यथाशक्ति पित्र्ये ऽयुग्मांस्तथैव च",
           "transliteration": "pavitrapāṇirācāntānāsane copaveśayet / viprāndaive yathāśakti pitrye 'yugmāṃstathaiva ca",
-          "hindi": "'बहुराशिफलात्' इत्यादि ४० वें श्लोकके अनुसार--"
+          "hindi": "'बहुराशिफलात्' इत्यादि ४० वें श्लोकके अनुसार--",
+          "translation": "holding a purifier in hand, having sipped water, he should seat them on seats: Brahmins for the gods as able, and an odd number for the ancestors.",
+          "translationSource": "ai"
         },
         {
           "number": 112,
           "sanskrit": "परश्रिते शुचौ देशे दक्षिणाप्रवणं तथा । द्वौ द्वैवे प्राक् त्रयः पित्रघ्ये उदगेकैकमेव च",
           "transliteration": "paraśrite śucau deśe dakṣiṇāpravaṇaṃ tathā / dvau dvaive prāk trayaḥ pitraghye udagekaikameva ca",
-          "hindi": "१. मान लीजिये कि ३ व्यापारियोंके क्रमसे ५१, ६८, ८५ रुपये मूलधन हैं। तीनोंने एक साथ मिलकर व्यापारसे ३००) रुपये प्राप्त किये तो इन तीनोंके पृथक्ू-पृथक् कितने धन होंगे ? यहाँ मूलोक्त नियमके अनुसार प्रक्षेपों (५१, ६८, ८५)-को मिश्रधन ३०० से गुणाकर प्रक्षेपोंक योग २०४ के द्वारा भाग देनेपर लब्धिक्रमसे तीनोंके पृथक्ू-पृथक् भाग हुए।"
+          "hindi": "१. मान लीजिये कि ३ व्यापारियोंके क्रमसे ५१, ६८, ८५ रुपये मूलधन हैं। तीनोंने एक साथ मिलकर व्यापारसे ३००) रुपये प्राप्त किये तो इन तीनोंके पृथक्ू-पृथक् कितने धन होंगे ? यहाँ मूलोक्त नियमके अनुसार प्रक्षेपों (५१, ६८, ८५)-को मिश्रधन ३०० से गुणाकर प्रक्षेपोंक योग २०४ के द्वारा भाग देनेपर लब्धिक्रमसे तीनोंके पृथक्ू-पृथक् भाग हुए।",
+          "translation": "In a pure place, sloping to the south, supplied by another: two for the gods facing east, three for the ancestors facing north, or even one each.",
+          "translationSource": "ai"
         },
         {
           "number": 113,
           "sanskrit": "मातामहानामप्येवं तत्र वा वैश्वदैविकम् । पाणिप्रक्षालनं दत्त्वा विष्टरार्थं कुशानपि",
           "transliteration": "mātāmahānāmapyevaṃ tatra vā vaiśvadaivikam / pāṇiprakṣālanaṃ dattvā viṣṭarārthaṃ kuśānapi",
-          "hindi": "२. कल्पना कीजिये कि एक झरना या नल किसी तालाबको १ दिन (१२ घंटे) में, दूसरा र दिनमें, तीसरा 5 दिनमें और चौथा १/६ दिनमें अलग-अलग खोलनेपर भर देता है तो यदि चारों एक ही साथ खोल दिये जायें तो दिनके कितने भागमें तालाबको भेेंगे।"
+          "hindi": "२. कल्पना कीजिये कि एक झरना या नल किसी तालाबको १ दिन (१२ घंटे) में, दूसरा र दिनमें, तीसरा 5 दिनमें और चौथा १/६ दिनमें अलग-अलग खोलनेपर भर देता है तो यदि चारों एक ही साथ खोल दिये जायें तो दिनके कितने भागमें तालाबको भेेंगे।",
+          "translation": "The same for the maternal grandfathers' line, or the Vaishvadeva there. Giving water for washing hands and kusha for seats,",
+          "translationSource": "ai"
         },
         {
           "number": 114,
           "sanskrit": "आवाहयेदनुज्ञातो विश्वेदेवास इत्यृचा । यवैरन्वावकीर्याथ भाजने सपवित्रके",
           "transliteration": "āvāhayedanujñāto viśvedevāsa ityṛcā / yavairanvāvakīryātha bhājane sapavitrake",
-          "hindi": "मूलोक्त रीतिसे अपने-अपने अंशसे हरमें भाग देनेसे ;, ३ , है, ३, इनके योग १२/१ से १ में भाग देनेपर ह्र्हैआ। अर्थात् १ दिनके १२ वें भागमें (१ घंटेमें) तालाब भर जायगा।"
+          "hindi": "मूलोक्त रीतिसे अपने-अपने अंशसे हरमें भाग देनेसे ;, ३ , है, ३, इनके योग १२/१ से १ में भाग देनेपर ह्र्हैआ। अर्थात् १ दिनके १२ वें भागमें (१ घंटेमें) तालाब भर जायगा।",
+          "translation": "with permission he should invite with the verse \"Vishvedevasa...\", scatter barley, and in a vessel with a purifier,",
+          "translationSource": "ai"
         },
         {
           "number": 115,
           "sanskrit": "शन्नो देव्या अपः क्षिप्त्वा यवो ऽसीति यवांस्तथा । यादिव्या इति मन्त्रेण हस्ते पाद्यं विनिःक्षिपेत्",
           "transliteration": "śanno devyā apaḥ kṣiptvā yavo 'sīti yavāṃstathā / yādivyā iti mantreṇa haste pādyaṃ viniḥkṣipet",
-          "hindi": "के: मल मा होता है' ॥ ४२-४३ ॥ कर्णके वर्गान्तरका मूल कोटि होता है तथा"
+          "hindi": "के: मल मा होता है' ॥ ४२-४३ ॥ कर्णके वर्गान्तरका मूल कोटि होता है तथा",
+          "translation": "pouring water with \"Shanno devih\", barley with \"Yavo 'si\", and with the mantra \"Ya divya...\" he should put foot-water in the hand.",
+          "translationSource": "ai"
         },
         {
           "number": 116,
           "sanskrit": "दत्त्वोदकं गन्धमाल्यं प्रदायान्नं सदीपकम् । अपसव्यं ततः तृत्वा पितॄणां सप्रदक्षिणम्",
           "transliteration": "dattvodakaṃ gandhamālyaṃ pradāyānnaṃ sadīpakam / apasavyaṃ tataḥ tṛtvā pitṝṇāṃ sapradakṣiṇam",
-          "hindi": "भुजकोटिकृतेयोंगमूलं कर्णश्र दोर्भवेत्। कोटि एवं कर्णके वर्गान्‍न्तरका मूल भुज होता श्रुतिकोटिकृतेरन्तः पदं दो:कर्णवर्गयो: ॥ ४४॥  है--यह बात त्रिभुज अथवा चतुर्भुज क्षेत्रके विवराद यत्पदं कोटि: क्षेत्रे त्रिचतुरत्रके । लिये कही गयी है'। अथवा राशिके अन्तरवर्गमें राश्योरन्तरवर्गेण द्विघ्ने घाते युते तयो:॥४५॥  उन्हीं. दोनों राशियोंका द्विगुणित घात"
+          "hindi": "भुजकोटिकृतेयोंगमूलं कर्णश्र दोर्भवेत्। कोटि एवं कर्णके वर्गान्‍न्तरका मूल भुज होता श्रुतिकोटिकृतेरन्तः पदं दो:कर्णवर्गयो: ॥ ४४॥  है--यह बात त्रिभुज अथवा चतुर्भुज क्षेत्रके विवराद यत्पदं कोटि: क्षेत्रे त्रिचतुरत्रके । लिये कही गयी है'। अथवा राशिके अन्तरवर्गमें राश्योरन्तरवर्गेण द्विघ्ने घाते युते तयो:॥४५॥  उन्हीं. दोनों राशियोंका द्विगुणित घात",
+          "translation": "Having given water, perfume, garlands, food with a lamp, he should then do it from the left, circumambulating the ancestors.",
+          "translationSource": "ai"
         },
         {
           "number": 117,
           "sanskrit": "द्विगुणांस्तु कुशान्दत्त्वा ह्युशन्तिस्त्वित्यृचा पितॄन् । आवाह्य तदनुज्ञातो जपेदायन्तु नस्ततः",
           "transliteration": "dviguṇāṃstu kuśāndattvā hyuśantistvityṛcā pitṝn / āvāhya tadanujñāto japedāyantu nastataḥ",
-          "hindi": "वर्गयोगो5थ योगान्तर्हतिर्वर्गान्तरं भवेत्। (गुणनफल) जोड़ दें तो वर्गयोग होता है"
+          "hindi": "वर्गयोगो5थ योगान्तर्हतिर्वर्गान्तरं भवेत्। (गुणनफल) जोड़ दें तो वर्गयोग होता है",
+          "translation": "Giving double kusha, he invokes the ancestors with \"Ushantas tva...\", and with their permission chants \"Ayantu nah\".",
+          "translationSource": "ai"
         },
         {
           "number": 118,
           "sanskrit": "यवार्थास्तु तिलैः कार्याः कुर्यादर्ध्यादि पूर्ववत् । दत्त्वार्ध्यं सयवांस्तेषां पात्रे कृत्वा विधानतः",
           "transliteration": "yavārthāstu tilaiḥ kāryāḥ kuryādardhyādi pūrvavat / dattvārdhyaṃ sayavāṃsteṣāṃ pātre kṛtvā vidhānataḥ",
-          "hindi": "(क्षेत्रव्यवहार-प्रकरण)-- भुज और कोटिके  अथवा उन्हीं दोनों राशियोंके योगान्तरका घात वर्गगोगका मूल कर्ण होता है, भुज और  वर्गान्तर होता है ॥ ४४-४५-३-॥"
+          "hindi": "(क्षेत्रव्यवहार-प्रकरण)-- भुज और कोटिके  अथवा उन्हीं दोनों राशियोंके योगान्तरका घात वर्गगोगका मूल कर्ण होता है, भुज और  वर्गान्तर होता है ॥ ४४-४५-३-॥",
+          "translation": "Sesame to be used in place of barley, he should do the water offering and the rest as before; having given the offering with barley in the vessel by rule,",
+          "translationSource": "ai"
         },
         {
           "number": 119,
           "sanskrit": "पितृभ्यः स्थानमसीति न्युब्जं पात्रं कगेत्यधः । अग्नौ करिष्यन्नादाय पृच्छत्यन्नं घृतप्लुतम्",
           "transliteration": "pitṛbhyaḥ sthānamasīti nyubjaṃ pātraṃ kagetyadhaḥ / agnau kariṣyannādāya pṛcchatyannaṃ ghṛtaplutam",
-          "hindi": "१.कल्पना कीजिये कि किसी दाताने किसी याचकको पहले दिन २ रुपये देकर उसके बाद प्रतिदिन द्विगुणित करके देनेका निश्चय किया तो बताइये कि उसने ३० दिनमें कितने रुपये दान किये।"
+          "hindi": "१.कल्पना कीजिये कि किसी दाताने किसी याचकको पहले दिन २ रुपये देकर उसके बाद प्रतिदिन द्विगुणित करके देनेका निश्चय किया तो बताइये कि उसने ३० दिनमें कितने रुपये दान किये।",
+          "translation": "with \"Pitribhyah sthanam asi\" he places the vessel inverted, and when about to do it in the fire he asks for the ghee-soaked food.",
+          "translationSource": "ai"
         },
         {
           "number": 120,
           "sanskrit": "कुरुष्वेत्यभ्यनुज्ञातो दत्तावाग्नौ पितृयज्ञवत् । हुतशेषं प्रदद्यात्तु भाजनेषु समाहितः",
           "transliteration": "kuruṣvetyabhyanujñāto dattāvāgnau pitṛyajñavat / hutaśeṣaṃ pradadyāttu bhājaneṣu samāhitaḥ",
-          "hindi": "उत्तर--यहाँ आदि-२, गुणात्मकचय२, पद-३० है। पद सम अंक है। अत: आधा करके १५ के स्थानमें वर्गचिह्न लगाया, यह विषमाड्ड हुआ, अत: उसमें १ घटाकर १४ के स्थानमें गुणकचिह् लिखा। फिर यह सम हो गया, अत: आधा ७ करके वर्गचिह्न किया, इस प्रकार पद-संख्याकी समाप्तिपर्यन्त न्यास किया। न्यास देखिये--"
+          "hindi": "उत्तर--यहाँ आदि-२, गुणात्मकचय२, पद-३० है। पद सम अंक है। अत: आधा करके १५ के स्थानमें वर्गचिह्न लगाया, यह विषमाड्ड हुआ, अत: उसमें १ घटाकर १४ के स्थानमें गुणकचिह् लिखा। फिर यह सम हो गया, अत: आधा ७ करके वर्गचिह्न किया, इस प्रकार पद-संख्याकी समाप्तिपर्यन्त न्यास किया। न्यास देखिये--",
+          "translation": "Permitted by \"Do it\", he offers in the fire as at the ancestral sacrifice; he gives the remains of the offering attentively in the vessels.",
+          "translationSource": "ai"
         },
         {
           "number": 121,
           "sanskrit": "यथालाभोपपन्नेषु गैप्येषु च विशेषतः । दत्त्वान्नं पृथिवीपात्रमिति पात्रा भिमन्त्रणम्",
           "transliteration": "yathālābhopapanneṣu gaipyeṣu ca viśeṣataḥ / dattvānnaṃ pṛthivīpātramiti pātrā bhimantraṇam",
-          "hindi": "न्‍्यास-- अन्तमें गुणचिह्न हुआ  वहाँ गुणकाड्ू २ को रखकर उलटा प्रथम"
+          "hindi": "न्‍्यास-- अन्तमें गुणचिह्न हुआ  वहाँ गुणकाड्ू २ को रखकर उलटा प्रथम",
+          "translation": "In what is obtained and especially in what is to be hidden, having given the food, he addresses the vessel, \"The vessel of earth...\"",
+          "translationSource": "ai"
         },
         {
           "number": 122,
           "sanskrit": "कृत्वेदं विष्णुरित्यन्ने द्विजाङ्गुष्टं निवेशयेत् । सव्याहृतिकां गायत्रीं मधुवाता इति त्यृचम्",
           "transliteration": "kṛtvedaṃ viṣṇurityanne dvijāṅguṣṭaṃ niveśayet / savyāhṛtikāṃ gāyatrīṃ madhuvātā iti tyṛcam",
-          "hindi": "१४ गुण ३२७६८ हुआ। ७ वर्ग १६३८४ इसमें एक घटाकर एकोनगुण (१)-से भाग देकर आदि ६ गुण १२८ (२)-से गुणा किया तो २,१४,७४,८३,६४६ रुपये सर्वधन ३. वर्ग ६४ हुआ।"
+          "hindi": "१४ गुण ३२७६८ हुआ। ७ वर्ग १६३८४ इसमें एक घटाकर एकोनगुण (१)-से भाग देकर आदि ६ गुण १२८ (२)-से गुणा किया तो २,१४,७४,८३,६४६ रुपये सर्वधन ३. वर्ग ६४ हुआ।",
+          "translation": "With \"Idam Vishnuh\" he places the Brahmin's thumb in the food; with the Gayatri and the vyahritis and the three verses \"Madhu vata...\"",
+          "translationSource": "ai"
         },
         {
           "number": 123,
           "sanskrit": "जप्त्वा यथासुखं वाच्यं भुञ्जीरंस्ते ऽपि वाग्यताः । अग्नमिष्टं हविप्यं च दद्यादक्रोधनो ऽत्वरः",
           "transliteration": "japtvā yathāsukhaṃ vācyaṃ bhuñjīraṃste 'pi vāgyatāḥ / agnamiṣṭaṃ havipyaṃ ca dadyādakrodhano 'tvaraḥ",
-          "hindi": "२. लीलावती ((क्षेत्रव्यवहार श्लोक १,२)-में इस विषयको इस प्रकार स्पष्ट किया है--'त्रिभुज या चतुर्भुजमें जब एक भुजपर दूसरा भुज लम्बरूप हो, उन दोनोंमें एक (नीचेकी पड़ी रेखा)-को ' भुज” और दूसरी (ऊपरकी खड़ी रेखा )-को ' कोटि ' कहते हैं। तथा उन दोनोंके वर्गयोग मूलको “कर्ण” कहते हैं। भुज और कर्णका वर्गान्तर मूल कोटि तथा कोटि और कर्णका वर्गान्तर मूल भुज होता है। यथा--'क, ग, च” यह एक त्रिभुज है। 'क, ग' इस रेखाको कोटि कहते हैं। 'ग, च' इस रेखाका"
+          "hindi": "२. लीलावती ((क्षेत्रव्यवहार श्लोक १,२)-में इस विषयको इस प्रकार स्पष्ट किया है--'त्रिभुज या चतुर्भुजमें जब एक भुजपर दूसरा भुज लम्बरूप हो, उन दोनोंमें एक (नीचेकी पड़ी रेखा)-को ' भुज” और दूसरी (ऊपरकी खड़ी रेखा )-को ' कोटि ' कहते हैं। तथा उन दोनोंके वर्गयोग मूलको “कर्ण” कहते हैं। भुज और कर्णका वर्गान्तर मूल कोटि तथा कोटि और कर्णका वर्गान्तर मूल भुज होता है। यथा--'क, ग, च” यह एक त्रिभुज है। 'क, ग' इस रेखाको कोटि कहते हैं। 'ग, च' इस रेखाका",
+          "translation": "having chanted, they may speak as they like; they eat silently. He should give food, liked and fit for offerings, without anger or haste.",
+          "translationSource": "ai"
         },
         {
           "number": 124,
           "sanskrit": "आतृप्तेस्तु पवित्राणि जप्त्वा पूर्वजपं तथा । अन्नमादाय तृप्ताःस्थ शेषं चैवानुमान्य च",
           "transliteration": "ātṛptestu pavitrāṇi japtvā pūrvajapaṃ tathā / annamādāya tṛptāḥstha śeṣaṃ caivānumānya ca",
-          "hindi": "नाम भुज है, “क, च' का नाम कर्ण है।"
+          "hindi": "नाम भुज है, “क, च' का नाम कर्ण है।",
+          "translation": "When they are satisfied, having chanted the purifiers and the earlier chant, taking the food: \"You are satisfied\", and approving the remainder,",
+          "translationSource": "ai"
         },
         {
           "number": 125,
           "sanskrit": "तदन्नं विकिरेद्भूमौ दद्याञ्चापः सकृत्सकृत् । सर्वमन्नमुपादाय सतिलं दक्षिणामुखः",
           "transliteration": "tadannaṃ vikiredbhūmau dadyāñcāpaḥ sakṛtsakṛt / sarvamannamupādāya satilaṃ dakṣiṇāmukhaḥ",
-          "hindi": "उदाहरण--जैसे प्रश्न हुआ कि जिस जात्य त्रिभुजमें कोटि४, भुज-३ है वहाँका कर्णमान क्या होगा ? तथा भुज और कर्ण जानकर कोटि बताओ और कोटि, कर्ण जानकर भुज बताओ।"
+          "hindi": "उदाहरण--जैसे प्रश्न हुआ कि जिस जात्य त्रिभुजमें कोटि४, भुज-३ है वहाँका कर्णमान क्या होगा ? तथा भुज और कर्ण जानकर कोटि बताओ और कोटि, कर्ण जानकर भुज बताओ।",
+          "translation": "he should scatter that food on the ground and give water once each. Taking all the food with sesame, facing south,",
+          "translationSource": "ai"
         },
         {
           "number": 126,
           "sanskrit": "उच्छिष्टसन्निधौ पिण्डान्दद्याद्वै पितृयज्ञवत् । मातामहानामप्येवं दद्यादाचमनं ततः",
           "transliteration": "ucchiṣṭasannidhau piṇḍāndadyādvai pitṛyajñavat / mātāmahānāmapyevaṃ dadyādācamanaṃ tataḥ",
-          "hindi": "उक्त रीतिसे ४ का वर्ग १६ और ३ का वर्ग ९, दोनोंके योग २५ का मूल ५ यह कर्ण हुआ। एवं कर्ण ५ और भुज ३, इन दोनोंके वर्गान्‍न्तर २५-९०१६, इसका मूल ४ कोटि हुई तथा कर्णके वर्ग २५ में कोटिके वर्ग १६ को घटाकर शेष ९ का मूल ३"
+          "hindi": "उक्त रीतिसे ४ का वर्ग १६ और ३ का वर्ग ९, दोनोंके योग २५ का मूल ५ यह कर्ण हुआ। एवं कर्ण ५ और भुज ३, इन दोनोंके वर्गान्‍न्तर २५-९०१६, इसका मूल ४ कोटि हुई तथा कर्णके वर्ग २५ में कोटिके वर्ग १६ को घटाकर शेष ९ का मूल ३",
+          "translation": "near the leavings he should give rice-balls as in the ancestral sacrifice; so too for the maternal grandfathers; then give sipping water.",
+          "translationSource": "ai"
         },
         {
           "number": 127,
           "sanskrit": "स्वस्निवाचं ततः कुर्यादक्षय्योदकमेव हि । दत्त्वा च दक्षिणां शक्त्या स्वधाकारमुदाहरेत्",
           "transliteration": "svasnivācaṃ tataḥ kuryādakṣayyodakameva hi / dattvā ca dakṣiṇāṃ śaktyā svadhākāramudāharet",
-          "hindi": "इसी प्रकार सर्वत्र जानना चाहिए। ३.जैसे ३ और ४ ये दो राशियाँ हैं । इन दोनोंके दूने गुणनफलमें ३००४०२०२४ में दोनों राशियोंका अन्तर वर्ग (४-३)१०(१)९०१ मिलानेसे २४७१०२५ यह दोनों राशियोंके वर्गयोग (३)१५(४)९०९+१६०२५ के बराबर है तथा उन्हीं दोनों राशियोंके योगान्तर घात (३+४)(४-३)-७१७ यह दोनों राशियोंके वर्गान्तर १६-९०७ के बराबर है। ( \"यह निशान वर्गका है।"
+          "hindi": "इसी प्रकार सर्वत्र जानना चाहिए। ३.जैसे ३ और ४ ये दो राशियाँ हैं । इन दोनोंके दूने गुणनफलमें ३००४०२०२४ में दोनों राशियोंका अन्तर वर्ग (४-३)१०(१)९०१ मिलानेसे २४७१०२५ यह दोनों राशियोंके वर्गयोग (३)१५(४)९०९+१६०२५ के बराबर है तथा उन्हीं दोनों राशियोंके योगान्तर घात (३+४)(४-३)-७१७ यह दोनों राशियोंके वर्गान्तर १६-९०७ के बराबर है। ( \"यह निशान वर्गका है।",
+          "translation": "Then the blessing, then the imperishable water; giving the fee as able, he should utter \"svadha\".",
+          "translationSource": "ai"
         },
         {
           "number": 128,
           "sanskrit": "वाच्यतामित्यनुज्ञातः प्रकृतेभ्यः स्वधोच्यताम् । ब्रूयुरस्तु स्वधेत्युक्ते भूमौ सिंचेत्ततो जलम्",
           "transliteration": "vācyatāmityanujñātaḥ prakṛtebhyaḥ svadhocyatām / brūyurastu svadhetyukte bhūmau siṃcettato jalam",
-          "hindi": "व्यास आकृतिसंक्षुण्णोउद्ध्याप्त: स्यात् परिधिर्मुने॥ ४८ ॥  मुने! व्यासको २२ से गुण देना और ७ से"
+          "hindi": "व्यास आकृतिसंक्षुण्णोउद्ध्याप्त: स्यात् परिधिर्मुने॥ ४८ ॥  मुने! व्यासको २२ से गुण देना और ७ से",
+          "translation": "Permitted by \"Let it be said\", \"svadha\" is said for those honoured; when they say \"Astu svadha\", he should sprinkle water on the ground.",
+          "translationSource": "ai"
         },
         {
           "number": 129,
           "sanskrit": "विश्वेदेवाश्वप्रीयन्तां विप्रैश्चोक्त इदं जपेत् । दातारोनो ऽभिवर्द्धन्तां वेदाः संततिरेव च",
           "transliteration": "viśvedevāśvaprīyantāṃ vipraiścokta idaṃ japet / dātārono 'bhivarddhantāṃ vedāḥ saṃtatireva ca",
-          "hindi": "ज्याव्यासयोगविवराहतमूलोनितोउर्थित: । भाग देना चाहिए, इससे स्थूल परिधिका ज्ञान व्यास: शरः शरोनाच्च व्यासाच्छरगुणात् पदम्॥ ४७॥  होता है' ॥ ४६ ॥ ज्या (जीवा) और व्यासका योग द्विप्न॑ जीवाथ जीवार्थवर्गे शरहते युते। एक जगह रखना और अन्तरको दूसरी जगह"
+          "hindi": "ज्याव्यासयोगविवराहतमूलोनितोउर्थित: । भाग देना चाहिए, इससे स्थूल परिधिका ज्ञान व्यास: शरः शरोनाच्च व्यासाच्छरगुणात् पदम्॥ ४७॥  होता है' ॥ ४६ ॥ ज्या (जीवा) और व्यासका योग द्विप्न॑ जीवाथ जीवार्थवर्गे शरहते युते। एक जगह रखना और अन्तरको दूसरी जगह",
+          "translation": "\"May the Vishvedevas be pleased\" — when the Brahmins say so, he chants this: \"May our givers prosper, the Vedas and progeny,",
+          "translationSource": "ai"
         },
         {
           "number": 130,
           "sanskrit": "श्रद्धा चनो मा व्यगमद्बहु देयं च नो ऽस्त्विति । इत्युक्तो क्ताः प्रिया वाचः प्रणिपत्य विसर्जयेत्",
           "transliteration": "śraddhā cano mā vyagamadbahu deyaṃ ca no 'stviti / ityukto ktāḥ priyā vācaḥ praṇipatya visarjayet",
-          "hindi": "व्यासो वत्ते भवेदेवं प्रोक्ते गणितकोविदे: ॥ ४८ ॥  रखना चाहिए। फिर इन दोनोंका घात (गुणा)"
+          "hindi": "व्यासो वत्ते भवेदेवं प्रोक्ते गणितकोविदे: ॥ ४८ ॥  रखना चाहिए। फिर इन दोनोंका घात (गुणा)",
+          "translation": "may faith not leave us, may we have much to give.\" Having said this with pleasant words, he bows and dismisses them.",
+          "translationSource": "ai"
         },
         {
           "number": 131,
           "sanskrit": "वाजेवाजे इति प्रीतः पितृपूर्वं विसर्जनम् । यस्मिंस्ते संश्रवाः पूर्वमर्ध्यपात्रे निवेशिताः",
           "transliteration": "vājevāje iti prītaḥ pitṛpūrvaṃ visarjanam / yasmiṃste saṃśravāḥ pūrvamardhyapātre niveśitāḥ",
-          "hindi": "नारदपुराणके इस गणितविभामगमें क्षेत्रव्यवहारकी चर्चामात्र होकर दूसरे विषय आ गये हैं; त्रिभुजादि क्षेत्रफलका विवेचन न होनेसे यह प्रकरण अधूरा-सा लगता है। जान पड़ता है, इस विषयके श्लोक लेखकके प्रमादसे छूट गये हैं; अत: टिप्पणीमें संक्षेपत: उक्त न्यूनताकी पूर्ति की जाती है।"
+          "hindi": "नारदपुराणके इस गणितविभामगमें क्षेत्रव्यवहारकी चर्चामात्र होकर दूसरे विषय आ गये हैं; त्रिभुजादि क्षेत्रफलका विवेचन न होनेसे यह प्रकरण अधूरा-सा लगता है। जान पड़ता है, इस विषयके श्लोक लेखकके प्रमादसे छूट गये हैं; अत: टिप्पणीमें संक्षेपत: उक्त न्यूनताकी पूर्ति की जाती है।",
+          "translation": "With \"Vaje vaje\", with pleasure, the dismissal is first of the ancestors. In the vessel where they were first placed as offering...",
+          "translationSource": "ai"
         },
         {
           "number": 132,
           "sanskrit": "पितृपात्रं तदुत्थानं कृत्वा विप्रान्विसर्जयेत् । प्रदक्षिणमनुव्रज्य भुञ्जीत पितृसेवितम्",
           "transliteration": "pitṛpātraṃ tadutthānaṃ kṛtvā viprānvisarjayet / pradakṣiṇamanuvrajya bhuñjīta pitṛsevitam",
-          "hindi": "आबाधे भुजयोज्ञेये क्रमशश्चाधिकाल्पयो: । स्वाबाधाभुजयोर्वर्गान्तरान्मूलू च लम्बक:॥"
+          "hindi": "आबाधे भुजयोज्ञेये क्रमशश्चाधिकाल्पयो: । स्वाबाधाभुजयोर्वर्गान्तरान्मूलू च लम्बक:॥",
+          "translation": "making the ancestors' vessel upright, he should dismiss the Brahmins, follow them in circumambulation, and eat what the ancestors have partaken.",
+          "translationSource": "ai"
         },
         {
           "number": 133,
           "sanskrit": "ब्रह्मचारी भवेत्तां तु रजनीं ब्रह्मणैः सह । एवं प्रदक्षिणावृत्त्या वृद्धौ नान्दीमुखान्पितॄन्",
           "transliteration": "brahmacārī bhavettāṃ tu rajanīṃ brahmaṇaiḥ saha / evaṃ pradakṣiṇāvṛttyā vṛddhau nāndīmukhānpitṝn",
-          "hindi": "(त्रिभुजादि क्षेत्रफलानयन) त्रिभुजका फल जानना हो तो उसके तीन भुजोंमें एकको भूमि और शेष दोको भुज मानकर क्रिया करे। यथा--दोनों भुजके योगको उन्हीं दोनोंके अन्तरसे गुणा करके गुणनफलमें भूमिसे भाग देनेपर जो लब्धि हो, उसको भूमिमें जोड़कर आधा करे तो बड़े भुजकी 'आबाधा” होती है और उसी लब्धिको भूमिमें घटाकर आधा करनेसे लघुभुजकी 'आबाधा' होती है। अपने-अपने भुज और आबाधाके “वर्गान्तर” करके शेषका मूल लेनेसे लम्बका मान प्रकट"
+          "hindi": "(त्रिभुजादि क्षेत्रफलानयन) त्रिभुजका फल जानना हो तो उसके तीन भुजोंमें एकको भूमि और शेष दोको भुज मानकर क्रिया करे। यथा--दोनों भुजके योगको उन्हीं दोनोंके अन्तरसे गुणा करके गुणनफलमें भूमिसे भाग देनेपर जो लब्धि हो, उसको भूमिमें जोड़कर आधा करे तो बड़े भुजकी 'आबाधा” होती है और उसी लब्धिको भूमिमें घटाकर आधा करनेसे लघुभुजकी 'आबाधा' होती है। अपने-अपने भुज और आबाधाके “वर्गान्तर” करके शेषका मूल लेनेसे लम्बका मान प्रकट",
+          "translation": "He should be celibate that night with the Brahmins. Thus by circumambulation, at a time of increase, he should honour the Nandimukha ancestors",
+          "translationSource": "ai"
         },
         {
           "number": 134,
           "sanskrit": "यजेत दधिकर्कन्धुमिश्रान्पिडान्यवैः कृतान् । एकोद्दिष्टं देवहीनमेवार्ध्यैकपवित्रकम्",
           "transliteration": "yajeta dadhikarkandhumiśrānpiḍānyavaiḥ kṛtān / ekoddiṣṭaṃ devahīnamevārdhyaikapavitrakam",
-          "hindi": "होता है। लम्ब और भूमिके गुणनफलका आधा त्रिभुजका क्षेत्रफल होता है।"
+          "hindi": "होता है। लम्ब और भूमिके गुणनफलका आधा त्रिभुजका क्षेत्रफल होता है।",
+          "translation": "with rice-balls made of barley mixed with curd and jujube. Ekoddishta is without the gods, with one offering-vessel and one purifier,",
+          "translationSource": "ai"
         },
         {
           "number": 135,
           "sanskrit": "आवाहनाग्नौकरणरहितं ह्यपसव्यवत् । उपतिषअटतामक्षय्यस्थाने विप्रविसर्जने",
           "transliteration": "āvāhanāgnaukaraṇarahitaṃ hyapasavyavat / upatiṣaaṭatāmakṣayyasthāne vipravisarjane",
-          "hindi": "उदाहरण--कल्पना कीजिये कि किसी त्रिभुजमें तीनों भुजोंके मान क्रमसे १३, १४, १५ हैं तो उस त्रिभुजका क्षेत्रफल क्या होगा? तो यहाँ १४ को भूमि और १३, १५ को भुज मानकर क्रिया होगी। यथा--दोनों भुजके योग २८ को उन्हीं दोनोंके अन्तर २ से गुणा करनेपर ५६ हुआ। इसमें भूमि १४ के द्वारा भाग देनेसे लब्धि ४ हुई। इस चारको भूमि १४ में जोड़कर आधा करनेसे ९ हुआ-यह बड़े भुजकी 'आबाधा' का मान है। एवं भूमिमें लब्धिको घटाकर आधा करनेसे ५"
+          "hindi": "उदाहरण--कल्पना कीजिये कि किसी त्रिभुजमें तीनों भुजोंके मान क्रमसे १३, १४, १५ हैं तो उस त्रिभुजका क्षेत्रफल क्या होगा? तो यहाँ १४ को भूमि और १३, १५ को भुज मानकर क्रिया होगी। यथा--दोनों भुजके योग २८ को उन्हीं दोनोंके अन्तर २ से गुणा करनेपर ५६ हुआ। इसमें भूमि १४ के द्वारा भाग देनेसे लब्धि ४ हुई। इस चारको भूमि १४ में जोड़कर आधा करनेसे ९ हुआ-यह बड़े भुजकी 'आबाधा' का मान है। एवं भूमिमें लब्धिको घटाकर आधा करनेसे ५",
+          "translation": "without invocation, fire-offering and \"karana\", in the left-handed way. \"May it be imperishable\" at the place, and at the dismissal of Brahmins,",
+          "translationSource": "ai"
         },
         {
           "number": 136,
           "sanskrit": "अभिरण्यतामिति वदेद् ब्रूयुस्ते ऽभिरताः स्म ह । गन्धोदकं तिलैर्युक्तं कुर्यात्पात्रचतुष्टयम्",
           "transliteration": "abhiraṇyatāmiti vaded brūyuste 'bhiratāḥ sma ha / gandhodakaṃ tilairyuktaṃ kuryātpātracatuṣṭayam",
-          "hindi": "हुआ। यह लघुभुजकी 'आबाधा' हुई। भुज और आबाधाके वर्गान्तर (२२५-८१5१४४) अथवा (१६९-२५-१४४) का मूल १२ हुआ। यह लम्बका मान है। लम्ब और भूमिके गुणनफल (१२०१४)5-१६८ का आधा ८४ हुआ, यह उक्त त्रिभुजका क्षेत्रफल है।"
+          "hindi": "हुआ। यह लघुभुजकी 'आबाधा' हुई। भुज और आबाधाके वर्गान्तर (२२५-८१5१४४) अथवा (१६९-२५-१४४) का मूल १२ हुआ। यह लम्बका मान है। लम्ब और भूमिके गुणनफल (१२०१४)5-१६८ का आधा ८४ हुआ, यह उक्त त्रिभुजका क्षेत्रफल है।",
+          "translation": "he says \"Be pleased\"; they reply, \"We are pleased.\" He should make four vessels of perfumed water with sesame.",
+          "translationSource": "ai"
         },
         {
           "number": 137,
           "sanskrit": "अर्ध्यार्थं पितृपात्रेषु प्रेतपात्रं प्रेसेचयेत् । ये समाना इति द्वाभ्यां शेषं पूर्ववदाचरेत्",
           "transliteration": "ardhyārthaṃ pitṛpātreṣu pretapātraṃ presecayet / ye samānā iti dvābhyāṃ śeṣaṃ pūrvavadācaret",
-          "hindi": "इस प्रकार त्रिभुज फलानयनकी रीति जानकर बहुभुजक्षेत्रमें एक कोणसे दूसरे कोणतक कर्णरेखाकों भूमि और उसके आश्रित दो भुजोंको भुज मानकर फल निकाला जायगा। चतुर्भुजमें दोनों त्रिभुजोंक फलको जोड़नेसे क्षेत्रफलकी सिद्धि होगी एवं पञ्मनभुजमें ३ त्रिभुज बनेंगे और उन तीनों त्रिभुजोंके फलोंका योग करनेसे फल सिद्ध होगा। इसी प्रकार षद्भुज आदियमें भी समझना चाहिए।"
+          "hindi": "इस प्रकार त्रिभुज फलानयनकी रीति जानकर बहुभुजक्षेत्रमें एक कोणसे दूसरे कोणतक कर्णरेखाकों भूमि और उसके आश्रित दो भुजोंको भुज मानकर फल निकाला जायगा। चतुर्भुजमें दोनों त्रिभुजोंक फलको जोड़नेसे क्षेत्रफलकी सिद्धि होगी एवं पञ्मनभुजमें ३ त्रिभुज बनेंगे और उन तीनों त्रिभुजोंके फलोंका योग करनेसे फल सिद्ध होगा। इसी प्रकार षद्भुज आदियमें भी समझना चाहिए।",
+          "translation": "For the offering water he should pour the water of the deceased's vessel into the ancestors' vessels; with the two verses \"Ye samanah\"; the rest as before.",
+          "translationSource": "ai"
         },
         {
           "number": 138,
           "sanskrit": "एतन्सपिं डीकरणमेकोष्टिद्दं स्रिया अपि । अर्वाक्सपिण्डीकरणं यस्य संवत्सराद्भवेत्",
           "transliteration": "etansapiṃ ḍīkaraṇamekoṣṭiddaṃ sriyā api / arvāksapiṇḍīkaraṇaṃ yasya saṃvatsarādbhavet",
-          "hindi": "विशेष वक्तव्य--तीन रेखाओंसे बना हुआ क्षेत्र त्रिभुज कहलाता है। उन तीनों रेखाओंमें नीचेकी रेखाको भूमि और दोनों बगलकी दो रेखाओंको ' भुज' कहते हैं।"
+          "hindi": "विशेष वक्तव्य--तीन रेखाओंसे बना हुआ क्षेत्र त्रिभुज कहलाता है। उन तीनों रेखाओंमें नीचेकी रेखाको भूमि और दोनों बगलकी दो रेखाओंको ' भुज' कहते हैं।",
+          "translation": "This is the sapindikarana, the ekoddishta of women too. If the sapindikarana is done before the year ends for someone,",
+          "translationSource": "ai"
         },
         {
           "number": 139,
           "sanskrit": "तस्याप्यन्नं सोदकुंभं दद्यात्संवत्सरं द्विजे । भृते ऽहनि तु कर्तव्यं प्रतिमासं तु वत्सरम्",
           "transliteration": "tasyāpyannaṃ sodakuṃbhaṃ dadyātsaṃvatsaraṃ dvije / bhṛte 'hani tu kartavyaṃ pratimāsaṃ tu vatsaram",
-          "hindi": "(लम्ब--) ऊपरके कोणसे भूमितक सीधी रेखाको लम्ब कहते हैं।"
+          "hindi": "(लम्ब--) ऊपरके कोणसे भूमितक सीधी रेखाको लम्ब कहते हैं।",
+          "translation": "for him too, food with a water-pot should be given to a Brahmin for a year. On the day of death monthly should be done, for a year,",
+          "translationSource": "ai"
         },
         {
           "number": 140,
           "sanskrit": "प्रतिसंवत्सरं चैव मासमेकादशे ऽहनि । पिण्डांश्चगो ऽजविप्रेभ्यो दद्यादग्नौ जले ऽपि वा",
           "transliteration": "pratisaṃvatsaraṃ caiva māsamekādaśe 'hani / piṇḍāṃścago 'javiprebhyo dadyādagnau jale 'pi vā",
-          "hindi": "(आबाधा--) लम्बसे विभक्त भूमिके खण्ड (जो लम्बके दोनों ओर हैं) दोनों भुजोंकी 'आबाधा' कहलाते हैं। निम्ना्धित क्षेत्रमें स्पष्ट देखिये--"
+          "hindi": "(आबाधा--) लम्बसे विभक्त भूमिके खण्ड (जो लम्बके दोनों ओर हैं) दोनों भुजोंकी 'आबाधा' कहलाते हैं। निम्ना्धित क्षेत्रमें स्पष्ट देखिये--",
+          "translation": "then yearly, and in the eleventh month on the day. He should give the balls to a goat, cow or Brahmins, or into fire or water.",
+          "translationSource": "ai"
         },
         {
           "number": 141,
           "sanskrit": "प्रक्षिपेत्सत्सु विप्रेषु द्विजोच्छिष्टं न मार्जयेत् । हविष्यान्नेन वै मासं पायसेन तु वत्सरम्",
           "transliteration": "prakṣipetsatsu vipreṣu dvijocchiṣṭaṃ na mārjayet / haviṣyānnena vai māsaṃ pāyasena tu vatsaram",
-          "hindi": "वृत्तक्षेत्रमें परिधि और व्यासके गुणनफलका चतुर्थाश क्षेत्रफल होता है। जैसे-- भूमि० १४ बज जिस वृत्तक्षेत्रमें व्यासमान ७ और परिधि २२ है, उसका क्षेत्रफल जानना है तो परिधि २२ को व्यास ७ से गुणा करनेपर १५४ हुआ। इसका चतुर्थांश ३८-३ होता है। यही क्षेत्रफल हुआ।"
+          "hindi": "वृत्तक्षेत्रमें परिधि और व्यासके गुणनफलका चतुर्थाश क्षेत्रफल होता है। जैसे-- भूमि० १४ बज जिस वृत्तक्षेत्रमें व्यासमान ७ और परिधि २२ है, उसका क्षेत्रफल जानना है तो परिधि २२ को व्यास ७ से गुणा करनेपर १५४ हुआ। इसका चतुर्थांश ३८-३ होता है। यही क्षेत्रफल हुआ।",
+          "translation": "He should cast it among good Brahmins; he should not wipe away the Brahmin's leavings. With havishya food for a month, with milk-rice for a year,",
+          "translationSource": "ai"
         },
         {
           "number": 142,
           "sanskrit": "मात्स्यहारिणकौरभ्रशाकुनच्छागपार्षतैः । ऐणरौरववाराहशाशैर्मांसैर्यथाक्रमम्",
           "transliteration": "mātsyahāriṇakaurabhraśākunacchāgapārṣataiḥ / aiṇarauravavārāhaśāśairmāṃsairyathākramam",
-          "hindi": "अ गे २. जैसे पूछा गया कि जिस वृत्तक्षेत्रका व्यास १४ है वहाँ परिधिका मान क्या होगा तथा जिसमें ४४ परिधि है, वहाँ व्यासमान कया होगा? तो उक्त रीतिके अनुसार व्यास १४ को २२ से गुणा करके गुणनफलमें ७से भाग देनेपर ० ---- “४४ परिधिमान स्थूल हुआ।"
+          "hindi": "अ गे २. जैसे पूछा गया कि जिस वृत्तक्षेत्रका व्यास १४ है वहाँ परिधिका मान क्या होगा तथा जिसमें ४४ परिधि है, वहाँ व्यासमान कया होगा? तो उक्त रीतिके अनुसार व्यास १४ को २२ से गुणा करके गुणनफलमें ७से भाग देनेपर ० ---- “४४ परिधिमान स्थूल हुआ।",
+          "translation": "with fish, deer, ram, bird, goat and spotted-deer flesh, and with the meat of the eni, ruru, boar and hare, in order (as prescribed for each month).",
+          "translationSource": "ai"
         },
         {
           "number": 143,
