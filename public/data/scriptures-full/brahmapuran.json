@@ -3538,25 +3538,33 @@
           "number": 65,
           "sanskrit": "विश्वामित्रस्य पुत्रस् तु शुनःशेफो ऽभवत् किल हरिदश्वस्य यज्ञे तु पशुत्वे विनियोजितः",
           "transliteration": "viśvāmitrasya putras tu śunaḥśepho 'bhavat kila haridaśvasya yajñe tu paśutve viniyojitaḥ",
-          "hindi": "इसके पहले पुत्र-जन्मका सारा प्रयास व्यर्थ हो चुका था। अतः भरद्वाजके प्रयत्नसे जो पुत्र उत्पन्न"
+          "hindi": "इसके पहले पुत्र-जन्मका सारा प्रयास व्यर्थ हो चुका था। अतः भरद्वाजके प्रयत्नसे जो पुत्र उत्पन्न",
+          "translation": "Shunahshepha, it is said, became Vishvamitra's son; he had been assigned to be the sacrificial victim at Harishchandra's sacrifice.",
+          "translationSource": "ai"
         },
         {
           "number": 66,
           "sanskrit": "देवैर् दत्तः शुनःशेफो विश्वामित्राय वै पुनः देवैर् दत्तः स वै यस्माद् देवरातस् ततो ऽभवत्",
           "transliteration": "devair dattaḥ śunaḥśepho viśvāmitrāya vai punaḥ devair dattaḥ sa vai yasmād devarātas tato 'bhavat",
-          "hindi": "धूमिनी बड़ी पतिव्रता थीं। ये पुत्रको कामनासे व्रत करने लगीं। दस हजार वर्षोतक अत्यन्त दुष्कर तपस्या करके उन्होंने विधिपूर्वक अग्निमें"
+          "hindi": "धूमिनी बड़ी पतिव्रता थीं। ये पुत्रको कामनासे व्रत करने लगीं। दस हजार वर्षोतक अत्यन्त दुष्कर तपस्या करके उन्होंने विधिपूर्वक अग्निमें",
+          "translation": "Given by the gods, Shunahshepha was again given to Vishvamitra; because he was given by the gods, he became Devarata.",
+          "translationSource": "ai"
         },
         {
           "number": 67,
           "sanskrit": "देवरातादयः सप्त विश्वामित्रस्य वै सुताः दृषद्वतीसुतश् चापि वैश्वामित्रस् तथाष्टकः",
           "transliteration": "devarātādayaḥ sapta viśvāmitrasya vai sutāḥ dṛṣadvatīsutaś cāpi vaiśvāmitras tathāṣṭakaḥ",
-          "hindi": "करके वे अग्निहोत्रके कुशोंपर ही लेट गयीं। उसी अवस्थामें राजा अजमीढने धूमिनीदेवीके साथ"
+          "hindi": "करके वे अग्निहोत्रके कुशोंपर ही लेट गयीं। उसी अवस्थामें राजा अजमीढने धूमिनीदेवीके साथ",
+          "translation": "Devarata and the others, seven in all, were Vishvamitra's sons; Drishadvati's son too, and Vaishvamitra and Ashtaka.",
+          "translationSource": "ai"
         },
         {
           "number": 68,
           "sanskrit": "अष्टकस्य सुतो लौहिः प्रोक्तो जह्नुगणो मया अत ऊर्ध्वं प्रवक्ष्यामि वंशम् आयोर् महात्मनः",
           "transliteration": "aṣṭakasya suto lauhiḥ prokto jahnugaṇo mayā ata ūrdhvaṃ pravakṣyāmi vaṃśam āyor mahātmanaḥ",
-          "hindi": "हुआ, उसका नाम वितथ हुआ। वितथके जन्मके  समागम किया। इससे ऋक्ष नामक पुत्रको उत्पत्ति"
+          "hindi": "हुआ, उसका नाम वितथ हुआ। वितथके जन्मके  समागम किया। इससे ऋक्ष नामक पुत्रको उत्पत्ति",
+          "translation": "Ashtaka's son Lauhi has been named; the Jahnu group has been told by me. Hereafter I shall tell the lineage of the great-souled Ayu.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -3703,265 +3711,353 @@
           "number": 18,
           "sanskrit": "जघान दानवान् सर्वान् ये ऽवध्या वज्रपाणिनः स विप्रनष्टां देवानां परमश्रीः श्रियं वशी",
           "transliteration": "jaghāna dānavān sarvān ye 'vadhyā vajrapāṇinaḥ sa vipranaṣṭāṃ devānāṃ paramaśrīḥ śriyaṃ vaśī",
-          "hindi": "उत्पन्न किये । उन सबमें दुर्योधन ज्येष्ठ था। पाण्डुके  ब्राह्मण उसके सचिव हुए। उन सबके पुत्र और पुत्र अर्जुन हुए। अर्जुनसे सुभद्राकुमार अभिमन्युको  पौत्र एक ही समयमें-समान आयुवाले हुए। यह उत्पत्ति हुई । अभिमन्युसे परीक्षित् और परीक्षित्से  महात्मा पाण्डवोंका पौरववंश बतलाया गया। जनमेजयका जन्म हुआ । जनमेजयके काश्या नामको  नहुषनन्दन ययातिने अपनी वृद्धावस्थाका परिवर्तन"
+          "hindi": "उत्पन्न किये । उन सबमें दुर्योधन ज्येष्ठ था। पाण्डुके  ब्राह्मण उसके सचिव हुए। उन सबके पुत्र और पुत्र अर्जुन हुए। अर्जुनसे सुभद्राकुमार अभिमन्युको  पौत्र एक ही समयमें-समान आयुवाले हुए। यह उत्पत्ति हुई । अभिमन्युसे परीक्षित् और परीक्षित्से  महात्मा पाण्डवोंका पौरववंश बतलाया गया। जनमेजयका जन्म हुआ । जनमेजयके काश्या नामको  नहुषनन्दन ययातिने अपनी वृद्धावस्थाका परिवर्तन",
+          "translation": "He slew all the Danavas who were unslayable even by the thunderbolt-wielder; the lord regained the supreme fortune of the gods that had been lost.",
+          "translationSource": "ai"
         },
         {
           "number": 19,
           "sanskrit": "निहत्य दानवान् सर्वान् आजहार रजिः प्रभुः ततो रजिं महावीर्यं देवैः सह शतक्रतुः",
           "transliteration": "nihatya dānavān sarvān ājahāra rajiḥ prabhuḥ tato rajiṃ mahāvīryaṃ devaiḥ saha śatakratuḥ",
-          "hindi": "पल्लीसे चन्द्रापीड तथा सूर्यापीड नामक दो पुत्र करते समय अत्यन्त प्रसन्न हो यह उद्वार प्रकट हुए। उनमें सूर्यापीड़ मोक्ष-धर्मके ज्ञाता थे। किया था-'सम्भव है यह पृथ्वी चन्द्रमा, सूर्य चन्द्रापीड़के महान् धनुर्धर सौ पुत्र थे। ये सब इस  और ग्रहोंके प्रकाशसे रहित हो जाय; किन्तु पौरववंशसे पृथ्वीपर जानमेजय क्षत्रियके नामसे प्रसिद्ध हुए। सूनी यह कभी नहीं होगी।' इस प्रकार मैंने राजा"
+          "hindi": "पल्लीसे चन्द्रापीड तथा सूर्यापीड नामक दो पुत्र करते समय अत्यन्त प्रसन्न हो यह उद्वार प्रकट हुए। उनमें सूर्यापीड़ मोक्ष-धर्मके ज्ञाता थे। किया था-'सम्भव है यह पृथ्वी चन्द्रमा, सूर्य चन्द्रापीड़के महान् धनुर्धर सौ पुत्र थे। ये सब इस  और ग्रहोंके प्रकाशसे रहित हो जाय; किन्तु पौरववंशसे पृथ्वीपर जानमेजय क्षत्रियके नामसे प्रसिद्ध हुए। सूनी यह कभी नहीं होगी।' इस प्रकार मैंने राजा",
+          "translation": "Having killed all the Danavas, the lord Raji took it back. Then Indra with the gods said to the mighty Raji:",
+          "translationSource": "ai"
         },
         {
           "number": 20,
           "sanskrit": "रजिपुत्रो ऽहम् इत्य् उक्त्वा पुनर् एवाब्रवीद् वचः इन्द्रो ऽसि तात देवानां सर्वेषां नात्र संशयः",
           "transliteration": "rajiputro 'ham ity uktvā punar evābravīd vacaḥ indro 'si tāta devānāṃ sarveṣāṃ nātra saṃśayaḥ",
-          "hindi": "उन सौ पुत्रोमें सबसे बड़ा सत्यकर्ण था, जो हस्तिनापुरमें  पूरके विख्यात वंशका वर्णन किया। अब तुर्वसु, रहा करता था। महाबाहु सत्यकर्ण प्रचुर दक्षिणा  द्रुह्म, अनु और यदुके वंशका वर्णन करूंगा।"
+          "hindi": "उन सौ पुत्रोमें सबसे बड़ा सत्यकर्ण था, जो हस्तिनापुरमें  पूरके विख्यात वंशका वर्णन किया। अब तुर्वसु, रहा करता था। महाबाहु सत्यकर्ण प्रचुर दक्षिणा  द्रुह्म, अनु और यदुके वंशका वर्णन करूंगा।",
+          "translation": "\"I am Raji's son,\" he said, and again spoke: \"You are Indra of all the gods, father, no doubt here.",
+          "translationSource": "ai"
         },
         {
           "number": 21,
           "sanskrit": "यस्याहम् इन्द्रः पुत्रस् ते ख्यातिं यास्यामि कर्मभिः स तु शक्रवचः श्रुत्वा वञ्चितस् तेन मायया",
           "transliteration": "yasyāham indraḥ putras te khyātiṃ yāsyāmi karmabhiḥ sa tu śakravacaḥ śrutvā vañcitas tena māyayā",
-          "hindi": "देनेवाले थे। सत्यकर्णके पुत्र प्रतापी श्वेतकर्ण हुए। तुर्वसुके पुत्र वहि, बहिके गोभानु, गोभानुके वे पुत्र न होनेके कारण तपोवनमें चले गये। वहाँ  राजा त्रैशानु, त्रैशानुके करंधम तथा करंधमके सुचारुकी पुत्री मालिनी, जो यदुकुलमें उत्पन्न हुई  मरुत्त हुए। अवीक्षित्-नन्दन राजा मरुत्त इस मरुत्तसे थी, वनमें आयी थी। उसने श्रेतकर्णसे गर्भ धारण  भिन्न हैं। करंधमकुमार मरुत्तके कोई पुत्र नहीं"
+          "hindi": "देनेवाले थे। सत्यकर्णके पुत्र प्रतापी श्वेतकर्ण हुए। तुर्वसुके पुत्र वहि, बहिके गोभानु, गोभानुके वे पुत्र न होनेके कारण तपोवनमें चले गये। वहाँ  राजा त्रैशानु, त्रैशानुके करंधम तथा करंधमके सुचारुकी पुत्री मालिनी, जो यदुकुलमें उत्पन्न हुई  मरुत्त हुए। अवीक्षित्-नन्दन राजा मरुत्त इस मरुत्तसे थी, वनमें आयी थी। उसने श्रेतकर्णसे गर्भ धारण  भिन्न हैं। करंधमकुमार मरुत्तके कोई पुत्र नहीं",
+          "translation": "Whose son I am, Indra — by my deeds I shall gain fame.\" Hearing Indra's words, he was deceived by that illusion;",
+          "translationSource": "ai"
         },
         {
           "number": 22,
           "sanskrit": "तथैवेत्य् अब्रवीद् राजा प्रीयमाणः शतक्रतुम् तस्मिंस् तु देवैः सदृशो दिवं प्राप्ते महीपतौ",
           "transliteration": "tathaivety abravīd rājā prīyamāṇaḥ śatakratum tasmiṃs tu devaiḥ sadṛśo divaṃ prāpte mahīpatau",
-          "hindi": "किया  उस गर्भके स्थापित हो जानेपर राजा श्वेतकर्ण  था। उन्होंने बहुत दक्षिणा देकर यज्ञ किया, उसमें पहलेके किये हुए संकल्पके अनुसार महाप्रस्थानको  उन्होंने दक्षिणाके रूपमें महात्मा संवर्तको अपनी चले। अपने प्रियतमको जाते देख मालिनी भी  संयता नामको कन्या दे दी। तत्पश्चात् उन्होंने"
+          "hindi": "किया  उस गर्भके स्थापित हो जानेपर राजा श्वेतकर्ण  था। उन्होंने बहुत दक्षिणा देकर यज्ञ किया, उसमें पहलेके किये हुए संकल्पके अनुसार महाप्रस्थानको  उन्होंने दक्षिणाके रूपमें महात्मा संवर्तको अपनी चले। अपने प्रियतमको जाते देख मालिनी भी  संयता नामको कन्या दे दी। तत्पश्चात् उन्होंने",
+          "translation": "the king, pleased, said to Shatakratu, \"So be it.\" When that king had gone to heaven, equal to the gods,",
+          "translationSource": "ai"
         },
         {
           "number": 23,
           "sanskrit": "दायाद्यम् इन्द्राद् आजह्रू राज्यं तत्तनया रजेः पञ्च पुत्रशतान्य् अस्य तद् वै स्थानं शतक्रतोः",
           "transliteration": "dāyādyam indrād ājahrū rājyaṃ tattanayā rajeḥ pañca putraśatāny asya tad vai sthānaṃ śatakratoḥ",
-          "hindi": "पूरुवंशी दुष्यन्तको गोद ले लिया। इस प्रकार ययातिके शापवश जब तुर्वसुका वंश नहीं चला, तब उसमें पौरववंशका प्रवेश हुआ । दुष्यन्तके पुत्र राजा करूरोम हुए। करूरोमसे अहीदकी उत्पत्ति"
+          "hindi": "पूरुवंशी दुष्यन्तको गोद ले लिया। इस प्रकार ययातिके शापवश जब तुर्वसुका वंश नहीं चला, तब उसमें पौरववंशका प्रवेश हुआ । दुष्यन्तके पुत्र राजा करूरोम हुए। करूरोमसे अहीदकी उत्पत्ति",
+          "translation": "Raji's sons took the inheritance, the kingdom, from Indra; his five hundred sons took that very position of Shatakratu.",
+          "translationSource": "ai"
         },
         {
           "number": 24,
           "sanskrit": "समाक्रामन्त बहुधा स्वर्गलोकं त्रिविष्टपम् ते यदा तु स्वसंमूढा रागोन्मत्ता विधर्मिणः",
           "transliteration": "samākrāmanta bahudhā svargalokaṃ triviṣṭapam te yadā tu svasaṃmūḍhā rāgonmattā vidharmiṇaḥ",
-          "hindi": "हुई । अहीदके चार पुत्र हुए--पाण्ड्य, केरल, कोल तथा चोल द्रुह्यके पुत्र बभ्रुसेतु, बभ्रुसेतुके अङ्गारसेतु और अङ्गारसेतुके मरुत्पति हुए, जो युद्धमें युवनाश्वकुमार मान्धाताके हाथसे मारे गये ।"
+          "hindi": "हुई । अहीदके चार पुत्र हुए--पाण्ड्य, केरल, कोल तथा चोल द्रुह्यके पुत्र बभ्रुसेतु, बभ्रुसेतुके अङ्गारसेतु और अङ्गारसेतुके मरुत्पति हुए, जो युद्धमें युवनाश्वकुमार मान्धाताके हाथसे मारे गये ।",
+          "translation": "They overran in many ways the heavenly world, Trivishtapa. When they became deluded in themselves, maddened by passion, unrighteous,",
+          "translationSource": "ai"
         },
         {
           "number": 25,
           "sanskrit": "ब्रह्मद्विषश् च संवृत्ता हतवीर्यपराक्रमाः ततो लेभे स्वम् ऐश्वर्यम् इन्द्रः स्थानं तथोत्तमम्",
           "transliteration": "brahmadviṣaś ca saṃvṛttā hatavīryaparākramāḥ tato lebhe svam aiśvaryam indraḥ sthānaṃ tathottamam",
-          "hindi": "अङ्गारसेतुके पुत्र राजा गान्धार हुए, जिनके नामपर गान्धार प्रदेश विख्यात है। गान्धारदेशके घोड़े सब घोडोंसे अच्छे होते हैं। अनुके पुत्र धर्म, धर्मके द्यूत, द्यूतके वनदुह, वनदुहके प्रचेता और"
+          "hindi": "अङ्गारसेतुके पुत्र राजा गान्धार हुए, जिनके नामपर गान्धार प्रदेश विख्यात है। गान्धारदेशके घोड़े सब घोडोंसे अच्छे होते हैं। अनुके पुत्र धर्म, धर्मके द्यूत, द्यूतके वनदुह, वनदुहके प्रचेता और",
+          "translation": "haters of Brahmins, with their strength and valour destroyed, then Indra regained his lordship and his supreme station,",
+          "translationSource": "ai"
         },
         {
           "number": 26,
           "sanskrit": "हत्वा रजिसुतान् सर्वान् कामक्रोधपरायणान् य इदं च्यावनं स्थानात् प्रतिष्ठानं शतक्रतोः शृणुयाद् धारयेद् वापि न स दौर्गत्यम् आप्नुयात्",
           "transliteration": "hatvā rajisutān sarvān kāmakrodhaparāyaṇān ya idaṃ cyāvanaṃ sthānāt pratiṣṭhānaṃ śatakratoḥ śṛṇuyād dhārayed vāpi na sa daurgatyam āpnuyāt",
-          "hindi": "उसके एक सहस्र भुजाएँ प्रकट हो जाती थीं, उसने द्वीप, समुद्र और नगरोंसहित सम्पूर्ण पृथ्वीको कठोरतापूर्वक जीता तथा सात द्वीपोंमें सात सौ यज्ञ किये, उन सभी यज्ञोंमें एक-एक लाखको"
+          "hindi": "उसके एक सहस्र भुजाएँ प्रकट हो जाती थीं, उसने द्वीप, समुद्र और नगरोंसहित सम्पूर्ण पृथ्वीको कठोरतापूर्वक जीता तथा सात द्वीपोंमें सात सौ यज्ञ किये, उन सभी यज्ञोंमें एक-एक लाखको",
+          "translation": "having slain all of Raji's sons, intent on lust and anger. One who hears or holds this account of Indra's fall from and re-establishment in his position will not meet with misfortune.",
+          "translationSource": "ai"
         },
         {
           "number": 27,
           "sanskrit": "रम्भो ऽनपत्यस् त्व् आसीच् च वंशं वक्ष्याम्य् अनेनसः अनेनसः सुतो राजा प्रतिक्षत्रो महायशाः",
           "transliteration": "rambho 'napatyas tv āsīc ca vaṃśaṃ vakṣyāmy anenasaḥ anenasaḥ suto rājā pratikṣatro mahāyaśāḥ",
-          "hindi": "दक्षिणा दी गयी थी। सबमें सोनेके यूप गड़े थे, सोनेकी ही वेदियाँ बनी थीं । वहाँ दिव्य वस्त्राभूषणोंसे अलंकृत देवताओं और गन्धर्वोके साथ महर्षिगण भी विमानपर बैठकर सुशोभित होते थे। कार्तवीर्यके"
+          "hindi": "दक्षिणा दी गयी थी। सबमें सोनेके यूप गड़े थे, सोनेकी ही वेदियाँ बनी थीं । वहाँ दिव्य वस्त्राभूषणोंसे अलंकृत देवताओं और गन्धर्वोके साथ महर्षिगण भी विमानपर बैठकर सुशोभित होते थे। कार्तवीर्यके",
+          "translation": "Rambha was childless; I shall now tell the lineage of Anenas. Anenas's son was the king Pratikshatra of great fame.",
+          "translationSource": "ai"
         },
         {
           "number": 28,
           "sanskrit": "प्रतिक्षत्रसुतश् चासीत् संजयो नाम विश्रुतः संजयस्य जयः पुत्रो विजयस् तस्य चात्मजः",
           "transliteration": "pratikṣatrasutaś cāsīt saṃjayo nāma viśrutaḥ saṃjayasya jayaḥ putro vijayas tasya cātmajaḥ",
-          "hindi": "यज्ञमें नारद नामक गन्धर्वने इस गाथाका गान किया--' अन्य राजालोग यज्ञ, दान, तपस्या, पराक्रम और शस्त्र-ज्ञानमें कार्तवीर्य अर्जुनको स्थितिको नहीं पहुँच सकते।' वह योगी था; इसलिये सातों"
+          "hindi": "यज्ञमें नारद नामक गन्धर्वने इस गाथाका गान किया--' अन्य राजालोग यज्ञ, दान, तपस्या, पराक्रम और शस्त्र-ज्ञानमें कार्तवीर्य अर्जुनको स्थितिको नहीं पहुँच सकते।' वह योगी था; इसलिये सातों",
+          "translation": "Pratikshatra's son was the renowned Sanjaya; Sanjaya's son was Jaya, and his son Vijaya.",
+          "translationSource": "ai"
         },
         {
           "number": 29,
           "sanskrit": "विजयस्य कृतिः पुत्रस् तस्य हर्यत्वतः सुतः हर्यत्वतसुतो राजा सहदेवः प्रतापवान्",
           "transliteration": "vijayasya kṛtiḥ putras tasya haryatvataḥ sutaḥ haryatvatasuto rājā sahadevaḥ pratāpavān",
-          "hindi": "प्रचेताके सुचेता हुए। ये अनुके वंशज बतलाये  द्वीपोंमें ढाल, तलवार, धनुष-बाण और रथ लिये गये। यदुके पाँच पुत्र हुए, जो देवकुमारोंके समान  सदा चारों ओर विचरता दिखायी देता था, धर्मपूर्वक"
+          "hindi": "प्रचेताके सुचेता हुए। ये अनुके वंशज बतलाये  द्वीपोंमें ढाल, तलवार, धनुष-बाण और रथ लिये गये। यदुके पाँच पुत्र हुए, जो देवकुमारोंके समान  सदा चारों ओर विचरता दिखायी देता था, धर्मपूर्वक",
+          "translation": "Vijaya's son was Kriti; his son Haryavata; Haryavata's son was the mighty king Sahadeva.",
+          "translationSource": "ai"
         },
         {
           "number": 30,
           "sanskrit": "सहदेवस्य धर्मात्मा नदीन इति विश्रुतः नदीनस्य जयत्सेनो जयत्सेनस्य संकृतिः",
           "transliteration": "sahadevasya dharmātmā nadīna iti viśrutaḥ nadīnasya jayatseno jayatsenasya saṃkṛtiḥ",
-          "hindi": "सुन्दर थे। उनके नाम हें--सहस्त्राद, पयोद, क्रोष्टु, नील और अञ्जिक। सहस्रादके तीन परम धर्मात्मा पुत्र हुए-हैहय, हय तथा वेणुहय। हैहयका पुत्र धर्मनेत्र हुआ। धर्मनेत्रके कार्त और कार्तके साहञ्"
+          "hindi": "सुन्दर थे। उनके नाम हें--सहस्त्राद, पयोद, क्रोष्टु, नील और अञ्जिक। सहस्रादके तीन परम धर्मात्मा पुत्र हुए-हैहय, हय तथा वेणुहय। हैहयका पुत्र धर्मनेत्र हुआ। धर्मनेत्रके कार्त और कार्तके साहञ्",
+          "translation": "Sahadeva's son, righteous-souled, was Nadina; Nadina's was Jayatsena; Jayatsena's was Sankriti.",
+          "translationSource": "ai"
         },
         {
           "number": 31,
           "sanskrit": "संकृतेर् अपि धर्मात्मा क्षत्रवृद्धो महायशाः अनेनसः समाख्याताः क्षत्रवृद्धस्य चापरः",
           "transliteration": "saṃkṛter api dharmātmā kṣatravṛddho mahāyaśāḥ anenasaḥ samākhyātāḥ kṣatravṛddhasya cāparaḥ",
-          "hindi": "नामक पुत्र हुए। साहञ्जने साहञ्जनी नामकी नगरी बसायी। साहझका दूसरा नाम महिष्मान् भी था। उनके पुत्र प्रतापी भद्रश्रेण्य थे। भद्रश्रेण्यके दुर्दम और दुर्दमके कनक हुए। कनकके चार पुत्र हुए,"
+          "hindi": "नामक पुत्र हुए। साहञ्जने साहञ्जनी नामकी नगरी बसायी। साहझका दूसरा नाम महिष्मान् भी था। उनके पुत्र प्रतापी भद्रश्रेण्य थे। भद्रश्रेण्यके दुर्दम और दुर्दमके कनक हुए। कनकके चार पुत्र हुए,",
+          "translation": "Sankriti's son was the righteous, greatly famed Kshatravriddha; of Anenas's line another of Kshatravriddha is also named.",
+          "translationSource": "ai"
         },
         {
           "number": 32,
           "sanskrit": "क्षत्रवृद्धात्मजस् तत्र सुनहोत्रो महायशाः सुनहोत्रस्य दायादास् त्रयः परमधार्मिकाः",
           "transliteration": "kṣatravṛddhātmajas tatra sunahotro mahāyaśāḥ sunahotrasya dāyādās trayaḥ paramadhārmikāḥ",
-          "hindi": "जो सम्पूर्ण विश्वमें विख्यात थे। उनके नाम इस प्रकार हैं-कृतवीर्य, कृतौजा, कृतधन्वा तथा कृताग्नि।"
+          "hindi": "जो सम्पूर्ण विश्वमें विख्यात थे। उनके नाम इस प्रकार हैं-कृतवीर्य, कृतौजा, कृतधन्वा तथा कृताग्नि।",
+          "translation": "Kshatravriddha's son there was the greatly famed Sunahotra; Sunahotra had three heirs, exceedingly righteous:",
+          "translationSource": "ai"
         },
         {
           "number": 33,
           "sanskrit": "काशः शलश् च द्वाव् एतौ तथा गृत्समदः प्रभुः पुत्रो गृत्समदस्यापि शुनको यस्य शौनकः",
           "transliteration": "kāśaḥ śalaś ca dvāv etau tathā gṛtsamadaḥ prabhuḥ putro gṛtsamadasyāpi śunako yasya śaunakaḥ",
-          "hindi": "कृतवीर्यसे अर्जुनको उत्पत्ति हुई, जो सहस्र भुजाओंसे युक्त हो सात द्वीपोंका राजा हुआ। उसने अकेले ही सूर्यके समान तेजस्वी रथद्वारा सम्पूर्ण पृथ्वीको जीत लिया था। उसने दस हजार"
+          "hindi": "कृतवीर्यसे अर्जुनको उत्पत्ति हुई, जो सहस्र भुजाओंसे युक्त हो सात द्वीपोंका राजा हुआ। उसने अकेले ही सूर्यके समान तेजस्वी रथद्वारा सम्पूर्ण पृथ्वीको जीत लिया था। उसने दस हजार",
+          "translation": "Kasha, Shala, and the lord Gritsamada. Gritsamada's son was Shunaka, whose son was Shaunaka;",
+          "translationSource": "ai"
         },
         {
           "number": 34,
           "sanskrit": "ब्राह्मणाः क्षत्रियाश् चैव वैश्याः शूद्रास् तथैव च शलात्मज आर्ष्टिसेणस् तनयस् तस्य काश्यपः",
           "transliteration": "brāhmaṇāḥ kṣatriyāś caiva vaiśyāḥ śūdrās tathaiva ca śalātmaja ārṣṭiseṇas tanayas tasya kāśyapaḥ",
-          "hindi": "वर्षांतक अत्यन्त कठोर तपस्या करके दत्तात्रेयजीकी आराधना को । दत्तात्रेयजीने उसे कई वरदान दिये। पहले तो उसने युद्धकालमें एक हजार भुजाएं"
+          "hindi": "वर्षांतक अत्यन्त कठोर तपस्या करके दत्तात्रेयजीकी आराधना को । दत्तात्रेयजीने उसे कई वरदान दिये। पहले तो उसने युद्धकालमें एक हजार भुजाएं",
+          "translation": "Brahmins, Kshatriyas, Vaishyas and likewise Shudras (came from this line). Shala's son was Arshtisena, whose son was Kashyapa.",
+          "translationSource": "ai"
         },
         {
           "number": 35,
           "sanskrit": "काशस्य काशिपो राजा पुत्रो दीर्घतपास् तथा धनुस् तु दीर्घतपसो विद्वान् धन्वन्तरिस् ततः",
           "transliteration": "kāśasya kāśipo rājā putro dīrghatapās tathā dhanus tu dīrghatapaso vidvān dhanvantaris tataḥ",
-          "hindi": "प्रजाको रक्षा करनेवाले महाराज कार्तवीर्यके प्रभावसे किसीका धन नष्ट नहीं होता था, किसीको रोग नहीं सताता था तथा कोई भ्रममें नहीं पड़ता था। वे सब प्रकारके रलोंसे सम्पन्न चक्रवती सम्राट्"
+          "hindi": "प्रजाको रक्षा करनेवाले महाराज कार्तवीर्यके प्रभावसे किसीका धन नष्ट नहीं होता था, किसीको रोग नहीं सताता था तथा कोई भ्रममें नहीं पड़ता था। वे सब प्रकारके रलोंसे सम्पन्न चक्रवती सम्राट्",
+          "translation": "Kasha's son was the king Kashipa, and Dirghatapas; Dirghatapas's son Dhanus; then the learned Dhanvantari.",
+          "translationSource": "ai"
         },
         {
           "number": 36,
           "sanskrit": "तपसो ऽन्ते सुमहतो जातो वृद्धस्य धीमतः पुनर् धन्वन्तरिर् देवो मानुषेष्व् इह जन्मनि",
           "transliteration": "tapaso 'nte sumahato jāto vṛddhasya dhīmataḥ punar dhanvantarir devo mānuṣeṣv iha janmani",
-          "hindi": "थे। वे ही पशुओं तथा खेतोंके भी रक्षक थे और वे ही योगी होनेके कारण वर्षा करते हुए मेघ बन जाते थे। जैसे शरद्-ऋतुमें भगवान् भास्कर अपनी सहस्रो किरणोंसे शोभायमान होते हैं, उसी प्रकार"
+          "hindi": "थे। वे ही पशुओं तथा खेतोंके भी रक्षक थे और वे ही योगी होनेके कारण वर्षा करते हुए मेघ बन जाते थे। जैसे शरद्-ऋतुमें भगवान् भास्कर अपनी सहस्रो किरणोंसे शोभायमान होते हैं, उसी प्रकार",
+          "translation": "At the end of great austerity, the wise old man (obtained) Dhanvantari again, the god, born among humans in this life.",
+          "translationSource": "ai"
         },
         {
           "number": 37,
           "sanskrit": "तस्य गेहे समुत्पन्नो देवो धन्वन्तरिस् तदा काशिराजो महाराजः सर्वरोगप्रणाशनः",
           "transliteration": "tasya gehe samutpanno devo dhanvantaris tadā kāśirājo mahārājaḥ sarvarogapraṇāśanaḥ",
-          "hindi": "राजा कार्तवीर्य अर्जुन अपनी सहस्त्रों भुजाओंसे शोभा पाते थे। उन्होंने कर्कोटक नागके पुत्रोंको जीतकर उन्हें अपनी नगरी माहिष्मतीपुरीमें मनुष्योंके साथ बसाया था। वे वर्षाकालमें समुद्रमें जलक्रीडा"
+          "hindi": "राजा कार्तवीर्य अर्जुन अपनी सहस्त्रों भुजाओंसे शोभा पाते थे। उन्होंने कर्कोटक नागके पुत्रोंको जीतकर उन्हें अपनी नगरी माहिष्मतीपुरीमें मनुष्योंके साथ बसाया था। वे वर्षाकालमें समुद्रमें जलक्रीडा",
+          "translation": "In his house the god Dhanvantari then arose as the Kashi king, the great king, destroyer of all diseases.",
+          "translationSource": "ai"
         },
         {
           "number": 38,
           "sanskrit": "आयुर्वेदं भरद्वाजात् प्राप्येह स भिषक्क्रियः तम् अष्टधा पुनर् व्यस्य शिष्येभ्यः प्रत्यपादयत्",
           "transliteration": "āyurvedaṃ bharadvājāt prāpyeha sa bhiṣakkriyaḥ tam aṣṭadhā punar vyasya śiṣyebhyaḥ pratyapādayat",
-          "hindi": "करते समय अपनी भुजाओंसे रोककर उसको जलराशिके वेगको पीछेकी ओर लौटा देते थे। उनको राजधानीको घेरकर बहनेवाली नर्मदा नदीमें जब वे जलक्रीडा करते समय लोटते थे, उस"
+          "hindi": "करते समय अपनी भुजाओंसे रोककर उसको जलराशिके वेगको पीछेकी ओर लौटा देते थे। उनको राजधानीको घेरकर बहनेवाली नर्मदा नदीमें जब वे जलक्रीडा करते समय लोटते थे, उस",
+          "translation": "Having obtained Ayurveda from Bharadvaja here, he, devoted to physician's work, divided it again into eight parts and imparted it to disciples.",
+          "translationSource": "ai"
         },
         {
           "number": 39,
           "sanskrit": "धन्वन्तरेस् तु तनयः केतुमान् इति विश्रुतः अथ केतुमतः पुत्रो वीरो भीमरथः स्मृतः",
           "transliteration": "dhanvantares tu tanayaḥ ketumān iti viśrutaḥ atha ketumataḥ putro vīro bhīmarathaḥ smṛtaḥ",
-          "hindi": "समय वह नदी अपनी सहस्रो चञ्चल लहरोंके"
+          "hindi": "समय वह नदी अपनी सहस्रो चञ्चल लहरोंके",
+          "translation": "Dhanvantari's son was renowned as Ketuman; then Ketuman's son is remembered as the hero Bhimaratha.",
+          "translationSource": "ai"
         },
         {
           "number": 40,
           "sanskrit": "पुत्रो भीमरथस्यापि दिवोदासः प्रजेश्वरः दिवोदासस् तु धर्मात्मा वाराणस्यधिपो ऽभवत्",
           "transliteration": "putro bhīmarathasyāpi divodāsaḥ prajeśvaraḥ divodāsas tu dharmātmā vārāṇasyadhipo 'bhavat",
-          "hindi": "मागी । युद्ध करते समय किसी योगीश्वरकी भाँति  साथ डरती-डरती उनके पास आती थी। महासागरमें"
+          "hindi": "मागी । युद्ध करते समय किसी योगीश्वरकी भाँति  साथ डरती-डरती उनके पास आती थी। महासागरमें",
+          "translation": "Bhimaratha's son was the lord of creatures Divodasa; the righteous-souled Divodasa became ruler of Varanasi.",
+          "translationSource": "ai"
         },
         {
           "number": 41,
           "sanskrit": "एतस्मिन्न् एव काले तु पुरीं वाराणसीं द्विजाः शून्यां निवेशयाम् आस क्षेमको नाम राक्षसः",
           "transliteration": "etasminn eva kāle tu purīṃ vārāṇasīṃ dvijāḥ śūnyāṃ niveśayām āsa kṣemako nāma rākṣasaḥ",
-          "hindi": "» ययाति-पुत्रोंके वंशका वर्णन"
+          "hindi": "» ययाति-पुत्रोंके वंशका वर्णन",
+          "translation": "At that very time, Brahmins, a Rakshasa named Kshemaka settled the deserted city of Varanasi.",
+          "translationSource": "ai"
         },
         {
           "number": 42,
           "sanskrit": "शप्ता हि सा मतिमता निकुम्भेन महात्मना शून्या वर्षसहस्रं वै भवित्री तु न संशयः",
           "transliteration": "śaptā hi sā matimatā nikumbhena mahātmanā śūnyā varṣasahasraṃ vai bhavitrī tu na saṃśayaḥ",
-          "hindi": "समय पातालनिवासी महाहैत्य निश्चेष्ट होकर भयसे"
+          "hindi": "समय पातालनिवासी महाहैत्य निश्चेष्ट होकर भयसे",
+          "translation": "For it had been cursed by the wise, great-souled Nikumbha: \"It shall be empty for a thousand years, no doubt.\"",
+          "translationSource": "ai"
         },
         {
           "number": 43,
           "sanskrit": "तस्यां हि शप्तमात्रायां दिवोदासः प्रजेश्वरः विषयान्ते पुरीं रम्यां गोमत्यां संन्यवेशयत्",
           "transliteration": "tasyāṃ hi śaptamātrāyāṃ divodāsaḥ prajeśvaraḥ viṣayānte purīṃ ramyāṃ gomatyāṃ saṃnyaveśayat",
-          "hindi": "आदि जलजन्तु छटपटाने लगते थे। सागरके जलमें फेन जम जाता था। समुद्र बड़ी-बड़ी भँवरोंके कारण क्षुब्ध दिखायी देता था। देवताओं और असुरोंके डाले हुए मन्दराचल पर्वतसे क्षीरसमुद्रकी"
+          "hindi": "आदि जलजन्तु छटपटाने लगते थे। सागरके जलमें फेन जम जाता था। समुद्र बड़ी-बड़ी भँवरोंके कारण क्षुब्ध दिखायी देता था। देवताओं और असुरोंके डाले हुए मन्दराचल पर्वतसे क्षीरसमुद्रकी",
+          "translation": "As soon as it was cursed, the lord of creatures Divodasa established a lovely city on the Gomati at the edge of his country.",
+          "translationSource": "ai"
         },
         {
           "number": 44,
           "sanskrit": "भद्रश्रेण्यस्य पूर्वं तु पुरी वाराणसी अभूत् भद्रश्रेण्यस्य पुत्राणां शतम् उत्तमधन्विनाम्",
           "transliteration": "bhadraśreṇyasya pūrvaṃ tu purī vārāṇasī abhūt bhadraśreṇyasya putrāṇāṃ śatam uttamadhanvinām",
-          "hindi": "जो दशा हुई थी; वही दशा वे अपने सहस्र बाहुओंसे महासागरको कर देते थे। उस समय मन्दराचलके द्वारा समुद्र-मन्थनको बात सोचकर चकित और अमृतोत्पत्तिसे आशङ्कित हुए बड़े-"
+          "hindi": "जो दशा हुई थी; वही दशा वे अपने सहस्र बाहुओंसे महासागरको कर देते थे। उस समय मन्दराचलके द्वारा समुद्र-मन्थनको बात सोचकर चकित और अमृतोत्पत्तिसे आशङ्कित हुए बड़े-",
+          "translation": "Varanasi had formerly been the city of Bhadrashrenya. Bhadrashrenya's hundred sons, excellent archers,",
+          "translationSource": "ai"
         },
         {
           "number": 45,
           "sanskrit": "हत्वा निवेशयाम् आस दिवोदासो नराधिपः भद्रश्रेण्यस्य तद् राज्यं हृतं येन बलीयसा",
           "transliteration": "hatvā niveśayām āsa divodāso narādhipaḥ bhadraśreṇyasya tad rājyaṃ hṛtaṃ yena balīyasā",
-          "hindi": "बड़े नाग सहसा ऊपर उछलकर देखते और भयंकर कार्तवीर्य नरेशपर दृष्टि पड़ते ही मस्तक झुकाकर निश्चेष्ट पड़ जाते थे। जैसे संध्याके समय वायुके झोंकेसे कदलीखण्ड कापते हैं, उसी प्रकार वे भी"
+          "hindi": "बड़े नाग सहसा ऊपर उछलकर देखते और भयंकर कार्तवीर्य नरेशपर दृष्टि पड़ते ही मस्तक झुकाकर निश्चेष्ट पड़ जाते थे। जैसे संध्याके समय वायुके झोंकेसे कदलीखण्ड कापते हैं, उसी प्रकार वे भी",
+          "translation": "King Divodasa killed and settled there; by that stronger one Bhadrashrenya's kingdom was seized.",
+          "translationSource": "ai"
         },
         {
           "number": 46,
           "sanskrit": "भद्रश्रेण्यस्य पुत्रस् तु दुर्दमो नाम विश्रुतः दिवोदासेन बालेति घृणया स विसर्जितः",
           "transliteration": "bhadraśreṇyasya putras tu durdamo nāma viśrutaḥ divodāsena bāleti ghṛṇayā sa visarjitaḥ",
-          "hindi": "काँपने लगते थे। राजा कार्तवीर्यने अभिमानसे भरे हुए लङ्कापति रावणको अपने पाँच ही बाणोंसे सेनासहित मूर्च्छित करके धनुषकी प्रत्यञ्चासे बाँध"
+          "hindi": "काँपने लगते थे। राजा कार्तवीर्यने अभिमानसे भरे हुए लङ्कापति रावणको अपने पाँच ही बाणोंसे सेनासहित मूर्च्छित करके धनुषकी प्रत्यञ्चासे बाँध",
+          "translation": "Bhadrashrenya's son, famed as Durdama, was released by Divodasa out of pity, thinking \"he is a child.\"",
+          "translationSource": "ai"
         },
         {
           "number": 47,
           "sanskrit": "हैहयस्य तु दायाद्यं हृतवान् वै महीपतिः आजह्रे पितृदायाद्यं दिवोदासहृतं बलात्",
           "transliteration": "haihayasya tu dāyādyaṃ hṛtavān vai mahīpatiḥ ājahre pitṛdāyādyaṃ divodāsahṛtaṃ balāt",
-          "hindi": "लिया और माहिष्मतीपुरीमें लाकर बंदी बना लिया। यह समाचार सुनकर महर्षि पुलस्त्य उनके पास गये। महर्षिके याचना करनेपर उन्होंने रावणको"
+          "hindi": "लिया और माहिष्मतीपुरीमें लाकर बंदी बना लिया। यह समाचार सुनकर महर्षि पुलस्त्य उनके पास गये। महर्षिके याचना करनेपर उन्होंने रावणको",
+          "translation": "The king took back the Haihaya inheritance, the paternal inheritance that Divodasa had seized by force.",
+          "translationSource": "ai"
         },
         {
           "number": 48,
           "sanskrit": "भद्रश्रेण्यस्य पुत्रेण दुर्दमेन महात्मना वैरस्यान्तो महाभागाः कृतश् चात्मीयतेजसा",
           "transliteration": "bhadraśreṇyasya putreṇa durdamena mahātmanā vairasyānto mahābhāgāḥ kṛtaś cātmīyatejasā",
-          "hindi": "किये हुए धनुषोंको प्रत्यञ्चाका इतना घोर शब्द होता था, मानो प्रलयकालीन मेघ गर्जते हों अथवा वज्र फट पड़ा हो। अहो! परशुरामजीका पराक्रम धन्य है, जिन्होंने सुवर्णमय तालवनके समान राजा"
+          "hindi": "किये हुए धनुषोंको प्रत्यञ्चाका इतना घोर शब्द होता था, मानो प्रलयकालीन मेघ गर्जते हों अथवा वज्र फट पड़ा हो। अहो! परशुरामजीका पराक्रम धन्य है, जिन्होंने सुवर्णमय तालवनके समान राजा",
+          "translation": "By Bhadrashrenya's son, the great-souled Durdama, the end of the enmity was brought about, fortunate ones, through his own prowess.",
+          "translationSource": "ai"
         },
         {
           "number": 49,
           "sanskrit": "दिवोदासाद् दृषद्वत्यां वीरो जज्ञे प्रतर्दनः तेन बालेन पुत्रेण प्रहृतं तु पुनर् बलम्",
           "transliteration": "divodāsād dṛṣadvatyāṃ vīro jajñe pratardanaḥ tena bālena putreṇa prahṛtaṃ tu punar balam",
-          "hindi": "कार्तवीर्यको सहस्रों भुजाओंको काट डाला था। एक दिनकी बात है, प्यासे अग्निदेवने राजा कार्तवीर्यसे"
+          "hindi": "कार्तवीर्यको सहस्रों भुजाओंको काट डाला था। एक दिनकी बात है, प्यासे अग्निदेवने राजा कार्तवीर्यसे",
+          "translation": "From Divodasa, on Drishadvati, the hero Pratardana was born; by that child son the force was struck back.",
+          "translationSource": "ai"
         },
         {
           "number": 50,
           "sanskrit": "प्रतर्दनस्य पुत्रौ द्वौ वत्सभर्गौ सुविश्रुतौ वत्सपुत्रो ह्य् अलर्कस् तु संनतिस् तस्य चात्मजः",
           "transliteration": "pratardanasya putrau dvau vatsabhargau suviśrutau vatsaputro hy alarkas tu saṃnatis tasya cātmajaḥ",
-          "hindi": "तथा सारा राज्य उन्हें भिक्षामें दे दिये। अग्निदेव सर्वत्र प्रज्वलित हो उठे और महाराज कार्तवीर्यके प्रभावसे समस्त पर्वतों एवं वनोंको जलाने लगे। उन्होंने वरुणपुत्रके रमणीय आश्रमको भी जला"
+          "hindi": "तथा सारा राज्य उन्हें भिक्षामें दे दिये। अग्निदेव सर्वत्र प्रज्वलित हो उठे और महाराज कार्तवीर्यके प्रभावसे समस्त पर्वतों एवं वनोंको जलाने लगे। उन्होंने वरुणपुत्रके रमणीय आश्रमको भी जला",
+          "translation": "Pratardana had two famed sons, Vatsa and Bharga; Vatsa's son was Alarka, and Alarka's son Sannati.",
+          "translationSource": "ai"
         },
         {
           "number": 51,
           "sanskrit": "अलर्कस् तस्य पुत्रस् तु ब्रह्मण्यः सत्यसंगरः अलर्कं प्रति राजर्षिं श्लोको गीतः पुरातनैः",
           "transliteration": "alarkas tasya putras tu brahmaṇyaḥ satyasaṃgaraḥ alarkaṃ prati rājarṣiṃ śloko gītaḥ purātanaiḥ",
-          "hindi": "दिया। पूर्वकालमें वरुणने जिस तेजस्वी महर्षिको अपने पुत्ररूपमें प्राप्त किया था, वे वसिष्ठके नामसे विख्यात हुए। उन्हींका नाम आपव भी है। महर्षि वसिष्ठका शून्य आश्रम जलाया गया था, इसलिये"
+          "hindi": "दिया। पूर्वकालमें वरुणने जिस तेजस्वी महर्षिको अपने पुत्ररूपमें प्राप्त किया था, वे वसिष्ठके नामसे विख्यात हुए। उन्हींका नाम आपव भी है। महर्षि वसिष्ठका शून्य आश्रम जलाया गया था, इसलिये",
+          "translation": "Alarka was a son, devoted to Brahmins, true to his word. About the royal sage Alarka a verse was sung by the ancients:",
+          "translationSource": "ai"
         },
         {
           "number": 52,
           "sanskrit": "षष्टिर् वर्षसहस्राणि षष्टिर् वर्षशतानि च युवा रूपेण संपन्नः प्राग् आसीच् च कुलोद्वहः",
           "transliteration": "ṣaṣṭir varṣasahasrāṇi ṣaṣṭir varṣaśatāni ca yuvā rūpeṇa saṃpannaḥ prāg āsīc ca kulodvahaḥ",
-          "hindi": "उन्होंने शाप दिया-- हैहय! तूने मेरे इस वनको भी जलाये बिना न छोड़ा, अतः तेरे द्वारा यह महान् पाप हुआ है। इस कारण मेरे-जैसा एक दूसरा तपस्वी ब्राह्मण तेरा वध करेगा । जमदग्निनन्दन"
+          "hindi": "उन्होंने शाप दिया-- हैहय! तूने मेरे इस वनको भी जलाये बिना न छोड़ा, अतः तेरे द्वारा यह महान् पाप हुआ है। इस कारण मेरे-जैसा एक दूसरा तपस्वी ब्राह्मण तेरा वध करेगा । जमदग्निनन्दन",
+          "translation": "\"For sixty thousand years and sixty hundred years, young and endowed with beauty, the upholder of the family lived,",
+          "translationSource": "ai"
         },
         {
           "number": 53,
           "sanskrit": "लोपामुद्राप्रसादेन परमायुर् अवाप्तवान् तस्यासीत् सुमहद् राज्यं रूपयौवनशालिनः",
           "transliteration": "lopāmudrāprasādena paramāyur avāptavān tasyāsīt sumahad rājyaṃ rūpayauvanaśālinaḥ",
-          "hindi": "महाबाहु परशुराम, जो बलवान् और प्रतापी हैं, तेरा बलपूर्वक मान-मर्दन करके तेरी हजार भुजाओंको"
+          "hindi": "महाबाहु परशुराम, जो बलवान् और प्रतापी हैं, तेरा बलपूर्वक मान-मर्दन करके तेरी हजार भुजाओंको",
+          "translation": "by the grace of Lopamudra attaining a supreme lifespan; he had a very great kingdom, possessed of beauty and youth.\"",
+          "translationSource": "ai"
         },
         {
           "number": 54,
           "sanskrit": "शापस्यान्ते महाबाहुर् हत्वा क्षेमकराक्षसम् रम्यां निवेशयाम् आस पुरीं वाराणसीं पुनः",
           "transliteration": "śāpasyānte mahābāhur hatvā kṣemakarākṣasam ramyāṃ niveśayām āsa purīṃ vārāṇasīṃ punaḥ",
-          "hindi": "माँगा था। कार्तवीर्यके सौ पुत्र थे, किन्तु उनमें पाँच ही शेष बचे। वे सभी अस्त्र-शस्त्रोंके ज्ञाता, बलवान्, शूर, धर्मात्मा और यशस्वी थे। उनके नाम ये हैं-शूरसेन, शूर, वृषण, मधुपध्वज और"
+          "hindi": "माँगा था। कार्तवीर्यके सौ पुत्र थे, किन्तु उनमें पाँच ही शेष बचे। वे सभी अस्त्र-शस्त्रोंके ज्ञाता, बलवान्, शूर, धर्मात्मा और यशस्वी थे। उनके नाम ये हैं-शूरसेन, शूर, वृषण, मधुपध्वज और",
+          "translation": "At the end of the curse, the mighty-armed one, having killed the Rakshasa Kshemaka, settled the lovely city of Varanasi again.",
+          "translationSource": "ai"
         },
         {
           "number": 55,
           "sanskrit": "संनतेर् अपि दायादः सुनीथो नाम धार्मिकः सुनीथस्य तु दायादः क्षेमो नाम महायशाः",
           "transliteration": "saṃnater api dāyādaḥ sunītho nāma dhārmikaḥ sunīthasya tu dāyādaḥ kṣemo nāma mahāyaśāḥ",
-          "hindi": "जयध्वज। जयध्वज अवन्तीके महाराज थे। जयध्वजके पुत्र महाबली तालजङ्घ हुए। उनके सौ"
+          "hindi": "जयध्वज। जयध्वज अवन्तीके महाराज थे। जयध्वजके पुत्र महाबली तालजङ्घ हुए। उनके सौ",
+          "translation": "Sannati's heir was the righteous Sunitha; Sunitha's heir was the greatly famed Kshema.",
+          "translationSource": "ai"
         },
         {
           "number": 56,
           "sanskrit": "क्षेमस्य केतुमान् पुत्रः सुकेतुस् तस्य चात्मजः सुकेतोस् तनयश् चापि धर्मकेतुर् इति स्मृतः",
           "transliteration": "kṣemasya ketumān putraḥ suketus tasya cātmajaḥ suketos tanayaś cāpi dharmaketur iti smṛtaḥ",
-          "hindi": "काट डालेंगे और तुझे मौतके घाट उतारेंगे।'"
+          "hindi": "काट डालेंगे और तुझे मौतके घाट उतारेंगे।'",
+          "translation": "Kshema's son was Ketuman, whose son was Suketu; Suketu's son is remembered as Dharmaketu.",
+          "translationSource": "ai"
         },
         {
           "number": 57,
           "sanskrit": "धर्मकेतोस् तु दायादः सत्यकेतुर् महारथः सत्यकेतुसुतश् चापि विभुर् नाम प्रजेश्वरः",
           "transliteration": "dharmaketos tu dāyādaḥ satyaketur mahārathaḥ satyaketusutaś cāpi vibhur nāma prajeśvaraḥ",
-          "hindi": "पुत्र थे, जो तालजङ्कके नामसे विख्यात थे। हैहयवंशमें वीतिहोत्र, सुजात, भोज, अवन्ति, तौण्डिकेर, तालजङ्क तथा भरत आदि क्षत्रियोंका समुदाय हुआ। इनकी संख्या बहुत होनेसे पृथक्-"
+          "hindi": "पुत्र थे, जो तालजङ्कके नामसे विख्यात थे। हैहयवंशमें वीतिहोत्र, सुजात, भोज, अवन्ति, तौण्डिकेर, तालजङ्क तथा भरत आदि क्षत्रियोंका समुदाय हुआ। इनकी संख्या बहुत होनेसे पृथक्-",
+          "translation": "Dharmaketu's heir was the great charioteer Satyaketu; Satyaketu's son was the lord of creatures named Vibhu.",
+          "translationSource": "ai"
         },
         {
           "number": 58,
           "sanskrit": "आनर्तस् तु विभोः पुत्रः सुकुमारश् च तत्सुतः सुकुमारस्य पुत्रस् तु धृष्टकेतुः सुधार्मिकः",
           "transliteration": "ānartas tu vibhoḥ putraḥ sukumāraś ca tatsutaḥ sukumārasya putras tu dhṛṣṭaketuḥ sudhārmikaḥ",
-          "hindi": "पृथक् नाम नहीं बतलाये गये।"
+          "hindi": "पृथक् नाम नहीं बतलाये गये।",
+          "translation": "Anarta was Vibhu's son and his son Sukumara; Sukumara's son was the very righteous Dhrishtaketu.",
+          "translationSource": "ai"
         },
         {
           "number": 59,
           "sanskrit": "धृष्टकेतोस् तु दायादो वेणुहोत्रः प्रजेश्वरः वेणुहोत्रसुतश् चापि भार्गो नाम प्रजेश्वरः",
           "transliteration": "dhṛṣṭaketos tu dāyādo veṇuhotraḥ prajeśvaraḥ veṇuhotrasutaś cāpi bhārgo nāma prajeśvaraḥ",
-          "hindi": "वृष आदि बहुत-से पुण्यात्मा यादव इस पृथ्वीपर उत्पन्न हुए। उनमें वृष बंशके प्रवर्तक थे। वृषके पुत्र मधु थे। मधुके सौ पुत्र हुए, जिनमें वृषण वंश चलानेवाले हुए; वृषणके वृष्णि और मधुके वंशज"
+          "hindi": "वृष आदि बहुत-से पुण्यात्मा यादव इस पृथ्वीपर उत्पन्न हुए। उनमें वृष बंशके प्रवर्तक थे। वृषके पुत्र मधु थे। मधुके सौ पुत्र हुए, जिनमें वृषण वंश चलानेवाले हुए; वृषणके वृष्णि और मधुके वंशज",
+          "translation": "Dhrishtaketu's heir was the lord of creatures Venuhotra; Venuhotra's son was the lord of creatures named Bharga.",
+          "translationSource": "ai"
         },
         {
           "number": 60,
           "sanskrit": "वत्सस्य वत्सभूमिस् तु भार्गभूमिस् तु भार्गजः एते त्व् अङ्गिरसः पुत्रा जाता वंशे ऽथ भार्गव",
           "transliteration": "vatsasya vatsabhūmis tu bhārgabhūmis tu bhārgajaḥ ete tv aṅgirasaḥ putrā jātā vaṃśe 'tha bhārgava",
-          "hindi": "माधव कहलाये। इसी प्रकार यदुके नामपर यादव तथा हैहयके नामसे हैहय क्षत्रिय कहलाते हैं। जो प्रतिदिन कार्तवीर्य अर्जुनके जन्मका वृत्तान्त यहाँ कहेगा, उसके धनका नाश नहीं होगा, उसका नष्ट"
+          "hindi": "माधव कहलाये। इसी प्रकार यदुके नामपर यादव तथा हैहयके नामसे हैहय क्षत्रिय कहलाते हैं। जो प्रतिदिन कार्तवीर्य अर्जुनके जन्मका वृत्तान्त यहाँ कहेगा, उसके धनका नाश नहीं होगा, उसका नष्ट",
+          "translation": "Of Vatsa, Vatsabhumi; of Bharga, Bhargabhumi, born of Bharga. These sons of Angiras were born in the Bhargava line.",
+          "translationSource": "ai"
         },
         {
           "number": 61,
           "sanskrit": "ब्राह्मणाः क्षत्रिया वैश्यास् त्रयः पुत्राः सहस्रशः इत्य् एते काश्यपाः प्रोक्ता नहुषस्य निबोधत",
           "transliteration": "brāhmaṇāḥ kṣatriyā vaiśyās trayaḥ putrāḥ sahasraśaḥ ity ete kāśyapāḥ proktā nahuṣasya nibodhata",
-          "hindi": "हि र को कन हुआ धन भी मिल जायगा। इस प्रकार ययाति- जो शत्रुओके नाशक और धर्मपूर्वक प्रजाके  पुत्रोंके पाँच वंश यहाँ बतलाये गये, जो समस्त रक्षक थे, जिनके प्रतापसे किसीके धनका नाश  लोकोंको धारण करते हैं। यदुके वंशधर पुण्यात्मा नहीं होने पाता था, वे महाराज कार्तवीर्य महामुनि  क्रोष्टके, जिनके कुलमें वृष्णिवंशावतंस श्रीहरि"
+          "hindi": "हि र को कन हुआ धन भी मिल जायगा। इस प्रकार ययाति- जो शत्रुओके नाशक और धर्मपूर्वक प्रजाके  पुत्रोंके पाँच वंश यहाँ बतलाये गये, जो समस्त रक्षक थे, जिनके प्रतापसे किसीके धनका नाश  लोकोंको धारण करते हैं। यदुके वंशधर पुण्यात्मा नहीं होने पाता था, वे महाराज कार्तवीर्य महामुनि  क्रोष्टके, जिनके कुलमें वृष्णिवंशावतंस श्रीहरि",
+          "translation": "Brahmins, Kshatriyas and Vaishyas, three kinds of sons, in the thousands. Thus these Kashyapas have been told; now hear of Nahusha.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -4092,217 +4188,289 @@
           "number": 16,
           "sanskrit": "दत्तः शक्रेण तुष्टेन लेभे तस्माद् बृहद्रथः बृहद्रथात् क्रमेणैव गतो बार्हद्रथं नृपम्",
           "transliteration": "dattaḥ śakreṇa tuṣṭena lebhe tasmād bṛhadrathaḥ bṛhadrathāt krameṇaiva gato bārhadrathaṃ nṛpam",
-          "hindi": "शिनिका जन्म हुआ। शिनिके पुत्र सत्यक हुए। सत्यकसे सात्यकि उत्पन्न हुए, जिनका दूसरा नाम युयुधान था। देवभागके पुत्र महाभाग उद्धव हुए। गण्डूषके कोई पुत्र नहीं था, अतः विष्वक्सेने"
+          "hindi": "शिनिका जन्म हुआ। शिनिके पुत्र सत्यक हुए। सत्यकसे सात्यकि उत्पन्न हुए, जिनका दूसरा नाम युयुधान था। देवभागके पुत्र महाभाग उद्धव हुए। गण्डूषके कोई पुत्र नहीं था, अतः विष्वक्सेने",
+          "translation": "Given by pleased Shakra, Brihadratha obtained it from him; in succession from Brihadratha it passed to King Barhadratha.",
+          "translationSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "ततो हत्वा जरासंधं भीमस् तं रथम् उत्तमम् प्रददौ वासुदेवाय प्रीत्या कौरवनन्दनः",
           "transliteration": "tato hatvā jarāsaṃdhaṃ bhīmas taṃ ratham uttamam pradadau vāsudevāya prītyā kauravanandanaḥ",
-          "hindi": "उन्हें अनेक पुत्र दिये। उनके नाम इस प्रकार हैं-"
+          "hindi": "उन्हें अनेक पुत्र दिये। उनके नाम इस प्रकार हैं-",
+          "translation": "Then, Bhima, having killed Jarasandha, gave that excellent chariot with affection to Vasudeva, the delight of the Kauravas.",
+          "translationSource": "ai"
         },
         {
           "number": 18,
           "sanskrit": "सप्तद्वीपां ययातिस् तु जित्वा पृथ्वीं ससागराम् विभज्य पञ्चधा राज्यं पुत्राणां नाहुषस् तदा",
           "transliteration": "saptadvīpāṃ yayātis tu jitvā pṛthvīṃ sasāgarām vibhajya pañcadhā rājyaṃ putrāṇāṃ nāhuṣas tadā",
-          "hindi": "आदि। उन सबमें छोटे थे-महाबाहु रौक्मिणेय, जो युद्धसे कभी पीछे नहीं हटते थे। कनवकके दो पुत्र हुए-तन्त्रिज और तन्त्रिपाल। गृञ्जमके भी दो पुत्र थे-वीरु तथा अश्वहनु। श्यामके पुत्र"
+          "hindi": "आदि। उन सबमें छोटे थे-महाबाहु रौक्मिणेय, जो युद्धसे कभी पीछे नहीं हटते थे। कनवकके दो पुत्र हुए-तन्त्रिज और तन्त्रिपाल। गृञ्जमके भी दो पुत्र थे-वीरु तथा अश्वहनु। श्यामके पुत्र",
+          "translation": "Yayati, having conquered the earth with its seven continents and oceans, then divided the kingdom among his sons in five parts, the son of Nahusha.",
+          "translationSource": "ai"
         },
         {
           "number": 19,
           "sanskrit": "ययातिर् दिशि पूर्वस्यां यदुं ज्येष्ठं न्ययोजयत् मध्ये पुरुं च राजानम् अभ्यषिञ्चत् स नाहुषः",
           "transliteration": "yayātir diśi pūrvasyāṃ yaduṃ jyeṣṭhaṃ nyayojayat madhye puruṃ ca rājānam abhyaṣiñcat sa nāhuṣaḥ",
-          "hindi": "शमीक थे। शमीक राजा हुए। उन्होंने राजसूययज्ञ किया था, उनके पुत्र अजातशत्रु हुए।"
+          "hindi": "शमीक थे। शमीक राजा हुए। उन्होंने राजसूययज्ञ किया था, उनके पुत्र अजातशत्रु हुए।",
+          "translation": "In the eastern direction Yayati placed Yadu, the eldest; in the middle the son of Nahusha consecrated Puru as king.",
+          "translationSource": "ai"
         },
         {
           "number": 20,
           "sanskrit": "दिशि दक्षिणपूर्वस्यां तुर्वसुं मतिमान् नृपः तैर् इयं पृथिवी सर्वा सप्तद्वीपा सपत्तना",
           "transliteration": "diśi dakṣiṇapūrvasyāṃ turvasuṃ matimān nṛpaḥ tair iyaṃ pṛthivī sarvā saptadvīpā sapattanā",
-          "hindi": "अब वसुदेवके वीर पुत्रोंका वर्णन करूँगा। वृष्णिवंशकी अनेक शाखाएँ हैं । जो उसका स्मरण करता है, उसे कभी अनर्थको प्राप्ति नहीं होती। वसुदेवजीके चौदह सुन्दरी पल्लियाँ थीं । पुरुवंशकी"
+          "hindi": "अब वसुदेवके वीर पुत्रोंका वर्णन करूँगा। वृष्णिवंशकी अनेक शाखाएँ हैं । जो उसका स्मरण करता है, उसे कभी अनर्थको प्राप्ति नहीं होती। वसुदेवजीके चौदह सुन्दरी पल्लियाँ थीं । पुरुवंशकी",
+          "translation": "In the south-east the wise king (placed) Turvasu. By them this whole earth with seven continents and cities",
+          "translationSource": "ai"
         },
         {
           "number": 21,
           "sanskrit": "यथाप्रदेशम् अद्यापि धर्मेण प्रतिपाल्यते प्रजास् तेषां पुरस्तात् तु वक्ष्यामि मुनिसत्तमाः",
           "transliteration": "yathāpradeśam adyāpi dharmeṇa pratipālyate prajās teṣāṃ purastāt tu vakṣyāmi munisattamāḥ",
-          "hindi": "सहदेवा, शान्तिदेवा, श्रीदेवी, देवरक्षिता, वृकदेवी, उपदेवी तथा देवकी--ये बारह तो राजकुमारियाँ"
+          "hindi": "सहदेवा, शान्तिदेवा, श्रीदेवी, देवरक्षिता, वृकदेवी, उपदेवी तथा देवकी--ये बारह तो राजकुमारियाँ",
+          "translation": "is even today ruled according to region with dharma. Their people I shall tell of later, best of sages.",
+          "translationSource": "ai"
         },
         {
           "number": 22,
           "sanskrit": "धनुर् न्यस्य पृषत्कांश् च पञ्चभिः पुरुषर्षभैः जरावान् अभवद् राजा भारम् आवेश्य बन्धुषु",
           "transliteration": "dhanur nyasya pṛṣatkāṃś ca pañcabhiḥ puruṣarṣabhaiḥ jarāvān abhavad rājā bhāram āveśya bandhuṣu",
-          "hindi": "ज्येष्ठ पल्ली रोहिणीने, जो बाह्विककी पुत्री थी, वसुदेवजीसे ज्येष्ठ पुत्रके रूपमें बलरामजीको प्राप्त किया। तत्पश्चात् उनके गर्भसे शरण्य, शठ, दुर्दम,"
+          "hindi": "ज्येष्ठ पल्ली रोहिणीने, जो बाह्विककी पुत्री थी, वसुदेवजीसे ज्येष्ठ पुत्रके रूपमें बलरामजीको प्राप्त किया। तत्पश्चात् उनके गर्भसे शरण्य, शठ, दुर्दम,",
+          "translation": "Having laid aside his bow and arrows, with five bulls among men, the king became old, placing the burden on his kin.",
+          "translationSource": "ai"
         },
         {
           "number": 23,
           "sanskrit": "निक्षिप्तशस्त्रः पृथिवीं चचार पृथिवीपतिः प्रीतिमान् अभवद् राजा ययातिर् अपराजितः",
           "transliteration": "nikṣiptaśastraḥ pṛthivīṃ cacāra pṛthivīpatiḥ prītimān abhavad rājā yayātir aparājitaḥ",
-          "hindi": "तथा चित्रा नामकी कन्या हुई। इस प्रकार"
+          "hindi": "तथा चित्रा नामकी कन्या हुई। इस प्रकार",
+          "translation": "Having put down his weapons, the lord of the earth roamed the earth; King Yayati, unconquered, became content.",
+          "translationSource": "ai"
         },
         {
           "number": 24,
           "sanskrit": "एवं विभज्य पृथिवीं ययातिर् यदुम् अब्रवीत् जरां मे प्रतिगृह्णीष्व पुत्र कृत्यान्तरेण वै",
           "transliteration": "evaṃ vibhajya pṛthivīṃ yayātir yadum abravīt jarāṃ me pratigṛhṇīṣva putra kṛtyāntareṇa vai",
-          "hindi": "वसुदेवकी कान्ति चन्द्रमाके समान थी । वसुदेवके  रोहिणीको नौ संतानें थीं। चित्रा ही आगे चलकर"
+          "hindi": "वसुदेवकी कान्ति चन्द्रमाके समान थी । वसुदेवके  रोहिणीको नौ संतानें थीं। चित्रा ही आगे चलकर",
+          "translation": "Having thus divided the earth, Yayati said to Yadu: \"Take my old age, son, for another purpose.",
+          "translationSource": "ai"
         },
         {
           "number": 25,
           "sanskrit": "तरुणस् तव रूपेण चरेयं पृथिवीम् इमाम् जरां त्वयि समाधाय तं यदुः प्रत्युवाच ह",
           "transliteration": "taruṇas tava rūpeṇa careyaṃ pṛthivīm imām jarāṃ tvayi samādhāya taṃ yaduḥ pratyuvāca ha",
-          "hindi": "सुभद्राके नामसे विख्यात हुई । वसुदेवके देवकीके  कोई पुत्र नहीं था, तथापि उन्होंने पत्नीके भयसे गर्भसे महायशस्वी भगवान् श्रीकृष्ण अवतीर्ण  दूसरी स्त्रीसे विवाह नहीं किया। एक बार किसी हुए। बलरामके रेवतीके गर्भसे निशठ उत्पन्न हुए,  युद्धमें विजयी होनेपर उन्हें एक कन्या मिली ।"
+          "hindi": "सुभद्राके नामसे विख्यात हुई । वसुदेवके देवकीके  कोई पुत्र नहीं था, तथापि उन्होंने पत्नीके भयसे गर्भसे महायशस्वी भगवान् श्रीकृष्ण अवतीर्ण  दूसरी स्त्रीसे विवाह नहीं किया। एक बार किसी हुए। बलरामके रेवतीके गर्भसे निशठ उत्पन्न हुए,  युद्धमें विजयी होनेपर उन्हें एक कन्या मिली ।",
+          "translation": "Young in your form, I would roam this earth, placing old age on you.\" Yadu replied to him:",
+          "translationSource": "ai"
         },
         {
           "number": 26,
           "sanskrit": "अनिर्दिष्टा मया भिक्षा ब्राह्मणस्य प्रतिश्रुता अनपाकृत्य तां राजन् न ग्रहीष्यामि ते जराम्",
           "transliteration": "anirdiṣṭā mayā bhikṣā brāhmaṇasya pratiśrutā anapākṛtya tāṃ rājan na grahīṣyāmi te jarām",
-          "hindi": "जो माता-पिताके बड़े लाडले थे। सुभद्राके अर्जुनके सम्बन्धसे महारथी अभिमन्यु उत्पन्न हुआ। वसुदेवजीकी परम सौभाग्यशालिनी सात पत्नियोंसे जो पुत्र उत्पन्न हुए, उनके नाम बतलाता"
+          "hindi": "जो माता-पिताके बड़े लाडले थे। सुभद्राके अर्जुनके सम्बन्धसे महारथी अभिमन्यु उत्पन्न हुआ। वसुदेवजीकी परम सौभाग्यशालिनी सात पत्नियोंसे जो पुत्र उत्पन्न हुए, उनके नाम बतलाता",
+          "translation": "\"A request has been promised by me to a Brahmin without specifying; without fulfilling that, king, I shall not take your old age.",
+          "translationSource": "ai"
         },
         {
           "number": 27,
           "sanskrit": "जरायां बहवो दोषाः पानभोजनकारिताः तस्माज् जरां न ते राजन् ग्रहीतुम् अहम् उत्सहे",
           "transliteration": "jarāyāṃ bahavo doṣāḥ pānabhojanakāritāḥ tasmāj jarāṃ na te rājan grahītum aham utsahe",
-          "hindi": "हूँ; सुनो । शान्तिदेवाके भोज और विजय, सुनामाके वृकदेव और गद तथा त्रिगर्तराजकन्या वृकदेवीके महात्मा अगावह नामक पुत्र हुए।"
+          "hindi": "हूँ; सुनो । शान्तिदेवाके भोज और विजय, सुनामाके वृकदेव और गद तथा त्रिगर्तराजकन्या वृकदेवीके महात्मा अगावह नामक पुत्र हुए।",
+          "translation": "In old age there are many faults caused by drinking and eating; therefore, king, I do not dare to take your old age.",
+          "translationSource": "ai"
         },
         {
           "number": 28,
           "sanskrit": "सन्ति ते बहवः पुत्रा मत्तः प्रियतरा नृप प्रतिग्रहीतुं धर्मज्ञ पुत्रम् अन्यं वृणीष्व वै",
           "transliteration": "santi te bahavaḥ putrā mattaḥ priyatarā nṛpa pratigrahītuṃ dharmajña putram anyaṃ vṛṇīṣva vai",
-          "hindi": "क्रोष्टुके एक और पुत्र महायशस्वी वृजिनीवान्"
+          "hindi": "क्रोष्टुके एक और पुत्र महायशस्वी वृजिनीवान्",
+          "translation": "You have many sons dearer than I, king; choose another son to take it, knower of dharma.\"",
+          "translationSource": "ai"
         },
         {
           "number": 29,
           "sanskrit": "स एवम् उक्तो यदुना राजा कोपसमन्वितः उवाच वदतां श्रेष्ठो ययातिर् गर्हयन् सुतम्",
           "transliteration": "sa evam ukto yadunā rājā kopasamanvitaḥ uvāca vadatāṃ śreṣṭho yayātir garhayan sutam",
-          "hindi": "हुए। उनके पुत्र स्वाहि थे। स्वाहिके पुत्र राजा उषटु हुए, जिन्होंने प्रचुर दक्षिणावाले अनेक महायज्ञोंका अनुष्ठान किया था। उषदुके पुत्र चित्ररथ हुए, चित्ररथके शशबिन्दु, शशबिन्दुके पृथुश्रवा,"
+          "hindi": "हुए। उनके पुत्र स्वाहि थे। स्वाहिके पुत्र राजा उषटु हुए, जिन्होंने प्रचुर दक्षिणावाले अनेक महायज्ञोंका अनुष्ठान किया था। उषदुके पुत्र चित्ररथ हुए, चित्ररथके शशबिन्दु, शशबिन्दुके पृथुश्रवा,",
+          "translation": "Thus addressed by Yadu, the king, filled with anger, the best of speakers, Yayati, censuring his son, said:",
+          "translationSource": "ai"
         },
         {
           "number": 30,
           "sanskrit": "क आश्रमस् तवान्यो ऽस्ति को वा धर्मो विधीयते माम् अनादृत्य दुर्बुद्धे यद् अहं तव देशिकः",
           "transliteration": "ka āśramas tavānyo 'sti ko vā dharmo vidhīyate mām anādṛtya durbuddhe yad ahaṃ tava deśikaḥ",
-          "hindi": "पृथुश्रवाके अन्तर, अन्तरके सुयज्ञ तथा सुयज्ञके yy ,"
+          "hindi": "पृथुश्रवाके अन्तर, अन्तरके सुयज्ञ तथा सुयज्ञके yy ,",
+          "translation": "\"What other stage of life is there for you, or what dharma is prescribed, evil-minded, when you disregard me, who am your teacher?\"",
+          "translationSource": "ai"
         },
         {
           "number": 31,
           "sanskrit": "एवम् उक्त्वा यदुं विप्राः शशापैनं स मन्युमान् अराज्या ते प्रजा मूढ भवित्रीति न संशयः",
           "transliteration": "evam uktvā yaduṃ viprāḥ śaśāpainaṃ sa manyumān arājyā te prajā mūḍha bhavitrīti na saṃśayaḥ",
-          "hindi": "उषत् हुए। उषतूका अपने धर्मके प्रति बड़ा आदर था। उषतूके पुत्र शिनेयु, शिनेयुके मरुत्, मरुत्के कम्बलबर्हिष्, कम्बलबर्हिषृके रुक्मकवच, रुक्मकवचके परजित् तथा परजित्के पाँच पुत्र"
+          "hindi": "उषत् हुए। उषतूका अपने धर्मके प्रति बड़ा आदर था। उषतूके पुत्र शिनेयु, शिनेयुके मरुत्, मरुत्के कम्बलबर्हिष्, कम्बलबर्हिषृके रुक्मकवच, रुक्मकवचके परजित् तथा परजित्के पाँच पुत्र",
+          "translation": "Having thus spoken, Brahmins, in rage he cursed Yadu: \"Your people shall be without a kingdom, fool, without doubt.\"",
+          "translationSource": "ai"
         },
         {
           "number": 32,
           "sanskrit": "द्रुह्यं च तुर्वसुं चैवाप्य् अनुं च द्विजसत्तमाः एवम् एवाब्रवीद् राजा प्रत्याख्यातश् च तैर् अपि",
           "transliteration": "druhyaṃ ca turvasuṃ caivāpy anuṃ ca dvijasattamāḥ evam evābravīd rājā pratyākhyātaś ca tair api",
-          "hindi": "हुए-रुक्मेषु, पृथुरुक्म, ज्यामघ, पालित तथा हरि। पालित और हरिको पिताने विदेह प्रान्तकी रक्षामें नियुक्त कर दिया। रुक्मेषु पृथुरुक्मको सहायतासे राजा हुए। इन दोनों भाइयोंने राजा ज्यामघको"
+          "hindi": "हुए-रुक्मेषु, पृथुरुक्म, ज्यामघ, पालित तथा हरि। पालित और हरिको पिताने विदेह प्रान्तकी रक्षामें नियुक्त कर दिया। रुक्मेषु पृथुरुक्मको सहायतासे राजा हुए। इन दोनों भाइयोंने राजा ज्यामघको",
+          "translation": "The king spoke likewise to Druhyu, Turvasu and Anu, best of Brahmins, and when they too refused,",
+          "translationSource": "ai"
         },
         {
           "number": 33,
           "sanskrit": "शशाप तान् अतिक्रुद्धो ययातिर् अपराजितः यथावत् कथितं सर्वं मयास्य द्विजसत्तमाः",
           "transliteration": "śaśāpa tān atikruddho yayātir aparājitaḥ yathāvat kathitaṃ sarvaṃ mayāsya dvijasattamāḥ",
-          "hindi": "घरसे निकाल दिया। तब वे वनमें आश्रम बनाकर रहने लगे। उस समय शान्तिपरायण राजाको ब्राह्मणोंने बहुत कुछ समझाया। तब वे धनुष लेकर रथपर आरूढ हो दूसरे देशमें गये। अकेले ही नर्मदाके"
+          "hindi": "घरसे निकाल दिया। तब वे वनमें आश्रम बनाकर रहने लगे। उस समय शान्तिपरायण राजाको ब्राह्मणोंने बहुत कुछ समझाया। तब वे धनुष लेकर रथपर आरूढ हो दूसरे देशमें गये। अकेले ही नर्मदाके",
+          "translation": "the unconquered Yayati, very angry, cursed them. All has been duly told by me about this, best of Brahmins.",
+          "translationSource": "ai"
         },
         {
           "number": 34,
           "sanskrit": "एवं शप्त्वा सुतान् सर्वांश् चतुरः पुरुपूर्वजान् तद् एव वचनं राजा पुरुम् अप्य् आह भो द्विजाः",
           "transliteration": "evaṃ śaptvā sutān sarvāṃś caturaḥ purupūrvajān tad eva vacanaṃ rājā purum apy āha bho dvijāḥ",
-          "hindi": "तटपर जाकर उन्होंने मेकला, मृत्तिकावती तथा ऋक्षवान् पर्वतको जीतकर शुक्तिमती नगरीमें निवास किया  ज्यामघको पत्नी शैब्या थी, जो पतिव्रता"
+          "hindi": "तटपर जाकर उन्होंने मेकला, मृत्तिकावती तथा ऋक्षवान् पर्वतको जीतकर शुक्तिमती नगरीमें निवास किया  ज्यामघको पत्नी शैब्या थी, जो पतिव्रता",
+          "translation": "Having thus cursed all four sons older than Puru, the king said the same words to Puru, Brahmins:",
+          "translationSource": "ai"
         },
         {
           "number": 35,
           "sanskrit": "तरुणस् तव रूपेण चरेयं पृथिवीम् इमाम् जरां त्वयि समाधाय त्वं पुरो यदि मन्यसे",
           "transliteration": "taruṇas tava rūpeṇa careyaṃ pṛthivīm imām jarāṃ tvayi samādhāya tvaṃ puro yadi manyase",
-          "hindi": "उसे रथपर बैठी देख स्त्रीने पूछा-'यह कौन है ?' तब वे डरकर बोले-- यह तुम्हारी पुत्रवधू है।' यह सुनकर रानी बोली-- मेरे तो कोई पुत्र"
+          "hindi": "उसे रथपर बैठी देख स्त्रीने पूछा-'यह कौन है ?' तब वे डरकर बोले-- यह तुम्हारी पुत्रवधू है।' यह सुनकर रानी बोली-- मेरे तो कोई पुत्र",
+          "translation": "\"Young in your form, I would roam this earth, placing old age on you, Puru, if you agree.\"",
+          "translationSource": "ai"
         },
         {
           "number": 36,
           "sanskrit": "स जरां प्रतिजग्राह पितुः पुरुः प्रतापवान् ययातिर् अपि रूपेण पुरोः पर्यचरन् महीम्",
           "transliteration": "sa jarāṃ pratijagrāha pituḥ puruḥ pratāpavān yayātir api rūpeṇa puroḥ paryacaran mahīm",
-          "hindi": "नहीं, फिर यह किसकी पत्नी होनेसे पुत्रवधू हुई ?' यह सुनकर ज्यामघने कहा-- तुम्हें जो पुत्र उत्पन्न होगा, उसके लिये यह पत्नी प्रस्तुत की गयी है।' तत्पश्चात् रानी शैब्याने कठोर तपस्या करके एक"
+          "hindi": "नहीं, फिर यह किसकी पत्नी होनेसे पुत्रवधू हुई ?' यह सुनकर ज्यामघने कहा-- तुम्हें जो पुत्र उत्पन्न होगा, उसके लिये यह पत्नी प्रस्तुत की गयी है।' तत्पश्चात् रानी शैब्याने कठोर तपस्या करके एक",
+          "translation": "The mighty Puru accepted his father's old age; and Yayati roamed the earth in Puru's form.",
+          "translationSource": "ai"
         },
         {
           "number": 37,
           "sanskrit": "स मार्गमाणः कामानाम् अन्तं नृपतिसत्तमः विश्वाच्या सहितो रेमे वने चैत्ररथे प्रभुः",
           "transliteration": "sa mārgamāṇaḥ kāmānām antaṃ nṛpatisattamaḥ viśvācyā sahito reme vane caitrarathe prabhuḥ",
-          "hindi": "विदर्भ नामक पुत्र उत्पन्न किया। उसका विवाह उक्त राजकन्यासे हुआ । उसके गर्भसे क्रथ और कौशिक नामक पुत्र उत्पन्न हुए। वे दोनों बडे ही शूर तथा युद्धविशारद थे । उसके बाद विदर्भके"
+          "hindi": "विदर्भ नामक पुत्र उत्पन्न किया। उसका विवाह उक्त राजकन्यासे हुआ । उसके गर्भसे क्रथ और कौशिक नामक पुत्र उत्पन्न हुए। वे दोनों बडे ही शूर तथा युद्धविशारद थे । उसके बाद विदर्भके",
+          "translation": "Seeking the end of desires, that best of kings, the lord, played with Vishvachi in the Chaitraratha forest.",
+          "translationSource": "ai"
         },
         {
           "number": 38,
           "sanskrit": "यदा च तृप्तः कामेषु भोगेषु च नराधिपः तदा पुरोः सकाशाद् वै स्वां जरां प्रत्यपद्यत",
           "transliteration": "yadā ca tṛptaḥ kāmeṣu bhogeṣu ca narādhipaḥ tadā puroḥ sakāśād vai svāṃ jarāṃ pratyapadyata",
-          "hindi": "भीम नामक पुत्र हुआ। उसके पुत्रका नाम कुन्ति हुआ। कुन्तिसे धृष्टका जन्म हुआ, जो संग्राममें धृष्ट और प्रतापी था। धृष्टके आवन्त, दशार्ह तथा विषहर नामक तीन पुत्र हुए, जो बड़े धर्मात्मा"
+          "hindi": "भीम नामक पुत्र हुआ। उसके पुत्रका नाम कुन्ति हुआ। कुन्तिसे धृष्टका जन्म हुआ, जो संग्राममें धृष्ट और प्रतापी था। धृष्टके आवन्त, दशार्ह तथा विषहर नामक तीन पुत्र हुए, जो बड़े धर्मात्मा",
+          "translation": "When the king was satisfied with desires and pleasures, he took back his own old age from Puru.",
+          "translationSource": "ai"
         },
         {
           "number": 39,
           "sanskrit": "यत्र गाथा मुनिश्रेष्ठा गीताः किल ययातिना याभिः प्रत्याहरेत् कामान् सर्वशो ऽङ्गानि कूर्मवत्",
           "transliteration": "yatra gāthā muniśreṣṭhā gītāḥ kila yayātinā yābhiḥ pratyāharet kāmān sarvaśo 'ṅgāni kūrmavat",
-          "hindi": "होनेके साथ ही बड़ी प्रबल थी। यद्यपि राजाको  और शूरवीर थे। दशार्हके व्योमा और व्योमाके"
+          "hindi": "होनेके साथ ही बड़ी प्रबल थी। यद्यपि राजाको  और शूरवीर थे। दशार्हके व्योमा और व्योमाके",
+          "translation": "Here, best of sages, verses were sung by Yayati, by which one should withdraw desires on all sides, like a tortoise its limbs:",
+          "translationSource": "ai"
         },
         {
           "number": 40,
           "sanskrit": "न जातु कामः कामानाम् उपभोगेन शाम्यति हविषा कृष्णवर्त्मेव भूय एवाभिवर्धते",
           "transliteration": "na jātu kāmaḥ kāmānām upabhogena śāmyati haviṣā kṛṣṇavartmeva bhūya evābhivardhate",
-          "hindi": "क्रोष्टु आदिके वंशका वर्णन तथा स्यमन्तकमणिकी कथा  ४३"
+          "hindi": "क्रोष्टु आदिके वंशका वर्णन तथा स्यमन्तकमणिकी कथा  ४३",
+          "translation": "\"Desire is never quenched by the enjoyment of desires; like fire fed with ghee it only grows more.",
+          "translationSource": "ai"
         },
         {
           "number": 41,
           "sanskrit": "यत् पृथिव्यां व्रीहियवं हिरण्यं पशवः स्त्रियः नालम् एकस्य तत् सर्वम् इति कृत्वा न मुह्यति",
           "transliteration": "yat pṛthivyāṃ vrīhiyavaṃ hiraṇyaṃ paśavaḥ striyaḥ nālam ekasya tat sarvam iti kṛtvā na muhyati",
-          "hindi": "पुत्र जीमूत बतलाये जाते हैं। जीमूतके विकृति,  रूप धारण करके राजाको पतिरूपमें वरण किया। विकृतिके भीमरथ, भीमरथके नवरथ और नवरथके  राजाने भी उसको कामना को। तदनन्तर उन पुत्र दशरथ हुए। दशरथके पुत्रका नाम शकुनि  उदारबुद्धि नरेशने उसमें एक तेजस्वी गर्भकी स्थापना था। शकुनिसे करम्भ तथा करम्भसे देवरातका  को। तत्पश्चात् दसवें महीनेमें पर्णाशाने देवावृधके"
+          "hindi": "पुत्र जीमूत बतलाये जाते हैं। जीमूतके विकृति,  रूप धारण करके राजाको पतिरूपमें वरण किया। विकृतिके भीमरथ, भीमरथके नवरथ और नवरथके  राजाने भी उसको कामना को। तदनन्तर उन पुत्र दशरथ हुए। दशरथके पुत्रका नाम शकुनि  उदारबुद्धि नरेशने उसमें एक तेजस्वी गर्भकी स्थापना था। शकुनिसे करम्भ तथा करम्भसे देवरातका  को। तत्पश्चात् दसवें महीनेमें पर्णाशाने देवावृधके",
+          "translation": "All the rice and barley on earth, gold, cattle and women are not enough for one man; knowing this, one is not deluded.",
+          "translationSource": "ai"
         },
         {
           "number": 42,
           "sanskrit": "यदा भावं न कुरुते सर्वभूतेषु पापकम् कर्मणा मनसा वाचा ब्रह्म संपद्यते तदा",
           "transliteration": "yadā bhāvaṃ na kurute sarvabhūteṣu pāpakam karmaṇā manasā vācā brahma saṃpadyate tadā",
-          "hindi": "जन्म हुआ। देवरातके पुत्र देवक्षत्र तथा देवक्षत्रके  सर्वगुणसम्मन्न पुत्र बभ्रुको जन्म दिया। इस वंशके महायशस्वी वृद्धक्षत्र हुए। वे देवकुमारके समान  विषयमें पुराणोंके ज्ञाता देवावृधके गुणोंका बखान"
+          "hindi": "जन्म हुआ। देवरातके पुत्र देवक्षत्र तथा देवक्षत्रके  सर्वगुणसम्मन्न पुत्र बभ्रुको जन्म दिया। इस वंशके महायशस्वी वृद्धक्षत्र हुए। वे देवकुमारके समान  विषयमें पुराणोंके ज्ञाता देवावृधके गुणोंका बखान",
+          "translation": "When one bears no evil feeling toward any being in deed, mind or speech, then one attains Brahman.",
+          "translationSource": "ai"
         },
         {
           "number": 43,
           "sanskrit": "यदा तेभ्यो न बिभेति यदा चास्मान् न बिभ्यति यदा नेच्छति न द्वेष्टि ब्रह्म संपद्यते तदा",
           "transliteration": "yadā tebhyo na bibheti yadā cāsmān na bibhyati yadā necchati na dveṣṭi brahma saṃpadyate tadā",
-          "hindi": "कान्तिमान् थे। इनके सिवा मधुरभाषी राजा मधुका भी जन्म हुआ, जो मधुवंशके प्रवर्तक थे। मधुके उनकी पत्नी वैदर्भीसे नरश्रेष्ठ पुरुद्दानकी उत्पत्ति हुई। मधुको दूसरी पत्नी इक्ष्वाकुवंशको कन्या"
+          "hindi": "कान्तिमान् थे। इनके सिवा मधुरभाषी राजा मधुका भी जन्म हुआ, जो मधुवंशके प्रवर्तक थे। मधुके उनकी पत्नी वैदर्भीसे नरश्रेष्ठ पुरुद्दानकी उत्पत्ति हुई। मधुको दूसरी पत्नी इक्ष्वाकुवंशको कन्या",
+          "translation": "When one fears none and none fear him, when he neither desires nor hates, then he attains Brahman.",
+          "translationSource": "ai"
         },
         {
           "number": 44,
           "sanskrit": "या दुस्त्यजा दुर्मतिभिर् या न जीर्यति जीर्यतः यो ऽसौ प्राणान्तिको रोगस् तां तृष्णां त्यजतः सुखम्",
           "transliteration": "yā dustyajā durmatibhir yā na jīryati jīryataḥ yo 'sau prāṇāntiko rogas tāṃ tṛṣṇāṃ tyajataḥ sukham",
-          "hindi": "थी। उससे सर्वगुणसम्पन्न सत्त्वान् हुए, जो सात्त्वत कुलको कीर्तिको बढ़ानेवाले थे।"
+          "hindi": "थी। उससे सर्वगुणसम्पन्न सत्त्वान् हुए, जो सात्त्वत कुलको कीर्तिको बढ़ानेवाले थे।",
+          "translation": "The craving that is hard for the dull-witted to abandon, that does not age with one who ages, that is a disease ending in death: for one who gives it up there is happiness.",
+          "translationSource": "ai"
         },
         {
           "number": 45,
           "sanskrit": "जीर्यन्ति जीर्यतः केशा दन्ता जीर्यन्ति जीर्यतः धनाशा जीविताशा च जीर्यतो ऽपि न जीर्यति",
           "transliteration": "jīryanti jīryataḥ keśā dantā jīryanti jīryataḥ dhanāśā jīvitāśā ca jīryato 'pi na jīryati",
-          "hindi": "सत्त्वान्से सत्त्वगुणसम्पन्ना कोसल्याने भजमान, देवावृध, अन्धक तथा वृष्णि नामक पुत्र उत्पन्न किये। इनके चार कुल यहाँ विस्तारपूर्वक बतलाये गये हैं। भजमानके दो स्त्रियाँ थीं। एकका नाम"
+          "hindi": "सत्त्वान्से सत्त्वगुणसम्पन्ना कोसल्याने भजमान, देवावृध, अन्धक तथा वृष्णि नामक पुत्र उत्पन्न किये। इनके चार कुल यहाँ विस्तारपूर्वक बतलाये गये हैं। भजमानके दो स्त्रियाँ थीं। एकका नाम",
+          "translation": "As one ages the hair ages, the teeth age; the hope for wealth and the hope for life do not age even as the body ages.",
+          "translationSource": "ai"
         },
         {
           "number": 46,
           "sanskrit": "यच् च कामसुखं लोके यच् च दिव्यं महत् सुखम् तृष्णाक्षयसुखस्यैते नार्हन्ति षोडशीं कलाम्",
           "transliteration": "yac ca kāmasukhaṃ loke yac ca divyaṃ mahat sukham tṛṣṇākṣayasukhasyaite nārhanti ṣoḍaśīṃ kalām",
-          "hindi": "था बाह्यकसृञ्जयी और दूसरीका उपबाह्यकसृञ्जयी।"
+          "hindi": "था बाह्यकसृञ्जयी और दूसरीका उपबाह्यकसृञ्जयी।",
+          "translation": "The pleasure of desire in the world and the great divine pleasure do not equal a sixteenth part of the happiness of the extinction of craving.\"",
+          "translationSource": "ai"
         },
         {
           "number": 47,
           "sanskrit": "एवम् उक्त्वा स राजर्षिः सदारः प्राविशद् वनम् कालेन महता चायं चचार विपुलं तपः",
           "transliteration": "evam uktvā sa rājarṣiḥ sadāraḥ prāviśad vanam kālena mahatā cāyaṃ cacāra vipulaṃ tapaḥ",
-          "hindi": "करते हुए निम्नाङ्कित प्रसिद्ध गाथाका गान करते हैं। 'हम जैसे आगे देखते हैं, वैसे ही दूर और निकट भी देखते हैं। हमारी दृष्टिमें बभ्रु सब मनुष्योंमें श्रेष्ठ हैं और देवावृध तो देवताओंके तुल्य हें । बभ्रु"
+          "hindi": "करते हुए निम्नाङ्कित प्रसिद्ध गाथाका गान करते हैं। 'हम जैसे आगे देखते हैं, वैसे ही दूर और निकट भी देखते हैं। हमारी दृष्टिमें बभ्रु सब मनुष्योंमें श्रेष्ठ हैं और देवावृध तो देवताओंके तुल्य हें । बभ्रु",
+          "translation": "Having said this, the royal sage entered the forest with his wife and for a long time practised vast austerity.",
+          "translationSource": "ai"
         },
         {
           "number": 48,
           "sanskrit": "भृगुतुङ्गे गतिं प्राप तपसो ऽन्ते महायशाः अनश्नन् देहम् उत्सृज्य सदारः स्वर्गम् आप्तवान्",
           "transliteration": "bhṛgutuṅge gatiṃ prāpa tapaso 'nte mahāyaśāḥ anaśnan deham utsṛjya sadāraḥ svargam āptavān",
-          "hindi": "और देवावृधके सम्पर्कमें आकर एक हजार चौहत्तर मनुष्य अमृतत्वको प्राप्त हो चुके हैं।'"
+          "hindi": "और देवावृधके सम्पर्कमें आकर एक हजार चौहत्तर मनुष्य अमृतत्वको प्राप्त हो चुके हैं।'",
+          "translation": "At the end of his austerity the greatly famed one attained his goal at Bhrigutunga; fasting, he gave up his body and with his wife attained heaven.",
+          "translationSource": "ai"
         },
         {
           "number": 49,
           "sanskrit": "तस्य वंशे मुनिश्रेष्ठाः पञ्च राजर्षिसत्तमाः यैर् व्याप्ता पृथिवी सर्वा सूर्यस्येव गभस्तिभिः",
           "transliteration": "tasya vaṃśe muniśreṣṭhāḥ pañca rājarṣisattamāḥ yair vyāptā pṛthivī sarvā sūryasyeva gabhastibhiḥ",
-          "hindi": "बभ्रुका वंश बहुत बड़ा था। उसमें सब-के- सब यज्ञपरायण, महादानी, बुद्धिमान्, ब्राह्मणभक्त तथा सुदृढ आयुध धारण करनेवाले थे। मृत्तिकावती- पुरीम भोजवंशके क्षत्रिय रहते थे। अन्धकसे काश्यकी"
+          "hindi": "बभ्रुका वंश बहुत बड़ा था। उसमें सब-के- सब यज्ञपरायण, महादानी, बुद्धिमान्, ब्राह्मणभक्त तथा सुदृढ आयुध धारण करनेवाले थे। मृत्तिकावती- पुरीम भोजवंशके क्षत्रिय रहते थे। अन्धकसे काश्यकी",
+          "translation": "In his line, best of sages, there were five best of royal sages, by whom the entire earth was pervaded as by the rays of the sun.",
+          "translationSource": "ai"
         },
         {
           "number": 50,
           "sanskrit": "यदोस् तु वंशं वक्ष्यामि शृणुध्वं राजसत्कृतम् यत्र नारायणो जज्ञे हरिर् वृष्णिकुलोद्वहः",
           "transliteration": "yados tu vaṃśaṃ vakṣyāmi śṛṇudhvaṃ rājasatkṛtam yatra nārāyaṇo jajñe harir vṛṣṇikulodvahaḥ",
-          "hindi": "उन दोनोंके गर्भसे बहुत-से पुत्र हुए। क्रिमि, क्रमण,  शशक और बलबहिंष्। कुकुरके पुत्र वृष्टि, वृष्टिके धृष्ट शूर तथा पुरञ्जय--ये भजमानके बाह्यकसुञ्जयीसे  कपोतरोमा, कपोतरोमाके तित्तिरि, उसके पुनर्वसु, उत्पन्न हुए पुत्र थे। अयुताजित्, सहसत्राजित्, शताजित्  पुनर्वसुके अभिजित् तथा अभिजित्के आहुक एवं और दासक-ये भजमानद्वारा उपबाह्यकसुञ्जयीके  श्राहुक नाम दो जुड़वाँ पुत्र हुए। इनके विषयमें"
+          "hindi": "उन दोनोंके गर्भसे बहुत-से पुत्र हुए। क्रिमि, क्रमण,  शशक और बलबहिंष्। कुकुरके पुत्र वृष्टि, वृष्टिके धृष्ट शूर तथा पुरञ्जय--ये भजमानके बाह्यकसुञ्जयीसे  कपोतरोमा, कपोतरोमाके तित्तिरि, उसके पुनर्वसु, उत्पन्न हुए पुत्र थे। अयुताजित्, सहसत्राजित्, शताजित्  पुनर्वसुके अभिजित् तथा अभिजित्के आहुक एवं और दासक-ये भजमानद्वारा उपबाह्यकसुञ्जयीके  श्राहुक नाम दो जुड़वाँ पुत्र हुए। इनके विषयमें",
+          "translation": "Now I shall tell the lineage of Yadu, honoured by kings; listen: in it Narayana was born, Hari, the upholder of the Vrishni family.",
+          "translationSource": "ai"
         },
         {
           "number": 51,
           "sanskrit": "सुस्थः प्रजावान् आयुष्मान् कीर्तिमांश् च भवेन् नरः ययातिचरितं नित्यम् इदं शृण्वन् द्विजोत्तमाः",
           "transliteration": "susthaḥ prajāvān āyuṣmān kīrtimāṃś ca bhaven naraḥ yayāticaritaṃ nityam idaṃ śṛṇvan dvijottamāḥ",
-          "hindi": "गर्भसे उत्पन्न हुए पुत्र थे। राजा देवावृध यज्ञपरायण  ऐसी गाथा प्रसिद्ध हे-' आहुक किशोरावस्थाके रहते थे। उन्होंने सर्वगुणसम्मन्न पुत्र होनेके उद्देश्यसे समान आकृतिवाले थे। वे अस्सी कवच धारण भारी तपस्या की । तपस्यामें संलग्न होकर वे पर्णाशाके  किये हुए अपने श्वेतवर्णवाले परिवारके साथ पहले जलका आचमन करते थे। सदा ऐसा ही करनेके  यात्रा करते थे। जो भोजवंशी आहुकके दोनों ओर"
+          "hindi": "गर्भसे उत्पन्न हुए पुत्र थे। राजा देवावृध यज्ञपरायण  ऐसी गाथा प्रसिद्ध हे-' आहुक किशोरावस्थाके रहते थे। उन्होंने सर्वगुणसम्मन्न पुत्र होनेके उद्देश्यसे समान आकृतिवाले थे। वे अस्सी कवच धारण भारी तपस्या की । तपस्यामें संलग्न होकर वे पर्णाशाके  किये हुए अपने श्वेतवर्णवाले परिवारके साथ पहले जलका आचमन करते थे। सदा ऐसा ही करनेके  यात्रा करते थे। जो भोजवंशी आहुकके दोनों ओर",
+          "translation": "A man who constantly hears this account of Yayati, best of Brahmins, becomes healthy, rich in offspring, long-lived and famous.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -4682,397 +4850,529 @@
           "number": 47,
           "sanskrit": "नाम्ना जयद्रथं नाम यस्माद् दृढरथो नृपः आसीद् दृढरथस्यापि विश्वजिज् जनमेजयी",
           "transliteration": "nāmnā jayadrathaṃ nāma yasmād dṛḍharatho nṛpaḥ āsīd dṛḍharathasyāpi viśvajij janamejayī",
-          "hindi": "युद्ध कर रहा था। सौ योजनका मार्ग वेगसे ते करनेके कारण वह घोड़ी थककर शिथिल हो गयी। यह देख भगवान् श्रीकृष्णने बलरामजीसे कहा--' महाबाहो! आप यहीं खड़े रहेँ । मैंने उस"
+          "hindi": "युद्ध कर रहा था। सौ योजनका मार्ग वेगसे ते करनेके कारण वह घोड़ी थककर शिथिल हो गयी। यह देख भगवान् श्रीकृष्णने बलरामजीसे कहा--' महाबाहो! आप यहीं खड़े रहेँ । मैंने उस",
+          "translation": "named Jayadratha; hence the king was Dridharatha. Dridharatha's son was Vishvajit, Janamejaya.",
+          "translationSource": "ai"
         },
         {
           "number": 48,
           "sanskrit": "दायादस् तस्य वैकर्णो विकर्णस् तस्य चात्मजः तस्य पुत्रशतं त्व् आसीद् अङ्गानां कुलवर्धनम्",
           "transliteration": "dāyādas tasya vaikarṇo vikarṇas tasya cātmajaḥ tasya putraśataṃ tv āsīd aṅgānāṃ kulavardhanam",
-          "hindi": "घोड़ीकी कमजोरी देख ली है। अब तो में पैदल ही जाकर मणिरत्र स्यमन्तकको छीन लाऊँगा' यह कहकर भगवान् पैदल ही शतधन्वाके पास गये और मिथिलाके समीप उन्होंने उसका वध"
+          "hindi": "घोड़ीकी कमजोरी देख ली है। अब तो में पैदल ही जाकर मणिरत्र स्यमन्तकको छीन लाऊँगा' यह कहकर भगवान् पैदल ही शतधन्वाके पास गये और मिथिलाके समीप उन्होंने उसका वध",
+          "translation": "His heir was Vaikarna; Vikarna was his son. He had a hundred sons, increasers of the family of the Angas.",
+          "translationSource": "ai"
         },
         {
           "number": 49,
           "sanskrit": "एते ऽङ्गवंशजाः सर्वे राजानः कीर्तिता मया सत्यव्रता महात्मानः प्रजावन्तो महारथाः",
           "transliteration": "ete 'ṅgavaṃśajāḥ sarve rājānaḥ kīrtitā mayā satyavratā mahātmānaḥ prajāvanto mahārathāḥ",
-          "hindi": "कर डाला, परंतु उसके पास स्यमन्तक नहीं दिखायी दिया। महाबली शतधन्वाको मारकर जब श्रीकृष्ण लौटे, तब बलरामजीने कहा--' मणि"
+          "hindi": "कर डाला, परंतु उसके पास स्यमन्तक नहीं दिखायी दिया। महाबली शतधन्वाको मारकर जब श्रीकृष्ण लौटे, तब बलरामजीने कहा--' मणि",
+          "translation": "All these kings born in the Anga lineage have been told by me: truthful, great-souled, rich in offspring, great charioteers.",
+          "translationSource": "ai"
         },
         {
           "number": 50,
           "sanskrit": "ऋचेयोस् तु मुनिश्रेष्ठा रौद्राश्वतनयस्य वै शृणुध्वं संप्रवक्ष्यामि वंशं राज्ञस् तु भो द्विजाः",
           "transliteration": "ṛceyos tu muniśreṣṭhā raudrāśvatanayasya vai śṛṇudhvaṃ saṃpravakṣyāmi vaṃśaṃ rājñas tu bho dvijāḥ",
-          "hindi": "जम्बूद्धीप तथा उसके विभिन्न वर्षोसहित भारतवर्षका वर्णन"
+          "hindi": "जम्बूद्धीप तथा उसके विभिन्न वर्षोसहित भारतवर्षका वर्णन",
+          "translation": "Best of sages, now listen: I shall tell the lineage of Riceyu, son of Raudrashva, Brahmins.",
+          "translationSource": "ai"
         },
         {
           "number": 51,
           "sanskrit": "ऋचेयोस् तनयो राजा मतिनारो महीपतिः मतिनारसुतास् त्व् आसंस् त्रयः परमधार्मिकाः",
           "transliteration": "ṛceyos tanayo rājā matināro mahīpatiḥ matinārasutās tv āsaṃs trayaḥ paramadhārmikāḥ",
-          "hindi": "मुझको दे दो।' भगवान् श्रीकृष्णने उत्तर दिया-- “मणि नहीं मिली।' कुछ दिनके बाद नरश्रेष्ठ अक्रूर अन्धकवंशी वीरोंके साथ द्वारकामें लौट"
+          "hindi": "मुझको दे दो।' भगवान् श्रीकृष्णने उत्तर दिया-- “मणि नहीं मिली।' कुछ दिनके बाद नरश्रेष्ठ अक्रूर अन्धकवंशी वीरोंके साथ द्वारकामें लौट",
+          "translation": "Riceyu's son was the king Matinara; Matinara had three sons, exceedingly righteous:",
+          "translationSource": "ai"
         },
         {
           "number": 52,
           "sanskrit": "वसुरोधः प्रतिरथः सुबाहुश् चैव धार्मिकः सर्वे वेदविदश् चैव ब्रह्मण्याः सत्यवादिनः",
           "transliteration": "vasurodhaḥ pratirathaḥ subāhuś caiva dhārmikaḥ sarve vedavidaś caiva brahmaṇyāḥ satyavādinaḥ",
-          "hindi": "आये। भगवान् श्रीकृष्णने योगके द्वारा यह जान ; लिया कि मणि वास्तवमें अक्रूरके ही पास है। तब उन्होंने सभामें बैठकर अक्रूरसे कहा-' आर्य!  तत मणिश्रेष्ठ स्यमन्तक आपके हाथ लग गया है । उसे"
+          "hindi": "आये। भगवान् श्रीकृष्णने योगके द्वारा यह जान ; लिया कि मणि वास्तवमें अक्रूरके ही पास है। तब उन्होंने सभामें बैठकर अक्रूरसे कहा-' आर्य!  तत मणिश्रेष्ठ स्यमन्तक आपके हाथ लग गया है । उसे",
+          "translation": "Vasurodha, Pratiratha and the righteous Subahu, all knowers of the Vedas, devoted to Brahmins, speakers of truth.",
+          "translationSource": "ai"
         },
         {
           "number": 53,
           "sanskrit": "इला नाम तु यस्यासीत् कन्या वै मुनिसत्तमाः ब्रह्मवादिन्य् अधिस्त्री सा तंसुस् ताम् अभ्यगच्छत",
           "transliteration": "ilā nāma tu yasyāsīt kanyā vai munisattamāḥ brahmavādiny adhistrī sā taṃsus tām abhyagacchata",
-          "hindi": "मुझे दे दीजिये। उसकी प्रतीक्षामे बहुत समय"
+          "hindi": "मुझे दे दीजिये। उसकी प्रतीक्षामे बहुत समय",
+          "translation": "He had a daughter named Ila, best of sages, a Brahman-speaker, a pre-eminent woman; Tamsu approached her.",
+          "translationSource": "ai"
         },
         {
           "number": 54,
           "sanskrit": "तंसोः सुतो ऽथ राजर्षिर् धर्मनेत्रः प्रतापवान् ब्रह्मवादी पराक्रान्तस् तस्य भार्योपदानवी",
           "transliteration": "taṃsoḥ suto 'tha rājarṣir dharmanetraḥ pratāpavān brahmavādī parākrāntas tasya bhāryopadānavī",
-          "hindi": "व्यतीत हो चुका है।' सम्पूर्ण यादवोंको सभामें श्रीकृष्णके यों कहनेपर महामति अक्रूरजीने बिना किसी कष्टके वह मणि"
+          "hindi": "व्यतीत हो चुका है।' सम्पूर्ण यादवोंको सभामें श्रीकृष्णके यों कहनेपर महामति अक्रूरजीने बिना किसी कष्टके वह मणि",
+          "translation": "Tamsu's son was the royal sage Dharmanetra, mighty, a Brahman-speaker, valiant; his wife was Upadanavi.",
+          "translationSource": "ai"
         },
         {
           "number": 55,
           "sanskrit": "उपदानवी ततः पुत्रांश् चतुरो ऽजनयच् छुबान् दुष्यन्तम् अथ सुष्मन्तं प्रवीरम् अनघं तथा",
           "transliteration": "upadānavī tataḥ putrāṃś caturo 'janayac chubān duṣyantam atha suṣmantaṃ pravīram anaghaṃ tathā",
-          "hindi": "दे दी। सरलतासे उसकी प्राप्ति हो जानेपर भगवान्"
+          "hindi": "दे दी। सरलतासे उसकी प्राप्ति हो जानेपर भगवान्",
+          "translation": "Then Upadanavi bore four auspicious sons: Dushyanta, Sushmanta, Pravira and the blameless Anagha.",
+          "translationSource": "ai"
         },
         {
           "number": 56,
           "sanskrit": "दुष्यन्तस्य तु दायादो भरतो नाम वीर्यवान् स सर्वदमनो नाम नागायुतबलो महान्",
           "transliteration": "duṣyantasya tu dāyādo bharato nāma vīryavān sa sarvadamano nāma nāgāyutabalo mahān",
-          "hindi": "श्रीकृष्ण बहुत प्रसन्न हुए और उन्होंने बह मणि फिर अङ्रूरको ही लौटा दी। भगवान् श्रीकृष्णके हाथसे प्राप्त हुए मणिरल्र स्यमन्तकको गलेमें पहनकर"
+          "hindi": "श्रीकृष्ण बहुत प्रसन्न हुए और उन्होंने बह मणि फिर अङ्रूरको ही लौटा दी। भगवान् श्रीकृष्णके हाथसे प्राप्त हुए मणिरल्र स्यमन्तकको गलेमें पहनकर",
+          "translation": "Dushyanta's heir was the valiant Bharata, named Sarvadamana, great, with the strength of ten thousand elephants.",
+          "translationSource": "ai"
         },
         {
           "number": 57,
           "sanskrit": "चक्रवर्ती सुतो जज्ञे दुष्यन्तस्य महात्मनः शकुन्तलायां भरतो यस्य नाम्ना तु भारताः",
           "transliteration": "cakravartī suto jajñe duṣyantasya mahātmanaḥ śakuntalāyāṃ bharato yasya nāmnā tu bhāratāḥ",
-          "hindi": "अक्रूर सूर्यकी भाँति प्रकाशित होने लगे।"
+          "hindi": "अक्रूर सूर्यकी भाँति प्रकाशित होने लगे।",
+          "translation": "A universal emperor was born as the son of the great-souled Dushyanta on Shakuntala: Bharata, by whose name the Bharatas are called.",
+          "translationSource": "ai"
         },
         {
           "number": 58,
           "sanskrit": "भरतस्य विनष्टेषु तनयेषु महीपतेः मातॄणां तु प्रकोपेण मया तत् कथितं पुरा",
           "transliteration": "bharatasya vinaṣṭeṣu tanayeṣu mahīpateḥ mātṝṇāṃ tu prakopeṇa mayā tat kathitaṃ purā",
-          "hindi": "जम्बूद्वीप तथा उसके विभिन्न वर्षोसहित भारतवर्षका वर्णन"
+          "hindi": "जम्बूद्वीप तथा उसके विभिन्न वर्षोसहित भारतवर्षका वर्णन",
+          "translation": "When the sons of King Bharata were destroyed through the anger of their mothers, that was told by me before.",
+          "translationSource": "ai"
         },
         {
           "number": 59,
           "sanskrit": "बृहस्पतेर् अङ्गिरसः पुत्रो विप्रो महामुनिः अयाजयद् भरद्वाजो महद्भिः क्रतुभिर् विभुः",
           "transliteration": "bṛhaspater aṅgirasaḥ putro vipro mahāmuniḥ ayājayad bharadvājo mahadbhiḥ kratubhir vibhuḥ",
-          "hindi": "मुनियोंने कहा--अहो! आपने समस्त भरतवंशी  है, जिसकी ऊँचाई चौरासी हजार योजन है। वह राजाओंका यह बहुत बड़ा इतिहास कह सुनाया।  पृथ्वीकै भीतर सोलह हजार योजनतक चला गया अब हम समस्त भूमण्डलका वर्णन सुनना चाहते  है तथा उसके शिखरको चौड़ाई बत्तीस हजार हैं। जितने समुद्र, द्वीप, वर्ष, पर्वत, बन, नदियाँ  योजन है। उसके मूलका विस्तार सोलह हजार"
+          "hindi": "मुनियोंने कहा--अहो! आपने समस्त भरतवंशी  है, जिसकी ऊँचाई चौरासी हजार योजन है। वह राजाओंका यह बहुत बड़ा इतिहास कह सुनाया।  पृथ्वीकै भीतर सोलह हजार योजनतक चला गया अब हम समस्त भूमण्डलका वर्णन सुनना चाहते  है तथा उसके शिखरको चौड़ाई बत्तीस हजार हैं। जितने समुद्र, द्वीप, वर्ष, पर्वत, बन, नदियाँ  योजन है। उसके मूलका विस्तार सोलह हजार",
+          "translation": "The Brahmin great sage Bharadvaja, son of Angiras Brihaspati, the lord, officiated at great sacrifices.",
+          "translationSource": "ai"
         },
         {
           "number": 60,
           "sanskrit": "पूर्वं तु वितथे तस्य कृते वै पुत्रजन्मनि ततो ऽथ वितथो नाम भरद्वाजात् सुतो ऽभवत्",
           "transliteration": "pūrvaṃ tu vitathe tasya kṛte vai putrajanmani tato 'tha vitatho nāma bharadvājāt suto 'bhavat",
-          "hindi": "तथा पवित्र देवताओंके स्थान हैं, समस्त भूतलका  योजन है। वह पर्वत पृथ्वीरूपी कमलकी कर्णिकाके"
+          "hindi": "तथा पवित्र देवताओंके स्थान हैं, समस्त भूतलका  योजन है। वह पर्वत पृथ्वीरूपी कमलकी कर्णिकाके",
+          "translation": "Earlier, when the birth of a son was in vain, then Vitatha was born as a son from Bharadvaja.",
+          "translationSource": "ai"
         },
         {
           "number": 61,
           "sanskrit": "ततो ऽथ वितथे जाते भरतस् तु दिवं ययौ वितथं चाभिषिच्याथ भरद्वाजो वनं ययौ",
           "transliteration": "tato 'tha vitathe jāte bharatas tu divaṃ yayau vitathaṃ cābhiṣicyātha bharadvājo vanaṃ yayau",
-          "hindi": "मान जितना बड़ा है, जिसके आधारपर यह टिका हुआ है तथा जो इसका उपादान कारण है, वह सब यधथार्थरूपसे बतलाइये।"
+          "hindi": "मान जितना बड़ा है, जिसके आधारपर यह टिका हुआ है तथा जो इसका उपादान कारण है, वह सब यधथार्थरूपसे बतलाइये।",
+          "translation": "When Vitatha was born, Bharata went to heaven; Bharadvaja consecrated Vitatha and went to the forest.",
+          "translationSource": "ai"
         },
         {
           "number": 62,
           "sanskrit": "स चापि वितथः पुत्राञ् जनयाम् आस पञ्च वै सुहोत्रं च सुहोतारं गयं गर्गं तथैव च",
           "transliteration": "sa cāpi vitathaḥ putrāñ janayām āsa pañca vai suhotraṃ ca suhotāraṃ gayaṃ gargaṃ tathaiva ca",
-          "hindi": "लोमहर्षणजी बोले--मुनिवरो! सुनो, मैं इस भूमण्डलका वृत्तान्त संक्षेपमें सुनाता हूँ। जम्बू, प्लक्ष, शाल्मल, कुश, क्रौञ्च, शाक तथा पुष्कर ये सात द्वीप हैं, जो क्रमशः-लवण, इक्षुरस,"
+          "hindi": "लोमहर्षणजी बोले--मुनिवरो! सुनो, मैं इस भूमण्डलका वृत्तान्त संक्षेपमें सुनाता हूँ। जम्बू, प्लक्ष, शाल्मल, कुश, क्रौञ्च, शाक तथा पुष्कर ये सात द्वीप हैं, जो क्रमशः-लवण, इक्षुरस,",
+          "translation": "That Vitatha begot five sons: Suhotra, Suhotar, Gaya, Garga,",
+          "translationSource": "ai"
         },
         {
           "number": 63,
           "sanskrit": "कपिलं च महात्मानं सुहोत्रस्य सुतद्वयम् काशिकं च महासत्यं तथा गृत्समतिं नृपम्",
           "transliteration": "kapilaṃ ca mahātmānaṃ suhotrasya sutadvayam kāśikaṃ ca mahāsatyaṃ tathā gṛtsamatiṃ nṛpam",
-          "hindi": "सुरा, घृत, दधि, दुग्ध तथा जलरूप सात समुद्रोंसे घिरे हुए हैं। इन सबके बीचमें जम्बूद्वीपकी स्थिति है। उसके मध्यभागमें सुवर्णमय मेरुपर्वत"
+          "hindi": "सुरा, घृत, दधि, दुग्ध तथा जलरूप सात समुद्रोंसे घिरे हुए हैं। इन सबके बीचमें जम्बूद्वीपकी स्थिति है। उसके मध्यभागमें सुवर्णमय मेरुपर्वत",
+          "translation": "and the great-souled Kapila; Suhotra's two sons: Kashika and the great truthful king Gritsamati.",
+          "translationSource": "ai"
         },
         {
           "number": 64,
           "sanskrit": "तथा गृत्समतेः पुत्रा ब्राह्मणाः क्षत्रिया विशः काशिकस्य तु काशेयः पुत्रो दीर्घतपास् तथा",
           "transliteration": "tathā gṛtsamateḥ putrā brāhmaṇāḥ kṣatriyā viśaḥ kāśikasya tu kāśeyaḥ putro dīrghatapās tathā",
-          "hindi": "रूपमें स्थित है। उसके दक्षिणमें हिमवान्, हेमकूट और निषध पर्वत हें तथा उत्तरमें नील, श्वेत और शृङ्गवान् गिरि हें । मध्यके दो पर्वत (निषध और नील) एक-एक लाख योजन लंबे हैं। शेष पर्वत"
+          "hindi": "रूपमें स्थित है। उसके दक्षिणमें हिमवान्, हेमकूट और निषध पर्वत हें तथा उत्तरमें नील, श्वेत और शृङ्गवान् गिरि हें । मध्यके दो पर्वत (निषध और नील) एक-एक लाख योजन लंबे हैं। शेष पर्वत",
+          "translation": "Gritsamati's sons were Brahmins, Kshatriyas and Vaishyas; Kashika's son was Kasheya, and Dirghatapas.",
+          "translationSource": "ai"
         },
         {
           "number": 65,
           "sanskrit": "बभूव दीर्घतपसो विद्वान् धन्वन्तरिः सुतः धन्वन्तरेस् तु तनयः केतुमान् इति विश्रुतः",
           "transliteration": "babhūva dīrghatapaso vidvān dhanvantariḥ sutaḥ dhanvantares tu tanayaḥ ketumān iti viśrutaḥ",
-          "hindi": "क्रमशः दस-दस हजार योजन छोटे होते गये हैं। उन सबकी ऊँचाई और चौडाई दो-दो हजार योजन है। मेरुके दक्षिणमें भारतवर्ष है। उससे उत्तर किम्पुरुषवर्ष तथा उससे भी उत्तर हरिवर्ष"
+          "hindi": "क्रमशः दस-दस हजार योजन छोटे होते गये हैं। उन सबकी ऊँचाई और चौडाई दो-दो हजार योजन है। मेरुके दक्षिणमें भारतवर्ष है। उससे उत्तर किम्पुरुषवर्ष तथा उससे भी उत्तर हरिवर्ष",
+          "translation": "Dirghatapas had a learned son, Dhanvantari; Dhanvantari's son was renowned as Ketuman.",
+          "translationSource": "ai"
         },
         {
           "number": 66,
           "sanskrit": "तथा केतुमतः पुत्रो विद्वान् भीमरथः स्मृतः पुत्रो भीमरथस्यापि वाराणस्यधिपो ऽभवत्",
           "transliteration": "tathā ketumataḥ putro vidvān bhīmarathaḥ smṛtaḥ putro bhīmarathasyāpi vārāṇasyadhipo 'bhavat",
-          "hindi": "है। इसी प्रकार मेरुके उत्तर भागमें सबके अन्तमें रम्यकवर्ष, उससे दक्षिण हिरण्मयवर्ष तथा उससे"
+          "hindi": "है। इसी प्रकार मेरुके उत्तर भागमें सबके अन्तमें रम्यकवर्ष, उससे दक्षिण हिरण्मयवर्ष तथा उससे",
+          "translation": "Ketuman's son is remembered as the learned Bhimaratha; Bhimaratha's son became ruler of Varanasi,",
+          "translationSource": "ai"
         },
         {
           "number": 67,
           "sanskrit": "दिवोदास इति ख्यातः सर्वक्षत्रप्रणाशनः दिवोदासस्य पुत्रस् तु वीरो राजा प्रतर्दनः",
           "transliteration": "divodāsa iti khyātaḥ sarvakṣatrapraṇāśanaḥ divodāsasya putras tu vīro rājā pratardanaḥ",
-          "hindi": "भी दक्षिण उत्तरकुरु है। इन छहों वर्षोके बीचमें  ऋषभ, हंस, नाग तथा कालञ्जर आदि अन्य पर्वत इलावृतवर्ष है, जिसके मध्यभागमें सुवर्णमय ऊँचा  उत्तरभागके केसराचल हें । मेरुगिरिके ऊपर चौदह"
+          "hindi": "भी दक्षिण उत्तरकुरु है। इन छहों वर्षोके बीचमें  ऋषभ, हंस, नाग तथा कालञ्जर आदि अन्य पर्वत इलावृतवर्ष है, जिसके मध्यभागमें सुवर्णमय ऊँचा  उत्तरभागके केसराचल हें । मेरुगिरिके ऊपर चौदह",
+          "translation": "famed as Divodasa, destroyer of all Kshatriyas. Divodasa's son was the hero king Pratardana.",
+          "translationSource": "ai"
         },
         {
           "number": 68,
           "sanskrit": "प्रतर्दनस्य पुत्रौ द्वौ वत्सो भार्गव एव च अलर्को राजपुत्रस् तु राजा सन्मतिमान् भुवि",
           "transliteration": "pratardanasya putrau dvau vatso bhārgava eva ca alarko rājaputras tu rājā sanmatimān bhuvi",
-          "hindi": "मेरुपर्वत खडा है। यह वर्ष मेरुके चारों ओर नौ हजार योजनतक फैला हुआ है । उसमें मेरुसे पूर्व मन्दराचल, दक्षिणमें गन्धमादन, पश्चिममें विपुल तथा उत्तरमें सुपार्थपर्वतकी स्थिति है । इन चारों"
+          "hindi": "मेरुपर्वत खडा है। यह वर्ष मेरुके चारों ओर नौ हजार योजनतक फैला हुआ है । उसमें मेरुसे पूर्व मन्दराचल, दक्षिणमें गन्धमादन, पश्चिममें विपुल तथा उत्तरमें सुपार्थपर्वतकी स्थिति है । इन चारों",
+          "translation": "Pratardana had two sons, Vatsa and Bhargava; Alarka was a king's son, a king thought well of on earth.",
+          "translationSource": "ai"
         },
         {
           "number": 69,
           "sanskrit": "हैहयस्य तु दायाद्यं हृतवान् वै महीपतिः आजह्रे पितृदायाद्यं दिवोदासहृतं बलात्",
           "transliteration": "haihayasya tu dāyādyaṃ hṛtavān vai mahīpatiḥ ājahre pitṛdāyādyaṃ divodāsahṛtaṃ balāt",
-          "hindi": "वट-ये चार वृक्ष हैं, जो ग्यारह-ग्यारह सौ योजन विस्तारके हैं। वे वृक्ष उन पर्वतोंकी ध्वजाके रूपमें सुशोभित हैं। वह जम्बू-वृक्ष ही इस द्वीपके जम्बूद्वीप नाम पड़नेका कारण है।"
+          "hindi": "वट-ये चार वृक्ष हैं, जो ग्यारह-ग्यारह सौ योजन विस्तारके हैं। वे वृक्ष उन पर्वतोंकी ध्वजाके रूपमें सुशोभित हैं। वह जम्बू-वृक्ष ही इस द्वीपके जम्बूद्वीप नाम पड़नेका कारण है।",
+          "translation": "The king took back the Haihaya inheritance, the paternal inheritance Divodasa had taken by force.",
+          "translationSource": "ai"
         },
         {
           "number": 70,
           "sanskrit": "भद्रश्रेण्यस्य पुत्रेण दुर्दमेन महात्मना दिवोदासेन बालेति घृणयासौ विसर्जितः",
           "transliteration": "bhadraśreṇyasya putreṇa durdamena mahātmanā divodāsena bāleti ghṛṇayāsau visarjitaḥ",
-          "hindi": "उसके फल विशाल गजराजके बराबर होते हैं। वे गन्धमादनपर्वतपर सब ओर गिरकर फूट जाते हैं। उनके रससे वहाँ जम्बू नामकी नदी बहती है। वहाँके निवासी उसी नदीका जल पीते हैं । उसके"
+          "hindi": "उसके फल विशाल गजराजके बराबर होते हैं। वे गन्धमादनपर्वतपर सब ओर गिरकर फूट जाते हैं। उनके रससे वहाँ जम्बू नामकी नदी बहती है। वहाँके निवासी उसी नदीका जल पीते हैं । उसके",
+          "translation": "By Bhadrashrenya's son, the great-souled Durdama, who was released by Divodasa out of pity as a child,",
+          "translationSource": "ai"
         },
         {
           "number": 71,
           "sanskrit": "अष्टारथो नाम नृपः सुतो भीमरथस्य वै तेन पुत्रेण बालस्य प्रहृतं तस्य भो द्विजाः",
           "transliteration": "aṣṭāratho nāma nṛpaḥ suto bhīmarathasya vai tena putreṇa bālasya prahṛtaṃ tasya bho dvijāḥ",
-          "hindi": "पीनेसे लोगोंके शरीर और मन स्वस्थ रहते हैं।"
+          "hindi": "पीनेसे लोगोंके शरीर और मन स्वस्थ रहते हैं।",
+          "translation": "— a king named Ashtaratha, Bhimaratha's son — by that son the child's (enemy) was struck, Brahmins,",
+          "translationSource": "ai"
         },
         {
           "number": 72,
           "sanskrit": "वैरस्यान्तं मुनिश्रेष्ठाः क्षत्रियेण विधित्सता अलर्कः काशिराजस् तु ब्रह्मण्यः सत्यसंगरः",
           "transliteration": "vairasyāntaṃ muniśreṣṭhāḥ kṣatriyeṇa vidhitsatā alarkaḥ kāśirājas tu brahmaṇyaḥ satyasaṃgaraḥ",
-          "hindi": "हजार योजनके विस्तारवाली एक विशाल पुरी है, जो ब्रह्माजीको सभा कहलाती है। उसमें सब ओर आठौं दिशाओं और विदिशाओंमें इन्द्र आदि लोकपालोंके विख्यात नगर हें"
+          "hindi": "हजार योजनके विस्तारवाली एक विशाल पुरी है, जो ब्रह्माजीको सभा कहलाती है। उसमें सब ओर आठौं दिशाओं और विदिशाओंमें इन्द्र आदि लोकपालोंके विख्यात नगर हें",
+          "translation": "the end of enmity, best of sages, was sought by the Kshatriya. Alarka, king of Kashi, devoted to Brahmins, true to his word,",
+          "translationSource": "ai"
         },
         {
           "number": 73,
           "sanskrit": "षष्टिं वर्षसहस्राणि षष्टिं वर्षशतानि च युवा रूपेण संपन्न आसीत् काशिकुलोद्वहः",
           "transliteration": "ṣaṣṭiṃ varṣasahasrāṇi ṣaṣṭiṃ varṣaśatāni ca yuvā rūpeṇa saṃpanna āsīt kāśikulodvahaḥ",
-          "hindi": "भगवान् विष्णुके चरणोंसे निकलकर चन्द्रमण्डलको आप्लावित करनेवाली गङ्गा ब्रह्मपुरीके चारों ओर गिरती हैं। वहाँ गिरकर वे चार भागोंमें बॅट जाती हैं। उस समय उनके क्रमश:--सीता,"
+          "hindi": "भगवान् विष्णुके चरणोंसे निकलकर चन्द्रमण्डलको आप्लावित करनेवाली गङ्गा ब्रह्मपुरीके चारों ओर गिरती हैं। वहाँ गिरकर वे चार भागोंमें बॅट जाती हैं। उस समय उनके क्रमश:--सीता,",
+          "translation": "for sixty thousand years and sixty hundred years was young and endowed with beauty, the upholder of the Kashi family.",
+          "translationSource": "ai"
         },
         {
           "number": 74,
           "sanskrit": "लोपामुद्राप्रसादेन परमायुर् अवाप सः वयसो ऽन्ते मुनिश्रेष्ठा हत्वा क्षेमकराक्षसम्",
           "transliteration": "lopāmudrāprasādena paramāyur avāpa saḥ vayaso 'nte muniśreṣṭhā hatvā kṣemakarākṣasam",
-          "hindi": "अलकनन्दा, चक्षु और भद्रा नाम होते हैं। पूर्व ओर सीता एक पर्वतसे दूसरे पर्वतपर होती हुई पूर्ववर्ती भद्राश्चवर्षके मार्गसे समुद्रमें जा मिलती है। इसी प्रकार अलकनन्दा दक्षिण-पथसे भारतवर्षमें"
+          "hindi": "अलकनन्दा, चक्षु और भद्रा नाम होते हैं। पूर्व ओर सीता एक पर्वतसे दूसरे पर्वतपर होती हुई पूर्ववर्ती भद्राश्चवर्षके मार्गसे समुद्रमें जा मिलती है। इसी प्रकार अलकनन्दा दक्षिण-पथसे भारतवर्षमें",
+          "translation": "By Lopamudra's favour he obtained supreme longevity; at the end of his age, best of sages, having killed the Rakshasa Kshemaka,",
+          "translationSource": "ai"
         },
         {
           "number": 75,
           "sanskrit": "रम्यां निवेशयाम् आस पुरीं वाराणसीं नृपः अलर्कस्य तु दायादः क्षेमको नाम पार्थिवः",
           "transliteration": "ramyāṃ niveśayām āsa purīṃ vārāṇasīṃ nṛpaḥ alarkasya tu dāyādaḥ kṣemako nāma pārthivaḥ",
-          "hindi": "आती और वहाँ सात भेदोंमें विभक्त होकर समुद्रमें मिल जाती है। चक्षुको धारा पश्चिमके सम्पूर्ण"
+          "hindi": "आती और वहाँ सात भेदोंमें विभक्त होकर समुद्रमें मिल जाती है। चक्षुको धारा पश्चिमके सम्पूर्ण",
+          "translation": "the king settled the lovely city of Varanasi. Alarka's heir was the king Kshemaka.",
+          "translationSource": "ai"
         },
         {
           "number": 76,
           "sanskrit": "क्षेमकस्य तु पुत्रो वै वर्षकेतुस् ततो ऽभवत् वर्षकेतोश् च दायादो विभुर् नाम प्रजेश्वरः",
           "transliteration": "kṣemakasya tu putro vai varṣaketus tato 'bhavat varṣaketoś ca dāyādo vibhur nāma prajeśvaraḥ",
-          "hindi": "उन्हें खेद नहीं होता। उनके शरीरमें दुर्गन्ध नहीं  पर्वतोंको लाँघकर केतुमालवर्षमें आती और समुद्रमें होती तथा उनकी इन्द्रियां कभी क्षीण नहीं होती। मिल जाती है। इसी प्रकार भद्रा उत्तरगिरि तथा जम्बूके रसको पाकर उस नदीके तटकी मिट्टी  उत्तरकुरुको लॉघकर उत्तरसमुद्रमें मिलती है। माल्यवान्"
+          "hindi": "उन्हें खेद नहीं होता। उनके शरीरमें दुर्गन्ध नहीं  पर्वतोंको लाँघकर केतुमालवर्षमें आती और समुद्रमें होती तथा उनकी इन्द्रियां कभी क्षीण नहीं होती। मिल जाती है। इसी प्रकार भद्रा उत्तरगिरि तथा जम्बूके रसको पाकर उस नदीके तटकी मिट्टी  उत्तरकुरुको लॉघकर उत्तरसमुद्रमें मिलती है। माल्यवान्",
+          "translation": "Kshemaka's son was then Varshaketu; Varshaketu's heir was the lord of creatures named Vibhu.",
+          "translationSource": "ai"
         },
         {
           "number": 77,
           "sanskrit": "आनर्तस् तु विभोः पुत्रः सुकुमारस् ततो ऽभवत् सुकुमारस्य पुत्रस् तु सत्यकेतुर् महारथः",
           "transliteration": "ānartas tu vibhoḥ putraḥ sukumāras tato 'bhavat sukumārasya putras tu satyaketur mahārathaḥ",
-          "hindi": "जाम्बूनद नामक सुवर्णके रूपमें परिणत हो जाती है, जो सिद्धोंके आभूषणके काम आती है। मेरुसे पूर्व भद्राश्व और पश्चिममें केतुमालवर्ष हैं। इन दोनोंके बीचमें इलावृतवर्ष है। मेरुके पूर्व चैत्ररथ,"
+          "hindi": "जाम्बूनद नामक सुवर्णके रूपमें परिणत हो जाती है, जो सिद्धोंके आभूषणके काम आती है। मेरुसे पूर्व भद्राश्व और पश्चिममें केतुमालवर्ष हैं। इन दोनोंके बीचमें इलावृतवर्ष है। मेरुके पूर्व चैत्ररथ,",
+          "translation": "Anarta was Vibhu's son; Sukumara was then born; Sukumara's son was the great charioteer Satyaketu.",
+          "translationSource": "ai"
         },
         {
           "number": 78,
           "sanskrit": "सुतो ऽभवन् महातेजा राजा परमधार्मिकः वत्सस्य वत्सभूमिस् तु भर्गभूमिस् तु भार्गवात्",
           "transliteration": "suto 'bhavan mahātejā rājā paramadhārmikaḥ vatsasya vatsabhūmis tu bhargabhūmis tu bhārgavāt",
-          "hindi": "दक्षिणमें गन्धमादन, पश्चिममें वैभ्राज तथा उत्तरमें नन्दनवन है। इसी प्रकार भिन्न-भिन्न दिशाओंमें"
+          "hindi": "दक्षिणमें गन्धमादन, पश्चिममें वैभ्राज तथा उत्तरमें नन्दनवन है। इसी प्रकार भिन्न-भिन्न दिशाओंमें",
+          "translation": "His son was the greatly radiant, extremely righteous king; of Vatsa came Vatsabhumi, and of Bhargava, Bhargabhumi.",
+          "translationSource": "ai"
         },
         {
           "number": 79,
           "sanskrit": "एते त्व् अङ्गिरसः पुत्रा जाता वंशे ऽथ भार्गवे ब्राह्मणाः क्षत्रिया वैश्याः शूद्राश् च मुनिसत्तमाः",
           "transliteration": "ete tv aṅgirasaḥ putrā jātā vaṃśe 'tha bhārgave brāhmaṇāḥ kṣatriyā vaiśyāḥ śūdrāś ca munisattamāḥ",
-          "hindi": "सरोवर हैं, जो सदा देवताओंके उपभोगमें आते हैं। शान्तवान्, चक्रकुञ्ज, कुररी, माल्यवान् तथा वैकङ्क आदि पर्वत मेरुके पूर्वभागमें केसराचलके"
+          "hindi": "सरोवर हैं, जो सदा देवताओंके उपभोगमें आते हैं। शान्तवान्, चक्रकुञ्ज, कुररी, माल्यवान् तथा वैकङ्क आदि पर्वत मेरुके पूर्वभागमें केसराचलके",
+          "translation": "These sons of Angiras were born in the Bhargava line: Brahmins, Kshatriyas, Vaishyas and Shudras, best of sages.",
+          "translationSource": "ai"
         },
         {
           "number": 80,
           "sanskrit": "आजमीढो ऽपरो वंशः श्रूयतां द्विजसत्तमाः सुहोत्रस्य बृहत् पुत्रो बृहतस् तनयास् त्रयः",
           "transliteration": "ājamīḍho 'paro vaṃśaḥ śrūyatāṃ dvijasattamāḥ suhotrasya bṛhat putro bṛhatas tanayās trayaḥ",
-          "hindi": "रूपमें स्थित हैं। त्रिकूट, शिशिर, पतङ्ग, रुचक"
+          "hindi": "रूपमें स्थित हैं। त्रिकूट, शिशिर, पतङ्ग, रुचक",
+          "translation": "Hear another lineage, the Ajamidha, best of Brahmins. Suhotra's son was Brihat; Brihat had three sons:",
+          "translationSource": "ai"
         },
         {
           "number": 81,
           "sanskrit": "अजमीढो द्विमीढश् च पुरुमीढश् च वीर्यवान् अजमीढस्य पत्न्यस् तु तिस्रो वै यशसान्विताः",
           "transliteration": "ajamīḍho dvimīḍhaś ca purumīḍhaś ca vīryavān ajamīḍhasya patnyas tu tisro vai yaśasānvitāḥ",
-          "hindi": "तथा निषध आदि दक्षिणभागके केसर-पर्वत हैं।"
+          "hindi": "तथा निषध आदि दक्षिणभागके केसर-पर्वत हैं।",
+          "translation": "Ajamidha, Dvimidha and the valiant Purumidha. Ajamidha had three renowned wives:",
+          "translationSource": "ai"
         },
         {
           "number": 82,
           "sanskrit": "नीली च केशिनी चैव धूमिनी च वराङ्गनाः अजमीढस्य केशिन्यां जज्ञे जह्नुः प्रतापवान्",
           "transliteration": "nīlī ca keśinī caiva dhūminī ca varāṅganāḥ ajamīḍhasya keśinyāṃ jajñe jahnuḥ pratāpavān",
-          "hindi": "आदि पश्चिमभागके केसराचल हैं। शड्खकूट,"
+          "hindi": "आदि पश्चिमभागके केसराचल हैं। शड्खकूट,",
+          "translation": "Nili, Keshini and Dhumini, excellent women. On Keshini, Ajamidha begot the mighty Jahnu,",
+          "translationSource": "ai"
         },
         {
           "number": 83,
           "sanskrit": "आजह्रे यो महासत्त्रं सर्वमेधमखं विभुम् पतिलोभेन यं गङ्गा विनीतेव ससार ह",
           "transliteration": "ājahre yo mahāsattraṃ sarvamedhamakhaṃ vibhum patilobhena yaṃ gaṅgā vinīteva sasāra ha",
-          "hindi": "और गन्धमादनपर्वत नीलगिरिसे लेकर निषधपर्वततक फैले हुए हैं। उन दोनोंके मध्यभागमें मेरु कर्णिकाके आकारमें स्थित है। भारत, केतुमाल, भद्राश्च तथा कुरुये द्वीप लोकरूपी कमलके पत्र हैं। जठर"
+          "hindi": "और गन्धमादनपर्वत नीलगिरिसे लेकर निषधपर्वततक फैले हुए हैं। उन दोनोंके मध्यभागमें मेरु कर्णिकाके आकारमें स्थित है। भारत, केतुमाल, भद्राश्च तथा कुरुये द्वीप लोकरूपी कमलके पत्र हैं। जठर",
+          "translation": "who performed a great session, the Sarvamedha sacrifice, the lord; the Ganga, like a modest woman, desiring him as husband, approached him.",
+          "translationSource": "ai"
         },
         {
           "number": 84,
           "sanskrit": "नेच्छतः प्लावयाम् आस तस्य गङ्गा च तत् सदः तत् तया प्लावितं दृष्ट्वा यज्ञवाटं समन्ततः",
           "transliteration": "necchataḥ plāvayām āsa tasya gaṅgā ca tat sadaḥ tat tayā plāvitaṃ dṛṣṭvā yajñavāṭaṃ samantataḥ",
-          "hindi": "और देवकूट--ये दो मर्यादा-पर्वत हैं। ये नीलसे निषध पर्वततक उत्तर-दक्षिण फैले हुए हैं। ये दोनों मेरुके पश्चिमभागमें पूर्ववत् स्थित हैं । त्रिशृङ्ग और जारुधि-ये उत्तर-दिशाके वर्षपर्वत हैं, जो"
+          "hindi": "और देवकूट--ये दो मर्यादा-पर्वत हैं। ये नीलसे निषध पर्वततक उत्तर-दक्षिण फैले हुए हैं। ये दोनों मेरुके पश्चिमभागमें पूर्ववत् स्थित हैं । त्रिशृङ्ग और जारुधि-ये उत्तर-दिशाके वर्षपर्वत हैं, जो",
+          "translation": "Against his will the Ganga flooded that sacrificial hall; seeing the sacrificial ground flooded all around by her,",
+          "translationSource": "ai"
         },
         {
           "number": 85,
           "sanskrit": "जह्नुर् अप्य् अब्रवीद् गङ्गां क्रुद्धो विप्रास् तदा नृपः एष ते त्रिषु लोकेषु संक्षिप्यापः पिबाम्य् अहम् अस्य गङ्गे ऽवलेपस्य सद्यः फलम् अवाप्नुहि",
           "transliteration": "jahnur apy abravīd gaṅgāṃ kruddho viprās tadā nṛpaḥ eṣa te triṣu lokeṣu saṃkṣipyāpaḥ pibāmy aham asya gaṅge 'valepasya sadyaḥ phalam avāpnuhi",
-          "hindi": "पूर्वसे पश्चिम ओर समुद्रके भीतरतक चले गये हें  ब्राह्मणो! इस प्रकार मैंने मर्यादापर्वतोंका वर्णन किया, जो मेरुके चारों ओर दो-दो करके स्थित हैं । मेरुपर्वतके सब ओर जो केसरपर्वत बतलाये"
+          "hindi": "पूर्वसे पश्चिम ओर समुद्रके भीतरतक चले गये हें  ब्राह्मणो! इस प्रकार मैंने मर्यादापर्वतोंका वर्णन किया, जो मेरुके चारों ओर दो-दो करके स्थित हैं । मेरुपर्वतके सब ओर जो केसरपर्वत बतलाये",
+          "translation": "Jahnu, the king, angry, Brahmins, said to the Ganga: \"In these three worlds I shall gather and drink your waters; Ganga, at once obtain the fruit of this arrogance.\"",
+          "translationSource": "ai"
         },
         {
           "number": 86,
           "sanskrit": "ततः पीतां महात्मानो दृष्ट्वा गङ्गां महर्षयः उपनिन्युर् महाभागा दुहितृत्वेन जाह्नवीम्",
           "transliteration": "tataḥ pītāṃ mahātmāno dṛṣṭvā gaṅgāṃ maharṣayaḥ upaninyur mahābhāgā duhitṛtvena jāhnavīm",
-          "hindi": "गये हैं, उनकी गुफाएँ बड़ी मनोहर हैं, जिनमें सिद्ध और चारण निवास करते हैं। वहाँ सुरम्य"
+          "hindi": "गये हैं, उनकी गुफाएँ बड़ी मनोहर हैं, जिनमें सिद्ध और चारण निवास करते हैं। वहाँ सुरम्य",
+          "translation": "Then, seeing the Ganga drunk, the great-souled great sages brought the fortunate Jahnavi to him as his daughter.",
+          "translationSource": "ai"
         },
         {
           "number": 87,
           "sanskrit": "युवनाश्वस्य पुत्रीं तु कावेरीं जह्नुर् आवहत् गङ्गाशापेन देहार्धं यस्याः पश्चान् नदीकृतम्",
           "transliteration": "yuvanāśvasya putrīṃ tu kāverīṃ jahnur āvahat gaṅgāśāpena dehārdhaṃ yasyāḥ paścān nadīkṛtam",
-          "hindi": "जम्बूद्वीप तथा उसके विभिन्न वर्षासहित भारतवर्षका वर्णन  ४९"
+          "hindi": "जम्बूद्वीप तथा उसके विभिन्न वर्षासहित भारतवर्षका वर्णन  ४९",
+          "translation": "Jahnu married Kaveri, Yuvanashva's daughter, half of whose body was afterwards made a river by the Ganga's curse.",
+          "translationSource": "ai"
         },
         {
           "number": 88,
           "sanskrit": "जह्नोस् तु दयितः पुत्रो अजको नाम वीर्यवान् अजकस्य तु दायादो बलाकाश्वो महीपतिः",
           "transliteration": "jahnos tu dayitaḥ putro ajako nāma vīryavān ajakasya tu dāyādo balākāśvo mahīpatiḥ",
-          "hindi": "वन और नगर हैं। लक्ष्मी, विष्णु, अग्नि, सूर्य  पड़ते हें । भारतके सिवा अन्यत्र मनुष्योंके लिये तथा इन्द्र आदि देवताओंके बड़े-बड़े मन्दिर हैं,  कर्मभूमि नहीं है। इस भारतवर्षके नौ भेद हैं-- जो किन्नरोंसे सेवित हैं। उन पर्वतोंकी रमणीय  इन्द्रद्वीप, कसेतुमान, ताम्रवर्ण, गभस्तिमान्, नागद्वीप, गुफाओंमें गन्धर्व, यक्ष, राक्षस, हैत्य और दानव  सौम्यद्वीप, गन्धर्वद्वीप, वारुणद्वीप तथा समुद्रसे"
+          "hindi": "वन और नगर हैं। लक्ष्मी, विष्णु, अग्नि, सूर्य  पड़ते हें । भारतके सिवा अन्यत्र मनुष्योंके लिये तथा इन्द्र आदि देवताओंके बड़े-बड़े मन्दिर हैं,  कर्मभूमि नहीं है। इस भारतवर्षके नौ भेद हैं-- जो किन्नरोंसे सेवित हैं। उन पर्वतोंकी रमणीय  इन्द्रद्वीप, कसेतुमान, ताम्रवर्ण, गभस्तिमान्, नागद्वीप, गुफाओंमें गन्धर्व, यक्ष, राक्षस, हैत्य और दानव  सौम्यद्वीप, गन्धर्वद्वीप, वारुणद्वीप तथा समुद्रसे",
+          "translation": "Jahnu's beloved son was the valiant Ajaka; Ajaka's heir was the king Balakashva,",
+          "translationSource": "ai"
         },
         {
           "number": 89,
           "sanskrit": "बभूव मृगयाशीलः कुशिकस् तस्य चात्मजः पह्नवैः सह संवृद्धो राजा वनचरैः सह",
           "transliteration": "babhūva mṛgayāśīlaḥ kuśikas tasya cātmajaḥ pahnavaiḥ saha saṃvṛddho rājā vanacaraiḥ saha",
-          "hindi": "दिन-रात विहार किया करते हैं। वे पर्वत इस  घिरा हुआ यह नबाँ द्वीप भारत। यह नवम द्वीप पृथ्वीके स्वर्ग माने गये हैं। वहाँ धर्मात्माओंका  दक्षिणसे उत्तरतक एक हजार योजन लंबा है। निवास है, पापी मनुष्य सैकड़ों जन्म धारण करनेपर  इसके अंदर पूर्व-दिशामें किरात तथा पश्चिम- भी वहाँ नहीं जा सकते। भद्राश्चवर्षमें भगवान्  दिशामें यवन रहते हैं; मध्यमें ब्राह्मण, क्षत्रिय,"
+          "hindi": "दिन-रात विहार किया करते हैं। वे पर्वत इस  घिरा हुआ यह नबाँ द्वीप भारत। यह नवम द्वीप पृथ्वीके स्वर्ग माने गये हैं। वहाँ धर्मात्माओंका  दक्षिणसे उत्तरतक एक हजार योजन लंबा है। निवास है, पापी मनुष्य सैकड़ों जन्म धारण करनेपर  इसके अंदर पूर्व-दिशामें किरात तथा पश्चिम- भी वहाँ नहीं जा सकते। भद्राश्चवर्षमें भगवान्  दिशामें यवन रहते हैं; मध्यमें ब्राह्मण, क्षत्रिय,",
+          "translation": "fond of hunting; his son was Kushika, who grew up with Pahlavas and forest-dwellers as a king.",
+          "translationSource": "ai"
         },
         {
           "number": 90,
           "sanskrit": "कुशिकस् तु तपस् तेपे पुत्रम् इन्द्रसमं विभुम् लभेयम् इति तं शक्रस् त्रासाद् अभ्येत्य जज्ञिवान्",
           "transliteration": "kuśikas tu tapas tepe putram indrasamaṃ vibhum labheyam iti taṃ śakras trāsād abhyetya jajñivān",
-          "hindi": "विष्णु हयग्रीवरूपसे विराजमान हैं। केतुमालमें  वैश्य तथा शूद्र जातिके लोग रहते हैं, जिनको वाराह, भारतवर्षमें कच्छप तथा उत्तरकुरुमें मत्स्यरूप  क्रमश:--यज्ञ, युद्ध, वाणिज्य तथा सेवा—ये चार धारण करके रहते हैं। सर्वेश्वर भगवान् श्रीहरि  वृत्तियाँ हैं। शतद्र (सतलज) और चन्द्रभागा (चनाब) सर्वस्वरूप हैं तथा विश्वरूपमें वे सर्वत्र सुशोभित  आदि नदियाँ हिमालयकी शाखाओंसे निकली हें ।"
+          "hindi": "विष्णु हयग्रीवरूपसे विराजमान हैं। केतुमालमें  वैश्य तथा शूद्र जातिके लोग रहते हैं, जिनको वाराह, भारतवर्षमें कच्छप तथा उत्तरकुरुमें मत्स्यरूप  क्रमश:--यज्ञ, युद्ध, वाणिज्य तथा सेवा—ये चार धारण करके रहते हैं। सर्वेश्वर भगवान् श्रीहरि  वृत्तियाँ हैं। शतद्र (सतलज) और चन्द्रभागा (चनाब) सर्वस्वरूप हैं तथा विश्वरूपमें वे सर्वत्र सुशोभित  आदि नदियाँ हिमालयकी शाखाओंसे निकली हें ।",
+          "translation": "Kushika practised austerity for a son like Indra: \"May I obtain one,\" and Shakra, in fear, came and was born.",
+          "translationSource": "ai"
         },
         {
           "number": 91,
           "sanskrit": "स गाधिर् अभवद् राजा मघवा कौशिकः स्वयम् विश्वामित्रस् तु गाधेयो विश्वामित्रात् तथाष्टकः",
           "transliteration": "sa gādhir abhavad rājā maghavā kauśikaḥ svayam viśvāmitras tu gādheyo viśvāmitrāt tathāṣṭakaḥ",
-          "hindi": "होते हें । अखिल जगत्स्वरूप भगवान् विष्णु सबके  वेदस्मृति आदि सरिताओंका उदूम पारियात्र-पर्वत आधारभूत हैं । किम्पुरुष आदि जो आठ वर्ष हैं,  है। नर्मदा और सुरमा आदि नदियाँ विन्ध्यपर्वतसे उनमें शोक, आयास, उद्वेग तथा क्षुधाका भय  प्रकट हुई हैं। तापी, पयोष्णी, निर्विन्ध्या तथा आदि दोष नहीं हैं। वहाँकी प्रजा सब प्रकारसे  कावेरी आदि सरिताएँ ऋक्षकी शाखासे निकली"
+          "hindi": "होते हें । अखिल जगत्स्वरूप भगवान् विष्णु सबके  वेदस्मृति आदि सरिताओंका उदूम पारियात्र-पर्वत आधारभूत हैं । किम्पुरुष आदि जो आठ वर्ष हैं,  है। नर्मदा और सुरमा आदि नदियाँ विन्ध्यपर्वतसे उनमें शोक, आयास, उद्वेग तथा क्षुधाका भय  प्रकट हुई हैं। तापी, पयोष्णी, निर्विन्ध्या तथा आदि दोष नहीं हैं। वहाँकी प्रजा सब प्रकारसे  कावेरी आदि सरिताएँ ऋक्षकी शाखासे निकली",
+          "translation": "He became the king Gadhi, Maghavan Kaushika himself; Vishvamitra was Gadhi's son, and from Vishvamitra, Ashtaka.",
+          "translationSource": "ai"
         },
         {
           "number": 92,
           "sanskrit": "अष्टकस्य सुतो लौहिः प्रोक्तो जह्नुगणो मया आजमीढो ऽपरो वंशः श्रूयतां मुनिसत्तमाः",
           "transliteration": "aṣṭakasya suto lauhiḥ prokto jahnugaṇo mayā ājamīḍho 'paro vaṃśaḥ śrūyatāṃ munisattamāḥ",
-          "hindi": "स्वस्थ निर्भय तथा सब प्रकारके दुःखोंसे रहित  हैं। इनका नाम श्रवण करनेमात्रसे ये सब पापोंको"
+          "hindi": "स्वस्थ निर्भय तथा सब प्रकारके दुःखोंसे रहित  हैं। इनका नाम श्रवण करनेमात्रसे ये सब पापोंको",
+          "translation": "Ashtaka's son Lauhi has been named; the Jahnu group was told by me. Hear another lineage, the Ajamidha, best of sages.",
+          "translationSource": "ai"
         },
         {
           "number": 93,
           "sanskrit": "अजमीढात् तु नील्यां वै सुशान्तिर् उदपद्यत पुरुजातिः सुशान्तेश् च बाह्याश्वः पुरुजातितः",
           "transliteration": "ajamīḍhāt tu nīlyāṃ vai suśāntir udapadyata purujātiḥ suśānteś ca bāhyāśvaḥ purujātitaḥ",
-          "hindi": "हैं। उन सबकी स्थिर आयु दस-बारह हजार वर्षोतककी होती है। इन स्थानोंमें पृथ्वीके क्षुधा, पिपासा आदि अन्य दोष भी नहीं प्रकट होते। इन सभी वर्षोमें सात-सात कुल-पर्वत हैं, जिनसे"
+          "hindi": "हैं। उन सबकी स्थिर आयु दस-बारह हजार वर्षोतककी होती है। इन स्थानोंमें पृथ्वीके क्षुधा, पिपासा आदि अन्य दोष भी नहीं प्रकट होते। इन सभी वर्षोमें सात-सात कुल-पर्वत हैं, जिनसे",
+          "translation": "From Ajamidha on Nili, Sushanti was born; Sushanti's was Purujati, and from Purujati, Bahyashva.",
+          "translationSource": "ai"
         },
         {
           "number": 94,
           "sanskrit": "बाह्याश्वतनयाः पञ्च स्फीता जनपदावृताः मुद्गलः सृञ्जयश् चैव राजा बृहदिषुस् तदा",
           "transliteration": "bāhyāśvatanayāḥ pañca sphītā janapadāvṛtāḥ mudgalaḥ sṛñjayaś caiva rājā bṛhadiṣus tadā",
-          "hindi": "सैकड़ों नदियाँ प्रकट हुई हैं।"
+          "hindi": "सैकड़ों नदियाँ प्रकट हुई हैं।",
+          "translation": "Bahyashva had five sons, prosperous and ruling countries: Mudgala, Srinjaya, King Brihadishu,",
+          "translationSource": "ai"
         },
         {
           "number": 95,
           "sanskrit": "यवीनरश् च विक्रान्तः कृमिलाश्वश् च पञ्चमः पञ्चैते रक्षणायालं देशानाम् इति विश्रुताः",
           "transliteration": "yavīnaraś ca vikrāntaḥ kṛmilāśvaś ca pañcamaḥ pañcaite rakṣaṇāyālaṃ deśānām iti viśrutāḥ",
-          "hindi": "समुद्रके उत्तर और हिमालयके दक्षिणका जो देश है, उसका नाम भारतवर्ष है। उसीमें राजा भरतकी संतान तथा प्रजा रहती है। उसका विस्तार नौ हजार योजन है। भारतवर्ष कर्मभूमि है। वहाँ"
+          "hindi": "समुद्रके उत्तर और हिमालयके दक्षिणका जो देश है, उसका नाम भारतवर्ष है। उसीमें राजा भरतकी संतान तथा प्रजा रहती है। उसका विस्तार नौ हजार योजन है। भारतवर्ष कर्मभूमि है। वहाँ",
+          "translation": "the valiant Yavinara, and Krimilashva the fifth. These five were famed as adequate for protecting the regions.",
+          "translationSource": "ai"
         },
         {
           "number": 96,
           "sanskrit": "पञ्चानां ते तु पञ्चालाः स्फीता जनपदावृताः अलं संरक्षणे तेषां पञ्चाला इति विश्रुताः",
           "transliteration": "pañcānāṃ te tu pañcālāḥ sphītā janapadāvṛtāḥ alaṃ saṃrakṣaṇe teṣāṃ pañcālā iti viśrutāḥ",
-          "hindi": "इच्छानुसार साधन करनेवालोंको स्वर्ग तथा मोक्ष प्राप्त होते हें । भारतमें महेन्द्र, मलय, सह्य, शुक्तिमान्,"
+          "hindi": "इच्छानुसार साधन करनेवालोंको स्वर्ग तथा मोक्ष प्राप्त होते हें । भारतमें महेन्द्र, मलय, सह्य, शुक्तिमान्,",
+          "translation": "Of those five came the Panchalas, prosperous and filling countries; they are known as the Panchalas, sufficient for their protection.",
+          "translationSource": "ai"
         },
         {
           "number": 97,
           "sanskrit": "मुद्गलस्य तु दायादो मौद्गल्यः सुमहायशाः इन्द्रसेना यतो गर्भं वध्न्यं च प्रत्यपद्यत",
           "transliteration": "mudgalasya tu dāyādo maudgalyaḥ sumahāyaśāḥ indrasenā yato garbhaṃ vadhnyaṃ ca pratyapadyata",
-          "hindi": "हैं। यहाँ सकाम साधनसे स्वर्ग प्राप्त होता है,"
+          "hindi": "हैं। यहाँ सकाम साधनसे स्वर्ग प्राप्त होता है,",
+          "translation": "Mudgala's heir was the greatly famed Maudgalya, from whom Indrasena got an embryo and a barren (wife).",
+          "translationSource": "ai"
         },
         {
           "number": 98,
           "sanskrit": "आसीत् पञ्चजनः पुत्रः सृञ्जयस्य महात्मनः सुतः पञ्चजनस्यापि सोमदत्तो महीपतिः",
           "transliteration": "āsīt pañcajanaḥ putraḥ sṛñjayasya mahātmanaḥ sutaḥ pañcajanasyāpi somadatto mahīpatiḥ",
-          "hindi": "हर लेती हैं। गोदावरी, भीमरथी तथा कृष्णवेणी आदि पापनाशिनी नदियाँ सह्यपर्वतकी संतानें हैं । कृतमाला, ताम्रपणी आदिका उदूमस्थान मलयपर्वत है। त्रिसांध्य, ऋषिकुल्या आदि नदियाँ महेनद्रपर्वतसे"
+          "hindi": "हर लेती हैं। गोदावरी, भीमरथी तथा कृष्णवेणी आदि पापनाशिनी नदियाँ सह्यपर्वतकी संतानें हैं । कृतमाला, ताम्रपणी आदिका उदूमस्थान मलयपर्वत है। त्रिसांध्य, ऋषिकुल्या आदि नदियाँ महेनद्रपर्वतसे",
+          "translation": "Panchajana was the son of the great-souled Srinjaya; Panchajana's son was the king Somadatta.",
+          "translationSource": "ai"
         },
         {
           "number": 99,
           "sanskrit": "सोमदत्तस्य दायादः सहदेवो महायशाः सहदेवसुतश् चापि सोमको नाम विश्रुतः",
           "transliteration": "somadattasya dāyādaḥ sahadevo mahāyaśāḥ sahadevasutaś cāpi somako nāma viśrutaḥ",
-          "hindi": "प्रकट हुई हैं। ऋषिकुल्या और कुमारा आदि नदियाँ शुक्तिमानके शाखापर्वतोंसे निकली हैं । इन नदियोंको शाखाभूत सहस्रों उपनदियाँ भी हैं। इनके मध्यमें कुरु, पाञ्चाल, मध्यप्रदेश, पूर्वदेश,"
+          "hindi": "प्रकट हुई हैं। ऋषिकुल्या और कुमारा आदि नदियाँ शुक्तिमानके शाखापर्वतोंसे निकली हैं । इन नदियोंको शाखाभूत सहस्रों उपनदियाँ भी हैं। इनके मध्यमें कुरु, पाञ्चाल, मध्यप्रदेश, पूर्वदेश,",
+          "translation": "Somadatta's heir was the greatly famed Sahadeva; Sahadeva's son was the renowned Somaka.",
+          "translationSource": "ai"
         },
         {
           "number": 100,
           "sanskrit": "अजमीढसुतो जातः क्षीणे वंशे तु सोमकः सोमकस्य सुतो जन्तुर् यस्य पुत्रशतं बभौ",
           "transliteration": "ajamīḍhasuto jātaḥ kṣīṇe vaṃśe tu somakaḥ somakasya suto jantur yasya putraśataṃ babhau",
-          "hindi": "कामरूप (आसाम), पौण्डु, कलिङ्ग (उड़ीसा), मगध, दक्षिणके प्रदेश, अपरान्त, सौराष्ट्र (काठियावाड्), शूद्र, आभीर, अर्बुद (आबू),"
+          "hindi": "कामरूप (आसाम), पौण्डु, कलिङ्ग (उड़ीसा), मगध, दक्षिणके प्रदेश, अपरान्त, सौराष्ट्र (काठियावाड्), शूद्र, आभीर, अर्बुद (आबू),",
+          "translation": "Somaka was born as a son of Ajamidha when the line was declining; Somaka's son was Jantu, who had a hundred sons.",
+          "translationSource": "ai"
         },
         {
           "number": 101,
           "sanskrit": "तेषां यवीयान् पृषतो द्रुपदस्य पिता प्रभुः आजमीढाः स्मृताश् चैते महात्मानस् तु सोमकाः",
           "transliteration": "teṣāṃ yavīyān pṛṣato drupadasya pitā prabhuḥ ājamīḍhāḥ smṛtāś caite mahātmānas tu somakāḥ",
-          "hindi": "निष्काम साधनसे मोक्ष मिलता है तथा यहाँके  प्रदेश और वहाँके निवासी रहते हैं। वे उपर्युक्त लोग पाप करनेपर तिर्यग्योनि और नरकोंमें भी  नदियोंके जल पीते तथा समभावसे रहते हैं। उक्त"
+          "hindi": "निष्काम साधनसे मोक्ष मिलता है तथा यहाँके  प्रदेश और वहाँके निवासी रहते हैं। वे उपर्युक्त लोग पाप करनेपर तिर्यग्योनि और नरकोंमें भी  नदियोंके जल पीते तथा समभावसे रहते हैं। उक्त",
+          "translation": "The youngest of them was Prishata, father of Drupada, the lord. These are remembered as Ajamidhas, and the great-souled Somakas.",
+          "translationSource": "ai"
         },
         {
           "number": 102,
           "sanskrit": "महिषी त्व् अजमीढस्य धूमिनी पुत्रगृद्धिनी पतिव्रता महाभागा कुलजा मुनिसत्तमाः",
           "transliteration": "mahiṣī tv ajamīḍhasya dhūminī putragṛddhinī pativratā mahābhāgā kulajā munisattamāḥ",
-          "hindi": "प्रदेशोंक लोग बडे सौभाग्यशाली एवं हृष्ट-पुष्ट हैं । उन सबका निवास भारतवर्षमें ही है । महामुने!"
+          "hindi": "प्रदेशोंक लोग बडे सौभाग्यशाली एवं हृष्ट-पुष्ट हैं । उन सबका निवास भारतवर्षमें ही है । महामुने!",
+          "translation": "Ajamidha's queen Dhumini, eager for sons, devoted to her husband, fortunate and of good family, best of sages,",
+          "translationSource": "ai"
         },
         {
           "number": 103,
           "sanskrit": "सा च पुत्रार्थिनी देवी व्रतचर्यासमन्विता ततो वर्षायुतं तप्त्वा तपः परमदुश्चरम्",
           "transliteration": "sā ca putrārthinī devī vratacaryāsamanvitā tato varṣāyutaṃ taptvā tapaḥ paramaduścaram",
-          "hindi": "इस भारतवर्षमें ही होते हें, अन्यत्र कहीं नहीं होते । यहीं पारलौकिक लाभके लिये यति तपस्या करते, यज्ञकर्ता अग्निमें आहुति डालते तथा दाता आदरपूर्वक दान देते हैं। जम्बूद्वीपमें मनुष्य सदा"
+          "hindi": "इस भारतवर्षमें ही होते हें, अन्यत्र कहीं नहीं होते । यहीं पारलौकिक लाभके लिये यति तपस्या करते, यज्ञकर्ता अग्निमें आहुति डालते तथा दाता आदरपूर्वक दान देते हैं। जम्बूद्वीपमें मनुष्य सदा",
+          "translation": "desiring a son, goddess, observing vows, practised for ten thousand years supremely difficult austerity.",
+          "translationSource": "ai"
         },
         {
           "number": 104,
           "sanskrit": "हुत्वाग्निं विधिवत् सा तु पवित्रा मितभोजना अग्निहोत्रकुशेष्व् एव सुष्वाप मुनिसत्तमाः",
           "transliteration": "hutvāgniṃ vidhivat sā tu pavitrā mitabhojanā agnihotrakuśeṣv eva suṣvāpa munisattamāḥ",
-          "hindi": "अनेक यज्ञोंद्वारा यज्ञमय यज्ञपुरुष भगवान् विष्णुका यजन करते हैं। अन्य द्वीपोंमें दूसरे प्रकारको उपासनाएँ हैं । महामुने! जम्बूद्वीपमें भी भारतवर्ष सबसे श्रेष्ठ है; क्योंकि यह कर्मभूमि है और अन्य"
+          "hindi": "अनेक यज्ञोंद्वारा यज्ञमय यज्ञपुरुष भगवान् विष्णुका यजन करते हैं। अन्य द्वीपोंमें दूसरे प्रकारको उपासनाएँ हैं । महामुने! जम्बूद्वीपमें भी भारतवर्ष सबसे श्रेष्ठ है; क्योंकि यह कर्मभूमि है और अन्य",
+          "translation": "Having offered into fire by rule, pure, eating moderately, she slept on the kusha grass of the Agnihotra, best of sages.",
+          "translationSource": "ai"
         },
         {
           "number": 105,
           "sanskrit": "धूमिन्या स तया देव्या त्व् अजमीढः समीयिवान् ऋक्षं संजनयाम् आस धूम्रवर्णं सुदर्शनम्",
           "transliteration": "dhūminyā sa tayā devyā tv ajamīḍhaḥ samīyivān ṛkṣaṃ saṃjanayām āsa dhūmravarṇaṃ sudarśanam",
-          "hindi": "बारंबार मनुष्यरूपमें उत्पन्न होते हैं और फलेच्छासे रहित कर्मका अनुष्ठान करके उन्हें परमात्मस्वरूप श्रीविष्णुको अर्पण कर देते हैं, वे धन्य हैं। जो इस कर्मभूमिमें उत्पन्न हो सत्कर्माँद्वारा अपने"
+          "hindi": "बारंबार मनुष्यरूपमें उत्पन्न होते हैं और फलेच्छासे रहित कर्मका अनुष्ठान करके उन्हें परमात्मस्वरूप श्रीविष्णुको अर्पण कर देते हैं, वे धन्य हैं। जो इस कर्मभूमिमें उत्पन्न हो सत्कर्माँद्वारा अपने",
+          "translation": "Ajamidha united with that goddess Dhumini and begot Riksha, smoke-coloured and handsome.",
+          "translationSource": "ai"
         },
         {
           "number": 106,
           "sanskrit": "ऋक्षात् संवरणो जज्ञे कुरुः संवरणात् तथा यः प्रयागाद् अतिक्रम्य कुरुक्षेत्रं चकार ह",
           "transliteration": "ṛkṣāt saṃvaraṇo jajñe kuruḥ saṃvaraṇāt tathā yaḥ prayāgād atikramya kurukṣetraṃ cakāra ha",
-          "hindi": "अन्तःकरणको शुद्ध करके भगवान् अनन्तमें लीन होते हैं, उनका जीवन धन्य है। हमें पता नहीं, इस स्वर्गलोकको प्रापि करानेवाले पुण्यलोकके क्षीण होनेपर हम फिर कहाँ देह धारण करेंगे। वे"
+          "hindi": "अन्तःकरणको शुद्ध करके भगवान् अनन्तमें लीन होते हैं, उनका जीवन धन्य है। हमें पता नहीं, इस स्वर्गलोकको प्रापि करानेवाले पुण्यलोकके क्षीण होनेपर हम फिर कहाँ देह धारण करेंगे। वे",
+          "translation": "From Riksha was born Samvarana, and from Samvarana, Kuru, who crossed beyond Prayaga and made Kurukshetra,",
+          "translationSource": "ai"
         },
         {
           "number": 107,
           "sanskrit": "पुण्यं च रमणीयं च पुण्यकृद्भिर् निषेवितम् तस्यान्ववायः सुमहान् यस्य नाम्नाथ कौरवाः",
           "transliteration": "puṇyaṃ ca ramaṇīyaṃ ca puṇyakṛdbhir niṣevitam tasyānvavāyaḥ sumahān yasya nāmnātha kauravāḥ",
-          "hindi": "मनुष्य, जो भारतवर्षमें जन्म लेकर सम्पूर्ण इन्द्रियोंसे सम्पन्न हैं, धन्य हैं।' विप्रवरो! यह नौ वर्षासे युक्त जम्बूद्वीपका वर्णन किया गया। उसका विस्तार"
+          "hindi": "मनुष्य, जो भारतवर्षमें जन्म लेकर सम्पूर्ण इन्द्रियोंसे सम्पन्न हैं, धन्य हैं।' विप्रवरो! यह नौ वर्षासे युक्त जम्बूद्वीपका वर्णन किया गया। उसका विस्तार",
+          "translation": "meritorious and lovely, frequented by the virtuous. His lineage was very great, from whose name the Kauravas come.",
+          "translationSource": "ai"
         },
         {
           "number": 108,
           "sanskrit": "कुरोश् च पुत्राश् चत्वारः सुधन्वा सुधनुस् तथा परीक्षिच् च महाबाहुः प्रवरश् चारिमेजयः",
           "transliteration": "kuroś ca putrāś catvāraḥ sudhanvā sudhanus tathā parīkṣic ca mahābāhuḥ pravaraś cārimejayaḥ",
-          "hindi": "देश भोगभूमि हैं । यहाँ लाखों जन्म धारण करनेके  एक लाख योजन है तथापि यहाँ संक्षेपसे ही बाद बहुत बड़े पुण्यके संचयसे जीव कभी मनुष्य-  बताया गया है। जम्बूद्वीपको गोलाकारमें चारों जन्म पाता है। देवता यह गीत गाते हैं कि 'जो  ओरसे घेरकर खारे पानीका समुद्र स्थित है।"
+          "hindi": "देश भोगभूमि हैं । यहाँ लाखों जन्म धारण करनेके  एक लाख योजन है तथापि यहाँ संक्षेपसे ही बाद बहुत बड़े पुण्यके संचयसे जीव कभी मनुष्य-  बताया गया है। जम्बूद्वीपको गोलाकारमें चारों जन्म पाता है। देवता यह गीत गाते हैं कि 'जो  ओरसे घेरकर खारे पानीका समुद्र स्थित है।",
+          "translation": "Kuru had four sons: Sudhanva, Sudhanus, the mighty-armed Parikshit, and Pravara, conqueror of foes.",
+          "translationSource": "ai"
         },
         {
           "number": 109,
           "sanskrit": "परीक्षितस् तु दायादो धार्मिको जनमेजयः श्रुतसेनो ऽग्रसेनश् च भीमसेनश् च नामतः",
           "transliteration": "parīkṣitas tu dāyādo dhārmiko janamejayaḥ śrutaseno 'grasenaś ca bhīmasenaś ca nāmataḥ",
-          "hindi": "जीव स्वर्ग और मोक्षके हेतुभूत भारतवर्षके भूभागमें उसका विस्तार भी एक लाख योजन है।"
+          "hindi": "जीव स्वर्ग और मोक्षके हेतुभूत भारतवर्षके भूभागमें उसका विस्तार भी एक लाख योजन है।",
+          "translation": "Parikshit's heir was the righteous Janamejaya; Shrutasena, Ugrasena and Bhimasena by name —",
+          "translationSource": "ai"
         },
         {
           "number": 110,
           "sanskrit": "एते सर्वे महाभागा विक्रान्ता बलशालिनः जनमेजयस्य पुत्रस् तु सुरथो मतिमांस् तथा",
           "transliteration": "ete sarve mahābhāgā vikrāntā balaśālinaḥ janamejayasya putras tu suratho matimāṃs tathā",
-          "hindi": "लोमहर्षणजी कहते हैं--जिस प्रकार जम्बूद्वीप खारे पानीके समुद्रसे घिरा हुआ है, उसी प्रकार उस समुद्रको भी घेरकर प्लक्षद्वीप स्थित है। जम्बूद्वीपका विस्तार एक लाख योजन बताया"
+          "hindi": "लोमहर्षणजी कहते हैं--जिस प्रकार जम्बूद्वीप खारे पानीके समुद्रसे घिरा हुआ है, उसी प्रकार उस समुद्रको भी घेरकर प्लक्षद्वीप स्थित है। जम्बूद्वीपका विस्तार एक लाख योजन बताया",
+          "translation": "all these were fortunate, valiant and mighty. Janamejaya's son was the wise Suratha.",
+          "translationSource": "ai"
         },
         {
           "number": 111,
           "sanskrit": "सुरथस्य तु विक्रान्तः पुत्रो जज्ञे विदूरथः विदूरथस्य दायाद ऋक्ष एव महारथः",
           "transliteration": "surathasya tu vikrāntaḥ putro jajñe vidūrathaḥ vidūrathasya dāyāda ṛkṣa eva mahārathaḥ",
-          "hindi": "गया है। प्लक्षद्वीपका विस्तार उससे दुगुना है। प्लक्षद्वीपके स्वामी राजा मेधातिथिके सात पुत्र हुए। उनमें ज्येष्ठ पुत्रका नाम शान्तमय है। उससे"
+          "hindi": "गया है। प्लक्षद्वीपका विस्तार उससे दुगुना है। प्लक्षद्वीपके स्वामी राजा मेधातिथिके सात पुत्र हुए। उनमें ज्येष्ठ पुत्रका नाम शान्तमय है। उससे",
+          "translation": "Suratha's valiant son Viduratha was born; Viduratha's heir was the great charioteer Riksha.",
+          "translationSource": "ai"
         },
         {
           "number": 112,
           "sanskrit": "द्वितीयस् तु भरद्वाजान् नाम्ना तेनैव विश्रुतः द्वाव् ऋक्षौ सोमवंशे ऽस्मिन् द्वाव् एव च परीक्षितौ",
           "transliteration": "dvitīyas tu bharadvājān nāmnā tenaiva viśrutaḥ dvāv ṛkṣau somavaṃśe 'smin dvāv eva ca parīkṣitau",
-          "hindi": "क्षेमक तथा ध्रुव हैं। ये सभी प्लक्षद्वीपके राजा हुए। इन्हींके नामपर उस द्वीपके सात वर्ष हैं।"
+          "hindi": "क्षेमक तथा ध्रुव हैं। ये सभी प्लक्षद्वीपके राजा हुए। इन्हींके नामपर उस द्वीपके सात वर्ष हैं।",
+          "translation": "The second, from Bharadvaja, was famed by that same name: in this Soma line there are two Rikshas and two Parikshits.",
+          "translationSource": "ai"
         },
         {
           "number": 113,
