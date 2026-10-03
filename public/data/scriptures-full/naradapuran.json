@@ -16717,97 +16717,129 @@
           "number": 48,
           "sanskrit": "एकादशी द्वादशी च रात्रघिशेषे त्रयोदशी । द्वादशद्वादशीपुण्यं त्रयोदश्यां तु पारणे",
           "transliteration": "ekādaśī dvādaśī ca rātraghiśeṣe trayodaśī / dvādaśadvādaśīpuṇyaṃ trayodaśyāṃ tu pāraṇe",
-          "hindi": "किये हुए नरकके दुःखोंको भी स्मरण करता और आन्तरिक दुःखसे अधिकाधिक जलने लगता है। 'अहो! मैं बड़ा पापी हूँ! कामसे अन्धा होनेके कारण परायी स्त्रियोंकों हरकर"
+          "hindi": "किये हुए नरकके दुःखोंको भी स्मरण करता और आन्तरिक दुःखसे अधिकाधिक जलने लगता है। 'अहो! मैं बड़ा पापी हूँ! कामसे अन्धा होनेके कारण परायी स्त्रियोंकों हरकर",
+          "translation": "If the eleventh and twelfth fall at the remainder of the night and the thirteenth follows, the merit is of the twelfth and the breaking of the fast is on the thirteenth.",
+          "translationSource": "ai"
         },
         {
           "number": 49,
           "sanskrit": "एकादशी कलामात्रा विद्यते द्वादशीदिने । द्वादशी च त्रयोदश्यां नास्ति वा विद्यते ऽथवा",
           "transliteration": "ekādaśī kalāmātrā vidyate dvādaśīdine / dvādaśī ca trayodaśyāṃ nāsti vā vidyate 'thavā",
-          "hindi": "उनके साथ सम्भोग करके मैंने बड़े-बड़े पाप किये हैं। उन पापोंसे अकेला मैं ही ऐसे-ऐसे नरकोंका कष्ट भोगता रहा। फिर स्थावर आदि योनियोंमें महान् दुःख भोगकर अब मानवसयोनिमें"
+          "hindi": "उनके साथ सम्भोग करके मैंने बड़े-बड़े पाप किये हैं। उन पापोंसे अकेला मैं ही ऐसे-ऐसे नरकोंका कष्ट भोगता रहा। फिर स्थावर आदि योनियोंमें महान् दुःख भोगकर अब मानवसयोनिमें",
+          "translation": "If the eleventh is present only as a digit on the twelfth day, and the twelfth is either present or absent on the thirteenth,",
+          "translationSource": "ai"
         },
         {
           "number": 50,
           "sanskrit": "विद्वाप्येकादशी तत्र पूर्वा स्याद्गृहणां तदा । यदिभिश्चोत्तरा ग्राह्या ह्यवीराभिस्तथैव च",
           "transliteration": "vidvāpyekādaśī tatra pūrvā syādgṛhaṇāṃ tadā / yadibhiścottarā grāhyā hyavīrābhistathaiva ca",
-          "hindi": "आया हूँ। आन्तरिक दुःख तथा बाह्य संतापसे दग्ध हो रहा हूँ। अहो! देहधारियोंको कितना दुःख उठाना पड़ता है। शरीर पापसे ही उत्पन्न होता है। इसलिये पाप नहीं करना चाहिए। मैंने"
+          "hindi": "आया हूँ। आन्तरिक दुःख तथा बाह्य संतापसे दग्ध हो रहा हूँ। अहो! देहधारियोंको कितना दुःख उठाना पड़ता है। शरीर पापसे ही उत्पन्न होता है। इसलिये पाप नहीं करना चाहिए। मैंने",
+          "translation": "then even the eleventh so joined: the earlier is for householders, the later to be taken by ascetics and by those without male descendants.",
+          "translationSource": "ai"
         },
         {
           "number": 51,
           "sanskrit": "संपूर्णैकादशी शुद्धा द्वादश्यां नास्ति किञ्चन । द्वादशी च त्रयोदशयामस्ति तत्र कथं भवेत्",
           "transliteration": "saṃpūrṇaikādaśī śuddhā dvādaśyāṃ nāsti kiñcana / dvādaśī ca trayodaśayāmasti tatra kathaṃ bhavet",
-          "hindi": "कुटुम्ब, मित्र और स्त्रीके लिये दूसरोंका धन चुराया है। उसी पापसे आज गर्भकी झिल्लीमें बँधा हुआ जल रहा हूँ। पूर्वजन्ममें दूसरोंका धन देखकर ईर्ष्यावश जला करता था; इसीलिये मैं"
+          "hindi": "कुटुम्ब, मित्र और स्त्रीके लिये दूसरोंका धन चुराया है। उसी पापसे आज गर्भकी झिल्लीमें बँधा हुआ जल रहा हूँ। पूर्वजन्ममें दूसरोंका धन देखकर ईर्ष्यावश जला करता था; इसीलिये मैं",
+          "translation": "If the full eleventh is pure and nothing of the twelfth exists on it, and the twelfth is on the thirteenth, how is it decided?",
+          "translationSource": "ai"
         },
         {
           "number": 52,
           "sanskrit": "पूर्वा गृहस्थैः कार्यात्र यतिभिश्चोत्तरा तिथिः । उपोष्यैव द्वितीयेति केचिदाहुश्च भक्तितः",
           "transliteration": "pūrvā gṛhasthaiḥ kāryātra yatibhiścottarā tithiḥ / upoṣyaiva dvitīyeti kecidāhuśca bhaktitaḥ",
-          "hindi": "पापी जीव इस समय भी गर्भकी आगसे निरन्तर दग्ध हो रहा हूँ। मन, वाणी और शरीरसे मैंने"
+          "hindi": "पापी जीव इस समय भी गर्भकी आगसे निरन्तर दग्ध हो रहा हूँ। मन, वाणी और शरीरसे मैंने",
+          "translation": "Here the earlier tithi is for householders and the later for ascetics; some devotees say it is the second that should be fasted.",
+          "translationSource": "ai"
         },
         {
           "number": 53,
           "sanskrit": "एकादशी यदाविद्धा द्वादश्यां न प्रतीयते । द्वादशी च त्रयोदश्यामस्ति तत्रैव चापरे",
           "transliteration": "ekādaśī yadāviddhā dvādaśyāṃ na pratīyate / dvādaśī ca trayodaśyāmasti tatraiva cāpare",
-          "hindi": "दूसरोंको बहुत पीड़ा दी थी। उस पापसे आज मैं अकेला ही अत्यन्त दु:ःखी होकर जल रहा हूँ।! इस प्रकार वह गर्भस्थ जीव नाना प्रकारसे विलाप करके स्वयं ही अपने-आपको इस प्रकार आश्वासन"
+          "hindi": "दूसरोंको बहुत पीड़ा दी थी। उस पापसे आज मैं अकेला ही अत्यन्त दु:ःखी होकर जल रहा हूँ।! इस प्रकार वह गर्भस्थ जीव नाना प्रकारसे विलाप करके स्वयं ही अपने-आपको इस प्रकार आश्वासन",
+          "translation": "When the eleventh is not found joined with the twelfth, and the twelfth is also on the thirteenth, others hold the same...",
+          "translationSource": "ai"
         },
         {
           "number": 54,
           "sanskrit": "उपोष्या द्वादशी शुद्धा सर्वैरेव न संशयः । केचिदाहुश्च पूर्वां तु तन्मतं न समञ्जसम्",
           "transliteration": "upoṣyā dvādaśī śuddhā sarvaireva na saṃśayaḥ / kecidāhuśca pūrvāṃ tu tanmataṃ na samañjasam",
-          "hindi": "देता है--' अब मैं जन्म लेनेके बाद सत्सड्र तथा भगवान् विष्णुकी कथाका श्रवण करके विशुद्ध- चित्त हो सत्कर्मोंका अनुष्ठान करूँगा और सम्पूर्ण जगत्के अन्तरात्मा तथा अपनी शक्तिके प्रभावसे"
+          "hindi": "देता है--' अब मैं जन्म लेनेके बाद सत्सड्र तथा भगवान् विष्णुकी कथाका श्रवण करके विशुद्ध- चित्त हो सत्कर्मोंका अनुष्ठान करूँगा और सम्पूर्ण जगत्के अन्तरात्मा तथा अपनी शक्तिके प्रभावसे",
+          "translation": "the pure twelfth is to be fasted by all, without doubt; some say the earlier, but that view is not right.",
+          "translationSource": "ai"
         },
         {
           "number": 55,
           "sanskrit": "संक्रातौ रविवारे च पातग्रहणयोस्तथा । पारणं चोपवासं च न कुर्यात्पुत्रवान्गृही",
           "transliteration": "saṃkrātau ravivāre ca pātagrahaṇayostathā / pāraṇaṃ copavāsaṃ ca na kuryātputravāngṛhī",
-          "hindi": "अखिल विश्वकी सृष्टि करनेवाले सत्य- ज्ञानानन्दस्वरूप लक्ष्मीपति भगवान् नारायणके उन युगल-चरणारविन्दोंका भक्तिपूर्वक पूजन करूँगा। जिनकी समस्त देवता, असुर, यक्ष, गन्धर्व,"
+          "hindi": "अखिल विश्वकी सृष्टि करनेवाले सत्य- ज्ञानानन्दस्वरूप लक्ष्मीपति भगवान् नारायणके उन युगल-चरणारविन्दोंका भक्तिपूर्वक पूजन करूँगा। जिनकी समस्त देवता, असुर, यक्ष, गन्धर्व,",
+          "translation": "On a transit day (sankranti), on a Sunday, and at an eclipse, a householder with sons should not break a fast or begin one.",
+          "translationSource": "ai"
         },
         {
           "number": 56,
           "sanskrit": "अर्के ऽह्नि पर्वरात्रघौ च चतुर्दश्यष्टमी दिवा । एकादश्यामहोरात्रं भुक्त्वा चान्द्रायणं चरेत्",
           "transliteration": "arke 'hni parvarātraghau ca caturdaśyaṣṭamī divā / ekādaśyāmahorātraṃ bhuktvā cāndrāyaṇaṃ caret",
-          "hindi": "राक्षस, नाग, मुनि तथा किन्नरसमुदाय आराधना करते रहते हैं। भगवान्के वे चरण दुस्सह संसार- बन्धनके मूलोच्छेदके हेतु हैं। वेदोंके रहस्यभूत उपनिषदोंद्वारा उनकी महिमाका स्पष्ट ज्ञान होता"
+          "hindi": "राक्षस, नाग, मुनि तथा किन्नरसमुदाय आराधना करते रहते हैं। भगवान्के वे चरण दुस्सह संसार- बन्धनके मूलोच्छेदके हेतु हैं। वेदोंके रहस्यभूत उपनिषदोंद्वारा उनकी महिमाका स्पष्ट ज्ञान होता",
+          "translation": "On Sunday, on a parva night, on the fourteenth and eighth by day, a man who eats on the eleventh day-and-night should perform the Chandrayana.",
+          "translationSource": "ai"
         },
         {
           "number": 57,
           "sanskrit": "आदित्यग्रहणे प्रात्पे पूर्वयामत्रये तथा । नाद्याद्वै यदि भुञ्जीत सुरापेन समो भवेत्",
           "transliteration": "ādityagrahaṇe prātpe pūrvayāmatraye tathā / nādyādvai yadi bhuñjīta surāpena samo bhavet",
-          "hindi": "है। वे ही सम्पूर्ण जगत्के आश्रय हैं। मैं उन्हीं भगवच्चरणारविन्दोंको अपने हृदयमें रखकर अत्यन्त दुःखसे भरे हुए संसारको लाँघ जाऊँगा।” इस प्रकार वह मनमें भावना करता है।"
+          "hindi": "है। वे ही सम्पूर्ण जगत्के आश्रय हैं। मैं उन्हीं भगवच्चरणारविन्दोंको अपने हृदयमें रखकर अत्यन्त दुःखसे भरे हुए संसारको लाँघ जाऊँगा।” इस प्रकार वह मनमें भावना करता है।",
+          "translation": "When a solar eclipse occurs, one should not eat in the first three watches; if he eats, he is equal to a drinker of liquor.",
+          "translationSource": "ai"
         },
         {
           "number": 58,
           "sanskrit": "अन्वाधानेष्टिमध्ये तु ग्रहणे चन्द्रसूर्ययोः । प्रायश्चित्तं मुनिश्रेष्ठ कर्त्तव्यं तत्र याज्ञिकैः",
           "transliteration": "anvādhāneṣṭimadhye tu grahaṇe candrasūryayoḥ / prāyaścittaṃ muniśreṣṭha karttavyaṃ tatra yājñikaiḥ",
-          "hindi": "नारदजी! जब माताके प्रसवका समय आता है, उस समय वह गर्भस्थ जीव वायुसे अत्यन्त पीड़ित हो माताको भी दुःख देता हुआ कर्मपाशसे बंधकर जबरदस्ती योनिमार्गसे निकलता है।"
+          "hindi": "नारदजी! जब माताके प्रसवका समय आता है, उस समय वह गर्भस्थ जीव वायुसे अत्यन्त पीड़ित हो माताको भी दुःख देता हुआ कर्मपाशसे बंधकर जबरदस्ती योनिमार्गसे निकलता है।",
+          "translation": "If an eclipse of the moon or sun occurs in the middle of the anvadhana or ishti rite, the sacrificers should perform expiation, O best of sages.",
+          "translationSource": "ai"
         },
         {
           "number": 59,
           "sanskrit": "चद्रोपरागे जुहुयाद्दशमे सोम इत्यृचा । आप्यायस्व ऋचा चैव सोमपास्त इति द्विज",
           "transliteration": "cadroparāge juhuyāddaśame soma ityṛcā / āpyāyasva ṛcā caiva somapāsta iti dvija",
-          "hindi": "निकलते समय सम्पूर्ण नरक-यातनाओंका भोग उसे एक ही साथ भोगना पड़ता है। बाहरकी वायुका स्पर्श होते ही उसकी स्मरणशक्ति नष्ट हो जाती है। फिर वह जीव बाल्यावस्थाको प्राप्त"
+          "hindi": "निकलते समय सम्पूर्ण नरक-यातनाओंका भोग उसे एक ही साथ भोगना पड़ता है। बाहरकी वायुका स्पर्श होते ही उसकी स्मरणशक्ति नष्ट हो जाती है। फिर वह जीव बाल्यावस्थाको प्राप्त",
+          "translation": "At a lunar eclipse he should offer with the verse \"Soma\" in the tenth, and with the verse \"Apyayasva\", and \"Somapa\", O Brahmin.",
+          "translationSource": "ai"
         },
         {
           "number": 60,
           "sanskrit": "सूर्योपरागे जुहुयादुदुत्यं जातवेदसम् । आसत्येंनोद्वयं चैव त्रयोमन्त्रा उदाहृताः",
           "transliteration": "sūryoparāge juhuyādudutyaṃ jātavedasam / āsatyeṃnodvayaṃ caiva trayomantrā udāhṛtāḥ",
-          "hindi": "होता है। उसमें भी अपने ही मल-मूत्रमें उसका शरीर लिपटा रहता है। आध्यात्मिक आदि त्रिविध दुःखोंसे पीड़ित होकर भी वह कुछ नहीं बता सकता। उसके रोनेपर लोग यह समझते हैं"
+          "hindi": "होता है। उसमें भी अपने ही मल-मूत्रमें उसका शरीर लिपटा रहता है। आध्यात्मिक आदि त्रिविध दुःखोंसे पीड़ित होकर भी वह कुछ नहीं बता सकता। उसके रोनेपर लोग यह समझते हैं",
+          "translation": "At a solar eclipse he should offer with \"Ud u tyam jatavedasam\" and \"Asatya\" — three mantras are cited.",
+          "translationSource": "ai"
         },
         {
           "number": 61,
           "sanskrit": "एवं तिथिं विनिश्चित्य स्मृतिमार्गेण पण्डितः । यः करोति व्रतादीनि तस्य स्यादक्षयं फलम्",
           "transliteration": "evaṃ tithiṃ viniścitya smṛtimārgeṇa paṇḍitaḥ / yaḥ karoti vratādīni tasya syādakṣayaṃ phalam",
-          "hindi": "कि यह भूख-प्याससे कष्ट पा रहा है, इसे दूध आदि देना चाहिए और इसी मान्यताके अनुसार"
+          "hindi": "कि यह भूख-प्याससे कष्ट पा रहा है, इसे दूध आदि देना चाहिए और इसी मान्यताके अनुसार",
+          "translation": "The wise one who, having settled the tithi by the path of Smriti, keeps vows and the like gains imperishable fruit.",
+          "translationSource": "ai"
         },
         {
           "number": 62,
           "sanskrit": "वेदप्रणिहितो धर्मो धर्मैस्तुष्यति केशवः । तस्माद्धर्मपरा यान्ति तद्विष्णोः परमं पदम्",
           "transliteration": "vedapraṇihito dharmo dharmaistuṣyati keśavaḥ / tasmāddharmaparā yānti tadviṣṇoḥ paramaṃ padam",
-          "hindi": "वे लोग प्रयत्र करते हैं। इस प्रकार वह अनेक प्रकारके शारीरिक कष्ट-भोगका अनुभव करता है। मच्छरोें और खटमलोंके काट लेनेपर वह उन्हें हयनेमें असमर्थ होता है। शैशवसे बाल्यावस्थामें पहुँचकर वहाँ माता-पिता और गुरुकी डाँट सुनता और चपत खाता है। वह बहुत-से"
+          "hindi": "वे लोग प्रयत्र करते हैं। इस प्रकार वह अनेक प्रकारके शारीरिक कष्ट-भोगका अनुभव करता है। मच्छरोें और खटमलोंके काट लेनेपर वह उन्हें हयनेमें असमर्थ होता है। शैशवसे बाल्यावस्थामें पहुँचकर वहाँ माता-पिता और गुरुकी डाँट सुनता और चपत खाता है। वह बहुत-से",
+          "translation": "Dharma is what the Veda enjoins; Keshava is pleased by dharmas. Therefore those devoted to dharma go to the supreme abode of Vishnu.",
+          "translationSource": "ai"
         },
         {
           "number": 63,
           "sanskrit": "धर्मान्ये कर्त्तुमिच्छन्ति ते वै कृष्णस्वरुपिणः । तस्मात्तांस्तु भवव्याधिः कदाचिन्नैव बाधते",
           "transliteration": "dharmānye karttumicchanti te vai kṛṣṇasvarupiṇaḥ / tasmāttāṃstu bhavavyādhiḥ kadācinnaiva bādhate",
-          "hindi": "(अत: व्यापार नहीं हो सकता), इधर वर्षा भी नहीं हो रही है (अत: खेतीसे क्‍या आशा कौ जाय), मेरी घरवालीके बच्चे अभी बहुत छोटे हैं (अत: उनसे काम-काजमें कोई मदद नहीं"
+          "hindi": "(अत: व्यापार नहीं हो सकता), इधर वर्षा भी नहीं हो रही है (अत: खेतीसे क्‍या आशा कौ जाय), मेरी घरवालीके बच्चे अभी बहुत छोटे हैं (अत: उनसे काम-काजमें कोई मदद नहीं",
+          "translation": "Those who wish to practise dharma have the form of Krishna himself; the disease of worldly existence never troubles them.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -17275,349 +17307,465 @@
           "number": 57,
           "sanskrit": "अज्ञानान्मातरं गत्वा तत्सपत्नीमथापि वा । स्वयमेव स्वमुष्कं तु च्छिन्द्यात्पापमुदीरयन्",
           "transliteration": "ajñānānmātaraṃ gatvā tatsapatnīmathāpi vā / svayameva svamuṣkaṃ tu cchindyātpāpamudīrayan",
-          "hindi": "जितने भोग हैं, उनकी ओरसे विरक्त होना चाहिए। जो भोगोंसे विरक्त नहीं होता, वह संसारमें फँस जाता है। जो मानव जगत्के अनित्य पदार्थोमें आसक्त होता है, उसके संसार-बन्धनका"
+          "hindi": "जितने भोग हैं, उनकी ओरसे विरक्त होना चाहिए। जो भोगोंसे विरक्त नहीं होता, वह संसारमें फँस जाता है। जो मानव जगत्के अनित्य पदार्थोमें आसक्त होता है, उसके संसार-बन्धनका",
+          "translation": "One who unknowingly has gone to his mother or her co-wife should himself cut off his own testicles, proclaiming his sin,",
+          "translationSource": "ai"
         },
         {
           "number": 58,
           "sanskrit": "हस्ते गृहीत्वा मुष्कं तु गच्छन्द्वै नैऋतीं दिशम् । गच्छन्मार्गै सुखं दुःखं न कदाचिद्विचारयेत्",
           "transliteration": "haste gṛhītvā muṣkaṃ tu gacchandvai naiṛtīṃ diśam / gacchanmārgai sukhaṃ duḥkhaṃ na kadācidvicārayet",
-          "hindi": "नाश कभी नहीं होता। अत: शम, दम आदि गुणोंसे सम्पन्न हो मुक्तिकी इच्छा रखकर ज्ञान- प्राप्तिेके लिये साधन करे। जो शम (दम, तितिक्षा, उपरति, श्रद्धा और समाधान) आदि गुणोंसे शून्य"
+          "hindi": "नाश कभी नहीं होता। अत: शम, दम आदि गुणोंसे सम्पन्न हो मुक्तिकी इच्छा रखकर ज्ञान- प्राप्तिेके लिये साधन करे। जो शम (दम, तितिक्षा, उपरति, श्रद्धा और समाधान) आदि गुणोंसे शून्य",
+          "translation": "and holding them in his hand, go toward the south-west; on the road he should never consider pleasure or pain.",
+          "translationSource": "ai"
         },
         {
           "number": 59,
           "sanskrit": "अपश्यन्गच्छतो गच्छेत्पाणान्तं यः स शुद्ध्यति । मरुत्प्रपतनं वापि कुर्यात्पापमुदाहरन्",
           "transliteration": "apaśyangacchato gacchetpāṇāntaṃ yaḥ sa śuddhyati / marutprapatanaṃ vāpi kuryātpāpamudāharan",
-          "hindi": "है, उसे ज्ञानकी प्राप्ति नहीं होती। जो राग-द्वेषसे रहित, शमादि गुणोंसे सम्पन्न तथा प्रतिदिन भगवान् विष्णुके ध्यानमें तत्पर है, उसीको 'मुमुक्षु' कहते हैं। इन चार (नित्यानित्यवस्तुविचार, वैराग्य, षट्"
+          "hindi": "है, उसे ज्ञानकी प्राप्ति नहीं होती। जो राग-द्वेषसे रहित, शमादि गुणोंसे सम्पन्न तथा प्रतिदिन भगवान् विष्णुके ध्यानमें तत्पर है, उसीको 'मुमुक्षु' कहते हैं। इन चार (नित्यानित्यवस्तुविचार, वैराग्य, षट्",
+          "translation": "He who goes, not looking behind, until death is purified; or he may throw himself down from a height, declaring the sin.",
+          "translationSource": "ai"
         },
         {
           "number": 60,
           "sanskrit": "स्ववर्णोत्तमवर्णस्त्रीगमने त्वविचारतः । ब्राह्महत्याव्रतं कुर्याद्वादशाब्दं समाहितः",
           "transliteration": "svavarṇottamavarṇastrīgamane tvavicārataḥ / brāhmahatyāvrataṃ kuryādvādaśābdaṃ samāhitaḥ",
-          "hindi": "सम्पत्ति और मुमुक्षुत्व--) साधनोंसे मनुष्य विशुद्धबुद्धि कहा जाता है। ऐसा पुरुष सम्पूर्ण"
+          "hindi": "सम्पत्ति और मुमुक्षुत्व--) साधनोंसे मनुष्य विशुद्धबुद्धि कहा जाता है। ऐसा पुरुष सम्पूर्ण",
+          "translation": "For going without discrimination to a woman of his own class or a higher class, he should attentively perform the Brahmin-slayer's vow for twelve years.",
+          "translationSource": "ai"
         },
         {
           "number": 61,
           "sanskrit": "अमत्याभ्यासतो गच्छेत्सवर्णां चोत्तमां तथा । कारीषवह्निना दग्धः शुद्धिं याति द्विजोत्तम",
           "transliteration": "amatyābhyāsato gacchetsavarṇāṃ cottamāṃ tathā / kārīṣavahninā dagdhaḥ śuddhiṃ yāti dvijottama",
-          "hindi": ".। रूप है, न रंग है, न कर्तव्य कर्म है और न कर्तृत्व या भोक्तृत्व ही है। वे सब कारणोंके भी आदिकारण हैं, सम्पूर्ण तेजोंके प्रकाशक परम तेज हैं। उनसे भिन्न दूसरी कोई वस्तु नहीं है। मुक्तिके"
+          "hindi": ".। रूप है, न रंग है, न कर्तव्य कर्म है और न कर्तृत्व या भोक्तृत्व ही है। वे सब कारणोंके भी आदिकारण हैं, सम्पूर्ण तेजोंके प्रकाशक परम तेज हैं। उनसे भिन्न दूसरी कोई वस्तु नहीं है। मुक्तिके",
+          "translation": "One who by repeated habit but unintentionally goes to a woman of his own or a higher class is purified, O best of twice-born, by burning in a fire of dried dung.",
+          "translationSource": "ai"
         },
         {
           "number": 62,
           "sanskrit": "रेतःसेकात्पूर्वमेव निवृत्तो यदि मातरि । ब्रह्महत्याव्रतं कुर्याद्रेतः सेके ऽग्निदाहनम्",
           "transliteration": "retaḥsekātpūrvameva nivṛtto yadi mātari / brahmahatyāvrataṃ kuryādretaḥ seke 'gnidāhanam",
-          "hindi": "लिये उन्हीं परमात्माका ज्ञान प्राप्त करना चाहिए। ब्रह्मन् ! शब्दब्रह्ममय जो महावाक्य आदि हैं अर्थात्"
+          "hindi": "लिये उन्हीं परमात्माका ज्ञान प्राप्त करना चाहिए। ब्रह्मन् ! शब्दब्रह्ममय जो महावाक्य आदि हैं अर्थात्",
+          "translation": "If he turns back from his mother before the discharge of semen, he should perform the Brahmin-slayer's vow; if after discharge, death by fire.",
+          "translationSource": "ai"
         },
         {
           "number": 63,
           "sanskrit": "सवर्णोत्तमवर्णासु निवृत्तो वीर्यसेचनात् । ब्रह्महत्याव्रतं कुर्यान्नवाब्दान्विष्णुतत्परः",
           "transliteration": "savarṇottamavarṇāsu nivṛtto vīryasecanāt / brahmahatyāvrataṃ kuryānnavābdānviṣṇutatparaḥ",
-          "hindi": "महावाक्य हैं, उनपर विचार करनेसे जीवात्मा और परमात्माका अभेद ज्ञान प्रकाशित होता है, वह मुक्तिका सर्वश्रेष्ठ साधन है। नारदजी! जो उत्तम ज्ञानसे हीन हैं, उन्हें यह जगत् नाना भेदोंसे युक्त"
+          "hindi": "महावाक्य हैं, उनपर विचार करनेसे जीवात्मा और परमात्माका अभेद ज्ञान प्रकाशित होता है, वह मुक्तिका सर्वश्रेष्ठ साधन है। नारदजी! जो उत्तम ज्ञानसे हीन हैं, उन्हें यह जगत् नाना भेदोंसे युक्त",
+          "translation": "If he stops before discharge with women of his own or higher class, he should perform the Brahmin-slayer's vow for nine years, devoted to Vishnu.",
+          "translationSource": "ai"
         },
         {
           "number": 64,
           "sanskrit": "वैश्यायां पितृपत्न्यां तु षडब्दं व्रतमाचरेत् । गत्वा शूद्वां गुरोर्भार्यां त्रिवर्षं व्रतमाचरेत्",
           "transliteration": "vaiśyāyāṃ pitṛpatnyāṃ tu ṣaḍabdaṃ vratamācaret / gatvā śūdvāṃ gurorbhāryāṃ trivarṣaṃ vratamācaret",
-          "hindi": "दिखायी देता है, परंतु परम ज्ञानियोंकी दृष्टिमें यह सब परजब्रह्मरूप है। परमानन्दस्वरूप, परात्पर, अविनाशी एवं निर्गुण परमात्मा एक ही हैं, किंतु बुद्धिभेदसे वे भिन्न-भिन्न अनेक रूप धारण करनेवाले"
+          "hindi": "दिखायी देता है, परंतु परम ज्ञानियोंकी दृष्टिमें यह सब परजब्रह्मरूप है। परमानन्दस्वरूप, परात्पर, अविनाशी एवं निर्गुण परमात्मा एक ही हैं, किंतु बुद्धिभेदसे वे भिन्न-भिन्न अनेक रूप धारण करनेवाले",
+          "translation": "With a Vaishya woman or his father's wife he should keep the vow six years; having gone to a Shudra woman or his teacher's wife, three years.",
+          "translationSource": "ai"
         },
         {
           "number": 65,
           "sanskrit": "मातृष्वसारं च पितृष्वसारमाचार्यभार्यां श्वशुरस्य पत्नीम् । पितृव्यभार्यामथ मातुलानीं पुत्रीं च गच्छेद्यदि काममुग्धः",
           "transliteration": "mātṛṣvasāraṃ ca pitṛṣvasāramācāryabhāryāṃ śvaśurasya patnīm / pitṛvyabhāryāmatha mātulānīṃ putrīṃ ca gacchedyadi kāmamugdhaḥ",
-          "hindi": "प्रतीत होते हैं। द्विजश्रेष्ठ जिनके ऊपर मायाका पर्दा पड़ा है, वे मायाके कारण परमात्मामें भेद देखते हैं, अत: मुक्तिकी इच्छा रखनेवाला पुरुष योगके बलसे मायाको निस्सार समझकर त्याग"
+          "hindi": "प्रतीत होते हैं। द्विजश्रेष्ठ जिनके ऊपर मायाका पर्दा पड़ा है, वे मायाके कारण परमात्मामें भेद देखते हैं, अत: मुक्तिकी इच्छा रखनेवाला पुरुष योगके बलसे मायाको निस्सार समझकर त्याग",
+          "translation": "If, infatuated by desire, he goes to his maternal aunt, paternal aunt, teacher's wife, father-in-law's wife, uncle's wife, maternal uncle's wife, or his daughter,",
+          "translationSource": "ai"
         },
         {
           "number": 66,
           "sanskrit": "दिनद्वये ब्रह्महत्याव्रतं कुर्याद्यथाविधि । एकस्मिन्नेव दिवसे बहुवारं त्रिवार्षिकम्",
           "transliteration": "dinadvaye brahmahatyāvrataṃ kuryādyathāvidhi / ekasminneva divase bahuvāraṃ trivārṣikam",
-          "hindi": "दे। माया न सद्रप है, न असद्रूप, न सद्ू-असद् उभयरूप है, अतः उसे अनिर्वाच्य (किसी रूपमें भी न कहने योग्य) समझना चाहिए। वह केवल भेदबुद्धि प्रदान करनेवाली है। मुनिश्रेष्ठ! अज्ञान"
+          "hindi": "दे। माया न सद्रप है, न असद्रूप, न सद्ू-असद् उभयरूप है, अतः उसे अनिर्वाच्य (किसी रूपमें भी न कहने योग्य) समझना चाहिए। वह केवल भेदबुद्धि प्रदान करनेवाली है। मुनिश्रेष्ठ! अज्ञान",
+          "translation": "he should perform the Brahmin-slayer's vow properly on two days; if many times in a single day, for three years.",
+          "translationSource": "ai"
         },
         {
           "number": 67,
           "sanskrit": "एकवारं गते ह्यब्दंव्रतं कृत्वा विशुद्ध्यति । दिनत्रये गते वह्निदग्धः शुध्येत नान्यथा",
           "transliteration": "ekavāraṃ gate hyabdaṃvrataṃ kṛtvā viśuddhyati / dinatraye gate vahnidagdhaḥ śudhyeta nānyathā",
-          "hindi": "शब्दसे मायाका ही बोध होता है, अत: जो मायाको"
+          "hindi": "शब्दसे मायाका ही बोध होता है, अत: जो मायाको",
+          "translation": "If once, he is purified by a vow of a year; if over three days, he is purified only by burning in fire, not otherwise.",
+          "translationSource": "ai"
         },
         {
           "number": 68,
           "sanskrit": "चाञ्जालीं पुष्कसीं चैव स्नुषां च भगिनीं तथा । मित्रस्त्रियं शिष्यपत्नीं यस्तु वै कामतो व्रजेत्",
           "transliteration": "cāñjālīṃ puṣkasīṃ caiva snuṣāṃ ca bhaginīṃ tathā / mitrastriyaṃ śiṣyapatnīṃ yastu vai kāmato vrajet",
-          "hindi": "प्राणियोंके प्रति दयाभाव रखते हुए सदा सर्वव्यापी भगवान् विष्णुका ध्यान करे। ब्रह्मन्! क्षर-अक्षर (जड-चेतन) स्वरूप सम्पूर्ण विश्वको व्याप्त करके भगवान् नारायण विराजमान हैं।"
+          "hindi": "प्राणियोंके प्रति दयाभाव रखते हुए सदा सर्वव्यापी भगवान् विष्णुका ध्यान करे। ब्रह्मन्! क्षर-अक्षर (जड-चेतन) स्वरूप सम्पूर्ण विश्वको व्याप्त करके भगवान् नारायण विराजमान हैं।",
+          "translation": "One who goes by desire to a Chandali, a Pukkasi, a daughter-in-law, a sister, a friend's wife or a disciple's wife,",
+          "translationSource": "ai"
         },
         {
           "number": 69,
           "sanskrit": "ब्रह्महत्याव्रतं कुर्यात्स षडब्दं मुनीश्वर । अकामतो व्रजेद्यस्तु सो ऽब्दकृच्छ्रं समाचरेत्",
           "transliteration": "brahmahatyāvrataṃ kuryātsa ṣaḍabdaṃ munīśvara / akāmato vrajedyastu so 'bdakṛcchraṃ samācaret",
-          "hindi": "ऐसा जो जानता है, उसका ज्ञान योगज माना गया है। अतः: मैं योगका उपाय बतलाता हूँ। जो संसार-बन्धनको दूर करनेवाला है। पर और अपर-भेदसे आत्मा दो प्रकारका"
+          "hindi": "ऐसा जो जानता है, उसका ज्ञान योगज माना गया है। अतः: मैं योगका उपाय बतलाता हूँ। जो संसार-बन्धनको दूर करनेवाला है। पर और अपर-भेदसे आत्मा दो प्रकारका",
+          "translation": "should keep the Brahmin-slayer's vow for six years, O lord of sages; if unintentionally, the year-long Krichchhra.",
+          "translationSource": "ai"
         },
         {
           "number": 70,
           "sanskrit": "महापातकिसंसर्गे प्रायश्चित्तं निगद्यते । प्रायश्चित्तविशुद्धात्मा सर्वकर्मफलं लभेत्",
           "transliteration": "mahāpātakisaṃsarge prāyaścittaṃ nigadyate / prāyaścittaviśuddhātmā sarvakarmaphalaṃ labhet",
-          "hindi": "कहा गया है। अथर्ववेदकी श्रुति भी कहती है कि दो ब्रह्म जानने योग्य हैं। पर आत्मा अथवा परब्रह्मको निर्गुण बताया गया है तथा अपर आत्मा या अपरब्रह्म अहंकारयुक्त (जीवात्मा) कहा गया"
+          "hindi": "कहा गया है। अथर्ववेदकी श्रुति भी कहती है कि दो ब्रह्म जानने योग्य हैं। पर आत्मा अथवा परब्रह्मको निर्गुण बताया गया है तथा अपर आत्मा या अपरब्रह्म अहंकारयुक्त (जीवात्मा) कहा गया",
+          "translation": "Expiation is declared for association with great sinners; one purified by expiation obtains the fruit of all rites.",
+          "translationSource": "ai"
         },
         {
           "number": 71,
           "sanskrit": "यस्य येन भवेत्संगो ब्रह्महान्दिचतुर्ष्वपि । तत्तद्व्रतं स निव्रर्त्य शुद्धिमान्पोत्यसंशयम्",
           "transliteration": "yasya yena bhavetsaṃgo brahmahāndicaturṣvapi / tattadvrataṃ sa nivrartya śuddhimānpotyasaṃśayam",
-          "hindi": "है। इन दोनोंके अभेदका ज्ञान 'ज्ञानयोग” कहलाता है। इस पाञ्नभौतिक शरीरके भीतर हृदयदेशमें जो साक्षीरूपमें स्थित है, उसे साधु पुरुषोंने अपरात्मा कहा है तथा परमात्मा पर (श्रेष्ठ) माने गये हैं।"
+          "hindi": "है। इन दोनोंके अभेदका ज्ञान 'ज्ञानयोग” कहलाता है। इस पाञ्नभौतिक शरीरके भीतर हृदयदेशमें जो साक्षीरूपमें स्थित है, उसे साधु पुरुषोंने अपरात्मा कहा है तथा परमात्मा पर (श्रेष्ठ) माने गये हैं।",
+          "translation": "With whichever of the four, beginning with the Brahmin-slayer, one associates, by performing that vow he is purified, without doubt.",
+          "translationSource": "ai"
         },
         {
           "number": 72,
           "sanskrit": "अज्ञानात्पञ्चरात्रं तु संगमेभिः करोतियः । कायकृच्छ्रं चरेत्सम्यगन्यथा पतितो भवेत्",
           "transliteration": "ajñānātpañcarātraṃ tu saṃgamebhiḥ karotiyaḥ / kāyakṛcchraṃ caretsamyaganyathā patito bhavet",
-          "hindi": "शरीरको क्षेत्र कहते हैं। जो क्षेत्रमें स्थित आत्मा है, वह क्षेत्रत्ष कहलाता है। परमात्मा अव्यक्त, शुद्ध एवं सर्वत्र परिपूर्ण कहा गया है। मुनिश्रेष्ठ ! जब जीवात्मा और परमात्माके अभेदका ज्ञान हो"
+          "hindi": "शरीरको क्षेत्र कहते हैं। जो क्षेत्रमें स्थित आत्मा है, वह क्षेत्रत्ष कहलाता है। परमात्मा अव्यक्त, शुद्ध एवं सर्वत्र परिपूर्ण कहा गया है। मुनिश्रेष्ठ ! जब जीवात्मा और परमात्माके अभेदका ज्ञान हो",
+          "translation": "One who unknowingly associates with them for five nights should perform the Kayakrichchhra properly; otherwise he falls.",
+          "translationSource": "ai"
         },
         {
           "number": 73,
           "sanskrit": "द्वादशाहेतु संसर्गे महासांतपनं स्मृतम् । संगङ्कृत्वार्द्धमासं तु द्वादशाहमुपावसेत्",
           "transliteration": "dvādaśāhetu saṃsarge mahāsāṃtapanaṃ smṛtam / saṃgaṅkṛtvārddhamāsaṃ tu dvādaśāhamupāvaset",
-          "hindi": "जाता है, तब अपरात्माके बन्धनका नाश होता है।"
+          "hindi": "जाता है, तब अपरात्माके बन्धनका नाश होता है।",
+          "translation": "For association of twelve days, the Mahasantapana is declared; after association of half a month, fasting twelve days.",
+          "translationSource": "ai"
         },
         {
           "number": 74,
           "sanskrit": "पराको माससंसर्गे चान्द्रमासत्रयेस्मृतम् । कृत्वा संगं तु षण्मासं चरेच्चान्द्रायणद्वयम्",
           "transliteration": "parāko māsasaṃsarge cāndramāsatrayesmṛtam / kṛtvā saṃgaṃ tu ṣaṇmāsaṃ careccāndrāyaṇadvayam",
-          "hindi": "हैं। वे मनुष्योंके बुद्धिभेदसे भेदवान्ू-से दिखायी देते हैं। ब्रह्मनन्! उपनिषदोंद्वारा वर्णित जो एक अद्वितीय सनातन परनब्रह्म परमात्मा हैं, उनसे भिन्न  जीत लेते हैं, उनके अज्ञानका नाश हो जाता है। कोई वस्तु नहीं है'। उन निर्गुण परमात्माका न  ज्ञान शब्दसे सनातन परब्रह्मका ही प्रतिपादन किया"
+          "hindi": "हैं। वे मनुष्योंके बुद्धिभेदसे भेदवान्ू-से दिखायी देते हैं। ब्रह्मनन्! उपनिषदोंद्वारा वर्णित जो एक अद्वितीय सनातन परनब्रह्म परमात्मा हैं, उनसे भिन्न  जीत लेते हैं, उनके अज्ञानका नाश हो जाता है। कोई वस्तु नहीं है'। उन निर्गुण परमात्माका न  ज्ञान शब्दसे सनातन परब्रह्मका ही प्रतिपादन किया",
+          "translation": "The Parakas for association of a month; for three months, the Chandrayana; having associated six months, two Chandrayanas.",
+          "translationSource": "ai"
         },
         {
           "number": 75,
           "sanskrit": "किञ्चिन्न्यूनाब्दसंगे तु षण्मासव्रतमाचरेत् । एतच्च त्रिगुणं प्रोक्तं ज्ञानात्संगे यथाक्रमम्",
           "transliteration": "kiñcinnyūnābdasaṃge tu ṣaṇmāsavratamācaret / etacca triguṇaṃ proktaṃ jñānātsaṃge yathākramam",
-          "hindi": "१.यदा त्वभेदविज्ञानं जीवात्मपरमात्मनो:। भवेत्ताा मुनिश्रेष्ठ. पाशच्छेदो5परात्मन: ॥"
+          "hindi": "१.यदा त्वभेदविज्ञानं जीवात्मपरमात्मनो:। भवेत्ताा मुनिश्रेष्ठ. पाशच्छेदो5परात्मन: ॥",
+          "translation": "For association of slightly less than a year, a six-month vow; this is said threefold if done knowingly, in order.",
+          "translationSource": "ai"
         },
         {
           "number": 76,
           "sanskrit": "मण्डूकं नकुलं काकं वराहं मूषकं तथा । मार्जाराजाविकं श्वानं हत्वा कुक्कुटकं तथा",
           "transliteration": "maṇḍūkaṃ nakulaṃ kākaṃ varāhaṃ mūṣakaṃ tathā / mārjārājāvikaṃ śvānaṃ hatvā kukkuṭakaṃ tathā",
-          "hindi": "एकमेवाद्धितीयंयत्परं ब्रह्म सनातनम्। गीयमानं च वेदान्तैस्तस्मान्नास्ति पर द्विज॥"
+          "hindi": "एकमेवाद्धितीयंयत्परं ब्रह्म सनातनम्। गीयमानं च वेदान्तैस्तस्मान्नास्ति पर द्विज॥",
+          "translation": "Having killed a frog, mongoose, crow, boar, mouse, cat, goat, sheep, dog or cock,",
+          "translationSource": "ai"
         },
         {
           "number": 77,
           "sanskrit": "कृच्छ्रार्द्धमाचरेद्विप्रो ऽतिकृच्छ्रं चाश्वह चरेत् । जत्पकृच्छ्रं करिवधे पराकं गोवधे स्मृतम्",
           "transliteration": "kṛcchrārddhamācaredvipro 'tikṛcchraṃ cāśvaha caret / jatpakṛcchraṃ karivadhe parākaṃ govadhe smṛtam",
-          "hindi": "नासद्रपा न सद्रुपा माया नैवोभयात्मिका। अनिर्वाच्या ततो ज्ञेया भेदबुद्धिप्रदायिनी॥ मायैवाज्ञानशब्देन. बुद्धघते मुनिसत्तम। तस्मादज्ञानविच्छेदी. भवेद्दे जितमायिनाम्॥"
+          "hindi": "नासद्रपा न सद्रुपा माया नैवोभयात्मिका। अनिर्वाच्या ततो ज्ञेया भेदबुद्धिप्रदायिनी॥ मायैवाज्ञानशब्देन. बुद्धघते मुनिसत्तम। तस्मादज्ञानविच्छेदी. भवेद्दे जितमायिनाम्॥",
+          "translation": "a Brahmin should do half a Krichchhra; the Atikrichchhra for a horse; the Taptakrichchhra for killing an elephant; the Paraka for killing a cow.",
+          "translationSource": "ai"
         },
         {
           "number": 78,
           "sanskrit": "कामतो गोवधे नैव शुद्धिर्द्दष्टा मनीषिभिः । पानशय्यासनाद्येषु पुष्पमूलफलेषु च",
           "transliteration": "kāmato govadhe naiva śuddhirddaṣṭā manīṣibhiḥ / pānaśayyāsanādyeṣu puṣpamūlaphaleṣu ca",
-          "hindi": "जाता है, क्योंकि ज्ञानियोंके हृदयमें निरन्तर परमात्मा प्रकाशित होते रहते हैं। मुनिश्रेष्ठ ! योगी पुरुष योगके द्वारा अज्ञानका नाश करे। योग आठ अड्जोंसे सिद्ध होता है; अत: मैं उन आदठों"
+          "hindi": "जाता है, क्योंकि ज्ञानियोंके हृदयमें निरन्तर परमात्मा प्रकाशित होते रहते हैं। मुनिश्रेष्ठ ! योगी पुरुष योगके द्वारा अज्ञानका नाश करे। योग आठ अड्जोंसे सिद्ध होता है; अत: मैं उन आदठों",
+          "translation": "For killing a cow intentionally, the wise see no purification. For things such as drink, bed, seat, flowers, roots and fruit,",
+          "translationSource": "ai"
         },
         {
           "number": 79,
           "sanskrit": "भक्ष्यभोज्यापहारेषु पञ्चगव्यविशोधनम् । शुष्ककाष्टतृणानां च द्रुमाणां च गुडस्य च",
           "transliteration": "bhakṣyabhojyāpahāreṣu pañcagavyaviśodhanam / śuṣkakāṣṭatṛṇānāṃ ca drumāṇāṃ ca guḍasya ca",
-          "hindi": "अड्रोंका यथार्थरूपसे वर्णन करता हूँ।"
+          "hindi": "अड्रोंका यथार्थरूपसे वर्णन करता हूँ।",
+          "translation": "and for theft of food and eatables, purification is by the five cow-products. For dry wood, grass, trees and jaggery,",
+          "translationSource": "ai"
         },
         {
           "number": 80,
           "sanskrit": "चर्मवस्त्रामिषाणां च त्रिरात्रं स्यादभोजनम् । टिट्टिभं चक्रवाकं च हंसं कारण्डवं तथा",
           "transliteration": "carmavastrāmiṣāṇāṃ ca trirātraṃ syādabhojanam / ṭiṭṭibhaṃ cakravākaṃ ca haṃsaṃ kāraṇḍavaṃ tathā",
-          "hindi": "मुनिवर नारद! यम, नियम, आसन, प्राणायाम, प्रत्याहार, धारणा, ध्यान और समाधि--ये योगके आठ अड्ड हैं'। मुनीधर! अब क्रमश: संक्षेपसे इनके लक्षण बतलाता हूँ। अहिंसा, सत्य, अस्तेय,"
+          "hindi": "मुनिवर नारद! यम, नियम, आसन, प्राणायाम, प्रत्याहार, धारणा, ध्यान और समाधि--ये योगके आठ अड्ड हैं'। मुनीधर! अब क्रमश: संक्षेपसे इनके लक्षण बतलाता हूँ। अहिंसा, सत्य, अस्तेय,",
+          "translation": "and for leather, cloth and meat, three days' fasting. Having killed a lapwing, ruddy goose, swan, karandava,",
+          "translationSource": "ai"
         },
         {
           "number": 81,
           "sanskrit": "उलूकं सारसं चैव पकोतं जलपादकम् । शुकं चाषं बलाकं च शिशुमारं च कच्छपम्",
           "transliteration": "ulūkaṃ sārasaṃ caiva pakotaṃ jalapādakam / śukaṃ cāṣaṃ balākaṃ ca śiśumāraṃ ca kacchapam",
-          "hindi": "ब्रह्मचर्य, अपरिग्रह, अक्रोध और अनसूया--ये संक्षेपसे यम बताये गये हैं। सम्पूर्ण प्राणियोंमेंसे किसीको (कभी किंचिन्मात्र) भी जो कष्ट न पहुँचानेका भाव है, उसे सत्पुरुषोंने 'अहिंसा'"
+          "hindi": "ब्रह्मचर्य, अपरिग्रह, अक्रोध और अनसूया--ये संक्षेपसे यम बताये गये हैं। सम्पूर्ण प्राणियोंमेंसे किसीको (कभी किंचिन्मात्र) भी जो कष्ट न पहुँचानेका भाव है, उसे सत्पुरुषोंने 'अहिंसा'",
+          "translation": "owl, crane, pigeon, water-fowl, parrot, chasha, heron, porpoise or tortoise,",
+          "translationSource": "ai"
         },
         {
           "number": 82,
           "sanskrit": "एतेष्वन्यतमं हत्वा द्वादशाहमभोजनम् । प्राजापत्यव्रतं कुर्याद्रेतोविण्मूत्रभोजने",
           "transliteration": "eteṣvanyatamaṃ hatvā dvādaśāhamabhojanam / prājāpatyavrataṃ kuryādretoviṇmūtrabhojane",
-          "hindi": "कहा है। 'अहिंसा' योगमार्गमें सिद्धि प्रदान करनेवाली है। मुनिश्रेष्ठ) धर्म और अधर्मका विचार रखते हुए जो यथार्थ बात कही जाती है, उसे श्रेष्ठ पुरुष “सत्य” कहते हैं। चोरीसे या"
+          "hindi": "कहा है। 'अहिंसा' योगमार्गमें सिद्धि प्रदान करनेवाली है। मुनिश्रेष्ठ) धर्म और अधर्मका विचार रखते हुए जो यथार्थ बात कही जाती है, उसे श्रेष्ठ पुरुष “सत्य” कहते हैं। चोरीसे या",
+          "translation": "one should fast twelve days; for eating semen, faeces or urine, he should keep the Prajapatya vow.",
+          "translationSource": "ai"
         },
         {
           "number": 83,
           "sanskrit": "चान्द्रायणत्रयं प्रोक्तं शूद्रोच्छिष्टस्य भोजने । रजस्वलां च चाण्डालं महापातकिनं तथा",
           "transliteration": "cāndrāyaṇatrayaṃ proktaṃ śūdrocchiṣṭasya bhojane / rajasvalāṃ ca cāṇḍālaṃ mahāpātakinaṃ tathā",
-          "hindi": "बलपूर्वक जो दूसरेके धनको हड़प लेना है, वह साधु पुरुषोंद्वारा 'स्तेय” कहा गया है। इसके विपरीत किसीकी वस्तुको न लेना “अस्तेय' है। सब प्रकारसे मैथुनका त्याग 'ब्रह्मचर्य' कहा गया"
+          "hindi": "बलपूर्वक जो दूसरेके धनको हड़प लेना है, वह साधु पुरुषोंद्वारा 'स्तेय” कहा गया है। इसके विपरीत किसीकी वस्तुको न लेना “अस्तेय' है। सब प्रकारसे मैथुनका त्याग 'ब्रह्मचर्य' कहा गया",
+          "translation": "Three Chandrayanas are declared for eating a Shudra's leavings. A menstruating woman, a Chandala, a great sinner,",
+          "translationSource": "ai"
         },
         {
           "number": 84,
           "sanskrit": "सूतिकां पतितं चैव उच्छिष्टं रजकादिकम् । स्पृष्ट्वा सचैलं स्नायीत घृतं संप्राशेयत्तथा",
           "transliteration": "sūtikāṃ patitaṃ caiva ucchiṣṭaṃ rajakādikam / spṛṣṭvā sacailaṃ snāyīta ghṛtaṃ saṃprāśeyattathā",
-          "hindi": "है। मुनीधर ! आपत्तिकालमें भी द्र॒व्योंका संग्रह न करना “अपरिग्रह' कहा गया है। वह योगमार्गमें उत्तम सिद्धि प्रदान करनेवाला है। जो अपना उत्कर्ष जताते हुए किसीके प्रति अत्यन्त कठोर"
+          "hindi": "है। मुनीधर ! आपत्तिकालमें भी द्र॒व्योंका संग्रह न करना “अपरिग्रह' कहा गया है। वह योगमार्गमें उत्तम सिद्धि प्रदान करनेवाला है। जो अपना उत्कर्ष जताते हुए किसीके प्रति अत्यन्त कठोर",
+          "translation": "a woman in childbirth, an outcaste, leavings, a washerman and the like — having touched them one should bathe with clothes on and taste ghee,",
+          "translationSource": "ai"
         },
         {
           "number": 85,
           "sanskrit": "गायत्रीं च विशुद्धात्मा जपेदष्टशतं द्विज । एतेष्वन्यतमं स्पृष्ट्वा अज्ञानाधद्यदि भोजने",
           "transliteration": "gāyatrīṃ ca viśuddhātmā japedaṣṭaśataṃ dvija / eteṣvanyatamaṃ spṛṣṭvā ajñānādhadyadi bhojane",
-          "hindi": "वचन बोलता है, उसके उस क्रूरतापूर्ण भावको धर्मज्ञ पुरुष “क्रोध” कहते हैं, इसके विपरीत शान्तभावका नाम “अक्रोध' है। धन आदिके द्वारा किसीको बढ़ते देखकर डाहके कारण जो"
+          "hindi": "वचन बोलता है, उसके उस क्रूरतापूर्ण भावको धर्मज्ञ पुरुष “क्रोध” कहते हैं, इसके विपरीत शान्तभावका नाम “अक्रोध' है। धन आदिके द्वारा किसीको बढ़ते देखकर डाहके कारण जो",
+          "translation": "and the pure-minded, O Brahmin, should chant the Gayatri a hundred and eight times. If one touches any of these unknowingly or eats after,",
+          "translationSource": "ai"
         },
         {
           "number": 86,
           "sanskrit": "त्रिरात्रो पोषणाच्छुद्ध्ये त्पञ्चगव्याशनाद्विज । स्नानदानजपादौ च भोजनादौ च नारद",
           "transliteration": "trirātro poṣaṇācchuddhye tpañcagavyāśanādvija / snānadānajapādau ca bhojanādau ca nārada",
-          "hindi": "मनमें संताप होता है, उसे साधु पुरुषोंने ' असूया ' (ईर्ष्या) कहा है; इस “असूया' का त्याग ही"
+          "hindi": "मनमें संताप होता है, उसे साधु पुरुषोंने ' असूया ' (ईर्ष्या) कहा है; इस “असूया' का त्याग ही",
+          "translation": "he is purified in three nights, by fasting and the five cow-products, O Brahmin. In bathing, giving, chanting, and in eating, O Narada,",
+          "translationSource": "ai"
         },
         {
           "number": 87,
           "sanskrit": "एषामन्यतमस्यापि शब्दं यः शृणुयाद्वदेत् । उद्वमेद्धुक्तमंन्नतत्स्त्रात्वा चोपवसेत्तथा",
           "transliteration": "eṣāmanyatamasyāpi śabdaṃ yaḥ śṛṇuyādvadet / udvameddhuktamaṃnnatatstrātvā copavasettathā",
-          "hindi": "“अनसूया” है। देवर्षे! इस प्रकार संक्षेपसे “यम” बताये गये हैं। नारदजी! अब मैं तुम्हें 'नियम!'"
+          "hindi": "“अनसूया” है। देवर्षे! इस प्रकार संक्षेपसे “यम” बताये गये हैं। नारदजी! अब मैं तुम्हें 'नियम!'",
+          "translation": "one who hears or speaks the word of any of these should vomit the food eaten, bathe and fast;",
+          "translationSource": "ai"
         },
         {
           "number": 88,
           "sanskrit": "द्वितीये ऽह्नि घृतं प्राश्य शुद्धिमान्पोति नारद । व्रतादिमध्ये यद्येषा शृणुयाद्धूनिमप्युत",
           "transliteration": "dvitīye 'hni ghṛtaṃ prāśya śuddhimānpoti nārada / vratādimadhye yadyeṣā śṛṇuyāddhūnimapyuta",
-          "hindi": "शौच, भगवान् विष्णुकी आराधना तथा संध्योपासन आदि नियम कहे गये हैं। जिसमें चान्द्रायण आदि ब्रतोंके द्वारा शरीरको कृश किया जाता है, उसे साधु पुरुषोंने 'तप” कहा है। वह योगका उत्तम"
+          "hindi": "शौच, भगवान् विष्णुकी आराधना तथा संध्योपासन आदि नियम कहे गये हैं। जिसमें चान्द्रायण आदि ब्रतोंके द्वारा शरीरको कृश किया जाता है, उसे साधु पुरुषोंने 'तप” कहा है। वह योगका उत्तम",
+          "translation": "on the second day, having tasted ghee, he becomes pure, O Narada. If in the middle of a vow one hears even the sound of one of these,",
+          "translationSource": "ai"
         },
         {
           "number": 89,
           "sanskrit": "अष्टोत्तरसहस्रं तु जपेद्रै वेदमातरम् । पापानामधिकं पापं द्विजदैवतनिन्दनम्",
           "transliteration": "aṣṭottarasahasraṃ tu japedrai vedamātaram / pāpānāmadhikaṃ pāpaṃ dvijadaivatanindanam",
-          "hindi": "साधन है। ब्रह्मन्! ३»कार, उपनिषद्, द्वादशाक्षर-"
+          "hindi": "साधन है। ब्रह्मन्! ३»कार, उपनिषद्, द्वादशाक्षर-",
+          "translation": "he should chant the mother of the Vedas (Gayatri) a thousand and eight times. Of sins, the greatest is reviling Brahmins and gods;",
+          "translationSource": "ai"
         },
         {
           "number": 90,
           "sanskrit": "न दृष्ट्वा निष्कृतिस्तस्य सर्वशास्त्रेषु नारद । महापातकतुल्यानि यानि प्रोक्तानि सूरिभिः",
           "transliteration": "na dṛṣṭvā niṣkṛtistasya sarvaśāstreṣu nārada / mahāpātakatulyāni yāni proktāni sūribhiḥ",
-          "hindi": "आदि महावाक्योंके समुदायका जो जप, अध्ययन एवं विचार है, उसे 'स्वाध्याय”' कहा गया है। वह भी योगका उत्तम साधन है। जो मूढ़ उपर्युक्त स्वाध्याय छोड़ देता है, उसका योग सिद्ध नहीं"
+          "hindi": "आदि महावाक्योंके समुदायका जो जप, अध्ययन एवं विचार है, उसे 'स्वाध्याय”' कहा गया है। वह भी योगका उत्तम साधन है। जो मूढ़ उपर्युक्त स्वाध्याय छोड़ देता है, उसका योग सिद्ध नहीं",
+          "translation": "no atonement for it is seen in any scripture, O Narada. Those said by the wise to be equal to great sins —",
+          "translationSource": "ai"
         },
         {
           "number": 91,
           "sanskrit": "प्रायश्चित्तं तु तेषां च कुर्यादेवं यथाविधि । प्रायश्चित्तानि यः कुर्यान्नारायणपरायणः",
           "transliteration": "prāyaścittaṃ tu teṣāṃ ca kuryādevaṃ yathāvidhi / prāyaścittāni yaḥ kuryānnārāyaṇaparāyaṇaḥ",
-          "hindi": "होता। किंतु योगके बिना भी केवल स्वाध्यायमात्रसे मनुष्योंके पापका नाश हो जाता है। स्वाध्यायसे संतुष्ट किये हुए इष्टदेवता प्रसन्न होते हैं। विप्रवर ! जप तीन प्रकारका कहा गया है--वाचिक, उपांशु"
+          "hindi": "होता। किंतु योगके बिना भी केवल स्वाध्यायमात्रसे मनुष्योंके पापका नाश हो जाता है। स्वाध्यायसे संतुष्ट किये हुए इष्टदेवता प्रसन्न होते हैं। विप्रवर ! जप तीन प्रकारका कहा गया है--वाचिक, उपांशु",
+          "translation": "their expiation should be done thus by rule. One who performs expiations devoted to Narayana",
+          "translationSource": "ai"
         },
         {
           "number": 92,
           "sanskrit": "तस्य पापानि नश्यन्तिह्यन्यथा पतितो भवेत् । यस्तु रागादिनिर्मुक्तो ह्यनुतापसमन्वितः",
           "transliteration": "tasya pāpāni naśyantihyanyathā patito bhavet / yastu rāgādinirmukto hyanutāpasamanvitaḥ",
-          "hindi": "और मानस। इन तीन भेदोंमें भी पूर्व-पूर्वकी अपेक्षा उत्तर-उत्तर श्रेष्ठ है। विधिपूर्वक अक्षर और पदको स्पष्ट बोलते हुए जो मन्त्रका उच्चारण किया जाता है, उसे “वाचिक' जप बताया गया"
+          "hindi": "और मानस। इन तीन भेदोंमें भी पूर्व-पूर्वकी अपेक्षा उत्तर-उत्तर श्रेष्ठ है। विधिपूर्वक अक्षर और पदको स्पष्ट बोलते हुए जो मन्त्रका उच्चारण किया जाता है, उसे “वाचिक' जप बताया गया",
+          "translation": "has his sins destroyed; otherwise he falls. One who is free of passion and the like, filled with remorse,",
+          "translationSource": "ai"
         },
         {
           "number": 93,
           "sanskrit": "सर्वभूतययायुक्तो विष्णुस्मरणतत्परः । महापातकयुक्तो वा युक्तो वा सर्वपातकैः",
           "transliteration": "sarvabhūtayayāyukto viṣṇusmaraṇatatparaḥ / mahāpātakayukto vā yukto vā sarvapātakaiḥ",
-          "hindi": "है। वह सम्पूर्ण यज्ञोंका फल देनेवाला है। कुछ मन्द स्वरमें मन्त्रका उच्चारण करते समय एक पदसे दूसरे पदका विभाग करते जाना “उपांशु! जप कहा गया है। वह पहलेकी अपेक्षा दूना"
+          "hindi": "है। वह सम्पूर्ण यज्ञोंका फल देनेवाला है। कुछ मन्द स्वरमें मन्त्रका उच्चारण करते समय एक पदसे दूसरे पदका विभाग करते जाना “उपांशु! जप कहा गया है। वह पहलेकी अपेक्षा दूना",
+          "translation": "full of compassion for all beings, devoted to remembering Vishnu, whether joined with great sins or all sins,",
+          "translationSource": "ai"
         },
         {
           "number": 94,
           "sanskrit": "विमुक्त एव पापेभ्यो ज्ञेयो विष्णुपरो यतः । नारायणमनान्द्यन्तं विश्वाकारमनामयम्",
           "transliteration": "vimukta eva pāpebhyo jñeyo viṣṇuparo yataḥ / nārāyaṇamanāndyantaṃ viśvākāramanāmayam",
-          "hindi": "महत्त्व रखता है। मन-ही-मन अक्षरोंकी श्रेणीका चिन्तन करते हुए जो उसके अर्थपर विचार किया जाता है, वह “मानस” जप कहा गया है। मानस जप योगसिद्धि देनेवाला है'  जपसे स्तुति करनेवाले"
+          "hindi": "महत्त्व रखता है। मन-ही-मन अक्षरोंकी श्रेणीका चिन्तन करते हुए जो उसके अर्थपर विचार किया जाता है, वह “मानस” जप कहा गया है। मानस जप योगसिद्धि देनेवाला है'  जपसे स्तुति करनेवाले",
+          "translation": "is to be known as already freed from sins, since he is devoted to Vishnu. The man who remembers Narayana, without beginning or end, of universal form, faultless,",
+          "translationSource": "ai"
         },
         {
           "number": 95,
           "sanskrit": "यस्तु संस्मरते मर्त्यः स मुक्तः पापकोटिभिः । स्मृतो वा पूजितो वापि ध्यातः प्रणमितो ऽपि वा",
           "transliteration": "yastu saṃsmarate martyaḥ sa muktaḥ pāpakoṭibhiḥ / smṛto vā pūjito vāpi dhyātaḥ praṇamito 'pi vā",
-          "hindi": "पुरुषपर इष्टदेव नित्य प्रसन्न रहते हैं, इसलिये"
+          "hindi": "पुरुषपर इष्टदेव नित्य प्रसन्न रहते हैं, इसलिये",
+          "translation": "is freed from ten million sins. Remembered, worshipped, meditated on or bowed to,",
+          "translationSource": "ai"
         },
         {
           "number": 96,
           "sanskrit": "नाशयत्येव पापानि विष्णुर्हृद्गमनः सताम् । संपर्काद्यदि वा मोहाद्यस्तु पूजयते हरिम्",
           "transliteration": "nāśayatyeva pāpāni viṣṇurhṛdgamanaḥ satām / saṃparkādyadi vā mohādyastu pūjayate harim",
-          "hindi": "समाधिश्र मुनिश्रेष्ठ॒ योगाज्ञानि यथाक्रमम्।"
+          "hindi": "समाधिश्र मुनिश्रेष्ठ॒ योगाज्ञानि यथाक्रमम्।",
+          "translation": "Vishnu, who goes into the hearts of the good, destroys sins. Whoever worships Hari even by chance contact or through delusion",
+          "translationSource": "ai"
         },
         {
           "number": 97,
           "sanskrit": "सर्वपापविनिर्मुक्तः स प्रयाति हरेः पदम् । सकृत्संस्मरणाद्विष्णोर्नश्यन्ति क्लेशसंचयाः",
           "transliteration": "sarvapāpavinirmuktaḥ sa prayāti hareḥ padam / sakṛtsaṃsmaraṇādviṣṇornaśyanti kleśasaṃcayāḥ",
-          "hindi": "स्वाध्यायपरायण मनुष्य सम्पूर्ण मनोरथोंको पा लेता है। प्रारब्धके अनुसार जो कुछ मिल जाय, उसीसे प्रसन्न रहना 'संतोष' कहलाता है। संतोषहीन पुरुष कहीं सुख नहीं पाता। भोगोंकी कामना"
+          "hindi": "स्वाध्यायपरायण मनुष्य सम्पूर्ण मनोरथोंको पा लेता है। प्रारब्धके अनुसार जो कुछ मिल जाय, उसीसे प्रसन्न रहना 'संतोष' कहलाता है। संतोषहीन पुरुष कहीं सुख नहीं पाता। भोगोंकी कामना",
+          "translation": "is freed from all sins and goes to Hari's abode. By a single remembrance of Vishnu the mass of troubles is destroyed;",
+          "translationSource": "ai"
         },
         {
           "number": 98,
           "sanskrit": "स्वर्गादिभोगप्रात्पिस्तु तस्य विप्रानुमीयते । मानुषं दुर्लभं जन्म प्राप्यते यैर्मुनीश्वर",
           "transliteration": "svargādibhogaprātpistu tasya viprānumīyate / mānuṣaṃ durlabhaṃ janma prāpyate yairmunīśvara",
-          "hindi": "भोग्य वस्तुओंको भोग लेनेसे शान्त नहीं होती, अपितु इससे भी अधिक भोग मुझे कब मिलेगा-- इस प्रकार कामना बढ़ती रहती है। अतः कामनाका त्याग करके हैवात् जो कुछ मिले,"
+          "hindi": "भोग्य वस्तुओंको भोग लेनेसे शान्त नहीं होती, अपितु इससे भी अधिक भोग मुझे कब मिलेगा-- इस प्रकार कामना बढ़ती रहती है। अतः कामनाका त्याग करके हैवात् जो कुछ मिले,",
+          "translation": "for him, O Brahmin, the attainment of heavenly and other enjoyments is to be inferred. A human birth, hard to get, is gained by those, O lord of sages,",
+          "translationSource": "ai"
         },
         {
           "number": 99,
           "sanskrit": "तत्रापि हरिभक्तिस्तु दुर्लभा परिकीर्त्तिता । तस्मात्तडिल्लतालोलं मानुष्यं प्राप्य दुर्लभम्",
           "transliteration": "tatrāpi haribhaktistu durlabhā parikīrttitā / tasmāttaḍillatālolaṃ mānuṣyaṃ prāpya durlabham",
-          "hindi": "उसीसे संतुष्ट रहकर मनुष्यको धर्मके पालनमें लगे रहना चाहिए। बाहद्यशौच और आशभ्यन्तर शौचके भेदसे 'शौच' दो प्रकारका माना गया है। मिट्टी और जलसे जो शरीरको शुद्ध किया जाता"
+          "hindi": "उसीसे संतुष्ट रहकर मनुष्यको धर्मके पालनमें लगे रहना चाहिए। बाहद्यशौच और आशभ्यन्तर शौचके भेदसे 'शौच' दो प्रकारका माना गया है। मिट्टी और जलसे जो शरीरको शुद्ध किया जाता",
+          "translation": "and even then devotion to Hari is declared hard to attain. Therefore, having obtained this human birth, hard to get and fleeting as lightning,",
+          "translationSource": "ai"
         },
         {
           "number": 100,
           "sanskrit": "हरिं संपूजयेद्भक्त्या पशुपाशविमोचनम् । सर्वे ऽन्तराया नश्यन्ति मनःशुद्धिश्च जायते",
           "transliteration": "hariṃ saṃpūjayedbhaktyā paśupāśavimocanam / sarve 'ntarāyā naśyanti manaḥśuddhiśca jāyate",
-          "hindi": "है, वह बाह्यशौच है और अन्त:करणके भावकी जो शुद्धि है, उसे आभ्यन्तरशौच कहा गया है। मुनिश्रेष्ठटी आन्तरिक शुद्धिसे हीन पुरुषोंद्वारा जो नाना प्रकारके यज्ञ किये जाते हैं, वे राखमें डाली"
+          "hindi": "है, वह बाह्यशौच है और अन्त:करणके भावकी जो शुद्धि है, उसे आभ्यन्तरशौच कहा गया है। मुनिश्रेष्ठटी आन्तरिक शुद्धिसे हीन पुरुषोंद्वारा जो नाना प्रकारके यज्ञ किये जाते हैं, वे राखमें डाली",
+          "translation": "one should worship Hari with devotion, who frees from the bonds of the bound animal; all obstacles vanish and purity of mind arises,",
+          "translationSource": "ai"
         },
         {
           "number": 101,
           "sanskrit": "परं मोक्षं लभेश्चैव पूजिते तु जनार्दने । धर्मार्थकामोक्षाख्याः पुरुषार्थाः सनातनाः",
           "transliteration": "paraṃ mokṣaṃ labheścaiva pūjite tu janārdane / dharmārthakāmokṣākhyāḥ puruṣārthāḥ sanātanāḥ",
-          "hindi": "हुई आहुतिके समान निष्फल होते हैं। अत: राग आदि सब दोषोंका त्याग करके सुखी होना चाहिए। हजारों भार मिट्टी और करोड़ों घड़े जलसे शरीरकी शुद्धि कर लेनेपर भी जिसका"
+          "hindi": "हुई आहुतिके समान निष्फल होते हैं। अत: राग आदि सब दोषोंका त्याग करके सुखी होना चाहिए। हजारों भार मिट्टी और करोड़ों घड़े जलसे शरीरकी शुद्धि कर लेनेपर भी जिसका",
+          "translation": "and one gains supreme liberation when Janardana is worshipped. The aims of life — dharma, wealth, desire and liberation — are eternal;",
+          "translationSource": "ai"
         },
         {
           "number": 102,
           "sanskrit": "हरिपूजापराणां तु सिध्यन्ति नात्र संशयः । पुत्रदारगृहक्षेत्रधनधान्याभिधावतीम्",
           "transliteration": "haripūjāparāṇāṃ tu sidhyanti nātra saṃśayaḥ / putradāragṛhakṣetradhanadhānyābhidhāvatīm",
-          "hindi": "अन्त:करण दूषित है, वह चाण्डालके ही समान अपवित्र माना गया है। जो आन्तरिक शुद्धिसे रहित होकर केवल बाहरसे शरीरको शुद्ध करता है, वह ऊपरसे सजाये हुए मदिरापात्रकी भाँति"
+          "hindi": "अन्त:करण दूषित है, वह चाण्डालके ही समान अपवित्र माना गया है। जो आन्तरिक शुद्धिसे रहित होकर केवल बाहरसे शरीरको शुद्ध करता है, वह ऊपरसे सजाये हुए मदिरापात्रकी भाँति",
+          "translation": "for those devoted to worship of Hari they are accomplished, without doubt. Having obtained this human life, running after sons, wives, house, fields, wealth and grain,",
+          "translationSource": "ai"
         },
         {
           "number": 103,
           "sanskrit": "लब्ध्वेमां मानुषीं वृत्तिं रेरे दर्पं तु मा कृथाः । संत्यज्य कामं क्रोधं च लोभं मोहं मदं तथा",
           "transliteration": "labdhvemāṃ mānuṣīṃ vṛttiṃ rere darpaṃ tu mā kṛthāḥ / saṃtyajya kāmaṃ krodhaṃ ca lobhaṃ mohaṃ madaṃ tathā",
-          "hindi": "अपवित्र ही है, उसे शान्ति नहीं मिलती। जो मानसिक शुद्धिसे हीन होकर तीर्थयात्रा करते हैं, उन्हें वे तीर्थ उसी तरह पवित्र नहीं करते जैसे मदिरासे भरे हुए पात्रको नदियाँ। मुनिश्रेष्ठ! जो"
+          "hindi": "अपवित्र ही है, उसे शान्ति नहीं मिलती। जो मानसिक शुद्धिसे हीन होकर तीर्थयात्रा करते हैं, उन्हें वे तीर्थ उसी तरह पवित्र नहीं करते जैसे मदिरासे भरे हुए पात्रको नदियाँ। मुनिश्रेष्ठ! जो",
+          "translation": "O fools, do not be proud. Abandoning desire, anger, greed, delusion and pride,",
+          "translationSource": "ai"
         },
         {
           "number": 104,
           "sanskrit": "परापवादं निन्दां च भजध्वं भक्तितो हरिम् । व्यापारान्सकलांस्त्क्त्वा पूजयध्वं जनार्दनम्",
           "transliteration": "parāpavādaṃ nindāṃ ca bhajadhvaṃ bhaktito harim / vyāpārānsakalāṃstktvā pūjayadhvaṃ janārdanam",
-          "hindi": "वाणीसे धर्मोका उपदेश करता और मनसे पापकी इच्छा रखता है, उसे महापातकियोंका सिस्मौर समझना चाहिए। जिनका अन्तःकरण शुद्ध है, वे यदि परम उत्तम धर्ममार्गका आचरण करते हैं तो"
+          "hindi": "वाणीसे धर्मोका उपदेश करता और मनसे पापकी इच्छा रखता है, उसे महापातकियोंका सिस्मौर समझना चाहिए। जिनका अन्तःकरण शुद्ध है, वे यदि परम उत्तम धर्ममार्गका आचरण करते हैं तो",
+          "translation": "slander of others and blame, worship Hari with devotion. Leaving all business, worship Janardana.",
+          "translationSource": "ai"
         },
         {
           "number": 105,
           "sanskrit": "निकटा एव दृश्यन्ते कृतान्तनगरद्रुमाः । यावन्नायाति मरणं यावन्नायाति वै जरा",
           "transliteration": "nikaṭā eva dṛśyante kṛtāntanagaradrumāḥ / yāvannāyāti maraṇaṃ yāvannāyāti vai jarā",
-          "hindi": "उसका फल अक्षय एवं सुखदायक जानना चाहिए। मन, वाणी और क्रियाद्वारा स्तुति,"
+          "hindi": "उसका फल अक्षय एवं सुखदायक जानना चाहिए। मन, वाणी और क्रियाद्वारा स्तुति,",
+          "translation": "The trees of Yama's city are seen near. As long as death does not come, as long as old age does not come,",
+          "translationSource": "ai"
         },
         {
           "number": 106,
           "sanskrit": "यावन्नेन्द्रियवैकल्यं तावदेवाचर्येद्धरिम् । धीमान्नकुर्याद्विश्वासं शरीरे ऽस्मिन्विनश्वरे",
           "transliteration": "yāvannendriyavaikalyaṃ tāvadevācaryeddharim / dhīmānnakuryādviśvāsaṃ śarīre 'sminvinaśvare",
-          "hindi": "कथाश्रवण तथा पूजा करनेसे भगवान विष्णुमें जिसकी दृढ़ भक्ति हो गयी है, उसकी वह भक्ति भी भगवान् विष्णुकी “आराधना” कही गयी है (तथा संध्योपासना तो प्रसिद्ध ही है)। नारदजी!"
+          "hindi": "कथाश्रवण तथा पूजा करनेसे भगवान विष्णुमें जिसकी दृढ़ भक्ति हो गयी है, उसकी वह भक्ति भी भगवान् विष्णुकी “आराधना” कही गयी है (तथा संध्योपासना तो प्रसिद्ध ही है)। नारदजी!",
+          "translation": "as long as the senses are not impaired, so long worship Hari. The wise should not trust this perishable body.",
+          "translationSource": "ai"
         },
         {
           "number": 107,
           "sanskrit": "नित्यं सन्निहितो मृत्युः संपदत्यन्तचञ्चला । आसन्नमरणो देहस्तस्माद्दर्प्पं विमुचत",
           "transliteration": "nityaṃ sannihito mṛtyuḥ saṃpadatyantacañcalā / āsannamaraṇo dehastasmāddarppaṃ vimucata",
-          "hindi": "इस प्रकार मैंने यम और नियमोंको संक्षेपसे समझाया। इनके द्वारा जिनका चित्त शुद्ध हो गया है, उनके मोक्ष हस्तगत ही है--ऐसा माना जाता है। यम और नियमोंद्वारा बुद्धिको स्थिर करके"
+          "hindi": "इस प्रकार मैंने यम और नियमोंको संक्षेपसे समझाया। इनके द्वारा जिनका चित्त शुद्ध हो गया है, उनके मोक्ष हस्तगत ही है--ऐसा माना जाता है। यम और नियमोंद्वारा बुद्धिको स्थिर करके",
+          "translation": "Death is always near; wealth is extremely fickle; the body is close to death; therefore give up pride.",
+          "translationSource": "ai"
         },
         {
           "number": 108,
           "sanskrit": "संयोगा विप्रयोगान्ताः सर्वं च घक्षणभङ्गुरम् । एतज्ज्ञात्वा महाभाग पूजयस्व जनार्दनम्",
           "transliteration": "saṃyogā viprayogāntāḥ sarvaṃ ca ghakṣaṇabhaṅguram / etajjñātvā mahābhāga pūjayasva janārdanam",
-          "hindi": "जितेन्द्रिय पुरुष योग-साधनाके अनुकूल उत्तम आसनका विधिपूर्वक अभ्यास करे।"
+          "hindi": "जितेन्द्रिय पुरुष योग-साधनाके अनुकूल उत्तम आसनका विधिपूर्वक अभ्यास करे।",
+          "translation": "Unions end in separation; everything is perishable in a moment. Knowing this, O fortunate one, worship Janardana.",
+          "translationSource": "ai"
         },
         {
           "number": 109,
           "sanskrit": "आशया व्यथते चैव मोक्षस्त्वत्यन्तदुर्लभः । भक्त्या यजति यो विष्णुं महापातकवानपि",
           "transliteration": "āśayā vyathate caiva mokṣastvatyantadurlabhaḥ / bhaktyā yajati yo viṣṇuṃ mahāpātakavānapi",
-          "hindi": "पद्मासन, स्वस्तिकासन, पीठासन, सिंहासन,"
+          "hindi": "पद्मासन, स्वस्तिकासन, पीठासन, सिंहासन,",
+          "translation": "One is troubled by hope; liberation is extremely hard to get. One who worships Vishnu with devotion, though a great sinner,",
+          "translationSource": "ai"
         },
         {
           "number": 110,
           "sanskrit": "सो ऽपि याति परं स्थानं यत्रघ गत्वा न शोचति । सर्वतीर्थानि यज्ञाश्च सांगा वेदाश्च सत्तम",
           "transliteration": "so 'pi yāti paraṃ sthānaṃ yatragha gatvā na śocati / sarvatīrthāni yajñāśca sāṃgā vedāśca sattama",
-          "hindi": "वाराहासन, मृगासन, चैलिकासन, क्रौश्ञासन, नालिकासन, सर्वतोभद्रासन, वृषभासन, नागासन,"
+          "hindi": "वाराहासन, मृगासन, चैलिकासन, क्रौश्ञासन, नालिकासन, सर्वतोभद्रासन, वृषभासन, नागासन,",
+          "translation": "also goes to the highest place, from which he does not grieve. All holy places, sacrifices and the Vedas with their limbs, O good one,",
+          "translationSource": "ai"
         },
         {
           "number": 111,
           "sanskrit": "नारायणार्चनस्यैते कलां नार्हन्ति षोडशीम् । किं वै वेदैर्मखैः शास्त्रैः किंवा तीर्थनिषेवणैः",
           "transliteration": "nārāyaṇārcanasyaite kalāṃ nārhanti ṣoḍaśīm / kiṃ vai vedairmakhaiḥ śāstraiḥ kiṃvā tīrthaniṣevaṇaiḥ",
-          "hindi": "शैलासन, खड्गासन, मुदूरासन, मकरासन, त्रिपथासन, काष्ठासन, स्थाणु-आसन, वैकर्णिकासन, भौमासन और वीरासन--ये सब योगसाधनके हेतु हैं। मुनीश्चरोंने ये तीस आसन बनाये हैं। साधक पुरुष"
+          "hindi": "शैलासन, खड्गासन, मुदूरासन, मकरासन, त्रिपथासन, काष्ठासन, स्थाणु-आसन, वैकर्णिकासन, भौमासन और वीरासन--ये सब योगसाधनके हेतु हैं। मुनीश्चरोंने ये तीस आसन बनाये हैं। साधक पुरुष",
+          "translation": "do not equal a sixteenth part of the worship of Narayana. What use are Vedas, sacrifices, scriptures, or visits to holy places,",
+          "translationSource": "ai"
         },
         {
           "number": 112,
           "sanskrit": "विष्णुभक्तिविहीनानां किं तपोभिर्व्रतैरपि",
           "transliteration": "viṣṇubhaktivihīnānāṃ kiṃ tapobhirvratairapi",
-          "hindi": "शीत-उष्ण आदि दन्होंसे पृथक् हो ईर्ष्या-द्वेष छोड़कर गुरुदेवके चरणोंमें भक्ति रखते हुए उपर्युक्त आसनोंमेंसे किसी एकको सिद्ध करके प्राणोंको जीतनेका अभ्यास करे। जहाँ मनुष्योंकी"
+          "hindi": "शीत-उष्ण आदि दन्होंसे पृथक् हो ईर्ष्या-द्वेष छोड़कर गुरुदेवके चरणोंमें भक्ति रखते हुए उपर्युक्त आसनोंमेंसे किसी एकको सिद्ध करके प्राणोंको जीतनेका अभ्यास करे। जहाँ मनुष्योंकी",
+          "translation": "what use are austerities and vows to those without devotion to Vishnu?",
+          "translationSource": "ai"
         },
         {
           "number": 113,
           "sanskrit": "यजन्ति ये विष्णुमनन्तमृर्तिं निरीक्ष्य चाकारगतं वरेण्यम् । वेदान्तवेद्यं भवरोगवैद्यं ते यान्ति मर्त्याः पदमच्युतस्य",
           "transliteration": "yajanti ye viṣṇumanantamṛrtiṃ nirīkṣya cākāragataṃ vareṇyam / vedāntavedyaṃ bhavarogavaidyaṃ te yānti martyāḥ padamacyutasya",
-          "hindi": "भीड़ न हो और किसी प्रकारका कोलाहल न होता हो, ऐसे एकान्त स्थानमें पूर्व, उत्तर अथवा पश्चिमकी ओर मुँह करके अभ्यासपूर्वक प्राणोंको जीते--प्राणायामका अभ्यास करे। शरीरके भीतर"
+          "hindi": "भीड़ न हो और किसी प्रकारका कोलाहल न होता हो, ऐसे एकान्त स्थानमें पूर्व, उत्तर अथवा पश्चिमकी ओर मुँह करके अभ्यासपूर्वक प्राणोंको जीते--प्राणायामका अभ्यास करे। शरीरके भीतर",
+          "translation": "Those who worship Vishnu of infinite form, having seen him in an image, the best, known by Vedanta, physician for the disease of worldly existence — those mortals go to Achyuta's abode.",
+          "translationSource": "ai"
         },
         {
           "number": 114,
           "sanskrit": "अनादिमात्मानमनन्तशक्तिमाधारभूतं जगतः सुरेड्यम् । ज्योतिः स्वरुपं परमच्युताख्यं स्मृत्वा समभ्येति नरः सखायम्",
           "transliteration": "anādimātmānamanantaśaktimādhārabhūtaṃ jagataḥ sureḍyam / jyotiḥ svarupaṃ paramacyutākhyaṃ smṛtvā samabhyeti naraḥ sakhāyam",
-          "hindi": "स्थित वायुका नाम प्राण है। उसके विग्रह (वशमें करनेकी चेष्टा)-को आयाम कहते हैं। यही प्राणायाम” कहा गया है। उसके दो भेद बताये गये हैं--एक अगर्भ प्राणायाम और दूसरा सगर्भ"
+          "hindi": "स्थित वायुका नाम प्राण है। उसके विग्रह (वशमें करनेकी चेष्टा)-को आयाम कहते हैं। यही प्राणायाम” कहा गया है। उसके दो भेद बताये गये हैं--एक अगर्भ प्राणायाम और दूसरा सगर्भ",
+          "translation": "Remembering the beginningless Self of infinite power, the support of the world, the one praised by the gods, light by nature, supreme, called Achyuta, a man comes to a friend.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -17920,7 +18068,9 @@
           "number": 37,
           "sanskrit": "एतेभ्यो ऽपि परो ज्ञेयो नित्यं ध्यानपरायणः । तस्मात्सर्वप्रयत्नेन कर्त्तव्यो धर्मसंग्रहः",
           "transliteration": "etebhyo 'pi paro jñeyo nityaṃ dhyānaparāyaṇaḥ / tasmātsarvaprayatnena karttavyo dharmasaṃgrahaḥ",
-          "hindi": "मकार रुद्ररूप है तथा अर्धमात्रा निर्गुण परब्रह्म परमात्मस्वरूप है। अकार, उकार और मकार-- ये प्रणवकी तीन मात्राएँ कही गयी हैं। ब्रह्मा, विष्णु और शिव--ये तीन क्रमश: उनके देवता"
+          "hindi": "मकार रुद्ररूप है तथा अर्धमात्रा निर्गुण परब्रह्म परमात्मस्वरूप है। अकार, उकार और मकार-- ये प्रणवकी तीन मात्राएँ कही गयी हैं। ब्रह्मा, विष्णु और शिव--ये तीन क्रमश: उनके देवता",
+          "translation": "Greater than these is to be known the one who is always devoted to meditation; therefore with all effort the collection of dharma should be made.",
+          "translationSource": "ai"
         },
         {
           "number": 38,
