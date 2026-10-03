@@ -85858,55 +85858,73 @@
           "number": 38,
           "sanskrit": "चपलः क्रोधनो भीरुर्बहुभाषो कलिप्रियः । स्वप्ने गगनगश् चैव बहुवातो नरो भवेत्",
           "transliteration": "capalaḥ krodhano bhīrurbahubhāṣo kalipriyaḥ / svapne gaganagaś caiva bahuvāto naro bhavet",
-          "hindi": "उसको अवभ्रट कहते हैं। जिसका कोई अङ्ग कम या विकृत हो वह विकलाङ्ग और पोगण्ड कहलाता है। आरोग्य और अनामय -ये नीरोगताके वाचक हैं। बहरेको एड और वधिर तथा कुबड़ेको कुब्ज और गडुल कहते हैं। रोग आदिके कारण जिसका हाथ खराब हो जाय, उसको तथा लूले मनुष्यको कुनि (या कुणि) कहा जाता है। क्षय, शोष और यक्ष्मा-ये"
+          "hindi": "उसको अवभ्रट कहते हैं। जिसका कोई अङ्ग कम या विकृत हो वह विकलाङ्ग और पोगण्ड कहलाता है। आरोग्य और अनामय -ये नीरोगताके वाचक हैं। बहरेको एड और वधिर तथा कुबड़ेको कुब्ज और गडुल कहते हैं। रोग आदिके कारण जिसका हाथ खराब हो जाय, उसको तथा लूले मनुष्यको कुनि (या कुणि) कहा जाता है। क्षय, शोष और यक्ष्मा-ये",
+          "translation": "A man with much wind (vata) is fickle, irascible, timid, talkative, fond of quarrels, and in dreams he moves through the sky.",
+          "translationSource": "ai"
         },
         {
           "number": 39,
           "sanskrit": "अकालपलितः क्रोर्धो महाप्राज्ञो रणप्रियः । स्वप्ने च दीप्तिमत्प्रेक्षी बहुपित्तो नरो भवेत्",
           "transliteration": "akālapalitaḥ krordho mahāprājño raṇapriyaḥ / svapne ca dīptimatprekṣī bahupitto naro bhavet",
-          "hindi": "राजयक्ष्मा (थाइसिस, टीबी या तपेदिक)-के नाम हैं। प्रतिश्याय और पीनस-ये जुकामके अर्थमें आते हैं। स्त्रीलिङ्ग-क्षुत्, पुँल्लिङ्ग-क्षव और नपुंसक-क्षुत शब्द छींकके अर्थमें प्रयुक्त"
+          "hindi": "राजयक्ष्मा (थाइसिस, टीबी या तपेदिक)-के नाम हैं। प्रतिश्याय और पीनस-ये जुकामके अर्थमें आते हैं। स्त्रीलिङ्ग-क्षुत्, पुँल्लिङ्ग-क्षव और नपुंसक-क्षुत शब्द छींकके अर्थमें प्रयुक्त",
+          "translation": "A man with much bile (pitta) goes grey before his time, is quick to anger, very wise, fond of battle, and in dreams sees bright things.",
+          "translationSource": "ai"
         },
         {
           "number": 40,
           "sanskrit": "स्थिरमित्रः स्थिरोत्साहः स्थिराङ्गो द्रविणान्वितः । स्वप्ने जलसितालोकी बहुश्ले ष्मा नरो भवेत्",
           "transliteration": "sthiramitraḥ sthirotsāhaḥ sthirāṅgo draviṇānvitaḥ / svapne jalasitālokī bahuśle ṣmā naro bhavet",
-          "hindi": "होते हैं। कास और क्षवथु-ये खाँसीके नाम हैं। इनका प्रयोग पुँल्लिङ्गमें होता है। शोथ, श्वयथु और शोफ ये सूजनके अर्थमें आते हैं। पादस्फोट और विपादिका-ये बिवाईके नाम हैं। किलास और सिध्म-सेहुएँको कहते हैं। कच्छु, पाम, पामा और विचर्चिका-ये खुजलीके वाचक हैं। कोठ और मण्डलक उस कोढ़को कहते हैं, जिसमें गोलाकार चकत्ते पड़ जाते हैं। सफेद"
+          "hindi": "होते हैं। कास और क्षवथु-ये खाँसीके नाम हैं। इनका प्रयोग पुँल्लिङ्गमें होता है। शोथ, श्वयथु और शोफ ये सूजनके अर्थमें आते हैं। पादस्फोट और विपादिका-ये बिवाईके नाम हैं। किलास और सिध्म-सेहुएँको कहते हैं। कच्छु, पाम, पामा और विचर्चिका-ये खुजलीके वाचक हैं। कोठ और मण्डलक उस कोढ़को कहते हैं, जिसमें गोलाकार चकत्ते पड़ जाते हैं। सफेद",
+          "translation": "A man with much phlegm (kapha) has steady friends, steady zeal, a firm body, and wealth; in dreams he sees water and white things.",
+          "translationSource": "ai"
         },
         {
           "number": 41,
           "sanskrit": "रसस्तु प्राणिनां देहे जीवनं रुधिरं तथा । लेपनञ्च तथा मांसमेधस्नेहकरन्तु तत्",
           "transliteration": "rasastu prāṇināṃ dehe jīvanaṃ rudhiraṃ tathā / lepanañca tathā māṃsamedhasnehakarantu tat",
-          "hindi": "कोढ्को कुष्ठ और श्वित्र कहते हैं । दुर्नामक और अर्शस् -ये बवासीरके नाम हैं। मल-मूत्रके निरोधको अनाह और विबन्ध कहते हैं। ग्रहणी और प्रवाहिका-ये संग्रहणी रोगके नाम हैं।"
+          "hindi": "कोढ्को कुष्ठ और श्वित्र कहते हैं । दुर्नामक और अर्शस् -ये बवासीरके नाम हैं। मल-मूत्रके निरोधको अनाह और विबन्ध कहते हैं। ग्रहणी और प्रवाहिका-ये संग्रहणी रोगके नाम हैं।",
+          "translation": "The fluid (rasa) in the bodies of beings gives life; so does blood, which sustains; flesh is what coats the body, and fat produces unctuousness.",
+          "translationSource": "ai"
         },
         {
           "number": 42,
           "sanskrit": "धारणन्त्व् अस्थि मज्जा स्यात्पूरणं वीर्यवर्धनं । शुक्रवीर्यकरं ह्य् ओजः प्राणकृज्जीवसंस्थितिः",
           "transliteration": "dhāraṇantv asthi majjā syātpūraṇaṃ vīryavardhanaṃ / śukravīryakaraṃ hy ojaḥ prāṇakṛjjīvasaṃsthitiḥ",
-          "hindi": "बीज, वीर्य, इन्द्रिय और शुक्र-ये वीर्यके पर्याय हैं। पलल, क्रव्य और आमिष-ये मांसके अर्थमें आते हैं। बुक्का और अग्रमांस-ये छातीके मांस (हत्पिण्ड)-का बोध करानेवाले हैं। ('बुक्का' शब्द केवल हृदयका भी वाचक है।) हृदय और हत्-ये मनके पर्याय हैं। मेदस्, वपा और वसा--ये मेदाके नाम हैं। गलेके पीछेको नाड़ीको मन्या कहते हैं। नाडी, धमनि और शिरा-ये"
+          "hindi": "बीज, वीर्य, इन्द्रिय और शुक्र-ये वीर्यके पर्याय हैं। पलल, क्रव्य और आमिष-ये मांसके अर्थमें आते हैं। बुक्का और अग्रमांस-ये छातीके मांस (हत्पिण्ड)-का बोध करानेवाले हैं। ('बुक्का' शब्द केवल हृदयका भी वाचक है।) हृदय और हत्-ये मनके पर्याय हैं। मेदस्, वपा और वसा--ये मेदाके नाम हैं। गलेके पीछेको नाड़ीको मन्या कहते हैं। नाडी, धमनि और शिरा-ये",
+          "translation": "Bone is what supports; marrow is what fills and increases vigour; \"ojas\" makes semen and vigour, sustains the vital breath and the life's stability.",
+          "translationSource": "ai"
         },
         {
           "number": 43,
           "sanskrit": "ओजः शुक्रात् सारतरमापीतं हृदयोपगं । षडङ्गशक्थिनी बाहुर्मूर्धा जठरमीरितं",
           "transliteration": "ojaḥ śukrāt sārataramāpītaṃ hṛdayopagaṃ / ṣaḍaṅgaśakthinī bāhurmūrdhā jaṭharamīritaṃ",
-          "hindi": "नाड़ीके वाचक हैं। तिलक और क्लोम-ये शरीरमें रहनेवाले काले तिलके अर्थमें आते हैं।"
+          "hindi": "नाड़ीके वाचक हैं। तिलक और क्लोम-ये शरीरमें रहनेवाले काले तिलके अर्थमें आते हैं।",
+          "translation": "Ojas, more essential than semen, is taken in and reaches the heart. The body is said to have six parts: thighs, arms, head, and belly.",
+          "translationSource": "ai"
         },
         {
           "number": 44,
           "sanskrit": "षट्त्वचा वाह्यतो यद्वदन्या रुधिरधारिका । विलासधारिणी चान्या चतुर्थी कुण्डधारिणी",
           "transliteration": "ṣaṭtvacā vāhyato yadvadanyā rudhiradhārikā / vilāsadhāriṇī cānyā caturthī kuṇḍadhāriṇī",
-          "hindi": "मस्तिष्क दिमागको और दूषिका आँखोंकी कीचड्को कहते हैं। अन्त्र और पुरीतत्-ये आँतके अर्थमें आते हैं। गुल्म और प्लीहा-बरवट (तिल्ली) - को कहते हैं। प्लीहा 'प्लीहन्' शब्दका पुँल्लिङ्गरूप है। अङ्ग-प्रत्यङ्गकी संधियोंके बन्धनको स्नायु और वस्नसा कहते हैं। कालखण्ड और यकृत्- जिगर या कलेजेके नाम हैं। कर्पर और कपाल शब्द ललाटके वाचक हैं। 'कपाल' शब्द पुँल्लिङ्ग"
+          "hindi": "मस्तिष्क दिमागको और दूषिका आँखोंकी कीचड्को कहते हैं। अन्त्र और पुरीतत्-ये आँतके अर्थमें आते हैं। गुल्म और प्लीहा-बरवट (तिल्ली) - को कहते हैं। प्लीहा 'प्लीहन्' शब्दका पुँल्लिङ्गरूप है। अङ्ग-प्रत्यङ्गकी संधियोंके बन्धनको स्नायु और वस्नसा कहते हैं। कालखण्ड और यकृत्- जिगर या कलेजेके नाम हैं। कर्पर और कपाल शब्द ललाटके वाचक हैं। 'कपाल' शब्द पुँल्लिङ्ग",
+          "translation": "There are six layers of skin: the outer one, another that holds blood, another that holds delight (or sweat), and a fourth that holds ulcers (kunda).",
+          "translationSource": "ai"
         },
         {
           "number": 45,
           "sanskrit": "पञ्चमी विद्रधिस्थानं षष्ठी प्राणधरा मता । कलासप्तमौ मांसधरा द्वितीया रक्तधारिणी",
           "transliteration": "pañcamī vidradhisthānaṃ ṣaṣṭhī prāṇadharā matā / kalāsaptamau māṃsadharā dvitīyā raktadhāriṇī",
-          "hindi": "और नपुंसकलिङ्ग-दोनोंमें आता है। कीकस, कुल्य और अस्थि-ये हड्डीके नाम हैं। रक्त- मांससे रहित शरीरकी हड्डीको कङ्काल कहते हैं। पीठकी हड्डी (मेरुदण्ड)-का नाम कशेरुका है।"
+          "hindi": "और नपुंसकलिङ्ग-दोनोंमें आता है। कीकस, कुल्य और अस्थि-ये हड्डीके नाम हैं। रक्त- मांससे रहित शरीरकी हड्डीको कङ्काल कहते हैं। पीठकी हड्डी (मेरुदण्ड)-का नाम कशेरुका है।",
+          "translation": "The fifth is the seat of abscesses; the sixth is held to support life; the seventh layers support flesh; the second holds blood.",
+          "translationSource": "ai"
         },
         {
           "number": 46,
           "sanskrit": "यकृत्प्लीहाश्रया चान्या मेदोधरास्थिधारिणी । मज्जाश्लेष्मपुरीषाणां धरा पक्वाशयस्थिता । षष्ठी पित्तधरा शुक्रधरा शुक्राशयापरा",
           "transliteration": "yakṛtplīhāśrayā cānyā medodharāsthidhāriṇī / majjāśleṣmapurīṣāṇāṃ dharā pakvāśayasthitā / ṣaṣṭhī pittadharā śukradharā śukrāśayāparā",
-          "hindi": "'करोटि' शब्द स्त्रीलिङ्ग है और यह मस्तककी हड्डी (खोपड़ी)-के अर्थमें आता है। पँसलीकी हड्डीको पर्शुका कहते हैं। अङ्ग, प्रतीक, अवयव, शरीर, वर्ष्म तथा विग्रह-ये शरीरके पर्याय हैं। कट और श्रोणिफलक-ये चूतड़्के अर्थमें आते हैं। 'कट' शब्द पुँल्लिङ्ग है। कटि, श्रोणि और ककुद्मती-ये कमरका बोध करानेवाले हैं। (किन्हीं-किन्हींके मतमें उपर्युक्त पाँचों ही शब्द"
+          "hindi": "'करोटि' शब्द स्त्रीलिङ्ग है और यह मस्तककी हड्डी (खोपड़ी)-के अर्थमें आता है। पँसलीकी हड्डीको पर्शुका कहते हैं। अङ्ग, प्रतीक, अवयव, शरीर, वर्ष्म तथा विग्रह-ये शरीरके पर्याय हैं। कट और श्रोणिफलक-ये चूतड़्के अर्थमें आते हैं। 'कट' शब्द पुँल्लिङ्ग है। कटि, श्रोणि और ककुद्मती-ये कमरका बोध करानेवाले हैं। (किन्हीं-किन्हींके मतमें उपर्युक्त पाँचों ही शब्द",
+          "translation": "Another rests on the liver and spleen; one holds fat and bone; there is a layer for marrow, phlegm and faeces, situated in the digestive receptacle; the sixth holds bile; another holds semen, in the seat of semen.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -86029,175 +86047,233 @@
           "number": 15,
           "sanskrit": "त्रिव्यामानि तथा स्त्रीणां प्राहुर्वेदविदो जनः । रक्तवायुसमायोगात् कामेयस्योद्भवः स्मृतः",
           "transliteration": "trivyāmāni tathā strīṇāṃ prāhurvedavido janaḥ / raktavāyusamāyogāt kāmeyasyodbhavaḥ smṛtaḥ",
-          "hindi": "छात्र परस्पर सतीर्थ्य और एकगुरु कहलाते हैं।"
+          "hindi": "छात्र परस्पर सतीर्थ्य और एकगुरु कहलाते हैं।",
+          "translation": "Knowers of the Veda say that women have three \"vyamas\" (spans) too; from the union of blood and wind arises the womb.",
+          "translationSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "कफप्रसाराद्भवति हृदयं पद्मसन्निभं । अधोमुखं तच्छूषिरं यत्र जीवो व्यवस्थितः",
           "transliteration": "kaphaprasārādbhavati hṛdayaṃ padmasannibhaṃ / adhomukhaṃ tacchūṣiraṃ yatra jīvo vyavasthitaḥ",
-          "hindi": "यज्ञके सदस्योंके नाम हैं। ऋत्विक् और याजक-- ये यज्ञ करानेवाले ऋत्विजोंके वाचक हैं। यजुर्वेदके ज्ञाता ऋत्विजूको अध्वर्यु, सामवेदके जाननेवालेको उद्गाता और ऋग्वेदके ज्ञाताको होता कहते हैं। चषाल और यूपकटक-ये यज्ञीय स्तम्भपर लगाये जानेवाले काठके छल्लेके नाम हैं। स्थण्डिल और चत्वर-ये दोनों शब्द समान लिङ्ग और समान अर्थके बोधक हैं।"
+          "hindi": "यज्ञके सदस्योंके नाम हैं। ऋत्विक् और याजक-- ये यज्ञ करानेवाले ऋत्विजोंके वाचक हैं। यजुर्वेदके ज्ञाता ऋत्विजूको अध्वर्यु, सामवेदके जाननेवालेको उद्गाता और ऋग्वेदके ज्ञाताको होता कहते हैं। चषाल और यूपकटक-ये यज्ञीय स्तम्भपर लगाये जानेवाले काठके छल्लेके नाम हैं। स्थण्डिल और चत्वर-ये दोनों शब्द समान लिङ्ग और समान अर्थके बोधक हैं।",
+          "translation": "From the spreading of phlegm the heart arises, like a lotus, facing downward and hollow, where the soul is established.",
+          "translationSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "चैतन्यानुगता भावःसर्वे तत्र व्यवस्थिताः । तस्य वामे तथा प्लीहा दक्षिणे च तथा यकृत्",
           "transliteration": "caitanyānugatā bhāvaḥsarve tatra vyavasthitāḥ / tasya vāme tathā plīhā dakṣiṇe ca tathā yakṛt",
-          "hindi": "खौलाये हुए दूधमें दही मिला देनेसे जो हवनके योग्य वस्तु तैयार होती है, उसे आमिक्षा कहते हैं। दही मिलाये हुए घीका नाम पृषदाज्य"
+          "hindi": "खौलाये हुए दूधमें दही मिला देनेसे जो हवनके योग्य वस्तु तैयार होती है, उसे आमिक्षा कहते हैं। दही मिलाये हुए घीका नाम पृषदाज्य",
+          "translation": "All states of being, following consciousness, are established there. On its left is the spleen, and on its right the liver.",
+          "translationSource": "ai"
         },
         {
           "number": 18,
           "sanskrit": "दक्षिणे च तथा क्लोम पद्मस्यैवं प्रकीर्तितं । श्रोतांसि यानि देहे ऽस्मिन् कफरक्तवहानि च",
           "transliteration": "dakṣiṇe ca tathā kloma padmasyaivaṃ prakīrtitaṃ / śrotāṃsi yāni dehe 'smin kapharaktavahāni ca",
-          "hindi": "है। परमान्न और पायस-ये खीरके वाचक हैं। जो पशु यज्ञमें अभिमन्त्रित करके मारा गया हो, उसको उपाकृत कहते हैं। परम्पराक, शमन और प्रोक्षण-ये शब्द यज्ञीय पशुका वध करनेके अर्थमें आते हैं । पूजा, नमस्या, अपचिति,"
+          "hindi": "है। परमान्न और पायस-ये खीरके वाचक हैं। जो पशु यज्ञमें अभिमन्त्रित करके मारा गया हो, उसको उपाकृत कहते हैं। परम्पराक, शमन और प्रोक्षण-ये शब्द यज्ञीय पशुका वध करनेके अर्थमें आते हैं । पूजा, नमस्या, अपचिति,",
+          "translation": "On the right is the lung, so the lotus (heart) is described. The channels in this body that carry phlegm and blood...",
+          "translationSource": "ai"
         },
         {
           "number": 19,
           "sanskrit": "तेषां भूतानुमानाच्च भवतीन्द्रियसम्भवः । नेत्रयोर्मण्डलं शुक्लं कफाद्भवति पैतृकं",
           "transliteration": "teṣāṃ bhūtānumānācca bhavatīndriyasambhavaḥ / netrayormaṇḍalaṃ śuklaṃ kaphādbhavati paitṛkaṃ",
-          "hindi": "शब्द हैं। वरिवस्या, शुश्रूषा, परिचर्या और उपासना-ये सेवाके नाम हैं। नियम और व्रत- ये एक-दूसरेके पर्यायवाची शब्द हैं। इनमें 'व्रत' शब्द पुँल्लिङ्ग और नपुंसकलिङ्ग दोनोंमें"
+          "hindi": "शब्द हैं। वरिवस्या, शुश्रूषा, परिचर्या और उपासना-ये सेवाके नाम हैं। नियम और व्रत- ये एक-दूसरेके पर्यायवाची शब्द हैं। इनमें 'व्रत' शब्द पुँल्लिङ्ग और नपुंसकलिङ्ग दोनोंमें",
+          "translation": "...from inferring their elements, the senses arise. The white circle of the eyes is born of phlegm and comes from the father.",
+          "translationSource": "ai"
         },
         {
           "number": 20,
           "sanskrit": "कृष्णञ्च मण्डलं वातात्तथा मवति मातृकं । पित्तात्त्वङ्मण्डलं ज्ञेयं मातापितृसमुद्भवं",
           "transliteration": "kṛṣṇañca maṇḍalaṃ vātāttathā mavati mātṛkaṃ / pittāttvaṅmaṇḍalaṃ jñeyaṃ mātāpitṛsamudbhavaṃ",
-          "hindi": "प्रयुक्त होता है। उपवास आदिके रूपमें किये जानेवाले व्रतका नाम पुण्यक है। जिसका प्रथम या प्रधानरूपसे विधान किया गया हो, उसे 'मुख्यकल्प' कहते हैं और उसकी अपेक्षा अधम या अप्रधानरूपसे जिसको विधि हो, उसका नाम अनुकल्प है। कल्पके अर्थमें विधि और क्रम-इन शब्दोंका प्रयोग समझना चाहिए। वस्तुका पृथक्-पृथक् ज्ञान (अथवा जड़-चेतन"
+          "hindi": "प्रयुक्त होता है। उपवास आदिके रूपमें किये जानेवाले व्रतका नाम पुण्यक है। जिसका प्रथम या प्रधानरूपसे विधान किया गया हो, उसे 'मुख्यकल्प' कहते हैं और उसकी अपेक्षा अधम या अप्रधानरूपसे जिसको विधि हो, उसका नाम अनुकल्प है। कल्पके अर्थमें विधि और क्रम-इन शब्दोंका प्रयोग समझना चाहिए। वस्तुका पृथक्-पृथक् ज्ञान (अथवा जड़-चेतन",
+          "translation": "The dark circle comes from wind and comes from the mother; the circle of skin, it should be known, comes from mother and father together.",
+          "translationSource": "ai"
         },
         {
           "number": 21,
           "sanskrit": "मांसासृक्कफजा जिह्वा मेदो ऽसृक्कफमांसजौ । वृषाणौ दश प्राणस्य ज्ञेयान्यायतनानि तु",
           "transliteration": "māṃsāsṛkkaphajā jihvā medo 'sṛkkaphamāṃsajau / vṛṣāṇau daśa prāṇasya jñeyānyāyatanāni tu",
-          "hindi": "या द्रष्टा-दृश्यके पार्थक्यका निश्चय) विवेक कहलाता है। (श्रावणीपूर्णिमा आदिके दिन)"
+          "hindi": "या द्रष्टा-दृश्यके पार्थक्यका निश्चय) विवेक कहलाता है। (श्रावणीपूर्णिमा आदिके दिन)",
+          "translation": "The tongue is born of flesh, blood and phlegm; fat is born of blood, phlegm and flesh; the testicles are known; these are the ten seats of life.",
+          "translationSource": "ai"
         },
         {
           "number": 22,
           "sanskrit": "मूर्धा हृन्नाभिकण्ठाश् च जिह्वा शुक्रञ्च शोणितं । गुदं वस्तिश् च गुल्फञ्च कण्डुराः शोडशेरिताः",
           "transliteration": "mūrdhā hṛnnābhikaṇṭhāś ca jihvā śukrañca śoṇitaṃ / gudaṃ vastiś ca gulphañca kaṇḍurāḥ śoḍaśeritāḥ",
-          "hindi": "संस्कारपूर्वक वेदका स्वाध्याय आरम्भ करना उपकरण या उपाकर्म कहलाता है । भिक्षु, परिव्राट्, कर्मन्दी, पाराशरी तथा मस्करी--संन्यासीके पर्यायवाची शब्द हैं। जिनकी वाणी सदा सत्य होती है, वे ऋषि और सत्यवचा कहलाते हैं।"
+          "hindi": "संस्कारपूर्वक वेदका स्वाध्याय आरम्भ करना उपकरण या उपाकर्म कहलाता है । भिक्षु, परिव्राट्, कर्मन्दी, पाराशरी तथा मस्करी--संन्यासीके पर्यायवाची शब्द हैं। जिनकी वाणी सदा सत्य होती है, वे ऋषि और सत्यवचा कहलाते हैं।",
+          "translation": "The head, heart, navel, throat, tongue, semen, blood, anus, bladder and ankle — sixteen are named.",
+          "translationSource": "ai"
         },
         {
           "number": 23,
           "sanskrit": "द्वे करे द्वे च चरणे चतस्रः पृष्ठतो गले । देहे पादादिशीर्षान्ते जालानि चैव षोडश",
           "transliteration": "dve kare dve ca caraṇe catasraḥ pṛṣṭhato gale / dehe pādādiśīrṣānte jālāni caiva ṣoḍaśa",
-          "hindi": "जिसने वेदाध्ययन और ब्रह्मचर्यके व्रतको विधिवत्"
+          "hindi": "जिसने वेदाध्ययन और ब्रह्मचर्यके व्रतको विधिवत्",
+          "translation": "Two hands, two feet, and four at the back of the neck: in the body, from foot to head, there are sixteen nets (tendon-networks).",
+          "translationSource": "ai"
         },
         {
           "number": 24,
           "sanskrit": "मांसस्नायुशिरास्थिन्यः चत्वारश् च पृथक् पृथक् । मणिबन्धनगुल्फेषु निबद्धानि परस्परं",
           "transliteration": "māṃsasnāyuśirāsthinyaḥ catvāraś ca pṛthak pṛthak / maṇibandhanagulpheṣu nibaddhāni parasparaṃ",
-          "hindi": "समाप्त कर लिया है, किंतु अभी दूसरे आश्रमको कर ली है, वे “यती' और “यति' कहलाते हैं। शरीर-साध्य नित्यकर्मका नाम यम है तथा जो कर्म अनित्य एवं कभी-कभी आवश्यकतानुसार किये जानेयोग्य होता है, वह (जप, उपवास"
+          "hindi": "समाप्त कर लिया है, किंतु अभी दूसरे आश्रमको कर ली है, वे “यती' और “यति' कहलाते हैं। शरीर-साध्य नित्यकर्मका नाम यम है तथा जो कर्म अनित्य एवं कभी-कभी आवश्यकतानुसार किये जानेयोग्य होता है, वह (जप, उपवास",
+          "translation": "Of flesh, sinew, vessel and bone there are four each, separately, fastened together at the wrists and ankles.",
+          "translationSource": "ai"
         },
         {
           "number": 25,
           "sanskrit": "षट्कूर्चानि स्मृतानीह हस्तयोः पादयोः पृथक् । ग्रीवायाञ्च तथा मेढ्रे कथितानि मनीषिभिः",
           "transliteration": "ṣaṭkūrcāni smṛtānīha hastayoḥ pādayoḥ pṛthak / grīvāyāñca tathā meḍhre kathitāni manīṣibhiḥ",
-          "hindi": "आदि) नियम कहलाता है। ब्रह्मभूय, ब्रह्मत्व और ब्रह्मसायुज्य-ये ब्रह्मभावको प्राप्तिके नाम"
+          "hindi": "आदि) नियम कहलाता है। ब्रह्मभूय, ब्रह्मत्व और ब्रह्मसायुज्य-ये ब्रह्मभावको प्राप्तिके नाम",
+          "translation": "Six \"kurcas\" (bundles) are mentioned here: in the two hands, the two feet separately, in the neck and in the organ of generation, as the wise have said.",
+          "translationSource": "ai"
         },
         {
           "number": 26,
           "sanskrit": "पृष्ठवंशस्योपगताश् चतस्रो मांसरज्जवः । नवत्यश् च तथा पेश्यस्तासां बन्धनकारिकाः",
           "transliteration": "pṛṣṭhavaṃśasyopagatāś catasro māṃsarajjavaḥ / navatyaś ca tathā peśyastāsāṃ bandhanakārikāḥ",
-          "hindi": "स्वीकार नहीं किया है, उसको स्नातक कहते हैं ।  हैं॥ १--११॥ इस प्रकार आदि आग्नेय महापुराणमें 'कोशगत ब्रह्मवर्गका वर्णन” नामक तीन सौ पैँसठवाँ अध्याय पूरा हुआ अग्निदेव कहते हैं मूर्धाभिषिक्त, राजन्य बाहुज, क्षत्रिय और विराट्-ये क्षत्रियके वाचक हैं। जिस राजाके सामने सभी सामन्त-नरेश मस्तक झुकाते हैं, उसे अधीश्वर कहते हैं।"
+          "hindi": "स्वीकार नहीं किया है, उसको स्नातक कहते हैं ।  हैं॥ १--११॥ इस प्रकार आदि आग्नेय महापुराणमें 'कोशगत ब्रह्मवर्गका वर्णन” नामक तीन सौ पैँसठवाँ अध्याय पूरा हुआ अग्निदेव कहते हैं मूर्धाभिषिक्त, राजन्य बाहुज, क्षत्रिय और विराट्-ये क्षत्रियके वाचक हैं। जिस राजाके सामने सभी सामन्त-नरेश मस्तक झुकाते हैं, उसे अधीश्वर कहते हैं।",
+          "translation": "Four cords of flesh run along the spine; and ninety muscles are the binders of them.",
+          "translationSource": "ai"
         },
         {
           "number": 27,
           "sanskrit": "सीरण्यश् च तथा सप्त पञ्च मूर्धानमाश्रिताः । एकैका मेढ्रजिह्वास्ता अस्थि षष्टिशतत्रयं",
           "transliteration": "sīraṇyaś ca tathā sapta pañca mūrdhānamāśritāḥ / ekaikā meḍhrajihvāstā asthi ṣaṣṭiśatatrayaṃ",
-          "hindi": "जिसका समुद्रपर्यन्त समूची भूमिपर अधिकार हो, उस सम्राट्का नाम चक्रवर्ती और सार्वभौम है तथा दूसरे राजाओंको (जो छोटे-छोटे मण्डलोंके शासक हैं, उन्हें) मण्डलेश्वर कहते हैं। मन्त्रीके"
+          "hindi": "जिसका समुद्रपर्यन्त समूची भूमिपर अधिकार हो, उस सम्राट्का नाम चक्रवर्ती और सार्वभौम है तथा दूसरे राजाओंको (जो छोटे-छोटे मण्डलोंके शासक हैं, उन्हें) मण्डलेश्वर कहते हैं। मन्त्रीके",
+          "translation": "Seven sutures and five lie about the head; one each belongs to the organ and the tongue; the bones number three hundred and sixty.",
+          "translationSource": "ai"
         },
         {
           "number": 28,
           "sanskrit": "सूक्ष्मैः सह चतुःषष्ठिर्दशना विंशतिर्नखाः । पाणिपादशलाकाश् च तासां स्थानचतुष्टयं",
           "transliteration": "sūkṣmaiḥ saha catuḥṣaṣṭhirdaśanā viṃśatirnakhāḥ / pāṇipādaśalākāś ca tāsāṃ sthānacatuṣṭayaṃ",
-          "hindi": "तीन नाम हैं-मन्त्री, धीसचिव और अमात्य। महामात्र और प्रधान-ये सामान्य मन्त्रियोंके वाचक हैं। व्यवहारके द्रष्टा अर्थात् मामले- मुकदमेमें फैसला देनेवालेको प्राइविवाक और अक्षदर्शक कहते हैं। सुवर्णकी रक्षा जिसके अधिकारमें हो वह भौरिक और कनकाध्यक्ष कहलाता है। अध्यक्ष और अधिकृत-ये अधिकारीके वाचक हैं। इन दोनोंका समान"
+          "hindi": "तीन नाम हैं-मन्त्री, धीसचिव और अमात्य। महामात्र और प्रधान-ये सामान्य मन्त्रियोंके वाचक हैं। व्यवहारके द्रष्टा अर्थात् मामले- मुकदमेमें फैसला देनेवालेको प्राइविवाक और अक्षदर्शक कहते हैं। सुवर्णकी रक्षा जिसके अधिकारमें हो वह भौरिक और कनकाध्यक्ष कहलाता है। अध्यक्ष और अधिकृत-ये अधिकारीके वाचक हैं। इन दोनोंका समान",
+          "translation": "With the small ones, sixty-four teeth (bones) and twenty nails; the rods of the hands and feet; four places belong to them.",
+          "translationSource": "ai"
         },
         {
           "number": 29,
           "sanskrit": "षष्ट्यङ्गुलीनां द्वे पार्ष्ण्योर्गुल्फेषु च चतुष्टयं । चत्वार्यरत्न्योरस्थीनि जङ्घयोस्तद्वदेव तु",
           "transliteration": "ṣaṣṭyaṅgulīnāṃ dve pārṣṇyorgulpheṣu ca catuṣṭayaṃ / catvāryaratnyorasthīni jaṅghayostadvadeva tu",
-          "hindi": "लिङ्ग है। जिसे अन्तःपुरकी रक्षाका अधिकार"
+          "hindi": "लिङ्ग है। जिसे अन्तःपुरकी रक्षाका अधिकार",
+          "translation": "Sixty finger bones; two in the heels and four in the ankles; four in each forearm, and likewise in the shanks.",
+          "translationSource": "ai"
         },
         {
           "number": 30,
           "sanskrit": "द्वे द्वे जानुकपोलोरुफलकांशसमुद्भवं । अक्षस्थानांशकश्रोणिफलके चैवमादिशेत्",
           "transliteration": "dve dve jānukapoloruphalakāṃśasamudbhavaṃ / akṣasthānāṃśakaśroṇiphalake caivamādiśet",
-          "hindi": "सौंपा गया हो, उसका नाम अन्तर्वशिक' है। सौविदल्ल, कञ्चुकी, स्थापत्य और सौविद-ये रनिवासकी रक्षामें नियुक्त सिपाहियोंके नाम हैं। अन्तःपुरमें रहनेवाले नपुंसकोंको षण्ड और वर्षवर कहते हैं। सेवक, अर्थी और अनुजीवी ये सेवा करनेवालेके अर्थमें आते हैं। अपने राज्यकी सीमापर रहनेवाला राजा शत्रु होता है और शत्रुको राज्य-सीमापर रहनेवाला नरेश"
+          "hindi": "सौंपा गया हो, उसका नाम अन्तर्वशिक' है। सौविदल्ल, कञ्चुकी, स्थापत्य और सौविद-ये रनिवासकी रक्षामें नियुक्त सिपाहियोंके नाम हैं। अन्तःपुरमें रहनेवाले नपुंसकोंको षण्ड और वर्षवर कहते हैं। सेवक, अर्थी और अनुजीवी ये सेवा करनेवालेके अर्थमें आते हैं। अपने राज्यकी सीमापर रहनेवाला राजा शत्रु होता है और शत्रुको राज्य-सीमापर रहनेवाला नरेश",
+          "translation": "Two each in the knees, cheek, thigh, and shoulder-blade; so one should describe the eye-socket, shoulder, hip and pelvis bones.",
+          "translationSource": "ai"
         },
         {
           "number": 31,
           "sanskrit": "भगास्तोकं तथा पृष्ठे चत्वारिंशच्च पञ्च च । ग्रीवायाञ्च तथास्थीनि जत्रुकञ्च तथा हमुः",
           "transliteration": "bhagāstokaṃ tathā pṛṣṭhe catvāriṃśacca pañca ca / grīvāyāñca tathāsthīni jatrukañca tathā hamuḥ",
-          "hindi": "अपना मित्र होता है। शत्रु और मित्र दोनोंकी राज्यसीमाओंके बाद जिसका राज्य हो, वह (न शत्रु, न मित्र) उदासीनः होता है। विजिगीषु राजाके पृष्ठभागमें रहनेवाले राजाको पार्ष्णिग्राह"
+          "hindi": "अपना मित्र होता है। शत्रु और मित्र दोनोंकी राज्यसीमाओंके बाद जिसका राज्य हो, वह (न शत्रु, न मित्र) उदासीनः होता है। विजिगीषु राजाके पृष्ठभागमें रहनेवाले राजाको पार्ष्णिग्राह",
+          "translation": "Pelvis-bones a few, and in the back forty-five; in the neck are the bones, and the collar-bone and the jaw.",
+          "translationSource": "ai"
         },
         {
           "number": 32,
           "sanskrit": "तन्मूलं द्वेललाटाक्षिगण्डनासाङ्घ्य्रवस्थिताः । पर्शुकास्तालुकैः सार्धमर्वुदैश् च द्विसप्ततिः",
           "transliteration": "tanmūlaṃ dvelalāṭākṣigaṇḍanāsāṅghyravasthitāḥ / parśukāstālukaiḥ sārdhamarvudaiś ca dvisaptatiḥ",
-          "hindi": "कहते हैं। चर, स्पश और प्रणिधि-ये गुप्तचरके नाम हैं। भविष्यकालको आयति कहते हैं। तत्काल और तदात्व ये वर्तमान कालके वाचक हैं। भावी कर्मफलको उदर्क कहते हैं। आग लगने या पानीकी बाढ़ आदिके कारण होनेवाले"
+          "hindi": "कहते हैं। चर, स्पश और प्रणिधि-ये गुप्तचरके नाम हैं। भविष्यकालको आयति कहते हैं। तत्काल और तदात्व ये वर्तमान कालके वाचक हैं। भावी कर्मफलको उदर्क कहते हैं। आग लगने या पानीकी बाढ़ आदिके कारण होनेवाले",
+          "translation": "Its root two; the forehead, eyes, cheeks, nose and chin are set; ribs with palate-bones and the small joints make seventy-two.",
+          "translationSource": "ai"
         },
         {
           "number": 33,
           "sanskrit": "द्वेशङ्खके कपालानि चत्वार्येव शिरस् तथा । उरः सप्तदशास्थीनि सन्धीनां द्वे शते दश",
           "transliteration": "dveśaṅkhake kapālāni catvāryeva śiras tathā / uraḥ saptadaśāsthīni sandhīnāṃ dve śate daśa",
-          "hindi": "१. ' अन्तर्वशिक 'के स्थानमें ' अन्तर्वेश्मिक' नाम भी प्रयुक्त होता है। २. रामोक्त नीतिके उपदेशानुसार विजिगीषुके सम्मुखवर्ती पाँच राज्य क्रमशः शत्रु, मित्र, अरिमित्र, मित्रमित्र तथा अरिमित्र-मित्र होते हैं; आगे भी ऐसा ही क्रम है। दोनों पार्श्वगत राज्योंमें क्रमशः मध्यम तथा उदासीन होते हैं ।"
+          "hindi": "१. ' अन्तर्वशिक 'के स्थानमें ' अन्तर्वेश्मिक' नाम भी प्रयुक्त होता है। २. रामोक्त नीतिके उपदेशानुसार विजिगीषुके सम्मुखवर्ती पाँच राज्य क्रमशः शत्रु, मित्र, अरिमित्र, मित्रमित्र तथा अरिमित्र-मित्र होते हैं; आगे भी ऐसा ही क्रम है। दोनों पार्श्वगत राज्योंमें क्रमशः मध्यम तथा उदासीन होते हैं ।",
+          "translation": "Two in the temples; the skull has four plates; the chest seventeen bones; the joints number two hundred and ten.",
+          "translationSource": "ai"
         },
         {
           "number": 34,
           "sanskrit": "अष्टषष्टिस्तु शाखासु षष्टिश् चैकविवर्जिता । अन्तरा वै त्र्यशीतिश् च स्नायोर् नवशतानि च",
           "transliteration": "aṣṭaṣaṣṭistu śākhāsu ṣaṣṭiś caikavivarjitā / antarā vai tryaśītiś ca snāyor navaśatāni ca",
-          "hindi": "भयको अदृष्टभय कहते हैं। अपने या शत्रुके राज्यमें रहनेवाले सैनिकों या चोरों आदिके कारण जो संकट उपस्थित होता है, उसका नाम दृष्टभय है। भरे हुए घड़ेको भद्रकुम्भ और पूर्णकुम्भ कहते हैं। सोनेके गड़ए या झारीका नाम भृङ्गार और कनकालुका है। मतवाले हाथीको प्रभिन्न, गर्जित और मत्त कहते हैं। हाथीकी सूँड्से निकलनेवाले जलकणको वमथु"
+          "hindi": "भयको अदृष्टभय कहते हैं। अपने या शत्रुके राज्यमें रहनेवाले सैनिकों या चोरों आदिके कारण जो संकट उपस्थित होता है, उसका नाम दृष्टभय है। भरे हुए घड़ेको भद्रकुम्भ और पूर्णकुम्भ कहते हैं। सोनेके गड़ए या झारीका नाम भृङ्गार और कनकालुका है। मतवाले हाथीको प्रभिन्न, गर्जित और मत्त कहते हैं। हाथीकी सूँड्से निकलनेवाले जलकणको वमथु",
+          "translation": "In the limbs sixty-eight, and fifty-nine; within, eighty-three; and nine hundred sinews.",
+          "translationSource": "ai"
         },
         {
           "number": 35,
           "sanskrit": "त्रिंशाधिके द्वे शते तु अन्तराधौ तु सप्ततिः । ऊर्ध्वगाः षट्शतान्येव शाखास्तु कथितानि तु",
           "transliteration": "triṃśādhike dve śate tu antarādhau tu saptatiḥ / ūrdhvagāḥ ṣaṭśatānyeva śākhāstu kathitāni tu",
-          "hindi": "और करशीकर कहते हैं। सृणि और ह ला ये दो हाथीको हाँकनेके काममें लाये"
+          "hindi": "और करशीकर कहते हैं। सृणि और ह ला ये दो हाथीको हाँकनेके काममें लाये",
+          "translation": "Two hundred and thirty... in the inner region seventy; the upward ones are six hundred; the branches are thus described.",
+          "translationSource": "ai"
         },
         {
           "number": 36,
           "sanskrit": "पञ्चपेशीशतान्येव(१) चत्वारिंशत्तथोर्ध्वगाः । चतुःशतन्तु शाखासु अन्तराधौ च षष्टिका",
           "transliteration": "pañcapeśīśatānyeva(1) catvāriṃśattathordhvagāḥ / catuḥśatantu śākhāsu antarādhau ca ṣaṣṭikā",
-          "hindi": "लोहेके काँटेका बोध कराते हैं। इनमें सृणि तो है। परिस्तोम और कुथ हाथीकी गद्दी और झूलके वाचक हैं। स्त्रियोंके बैठनेयोग्य पर्देवाली गाडीको कर्णीरथ और प्रवहण कहते हैं। दोला और प्रेङ्खा--ये झूला अथवा डोलीके नाम हैं।"
+          "hindi": "लोहेके काँटेका बोध कराते हैं। इनमें सृणि तो है। परिस्तोम और कुथ हाथीकी गद्दी और झूलके वाचक हैं। स्त्रियोंके बैठनेयोग्य पर्देवाली गाडीको कर्णीरथ और प्रवहण कहते हैं। दोला और प्रेङ्खा--ये झूला अथवा डोलीके नाम हैं।",
+          "translation": "Five hundred muscles; forty going upward; four hundred in the limbs and sixty within.",
+          "translationSource": "ai"
         },
         {
           "number": 37,
           "sanskrit": "स्त्रीणाम् चैकाधिका वै स्याद्विंशतिश् चतुरुत्तरा । स्तनयोर्दश योनौ च त्रयोदश तथाशये",
           "transliteration": "strīṇām caikādhikā vai syādviṃśatiś caturuttarā / stanayordaśa yonau ca trayodaśa tathāśaye",
-          "hindi": "इनका स्त्रीलिङ्गमें प्रयोग होता है। आधोरण, हस्तिपक, हस्त्यारोह और निषादी ये हाथीवानके अर्थमें आते हैं। लड़नेवाले सिपाहियोंको भट और योद्धा कहते हैं। कञ्ुक और वारण-ये"
+          "hindi": "इनका स्त्रीलिङ्गमें प्रयोग होता है। आधोरण, हस्तिपक, हस्त्यारोह और निषादी ये हाथीवानके अर्थमें आते हैं। लड़नेवाले सिपाहियोंको भट और योद्धा कहते हैं। कञ्ुक और वारण-ये",
+          "translation": "In women there are twenty more, then four; ten in the breasts, thirteen in the womb and the receptacle.",
+          "translationSource": "ai"
         },
         {
           "number": 38,
           "sanskrit": "गर्भस्य च चतस्रः स्युः शिराणाञ्च शरीरिणां । त्रिंशच्छतसहस्राणि तथान्यानि नवैव तु",
           "transliteration": "garbhasya ca catasraḥ syuḥ śirāṇāñca śarīriṇāṃ / triṃśacchatasahasrāṇi tathānyāni navaiva tu",
-          "hindi": "कवच (बख्तर)-के नाम हैं। इनका प्रयोग स्त्रीलिङ्गके सिवा अन्य लिङ्गोंमें होता है। टोपके नाम हैं। तनुत्र, वर्म और दंशन-ये भी कवचके अर्थमें आते हैं। आमुक्त, प्रतिमुक्त, पिनद्ध और अपिनद्ध-ये पहने हुए कवचके वाचक हैं। सेनाकी मोर्चाबंदीका नाम व्यूह और"
+          "hindi": "कवच (बख्तर)-के नाम हैं। इनका प्रयोग स्त्रीलिङ्गके सिवा अन्य लिङ्गोंमें होता है। टोपके नाम हैं। तनुत्र, वर्म और दंशन-ये भी कवचके अर्थमें आते हैं। आमुक्त, प्रतिमुक्त, पिनद्ध और अपिनद्ध-ये पहने हुए कवचके वाचक हैं। सेनाकी मोर्चाबंदीका नाम व्यूह और",
+          "translation": "And four for the embryo; of the vessels of embodied beings there are thirty hundred-thousands and nine others.",
+          "translationSource": "ai"
         },
         {
           "number": 39,
           "sanskrit": "षट्पञ्चाशत्सहस्राणि रसन्देहे वहन्ति ताः । केदार इव कुल्याश् च क्लेदलेपादिकञ्च यत्",
           "transliteration": "ṣaṭpañcāśatsahasrāṇi rasandehe vahanti tāḥ / kedāra iva kulyāś ca kledalepādikañca yat",
-          "hindi": "बल-विन्यास है। चक्र और अनीक-ये नपुंसकलिङ्ग शब्द सेनाके वाचक हैं। जिस"
+          "hindi": "बल-विन्यास है। चक्र और अनीक-ये नपुंसकलिङ्ग शब्द सेनाके वाचक हैं। जिस",
+          "translation": "Fifty-six thousand carry the fluid in the body, like channels in a field; and what is moisture, ointments and the like...",
+          "translationSource": "ai"
         },
         {
           "number": 40,
           "sanskrit": "द्वासप्ततिस् तथा कोट्यो व्योम्नामिह महामुने । मज्जाया मेदसश् चैव वसायाश् च तथा द्विज",
           "transliteration": "dvāsaptatis tathā koṭyo vyomnāmiha mahāmune / majjāyā medasaś caiva vasāyāś ca tathā dvija",
-          "hindi": "सेनामें एक हाथी, एक रथ, तीन घोड़े और पाँच पैदल हों, उसे पत्ति कहते हैं। पत्तिके समस्त अङ्गोंको लगातार सात बार तीन गुना करते जायँ तो उत्तरोत्तर उसके ये नाम होंगे-सेनामुख, हाथी आदि सभी अङ्गाँसे युक्त दस अनीकिनी सेनाको अक्षौहिणी कहते हैं। धनुष, कोदण्ड और इष्वास-ये धनुषके नाम हैं। धनुषके दोनों कोणोंको कोटि और अटनी कहते हैं। उसके"
+          "hindi": "सेनामें एक हाथी, एक रथ, तीन घोड़े और पाँच पैदल हों, उसे पत्ति कहते हैं। पत्तिके समस्त अङ्गोंको लगातार सात बार तीन गुना करते जायँ तो उत्तरोत्तर उसके ये नाम होंगे-सेनामुख, हाथी आदि सभी अङ्गाँसे युक्त दस अनीकिनी सेनाको अक्षौहिणी कहते हैं। धनुष, कोदण्ड और इष्वास-ये धनुषके नाम हैं। धनुषके दोनों कोणोंको कोटि और अटनी कहते हैं। उसके",
+          "translation": "Seventy-two crores of openings here, O great sage; of marrow, fat, and also of serum...",
+          "translationSource": "ai"
         },
         {
           "number": 41,
           "sanskrit": "मूत्रस्य चैव पित्तस्य श्लेष्मणः शकृतस् तथा । १ पञ्चपेशीशतान्यत्रेति ख॥ , ञ॥ च :प् ३०९ रक्तस्य सरसस्यात्र क्रमशो ऽञ्जलयो मताः",
           "transliteration": "mūtrasya caiva pittasya śleṣmaṇaḥ śakṛtas tathā / 1 pañcapeśīśatānyatreti kha.. , ña.. ca :p 309 raktasya sarasasyātra kramaśo 'ñjalayo matāḥ",
-          "hindi": "मध्य भागका नाम नस्तक (या लस्तक) है। प्रत्यञ्चाको मौवी, ज्या, शिञ्जिनी और गुण कहते हैं। पृषत्क, बाण, विशिख, अजिह्मग, खग और आशुग-ये वाचक पर्याय शब्द हैं"
+          "hindi": "मध्य भागका नाम नस्तक (या लस्तक) है। प्रत्यञ्चाको मौवी, ज्या, शिञ्जिनी और गुण कहते हैं। पृषत्क, बाण, विशिख, अजिह्मग, खग और आशुग-ये वाचक पर्याय शब्द हैं",
+          "translation": "...of urine, bile, phlegm, faeces, blood and lymph, the quantities are held in order to be handfuls (\"anjali\").",
+          "translationSource": "ai"
         },
         {
           "number": 42,
           "sanskrit": "अर्धार्धाभ्यधिकाः सर्वाः पूर्वपूर्वाञ्जलेर्मताः । अर्धाञ्जलिश् च शुक्रस्य तदर्धञ्च ततौजसः",
           "transliteration": "ardhārdhābhyadhikāḥ sarvāḥ pūrvapūrvāñjalermatāḥ / ardhāñjaliś ca śukrasya tadardhañca tataujasaḥ",
-          "hindi": "ये तरकसके नाम हैं। इनमें इषुधि शब्द पुँल्लिङ्ग और स्त्रीलिङ्ग दोनों लिङ्गोंमें आता है। असि, ऋष्टि, निस्त्रिंश, करवाल और कृपाण--ये तलवारके वाचक हैं। तलवारकी मुष्टिको सरु कहते हैं। ईली और करपालिका (करवालिका) --ये गुप्तीके नाम हैं। कुठार और सुधिति (या स्वधिति) -ये कुल्हाड़ीके अर्थमें आते हैं। इनमें कुठार शब्दका प्रयोग पुँल्लिङ्ग और नपुंसकलिङ्ग -दोनोंमें होता"
+          "hindi": "ये तरकसके नाम हैं। इनमें इषुधि शब्द पुँल्लिङ्ग और स्त्रीलिङ्ग दोनों लिङ्गोंमें आता है। असि, ऋष्टि, निस्त्रिंश, करवाल और कृपाण--ये तलवारके वाचक हैं। तलवारकी मुष्टिको सरु कहते हैं। ईली और करपालिका (करवालिका) --ये गुप्तीके नाम हैं। कुठार और सुधिति (या स्वधिति) -ये कुल्हाड़ीके अर्थमें आते हैं। इनमें कुठार शब्दका प्रयोग पुँल्लिङ्ग और नपुंसकलिङ्ग -दोनोंमें होता",
+          "translation": "Each is taken as half again more than the preceding handful; half a handful of semen, and half of that of ojas.",
+          "translationSource": "ai"
         },
         {
           "number": 43,
           "sanskrit": "रजसस्तु तथा स्त्रीणाञ्चतस्रः कथिता बुधैः । शरीरं मलदोषादि पिण्डं ज्ञात्वात्मनि त्यजेत्(१)",
           "transliteration": "rajasastu tathā strīṇāñcatasraḥ kathitā budhaiḥ / śarīraṃ maladoṣādi piṇḍaṃ jñātvātmani tyajet(1)",
-          "hindi": "है। छुरीको क्षुरिका और असिपुत्रिका कहते हैं। प्रास और कुन्त भालेके नाम हैं। सर्वला और तोमर गँड़ासेके अर्थमें आते हैं। तोमर शब्द पुँल्लिङ्ग और नपुंसकलिङ्ग -दोनोंमें प्रयुक्त होता"
+          "hindi": "है। छुरीको क्षुरिका और असिपुत्रिका कहते हैं। प्रास और कुन्त भालेके नाम हैं। सर्वला और तोमर गँड़ासेके अर्थमें आते हैं। तोमर शब्द पुँल्लिङ्ग और नपुंसकलिङ्ग -दोनोंमें प्रयुक्त होता",
+          "translation": "And the wise have said four for the menses of women. Knowing the body as a lump of impurities and faults, one should relinquish it in the Self.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -86306,163 +86382,217 @@
           "number": 13,
           "sanskrit": "भुज्यन्ते पापिभिर्वक्ष्ये नरकांस्ताश् च यातनाः । अष्टाविंशतिरेवाधःक्षितेर्नरककोटयः",
           "transliteration": "bhujyante pāpibhirvakṣye narakāṃstāś ca yātanāḥ / aṣṭāviṃśatirevādhaḥkṣiternarakakoṭayaḥ",
-          "hindi": "खोवा या मावाका नाम कूचिका और क्षीरविकृति है। स्रिग्ध, मसृण और चिक्रण-ये तीनों शब्द चिकनेके अर्थमें आते हैं। पृथुक और चिपिटक - ये चिउड़ाके वाचक हैं। भूने हुए जौको धाना कहते हैं। यह स्त्रीलिङ्ग शब्द है। जेमन, लेह (लेप) और आहार--ये भोजनका बोध करानेवाले हैं। माहेयी, सौरभी और गौ--ये गायके पर्याय हैं। कंधेपर जुआ ढोनेवाले बैलको युग्य और"
+          "hindi": "खोवा या मावाका नाम कूचिका और क्षीरविकृति है। स्रिग्ध, मसृण और चिक्रण-ये तीनों शब्द चिकनेके अर्थमें आते हैं। पृथुक और चिपिटक - ये चिउड़ाके वाचक हैं। भूने हुए जौको धाना कहते हैं। यह स्त्रीलिङ्ग शब्द है। जेमन, लेह (लेप) और आहार--ये भोजनका बोध करानेवाले हैं। माहेयी, सौरभी और गौ--ये गायके पर्याय हैं। कंधेपर जुआ ढोनेवाले बैलको युग्य और",
+          "translation": "I shall tell of the hells where sinners suffer, and of those torments. Below the earth there are twenty-eight crores of hells.",
+          "translationSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "सप्तमस्य तलस्यान्ते घोरे तमसि संस्थिताः । घोराख्या प्रथमाकोटिः सुघोरा तदधःस्थिता",
           "transliteration": "saptamasya talasyānte ghore tamasi saṃsthitāḥ / ghorākhyā prathamākoṭiḥ sughorā tadadhaḥsthitā",
-          "hindi": "प्रासङ्गथ तथा गाड़ी खींचनेवालेको शाकट कहते हैं। बहुत दिनोंकी ब्यायी हुई गायका नाम"
+          "hindi": "प्रासङ्गथ तथा गाड़ी खींचनेवालेको शाकट कहते हैं। बहुत दिनोंकी ब्यायी हुई गायका नाम",
+          "translation": "They lie at the end of the seventh nether region, in dread darkness. The first crore is called Ghora; below it is Sughora.",
+          "translationSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "अतिघोरा महाघोरा घोररूपा च पञ्चमी । षष्ठी तरलताराख्या सप्तमी च भयानका",
           "transliteration": "atighorā mahāghorā ghorarūpā ca pañcamī / ṣaṣṭhī taralatārākhyā saptamī ca bhayānakā",
-          "hindi": "वष्कयणी (बकेना) तथा थोड़े दिनोंको ब्यायी हुईका नाम धेनु है। साँड्से लगी हुई गौको संधिनी कहते हैं। गर्भ गिरानेवाली गायको 'वेहद्' संज्ञा है पण्याजीव तथा आपणिक व्यापारीके अर्थमें आते हैं। न्यास और उपनिधि-ये धरोहरके वाचक हैं। ये दोनों शब्द पुँल्लिङ्ग हैं। बेचनेका नाम है विपण और विक्रय। संख्यावाचक शब्द"
+          "hindi": "वष्कयणी (बकेना) तथा थोड़े दिनोंको ब्यायी हुईका नाम धेनु है। साँड्से लगी हुई गौको संधिनी कहते हैं। गर्भ गिरानेवाली गायको 'वेहद्' संज्ञा है पण्याजीव तथा आपणिक व्यापारीके अर्थमें आते हैं। न्यास और उपनिधि-ये धरोहरके वाचक हैं। ये दोनों शब्द पुँल्लिङ्ग हैं। बेचनेका नाम है विपण और विक्रय। संख्यावाचक शब्द",
+          "translation": "Then Atighora, Mahaghora, the fifth Ghorarupa; the sixth called Taralatara; the seventh Bhayanaka.",
+          "translationSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "भयोत्कटा कालरात्री महाचण्डा च चण्डया । कोलाहला प्रचण्डाख्या पद्मा नरकनायिका",
           "transliteration": "bhayotkaṭā kālarātrī mahācaṇḍā ca caṇḍayā / kolāhalā pracaṇḍākhyā padmā narakanāyikā",
-          "hindi": "एकसे लेकर 'दश' शब्दके श्रवण होनेतक (अर्थात् एकसे अष्टादशतक) केवल संख्येय द्रव्यका बोध करानेके लिये प्रयुक्त होते हैं, अतः उनका तीनों लिङ्गोंमें प्रयोग होता है। जैसे"
+          "hindi": "एकसे लेकर 'दश' शब्दके श्रवण होनेतक (अर्थात् एकसे अष्टादशतक) केवल संख्येय द्रव्यका बोध करानेके लिये प्रयुक्त होते हैं, अतः उनका तीनों लिङ्गोंमें प्रयोग होता है। जैसे",
+          "translation": "Bhayotkata, Kalaratri, Mahachanda, Chandaya, Kolahala, Prachanda, Padma — leader of the hells.",
+          "translationSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "पद्मावती भीषणा च भीमा चैव करालिका । विकराला महावज्रा त्रिकोणा पञ्चकोणिका",
           "transliteration": "padmāvatī bhīṣaṇā ca bhīmā caiva karālikā / vikarālā mahāvajrā trikoṇā pañcakoṇikā",
-          "hindi": "एकः पटः, एका स्त्री, एकं पुष्पम् इत्यादि; परंतु “पञ्चन्'से 'दशन्' शब्दतकके रूप तीनों लिङ्गोमें समान होते हैं। यथा-दश स्त्रियः, दश पुरुषाः, दश पुष्पाणि इत्यादि। इसी प्रकार अष्टादशतक समझना चाहिए। संख्यामात्रका बोध करानेके लिये इन शब्दोंका प्रयोग नहीं होता; अतएव “विप्राणां शतम्’ इत्यादिके समान 'विप्राणां दश' यह प्रयोग नहीं हो सकता। विंशति आदि"
+          "hindi": "एकः पटः, एका स्त्री, एकं पुष्पम् इत्यादि; परंतु “पञ्चन्'से 'दशन्' शब्दतकके रूप तीनों लिङ्गोमें समान होते हैं। यथा-दश स्त्रियः, दश पुरुषाः, दश पुष्पाणि इत्यादि। इसी प्रकार अष्टादशतक समझना चाहिए। संख्यामात्रका बोध करानेके लिये इन शब्दोंका प्रयोग नहीं होता; अतएव “विप्राणां शतम्’ इत्यादिके समान 'विप्राणां दश' यह प्रयोग नहीं हो सकता। विंशति आदि",
+          "translation": "Padmavati, Bhishana, Bhima, Karalika, Vikarala, Mahavajra, Trikona, Panchakonika.",
+          "translationSource": "ai"
         },
         {
           "number": 18,
           "sanskrit": "सदीर्घा वर्तुला सप्तभूमा चैव सुभूमिका । दीप्तमायाष्टाविंशतयः कोटयः पापिदुःखदाः",
           "transliteration": "sadīrghā vartulā saptabhūmā caiva subhūmikā / dīptamāyāṣṭāviṃśatayaḥ koṭayaḥ pāpiduḥkhadāḥ",
-          "hindi": "अर्थोमें आते हैं तथा वे नित्य एक वचनान्त माने जाते हैं। (यथा संख्येयमें-किंशतिः पटाः। संख्यामात्रमें-बिंशतिः पटानाम् इत्यादि। परंतु इनकी एकवचनान्तता केवल संख्येय अर्थमें ही"
+          "hindi": "अर्थोमें आते हैं तथा वे नित्य एक वचनान्त माने जाते हैं। (यथा संख्येयमें-किंशतिः पटाः। संख्यामात्रमें-बिंशतिः पटानाम् इत्यादि। परंतु इनकी एकवचनान्तता केवल संख्येय अर्थमें ही",
+          "translation": "Sadirgha, Vartula, Saptabhuma, Subhumika, Diptamaya — twenty-eight crores, giving sinners pain.",
+          "translationSource": "ai"
         },
         {
           "number": 19,
           "sanskrit": "अष्टाविंशतिकोटीनां पञ्च पञ्च च नायकाः । रौरवाद्याः शतञ्चैकं चत्वारिंशच्चतुष्टयं",
           "transliteration": "aṣṭāviṃśatikoṭīnāṃ pañca pañca ca nāyakāḥ / rauravādyāḥ śatañcaikaṃ catvāriṃśaccatuṣṭayaṃ",
-          "hindi": "मानी गयी है।) संख्यामात्रमें ये द्विवचन और बहुवचन भी होते हैं (यथा दो बीस, तीन बीस आदिके अर्थमें-द्वे विंशती, त्रयो विंशतयः-- इत्यादि) । ऊनविंशतिसे लेकर नवनवतितक सभी संख्याशब्द स्त्रीलिङ्ग हैं (अतएव “विंशत्या पुरुषैः' इत्यादि प्रयोग होते हैं) ।  पङ्कि'से लेकर"
+          "hindi": "मानी गयी है।) संख्यामात्रमें ये द्विवचन और बहुवचन भी होते हैं (यथा दो बीस, तीन बीस आदिके अर्थमें-द्वे विंशती, त्रयो विंशतयः-- इत्यादि) । ऊनविंशतिसे लेकर नवनवतितक सभी संख्याशब्द स्त्रीलिङ्ग हैं (अतएव “विंशत्या पुरुषैः' इत्यादि प्रयोग होते हैं) ।  पङ्कि'से लेकर",
+          "translation": "Of the twenty-eight crores there are five leaders each; Raurava and the others number one hundred and forty-four.",
+          "translationSource": "ai"
         },
         {
           "number": 20,
           "sanskrit": "तामिश्रमन्धतामिश्रं महारौरवरौरवौ । असिपत्रं वनञ्चैव लोहभारं तथैव च",
           "transliteration": "tāmiśramandhatāmiśraṃ mahārauravarauravau / asipatraṃ vanañcaiva lohabhāraṃ tathaiva ca",
-          "hindi": "हैं (यथा पङ्किः (१०), शतम् (१००), सहस्त्रम्"
+          "hindi": "हैं (यथा पङ्किः (१०), शतम् (१००), सहस्त्रम्",
+          "translation": "Tamisra, Andhatamisra, Maharaurava, Raurava, Asipatravana, and Lohabhara.",
+          "translationSource": "ai"
         },
         {
           "number": 21,
           "sanskrit": "नरकं कालसूत्रञ्च महानरकमेव व । सञ्जीवनं महावीचि तपनं सम्प्रतापनं",
           "transliteration": "narakaṃ kālasūtrañca mahānarakameva va / sañjīvanaṃ mahāvīci tapanaṃ sampratāpanaṃ",
-          "hindi": "तीन प्रकारके होते हैं-तुलामान, अङ्गुलिमान और प्रस्थमान। पाँच गुंजे (रत्ती)-का एक माषक (माशा) होता है सोलह माषकका एक अक्ष होता है, इसीको कर्ष भी कहते हैं। कर्ष पुँल्लिङ्ग भी है और नपुंसकलिङ्ग भी। चार कर्षका एक पल होता है। एक अक्ष सोनेको 'सुवर्ण' और बिस्त कहते"
+          "hindi": "तीन प्रकारके होते हैं-तुलामान, अङ्गुलिमान और प्रस्थमान। पाँच गुंजे (रत्ती)-का एक माषक (माशा) होता है सोलह माषकका एक अक्ष होता है, इसीको कर्ष भी कहते हैं। कर्ष पुँल्लिङ्ग भी है और नपुंसकलिङ्ग भी। चार कर्षका एक पल होता है। एक अक्ष सोनेको 'सुवर्ण' और बिस्त कहते",
+          "translation": "Naraka, Kalasutra, Mahanaraka; Sanjivana, Mahavichi, Tapana, Sampratapana.",
+          "translationSource": "ai"
         },
         {
           "number": 22,
           "sanskrit": "सङ्घातञ्च सकाकोलं कुद्मलं पूतिमृत्तिकं । लोहशङ्कुमृजीषञ्च प्रधानं शाल्मलीं नदीम्",
           "transliteration": "saṅghātañca sakākolaṃ kudmalaṃ pūtimṛttikaṃ / lohaśaṅkumṛjīṣañca pradhānaṃ śālmalīṃ nadīm",
-          "hindi": "हैं तथा एक पल सुवर्णका नाम 'कुरुबिस्त' है। सौ पलकी एक 'तुला' होती है, यह स्त्रीलिङ्ग शब्द है। बीस तुलाको 'भार' कहते हैं । चाँदीके रुपयेका नाम कार्षापण और कार्षिक"
+          "hindi": "हैं तथा एक पल सुवर्णका नाम 'कुरुबिस्त' है। सौ पलकी एक 'तुला' होती है, यह स्त्रीलिङ्ग शब्द है। बीस तुलाको 'भार' कहते हैं । चाँदीके रुपयेका नाम कार्षापण और कार्षिक",
+          "translation": "Sanghata, Sakakola, Kudmala, Putimrittika, Lohashanku, Rijisha, Pradhana, and the Shalmali river.",
+          "translationSource": "ai"
         },
         {
           "number": 23,
           "sanskrit": "नरकान्विद्धि कोटीशनागन्वै घोरदर्शनान् । पात्यन्ते पापकर्माण एकैकस्मिन्बहुष्वपि",
           "transliteration": "narakānviddhi koṭīśanāganvai ghoradarśanān / pātyante pāpakarmāṇa ekaikasminbahuṣvapi",
-          "hindi": "है। ताँबेके पैसेको 'पण' कहते हैं। द्रव्य, वित्त, धनके वाचक हैं। स्त्रीलिङ्ग रीति शब्द और पुँल्लिङ्ग आरकूट-ये पीतलके अर्थमें प्रयुक्त होते हैं। ताँबाका नाम-ताम्रक, शुल्ब तथा औदुम्बर है। तीक्ष्ण, कालायस और आयस-ये लोहेके"
+          "hindi": "है। ताँबेके पैसेको 'पण' कहते हैं। द्रव्य, वित्त, धनके वाचक हैं। स्त्रीलिङ्ग रीति शब्द और पुँल्लिङ्ग आरकूट-ये पीतलके अर्थमें प्रयुक्त होते हैं। ताँबाका नाम-ताम्रक, शुल्ब तथा औदुम्बर है। तीक्ष्ण, कालायस और आयस-ये लोहेके",
+          "translation": "Know these hells, lords of crores, terrible to look at; evildoers are cast into them, many into each one.",
+          "translationSource": "ai"
         },
         {
           "number": 24,
           "sanskrit": "मार्जारोलूकगोमायुगृघ्रादिवदनाश् च ते । तैलद्रोण्यां नरं क्षिप्त्वा ज्वालयन्ति हुताशनं",
           "transliteration": "mārjārolūkagomāyugṛghrādivadanāś ca te / tailadroṇyāṃ naraṃ kṣiptvā jvālayanti hutāśanaṃ",
-          "hindi": "अर्थमें आते हैं। क्षार और काँच--ये काँचके नाम हैं। चपल, रस, सूत और पारद-ये पाराके वाचक हैं। भैंसेके सींगका नाम गरल (या गवल) है। त्रपु, सीसक और पिच्चट--ये सीसाके"
+          "hindi": "अर्थमें आते हैं। क्षार और काँच--ये काँचके नाम हैं। चपल, रस, सूत और पारद-ये पाराके वाचक हैं। भैंसेके सींगका नाम गरल (या गवल) है। त्रपु, सीसक और पिच्चट--ये सीसाके",
+          "translation": "They have faces of cats, owls, jackals, vultures and the like; they throw a man into a trough of oil and kindle a fire.",
+          "translationSource": "ai"
         },
         {
           "number": 25,
           "sanskrit": "अम्बरीषेषु चैवान्यांस्ताम्रपात्रेषु चापरान् । अयःपात्रेषु चैवान्यान् बहुवह्निकणेषु च",
           "transliteration": "ambarīṣeṣu caivānyāṃstāmrapātreṣu cāparān / ayaḥpātreṣu caivānyān bahuvahnikaṇeṣu ca",
-          "hindi": "अर्थमें प्रयुक्त होते हैं। हिण्डीर, अब्धिकफ तथा फेन-ये समुद्रफेनके वाचक हैं। मधूच्छिष्ट और सिक्थक--ये मोमके नाम हैं। रंग और वंग-- राँगाके, पिचु और तूल-रुईके तथा कूलटी (कुनटी) और मनःशिला-मैनसिलके नाम हैं। यवक्षार और पाक्य--पर्यायवाची शब्द हैं। त्वक्क्षीरा और वंशलोचना-वंशलोचनके वाचक हैं॥ ३७--४२॥"
+          "hindi": "अर्थमें प्रयुक्त होते हैं। हिण्डीर, अब्धिकफ तथा फेन-ये समुद्रफेनके वाचक हैं। मधूच्छिष्ट और सिक्थक--ये मोमके नाम हैं। रंग और वंग-- राँगाके, पिचु और तूल-रुईके तथा कूलटी (कुनटी) और मनःशिला-मैनसिलके नाम हैं। यवक्षार और पाक्य--पर्यायवाची शब्द हैं। त्वक्क्षीरा और वंशलोचना-वंशलोचनके वाचक हैं॥ ३७--४२॥",
+          "translation": "Others are placed in frying-pans, others in copper vessels, others in iron vessels, and among many sparks of fire.",
+          "translationSource": "ai"
         },
         {
           "number": 26,
           "sanskrit": "शूलाग्रारोपिताश्चान्ये छिद्यन्ते नरके ऽपरे । ताड्यन्ते च कशाभिस्तु भोज्यन्ते चाप्ययोगुडान्",
           "transliteration": "śūlāgrāropitāścānye chidyante narake 'pare / tāḍyante ca kaśābhistu bhojyante cāpyayoguḍān",
-          "hindi": "वृषल, जघन्यज और शूद्र-ये शूद्रजातिके"
+          "hindi": "वृषल, जघन्यज और शूद्र-ये शूद्रजातिके",
+          "translation": "Others, set upon the points of spears, are pierced in hell; they are beaten with whips and made to eat balls of iron.",
+          "translationSource": "ai"
         },
         {
           "number": 27,
           "sanskrit": "यमदूतैर् नराः पांशून्विष्ठारक्तकफादिकान् । तप्तं मद्यं पाययन्ति पाटयन्ति पुनर्नरान्",
           "transliteration": "yamadūtair narāḥ pāṃśūnviṣṭhāraktakaphādikān / taptaṃ madyaṃ pāyayanti pāṭayanti punarnarān",
-          "hindi": "अमरकोषमें इस श्लोकके 'त्रपु' और ' पिच्चट' शब्दको राँगेके अर्थमें लिया गया है तथा सीसकके नाग, योगेष्ट और वप्र-ये तीन पर्याय अन्य दिये गये हैं ।"
+          "hindi": "अमरकोषमें इस श्लोकके 'त्रपु' और ' पिच्चट' शब्दको राँगेके अर्थमें लिया गया है तथा सीसकके नाग, योगेष्ट और वप्र-ये तीन पर्याय अन्य दिये गये हैं ।",
+          "translation": "The servants of Yama make men eat dust, faeces, blood, phlegm and the like; they make them drink hot liquor, and tear men apart again.",
+          "translationSource": "ai"
         },
         {
           "number": 28,
           "sanskrit": "यन्त्रेषु पीडयन्ति स्म भक्ष्यन्ते वायसादिभिः । तैलेनोष्णेन सिच्यन्ते छिद्यन्ते नैकघा शिरः",
           "transliteration": "yantreṣu pīḍayanti sma bhakṣyante vāyasādibhiḥ / tailenoṣṇena sicyante chidyante naikaghā śiraḥ",
-          "hindi": "नाम हैं। चाण्डाल एवं अन्त्यज जातियाँ वर्णसंकर कहलाती हैं। शिल्पकर्मके ज्ञाताको कारु और शिल्पी कहते हैं (इनमें बढ़ई, थवई आदि सभी आ जाते हैं।) समान जातिके शिल्पियोंके एकत्रित"
+          "hindi": "नाम हैं। चाण्डाल एवं अन्त्यज जातियाँ वर्णसंकर कहलाती हैं। शिल्पकर्मके ज्ञाताको कारु और शिल्पी कहते हैं (इनमें बढ़ई, थवई आदि सभी आ जाते हैं।) समान जातिके शिल्पियोंके एकत्रित",
+          "translation": "They crush them in machines; they are devoured by crows and the like; they are sprinkled with hot oil and their heads are cut in many ways.",
+          "translationSource": "ai"
         },
         {
           "number": 29,
           "sanskrit": "हा तातेति क्रन्दमानाः स्वकन्निदन्ति कर्म ते । महापातकजान्घोरान्नरकान्प्राप्य गर्हितान्",
           "transliteration": "hā tāteti krandamānāḥ svakannidanti karma te / mahāpātakajānghorānnarakānprāpya garhitān",
-          "hindi": "हुए समुदायको श्रेणि कहते हैं। यह स्त्रीलिङ्ग और पुँल्लिङ्ग दोनोंमें प्रयुक्त होता है। चित्र बनानेवालेको रङ्गाजीव और चित्रकार कहते हैं। त्वष्टा, तक्षा और वर्धकि-ये बढ़ईके नाम हैं। नाडिन्धम और स्वर्णकार-ये सुनारके वाचक हैं। नाई (हजाम)-का नाम है नापित तथा अन्तावसायी। बकरी बेंचनेवाले गडरियेका नाम जाबाल और अजाजीव है। देवाजीव और"
+          "hindi": "हुए समुदायको श्रेणि कहते हैं। यह स्त्रीलिङ्ग और पुँल्लिङ्ग दोनोंमें प्रयुक्त होता है। चित्र बनानेवालेको रङ्गाजीव और चित्रकार कहते हैं। त्वष्टा, तक्षा और वर्धकि-ये बढ़ईके नाम हैं। नाडिन्धम और स्वर्णकार-ये सुनारके वाचक हैं। नाई (हजाम)-का नाम है नापित तथा अन्तावसायी। बकरी बेंचनेवाले गडरियेका नाम जाबाल और अजाजीव है। देवाजीव और",
+          "translation": "Crying \"Alas, father!\", they cut down their own deeds. Having reached the terrible, censured hells born of great sins...",
+          "translationSource": "ai"
         },
         {
           "number": 30,
           "sanskrit": "कर्मक्षयात्प्रजायन्ते महापातकिनस्त्विह । मृगश्वशूकरोष्ट्राणां ब्रह्महा योनिमृच्छति",
           "transliteration": "karmakṣayātprajāyante mahāpātakinastviha / mṛgaśvaśūkaroṣṭrāṇāṃ brahmahā yonimṛcchati",
-          "hindi": "देवल-ये देवपूजासे जीविका चलानेवालेके अर्थमें आते हैं। अपनी स््त्रियोंके साथ नाटक दिखाकर जीवन-निर्वाह करनेवाले नटको जायाजीव और शैलूष कहते हैं। रोजाना मजदूरी लेकर गुजर"
+          "hindi": "देवल-ये देवपूजासे जीविका चलानेवालेके अर्थमें आते हैं। अपनी स््त्रियोंके साथ नाटक दिखाकर जीवन-निर्वाह करनेवाले नटको जायाजीव और शैलूष कहते हैं। रोजाना मजदूरी लेकर गुजर",
+          "translation": "...when their karma is exhausted, great sinners are born here. A slayer of a Brahmin takes the womb of a deer, dog, boar, or camel.",
+          "translationSource": "ai"
         },
         {
           "number": 31,
           "sanskrit": "खरपुक्कशम्लेच्छानां मद्यपः स्वर्णहार्यपि । कृमिकीटपतङ्गत्वं गुरुगस्तृणगुल्मतां",
           "transliteration": "kharapukkaśamlecchānāṃ madyapaḥ svarṇahāryapi / kṛmikīṭapataṅgatvaṃ gurugastṛṇagulmatāṃ",
-          "hindi": "करनेवाले मजूरेका नाम भूतक और भृतिभुकू है। अपसद और जाल्म-ये नीचके वाचक हैं। दासको भृत्य, दासेर और चेटक भी कहते हैं। पटु, पेशल और दक्ष-ये चतुरके अर्थमें आते हैं। मृगयु और लुब्धक-ये व्याधके नाम हैं।"
+          "hindi": "करनेवाले मजूरेका नाम भूतक और भृतिभुकू है। अपसद और जाल्म-ये नीचके वाचक हैं। दासको भृत्य, दासेर और चेटक भी कहते हैं। पटु, पेशल और दक्ष-ये चतुरके अर्थमें आते हैं। मृगयु और लुब्धक-ये व्याधके नाम हैं।",
+          "translation": "A drinker of liquor and a stealer of gold become ass, pukkasa, and mleccha; one who violates the teacher's bed becomes worm, insect, moth, grass, or shrub.",
+          "translationSource": "ai"
         },
         {
           "number": 32,
           "sanskrit": "ब्रह्महा क्षयरोगी स्यात् सुरापः श्यावदन्तकः । स्वर्णहारी तु कुनखी दुश् चर्मा गुरुतल्पगः",
           "transliteration": "brahmahā kṣayarogī syāt surāpaḥ śyāvadantakaḥ / svarṇahārī tu kunakhī duś carmā gurutalpagaḥ",
-          "hindi": "चाण्डालको चाण्डाल और दिवाकीर्ति कहते हैं। पुताई आदिके काममें पुस्त शब्दका प्रयोग होता है। पञ्चालिका और पृत्रिका-पे पुतली या गुडियाके नाम हैं। वर्कर शब्द जवान पशुमात्रके"
+          "hindi": "चाण्डालको चाण्डाल और दिवाकीर्ति कहते हैं। पुताई आदिके काममें पुस्त शब्दका प्रयोग होता है। पञ्चालिका और पृत्रिका-पे पुतली या गुडियाके नाम हैं। वर्कर शब्द जवान पशुमात्रके",
+          "translation": "A slayer of a Brahmin has consumption; a drinker of liquor has black teeth; a gold-thief has bad nails; one who violates the teacher's bed has diseased skin.",
+          "translationSource": "ai"
         },
         {
           "number": 33,
           "sanskrit": "यो येन संस्पृशत्येषां स तल्लिङ्गो ऽभिजायते । अन्नहर्ता मायावी स्यान्मूको वागपहारकः",
           "transliteration": "yo yena saṃspṛśatyeṣāṃ sa talliṅgo 'bhijāyate / annahartā māyāvī syānmūko vāgapahārakaḥ",
-          "hindi": "अर्थमें आता है (साथ ही वह बकरेका भी वाचक है)। गहना रखनेके डब्बेको या कपड़े रखनेको पेटीको मञ्जूषा, पेटक तथा पेडा कहते हैं। तुल्य और साधारण-ये समान अर्थके वाचक हैं। इनका सामान्यतः तीनों लिड्रॉमें प्रयोग होता है । प्रतिमा और प्रतिकृति—ये पत्थर आदिको मूर्तिके वाचक हैं। इस प्रकार ब्राह्मण आदि वर्गांका वर्णन किया गया"
+          "hindi": "अर्थमें आता है (साथ ही वह बकरेका भी वाचक है)। गहना रखनेके डब्बेको या कपड़े रखनेको पेटीको मञ्जूषा, पेटक तथा पेडा कहते हैं। तुल्य और साधारण-ये समान अर्थके वाचक हैं। इनका सामान्यतः तीनों लिड्रॉमें प्रयोग होता है । प्रतिमा और प्रतिकृति—ये पत्थर आदिको मूर्तिके वाचक हैं। इस प्रकार ब्राह्मण आदि वर्गांका वर्णन किया गया",
+          "translation": "Whoever consorts with these takes on his mark. A grain-thief becomes a cheat; a stealer of speech becomes dumb.",
+          "translationSource": "ai"
         },
         {
           "number": 34,
           "sanskrit": "धान्यं हृत्वातिरिक्ताङ्गः पिशुनः पूतिनासिकः । तैलहृत्तैलपायी स्यात् पूतिवक्त्रस्तु सूचकः",
           "transliteration": "dhānyaṃ hṛtvātiriktāṅgaḥ piśunaḥ pūtināsikaḥ / tailahṛttailapāyī syāt pūtivaktrastu sūcakaḥ",
-          "hindi": "इस प्रकार आदि आग्नेय महापुराणमें 'कोशगत क्षत्रिय वैश्य और शूद्रवर्गका वर्णन” नामक तीन सौ छाछठवाँ अध्याय पूरा हुआ"
+          "hindi": "इस प्रकार आदि आग्नेय महापुराणमें 'कोशगत क्षत्रिय वैश्य और शूद्रवर्गका वर्णन” नामक तीन सौ छाछठवाँ अध्याय पूरा हुआ",
+          "translation": "A thief of grain has a deformed body; a slanderer has a foul-smelling nose; an oil-thief drinks oil; an informer has a foul mouth.",
+          "translationSource": "ai"
         },
         {
           "number": 35,
           "sanskrit": "परस्य योषितं हृत्वा ब्रह्मस्वमपहृत्य च । अरण्ये निर्जने देशे जायते ब्रह्मराक्षसः",
           "transliteration": "parasya yoṣitaṃ hṛtvā brahmasvamapahṛtya ca / araṇye nirjane deśe jāyate brahmarākṣasaḥ",
-          "hindi": "अग्निदेव कहते हैं-मुनिवर! अब मैं सामान्यतः नामलिङ्गोंका वर्णन करूँगा (इस प्रकरणमें आये हुए शब्द प्राय: ऐसे होंगे, जो अपने विशेष्यके अनुसार तीनों लिङ्गोंमें प्रयुक्त हो सकते हैं), आप उन्हें ध्यान देकर सुनें।"
+          "hindi": "अग्निदेव कहते हैं-मुनिवर! अब मैं सामान्यतः नामलिङ्गोंका वर्णन करूँगा (इस प्रकरणमें आये हुए शब्द प्राय: ऐसे होंगे, जो अपने विशेष्यके अनुसार तीनों लिङ्गोंमें प्रयुक्त हो सकते हैं), आप उन्हें ध्यान देकर सुनें।",
+          "translation": "One who steals another's wife and a Brahmin's property is born as a brahmarakshasa in a lonely forest.",
+          "translationSource": "ai"
         },
         {
           "number": 36,
           "sanskrit": "रत्नहारी हीनजातिर्गन्धान् छुछुन्दरी शुभान् । पत्रं शाकं शिखी हृत्वा मुखरो धान्यहारकः",
           "transliteration": "ratnahārī hīnajātirgandhān chuchundarī śubhān / patraṃ śākaṃ śikhī hṛtvā mukharo dhānyahārakaḥ",
-          "hindi": "और सौभाग्यशाली पुरुषके लिये आते हैं। जिनको"
+          "hindi": "और सौभाग्यशाली पुरुषके लिये आते हैं। जिनको",
+          "translation": "A jewel-thief is of low birth; a thief of fragrances becomes a musk-rat; a stealer of leaves becomes a peacock; a stealer of grain a talker.",
+          "translationSource": "ai"
         },
         {
           "number": 37,
           "sanskrit": "अजः पशुंपयः काको यानमुष्ट्रः(१) फलं कपिः । मधु दंशः फलं गृध्रो गृहकाक उपस्करं",
           "transliteration": "ajaḥ paśuṃpayaḥ kāko yānamuṣṭraḥ(1) phalaṃ kapiḥ / madhu daṃśaḥ phalaṃ gṛdhro gṛhakāka upaskaraṃ",
-          "hindi": "महेच्छ और महाशय कहते हैं। (जिनके हृदय शुद्ध, सरल, कोमल, दयालु एवं भावुक हों, वे हृदयालु, सहृदय और सुहृदय कहलाते हैं।)"
+          "hindi": "महेच्छ और महाशय कहते हैं। (जिनके हृदय शुद्ध, सरल, कोमल, दयालु एवं भावुक हों, वे हृदयालु, सहृदय और सुहृदय कहलाते हैं।)",
+          "translation": "A thief of milk is a goat, a stealer of an animal a crow, of a vehicle a camel, of fruit a monkey, of honey a gadfly, of fruit a vulture, of utensils a house-crow.",
+          "translationSource": "ai"
         },
         {
           "number": 38,
           "sanskrit": "शिवत्री वस्त्रं सारसञ्च झल्ली लवणहारकः । उक्त आध्यात्मिकस्तापः शस्त्राद्यैर् आधिभौतिकः",
           "transliteration": "śivatrī vastraṃ sārasañca jhallī lavaṇahārakaḥ / ukta ādhyātmikastāpaḥ śastrādyair ādhibhautikaḥ",
-          "hindi": "शिक्षित-सुयोग्य एवं कुशलके अर्थमें आते हैं।"
+          "hindi": "शिक्षित-सुयोग्य एवं कुशलके अर्थमें आते हैं।",
+          "translation": "A cloth-thief is a jackal; a stealer of salt a cricket. Thus are spoken the ills of the self (adhyatmika) and those from weapons and the like (adhibhautika).",
+          "translationSource": "ai"
         },
         {
           "number": 39,
           "sanskrit": "ग्रहाग्निदेवपीडाद्यैर् आधिकैविक ईरितः । १ यानं वस्त+इति ख॥ :प् ३१३ त्रिथा तापं हि संसारं ज्ञानयोगाद्विनाशयेत् । कृच्छ्रैर् व्रतैश् च दानाद्यैर् विष्णुपूजादिभिर्नरः",
           "transliteration": "grahāgnidevapīḍādyair ādhikaivika īritaḥ / 1 yānaṃ vasta+iti kha.. :p 313 trithā tāpaṃ hi saṃsāraṃ jñānayogādvināśayet / kṛcchrair vrataiś ca dānādyair viṣṇupūjādibhirnaraḥ",
-          "hindi": "अधिक दान करनेवालेके वाचक हैं। कृती, दक्षके ही अर्थमें आते हैं। आसक्त, उद्युक्त और उत्सुक-ये उद्योगी एवं कार्यपरायण पुरुषके लिये प्रयुक्त होते हैं। अधिक धनवानूको इभ्य और आढ्य कहते हैं। परिवृढ, अधिभू, नायक"
+          "hindi": "अधिक दान करनेवालेके वाचक हैं। कृती, दक्षके ही अर्थमें आते हैं। आसक्त, उद्युक्त और उत्सुक-ये उद्योगी एवं कार्यपरायण पुरुषके लिये प्रयुक्त होते हैं। अधिक धनवानूको इभ्य और आढ्य कहते हैं। परिवृढ, अधिभू, नायक",
+          "translation": "Those from planets, fire, gods and the like are called adhidaivika. By knowledge and yoga one should destroy this threefold sorrow of samsara, and through penances, vows, gifts and worship of Vishnu.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -86559,61 +86689,81 @@
           "number": 12,
           "sanskrit": "तपोवृद्धा वयोवृद्धास्ते ऽपि स्त्रीभिर्विमोहिताः । गौडी पैष्टी च माध्वी च विज्ञेयास्त्रिविधाः सुराः",
           "transliteration": "tapovṛddhā vayovṛddhāste 'pi strībhirvimohitāḥ / gauḍī paiṣṭī ca mādhvī ca vijñeyāstrividhāḥ surāḥ",
-          "hindi": "विशाल अर्थके बोधक हैं। पीन, पीवन्, स्थूल और पीवर-ये स्थूल या मोटे अर्थका बोध करानेवाले हैं। स्तोक, अल्प, क्षुल्लक, सूक्ष्म, कण-ये स्वल्प या सूक्ष्म अर्थके वाचक हैं। भूयिष्ठ, पुरुह और पुरुये अधिक अर्थके बोधक हैं। अखण्ड, पूर्ण और सकल-ये"
+          "hindi": "विशाल अर्थके बोधक हैं। पीन, पीवन्, स्थूल और पीवर-ये स्थूल या मोटे अर्थका बोध करानेवाले हैं। स्तोक, अल्प, क्षुल्लक, सूक्ष्म, कण-ये स्वल्प या सूक्ष्म अर्थके वाचक हैं। भूयिष्ठ, पुरुह और पुरुये अधिक अर्थके बोधक हैं। अखण्ड, पूर्ण और सकल-ये",
+          "translation": "Even those grown old in austerity and in years are bewildered by women. Liquor is known as threefold: gaudi, paishti and madhvi.",
+          "translationSource": "ai"
         },
         {
           "number": 13,
           "sanskrit": "चतुर्थी स्त्री सुरा ज्ञेया ययेदं मोहितं जगत् । माद्यति प्रमदां दृष्ट्वा सुरां पीत्वा तु माद्यति",
           "transliteration": "caturthī strī surā jñeyā yayedaṃ mohitaṃ jagat / mādyati pramadāṃ dṛṣṭvā surāṃ pītvā tu mādyati",
-          "hindi": "समग्रके वाचक हैं। उपकण्ठ, अन्तिक, अभितः,  धँसे हुए शस्त्रादिको युक्तिपूर्वक निकालनेके"
+          "hindi": "समग्रके वाचक हैं। उपकण्ठ, अन्तिक, अभितः,  धँसे हुए शस्त्रादिको युक्तिपूर्वक निकालनेके",
+          "translation": "The fourth liquor, known as \"woman\", is that by which this world is infatuated: one is intoxicated by seeing a woman, but by drinking liquor.",
+          "translationSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "यस्माद्दृष्टमदा नारी तस्मात्तान्नावलोकयेत् । यद्वा तद्वापरद्रव्यमपहृत्य बलान्नरः",
           "transliteration": "yasmāddṛṣṭamadā nārī tasmāttānnāvalokayet / yadvā tadvāparadravyamapahṛtya balānnaraḥ",
-          "hindi": "संनिधि और अभ्याश--ये समीपके अर्थमें आते हैं। अत्यन्त निकटको नेदिष्ठ कहते हैं। बहुत दूरके अर्थमें दविष्ठ शब्दका प्रयोग होता है। वृत्त, निस्तल और वर्तुल-ये गोलाकारके वाचक हैं। उच्च, प्रांशु, उन्नत और उदग्र--ये ऊँचाके अर्थमें आते हैं। ध्रुव, नित्य और सनातन-ये नित्य अर्थके बोधक हैं। आविद्ध, कुटिल, भुग्न, वेल्लित और वक्र-ये टेढ़ेका बोध करानेवाले"
+          "hindi": "संनिधि और अभ्याश--ये समीपके अर्थमें आते हैं। अत्यन्त निकटको नेदिष्ठ कहते हैं। बहुत दूरके अर्थमें दविष्ठ शब्दका प्रयोग होता है। वृत्त, निस्तल और वर्तुल-ये गोलाकारके वाचक हैं। उच्च, प्रांशु, उन्नत और उदग्र--ये ऊँचाके अर्थमें आते हैं। ध्रुव, नित्य और सनातन-ये नित्य अर्थके बोधक हैं। आविद्ध, कुटिल, भुग्न, वेल्लित और वक्र-ये टेढ़ेका बोध करानेवाले",
+          "translation": "Since a woman's glance is intoxicating, one should not look at her. A man who forcibly takes another's property, whatever it is...",
+          "translationSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "अवश्यं याति तिर्यक्त्वं जग्ध्वा चैवाहुतं हविः । कौपीनाच्छादनं वासः कन्थां शीतनिवारिणीं",
           "transliteration": "avaśyaṃ yāti tiryaktvaṃ jagdhvā caivāhutaṃ haviḥ / kaupīnācchādanaṃ vāsaḥ kanthāṃ śītanivāriṇīṃ",
-          "hindi": "हैं। चञ्चल और तरल--ये चपलके अर्थमें आते हैं। कठोर, जरठ और दृढ़--ये समानार्थक शब्द हैं। प्रत्यग्र, अभिनव, नव्य, नवीन, नूतन और नव-ये नयेके अर्थमें आते हैं। एकतान और"
+          "hindi": "हैं। चञ्चल और तरल--ये चपलके अर्थमें आते हैं। कठोर, जरठ और दृढ़--ये समानार्थक शब्द हैं। प्रत्यग्र, अभिनव, नव्य, नवीन, नूतन और नव-ये नयेके अर्थमें आते हैं। एकतान और",
+          "translation": "...certainly becomes an animal, as does one who eats an unoffered oblation. One may accept a loincloth, a garment, a quilt against cold,",
+          "translationSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "पादुके चापि गृह्णीयात् कुर्यान्नान्यस्य संग्रहं । देहस्थितिनिमित्तस्य वस्त्रादेः स्यात्परिग्रहः",
           "transliteration": "pāduke cāpi gṛhṇīyāt kuryānnānyasya saṃgrahaṃ / dehasthitinimittasya vastrādeḥ syātparigrahaḥ",
-          "hindi": "अनन्यवृत्ति-ये एकाग्रचित्तवाले पुरुषके बोधक हैं। उच्चण्ड और अविलम्बित-ये फुर्तीके वाचक हैं। उच्चावच और नैकभेद-ये अनेक प्रकारके अर्थमें आते हैं। सम्बाध और कलित-- ये संकीर्ण एवं गहनके बोधक हैं। तिमित, स्तिमित और क्लिन्नये आर्द्रं या भीगे हुएके अर्थमें आते हैं। अभियोग और अभिग्रह-ये दूसरेपर किये हुए दोषारोपणके नाम हैं। स्फाति"
+          "hindi": "अनन्यवृत्ति-ये एकाग्रचित्तवाले पुरुषके बोधक हैं। उच्चण्ड और अविलम्बित-ये फुर्तीके वाचक हैं। उच्चावच और नैकभेद-ये अनेक प्रकारके अर्थमें आते हैं। सम्बाध और कलित-- ये संकीर्ण एवं गहनके बोधक हैं। तिमित, स्तिमित और क्लिन्नये आर्द्रं या भीगे हुएके अर्थमें आते हैं। अभियोग और अभिग्रह-ये दूसरेपर किये हुए दोषारोपणके नाम हैं। स्फाति",
+          "translation": "and sandals, but should make no hoard of anything else; only cloth and the like needed to sustain the body may be taken.",
+          "translationSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "शरीरं धर्मसंयुक्तं रक्षणीयं प्रयत्नतः । शौचन्तु द्विविधं प्रोक्तं वाह्यमभ्यन्तरं तथा",
           "transliteration": "śarīraṃ dharmasaṃyuktaṃ rakṣaṇīyaṃ prayatnataḥ / śaucantu dvividhaṃ proktaṃ vāhyamabhyantaraṃ tathā",
-          "hindi": "शब्द वृद्धिके और प्रथा शब्द ख्यातिके अर्थमें आता है। समाहार और समुच्चय-ये समूहके वाचक हैं। अपहार और अपचय--ये हासका बोध करानेवाले हैं। विहार और परिक्रम-ये"
+          "hindi": "शब्द वृद्धिके और प्रथा शब्द ख्यातिके अर्थमें आता है। समाहार और समुच्चय-ये समूहके वाचक हैं। अपहार और अपचय--ये हासका बोध करानेवाले हैं। विहार और परिक्रम-ये",
+          "translation": "The body, joined with dharma, should be carefully protected. Purity is said to be of two kinds: outer and inner.",
+          "translationSource": "ai"
         },
         {
           "number": 18,
           "sanskrit": "गृज्जलाभ्यां स्मृतं वाह्यं भावशुद्धेरथान्तरं । उभयेन शुचिर्यस्तु स शुचिर्नेतरः शुचिः",
           "transliteration": "gṛjjalābhyāṃ smṛtaṃ vāhyaṃ bhāvaśuddherathāntaraṃ / ubhayena śuciryastu sa śucirnetaraḥ śuciḥ",
-          "hindi": "घूमनेके अर्थमें आते हैं । प्रत्याहार और उपादान- ये इन्द्रियोंको विषयोंसे हटानेके अर्थमें प्रयुक्त होते हैं। निर्हार तथा अभ्यवकर्षण-ये शरीरमें अर्थमें आते हैं। विघ्न, अन्तराय और प्रत्यूह ये विघ्नका बोध करानेवाले हैं। आस्या, आसना और स्थिति-ये बैठनेकी क्रियाके बोधक हैं। संनिधि और संनिकर्ष-ये समीप रहनेके अर्थमें"
+          "hindi": "घूमनेके अर्थमें आते हैं । प्रत्याहार और उपादान- ये इन्द्रियोंको विषयोंसे हटानेके अर्थमें प्रयुक्त होते हैं। निर्हार तथा अभ्यवकर्षण-ये शरीरमें अर्थमें आते हैं। विघ्न, अन्तराय और प्रत्यूह ये विघ्नका बोध करानेवाले हैं। आस्या, आसना और स्थिति-ये बैठनेकी क्रियाके बोधक हैं। संनिधि और संनिकर्ष-ये समीप रहनेके अर्थमें",
+          "translation": "The outer is said to be by earth and water; the inner by purity of feeling. He who is pure in both is pure; none other is pure.",
+          "translationSource": "ai"
         },
         {
           "number": 19,
           "sanskrit": "यथा कथञ्चित्प्राप्त्या च सन्तोषस्तुष्टिरुच्यते । मनसश्चेन्द्रियाणाञ्च ऐकाग्र्यं तप उच्यते",
           "transliteration": "yathā kathañcitprāptyā ca santoṣastuṣṭirucyate / manasaścendriyāṇāñca aikāgryaṃ tapa ucyate",
-          "hindi": "प्रयुक्त होते हैं। किलेमें प्रवेश करनेकी क्रियाको संक्रम और दुर्गसंचर कहते हैं। उपलम्भ और अनुभव-ये अनुभूतिके नाम हैं। प्रत्यादेश और निराकृति—ये दूसरेके मतका खण्डन करनेके"
+          "hindi": "प्रयुक्त होते हैं। किलेमें प्रवेश करनेकी क्रियाको संक्रम और दुर्गसंचर कहते हैं। उपलम्भ और अनुभव-ये अनुभूतिके नाम हैं। प्रत्यादेश और निराकृति—ये दूसरेके मतका खण्डन करनेके",
+          "translation": "Contentment is said to be satisfaction with whatever comes. Concentration of mind and senses is said to be austerity.",
+          "translationSource": "ai"
         },
         {
           "number": 20,
           "sanskrit": "तज्जयः सर्वधर्मेभ्यः स धर्मः पर उच्यते । वाचिकं मन्त्रजप्यादि मानसं रागवर्जनं",
           "transliteration": "tajjayaḥ sarvadharmebhyaḥ sa dharmaḥ para ucyate / vācikaṃ mantrajapyādi mānasaṃ rāgavarjanaṃ",
-          "hindi": "अर्थमें आते हैं। परिरम्भ, परिष्वङ्ग, संश्लेष और उपगूहन-ये आलिङ्गनके अर्थमें प्रयुक्त होते हैं। पक्ष और हेतु आदिके द्वारा निश्चित होनेवाले ज्ञानका नाम अनुमा या अनुमान है। बिना हथियारकी लड़ाई तथा भयभीत होनेपर किये हुए शब्दका नाम डिम्ब, भ्रमर (या डमर) तथा विप्लव है। शब्दके द्वारा जो परोक्ष अर्थका ज्ञान होता है, उसे शाब्दज्ञान कहते हैं। समानता"
+          "hindi": "अर्थमें आते हैं। परिरम्भ, परिष्वङ्ग, संश्लेष और उपगूहन-ये आलिङ्गनके अर्थमें प्रयुक्त होते हैं। पक्ष और हेतु आदिके द्वारा निश्चित होनेवाले ज्ञानका नाम अनुमा या अनुमान है। बिना हथियारकी लड़ाई तथा भयभीत होनेपर किये हुए शब्दका नाम डिम्ब, भ्रमर (या डमर) तथा विप्लव है। शब्दके द्वारा जो परोक्ष अर्थका ज्ञान होता है, उसे शाब्दज्ञान कहते हैं। समानता",
+          "translation": "Mastery of them is the highest dharma, above all dharmas. Austerity of speech is chanting mantras and the like; of mind, giving up passion;",
+          "translationSource": "ai"
         },
         {
           "number": 21,
           "sanskrit": "शारीरं देवपूजादि सर्वदन्तु त्रिधा तपः । प्रणवाद्यास्ततो वेदाः प्रणवे पर्यवस्थिताः",
           "transliteration": "śārīraṃ devapūjādi sarvadantu tridhā tapaḥ / praṇavādyāstato vedāḥ praṇave paryavasthitāḥ",
-          "hindi": "देखकर जो उसके तुल्यवस्तुका बोध होता है, उसका नाम उपमान है। जहाँ कोई कार्य देखकर कारणका निश्चय किया जाय, अर्थात् अमुक कारणके बिना यह कार्य नहीं हो सकता--"
+          "hindi": "देखकर जो उसके तुल्यवस्तुका बोध होता है, उसका नाम उपमान है। जहाँ कोई कार्य देखकर कारणका निश्चय किया जाय, अर्थात् अमुक कारणके बिना यह कार्य नहीं हो सकता--",
+          "translation": "of body, worship of the gods and the like — this is the threefold austerity. From the syllable Om come the Vedas, and the Vedas rest in Om.",
+          "translationSource": "ai"
         },
         {
           "number": 22,
