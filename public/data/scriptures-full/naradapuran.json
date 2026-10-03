@@ -48689,7 +48689,9 @@
           "number": 94,
           "sanskrit": "सम्प्राप्ता बहवः सिद्धिं अव्याबाधां सुखोदयाम्",
           "transliteration": "samprāptā bahavaḥ siddhiṃ avyābādhāṃ sukhodayām",
-          "hindi": "तिथियोंमें, रविवार, मड्गरलवार तथा चर लग्रको छोड़कर अन्य वारों और अन्य (स्थिर या द्विस्वभाव) लग्नोंमें, जब पापग्रह लग्रमें न हो, अष्टम स्थान"
+          "hindi": "तिथियोंमें, रविवार, मड्गरलवार तथा चर लग्रको छोड़कर अन्य वारों और अन्य (स्थिर या द्विस्वभाव) लग्नोंमें, जब पापग्रह लग्रमें न हो, अष्टम स्थान",
+          "translation": "many have reached success, unobstructed, a source of happiness.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -49649,265 +49651,353 @@
           "number": 37,
           "sanskrit": "तत्र दृष्ट्वा तु तौ देवौ तप्यमानो महत्तपः । स्वयं च तत्र तपसि स्थितः शुकमनुस्मरन्",
           "transliteration": "tatra dṛṣṭvā tu tau devau tapyamāno mahattapaḥ / svayaṃ ca tatra tapasi sthitaḥ śukamanusmaran",
-          "hindi": "और बहस्पति केन्द्रमें हों तो उसमें यात्रा करनेवाला राजा अपने सम्पूर्ण शत्रुओंको उसी प्रकार नष्ट कर देता है जैसे प्रणबसहित पश्चाक्षर-मन्त्र ( 3३७ नमः शिवाय ) पाप-समूहका नाश कर देता"
+          "hindi": "और बहस्पति केन्द्रमें हों तो उसमें यात्रा करनेवाला राजा अपने सम्पूर्ण शत्रुओंको उसी प्रकार नष्ट कर देता है जैसे प्रणबसहित पश्चाक्षर-मन्त्र ( 3३७ नमः शिवाय ) पाप-समूहका नाश कर देता",
+          "translation": "There, seeing those two gods, practising great austerity, and himself standing in austerity there, remembering Shuka,",
+          "translationSource": "ai"
         },
         {
           "number": 38,
           "sanskrit": "यावत्तत्र स्थितो व्यासः शुकः परमयोगवित् । श्वेतद्वीपं गतस्तात यत्र त्वमगमः पुरा",
           "transliteration": "yāvattatra sthito vyāsaḥ śukaḥ paramayogavit / śvetadvīpaṃ gatastāta yatra tvamagamaḥ purā",
-          "hindi": "है॥ ६६९ -- ॥ अकेला शुक्र भी यदि वर्गोत्तम नवमांशगत लग्नमें स्थित हो तो उसमें भी यात्रा करनेसे राजा अपने शत्रुओंको उसी प्रकार नष्ट कर देता है, जैसे पापोंको श्रीभगवान्का"
+          "hindi": "है॥ ६६९ -- ॥ अकेला शुक्र भी यदि वर्गोत्तम नवमांशगत लग्नमें स्थित हो तो उसमें भी यात्रा करनेसे राजा अपने शत्रुओंको उसी प्रकार नष्ट कर देता है, जैसे पापोंको श्रीभगवान्का",
+          "translation": "as long as Vyasa stayed there, Shuka, knower of supreme yoga, went to Shvetadvipa, dear one, where you went before.",
+          "translationSource": "ai"
         },
         {
           "number": 39,
           "sanskrit": "तत्र दृष्टप्रभावस्तु श्रीमान्नारायणः प्रभुः । दृष्टः श्रुतिविमृग्यो हि देवदेवो जनार्दनः",
           "transliteration": "tatra dṛṣṭaprabhāvastu śrīmānnārāyaṇaḥ prabhuḥ / dṛṣṭaḥ śrutivimṛgyo hi devadevo janārdanaḥ",
-          "hindi": "स्मरण ॥ ६७० --॥ शुभग्रह केन्द्र या त्रिकोणमें हों तथा चन्द्रमा यदि वर्गोत्तम नवमांशमें हो तो यात्रा करनेसे राजा अपने शत्रुओंको उसी प्रकार सपरिवार नष्ट करता है, जैसे इन्द्र पर्वतोंको॥ ६७१ ् ॥"
+          "hindi": "स्मरण ॥ ६७० --॥ शुभग्रह केन्द्र या त्रिकोणमें हों तथा चन्द्रमा यदि वर्गोत्तम नवमांशमें हो तो यात्रा करनेसे राजा अपने शत्रुओंको उसी प्रकार सपरिवार नष्ट करता है, जैसे इन्द्र पर्वतोंको॥ ६७१ ् ॥",
+          "translation": "There he saw the glorious Lord Narayana of manifest power, God of gods, Janardana, who is sought by the Vedas,",
+          "translationSource": "ai"
         },
         {
           "number": 40,
           "sanskrit": "स्तुतश्च शुकदेवेन प्रसन्नः प्राह नारद । श्रीभगवानुवाच त्वया दृष्टो ऽस्मि योगीन्द्र सर्वदेवरहःस्थितः",
           "transliteration": "stutaśca śukadevena prasannaḥ prāha nārada / śrībhagavānuvāca tvayā dṛṣṭo 'smi yogīndra sarvadevarahaḥsthitaḥ",
-          "hindi": "बहस्पति अथवा शुक्र अपने मित्रकी राशिमें होकर केन्द्र या त्रिकोणमें हों तो ऐसे समयमें यात्रा करनेवाला भूपाल सर्पोंको गरुड़के समान अपने शत्रुओंको अवश्य नष्ट कर देता है॥६७२-- ॥"
+          "hindi": "बहस्पति अथवा शुक्र अपने मित्रकी राशिमें होकर केन्द्र या त्रिकोणमें हों तो ऐसे समयमें यात्रा करनेवाला भूपाल सर्पोंको गरुड़के समान अपने शत्रुओंको अवश्य नष्ट कर देता है॥६७२-- ॥",
+          "translation": "and, praised by Shukadeva, was pleased and spoke, O Narada. The Lord said: \"I am seen by you, lord of yogis, who dwell in the secret of all gods.",
+          "translationSource": "ai"
         },
         {
           "number": 41,
           "sanskrit": "सनत्कुमारादिष्टेन सिद्धो योगेन वाडव । त्वं सदागतिमार्गस्थो लोकान्पश्य यथेच्छया",
           "transliteration": "sanatkumārādiṣṭena siddho yogena vāḍava / tvaṃ sadāgatimārgastho lokānpaśya yathecchayā",
-          "hindi": "यदि एक भी शुभग्रह वर्गोत्तम नवमांशमें स्थित होकर केन्द्रमें हो तो यात्रा करनेवाला नरेश पाप- समूहोंको गड़ाजीके समान अपने शत्रुओंको क्षणभरमें नष्ट कर देता है॥ ६७३ -5-॥ जो राजा शत्रुओंको"
+          "hindi": "यदि एक भी शुभग्रह वर्गोत्तम नवमांशमें स्थित होकर केन्द्रमें हो तो यात्रा करनेवाला नरेश पाप- समूहोंको गड़ाजीके समान अपने शत्रुओंको क्षणभरमें नष्ट कर देता है॥ ६७३ -5-॥ जो राजा शत्रुओंको",
+          "translation": "You are perfected by yoga, instructed by Sanatkumara, O Brahmin; being on the path always, behold the worlds at will.\"",
+          "translationSource": "ai"
         },
         {
           "number": 42,
           "sanskrit": "इत्युक्तो वासुदेवेन तं नत्वारणिसंभवः । वैकुण्ठं प्रययौ विप्र सर्वलोकनमस्कृतम्",
           "transliteration": "ityukto vāsudevena taṃ natvāraṇisaṃbhavaḥ / vaikuṇṭhaṃ prayayau vipra sarvalokanamaskṛtam",
-          "hindi": "जीतनेके लिये उपर्युक्त राजयोगोंमें यात्रा करता है उसका कोपानल शरत्रुओंकी स्त्रियोंके अश्रुजलसे शान्त होता है॥६७४-३॥ आश्विन मासके शुक्लपक्षकी दशमी तिथि “'विजया' कहलाती है।"
+          "hindi": "जीतनेके लिये उपर्युक्त राजयोगोंमें यात्रा करता है उसका कोपानल शरत्रुओंकी स्त्रियोंके अश्रुजलसे शान्त होता है॥६७४-३॥ आश्विन मासके शुक्लपक्षकी दशमी तिथि “'विजया' कहलाती है।",
+          "translation": "Thus addressed by Vasudeva, the son of the fire-stick bowed to him and went to Vaikuntha, honoured by all worlds, O Brahmin,",
+          "translationSource": "ai"
         },
         {
           "number": 43,
           "sanskrit": "वैमानिकैः सुरैर्जुष्टं विरजापरिचेष्टितम् । यं भान्तमनुभान्त्येते लोकाः सर्वे ऽपि नारद",
           "transliteration": "vaimānikaiḥ surairjuṣṭaṃ virajāpariceṣṭitam / yaṃ bhāntamanubhāntyete lokāḥ sarve 'pi nārada",
-          "hindi": "उसमें जो यात्रा करता है, उसे अपने शत्रुओंपर विजय प्राप्त होती है अथवा शत्रुओंसे सन्धि (मेल) हो जाती है। किसी भी दशामें उसकी पराजय नहीं होती है॥६७५-६ ॥"
+          "hindi": "उसमें जो यात्रा करता है, उसे अपने शत्रुओंपर विजय प्राप्त होती है अथवा शत्रुओंसे सन्धि (मेल) हो जाती है। किसी भी दशामें उसकी पराजय नहीं होती है॥६७५-६ ॥",
+          "translation": "attended by gods in aerial cars, surrounded by the river Viraja; all these worlds, O Narada, shine after it as it shines,",
+          "translationSource": "ai"
         },
         {
           "number": 44,
           "sanskrit": "यत्र विदुमसोपानाः स्वर्णरत्नविचित्रिताः । वाप्य उत्पलंसंछन्नाः सुरस्त्रीक्रीडनाकुलाः",
           "transliteration": "yatra vidumasopānāḥ svarṇaratnavicitritāḥ / vāpya utpalaṃsaṃchannāḥ surastrīkrīḍanākulāḥ",
-          "hindi": "कार्योमें निमित्त और शकुन आदि (लग्न एवं ग्रहयोग)-की अपेक्षा भी मनोजय (मनको वशमें तथा प्रसन्न रखना) प्रबल है। इसलिये मनस्वी पुरुषोंके लिये यत्रपूर्वक फलसिद्धिमें मनोजय ही"
+          "hindi": "कार्योमें निमित्त और शकुन आदि (लग्न एवं ग्रहयोग)-की अपेक्षा भी मनोजय (मनको वशमें तथा प्रसन्न रखना) प्रबल है। इसलिये मनस्वी पुरुषोंके लिये यत्रपूर्वक फलसिद्धिमें मनोजय ही",
+          "translation": "where the stairs are of coral, adorned with gold and gems; lakes covered with lotuses, filled with the sport of divine women,",
+          "translationSource": "ai"
         },
         {
           "number": 45,
           "sanskrit": "दिव्यैर्हंसकुलैर्घुष्टाः स्वच्छांबुनिभृताः सदा । तत्र द्वाःस्थैश्चतुर्हस्तेनार्नाभरणभूषितैः",
           "transliteration": "divyairhaṃsakulairghuṣṭāḥ svacchāṃbunibhṛtāḥ sadā / tatra dvāḥsthaiścaturhastenārnābharaṇabhūṣitaiḥ",
-          "hindi": "प्रधान कारण होता है॥ ६७६-८- ॥"
+          "hindi": "प्रधान कारण होता है॥ ६७६-८- ॥",
+          "translation": "resounding with flocks of divine swans, always clear with water. There, with the four-armed gatekeepers adorned with ornaments,",
+          "translationSource": "ai"
         },
         {
           "number": 46,
           "sanskrit": "विष्वक्सेनानुगैः सिद्धैः कुमुदाद्यैरवा रितः । प्रविश्याभ्यान्तरं तत्र देवदेवं चतुर्भुजम्",
           "transliteration": "viṣvaksenānugaiḥ siddhaiḥ kumudādyairavā ritaḥ / praviśyābhyāntaraṃ tatra devadevaṃ caturbhujam",
-          "hindi": "( यात्रामें प्रतिबन्ध-- ) यदि घरमें उत्सव"
+          "hindi": "( यात्रामें प्रतिबन्ध-- ) यदि घरमें उत्सव",
+          "translation": "followers of Vishvaksena, Siddhas, Kumuda and others, he was stopped; entering within, he saw the four-armed God of gods,",
+          "translationSource": "ai"
         },
         {
           "number": 47,
           "sanskrit": "शान्तं प्रसन्नवदनं पीतकौशेयवाससम् । शङ्खचक्रगदापद्मैर्मूर्तिमद्भिरुपासितम्",
           "transliteration": "śāntaṃ prasannavadanaṃ pītakauśeyavāsasam / śaṅkhacakragadāpadmairmūrtimadbhirupāsitam",
-          "hindi": "तो जीवनकी इच्छा रखनेवालोंको बिना उत्सवको समाप्त किये यात्रा नहीं करनी चाहिए॥ ६७७)"
+          "hindi": "तो जीवनकी इच्छा रखनेवालोंको बिना उत्सवको समाप्त किये यात्रा नहीं करनी चाहिए॥ ६७७)",
+          "translation": "peaceful, with a gracious face, clothed in yellow silk, attended by embodied conch, discus, mace and lotus,",
+          "translationSource": "ai"
         },
         {
           "number": 48,
           "sanskrit": "वक्षस्थलस्थया लक्ष्म्या कौस्तुभेन विराजितम् । कटीसूत्रब्रह्मसूत्रकटकाङ्गदभूषितम्",
           "transliteration": "vakṣasthalasthayā lakṣmyā kaustubhena virājitam / kaṭīsūtrabrahmasūtrakaṭakāṅgadabhūṣitam",
-          "hindi": "( यात्रामें अपशकुन-- ) यात्राके समय यदि परस्पर दो भैंसों या चूहोंमें लड़ाई हो, स्त्रीसे कलह हो या स्त्रीका मासिक धर्म हुआ हो, .वस्त्र आदि शरीरसे खिसककर गिर पड़े, किसीपर"
+          "hindi": "( यात्रामें अपशकुन-- ) यात्राके समय यदि परस्पर दो भैंसों या चूहोंमें लड़ाई हो, स्त्रीसे कलह हो या स्त्रीका मासिक धर्म हुआ हो, .वस्त्र आदि शरीरसे खिसककर गिर पड़े, किसीपर",
+          "translation": "shining with Lakshmi on his chest and the Kaustubha, adorned with waist-cord, sacred thread, bracelets and armlets,",
+          "translationSource": "ai"
         },
         {
           "number": 49,
           "sanskrit": "भ्राजत्किरीटवलयं मणिनूपुरशोभितम् । ददर्श सिद्धनि करैः सेव्यमानमहर्निशम्",
           "transliteration": "bhrājatkirīṭavalayaṃ maṇinūpuraśobhitam / dadarśa siddhani karaiḥ sevyamānamaharniśam",
-          "hindi": "क्रोध हो जाय या मुखसे दुर्बचन कहा गया हो"
+          "hindi": "क्रोध हो जाय या मुखसे दुर्बचन कहा गया हो",
+          "translation": "with a shining crown and bracelets, adorned with jewelled anklets, served day and night by the hands of Siddhas.",
+          "translationSource": "ai"
         },
         {
           "number": 50,
           "sanskrit": "तं दृष्ट्वा भक्तिभावेन तुष्टाव मधुसूदनम् । शुक उवाच नमस्ते वासुदेवाय सर्वलोकैकसाक्षिणे",
           "transliteration": "taṃ dṛṣṭvā bhaktibhāvena tuṣṭāva madhusūdanam / śuka uvāca namaste vāsudevāya sarvalokaikasākṣiṇe",
-          "hindi": "तो उस दशामें राजाको यात्रा नहीं करनी चाहिए ॥ ६७८-३ ॥"
+          "hindi": "तो उस दशामें राजाको यात्रा नहीं करनी चाहिए ॥ ६७८-३ ॥",
+          "translation": "Seeing him, he praised Madhusudana with devotion. Shuka said: \"Homage to you, Vasudeva, the sole witness of all worlds,",
+          "translationSource": "ai"
         },
         {
           "number": 51,
           "sanskrit": "जगद्बीजस्वरूपाय पूर्णाय निभृतात्मने । हरये वासुकिस्थाय श्वेतद्वीपनिवासिने",
           "transliteration": "jagadbījasvarūpāya pūrṇāya nibhṛtātmane / haraye vāsukisthāya śvetadvīpanivāsine",
-          "hindi": "राजा घृतमिश्रित अन्न खाकर पूर्व दिशाकी यात्रा करे, तिलचूर्ण मिलाया हुआ अन्न खाकर दक्षिण दिशाको जाय और घृतमिश्रित खीर खाकर उत्तर दिशाकी यात्रा करे तो निश्चय ही वह शत्रुओंपर"
+          "hindi": "राजा घृतमिश्रित अन्न खाकर पूर्व दिशाकी यात्रा करे, तिलचूर्ण मिलाया हुआ अन्न खाकर दक्षिण दिशाको जाय और घृतमिश्रित खीर खाकर उत्तर दिशाकी यात्रा करे तो निश्चय ही वह शत्रुओंपर",
+          "translation": "of the nature of the seed of the world, the full, tranquil-souled; to Hari, abiding in Vasuki, dwelling in Shvetadvipa;",
+          "translationSource": "ai"
         },
         {
           "number": 52,
           "sanskrit": "हंसाय मत्स्यरूपाय वाराहतनुधारिणे । नृसिंहाय ध्रुवेज्याय सांख्ययोगेश्वराय च",
           "transliteration": "haṃsāya matsyarūpāya vārāhatanudhāriṇe / nṛsiṃhāya dhruvejyāya sāṃkhyayogeśvarāya ca",
-          "hindi": "विजय पाता है। रविवारको सज्जिका (मिसिरी और मसाला मिला हुआ दही), सोमवारको खीर, मड़लवारको काँजी, बुधवारको दूध, गुरुवारको दही, शुक्रवारको दूध तथा शनिवारको तिल और"
+          "hindi": "विजय पाता है। रविवारको सज्जिका (मिसिरी और मसाला मिला हुआ दही), सोमवारको खीर, मड़लवारको काँजी, बुधवारको दूध, गुरुवारको दही, शुक्रवारको दूध तथा शनिवारको तिल और",
+          "translation": "to Hamsa, to him of fish form, bearing the boar's body; to Narasimha, to him worshipped by Dhruva, to the lord of Sankhya and yoga;",
+          "translationSource": "ai"
         },
         {
           "number": 53,
           "sanskrit": "चतुःसनाय कूर्माय पृथवे स्वसुरवात्मने । नाभेयाय जगद्धात्रे विधात्रेंऽतकारय च",
           "transliteration": "catuḥsanāya kūrmāya pṛthave svasuravātmane / nābheyāya jagaddhātre vidhātreṃ'takāraya ca",
-          "hindi": "भात खाकर यात्रा करे तो शत्रुओंको जीत लेता है। अश्विनीमें कुल्माष (उड़दका एक भेद), भरणीमें तिल, कृत्तिकामें उड़द, रोहिणीमें गायका दही, मृगशिरामें गायका घी, आरद्द्रामें गायका दूध, आश्लेषामें"
+          "hindi": "भात खाकर यात्रा करे तो शत्रुओंको जीत लेता है। अश्विनीमें कुल्माष (उड़दका एक भेद), भरणीमें तिल, कृत्तिकामें उड़द, रोहिणीमें गायका दही, मृगशिरामें गायका घी, आरद्द्रामें गायका दूध, आश्लेषामें",
+          "translation": "to the four Kumaras, to Kurma, to Prithu, the Self of his own gods; to Nabheya, the world's sustainer, the creator and the ender;",
+          "translationSource": "ai"
         },
         {
           "number": 54,
           "sanskrit": "भार्गवेन्द्राय रामाय राघवाय पराय च । कृष्णाय वेदकर्त्रे च बुद्धकल्किस्वरूपिणे",
           "transliteration": "bhārgavendrāya rāmāya rāghavāya parāya ca / kṛṣṇāya vedakartre ca buddhakalkisvarūpiṇe",
-          "hindi": "खीर, मघामें नीलकण्ठका दर्शन, हस्तमें षाष्टिक्य (साठी धान्य)-के चावलका भात, चित्रामें प्रियंगु (केंगनी), स्वातीमें अपूप (मालपूआ), अनुराधामें फल (आम, केला आदि), उत्तराषाढ़में शाल्य"
+          "hindi": "खीर, मघामें नीलकण्ठका दर्शन, हस्तमें षाष्टिक्य (साठी धान्य)-के चावलका भात, चित्रामें प्रियंगु (केंगनी), स्वातीमें अपूप (मालपूआ), अनुराधामें फल (आम, केला आदि), उत्तराषाढ़में शाल्य",
+          "translation": "to the lord of the Bhargavas (Parashurama), to Rama, to Raghava, to the Supreme, to Krishna, maker of the Veda, to the forms of Buddha and Kalki;",
+          "translationSource": "ai"
         },
         {
           "number": 55,
           "sanskrit": "चतुर्व्युहाय वेद्याय ध्येयाय परमात्मने । नरनारायणाख्याय शिषिविष्टाय विष्णवे",
           "transliteration": "caturvyuhāya vedyāya dhyeyāya paramātmane / naranārāyaṇākhyāya śiṣiviṣṭāya viṣṇave",
-          "hindi": "(अगहनी धानका चावल), अभिजितमें हविष्य, श्रवणमें कृशरान्न (खिचड़ी), धनिष्ठामें मूँग, शतभिषामें जौका आटा, उत्तरभाद्रपदमें खिचड़ी तथा रेवतीमें दही-भात खाकर राजा यदि हाथी,"
+          "hindi": "(अगहनी धानका चावल), अभिजितमें हविष्य, श्रवणमें कृशरान्न (खिचड़ी), धनिष्ठामें मूँग, शतभिषामें जौका आटा, उत्तरभाद्रपदमें खिचड़ी तथा रेवतीमें दही-भात खाकर राजा यदि हाथी,",
+          "translation": "to the one of fourfold manifestation, to the one to be known and meditated on, to the Supreme Self; to Vishnu named Nara-Narayana, and the one entered into Shishu;",
+          "translationSource": "ai"
         },
         {
           "number": 56,
           "sanskrit": "ऋतधाम्ने विधाम्ने च सुपर्णाय स्वरोचिषे । ऋभवे सुव्रताख्याय सुधाम्ने चाजिताय च",
           "transliteration": "ṛtadhāmne vidhāmne ca suparṇāya svarociṣe / ṛbhave suvratākhyāya sudhāmne cājitāya ca",
-          "hindi": "घोड़े, रथ या नरयान (पालकी)-पर बैठकर यात्रा करे तो वह शत्रुओंपर विजय पाता है और उसका अभीष्ट सिद्ध होता है॥ ६७९--६८४॥"
+          "hindi": "घोड़े, रथ या नरयान (पालकी)-पर बैठकर यात्रा करे तो वह शत्रुओंपर विजय पाता है और उसका अभीष्ट सिद्ध होता है॥ ६७९--६८४॥",
+          "translation": "to the one whose abode is truth, to the Ordainer, to Suparna, of self-radiance; to Ribhu, to the one called Suvrata, of good abode, and the unconquered;",
+          "translationSource": "ai"
         },
         {
           "number": 57,
           "sanskrit": "विश्वरूपाय विश्वाय सृष्टिस्थित्यन्तकारिणे । यज्ञाय यज्ञभोक्ते च स्थविष्ठायाणवे ऽर्थिने",
           "transliteration": "viśvarūpāya viśvāya sṛṣṭisthityantakāriṇe / yajñāya yajñabhokte ca sthaviṣṭhāyāṇave 'rthine",
-          "hindi": "( यात्राविधि-- ) प्रज्जलित अग्रिमें तिलोंसे हवन करके जिस दिशामें जाना हो, उस दिशाके स्वामीको उन्हींके समान रड्भवाले वस्त्र, गन्ध तथा पुष्प आदि उपचार अर्पण करके उन दिकृपालेंकि"
+          "hindi": "( यात्राविधि-- ) प्रज्जलित अग्रिमें तिलोंसे हवन करके जिस दिशामें जाना हो, उस दिशाके स्वामीको उन्हींके समान रड्भवाले वस्त्र, गन्ध तथा पुष्प आदि उपचार अर्पण करके उन दिकृपालेंकि",
+          "translation": "to the one of universal form, who is the universe, maker of creation, preservation and end; to Sacrifice and enjoyer of sacrifice, the grossest, the atom, the seeker;",
+          "translationSource": "ai"
         },
         {
           "number": 58,
           "sanskrit": "आदित्यसोमनेत्राय सहओजोबलाय च । ईज्याय साक्षिणे ऽजायबहुशीर्षाङ्घ्रिबाहवे",
           "transliteration": "ādityasomanetrāya sahaojobalāya ca / ījyāya sākṣiṇe 'jāyabahuśīrṣāṅghribāhave",
-          "hindi": "अपने इष्टदेव और ब्राह्मणोंको प्रणाम करके ब्राह्मणोंसे आशीर्वाद लेकर राजाको यात्रा करनी"
+          "hindi": "अपने इष्टदेव और ब्राह्मणोंको प्रणाम करके ब्राह्मणोंसे आशीर्वाद लेकर राजाको यात्रा करनी",
+          "translation": "to the one with eyes of Sun and Moon, to power and strength; to the worshipful, the witness, the unborn, with many heads, feet and arms;",
+          "translationSource": "ai"
         },
         {
           "number": 59,
           "sanskrit": "श्रीशाय श्रीनिवासाय भक्तवश्याय शार्ङ्गिणे । अष्टप्रकृत्यधीशाय ब्रह्मणे ऽनन्तसक्तये",
           "transliteration": "śrīśāya śrīnivāsāya bhaktavaśyāya śārṅgiṇe / aṣṭaprakṛtyadhīśāya brahmaṇe 'nantasaktaye",
-          "hindi": "( दिकृपालोंके स्वरूपका ध्यान--) (१ पूर्व दिशाके स्वामी) देवराज इन्द्र शचीदेवीके साथ ऐरावतपर आरूढ़ हो बड़ी शोभा पा रहे हैं। उनके हाथमें वज्र है। उनकी कान्ति सुवर्ण-सदृश है तथा वे दिव्य आभूषणोंसे विभूषित हैं। (२ अग्रिकोणके अधीश्वर) अग्रिदेवके सात हाथ,"
+          "hindi": "( दिकृपालोंके स्वरूपका ध्यान--) (१ पूर्व दिशाके स्वामी) देवराज इन्द्र शचीदेवीके साथ ऐरावतपर आरूढ़ हो बड़ी शोभा पा रहे हैं। उनके हाथमें वज्र है। उनकी कान्ति सुवर्ण-सदृश है तथा वे दिव्य आभूषणोंसे विभूषित हैं। (२ अग्रिकोणके अधीश्वर) अग्रिदेवके सात हाथ,",
+          "translation": "to the lord of Shri, the abode of Shri, subject to devotees, bearer of the Sharnga bow; to the lord of the eight Prakritis, Brahman, of infinite power;",
+          "translationSource": "ai"
         },
         {
           "number": 60,
           "sanskrit": "बृहदारण्यवेद्याय हृषीकेशाय वेधसे । पुण्डरीकनिभाक्षाय क्षेत्रज्ञाय विभासिने",
           "transliteration": "bṛhadāraṇyavedyāya hṛṣīkeśāya vedhase / puṇḍarīkanibhākṣāya kṣetrajñāya vibhāsine",
-          "hindi": "१. दोहद--जिसे जिस वस्तुकी विशेष चाह होती है, जिसकी प्राप्तिसि मन प्रसन्न हो जाता है, वह उसका 'दोहद! कहलाता है। पूर्व दिशाकी अधिष्ठात्रीदेवी चाहती है कि लोग घृतमिश्रित अन्न खाये। रविवारका अधिपति चाहता है कि लोग रसाला (सिखरन--मिसिरी और मसाला मिला हुआ दही) खाये इत्यादि। इसी प्रकार अन्य वारादिमें भी जानना चाहिए। दोहद-भक्षण करनेसे उस वार आदिका दोष नष्ट हो जाता है।"
+          "hindi": "१. दोहद--जिसे जिस वस्तुकी विशेष चाह होती है, जिसकी प्राप्तिसि मन प्रसन्न हो जाता है, वह उसका 'दोहद! कहलाता है। पूर्व दिशाकी अधिष्ठात्रीदेवी चाहती है कि लोग घृतमिश्रित अन्न खाये। रविवारका अधिपति चाहता है कि लोग रसाला (सिखरन--मिसिरी और मसाला मिला हुआ दही) खाये इत्यादि। इसी प्रकार अन्य वारादिमें भी जानना चाहिए। दोहद-भक्षण करनेसे उस वार आदिका दोष नष्ट हो जाता है।",
+          "translation": "to the one known in the Brihadaranyaka, Hrishikesha, the Ordainer; to the one with eyes like a white lotus, the knower of the field, the shining;",
+          "translationSource": "ai"
         },
         {
           "number": 61,
           "sanskrit": "गोविन्दाय जगत्कर्त्रे जगन्नाथाय योगिने । सत्याय सत्यसंधाय वैकुण्ठायाच्युताय च",
           "transliteration": "govindāya jagatkartre jagannāthāya yogine / satyāya satyasaṃdhāya vaikuṇṭhāyācyutāya ca",
-          "hindi": "स्वामी) कुबेर घोड़ेपर सवार हैं। उनकी दो भुजाएँ हैं। वे हाथमें कलश धारण करते हैं। उनकी अड्भगकान्ति सुवर्णके सदृश है। वे चित्रलेखादेवीके प्राणबल्लभ तथा यक्षों और गन्धर्वोकि"
+          "hindi": "स्वामी) कुबेर घोड़ेपर सवार हैं। उनकी दो भुजाएँ हैं। वे हाथमें कलश धारण करते हैं। उनकी अड्भगकान्ति सुवर्णके सदृश है। वे चित्रलेखादेवीके प्राणबल्लभ तथा यक्षों और गन्धर्वोकि",
+          "translation": "to Govinda, maker of the world, lord of the world, the yogi; to the true, the true to his word, Vaikuntha and Achyuta;",
+          "translationSource": "ai"
         },
         {
           "number": 62,
           "sanskrit": "अधोक्षजाय धर्माय वामनाय त्रिधातवे । घृतार्चिषे विष्णवे ते ऽनन्ताय कपिलायय च",
           "transliteration": "adhokṣajāya dharmāya vāmanāya tridhātave / ghṛtārciṣe viṣṇave te 'nantāya kapilāyaya ca",
-          "hindi": "राजा हैं। (८ ईशानकोणके स्वामी) गौरीपति भगवान् शद्भूर हाथमें पिनाक लिये वृषभपर आरूढ़ हैं। वे सबसे श्रेष्ठ देवता हैं। उनकी अड्भकान्ति श्वेत है। माथेपर चन्द्रमाका मुकुट सुशोभित होता"
+          "hindi": "राजा हैं। (८ ईशानकोणके स्वामी) गौरीपति भगवान् शद्भूर हाथमें पिनाक लिये वृषभपर आरूढ़ हैं। वे सबसे श्रेष्ठ देवता हैं। उनकी अड्भकान्ति श्वेत है। माथेपर चन्द्रमाका मुकुट सुशोभित होता",
+          "translation": "to Adhokshaja, Dharma, Vamana, the three-fold; to the one with ghee-bright flames, Vishnu, the infinite, and Kapila;",
+          "translationSource": "ai"
         },
         {
           "number": 63,
           "sanskrit": "विरिञ्चये त्रिककुदे ऋग्यजुःसामरूपिणे । एकशृङ्गाय च शुचिश्रवसे शास्त्रयोनये",
           "transliteration": "viriñcaye trikakude ṛgyajuḥsāmarūpiṇe / ekaśṛṅgāya ca śuciśravase śāstrayonaye",
-          "hindi": "है और सर्पमय यज्ञोपवीत धारण करते हैं। (इस प्रकार इन सब दिक्ृपालोंका ध्यान और पूजन करना चाहिए) ॥ ६८६--६९३-३-॥"
+          "hindi": "है और सर्पमय यज्ञोपवीत धारण करते हैं। (इस प्रकार इन सब दिक्ृपालोंका ध्यान और पूजन करना चाहिए) ॥ ६८६--६९३-३-॥",
+          "translation": "to Viranchi, the three-peaked, of the form of Rik, Yajus and Sama; to the one-horned, to him of pure hearing, source of the scriptures;",
+          "translationSource": "ai"
         },
         {
           "number": 64,
           "sanskrit": "वृषाकपय ऋद्धाय प्रभवे विश्वकर्मणे । भूर्भुवुःस्वःस्वरूपाय दैत्यघ्ने निर्गुणाय च",
           "transliteration": "vṛṣākapaya ṛddhāya prabhave viśvakarmaṇe / bhūrbhuvuḥsvaḥsvarūpāya daityaghne nirguṇāya ca",
-          "hindi": "कार्यवश निश्चित यात्रा-लग्रमें राजा स्वयं न जा सके तो छत्र, ध्वजा, शस्त्र, अस्त्र या वाहनमेंसे किसी एक वस्तुको यात्राके निर्धारित समयमें घरसे निकालकर जिस दिशामें जाना हो, उसी दिशाकी"
+          "hindi": "कार्यवश निश्चित यात्रा-लग्रमें राजा स्वयं न जा सके तो छत्र, ध्वजा, शस्त्र, अस्त्र या वाहनमेंसे किसी एक वस्तुको यात्राके निर्धारित समयमें घरसे निकालकर जिस दिशामें जाना हो, उसी दिशाकी",
+          "translation": "to Vrishakapi, the prosperous, the Lord, Vishvakarman; to the one whose form is Bhur, Bhuvah, Svah, the slayer of demons, the one without qualities;",
+          "translationSource": "ai"
         },
         {
           "number": 65,
           "sanskrit": "निरञ्जनाय नित्याय ह्यव्ययायाक्षराय च । नमस्ते पाहि मामीश शरणागतवत्सल",
           "transliteration": "nirañjanāya nityāya hyavyayāyākṣarāya ca / namaste pāhi māmīśa śaraṇāgatavatsala",
-          "hindi": "ओर दूर रखा दे। अपने स्थानसे निर्गमस्थान (प्रस्थान रखनेकी जगह) २०० दण्ड (चार हाथकी लग्गी)- से दूर होना उचित है। अथवा चालीस या कम- से-कम बारह दण्डकी दूरी होनी आवश्यक है।"
+          "hindi": "ओर दूर रखा दे। अपने स्थानसे निर्गमस्थान (प्रस्थान रखनेकी जगह) २०० दण्ड (चार हाथकी लग्गी)- से दूर होना उचित है। अथवा चालीस या कम- से-कम बारह दण्डकी दूरी होनी आवश्यक है।",
+          "translation": "to the stainless, eternal, imperishable, unchanging one — homage to you; protect me, O Lord, lover of those who take refuge.\"",
+          "translationSource": "ai"
         },
         {
           "number": 66,
           "sanskrit": "इति स्तुतः स भगवाञ्च्छङ्खचक्रगदाधरः । आरणेयमुवाचेदं भृशं प्रणतवत्सलः",
           "transliteration": "iti stutaḥ sa bhagavāñcchaṅkhacakragadādharaḥ / āraṇeyamuvācedaṃ bhṛśaṃ praṇatavatsalaḥ",
-          "hindi": "राजा स्वयं प्रस्तुत होकर जाय तो किसी एक स्थानमें सात दिन न ठहरे। अन्य (राज-मन्त्री तथा साधारण) जन भी प्रस्थान करके एक स्थानमें छ: या पाँच दिन न ठहरे। यदि इससे अधिक"
+          "hindi": "राजा स्वयं प्रस्तुत होकर जाय तो किसी एक स्थानमें सात दिन न ठहरे। अन्य (राज-मन्त्री तथा साधारण) जन भी प्रस्थान करके एक स्थानमें छ: या पाँच दिन न ठहरे। यदि इससे अधिक",
+          "translation": "Thus praised, the Lord bearing conch, discus and mace said to the son of the fire-stick, greatly fond of those who bow:",
+          "translationSource": "ai"
         },
         {
           "number": 67,
           "sanskrit": "श्रीभगवानुवाच व्यासपुत्र महाभाग प्रीतो ऽस्मि तव सुव्रत । विद्यामाप्नुहि भक्तिं च ज्ञानी त्वं मम रूपधृक्",
           "transliteration": "śrībhagavānuvāca vyāsaputra mahābhāga prīto 'smi tava suvrata / vidyāmāpnuhi bhaktiṃ ca jñānī tvaṃ mama rūpadhṛk",
-          "hindi": "ठहरना पड़े तो उसके बाद दूसरा शुभ मुहूर्त और उत्तम लग्न विचारकर यात्रा करे॥ ६९४--६९६३-॥ असमयमें (पौषसे चेत्रपर्यन्त) बिजली चमके मेघकी गर्जना हो या वर्षा होने लगे तथा त्रिविध"
+          "hindi": "ठहरना पड़े तो उसके बाद दूसरा शुभ मुहूर्त और उत्तम लग्न विचारकर यात्रा करे॥ ६९४--६९६३-॥ असमयमें (पौषसे चेत्रपर्यन्त) बिजली चमके मेघकी गर्जना हो या वर्षा होने लगे तथा त्रिविध",
+          "translation": "The Lord said: \"O son of Vyasa, fortunate one, I am pleased with you, O firm in vows. Attain learning and devotion; you are a knower, bearing my form.",
+          "translationSource": "ai"
         },
         {
           "number": 68,
           "sanskrit": "यद्रूपं मम दृष्टं प्राक् श्वेतद्वीपे त्वया द्विज । सो ऽहमेवावतारार्थं स्थितो विश्वंभरात्मकः",
           "transliteration": "yadrūpaṃ mama dṛṣṭaṃ prāk śvetadvīpe tvayā dvija / so 'hamevāvatārārthaṃ sthito viśvaṃbharātmakaḥ",
-          "hindi": "जाय तो राजाको सात राततक अन्य स्थानोंकी यात्रा नहीं करनी चाहिए॥ ६ ९७-- ॥ (शकुन-- ) यात्राकालमें रला नामक पक्षी, चूहा, सियारिन, कौआ तथा कबूतर--इनके शब्द"
+          "hindi": "जाय तो राजाको सात राततक अन्य स्थानोंकी यात्रा नहीं करनी चाहिए॥ ६ ९७-- ॥ (शकुन-- ) यात्राकालमें रला नामक पक्षी, चूहा, सियारिन, कौआ तथा कबूतर--इनके शब्द",
+          "translation": "The form of mine that you saw before in Shvetadvipa, O Brahmin, I, the Sustainer of the universe, stand for the purpose of incarnation.",
+          "translationSource": "ai"
         },
         {
           "number": 69,
           "sanskrit": "सिद्धो ऽसि त्वं महाभाग मोक्षधर्मानुनुचिन्तया । वरलोकान्यथा वायुर्यथा रवं सविता तथा",
           "transliteration": "siddho 'si tvaṃ mahābhāga mokṣadharmānunucintayā / varalokānyathā vāyuryathā ravaṃ savitā tathā",
-          "hindi": "वामभागमें सुनायी दें तो शुभ होता है। छछुंदर, पिंगला (उल्लू), पल्‍ली और गदहा--ये यात्राके"
+          "hindi": "वामभागमें सुनायी दें तो शुभ होता है। छछुंदर, पिंगला (उल्लू), पल्‍ली और गदहा--ये यात्राके",
+          "translation": "You are perfected, O fortunate one, by reflecting on the dharmas of liberation, like wind in the best worlds, and the sun like the sun.",
+          "translationSource": "ai"
         },
         {
           "number": 70,
           "sanskrit": "नित्यमुक्तस्वरूपस्त्वं पूज्यमानः सुरैर्नरैः । भक्तिर्हि दुर्लभा लोके मयि सर्वपरायणे",
           "transliteration": "nityamuktasvarūpastvaṃ pūjyamānaḥ surairnaraiḥ / bhaktirhi durlabhā loke mayi sarvaparāyaṇe",
-          "hindi": "समय वामभागमें हों तो श्रेष्ठ हैं। कोयल, तोता और भरदूल आदि पक्षी यदि दाहिने भागमें आ जाय॑ँ तो श्रेष्ठ हैं। काले रंगको छोड़कर अन्य सब रंगोंके चौपाये यदि वाम भागमें दीख पड़ें तो श्रेष्ठ"
+          "hindi": "समय वामभागमें हों तो श्रेष्ठ हैं। कोयल, तोता और भरदूल आदि पक्षी यदि दाहिने भागमें आ जाय॑ँ तो श्रेष्ठ हैं। काले रंगको छोड़कर अन्य सब रंगोंके चौपाये यदि वाम भागमें दीख पड़ें तो श्रेष्ठ",
+          "translation": "You are of eternally liberated nature, worshipped by gods and men. Devotion to me, the supreme refuge of all, is hard to get in the world;",
+          "translationSource": "ai"
         },
         {
           "number": 71,
           "sanskrit": "तां लब्ध्वा नापरं किञ्चिल्लब्धव्यमवशिष्यते । आकल्पान्तः तपः संस्थौ नरनारायणावृषी",
           "transliteration": "tāṃ labdhvā nāparaṃ kiñcillabdhavyamavaśiṣyate / ākalpāntaḥ tapaḥ saṃsthau naranārāyaṇāvṛṣī",
-          "hindi": "हैं तथा यात्रासमयमें ककलास (गिरगिट) का दर्शन शुभ नहीं है॥६९८--७०० ॥"
+          "hindi": "हैं तथा यात्रासमयमें ककलास (गिरगिट) का दर्शन शुभ नहीं है॥६९८--७०० ॥",
+          "translation": "having obtained it, nothing else remains to be obtained. The sages Nara and Narayana are established in austerity until the end of the kalpa.",
+          "translationSource": "ai"
         },
         {
           "number": 72,
           "sanskrit": "तयोर्निदेशतो व्यासो जनक स्तव सुव्रतः । कर्ता भागवतं शास्त्रं तदधीष्व भुवं व्रज",
           "transliteration": "tayornideśato vyāso janaka stava suvrataḥ / kartā bhāgavataṃ śāstraṃ tadadhīṣva bhuvaṃ vraja",
-          "hindi": "यात्राकालमें सूअर, खरगोश, गोधा (गोह) और सर्पोंकी चर्चा शुभ होती है, किंतु किसी भूली हुई वस्तुको खोजनेके लिये जाना हो तो इनकी चर्चा अच्छी नहीं होती है। वानर और"
+          "hindi": "यात्राकालमें सूअर, खरगोश, गोधा (गोह) और सर्पोंकी चर्चा शुभ होती है, किंतु किसी भूली हुई वस्तुको खोजनेके लिये जाना हो तो इनकी चर्चा अच्छी नहीं होती है। वानर और",
+          "translation": "By their order Vyasa, O Janaka, firm in vows, will compose the Bhagavata scripture; study it. Go to earth.",
+          "translationSource": "ai"
         },
         {
           "number": 73,
           "sanskrit": "स तप्यति तपस्त्वद्य पर्वते गन्धमादने । त्वद्वियोगेन खिन्नात्मा तं प्रसादय मत्प्रियम्",
           "transliteration": "sa tapyati tapastvadya parvate gandhamādane / tvadviyogena khinnātmā taṃ prasādaya matpriyam",
-          "hindi": "यात्रामें मोर, बकरा, नेवला, नीलकण्ठ और कबूतर दीख जाये तो इनके दर्शनमात्रसे शुभ होता है; परंतु लौटकर अपने नगरमें आने या घरमें प्रवेश करनेके समय ये दर्शन दें तो सब अशुभ ही समझना चाहिए। यात्राकालमें रोदन शब्दरहित कोई शव (मुर्दा) सामने दीख पड़े तो"
+          "hindi": "यात्रामें मोर, बकरा, नेवला, नीलकण्ठ और कबूतर दीख जाये तो इनके दर्शनमात्रसे शुभ होता है; परंतु लौटकर अपने नगरमें आने या घरमें प्रवेश करनेके समय ये दर्शन दें तो सब अशुभ ही समझना चाहिए। यात्राकालमें रोदन शब्दरहित कोई शव (मुर्दा) सामने दीख पड़े तो",
+          "translation": "He is performing austerity today on the mountain Gandhamadana, his mind distressed by separation from you; please that dear one of mine.\"",
+          "translationSource": "ai"
         },
         {
           "number": 74,
           "sanskrit": "एवमुक्तः शुको विप्र नमस्कृत्य चतुर्भुजम् । यथागतं निवृत्तो ऽसौ पितुरन्तिकमागमत्",
           "transliteration": "evamuktaḥ śuko vipra namaskṛtya caturbhujam / yathāgataṃ nivṛtto 'sau piturantikamāgamat",
-          "hindi": "( अपशकुन-- ) यात्राके समय पतित, नपुंसक, जटाधारी, पागल, औषध आदि खाकर वमन (उलटी) करनेवाला, शरीरमें तेल लगानेवाला,"
+          "hindi": "( अपशकुन-- ) यात्राके समय पतित, नपुंसक, जटाधारी, पागल, औषध आदि खाकर वमन (उलटी) करनेवाला, शरीरमें तेल लगानेवाला,",
+          "translation": "Thus told, Shuka, O Brahmin, bowed to the four-armed one and returned as he came to his father's side.",
+          "translationSource": "ai"
         },
         {
           "number": 75,
           "sanskrit": "अथ तं स्वन्तिके दृष्ट्वा पाराशर्य्यः प्रतापवान् । पुत्रं प्राप्य प्रहृष्टात्मा तपसो निववर्त ह",
           "transliteration": "atha taṃ svantike dṛṣṭvā pārāśaryyaḥ pratāpavān / putraṃ prāpya prahṛṣṭātmā tapaso nivavarta ha",
-          "hindi": "(पूछने या टोकनेका शब्द), तृण, गिरगिट, बन्ध्या स्त्री, कुबड़ा, गेरुआ वस्त्रधारी, खुले केशवाला,"
+          "hindi": "(पूछने या टोकनेका शब्द), तृण, गिरगिट, बन्ध्या स्त्री, कुबड़ा, गेरुआ वस्त्रधारी, खुले केशवाला,",
+          "translation": "Then seeing him near him, the mighty son of Parashara, delighted at getting his son, ceased from austerity.",
+          "translationSource": "ai"
         },
         {
           "number": 76,
           "sanskrit": "नारायणं नमस्कृत्य नरं चैव नरोत्तमम् । आरणेयसमायुक्तः स्वाश्रमं समुपागमत्",
           "transliteration": "nārāyaṇaṃ namaskṛtya naraṃ caiva narottamam / āraṇeyasamāyuktaḥ svāśramaṃ samupāgamat",
-          "hindi": "घोड़ा, राजसिंहासन, सुन्दरी स्त्री, चन्दन आदिकी"
+          "hindi": "घोड़ा, राजसिंहासन, सुन्दरी स्त्री, चन्दन आदिकी",
+          "translation": "Bowing to Narayana and to Nara, best of men, accompanied by the son of the fire-stick he came to his hermitage.",
+          "translationSource": "ai"
         },
         {
           "number": 77,
           "sanskrit": "नारायणनियोगात्तु त्वन्मुखेन मुनीश्वर । चकार संहितां दिव्यां नानाख्यानसमन्विताम्",
           "transliteration": "nārāyaṇaniyogāttu tvanmukhena munīśvara / cakāra saṃhitāṃ divyāṃ nānākhyānasamanvitām",
-          "hindi": "पालकी, राजा, खाद्य पदार्थ, ईख, फल, चिकनी"
+          "hindi": "पालकी, राजा, खाद्य पदार्थ, ईख, फल, चिकनी",
+          "translation": "By Narayana's order, through your mouth, O lord of sages, he composed the divine collection filled with various tales,",
+          "translationSource": "ai"
         },
         {
           "number": 78,
           "sanskrit": "वेदतुल्यां भागवतीं हरिभक्तिविवर्द्धिनीम् । निवृत्तिनिरतं पुत्रं शुकमध्यापयञ्च ताम्",
           "transliteration": "vedatulyāṃ bhāgavatīṃ haribhaktivivarddhinīm / nivṛttinirataṃ putraṃ śukamadhyāpayañca tām",
-          "hindi": "हुआ वस्त्र, शद्छ, श्रेत बैल, ध्वजा, सौभाग्यवती स्‍त्री, भरा हुआ कलश, रत्र (हीरा, मोती आदि),"
+          "hindi": "हुआ वस्त्र, शद्छ, श्रेत बैल, ध्वजा, सौभाग्यवती स्‍त्री, भरा हुआ कलश, रत्र (हीरा, मोती आदि),",
+          "translation": "equal to the Veda, the Bhagavata, increasing devotion to Hari; and he taught it to his son Shuka, who was devoted to renunciation.",
+          "translationSource": "ai"
         },
         {
           "number": 79,
           "sanskrit": "आत्मारामो ऽपि भगवान्पाराशर्यात्मजः शुकः । अधीतवान्संहितां वै नित्यं विष्णुजनप्रियाम्",
           "transliteration": "ātmārāmo 'pi bhagavānpārāśaryātmajaḥ śukaḥ / adhītavānsaṃhitāṃ vai nityaṃ viṣṇujanapriyām",
-          "hindi": "दुन्दुभि, घण्टा तथा वीणा (बाँसुरी) आदि वाद्योंके शब्द, वेदमन्त्र एवं मज़ल गीत आदिके शब्द-- ये सब यात्राके समय यदि देखने या सुननेमें आवें तो यात्रा करनेवाले लोगोंके सब कार्य सिद्ध करते"
+          "hindi": "दुन्दुभि, घण्टा तथा वीणा (बाँसुरी) आदि वाद्योंके शब्द, वेदमन्त्र एवं मज़ल गीत आदिके शब्द-- ये सब यात्राके समय यदि देखने या सुननेमें आवें तो यात्रा करनेवाले लोगोंके सब कार्य सिद्ध करते",
+          "translation": "Though delighting in the Self, the Lord Shuka, son of Parashara's son, studied that collection, ever dear to Vishnu's people.",
+          "translationSource": "ai"
         },
         {
           "number": 80,
           "sanskrit": "एवमेते समाख्याता मोक्षधर्मास्तवानध । पठतां शृण्वतां चापि हरिभक्तिविवर्द्धनाः",
           "transliteration": "evamete samākhyātā mokṣadharmāstavānadha / paṭhatāṃ śṛṇvatāṃ cāpi haribhaktivivarddhanāḥ",
-          "hindi": "( अपशकुन-परिहार-- ) यात्राके समय प्रथम बार अपशकुन हो तो खड़ा होकर इष्टदेवका स्मरण करके फिर चले। दूसरा अपशकुन हो तो ब्राह्मणोंकी पूजा (वस्त्र, द्रव्य आदिसे उनका सत्कार)"
+          "hindi": "( अपशकुन-परिहार-- ) यात्राके समय प्रथम बार अपशकुन हो तो खड़ा होकर इष्टदेवका स्मरण करके फिर चले। दूसरा अपशकुन हो तो ब्राह्मणोंकी पूजा (वस्त्र, द्रव्य आदिसे उनका सत्कार)",
+          "translation": "Thus these dharmas of liberation have been told to you, O sinless one; for those who read or hear them they increase devotion to Hari.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -50642,205 +50732,273 @@
           "number": 91,
           "sanskrit": "मायेयश्चैव पाशो ऽयं येनावृतमिदं जगत् । अशुद्धाध्वामतो ह्येष धरण्यादिकलावधिः",
           "transliteration": "māyeyaścaiva pāśo 'yaṃ yenāvṛtamidaṃ jagat / aśuddhādhvāmato hyeṣa dharaṇyādikalāvadhiḥ",
-          "hindi": "२-' प्राणत: प्रेयसी  राधिका श्रीपते: ॥'"
+          "hindi": "२-' प्राणत: प्रेयसी  राधिका श्रीपते: ॥'",
+          "translation": "This noose of maya, with which this world is covered, runs by the impure path, ending at the digits beginning with earth.",
+          "translationSource": "ai"
         },
         {
           "number": 92,
           "sanskrit": "तत्र भूमण्डलस्थो ऽसौ स्थावरो जङ्गमात्मकः । स्थावरा गिरिवृक्षाद्या जङ्गमस्त्रिविधः पुनः",
           "transliteration": "tatra bhūmaṇḍalastho 'sau sthāvaro jaṅgamātmakaḥ / sthāvarā girivṛkṣādyā jaṅgamastrividhaḥ punaḥ",
-          "hindi": "यह दूसरा उदाहरण मध्याका तृतीय भेद है। इसे 'मृगी' छन्द कहते हैं। इसके प्रत्येक चरणमें एक-एक रगण होता है।"
+          "hindi": "यह दूसरा उदाहरण मध्याका तृतीय भेद है। इसे 'मृगी' छन्द कहते हैं। इसके प्रत्येक चरणमें एक-एक रगण होता है।",
+          "translation": "There, standing on the circle of the earth, he is immovable or moving. The immovable are mountains, trees and the like; the moving are again threefold:",
+          "translationSource": "ai"
         },
         {
           "number": 93,
           "sanskrit": "स्वेदजाश्चाण्डजाश्चैव तथैव च जरायुजाः । चराचरेषु लक्षाणां चतुराशीतियोनयः",
           "transliteration": "svedajāścāṇḍajāścaiva tathaiva ca jarāyujāḥ / carācareṣu lakṣāṇāṃ caturāśītiyonayaḥ",
-          "hindi": "(४) चार-चार अक्षरोंके चार पादवाले छन्‍्द-समूहका नाम ' प्रतिष्ठा ' है। प्रस्तारसे इसके सोलह भेद होते हैं इसके प्रथम भेदका नाम 'कन्या” है। उदाहरण पढ़िये--"
+          "hindi": "(४) चार-चार अक्षरोंके चार पादवाले छन्‍्द-समूहका नाम ' प्रतिष्ठा ' है। प्रस्तारसे इसके सोलह भेद होते हैं इसके प्रथम भेदका नाम 'कन्या” है। उदाहरण पढ़िये--",
+          "translation": "born of sweat, born of eggs, and likewise born of the womb. Among the moving and unmoving there are eighty-four lakhs of wombs.",
+          "translationSource": "ai"
         },
         {
           "number": 94,
           "sanskrit": "भ्रममाणस्तेषु जीवः कदाचिन्मानुषं वपुः । प्राप्नोति कर्मवशतः परं सर्वार्थसाधकम्",
           "transliteration": "bhramamāṇasteṣu jīvaḥ kadācinmānuṣaṃ vapuḥ / prāpnoti karmavaśataḥ paraṃ sarvārthasādhakam",
-          "hindi": "भास्वत्कन्या सैका धन्या। यस्या: कूले कृष्णोडखेलत्॥"
+          "hindi": "भास्वत्कन्या सैका धन्या। यस्या: कूले कृष्णोडखेलत्॥",
+          "translation": "Wandering in them, the soul by the force of karma sometimes gets a human body, the best means to all aims.",
+          "translationSource": "ai"
         },
         {
           "number": 95,
           "sanskrit": "तत्रापि भारते खण्डे ब्राह्मणादिकुलेषु च । महापुण्यवशेनैव जनिर्भवति दुर्लभा",
           "transliteration": "tatrāpi bhārate khaṇḍe brāhmaṇādikuleṣu ca / mahāpuṇyavaśenaiva janirbhavati durlabhā",
-          "hindi": "(५) पाँच-पाँच अक्षरके चार पादवाले छन्दसमुदायका नाम 'सुप्रतिष्ठा' है। प्रस्तारसे इसके बत्तीस भेद होते हैं। इनमें सातवाँ भेद “पंक्ति! है, उसे यहाँ बतलाया जाता है। भगण तथा दो गुरु अक्षरोंसे पंक्ति छन्दकी सिद्धि होती है।"
+          "hindi": "(५) पाँच-पाँच अक्षरके चार पादवाले छन्दसमुदायका नाम 'सुप्रतिष्ठा' है। प्रस्तारसे इसके बत्तीस भेद होते हैं। इनमें सातवाँ भेद “पंक्ति! है, उसे यहाँ बतलाया जाता है। भगण तथा दो गुरु अक्षरोंसे पंक्ति छन्दकी सिद्धि होती है।",
+          "translation": "Even there, in the land of Bharata and in Brahmin and other families, birth comes only through great merit and is hard to get.",
+          "translationSource": "ai"
         },
         {
           "number": 96,
           "sanskrit": "जनिश्च पुंस्त्रियोर्योगः शुक्रशोणितयोगतः । बिन्दुरेकः प्रविशति यदा गर्भे द्वयात्मकः",
           "transliteration": "janiśca puṃstriyoryogaḥ śukraśoṇitayogataḥ / bindurekaḥ praviśati yadā garbhe dvayātmakaḥ",
-          "hindi": "(६) जिसके चारों चरणोंमें छ:-छ: अक्षर हों, उस छन्‍्द-समूहका नाम गायत्री है। प्रस्तारसे इसके चौंसठ भेद होते हैं। इसके प्रथम भेदका नाम विद्युल्लेखा, तेरहवें भेदका नाम तनुमध्या, सोलहवेंका नाम शशिवदना तथा उन्तीसवेंका नाम वसुमती है। यहाँ केवल इन्हीं चरणोंका उल्लेख किया जाता है। दो मगण (5 5 5 5 5 5) होनेसे विद्युल्लेखा, एक तगण (55 ) और एक यगण (। 5 5) होनेसे तनुमध्या, एक नगण (।॥। ) और एक यगण (। 5 5) होनेसे शशिवदना तथा एक तगण"
+          "hindi": "(६) जिसके चारों चरणोंमें छ:-छ: अक्षर हों, उस छन्‍्द-समूहका नाम गायत्री है। प्रस्तारसे इसके चौंसठ भेद होते हैं। इसके प्रथम भेदका नाम विद्युल्लेखा, तेरहवें भेदका नाम तनुमध्या, सोलहवेंका नाम शशिवदना तथा उन्तीसवेंका नाम वसुमती है। यहाँ केवल इन्हीं चरणोंका उल्लेख किया जाता है। दो मगण (5 5 5 5 5 5) होनेसे विद्युल्लेखा, एक तगण (55 ) और एक यगण (। 5 5) होनेसे तनुमध्या, एक नगण (।॥। ) और एक यगण (। 5 5) होनेसे शशिवदना तथा एक तगण",
+          "translation": "Birth is the union of man and woman, through the union of semen and blood; when a single drop enters the womb, two-natured,",
+          "translationSource": "ai"
         },
         {
           "number": 97,
           "sanskrit": "तदा रजो ऽधिके नारी भवेद्रेतो ऽधिके पुमान् । मलकर्मादिपाशेन कश्चिदात्मा नियन्त्रितः",
           "transliteration": "tadā rajo 'dhike nārī bhavedreto 'dhike pumān / malakarmādipāśena kaścidātmā niyantritaḥ",
-          "hindi": "(5 5 )) और एक सगण ( ।।) होनेसे वसुमती नामक छन्द बनता है। उदाहरण क्रमश: इस प्रकार हैं--"
+          "hindi": "(5 5 )) और एक सगण ( ।।) होनेसे वसुमती नामक छन्द बनता है। उदाहरण क्रमश: इस प्रकार हैं--",
+          "translation": "then with excess of blood it is a woman, with excess of semen a man. Some soul is bound by the noose of impurity, action and the like;",
+          "translationSource": "ai"
         },
         {
           "number": 98,
           "sanskrit": "जीवभावं तदा तस्मिन्सकलः प्रतिपद्यते । अथ तत्राहृतैर्मात्रा पानान्नाद्यैश्च पोषितः",
           "transliteration": "jīvabhāvaṃ tadā tasminsakalaḥ pratipadyate / atha tatrāhṛtairmātrā pānānnādyaiśca poṣitaḥ",
-          "hindi": "प्रीत्मा प्रतिवेलं नानाविधखेलम्। सेवे गततन्द्रं वृन्दावनचन्द्रमू॥"
+          "hindi": "प्रीत्मा प्रतिवेलं नानाविधखेलम्। सेवे गततन्द्रं वृन्दावनचन्द्रमू॥",
+          "translation": "then he entirely enters the state of a living being in it. Then nourished there by the food and drink brought by the mother,",
+          "translationSource": "ai"
         },
         {
           "number": 99,
           "sanskrit": "पक्षमासादिकालेन वर्धते वपुरत्र हि । दुःखाद्यः पीडितश्चैवाच्छन्नदेहो जरायुणा",
           "transliteration": "pakṣamāsādikālena vardhate vapuratra hi / duḥkhādyaḥ pīḍitaścaivācchannadeho jarāyuṇā",
-          "hindi": "(७) सात-सात अक्षरोंके चार पादवाले छन्दसमुदायको 'उष्णिक्' कहा गया है, प्रस्तारसे इसके एक सौ अट्टाईस भेद होते हैं। इनमेंसे पचीसवाँ भेद 'मदलेखा' और तीसवाँ भेद 'कुमारललिता' के नामसे प्रसिद्ध है। मगण, सगण तथा एक गुरु--इन सात अक्षरोंसे 'मदलेखा' तथा जगण, सगण और एक गुरुसे 'कुमारललिता' छन्‍्दकी सिद्धि होती है। प्रथमका उदाहरण यों है--"
+          "hindi": "(७) सात-सात अक्षरोंके चार पादवाले छन्दसमुदायको 'उष्णिक्' कहा गया है, प्रस्तारसे इसके एक सौ अट्टाईस भेद होते हैं। इनमेंसे पचीसवाँ भेद 'मदलेखा' और तीसवाँ भेद 'कुमारललिता' के नामसे प्रसिद्ध है। मगण, सगण तथा एक गुरु--इन सात अक्षरोंसे 'मदलेखा' तथा जगण, सगण और एक गुरुसे 'कुमारललिता' छन्‍्दकी सिद्धि होती है। प्रथमका उदाहरण यों है--",
+          "translation": "the body grows there in fortnights and months. Pressed by sorrow and the like, the body covered by the membrane,",
+          "translationSource": "ai"
         },
         {
           "number": 100,
           "sanskrit": "एवं तत्र स्थितो गर्भे प्राग्जन्मोत्थं शुभाशुभम् । स्मरंस्तिष्टति दुःखात्मापीड्यमानो मुहुर्मुहुः",
           "transliteration": "evaṃ tatra sthito garbhe prāgjanmotthaṃ śubhāśubham / smaraṃstiṣṭati duḥkhātmāpīḍyamāno muhurmuhuḥ",
-          "hindi": "(८) आठ अक्षरवाले चार पदोंसे जो छन्द बनते हैं, उनकी जातिवाचक संज्ञा ' अनुष्टुप्' है। प्रस्तारसे अनुष्टप्के दो सौ छप्पन भेद होते हैं । इसके विद्युन्माला, माणवकाक्रौड, चित्रपदा, हंसरुत, प्रमाणिका या नगस्वरूपिणी, समानिका, श्लोक तथा वितान आदि अनेक भेद-प्रभेद हैं। श्लोक-छन्दके प्रत्येक चरणमें छठा अक्षर गुरु और पाँचवाँ लघु होता है। प्रथम और तृतीय चरणोंमें सातवाँ अक्षर दीर्घ होता है तथा द्वितीय तथा चतुर्थ चरणोंमें वह हस्व हुआ करता है। शेष अक्षरोंका विशेष नियम न"
+          "hindi": "(८) आठ अक्षरवाले चार पदोंसे जो छन्द बनते हैं, उनकी जातिवाचक संज्ञा ' अनुष्टुप्' है। प्रस्तारसे अनुष्टप्के दो सौ छप्पन भेद होते हैं । इसके विद्युन्माला, माणवकाक्रौड, चित्रपदा, हंसरुत, प्रमाणिका या नगस्वरूपिणी, समानिका, श्लोक तथा वितान आदि अनेक भेद-प्रभेद हैं। श्लोक-छन्दके प्रत्येक चरणमें छठा अक्षर गुरु और पाँचवाँ लघु होता है। प्रथम और तृतीय चरणोंमें सातवाँ अक्षर दीर्घ होता है तथा द्वितीय तथा चतुर्थ चरणोंमें वह हस्व हुआ करता है। शेष अक्षरोंका विशेष नियम न",
+          "translation": "thus staying in the womb, he remembers the good and evil born of his earlier life, miserable, pressed again and again.",
+          "translationSource": "ai"
         },
         {
           "number": 101,
           "sanskrit": "कालक्रमेण बालो ऽसौ मातरं पीडयन्नपि । संपीडितो निःसरति योनियन्त्रादवाङ्मुखः",
           "transliteration": "kālakrameṇa bālo 'sau mātaraṃ pīḍayannapi / saṃpīḍito niḥsarati yoniyantrādavāṅmukhaḥ",
-          "hindi": "होनेसे इस श्लोक-छन्दके भी बहुत-से अवान्तर भेद हो जाते हैं । उपर्युक्त छन्दोंमें विद्युन्माला अनुष्टुप्का प्रथम भेद है; क्योंकि उसमें सभी अक्षर गुरु होते हैं । इसमें चार-चार अक्षरोंपर विराम होता है  प्रमाणिका या नगस्वरूपिणी छियासीवाँ भेद है। इसमें जगण, रगण १ लघु तथा १ गुरु होते हैं। प्रमाणिका और समानिकाके सिवा अनुष्टुपके जितने भेद हैं, वे सब वितानके अन्तर्गत माने जाते हैं। यहाँ विद्युन्माला, नगस्वरूपिणी, श्लोक (अनुष्टुपू) तथा माणवकाक्रीडका एक-एक उदाहरण दिया जाता है-"
+          "hindi": "होनेसे इस श्लोक-छन्दके भी बहुत-से अवान्तर भेद हो जाते हैं । उपर्युक्त छन्दोंमें विद्युन्माला अनुष्टुप्का प्रथम भेद है; क्योंकि उसमें सभी अक्षर गुरु होते हैं । इसमें चार-चार अक्षरोंपर विराम होता है  प्रमाणिका या नगस्वरूपिणी छियासीवाँ भेद है। इसमें जगण, रगण १ लघु तथा १ गुरु होते हैं। प्रमाणिका और समानिकाके सिवा अनुष्टुपके जितने भेद हैं, वे सब वितानके अन्तर्गत माने जाते हैं। यहाँ विद्युन्माला, नगस्वरूपिणी, श्लोक (अनुष्टुपू) तथा माणवकाक्रीडका एक-एक उदाहरण दिया जाता है-",
+          "translation": "In the course of time the child, even while pressing his mother, himself pressed, comes out of the womb-machine head downward.",
+          "translationSource": "ai"
         },
         {
           "number": 102,
           "sanskrit": "क्षणं तिष्टति निश्चेष्टस्ततो रोदितुमिच्छति । ततः क्रमेण स शिशुर्वर्धमानो दिनेदिने",
           "transliteration": "kṣaṇaṃ tiṣṭati niśceṣṭastato roditumicchati / tataḥ krameṇa sa śiśurvardhamāno dinedine",
-          "hindi": "विद्युन्मालालोलान भोगान् मुक्त्वा मुक्तो यत्न॑ कुर्यात्। ध्यानोत्पन्नं नि:सामान्यं सौख्यं भोक्तुं यद्याकाडक्षेत् ॥"
+          "hindi": "विद्युन्मालालोलान भोगान् मुक्त्वा मुक्तो यत्न॑ कुर्यात्। ध्यानोत्पन्नं नि:सामान्यं सौख्यं भोक्तुं यद्याकाडक्षेत् ॥",
+          "translation": "He lies motionless a moment, then wishes to cry. Then gradually the infant grows day by day,",
+          "translationSource": "ai"
         },
         {
           "number": 103,
           "sanskrit": "बालपौगण्डभेदेन युवत्वं प्रतिपद्यते । एवं क्रमेण लोके ऽस्मिन्देहिनां देहसंभवः",
           "transliteration": "bālapaugaṇḍabhedena yuvatvaṃ pratipadyate / evaṃ krameṇa loke 'smindehināṃ dehasaṃbhavaḥ",
-          "hindi": "शिवताण्डवस्तोत्र 'नगस्वरूपिणी ' छन्दमें ही लिखा गया है। उसके एक-एक पद्यमें दो-दो नगस्वरूपिणी छन्‍्द आ गये हैं। कुछ लोग उस संयुक्तछन्दको 'पञ्चचामर' आदि नाम देते हैं। इसमें ज. र. ज. र. ज. और १ गुरु होते हैं। उदाहरण यह है--"
+          "hindi": "शिवताण्डवस्तोत्र 'नगस्वरूपिणी ' छन्दमें ही लिखा गया है। उसके एक-एक पद्यमें दो-दो नगस्वरूपिणी छन्‍्द आ गये हैं। कुछ लोग उस संयुक्तछन्दको 'पञ्चचामर' आदि नाम देते हैं। इसमें ज. र. ज. र. ज. और १ गुरु होते हैं। उदाहरण यह है--",
+          "translation": "and by stages of infancy and boyhood reaches youth. Thus in order in this world the embodied have the arising of the body.",
+          "translationSource": "ai"
         },
         {
           "number": 104,
           "sanskrit": "मानुषं दुर्लभं प्राप्य सर्वलोकोपकारकम् । यस्तारयति नात्मानं तस्मात्पापतरो ऽत्र कः",
           "transliteration": "mānuṣaṃ durlabhaṃ prāpya sarvalokopakārakam / yastārayati nātmānaṃ tasmātpāpataro 'tra kaḥ",
-          "hindi": "धगद्धगद्धगज्ज्वलल्ललाटपट्टपावके किशोरचन्द्रशेखरे रति: प्रतिक्षणं मम ॥"
+          "hindi": "धगद्धगद्धगज्ज्वलल्ललाटपट्टपावके किशोरचन्द्रशेखरे रति: प्रतिक्षणं मम ॥",
+          "translation": "Having obtained a human birth, hard to get and useful to all worlds, who is more sinful here than he who does not save himself?",
+          "translationSource": "ai"
         },
         {
           "number": 105,
           "sanskrit": "आहारश्चैव निद्रा च भयं मैथुनमेव च । पश्वादीनां च सर्वेषां च सर्वेषां साधारणमितीरितम्",
           "transliteration": "āhāraścaiva nidrā ca bhayaṃ maithunameva ca / paśvādīnāṃ ca sarveṣāṃ ca sarveṣāṃ sādhāraṇamitīritam",
-          "hindi": "यत: प्रवृत्तिर्भूतानां येन सर्वमिदं ततम्। स्वकर्मणा तमभ्यर्च्य सिद्धिं विन्दति मानव: ॥"
+          "hindi": "यत: प्रवृत्तिर्भूतानां येन सर्वमिदं ततम्। स्वकर्मणा तमभ्यर्च्य सिद्धिं विन्दति मानव: ॥",
+          "translation": "Food, sleep, fear and sexual union are said to be common to animals and all.",
+          "translationSource": "ai"
         },
         {
           "number": 106,
           "sanskrit": "चतुर्ष्वेवानुरक्तो यः स मूर्खो ह्यात्मधातकः । मनुष्याणामयं धर्मः रवबन्धच्छेदनात्मकः",
           "transliteration": "caturṣvevānurakto yaḥ sa mūrkho hyātmadhātakaḥ / manuṣyāṇāmayaṃ dharmaḥ ravabandhacchedanātmakaḥ",
-          "hindi": "माणवकाक्रौडमें भगण, तगण, एक लघु और एक गुरु होते हैं।"
+          "hindi": "माणवकाक्रौडमें भगण, तगण, एक लघु और एक गुरु होते हैं।",
+          "translation": "One who is attached to these four only is a fool, a killer of himself. The dharma of men consists in cutting the bonds.",
+          "translationSource": "ai"
         },
         {
           "number": 107,
           "sanskrit": "पाशबन्धनविच्छेदो दीक्षयैव प्रजायते । अतो बन्धनविच्छित्त्यै मन्त्रदीक्षां समाचरेत्",
           "transliteration": "pāśabandhanavicchedo dīkṣayaiva prajāyate / ato bandhanavicchittyai mantradīkṣāṃ samācaret",
-          "hindi": "आदिगतं तुर्यगतं पञ्चमकं चान्त्यगतम्  स्याद् गुरु चेत् तत् कथितं माणवकाक्रीडमिदम्॥"
+          "hindi": "आदिगतं तुर्यगतं पञ्चमकं चान्त्यगतम्  स्याद् गुरु चेत् तत् कथितं माणवकाक्रीडमिदम्॥",
+          "translation": "The cutting of the bonds of the noose arises through initiation (diksha) alone; therefore, to cut the bonds, one should receive mantra-initiation.",
+          "translationSource": "ai"
         },
         {
           "number": 108,
           "sanskrit": "दीक्षाज्ञानाख्यया शक्त्या ह्यपध्वंसितबन्धनः । शुद्धात्मतत्त्वनामासौ निर्वाणपदमश्नुते",
           "transliteration": "dīkṣājñānākhyayā śaktyā hyapadhvaṃsitabandhanaḥ / śuddhātmatattvanāmāsau nirvāṇapadamaśnute",
-          "hindi": "(९) नौ-नौ अक्षरोंके चार चरणोंसे सिद्ध होनेवाले छन्दसमूहका नाम 'बृहती' है। प्रस्तारसे इसके पाँच सौ बारह भेद होते हैं। इसके 'हलमुखी ' (१ रगण १ नगण १ सगण) तथा 'भुजड्भशिशुभृता' (२ नगण १ भगण) भेद यहाँ बतलाये जाते हैं। इनमें एक तो २५१ वाँ भेद है और दूसरा ६४ वाँ। उदाहरण क्रमश: यों हैं--"
+          "hindi": "(९) नौ-नौ अक्षरोंके चार चरणोंसे सिद्ध होनेवाले छन्दसमूहका नाम 'बृहती' है। प्रस्तारसे इसके पाँच सौ बारह भेद होते हैं। इसके 'हलमुखी ' (१ रगण १ नगण १ सगण) तथा 'भुजड्भशिशुभृता' (२ नगण १ भगण) भेद यहाँ बतलाये जाते हैं। इनमें एक तो २५१ वाँ भेद है और दूसरा ६४ वाँ। उदाहरण क्रमश: यों हैं--",
+          "translation": "With bonds destroyed by the power called knowledge in initiation, the pure Self, called the principle, attains the state of nirvana.",
+          "translationSource": "ai"
         },
         {
           "number": 109,
           "sanskrit": "स्वशक्त्यात्मिकया दृष्ट्या शिवं ध्यायति पश्यति । यजते शिवं मन्त्रैश्च रवपरेषां हिताय सः",
           "transliteration": "svaśaktyātmikayā dṛṣṭyā śivaṃ dhyāyati paśyati / yajate śivaṃ mantraiśca ravapareṣāṃ hitāya saḥ",
-          "hindi": "(१०) दस अक्षरके पादवाले छन्द-समुदायको 'पदूक्ति' कहते हैं । प्रस्तारसे इसके १०२४ भेद होते हैं। इसके शुद्धविराट् पणव, रुक्‍्मवती, मयूरसारिणी, मत्ता, मनोरमा, हंसी, उपस्थिता तथा चम्पकमाला आदि अनेक अवान्तर भेद हैं। शुद्धविराद् पड्क्तिका ३४५ वाँ भेद है। यहाँ शुद्धविराट् (मगण, सगण, जगण, १ गुरु) तथा चम्पकमालाके उदाहरण दिये जाते हैं--"
+          "hindi": "(१०) दस अक्षरके पादवाले छन्द-समुदायको 'पदूक्ति' कहते हैं । प्रस्तारसे इसके १०२४ भेद होते हैं। इसके शुद्धविराट् पणव, रुक्‍्मवती, मयूरसारिणी, मत्ता, मनोरमा, हंसी, उपस्थिता तथा चम्पकमाला आदि अनेक अवान्तर भेद हैं। शुद्धविराद् पड्क्तिका ३४५ वाँ भेद है। यहाँ शुद्धविराट् (मगण, सगण, जगण, १ गुरु) तथा चम्पकमालाके उदाहरण दिये जाते हैं--",
+          "translation": "By the vision of his own power, he meditates on and sees Shiva, and worships Shiva with mantras for the good of others.",
+          "translationSource": "ai"
         },
         {
           "number": 110,
           "sanskrit": "शिवार्कशक्तिदीधित्या समर्थीकृतचिदृशा । शिवशक्त्यादिभिः सार्द्धं पश्यत्यात्मगतावृत्तिः",
           "transliteration": "śivārkaśaktidīdhityā samarthīkṛtacidṛśā / śivaśaktyādibhiḥ sārddhaṃ paśyatyātmagatāvṛttiḥ",
-          "hindi": "विश्व तिष्ठति कुक्षिकोटरे वकत्रे यस्य सरस्वती सदा।"
+          "hindi": "विश्व तिष्ठति कुक्षिकोटरे वकत्रे यस्य सरस्वती सदा।",
+          "translation": "By the radiance of Shiva's sun-power, with the eye of consciousness made capable, he sees with Shiva's power and others, his activity turned toward the Self.",
+          "translationSource": "ai"
         },
         {
           "number": 111,
           "sanskrit": "अन्तःकरणवृत्तिर्या बोधाख्या सा महेश्वरम् । न प्रकाशयितुं शक्ता पाशत्वान्निगडादिवत्",
           "transliteration": "antaḥkaraṇavṛttiryā bodhākhyā sā maheśvaram / na prakāśayituṃ śaktā pāśatvānnigaḍādivat",
-          "hindi": "“चम्पकमाला ' के प्रत्येक पादमें भगण, मगण, सगण और एक गुरु होते हैं तथा पाँच-पाँच अक्षरोंपर विराम होता है। प्रत्येक चरणमें इसके अन्तिम अक्षरको कम कर देनेसे 'मणिबन्ध' छन्द हो जाता है।"
+          "hindi": "“चम्पकमाला ' के प्रत्येक पादमें भगण, मगण, सगण और एक गुरु होते हैं तथा पाँच-पाँच अक्षरोंपर विराम होता है। प्रत्येक चरणमें इसके अन्तिम अक्षरको कम कर देनेसे 'मणिबन्ध' छन्द हो जाता है।",
+          "translation": "The mental function of the inner organ called understanding is not able to reveal Maheshvara, because of being a noose, like a chain and the like.",
+          "translationSource": "ai"
         },
         {
           "number": 112,
           "sanskrit": "दीक्षैव परमो हेतुः पाशविच्छेदने पुनः । अतः शास्त्रोक्तविधिना मत्रदीक्षां समाचरेत्",
           "transliteration": "dīkṣaiva paramo hetuḥ pāśavicchedane punaḥ / ataḥ śāstroktavidhinā matradīkṣāṃ samācaret",
-          "hindi": "(११) ग्यारह-ग्यारह अक्षरके चार चरणोंसे जिस छन्‍्दसमुदायकी सिद्धि होती है, उसका नाम त्रिष्टुप् है। प्रस्तारसे इसके २०४८ भेद होते हैं। त्रिष्युपके ही अनेक अवान्तर भेद इन्द्रवज़ा, उपेन्द्रवज्रा, उपजाति, दोधक, शालिनी, रथोद्धता और स्वागता आदि नामोंसे प्रसिद्ध हैं। ये त्रिष्ुपके किस संख्यावाले भेद हैं ? इसका ज्ञान मूलोक्त रीतिसे कर लेना चाहिए। यहाँ उक्त सात छन्‍न्दोंके लक्षण और उदाहरण क्रमश: प्रस्तुत किये जाते हैं; क्योंकि प्राचीन और अर्वाचीन ग्रन्थोंमें इनके प्रयोग अधिक मिलते हैं।"
+          "hindi": "(११) ग्यारह-ग्यारह अक्षरके चार चरणोंसे जिस छन्‍्दसमुदायकी सिद्धि होती है, उसका नाम त्रिष्टुप् है। प्रस्तारसे इसके २०४८ भेद होते हैं। त्रिष्युपके ही अनेक अवान्तर भेद इन्द्रवज़ा, उपेन्द्रवज्रा, उपजाति, दोधक, शालिनी, रथोद्धता और स्वागता आदि नामोंसे प्रसिद्ध हैं। ये त्रिष्ुपके किस संख्यावाले भेद हैं ? इसका ज्ञान मूलोक्त रीतिसे कर लेना चाहिए। यहाँ उक्त सात छन्‍न्दोंके लक्षण और उदाहरण क्रमश: प्रस्तुत किये जाते हैं; क्योंकि प्राचीन और अर्वाचीन ग्रन्थोंमें इनके प्रयोग अधिक मिलते हैं।",
+          "translation": "Initiation alone is the supreme cause in cutting the noose; therefore by the rule stated in the scripture he should take mantra-initiation.",
+          "translationSource": "ai"
         },
         {
           "number": 113,
           "sanskrit": "दीक्षितस्तन्त्रविधिना स्ववर्णाचारतत्परः । अनुष्टानं प्रकुर्वीत नित्यनमित्तिकात्मकम्",
           "transliteration": "dīkṣitastantravidhinā svavarṇācāratatparaḥ / anuṣṭānaṃ prakurvīta nityanamittikātmakam",
-          "hindi": "(१) “इन्द्रवज़ा छन्‍्द'-- (में २ तगण, १ जगण और २ गुरु होते है--)"
+          "hindi": "(१) “इन्द्रवज़ा छन्‍्द'-- (में २ तगण, १ जगण और २ गुरु होते है--)",
+          "translation": "Having been initiated by the tantra's rule, devoted to the conduct of his own class, he should perform the practice, daily and occasional.",
+          "translationSource": "ai"
         },
         {
           "number": 114,
           "sanskrit": "निजवर्णाश्रमाचारान्मनसापि न लङ्घयेत् । यो यस्मिन्नाश्रमे तिष्टन्दीक्षां प्राप्नोति मानवः",
           "transliteration": "nijavarṇāśramācārānmanasāpi na laṅghayet / yo yasminnāśrame tiṣṭandīkṣāṃ prāpnoti mānavaḥ",
-          "hindi": "निर्मामोहा जितसड्भदोषा अध्यात्मनित्या विनिवृत्तकामा:  इन्द्रैर्विमुक्ता: सुखदुः:खसंसेर्गच्छन्त्यमूढा: 'पदमव्ययं ततू॥"
+          "hindi": "निर्मामोहा जितसड्भदोषा अध्यात्मनित्या विनिवृत्तकामा:  इन्द्रैर्विमुक्ता: सुखदुः:खसंसेर्गच्छन्त्यमूढा: 'पदमव्ययं ततू॥",
+          "translation": "He should not transgress, even in mind, the conduct of his own class and stage of life. The man who receives initiation while in a stage of life",
+          "translationSource": "ai"
         },
         {
           "number": 115,
           "sanskrit": "स तस्मिन्नाश्रमे तिष्ठेत्तद्धर्माननुपालयेत् । कृतान्यपि न कर्माणि बन्धनाय भवन्ति हि",
           "transliteration": "sa tasminnāśrame tiṣṭhettaddharmānanupālayet / kṛtānyapi na karmāṇi bandhanāya bhavanti hi",
-          "hindi": "(२) 'उपेन्द्रवज़ा '-- (-में १ जगण, १ तगण, १ जगण और दो गुरु होते है।) इन्द्रवज़ाके प्रत्येक चरणका पहला अक्षर हस्व हो जाय तो उपेन्द्रवज्रञा-छन्द बन जाता है।"
+          "hindi": "(२) 'उपेन्द्रवज़ा '-- (-में १ जगण, १ तगण, १ जगण और दो गुरु होते है।) इन्द्रवज़ाके प्रत्येक चरणका पहला अक्षर हस्व हो जाय तो उपेन्द्रवज्रञा-छन्द बन जाता है।",
+          "translation": "should remain in that stage and uphold its dharmas. Even actions done do not become bonds.",
+          "translationSource": "ai"
         },
         {
           "number": 116,
           "sanskrit": "एकं तु फलदं कर्म मन्त्रानुष्ठानसंभवम् । दीक्षितो ऽभिलषेद्भोगान्यद्यल्लोकगतानसौ",
           "transliteration": "ekaṃ tu phaladaṃ karma mantrānuṣṭhānasaṃbhavam / dīkṣito 'bhilaṣedbhogānyadyallokagatānasau",
-          "hindi": "त्वमेव विद्या द्रविणं त्वमेव त्वमेव सर्व मम देवदेव॥"
+          "hindi": "त्वमेव विद्या द्रविणं त्वमेव त्वमेव सर्व मम देवदेव॥",
+          "translation": "One karma, arising from the practice of the mantra, gives fruit; if the initiate desires enjoyments of whatever worlds,",
+          "translationSource": "ai"
         },
         {
           "number": 117,
           "sanskrit": "मन्त्राराधनसामर्थ्यात्तद्भुक्त्वा मोक्षमश्नुते । नित्यं नैमित्तिकं दीक्षां प्राप्य यो नाचरेन्नरः",
           "transliteration": "mantrārādhanasāmarthyāttadbhuktvā mokṣamaśnute / nityaṃ naimittikaṃ dīkṣāṃ prāpya yo nācarennaraḥ",
-          "hindi": "(३) इन्द्रवज़ा और उपेन्द्रवज़ा--दोनोंके मेलसे जो छन्‍्द बनता है, उसका नाम 'उपजाति' है। उपजातिमें कोई चरण या पाद इन्द्रवज़ाका होता है, तो कोई उपेन्द्रवज़ाका । प्रस्तारवश उपजातिके चौदह भेद होते हैं।उन भेदोंके नाम इस प्रकार हैं--कीर्ति, वाणी, माला, शाला, हंसी, माया, जाया, बाला, आर्द्रा, भद्रा, प्रेमा, रामा, ऋद्धि तथा बुद्धि । इनका स्वरूप निम्नाद्धित चक्रमें देखिये--"
+          "hindi": "(३) इन्द्रवज़ा और उपेन्द्रवज़ा--दोनोंके मेलसे जो छन्‍्द बनता है, उसका नाम 'उपजाति' है। उपजातिमें कोई चरण या पाद इन्द्रवज़ाका होता है, तो कोई उपेन्द्रवज़ाका । प्रस्तारवश उपजातिके चौदह भेद होते हैं।उन भेदोंके नाम इस प्रकार हैं--कीर्ति, वाणी, माला, शाला, हंसी, माया, जाया, बाला, आर्द्रा, भद्रा, प्रेमा, रामा, ऋद्धि तथा बुद्धि । इनका स्वरूप निम्नाद्धित चक्रमें देखिये--",
+          "translation": "by the power of worshipping the mantra, having enjoyed them he attains liberation. The man who, having received initiation, does not perform daily and occasional rites",
+          "translationSource": "ai"
         },
         {
           "number": 118,
           "sanskrit": "कञ्चित्कालं पिशाचत्वं प्राप्यान्ते मोक्षमश्नुते । तस्मात्तु दीक्षितः कुर्य्यान्नित्यनैमित्तिकादिकम्",
           "transliteration": "kañcitkālaṃ piśācatvaṃ prāpyānte mokṣamaśnute / tasmāttu dīkṣitaḥ kuryyānnityanaimittikādikam",
-          "hindi": "तस्मात्प्रणम्य प्रणिधाय काय॑"
+          "hindi": "तस्मात्प्रणम्य प्रणिधाय काय॑",
+          "translation": "becomes a ghoul for some time and at the end attains liberation. Therefore the initiate should perform daily and occasional rites and the like,",
+          "translationSource": "ai"
         },
         {
           "number": 119,
           "sanskrit": "अनुष्ठानं च तेनास्य दीक्षां प्राप्यानुमीयते । नित्यनैमित्तिकाचार पालकस्य नरस्य तु",
           "transliteration": "anuṣṭhānaṃ ca tenāsya dīkṣāṃ prāpyānumīyate / nityanaimittikācāra pālakasya narasya tu",
-          "hindi": "प्रिय: प्रियायाहसि देव सोढुम्॥"
+          "hindi": "प्रिय: प्रियायाहसि देव सोढुम्॥",
+          "translation": "and by his practice it is inferred that he has received initiation. For the man who observes daily and occasional conduct,",
+          "translationSource": "ai"
         },
         {
           "number": 120,
           "sanskrit": "दीक्षावैकल्यविरहात्सद्यो मुक्तिस्तु जायते । तत्रापि गुरुभक्तस्य गतिर्भवति नान्यथा",
           "transliteration": "dīkṣāvaikalyavirahātsadyo muktistu jāyate / tatrāpi gurubhaktasya gatirbhavati nānyathā",
-          "hindi": "पूर्वोक्त चक्रके अनुसार यह 'उपजाति'” का बुद्धि नामक भेद है। इसीको विपरीतपूर्वा और आख्यानकी भी कहते हैं। इसमें पहला चरण इन्द्रवज़्ाका और शेष तीन चरण उपेन्द्रवज़ाके हैं। जहाँ आदिसे तीन इन्द्रवज़ाके और शेष (चौथा) उपेन्द्रवज्ाका"
+          "hindi": "पूर्वोक्त चक्रके अनुसार यह 'उपजाति'” का बुद्धि नामक भेद है। इसीको विपरीतपूर्वा और आख्यानकी भी कहते हैं। इसमें पहला चरण इन्द्रवज़्ाका और शेष तीन चरण उपेन्द्रवज़ाके हैं। जहाँ आदिसे तीन इन्द्रवज़ाके और शेष (चौथा) उपेन्द्रवज्ाका",
+          "translation": "liberation arises at once, from absence of any deficiency in initiation. Even there, for the one devoted to the teacher, the goal is attained, not otherwise.",
+          "translationSource": "ai"
         },
         {
           "number": 121,
           "sanskrit": "दीक्षया गुरुमूर्तिस्थः सर्वानुग्राहकः शिवः । दृष्टाद्यर्थतया यस्य गुरुभक्तिस्तु कृत्रिमा",
           "transliteration": "dīkṣayā gurumūrtisthaḥ sarvānugrāhakaḥ śivaḥ / dṛṣṭādyarthatayā yasya gurubhaktistu kṛtrimā",
-          "hindi": "चरण हो, वहाँ 'बाला' नामक उपजाति होती है।"
+          "hindi": "चरण हो, वहाँ 'बाला' नामक उपजाति होती है।",
+          "translation": "Through initiation, Shiva, benefactor of all, abides in the teacher's form. For one whose devotion to the teacher is feigned for visible ends,",
+          "translationSource": "ai"
         },
         {
           "number": 122,
           "sanskrit": "कृते ऽपि विफलं तस्य प्रायश्चित्तं पदे पदे । कायेन मनसा वाचा गुरुभक्तिपरस्य च",
           "transliteration": "kṛte 'pi viphalaṃ tasya prāyaścittaṃ pade pade / kāyena manasā vācā gurubhaktiparasya ca",
-          "hindi": "परोपकाराभरणं शरीरम्॥ (४) 'दोधकवृत्त' (-में तीन भगण और दो गुरु होते हैं--)"
+          "hindi": "परोपकाराभरणं शरीरम्॥ (४) 'दोधकवृत्त' (-में तीन भगण और दो गुरु होते हैं--)",
+          "translation": "even done it is fruitless; expiation at every step. For one devoted to the teacher in body, mind and speech,",
+          "translationSource": "ai"
         },
         {
           "number": 123,
           "sanskrit": "प्रायश्चित्तं भवेन्नैव सिद्धिस्तस्य पदे पदे । गुरुभक्तियुते शिष्ये सर्वस्वविनिवेदके",
           "transliteration": "prāyaścittaṃ bhavennaiva siddhistasya pade pade / gurubhaktiyute śiṣye sarvasvavinivedake",
-          "hindi": "डे “शालिनी “-- (-में मगण, तगण, तगण और दो गुरु होते"
+          "hindi": "डे “शालिनी “-- (-में मगण, तगण, तगण और दो गुरु होते",
+          "translation": "there is no expiation needed; success at every step. For the disciple endowed with devotion to the teacher, who offers everything,",
+          "translationSource": "ai"
         },
         {
           "number": 124,
           "sanskrit": "मिथ्याप्रयुक्तमन्त्रस्तु प्रायाश्चित्ती भवेद्गुरुः",
           "transliteration": "mithyāprayuktamantrastu prāyāścittī bhavedguruḥ",
-          "hindi": "रूप॑ यत्तत् प्राहुरव्यक्तमाधं ब्रह्मज्योतिर्निरगुणं निर्विकारम्।"
+          "hindi": "रूप॑ यत्तत् प्राहुरव्यक्तमाधं ब्रह्मज्योतिर्निरगुणं निर्विकारम्।",
+          "translation": "if a mantra has been wrongly applied, the teacher would be the one to do the expiation.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -51121,229 +51279,305 @@
           "number": 33,
           "sanskrit": "दार्णो यस्य मनोर्मध्ये मूर्ध्नि क्रोधयुगं तथा । अस्रं चास्ति स मन्त्रस्तु तिरस्कृत उदीरितः",
           "transliteration": "dārṇo yasya manormadhye mūrdhni krodhayugaṃ tathā / asraṃ cāsti sa mantrastu tiraskṛta udīritaḥ",
-          "hindi": "“मालिनी -- (-में २ नगण, १ मगण और २ भगण होते हैं। इसमें सात और आठ अक्षरोंपर विराम होता है--)"
+          "hindi": "“मालिनी -- (-में २ नगण, १ मगण और २ भगण होते हैं। इसमें सात और आठ अक्षरोंपर विराम होता है--)",
+          "translation": "A mantra in whose middle is the syllable \"dar\" with the pair \"krodha\" on the head and \"astra\" is said to be insulted (tiraskrita).",
+          "translationSource": "ai"
         },
         {
           "number": 34,
           "sanskrit": "म्योद्वयं हृदयं शीर्षे वषड्वौषट्कमध्यमः । यस्य स्याद्भेदितो मन्त्रस्त्याज्यः क्लिष्टफलप्रदः",
           "transliteration": "myodvayaṃ hṛdayaṃ śīrṣe vaṣaḍvauṣaṭkamadhyamaḥ / yasya syādbhedito mantrastyājyaḥ kliṣṭaphalapradaḥ",
-          "hindi": "लिखति यदि गृहीत्वा शारदा सर्वकालं तदपि तव गुणानामीश पारं न याति॥"
+          "hindi": "लिखति यदि गृहीत्वा शारदा सर्वकालं तदपि तव गुणानामीश पारं न याति॥",
+          "translation": "A mantra with the two \"myo\", the heart, the head, \"vashat\", \"vaushat\" in the middle, if split, is to be abandoned, giving painful fruit.",
+          "translationSource": "ai"
         },
         {
           "number": 35,
           "sanskrit": "त्र्यक्षरो हंसहीनो यः सुषुप्तः कीर्तितस्तु सः । विद्या वाप्यथवा मन्त्रो भवेत्सप्तदशाक्षरः",
           "transliteration": "tryakṣaro haṃsahīno yaḥ suṣuptaḥ kīrtitastu saḥ / vidyā vāpyathavā mantro bhavetsaptadaśākṣaraḥ",
-          "hindi": "(१६) सोलह-सोलह अक्षरोंके चार चरणोंसे सिद्ध होनेवाले छन्द-समुदायका नाम 'अष्टट' है। प्रस्तारसे इसके भेदोंको संख्या ६५५३६ होती है। इसके भेदोंमें दोके लक्षण और उदाहरण यहाँ दिये जाते हैं। एकका नाम है ऋषभगजविलासित और दूसरेका नाम है वाणिनी  ऋषभगजविलसितमें भगण, रगण, तीन नगण तथा एक गुरु होते हैं । सात, नौ अक्षरोंपर विराम होता है।"
+          "hindi": "(१६) सोलह-सोलह अक्षरोंके चार चरणोंसे सिद्ध होनेवाले छन्द-समुदायका नाम 'अष्टट' है। प्रस्तारसे इसके भेदोंको संख्या ६५५३६ होती है। इसके भेदोंमें दोके लक्षण और उदाहरण यहाँ दिये जाते हैं। एकका नाम है ऋषभगजविलासित और दूसरेका नाम है वाणिनी  ऋषभगजविलसितमें भगण, रगण, तीन नगण तथा एक गुरु होते हैं । सात, नौ अक्षरोंपर विराम होता है।",
+          "translation": "One with three syllables lacking \"ham\" is called \"asleep\" (supta); and if a vidya or mantra has seventeen syllables...",
+          "translationSource": "ai"
         },
         {
           "number": 36,
           "sanskrit": "षट्कारपञ्चकादिर्यो मदोन्मत्तस्तु स स्मृतः । यस्य मध्ये स्थितं चास्रं स मन्त्रो मूर्च्छितः स्मृतः",
           "transliteration": "ṣaṭkārapañcakādiryo madonmattastu sa smṛtaḥ / yasya madhye sthitaṃ cāsraṃ sa mantro mūrcchitaḥ smṛtaḥ",
-          "hindi": "यो हरिरुच्खखान खरतरनखशिखरैर्दुर्जयहैत्यसिंहसुविकटहदयतटम् ।"
+          "hindi": "यो हरिरुच्खखान खरतरनखशिखरैर्दुर्जयहैत्यसिंहसुविकटहदयतटम् ।",
+          "translation": "One beginning with five or six \"kara\" is called mad with intoxication; one with an \"astra\" in the middle is called fainted (murchchhita).",
+          "translationSource": "ai"
         },
         {
           "number": 37,
           "sanskrit": "विरामस्थानगं चास्रं हतवीर्यः स उच्यते । मन्त्रस्यादौ च मध्ये च मूर्ध्नि चास्रचतुष्टयम्",
           "transliteration": "virāmasthānagaṃ cāsraṃ hatavīryaḥ sa ucyate / mantrasyādau ca madhye ca mūrdhni cāsracatuṣṭayam",
-          "hindi": "वाणिनी '-- (में नगण, जगण, भगण, जगण, रगण तथा १ गुरु होते हैं--)"
+          "hindi": "वाणिनी '-- (में नगण, जगण, भगण, जगण, रगण तथा १ गुरु होते हैं--)",
+          "translation": "One with an \"astra\" at a pause is called deprived of vigour; one with four \"astras\" at the beginning, middle and head",
+          "translationSource": "ai"
         },
         {
           "number": 38,
           "sanskrit": "ज्ञातव्यो भ्रान्त इत्येष यः स्यादष्टा दशाक्षरः । पुनर्विशतिवर्णो वा यो मन्त्रः स्मरसंयुतः",
           "transliteration": "jñātavyo bhrānta ityeṣa yaḥ syādaṣṭā daśākṣaraḥ / punarviśativarṇo vā yo mantraḥ smarasaṃyutaḥ",
-          "hindi": "भवजलराशिपारकरणक्षमं मुकुन्दं सततमहं स्तवै: स्वरचितै: स्तवानि नित्यम्॥ (१७) सत्रह-सत्रह अक्षरोंके चार चरणोंवाले छन्‍्दसमूहका नाम ' अत्यष्टि' है। प्रस्तारसे इसकी संख्या १३१०७२ होती है। इसके भेदोंमेंसे केवल हरिणी, पृथ्वी, वंशपत्रपतित, मन्दाक्रान्ता और शिखरिणीके लक्षण और उदाहरण यहाँ दिये जाते हैं। “हरिणी ' (के प्रत्येक चरणमें नगण, सगण, मगण, रगण, सगण, एक लघु तथा एक गुरु होते हैं। ६, ४, ७ अक्षरोपर विराम"
+          "hindi": "भवजलराशिपारकरणक्षमं मुकुन्दं सततमहं स्तवै: स्वरचितै: स्तवानि नित्यम्॥ (१७) सत्रह-सत्रह अक्षरोंके चार चरणोंवाले छन्‍्दसमूहका नाम ' अत्यष्टि' है। प्रस्तारसे इसकी संख्या १३१०७२ होती है। इसके भेदोंमेंसे केवल हरिणी, पृथ्वी, वंशपत्रपतित, मन्दाक्रान्ता और शिखरिणीके लक्षण और उदाहरण यहाँ दिये जाते हैं। “हरिणी ' (के प्रत्येक चरणमें नगण, सगण, मगण, रगण, सगण, एक लघु तथा एक गुरु होते हैं। ६, ४, ७ अक्षरोपर विराम",
+          "translation": "is known as bewildered (bhranta); one with eighteen syllables, or one with twenty syllables joined with \"smara\" (kleem),",
+          "translationSource": "ai"
         },
         {
           "number": 39,
           "sanskrit": "हृल्लेखाकुंशबीजाढ्यः प्रध्वस्तः स कथ्यते । सप्तार्णो बालमन्त्रस्तु कुमारो वसुवर्णवान्",
           "transliteration": "hṛllekhākuṃśabījāḍhyaḥ pradhvastaḥ sa kathyate / saptārṇo bālamantrastu kumāro vasuvarṇavān",
-          "hindi": "न समरसना: काले भोगाअ्॒लं धनयौवनं कुरुत सुकृतं यावल्रेयं तनु: प्रविशीर्यते ॥ किमपि कलना कालस्थेयं॑ प्रधावति सत्वरा तरुणहरिणीसंत्रस्तेव प्लवप्रविसारिणी ॥ “पृथ्वी! (के प्रत्येक पादमें जगण, सगण, जगण, सगण, यगण, एक लघु, एक गुरु होते हैं। आठ-नौ अक्षरोंपर विराम होता है।)"
+          "hindi": "न समरसना: काले भोगाअ्॒लं धनयौवनं कुरुत सुकृतं यावल्रेयं तनु: प्रविशीर्यते ॥ किमपि कलना कालस्थेयं॑ प्रधावति सत्वरा तरुणहरिणीसंत्रस्तेव प्लवप्रविसारिणी ॥ “पृथ्वी! (के प्रत्येक पादमें जगण, सगण, जगण, सगण, यगण, एक लघु, एक गुरु होते हैं। आठ-नौ अक्षरोंपर विराम होता है।)",
+          "translation": "rich in the seeds \"hrillekha\" and \"ankusha\", is called \"destroyed\" (pradhvasta). A seven-syllable one is a child mantra, one of eight, a youth.",
+          "translationSource": "ai"
         },
         {
           "number": 40,
           "sanskrit": "षोडशार्णो युवा प्रौढश्चत्वारिंशतिवर्णकः । त्रिंशद्वर्णश्चतुःषष्टिवर्णश्चापि शताक्षरः",
           "transliteration": "ṣoḍaśārṇo yuvā prauḍhaścatvāriṃśativarṇakaḥ / triṃśadvarṇaścatuḥṣaṣṭivarṇaścāpi śatākṣaraḥ",
-          "hindi": "हता: समितिशत्रवस्त्रिभुवनने प्रकीण॑ यश: कृतथ॒ गुणिनां गृहे निरवधिम॑हानुत्सव: ।"
+          "hindi": "हता: समितिशत्रवस्त्रिभुवनने प्रकीण॑ यश: कृतथ॒ गुणिनां गृहे निरवधिम॑हानुत्सव: ।",
+          "translation": "One of sixteen is young; of forty, mature; of thirty, of sixty-four, even of a hundred syllables:",
+          "translationSource": "ai"
         },
         {
           "number": 41,
           "sanskrit": "चतुःशताक्षरो मन्त्रो वृद्ध इत्यभिधीयते । नवार्णस्तारसंयुक्तो मन्त्रो निस्त्रिंश उच्यते",
           "transliteration": "catuḥśatākṣaro mantro vṛddha ityabhidhīyate / navārṇastārasaṃyukto mantro nistriṃśa ucyate",
-          "hindi": "वंशपत्रपतित' (में भगण, रगण, नगण, भगण, नगण, एक लघु, एक गुरु होते हैं। दस-सात अक्षरोंपर विराम होता है।)"
+          "hindi": "वंशपत्रपतित' (में भगण, रगण, नगण, भगण, नगण, एक लघु, एक गुरु होते हैं। दस-सात अक्षरोंपर विराम होता है।)",
+          "translation": "a mantra of four hundred syllables is called old. A nine-syllable mantra joined with Om is called \"sword\" (nistrimsha).",
+          "translationSource": "ai"
         },
         {
           "number": 42,
           "sanskrit": "यस्यान्ते हृदयं प्रोक्तं शिरोमन्त्रो ऽथ मध्यगः । शिखा वर्म च यस्यान्ते नेत्रमस्रं च दृश्यते",
           "transliteration": "yasyānte hṛdayaṃ proktaṃ śiromantro 'tha madhyagaḥ / śikhā varma ca yasyānte netramasraṃ ca dṛśyate",
-          "hindi": "अद्य कुरुष्व कर्म सुकृतं यदि परदिवसे मित्र विधेयमस्ति भवत: किमु चिरयसि ततू। जीवितमल्पकालकलनालघुतरतरलं नश्यति वंशपत्रपतितं हिमसलिलमिव॥"
+          "hindi": "अद्य कुरुष्व कर्म सुकृतं यदि परदिवसे मित्र विधेयमस्ति भवत: किमु चिरयसि ततू। जीवितमल्पकालकलनालघुतरतरलं नश्यति वंशपत्रपतितं हिमसलिलमिव॥",
+          "translation": "One with the heart at the end is said to be \"head-mantra\"; in the middle, ... one with the \"shikha\" and \"varma\" at the end, the eye and the weapon seen —",
+          "translationSource": "ai"
         },
         {
           "number": 43,
           "sanskrit": "शिव शक्त्यार्णहीनो वा निर्बीजः स मनुः स्मृतः । आद्यन्तमध्ये फट्कारः षोढा यस्मिन्प्रदृश्यते",
           "transliteration": "śiva śaktyārṇahīno vā nirbījaḥ sa manuḥ smṛtaḥ / ādyantamadhye phaṭkāraḥ ṣoḍhā yasminpradṛśyate",
-          "hindi": "'मन्दाक्रान्ता' (में मगण, भगण, नगण, तगण, तगण और दो गुरु होते हैं। ४, ६, ७ अक्षरोपर विराम होता है। (इसके प्रत्येक चरणके अन्तिम सात अक्षर कम कर देनेपर 'हंसी' छन्‍्द बन जाता है।)"
+          "hindi": "'मन्दाक्रान्ता' (में मगण, भगण, नगण, तगण, तगण और दो गुरु होते हैं। ४, ६, ७ अक्षरोपर विराम होता है। (इसके प्रत्येक चरणके अन्तिम सात अक्षर कम कर देनेपर 'हंसी' छन्‍्द बन जाता है।)",
+          "translation": "or lacking Shiva-Shakti syllables — is said to be seedless. One in which \"phat\" is seen at beginning, end and middle, six times,",
+          "translationSource": "ai"
         },
         {
           "number": 44,
           "sanskrit": "स मनुः सिद्धिहीनः स्यान्मन्दः पङ्क्त्यक्षरो मनुः । कूट एकाक्षरो मन्त्रः स एवोक्तो निरंशकः",
           "transliteration": "sa manuḥ siddhihīnaḥ syānmandaḥ paṅktyakṣaro manuḥ / kūṭa ekākṣaro mantraḥ sa evokto niraṃśakaḥ",
-          "hindi": "बहापीडं नटवरवपु: कर्णयो: कर्णिकारं विश्रद्वाल: कनककपिशं वैजयन्ती च मालाम्।"
+          "hindi": "बहापीडं नटवरवपु: कर्णयो: कर्णिकारं विश्रद्वाल: कनककपिशं वैजयन्ती च मालाम्।",
+          "translation": "that mantra is without success, \"slow\"; a mantra of the syllable-line is the \"peak\" (kuta); with one syllable it is without parts.",
+          "translationSource": "ai"
         },
         {
           "number": 45,
           "sanskrit": "द्विवर्णः सत्त्वहीनः स्यात्केकरश्चतुरक्षरः । षड्वर्णो बीजहीनो वा सार्द्धसप्ताक्षरो ऽपि वा",
           "transliteration": "dvivarṇaḥ sattvahīnaḥ syātkekaraścaturakṣaraḥ / ṣaḍvarṇo bījahīno vā sārddhasaptākṣaro 'pi vā",
-          "hindi": "रन्ध्रान् वेणोरधरसुधवा पूरयनू गोपबवृन्हैर्वन्दारण्यं॑ स्वपदरमणं प्राविशद्वीतकीर्ति: ॥"
+          "hindi": "रन्ध्रान् वेणोरधरसुधवा पूरयनू गोपबवृन्हैर्वन्दारण्यं॑ स्वपदरमणं प्राविशद्वीतकीर्ति: ॥",
+          "translation": "A two-syllable one lacks strength; one of four is \"keshara\"; one of six is without seed; or of seven and a half syllables;",
+          "translationSource": "ai"
         },
         {
           "number": 46,
           "sanskrit": "सार्द्धद्वादशवर्णो वा धूमितो र्निदितस्तु सः । सार्द्धबीजत्रययुतो मन्त्रो विंशतिवर्णवान्",
           "transliteration": "sārddhadvādaśavarṇo vā dhūmito rniditastu saḥ / sārddhabījatrayayuto mantro viṃśativarṇavān",
-          "hindi": "'शिखरिणी' (-में यगण, मगण, सगण, नगण, भगण, एक लघु, एक गुरु होते हैं तथा ६, ११ अक्षरोंपर विराम होता है।)"
+          "hindi": "'शिखरिणी' (-में यगण, मगण, सगण, नगण, भगण, एक लघु, एक गुरु होते हैं तथा ६, ११ अक्षरोंपर विराम होता है।)",
+          "translation": "of twelve and a half syllables, it is called smoked; a mantra with three and a half seeds and twenty syllables...",
+          "translationSource": "ai"
         },
         {
           "number": 47,
           "sanskrit": "त्रिंशद्वर्णश्चैकविंशद्वर्णश्चार्लिङ्गितस्तु सः । यो मन्त्रो दन्तवर्णस्तु मोहितः स तु कीर्तितः",
           "transliteration": "triṃśadvarṇaścaikaviṃśadvarṇaścārliṅgitastu saḥ / yo mantro dantavarṇastu mohitaḥ sa tu kīrtitaḥ",
-          "hindi": "अथावाच्य: सर्व: स्वमतिपरिणामावधि गृणन् ममाप्येष स्तोत्रे हर निरपवाद: परिकरः॥"
+          "hindi": "अथावाच्य: सर्व: स्वमतिपरिणामावधि गृणन् ममाप्येष स्तोत्रे हर निरपवाद: परिकरः॥",
+          "translation": "one of thirty or twenty-one syllables is \"embraced\"; a mantra with dental letters is called bewildered.",
+          "translationSource": "ai"
         },
         {
           "number": 48,
           "sanskrit": "चतुर्विशतिवर्णो वा सप्तविंशतिवर्णवान् । क्षुधार्तः स तु विज्ञेयो मन्त्रसिद्धिविवर्जितः",
           "transliteration": "caturviśativarṇo vā saptaviṃśativarṇavān / kṣudhārtaḥ sa tu vijñeyo mantrasiddhivivarjitaḥ",
-          "hindi": "(१८) अठारह-अठारह अक्षरोंके चार चरणोंसे बननेवाले छनन्‍्द-समूहकी संज्ञा 'धृति” कही गयी है। प्रस्तारसे इसके २६२१४४ भेद होते हैं  उनमेंसे एक ही भेद 'कुसुमितलतावेल्लिता ' नामक छन्दका लक्षण और उदाहरण दिया जाता है। इसमें मगण, तगण, नगण और तीन भगण होते हैं। ५, ६, ७ अक्षरोंपर विराम होता है।"
+          "hindi": "(१८) अठारह-अठारह अक्षरोंके चार चरणोंसे बननेवाले छनन्‍्द-समूहकी संज्ञा 'धृति” कही गयी है। प्रस्तारसे इसके २६२१४४ भेद होते हैं  उनमेंसे एक ही भेद 'कुसुमितलतावेल्लिता ' नामक छन्दका लक्षण और उदाहरण दिया जाता है। इसमें मगण, तगण, नगण और तीन भगण होते हैं। ५, ६, ७ अक्षरोंपर विराम होता है।",
+          "translation": "One of twenty-four or twenty-seven syllables is to be known as hungry, devoid of mantra-success.",
+          "translationSource": "ai"
         },
         {
           "number": 49,
           "sanskrit": "एकादशाक्षरो वापि पञ्चविंशतिवर्णकः । त्रयोर्विंशतिवर्णो वा स मनुर्दृप्तसंज्ञकः",
           "transliteration": "ekādaśākṣaro vāpi pañcaviṃśativarṇakaḥ / trayorviṃśativarṇo vā sa manurdṛptasaṃjñakaḥ",
-          "hindi": "धन्यानामेता: कुसुमितलतावेल्लितोत्फुल्लवृक्षा: सोत्कण्ठं कूृजत्परभूतकलालापकोलाहलिन्य: । मध्वादो माचद्यन्मधुकरकलोद्वीतझड्डारम्या ग्रामान्तःखोत:परिसरभुवः प्रीतिमुत्पादयन्ति ॥"
+          "hindi": "धन्यानामेता: कुसुमितलतावेल्लितोत्फुल्लवृक्षा: सोत्कण्ठं कूृजत्परभूतकलालापकोलाहलिन्य: । मध्वादो माचद्यन्मधुकरकलोद्वीतझड्डारम्या ग्रामान्तःखोत:परिसरभुवः प्रीतिमुत्पादयन्ति ॥",
+          "translation": "One of eleven or twenty-five or twenty-three syllables is called proud.",
+          "translationSource": "ai"
         },
         {
           "number": 50,
           "sanskrit": "षड्विंशत्यक्षरो वापि षट्त्रिंशद्वर्णङ्को ऽपि वा । एकोन त्रिंशदर्णो वा मन्त्रो हीनाङ्गकः स्मृतः",
           "transliteration": "ṣaḍviṃśatyakṣaro vāpi ṣaṭtriṃśadvarṇaṅko 'pi vā / ekona triṃśadarṇo vā mantro hīnāṅgakaḥ smṛtaḥ",
-          "hindi": "(१९) उन्नीस-उन्नीस अक्षरोंके चार चरणोंसे सिद्ध होनेवाले छन्‍्द-समुदायको 'विधृति' या ' अतिथधृति' कहते हैं। प्रस्तारसे इसके ५२४२८८ भेद होते हैं। इनमेंसे एक भेद 'शार्दूलविक्रीडित' नामसे प्रसिद्ध है, जिसमें मगण, सगण, जगण, सगण, दो तगण और एक गुरु होते हैं तथा बारह और सात अक्षरोंपर विराम होता है।"
+          "hindi": "(१९) उन्नीस-उन्नीस अक्षरोंके चार चरणोंसे सिद्ध होनेवाले छन्‍्द-समुदायको 'विधृति' या ' अतिथधृति' कहते हैं। प्रस्तारसे इसके ५२४२८८ भेद होते हैं। इनमेंसे एक भेद 'शार्दूलविक्रीडित' नामसे प्रसिद्ध है, जिसमें मगण, सगण, जगण, सगण, दो तगण और एक गुरु होते हैं तथा बारह और सात अक्षरोंपर विराम होता है।",
+          "translation": "One of twenty-six, thirty-six or twenty-nine syllables is said to be defective in limbs.",
+          "translationSource": "ai"
         },
         {
           "number": 51,
           "sanskrit": "अष्टाविंशतिवर्णो वा तथैकत्रिंशदर्णकः । अतिक्रूरः स विज्ञेयो ऽखिलकर्मसु गर्हितः",
           "transliteration": "aṣṭāviṃśativarṇo vā tathaikatriṃśadarṇakaḥ / atikrūraḥ sa vijñeyo 'khilakarmasu garhitaḥ",
-          "hindi": "यं ब्रह्मा वरुणेन्द्ररुद्रमरुत: स्तुन्वन्ति दिव्यै: स्तवैर्वेदे: साड्रपदक्रमोपनिषहैर्गायन्ति यं सामगा: । ध्यानावस्थिततदृतेन मनसा पश्यन्ति यं योगिनो यस्यान्तं न विदुः सुरासुरगणा देवाय तस्मै नम: ॥"
+          "hindi": "यं ब्रह्मा वरुणेन्द्ररुद्रमरुत: स्तुन्वन्ति दिव्यै: स्तवैर्वेदे: साड्रपदक्रमोपनिषहैर्गायन्ति यं सामगा: । ध्यानावस्थिततदृतेन मनसा पश्यन्ति यं योगिनो यस्यान्तं न विदुः सुरासुरगणा देवाय तस्मै नम: ॥",
+          "translation": "One of twenty-eight or thirty-one syllables is to be known as extremely cruel, condemned in all rites.",
+          "translationSource": "ai"
         },
         {
           "number": 52,
           "sanskrit": "चत्वारिंशत्समारभ्य त्रिषष्ट्यन्तस्तु यो मनुः । व्रीडितः स तु विज्ञेयः सर्वकर्मसु न क्षमः",
           "transliteration": "catvāriṃśatsamārabhya triṣaṣṭyantastu yo manuḥ / vrīḍitaḥ sa tu vijñeyaḥ sarvakarmasu na kṣamaḥ",
-          "hindi": "(२०) बीस-बीस अक्षरोंके चार पादोंसे निष्पन्न होनेवाले छन्दसमूहका नाम “कृति है। प्रस्तारसे इसके १०४८५७६ भेद होते हैं। उनमेंसे २के लक्षण और उदाहरण यहाँ बतलाये जाते हैं। पहलेका सुबदना और दूसरेका नाम “वृत्त' है। सुबदनामें मगण, रगण, भगण, नगण, यगण, भगण, १ लघु और १ गुरु होते हैं। ७, ७, ६ अक्षरोंपर विराम होता है।"
+          "hindi": "(२०) बीस-बीस अक्षरोंके चार पादोंसे निष्पन्न होनेवाले छन्दसमूहका नाम “कृति है। प्रस्तारसे इसके १०४८५७६ भेद होते हैं। उनमेंसे २के लक्षण और उदाहरण यहाँ बतलाये जाते हैं। पहलेका सुबदना और दूसरेका नाम “वृत्त' है। सुबदनामें मगण, रगण, भगण, नगण, यगण, भगण, १ लघु और १ गुरु होते हैं। ७, ७, ६ अक्षरोंपर विराम होता है।",
+          "translation": "A mantra from forty up to sixty-three syllables is to be known as \"ashamed\", not effective in any rites.",
+          "translationSource": "ai"
         },
         {
           "number": 53,
           "sanskrit": "पञ्चषष्ट्यक्षरा मन्त्रा ज्ञेया वै शान्तमानसाः । पञ्चषषअट्यर्णमारभ्य नवनन्दाक्षरावधि",
           "transliteration": "pañcaṣaṣṭyakṣarā mantrā jñeyā vai śāntamānasāḥ / pañcaṣaṣaaṭyarṇamārabhya navanandākṣarāvadhi",
-          "hindi": "या पीनोद्वाढतुड्गस्तननजघनघनाभोगालसगतिर्यस्या: कर्णावतंसोत्पलरुचिजयिनी दीर्घे च नयने।"
+          "hindi": "या पीनोद्वाढतुड्गस्तननजघनघनाभोगालसगतिर्यस्या: कर्णावतंसोत्पलरुचिजयिनी दीर्घे च नयने।",
+          "translation": "Mantras of sixty-five syllables are to be known as peaceful-minded; from sixty-five up to ninety-nine syllables...",
+          "translationSource": "ai"
         },
         {
           "number": 54,
           "sanskrit": "ये मन्त्रास्ते तु विज्ञेयाः स्थानभ्रष्टा मुनीश्वर । त्रयोदशार्णा ये मन्त्रास्तिथ्यर्णाश्च तथा पुनः",
           "transliteration": "ye mantrāste tu vijñeyāḥ sthānabhraṣṭā munīśvara / trayodaśārṇā ye mantrāstithyarṇāśca tathā punaḥ",
-          "hindi": "“वृत्त” (में एक गुरु, एक लघुके क्रमसे २० अक्षर होते हैं। पादान्तमें विराम होता है।)"
+          "hindi": "“वृत्त” (में एक गुरु, एक लघुके क्रमसे २० अक्षर होते हैं। पादान्तमें विराम होता है।)",
+          "translation": "those mantras are to be known as displaced, O lord of sages. Mantras of thirteen syllables and of fifteen syllables",
+          "translationSource": "ai"
         },
         {
           "number": 55,
           "sanskrit": "विकसास्तें समाख्याताः सर्वतन्त्रविशारदैः । शतं सार्द्धशतं वापि शतद्वयमथापि वा",
           "transliteration": "vikasāsteṃ samākhyātāḥ sarvatantraviśāradaiḥ / śataṃ sārddhaśataṃ vāpi śatadvayamathāpi vā",
-          "hindi": "जन्तुमात्रदु:खकारि कर्म निर्मितं भवत्यनर्थहेतु तेन सर्वमात्मतुल्यमीक्षमाण उत्तमं सुखं लभस्व।"
+          "hindi": "जन्तुमात्रदु:खकारि कर्म निर्मितं भवत्यनर्थहेतु तेन सर्वमात्मतुल्यमीक्षमाण उत्तमं सुखं लभस्व।",
+          "translation": "are called \"vikasa\" (unblossomed) by those expert in all tantras. Those mantras counted by letters as a hundred, a hundred and fifty, two hundred,",
+          "translationSource": "ai"
         },
         {
           "number": 56,
           "sanskrit": "द्विनवत्येकहीनो वा शतत्रयमथापि वा । ये मन्त्रा वर्णसंख्याका निःस्नेहास्ते प्रकीर्तिताः",
           "transliteration": "dvinavatyekahīno vā śatatrayamathāpi vā / ye mantrā varṇasaṃkhyākā niḥsnehāste prakīrtitāḥ",
-          "hindi": "(२१) इक्तीस-इक्कीस अक्षरोंके चार पादोंमें पूर्ण होनेवाले छन्‍्दोंकी जातिवाचक संज्ञा 'प्रकृति' है। प्रस्तारसे इसके २०९७१५२ भेद होते हैं। इनमेंसे एक भेद 'ख्नग्धरा' के नामसे प्रसिद्ध है। इसमें मगण, रगण, भगण, नगण और तीन यगण"
+          "hindi": "(२१) इक्तीस-इक्कीस अक्षरोंके चार पादोंमें पूर्ण होनेवाले छन्‍्दोंकी जातिवाचक संज्ञा 'प्रकृति' है। प्रस्तारसे इसके २०९७१५२ भेद होते हैं। इनमेंसे एक भेद 'ख्नग्धरा' के नामसे प्रसिद्ध है। इसमें मगण, रगण, भगण, नगण और तीन यगण",
+          "translation": "ninety-two less one, or three hundred, are called without love.",
+          "translationSource": "ai"
         },
         {
           "number": 57,
           "sanskrit": "चतुःशतं समारभ्य सहस्रार्णावधि द्विज । अतिवृद्धाः प्रयोगेषु शिथिलास्ते समीरिताः",
           "transliteration": "catuḥśataṃ samārabhya sahasrārṇāvadhi dvija / ativṛddhāḥ prayogeṣu śithilāste samīritāḥ",
-          "hindi": "होते हैं। सात-सात अक्षरोंपर विराम होता है।"
+          "hindi": "होते हैं। सात-सात अक्षरोंपर विराम होता है।",
+          "translation": "From four hundred up to a thousand syllables, O Brahmin, they are called very large, loose in practice.",
+          "translationSource": "ai"
         },
         {
           "number": 58,
           "sanskrit": "सहस्रवर्णदधिका मन्त्रास्ते पीडिताह्वयाः । तद्वर्द्ध्वं चैव ये मन्त्राः स्तोत्ररूपास्तु ते स्मृताः",
           "transliteration": "sahasravarṇadadhikā mantrāste pīḍitāhvayāḥ / tadvarddhvaṃ caiva ye mantrāḥ stotrarūpāstu te smṛtāḥ",
-          "hindi": "ब्रह्माण्डं खण्डयन्ती हरशिरसि जटावल्लिमुल्लासयन्ती स्वर्लोकादापतन्ती कनकगिरिगुहागण्डशैलात्स्खलन्ती ।"
+          "hindi": "ब्रह्माण्डं खण्डयन्ती हरशिरसि जटावल्लिमुल्लासयन्ती स्वर्लोकादापतन्ती कनकगिरिगुहागण्डशैलात्स्खलन्ती ।",
+          "translation": "Mantras beyond a thousand syllables are called \"oppressed\"; those beyond that are held to be of the form of hymns.",
+          "translationSource": "ai"
         },
         {
           "number": 59,
           "sanskrit": "एवं विधाः समाख्याता मनवो दोष संयुताः । दोषानेतानविज्ञाय मन्त्रानेताञ्जपन्ति ये",
           "transliteration": "evaṃ vidhāḥ samākhyātā manavo doṣa saṃyutāḥ / doṣānetānavijñāya mantrānetāñjapanti ye",
-          "hindi": "(२२) बाईस-बाईस अक्षरोंके चार पादोंसे परिपूर्ण होनेवाले छन्‍्दोंका नाम 'आकृति' है। प्रस्तारसे इसकी भेद-संख्या ४१५९४३०४ होती है। इसके एक भेद ' भद्रक'का उदाहरण यहाँ दिया जाता है। भद्रकके प्रत्येक पादमें भगण, रगण, नगण, रगण, नगण, रगण, नगण, एक गुरु होते हैं। दस, बारह अक्षरोंपर विराम होता है।"
+          "hindi": "(२२) बाईस-बाईस अक्षरोंके चार पादोंसे परिपूर्ण होनेवाले छन्‍्दोंका नाम 'आकृति' है। प्रस्तारसे इसकी भेद-संख्या ४१५९४३०४ होती है। इसके एक भेद ' भद्रक'का उदाहरण यहाँ दिया जाता है। भद्रकके प्रत्येक पादमें भगण, रगण, नगण, रगण, नगण, रगण, नगण, एक गुरु होते हैं। दस, बारह अक्षरोंपर विराम होता है।",
+          "translation": "Such mantras are declared faulty. Those who chant these mantras without knowing these faults",
+          "translationSource": "ai"
         },
         {
           "number": 60,
           "sanskrit": "सिद्धिर्न जायते तेषां कल्पकोटिशतैरपि । छिन्नादिदोषदुष्टानां मन्त्राणां साधनं ब्रुवे",
           "transliteration": "siddhirna jāyate teṣāṃ kalpakoṭiśatairapi / chinnādidoṣaduṣṭānāṃ mantrāṇāṃ sādhanaṃ bruve",
-          "hindi": "भद्रकगीतिभि: सकृदपि स्तुवन्ति भव ये भवन्तमभवं भक्तिभरावनगम्रशिरस: प्रणम्य तव पादयो: सुकृतिन: ।"
+          "hindi": "भद्रकगीतिभि: सकृदपि स्तुवन्ति भव ये भवन्तमभवं भक्तिभरावनगम्रशिरस: प्रणम्य तव पादयो: सुकृतिन: ।",
+          "translation": "have no success even in hundreds of crores of kalpas. I shall tell the method for mantras spoiled by cut-off faults and the like.",
+          "translationSource": "ai"
         },
         {
           "number": 61,
           "sanskrit": "योनिमुद्रासने स्थित्वा प्रजपेद्यः समाहितः । यं कञ्चिदपि वा मन्त्रं तस्य स्युः सर्वसिद्धयः",
           "transliteration": "yonimudrāsane sthitvā prajapedyaḥ samāhitaḥ / yaṃ kañcidapi vā mantraṃ tasya syuḥ sarvasiddhayaḥ",
-          "hindi": "(२३) तेईस-तेईस अक्षरोंके चार-चरणोंसे सिद्ध होनेवाले छन्‍्दसमुदायको 'विकृति' कहते हैं। प्रस्तारसे इसके८३८८६०८ भेद होते हैं  इनमें ' अश्वललित' और 'मत्ताक्रीडा' नामक दो छन्दोंके उदाहरण यहाँ दिये जाते हैं। प्रत्येक पादमें नगण, जगण, भगण, जगण, भगण, जगण, भगण, १ लघु १ गुरु होनेसे 'अश्वललित' छन्द होता है।"
+          "hindi": "(२३) तेईस-तेईस अक्षरोंके चार-चरणोंसे सिद्ध होनेवाले छन्‍्दसमुदायको 'विकृति' कहते हैं। प्रस्तारसे इसके८३८८६०८ भेद होते हैं  इनमें ' अश्वललित' और 'मत्ताक्रीडा' नामक दो छन्दोंके उदाहरण यहाँ दिये जाते हैं। प्रत्येक पादमें नगण, जगण, भगण, जगण, भगण, जगण, भगण, १ लघु १ गुरु होनेसे 'अश्वललित' छन्द होता है।",
+          "translation": "One who, seated in the yoni-mudra posture, attentively chants any mantra whatever gains all successes.",
+          "translationSource": "ai"
         },
         {
           "number": 62,
           "sanskrit": "सव्यपाष्णि गुदे स्थाप्य दक्षिणं च ध्वजोपरि । योनिमुद्राबन्ध एवं भवेदासनमुत्तमम्",
           "transliteration": "savyapāṣṇi gude sthāpya dakṣiṇaṃ ca dhvajopari / yonimudrābandha evaṃ bhavedāsanamuttamam",
-          "hindi": "सपदि निपीडनव्यतिकरं यमादिव नराधिपान्नरपशु: परवनितामवेक्ष्य कुरुते तथापि हतबुद्धिरश्वललितम्॥"
+          "hindi": "सपदि निपीडनव्यतिकरं यमादिव नराधिपान्नरपशु: परवनितामवेक्ष्य कुरुते तथापि हतबुद्धिरश्वललितम्॥",
+          "translation": "Placing the left heel at the anus and the right over the banner (organ): this tying of the yoni-mudra is the best posture.",
+          "translationSource": "ai"
         },
         {
           "number": 63,
           "sanskrit": "अन्यो ऽप्यत्र प्रकारो ऽस्ति योनिमुद्रानिबन्धने । तदग्रे सरहस्यं ते कथयिष्यामि नारद",
           "transliteration": "anyo 'pyatra prakāro 'sti yonimudrānibandhane / tadagre sarahasyaṃ te kathayiṣyāmi nārada",
-          "hindi": "“मत्ताक्रीडा' (में २ मगण, १ तगण, ४ नगण, १ लघु, १ गुरु होते हैं। आठ और पंद्रह अक्षरोंपर विराम होता है।)"
+          "hindi": "“मत्ताक्रीडा' (में २ मगण, १ तगण, ४ नगण, १ लघु, १ गुरु होते हैं। आठ और पंद्रह अक्षरोंपर विराम होता है।)",
+          "translation": "There is another method too in tying the yoni-mudra; I shall tell it to you with its secret later, Narada.",
+          "translationSource": "ai"
         },
         {
           "number": 64,
           "sanskrit": "पारंपर्यक्रमप्राप्तो नित्यानुष्टानतत्परः । गुर्वनुज्ञारतः श्रीमानभिषेकसमन्वितः",
           "transliteration": "pāraṃparyakramaprāpto nityānuṣṭānatatparaḥ / gurvanujñārataḥ śrīmānabhiṣekasamanvitaḥ",
-          "hindi": "बन्दे देवं श्रीगोविन्दं प्रणणपरवशमतिकरुणहृदयं मात्रा बद्धं दाम्ना साम्ना स्तुतमपि सुतमिव निजमिह सभयम्।"
+          "hindi": "बन्दे देवं श्रीगोविन्दं प्रणणपरवशमतिकरुणहृदयं मात्रा बद्धं दाम्ना साम्ना स्तुतमपि सुतमिव निजमिह सभयम्।",
+          "translation": "One who has received the tradition in succession, devoted to daily practice, delighted by the teacher's permission, glorious and consecrated,",
+          "translationSource": "ai"
         },
         {
           "number": 65,
           "sanskrit": "सुंदरः सुमुखः शान्तः कुलीनः सुलभो वशी । मन्त्रतन्त्रार्थतत्त्वज्ञो निग्रहानुग्रहक्षमः",
           "transliteration": "suṃdaraḥ sumukhaḥ śāntaḥ kulīnaḥ sulabho vaśī / mantratantrārthatattvajño nigrahānugrahakṣamaḥ",
-          "hindi": "(२४) चौबीस-चौबीस अक्षरोंके चार चरणोंसे जो छन्द बनते हैं, उनका नाम 'संकृति' है। प्रस्तारसे इसके १६७७७२१६ भेद होते हैं। इनमें 'तन्वी' नामक छन्‍्दका उदाहरण दिया जाता है। उसमें भगण, तगण, नगण, सगण, २ भगण, नगण, यगण होते हैं। ५, ७, १२ अक्षरोंपर विराम होता है।"
+          "hindi": "(२४) चौबीस-चौबीस अक्षरोंके चार चरणोंसे जो छन्द बनते हैं, उनका नाम 'संकृति' है। प्रस्तारसे इसके १६७७७२१६ भेद होते हैं। इनमें 'तन्वी' नामक छन्‍्दका उदाहरण दिया जाता है। उसमें भगण, तगण, नगण, सगण, २ भगण, नगण, यगण होते हैं। ५, ७, १२ अक्षरोंपर विराम होता है।",
+          "translation": "handsome, pleasant-faced, tranquil, of good family, accessible, self-controlled, knowing the meaning and truth of mantra and tantra, able to restrain and to favour,",
+          "translationSource": "ai"
         },
         {
           "number": 66,
           "sanskrit": "निरपेक्षो मुनिर्दान्तो हितवादी विचक्षणः । तत्त्वनिष्कासने दक्षो विनयी च सुवेषवान्",
           "transliteration": "nirapekṣo munirdānto hitavādī vicakṣaṇaḥ / tattvaniṣkāsane dakṣo vinayī ca suveṣavān",
-          "hindi": "नाथ तवाहं तव पदकमलं सेवितुमेव मनसि मम कामो नाम सुधासोदरमतिमधुरं मे रसना रसयतु नितरां वै। प्रेमिजना ये प्रभुगुणरसिकास्तेषु सहैव भवतु मम वासो देव दयां दर्शय वस हृदये त्वां न विनेह जगति मम बन्धु: ॥"
+          "hindi": "नाथ तवाहं तव पदकमलं सेवितुमेव मनसि मम कामो नाम सुधासोदरमतिमधुरं मे रसना रसयतु नितरां वै। प्रेमिजना ये प्रभुगुणरसिकास्तेषु सहैव भवतु मम वासो देव दयां दर्शय वस हृदये त्वां न विनेह जगति मम बन्धु: ॥",
+          "translation": "free of expectation, a sage, self-restrained, speaking what is beneficial, skilful, expert in extracting the truth, humble and well dressed,",
+          "translationSource": "ai"
         },
         {
           "number": 67,
           "sanskrit": "आश्रमी ध्याननिरतः संशयच्छित्सुवुद्धिमान् । नित्यानुष्टानसंयुक्तस्त्वाचार्यः परिकीर्तितः",
           "transliteration": "āśramī dhyānanirataḥ saṃśayacchitsuvuddhimān / nityānuṣṭānasaṃyuktastvācāryaḥ parikīrtitaḥ",
-          "hindi": "(२५) पच्चीस-पच्चीस अक्षरोंके चार पादोंसे सम्पन्न होनेवाले छन्दोंको 'अतिकृति' या 'अभिकृति' कहते है। प्रस्तारसे इनके ३३५५३४३२ भेद होते हैं। इनमेंसे एक भेदका नाम “क्रौद्धपदा' है। उसके प्रत्येक चरणमें भगण, मगण, सगण, भगण, ४ नगण तथा १ गुरु होते हैं। ५, ५, ८, ७ अक्षरोंपर विराम होता है।"
+          "hindi": "(२५) पच्चीस-पच्चीस अक्षरोंके चार पादोंसे सम्पन्न होनेवाले छन्दोंको 'अतिकृति' या 'अभिकृति' कहते है। प्रस्तारसे इनके ३३५५३४३२ भेद होते हैं। इनमेंसे एक भेदका नाम “क्रौद्धपदा' है। उसके प्रत्येक चरणमें भगण, मगण, सगण, भगण, ४ नगण तथा १ गुरु होते हैं। ५, ५, ८, ७ अक्षरोंपर विराम होता है।",
+          "translation": "in a stage of life, devoted to meditation, cutting doubts, intelligent, joined with daily practice — such is declared a teacher (acharya).",
+          "translationSource": "ai"
         },
         {
           "number": 68,
           "sanskrit": "शान्तो विनीतः शुद्धात्मा सर्वलक्षणसंयुतः । शमादिसाधनोपेतः श्रद्धावान् सुस्थिराशयः",
           "transliteration": "śānto vinītaḥ śuddhātmā sarvalakṣaṇasaṃyutaḥ / śamādisādhanopetaḥ śraddhāvān susthirāśayaḥ",
-          "hindi": "माधव भक्ति देह्विभक्ति तव चरणयुगलशरणमुपगत: संहर पाप॑ं दर्शिततापं निजगुणगणरतिमुपनय नितराम्।"
+          "hindi": "माधव भक्ति देह्विभक्ति तव चरणयुगलशरणमुपगत: संहर पाप॑ं दर्शिततापं निजगुणगणरतिमुपनय नितराम्।",
+          "translation": "The disciple is peaceful, modest, pure of self, endowed with all marks, with the means of calm and the rest, faithful, of steady mind,",
+          "translationSource": "ai"
         },
         {
           "number": 69,
           "sanskrit": "शुद्धदेहो ऽन्नपानद्यैर्द्धार्मिकः शुद्धमानसः । दृढव्रतसमाचारः कृतज्ञः पापभीरुकः",
           "transliteration": "śuddhadeho 'nnapānadyairddhārmikaḥ śuddhamānasaḥ / dṛḍhavratasamācāraḥ kṛtajñaḥ pāpabhīrukaḥ",
-          "hindi": "(२६) छब्बीस-छब्बीस अक्षरोंक चार चरणोंसे जो छन्द बनते है, उनकी जातिवाचक संज्ञा 'उत्कृति' है। प्रस्तारसे इसके ६७१०८८६४ भेद होते हैं। इनमेंसे दो भेद बताये जाते हैं। एकका नाम ' भुजम्भविजुम्भित' और दूसरेका 'अपवाह' है।"
+          "hindi": "(२६) छब्बीस-छब्बीस अक्षरोंक चार चरणोंसे जो छन्द बनते है, उनकी जातिवाचक संज्ञा 'उत्कृति' है। प्रस्तारसे इसके ६७१०८८६४ भेद होते हैं। इनमेंसे दो भेद बताये जाते हैं। एकका नाम ' भुजम्भविजुम्भित' और दूसरेका 'अपवाह' है।",
+          "translation": "pure in body by food, drink and so on, righteous, pure-minded, firm in vows and conduct, grateful, afraid of sin,",
+          "translationSource": "ai"
         },
         {
           "number": 70,
           "sanskrit": "गुरुध्यानस्तुतिकथासेवनासक्तमानसः । एवंविधो भवेच्छिष्यस्त्वन्यथा गुरुदुःखदः",
           "transliteration": "gurudhyānastutikathāsevanāsaktamānasaḥ / evaṃvidho bhavecchiṣyastvanyathā guruduḥkhadaḥ",
-          "hindi": "' भुजज्भविजृम्भित -- (में २ मगण, १ तगण, ३ नगण, १ रगण, १ सगण, १ लघु, १ गुरु होते हैं। ८, ११, ७ अक्षरॉपर"
+          "hindi": "' भुजज्भविजृम्भित -- (में २ मगण, १ तगण, ३ नगण, १ रगण, १ सगण, १ लघु, १ गुरु होते हैं। ८, ११, ७ अक्षरॉपर",
+          "translation": "his mind attached to meditation on, praise of, and service of stories of the teacher. Such should be the disciple; otherwise he gives the teacher pain.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -51718,199 +51952,265 @@
           "number": 45,
           "sanskrit": "रविं गणेशमंबां च हरिं चाथ यदा शिवाम् । ईशं विघ्नार्कगोविन्दान्मध्ये चेद्गणनायकम्",
           "transliteration": "raviṃ gaṇeśamaṃbāṃ ca hariṃ cātha yadā śivām / īśaṃ vighnārkagovindānmadhye cedgaṇanāyakam",
-          "hindi": "उन्हें भीतर जानेसे रोका; किंतु इससे उनके मनमें कोई ग्लानि नहीं हुई। नारदजी ! महायोगी शुक भूख-प्याससे रहित हो वहीं धूपमें जा बैठे और ध्यानमें स्थित हो गये। उन द्वारपालोंमेंसे"
+          "hindi": "उन्हें भीतर जानेसे रोका; किंतु इससे उनके मनमें कोई ग्लानि नहीं हुई। नारदजी ! महायोगी शुक भूख-प्याससे रहित हो वहीं धूपमें जा बैठे और ध्यानमें स्थित हो गये। उन द्वारपालोंमेंसे",
+          "translation": "Ravi (Sun), Ganesha, Ambika (the Goddess), Hari (Vishnu) and Shiva: with Isha, Vighna, Arka, Govinda, if Ganapati is in the middle...",
+          "translationSource": "ai"
         },
         {
           "number": 46,
           "sanskrit": "शिवं शिवां रविं विष्णुं रवौ मध्यगते पुनः । गणेषं विष्णुमंबां च शिवं चेति यथाक्रमम्",
           "transliteration": "śivaṃ śivāṃ raviṃ viṣṇuṃ ravau madhyagate punaḥ / gaṇeṣaṃ viṣṇumaṃbāṃ ca śivaṃ ceti yathākramam",
-          "hindi": "एकको अपने व्यवहारपर बड़ा शोक हुआ। उसने देखा, शुकदेवजी दोपहरके सूर्यकी भाँति यहाँ स्थित हो रहे हैं, तब हाथ जोड़कर प्रणाम किया और विधिपूर्वक उनका पूजन एवं सत्कार"
+          "hindi": "एकको अपने व्यवहारपर बड़ा शोक हुआ। उसने देखा, शुकदेवजी दोपहरके सूर्यकी भाँति यहाँ स्थित हो रहे हैं, तब हाथ जोड़कर प्रणाम किया और विधिपूर्वक उनका पूजन एवं सत्कार",
+          "translation": "Shiva, Shiva's consort, Ravi, Vishnu, with the Sun in the middle; or Ganesha, Vishnu, the Goddess and Shiva, in order.",
+          "translationSource": "ai"
         },
         {
           "number": 47,
           "sanskrit": "एवं नित्य समभ्यर्च्य देवपञ्चकमादृतः । ब्राह्मे मुहूर्त्ते ह्युत्थाय कृत्वाचा वश्यकं बुधः",
           "transliteration": "evaṃ nitya samabhyarcya devapañcakamādṛtaḥ / brāhme muhūrtte hyutthāya kṛtvācā vaśyakaṃ budhaḥ",
-          "hindi": "करके राजमहलकी दूसरी कक्षामें उनका प्रवेश कराया। वहाँ चैत्ररथ वनके समान एक विशाल उपवन था, जिसका सम्बन्ध अन्तःपुरसे था। वह वन बड़ा रमणीय था। द्वारपालने शुकदेवजीको"
+          "hindi": "करके राजमहलकी दूसरी कक्षामें उनका प्रवेश कराया। वहाँ चैत्ररथ वनके समान एक विशाल उपवन था, जिसका सम्बन्ध अन्तःपुरसे था। वह वन बड़ा रमणीय था। द्वारपालने शुकदेवजीको",
+          "translation": "Thus one should daily worship the group of five deities with reverence. The wise man, rising in the Brahma-muhurta and having done the necessary duties,",
+          "translationSource": "ai"
         },
         {
           "number": 48,
           "sanskrit": "अशङ्कितो वा शय्यायां स्वकीयशिरसि स्मरेत् । सहस्रदलशुक्लाब्जकार्ंणकास्थदुमण्डले",
           "transliteration": "aśaṅkito vā śayyāyāṃ svakīyaśirasi smaret / sahasradalaśuklābjakārṃṇakāsthadumaṇḍale",
-          "hindi": "सारा उपवन दिखाकर एक सुन्दर आसनपर बिठाया तथा राजा जनकको इसकी सूचना दी। मुनिश्रेष्ठ। राजाने जब सुना कि शुकदेवजी मेरे पास आये हैं तो उनके हार्दिक भावको समझनेके"
+          "hindi": "सारा उपवन दिखाकर एक सुन्दर आसनपर बिठाया तथा राजा जनकको इसकी सूचना दी। मुनिश्रेष्ठ। राजाने जब सुना कि शुकदेवजी मेरे पास आये हैं तो उनके हार्दिक भावको समझनेके",
+          "translation": "or unhesitating in bed, should remember on his own head, in a circle of a thousand-petalled white lotus with a pericarp,",
+          "translationSource": "ai"
         },
         {
           "number": 49,
           "sanskrit": "अकथादित्रिकोणस्थं वराभयकरं गुरुम् । द्विनेत्रं द्विभुजं शुक्लगन्धमाल्यानुंलेपनम्",
           "transliteration": "akathāditrikoṇasthaṃ varābhayakaraṃ gurum / dvinetraṃ dvibhujaṃ śuklagandhamālyānuṃlepanam",
-          "hindi": "उद्देश्स्से उनकी सेवाके लिये बहुत-सी युवतियोंको नियुक्त किया। उन सबके वेश बड़े मनोहर थे। वे सब-की-सब तरुणी और देखनेमें मनको प्रिय लगनेवाली थीं। उन्होंने लाल रंगके महीन"
+          "hindi": "उद्देश्स्से उनकी सेवाके लिये बहुत-सी युवतियोंको नियुक्त किया। उन सबके वेश बड़े मनोहर थे। वे सब-की-सब तरुणी और देखनेमें मनको प्रिय लगनेवाली थीं। उन्होंने लाल रंगके महीन",
+          "translation": "in the triangle... the teacher, with hands giving boons and protection, two-eyed, two-armed, white, anointed with white perfumes and garlands,",
+          "translationSource": "ai"
         },
         {
           "number": 50,
           "sanskrit": "वामे शक्त्या युतं ध्यात्वा मानसैरुपचारकैः । आराध्य पादुकामन्त्रं दशधाप्रजपेत्सुधीः",
           "transliteration": "vāme śaktyā yutaṃ dhyātvā mānasairupacārakaiḥ / ārādhya pādukāmantraṃ daśadhāprajapetsudhīḥ",
-          "hindi": "एवं रंगीन वस्त्र धारण कर रखे थे। उनके अड्ोंमें तपाये हुए शुद्ध सुवर्णक आभूषण चमक"
+          "hindi": "एवं रंगीन वस्त्र धारण कर रखे थे। उनके अड्ोंमें तपाये हुए शुद्ध सुवर्णक आभूषण चमक",
+          "translation": "with his power at his left, meditating thus and worshipping with mental offerings, the wise man should chant the Paduka mantra ten times.",
+          "translationSource": "ai"
         },
         {
           "number": 51,
           "sanskrit": "वा माया श्रीर्भगेन्द्वाढ्या वियद्धंसखकाग्नयः । हसक्षमलवार्यग्निवामकर्णैदुयुग्मरुत्",
           "transliteration": "vā māyā śrīrbhagendvāḍhyā viyaddhaṃsakhakāgnayaḥ / hasakṣamalavāryagnivāmakarṇaiduyugmarut",
-          "hindi": "रहे थे। वे बातचीतमें बड़ी चतुर तथा समस्त कलाओंमें कुशल थीं। उनकी संख्या पचाससे अधिक थी। उन सबने शुकदेवजीके लिये पाद्य, अर्घ्य आदि प्रस्तुत किये तथा देश और कालके"
+          "hindi": "रहे थे। वे बातचीतमें बड़ी चतुर तथा समस्त कलाओंमें कुशल थीं। उनकी संख्या पचाससे अधिक थी। उन सबने शुकदेवजीके लिये पाद्य, अर्घ्य आदि प्रस्तुत किये तथा देश और कालके",
+          "translation": "(The Paduka mantra, in coded seed-syllables: \"Va, Maya, Shri, Bhagendu-adhya\" ... etc.)",
+          "translationSource": "ai"
         },
         {
           "number": 52,
           "sanskrit": "ततो भृग्वाकाशरवाग्निभगेन्द्वाढ्याः परन्तिमः । सहक्षमलतोयाग्निचन्द्रशान्तियुतो मरुत्",
           "transliteration": "tato bhṛgvākāśaravāgnibhagendvāḍhyāḥ parantimaḥ / sahakṣamalatoyāgnicandraśāntiyuto marut",
-          "hindi": "अनुसार प्राप्त हुआ उत्तम अन्न भोजन कराकर उन्हें तृत किया। नारदजी! जब वे भोजन कर चुके तो उनमेंसे एक-एक युवतीने शुकदेवजीको"
+          "hindi": "अनुसार प्राप्त हुआ उत्तम अन्न भोजन कराकर उन्हें तृत किया। नारदजी! जब वे भोजन कर चुके तो उनमेंसे एक-एक युवतीने शुकदेवजीको",
+          "translation": "(Continuation of the coded seed-syllables of the mantra.)",
+          "translationSource": "ai"
         },
         {
           "number": 53,
           "sanskrit": "ततः श्रीश्चामुकान्ते तु नन्दनाथामुकी पुनः । देव्यंबान्ते श्रीपान्दुकां पूजयामि हृदन्तिमे",
           "transliteration": "tataḥ śrīścāmukānte tu nandanāthāmukī punaḥ / devyaṃbānte śrīpāndukāṃ pūjayāmi hṛdantime",
-          "hindi": "अपने साथ लेकर उन्हें वह अन्तःपुरका वन दिखलाया। फिर मनके भावोंको समझनेवाली वे"
+          "hindi": "अपने साथ लेकर उन्हें वह अन्तःपुरका वन दिखलाया। फिर मनके भावोंको समझनेवाली वे",
+          "translation": "(Continuation: ... \"Nandanatha ... Devi Amba ... Shri Paduka pujayami\" at the heart.)",
+          "translationSource": "ai"
         },
         {
           "number": 54,
           "sanskrit": "अयं श्रीपादुकामन्त्रः सर्वसिद्धिप्रदो नृणाम् । गुह्येति च समर्प्याथ मन्त्रैरेतैर्नमेत्सुधीः",
           "transliteration": "ayaṃ śrīpādukāmantraḥ sarvasiddhiprado nṛṇām / guhyeti ca samarpyātha mantrairetairnametsudhīḥ",
-          "hindi": "शुकदेव मुनिकी परिचर्या करने लगीं शुकदेवमुनिका अन्त:करण परम शुद्ध था। वे क्रोध और इन्द्रियोंको जीत चुके थे तथा निरन्तर ध्यानमें ही स्थित रहते थे। उनके मनमें न हर्ष"
+          "hindi": "शुकदेव मुनिकी परिचर्या करने लगीं शुकदेवमुनिका अन्त:करण परम शुद्ध था। वे क्रोध और इन्द्रियोंको जीत चुके थे तथा निरन्तर ध्यानमें ही स्थित रहते थे। उनके मनमें न हर्ष",
+          "translation": "This is the Shri Paduka mantra, giving all success to men. Having offered the secret thing, the wise man should bow with these verses:",
+          "translationSource": "ai"
         },
         {
           "number": 55,
           "sanskrit": "अखण्डमण्डलाकारं व्याप्तं येन चराचरम् । तत्पदं दर्शितं येन तस्मै श्रीगुरवे नमः",
           "transliteration": "akhaṇḍamaṇḍalākāraṃ vyāptaṃ yena carācaram / tatpadaṃ darśitaṃ yena tasmai śrīgurave namaḥ",
-          "hindi": "होता था, न क्रोध। संध्याका समय होनेपर शुकदेवजीने हाथ-पैर धोकर संध्योपासना कौ। फिर वे पवित्र आसनपर बैठे और उसी मोक्ष- धर्मके विषयमें विचार करने लगे। रातके पहले"
+          "hindi": "होता था, न क्रोध। संध्याका समय होनेपर शुकदेवजीने हाथ-पैर धोकर संध्योपासना कौ। फिर वे पवित्र आसनपर बैठे और उसी मोक्ष- धर्मके विषयमें विचार करने लगे। रातके पहले",
+          "translation": "\"Homage to the glorious teacher by whom was shown that state which pervades the moving and unmoving, in the form of an undivided circle.",
+          "translationSource": "ai"
         },
         {
           "number": 56,
           "sanskrit": "अज्ञानतिमिरान्धस्य ज्ञानाञ्जनशलाकया । चक्षुरुन्मीलितं येन तस्मै श्रीगुरवे नमः",
           "transliteration": "ajñānatimirāndhasya jñānāñjanaśalākayā / cakṣurunmīlitaṃ yena tasmai śrīgurave namaḥ",
-          "hindi": "पहरमें वे ध्यान लगाये बैठे रहे। दूसरे और तीसरे पहरमें भगवान् शुकने न्यायपूर्वक निद्राको स्वीकार किया। फिर प्रात:काल ब्रह्मवेलामें ही उठकर उन्होंने शौच-स्रान किया। तदनन्तर"
+          "hindi": "पहरमें वे ध्यान लगाये बैठे रहे। दूसरे और तीसरे पहरमें भगवान् शुकने न्यायपूर्वक निद्राको स्वीकार किया। फिर प्रात:काल ब्रह्मवेलामें ही उठकर उन्होंने शौच-स्रान किया। तदनन्तर",
+          "translation": "Homage to the glorious teacher by whom the eye of one blinded by the darkness of ignorance was opened with the salve-stick of knowledge.",
+          "translationSource": "ai"
         },
         {
           "number": 57,
           "sanskrit": "नमो ऽस्तु गुरवे तस्मा इष्टदेवस्वरूपिणे । यस्य वागमृतं हॄन्ति विषं संसारसंज्ञकम्",
           "transliteration": "namo 'stu gurave tasmā iṣṭadevasvarūpiṇe / yasya vāgamṛtaṃ hṝnti viṣaṃ saṃsārasaṃjñakam",
-          "hindi": "स्त्रियोंसे घिरे होनेपर भी परम बुद्धिमान् शुक पुन: ध्यानमें ही लग गये। नारदजी! इसी विधिसे उन्होंने वह शेष दिन और सम्पूर्ण रात्रि राजकुलमें व्यतीत की।"
+          "hindi": "स्त्रियोंसे घिरे होनेपर भी परम बुद्धिमान् शुक पुन: ध्यानमें ही लग गये। नारदजी! इसी विधिसे उन्होंने वह शेष दिन और सम्पूर्ण रात्रि राजकुलमें व्यतीत की।",
+          "translation": "Homage to that teacher, whose form is the chosen deity, whose nectar-like speech destroys the poison called samsara.\"",
+          "translationSource": "ai"
         },
         {
           "number": 58,
           "sanskrit": "इति नत्वा पठेत्स्तोत्रं सद्यः प्रत्ययकारकम् । ॐ नमस्ते नाथ भगवान् शिवाय गुरुरूपिणे",
           "transliteration": "iti natvā paṭhetstotraṃ sadyaḥ pratyayakārakam / oṃ namaste nātha bhagavān śivāya gururūpiṇe",
-          "hindi": "द्विजश्रेष्ठ। तदनन्तर मन्त्रियोंसहित राजा जनक पुरोहित तथा अन्त:पुरकी स्त्रियोंको आगे करके मस्तकपर अर्घ्यपात्र लिये गुरुपुत्र शुकदेवजीके समीप गये। उन्होंने सम्पूर्ण रत्रोंसे"
+          "hindi": "द्विजश्रेष्ठ। तदनन्तर मन्त्रियोंसहित राजा जनक पुरोहित तथा अन्त:पुरकी स्त्रियोंको आगे करके मस्तकपर अर्घ्यपात्र लिये गुरुपुत्र शुकदेवजीके समीप गये। उन्होंने सम्पूर्ण रत्रोंसे",
+          "translation": "Having bowed thus, he should recite the hymn that quickly produces conviction: \"Om, homage to you, Lord, Shiva in the form of the teacher,",
+          "translationSource": "ai"
         },
         {
           "number": 59,
           "sanskrit": "विद्यावतारसंसिद्ध्यै स्वीकृतानेकविग्रह । नवाय तनरूपाय परमार्थैकरूपिणे",
           "transliteration": "vidyāvatārasaṃsiddhyai svīkṛtānekavigraha / navāya tanarūpāya paramārthaikarūpiṇe",
-          "hindi": "विभूषित एक महान् सिंहासन लेकर गुरुपुत्र शुकदेवजीको अर्पित किया। व्यासनन्दन शुक जब उस आसनपर विराजमान हुए, तब राजाने पहले उन्हें पाद्य अर्पण किया, उसके बाद"
+          "hindi": "विभूषित एक महान् सिंहासन लेकर गुरुपुत्र शुकदेवजीको अर्पित किया। व्यासनन्दन शुक जब उस आसनपर विराजमान हुए, तब राजाने पहले उन्हें पाद्य अर्पण किया, उसके बाद",
+          "translation": "who took many forms for the accomplishment of the descent of knowledge; to the ever-new, to the one in body-form, whose sole form is the highest truth;",
+          "translationSource": "ai"
         },
         {
           "number": 60,
           "sanskrit": "सर्वाज्ञानतमोभेदभानवे चिद्धनाय ते । स्ततन्त्राय दयाकॢप्तविग्रहाय शिवात्मने",
           "transliteration": "sarvājñānatamobhedabhānave ciddhanāya te / statantrāya dayākḷptavigrahāya śivātmane",
-          "hindi": "अर्घ्यसहित गाय निवेदन की । महातेजस्वी द्विजोत्तम शुकने मन्त्रोच्चारणपूर्वक की हुई उस पूजाको स्वीकार करके राजाका कुशल-मड्ढल पूछा। राजाका हृदय और परिजन सभी उदार थे। वे"
+          "hindi": "अर्घ्यसहित गाय निवेदन की । महातेजस्वी द्विजोत्तम शुकने मन्त्रोच्चारणपूर्वक की हुई उस पूजाको स्वीकार करके राजाका कुशल-मड्ढल पूछा। राजाका हृदय और परिजन सभी उदार थे। वे",
+          "translation": "to the sun that dispels the darkness of all ignorance, a mass of consciousness; independent, whose body is formed of mercy, whose self is Shiva;",
+          "translationSource": "ai"
         },
         {
           "number": 61,
           "sanskrit": "परत्र त्राय भक्तानां भव्यानां भावरूपिणे । विवेकिनां विवेकाय विमर्शाय विमर्शिनाम्",
           "transliteration": "paratra trāya bhaktānāṃ bhavyānāṃ bhāvarūpiṇe / vivekināṃ vivekāya vimarśāya vimarśinām",
-          "hindi": "भी गुरुपुत्रसे कुशल-समाचार बताकर उनकी"
+          "hindi": "भी गुरुपुत्रसे कुशल-समाचार बताकर उनकी",
+          "translation": "to the protector hereafter of devotees, the one whose form is the existence of the fortunate; to the discrimination of the discriminating, the reflection of the reflective;",
+          "translationSource": "ai"
         },
         {
           "number": 62,
           "sanskrit": "प्रकाशानां प्रकाशाय ज्ञानिनां ज्ञानरूपिणे । पुरस्तात्पार्श्वयोः पृष्टे नमस्तुभ्यमुपर्यधः",
           "transliteration": "prakāśānāṃ prakāśāya jñānināṃ jñānarūpiṇe / purastātpārśvayoḥ pṛṣṭe namastubhyamuparyadhaḥ",
-          "hindi": "शुकसे कुशल-मड्ल पूछकर विधिज्ञ राजाने"
+          "hindi": "शुकसे कुशल-मड्ल पूछकर विधिज्ञ राजाने",
+          "translation": "to the light of lights, the knowledge-form of the knowers; homage to you in front, at the sides, behind, above and below.",
+          "translationSource": "ai"
         },
         {
           "number": 63,
           "sanskrit": "सदा सञ्चित्स्वरूपेण विधेहि भवदासनम् । त्वत्प्रसादादहं देव कृताकृत्यो ऽस्मि सर्वतः",
           "transliteration": "sadā sañcitsvarūpeṇa vidhehi bhavadāsanam / tvatprasādādahaṃ deva kṛtākṛtyo 'smi sarvataḥ",
-          "hindi": "प्रश्न किया--' ब्रह्म! किसलिये आपका यहाँ शुभागमन हुआ है?!"
+          "hindi": "प्रश्न किया--' ब्रह्म! किसलिये आपका यहाँ शुभागमन हुआ है?!",
+          "translation": "Always, in the form of being-consciousness, grant me your seat. By your grace, O God, I am everywhere one whose work is done.",
+          "translationSource": "ai"
         },
         {
           "number": 64,
           "sanskrit": "मायामृत्युमहापाशाद्विमुक्तो ऽस्मि शिवो ऽस्मि वः । इति स्तुत्वा ततः सर्व गुरवे विनिवेदयेत्",
           "transliteration": "māyāmṛtyumahāpāśādvimukto 'smi śivo 'smi vaḥ / iti stutvā tataḥ sarva gurave vinivedayet",
-          "hindi": "शुकदेवजी बोले--राजन्! आपका कल्याण हो! पिताजीने मुझसे कहा है कि “मेरे यजमान विदेहराज जनक मोक्ष-धर्मके तत्त्वको जाननेमें कुशल हैं। तुम उन्हींके पास जाओ। तुम्हारे"
+          "hindi": "शुकदेवजी बोले--राजन्! आपका कल्याण हो! पिताजीने मुझसे कहा है कि “मेरे यजमान विदेहराज जनक मोक्ष-धर्मके तत्त्वको जाननेमें कुशल हैं। तुम उन्हींके पास जाओ। तुम्हारे",
+          "translation": "I am freed from the great noose of maya and death; I am Shiva, I am yours.\" Having thus praised, he should offer everything to the teacher.",
+          "translationSource": "ai"
         },
         {
           "number": 65,
           "sanskrit": "प्रातः प्रभृति सायान्तं सांयादिप्रातरन्ततः । यत्करोमि जगन्नाथ तदस्तु तव पूजनम्",
           "transliteration": "prātaḥ prabhṛti sāyāntaṃ sāṃyādiprātarantataḥ / yatkaromi jagannātha tadastu tava pūjanam",
-          "hindi": "हृदयमें प्रवृत्ति या निवृत्तिके विषयमें जो भी संदेह होगा, उसका वे शीघ्र ही निवारण कर देंगे। इसमें संशय नहीं है।! अत: मैं पिताजीकी आज्ञासे आपके समीप अपना हार्दिक संशय मिटानेके"
+          "hindi": "हृदयमें प्रवृत्ति या निवृत्तिके विषयमें जो भी संदेह होगा, उसका वे शीघ्र ही निवारण कर देंगे। इसमें संशय नहीं है।! अत: मैं पिताजीकी आज्ञासे आपके समीप अपना हार्दिक संशय मिटानेके",
+          "translation": "\"From morning to evening, from evening to the next morning, whatever I do, O Lord of the world, let that be your worship.\"",
+          "translationSource": "ai"
         },
         {
           "number": 66,
           "sanskrit": "ततश्च गुरुपादाब्जगलितामृतधारया । क्षालितं निजमात्मानं लिर्मलं भावयेत्सुधीः",
           "transliteration": "tataśca gurupādābjagalitāmṛtadhārayā / kṣālitaṃ nijamātmānaṃ lirmalaṃ bhāvayetsudhīḥ",
-          "hindi": "लिये यहाँ आया हूँ। आप धर्मात्माओंमें श्रेष्ठ हैं। मुझे यथावत् उपदेश देनेकी कृपा करें। ब्राह्मणका इस जगतूमें क्‍या कर्तव्य है ? तथा मोक्षका स्वरूप कैसा है? उसे ज्ञान या तपस्या किस साधनसे"
+          "hindi": "लिये यहाँ आया हूँ। आप धर्मात्माओंमें श्रेष्ठ हैं। मुझे यथावत् उपदेश देनेकी कृपा करें। ब्राह्मणका इस जगतूमें क्‍या कर्तव्य है ? तथा मोक्षका स्वरूप कैसा है? उसे ज्ञान या तपस्या किस साधनसे",
+          "translation": "Then the wise man should imagine himself washed by the stream of nectar flowing from the teacher's lotus feet, made stainless.",
+          "translationSource": "ai"
         },
         {
           "number": 67,
           "sanskrit": "मूलादिब्रह्मरन्ध्रान्तं मूलविद्यां विभावयेत् । मूलाधारादधो भागे वर्तुलं वायुमण्डलम्",
           "transliteration": "mūlādibrahmarandhrāntaṃ mūlavidyāṃ vibhāvayet / mūlādhārādadho bhāge vartulaṃ vāyumaṇḍalam",
-          "hindi": "राजा जनकने कहा--ब्रह्मन्! इस जगत्में जन्मसे लेकर जीवनपर्यन्त ब्राह्मणका जो कर्तव्य है, वह बतलाता हूँ, सुनो--तात! उपनयन- संस्कारके पश्चात् ब्राह्मण-बालकको वेदोंके स्वाध्यायमें"
+          "hindi": "राजा जनकने कहा--ब्रह्मन्! इस जगत्में जन्मसे लेकर जीवनपर्यन्त ब्राह्मणका जो कर्तव्य है, वह बतलाता हूँ, सुनो--तात! उपनयन- संस्कारके पश्चात् ब्राह्मण-बालकको वेदोंके स्वाध्यायमें",
+          "translation": "He should contemplate the root-vidya from the muladhara to the Brahma-aperture. Below the muladhara is a round circle of wind.",
+          "translationSource": "ai"
         },
         {
           "number": 68,
           "sanskrit": "तत्रस्थवायुबीजोत्थवायुना च तद्रूर्द्ध्वकम् । त्रिकोणं मण्डलं वह्नेस्तत्रस्थवह्निबीजतः",
           "transliteration": "tatrasthavāyubījotthavāyunā ca tadrūrddhvakam / trikoṇaṃ maṇḍalaṃ vahnestatrasthavahnibījataḥ",
-          "hindi": "लग जाना चाहिए। वह तपस्या, गुरुसेवा और ब्रह्मचर्य-पालनमें संलग्र रहे। होम तथा श्राद्ध- तर्पणद्वारा देवताओं और पितरोंके ऋणसे मुक्त हो। किसीकी निन्दा न करे। सम्पूर्ण वेदोंका"
+          "hindi": "लग जाना चाहिए। वह तपस्या, गुरुसेवा और ब्रह्मचर्य-पालनमें संलग्र रहे। होम तथा श्राद्ध- तर्पणद्वारा देवताओं और पितरोंके ऋणसे मुक्त हो। किसीकी निन्दा न करे। सम्पूर्ण वेदोंका",
+          "translation": "By the wind arisen from the wind-seed in it, and above it a triangular circle of fire; by the fire arisen from the fire-seed placed there,",
+          "translationSource": "ai"
         },
         {
           "number": 69,
           "sanskrit": "उत्पन्नेनाग्निना मूलाधारावस्थितविग्रहाम् । प्रसुप्तभुजगाकारां स्वयंभूलिङ्गवेष्टिनीम्",
           "transliteration": "utpannenāgninā mūlādhārāvasthitavigrahām / prasuptabhujagākārāṃ svayaṃbhūliṅgaveṣṭinīm",
-          "hindi": "नियमपूर्वक अध्ययन पूरा करके गुरुको दक्षिणा दे, फिर उनकी आज्ञा लेकर द्विजबालक अपने घरको लौटे । समावर्तन-संस्कारके पश्चात् गुरुकुलसे लौटा हुआ ब्राह्मणकुमार विवाह करके अपनी"
+          "hindi": "नियमपूर्वक अध्ययन पूरा करके गुरुको दक्षिणा दे, फिर उनकी आज्ञा लेकर द्विजबालक अपने घरको लौटे । समावर्तन-संस्कारके पश्चात् गुरुकुलसे लौटा हुआ ब्राह्मणकुमार विवाह करके अपनी",
+          "translation": "the body that stays at the muladhara, shaped like a sleeping serpent, coiled around the self-born linga,",
+          "translationSource": "ai"
         },
         {
           "number": 70,
           "sanskrit": "विसतन्तुनिभां कोटिविद्युदाभां तनीयसीम् । कुलकुण्डलिनीं ध्यात्वा कूर्चेनोत्थापयेञ्च ताम्",
           "transliteration": "visatantunibhāṃ koṭividyudābhāṃ tanīyasīm / kulakuṇḍalinīṃ dhyātvā kūrcenotthāpayeñca tām",
-          "hindi": "ही पत्नीमें अनुराग रखते हुए गृहस्थ-आश्रममें निवास करे। किसीके दोष न देखे। न्यायपूर्वक बर्ताव करे। अग्निकी स्थापना करके प्रतिदिन आदरपूर्वक अग्रिहोत्र करे। पुत्र और पोत्रोंकी"
+          "hindi": "ही पत्नीमें अनुराग रखते हुए गृहस्थ-आश्रममें निवास करे। किसीके दोष न देखे। न्यायपूर्वक बर्ताव करे। अग्निकी स्थापना करके प्रतिदिन आदरपूर्वक अग्रिहोत्र करे। पुत्र और पोत्रोंकी",
+          "translation": "like a lotus-fibre, bright as ten million lightnings, very fine: having meditated on the Kula-Kundalini, he should raise her by the kurcha (technique).",
+          "translationSource": "ai"
         },
         {
           "number": 71,
           "sanskrit": "सुषुम्णावर्त्मनातां च षट्चक्रक्रमभेदिनीम् । गुरुपदिष्टविधिना ब्रह्मरन्ध्रं नयेत्सुधीः",
           "transliteration": "suṣumṇāvartmanātāṃ ca ṣaṭcakrakramabhedinīm / gurupadiṣṭavidhinā brahmarandhraṃ nayetsudhīḥ",
-          "hindi": "उत्पत्ति हो जानेपर वानप्रस्थ-आश्रममें रहे और पहलेकी स्थापित अग्रिका ही विधिपूर्वक आहुतिद्वारा पूजन करे। वानप्रस्थीको भी अतिथि-सेवामें प्रेम"
+          "hindi": "उत्पत्ति हो जानेपर वानप्रस्थ-आश्रममें रहे और पहलेकी स्थापित अग्रिका ही विधिपूर्वक आहुतिद्वारा पूजन करे। वानप्रस्थीको भी अतिथि-सेवामें प्रेम",
+          "translation": "Through the sushumna path, piercing the six wheels in order, by the method taught by the teacher the wise man should lead her to the Brahma-aperture.",
+          "translationSource": "ai"
         },
         {
           "number": 72,
           "sanskrit": "तत्रस्थामृतसंमग्नीकृत्यात्मानं विभावयेत् । तत्प्रभापटलव्याप्तैविमलं चिन्मयं परम्",
           "transliteration": "tatrasthāmṛtasaṃmagnīkṛtyātmānaṃ vibhāvayet / tatprabhāpaṭalavyāptaivimalaṃ cinmayaṃ param",
-          "hindi": "रखना चाहिए। तदनन्तर धर्मज्ञ पुरुष वनमें न्यायपूर्वक सम्पूर्ण अग्नियोंको ( भावनाद्वारा) अपने भीतर ही लीन करके वीतराग हो ब्रह्मचिन्तनपरायण संन्‍न्यास-आश्रममें निवास करे और शीत, उष्ण"
+          "hindi": "रखना चाहिए। तदनन्तर धर्मज्ञ पुरुष वनमें न्यायपूर्वक सम्पूर्ण अग्नियोंको ( भावनाद्वारा) अपने भीतर ही लीन करके वीतराग हो ब्रह्मचिन्तनपरायण संन्‍न्यास-आश्रममें निवास करे और शीत, उष्ण",
+          "translation": "There, immersing himself in the nectar abiding there, he should contemplate the supreme stainless, consciousness-made Self pervaded by a mass of its light.",
+          "translationSource": "ai"
         },
         {
           "number": 73,
           "sanskrit": "पुनस्तां स्वस्थलं नीत्वा हृदिदेवं विचिन्तयन् । दृष्ट्वा च मानसैर्द्रव्यैः प्रार्थयेन्मनुनामुना",
           "transliteration": "punastāṃ svasthalaṃ nītvā hṛdidevaṃ vicintayan / dṛṣṭvā ca mānasairdravyaiḥ prārthayenmanunāmunā",
-          "hindi": "आदि द्वन्द्दोंको धेर्यपूर्वक सहन करे।"
+          "hindi": "आदि द्वन्द्दोंको धेर्यपूर्वक सहन करे।",
+          "translation": "Then, bringing her again to her own place, meditating on the God in the heart, having seen him, he should pray with mental offerings with this mantra:",
+          "translationSource": "ai"
         },
         {
           "number": 74,
           "sanskrit": "त्रैलोक्यचैत न्यमयादिदेव श्रीनाथ विष्णो भवदाज्ञयैव । प्रातः समुत्थाय तव प्रियार्थं संसारयात्रां त्वनुवर्तयिष्ये",
           "transliteration": "trailokyacaita nyamayādideva śrīnātha viṣṇo bhavadājñayaiva / prātaḥ samutthāya tava priyārthaṃ saṃsārayātrāṃ tvanuvartayiṣye",
-          "hindi": "शुकदेवजीने पूछा--राजन्! यदि किसीको ब्रह्मचर्य-आश्रममें ही सनातन ज्ञान-विज्ञानकी प्राप्ति हो जाय और हृदयके राग-द्वेष आदि द्वन्द्र दूर हो गये हों तो भी उसके लिये क्या शेष तीन"
+          "hindi": "शुकदेवजीने पूछा--राजन्! यदि किसीको ब्रह्मचर्य-आश्रममें ही सनातन ज्ञान-विज्ञानकी प्राप्ति हो जाय और हृदयके राग-द्वेष आदि द्वन्द्र दूर हो गये हों तो भी उसके लिये क्या शेष तीन",
+          "translation": "\"O God, who are of the nature of the consciousness of the three worlds, Lord of Lakshmi, Vishnu — by your command alone, rising in the morning for your pleasure, I shall carry on the journey of samsara.\"",
+          "translationSource": "ai"
         },
         {
           "number": 75,
           "sanskrit": "विष्णोरिति स्थले विप्र कार्य ऊहो ऽन्यदैवते । तततः कुर्यात्सर्वसिद्ध्यै त्वजपाया निवेदनम्",
           "transliteration": "viṣṇoriti sthale vipra kārya ūho 'nyadaivate / tatataḥ kuryātsarvasiddhyai tvajapāyā nivedanam",
-          "hindi": "आश्रमोंमें निवास करना अत्यन्त आवश्यक है? इस संदेहके विषयमें मैं आपसे पूछ रहा हूँ। आप बतानेकी कृपा करें।"
+          "hindi": "आश्रमोंमें निवास करना अत्यन्त आवश्यक है? इस संदेहके विषयमें मैं आपसे पूछ रहा हूँ। आप बतानेकी कृपा करें।",
+          "translation": "In place of 'Vishnu', O Brahmin, for another deity one should adjust. Then, for all success, he should offer the ajapa (spontaneous chant).",
+          "translationSource": "ai"
         },
         {
           "number": 76,
           "sanskrit": "षट्शतानि दिवा रात्रौ सहस्राण्येकविंशतिः । अजपाख्यां तु गायत्रीं जीवोजपति सर्वदा",
           "transliteration": "ṣaṭśatāni divā rātrau sahasrāṇyekaviṃśatiḥ / ajapākhyāṃ tu gāyatrīṃ jīvojapati sarvadā",
-          "hindi": "राजा जनकने कहा--ब्रह्मन्! जैसे ज्ञान- विज्ञानके बिना मोक्षकी प्राप्ति नहीं होती, उसी प्रकार सदगुरुसे सम्बन्ध हुए बिना ज्ञानकी उपलब्धि भी नहीं होती। गुरु इस संसार-सागरसे"
+          "hindi": "राजा जनकने कहा--ब्रह्मन्! जैसे ज्ञान- विज्ञानके बिना मोक्षकी प्राप्ति नहीं होती, उसी प्रकार सदगुरुसे सम्बन्ध हुए बिना ज्ञानकी उपलब्धि भी नहीं होती। गुरु इस संसार-सागरसे",
+          "translation": "Six hundred by day and night, twenty-one thousand: the soul always chants the Gayatri called Ajapa.",
+          "translationSource": "ai"
         },
         {
           "number": 77,
           "sanskrit": "ऋषिर्हंसस्तथाव्यक्तगात्रीछन्द ईरितम् । देवता परमोहंसश्चाद्यन्ते बीजशक्तिकम्",
           "transliteration": "ṛṣirhaṃsastathāvyaktagātrīchanda īritam / devatā paramohaṃsaścādyante bījaśaktikam",
-          "hindi": "पार उतारनेवाले हैं और उनका दिया हुआ ज्ञान नौकाके समान बताया गया है। लोककी धार्मिक मर्यादाका उच्छेद न हो और कर्मानुष्ठानकी परम्पराका भी नाश न होने पावे, इसके लिये"
+          "hindi": "पार उतारनेवाले हैं और उनका दिया हुआ ज्ञान नौकाके समान बताया गया है। लोककी धार्मिक मर्यादाका उच्छेद न हो और कर्मानुष्ठानकी परम्पराका भी नाश न होने पावे, इसके लिये",
+          "translation": "Its seer is Hamsa, its metre is the unmanifest Gayatri; its deity is the Supreme Hamsa, with seed and power at its beginning and end.",
+          "translationSource": "ai"
         },
         {
           "number": 78,
