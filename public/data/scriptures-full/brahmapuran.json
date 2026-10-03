@@ -79371,7 +79371,9 @@
           "number": 23,
           "sanskrit": "एवंविधान्य् अनेकानि बलदेवस्य धीमतः कर्माण्य् अपरिमेयानि शेषस्य धरणीभृतः",
           "transliteration": "evaṃvidhāny anekāni baladevasya dhīmataḥ karmāṇy aparimeyāni śeṣasya dharaṇībhṛtaḥ",
-          "hindi": "सुशोभित आपके इस रूपका मैं दर्शन करती हूँ। आपका जो परम सूक्ष्म स्वरूप है, उसको मैं नहीं"
+          "hindi": "सुशोभित आपके इस रूपका मैं दर्शन करती हूँ। आपका जो परम सूक्ष्म स्वरूप है, उसको मैं नहीं",
+          "translation": "Such and many other immeasurable deeds were done by the wise Baladeva, Shesha, supporter of the earth.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -79734,85 +79736,113 @@
           "number": 45,
           "sanskrit": "कृष्णो ऽपि कुपितस् तेषाम् एरकामुष्टिम् आददे वधाय तेषां मुशलं मुष्टिलोहम् अभूत् तदा",
           "transliteration": "kṛṣṇo 'pi kupitas teṣām erakāmuṣṭim ādade vadhāya teṣāṃ muśalaṃ muṣṭiloham abhūt tadā",
-          "hindi": "तो आपके इस सगुण-स्वरूपको ही जानते हें ।  वृक्ष लेकर श्रीकृष्ण सहसा द्वारकापुरीके ऊपर जा"
+          "hindi": "तो आपके इस सगुण-स्वरूपको ही जानते हें ।  वृक्ष लेकर श्रीकृष्ण सहसा द्वारकापुरीके ऊपर जा",
+          "translation": "Krishna too, angry, took a handful of eraka reeds; for killing them it became an iron club at that moment.",
+          "translationSource": "ai"
         },
         {
           "number": 46,
           "sanskrit": "जघान तेन निःशेषान् आततायी स यादवान् जघ्नुश् च सहसाभ्येत्य तथान्ये तु परस्परम्",
           "transliteration": "jaghāna tena niḥśeṣān ātatāyī sa yādavān jaghnuś ca sahasābhyetya tathānye tu parasparam",
-          "hindi": "आपके सूक्ष्म स्वरूपका ज्ञान हमें नहीं है । जगन्नाथ ! आप जो कोई भी हों, इस समय जगत्को रक्षामें तत्पर हैं । असुरसूदन! आप संसारका कण्टक दूर कर रहे हैं। श्रीकृष्ण! यह पारिजात आप द्वारकापुरीको"
+          "hindi": "आपके सूक्ष्म स्वरूपका ज्ञान हमें नहीं है । जगन्नाथ ! आप जो कोई भी हों, इस समय जगत्को रक्षामें तत्पर हैं । असुरसूदन! आप संसारका कण्टक दूर कर रहे हैं। श्रीकृष्ण! यह पारिजात आप द्वारकापुरीको",
+          "translation": "With it that aggressor killed all the Yadavas, and others too, suddenly coming, killed one another.",
+          "translationSource": "ai"
         },
         {
           "number": 47,
           "sanskrit": "ततश् चार्णवमध्येन जैत्रो ऽसौ चक्रिणो रथः पश्यतो दारुकस्याशु हृतो ऽश्वैर् द्विजसत्तमाः",
           "transliteration": "tataś cārṇavamadhyena jaitro 'sau cakriṇo rathaḥ paśyato dārukasyāśu hṛto 'śvair dvijasattamāḥ",
-          "hindi": "ले जायँँ। जब आप मर्त्यलोक छोड़ देंगे, तब यह पृथ्वीपर नहीं रहेगा।"
+          "hindi": "ले जायँँ। जब आप मर्त्यलोक छोड़ देंगे, तब यह पृथ्वीपर नहीं रहेगा।",
+          "translation": "Then through the middle of the ocean the victorious chariot of the discus-bearer was carried off by horses, as Daruka looked on, best of Brahmins.",
+          "translationSource": "ai"
         },
         {
           "number": 48,
           "sanskrit": "चक्रं गदा तथा शार्ङ्गं तूणौ शङ्खो ऽसिर् एव च प्रदक्षिणं ततः कृत्वा जग्मुर् आदित्यवर्त्मना",
           "transliteration": "cakraṃ gadā tathā śārṅgaṃ tūṇau śaṅkho 'sir eva ca pradakṣiṇaṃ tataḥ kṛtvā jagmur ādityavartmanā",
-          "hindi": "“बहुत अच्छा' कहकर भगवान् श्रीहरि भूलोकमें चले आये। उस समय सिद्ध, गन्धर्व तथा ऋषि- महर्षि उनकी स्तुति कर रहे थे। उत्तम पारिजात"
+          "hindi": "“बहुत अच्छा' कहकर भगवान् श्रीहरि भूलोकमें चले आये। उस समय सिद्ध, गन्धर्व तथा ऋषि- महर्षि उनकी स्तुति कर रहे थे। उत्तम पारिजात",
+          "translation": "The discus, mace, Sharnga bow, quivers, conch and sword circumambulated him and went by the sun's path.",
+          "translationSource": "ai"
         },
         {
           "number": 49,
           "sanskrit": "क्षणमात्रेण वै तत्र यादवानाम् अभूत् क्षयः ऋते कृष्णं महाबाहुं दारुकं च द्विजोत्तमाः",
           "transliteration": "kṣaṇamātreṇa vai tatra yādavānām abhūt kṣayaḥ ṛte kṛṣṇaṃ mahābāhuṃ dārukaṃ ca dvijottamāḥ",
-          "hindi": "पहुँचे। उन्होंने शङ्ख बजाकर द्वारकावासियोंके हृदयमें हर्ष भर दिया। फिर सत्यभामाके साथ गरुडसे उतरकर पारिजातको उनके ऑगनमें लगाया। उसके"
+          "hindi": "पहुँचे। उन्होंने शङ्ख बजाकर द्वारकावासियोंके हृदयमें हर्ष भर दिया। फिर सत्यभामाके साथ गरुडसे उतरकर पारिजातको उनके ऑगनमें लगाया। उसके",
+          "translation": "In a moment there the destruction of the Yadavas occurred, except for the mighty-armed Krishna and Daruka, best of Brahmins.",
+          "translationSource": "ai"
         },
         {
           "number": 50,
           "sanskrit": "चङ्क्रम्यमाणौ तौ रामं वृक्षमूलकृतासनम् ददृशाते मुखाच् चास्य निष्क्रामन्तं महोरगम्",
           "transliteration": "caṅkramyamāṇau tau rāmaṃ vṛkṣamūlakṛtāsanam dadṛśāte mukhāc cāsya niṣkrāmantaṃ mahoragam",
-          "hindi": "नीचे जानेपर सब लोगोंको अपने पूर्वजन्मको"
+          "hindi": "नीचे जानेपर सब लोगोंको अपने पूर्वजन्मको",
+          "translation": "Wandering, the two saw Rama seated at the foot of a tree and a great serpent coming out of his mouth.",
+          "translationSource": "ai"
         },
         {
           "number": 51,
           "sanskrit": "निष्क्रम्य स मुखात् तस्य महाभोगो भुजंगमः प्रयातश् चार्णवं सिद्धैः पूज्यमानस् तथोरगैः",
           "transliteration": "niṣkramya sa mukhāt tasya mahābhogo bhujaṃgamaḥ prayātaś cārṇavaṃ siddhaiḥ pūjyamānas tathoragaiḥ",
-          "hindi": "बातें याद आ जाती थीं। उसके फूलोंकी सुगन्धसे बारह कोसतकको पृथ्वी सुवासित रहती थी।"
+          "hindi": "बातें याद आ जाती थीं। उसके फूलोंकी सुगन्धसे बारह कोसतकको पृथ्वी सुवासित रहती थी।",
+          "translation": "Coming out of his mouth, that great-bodied serpent went to the ocean, worshipped by Siddhas and serpents.",
+          "translationSource": "ai"
         },
         {
           "number": 52,
           "sanskrit": "तम् अर्घ्यम् आदाय तदा जलधिः संमुखं ययौ प्रविवेश च तत्तोयं पूजितः पन्नगोत्तमैः दृष्ट्वा बलस्य निर्याणं दारुकं प्राह केशवः",
           "transliteration": "tam arghyam ādāya tadā jaladhiḥ saṃmukhaṃ yayau praviveśa ca tattoyaṃ pūjitaḥ pannagottamaiḥ dṛṣṭvā balasya niryāṇaṃ dārukaṃ prāha keśavaḥ",
-          "hindi": "सम्पूर्ण यादवोंने उस वृक्षके पास जाकर जज अपना मुख देखा, तब उन्होंने अपनेको अमानव--"
+          "hindi": "सम्पूर्ण यादवोंने उस वृक्षके पास जाकर जज अपना मुख देखा, तब उन्होंने अपनेको अमानव--",
+          "translation": "The ocean, taking arghya, then went to meet him and he entered its water, worshipped by the best of serpents. Seeing Bala's departure, Keshava said to Daruka:",
+          "translationSource": "ai"
         },
         {
           "number": 53,
           "sanskrit": "इदं सर्वं त्वम् आचक्ष्व वसुदेवोग्रसेनयोः निर्याणं बलदेवस्य यादवानां तथा क्षयम्",
           "transliteration": "idaṃ sarvaṃ tvam ācakṣva vasudevograsenayoḥ niryāṇaṃ baladevasya yādavānāṃ tathā kṣayam",
-          "hindi": "भगवान् श्रीकृष्णका सोलह हजार स्त्रियोंसे विवाह और उनकी संतति तथा उषाका अनिरुद्धके साथ विवाह"
+          "hindi": "भगवान् श्रीकृष्णका सोलह हजार स्त्रियोंसे विवाह और उनकी संतति तथा उषाका अनिरुद्धके साथ विवाह",
+          "translation": "\"Tell all this to Vasudeva and Ugrasena: Baladeva's departure and the destruction of the Yadavas.",
+          "translationSource": "ai"
         },
         {
           "number": 54,
           "sanskrit": "योगे स्थित्वाहम् अप्य् एतत् परित्यज्य कलेवरम् वाच्यश् च द्वारकावासी जनः सर्वस् तथाहुकः",
           "transliteration": "yoge sthitvāham apy etat parityajya kalevaram vācyaś ca dvārakāvāsī janaḥ sarvas tathāhukaḥ",
-          "hindi": "व्यासजी कहते हैं नरकासुरके सेवकोंने जो हाथी, घोड़े, धन, रत्न तथा स्त्रियोंको द्वारकामें पहुँचाया था, वह सब श्रीकृष्णने ले लिया। शुभ मुहूर्त आनेपर जनादनने नरकासुरके महलसे लायी"
+          "hindi": "व्यासजी कहते हैं नरकासुरके सेवकोंने जो हाथी, घोड़े, धन, रत्न तथा स्त्रियोंको द्वारकामें पहुँचाया था, वह सब श्रीकृष्णने ले लिया। शुभ मुहूर्त आनेपर जनादनने नरकासुरके महलसे लायी",
+          "translation": "I too, abiding in yoga, will give up this body. And let the people of Dvaraka and Ahuka be told:",
+          "translationSource": "ai"
         },
         {
           "number": 55,
           "sanskrit": "यथेमां नगरीं सर्वां समुद्रः प्लावयिष्यति तस्माद् रथैः सुसज्जैस् तु प्रतीक्ष्यो ह्य् अर्जुनागमः",
           "transliteration": "yathemāṃ nagarīṃ sarvāṃ samudraḥ plāvayiṣyati tasmād rathaiḥ susajjais tu pratīkṣyo hy arjunāgamaḥ",
-          "hindi": "हुई समस्त कन्याओंके साथ विवाह किया। एक ही समय श्रीगोविन्दने अनेक रूप धारण करके उन सबका स्वधर्मके अनुसार विधिपूर्वक पाणिग्रहण"
+          "hindi": "हुई समस्त कन्याओंके साथ विवाह किया। एक ही समय श्रीगोविन्दने अनेक रूप धारण करके उन सबका स्वधर्मके अनुसार विधिपूर्वक पाणिग्रहण",
+          "translation": "'The sea will flood this entire city; therefore, with chariots well prepared, await Arjuna's coming.",
+          "translationSource": "ai"
         },
         {
           "number": 56,
           "sanskrit": "न स्थेयं द्वारकामध्ये निष्क्रान्ते तत्र पाण्डवे तेनैव सह गन्तव्यं यत्र याति स कौरवः",
           "transliteration": "na stheyaṃ dvārakāmadhye niṣkrānte tatra pāṇḍave tenaiva saha gantavyaṃ yatra yāti sa kauravaḥ",
-          "hindi": "भगवान् मधुसूदनने भी उतने ही रूप धारण किये थे। प्रत्येक कन्या यह समझती थी कि भगवान् श्रीकृष्णने केवल मेरा पाणिग्रहण किया है । जगत्की सृष्टि करनेवाले विश्वरूपधारी श्रीहरि रात्रिके समय"
+          "hindi": "भगवान् मधुसूदनने भी उतने ही रूप धारण किये थे। प्रत्येक कन्या यह समझती थी कि भगवान् श्रीकृष्णने केवल मेरा पाणिग्रहण किया है । जगत्की सृष्टि करनेवाले विश्वरूपधारी श्रीहरि रात्रिके समय",
+          "translation": "Do not stay in the middle of Dvaraka when the Pandava has come out; go with him wherever that Kaurava goes.'",
+          "translationSource": "ai"
         },
         {
           "number": 57,
           "sanskrit": "गत्वा च ब्रूहि कौन्तेयम् अर्जुनं वचनं मम पालनीयस् त्वया शक्त्या जनो ऽयं मत्परिग्रहः",
           "transliteration": "gatvā ca brūhi kaunteyam arjunaṃ vacanaṃ mama pālanīyas tvayā śaktyā jano 'yaṃ matparigrahaḥ",
-          "hindi": "उन सभी स््त्रियोंके महलोंमें निवास करते थे।"
+          "hindi": "उन सभी स््त्रियोंके महलोंमें निवास करते थे।",
+          "translation": "Go and tell the son of Kunti, Arjuna, my words: 'This people who are in my charge are to be protected by you with your power.",
+          "translationSource": "ai"
         },
         {
           "number": 58,
           "sanskrit": "इत्य् अर्जुनेन सहितो द्वारवत्यां भवाञ् जनम् गृहीत्वा यातु वज्रश् च यदुराजो भविष्यति",
           "transliteration": "ity arjunena sahito dvāravatyāṃ bhavāñ janam gṛhītvā yātu vajraś ca yadurājo bhaviṣyati",
-          "hindi": "श्रीहरिके रुक्मिणीके गर्भसे उत्पन्न हुए प्रद्युम्न आदि पुत्रोंको चर्चा पहले की जा चुकी है। सत्यभामाने भानु आदि पुत्रोंको जन्म दिया। जाम्बवतीसे साम्ब आदिका जन्म हुआ। नाग्नजिती"
+          "hindi": "श्रीहरिके रुक्मिणीके गर्भसे उत्पन्न हुए प्रद्युम्न आदि पुत्रोंको चर्चा पहले की जा चुकी है। सत्यभामाने भानु आदि पुत्रोंको जन्म दिया। जाम्बवतीसे साम्ब आदिका जन्म हुआ। नाग्नजिती",
+          "translation": "Thus with Arjuna you should take the people out of Dvaravati; and Vajra will be king of the Yadavas.'\"",
+          "translationSource": "ai"
         }
       ]
     },
@@ -79847,55 +79877,73 @@
           "number": 4,
           "sanskrit": "स मानयन् द्विजवचो दुर्वासा यद् उवाच ह योगयुक्तो ऽभवत् पादं कृत्वा जानुनि सत्तमाः",
           "transliteration": "sa mānayan dvijavaco durvāsā yad uvāca ha yogayukto 'bhavat pādaṃ kṛtvā jānuni sattamāḥ",
-          "hindi": "और बाणासुरको पुत्री उषाके साथ विवाह किया था। उस विवाहमें भगवान् श्रीकृष्ण तथा शंकरमें बड़ा भयंकर युद्ध हुआ था। उस समय श्रीकृष्णने चक्रसे बाणासुरको सहस्र भुजाएँ काट डालीं।"
+          "hindi": "और बाणासुरको पुत्री उषाके साथ विवाह किया था। उस विवाहमें भगवान् श्रीकृष्ण तथा शंकरमें बड़ा भयंकर युद्ध हुआ था। उस समय श्रीकृष्णने चक्रसे बाणासुरको सहस्र भुजाएँ काट डालीं।",
+          "translation": "Honouring the Brahmin's word, what Durvasas had said, he became joined in yoga, placing his foot on his knee, sages.",
+          "translationSource": "ai"
         },
         {
           "number": 5,
           "sanskrit": "संप्राप्तो वै जरा नाम तदा तत्र स लुब्धकः मुशलशेषलोहस्य सायकं धारयन् परम्",
           "transliteration": "saṃprāpto vai jarā nāma tadā tatra sa lubdhakaḥ muśalaśeṣalohasya sāyakaṃ dhārayan param",
-          "hindi": "मुनियोंने पूछा- ब्रह्मन्! उषाके लिये महादेवजी तथा श्रीकृष्णमें युद्ध क्यों हुआ तथा श्रीहरिने बाणासुरकी भुजाओंका उच्छेद क्यों किया? महाभाग! आप यह सम्पूर्ण वृत्तान्त हमें बताइये। इस सुन्दर कथाको"
+          "hindi": "मुनियोंने पूछा- ब्रह्मन्! उषाके लिये महादेवजी तथा श्रीकृष्णमें युद्ध क्यों हुआ तथा श्रीहरिने बाणासुरकी भुजाओंका उच्छेद क्यों किया? महाभाग! आप यह सम्पूर्ण वृत्तान्त हमें बताइये। इस सुन्दर कथाको",
+          "translation": "Then there came a hunter named Jara, holding an excellent arrow of the remaining iron of the pestle.",
+          "translationSource": "ai"
         },
         {
           "number": 6,
           "sanskrit": "स तत्पादं मृगाकारं समवेक्ष्य व्यवस्थितः ततो विव्याध तेनैव तोमरेण द्विजोत्तमाः",
           "transliteration": "sa tatpādaṃ mṛgākāraṃ samavekṣya vyavasthitaḥ tato vivyādha tenaiva tomareṇa dvijottamāḥ",
-          "hindi": "सुननेके लिये हमें बड़ा कौतूहल हो रहा है। व्यासजीने कहा-- ब्राह्मणो ! बाणासुरको पुत्री"
+          "hindi": "सुननेके लिये हमें बड़ा कौतूहल हो रहा है। व्यासजीने कहा-- ब्राह्मणो ! बाणासुरको पुत्री",
+          "translation": "Seeing that foot standing like a deer, he pierced it with that very arrow, best of Brahmins.",
+          "translationSource": "ai"
         },
         {
           "number": 7,
           "sanskrit": "गतश् च ददृशे तत्र चतुर्बाहुधरं नरम् प्रणिपत्याह चैवैनं प्रसीदेति पुनः पुनः",
           "transliteration": "gataś ca dadṛśe tatra caturbāhudharaṃ naram praṇipatyāha caivainaṃ prasīdeti punaḥ punaḥ",
-          "hindi": "(मित्रविन्दा) -से संग्रामजित् आदि पुत्र उत्पन्न हुए। उषाको स्वप्नमें किसी पुरुषने आलिङ्गन किया। माद्रीके गर्भसे वृक आदिका जन्म हुआ। लक्ष्मणाने  उषाका भी उसके प्रति अनुराग हो गया। इतनेमें"
+          "hindi": "(मित्रविन्दा) -से संग्रामजित् आदि पुत्र उत्पन्न हुए। उषाको स्वप्नमें किसी पुरुषने आलिङ्गन किया। माद्रीके गर्भसे वृक आदिका जन्म हुआ। लक्ष्मणाने  उषाका भी उसके प्रति अनुराग हो गया। इतनेमें",
+          "translation": "Going up, he saw a four-armed man there, bowed to him and said again and again, \"Be gracious.",
+          "translationSource": "ai"
         },
         {
           "number": 8,
           "sanskrit": "अजानता कृतम् इदं मया हरिणशङ्कया क्षम्यताम् आत्मपापेन दग्धं मा दग्धुम् अर्हसि",
           "transliteration": "ajānatā kṛtam idaṃ mayā hariṇaśaṅkayā kṣamyatām ātmapāpena dagdhaṃ mā dagdhum arhasi",
-          "hindi": "ही उसकी नींद खुल गयी । जागनेपर उस पुरुषको  भाररूप ही सिद्ध होंगी। यह सुनकर महादेवजीने न देखनेके कारण उषा उत्कण्ठित होकर बोल  कहा--' जिस समय तुम्हारी मयूर-चिहूवाली ध्वजा उठी--'प्यारे! तुम कहाँ चले गये ?' उस समय  टूट जायगी, उस समय तुम्हें वैसा युद्ध प्राप्त उसे लज्जाका ध्यान न रहा। बाणासुरके मन्त्री  होगा।' इससे बाणासुरको बड़ी प्रसन्नता हुई। वह"
+          "hindi": "ही उसकी नींद खुल गयी । जागनेपर उस पुरुषको  भाररूप ही सिद्ध होंगी। यह सुनकर महादेवजीने न देखनेके कारण उषा उत्कण्ठित होकर बोल  कहा--' जिस समय तुम्हारी मयूर-चिहूवाली ध्वजा उठी--'प्यारे! तुम कहाँ चले गये ?' उस समय  टूट जायगी, उस समय तुम्हें वैसा युद्ध प्राप्त उसे लज्जाका ध्यान न रहा। बाणासुरके मन्त्री  होगा।' इससे बाणासुरको बड़ी प्रसन्नता हुई। वह",
+          "translation": "This was done by me unknowingly, thinking it a deer; forgive it. Burnt by my own sin, you ought not to burn me.\"",
+          "translationSource": "ai"
         },
         {
           "number": 9,
           "sanskrit": "ततस् तं भगवान् आह नास्ति ते भयम् अण्व् अपि गच्छ त्वं मत्प्रसादेन लुब्ध स्वर्गेश्वरास्पदम्",
           "transliteration": "tatas taṃ bhagavān āha nāsti te bhayam aṇv api gaccha tvaṃ matprasādena lubdha svargeśvarāspadam",
-          "hindi": "कुम्भाण्डके एक कन्या थी, जिसका नाम चित्रलेखा  भगवान् शिवको प्रणाम करके घर चला आया। था। वह उषाको सखी थी। उसने पूछा-- राजकुमारी!  कुछ कालके बाद उसको मयूर-ध्वजा टूटकर तुम किसे पुकारती हो ?' यह सुनकर वह लाजसे  गिर गयी। यह देखकर उसके हर्षकी सीमा न गड्-सी गयी  मुँहसे एक शब्द भी बोल न सकी। रही। इसी समय चित्रलेखा अपनी योगविद्याके"
+          "hindi": "कुम्भाण्डके एक कन्या थी, जिसका नाम चित्रलेखा  भगवान् शिवको प्रणाम करके घर चला आया। था। वह उषाको सखी थी। उसने पूछा-- राजकुमारी!  कुछ कालके बाद उसको मयूर-ध्वजा टूटकर तुम किसे पुकारती हो ?' यह सुनकर वह लाजसे  गिर गयी। यह देखकर उसके हर्षकी सीमा न गड्-सी गयी  मुँहसे एक शब्द भी बोल न सकी। रही। इसी समय चित्रलेखा अपनी योगविद्याके",
+          "translation": "Then the revered one said to him: \"You have no fear at all. Go, hunter, by my grace to the abode of the lord of heaven.\"",
+          "translationSource": "ai"
         },
         {
           "number": 10,
           "sanskrit": "विमानम् आगतं सद्यस् तद्वाक्यसमनन्तरम् आरुह्य प्रययौ स्वर्गं लुब्धकस् तत्प्रसादतः",
           "transliteration": "vimānam āgataṃ sadyas tadvākyasamanantaram āruhya prayayau svargaṃ lubdhakas tatprasādataḥ",
-          "hindi": "तब चित्रलेखाने उसे बहुत विश्वास दिलाया और सब बातें उसके मुखसे निकलवा लीं । चित्रलेखाको जब यथार्थ बात मालूम हो गयी, तब उषाने उससे कहा 'पार्वतीदेवीने मुझे इसी प्रकार पतिको प्राप्ति"
+          "hindi": "तब चित्रलेखाने उसे बहुत विश्वास दिलाया और सब बातें उसके मुखसे निकलवा लीं । चित्रलेखाको जब यथार्थ बात मालूम हो गयी, तब उषाने उससे कहा 'पार्वतीदेवीने मुझे इसी प्रकार पतिको प्राप्ति",
+          "translation": "At once, immediately after his words, a vehicle arrived; mounting it, the hunter went to heaven by his grace.",
+          "translationSource": "ai"
         },
         {
           "number": 11,
           "sanskrit": "गते तस्मिन् स भगवान् संयोज्यात्मानम् आत्मनि ब्रह्मभूते ऽव्यये ऽचिन्त्ये वासुदेवमये ऽमले",
           "transliteration": "gate tasmin sa bhagavān saṃyojyātmānam ātmani brahmabhūte 'vyaye 'cintye vāsudevamaye 'male",
-          "hindi": "होनेका वरदान दिया है; अतः तुम उस पुरुषको प्राप्त करनेके लिये जो उपाय हो सके, उसे करो।'"
+          "hindi": "होनेका वरदान दिया है; अतः तुम उस पुरुषको प्राप्त करनेके लिये जो उपाय हो सके, उसे करो।'",
+          "translation": "When he had gone, the revered one, joining himself in the self which is Brahman, imperishable, inconceivable, pure, consisting of Vasudeva,",
+          "translationSource": "ai"
         },
         {
           "number": 12,
           "sanskrit": "अजन्मन्य् अजरे ऽनाशिन्य् अप्रमेये ऽखिलात्मनि त्यक्त्वा स मानुषं देहम् अवाप त्रिविधां गतिम्",
           "transliteration": "ajanmany ajare 'nāśiny aprameye 'khilātmani tyaktvā sa mānuṣaṃ deham avāpa trividhāṃ gatim",
-          "hindi": "लिखकर उषाको दिखाया। उषाने गन्धर्वो, नागों,"
+          "hindi": "लिखकर उषाको दिखाया। उषाने गन्धर्वो, नागों,",
+          "translation": "in the unborn, ageless, indestructible, immeasurable Self of all, abandoned his human body and attained the threefold course.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -80122,409 +80170,545 @@
           "number": 28,
           "sanskrit": "पश्यतस् त्व् एव पार्थस्य वृष्ण्यन्धकवरस्त्रियः जग्मुर् आदाय ते म्लेच्छाः समन्तान् मुनिसत्तमाः",
           "transliteration": "paśyatas tv eva pārthasya vṛṣṇyandhakavarastriyaḥ jagmur ādāya te mlecchāḥ samantān munisattamāḥ",
-          "hindi": "उनका मनोभाव ज्ञात हो गया। तब वे तुरंत  ॥ । ) /)"
+          "hindi": "उनका मनोभाव ज्ञात हो गया। तब वे तुरंत  ॥ । ) /)",
+          "translation": "While Partha looked on, the Mlecchas took the excellent women of the Vrishnis and Andhakas and went in all directions, sages.",
+          "translationSource": "ai"
         },
         {
           "number": 29,
           "sanskrit": "ततः स दुःखितो जिष्णुः कष्टं कष्टम् इति ब्रुवन् अहो भगवता तेन मुक्तो ऽस्मीति रुरोद वै",
           "transliteration": "tataḥ sa duḥkhito jiṣṇuḥ kaṣṭaṃ kaṣṭam iti bruvan aho bhagavatā tena mukto 'smīti ruroda vai",
-          "hindi": "कूदकर भगवानूके सामने आ गये । उन्होंने देखा भुजाओंके कट जानेसे बाणासुरके शरीरसे रक्तकी धारा गिर रही है। तब शान्तिपूर्वक भगवानूकी स्तुति करते हुए कहा-- कृष्ण! कृष्ण । जगन्नाथ ! ! !"
+          "hindi": "कूदकर भगवानूके सामने आ गये । उन्होंने देखा भुजाओंके कट जानेसे बाणासुरके शरीरसे रक्तकी धारा गिर रही है। तब शान्तिपूर्वक भगवानूकी स्तुति करते हुए कहा-- कृष्ण! कृष्ण । जगन्नाथ ! ! !",
+          "translation": "Then the distressed Jishnu said, \"Pain, pain!\" and wept: \"Ah, I have been abandoned by that Lord.\"",
+          "translationSource": "ai"
         },
         {
           "number": 30,
           "sanskrit": "तद् धनुस् तानि चास्त्राणि स रथस् ते च वाजिनः सर्वम् एकपदे नष्टं दानम् अश्रोत्रिये यथा",
           "transliteration": "tad dhanus tāni cāstrāṇi sa rathas te ca vājinaḥ sarvam ekapade naṣṭaṃ dānam aśrotriye yathā",
-          "hindi": "मैं आपको जानता हूँ। आप पुरुषोत्तम, परमेश्वर, परमात्मा और आदि-अन्तसे रहित परब्रह्म हैं। आप जो देवता, पशु-पक्षी तथा मनुष्योंकी योनिमें शरीर धारण करते हैं, यह आपकी"
+          "hindi": "मैं आपको जानता हूँ। आप पुरुषोत्तम, परमेश्वर, परमात्मा और आदि-अन्तसे रहित परब्रह्म हैं। आप जो देवता, पशु-पक्षी तथा मनुष्योंकी योनिमें शरीर धारण करते हैं, यह आपकी",
+          "translation": "That bow, those weapons, that chariot, those horses — all was lost in one step like a gift to a non-Vedic Brahmin.",
+          "translationSource": "ai"
         },
         {
           "number": 31,
           "sanskrit": "अहो चाति बलं दैवं विना तेन महात्मना यद् असामर्थ्ययुक्तो ऽहं नीचैर् नीतः पराभवम्",
           "transliteration": "aho cāti balaṃ daivaṃ vinā tena mahātmanā yad asāmarthyayukto 'haṃ nīcair nītaḥ parābhavam",
-          "hindi": "लीलामात्र है। आपकी चेष्टा हैत्योंका वध करनेके लिये होती है। प्रभो! प्रसन्न होइये । मैंने बाणासुरको अभय दे रखा है। आपको भी मेरी बात असत्य नहीं करनी चाहिए। मेरा आश्रय पानेसे यह हैत्य"
+          "hindi": "लीलामात्र है। आपकी चेष्टा हैत्योंका वध करनेके लिये होती है। प्रभो! प्रसन्न होइये । मैंने बाणासुरको अभय दे रखा है। आपको भी मेरी बात असत्य नहीं करनी चाहिए। मेरा आश्रय पानेसे यह हैत्य",
+          "translation": "\"Ah, Fate is exceedingly strong, that without that great-souled one I, with my strength gone, have been led by low men to defeat.",
+          "translationSource": "ai"
         },
         {
           "number": 32,
           "sanskrit": "तौ बाहू स च मे मुष्टिः स्थानं तत् सो ऽस्मि चार्जुनः पुण्येनेव विना तेन गतं सर्वम् असारताम्",
           "transliteration": "tau bāhū sa ca me muṣṭiḥ sthānaṃ tat so 'smi cārjunaḥ puṇyeneva vinā tena gataṃ sarvam asāratām",
-          "hindi": "बहुत बढ़ गया है। वास्तवमें यह आपका अपराधी नहीं है। मैंने ही इसे वरदान दिया था, अतः मैं ही इसके लिये आपसे क्षमा चाहता हूँ।'"
+          "hindi": "बहुत बढ़ गया है। वास्तवमें यह आपका अपराधी नहीं है। मैंने ही इसे वरदान दिया था, अतः मैं ही इसके लिये आपसे क्षमा चाहता हूँ।'",
+          "translation": "Those arms, that fist, that place, and I am that Arjuna; without that one, as if without merit, all has gone to worthlessness.",
+          "translationSource": "ai"
         },
         {
           "number": 33,
           "sanskrit": "ममार्जुनत्वं भीमस्य भीमत्वं तत्कृतं ध्रुवम् विना तेन यद् आभीरैर् जितो ऽहं कथम् अन्यथा",
           "transliteration": "mamārjunatvaṃ bhīmasya bhīmatvaṃ tatkṛtaṃ dhruvam vinā tena yad ābhīrair jito 'haṃ katham anyathā",
-          "hindi": "भगवान् शंकरके यों कहनेपर भगवान् श्रीकृष्णका मुख प्रसन्न हो गया। बाणासुरके प्रति उनके मनमें कोई अमर्ष नहीं रह गया। उन्होंने शिवजीसे कहा- “शंकर! यदि आपने इसे वर दे रखा है"
+          "hindi": "भगवान् शंकरके यों कहनेपर भगवान् श्रीकृष्णका मुख प्रसन्न हो गया। बाणासुरके प्रति उनके मनमें कोई अमर्ष नहीं रह गया। उन्होंने शिवजीसे कहा- “शंकर! यदि आपने इसे वर दे रखा है",
+          "translation": "My being Arjuna, and Bhima's being Bhima, was surely made by him; otherwise how was I defeated by cowherds without him?\"",
+          "translationSource": "ai"
         },
         {
           "number": 34,
           "sanskrit": "इत्थं वदन् ययौ जिष्णुर् इन्द्रप्रस्थं पुरोत्तमम् चकार तत्र राजानं वज्रं यादवनन्दनम्",
           "transliteration": "itthaṃ vadan yayau jiṣṇur indraprasthaṃ purottamam cakāra tatra rājānaṃ vajraṃ yādavanandanam",
-          "hindi": "तो यह बाणासुर जीवित रहे। आपके वचनोंका"
+          "hindi": "तो यह बाणासुर जीवित रहे। आपके वचनोंका",
+          "translation": "Speaking thus Jishnu went to the excellent city Indraprastha and there made Vajra, the Yadava's son, king.",
+          "translationSource": "ai"
         },
         {
           "number": 35,
           "sanskrit": "स ददर्श ततो व्यासं फाल्गुनः काननाश्रयम् तम् उपेत्य महाभागं विनयेनाभ्यवादयत्",
           "transliteration": "sa dadarśa tato vyāsaṃ phālgunaḥ kānanāśrayam tam upetya mahābhāgaṃ vinayenābhyavādayat",
-          "hindi": "गौरव रखनेके लिये हमने अपना चक्र लौटा लिया है। शंकर! आपने जो अभयदान दिया है, वह मैंने भी दिया। आप अपनेको मुझसे पृथक् न देखें। जो मैं हूँ, वही आप हैं और वही यह"
+          "hindi": "गौरव रखनेके लिये हमने अपना चक्र लौटा लिया है। शंकर! आपने जो अभयदान दिया है, वह मैंने भी दिया। आप अपनेको मुझसे पृथक् न देखें। जो मैं हूँ, वही आप हैं और वही यह",
+          "translation": "Then Phalguna saw Vyasa dwelling in the forest; approaching the fortunate one, he greeted him with humility.",
+          "translationSource": "ai"
         },
         {
           "number": 36,
           "sanskrit": "तं वन्दमानं चरणाव् अवलोक्य सुनिश्चितम् उवाच पार्थं विच्छायः कथम् अत्यन्तम् ईदृशः",
           "transliteration": "taṃ vandamānaṃ caraṇāv avalokya suniścitam uvāca pārthaṃ vicchāyaḥ katham atyantam īdṛśaḥ",
-          "hindi": "है। जिनका चित्त अविद्यासे मोहित है, वे ही पुरुष भेददृष्टि रखनेवाले होते हैं।'"
+          "hindi": "है। जिनका चित्त अविद्यासे मोहित है, वे ही पुरुष भेददृष्टि रखनेवाले होते हैं।'",
+          "translation": "Seeing him bowing at his feet, Vyasa said to the determined Partha, \"How is it that you are so exceedingly devoid of lustre?",
+          "translationSource": "ai"
         },
         {
           "number": 37,
           "sanskrit": "अजारजोनुगमनं ब्रह्महत्याथवा कृता जयाशाभङ्गदुःखी वा भ्रष्टच्छायो ऽसि सांप्रतम्",
           "transliteration": "ajārajonugamanaṃ brahmahatyāthavā kṛtā jayāśābhaṅgaduḥkhī vā bhraṣṭacchāyo 'si sāṃpratam",
-          "hindi": "यों कहकर भगवान् श्रीकृष्ण अनिरुद्धके पास गये। उनके जाते ही अनिरुद्धको बाँधनेवाले नाग भाग खड़े हुए। गरुड़के पंखोंको हवा लगनेसे वे सूख गये थे। तदनन्तर पत्नीसहित अनिरुद्धको"
+          "hindi": "यों कहकर भगवान् श्रीकृष्ण अनिरुद्धके पास गये। उनके जाते ही अनिरुद्धको बाँधनेवाले नाग भाग खड़े हुए। गरुड़के पंखोंको हवा लगनेसे वे सूख गये थे। तदनन्तर पत्नीसहित अनिरुद्धको",
+          "translation": "Have you followed a woman who is not a mother (?), or committed Brahmin-slaughter, or are you pained by the failure of hope of victory? You are now devoid of splendour.",
+          "translationSource": "ai"
         },
         {
           "number": 38,
           "sanskrit": "सांतानिकादयो वा ते याचमाना निराकृताः अगम्यस्त्रीरतिर् वापि तेनासि विगतप्रभः",
           "transliteration": "sāṃtānikādayo vā te yācamānā nirākṛtāḥ agamyastrīratir vāpi tenāsi vigataprabhaḥ",
-          "hindi": "गरुड़पर चढ़ाकर भगवान् श्रीकृष्ण, बलराम और प्रद्युम्न द्वारकापुरीमें आये।"
+          "hindi": "गरुड़पर चढ़ाकर भगवान् श्रीकृष्ण, बलराम और प्रद्युम्न द्वारकापुरीमें आये।",
+          "translation": "Or were suppliants such as childless people turned away by you, or do you love a woman not to be approached, by which you have lost your lustre?",
+          "translationSource": "ai"
         },
         {
           "number": 39,
           "sanskrit": "भुङ्क्ते प्रदाय विप्रेभ्यो मिष्टम् एकम् अथो भवान् किं वा कृपणवित्तानि हृतानि भवतार्जुन",
           "transliteration": "bhuṅkte pradāya viprebhyo miṣṭam ekam atho bhavān kiṃ vā kṛpaṇavittāni hṛtāni bhavatārjuna",
-          "hindi": "योऽहं स॒ त्वं जगच्चेदं सदेवासुरमानुषम् । अविद्यामोहितात्मानः"
+          "hindi": "योऽहं स॒ त्वं जगच्चेदं सदेवासुरमानुषम् । अविद्यामोहितात्मानः",
+          "translation": "Or have you eaten a sweet dish alone without giving to Brahmins? Or have the possessions of the poor been taken by you, Arjuna?",
+          "translationSource": "ai"
         },
         {
           "number": 40,
           "sanskrit": "कच्चिन् न सूर्यवातस्य गोचरत्वं गतो ऽर्जुन दुष्टचक्षुर् हतो वापि निःश्रीकः कथम् अन्यथा",
           "transliteration": "kaccin na sūryavātasya gocaratvaṃ gato 'rjuna duṣṭacakṣur hato vāpi niḥśrīkaḥ katham anyathā",
-          "hindi": "द्रष्टुमर्हसि शंकर॥"
+          "hindi": "द्रष्टुमर्हसि शंकर॥",
+          "translation": "Have you been exposed to the sun and wind, Arjuna? Or been struck by an evil eye? How else would you be without lustre?",
+          "translationSource": "ai"
         },
         {
           "number": 41,
           "sanskrit": "स्पृष्टो नखाम्भसा वापि घटाम्भःप्रोक्षितो ऽपि वा तेनातीवासि विच्छायो न्यूनैर् वा युधि निर्जितः",
           "transliteration": "spṛṣṭo nakhāmbhasā vāpi ghaṭāmbhaḥprokṣito 'pi vā tenātīvāsi vicchāyo nyūnair vā yudhi nirjitaḥ",
-          "hindi": "पौण्डुकका वध और बलरामजीके द्वारा हस्तिनापुरका आकर्षण"
+          "hindi": "पौण्डुकका वध और बलरामजीके द्वारा हस्तिनापुरका आकर्षण",
+          "translation": "Or have you been touched by water from a nail, or sprinkled with water from a pot, or defeated in battle by inferior persons, that you are so exceedingly without lustre?\"",
+          "translationSource": "ai"
         },
         {
           "number": 42,
           "sanskrit": "ततः पार्थो विनिःश्वस्य श्रूयतां भगवन्न् इति प्रोक्तो यथावद् आचष्ट विप्रा आत्मपराभवम्",
           "transliteration": "tataḥ pārtho viniḥśvasya śrūyatāṃ bhagavann iti prokto yathāvad ācaṣṭa viprā ātmaparābhavam",
-          "hindi": "पौण्ड्रकका वध और बलरामजीके द्वारा हस्तिनापुरका आकर्षण"
+          "hindi": "पौण्ड्रकका वध और बलरामजीके द्वारा हस्तिनापुरका आकर्षण",
+          "translation": "Then Partha, sighing, said \"Hear, revered one,\" and being asked, Brahmins, told truly of his own defeat:",
+          "translationSource": "ai"
         },
         {
           "number": 43,
           "sanskrit": "यद् बलं यच् च नस् तेजो यद् वीर्यं यत् पराक्रमः या श्रीश् छाया च नः सो ऽस्मान् परित्यज्य हरिर् गतः",
           "transliteration": "yad balaṃ yac ca nas tejo yad vīryaṃ yat parākramaḥ yā śrīś chāyā ca naḥ so 'smān parityajya harir gataḥ",
-          "hindi": "मुनियोंने कहा--भगवान् श्रीकृष्णने मानव- शरीर धारण करके बहुत बडा पराक्रम किया, जो उन्होंने लीलापूर्वक ही इन्द्र, महादेवजी तथा सम्पूर्ण देवताओंको जीत लिया । मुनिश्रेष्ठ! देवताओंकी"
+          "hindi": "मुनियोंने कहा--भगवान् श्रीकृष्णने मानव- शरीर धारण करके बहुत बडा पराक्रम किया, जो उन्होंने लीलापूर्वक ही इन्द्र, महादेवजी तथा सम्पूर्ण देवताओंको जीत लिया । मुनिश्रेष्ठ! देवताओंकी",
+          "translation": "\"The strength, brilliance, vigour and valour that we had, the fortune and lustre — Hari has abandoned us and gone.",
+          "translationSource": "ai"
         },
         {
           "number": 44,
           "sanskrit": "इतरेणेव महता स्मितपूर्वाभिभाषिणा हीना वयं मुने तेन जातास् तृणमया इव",
           "transliteration": "itareṇeva mahatā smitapūrvābhibhāṣiṇā hīnā vayaṃ mune tena jātās tṛṇamayā iva",
-          "hindi": "चेष्टाका विघात करनेवाले भगवानूने और भी जो कर्म किये थे, वे सब हमसे कहिये। हमें उन्हें सुननेके लिये बड़ा कौतूहल हो रहा है।"
+          "hindi": "चेष्टाका विघात करनेवाले भगवानूने और भी जो कर्म किये थे, वे सब हमसे कहिये। हमें उन्हें सुननेके लिये बड़ा कौतूहल हो रहा है।",
+          "translation": "Deprived of him, sage, who was great and spoke with a smile first, we have become like straw.",
+          "translationSource": "ai"
         },
         {
           "number": 45,
           "sanskrit": "अस्त्राणां सायकानां च गाण्डीवस्य तथा मम सारता याभवन् मूर्ता स गतः पुरुषोत्तमः",
           "transliteration": "astrāṇāṃ sāyakānāṃ ca gāṇḍīvasya tathā mama sāratā yābhavan mūrtā sa gataḥ puruṣottamaḥ",
-          "hindi": "व्यासजी बोले--मुनिवरो! बतलाता हूं; मनुष्यावतारमें श्रीहरिने जो लीलाएँ की थीं, उन्हें आदरपूर्वक सुनो। पुण्ड्कवंशी वासुदेव नामक एक राजा था। वह ' भगवान् वासुदेव' बन बैठा"
+          "hindi": "व्यासजी बोले--मुनिवरो! बतलाता हूं; मनुष्यावतारमें श्रीहरिने जो लीलाएँ की थीं, उन्हें आदरपूर्वक सुनो। पुण्ड्कवंशी वासुदेव नामक एक राजा था। वह ' भगवान् वासुदेव' बन बैठा",
+          "translation": "The essence of weapons, arrows, the Gandiva and me, which was embodied, has gone, the Purushottama.",
+          "translationSource": "ai"
         },
         {
           "number": 46,
           "sanskrit": "यस्यावलोकनाद् अस्माञ् श्रीर् जयः संपद् उन्नतिः न तत्याज स गोविन्दस् त्यक्त्वास्मान् भगवान् गतः",
           "transliteration": "yasyāvalokanād asmāñ śrīr jayaḥ saṃpad unnatiḥ na tatyāja sa govindas tyaktvāsmān bhagavān gataḥ",
-          "hindi": "था। कुछ अआज्ञानमोहित मनुष्योंने उससे यह कहा था कि आप ही इस पृथ्वीपर वासुदेवके रूपमें अवतीर्ण हुए हैं।' उनकी बातोंमें आकर वह स्वयं भी अपनेको अवतार मानने लगा था। वासुदेव"
+          "hindi": "था। कुछ अआज्ञानमोहित मनुष्योंने उससे यह कहा था कि आप ही इस पृथ्वीपर वासुदेवके रूपमें अवतीर्ण हुए हैं।' उनकी बातोंमें आकर वह स्वयं भी अपनेको अवतार मानने लगा था। वासुदेव",
+          "translation": "By whose glance we had fortune, victory, wealth and elevation; that Govinda has not abandoned us, the revered one has gone abandoning us.",
+          "translationSource": "ai"
         },
         {
           "number": 47,
           "sanskrit": "भीष्मद्रोणाङ्गराजाद्यास् तथा दुर्योधनादयः यत्प्रभावेन निर्दग्धाः स कृष्णस् त्यक्तवान् भुवम्",
           "transliteration": "bhīṣmadroṇāṅgarājādyās tathā duryodhanādayaḥ yatprabhāvena nirdagdhāḥ sa kṛṣṇas tyaktavān bhuvam",
-          "hindi": "बननेको धुनमें वह अपने वास्तविक स्वरूपको भूल गया और भगवान् विष्णुके जितने चिह हैं, उन सबको धारण करने लगा। इतना ही नहीं, उसने भगवान् श्रीकृष्णके पास अपना दूत भी"
+          "hindi": "बननेको धुनमें वह अपने वास्तविक स्वरूपको भूल गया और भगवान् विष्णुके जितने चिह हैं, उन सबको धारण करने लगा। इतना ही नहीं, उसने भगवान् श्रीकृष्णके पास अपना दूत भी",
+          "translation": "Krishna, by whose power Bhishma, Drona, Anga's king and Duryodhana and others were burnt, has abandoned the earth.",
+          "translationSource": "ai"
         },
         {
           "number": 48,
           "sanskrit": "निर्यौवना हतश्रीका भ्रष्टच्छायेव मे मही विभाति तात नैको ऽहं विरहे तस्य चक्रिणः",
           "transliteration": "niryauvanā hataśrīkā bhraṣṭacchāyeva me mahī vibhāti tāta naiko 'haṃ virahe tasya cakriṇaḥ",
-          "hindi": "भेजा और उसके मुखसे कहलाया- ओ मूढ़! तूने जो चक्र आदि मेरे चिह्न और मेरा वासुदेव नाम धारण किया है, वह सब शीघ्र ही त्याग दे और अपने जीवनको रक्षाके लिये मेरी शरणमें"
+          "hindi": "भेजा और उसके मुखसे कहलाया- ओ मूढ़! तूने जो चक्र आदि मेरे चिह्न और मेरा वासुदेव नाम धारण किया है, वह सब शीघ्र ही त्याग दे और अपने जीवनको रक्षाके लिये मेरी शरणमें",
+          "translation": "The earth seems to me, father, deprived of youth, of fortune, of lustre, and I am not alone in the absence of that discus-bearer.",
+          "translationSource": "ai"
         },
         {
           "number": 49,
           "sanskrit": "यस्यानुभावाद् भीष्माद्यैर् मय्य् अग्नौ शलभायितम् विना तेनाद्य कृष्णेन गोपालैर् अस्मि निर्जितः",
           "transliteration": "yasyānubhāvād bhīṣmādyair mayy agnau śalabhāyitam vinā tenādya kṛṣṇena gopālair asmi nirjitaḥ",
-          "hindi": "आ जा।' यह सुनकर भगवान् श्रीकृष्ण हँस पड़े और दूतसे बोले-- तुम जाकर राजा पौण्ड़कसे मेरी यह बात कहना--' राजन्! मैंने तुम्हारे बचनोंका तात्पर्य भलीभाँति समझ लिया है। अब तुम्हें जो"
+          "hindi": "आ जा।' यह सुनकर भगवान् श्रीकृष्ण हँस पड़े और दूतसे बोले-- तुम जाकर राजा पौण्ड़कसे मेरी यह बात कहना--' राजन्! मैंने तुम्हारे बचनोंका तात्पर्य भलीभाँति समझ लिया है। अब तुम्हें जो",
+          "translation": "By whose power Bhishma and others were like moths to me, fire — without that Krishna today I have been defeated by cowherds.",
+          "translationSource": "ai"
         },
         {
           "number": 50,
           "sanskrit": "गाण्डीवं त्रिषु लोकेषु ख्यातं यद् अनुभावतः मम तेन विनाभीरैर् लगुडैस् तु तिरस्कृतम्",
           "transliteration": "gāṇḍīvaṃ triṣu lokeṣu khyātaṃ yad anubhāvataḥ mama tena vinābhīrair laguḍais tu tiraskṛtam",
-          "hindi": "कुछ करना हो, वह करो। मैं अपने चिहूको साथ लेकर ही तुम्हारे नगरमें आऊँगा और उस चिहस्वरूप"
+          "hindi": "कुछ करना हो, वह करो। मैं अपने चिहूको साथ लेकर ही तुम्हारे नगरमें आऊँगा और उस चिहस्वरूप",
+          "translation": "The Gandiva, famed in the three worlds by whose power, without him was scorned by cowherds with clubs.",
+          "translationSource": "ai"
         },
         {
           "number": 51,
           "sanskrit": "स्त्रीसहस्राण्य् अनेकानि ह्य् अनाथानि महामुने यततो मम नीतानि दस्युभिर् लगुडायुधैः",
           "transliteration": "strīsahasrāṇy anekāni hy anāthāni mahāmune yatato mama nītāni dasyubhir laguḍāyudhaiḥ",
-          "hindi": "कल सबेरे ही तुम्हारी पुरीमें पहुँच जाऊँगा। तुम्हारे वहाँ आकर मैं वह कार्य करूँगा, जिससे फिर तुमसे कोई भय नहीं रह जायगा।'"
+          "hindi": "कल सबेरे ही तुम्हारी पुरीमें पहुँच जाऊँगा। तुम्हारे वहाँ आकर मैं वह कार्य करूँगा, जिससे फिर तुमसे कोई भय नहीं रह जायगा।'",
+          "translation": "Many thousands of women without protectors, great sage, while I strove, were taken away by robbers with clubs as weapons.",
+          "translationSource": "ai"
         },
         {
           "number": 52,
           "sanskrit": "आनीयमानम् आभीरैः सर्वं कृष्णावरोधनम् हृतं यष्टिप्रहरणैः परिभूय बलं मम",
           "transliteration": "ānīyamānam ābhīraiḥ sarvaṃ kṛṣṇāvarodhanam hṛtaṃ yaṣṭipraharaṇaiḥ paribhūya balaṃ mama",
-          "hindi": "श्रीकुष्णके यों कहनेपर दूत चला गया, तब भगवानूने गरुड्का स्मरण किया। गरुड़ तुरंत आ पहुँचे। भगवान् उनकी पीठपर सवार हुए और पौण्ड्रकके नगरमें गये। श्रीकुष्णके आक्रमणको"
+          "hindi": "श्रीकुष्णके यों कहनेपर दूत चला गया, तब भगवानूने गरुड्का स्मरण किया। गरुड़ तुरंत आ पहुँचे। भगवान् उनकी पीठपर सवार हुए और पौण्ड्रकके नगरमें गये। श्रीकुष्णके आक्रमणको",
+          "translation": "All Krishna's harem was being brought away by cowherds, taken with staff-blows, my strength overcome.",
+          "translationSource": "ai"
         },
         {
           "number": 53,
           "sanskrit": "निःश्रीकता न मे चित्रं यज् जीवामि तद् अद्भुतम् नीचावमानपङ्काङ्की निर्लज्जो ऽस्मि पितामह",
           "transliteration": "niḥśrīkatā na me citraṃ yaj jīvāmi tad adbhutam nīcāvamānapaṅkāṅkī nirlajjo 'smi pitāmaha",
-          "hindi": "बात सुनकर काशिराज अपनी समस्त सेनाओंके साथ पौण्ड्रककी सहायतामें आ गया। तब अपनी और काशिराजकी विशाल सेना लेकर पौण्ड्रक वासुदेव श्रीकृष्णका सामना करनेके लिये गया।"
+          "hindi": "बात सुनकर काशिराज अपनी समस्त सेनाओंके साथ पौण्ड्रककी सहायतामें आ गया। तब अपनी और काशिराजकी विशाल सेना लेकर पौण्ड्रक वासुदेव श्रीकृष्णका सामना करनेके लिये गया।",
+          "translation": "It is no wonder that I am without fortune; it is a wonder that I live; I am smeared with the mire of insults from the low, shameless, grandfather.\"",
+          "translationSource": "ai"
         },
         {
           "number": 54,
           "sanskrit": "श्रुत्वाहं तस्य तद् वाक्यम् अब्रवं द्विजसत्तमाः दुःखितस्य च दीनस्य पाण्डवस्य महात्मनः",
           "transliteration": "śrutvāhaṃ tasya tad vākyam abravaṃ dvijasattamāḥ duḥkhitasya ca dīnasya pāṇḍavasya mahātmanaḥ",
-          "hindi": "भगवानूने दूरसे ही देखा पौण्ड्क एक विशाल रथपर बैठा है। उसने अपने हाथोंमें कृत्रिम शङ्क, चक्र और गदा ले रखे हैं। एक हाथमें कमल भी है। गलेमें वनमालाके स्थानपर एक बहुत बड़ा"
+          "hindi": "भगवानूने दूरसे ही देखा पौण्ड्क एक विशाल रथपर बैठा है। उसने अपने हाथोंमें कृत्रिम शङ्क, चक्र और गदा ले रखे हैं। एक हाथमें कमल भी है। गलेमें वनमालाके स्थानपर एक बहुत बड़ा",
+          "translation": "Hearing his words, I said to the distressed and wretched great-souled Pandava, Brahmins:",
+          "translationSource": "ai"
         },
         {
           "number": 55,
           "sanskrit": "अलं ते व्रीडया पार्थ न त्वं शोचितुम् अर्हसि अवेहि सर्वभूतेषु कालस्य गतिर् ईदृशी",
           "transliteration": "alaṃ te vrīḍayā pārtha na tvaṃ śocitum arhasi avehi sarvabhūteṣu kālasya gatir īdṛśī",
-          "hindi": "हार लटक रहा है। शार्ङ्गधनुषकी तरहका एक धनुष भी है। रथपर गरुड्चिहसे अङ्कित एक ध्वजा फहरा रही है और उसकी छातीमें श्रीवत्सका कृत्रिम चिह्न भी बना हुआ है। उसने मस्तकपर"
+          "hindi": "हार लटक रहा है। शार्ङ्गधनुषकी तरहका एक धनुष भी है। रथपर गरुड्चिहसे अङ्कित एक ध्वजा फहरा रही है और उसकी छातीमें श्रीवत्सका कृत्रिम चिह्न भी बना हुआ है। उसने मस्तकपर",
+          "translation": "\"Enough of your shame, Partha; you ought not to grieve. Know that such is the course of Time among all beings.",
+          "translationSource": "ai"
         },
         {
           "number": 56,
           "sanskrit": "कालो भवाय भूतानाम् अभवाय च पाण्डव कालमूलम् इदं ज्ञात्वा कुरु स्थैर्यम् अतो ऽर्जुन",
           "transliteration": "kālo bhavāya bhūtānām abhavāya ca pāṇḍava kālamūlam idaṃ jñātvā kuru sthairyam ato 'rjuna",
-          "hindi": "किरीट, कानोंमें कुण्डल और शरीरपर पीताम्बर धारण कर रखा है। उसे देखकर भगवान् श्रीकृष्ण गम्भीरभावसे हँसे और उसकी सेनाके साथ युद्ध करने लगे। शाङ्गधनुषसे छूटे हुए बाणोंसे, गदासे"
+          "hindi": "किरीट, कानोंमें कुण्डल और शरीरपर पीताम्बर धारण कर रखा है। उसे देखकर भगवान् श्रीकृष्ण गम्भीरभावसे हँसे और उसकी सेनाके साथ युद्ध करने लगे। शाङ्गधनुषसे छूटे हुए बाणोंसे, गदासे",
+          "translation": "Time is for the existence of beings and for their non-existence, Pandava; knowing this has Time as its root, therefore, Arjuna, be steady.",
+          "translationSource": "ai"
         },
         {
           "number": 57,
           "sanskrit": "नद्यः समुद्रा गिरयः सकला च वसुंधरा देवा मनुष्याः पशवस् तरवश् च सरीसृपाः",
           "transliteration": "nadyaḥ samudrā girayaḥ sakalā ca vasuṃdharā devā manuṣyāḥ paśavas taravaś ca sarīsṛpāḥ",
-          "hindi": "और चक्रको मारसे उन्होंने काशिराजको सेनाका संहार कर डाला और अपने समान चिह्न धारण करनेवाले अज्ञानी पौण्ड़कसे कहा-'पौण्ड़क ! तुमने जो दूतके मुखसे मुझे कहला भेजा था कि"
+          "hindi": "और चक्रको मारसे उन्होंने काशिराजको सेनाका संहार कर डाला और अपने समान चिह्न धारण करनेवाले अज्ञानी पौण्ड़कसे कहा-'पौण्ड़क ! तुमने जो दूतके मुखसे मुझे कहला भेजा था कि",
+          "translation": "Rivers, oceans, mountains, the whole earth, gods, men, animals, trees and reptiles",
+          "translationSource": "ai"
         },
         {
           "number": 58,
           "sanskrit": "सृष्टाः कालेन कालेन पुनर् यास्यन्ति संक्षयम् कालात्मकम् इदं सर्वं ज्ञात्वा शमम् अवाप्नुहि",
           "transliteration": "sṛṣṭāḥ kālena kālena punar yāsyanti saṃkṣayam kālātmakam idaṃ sarvaṃ jñātvā śamam avāpnuhi",
-          "hindi": "आदेशका पालन करता हूँ। लो, यह चक्र छोड़ा;"
+          "hindi": "आदेशका पालन करता हूँ। लो, यह चक्र छोड़ा;",
+          "translation": "are created by Time and again go to destruction. Knowing all this is of the nature of Time, attain peace.",
+          "translationSource": "ai"
         },
         {
           "number": 59,
           "sanskrit": "यथात्थ कृष्णमाहात्म्यं तत् तथैव धनंजय भारावतारकार्यार्थम् अवतीर्णः स मेदिनीम्",
           "transliteration": "yathāttha kṛṣṇamāhātmyaṃ tat tathaiva dhanaṃjaya bhārāvatārakāryārtham avatīrṇaḥ sa medinīm",
-          "hindi": "चक्रको तुम्हारे ऊपर ही छोड़ँगा, इसमें तनिक भी  यह गदा छोड़ दी और इस गरुडको भी छोड़ा। संदेह नहीं है। तुमने जो आज्ञापूर्वक आनेका  यह तुम्हारी भुजापर आरूढ़ हो जाय।' यों कहकर संदेश दिया है, उसका मैं अविलम्ब पालन करूँगा ।  भगवानूने अपने छोड़े हुए चक्रसे पौण्ड्रकको विदीर्ण"
+          "hindi": "चक्रको तुम्हारे ऊपर ही छोड़ँगा, इसमें तनिक भी  यह गदा छोड़ दी और इस गरुडको भी छोड़ा। संदेह नहीं है। तुमने जो आज्ञापूर्वक आनेका  यह तुम्हारी भुजापर आरूढ़ हो जाय।' यों कहकर संदेश दिया है, उसका मैं अविलम्ब पालन करूँगा ।  भगवानूने अपने छोड़े हुए चक्रसे पौण्ड्रकको विदीर्ण",
+          "translation": "As you have spoken of Krishna's greatness, Dhananjaya, so it is; he descended on earth for the work of removing the burden.",
+          "translationSource": "ai"
         },
         {
           "number": 60,
           "sanskrit": "भाराक्रान्ता धरा याता देवानां संनिधौ पुरा तदर्थम् अवतीर्णो ऽसौ कामरूपी जनार्दनः",
           "transliteration": "bhārākrāntā dharā yātā devānāṃ saṃnidhau purā tadartham avatīrṇo 'sau kāmarūpī janārdanaḥ",
-          "hindi": "कर डाला। गदाके आघातसे उसे पृथ्वीपर गिरा दिया और गरुडने उसके कृत्रिम गरुडको भी तोड-फोड डाला। पौण्ड़कके मारे जानेपर वहाँ लोगोंमें हाहाकार मच गया। तब काशिराज अपने"
+          "hindi": "कर डाला। गदाके आघातसे उसे पृथ्वीपर गिरा दिया और गरुडने उसके कृत्रिम गरुडको भी तोड-फोड डाला। पौण्ड़कके मारे जानेपर वहाँ लोगोंमें हाहाकार मच गया। तब काशिराज अपने",
+          "translation": "The earth, oppressed by burden, went in the presence of the gods formerly; for this the taker of forms at will, Janardana, has descended.",
+          "translationSource": "ai"
         },
         {
           "number": 61,
           "sanskrit": "तच् च निष्पादितं कार्यम् अशेषा भूभृतो हताः वृष्ण्यन्धककुलं सर्वं तथा पार्थोपसंहृतम्",
           "transliteration": "tac ca niṣpāditaṃ kāryam aśeṣā bhūbhṛto hatāḥ vṛṣṇyandhakakulaṃ sarvaṃ tathā pārthopasaṃhṛtam",
-          "hindi": "मित्रका बदला चुकानेके लिये श्रीकृष्णके साथ युद्ध करने लगे। श्रीकृष्णने शार्ङ्गधनुषद्वारा छोड़े"
+          "hindi": "मित्रका बदला चुकानेके लिये श्रीकृष्णके साथ युद्ध करने लगे। श्रीकृष्णने शार्ङ्गधनुषद्वारा छोड़े",
+          "translation": "That work has been accomplished; all the earth-kings were slain; and the whole Vrishni-Andhaka family has been withdrawn by Partha (Krishna).",
+          "translationSource": "ai"
         },
         {
           "number": 62,
           "sanskrit": "न किंचिद् अन्यत् कर्तव्यम् अस्य भूमितले ऽर्जुन ततो गतः स भगवान् कृतकृत्यो यथेच्छया",
           "transliteration": "na kiṃcid anyat kartavyam asya bhūmitale 'rjuna tato gataḥ sa bhagavān kṛtakṛtyo yathecchayā",
-          "hindi": "सुनो । दुर्योधनको पुत्री कुमारी लक्ष्मणा स्वयंवरमें जा रही थी। उस समय जाम्बवतीके पुत्र वीरवर साम्बने उसे बलपूर्वक हर लिया। यह देख महापराक्रमी कर्ण, दुर्योधन, भीष्म और द्रोण"
+          "hindi": "सुनो । दुर्योधनको पुत्री कुमारी लक्ष्मणा स्वयंवरमें जा रही थी। उस समय जाम्बवतीके पुत्र वीरवर साम्बने उसे बलपूर्वक हर लिया। यह देख महापराक्रमी कर्ण, दुर्योधन, भीष्म और द्रोण",
+          "translation": "Nothing else remains to be done by him on the surface of the earth, Arjuna; so the revered one has gone, his work done, as he wished.",
+          "translationSource": "ai"
         },
         {
           "number": 63,
           "sanskrit": "सृष्टिं सर्गे करोत्य् एष देवदेवः स्थितिं स्थितौ अन्ते तापसमर्थो ऽयं सांप्रतं वै यथा कृतम्",
           "transliteration": "sṛṣṭiṃ sarge karoty eṣa devadevaḥ sthitiṃ sthitau ante tāpasamartho 'yaṃ sāṃprataṃ vai yathā kṛtam",
-          "hindi": "आदि बहुत कुपित हुए। उन्होंने साम्बको युद्धमें जीतकर कैद कर लिया। यह सुनकर सम्पूर्ण"
+          "hindi": "आदि बहुत कुपित हुए। उन्होंने साम्बको युद्धमें जीतकर कैद कर लिया। यह सुनकर सम्पूर्ण",
+          "translation": "This god of gods in creation makes creation, in preservation preservation, and at the end he is capable of burning, as he has just done.",
+          "translationSource": "ai"
         },
         {
           "number": 64,
           "sanskrit": "तस्मात् पार्थ न संतापस् त्वया कार्यः पराभवात् भवन्ति भवकालेषु पुरुषाणां पराक्रमाः",
           "transliteration": "tasmāt pārtha na saṃtāpas tvayā kāryaḥ parābhavāt bhavanti bhavakāleṣu puruṣāṇāṃ parākramāḥ",
-          "hindi": "उनका विनाश कर डालनेके लिये भारी तैयारी को । तब बलरामजीने यादवोंको रोककर कहा-- “मैं अकेला ही कौरवोंके यहाँ जाता हं । वे मेरे"
+          "hindi": "उनका विनाश कर डालनेके लिये भारी तैयारी को । तब बलरामजीने यादवोंको रोककर कहा-- “मैं अकेला ही कौरवोंके यहाँ जाता हं । वे मेरे",
+          "translation": "Therefore, Partha, you need not grieve at defeat; men's prowess comes at the times of becoming.",
+          "translationSource": "ai"
         },
         {
           "number": 65,
           "sanskrit": "यतस् त्वयैकेन हता भीष्मद्रोणादयो नृपाः तेषाम् अर्जुन कालोत्थः किं न्यूनाभिभवो न सः",
           "transliteration": "yatas tvayaikena hatā bhīṣmadroṇādayo nṛpāḥ teṣām arjuna kālotthaḥ kiṃ nyūnābhibhavo na saḥ",
-          "hindi": "ई”  कहनेसे साम्बको छोड़ देंगे।' तदनन्तर बलरामजी"
+          "hindi": "ई”  कहनेसे साम्बको छोड़ देंगे।' तदनन्तर बलरामजी",
+          "translation": "By you alone were Bhishma, Drona and other kings slain; was that not an overcoming of them arisen from Time?",
+          "translationSource": "ai"
         },
         {
           "number": 66,
           "sanskrit": "विष्णोस् तस्यानुभावेन यथा तेषां पराभवः त्वत्तस् तथैव भवतो दस्युभ्यो ऽन्ते तदुद्भवः",
           "transliteration": "viṣṇos tasyānubhāvena yathā teṣāṃ parābhavaḥ tvattas tathaiva bhavato dasyubhyo 'nte tadudbhavaḥ",
-          "hindi": "हस्तिनापुरमें जाकर बाहरके उद्यानमें ठहर गये, नगरमें नहीं गये। बलरामजीको आया जान दुर्योधन आदि कोरवोंने उन्हें गौ, अर्घ्य और जल भेंट"
+          "hindi": "हस्तिनापुरमें जाकर बाहरके उद्यानमें ठहर गये, नगरमें नहीं गये। बलरामजीको आया जान दुर्योधन आदि कोरवोंने उन्हें गौ, अर्घ्य और जल भेंट",
+          "translation": "As their defeat was by the power of Vishnu, so your arising at the end from robbers is also by the same.",
+          "translationSource": "ai"
         },
         {
           "number": 67,
           "sanskrit": "स देवो ऽन्यशरीराणि समाविश्य जगत्स्थितिम् करोति सर्वभूतानां नाशं चान्ते जगत्पतिः",
           "transliteration": "sa devo 'nyaśarīrāṇi samāviśya jagatsthitim karoti sarvabhūtānāṃ nāśaṃ cānte jagatpatiḥ",
-          "hindi": "2 ॥  किये। वह सब विधिपूर्वक स्वीकार करके   11 बलरामजीने कौरवोंसे कहा--' राजा उग्रसेनकी आज्ञा"
+          "hindi": "2 ॥  किये। वह सब विधिपूर्वक स्वीकार करके   11 बलरामजीने कौरवोंसे कहा--' राजा उग्रसेनकी आज्ञा",
+          "translation": "That god, entering other bodies, brings about the world's maintenance, and at the end the destruction of all beings, as lord of the world.",
+          "translationSource": "ai"
         },
         {
           "number": 68,
           "sanskrit": "भवोद्भवे च कौन्तेय सहायस् ते जनार्दनः भवान्ते त्वद्विपक्षास् ते केशवेनावलोकिताः",
           "transliteration": "bhavodbhave ca kaunteya sahāyas te janārdanaḥ bhavānte tvadvipakṣās te keśavenāvalokitāḥ",
-          "hindi": "22  है कि तुम सब लोग साम्बको शीघ्र छोड़ दो।'"
+          "hindi": "22  है कि तुम सब लोग साम्बको शीघ्र छोड़ दो।'",
+          "translation": "At the origin of existence, son of Kunti, Janardana was your helper; at the end of existence, your opponents were looked on by Keshava.",
+          "translationSource": "ai"
         },
         {
           "number": 69,
           "sanskrit": "कः श्रद्दध्यात् सगाङ्गेयान् हन्यास् त्वं सर्वकौरवान् आभीरेभ्यश् च भवतः कः श्रद्दध्यात् पराभवम्",
           "transliteration": "kaḥ śraddadhyāt sagāṅgeyān hanyās tvaṃ sarvakauravān ābhīrebhyaś ca bhavataḥ kaḥ śraddadhyāt parābhavam",
-          "hindi": "हुए बाणोंसे काशिराजका मस्तक काटकर उसे काशीपुरीमें फेंक दिया। यह लोगोंके लिये बड़े विस्मयका कार्य था। इस प्रकार पौण्ड्रक और काशिराजको सेवकोंसहित मारकर भगवान् श्रीकृष्ण"
+          "hindi": "हुए बाणोंसे काशिराजका मस्तक काटकर उसे काशीपुरीमें फेंक दिया। यह लोगोंके लिये बड़े विस्मयका कार्य था। इस प्रकार पौण्ड्रक और काशिराजको सेवकोंसहित मारकर भगवान् श्रीकृष्ण",
+          "translation": "Who would believe that you killed all the Kauravas with Bhishma, or that you were defeated by cowherds?",
+          "translationSource": "ai"
         },
         {
           "number": 70,
           "sanskrit": "पार्थैतत् सर्वभूतेषु हरेर् लीलाविचेष्टितम् त्वया यत् कौरवा ध्वस्ता यद् आभीरैर् भवाञ् जितः",
           "transliteration": "pārthaitat sarvabhūteṣu harer līlāviceṣṭitam tvayā yat kauravā dhvastā yad ābhīrair bhavāñ jitaḥ",
-          "hindi": "द्वारकामें चले आये और वहाँ स्वर्गलोकमें स्थित"
+          "hindi": "द्वारकामें चले आये और वहाँ स्वर्गलोकमें स्थित",
+          "translation": "Partha, this is Hari's playful activity in all beings: that the Kauravas were destroyed by you and that you were conquered by cowherds,",
+          "translationSource": "ai"
         },
         {
           "number": 71,
           "sanskrit": "गृहीता दस्युभिर् यच् च रक्षिता भवता स्त्रियः तद् अप्य् अहं यथावृत्तं कथयामि तवार्जुन",
           "transliteration": "gṛhītā dasyubhir yac ca rakṣitā bhavatā striyaḥ tad apy ahaṃ yathāvṛttaṃ kathayāmi tavārjuna",
-          "hindi": "मुनियोंने कहा--मुने! अब हम परम बुद्धिमान् बलरामजीके शौर्य और पराक्रमका वृत्तान्त सुनना चाहते हैं। आप उसीका वर्णन कीजिये।"
+          "hindi": "मुनियोंने कहा--मुने! अब हम परम बुद्धिमान् बलरामजीके शौर्य और पराक्रमका वृत्तान्त सुनना चाहते हैं। आप उसीका वर्णन कीजिये।",
+          "translation": "and that the women were taken by robbers though protected by you; that too I tell you as it was, Arjuna.",
+          "translationSource": "ai"
         },
         {
           "number": 72,
           "sanskrit": "अष्टावक्रः पुरा विप्र उदवासरतो ऽभवत् बहून् वर्षगणान् पार्थ गृणन् ब्रह्म सनातनम्",
           "transliteration": "aṣṭāvakraḥ purā vipra udavāsarato 'bhavat bahūn varṣagaṇān pārtha gṛṇan brahma sanātanam",
-          "hindi": "व्यासजी बोले-मुनियो! बलरामजी इस पृथ्वीको धारण करनेवाले साक्षात् भगवान् शेष"
+          "hindi": "व्यासजी बोले-मुनियो! बलरामजी इस पृथ्वीको धारण करनेवाले साक्षात् भगवान् शेष",
+          "translation": "Formerly there was a Brahmin named Ashtavakra, devoted to standing in water, chanting the eternal Brahman for many years, Partha.",
+          "translationSource": "ai"
         },
         {
           "number": 73,
           "sanskrit": "जितेष्व् असुरसंघेषु मेरुपृष्ठे महोत्सवः बभूव तत्र गच्छन्त्यो ददृशुस् तं सुरस्त्रियः",
           "transliteration": "jiteṣv asurasaṃgheṣu merupṛṣṭhe mahotsavaḥ babhūva tatra gacchantyo dadṛśus taṃ surastriyaḥ",
-          "hindi": "बलदेवजीकी यह बात सुनकर भीष्म, द्रोण, कर्ण और दुर्योधन आदिके क्रोधकी सीमा न"
+          "hindi": "बलदेवजीकी यह बात सुनकर भीष्म, द्रोण, कर्ण और दुर्योधन आदिके क्रोधकी सीमा न",
+          "translation": "When the Asura hosts were conquered, there was a great festival on the back of Meru; the goddess-women going there saw him.",
+          "translationSource": "ai"
         },
         {
           "number": 74,
           "sanskrit": "रम्भातिलोत्तमाद्याश् च शतशो ऽथ सहस्रशः तुष्टुवुस् तं महात्मानं प्रशशंसुश् च पाण्डव",
           "transliteration": "rambhātilottamādyāś ca śataśo 'tha sahasraśaḥ tuṣṭuvus taṃ mahātmānaṃ praśaśaṃsuś ca pāṇḍava",
-          "hindi": "से अर कै   रही। राजा बाहीक आदि भी कुपित हो उठे।"
+          "hindi": "से अर कै   रही। राजा बाहीक आदि भी कुपित हो उठे।",
+          "translation": "Rambha, Tilottama and others, by hundreds and thousands, praised that great-souled one, Pandava, and extolled him.",
+          "translationSource": "ai"
         },
         {
           "number": 75,
           "sanskrit": "आकण्ठमग्नं सलिले जटाभारधरं मुनिम् विनयावनताश् चैव प्रणेमुः स्तोत्रतत्पराः",
           "transliteration": "ākaṇṭhamagnaṃ salile jaṭābhāradharaṃ munim vinayāvanatāś caiva praṇemuḥ stotratatparāḥ",
-          "hindi": "उन्होंने यदुकुलको राज्यके अधिकारसे वञ्चित जान बलरामजीसे कहा-- बलदेव ! तुमने यह कैसी बात कह डाली। कौन ऐसा यदुवंशी है, जो कौरवोंको आज्ञा देगा। यदि उग्रसेन भी कौरवोंको"
+          "hindi": "उन्होंने यदुकुलको राज्यके अधिकारसे वञ्चित जान बलरामजीसे कहा-- बलदेव ! तुमने यह कैसी बात कह डाली। कौन ऐसा यदुवंशी है, जो कौरवोंको आज्ञा देगा। यदि उग्रसेन भी कौरवोंको",
+          "translation": "The sage, immersed in water up to his neck, bearing a load of matted hair — they bowed with humility, intent on praise.",
+          "translationSource": "ai"
         },
         {
           "number": 76,
           "sanskrit": "यथा यथा प्रसन्नो ऽभूत् तुष्टुवुस् तं तथा तथा सर्वास् ताः कौरवश्रेष्ठ वरिष्ठं तं द्विजन्मनाम्",
           "transliteration": "yathā yathā prasanno 'bhūt tuṣṭuvus taṃ tathā tathā sarvās tāḥ kauravaśreṣṭha variṣṭhaṃ taṃ dvijanmanām",
-          "hindi": "आज्ञा दें, तब तो हमें राजाओंके योग्य श्वेत-छत्र धारण करनेसे क्या लाभ होगा। अत: तुम लौट जाओ। साम्बने अन्यायपूर्ण कार्य किया है, अतः तुम्हारे या उग्रसेनके कहनेसे हम उसे छोड़ नहीं"
+          "hindi": "आज्ञा दें, तब तो हमें राजाओंके योग्य श्वेत-छत्र धारण करनेसे क्या लाभ होगा। अत: तुम लौट जाओ। साम्बने अन्यायपूर्ण कार्य किया है, अतः तुम्हारे या उग्रसेनके कहनेसे हम उसे छोड़ नहीं",
+          "translation": "As he became pleased, so they praised him more, all of them, best of Kauravas, that best of the twice-born.",
+          "translationSource": "ai"
         },
         {
           "number": 77,
           "sanskrit": "प्रसन्नो ऽहं महाभागा भवतीनां यद् इष्यते मत्तस् तद् व्रियतां सर्वं प्रदास्याम्य् अपि दुर्लभम्",
           "transliteration": "prasanno 'haṃ mahābhāgā bhavatīnāṃ yad iṣyate mattas tad vriyatāṃ sarvaṃ pradāsyāmy api durlabham",
-          "hindi": "सकते । हमलोग यदुवंशियोंके माननीय हैं। कुकुर और अन्धक-वंशोंके लोग सदा हमको प्रणाम किया करते थे। अब वे ऐसा नहीं करते तो न सही; किंतु स्वामीको सेवककी ओरसे यह आज्ञा"
+          "hindi": "सकते । हमलोग यदुवंशियोंके माननीय हैं। कुकुर और अन्धक-वंशोंके लोग सदा हमको प्रणाम किया करते थे। अब वे ऐसा नहीं करते तो न सही; किंतु स्वामीको सेवककी ओरसे यह आज्ञा",
+          "translation": "'I am pleased, fortunate ones; ask of me whatever you desire; I shall give it, even if hard to get.'",
+          "translationSource": "ai"
         },
         {
           "number": 78,
           "sanskrit": "रम्भातिलोत्तमाद्याश् च दिव्याश् चाप्सरसो ऽब्रुवन्",
           "transliteration": "rambhātilottamādyāś ca divyāś cāpsaraso 'bruvan",
-          "hindi": "हैं। उनकी महिमा अनन्त है। वे अप्रमेय हैं ।  देनेकी बात कैसी  हमने तुमलोगोंको अपने समान उन्होंने जो कार्य किया, उसका वर्णन करता हूँ; आसन और भोजन देकर जो सम्मानित किया,"
+          "hindi": "हैं। उनकी महिमा अनन्त है। वे अप्रमेय हैं ।  देनेकी बात कैसी  हमने तुमलोगोंको अपने समान उन्होंने जो कार्य किया, उसका वर्णन करता हूँ; आसन और भोजन देकर जो सम्मानित किया,",
+          "translation": "Rambha, Tilottama and the other divine apsarases said:",
+          "translationSource": "ai"
         },
         {
           "number": 79,
           "sanskrit": "प्रसन्ने त्वय्य् असंप्राप्तं किम् अस्माकम् इति द्विजाः",
           "transliteration": "prasanne tvayy asaṃprāptaṃ kim asmākam iti dvijāḥ",
-          "hindi": "» पौण्डुकका वध और बलरामजीके द्वारा हस्तिनापुरका आकर्षण"
+          "hindi": "» पौण्डुकका वध और बलरामजीके द्वारा हस्तिनापुरका आकर्षण",
+          "translation": "'When you are pleased, Brahmins, what is not obtained by us?'",
+          "translationSource": "ai"
         },
         {
           "number": 80,
           "sanskrit": "इतरास् त्व् अब्रुवन् विप्र प्रसन्नो भगवन् यदि तद् इच्छामः पतिं प्राप्तुं विप्रेन्द्र पुरुषोत्तमम्",
           "transliteration": "itarās tv abruvan vipra prasanno bhagavan yadi tad icchāmaḥ patiṃ prāptuṃ viprendra puruṣottamam",
-          "hindi": "उससे तुम्हारा अहंकार बहुत बढ़ गया है । इसमें तुम्हारा क्या दोष है । हमने ही प्रेमवश नीति नहीं देखी । बलराम! हमने तुम्हारे लिये जो यह अर्घ्य निवेदित किया है, इसमें केवल प्रेम ही कारण"
+          "hindi": "उससे तुम्हारा अहंकार बहुत बढ़ गया है । इसमें तुम्हारा क्या दोष है । हमने ही प्रेमवश नीति नहीं देखी । बलराम! हमने तुम्हारे लिये जो यह अर्घ्य निवेदित किया है, इसमें केवल प्रेम ही कारण",
+          "translation": "The others said, 'Brahmin, if you, revered one, are pleased, we wish to obtain the Purushottama as husband, best of Brahmins.'",
+          "translationSource": "ai"
         },
         {
           "number": 81,
           "sanskrit": "एवं भविष्यतीत्य् उक्त्वा उत्ततार जलान् मुनिः तम् उत्तीर्णं च ददृशुर् विरूपं वक्रम् अष्टधा",
           "transliteration": "evaṃ bhaviṣyatīty uktvā uttatāra jalān muniḥ tam uttīrṇaṃ ca dadṛśur virūpaṃ vakram aṣṭadhā",
-          "hindi": "है। हमारे कुलकी ओरसे तुम्हारे कुलको अर्घ्य देना कदापि उचित नहीं है।'"
+          "hindi": "है। हमारे कुलकी ओरसे तुम्हारे कुलको अर्घ्य देना कदापि उचित नहीं है।'",
+          "translation": "Saying 'So it will be,' the sage came up out of the water. They saw him come out, ugly, eightfold crooked.",
+          "translationSource": "ai"
         },
         {
           "number": 82,
           "sanskrit": "तं दृष्ट्वा गूहमानानां यासां हासः स्फुटो ऽभवत् ताः शशाप मुनिः कोपम् अवाप्य कुरुनन्दन",
           "transliteration": "taṃ dṛṣṭvā gūhamānānāṃ yāsāṃ hāsaḥ sphuṭo 'bhavat tāḥ śaśāpa muniḥ kopam avāpya kurunandana",
-          "hindi": "यों कहकर कौरव चुप हो गये। उन्होंने श्रीकृष्णके पुत्रको बन्धनसे मुक्त नहीं किया। इस विषयमे उन सबने एक राय कर ली थी। वे सब-के-सब बलरामजीको वहीं छोड़ हस्तिनापुरमें चले गये।"
+          "hindi": "यों कहकर कौरव चुप हो गये। उन्होंने श्रीकृष्णके पुत्रको बन्धनसे मुक्त नहीं किया। इस विषयमे उन सबने एक राय कर ली थी। वे सब-के-सब बलरामजीको वहीं छोड़ हस्तिनापुरमें चले गये।",
+          "translation": "Seeing him, those who were hiding laughed openly; the sage, falling into anger, cursed them, son of the Kurus:",
+          "translationSource": "ai"
         },
         {
           "number": 83,
           "sanskrit": "यस्माद् विरूपरूपं मां मत्वा हासावमानना भवतीभिः कृता तस्माद् एष शापं ददामि वः",
           "transliteration": "yasmād virūparūpaṃ māṃ matvā hāsāvamānanā bhavatībhiḥ kṛtā tasmād eṣa śāpaṃ dadāmi vaḥ",
-          "hindi": "कौरवोंद्वारा किये हुए आक्षेपसे बलरामजीको बड़ा क्रोध हुआ। वे घूरते हुए उठकर खड़े हो गये और पैरको एड़ीसे उन्होंने पृथ्वीपर प्रहार किया। महात्मा बलरामको एड़ीके आघातसे पृथ्वी विदीर्ण"
+          "hindi": "कौरवोंद्वारा किये हुए आक्षेपसे बलरामजीको बड़ा क्रोध हुआ। वे घूरते हुए उठकर खड़े हो गये और पैरको एड़ीसे उन्होंने पृथ्वीपर प्रहार किया। महात्मा बलरामको एड़ीके आघातसे पृथ्वी विदीर्ण",
+          "translation": "'Since you have mocked me with laughter, thinking me ugly in form, therefore I give you a curse:",
+          "translationSource": "ai"
         },
         {
           "number": 84,
           "sanskrit": "मत्प्रसादेन भर्तारं लब्ध्वा तु पुरुषोत्तमम् मच्छापोपहताः सर्वा दस्युहस्तं गमिष्यथ",
           "transliteration": "matprasādena bhartāraṃ labdhvā tu puruṣottamam macchāpopahatāḥ sarvā dasyuhastaṃ gamiṣyatha",
-          "hindi": "हो गयी। वे अपनी गर्जनासे सम्पूर्ण दिशाओंको गुँजाकर कम्पित करने लगे। वे आँखें लाल-लाल और भौहें टेढ़ी करके बोले--' अहो! इन सारहीन दुरात्मा कौरवोंको अपने राजा होनेका इतना मद,"
+          "hindi": "हो गयी। वे अपनी गर्जनासे सम्पूर्ण दिशाओंको गुँजाकर कम्पित करने लगे। वे आँखें लाल-लाल और भौहें टेढ़ी करके बोले--' अहो! इन सारहीन दुरात्मा कौरवोंको अपने राजा होनेका इतना मद,",
+          "translation": "having obtained the Purushottama as husband by my grace, you will, struck by my curse, all go into the hands of robbers.'",
+          "translationSource": "ai"
         },
         {
           "number": 85,
           "sanskrit": "इत्य् उदीरितम् आकर्ण्य मुनिस् ताभिः प्रसादितः पुनः सुरेन्द्रलोकं वै प्राह भूयो गमिष्यथ",
           "transliteration": "ity udīritam ākarṇya munis tābhiḥ prasāditaḥ punaḥ surendralokaṃ vai prāha bhūyo gamiṣyatha",
-          "hindi": "इतना अभिमान है! क्या कौरव ही सम्राट्-पदके अधिकारी हैं ? हमलोगोंका प्रभुत्व कुछ ही कालके लिये है? क्या बात है, जो ये महाराज उग्रसेनकी अलङ्घनीय आज्ञाको भी नहीं मानते। देवताओं"
+          "hindi": "इतना अभिमान है! क्या कौरव ही सम्राट्-पदके अधिकारी हैं ? हमलोगोंका प्रभुत्व कुछ ही कालके लिये है? क्या बात है, जो ये महाराज उग्रसेनकी अलङ्घनीय आज्ञाको भी नहीं मानते। देवताओं",
+          "translation": "Hearing this, the sage was pacified by them again and said, 'You will go again to the world of the lord of gods.'",
+          "translationSource": "ai"
         },
         {
           "number": 86,
           "sanskrit": "एवं तस्य मुनेः शापाद् अष्टावक्रस्य केशवम् भर्तारं प्राप्य ताः प्राप्ता दस्युहस्तं वराङ्गनाः",
           "transliteration": "evaṃ tasya muneḥ śāpād aṣṭāvakrasya keśavam bhartāraṃ prāpya tāḥ prāptā dasyuhastaṃ varāṅganāḥ",
-          "hindi": "और धर्मके साथ शचीपति इन्द्र भी उनकी आज्ञाकी प्रतीक्षा करते हैं। इन्द्रको सुधर्मा सभामें इस समय"
+          "hindi": "और धर्मके साथ शचीपति इन्द्र भी उनकी आज्ञाकी प्रतीक्षा करते हैं। इन्द्रको सुधर्मा सभामें इस समय",
+          "translation": "Thus by the curse of the sage Ashtavakra, having obtained Keshava as husband, those excellent women fell into the hands of robbers.",
+          "translationSource": "ai"
         },
         {
           "number": 87,
           "sanskrit": "तत् त्वया नात्र कर्तव्यः शोको ऽल्पो ऽपि हि पाण्डव तेनैवाखिलनाथेन सर्वं तद् उपसंहृतम्",
           "transliteration": "tat tvayā nātra kartavyaḥ śoko 'lpo 'pi hi pāṇḍava tenaivākhilanāthena sarvaṃ tad upasaṃhṛtam",
-          "hindi": "ले जाकर उग्रसेन आदि बन्धु-बान्धवोंका दर्शन करूंगा । अथवा देवराज इन्द्रकी प्रेरणासे हमें शीघ्र ही पृथ्वीका भार उतारना है, इसलिये समस्त कौरवोंके साथ उनके हस्तिनापुर नगरको अभी"
+          "hindi": "ले जाकर उग्रसेन आदि बन्धु-बान्धवोंका दर्शन करूंगा । अथवा देवराज इन्द्रकी प्रेरणासे हमें शीघ्र ही पृथ्वीका भार उतारना है, इसलिये समस्त कौरवोंके साथ उनके हस्तिनापुर नगरको अभी",
+          "translation": "Therefore, Pandava, you should have not even a little grief here; by the very Lord of all that was all withdrawn.",
+          "translationSource": "ai"
         },
         {
           "number": 88,
           "sanskrit": "भवतां चोपसंहारम् आसन्नं तेन कुर्वता बलं तेजस् तथा वीर्यं माहात्म्यं चोपसंहृतम्",
           "transliteration": "bhavatāṃ copasaṃhāram āsannaṃ tena kurvatā balaṃ tejas tathā vīryaṃ māhātmyaṃ copasaṃhṛtam",
-          "hindi": "गङ्गामें डाले देता हूँ।'"
+          "hindi": "गङ्गामें डाले देता हूँ।'",
+          "translation": "And making your withdrawal near, he has withdrawn your strength, brilliance, valour and greatness.",
+          "translationSource": "ai"
         },
         {
           "number": 89,
           "sanskrit": "जातस्य नियतो मृत्युः पतनं च तथोन्नतेः विप्रयोगावसानं तु संयोगः संचयः क्षयः",
           "transliteration": "jātasya niyato mṛtyuḥ patanaṃ ca tathonnateḥ viprayogāvasānaṃ tu saṃyogaḥ saṃcayaḥ kṣayaḥ",
-          "hindi": "यों कहकर क्रोधसे लाल आँखें किये बलभद्रजीने अपने हलका मुख नीचेकी ओर किया और चहारदीवारीकी जड़में धँसाकर खींचा। इससे सम्पूर्ण हस्तिनापुर सहसा डगमगाता-सा जान पड़ा। यह"
+          "hindi": "यों कहकर क्रोधसे लाल आँखें किये बलभद्रजीने अपने हलका मुख नीचेकी ओर किया और चहारदीवारीकी जड़में धँसाकर खींचा। इससे सम्पूर्ण हस्तिनापुर सहसा डगमगाता-सा जान पड़ा। यह",
+          "translation": "For the born death is fixed, and for the exalted a fall; separation ends in union, and accumulation in decay.",
+          "translationSource": "ai"
         },
         {
           "number": 90,
           "sanskrit": "विज्ञाय न बुधाः शोकं न हर्षम् उपयान्ति ये तेषाम् एवेतरे चेष्टां शिक्षन्तः सन्ति तादृशाः",
           "transliteration": "vijñāya na budhāḥ śokaṃ na harṣam upayānti ye teṣām evetare ceṣṭāṃ śikṣantaḥ santi tādṛśāḥ",
-          "hindi": "देख समस्त कौरव व्याकुलचित्त होकर हाहाकार करने लगे और बलरामजीके पास आकर बोले- “महाबाहु राम! बलराम! ! क्षमा कीजिये, क्षमा कीजिये; मुसलायुध! अपना क्रोध शान्त कीजिये"
+          "hindi": "देख समस्त कौरव व्याकुलचित्त होकर हाहाकार करने लगे और बलरामजीके पास आकर बोले- “महाबाहु राम! बलराम! ! क्षमा कीजिये, क्षमा कीजिये; मुसलायुध! अपना क्रोध शान्त कीजिये",
+          "translation": "Those who, knowing this, do not feel grief or joy — others learn conduct from them; there are such people.",
+          "translationSource": "ai"
         },
         {
           "number": 91,
           "sanskrit": "तस्मात् त्वया नरश्रेष्ठ ज्ञात्वैतद् भ्रातृभिः सह परित्यज्याखिलं राज्यं गन्तव्यं तपसे वनम्",
           "transliteration": "tasmāt tvayā naraśreṣṭha jñātvaitad bhrātṛbhiḥ saha parityajyākhilaṃ rājyaṃ gantavyaṃ tapase vanam",
-          "hindi": "साम्ब आपकी सेवामें समर्पित हैं। हम आपका प्रभाव नहीं जानते; इसीसे हमलोगोंके द्वारा आपका अपराध हुआ है। अब कृपया उसे क्षमा करें।' यों कहकर कोरवोंने पत्नीसहित साम्बको बलभद्रजीके"
+          "hindi": "साम्ब आपकी सेवामें समर्पित हैं। हम आपका प्रभाव नहीं जानते; इसीसे हमलोगोंके द्वारा आपका अपराध हुआ है। अब कृपया उसे क्षमा करें।' यों कहकर कोरवोंने पत्नीसहित साम्बको बलभद्रजीके",
+          "translation": "Therefore, best of men, knowing this, with your brothers, abandoning the entire kingdom, you should go to the forest for austerity.",
+          "translationSource": "ai"
         },
         {
           "number": 92,
           "sanskrit": "तद् गच्छ धर्मराजाय निवेद्यैतद् वचो मम परश्वो भ्रातृभिः सार्धं गतिं वीर यथा कुरु",
           "transliteration": "tad gaccha dharmarājāya nivedyaitad vaco mama paraśvo bhrātṛbhiḥ sārdhaṃ gatiṃ vīra yathā kuru",
-          "hindi": "सामने उपस्थित कर दिया। भीष्म, द्रोण और"
+          "hindi": "सामने उपस्थित कर दिया। भीष्म, द्रोण और",
+          "translation": "So go, tell this my word to Dharmaraja; the day after tomorrow with your brothers do as you see fit, hero.\"",
+          "translationSource": "ai"
         },
         {
           "number": 93,
           "sanskrit": "इत्य् उक्तो धर्मराजं तु समभ्येत्य तथोक्तवान् दृष्टं चैवानुभूतं वा कथितं तद् अशेषतः",
           "transliteration": "ity ukto dharmarājaṃ tu samabhyetya tathoktavān dṛṣṭaṃ caivānubhūtaṃ vā kathitaṃ tad aśeṣataḥ",
-          "hindi": "सदा महाराज उग्रसेन ही विराजमान होते हैं। इन . टि ia"
+          "hindi": "सदा महाराज उग्रसेन ही विराजमान होते हैं। इन . टि ia",
+          "translation": "Thus told, he went to Dharmaraja and said all that he had seen and experienced, fully.",
+          "translationSource": "ai"
         },
         {
           "number": 94,
           "sanskrit": "व्यासवाक्यं च ते सर्वे श्रुत्वार्जुनसमीरितम् राज्ये परीक्षितं कृत्वा ययुः पाण्डुसुता वनम्",
           "transliteration": "vyāsavākyaṃ ca te sarve śrutvārjunasamīritam rājye parīkṣitaṃ kṛtvā yayuḥ pāṇḍusutā vanam",
-          "hindi": "कौरवोंका राजसिंहासन तो सैकड़ों मनुष्योंकी जूठन है; उसीपर इनको संतोष है! धिक्कार है इन्हें! आजसे उग्रसेन ही समस्त राजाओंके भी राजा बनकर रहेँ । अब में इस पृथ्वीको कौरवोंसे"
+          "hindi": "कौरवोंका राजसिंहासन तो सैकड़ों मनुष्योंकी जूठन है; उसीपर इनको संतोष है! धिक्कार है इन्हें! आजसे उग्रसेन ही समस्त राजाओंके भी राजा बनकर रहेँ । अब में इस पृथ्वीको कौरवोंसे",
+          "translation": "And all, hearing Vyasa's word reported by Arjuna, established Parikshit in the kingdom and the sons of Pandu went to the forest.",
+          "translationSource": "ai"
         },
         {
           "number": 95,
           "sanskrit": "इत्य् एवं वो मुनिश्रेष्ठा विस्तरेण मयोदितम् जातस्य च यदोर् वंशे वासुदेवस्य चेष्टितम्",
           "transliteration": "ity evaṃ vo muniśreṣṭhā vistareṇa mayoditam jātasya ca yador vaṃśe vāsudevasya ceṣṭitam",
-          "hindi": "हीन करके ही द्वारकापुरीको लौटूँगा। कर्ण, दुर्योधन,"
+          "hindi": "हीन करके ही द्वारकापुरीको लौटूँगा। कर्ण, दुर्योधन,",
+          "translation": "Thus, best of sages, this has been told by me in detail: the birth in the Yadu line and the deeds of Vasudeva.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -80927,349 +81111,465 @@
           "number": 50,
           "sanskrit": "देवर्षिभिस् तपोवृद्धैः सिद्धैर् विद्वद्भिर् एव च राजर्षिभिः पुण्यतमैर् गन्धर्वैर् अप्सरोगणैः",
           "transliteration": "devarṣibhis tapovṛddhaiḥ siddhair vidvadbhir eva ca rājarṣibhiḥ puṇyatamair gandharvair apsarogaṇaiḥ",
-          "hindi": "इस प्रकार है; सुनिये । देवताओंके प्रार्थना करनेपर आपने जो इस पृथ्वीका भार उतारनेके लिये"
+          "hindi": "इस प्रकार है; सुनिये । देवताओंके प्रार्थना करनेपर आपने जो इस पृथ्वीका भार उतारनेके लिये",
+          "translation": "by divine sages rich in austerity, Siddhas, the learned, and the holiest royal sages, Gandharvas and hosts of Apsarases,",
+          "translationSource": "ai"
         },
         {
           "number": 51,
           "sanskrit": "चराचरगुरुः श्रीमान् वृतः सर्वैः सुरैस् तथा ब्रह्मा ब्रह्मविदां श्रेष्ठो दैत्यं वचनम् अब्रवीत्",
           "transliteration": "carācaraguruḥ śrīmān vṛtaḥ sarvaiḥ surais tathā brahmā brahmavidāṃ śreṣṭho daityaṃ vacanam abravīt",
-          "hindi": "अवतार लिया था, उसे आज सौ वर्षसे अधिक  देनेवाले हैं।'"
+          "hindi": "अवतार लिया था, उसे आज सौ वर्षसे अधिक  देनेवाले हैं।'",
+          "translation": "the teacher of the moving and unmoving, the glorious one, surrounded by all the gods, Brahma, best of Brahman-knowers, said to the Daitya:",
+          "translationSource": "ai"
         },
         {
           "number": 52,
           "sanskrit": "प्रीतो ऽस्मि तव भक्तस्य तपसानेन सुव्रत वरं वरय भद्रं ते यथेष्टं कामम् आप्नुहि",
           "transliteration": "prīto 'smi tava bhaktasya tapasānena suvrata varaṃ varaya bhadraṃ te yatheṣṭaṃ kāmam āpnuhi",
-          "hindi": "हो गये। दुराचारी हैत्य मारे गये। पृथ्वीका भार उतर गया। अब देवता आपसे सनाथ होकर स्वर्गमे निवास करें। जगन्नाथ ! यदि आपको स्वीकार हो तो अब अपने परमधामको पधारेँ।'"
+          "hindi": "हो गये। दुराचारी हैत्य मारे गये। पृथ्वीका भार उतर गया। अब देवता आपसे सनाथ होकर स्वर्गमे निवास करें। जगन्नाथ ! यदि आपको स्वीकार हो तो अब अपने परमधामको पधारेँ।'",
+          "translation": "\"I am pleased with you, devotee, by this austerity, good vow-holder; choose a boon, may you be well; obtain the desire as you wish.\"",
+          "translationSource": "ai"
         },
         {
           "number": 53,
           "sanskrit": "न देवासुरगन्धर्वा न यक्षोरगराक्षसाः ऋषयो वाथ मां शापैः क्रुद्धा लोकपितामह",
           "transliteration": "na devāsuragandharvā na yakṣoragarākṣasāḥ ṛṣayo vātha māṃ śāpaiḥ kruddhā lokapitāmaha",
-          "hindi": "श्रीभगवान् बोले--' दूत! तुम जो कुछ कहते हो, वह सब मैं जानता हूँ । इसीलिये मैंने यादवोंके संहारका कार्य आरम्भ कर दिया है। यदि यदुवंशियोंका संहार न हो तो यह पृथ्वीपर बहुत बड़ा भार रह"
+          "hindi": "श्रीभगवान् बोले--' दूत! तुम जो कुछ कहते हो, वह सब मैं जानता हूँ । इसीलिये मैंने यादवोंके संहारका कार्य आरम्भ कर दिया है। यदि यदुवंशियोंका संहार न हो तो यह पृथ्वीपर बहुत बड़ा भार रह",
+          "translation": "\"Neither gods, Asuras, Gandharvas, Yakshas, serpents nor Rakshasas, nor sages, angry, joined with austerity, would curse me with curses, grandfather of the world; this boon is chosen by me:",
+          "translationSource": "ai"
         },
         {
           "number": 54,
           "sanskrit": "शपेयुस् तपसा युक्ता वर एष वृतो मया न शस्त्रेण न वास्त्रेण गिरिणा पादपेन वा",
           "transliteration": "śapeyus tapasā yuktā vara eṣa vṛto mayā na śastreṇa na vāstreṇa giriṇā pādapena vā",
-          "hindi": "जायगा; अतः मैं सात रातके भीतर जल्दी ही इस भारको भी उतार डालूँगा। जिस प्रकार मैंने द्वारकापुरी बसानेके लिये समुद्रसे भूमि माँगी थी, उसी प्रकार उसे वह भूमि लौटा भी दूँगा और यादवोंका"
+          "hindi": "जायगा; अतः मैं सात रातके भीतर जल्दी ही इस भारको भी उतार डालूँगा। जिस प्रकार मैंने द्वारकापुरी बसानेके लिये समुद्रसे भूमि माँगी थी, उसी प्रकार उसे वह भूमि लौटा भी दूँगा और यादवोंका",
+          "translation": "not by weapon, nor missile, nor mountain, nor tree, not dry, not wet, not above, not below,",
+          "translationSource": "ai"
         },
         {
           "number": 55,
           "sanskrit": "न शुष्केण न चार्द्रेण न चैवोर्ध्वं न चाप्य् अधः पाणिप्रहारेणैकेन सभृत्यबलवाहनम्",
           "transliteration": "na śuṣkeṇa na cārdreṇa na caivordhvaṃ na cāpy adhaḥ pāṇiprahāreṇaikena sabhṛtyabalavāhanam",
-          "hindi": "संहार करके अपने परमधामको जाऊँगा। देवराज"
+          "hindi": "संहार करके अपने परमधामको जाऊँगा। देवराज",
+          "translation": "only by one blow of a hand together with servants, army and vehicle,",
+          "translationSource": "ai"
         },
         {
           "number": 56,
           "sanskrit": "यो मां नाशयितुं शक्तः स मे मृत्युर् भविष्यति भवेयम् अहम् एवार्कः सोमो वायुर् हुताशनः",
           "transliteration": "yo māṃ nāśayituṃ śaktaḥ sa me mṛtyur bhaviṣyati bhaveyam aham evārkaḥ somo vāyur hutāśanaḥ",
-          "hindi": "श्रीभगवान् बोले--उद्धव ! तुम मेरी कृपासे प्राप्त हुई दिव्य गतिके द्वारा गन्धमादन पर्वतपर परम पवित्र बदरिकाश्रमतीर्थमें चले जाओ। वह श्रीनर-नारायणका स्थान है। वहाँकी भूमि बड़ी"
+          "hindi": "श्रीभगवान् बोले--उद्धव ! तुम मेरी कृपासे प्राप्त हुई दिव्य गतिके द्वारा गन्धमादन पर्वतपर परम पवित्र बदरिकाश्रमतीर्थमें चले जाओ। वह श्रीनर-नारायणका स्थान है। वहाँकी भूमि बड़ी",
+          "translation": "he who is able to destroy me shall be my death. May I myself be the sun, moon, wind and fire,",
+          "translationSource": "ai"
         },
         {
           "number": 57,
           "sanskrit": "सलिलं चान्तरिक्षं च आकाशं चैव सर्वशः अहं क्रोधश् च कामश् च वरुणो वासवो यमः धनदश् च धनाध्यक्षो यक्षः किंपुरुषाधिपः",
           "transliteration": "salilaṃ cāntarikṣaṃ ca ākāśaṃ caiva sarvaśaḥ ahaṃ krodhaś ca kāmaś ca varuṇo vāsavo yamaḥ dhanadaś ca dhanādhyakṣo yakṣaḥ kiṃpuruṣādhipaḥ",
-          "hindi": "पवित्र है। उस तीर्थमें मेरा चिन्तन करते हुए निवास करो, फिर मेरी कृपासे तुम्हें उत्तम सिद्धि प्राप्त होगी। में इस कुलका संहार करके अपने धामको जाऊँगा। मेरे त्याग देनेपर समुद्र इस"
+          "hindi": "पवित्र है। उस तीर्थमें मेरा चिन्तन करते हुए निवास करो, फिर मेरी कृपासे तुम्हें उत्तम सिद्धि प्राप्त होगी। में इस कुलका संहार करके अपने धामको जाऊँगा। मेरे त्याग देनेपर समुद्र इस",
+          "translation": "water, atmosphere and space in all ways, I myself anger and desire, Varuna, Vasava and Yama, the giver of wealth and lord of wealth, Yaksha and lord of Kimpurushas.\"",
+          "translationSource": "ai"
         },
         {
           "number": 58,
           "sanskrit": "एते दिव्या वरास् तात मया दत्तास् तवाद्भुताः सर्वान् कामान् इमांस् तात प्राप्स्यसि त्वं न संशयः",
           "transliteration": "ete divyā varās tāta mayā dattās tavādbhutāḥ sarvān kāmān imāṃs tāta prāpsyasi tvaṃ na saṃśayaḥ",
-          "hindi": "द्वारकापुरीको डुबो देगा।"
+          "hindi": "द्वारकापुरीको डुबो देगा।",
+          "translation": "\"These wondrous divine boons, dear, have been given to you by me; all these desires you will obtain, no doubt.\"",
+          "translationSource": "ai"
         },
         {
           "number": 59,
           "sanskrit": "एवम् उक्त्वा तु भगवाञ् जगामाशु पितामहः वैराजं ब्रह्मसदनं ब्रह्मर्षिगणसेवितम्",
           "transliteration": "evam uktvā tu bhagavāñ jagāmāśu pitāmahaḥ vairājaṃ brahmasadanaṃ brahmarṣigaṇasevitam",
-          "hindi": "भगवानूके यों कहनेपर उद्धवजी उन्हें प्रणाम करके नर-नारायणके आश्रममें चले गये। तदनन्तर"
+          "hindi": "भगवानूके यों कहनेपर उद्धवजी उन्हें प्रणाम करके नर-नारायणके आश्रममें चले गये। तदनन्तर",
+          "translation": "Having said so, the revered Grandfather quickly went to the Vairaja abode of Brahma, served by hosts of Brahmin sages.",
+          "translationSource": "ai"
         },
         {
           "number": 60,
           "sanskrit": "ततो देवाश् च नागाश् च गन्धर्वा मुनयस् तथा वरप्रदानं श्रुत्वैव पितामहम् उपस्थिताः",
           "transliteration": "tato devāś ca nāgāś ca gandharvā munayas tathā varapradānaṃ śrutvaiva pitāmaham upasthitāḥ",
-          "hindi": "और श्रीकृष्ण आदिके साथ प्रभासक्षेत्रमें गये।"
+          "hindi": "और श्रीकृष्ण आदिके साथ प्रभासक्षेत्रमें गये।",
+          "translation": "Then the gods, Nagas, Gandharvas and sages, hearing of the granting of the boon, approached the Grandfather:",
+          "translationSource": "ai"
         },
         {
           "number": 61,
           "sanskrit": "वरेणानेन भगवन् बाधिष्यति स नो ऽसुरः तत् प्रसीदाशु भगवन् वधो ऽप्य् अस्य विचिन्त्यताम्",
           "transliteration": "vareṇānena bhagavan bādhiṣyati sa no 'suraḥ tat prasīdāśu bhagavan vadho 'py asya vicintyatām",
-          "hindi": "इन्द्र तथा देवताओंको यों मानना चाहिए कि मैं  वहाँ पहुँचकर कुकुर और अन्धकवंशके सब बलरामजीके साथ अब अपने धाममें आ ही  लोगोंने प्रसन्नतापूर्वक मदिरा-पान किया। पीते गया। इस पृथ्वीके भाररूप जो जरासंध आदि  समय उनमें परस्पर संघर्ष हो गया, जिससे विनाश राजा थे, वे मारे गये; तथापि इन यदुवंशियोंका  करनेवाली कलहाग्रि प्रज्वलित हो उठी। हैवके"
+          "hindi": "इन्द्र तथा देवताओंको यों मानना चाहिए कि मैं  वहाँ पहुँचकर कुकुर और अन्धकवंशके सब बलरामजीके साथ अब अपने धाममें आ ही  लोगोंने प्रसन्नतापूर्वक मदिरा-पान किया। पीते गया। इस पृथ्वीके भाररूप जो जरासंध आदि  समय उनमें परस्पर संघर्ष हो गया, जिससे विनाश राजा थे, वे मारे गये; तथापि इन यदुवंशियोंका  करनेवाली कलहाग्रि प्रज्वलित हो उठी। हैवके",
+          "translation": "\"By this boon, revered one, that Asura will harass us; therefore be gracious quickly, lord, and think of his killing.\"",
+          "translationSource": "ai"
         },
         {
           "number": 62,
           "sanskrit": "भगवन् सर्वभूतानां स्वयंभूर् आदिकृत् प्रभुः स्रष्टा च हव्यकव्यानाम् अव्यक्तं प्रकृतिर् ध्रुवम्",
           "transliteration": "bhagavan sarvabhūtānāṃ svayaṃbhūr ādikṛt prabhuḥ sraṣṭā ca havyakavyānām avyaktaṃ prakṛtir dhruvam",
-          "hindi": "भार उनसे भी बढ़कर है, अतः पृथ्वीके इस महाभारको उतारकर ही मैं देवलोककी रक्षाके लिये अपने धाममें जाऊँगा।'"
+          "hindi": "भार उनसे भी बढ़कर है, अतः पृथ्वीके इस महाभारको उतारकर ही मैं देवलोककी रक्षाके लिये अपने धाममें जाऊँगा।'",
+          "translation": "\"Revered one, of all beings the self-born, primal maker, lord, creator of oblations and funeral offerings, the unmanifest, Prakriti, the firm —\"",
+          "translationSource": "ai"
         },
         {
           "number": 63,
           "sanskrit": "ततो लोकहितं वाक्यं श्रुत्वा देवः प्रजापतिः प्रोवाच भगवान् वाक्यं सर्वदेवगणांस् तथा",
           "transliteration": "tato lokahitaṃ vākyaṃ śrutvā devaḥ prajāpatiḥ provāca bhagavān vākyaṃ sarvadevagaṇāṃs tathā",
-          "hindi": "भगवान् वासुदेवके यों कहनेपर देवदूत उन्हें प्रणाम करके दिव्य गतिसे देवराजके समीप चला"
+          "hindi": "भगवान् वासुदेवके यों कहनेपर देवदूत उन्हें प्रणाम करके दिव्य गतिसे देवराजके समीप चला",
+          "translation": "Then, hearing the word for the benefit of the world, the god Prajapati, the revered one, spoke to all the hosts of gods:",
+          "translationSource": "ai"
         },
         {
           "number": 64,
           "sanskrit": "अवश्यं त्रिदशास् तेन प्राप्तव्यं तपसः फलम् तपसो ऽन्ते च भगवान् वधं विष्णुः करिष्यति",
           "transliteration": "avaśyaṃ tridaśās tena prāptavyaṃ tapasaḥ phalam tapaso 'nte ca bhagavān vadhaṃ viṣṇuḥ kariṣyati",
-          "hindi": "अधीन होकर उन्होंने एक-दूसरेको शस्त्रोंसे मारना"
+          "hindi": "अधीन होकर उन्होंने एक-दूसरेको शस्त्रोंसे मारना",
+          "translation": "\"Surely, gods, he must obtain the fruit of his austerity; and at the end of the austerity the revered Vishnu will kill him.\"",
+          "translationSource": "ai"
         },
         {
           "number": 65,
           "sanskrit": "एतच् छ्रुत्वा सुराः सर्वे वाक्यं पङ्कजजन्मनः स्वानि स्थानानि दिव्यानि जग्मुस् ते वै मुदान्विताः",
           "transliteration": "etac chrutvā surāḥ sarve vākyaṃ paṅkajajanmanaḥ svāni sthānāni divyāni jagmus te vai mudānvitāḥ",
-          "hindi": "पास ही जमी हुई एरका नामकी घास सबने उखाड़ ली। उनके हाथोंमें आनेपर वह एरका वज्रकी भाँति दिखायी देने लगी। उसके द्वारा वे"
+          "hindi": "पास ही जमी हुई एरका नामकी घास सबने उखाड़ ली। उनके हाथोंमें आनेपर वह एरका वज्रकी भाँति दिखायी देने लगी। उसके द्वारा वे",
+          "translation": "Hearing this word of the lotus-born, all the gods went joyfully to their divine abodes.",
+          "translationSource": "ai"
         },
         {
           "number": 66,
           "sanskrit": "लब्धमात्रे वरे चापि सर्वाः सो ऽबाधत प्रजाः हिरण्यकशिपुर् दैत्यो वरदानेन दर्पितः",
           "transliteration": "labdhamātre vare cāpi sarvāḥ so 'bādhata prajāḥ hiraṇyakaśipur daityo varadānena darpitaḥ",
-          "hindi": "गया। इधर द्वारकापुरीमें दिन-रात विनाशके सूचक  एक-दूसरेपर भयंकर प्रहार करने लगे। प्रद्युम्न,"
+          "hindi": "गया। इधर द्वारकापुरीमें दिन-रात विनाशके सूचक  एक-दूसरेपर भयंकर प्रहार करने लगे। प्रद्युम्न,",
+          "translation": "As soon as he got the boon, he afflicted all creatures: the Daitya Hiranyakashipu, proud with the boon.",
+          "translationSource": "ai"
         },
         {
           "number": 67,
           "sanskrit": "आश्रमेषु महाभागान् मुनीन् वै संशितव्रतान् सत्यधर्मरतान् दान्तांस् तदा धर्षितवांस् तथा",
           "transliteration": "āśrameṣu mahābhāgān munīn vai saṃśitavratān satyadharmaratān dāntāṃs tadā dharṣitavāṃs tathā",
-          "hindi": "लगे  उन्हें देखकर भगवानूने यादवोंसे कहा-- 'देखो, ये अत्यन्त भयंकर महान् उत्पात हो रहे हैं। इनकी शान्तिके लिये हम सब लोग शीघ्र ही प्रभासक्षेत्रमें चलें।' उस समय महान् भगवद्भक्त"
+          "hindi": "लगे  उन्हें देखकर भगवानूने यादवोंसे कहा-- 'देखो, ये अत्यन्त भयंकर महान् उत्पात हो रहे हैं। इनकी शान्तिके लिये हम सब लोग शीघ्र ही प्रभासक्षेत्रमें चलें।' उस समय महान् भगवद्भक्त",
+          "translation": "He then harassed the fortunate sages in hermitages, of firm vows, devoted to truth and dharma, self-controlled.",
+          "translationSource": "ai"
         },
         {
           "number": 68,
           "sanskrit": "त्रिदिवस्थांस् तथा देवान् पराजित्य महाबलः त्रैलोक्यं वशम् आनीय स्वर्गे वसति सो ऽसुरः",
           "transliteration": "tridivasthāṃs tathā devān parājitya mahābalaḥ trailokyaṃ vaśam ānīya svarge vasati so 'suraḥ",
-          "hindi": "उद्धवजीने श्रीहरिको प्रणाम करके कहा--' भगवन्! अब मुझे क्या करना चाहिए ? इसके लिये आज्ञा दें। में समझता हुँ आप इस समस्त यादवकुलका संहार करना चाहते हैं; क्योंकि मुझे ऐसे निमित्त"
+          "hindi": "उद्धवजीने श्रीहरिको प्रणाम करके कहा--' भगवन्! अब मुझे क्या करना चाहिए ? इसके लिये आज्ञा दें। में समझता हुँ आप इस समस्त यादवकुलका संहार करना चाहते हैं; क्योंकि मुझे ऐसे निमित्त",
+          "translation": "Having conquered the gods dwelling in heaven, the very mighty Asura, bringing the three worlds under control, lived in heaven.",
+          "translationSource": "ai"
         },
         {
           "number": 69,
           "sanskrit": "यदा वरमदोन्मत्तो विचरन् दानवो भुवि यज्ञीयान् अकरोद् दैत्यान् अयज्ञीयाश् च देवताः",
           "transliteration": "yadā varamadonmatto vicaran dānavo bhuvi yajñīyān akarod daityān ayajñīyāś ca devatāḥ",
-          "hindi": "दिखायी देते हैं, जो इस कुलके विनाशकी सूचना"
+          "hindi": "दिखायी देते हैं, जो इस कुलके विनाशकी सूचना",
+          "translation": "When the Danava, intoxicated by the boon, wandering on earth, made Daityas worthy of sacrifice and the gods unworthy of sacrifice,",
+          "translationSource": "ai"
         },
         {
           "number": 70,
           "sanskrit": "आदित्या वसवः साध्या विश्वे च मरुतस् तथा शरण्यं शरणं विष्णुम् उपतस्थुर् महाबलम्",
           "transliteration": "ādityā vasavaḥ sādhyā viśve ca marutas tathā śaraṇyaṃ śaraṇaṃ viṣṇum upatasthur mahābalam",
-          "hindi": "एरकारूप वज्रसे एक-दूसरेको मारने लगे। श्रीहरिने यादवोंको ऐसा करनेसे रोका; किंतु वे उन्हें अपने विपक्षीका सहायक मानने लगे और उनकी अवहेलना करके परस्पर प्रहार करते ही रहे।"
+          "hindi": "एरकारूप वज्रसे एक-दूसरेको मारने लगे। श्रीहरिने यादवोंको ऐसा करनेसे रोका; किंतु वे उन्हें अपने विपक्षीका सहायक मानने लगे और उनकी अवहेलना करके परस्पर प्रहार करते ही रहे।",
+          "translation": "the Adityas, Vasus, Sadhyas, Vishvedevas and Maruts approached Vishnu, the refuge, the mighty refuge.",
+          "translationSource": "ai"
         },
         {
           "number": 71,
           "sanskrit": "देवब्रह्ममयं यज्ञं ब्रह्मदेवं सनातनम् भूतं भव्यं भविष्यं च प्रभुं लोकनमस्कृतम् नारायणं विभुं देवं शरण्यं शरणं गताः",
           "transliteration": "devabrahmamayaṃ yajñaṃ brahmadevaṃ sanātanam bhūtaṃ bhavyaṃ bhaviṣyaṃ ca prabhuṃ lokanamaskṛtam nārāyaṇaṃ vibhuṃ devaṃ śaraṇyaṃ śaraṇaṃ gatāḥ",
-          "hindi": "इससे भगवान् श्रीकृष्णको भी क्रोध हो आया। अतः उन्होंने भी उनका वध करनेके लिये मुट्ठी भर एरका उखाड़ ली। हाथमें आते ही वह एरका लोहेका मुसल बन गयी। उस मुसलसे भगवानूने"
+          "hindi": "इससे भगवान् श्रीकृष्णको भी क्रोध हो आया। अतः उन्होंने भी उनका वध करनेके लिये मुट्ठी भर एरका उखाड़ ली। हाथमें आते ही वह एरका लोहेका मुसल बन गयी। उस मुसलसे भगवानूने",
+          "translation": "The sacrifice consisting of Brahma and gods, the eternal god of Brahma, the past, future and present, the lord bowed to by the world, Narayana, the pervading god, they went to for refuge.",
+          "translationSource": "ai"
         },
         {
           "number": 72,
           "sanskrit": "त्रायस्व नो ऽद्य देवेश हिरण्यकशिपोर् भयात् त्वं हि नः परमो देवस् त्वं हि नः परमो गुरुः",
           "transliteration": "trāyasva no 'dya deveśa hiraṇyakaśipor bhayāt tvaṃ hi naḥ paramo devas tvaṃ hi naḥ paramo guruḥ",
-          "hindi": "द्विविदका वध, यदुकुलका संहार, अर्जुनका पराभव और पाण्डवोंका महाप्रस्थान"
+          "hindi": "द्विविदका वध, यदुकुलका संहार, अर्जुनका पराभव और पाण्डवोंका महाप्रस्थान",
+          "translation": "\"Save us today, lord of gods, from fear of Hiranyakashipu; you are our supreme god, you our supreme teacher.",
+          "translationSource": "ai"
         },
         {
           "number": 73,
           "sanskrit": "त्वं हि नः परमो धाता ब्रह्मादीनां सुरोत्तम उत्फुल्लामलपत्त्राक्ष शत्रुपक्षक्षयंकर क्षयाय दितिवंशस्य शरणं त्वं भवस्व नः",
           "transliteration": "tvaṃ hi naḥ paramo dhātā brahmādīnāṃ surottama utphullāmalapattrākṣa śatrupakṣakṣayaṃkara kṣayāya ditivaṃśasya śaraṇaṃ tvaṃ bhavasva naḥ",
-          "hindi": "सहसा समस्त यादवोंका संहार कर डाला तथा अन्य यादव आपसमें ही लडकर नष्ट हो गये"
+          "hindi": "सहसा समस्त यादवोंका संहार कर डाला तथा अन्य यादव आपसमें ही लडकर नष्ट हो गये",
+          "translation": "You are our supreme creator, of Brahma and the rest, best of gods; lotus-petal-eyed, pure, destroyer of the enemy side, for the destruction of the Diti's line be our refuge.\"",
+          "translationSource": "ai"
         },
         {
           "number": 74,
           "sanskrit": "भयं त्यजध्वम् अमरा अभयं वो ददाम्य् अहम् तथैव त्रिदिवं देवाः प्रतिलप्स्यथ मा चिरम्",
           "transliteration": "bhayaṃ tyajadhvam amarā abhayaṃ vo dadāmy aham tathaiva tridivaṃ devāḥ pratilapsyatha mā ciram",
-          "hindi": "इस प्रकार बलरामजीका प्रयाण देखकर श्रीकृष्णने दारुकसे कहा-- तुम द्वारकामें जाकर यह सब"
+          "hindi": "इस प्रकार बलरामजीका प्रयाण देखकर श्रीकृष्णने दारुकसे कहा-- तुम द्वारकामें जाकर यह सब",
+          "translation": "\"Give up fear, immortals; I give you fearlessness. You will regain heaven, gods, soon.",
+          "translationSource": "ai"
         },
         {
           "number": 75,
           "sanskrit": "एषो ऽहं सगणं दैत्यं वरदानेन दर्पितम् अवध्यम् अमरेन्द्राणां दानवेन्द्रं निहन्मि तम्",
           "transliteration": "eṣo 'haṃ sagaṇaṃ daityaṃ varadānena darpitam avadhyam amarendrāṇāṃ dānavendraṃ nihanmi tam",
-          "hindi": "तदनन्तर भगवान् श्रीकृष्णका जैत्र नामक रथ दारुकके  वृत्तान्त वसुदेवजी तथा राजा उग्रसेनसे कहो--"
+          "hindi": "तदनन्तर भगवान् श्रीकृष्णका जैत्र नामक रथ दारुकके  वृत्तान्त वसुदेवजी तथा राजा उग्रसेनसे कहो--",
+          "translation": "Here I am; I shall kill that Daitya with his host, proud with his boon, unslayable by lords of immortals, the lord of Danavas.\"",
+          "translationSource": "ai"
         },
         {
           "number": 76,
           "sanskrit": "एवम् उक्त्वा तु भगवान् विसृज्य त्रिदशेश्वरान् हिरण्यकशिपोः स्थानम् आजगाम महाबलः",
           "transliteration": "evam uktvā tu bhagavān visṛjya tridaśeśvarān hiraṇyakaśipoḥ sthānam ājagāma mahābalaḥ",
-          "hindi": "देखते-देखते समुद्रके मध्यवर्ती मार्गद्वारा शीघ्र ही चला गया। उसमें जुते हुए घोडे उस रथको लेकर"
+          "hindi": "देखते-देखते समुद्रके मध्यवर्ती मार्गद्वारा शीघ्र ही चला गया। उसमें जुते हुए घोडे उस रथको लेकर",
+          "translation": "Having said so, the revered one, dismissing the lords of the thirty, the very mighty one came to Hiranyakashipu's place.",
+          "translationSource": "ai"
         },
         {
           "number": 77,
           "sanskrit": "नरस्यार्धतनुं कृत्वा सिंहस्यार्धतनुं प्रभुः नारसिंहेन वपुषा पाणिं संस्पृश्य पाणिना",
           "transliteration": "narasyārdhatanuṃ kṛtvā siṃhasyārdhatanuṃ prabhuḥ nārasiṃhena vapuṣā pāṇiṃ saṃspṛśya pāṇinā",
-          "hindi": "शस्त्र भगवानूको परिक्रमा करके सूर्यके मार्गसे चले गये। क्षणभरमें वहाँ सम्पूर्ण यदुवंशियोंका संहार हो गया। केवल महाबाहु श्रीकृष्ण और दारुक रह गये। उन दोनोंने घूमते हुए आगे"
+          "hindi": "शस्त्र भगवानूको परिक्रमा करके सूर्यके मार्गसे चले गये। क्षणभरमें वहाँ सम्पूर्ण यदुवंशियोंका संहार हो गया। केवल महाबाहु श्रीकृष्ण और दारुक रह गये। उन दोनोंने घूमते हुए आगे",
+          "translation": "Making half his body a man's and half a lion's, the lord, in the Narasimha form, touching his hand with hand,",
+          "translationSource": "ai"
         },
         {
           "number": 78,
           "sanskrit": "घनजीमूतसंकाशो घनजीमूतनिस्वनः घनजीमूतदीप्तौजा जीमूत इव वेगवान्",
           "transliteration": "ghanajīmūtasaṃkāśo ghanajīmūtanisvanaḥ ghanajīmūtadīptaujā jīmūta iva vegavān",
-          "hindi": "जाकर देखा, बलरामजी एक वृक्षके नीचे आसन लगाकर बैठे हैं और उनके मुँहसे एक विशाल नाग निकल रहा है। वह महाकाय सर्प उनके मुखसे निकलकर सिद्धों और नागोंसे पूजित हो"
+          "hindi": "जाकर देखा, बलरामजी एक वृक्षके नीचे आसन लगाकर बैठे हैं और उनके मुँहसे एक विशाल नाग निकल रहा है। वह महाकाय सर्प उनके मुखसे निकलकर सिद्धों और नागोंसे पूजित हो",
+          "translation": "dark as dense cloud, with a voice like dense cloud, with radiance like dense cloud, swift like a cloud,",
+          "translationSource": "ai"
         },
         {
           "number": 79,
           "sanskrit": "दैत्यं सो ऽतिबलं दृष्ट्वा दृप्तशार्दूलविक्रमः दृप्तैर् दैत्यगणैर् गुप्तं हतवान् एकपाणिना",
           "transliteration": "daityaṃ so 'tibalaṃ dṛṣṭvā dṛptaśārdūlavikramaḥ dṛptair daityagaṇair guptaṃ hatavān ekapāṇinā",
-          "hindi": "समुद्रको ओर चला गया। समुद्रने सामने आकर उसे अर्घ्य दिया। तत्पश्चात् वह श्रेष्ठ नागोंसे पूजित हो समुद्रके जलमें प्रवेश कर गया।"
+          "hindi": "समुद्रको ओर चला गया। समुद्रने सामने आकर उसे अर्घ्य दिया। तत्पश्चात् वह श्रेष्ठ नागोंसे पूजित हो समुद्रके जलमें प्रवेश कर गया।",
+          "translation": "seeing the extremely strong Daitya, with the valour of a proud tiger, he killed him, guarded by proud hosts of Daityas, with one hand.",
+          "translationSource": "ai"
         },
         {
           "number": 80,
           "sanskrit": "नृसिंह एष कथितो भूयो ऽयं वामनः परः यत्र वामनम् आस्थाय रूपं दैत्यविनाशनम्",
           "transliteration": "nṛsiṃha eṣa kathito bhūyo 'yaṃ vāmanaḥ paraḥ yatra vāmanam āsthāya rūpaṃ daityavināśanam",
-          "hindi": "“बलरामजी चले गये। यदुवंशियोंका संहार हो गया और मैं भी योगस्थ होकर परमधामको चला जाऊँगा।' ये सब बातें बताकर द्वारकावासी मनुष्यों और उग्रसेनसे यह भी कहना कि ' अब"
+          "hindi": "“बलरामजी चले गये। यदुवंशियोंका संहार हो गया और मैं भी योगस्थ होकर परमधामको चला जाऊँगा।' ये सब बातें बताकर द्वारकावासी मनुष्यों और उग्रसेनसे यह भी कहना कि ' अब",
+          "translation": "This Narasimha has been told; hear again another, Vamana, in which, taking Vamana's form, the destroyer of Daityas",
+          "translationSource": "ai"
         },
         {
           "number": 81,
           "sanskrit": "बलेर् बलवतो यज्ञे बलिना विष्णुना पुरा विक्रमैस् त्रिभिर् अक्षोभ्याः क्षोभितास् ते महासुराः",
           "transliteration": "baler balavato yajñe balinā viṣṇunā purā vikramais tribhir akṣobhyāḥ kṣobhitās te mahāsurāḥ",
-          "hindi": "इस सम्पूर्ण द्वारकापुरीको समुद्र डुबो देगा, अतः आपलोग यहाँसे जानेके लिये रथोंको सुसज्जित करके अर्जुनके आगमनको प्रतीक्षा करें। जब अर्जुन द्वारकासे निकलें तब कोई भी वहाँ न रहे।"
+          "hindi": "इस सम्पूर्ण द्वारकापुरीको समुद्र डुबो देगा, अतः आपलोग यहाँसे जानेके लिये रथोंको सुसज्जित करके अर्जुनके आगमनको प्रतीक्षा करें। जब अर्जुन द्वारकासे निकलें तब कोई भी वहाँ न रहे।",
+          "translation": "at the sacrifice of the mighty Bali formerly, the great Asuras who were unshakable by Vishnu with his three strides were shaken:",
+          "translationSource": "ai"
         },
         {
           "number": 82,
           "sanskrit": "विप्रचित्तिः शिवः शङ्कुर् अयःशङ्कुस् तथैव च अयःशिरा अश्वशिरा हयग्रीवश् च वीर्यवान्",
           "transliteration": "vipracittiḥ śivaḥ śaṅkur ayaḥśaṅkus tathaiva ca ayaḥśirā aśvaśirā hayagrīvaś ca vīryavān",
-          "hindi": "सब लोग अर्जुनके साथ ही चले जाये।' दारुक! तुम कुन्तीनन्दन अर्जुनसे भी जाकर मेरी ये बातें कहो-- 'द्वारकामें जो मेरी स्त्रियाँ हैं, उनकी वे यथाशक्ति रक्षा करेंगे।' यह कहकर अर्जुनको"
+          "hindi": "सब लोग अर्जुनके साथ ही चले जाये।' दारुक! तुम कुन्तीनन्दन अर्जुनसे भी जाकर मेरी ये बातें कहो-- 'द्वारकामें जो मेरी स्त्रियाँ हैं, उनकी वे यथाशक्ति रक्षा करेंगे।' यह कहकर अर्जुनको",
+          "translation": "Vipracitti, Shiva, Shanku, Ayahshanku, Ayahshira, Ashvashira, and the mighty Hayagriva,",
+          "translationSource": "ai"
         },
         {
           "number": 83,
           "sanskrit": "वेगवान् केतुमान् उग्रः सोग्रव्यग्रो महासुरः पुष्करः पुष्कलश् चैव शाश्वो ऽश्वपतिर् एव च",
           "transliteration": "vegavān ketumān ugraḥ sogravyagro mahāsuraḥ puṣkaraḥ puṣkalaś caiva śāśvo 'śvapatir eva ca",
-          "hindi": "साथ ले तुम द्वारकामें आना और सबको बाहर निकाल ले जाना। अब यदुकुलमें अनिरुद्धकुमार वज्रनाभ राजा होंगे।''"
+          "hindi": "साथ ले तुम द्वारकामें आना और सबको बाहर निकाल ले जाना। अब यदुकुलमें अनिरुद्धकुमार वज्रनाभ राजा होंगे।''",
+          "translation": "Vegavan, Ketuman, Ugra, Sogravyagra the great Asura, Pushkara and Pushkala, Shashva, and Ashvapati,",
+          "translationSource": "ai"
         },
         {
           "number": 84,
           "sanskrit": "प्रह्लादो ऽश्वपतिः कुम्भः संह्रादो गमनप्रियः अनुह्रादो हरिहयो वाराहः संहरो ऽनुजः",
           "transliteration": "prahlādo 'śvapatiḥ kumbhaḥ saṃhrādo gamanapriyaḥ anuhrādo harihayo vārāhaḥ saṃharo 'nujaḥ",
-          "hindi": "यह सुनकर दारुकने भगवान् श्रीकृष्णको बारंबार प्रणाम किया और अनेक बार उनकी परिक्रमा करके वह उनके कथनानुसार वहाँसे चला गया  उसने जाकर भगवानूकी आज्ञाके अनुसार सब"
+          "hindi": "यह सुनकर दारुकने भगवान् श्रीकृष्णको बारंबार प्रणाम किया और अनेक बार उनकी परिक्रमा करके वह उनके कथनानुसार वहाँसे चला गया  उसने जाकर भगवानूकी आज्ञाके अनुसार सब",
+          "translation": "Prahlada, Ashvapati, Kumbha, Samhrada, Gamanapriya, Anuhrada, Harihaya, Varaha, Samhara, Anuja,",
+          "translationSource": "ai"
         },
         {
           "number": 85,
           "sanskrit": "शरभः शलभश् चैव कुपथः क्रोधनः क्रथः बृहत्कीर्तिर् महाजिह्वः शङ्कुकर्णो महास्वनः",
           "transliteration": "śarabhaḥ śalabhaś caiva kupathaḥ krodhanaḥ krathaḥ bṛhatkīrtir mahājihvaḥ śaṅkukarṇo mahāsvanaḥ",
-          "hindi": "कार्य किया। वह अर्जुनको द्वारकामें बुला ले आया और महाबुद्धिमान् वज्रको यदुबंशियोंका राजा बनाया  उधर भगवान् श्रीकृष्णने वासुदेवस्वरूप"
+          "hindi": "कार्य किया। वह अर्जुनको द्वारकामें बुला ले आया और महाबुद्धिमान् वज्रको यदुबंशियोंका राजा बनाया  उधर भगवान् श्रीकृष्णने वासुदेवस्वरूप",
+          "translation": "Sharabha, Shalabha, Kupatha, Krodhana, Kratha, Brihatkirti, Mahajihva, Shankukarna, Mahasvana,",
+          "translationSource": "ai"
         },
         {
           "number": 86,
           "sanskrit": "दीप्तजिह्वो ऽर्कनयनो मृगपादो मृगप्रियः वायुर् गरिष्ठो नमुचिः सम्बरो विस्करो महान्",
           "transliteration": "dīptajihvo 'rkanayano mṛgapādo mṛgapriyaḥ vāyur gariṣṭho namuciḥ sambaro viskaro mahān",
-          "hindi": "परब्रह्मको अपने आत्मामें आरोपित करके सम्पूर्ण"
+          "hindi": "परब्रह्मको अपने आत्मामें आरोपित करके सम्पूर्ण",
+          "translation": "Diptajihva, Arkanayana, Mrigapada, Mrigapriya, Vayu, Garishtha, Namuchi, Sambara, Viskara the great,",
+          "translationSource": "ai"
         },
         {
           "number": 87,
           "sanskrit": "चन्द्रहन्ता क्रोधहन्ता क्रोधवर्धन एव च कालकः कालकोपश् च वृत्रः क्रोधो विरोचनः",
           "transliteration": "candrahantā krodhahantā krodhavardhana eva ca kālakaḥ kālakopaś ca vṛtraḥ krodho virocanaḥ",
-          "hindi": "भूतोंमें उनके व्याप्त होनेकी धारणा को और"
+          "hindi": "भूतोंमें उनके व्याप्त होनेकी धारणा को और",
+          "translation": "Chandrahanta, Krodhahanta, Krodhavardhana, Kalaka, Kalakopa, Vritra, Krodha, Virochana,",
+          "translationSource": "ai"
         },
         {
           "number": 88,
           "sanskrit": "गरिष्ठश् च वरिष्ठश् च प्रलम्बनरकाव् उभौ इन्द्रतापनवातापी केतुमान् बलदर्पितः",
           "transliteration": "gariṣṭhaś ca variṣṭhaś ca pralambanarakāv ubhau indratāpanavātāpī ketumān baladarpitaḥ",
-          "hindi": "ुँ  योगयुक्त होकर अपने एक पैरको दूसरे पैरके"
+          "hindi": "ुँ  योगयुक्त होकर अपने एक पैरको दूसरे पैरके",
+          "translation": "Garishtha, Varishtha, Pralamba and Naraka, Indratapana, Vatapi, Ketuman, proud of strength,",
+          "translationSource": "ai"
         },
         {
           "number": 89,
           "sanskrit": "असिलोमा पुलोमा च बाष्कलः प्रमदो मदः स्वमिश्रः कालवदनः करालः केशिर् एव च",
           "transliteration": "asilomā pulomā ca bāṣkalaḥ pramado madaḥ svamiśraḥ kālavadanaḥ karālaḥ keśir eva ca",
-          "hindi": "घुरनेपर रखकर बैठे। वे ब्राह्मण दुर्वासाके वचनका मान रखना चाहते थे। उसी समय जरा नामका"
+          "hindi": "घुरनेपर रखकर बैठे। वे ब्राह्मण दुर्वासाके वचनका मान रखना चाहते थे। उसी समय जरा नामका",
+          "translation": "Asiloma, Puloma, Bashkala, Pramada, Mada, Svamishra, Kalavadana, Karala, Keshi,",
+          "translationSource": "ai"
         },
         {
           "number": 90,
           "sanskrit": "एकाक्षश् चन्द्रमा राहुः संह्रादः सम्बरः स्वनः शतघ्नीचक्रहस्ताश् च तथा मुशलपाणयः",
           "transliteration": "ekākṣaś candramā rāhuḥ saṃhrādaḥ sambaraḥ svanaḥ śataghnīcakrahastāś ca tathā muśalapāṇayaḥ",
-          "hindi": "न्ट व्याध उस ओर आ निकला उसने मुसलके बचे"
+          "hindi": "न्ट व्याध उस ओर आ निकला उसने मुसलके बचे",
+          "translation": "Ekaksha, Chandrama, Rahu, Samhrada, Sambara, Svana, holders of shataghnis and discuses in hand, and pestle-handed,",
+          "translationSource": "ai"
         },
         {
           "number": 91,
           "sanskrit": "अश्वयन्त्रायुधोपेता भिन्दिपालायुधास् तथा शूलोलूखलहस्ताश् च परश्वधधरास् तथा",
           "transliteration": "aśvayantrāyudhopetā bhindipālāyudhās tathā śūlolūkhalahastāś ca paraśvadhadharās tathā",
-          "hindi": "हुए लोहखण्डका बाण बनाकर उसे धारण कर"
+          "hindi": "हुए लोहखण्डका बाण बनाकर उसे धारण कर",
+          "translation": "armed with horse-machines and weapons, with bhindipalas, with spears and mortars in hand, with axes,",
+          "translationSource": "ai"
         },
         {
           "number": 92,
           "sanskrit": "पाशमुद्गरहस्ताश् च तथा परिघपाणयः महाशिलाप्रहरणाः शूलहस्ताश् च दानवाः",
           "transliteration": "pāśamudgarahastāś ca tathā parighapāṇayaḥ mahāśilāpraharaṇāḥ śūlahastāś ca dānavāḥ",
-          "hindi": "महाभारतमें प्रसङ्ग आया है कि एक बार महर्षि दुर्वासा भगवान् श्रीकृष्णके यहाँ पधारे। भगवान्ने उनका बड़ा स्वागत-सत्कार किया  दुर्वासाने कहा--' आप मेरी जूठन अपने सारे शरीरमें लगाइये।' भगवानूने ऐसा ही"
+          "hindi": "महाभारतमें प्रसङ्ग आया है कि एक बार महर्षि दुर्वासा भगवान् श्रीकृष्णके यहाँ पधारे। भगवान्ने उनका बड़ा स्वागत-सत्कार किया  दुर्वासाने कहा--' आप मेरी जूठन अपने सारे शरीरमें लगाइये।' भगवानूने ऐसा ही",
+          "translation": "with nooses and hammers in hand, with clubs in hand, with great rocks as weapons, the Danavas with spears in hand,",
+          "translationSource": "ai"
         },
         {
           "number": 93,
           "sanskrit": "नानाप्रहरणा घोरा नानावेशा महाबलाः कूर्मकुक्कुटवक्त्राश् च शशोलूकमुखास् तथा",
           "transliteration": "nānāpraharaṇā ghorā nānāveśā mahābalāḥ kūrmakukkuṭavaktrāś ca śaśolūkamukhās tathā",
-          "hindi": "रखा था। भगवानूका चरण उसे मृगके आकारका दिखायी दिया। उसे देखकर वह खडा हो गया और उसी तोमरसे उसने भगवानूके पैरको बींध डाला। जब वह उनके समीप गया तब वे उसे"
+          "hindi": "रखा था। भगवानूका चरण उसे मृगके आकारका दिखायी दिया। उसे देखकर वह खडा हो गया और उसी तोमरसे उसने भगवानूके पैरको बींध डाला। जब वह उनके समीप गया तब वे उसे",
+          "translation": "terrible, with many weapons, in many guises, very mighty, with faces of tortoises and cocks, hares and owls,",
+          "translationSource": "ai"
         },
         {
           "number": 94,
           "sanskrit": "खरोष्ट्रवदनाश् चैव वराहवदनास् तथा मार्जारशिखिवक्त्राश् च महावक्त्रास् तथा परे",
           "transliteration": "kharoṣṭravadanāś caiva varāhavadanās tathā mārjāraśikhivaktrāś ca mahāvaktrās tathā pare",
-          "hindi": "चार भुजाधारी मनुष्यके रूपमें दृष्टिगोचर हुए  भगवानूको देखते ही वह उनके चरणोंमें पड गया"
+          "hindi": "चार भुजाधारी मनुष्यके रूपमें दृष्टिगोचर हुए  भगवानूको देखते ही वह उनके चरणोंमें पड गया",
+          "translation": "with faces of asses and camels, boars, cats, peacocks and great faces, others,",
+          "translationSource": "ai"
         },
         {
           "number": 95,
           "sanskrit": "नक्रमेषाननाः शूरा गोजाविमहिषाननाः गोधाशल्लकिवक्त्राश् च क्रोष्टुवक्त्राश् च दानवाः",
           "transliteration": "nakrameṣānanāḥ śūrā gojāvimahiṣānanāḥ godhāśallakivaktrāś ca kroṣṭuvaktrāś ca dānavāḥ",
-          "hindi": "मैंने अनजानमें हरिणके धोखेसे यह अपराध किया है, अतः क्षमा कोजिये।'"
+          "hindi": "मैंने अनजानमें हरिणके धोखेसे यह अपराध किया है, अतः क्षमा कोजिये।'",
+          "translation": "heroes with faces of crocodiles and rams, cows, goats, buffaloes, with faces of iguanas and porcupines and jackals, the Danavas,",
+          "translationSource": "ai"
         },
         {
           "number": 96,
           "sanskrit": "आखुदर्दुरवक्त्राश् च घोरा वृकमुखास् तथा भीमा मकरवक्त्राश् च क्रौञ्चवक्त्राश् च दानवाः",
           "transliteration": "ākhudarduravaktrāś ca ghorā vṛkamukhās tathā bhīmā makaravaktrāś ca krauñcavaktrāś ca dānavāḥ",
-          "hindi": "तब भगवानूने उससे कहा--' व्याध! तुझे तनिक भी भय नहीं है। तू मेरे प्रसादसे इन्द्रलोकमें चला जा।' भगवानूके इतना कहते ही वहाँ विमान आ पहुँचा और वह व्याध उसपर बैठकर भगवान्की"
+          "hindi": "तब भगवानूने उससे कहा--' व्याध! तुझे तनिक भी भय नहीं है। तू मेरे प्रसादसे इन्द्रलोकमें चला जा।' भगवानूके इतना कहते ही वहाँ विमान आ पहुँचा और वह व्याध उसपर बैठकर भगवान्की",
+          "translation": "with faces of rats and frogs, terrible, with wolf faces, fearsome, with makara faces and heron faces, the Danavas,",
+          "translationSource": "ai"
         },
         {
           "number": 97,
           "sanskrit": "अश्वाननाः खरमुखा मयूरवदनास् तथा गजेन्द्रचर्मवसनास् तथा कृष्णाजिनाम्बराः",
           "transliteration": "aśvānanāḥ kharamukhā mayūravadanās tathā gajendracarmavasanās tathā kṛṣṇājināmbarāḥ",
-          "hindi": "कृपासे स्वर्गलोकको चला गया। उसके चले जानेपर भगवान् श्रीकृष्णने त्रिविध गतिको पार करके अपने आत्माको अव्यय, अचिन्त्य, अमल, अजन्मा, अजर, अविनाशी, अप्रमेय, अखिलात्मा एवं ब्रह्मभूत"
+          "hindi": "कृपासे स्वर्गलोकको चला गया। उसके चले जानेपर भगवान् श्रीकृष्णने त्रिविध गतिको पार करके अपने आत्माको अव्यय, अचिन्त्य, अमल, अजन्मा, अजर, अविनाशी, अप्रमेय, अखिलात्मा एवं ब्रह्मभूत",
+          "translation": "with horse faces, ass faces, peacock faces, wearing the hides of king-elephants and black antelope skins,",
+          "translationSource": "ai"
         },
         {
           "number": 98,
           "sanskrit": "चीरसंवृतगात्राश् च तथा नीलकवाससः उष्णीषिणो मुकुटिनस् तथा कुण्डलिनो ऽसुराः",
           "transliteration": "cīrasaṃvṛtagātrāś ca tathā nīlakavāsasaḥ uṣṇīṣiṇo mukuṭinas tathā kuṇḍalino 'surāḥ",
-          "hindi": "अपने ही वासुदेवस्वरूपमें लीन कर लिया।"
+          "hindi": "अपने ही वासुदेवस्वरूपमें लीन कर लिया।",
+          "translation": "with bodies covered by bark, and wearing blue garments, turbaned, crowned, with earrings, the Asuras,",
+          "translationSource": "ai"
         },
         {
           "number": 99,
           "sanskrit": "किरीटिनो लम्बशिखाः कम्बुग्रीवाः सुवर्चसः नानावेशधरा दैत्या नानामाल्यानुलेपनाः",
           "transliteration": "kirīṭino lambaśikhāḥ kambugrīvāḥ suvarcasaḥ nānāveśadharā daityā nānāmālyānulepanāḥ",
-          "hindi": "तत्पश्चात् अर्जुनने सम्पूर्ण यादवोंका विधिपूर्वक प्रेतकर्म (और्ध्वहैहिक संस्कार) किया। फिर वज्र आदि सब लोगोंको साथ ले वे द्वारकासे बाहर निकले । श्रीकृष्णकी हजारों पत्नियाँ भी साथ ही"
+          "hindi": "तत्पश्चात् अर्जुनने सम्पूर्ण यादवोंका विधिपूर्वक प्रेतकर्म (और्ध्वहैहिक संस्कार) किया। फिर वज्र आदि सब लोगोंको साथ ले वे द्वारकासे बाहर निकले । श्रीकृष्णकी हजारों पत्नियाँ भी साथ ही",
+          "translation": "wearing diadems, long-crested, conch-necked, of fine lustre, Daityas in many dresses, with many garlands and unguents,",
+          "translationSource": "ai"
         },
         {
           "number": 100,
           "sanskrit": "स्वान्य् आयुधानि संगृह्य प्रदीप्तानि च तेजसा क्रममाणं हृषीकेशम् उपावर्तन्त सर्वशः",
           "transliteration": "svāny āyudhāni saṃgṛhya pradīptāni ca tejasā kramamāṇaṃ hṛṣīkeśam upāvartanta sarvaśaḥ",
-          "hindi": "थीं। उन सबको रक्षा करते हुए कुन्तीनन्दन अर्जुन धीरे-धीरे चले । भगवान् श्रीकृष्णने मर्त्यलोकमें जो सुधर्मा सभा मँगवायी थी, वह और पारिजात वृक्ष दोनों ही पुनः स्वर्गको चले गये  श्रीहरि जिस"
+          "hindi": "थीं। उन सबको रक्षा करते हुए कुन्तीनन्दन अर्जुन धीरे-धीरे चले । भगवान् श्रीकृष्णने मर्त्यलोकमें जो सुधर्मा सभा मँगवायी थी, वह और पारिजात वृक्ष दोनों ही पुनः स्वर्गको चले गये  श्रीहरि जिस",
+          "translation": "taking their own weapons blazing with brilliance, surrounded Hrishikesha on all sides as he strode.",
+          "translationSource": "ai"
         },
         {
           "number": 101,
           "sanskrit": "प्रमथ्य सर्वान् दैतेयान् पादहस्ततलैर् विभुः रूपं कृत्वा महाभीमं जहाराशु स मेदिनीम्",
           "transliteration": "pramathya sarvān daiteyān pādahastatalair vibhuḥ rūpaṃ kṛtvā mahābhīmaṃ jahārāśu sa medinīm",
-          "hindi": "दिन इस पृथ्वीको छोडकर अपने धामको पधारे, उसी दिन यह मलिनकाय कलियुग भूतलपर प्रकट हुआ । समुद्रने मनुष्योंसे सूनी द्वारकाको डुबो दिया  केवल भगवान् श्रीकृष्णका मन्दिर वह अब भी"
+          "hindi": "दिन इस पृथ्वीको छोडकर अपने धामको पधारे, उसी दिन यह मलिनकाय कलियुग भूतलपर प्रकट हुआ । समुद्रने मनुष्योंसे सूनी द्वारकाको डुबो दिया  केवल भगवान् श्रीकृष्णका मन्दिर वह अब भी",
+          "translation": "Having crushed all the Daityas with the soles of his feet and hands, the Lord took a very terrible form and quickly seized the earth.",
+          "translationSource": "ai"
         },
         {
           "number": 102,
           "sanskrit": "तस्य विक्रमतो भूमिं चन्द्रादित्यौ स्तनान्तरे नभः प्रक्रममाणस्य नाभ्यां किल तथा स्थितौ",
           "transliteration": "tasya vikramato bhūmiṃ candrādityau stanāntare nabhaḥ prakramamāṇasya nābhyāṃ kila tathā sthitau",
-          "hindi": "नहीं डुबाता। वहाँ भगवान् श्रीकृष्ण नित्य विराजमान रहते हैं। वह परम पवित्र भगवद्धाम सम्पूर्ण पातकोंका नाश करनेवाला है । भगवान् श्रीकृष्णकी लीलाओंसे युक्त उस पवित्र स्थानका दर्शन करनेसे"
+          "hindi": "नहीं डुबाता। वहाँ भगवान् श्रीकृष्ण नित्य विराजमान रहते हैं। वह परम पवित्र भगवद्धाम सम्पूर्ण पातकोंका नाश करनेवाला है । भगवान् श्रीकृष्णकी लीलाओंसे युक्त उस पवित्र स्थानका दर्शन करनेसे",
+          "translation": "As he strode over the earth, the moon and sun stood between his breasts; as he strode across the sky, they stood at his navel;",
+          "translationSource": "ai"
         },
         {
           "number": 103,
           "sanskrit": "परम् आक्रममाणस्य जानुदेशे व्यवस्थितौ विष्णोर् अमितवीर्यस्य वदन्त्य् एवं द्विजातयः",
           "transliteration": "param ākramamāṇasya jānudeśe vyavasthitau viṣṇor amitavīryasya vadanty evaṃ dvijātayaḥ",
-          "hindi": "मनुष्य सब पापोंसे मुक्त हो जाता है ।"
+          "hindi": "मनुष्य सब पापोंसे मुक्त हो जाता है ।",
+          "translation": "as he strode beyond, they stood at his knee region; so the twice-born say of Vishnu of immeasurable valour.",
+          "translationSource": "ai"
         },
         {
           "number": 104,
           "sanskrit": "हृत्वा स मेदिनीं कृत्स्नां हत्वा चासुरपुंगवान् ददौ शक्राय वसुधां विष्णुर् बलवतां वरः",
           "transliteration": "hṛtvā sa medinīṃ kṛtsnāṃ hatvā cāsurapuṃgavān dadau śakrāya vasudhāṃ viṣṇur balavatāṃ varaḥ",
-          "hindi": "अर्जुन द्वारकावासियोंको साथ ले प्रचुर धन- धान्यसे सम्पन्न पञ्चनद (पंजाब) देशमें जा पहुंचे ।"
+          "hindi": "अर्जुन द्वारकावासियोंको साथ ले प्रचुर धन- धान्यसे सम्पन्न पञ्चनद (पंजाब) देशमें जा पहुंचे ।",
+          "translation": "Having seized the entire earth and killed the foremost Asuras, Vishnu, best of the mighty, gave the earth to Shakra.",
+          "translationSource": "ai"
         },
         {
           "number": 105,
           "sanskrit": "एष वो वामनो नाम प्रादुर्भावो महात्मनः वेदविद्भिर् द्विजैर् एतत् कथ्यते वैष्णवं यशः",
           "transliteration": "eṣa vo vāmano nāma prādurbhāvo mahātmanaḥ vedavidbhir dvijair etat kathyate vaiṣṇavaṃ yaśaḥ",
-          "hindi": "वहाँ उन्होंने सब लोगोंके साथ एक स्थानपर"
+          "hindi": "वहाँ उन्होंने सब लोगोंके साथ एक स्थानपर",
+          "translation": "This is your Vamana, the manifestation of the great-souled one; this is told by Veda-knowing Brahmins as the Vaishnava glory.",
+          "translationSource": "ai"
         },
         {
           "number": 106,
           "sanskrit": "भूयो भूतात्मनो विष्णोः प्रादुर्भावो महात्मनः दत्तात्रेय इति ख्यातः क्षमया परया युतः",
           "transliteration": "bhūyo bhūtātmano viṣṇoḥ prādurbhāvo mahātmanaḥ dattātreya iti khyātaḥ kṣamayā parayā yutaḥ",
-          "hindi": "पड़ाव डाला। वहाँ बहुत-से लुटेरे रहते थे। उन्होंने"
+          "hindi": "पड़ाव डाला। वहाँ बहुत-से लुटेरे रहते थे। उन्होंने",
+          "translation": "Again there is the manifestation of the great-souled Vishnu, the Self of beings, famed as Dattatreya, endowed with supreme forbearance;",
+          "translationSource": "ai"
         },
         {
           "number": 107,
           "sanskrit": "तेन नष्टेषु वेदेषु प्रक्रियासु मखेषु च चातुर्वर्ण्ये च संकीर्णे धर्मे शिथिलतां गते",
           "transliteration": "tena naṣṭeṣu vedeṣu prakriyāsu makheṣu ca cāturvarṇye ca saṃkīrṇe dharme śithilatāṃ gate",
-          "hindi": "स्त्रियोंको साथ लिये जाता है। तब उनके मनमें लोभ उत्पन्न हुआ। लोभसे उनकी विचारशक्ति नष्ट हो गयी, अतः वे अत्यन्त दुर्मद पापाचारी आभीर एकत्रित होकर आपसमें सलाह करने"
+          "hindi": "स्त्रियोंको साथ लिये जाता है। तब उनके मनमें लोभ उत्पन्न हुआ। लोभसे उनकी विचारशक्ति नष्ट हो गयी, अतः वे अत्यन्त दुर्मद पापाचारी आभीर एकत्रित होकर आपसमें सलाह करने",
+          "translation": "by him, when the Vedas were lost and the procedures and sacrifices, and the four varnas mixed, and dharma had grown lax —",
+          "translationSource": "ai"
         },
         {
           "number": 108,
