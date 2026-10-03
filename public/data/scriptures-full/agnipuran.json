@@ -87703,133 +87703,177 @@
           "number": 23,
           "sanskrit": "ये नैकरूपाश्चाधस्ताद्रश्मयो ऽस्य मृदुप्रभाः । इह कर्मोपभोगाय तैश् च सञ्चरते हि सः",
           "transliteration": "ye naikarūpāścādhastādraśmayo 'sya mṛduprabhāḥ / iha karmopabhogāya taiś ca sañcarate hi saḥ",
-          "hindi": "बोले। इसी प्रकार प्रिय असत्य भी मुँहसे न निकाले; यह सनातन धर्म है। 'ब्रह्मचर्य' कहते हैं —' मैथुनके त्यागको '। “मैथुन” आठ प्रकारका होता है-स्त्रीका स्मरण, उसकी चर्चा, उसके साथ क्रीडा करना, उसकी ओर देखना, उससे"
+          "hindi": "बोले। इसी प्रकार प्रिय असत्य भी मुँहसे न निकाले; यह सनातन धर्म है। 'ब्रह्मचर्य' कहते हैं —' मैथुनके त्यागको '। “मैथुन” आठ प्रकारका होता है-स्त्रीका स्मरण, उसकी चर्चा, उसके साथ क्रीडा करना, उसकी ओर देखना, उससे",
+          "translation": "His many-formed rays that go downward, of gentle lustre — by these he moves about here for the enjoyment of karma.",
+          "translationSource": "ai"
         },
         {
           "number": 24,
           "sanskrit": "बुद्धीन्द्रियाणि सर्वाणि मनः कर्मेन्द्रियाणि च । अहङ्कारश् च बुद्धिश् च पृथिव्यादीनि चैव हि",
           "transliteration": "buddhīndriyāṇi sarvāṇi manaḥ karmendriyāṇi ca / ahaṅkāraś ca buddhiś ca pṛthivyādīni caiva hi",
-          "hindi": "लुक-छिपकर बातें करना, उसे पानेका संकल्प, उसके लिये उद्योग तथा क्रियानिर्वृत्ति (स्त्रीसे साक्षात् समागम) ये मैथुनके आठ अङ्ग हैं — ऐसा मनीषी पुरुषोंका कथन है। 'ब्रह्मचर्य' ही"
+          "hindi": "लुक-छिपकर बातें करना, उसे पानेका संकल्प, उसके लिये उद्योग तथा क्रियानिर्वृत्ति (स्त्रीसे साक्षात् समागम) ये मैथुनके आठ अङ्ग हैं — ऐसा मनीषी पुरुषोंका कथन है। 'ब्रह्मचर्य' ही",
+          "translation": "All the sense-organs of knowledge, the mind, the organs of action, the ego and the intellect, and the elements beginning with earth...",
+          "translationSource": "ai"
         },
         {
           "number": 25,
           "sanskrit": "अव्यक्त आत्मा क्षेत्रज्ञः क्षेत्रस्त्यास्य निगद्यते । ईश्वरः सर्वभूतस्य सन्नसन् सदसच्च सः",
           "transliteration": "avyakta ātmā kṣetrajñaḥ kṣetrastyāsya nigadyate / īśvaraḥ sarvabhūtasya sannasan sadasacca saḥ",
-          "hindi": "सम्पूर्ण शुभ कर्मोको सिद्धिका मूल है; उसके बिना सारी क्रिया निष्फल हो जाती है। वसिष्ठ, चन्द्रमा, शुक्र, देवताओंके आचार्य बृहस्पति तथा पितामह ब्रह्माजी -ये तपोवृद्ध और वयोवृद्ध होते हुए भी स््त्रियोंके मोहमें फँस गये। गौड़ी, पैष्टी और माध्वी -ये तीन प्रकारकी सुरा जाननी चाहिए। इनके बाद चौथी सुरा 'स्त्री' है, जिसने सारे जगतूको मोहित कर रखा है। मदिराको तो"
+          "hindi": "सम्पूर्ण शुभ कर्मोको सिद्धिका मूल है; उसके बिना सारी क्रिया निष्फल हो जाती है। वसिष्ठ, चन्द्रमा, शुक्र, देवताओंके आचार्य बृहस्पति तथा पितामह ब्रह्माजी -ये तपोवृद्ध और वयोवृद्ध होते हुए भी स््त्रियोंके मोहमें फँस गये। गौड़ी, पैष्टी और माध्वी -ये तीन प्रकारकी सुरा जाननी चाहिए। इनके बाद चौथी सुरा 'स्त्री' है, जिसने सारे जगतूको मोहित कर रखा है। मदिराको तो",
+          "translation": "The unmanifest Self, the knower of the field, is spoken of as the one who stands in the field; he is the Lord of all beings, being and non-being, both existent and non-existent.",
+          "translationSource": "ai"
         },
         {
           "number": 26,
           "sanskrit": "बुद्धेरुत्पत्तिरव्यक्ता ततो ऽहङ्कारसम्भवः । तस्मात् खादीनि जायन्ते एकोत्तरगुणानि तु",
           "transliteration": "buddherutpattiravyaktā tato 'haṅkārasambhavaḥ / tasmāt khādīni jāyante ekottaraguṇāni tu",
-          "hindi": "पीनेपर ही मनुष्य मतवाला होता है, परंतु युवती स्त्रीको देखते ही उन्मत्त हो उठता है। नारी देखनेमात्रसे ही मनमें उन्माद करती है, इसलिये उसके ऊपर दृष्टि न डाले। मन, वाणी और"
+          "hindi": "पीनेपर ही मनुष्य मतवाला होता है, परंतु युवती स्त्रीको देखते ही उन्मत्त हो उठता है। नारी देखनेमात्रसे ही मनमें उन्माद करती है, इसलिये उसके ऊपर दृष्टि न डाले। मन, वाणी और",
+          "translation": "From the unmanifest arises the intellect, from it the ego; from the ego come ether and the rest, each with one more quality than the last.",
+          "translationSource": "ai"
         },
         {
           "number": 27,
           "sanskrit": "शब्दः स्पर्शश् च रूपञ्च रसो गन्धश् च तद्गुणाः । यो यस्मिन्नाश्रितश् चैषां स तस्मिन्नेव लीयते",
           "transliteration": "śabdaḥ sparśaś ca rūpañca raso gandhaś ca tadguṇāḥ / yo yasminnāśritaś caiṣāṃ sa tasminneva līyate",
-          "hindi": "शरीरद्वारा चोरीसे सर्वथा बचे रहना 'अस्तेय' कहलाता है। यदि मनुष्य बलपूर्वक दूसरेकी किसी भी वस्तुका अपहरण करता है, तो उसे अवश्य तिर्यग्योनिमें जन्म लेना पड़ता है। यही दशा उसकी भी होती है, जो हवन किये बिना ही (बलिवैश्वदेवके द्वारा देवता आदिका भाग"
+          "hindi": "शरीरद्वारा चोरीसे सर्वथा बचे रहना 'अस्तेय' कहलाता है। यदि मनुष्य बलपूर्वक दूसरेकी किसी भी वस्तुका अपहरण करता है, तो उसे अवश्य तिर्यग्योनिमें जन्म लेना पड़ता है। यही दशा उसकी भी होती है, जो हवन किये बिना ही (बलिवैश्वदेवके द्वारा देवता आदिका भाग",
+          "translation": "Sound, touch, form, taste and smell are their qualities; whatever rests on anything dissolves into that very thing.",
+          "translationSource": "ai"
         },
         {
           "number": 28,
           "sanskrit": "सत्त्वं रजस्तमश् चैव गुणास्तस्यैव कीर्तिताः । रजस्तमोभ्यामाविष्टश् चक्रवद्भ्राभ्यते हि सः",
           "transliteration": "sattvaṃ rajastamaś caiva guṇāstasyaiva kīrtitāḥ / rajastamobhyāmāviṣṭaś cakravadbhrābhyate hi saḥ",
-          "hindi": "का भोजन कर लेता है। कौपीन, अपने शरीरको ढकनेवाला वस्त्र, शीतका कष्ट-निवारण करनेवाली"
+          "hindi": "का भोजन कर लेता है। कौपीन, अपने शरीरको ढकनेवाला वस्त्र, शीतका कष्ट-निवारण करनेवाली",
+          "translation": "Sattva, rajas and tamas are declared his qualities; pervaded by rajas and tamas he is whirled like a wheel.",
+          "translationSource": "ai"
         },
         {
           "number": 29,
           "sanskrit": "अनादिरादिमान् यश् च स एव पुरुषः परः । लिङ्गेन्द्रियैर् उपग्राह्याः स विकार उदाहृतः",
           "transliteration": "anādirādimān yaś ca sa eva puruṣaḥ paraḥ / liṅgendriyair upagrāhyāḥ sa vikāra udāhṛtaḥ",
-          "hindi": "साथ रखे। इनके सिवा और किसी वस्तुका संग्रह न करे-(यही अपरिग्रह है) । शरीरकी रक्षाके साधनभूत वस्त्र आदिका संग्रह किया जा सकता है। धर्मके अनुष्ठानमें लगे हुए शरीरकी यत्नपूर्वक रक्षा करनी चाहिए"
+          "hindi": "साथ रखे। इनके सिवा और किसी वस्तुका संग्रह न करे-(यही अपरिग्रह है) । शरीरकी रक्षाके साधनभूत वस्त्र आदिका संग्रह किया जा सकता है। धर्मके अनुष्ठानमें लगे हुए शरीरकी यत्नपूर्वक रक्षा करनी चाहिए",
+          "translation": "He who is without beginning yet has a beginning is indeed the Supreme Person; that which is grasped by the subtle body and senses is called the modification.",
+          "translationSource": "ai"
         },
         {
           "number": 30,
           "sanskrit": "यतो देवाः पुराणानि विद्योपनिषदस् तथा । श्लोकाः सूत्राणि भाष्याणि यच्चान्यद्माङ्भयं भवेत्",
           "transliteration": "yato devāḥ purāṇāni vidyopaniṣadas tathā / ślokāḥ sūtrāṇi bhāṣyāṇi yaccānyadmāṅbhayaṃ bhavet",
-          "hindi": "“शौच' दो प्रकारका बताया गया है--'बाह्य'"
+          "hindi": "“शौच' दो प्रकारका बताया गया है--'बाह्य'",
+          "translation": "From whom come the gods, the Puranas, the sciences and Upanishads, the verses, sutras, commentaries, and whatever other speech there is...",
+          "translationSource": "ai"
         },
         {
           "number": 31,
           "sanskrit": "पितृयानोपवीथ्याश् च यदगस्त्यस्य चान्तरं । तेनाग्निहोत्रिणो यान्ति प्रजाकामा दिवं प्रति",
           "transliteration": "pitṛyānopavīthyāś ca yadagastyasya cāntaraṃ / tenāgnihotriṇo yānti prajākāmā divaṃ prati",
-          "hindi": "और ' आभ्यन्तर' । मिट्टी और जलसे ' बाद्यशुद्धि' होती है और भावकी शुद्धिको ' आभ्यन्तर शुद्धि कहते हैं। दोनों ही प्रकारसे जो शुद्ध है, वही शुद्ध है, दूसरा नहीं । प्रारब्धके अनुसार जैसे-तैसे जो कुछ भी प्राप्त हो जाय, उसीमें हर्ष मानना ‘संतोष? कहलाता है। मन और इन्द्रियोंको एकाग्रताको “तप' कहते हैं। मन और इन्द्रियोंपर विजय पाना सब धर्मोसे श्रेष्ठ धर्म कहलाता है।"
+          "hindi": "और ' आभ्यन्तर' । मिट्टी और जलसे ' बाद्यशुद्धि' होती है और भावकी शुद्धिको ' आभ्यन्तर शुद्धि कहते हैं। दोनों ही प्रकारसे जो शुद्ध है, वही शुद्ध है, दूसरा नहीं । प्रारब्धके अनुसार जैसे-तैसे जो कुछ भी प्राप्त हो जाय, उसीमें हर्ष मानना ‘संतोष? कहलाता है। मन और इन्द्रियोंको एकाग्रताको “तप' कहते हैं। मन और इन्द्रियोंपर विजय पाना सब धर्मोसे श्रेष्ठ धर्म कहलाता है।",
+          "translation": "By the path of the ancestors, the Vithi, and the space of Agastya, householders who keep the sacred fire and desire offspring go to heaven.",
+          "translationSource": "ai"
         },
         {
           "number": 32,
           "sanskrit": "ये च दानपराः सम्यगष्टाभिश् च गुणैर् युताः । अष्टाशीतिसहस्राणि मुनयो गृहमेधिनः",
           "transliteration": "ye ca dānaparāḥ samyagaṣṭābhiś ca guṇair yutāḥ / aṣṭāśītisahasrāṇi munayo gṛhamedhinaḥ",
-          "hindi": "“तप' तीन प्रकारका होता है-वाचिक, मानसिक"
+          "hindi": "“तप' तीन प्रकारका होता है-वाचिक, मानसिक",
+          "translation": "Those devoted to giving, with the eight qualities, the eighty-eight thousand sages who are householders...",
+          "translationSource": "ai"
         },
         {
           "number": 33,
           "sanskrit": "पुनरावर्तने वीजभूता धर्मप्रवर्तकाः । सप्तर्षिनाग्वीथ्याश् च देवलोकं समाश्रिताः",
           "transliteration": "punarāvartane vījabhūtā dharmapravartakāḥ / saptarṣināgvīthyāś ca devalokaṃ samāśritāḥ",
-          "hindi": "आसक्तिका त्याग “मानसिक? और देवपूजन आदि “शारीरिक' तप हैं। यह तीनों प्रकारका तप सब कुछ देनेवाला है। वेद प्रणवसे ही आरम्भ होते हैं, अतः प्रणवमें सम्पूर्ण वेदोंको स्थिति है। वाणीका जितना भी विषय है, सब प्रणव है; इसलिये प्रणवका अभ्यास करना चाहिए (यह स्वाध्यायके अन्तर्गत है) । 'प्रणव' अर्थात् 'ओंकार'में अकार, उकार तथा"
+          "hindi": "आसक्तिका त्याग “मानसिक? और देवपूजन आदि “शारीरिक' तप हैं। यह तीनों प्रकारका तप सब कुछ देनेवाला है। वेद प्रणवसे ही आरम्भ होते हैं, अतः प्रणवमें सम्पूर्ण वेदोंको स्थिति है। वाणीका जितना भी विषय है, सब प्रणव है; इसलिये प्रणवका अभ्यास करना चाहिए (यह स्वाध्यायके अन्तर्गत है) । 'प्रणव' अर्थात् 'ओंकार'में अकार, उकार तथा",
+          "translation": "...are the seed of return and establish dharma; those on the path of the Seven Sages go to the world of the gods.",
+          "translationSource": "ai"
         },
         {
           "number": 34,
           "sanskrit": "तावन्त एव मुनयः सर्वारम्भविवर्जिताः । तपसा ब्रह्मचर्येण सङ्गत्यागेन मेधया",
           "transliteration": "tāvanta eva munayaḥ sarvārambhavivarjitāḥ / tapasā brahmacaryeṇa saṅgatyāgena medhayā",
-          "hindi": "अर्धमात्राविशिष्ट मकार है। तीन मात्राएँ तीनों वेद, भूः आदि तीन लोक, तीन गुण, जाग्रत्,"
+          "hindi": "अर्धमात्राविशिष्ट मकार है। तीन मात्राएँ तीनों वेद, भूः आदि तीन लोक, तीन गुण, जाग्रत्,",
+          "translation": "An equal number of sages, free of all undertakings, through austerity, celibacy, renunciation of attachment, and intelligence...",
+          "translationSource": "ai"
         },
         {
           "number": 35,
           "sanskrit": "यत्र यत्रावतिष्ठन्ते यावदाहूतसंप्लवं । वेदानुवचनं यज्ञा ब्रह्मचर्यं तपो दमः",
           "transliteration": "yatra yatrāvatiṣṭhante yāvadāhūtasaṃplavaṃ / vedānuvacanaṃ yajñā brahmacaryaṃ tapo damaḥ",
-          "hindi": "ब्रह्मा, विष्णु और शिव--ये तीनों देवता प्रणवरूप हैं। ब्रह्मा, विष्णु और रुद्र, स्कन्द, देवी और महेश्वर तथा प्रद्युम्न, श्री और वासुदेव ये सब क्रमशः ३कारके ही स्वरूप हैं। 3»कार मात्रासे रहित अथवा अनन्त मात्राओंसे युक्त है। वह द्वैतकी निवृत्ति करनेवाला तथा शिवस्वरूप है। ऐसे ३५कारको जिसने जान लिया, वही मुनि है, दूसरा नहीं। प्रणवकी चतुर्थीमात्रा (जो अर्धमात्राके"
+          "hindi": "ब्रह्मा, विष्णु और शिव--ये तीनों देवता प्रणवरूप हैं। ब्रह्मा, विष्णु और रुद्र, स्कन्द, देवी और महेश्वर तथा प्रद्युम्न, श्री और वासुदेव ये सब क्रमशः ३कारके ही स्वरूप हैं। 3»कार मात्रासे रहित अथवा अनन्त मात्राओंसे युक्त है। वह द्वैतकी निवृत्ति करनेवाला तथा शिवस्वरूप है। ऐसे ३५कारको जिसने जान लिया, वही मुनि है, दूसरा नहीं। प्रणवकी चतुर्थीमात्रा (जो अर्धमात्राके",
+          "translation": "...stay wherever they are until the dissolution at the call. Study of the Veda, sacrifices, celibacy, austerity, self-control,",
+          "translationSource": "ai"
         },
         {
           "number": 36,
           "sanskrit": "श्रद्धोपवासः सत्यत्वमात्मनो ज्ञानहेतवः । स त्वाश्रमैर् निदिध्यास्यः समस्तैर् एवमेव तु",
           "transliteration": "śraddhopavāsaḥ satyatvamātmano jñānahetavaḥ / sa tvāśramair nididhyāsyaḥ samastair evameva tu",
-          "hindi": "नामसे प्रसिद्ध है) 'गान्धारी' कहलाती है। वह प्रयुक्त होनेपर मूर्द्धामै लक्षित होती है। वही “तुरीय' नामसे प्रसिद्ध परब्रह्म है । वृह ज्योतिर्मय है। जैसे घड़ेके भीतर रखा हुआ दीपक वहाँ"
+          "hindi": "नामसे प्रसिद्ध है) 'गान्धारी' कहलाती है। वह प्रयुक्त होनेपर मूर्द्धामै लक्षित होती है। वही “तुरीय' नामसे प्रसिद्ध परब्रह्म है । वृह ज्योतिर्मय है। जैसे घड़ेके भीतर रखा हुआ दीपक वहाँ",
+          "translation": "faith, fasting and truthfulness are the causes of knowledge of the Self. By all the orders of life that Self is to be meditated upon in this way.",
+          "translationSource": "ai"
         },
         {
           "number": 37,
           "sanskrit": "द्रष्टव्यस्त्वथ मन्तव्यः श्रोतव्यश् च द्विजातिभिः । य एवमेनं विन्दन्ति ये चारण्यकमाश्रिताः",
           "transliteration": "draṣṭavyastvatha mantavyaḥ śrotavyaś ca dvijātibhiḥ / ya evamenaṃ vindanti ye cāraṇyakamāśritāḥ",
-          "hindi": "प्रकाश करता है, वैसे ही मूर््धामें स्थित परब्रह्म भी भीतर अपनी ज्ञानमयी ज्योति छिटकाये रहता है। मनुष्यको चाहिए कि मनसे हृदयकमलमें स्थित आत्मा या ब्रह्मका ध्यान करे और जिह्लासे सदा प्रणवका जप करता रहे। (यही 'ईश्वरप्रणिधान' है।) “प्रणव' धनुष है, “जीवात्मा' बाण है तथा 'ब्रह्म' उसका लक्ष्य कहा जाता है। सावधान होकर उस लक्ष्यका भेदन करना चाहिए और"
+          "hindi": "प्रकाश करता है, वैसे ही मूर््धामें स्थित परब्रह्म भी भीतर अपनी ज्ञानमयी ज्योति छिटकाये रहता है। मनुष्यको चाहिए कि मनसे हृदयकमलमें स्थित आत्मा या ब्रह्मका ध्यान करे और जिह्लासे सदा प्रणवका जप करता रहे। (यही 'ईश्वरप्रणिधान' है।) “प्रणव' धनुष है, “जीवात्मा' बाण है तथा 'ब्रह्म' उसका लक्ष्य कहा जाता है। सावधान होकर उस लक्ष्यका भेदन करना चाहिए और",
+          "translation": "It is to be seen, to be reflected on, and to be heard by the twice-born. Those who know it thus and those who rely on the forest teaching...",
+          "translationSource": "ai"
         },
         {
           "number": 38,
           "sanskrit": "उपासते द्विजाः सत्यं श्रद्धया परया युताः । क्रमात्ते सम्भवन्त्यर्चिरहः शुक्लं तथोत्तरं",
           "transliteration": "upāsate dvijāḥ satyaṃ śraddhayā parayā yutāḥ / kramātte sambhavantyarcirahaḥ śuklaṃ tathottaraṃ",
-          "hindi": "बाणके समान उसमें तन्मय हो जाना चाहिए। यह एकाक्षर (प्रणब) ही ब्रह्म है, यह एकाक्षर ही परम तत्त्व है, इस एकाक्षर ब्रह्मको जानकर जो जिस वस्तुकी इच्छा करता है, उसको"
+          "hindi": "बाणके समान उसमें तन्मय हो जाना चाहिए। यह एकाक्षर (प्रणब) ही ब्रह्म है, यह एकाक्षर ही परम तत्त्व है, इस एकाक्षर ब्रह्मको जानकर जो जिस वस्तुकी इच्छा करता है, उसको",
+          "translation": "...the twice-born who worship truth with supreme faith, in order attain the flame, the day, the bright half, and the northern course.",
+          "translationSource": "ai"
         },
         {
           "number": 39,
           "sanskrit": "अयनन्देवलोकञ्च सवितारं सविद्युतं । ततस्तान् पुरुषो ऽभ्येत्य मानसो ब्रह्मलौकिकान्",
           "transliteration": "ayanandevalokañca savitāraṃ savidyutaṃ / tatastān puruṣo 'bhyetya mānaso brahmalaukikān",
-          "hindi": "उसीकी प्राप्ति हो जाती है। इस प्रणवका देवी गायत्री छन्द है, अन्तर्यामी ऋषि हैं, परमात्मा इसका विनियोग किया जाता है। इसके अङ्ग- न्यासकी विधि इस प्रकार है- ३ भूः अग्न्यात्मने हृदयाय नमः ।'--इस मन्त्रसे हृदयका स्पर्श करे। ' ॐ भुवः प्राजापत्यात्मने शिरसे स्वाहा।' ऐसा"
+          "hindi": "उसीकी प्राप्ति हो जाती है। इस प्रणवका देवी गायत्री छन्द है, अन्तर्यामी ऋषि हैं, परमात्मा इसका विनियोग किया जाता है। इसके अङ्ग- न्यासकी विधि इस प्रकार है- ३ भूः अग्न्यात्मने हृदयाय नमः ।'--इस मन्त्रसे हृदयका स्पर्श करे। ' ॐ भुवः प्राजापत्यात्मने शिरसे स्वाहा।' ऐसा",
+          "translation": "The path of the gods, the sun with lightning; then a person who is mind-born comes to them and leads them to the worlds of Brahma.",
+          "translationSource": "ai"
         },
         {
           "number": 40,
           "sanskrit": "करोति पुनरावृत्तिस्तेषामिह न विद्यते । यज्ञेन तपसा दानैर् ये हि स्वर्गजितो जनाः",
           "transliteration": "karoti punarāvṛttisteṣāmiha na vidyate / yajñena tapasā dānair ye hi svargajito janāḥ",
-          "hindi": "कहकर मस्तकका स्पर्श करे। ' ॐ स्वः सर्वात्मने शिखायै वषट्।'--इस मन्त्रसे शिखाका स्पर्श करे। अब कवच बताया जाता है --' ३» भूर्भुवः स्वः सत्यात्मने कवचाय हुम्।' इस मन्त्रसे दाहिने"
+          "hindi": "कहकर मस्तकका स्पर्श करे। ' ॐ स्वः सर्वात्मने शिखायै वषट्।'--इस मन्त्रसे शिखाका स्पर्श करे। अब कवच बताया जाता है --' ३» भूर्भुवः स्वः सत्यात्मने कवचाय हुम्।' इस मन्त्रसे दाहिने",
+          "translation": "There is no return for them here. But those who win heaven by sacrifice, austerity and gifts...",
+          "translationSource": "ai"
         },
         {
           "number": 41,
           "sanskrit": "धूमं निशां कृष्णपक्षं दक्षिणायनमेव च । पितृलोकं चन्द्रमसं नभो वायुं जलं महीं",
           "transliteration": "dhūmaṃ niśāṃ kṛṣṇapakṣaṃ dakṣiṇāyanameva ca / pitṛlokaṃ candramasaṃ nabho vāyuṃ jalaṃ mahīṃ",
-          "hindi": "हाथकी अँगुलियोंद्वारा बायीं भुजाके मूलभागका और बायें हाथकी अँगुलियोंसे दाहिनी बाँहके मूलभागका एक ही साथ स्पर्श करे। तत्पश्चात् कहकर चुटकी बजाये। इस प्रकार अङ्गन्यास करके भोग और मोक्षकी सिद्धिके लिये भगवान् विष्णुका पूजन, उनके नामोंका जप तथा उनके उद्देश्यसे तिल और घी आदिका हवन करे; इससे"
+          "hindi": "हाथकी अँगुलियोंद्वारा बायीं भुजाके मूलभागका और बायें हाथकी अँगुलियोंसे दाहिनी बाँहके मूलभागका एक ही साथ स्पर्श करे। तत्पश्चात् कहकर चुटकी बजाये। इस प्रकार अङ्गन्यास करके भोग और मोक्षकी सिद्धिके लिये भगवान् विष्णुका पूजन, उनके नामोंका जप तथा उनके उद्देश्यसे तिल और घी आदिका हवन करे; इससे",
+          "translation": "...go by smoke, night, the dark half, the southern course, the world of the ancestors, the moon, sky, wind, water and earth.",
+          "translationSource": "ai"
         },
         {
           "number": 42,
           "sanskrit": "क्रमात्ते सम्भवन्तीह पुनरेव व्रजन्ति च । एतद्यो न विजानाति मार्गद्वितयमात्मनः",
           "transliteration": "kramātte sambhavantīha punareva vrajanti ca / etadyo na vijānāti mārgadvitayamātmanaḥ",
-          "hindi": "मनुष्यकी समस्त कामनाएँ पूर्ण होती हैं। (यही ईश्वरपूजन है; इसका निष्कामभावसे ही अनुष्ठान"
+          "hindi": "मनुष्यकी समस्त कामनाएँ पूर्ण होती हैं। (यही ईश्वरपूजन है; इसका निष्कामभावसे ही अनुष्ठान",
+          "translation": "In order they come to be here and go again. He who does not know these two paths of the Self...",
+          "translationSource": "ai"
         },
         {
           "number": 43,
           "sanskrit": "दन्दशूकः पतङ्गो वा भवेद्कीटो ऽथवा कृमिः । हृदये दीपवद्ब्रह्म ध्यानाज्जिवो मृतो भवेत्",
           "transliteration": "dandaśūkaḥ pataṅgo vā bhavedkīṭo 'thavā kṛmiḥ / hṛdaye dīpavadbrahma dhyānājjivo mṛto bhavet",
-          "hindi": "करना उत्तम है।) जो मनुष्य प्रतिदिन बारह हजार प्रणवका जप करता है, उसको बारह महीनेमें परब्रह्मका ज्ञान हो जाता है। एक करोड़ जप करनेसे अणिमा आदि सिद्धियाँ प्राप्त होती हैं, एक लाखके जपसे सरस्वती आदिकी कृपा होती है। विष्णुका यजन तीन प्रकारका होता है--वैदिक, तान्त्रिक और मिश्र। तीनोंमेंसे जो अभीष्ट हो, उसी एक विधिका आश्रय लेकर"
+          "hindi": "करना उत्तम है।) जो मनुष्य प्रतिदिन बारह हजार प्रणवका जप करता है, उसको बारह महीनेमें परब्रह्मका ज्ञान हो जाता है। एक करोड़ जप करनेसे अणिमा आदि सिद्धियाँ प्राप्त होती हैं, एक लाखके जपसे सरस्वती आदिकी कृपा होती है। विष्णुका यजन तीन प्रकारका होता है--वैदिक, तान्त्रिक और मिश्र। तीनोंमेंसे जो अभीष्ट हो, उसी एक विधिका आश्रय लेकर",
+          "translation": "...becomes a snake, a moth, an insect or a worm. Brahman is like a lamp in the heart; through meditation the soul becomes dead (to rebirth).",
+          "translationSource": "ai"
         },
         {
           "number": 44,
           "sanskrit": "न्यायागतधनस्तत्त्वज्ञाननिष्ठो ऽतिथिप्रियः । श्राद्धकृत्सत्यवादी च गृहस्थो ऽपि विमुच्यते",
           "transliteration": "nyāyāgatadhanastattvajñānaniṣṭho 'tithipriyaḥ / śrāddhakṛtsatyavādī ca gṛhastho 'pi vimucyate",
-          "hindi": "श्रीहरिकी पूजा करनी चाहिए। जो मनुष्य दण्डकी भाँति पृथ्वीपर पड़कर भगवानूको साष्टाङ्ग प्रणाम करता है, उसे जिस उत्तम गतिकी प्राप्ति होती है, वह सैकड़ों यज्ञोंके द्वारा दुर्लभ है।"
+          "hindi": "श्रीहरिकी पूजा करनी चाहिए। जो मनुष्य दण्डकी भाँति पृथ्वीपर पड़कर भगवानूको साष्टाङ्ग प्रणाम करता है, उसे जिस उत्तम गतिकी प्राप्ति होती है, वह सैकड़ों यज्ञोंके द्वारा दुर्लभ है।",
+          "translation": "One whose wealth is rightly gained, who is devoted to knowledge of truth, fond of guests, performs the shraddha and speaks truth — even a householder is liberated.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -87902,97 +87946,129 @@
           "number": 9,
           "sanskrit": "अग्नेरापो जलात्पृथ्वी ततः सूक्ष्मं शरीरकं । अपञ्चीकृतभूतेभ्य आसन् पञ्चीकृतान्यतः",
           "transliteration": "agnerāpo jalātpṛthvī tataḥ sūkṣmaṃ śarīrakaṃ / apañcīkṛtabhūtebhya āsan pañcīkṛtānyataḥ",
-          "hindi": "धोंकनीके समान शरीरको बाहरी वायुसे भरे। भर जानेपर कुछ कालतक स्थिरभावसे बैठा रहे । बाहरसे वायुको पूर्ति करनेके कारण इस क्रियाका नाम “पूरक' है। वायु भर जानेके पश्चात् जब साधक न तो भीतरी वायुको छोड़ता है और न बाहरी वायुको ग्रहण ही करता है, अपितु भरे हुए घड़ेकी भाँति अविचल-भावसे स्थिर रहता है, उस समय कुम्भवत् स्थिर होनेके कारण उसकी"
+          "hindi": "धोंकनीके समान शरीरको बाहरी वायुसे भरे। भर जानेपर कुछ कालतक स्थिरभावसे बैठा रहे । बाहरसे वायुको पूर्ति करनेके कारण इस क्रियाका नाम “पूरक' है। वायु भर जानेके पश्चात् जब साधक न तो भीतरी वायुको छोड़ता है और न बाहरी वायुको ग्रहण ही करता है, अपितु भरे हुए घड़ेकी भाँति अविचल-भावसे स्थिर रहता है, उस समय कुम्भवत् स्थिर होनेके कारण उसकी",
+          "translation": "From fire come water, from water earth, and then the subtle body; from the elements not yet quintuplicated, these quintuplicated ones arose.",
+          "translationSource": "ai"
         },
         {
           "number": 10,
           "sanskrit": "स्थूलं शरीरं ध्यात्वास्माल्लयं ब्रह्मणि चिन्तयेत् । पञ्चीकृतानि भूतानि तत्कार्यञ्च विराट्स्मृतम्",
           "transliteration": "sthūlaṃ śarīraṃ dhyātvāsmāllayaṃ brahmaṇi cintayet / pañcīkṛtāni bhūtāni tatkāryañca virāṭsmṛtam",
-          "hindi": "वह चेष्टा 'कुम्भक' कहलाती है। बारह मात्रा (पल) -का एक 'उद्धात' होता है । इतनी देरतक"
+          "hindi": "वह चेष्टा 'कुम्भक' कहलाती है। बारह मात्रा (पल) -का एक 'उद्धात' होता है । इतनी देरतक",
+          "translation": "Having meditated on the gross body, one should contemplate its dissolution in Brahman. The quintuplicated elements and their product are called Virat.",
+          "translationSource": "ai"
         },
         {
           "number": 11,
           "sanskrit": "एतत् स्थूलं शरीरं हि आत्मनो ज्ञानकल्पितं । इन्द्रियैर् अथ विज्ञानं धीरा जागरितं विदुः",
           "transliteration": "etat sthūlaṃ śarīraṃ hi ātmano jñānakalpitaṃ / indriyair atha vijñānaṃ dhīrā jāgaritaṃ viduḥ",
-          "hindi": "वायुको रोकना कनिष्ठ श्रेणीका प्राणायाम है। दो उद्धात अर्थात् चौबीस मात्रातक किया जानेवाला कुम्भक मध्यम श्रेणीका माना गया है तथा तीन उद्धात यानी छत्तीस मात्रातकका कुम्भक उत्तम श्रेणीका प्राणायाम है। जिससे शरीरसे पसीने"
+          "hindi": "वायुको रोकना कनिष्ठ श्रेणीका प्राणायाम है। दो उद्धात अर्थात् चौबीस मात्रातक किया जानेवाला कुम्भक मध्यम श्रेणीका माना गया है तथा तीन उद्धात यानी छत्तीस मात्रातकका कुम्भक उत्तम श्रेणीका प्राणायाम है। जिससे शरीरसे पसीने",
+          "translation": "This gross body is imagined by knowledge of the Self. The wise know the waking state as awareness through the senses.",
+          "translationSource": "ai"
         },
         {
           "number": 12,
           "sanskrit": "विश्वस्तदभिमानी स्यात् त्रयमेतदकारकं । अपञ्चीकृतभूतानि तत्कार्यं लिङ्गमुच्यते",
           "transliteration": "viśvastadabhimānī syāt trayametadakārakaṃ / apañcīkṛtabhūtāni tatkāryaṃ liṅgamucyate",
-          "hindi": "लगने लगे, वह प्राणायाम अत्यन्त उत्तम है।"
+          "hindi": "लगने लगे, वह प्राणायाम अत्यन्त उत्तम है।",
+          "translation": "The one identified with it is Vishva; these three are non-agents. The unquintuplicated elements and their product are called the subtle body.",
+          "translationSource": "ai"
         },
         {
           "number": 13,
           "sanskrit": "संयुक्तं सप्तदशभिर्हिरण्यगर्भसंज्ञितं । शरीरमात्मनः सूक्ष्मं लिङ्गमित्यभिधीयते",
           "transliteration": "saṃyuktaṃ saptadaśabhirhiraṇyagarbhasaṃjñitaṃ / śarīramātmanaḥ sūkṣmaṃ liṅgamityabhidhīyate",
-          "hindi": "अधिकार न हो जाय, उनपर सहसा आरोहण न करे, अर्थात् क्रमशः अभ्यास बढ़ाते हुए उत्तरोत्तर जीत लेनेपर हिचकी और साँस आदिके रोग दूर हो जाते हैं तथा मल-मूत्रादिके दोष भी धीरे- धीरे कम हो जाते हैं। नीरोग होना, तेज चलना, मनमें उत्साह होना, स्वरमें माधुर्य आना, बल"
+          "hindi": "अधिकार न हो जाय, उनपर सहसा आरोहण न करे, अर्थात् क्रमशः अभ्यास बढ़ाते हुए उत्तरोत्तर जीत लेनेपर हिचकी और साँस आदिके रोग दूर हो जाते हैं तथा मल-मूत्रादिके दोष भी धीरे- धीरे कम हो जाते हैं। नीरोग होना, तेज चलना, मनमें उत्साह होना, स्वरमें माधुर्य आना, बल",
+          "translation": "Joined with seventeen parts, it is named Hiranyagarbha; the subtle body of the Self is called the \"linga\".",
+          "translationSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "जाग्रत्संस्कारजः स्वप्नः प्रत्ययो विषयात्मकः । आत्मा तदुपमानी स्त्यात्तैजसो ह्य् अप्रपञ्चतः",
           "transliteration": "jāgratsaṃskārajaḥ svapnaḥ pratyayo viṣayātmakaḥ / ātmā tadupamānī styāttaijaso hy aprapañcataḥ",
-          "hindi": "बढ़ना, शरीरवर्णमें स्वच्छताका आना तथा सब प्रकारके दोषोंका नाश हो जाना--ये प्राणायामसे होनेवाले लाभ हैं। प्राणायाम दो तरहके होते हैं -' अगर्भ' और 'सगर्भ'। जप और ध्यानके"
+          "hindi": "बढ़ना, शरीरवर्णमें स्वच्छताका आना तथा सब प्रकारके दोषोंका नाश हो जाना--ये प्राणायामसे होनेवाले लाभ हैं। प्राणायाम दो तरहके होते हैं -' अगर्भ' और 'सगर्भ'। जप और ध्यानके",
+          "translation": "Dream is born of impressions from waking, a cognition whose content is objects; the Self identified with it is Taijasa, without the world-spread.",
+          "translationSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "स्थूलसूक्ष्मशरीराख्यद्वयस्यैकं हि कारणं । आत्मा ज्ञानञ्च साभासं तदध्याहृतमुच्यते",
           "transliteration": "sthūlasūkṣmaśarīrākhyadvayasyaikaṃ hi kāraṇaṃ / ātmā jñānañca sābhāsaṃ tadadhyāhṛtamucyate",
-          "hindi": "बिना जो प्राणायाम किया जाता है, उसका नाम 'अगर्भ है तथा जप और ध्यानके साथ किये जानेवाले प्राणायामको 'सगर्भ' कहते हैं । इन्द्रियोंपर विजय पानेके लिये सगर्भ प्राणायाम ही उत्तम होता है; उसीका अभ्यास करना चाहिए। ज्ञान और वैराग्यसे युक्त होकर प्राणायामके अभ्याससे"
+          "hindi": "बिना जो प्राणायाम किया जाता है, उसका नाम 'अगर्भ है तथा जप और ध्यानके साथ किये जानेवाले प्राणायामको 'सगर्भ' कहते हैं । इन्द्रियोंपर विजय पानेके लिये सगर्भ प्राणायाम ही उत्तम होता है; उसीका अभ्यास करना चाहिए। ज्ञान और वैराग्यसे युक्त होकर प्राणायामके अभ्याससे",
+          "translation": "The one cause of the two, the gross and subtle bodies, is the Self and knowledge with reflection; this is called superimposition.",
+          "translationSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "न सन्नासन्न सदसदेतत्सावयवं न तत् । निर्गतावयवं नेति नाभिन्नं भिन्नमेव च",
           "transliteration": "na sannāsanna sadasadetatsāvayavaṃ na tat / nirgatāvayavaṃ neti nābhinnaṃ bhinnameva ca",
-          "hindi": "इन्द्रियोंको जीत लेनेपर सबपर विजय प्राप्त हो जाती है। जिसे 'स्वर्ग? और 'नरक' कहते हैं, वह सब इन्द्रियाँ ही हैं। वे ही वशमें होनेपर स्वर्गमें पहुँचाती हैं और स्वतन्त्र छोड़ देनेपर"
+          "hindi": "इन्द्रियोंको जीत लेनेपर सबपर विजय प्राप्त हो जाती है। जिसे 'स्वर्ग? और 'नरक' कहते हैं, वह सब इन्द्रियाँ ही हैं। वे ही वशमें होनेपर स्वर्गमें पहुँचाती हैं और स्वतन्त्र छोड़ देनेपर",
+          "translation": "It is neither being nor non-being nor both; it is not with parts, nor without parts; neither different nor not different, yet different.",
+          "translationSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "भिन्नाभिन्नं ह्य् अनिर्वाच्यं बन्धसंसारकारकं । एकं स ब्रह्म विज्ञानात् प्राप्तं नैव च कर्मभिः",
           "transliteration": "bhinnābhinnaṃ hy anirvācyaṃ bandhasaṃsārakārakaṃ / ekaṃ sa brahma vijñānāt prāptaṃ naiva ca karmabhiḥ",
-          "hindi": "नरकमें ले जाती हैं। शरीरको 'रथ' कहते हैं, इन्द्रियाँ ही उसके 'घोड़े' हैं, मनको 'सारथि' कहा गया है और प्राणायामको 'चाबुक' माना गया है। ज्ञान और वैराग्यकी बागडोरमें बँधे हुए मनरूपी घोड़ेको प्राणायामसे आबद्ध करके जब अच्छी तरह काबूमें कर लिया जाता है तो वह थीरे-धीरे स्थिर हो जाता है। जो मनुष्य सौ वर्षोसे कुछ अधिक कालतक प्रतिमास"
+          "hindi": "नरकमें ले जाती हैं। शरीरको 'रथ' कहते हैं, इन्द्रियाँ ही उसके 'घोड़े' हैं, मनको 'सारथि' कहा गया है और प्राणायामको 'चाबुक' माना गया है। ज्ञान और वैराग्यकी बागडोरमें बँधे हुए मनरूपी घोड़ेको प्राणायामसे आबद्ध करके जब अच्छी तरह काबूमें कर लिया जाता है तो वह थीरे-धीरे स्थिर हो जाता है। जो मनुष्य सौ वर्षोसे कुछ अधिक कालतक प्रतिमास",
+          "translation": "Different and non-different, indescribable, it causes bondage and samsara. The One is Brahman, attained by knowledge, not by works.",
+          "translationSource": "ai"
         },
         {
           "number": 18,
           "sanskrit": "सर्वात्मना हीन्द्रियाणां संहारः कारणात्मनां । बुद्धेः स्थानं सुषुप्तं स्यात्तद्द्वयस्याभिमानवान्",
           "transliteration": "sarvātmanā hīndriyāṇāṃ saṃhāraḥ kāraṇātmanāṃ / buddheḥ sthānaṃ suṣuptaṃ syāttaddvayasyābhimānavān",
-          "hindi": "कुशके अग्रभागसे जलकी एक बूँद लेकर उसे पीकर रह जाता है, उसकी वह तपस्या और प्राणायाम -दोनों बराबर हैं। विषयोंके समुद्रमें प्रवेश करके वहाँ फँसी हुई इन्द्रियोंको जो"
+          "hindi": "कुशके अग्रभागसे जलकी एक बूँद लेकर उसे पीकर रह जाता है, उसकी वह तपस्या और प्राणायाम -दोनों बराबर हैं। विषयोंके समुद्रमें प्रवेश करके वहाँ फँसी हुई इन्द्रियोंको जो",
+          "translation": "The withdrawal of all the senses into their cause is the state of the intellect, deep sleep; the one identified with both is...",
+          "translationSource": "ai"
         },
         {
           "number": 19,
           "sanskrit": "प्राज्ञ आत्मा त्रयञ्चैतत् मकारः प्रणवः स्मृतः । अकारश् च उकारो ऽसौ मकारो ह्य् अयमेव च",
           "transliteration": "prājña ātmā trayañcaitat makāraḥ praṇavaḥ smṛtaḥ / akāraś ca ukāro 'sau makāro hy ayameva ca",
-          "hindi": "आहूत करके, अर्थात् लौटाकर अपने अधीन करता है, उसके इस प्रयत्नको ' प्रत्याहार' कहते हैं। जैसे जलमें डूबा हुआ मनुष्य उससे निकलनेका प्रयत्न करता है, उसी प्रकार संसार- समुद्रमें डूबे हुए अपने-आपको स्वयं ही निकालनेका प्रयत्न करे। भोगरूपी नदीका वेग अत्यन्त बढ़ जानेपर उससे बचनेके लिये अत्यन्त सुदृढ़ ज्ञानरूपी वृक्षका आश्रय लेना"
+          "hindi": "आहूत करके, अर्थात् लौटाकर अपने अधीन करता है, उसके इस प्रयत्नको ' प्रत्याहार' कहते हैं। जैसे जलमें डूबा हुआ मनुष्य उससे निकलनेका प्रयत्न करता है, उसी प्रकार संसार- समुद्रमें डूबे हुए अपने-आपको स्वयं ही निकालनेका प्रयत्न करे। भोगरूपी नदीका वेग अत्यन्त बढ़ जानेपर उससे बचनेके लिये अत्यन्त सुदृढ़ ज्ञानरूपी वृक्षका आश्रय लेना",
+          "translation": "Prajna. The Self and these three are held to be \"m\", the Pranava: \"a\", \"u\", and \"m\" are this very thing.",
+          "translationSource": "ai"
         },
         {
           "number": 20,
           "sanskrit": "अहं साक्षी च चिन्मात्रो जाग्रत्स्वप्नादिकस्य च । नाज्ञानञ्चैव तत्कार्यं संसारादिकबन्धनं",
           "transliteration": "ahaṃ sākṣī ca cinmātro jāgratsvapnādikasya ca / nājñānañcaiva tatkāryaṃ saṃsārādikabandhanaṃ",
-          "hindi": "इस प्रकार आदि आग्नेय महापुराणमें \"आसन, प्राणायाम तथा प्रत्याहारका वर्णन नामक तीन सौ तिहत्तरवाँ अध्याय पूरा हुआ"
+          "hindi": "इस प्रकार आदि आग्नेय महापुराणमें \"आसन, प्राणायाम तथा प्रत्याहारका वर्णन नामक तीन सौ तिहत्तरवाँ अध्याय पूरा हुआ",
+          "translation": "I am the witness, mere consciousness, of waking, dream and the rest; ignorance and its effect, the bonds of samsara and so on, are not mine.",
+          "translationSource": "ai"
         },
         {
           "number": 21,
           "sanskrit": "नित्यशुद्धबन्धमुक्तसत्यमानन्दमद्वयं । ब्रह्माहमस्म्यहं ब्रह्म परं ज्योतिर्विमुक्त ॐ",
           "transliteration": "nityaśuddhabandhamuktasatyamānandamadvayaṃ / brahmāhamasmyahaṃ brahma paraṃ jyotirvimukta oṃ",
-          "hindi": "अग्निदेव कहते हैं-मुने! 'ध्यै-  भगवान् विष्णुका बारंबार चिन्तन करना ' ध्यान' चिन्तायाम्'--यह धातु है। अर्थात्  ध्यै' धातुका  कहलाता है। समस्त उपाधियोंसे मुक्त मनसहित प्रयोग चिन्तनके अर्थमें होता है। ('ध्यै'से ही  आत्माका ब्रह्मविचारमें परायण होना भी ' ध्यान' ' ध्यान! शब्दकी सिद्धि होती है) अतः स्थिरचित्तसे  ही है। ध्येयरूप आधारमें स्थित एवं सजातीय प्रतीतियोंसे युक्त चित्तको जो विजातीय प्रतीतियोंसे रहित प्रतीति होती है, उसको भी ' ध्यान' कहते हैं। जिस किसी प्रदेशमें भी ध्येय वस्तुके चिन्तनमें एकाग्र हुए चित्तको प्रतीतिके साथ जो"
+          "hindi": "अग्निदेव कहते हैं-मुने! 'ध्यै-  भगवान् विष्णुका बारंबार चिन्तन करना ' ध्यान' चिन्तायाम्'--यह धातु है। अर्थात्  ध्यै' धातुका  कहलाता है। समस्त उपाधियोंसे मुक्त मनसहित प्रयोग चिन्तनके अर्थमें होता है। ('ध्यै'से ही  आत्माका ब्रह्मविचारमें परायण होना भी ' ध्यान' ' ध्यान! शब्दकी सिद्धि होती है) अतः स्थिरचित्तसे  ही है। ध्येयरूप आधारमें स्थित एवं सजातीय प्रतीतियोंसे युक्त चित्तको जो विजातीय प्रतीतियोंसे रहित प्रतीति होती है, उसको भी ' ध्यान' कहते हैं। जिस किसी प्रदेशमें भी ध्येय वस्तुके चिन्तनमें एकाग्र हुए चित्तको प्रतीतिके साथ जो",
+          "translation": "Eternal, pure, free from bondage, truth, bliss, without a second — I am Brahman; I am the supreme light, liberated. Om.",
+          "translationSource": "ai"
         },
         {
           "number": 22,
           "sanskrit": "अहं ब्रह्म परं ज्ञानं समाधिर्बन्धघातकः । चिरमानन्दकं ब्रह्म सत्यं ज्ञानमनन्तकं",
           "transliteration": "ahaṃ brahma paraṃ jñānaṃ samādhirbandhaghātakaḥ / ciramānandakaṃ brahma satyaṃ jñānamanantakaṃ",
-          "hindi": "अभेद- भावना होती है, उसका नाम भी “ध्यान! है। इस प्रकार ध्यानपरायण होकर जो अपने शरीरका परित्याग करता है, वह अपने कुल, स्वजन और मित्रोंका उद्धार करके स्वयं"
+          "hindi": "अभेद- भावना होती है, उसका नाम भी “ध्यान! है। इस प्रकार ध्यानपरायण होकर जो अपने शरीरका परित्याग करता है, वह अपने कुल, स्वजन और मित्रोंका उद्धार करके स्वयं",
+          "translation": "I am Brahman, supreme knowledge; samadhi destroys bondage. Brahman is lasting bliss, truth, knowledge, infinity.",
+          "translationSource": "ai"
         },
         {
           "number": 23,
           "sanskrit": "अयमात्मा परम्ब्रह्म तद् ब्रह्म त्वमसीति च । गुरुणा बोधितो जीवो ह्य् अहं ब्रह्मास्मि वाह्यतः",
           "transliteration": "ayamātmā parambrahma tad brahma tvamasīti ca / guruṇā bodhito jīvo hy ahaṃ brahmāsmi vāhyataḥ",
-          "hindi": "भगवत्स्वरूप हो जाता है। इस तरह जो प्रतिदिन एक या आधे मुहूर्ततक भी श्रद्धापूर्वक श्रीहरिका ध्यान करता है, वह भी जिस गतिको प्राप्त करता है, उसे सम्पूर्ण महायज्ञोंके द्वारा भी कोई नहीं पा तत्त्ववेत्ता योगीको चाहिए कि वह ध्याता, ध्यान, ध्येय तथा ध्यानका प्रयोजन--इन चार वस्तुओंका ज्ञान प्राप्त करके योगका अभ्यास करे। योगाभ्याससे मोक्ष तथा आठ प्रकारके"
+          "hindi": "भगवत्स्वरूप हो जाता है। इस तरह जो प्रतिदिन एक या आधे मुहूर्ततक भी श्रद्धापूर्वक श्रीहरिका ध्यान करता है, वह भी जिस गतिको प्राप्त करता है, उसे सम्पूर्ण महायज्ञोंके द्वारा भी कोई नहीं पा तत्त्ववेत्ता योगीको चाहिए कि वह ध्याता, ध्यान, ध्येय तथा ध्यानका प्रयोजन--इन चार वस्तुओंका ज्ञान प्राप्त करके योगका अभ्यास करे। योगाभ्याससे मोक्ष तथा आठ प्रकारके",
+          "translation": "\"This Self is Supreme Brahman\", \"That is Brahman\", \"You are That\" — the soul, instructed by the teacher, is \"I am Brahman\", even outwardly.",
+          "translationSource": "ai"
         },
         {
           "number": 24,
           "sanskrit": "सो ऽसावादित्यपुरुषः सो ऽसावहमखण्ड ॐ । मुच्यते ऽसारसंसाराद्ब्रह्मज्ञो ब्रह्म तद्भवेत्",
           "transliteration": "so 'sāvādityapuruṣaḥ so 'sāvahamakhaṇḍa oṃ / mucyate 'sārasaṃsārādbrahmajño brahma tadbhavet",
-          "hindi": "महान् ऐश्वर्यों (अणिमा आदि सिद्धियों)-की"
+          "hindi": "महान् ऐश्वर्यों (अणिमा आदि सिद्धियों)-की",
+          "translation": "\"That Person in the sun, I am he, the undivided. Om.\" The knower of Brahman is freed from this worthless samsara and becomes Brahman.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -88057,91 +88133,121 @@
           "number": 8,
           "sanskrit": "अहं ब्रह्म परं ज्योतिर्मनोबुद्धिविवर्जितं । अहं ब्रह्म परं ज्योतिश्चित्ताहङ्कारवर्जितं",
           "transliteration": "ahaṃ brahma paraṃ jyotirmanobuddhivivarjitaṃ / ahaṃ brahma paraṃ jyotiścittāhaṅkāravarjitaṃ",
-          "hindi": "नाभिसे प्रकट हुआ एक दिव्य कमल स्थित है, जो प्रभुका ऐश्वर्य ही जान पड़ता है। उसका विस्तार बारह अंगुल है। वह शुद्ध, विकसित तथा श्वेत वर्णका है। उसका मृणाल आठ"
+          "hindi": "नाभिसे प्रकट हुआ एक दिव्य कमल स्थित है, जो प्रभुका ऐश्वर्य ही जान पड़ता है। उसका विस्तार बारह अंगुल है। वह शुद्ध, विकसित तथा श्वेत वर्णका है। उसका मृणाल आठ",
+          "translation": "I am Brahman, the supreme light, free of mind and intellect; I am Brahman, the supreme light, free of thought and ego.",
+          "translationSource": "ai"
         },
         {
           "number": 9,
           "sanskrit": "अहं ब्रह्म परं ज्योतिः प्राणापानविवर्जितं । अहं ब्रह्म परं ज्योतिर्व्यानोदानविवर्जितं",
           "transliteration": "ahaṃ brahma paraṃ jyotiḥ prāṇāpānavivarjitaṃ / ahaṃ brahma paraṃ jyotirvyānodānavivarjitaṃ",
-          "hindi": "अंगुलका है। उस कमलके आठ पत्तोंको अणिमा आदि आठ ऐश्वर्य जानना चाहिए। उसकी कर्णिकाका केसर 'ज्ञान' तथा नाल “उत्तम वैराग्य’ है। 'विष्णु-धर्म' ही उसकी जड़ है। इस प्रकार कमलका चिन्तन करे। धर्म, ज्ञान,"
+          "hindi": "अंगुलका है। उस कमलके आठ पत्तोंको अणिमा आदि आठ ऐश्वर्य जानना चाहिए। उसकी कर्णिकाका केसर 'ज्ञान' तथा नाल “उत्तम वैराग्य’ है। 'विष्णु-धर्म' ही उसकी जड़ है। इस प्रकार कमलका चिन्तन करे। धर्म, ज्ञान,",
+          "translation": "I am Brahman, the supreme light, free of prana and apana; I am Brahman, the supreme light, free of vyana and udana.",
+          "translationSource": "ai"
         },
         {
           "number": 10,
           "sanskrit": "अहं ब्रह्म परं ज्योतिः समानपरिवर्जितं । अहं ब्रह्म परं ज्योतिर्जरामरणवर्जितं",
           "transliteration": "ahaṃ brahma paraṃ jyotiḥ samānaparivarjitaṃ / ahaṃ brahma paraṃ jyotirjarāmaraṇavarjitaṃ",
-          "hindi": "फापाकाफाफ मी पापी फक फक का क्र"
+          "hindi": "फापाकाफाफ मी पापी फक फक का क्र",
+          "translation": "I am Brahman, the supreme light, free of samana; I am Brahman, the supreme light, free of old age and death.",
+          "translationSource": "ai"
         },
         {
           "number": 11,
           "sanskrit": "अहं ब्रह्म परं ज्योतिः शोकमोहविवर्जितं । अहं ब्रह्म परं ज्योतिः क्षुत्पिपासाविवर्जितं",
           "transliteration": "ahaṃ brahma paraṃ jyotiḥ śokamohavivarjitaṃ / ahaṃ brahma paraṃ jyotiḥ kṣutpipāsāvivarjitaṃ",
-          "hindi": "कमलको, जो भगवानूका आसन है, जानकर मनुष्य अपने सब दुःखोसे छुटकारा पा जाता है। उस कमलकर्णिकाके मध्यभागमें ओङ्कारमय ईश्वरका ध्यान करे। उनकी आकृति शुद्ध दीपशिखाके समान देदीप्यमान एवं अँगूठेके बराबर है। वे अत्यन्त निर्मल हैं। कदम्बपुष्पके समान उनका गोलाकार स्वरूप ताराकी भाँति स्थित है। अथवा कमलके ऊपर प्रकृति और पुरुषसे भी अतीत"
+          "hindi": "कमलको, जो भगवानूका आसन है, जानकर मनुष्य अपने सब दुःखोसे छुटकारा पा जाता है। उस कमलकर्णिकाके मध्यभागमें ओङ्कारमय ईश्वरका ध्यान करे। उनकी आकृति शुद्ध दीपशिखाके समान देदीप्यमान एवं अँगूठेके बराबर है। वे अत्यन्त निर्मल हैं। कदम्बपुष्पके समान उनका गोलाकार स्वरूप ताराकी भाँति स्थित है। अथवा कमलके ऊपर प्रकृति और पुरुषसे भी अतीत",
+          "translation": "I am Brahman, the supreme light, free of grief and delusion; I am Brahman, the supreme light, free of hunger and thirst.",
+          "translationSource": "ai"
         },
         {
           "number": 12,
           "sanskrit": "अहं ब्रह्म परं ज्योतिः शब्दोद्भूतादिवर्जितं । अहं ब्रह्म परं ज्योतिर्हिरण्यगर्भवर्जितं",
           "transliteration": "ahaṃ brahma paraṃ jyotiḥ śabdodbhūtādivarjitaṃ / ahaṃ brahma paraṃ jyotirhiraṇyagarbhavarjitaṃ",
-          "hindi": "परमेश्वर विराजमान हैं, ऐसा ध्यान करे तथा परम अक्षर ओंकारका निरन्तर जप करता रहे। साधकको अपने मनको स्थिर करनेके लिये पहले स्थूलका ध्यान करना चाहिए। फिर क्रमशः मनके स्थिर"
+          "hindi": "परमेश्वर विराजमान हैं, ऐसा ध्यान करे तथा परम अक्षर ओंकारका निरन्तर जप करता रहे। साधकको अपने मनको स्थिर करनेके लिये पहले स्थूलका ध्यान करना चाहिए। फिर क्रमशः मनके स्थिर",
+          "translation": "I am Brahman, the supreme light, free of sound and the elements that arise; I am Brahman, the supreme light, free of Hiranyagarbha.",
+          "translationSource": "ai"
         },
         {
           "number": 13,
           "sanskrit": "अहं ब्रह्म परं ज्योतिः स्वप्नावस्थाविवर्जितं । अहं ब्रह्म परं ज्योतिस्तैजसादिविवर्जितं",
           "transliteration": "ahaṃ brahma paraṃ jyotiḥ svapnāvasthāvivarjitaṃ / ahaṃ brahma paraṃ jyotistaijasādivivarjitaṃ",
-          "hindi": "हो जानेपर उसे सूक्ष्म तत्त्वके चिन्तनमें लगाना चाहिए॥ १२-२६ ३ ॥ (अब कमल आदिका ध्यान दूसरे प्रकारसे बतलाया जाता है-) नाभि-मूलमें स्थित जो कमलकी नाल है, उसका विस्तार दस अंगुल है। नालके ऊपर अष्टदल कमल है, जो बारह अंगुल"
+          "hindi": "हो जानेपर उसे सूक्ष्म तत्त्वके चिन्तनमें लगाना चाहिए॥ १२-२६ ३ ॥ (अब कमल आदिका ध्यान दूसरे प्रकारसे बतलाया जाता है-) नाभि-मूलमें स्थित जो कमलकी नाल है, उसका विस्तार दस अंगुल है। नालके ऊपर अष्टदल कमल है, जो बारह अंगुल",
+          "translation": "I am Brahman, the supreme light, free of the dream state; I am Brahman, the supreme light, free of Taijasa and the like.",
+          "translationSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "अहं ब्रह्म परं ज्योतिरपकारादिवर्जितं । अहं ब्रह्म परं ज्योतिः सभाज्ञानविवर्जितं",
           "transliteration": "ahaṃ brahma paraṃ jyotirapakārādivarjitaṃ / ahaṃ brahma paraṃ jyotiḥ sabhājñānavivarjitaṃ",
-          "hindi": "विस्तृत है। उसकी कर्णिकाके केसरमें सूर्य, सोम तथा अग्नि-तीन देवताओंका मण्डल है । अग्नि- मण्डलके भीतर शङ्क, चक्र, गदा एवं पद्म  करनेवाले चतुर्भुज विष्णु अथवा आठ भुजाओंसे"
+          "hindi": "विस्तृत है। उसकी कर्णिकाके केसरमें सूर्य, सोम तथा अग्नि-तीन देवताओंका मण्डल है । अग्नि- मण्डलके भीतर शङ्क, चक्र, गदा एवं पद्म  करनेवाले चतुर्भुज विष्णु अथवा आठ भुजाओंसे",
+          "translation": "I am Brahman, the supreme light, free of harm and the like; I am Brahman, the supreme light, free of knowledge of the assembly.",
+          "translationSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "अहं ब्रह्म परं ज्योतिरध्याहृतविवर्जितं । अहं ब्रह्म परं ज्योतिः सत्त्वादिगुणवर्जितं",
           "transliteration": "ahaṃ brahma paraṃ jyotiradhyāhṛtavivarjitaṃ / ahaṃ brahma paraṃ jyotiḥ sattvādiguṇavarjitaṃ",
-          "hindi": "युक्त भगवान् श्रीहरि विराजमान हैं। अष्टभुज भगवान्के हाथोंमें शङ्कु-चक्रादिके अतिरिक्त"
+          "hindi": "युक्त भगवान् श्रीहरि विराजमान हैं। अष्टभुज भगवान्के हाथोंमें शङ्कु-चक्रादिके अतिरिक्त",
+          "translation": "I am Brahman, the supreme light, free of superimposition; I am Brahman, the supreme light, free of sattva and the other qualities.",
+          "translationSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "अहं ब्रह्म परं ज्योतिः सदसद्भाववर्जितं । अहं ब्रह्म परं ज्योतिः सर्वावयववर्जितं",
           "transliteration": "ahaṃ brahma paraṃ jyotiḥ sadasadbhāvavarjitaṃ / ahaṃ brahma paraṃ jyotiḥ sarvāvayavavarjitaṃ",
-          "hindi": "पाते हैं। उनके श्रीविग्रहका वर्ण श्वेत एवं सुवर्णके समान उद्दीपत है। वक्ष:स्थलमें श्रीवत्सका चिह्न और कौस्तुभमणि शोभा पा रहे हैं। गलेमें बनमाला और सोनेका हार है। कानोंमें मकराकार कुण्डल"
+          "hindi": "पाते हैं। उनके श्रीविग्रहका वर्ण श्वेत एवं सुवर्णके समान उद्दीपत है। वक्ष:स्थलमें श्रीवत्सका चिह्न और कौस्तुभमणि शोभा पा रहे हैं। गलेमें बनमाला और सोनेका हार है। कानोंमें मकराकार कुण्डल",
+          "translation": "I am Brahman, the supreme light, free of being and non-being; I am Brahman, the supreme light, free of all parts.",
+          "translationSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "अहं ब्रह्म परं ज्योतिर्भेदाभेदविवर्जितं । अहं ब्रह्म परं ज्योतिः सुषुप्तिस्थानवर्जितम्",
           "transliteration": "ahaṃ brahma paraṃ jyotirbhedābhedavivarjitaṃ / ahaṃ brahma paraṃ jyotiḥ suṣuptisthānavarjitam",
-          "hindi": "जगमगा रहे हैं। मस्तकपर रत्नमय उज्वल किरीट सुशोभित हैं। श्रीअङ्गोंपर पीताम्बर शोभा पाता है। वे सब प्रकारके आभूषणोंसे अलंकृत हैं। उनका आकार बहुत बड़ा अथवा एक बित्तेका है। जैसी इच्छा हो, वैसी ही छोटी या बड़ी आकृतिका ध्यान करना चाहिए। ध्यानके समय ऐसी भावना करे कि 'मैं ज्योतिर्मय ब्रह्म हूँ-मैं ही नित्यमुक्त प्रणवरूप वासुदेवसंज्ञक"
+          "hindi": "जगमगा रहे हैं। मस्तकपर रत्नमय उज्वल किरीट सुशोभित हैं। श्रीअङ्गोंपर पीताम्बर शोभा पाता है। वे सब प्रकारके आभूषणोंसे अलंकृत हैं। उनका आकार बहुत बड़ा अथवा एक बित्तेका है। जैसी इच्छा हो, वैसी ही छोटी या बड़ी आकृतिका ध्यान करना चाहिए। ध्यानके समय ऐसी भावना करे कि 'मैं ज्योतिर्मय ब्रह्म हूँ-मैं ही नित्यमुक्त प्रणवरूप वासुदेवसंज्ञक",
+          "translation": "I am Brahman, the supreme light, free of difference and non-difference; I am Brahman, the supreme light, free of the state of deep sleep.",
+          "translationSource": "ai"
         },
         {
           "number": 18,
           "sanskrit": "अहं ब्रह्म परं ज्योतिः प्राज्ञभावविवर्जितम् । अहं ब्रह्म परं ज्योतिर्मकारादिविवर्जितम्",
           "transliteration": "ahaṃ brahma paraṃ jyotiḥ prājñabhāvavivarjitam / ahaṃ brahma paraṃ jyotirmakārādivivarjitam",
-          "hindi": "परमात्मा हूँ।' ध्यानसे थक जानेपर मन्त्रका जप करे और जपसे थकनेपर ध्यान करे। इस प्रकार जो जप और ध्यान आदिमें लगा रहता है, उसके ऊपर भगवान् विष्णु शीघ्र ही प्रसन्न होते हैं।"
+          "hindi": "परमात्मा हूँ।' ध्यानसे थक जानेपर मन्त्रका जप करे और जपसे थकनेपर ध्यान करे। इस प्रकार जो जप और ध्यान आदिमें लगा रहता है, उसके ऊपर भगवान् विष्णु शीघ्र ही प्रसन्न होते हैं।",
+          "translation": "I am Brahman, the supreme light, free of the condition of Prajna; I am Brahman, the supreme light, free of \"m\" and the like.",
+          "translationSource": "ai"
         },
         {
           "number": 19,
           "sanskrit": "अहं ब्रह्म परं ज्योतिर्मानमेयविवर्जितम् । अहं ब्रह्म परं ज्योतिर्मितिमाहृविवर्जितम्",
           "transliteration": "ahaṃ brahma paraṃ jyotirmānameyavivarjitam / ahaṃ brahma paraṃ jyotirmitimāhṛvivarjitam",
-          "hindi": "दूसरे-दूसरे यज्ञ जपयज्ञकी सोलहवीं कलाके बराबर भी नहीं हो सकते। जप करनेवाले पुरुषके पास आधि, व्याधि और ग्रह नहीँ फटकने पाते। जप करनेसे भोग, मोक्ष तथा मृत्यु- विजयरूप फलकी प्राप्ति होती है॥ २७--३५॥"
+          "hindi": "दूसरे-दूसरे यज्ञ जपयज्ञकी सोलहवीं कलाके बराबर भी नहीं हो सकते। जप करनेवाले पुरुषके पास आधि, व्याधि और ग्रह नहीँ फटकने पाते। जप करनेसे भोग, मोक्ष तथा मृत्यु- विजयरूप फलकी प्राप्ति होती है॥ २७--३५॥",
+          "translation": "I am Brahman, the supreme light, free of the measurer and the measured; I am Brahman, the supreme light, free of measure and its source.",
+          "translationSource": "ai"
         },
         {
           "number": 20,
           "sanskrit": "अहं ब्रह्म परं ज्योतिः साक्षित्वादिविवर्जितम् । अहं ब्रह्म परं ज्योतिः कार्यकारणवर्जितम्",
           "transliteration": "ahaṃ brahma paraṃ jyotiḥ sākṣitvādivivarjitam / ahaṃ brahma paraṃ jyotiḥ kāryakāraṇavarjitam",
-          "hindi": "इस प्रकार आदि आग्नेय महापुराणमें 'ध्याननिरूपण' नामक तीन सौ चौहत्तरवाँ अध्याय पूरा हुआ"
+          "hindi": "इस प्रकार आदि आग्नेय महापुराणमें 'ध्याननिरूपण' नामक तीन सौ चौहत्तरवाँ अध्याय पूरा हुआ",
+          "translation": "I am Brahman, the supreme light, free of witness-hood and the like; I am Brahman, the supreme light, free of cause and effect.",
+          "translationSource": "ai"
         },
         {
           "number": 21,
           "sanskrit": "देहेन्द्रियमनोबुद्धिप्राणाहङ्कारवर्जितं । जाग्रत् सप्नसुषुप्त्यादिमुक्तं ब्रह्म तुरीयकं",
           "transliteration": "dehendriyamanobuddhiprāṇāhaṅkāravarjitaṃ / jāgrat sapnasuṣuptyādimuktaṃ brahma turīyakaṃ",
-          "hindi": "अग्निदेव कहते हैं-मुने! ध्येय वस्तुमें जो  और “अमूर्त' धारणा कहते हैं। इस धारणासे मनकी स्थिति होती है, उसे ' धारणा' कहते हैं।  भगवान्की प्राप्ति होती है। जो बाहरका लक्ष्य है, ध्यानकी ही भाँति उसके भी दो भेद हैं-  उससे मन जबतक विचलित नहीं होता, तबतक “साकार' और 'निराकार'। भगवान्के ध्यानमें  किसी भी प्रदेशमें मनकी स्थितिको ' धारणा' जो मनको लगाया जाता है, उसे क्रमशः 'मूर्त'  कहते हैं। देहके भीतर नियत समयतक जो"
+          "hindi": "अग्निदेव कहते हैं-मुने! ध्येय वस्तुमें जो  और “अमूर्त' धारणा कहते हैं। इस धारणासे मनकी स्थिति होती है, उसे ' धारणा' कहते हैं।  भगवान्की प्राप्ति होती है। जो बाहरका लक्ष्य है, ध्यानकी ही भाँति उसके भी दो भेद हैं-  उससे मन जबतक विचलित नहीं होता, तबतक “साकार' और 'निराकार'। भगवान्के ध्यानमें  किसी भी प्रदेशमें मनकी स्थितिको ' धारणा' जो मनको लगाया जाता है, उसे क्रमशः 'मूर्त'  कहते हैं। देहके भीतर नियत समयतक जो",
+          "translation": "Brahman, the fourth state (turiya), is free of body, senses, mind, intellect, prana and ego, released from waking, dream, deep sleep and the rest.",
+          "translationSource": "ai"
         },
         {
           "number": 22,
           "sanskrit": "नित्यशुद्धबुद्धमुक्तं सत्यमानन्दमद्वयम् । ब्रह्माहमस्म्यहं ब्रह्म सविज्ञानं विमुक्त ॐ । अहं ब्रह्म परं ज्योतिः समाधिर्मोक्षदः परः",
           "transliteration": "nityaśuddhabuddhamuktaṃ satyamānandamadvayam / brahmāhamasmyahaṃ brahma savijñānaṃ vimukta oṃ / ahaṃ brahma paraṃ jyotiḥ samādhirmokṣadaḥ paraḥ",
-          "hindi": "मनको रोक रखा जाता है और वह अपने लक्ष्यसे विचलित नहीं होता, यही अवस्था “धारणा' कहलाती है। बारह आयामकी ' धारणा' होती है, बारह ' धारणा'का ' ध्यान' होता है तथा"
+          "hindi": "मनको रोक रखा जाता है और वह अपने लक्ष्यसे विचलित नहीं होता, यही अवस्था “धारणा' कहलाती है। बारह आयामकी ' धारणा' होती है, बारह ' धारणा'का ' ध्यान' होता है तथा",
+          "translation": "Eternal, pure, awake, free, truth, bliss, without a second: I am Brahman, with knowledge, liberated, Om. I am Brahman, the supreme light; samadhi is the supreme giver of liberation.",
+          "translationSource": "ai"
         }
       ]
     },
@@ -88231,133 +88337,177 @@
           "number": 11,
           "sanskrit": "ऐश्वर्यस्य समग्रस्य वीर्यस्य यशसः श्रियः । ज्ञानवैराग्ययोश् चैव षणां भग इतीङ्गना",
           "transliteration": "aiśvaryasya samagrasya vīryasya yaśasaḥ śriyaḥ / jñānavairāgyayoś caiva ṣaṇāṃ bhaga itīṅganā",
-          "hindi": "सत्यवत् प्रतीत होता है। उस परम तत्त्वका साक्षात्कार हो जानेपर ब्रह्मासे लेकर यह सारा चराचर जगत्, ध्येय)--सब कुछ ध्यानगत हृदय-कमलमें लीन हो जाता है। जप, होम और पूजन आदिको माताकी दी हुई मिठाईकी भाँति मधुर एवं लाभकर जानकर विष्णुमन्त्रके द्वारा उसका श्रद्धापूर्वक"
+          "hindi": "सत्यवत् प्रतीत होता है। उस परम तत्त्वका साक्षात्कार हो जानेपर ब्रह्मासे लेकर यह सारा चराचर जगत्, ध्येय)--सब कुछ ध्यानगत हृदय-कमलमें लीन हो जाता है। जप, होम और पूजन आदिको माताकी दी हुई मिठाईकी भाँति मधुर एवं लाभकर जानकर विष्णुमन्त्रके द्वारा उसका श्रद्धापूर्वक",
+          "translation": "Of complete lordship, valour, fame, prosperity, knowledge and dispassion — these six are called \"bhaga\".",
+          "translationSource": "ai"
         },
         {
           "number": 12,
           "sanskrit": "वसन्ति विष्णौ भुतानि स च धातुस्त्रिधात्मकः । एवं हरौ हि भगवान् शब्दो ऽन्यत्रोपचारतः",
           "transliteration": "vasanti viṣṇau bhutāni sa ca dhātustridhātmakaḥ / evaṃ harau hi bhagavān śabdo 'nyatropacārataḥ",
-          "hindi": "अनुष्ठान करे। अब मैं 'अमृतमयी धारणा' बतला"
+          "hindi": "अनुष्ठान करे। अब मैं 'अमृतमयी धारणा' बतला",
+          "translation": "Beings dwell in Vishnu, and he is the Sustainer of three natures. Thus the word \"Bhagavan\" is used elsewhere only figuratively; it truly belongs to Hari.",
+          "translationSource": "ai"
         },
         {
           "number": 13,
           "sanskrit": "उत्पत्तिं प्रलयश् चैव भूतानामगतिं गतिं । वेत्ति विद्यामविद्याञ्च स वाच्यो भगवानिति",
           "transliteration": "utpattiṃ pralayaś caiva bhūtānāmagatiṃ gatiṃ / vetti vidyāmavidyāñca sa vācyo bhagavāniti",
-          "hindi": "रहा हूँ--मस्तककी नाड़ीके केनद्रस्थानमें पूर्ण चन्द्रमाके समान आकारवाले कमलका ध्यान करे तथा प्रयतलपूर्वक यह भावना करे कि ' आकाशमेँ दस हजार चन्द्रमाके समान प्रकाशमान एक पूर्ण"
+          "hindi": "रहा हूँ--मस्तककी नाड़ीके केनद्रस्थानमें पूर्ण चन्द्रमाके समान आकारवाले कमलका ध्यान करे तथा प्रयतलपूर्वक यह भावना करे कि ' आकाशमेँ दस हजार चन्द्रमाके समान प्रकाशमान एक पूर्ण",
+          "translation": "He who knows the origin and dissolution of beings, their coming and going, knowledge and ignorance, is to be called \"Bhagavan\".",
+          "translationSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "ज्ञानशक्तिः परैश्वर्यं वीर्यं तेजांस्यशेषतः । भगवच्छब्दवाच्यानि विना हेयैर् गुणादिभिः",
           "transliteration": "jñānaśaktiḥ paraiśvaryaṃ vīryaṃ tejāṃsyaśeṣataḥ / bhagavacchabdavācyāni vinā heyair guṇādibhiḥ",
-          "hindi": "चन्द्रमण्डल उदित हुआ है, जो कल्याणमय कल्लोलोंसे परिपूर्ण है।' ऐसा ही ध्यान अपने हृदय- कमलमें भी करे और उसके मध्यभागमें अपने शरीरको स्थित देखे। धारणा आदिके द्वारा साधकके"
+          "hindi": "चन्द्रमण्डल उदित हुआ है, जो कल्याणमय कल्लोलोंसे परिपूर्ण है।' ऐसा ही ध्यान अपने हृदय- कमलमें भी करे और उसके मध्यभागमें अपने शरीरको स्थित देखे। धारणा आदिके द्वारा साधकके",
+          "translation": "Power of knowledge, supreme lordship, valour and splendour in full, without the faults to be avoided: these are meant by the word Bhagavan.",
+          "translationSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "खाण्डिक्यजनकायाह योगं केशिध्वजः पुरा । अनात्मन्यात्मबुद्धिर्या आत्मस्वमिति या मतिः",
           "transliteration": "khāṇḍikyajanakāyāha yogaṃ keśidhvajaḥ purā / anātmanyātmabuddhiryā ātmasvamiti yā matiḥ",
-          "hindi": "सभी क्लेश दूर हो जाते हैं॥ १६--२२॥ इस प्रकार आदि आग्नेय महापुराणमें 'धारणानिरूपण” नामक तीन सौ पचहत्तरवाँ अध्याय पूरा हुआ"
+          "hindi": "सभी क्लेश दूर हो जाते हैं॥ १६--२२॥ इस प्रकार आदि आग्नेय महापुराणमें 'धारणानिरूपण” नामक तीन सौ पचहत्तरवाँ अध्याय पूरा हुआ",
+          "translation": "Keshidhvaja formerly taught yoga to Khandikya Janaka: the notion of self in what is not the self, and the notion \"this is mine\"...",
+          "translationSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "अविद्याभवम्भूतिर्वीजमेतद्द्विधा स्थिरम् । पञ्चभूतात्मके देहे देही मोहतमाश्रितः",
           "transliteration": "avidyābhavambhūtirvījametaddvidhā sthiram / pañcabhūtātmake dehe dehī mohatamāśritaḥ",
-          "hindi": "अग्निदेव कहते हैं--जो चैतन्यस्वरूपसे युक्त और प्रशान्त समुद्रकी भाँति स्थिर हो, जिसमें आत्माके सिवा अन्य किसी वस्तुको प्रतीति न होती हो, उस ध्यानको “समाधि' कहते हैं। जो"
+          "hindi": "अग्निदेव कहते हैं--जो चैतन्यस्वरूपसे युक्त और प्रशान्त समुद्रकी भाँति स्थिर हो, जिसमें आत्माके सिवा अन्य किसी वस्तुको प्रतीति न होती हो, उस ध्यानको “समाधि' कहते हैं। जो",
+          "translation": "...are the origin of ignorance; this seed is firmly twofold. In the body made of five elements, the embodied one, resting in the darkness of delusion,",
+          "translationSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "अहमेतदितीत्युच्चैः कुरुते कुमतिर्मतिं । इत्थञ्च पुत्रपौत्रेषु तद्देहोत्पातितेषु च",
           "transliteration": "ahametaditītyuccaiḥ kurute kumatirmatiṃ / itthañca putrapautreṣu taddehotpātiteṣu ca",
-          "hindi": "ध्यानके समय अपने चित्तको ध्येयमें लगाकर वायुहीन प्रदेशमें जलती हुई अग्निशिखाकी भाँति अविचल एवं स्थिरभावसे बैठा रहता है, वह योगी समाधिस्थ’ कहा गया है। जो न सुनता है, न सूँघता है, न देखता है, न रसास्वादन करता है, न स्पर्शका अनुभव करता है, न मनमें संकल्प उठने देता है, न अभिमान करता है और न बुद्धिसे दूसरी किसी वस्तुको जानता ही है,"
+          "hindi": "ध्यानके समय अपने चित्तको ध्येयमें लगाकर वायुहीन प्रदेशमें जलती हुई अग्निशिखाकी भाँति अविचल एवं स्थिरभावसे बैठा रहता है, वह योगी समाधिस्थ’ कहा गया है। जो न सुनता है, न सूँघता है, न देखता है, न रसास्वादन करता है, न स्पर्शका अनुभव करता है, न मनमें संकल्प उठने देता है, न अभिमान करता है और न बुद्धिसे दूसरी किसी वस्तुको जानता ही है,",
+          "translation": "loudly makes the judgment \"I am this\" — the dull-witted. Likewise toward sons and grandsons produced by that body,",
+          "translationSource": "ai"
         },
         {
           "number": 18,
           "sanskrit": "करोति पण्डितः साम्यमनात्मनि कलेवरे । सर्वदेहोपकाराय कुरुते कर्म मानवः",
           "transliteration": "karoti paṇḍitaḥ sāmyamanātmani kalevare / sarvadehopakārāya kurute karma mānavaḥ",
-          "hindi": "केवल काष्ठकी भाँति अविचलभावसे ध्यानमें स्थित रहता है, ऐसे ईश्वरचिन्तनपरायण पुरुषको 'समाधिस्थ' कहते हैं। जैसे वायुरहित स्थानमें रखा हुआ दीपक कम्पित नहीं होता, यही उस"
+          "hindi": "केवल काष्ठकी भाँति अविचलभावसे ध्यानमें स्थित रहता है, ऐसे ईश्वरचिन्तनपरायण पुरुषको 'समाधिस्थ' कहते हैं। जैसे वायुरहित स्थानमें रखा हुआ दीपक कम्पित नहीं होता, यही उस",
+          "translation": "the learned one treats the non-self body as equal; a man performs action for the benefit of all bodies.",
+          "translationSource": "ai"
         },
         {
           "number": 19,
           "sanskrit": "देहश्चान्यो यदा पुंसस्तदा बन्धाय तत्परं । निर्वाणमय एवायमात्मा ज्ञानमयो ऽमलः",
           "transliteration": "dehaścānyo yadā puṃsastadā bandhāya tatparaṃ / nirvāṇamaya evāyamātmā jñānamayo 'malaḥ",
-          "hindi": "समाधिस्थ योगीके लिये उपमा मानी गयी है। जो अपने आत्मस्वरूप श्रीविष्णुके ध्यानमें संलग्न रहता है, उसके सामने अनेक दिव्य विघ्न उपस्थित होते हैं। वे सिद्धिकी सूचना देनेवाले हैं। साधक ऊपरसे नीचे गिराया जाता है, उसके कानमें पीड़ा होती है, अनेक प्रकारके धातुओंके"
+          "hindi": "समाधिस्थ योगीके लिये उपमा मानी गयी है। जो अपने आत्मस्वरूप श्रीविष्णुके ध्यानमें संलग्न रहता है, उसके सामने अनेक दिव्य विघ्न उपस्थित होते हैं। वे सिद्धिकी सूचना देनेवाले हैं। साधक ऊपरसे नीचे गिराया जाता है, उसके कानमें पीड़ा होती है, अनेक प्रकारके धातुओंके",
+          "translation": "When the body is different from the Person, then it leads only to bondage. This Self is of the nature of nirvana, of knowledge, stainless.",
+          "translationSource": "ai"
         },
         {
           "number": 20,
           "sanskrit": "दुःखज्ञानमयो ऽधर्मः प्रकृतेः स तु नात्मनः । जलस्य नाग्निना सङ्गः स्थालीसङ्गात्तथापि हि",
           "transliteration": "duḥkhajñānamayo 'dharmaḥ prakṛteḥ sa tu nātmanaḥ / jalasya nāgninā saṅgaḥ sthālīsaṅgāttathāpi hi",
-          "hindi": "दर्शन होते हैं तथा उसे अपने शरीरमें बड़ी वेदनाका अनुभव होता है। देवतालोग उस योगीके पास आकर उससे दिव्य भोग स्वीकार करनेकी प्रार्थना करते हैं, राजा पृथ्वीका राज्य"
+          "hindi": "दर्शन होते हैं तथा उसे अपने शरीरमें बड़ी वेदनाका अनुभव होता है। देवतालोग उस योगीके पास आकर उससे दिव्य भोग स्वीकार करनेकी प्रार्थना करते हैं, राजा पृथ्वीका राज्य",
+          "translation": "The misery, ignorance and unrighteousness belong to Prakriti, not to the Self. Water has contact with fire only through the pot.",
+          "translationSource": "ai"
         },
         {
           "number": 21,
           "sanskrit": "शब्दास्ते कादिका धर्मास्तत् कृता वै महामुने । तथात्मा प्रकृतौ सङ्गादहंमानादिभूषितः",
           "transliteration": "śabdāste kādikā dharmāstat kṛtā vai mahāmune / tathātmā prakṛtau saṅgādahaṃmānādibhūṣitaḥ",
-          "hindi": "देनेकी बात कहते और बड़े-बड़े धनाध्यक्ष धनका लोभ दिखाते हैं। वेद आदि सम्पूर्ण शास्त्र स्वयं ही (बिना पढ़े) उसकी बुद्धिमें स्फुरित हो जाते हैं। उसके द्वारा मनोनुकूल छन्द और सुन्दर है। दिव्य रसायन, दिव्य ओषधियाँ तथा सम्पूर्ण शिल्प और कलाएँ उसे प्राप्त हो जाती हैं। इतना ही नहीं, देवेश्वरोंकी कन्याएँ और प्रतिभा आदि सद्गुण भी उसके पास बिना बुलाये जाते हैं;"
+          "hindi": "देनेकी बात कहते और बड़े-बड़े धनाध्यक्ष धनका लोभ दिखाते हैं। वेद आदि सम्पूर्ण शास्त्र स्वयं ही (बिना पढ़े) उसकी बुद्धिमें स्फुरित हो जाते हैं। उसके द्वारा मनोनुकूल छन्द और सुन्दर है। दिव्य रसायन, दिव्य ओषधियाँ तथा सम्पूर्ण शिल्प और कलाएँ उसे प्राप्त हो जाती हैं। इतना ही नहीं, देवेश्वरोंकी कन्याएँ और प्रतिभा आदि सद्गुण भी उसके पास बिना बुलाये जाते हैं;",
+          "translation": "The sounds \"ka\" and the like are properties made by that, O great sage. So the Self, through contact with Prakriti, is adorned with \"I\" and \"mine\".",
+          "translationSource": "ai"
         },
         {
           "number": 22,
           "sanskrit": "भजते प्राकृतान्धर्मान् अन्यस्तेभ्यो हि सो ऽव्ययः । वन्धाय विषयासङ्गं मनो निर्विषयं धिये",
           "transliteration": "bhajate prākṛtāndharmān anyastebhyo hi so 'vyayaḥ / vandhāya viṣayāsaṅgaṃ mano nirviṣayaṃ dhiye",
-          "hindi": "किंतु जो इन सबको तिनकेके समान निस्सार मानकर त्याग देता है, उसीपर भगवान् विष्णु प्रसन्न होते हैं"
+          "hindi": "किंतु जो इन सबको तिनकेके समान निस्सार मानकर त्याग देता है, उसीपर भगवान् विष्णु प्रसन्न होते हैं",
+          "translation": "It takes on Prakriti's properties, yet it is other than them, imperishable. For bondage there is attachment to objects; for knowledge, a mind without objects.",
+          "translationSource": "ai"
         },
         {
           "number": 23,
           "sanskrit": "विषयात्तत्समाकृष्य ब्रह्मभूतं हरिं स्मरेत् । आत्मभावं नयत्येनं तद्ब्रह्मध्यायिनं मुने",
           "transliteration": "viṣayāttatsamākṛṣya brahmabhūtaṃ hariṃ smaret / ātmabhāvaṃ nayatyenaṃ tadbrahmadhyāyinaṃ mune",
-          "hindi": "अणिमा आदि गुणमयी विभूतियोंसे युक्त योगी पुरुषको उचित है कि वह शिष्यको ज्ञान दे। इच्छानुसार भोगोंका उपभोग करके लययोगकी रीतिसे शरीरका परित्याग करे और विज्ञानानन्दमय ब्रह्म एवं ईश्वररूप अपने आत्मामें स्थित हो जाय। जैसे मलिन दर्पण शरीरका प्रतिबिम्ब"
+          "hindi": "अणिमा आदि गुणमयी विभूतियोंसे युक्त योगी पुरुषको उचित है कि वह शिष्यको ज्ञान दे। इच्छानुसार भोगोंका उपभोग करके लययोगकी रीतिसे शरीरका परित्याग करे और विज्ञानानन्दमय ब्रह्म एवं ईश्वररूप अपने आत्मामें स्थित हो जाय। जैसे मलिन दर्पण शरीरका प्रतिबिम्ब",
+          "translation": "Drawing the mind away from objects, one should remember Hari, who is Brahman. He leads the one who meditates on Brahman to the state of the Self, O sage.",
+          "translationSource": "ai"
         },
         {
           "number": 24,
           "sanskrit": "विचार्य स्वात्मनः शक्त्या लौहमाकर्षको यथा । आत्मप्रयत्नसापेक्षा विशिष्टा या मनोगतिः",
           "transliteration": "vicārya svātmanaḥ śaktyā lauhamākarṣako yathā / ātmaprayatnasāpekṣā viśiṣṭā yā manogatiḥ",
-          "hindi": "क्त्््िजजखखखखखखलचलहखछक्‍हअ:अफअफअफ:फ:प।\"भ:।+भ++++क्‍-+-++०७+-.+-......---++++3००++..२.२२ल३:22:0-\"- ००-०० NDT नाना नारा वा व व की अजय"
+          "hindi": "क्त्््िजजखखखखखखलचलहखछक्‍हअ:अफअफअफ:फ:प।\"भ:।+भ++++क्‍-+-++०७+-.+-......---++++3००++..२.२२ल३:22:0-\"- ००-०० NDT नाना नारा वा व व की अजय",
+          "translation": "By one's own power, as a magnet draws iron: the mind's movement, dependent on one's effort, is distinguished.",
+          "translationSource": "ai"
         },
         {
           "number": 25,
           "sanskrit": "तस्या ब्रह्मणि संयोगो योग इत्य् अभिधीयते । विनिष्पन्दः समाधिस्थः परं ब्रह्माधिगच्छति",
           "transliteration": "tasyā brahmaṇi saṃyogo yoga ity abhidhīyate / viniṣpandaḥ samādhisthaḥ paraṃ brahmādhigacchati",
-          "hindi": "ग्रहण करनेमें असमर्थ होनेके कारण शरीरका ज्ञान करानेकी क्षमता नहीं रखता, उसी प्रकार जिसका अन्तःकरण परिपक्क (वासनाशून्य) नहीं है, वह आत्मज्ञान प्राप्त करनेमें असमर्थ है। देह सब प्रकारके रोगों और दुःखोंका आश्रय है; इसलिये देहाभिमानी जीव अपने शरीरमें वेदनाका अनुभव करता है। परंतु जो पुरुष योगयुक्त है, उसे योगके ही प्रभावसे किसी भी क्लेशका"
+          "hindi": "ग्रहण करनेमें असमर्थ होनेके कारण शरीरका ज्ञान करानेकी क्षमता नहीं रखता, उसी प्रकार जिसका अन्तःकरण परिपक्क (वासनाशून्य) नहीं है, वह आत्मज्ञान प्राप्त करनेमें असमर्थ है। देह सब प्रकारके रोगों और दुःखोंका आश्रय है; इसलिये देहाभिमानी जीव अपने शरीरमें वेदनाका अनुभव करता है। परंतु जो पुरुष योगयुक्त है, उसे योगके ही प्रभावसे किसी भी क्लेशका",
+          "translation": "Its union with Brahman is called yoga. Motionless and established in samadhi, one reaches the Supreme Brahman.",
+          "translationSource": "ai"
         },
         {
           "number": 26,
           "sanskrit": "यमैः सन्नियमैः स्थित्या प्रत्याहृत्या मरुज्जयैः । प्राणायामेन पवनैः प्रत्याहारेण चेन्द्रियैः",
           "transliteration": "yamaiḥ sanniyamaiḥ sthityā pratyāhṛtyā marujjayaiḥ / prāṇāyāmena pavanaiḥ pratyāhāreṇa cendriyaiḥ",
-          "hindi": "अनुभव नहीं होता। जैसे एक ही आकाश घट आदि भिन्न-भिन्न उपाधियोंमें पृथक्-पृथक्-सा प्रतीत होता है और एक ही सूर्य अनेक जलपात्रोंमें अनेक-सा जान पड़ता है, उसी प्रकार"
+          "hindi": "अनुभव नहीं होता। जैसे एक ही आकाश घट आदि भिन्न-भिन्न उपाधियोंमें पृथक्-पृथक्-सा प्रतीत होता है और एक ही सूर्य अनेक जलपात्रोंमें अनेक-सा जान पड़ता है, उसी प्रकार",
+          "translation": "By yamas and niyamas, posture, withdrawal, conquest of the winds, by pranayama and control of breath, and by withdrawal of the senses...",
+          "translationSource": "ai"
         },
         {
           "number": 27,
           "sanskrit": "वशीकृतैस्ततः कुर्यात् स्थितं चेतः शुभाश्रये । आश्रयश्चेतसो ब्रह्म मूर्तञ्चामूर्तकं द्विधा",
           "transliteration": "vaśīkṛtaistataḥ kuryāt sthitaṃ cetaḥ śubhāśraye / āśrayaścetaso brahma mūrtañcāmūrtakaṃ dvidhā",
-          "hindi": "आत्मा एक होता हुआ भी अनेक शरीरोंमें स्थित होनेके कारण अनेकवत् प्रतीत होता है। आकाश, ब्रह्मके ही स्वरूप हैं। ये सम्पूर्ण लोक आत्मा ही है; आत्मासे ही चराचर जगत्की अभिव्यक्ति होती है। जैसे कुम्हार मिट्टी, डंडा और चाकके संयोगसे घड़ा बनाता है, अथवा जिस प्रकार घर"
+          "hindi": "आत्मा एक होता हुआ भी अनेक शरीरोंमें स्थित होनेके कारण अनेकवत् प्रतीत होता है। आकाश, ब्रह्मके ही स्वरूप हैं। ये सम्पूर्ण लोक आत्मा ही है; आत्मासे ही चराचर जगत्की अभिव्यक्ति होती है। जैसे कुम्हार मिट्टी, डंडा और चाकके संयोगसे घड़ा बनाता है, अथवा जिस प्रकार घर",
+          "translation": "...having subdued them, one should then fix the mind on an auspicious support. The support of the mind is Brahman, twofold: with form and without form.",
+          "translationSource": "ai"
         },
         {
           "number": 28,
           "sanskrit": "सनन्दनादयो ब्रह्मभावभावनया युताः । कर्मभावनया चान्ये देवाद्याः स्थावरान्तकाः",
           "transliteration": "sanandanādayo brahmabhāvabhāvanayā yutāḥ / karmabhāvanayā cānye devādyāḥ sthāvarāntakāḥ",
-          "hindi": "बनानेवाला मनुष्य तृण, मिट्टी और काठसे घर तैयार करता है, उसी प्रकार जीवात्मा इन्द्रियोंको साथ ले, कार्य-करण-संघातको एकचित्त करके भिन्न-भिन्न योनियोंमें अपनेको उत्पन्न करता है।"
+          "hindi": "बनानेवाला मनुष्य तृण, मिट्टी और काठसे घर तैयार करता है, उसी प्रकार जीवात्मा इन्द्रियोंको साथ ले, कार्य-करण-संघातको एकचित्त करके भिन्न-भिन्न योनियोंमें अपनेको उत्पन्न करता है।",
+          "translation": "Sanandana and others are joined with meditation on the nature of Brahman; others, gods and so on down to the immovable, with meditation on action.",
+          "translationSource": "ai"
         },
         {
           "number": 29,
           "sanskrit": "हिरण्यगर्भादिषु च ज्ञानकर्मात्मिका द्विधा । त्रिविधा भावना प्रोक्ता विश्वं ब्रह्म उपास्यते",
           "transliteration": "hiraṇyagarbhādiṣu ca jñānakarmātmikā dvidhā / trividhā bhāvanā proktā viśvaṃ brahma upāsyate",
-          "hindi": "कर्मसे, दोष और मोहसे तथा स्वेच्छासे ही जीव बन्धनमें पड़ता है और ज्ञानसे ही उसकी मुक्ति होती है। योगी पुरुष धर्मानुष्ठान करनेसे कभी रोगका भागी नहीं होता। जैसे बत्ती, तैलपात्र और तैल-इन तीनोंके संयोगसे ही दीपककी स्थिति है-इनमेंसे एकके अभावमें भी दीपक रह नहीं सकता, उसी प्रकार योग और धर्मके बिना विकार (रोग)-की प्राप्ति देखी जाती है"
+          "hindi": "कर्मसे, दोष और मोहसे तथा स्वेच्छासे ही जीव बन्धनमें पड़ता है और ज्ञानसे ही उसकी मुक्ति होती है। योगी पुरुष धर्मानुष्ठान करनेसे कभी रोगका भागी नहीं होता। जैसे बत्ती, तैलपात्र और तैल-इन तीनोंके संयोगसे ही दीपककी स्थिति है-इनमेंसे एकके अभावमें भी दीपक रह नहीं सकता, उसी प्रकार योग और धर्मके बिना विकार (रोग)-की प्राप्ति देखी जाती है",
+          "translation": "In Hiranyagarbha and others it is twofold, of knowledge and of action; meditation is declared threefold; the universe is worshipped as Brahman.",
+          "translationSource": "ai"
         },
         {
           "number": 30,
           "sanskrit": "प्रत्यस्तमितभेदं यत् सत्तामात्रमगोचरं । वचसामात्मसंवेद्यं तज्ज्ञानं ब्रह्म संज्ञितम्",
           "transliteration": "pratyastamitabhedaṃ yat sattāmātramagocaraṃ / vacasāmātmasaṃvedyaṃ tajjñānaṃ brahma saṃjñitam",
-          "hindi": "जाता है॥ ११-१९ ३॥"
+          "hindi": "जाता है॥ ११-१९ ३॥",
+          "translation": "That in which all difference has set, mere being, beyond the reach of speech, known to the Self — that knowledge is called Brahman.",
+          "translationSource": "ai"
         },
         {
           "number": 31,
           "sanskrit": "तच्च विष्णोः परं रूपमरूपस्याजमक्षरं । अशक्यं प्रथमं ध्यातुमतो मूर्तादि चिन्तयेत्",
           "transliteration": "tacca viṣṇoḥ paraṃ rūpamarūpasyājamakṣaraṃ / aśakyaṃ prathamaṃ dhyātumato mūrtādi cintayet",
-          "hindi": "हमारे हृदयके भीतर जो दीपककी भाँति प्रकाशमान आत्मा है, उसकी अनन्त किरणें फैली हुई हैं, जो श्वेत, कृष्ण, पिङ्गल, नील, कपिल, पीत और रक्त वर्णकी हैं। उनमेंसे एक किरण ऐसी है, जो सूर्यमण्डलको भेदकर सीधे ऊपरको चली गयी है और ब्रह्मलोकको भी लाँघ गयी है; उसीके मार्गे योगी पुरुष परमगतिको प्राप्त होता है। उसके सिवा और भी सैकड़ों"
+          "hindi": "हमारे हृदयके भीतर जो दीपककी भाँति प्रकाशमान आत्मा है, उसकी अनन्त किरणें फैली हुई हैं, जो श्वेत, कृष्ण, पिङ्गल, नील, कपिल, पीत और रक्त वर्णकी हैं। उनमेंसे एक किरण ऐसी है, जो सूर्यमण्डलको भेदकर सीधे ऊपरको चली गयी है और ब्रह्मलोकको भी लाँघ गयी है; उसीके मार्गे योगी पुरुष परमगतिको प्राप्त होता है। उसके सिवा और भी सैकड़ों",
+          "translation": "That is Vishnu's supreme form, formless, unborn, imperishable; since it is hard to meditate on first, one should contemplate the form-bearing aspects.",
+          "translationSource": "ai"
         },
         {
           "number": 32,
           "sanskrit": "सद्भावभावमापन्नस्ततो ऽसौ परमात्मना । भवत्यभेदी भेदश् च तस्याज्ञानकृतो भवेत्",
           "transliteration": "sadbhāvabhāvamāpannastato 'sau paramātmanā / bhavatyabhedī bhedaś ca tasyājñānakṛto bhavet",
-          "hindi": "किरणें ऊपरको ओर स्थित हैं। उनके द्वारा मनुष्य भिन्न-भिन्न देवताओंके निवासभूत लोकोंमें जाता है। जो एक ही रंगकी बहुत-सी किरणें नीचेकी ओर स्थित हैं, उनकी कान्ति बड़ी कोमल है।"
+          "hindi": "किरणें ऊपरको ओर स्थित हैं। उनके द्वारा मनुष्य भिन्न-भिन्न देवताओंके निवासभूत लोकोंमें जाता है। जो एक ही रंगकी बहुत-सी किरणें नीचेकी ओर स्थित हैं, उनकी कान्ति बड़ी कोमल है।",
+          "translation": "Having attained the state of true being, he then becomes non-different from the Supreme Self; difference is created by ignorance.",
+          "translationSource": "ai"
         }
       ]
     },
