@@ -7132,451 +7132,601 @@
           "number": 20,
           "sanskrit": "दण्ड्यास्तत्पुत्रमित्राणि प्रत्येकं पाणिकं दमम् । प्रायश्चित्तं ततः कुर्युर्यथाशास्त्रप्रचोदितम्",
           "transliteration": "daṇḍyāstatputramitrāṇi pratyekaṃ pāṇikaṃ damam / prāyaścittaṃ tataḥ kuryuryathāśāstrapracoditam",
-          "hindi": "भगवान् शिव अथवा विष्णुको घीका दीपक देता है, वह सब पापोंसे मुक्त हो गड़ा-स्नानका फल"
+          "hindi": "भगवान् शिव अथवा विष्णुको घीका दीपक देता है, वह सब पापोंसे मुक्त हो गड़ा-स्नानका फल",
+          "translation": "His sons and friends are to be fined a pana each; then they should perform the expiation prescribed by the scriptures.",
+          "translationSource": "ai"
         },
         {
           "number": 21,
           "sanskrit": "जलाग्न्युद्वन्धनभ्रष्टाः प्रव्रज्यानाशकच्युताः । विषप्रपतनध्वस्ताः शस्त्रघातहताश्च ये",
           "transliteration": "jalāgnyudvandhanabhraṣṭāḥ pravrajyānāśakacyutāḥ / viṣaprapatanadhvastāḥ śastraghātahatāśca ye",
-          "hindi": "जो-जो अभीष्ट वस्तुएँ हैं, वह सब ब्राह्मणको दान कर दे-ऐसा मनुष्य पुनर्जन्मसे रहित भगवान् विष्णुके धाममें जाता है। अन्न और जलके समान दूसरा कोई दान न हुआ है; न"
+          "hindi": "जो-जो अभीष्ट वस्तुएँ हैं, वह सब ब्राह्मणको दान कर दे-ऐसा मनुष्य पुनर्जन्मसे रहित भगवान् विष्णुके धाममें जाता है। अन्न और जलके समान दूसरा कोई दान न हुआ है; न",
+          "translation": "Those who die by water, fire or hanging, who fall from renunciation or from a fast, who perish by poison or a fall, or are killed by weapons,",
+          "translationSource": "ai"
         },
         {
           "number": 22,
           "sanskrit": "न चैते प्रव्रत्यवसिताः सर्वलोकबहिष्कृताः । चान्द्रायणेन शुद्ध्यंन्ति तत्पकृच्छ्रद्वयेन वा",
           "transliteration": "na caite pravratyavasitāḥ sarvalokabahiṣkṛtāḥ / cāndrāyaṇena śuddhyaṃnti tatpakṛcchradvayena vā",
-          "hindi": "होगा। अन्नदान करनेवाला प्राणदाता कहा गया है और जो प्राणदाता है, वह सब कुछ देनेवाला है। नृपश्रेष्ठ इसलिये अन्नदान करनेवालेको सम्पूर्ण दानोंका फल मिलता है। जलदान तत्काल संतुष्ट"
+          "hindi": "होगा। अन्नदान करनेवाला प्राणदाता कहा गया है और जो प्राणदाता है, वह सब कुछ देनेवाला है। नृपश्रेष्ठ इसलिये अन्नदान करनेवालेको सम्पूर्ण दानोंका फल मिलता है। जलदान तत्काल संतुष्ट",
+          "translation": "and who are not settled in renunciation and are cast out by all the world, are purified by the Chandrayana, or by two Taptakrichchhra penances.",
+          "translationSource": "ai"
         },
         {
           "number": 23,
           "sanskrit": "उभयावसितः पापश्यामच्छबलकाच्च्युतः । चान्द्रायणाभ्यां शुद्ध्येत दत्त्वा धेनुं तथा वृषम्",
           "transliteration": "ubhayāvasitaḥ pāpaśyāmacchabalakāccyutaḥ / cāndrāyaṇābhyāṃ śuddhyeta dattvā dhenuṃ tathā vṛṣam",
-          "hindi": "करनेवाला माना गया है। नृपश्रेष्ठ! इसलिये ब्रह्मवादी मनुष्योंने जलदानको अन्नदानसे श्रेष्ठ बताया है। महापातक अथवा उपपातकोंसे युक्त मनुष्य भी यदि जलदान करनेवाला है तो वह उन"
+          "hindi": "करनेवाला माना गया है। नृपश्रेष्ठ! इसलिये ब्रह्मवादी मनुष्योंने जलदानको अन्नदानसे श्रेष्ठ बताया है। महापातक अथवा उपपातकोंसे युक्त मनुष्य भी यदि जलदान करनेवाला है तो वह उन",
+          "translation": "One who has fallen from both (states), a sinner fallen from the black-and-spotted vow, is purified by two Chandrayanas and by giving a cow and a bull.",
+          "translationSource": "ai"
         },
         {
           "number": 24,
           "sanskrit": "स्वशृगालप्लवङ्गाद्यैर्मानुषैश्च रतिं विना । स्पृष्टः स्त्रात्वा शुचिः सद्यो दिवा संध्यासु रात्रिषु",
           "transliteration": "svaśṛgālaplavaṅgādyairmānuṣaiśca ratiṃ vinā / spṛṣṭaḥ strātvā śuciḥ sadyo divā saṃdhyāsu rātriṣu",
-          "hindi": "सब पापोंसे मुक्त हो जाता है, यह ब्रह्माजीका कथन है। शरीरको अन्नसे उत्पन्न कहा गया है। प्राणांको भी अन्नजनित ही मानते हैं; अतः पृथ्वीपते ! जो अन्नदान देनेवाला है, उसे प्राणदाता"
+          "hindi": "सब पापोंसे मुक्त हो जाता है, यह ब्रह्माजीका कथन है। शरीरको अन्नसे उत्पन्न कहा गया है। प्राणांको भी अन्नजनित ही मानते हैं; अतः पृथ्वीपते ! जो अन्नदान देनेवाला है, उसे प्राणदाता",
+          "translation": "One touched by dogs, jackals, monkeys and the like, or by people (impure), without sexual contact, is purified at once by bathing, by day, at the twilights, or at night.",
+          "translationSource": "ai"
         },
         {
           "number": 25,
           "sanskrit": "अज्ञानाद्वा तु यो भुक्त्वा चाण्डालान्नं कथञ्चन । गोमूत्रयावकाहारो मासार्द्धेन विशुद्ध्यति",
           "transliteration": "ajñānādvā tu yo bhuktvā cāṇḍālānnaṃ kathañcana / gomūtrayāvakāhāro māsārddhena viśuddhyati",
-          "hindi": "समझना चाहिए; क्योंकि जो-जो तृप्तिकारक दान है, वह समस्त मनोवाउ्छित फलोंको देनेवाला है; अत: भूपाल! इस पृथ्वीपर अन्नदानके समान दूसरा कोई दान नहीं है। जो दरिद्र अथवा रोगी"
+          "hindi": "समझना चाहिए; क्योंकि जो-जो तृप्तिकारक दान है, वह समस्त मनोवाउ्छित फलोंको देनेवाला है; अत: भूपाल! इस पृथ्वीपर अन्नदानके समान दूसरा कोई दान नहीं है। जो दरिद्र अथवा रोगी",
+          "translation": "One who unknowingly eats a Chandala's food in any way is purified in half a month, living on cow's urine and barley gruel.",
+          "translationSource": "ai"
         },
         {
           "number": 26,
           "sanskrit": "गोब्राह्मणगृहं दग्ध्वा मृतं चोद्वन्धनादिना । पाशं छित्वा तथा तस्य कृच्छ्रमेकं चरेद्दिजः",
           "transliteration": "gobrāhmaṇagṛhaṃ dagdhvā mṛtaṃ codvandhanādinā / pāśaṃ chitvā tathā tasya kṛcchramekaṃ careddijaḥ",
-          "hindi": "मनुष्यकी रक्षा करता है, उसपर प्रसन्न होकर भगवान् विष्णु उसकी सम्पूर्ण कामनाओंको पूर्ण कर देते हैं। जो मन, वाणी और क्रियाद्वारा"
+          "hindi": "मनुष्यकी रक्षा करता है, उसपर प्रसन्न होकर भगवान् विष्णु उसकी सम्पूर्ण कामनाओंको पूर्ण कर देते हैं। जो मन, वाणी और क्रियाद्वारा",
+          "translation": "One who burns the house of a cow or Brahmin, or causes death by hanging and the like, or cuts a noose — the twice-born should perform one Krichchhra penance.",
+          "translationSource": "ai"
         },
         {
           "number": 27,
           "sanskrit": "चाण्डालपुल्पसानां च भुक्त्वा हत्वा च योषितम् । कृच्छ्रार्ध्दमाचरेज्ज्ञानादज्ञानादैन्दवद्वयम्",
           "transliteration": "cāṇḍālapulpasānāṃ ca bhuktvā hatvā ca yoṣitam / kṛcchrārdhdamācarejjñānādajñānādaindavadvayam",
-          "hindi": "रोगीकी रक्षा करता है, वह सब पापोंसे छूटकर सम्पूर्ण कामनाओंको प्राप्त कर लेता है। महीपाल ! जो ब्राह्मणको निवास-स्थान देता है, उसपर प्रसन्न हो देवेश्वर भगवान् विष्णु उसे अपना लोक"
+          "hindi": "रोगीकी रक्षा करता है, वह सब पापोंसे छूटकर सम्पूर्ण कामनाओंको प्राप्त कर लेता है। महीपाल ! जो ब्राह्मणको निवास-स्थान देता है, उसपर प्रसन्न हो देवेश्वर भगवान् विष्णु उसे अपना लोक",
+          "translation": "One who eats food of Chandalas and Pulkasas, or kills a woman, should perform half a Krichchhra, knowingly; unknowingly, two Chandrayanas.",
+          "translationSource": "ai"
         },
         {
           "number": 28,
           "sanskrit": "कोपालिकान्नभोक्तृआणां तन्नारीगामिनां तथा । अगम्यागमने विप्रो मद्यगो मांसभक्षणे",
           "transliteration": "kopālikānnabhoktṛāṇāṃ tannārīgāmināṃ tathā / agamyāgamane vipro madyago māṃsabhakṣaṇe",
-          "hindi": "देते हैं। जो त्रह्मवेत्ता ब्राह्मणको दूध देनेवाली गाय दान करता है, वह ब्रह्मलोकमें जाता है तथा जो वेदवेत्ता ब्राह्मणको कपिला गाय दान देता है, वह सब पापोंसे मुक्त हो रुद्रस्वरूप हो जाता है। जो"
+          "hindi": "देते हैं। जो त्रह्मवेत्ता ब्राह्मणको दूध देनेवाली गाय दान करता है, वह ब्रह्मलोकमें जाता है तथा जो वेदवेत्ता ब्राह्मणको कपिला गाय दान देता है, वह सब पापोंसे मुक्त हो रुद्रस्वरूप हो जाता है। जो",
+          "translation": "Those who eat the food of Kapalikas, go to their women, or have forbidden intercourse, a Brahmin who drinks liquor or eats meat,",
+          "translationSource": "ai"
         },
         {
           "number": 29,
           "sanskrit": "तत्पकृच्छ्रपरिक्षित्पो मौर्वीहोमेन शुद्ध्यति । महापातककर्त्तारश्चत्वारो ऽथ विशेषतः",
           "transliteration": "tatpakṛcchraparikṣitpo maurvīhomena śuddhyati / mahāpātakakarttāraścatvāro 'tha viśeṣataḥ",
-          "hindi": "भयसे व्याकुलचित्तवाले पुरुषोंको अभय दान देता है, राजन्! उसके पुण्यफलका यथार्थ वर्णन करता हूँ, सुनो; एक ओर तो पूर्णरूपसे उत्तम दक्षिणा देकर सम्पन्न किये हुए सभी यज्ञ हैं और"
+          "hindi": "भयसे व्याकुलचित्तवाले पुरुषोंको अभय दान देता है, राजन्! उसके पुण्यफलका यथार्थ वर्णन करता हूँ, सुनो; एक ओर तो पूर्णरूपसे उत्तम दक्षिणा देकर सम्पन्न किये हुए सभी यज्ञ हैं और",
+          "translation": "after the Taptakrichchhra is purified by the Maurvi oblation. Especially the four who commit great sins",
+          "translationSource": "ai"
         },
         {
           "number": 30,
           "sanskrit": "अग्निं प्रविश्य शुद्ध्यन्तिस्थित्वावा महति क्रतौ । रहस्यकरणो ऽप्येवं मासमभ्यस्य पुरुषः",
           "transliteration": "agniṃ praviśya śuddhyantisthitvāvā mahati kratau / rahasyakaraṇo 'pyevaṃ māsamabhyasya puruṣaḥ",
-          "hindi": "दूसरी ओर भयभीत मनुष्यकी प्राणरक्षा है (ये दोनों समान हैं)। महीपाल! जो भयविहल ब्राह्मणकी रक्षा करता है, वह सम्पूर्ण तीर्थोमें स्नान कर चुका और सम्पूर्ण यज्ञोंकी दीक्षा ले"
+          "hindi": "दूसरी ओर भयभीत मनुष्यकी प्राणरक्षा है (ये दोनों समान हैं)। महीपाल! जो भयविहल ब्राह्मणकी रक्षा करता है, वह सम्पूर्ण तीर्थोमें स्नान कर चुका और सम्पूर्ण यज्ञोंकी दीक्षा ले",
+          "translation": "are purified by entering fire, or by standing in a great sacrifice. One who has done a secret sin is likewise (purified) by practice for a month,",
+          "translationSource": "ai"
         },
         {
           "number": 31,
           "sanskrit": "अघमर्षणसूक्तं वा शुद्ध्येदन्तर्जले जपन् । रजकश्चर्मकारश्च नटो बुरुड एव च",
           "transliteration": "aghamarṣaṇasūktaṃ vā śuddhyedantarjale japan / rajakaścarmakāraśca naṭo buruḍa eva ca",
-          "hindi": "चुका। वस्त्रदान करनेवाला रुद्रलोकमें और कन्यादाता ब्रह्मलोकमें जाता है।"
+          "hindi": "चुका। वस्त्रदान करनेवाला रुद्रलोकमें और कन्यादाता ब्रह्मलोकमें जाता है।",
+          "translation": "or by reciting the Aghamarshana hymn while standing in water. Washermen, leather-workers, actors, basket-weavers,",
+          "translationSource": "ai"
         },
         {
           "number": 32,
           "sanskrit": "कैवर्त्तमेदभिल्लाश्व सत्पैते ह्यन्त्यजाः स्मृताः । भुक्त्वा चैषां स्त्रियो गत्वा पीत्वा यःप्रतिगृह्यते",
           "transliteration": "kaivarttamedabhillāśva satpaite hyantyajāḥ smṛtāḥ / bhuktvā caiṣāṃ striyo gatvā pītvā yaḥpratigṛhyate",
-          "hindi": "भूपते! कार्तिक अथवा आषाढ़की पूर्णिमाको जो मानव भगवान् शिवकी प्रसन्नताके लिये वृषोत्सर्ग कर्म करता है, उसका फल सुनो--वह सात जन्मोंके पापोंसे मुक्त हो रुद्रका स्वरूप प्राप्त कर लेता है।"
+          "hindi": "भूपते! कार्तिक अथवा आषाढ़की पूर्णिमाको जो मानव भगवान् शिवकी प्रसन्नताके लिये वृषोत्सर्ग कर्म करता है, उसका फल सुनो--वह सात जन्मोंके पापोंसे मुक्त हो रुद्रका स्वरूप प्राप्त कर लेता है।",
+          "translation": "fishermen, Medas and Bhillas — these seven are remembered as the lowest-born. One who eats their food, goes to their women, drinks, or accepts a gift from them",
+          "translationSource": "ai"
         },
         {
           "number": 33,
           "sanskrit": "कृच्छ्रार्द्धमाचरेज्ज्ञानादैन्दवद्वयम् । मातरं गुरुपत्नीं च दुहितृभगिनीस्नुषाः",
           "transliteration": "kṛcchrārddhamācarejjñānādaindavadvayam / mātaraṃ gurupatnīṃ ca duhitṛbhaginīsnuṣāḥ",
-          "hindi": "नृपश्रेष्ठट! जो भेंसेको शिवलिड्रसे चिहित करके छोड़ता है, उसे कभी यमयातना (नरक) नहीं प्राप्त होती है। नृपसत्तम ! जो शक्तिके अनुसार ताम्बूल दान करता है, उसपर प्रसन्न हो भगवान् विष्णु"
+          "hindi": "नृपश्रेष्ठट! जो भेंसेको शिवलिड्रसे चिहित करके छोड़ता है, उसे कभी यमयातना (नरक) नहीं प्राप्त होती है। नृपसत्तम ! जो शक्तिके अनुसार ताम्बूल दान करता है, उसपर प्रसन्न हो भगवान् विष्णु",
+          "translation": "should do half a Krichchhra knowingly, and two Chandrayanas unknowingly. One who has intercourse with his mother, his teacher's wife, daughter, sister or daughter-in-law",
+          "translationSource": "ai"
         },
         {
           "number": 34,
           "sanskrit": "संगम्य प्रविशेदग्निं नान्याशुद्धिर्विधीयते । राज्ञीं प्रव्रजितां धात्रीं तथावर्णोत्तमामपि",
           "transliteration": "saṃgamya praviśedagniṃ nānyāśuddhirvidhīyate / rājñīṃ pravrajitāṃ dhātrīṃ tathāvarṇottamāmapi",
-          "hindi": "उसे आयु, यश तथा लक्ष्मी प्रदान करते हैं। दूध, दही, घी और मधुका दान करनेवाला मनुष्य दस हजार दिव्य वर्षोतक स्वर्गलोकमें प्रतिष्ठित होता है। नृपोत्तम ! ईख दान करनेवाला मनुष्य ब्रह्मलोकमें"
+          "hindi": "उसे आयु, यश तथा लक्ष्मी प्रदान करते हैं। दूध, दही, घी और मधुका दान करनेवाला मनुष्य दस हजार दिव्य वर्षोतक स्वर्गलोकमें प्रतिष्ठित होता है। नृपोत्तम ! ईख दान करनेवाला मनुष्य ब्रह्मलोकमें",
+          "translation": "should enter fire; no other purification is prescribed. One who has gone to a queen, a female ascetic, a nurse, or a woman of higher class",
+          "translationSource": "ai"
         },
         {
           "number": 35,
           "sanskrit": "गत्वाकृच्छ्रद्वयं कुर्यात्सगोत्रामभिगम्य च । अमूषु पितृगोत्रासु मातृगोत्रगतासु च",
           "transliteration": "gatvākṛcchradvayaṃ kuryātsagotrāmabhigamya ca / amūṣu pitṛgotrāsu mātṛgotragatāsu ca",
-          "hindi": "जाता है। गन्ध एवं पवित्र फल देनेवाला पुरुष भी ब्रह्मधाममें जाता है। गुड़ और ईखका रस देनेवाला मनुष्य क्षीरसागरको प्राप्त होता है। विद्यादान करनेसे मनुष्यको भगवान् विष्णुका सायुज्य प्राप्त होता है।"
+          "hindi": "जाता है। गन्ध एवं पवित्र फल देनेवाला पुरुष भी ब्रह्मधाममें जाता है। गुड़ और ईखका रस देनेवाला मनुष्य क्षीरसागरको प्राप्त होता है। विद्यादान करनेसे मनुष्यको भगवान् विष्णुका सायुज्य प्राप्त होता है।",
+          "translation": "should do two Krichchhras; and the same for a woman of the same gotra. With these, women of the father's gotra and the mother's gotra,",
+          "translationSource": "ai"
         },
         {
           "number": 36,
           "sanskrit": "पददारेषु सर्वेषु कृच्छ्रार्द्धं तपनं चरेत् । वेश्याभिगमने पापं व्यपोहन्ति द्विजा स्तथा",
           "transliteration": "padadāreṣu sarveṣu kṛcchrārddhaṃ tapanaṃ caret / veśyābhigamane pāpaṃ vyapohanti dvijā stathā",
-          "hindi": "विद्यादान, भूमिदान और गोदान--ये उत्तम-से- उत्तम तीन दान क्रमश: जप, जोतने-बोनेकी सुविधा और दूध दुहनेके कारण नरकसे उद्धार करनेवाले"
+          "hindi": "विद्यादान, भूमिदान और गोदान--ये उत्तम-से- उत्तम तीन दान क्रमश: जप, जोतने-बोनेकी सुविधा और दूध दुहनेके कारण नरकसे उद्धार करनेवाले",
+          "translation": "and with all women of one's family, a half-Krichchhra penance is to be done. For going to a prostitute, Brahmins remove the sin",
+          "translationSource": "ai"
         },
         {
           "number": 37,
           "sanskrit": "पीत्वा सकृत्सुतत्पं च पञ्चरात्रं कुशोदकम् । गुरुतल्पगतो कुर्यार्द्बाह्मणो विधिवद्रूतम्",
           "transliteration": "pītvā sakṛtsutatpaṃ ca pañcarātraṃ kuśodakam / gurutalpagato kuryārdbāhmaṇo vidhivadrūtam",
-          "hindi": "“होते हैं। नृपोत्तम ! सम्पूर्ण दानोंमें विद्यादान श्रेष्ठ"
+          "hindi": "“होते हैं। नृपोत्तम ! सम्पूर्ण दानोंमें विद्यादान श्रेष्ठ",
+          "translation": "by drinking, once, for five nights, kusha water mixed with... The Brahmin who has violated his teacher's bed should do the vow as prescribed.",
+          "translationSource": "ai"
         },
         {
           "number": 38,
           "sanskrit": "गोन्घस्य केचिदिच्छन्ति केचिच्चैवावकीर्णिनः । दण्डादूर्ध्वं प्रहारेण यस्तु गां विनिपातयेत्",
           "transliteration": "gonghasya kecidicchanti keciccaivāvakīrṇinaḥ / daṇḍādūrdhvaṃ prahāreṇa yastu gāṃ vinipātayet",
-          "hindi": "है। विद्यादानसे मनुष्य भगवान् विष्णुका सायुज्य प्रातत कर लेता है। ईंधन दान करनेसे मनुष्यको उपपातकोंसे छुटकारा मिलता है। शालग्राम शिलाका दान महादान बताया गया है। उसका दान करके"
+          "hindi": "है। विद्यादानसे मनुष्य भगवान् विष्णुका सायुज्य प्रातत कर लेता है। ईंधन दान करनेसे मनुष्यको उपपातकोंसे छुटकारा मिलता है। शालग्राम शिलाका दान महादान बताया गया है। उसका दान करके",
+          "translation": "Some desire (a penance) for killing a cow, and others for the \"avakirni\"; one who strikes down a cow with a blow above the staff,",
+          "translationSource": "ai"
         },
         {
           "number": 39,
           "sanskrit": "द्विगुणं गोव्रतं तस्य प्रायश्चितं विशोधयेत् । अङ्गुष्ठमात्रस्थूलस्तु बाहुमात्रघप्रमाणकः",
           "transliteration": "dviguṇaṃ govrataṃ tasya prāyaścitaṃ viśodhayet / aṅguṣṭhamātrasthūlastu bāhumātraghapramāṇakaḥ",
-          "hindi": "मनुष्य मोक्ष प्राप्त करता है। शिवलिजड्ग-दान भी ऐसा ही माना गया है। प्रभो! जो मनुष्य श्रेष्ठ पुरुषोंको घर दान देता है, राजन्! उसे गड्जास्लानका फल अवश्य प्राप्त होता है।"
+          "hindi": "मनुष्य मोक्ष प्राप्त करता है। शिवलिजड्ग-दान भी ऐसा ही माना गया है। प्रभो! जो मनुष्य श्रेष्ठ पुरुषोंको घर दान देता है, राजन्! उसे गड्जास्लानका फल अवश्य प्राप्त होता है।",
+          "translation": "his penance is the cow-vow doubled. The staff for cows is declared thumb-thick, arm-long,",
+          "translationSource": "ai"
         },
         {
           "number": 40,
           "sanskrit": "सार्द्रकःसपालाश्च गोदण्डः परिकीर्त्तितः । गवां निपातने चैव गर्भो ऽपि संभवेद्यदि",
           "transliteration": "sārdrakaḥsapālāśca godaṇḍaḥ parikīrttitaḥ / gavāṃ nipātane caiva garbho 'pi saṃbhavedyadi",
-          "hindi": "नृपश्रेष्ठ । जो रत्रयुक्त सुवर्णका दान करता है, वह भोग और मोक्ष-दोनों प्राप्त कर लेता है; क्योंकि स्वर्णदान महादान माना गया है। माणिक्यदान करनेसे मनुष्य परममोक्षको प्राप्त होता है। वज्रमणिके"
+          "hindi": "नृपश्रेष्ठ । जो रत्रयुक्त सुवर्णका दान करता है, वह भोग और मोक्ष-दोनों प्राप्त कर लेता है; क्योंकि स्वर्णदान महादान माना गया है। माणिक्यदान करनेसे मनुष्य परममोक्षको प्राप्त होता है। वज्रमणिके",
+          "translation": "moist and with leaves. And if a cow dies and a calf is in her womb,",
+          "translationSource": "ai"
         },
         {
           "number": 41,
           "sanskrit": "एकैकशश्वरेत्कृच्छ्रं एषा गोन्घस्य निष्कृतिः । बन्धने रोधने चैव पोषणे वा गवां रुजाम्",
           "transliteration": "ekaikaśaśvaretkṛcchraṃ eṣā gonghasya niṣkṛtiḥ / bandhane rodhane caiva poṣaṇe vā gavāṃ rujām",
-          "hindi": "दानसे मानव श्रुवलोकमें जाता है। मूँगा दान करनेसे स्वर्ग एवं रुद्रलोककी प्राप्ति होती है। सवारी देने और मुक्तादान करनेसे दाता चन्द्रलोक प्राप्त करता है। वेदूर्य और पद्मरागमणि देनेवाला"
+          "hindi": "दानसे मानव श्रुवलोकमें जाता है। मूँगा दान करनेसे स्वर्ग एवं रुद्रलोककी प्राप्ति होती है। सवारी देने और मुक्तादान करनेसे दाता चन्द्रलोक प्राप्त करता है। वेदूर्य और पद्मरागमणि देनेवाला",
+          "translation": "each one should be expiated with a Krichchhra; this is the expiation for killing a cow. In binding, restraining, or feeding cows in sickness,",
+          "translationSource": "ai"
         },
         {
           "number": 42,
           "sanskrit": "संपद्यते चेन्मरणं निमित्तेनैव लिप्यते । मूर्च्छितः पतितो वापि दण्डेनाभिहतस्ततः",
           "transliteration": "saṃpadyate cenmaraṇaṃ nimittenaiva lipyate / mūrcchitaḥ patito vāpi daṇḍenābhihatastataḥ",
-          "hindi": "मनुष्य रुद्रलोकमें जाता है। पद्मरागमणिके दानसे सर्वत्र सुखकी प्राप्ति होती है। राजन्! घोड़ा दान करनेवाला दीर्घकालके लिये अश्विनीकुमारोंके समीप जाता है। हाथी-दान महादान है। उससे"
+          "hindi": "मनुष्य रुद्रलोकमें जाता है। पद्मरागमणिके दानसे सर्वत्र सुखकी प्राप्ति होती है। राजन्! घोड़ा दान करनेवाला दीर्घकालके लिये अश्विनीकुमारोंके समीप जाता है। हाथी-दान महादान है। उससे",
+          "translation": "if death occurs, he is not touched by blame; if she falls in a faint and is struck by a staff,",
+          "translationSource": "ai"
         },
         {
           "number": 43,
           "sanskrit": "उत्थाय षट्पदं गच्छेत्सत्प पञ्चदशापि वा । ग्रासं वा यदि गृह्णीयात्तोयं वापि पिबेद्यदि",
           "transliteration": "utthāya ṣaṭpadaṃ gacchetsatpa pañcadaśāpi vā / grāsaṃ vā yadi gṛhṇīyāttoyaṃ vāpi pibedyadi",
-          "hindi": "मनुष्य सब कामनाओंको प्राप्त कर लेता है। सवारी दान करनेसे मनुष्य स्वर्गीय विमानमें बैठकर स्वर्गलोकमें जाता है। भैंस देनेवाला निस्संदेह अपमृत्युको जीत लेता है। गौओंको"
+          "hindi": "मनुष्य सब कामनाओंको प्राप्त कर लेता है। सवारी दान करनेसे मनुष्य स्वर्गीय विमानमें बैठकर स्वर्गलोकमें जाता है। भैंस देनेवाला निस्संदेह अपमृत्युको जीत लेता है। गौओंको",
+          "translation": "and after rising walks six or fifteen steps, or takes a mouthful of food, or drinks water,",
+          "translationSource": "ai"
         },
         {
           "number": 44,
           "sanskrit": "सर्वव्याधिप्रनष्टानां प्रायश्चित्तं न विद्यते । कष्टलोष्टाश्मभिर्गावः शस्त्रैर्वा निहता यदि",
           "transliteration": "sarvavyādhipranaṣṭānāṃ prāyaścittaṃ na vidyate / kaṣṭaloṣṭāśmabhirgāvaḥ śastrairvā nihatā yadi",
-          "hindi": "घास देनेसे रुद्रलोककी प्राप्ति होती है। महीपते! नमक देनेवाला पुरुष वरुणलोकमें जाता है।"
+          "hindi": "घास देनेसे रुद्रलोककी प्राप्ति होती है। महीपते! नमक देनेवाला पुरुष वरुणलोकमें जाता है।",
+          "translation": "for the death of one lost to any disease there is no expiation. If cows are killed by sticks, clods, stones or weapons,",
+          "translationSource": "ai"
         },
         {
           "number": 45,
           "sanskrit": "प्रायश्चित्तं स्मृतं तत्र शस्त्रे निगद्यते । काष्टे सान्तपनं प्रोक्तं प्राजापत्यं तु लोष्टके",
           "transliteration": "prāyaścittaṃ smṛtaṃ tatra śastre nigadyate / kāṣṭe sāntapanaṃ proktaṃ prājāpatyaṃ tu loṣṭake",
-          "hindi": "जो अपने आश्रमोचित आचारके पालनमें संलग्न, सम्पूर्ण भूतोंके हितमें तत्पर तथा दम्भ और असूयासे रहित हैं, वे ब्रह्मलोकमें जाते हैं। जो बीतराग और ईर्ष्यारहित हो दूसरोंको परमार्थका"
+          "hindi": "जो अपने आश्रमोचित आचारके पालनमें संलग्न, सम्पूर्ण भूतोंके हितमें तत्पर तथा दम्भ और असूयासे रहित हैं, वे ब्रह्मलोकमें जाते हैं। जो बीतराग और ईर्ष्यारहित हो दूसरोंको परमार्थका",
+          "translation": "the penance is: by weapon one thing; by wood the Santapana; by a clod the Prajapatya;",
+          "translationSource": "ai"
         },
         {
           "number": 46,
           "sanskrit": "तत्पकृच्छ्रं तु पाषाणे शस्त्रे चाप्यतिकृच्छ्रकम् । औषधं स्नेहमाहारं दद्याद्गोब्राह्मणेषु च",
           "transliteration": "tatpakṛcchraṃ tu pāṣāṇe śastre cāpyatikṛcchrakam / auṣadhaṃ snehamāhāraṃ dadyādgobrāhmaṇeṣu ca",
-          "hindi": "उपदेश देते और स्वयं भी भगवान्के चरणोंकी आराधनामें लगे रहते हैं, वे वैकुण्ठधाममें जाते हैं। जो सत्सड़में आनन्दका अनुभव करते, सत्कर्म करनेके लिये सदा उद्यत रहते और"
+          "hindi": "उपदेश देते और स्वयं भी भगवान्के चरणोंकी आराधनामें लगे रहते हैं, वे वैकुण्ठधाममें जाते हैं। जो सत्सड़में आनन्दका अनुभव करते, सत्कर्म करनेके लिये सदा उद्यत रहते और",
+          "translation": "by a stone the Taptakrichchhra; by a weapon the Atikrichchhra. He should give medicine, oil and food to the cow and Brahmins.",
+          "translationSource": "ai"
         },
         {
           "number": 47,
           "sanskrit": "दीयमाने विपत्तिः स्यात्प्रायश्चित्तं तदा नहि । तैलभेषजपाने च भेषजानां च भक्षणे",
           "transliteration": "dīyamāne vipattiḥ syātprāyaścittaṃ tadā nahi / tailabheṣajapāne ca bheṣajānāṃ ca bhakṣaṇe",
-          "hindi": "दूसरोंके अपवादसे मुँह मोड़ लेते हैं, वे विष्णुधाममें जाते हैं। जो सदा ब्राह्मणों और गौओंका हित साधन करते और परायी स्त्रियोंके सड़से विमुख होते हैं, वे यमलोकका दर्शन नहीं करते।"
+          "hindi": "दूसरोंके अपवादसे मुँह मोड़ लेते हैं, वे विष्णुधाममें जाते हैं। जो सदा ब्राह्मणों और गौओंका हित साधन करते और परायी स्त्रियोंके सड़से विमुख होते हैं, वे यमलोकका दर्शन नहीं करते।",
+          "translation": "If death occurs while giving them, then there is no penance. For drinking oil or medicine, or eating medicines,",
+          "translationSource": "ai"
         },
         {
           "number": 48,
           "sanskrit": "निशल्यकरणे चैव प्रायश्चित्तं न विद्यते । वत्सानां कण्ठबन्धेन क्रिययाभेषजेन तु",
           "transliteration": "niśalyakaraṇe caiva prāyaścittaṃ na vidyate / vatsānāṃ kaṇṭhabandhena kriyayābheṣajena tu",
-          "hindi": "जिन्होंने इन्द्रियों और आहारको जीत लिया है, जो गायोंके प्रति क्षमाभाव रखनेवाले और सुशील हैं तथा जो ब्राह्मणोंपर भी क्षमाभाव रखते हैं, वे वैकुण्ठधाममें जाते हैं। जो अग्निका सेवन करनेवाले"
+          "hindi": "जिन्होंने इन्द्रियों और आहारको जीत लिया है, जो गायोंके प्रति क्षमाभाव रखनेवाले और सुशील हैं तथा जो ब्राह्मणोंपर भी क्षमाभाव रखते हैं, वे वैकुण्ठधाममें जाते हैं। जो अग्निका सेवन करनेवाले",
+          "translation": "or removing a thorn, there is no penance; also for tying calves by the neck, or treating them,",
+          "translationSource": "ai"
         },
         {
           "number": 49,
           "sanskrit": "सायं संगोपनार्थं च त्वदोषो रोषबन्धयोः । पादे चैवास्य रोमाणि द्विपादे श्मश्रु केवलम्",
           "transliteration": "sāyaṃ saṃgopanārthaṃ ca tvadoṣo roṣabandhayoḥ / pāde caivāsya romāṇi dvipāde śmaśru kevalam",
-          "hindi": "गुरुसेवक पुरुष हैं तथा जो पतिकोी सेवामें तत्पर रहनेवाली स्त्रियाँ हैं, वे कभी जन्म-मरणरूप संसार-बन्धनमें नहीं पड़ती । जो सदा देव-पूजामें तत्पर, हरिनामकी शरण लेनेवाले तथा प्रतिग्रहसे"
+          "hindi": "गुरुसेवक पुरुष हैं तथा जो पतिकोी सेवामें तत्पर रहनेवाली स्त्रियाँ हैं, वे कभी जन्म-मरणरूप संसार-बन्धनमें नहीं पड़ती । जो सदा देव-पूजामें तत्पर, हरिनामकी शरण लेनेवाले तथा प्रतिग्रहसे",
+          "translation": "or keeping them at evening for protection, there is no fault, nor in anger or binding. At a quarter, the hair; at a half, only the beard;",
+          "translationSource": "ai"
         },
         {
           "number": 50,
           "sanskrit": "त्रिपादे तु शिखावर्तं मूले सर्वं समाचरेत् । सर्वान्केशान्समुद्धृत्य छेदयेदङ्गुलद्वयम्",
           "transliteration": "tripāde tu śikhāvartaṃ mūle sarvaṃ samācaret / sarvānkeśānsamuddhṛtya chedayedaṅguladvayam",
-          "hindi": "दूर रहते हैं, वे परम पदको प्राप्त होते हैं। नृपश्रेष्ठ ! जो ब्राह्मणके अनाथ शवका दाह करते हैं, वे सहसर््र अश्वमेध यज्ञोंका फल भोगते हैं। मनुजेश्वर ! जो पूजारहित शिवलिड्भका पत्र, पुष्प, फल"
+          "hindi": "दूर रहते हैं, वे परम पदको प्राप्त होते हैं। नृपश्रेष्ठ ! जो ब्राह्मणके अनाथ शवका दाह करते हैं, वे सहसर््र अश्वमेध यज्ञोंका फल भोगते हैं। मनुजेश्वर ! जो पूजारहित शिवलिड्भका पत्र, पुष्प, फल",
+          "translation": "at three-quarters, the topknot; at the full, everything. He should have all hair removed, cutting two finger-breadths.",
+          "translationSource": "ai"
         },
         {
           "number": 51,
           "sanskrit": "एवमेव तु नारीणां मुण्डनं शिरसः स्मृतम् । न स्तिया वपनं कार्यं न च वीरासनं स्मृतम्",
           "transliteration": "evameva tu nārīṇāṃ muṇḍanaṃ śirasaḥ smṛtam / na stiyā vapanaṃ kāryaṃ na ca vīrāsanaṃ smṛtam",
-          "hindi": "अथवा जलसे पूजन करता है, उसका फल सुनो--वह विमानपर बैठकर भगवान् शिवके समीप जाता है। जनेश्वर! जो भक्ष्य-भोज्य और फलोंद्वारा निर्जन स्थानमें स्थित शिवलिड्डका"
+          "hindi": "अथवा जलसे पूजन करता है, उसका फल सुनो--वह विमानपर बैठकर भगवान् शिवके समीप जाता है। जनेश्वर! जो भक्ष्य-भोज्य और फलोंद्वारा निर्जन स्थानमें स्थित शिवलिड्डका",
+          "translation": "So too for women, shaving of the head is declared (as a cutting of hair); a woman should not be shaved, nor sit in the hero's posture.",
+          "translationSource": "ai"
         },
         {
           "number": 52,
           "sanskrit": "न च गोष्टे निवासो ऽस्ति न गच्छन्तीमनुव्रजेत् । राजा वा राजपुत्रघो वा ब्राह्मणो वा बहुश्रुतः",
           "transliteration": "na ca goṣṭe nivāso 'sti na gacchantīmanuvrajet / rājā vā rājaputragho vā brāhmaṇo vā bahuśrutaḥ",
-          "hindi": "पूजन करता है, वह पुनरावृत्तिहित शिव- सायुज्यको प्राप्त करता है। सूर्यवंशी भगीरथ! जो पूजारहित विष्णु-प्रतिमाका जलसे भी पूजन करता है, उसे विष्णुका सालोक्य प्राप्त होता है।"
+          "hindi": "पूजन करता है, वह पुनरावृत्तिहित शिव- सायुज्यको प्राप्त करता है। सूर्यवंशी भगीरथ! जो पूजारहित विष्णु-प्रतिमाका जलसे भी पूजन करता है, उसे विष्णुका सालोक्य प्राप्त होता है।",
+          "translation": "She should not dwell in the cow-pen, nor follow a cow that is going. King, king's son-killer, or a much-learned Brahmin:",
+          "translationSource": "ai"
         },
         {
           "number": 53,
           "sanskrit": "अकृत्वा वपनं तेषां प्रायश्चित्तं विनिर्द्दिशेत् । केशानां रक्षघणार्थं च द्विगुणं व्रतमादिशेत्",
           "transliteration": "akṛtvā vapanaṃ teṣāṃ prāyaścittaṃ vinirddiśet / keśānāṃ rakṣaghaṇārthaṃ ca dviguṇaṃ vratamādiśet",
-          "hindi": "राजन! जो देवालयमें गोचर्मके बराबर भू-भागको भी जलसे सींचता है, वह स्वर्गलोक पाता है। जो देवमन्दिरकी भूमिको चन्दनमिश्रित जलसे सींचता है, वह जितने कर्णोंको भिगोता है, उतने कल्पतक"
+          "hindi": "राजन! जो देवालयमें गोचर्मके बराबर भू-भागको भी जलसे सींचता है, वह स्वर्गलोक पाता है। जो देवमन्दिरकी भूमिको चन्दनमिश्रित जलसे सींचता है, वह जितने कर्णोंको भिगोता है, उतने कल्पतक",
+          "translation": "without shaving them a penance may be prescribed; to protect their hair, a doubled vow is ordained.",
+          "translationSource": "ai"
         },
         {
           "number": 54,
           "sanskrit": "द्विगुणे गतु व्रते चीर्णे द्विगुणा व्रतदक्षिणा",
           "transliteration": "dviguṇe gatu vrate cīrṇe dviguṇā vratadakṣiṇā",
-          "hindi": "उस देवताके समीप निवास करता है। जो मनुष्य पत्थरके चूनेसे देवमन्दिरको लीपता है या उसमें"
+          "hindi": "उस देवताके समीप निवास करता है। जो मनुष्य पत्थरके चूनेसे देवमन्दिरको लीपता है या उसमें",
+          "translation": "When the doubled vow has been completed, the fee for the vow is doubled.",
+          "translationSource": "ai"
         },
         {
           "number": 55,
           "sanskrit": "पापं न क्षीयते हन्तुर्दाता च नरकं व्रजेत् । अश्रौतस्मार्तविहितं प्रायश्चित्तं वदन्ति ये",
           "transliteration": "pāpaṃ na kṣīyate hanturdātā ca narakaṃ vrajet / aśrautasmārtavihitaṃ prāyaścittaṃ vadanti ye",
-          "hindi": "स्वस्तिक आदिके चिह्न बनाता है, उसको अनन्त पुण्य प्राप्त होता है। जो भगवान् विष्णु या शड्डूरके समीप अखण्ड दीपकी व्यवस्था करता है, उसको एक-एक क्षणमें अश्वमेध यज्ञका फल"
+          "hindi": "स्वस्तिक आदिके चिह्न बनाता है, उसको अनन्त पुण्य प्राप्त होता है। जो भगवान् विष्णु या शड्डूरके समीप अखण्ड दीपकी व्यवस्था करता है, उसको एक-एक क्षणमें अश्वमेध यज्ञका फल",
+          "translation": "The killer's sin is not destroyed, and the giver goes to hell, in those who declare a penance not prescribed by Vedic or Smriti texts.",
+          "translationSource": "ai"
         },
         {
           "number": 56,
           "sanskrit": "तान्धर्मविन्घकर्तॄंश्च राजा दण्डेन पीडयेत् । न चैतान्पीडयेद्राजा कथञ्चित्काममोहितः",
           "transliteration": "tāndharmavinghakartṝṃśca rājā daṇḍena pīḍayet / na caitānpīḍayedrājā kathañcitkāmamohitaḥ",
-          "hindi": "सुलभ होता है। भूमिपाल! जो देवीके मन्दिरकी एक बार, सूर्यके मन्दिरकी सात बार, गणेशके मन्दिरकी तीन बार और विष्णु-मन्दिरकी चार बार परिक्रमा करता है, वह उन-उनके धाममें"
+          "hindi": "सुलभ होता है। भूमिपाल! जो देवीके मन्दिरकी एक बार, सूर्यके मन्दिरकी सात बार, गणेशके मन्दिरकी तीन बार और विष्णु-मन्दिरकी चार बार परिक्रमा करता है, वह उन-उनके धाममें",
+          "translation": "The king should punish such obstructers of dharma with a fine; and the king should not, in any case, oppress them out of desire or confusion.",
+          "translationSource": "ai"
         },
         {
           "number": 57,
           "sanskrit": "तत्पापं शतधाभूत्वा तमेव परिसर्पति । प्रायश्चित्ते ततश्चीर्णे कुर्याद्ब्राह्मणभोजनम्",
           "transliteration": "tatpāpaṃ śatadhābhūtvā tameva parisarpati / prāyaścitte tataścīrṇe kuryādbrāhmaṇabhojanam",
-          "hindi": "जाकर लाखों युगोंतक सुख भोगता है। जो भक्तिभावसे भगवान् विष्णु, गौ तथा ब्राह्मणकी प्रदक्षिणा करता है, उसे पग-पगपर अश्वमेध यज्ञका फल मिलता है। जो काशीमें भगवान्"
+          "hindi": "जाकर लाखों युगोंतक सुख भोगता है। जो भक्तिभावसे भगवान् विष्णु, गौ तथा ब्राह्मणकी प्रदक्षिणा करता है, उसे पग-पगपर अश्वमेध यज्ञका फल मिलता है। जो काशीमें भगवान्",
+          "translation": "That sin, becoming a hundredfold, pursues him. After the expiation is done, he should feed Brahmins,",
+          "translationSource": "ai"
         },
         {
           "number": 58,
           "sanskrit": "विंशतिर्गा वृषं चैकं दद्यात्तेषां च दक्षिणाम् । क्रिमिभिस्तृण संभूतैर्मक्षिकादिनिपातितैः",
           "transliteration": "viṃśatirgā vṛṣaṃ caikaṃ dadyātteṣāṃ ca dakṣiṇām / krimibhistṛṇa saṃbhūtairmakṣikādinipātitaiḥ",
-          "hindi": "शिवके लिड्रका पूजन करके प्रणाम करता है, उसके लिये कोई कर्तव्य शेष नहीं रह जाता, उसका फिर संसारमें जन्म नहीं होता। जो विधिपूर्वक भगवान् शट्डूरकी दक्षिण और वाम"
+          "hindi": "शिवके लिड्रका पूजन करके प्रणाम करता है, उसके लिये कोई कर्तव्य शेष नहीं रह जाता, उसका फिर संसारमें जन्म नहीं होता। जो विधिपूर्वक भगवान् शट्डूरकी दक्षिण और वाम",
+          "translation": "and give twenty cows and a bull as their fee. For worms born of grass, or flies and the like falling in,",
+          "translationSource": "ai"
         },
         {
           "number": 59,
           "sanskrit": "कृच्छ्रार्द्धं स प्रकुर्वीत शक्त्या दद्याञ्च दक्षिणाम् । प्रायश्चित्तं च कृत्वा वै भोजयित्वा द्विजोत्तमान्",
           "transliteration": "kṛcchrārddhaṃ sa prakurvīta śaktyā dadyāñca dakṣiṇām / prāyaścittaṃ ca kṛtvā vai bhojayitvā dvijottamān",
-          "hindi": "परिक्रमा करता है, वह मनुष्य उनकी कृपासे स्वर्गसे नीचे नहीं आता। जो रोग-शोकसे रहित भगवान् नारायणकी स्तोत्रोंद्वारा स्तुति करता है, वह मनसे जो-जो चाहता है, उन सब कामनाओंको"
+          "hindi": "परिक्रमा करता है, वह मनुष्य उनकी कृपासे स्वर्गसे नीचे नहीं आता। जो रोग-शोकसे रहित भगवान् नारायणकी स्तोत्रोंद्वारा स्तुति करता है, वह मनसे जो-जो चाहता है, उन सब कामनाओंको",
+          "translation": "one should do half a Krichchhra and give a fee according to ability. Having done penance and fed the best of Brahmins,",
+          "translationSource": "ai"
         },
         {
           "number": 60,
           "sanskrit": "सुवर्णमानिकं दद्यात्ततः शुद्धिर्विधीयते । चाण्डालश्वपचैः स्पृष्टे निशि स्नानं विधीयते",
           "transliteration": "suvarṇamānikaṃ dadyāttataḥ śuddhirvidhīyate / cāṇḍālaśvapacaiḥ spṛṣṭe niśi snānaṃ vidhīyate",
-          "hindi": "प्राप्त कर लेता है। भूपाल! जो भक्तिभावसे युक्त हो देवमन्दिरमें नृत्य अथवा गान करता है, वह रुद्रलोकमें जाकर मोक्षका भागी होता है। जो मनुष्य देवमन्दिरमें बाजा बजाते हैं, वे हंसयुक्त"
+          "hindi": "प्राप्त कर लेता है। भूपाल! जो भक्तिभावसे युक्त हो देवमन्दिरमें नृत्य अथवा गान करता है, वह रुद्रलोकमें जाकर मोक्षका भागी होता है। जो मनुष्य देवमन्दिरमें बाजा बजाते हैं, वे हंसयुक्त",
+          "translation": "he should give a gold mana; then purification is ordained. If touched by Chandalas or Shvapachas at night, bathing is prescribed;",
+          "translationSource": "ai"
         },
         {
           "number": 61,
           "sanskrit": "न वसेत्तत्र रात्रौ तु सद्यः स्नानेन शुद्ध्यति । वसेदथ यदा रात्रावज्ञानादविचक्षणः",
           "transliteration": "na vasettatra rātrau tu sadyaḥ snānena śuddhyati / vasedatha yadā rātrāvajñānādavicakṣaṇaḥ",
-          "hindi": "विमानपर आरूढ़ हो ब्रह्माजीके धाममें जाते हैं। जो लोग देवालयमें करताल बजाते हैं, वे सब पापोंसे मुक्त हो दस हजार युगोंतक विमानचारी होते हैं। जो लोग भेरी, मृदज्ग, पटह, मुरज और"
+          "hindi": "विमानपर आरूढ़ हो ब्रह्माजीके धाममें जाते हैं। जो लोग देवालयमें करताल बजाते हैं, वे सब पापोंसे मुक्त हो दस हजार युगोंतक विमानचारी होते हैं। जो लोग भेरी, मृदज्ग, पटह, मुरज और",
+          "translation": "one should not stay there at night; he is purified at once by bathing. If a fool stays there at night unknowingly,",
+          "translationSource": "ai"
         },
         {
           "number": 62,
           "sanskrit": "तदा तस्य तु तत्पापं शतधा परिवर्तते । उद्गच्छन्ति च नक्षत्राण्युपरिष्टाच्च ये ग्रहाः",
           "transliteration": "tadā tasya tu tatpāpaṃ śatadhā parivartate / udgacchanti ca nakṣatrāṇyupariṣṭācca ye grahāḥ",
-          "hindi": "डिंडिम आदि बाजोंद्वारा देवेश्वर भगवान् शिवको प्रसन्न करते हैं, उन्हें प्राप्त होनेवाले पुण्यफलका वर्णन सुनो। वे सम्पूर्ण कामनाओंसे पूजित हो स्वर्गलोकमें जाकर पाँच कल्पोंतक सुख भोगते"
+          "hindi": "डिंडिम आदि बाजोंद्वारा देवेश्वर भगवान् शिवको प्रसन्न करते हैं, उन्हें प्राप्त होनेवाले पुण्यफलका वर्णन सुनो। वे सम्पूर्ण कामनाओंसे पूजित हो स्वर्गलोकमें जाकर पाँच कल्पोंतक सुख भोगते",
+          "translation": "then that sin of his becomes a hundredfold. When stars rise, or planets above, and their rays touch (one),",
+          "translationSource": "ai"
         },
         {
           "number": 63,
           "sanskrit": "संस्पृष्टे रश्मिभिस्तेषामुदकस्नानमाचरेत् । याश्चान्तर्जलवल्मीकमूषिकोषरवर्त्मसु",
           "transliteration": "saṃspṛṣṭe raśmibhisteṣāmudakasnānamācaret / yāścāntarjalavalmīkamūṣikoṣaravartmasu",
-          "hindi": "हैं। राजन्! जो मनुष्य देवमन्दिरमें शड्खध्वनि करता है, वह सब पापोंसे मुक्त हो भगवान् विष्णुके साथ सुख भोगता है। जो भगवान् विष्णुके मन्दिरमें ताल और झाँस आदिका शब्द"
+          "hindi": "हैं। राजन्! जो मनुष्य देवमन्दिरमें शड्खध्वनि करता है, वह सब पापोंसे मुक्त हो भगवान् विष्णुके साथ सुख भोगता है। जो भगवान् विष्णुके मन्दिरमें ताल और झाँस आदिका शब्द",
+          "translation": "he should bathe in water. And earths from water, anthills, mouse-holes, thoroughfares,",
+          "translationSource": "ai"
         },
         {
           "number": 64,
           "sanskrit": "श्मशाने शौचशेषे च न ग्राह्याः सत्प मृत्तिकाः । इष्टापूर्तं तु कर्त्तव्यं ब्राह्मणेन प्रयत्नतः",
           "transliteration": "śmaśāne śaucaśeṣe ca na grāhyāḥ satpa mṛttikāḥ / iṣṭāpūrtaṃ tu karttavyaṃ brāhmaṇena prayatnataḥ",
-          "hindi": "करता है, वह सब पापोंसे मुक्त हो भगवान् विष्णुके लोकमें जाता है। जो सबके साक्षी, निरञ्ञन एवं ज्ञानस्वरूप भगवान् विष्णु हैं, वे संतुष्ट होनेपर सब धर्मोका यथायोग्य सम्पूर्ण फल"
+          "hindi": "करता है, वह सब पापोंसे मुक्त हो भगवान् विष्णुके लोकमें जाता है। जो सबके साक्षी, निरञ्ञन एवं ज्ञानस्वरूप भगवान् विष्णु हैं, वे संतुष्ट होनेपर सब धर्मोका यथायोग्य सम्पूर्ण फल",
+          "translation": "cremation grounds, or left from cleansing are not to be taken. The Brahmin should carefully perform \"ishta\" and \"purta\".",
+          "translationSource": "ai"
         },
         {
           "number": 65,
           "sanskrit": "इष्टेन लभते स्वर्गं मोक्षं पूर्त्तेन चान्पुयात् । वित्तक्षेपो भवेदिष्टं तडागं पूर्त्तमुच्यते",
           "transliteration": "iṣṭena labhate svargaṃ mokṣaṃ pūrttena cānpuyāt / vittakṣepo bhavediṣṭaṃ taḍāgaṃ pūrttamucyate",
-          "hindi": "देते हैं। भूपते! जिन देवाधिदेव सुदर्शनचक्रधारी श्रीहरिके स्मरण मात्रसे सम्पूर्ण कर्म सफल होते हैं, वे जगदीश्वर परमात्मा ही समस्त कर्मोके फल हैं। पुण्यकर्म करनेवाले पुरुषोंद्वारा सदा स्मरण"
+          "hindi": "देते हैं। भूपते! जिन देवाधिदेव सुदर्शनचक्रधारी श्रीहरिके स्मरण मात्रसे सम्पूर्ण कर्म सफल होते हैं, वे जगदीश्वर परमात्मा ही समस्त कर्मोके फल हैं। पुण्यकर्म करनेवाले पुरुषोंद्वारा सदा स्मरण",
+          "translation": "By ishta he gains heaven, by purta liberation. Ishta is spending wealth in sacrifice; purta is said to be a tank,",
+          "translationSource": "ai"
         },
         {
           "number": 66,
           "sanskrit": "आरामश्च विशेषेण देवद्रोण्यस्तथैव च । वापीकूपतडागानि देवतायतनानि च",
           "transliteration": "ārāmaśca viśeṣeṇa devadroṇyastathaiva ca / vāpīkūpataḍāgāni devatāyatanāni ca",
-          "hindi": "किये जानेपर वे भगवान् उनकी सब पीड़ाओंका नाश करते हैं। भगवान् विष्णुके उद्देश्यसे जो कुछ किया जाता है, वह अक्षय मोक्षका कारण होता है। भगवान् विष्णु ही धर्म हैं। धर्मके फल भी"
+          "hindi": "किये जानेपर वे भगवान् उनकी सब पीड़ाओंका नाश करते हैं। भगवान् विष्णुके उद्देश्यसे जो कुछ किया जाता है, वह अक्षय मोक्षका कारण होता है। भगवान् विष्णु ही धर्म हैं। धर्मके फल भी",
+          "translation": "and especially gardens, temple tanks, wells, ponds, and temples.",
+          "translationSource": "ai"
         },
         {
           "number": 67,
           "sanskrit": "पतितान्युद्धरेद्यस्तु स पूर्वफलमश्नुते । शुक्लाया आहरेन्मूत्रं कृष्णाया गोः शकृत्तथा",
           "transliteration": "patitānyuddharedyastu sa pūrvaphalamaśnute / śuklāyā āharenmūtraṃ kṛṣṇāyā goḥ śakṛttathā",
-          "hindi": "भगवान् विष्णु ही हैं। इसी प्रकार कर्म, कर्मोंके फल और उनके भोक्ता भी भगवान् विष्णु ही हैं। कार्य भी विष्णु हैं, करण भी विष्णु हैं। उनसे भिन्न कोई भी वस्तु नहीं है।"
+          "hindi": "भगवान् विष्णु ही हैं। इसी प्रकार कर्म, कर्मोंके फल और उनके भोक्ता भी भगवान् विष्णु ही हैं। कार्य भी विष्णु हैं, करण भी विष्णु हैं। उनसे भिन्न कोई भी वस्तु नहीं है।",
+          "translation": "He who restores those fallen into ruin gets the former fruit. From a white cow one takes urine; from a black cow, dung;",
+          "translationSource": "ai"
         },
         {
           "number": 68,
           "sanskrit": "ताम्रायाश्च पयो ग्राह्यं श्वेतायाश्च दधि स्मृतम् । कपिलाया घृतं ग्राह्यं महापातकनाशनम्",
           "transliteration": "tāmrāyāśca payo grāhyaṃ śvetāyāśca dadhi smṛtam / kapilāyā ghṛtaṃ grāhyaṃ mahāpātakanāśanam",
-          "hindi": "विविध प्रायश्चित्तका वर्णन, इष्टापूर्तका फल और सूतक, श्राद्ध तथा तर्पणका विवेचन"
+          "hindi": "विविध प्रायश्चित्तका वर्णन, इष्टापूर्तका फल और सूतक, श्राद्ध तथा तर्पणका विवेचन",
+          "translation": "from a copper-coloured cow, milk; from a white one, curd; from a tawny cow, ghee — destroying great sins.",
+          "translationSource": "ai"
         },
         {
           "number": 69,
           "sanskrit": "कुशैस्तीर्थनदीतौयैः सर्वद्रव्यं पृथक् पृथक् । आहृत्य प्रणवेनैव उत्थाप्य प्रणवेन च",
           "transliteration": "kuśaistīrthanadītauyaiḥ sarvadravyaṃ pṛthak pṛthak / āhṛtya praṇavenaiva utthāpya praṇavena ca",
-          "hindi": "धर्मराज कहते हैं--नृपश्रेष्ठ। अब में चारों वर्णोंके लिये वेदों और स्मृतियोंमें बताये हुए धर्मका क्रमश: वर्णन करता हूँ, एकाग्रचित्त होकर सुनो। जो भोजन करते समय क्रोधमें या अज्ञानवश"
+          "hindi": "धर्मराज कहते हैं--नृपश्रेष्ठ। अब में चारों वर्णोंके लिये वेदों और स्मृतियोंमें बताये हुए धर्मका क्रमश: वर्णन करता हूँ, एकाग्रचित्त होकर सुनो। जो भोजन करते समय क्रोधमें या अज्ञानवश",
+          "translation": "Taking each substance separately with kusha and water from holy places and rivers, raising it with \"Om\",",
+          "translationSource": "ai"
         },
         {
           "number": 70,
           "sanskrit": "प्रणवेन समालोड्य प्रणवेनैव संपिबेत् । पालाशे मध्यमे पर्णे भाण्डे ताम्रमये शुभे",
           "transliteration": "praṇavena samāloḍya praṇavenaiva saṃpibet / pālāśe madhyame parṇe bhāṇḍe tāmramaye śubhe",
-          "hindi": "किसी अपवित्र वस्तुको या चाण्डाल एवं पतितको छू लेता है, उसके लिये प्रायश्वित्त बतलाता हूँ। वह क्रमानुसार अर्थात् अपवित्र वस्तुके स्पर्श करनेपर तीन रात और चाण्डाल या पतितका"
+          "hindi": "किसी अपवित्र वस्तुको या चाण्डाल एवं पतितको छू लेता है, उसके लिये प्रायश्वित्त बतलाता हूँ। वह क्रमानुसार अर्थात् अपवित्र वस्तुके स्पर्श करनेपर तीन रात और चाण्डाल या पतितका",
+          "translation": "stirring with \"Om\", one should drink with \"Om\", in a vessel of palasha leaf, middle leaf, or auspicious copper vessel;",
+          "translationSource": "ai"
         },
         {
           "number": 71,
           "sanskrit": "पिबेत्पुष्करपर्णे वा मृन्मये वा कुशोदकम् । सूतके तु समुत्पन्ने द्वितीये समुपस्थिते",
           "transliteration": "pibetpuṣkaraparṇe vā mṛnmaye vā kuśodakam / sūtake tu samutpanne dvitīye samupasthite",
-          "hindi": "स्पर्श कर लेनेपर छः: राततक पञ्जञगव्यसे तीनों"
+          "hindi": "स्पर्श कर लेनेपर छः: राततक पञ्जञगव्यसे तीनों",
+          "translation": "or one drinks kusha water from a lotus leaf or clay vessel. When birth-impurity occurs and a second arises,",
+          "translationSource": "ai"
         },
         {
           "number": 72,
           "sanskrit": "द्वितीये नास्ति दोषस्तु प्रथमेनैव शुध्यति । जातेन शुध्यते जातं मृतेन मृतकं तथा",
           "transliteration": "dvitīye nāsti doṣastu prathamenaiva śudhyati / jātena śudhyate jātaṃ mṛtena mṛtakaṃ tathā",
-          "hindi": "समय स्नान करे तो शुद्ध होता है। यदि कदाचित्"
+          "hindi": "समय स्नान करे तो शुद्ध होता है। यदि कदाचित्",
+          "translation": "there is no fault in the second; he is purified by the first. By a birth, a birth; by a death, a death.",
+          "translationSource": "ai"
         },
         {
           "number": 73,
           "sanskrit": "गर्भसंस्त्रवणे मासे त्रीण्यहानि विनिर्दिशेत्",
           "transliteration": "garbhasaṃstravaṇe māse trīṇyahāni vinirdiśet",
-          "hindi": "भोजन करते समय ब्राह्मणके गुदासे मलस्नाव हो"
+          "hindi": "भोजन करते समय ब्राह्मणके गुदासे मलस्नाव हो",
+          "translation": "In a miscarriage in the month, three days are prescribed.",
+          "translationSource": "ai"
         },
         {
           "number": 74,
           "sanskrit": "रात्रिभिर्मासतुल्याभिर्गर्भस्त्रावे विशुद्ध्यति । रजस्युपरते साध्वी स्ननेन स्त्री रजस्वला",
           "transliteration": "rātribhirmāsatulyābhirgarbhastrāve viśuddhyati / rajasyuparate sādhvī snanena strī rajasvalā",
-          "hindi": "बात हो जाय तो उसकी शुद्धिका उपाय बतलाता हूँ। पहले वह ब्राह्मण शौच जाकर जलसे पवित्र होवे (अर्थात् शौच जाकर जलसे हाथ-पैरको शुद्धि करके कुल्ला और स्नान करे)। तदनन्तर"
+          "hindi": "बात हो जाय तो उसकी शुद्धिका उपाय बतलाता हूँ। पहले वह ब्राह्मण शौच जाकर जलसे पवित्र होवे (अर्थात् शौच जाकर जलसे हाथ-पैरको शुद्धि करके कुल्ला और स्नान करे)। तदनन्तर",
+          "translation": "In miscarriage, one is purified in nights equal to the months. A chaste woman at the end of her menses is purified by bathing.",
+          "translationSource": "ai"
         },
         {
           "number": 75,
           "sanskrit": "स्वगोत्राद्भृश्यते नारी विवाहात्सत्पमे पदे । स्वामिगोत्रेण कर्त्तव्यास्तस्याः पिण्डोदकक्रियाः",
           "transliteration": "svagotrādbhṛśyate nārī vivāhātsatpame pade / svāmigotreṇa karttavyāstasyāḥ piṇḍodakakriyāḥ",
-          "hindi": "दिन-रात उपवास करके पद्चगव्य पीनेसे शुद्ध होता है। यदि भोजन करते समय पेशाब हो जाय अथवा पेशाब करनेपर बिना शुद्ध हुए ही भोजन कर ले तो दिन-रात उपवास करे और अम्रिमें"
+          "hindi": "दिन-रात उपवास करके पद्चगव्य पीनेसे शुद्ध होता है। यदि भोजन करते समय पेशाब हो जाय अथवा पेशाब करनेपर बिना शुद्ध हुए ही भोजन कर ले तो दिन-रात उपवास करे और अम्रिमें",
+          "translation": "A woman falls from her own gotra at the seventh step of marriage; the rites of rice-balls and water are to be done for her in her husband's gotra.",
+          "translationSource": "ai"
         },
         {
           "number": 76,
           "sanskrit": "उद्देश्यं पिण्डदाने स्यात्पिण्डे पिण्डे द्विनामतः । षण्णां देयास्त्रयः पिण्डा एवं दाता न मुह्यति",
           "transliteration": "uddeśyaṃ piṇḍadāne syātpiṇḍe piṇḍe dvināmataḥ / ṣaṇṇāṃ deyāstrayaḥ piṇḍā evaṃ dātā na muhyati",
-          "hindi": "यो देव: सर्वदृगविष्णुज्ञानरूपी निरक्षन:। सर्वधर्मफलं॑ पूर्ण संतुष्ट:"
+          "hindi": "यो देव: सर्वदृगविष्णुज्ञानरूपी निरक्षन:। सर्वधर्मफलं॑ पूर्ण संतुष्ट:",
+          "translation": "In giving rice-balls, the intended recipients are named; in each ball two names; three balls for six; thus the giver is not confused.",
+          "translationSource": "ai"
         },
         {
           "number": 77,
           "sanskrit": "स्वेन भर्त्रा सहस्राब्दं माताभुक्ता सुदैवतम् । पितामह्यपि स्वेनैव स्वेनैव प्रपितामही",
           "transliteration": "svena bhartrā sahasrābdaṃ mātābhuktā sudaivatam / pitāmahyapi svenaiva svenaiva prapitāmahī",
-          "hindi": "यस्य स्मरणमात्रेण देवदेवस्थ चक्रिण:.। सफलानि भवन्त्येव सर्वकर्माण भूपते॥"
+          "hindi": "यस्य स्मरणमात्रेण देवदेवस्थ चक्रिण:.। सफलानि भवन्त्येव सर्वकर्माण भूपते॥",
+          "translation": "A mother enjoys with her husband for a thousand years, divinely; the grandmother with hers, and the great-grandmother with hers.",
+          "translationSource": "ai"
         },
         {
           "number": 78,
           "sanskrit": "वर्षे तु कुर्वीत मातापित्रोस्तु सत्कृतिम् । अदैवं भोजयेच्छ्राद्धं पिण्डमेकं तु निर्वपेत्",
           "transliteration": "varṣe tu kurvīta mātāpitrostu satkṛtim / adaivaṃ bhojayecchrāddhaṃ piṇḍamekaṃ tu nirvapet",
-          "hindi": "परमात्मा जगन्नाथ: सर्वकर्मफलप्रद:। सत्कर्मकर्तुभिर्नित्य॑ स्मृतः"
+          "hindi": "परमात्मा जगन्नाथ: सर्वकर्मफलप्रद:। सत्कर्मकर्तुभिर्नित्य॑ स्मृतः",
+          "translation": "In the year, one should honour mother and father; he should feed Brahmins at a shraddha without the gods' rite and offer a single ball.",
+          "translationSource": "ai"
         },
         {
           "number": 79,
           "sanskrit": "नित्यं नैमित्तिकं काम्यं वृद्धिश्राद्धमथापरम् । पार्वणं चेति विज्ञेयं श्राद्धं पञ्चविधं बुधैः",
           "transliteration": "nityaṃ naimittikaṃ kāmyaṃ vṛddhiśrāddhamathāparam / pārvaṇaṃ ceti vijñeyaṃ śrāddhaṃ pañcavidhaṃ budhaiḥ",
-          "hindi": "धर्माणि विष्णु फलानि विष्णु: कर्माणि विष्णुश्ष फलानि भोक्ता। काय॑ च विष्णु: करणानि विष्णुरस्मान्न किंचिद् व्यतिरिक्तमस्ति॥"
+          "hindi": "धर्माणि विष्णु फलानि विष्णु: कर्माणि विष्णुश्ष फलानि भोक्ता। काय॑ च विष्णु: करणानि विष्णुरस्मान्न किंचिद् व्यतिरिक्तमस्ति॥",
+          "translation": "Shraddha is known by the wise as fivefold: daily, occasional, desire-motivated, for increase (vriddhi), and at parvan.",
+          "translationSource": "ai"
         },
         {
           "number": 80,
           "sanskrit": "ग्रहोपरागे संक्रान्तौ पर्वोत्स वमलालये । निर्वपेर्त्रीन्नरः पिण्डानेकमेव मृते ऽहनि",
           "transliteration": "grahoparāge saṃkrāntau parvotsa vamalālaye / nirvapertrīnnaraḥ piṇḍānekameva mṛte 'hani",
-          "hindi": "किसी भी निमित्तसे अपवित्र हो जाय तो उस समय ग्रासको जमीनपर रखकर स्नान करनेके पश्चात् शुद्ध होता है। यदि उस ग्रासको खा ले तो उपवास करनेपर शुद्ध होता है और यदि अपवित्र"
+          "hindi": "किसी भी निमित्तसे अपवित्र हो जाय तो उस समय ग्रासको जमीनपर रखकर स्नान करनेके पश्चात् शुद्ध होता है। यदि उस ग्रासको खा ले तो उपवास करनेपर शुद्ध होता है और यदि अपवित्र",
+          "translation": "At eclipses, on solstices, at festivals and at temples, a man offers three balls; on the day of death, a single one.",
+          "translationSource": "ai"
         },
         {
           "number": 81,
           "sanskrit": "अनूढ न पृथक्कन्या पिण्डे गोत्रे च सूतके । पाणिग्रहणमन्त्राभ्यां स्वगोत्राद्भ्रश्यते ततः",
           "transliteration": "anūḍha na pṛthakkanyā piṇḍe gotre ca sūtake / pāṇigrahaṇamantrābhyāṃ svagotrādbhraśyate tataḥ",
-          "hindi": "अवस्थामें वह सारा अन्न भोजन करके उठे तो तीन राततक वह अशुद्ध रहता है (अर्थात् तीन रात्रितक उपवास करनेसे शुद्ध होता है)। यदि भोजन करते-करते वमन हो जाय तो अस्वस्थ"
+          "hindi": "अवस्थामें वह सारा अन्न भोजन करके उठे तो तीन राततक वह अशुद्ध रहता है (अर्थात् तीन रात्रितक उपवास करनेसे शुद्ध होता है)। यदि भोजन करते-करते वमन हो जाय तो अस्वस्थ",
+          "translation": "An unmarried girl is not separate in ball, gotra or impurity; by the marriage mantras she falls from her own gotra.",
+          "translationSource": "ai"
         },
         {
           "number": 82,
           "sanskrit": "येन येन तु वर्णेन या कान्या परिणीयते । तत्समं सूतकं याति तथापिण्डोदके ऽपि च",
           "transliteration": "yena yena tu varṇena yā kānyā pariṇīyate / tatsamaṃ sūtakaṃ yāti tathāpiṇḍodake 'pi ca",
-          "hindi": "मनुष्य तीन सौ गायत्री-मन्त्रका जप करे और स्वस्थ मनुष्य तीन हजार गायत्री जपे, यही उसके लिये उत्तम प्रायश्चित्त है। यदि द्विज मल-मूत्र करनेपर चाण्डाल या डोमसे छू जाय तो वह"
+          "hindi": "मनुष्य तीन सौ गायत्री-मन्त्रका जप करे और स्वस्थ मनुष्य तीन हजार गायत्री जपे, यही उसके लिये उत्तम प्रायश्चित्त है। यदि द्विज मल-मूत्र करनेपर चाण्डाल या डोमसे छू जाय तो वह",
+          "translation": "Whatever class a girl is married into, the impurity and the rice-ball and water rites are equal to that class.",
+          "translationSource": "ai"
         },
         {
           "number": 83,
           "sanskrit": "विवाहे चैव संवृत्ते चतुर्थे ऽहनिरात्रिषु । एकत्वं सा व्रजेद्भर्तुः पिण्डे गोत्रे च सूतके",
           "transliteration": "vivāhe caiva saṃvṛtte caturthe 'hanirātriṣu / ekatvaṃ sā vrajedbhartuḥ piṇḍe gotre ca sūtake",
-          "hindi": "त्रिरात्र ब्रत करे और यदि भोजन करके जूठे मुँह छू जाय तो छ: राततक ब्रत करे। यदि रजस्वला और सूतिका स्त्रीको चाण्डाल छू ले तो तीन राततक ब्रत करनेपर उसकी शुद्धि होती है--यह"
+          "hindi": "त्रिरात्र ब्रत करे और यदि भोजन करके जूठे मुँह छू जाय तो छ: राततक ब्रत करे। यदि रजस्वला और सूतिका स्त्रीको चाण्डाल छू ले तो तीन राततक ब्रत करनेपर उसकी शुद्धि होती है--यह",
+          "translation": "When the marriage is completed, on the fourth day and night she becomes one with her husband in ball, gotra and impurity.",
+          "translationSource": "ai"
         },
         {
           "number": 84,
           "sanskrit": "प्रथमे ऽङ्नि द्वितीये वा तृतीये वा चतुर्थके । अस्थिसंचयनं कार्यं बन्धुभिर्हितबुद्धिभिः",
           "transliteration": "prathame 'ṅni dvitīye vā tṛtīye vā caturthake / asthisaṃcayanaṃ kāryaṃ bandhubhirhitabuddhibhiḥ",
-          "hindi": "शातातप मुनिका वचन' है। यदि रजस्वला स्त्री कुत्तों, चाण्डालों अथवा कौओंसे छू जाय तो वह"
+          "hindi": "शातातप मुनिका वचन' है। यदि रजस्वला स्त्री कुत्तों, चाण्डालों अथवा कौओंसे छू जाय तो वह",
+          "translation": "On the first, second, third or fourth day, the collecting of bones should be done by kinsmen with kind intent.",
+          "translationSource": "ai"
         },
         {
           "number": 85,
           "sanskrit": "चतुर्थे पञ्चमे चैव सत्पमे नवमे तथा । अस्थिसंचयनं प्रोक्तं वर्णानामनुपूर्वशः",
           "transliteration": "caturthe pañcame caiva satpame navame tathā / asthisaṃcayanaṃ proktaṃ varṇānāmanupūrvaśaḥ",
-          "hindi": "(चौथे दिन) स्रान करनेसे वह शुद्ध होती है। यदि दो रजस्वलाएँ आपसमें एक दूसरीका स्पर्श कर लेती हैं तो ब्रह्मकूर्च' पीनेसे उनकी शुद्धि होती है और ऊपरसे भी त्रह्मकूर्चद्वारा उन्हें स्नान"
+          "hindi": "(चौथे दिन) स्रान करनेसे वह शुद्ध होती है। यदि दो रजस्वलाएँ आपसमें एक दूसरीका स्पर्श कर लेती हैं तो ब्रह्मकूर्च' पीनेसे उनकी शुद्धि होती है और ऊपरसे भी त्रह्मकूर्चद्वारा उन्हें स्नान",
+          "translation": "On the fourth, fifth, seventh and ninth day, the collecting of bones is declared for the classes in order.",
+          "translationSource": "ai"
         },
         {
           "number": 86,
           "sanskrit": "एकादशाहे प्रेतस्य यस्य चोत्सृज्यते वृषः । मुच्यते प्रेतलोकात्स स्वर्गलोके महीयते",
           "transliteration": "ekādaśāhe pretasya yasya cotsṛjyate vṛṣaḥ / mucyate pretalokātsa svargaloke mahīyate",
-          "hindi": "कराना चाहिए। जो जूठेसे छू जानेपर तुरंत स्नान नहीं कर लेता, उसके लिये भी यही प्रायश्रित्त है। ऋतुकालमें मैथुन करनेवाले पुरुषको गर्भाधान होनेकी आशड्डासे स्नान करनेका विधान है।"
+          "hindi": "कराना चाहिए। जो जूठेसे छू जानेपर तुरंत स्नान नहीं कर लेता, उसके लिये भी यही प्रायश्रित्त है। ऋतुकालमें मैथुन करनेवाले पुरुषको गर्भाधान होनेकी आशड्डासे स्नान करनेका विधान है।",
+          "translation": "He for whom a bull is released on the eleventh day after death is freed from the world of the dead and honoured in heaven.",
+          "translationSource": "ai"
         },
         {
           "number": 87,
           "sanskrit": "नाभिमात्रे जले स्थित्वा हृदयेन तु चिन्तयेत् । आगच्छन्तु मे पितरो गृह्णन्त्वेताआजाञ्जलीन्",
           "transliteration": "nābhimātre jale sthitvā hṛdayena tu cintayet / āgacchantu me pitaro gṛhṇantvetāājāñjalīn",
-          "hindi": "बिना ऋतुके स्त्रीसज्रम करनेपर मल-मूृत्रकी ही भाँति शुद्धि मानी गयी है। अर्थात् हाथ, मुँह आदि धोकर कुल्ला करना चाहिए। मैथुनकर्ममें लगे हुए पति-पत्नी दोनों ही अशुद्ध होते हैं, परंतु"
+          "hindi": "बिना ऋतुके स्त्रीसज्रम करनेपर मल-मूृत्रकी ही भाँति शुद्धि मानी गयी है। अर्थात् हाथ, मुँह आदि धोकर कुल्ला करना चाहिए। मैथुनकर्ममें लगे हुए पति-पत्नी दोनों ही अशुद्ध होते हैं, परंतु",
+          "translation": "Standing in water to the navel, one should think in the heart: \"May my ancestors come and take these handfuls of water.\"",
+          "translationSource": "ai"
         },
         {
           "number": 88,
           "sanskrit": "हस्तौ कृत्वा तु संयुक्तौ पूरचित्वा जलेन च । गोशृङ्गमात्रमुद्धृत्य जलमध्ये विनिः क्षिपेत्",
           "transliteration": "hastau kṛtvā tu saṃyuktau pūracitvā jalena ca / gośṛṅgamātramuddhṛtya jalamadhye viniḥ kṣipet",
-          "hindi": "शय्यासे उठनेपर स्त्री तो शुद्ध हो जाती है, किंतु पुरुष स्रानके पूर्वतक अशुद्ध ही बना रहता है। जो लोग पतित न होनेपर भी अपने बन्धुजनोंका त्याग करते हैं, (राजाको उचित है कि) उन्हें"
+          "hindi": "शय्यासे उठनेपर स्त्री तो शुद्ध हो जाती है, किंतु पुरुष स्रानके पूर्वतक अशुद्ध ही बना रहता है। जो लोग पतित न होनेपर भी अपने बन्धुजनोंका त्याग करते हैं, (राजाको उचित है कि) उन्हें",
+          "translation": "Joining the hands and filling them with water, lifting it to the height of a cow's horn, he should pour it into the water.",
+          "translationSource": "ai"
         },
         {
           "number": 89,
           "sanskrit": "आकाशे च क्षिपेद्वारि वारिस्थो दक्षघिणामुखः । पितॄणां स्थानमाकाशं दक्षिणादिक् तथैव च",
           "transliteration": "ākāśe ca kṣipedvāri vāristho dakṣaghiṇāmukhaḥ / pitṝṇāṃ sthānamākāśaṃ dakṣiṇādik tathaiva ca",
-          "hindi": "उत्तम साहस का दण्ड दे। यदि पिता पतित हो जाय तो उसके साथ इच्छानुसार बर्ताव करे।"
+          "hindi": "उत्तम साहस का दण्ड दे। यदि पिता पतित हो जाय तो उसके साथ इच्छानुसार बर्ताव करे।",
+          "translation": "Standing in water, facing south, he should cast water to the sky; the sky and the south direction are the place of the ancestors.",
+          "translationSource": "ai"
         },
         {
           "number": 90,
           "sanskrit": "आपो देवगणाः प्रोक्ता आपः पितृगणास्तथा । तस्मादस्य जलं देयं पितॄणां हितमिच्छता",
           "transliteration": "āpo devagaṇāḥ proktā āpaḥ pitṛgaṇāstathā / tasmādasya jalaṃ deyaṃ pitṝṇāṃ hitamicchatā",
-          "hindi": "१. इस प्रसड़के प्रायः अधिक श्लोक यम-स्मृतिसे और कुछ श्लोक वृद्धशातातप-स्मृतिसे भी मिलते हैं। २. पञ्चगव्य और कुशोदक मिलानेसे ब्रह्मकूर्च बनता है। उसकी विधि इस प्रकार है--पलाश या कमलके पत्तेमें"
+          "hindi": "१. इस प्रसड़के प्रायः अधिक श्लोक यम-स्मृतिसे और कुछ श्लोक वृद्धशातातप-स्मृतिसे भी मिलते हैं। २. पञ्चगव्य और कुशोदक मिलानेसे ब्रह्मकूर्च बनता है। उसकी विधि इस प्रकार है--पलाश या कमलके पत्तेमें",
+          "translation": "Waters are said to be the hosts of gods, and waters are the hosts of ancestors; therefore water should be given by one wishing the ancestors' good.",
+          "translationSource": "ai"
         },
         {
           "number": 91,
           "sanskrit": "दिवासूर्यांशुसंतत्पं रात्रौ नक्षत्रमारुतैः । मध्ययोरप्युभाभ्यां च पवित्रं सर्वदा जलम्",
           "transliteration": "divāsūryāṃśusaṃtatpaṃ rātrau nakṣatramārutaiḥ / madhyayorapyubhābhyāṃ ca pavitraṃ sarvadā jalam",
-          "hindi": "अथवा ताँबे या सुवर्णके पात्रमें पदञ्चगव्य संग्रह करना चाहिए। गायत्री-मन्त्रसे गोमूत्रका, 'गन्धद्वारा०' इस मन्त्रसे गोबरका, ' आप्यायस्व० ' इस मन्त्रसे दूधका, 'दधिक्राव्णो० ' इस मन्त्रसे दहीका, 'तेजो5सि शुक्रं० ' इस मन्त्रसे घीका और 'देवस्य त्वा० ' इस मन्त्रसे कुशोदकका संग्रह करे। चतुर्दशीको उपवास करके अमावास्याको उपर्युक्त वस्तुओंका संग्रह करे। गोमूत्र एक पल होना चाहिए। गोबर आधे अँगूठेके बराबर हो। दूधका मान सात पल और दहीका तीन"
+          "hindi": "अथवा ताँबे या सुवर्णके पात्रमें पदञ्चगव्य संग्रह करना चाहिए। गायत्री-मन्त्रसे गोमूत्रका, 'गन्धद्वारा०' इस मन्त्रसे गोबरका, ' आप्यायस्व० ' इस मन्त्रसे दूधका, 'दधिक्राव्णो० ' इस मन्त्रसे दहीका, 'तेजो5सि शुक्रं० ' इस मन्त्रसे घीका और 'देवस्य त्वा० ' इस मन्त्रसे कुशोदकका संग्रह करे। चतुर्दशीको उपवास करके अमावास्याको उपर्युक्त वस्तुओंका संग्रह करे। गोमूत्र एक पल होना चाहिए। गोबर आधे अँगूठेके बराबर हो। दूधका मान सात पल और दहीका तीन",
+          "translation": "Water warmed by the sun's rays by day, by stars and winds by night, and by both between, is always pure.",
+          "translationSource": "ai"
         },
         {
           "number": 92,
           "sanskrit": "स्वभावयुक्तमव्यक्तममेध्येन सदा शुचिः । भाण्डस्थं धरणीस्थं वा पवित्रं सर्वदा जलम्",
           "transliteration": "svabhāvayuktamavyaktamamedhyena sadā śuciḥ / bhāṇḍasthaṃ dharaṇīsthaṃ vā pavitraṃ sarvadā jalam",
-          "hindi": "पल है।घी और कुशोदक एक-एक पल बताये गये हैं। इस प्रकार इन सबको एकत्र करके परस्पर मिला दे। तत्पश्चात् सात-सात पत्तोंक तीन कुश लेकर जिनके अग्रभाग कटे न हों, उनसे उस पश्चगव्यकी अग्निमें आहुति दे। आहुतिसे बचे हुए पञ्चगव्यको प्रणवसे आलोडन और प्रणवसे ही मनन्‍्थन करके प्रणवसे ही हाथमें ले तथा फिर प्रणबका ही उच्चारण करके उसे पी जाय। इस प्रकार तैयार किये हुए पश्चगव्यको ब्रह्मकूर्च कहते है। स्त्री-शूद्रॉको ब्राह्मणके द्वारा"
+          "hindi": "पल है।घी और कुशोदक एक-एक पल बताये गये हैं। इस प्रकार इन सबको एकत्र करके परस्पर मिला दे। तत्पश्चात् सात-सात पत्तोंक तीन कुश लेकर जिनके अग्रभाग कटे न हों, उनसे उस पश्चगव्यकी अग्निमें आहुति दे। आहुतिसे बचे हुए पञ्चगव्यको प्रणवसे आलोडन और प्रणवसे ही मनन्‍्थन करके प्रणवसे ही हाथमें ले तथा फिर प्रणबका ही उच्चारण करके उसे पी जाय। इस प्रकार तैयार किये हुए पश्चगव्यको ब्रह्मकूर्च कहते है। स्त्री-शूद्रॉको ब्राह्मणके द्वारा",
+          "translation": "Water of its natural state, unmanifest, never defiled by impurity, whether in a vessel or on the ground, is always pure.",
+          "translationSource": "ai"
         },
         {
           "number": 93,
           "sanskrit": "देवतानां पितॄणां च जलं दद्याज्जलाञ्जलीन् । असंस्कृतप्रमीतानां स्थले दद्याद्विचक्षणः",
           "transliteration": "devatānāṃ pitṝṇāṃ ca jalaṃ dadyājjalāñjalīn / asaṃskṛtapramītānāṃ sthale dadyādvicakṣaṇaḥ",
-          "hindi": "पञ्चगव्य बनवाकर प्रणव उच्चारणके बिना ही पीना चाहिए। सर्वसाधारणके लिये ब्रह्मकूर्च-पानका मन्त्र यह है-- यत्त्वगस्थिगतं पाप॑ देहे तिष्ठति देहिनाम्। ब्रह्मकूर्चो दहेत्सव॑ प्रदीत्ताग्निरिवेन्धनम्॥"
+          "hindi": "पञ्चगव्य बनवाकर प्रणव उच्चारणके बिना ही पीना चाहिए। सर्वसाधारणके लिये ब्रह्मकूर्च-पानका मन्त्र यह है-- यत्त्वगस्थिगतं पाप॑ देहे तिष्ठति देहिनाम्। ब्रह्मकूर्चो दहेत्सव॑ प्रदीत्ताग्निरिवेन्धनम्॥",
+          "translation": "One should give handfuls of water to the gods and ancestors; for those who died without rites, the wise should give on the ground.",
+          "translationSource": "ai"
         },
         {
           "number": 94,
           "sanskrit": "श्रद्धे हवनकाले च दद्यादेकेन पाणिना । उभाभ्यां तर्पणे दद्यादेष धर्मो व्यवस्थितः",
           "transliteration": "śraddhe havanakāle ca dadyādekena pāṇinā / ubhābhyāṃ tarpaṇe dadyādeṣa dharmo vyavasthitaḥ",
-          "hindi": "अर्थात् 'देहधारियोंके शरीरमें चमड़े और हड्डीतकमें जो पाप विद्यमान है, वह सब ब्रह्मकूर्च इस प्रकार जला दे,"
+          "hindi": "अर्थात् 'देहधारियोंके शरीरमें चमड़े और हड्डीतकमें जो पाप विद्यमान है, वह सब ब्रह्मकूर्च इस प्रकार जला दे,",
+          "translation": "At a shraddha and at the time of oblation one gives with one hand; in tarpana with both: this rule is fixed.",
+          "translationSource": "ai"
         }
       ]
     },
