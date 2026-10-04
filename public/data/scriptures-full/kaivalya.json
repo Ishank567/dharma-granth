@@ -29,7 +29,9 @@
           "sanskrit": "तस्मै स होवाच पितामहश्च श्रद्धाभक्तिध्यानयोगादवैहि",
           "transliteration": "tasmai sa hovāca pitāmahaśca śraddhābhaktidhyānayogādavaihi",
           "translation": "To him the Grandsire replied: Know it through faith, devotion, meditation and yoga.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उस (आश्वलायन) से पितामह ब्रह्मा ने कहा — श्रद्धा, भक्ति, ध्यान और योग के द्वारा इस (परब्रह्म-तत्त्व) को जानो।",
+          "hindiSource": "ai"
         },
         {
           "number": 3,
@@ -45,42 +47,54 @@
           "sanskrit": "वेदान्तविज्ञानसुनिश्र्चितार्थाः संन्यासयोगाद्यतयः शुद्धसत्त्वाः । ते ब्रह्मलोकेषु परान्तकाले परामृताः परिमुच्यन्ति सर्वे",
           "transliteration": "vedāntavijñānasuniśrcitārthāḥ saṃnyāsayogādyatayaḥ śuddhasattvāḥ | te brahmalokeṣu parāntakāle parāmṛtāḥ parimucyanti sarve",
           "translation": "Those who have ascertained the meaning of the knowledge of the Vedanta, the ascetics of pure mind through the discipline of renunciation, in the worlds of Brahman, at the supreme end of time, being supremely immortal, are all liberated.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "जो साधक वेदान्त-विज्ञान के अर्थ को सुनिश्चित कर चुके हैं, जो संन्यास-योग के द्वारा शुद्ध-अन्तःकरण वाले यती हैं, वे सब अन्त समय में ब्रह्मलोक में परम अमरता को प्राप्त होकर सर्वथा मुक्त हो जाते हैं।",
+          "hindiSource": "ai"
         },
         {
           "number": 5,
           "sanskrit": "विविक्तदेशे च सुखासनस्थः शुचिः समग्रीवशिरःशरीरः । अत्याश्रमस्थः सकलेन्द्रियाणि निरुध्य भक्त्या स्वगुरुं प्रणम्य",
           "transliteration": "viviktadeśe ca sukhāsanasthaḥ śuciḥ samagrīvaśiraḥśarīraḥ | atyāśramasthaḥ sakalendriyāṇi nirudhya bhaktyā svaguruṃ praṇamya",
           "translation": "In a secluded place, seated in a comfortable posture, pure, with the body, head and neck in one straight line, standing beyond the stages of life, restraining all the senses, and bowing to one's teacher with devotion —",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "एकान्त स्थान में सुखपूर्वक आसन पर बैठकर, पवित्र होकर, गर्दन-सिर-शरीर को एक सीध में रखकर, समस्त आश्रमों से परे स्थित (अत्याश्रमी) होकर, सम्पूर्ण इन्द्रियों को रोककर तथा भक्तिपूर्वक अपने गुरु को प्रणाम करके —",
+          "hindiSource": "ai"
         },
         {
           "number": 6,
           "sanskrit": "हृत्पुण्डरीकं विरजं विशुद्धं विचिन्त्य मध्ये विशदं विशोकम् । अचिन्त्यमव्यक्तमनन्तरूपं शिवं प्रशान्तममृतं ब्रह्मयोनिम्",
           "transliteration": "hṛtpuṇḍarīkaṃ virajaṃ viśuddhaṃ vicintya madhye viśadaṃ viśokam | acintyamavyaktamanantarūpaṃ śivaṃ praśāntamamṛtaṃ brahmayonim",
           "translation": "Meditating in the heart on the lotus, free from dust and utterly pure, and in its centre the clear, sorrowless One — the unthinkable, the unmanifest, of endless form, the auspicious, the tranquil, the immortal, the source of Brahma —",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "हृदय-कमल को — जो रजोरहित और अत्यन्त विशुद्ध है — चिंतन करके, उसके मध्य में स्थित स्पष्ट, शोकरहित, अचिन्त्य, अव्यक्त, अनन्तरूप, शिव, प्रशान्त, अमृत तथा ब्रह्मा-सहित समस्त सृष्टि के योनि (मूल कारण) स्वरूप परमेश्वर का ध्यान करके —",
+          "hindiSource": "ai"
         },
         {
           "number": 7,
           "sanskrit": "तमादिमध्यान्तविहीनमेकं विभुं चिदानन्दमरूपमद्भुतम् । var तथादि उमासहायं परमेश्वरं प्रभुं त्रिलोचनं नीलकण्ठं प्रशान्तम् । ध्यात्वा मुनिर्गच्छति भूतयोनिं समस्तसाक्षिं तमसः परस्तात्",
           "transliteration": "tamādimadhyāntavihīnamekaṃ vibhuṃ cidānandamarūpamadbhutam | var tathādi umāsahāyaṃ parameśvaraṃ prabhuṃ trilocanaṃ nīlakaṇṭhaṃ praśāntam | dhyātvā munirgacchati bhūtayoniṃ samastasākṣiṃ tamasaḥ parastāt",
           "translation": "Him who is without beginning, middle or end, the One, the all-pervading, consciousness and bliss, formless, wonderful — the Supreme Lord, the master, accompanied by Uma, three-eyed, blue-throated, tranquil — having meditated on him, the sage goes to the source of beings, the witness of all, beyond darkness.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उस तत्त्व का — जो आदि-मध्य-अन्त से रहित, एक, सर्वव्यापी, चिदानन्दस्वरूप, अरूप और अद्भुत है; जो उमा-सहाय, परमेश्वर, प्रभु, त्रिलोचन, नीलकण्ठ और प्रशान्त है — ध्यान करके मुनि भूतों की योनि (मूल कारण), समस्त का साक्षी तथा अज्ञान-अंधकार से परे तत्त्व को प्राप्त होता है।",
+          "hindiSource": "ai"
         },
         {
           "number": 8,
           "sanskrit": "स ब्रह्मा स शिवः सेन्द्रः सोऽक्षरः परमः स्वराट् । स एव विष्णुः स प्राणः स कालोऽग्निः स चन्द्रमाः",
           "transliteration": "sa brahmā sa śivaḥ sendraḥ so'kṣaraḥ paramaḥ svarāṭ | sa eva viṣṇuḥ sa prāṇaḥ sa kālo'gniḥ sa candramāḥ",
           "translation": "He is Brahma, he is Shiva, he is Indra; he is the Imperishable, the Supreme, the self-luminous. He alone is Vishnu, he is the vital breath, he is Time, the Fire, he is the Moon.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "वही (परम तत्त्व) ब्रह्मा है, वही शिव है, वही इन्द्र है; वही अक्षर, परम और स्वराट् (स्वयं-प्रकाशित सम्राट्) है। वही विष्णु है, वही प्राण है, वही काल है, अग्नि है और वही चन्द्रमा है।",
+          "hindiSource": "ai"
         },
         {
           "number": 9,
           "sanskrit": "स एव सर्वं यद्भूतं यच्च भव्यं सनातनम् । ज्ञात्वा तं मृत्युमत्येति नान्यः पन्था विमुक्तये",
           "transliteration": "sa eva sarvaṃ yadbhūtaṃ yacca bhavyaṃ sanātanam | jñātvā taṃ mṛtyumatyeti nānyaḥ panthā vimuktaye",
           "translation": "He alone is all that has been and all that will be, the eternal. Knowing him, one passes beyond death; there is no other path to liberation.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "वही सब कुछ है — जो भूतकाल में हुआ और जो भविष्य में होगा — वह सनातन है। उसे जानकर (साधक) मृत्यु के परे चला जाता है; मुक्ति के लिए अन्य कोई मार्ग नहीं है।",
+          "hindiSource": "ai"
         },
         {
           "number": 10,
@@ -96,28 +110,36 @@
           "sanskrit": "आत्मानमरणिं कृत्वा प्रणवं चोत्तरारणिम् । ज्ञाननिर्मथनाभ्यासात्पापं दहति पण्डितः",
           "transliteration": "ātmānamaraṇiṃ kṛtvā praṇavaṃ cottarāraṇim | jñānanirmathanābhyāsātpāpaṃ dahati paṇḍitaḥ",
           "translation": "Making the Self the lower fire-stick and Om the upper fire-stick, by the practice of the churning of knowledge the wise man burns away sin.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "आत्मा को नीचे की अरणी (अग्नि उत्पन्न करने की काष्ठ) और प्रणव (ॐ) को ऊपर की अरणी बनाकर, ज्ञान-मंथन के अभ्यास से जानने वाला साधक (पंडित) पाप को जला देता है।",
+          "hindiSource": "ai"
         },
         {
           "number": 12,
           "sanskrit": "var पाशं स एव मायापरिमोहितात्मा शरीरमास्थाय करोति सर्वम् । स्त्र्यन्नपानादिविचित्रभोगैः स एव जाग्रत्परितृप्तिमेति",
           "transliteration": "var pāśaṃ sa eva māyāparimohitātmā śarīramāsthāya karoti sarvam | stryannapānādivicitrabhogaiḥ sa eva jāgratparitṛptimeti",
           "translation": "That same Self, deluded by Maya and having taken a body, does everything; through the varied enjoyments of women, food, drink and the like, it in the waking state attains satisfaction.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "वही (आत्मा) माया से मोहित होकर शरीर का आश्रय लेकर सब कुछ करता है; स्त्री, अन्न, पान आदि विचित्र भोगों के द्वारा वही जाग्रत-अवस्था में परितृप्ति (तृप्ति का भाव) को प्राप्त होता है।",
+          "hindiSource": "ai"
         },
         {
           "number": 13,
           "sanskrit": "स्वप्ने स जीवः सुखदुःखभोक्ता स्वमायया कल्पितजीवलोके । सुषुप्तिकाले सकले विलीने तमोऽभिभूतः सुखरूपमेति",
           "transliteration": "svapne sa jīvaḥ sukhaduḥkhabhoktā svamāyayā kalpitajīvaloke | suṣuptikāle sakale vilīne tamo'bhibhūtaḥ sukharūpameti",
           "translation": "In dream, that individual soul experiences pleasure and pain in a world of individual souls conjured up by its own Maya. In deep sleep, when everything is dissolved, overcome by darkness it attains a state of bliss.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "स्वप्न में वही जीव अपनी ही माया से कल्पित जीव-लोक में सुख-दुःख का भोक्ता होता है। सुषुप्ति (गहरी नींद) के काल में, जब सब कुछ लीन हो जाता है, तब तम (अंधकार) से अभिभूत होकर वह सुखरूप (आनन्द की छाया) को प्राप्त होता है।",
+          "hindiSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "पुनश्च जन्मान्तरकर्मयोगात्स एव जीवः स्वपिति प्रबुद्धः । पुरत्रये क्रीडति यश्च जीवस्ततस्तु जातं सकलं विचित्रम् । आधारमानन्दमखण्डबोधं यस्मिँल्लयं याति पुरत्रयं च",
           "transliteration": "punaśca janmāntarakarmayogātsa eva jīvaḥ svapiti prabuddhaḥ | puratraye krīḍati yaśca jīvastatastu jātaṃ sakalaṃ vicitram | ādhāramānandamakhaṇḍabodhaṃ yasmi~llayaṃ yāti puratrayaṃ ca",
           "translation": "Again, through the connection with the deeds of another birth, that same soul sleeps and awakens. The soul that plays in the three cities — from it all this manifold universe is born. In the substratum, bliss, undivided consciousness, the three cities dissolve.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "पुनः पूर्व-जन्मों के कर्म-संयोग से वही जीव सोता है और जागता है। जो जीव तीन पुरों (जाग्रत्, स्वप्न और सुषुप्ति) में क्रीड़ा करता है, उसी से यह सारा विचित्र जगत उत्पन्न हुआ है — और जिस आधार, आनन्दस्वरूप, अखण्ड-बोध (अविभाजित चेतना) में ये तीनों पुर लीन हो जाते हैं, वही परम तत्त्व है।",
+          "hindiSource": "ai"
         },
         {
           "number": 15,
@@ -133,7 +155,9 @@
           "sanskrit": "यत्परं ब्रह्म सर्वात्मा विश्वस्यायतनं महत् । सूक्ष्मात्सूक्ष्मतरं नित्यं तत्त्वमेव त्वमेव तत्",
           "transliteration": "yatparaṃ brahma sarvātmā viśvasyāyatanaṃ mahat | sūkṣmātsūkṣmataraṃ nityaṃ tattvameva tvameva tat",
           "translation": "That which is the supreme Brahman, the Self of all, the great abode of the universe, subtler than the subtle, eternal — that you are; you yourself are That.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "जो परम ब्रह्म सर्वों की आत्मा है, विश्व का महान् आयतन (आश्रय) है, सूक्ष्म से भी सूक्ष्मतर और नित्य है — वह तत्त्व तू ही है; तू स्वयं ही वह है।",
+          "hindiSource": "ai"
         },
         {
           "number": 17,
@@ -149,7 +173,9 @@
           "sanskrit": "त्रिषु धामसु यद्भोग्यं भोक्ता भोगश्च यद्भवेत् । तेभ्यो विलक्षणः साक्षी चिन्मात्रोऽहं सदाशिवः",
           "transliteration": "triṣu dhāmasu yadbhogyaṃ bhoktā bhogaśca yadbhavet | tebhyo vilakṣaṇaḥ sākṣī cinmātro'haṃ sadāśivaḥ",
           "translation": "That which is the enjoyable in the three states, the enjoyer, and the enjoyment — I am distinct from them: the witness, pure consciousness, the ever-auspicious Shiva.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "तीनों अवस्थाओं में जो भोग्य है, जो भोक्ता है और जो भोग है — उन सबसे मैं विलक्षण (सर्वथा भिन्न) हूँ; मैं साक्षी, चिन्मात्र (शुद्ध चेतना-मात्र), सदाशिव हूँ।",
+          "hindiSource": "ai"
         },
         {
           "number": 19,
@@ -171,35 +197,45 @@
           "sanskrit": "अणोरणीयानहमेव तद्वन्महानहं विश्वमहं विचित्रम् । पुरातनोऽहं पुरुषोऽहमीशो हिरण्मयोऽहं शिवरूपमस्मि",
           "transliteration": "aṇoraṇīyānahameva tadvanmahānahaṃ viśvamahaṃ vicitram | purātano'haṃ puruṣo'hamīśo hiraṇmayo'haṃ śivarūpamasmi",
           "translation": "I am indeed smaller than the smallest and likewise greater than the great; I am the manifold universe. I am the ancient, I am the Person, I am the Lord, I am the golden one; I am of the form of Shiva.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "मैं अणु से भी छोटा हूँ और उसी प्रकार महान् से भी बड़ा हूँ; मैं ही यह विचित्र विश्व हूँ। मैं पुरातन हूँ, मैं पुरुष हूँ, मैं ईश्वर हूँ, मैं हिरण्मय (स्वर्ण-ज्योतिर्मय) हूँ — मैं शिव-स्वरूप हूँ।",
+          "hindiSource": "ai"
         },
         {
           "number": 21,
           "sanskrit": "अपाणिपादोऽहमचिन्त्यशक्तिः पश्याम्यचक्षुः स शृणोम्यकर्णः । अहं विजानामि विविक्तरूपो न चास्ति वेत्ता मम चित्सदाऽहम्",
           "transliteration": "apāṇipādo'hamacintyaśaktiḥ paśyāmyacakṣuḥ sa śṛṇomyakarṇaḥ | ahaṃ vijānāmi viviktarūpo na cāsti vettā mama citsadā'ham",
           "translation": "I am without hands and feet, of inconceivable power; I see without eyes, I hear without ears. I know, of secluded form, and there is no knower of me — I am ever consciousness.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "मैं हाथ-पैर रहित होकर भी अचिन्त्य शक्ति वाला हूँ; बिना नेत्रों के देखता हूँ, बिना कानों के सुनता हूँ। मैं विविक्त रूप से जानता हूँ और मुझे जानने वाला कोई नहीं है — मैं सदा चित् (चेतना-स्वरूप) हूँ।",
+          "hindiSource": "ai"
         },
         {
           "number": 22,
           "sanskrit": "वेदैरनेकैरहमेव वेद्यो वेदान्तकृद्वेदविदेव चाहम् । न पुण्यपापे मम नास्ति नाशो न जन्म देहेन्द्रियबुद्धिरस्ति",
           "transliteration": "vedairanekairahameva vedyo vedāntakṛdvedavideva cāham | na puṇyapāpe mama nāsti nāśo na janma dehendriyabuddhirasti",
           "translation": "I am the one to be known through the many Vedas; I am the maker of the Vedanta and the knower of the Vedas. For me there is neither merit nor sin, neither destruction nor birth; body, senses and intellect do not exist for me.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "मैं ही अनेक वेदों द्वारा जानने योग्य हूँ; मैं ही वेदान्त का रचयिता और वेदों का ज्ञाता भी हूँ। मेरे लिए पुण्य-पाप नहीं है, न नाश है, न जन्म है; मेरे लिए देह, इन्द्रिय और बुद्धि का अस्तित्व नहीं है।",
+          "hindiSource": "ai"
         },
         {
           "number": 23,
           "sanskrit": "न भूमिरापो न च वह्निरस्ति न चानिलो मेऽस्ति न चाम्बरं च । एवं विदित्वा परमात्मरूपं गुहाशयं निष्कलमद्वितीयम्",
           "transliteration": "na bhūmirāpo na ca vahnirasti na cānilo me'sti na cāmbaraṃ ca | evaṃ viditvā paramātmarūpaṃ guhāśayaṃ niṣkalamadvitīyam",
           "translation": "There is for me no earth, no water, no fire, no air and no space. Having thus known the nature of the Supreme Self, dwelling in the cave of the heart, without parts, without a second —",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "मेरे लिए न पृथ्वी है, न जल है, न अग्नि है, न वायु है और न आकाश ही है। इस प्रकार परमात्मा के स्वरूप को — जो (हृदय-)गुहा में निवास करने वाला, निष्कल (अंशरहित) और अद्वितीय है — जानकर...",
+          "hindiSource": "ai"
         },
         {
           "number": 24,
           "sanskrit": "समस्तसाक्षिं सदसद्विहीनं प्रयाति शुद्धं परमात्मरूपम् ॥ यः शतरुद्रियमधीते सोऽग्निपूतो भवति सुरापानात्पूतो भवति स ब्रह्महत्यायाः पूतो भवति स सुवर्णस्तेयात्पूतो भवति स कृत्याकृत्यात्पूतो भवति तस्मादविमुक्तमाश्रितो भवत्यत्याश्रमी सर्वदा सकृद्वा जपेत् ॥ अनेन ज्ञानमाप्नोति संसारार्णवनाशनम् । तस्मादेवं विदित्वैनं कैवल्यं पदमश्नुते कैवल्यं पदमश्नुत इति",
           "transliteration": "samastasākṣiṃ sadasadvihīnaṃ prayāti śuddhaṃ paramātmarūpam || yaḥ śatarudriyamadhīte so'gnipūto bhavati surāpānātpūto bhavati sa brahmahatyāyāḥ pūto bhavati sa suvarṇasteyātpūto bhavati sa kṛtyākṛtyātpūto bhavati tasmādavimuktamāśrito bhavatyatyāśramī sarvadā sakṛdvā japet || anena jñānamāpnoti saṃsārārṇavanāśanam | tasmādevaṃ viditvainaṃ kaivalyaṃ padamaśnute kaivalyaṃ padamaśnuta iti",
           "translation": "— one attains the pure nature of the Supreme Self, the witness of all, free from being and non-being. He who studies the Shatarudriya is purified by fire, is purified from drinking liquor, is purified from the murder of a Brahmin, is purified from the theft of gold, is purified from right and wrong deeds; therefore he takes refuge in the Avimukta and, standing beyond the stages of life, should always recite it, or at least once. By this he attains knowledge that destroys the ocean of worldly existence; therefore, knowing him thus, he attains the state of Kaivalya — he attains the state of Kaivalya.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "समस्त के साक्षी, सत्-असत् से रहित, शुद्ध परमात्म-स्वरूप को प्राप्त होता है। जो शतरुद्रिय का अध्ययन करता है, वह अग्नि से पवित्र हो जाता है; सुरापान (के पाप) से शुद्ध हो जाता है, ब्रह्महत्या से शुद्ध हो जाता है, सुवर्ण-चोरी से शुद्ध हो जाता है, कृत्य और अकृत्य (कर्तव्य-अकर्तव्य के दोष) से शुद्ध हो जाता है। इसलिए वह अविमुक्त (क्षेत्र) का आश्रय लेता है; अत्याश्रमी (आश्रम-मर्यादा से परे) होकर उसे सर्वदा — या कम से कम एक बार — जपना चाहिए। इससे वह उस ज्ञान को प्राप्त करता है जो संसार-रूपी अर्णव (सागर) का नाश करने वाला है; इसलिए उसे इस प्रकार जानकर कैवल्य-पद को प्राप्त होता है — कैवल्य-पद को ही प्राप्त होता है।",
+          "hindiSource": "ai"
         }
       ]
     }

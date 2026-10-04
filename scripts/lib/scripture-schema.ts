@@ -10,6 +10,8 @@ export interface FullVerse {
   /** "ai" when the translation was machine-generated from the Sanskrit. */
   translationSource?: "ai";
   hindi?: string;
+  /** "ai" when the Hindi meaning was machine-generated from the Sanskrit. */
+  hindiSource?: "ai";
   wordMeaning?: string;
   commentary?: string;
   explanation?: string;
