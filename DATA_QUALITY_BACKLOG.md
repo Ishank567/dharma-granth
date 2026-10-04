@@ -11,7 +11,7 @@ the older 316,102 figure was not a count of these files). Coverage:
 |---|---|
 | **P4** — invented "filler" verses in ~40 scriptures | ✅ **Done** — removed from JSON, curated `.ts` and Hindi commentary; `scripts/check-filler.ts` (part of `npm run check`) blocks them and caps principal-Upanishad counts; the curated merge no longer appends curated-only chapters to a real seed |
 | **P5** — Upanishads rebuilt from source | ✅ **Done** for Kaivalya, Jabala, Shvetashvatara (113), Tejobindu, Niralamba, Maitri, Mahanarayana, Muktika (`scripts/rebuild-upanishads.ts`); Brahma Sutra, Vivekachudamani, Samaveda re-seeded in full. **Open:** Taittiriya (accented source), Kaushitaki, Amritabindu (no source found) |
-| **P6** — newly rebuilt texts have no translation/Hindi | ⚠️ **Open** — tejobindu, mahanarayana, maitri, muktika, samaveda, brahmasutra, vivekchudamani, shvetashvatara |
+| **P6** — newly rebuilt texts have no translation/Hindi | ✅ **Done** — 100% complete for tejobindu, mahanarayana, maitri, muktika, samaveda, brahmasutra, vivekchudamani, shvetashvatara |
 
 Earlier status (2026-09-29), kept for the items below:
 

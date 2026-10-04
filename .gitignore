@@ -63,7 +63,7 @@ public/data/scriptures-full/*/
 
 # Temporary scratch scripts and wisdomlib extraction HTML caches
 scripts/_tmp_*
-scripts/cache/wisdomlib-*.html
+scripts/cache/*
 
 # local logs
 *.log
