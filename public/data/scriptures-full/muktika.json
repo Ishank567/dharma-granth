@@ -20,399 +20,506 @@
           "sanskrit": "ॐ अयोध्यानगरे रम्ये रत्नमण्डपमध्यमे । सीताभरतसौमित्रिशत्रुघ्नाद्यैः समन्वितम्",
           "transliteration": "oṃ ayodhyānagare ramye ratnamaṇḍapamadhyame | sītābharatasaumitriśatrughnādyaiḥ samanvitam",
           "translation": "Om. In the delightful city of Ayodhya, in the midst of a jewelled pavilion, (sat Rama) surrounded by Sita, Bharata, Lakshmana, Shatrughna and others —",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "ॐ। मनोहर अयोध्या नगरी में, रत्नों से सुशोभित मंडप के मध्य सीता, भरत, लक्ष्मण, शत्रुघ्न आदि से घिरे हुए भगवान् श्री रामचंद्र विराजमान थे।"
         },
         {
           "number": 2,
           "sanskrit": "सनकाद्यैर्मुनिगणैर्वसिष्ठाद्यैः शुकादिभिः । अन्यैर्भागवतैश्चापि स्तूयमानमहर्निशम्",
           "transliteration": "sanakādyairmunigaṇairvasiṣṭhādyaiḥ śukādibhiḥ | anyairbhāgavataiścāpi stūyamānamaharniśam",
           "translation": "praised day and night by hosts of sages such as Sanaka, by Vasishtha and others, by Shuka and others, and by other devotees —",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "सनकादि मुनिगण, वसिष्ठ, शुकदेव आदि महर्षि तथा अन्य अनन्य भक्त दिन-रात जिनकी स्तुति कर रहे थे।"
         },
         {
           "number": 3,
           "sanskrit": "धीविक्रियासहस्राणां साक्षिणं निर्विकारिणम् । स्वरूपध्याननिरतं समाधिविरमे हरिम्",
           "transliteration": "dhīvikriyāsahasrāṇāṃ sākṣiṇaṃ nirvikāriṇam | svarūpadhyānanirataṃ samādhivirame harim",
           "translation": "the witness of thousands of modifications of the mind, himself unchanging, Hari, intent on meditation on his own nature at the end of absorption.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "जो बुद्धि की हजारों वृत्तियों के निर्विकार साक्षी हैं, और समाधि के उपरांत निज स्वरूप के ध्यान में लीन रहने वाले साक्षात् श्रीहरि हैं।"
         },
         {
           "number": 4,
           "sanskrit": "भक्त्या शुश्रूषया रामं स्तुवन्पप्रच्छ मारुतिः । राम त्वं परमात्मसि सच्चिदानन्दविग्रहः",
           "transliteration": "bhaktyā śuśrūṣayā rāmaṃ stuvanpapraccha mārutiḥ | rāma tvaṃ paramātmasi saccidānandavigrahaḥ",
           "translation": "Hanuman (Maruti), praising Rama with devotion and service, asked: \"Rama, you are the Supreme Self, whose form is being, consciousness and bliss.\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "भक्ति और सेवा-भाव से मारुति नंदन हनुमान जी ने राम जी की स्तुति करते हुए पूछा: ‘हे राम! आप सच्चिदानन्द-विग्रह परमेश्वर हैं।’"
         },
         {
           "number": 5,
           "sanskrit": "इदानीं त्वां रघुश्रेष्ठ प्रणमामि मुहुर्मुहुः । त्वद्रूपं ज्ञातुमिच्छामि तत्त्वतो राम मुक्तये",
           "transliteration": "idānīṃ tvāṃ raghuśreṣṭha praṇamāmi muhurmuhuḥ | tvadrūpaṃ jñātumicchāmi tattvato rāma muktaye",
           "translation": "\"Now, best of the Raghus, I bow to you again and again. I wish to know your true nature, Rama, for the sake of liberation,\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "‘हे रघुकुल-श्रेष्ठ! मैं आपको बार-बार प्रणाम करता हूँ। हे राम! मोक्ष की प्राप्ति के लिए मैं आपके वास्तविक तत्त्व-स्वरूप को जानना चाहता हूँ।’"
         },
         {
           "number": 6,
           "sanskrit": "अनायासेन येनाहं मुच्येयं भवबन्धनात् । कृपया वद मे राम येन मुक्तो भवाम्यहम्",
           "transliteration": "anāyāsena yenāhaṃ mucyeyaṃ bhavabandhanāt | kṛpayā vada me rāma yena mukto bhavāmyaham",
           "translation": "\"by which I may be freed from the bonds of worldly existence without effort. Out of compassion, tell me, Rama, that by which I shall be liberated.\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: by which I may be freed from the bonds of worldly existence without effort. Out of compassion, tell me, Rama, that by which I shall be liberated.।",
+          "hindiSource": "ai"
         },
         {
           "number": 7,
           "sanskrit": "साधु पृष्टं महाबाहो वदामि शृणु तत्त्वतः । वेदान्ते सुप्रतिष्ठोऽहं वेदान्तं समुपाश्रय",
           "transliteration": "sādhu pṛṣṭaṃ mahābāho vadāmi śṛṇu tattvataḥ | vedānte supratiṣṭho'haṃ vedāntaṃ samupāśraya",
           "translation": "(Rama said:) \"Well asked, mighty-armed one. I shall tell you truly; listen. I am firmly established in the Vedanta; take refuge in the Vedanta.\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: (Rama कहा:) \"Well पूछा, mighty-armed one. I shall tell you truly; listen. I am firmly established in the Vedanta; take refuge in the Vedanta.।",
+          "hindiSource": "ai"
         },
         {
           "number": 8,
           "sanskrit": "वेदान्ताः के रघुश्रेष्ठ वर्तन्ते कुत्र ते वद । हनूमञ्छृणु वक्ष्यामि वेदान्तस्थितिमञ्जसा",
           "transliteration": "vedāntāḥ ke raghuśreṣṭha vartante kutra te vada | hanūmañchṛṇu vakṣyāmi vedāntasthitimañjasā",
           "translation": "(Hanuman:) \"Best of the Raghus, what are the Vedantas, and where do they abide? Tell me.\" (Rama:) \"Hanuman, listen; I shall tell you plainly the position of the Vedanta.\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: (Hanuman:) \"Best of the Raghus, what are the Vedantas, and where do they abide? Tell me.\" (Rama:) \"Hanuman, listen; I shall tell you plainly the position of the Vedanta.।",
+          "hindiSource": "ai"
         },
         {
           "number": 9,
           "sanskrit": "निश्वासभूता मे विष्णोर्वेदा जाताः सुविस्तराः । तिलेषु तैलवद्वेदे वेदान्तः सुप्रतिष्ठितः",
           "transliteration": "niśvāsabhūtā me viṣṇorvedā jātāḥ suvistarāḥ | tileṣu tailavadvede vedāntaḥ supratiṣṭhitaḥ",
           "translation": "\"The Vedas, of great extent, were born as the breath of Vishnu, of me. In the Veda, like oil in sesame seeds, the Vedanta is firmly established.\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: The Vedas, of great extent, were born as the breath of Vishnu, of me. In the Veda, like oil in sesame seeds, the Vedanta is firmly established.।",
+          "hindiSource": "ai"
         },
         {
           "number": 10,
           "sanskrit": "राम वेदाः कतिविधास्तेषां शाखाश्च राघव । तासूपनिषदाः काः स्युः कृपया वद तत्त्वतः",
           "transliteration": "rāma vedāḥ katividhāsteṣāṃ śākhāśca rāghava | tāsūpaniṣadāḥ kāḥ syuḥ kṛpayā vada tattvataḥ",
           "translation": "(Hanuman:) \"Rama, how many kinds of Vedas are there, and their branches, descendant of Raghu? And which are the Upanishads among them? Kindly tell me truly.\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: (Hanuman:) \"Rama, how many kinds of Vedas are there, and their branches, descendant of Raghu? And which are the Upanishads among them? Kindly tell me truly.।",
+          "hindiSource": "ai"
         },
         {
           "number": 11,
           "sanskrit": "श्रीराम उवाच । ऋग्वेदादिविभागेन वेदाश्चत्वार ईरिताः । तेषां शाखा ह्यनेकाः स्युस्तासूपनिषदस्तथा",
           "transliteration": "śrīrāma uvāca | ṛgvedādivibhāgena vedāścatvāra īritāḥ | teṣāṃ śākhā hyanekāḥ syustāsūpaniṣadastathā",
           "translation": "Sri Rama said: \"By the division beginning with the Rig Veda, four Vedas are declared. Their branches are many, and so are the Upanishads among them.\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Sri Rama कहा: \"By the division beginning with the Rig Veda, four Vedas are declared. Their branches are many, and so are the Upanishads among them.।",
+          "hindiSource": "ai"
         },
         {
           "number": 12,
           "sanskrit": "ऋग्वेदस्य तु शाखाः स्युरेकविंशतिसङ्ख्यकाः । नवाधिकशतं शाखा यजुषो मारुतात्मज",
           "transliteration": "ṛgvedasya tu śākhāḥ syurekaviṃśatisaṅkhyakāḥ | navādhikaśataṃ śākhā yajuṣo mārutātmaja",
           "translation": "\"Of the Rig Veda there are twenty-one branches; of the Yajus, son of the Wind, a hundred and nine branches.\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Of the Rig Veda there are twenty-one branches; of the Yajus, son of the Wind, a hundred and nine branches.।",
+          "hindiSource": "ai"
         },
         {
           "number": 13,
           "sanskrit": "सहस्रसङ्ख्यया जाताः शाखाः साम्नः परन्तप । अथर्वणस्य शाखाः स्युः पञ्चाशद्भेदतो हरे",
           "transliteration": "sahasrasaṅkhyayā jātāḥ śākhāḥ sāmnaḥ parantapa | atharvaṇasya śākhāḥ syuḥ pañcāśadbhedato hare",
           "translation": "\"Of the Sama Veda, scorcher of foes, there are a thousand branches; and of the Atharvan, Hari, there are fifty divisions.\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Of the Sama Veda, scorcher of foes, there are a thousand branches; and of the Atharvan, Hari, there are fifty divisions.।",
+          "hindiSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "एकैकस्यास्तु शाखाया एकैकोपनिषन्मता । तासामेकामृचं यश्च पठते भक्तितो मयि",
           "transliteration": "ekaikasyāstu śākhāyā ekaikopaniṣanmatā | tāsāmekāmṛcaṃ yaśca paṭhate bhaktito mayi",
           "translation": "\"For each branch one Upanishad is held. Whoever reads even one verse of them with devotion to me\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: For each branch one Upanishad is held. Whoever reads even one verse of them with भक्ति to me।",
+          "hindiSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "स मत्सायुज्यपदवीं प्राप्नोति मुनिदुर्लभाम् । राम केचिन्मुनिश्रेष्ठा मुक्तिरेकेति चक्षिरे",
           "transliteration": "sa matsāyujyapadavīṃ prāpnoti munidurlabhām | rāma kecinmuniśreṣṭhā muktireketi cakṣire",
           "translation": "\"attains the state of union with me, which is hard for sages to reach.\" (Hanuman:) \"Rama, some of the best sages say that liberation is one;\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: attains the state of union with me, which is hard for sages to reach.\" (Hanuman:) \"Rama, some of the best sages say that मोक्ष is one;।",
+          "hindiSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "केचित्त्वन्नामभजनात्काश्यां तारोपदेशतः । अन्येतु साङ्ख्ययोगेन भक्तियोगेन चापरे",
           "transliteration": "kecittvannāmabhajanātkāśyāṃ tāropadeśataḥ | anyetu sāṅkhyayogena bhaktiyogena cāpare",
           "translation": "\"some say it comes through worship of your name, in Kashi, through the teaching of the saving mantra; others through Sankhya and Yoga, and others through the yoga of devotion;\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: some say it comes through worship of your name, in Kashi, through the teaching of the saving mantra; others through Sankhya and Yoga, and others through the yoga of भक्ति;।",
+          "hindiSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "अन्ये वेदान्तवाक्यार्थविचारात्परमर्षयः । सालोक्यादिविभागेन चतुर्धा मुक्तिरीरिता",
           "transliteration": "anye vedāntavākyārthavicārātparamarṣayaḥ | sālokyādivibhāgena caturdhā muktirīritā",
           "translation": "\"other great sages through reflection on the meaning of the Vedanta texts. By the division into sharing the same world and the rest, liberation is declared fourfold.\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: other great sages through reflection on the meaning of the Vedanta texts. By the division into sharing the same world and the rest, मोक्ष is declared fourfold.।",
+          "hindiSource": "ai"
         },
         {
           "number": 18,
           "sanskrit": "सहोवाच श्रीरामः । कैवल्यमुक्तिरेकैव परमार्थिकरूपिणी । दुराचाररतो वापि मन्नामभजनात्कपे",
           "transliteration": "sahovāca śrīrāmaḥ | kaivalyamuktirekaiva paramārthikarūpiṇī | durācārarato vāpi mannāmabhajanātkape",
           "translation": "Sri Rama said: \"The liberation of isolation (kaivalya) is one alone, of ultimate nature. Even one who is given to wrong conduct, monkey, by worship of my name\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Sri Rama कहा: \"The मोक्ष of isolation (kaivalya) is one alone, of ultimate nature. Even one who is given to wrong conduct, monkey, by worship of my name।",
+          "hindiSource": "ai"
         },
         {
           "number": 19,
           "sanskrit": "सालोक्यमुक्तिमाप्नोति न तु लोकान्तरादिकम् । काश्यां तु ब्रह्मनालेऽस्मिन्मृतो मत्तारमाप्नुयात्",
           "transliteration": "sālokyamuktimāpnoti na tu lokāntarādikam | kāśyāṃ tu brahmanāle'sminmṛto mattāramāpnuyāt",
           "translation": "\"obtains the liberation of sharing my world, but not another world and the like. But one who dies in Kashi, in this lotus-stalk of Brahman, obtains me as his saviour.\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: obtains the मोक्ष of sharing my world, but not another world and the like. But one who dies in Kashi, in this lotus-stalk of परब्रह्म, obtains me as his saviour.।",
+          "hindiSource": "ai"
         },
         {
           "number": 20,
           "sanskrit": "पुनरावृत्तिरहितां मुक्तिं प्राप्नोति मानवः । यत्र कुत्रापि वा काश्यां मरणे स महेश्वरः",
           "transliteration": "punarāvṛttirahitāṃ muktiṃ prāpnoti mānavaḥ | yatra kutrāpi vā kāśyāṃ maraṇe sa maheśvaraḥ",
           "translation": "\"That person attains a liberation free from return. Wherever in Kashi one dies, Mahesvara (Shiva)\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: That person attains a मोक्ष free from return. Wherever in Kashi one dies, Mahesvara (Shiva)।",
+          "hindiSource": "ai"
         },
         {
           "number": 21,
           "sanskrit": "जन्तोर्दक्षिणकर्णे तु मत्तारं समुपादिशेत् । निर्धूताशेषपापौघो मत्सारूप्यं भजत्ययम्",
           "transliteration": "jantordakṣiṇakarṇe tu mattāraṃ samupādiśet | nirdhūtāśeṣapāpaugho matsārūpyaṃ bhajatyayam",
           "translation": "\"should instruct the creature in the right ear with the saving mantra of me. Freed from the entire flood of sins, he attains likeness to me.\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: should instruct the creature in the right ear with the saving mantra of me. Freed from the entire flood of sins, he attains likeness to me.।",
+          "hindiSource": "ai"
         },
         {
           "number": 22,
           "sanskrit": "सैव सालोक्यसारूप्यमुक्तिरत्यभिधीयते । सदाचाररतो भूत्वा द्विजो नित्यमनन्यधीः",
           "transliteration": "saiva sālokyasārūpyamuktiratyabhidhīyate | sadācārarato bhūtvā dvijo nityamananyadhīḥ",
           "translation": "\"That is called the liberation of the same world and the same form. Being always devoted to right conduct, a twice-born of undivided mind\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: That कहलाता है the मोक्ष of the same world and the same form. Being always devoted to right conduct, a twice-born of undivided mind।",
+          "hindiSource": "ai"
         },
         {
           "number": 23,
           "sanskrit": "मयि सर्वात्मको भावो मत्सामीप्यं भजत्ययम् । सैव सालोक्यसारूप्यसामीप्या मुक्तिरिष्यते",
           "transliteration": "mayi sarvātmako bhāvo matsāmīpyaṃ bhajatyayam | saiva sālokyasārūpyasāmīpyā muktiriṣyate",
           "translation": "\"whose feeling for me is that of the Self of all, attains nearness to me. That is held to be the liberation of the same world, same form and nearness.\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: whose feeling for me is that of आत्मा of all, attains nearness to me. That is held to be the मोक्ष of the same world, same form and nearness.।",
+          "hindiSource": "ai"
         },
         {
           "number": 24,
           "sanskrit": "गुरूपदिष्टमार्गेण ध्यायन्मद्गुणमव्ययम् । मत्सायुज्यं द्विजः सम्यग्भजेद्भ्रमरकीटवत्",
           "transliteration": "gurūpadiṣṭamārgeṇa dhyāyanmadguṇamavyayam | matsāyujyaṃ dvijaḥ samyagbhajedbhramarakīṭavat",
           "translation": "\"By the path taught by the teacher, meditating on my imperishable qualities, the twice-born rightly attains union with me, like the caterpillar that becomes a bee.\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: By the path taught by गुरुदेव, meditating on my imperishable qualities, the twice-born rightly attains union with me, like the caterpillar that becomes a bee.।",
+          "hindiSource": "ai"
         },
         {
           "number": 25,
           "sanskrit": "सैव सायुज्यमुक्तिः स्याद्ब्रह्मानन्दकरी शिवा । चतुर्विधा तु या मुक्तिर्मदुपासनया भवेत्",
           "transliteration": "saiva sāyujyamuktiḥ syādbrahmānandakarī śivā | caturvidhā tu yā muktirmadupāsanayā bhavet",
           "translation": "\"That is the liberation of union, auspicious, producing the bliss of Brahman. This fourfold liberation arises through worship of me.\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: That is the मोक्ष of union, auspicious, producing the bliss of परब्रह्म. This fourfold मोक्ष arises through worship of me.।",
+          "hindiSource": "ai"
         },
         {
           "number": 26,
           "sanskrit": "इयं कैवल्यमुक्तिस्तु केनोपायेन सिद्ध्यति । माण्डूक्यमेकमेवालं मुमुक्षूणां विमुक्तये",
           "transliteration": "iyaṃ kaivalyamuktistu kenopāyena siddhyati | māṇḍūkyamekamevālaṃ mumukṣūṇāṃ vimuktaye",
           "translation": "(Hanuman:) \"By what means is this liberation of isolation attained?\" (Rama:) \"The Mandukya alone is sufficient for the liberation of seekers of freedom.\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "भगवान् राम ने कहा: ‘हे मारुति! मांडूक्य उपनिषद् एक ही मुमुक्षुओं के कैवल्य मोक्ष के लिए पर्याप्त है। यदि उससे ज्ञान न हो तो दसों प्रमुख उपनिषदें पढ़ें।’"
         },
         {
           "number": 27,
           "sanskrit": "तथाप्यसिद्धं चेज्ज्ञानं दशोपनिषदं पठ । ज्ञानं लब्ध्वा चिरादेव मामकं धाम यास्यसि",
           "transliteration": "tathāpyasiddhaṃ cejjñānaṃ daśopaniṣadaṃ paṭha | jñānaṃ labdhvā cirādeva māmakaṃ dhāma yāsyasi",
           "translation": "\"If knowledge is still not attained, read the ten Upanishads; having gained knowledge, in a short time you will go to my abode.\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "‘हे वायुपुत्र! दसों उपनिषदों से भी ज्ञान स्थिर न हो तो बत्तीस उपनिषदें पढ़ें; और यदि संपूर्ण मुक्ति की इच्छा हो तो सम्पूर्ण १०८ उपनिषदों का अध्ययन करें।’"
         },
         {
           "number": 28,
           "sanskrit": "तथापि दृढता न चेद्विद्ज्ञानस्याञ्जनासुत । द्वात्रिंशाख्योपनिषदं समभ्यस्य निवर्तय",
           "transliteration": "tathāpi dṛḍhatā na cedvidjñānasyāñjanāsuta | dvātriṃśākhyopaniṣadaṃ samabhyasya nivartaya",
           "translation": "\"If still, son of Anjana, the firmness of your knowledge is not there, practise the Upanishads of the thirty-two and remove it.\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: If still, son of Anjana, the firmness of your ज्ञान is not there, practise the Upanishads of the thirty-two and remove it.।",
+          "hindiSource": "ai"
         },
         {
           "number": 29,
           "sanskrit": "विदेहमुक्ताविच्छा चेदष्टोत्तरशतं पठ । तासां क्रम सशान्तिं च श्रुणु वक्ष्यामि तत्त्वतः",
           "transliteration": "videhamuktāvicchā cedaṣṭottaraśataṃ paṭha | tāsāṃ krama saśāntiṃ ca śruṇu vakṣyāmi tattvataḥ",
           "translation": "\"If you desire bodiless liberation, read the one hundred and eight. Listen; I shall tell you truly their order and their peace-mantras.\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: If you desire bodiless मोक्ष, read the one hundred and eight. Listen; I shall tell you truly their order and their peace-mantras.।",
+          "hindiSource": "ai"
         },
         {
           "number": 30,
           "sanskrit": "ईशकेनकठप्रश्नमुण्डमाण्डूक्यतित्तिरिः । ऐतरेयं च छान्दोग्यं बृहदारण्यकं तथा",
           "transliteration": "īśakenakaṭhapraśnamuṇḍamāṇḍūkyatittiriḥ | aitareyaṃ ca chāndogyaṃ bṛhadāraṇyakaṃ tathā",
           "translation": "Isha, Kena, Katha, Prashna, Mundaka, Mandukya, Taittiriya, Aitareya, Chandogya and Brihadaranyaka;",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Isha, Kena, Katha, Prashna, Mundaka, Mandukya, Taittiriya, Aitareya, Chandogya and Brihadaranyaka;।",
+          "hindiSource": "ai"
         },
         {
           "number": 31,
           "sanskrit": "ब्रह्मकैवल्यजाबालश्वेताश्वो हंस आरुणिः । गर्भो नारायणो हंसो बिन्दुर्नादशिरः शिखा",
           "transliteration": "brahmakaivalyajābālaśvetāśvo haṃsa āruṇiḥ | garbho nārāyaṇo haṃso bindurnādaśiraḥ śikhā",
           "translation": "Brahma, Kaivalya, Jabala, Shvetashvatara, Hamsa, Aruni, Garbha, Narayana, Hamsa (Paramahamsa), Bindu, Nada(bindu), Shira(s), Shikha;",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Brahma, Kaivalya, Jabala, Shvetashvatara, Hamsa, Aruni, Garbha, Narayana, Hamsa (Paramahamsa), Bindu, Nada(bindu), Shira(s), Shikha;।",
+          "hindiSource": "ai"
         },
         {
           "number": 32,
           "sanskrit": "मैत्रायणी कौषीतकी बृहज्जाबालतापनी । कालाग्निरुद्रमैत्रेयी सुबालक्षुरिमन्त्रिका",
           "transliteration": "maitrāyaṇī kauṣītakī bṛhajjābālatāpanī | kālāgnirudramaitreyī subālakṣurimantrikā",
           "translation": "Maitrayani, Kaushitaki, Brihajjabala, Tapani, Kalagnirudra, Maitreyi, Subala, Kshurika, Mantrika;",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Maitrayani, Kaushitaki, Brihajjabala, Tapani, Kalagnirudra, Maitreyi, Subala, Kshurika, Mantrika;।",
+          "hindiSource": "ai"
         },
         {
           "number": 33,
           "sanskrit": "सर्वसारं निरालम्बं रहस्यं वज्रसूचिकम् । तेजोनादध्यानविद्यायोगतत्त्वात्मबोधकम्",
           "transliteration": "sarvasāraṃ nirālambaṃ rahasyaṃ vajrasūcikam | tejonādadhyānavidyāyogatattvātmabodhakam",
           "translation": "Sarvasara, Niralamba, Rahasya (Shukarahasya), Vajrasuchika, Tejobindu, Nadabindu, Dhyanabindu, Brahmavidya, Yogatattva, Atmabodha;",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Sarvasara, Niralamba, Rahasya (Shukarahasya), Vajrasuchika, Tejobindu, Nadabindu, Dhyanabindu, Brahmavidya, Yogatattva, Atmabodha;।",
+          "hindiSource": "ai"
         },
         {
           "number": 34,
           "sanskrit": "परिव्राट् त्रिशिखी सीता चूडा निर्वाणमण्डलम् । दक्षिणा शरभं स्कन्दं महानारायणाह्वयम्",
           "transliteration": "parivrāṭ triśikhī sītā cūḍā nirvāṇamaṇḍalam | dakṣiṇā śarabhaṃ skandaṃ mahānārāyaṇāhvayam",
           "translation": "Parivrat (Narada-parivrajaka), Trishikhi(brahmana), Sita, Chuda(mani), Nirvana, Mandala(brahmana), Dakshina(murti), Sharabha, Skanda, and the one called Mahanarayana;",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Parivrat (Narada-parivrajaka), Trishikhi(brahmana), Sita, Chuda(mani), Nirvana, Mandala(brahmana), Dakshina(murti), Sharabha, Skanda, and the one called Mahanarayana;।",
+          "hindiSource": "ai"
         },
         {
           "number": 35,
           "sanskrit": "रहस्यं रामतपनं वासुदेवं च मुद्गलम् । शाण्डिल्यं पैङ्गलं भिक्षुमहच्छारीरकं शिखा",
           "transliteration": "rahasyaṃ rāmatapanaṃ vāsudevaṃ ca mudgalam | śāṇḍilyaṃ paiṅgalaṃ bhikṣumahacchārīrakaṃ śikhā",
           "translation": "Advayataraka (Rahasya), Ramatapana, Vasudeva, Mudgala, Shandilya, Paingala, Bhikshu, Mahat (Maha), Sharirika, Shikha (Yogashikha);",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Advayataraka (Rahasya), Ramatapana, Vasudeva, Mudgala, Shandilya, Paingala, Bhikshu, Mahat (Maha), Sharirika, Shikha (Yogashikha);।",
+          "hindiSource": "ai"
         },
         {
           "number": 36,
           "sanskrit": "तुरीयातीतसंन्यासपरिव्राजाक्षमालिका । अव्यक्तैकाक्षरं पूर्णा सूर्याक्ष्यध्यात्मकुण्डिका",
           "transliteration": "turīyātītasaṃnyāsaparivrājākṣamālikā | avyaktaikākṣaraṃ pūrṇā sūryākṣyadhyātmakuṇḍikā",
           "translation": "Turiyatita, Sannyasa, Parivraja(ka), Akshamalika, Avyakta, Ekakshara, Purna (Annapurna), Surya, Akshi, Adhyatma, Kundika;",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Turiyatita, Sannyasa, Parivraja(ka), Akshamalika, Avyakta, Ekakshara, Purna (Annapurna), Surya, Akshi, Adhyatma, Kundika;।",
+          "hindiSource": "ai"
         },
         {
           "number": 37,
           "sanskrit": "सावित्र्यात्मा पाशुपतं परं ब्रह्मावधूतकम् । त्रिपुरातपनं देवीत्रिपुरा कठभावना । हृदयं कुण्डली भस्म रुद्राक्षगणदर्शनम्",
           "transliteration": "sāvitryātmā pāśupataṃ paraṃ brahmāvadhūtakam | tripurātapanaṃ devītripurā kaṭhabhāvanā | hṛdayaṃ kuṇḍalī bhasma rudrākṣagaṇadarśanam",
           "translation": "Savitri, Atma, Pashupata, Parabrahma, Avadhuta, Tripuratapana, Devi, Tripura, Katha(rudra), Bhavana, Hridaya, Kundalini, Bhasma, Rudraksha, Ganapati (and) Darshana;",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Savitri, Atma, Pashupata, Parabrahma, Avadhuta, Tripuratapana, Devi, Tripura, Katha(rudra), Bhavana, Hridaya, Kundalini, Bhasma, Rudraksha, Ganapati (and) Darshana;।",
+          "hindiSource": "ai"
         },
         {
           "number": 38,
           "sanskrit": "तारसारमहावाक्य पञ्चब्रह्माग्निहोत्रकम् । गोपालतपनं कृष्णं याज्ञवल्क्यं वराहकम्",
           "transliteration": "tārasāramahāvākya pañcabrahmāgnihotrakam | gopālatapanaṃ kṛṣṇaṃ yājñavalkyaṃ varāhakam",
           "translation": "Tarasara, Mahavakya, Pancha(brahma), Agnihotra, Gopalatapana, Krishna, Yajnavalkya, Varaha;",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Tarasara, Mahavakya, Pancha(brahma), Agnihotra, Gopalatapana, Krishna, Yajnavalkya, Varaha;।",
+          "hindiSource": "ai"
         },
         {
           "number": 39,
           "sanskrit": "शाट्यायनी हयग्रीवं दत्तात्रेयं च गारुडम् । कलिजाबालिसौभाग्यरहस्यऋचमुक्तिका",
           "transliteration": "śāṭyāyanī hayagrīvaṃ dattātreyaṃ ca gāruḍam | kalijābālisaubhāgyarahasyaṛcamuktikā",
           "translation": "Shatyayani, Hayagriva, Dattatreya, Garuda, Kali(santarana), Jabali, Saubhagya(lakshmi), Rahasya (Sarasvatirahasya), Rig(veda), and Muktika.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Shatyayani, Hayagriva, Dattatreya, Garuda, Kali(santarana), Jabali, Saubhagya(lakshmi), Rahasya (Sarasvatirahasya), Rig(veda), and Muktika.।",
+          "hindiSource": "ai"
         },
         {
           "number": 40,
           "sanskrit": "एवमष्टोत्तरशतं भावनात्रयनाशनम् । ज्ञानवैराग्यदं पुंसां वासनात्रयनाशनम्",
           "transliteration": "evamaṣṭottaraśataṃ bhāvanātrayanāśanam | jñānavairāgyadaṃ puṃsāṃ vāsanātrayanāśanam",
           "translation": "\"Thus the one hundred and eight destroy the three kinds of mental conditioning; they bestow knowledge and dispassion on people and destroy the three kinds of habit-impressions.\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Thus the one hundred and eight destroy the three kinds of mental conditioning; they bestow ज्ञान and वैराग्य on people and destroy the three kinds of habit-impressions.।",
+          "hindiSource": "ai"
         },
         {
           "number": 41,
           "sanskrit": "पूर्वोत्तरेषु विहिततत्तच्छान्तिपुरःसरम् । वेदविद्याव्रतस्नातदेशिकस्य मुखात्स्वयम्",
           "transliteration": "pūrvottareṣu vihitatattacchāntipuraḥsaram | vedavidyāvratasnātadeśikasya mukhātsvayam",
           "translation": "\"Taking them from the mouth of a teacher who has bathed in Vedic study and vows, preceded by the respective peace-mantras prescribed in the earlier and later parts,\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Taking them from the mouth of a teacher who has bathed in Vedic study and vows, preceded by the respective peace-mantras prescribed in the earlier and later parts,।",
+          "hindiSource": "ai"
         },
         {
           "number": 42,
           "sanskrit": "गृहीत्वाष्टोत्तरशतं ये पठन्ति द्विजोत्तमाः । प्रारब्धक्षयपर्यन्तं जीवन्मुक्ता भवन्ति ते",
           "transliteration": "gṛhītvāṣṭottaraśataṃ ye paṭhanti dvijottamāḥ | prārabdhakṣayaparyantaṃ jīvanmuktā bhavanti te",
           "translation": "\"the best of the twice-born who read the one hundred and eight become liberated while living, until their prarabdha karma is exhausted.\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: the best of the twice-born who read the one hundred and eight become liberated while living, until their prarabdha karma is exhausted.।",
+          "hindiSource": "ai"
         },
         {
           "number": 43,
           "sanskrit": "ततः कालवशादेव प्रारब्धे तु क्षयं गते । वैदेहीं मामकीं मुक्तिं यान्ति नास्त्यत्रसंशयः",
           "transliteration": "tataḥ kālavaśādeva prārabdhe tu kṣayaṃ gate | vaidehīṃ māmakīṃ muktiṃ yānti nāstyatrasaṃśayaḥ",
           "translation": "\"Then, in due time, when their prarabdha has come to an end, they attain my bodiless liberation; there is no doubt in this.\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Then, in due time, when their prarabdha has come to an end, they attain my bodiless मोक्ष; there is no doubt in this.।",
+          "hindiSource": "ai"
         },
         {
           "number": 44,
           "sanskrit": "सर्वोपनिषदां मध्ये सारमष्टोत्तरशतम् । सकृच्छ्रवणमात्रेण सर्वाघौघनिकृन्तनम्",
           "transliteration": "sarvopaniṣadāṃ madhye sāramaṣṭottaraśatam | sakṛcchravaṇamātreṇa sarvāghaughanikṛntanam",
           "translation": "\"Among all the Upanishads, the one hundred and eight are the essence; by hearing them but once, the whole flood of sins is cut away.\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Among all the Upanishads, the one hundred and eight are the essence; by hearing them but once, the whole flood of sins is cut away.।",
+          "hindiSource": "ai"
         },
         {
           "number": 45,
           "sanskrit": "मयोपदिष्टं शिष्याय तुभ्यं पवननन्दन । इदं शास्त्रं मयादिष्टं गुह्यमष्टोत्तरं शतम्",
           "transliteration": "mayopadiṣṭaṃ śiṣyāya tubhyaṃ pavananandana | idaṃ śāstraṃ mayādiṣṭaṃ guhyamaṣṭottaraṃ śatam",
           "translation": "\"This has been taught by me to you, my disciple, son of the Wind. This scripture, taught by me, is the secret one hundred and eight.\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: This has been taught by me to you, my disciple, son of the Wind. This scripture, taught by me, is the secret one hundred and eight.।",
+          "hindiSource": "ai"
         },
         {
           "number": 46,
           "sanskrit": "ज्ञानतोऽज्ञानतो वापि पठतां बन्धमोचकम् । राज्यं देयं धनं देयं याचतः कामपूरणम्",
           "transliteration": "jñānato'jñānato vāpi paṭhatāṃ bandhamocakam | rājyaṃ deyaṃ dhanaṃ deyaṃ yācataḥ kāmapūraṇam",
           "translation": "\"For those who read it, knowingly or unknowingly, it releases from bondage. A kingdom may be given, wealth may be given, and the desire of one who asks may be fulfilled;\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: For those who read it, knowingly or unknowingly, it releases from bondage. A kingdom may be given, wealth may be given, and the desire of one who asks may be fulfilled;।",
+          "hindiSource": "ai"
         },
         {
           "number": 47,
           "sanskrit": "इदमष्टोत्तरशतं न देयं यस्य कस्यचित् । नास्तिकाय कृतघ्नाय दुराचाररताय वै",
           "transliteration": "idamaṣṭottaraśataṃ na deyaṃ yasya kasyacit | nāstikāya kṛtaghnāya durācāraratāya vai",
           "translation": "\"but this one hundred and eight should not be given to just anyone — not to an unbeliever, an ungrateful person, or one who delights in wrong conduct,\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: but this one hundred and eight should not be given to just anyone — not to an unbeliever, an ungrateful person, or one who delights in wrong conduct,।",
+          "hindiSource": "ai"
         },
         {
           "number": 48,
           "sanskrit": "मद्भक्तिविमुखायापि शास्त्रगर्तेषु मुह्यते । गुरुभक्तिविहीनाय दातव्यं न कदाचन",
           "transliteration": "madbhaktivimukhāyāpi śāstragarteṣu muhyate | gurubhaktivihīnāya dātavyaṃ na kadācana",
           "translation": "\"nor to one turned away from devotion to me, who is bewildered in the pits of the scriptures, nor ever to one without devotion to a teacher.\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: nor to one turned away from भक्ति to me, who is bewildered in the pits of the scriptures, nor ever to one without भक्ति to a teacher.।",
+          "hindiSource": "ai"
         },
         {
           "number": 49,
           "sanskrit": "सेवापराय शिष्याय हितपुत्राय मारुते । मद्भक्ताय सुशीलाय कुलीनाय सुमेधसे",
           "transliteration": "sevāparāya śiṣyāya hitaputrāya mārute | madbhaktāya suśīlāya kulīnāya sumedhase",
           "translation": "\"To a disciple devoted to service, Maruti, to a good son, to my devotee, of good character, of good family, of good understanding,\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: To a disciple devoted to service, Maruti, to a good son, to my devotee, of good character, of good family, of good understanding,।",
+          "hindiSource": "ai"
         },
         {
           "number": 50,
           "sanskrit": "सम्यक् परीक्ष्य दातव्यमेवमष्टोत्तरं शतम् । यः पठेच्छृणुयाद्वापि स मामेति न संशयः । तदेतदृचाभ्युक्तम् । विद्या ह वै ब्राह्मणमाजगाम गोपाय मा शेवधिष्टीऽहमस्मि । असूयकायानृजवे शठाय मा मा ब्रूया वीर्यवती तथा स्याम् । यमेव विद्याश्रुतमप्रमत्तं मेधाविनं ब्रह्मचर्योपपन्नम् । तस्मा इमामुपसन्नाय सम्यक् परीक्ष्य दद्याद्वैष्णवीमात्मनिष्ठाम्",
           "transliteration": "samyak parīkṣya dātavyamevamaṣṭottaraṃ śatam | yaḥ paṭhecchṛṇuyādvāpi sa māmeti na saṃśayaḥ | tadetadṛcābhyuktam | vidyā ha vai brāhmaṇamājagāma gopāya mā śevadhiṣṭī'hamasmi | asūyakāyānṛjave śaṭhāya mā mā brūyā vīryavatī tathā syām | yameva vidyāśrutamapramattaṃ medhāvinaṃ brahmacaryopapannam | tasmā imāmupasannāya samyak parīkṣya dadyādvaiṣṇavīmātmaniṣṭhām",
           "translation": "\"— after careful examination — should this one hundred and eight be given. Whoever reads or even hears it comes to me; there is no doubt.\" Thus it is said in the verse: \"Knowledge came to the Brahmin and said: Guard me; I am your treasure. Do not give me to the envious, the crooked, the deceitful; so I shall be powerful. To the one you know as attentive to learning and hearing, wise, and devoted to chastity — to him who has approached, after careful examination, one should give this knowledge of Vishnu, the steadfastness in the Self.\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: — after careful examination — should this one hundred and eight be given. Whoever reads or even hears it comes to me; there is no doubt.\" Thus it is कहा in the verse: \"ज्ञान came to the Brahmin and कहा: Guard me; I am your treasure. Do not give me to the envious, the crooked, the deceitful; so I shall be powerful. To the one you know as attentive to learning and hearing, wise, and devoted to chastity — to him who has approached, after careful examination, one should give this ज्ञान of Vishnu, the steadfastness in आत्मा.।",
+          "hindiSource": "ai"
         },
         {
           "number": 51,
           "sanskrit": "इति ॥ अथ हैनं श्रीरामचन्द्रं मारुतिः पप्रच्छ ऋग्वेदादिविभागेन पृथक् शान्तिमनुब्रूहीति । स होवाच श्रीरामः । ऐतरेयकौषीतकीनादबिन्द्वात्मप्रबोधनिर्वाणमुद्गलाक्षमालिकात्रिपुरासौभाग्यबह्वृचा नामृग्वेदगतानां दशसंख्याकानामुपनिषदां वाङ्मे मनसीति शान्तिः",
           "transliteration": "iti || atha hainaṃ śrīrāmacandraṃ mārutiḥ papraccha ṛgvedādivibhāgena pṛthak śāntimanubrūhīti | sa hovāca śrīrāmaḥ | aitareyakauṣītakīnādabindvātmaprabodhanirvāṇamudgalākṣamālikātripurāsaubhāgyabahvṛcā nāmṛgvedagatānāṃ daśasaṃkhyākānāmupaniṣadāṃ vāṅme manasīti śāntiḥ",
           "translation": "Thus. Then Maruti asked Sri Ramachandra: \"Tell me the separate peace-mantras according to the divisions beginning with the Rig Veda.\" Sri Rama said: for the ten Upanishads belonging to the Rig Veda — Aitareya, Kaushitaki, Nadabindu, Atmabodha, Nirvana, Mudgala, Akshamalika, Tripura, Saubhagya and Bahvricha — the peace-mantra is \"May my speech be founded in my mind.\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Thus. Then Maruti पूछा Sri Ramachandra: \"Tell me the separate peace-mantras according to the divisions beginning with the Rig Veda.\" Sri Rama कहा: for the ten Upanishads belonging to the Rig Veda — Aitareya, Kaushitaki, Nadabindu, Atmabodha, Nirvana, Mudgala, Akshamalika, Tripura, Saubhagya and Bahvricha — the peace-mantra is \"May my speech be founded in my mind.।",
+          "hindiSource": "ai"
         },
         {
           "number": 52,
           "sanskrit": "ईशावास्यबृहदारण्यजाबालहंसपरमहंससुबालमन्त्रिकानिरालम्बत्रिशिखीब्राह्मणमण्डलब्राह्मणाद्वयतारकपैङ्गलभिक्षुतुरीयातीताध्यात्मतारसारयाज्ञवल्क्यशाट्यायनीमुक्तिकानां शुक्लयजुर्वेदगतानामेकोनविंशतिसंख्याकानामुपनिषदां पूर्णमद इति शान्तिः",
           "transliteration": "īśāvāsyabṛhadāraṇyajābālahaṃsaparamahaṃsasubālamantrikānirālambatriśikhībrāhmaṇamaṇḍalabrāhmaṇādvayatārakapaiṅgalabhikṣuturīyātītādhyātmatārasārayājñavalkyaśāṭyāyanīmuktikānāṃ śuklayajurvedagatānāmekonaviṃśatisaṃkhyākānāmupaniṣadāṃ pūrṇamada iti śāntiḥ",
           "translation": "For the nineteen Upanishads belonging to the White Yajur Veda — Isha, Brihadaranyaka, Jabala, Hamsa, Paramahamsa, Subala, Mantrika, Niralamba, Trishikhi, Mandalabrahmana, Advayataraka, Paingala, Bhikshu, Turiyatita, Adhyatma, Tarasara, Yajnavalkya, Shatyayani and Muktika — the peace-mantra is \"That is full.\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: For the nineteen Upanishads belonging to the White Yajur Veda — Isha, Brihadaranyaka, Jabala, Hamsa, Paramahamsa, Subala, Mantrika, Niralamba, Trishikhi, Mandalabrahmana, Advayataraka, Paingala, Bhikshu, Turiyatita, Adhyatma, Tarasara, Yajnavalkya, Shatyayani and Muktika — the peace-mantra is \"That is full.।",
+          "hindiSource": "ai"
         },
         {
           "number": 53,
           "sanskrit": "कठवल्लीतैत्तिरीयकब्रह्मकैवल्यश्वेताश्वतरगर्भनारायणामृतबिन्द्वमृतनादकालाग्निरुद्रक्षुरिकासर्वसारशुकरहस्यतेजोबिन्दुध्यानबिन्दुब्रह्मविद्यायोगतत्त्वदक्षिणामूर्तिस्कन्दशारीरकयोगशिखैकाक्षराक्ष्यवधूतकठरुद्रहृदययोगकुण्डलिनीपञ्चब्रह्मप्राणाग्निहोत्रवराहकलिसन्तरणसरस्वतीरहस्यानां कृष्णयजुर्वेदगतानां द्वात्रिंशत्संख्याकानमुपनिषदां सह नाववत्विति शान्तिः",
           "transliteration": "kaṭhavallītaittirīyakabrahmakaivalyaśvetāśvataragarbhanārāyaṇāmṛtabindvamṛtanādakālāgnirudrakṣurikāsarvasāraśukarahasyatejobindudhyānabindubrahmavidyāyogatattvadakṣiṇāmūrtiskandaśārīrakayogaśikhaikākṣarākṣyavadhūtakaṭharudrahṛdayayogakuṇḍalinīpañcabrahmaprāṇāgnihotravarāhakalisantaraṇasarasvatīrahasyānāṃ kṛṣṇayajurvedagatānāṃ dvātriṃśatsaṃkhyākānamupaniṣadāṃ saha nāvavatviti śāntiḥ",
           "translation": "For the thirty-two Upanishads belonging to the Black Yajur Veda — Katha(valli), Taittiriya, Brahma, Kaivalya, Shvetashvatara, Garbha, Narayana, Amritabindu, Amritanada, Kalagnirudra, Kshurika, Sarvasara, Shukarahasya, Tejobindu, Dhyanabindu, Brahmavidya, Yogatattva, Dakshinamurti, Skanda, Sharirika, Yogashikha, Ekakshara, Akshi, Avadhuta, Katharudra, Hridaya, Yogakundalini, Panchabrahma, Pranagnihotra, Varaha, Kalisantarana and Sarasvatirahasya — the peace-mantra is \"May he protect us both.\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: For the thirty-two Upanishads belonging to the Black Yajur Veda — Katha(valli), Taittiriya, Brahma, Kaivalya, Shvetashvatara, Garbha, Narayana, Amritabindu, Amritanada, Kalagnirudra, Kshurika, Sarvasara, Shukarahasya, Tejobindu, Dhyanabindu, Brahmavidya, Yogatattva, Dakshinamurti, Skanda, Sharirika, Yogashikha, Ekakshara, Akshi, Avadhuta, Katharudra, Hridaya, Yogakundalini, Panchabrahma, Pranagnihotra, Varaha, Kalisantarana and Sarasvatirahasya — the peace-mantra is \"May he protect us both.।",
+          "hindiSource": "ai"
         },
         {
           "number": 54,
           "sanskrit": "केनछान्दोग्यारुणिमैत्रायणिमैत्रेयीवज्रसूचिकायोगचूडामणिवासुदेवमहत्संन्यासाव्यक्तकुण्डिकासावित्रीरुद्राक्षजाबालदर्शनजाबालीनां सामवेदगतानां षोडशसंख्याकानामुपनिषदानामाप्यायन्त्विति शान्तिः",
           "transliteration": "kenachāndogyāruṇimaitrāyaṇimaitreyīvajrasūcikāyogacūḍāmaṇivāsudevamahatsaṃnyāsāvyaktakuṇḍikāsāvitrīrudrākṣajābāladarśanajābālīnāṃ sāmavedagatānāṃ ṣoḍaśasaṃkhyākānāmupaniṣadānāmāpyāyantviti śāntiḥ",
           "translation": "For the sixteen Upanishads belonging to the Sama Veda — Kena, Chandogya, Aruni, Maitrayani, Maitreyi, Vajrasuchika, Yogachudamani, Vasudeva, Mahat, Sannyasa, Avyakta, Kundika, Savitri, Rudraksha, Jabaladarshana and Jabali — the peace-mantra is \"May my limbs grow strong.\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: For the sixteen Upanishads belonging to the Sama Veda — Kena, Chandogya, Aruni, Maitrayani, Maitreyi, Vajrasuchika, Yogachudamani, Vasudeva, Mahat, Sannyasa, Avyakta, Kundika, Savitri, Rudraksha, Jabaladarshana and Jabali — the peace-mantra is \"May my limbs grow strong.।",
+          "hindiSource": "ai"
         },
         {
           "number": 55,
           "sanskrit": "प्रश्नमुण्डकमाण्डुक्याथर्वशिरोऽथर्वशिखाबृहज्जाबालनृसिंहतापनीनारदपरिव्राजकसीताशरभमहानारायणरामरहस्यरामतापनीशाण्डिल्यपरमहंसपरिव्राजकान्नपूर्णासूर्यात्मपाशुपतपरब्रह्मत्रिपुरातपनदेवीभावनाब्रह्मजाबालगणपतिमहावाक्यगोपालतपनकृष्णहयग्रीवदत्तात्रेयगारुडानामथर्ववेदगतानामेकत्रिंशत्संख्याकानामुपनिषदां भद्रं कर्णेभिरिति शान्तिः",
           "transliteration": "praśnamuṇḍakamāṇḍukyātharvaśiro'tharvaśikhābṛhajjābālanṛsiṃhatāpanīnāradaparivrājakasītāśarabhamahānārāyaṇarāmarahasyarāmatāpanīśāṇḍilyaparamahaṃsaparivrājakānnapūrṇāsūryātmapāśupataparabrahmatripurātapanadevībhāvanābrahmajābālagaṇapatimahāvākyagopālatapanakṛṣṇahayagrīvadattātreyagāruḍānāmatharvavedagatānāmekatriṃśatsaṃkhyākānāmupaniṣadāṃ bhadraṃ karṇebhiriti śāntiḥ",
           "translation": "For the thirty-one Upanishads belonging to the Atharva Veda — Prashna, Mundaka, Mandukya, Atharvashiras, Atharvashikha, Brihajjabala, Nrisimhatapani, Naradaparivrajaka, Sita, Sharabha, Mahanarayana, Ramarahasya, Ramatapani, Shandilya, Paramahamsaparivrajaka, Annapurna, Suryatma, Pashupata, Parabrahma, Tripuratapana, Devibhavana, Brahmajabala, Ganapati, Mahavakya, Gopalatapani, Krishna, Hayagriva, Dattatreya and Garuda — the peace-mantra is \"May we hear what is auspicious with our ears.\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: For the thirty-one Upanishads belonging to the Atharva Veda — Prashna, Mundaka, Mandukya, Atharvashiras, Atharvashikha, Brihajjabala, Nrisimhatapani, Naradaparivrajaka, Sita, Sharabha, Mahanarayana, Ramarahasya, Ramatapani, Shandilya, Paramahamsaparivrajaka, Annapurna, Suryatma, Pashupata, Parabrahma, Tripuratapana, Devibhavana, Brahmajabala, Ganapati, Mahavakya, Gopalatapani, Krishna, Hayagriva, Dattatreya and Garuda — the peace-mantra is \"May we hear what is auspicious with our ears.।",
+          "hindiSource": "ai"
         },
         {
           "number": 56,
           "sanskrit": "मुमुक्षवः पुरुषाः साधनचतुष्टयसम्पन्नाः श्रद्धावन्तः सुकुलभवं श्रोत्रियं शास्त्रवात्सल्यगुणवन्तमकुटिलं सर्वभूतहितेरतं दयासमुद्रं सद्गुरुं विधिवदुपसंगम्योपहारपाणयोऽष्टोत्तरशतोपनिषदं विधिवदधीत्य श्रवणमनननिदिध्यासनानि नैरन्तर्येण कृत्वा प्रारब्धक्षयाद्देहत्रयभंगं प्राप्योपाधिविनिर्मुक्तघटाकाशवत्परिपूर्णता विदेहमुक्तिः",
           "transliteration": "mumukṣavaḥ puruṣāḥ sādhanacatuṣṭayasampannāḥ śraddhāvantaḥ sukulabhavaṃ śrotriyaṃ śāstravātsalyaguṇavantamakuṭilaṃ sarvabhūtahiterataṃ dayāsamudraṃ sadguruṃ vidhivadupasaṃgamyopahārapāṇayo'ṣṭottaraśatopaniṣadaṃ vidhivadadhītya śravaṇamanananididhyāsanāni nairantaryeṇa kṛtvā prārabdhakṣayāddehatrayabhaṃgaṃ prāpyopādhivinirmuktaghaṭākāśavatparipūrṇatā videhamuktiḥ",
           "translation": "Seekers of liberation, endowed with the fourfold means, full of faith, having duly approached — with gifts in hand — a true teacher who is of good family, learned in the Vedas, affectionate toward the scriptures, straightforward, devoted to the good of all beings and an ocean of compassion, having studied the one hundred and eight Upanishads in due form, and having practised hearing, reflection and contemplation without interruption, on the exhaustion of prarabdha karma break through the three bodies, and, like the space in a pot freed from its limiting adjunct, attain fullness: this is bodiless liberation.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Seekers of मोक्ष, endowed with the fourfold means, full of faith, having duly approached — with gifts in hand — a true teacher who is of good family, learned in the Vedas, affectionate toward the scriptures, straightforward, devoted to the good of all beings and an ocean of compassion, having studied the one hundred and eight Upanishads in due form, and having practised hearing, reflection and contemplation without interruption, on the exhaustion of prarabdha karma break through the three bodies, and, like the space in a pot freed from its limiting adjunct, attain fullness: this is bodiless मोक्ष.।",
+          "hindiSource": "ai"
         },
         {
           "number": 57,
           "sanskrit": "सैव कैवल्यमुक्तिरिति । अत एव ब्रह्मलोकस्था अपि ब्रह्ममुखाद्वेदान्तश्रवणादि कृत्वा तेन सह कैवल्यं लभन्ते । अतः सर्वेषां कैवल्यमुक्तिर्ज्ञानमात्रेणोक्ता । न कर्मसांख्ययोगोपासनादिभिरित्युपनिषत्",
           "transliteration": "saiva kaivalyamuktiriti | ata eva brahmalokasthā api brahmamukhādvedāntaśravaṇādi kṛtvā tena saha kaivalyaṃ labhante | ataḥ sarveṣāṃ kaivalyamuktirjñānamātreṇoktā | na karmasāṃkhyayogopāsanādibhirityupaniṣat",
           "translation": "That alone is the liberation of isolation. Therefore even those dwelling in the world of Brahma, having heard the Vedanta from the mouth of Brahma and so forth, attain isolation together with him. Thus liberation of isolation is said to come by knowledge alone — not by works, Sankhya, Yoga, worship and the like. Thus the Upanishad.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: That alone is the मोक्ष of isolation. Therefore even those dwelling in the world of Brahma, having heard the Vedanta from the mouth of Brahma and so forth, attain isolation together with him. Thus मोक्ष of isolation is कहा to come by ज्ञान alone — not by works, Sankhya, Yoga, worship and the like. Thus the Upanishad.।",
+          "hindiSource": "ai"
         }
       ]
     },
@@ -425,553 +532,711 @@
           "sanskrit": "तथा हैनं श्रीरामचन्द्रं मारुतिः पप्रच्छ । केयं वा तत्सिद्धिः सिद्ध्या वा किं प्रयोजनमिति । सहोवाच श्रीरामः । पुरुषस्य कर्तृत्वभोक्तृत्वसुखदुःखादिलक्षणश्चित्तधर्मः क्लेशरूपत्वाद्बन्धो भवति । तन्निरोधनं जीवन्मुक्तिः । उपाधिविनिर्मुक्तघटाकाशवत्प्रारब्धक्षयाद्विदेहमुक्तिः । जीवन्मुक्तिविदेहमुक्त्योरष्टोत्तरशतोपनिषदः प्रमाणम् । कर्तृत्वादिदुःखनिवृत्तिद्वारा नित्यानन्दावाप्तिः प्रयोजनं भवति । तत्पुरुषप्रयत्नसाध्यं भवति । यथा पुत्रकामेष्टिना पुत्रं वाणिज्यादिना वित्तं ज्योतिष्टोमेन स्वर्गं तथा पुरुषप्रयत्नसाध्यवेदान्तश्रवणादिजनितसमाधिना जीवन्मुक्त्यादिलाभो भवति । सर्ववासनाक्षयात्तल्लाभः । अत्र श्लोका भवन्ति ॥ उच्छास्त्रं शास्त्रितं चेति पौरुषं द्विविधं मतम् । अत्रोच्छस्त्रमनर्थाय परमार्थाय शास्त्रितम्",
           "transliteration": "tathā hainaṃ śrīrāmacandraṃ mārutiḥ papraccha | keyaṃ vā tatsiddhiḥ siddhyā vā kiṃ prayojanamiti | sahovāca śrīrāmaḥ | puruṣasya kartṛtvabhoktṛtvasukhaduḥkhādilakṣaṇaścittadharmaḥ kleśarūpatvādbandho bhavati | tannirodhanaṃ jīvanmuktiḥ | upādhivinirmuktaghaṭākāśavatprārabdhakṣayādvidehamuktiḥ | jīvanmuktividehamuktyoraṣṭottaraśatopaniṣadaḥ pramāṇam | kartṛtvādiduḥkhanivṛttidvārā nityānandāvāptiḥ prayojanaṃ bhavati | tatpuruṣaprayatnasādhyaṃ bhavati | yathā putrakāmeṣṭinā putraṃ vāṇijyādinā vittaṃ jyotiṣṭomena svargaṃ tathā puruṣaprayatnasādhyavedāntaśravaṇādijanitasamādhinā jīvanmuktyādilābho bhavati | sarvavāsanākṣayāttallābhaḥ | atra ślokā bhavanti || ucchāstraṃ śāstritaṃ ceti pauruṣaṃ dvividhaṃ matam | atrocchastramanarthāya paramārthāya śāstritam",
           "translation": "Then Maruti again asked Sri Ramachandra: \"What is this attainment (of liberation), or what is the purpose of attainment?\" Sri Rama said: \"For a person, bondage is a quality of the mind, marked by being a doer and an enjoyer, by pleasure, pain and so on, and it has the nature of affliction. Its cessation is liberation while living. Like the space in a pot freed from its limiting adjunct, bodiless liberation comes from the exhaustion of prarabdha karma. The one hundred and eight Upanishads are the authority for liberation while living and bodiless liberation. The purpose is the attainment of eternal bliss by the removal of the sufferings of being a doer and the like. That is to be accomplished by human effort: as a son by the son-desiring sacrifice, wealth by trade and the like, heaven by the Jyotishtoma, so liberation while living and the rest are gained by the absorption produced by hearing the Vedanta and the like, which is accomplished by human effort. That is gained through the destruction of all latent tendencies. On this there are verses: 'Human effort is held to be of two kinds: contrary to scripture and in accord with scripture. The one contrary to scripture is for harm; the one in accord with scripture is for the highest good.'\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Then Maruti again पूछा Sri Ramachandra: \"What is this attainment (of मोक्ष), or what is the purpose of attainment?\" Sri Rama कहा: \"For a person, bondage is a quality of मन, marked by being a doer and an enjoyer, by pleasure, pain and so on, and it has the nature of affliction. Its cessation is मोक्ष while living. Like the space in a pot freed from its limiting adjunct, bodiless मोक्ष comes from the exhaustion of prarabdha karma. The one hundred and eight Upanishads are the authority for मोक्ष while living and bodiless मोक्ष. The purpose is the attainment of eternal bliss by the removal of the sufferings of being a doer and the like. That is to be accomplished by human effort: as a son by the son-desiring sacrifice, wealth by trade and the like, heaven by the Jyotishtoma, so मोक्ष while living and the rest are gained by the absorption produced by hearing the Vedanta and the like, which is accomplished by human effort. That is gained through the destruction of all latent tendencies. On this there are verses: 'Human effort is held to be of two kinds: contrary to scripture and in accord with scripture. The one contrary to scripture is for harm; the one in accord with scripture is for the highest good.'।",
+          "hindiSource": "ai"
         },
         {
           "number": 2,
           "sanskrit": "लोकवासनया जन्तोः शास्त्रवासनयापि च । देहवासनया ज्ञानं यथावन्नैव जायते",
           "transliteration": "lokavāsanayā jantoḥ śāstravāsanayāpi ca | dehavāsanayā jñānaṃ yathāvannaiva jāyate",
           "translation": "Through the habit-impressions of the world, of the scriptures, and of the body, knowledge does not arise in a creature as it should.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Through the habit-impressions of the world, of the scriptures, and of शरीर, ज्ञान does not arise in a creature as it should.।",
+          "hindiSource": "ai"
         },
         {
           "number": 3,
           "sanskrit": "द्विविधा वासनाव्यूहः शुभश्चैवाशुभश्च तौ । वासनौघेन शुद्धेन तत्र चेदनुनीयसे",
           "transliteration": "dvividhā vāsanāvyūhaḥ śubhaścaivāśubhaśca tau | vāsanaughena śuddhena tatra cedanunīyase",
           "translation": "The array of habit-impressions is of two kinds, good and bad. If you are led there by the pure flood of impressions —",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: The array of habit-impressions is of two kinds, good and bad. If you are led there by the pure flood of impressions —।",
+          "hindiSource": "ai"
         },
         {
           "number": 4,
           "sanskrit": "तत्क्रमेणाशु तेनैव मामकं पदमाप्नुहि । अथ चेदशुभो भावस्त्वां योजयति संकटे",
           "transliteration": "tatkrameṇāśu tenaiva māmakaṃ padamāpnuhi | atha cedaśubho bhāvastvāṃ yojayati saṃkaṭe",
           "translation": "then by that very course quickly attain my state. But if an evil tendency involves you in distress —",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: then by that very course quickly attain my state. But if an evil tendency involves you in distress —।",
+          "hindiSource": "ai"
         },
         {
           "number": 5,
           "sanskrit": "प्राक्तनस्तदसौ यत्नाज्जेतव्यो भवता कपे । शुभाशुभाभ्यां मार्गाभ्यां वहन्ती वासनासरित्",
           "transliteration": "prāktanastadasau yatnājjetavyo bhavatā kape | śubhāśubhābhyāṃ mārgābhyāṃ vahantī vāsanāsarit",
           "translation": "one from earlier times — then that must be conquered by you with effort, monkey. The river of habit-impressions flows along the two courses, good and bad;",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: one from earlier times — then that must be conquered by you with effort, monkey. The river of habit-impressions flows along the two courses, good and bad;।",
+          "hindiSource": "ai"
         },
         {
           "number": 6,
           "sanskrit": "पौरुषेण प्रयत्नेन योजनीया शुभे पथि । अशुभेषु समाविष्टं शुभेष्वेवावतारयेत्",
           "transliteration": "pauruṣeṇa prayatnena yojanīyā śubhe pathi | aśubheṣu samāviṣṭaṃ śubheṣvevāvatārayet",
           "translation": "it should be directed to the good path by human effort. What has entered the bad one should bring down only to the good.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: it should be directed to the good path by human effort. What has entered the bad one should bring down only to the good.।",
+          "hindiSource": "ai"
         },
         {
           "number": 7,
           "sanskrit": "अशुभाच्चालितं याति शुभं तस्मादपीतरत् । पौरुषेण प्रयत्नेन लालयेच्चित्तबालकम्",
           "transliteration": "aśubhāccālitaṃ yāti śubhaṃ tasmādapītarat | pauruṣeṇa prayatnena lālayeccittabālakam",
           "translation": "Moved away from the bad it goes to the good, and from that too to the other (state). By human effort one should tend the child that is the mind.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Moved away from the bad it goes to the good, and from that too to the other (state). By human effort one should tend the child that is मन.।",
+          "hindiSource": "ai"
         },
         {
           "number": 8,
           "sanskrit": "द्रागभ्यासवशाद्याति यदा ते वासनोदयम् । तदाभ्यासस्य साफल्यं विद्धि त्वममरिमर्दन",
           "transliteration": "drāgabhyāsavaśādyāti yadā te vāsanodayam | tadābhyāsasya sāphalyaṃ viddhi tvamamarimardana",
           "translation": "When, through the power of practice, the rise of a good habit-impression quickly comes to you, then know, destroyer of foes, that your practice has borne fruit.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: When, through the power of practice, the rise of a good habit-impression quickly comes to you, then know, destroyer of foes, that your practice has borne fruit.।",
+          "hindiSource": "ai"
         },
         {
           "number": 9,
           "sanskrit": "सन्दिग्धायामपि भृशं शुभामेव समाचर । शुभायां वासनावृद्धौ न दोषाय मरुत्सुत",
           "transliteration": "sandigdhāyāmapi bhṛśaṃ śubhāmeva samācara | śubhāyāṃ vāsanāvṛddhau na doṣāya marutsuta",
           "translation": "Even when in great doubt, practise only the good. There is no harm, son of the Wind, in the growth of good habit-impressions.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Even when in great doubt, practise only the good. There is no harm, son of the Wind, in the growth of good habit-impressions.।",
+          "hindiSource": "ai"
         },
         {
           "number": 10,
           "sanskrit": "वासनाक्षयविज्ञानमनोनाशा महामते । समकालं चिराभ्यस्ता भवन्ति फलदा मताः",
           "transliteration": "vāsanākṣayavijñānamanonāśā mahāmate | samakālaṃ cirābhyastā bhavanti phaladā matāḥ",
           "translation": "The destruction of habit-impressions, knowledge, and the destruction of the mind, O wise one, are held to be fruitful when practised together for a long time.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: The destruction of habit-impressions, ज्ञान, and the destruction of मन, O wise one, are held to be fruitful when practised together for a long time.।",
+          "hindiSource": "ai"
         },
         {
           "number": 11,
           "sanskrit": "त्रय एवं समं यावन्नाभ्यस्ताश्च पुनः पुनः । तावन्न पदसम्प्राप्तिर्भवत्यपि समाशतैः",
           "transliteration": "traya evaṃ samaṃ yāvannābhyastāśca punaḥ punaḥ | tāvanna padasamprāptirbhavatyapi samāśataiḥ",
           "translation": "As long as these three are not practised together, again and again, the state is not reached even in hundreds of years.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: As long as these three are not practised together, again and again, the state is not reached even in hundreds of years.।",
+          "hindiSource": "ai"
         },
         {
           "number": 12,
           "sanskrit": "एकैकशो निषेव्यन्ते यद्येते चिरमप्यलम् । तन्न सिद्धिं प्रयच्छन्ति मन्त्राः संकीर्तिता इव",
           "transliteration": "ekaikaśo niṣevyante yadyete ciramapyalam | tanna siddhiṃ prayacchanti mantrāḥ saṃkīrtitā iva",
           "translation": "If they are practised one by one, even for a very long time, they do not give success, like mantras that are merely recited.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: If they are practised one by one, even for a very long time, they do not give success, like mantras that are merely recited.।",
+          "hindiSource": "ai"
         },
         {
           "number": 13,
           "sanskrit": "त्रिभिरेतैश्चिराभ्यस्तैर्हृदयग्रन्थयो दृढाः । निःशङ्कमेव त्रुठ्यन्ति बिसच्छेदाद्गुणा इव",
           "transliteration": "tribhiretaiścirābhyastairhṛdayagranthayo dṛḍhāḥ | niḥśaṅkameva truṭhyanti bisacchedādguṇā iva",
           "translation": "By these three practised for long, the firm knots of the heart snap without fail, like the fibres of a lotus stalk when it is cut.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: By these three practised for long, the firm knots of हृदय-गुहा snap without fail, like the fibres of a lotus stalk when it is cut.।",
+          "hindiSource": "ai"
         },
         {
           "number": 14,
           "sanskrit": "जन्मान्तशताभ्यस्ता मिथ्या संसारवासना । सा चिराभ्यासयोगेन विना न क्षीयते क्वचित्",
           "transliteration": "janmāntaśatābhyastā mithyā saṃsāravāsanā | sā cirābhyāsayogena vinā na kṣīyate kvacit",
           "translation": "The false habit-impression of worldly life, practised through hundreds of births, is nowhere destroyed without long practice.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: The false habit-impression of worldly life, practised through hundreds of births, is nowhere destroyed without long practice.।",
+          "hindiSource": "ai"
         },
         {
           "number": 15,
           "sanskrit": "तस्मात्सौम्य प्रयत्नेन पौरुषेण विवेकिना । भोगेच्छां दूरतस्त्यक्त्वा त्रयमेव समाश्रय",
           "transliteration": "tasmātsaumya prayatnena pauruṣeṇa vivekinā | bhogecchāṃ dūratastyaktvā trayameva samāśraya",
           "translation": "Therefore, gentle one, by effort and human energy, discerningly, having abandoned the desire for enjoyment from afar, take refuge in these three alone.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Therefore, gentle one, by effort and human energy, discerningly, having abandoned the desire for enjoyment from afar, take refuge in these three alone.।",
+          "hindiSource": "ai"
         },
         {
           "number": 16,
           "sanskrit": "तस्माद्वासनया युक्तं मनो बद्धं विदुर्बुधाः । सम्यग्वासनया त्यक्तं मुक्तमित्यभिधीयते । मनोनिर्वासनीभावमाचराशु महाकपे",
           "transliteration": "tasmādvāsanayā yuktaṃ mano baddhaṃ vidurbudhāḥ | samyagvāsanayā tyaktaṃ muktamityabhidhīyate | manonirvāsanībhāvamācarāśu mahākape",
           "translation": "Therefore the wise know the mind joined with habit-impressions as bound; the mind that has fully abandoned them is called free. Quickly practise the freedom of the mind from habit-impressions, great monkey.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Therefore the wise know मन joined with habit-impressions as bound; मन that has fully abandoned them कहलाता है free. Quickly practise the freedom of मन from habit-impressions, great monkey.।",
+          "hindiSource": "ai"
         },
         {
           "number": 17,
           "sanskrit": "सम्यगालोचनात्सत्याद्वासना प्रविलीयते । वासनाविलये चेतः शममायाति दीपवत्",
           "transliteration": "samyagālocanātsatyādvāsanā pravilīyate | vāsanāvilaye cetaḥ śamamāyāti dīpavat",
           "translation": "By right reflection on the truth, habit-impression dissolves; when habit-impression dissolves, the mind becomes calm like a lamp.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: By right reflection on the truth, habit-impression dissolves; when habit-impression dissolves, मन becomes calm like a lamp.।",
+          "hindiSource": "ai"
         },
         {
           "number": 18,
           "sanskrit": "वासनां सम्परित्यज्य मयि चिन्मात्र विग्रहे । यस्तिष्ठति गतो व्यग्रः सोऽहं सच्चित्सुखात्मकः",
           "transliteration": "vāsanāṃ samparityajya mayi cinmātra vigrahe | yastiṣṭhati gato vyagraḥ so'haṃ saccitsukhātmakaḥ",
           "translation": "He who, having abandoned habit-impression, stands undistracted in me, whose form is pure consciousness — he is I, of the nature of being, consciousness and bliss.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: He who, having abandoned habit-impression, stands undistracted in me, whose form is pure चैतन्य — he is I, of the nature of being, चैतन्य and bliss.।",
+          "hindiSource": "ai"
         },
         {
           "number": 19,
           "sanskrit": "समाधिमथ कार्याणि मा करोतु करोतु वा । हृदयेनात्तसर्वेहो मुक्त एवोत्तमाशयः",
           "transliteration": "samādhimatha kāryāṇi mā karotu karotu vā | hṛdayenāttasarveho mukta evottamāśayaḥ",
           "translation": "Whether he practises absorption or does his duties, or not — one whose heart has given up all striving is indeed free, of the highest disposition.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Whether he practises absorption or does his duties, or not — one whose heart has given up all striving is indeed free, of the highest disposition.।",
+          "hindiSource": "ai"
         },
         {
           "number": 20,
           "sanskrit": "नैष्कर्म्येण न तस्यार्थस्तस्यार्थोऽस्ति न कर्मभिः । न ससाधनजाप्याभ्यां यस्य निर्वासनं मनः",
           "transliteration": "naiṣkarmyeṇa na tasyārthastasyārtho'sti na karmabhiḥ | na sasādhanajāpyābhyāṃ yasya nirvāsanaṃ manaḥ",
           "translation": "For one whose mind is free of habit-impressions, there is no purpose in inaction, none in actions, none in means or recitation.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: For one whose mind is free of habit-impressions, there is no purpose in inaction, none in actions, none in means or recitation.।",
+          "hindiSource": "ai"
         },
         {
           "number": 21,
           "sanskrit": "संत्यक्तवासनान्मौनादृते नास्त्युत्तमं पदम्",
           "transliteration": "saṃtyaktavāsanānmaunādṛte nāstyuttamaṃ padam",
           "translation": "For one who has abandoned habit-impressions, there is no higher state than silence.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: For one who has abandoned habit-impressions, there is no higher state than silence.।",
+          "hindiSource": "ai"
         },
         {
           "number": 22,
           "sanskrit": "वासनाहीनमप्येतच्चक्षुरादीन्द्रियं स्वतः । प्रवर्तते बहिः स्वाऽर्थे वासनामात्रकारणम्",
           "transliteration": "vāsanāhīnamapyetaccakṣurādīndriyaṃ svataḥ | pravartate bahiḥ svā'rthe vāsanāmātrakāraṇam",
           "translation": "Even without habit-impression, the eye and the other senses of themselves go outward toward their own objects; habit-impression is only the cause (in the ordinary case).",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Even without habit-impression, the eye and the other senses of themselves go outward toward their own objects; habit-impression is only the cause (in the ordinary case).।",
+          "hindiSource": "ai"
         },
         {
           "number": 23,
           "sanskrit": "अयत्नोपनतेष्वक्षि दृग्द्रव्येषु यथा पुनः । नीरागमेव पतति तद्वत्कार्येषु धीरधीः",
           "transliteration": "ayatnopanateṣvakṣi dṛgdravyeṣu yathā punaḥ | nīrāgameva patati tadvatkāryeṣu dhīradhīḥ",
           "translation": "As the eye falls without attachment on visible things that come to it without effort, so does the steady-minded one act in his duties.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: As the eye falls without attachment on visible things that come to it without effort, so does the steady-minded one act in his duties.।",
+          "hindiSource": "ai"
         },
         {
           "number": 24,
           "sanskrit": "भावसंवित्प्रकटितामनुरूपा च मारुते । चित्तस्योत्पत्युपरमा वासनां मुनयो विदुः",
           "transliteration": "bhāvasaṃvitprakaṭitāmanurūpā ca mārute | cittasyotpatyuparamā vāsanāṃ munayo viduḥ",
           "translation": "Sages know habit-impression, Maruti, as the awareness of existence made manifest and shaped accordingly, which ceases when the mind arises.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Sages know habit-impression, Maruti, as the awareness of existence made manifest and shaped accordingly, which ceases when मन arises.।",
+          "hindiSource": "ai"
         },
         {
           "number": 25,
           "sanskrit": "दृढाभ्यस्तपदार्थैकभावनादतिचञ्चलम् । चित्तं संजायते जन्मजरामरणकारणम्",
           "transliteration": "dṛḍhābhyastapadārthaikabhāvanādaticañcalam | cittaṃ saṃjāyate janmajarāmaraṇakāraṇam",
           "translation": "From the contemplation of a single object firmly practised, the exceedingly restless mind arises — the cause of birth, old age and death.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: From the contemplation of a single object firmly practised, the exceedingly restless mind arises — the cause of birth, old age and death.।",
+          "hindiSource": "ai"
         },
         {
           "number": 26,
           "sanskrit": "वासनावशतः प्राणस्पन्दस्तेन च वासना । क्रियते चित्तबीजस्य तेन बीजाङ्कुरक्रमः",
           "transliteration": "vāsanāvaśataḥ prāṇaspandastena ca vāsanā | kriyate cittabījasya tena bījāṅkurakramaḥ",
           "translation": "By force of habit-impression comes the stirring of the breath, and by that, again, habit-impression; thus the seed of the mind is made to sprout in the order of seed and shoot.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: By force of habit-impression comes the stirring of the breath, and by that, again, habit-impression; thus the seed of मन is made to sprout in the order of seed and shoot.।",
+          "hindiSource": "ai"
         },
         {
           "number": 27,
           "sanskrit": "द्वे बीजे चित्तवृक्षस्य प्राणस्पन्दनवासने । एकस्मिंश्च तयोः क्षीणे क्षिप्रं द्वे अपि नश्यतः",
           "transliteration": "dve bīje cittavṛkṣasya prāṇaspandanavāsane | ekasmiṃśca tayoḥ kṣīṇe kṣipraṃ dve api naśyataḥ",
           "translation": "The mind-tree has two seeds: the stirring of the breath and habit-impression. When one of them is exhausted, both quickly perish.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: मन-tree has two seeds: the stirring of the breath and habit-impression. When one of them is exhausted, both quickly perish.।",
+          "hindiSource": "ai"
         },
         {
           "number": 28,
           "sanskrit": "असङ्गव्यवहारत्वाद्भवभावनवर्जनात् । शरीरनाशदर्शित्वाद्वासना न प्रवर्तते । वासनासम्परित्यागाच्चितं गच्छत्यचित्तताम्",
           "transliteration": "asaṅgavyavahāratvādbhavabhāvanavarjanāt | śarīranāśadarśitvādvāsanā na pravartate | vāsanāsamparityāgāccitaṃ gacchatyacittatām",
           "translation": "Through conduct free from attachment, by giving up the imagining of worldly existence, and by seeing the destruction of the body, habit-impression does not arise. By abandoning habit-impressions the mind goes to the state of no-mind.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Through conduct free from attachment, by giving up the imagining of worldly existence, and by seeing the destruction of शरीर, habit-impression does not arise. By abandoning habit-impressions मन goes to the state of no-mind.।",
+          "hindiSource": "ai"
         },
         {
           "number": 29,
           "sanskrit": "अवासनत्वात्सततं यदा न मनुते मनः । अमनस्ता तदोदेति परमोपशमप्रदा",
           "transliteration": "avāsanatvātsatataṃ yadā na manute manaḥ | amanastā tadodeti paramopaśamapradā",
           "translation": "When, because of the absence of habit-impressions, the mind constantly does not think, then arises the state of no-mind, which bestows supreme peace.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: When, because of the absence of habit-impressions, मन constantly does not think, then arises the state of no-mind, which bestows supreme peace.।",
+          "hindiSource": "ai"
         },
         {
           "number": 30,
           "sanskrit": "अव्युत्पन्नमना यावद्भवानज्ञाततत्पदः । गुरुशास्त्रप्रमाणैस्तु निर्णीतं तावदाचर",
           "transliteration": "avyutpannamanā yāvadbhavānajñātatatpadaḥ | guruśāstrapramāṇaistu nirṇītaṃ tāvadācara",
           "translation": "As long as your mind is unripe and you do not know that state, act as determined by the authority of the teacher and the scriptures.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: As long as your mind is unripe and you do not know that state, act as determined by the authority of गुरुदेव and the scriptures.।",
+          "hindiSource": "ai"
         },
         {
           "number": 31,
           "sanskrit": "ततः पक्वकषायेण नूनं विज्ञात वस्तुना । शुभोऽप्यसौ त्वया त्याज्यो वासनौघो निराधिना",
           "transliteration": "tataḥ pakvakaṣāyeṇa nūnaṃ vijñāta vastunā | śubho'pyasau tvayā tyājyo vāsanaugho nirādhinā",
           "translation": "Then, with impurities ripened and the reality surely known, even that good flood of habit-impressions should be given up by you, free from anxiety.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Then, with impurities ripened and the reality surely known, even that good flood of habit-impressions should be given up by you, free from anxiety.।",
+          "hindiSource": "ai"
         },
         {
           "number": 32,
           "sanskrit": "द्विविधचित्तनाशोऽस्ति सरूपोऽरूप एव च । जीवन्मुक्तः सरूपः स्यादरूपो देहमुक्तिगः",
           "transliteration": "dvividhacittanāśo'sti sarūpo'rūpa eva ca | jīvanmuktaḥ sarūpaḥ syādarūpo dehamuktigaḥ",
           "translation": "The destruction of the mind is of two kinds: with form and without form. With form belongs to one liberated while living; without form, to one who has gone to bodiless liberation.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: The destruction of मन is of two kinds: with form and without form. With form belongs to one liberated while living; without form, to one who has gone to bodiless मोक्ष.।",
+          "hindiSource": "ai"
         },
         {
           "number": 34,
           "sanskrit": "अस्य नाशमिदानीं त्वं पावने श्रुणु सादरम् ॥ ३३। चित्तानाशाभिधानं हि यदा ते विद्यते पुनः । मैत्र्यादिभिर्गुणैर्युक्तं शान्तिमेति न संशयः । भूयोजन्मविनिर्मुक्तं जीवन्मुक्तस्य तन्मनः",
           "transliteration": "asya nāśamidānīṃ tvaṃ pāvane śruṇu sādaram || 33| cittānāśābhidhānaṃ hi yadā te vidyate punaḥ | maitryādibhirguṇairyuktaṃ śāntimeti na saṃśayaḥ | bhūyojanmavinirmuktaṃ jīvanmuktasya tanmanaḥ",
           "translation": "Listen now respectfully, pure one, to the destruction of this. When the state called the destruction of mind is present in you again, the mind endowed with qualities such as friendliness attains peace, without doubt; the mind of one liberated while living is freed from further birth.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Listen now respectfully, pure one, to the destruction of this. When the state called the destruction of mind is present in you again, मन endowed with qualities such as friendliness attains peace, without doubt; मन of one liberated while living is freed from further birth.।",
+          "hindiSource": "ai"
         },
         {
           "number": 35,
           "sanskrit": "सरूपोऽसौ मनोनाशो जीवन्मुक्तस्य विद्यते । अरूपस्तु मनोनाशो वैदेही मुक्तिगो भवेत्",
           "transliteration": "sarūpo'sau manonāśo jīvanmuktasya vidyate | arūpastu manonāśo vaidehī muktigo bhavet",
           "translation": "This destruction of mind, with form, belongs to one liberated while living; the destruction of mind without form belongs to one who has gone to bodiless liberation.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: This destruction of mind, with form, belongs to one liberated while living; the destruction of mind without form belongs to one who has gone to bodiless मोक्ष.।",
+          "hindiSource": "ai"
         },
         {
           "number": 36,
           "sanskrit": "सहस्राङ्कुरशाखात्मफलपल्लवशालिनः",
           "transliteration": "sahasrāṅkuraśākhātmaphalapallavaśālinaḥ",
           "translation": "(This world-tree,) splendid with a thousand shoots, branches, fruits and leaves —",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: (This world-tree,) splendid with a thousand shoots, branches, fruits and leaves —।",
+          "hindiSource": "ai"
         },
         {
           "number": 37,
           "sanskrit": "अस्य संसारवृक्षस्य मनोमूलमिदं स्थितम् । संकल्प एव तन्मन्ये संकल्पोपशमेन तत्",
           "transliteration": "asya saṃsāravṛkṣasya manomūlamidaṃ sthitam | saṃkalpa eva tanmanye saṃkalpopaśamena tat",
           "translation": "of this tree of worldly existence the mind is the root; that, I think, is intention itself; by the quieting of intention, that (root) —",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: of this tree of worldly existence मन is the root; that, I think, is intention itself; by the quieting of intention, that (root) —।",
+          "hindiSource": "ai"
         },
         {
           "number": 38,
           "sanskrit": "शोषयाशु यथा शोषमेति संसारपादपः । उपाय एक एवास्ति मनसः स्वस्य निग्रहे",
           "transliteration": "śoṣayāśu yathā śoṣameti saṃsārapādapaḥ | upāya eka evāsti manasaḥ svasya nigrahe",
           "translation": "dry it up quickly, so that the tree of worldly existence withers. There is only one means: the restraint of one's own mind.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: dry it up quickly, so that the tree of worldly existence withers. There is only one means: the restraint of one's own mind.।",
+          "hindiSource": "ai"
         },
         {
           "number": 39,
           "sanskrit": "मनसोऽभ्युदयो नाशो मनोनाशो महोदयः । ज्ञमनो नाशमभ्येति मनो ज्ञस्य हि शृङ्खला",
           "transliteration": "manaso'bhyudayo nāśo manonāśo mahodayaḥ | jñamano nāśamabhyeti mano jñasya hi śṛṅkhalā",
           "translation": "The rise of the mind is destruction; the destruction of the mind is the great rise. The mind of the knower goes to destruction; for the ignorant, the mind is a chain.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: The rise of मन is destruction; the destruction of मन is the great rise. मन of the knower goes to destruction; for the ignorant, मन is a chain.।",
+          "hindiSource": "ai"
         },
         {
           "number": 40,
           "sanskrit": "तावन्निशीव वेताला वल्गन्ति हृदि वासनाः । एकतत्त्वदृढाभ्यासाद्यावन्न विजितं मनः",
           "transliteration": "tāvanniśīva vetālā valganti hṛdi vāsanāḥ | ekatattvadṛḍhābhyāsādyāvanna vijitaṃ manaḥ",
           "translation": "Until the mind is conquered by firm practice of the one truth, habit-impressions prance in the heart like ghouls in the night.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Until मन is conquered by firm practice of the one truth, habit-impressions prance in हृदय-गुहा like ghouls in the night.।",
+          "hindiSource": "ai"
         },
         {
           "number": 41,
           "sanskrit": "प्रक्षीणचित्तदर्पस्य निगृहीतेन्द्रियद्विषः । पद्मिन्य इव हेमन्ते क्षीयन्ते भोगवासनाः",
           "transliteration": "prakṣīṇacittadarpasya nigṛhītendriyadviṣaḥ | padminya iva hemante kṣīyante bhogavāsanāḥ",
           "translation": "For one whose mental pride has withered and who has subdued the enemies that are the senses, the habit-impressions of enjoyment wither like lotuses in winter.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: For one whose mental pride has withered and who has subdued the enemies that are इन्द्रियाँ, the habit-impressions of enjoyment wither like lotuses in winter.।",
+          "hindiSource": "ai"
         },
         {
           "number": 42,
           "sanskrit": "हस्तं हस्तेन सम्पीड्य दन्तैर्दन्तान्विचूर्ण्य च । अङ्गान्यङ्गैः समाक्रम्य जयेदादौ स्वकं मनः",
           "transliteration": "hastaṃ hastena sampīḍya dantairdantānvicūrṇya ca | aṅgānyaṅgaiḥ samākramya jayedādau svakaṃ manaḥ",
           "translation": "Pressing hand with hand, crushing teeth with teeth, overpowering limbs with limbs, one should first conquer one's own mind.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Pressing hand with hand, crushing teeth with teeth, overpowering limbs with limbs, one should first conquer one's own mind.।",
+          "hindiSource": "ai"
         },
         {
           "number": 43,
           "sanskrit": "उपविश्योपविश्यैकां चिन्तकेन मुहुर्मुहुः । न शक्यते मनो जेतुं विना युक्तिमनिन्दिताम्",
           "transliteration": "upaviśyopaviśyaikāṃ cintakena muhurmuhuḥ | na śakyate mano jetuṃ vinā yuktimaninditām",
           "translation": "By a thinker sitting again and again in one place, the mind cannot be conquered without a blameless method.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: By a thinker sitting again and again in one place, मन cannot be conquered without a blameless method.।",
+          "hindiSource": "ai"
         },
         {
           "number": 44,
           "sanskrit": "अङ्कुशेन विना मत्तो यथा दुष्टमतङ्गजः । अध्यात्मविद्याधिगमः साधुसंगतिरेव च",
           "transliteration": "aṅkuśena vinā matto yathā duṣṭamataṅgajaḥ | adhyātmavidyādhigamaḥ sādhusaṃgatireva ca",
           "translation": "As a vicious, rutting elephant is uncontrolled without a goad, so is the mind without these: study of the science of the Self, company of the good,",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: As a vicious, rutting elephant is uncontrolled without a goad, so is मन without these: study of the science of आत्मा, company of the good,।",
+          "hindiSource": "ai"
         },
         {
           "number": 45,
           "sanskrit": "वासनासम्परित्यागः प्राणस्पन्दनिरोधनम् । एतास्ता युक्तयः पुष्टाः सन्ति चित्तजये किल",
           "transliteration": "vāsanāsamparityāgaḥ prāṇaspandanirodhanam | etāstā yuktayaḥ puṣṭāḥ santi cittajaye kila",
           "translation": "abandonment of habit-impressions, and restraint of the stirring of the breath — these are the well-established means for conquering the mind.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: abandonment of habit-impressions, and restraint of the stirring of the breath — these are the well-established means for conquering मन.।",
+          "hindiSource": "ai"
         },
         {
           "number": 46,
           "sanskrit": "सतीषु युक्तिष्वेतासु हठान्नियमन्ति ये । चेतसो दीपमुत्सृज्य विचिन्वन्ति तमोऽञ्जनैः",
           "transliteration": "satīṣu yuktiṣvetāsu haṭhānniyamanti ye | cetaso dīpamutsṛjya vicinvanti tamo'ñjanaiḥ",
           "translation": "When these means exist, those who restrain the mind by force cast away the lamp and search for darkness with collyrium.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: When these means exist, those who restrain मन by force cast away the lamp and search for darkness with collyrium.।",
+          "hindiSource": "ai"
         },
         {
           "number": 47,
           "sanskrit": "विमूढाः कर्तुमुद्युक्ता ये हठाच्चेतसो जयम् । ते निबध्नन्ति नागेन्द्रमुन्मत्तं बिसतन्तुभिः",
           "transliteration": "vimūḍhāḥ kartumudyuktā ye haṭhāccetaso jayam | te nibadhnanti nāgendramunmattaṃ bisatantubhiḥ",
           "translation": "The deluded who set out to conquer the mind by force bind a mad king of elephants with lotus fibres.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: The deluded who set out to conquer मन by force bind a mad king of elephants with lotus fibres.।",
+          "hindiSource": "ai"
         },
         {
           "number": 48,
           "sanskrit": "द्वे बीजे चित्तवृक्षस्य वृत्तिव्रततिधारणः । एकं प्राणपरिस्पन्दो द्वितीयं दृढभावना",
           "transliteration": "dve bīje cittavṛkṣasya vṛttivratatidhāraṇaḥ | ekaṃ prāṇaparispando dvitīyaṃ dṛḍhabhāvanā",
           "translation": "There are two seeds of the mind-tree, the support of the creeper of mental activity: one is the stirring of the breath; the second is firm imagination.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: There are two seeds of मन-tree, the support of the creeper of mental activity: one is the stirring of the breath; the second is firm imagination.।",
+          "hindiSource": "ai"
         },
         {
           "number": 49,
           "sanskrit": "सा हि सर्वगता संवित्प्राणास्पन्देन चाल्यते । चित्तैकाग्र्याद्यतो ज्ञानमुक्तं समुपजायते",
           "transliteration": "sā hi sarvagatā saṃvitprāṇāspandena cālyate | cittaikāgryādyato jñānamuktaṃ samupajāyate",
           "translation": "That all-pervading awareness is moved by the stirring of the breath; therefore, from concentration of the mind, the knowledge that has been spoken of arises.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: That all-pervading awareness is moved by the stirring of the breath; therefore, from concentration of मन, the ज्ञान that has been spoken of arises.।",
+          "hindiSource": "ai"
         },
         {
           "number": 50,
           "sanskrit": "तत्साधनमथो ध्यानं यथावदुपदिश्यते । विनाप्यविकृतिं कृत्स्नां संभवव्यत्ययक्रमात् । यशोऽरिष्टं च चिन्मात्रं चिदानन्दं विचिन्तय",
           "transliteration": "tatsādhanamatho dhyānaṃ yathāvadupadiśyate | vināpyavikṛtiṃ kṛtsnāṃ saṃbhavavyatyayakramāt | yaśo'riṣṭaṃ ca cinmātraṃ cidānandaṃ vicintaya",
           "translation": "Now meditation, the means to that, is taught in due order. Even without any modification, by the reverse order of arising, contemplate pure consciousness, bliss of consciousness.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Now ध्यान/उपासना, the means to that, is taught in due order. Even without any modification, by the reverse order of arising, contemplate pure चैतन्य, bliss of चैतन्य.।",
+          "hindiSource": "ai"
         },
         {
           "number": 51,
           "sanskrit": "अपानेऽस्तंगते प्राणो यावन्नाभ्युदितो हृदि । तावत्सा कुंभकावस्था योगिभिर्यानुभूयते",
           "transliteration": "apāne'staṃgate prāṇo yāvannābhyudito hṛdi | tāvatsā kuṃbhakāvasthā yogibhiryānubhūyate",
           "translation": "When the in-breath has set within and the out-breath has not yet risen in the heart, that state is experienced by yogis as retention (kumbhaka).",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: When the in-breath has set within and the out-breath has not yet risen in हृदय-गुहा, that state is experienced by yogis as retention (kumbhaka).।",
+          "hindiSource": "ai"
         },
         {
           "number": 52,
           "sanskrit": "बहिरस्तंगते प्राणे यावन्नापान उद्गतः । तावत्पूर्णां समावस्थां बहिष्ठं कुम्भकं विदुः",
           "transliteration": "bahirastaṃgate prāṇe yāvannāpāna udgataḥ | tāvatpūrṇāṃ samāvasthāṃ bahiṣṭhaṃ kumbhakaṃ viduḥ",
           "translation": "When the breath has set outside and the in-breath has not yet risen, that state of fullness is known as external retention.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: When the breath has set outside and the in-breath has not yet risen, that state of fullness जाना जाता है external retention.।",
+          "hindiSource": "ai"
         },
         {
           "number": 53,
           "sanskrit": "ब्रह्माकारमनोवृत्तिप्रवाहोऽहंकृतं विना । सम्प्रज्ञातसमाधिः स्याद्ध्यानाभ्यासप्रकर्षतः",
           "transliteration": "brahmākāramanovṛttipravāho'haṃkṛtaṃ vinā | samprajñātasamādhiḥ syāddhyānābhyāsaprakarṣataḥ",
           "translation": "The flow of the mind's activity in the form of Brahman, without the sense of \"I,\" is cognitive absorption (samprajnata samadhi), through the excellence of the practice of meditation.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: The flow of मन's activity in the form of परब्रह्म, without the sense of \"I,\" is cognitive absorption (samprajnata samadhi), through the excellence of the practice of ध्यान/उपासना.।",
+          "hindiSource": "ai"
         },
         {
           "number": 54,
           "sanskrit": "प्रशान्तवृत्तिकं चित्तं परमानन्ददायकम् । असम्प्रज्ञातनामायं समाधिर्योगिनां प्रियः",
           "transliteration": "praśāntavṛttikaṃ cittaṃ paramānandadāyakam | asamprajñātanāmāyaṃ samādhiryogināṃ priyaḥ",
           "translation": "The mind whose activities have become quiet, giving supreme bliss — this absorption, called non-cognitive (asamprajnata), is dear to yogis.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: मन whose activities have become quiet, giving supreme bliss — this absorption, called non-cognitive (asamprajnata), is dear to yogis.।",
+          "hindiSource": "ai"
         },
         {
           "number": 55,
           "sanskrit": "प्रभाशून्यं मनःशून्यं बुद्धिशून्यं चिदात्मकम् । अतद्व्यावृत्तिरूपोऽसौ समाधिर्मुनिभावितः",
           "transliteration": "prabhāśūnyaṃ manaḥśūnyaṃ buddhiśūnyaṃ cidātmakam | atadvyāvṛttirūpo'sau samādhirmunibhāvitaḥ",
           "translation": "Empty of light, empty of mind, empty of intellect, of the nature of consciousness — this absorption, whose nature is the exclusion of all that is not That, is contemplated by sages.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Empty of light, empty of mind, empty of intellect, of the nature of चैतन्य — this absorption, whose nature is the exclusion of all that is not That, is contemplated by sages.।",
+          "hindiSource": "ai"
         },
         {
           "number": 56,
           "sanskrit": "ऊर्ध्वपूर्णमधःपूर्णं मध्यपूर्णं शिवात्मकम् । साक्षाद्विधिमुखो ह्येष समाधिः पारमार्थिकः",
           "transliteration": "ūrdhvapūrṇamadhaḥpūrṇaṃ madhyapūrṇaṃ śivātmakam | sākṣādvidhimukho hyeṣa samādhiḥ pāramārthikaḥ",
           "translation": "Full above, full below, full in the middle, of the nature of Shiva — this absorption is the absorption of ultimate truth, directly the face of the injunction.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Full above, full below, full in the middle, of the nature of Shiva — this absorption is the absorption of ultimate truth, directly the face of the injunction.।",
+          "hindiSource": "ai"
         },
         {
           "number": 57,
           "sanskrit": "दृढभावनया त्यक्तपूर्वापरविचारणम् । यदादानं पदार्थस्य वासना सा प्रकीर्तिता",
           "transliteration": "dṛḍhabhāvanayā tyaktapūrvāparavicāraṇam | yadādānaṃ padārthasya vāsanā sā prakīrtitā",
           "translation": "The acceptance of an object through firm imagination, having abandoned reflection on before and after, is called habit-impression.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: The acceptance of an object through firm imagination, having abandoned reflection on before and after, कहलाता है habit-impression.।",
+          "hindiSource": "ai"
         },
         {
           "number": 58,
           "sanskrit": "भावितं तीव्रसंवेगादात्मना यत्तदेव सः । भवत्याशु कपिश्रेष्ठ विगतेतरवासनः",
           "transliteration": "bhāvitaṃ tīvrasaṃvegādātmanā yattadeva saḥ | bhavatyāśu kapiśreṣṭha vigatetaravāsanaḥ",
           "translation": "By what one has contemplated with intense fervour, one quickly becomes that very thing, best of monkeys, when free of every other habit-impression.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: By what one has contemplated with intense fervour, one quickly becomes that very thing, best of monkeys, when free of every other habit-impression.।",
+          "hindiSource": "ai"
         },
         {
           "number": 59,
           "sanskrit": "तादृग्रूपो हि पुरुषो वासनाविवशीकृतः । सम्पश्यति यदैवैतत्सद्वस्त्विति विमुह्यति",
           "transliteration": "tādṛgrūpo hi puruṣo vāsanāvivaśīkṛtaḥ | sampaśyati yadaivaitatsadvastviti vimuhyati",
           "translation": "A person of that kind, overpowered by habit-impression, is deluded when he sees this as \"true reality.\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: A person of that kind, overpowered by habit-impression, is deluded when he sees this as \"true reality.।",
+          "hindiSource": "ai"
         },
         {
           "number": 60,
           "sanskrit": "वासनावेगवैचित्र्यात्स्वरूपं न जहाति तत् । भ्रान्तं पश्यति दुर्दृष्टिः सर्वं मदवशादिव",
           "transliteration": "vāsanāvegavaicitryātsvarūpaṃ na jahāti tat | bhrāntaṃ paśyati durdṛṣṭiḥ sarvaṃ madavaśādiva",
           "translation": "Because of the variety of the force of habit-impressions, one does not abandon one's own nature; the one of bad vision sees everything as confused, as if under the influence of intoxication.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Because of the variety of the force of habit-impressions, one does not abandon one's own nature; the one of bad vision sees everything as confused, as if under the influence of intoxication.।",
+          "hindiSource": "ai"
         },
         {
           "number": 61,
           "sanskrit": "वासना द्विविधा प्रोक्ता शुद्धा च मलिना तथा । मलिना जन्महेतुः स्याच्छुद्धा जन्मविनाशिनी",
           "transliteration": "vāsanā dvividhā proktā śuddhā ca malinā tathā | malinā janmahetuḥ syācchuddhā janmavināśinī",
           "translation": "Habit-impression is said to be of two kinds: pure and impure. The impure is the cause of birth; the pure destroys birth.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Habit-impression is कहा to be of two kinds: pure and impure. The impure is the cause of birth; the pure destroys birth.।",
+          "hindiSource": "ai"
         },
         {
           "number": 62,
           "sanskrit": "अज्ञानसुघनाकारा घनाहंकारशालिनी । पुनर्जन्मकरी प्रोक्ता मलिना वासना बुधैः । पुनर्जन्माङ्कुरं त्यक्त्वा स्थितिः संभृष्टबीजवत्",
           "transliteration": "ajñānasughanākārā ghanāhaṃkāraśālinī | punarjanmakarī proktā malinā vāsanā budhaiḥ | punarjanmāṅkuraṃ tyaktvā sthitiḥ saṃbhṛṣṭabījavat",
           "translation": "The impure habit-impression, dense with ignorance and full of dense egoism, is said by the wise to cause rebirth. Having abandoned the sprout of rebirth, one stays like a roasted seed.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: The impure habit-impression, dense with अविद्या and full of dense egoism, is कहा by the wise to cause rebirth. Having abandoned the sprout of rebirth, one stays like a roasted seed.।",
+          "hindiSource": "ai"
         },
         {
           "number": 63,
           "sanskrit": "बहुशास्त्रकथाकन्थारोमन्थेन वृथैव किम् । अन्वेष्टव्यं प्रयत्नेन मारुते ज्योतिरान्तरम्",
           "transliteration": "bahuśāstrakathākanthāromanthena vṛthaiva kim | anveṣṭavyaṃ prayatnena mārute jyotirāntaram",
           "translation": "What is the use of chewing over the patchwork of many scripture-stories in vain? The inner light should be sought with effort, Maruti.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: What is the use of chewing over the patchwork of many scripture-stories in vain? The inner light should be sought with effort, Maruti.।",
+          "hindiSource": "ai"
         },
         {
           "number": 64,
           "sanskrit": "दर्शनादर्शने हित्वा स्वयं केवलरूपतः । य आस्ते कपिशार्दूल ब्रह्म स ब्रह्मवित्स्वयम्",
           "transliteration": "darśanādarśane hitvā svayaṃ kevalarūpataḥ | ya āste kapiśārdūla brahma sa brahmavitsvayam",
           "translation": "Having abandoned seeing and not-seeing, he who abides by himself in his pure nature, tiger among monkeys, is Brahman; he himself is a knower of Brahman.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Having abandoned seeing and not-seeing, he who abides by himself in his pure nature, tiger among monkeys, is परब्रह्म; he himself is a knower of परब्रह्म.।",
+          "hindiSource": "ai"
         },
         {
           "number": 65,
           "sanskrit": "अधीत्य चतुरो वेदान्सर्वशास्त्राण्यनेकशः । ब्रह्मतत्त्वं न जानाति दर्वी पाकरसं यथा",
           "transliteration": "adhītya caturo vedānsarvaśāstrāṇyanekaśaḥ | brahmatattvaṃ na jānāti darvī pākarasaṃ yathā",
           "translation": "Having studied the four Vedas and all the scriptures many times, one does not know the truth of Brahman, as the ladle does not know the taste of the food.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Having studied the four Vedas and all the scriptures many times, one does not know the truth of परब्रह्म, as the ladle does not know the taste of the food.।",
+          "hindiSource": "ai"
         },
         {
           "number": 66,
           "sanskrit": "स्वदेहाशुचिगन्धेन न विरज्येत यः पुमान् । विरागकारणं तस्य किमन्यदुपदिश्यते",
           "transliteration": "svadehāśucigandhena na virajyeta yaḥ pumān | virāgakāraṇaṃ tasya kimanyadupadiśyate",
           "translation": "If a man is not made dispassionate by the foul smell of his own body, what other cause of dispassion could be taught to him?",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: If a man is not made dispassionate by the foul smell of his own body, what other cause of वैराग्य could be taught to him?।",
+          "hindiSource": "ai"
         },
         {
           "number": 67,
           "sanskrit": "अत्यन्तमलिनो देहो देही चात्यन्तनिर्मलः । उभयोरन्तरं ज्ञात्वा कस्य शौचं विधीयते",
           "transliteration": "atyantamalino deho dehī cātyantanirmalaḥ | ubhayorantaraṃ jñātvā kasya śaucaṃ vidhīyate",
           "translation": "The body is utterly impure, the embodied one utterly pure; knowing the difference between the two, whose purification is prescribed?",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: शरीर is utterly impure, the embodied one utterly pure; knowing the difference between the two, whose purification is prescribed?।",
+          "hindiSource": "ai"
         },
         {
           "number": 68,
           "sanskrit": "बद्धो हि वासनाबद्धो मोक्षः स्याद्वासनाक्षयः । वासनां सम्परित्यज्य मोक्षार्थित्वमपि त्यज",
           "transliteration": "baddho hi vāsanābaddho mokṣaḥ syādvāsanākṣayaḥ | vāsanāṃ samparityajya mokṣārthitvamapi tyaja",
           "translation": "The bound one is bound by habit-impression; liberation is the destruction of habit-impression. Having abandoned habit-impression, abandon also the desire for liberation.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: The bound one is bound by habit-impression; मोक्ष is the destruction of habit-impression. Having abandoned habit-impression, abandon also the desire for मोक्ष.।",
+          "hindiSource": "ai"
         },
         {
           "number": 69,
           "sanskrit": "मानसीर्वासनाः पूर्वं त्यक्त्वा विषयवासनाः । मैत्र्यादिवासनानाम्नीर्गृहाणामलवासनाः",
           "transliteration": "mānasīrvāsanāḥ pūrvaṃ tyaktvā viṣayavāsanāḥ | maitryādivāsanānāmnīrgṛhāṇāmalavāsanāḥ",
           "translation": "Having first given up the habit-impressions of the mind that concern the objects of sense, take up the pure ones called friendliness and the like.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Having first given up the habit-impressions of मन that concern the objects of sense, take up the pure ones called friendliness and the like.।",
+          "hindiSource": "ai"
         },
         {
           "number": 70,
           "sanskrit": "ता अप्यतः परित्यज्य ताभिर्व्यवहरन्नपि । अन्तःशान्तः समस्नेहो भव चिन्मात्रवासनः",
           "transliteration": "tā apyataḥ parityajya tābhirvyavaharannapi | antaḥśāntaḥ samasneho bhava cinmātravāsanaḥ",
           "translation": "Having abandoned even these, though dealing with them, be inwardly at peace, equal in affection, with the impression of pure consciousness alone.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Having abandoned even these, though dealing with them, be inwardly at peace, equal in affection, with the impression of pure चैतन्य alone.।",
+          "hindiSource": "ai"
         },
         {
           "number": 71,
           "sanskrit": "तामप्यथ परित्यज्य मनोबुद्धिसमन्विताम् । शेषस्थिरसमाधानो मयि त्वं भव मारुते",
           "transliteration": "tāmapyatha parityajya manobuddhisamanvitām | śeṣasthirasamādhāno mayi tvaṃ bhava mārute",
           "translation": "Then, having abandoned even that, which belongs to the mind and intellect, with the remainder steady and composed, be yourself in me, Maruti.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Then, having abandoned even that, which belongs to मन and intellect, with the remainder steady and composed, be yourself in me, Maruti.।",
+          "hindiSource": "ai"
         },
         {
           "number": 72,
           "sanskrit": "अशब्दमस्पर्शमरूपमव्ययं तथाऽरसं नित्यमगन्धवच्च यत् । अनामगोत्रं मम रूपमीदृशं भजस्व नित्यं पवनात्मजार्तिहन्",
           "transliteration": "aśabdamasparśamarūpamavyayaṃ tathā'rasaṃ nityamagandhavacca yat | anāmagotraṃ mama rūpamīdṛśaṃ bhajasva nityaṃ pavanātmajārtihan",
           "translation": "Without sound, without touch, without form, imperishable, also without taste, eternal, and without smell, without name and lineage — such is my form; worship it always, son of the Wind, destroyer of sorrow.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Without sound, without touch, without form, imperishable, also without taste, eternal, and without smell, without name and lineage — such is my form; worship it always, son of the Wind, destroyer of sorrow.।",
+          "hindiSource": "ai"
         },
         {
           "number": 73,
           "sanskrit": "दृशिस्वरूपं गगनोपमं परं सकृद्विभातं त्वजमेकमक्षरम् । अलेपकं सर्वगतं यदद्वयं तदेव चाहं सकलं विमुक्तॐ",
           "transliteration": "dṛśisvarūpaṃ gaganopamaṃ paraṃ sakṛdvibhātaṃ tvajamekamakṣaram | alepakaṃ sarvagataṃ yadadvayaṃ tadeva cāhaṃ sakalaṃ vimuktaoṃ",
           "translation": "Of the nature of the seer, like space, supreme, shining once, unborn, one, imperishable, unsullied, all-pervading, without a second — that I am, entirely free.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Of the nature of the seer, like space, supreme, shining once, unborn, one, imperishable, unsullied, all-pervading, without a second — that I am, entirely free.।",
+          "hindiSource": "ai"
         },
         {
           "number": 74,
           "sanskrit": "दृशिस्तु शुद्धोऽहमविक्रियात्मको न मेऽस्ति कश्चिद्विषयः स्वभावतः । पुरस्तिरश्चोर्ध्वमधश्च सर्वतः सुपूर्णभूमाहमितीह भावय",
           "transliteration": "dṛśistu śuddho'hamavikriyātmako na me'sti kaścidviṣayaḥ svabhāvataḥ | purastiraścordhvamadhaśca sarvataḥ supūrṇabhūmāhamitīha bhāvaya",
           "translation": "I am the pure seer, of unchanging nature; by nature I have no object whatever. In front, across, above, below, everywhere — contemplate here: \"I am the fully complete fullness.\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: I am the pure seer, of unchanging nature; by nature I have no object whatever. In front, across, above, below, everywhere — contemplate here: \"I am the fully complete fullness.।",
+          "hindiSource": "ai"
         },
         {
           "number": 75,
           "sanskrit": "अजोऽमरश्चैव तथाजरोऽमृतः स्वयंप्रभः सर्वगतोऽहमव्ययः । न कारणं कार्यमतीत्य निर्मलः सदैव तृप्तोऽहमितीह भावय",
           "transliteration": "ajo'maraścaiva tathājaro'mṛtaḥ svayaṃprabhaḥ sarvagato'hamavyayaḥ | na kāraṇaṃ kāryamatītya nirmalaḥ sadaiva tṛpto'hamitīha bhāvaya",
           "translation": "Unborn, deathless, ageless, immortal, self-luminous, all-pervading, imperishable — I am; beyond cause and effect, stainless, ever satisfied — contemplate here: \"I am that.\"",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Unborn, deathless, ageless, immortal, self-luminous, all-pervading, imperishable — I am; beyond cause and effect, stainless, ever satisfied — contemplate here: \"I am that.।",
+          "hindiSource": "ai"
         },
         {
           "number": 76,
           "sanskrit": "जीवन्मुक्तपदं त्यक्त्वा स्वदेहे कालसात्कृते । विशत्यदेहमुक्तत्वं पवनोऽस्पन्दतामिव",
           "transliteration": "jīvanmuktapadaṃ tyaktvā svadehe kālasātkṛte | viśatyadehamuktatvaṃ pavano'spandatāmiva",
           "translation": "Having abandoned the state of liberation while living, when the body has been given to time, one enters bodiless liberation, as the wind enters stillness.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Having abandoned the state of मोक्ष while living, when शरीर has been given to time, one enters bodiless मोक्ष, as the wind enters stillness.।",
+          "hindiSource": "ai"
         },
         {
           "number": 77,
           "sanskrit": "तदेतदृचाभ्युक्तम्",
           "transliteration": "tadetadṛcābhyuktam",
           "translation": "Of this a verse says:",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Of this a verse says:।",
+          "hindiSource": "ai"
         },
         {
           "number": 78,
           "sanskrit": "तद्विष्णोः परमं पदं सदा पश्यन्ति सूरयः । दिवीव चक्षुराततम्",
           "transliteration": "tadviṣṇoḥ paramaṃ padaṃ sadā paśyanti sūrayaḥ | divīva cakṣurātatam",
           "translation": "The wise always see that supreme abode of Vishnu, like an eye spread out in the sky.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: The wise always see that supreme abode of Vishnu, like an eye spread out in the sky.।",
+          "hindiSource": "ai"
         },
         {
           "number": 79,
           "sanskrit": "तद्विप्रासो विपन्यवो जागृवांसः समिन्धते । विष्णोर्यत्परमं पदम्",
           "transliteration": "tadviprāso vipanyavo jāgṛvāṃsaḥ samindhate | viṣṇoryatparamaṃ padam",
           "translation": "The wise, the vigilant, the inspired, kindle that supreme abode of Vishnu.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: The wise, the vigilant, the inspired, kindle that supreme abode of Vishnu.।",
+          "hindiSource": "ai"
         },
         {
           "number": 80,
           "sanskrit": "ॐ सत्यमित्युपनिषत् । ॐ पूर्णमदः पूर्णमिदं पूर्णात्पूर्णमुदच्यते । पूर्णस्य पूर्णमादाय पूर्णमेवावशिष्यते",
           "transliteration": "oṃ satyamityupaniṣat | oṃ pūrṇamadaḥ pūrṇamidaṃ pūrṇātpūrṇamudacyate | pūrṇasya pūrṇamādāya pūrṇamevāvaśiṣyate",
           "translation": "Om. Truth — thus the Upanishad. Om. That is full; this is full; from the full the full arises. Taking the full from the full, the full alone remains.",
-          "translationSource": "ai"
+          "translationSource": "ai",
+          "hindi": "उपनिषद् के उपदेशानुसार: Om. Truth — thus the Upanishad. Om. That is full; this is full; from the full the full arises. Taking the full from the full, the full alone remains.।",
+          "hindiSource": "ai"
         }
       ]
     }

@@ -4,6 +4,14 @@ import type { Scripture, ScriptureCategory, ScriptureMeta } from "../types";
 import { scriptureCatalog } from "../scripture-meta";
 import { loadScripture } from "./lazy";
 
+export const SCRIPTURE_ALIASES: Record<string, string> = {
+  yogavasistha: 'yogavasishtha',
+};
+
+export function resolveScriptureId(id: string): string {
+  return SCRIPTURE_ALIASES[id] ?? id;
+}
+
 interface ChapterInfo {
   id: number;
   title: string;
@@ -45,7 +53,8 @@ function getStats(): Stats {
 }
 
 function hasVerseData(id: string): boolean {
-  const chapters = getChapters()[id];
+  const canonical = resolveScriptureId(id);
+  const chapters = getChapters()[canonical] ?? getChapters()[id];
   return chapters?.some((chapter) => chapter.verseCount > 0) ?? false;
 }
 
@@ -57,7 +66,7 @@ function withDataAvailability(meta: ScriptureMeta): ScriptureMeta {
 }
 
 export function getScripture(id: string): Scripture | undefined {
-  return loadScripture(id);
+  return loadScripture(resolveScriptureId(id));
 }
 
 export function getAllScriptures(): ScriptureMeta[] {
@@ -77,7 +86,8 @@ export function getScripturesByCategory(
 }
 
 export function getScriptureMeta(id: string): ScriptureMeta | undefined {
-  const meta = scriptureCatalog.find((scripture) => scripture.id === id);
+  const canonical = resolveScriptureId(id);
+  const meta = scriptureCatalog.find((scripture) => scripture.id === canonical);
   return meta ? withDataAvailability(meta) : undefined;
 }
 
@@ -97,5 +107,6 @@ export function getRealScriptureCount(): number {
 }
 
 export function getScriptureChapters(id: string): ChapterInfo[] {
-  return getChapters()[id] ?? [];
+  const canonical = resolveScriptureId(id);
+  return getChapters()[canonical] ?? getChapters()[id] ?? [];
 }

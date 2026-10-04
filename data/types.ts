@@ -37,18 +37,22 @@ export interface Scripture {
   id: string;
   title: string;
   titleSanskrit: string;
+  titleIast?: string;
   category: ScriptureCategory;
   description: string;
   author?: string;
   chapters: Chapter[];
   totalVerses: number;
   tags: string[];
+  isCurated?: boolean;
+  canonicalTotalVerses?: number;
 }
 
 export interface ScriptureMeta {
   id: string;
   title: string;
   titleSanskrit: string;
+  titleIast?: string;
   category: Scripture['category'];
   description: string;
   author?: string;
@@ -56,4 +60,6 @@ export interface ScriptureMeta {
   totalVerses: number;
   tags: string[];
   hasData: boolean;
+  isCurated?: boolean;
+  canonicalTotalVerses?: number;
 }

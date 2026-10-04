@@ -5,6 +5,10 @@ import { scriptureCatalog } from '../scripture-meta';
 
 const cache = new Map<string, Scripture>();
 
+const SCRIPTURE_ALIASES: Record<string, string> = {
+  yogavasistha: 'yogavasishtha',
+};
+
 interface JsonVerse {
   number: number | string;
   sanskrit?: string;
@@ -109,30 +113,34 @@ function buildChapter(ch: JsonChapter): Chapter {
  * ERR_STRING_TOO_LONG. Reading the JSON at runtime keeps the bundle small.
  */
 export function loadScripture(id: string): Scripture | undefined {
-  if (cache.has(id)) return cache.get(id);
-  const filePath = resolve(process.cwd(), 'public/data/scriptures-full', `${id}.json`);
+  const canonicalId = SCRIPTURE_ALIASES[id] ?? id;
+  if (cache.has(canonicalId)) return cache.get(canonicalId);
+  const filePath = resolve(process.cwd(), 'public/data/scriptures-full', `${canonicalId}.json`);
   if (!existsSync(filePath)) return undefined;
   try {
     const json = JSON.parse(readFileSync(filePath, 'utf8')) as JsonScripture;
-    const meta = scriptureCatalog.find((s) => s.id === id);
+    const meta = scriptureCatalog.find((s) => s.id === canonicalId);
     if (!meta) return undefined;
 
     const scripture: Scripture = {
-      id,
+      id: canonicalId,
       title: meta.title,
       titleSanskrit: meta.titleSanskrit,
+      titleIast: meta.titleIast,
       category: meta.category,
       description: meta.description,
       author: meta.author,
       totalVerses: json.totalVerses ?? meta.totalVerses,
       tags: meta.tags,
+      isCurated: meta.isCurated,
+      canonicalTotalVerses: meta.canonicalTotalVerses,
       chapters: (json.chapters || []).map(buildChapter),
     };
 
-    cache.set(id, scripture);
+    cache.set(canonicalId, scripture);
     return scripture;
   } catch (e) {
-    console.error(`Failed to load scripture ${id}:`, e);
+    console.error(`Failed to load scripture ${canonicalId}:`, e);
     return undefined;
   }
 }

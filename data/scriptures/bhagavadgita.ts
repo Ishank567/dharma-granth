@@ -4710,10 +4710,10 @@ export const bhagavadGita: Scripture = {
           id: 1,
           sanskrit: "अर्जुन उवाच\n\nप्रकृतिं पुरुषं चैव क्षेत्रं क्षेत्रज्ञमेव च।\n\nएतद्वेदितुमिच्छामि ज्ञानं ज्ञेयं च केशव।।13.1।।\n ",
           transliteration: "arjuna uvācha\nprakṛitiṁ puruṣhaṁ chaiva kṣhetraṁ kṣhetra-jñam eva cha\netad veditum ichchhāmi jñānaṁ jñeyaṁ cha keśhava\n",
-          translation: "This is not a sentence, so there is nothing to fix.",
-          hindi: "",
-          explanation: "",
-          keywords: []
+          translation: "Arjuna said: O Keshava, I wish to know about Prakriti (nature) and Purusha (the spirit), as well as the Kshetra (field of activities) and Kshetrajna (knower of the field), and also knowledge and that which is to be known.",
+          hindi: "अर्जुन बोले — हे केशव! मैं प्रकृति और पुरुष को, तथा क्षेत्र और क्षेत्रज्ञ को, एवं ज्ञान और ज्ञेय को तत्त्व से जानना चाहता हूँ।",
+          explanation: "Arjuna opens the thirteenth chapter by asking Lord Krishna six fundamental metaphysical questions: the nature of Nature (Prakriti), the Self or Spirit (Purusha), the body or field of experience (Kshetra), the conscious knower within the body (Kshetrajna), wisdom or true spiritual perception (Jnana), and the ultimate Truth to be realized (Jneya).",
+          keywords: ["Prakriti", "Purusha", "Kshetra", "Kshetrajna", "Jnana", "Jneya"]
         },
         {
           id: 2,
