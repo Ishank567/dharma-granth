@@ -3,10 +3,10 @@
 import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
-import { FolderOpen, Plus, Trash2, BookOpen, ArrowRight, Highlighter, StickyNote, X } from 'lucide-react';
+import { FolderOpen, Plus, Trash2, BookOpen, ArrowRight, Highlighter, StickyNote, X, Copy, Check } from 'lucide-react';
 import { useStudyProgress } from '@/lib/useStudyProgress';
 import { FadeUp, FadeUpOnView, Stagger, StaggerItem } from '@/app/components/motion/primitives';
-import { chapterVerseHref } from '@/lib/verse-paths';
+import { chapterVerseHref, readHref } from '@/lib/verse-paths';
 
 export default function CollectionsPage() {
   const reduce = useReducedMotion();
@@ -20,6 +20,7 @@ export default function CollectionsPage() {
   const [newName, setNewName] = useState('');
   const [newDesc, setNewDesc] = useState('');
   const [expandedId, setExpandedId] = useState<string | null>(null);
+  const [copiedId, setCopiedId] = useState<string | null>(null);
 
   // The header is static, so it renders (and is exported) straight away; only
   // the reader's collections below wait for localStorage.
@@ -52,7 +53,7 @@ export default function CollectionsPage() {
     );
   }
 
-  const { collections, highlights, notes, createCollection, deleteCollection } = progress;
+  const { collections, highlights, notes, createCollection, deleteCollection, removeFromCollection } = progress;
 
   function handleCreate() {
     if (newName.trim()) {
@@ -61,6 +62,21 @@ export default function CollectionsPage() {
       setNewDesc('');
       setShowCreate(false);
     }
+  }
+
+  function handleExportCollection(col: typeof collections[0]) {
+    const lines: string[] = [
+      `# ${col.name}`,
+      col.description ? `${col.description}\n` : '',
+      ...col.verseRefs.map((r, i) => (
+        `### ${i + 1}. ${r.scriptureTitle} — ${r.chapterTitle}, Verse ${r.verseId}\n> ${r.sanskrit}\n\n${r.translation}\n`
+      )),
+      '---\n*Exported from Dharma Granth (dharmagranth.in)*',
+    ];
+    navigator.clipboard.writeText(lines.filter(Boolean).join('\n')).then(() => {
+      setCopiedId(col.id);
+      setTimeout(() => setCopiedId(null), 2000);
+    });
   }
 
   const highlightColors: Record<string, string> = {
@@ -122,13 +138,22 @@ export default function CollectionsPage() {
               <p className="text-sm text-dharma-muted max-w-md mx-auto mb-4">
                 Create your first collection to group saved verses by theme, topic, or personal interest.
               </p>
-              <button
-                onClick={() => setShowCreate(true)}
-                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-saffron-600 text-white text-sm font-semibold hover:bg-saffron-700 transition"
-              >
-                <Plus className="w-4 h-4" />
-                Create your first collection
-              </button>
+              <div className="flex flex-wrap items-center justify-center gap-3">
+                <button
+                  onClick={() => setShowCreate(true)}
+                  className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-saffron-600 text-white text-sm font-semibold hover:bg-saffron-700 transition"
+                >
+                  <Plus className="w-4 h-4" />
+                  Create your first collection
+                </button>
+                <Link
+                  href="/scripture/bhagavadgita"
+                  className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-dharma-border bg-dharma-card text-dharma-text text-sm font-semibold hover:bg-dharma-bg transition"
+                >
+                  <BookOpen className="w-4 h-4 text-saffron-600" />
+                  Explore Bhagavad Gita
+                </Link>
+              </div>
             </div>
           </FadeUpOnView>
         ) : (
@@ -156,16 +181,36 @@ export default function CollectionsPage() {
                             </p>
                           </div>
                         </div>
-                        <button
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            deleteCollection(col.id);
-                          }}
-                          className="p-2 rounded-lg text-dharma-muted hover:bg-rose-50 hover:text-rose-600 transition"
-                          title="Delete collection"
-                        >
-                          <Trash2 className="w-4 h-4" />
-                        </button>
+                        <div className="flex items-center gap-1">
+                          {col.verseRefs.length > 0 && (
+                            <button
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                handleExportCollection(col);
+                              }}
+                              className="p-2 rounded-lg text-dharma-muted hover:bg-saffron-500/10 hover:text-saffron-700 transition"
+                              title="Copy collection notes as Markdown"
+                              aria-label="Copy collection notes as Markdown"
+                            >
+                              {copiedId === col.id ? (
+                                <Check className="w-4 h-4 text-emerald-600" />
+                              ) : (
+                                <Copy className="w-4 h-4" />
+                              )}
+                            </button>
+                          )}
+                          <button
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              deleteCollection(col.id);
+                            }}
+                            className="p-2 rounded-lg text-dharma-muted hover:bg-rose-500/10 hover:text-rose-600 transition"
+                            title="Delete collection"
+                            aria-label="Delete collection"
+                          >
+                            <Trash2 className="w-4 h-4" />
+                          </button>
+                        </div>
                       </div>
                       {col.description && (
                         <p className="text-sm text-dharma-muted leading-relaxed">
@@ -202,14 +247,24 @@ export default function CollectionsPage() {
                                         {ref.chapterTitle} • Verse {ref.verseId}
                                       </p>
                                     </div>
-                                    <Link
-                                      href={chapterVerseHref(ref.scriptureId, ref.chapterId, ref.verseId)}
-                                      className="inline-flex items-center gap-1 text-xs font-semibold text-saffron-700 hover:text-saffron-800 transition flex-shrink-0"
-                                    >
-                                      <BookOpen className="w-3 h-3" />
-                                      Open
-                                      <ArrowRight className="w-3 h-3" />
-                                    </Link>
+                                    <div className="flex items-center gap-2 flex-shrink-0">
+                                      <Link
+                                        href={readHref(ref.scriptureId, ref.chapterId, ref.verseId)}
+                                        className="inline-flex items-center gap-1 text-xs font-semibold text-saffron-700 hover:text-saffron-800 transition"
+                                      >
+                                        <BookOpen className="w-3 h-3" />
+                                        Open
+                                        <ArrowRight className="w-3 h-3" />
+                                      </Link>
+                                      <button
+                                        onClick={() => removeFromCollection(col.id, ref.scriptureId, ref.verseId)}
+                                        className="p-1 rounded-md text-dharma-muted hover:bg-rose-500/10 hover:text-rose-600 transition"
+                                        title="Remove verse from collection"
+                                        aria-label="Remove verse from collection"
+                                      >
+                                        <Trash2 className="w-3.5 h-3.5" />
+                                      </button>
+                                    </div>
                                   </div>
                                   <p lang="sa" className="font-devanagari text-sm text-dharma-text leading-relaxed line-clamp-2">
                                     {ref.sanskrit}
@@ -301,7 +356,7 @@ export default function CollectionsPage() {
               initial={reduce ? {} : { scale: 0.95, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               exit={reduce ? {} : { scale: 0.95, opacity: 0 }}
-              className="bg-white rounded-2xl shadow-2xl p-6 max-w-md w-full"
+              className="bg-dharma-card border border-dharma-border rounded-2xl shadow-2xl p-6 max-w-md w-full"
               onClick={(e) => e.stopPropagation()}
             >
               <div className="flex items-center justify-between mb-4">

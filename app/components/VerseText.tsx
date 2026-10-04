@@ -1,5 +1,6 @@
+import type { ReactNode } from 'react';
 import Link from 'next/link';
-import { toDevanagari, verseLines } from '@/lib/verse-format';
+import { cleanVerseField, toDevanagari, verseLines } from '@/lib/verse-format';
 
 interface Props {
   verse: {
@@ -12,6 +13,8 @@ interface Props {
   chapterId: number;
   /** Dedicated verse URL, when this scripture has verse pages. */
   href?: string;
+  /** Bookmark, listen, and the rest. Chapter pages leave this empty. */
+  actions?: ReactNode;
 }
 
 /**
@@ -25,9 +28,13 @@ interface Props {
  * Styling lives in the short `.vt-*` classes in globals.css for the same
  * reason (repeated Tailwind lists cost ~1 KB per verse).
  */
-export function VerseText({ verse: v, chapterId, href }: Props) {
+export function VerseText({ verse: v, chapterId, href, actions }: Props) {
   const label = String(v.number);
-  const lines = v.sanskrit ? verseLines(v.sanskrit) : [];
+  const sanskrit = cleanVerseField(v.sanskrit);
+  const transliteration = cleanVerseField(v.transliteration).replace(/[\s|।॥0-9.]+$/, '');
+  const hindi = cleanVerseField(v.hindi);
+  const english = cleanVerseField(v.translation);
+  const lines = sanskrit ? verseLines(sanskrit) : [];
   const title = `श्लोक ${label}`;
   return (
     <article id={`verse-${label}`} className="verse-card vt" aria-label={title}>
@@ -41,8 +48,7 @@ export function VerseText({ verse: v, chapterId, href }: Props) {
             {href ? <Link href={href}>{title}</Link> : title}
           </h3>
         </div>
-        {/* Holds the toolbar's row on phones (the card gives it its own row there). */}
-        <div aria-hidden="true" className="vt-toolbar" />
+        {actions ?? <div aria-hidden="true" className="vt-toolbar" />}
       </header>
 
       {lines.length > 0 && (
@@ -53,23 +59,29 @@ export function VerseText({ verse: v, chapterId, href }: Props) {
             ))}
             <span className="vt-num">॥ {toDevanagari(label)} ॥</span>
           </p>
-          {v.transliteration && (
+          {transliteration && (
             <p lang="sa-Latn" className="vt-tr">
-              {v.transliteration.replace(/[\s|।॥0-9.]+$/, '')}
+              {transliteration}
             </p>
           )}
         </div>
       )}
 
-      {v.hindi && (
-        <p lang="hi" className="vt-hi">
-          {v.hindi}
-        </p>
+      {hindi && (
+        <div className="vt-block">
+          <p className="vt-label" lang="hi">हिन्दी अर्थ</p>
+          <p lang="hi" className="vt-hi">
+            {hindi}
+          </p>
+        </div>
       )}
-      {v.translation && (
-        <p lang="en" className="vt-en">
-          {v.translation}
-        </p>
+      {english && (
+        <div className="vt-block">
+          <p className="vt-label" lang="en">English</p>
+          <p lang="en" className="vt-en">
+            {english}
+          </p>
+        </div>
       )}
     </article>
   );

@@ -834,6 +834,29 @@
     .tactile-press:active {
         transform: scale(0.96) translateY(1px);
     }
+
+    /* ── Inspora-inspired focus rings and hairline borders ── */
+    .focus-ring {
+        outline: none;
+    }
+    .focus-ring:focus-visible {
+        outline: 2px solid #ea580c;
+        outline-offset: 2px;
+    }
+    .animate-status-pulse {
+        animation: status-pulse 2.4s ease-in-out infinite;
+    }
+}
+
+@keyframes status-pulse {
+    0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.35;
+        transform: scale(0.85);
+    }
 }
 
 @keyframes gold-shimmer {
@@ -926,12 +949,24 @@
     .vt-tr {
         @apply mx-auto mt-4 max-w-2xl whitespace-pre-line border-t border-amber-700/15 pt-4 text-sm italic leading-relaxed text-dharma-muted md:text-[15px];
     }
+    .vt-block {
+        @apply mt-5;
+    }
+    .vt-label {
+        @apply mb-1 text-[11px] font-bold uppercase tracking-wide text-saffron-700;
+    }
     .vt-hi {
-        @apply mt-5 font-devanagari text-base leading-loose text-dharma-text md:text-[17px];
+        @apply font-devanagari text-base leading-loose text-dharma-text md:text-[17px];
     }
     .vt-en {
-        @apply mt-4 text-sm leading-relaxed text-dharma-muted md:text-base;
+        @apply text-sm leading-relaxed text-dharma-muted md:text-base;
     }
+}
+[data-reader-size='large'] .vt-sa {
+    @apply text-lg leading-loose md:text-xl;
+}
+[data-reader-size='xl'] .vt-sa {
+    @apply text-xl font-medium leading-loose md:text-2xl;
 }
 :root[data-theme='night'] .vt-ch,
 :root[data-theme='night'] .vt-sa > .vt-num {

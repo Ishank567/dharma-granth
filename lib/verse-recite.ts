@@ -17,10 +17,37 @@ interface Utterance {
   lineIndex: number | 'meaning';
 }
 
+export interface RecitationMetadata {
+  verseTitle?: string;
+  scriptureTitle?: string;
+  chapterTitle?: string;
+  verseLabel?: string;
+  scriptureId?: string;
+  chapterId?: number | string;
+  verseNumber?: number | string;
+  sanskrit?: string;
+  hindi?: string;
+  translation?: string;
+}
+
+export interface ReciteOptions {
+  speed?: number;
+  loop?: boolean;
+  onlySanskrit?: boolean;
+  metadata?: RecitationMetadata;
+}
+
 export interface RecitationState {
   activeKey: string | null;
   lineIndex: number | 'meaning' | null;
   isSpeaking: boolean;
+  isPaused?: boolean;
+  speed?: number;
+  loop?: boolean;
+  iteration?: number;
+  onlySanskrit?: boolean;
+  metadata?: RecitationMetadata | null;
+  currentLineText?: string;
 }
 
 /**
@@ -31,16 +58,24 @@ export function splitVerseLines(sanskrit: string): string[] {
   const byNewline = cleaned.split(/\n+/).map((l) => l.trim()).filter(Boolean);
   if (byNewline.length > 1) return byNewline;
 
+  // Normalize consecutive dandas (॥, ||) to a single delimiter
+  const normalized = cleaned.replace(/॥+|\|\|+/g, '।');
   const lines: string[] = [];
   let current = '';
-  for (const ch of cleaned) {
+  for (const ch of normalized) {
     current += ch;
     if (ch === '|' || ch === '।') {
-      lines.push(current.trim());
+      const line = current.trim();
+      if (line && !/^[\s|।॥0-9०-९.]+$/.test(line)) {
+        lines.push(line);
+      }
       current = '';
     }
   }
-  if (current.trim()) lines.push(current.trim());
+  const rem = current.trim();
+  if (rem && !/^[\s|।॥0-9०-९.]+$/.test(rem)) {
+    lines.push(rem);
+  }
   return lines.length ? lines : [cleaned];
 }
 
@@ -73,42 +108,49 @@ function cleanMeaningForSpeech(text: string): string {
     .trim();
 }
 
-function utterancesFor(verse: RecitableVerse): Utterance[] {
+function utterancesFor(
+  verse: RecitableVerse,
+  speedMultiplier = 1.0,
+  onlySanskrit = false,
+): Utterance[] {
   const queue: Utterance[] = [];
   if (verse.sanskrit?.trim()) {
     const lines = splitVerseLines(verse.sanskrit);
     lines.forEach((line, index) => {
       const cleaned = cleanSanskritForSpeech(line);
-      if (cleaned) {
-        // Measured, serene cadence for Sanskrit recitation (0.86 rate)
+      // Ensure the line contains actual letters (not just bare punctuation)
+      if (cleaned && /[a-zA-Z\u0900-\u097F]/.test(cleaned)) {
+        // Measured, serene cadence for Sanskrit recitation (0.86 base rate)
         queue.push({
           text: cleaned,
           lang: DEVANAGARI_LANG,
-          rate: 0.86,
+          rate: Math.min(2.0, Math.max(0.5, 0.86 * speedMultiplier)),
           lineIndex: index,
         });
       }
     });
   }
-  if (verse.hindi?.trim()) {
-    const cleaned = cleanMeaningForSpeech(verse.hindi);
-    if (cleaned) {
-      queue.push({
-        text: cleaned,
-        lang: DEVANAGARI_LANG,
-        rate: 0.95,
-        lineIndex: 'meaning',
-      });
-    }
-  } else if (verse.translation?.trim()) {
-    const cleaned = cleanMeaningForSpeech(verse.translation);
-    if (cleaned) {
-      queue.push({
-        text: cleaned,
-        lang: ENGLISH_LANG,
-        rate: 0.95,
-        lineIndex: 'meaning',
-      });
+  if (!onlySanskrit) {
+    if (verse.hindi?.trim()) {
+      const cleaned = cleanMeaningForSpeech(verse.hindi);
+      if (cleaned) {
+        queue.push({
+          text: cleaned,
+          lang: DEVANAGARI_LANG,
+          rate: Math.min(2.0, Math.max(0.5, 0.95 * speedMultiplier)),
+          lineIndex: 'meaning',
+        });
+      }
+    } else if (verse.translation?.trim()) {
+      const cleaned = cleanMeaningForSpeech(verse.translation);
+      if (cleaned) {
+        queue.push({
+          text: cleaned,
+          lang: ENGLISH_LANG,
+          rate: Math.min(2.0, Math.max(0.5, 0.95 * speedMultiplier)),
+          lineIndex: 'meaning',
+        });
+      }
     }
   }
   return queue;
@@ -161,10 +203,77 @@ function pickIndianVoice(
 type RecitationListener = (state: RecitationState) => void;
 const listeners = new Set<RecitationListener>();
 
+const configListeners = new Set<() => void>();
+
+let configuredSpeed = 1.0;
+let configuredLoop = false;
+
+export function getRecitationSpeed(): number {
+  if (typeof window !== 'undefined') {
+    try {
+      const val = parseFloat(localStorage.getItem('dharma_recite_speed') || '');
+      if (!Number.isNaN(val) && val >= 0.5 && val <= 2.0) return val;
+    } catch {}
+  }
+  return configuredSpeed;
+}
+
+export function setRecitationSpeed(speed: number) {
+  configuredSpeed = speed;
+  if (typeof window !== 'undefined') {
+    try {
+      localStorage.setItem('dharma_recite_speed', String(speed));
+    } catch {}
+  }
+  configListeners.forEach((fn) => {
+    try {
+      fn();
+    } catch {}
+  });
+}
+
+export function getRecitationLoop(): boolean {
+  if (typeof window !== 'undefined') {
+    try {
+      const val = localStorage.getItem('dharma_recite_loop');
+      if (val !== null) return val === 'true';
+    } catch {}
+  }
+  return configuredLoop;
+}
+
+export function setRecitationLoop(loop: boolean) {
+  configuredLoop = loop;
+  if (typeof window !== 'undefined') {
+    try {
+      localStorage.setItem('dharma_recite_loop', String(loop));
+    } catch {}
+  }
+  configListeners.forEach((fn) => {
+    try {
+      fn();
+    } catch {}
+  });
+}
+
+export function subscribeRecitationConfig(listener: () => void): () => void {
+  configListeners.add(listener);
+  return () => {
+    configListeners.delete(listener);
+  };
+}
+
+let activeMetadata: RecitationMetadata | null = null;
+let currentLineText = '';
+let currentVerse: RecitableVerse | null = null;
+let currentOptions: ReciteOptions | undefined = undefined;
+let currentOnFinish: ((naturalEnd: boolean) => void) | undefined = undefined;
+
 let currentState: RecitationState = {
   activeKey: null,
   lineIndex: null,
   isSpeaking: false,
+  isPaused: false,
 };
 
 export function getRecitationState(): RecitationState {
@@ -182,8 +291,24 @@ function notifyRecitation(
   activeKey: string | null,
   lineIndex: number | 'meaning' | null = null,
   isSpeaking = false,
+  speed?: number,
+  loop?: boolean,
+  iteration?: number,
+  isPaused = false,
+  lineText?: string,
 ) {
-  currentState = { activeKey, lineIndex, isSpeaking };
+  if (lineText !== undefined) currentLineText = lineText;
+  currentState = {
+    activeKey,
+    lineIndex,
+    isSpeaking,
+    isPaused,
+    speed: speed ?? getRecitationSpeed(),
+    loop: loop ?? getRecitationLoop(),
+    iteration,
+    metadata: activeKey ? activeMetadata : null,
+    currentLineText: activeKey ? currentLineText : '',
+  };
   listeners.forEach((fn) => {
     try {
       fn(currentState);
@@ -192,38 +317,125 @@ function notifyRecitation(
 }
 
 let userStoppedManually = false;
+let loopTimeoutId: ReturnType<typeof setTimeout> | null = null;
+
+export function toggleRecitationLoop(): boolean {
+  const nextLoop = !getRecitationLoop();
+  setRecitationLoop(nextLoop);
+  if (currentState.isSpeaking || currentState.isPaused) {
+    notifyRecitation(
+      currentState.activeKey,
+      currentState.lineIndex,
+      currentState.isSpeaking,
+      currentState.speed,
+      nextLoop,
+      currentState.iteration,
+      currentState.isPaused,
+    );
+  }
+  return nextLoop;
+}
+
+export function pauseRecitation() {
+  if (!speechSupported()) return;
+  const synth = window.speechSynthesis;
+  if (synth.speaking && !synth.paused) {
+    synth.pause();
+    notifyRecitation(
+      currentState.activeKey,
+      currentState.lineIndex,
+      false,
+      currentState.speed,
+      currentState.loop,
+      currentState.iteration,
+      true, // isPaused
+    );
+  }
+}
+
+export function resumeRecitation() {
+  if (!speechSupported()) return;
+  const synth = window.speechSynthesis;
+  if (synth.paused) {
+    synth.resume();
+    notifyRecitation(
+      currentState.activeKey,
+      currentState.lineIndex,
+      true,
+      currentState.speed,
+      currentState.loop,
+      currentState.iteration,
+      false, // isPaused
+    );
+  } else if (currentVerse && currentState.activeKey) {
+    // If not paused in synth (e.g. timeout on Chrome), re-recite
+    reciteVerse(currentVerse, currentOnFinish, currentOptions);
+  }
+}
 
 /**
  * Recite a verse: Sanskrit lines sequentially, then its meaning — using Indian voices
- * where the browser has them. `onFinish(naturalEnd)` fires when recitation ends
+ * where the browser has them. Supports speed multiplier, loop (*आवृति*) repetitions,
+ * and Sanskrit-only options.
+ *
+ * `onFinish(naturalEnd)` fires when recitation ends
  * (true if completed full verse, false if stopped manually or failed).
  */
 export function reciteVerse(
   verse: RecitableVerse,
   onFinish?: (naturalEnd: boolean) => void,
+  options?: ReciteOptions,
 ) {
   if (!speechSupported()) {
     onFinish?.(false);
     return;
   }
+  if (loopTimeoutId) {
+    clearTimeout(loopTimeoutId);
+    loopTimeoutId = null;
+  }
   const verseKey = verse.sanskrit || verse.hindi || verse.translation || '';
   userStoppedManually = false;
+
+  currentVerse = verse;
+  currentOptions = options;
+  currentOnFinish = onFinish;
+
+  if (options?.metadata) {
+    activeMetadata = options.metadata;
+  } else {
+    activeMetadata = {
+      sanskrit: verse.sanskrit,
+      hindi: verse.hindi,
+      translation: verse.translation,
+    };
+  }
 
   const synth = window.speechSynthesis;
   synth.cancel();
 
-  const queue = utterancesFor(verse);
+  const speed = options?.speed ?? getRecitationSpeed();
+  const loop = options?.loop ?? getRecitationLoop();
+  const onlySanskrit = options?.onlySanskrit ?? false;
+
+  const queue = utterancesFor(verse, speed, onlySanskrit);
   if (queue.length === 0) {
-    notifyRecitation(null, null, false);
+    notifyRecitation(null, null, false, speed, loop, 0);
     onFinish?.(false);
     return;
   }
 
   let finished = false;
+  let iteration = 1;
+
   const finish = (natural: boolean) => {
     if (finished) return;
     finished = true;
-    notifyRecitation(null, null, false);
+    if (loopTimeoutId) {
+      clearTimeout(loopTimeoutId);
+      loopTimeoutId = null;
+    }
+    notifyRecitation(null, null, false, speed, loop, iteration);
     onFinish?.(natural);
   };
 
@@ -232,6 +444,16 @@ export function reciteVerse(
     const next = (i: number) => {
       if (finished || userStoppedManually) return;
       if (i >= queue.length) {
+        if (loop && !userStoppedManually) {
+          iteration++;
+          notifyRecitation(verseKey, null, true, speed, loop, iteration, false, '॥ पुनः पाठ ॥');
+          loopTimeoutId = setTimeout(() => {
+            if (!userStoppedManually && !finished) {
+              next(0);
+            }
+          }, 650);
+          return;
+        }
         finish(true);
         return;
       }
@@ -243,7 +465,7 @@ export function reciteVerse(
       if (voice) u.voice = voice;
       u.onstart = () => {
         if (!userStoppedManually && !finished) {
-          notifyRecitation(verseKey, item.lineIndex, true);
+          notifyRecitation(verseKey, item.lineIndex, true, speed, loop, iteration, false, item.text);
         }
       };
       u.onend = () => next(i + 1);
@@ -258,6 +480,15 @@ export function reciteVerse(
 
 export function stopRecitation() {
   userStoppedManually = true;
+  if (loopTimeoutId) {
+    clearTimeout(loopTimeoutId);
+    loopTimeoutId = null;
+  }
+  activeMetadata = null;
+  currentLineText = '';
+  currentVerse = null;
+  currentOptions = undefined;
+  currentOnFinish = undefined;
   if (speechSupported()) {
     window.speechSynthesis.cancel();
     notifyRecitation(null, null, false);

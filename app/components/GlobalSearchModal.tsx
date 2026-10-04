@@ -282,7 +282,8 @@ export function GlobalSearchModal({ isOpen, onClose, initialQuery = '' }: Props)
 
   const openItem = (item: SearchResultItem) => {
     remember(item);
-    router.push(item.href);
+    const href = item.href.endsWith('/') || item.href.includes('#') || item.href.includes('?') ? item.href : `${item.href}/`;
+    window.location.assign(href);
     onClose();
   };
 
@@ -397,6 +398,7 @@ export function GlobalSearchModal({ isOpen, onClose, initialQuery = '' }: Props)
                 type="text"
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
+                onKeyDown={handleKeyDown}
                 placeholder="Search scriptures, Gita, Upanishads, karma, meditation…"
                 className="min-w-0 flex-1 bg-transparent text-base text-dharma-text placeholder:text-dharma-muted/70 outline-none"
                 role="combobox"

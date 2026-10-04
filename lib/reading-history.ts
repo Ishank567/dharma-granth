@@ -77,6 +77,7 @@ export function updateLastVerse(scriptureId: string, chapterId: number, verseId:
     if (!entry || entry.verseId === verseId) return;
     entry.verseId = verseId;
     window.localStorage.setItem(KEY, JSON.stringify(all));
+    window.dispatchEvent(new Event(CHANGE_EVENT));
   } catch {
     // ignore
   }

@@ -68,15 +68,18 @@ export function buildSearchIndex(): SearchResultItem[] {
   const items: SearchResultItem[] = [];
 
   for (const s of scriptureCatalog) {
+    const subtitle = s.titleIast ? `${s.titleSanskrit} (${s.titleIast})` : s.titleSanskrit;
+    const tagText = s.tags ? s.tags.join(' ') : '';
+    const extraParts = [`${s.totalChapters} ch`, `${s.totalVerses} verses`, s.titleIast, tagText].filter(Boolean);
     items.push({
       id: `scripture-${s.id}`,
       title: s.title,
-      subtitle: s.titleSanskrit,
+      subtitle,
       category: 'scripture',
       categoryLabel: 'ग्रंथ · Scripture',
       href: `/scripture/${s.id}`,
       description: s.description,
-      extra: `${s.totalChapters} ch · ${s.totalVerses} verses`,
+      extra: extraParts.join(' · '),
     });
   }
 

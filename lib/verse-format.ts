@@ -33,3 +33,21 @@ export function verseLines(sanskrit: string): string[] {
   if (current.trim()) lines.push(current.trim());
   return lines.length ? lines : [cleaned];
 }
+
+/** More Devanagari than Latin letters means the block should be set as Hindi. */
+export function isMostlyDevanagari(text: string | undefined): boolean {
+  if (!text) return false;
+  let deva = 0;
+  let latin = 0;
+  for (const ch of text) {
+    if (ch >= 'ऀ' && ch <= 'ॿ') deva++;
+    else if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) latin++;
+  }
+  return deva > latin;
+}
+
+/** Drop source whitespace that shows up as a blank line under the verse. */
+export function cleanVerseField(text: string | undefined): string {
+  if (!text) return '';
+  return text.replace(/\u00a0/g, ' ').replace(/[ \t]+\n/g, '\n').replace(/\n{3,}/g, '\n\n').trim();
+}

@@ -19,7 +19,9 @@ const PAGES = [
   '/topics/',
   '/characters/',
   '/festivals/',
+  '/learn/',
   '/learn/pathways/',
+  '/collections/',
   '/bookmarks/',
   '/timelines/',
 ];

@@ -17,7 +17,9 @@ interface PageProps {
 }
 
 export function generateStaticParams() {
-  return getAllScriptures().map(s => ({ id: s.id }));
+  const params = getAllScriptures().map(s => ({ id: s.id }));
+  params.push({ id: 'yogavasistha' });
+  return params;
 }
 
 export function generateMetadata({ params }: PageProps): Metadata {
@@ -162,10 +164,19 @@ export default function ScripturePage({ params }: PageProps) {
               All Scriptures
             </Link>
           </FadeUp>
-          <FadeUp delay={0.05} className="flex items-center gap-3 mb-3">
+          <FadeUp delay={0.05} className="flex flex-wrap items-center gap-3 mb-3">
             <span className="px-3 py-1 rounded-full text-xs font-semibold bg-white/20 uppercase tracking-wide">
               {meta.category}
             </span>
+            {meta.isCurated ? (
+              <span className="px-3 py-1 rounded-full text-xs font-semibold bg-amber-400/25 text-amber-100 border border-amber-400/30">
+                सार संकलन · Curated Key Verses
+              </span>
+            ) : (
+              <span className="px-3 py-1 rounded-full text-xs font-semibold bg-emerald-400/25 text-emerald-100 border border-emerald-400/30">
+                सम्पूर्ण संहिता · Complete Text
+              </span>
+            )}
             {meta.hasData && (
               <span className="px-3 py-1 rounded-full text-xs font-semibold bg-green-400/30 text-green-100">
                 Verse Explanations Available
@@ -176,7 +187,14 @@ export default function ScripturePage({ params }: PageProps) {
             <h1 className="text-4xl md:text-5xl font-serif font-bold mb-2">{meta.title}</h1>
           </FadeUp>
           <FadeUp delay={0.15}>
-            <p lang="sa" className="text-xl font-devanagari opacity-80 mb-4">{meta.titleSanskrit}</p>
+            <div className="flex flex-wrap items-baseline gap-2 mb-4">
+              <p lang="sa" className="text-xl font-devanagari opacity-90">{meta.titleSanskrit}</p>
+              {meta.titleIast && (
+                <span className="text-base font-serif italic text-white/75">
+                  ({meta.titleIast})
+                </span>
+              )}
+            </div>
           </FadeUp>
           <FadeUp delay={0.2}>
             <p className="text-lg opacity-80 max-w-3xl">{meta.description}</p>

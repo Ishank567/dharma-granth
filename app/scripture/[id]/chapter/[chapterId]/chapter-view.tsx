@@ -271,9 +271,10 @@ export function ChapterView({ params, part: partNumber = 1 }: { params: ChapterP
       />
       <ChapterHero className="bg-gradient-to-br from-saffron-900 via-saffron-700 to-orange-600 text-white py-16">
         <div className="relative max-w-4xl mx-auto px-6">
-          <Link href={`/scripture/${params.id}`} className="inline-flex items-center gap-2 text-white/70 hover:text-white text-sm transition mb-6">
+          <Link href={`/scripture/${meta.id}`} className="inline-flex items-center gap-2 text-white/70 hover:text-white text-sm transition mb-6">
             <ArrowLeft className="w-4 h-4" />
-            {meta.title}
+            <span>{meta.title}</span>
+            {meta.titleIast && <span className="opacity-75 italic font-serif">· {meta.titleIast}</span>}
           </Link>
           <div className="flex items-start gap-5 mb-4">
             <span className="flex-shrink-0 w-16 h-16 rounded-2xl bg-white/15 backdrop-blur text-white flex items-center justify-center text-2xl font-bold ring-1 ring-white/20 shadow-xl">
@@ -382,7 +383,7 @@ export function ChapterView({ params, part: partNumber = 1 }: { params: ChapterP
             <Link
               href={prevHref}
               aria-keyshortcuts="ArrowLeft"
-              className="group inline-flex min-w-0 max-w-[48%] items-center gap-2 px-5 py-3 rounded-xl border border-dharma-border bg-white text-dharma-text hover:bg-saffron-50 hover:border-saffron-300 hover:shadow-md transition"
+              className="group inline-flex min-w-0 max-w-[48%] items-center gap-2 px-5 py-3 rounded-xl border border-dharma-border bg-dharma-card text-dharma-text hover:bg-dharma-bg hover:border-saffron-300 hover:shadow-md transition"
             >
               <ArrowLeft className="w-4 h-4 shrink-0 group-hover:-translate-x-0.5 transition-transform" />
               <span className="min-w-0">

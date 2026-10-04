@@ -105,7 +105,7 @@ export function FlashCard({ data, onNext, onPrevious, onReset, currentIndex, tot
             Card {currentIndex + 1} of {total}
           </span>
           <div className="flex items-center gap-2">
-            <span className="text-xs opacity-70">
+            <span className="text-xs text-dharma-muted font-medium">
               {Math.round(progress)}% complete
             </span>
             <div className="flex items-center gap-1">
@@ -178,13 +178,13 @@ export function FlashCard({ data, onNext, onPrevious, onReset, currentIndex, tot
         >
           {/* Front of card */}
           <motion.div
-            className="absolute inset-0 backface-hidden bg-gradient-to-br from-saffron-50 via-amber-50 to-orange-50 rounded-3xl border-2 border-saffron-200 p-8 shadow-2xl relative overflow-hidden"
+            className="absolute inset-0 backface-hidden bg-dharma-card rounded-3xl border border-dharma-border p-8 shadow-xl relative overflow-hidden"
             style={{ backfaceVisibility: 'hidden' }}
             animate={reduce ? {} : { rotateY: isFlipped ? 180 : 0 }}
           >
             {/* Glassmorphism shine effect */}
             <motion.div
-              className="absolute inset-0 bg-gradient-to-br from-white/30 to-transparent pointer-events-none"
+              className="absolute inset-0 bg-gradient-to-br from-saffron-500/5 to-transparent pointer-events-none"
               initial={{ opacity: 0 }}
               whileHover={{ opacity: 1 }}
               transition={{ duration: 0.3 }}
@@ -197,7 +197,7 @@ export function FlashCard({ data, onNext, onPrevious, onReset, currentIndex, tot
               {data.front.sanskrit && (
                 <motion.p
                   lang="sa"
-                  className="font-devanagari text-5xl text-saffron-800 mb-5 leading-relaxed"
+                  className="font-devanagari text-3xl md:text-4xl text-saffron-700 dark:text-saffron-400 mb-5 leading-relaxed font-bold"
                   initial={reduce ? {} : { scale: 0.9, opacity: 0 }}
                   animate={reduce ? {} : { scale: 1, opacity: 1 }}
                   transition={reduce ? {} : { delay: 0.1 }}
@@ -207,7 +207,7 @@ export function FlashCard({ data, onNext, onPrevious, onReset, currentIndex, tot
               )}
               {data.front.transliteration && (
                 <motion.p 
-                  className="text-lg text-saffron-600 italic mb-6 font-medium"
+                  className="text-base md:text-lg text-dharma-muted italic mb-6 font-medium"
                   initial={reduce ? {} : { y: 10, opacity: 0 }}
                   animate={reduce ? {} : { y: 0, opacity: 1 }}
                   transition={reduce ? {} : { delay: 0.2 }}
@@ -224,7 +224,7 @@ export function FlashCard({ data, onNext, onPrevious, onReset, currentIndex, tot
                 {data.front.question}
               </motion.p>
               <motion.div
-                className="mt-6 inline-flex items-center gap-2 px-4 py-2 bg-white/60 backdrop-blur-sm rounded-full border border-saffron-200"
+                className="mt-6 inline-flex items-center gap-2 px-4 py-2 bg-dharma-bg/80 backdrop-blur-sm rounded-full border border-dharma-border shadow-sm"
                 initial={reduce ? {} : { y: 10, opacity: 0 }}
                 animate={reduce ? {} : { y: 0, opacity: 1 }}
                 transition={reduce ? {} : { delay: 0.4 }}
@@ -235,7 +235,7 @@ export function FlashCard({ data, onNext, onPrevious, onReset, currentIndex, tot
                 >
                   <RotateCcw className="w-4 h-4 text-saffron-600" />
                 </motion.div>
-                <span className="text-sm font-semibold text-saffron-700">
+                <span className="text-sm font-semibold text-dharma-text">
                   Tap to reveal
                 </span>
               </motion.div>
@@ -244,23 +244,23 @@ export function FlashCard({ data, onNext, onPrevious, onReset, currentIndex, tot
 
           {/* Back of card */}
           <motion.div
-            className="absolute inset-0 backface-hidden bg-gradient-to-br from-dharma-card via-saffron-50/30 to-amber-50/20 rounded-3xl border-2 border-saffron-200 p-8 shadow-2xl relative overflow-hidden"
+            className="absolute inset-0 backface-hidden bg-dharma-card rounded-3xl border border-dharma-border p-8 shadow-xl relative overflow-hidden"
             style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}
             animate={reduce ? {} : { rotateY: isFlipped ? 0 : -180 }}
           >
             {/* Glassmorphism shine effect */}
             <motion.div
-              className="absolute inset-0 bg-gradient-to-br from-white/20 to-transparent pointer-events-none"
+              className="absolute inset-0 bg-gradient-to-br from-saffron-500/5 to-transparent pointer-events-none"
               initial={{ opacity: 0 }}
               whileHover={{ opacity: 1 }}
               transition={{ duration: 0.3 }}
             />
             
-            <div className="h-full flex flex-col justify-center relative z-10">
+            <div className="h-full flex flex-col justify-center relative z-10 overflow-y-auto">
               {data.back.hindi && (
                 <motion.p
                   lang="hi"
-                  className="font-devanagari text-3xl text-rose-800 mb-5 font-semibold leading-relaxed"
+                  className="font-devanagari text-2xl md:text-3xl text-saffron-700 dark:text-saffron-400 mb-4 font-semibold leading-relaxed"
                   initial={reduce ? {} : { scale: 0.9, opacity: 0 }}
                   animate={reduce ? {} : { scale: 1, opacity: 1 }}
                   transition={reduce ? {} : { delay: 0.1 }}
@@ -269,7 +269,7 @@ export function FlashCard({ data, onNext, onPrevious, onReset, currentIndex, tot
                 </motion.p>
               )}
               <motion.p 
-                className="text-xl text-dharma-text mb-5 leading-relaxed font-medium"
+                className="text-lg md:text-xl text-dharma-text mb-4 leading-relaxed font-medium"
                 initial={reduce ? {} : { y: 10, opacity: 0 }}
                 animate={reduce ? {} : { y: 0, opacity: 1 }}
                 transition={reduce ? {} : { delay: 0.2 }}
@@ -278,7 +278,7 @@ export function FlashCard({ data, onNext, onPrevious, onReset, currentIndex, tot
               </motion.p>
               {data.back.explanation && (
                 <motion.div
-                  className="bg-white/60 backdrop-blur-sm rounded-xl p-4 border border-saffron-200 mb-5"
+                  className="bg-dharma-bg/60 backdrop-blur-sm rounded-xl p-4 border border-dharma-border mb-4"
                   initial={reduce ? {} : { y: 10, opacity: 0 }}
                   animate={reduce ? {} : { y: 0, opacity: 1 }}
                   transition={reduce ? {} : { delay: 0.3 }}
@@ -298,7 +298,7 @@ export function FlashCard({ data, onNext, onPrevious, onReset, currentIndex, tot
                   {data.back.keywords.map((keyword, idx) => (
                     <motion.span
                       key={idx}
-                      className="px-3 py-1.5 bg-gradient-to-r from-saffron-100 to-amber-100 text-saffron-800 rounded-full text-xs font-semibold border border-saffron-200 shadow-sm"
+                      className="px-3 py-1.5 bg-saffron-500/10 text-saffron-700 dark:text-saffron-300 rounded-full text-xs font-semibold border border-saffron-500/20 shadow-sm"
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                     >
@@ -354,7 +354,7 @@ export function FlashCard({ data, onNext, onPrevious, onReset, currentIndex, tot
         <button
           onClick={handlePrevious}
           disabled={currentIndex === 0}
-          className="flex items-center gap-2 px-6 py-3 bg-dharma-card border border-dharma-border rounded-full font-semibold hover:bg-saffron-50/20 transition disabled:opacity-50 disabled:cursor-not-allowed shadow-sm hover:shadow-md"
+          className="flex items-center gap-2 px-6 py-3 bg-dharma-card border border-dharma-border text-dharma-text rounded-full font-semibold hover:bg-dharma-bg transition disabled:opacity-50 disabled:cursor-not-allowed shadow-sm hover:shadow-md"
           aria-label="Previous card"
         >
           <ChevronLeft className="w-4 h-4" />

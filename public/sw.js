@@ -3,10 +3,13 @@
 //   • /_next/static/*  cache-first (fingerprinted, never changes)
 //   • icons, fonts     stale-while-revalidate
 // Everything else (large JSON data, analytics) goes straight to the network.
-const VERSION = 'dg-v1';
+const VERSION = 'dg-v2';
 const PAGES = `${VERSION}-pages`;
 const ASSETS = `${VERSION}-assets`;
 const MAX_PAGES = 80;
+// A chapter part can be hundreds of kilobytes. Caching those fills the
+// reader's storage and keeps a stale copy after a text fix.
+const MAX_PAGE_BYTES = 400 * 1024;
 
 self.addEventListener('install', () => self.skipWaiting());
 
@@ -29,7 +32,7 @@ async function trim(cacheName, max) {
 const OFFLINE_HTML =
   '<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">' +
   '<title>Offline</title><body style="font-family:system-ui;text-align:center;padding:3rem 1rem;background:#fdfbf7;color:#3b2a1a">' +
-  '<h1>आप ऑफ़लाइन हैं</h1><p>You are offline. Pages you have already opened are still available.</p>';
+  '<h1 lang="hi">आप ऑफ़लाइन हैं</h1><p lang="en">You are offline. Pages you have already opened are still available.</p>';
 
 self.addEventListener('fetch', (event) => {
   const req = event.request;
@@ -43,9 +46,14 @@ self.addEventListener('fetch', (event) => {
         try {
           const res = await fetch(req);
           if (res.ok) {
-            const cache = await caches.open(PAGES);
-            await cache.put(req, res.clone());
-            trim(PAGES, MAX_PAGES);
+            const copy = res.clone();
+            const declared = Number(copy.headers.get('content-length'));
+            const size = declared > 0 ? declared : (await copy.clone().blob()).size;
+            if (size > 0 && size <= MAX_PAGE_BYTES) {
+              const cache = await caches.open(PAGES);
+              await cache.put(req, copy);
+              trim(PAGES, MAX_PAGES);
+            }
           }
           return res;
         } catch {
@@ -73,7 +81,7 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  if (/\/icons\/|\.(woff2?|ttf)$/.test(url.pathname)) {
+  if (/\/icons\/|\.(woff2?|ttf)$|\/chapter-index\.json$/.test(url.pathname)) {
     event.respondWith(
       (async () => {
         const cache = await caches.open(ASSETS);

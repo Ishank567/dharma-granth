@@ -48,7 +48,7 @@ export default function Error({
           </button>
           <Link
             href="/"
-            className="inline-flex items-center gap-2 bg-white border border-dharma-border text-dharma-text px-5 py-3 rounded-full font-semibold hover:bg-saffron-50 transition"
+            className="inline-flex items-center gap-2 bg-dharma-card border border-dharma-border text-dharma-text px-5 py-3 rounded-full font-semibold hover:bg-dharma-bg transition"
           >
             <Home className="w-4 h-4" />
             Home

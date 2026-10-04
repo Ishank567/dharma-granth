@@ -1,6 +1,6 @@
 'use client';
 
-import { useMemo } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
 import { motion, useReducedMotion } from 'framer-motion';
 import { Sparkles, ArrowRight, BookOpen } from 'lucide-react';
@@ -128,9 +128,13 @@ function getDayOfYear(): number {
 
 export function DailyVerse() {
   const reduce = useReducedMotion();
-  const verse = useMemo(() => {
+  const [verse, setVerse] = useState<DailyVerseData>(DAILY_VERSES[0]);
+  const [dateStr, setDateStr] = useState<string>('');
+
+  useEffect(() => {
     const dayIndex = getDayOfYear() % DAILY_VERSES.length;
-    return DAILY_VERSES[dayIndex];
+    setVerse(DAILY_VERSES[dayIndex]);
+    setDateStr(new Date().toLocaleDateString(undefined, { weekday: 'long', month: 'long', day: 'numeric' }));
   }, []);
 
   const verseUrl =
@@ -154,8 +158,8 @@ export function DailyVerse() {
               <Sparkles className="w-3.5 h-3.5 text-amber-600 animate-spin-slow" />
               Verse of the Day
             </span>
-            <span className="text-xs text-dharma-muted">
-              {new Date().toLocaleDateString(undefined, { weekday: 'long', month: 'long', day: 'numeric' })}
+            <span className="text-xs text-dharma-muted" suppressHydrationWarning>
+              {dateStr}
             </span>
           </div>
 

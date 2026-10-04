@@ -10,54 +10,71 @@ import { QuizRunner } from '@/app/components/QuizRunner';
 import { quizzes } from '@/data/quizzes';
 import { useStudyProgress } from '@/lib/useStudyProgress';
 import { FadeUp, FadeUpOnView } from '@/app/components/motion/primitives';
+import { conceptVerses } from '@/data/concept-verses';
+import { concepts } from '@/data/concepts';
+
+const CONCEPT_MAP = new Map(concepts.map((c) => [c.id, c]));
+
+function buildFlashcardsForConcept(conceptId: string): FlashCardData[] {
+  if (conceptId === 'all') {
+    const list: FlashCardData[] = [];
+    for (const [cId, verses] of Object.entries(conceptVerses)) {
+      const c = CONCEPT_MAP.get(cId);
+      for (const v of verses) {
+        list.push({
+          front: {
+            sanskrit: v.sanskrit,
+            transliteration: v.transliteration,
+            question: c
+              ? `What is the core teaching on ${c.label} (${c.sanskrit})?`
+              : 'What is the teaching of this verse?',
+          },
+          back: {
+            hindi: c?.shortDesc,
+            english: v.translation,
+            explanation: `${v.reference}${c ? ` — ${c.description}` : ''}`,
+            keywords: [c?.label || 'Dharma', c?.sanskrit || 'धर्म', v.reference.split(' ')[0]],
+          },
+          difficulty: 'medium',
+        });
+      }
+    }
+    return list;
+  }
+  const verses = conceptVerses[conceptId] || [];
+  const c = CONCEPT_MAP.get(conceptId);
+  return verses.map((v) => ({
+    front: {
+      sanskrit: v.sanskrit,
+      transliteration: v.transliteration,
+      question: c
+        ? `What is the core teaching on ${c.label} (${c.sanskrit})?`
+        : 'What is the teaching of this verse?',
+    },
+    back: {
+      hindi: c?.shortDesc,
+      english: v.translation,
+      explanation: `${v.reference}${c ? ` — ${c.description}` : ''}`,
+      keywords: [c?.label || 'Dharma', c?.sanskrit || 'धर्म', v.reference.split(' ')[0]],
+    },
+    difficulty: 'medium',
+  }));
+}
 
 export default function LearnPage() {
   const [activeTab, setActiveTab] = useState<'flashcards' | 'slides' | 'mindmap' | 'timeline' | 'quizzes'>('flashcards');
   const [selectedQuizId, setSelectedQuizId] = useState<string | null>(null);
   const study = useStudyProgress();
-  const [flashcards, setFlashcards] = useState<FlashCardData[]>([
-    {
-      front: {
-        sanskrit: 'कर्मण्येवाधिकारस्ते मा फलेषु कदाचन',
-        transliteration: 'karmaṇyevādhikāraste mā phaleṣu kadācana',
-        question: 'What is the teaching of this verse?',
-      },
-      back: {
-        hindi: 'तुम्हारा अधिकार केवल कर्म करने में है, फल में कभी नहीं।',
-        english: 'You have a right only to perform your duty; the fruits thereof are not your concern.',
-        explanation: 'Focus on the action, not the outcome. This leads to better performance and inner peace.',
-        keywords: ['Karma', 'Detachment', 'Flow State'],
-      },
-    },
-    {
-      front: {
-        sanskrit: 'योगः कर्मसु कौशलम्',
-        transliteration: 'yogaḥ karmasu kauśalam',
-        question: 'What is Yoga according to the Gita?',
-      },
-      back: {
-        hindi: 'योग कर्मों में कौशल है।',
-        english: 'Yoga is skill in action.',
-        explanation: 'Excellence in performing duties with complete focus and detachment from results.',
-        keywords: ['Yoga', 'Skill', 'Excellence'],
-      },
-    },
-    {
-      front: {
-        sanskrit: 'त्वं असि अव्ययः',
-        transliteration: 'tvaṃ asi avyayaḥ',
-        question: 'What is the nature of the Self?',
-      },
-      back: {
-        hindi: 'तुम अविनाशी हो।',
-        english: 'You are imperishable.',
-        explanation: 'The true Self is eternal and beyond birth and death, like energy that transforms but never ceases.',
-        keywords: ['Atman', 'Eternal', 'Consciousness'],
-      },
-    },
-  ]);
+  const [selectedConcept, setSelectedConcept] = useState<string>('all');
+  const [flashcards, setFlashcards] = useState<FlashCardData[]>(() => buildFlashcardsForConcept('all'));
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
   const [spacedRepetitionMode, setSpacedRepetitionMode] = useState(false);
+
+  const handleSelectConcept = (conceptId: string) => {
+    setSelectedConcept(conceptId);
+    setFlashcards(buildFlashcardsForConcept(conceptId));
+    setCurrentCardIndex(0);
+  };
 
   const handleNextCard = () => {
     setCurrentCardIndex((prev) => (prev + 1) % flashcards.length);
@@ -207,7 +224,7 @@ export default function LearnPage() {
 
       {/* Tab Navigation */}
       <section className="max-w-6xl mx-auto px-6 -mt-8 relative z-10">
-        <div className="bg-white rounded-2xl shadow-xl p-2 flex gap-2">
+        <div className="bg-dharma-card border border-dharma-border rounded-2xl shadow-xl p-2 flex gap-2 overflow-x-auto">
           {[
             { id: 'flashcards' as const, label: 'Flashcards', icon: <BookOpen className="w-4 h-4" /> },
             { id: 'slides' as const, label: 'Slides', icon: <Sparkles className="w-4 h-4" /> },
@@ -218,10 +235,10 @@ export default function LearnPage() {
             <button
               key={tab.id}
               onClick={() => setActiveTab(tab.id)}
-              className={`flex items-center gap-2 px-6 py-3 rounded-xl font-semibold transition-all ${
+              className={`flex items-center gap-2 px-6 py-3 rounded-xl font-semibold transition-all shrink-0 ${
                 activeTab === tab.id
                   ? 'bg-gradient-to-r from-saffron-600 to-amber-600 text-white shadow-md'
-                  : 'text-dharma-text hover:bg-saffron-50'
+                  : 'text-dharma-text hover:bg-dharma-bg'
               }`}
             >
               {tab.icon}
@@ -235,9 +252,13 @@ export default function LearnPage() {
       <section className="max-w-6xl mx-auto px-6 py-12">
         <FadeUpOnView>
           {activeTab === 'flashcards' && (
-            <div className="py-8">
-              <div className="flex items-center justify-between mb-4">
-                <div className="flex items-center gap-2">
+            <div className="py-8 space-y-6">
+              {/* Concept Selector Filter */}
+              <div className="rounded-2xl border border-dharma-border bg-dharma-card p-4 shadow-sm">
+                <div className="flex flex-wrap items-center justify-between gap-3 mb-3">
+                  <span className="text-xs font-bold uppercase tracking-wider text-saffron-700">
+                    Philosophical Concept ({concepts.length} concepts • 69 verses)
+                  </span>
                   <label className="flex items-center gap-2 text-sm text-dharma-muted cursor-pointer">
                     <input
                       type="checkbox"
@@ -248,17 +269,52 @@ export default function LearnPage() {
                     Spaced Repetition Mode
                   </label>
                 </div>
+                <div className="flex gap-2 overflow-x-auto pb-1 scrollbar-none">
+                  <button
+                    onClick={() => handleSelectConcept('all')}
+                    className={`px-3 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition shrink-0 ${
+                      selectedConcept === 'all'
+                        ? 'bg-gradient-to-r from-saffron-600 to-amber-600 text-white shadow-sm'
+                        : 'bg-dharma-bg border border-dharma-border text-dharma-text hover:border-saffron-300'
+                    }`}
+                  >
+                    All Concepts (69)
+                  </button>
+                  {concepts.map((c) => {
+                    const count = conceptVerses[c.id]?.length || 0;
+                    if (count === 0) return null;
+                    const isSelected = selectedConcept === c.id;
+                    return (
+                      <button
+                        key={c.id}
+                        onClick={() => handleSelectConcept(c.id)}
+                        className={`px-3 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition flex items-center gap-1.5 shrink-0 ${
+                          isSelected
+                            ? 'bg-gradient-to-r from-saffron-600 to-amber-600 text-white shadow-sm'
+                            : 'bg-dharma-bg border border-dharma-border text-dharma-text hover:border-saffron-300'
+                        }`}
+                      >
+                        <span>{c.label}</span>
+                        <span className={`font-devanagari text-[11px] ${isSelected ? 'text-saffron-100' : 'text-dharma-muted'}`}>{c.sanskrit}</span>
+                        <span className={`text-[10px] ${isSelected ? 'text-saffron-100' : 'text-dharma-muted'}`}>({count})</span>
+                      </button>
+                    );
+                  })}
+                </div>
               </div>
-              <FlashCard
-                data={flashcards[currentCardIndex]}
-                onNext={handleNextCard}
-                onPrevious={handlePreviousCard}
-                onReset={handleResetCards}
-                currentIndex={currentCardIndex}
-                total={flashcards.length}
-                onShuffle={handleShuffleCards}
-                spacedRepetitionMode={spacedRepetitionMode}
-              />
+
+              {flashcards.length > 0 && (
+                <FlashCard
+                  data={flashcards[currentCardIndex] || flashcards[0]}
+                  onNext={handleNextCard}
+                  onPrevious={handlePreviousCard}
+                  onReset={handleResetCards}
+                  currentIndex={currentCardIndex}
+                  total={flashcards.length}
+                  onShuffle={handleShuffleCards}
+                  spacedRepetitionMode={spacedRepetitionMode}
+                />
+              )}
             </div>
           )}
 

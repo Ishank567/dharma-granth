@@ -38,14 +38,14 @@ export default function NotFound() {
           </Link>
           <Link
             href="/scriptures"
-            className="inline-flex items-center gap-2 bg-white border border-dharma-border text-dharma-text px-5 py-3 rounded-full font-semibold hover:bg-saffron-50 transition"
+            className="inline-flex items-center gap-2 bg-dharma-card border border-dharma-border text-dharma-text px-5 py-3 rounded-full font-semibold hover:bg-dharma-bg transition"
           >
             <Search className="w-4 h-4" />
             Browse the Library
           </Link>
           <Link
             href="/scripture/bhagavadgita"
-            className="inline-flex items-center gap-2 bg-white border border-dharma-border text-dharma-text px-5 py-3 rounded-full font-semibold hover:bg-saffron-50 transition"
+            className="inline-flex items-center gap-2 bg-dharma-card border border-dharma-border text-dharma-text px-5 py-3 rounded-full font-semibold hover:bg-dharma-bg transition"
           >
             <BookOpen className="w-4 h-4" />
             Read the Gita

@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
-import { recordChapterVisit, type ChapterVisit } from '@/lib/reading-history';
+import { recordChapterVisit, updateLastVerse, type ChapterVisit } from '@/lib/reading-history';
 
 /** Renders nothing; records the chapter in reading history for "continue reading". */
 export function ChapterVisitRecorder(props: Omit<ChapterVisit, 'readAt'>) {
@@ -12,6 +12,7 @@ export function ChapterVisitRecorder(props: Omit<ChapterVisit, 'readAt'>) {
     chapterId,
     chapterTitle,
     totalChapters,
+    verseId,
   } = props;
 
   useEffect(() => {
@@ -23,7 +24,8 @@ export function ChapterVisitRecorder(props: Omit<ChapterVisit, 'readAt'>) {
       chapterTitle,
       totalChapters,
     });
-  }, [scriptureId, scriptureTitle, scriptureTitleSanskrit, chapterId, chapterTitle, totalChapters]);
+    if (verseId) updateLastVerse(scriptureId, chapterId, verseId);
+  }, [scriptureId, scriptureTitle, scriptureTitleSanskrit, chapterId, chapterTitle, totalChapters, verseId]);
 
   return null;
 }

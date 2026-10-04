@@ -4,6 +4,7 @@ import { ThemeProvider } from "@/app/components/ThemeProvider";
 import { PageTransition } from "@/app/components/motion/PageTransition";
 import { DEFAULT_OG_IMAGE } from "@/lib/og";
 import { FloatingCompanion } from "@/app/components/FloatingCompanion";
+import { GlobalAudioPlayer } from "@/app/components/GlobalAudioPlayer";
 import { TactileLayer } from "@/app/components/TactileLayer";
 import { SpatialLightCursor } from "@/app/components/motion/SpatialLightCursor";
 // Self-hosted fonts via @fontsource — bundled at build time so the build
@@ -88,8 +89,8 @@ export const metadata: Metadata = {
   publisher: "Dharma Granth",
   openGraph: {
     type: "website",
-    locale: "en_US",
-    alternateLocale: ["hi_IN"],
+    locale: "hi_IN",
+    alternateLocale: ["en_US"],
     url: SITE_URL,
     siteName: SITE_NAME,
     title: DEFAULT_TITLE,
@@ -138,7 +139,10 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#c2410c",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#c2410c" },
+    { media: "(prefers-color-scheme: dark)", color: "#1a1412" },
+  ],
   width: "device-width",
   initialScale: 1,
 };
@@ -183,7 +187,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="hi" suppressHydrationWarning>
       <head>
         {/* eslint-disable-next-line @next/next/no-sync-scripts */}
         <script dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }} />
@@ -195,7 +199,7 @@ export default function RootLayout({
       <body className="font-sans bg-dharma-bg text-dharma-text antialiased">
         <ThemeProvider>
           <SpatialLightCursor />
-          <a href="#main-content" className="skip-link">
+          <a href="#main-content" className="skip-link" lang="en">
             Skip to main content
           </a>
           <SiteNav />
@@ -203,6 +207,7 @@ export default function RootLayout({
             <PageTransition>{children}</PageTransition>
           </div>
           <FloatingCompanion />
+          <GlobalAudioPlayer />
           <TactileLayer />
           <ServiceWorkerRegister />
         </ThemeProvider>

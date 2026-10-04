@@ -89,9 +89,12 @@ export default function HomePage() {
         <div className="mx-auto max-w-6xl px-5 sm:px-6">
           <div className="mb-8 flex flex-col gap-5 sm:flex-row sm:items-end sm:justify-between">
             <div>
-              <p className="mb-2 text-xs font-bold uppercase tracking-[0.2em] text-saffron-700">
-                Start reading
-              </p>
+              <div className="flex items-center gap-2 mb-2">
+                <span className="size-1.5 rounded-full bg-saffron-600 animate-status-pulse" />
+                <p className="text-xs font-bold uppercase tracking-[0.2em] text-saffron-700 dark:text-saffron-400">
+                  Curated Archive
+                </p>
+              </div>
               <h2
                 id="featured-texts-heading"
                 className="text-3xl font-bold text-dharma-text sm:text-4xl"
@@ -133,9 +136,13 @@ export default function HomePage() {
                 maxTilt={10}
                 depth={24}
                 glareIntensity={0.24}
-                className="h-full border border-dharma-border bg-dharma-card card-3d-depth"
-                contentClassName="flex h-full flex-col p-5"
+                className="h-full border border-dharma-border bg-dharma-card card-3d-depth relative overflow-hidden"
+                contentClassName="flex h-full flex-col p-5 relative"
               >
+                <span
+                  aria-hidden="true"
+                  className="pointer-events-none absolute inset-0 z-10 border border-black/[0.06] dark:border-white/[0.08]"
+                />
                 <Link
                   href={`/scripture/${scripture.id}`}
                   className="group flex h-full flex-col"

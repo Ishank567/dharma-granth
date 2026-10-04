@@ -28,37 +28,36 @@ export function useLocalStorage<T>(
   // until the post-hydration re-render, so it can only ever write values
   // the user has genuinely seen.
   const [hydrated, setHydrated] = useState(false);
-  const keyRef = useRef(key);
-  keyRef.current = key;
-
-  // Hydrate from localStorage after mount.
+  // Hydrate from localStorage after mount or when key changes.
   useEffect(() => {
     try {
-      const raw = window.localStorage.getItem(keyRef.current);
+      const raw = window.localStorage.getItem(key);
       if (raw !== null) {
         setValue(JSON.parse(raw) as T);
+      } else {
+        setValue(initial);
       }
     } catch {
       // ignore parse / access errors
     }
     setHydrated(true);
-  }, [keyRef]);
+  }, [key, initial]);
 
   // Persist on change (only after hydration, so the initial value can never
   // overwrite previously stored data).
   useEffect(() => {
     if (!hydrated) return;
     try {
-      window.localStorage.setItem(keyRef.current, JSON.stringify(value));
+      window.localStorage.setItem(key, JSON.stringify(value));
     } catch {
       // ignore quota / access errors
     }
-  }, [value, hydrated, keyRef]);
+  }, [value, hydrated, key]);
 
   // Cross-tab sync.
   useEffect(() => {
     function onStorage(e: StorageEvent) {
-      if (e.key !== keyRef.current || e.newValue === null) return;
+      if (e.key !== key || e.newValue === null) return;
       try {
         setValue(JSON.parse(e.newValue) as T);
       } catch {
@@ -67,7 +66,7 @@ export function useLocalStorage<T>(
     }
     window.addEventListener('storage', onStorage);
     return () => window.removeEventListener('storage', onStorage);
-  }, [keyRef]);
+  }, [key]);
 
   const update = useCallback(
     (next: T | ((prev: T) => T)) => {
@@ -80,12 +79,12 @@ export function useLocalStorage<T>(
 
   const remove = useCallback(() => {
     try {
-      window.localStorage.removeItem(keyRef.current);
+      window.localStorage.removeItem(key);
     } catch {
       // ignore
     }
     setValue(initial);
-  }, [initial]);
+  }, [key, initial]);
 
   return [value, update, remove];
 }

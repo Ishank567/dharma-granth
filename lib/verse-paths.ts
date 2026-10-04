@@ -1,10 +1,10 @@
 /**
  * Scriptures that get a URL per verse (`/scripture/{id}/chapter/{n}/verse/{v}/`).
  *
- * The Gita plus the shorter principal Upanishads: about 1,100 verse URLs,
- * the searches people actually type ("gita 2.47 meaning in hindi").
- * Brihadaranyaka and Chandogya stay on chapter pages so the export stays
- * within the host's file-count and size limits.
+ * The Gita, the principal Upanishads (including Chandogya and
+ * Brihadaranyaka), and the published Ramayana and Ramcharitmanas verses.
+ * Puranas and the Mahabharata stay on chapter pages: a URL per verse
+ * there does not fit the static export.
  *
  * This module is imported by client components, so it must not touch node:fs.
  */
@@ -19,6 +19,10 @@ export const VERSE_PAGE_SCRIPTURE_IDS = [
   'taittiriya',
   'aitareya',
   'shvetashvatara',
+  'chandogya',
+  'brihadaranyaka',
+  'ramayana',
+  'ramcharitmanas',
 ] as const;
 
 const VERSE_SLUG = /^[0-9A-Za-z]+(?:[.\-][0-9A-Za-z]+)*$/;

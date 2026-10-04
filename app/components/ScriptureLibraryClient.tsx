@@ -58,6 +58,7 @@ function scriptureMatchesQuery(scripture: LibraryItem, query: string): boolean {
   const haystack = [
     scripture.title,
     scripture.titleSanskrit,
+    scripture.titleIast,
     scripture.description,
     scripture.author,
     scripture.category,
@@ -212,61 +213,64 @@ export function ScriptureLibraryClient({
 
   return (
     <div className="max-w-6xl mx-auto px-6 py-10">
-      <section className="mb-10">
-        <div className="grid gap-4 md:grid-cols-3">
-          <div className="rounded-xl border border-dharma-border bg-dharma-card p-5 shadow-sm">
-            <p className="text-xs font-semibold uppercase tracking-widest text-dharma-muted">
-              Catalog
-            </p>
-            <p className="mt-2 text-3xl font-bold text-dharma-text">
-              {formatCount(scriptures.length)}
-            </p>
-            <p className="text-sm text-dharma-muted">texts organized for study</p>
+      {/* Inspora-inspired Archival Stats Line */}
+      <section className="mb-8 border-b border-dharma-border/80 pb-5">
+        <div className="flex flex-wrap items-center justify-between gap-4 text-[13px]">
+          <div className="flex flex-wrap items-center gap-4 sm:gap-6 text-dharma-muted">
+            <div className="flex items-center gap-2">
+              <span className="size-2 rounded-full bg-saffron-500 animate-status-pulse" />
+              <span className="font-semibold text-dharma-text">{formatCount(scriptures.length)}</span>
+              <span>texts in catalog</span>
+            </div>
+            <span className="h-3.5 w-px bg-dharma-border" aria-hidden="true" />
+            <div className="flex items-center gap-1.5">
+              <span className="font-semibold text-dharma-text">{formatCount(explainedCount)}</span>
+              <span>verse-by-verse</span>
+            </div>
+            <span className="h-3.5 w-px bg-dharma-border" aria-hidden="true" />
+            <div className="flex items-center gap-1.5">
+              <span className="font-semibold text-dharma-text">{formatCount(filteredScriptures.length)}</span>
+              <span>matching view</span>
+            </div>
           </div>
-          <div className="rounded-xl border border-dharma-border bg-dharma-card p-5 shadow-sm">
-            <p className="text-xs font-semibold uppercase tracking-widest text-dharma-muted">
-              Explained
-            </p>
-            <p className="mt-2 text-3xl font-bold text-dharma-text">
-              {formatCount(explainedCount)}
-            </p>
-            <p className="text-sm text-dharma-muted">with verse-by-verse data</p>
-          </div>
-          <div className="rounded-xl border border-dharma-border bg-dharma-card p-5 shadow-sm">
-            <p className="text-xs font-semibold uppercase tracking-widest text-dharma-muted">
-              Showing
-            </p>
-            <p className="mt-2 text-3xl font-bold text-dharma-text">
-              {formatCount(filteredScriptures.length)}
-            </p>
-            <p className="text-sm text-dharma-muted">matching the current view</p>
-          </div>
+
+          {hasActiveFilters && (
+            <button
+              type="button"
+              onClick={resetFilters}
+              className="inline-flex items-center gap-1.5 text-xs font-semibold text-saffron-700 hover:text-saffron-800 transition"
+            >
+              <X className="h-3.5 w-3.5" />
+              Reset filters
+            </button>
+          )}
         </div>
       </section>
 
-      <section className="mb-12 rounded-xl border border-dharma-border bg-dharma-card p-4 shadow-sm">
-        <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+      {/* Inspora-inspired Archival Toolbar */}
+      <section className="mb-10 space-y-4">
+        <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <label className="relative block flex-1">
-            <Search className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-dharma-muted" />
+            <Search className="pointer-events-none absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-dharma-muted" />
             <span className="sr-only">Search scriptures</span>
             <input
               value={query}
               onChange={(event) => setQuery(event.target.value)}
               placeholder="Search by title, Sanskrit name, author, topic..."
-              className="w-full rounded-lg border border-dharma-border bg-dharma-bg py-3 pl-11 pr-4 text-sm text-dharma-text outline-none transition focus:border-saffron-500 focus:ring-2 focus:ring-saffron-500/20"
+              className="w-full rounded-md border border-dharma-border bg-dharma-panel/60 py-2.5 pl-10 pr-4 text-[13px] tracking-[-0.002em] text-dharma-text outline-none transition placeholder:text-dharma-muted/70 focus:border-saffron-500 focus:bg-dharma-card focus:ring-1 focus:ring-saffron-500"
             />
           </label>
 
-          <div className="flex flex-wrap items-center gap-2">
-            <label className="inline-flex items-center gap-2 rounded-lg border border-dharma-border bg-dharma-bg px-3 py-2 text-sm font-semibold text-dharma-text">
-              Sort
+          <div className="flex flex-wrap items-center gap-2.5">
+            <label className="inline-flex h-10 items-center gap-2 rounded-md border border-dharma-border bg-dharma-card px-3 text-[13px] font-medium text-dharma-text hover:border-dharma-border/80 transition">
+              <span className="text-dharma-muted text-xs">Sort:</span>
               <select
                 value={sortMode}
                 onChange={(event) => setSortMode(event.target.value as SortMode)}
-                className="bg-transparent text-sm font-semibold text-dharma-text outline-none"
+                className="bg-transparent text-[13px] font-medium text-dharma-text outline-none cursor-pointer"
               >
                 <option value="featured">Featured</option>
-                <option value="az">A-Z</option>
+                <option value="az">A–Z</option>
                 <option value="verses">Most verses</option>
               </select>
             </label>
@@ -274,66 +278,67 @@ export function ScriptureLibraryClient({
             <button
               type="button"
               onClick={() => setExplainedOnly((value) => !value)}
-              className={`inline-flex items-center gap-2 rounded-lg border px-3 py-2 text-sm font-semibold transition ${
+              className={`inline-flex h-10 items-center gap-2 rounded-md border px-3 text-[13px] font-medium transition ${
                 explainedOnly
-                  ? 'border-emerald-300 bg-emerald-100 text-emerald-800'
-                  : 'border-dharma-border bg-dharma-bg text-dharma-text hover:border-saffron-300 hover:text-saffron-700'
+                  ? 'border-emerald-500/40 bg-emerald-500/10 text-emerald-700 dark:text-emerald-400'
+                  : 'border-dharma-border bg-dharma-card text-dharma-text hover:border-saffron-300 hover:text-saffron-700'
               }`}
               aria-pressed={explainedOnly}
             >
-              <span className="flex h-4 w-4 items-center justify-center rounded border border-current">
-                {explainedOnly && <Check className="h-3 w-3" />}
+              <span className="flex h-3.5 w-3.5 items-center justify-center rounded border border-current">
+                {explainedOnly && <Check className="h-2.5 w-2.5" />}
               </span>
-              Explained only
+              <span>Explained only</span>
             </button>
-
-            {hasActiveFilters && (
-              <button
-                type="button"
-                onClick={resetFilters}
-                className="inline-flex items-center gap-2 rounded-lg border border-dharma-border bg-dharma-bg px-3 py-2 text-sm font-semibold text-dharma-muted transition hover:border-saffron-300 hover:text-saffron-700"
-              >
-                <X className="h-4 w-4" />
-                Clear
-              </button>
-            )}
           </div>
         </div>
 
-        <div className="mt-4 flex gap-2 overflow-x-auto pb-1">
-          <button
-            type="button"
-            onClick={() => setActiveCategory('all')}
-            className={`shrink-0 rounded-lg border px-3 py-2 text-sm font-semibold transition ${
-              activeCategory === 'all'
-                ? 'border-saffron-300 bg-saffron-100 text-saffron-800'
-                : 'border-dharma-border bg-dharma-bg text-dharma-muted hover:border-saffron-300 hover:text-saffron-700'
-            }`}
+        {/* Inspora-style Fixed-Dimension Horizontal Category Pills */}
+        <div className="border-t border-b border-dharma-border/70 py-3">
+          <nav
+            aria-label="Filter scriptures by category"
+            className="min-w-0 flex-1 overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
           >
-            All
-          </button>
-          {visibleCategories.map((category) => (
-            <button
-              key={category.id}
-              type="button"
-              onClick={() => setActiveCategory(category.id)}
-              className={`inline-flex shrink-0 items-center gap-2 rounded-lg border px-3 py-2 text-sm font-semibold transition ${
-                activeCategory === category.id
-                  ? 'border-saffron-300 bg-saffron-100 text-saffron-800'
-                  : 'border-dharma-border bg-dharma-bg text-dharma-muted hover:border-saffron-300 hover:text-saffron-700'
-              }`}
-            >
-              {categoryIcons[category.id]}
-              {category.label}
-              <span className="text-xs">{category.total}</span>
-            </button>
-          ))}
+            <div className="flex w-max items-center gap-2">
+              <button
+                type="button"
+                onClick={() => setActiveCategory('all')}
+                className={`focus-ring inline-flex h-9 min-w-[88px] sm:min-w-[100px] shrink-0 items-center justify-center rounded px-3.5 text-[13px] font-medium leading-none tracking-[0.2px] transition-colors duration-150 ${
+                  activeCategory === 'all'
+                    ? 'bg-stone-900 text-white dark:bg-stone-100 dark:text-stone-900 shadow-sm'
+                    : 'bg-dharma-panel-muted text-dharma-muted hover:bg-dharma-border/60 hover:text-dharma-text'
+                }`}
+              >
+                All ({scriptures.length})
+              </button>
+              {visibleCategories.map((category) => {
+                const isSelected = activeCategory === category.id;
+                return (
+                  <button
+                    key={category.id}
+                    type="button"
+                    onClick={() => setActiveCategory(category.id)}
+                    className={`focus-ring inline-flex h-9 min-w-[96px] sm:min-w-[115px] shrink-0 items-center justify-center gap-2 rounded px-3.5 text-[13px] font-medium leading-none tracking-[0.2px] transition-colors duration-150 ${
+                      isSelected
+                        ? 'bg-stone-900 text-white dark:bg-stone-100 dark:text-stone-900 shadow-sm'
+                        : 'bg-dharma-panel-muted text-dharma-muted hover:bg-dharma-border/60 hover:text-dharma-text'
+                    }`}
+                  >
+                    <span className="opacity-75">{categoryIcons[category.id]}</span>
+                    <span>{category.label}</span>
+                    <span className={`text-[11px] ${isSelected ? 'opacity-80' : 'text-dharma-muted/80'}`}>
+                      {category.total}
+                    </span>
+                  </button>
+                );
+              })}
+            </div>
+          </nav>
         </div>
 
         {hasActiveFilters && (
-          <p className="mt-4 text-sm text-dharma-muted" aria-live="polite">
-            Showing {formatCount(filteredScriptures.length)} of{' '}
-            {formatCount(scriptures.length)} texts
+          <p className="text-xs text-dharma-muted" aria-live="polite">
+            Showing {formatCount(filteredScriptures.length)} of {formatCount(scriptures.length)} texts
             {activeCategoryLabel ? ` in ${activeCategoryLabel}` : ''}
             {normalizedQuery ? ` matching "${normalizedQuery}"` : ''}.
           </p>
@@ -418,48 +423,91 @@ export function ScriptureLibraryClient({
                           alt={`${scripture.title} cover art`}
                           fill
                           sizes="(min-width: 1280px) 360px, (min-width: 768px) 45vw, 90vw"
-                          className="object-contain p-3 transition duration-500 group-hover:scale-[1.03]"
+                          className="object-contain p-3.5 transition duration-500 group-hover:scale-[1.03]"
                         />
-                        {scripture.hasData && (
-                          <span className="absolute right-3 top-3 inline-flex shrink-0 items-center gap-1 rounded-md bg-white/90 px-2 py-1 text-xs font-semibold text-emerald-800 shadow-sm backdrop-blur">
-                            <Check className="h-3 w-3" />
-                            Explained
-                          </span>
-                        )}
+
+                        {/* Inspora Hairline Inset Border Overlay */}
+                        <span
+                          aria-hidden="true"
+                          className="pointer-events-none absolute inset-0 z-10 border border-black/[0.06] dark:border-white/[0.08]"
+                        />
+
+                        {/* Inspora-style Floating Author / Tradition Emblem */}
+                        <div className="absolute bottom-2.5 left-2.5 z-20 flex items-center gap-1.5 rounded-full bg-stone-950/85 px-2.5 py-1 text-[11px] font-medium text-white backdrop-blur-md border border-white/10 shadow-sm">
+                          <span className="size-1.5 rounded-full bg-saffron-500 animate-status-pulse" />
+                          <span className="truncate max-w-[130px]">{scripture.author || 'ऋषि परम्परा'}</span>
+                        </div>
+
+                        {/* Inspora-style Status Badges: Edition & Commentary */}
+                        <div className="absolute top-2.5 right-2.5 z-20 flex items-center gap-1.5">
+                          {scripture.isCurated ? (
+                            <span className="inline-flex items-center rounded-full bg-stone-950/85 px-2 py-0.5 text-[10px] font-medium text-amber-300 backdrop-blur-md border border-white/10 shadow-sm">
+                              सार संकलन
+                            </span>
+                          ) : (
+                            <span className="inline-flex items-center rounded-full bg-stone-950/85 px-2 py-0.5 text-[10px] font-medium text-emerald-400 backdrop-blur-md border border-white/10 shadow-sm">
+                              सम्पूर्ण संहिता
+                            </span>
+                          )}
+                          {scripture.hasData && (
+                            <span className="inline-flex items-center gap-1 rounded-full bg-stone-950/85 px-2 py-0.5 text-[10px] font-medium text-emerald-300 backdrop-blur-md border border-white/10 shadow-sm">
+                              <Check className="h-2.5 w-2.5" />
+                              <span>सटीक</span>
+                            </span>
+                          )}
+                        </div>
                       </div>
 
-                      <div className="p-4">
-                        <p
-                          lang="sa"
-                          className="mb-1 line-clamp-1 font-devanagari text-sm text-dharma-muted"
-                        >
-                          {scripture.titleSanskrit}
-                        </p>
-                        <h3 className="mb-3 text-xl font-serif font-bold leading-tight text-dharma-text transition group-hover:text-saffron-700">
-                          {scripture.title}
-                        </h3>
-                        <p className="line-clamp-4 text-sm leading-relaxed text-dharma-text">
+                      <div className="p-4 border-t border-dharma-border/60">
+                        <div className="mb-1.5 flex items-center justify-between text-[11px] text-dharma-muted">
+                          <span className="font-semibold uppercase tracking-wider text-saffron-700 dark:text-saffron-400">
+                            {scripture.category}
+                          </span>
+                          <span>
+                            {scripture.isCurated && scripture.canonicalTotalVerses
+                              ? `${formatCount(scripture.totalVerses)} सार (${formatCount(scripture.canonicalTotalVerses)} मूल)`
+                              : `${formatCount(scripture.totalChapters)} ch · ${formatCount(scripture.totalVerses)} v`}
+                          </span>
+                        </div>
+
+                        <div className="mb-2">
+                          <h3 className="text-lg font-serif font-bold leading-snug text-dharma-text transition group-hover:text-saffron-700">
+                            {scripture.title}
+                          </h3>
+                          <div className="mt-0.5 flex flex-wrap items-baseline gap-1.5">
+                            <p
+                              lang="sa"
+                              className="font-devanagari text-[14px] font-semibold text-saffron-800 dark:text-saffron-400"
+                            >
+                              {scripture.titleSanskrit}
+                            </p>
+                            {scripture.titleIast && (
+                              <span className="text-xs font-serif italic text-dharma-muted">
+                                · {scripture.titleIast}
+                              </span>
+                            )}
+                          </div>
+                        </div>
+
+                        <p className="line-clamp-3 text-[13px] leading-relaxed text-dharma-text/85">
                           {scripture.description}
                         </p>
+
                         {scripture.explanation && (
                           <p
-                            className="mt-3 line-clamp-2 text-sm font-devanagari leading-relaxed text-dharma-muted"
+                            className="mt-2.5 line-clamp-2 text-xs font-devanagari leading-relaxed text-dharma-muted"
                             lang="hi"
                           >
                             {scripture.explanation.overview.hi}
                           </p>
                         )}
-                        <div className="mt-4 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs font-medium text-dharma-muted">
-                          <span>{formatCount(scripture.totalChapters)} chapters</span>
-                          <span>{formatCount(scripture.totalVerses)} verses</span>
-                          {scripture.author && <span>by {scripture.author}</span>}
-                        </div>
+
                         {scripture.tags.length > 0 && (
-                          <div className="mt-4 flex flex-wrap gap-1.5">
-                            {scripture.tags.slice(0, 4).map((tag) => (
+                          <div className="mt-3.5 flex flex-wrap gap-1.5">
+                            {scripture.tags.slice(0, 3).map((tag) => (
                               <span
                                 key={tag}
-                                className="rounded-full bg-saffron-50 px-2 py-1 text-xs font-semibold text-saffron-800 ring-1 ring-saffron-100"
+                                className="rounded border border-dharma-border/60 bg-dharma-bg/80 px-2 py-0.5 text-[11px] font-medium text-dharma-muted"
                               >
                                 {tag}
                               </span>

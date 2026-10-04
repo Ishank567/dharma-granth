@@ -10,6 +10,7 @@ import {
   Headphones,
   Maximize2,
   Minimize2,
+  Repeat,
   RotateCcw,
   SlidersHorizontal,
   Square,
@@ -23,10 +24,15 @@ import { canonicalVerseId } from '@/lib/canonical-verse-id';
 import { resolveKeywordTarget } from '@/lib/keyword-links';
 import {
   canRecite,
+  getRecitationLoop,
+  getRecitationSpeed,
   reciteVerse,
+  setRecitationLoop,
+  setRecitationSpeed,
   splitVerseLines,
   stopRecitation,
   subscribeRecitation,
+  subscribeRecitationConfig,
   type RecitationState,
 } from '@/lib/verse-recite';
 import { triggerTactileFeedback } from '@/lib/haptics';
@@ -38,6 +44,7 @@ export interface FocusVerse {
   translation?: string;
   translationSource?: 'ai';
   hindi?: string;
+  hindiSource?: 'ai';
   wordMeaning?: string;
   commentary?: string;
   explanation?: string;
@@ -126,6 +133,17 @@ export function MobileFocusMode({
 
   const [isSpeaking, setIsSpeaking] = useState(false);
   const [speakingLine, setSpeakingLine] = useState<number | 'meaning' | null>(null);
+  const [speed, setSpeed] = useState(1.0);
+  const [loop, setLoop] = useState(false);
+
+  useEffect(() => {
+    setSpeed(getRecitationSpeed());
+    setLoop(getRecitationLoop());
+    return subscribeRecitationConfig(() => {
+      setSpeed(getRecitationSpeed());
+      setLoop(getRecitationLoop());
+    });
+  }, []);
 
   const reduce = useReducedMotion();
   const cardScrollRef = useRef<HTMLDivElement>(null);
@@ -209,28 +227,33 @@ export function MobileFocusMode({
     if (!canRecite(verseData)) return;
 
     setIsSpeaking(true);
-    reciteVerse(verseData, (naturalEnd) => {
-      setIsSpeaking(false);
-      if (continuousPlayRef.current && naturalEnd && currentIndex < verses.length - 1) {
-        // Auto advance to next verse
-        next();
-        setTimeout(() => {
-          if (!continuousPlayRef.current) return;
-          const nextVerse = verses[currentIndex + 1];
-          if (nextVerse) {
-            reciteVerse(
-              {
-                sanskrit: nextVerse.sanskrit,
-                hindi: nextVerse.hindi,
-                translation: nextVerse.translation,
-              },
-              () => {},
-            );
-          }
-        }, 650);
-      }
-    });
-  }, [currentVerse, isSpeaking, currentIndex, verses, next]);
+    reciteVerse(
+      verseData,
+      (naturalEnd) => {
+        setIsSpeaking(false);
+        if (continuousPlayRef.current && naturalEnd && !getRecitationLoop() && currentIndex < verses.length - 1) {
+          // Auto advance to next verse
+          next();
+          setTimeout(() => {
+            if (!continuousPlayRef.current) return;
+            const nextVerse = verses[currentIndex + 1];
+            if (nextVerse) {
+              reciteVerse(
+                {
+                  sanskrit: nextVerse.sanskrit,
+                  hindi: nextVerse.hindi,
+                  translation: nextVerse.translation,
+                },
+                () => {},
+                { speed, loop },
+              );
+            }
+          }, 650);
+        }
+      },
+      { speed, loop },
+    );
+  }, [currentVerse, isSpeaking, currentIndex, verses, next, speed, loop]);
 
   // Keyboard navigation
   useEffect(() => {
@@ -607,12 +630,12 @@ export function MobileFocusMode({
         </div>
 
         {/* ── Bottom Navigation Controls Bar ──────────────────── */}
-        <footer className="relative flex shrink-0 items-center justify-between border-t border-stone-800/80 bg-stone-950/90 px-4 py-3 sm:px-8 backdrop-blur-md">
+        <footer className="relative flex shrink-0 items-center justify-between border-t border-stone-800/80 bg-stone-950/90 px-3 py-3 sm:px-8 backdrop-blur-md gap-2">
           <button
             type="button"
             onClick={prev}
             disabled={currentIndex === 0}
-            className={`inline-flex items-center gap-1.5 rounded-xl border px-3.5 py-2 text-xs font-semibold transition ${
+            className={`inline-flex items-center gap-1.5 rounded-xl border px-3 py-2 text-xs font-semibold transition ${
               currentIndex === 0
                 ? 'border-stone-800 text-stone-600 cursor-not-allowed opacity-50'
                 : 'border-stone-800 bg-stone-900 text-stone-200 hover:border-stone-700 hover:bg-stone-850 active:scale-95'
@@ -620,45 +643,93 @@ export function MobileFocusMode({
             aria-label="पिछला श्लोक"
           >
             <ChevronLeft className="h-4 w-4" />
-            <span className="hidden sm:inline">पिछला श्लोक</span>
+            <span className="hidden md:inline">पिछला</span>
           </button>
 
-          {/* Audio Recitation Play / Stop Button */}
-          <button
-            type="button"
-            onClick={toggleSpeech}
-            className={`inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-xs sm:text-sm font-bold shadow-lg transition ${
-              isSpeaking
-                ? 'bg-saffron-600 text-white ring-2 ring-saffron-400/50 animate-pulse'
-                : 'bg-gradient-to-r from-saffron-500 to-amber-600 text-white hover:brightness-110 active:scale-95'
-            }`}
-            aria-label={isSpeaking ? 'पाठ रोकें' : 'श्लोक सुनें'}
-          >
-            {isSpeaking ? (
-              <>
-                <Square className="h-3.5 w-3.5 fill-current" />
-                <span>रोकें (Stop)</span>
-              </>
-            ) : (
-              <>
-                <Volume2 className="h-4 w-4" />
-                <span>पाठ सुनें (Listen)</span>
-              </>
-            )}
-          </button>
+          {/* Audio Recitation, Loop & Speed Group */}
+          <div className="flex items-center gap-1.5 sm:gap-2">
+            {/* Shloka Loop (आवृति) Button */}
+            <button
+              type="button"
+              onClick={() => {
+                const nextLoop = !loop;
+                setLoop(nextLoop);
+                setRecitationLoop(nextLoop);
+                triggerTactileFeedback('medium', nextLoop ? 'softTap' : 'click');
+              }}
+              className={`inline-flex items-center gap-1 rounded-xl px-2.5 py-2 text-xs font-semibold border transition ${
+                loop
+                  ? 'border-amber-500/80 bg-amber-500/20 text-amber-300 ring-1 ring-amber-400/40'
+                  : 'border-stone-800 bg-stone-900 text-stone-400 hover:text-stone-200'
+              }`}
+              title="श्लोक का बार-बार पाठ / आवृति (Repeat shloka loop)"
+              aria-label="आवृति"
+              aria-pressed={loop}
+            >
+              <Repeat className="h-3.5 w-3.5" />
+              <span className="hidden sm:inline">आवृति</span>
+            </button>
+
+            {/* Play / Stop Button */}
+            <button
+              type="button"
+              onClick={toggleSpeech}
+              className={`inline-flex items-center gap-2 rounded-full px-4 sm:px-6 py-2.5 text-xs sm:text-sm font-bold shadow-lg transition ${
+                isSpeaking
+                  ? 'bg-saffron-600 text-white ring-2 ring-saffron-400/50 animate-pulse'
+                  : 'bg-gradient-to-r from-saffron-500 to-amber-600 text-white hover:brightness-110 active:scale-95'
+              }`}
+              aria-label={isSpeaking ? 'पाठ रोकें' : 'श्लोक सुनें'}
+            >
+              {isSpeaking ? (
+                <>
+                  <Square className="h-3.5 w-3.5 fill-current" />
+                  <span>रोकें</span>
+                </>
+              ) : (
+                <>
+                  <Volume2 className="h-4 w-4" />
+                  <span>श्लोक सुनें</span>
+                </>
+              )}
+            </button>
+
+            {/* Speed Selector */}
+            <div className="flex items-center rounded-xl border border-stone-800 bg-stone-900 p-0.5 text-xs">
+              {[0.75, 1.0, 1.25].map((s) => (
+                <button
+                  key={s}
+                  type="button"
+                  onClick={() => {
+                    setSpeed(s);
+                    setRecitationSpeed(s);
+                    triggerTactileFeedback('light', 'softTap');
+                  }}
+                  className={`rounded-lg px-1.5 sm:px-2 py-1 text-[11px] font-semibold transition ${
+                    speed === s
+                      ? 'bg-saffron-600 text-white'
+                      : 'text-stone-400 hover:text-stone-200'
+                  }`}
+                  title={`${s}x गति`}
+                >
+                  {s}x
+                </button>
+              ))}
+            </div>
+          </div>
 
           <button
             type="button"
             onClick={next}
             disabled={currentIndex === verses.length - 1}
-            className={`inline-flex items-center gap-1.5 rounded-xl border px-3.5 py-2 text-xs font-semibold transition ${
+            className={`inline-flex items-center gap-1.5 rounded-xl border px-3 py-2 text-xs font-semibold transition ${
               currentIndex === verses.length - 1
                 ? 'border-stone-800 text-stone-600 cursor-not-allowed opacity-50'
                 : 'border-stone-800 bg-stone-900 text-stone-200 hover:border-stone-700 hover:bg-stone-850 active:scale-95'
             }`}
             aria-label="अगला श्लोक"
           >
-            <span className="hidden sm:inline">अगला श्लोक</span>
+            <span className="hidden md:inline">अगला</span>
             <ChevronRight className="h-4 w-4" />
           </button>
         </footer>

@@ -17,6 +17,7 @@
   "shortcuts": [
     { "name": "भगवद्गीता पढ़ें", "short_name": "Gita", "url": "/scripture/bhagavadgita/" },
     { "name": "ग्रंथालय", "short_name": "Library", "url": "/scriptures/" },
+    { "name": "मेरे संग्रह", "short_name": "Collections", "url": "/collections/" },
     { "name": "मेरा डैशबोर्ड", "short_name": "Dashboard", "url": "/dashboard/" }
   ]
 }

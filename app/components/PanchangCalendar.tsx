@@ -283,9 +283,30 @@ export function PanchangCalendar() {
 
   if (!selectedDate || !panchang) {
     return (
-      <section className="max-w-6xl mx-auto px-6 py-12">
-        <div className="rounded-xl border border-dharma-border bg-dharma-card p-8 text-center text-dharma-muted shadow-sm">
-          Loading Panchang calendar...
+      <section className="max-w-6xl mx-auto px-6 py-12" aria-busy="true" aria-label="पंचांग लोड हो रहा है">
+        <div className="overflow-hidden rounded-2xl border border-dharma-border bg-dharma-card shadow-xl animate-pulse">
+          <div className="grid lg:grid-cols-[0.9fr_1.1fr]">
+            <div className="bg-gradient-to-br from-saffron-900/60 via-saffron-800/60 to-amber-700/60 p-6 md:p-8 min-h-[340px] flex flex-col justify-between">
+              <div className="space-y-3">
+                <div className="h-4 w-28 bg-white/20 rounded-full" />
+                <div className="h-8 w-48 bg-white/20 rounded-xl" />
+                <div className="h-4 w-64 bg-white/15 rounded-lg" />
+              </div>
+              <div className="grid grid-cols-2 gap-3 pt-6">
+                <div className="h-16 bg-white/10 rounded-xl" />
+                <div className="h-16 bg-white/10 rounded-xl" />
+              </div>
+            </div>
+            <div className="p-6 md:p-8 space-y-4">
+              <div className="h-5 w-36 bg-dharma-border rounded-lg" />
+              <div className="grid sm:grid-cols-3 gap-3">
+                <div className="h-24 bg-dharma-bg rounded-xl border border-dharma-border" />
+                <div className="h-24 bg-dharma-bg rounded-xl border border-dharma-border" />
+                <div className="h-24 bg-dharma-bg rounded-xl border border-dharma-border" />
+              </div>
+              <div className="h-20 bg-dharma-bg rounded-xl border border-dharma-border" />
+            </div>
+          </div>
         </div>
       </section>
     );
@@ -628,7 +649,7 @@ export function PanchangCalendar() {
                           aria-pressed={isSelected}
                           className={`rounded-lg border p-2 text-center transition ${
                             isSelected
-                              ? 'border-saffron-500 bg-saffron-600 text-white shadow-md'
+                              ? 'border-saffron-700 bg-saffron-700 text-white shadow-md'
                               : 'border-dharma-border bg-dharma-card text-dharma-text hover:border-saffron-300 hover:bg-saffron-500/10'
                           }`}
                           initial={{ opacity: 0, scale: 0.8 }}
@@ -637,7 +658,7 @@ export function PanchangCalendar() {
                           whileHover={{ scale: 1.1, y: -2 }}
                           whileTap={{ scale: 0.95 }}
                         >
-                          <span className="block text-[10px] font-bold uppercase opacity-75">
+                          <span className={`block text-[10px] font-bold uppercase ${isSelected ? 'text-white' : 'text-dharma-muted'}`}>
                             {new Intl.DateTimeFormat('en-IN', {
                               weekday: 'short',
                             }).format(day)}
@@ -645,7 +666,7 @@ export function PanchangCalendar() {
                           <span className="mt-1 block text-lg font-bold">
                             {day.getDate()}
                           </span>
-                          <span className="mt-1 block truncate text-[10px] font-semibold">
+                          <span className={`mt-1 block truncate text-[10px] font-semibold ${isSelected ? 'text-white' : 'text-dharma-muted'}`}>
                             T{dayPanchang.tithiNumber}
                           </span>
                         </motion.button>
@@ -698,10 +719,10 @@ export function PanchangCalendar() {
                     ))}
                   </dl>
                   <motion.p
-                    className="mt-4 text-sm leading-relaxed text-dharma-muted"
-                    initial={{ opacity: 0 }}
+                    className="mt-4 text-sm leading-relaxed text-dharma-text"
+                    initial={reduce ? false : { opacity: 0 }}
                     animate={{ opacity: 1 }}
-                    transition={{ delay: 1 }}
+                    transition={reduce ? { duration: 0 } : { delay: 1 }}
                   >
                     Seasonal cue: {panchang.ritu.note}. Use it as a simple
                     prompt for choosing what to read today.
@@ -711,9 +732,9 @@ export function PanchangCalendar() {
 
               <motion.div
                 className="mt-5 rounded-xl border border-dashed border-dharma-border bg-dharma-bg p-4"
-                initial={{ opacity: 0, y: 20 }}
+                initial={reduce ? false : { opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 1.1 }}
+                transition={reduce ? { duration: 0 } : { delay: 1.1 }}
               >
                 <div className="flex gap-3">
                   <motion.div
@@ -722,7 +743,7 @@ export function PanchangCalendar() {
                   >
                     <Info className="mt-0.5 h-5 w-5 shrink-0 text-saffron-600" />
                   </motion.div>
-                  <p className="text-sm leading-relaxed text-dharma-muted">
+                  <p className="text-sm leading-relaxed text-dharma-text">
                     This is an educational Panchang approximation for visual
                     study. Exact Panchang values depend on location, sunrise,
                     ayanamsha, and astronomical calculations.

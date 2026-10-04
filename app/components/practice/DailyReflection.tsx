@@ -1,5 +1,5 @@
 'use client';
-
+import { useEffect, useState } from 'react';
 import { PenLine, Check } from 'lucide-react';
 import { useLocalStorage } from '@/lib/useLocalStorage';
 import { ToolCard, localISODate, dayOfYear } from './shared';
@@ -31,9 +31,13 @@ export function DailyReflection() {
     'dharma.practice.reflections',
     {},
   );
+  const [prompt, setPrompt] = useState(PROMPTS[0]);
+
+  useEffect(() => {
+    setPrompt(PROMPTS[dayOfYear() % PROMPTS.length]);
+  }, []);
 
   const today = localISODate();
-  const prompt = PROMPTS[dayOfYear() % PROMPTS.length];
   const text = entries[today] ?? '';
   const daysWritten = Object.keys(entries).filter((k) => (entries[k] ?? '').trim().length > 0).length;
 

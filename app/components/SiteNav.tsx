@@ -53,6 +53,7 @@ const discoveryItems = [
 const personalItems = [
   { label: 'मेरा डैशबोर्ड', href: '/dashboard' },
   { label: 'बुकमार्क', href: '/bookmarks' },
+  { label: 'संग्रह', href: '/collections' },
   { label: 'अध्ययन पथ', href: '/learn/pathways' },
 ];
 
@@ -274,16 +275,22 @@ export function SiteNav() {
           </div>
 
           <div className="flex shrink-0 items-center gap-2">
+            {/* Inspora-inspired Live Status Indicator */}
+            <div className="hidden items-center gap-2 pr-1 text-xs text-dharma-muted 2xl:flex" aria-hidden="true">
+              <span className="size-1.5 rounded-full bg-saffron-600 animate-status-pulse" />
+              <span className="tracking-tight">6,200+ श्लोक संग्रह</span>
+            </div>
+
             <button
               type="button"
               onClick={() => setSearchOpen(true)}
               onPointerEnter={() => void loadSearchModal()}
               onFocus={() => void loadSearchModal()}
-              className="flex items-center gap-2 rounded-xl border border-dharma-border/80 bg-dharma-bg/70 px-3 py-2 text-xs font-semibold text-dharma-muted transition hover:border-saffron-300 hover:text-dharma-text focus:outline-none focus:ring-2 focus:ring-saffron-500/20"
+              className="flex items-center gap-2 rounded-lg border border-dharma-border/80 bg-dharma-bg/80 px-3 py-2 text-xs font-semibold text-dharma-muted transition hover:border-saffron-400 hover:text-dharma-text focus:outline-none focus:ring-2 focus:ring-saffron-500/20"
               aria-label="खोजें (Search)"
               aria-keyshortcuts="Control+K Meta+K /"
             >
-              <Search className="h-4 w-4 text-saffron-600" />
+              <Search className="h-3.5 w-3.5 text-saffron-600" />
               <span className="hidden sm:inline">खोजें...</span>
               <kbd className="hidden rounded border border-dharma-border bg-dharma-card px-1.5 py-0.5 font-mono text-[10px] text-dharma-muted md:inline-block">
                 {shortcutLabel}

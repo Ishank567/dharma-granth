@@ -31,6 +31,8 @@ const config: Config = {
           muted: 'var(--dharma-muted)',
           border: 'var(--dharma-border)',
           card: 'var(--dharma-card)',
+          'card-soft': 'var(--dharma-card-soft)',
+          panel: 'var(--dharma-panel)',
           'panel-muted': 'var(--dharma-panel-muted)',
         }
       },

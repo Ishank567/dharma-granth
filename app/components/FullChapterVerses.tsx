@@ -4,8 +4,10 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import {
   BookOpen,
   Flame,
+  Gauge,
   Headphones,
   Maximize2,
+  Repeat,
   RotateCcw,
   Search,
   SlidersHorizontal,
@@ -16,9 +18,19 @@ import type { HiCommentaryFragment } from '@/data/hi-commentary/_types';
 import { canonicalVerseId } from '@/lib/canonical-verse-id';
 import { versePageHref } from '@/lib/verse-paths';
 import { normalizeForSearch, normalizeTransliteration } from '@/lib/normalize-search';
-import { useStudyProgress } from '@/lib/useStudyProgress';
+import { useStudyProgress, type VerseRef } from '@/lib/useStudyProgress';
 import { updateLastVerse } from '@/lib/reading-history';
-import { reciteVerse, stopRecitation } from '@/lib/verse-recite';
+import {
+  getRecitationLoop,
+  getRecitationSpeed,
+  getRecitationState,
+  reciteVerse,
+  setRecitationLoop,
+  setRecitationSpeed,
+  stopRecitation,
+  subscribeRecitationConfig,
+} from '@/lib/verse-recite';
+import { AddToCollectionModal } from './AddToCollectionModal';
 import { ContributeMeaningModal } from './ContributeMeaningModal';
 import { VerseCard } from './VerseCard';
 import { VerseText } from './VerseText';
@@ -32,6 +44,7 @@ interface FullVerse {
   translation?: string;
   translationSource?: 'ai';
   hindi?: string;
+  hindiSource?: 'ai';
   wordMeaning?: string;
   commentary?: string;
   explanation?: string;
@@ -127,13 +140,37 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
   const [continuousRecite, setContinuousRecite] = useState(false);
   const continuousReciteRef = useRef(false);
   continuousReciteRef.current = continuousRecite;
+  const [reciteSpeed, setReciteSpeed] = useState(1.0);
+  const [reciteLoop, setReciteLoop] = useState(false);
+
+  useEffect(() => {
+    setReciteSpeed(getRecitationSpeed());
+    setReciteLoop(getRecitationLoop());
+    return subscribeRecitationConfig(() => {
+      setReciteSpeed(getRecitationSpeed());
+      setReciteLoop(getRecitationLoop());
+    });
+  }, []);
+
   const [focusModeOpen, setFocusModeOpen] = useState(false);
   const [focusVerseIndex, setFocusVerseIndex] = useState(0);
   const layersMenuRef = useRef<HTMLDivElement>(null);
   const layersTriggerRef = useRef<HTMLButtonElement>(null);
-  // One store for the whole chapter (not one per card): notes and highlights
-  // are passed down to each VerseCard.
-  const { recordReading, getNote, setNote, getHighlight, toggleHighlight } = useStudyProgress();
+  // One store for the whole chapter (not one per card): notes, highlights and
+  // collections are passed down to each VerseCard.
+  const { recordReading, getNote, setNote, getHighlight, toggleHighlight, collections } = useStudyProgress();
+  const [collectionVerse, setCollectionVerse] = useState<VerseRef | null>(null);
+
+  const getCollectionCount = (verseNum: number | string) => {
+    return collections.filter((c) =>
+      c.verseRefs.some(
+        (ref) =>
+          ref.scriptureId === scriptureId &&
+          ref.chapterId === chapterId &&
+          String(ref.verseId) === String(verseNum),
+      ),
+    ).length;
+  };
 
   // Auto-record study reading when chapter is loaded
   useEffect(() => {
@@ -384,7 +421,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
   }, [state, filterQuery, verseSearchKeys]);
 
   const handleVerseReciteFinish = (currentIndex: number, naturalEnd: boolean) => {
-    if (!continuousReciteRef.current || !naturalEnd) return;
+    if (!continuousReciteRef.current || !naturalEnd || getRecitationLoop()) return;
     const nextIndex = currentIndex + 1;
     if (nextIndex < filteredVerses.length) {
       const nextVerse = filteredVerses[nextIndex];
@@ -398,6 +435,19 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
             translation: nextVerse.translation,
           },
           (nextNatural) => handleVerseReciteFinish(nextIndex, nextNatural),
+          {
+            metadata: {
+              scriptureTitle,
+              chapterTitle,
+              verseLabel: String(nextVerse.number),
+              chapterId,
+              scriptureId,
+              verseNumber: nextVerse.number,
+              sanskrit: nextVerse.sanskrit,
+              hindi: nextVerse.hindi,
+              translation: nextVerse.translation,
+            },
+          },
         );
       }, 750);
     }
@@ -599,6 +649,30 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
                   triggerTactileFeedback('medium', next ? 'softTap' : 'click');
                   if (!next) {
                     stopRecitation();
+                  } else if (filteredVerses.length > 0 && !getRecitationState().isSpeaking) {
+                    const firstVerse = filteredVerses[0];
+                    scrollToVerse(firstVerse.number);
+                    reciteVerse(
+                      {
+                        sanskrit: firstVerse.sanskrit,
+                        hindi: firstVerse.hindi,
+                        translation: firstVerse.translation,
+                      },
+                      (nat) => handleVerseReciteFinish(0, nat),
+                      {
+                        metadata: {
+                          scriptureTitle,
+                          chapterTitle,
+                          verseLabel: String(firstVerse.number),
+                          chapterId,
+                          scriptureId,
+                          verseNumber: firstVerse.number,
+                          sanskrit: firstVerse.sanskrit,
+                          hindi: firstVerse.hindi,
+                          translation: firstVerse.translation,
+                        },
+                      },
+                    );
                   }
                 }}
                 className={`inline-flex items-center gap-1.5 rounded-xl px-3 py-1.5 text-xs font-semibold transition ${
@@ -614,6 +688,57 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
                 {/* Icon-only on phones so the whole toolbar fits one row. */}
                 <span className="hidden sm:inline">निरंतर पाठ</span>
               </button>
+
+              {/* Shloka Repeat Loop (आवृति) Toggle */}
+              <button
+                type="button"
+                onClick={() => {
+                  const next = !reciteLoop;
+                  setReciteLoop(next);
+                  setRecitationLoop(next);
+                  triggerTactileFeedback('medium', next ? 'softTap' : 'click');
+                }}
+                className={`inline-flex items-center gap-1.5 rounded-xl px-3 py-1.5 text-xs font-semibold transition ${
+                  reciteLoop
+                    ? 'bg-amber-600 text-white shadow-sm ring-2 ring-amber-400/30'
+                    : 'border border-dharma-border bg-dharma-bg text-dharma-text hover:border-amber-300 hover:text-amber-700'
+                }`}
+                title="एक ही श्लोक का बार-बार पाठ / आवृति (Repeat shloka loop)"
+                aria-label="आवृति"
+                aria-pressed={reciteLoop}
+              >
+                <Repeat className={`h-3.5 w-3.5 ${reciteLoop ? 'text-white' : 'text-amber-600'}`} />
+                <span className="hidden sm:inline">आवृति</span>
+              </button>
+
+              {/* Recitation Speed Selector */}
+              <div
+                className="hidden sm:inline-flex items-center rounded-xl border border-dharma-border bg-dharma-bg p-0.5 text-xs"
+                title="पाठ गति (Chanting Speed)"
+                role="group"
+                aria-label="पाठ गति"
+              >
+                <Gauge className="mx-1.5 h-3.5 w-3.5 text-dharma-muted" aria-hidden="true" />
+                {[0.75, 1.0, 1.25].map((s) => (
+                  <button
+                    key={s}
+                    type="button"
+                    onClick={() => {
+                      setReciteSpeed(s);
+                      setRecitationSpeed(s);
+                      triggerTactileFeedback('light', 'softTap');
+                    }}
+                    className={`rounded-lg px-2 py-0.5 text-[11px] font-semibold transition ${
+                      reciteSpeed === s
+                        ? 'bg-saffron-600 text-white shadow-xs'
+                        : 'text-dharma-muted hover:text-dharma-text'
+                    }`}
+                    aria-pressed={reciteSpeed === s}
+                  >
+                    {s}x
+                  </button>
+                ))}
+              </div>
 
               {/* Chanting Mode Toggle */}
               <button
@@ -876,6 +1001,18 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
                   onToggleBookmark={() => toggleBookmark(v)}
                   onCopy={() => handleCopyVerse(v)}
                   onContribute={() => setContributeVerse(v)}
+                  onAddToCollection={() =>
+                    setCollectionVerse({
+                      scriptureId,
+                      scriptureTitle: scriptureTitle ?? scriptureId,
+                      chapterId,
+                      chapterTitle: chapterTitle ?? `अध्याय ${chapterId}`,
+                      verseId: v.number,
+                      sanskrit: v.sanskrit || '',
+                      translation: v.hindi || v.translation || '',
+                    })
+                  }
+                  inCollectionCount={getCollectionCount(v.number)}
                   note={getNote(scriptureId, chapterId, v.number)?.text}
                   onSaveNote={(text) => setNote(scriptureId, chapterId, v.number, text)}
                   highlight={getHighlight(scriptureId, chapterId, v.number)?.color}
@@ -919,6 +1056,13 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
           science: contributeVerse?.science,
           lifeLesson: contributeVerse?.lifeLesson,
         }}
+      />
+
+      {/* Add verse to collection modal */}
+      <AddToCollectionModal
+        open={Boolean(collectionVerse)}
+        onClose={() => setCollectionVerse(null)}
+        verse={collectionVerse}
       />
 
       {/* Fullscreen Mobile & Screen Focus Mode */}

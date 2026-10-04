@@ -30,6 +30,11 @@ export function generateStaticParams() {
         seen.add(cid);
       }
     }
+    if (meta.id === 'yogavasishtha') {
+      for (const cid of Array.from(seen)) {
+        params.push({ id: 'yogavasistha', chapterId: cid });
+      }
+    }
   }
   return params;
 }

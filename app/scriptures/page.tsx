@@ -29,15 +29,23 @@ export default function ScripturesPage() {
 
   return (
     <main className="min-h-screen bg-dharma-bg">
-      <div className="bg-gradient-to-b from-saffron-800 to-saffron-600 text-white py-16">
+      {/* Inspora-inspired Archival Gallery Header */}
+      <div className="border-b border-dharma-border/80 bg-dharma-card/60 backdrop-blur-sm py-12 sm:py-16">
         <div className="max-w-6xl mx-auto px-6">
           <FadeUp>
-            <h1 className="text-4xl font-serif font-bold mb-3">All Scriptures</h1>
+            <div className="flex items-center gap-2 mb-3">
+              <span className="size-2 rounded-full bg-saffron-600 animate-status-pulse" />
+              <span className="text-xs font-semibold uppercase tracking-[0.2em] text-saffron-700 dark:text-saffron-400">
+                The Sacred Archive
+              </span>
+            </div>
+            <h1 className="text-3xl font-serif font-bold text-dharma-text sm:text-5xl tracking-tight">
+              All Scriptures
+            </h1>
           </FadeUp>
           <FadeUp delay={0.1}>
-            <p className="text-lg opacity-80 max-w-2xl">
-              Browse the complete catalog of Hindu sacred texts. Search by title,
-              author, Sanskrit name, category, or theme.
+            <p className="mt-3 text-base text-dharma-muted sm:text-lg max-w-2xl leading-relaxed">
+              A curated catalog of Hindu sacred texts — Vedas, Upanishads, Itihasas, and Puranas, indexed for verse-by-verse study, original Sanskrit recitation, and commentary.
             </p>
           </FadeUp>
         </div>

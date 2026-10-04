@@ -1,7 +1,12 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { ArrowLeft, ArrowRight } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Atom, Lightbulb, Sparkles } from 'lucide-react';
+import { ChapterVisitRecorder } from '@/app/components/ChapterVisitRecorder';
+import { ReaderFontSize } from '@/app/components/ReaderFontSize';
+import { VersePageActions } from '@/app/components/VersePageActions';
+import { VerseStudyNotes } from '@/app/components/VerseStudyNotes';
+import { VerseRelatedSection } from '@/app/components/VerseRelatedSection';
 import { VerseText } from '@/app/components/VerseText';
 import { getScriptureMeta } from '@/data/scriptures';
 import type { HiCommentaryEntry } from '@/data/hi-commentary/_types';
@@ -9,12 +14,15 @@ import { readChapterCommentary, readSeededChapter } from '@/lib/read-seeded-chap
 import { verseStaticParams } from '@/lib/verse-pages';
 import { verseOgPath, versePageHref, verseSlug } from '@/lib/verse-paths';
 import { scriptureLastChanged } from '@/lib/content-dates';
+import { cleanVerseField, isMostlyDevanagari, verseLines } from '@/lib/verse-format';
+import { getVerseIntegrations } from '@/lib/verse-integrations';
 
 /**
  * One static page per verse for the scriptures in VERSE_PAGE_SCRIPTURE_IDS
  * (lib/verse-paths.ts) — the Gita and principal Upanishads, which people
  * search verse by verse ("gita 2.47 meaning in hindi", "karmanye
- * vadhikaraste"). Plain server-rendered HTML: no client JS beyond the layout.
+ * vadhikaraste"). The verse body is server HTML; listen, copy, share and
+ * bookmark are a small client toolbar.
  */
 
 interface PageProps {
@@ -58,7 +66,7 @@ function plain(text: string | undefined, max: number): string {
 
 /** The verse's opening words, as people type them into search. */
 function opening(sanskrit: string | undefined): string {
-  const first = (sanskrit ?? '').split(/\n|[|।॥]/).map((s) => s.trim()).find(Boolean) ?? '';
+  const first = verseLines(cleanVerseField(sanskrit))[0] ?? '';
   return plain(first, 40);
 }
 
@@ -172,6 +180,14 @@ export default function VersePage({ params }: PageProps) {
 
   const chapterName = seeded.chapter.title ?? `अध्याय ${chapterId}`;
 
+  const integrations = getVerseIntegrations(meta.id, chapterId, params.verseId, {
+    sanskrit: verse.sanskrit,
+    transliteration: verse.transliteration,
+    hindi: verse.hindi,
+    translation: verse.translation,
+    explanation,
+  });
+
   return (
     <main className="min-h-screen bg-dharma-bg">
       <script
@@ -179,45 +195,98 @@ export default function VersePage({ params }: PageProps) {
         // eslint-disable-next-line react/no-danger
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <header className="bg-gradient-to-br from-saffron-900 via-saffron-700 to-orange-600 py-12 text-white">
-        <div className="mx-auto max-w-4xl px-6">
-          <Link href={chapterHref} className="mb-6 inline-flex items-center gap-2 text-sm text-white/75 transition hover:text-white">
-            <ArrowLeft className="h-4 w-4" aria-hidden="true" />
-            {meta.title} · {chapterName} — पूरा अध्याय
+      <div className="border-b border-dharma-border">
+        <div className="mx-auto flex max-w-4xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
+          <Link
+            href={chapterHref}
+            className="inline-flex min-w-0 items-center gap-2 text-sm text-dharma-muted transition hover:text-saffron-700"
+          >
+            <ArrowLeft className="h-4 w-4 shrink-0" aria-hidden="true" />
+            <span className="truncate">
+              {meta.title} · {chapterName}
+            </span>
           </Link>
-          <p lang="sa" className="font-devanagari text-sm text-saffron-100/90">
-            {meta.titleSanskrit} · श्लोक {params.verseId}
-          </p>
-          <h1 className="mt-2 font-serif text-3xl font-bold md:text-4xl">{ref}</h1>
-          <p lang="hi" className="mt-2 max-w-3xl font-devanagari text-base text-white/85">
-            संस्कृत मूल, हिन्दी अर्थ और English meaning
-          </p>
+          <ReaderFontSize />
         </div>
-      </header>
+      </div>
 
-      <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6 md:py-12">
-        <VerseText verse={verse} chapterId={chapterId} />
+      <div className="mx-auto max-w-4xl px-4 py-6 sm:px-6 md:py-10">
+        <ChapterVisitRecorder
+          scriptureId={meta.id}
+          scriptureTitle={meta.title}
+          scriptureTitleSanskrit={meta.titleSanskrit}
+          chapterId={chapterId}
+          chapterTitle={chapterName}
+          totalChapters={meta.totalChapters}
+          verseId={params.verseId}
+        />
+        <header className="mb-5">
+          <p lang="sa" className="font-devanagari text-sm text-saffron-700">
+            {meta.titleSanskrit}
+          </p>
+          <h1 className="mt-1 font-serif text-2xl font-bold text-dharma-text md:text-3xl">{ref}</h1>
+        </header>
+        <div data-verse-read data-reader-size="normal">
+          <VerseText
+            verse={verse}
+            chapterId={chapterId}
+            actions={
+              <VersePageActions
+                scriptureId={meta.id}
+                scriptureTitle={meta.title}
+                chapterId={chapterId}
+                chapterTitle={chapterName}
+                verse={verse}
+              />
+            }
+          />
+        </div>
+
+        <VerseStudyNotes
+          scriptureId={meta.id}
+          chapterId={chapterId}
+          verseId={params.verseId}
+        />
 
         {(explanation || science || lesson) && (
           <section className="mt-8 space-y-4" aria-label="व्याख्या">
             {[
-              { title: 'व्याख्या', text: explanation },
-              { title: 'विज्ञान', text: science },
-              { title: 'जीवन में', text: lesson },
+              { title: 'व्याख्या', text: explanation, icon: Sparkles, iconClass: 'text-amber-500' },
+              { title: 'विज्ञान', text: science, icon: Atom, iconClass: 'text-indigo-500' },
+              { title: 'जीवन में', text: lesson, icon: Lightbulb, iconClass: 'text-emerald-500' },
             ]
               .filter((block) => block.text)
-              .map((block) => (
-                <div key={block.title} className="rounded-2xl border border-dharma-border bg-dharma-card p-5">
-                  <h2 lang="hi" className="mb-2 font-serif text-lg font-bold text-dharma-text">
-                    {block.title}
-                  </h2>
-                  <p lang="hi" className="whitespace-pre-line font-devanagari text-base leading-loose text-dharma-text">
-                    {block.text}
-                  </p>
-                </div>
-              ))}
+              .map((block) => {
+                const hindiBlock = isMostlyDevanagari(block.text);
+                const Icon = block.icon;
+                return (
+                  <div key={block.title} className="rounded-2xl border border-dharma-border bg-dharma-card p-5">
+                    <h2 lang="hi" className="mb-2 flex items-center gap-2 font-serif text-lg font-bold text-dharma-text">
+                      <Icon className={`h-5 w-5 ${block.iconClass}`} aria-hidden="true" />
+                      <span>{block.title}</span>
+                    </h2>
+                    <p
+                      lang={hindiBlock ? 'hi' : 'en'}
+                      className={
+                        hindiBlock
+                          ? 'whitespace-pre-line font-devanagari text-base leading-loose text-dharma-text'
+                          : 'whitespace-pre-line text-sm leading-relaxed text-dharma-text md:text-base'
+                      }
+                    >
+                      {block.text}
+                    </p>
+                  </div>
+                );
+              })}
           </section>
         )}
+
+        <VerseRelatedSection
+          concepts={integrations.concepts}
+          topics={integrations.topics}
+          crossReferences={integrations.crossReferences}
+          currentScriptureTitle={meta.title}
+        />
 
         <nav className="mt-10 flex items-stretch justify-between gap-4" aria-label="आसपास के श्लोक">
           {prevHref && prev ? (
@@ -229,6 +298,11 @@ export default function VersePage({ params }: PageProps) {
               <span className="min-w-0">
                 <span className="block text-[10px] uppercase text-dharma-muted">पिछला</span>
                 <span className="block text-sm font-semibold">श्लोक {String(prev.number)}</span>
+                {opening(prev.sanskrit) && (
+                  <span lang="sa" className="mt-0.5 block truncate font-devanagari text-xs text-dharma-muted">
+                    {opening(prev.sanskrit)}
+                  </span>
+                )}
               </span>
             </Link>
           ) : (
@@ -242,6 +316,11 @@ export default function VersePage({ params }: PageProps) {
               <span className="min-w-0 text-right">
                 <span className="block text-[10px] uppercase opacity-80">अगला</span>
                 <span className="block text-sm font-semibold">श्लोक {String(next.number)}</span>
+                {opening(next.sanskrit) && (
+                  <span lang="sa" className="mt-0.5 block truncate font-devanagari text-xs text-white/80">
+                    {opening(next.sanskrit)}
+                  </span>
+                )}
               </span>
               <ArrowRight className="h-4 w-4 shrink-0" aria-hidden="true" />
             </Link>

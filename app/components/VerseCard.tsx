@@ -7,8 +7,11 @@ import {
   Bookmark,
   BookmarkCheck,
   Check,
+  Compass,
   Copy,
   Edit3,
+  FolderCheck,
+  FolderPlus,
   Highlighter,
   Lightbulb,
   Maximize2,
@@ -25,6 +28,7 @@ import { toDevanagari, verseLines } from '@/lib/verse-format';
 import { subscribeRecitation, type RecitationState } from '@/lib/verse-recite';
 import { ListenButton } from './ListenButton';
 import { ShareVerseButton } from './ShareVerseButton';
+import { GlossaryText } from './GlossaryTooltip';
 import { getVerseGraphicClass, getVerseGraphicStyle } from './verse-background';
 
 export interface VerseCardData {
@@ -34,6 +38,7 @@ export interface VerseCardData {
   translation?: string;
   translationSource?: 'ai';
   hindi?: string;
+  hindiSource?: 'ai';
   wordMeaning?: string;
   keywords?: string[];
 }
@@ -72,6 +77,8 @@ interface Props {
   onToggleBookmark: () => void;
   onCopy: () => void;
   onContribute: () => void;
+  onAddToCollection?: () => void;
+  inCollectionCount?: number;
   /** The reader's own note on this verse, if any. */
   note?: string;
   /** Saves the note; an empty string deletes it. */
@@ -113,14 +120,6 @@ function isMostlyDevanagari(text: string | undefined): boolean {
     else if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) latin++;
   }
   return deva > latin;
-}
-
-function sameText(a: string, b: string): boolean {
-  const n = (s: string) => s.replace(/\s+/g, ' ').trim().toLowerCase();
-  const x = n(a);
-  const y = n(b);
-  // Many sources store one field as a prefix/copy of the other.
-  return x === y || x.startsWith(y) || y.startsWith(x);
 }
 
 /** Lotus-petal medallion carrying the verse number in Devanagari numerals. */
@@ -175,6 +174,8 @@ export function VerseCard({
   onToggleBookmark,
   onCopy,
   onContribute,
+  onAddToCollection,
+  inCollectionCount,
   note,
   onSaveNote,
   highlight,
@@ -247,22 +248,18 @@ export function VerseCard({
   const explanationIsHi = meaning.explanationIsHi || isMostlyDevanagari(explanation);
   const scienceIsHi = meaning.scienceIsHi || isMostlyDevanagari(science);
   const lessonIsHi = meaning.lessonIsHi || isMostlyDevanagari(lesson);
-  // Most sources repeat the explanation as the "simple meaning" (641 of 644
-  // Gita verses); show it once, keeping the longer text.
-  const wordMeaning =
-    v.wordMeaning && explanation && sameText(v.wordMeaning, explanation) ? undefined : v.wordMeaning;
   const showHindi = Boolean(v.hindi && layers.hindi);
   const showEnglish = Boolean(v.translation && layers.english);
 
   const tabs = useMemo(() => {
     const list: Array<{ id: TabId; label: string; icon: typeof Sparkles }> = [];
     if (showHindi || showEnglish) list.push({ id: 'meaning', label: 'अर्थ', icon: ScrollText });
-    if (layers.commentary && (wordMeaning || explanation)) {
+    if (layers.commentary && explanation) {
       list.push({ id: 'explain', label: 'व्याख्या', icon: Sparkles });
     }
     if (layers.commentary && science) list.push({ id: 'science', label: 'विज्ञान', icon: Atom });
     return list;
-  }, [showHindi, showEnglish, layers.commentary, wordMeaning, explanation, science]);
+  }, [showHindi, showEnglish, layers.commentary, explanation, science]);
 
   const [chosenTab, setChosenTab] = useState<TabId>('meaning');
   // Fall back to the first available tab if the chosen one was switched off.
@@ -380,6 +377,22 @@ export function VerseCard({
               )}
             </button>
 
+            {onAddToCollection && (
+              <button
+                type="button"
+                onClick={onAddToCollection}
+                className={`${iconButton} ${inCollectionCount && inCollectionCount > 0 ? '!border-saffron-400 !bg-saffron-50 !text-saffron-700 dark:!bg-saffron-900/30' : ''}`}
+                aria-label={inCollectionCount && inCollectionCount > 0 ? `संग्रह में सुरक्षित (${inCollectionCount})` : 'संग्रह में जोड़ें (Add to collection)'}
+                title={inCollectionCount && inCollectionCount > 0 ? `संग्रह में सुरक्षित (${inCollectionCount})` : 'संग्रह में जोड़ें'}
+              >
+                {inCollectionCount && inCollectionCount > 0 ? (
+                  <FolderCheck className="h-4 w-4" />
+                ) : (
+                  <FolderPlus className="h-4 w-4" />
+                )}
+              </button>
+            )}
+
             {/* Highlight: colour picker popover */}
             <div className="relative" ref={pickerRef}>
               <button
@@ -463,6 +476,11 @@ export function VerseCard({
                 sanskrit={v.sanskrit}
                 hindi={v.hindi}
                 translation={v.translation}
+                scriptureTitle={scriptureTitle}
+                chapterTitle={chapterTitle}
+                verseLabel={verseLabel}
+                chapterId={chapterId}
+                verseNumber={v.number}
                 onReciteFinish={onReciteFinish}
               />
             </span>
@@ -503,14 +521,16 @@ export function VerseCard({
         </header>
 
         {versePageHref && (
-          <p className="mb-4 -mt-2 text-xs">
+          <div className="mb-4 -mt-2 flex items-center justify-between">
             <Link
               href={versePageHref}
-              className="font-semibold text-saffron-700 underline-offset-2 hover:underline"
+              className="inline-flex items-center gap-1.5 rounded-full border border-saffron-200/80 bg-saffron-50/70 px-3 py-1 text-xs font-semibold text-saffron-800 transition hover:border-saffron-300 hover:bg-saffron-100 dark:border-saffron-900/60 dark:bg-saffron-950/40 dark:text-saffron-300"
             >
-              इस श्लोक का अपना पृष्ठ
+              <Compass className="h-3.5 w-3.5 text-saffron-600 dark:text-saffron-400" aria-hidden="true" />
+              <span>विस्तृत श्लोक विश्लेषण व संदर्भ</span>
+              <span aria-hidden="true">→</span>
             </Link>
-          </p>
+          </div>
         )}
 
         {/* ── Sanskrit on a manuscript leaf ───────────────────── */}
@@ -531,7 +551,7 @@ export function VerseCard({
                     }`}
                     {...fadeIn(i)}
                   >
-                    {line}
+                    <GlossaryText text={line} />
                   </motion.span>
                 );
               })}
@@ -689,7 +709,15 @@ export function VerseCard({
                       <>
                         {showHindi && (
                           <p lang="hi" className="font-devanagari text-base leading-loose text-dharma-text md:text-[17px]">
-                            {v.hindi}
+                            {v.hindi && <GlossaryText text={v.hindi} />}
+                            {v.hindiSource === 'ai' && (
+                              <span
+                                className="ml-2 inline-block rounded-full border border-blue-200 bg-blue-50 px-1.5 py-px align-middle text-[9px] font-medium text-blue-700 dark:border-blue-400/30 dark:bg-blue-500/10 dark:text-blue-300"
+                                title="संस्कृत से मशीन-अनुवादित; विद्वत् अनुवाद नहीं"
+                              >
+                                AI अनुवाद
+                              </span>
+                            )}
                           </p>
                         )}
                         {showEnglish && (
@@ -723,14 +751,6 @@ export function VerseCard({
                         {explanation && !explanationIsHi && (
                           <p className="inline-flex items-center gap-1.5 rounded-full border border-dharma-border/70 bg-dharma-bg/70 px-2.5 py-0.5 text-[11px] font-semibold text-dharma-muted">
                             हिन्दी व्याख्या शीघ्र · English commentary for now
-                          </p>
-                        )}
-                        {wordMeaning && (
-                          <p
-                            lang={isMostlyDevanagari(wordMeaning) ? 'hi' : 'en'}
-                            className="text-sm leading-relaxed text-dharma-text md:text-base"
-                          >
-                            {wordMeaning}
                           </p>
                         )}
                         {explanation && (
