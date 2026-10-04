@@ -10,12 +10,26 @@ import fs from "node:fs";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { filterCuratedFragment } from "../data/hi-commentary/publish";
+import { isBoilerplateField } from "../data/hi-commentary/quality";
 import { aiQueueScriptureIds, approvedAiEntries } from "../data/hi-commentary/_ai-queue";
 import type { HiCommentaryFragment } from "../data/hi-commentary/_types";
 
 const SRC = path.resolve("data/hi-commentary");
 const OUT = path.resolve("public/data/hi-commentary");
 const MAX_TOTAL_MB = 15;
+
+async function safeWrite(filePath: string, data: string) {
+  let tries = 0;
+  while (true) {
+    try {
+      fs.writeFileSync(filePath, data, { flag: 'w' });
+      return;
+    } catch (e: any) {
+      if (++tries >= 10) throw e;
+      await new Promise((resolve) => setTimeout(resolve, 100));
+    }
+  }
+}
 
 async function main(): Promise<void> {
   fs.mkdirSync(OUT, { recursive: true });
@@ -64,6 +78,21 @@ async function main(): Promise<void> {
       aiPublished++;
     }
 
+    const restPath = path.join(SRC, `${name}-rest.json`);
+    if (fs.existsSync(restPath)) {
+      const rest = JSON.parse(fs.readFileSync(restPath, "utf8")) as HiCommentaryFragment;
+      for (const [key, entry] of Object.entries(rest)) {
+        const explanation = entry.explanation?.trim();
+        const science = entry.science?.trim();
+        if (science && isBoilerplateField(science)) continue;
+        const prev = curated[key] ?? {};
+        const next: HiCommentaryFragment[string] = { ...prev };
+        if (explanation && !prev.explanation) next.explanation = explanation;
+        if (science && !prev.science) next.science = science;
+        if (next.explanation || next.science || next.lifeLesson) curated[key] = next;
+      }
+    }
+
     const entryCount = Object.keys(curated).length;
     if (entryCount === 0) {
       skipped++;
@@ -73,7 +102,10 @@ async function main(): Promise<void> {
     }
 
     const json = JSON.stringify(curated);
-    fs.writeFileSync(path.join(OUT, `${name}.json`), json);
+    const dest = path.join(OUT, `${name}.json`);
+    if (!fs.existsSync(dest) || fs.readFileSync(dest, "utf8") !== json) {
+      await safeWrite(dest, json);
+    }
     totalEntries += entryCount;
     totalBytes += Buffer.byteLength(json);
     console.log(`${name}: ${entryCount} curated entries (${(json.length / 1024).toFixed(1)}KB)`);
