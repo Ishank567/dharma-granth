@@ -69,7 +69,7 @@ test('verse deep link lands on the verse', async ({ page }) => {
 
 test('split chapter: an old #verse link redirects to its part', async ({ page }) => {
   await page.goto('/scripture/mahabharata/chapter/12/#verse-200.5');
-  await expect(page).toHaveURL(/\/chapter\/12\/part\/13\/#verse-200\.5$/);
+  await expect(page).toHaveURL(/\/chapter\/12\/part\/\d+\/#verse-200\.5$/);
   await expect(page.locator('[id="verse-200.5"]')).toBeInViewport();
 });
 

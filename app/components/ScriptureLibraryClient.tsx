@@ -305,7 +305,7 @@ export function ScriptureLibraryClient({
                 onClick={() => setActiveCategory('all')}
                 className={`focus-ring inline-flex h-9 min-w-[88px] sm:min-w-[100px] shrink-0 items-center justify-center rounded px-3.5 text-[13px] font-medium leading-none tracking-[0.2px] transition-colors duration-150 ${
                   activeCategory === 'all'
-                    ? 'bg-stone-900 text-white dark:bg-stone-100 dark:text-stone-900 shadow-sm'
+                    ? 'bg-stone-900 text-white dark:bg-stone-100 dark:text-[#1c1917] shadow-sm'
                     : 'bg-dharma-panel-muted text-dharma-muted hover:bg-dharma-border/60 hover:text-dharma-text'
                 }`}
               >
@@ -320,7 +320,7 @@ export function ScriptureLibraryClient({
                     onClick={() => setActiveCategory(category.id)}
                     className={`focus-ring inline-flex h-9 min-w-[96px] sm:min-w-[115px] shrink-0 items-center justify-center gap-2 rounded px-3.5 text-[13px] font-medium leading-none tracking-[0.2px] transition-colors duration-150 ${
                       isSelected
-                        ? 'bg-stone-900 text-white dark:bg-stone-100 dark:text-stone-900 shadow-sm'
+                        ? 'bg-stone-900 text-white dark:bg-stone-100 dark:text-[#1c1917] shadow-sm'
                         : 'bg-dharma-panel-muted text-dharma-muted hover:bg-dharma-border/60 hover:text-dharma-text'
                     }`}
                   >
