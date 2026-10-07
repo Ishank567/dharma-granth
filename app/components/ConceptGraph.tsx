@@ -283,6 +283,7 @@ export function ConceptGraph() {
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-dharma-muted" />
           <input
             type="text"
+            aria-label="अवधारणाएँ खोजें (Search concepts)"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             placeholder="अवधारणाएँ खोजें..."
@@ -635,7 +636,7 @@ export function ConceptGraph() {
                             {verseUrl && (
                               <Link
                                 href={verseUrl}
-                                className="text-[10px] font-semibold text-saffron-600 hover:text-saffron-800 transition"
+                                className="inline-flex min-h-[44px] items-center text-xs font-semibold text-saffron-600 hover:text-saffron-800 transition"
                               >
                                 Read in context →
                               </Link>

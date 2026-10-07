@@ -271,7 +271,7 @@ export function ChapterView({ params, part: partNumber = 1 }: { params: ChapterP
       />
       <ChapterHero className="bg-gradient-to-br from-saffron-900 via-saffron-700 to-orange-600 text-white py-16">
         <div className="relative max-w-4xl mx-auto px-6">
-          <Link href={`/scripture/${meta.id}`} className="inline-flex items-center gap-2 text-white/70 hover:text-white text-sm transition mb-6">
+          <Link href={`/scripture/${meta.id}`} className="inline-flex min-h-[44px] items-center gap-2 text-white/70 hover:text-white text-sm transition mb-2">
             <ArrowLeft className="w-4 h-4" />
             <span>{meta.title}</span>
             {meta.titleIast && <span className="opacity-75 italic font-serif">· {meta.titleIast}</span>}

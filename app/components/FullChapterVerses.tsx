@@ -926,6 +926,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-dharma-muted" />
               <input
                 type="text"
+                aria-label="श्लोक संख्या या शब्द खोजें (Search verses in this chapter)"
                 value={filterQuery}
                 onChange={(e) => setFilterQuery(e.target.value)}
                 placeholder="श्लोक संख्या या शब्द खोजें... (e.g. 5, धर्म, कृष्ण)"

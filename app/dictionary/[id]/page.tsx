@@ -54,7 +54,7 @@ export default function TermPage({ params }: { params: { id: string } }) {
           <FadeUp>
             <Link
               href="/dictionary"
-              className="inline-flex items-center gap-2 text-sm font-semibold text-white/80 hover:text-white transition mb-6"
+              className="inline-flex min-h-[44px] items-center gap-2 text-sm font-semibold text-white/80 hover:text-white transition mb-2"
             >
               <ArrowLeft className="w-4 h-4" />
               All Terms
@@ -241,14 +241,14 @@ export default function TermPage({ params }: { params: { id: string } }) {
         <div className="flex items-center justify-between pt-4">
           <Link
             href="/dictionary"
-            className="inline-flex items-center gap-2 text-sm font-semibold text-saffron-700 hover:text-saffron-800 transition"
+            className="inline-flex min-h-[44px] items-center gap-2 text-sm font-semibold text-saffron-700 hover:text-saffron-800 transition"
           >
             <ArrowLeft className="w-4 h-4" />
             All Terms
           </Link>
           <Link
             href="/concepts"
-            className="inline-flex items-center gap-2 text-sm font-semibold text-saffron-700 hover:text-saffron-800 transition"
+            className="inline-flex min-h-[44px] items-center gap-2 text-sm font-semibold text-saffron-700 hover:text-saffron-800 transition"
           >
             Concept Graph
             <ArrowRight className="w-4 h-4" />

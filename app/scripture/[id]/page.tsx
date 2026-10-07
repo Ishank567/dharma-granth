@@ -159,7 +159,7 @@ export default function ScripturePage({ params }: PageProps) {
       <ChapterHero className="bg-gradient-to-b from-saffron-800 to-saffron-600 text-white py-14">
         <div className="relative max-w-5xl mx-auto px-6">
           <FadeUp>
-            <Link href="/scriptures" className="inline-flex items-center gap-2 text-white/70 hover:text-white text-sm mb-6 transition">
+            <Link href="/scriptures" className="inline-flex min-h-[44px] items-center gap-2 text-white/70 hover:text-white text-sm mb-2 transition">
               <ArrowLeft className="w-4 h-4" />
               All Scriptures
             </Link>

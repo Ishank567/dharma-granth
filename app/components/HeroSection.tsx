@@ -345,6 +345,7 @@ export function HeroSection() {
             />
             <button
               type="submit"
+              aria-label="Search"
               className="inline-flex shrink-0 items-center gap-2 rounded-xl bg-saffron-700 px-4 py-3 text-sm font-bold text-white transition hover:bg-saffron-800 sm:px-5"
             >
               <span className="hidden sm:inline">Search</span>

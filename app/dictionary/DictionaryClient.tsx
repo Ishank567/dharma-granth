@@ -45,6 +45,7 @@ export function DictionaryClient() {
             <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 h-4 w-4 text-dharma-muted" />
             <input
               type="text"
+              aria-label="Search dictionary terms"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Search concepts e.g. Dharma, Atman, Moksha, कर्म..."
@@ -76,7 +77,7 @@ export function DictionaryClient() {
           <button
             type="button"
             onClick={() => setSelectedCategory('all')}
-            className={`shrink-0 rounded-full px-3 py-1 text-xs font-semibold transition ${
+            className={`shrink-0 min-h-[44px] rounded-full px-3 py-1 text-xs font-semibold transition ${
               selectedCategory === 'all'
                 ? 'bg-saffron-600 text-white shadow-sm'
                 : 'border border-dharma-border bg-dharma-bg text-dharma-muted hover:border-saffron-300 hover:text-dharma-text'
@@ -92,7 +93,7 @@ export function DictionaryClient() {
                 key={cat.key}
                 type="button"
                 onClick={() => setSelectedCategory(cat.key)}
-                className={`shrink-0 inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold transition ${
+                className={`shrink-0 inline-flex min-h-[44px] items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold transition ${
                   isSelected
                     ? 'bg-saffron-600 text-white shadow-sm'
                     : 'border border-dharma-border bg-dharma-bg text-dharma-muted hover:border-saffron-300 hover:text-dharma-text'

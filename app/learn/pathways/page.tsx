@@ -58,7 +58,7 @@ export default function PathwaysPage() {
                 key={tab.id}
                 type="button"
                 onClick={() => setSelectedLevel(tab.id as typeof selectedLevel)}
-                className={`px-4 py-2 rounded-xl text-xs font-bold transition ${
+                className={`min-h-[44px] px-4 py-2 rounded-xl text-xs font-bold transition ${
                   selectedLevel === tab.id
                     ? 'bg-saffron-600 text-white shadow-sm'
                     : 'border border-dharma-border bg-dharma-card text-dharma-text hover:border-saffron-300 hover:text-saffron-700'
