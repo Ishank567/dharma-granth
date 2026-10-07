@@ -51,7 +51,10 @@ export interface GlossaryTooltipProps {
 
 export function GlossaryTooltip({ term, children }: GlossaryTooltipProps) {
   const [open, setOpen] = useState(false);
+  const [placement, setPlacement] = useState<'top' | 'bottom'>('top');
+  const [align, setAlign] = useState<'center' | 'left' | 'right'>('center');
   const containerRef = useRef<HTMLSpanElement>(null);
+  const triggerRef = useRef<HTMLSpanElement>(null);
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const categoryMeta = termCategories.find((c) => c.key === term.category);
@@ -77,8 +80,34 @@ export function GlossaryTooltip({ term, children }: GlossaryTooltipProps) {
     triggerTactileFeedback('medium', 'softTap');
   }
 
+  // Calculate viewport boundaries and flip/align to prevent clipping off-screen
   useEffect(() => {
-    function handleClickOutside(e: MouseEvent) {
+    if (!open || !containerRef.current) return;
+    const rect = containerRef.current.getBoundingClientRect();
+
+    // If less than 240px from the top of the viewport, flip below the trigger
+    if (rect.top < 240) {
+      setPlacement('bottom');
+    } else {
+      setPlacement('top');
+    }
+
+    const screenWidth = window.innerWidth;
+    const halfCardWidth = 150;
+    const centerX = rect.left + rect.width / 2;
+
+    if (centerX < halfCardWidth + 16) {
+      setAlign('left');
+    } else if (screenWidth - centerX < halfCardWidth + 16) {
+      setAlign('right');
+    } else {
+      setAlign('center');
+    }
+  }, [open]);
+
+  // Dismiss on clicking outside
+  useEffect(() => {
+    function handleClickOutside(e: MouseEvent | PointerEvent) {
       if (containerRef.current && !containerRef.current.contains(e.target as Node)) {
         setOpen(false);
       }
@@ -91,6 +120,28 @@ export function GlossaryTooltip({ term, children }: GlossaryTooltipProps) {
     };
   }, [open]);
 
+  // Dismiss on Escape key and restore focus to trigger
+  useEffect(() => {
+    if (!open) return;
+    function handleKeyDown(e: KeyboardEvent) {
+      if (e.key === 'Escape') {
+        e.stopPropagation();
+        setOpen(false);
+        triggerRef.current?.focus();
+      }
+    }
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [open]);
+
+  const dialogId = `glossary-dialog-${term.id}`;
+  const triggerId = `glossary-trigger-${term.id}`;
+
+  const positionClasses = [
+    placement === 'top' ? 'bottom-full mb-2' : 'top-full mt-2',
+    align === 'left' ? 'left-0' : align === 'right' ? 'right-0' : 'left-1/2 -translate-x-1/2',
+  ].join(' ');
+
   return (
     <span
       ref={containerRef}
@@ -99,12 +150,21 @@ export function GlossaryTooltip({ term, children }: GlossaryTooltipProps) {
       className="relative inline-block"
     >
       <span
+        ref={triggerRef}
+        id={triggerId}
         onClick={handleClick}
+        onKeyDown={(e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            handleClick(e as unknown as React.MouseEvent);
+          }
+        }}
         role="button"
         tabIndex={0}
         aria-haspopup="dialog"
         aria-expanded={open}
-        className="cursor-pointer border-b border-dashed border-amber-600/50 hover:border-amber-600 text-amber-900 dark:text-amber-200 transition-colors font-medium decoration-amber-500/40 underline-offset-4"
+        aria-controls={open ? dialogId : undefined}
+        className="cursor-pointer border-b border-dashed border-amber-600/50 hover:border-amber-600 text-amber-900 dark:text-amber-200 transition-colors font-medium decoration-amber-500/40 underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500/80 rounded px-0.5"
         title={`${term.term} (${term.sanskrit}) — शब्दार्थ देखें`}
       >
         {children}
@@ -113,13 +173,14 @@ export function GlossaryTooltip({ term, children }: GlossaryTooltipProps) {
       <AnimatePresence>
         {open && (
           <motion.div
-            initial={{ opacity: 0, y: 6, scale: 0.96 }}
+            id={dialogId}
+            initial={{ opacity: 0, y: placement === 'top' ? 6 : -6, scale: 0.96 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
-            exit={{ opacity: 0, y: 4, scale: 0.96 }}
+            exit={{ opacity: 0, y: placement === 'top' ? 4 : -4, scale: 0.96 }}
             transition={{ duration: 0.16, ease: 'easeOut' }}
             role="dialog"
             aria-label={`${term.term} शब्दार्थ`}
-            className="absolute left-1/2 bottom-full mb-2 -translate-x-1/2 z-50 w-72 sm:w-80 rounded-2xl border border-amber-500/30 bg-dharma-card/95 backdrop-blur-xl p-4 shadow-2xl ring-1 ring-amber-500/10 text-left text-dharma-text pointer-events-auto"
+            className={`absolute z-50 w-72 sm:w-80 max-w-[calc(100vw-2rem)] rounded-2xl border border-amber-500/30 bg-dharma-card/95 backdrop-blur-xl p-4 shadow-2xl ring-1 ring-amber-500/10 text-left text-dharma-text pointer-events-auto ${positionClasses}`}
           >
             {/* Header: Term & Category */}
             <div className="flex items-start justify-between gap-2 mb-2">
@@ -161,7 +222,7 @@ export function GlossaryTooltip({ term, children }: GlossaryTooltipProps) {
             <div className="pt-2 border-t border-dharma-border/60 flex items-center justify-between">
               <Link
                 href={`/dictionary/${term.id}`}
-                className="inline-flex items-center gap-1 text-xs font-semibold text-amber-700 hover:text-amber-800 dark:text-amber-400 dark:hover:text-amber-300 transition"
+                className="inline-flex items-center gap-1 text-xs font-semibold text-amber-700 hover:text-amber-800 dark:text-amber-400 dark:hover:text-amber-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 rounded transition"
               >
                 <BookOpen className="h-3.5 w-3.5" />
                 <span>विस्तृत अर्थ देखें</span>
@@ -171,7 +232,7 @@ export function GlossaryTooltip({ term, children }: GlossaryTooltipProps) {
               <button
                 type="button"
                 onClick={() => setOpen(false)}
-                className="p-1 rounded-md text-dharma-muted hover:text-dharma-text transition"
+                className="p-1 rounded-md text-dharma-muted hover:text-dharma-text focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 transition"
                 aria-label="बंद करें"
               >
                 <X className="h-3.5 w-3.5" />
@@ -194,11 +255,11 @@ export function GlossaryText({ text }: { text: string }) {
   const parts: ReactNode[] = [];
   let lastIndex = 0;
 
-  // Reset regex index
-  GLOSSARY_REGEX.lastIndex = 0;
+  // Create isolated regex instance per execution to prevent shared state issues in concurrent rendering
+  const regex = new RegExp(GLOSSARY_REGEX.source, 'g');
   let match: RegExpExecArray | null;
 
-  while ((match = GLOSSARY_REGEX.exec(text)) !== null) {
+  while ((match = regex.exec(text)) !== null) {
     const matchedWord = match[1];
     const matchStart = match.index;
     const matchEnd = matchStart + matchedWord.length;

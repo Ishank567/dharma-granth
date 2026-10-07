@@ -25,6 +25,7 @@ import { useHaptics } from '@/lib/useHaptics';
 import { triggerTactileFeedback } from '@/lib/haptics';
 import { openGlobalSearch as openSearchModal } from '@/lib/search-events';
 import { readActiveStreak } from '@/lib/reading-history';
+import { getRecitationState, subscribeRecitation } from '@/lib/verse-recite';
 
 export function FloatingCompanion() {
   const pathname = usePathname();
@@ -39,7 +40,17 @@ export function FloatingCompanion() {
   // and the reader controls, and the header already offers search.
   const [hidden, setHidden] = useState(true);
   const [streak, setStreak] = useState(0);
+  const [isReciting, setIsReciting] = useState(false);
   const dockRef = useRef<HTMLElement>(null);
+
+  // Auto-hide when recitation player is active to avoid visual collisions
+  useEffect(() => {
+    const init = getRecitationState();
+    setIsReciting(Boolean(init.activeKey && (init.isSpeaking || init.isPaused)));
+    return subscribeRecitation((recState) => {
+      setIsReciting(Boolean(recState.activeKey && (recState.isSpeaking || recState.isPaused)));
+    });
+  }, []);
 
   // Track scroll progress percent
   useEffect(() => {
@@ -121,9 +132,9 @@ export function FloatingCompanion() {
       {/* Slide wrapper: the aside's own transform does the centring, so the
           hide/show motion lives on a child to avoid overwriting it. */}
       <motion.div
-        animate={hidden ? { y: 96, opacity: 0 } : { y: 0, opacity: 1 }}
+        animate={hidden || isReciting ? { y: 96, opacity: 0 } : { y: 0, opacity: 1 }}
         transition={reduce ? { duration: 0 } : { type: 'spring', stiffness: 420, damping: 36 }}
-        style={{ pointerEvents: hidden ? 'none' : 'auto' }}
+        style={{ pointerEvents: hidden || isReciting ? 'none' : 'auto' }}
       >
       {/* Floating Notification Pill */}
       <AnimatePresence>
