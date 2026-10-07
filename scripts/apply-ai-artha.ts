@@ -30,6 +30,14 @@ const QUEUE_DIR = join(ROOT, "data", "ai-commentary");
 const SRC_DIR = join(ROOT, "scripts", "cache", "ai-artha");
 const WRITE = process.argv.includes("--write");
 const MODEL = "kimi-subagent";
+/** --overwrite-placeholder: replace machine word-swapped Hindi (hindiSource "ai" only). */
+const OVERWRITE_PLACEHOLDER = process.argv.includes("--overwrite-placeholder");
+
+function isPlaceholderHindi(v: { hindi?: string; hindiSource?: string }): boolean {
+  if (v.hindiSource !== "ai") return false;
+  const h = v.hindi ?? "";
+  return /के उपदेशानुसार:/.test(h) || /[A-Za-z]{4,}\s+[A-Za-z]{3,}\s+[A-Za-z]{3,}/.test(h);
+}
 
 interface ArthaEntry {
   ref: string;
@@ -99,7 +107,7 @@ function main(): void {
         missing++;
         continue;
       }
-      if (e.hindi?.trim() && !v.hindi?.trim()) {
+      if (e.hindi?.trim() && (!v.hindi?.trim() || (OVERWRITE_PLACEHOLDER && isPlaceholderHindi(v)))) {
         v.hindi = e.hindi.trim();
         v.hindiSource = "ai";
         hindiCount++;
