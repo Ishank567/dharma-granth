@@ -16,6 +16,16 @@ export default function Error({
     console.error('[dharma-granth] route error:', error);
   }, [error]);
 
+  // A failed JS chunk (new deploy, flaky or lost connection) is not fixed by
+  // re-rendering; only a full reload fetches the fresh assets.
+  const isChunkError = /ChunkLoadError|Loading chunk|Failed to fetch dynamically imported module|Importing a module script failed/i.test(
+    `${error.name} ${error.message}`,
+  );
+  const retry = () => {
+    if (isChunkError) window.location.reload();
+    else reset();
+  };
+
   return (
     <main className="min-h-screen bg-dharma-bg flex items-center justify-center px-6 py-24">
       <div className="max-w-2xl w-full text-center">
@@ -29,8 +39,9 @@ export default function Error({
           The page could not be loaded.
         </h1>
         <p className="text-base text-dharma-muted mb-8 max-w-lg mx-auto leading-relaxed">
-          A small error interrupted this page. Try again — and if it keeps
-          happening, head back to the library.
+          {isChunkError
+            ? 'Part of the page failed to download — usually a dropped connection or a fresh update. Check your connection and reload.'
+            : 'A small error interrupted this page. Try again — and if it keeps happening, head back to the library.'}
         </p>
         {error.digest && (
           <p className="text-xs text-dharma-muted/70 mb-8 font-mono">
@@ -40,11 +51,11 @@ export default function Error({
         <div className="flex flex-wrap justify-center gap-3">
           <button
             type="button"
-            onClick={reset}
+            onClick={retry}
             className="inline-flex items-center gap-2 bg-saffron-600 text-white px-5 py-3 rounded-full font-semibold hover:bg-saffron-700 transition"
           >
             <RotateCcw className="w-4 h-4" />
-            Try Again
+            {isChunkError ? 'Reload' : 'Try Again'}
           </button>
           <Link
             href="/"

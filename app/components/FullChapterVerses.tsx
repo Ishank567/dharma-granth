@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
   BookOpen,
   Flame,
@@ -25,6 +25,7 @@ import {
   getRecitationSpeed,
   getRecitationState,
   reciteVerse,
+  registerRecitationSkipHandler,
   setRecitationLoop,
   setRecitationSpeed,
   stopRecitation,
@@ -205,25 +206,37 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
     };
   }, [state.kind, scriptureId, chapterId]);
 
-  // Load verse bookmark statuses from localStorage
+  // Load verse bookmark statuses from localStorage and sync across components
   useEffect(() => {
-    try {
-      const saved = localStorage.getItem('dharma.bookmarkedVerses');
-      if (saved) {
-        const list: Array<{
-          scriptureId: string;
-          chapterId?: number;
-          verseId: number | string;
-        }> = JSON.parse(saved);
-        const map: Record<string, boolean> = {};
-        for (const b of list) {
-          if (b.scriptureId === scriptureId && b.chapterId === chapterId) {
-            map[String(b.verseId)] = true;
+    const loadBookmarks = () => {
+      try {
+        const saved = localStorage.getItem('dharma.bookmarkedVerses');
+        if (saved) {
+          const list: Array<{
+            scriptureId: string;
+            chapterId?: number;
+            verseId: number | string;
+          }> = JSON.parse(saved);
+          const map: Record<string, boolean> = {};
+          for (const b of list) {
+            if (b.scriptureId === scriptureId && b.chapterId === chapterId) {
+              map[String(b.verseId)] = true;
+            }
           }
+          setBookmarkedMap(map);
+        } else {
+          setBookmarkedMap({});
         }
-        setBookmarkedMap(map);
-      }
-    } catch {}
+      } catch {}
+    };
+
+    loadBookmarks();
+    window.addEventListener('dharma-bookmark-updated', loadBookmarks);
+    window.addEventListener('storage', loadBookmarks);
+    return () => {
+      window.removeEventListener('dharma-bookmark-updated', loadBookmarks);
+      window.removeEventListener('storage', loadBookmarks);
+    };
   }, [scriptureId, chapterId]);
 
   const toggleBookmark = (v: FullVerse) => {
@@ -274,6 +287,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
         ...prev,
         [vId]: !isCurrentlySaved,
       }));
+      window.dispatchEvent(new Event('dharma-bookmark-updated'));
       triggerTactileFeedback(!isCurrentlySaved ? 'success' : 'medium', !isCurrentlySaved ? 'success' : 'softTap');
     } catch (err) {
       console.error('Failed to toggle bookmark:', err);
@@ -420,38 +434,61 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
     });
   }, [state, filterQuery, verseSearchKeys]);
 
+  const handleVerseReciteFinishRef = useRef<(currentIndex: number, naturalEnd: boolean) => void>(() => {});
+
+  const startRecitationForIndex = useCallback((targetIndex: number) => {
+    if (targetIndex < 0 || targetIndex >= filteredVerses.length) return false;
+    const targetVerse = filteredVerses[targetIndex];
+    scrollToVerse(targetVerse.number);
+    reciteVerse(
+      {
+        sanskrit: targetVerse.sanskrit,
+        hindi: targetVerse.hindi,
+        translation: targetVerse.translation,
+      },
+      (nextNatural) => handleVerseReciteFinishRef.current(targetIndex, nextNatural),
+      {
+        metadata: {
+          scriptureTitle,
+          chapterTitle,
+          verseLabel: String(targetVerse.number),
+          chapterId,
+          scriptureId,
+          verseNumber: targetVerse.number,
+          sanskrit: targetVerse.sanskrit,
+          hindi: targetVerse.hindi,
+          translation: targetVerse.translation,
+        },
+      },
+    );
+    return true;
+  }, [filteredVerses, scriptureTitle, chapterTitle, chapterId, scriptureId]);
+
   const handleVerseReciteFinish = (currentIndex: number, naturalEnd: boolean) => {
     if (!continuousReciteRef.current || !naturalEnd || getRecitationLoop()) return;
     const nextIndex = currentIndex + 1;
     if (nextIndex < filteredVerses.length) {
-      const nextVerse = filteredVerses[nextIndex];
-      scrollToVerse(nextVerse.number);
       setTimeout(() => {
         if (!continuousReciteRef.current) return;
-        reciteVerse(
-          {
-            sanskrit: nextVerse.sanskrit,
-            hindi: nextVerse.hindi,
-            translation: nextVerse.translation,
-          },
-          (nextNatural) => handleVerseReciteFinish(nextIndex, nextNatural),
-          {
-            metadata: {
-              scriptureTitle,
-              chapterTitle,
-              verseLabel: String(nextVerse.number),
-              chapterId,
-              scriptureId,
-              verseNumber: nextVerse.number,
-              sanskrit: nextVerse.sanskrit,
-              hindi: nextVerse.hindi,
-              translation: nextVerse.translation,
-            },
-          },
-        );
+        startRecitationForIndex(nextIndex);
       }, 750);
     }
   };
+
+  handleVerseReciteFinishRef.current = handleVerseReciteFinish;
+
+  // Register skip handler for next/previous verse navigation from GlobalAudioPlayer & MediaSession
+  useEffect(() => {
+    return registerRecitationSkipHandler((direction) => {
+      const recState = getRecitationState();
+      const currentVerseNum = recState.metadata?.verseNumber;
+      if (!currentVerseNum || filteredVerses.length === 0) return false;
+      const idx = filteredVerses.findIndex((v) => String(v.number) === String(currentVerseNum));
+      if (idx === -1) return false;
+      const targetIdx = direction === 'next' ? idx + 1 : idx - 1;
+      return startRecitationForIndex(targetIdx);
+    });
+  }, [filteredVerses, startRecitationForIndex]);
 
   const sanskritFontSizeClass =
     fontSize === 'xl'

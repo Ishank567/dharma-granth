@@ -333,7 +333,12 @@ export function GlobalSearchModal({ isOpen, onClose, initialQuery = '' }: Props)
     };
   }, [isOpen, onClose]);
 
+  // Bound once, on the window: key presses in the input bubble up to it, so a
+  // second handler on the input would move the selection twice per press.
   const handleKeyDown = (e: React.KeyboardEvent) => {
+    // Enter (and arrows) while a Hindi/Devanagari IME is composing pick a
+    // candidate; they must not open a result or move the selection.
+    if (e.nativeEvent.isComposing || e.keyCode === 229) return;
     if (e.key === 'ArrowDown') {
       e.preventDefault();
       setSelectedIndex((prev) => (flat.length ? (prev + 1) % flat.length : 0));
@@ -398,7 +403,6 @@ export function GlobalSearchModal({ isOpen, onClose, initialQuery = '' }: Props)
                 type="text"
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
-                onKeyDown={handleKeyDown}
                 placeholder="Search scriptures, Gita, Upanishads, karma, meditation…"
                 className="min-w-0 flex-1 bg-transparent text-base text-dharma-text placeholder:text-dharma-muted/70 outline-none"
                 role="combobox"

@@ -1,3 +1,5 @@
+import { triggerTactileFeedback } from '@/lib/haptics';
+
 export interface RecitableVerse {
   sanskrit?: string;
   hindi?: string;
@@ -33,6 +35,7 @@ export interface RecitationMetadata {
 export interface ReciteOptions {
   speed?: number;
   loop?: boolean;
+  loopTarget?: number;
   onlySanskrit?: boolean;
   metadata?: RecitationMetadata;
 }
@@ -44,8 +47,10 @@ export interface RecitationState {
   isPaused?: boolean;
   speed?: number;
   loop?: boolean;
+  loopTarget?: number;
   iteration?: number;
   onlySanskrit?: boolean;
+  totalLines?: number;
   metadata?: RecitationMetadata | null;
   currentLineText?: string;
 }
@@ -124,7 +129,7 @@ function utterancesFor(
         queue.push({
           text: cleaned,
           lang: DEVANAGARI_LANG,
-          rate: Math.min(2.0, Math.max(0.5, 0.86 * speedMultiplier)),
+          rate: Math.min(2.0, Math.max(0.35, 0.86 * speedMultiplier)),
           lineIndex: index,
         });
       }
@@ -137,7 +142,7 @@ function utterancesFor(
         queue.push({
           text: cleaned,
           lang: DEVANAGARI_LANG,
-          rate: Math.min(2.0, Math.max(0.5, 0.95 * speedMultiplier)),
+          rate: Math.min(2.0, Math.max(0.35, 0.95 * speedMultiplier)),
           lineIndex: 'meaning',
         });
       }
@@ -147,7 +152,7 @@ function utterancesFor(
         queue.push({
           text: cleaned,
           lang: ENGLISH_LANG,
-          rate: Math.min(2.0, Math.max(0.5, 0.95 * speedMultiplier)),
+          rate: Math.min(2.0, Math.max(0.35, 0.95 * speedMultiplier)),
           lineIndex: 'meaning',
         });
       }
@@ -207,6 +212,10 @@ const configListeners = new Set<() => void>();
 
 let configuredSpeed = 1.0;
 let configuredLoop = false;
+let configuredLoopTarget = 0; // 0 = infinite (unlimited)
+let configuredOnlySanskrit = false;
+
+export const MALA_LOOP_TARGETS = [0, 11, 21, 108] as const;
 
 export function getRecitationSpeed(): number {
   if (typeof window !== 'undefined') {
@@ -256,6 +265,107 @@ export function setRecitationLoop(loop: boolean) {
   });
 }
 
+export function getRecitationLoopTarget(): number {
+  if (typeof window !== 'undefined') {
+    try {
+      const val = parseInt(localStorage.getItem('dharma_recite_loop_target') || '0', 10);
+      if (!Number.isNaN(val) && (MALA_LOOP_TARGETS as readonly number[]).includes(val)) {
+        return val;
+      }
+    } catch {}
+  }
+  return configuredLoopTarget;
+}
+
+export function setRecitationLoopTarget(target: number) {
+  configuredLoopTarget = target;
+  if (typeof window !== 'undefined') {
+    try {
+      localStorage.setItem('dharma_recite_loop_target', String(target));
+    } catch {}
+  }
+  configListeners.forEach((fn) => {
+    try {
+      fn();
+    } catch {}
+  });
+}
+
+export function cycleRecitationLoopTarget(): number {
+  const current = getRecitationLoopTarget();
+  const idx = MALA_LOOP_TARGETS.indexOf(current as 0 | 11 | 21 | 108);
+  const nextTarget = MALA_LOOP_TARGETS[(idx + 1) % MALA_LOOP_TARGETS.length] ?? 0;
+  setRecitationLoopTarget(nextTarget);
+  if (!getRecitationLoop()) {
+    setRecitationLoop(true);
+  }
+  return nextTarget;
+}
+
+export function getRecitationOnlySanskrit(): boolean {
+  if (typeof window !== 'undefined') {
+    try {
+      const val = localStorage.getItem('dharma_recite_only_sanskrit');
+      if (val !== null) return val === 'true';
+    } catch {}
+  }
+  return configuredOnlySanskrit;
+}
+
+export function setRecitationOnlySanskrit(only: boolean) {
+  configuredOnlySanskrit = only;
+  if (typeof window !== 'undefined') {
+    try {
+      localStorage.setItem('dharma_recite_only_sanskrit', String(only));
+    } catch {}
+  }
+  configListeners.forEach((fn) => {
+    try {
+      fn();
+    } catch {}
+  });
+}
+
+export function toggleRecitationOnlySanskrit(): boolean {
+  const next = !getRecitationOnlySanskrit();
+  setRecitationOnlySanskrit(next);
+  if ((currentState.isSpeaking || currentState.isPaused) && currentVerse) {
+    reciteVerse(currentVerse, currentOnFinish, {
+      ...currentOptions,
+      onlySanskrit: next,
+    });
+  }
+  return next;
+}
+
+// ── Skip Handlers (Next / Previous verse across chapter) ────────────────
+export type SkipDirection = 'next' | 'prev';
+type SkipHandler = (direction: SkipDirection) => boolean | void;
+const skipHandlers = new Set<SkipHandler>();
+
+export function registerRecitationSkipHandler(handler: SkipHandler): () => void {
+  skipHandlers.add(handler);
+  return () => {
+    skipHandlers.delete(handler);
+  };
+}
+
+export function skipRecitation(direction: SkipDirection): boolean {
+  let handled = false;
+  skipHandlers.forEach((fn) => {
+    try {
+      if (!handled && fn(direction)) {
+        handled = true;
+      }
+    } catch {}
+  });
+  return handled;
+}
+
+export function hasRecitationSkipHandler(): boolean {
+  return skipHandlers.size > 0;
+}
+
 export function subscribeRecitationConfig(listener: () => void): () => void {
   configListeners.add(listener);
   return () => {
@@ -296,6 +406,9 @@ function notifyRecitation(
   iteration?: number,
   isPaused = false,
   lineText?: string,
+  loopTarget?: number,
+  onlySanskrit?: boolean,
+  totalLines?: number,
 ) {
   if (lineText !== undefined) currentLineText = lineText;
   currentState = {
@@ -305,7 +418,10 @@ function notifyRecitation(
     isPaused,
     speed: speed ?? getRecitationSpeed(),
     loop: loop ?? getRecitationLoop(),
+    loopTarget: loopTarget ?? getRecitationLoopTarget(),
     iteration,
+    onlySanskrit: onlySanskrit ?? getRecitationOnlySanskrit(),
+    totalLines: totalLines ?? currentState.totalLines,
     metadata: activeKey ? activeMetadata : null,
     currentLineText: activeKey ? currentLineText : '',
   };
@@ -416,11 +532,13 @@ export function reciteVerse(
 
   const speed = options?.speed ?? getRecitationSpeed();
   const loop = options?.loop ?? getRecitationLoop();
-  const onlySanskrit = options?.onlySanskrit ?? false;
+  const loopTarget = options?.loopTarget ?? getRecitationLoopTarget();
+  const onlySanskrit = options?.onlySanskrit ?? getRecitationOnlySanskrit();
 
   const queue = utterancesFor(verse, speed, onlySanskrit);
+  const totalLines = queue.length;
   if (queue.length === 0) {
-    notifyRecitation(null, null, false, speed, loop, 0);
+    notifyRecitation(null, null, false, speed, loop, 0, false, '', loopTarget, onlySanskrit, 0);
     onFinish?.(false);
     return;
   }
@@ -435,7 +553,7 @@ export function reciteVerse(
       clearTimeout(loopTimeoutId);
       loopTimeoutId = null;
     }
-    notifyRecitation(null, null, false, speed, loop, iteration);
+    notifyRecitation(null, null, false, speed, loop, iteration, false, '', loopTarget, onlySanskrit, totalLines);
     onFinish?.(natural);
   };
 
@@ -445,8 +563,39 @@ export function reciteVerse(
       if (finished || userStoppedManually) return;
       if (i >= queue.length) {
         if (loop && !userStoppedManually) {
+          const currentTarget = options?.loopTarget ?? getRecitationLoopTarget();
+          if (currentTarget > 0 && iteration >= currentTarget) {
+            triggerTactileFeedback('celestial', 'templeChime');
+            notifyRecitation(
+              verseKey,
+              null,
+              false,
+              speed,
+              loop,
+              iteration,
+              false,
+              `॥ ${currentTarget} आवृतियां पूर्ण ॥`,
+              currentTarget,
+              onlySanskrit,
+              totalLines,
+            );
+            finish(true);
+            return;
+          }
           iteration++;
-          notifyRecitation(verseKey, null, true, speed, loop, iteration, false, '॥ पुनः पाठ ॥');
+          notifyRecitation(
+            verseKey,
+            null,
+            true,
+            speed,
+            loop,
+            iteration,
+            false,
+            '॥ पुनः पाठ ॥',
+            currentTarget,
+            onlySanskrit,
+            totalLines,
+          );
           loopTimeoutId = setTimeout(() => {
             if (!userStoppedManually && !finished) {
               next(0);
@@ -465,7 +614,19 @@ export function reciteVerse(
       if (voice) u.voice = voice;
       u.onstart = () => {
         if (!userStoppedManually && !finished) {
-          notifyRecitation(verseKey, item.lineIndex, true, speed, loop, iteration, false, item.text);
+          notifyRecitation(
+            verseKey,
+            item.lineIndex,
+            true,
+            speed,
+            loop,
+            iteration,
+            false,
+            item.text,
+            loopTarget,
+            onlySanskrit,
+            totalLines,
+          );
         }
       };
       u.onend = () => next(i + 1);

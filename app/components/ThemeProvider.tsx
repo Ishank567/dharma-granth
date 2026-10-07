@@ -25,7 +25,15 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
   const [theme, setThemeState] = useState<Theme>('day');
 
   useEffect(() => {
-    const stored = (typeof window !== 'undefined' && window.localStorage.getItem(STORAGE_KEY)) as Theme | null;
+    // Reading can throw when storage is blocked (Safari private mode, cookies
+    // disabled); an unhandled throw here would take the whole app to the
+    // error page, so fall back to the default theme instead.
+    let stored: Theme | null = null;
+    try {
+      stored = window.localStorage.getItem(STORAGE_KEY) as Theme | null;
+    } catch {
+      stored = null;
+    }
     if (stored && THEMES.includes(stored)) {
       setThemeState(stored);
       document.documentElement.setAttribute('data-theme', stored);

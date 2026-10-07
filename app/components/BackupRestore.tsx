@@ -4,24 +4,46 @@ import { useRef, useState } from 'react';
 import { Download, Upload } from 'lucide-react';
 import { createBackup, restoreBackup } from '@/lib/backup';
 
+const MAX_BACKUP_BYTES = 5 * 1024 * 1024;
+
 /** Export / import of bookmarks, notes and progress, which live only in this browser. */
 export function BackupRestore() {
   const fileInput = useRef<HTMLInputElement>(null);
   const [message, setMessage] = useState('');
 
   function download() {
-    const blob = new Blob([JSON.stringify(createBackup(), null, 2)], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = `dharma-granth-backup-${new Date().toISOString().slice(0, 10)}.json`;
-    a.click();
-    URL.revokeObjectURL(url);
-    setMessage('बैकअप डाउनलोड हो गया · Backup downloaded.');
+    try {
+      const blob = new Blob([JSON.stringify(createBackup(), null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `dharma-granth-backup-${new Date().toISOString().slice(0, 10)}.json`;
+      // Some browsers only start the download if the link is in the DOM, and
+      // revoking the URL straight away can cancel it.
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 10_000);
+      setMessage('बैकअप डाउनलोड हो गया · Backup downloaded.');
+    } catch {
+      setMessage('बैकअप नहीं बन सका (ब्राउज़र स्टोरेज बंद हो सकता है) · Could not create a backup; browser storage may be blocked.');
+    }
   }
 
   async function upload(file: File | undefined) {
     if (!file) return;
+    const reset = () => {
+      if (fileInput.current) fileInput.current.value = '';
+    };
+    if (file.size > MAX_BACKUP_BYTES) {
+      setMessage('यह फ़ाइल बहुत बड़ी है · This file is too large to be a backup.');
+      reset();
+      return;
+    }
+    if (!window.confirm('इससे इस ब्राउज़र के वर्तमान बुकमार्क, नोट्स और प्रगति बदल सकते हैं। जारी रखें?\n\nThis will overwrite matching bookmarks, notes and progress in this browser. Continue?')) {
+      reset();
+      return;
+    }
     try {
       const count = restoreBackup(await file.text());
       setMessage(`${count} items restored — reloading… · ${count} आइटम पुनर्स्थापित`);
@@ -29,7 +51,7 @@ export function BackupRestore() {
     } catch {
       setMessage('यह फ़ाइल मान्य बैकअप नहीं है · This is not a valid backup file.');
     }
-    if (fileInput.current) fileInput.current.value = '';
+    reset();
   }
 
   return (

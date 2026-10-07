@@ -40,7 +40,16 @@ export default function BookmarksPage() {
     try {
       const saved = localStorage.getItem("dharma.bookmarkedVerses");
       if (saved) {
-        setBookmarks(JSON.parse(saved));
+        // A hand-edited or half-restored value must not crash the page.
+        const parsed: unknown = JSON.parse(saved);
+        if (Array.isArray(parsed)) {
+          setBookmarks(
+            parsed.filter(
+              (b): b is BookmarkedVerse =>
+                !!b && typeof b === "object" && typeof (b as BookmarkedVerse).scriptureId === "string",
+            ),
+          );
+        }
       }
     } catch (e) {
       console.error("Failed to load bookmarks:", e);
