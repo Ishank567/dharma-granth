@@ -1,7 +1,7 @@
 'use client';
 
 import { motion, AnimatePresence } from 'framer-motion';
-import { Sun, Sunset, Moon } from 'lucide-react';
+import { Sun, Sunset, Moon, BookOpen } from 'lucide-react';
 import type { ReactNode } from 'react';
 import { triggerTactileFeedback } from '@/lib/haptics';
 import { THEMES, useTheme, type Theme } from './ThemeProvider';
@@ -9,18 +9,21 @@ import { THEMES, useTheme, type Theme } from './ThemeProvider';
 const ICONS: Record<Theme, ReactNode> = {
   day: <Sun className="w-4 h-4" />,
   sunset: <Sunset className="w-4 h-4" />,
+  paper: <BookOpen className="w-4 h-4" />,
   night: <Moon className="w-4 h-4" />,
 };
 
 const LABELS: Record<Theme, string> = {
   day: 'Day',
   sunset: 'Sunset',
+  paper: 'Paper',
   night: 'Dark',
 };
 
 const DESCRIPTIONS: Record<Theme, string> = {
   day: 'Warm paper reading mode',
   sunset: 'Soft amber evening mode',
+  paper: 'Antique manuscript parchment',
   night: 'Low-glare dark reading mode',
 };
 
@@ -77,7 +80,7 @@ export function ThemeToggle({ className = '' }: { className?: string }) {
                 {ICONS[option]}
               </motion.span>
             </AnimatePresence>
-            <span className="relative hidden lg:inline">{LABELS[option]}</span>
+            <span className="relative hidden min-[2200px]:inline">{LABELS[option]}</span>
           </button>
         );
       })}

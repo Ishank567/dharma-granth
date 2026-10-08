@@ -1,0 +1,115 @@
+'use client';
+
+import { useEffect, useRef, useState } from 'react';
+import { AnimatePresence, motion } from 'framer-motion';
+import { Check, Globe } from 'lucide-react';
+import { triggerTactileFeedback } from '@/lib/haptics';
+import {
+  type LanguagePreference,
+  useLanguagePreference,
+} from '@/lib/useLanguagePreference';
+
+export function LanguageToggle({ className = '' }: { className?: string }) {
+  const { preference, setPreference, currentOption, options } =
+    useLanguagePreference();
+  const [open, setOpen] = useState(false);
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    function handleClickOutside(e: MouseEvent) {
+      if (
+        containerRef.current &&
+        !containerRef.current.contains(e.target as Node)
+      ) {
+        setOpen(false);
+      }
+    }
+    function handleKeyDown(e: KeyboardEvent) {
+      if (e.key === 'Escape') setOpen(false);
+    }
+    if (open) {
+      document.addEventListener('mousedown', handleClickOutside);
+      document.addEventListener('keydown', handleKeyDown);
+    }
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [open]);
+
+  return (
+    <div className={`relative ${className}`} ref={containerRef}>
+      <button
+        type="button"
+        onClick={() => {
+          setOpen((prev) => !prev);
+          triggerTactileFeedback('light', 'softTap');
+        }}
+        aria-expanded={open}
+        aria-haspopup="listbox"
+        aria-label={`भाषा प्राथमिकता: ${currentOption.label}`}
+        title={`भाषा प्राथमिकता: ${currentOption.label}`}
+        className="inline-flex h-9 items-center gap-1.5 rounded-full border border-dharma-border bg-dharma-card/90 px-3 text-xs font-semibold text-dharma-text shadow-sm backdrop-blur-sm transition hover:border-saffron-300 hover:text-saffron-700 focus:outline-none focus:ring-2 focus:ring-saffron-500/20"
+      >
+        <Globe className="h-3.5 w-3.5 text-saffron-600" aria-hidden="true" />
+        <span className="max-w-[70px] truncate sm:max-w-none">
+          {currentOption.shortLabel}
+        </span>
+      </button>
+
+      <AnimatePresence>
+        {open && (
+          <motion.div
+            role="listbox"
+            aria-label="भाषा प्राथमिकता चुनें"
+            initial={{ opacity: 0, y: -6, scale: 0.96 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            exit={{ opacity: 0, y: -4, scale: 0.96 }}
+            transition={{ duration: 0.14 }}
+            className="absolute right-0 top-[calc(100%+0.5rem)] z-50 w-56 rounded-2xl border border-dharma-border bg-dharma-card p-2 shadow-2xl backdrop-blur-xl"
+          >
+            <div className="px-2.5 py-1.5 text-[11px] font-bold uppercase tracking-wider text-dharma-muted">
+              भाषा प्राथमिकता (Language)
+            </div>
+            <div className="space-y-1">
+              {options.map((option) => {
+                const isSelected = option.id === preference;
+                return (
+                  <button
+                    key={option.id}
+                    type="button"
+                    role="option"
+                    aria-selected={isSelected}
+                    onClick={() => {
+                      setPreference(option.id as LanguagePreference);
+                      setOpen(false);
+                      triggerTactileFeedback('light', 'softTap');
+                    }}
+                    className={`flex w-full items-center justify-between rounded-xl px-2.5 py-2 text-left text-xs transition ${
+                      isSelected
+                        ? 'bg-saffron-500/10 font-bold text-saffron-700 dark:text-saffron-300'
+                        : 'text-dharma-text hover:bg-dharma-bg hover:text-saffron-700'
+                    }`}
+                  >
+                    <div>
+                      <div className="font-semibold">{option.label}</div>
+                      <div className="text-[10px] text-dharma-muted">
+                        {option.sub}
+                      </div>
+                    </div>
+                    {isSelected && (
+                      <Check
+                        className="h-4 w-4 shrink-0 text-saffron-600"
+                        aria-hidden="true"
+                      />
+                    )}
+                  </button>
+                );
+              })}
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </div>
+  );
+}

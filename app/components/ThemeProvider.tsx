@@ -2,8 +2,8 @@
 
 import { createContext, useContext, useEffect, useState, type ReactNode } from 'react';
 
-export type Theme = 'day' | 'sunset' | 'night';
-export const THEMES: Theme[] = ['day', 'sunset', 'night'];
+export type Theme = 'day' | 'sunset' | 'paper' | 'night';
+export const THEMES: Theme[] = ['day', 'sunset', 'paper', 'night'];
 
 const STORAGE_KEY = 'dharma-theme';
 
