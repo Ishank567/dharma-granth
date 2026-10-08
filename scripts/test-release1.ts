@@ -223,6 +223,41 @@ async function main() {
   assert.equal(proto.isLowClarity({ refKey: 'a:1:1', yes: 0, partly: 3, no: 0, reasons: {} }), false, 'too few answers to flag');
   assert.equal(proto.isLowClarity({ refKey: 'a:1:1', yes: 8, partly: 1, no: 1, reasons: {} }), false);
 
+  /* ── Start Here ── */
+  const sh = await import('../data/start-here');
+  const { READING_JOURNEYS } = await import('../data/reading-journeys');
+  const { CONCEPT_DETAILS } = await import('../data/concept-details');
+  const { wisdomTopics } = await import('../data/wisdom-for-life');
+  const { learningPaths } = await import('../data/learning-paths');
+  const fsx = await import('node:fs');
+  const answersList: Array<import('../data/start-here').StartAnswers> = [];
+  for (const interest of ['gita', 'upanishads', 'karma', 'bhakti', 'daily', 'sanskrit', 'life', 'unsure'] as const)
+    for (const familiarity of ['new', 'some', 'regular', 'serious'] as const)
+      for (const time of ['5', '10', '20', 'deep'] as const) answersList.push({ interest, familiarity, language: 'both', time });
+  for (const a of answersList) {
+    const recs = sh.recommend(a);
+    assert.ok(recs.length >= 1 && recs.length <= 3, 'one to three suggestions');
+    assert.equal(new Set(recs.map((r) => r.path.id)).size, recs.length, 'no duplicates');
+    for (const r of recs) {
+      assert.ok(r.reason.length > 10, 'every suggestion says why');
+      assert.ok(!/true spiritual path|your destiny|you must/i.test(r.reason + r.path.summary), 'no presumptuous wording');
+    }
+  }
+  const routeOk = (href: string) => {
+    let m = /^\/journeys\/([^/]+)$/.exec(href);
+    if (m) return READING_JOURNEYS.some((j) => j.id === m![1]);
+    m = /^\/concepts\/([^/]+)$/.exec(href);
+    if (m) return Boolean(CONCEPT_DETAILS[m[1]]);
+    m = /^\/learn\/([^/]+)$/.exec(href);
+    if (m) return learningPaths.some((p) => p.id === m![1]);
+    m = /^\/wisdom-for-life\/([^/]+)$/.exec(href);
+    if (m) return wisdomTopics.some((t) => t.slug === m![1]);
+    m = /^\/scripture\/([^/]+)\/chapter\/(\d+)(?:\/verse\/(\d+))?$/.exec(href);
+    if (m) return fsx.existsSync('public/data/scriptures-full/' + m[1] + '/ch-' + m[2] + '.json');
+    return fsx.existsSync('app' + href);
+  };
+  for (const p of Object.values(sh.START_PATHS)) for (const href of [p.href, ...p.steps.map((x) => x.href)]) assert.ok(routeOk(href), 'start path link resolves: ' + href);
+
   console.log('release1: all assertions passed');
 }
 
