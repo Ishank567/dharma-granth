@@ -12,6 +12,20 @@ import { ReaderDialog } from '@/app/components/reader/ReaderDialog';
  */
 
 type ThemeId = 'paper' | 'saffron' | 'midnight' | 'minimal';
+type FormatId = 'verse' | 'translation' | 'explanation' | 'concept';
+
+const FORMAT_LABEL: Record<FormatId, string> = {
+  verse: 'Verse only',
+  translation: 'Verse with translation',
+  explanation: 'Verse with one-line explanation',
+  concept: 'Concept card',
+};
+
+export interface ConceptCardData {
+  term: string;
+  transliteration: string;
+  definition: string;
+}
 
 interface CardTheme {
   label: string;
@@ -39,7 +53,13 @@ function wrap(ctx: CanvasRenderingContext2D, text: string, maxWidth: number): st
   const out: string[] = [];
   for (const para of text.split('\n')) {
     let line = '';
-    for (const word of para.split(/\s+/).filter(Boolean)) {
+    // A danda stays with the word before it, never alone at the start of a line.
+    const words = para.split(/\s+/).filter(Boolean).reduce<string[]>((acc, w) => {
+      if (/^[।॥|]+$/.test(w) && acc.length) acc[acc.length - 1] += ` ${w}`;
+      else acc.push(w);
+      return acc;
+    }, []);
+    for (const word of words) {
       const test = line ? `${line} ${word}` : word;
       if (ctx.measureText(test).width > maxWidth && line) {
         out.push(line);
@@ -58,18 +78,31 @@ function excerpt(sanskrit: string): string {
 }
 
 export function ShareCardButton({
-  sanskrit,
+  sanskrit = '',
   reference,
   referenceSanskrit,
-  meaning,
+  meaning = '',
+  translation,
+  translationIsAi,
+  concept,
   url,
 }: {
-  sanskrit: string;
+  sanskrit?: string;
   reference: string;
   referenceSanskrit?: string;
-  meaning: string;
+  meaning?: string;
+  translation?: string;
+  translationIsAi?: boolean;
+  concept?: ConceptCardData;
   url: string;
 }) {
+  const formats = [
+    sanskrit && 'verse',
+    sanskrit && translation && 'translation',
+    sanskrit && meaning && 'explanation',
+    concept && 'concept',
+  ].filter(Boolean) as FormatId[];
+  const [format, setFormat] = useState<FormatId>(formats[0] ?? 'verse');
   const [open, setOpen] = useState(false);
   const [theme, setTheme] = useState<ThemeId>('paper');
   const [note, setNote] = useState('');
@@ -103,44 +136,91 @@ export function ShareCardButton({
     const cx = W / 2;
     const maxW = W - PAD * 2;
 
-    // Reference
-    ctx.fillStyle = t.accent;
-    ctx.font = `600 38px ${dev}`;
-    ctx.fillText(referenceSanskrit ? `${referenceSanskrit}` : reference, cx, 190);
-    ctx.font = '600 30px Inter, system-ui, sans-serif';
-    ctx.fillStyle = t.muted;
-    ctx.fillText(reference, cx, 240);
+    const label = (text: string, yy: number) => {
+      ctx.fillStyle = t.muted;
+      ctx.font = '600 26px Inter, system-ui, sans-serif';
+      ctx.fillText(text, cx, yy);
+    };
+    const paragraph = (text: string, yy: number, font: string, color: string, step: number, maxLines: number) => {
+      ctx.fillStyle = color;
+      ctx.font = font;
+      let y2 = yy;
+      for (const l of wrap(ctx, text, maxW).slice(0, maxLines)) {
+        ctx.fillText(l, cx, y2);
+        y2 += step;
+      }
+      return y2;
+    };
 
-    // Verse excerpt, shrunk until it fits in at most 4 lines.
-    let size = 76;
-    let lines: string[] = [];
-    do {
-      ctx.font = `600 ${size}px ${dev}`;
-      lines = wrap(ctx, excerpt(sanskrit), maxW);
-      size -= 4;
-    } while (lines.length > 4 && size > 40);
-    const lh = Math.round((size + 4) * 1.6);
-    let y = 420;
-    ctx.fillStyle = t.verse;
-    for (const l of lines) {
-      ctx.fillText(l, cx, y);
-      y += lh;
-    }
+    // Draws text in the space above the attribution, shrinking it until all of it fits.
+    const fit = (text: string, yy: number, startSize: number, color: string) => {
+      const bottom = H - 190;
+      let size2 = startSize;
+      let ls: string[] = [];
+      let step = 0;
+      do {
+        ctx.font = `400 ${size2}px Georgia, "Times New Roman", serif`;
+        ls = wrap(ctx, text, maxW);
+        step = Math.round(size2 * 1.42);
+        size2 -= 2;
+      } while (yy + (ls.length - 1) * step > bottom && size2 > 26);
+      ctx.fillStyle = color;
+      ls.forEach((l, i) => ctx.fillText(l, cx, yy + i * step));
+    };
 
-    // Divider, then the meaning, labelled as explanation rather than scripture.
-    y += 20;
-    ctx.fillStyle = t.frame;
-    ctx.fillRect(cx - 60, y, 120, 3);
-    y += 90;
-    ctx.fillStyle = t.muted;
-    ctx.font = '600 26px Inter, system-ui, sans-serif';
-    ctx.fillText('IN ONE LINE · EXPLANATION, NOT SCRIPTURE', cx, y);
-    y += 62;
-    ctx.fillStyle = t.meaning;
-    ctx.font = '400 44px Georgia, "Times New Roman", serif';
-    for (const l of wrap(ctx, meaning, maxW).slice(0, 4)) {
-      ctx.fillText(l, cx, y);
-      y += 64;
+    if (format === 'concept' && concept) {
+      ctx.fillStyle = t.accent;
+      ctx.font = `600 34px ${dev}`;
+      ctx.fillText('अवधारणा · Concept', cx, 190);
+      ctx.fillStyle = t.verse;
+      ctx.font = `600 150px ${dev}`;
+      ctx.fillText(concept.term, cx, 470);
+      ctx.fillStyle = t.muted;
+      ctx.font = 'italic 400 44px Georgia, "Times New Roman", serif';
+      ctx.fillText(concept.transliteration, cx, 550);
+      ctx.fillStyle = t.frame;
+      ctx.fillRect(cx - 60, 620, 120, 3);
+      label('IN BRIEF · EXPLANATION, NOT SCRIPTURE', 710);
+      paragraph(concept.definition, 785, '400 44px Georgia, "Times New Roman", serif', t.meaning, 64, 8);
+    } else {
+      ctx.fillStyle = t.accent;
+      ctx.font = `600 38px ${dev}`;
+      ctx.fillText(referenceSanskrit ? `${referenceSanskrit}` : reference, cx, 190);
+      ctx.font = '600 30px Inter, system-ui, sans-serif';
+      ctx.fillStyle = t.muted;
+      ctx.fillText(reference, cx, 240);
+
+      // Verse excerpt, shrunk until it fits in the lines available.
+      const maxLines = format === 'verse' ? 6 : 4;
+      let size = format === 'verse' ? 88 : 64;
+      let lines: string[] = [];
+      do {
+        ctx.font = `600 ${size}px ${dev}`;
+        lines = wrap(ctx, excerpt(sanskrit), maxW);
+        size -= 4;
+      } while (lines.length > maxLines && size > 40);
+      const lh = Math.round((size + 4) * 1.6);
+      let y = format === 'verse' ? 480 : 360;
+      ctx.fillStyle = t.verse;
+      for (const l of lines) {
+        ctx.fillText(l, cx, y);
+        y += lh;
+      }
+
+      if (format !== 'verse') {
+        // Divider, then the lower block, labelled so it is never mistaken for the verse.
+        y += 20;
+        ctx.fillStyle = t.frame;
+        ctx.fillRect(cx - 60, y, 120, 3);
+        y += 70;
+        if (format === 'translation' && translation) {
+          label(translationIsAi ? 'TRANSLATION · AI, NOT A SCHOLARLY EDITION' : 'TRANSLATION', y);
+          fit(translation, y + 62, 42, t.meaning);
+        } else {
+          label('IN ONE LINE · EXPLANATION, NOT SCRIPTURE', y);
+          fit(meaning, y + 62, 44, t.meaning);
+        }
+      }
     }
 
     // Attribution
@@ -149,7 +229,7 @@ export function ShareCardButton({
     ctx.fillText('Dharma Granth', cx, H - 130);
     ctx.font = '400 26px Inter, system-ui, sans-serif';
     ctx.fillText(url.replace(/^https?:\/\//, '').replace(/\/$/, ''), cx, H - 86);
-  }, [theme, sanskrit, reference, referenceSanskrit, meaning, url]);
+  }, [theme, format, sanskrit, reference, referenceSanskrit, meaning, translation, translationIsAi, concept, url]);
 
   useEffect(() => {
     if (open) {
@@ -168,7 +248,7 @@ export function ShareCardButton({
     const href = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = href;
-    a.download = `${reference.replace(/\s+/g, '-').toLowerCase()}-${theme}.png`;
+    a.download = `${reference.replace(/\s+/g, '-').toLowerCase()}-${format}-${theme}.png`;
     document.body.appendChild(a);
     a.click();
     a.remove();
@@ -182,7 +262,7 @@ export function ShareCardButton({
     const file = new File([blob], `${reference}.png`, { type: 'image/png' });
     if (navigator.canShare?.({ files: [file] })) {
       try {
-        await navigator.share({ files: [file], title: `${reference} · Dharma Granth`, url });
+        await navigator.share({ files: [file], title: `${reference} · Dharma Granth`, text: `${reference} on Dharma Granth: ${url}`, url });
         return;
       } catch (err) {
         if ((err as Error)?.name === 'AbortError') return;
@@ -202,9 +282,24 @@ export function ShareCardButton({
         <canvas
           ref={canvasRef}
           role="img"
-          aria-label={`Share card for ${reference}. Sanskrit excerpt: ${excerpt(sanskrit).replace(/\n/g, ' ')}. Meaning: ${meaning}`}
+          aria-label={format === 'concept' && concept ? `Concept card for ${concept.term}, ${concept.transliteration}. ${concept.definition}` : `Share card for ${reference}. Sanskrit excerpt: ${excerpt(sanskrit).replace(/\n/g, ' ')}.${format === 'translation' && translation ? ` Translation: ${translation}` : ''}${format === 'explanation' ? ` Meaning: ${meaning}` : ''}`}
           className="mx-auto mb-4 aspect-[4/5] w-full max-w-[280px] rounded-lg border border-dharma-border"
         />
+        {formats.length > 1 && (
+          <fieldset className="mb-4">
+            <legend className="mb-2 text-sm font-semibold text-dharma-text">Card</legend>
+            <div className="grid grid-cols-2 gap-2">
+              {formats.map((id) => (
+                <label key={id} className="relative cursor-pointer">
+                  <input type="radio" name={`${name}-format`} checked={format === id} onChange={() => setFormat(id)} className="peer sr-only" />
+                  <span className="flex min-h-[44px] items-center justify-center rounded-xl border border-dharma-border bg-dharma-bg px-2 text-center text-xs font-semibold text-dharma-text peer-checked:border-saffron-700 peer-checked:bg-saffron-700 peer-checked:text-white peer-focus-visible:ring-2 peer-focus-visible:ring-saffron-500">
+                    {FORMAT_LABEL[id]}
+                  </span>
+                </label>
+              ))}
+            </div>
+          </fieldset>
+        )}
         <fieldset className="mb-4">
           <legend className="mb-2 text-sm font-semibold text-dharma-text">Theme</legend>
           <div className="grid grid-cols-4 gap-2">

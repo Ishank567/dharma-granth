@@ -281,6 +281,8 @@ export default function VersePage({ params }: PageProps) {
             refKey={`${meta.id}:${chapterId}:${params.verseId}`}
             reference={ref}
             previousHref={prevHref}
+            translation={verse.translation}
+            translationIsAi={verse.translationSource === 'ai'}
             nextHref={nextHref}
             pageUrl={pageUrl}
           />

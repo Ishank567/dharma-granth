@@ -46,6 +46,8 @@ export function UnderstandPanel({
   extras,
   refKey,
   reference,
+  translation,
+  translationIsAi,
   previousHref,
   nextHref,
   pageUrl,
@@ -54,6 +56,8 @@ export function UnderstandPanel({
   extras?: UnderstandingExtras;
   refKey: string;
   reference: string;
+  translation?: string;
+  translationIsAi?: boolean;
   previousHref?: string;
   nextHref?: string;
   pageUrl: string;
@@ -119,7 +123,7 @@ export function UnderstandPanel({
       </div>
 
       <div className="mt-3">
-        <ShareCardButton sanskrit={data.sanskrit} reference={reference} referenceSanskrit={data.scriptureTitleSanskrit} meaning={data.inOneLineEn} url={pageUrl} />
+        <ShareCardButton sanskrit={data.sanskrit} reference={reference} referenceSanskrit={data.scriptureTitleSanskrit} meaning={data.inOneLineEn} translation={translation} translationIsAi={translationIsAi} url={pageUrl} />
       </div>
 
       <div role="tabpanel" id="mode-panel" aria-labelledby={`mode-${mode}`} className="mt-4 space-y-4" key={mode}>
