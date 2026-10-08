@@ -1,0 +1,520 @@
+'use client';
+
+import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
+import Link from 'next/link';
+import { useRouter } from 'next/navigation';
+import { MotionConfig } from 'framer-motion';
+import {
+  ArrowLeft,
+  ArrowRight,
+  Bookmark,
+  BookmarkCheck,
+  ChevronDown,
+  Copy,
+  Download,
+  Flag,
+  Pause,
+  Share2,
+  SlidersHorizontal,
+  StickyNote,
+  Volume1,
+  Volume2,
+} from 'lucide-react';
+import { useTheme } from '@/app/components/ThemeProvider';
+import { toDevanagari } from '@/lib/verse-format';
+import { useStudyProgress } from '@/lib/useStudyProgress';
+import { useReaderSettings } from '@/lib/useReaderSettings';
+import { speechSupported, reciteVerse, stopRecitation, subscribeRecitation } from '@/lib/verse-recite';
+import { triggerTactileFeedback } from '@/lib/haptics';
+import {
+  REPORT_KINDS,
+  buildCopyText,
+  buildDownloadMarkdown,
+  buildIssueUrl,
+  isBookmarked,
+  toggleBookmark,
+  verseReference,
+  type ReaderProvenance,
+  type ReaderRef,
+  type ReaderVerseText,
+  type ReportKind,
+} from '@/lib/reader-actions';
+import { ReaderDialog } from './ReaderDialog';
+import { ReaderSettingsPanel } from './ReaderSettingsPanel';
+import { ReaderLayers } from './ReaderLayers';
+
+export interface ReaderChapter {
+  id: number;
+  title: string;
+  titleSanskrit?: string;
+  verseCount?: number;
+  href: string;
+}
+
+export interface ReaderVerseLink {
+  number: number | string;
+  href: string;
+}
+
+export interface VerseReaderProps {
+  scriptureId: string;
+  scriptureTitle: string;
+  scriptureTitleSanskrit?: string;
+  chapterId: number;
+  chapterTitle: string;
+  scriptureHref: string;
+  chapterHref: string;
+  /** Absolute URL of this page, for copy / share / download / reports. */
+  pageUrl: string;
+  chapters: ReaderChapter[];
+  /** Every verse of the chapter, in order, for the direct selector. */
+  verses: ReaderVerseLink[];
+  index: number;
+  verse: ReaderVerseText;
+  provenance: ReaderProvenance;
+  prev?: ReaderVerseLink;
+  next?: ReaderVerseLink;
+  /** Related concepts, topics and cross-references, rendered under the layers. */
+  children?: ReactNode;
+}
+
+const WIDTH = { narrow: 'max-w-xl', standard: 'max-w-3xl', wide: 'max-w-5xl' } as const;
+
+const iconBtn =
+  'focus-ring inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-dharma-border bg-dharma-card/80 text-dharma-muted transition hover:border-saffron-400 hover:text-saffron-800 dark:hover:text-saffron-300';
+
+const actionBtn =
+  'focus-ring inline-flex min-h-[44px] shrink-0 items-center gap-2 whitespace-nowrap rounded-xl border border-dharma-border bg-dharma-card px-3.5 text-sm font-semibold text-dharma-text transition hover:border-saffron-400 hover:text-saffron-800 disabled:cursor-not-allowed disabled:opacity-50 dark:hover:text-saffron-300';
+
+export function VerseReader(props: VerseReaderProps) {
+  const {
+    scriptureId, scriptureTitle, scriptureTitleSanskrit, chapterId, chapterTitle, scriptureHref, chapterHref,
+    pageUrl, chapters, verses, index, verse, provenance, prev, next, children,
+  } = props;
+
+  const router = useRouter();
+  const { theme, setTheme } = useTheme();
+  const { settings, update, reset, reducedMotion } = useReaderSettings();
+  const { getNote, setNote } = useStudyProgress();
+
+  const ref: ReaderRef = useMemo(
+    () => ({ scriptureId, scriptureTitle, scriptureTitleSanskrit, chapterId, chapterTitle, url: pageUrl }),
+    [scriptureId, scriptureTitle, scriptureTitleSanskrit, chapterId, chapterTitle, pageUrl],
+  );
+  const label = verseReference(ref, verse);
+
+  /* Reader mode: the site nav, companion dock and audio bar step aside (see globals.css). */
+  useEffect(() => {
+    document.documentElement.setAttribute('data-reader', '');
+    return () => document.documentElement.removeAttribute('data-reader');
+  }, []);
+
+  /* ── Dialog state ── */
+  const [dialog, setDialog] = useState<null | 'settings' | 'chapters' | 'verses' | 'note' | 'report'>(null);
+  const close = useCallback(() => setDialog(null), []);
+
+  /* ── Toast ── */
+  const [toast, setToast] = useState<string | null>(null);
+  const toastTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const say = useCallback((message: string) => {
+    setToast(message);
+    if (toastTimer.current) clearTimeout(toastTimer.current);
+    toastTimer.current = setTimeout(() => setToast(null), 2600);
+  }, []);
+  useEffect(() => () => {
+    if (toastTimer.current) clearTimeout(toastTimer.current);
+  }, []);
+
+  /* ── Bookmark ── */
+  const [saved, setSaved] = useState(false);
+  useEffect(() => setSaved(isBookmarked(ref, verse)), [ref, verse]);
+  const onBookmark = () => {
+    const state = toggleBookmark(ref, verse);
+    if (state === null) return say('Could not save: browser storage is unavailable.');
+    setSaved(state);
+    triggerTactileFeedback(state ? 'success' : 'medium', state ? 'success' : 'softTap');
+    say(state ? 'Verse saved' : 'Removed from saved verses');
+  };
+
+  /* ── Pronunciation (the device's speech voice) ── */
+  const [speaking, setSpeaking] = useState<null | 'normal' | 'slow'>(null);
+  const [canSpeak, setCanSpeak] = useState(true);
+  useEffect(() => {
+    setCanSpeak(speechSupported());
+    const off = subscribeRecitation((s) => {
+      if (!s?.isSpeaking) setSpeaking(null);
+    });
+    return () => {
+      off();
+      stopRecitation();
+    };
+  }, [verse.number]);
+  const onSpeak = (mode: 'normal' | 'slow') => {
+    if (!canSpeak) return say('This browser has no speech voice for pronunciation.');
+    if (speaking === mode) {
+      stopRecitation();
+      setSpeaking(null);
+      return;
+    }
+    setSpeaking(mode);
+    reciteVerse({ sanskrit: verse.sanskrit, hindi: verse.hindi, translation: verse.translation }, () => setSpeaking(null), {
+      speed: mode === 'slow' ? 0.7 : 1,
+      onlySanskrit: true,
+    });
+  };
+
+  /* ── Copy / share / download ── */
+  const show = { transliteration: settings.showTransliteration, hindi: settings.showHindi, english: settings.showEnglish };
+  const onCopy = async () => {
+    try {
+      await navigator.clipboard.writeText(buildCopyText(ref, verse, provenance, show));
+      say('Copied with reference');
+    } catch {
+      say('Could not copy. Select the text and copy it manually.');
+    }
+  };
+  const onShare = async () => {
+    const text = `${(verse.sanskrit ?? '').trim()}\n\n— ${label}`;
+    if (typeof navigator.share === 'function') {
+      try {
+        await navigator.share({ title: `${label} · Dharma Granth`, text, url: pageUrl });
+        return;
+      } catch (err) {
+        if ((err as Error)?.name === 'AbortError') return;
+      }
+    }
+    await onCopy();
+  };
+  const onDownload = () => {
+    const blob = new Blob([buildDownloadMarkdown(ref, verse, provenance)], { type: 'text/markdown;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `${scriptureId}-${chapterId}-${verse.number}.md`;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 10_000);
+    say('Verse downloaded');
+  };
+
+  /* ── Private note (same store as the rest of the app) ── */
+  const noteText = getNote(scriptureId, chapterId, String(verse.number))?.text ?? '';
+  const [draft, setDraft] = useState('');
+  const openNote = () => {
+    setDraft(noteText);
+    setDialog('note');
+  };
+  const saveNote = () => {
+    setNote(scriptureId, chapterId, String(verse.number), draft.trim());
+    close();
+    say(draft.trim() ? 'Note saved on this device' : 'Note removed');
+  };
+
+  /* ── Report ── */
+  const [kind, setKind] = useState<ReportKind>('sanskrit');
+  const [details, setDetails] = useState('');
+  const issueUrl = buildIssueUrl(ref, verse, kind, details);
+
+  /* ── Verse picker ── */
+  const [pick, setPick] = useState('');
+  const visibleVerses = pick.trim() ? verses.filter((v) => String(v.number).startsWith(pick.trim())) : verses;
+
+  /* ── Arrow-key navigation (never while typing or with a dialog open) ── */
+  useEffect(() => {
+    if (dialog) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      const el = e.target as HTMLElement | null;
+      if (el && (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA' || el.tagName === 'SELECT' || el.isContentEditable)) return;
+      if (e.key === 'ArrowLeft' && prev) router.push(prev.href);
+      if (e.key === 'ArrowRight' && next) router.push(next.href);
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [dialog, prev, next, router]);
+
+  const total = verses.length;
+  const percent = Math.round(((index + 1) / Math.max(1, total)) * 100);
+  const sanskritName = scriptureTitleSanskrit ?? scriptureTitle;
+
+  const navLink = (target: ReaderVerseLink | undefined, dir: 'prev' | 'next', size: 'bar' | 'row') => {
+    const Icon = dir === 'prev' ? ArrowLeft : ArrowRight;
+    const text = dir === 'prev' ? 'Previous' : 'Next';
+    const hi = dir === 'prev' ? 'पिछला' : 'अगला';
+    const base =
+      size === 'bar'
+        ? 'min-h-[48px] px-3'
+        : 'min-h-[52px] px-4';
+    if (!target) return <span className={size === 'bar' ? 'w-[88px]' : 'w-40'} aria-hidden="true" />;
+    return (
+      <Link
+        href={target.href}
+        rel={dir}
+        aria-label={`${text} verse, ${target.number}`}
+        className={`focus-ring inline-flex items-center gap-2 rounded-xl border border-dharma-border bg-dharma-card font-semibold text-dharma-text transition hover:border-saffron-400 ${base} ${dir === 'next' ? 'flex-row-reverse text-right' : ''}`}
+      >
+        <Icon className="h-4 w-4 shrink-0 text-saffron-700 dark:text-saffron-300" aria-hidden="true" />
+        <span className="leading-tight">
+          <span className="block text-[11px] font-medium text-dharma-muted">
+            <span lang="hi" className="font-devanagari">{hi}</span> · {text}
+          </span>
+          <span lang="hi" className="font-devanagari text-sm">श्लोक {toDevanagari(target.number)}</span>
+        </span>
+      </Link>
+    );
+  };
+
+  return (
+    <MotionConfig reducedMotion={reducedMotion ? 'always' : 'user'}>
+      <div
+        data-contrast={settings.contrast}
+        data-hide-decor={settings.hideDecor ? '' : undefined}
+        className="reader-root min-h-screen bg-dharma-bg text-dharma-text selection:bg-saffron-500/25"
+      >
+        <style>{`
+          .reader-root[data-contrast=high]{--dharma-muted:var(--dharma-text);--dharma-border:currentColor}
+          .reader-root[data-contrast=high] .understand-fade{border-width:2px}
+          .reader-root[data-hide-decor] .understand-fade{animation:none}
+          .reader-root[data-hide-decor] h3 svg,.reader-root[data-hide-decor] [data-decor]{display:none}
+        `}</style>
+        {/* 1 · Sticky reader header */}
+        <header className="sticky top-0 z-40 border-b border-dharma-border/80 bg-dharma-bg/95 backdrop-blur">
+          <div className="mx-auto flex h-14 max-w-5xl items-center gap-2 px-3 sm:h-16 sm:gap-3 sm:px-6">
+            <Link href={scriptureHref} aria-label={`Back to ${scriptureTitle}`} className={iconBtn}>
+              <ArrowLeft className="h-4 w-4" aria-hidden="true" />
+            </Link>
+
+            <div className="min-w-0 flex-1">
+              <p lang="sa" className="truncate font-devanagari text-sm font-semibold leading-tight text-dharma-text">
+                {sanskritName}
+              </p>
+              <button
+                type="button"
+                onClick={() => setDialog('chapters')}
+                aria-haspopup="dialog"
+                className="focus-ring relative -my-3 -ml-1 inline-flex min-h-[44px] max-w-full items-center gap-1 rounded-md px-1 text-xs text-dharma-muted hover:text-saffron-800 dark:hover:text-saffron-300"
+              >
+                <span className="truncate">
+                  {scriptureTitle} · Chapter {chapterId}: {chapterTitle}
+                </span>
+                <ChevronDown className="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
+              </button>
+            </div>
+
+            <div className="hidden w-40 sm:block" role="group" aria-label="Reading progress">
+              <p className="text-right text-xs font-medium text-dharma-muted">
+                Verse {index + 1} of {total}
+              </p>
+              <div className="mt-1 h-1.5 overflow-hidden rounded-full bg-dharma-border/70" role="progressbar" aria-valuemin={0} aria-valuemax={100} aria-valuenow={percent} aria-label="Progress through this chapter">
+                <div className="h-full rounded-full bg-saffron-600" style={{ width: `${percent}%` }} />
+              </div>
+            </div>
+
+            <button type="button" onClick={onBookmark} aria-pressed={saved} aria-label={saved ? 'Remove bookmark' : 'Bookmark this verse'} className={`${iconBtn} ${saved ? '!border-saffron-600 !text-saffron-800 dark:!text-saffron-300' : ''}`}>
+              {saved ? <BookmarkCheck className="h-4 w-4" aria-hidden="true" /> : <Bookmark className="h-4 w-4" aria-hidden="true" />}
+            </button>
+            <button type="button" onClick={() => setDialog('settings')} aria-haspopup="dialog" aria-label="Reader settings" className={iconBtn}>
+              <SlidersHorizontal className="h-4 w-4" aria-hidden="true" />
+            </button>
+          </div>
+          <div className="h-0.5 bg-dharma-border/50 sm:hidden" aria-hidden="true">
+            <div className="h-full bg-saffron-600" style={{ width: `${percent}%` }} />
+          </div>
+        </header>
+
+        <main className={`mx-auto px-4 pb-32 pt-6 sm:pb-20 sm:pt-8 ${WIDTH[settings.readingWidth]}`}>
+          {/* 2 · Verse navigation (desktop; phones get the sticky bar below) */}
+          <nav aria-label="Verse navigation" className="mb-6 hidden items-center justify-between gap-3 sm:flex">
+            {navLink(prev, 'prev', 'row')}
+            <button
+              type="button"
+              onClick={() => setDialog('verses')}
+              aria-haspopup="dialog"
+              className="focus-ring inline-flex min-h-[52px] flex-col items-center justify-center rounded-xl px-4 text-center transition hover:bg-dharma-card"
+            >
+              <span className="font-serif text-lg font-bold text-dharma-text">{label}</span>
+              <span className="inline-flex items-center gap-1 text-xs text-dharma-muted">
+                Verse {index + 1} of {total} · jump to verse <ChevronDown className="h-3 w-3" aria-hidden="true" />
+              </span>
+            </button>
+            {navLink(next, 'next', 'row')}
+          </nav>
+
+          <h1 className="sr-only">{label}</h1>
+
+          {/* Actions */}
+          {/* One swipeable row on phones keeps the verse near the top; it wraps from sm up. */}
+          <div role="toolbar" aria-label="Verse actions" className="-mx-4 mb-6 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0 sm:pb-0">
+            <button type="button" onClick={() => onSpeak('normal')} aria-pressed={speaking === 'normal'} disabled={!canSpeak} className={actionBtn} title="Uses your device's speech voice">
+              {speaking === 'normal' ? <Pause className="h-4 w-4" aria-hidden="true" /> : <Volume2 className="h-4 w-4 text-saffron-700 dark:text-saffron-300" aria-hidden="true" />}
+              {speaking === 'normal' ? 'Stop' : 'Listen'}
+            </button>
+            <button type="button" onClick={() => onSpeak('slow')} aria-pressed={speaking === 'slow'} disabled={!canSpeak} className={actionBtn} title="Slow pronunciation (0.7×), uses your device's speech voice">
+              {speaking === 'slow' ? <Pause className="h-4 w-4" aria-hidden="true" /> : <Volume1 className="h-4 w-4 text-saffron-700 dark:text-saffron-300" aria-hidden="true" />}
+              {speaking === 'slow' ? 'Stop' : 'Slow'}
+            </button>
+            <button type="button" onClick={onBookmark} aria-pressed={saved} className={actionBtn}>
+              {saved ? <BookmarkCheck className="h-4 w-4" aria-hidden="true" /> : <Bookmark className="h-4 w-4" aria-hidden="true" />}
+              {saved ? 'Saved' : 'Save'}
+            </button>
+            <button type="button" onClick={openNote} className={actionBtn}>
+              <StickyNote className="h-4 w-4" aria-hidden="true" />
+              {noteText ? 'Edit note' : 'Note'}
+              {noteText && <span className="h-1.5 w-1.5 rounded-full bg-saffron-600" aria-label="has a note" />}
+            </button>
+            <button type="button" onClick={onCopy} className={actionBtn}>
+              <Copy className="h-4 w-4" aria-hidden="true" /> Copy
+            </button>
+            <button type="button" onClick={onShare} className={actionBtn}>
+              <Share2 className="h-4 w-4" aria-hidden="true" /> Share
+            </button>
+            <button type="button" onClick={onDownload} className={actionBtn}>
+              <Download className="h-4 w-4" aria-hidden="true" /> Download
+            </button>
+            <button type="button" onClick={() => setDialog('report')} className={actionBtn}>
+              <Flag className="h-4 w-4" aria-hidden="true" /> Report error
+            </button>
+          </div>
+
+          {/* 3 · The layers */}
+          <ReaderLayers verse={verse} chapterId={chapterId} provenance={provenance} settings={settings} onReport={() => setDialog('report')} />
+
+          {noteText && (
+            <section aria-label="Your private note" className="mt-5 rounded-2xl border border-dashed border-dharma-border bg-dharma-card/60 p-4">
+              <p className="mb-1 text-xs font-semibold uppercase tracking-[0.12em] text-dharma-muted">Your note · private to this device</p>
+              <p className="whitespace-pre-line text-sm text-dharma-text">{noteText}</p>
+            </section>
+          )}
+
+          {children}
+        </main>
+
+        {/* Mobile: sticky bottom verse navigation (the page has matching bottom padding, so it never covers the verse) */}
+        <nav aria-label="Verse navigation" className="fixed inset-x-0 bottom-0 z-40 border-t border-dharma-border/80 bg-dharma-bg/95 backdrop-blur sm:hidden">
+          <div className="flex items-center justify-between gap-2 px-3 pb-[max(0.5rem,env(safe-area-inset-bottom))] pt-2">
+            {navLink(prev, 'prev', 'bar')}
+            <button
+              type="button"
+              onClick={() => setDialog('verses')}
+              aria-haspopup="dialog"
+              className="focus-ring inline-flex min-h-[48px] min-w-0 flex-1 flex-col items-center justify-center rounded-xl px-2 text-center"
+            >
+              <span lang="hi" className="font-devanagari text-sm font-bold">श्लोक {toDevanagari(verse.number)}</span>
+              <span className="text-[11px] text-dharma-muted">{index + 1} / {total} · jump</span>
+            </button>
+            {navLink(next, 'next', 'bar')}
+          </div>
+        </nav>
+
+        <div aria-live="polite" role="status" className="pointer-events-none fixed inset-x-0 bottom-24 z-[80] flex justify-center px-4 sm:bottom-6">
+          {toast && <p className="rounded-full border border-dharma-border bg-dharma-card px-4 py-2 text-sm font-medium text-dharma-text shadow-lg">{toast}</p>}
+        </div>
+
+        {/* Dialogs */}
+        <ReaderSettingsPanel open={dialog === 'settings'} onClose={close} settings={settings} update={update} reset={reset} reducedMotion={reducedMotion} theme={theme} setTheme={setTheme} />
+
+        <ReaderDialog open={dialog === 'chapters'} onClose={close} title="Chapters" titleHi="अध्याय" variant="modal">
+          <ul className="space-y-1">
+            {chapters.map((c) => (
+              <li key={c.id}>
+                <Link
+                  href={c.href}
+                  onClick={close}
+                  aria-current={c.id === chapterId ? 'true' : undefined}
+                  className={`focus-ring flex min-h-[52px] items-center justify-between gap-3 rounded-xl px-3 py-2 transition ${c.id === chapterId ? 'bg-saffron-100 font-semibold text-saffron-950 dark:bg-saffron-900/40 dark:text-saffron-100' : 'hover:bg-dharma-bg'}`}
+                >
+                  <span className="min-w-0">
+                    <span className="block truncate text-sm">{c.id}. {c.title}</span>
+                    {c.titleSanskrit && <span lang="sa" className="block truncate font-devanagari text-sm text-dharma-muted">{c.titleSanskrit}</span>}
+                  </span>
+                  {c.verseCount ? <span className="shrink-0 text-xs text-dharma-muted">{c.verseCount} verses</span> : null}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </ReaderDialog>
+
+        <ReaderDialog open={dialog === 'verses'} onClose={() => { close(); setPick(''); }} title="Go to verse" titleHi="श्लोक चुनें" variant="modal">
+          <form
+            onSubmit={(e) => {
+              e.preventDefault();
+              const exact = verses.find((v) => String(v.number) === pick.trim());
+              if (exact) { close(); router.push(exact.href); }
+            }}
+            className="mb-4"
+          >
+            <label htmlFor="reader-verse-pick" className="mb-1 block text-sm font-semibold text-dharma-text">Verse number</label>
+            <input
+              id="reader-verse-pick"
+              inputMode="numeric"
+              autoComplete="off"
+              value={pick}
+              onChange={(e) => setPick(e.target.value)}
+              placeholder={`1 – ${total}`}
+              className="min-h-[48px] w-full rounded-xl border border-dharma-border bg-dharma-bg px-3 text-base text-dharma-text outline-none focus:border-saffron-600 focus:ring-2 focus:ring-saffron-600/25"
+            />
+          </form>
+          <ul className="grid grid-cols-5 gap-2 sm:grid-cols-6" aria-label="Verses in this chapter">
+            {visibleVerses.map((v) => (
+              <li key={String(v.number)}>
+                <Link
+                  href={v.href}
+                  onClick={() => { close(); setPick(''); }}
+                  aria-current={String(v.number) === String(verse.number) ? 'true' : undefined}
+                  className={`focus-ring flex h-12 items-center justify-center rounded-xl border text-sm font-semibold transition ${String(v.number) === String(verse.number) ? 'border-saffron-700 bg-saffron-700 text-white' : 'border-dharma-border bg-dharma-bg text-dharma-text hover:border-saffron-500'}`}
+                >
+                  {v.number}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          {visibleVerses.length === 0 && <p className="mt-3 text-sm text-dharma-muted">No verse starts with “{pick}”.</p>}
+        </ReaderDialog>
+
+        <ReaderDialog
+          open={dialog === 'note'}
+          onClose={close}
+          title="Private note"
+          titleHi="निजी टिप्पणी"
+          icon={<StickyNote className="h-5 w-5 text-saffron-700" aria-hidden="true" />}
+          footer={
+            <div className="flex justify-end gap-2">
+              <button type="button" onClick={close} className="focus-ring min-h-[44px] rounded-xl px-4 text-sm font-semibold text-dharma-muted hover:text-dharma-text">Cancel</button>
+              <button type="button" onClick={saveNote} className="focus-ring min-h-[44px] rounded-xl bg-saffron-700 px-5 text-sm font-semibold text-white hover:bg-saffron-800">Save note</button>
+            </div>
+          }
+        >
+          <label htmlFor="reader-note" className="mb-2 block text-sm text-dharma-muted">
+            About {label}. Saved only in this browser; clear the text and save to remove it.
+          </label>
+          <textarea
+            id="reader-note"
+            value={draft}
+            maxLength={2000}
+            rows={7}
+            onChange={(e) => setDraft(e.target.value)}
+            className="w-full resize-y rounded-xl border border-dharma-border bg-dharma-bg p-3 text-base text-dharma-text outline-none focus:border-saffron-600 focus:ring-2 focus:ring-saffron-600/25"
+          />
+        </ReaderDialog>
+
+        <ReaderDialog open={dialog === 'report'} onClose={close} title="Report a textual error" titleHi="पाठ-त्रुटि" icon={<Flag className="h-5 w-5 text-rose-700" aria-hidden="true" />}>
+          <p className="mb-4 text-sm text-dharma-muted">
+            Describe what is wrong in {label}. This opens a prefilled issue on GitHub; nothing is sent until you press “Create issue” there, and this site stores nothing.
+          </p>
+          <label htmlFor="reader-report-kind" className="mb-1 block text-sm font-semibold text-dharma-text">What kind of error?</label>
+          <select id="reader-report-kind" value={kind} onChange={(e) => setKind(e.target.value as ReportKind)} className="mb-4 min-h-[48px] w-full rounded-xl border border-dharma-border bg-dharma-bg px-3 text-base text-dharma-text">
+            {REPORT_KINDS.map((k) => (
+              <option key={k.id} value={k.id}>{k.label}</option>
+            ))}
+          </select>
+          <label htmlFor="reader-report-details" className="mb-1 block text-sm font-semibold text-dharma-text">What is wrong, and what should it be?</label>
+          <textarea id="reader-report-details" value={details} rows={5} onChange={(e) => setDetails(e.target.value)} className="mb-4 w-full resize-y rounded-xl border border-dharma-border bg-dharma-bg p-3 text-base text-dharma-text outline-none focus:border-saffron-600 focus:ring-2 focus:ring-saffron-600/25" />
+          <a href={issueUrl} target="_blank" rel="noopener noreferrer" onClick={close} className="focus-ring inline-flex min-h-[48px] w-full items-center justify-center rounded-xl bg-saffron-700 px-5 text-sm font-semibold text-white hover:bg-saffron-800">
+            Open prefilled GitHub issue
+          </a>
+        </ReaderDialog>
+      </div>
+    </MotionConfig>
+  );
+}

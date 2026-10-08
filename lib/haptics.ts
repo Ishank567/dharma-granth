@@ -9,11 +9,12 @@
  *   simulating tactile bead clicks, soft switches, sacred singing bowl resonance, and temple chimes.
  */
 
-export type HapticPattern = 'light' | 'medium' | 'heavy' | 'success' | 'malaBead' | 'celestial';
+export type HapticPattern = 'light' | 'medium' | 'heavy' | 'success' | 'malaBead' | 'celestial' | 'selection';
 export type SoundEffect = 'click' | 'softTap' | 'success' | 'malaBead' | 'templeChime' | 'omBowl';
 
 const HAPTIC_PATTERNS: Record<HapticPattern, number | number[]> = {
   light: 8,
+  selection: 6,
   medium: 16,
   heavy: 28,
   success: [10, 35, 18],

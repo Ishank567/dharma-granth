@@ -11,6 +11,10 @@ export function toDevanagari(value: number | string): string {
   return String(value).replace(/[0-9]/g, (d) => DEVANAGARI_DIGITS[Number(d)]);
 }
 
+export function toAsciiDigits(value: number | string): string {
+  return String(value).replace(/[०-९]/g, (d) => String(DEVANAGARI_DIGITS.indexOf(d)));
+}
+
 /**
  * Split a verse into its pādas for line-by-line setting. Source text is
  * either newline-separated or uses | / । as half-verse markers. Any trailing

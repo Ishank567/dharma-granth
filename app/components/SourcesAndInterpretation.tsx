@@ -1,0 +1,547 @@
+'use client';
+
+import { useState } from 'react';
+import {
+  BookOpen,
+  ScrollText,
+  FileCheck2,
+  History,
+  AlertCircle,
+  Flag,
+  ExternalLink,
+  ChevronDown,
+  ChevronUp,
+  X,
+  Send,
+  Layers,
+  Scale,
+  Sparkles,
+  Info,
+} from 'lucide-react';
+import { CONTENT_LABELS, type ContentLabelKey } from '@/lib/content-labels';
+import {
+  getScriptureSourceMeta,
+  type ScriptureSourceMeta,
+  type SourceCorrectionEntry,
+} from '@/data/sources-registry';
+import { triggerHaptic } from '@/lib/haptics';
+
+export interface SourcesAndInterpretationProps {
+  scriptureId: string;
+  scriptureTitle: string;
+  scriptureTitleSanskrit?: string;
+  chapterId?: number | string;
+  verseId?: number | string;
+  /** Custom edition or reviewer overrides if available from page data */
+  editionOverride?: string;
+  sourceUrlOverride?: string;
+  className?: string;
+}
+
+export function SourcesAndInterpretation({
+  scriptureId,
+  scriptureTitle,
+  scriptureTitleSanskrit,
+  chapterId,
+  verseId,
+  editionOverride,
+  sourceUrlOverride,
+  className = '',
+}: SourcesAndInterpretationProps) {
+  const meta: ScriptureSourceMeta = getScriptureSourceMeta(
+    scriptureId,
+    scriptureTitle,
+    scriptureTitleSanskrit,
+  );
+
+  // Active tab on desktop
+  const [activeTab, setActiveTab] = useState<'editions' | 'commentary' | 'corrections'>('editions');
+
+  // Accordion open states on mobile
+  const [openAccordion, setOpenAccordion] = useState<string | null>('editions');
+
+  // Report correction modal state
+  const [reportModalOpen, setReportModalOpen] = useState(false);
+  const [reportCategory, setReportCategory] = useState<'typo' | 'numbering' | 'sandhi' | 'attribution'>('typo');
+  const [reportDetails, setReportDetails] = useState('');
+  const [reportSubmitted, setReportSubmitted] = useState(false);
+
+  const identifier = verseId
+    ? `${scriptureTitle} ${chapterId ? `Ch. ${chapterId}, ` : ''}Verse ${verseId}`
+    : chapterId
+      ? `${scriptureTitle} — Chapter ${chapterId}`
+      : scriptureTitle;
+
+  function handleReportSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    triggerHaptic('success');
+    setReportSubmitted(true);
+    setTimeout(() => {
+      setReportSubmitted(false);
+      setReportModalOpen(false);
+      setReportDetails('');
+    }, 2200);
+  }
+
+  function toggleAccordion(key: string) {
+    triggerHaptic('light');
+    setOpenAccordion(openAccordion === key ? null : key);
+  }
+
+  const labelKeys: ContentLabelKey[] = [
+    'mula',
+    'literal',
+    'commentary',
+    'explanation',
+    'reflection',
+    'research',
+  ];
+
+  return (
+    <section
+      aria-labelledby="sources-interpretation-heading"
+      className={`rounded-2xl border border-dharma-border bg-dharma-card p-5 sm:p-7 shadow-sm space-y-6 ${className}`}
+    >
+      {/* ── Section Header ── */}
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-dharma-border/70 pb-4">
+        <div>
+          <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-dharma-muted">
+            <Scale className="w-3.5 h-3.5 text-saffron-600" />
+            <span>शास्त्रीय प्रामाणिकता एवं पारदर्शकता</span>
+            <span aria-hidden="true">·</span>
+            <span>Sources & Interpretation</span>
+          </div>
+          <h2 id="sources-interpretation-heading" className="text-xl sm:text-2xl font-serif font-bold text-dharma-text mt-1">
+            स्रोत, संस्करण एवं व्याख्या वर्गीकरण
+          </h2>
+          <p className="text-xs sm:text-sm text-dharma-muted mt-1 max-w-2xl leading-relaxed">
+            धर्म ग्रंथ पर मूल शास्त्र, पारंपरिक भाष्य और आधुनिक व्याख्या को पूर्णतः पृथक रखा जाता है ताकि पाठक को किसी भी व्याख्या के शास्त्र होने का भ्रम न हो।
+          </p>
+        </div>
+
+        <button
+          type="button"
+          onClick={() => setReportModalOpen(true)}
+          className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl border border-saffron-300 dark:border-saffron-800 bg-saffron-50/70 dark:bg-saffron-950/30 text-xs font-semibold text-saffron-800 dark:text-saffron-300 hover:bg-saffron-100 transition shrink-0 self-start sm:self-center"
+        >
+          <Flag className="w-3.5 h-3.5" />
+          <span>त्रुटि रिपोर्ट करें · Report error</span>
+        </button>
+      </div>
+
+      {/* ── 1. Content Labels: 6 Epistemic Tiers Guide ── */}
+      <div className="space-y-3">
+        <div className="flex items-center justify-between">
+          <h3 className="text-xs font-bold uppercase tracking-wider text-dharma-muted flex items-center gap-1.5">
+            <Layers className="w-3.5 h-3.5 text-saffron-600" />
+            सामग्री वर्गीकरण संकेत (Epistemic Content Labels)
+          </h3>
+          <span className="text-[11px] text-dharma-muted">६ स्तरिय प्रमाण व्यवस्था</span>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2.5">
+          {labelKeys.map((key) => {
+            const item = CONTENT_LABELS[key];
+            return (
+              <div
+                key={key}
+                className="p-3 rounded-xl border border-dharma-border/80 bg-dharma-panel-muted/60 space-y-1.5 text-xs transition hover:border-saffron-300/50"
+              >
+                <div className="flex items-center justify-between">
+                  <span
+                    className={`inline-flex items-center rounded-full border px-2.5 py-0.5 text-[11px] font-bold ${item.visualBadgeClass}`}
+                  >
+                    <span lang="hi" className="font-devanagari">
+                      {item.labelHi}
+                    </span>
+                    <span aria-hidden="true" className="mx-1 opacity-50">
+                      ·
+                    </span>
+                    <span>{item.labelEn}</span>
+                  </span>
+                </div>
+                <p className="text-[11px] font-semibold text-dharma-text leading-snug">
+                  {item.tagline}
+                </p>
+                <p className="text-[11px] text-dharma-muted leading-relaxed line-clamp-2" title={item.description}>
+                  {item.description}
+                </p>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* ── 2. Desktop Tabbed Panel ── */}
+      <div className="hidden md:block pt-2">
+        {/* Navigation Tabs */}
+        <div className="flex border-b border-dharma-border gap-2" role="tablist">
+          <button
+            type="button"
+            role="tab"
+            aria-selected={activeTab === 'editions'}
+            onClick={() => setActiveTab('editions')}
+            className={`pb-2.5 px-3 text-xs font-bold border-b-2 transition flex items-center gap-1.5 ${
+              activeTab === 'editions'
+                ? 'border-saffron-600 text-saffron-700 dark:text-saffron-300'
+                : 'border-transparent text-dharma-muted hover:text-dharma-text'
+            }`}
+          >
+            <ScrollText className="w-3.5 h-3.5" />
+            <span>मूल पाठ एवं संस्करण (Sanskrit Edition)</span>
+          </button>
+
+          <button
+            type="button"
+            role="tab"
+            aria-selected={activeTab === 'commentary'}
+            onClick={() => setActiveTab('commentary')}
+            className={`pb-2.5 px-3 text-xs font-bold border-b-2 transition flex items-center gap-1.5 ${
+              activeTab === 'commentary'
+                ? 'border-saffron-600 text-saffron-700 dark:text-saffron-300'
+                : 'border-transparent text-dharma-muted hover:text-dharma-text'
+            }`}
+          >
+            <BookOpen className="w-3.5 h-3.5" />
+            <span>अनुवाद एवं भाष्यकार (Translators & Acharyas)</span>
+          </button>
+
+          <button
+            type="button"
+            role="tab"
+            aria-selected={activeTab === 'corrections'}
+            onClick={() => setActiveTab('corrections')}
+            className={`pb-2.5 px-3 text-xs font-bold border-b-2 transition flex items-center gap-1.5 ${
+              activeTab === 'corrections'
+                ? 'border-saffron-600 text-saffron-700 dark:text-saffron-300'
+                : 'border-transparent text-dharma-muted hover:text-dharma-text'
+            }`}
+          >
+            <History className="w-3.5 h-3.5" />
+            <span>पाठ-भेद एवं संशोधन (Variants & History)</span>
+          </button>
+        </div>
+
+        {/* Tab Content 1: Editions */}
+        {activeTab === 'editions' && (
+          <div className="pt-4 grid grid-cols-2 gap-4 text-xs">
+            <div className="p-3.5 rounded-xl border border-dharma-border/60 bg-dharma-panel-muted/40 space-y-1">
+              <span className="font-semibold text-dharma-muted">पहचानकर्ता · Identifier:</span>
+              <p className="text-sm font-bold text-dharma-text">{identifier}</p>
+              <p className="text-xs text-dharma-muted font-devanagari">
+                {meta.sourceScriptureTitleSanskrit}
+              </p>
+            </div>
+
+            <div className="p-3.5 rounded-xl border border-dharma-border/60 bg-dharma-panel-muted/40 space-y-1">
+              <span className="font-semibold text-dharma-muted">संस्कृत संस्करण · Sanskrit Edition:</span>
+              <p className="text-sm font-bold text-dharma-text">
+                {editionOverride || meta.sanskritEdition}
+              </p>
+              <p className="text-xs text-dharma-muted">{meta.sanskritEditionDetails}</p>
+            </div>
+
+            <div className="p-3.5 rounded-xl border border-dharma-border/60 bg-dharma-panel-muted/40 space-y-1">
+              <span className="font-semibold text-dharma-muted">प्रकाशक अथवा पुरालेखागार · Archive:</span>
+              <p className="text-sm font-bold text-dharma-text">{meta.publisherArchive}</p>
+              {(sourceUrlOverride || meta.archiveUrl) && (
+                <a
+                  href={sourceUrlOverride || meta.archiveUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 text-saffron-700 dark:text-saffron-300 hover:underline pt-0.5"
+                >
+                  <span>डिजिटल पुरालेख देखें</span>
+                  <ExternalLink className="w-3 h-3" />
+                </a>
+              )}
+            </div>
+
+            <div className="p-3.5 rounded-xl border border-dharma-border/60 bg-dharma-panel-muted/40 space-y-1">
+              <span className="font-semibold text-dharma-muted">गणना पद्धति टिप्पणी · Numbering System:</span>
+              <p className="text-xs text-dharma-text leading-relaxed">{meta.numberingSystemNote}</p>
+            </div>
+          </div>
+        )}
+
+        {/* Tab Content 2: Translators & Acharyas */}
+        {activeTab === 'commentary' && (
+          <div className="pt-4 grid grid-cols-2 gap-4 text-xs">
+            <div className="p-3.5 rounded-xl border border-dharma-border/60 bg-dharma-panel-muted/40 space-y-1">
+              <span className="font-semibold text-dharma-muted">अनुवादक · Translators:</span>
+              <p className="text-sm font-bold text-dharma-text">{meta.primaryTranslator}</p>
+              <p className="text-xs text-dharma-muted">
+                प्रत्यक्ष शब्दार्थ एवं व्याकरणसम्मत अन्वय पर आधारित।
+              </p>
+            </div>
+
+            <div className="p-3.5 rounded-xl border border-dharma-border/60 bg-dharma-panel-muted/40 space-y-1">
+              <span className="font-semibold text-dharma-muted">पारंपरिक भाष्यकार · Classical Commentators:</span>
+              <p className="text-sm font-bold text-dharma-text">{meta.traditionalCommentaryAuthor}</p>
+              <p className="text-xs text-dharma-muted">
+                प्राचीन आचार्य परंपरा के प्रामाणिक दार्शनिक भाष्य।
+              </p>
+            </div>
+
+            <div className="p-3.5 rounded-xl border border-dharma-border/60 bg-dharma-panel-muted/40 space-y-1">
+              <span className="font-semibold text-dharma-muted">संपादकीय समीक्षक · Editorial Reviewer:</span>
+              <p className="text-sm font-bold text-dharma-text">{meta.editorialReviewer}</p>
+            </div>
+
+            <div className="p-3.5 rounded-xl border border-dharma-border/60 bg-dharma-panel-muted/40 space-y-1">
+              <span className="font-semibold text-dharma-muted">अंतिम समीक्षा तिथि · Date Reviewed:</span>
+              <p className="text-sm font-bold text-dharma-text">{meta.dateReviewed}</p>
+              <p className="text-xs text-dharma-muted">नियमित रूप से पाठ्य अशुद्धियों की समीक्षा की जाती है।</p>
+            </div>
+          </div>
+        )}
+
+        {/* Tab Content 3: Variants & Corrections */}
+        {activeTab === 'corrections' && (
+          <div className="pt-4 space-y-4 text-xs">
+            <div className="p-3.5 rounded-xl border border-amber-200/60 dark:border-amber-900/40 bg-amber-50/40 dark:bg-amber-950/20 space-y-1">
+              <span className="font-bold text-amber-900 dark:text-amber-200 flex items-center gap-1.5">
+                <Info className="w-3.5 h-3.5 text-amber-700" />
+                पाठ-भेद टिप्पणी (Alternative Reading / Variant Notes):
+              </span>
+              <p className="text-dharma-text leading-relaxed mt-0.5">{meta.alternativeReadingNote}</p>
+            </div>
+
+            <div className="space-y-2">
+              <span className="font-bold text-dharma-muted uppercase tracking-wider text-[11px]">
+                संशोधन इतिहास · Correction History:
+              </span>
+              <div className="space-y-2">
+                {meta.correctionHistory.map((entry: SourceCorrectionEntry, idx: number) => (
+                  <div
+                    key={idx}
+                    className="p-3 rounded-xl border border-dharma-border/60 bg-dharma-panel-muted/40 flex items-start justify-between gap-3"
+                  >
+                    <div className="space-y-0.5">
+                      <div className="flex items-center gap-2">
+                        <span className="px-2 py-0.5 rounded-md bg-stone-200 dark:bg-stone-800 text-[10px] font-bold">
+                          {entry.version}
+                        </span>
+                        <span className="text-dharma-muted text-[11px]">{entry.date}</span>
+                      </div>
+                      <p className="text-dharma-text font-devanagari">{entry.noteHi}</p>
+                      <p className="text-dharma-muted text-[11px]">{entry.note}</p>
+                    </div>
+                    <FileCheck2 className="w-4 h-4 text-emerald-600 shrink-0 mt-1" />
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
+
+      {/* ── 3. Mobile Accessible Accordions (One-handed usability) ── */}
+      <div className="block md:hidden space-y-2 text-xs">
+        {/* Accordion 1: Editions */}
+        <div className="rounded-xl border border-dharma-border overflow-hidden">
+          <button
+            type="button"
+            onClick={() => toggleAccordion('editions')}
+            aria-expanded={openAccordion === 'editions'}
+            className="w-full flex items-center justify-between p-3.5 min-h-[44px] bg-dharma-panel-muted/70 text-left font-bold text-dharma-text"
+          >
+            <span className="flex items-center gap-2">
+              <ScrollText className="w-4 h-4 text-saffron-600" />
+              <span>मूल पाठ एवं संस्करण · Edition Details</span>
+            </span>
+            {openAccordion === 'editions' ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
+          </button>
+          {openAccordion === 'editions' && (
+            <div className="p-3.5 space-y-3 border-t border-dharma-border bg-dharma-card">
+              <div>
+                <span className="text-dharma-muted block text-[11px]">पहचानकर्ता:</span>
+                <span className="font-bold text-dharma-text">{identifier}</span>
+              </div>
+              <div>
+                <span className="text-dharma-muted block text-[11px]">संस्कृत संस्करण:</span>
+                <span className="font-bold text-dharma-text">{editionOverride || meta.sanskritEdition}</span>
+                <p className="text-dharma-muted text-[11px] mt-0.5">{meta.sanskritEditionDetails}</p>
+              </div>
+              <div>
+                <span className="text-dharma-muted block text-[11px]">पुरालेखागार / स्रोत:</span>
+                <span className="font-bold text-dharma-text">{meta.publisherArchive}</span>
+              </div>
+              <div>
+                <span className="text-dharma-muted block text-[11px]">गणना पद्धति:</span>
+                <p className="text-dharma-text text-[11px]">{meta.numberingSystemNote}</p>
+              </div>
+            </div>
+          )}
+        </div>
+
+        {/* Accordion 2: Translators & Acharyas */}
+        <div className="rounded-xl border border-dharma-border overflow-hidden">
+          <button
+            type="button"
+            onClick={() => toggleAccordion('commentary')}
+            aria-expanded={openAccordion === 'commentary'}
+            className="w-full flex items-center justify-between p-3.5 min-h-[44px] bg-dharma-panel-muted/70 text-left font-bold text-dharma-text"
+          >
+            <span className="flex items-center gap-2">
+              <BookOpen className="w-4 h-4 text-saffron-600" />
+              <span>अनुवादक एवं भाष्यकार · Acharyas</span>
+            </span>
+            {openAccordion === 'commentary' ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
+          </button>
+          {openAccordion === 'commentary' && (
+            <div className="p-3.5 space-y-3 border-t border-dharma-border bg-dharma-card">
+              <div>
+                <span className="text-dharma-muted block text-[11px]">अनुवादक:</span>
+                <span className="font-bold text-dharma-text">{meta.primaryTranslator}</span>
+              </div>
+              <div>
+                <span className="text-dharma-muted block text-[11px]">पारंपरिक भाष्यकार:</span>
+                <span className="font-bold text-dharma-text">{meta.traditionalCommentaryAuthor}</span>
+              </div>
+              <div>
+                <span className="text-dharma-muted block text-[11px]">संपादकीय समीक्षक:</span>
+                <span className="text-dharma-text">{meta.editorialReviewer}</span>
+              </div>
+              <div>
+                <span className="text-dharma-muted block text-[11px]">समीक्षा तिथि:</span>
+                <span className="text-dharma-text">{meta.dateReviewed}</span>
+              </div>
+            </div>
+          )}
+        </div>
+
+        {/* Accordion 3: Variants & History */}
+        <div className="rounded-xl border border-dharma-border overflow-hidden">
+          <button
+            type="button"
+            onClick={() => toggleAccordion('corrections')}
+            aria-expanded={openAccordion === 'corrections'}
+            className="w-full flex items-center justify-between p-3.5 min-h-[44px] bg-dharma-panel-muted/70 text-left font-bold text-dharma-text"
+          >
+            <span className="flex items-center gap-2">
+              <History className="w-4 h-4 text-saffron-600" />
+              <span>पाठ-भेद एवं संशोधन · Variants & History</span>
+            </span>
+            {openAccordion === 'corrections' ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
+          </button>
+          {openAccordion === 'corrections' && (
+            <div className="p-3.5 space-y-3 border-t border-dharma-border bg-dharma-card">
+              <div className="p-2.5 rounded-lg bg-amber-50/60 dark:bg-amber-950/20 border border-amber-200/50">
+                <span className="font-bold text-amber-900 dark:text-amber-200 block text-[11px]">पाठ-भेद टिप्पणी:</span>
+                <p className="text-dharma-text text-[11px] mt-0.5">{meta.alternativeReadingNote}</p>
+              </div>
+
+              <div className="space-y-2">
+                <span className="font-bold text-dharma-muted text-[11px] block">संशोधन इतिहास:</span>
+                {meta.correctionHistory.map((entry, idx) => (
+                  <div key={idx} className="p-2 rounded border border-dharma-border/60 text-[11px]">
+                    <div className="flex items-center justify-between text-dharma-muted">
+                      <span className="font-bold">{entry.version}</span>
+                      <span>{entry.date}</span>
+                    </div>
+                    <p className="text-dharma-text font-devanagari mt-0.5">{entry.noteHi}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* ── 4. Report Correction Accessible Modal ── */}
+      {reportModalOpen && (
+        <div
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="report-modal-title"
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 backdrop-blur-xs"
+        >
+          <div className="relative w-full max-w-lg rounded-2xl border border-dharma-border bg-dharma-card p-5 sm:p-6 shadow-2xl space-y-4">
+            <div className="flex items-center justify-between border-b border-dharma-border pb-3">
+              <div className="flex items-center gap-2">
+                <Flag className="w-4 h-4 text-saffron-600" />
+                <h3 id="report-modal-title" className="text-base font-bold text-dharma-text font-serif">
+                  पाठ्य अशुद्धि रिपोर्ट करें · Report Textual Correction
+                </h3>
+              </div>
+              <button
+                type="button"
+                onClick={() => setReportModalOpen(false)}
+                className="p-1 rounded-lg text-dharma-muted hover:text-dharma-text"
+                aria-label="Close dialog"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+
+            <p className="text-xs text-dharma-muted">
+              संदर्भ: <strong className="text-dharma-text">{identifier}</strong>
+            </p>
+
+            {reportSubmitted ? (
+              <div className="py-6 text-center space-y-2">
+                <FileCheck2 className="w-10 h-10 text-emerald-600 mx-auto" />
+                <h4 className="text-sm font-bold text-dharma-text">सुझाव प्राप्त हुआ · Thank you</h4>
+                <p className="text-xs text-dharma-muted">
+                  आपका संशोधन सुझाव धार्मिक पाठ्य समीक्षा मंडल को प्रेषित कर दिया गया है।
+                </p>
+              </div>
+            ) : (
+              <form onSubmit={handleReportSubmit} className="space-y-3.5 text-xs">
+                <div>
+                  <label htmlFor="correction-category-select" className="font-semibold text-dharma-text block mb-1">
+                    अशुद्धि का प्रकार (Category):
+                  </label>
+                  <select
+                    id="correction-category-select"
+                    value={reportCategory}
+                    onChange={(e) => setReportCategory(e.target.value as any)}
+                    className="w-full px-3 py-2 rounded-xl border border-dharma-border bg-dharma-panel-muted text-dharma-text font-medium outline-none focus:border-saffron-500"
+                  >
+                    <option value="typo">वर्तनी अथवा मात्रा अशुद्धि (Spelling / Diacritic typo)</option>
+                    <option value="numbering">श्लोक संख्या अथवा अध्याय क्रम (Verse numbering error)</option>
+                    <option value="sandhi">संधि विच्छेद अथवा पदच्छेद त्रुटि (Sandhi / Pada-split error)</option>
+                    <option value="attribution">भाष्य अथवा आचार्य संदर्भ त्रुटि (Commentary attribution error)</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label htmlFor="correction-details-textarea" className="font-semibold text-dharma-text block mb-1">
+                    विवरण एवं सही पाठ (Details & Suggested Correction):
+                  </label>
+                  <textarea
+                    id="correction-details-textarea"
+                    rows={4}
+                    required
+                    value={reportDetails}
+                    onChange={(e) => setReportDetails(e.target.value)}
+                    placeholder="कृपया बताएं कि कौन सा शब्द अशुद्ध है और किस प्रामाणिक संस्करण के अनुसार क्या होना चाहिए..."
+                    className="w-full px-3 py-2 rounded-xl border border-dharma-border bg-dharma-panel-muted text-dharma-text font-devanagari outline-none focus:border-saffron-500"
+                  />
+                </div>
+
+                <div className="flex justify-end gap-2 pt-2 border-t border-dharma-border">
+                  <button
+                    type="button"
+                    onClick={() => setReportModalOpen(false)}
+                    className="px-4 py-2 rounded-xl border border-dharma-border text-dharma-muted hover:text-dharma-text"
+                  >
+                    रद्द करें · Cancel
+                  </button>
+                  <button
+                    type="submit"
+                    className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-saffron-600 text-white font-bold hover:bg-saffron-700 transition"
+                  >
+                    <Send className="w-3.5 h-3.5" />
+                    <span>भेजें · Submit</span>
+                  </button>
+                </div>
+              </form>
+            )}
+          </div>
+        </div>
+      )}
+    </section>
+  );
+}

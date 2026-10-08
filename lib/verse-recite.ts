@@ -58,8 +58,10 @@ export interface RecitationState {
 /**
  * Split a verse into its pādas for line-by-line setting and recitation.
  */
-export function splitVerseLines(sanskrit: string): string[] {
+export function splitVerseLines(sanskrit?: string): string[] {
+  if (!sanskrit || typeof sanskrit !== 'string') return [];
   const cleaned = sanskrit.replace(/[\s|।॥0-9०-९.]+$/, '').trim();
+  if (!cleaned) return [];
   const byNewline = cleaned.split(/\n+/).map((l) => l.trim()).filter(Boolean);
   if (byNewline.length > 1) return byNewline;
 
@@ -90,13 +92,15 @@ export function splitVerseLines(sanskrit: string): string[] {
  * - Converts dandas into natural breathing pauses (, or .)
  * - Normalizes whitespace and removes trailing verse numbers
  */
-function cleanSanskritForSpeech(sanskrit: string): string {
+function cleanSanskritForSpeech(sanskrit?: string): string {
+  if (!sanskrit || typeof sanskrit !== 'string') return '';
   return sanskrit
     .replace(/[॥।]\s*[\d०-९\-\:\.]+\s*[॥।]/g, '।')
     .replace(/\|\s*[\d\-\:\.]+\s*\|/g, ',')
     .replace(/[\d०-९]+$/gm, '')
     .replace(/॥+/g, '। ')
     .replace(/।+/g, ', ')
+    .replace(/ऽ+/g, '') // Normalize avagraha for smooth TTS phonetic glide
     .replace(/\s+/g, ' ')
     .trim();
 }
@@ -106,7 +110,8 @@ function cleanSanskritForSpeech(sanskrit: string): string {
  * - Strips footnotes, citations, and brackets like [1], (1)
  * - Normalizes quotes and spacing
  */
-function cleanMeaningForSpeech(text: string): string {
+function cleanMeaningForSpeech(text?: string): string {
+  if (!text || typeof text !== 'string') return '';
   return text
     .replace(/\[\d+\]|\(\d+\)/g, '')
     .replace(/\s+/g, ' ')
@@ -200,8 +205,9 @@ function pickIndianVoice(
   const normalized = (v: SpeechSynthesisVoice) => v.lang.replace('_', '-').toLowerCase();
   return (
     voices.find((v) => normalized(v) === lang.toLowerCase()) ??
-    voices.find((v) => normalized(v).startsWith(`${base}-`) || normalized(v) === base) ??
-    voices.find((v) => /india|hindi|हिन्दी/i.test(v.name))
+    voices.find((v) => normalized(v).startsWith(`${base}-in`) || normalized(v).startsWith(`${base}_in`)) ??
+    voices.find((v) => /india|hindi|हिन्दी|kalpana|hemant|lekha|neerja|prabhat|ravi|heera/i.test(v.name)) ??
+    voices.find((v) => normalized(v).startsWith(`${base}-`) || normalized(v) === base)
   );
 }
 
@@ -211,11 +217,37 @@ const listeners = new Set<RecitationListener>();
 const configListeners = new Set<() => void>();
 
 let configuredSpeed = 1.0;
+let configuredVolume = 1.0;
 let configuredLoop = false;
 let configuredLoopTarget = 0; // 0 = infinite (unlimited)
 let configuredOnlySanskrit = false;
 
 export const MALA_LOOP_TARGETS = [0, 11, 21, 108] as const;
+
+export function getRecitationVolume(): number {
+  if (typeof window !== 'undefined') {
+    try {
+      const val = parseFloat(localStorage.getItem('dharma_recite_volume') || '');
+      if (!Number.isNaN(val) && val >= 0.0 && val <= 1.0) return val;
+    } catch {}
+  }
+  return configuredVolume;
+}
+
+export function setRecitationVolume(volume: number) {
+  const clamped = Math.min(1.0, Math.max(0.0, volume));
+  configuredVolume = clamped;
+  if (typeof window !== 'undefined') {
+    try {
+      localStorage.setItem('dharma_recite_volume', String(clamped));
+    } catch {}
+  }
+  configListeners.forEach((fn) => {
+    try {
+      fn();
+    } catch {}
+  });
+}
 
 export function getRecitationSpeed(): number {
   if (typeof window !== 'undefined') {
@@ -434,6 +466,30 @@ function notifyRecitation(
 
 let userStoppedManually = false;
 let loopTimeoutId: ReturnType<typeof setTimeout> | null = null;
+let watchdogInterval: ReturnType<typeof setInterval> | null = null;
+
+function startWatchdog() {
+  stopWatchdog();
+  if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
+  // Chrome stall watchdog: long utterances or background tabs freeze after ~14 seconds.
+  // Pinging pause/resume keeps the audio pipeline running.
+  watchdogInterval = setInterval(() => {
+    try {
+      const synth = window.speechSynthesis;
+      if (synth.speaking && !synth.paused) {
+        synth.pause();
+        synth.resume();
+      }
+    } catch {}
+  }, 9500);
+}
+
+function stopWatchdog() {
+  if (watchdogInterval) {
+    clearInterval(watchdogInterval);
+    watchdogInterval = null;
+  }
+}
 
 export function toggleRecitationLoop(): boolean {
   const nextLoop = !getRecitationLoop();
@@ -454,6 +510,7 @@ export function toggleRecitationLoop(): boolean {
 
 export function pauseRecitation() {
   if (!speechSupported()) return;
+  stopWatchdog();
   const synth = window.speechSynthesis;
   if (synth.speaking && !synth.paused) {
     synth.pause();
@@ -474,6 +531,7 @@ export function resumeRecitation() {
   const synth = window.speechSynthesis;
   if (synth.paused) {
     synth.resume();
+    startWatchdog();
     notifyRecitation(
       currentState.activeKey,
       currentState.lineIndex,
@@ -484,7 +542,7 @@ export function resumeRecitation() {
       false, // isPaused
     );
   } else if (currentVerse && currentState.activeKey) {
-    // If not paused in synth (e.g. timeout on Chrome), re-recite
+    // If not paused in synth (e.g. timeout on Chrome or dropped utterance), restart cleanly
     reciteVerse(currentVerse, currentOnFinish, currentOptions);
   }
 }
@@ -510,6 +568,7 @@ export function reciteVerse(
     clearTimeout(loopTimeoutId);
     loopTimeoutId = null;
   }
+  stopWatchdog();
   const verseKey = verse.sanskrit || verse.hindi || verse.translation || '';
   userStoppedManually = false;
 
@@ -528,12 +587,15 @@ export function reciteVerse(
   }
 
   const synth = window.speechSynthesis;
-  synth.cancel();
+  try {
+    synth.cancel();
+  } catch {}
 
   const speed = options?.speed ?? getRecitationSpeed();
   const loop = options?.loop ?? getRecitationLoop();
   const loopTarget = options?.loopTarget ?? getRecitationLoopTarget();
   const onlySanskrit = options?.onlySanskrit ?? getRecitationOnlySanskrit();
+  const volume = getRecitationVolume();
 
   const queue = utterancesFor(verse, speed, onlySanskrit);
   const totalLines = queue.length;
@@ -549,6 +611,7 @@ export function reciteVerse(
   const finish = (natural: boolean) => {
     if (finished) return;
     finished = true;
+    stopWatchdog();
     if (loopTimeoutId) {
       clearTimeout(loopTimeoutId);
       loopTimeoutId = null;
@@ -610,10 +673,13 @@ export function reciteVerse(
       const u = new SpeechSynthesisUtterance(item.text);
       u.lang = item.lang;
       u.rate = item.rate;
+      u.volume = volume;
       const voice = pickIndianVoice(voices, item.lang);
       if (voice) u.voice = voice;
+
       u.onstart = () => {
         if (!userStoppedManually && !finished) {
+          startWatchdog();
           notifyRecitation(
             verseKey,
             item.lineIndex,
@@ -630,10 +696,20 @@ export function reciteVerse(
         }
       };
       u.onend = () => next(i + 1);
-      u.onerror = () => {
+      u.onerror = (e) => {
+        // Normal stop/cancel by user or skip fires 'canceled' or 'interrupted'
+        if (e?.error === 'canceled' || e?.error === 'interrupted') {
+          return;
+        }
         finish(false);
       };
-      synth.speak(u);
+
+      try {
+        synth.speak(u);
+      } catch (err) {
+        console.warn('Speech synthesis speak failed:', err);
+        finish(false);
+      }
     };
     next(0);
   });
@@ -641,6 +717,7 @@ export function reciteVerse(
 
 export function stopRecitation() {
   userStoppedManually = true;
+  stopWatchdog();
   if (loopTimeoutId) {
     clearTimeout(loopTimeoutId);
     loopTimeoutId = null;
@@ -651,7 +728,9 @@ export function stopRecitation() {
   currentOptions = undefined;
   currentOnFinish = undefined;
   if (speechSupported()) {
-    window.speechSynthesis.cancel();
+    try {
+      window.speechSynthesis.cancel();
+    } catch {}
     notifyRecitation(null, null, false);
   }
 }

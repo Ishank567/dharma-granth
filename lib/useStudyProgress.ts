@@ -119,15 +119,31 @@ export function useStudyProgress() {
   const [quizResults, setQuizResults] = useState<QuizResult[]>([]);
   const [hydrated, setHydrated] = useState(false);
 
-  // Hydrate from localStorage on mount.
+  // Hydrate from localStorage on mount & sync across open tabs.
   useEffect(() => {
-    setStreak(load(KEYS.streak, EMPTY_STREAK));
-    setNotes(load(KEYS.notes, []));
-    setHighlights(load(KEYS.highlights, []));
-    setCollections(load(KEYS.collections, []));
-    setPathwayProgress(load(KEYS.pathways, []));
-    setQuizResults(load(KEYS.quizzes, []));
-    setHydrated(true);
+    function syncAll() {
+      setStreak(load(KEYS.streak, EMPTY_STREAK));
+      setNotes(load(KEYS.notes, []));
+      setHighlights(load(KEYS.highlights, []));
+      setCollections(load(KEYS.collections, []));
+      setPathwayProgress(load(KEYS.pathways, []));
+      setQuizResults(load(KEYS.quizzes, []));
+      setHydrated(true);
+    }
+    syncAll();
+
+    function onStorage(e: StorageEvent) {
+      if (!e.key) return;
+      if (e.key === KEYS.streak) setStreak(load(KEYS.streak, EMPTY_STREAK));
+      else if (e.key === KEYS.notes) setNotes(load(KEYS.notes, []));
+      else if (e.key === KEYS.highlights) setHighlights(load(KEYS.highlights, []));
+      else if (e.key === KEYS.collections) setCollections(load(KEYS.collections, []));
+      else if (e.key === KEYS.pathways) setPathwayProgress(load(KEYS.pathways, []));
+      else if (e.key === KEYS.quizzes) setQuizResults(load(KEYS.quizzes, []));
+    }
+
+    window.addEventListener('storage', onStorage);
+    return () => window.removeEventListener('storage', onStorage);
   }, []);
 
   /* ── Streak ──────────────────────────────────────────────────────── */
