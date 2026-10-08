@@ -4,9 +4,9 @@ import type { Scripture, ScriptureCategory, ScriptureMeta } from "../types";
 import { scriptureCatalog } from "../scripture-meta";
 import { loadScripture } from "./lazy";
 
-export const SCRIPTURE_ALIASES: Record<string, string> = {
-  yogavasistha: 'yogavasishtha',
-};
+import { SCRIPTURE_ALIASES } from "../scripture-aliases";
+
+export { SCRIPTURE_ALIASES };
 
 export function resolveScriptureId(id: string): string {
   return SCRIPTURE_ALIASES[id] ?? id;
@@ -50,6 +50,13 @@ function getStats(): Stats {
   } catch {
     return { realVerseCount: 0, realChapterCount: 0, realScriptureCount: 0 };
   }
+}
+
+/** Chapters and verses actually present in the library (not the traditional totals). */
+export function getLibraryCounts(id: string): { chapters: number; verses: number } {
+  const canonical = resolveScriptureId(id);
+  const chapters = (getChapters()[canonical] ?? getChapters()[id] ?? []).filter((c) => c.verseCount > 0);
+  return { chapters: chapters.length, verses: chapters.reduce((n, c) => n + c.verseCount, 0) };
 }
 
 function hasVerseData(id: string): boolean {

@@ -2,12 +2,9 @@ import { existsSync, readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import type { Chapter, Scripture, Verse } from '../types';
 import { scriptureCatalog } from '../scripture-meta';
+import { SCRIPTURE_ALIASES } from '../scripture-aliases';
 
 const cache = new Map<string, Scripture>();
-
-const SCRIPTURE_ALIASES: Record<string, string> = {
-  yogavasistha: 'yogavasishtha',
-};
 
 interface JsonVerse {
   number: number | string;
