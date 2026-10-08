@@ -54,7 +54,7 @@ export default function DashboardPage() {
             Welcome back, seeker 🙏
           </h1>
           <p className="text-lg opacity-90 max-w-2xl">
-            Track your reading streaks, continue your learning pathways, and revisit your saved verses.
+            Continue your learning pathways and revisit your saved verses. Everything here stays in this browser.
           </p>
         </FadeUp>
       </div>
@@ -122,20 +122,20 @@ export default function DashboardPage() {
             <div className="rounded-2xl bg-gradient-to-br from-orange-50 to-amber-50 border border-saffron-200 p-5 shadow-sm">
               <div className="flex items-center gap-2 mb-2">
                 <Flame className="w-5 h-5 text-saffron-600" />
-                <span className="text-xs font-bold uppercase tracking-wider text-saffron-700">Streak</span>
+                <span className="text-xs font-bold uppercase tracking-wider text-saffron-700">Last read</span>
               </div>
-              <p className="text-3xl font-bold text-dharma-text">{streak.currentStreak}</p>
-              <p className="text-xs text-dharma-muted">days • best: {streak.longestStreak}</p>
+              <p className="text-xl font-bold text-dharma-text">{streak.lastReadDate ? new Date(streak.lastReadDate).toLocaleDateString() : 'Not yet'}</p>
+              <p className="text-xs text-dharma-muted">Return whenever you like</p>
             </div>
 
             {/* Total Days Read */}
             <div className="rounded-2xl bg-gradient-to-br from-emerald-50 to-green-50 border border-emerald-200 p-5 shadow-sm">
               <div className="flex items-center gap-2 mb-2">
                 <TrendingUp className="w-5 h-5 text-emerald-600" />
-                <span className="text-xs font-bold uppercase tracking-wider text-emerald-700">Total Days</span>
+                <span className="text-xs font-bold uppercase tracking-wider text-emerald-700">Days read</span>
               </div>
               <p className="text-3xl font-bold text-dharma-text">{streak.totalDaysRead}</p>
-              <p className="text-xs text-dharma-muted">days studied</p>
+              <p className="text-xs text-dharma-muted">days with some reading</p>
             </div>
 
             {/* Bookmarks */}
