@@ -1,11 +1,22 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
-import { CircleDot, RotateCcw, Minus, Sparkles, Volume2 } from 'lucide-react';
+import {
+  CircleDot,
+  RotateCcw,
+  Minus,
+  Volume2,
+  VolumeX,
+  Smartphone,
+  Eye,
+  AlertTriangle,
+  X,
+  Check,
+} from 'lucide-react';
 import { useLocalStorage } from '@/lib/useLocalStorage';
 import { ToolCard, localISODate } from './shared';
-import { triggerTactileFeedback } from '@/lib/haptics';
+import { triggerTactileFeedback, playSoundEffect, triggerHaptic } from '@/lib/haptics';
 
 interface JapaState {
   /** Local ISO day the count belongs to. */
@@ -26,17 +37,68 @@ const VISIBLE_BEADS = 27; // 1/4 quarter of mala visually rendered around perime
 
 /**
  * 3D Physical Japa Mala Counter with realistic Rudraksha bead physics,
- * tactile haptic vibrations, acoustic clicks, and celebratory temple bell chime.
+ * tactile haptic vibrations, acoustic clicks, screen wake-lock, and celebratory temple bell chime.
  */
 export function JapaCounter() {
   const [state, setState] = useLocalStorage<JapaState>('dharma.practice.japa', INITIAL);
+  const [vibrationEnabled, setVibrationEnabled] = useLocalStorage<boolean>(
+    'dharma.practice.japa.vibration',
+    true,
+  );
+  const [soundEnabled, setSoundEnabled] = useLocalStorage<boolean>(
+    'dharma.practice.japa.sound',
+    true,
+  );
+  const [wakeLockActive, setWakeLockActive] = useState(false);
+  const [wakeLockSupported, setWakeLockSupported] = useState(false);
+  const [confirmResetOpen, setConfirmResetOpen] = useState(false);
   const [celebration, setCelebration] = useState(false);
   const reduce = useReducedMotion();
+
+  const wakeLockRef = useRef<WakeLockSentinel | null>(null);
 
   const today = localISODate();
   const isToday = state.date === today;
   const count = isToday ? state.count : 0;
   const rounds = isToday ? state.rounds : 0;
+
+  // Detect and manage WakeLock API
+  useEffect(() => {
+    if (typeof window !== 'undefined' && 'wakeLock' in navigator) {
+      setWakeLockSupported(true);
+    }
+  }, []);
+
+  async function toggleWakeLock() {
+    if (!wakeLockSupported) return;
+    if (wakeLockActive && wakeLockRef.current) {
+      try {
+        await wakeLockRef.current.release();
+        wakeLockRef.current = null;
+        setWakeLockActive(false);
+      } catch {}
+    } else {
+      try {
+        const sentinel = await navigator.wakeLock.request('screen');
+        wakeLockRef.current = sentinel;
+        setWakeLockActive(true);
+        sentinel.addEventListener('release', () => {
+          setWakeLockActive(false);
+        });
+      } catch {
+        setWakeLockActive(false);
+      }
+    }
+  }
+
+  // Release wake lock on unmount
+  useEffect(() => {
+    return () => {
+      if (wakeLockRef.current) {
+        wakeLockRef.current.release().catch(() => {});
+      }
+    };
+  }, []);
 
   function tap() {
     setState((prev) => {
@@ -47,7 +109,8 @@ export function JapaCounter() {
 
       if (isComplete) {
         // Mala Completed! Celestial Chime + Celebratory vibration pattern
-        triggerTactileFeedback('celestial', 'templeChime');
+        if (soundEnabled) playSoundEffect('templeChime');
+        if (vibrationEnabled) triggerHaptic('celestial');
         setCelebration(true);
         setTimeout(() => setCelebration(false), 2400);
         return {
@@ -60,13 +123,15 @@ export function JapaCounter() {
       }
 
       // Standard bead tap: physical bead click + haptic bump
-      triggerTactileFeedback('malaBead', 'malaBead');
+      if (soundEnabled) playSoundEffect('malaBead');
+      if (vibrationEnabled) triggerHaptic('malaBead');
       return { ...prev, date: today, count: c + 1, rounds: r };
     });
   }
 
   function undo() {
-    triggerTactileFeedback('light', 'softTap');
+    if (vibrationEnabled) triggerHaptic('light');
+    if (soundEnabled) playSoundEffect('softTap');
     setState((prev) => {
       const isSameDay = prev.date === today;
       const c = isSameDay ? prev.count : 0;
@@ -84,8 +149,9 @@ export function JapaCounter() {
     });
   }
 
-  function resetToday() {
-    triggerTactileFeedback('heavy', 'click');
+  function executeResetToday() {
+    if (vibrationEnabled) triggerHaptic('heavy');
+    if (soundEnabled) playSoundEffect('click');
     setState((prev) => {
       const isSameDay = prev.date === today;
       const r = isSameDay ? prev.rounds : 0;
@@ -97,6 +163,7 @@ export function JapaCounter() {
         lifetimeRounds: Math.max(0, prev.lifetimeRounds - r),
       };
     });
+    setConfirmResetOpen(false);
   }
 
   const pct = Math.round((count / MALA) * 100);
@@ -110,6 +177,59 @@ export function JapaCounter() {
       accent="saffron"
     >
       <div className="flex flex-col items-center gap-5">
+        {/* Settings Bar: Vibration, Sound, Screen Wake */}
+        <div className="flex items-center justify-between w-full px-2 py-1 bg-dharma-panel-muted rounded-xl border border-dharma-border/60 text-xs">
+          <div className="flex items-center gap-2">
+            <button
+              type="button"
+              onClick={() => setSoundEnabled(!soundEnabled)}
+              className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-lg font-medium transition ${
+                soundEnabled
+                  ? 'bg-saffron-100 dark:bg-saffron-950/40 text-saffron-800 dark:text-saffron-300'
+                  : 'text-dharma-muted hover:text-dharma-text'
+              }`}
+              title={soundEnabled ? 'ध्वनि चालू · Sound on' : 'ध्वनि बंद · Sound muted'}
+              aria-label={soundEnabled ? 'Disable sound' : 'Enable sound'}
+            >
+              {soundEnabled ? <Volume2 className="w-3.5 h-3.5" /> : <VolumeX className="w-3.5 h-3.5" />}
+              <span>{soundEnabled ? 'ध्वनि' : 'मूक'}</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => setVibrationEnabled(!vibrationEnabled)}
+              className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-lg font-medium transition ${
+                vibrationEnabled
+                  ? 'bg-amber-100 dark:bg-amber-950/40 text-amber-800 dark:text-amber-300'
+                  : 'text-dharma-muted hover:text-dharma-text'
+              }`}
+              title={vibrationEnabled ? 'कंपन चालू · Vibration on' : 'कंपन बंद · Vibration off'}
+              aria-label={vibrationEnabled ? 'Disable vibration' : 'Enable vibration'}
+            >
+              <Smartphone className="w-3.5 h-3.5" />
+              <span>{vibrationEnabled ? 'कंपन' : 'स्थिर'}</span>
+            </button>
+          </div>
+
+          {wakeLockSupported && (
+            <button
+              type="button"
+              onClick={toggleWakeLock}
+              className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-lg font-medium transition ${
+                wakeLockActive
+                  ? 'bg-emerald-100 dark:bg-emerald-950/40 text-emerald-800 dark:text-emerald-300 border border-emerald-300/40'
+                  : 'text-dharma-muted hover:text-dharma-text'
+              }`}
+              title="स्क्रीन चालू रखें · Keep screen awake"
+              aria-label="Keep screen awake during japa"
+            >
+              <Eye className="w-3.5 h-3.5" />
+              <span>{wakeLockActive ? 'स्क्रीन जाग्रत' : 'स्क्रीन सामान्य'}</span>
+            </button>
+          )}
+        </div>
+
+        {/* Mantra Label input */}
         <input
           type="text"
           value={state.mantra}
@@ -179,7 +299,7 @@ export function JapaCounter() {
             onClick={tap}
             whileHover={reduce ? undefined : { scale: 1.04 }}
             whileTap={reduce ? undefined : { scale: 0.92, y: 3 }}
-            className="relative z-10 w-32 h-32 rounded-full text-white flex flex-col items-center justify-center select-none shadow-[0_12px_32px_rgba(194,65,12,0.45)] transition-all cursor-pointer"
+            className="relative z-10 w-32 h-32 rounded-full text-white flex flex-col items-center justify-center select-none shadow-[0_12px_32px_rgba(194,65,12,0.45)] transition-all cursor-pointer focus:outline-none focus:ring-4 focus:ring-saffron-500/30"
             style={{
               background: 'radial-gradient(circle at 35% 30%, #ea580c 0%, #c2410c 45%, #7c2d12 100%)',
               boxShadow: `
@@ -225,7 +345,7 @@ export function JapaCounter() {
         <div className="w-full space-y-1.5">
           <div className="flex justify-between text-xs text-dharma-muted">
             <span>प्रगति: {pct}%</span>
-            <span>{MALA - count} शेष</span>
+            <span>{MALA - count} शेष · remaining</span>
           </div>
           <div className="w-full h-2 rounded-full bg-dharma-border overflow-hidden p-0.5" aria-hidden>
             <motion.div
@@ -238,10 +358,10 @@ export function JapaCounter() {
         </div>
 
         {/* Stats Summary */}
-        <div className="flex items-center justify-between w-full text-xs text-dharma-muted px-2 py-1 bg-dharma-bg/60 rounded-xl border border-dharma-border/60">
+        <div className="flex items-center justify-between w-full text-xs text-dharma-muted px-3 py-2 bg-dharma-panel-muted rounded-xl border border-dharma-border/60">
           <span>
             आज: <strong className="text-dharma-text font-bold">{rounds}</strong> माला (
-            {rounds * MALA + count} जाप)
+            {rounds * MALA + count} जप)
           </span>
           <span>
             कुल: <strong className="text-dharma-text font-bold">{state.lifetimeRounds}</strong> माला
@@ -259,12 +379,48 @@ export function JapaCounter() {
           </button>
           <button
             type="button"
-            onClick={resetToday}
-            className="inline-flex items-center gap-1 px-3.5 py-1.5 rounded-full text-xs font-semibold border border-dharma-border text-dharma-muted hover:text-saffron-700 hover:border-saffron-300 transition active:scale-95"
+            onClick={() => setConfirmResetOpen(true)}
+            className="inline-flex items-center gap-1 px-3.5 py-1.5 rounded-full text-xs font-semibold border border-dharma-border text-dharma-muted hover:text-rose-700 hover:border-rose-300 transition active:scale-95"
           >
             <RotateCcw className="w-3.5 h-3.5" /> Reset today
           </button>
         </div>
+
+        {/* Reset Confirmation Dialog */}
+        <AnimatePresence>
+          {confirmResetOpen && (
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 10 }}
+              className="w-full rounded-xl border border-rose-300 dark:border-rose-900/50 bg-rose-50/90 dark:bg-rose-950/30 p-3.5 text-center space-y-2.5"
+            >
+              <div className="flex items-center justify-center gap-1.5 text-xs font-bold text-rose-800 dark:text-rose-200">
+                <AlertTriangle className="w-4 h-4 text-rose-600" />
+                <span>आज का जप रीसेट करें? · Reset today?</span>
+              </div>
+              <p className="text-xs text-rose-700/80 dark:text-rose-300/80">
+                आज के {rounds} माला और {count} जप शून्य हो जाएंगे।
+              </p>
+              <div className="flex justify-center gap-2 pt-1">
+                <button
+                  type="button"
+                  onClick={() => setConfirmResetOpen(false)}
+                  className="px-3 py-1 rounded-lg border border-dharma-border bg-white dark:bg-stone-900 text-xs font-medium text-dharma-text hover:bg-stone-50"
+                >
+                  रद्द करें · Cancel
+                </button>
+                <button
+                  type="button"
+                  onClick={executeResetToday}
+                  className="px-3 py-1 rounded-lg bg-rose-600 text-white text-xs font-bold hover:bg-rose-700 transition"
+                >
+                  हाँ, रीसेट करें · Confirm
+                </button>
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
       </div>
     </ToolCard>
   );

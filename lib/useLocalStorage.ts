@@ -19,6 +19,12 @@ export function useLocalStorage<T>(
   initial: T,
 ): [T, (value: T | ((prev: T) => T)) => void, () => void] {
   const [value, setValue] = useState<T>(initial);
+  // Callers routinely pass a literal (`[]`, `{}`) as the fallback, which is a
+  // new object every render. Keeping it in a ref, and out of the effect
+  // dependencies, stops the hydrate effect from re-running (and setting new
+  // state) after every render, an endless update loop.
+  const initialRef = useRef(initial);
+  initialRef.current = initial;
   // Gates the persist effect until the hydrated value has actually rendered.
   // A state flag (not a ref) is deliberate: within the mount commit the
   // persist effect runs right after the hydrate effect, and with a ref it
@@ -35,13 +41,13 @@ export function useLocalStorage<T>(
       if (raw !== null) {
         setValue(JSON.parse(raw) as T);
       } else {
-        setValue(initial);
+        setValue(initialRef.current);
       }
     } catch {
       // ignore parse / access errors
     }
     setHydrated(true);
-  }, [key, initial]);
+  }, [key]);
 
   // Persist on change (only after hydration, so the initial value can never
   // overwrite previously stored data).
@@ -83,8 +89,8 @@ export function useLocalStorage<T>(
     } catch {
       // ignore
     }
-    setValue(initial);
-  }, [key, initial]);
+    setValue(initialRef.current);
+  }, [key]);
 
   return [value, update, remove];
 }

@@ -24,6 +24,36 @@ export function dayOfYear(d: Date = new Date()): number {
   return Math.floor((d.getTime() - start.getTime()) / 86_400_000);
 }
 
+/** Offset an ISO date string (YYYY-MM-DD) by N days. */
+export function offsetISODate(isoDate: string, days: number): string {
+  const [y, m, d] = isoDate.split('-').map(Number);
+  const date = new Date(y, m - 1, d);
+  date.setDate(date.getDate() + days);
+  return localISODate(date);
+}
+
+const HINDI_MONTHS = [
+  'जनवरी', 'फ़रवरी', 'मार्च', 'अप्रैल', 'मई', 'जून',
+  'जुलाई', 'अगस्त', 'सितम्बर', 'अक्टूबर', 'नवम्बर', 'दिसम्बर'
+];
+
+/** Return gentle English and Hindi labels for a date. */
+export function formatDisplayDate(isoDate: string): { en: string; hi: string; isToday: boolean } {
+  const today = localISODate();
+  const [y, m, d] = isoDate.split('-').map(Number);
+  const dateObj = new Date(y, m - 1, d);
+  const isToday = isoDate === today;
+
+  const en = isToday
+    ? 'Today'
+    : dateObj.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+  const hi = isToday
+    ? 'आज'
+    : `${d} ${HINDI_MONTHS[m - 1]} ${y}`;
+
+  return { en, hi, isToday };
+}
+
 /** Consistent card shell so all practice tools read as one family. */
 export function ToolCard({
   icon,
