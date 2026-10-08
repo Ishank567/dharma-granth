@@ -124,7 +124,7 @@ export function PackClient() {
           <div className="mt-2 flex flex-wrap items-end gap-2">
             <button type="button" className={btn} disabled={saved.length === 0} onClick={() => add(saved)}>All saved verses ({saved.length})</button>
             {READING_JOURNEYS.map((j) => (
-              <button key={j.id} type="button" className={btn} onClick={() => add(j.lessons.map((l) => ({ scriptureId: l.scriptureId, chapter: l.chapter, verse: String(l.verse), label: `Bhagavad Gita ${l.chapter}.${l.verse}` })))}>Journey: {j.title}</button>
+              <button key={j.id} type="button" className={btn} onClick={() => add(j.lessons.map((l) => ({ scriptureId: l.scriptureId, chapter: l.chapter, verse: String(l.verse), label: `${l.scriptureId === 'bhagavadgita' ? 'Bhagavad Gita' : l.scriptureId.charAt(0).toUpperCase() + l.scriptureId.slice(1)} ${l.chapter}.${l.verse}` })))}>Journey: {j.title}</button>
             ))}
           </div>
           <form className="mt-3 flex flex-wrap items-end gap-2" onSubmit={(e) => { e.preventDefault(); const c = Number(manual.c); if (!/^[a-z0-9-]+$/.test(manual.s) || !c || !manual.v) return; add([{ scriptureId: manual.s, chapter: c, verse: manual.v, label: `${manual.s} ${c}.${manual.v}` }]); }}>
