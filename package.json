@@ -32,7 +32,7 @@
     "logo:build": "node scripts/build-logo.mjs",
     "report:quality": "tsx scripts/quality-report.ts",
     "check:journeys": "tsx scripts/check-journeys.ts",
-    "check": "tsx scripts/check-data.ts && tsx scripts/check-filler.ts && tsx scripts/check-commentary-quality.ts && tsx scripts/check-published-scriptures.ts",
+    "check": "tsx scripts/check-data.ts && tsx scripts/check-filler.ts && tsx scripts/check-wisdom.ts && tsx scripts/check-commentary-quality.ts && tsx scripts/check-published-scriptures.ts",
     "check:commentary": "tsx scripts/check-commentary-quality.ts",
     "strip:commentary-boilerplate": "tsx scripts/strip-commentary-boilerplate.ts",
     "generate:hi-analysis": "tsx scripts/generate-hi-analysis.ts && tsx scripts/generate-analysis-index.ts",

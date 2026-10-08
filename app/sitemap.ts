@@ -5,6 +5,7 @@ import { lastChanged, scriptureLastChanged } from '@/lib/content-dates';
 import { verseStaticParams } from '@/lib/verse-pages';
 import { chapterPartHref, chapterParts } from '@/lib/chapter-parts';
 import { topics } from '@/data/topics';
+import { wisdomTopics } from '@/data/wisdom-for-life';
 import { characters } from '@/data/characters';
 import { dictionary } from '@/data/dictionary';
 
@@ -44,23 +45,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
     entry('/scriptures', pageDate('/scriptures', 'data/scripture-meta.ts'), 'weekly', 0.95),
     entry('/learn', pageDate('/learn'), 'weekly', 0.9),
     entry('/learn/pathways', pageDate('/learn/pathways', 'data/pathways.ts'), 'weekly', 0.9),
+    entry('/wisdom-for-life', pageDate('/wisdom-for-life', 'data/wisdom-for-life.ts'), 'weekly', 0.9),
     entry('/concepts', pageDate('/concepts'), 'weekly', 0.85),
     entry('/topics', pageDate('/topics', 'data/topics.ts'), 'weekly', 0.85),
     entry('/characters', pageDate('/characters', 'data/characters.ts'), 'weekly', 0.85),
     entry('/locations', pageDate('/locations'), 'monthly', 0.8),
     entry('/festivals', pageDate('/festivals'), 'monthly', 0.8),
+    entry('/panchang', pageDate('/panchang'), 'weekly', 0.85),
     entry('/timelines', pageDate('/timelines'), 'monthly', 0.8),
     entry('/rituals', pageDate('/rituals'), 'monthly', 0.8),
     entry('/dictionary', pageDate('/dictionary', 'data/dictionary.ts'), 'monthly', 0.8),
     entry('/practice', pageDate('/practice'), 'monthly', 0.75),
-    entry('/collections', pageDate('/collections'), 'monthly', 0.75),
-  ];
-
     entry('/start', pageDate('/start'), 'monthly', 0.7),
     entry('/journeys', pageDate('/journeys', 'data/reading-journeys.ts'), 'monthly', 0.7),
     entry('/story', pageDate('/story'), 'monthly', 0.6),
     entry('/listen', pageDate('/listen'), 'monthly', 0.5),
+    entry('/collections', pageDate('/collections'), 'monthly', 0.75),
+  ];
+
   // 2. Individual Entity Pages
+  const wisdomDate = lastChanged('data/wisdom-for-life.ts', 'app/wisdom-for-life/[slug]/page.tsx');
+  const wisdomRoutes = wisdomTopics.map((w) => entry(`/wisdom-for-life/${w.slug}`, wisdomDate, 'weekly', 0.85));
+
   const topicDate = lastChanged('data/topics.ts', 'app/topics/[id]/page.tsx');
   const topicRoutes = topics.map((t) => entry(`/topics/${t.id}`, topicDate, 'monthly', 0.8));
 
@@ -96,6 +102,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     ...staticRoutes,
+    ...wisdomRoutes,
     ...topicRoutes,
     ...characterRoutes,
     ...dictionaryRoutes,
