@@ -1636,7 +1636,371 @@ export const wisdomTopics: WisdomTopic[] = [
       clinicalDisclaimerEn: 'If you or someone you care about is experiencing persistent suicidal thoughts, severe depression, or hopelessness, please contact a crisis line right away. In India, Tele-MANAS is a free 24×7 helpline at 14416 (or 1-800-891-4416); elsewhere, call your local emergency number or crisis line.',
       clinicalDisclaimerHi: 'यदि आपके मन में जीवन समाप्त करने के विचार आ रहे हैं या गहरा अंधकार महसूस हो रहा है, तो कृपया तुरंत संकटकालीन हेल्पलाइन (KIRAN 1800-599-0019 / AASRA 91-9820466726) से संपर्क करें। भारत में Tele-MANAS (14416) एक निःशुल्क, २४×७ हेल्पलाइन है।'
     }
-  }
+  },
+
+  // 14. Uncertainty
+  {
+    "id": "uncertainty",
+    "slug": "uncertainty",
+    "titleEn": "Uncertainty",
+    "titleHi": "अनिश्चितता",
+    "sanskritSubtitle": "मात्रास्पर्शास्तु कौन्तेय शीतोष्णसुखदुःखदाः",
+    "category": "inner-peace",
+    "categoryLabelEn": "Inner Peace & Emotions",
+    "categoryLabelHi": "मन की शांति और संवेग",
+    "shortDescEn": "Living with not knowing: how the Gita speaks about changing conditions, doubt and a restless mind.",
+    "shortDescHi": "न जानने के साथ जीना: बदलती परिस्थितियों, संशय और चंचल मन पर गीता क्या कहती है।",
+    "colorGradient": "from-slate-600 via-blue-700 to-indigo-900",
+    "accentColor": "#4f46e5",
+    "searchKeywords": [
+      "uncertainty",
+      "unknown",
+      "doubt",
+      "change",
+      "indecision",
+      "future",
+      "confusion",
+      "अनिश्चितता",
+      "संशय",
+      "दुविधा"
+    ],
+    "readingTimeMinutes": 7,
+    "compassionateIntro": {
+      "leadEn": "Not knowing what comes next is one of the most ordinary human experiences, and it is allowed to be uncomfortable.",
+      "leadHi": "आगे क्या होगा, यह न जानना मनुष्य के सबसे सामान्य अनुभवों में से एक है, और उसका असहज लगना स्वाभाविक है।",
+      "bodyEn": "The Gita does not offer a way to remove uncertainty. It describes how conditions come and go, warns about the pull of doubt, and admits that the mind is restless. These verses may give you a way of thinking about uncertainty that is steadier, while you still plan and act.",
+      "bodyHi": "गीता अनिश्चितता को मिटाने का उपाय नहीं देती। वह बताती है कि परिस्थितियाँ आती और जाती हैं, संशय के खिंचाव से सावधान करती है, और मानती है कि मन चंचल है। ये श्लोक अनिश्चितता को देखने का एक अधिक स्थिर ढंग दे सकते हैं, जबकि आप योजना बनाना और कर्म करना जारी रखते हैं।",
+      "spiritualFoundationEn": "A recurring idea in these verses is endurance without hardness: to meet changing conditions as they are, without being carried away by them.",
+      "spiritualFoundationHi": "इन श्लोकों में बार-बार आने वाला विचार है कठोर हुए बिना सहनशीलता: बदलती परिस्थितियों को जैसी हैं वैसी स्वीकार करना, बिना उनमें बह जाए।"
+    },
+    "verses": [
+      {
+        "id": "bg-2-14",
+        "scriptureId": "bhagavadgita",
+        "scriptureName": "Bhagavad Gita",
+        "scriptureNameHi": "भगवद्गीता",
+        "chapterNumber": 2,
+        "verseNumber": 14,
+        "referenceDisplay": "Bhagavad Gita 2.14",
+        "referenceDisplayHi": "भगवद्गीता २.१४",
+        "sanskritDevanagari": "मात्रास्पर्शास्तु कौन्तेय शीतोष्णसुखदुःखदाः।\nआगमापायिनोऽनित्यास्तांस्तितिक्षस्व भारत",
+        "sanskritTransliteration": "mātrā-sparśhās tu kaunteya śhītoṣhṇa-sukha-duḥkha-dāḥ\nāgamāpāyino ’nityās tans-titikṣhasva bhārata",
+        "literalTranslationHi": "हे कुन्तीनन्दन! इन्द्रियोंके जो विषय (जड पदार्थ) हैं, वो तो शीत (अनुकूलता) और उष्ण (प्रतिकूलता) - के द्वारा सुख और दुःख देनेवाले हैं तथा आने-जानेवाले और अनित्य हैं। हे भरतवंशोद्भव अर्जुन! उनको तुम सहन करो।",
+        "literalTranslationEn": "The contact of the senses with their objects, O Arjuna, gives rise to feelings of cold and heat, pleasure and pain. They come and go, never lasting long. Endure them, O Arjuna.",
+        "traditionalContext": {
+          "speaker": "Shri Krishna",
+          "addressee": "Arjuna",
+          "setting": "Chapter 2: Krishna begins to teach Arjuna about changing conditions and the self.",
+          "settingHi": "अध्याय २: कृष्ण अर्जुन को बदलती परिस्थितियों और आत्मा के विषय में समझाना आरंभ करते हैं।",
+          "commentaryNote": "",
+          "commentaryNoteHi": ""
+        },
+        "readerHref": "/scripture/bhagavadgita/chapter/2/verse/14"
+      },
+      {
+        "id": "bg-4-40",
+        "scriptureId": "bhagavadgita",
+        "scriptureName": "Bhagavad Gita",
+        "scriptureNameHi": "भगवद्गीता",
+        "chapterNumber": 4,
+        "verseNumber": 40,
+        "referenceDisplay": "Bhagavad Gita 4.40",
+        "referenceDisplayHi": "भगवद्गीता ४.४०",
+        "sanskritDevanagari": "अज्ञश्चाश्रद्दधानश्च संशयात्मा विनश्यति।\nनायं लोकोऽस्ति न परो न सुखं संशयात्मनः",
+        "sanskritTransliteration": "ajñaśh chāśhraddadhānaśh cha sanśhayātmā vinaśhyati\nnāyaṁ loko ’sti na paro na sukhaṁ sanśhayātmanaḥ",
+        "literalTranslationHi": "विवेकहीन और श्रद्धारहित संशयात्मा मनुष्यका पतन हो जाता है। ऐसे संशयात्मा मनुष्यके लिये न यह लोक  है न परलोक है और न सुख ही है।",
+        "literalTranslationEn": "The ignorant, the faithless, and the doubting one perish; for the doubting one, there is neither this world nor the one beyond, nor happiness.",
+        "traditionalContext": {
+          "speaker": "Shri Krishna",
+          "addressee": "Arjuna",
+          "setting": "Chapter 4: Krishna speaks about knowledge, faith and the cost of persistent doubt.",
+          "settingHi": "अध्याय ४: कृष्ण ज्ञान, श्रद्धा और निरंतर संशय की हानि पर कहते हैं।",
+          "commentaryNote": "",
+          "commentaryNoteHi": ""
+        },
+        "readerHref": "/scripture/bhagavadgita/chapter/4/verse/40"
+      },
+      {
+        "id": "bg-6-35",
+        "scriptureId": "bhagavadgita",
+        "scriptureName": "Bhagavad Gita",
+        "scriptureNameHi": "भगवद्गीता",
+        "chapterNumber": 6,
+        "verseNumber": 35,
+        "referenceDisplay": "Bhagavad Gita 6.35",
+        "referenceDisplayHi": "भगवद्गीता ६.३५",
+        "sanskritDevanagari": "श्री भगवानुवाच\nअसंशयं महाबाहो मनो दुर्निग्रहं चलं।\nअभ्यासेन तु कौन्तेय वैराग्येण च गृह्यते",
+        "sanskritTransliteration": "śhrī bhagavān uvācha\nasanśhayaṁ mahā-bāho mano durnigrahaṁ chalam\nabhyāsena tu kaunteya vairāgyeṇa cha gṛihyate",
+        "literalTranslationHi": "श्रीभगवान् बोले -- हे महाबाहो ! यह मन बड़ा चञ्चल है और इसका निग्रह करना भी बड़ा कठिन है -- यह तुम्हारा कहना बिलकुल ठीक है। परन्तु हे कुन्तीनन्दन ! अभ्यास और वैराग्यके द्वारा इसका निग्रह किया जाता है।",
+        "literalTranslationEn": "The Lord said, \"The mind is indeed hard to subdue and fickle, O mighty-armed one, but, O son of Kunti, it can be brought under control through practice and the exercise of dispassion.\"",
+        "traditionalContext": {
+          "speaker": "Shri Krishna",
+          "addressee": "Arjuna",
+          "setting": "Chapter 6: Arjuna has said the mind is hard to hold, and Krishna replies.",
+          "settingHi": "अध्याय ६: अर्जुन ने कहा कि मन को रोकना कठिन है, और कृष्ण उत्तर देते हैं।",
+          "commentaryNote": "",
+          "commentaryNoteHi": ""
+        },
+        "readerHref": "/scripture/bhagavadgita/chapter/6/verse/35"
+      }
+    ],
+    "traditionalContextOverview": {
+      "titleEn": "Change, doubt and practice in the Gita",
+      "titleHi": "गीता में परिवर्तन, संशय और अभ्यास",
+      "bodyEn": "In chapter 2, conditions such as heat and cold, pleasure and pain are described as coming and going, and the reader is asked to endure them. In chapter 4, persistent doubt is named as something that undermines a person. In chapter 6, Krishna accepts that the mind is hard to steady and names practice and non-attachment as supports. Commentators emphasise different parts of this, so read the commentary alongside the verses.",
+      "bodyHi": "अध्याय २ में सर्दी-गर्मी और सुख-दुःख जैसी स्थितियों को आने-जाने वाला बताया गया है और उन्हें सहने को कहा गया है। अध्याय ४ में निरंतर संशय को व्यक्ति को गिराने वाला कहा गया है। अध्याय ६ में कृष्ण मानते हैं कि मन को स्थिर करना कठिन है और अभ्यास तथा वैराग्य को सहारा बताते हैं। टीकाकार इनके अलग-अलग पक्षों पर बल देते हैं, इसलिए श्लोकों के साथ टीका भी पढ़ें।",
+      "keyThemes": [
+        "Titiksha (patient endurance)",
+        "Samshaya (doubt)",
+        "Abhyasa and Vairagya (practice and non-attachment)"
+      ],
+      "keyThemesHi": [
+        "तितिक्षा (धैर्यपूर्वक सहना)",
+        "संशय",
+        "अभ्यास और वैराग्य"
+      ]
+    },
+    "reflections": [
+      {
+        "title": "What can I do now?",
+        "titleHi": "अभी मैं क्या कर सकता हूँ?",
+        "insight": "Uncertainty often feels larger when the whole future is held at once. The verses suggest meeting conditions as they come and returning to the next step.",
+        "insightHi": "जब पूरा भविष्य एक साथ मन में रखा जाता है तो अनिश्चितता बड़ी लगती है। श्लोक सुझाते हैं कि परिस्थितियों का सामना जैसे वे आएँ वैसे करें और अगले कदम पर लौटें।",
+        "contemplationPrompt": "Which part of this situation can I act on today, and which part can I only wait for?",
+        "contemplationPromptHi": "इस स्थिति का कौन-सा भाग मैं आज कर सकता हूँ, और कौन-सा भाग केवल प्रतीक्षा का है?",
+        "dailyPractice": "Write down one decision you are facing, then one small step you can take today. Do only that step.",
+        "dailyPracticeHi": "किसी एक निर्णय को लिखें जिसका आप सामना कर रहे हैं, फिर आज उठाया जा सकने वाला एक छोटा कदम लिखें। केवल वही कदम उठाएँ।"
+      }
+    ],
+    "relatedConcepts": [
+      {
+        "id": "vairagya",
+        "labelEn": "Vairagya (Non-attachment)",
+        "labelHi": "वैराग्य",
+        "sanskrit": "वैराग्यम्",
+        "description": "Loosening the grip on outcomes so that action and attention stay steady.",
+        "descriptionHi": "परिणामों पर पकड़ ढीली करना ताकि कर्म और ध्यान स्थिर रहें।",
+        "href": "/concepts/vairagya"
+      },
+      {
+        "id": "yoga",
+        "labelEn": "Yoga (Steadiness)",
+        "labelHi": "योग",
+        "sanskrit": "योगः",
+        "description": "In the Gita, an evenness of mind that remains while one acts.",
+        "descriptionHi": "गीता में कर्म करते हुए बनी रहने वाली मन की समता।",
+        "href": "/concepts/yoga"
+      }
+    ],
+    "relatedScriptures": [
+      {
+        "id": "bhagavadgita",
+        "title": "Bhagavad Gita",
+        "titleHi": "भगवद्गीता",
+        "titleSanskrit": "श्रीमद्भगवद्गीता",
+        "description": "The dialogue between Krishna and Arjuna at Kurukshetra, where each of these verses is spoken.",
+        "descriptionHi": "कुरुक्षेत्र में कृष्ण और अर्जुन का संवाद, जहाँ ये श्लोक कहे गए हैं।",
+        "href": "/scripture/bhagavadgita"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Bhagavad Gita 2.14, 4.40 and 6.35",
+        "textName": "Bhagavad Gita",
+        "section": "Chapter 2, Verse 14; Chapter 4, Verse 40; Chapter 6, Verse 35"
+      }
+    ],
+    contextualNote: {
+        headlineEn: 'Important Contextual & Mental Health Note',
+        headlineHi: 'शास्त्रीय एवं स्वास्थ्य संदर्भ सूचना',
+        bodyEn: 'This scriptural guidance offers spiritual contemplation and philosophical clarity for everyday stress and inner unrest. It is NOT a clinical diagnosis or medical treatment.',
+        bodyHi: 'यह शास्त्रीय चिंतन सामान्य जीवन के तनाव और मानसिक बेचैनी में दार्शनिक संबल प्रदान करता है। यह कोई चिकित्सीय निदान या उपचार नहीं है।',
+        clinicalDisclaimerEn: 'Scripture does not replace licensed medical, psychiatric, or psychological care. If you are experiencing panic disorders, clinical depression, or prolonged severe anxiety, please consult a qualified healthcare professional.',
+        clinicalDisclaimerHi: 'शास्त्र कभी भी योग्य चिकित्सक या मनोविज्ञानी की सलाह का विकल्प नहीं है। गंभीर अवसाद, पैनिक अटैक या निरंतर अत्यधिक चिंता की स्थिति में तुरंत विशेषज्ञ से संपर्क करें।'
+      }
+  },
+
+  // 15. Failure and setbacks
+  {
+    "id": "failure-and-setbacks",
+    "slug": "failure-and-setbacks",
+    "titleEn": "Failure and Setbacks",
+    "titleHi": "असफलता और बाधाएँ",
+    "sanskritSubtitle": "सिद्ध्यसिद्ध्योः समो भूत्वा समत्वं योग उच्यते",
+    "category": "action-duty",
+    "categoryLabelEn": "Action, Duty & Decisions",
+    "categoryLabelHi": "कर्म, कर्तव्य और निर्णय",
+    "shortDescEn": "When effort does not bring the result you hoped for: what the Gita says about outcomes, balance and imperfect work.",
+    "shortDescHi": "जब प्रयास से आशा के अनुसार फल न मिले: परिणाम, संतुलन और अपूर्ण कर्म पर गीता क्या कहती है।",
+    "colorGradient": "from-amber-700 via-orange-700 to-stone-800",
+    "accentColor": "#c2410c",
+    "searchKeywords": [
+      "failure",
+      "setback",
+      "disappointment",
+      "rejection",
+      "mistake",
+      "loss",
+      "result",
+      "असफलता",
+      "निराशा",
+      "हार"
+    ],
+    "readingTimeMinutes": 7,
+    "compassionateIntro": {
+      "leadEn": "A result that falls short can hurt, even when you tried honestly.",
+      "leadHi": "जब परिणाम अपेक्षा से कम रहता है तो पीड़ा होती है, भले ही आपने ईमानदारी से प्रयास किया हो।",
+      "bodyEn": "The Gita does not say that results are unimportant or that you should stop caring. It separates the part you act on from the part you cannot fully control, asks for balance in success and failure, and says that every undertaking carries some imperfection. These verses may help you respond to a setback without giving up the work.",
+      "bodyHi": "गीता यह नहीं कहती कि परिणाम महत्त्वहीन हैं या आप परवाह करना छोड़ दें। वह उस भाग को अलग करती है जिस पर आप कर्म करते हैं और उस भाग को जिस पर आपका पूरा नियंत्रण नहीं, सफलता और असफलता में समता माँगती है, और कहती है कि हर आरंभ में कुछ दोष रहता है। ये श्लोक किसी असफलता का उत्तर देने में सहायक हो सकते हैं, कर्म को छोड़े बिना।",
+      "spiritualFoundationEn": "The central idea is that your responsibility lies in the quality of the effort, and that balance of mind is part of doing it well.",
+      "spiritualFoundationHi": "केंद्रीय विचार यह है कि आपका दायित्व प्रयास की गुणवत्ता में है, और मन की समता अच्छे कर्म का ही अंग है।"
+    },
+    "verses": [
+      {
+        "id": "bg-2-47",
+        "scriptureId": "bhagavadgita",
+        "scriptureName": "Bhagavad Gita",
+        "scriptureNameHi": "भगवद्गीता",
+        "chapterNumber": 2,
+        "verseNumber": 47,
+        "referenceDisplay": "Bhagavad Gita 2.47",
+        "referenceDisplayHi": "भगवद्गीता २.४७",
+        "sanskritDevanagari": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि",
+        "sanskritTransliteration": "karmaṇy-evādhikāras te mā phaleṣhu kadāchana\nmā karma-phala-hetur bhūr mā te saṅgo ’stvakarmaṇi",
+        "literalTranslationHi": "कर्तव्य-कर्म करनेमें ही तेरा अधिकार है, फलोंमें कभी नहीं। अतः तू कर्मफलका हेतु भी मत बन और तेरी अकर्मण्यतामें भी आसक्ति न हो।",
+        "literalTranslationEn": "You have the right to work alone, but not to the fruits of it. Do not be driven by the results of your work, nor have attachment to inaction.",
+        "traditionalContext": {
+          "speaker": "Shri Krishna",
+          "addressee": "Arjuna",
+          "setting": "Chapter 2: Krishna tells Arjuna where his responsibility lies as he faces an uncertain outcome.",
+          "settingHi": "अध्याय २: कृष्ण अर्जुन को बताते हैं कि अनिश्चित परिणाम के सामने उसका दायित्व कहाँ है।",
+          "commentaryNote": "",
+          "commentaryNoteHi": ""
+        },
+        "readerHref": "/scripture/bhagavadgita/chapter/2/verse/47"
+      },
+      {
+        "id": "bg-2-48",
+        "scriptureId": "bhagavadgita",
+        "scriptureName": "Bhagavad Gita",
+        "scriptureNameHi": "भगवद्गीता",
+        "chapterNumber": 2,
+        "verseNumber": 48,
+        "referenceDisplay": "Bhagavad Gita 2.48",
+        "referenceDisplayHi": "भगवद्गीता २.४८",
+        "sanskritDevanagari": "योगस्थः कुरु कर्माणि सङ्गं त्यक्त्वा धनञ्जय।\nसिद्ध्यसिद्ध्योः समो भूत्वा समत्वं योग उच्यते",
+        "sanskritTransliteration": "yoga-sthaḥ kuru karmāṇi saṅgaṁ tyaktvā dhanañjaya\nsiddhy-asiddhyoḥ samo bhūtvā samatvaṁ yoga uchyate",
+        "literalTranslationHi": "हे धनञ्जय ! तू आसक्तिका त्याग करके सिद्धि-असिद्धिमें सम होकर योगमें स्थित हुआ कर्मोंको कर; क्योंकि समत्व ही योग कहा जाता है।",
+        "literalTranslationEn": "Abandoning attachment and established in Yoga, perform works, viewing success and failure with an even mind. Evenness of mind is said to be Yoga.",
+        "traditionalContext": {
+          "speaker": "Shri Krishna",
+          "addressee": "Arjuna",
+          "setting": "Chapter 2: the next verse names the balance the previous verse asks for.",
+          "settingHi": "अध्याय २: अगला श्लोक उस समता का नाम बताता है जो पिछला श्लोक माँगता है।",
+          "commentaryNote": "",
+          "commentaryNoteHi": ""
+        },
+        "readerHref": "/scripture/bhagavadgita/chapter/2/verse/48"
+      },
+      {
+        "id": "bg-18-48",
+        "scriptureId": "bhagavadgita",
+        "scriptureName": "Bhagavad Gita",
+        "scriptureNameHi": "भगवद्गीता",
+        "chapterNumber": 18,
+        "verseNumber": 48,
+        "referenceDisplay": "Bhagavad Gita 18.48",
+        "referenceDisplayHi": "भगवद्गीता १८.४८",
+        "sanskritDevanagari": "सहजं कर्म कौन्तेय सदोषमपि न त्यजेत्।सर्वारम्भा हि दोषेण धूमेनाग्निरिवावृताः",
+        "sanskritTransliteration": "saha-jaṁ karma kaunteya sa-doṣham api na tyajet\nsarvārambhā hi doṣheṇa dhūmenāgnir ivāvṛitāḥ",
+        "literalTranslationHi": "हे कुन्तीनन्दन ! दोषयुक्त होनेपर भी सहज कर्मका त्याग नहीं करना चाहिये; क्योंकि सम्पूर्ण कर्म धुएँसे अग्निकी तरह किसी-न-किसी दोषसे युक्त हैं।",
+        "literalTranslationEn": "One should not relinquish one's work, O Arjuna, though it may be imperfect; for, all endeavors are enveloped by imperfections as fire is by smoke.",
+        "traditionalContext": {
+          "speaker": "Shri Krishna",
+          "addressee": "Arjuna",
+          "setting": "Chapter 18: in the closing chapter Krishna speaks about natural duty and its imperfection.",
+          "settingHi": "अध्याय १८: अंतिम अध्याय में कृष्ण स्वाभाविक कर्म और उसके दोष की बात करते हैं।",
+          "commentaryNote": "",
+          "commentaryNoteHi": ""
+        },
+        "readerHref": "/scripture/bhagavadgita/chapter/18/verse/48"
+      }
+    ],
+    "traditionalContextOverview": {
+      "titleEn": "Effort, outcome and balance in the Gita",
+      "titleHi": "गीता में प्रयास, परिणाम और समता",
+      "bodyEn": "In chapter 2, the right to action but not to its fruits is stated, followed by the instruction to act with balance in success and failure, which the verse calls yoga. In chapter 18, the text adds that every undertaking is accompanied by fault, as fire is by smoke, and advises against abandoning one’s natural work for that reason. Traditions interpret these verses in different ways, particularly the idea of natural duty, so read the commentary alongside them.",
+      "bodyHi": "अध्याय २ में कर्म का अधिकार और फल पर अधिकार न होना कहा गया है, उसके बाद सफलता-असफलता में समता से कर्म करने का निर्देश है जिसे श्लोक योग कहता है। अध्याय १८ में यह जोड़ा गया है कि हर आरंभ में दोष रहता है, जैसे अग्नि के साथ धुआँ, और इस कारण अपना स्वाभाविक कर्म न छोड़ने की सलाह दी गई है। परंपराएँ इन श्लोकों की, विशेषकर स्वाभाविक कर्म की, अलग-अलग व्याख्या करती हैं, इसलिए टीका भी साथ पढ़ें।",
+      "keyThemes": [
+        "Nishkama karma (action without clinging to results)",
+        "Samatva (balance)",
+        "Sahaja karma (natural work)"
+      ],
+      "keyThemesHi": [
+        "निष्काम कर्म",
+        "समत्व",
+        "सहज कर्म"
+      ]
+    },
+    "reflections": [
+      {
+        "title": "Learning from the result",
+        "titleHi": "परिणाम से सीखना",
+        "insight": "A setback can be read as a verdict on you or as information about the effort. The verses point toward the second, while staying with the work.",
+        "insightHi": "असफलता को आप पर निर्णय की तरह भी पढ़ा जा सकता है और प्रयास की जानकारी की तरह भी। श्लोक दूसरे पढ़ने की ओर संकेत करते हैं, और कर्म के साथ बने रहने की।",
+        "contemplationPrompt": "What did I control in this attempt, and what is one thing I would adjust next time?",
+        "contemplationPromptHi": "इस प्रयास में मेरे नियंत्रण में क्या था, और अगली बार मैं कौन-सी एक बात बदलूँगा?",
+        "dailyPractice": "Write down one result that disappointed you. List what you did well, one thing to change, and one thing outside your control. Then choose the next small step.",
+        "dailyPracticeHi": "किसी एक निराश करने वाले परिणाम को लिखें। उसमें आपने क्या अच्छा किया, क्या बदलना है, और क्या आपके नियंत्रण से बाहर था, यह लिखें। फिर अगला छोटा कदम चुनें।"
+      }
+    ],
+    "relatedConcepts": [
+      {
+        "id": "karma",
+        "labelEn": "Karma (Action)",
+        "labelHi": "कर्म",
+        "sanskrit": "कर्म",
+        "description": "Action and its results, and how the Gita asks one to relate to both.",
+        "descriptionHi": "कर्म और उसके फल, और गीता उनसे कैसा संबंध रखने को कहती है।",
+        "href": "/concepts/karma"
+      },
+      {
+        "id": "yoga",
+        "labelEn": "Yoga (Balance)",
+        "labelHi": "योग",
+        "sanskrit": "योगः",
+        "description": "In the Gita, evenness in success and failure while one acts.",
+        "descriptionHi": "गीता में कर्म करते हुए सफलता-असफलता में समता।",
+        "href": "/concepts/yoga"
+      }
+    ],
+    "relatedScriptures": [
+      {
+        "id": "bhagavadgita",
+        "title": "Bhagavad Gita",
+        "titleHi": "भगवद्गीता",
+        "titleSanskrit": "श्रीमद्भगवद्गीता",
+        "description": "The dialogue between Krishna and Arjuna at Kurukshetra, where each of these verses is spoken.",
+        "descriptionHi": "कुरुक्षेत्र में कृष्ण और अर्जुन का संवाद, जहाँ ये श्लोक कहे गए हैं।",
+        "href": "/scripture/bhagavadgita"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Bhagavad Gita 2.47, 2.48 and 18.48",
+        "textName": "Bhagavad Gita",
+        "section": "Chapter 2, Verses 47 and 48; Chapter 18, Verse 48"
+      }
+    ],
+    contextualNote: {
+        headlineEn: 'Important Contextual & Mental Health Note',
+        headlineHi: 'शास्त्रीय एवं स्वास्थ्य संदर्भ सूचना',
+        bodyEn: 'This scriptural guidance offers spiritual contemplation and philosophical clarity for everyday stress and inner unrest. It is NOT a clinical diagnosis or medical treatment.',
+        bodyHi: 'यह शास्त्रीय चिंतन सामान्य जीवन के तनाव और मानसिक बेचैनी में दार्शनिक संबल प्रदान करता है। यह कोई चिकित्सीय निदान या उपचार नहीं है।',
+        clinicalDisclaimerEn: 'Scripture does not replace licensed medical, psychiatric, or psychological care. If you are experiencing panic disorders, clinical depression, or prolonged severe anxiety, please consult a qualified healthcare professional.',
+        clinicalDisclaimerHi: 'शास्त्र कभी भी योग्य चिकित्सक या मनोविज्ञानी की सलाह का विकल्प नहीं है। गंभीर अवसाद, पैनिक अटैक या निरंतर अत्यधिक चिंता की स्थिति में तुरंत विशेषज्ञ से संपर्क करें।'
+      }
+  },
 ];
 
 export function getAllWisdomTopics(): WisdomTopic[] {
