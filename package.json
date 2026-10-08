@@ -36,6 +36,7 @@
     "check:registry": "tsx scripts/check-registry.ts",
     "check:journeys": "tsx scripts/check-journeys.ts",
     "check:diagrams": "tsx scripts/check-diagrams.ts",
+    "check:orientation": "tsx scripts/check-orientation.ts",
     "check": "tsx scripts/check-data.ts && tsx scripts/check-filler.ts && tsx scripts/check-wisdom.ts && tsx scripts/check-commentary-quality.ts && tsx scripts/check-published-scriptures.ts",
     "check:commentary": "tsx scripts/check-commentary-quality.ts",
     "strip:commentary-boilerplate": "tsx scripts/strip-commentary-boilerplate.ts",

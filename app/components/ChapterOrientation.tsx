@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { ArrowDown, ArrowRight, Clock } from 'lucide-react';
 import { getChapterOrientation } from '@/data/chapter-orientation';
+import { CONCEPT_DETAILS } from '@/data/concept-details';
 import { verseCount as fmtVerses } from '@/lib/format';
 
 interface Props {
@@ -38,6 +39,20 @@ export function ChapterOrientation({ scriptureId, chapterId, verseCount, firstVe
             <div><dt className="font-semibold text-dharma-text">Who is listening</dt><dd className="text-dharma-muted">{o.listeners}</dd></div>
             <div><dt className="font-semibold text-dharma-text">Central question</dt><dd className="text-dharma-muted">{o.centralQuestion}</dd></div>
             <div><dt className="font-semibold text-dharma-text">Recommended background</dt><dd className="text-dharma-muted">{o.background}</dd></div>
+            {o.prerequisiteConcepts.length > 0 && (
+              <div>
+                <dt className="font-semibold text-dharma-text">Concepts worth knowing first</dt>
+                <dd className="flex flex-wrap gap-x-3 text-dharma-muted">
+                  {o.prerequisiteConcepts.map((c) =>
+                    CONCEPT_DETAILS[c.toLowerCase()] ? (
+                      <Link key={c} href={`/concepts/${c.toLowerCase()}`} className="inline-flex min-h-[44px] items-center text-saffron-800 underline underline-offset-2 dark:text-saffron-300">{c}</Link>
+                    ) : (
+                      <span key={c} className="inline-flex min-h-[44px] items-center">{c}</span>
+                    ),
+                  )}
+                </dd>
+              </div>
+            )}
           </>
         )}
         {verseCount > 0 && (
@@ -110,7 +125,7 @@ export function ChapterOrientation({ scriptureId, chapterId, verseCount, firstVe
 
       {firstVerseHref && (
         <Link href={firstVerseHref} className="focus-ring mt-5 inline-flex min-h-[48px] items-center gap-2 rounded-xl bg-saffron-700 px-6 text-sm font-semibold text-white hover:bg-saffron-800">
-          Begin chapter <ArrowRight className="h-4 w-4" aria-hidden="true" />
+          Begin reading <ArrowRight className="h-4 w-4" aria-hidden="true" />
         </Link>
       )}
       <Link href={`/listen?s=${scriptureId}&c=${chapterId}`} className="focus-ring ml-3 mt-5 inline-flex min-h-[48px] items-center gap-2 rounded-xl border border-dharma-border bg-dharma-card px-6 text-sm font-semibold text-dharma-text hover:border-saffron-400">
