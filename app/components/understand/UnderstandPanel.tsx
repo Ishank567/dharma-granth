@@ -14,6 +14,7 @@ import {
   Verse30,
 } from './primitives';
 import { PauseAndThink } from './PauseAndThink';
+import { ExplanationFeedback } from './ExplanationFeedback';
 import { WordExplorer } from './WordExplorer';
 import { ShareCardButton } from './ShareCard';
 
@@ -210,6 +211,7 @@ export function UnderstandPanel({
 
         {mode === 'deep' && (
           <>
+            <ExplanationFeedback refKey={refKey} reference={reference} />
             {extras?.contextTimeline && (
               <ContextTimeline
                 steps={extras.contextTimeline.steps}

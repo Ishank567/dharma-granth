@@ -9,6 +9,7 @@ export type ReaderLanguagePref = 'all' | 'hindi' | 'english';
 export type NumberFormatPref = 'indian' | 'international';
 export type ReaderModeTier = 'quick' | 'simple' | 'deep';
 export type ContrastPref = 'standard' | 'high';
+export type TonePref = 'default' | 'paper' | 'sepia' | 'night';
 
 export interface ReaderSettings {
   sanskritSize: SizeStep;
@@ -26,6 +27,10 @@ export interface ReaderSettings {
   hideDecor: boolean;
   /** Explicit choice; `null` follows the device's reduced-motion setting. */
   reducedMotion: boolean | null;
+  /** Focus mode: verse, translation, explanation and navigation only. */
+  focusMode: boolean;
+  /** Background tone while reading. */
+  tone: TonePref;
 }
 
 export const DEFAULT_READER_SETTINGS: ReaderSettings = {
@@ -42,6 +47,8 @@ export const DEFAULT_READER_SETTINGS: ReaderSettings = {
   contrast: 'standard',
   hideDecor: false,
   reducedMotion: null,
+  focusMode: false,
+  tone: 'default',
 };
 
 const KEY = 'dharma.readerSettings';
@@ -53,6 +60,7 @@ const LANG_PREFS: ReaderLanguagePref[] = ['all', 'hindi', 'english'];
 const NUMBER_PREFS: NumberFormatPref[] = ['indian', 'international'];
 const MODE_TIERS: ReaderModeTier[] = ['quick', 'simple', 'deep'];
 const CONTRASTS: ContrastPref[] = ['standard', 'high'];
+const TONES: TonePref[] = ['default', 'paper', 'sepia', 'night'];
 
 /** Same-tab broadcast, so every component using the hook sees a change at once. */
 const CHANGE_EVENT = 'dharma:reader-settings';
@@ -78,6 +86,8 @@ function sanitize(raw: unknown): ReaderSettings {
     contrast: pick(o.contrast, CONTRASTS, d.contrast),
     hideDecor: bool(o.hideDecor, d.hideDecor),
     reducedMotion: typeof o.reducedMotion === 'boolean' ? o.reducedMotion : null,
+    focusMode: bool(o.focusMode, d.focusMode),
+    tone: pick(o.tone, TONES, d.tone),
   };
 }
 

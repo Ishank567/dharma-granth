@@ -13,6 +13,9 @@ import {
   Copy,
   Download,
   Flag,
+  Focus,
+  Maximize2,
+  Minimize2,
   Pause,
   Share2,
   SlidersHorizontal,
@@ -235,6 +238,21 @@ export function VerseReader(props: VerseReaderProps) {
   }, [dialog, prev, next, router]);
 
   const total = verses.length;
+  const SIZE_ORDER = ['sm', 'md', 'lg', 'xl'] as const;
+  const stepSize = (d: number) => {
+    const i = SIZE_ORDER.indexOf(settings.sanskritSize);
+    const n = SIZE_ORDER[Math.min(3, Math.max(0, i + d))];
+    update('sanskritSize', n);
+    update('translationSize', n);
+  };
+  const toggleFullscreen = () => {
+    try {
+      if (document.fullscreenElement) void document.exitFullscreen();
+      else void document.documentElement.requestFullscreen();
+    } catch {
+      say('Full screen is not available in this browser.');
+    }
+  };
   const percent = Math.round(((index + 1) / Math.max(1, total)) * 100);
   const sanskritName = scriptureTitleSanskrit ?? scriptureTitle;
 
@@ -269,13 +287,19 @@ export function VerseReader(props: VerseReaderProps) {
     <MotionConfig reducedMotion={reducedMotion ? 'always' : 'user'}>
       <div
         data-contrast={settings.contrast}
-        data-hide-decor={settings.hideDecor ? '' : undefined}
+        data-hide-decor={settings.hideDecor || settings.focusMode ? '' : undefined}
+        data-focus={settings.focusMode ? '' : undefined}
+        data-tone={settings.tone}
         className="reader-root min-h-screen bg-dharma-bg text-dharma-text selection:bg-saffron-500/25"
       >
         <style>{`
           .reader-root[data-contrast=high]{--dharma-muted:var(--dharma-text);--dharma-border:currentColor}
           .reader-root[data-contrast=high] .understand-fade{border-width:2px}
           .reader-root[data-hide-decor] .understand-fade{animation:none}
+          .reader-root[data-tone=paper]{--dharma-bg:#ffffff;--dharma-text:#1c1917}
+          .reader-root[data-tone=sepia]{--dharma-bg:#f4ecd8;--dharma-text:#3b2f1e}
+          .reader-root[data-tone=night]{--dharma-bg:#101010;--dharma-text:#ece7dd}
+          .reader-root[data-focus] aside,.reader-root[data-focus] [data-focus-hide]{display:none!important}
           .reader-root[data-hide-decor] h3 svg,.reader-root[data-hide-decor] [data-decor]{display:none}
         `}</style>
         {/* 1 · Sticky reader header */}
@@ -311,8 +335,11 @@ export function VerseReader(props: VerseReaderProps) {
               </div>
             </div>
 
-            <button type="button" onClick={onBookmark} aria-pressed={saved} aria-label={saved ? 'Remove bookmark' : 'Bookmark this verse'} className={`${iconBtn} ${saved ? '!border-saffron-600 !text-saffron-800 dark:!text-saffron-300' : ''}`}>
+            <button type="button" data-focus-hide onClick={onBookmark} aria-pressed={saved} aria-label={saved ? 'Remove bookmark' : 'Bookmark this verse'} className={`${iconBtn} ${saved ? '!border-saffron-600 !text-saffron-800 dark:!text-saffron-300' : ''}`}>
               {saved ? <BookmarkCheck className="h-4 w-4" aria-hidden="true" /> : <Bookmark className="h-4 w-4" aria-hidden="true" />}
+            </button>
+            <button type="button" onClick={() => update('focusMode', !settings.focusMode)} aria-pressed={settings.focusMode} aria-label={settings.focusMode ? 'Exit focus mode' : 'Enter focus mode'} className={`${iconBtn} ${settings.focusMode ? '!border-saffron-600 !text-saffron-800 dark:!text-saffron-300' : ''}`}>
+              <Focus className="h-4 w-4" aria-hidden="true" />
             </button>
             <button type="button" onClick={() => setDialog('settings')} aria-haspopup="dialog" aria-label="Reader settings" className={iconBtn}>
               <SlidersHorizontal className="h-4 w-4" aria-hidden="true" />
@@ -345,7 +372,7 @@ export function VerseReader(props: VerseReaderProps) {
 
           {/* Actions */}
           {/* One swipeable row on phones keeps the verse near the top; it wraps from sm up. */}
-          <div role="toolbar" aria-label="Verse actions" className="-mx-4 mb-6 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0 sm:pb-0">
+          <div role="toolbar" aria-label="Verse actions" data-focus-hide className="-mx-4 mb-6 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0 sm:pb-0">
             <button type="button" onClick={() => onSpeak('normal')} aria-pressed={speaking === 'normal'} disabled={!canSpeak} className={actionBtn} title="Uses your device's speech voice">
               {speaking === 'normal' ? <Pause className="h-4 w-4" aria-hidden="true" /> : <Volume2 className="h-4 w-4 text-saffron-700 dark:text-saffron-300" aria-hidden="true" />}
               {speaking === 'normal' ? 'Stop' : 'Listen'}
@@ -375,6 +402,47 @@ export function VerseReader(props: VerseReaderProps) {
             <button type="button" onClick={() => setDialog('report')} className={actionBtn}>
               <Flag className="h-4 w-4" aria-hidden="true" /> Report error
             </button>
+          {settings.focusMode && (
+            <div role="region" aria-label="Focus mode controls" className="mb-6 flex flex-wrap items-center gap-2 rounded-2xl border border-dharma-border bg-dharma-card/80 p-2 text-xs">
+              <button type="button" onClick={() => update('focusMode', false)} className={actionBtn}>
+                <Minimize2 className="h-4 w-4" aria-hidden="true" /> Exit focus mode
+              </button>
+              <div role="group" aria-label="Background tone" className="flex gap-1">
+                {(['default', 'paper', 'sepia', 'night'] as const).map((t) => (
+                  <button key={t} type="button" aria-pressed={settings.tone === t} onClick={() => update('tone', t)} className={`focus-ring min-h-[44px] rounded-xl border px-3 font-semibold capitalize ${settings.tone === t ? 'border-saffron-700 bg-saffron-700 text-white' : 'border-dharma-border bg-dharma-card text-dharma-text'}`}>
+                    {t === 'default' ? 'Site' : t}
+                  </button>
+                ))}
+              </div>
+              <div role="group" aria-label="Reading width" className="flex gap-1">
+                {(['narrow', 'standard', 'wide'] as const).map((w) => (
+                  <button key={w} type="button" aria-pressed={settings.readingWidth === w} onClick={() => update('readingWidth', w)} className={`focus-ring min-h-[44px] rounded-xl border px-3 font-semibold capitalize ${settings.readingWidth === w ? 'border-saffron-700 bg-saffron-700 text-white' : 'border-dharma-border bg-dharma-card text-dharma-text'}`}>
+                    {w}
+                  </button>
+                ))}
+              </div>
+              <div role="group" aria-label="Text size" className="flex gap-1">
+                <button type="button" aria-label="Smaller text" onClick={() => stepSize(-1)} className={iconBtn}>A−</button>
+                <button type="button" aria-label="Larger text" onClick={() => stepSize(1)} className={iconBtn}>A+</button>
+              </div>
+              <div role="group" aria-label="Line spacing" className="flex gap-1">
+                {(['normal', 'relaxed', 'loose'] as const).map((l) => (
+                  <button key={l} type="button" aria-pressed={settings.lineSpacing === l} onClick={() => update('lineSpacing', l)} className={`focus-ring min-h-[44px] rounded-xl border px-3 font-semibold capitalize ${settings.lineSpacing === l ? 'border-saffron-700 bg-saffron-700 text-white' : 'border-dharma-border bg-dharma-card text-dharma-text'}`}>
+                    {l}
+                  </button>
+                ))}
+              </div>
+              <button type="button" aria-pressed={settings.reducedMotion === true} onClick={() => update('reducedMotion', settings.reducedMotion === true ? null : true)} className={actionBtn}>
+                Reduce motion
+              </button>
+              <button type="button" onClick={toggleFullscreen} className={actionBtn}>
+                <Maximize2 className="h-4 w-4" aria-hidden="true" /> Full screen
+              </button>
+              <span role="status" className="ml-auto px-2 text-dharma-muted">Verse {index + 1} of {total} · {percent}% through the chapter</span>
+            </div>
+          )}
+
+
           </div>
 
           {/* 3 · The layers */}
@@ -387,7 +455,7 @@ export function VerseReader(props: VerseReaderProps) {
             </section>
           )}
 
-          {children}
+          <div data-focus-hide>{children}</div>
         </main>
 
         {/* Mobile: sticky bottom verse navigation (the page has matching bottom padding, so it never covers the verse) */}
