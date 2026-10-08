@@ -39,7 +39,7 @@ export function VerseRelatedSection({
             </h2>
             <Link
               href="/concepts"
-              className="inline-flex items-center gap-1 text-xs font-semibold text-saffron-700 transition hover:text-saffron-800 dark:text-saffron-400"
+              className="inline-flex min-h-[44px] items-center gap-1 text-xs font-semibold text-saffron-700 transition hover:text-saffron-800 dark:text-saffron-400"
             >
               <span>ज्ञान ग्राफ</span>
               <ArrowRight className="h-3 w-3" aria-hidden="true" />
@@ -94,7 +94,7 @@ export function VerseRelatedSection({
             </h2>
             <Link
               href="/topics"
-              className="inline-flex items-center gap-1 text-xs font-semibold text-saffron-700 transition hover:text-saffron-800 dark:text-saffron-400"
+              className="inline-flex min-h-[44px] items-center gap-1 text-xs font-semibold text-saffron-700 transition hover:text-saffron-800 dark:text-saffron-400"
             >
               <span>सभी विषय</span>
               <ArrowRight className="h-3 w-3" aria-hidden="true" />
@@ -164,7 +164,7 @@ export function VerseRelatedSection({
                   </div>
                   <Link
                     href={ref.href}
-                    className="inline-flex items-center gap-1 text-xs font-semibold text-saffron-700 transition hover:text-saffron-800 dark:text-saffron-400"
+                    className="inline-flex min-h-[44px] items-center gap-1 text-xs font-semibold text-saffron-700 transition hover:text-saffron-800 dark:text-saffron-400"
                   >
                     <span>श्लोक देखें</span>
                     <ArrowRight className="h-3 w-3" aria-hidden="true" />

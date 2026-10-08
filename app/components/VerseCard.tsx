@@ -13,6 +13,7 @@ import {
   FolderCheck,
   FolderPlus,
   Highlighter,
+  Library,
   Lightbulb,
   Maximize2,
   ScrollText,
@@ -30,6 +31,7 @@ import { ListenButton } from './ListenButton';
 import { ShareVerseButton } from './ShareVerseButton';
 import { GlossaryText } from './GlossaryTooltip';
 import { getVerseGraphicClass, getVerseGraphicStyle } from './verse-background';
+import { ContentLabelBadge } from './ContentLabels';
 
 export interface VerseCardData {
   number: number | string;
@@ -157,7 +159,7 @@ function VerseMedallion({ label }: { label: string }) {
 }
 
 const iconButton =
-  'inline-flex h-9 w-9 items-center justify-center rounded-full border border-dharma-border/70 bg-dharma-card/80 text-dharma-muted backdrop-blur transition hover:border-saffron-300 hover:text-saffron-700';
+  'inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-dharma-border/70 bg-dharma-card/80 text-dharma-muted backdrop-blur transition hover:border-saffron-300 hover:text-saffron-700';
 
 export function VerseCard({
   verse: v,
@@ -356,9 +358,10 @@ export function VerseCard({
             </div>
           )}
 
-          {/* On phones the actions get their own row so all of them fit. */}
+          {/* On phones the actions get their own row and wrap; without shrink-0 the
+          eight 36px buttons were squeezed to ~22px at 320px. */}
           <div
-            className="order-last flex w-full items-center justify-between gap-1 sm:order-none sm:ml-auto sm:w-auto sm:justify-end sm:gap-1.5"
+            className="order-last flex w-full flex-wrap items-center justify-start gap-2 sm:order-none sm:ml-auto sm:w-auto sm:flex-nowrap sm:justify-end sm:gap-1.5"
             role="toolbar"
             aria-label="श्लोक विकल्प (Verse actions)"
           >
@@ -471,7 +474,7 @@ export function VerseCard({
             >
               {copied ? <Check className="h-4 w-4" /> : <Copy className="h-4 w-4" />}
             </button>
-            <span className="[&>button]:h-9 [&>button]:w-9">
+            <span className="shrink-0 [&>button]:h-9 [&>button]:w-9">
               <ListenButton
                 sanskrit={v.sanskrit}
                 hindi={v.hindi}
@@ -484,7 +487,7 @@ export function VerseCard({
                 onReciteFinish={onReciteFinish}
               />
             </span>
-            <span className="[&>button]:h-9 [&>button]:w-9">
+            <span className="shrink-0 [&>button]:h-9 [&>button]:w-9">
               <ShareVerseButton
                 scriptureTitle={scriptureTitle}
                 chapterTitle={chapterTitle}
@@ -538,6 +541,9 @@ export function VerseCard({
           <div className="verse-leaf relative rounded-2xl px-5 py-6 text-center md:px-10 md:py-8">
             <span aria-hidden="true" className="verse-leaf-ornament left-3 top-2">❁</span>
             <span aria-hidden="true" className="verse-leaf-ornament right-3 top-2">❁</span>
+            <div className="mb-3.5 flex justify-center">
+              <ContentLabelBadge kind="mula" />
+            </div>
             <p lang="sa" className={`font-devanagari ${sanskritFontSizeClass} text-dharma-text`}>
               {lines.map((line, i) => {
                 const isLineSpeaking = activeSpeakingLine === i;
@@ -556,6 +562,7 @@ export function VerseCard({
                 );
               })}
               <motion.span
+                aria-hidden="true"
                 className="mt-2 block font-bold text-saffron-700 dark:text-amber-300"
                 {...fadeIn(lines.length)}
               >
@@ -571,6 +578,19 @@ export function VerseCard({
                 {v.transliteration.replace(/[\s|।॥0-9.]+$/, '')}
               </p>
             )}
+          </div>
+        )}
+
+        {/* ── Word-by-word meaning (पदच्छेद एवं शब्दार्थ) ─────── */}
+        {v.wordMeaning && !chantingMode && (
+          <div className="mt-4 rounded-2xl border border-amber-200/70 bg-amber-50/50 p-4 dark:border-amber-900/40 dark:bg-amber-950/20">
+            <p className="mb-1.5 flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-amber-800 dark:text-amber-300">
+              <ScrollText className="h-3.5 w-3.5" aria-hidden="true" />
+              पदच्छेद एवं शब्दार्थ · Word-by-Word Meaning
+            </p>
+            <p lang="sa" className="font-devanagari text-sm leading-loose text-dharma-text">
+              {v.wordMeaning}
+            </p>
           </div>
         )}
 
@@ -670,7 +690,7 @@ export function VerseCard({
                           tabIndex={selected ? 0 : -1}
                           onClick={() => setChosenTab(tab.id)}
                           onKeyDown={(e) => onTabKeyDown(e, i)}
-                          className={`relative inline-flex items-center gap-1.5 rounded-full px-3.5 py-1.5 text-xs font-bold transition-colors ${
+                          className={`relative inline-flex min-h-[36px] items-center gap-1.5 rounded-full px-3.5 py-2 text-xs font-bold transition-colors ${
                             selected ? 'text-white' : 'text-dharma-muted hover:text-dharma-text'
                           }`}
                         >
@@ -706,78 +726,107 @@ export function VerseCard({
                     }`}
                   >
                     {activeTab === 'meaning' && (
-                      <>
+                      <div className="space-y-4">
                         {showHindi && (
-                          <p lang="hi" className="font-devanagari text-base leading-loose text-dharma-text md:text-[17px]">
-                            {v.hindi && <GlossaryText text={v.hindi} />}
-                            {v.hindiSource === 'ai' && (
-                              <span
-                                className="ml-2 inline-block rounded-full border border-blue-200 bg-blue-50 px-1.5 py-px align-middle text-[9px] font-medium text-blue-700 dark:border-blue-400/30 dark:bg-blue-500/10 dark:text-blue-300"
-                                title="संस्कृत से मशीन-अनुवादित; विद्वत् अनुवाद नहीं"
-                              >
-                                AI अनुवाद
-                              </span>
-                            )}
-                          </p>
+                          <div className="rounded-2xl border border-dharma-border/70 bg-dharma-card-soft/70 p-4 shadow-2xs">
+                            <div className="mb-2 flex items-center justify-between gap-2">
+                              <p lang="hi" className="text-xs font-bold uppercase tracking-wider text-saffron-700 dark:text-saffron-400">
+                                हिंदी अनुवाद · Hindi Translation
+                              </p>
+                              <ContentLabelBadge kind="literal" />
+                            </div>
+                            <p lang="hi" className="font-devanagari text-base leading-loose text-dharma-text md:text-[17px]">
+                              {v.hindi && <GlossaryText text={v.hindi} />}
+                              {v.hindiSource === 'ai' && (
+                                <span
+                                  className="ml-2 inline-block rounded-full border border-blue-200 bg-blue-50 px-1.5 py-px align-middle text-[9px] font-medium text-blue-700 dark:border-blue-400/30 dark:bg-blue-500/10 dark:text-blue-300"
+                                  title="संस्कृत से मशीन-अनुवादित; विद्वत् अनुवाद नहीं"
+                                >
+                                  AI अनुवाद
+                                </span>
+                              )}
+                            </p>
+                          </div>
                         )}
                         {showEnglish && (
-                          <p lang="en" className="text-sm leading-relaxed text-dharma-muted md:text-base">
-                            {v.translation}
-                            {v.translationSource === 'ai' && (
-                              <span
-                                className="ml-2 inline-block rounded-full border border-blue-200 bg-blue-50 px-1.5 py-px align-middle text-[9px] font-medium text-blue-700 dark:border-blue-400/30 dark:bg-blue-500/10 dark:text-blue-300"
-                                title="Machine-translated from the Sanskrit; not a scholarly translation"
-                              >
-                                AI translation
-                              </span>
-                            )}
-                          </p>
+                          <div className="rounded-2xl border border-dharma-border/70 bg-dharma-card/70 p-4 shadow-2xs">
+                            <div className="mb-2 flex items-center justify-between gap-2">
+                              <p lang="en" className="text-xs font-bold uppercase tracking-wider text-dharma-muted">
+                                English Translation
+                              </p>
+                              <ContentLabelBadge kind="literal" />
+                            </div>
+                            <p lang="en" className="font-serif text-sm leading-relaxed text-dharma-text md:text-base">
+                              {v.translation}
+                              {v.translationSource === 'ai' && (
+                                <span
+                                  className="ml-2 inline-block rounded-full border border-blue-200 bg-blue-50 px-1.5 py-px align-middle text-[9px] font-medium text-blue-700 dark:border-blue-400/30 dark:bg-blue-500/10 dark:text-blue-300"
+                                  title="Machine-translated from the Sanskrit; not a scholarly translation"
+                                >
+                                  AI translation
+                                </span>
+                              )}
+                            </p>
+                          </div>
                         )}
-                      </>
-                    )}
-
-                    {(activeTab === 'explain' || activeTab === 'science') && meaning.isAi && (
-                      <p
-                        className="inline-flex items-center gap-1.5 rounded-full border border-violet-200 bg-violet-50 px-2.5 py-0.5 text-[11px] font-semibold text-violet-700 dark:border-violet-400/30 dark:bg-violet-500/10 dark:text-violet-300"
-                        title="AI द्वारा तैयार और संपादक द्वारा समीक्षित — Drafted by AI, approved by a reviewer"
-                      >
-                        <Sparkles className="h-3 w-3" aria-hidden="true" />
-                        AI व्याख्या · समीक्षित
-                      </p>
+                      </div>
                     )}
 
                     {activeTab === 'explain' && (
-                      <>
+                      <div className="rounded-2xl border border-amber-200/70 bg-amber-50/40 p-4.5 dark:border-amber-900/40 dark:bg-amber-950/20 shadow-2xs">
+                        <div className="mb-2.5 flex items-center justify-between gap-2">
+                          <p className="text-xs font-bold uppercase tracking-wider text-saffron-800 dark:text-saffron-300">
+                            {explanationIsHi ? 'व्याख्या व भावार्थ · Explanation' : 'Commentary & Explanation'}
+                          </p>
+                          <ContentLabelBadge kind="explanation" />
+                          {meaning.isAi && (
+                            <p
+                              className="inline-flex items-center gap-1.5 rounded-full border border-violet-200 bg-violet-50 px-2 py-0.5 text-[10px] font-semibold text-violet-700 dark:border-violet-400/30 dark:bg-violet-500/10 dark:text-violet-300"
+                              title="AI द्वारा तैयार और संपादक द्वारा समीक्षित"
+                            >
+                              <Sparkles className="h-3 w-3" aria-hidden="true" />
+                              AI व्याख्या · समीक्षित
+                            </p>
+                          )}
+                        </div>
                         {explanation && !explanationIsHi && (
-                          <p className="inline-flex items-center gap-1.5 rounded-full border border-dharma-border/70 bg-dharma-bg/70 px-2.5 py-0.5 text-[11px] font-semibold text-dharma-muted">
+                          <p className="mb-2 inline-flex items-center gap-1.5 rounded-full border border-dharma-border/70 bg-dharma-bg/70 px-2.5 py-0.5 text-[11px] font-semibold text-dharma-muted">
                             हिन्दी व्याख्या शीघ्र · English commentary for now
                           </p>
                         )}
                         {explanation && (
                           <p
                             lang={explanationIsHi ? 'hi' : 'en'}
-                            className={`text-sm leading-relaxed text-dharma-text md:text-base ${explanationIsHi ? 'font-devanagari leading-loose' : ''}`}
+                            className={`text-sm leading-relaxed text-dharma-text md:text-base ${explanationIsHi ? 'font-devanagari leading-loose' : 'font-serif'}`}
                           >
                             {explanation}
                           </p>
                         )}
-                      </>
+                      </div>
                     )}
 
                     {activeTab === 'science' && science && (
-                      <p
-                        lang={scienceIsHi ? 'hi' : 'en'}
-                        className={`border-l-2 border-indigo-400/60 pl-4 text-sm leading-relaxed text-dharma-text md:text-base ${scienceIsHi ? 'font-devanagari leading-loose' : ''}`}
-                      >
-                        {science}
-                      </p>
+                      <div className="rounded-2xl border border-indigo-200/70 bg-indigo-50/40 p-4.5 dark:border-indigo-900/40 dark:bg-indigo-950/20 shadow-2xs">
+                        <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
+                          <p className="text-xs font-bold uppercase tracking-wider text-indigo-700 dark:text-indigo-300">
+                            शोध व आधुनिक संदर्भ · Research & Context
+                          </p>
+                          <ContentLabelBadge kind="research" />
+                        </div>
+                        <p
+                          lang={scienceIsHi ? 'hi' : 'en'}
+                          className={`text-sm leading-relaxed text-dharma-text md:text-base ${scienceIsHi ? 'font-devanagari leading-loose' : ''}`}
+                        >
+                          {science}
+                        </p>
+                      </div>
                     )}
                   </motion.div>
                 </AnimatePresence>
               </div>
             )}
 
-            {/* ── Life lesson: always visible, the takeaway ─────── */}
+            {/* ── Modern Reflection & Takeaway (Never mixed with classical commentary) ── */}
             {showLesson && (
               <motion.aside
                 {...(reduce
@@ -788,17 +837,19 @@ export function VerseCard({
                       viewport: { once: true },
                       transition: { duration: 0.4 },
                     })}
-                className="relative mt-5 overflow-hidden rounded-2xl border border-amber-300/60 bg-gradient-to-br from-amber-50 via-orange-50/70 to-transparent p-4 dark:border-amber-400/25 dark:from-amber-500/10 dark:via-orange-500/5"
+                className="relative mt-5 overflow-hidden rounded-2xl border border-amber-300/70 bg-gradient-to-br from-amber-50/90 via-orange-50/60 to-transparent p-4.5 dark:border-amber-400/25 dark:from-amber-500/10 dark:via-orange-500/5 shadow-2xs"
               >
-                {/* Letter-spacing only for the Latin label; it breaks Devanagari. */}
-                <p
-                  className={`mb-1.5 flex items-center gap-1.5 font-bold text-amber-700 dark:text-amber-300 ${
-                    lessonIsHi ? 'text-xs' : 'text-[11px] uppercase tracking-[0.18em]'
-                  }`}
-                >
-                  <Lightbulb className="h-3.5 w-3.5" aria-hidden="true" />
-                  {lessonIsHi ? 'आज की सीख' : "Today's lesson"}
-                </p>
+                <div className="mb-2 flex items-center justify-between">
+                  <p
+                    className={`flex items-center gap-1.5 font-bold text-amber-700 dark:text-amber-300 ${
+                      lessonIsHi ? 'text-xs' : 'text-[11px] uppercase tracking-[0.18em]'
+                    }`}
+                  >
+                    <Lightbulb className="h-3.5 w-3.5" aria-hidden="true" />
+                    {lessonIsHi ? 'आधुनिक चिंतन व सीख' : 'Modern Reflection & Lesson'}
+                  </p>
+                  <ContentLabelBadge kind="reflection" />
+                </div>
                 <p
                   lang={lessonIsHi ? 'hi' : 'en'}
                   className={`text-sm font-medium leading-relaxed text-dharma-text md:text-base ${lessonIsHi ? 'font-devanagari leading-loose' : ''}`}

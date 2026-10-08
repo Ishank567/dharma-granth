@@ -84,7 +84,7 @@ export function UnderstandPanel({
   const commentators = [c.shankara, c.ramanuja, c.sridhara];
 
   return (
-    <section aria-labelledby="understand-h" data-calm={reducedMotion ? '' : undefined} className="mt-8">
+    <section id="understand-h" aria-labelledby="understand-title" data-calm={reducedMotion ? '' : undefined} className="mt-8">
       <style>{`
         .understand-fade{animation:understand-in .35s ease-out backwards}
         @keyframes understand-in{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
@@ -92,7 +92,7 @@ export function UnderstandPanel({
         [data-calm] .understand-fade{animation:none}
       `}</style>
 
-      <h2 id="understand-h" className="font-serif text-xl font-bold text-dharma-text">
+      <h2 id="understand-title" className="font-serif text-xl font-bold text-dharma-text">
         How would you like to understand this verse?
       </h2>
       <p lang="hi" className="font-devanagari text-sm text-dharma-muted">आप इस श्लोक को किस गहराई से समझना चाहेंगे?</p>
@@ -160,6 +160,7 @@ export function UnderstandPanel({
                 steps={extras.contextTimeline.steps}
                 previousHref={previousHref}
                 passageHref={extras.contextTimeline.passageHref}
+                dialogue={extras.contextTimeline.dialogue}
                 nextHref={nextHref}
               />
             )}
@@ -210,17 +211,18 @@ export function UnderstandPanel({
               <Bilingual en={data.tryThisToday.instructionEn} hi={data.tryThisToday.instructionHi} />
             </ExplainCard>
             <PauseAndThink refKey={refKey} reference={reference} question={data.reflectionQuestion.en} questionHi={data.reflectionQuestion.hi} />
+            <ExplanationFeedback refKey={refKey} reference={reference} />
           </>
         )}
 
         {mode === 'deep' && (
           <>
-            <ExplanationFeedback refKey={refKey} reference={reference} />
             {extras?.contextTimeline && (
               <ContextTimeline
                 steps={extras.contextTimeline.steps}
                 previousHref={previousHref}
                 passageHref={extras.contextTimeline.passageHref}
+                dialogue={extras.contextTimeline.dialogue}
                 nextHref={nextHref}
               />
             )}

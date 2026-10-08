@@ -26,6 +26,7 @@ import type { InitialChapter } from '@/app/components/FullChapterVerses';
 import type { HiCommentaryEntry } from '@/data/hi-commentary/_types';
 import { ArrowLeft, ArrowRight, BookOpen, Layers, Sparkles } from 'lucide-react';
 import { ChapterPartRedirect } from '@/app/components/ChapterPartRedirect';
+import { SourcesAndInterpretation } from '@/app/components/SourcesAndInterpretation';
 import { chapterPartHref, chapterParts, INLINE_CHAPTER_MAX_BYTES, type ChapterPart } from '@/lib/chapter-parts';
 
 export interface ChapterParams {
@@ -319,7 +320,6 @@ export function ChapterView({ params, part: partNumber = 1 }: { params: ChapterP
       <div className="relative max-w-4xl mx-auto px-4 py-8 sm:px-6 md:py-12">
         <AmbientOrbs />
         <div className="relative">
-        {part && parts && (
         {(!part || part.part === 1) && (
           <ChapterOrientation
             scriptureId={meta.id}
@@ -328,6 +328,7 @@ export function ChapterView({ params, part: partNumber = 1 }: { params: ChapterP
             firstVerseHref={`/scripture/${meta.id}/chapter/${chapter.id}/verse/1`}
           />
         )}
+        {part && parts && (
           <>
             <PartsNav parts={parts} current={part.part} href={partHref} />
             <ChapterPartRedirect
@@ -441,6 +442,13 @@ export function ChapterView({ params, part: partNumber = 1 }: { params: ChapterP
             nextLabel={nextLabel}
           />
         )}
+        <SourcesAndInterpretation
+          scriptureId={meta.id}
+          scriptureTitle={meta.title}
+          scriptureTitleSanskrit={meta.titleSanskrit}
+          chapterId={chapter.id}
+          className="mt-12"
+        />
         <ChapterKeyboardNav prevHref={prevPartHref ?? prevHref} nextHref={nextPartHref ?? nextHref} />
         <ChapterVisitRecorder
           scriptureId={meta.id}

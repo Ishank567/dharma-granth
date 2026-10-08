@@ -25,6 +25,7 @@ import {
   type SourceCorrectionEntry,
 } from '@/data/sources-registry';
 import { triggerHaptic } from '@/lib/haptics';
+import { ISSUES_REPO } from '@/lib/reader-actions';
 
 export interface SourcesAndInterpretationProps {
   scriptureId: string;
@@ -64,7 +65,6 @@ export function SourcesAndInterpretation({
   const [reportModalOpen, setReportModalOpen] = useState(false);
   const [reportCategory, setReportCategory] = useState<'typo' | 'numbering' | 'sandhi' | 'attribution'>('typo');
   const [reportDetails, setReportDetails] = useState('');
-  const [reportSubmitted, setReportSubmitted] = useState(false);
 
   const identifier = verseId
     ? `${scriptureTitle} ${chapterId ? `Ch. ${chapterId}, ` : ''}Verse ${verseId}`
@@ -72,16 +72,7 @@ export function SourcesAndInterpretation({
       ? `${scriptureTitle} — Chapter ${chapterId}`
       : scriptureTitle;
 
-  function handleReportSubmit(e: React.FormEvent) {
-    e.preventDefault();
-    triggerHaptic('success');
-    setReportSubmitted(true);
-    setTimeout(() => {
-      setReportSubmitted(false);
-      setReportModalOpen(false);
-      setReportDetails('');
-    }, 2200);
-  }
+  const issueHref = `${ISSUES_REPO}/issues/new?title=${encodeURIComponent(`Text issue: ${identifier} — ${reportCategory}`)}&body=${encodeURIComponent(`**Reference:** ${identifier}\n**Type:** ${reportCategory}\n\n**What is wrong, and what should it be?**\n${reportDetails.trim() || '(please describe)'}`)}`;
 
   function toggleAccordion(key: string) {
     triggerHaptic('light');
@@ -291,7 +282,7 @@ export function SourcesAndInterpretation({
             <div className="p-3.5 rounded-xl border border-dharma-border/60 bg-dharma-panel-muted/40 space-y-1">
               <span className="font-semibold text-dharma-muted">अंतिम समीक्षा तिथि · Date Reviewed:</span>
               <p className="text-sm font-bold text-dharma-text">{meta.dateReviewed}</p>
-              <p className="text-xs text-dharma-muted">नियमित रूप से पाठ्य अशुद्धियों की समीक्षा की जाती है।</p>
+              <p className="text-xs text-dharma-muted">No review date is recorded. See the methodology page for how review works.</p>
             </div>
           </div>
         )}
@@ -312,6 +303,11 @@ export function SourcesAndInterpretation({
                 संशोधन इतिहास · Correction History:
               </span>
               <div className="space-y-2">
+                {meta.correctionHistory.length === 0 && (
+                  <p className="text-dharma-muted">
+                    No corrections are logged here yet. Reported errors are tracked as public issues on GitHub.
+                  </p>
+                )}
                 {meta.correctionHistory.map((entry: SourceCorrectionEntry, idx: number) => (
                   <div
                     key={idx}
@@ -434,6 +430,9 @@ export function SourcesAndInterpretation({
 
               <div className="space-y-2">
                 <span className="font-bold text-dharma-muted text-[11px] block">संशोधन इतिहास:</span>
+                {meta.correctionHistory.length === 0 && (
+                  <p className="text-dharma-muted text-[11px]">No corrections are logged here yet. Reported errors are tracked on GitHub.</p>
+                )}
                 {meta.correctionHistory.map((entry, idx) => (
                   <div key={idx} className="p-2 rounded border border-dharma-border/60 text-[11px]">
                     <div className="flex items-center justify-between text-dharma-muted">
@@ -479,66 +478,59 @@ export function SourcesAndInterpretation({
               संदर्भ: <strong className="text-dharma-text">{identifier}</strong>
             </p>
 
-            {reportSubmitted ? (
-              <div className="py-6 text-center space-y-2">
-                <FileCheck2 className="w-10 h-10 text-emerald-600 mx-auto" />
-                <h4 className="text-sm font-bold text-dharma-text">सुझाव प्राप्त हुआ · Thank you</h4>
-                <p className="text-xs text-dharma-muted">
-                  आपका संशोधन सुझाव धार्मिक पाठ्य समीक्षा मंडल को प्रेषित कर दिया गया है।
-                </p>
+            <form onSubmit={(e) => e.preventDefault()} className="space-y-3.5 text-xs">
+              <p className="text-dharma-muted">
+                This opens a prefilled issue on GitHub. Nothing is sent until you press “Create issue” there, and this site stores nothing.
+              </p>
+              <div>
+                <label htmlFor="correction-category-select" className="font-semibold text-dharma-text block mb-1">
+                  अशुद्धि का प्रकार (Category):
+                </label>
+                <select
+                  id="correction-category-select"
+                  value={reportCategory}
+                  onChange={(e) => setReportCategory(e.target.value as typeof reportCategory)}
+                  className="w-full px-3 py-2 rounded-xl border border-dharma-border bg-dharma-panel-muted text-dharma-text font-medium outline-none focus:border-saffron-500"
+                >
+                  <option value="typo">वर्तनी अथवा मात्रा अशुद्धि (Spelling / Diacritic typo)</option>
+                  <option value="numbering">श्लोक संख्या अथवा अध्याय क्रम (Verse numbering error)</option>
+                  <option value="sandhi">संधि विच्छेद अथवा पदच्छेद त्रुटि (Sandhi / Pada-split error)</option>
+                  <option value="attribution">भाष्य अथवा आचार्य संदर्भ त्रुटि (Commentary attribution error)</option>
+                </select>
               </div>
-            ) : (
-              <form onSubmit={handleReportSubmit} className="space-y-3.5 text-xs">
-                <div>
-                  <label htmlFor="correction-category-select" className="font-semibold text-dharma-text block mb-1">
-                    अशुद्धि का प्रकार (Category):
-                  </label>
-                  <select
-                    id="correction-category-select"
-                    value={reportCategory}
-                    onChange={(e) => setReportCategory(e.target.value as any)}
-                    className="w-full px-3 py-2 rounded-xl border border-dharma-border bg-dharma-panel-muted text-dharma-text font-medium outline-none focus:border-saffron-500"
-                  >
-                    <option value="typo">वर्तनी अथवा मात्रा अशुद्धि (Spelling / Diacritic typo)</option>
-                    <option value="numbering">श्लोक संख्या अथवा अध्याय क्रम (Verse numbering error)</option>
-                    <option value="sandhi">संधि विच्छेद अथवा पदच्छेद त्रुटि (Sandhi / Pada-split error)</option>
-                    <option value="attribution">भाष्य अथवा आचार्य संदर्भ त्रुटि (Commentary attribution error)</option>
-                  </select>
-                </div>
-
-                <div>
-                  <label htmlFor="correction-details-textarea" className="font-semibold text-dharma-text block mb-1">
-                    विवरण एवं सही पाठ (Details & Suggested Correction):
-                  </label>
-                  <textarea
-                    id="correction-details-textarea"
-                    rows={4}
-                    required
-                    value={reportDetails}
-                    onChange={(e) => setReportDetails(e.target.value)}
-                    placeholder="कृपया बताएं कि कौन सा शब्द अशुद्ध है और किस प्रामाणिक संस्करण के अनुसार क्या होना चाहिए..."
-                    className="w-full px-3 py-2 rounded-xl border border-dharma-border bg-dharma-panel-muted text-dharma-text font-devanagari outline-none focus:border-saffron-500"
-                  />
-                </div>
-
-                <div className="flex justify-end gap-2 pt-2 border-t border-dharma-border">
-                  <button
-                    type="button"
-                    onClick={() => setReportModalOpen(false)}
-                    className="px-4 py-2 rounded-xl border border-dharma-border text-dharma-muted hover:text-dharma-text"
-                  >
-                    रद्द करें · Cancel
-                  </button>
-                  <button
-                    type="submit"
-                    className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-saffron-600 text-white font-bold hover:bg-saffron-700 transition"
-                  >
-                    <Send className="w-3.5 h-3.5" />
-                    <span>भेजें · Submit</span>
-                  </button>
-                </div>
-              </form>
-            )}
+              <div>
+                <label htmlFor="correction-details-textarea" className="font-semibold text-dharma-text block mb-1">
+                  विवरण एवं सही पाठ (Details & Suggested Correction):
+                </label>
+                <textarea
+                  id="correction-details-textarea"
+                  rows={4}
+                  value={reportDetails}
+                  onChange={(e) => setReportDetails(e.target.value)}
+                  placeholder="कृपया बताएं कि कौन सा शब्द अशुद्ध है और किस प्रामाणिक संस्करण के अनुसार क्या होना चाहिए..."
+                  className="w-full px-3 py-2 rounded-xl border border-dharma-border bg-dharma-panel-muted text-dharma-text font-devanagari outline-none focus:border-saffron-500"
+                />
+              </div>
+              <div className="flex justify-end gap-2 pt-2 border-t border-dharma-border">
+                <button
+                  type="button"
+                  onClick={() => setReportModalOpen(false)}
+                  className="min-h-[44px] px-4 py-2 rounded-xl border border-dharma-border text-dharma-muted hover:text-dharma-text"
+                >
+                  रद्द करें · Cancel
+                </button>
+                <a
+                  href={issueHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => setReportModalOpen(false)}
+                  className="inline-flex min-h-[44px] items-center gap-1.5 px-4 py-2 rounded-xl bg-saffron-600 text-white font-bold hover:bg-saffron-700 transition"
+                >
+                  <Send className="w-3.5 h-3.5" />
+                  <span>Open GitHub issue</span>
+                </a>
+              </div>
+            </form>
           </div>
         </div>
       )}

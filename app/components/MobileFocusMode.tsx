@@ -13,6 +13,7 @@ import {
   Repeat,
   RotateCcw,
   SlidersHorizontal,
+  Sparkles,
   Square,
   Volume2,
   X,
@@ -35,6 +36,7 @@ import {
   subscribeRecitationConfig,
   type RecitationState,
 } from '@/lib/verse-recite';
+import { isTanpuraPlaying, toggleTanpura, subscribeTanpura } from '@/lib/tanpura-audio';
 import { triggerTactileFeedback } from '@/lib/haptics';
 
 export interface FocusVerse {
@@ -136,13 +138,25 @@ export function MobileFocusMode({
   const [speed, setSpeed] = useState(1.0);
   const [loop, setLoop] = useState(false);
 
+  const [tanpuraActive, setTanpuraActive] = useState(false);
+
   useEffect(() => {
     setSpeed(getRecitationSpeed());
     setLoop(getRecitationLoop());
-    return subscribeRecitationConfig(() => {
+    setTanpuraActive(isTanpuraPlaying());
+
+    const unsubConfig = subscribeRecitationConfig(() => {
       setSpeed(getRecitationSpeed());
       setLoop(getRecitationLoop());
     });
+    const unsubTanpura = subscribeTanpura((active) => {
+      setTanpuraActive(active);
+    });
+
+    return () => {
+      unsubConfig();
+      unsubTanpura();
+    };
   }, []);
 
   const reduce = useReducedMotion();
@@ -157,7 +171,7 @@ export function MobileFocusMode({
       document.body.style.overflow = 'hidden';
     } else {
       document.body.style.overflow = '';
-      stopRecitation();
+      // Retain global audio recitation if player is active
     }
     return () => {
       document.body.style.overflow = '';
@@ -188,7 +202,9 @@ export function MobileFocusMode({
   const goTo = useCallback(
     (newIndex: number, dir: number) => {
       if (newIndex < 0 || newIndex >= verses.length) return;
-      stopRecitation();
+      if (isSpeaking && !continuousPlayRef.current) {
+        stopRecitation();
+      }
       setDirection(dir);
       setCurrentIndex(newIndex);
       triggerTactileFeedback('light', 'softTap');
@@ -197,7 +213,7 @@ export function MobileFocusMode({
       }
       onVerseChange?.(verses[newIndex].number);
     },
-    [verses, onVerseChange],
+    [verses, isSpeaking, onVerseChange],
   );
 
   const prev = useCallback(() => {
@@ -208,6 +224,62 @@ export function MobileFocusMode({
     if (currentIndex < verses.length - 1) goTo(currentIndex + 1, 1);
   }, [currentIndex, verses.length, goTo]);
 
+  // Continuous and manual recitation chaining
+  const startFocusRecitation = useCallback(
+    (targetIndex: number) => {
+      if (targetIndex < 0 || targetIndex >= verses.length) {
+        setIsSpeaking(false);
+        return;
+      }
+      const targetVerse = verses[targetIndex];
+      if (!targetVerse) return;
+
+      const verseData = {
+        sanskrit: targetVerse.sanskrit,
+        hindi: targetVerse.hindi,
+        translation: targetVerse.translation,
+      };
+
+      if (!canRecite(verseData)) return;
+
+      setIsSpeaking(true);
+      reciteVerse(
+        verseData,
+        (naturalEnd) => {
+          setIsSpeaking(false);
+          if (
+            continuousPlayRef.current &&
+            naturalEnd &&
+            !getRecitationLoop() &&
+            targetIndex < verses.length - 1
+          ) {
+            goTo(targetIndex + 1, 1);
+            setTimeout(() => {
+              if (!continuousPlayRef.current) return;
+              startFocusRecitation(targetIndex + 1);
+            }, 700);
+          }
+        },
+        {
+          speed,
+          loop,
+          metadata: {
+            scriptureTitle,
+            chapterTitle,
+            verseLabel: String(targetVerse.number),
+            chapterId,
+            scriptureId,
+            verseNumber: targetVerse.number,
+            sanskrit: targetVerse.sanskrit,
+            hindi: targetVerse.hindi,
+            translation: targetVerse.translation,
+          },
+        },
+      );
+    },
+    [verses, scriptureTitle, chapterTitle, chapterId, scriptureId, speed, loop, goTo],
+  );
+
   // Handle recitation toggle
   const toggleSpeech = useCallback(() => {
     if (!currentVerse) return;
@@ -217,43 +289,8 @@ export function MobileFocusMode({
       setIsSpeaking(false);
       return;
     }
-
-    const verseData = {
-      sanskrit: currentVerse.sanskrit,
-      hindi: currentVerse.hindi,
-      translation: currentVerse.translation,
-    };
-
-    if (!canRecite(verseData)) return;
-
-    setIsSpeaking(true);
-    reciteVerse(
-      verseData,
-      (naturalEnd) => {
-        setIsSpeaking(false);
-        if (continuousPlayRef.current && naturalEnd && !getRecitationLoop() && currentIndex < verses.length - 1) {
-          // Auto advance to next verse
-          next();
-          setTimeout(() => {
-            if (!continuousPlayRef.current) return;
-            const nextVerse = verses[currentIndex + 1];
-            if (nextVerse) {
-              reciteVerse(
-                {
-                  sanskrit: nextVerse.sanskrit,
-                  hindi: nextVerse.hindi,
-                  translation: nextVerse.translation,
-                },
-                () => {},
-                { speed, loop },
-              );
-            }
-          }, 650);
-        }
-      },
-      { speed, loop },
-    );
-  }, [currentVerse, isSpeaking, currentIndex, verses, next, speed, loop]);
+    startFocusRecitation(currentIndex);
+  }, [currentVerse, isSpeaking, currentIndex, startFocusRecitation]);
 
   // Keyboard navigation
   useEffect(() => {
@@ -382,6 +419,25 @@ export function MobileFocusMode({
             >
               <Headphones className="h-3 w-3" />
               <span className="hidden sm:inline">निरंतर पाठ</span>
+            </button>
+
+            {/* Tanpura Sacred Drone Ambience */}
+            <button
+              type="button"
+              onClick={() => {
+                triggerTactileFeedback('celestial', 'omBowl');
+                toggleTanpura();
+              }}
+              className={`inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-xs font-semibold border transition ${
+                tanpuraActive
+                  ? 'border-amber-400/80 bg-amber-500/20 text-amber-300 shadow-sm ring-1 ring-amber-400/40'
+                  : 'border-stone-800 bg-stone-900 text-stone-400 hover:text-stone-200'
+              }`}
+              title={tanpuraActive ? 'तन्पूरा सक्रिय (Tanpura Active ॐ)' : 'तन्पूरा ध्यान नाद चालू करें (Tanpura Ambience)'}
+              aria-pressed={tanpuraActive}
+            >
+              <Sparkles className={`h-3 w-3 ${tanpuraActive ? 'text-amber-400 animate-pulse' : ''}`} />
+              <span className="hidden sm:inline">तन्पूरा ॐ</span>
             </button>
 
             {/* Bookmark button */}

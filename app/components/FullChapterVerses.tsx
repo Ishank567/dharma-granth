@@ -18,6 +18,7 @@ import type { HiCommentaryFragment } from '@/data/hi-commentary/_types';
 import { canonicalVerseId } from '@/lib/canonical-verse-id';
 import { versePageHref } from '@/lib/verse-paths';
 import { normalizeForSearch, normalizeTransliteration } from '@/lib/normalize-search';
+import { toAsciiDigits, toDevanagari } from '@/lib/verse-format';
 import { useStudyProgress, type VerseRef } from '@/lib/useStudyProgress';
 import { updateLastVerse } from '@/lib/reading-history';
 import {
@@ -411,6 +412,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
     if (state.kind !== 'ready') return [];
     return state.verses.map((v) => ({
       number: String(v.number),
+      devaNumber: toDevanagari(v.number),
       // Transliteration gets phonetic folding, so "dharmakshetre" finds IAST
       // "dharmakṣetre".
       phonetic: normalizeTransliteration(v.transliteration ?? ''),
@@ -424,10 +426,14 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
     if (!q) return state.verses;
     const qPhonetic = normalizeTransliteration(filterQuery);
     const rawNumber = filterQuery.trim();
+    const asciiDigits = toAsciiDigits(rawNumber);
+    const devaDigits = toDevanagari(rawNumber);
     return state.verses.filter((_, i) => {
       const keys = verseSearchKeys[i];
       return (
         keys.number.includes(rawNumber) ||
+        (asciiDigits !== '' && keys.number.includes(asciiDigits)) ||
+        keys.devaNumber.includes(devaDigits) ||
         (qPhonetic !== '' && keys.phonetic.includes(qPhonetic)) ||
         keys.text.includes(q)
       );
@@ -591,19 +597,37 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
         {[0, 1, 2].map((i) => (
           <div
             key={i}
-            className="rounded-2xl border border-dharma-border bg-dharma-card overflow-hidden shadow-sm animate-pulse"
+            className="rounded-[28px] border border-dharma-border bg-dharma-card p-5 md:p-7 shadow-sm animate-pulse min-h-[340px]"
+            aria-hidden="true"
           >
-            <div className="bg-gradient-to-r from-saffron-50 via-amber-50 to-rose-50 px-6 py-4 border-b border-dharma-border flex items-center gap-3">
-              <div className="w-9 h-9 rounded-full bg-stone-200/70" />
-              <div className="space-y-1.5">
-                <div className="w-14 h-2 rounded bg-stone-200/70" />
-                <div className="w-20 h-3 rounded bg-stone-200/70" />
+            {/* Header: medal, titles, actions toolbar */}
+            <div className="mb-5 flex flex-wrap items-center justify-between gap-3">
+              <div className="flex items-center gap-3">
+                <div className="h-11 w-11 shrink-0 rounded-full bg-saffron-500/15" />
+                <div className="space-y-1.5">
+                  <div className="h-3 w-16 rounded bg-dharma-border/80" />
+                  <div className="h-4 w-24 rounded bg-dharma-border/80" />
+                </div>
+              </div>
+              <div className="flex items-center gap-1.5">
+                {[0, 1, 2, 3].map((btn) => (
+                  <div key={btn} className="h-9 w-9 rounded-full bg-dharma-border/60" />
+                ))}
               </div>
             </div>
-            <div className="p-6 md:p-7 space-y-3">
-              <div className="w-full h-3 rounded bg-stone-200/70" />
-              <div className="w-11/12 h-3 rounded bg-stone-200/70" />
-              <div className="w-5/6 h-3 rounded bg-stone-200/70" />
+
+            {/* Manuscript Leaf (Sanskrit container placeholder) */}
+            <div className="rounded-2xl border border-amber-300/30 bg-amber-50/40 dark:bg-amber-950/20 px-6 py-8 min-h-[130px] flex flex-col items-center justify-center space-y-3">
+              <div className="h-5 w-4/5 rounded bg-amber-200/50 dark:bg-amber-900/40" />
+              <div className="h-5 w-3/5 rounded bg-amber-200/50 dark:bg-amber-900/40" />
+              <div className="h-3 w-2/5 rounded bg-amber-200/30 dark:bg-amber-900/30" />
+            </div>
+
+            {/* Meaning section placeholder */}
+            <div className="mt-5 space-y-2.5 pt-2">
+              <div className="h-3 w-20 rounded bg-dharma-border/80" />
+              <div className="h-4 w-full rounded bg-dharma-border/60" />
+              <div className="h-4 w-5/6 rounded bg-dharma-border/50" />
             </div>
           </div>
         ))}
@@ -712,7 +736,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
                     );
                   }
                 }}
-                className={`inline-flex items-center gap-1.5 rounded-xl px-3 py-1.5 text-xs font-semibold transition ${
+                className={`inline-flex min-h-[40px] items-center justify-center gap-1.5 rounded-xl sm:min-h-0 px-3 py-1.5 text-xs font-semibold transition ${
                   continuousRecite
                     ? 'bg-amber-600 text-white shadow-sm ring-2 ring-amber-400/30'
                     : 'border border-dharma-border bg-dharma-bg text-dharma-text hover:border-amber-300 hover:text-amber-700'
@@ -735,7 +759,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
                   setRecitationLoop(next);
                   triggerTactileFeedback('medium', next ? 'softTap' : 'click');
                 }}
-                className={`inline-flex items-center gap-1.5 rounded-xl px-3 py-1.5 text-xs font-semibold transition ${
+                className={`inline-flex min-h-[40px] items-center justify-center gap-1.5 rounded-xl sm:min-h-0 px-3 py-1.5 text-xs font-semibold transition ${
                   reciteLoop
                     ? 'bg-amber-600 text-white shadow-sm ring-2 ring-amber-400/30'
                     : 'border border-dharma-border bg-dharma-bg text-dharma-text hover:border-amber-300 hover:text-amber-700'
@@ -781,7 +805,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
               <button
                 type="button"
                 onClick={() => setChantingMode(!chantingMode)}
-                className={`inline-flex items-center gap-1.5 rounded-xl px-3 py-1.5 text-xs font-semibold transition ${
+                className={`inline-flex min-h-[40px] items-center justify-center gap-1.5 rounded-xl sm:min-h-0 px-3 py-1.5 text-xs font-semibold transition ${
                   chantingMode
                     ? 'bg-saffron-600 text-white shadow-sm ring-2 ring-saffron-400/30'
                     : 'border border-dharma-border bg-dharma-bg text-dharma-text hover:border-saffron-300 hover:text-saffron-700'
@@ -802,7 +826,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
                   setFocusModeOpen(true);
                   triggerTactileFeedback('medium', 'click');
                 }}
-                className="inline-flex items-center gap-1.5 rounded-xl border border-dharma-border bg-dharma-bg px-3 py-1.5 text-xs font-semibold text-dharma-text transition hover:border-saffron-300 hover:text-saffron-700 active:scale-95"
+                className="inline-flex min-h-[40px] items-center justify-center gap-1.5 rounded-xl sm:min-h-0 border border-dharma-border bg-dharma-bg px-3 py-1.5 text-xs font-semibold text-dharma-text transition hover:border-saffron-300 hover:text-saffron-700 active:scale-95"
                 title="एक-एक श्लोक स्वाध्याय के लिए एकाग्रता मोड खोलें (Focus Mode)"
                 aria-label="एकाग्रता मोड"
               >
@@ -815,7 +839,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
                 <button
                   type="button"
                   onClick={() => updateFontSize('normal')}
-                  className={`rounded-lg px-2.5 py-1 transition ${
+                  className={`min-h-[36px] min-w-[36px] rounded-lg px-2.5 py-1 transition sm:min-h-0 sm:min-w-0 ${
                     fontSize === 'normal'
                       ? 'bg-dharma-card text-saffron-700 shadow-sm font-bold'
                       : 'text-dharma-muted hover:text-dharma-text'
@@ -827,7 +851,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
                 <button
                   type="button"
                   onClick={() => updateFontSize('large')}
-                  className={`rounded-lg px-2.5 py-1 transition ${
+                  className={`min-h-[36px] min-w-[36px] rounded-lg px-2.5 py-1 transition sm:min-h-0 sm:min-w-0 ${
                     fontSize === 'large'
                       ? 'bg-dharma-card text-saffron-700 shadow-sm font-bold'
                       : 'text-dharma-muted hover:text-dharma-text'
@@ -839,7 +863,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
                 <button
                   type="button"
                   onClick={() => updateFontSize('xl')}
-                  className={`rounded-lg px-2.5 py-1 transition ${
+                  className={`min-h-[36px] min-w-[36px] rounded-lg px-2.5 py-1 transition sm:min-h-0 sm:min-w-0 ${
                     fontSize === 'xl'
                       ? 'bg-dharma-card text-saffron-700 shadow-sm font-bold'
                       : 'text-dharma-muted hover:text-dharma-text'
@@ -857,7 +881,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
                     type="button"
                     ref={layersTriggerRef}
                     onClick={() => setShowLayersMenu(!showLayersMenu)}
-                    className={`inline-flex items-center gap-1.5 rounded-xl border px-3 py-1.5 text-xs font-semibold transition ${
+                    className={`inline-flex min-h-[40px] items-center justify-center gap-1.5 rounded-xl sm:min-h-0 border px-3 py-1.5 text-xs font-semibold transition ${
                       showLayersMenu || (!showTranslit || !showHindi || !showEnglish || !showCommentary)
                         ? 'border-saffron-300 bg-saffron-50 text-saffron-800'
                         : 'border-dharma-border bg-dharma-bg text-dharma-text hover:border-saffron-300'
@@ -963,7 +987,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
                   </option>
                   {state.verses.map((v) => (
                     <option key={String(v.number)} value={String(v.number)}>
-                      श्लोक {v.number}
+                      श्लोक {toDevanagari(v.number)} ({v.number})
                     </option>
                   ))}
                 </select>

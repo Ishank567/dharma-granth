@@ -57,7 +57,7 @@ export function VerseText({ verse: v, chapterId, href, actions }: Props) {
             {lines.map((line, i) => (
               <span key={i}>{line}</span>
             ))}
-            <span className="vt-num">॥ {toDevanagari(label)} ॥</span>
+            <span className="vt-num" aria-hidden="true">॥ {toDevanagari(label)} ॥</span>
           </p>
           {transliteration && (
             <p lang="sa-Latn" className="vt-tr">

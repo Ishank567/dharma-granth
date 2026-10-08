@@ -205,8 +205,10 @@ export function ContextTimeline({
   previousHref,
   passageHref,
   nextHref,
+  dialogue,
 }: {
   steps: ContextStep[];
+  dialogue?: { speaker: string; listener: string; situation: string; question: string };
   previousHref?: string;
   passageHref?: string;
   nextHref?: string;
@@ -220,18 +222,52 @@ export function ContextTimeline({
         </h3>
         <LabelChip kind="editorial" />
       </div>
-      <ol className="relative space-y-3 border-l-2 border-dharma-border pl-5">
-        {steps.map((s, i) => (
-          <li key={i} aria-current={s.current ? 'step' : undefined} className="relative text-[0.95rem] text-dharma-text">
-            <span
-              aria-hidden="true"
-              className={`absolute -left-[1.72rem] top-1.5 h-3 w-3 rounded-full border-2 ${s.current ? 'border-saffron-700 bg-saffron-600' : 'border-dharma-border bg-dharma-bg'}`}
-            />
-            {s.current && <span className="mr-2 rounded-full bg-saffron-700 px-2 py-0.5 text-[11px] font-bold text-white">This verse</span>}
-            {s.text}
-          </li>
-        ))}
-      </ol>
+      {dialogue && (
+        <dl className="mb-4 grid gap-x-4 gap-y-1.5 rounded-xl border border-dharma-border bg-dharma-bg p-3.5 text-sm sm:grid-cols-[8rem_1fr]">
+          {(
+            [
+              ['Who is speaking?', dialogue.speaker],
+              ['Who is listening?', dialogue.listener],
+              ['What is happening?', dialogue.situation],
+              ['What is being answered?', dialogue.question],
+            ] as const
+          ).map(([k, v]) => (
+            <div key={k} className="contents">
+              <dt className="font-semibold text-dharma-muted">{k}</dt>
+              <dd className="text-dharma-text">{v}</dd>
+            </div>
+          ))}
+        </dl>
+      )}
+      {(() => {
+        const at = steps.findIndex((s) => s.current);
+        const groups: Array<[string, ContextStep[]]> =
+          at < 0
+            ? [['', steps]]
+            : [
+                ['Before this verse', steps.slice(0, at)],
+                ['This verse', [steps[at]]],
+                ['After this verse', steps.slice(at + 1)],
+              ];
+        return groups
+          .filter(([, g]) => g.length > 0)
+          .map(([title, g]) => (
+            <div key={title || 'all'} className="mb-3 last:mb-0">
+              {title && <h4 className="mb-1.5 text-xs font-bold uppercase tracking-wide text-dharma-muted">{title}</h4>}
+              <ol className="relative space-y-3 border-l-2 border-dharma-border pl-5">
+                {g.map((s, i) => (
+                  <li key={i} aria-current={s.current ? 'step' : undefined} className="relative text-[0.95rem] text-dharma-text">
+                    <span
+                      aria-hidden="true"
+                      className={`absolute -left-[1.72rem] top-1.5 h-3 w-3 rounded-full border-2 ${s.current ? 'border-saffron-700 bg-saffron-600' : 'border-dharma-border bg-dharma-bg'}`}
+                    />
+                    {s.text}
+                  </li>
+                ))}
+              </ol>
+            </div>
+          ));
+      })()}
       <div className="mt-4 flex flex-wrap gap-2">
         {previousHref && <Link href={previousHref} className={link}>Read previous verse</Link>}
         {passageHref && <Link href={passageHref} className={link}>Read full passage</Link>}
@@ -247,15 +283,16 @@ export function Verse30({ data }: { data: UnderstandingExtras['thirtySeconds'] }
   const rows: Array<[string, string]> = [
     ['Situation', data.situation],
     ['Teaching', data.teaching],
-    ['Reminder', data.reminder],
+    ['Clarification', data.clarification],
     ['Try', data.tryThis],
   ];
   return (
     <section aria-labelledby="v30-h" className="understand-fade rounded-2xl border border-saffron-500/40 bg-saffron-50/70 p-4 dark:bg-saffron-950/25 sm:p-5">
       <div className="mb-3 flex flex-wrap items-center gap-3">
         <h3 id="v30-h" className="font-serif text-base font-bold uppercase tracking-wide text-dharma-text">Verse in 30 seconds</h3>
-        <LabelChip kind="simple" />
+        <LabelChip kind="editorial" />
       </div>
+      <p className="-mt-1 mb-3 text-xs text-dharma-muted">A simplified editorial explanation, not part of the scripture.</p>
       <dl className="grid gap-x-4 gap-y-2 sm:grid-cols-[7rem_1fr]">
         {rows.map(([k, v]) => (
           <div key={k} className="contents">

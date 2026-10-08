@@ -1,9 +1,9 @@
 'use client';
 
-import { useState, useRef, useEffect, type ReactNode } from 'react';
+import { useState, useRef, useEffect, type ReactNode, type CSSProperties } from 'react';
 import Link from 'next/link';
 import { AnimatePresence, motion } from 'framer-motion';
-import { BookOpen, ExternalLink, Sparkles, X } from 'lucide-react';
+import { BookOpen, Sparkles, X } from 'lucide-react';
 import { dictionary, termCategories, type DictionaryTerm } from '@/data/dictionary';
 import { triggerTactileFeedback } from '@/lib/haptics';
 
@@ -37,12 +37,29 @@ for (const item of dictionary) {
   }
 }
 
+function escapeRegExp(str: string): string {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+// Check lookbehind support safely across all browsers/engines
+const SUPPORTS_LOOKBEHIND = (() => {
+  try {
+    new RegExp('(?<=a)b');
+    return true;
+  } catch {
+    return false;
+  }
+})();
+
 // Regex matching whole word boundary in Devanagari
 const SANSKRIT_KEYWORDS = Array.from(TERM_LOOKUP.keys())
   .sort((a, b) => b.length - a.length)
+  .map(escapeRegExp)
   .join('|');
 
-const GLOSSARY_REGEX = new RegExp(`(?<=^|[\\s।,॥\\[\\]\\(\\)\\-])(${SANSKRIT_KEYWORDS})(?=[\\s।,॥\\[\\]\\(\\)\\-]|$)`, 'g');
+const GLOSSARY_REGEX = SUPPORTS_LOOKBEHIND
+  ? new RegExp(`(?<=^|[\\s।,॥\\[\\]\\(\\)\\-])(${SANSKRIT_KEYWORDS})(?=[\\s।,॥\\[\\]\\(\\)\\-]|$)`, 'g')
+  : new RegExp(`(^|[\\s।,॥\\[\\]\\(\\)\\-])(${SANSKRIT_KEYWORDS})([\\s।,॥\\[\\]\\(\\)\\-]|$)`, 'g');
 
 export interface GlossaryTooltipProps {
   term: DictionaryTerm;
@@ -52,7 +69,7 @@ export interface GlossaryTooltipProps {
 export function GlossaryTooltip({ term, children }: GlossaryTooltipProps) {
   const [open, setOpen] = useState(false);
   const [placement, setPlacement] = useState<'top' | 'bottom'>('top');
-  const [align, setAlign] = useState<'center' | 'left' | 'right'>('center');
+  const [coords, setCoords] = useState<{ leftOffset: number; cardWidth: number } | null>(null);
   const containerRef = useRef<HTMLSpanElement>(null);
   const triggerRef = useRef<HTMLSpanElement>(null);
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -80,29 +97,50 @@ export function GlossaryTooltip({ term, children }: GlossaryTooltipProps) {
     triggerTactileFeedback('medium', 'softTap');
   }
 
-  // Calculate viewport boundaries and flip/align to prevent clipping off-screen
-  useEffect(() => {
-    if (!open || !containerRef.current) return;
+  // Calculate strict viewport boundaries so the tooltip NEVER clips off-screen
+  const updatePosition = () => {
+    if (!containerRef.current || typeof window === 'undefined') return;
     const rect = containerRef.current.getBoundingClientRect();
+    const screenWidth = window.innerWidth;
+    const screenHeight = window.innerHeight;
 
-    // If less than 240px from the top of the viewport, flip below the trigger
-    if (rect.top < 240) {
+    // Flip vertical placement based on viewport clearance
+    if (rect.top < 260 && screenHeight - rect.bottom > 200) {
       setPlacement('bottom');
     } else {
       setPlacement('top');
     }
 
-    const screenWidth = window.innerWidth;
-    const halfCardWidth = 150;
-    const centerX = rect.left + rect.width / 2;
+    // Determine card width (max 320px, clamped to screen - 24px margin)
+    const cardWidth = Math.min(320, Math.max(260, screenWidth - 24));
+    const idealLeft = rect.width / 2 - cardWidth / 2;
+    const viewportLeft = rect.left + idealLeft;
 
-    if (centerX < halfCardWidth + 16) {
-      setAlign('left');
-    } else if (screenWidth - centerX < halfCardWidth + 16) {
-      setAlign('right');
-    } else {
-      setAlign('center');
+    let shift = 0;
+    if (viewportLeft < 12) {
+      shift = 12 - viewportLeft;
+    } else if (viewportLeft + cardWidth > screenWidth - 12) {
+      shift = screenWidth - 12 - (viewportLeft + cardWidth);
     }
+
+    setCoords({
+      leftOffset: idealLeft + shift,
+      cardWidth,
+    });
+  };
+
+  useEffect(() => {
+    if (!open) return;
+    updatePosition();
+    const handleScrollOrResize = () => {
+      updatePosition();
+    };
+    window.addEventListener('resize', handleScrollOrResize, { passive: true });
+    window.addEventListener('scroll', handleScrollOrResize, { passive: true });
+    return () => {
+      window.removeEventListener('resize', handleScrollOrResize);
+      window.removeEventListener('scroll', handleScrollOrResize);
+    };
   }, [open]);
 
   // Dismiss on clicking outside
@@ -137,10 +175,18 @@ export function GlossaryTooltip({ term, children }: GlossaryTooltipProps) {
   const dialogId = `glossary-dialog-${term.id}`;
   const triggerId = `glossary-trigger-${term.id}`;
 
-  const positionClasses = [
-    placement === 'top' ? 'bottom-full mb-2' : 'top-full mt-2',
-    align === 'left' ? 'left-0' : align === 'right' ? 'right-0' : 'left-1/2 -translate-x-1/2',
-  ].join(' ');
+  const dynamicStyle: CSSProperties = coords
+    ? {
+        position: 'absolute',
+        left: `${coords.leftOffset}px`,
+        width: `${coords.cardWidth}px`,
+      }
+    : {
+        position: 'absolute',
+        left: '50%',
+        transform: 'translateX(-50%)',
+        width: 'min(320px, calc(100vw - 24px))',
+      };
 
   return (
     <span
@@ -180,12 +226,15 @@ export function GlossaryTooltip({ term, children }: GlossaryTooltipProps) {
             transition={{ duration: 0.16, ease: 'easeOut' }}
             role="dialog"
             aria-label={`${term.term} शब्दार्थ`}
-            className={`absolute z-50 w-72 sm:w-80 max-w-[calc(100vw-2rem)] rounded-2xl border border-amber-500/30 bg-dharma-card/95 backdrop-blur-xl p-4 shadow-2xl ring-1 ring-amber-500/10 text-left text-dharma-text pointer-events-auto ${positionClasses}`}
+            style={dynamicStyle}
+            className={`z-50 rounded-2xl border border-amber-500/30 bg-dharma-card/98 backdrop-blur-xl p-4 shadow-2xl ring-1 ring-amber-500/15 text-left text-dharma-text pointer-events-auto ${
+              placement === 'top' ? 'bottom-full mb-2' : 'top-full mt-2'
+            }`}
           >
             {/* Header: Term & Category */}
             <div className="flex items-start justify-between gap-2 mb-2">
               <div>
-                <div className="flex items-center gap-1.5">
+                <div className="flex items-center gap-1.5 flex-wrap">
                   <span className="font-serif text-lg font-bold text-amber-700 dark:text-amber-300" lang="sa">
                     {term.sanskrit}
                   </span>
@@ -249,8 +298,10 @@ export function GlossaryTooltip({ term, children }: GlossaryTooltipProps) {
  * Automatically parses text, detects key philosophical terms,
  * and wraps them with the interactive GlossaryTooltip.
  */
-export function GlossaryText({ text }: { text: string }) {
-  if (!text) return null;
+export function GlossaryText({ text }: { text?: string | null }) {
+  if (!text || typeof text !== 'string') {
+    return text ? <>{text}</> : null;
+  }
 
   const parts: ReactNode[] = [];
   let lastIndex = 0;
@@ -260,9 +311,15 @@ export function GlossaryText({ text }: { text: string }) {
   let match: RegExpExecArray | null;
 
   while ((match = regex.exec(text)) !== null) {
-    const matchedWord = match[1];
-    const matchStart = match.index;
-    const matchEnd = matchStart + matchedWord.length;
+    // If lookbehind is supported, match[1] is the word.
+    // If fallback capturing is used, match[1] is prefix, match[2] is word, match[3] is suffix.
+    const hasPrefix = !SUPPORTS_LOOKBEHIND && match[1];
+    const matchedWord = SUPPORTS_LOOKBEHIND ? match[1] : match[2];
+    const prefixLen = hasPrefix ? match[1].length : 0;
+    const matchStart = match.index + prefixLen;
+    const matchEnd = matchStart + (matchedWord ? matchedWord.length : 0);
+
+    if (!matchedWord) continue;
 
     // Append preceding plain text
     if (matchStart > lastIndex) {

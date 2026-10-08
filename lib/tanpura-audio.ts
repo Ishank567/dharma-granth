@@ -5,7 +5,7 @@
  *
  * Implements a pure Web Audio API ambient acoustic tanpura drone:
  * - Sa-Pa-Sa-Sa classical Indian tuning:
- *     1. Pancham (Pa): ~207.65 Hz (or Madhyam Ma: ~184.79 Hz)
+ *     1. Pancham (Pa): ~207.65 Hz (or Madhyam Ma)
  *     2. Tar Sa (High Sa): ~277.18 Hz
  *     3. Tar Sa (High Sa): ~277.18 Hz (slight acoustic chorus detuning)
  *     4. Kharaj Sa (Low Sa): ~138.59 Hz (deep resonant root)
@@ -13,34 +13,79 @@
  * - Gentle cyclic plucking cadence (Pa -> Sa -> Sa -> Kharaj Sa every ~1.8 seconds)
  * - Warm low-pass acoustic filtering so it sits gently beneath speech recitation
  * - Smooth exponential fade-in and fade-out to prevent audio clicks
+ * - Pitch presets: C# (Standard), D (High / Vedic), A# (Deep Meditative)
+ * - Live volume control (0.0 to 1.0) with smooth real-time gain ramping
  * - Zero network overhead, zero external files, 100% offline capable.
  */
 
 const STORAGE_KEY = 'dharma_tanpura_enabled';
+const VOLUME_STORAGE_KEY = 'dharma_tanpura_volume';
+const PITCH_STORAGE_KEY = 'dharma_tanpura_pitch';
+
+export type TanpuraPitch = 'C#' | 'D' | 'A#';
+
+export interface TanpuraSettings {
+  volume: number;
+  pitch: TanpuraPitch;
+}
+
+const PITCH_ROOTS: Record<TanpuraPitch, number> = {
+  'C#': 138.59,
+  'D': 146.83,
+  'A#': 116.54,
+};
 
 type Listener = (isPlaying: boolean) => void;
+type SettingsListener = (settings: TanpuraSettings) => void;
+
 const listeners = new Set<Listener>();
+const settingsListeners = new Set<SettingsListener>();
 
 let audioCtx: AudioContext | null = null;
 let masterGain: GainNode | null = null;
+let disconnectTimeout: ReturnType<typeof setTimeout> | null = null;
 let isPlaying = false;
 let sequenceTimer: ReturnType<typeof setInterval> | null = null;
 let currentStep = 0;
 
-// Classical Indian Tanpura String Frequencies based on C#3 (138.59 Hz)
-// Pa (Pancham) = 3/2 * Sa, Tar Sa = 2 * Sa, Kharaj Sa = 1 * Sa
-const SA_ROOT = 138.59;
-const STRINGS = [
-  { name: 'Pa', freq: SA_ROOT * 1.5, detune: 0, gain: 0.05, duration: 4.5 },
-  { name: 'Tar Sa 1', freq: SA_ROOT * 2, detune: -2, gain: 0.045, duration: 4.2 },
-  { name: 'Tar Sa 2', freq: SA_ROOT * 2, detune: +2, gain: 0.045, duration: 4.2 },
-  { name: 'Kharaj Sa', freq: SA_ROOT, detune: 0, gain: 0.065, duration: 5.5 },
-];
+let currentVolume = 0.45;
+let currentPitch: TanpuraPitch = 'C#';
+
+// Initialise settings from localStorage if available in browser
+if (typeof window !== 'undefined') {
+  try {
+    const savedVol = localStorage.getItem(VOLUME_STORAGE_KEY);
+    if (savedVol !== null) {
+      const parsed = parseFloat(savedVol);
+      if (!Number.isNaN(parsed) && parsed >= 0 && parsed <= 1) {
+        currentVolume = parsed;
+      }
+    }
+    const savedPitch = localStorage.getItem(PITCH_STORAGE_KEY) as TanpuraPitch | null;
+    if (savedPitch && PITCH_ROOTS[savedPitch]) {
+      currentPitch = savedPitch;
+    }
+  } catch {}
+}
+
+function getSaRoot(): number {
+  return PITCH_ROOTS[currentPitch] || 138.59;
+}
+
+function getStringsConfig() {
+  const sa = getSaRoot();
+  return [
+    { name: 'Pa', freq: sa * 1.5, detune: 0, gain: 0.05, duration: 4.5 },
+    { name: 'Tar Sa 1', freq: sa * 2, detune: -2, gain: 0.045, duration: 4.2 },
+    { name: 'Tar Sa 2', freq: sa * 2, detune: +2, gain: 0.045, duration: 4.2 },
+    { name: 'Kharaj Sa', freq: sa, detune: 0, gain: 0.065, duration: 5.5 },
+  ];
+}
 
 function getAudioContext(): AudioContext | null {
   if (typeof window === 'undefined') return null;
   try {
-    if (!audioCtx) {
+    if (!audioCtx || audioCtx.state === 'closed') {
       const AudioCtxClass =
         window.AudioContext ||
         (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext;
@@ -65,6 +110,15 @@ function notifyListeners() {
   });
 }
 
+function notifySettingsListeners() {
+  const current = { volume: currentVolume, pitch: currentPitch };
+  settingsListeners.forEach((fn) => {
+    try {
+      fn(current);
+    } catch {}
+  });
+}
+
 /**
  * Pluck a single tanpura string with authentic Jivari acoustic overtones
  */
@@ -72,10 +126,11 @@ function pluckString(stringIdx: number) {
   const ctx = getAudioContext();
   if (!ctx || !isPlaying || !masterGain) return;
 
-  const str = STRINGS[stringIdx % STRINGS.length];
+  const strings = getStringsConfig();
+  const str = strings[stringIdx % strings.length];
   const now = ctx.currentTime;
 
-  // Each tanpura string generates a fundamental plus rich jawari harmonics (2x, 3x, 4x, 5x, 6x)
+  // Rich jawari harmonic series
   const harmonics = [
     { mult: 1, amp: 1.0, type: 'sawtooth' as OscillatorType },
     { mult: 2, amp: 0.6, type: 'sine' as OscillatorType },
@@ -86,9 +141,7 @@ function pluckString(stringIdx: number) {
   // String envelope gain
   const stringGain = ctx.createGain();
   stringGain.gain.setValueAtTime(0.0001, now);
-  // Gentle pluck attack (80ms)
   stringGain.gain.linearRampToValueAtTime(str.gain, now + 0.08);
-  // Natural resonant acoustic decay
   stringGain.gain.exponentialRampToValueAtTime(0.0001, now + str.duration);
 
   // Warm acoustic wood body filter (Tumba gourd resonance)
@@ -138,16 +191,62 @@ export function setTanpuraEnabled(enabled: boolean): void {
   } catch {}
 }
 
+export function getTanpuraVolume(): number {
+  return currentVolume;
+}
+
+export function setTanpuraVolume(volume: number): void {
+  const clamped = Math.min(1.0, Math.max(0.0, volume));
+  currentVolume = clamped;
+  if (typeof window !== 'undefined') {
+    try {
+      localStorage.setItem(VOLUME_STORAGE_KEY, String(clamped));
+    } catch {}
+  }
+  if (masterGain && audioCtx && isPlaying) {
+    try {
+      const now = audioCtx.currentTime;
+      masterGain.gain.cancelScheduledValues(now);
+      masterGain.gain.linearRampToValueAtTime(clamped, now + 0.15);
+    } catch {}
+  }
+  notifySettingsListeners();
+}
+
+export function getTanpuraPitch(): TanpuraPitch {
+  return currentPitch;
+}
+
+export function setTanpuraPitch(pitch: TanpuraPitch): void {
+  if (!PITCH_ROOTS[pitch]) return;
+  currentPitch = pitch;
+  if (typeof window !== 'undefined') {
+    try {
+      localStorage.setItem(PITCH_STORAGE_KEY, pitch);
+    } catch {}
+  }
+  notifySettingsListeners();
+}
+
 export function startTanpura(): void {
   if (isPlaying) return;
   const ctx = getAudioContext();
   if (!ctx) return;
 
+  if (disconnectTimeout) {
+    clearTimeout(disconnectTimeout);
+    disconnectTimeout = null;
+  }
+
   try {
+    if (ctx.state === 'suspended') {
+      ctx.resume().catch(() => {});
+    }
+
     masterGain = ctx.createGain();
     masterGain.gain.setValueAtTime(0.0001, ctx.currentTime);
-    // Smooth fade in over 1.2s to 1.0 (individual string gains control relative loudness)
-    masterGain.gain.linearRampToValueAtTime(1.0, ctx.currentTime + 1.2);
+    // Smooth fade in to currentVolume
+    masterGain.gain.linearRampToValueAtTime(Math.max(0.05, currentVolume), ctx.currentTime + 1.2);
     masterGain.connect(ctx.destination);
 
     isPlaying = true;
@@ -160,7 +259,7 @@ export function startTanpura(): void {
     // Pluck subsequent strings in sequence every 1.8 seconds (Pa -> Sa -> Sa -> Low Sa)
     sequenceTimer = setInterval(() => {
       pluckString(currentStep);
-      currentStep = (currentStep + 1) % STRINGS.length;
+      currentStep = (currentStep + 1) % 4;
     }, 1800);
 
     notifyListeners();
@@ -182,14 +281,15 @@ export function stopTanpura(): void {
     try {
       const now = audioCtx.currentTime;
       masterGain.gain.cancelScheduledValues(now);
-      // Smooth fade-out over 0.8s
-      masterGain.gain.linearRampToValueAtTime(0.0001, now + 0.8);
+      // Smooth fade-out over 0.7s
+      masterGain.gain.linearRampToValueAtTime(0.0001, now + 0.7);
       const targetGain = masterGain;
-      setTimeout(() => {
+      disconnectTimeout = setTimeout(() => {
         try {
           targetGain.disconnect();
         } catch {}
-      }, 900);
+        disconnectTimeout = null;
+      }, 750);
     } catch {}
     masterGain = null;
   }
@@ -214,5 +314,12 @@ export function subscribeTanpura(listener: Listener): () => void {
   listeners.add(listener);
   return () => {
     listeners.delete(listener);
+  };
+}
+
+export function subscribeTanpuraSettings(listener: SettingsListener): () => void {
+  settingsListeners.add(listener);
+  return () => {
+    settingsListeners.delete(listener);
   };
 }

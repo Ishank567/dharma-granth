@@ -13,6 +13,7 @@ import { verseOgPath, versePageHref, verseSlug } from '@/lib/verse-paths';
 import { scriptureLastChanged } from '@/lib/content-dates';
 import { cleanVerseField, verseLines } from '@/lib/verse-format';
 import { getVerseIntegrations } from '@/lib/verse-integrations';
+import { TrustBadges } from '@/app/components/TrustBadges';
 import { UnderstandPanel } from '@/app/components/understand/UnderstandPanel';
 import { VerseCompletion } from '@/app/components/understand/VerseCompletion';
 import { getUnderstandingExtras } from '@/data/understanding';
@@ -280,13 +281,20 @@ export default function VersePage({ params }: PageProps) {
             extras={getUnderstandingExtras(meta.id, chapterId, params.verseId)}
             refKey={`${meta.id}:${chapterId}:${params.verseId}`}
             reference={ref}
-            previousHref={prevHref}
             translation={verse.translation}
             translationIsAi={verse.translationSource === 'ai'}
+            previousHref={prevHref}
             nextHref={nextHref}
             pageUrl={pageUrl}
           />
         )}
+        <TrustBadges
+          className="mt-8"
+          sourceHost={repoLabel(source.repo)}
+          translationIsAi={verse.hindiSource === 'ai' || verse.translationSource === 'ai'}
+          commentaryIsAi={Boolean(comment?.ai)}
+          hasEditorial={Boolean(pedagogical)}
+        />
         <SourcesAndInterpretation
           scriptureId={meta.id}
           scriptureTitle={meta.title}
@@ -297,6 +305,7 @@ export default function VersePage({ params }: PageProps) {
           sourceUrlOverride={source.repo}
           className="mt-8"
         />
+        <RelatedTeachings scriptureId={meta.id} chapterId={chapterId} verseNumber={params.verseId} />
         <VerseRelatedSection
           concepts={integrations.concepts}
           topics={integrations.topics}
@@ -307,7 +316,6 @@ export default function VersePage({ params }: PageProps) {
           reference={ref}
           readerRef={{ scriptureId: meta.id, scriptureTitle: meta.title, scriptureTitleSanskrit: meta.titleSanskrit, chapterId, chapterTitle: chapterName, url: pageUrl }}
           verse={{ number: verse.number, sanskrit: verse.sanskrit, transliteration: verse.transliteration, hindi: verse.hindi, translation: verse.translation }}
-        <RelatedTeachings scriptureId={meta.id} chapterId={chapterId} verseNumber={params.verseId} />
           nextHref={nextHref}
           chapterHref={chapterHref}
         />
