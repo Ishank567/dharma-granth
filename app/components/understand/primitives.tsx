@@ -292,7 +292,7 @@ export function Verse30({ data }: { data: UnderstandingExtras['thirtySeconds'] }
         <h3 id="v30-h" className="font-serif text-base font-bold uppercase tracking-wide text-dharma-text">Verse in 30 seconds</h3>
         <LabelChip kind="editorial" />
       </div>
-      <p className="-mt-1 mb-3 text-xs text-dharma-muted">A simplified editorial explanation, not part of the scripture.</p>
+      <p className="-mt-1 mb-3 text-xs text-dharma-muted">Simplified editorial explanation · not a translation and not part of the scripture.</p>
       <dl className="grid gap-x-4 gap-y-2 sm:grid-cols-[7rem_1fr]">
         {rows.map(([k, v]) => (
           <div key={k} className="contents">

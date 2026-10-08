@@ -21,7 +21,7 @@ export function RelatedTeachings({ scriptureId, chapterId, verseNumber }: { scri
             <p className="text-xs font-bold uppercase tracking-wide text-dharma-muted">{CONNECTION_LABEL[c.kind]}</p>
             <p className="mt-0.5 font-semibold text-dharma-text">
               {c.href ? (
-                <Link href={c.href} className="text-saffron-800 underline underline-offset-2 dark:text-saffron-300">{c.scriptureTitle} {c.reference}</Link>
+                <Link href={c.href} className="inline-flex min-h-[44px] items-center text-saffron-800 underline underline-offset-2 dark:text-saffron-300">{c.scriptureTitle} {c.reference}</Link>
               ) : (
                 <>{c.scriptureTitle} {c.reference}</>
               )}

@@ -85,7 +85,7 @@ export function CompareViews({ verse, provenance: p }: { verse: ReaderVerseText;
                   onMouseLeave={() => setHot(null)}
                   onFocus={() => setHot(i)}
                   onBlur={() => setHot(null)}
-                  className={`focus-ring block w-full rounded px-1.5 py-0.5 text-left ${hot === i ? 'bg-amber-100 outline outline-1 outline-amber-700/40 dark:bg-amber-900/40' : ''}`}
+                  className={`focus-ring block min-h-[44px] w-full rounded px-1.5 py-2 text-left ${hot === i ? 'bg-amber-100 outline outline-1 outline-amber-700/40 dark:bg-amber-900/40' : ''}`}
                 >
                   {line}
                 </button>
