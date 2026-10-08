@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { track } from '@/lib/analytics';
 
 type Rating = 'yes' | 'partly' | 'no';
 
@@ -60,6 +61,7 @@ export function ExplanationFeedback({ refKey, reference }: { refKey: string; ref
       setStorageOk(false);
     }
     setSent(true);
+    track('feedback_submitted', { rating: nextRating });
   }
 
   function choose(r: Rating) {

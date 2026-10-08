@@ -105,6 +105,34 @@ async function main() {
   assert.equal(col.sanitize({ collections: [{ id: 'bad id!', name: 'x' }, { id: 'ok-1', name: 'Fine' }], assign: { 'bhagavadgita:2:47': 'missing' } }).collections.length, 6);
   assert.deepEqual(col.sanitize(null), col.emptyState());
 
+  /* ── Analytics policy ── */
+  const an = await import('../lib/analytics');
+  assert.equal(an.cleanEvent('not_an_event', {}), null, 'unknown events are dropped');
+  const saved1 = an.cleanEvent('verse_saved', { scriptureId: 'bhagavadgita', collectionId: 'read-later', note: 'my private thought', text: 'secret' });
+  assert.deepEqual(saved1?.props, { scriptureId: 'bhagavadgita', collectionId: 'read-later' }, 'properties not on the allowlist are dropped');
+  assert.deepEqual(an.cleanEvent('verse_saved', { scriptureId: 'I felt anxious today about my exam' })?.props, {}, 'sentences are dropped even in an allowed property');
+  assert.deepEqual(an.cleanEvent('feedback_submitted', { rating: 'partly', reasons: ['Language was difficult'] })?.props, { rating: 'partly' });
+  assert.deepEqual(an.cleanEvent('collection_created', { name: 'Grief and my mother' })?.props, {}, 'collection names are never sent');
+  assert.deepEqual(an.cleanEvent('search_completed', { resultCount: 12, intent: 'about', query: 'verses about my anger' })?.props, { resultCount: 12, intent: 'about' }, 'search text is never sent');
+  assert.deepEqual(an.cleanEvent('search_completed', { resultCount: Number.NaN })?.props, {});
+  for (const [name, allowed] of Object.entries(an.EVENT_PROPERTIES)) {
+    for (const p of allowed) assert.ok(!/note|text|reflection|journal|query|name|voice|recording|japa/i.test(p), `${name}.${p} could carry private text`);
+  }
+  // No sink and no tracking unless allowed.
+  const seen: unknown[] = [];
+  (globalThis as unknown as { window: Record<string, unknown> }).window.__dharmaAnalytics = (e: unknown) => seen.push(e);
+  (globalThis as unknown as { window: Record<string, unknown> }).window.navigator = { doNotTrack: '1' };
+  (globalThis as unknown as { window: Record<string, unknown> }).window.CustomEvent = class {} as unknown;
+  an.track('verse_opened', { scriptureId: 'bhagavadgita', chapter: 2, verse: '47' });
+  assert.equal(seen.length, 0, 'Do Not Track is respected');
+  (globalThis as unknown as { window: Record<string, unknown> }).window.navigator = { doNotTrack: null };
+  (globalThis as unknown as { CustomEvent: unknown }).CustomEvent = class { constructor(public type: string, public init: unknown) {} };
+  an.track('verse_opened', { scriptureId: 'bhagavadgita', chapter: 2, verse: '47' });
+  assert.equal(seen.length, 1);
+  an.setAnalyticsEnabled(false);
+  an.track('verse_opened', { scriptureId: 'bhagavadgita' });
+  assert.equal(seen.length, 1, 'the reader can turn tracking off');
+
   console.log('release1: all assertions passed');
 }
 

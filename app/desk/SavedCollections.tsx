@@ -20,6 +20,7 @@ import {
   type CollectionsState,
 } from '@/lib/verse-collections';
 import { verseCount } from '@/lib/format';
+import { track } from '@/lib/analytics';
 
 const NOTES_KEY = 'dharma.notes';
 const MAX_BYTES = 2 * 1024 * 1024;
@@ -226,7 +227,7 @@ export function SavedCollections({ onChange, onQueue }: { onChange: () => void; 
 
       <div className="mt-4 rounded-xl border border-dharma-border bg-dharma-bg p-3">
         <h3 className="text-xs font-bold uppercase tracking-wide text-dharma-muted">Manage collections</h3>
-        <form className="mt-2 flex flex-wrap items-end gap-2" onSubmit={(e) => { e.preventDefault(); const r = createCollection(state, newName); if (r.error) setMsg(r.error); else { commit(r.state, `Collection “${newName.trim()}” created.`); setNewName(''); } }}>
+        <form className="mt-2 flex flex-wrap items-end gap-2" onSubmit={(e) => { e.preventDefault(); const r = createCollection(state, newName); if (r.error) setMsg(r.error); else { commit(r.state, `Collection “${newName.trim()}” created.`); setNewName(''); track('collection_created'); } }}>
           <label className="min-w-[10rem] flex-1 text-xs font-semibold text-dharma-muted">New collection
             <input value={newName} onChange={(e) => setNewName(e.target.value)} maxLength={40} className={field} />
           </label>

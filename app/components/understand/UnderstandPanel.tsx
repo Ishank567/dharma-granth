@@ -17,6 +17,7 @@ import { PauseAndThink } from './PauseAndThink';
 import { ExplanationFeedback } from './ExplanationFeedback';
 import { WordExplorer } from './WordExplorer';
 import { ShareCardButton } from './ShareCard';
+import { track } from '@/lib/analytics';
 
 /**
  * "How would you like to understand this verse?" (spec §1–2).
@@ -67,7 +68,10 @@ export function UnderstandPanel({
   const tabs = useRef<Array<HTMLButtonElement | null>>([]);
 
   // One store for the reading depth: the Reader settings panel and this selector share it.
-  const choose = (m: Mode) => update('readerMode', m);
+  const choose = (m: Mode) => {
+    update('readerMode', m);
+    track('mode_selected', { mode: m });
+  };
 
   const onKey = (e: KeyboardEvent<HTMLButtonElement>, i: number) => {
     let n = i;

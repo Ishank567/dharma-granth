@@ -46,6 +46,7 @@ import { ReaderDialog } from './ReaderDialog';
 import { ReaderSettingsPanel } from './ReaderSettingsPanel';
 import { ReaderLayers } from './ReaderLayers';
 import { verseCount as fmtVerses } from '@/lib/format';
+import { track } from '@/lib/analytics';
 
 export interface ReaderChapter {
   id: number;
@@ -136,6 +137,7 @@ export function VerseReader(props: VerseReaderProps) {
     const state = toggleBookmark(ref, verse);
     if (state === null) return say('Could not save: browser storage is unavailable.');
     setSaved(state);
+    if (state) track('verse_saved', { scriptureId });
     triggerTactileFeedback(state ? 'success' : 'medium', state ? 'success' : 'softTap');
     say(state ? 'Verse saved' : 'Removed from saved verses');
   };
@@ -467,11 +469,11 @@ export function VerseReader(props: VerseReaderProps) {
             <button type="button" onClick={onCopy} className={actionBtn}>
               <Copy className="h-4 w-4" aria-hidden="true" /> Copy
             </button>
-            <button type="button" onClick={onShare} className={actionBtn}>
-              <Share2 className="h-4 w-4" aria-hidden="true" /> Share
             <Link href={`${chapterHref}#verse-${verse.number}`} className={actionBtn}>
               <ArrowRight className="h-4 w-4" aria-hidden="true" /> Open context
             </Link>
+            <button type="button" onClick={onShare} className={actionBtn}>
+              <Share2 className="h-4 w-4" aria-hidden="true" /> Share
             </button>
             <button type="button" onClick={onDownload} className={actionBtn}>
               <Download className="h-4 w-4" aria-hidden="true" /> Download
