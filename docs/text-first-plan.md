@@ -82,3 +82,14 @@ Not done in this phase: nothing else from Phases 2 and 3. No audio work was done
 | Five-minute reading session | Not built here: another contributor is building `/daily` in this checkout. |
 
 Not done: Phase 3 (commentary comparison data, story labels, editorial dashboard additions, offline reading, human media). Open for a decision: the device-speech controls and `/listen`.
+
+## Phase 3 status (2026-10-08)
+
+| Item | Result |
+|---|---|
+| Story labels | Already in place on `/story`: every block carries a label (scriptural, traditional, editorial, generated illustration) with a legend; nothing is offered as history. |
+| Offline reading | Already in place in `public/sw.js` (another contributor's uncommitted work): pages already opened are cached and an offline page is shown. Not changed here. |
+| Commentary comparison data | Blocked on content: the views exist but no reviewed commentary is recorded. Adding text without a reviewed source would be invention, so none was added. |
+| Human media | Not started; needs recordings or images supplied by people. |
+
+Verification: `tsc --noEmit`, `check:diagrams`, `check:concept-relations`, `check:orientation` and `test:release1` all pass.
