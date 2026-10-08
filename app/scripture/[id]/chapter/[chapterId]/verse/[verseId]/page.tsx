@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { ChapterVisitRecorder } from '@/app/components/ChapterVisitRecorder';
+import { RelatedTeachings } from '@/app/components/study/RelatedTeachings';
 import { VerseRelatedSection } from '@/app/components/VerseRelatedSection';
 import { VerseReader } from '@/app/components/reader/VerseReader';
 import { SourcesAndInterpretation } from '@/app/components/SourcesAndInterpretation';
@@ -304,6 +305,7 @@ export default function VersePage({ params }: PageProps) {
           reference={ref}
           readerRef={{ scriptureId: meta.id, scriptureTitle: meta.title, scriptureTitleSanskrit: meta.titleSanskrit, chapterId, chapterTitle: chapterName, url: pageUrl }}
           verse={{ number: verse.number, sanskrit: verse.sanskrit, transliteration: verse.transliteration, hindi: verse.hindi, translation: verse.translation }}
+        <RelatedTeachings scriptureId={meta.id} chapterId={chapterId} verseNumber={params.verseId} />
           nextHref={nextHref}
           chapterHref={chapterHref}
         />

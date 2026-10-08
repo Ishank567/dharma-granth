@@ -3,6 +3,10 @@
 import { useEffect, useRef, type ReactNode } from 'react';
 import { Atom, BookOpen, ChevronDown, Compass, Languages, Lightbulb, Quote, ScrollText, Sparkles } from 'lucide-react';
 import { cleanVerseField, toDevanagari, verseLines } from '@/lib/verse-format';
+import { parseWordMeanings } from '@/lib/word-gloss';
+import { ExplainLine } from '@/app/components/study/ExplainLine';
+import { CompareViews } from '@/app/components/study/CompareViews';
+import { CommentaryCompare } from '@/app/components/study/CommentaryCompare';
 import type { ReaderProvenance, ReaderVerseText } from '@/lib/reader-actions';
 import type { ReaderSettings } from '@/lib/useReaderSettings';
 
@@ -202,41 +206,21 @@ function Layer({
 
 /* ── Word-by-word ──────────────────────────────────────────────────── */
 
-export interface WordGloss {
-  pada: string;
-  meaning: string;
-}
-
-/** Splits "word—meaning; word—meaning" glosses. Returns [] when the text isn't in that form. */
-export function parseWordMeanings(text?: string): WordGloss[] {
-  if (!text) return [];
-  const out: WordGloss[] = [];
-  text
-    .split(/;\s*|\n+/)
-    .map((s) => s.trim())
-    .filter(Boolean)
-    .forEach((item) => {
-      const cut = item.search(/\s*[—–]\s*|\s-\s/);
-      if (cut > 0) {
-        const pada = item.slice(0, cut).trim();
-        const meaning = item.slice(cut).replace(/^\s*[—–-]\s*/, '').trim();
-        if (pada && meaning) out.push({ pada, meaning });
-      }
-    });
-  return out;
-}
+export { parseWordMeanings, type WordGloss } from '@/lib/word-gloss';
 
 const dash = (s: string) => s.replace(/[\s|।॥0-9.]+$/, '');
 
 /* ── The ten layers, in the required order ─────────────────────────── */
 
 export function ReaderLayers({
+  scriptureId,
   verse,
   chapterId,
   provenance: p,
   settings,
   onReport,
 }: {
+  scriptureId: string;
   verse: ReaderVerseText;
   chapterId: number;
   provenance: ReaderProvenance;
@@ -256,7 +240,8 @@ export function ReaderLayers({
       {/* 1 · Original Sanskrit */}
       <Layer id="layer-sanskrit" kind="source" title="Original Sanskrit" titleHi="मूल संस्कृत">
         {lines.length > 0 ? (
-          <p lang="sa" className={`text-center font-devanagari font-semibold text-dharma-text ${SANSKRIT_SIZE[settings.sanskritSize]} ${devLeading}`}>
+          <>
+          <p id="sanskrit-text" lang="sa" className={`text-center font-devanagari font-semibold text-dharma-text ${SANSKRIT_SIZE[settings.sanskritSize]} ${devLeading}`}>
             {lines.map((line, i) => (
               <span key={i} className="block">
                 {line}
@@ -277,6 +262,8 @@ export function ReaderLayers({
           <p lang="sa-Latn" className={`whitespace-pre-line font-serif italic text-dharma-text/90 ${tSize} ${latinLeading}`}>
             {dash(cleanVerseField(verse.transliteration))}
           </p>
+          <ExplainLine scriptureId={scriptureId} chapterId={chapterId} verseNumber={verse.number} lines={lines} scopeId="sanskrit-text" verseLabel={`${chapterId}.${verse.number}`} fullTranslation={cleanVerseField(verse.translation)} />
+          </>
         </Layer>
       )}
 
@@ -377,7 +364,14 @@ export function ReaderLayers({
         </Layer>
       )}
 
-      {/* 10 · Sources and edition details */}
+      {isDeep && (
+        <>
+          <CompareViews verse={verse} provenance={p} />
+          <CommentaryCompare scriptureId={scriptureId} chapterId={chapterId} verse={verse} />
+        </>
+      )}
+
+      {/* 10 · Sources and edition details (Always accessible, collapsible) */}
       <Layer id="layer-sources" kind="sources" title="Sources and edition" titleHi="स्रोत एवं संस्करण" collapsible>
         <dl className="grid grid-cols-1 gap-x-6 gap-y-3 text-sm sm:grid-cols-2">
           <div>
