@@ -21,6 +21,7 @@ import { UnderstandPanel } from '@/app/components/understand/UnderstandPanel';
 import { VerseCompletion } from '@/app/components/understand/VerseCompletion';
 import { getUnderstandingExtras } from '@/data/understanding';
 import { getPedagogicalVerse } from '@/data/pedagogical-registry';
+import { ActivityRecorder } from '@/app/components/study/ActivityRecorder';
 
 /**
  * One static page per verse for the scriptures in VERSE_PAGE_SCRIPTURE_IDS
@@ -274,6 +275,7 @@ export default function VersePage({ params }: PageProps) {
         // eslint-disable-next-line react/no-danger
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <ActivityRecorder scriptureId={meta.id} chapterId={chapterId} verseId={String(params.verseId)} concepts={integrations.concepts.map((c) => c.id)} />
       <ChapterVisitRecorder
         scriptureId={meta.id}
         scriptureTitle={meta.title}

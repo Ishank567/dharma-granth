@@ -47,6 +47,8 @@ import { ReaderSettingsPanel } from './ReaderSettingsPanel';
 import { ReaderLayers } from './ReaderLayers';
 import { verseCount as fmtVerses } from '@/lib/format';
 import { track } from '@/lib/analytics';
+import { logActivity } from '@/lib/activity-log';
+import { isHistoryPaused } from '@/lib/reading-history';
 
 export interface ReaderChapter {
   id: number;
@@ -137,7 +139,10 @@ export function VerseReader(props: VerseReaderProps) {
     const state = toggleBookmark(ref, verse);
     if (state === null) return say('Could not save: browser storage is unavailable.');
     setSaved(state);
-    if (state) track('verse_saved', { scriptureId });
+    if (state) {
+      track('verse_saved', { scriptureId });
+      logActivity({ kind: 'saved', ref: `${scriptureId}:${chapterId}:${verse.number}` }, { paused: isHistoryPaused() });
+    }
     triggerTactileFeedback(state ? 'success' : 'medium', state ? 'success' : 'softTap');
     say(state ? 'Verse saved' : 'Removed from saved verses');
   };

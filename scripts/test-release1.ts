@@ -133,6 +133,36 @@ async function main() {
   an.track('verse_opened', { scriptureId: 'bhagavadgita' });
   assert.equal(seen.length, 1, 'the reader can turn tracking off');
 
+  /* ── Activity log and weekly summary ── */
+  const act = await import('../lib/activity-log');
+  const mem = new MemoryStorage();
+  const wed = new Date(2026, 9, 7, 10); // 7 Oct 2026, local
+  const log = (kind: 'verse' | 'saved' | 'journey' | 'lesson', ref: string, concepts?: string[], now = wed, paused = false) => act.logActivity({ kind, ref, concepts }, { store: mem, now, paused });
+  assert.equal(log('verse', 'bhagavadgita:2:47', ['karma', 'yoga']), true);
+  assert.equal(log('verse', 'bhagavadgita:2:47', ['karma']), false, 'the same verse on the same day is kept once');
+  log('verse', 'bhagavadgita:2:48', ['karma', 'dharma']);
+  log('saved', 'bhagavadgita:2:47');
+  log('lesson', 'seven-days-of-focus:f1');
+  log('journey', 'seven-days-of-focus');
+  log('verse', 'ishavasya:1:1', ['atman'], new Date(2026, 9, 1)); // 6 days before: inside the window
+  log('verse', 'old:1:1', ['maya'], new Date(2026, 8, 20)); // outside the window
+  const sum = act.weeklySummary(act.readActivity(mem), wed);
+  assert.equal(sum.teachingsExplored, 3);
+  assert.equal(sum.versesSaved, 1);
+  assert.equal(sum.journeysContinued, 1, 'lessons and journey starts of one journey count once');
+  assert.deepEqual(sum.conceptsExplored, ['karma', 'atman', 'dharma'], 'top concepts by use, ties alphabetical');
+  assert.equal(sum.activeDays, 2);
+  assert.equal(log('verse', 'x:1:1', undefined, wed, true), false, 'paused history records nothing');
+  assert.equal(act.logActivity({ kind: 'verse', ref: 'a note: I felt sad today about exams' }, { store: mem, now: wed }), false, 'free text is refused');
+  mem.setItem(act.ACTIVITY_KEY, JSON.stringify([{ day: '2026-10-07', kind: 'verse', ref: 'a:1:1', text: 'secret' }, { nope: 1 }]));
+  assert.equal(act.readActivity(mem).length, 1, 'malformed entries are ignored on read');
+  act.setSummaryEnabled(false, mem);
+  assert.equal(act.logActivity({ kind: 'verse', ref: 'a:1:2' }, { store: mem, now: wed }), false, 'switching the summary off stops recording');
+  act.setSummaryEnabled(true, mem);
+  assert.ok(act.clearActivity(mem) >= 1);
+  assert.equal(act.readActivity(mem).length, 0);
+  assert.equal(act.weeklySummary([], wed).teachingsExplored, 0);
+
   console.log('release1: all assertions passed');
 }
 

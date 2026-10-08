@@ -1,6 +1,8 @@
 'use client';
 
 import { useCallback, useEffect, useState } from 'react';
+import { logActivity } from '@/lib/activity-log';
+import { isHistoryPaused } from '@/lib/reading-history';
 
 export const JOURNEY_PROGRESS_KEY = 'dharma.journeys.v1';
 type Progress = Record<string, string[]>;
@@ -27,13 +29,17 @@ export function useJourneyProgress() {
   }, []);
 
   const toggle = useCallback((journeyId: string, lessonId: string) => {
-    setProgress((prev) => {
-      const done = prev[journeyId] ?? [];
-      const next = { ...prev, [journeyId]: done.includes(lessonId) ? done.filter((x) => x !== lessonId) : [...done, lessonId] };
-      try { localStorage.setItem(JOURNEY_PROGRESS_KEY, JSON.stringify(next)); } catch { /* holds for this visit */ }
-      return next;
-    });
-  }, []);
+    const done = progress[journeyId] ?? [];
+    const adding = !done.includes(lessonId);
+    const next = { ...progress, [journeyId]: adding ? [...done, lessonId] : done.filter((x) => x !== lessonId) };
+    setProgress(next);
+    try { localStorage.setItem(JOURNEY_PROGRESS_KEY, JSON.stringify(next)); } catch { /* holds for this visit */ }
+    if (adding) {
+      const paused = isHistoryPaused();
+      if (done.length === 0) logActivity({ kind: 'journey', ref: journeyId }, { paused });
+      logActivity({ kind: 'lesson', ref: `${journeyId}:${lessonId}` }, { paused });
+    }
+  }, [progress]);
 
   const reset = useCallback((journeyId: string) => {
     setProgress((prev) => {

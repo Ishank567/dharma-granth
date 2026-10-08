@@ -11,6 +11,7 @@ import { daysAgo } from '@/lib/format';
 import { clearOwnData } from '@/lib/backup';
 import { readRecentChapters, type ChapterVisit } from '@/lib/reading-history';
 import { READING_JOURNEYS } from '@/data/reading-journeys';
+import { WeeklySummary } from './WeeklySummary';
 
 const NOTES_KEY = 'dharma.notes';
 const QUEUE_KEY = 'dharma.desk.queue';
@@ -207,6 +208,8 @@ export function DeskClient() {
       ) : (
         <>
           <RecommendationCards />
+
+          <WeeklySummary onChange={load} />
 
           <Section id="saved-h" title="Saved verses" titleHi="सहेजे श्लोक">
             <SavedCollections onChange={load} onQueue={addToQueue} />
