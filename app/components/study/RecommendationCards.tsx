@@ -5,22 +5,12 @@ import Link from 'next/link';
 import { readRecentChapters } from '@/lib/reading-history';
 import { READING_JOURNEYS } from '@/data/reading-journeys';
 import { CONNECTIONS, verseKey } from '@/data/study-content';
+import { readRecPrefs, writeRecPrefs, type RecPrefs } from '@/lib/recommendation-prefs';
 
-const PREFS_KEY = 'dharma.recs.v1';
 const JOURNEYS_KEY = 'dharma.journeys.v1';
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
-interface Prefs { off: boolean; hidden: string[] }
 interface Card { id: string; basis: string; title: string; href: string; reason: string }
-
-function readPrefs(): Prefs {
-  try {
-    const p = JSON.parse(localStorage.getItem(PREFS_KEY) ?? '{}') as Partial<Prefs>;
-    return { off: Boolean(p.off), hidden: Array.isArray(p.hidden) ? p.hidden : [] };
-  } catch {
-    return { off: false, hidden: [] };
-  }
-}
 
 /**
  * Suggestions that always say why. They are built only from what this
@@ -29,18 +19,18 @@ function readPrefs(): Prefs {
  * reader's beliefs or identity is guessed.
  */
 export function RecommendationCards() {
-  const [prefs, setPrefs] = useState<Prefs>({ off: false, hidden: [] });
+  const [prefs, setPrefs] = useState<RecPrefs>({ off: false, hidden: [] });
   const [cards, setCards] = useState<Card[] | null>(null);
   const [open, setOpen] = useState<string | null>(null);
   const [note, setNote] = useState('');
 
-  const save = (next: Prefs) => {
+  const save = (next: RecPrefs) => {
     setPrefs(next);
-    try { localStorage.setItem(PREFS_KEY, JSON.stringify(next)); } catch { /* holds for this visit */ }
+    if (!writeRecPrefs(next)) setNote('Your browser blocked storage, so this choice lasts only for this visit.');
   };
 
   useEffect(() => {
-    const p = readPrefs();
+    const p = readRecPrefs();
     setPrefs(p);
     if (p.off) { setCards([]); return; }
     let cancelled = false;

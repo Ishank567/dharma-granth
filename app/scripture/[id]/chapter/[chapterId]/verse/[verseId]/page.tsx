@@ -2,6 +2,9 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { ChapterVisitRecorder } from '@/app/components/ChapterVisitRecorder';
 import { RelatedTeachings } from '@/app/components/study/RelatedTeachings';
+import { NextTeachings, type NextCandidate } from '@/app/components/study/NextTeachings';
+import { ReviewRequiredNotice } from '@/app/components/study/ReviewRequiredNotice';
+import { CONNECTIONS, verseKey } from '@/data/study-content';
 import { VerseRelatedSection } from '@/app/components/VerseRelatedSection';
 import { VerseReader } from '@/app/components/reader/VerseReader';
 import { SourcesAndInterpretation } from '@/app/components/SourcesAndInterpretation';
@@ -223,6 +226,47 @@ export default function VersePage({ params }: PageProps) {
 
   const pedagogical = getPedagogicalVerse(meta.id, chapterId, params.verseId);
 
+  // At most three next steps, each from this verse's own links, with the reason it is offered.
+  const reviewedLinks = CONNECTIONS[verseKey(meta.id, chapterId, params.verseId)] ?? [];
+  const nextCandidates: NextCandidate[] = [];
+  if (next && nextHref) {
+    const linked = reviewedLinks.find((c) => c.href === nextHref);
+    nextCandidates.push({
+      id: `next:${meta.id}:${chapterId}:${next.number}`,
+      kind: 'next',
+      title: `Continue with ${meta.title} ${chapterId}.${next.number}`,
+      href: nextHref,
+      reason: linked ? linked.reason : 'It is the next verse in the same chapter.',
+      basis: `You are reading ${ref}.`,
+      save: {
+        ref: { scriptureId: meta.id, scriptureTitle: meta.title, scriptureTitleSanskrit: meta.titleSanskrit, chapterId, chapterTitle: chapterName, url: `${siteUrl}${nextHref}/` },
+        verse: { number: next.number, sanskrit: next.sanskrit, transliteration: next.transliteration, hindi: next.hindi, translation: next.translation },
+      },
+    });
+  }
+  const complementary = reviewedLinks.find((c) => c.href && c.href !== nextHref);
+  if (complementary?.href) {
+    nextCandidates.push({
+      id: `link:${meta.id}:${chapterId}:${params.verseId}:${complementary.reference}`,
+      kind: 'complementary',
+      title: `${complementary.scriptureTitle} ${complementary.reference}`,
+      href: complementary.href,
+      reason: complementary.reason,
+      basis: 'A reviewed link from this verse (still marked draft until reviewed).',
+    });
+  }
+  const topConcept = integrations.concepts[0];
+  if (topConcept) {
+    nextCandidates.push({
+      id: `concept:${topConcept.id}`,
+      kind: 'concept',
+      title: `Explore the concept ${topConcept.label} (${topConcept.sanskrit})`,
+      href: `/concepts/${topConcept.id}`,
+      reason: topConcept.matchType === 'direct' ? `This verse is cited for ${topConcept.label}.` : `This verse touches the idea of ${topConcept.label}.`,
+      basis: 'The concept links recorded for this verse.',
+    });
+  }
+
   return (
     <>
       <script
@@ -288,6 +332,7 @@ export default function VersePage({ params }: PageProps) {
             pageUrl={pageUrl}
           />
         )}
+        {!pedagogical && !explanation && <ReviewRequiredNotice className="mt-8" />}
         <TrustBadges
           className="mt-8"
           sourceHost={repoLabel(source.repo)}
@@ -306,6 +351,7 @@ export default function VersePage({ params }: PageProps) {
           className="mt-8"
         />
         <RelatedTeachings scriptureId={meta.id} chapterId={chapterId} verseNumber={params.verseId} />
+        <NextTeachings candidates={nextCandidates} verseId={String(params.verseId)} />
         <VerseRelatedSection
           concepts={integrations.concepts}
           topics={integrations.topics}

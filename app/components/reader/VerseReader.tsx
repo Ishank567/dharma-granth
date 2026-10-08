@@ -469,6 +469,9 @@ export function VerseReader(props: VerseReaderProps) {
             </button>
             <button type="button" onClick={onShare} className={actionBtn}>
               <Share2 className="h-4 w-4" aria-hidden="true" /> Share
+            <Link href={`${chapterHref}#verse-${verse.number}`} className={actionBtn}>
+              <ArrowRight className="h-4 w-4" aria-hidden="true" /> Open context
+            </Link>
             </button>
             <button type="button" onClick={onDownload} className={actionBtn}>
               <Download className="h-4 w-4" aria-hidden="true" /> Download
