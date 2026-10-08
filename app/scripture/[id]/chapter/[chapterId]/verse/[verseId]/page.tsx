@@ -23,6 +23,8 @@ import { VerseCompletion } from '@/app/components/understand/VerseCompletion';
 import { getUnderstandingExtras } from '@/data/understanding';
 import { getPedagogicalVerse } from '@/data/pedagogical-registry';
 import { ActivityRecorder } from '@/app/components/study/ActivityRecorder';
+import { badgesFor } from '@/lib/review-badges';
+import { PENDING_CORRECTIONS, REVIEW_RECORDS } from '@/data/review-records';
 
 /**
  * One static page per verse for the scriptures in VERSE_PAGE_SCRIPTURE_IDS
@@ -343,6 +345,7 @@ export default function VersePage({ params }: PageProps) {
           translationIsAi={verse.hindiSource === 'ai' || verse.translationSource === 'ai'}
           commentaryIsAi={Boolean(comment?.ai)}
           hasEditorial={Boolean(pedagogical)}
+          badges={badgesFor({ scriptureId: meta.id, chapter: chapterId, verse: params.verseId, hasEditorial: Boolean(pedagogical), records: REVIEW_RECORDS, corrections: PENDING_CORRECTIONS })}
         />
         <SourcesAndInterpretation
           scriptureId={meta.id}

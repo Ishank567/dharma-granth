@@ -258,6 +258,23 @@ async function main() {
   };
   for (const p of Object.values(sh.START_PATHS)) for (const href of [p.href, ...p.steps.map((x) => x.href)]) assert.ok(routeOk(href), 'start path link resolves: ' + href);
 
+  /* ── Review badges ── */
+  const rb = await import('../lib/review-badges');
+  const badgeBase: import('../lib/review-badges').BadgeInput = { scriptureId: 'bhagavadgita', chapter: 2, verse: 47, hasEditorial: true, records: [] };
+  assert.deepEqual(rb.badgesFor(badgeBase).map((b) => b.id), ['editorial-explanation', 'draft'], 'with no recorded review only Editorial explanation and Draft appear');
+  assert.deepEqual(rb.badgesFor({ ...badgeBase, hasEditorial: false }).map((b) => b.id), [], 'nothing is claimed for a verse with no explanation and no review');
+  const rec = (kind: 'source' | 'translation' | 'commentary' | 'editorial', over: Partial<import('../lib/review-badges').ReviewRecord> = {}): import('../lib/review-badges').ReviewRecord => ({ scope: { scriptureId: 'bhagavadgita', chapter: 2, verse: 47 }, kind, reviewer: 'A. Editor', date: '2026-10-08', ...over });
+  const got = rb.badgesFor({ ...badgeBase, records: [rec('source'), rec('translation'), rec('commentary'), rec('editorial')] });
+  assert.deepEqual(got.map((b) => b.id), ['source-verified', 'translation-reviewed', 'commentary-reviewed', 'editorial-explanation'], 'recorded reviews earn their badges and remove Draft');
+  assert.ok(got[0].detail?.includes('A. Editor') && got[0].detail?.includes('2026-10-08'), 'a reviewed badge names reviewer and date');
+  assert.deepEqual(rb.badgesFor({ ...badgeBase, records: [rec('source', { reviewer: ' ' }), rec('translation', { date: 'yesterday' })] }).map((b) => b.id), ['editorial-explanation', 'draft'], 'a record without a reviewer or a valid date earns nothing');
+  assert.deepEqual(rb.badgesFor({ ...badgeBase, records: [rec('source', { scope: { scriptureId: 'bhagavadgita', chapter: 3 } })] }).map((b) => b.id), ['editorial-explanation', 'draft'], 'a review of another chapter does not apply');
+  assert.ok(rb.badgesFor({ ...badgeBase, records: [rec('source', { scope: { scriptureId: 'bhagavadgita' } })] }).some((b) => b.id === 'source-verified'), 'a whole-scripture review covers each verse');
+  assert.ok(rb.badgesFor({ ...badgeBase, corrections: [{ scope: { scriptureId: 'bhagavadgita', chapter: 2, verse: 47 } }] }).some((b) => b.id === 'correction-pending'));
+  assert.ok(!rb.badgesFor({ ...badgeBase, corrections: [{ scope: { scriptureId: 'bhagavadgita', chapter: 2, verse: 48 } }] }).some((b) => b.id === 'correction-pending'));
+  const recordsMod = await import('../data/review-records');
+  assert.ok(recordsMod.REVIEW_RECORDS.every(rb.isValidRecord), 'every recorded review names a reviewer and a valid date');
+
   console.log('release1: all assertions passed');
 }
 

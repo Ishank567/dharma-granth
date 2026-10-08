@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Archive, FileWarning, Languages, Lightbulb, Sparkles } from 'lucide-react';
+import type { Badge } from '@/lib/review-badges';
 
 /**
  * Status of what a verse page shows, computed from flags the data really
@@ -12,14 +13,20 @@ export function TrustBadges({
   translationIsAi,
   commentaryIsAi,
   hasEditorial,
+  badges,
   className = '',
 }: {
   sourceHost?: string;
   translationIsAi: boolean;
   commentaryIsAi: boolean;
   hasEditorial: boolean;
+  /** Badges computed from recorded reviews (lib/review-badges.ts). */
+  badges?: Badge[];
   className?: string;
 }) {
+  const stillDraft = badges ? badges.some((b) => b.id === 'draft') : true;
+  const earned = (badges ?? []).filter((b) => b.id === 'source-verified' || b.id === 'translation-reviewed' || b.id === 'commentary-reviewed' || b.id === 'correction-pending');
+  const anyReview = earned.some((b) => b.id !== 'correction-pending') || (hasEditorial && !stillDraft);
   const chip = 'inline-flex min-h-[28px] items-center gap-1.5 rounded-full border px-2.5 py-0.5 text-xs font-semibold';
   return (
     <section aria-label="Status of this page's content" className={className}>
@@ -44,14 +51,19 @@ export function TrustBadges({
         {hasEditorial && (
           <li className={`${chip} border-stone-500/40 bg-stone-100 text-stone-900 dark:bg-stone-800 dark:text-stone-100`}>
             <Lightbulb className="h-3.5 w-3.5" aria-hidden="true" />
-            Editorial explanation · draft, awaiting scholarly review
+            {stillDraft ? 'Editorial explanation · draft, awaiting scholarly review' : 'Editorial explanation · reviewed'}
           </li>
         )}
+        {earned.map((b) => (
+          <li key={b.id} className={`${chip} ${b.id === 'correction-pending' ? 'border-amber-500/50 bg-amber-50 text-amber-950 dark:bg-amber-950/30 dark:text-amber-100' : 'border-emerald-600/40 bg-emerald-50 text-emerald-950 dark:bg-emerald-950/30 dark:text-emerald-100'}`}>
+            {b.label}{b.detail ? ` · ${b.detail}` : ''}
+          </li>
+        ))}
       </ul>
       <p className="mt-2 flex items-start gap-2 text-sm text-dharma-muted">
         <FileWarning className="mt-0.5 h-4 w-4 shrink-0" aria-hidden="true" />
         <span>
-          No independent human review is recorded for this verse yet.{' '}
+          {anyReview ? 'Reviews recorded for this verse are listed above.' : 'No independent human review is recorded for this verse yet.'}{' '}
           <Link href="/methodology" className="font-semibold text-saffron-800 underline-offset-2 hover:underline dark:text-saffron-300">
             How this site is made
           </Link>
