@@ -9,6 +9,7 @@ import Link from 'next/link';
 import { AmbientOrbs } from '@/app/components/motion/AmbientOrbs';
 import { ChapterHero } from '@/app/components/motion/ChapterHero';
 import { FullChapterVerses } from '@/app/components/FullChapterVerses';
+import { ChapterOrientation } from '@/app/components/ChapterOrientation';
 import { ChapterKeyboardNav } from '@/app/components/ChapterKeyboardNav';
 import { ChapterCompletion } from '@/app/components/ChapterCompletion';
 import { ChapterVisitRecorder } from '@/app/components/ChapterVisitRecorder';
@@ -319,6 +320,14 @@ export function ChapterView({ params, part: partNumber = 1 }: { params: ChapterP
         <AmbientOrbs />
         <div className="relative">
         {part && parts && (
+        {(!part || part.part === 1) && (
+          <ChapterOrientation
+            scriptureId={meta.id}
+            chapterId={chapter.id}
+            verseCount={chapter.verseCount}
+            firstVerseHref={`/scripture/${meta.id}/chapter/${chapter.id}/verse/1`}
+          />
+        )}
           <>
             <PartsNav parts={parts} current={part.part} href={partHref} />
             <ChapterPartRedirect
