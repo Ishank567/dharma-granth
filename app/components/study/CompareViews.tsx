@@ -4,8 +4,9 @@ import { useEffect, useMemo, useState } from 'react';
 import { cleanVerseField, verseLines } from '@/lib/verse-format';
 import type { ReaderProvenance, ReaderVerseText } from '@/lib/reader-actions';
 import { parseWordMeanings } from '@/lib/word-gloss';
+import { COMMENTARIES, REVIEW_LABEL, verseKey } from '@/data/study-content';
 
-type ViewId = 'sanskrit' | 'translit' | 'words' | 'hindi' | 'english' | 'simpleHi' | 'simpleEn';
+type ViewId = string;
 
 interface View {
   id: ViewId;
@@ -26,7 +27,7 @@ const hasDev = (s: string) => /[ऀ-ॿ]/.test(s);
  * phones. When both views have the same number of lines, hovering or focusing
  * a line marks its counterpart. Only views the verse actually has are offered.
  */
-export function CompareViews({ verse, provenance: p }: { verse: ReaderVerseText; provenance: ReaderProvenance }) {
+export function CompareViews({ scriptureId, chapterId, verse, provenance: p }: { scriptureId: string; chapterId: number; verse: ReaderVerseText; provenance: ReaderProvenance }) {
   const views = useMemo<View[]>(() => {
     const out: View[] = [];
     const sk = cleanVerseField(verse.sanskrit);
@@ -40,8 +41,12 @@ export function CompareViews({ verse, provenance: p }: { verse: ReaderVerseText;
       const dev = hasDev(verse.explanation);
       out.push({ id: dev ? 'simpleHi' : 'simpleEn', label: dev ? 'Simple Hindi' : 'Simple English', lang: dev ? 'hi' : 'en', devanagari: dev, source: 'Editorial explanation, not scripture', lines: splitLines(verse.explanation) });
     }
+    // Reviewed traditional commentaries for this verse, each as its own view with its author named.
+    (COMMENTARIES[verseKey(scriptureId, chapterId, verse.number)] ?? []).forEach((c, i) => {
+      out.push({ id: `commentary-${i}`, label: `Commentary: ${c.commentator}`, lang: c.language === 'English' ? 'en' : c.language === 'Hindi' ? 'hi' : 'sa', devanagari: c.language !== 'English', source: `${c.tradition} · ${c.sourceEdition}${c.translator ? ` · translated by ${c.translator}` : ''} · ${REVIEW_LABEL[c.review]}`, lines: splitLines(c.text) });
+    });
     return out;
-  }, [verse, p]);
+  }, [verse, p, scriptureId, chapterId]);
 
   const [left, setLeft] = useState<ViewId | ''>('');
   const [right, setRight] = useState<ViewId | ''>('');
@@ -127,6 +132,13 @@ export function CompareViews({ verse, provenance: p }: { verse: ReaderVerseText;
         {column(A)}
         {column(B)}
       </div>
+      <dl className="mt-3 grid gap-x-6 gap-y-1 text-sm text-dharma-muted sm:grid-cols-2">
+        <div><dt className="inline font-semibold">Translator: </dt><dd className="inline">{p.translator ?? 'Not recorded'}</dd></div>
+        <div><dt className="inline font-semibold">Edition: </dt><dd className="inline">{p.edition ?? p.sourceHost ?? 'Not recorded'}</dd></div>
+        <div><dt className="inline font-semibold">Review status: </dt><dd className="inline">{p.translationReview ?? 'Not yet reviewed'}</dd></div>
+        <div><dt className="inline font-semibold">Last updated: </dt><dd className="inline">{p.lastUpdated ?? 'Not recorded'}</dd></div>
+        <div className="sm:col-span-2">Literal views follow the source wording; Simple views are editorial explanations. They are always labelled and never combined.</div>
+      </dl>
     </section>
   );
 }

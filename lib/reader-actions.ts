@@ -35,6 +35,12 @@ export interface ReaderProvenance {
   commentaryIsAi: boolean;
   /** ISO date the text or its commentary last changed in the repository. */
   lastUpdated?: string;
+  /** Who translated the Hindi and English layers, as recorded for the text. */
+  translator?: string;
+  /** The Sanskrit edition or archive, as recorded for the text. */
+  edition?: string;
+  /** Review of the translation: 'Not yet reviewed' or 'Reviewed <date>'. */
+  translationReview?: string;
 }
 
 export interface ReaderRef {

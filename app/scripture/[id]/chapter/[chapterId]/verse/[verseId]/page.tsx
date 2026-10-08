@@ -23,8 +23,9 @@ import { VerseCompletion } from '@/app/components/understand/VerseCompletion';
 import { getUnderstandingExtras } from '@/data/understanding';
 import { getPedagogicalVerse } from '@/data/pedagogical-registry';
 import { ActivityRecorder } from '@/app/components/study/ActivityRecorder';
-import { badgesFor } from '@/lib/review-badges';
+import { badgesFor, latestReview } from '@/lib/review-badges';
 import { PENDING_CORRECTIONS, REVIEW_RECORDS } from '@/data/review-records';
+import { getScriptureSourceMeta } from '@/data/sources-registry';
 
 /**
  * One static page per verse for the scriptures in VERSE_PAGE_SCRIPTURE_IDS
@@ -229,6 +230,8 @@ export default function VersePage({ params }: PageProps) {
   });
 
   const pedagogical = getPedagogicalVerse(meta.id, chapterId, params.verseId);
+  const sourceMeta = getScriptureSourceMeta(meta.id, meta.title, meta.titleSanskrit);
+  const translationReview = latestReview(REVIEW_RECORDS, 'translation', meta.id, chapterId, params.verseId);
 
   // At most three next steps, each from this verse's own links, with the reason it is offered.
   const reviewedLinks = CONNECTIONS[verseKey(meta.id, chapterId, params.verseId)] ?? [];
@@ -320,6 +323,9 @@ export default function VersePage({ params }: PageProps) {
           englishIsAi: verse.translationSource === 'ai',
           commentaryIsAi: Boolean(comment?.ai),
           lastUpdated: modified,
+          translator: sourceMeta.primaryTranslator,
+          edition: `${sourceMeta.sanskritEdition}. ${sourceMeta.publisherArchive}`,
+          translationReview: translationReview ? `Reviewed ${translationReview.date}` : 'Not yet reviewed',
         }}
         prev={prev && prevHref ? { number: prev.number, href: prevHref } : undefined}
         next={next && nextHref ? { number: next.number, href: nextHref } : undefined}

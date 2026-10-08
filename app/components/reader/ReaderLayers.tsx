@@ -393,7 +393,7 @@ export function ReaderLayers({
 
       {isDeep && (
         <>
-          <CompareViews verse={verse} provenance={p} />
+          <CompareViews scriptureId={scriptureId} chapterId={chapterId} verse={verse} provenance={p} />
           <CommentaryCompare scriptureId={scriptureId} chapterId={chapterId} verse={verse} />
         </>
       )}
