@@ -70,3 +70,15 @@ Note on `/start`: another contributor is rewriting `/start` with five questions.
 | Source and review panels | Added review badges driven by recorded reviews (`lib/review-badges.ts`, `data/review-records.ts`). No review is recorded, so no "reviewed" or "verified" badge appears anywhere. |
 
 Not done in this phase: nothing else from Phases 2 and 3. No audio work was done. Open for a decision: the existing device-speech controls and `/listen` (see section 1).
+
+## Phase 2 results (2026-10-08)
+
+| Item | Result |
+|---|---|
+| Concept explorer | Jnana added (twelve concepts now match the brief; Yajna also remains). Ten typed relationships, each citing a verse checked by `npm run check:concept-relations`, shown on each concept page and on `/concepts/relationships` with search, breadcrumb and an accessible list; the diagram on wide screens repeats the list and is hidden from assistive technology. Save concept added. Reviewer and last-reviewed date on concept pages are not shown because none is recorded. |
+| Translation comparison | Already compared any two of Sanskrit, transliteration, word by word, literal and simple Hindi and English (two columns, stacked on phones). Added translator, edition, review status and last update, a note that literal and simple are never mixed, and reviewed commentaries as selectable views. |
+| Personal study desk | Added saved concepts and a storage-information section (approximate size by kind, browser quota). Collections, notes, history controls, pause, export, import, PIN and clear-all already existed. |
+| Explanation feedback | Already built, opt-in sharing included. |
+| Five-minute reading session | Not built here: another contributor is building `/daily` in this checkout. |
+
+Not done: Phase 3 (commentary comparison data, story labels, editorial dashboard additions, offline reading, human media). Open for a decision: the device-speech controls and `/listen`.
