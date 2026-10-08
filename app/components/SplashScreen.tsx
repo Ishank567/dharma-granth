@@ -48,7 +48,7 @@ export function SplashScreen() {
             </defs>
             <circle cx="100" cy="100" r="97" pathLength={1} />
           </svg>
-          <div className="splash-badge">
+          <div className="splash-badge" data-decorative>
             <Image src={logoSplash} alt="" width={176} height={176} priority />
           </div>
         </div>

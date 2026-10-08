@@ -2,9 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Font family variables. Previously injected by next/font; now mapped to the
- * self-hosted @fontsource families imported in app/layout.tsx. Tailwind's
- * fontFamily config references these via var(--font-*). */
+/* Critical Preloaded Local Fonts with font-display: swap */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('/fonts/inter-400.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('/fonts/inter-600.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Noto Sans Devanagari';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('/fonts/noto-devanagari-400.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Noto Sans Devanagari';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('/fonts/noto-devanagari-600.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('/fonts/merriweather-400.woff2') format('woff2');
+}
+
+/* Font family variables mapped to local + bundled fonts */
 :root {
     --font-inter: 'Inter', system-ui, sans-serif;
     --font-merriweather: 'Merriweather', Georgia, serif;
@@ -16,52 +51,153 @@
 :root[data-theme='day'] {
     --dharma-bg: #fdfbf7;
     --dharma-text: #2d2a26;
+    --dharma-text-secondary: #57524d;
     --dharma-muted: #6b6560;
     --dharma-border: #e8e3db;
     --dharma-card: #ffffff;
     --dharma-card-soft: #fff8ef;
     --dharma-panel: #ffffff;
     --dharma-panel-muted: #f8f3ec;
+    --dharma-reading-surface: #fdfaf4;
     --dharma-hero-start: #7c2d12;
     --dharma-hero-mid: #c2410c;
     --dharma-hero-end: #f97316;
     --bg-glow-1: rgba(255, 193, 120, 0.14);
     --bg-glow-2: rgba(14, 165, 148, 0.08);
+    --dharma-gold: #c69234;
+    --dharma-gold-border: #e6ce9d;
+    --dharma-saffron: #c2410c;
+    --dharma-maroon: #7c2d12;
+    --dharma-maroon-border: #9a3412;
+    --dharma-manuscript-surface: #fdfaf3;
+    --dharma-manuscript-border: #ebdfcb;
+    --dharma-focus-ring: #f97316;
+    --dharma-success: #15803d;
+    --dharma-success-bg: #f0fdf4;
+    --dharma-success-border: #bbf7d0;
+    --dharma-warning: #b45309;
+    --dharma-warning-bg: #fffbeb;
+    --dharma-warning-border: #fde68a;
+    --dharma-error: #b91c1c;
+    --dharma-error-bg: #fef2f2;
+    --dharma-error-border: #fecaca;
+    --dharma-reading-max: 760px;
+    --dharma-app-max: 1440px;
     color-scheme: light;
 }
 
 :root[data-theme='sunset'] {
     --dharma-bg: #fff4e5;
     --dharma-text: #332016;
+    --dharma-text-secondary: #5c3f2d;
     --dharma-muted: #7c5745;
     --dharma-border: #ecc9a7;
     --dharma-card: #fffaf2;
     --dharma-card-soft: #ffeed9;
     --dharma-panel: #fff7ec;
     --dharma-panel-muted: #f9e0c5;
+    --dharma-reading-surface: #fef5ea;
     --dharma-hero-start: #6f1d1b;
     --dharma-hero-mid: #b45309;
     --dharma-hero-end: #e11d48;
     --bg-glow-1: rgba(244, 114, 32, 0.24);
     --bg-glow-2: rgba(225, 29, 72, 0.14);
+    --dharma-gold: #d97706;
+    --dharma-gold-border: #f4c284;
+    --dharma-saffron: #ea580c;
+    --dharma-maroon: #881337;
+    --dharma-maroon-border: #be123c;
+    --dharma-manuscript-surface: #fdf5ea;
+    --dharma-manuscript-border: #eed5be;
+    --dharma-focus-ring: #ea580c;
+    --dharma-success: #15803d;
+    --dharma-success-bg: #f0fdf4;
+    --dharma-success-border: #bbf7d0;
+    --dharma-warning: #b45309;
+    --dharma-warning-bg: #fffbeb;
+    --dharma-warning-border: #fde68a;
+    --dharma-error: #be123c;
+    --dharma-error-bg: #fff1f2;
+    --dharma-error-border: #fecdd3;
+    --dharma-reading-max: 760px;
+    --dharma-app-max: 1440px;
     color-scheme: light;
 }
 
 :root[data-theme='night'] {
     --dharma-bg: #090908;
     --dharma-text: #f2eee7;
+    --dharma-text-secondary: #d1c8be;
     --dharma-muted: #b3aaa0;
     --dharma-border: #312b25;
     --dharma-card: #151412;
     --dharma-card-soft: #201a16;
     --dharma-panel: #171512;
     --dharma-panel-muted: #241c17;
+    --dharma-reading-surface: #131210;
     --dharma-hero-start: #0f0e0d;
     --dharma-hero-mid: #3a2418;
     --dharma-hero-end: #7c2d12;
     --bg-glow-1: rgba(249, 115, 22, 0.18);
     --bg-glow-2: rgba(20, 184, 166, 0.09);
+    --dharma-gold: #eab308;
+    --dharma-gold-border: #524223;
+    --dharma-saffron: #f97316;
+    --dharma-maroon: #991b1b;
+    --dharma-maroon-border: #7f1d1d;
+    --dharma-manuscript-surface: #171613;
+    --dharma-manuscript-border: #383127;
+    --dharma-focus-ring: #f97316;
+    --dharma-success: #22c55e;
+    --dharma-success-bg: #052e16;
+    --dharma-success-border: #14532d;
+    --dharma-warning: #f59e0b;
+    --dharma-warning-bg: #451a03;
+    --dharma-warning-border: #78350f;
+    --dharma-error: #ef4444;
+    --dharma-error-bg: #450a0a;
+    --dharma-error-border: #7f1d1d;
+    --dharma-reading-max: 760px;
+    --dharma-app-max: 1440px;
     color-scheme: dark;
+}
+
+:root[data-theme='paper'] {
+    --dharma-bg: #f5ede0;
+    --dharma-text: #2c241c;
+    --dharma-text-secondary: #4a3d31;
+    --dharma-muted: #6f6252;
+    --dharma-border: #ded1bd;
+    --dharma-card: #fdf8ee;
+    --dharma-card-soft: #f2e7d3;
+    --dharma-panel: #faf4e6;
+    --dharma-panel-muted: #ece0cc;
+    --dharma-reading-surface: #faf3e6;
+    --dharma-hero-start: #5a3723;
+    --dharma-hero-mid: #9a5327;
+    --dharma-hero-end: #c46d32;
+    --bg-glow-1: rgba(217, 119, 6, 0.16);
+    --bg-glow-2: rgba(180, 83, 9, 0.10);
+    --dharma-gold: #b45309;
+    --dharma-gold-border: #d4a373;
+    --dharma-saffron: #b45309;
+    --dharma-maroon: #782a18;
+    --dharma-maroon-border: #9c3b24;
+    --dharma-manuscript-surface: #f9f1e0;
+    --dharma-manuscript-border: #dac8ad;
+    --dharma-focus-ring: #b45309;
+    --dharma-success: #15803d;
+    --dharma-success-bg: #f0fdf4;
+    --dharma-success-border: #bbf7d0;
+    --dharma-warning: #b45309;
+    --dharma-warning-bg: #fffbeb;
+    --dharma-warning-border: #fde68a;
+    --dharma-error: #b91c1c;
+    --dharma-error-bg: #fef2f2;
+    --dharma-error-border: #fecaca;
+    --dharma-reading-max: 760px;
+    --dharma-app-max: 1440px;
+    color-scheme: light;
 }
 
 @layer base {
@@ -118,8 +254,25 @@
     .sanskrit-text {
         @apply font-devanagari text-xl leading-loose;
     }
+    .font-devanagari,
+    [lang="sa"],
+    [lang="hi"] {
+        text-rendering: optimizeLegibility;
+        font-feature-settings: "kern" 1, "liga" 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
     .verse-number {
         @apply inline-flex items-center justify-center w-9 h-9 rounded-full bg-gradient-to-br from-saffron-500 to-saffron-700 text-white text-sm font-bold shadow-md;
+    }
+    .reading-column {
+        max-width: var(--dharma-reading-max);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .manuscript-surface {
+        background-color: var(--dharma-manuscript-surface);
+        border: 1px solid var(--dharma-manuscript-border);
     }
     .scripture-card {
         @apply bg-dharma-card rounded-xl border border-dharma-border transition-[box-shadow,border-color] duration-300 hover:border-saffron-300 p-6;
@@ -440,6 +593,11 @@
     :root[data-theme='sunset'] .bg-dharma-card,
     :root[data-theme='sunset'] .scripture-card {
         box-shadow: 0 14px 40px rgba(124, 45, 18, 0.08);
+    }
+
+    :root[data-theme='paper'] .bg-dharma-card,
+    :root[data-theme='paper'] .scripture-card {
+        box-shadow: 0 10px 30px rgba(90, 55, 35, 0.06);
     }
 
     :root[data-theme='night'] .bg-white,
@@ -1289,4 +1447,60 @@
         scroll-behavior: auto !important;
         transition-duration: 0.01ms !important;
     }
+}
+
+/* ── Low-power Mode & Data-saver Mode Overrides ──────────────────────
+   When either device battery is low, network is constrained, or user
+   enables performance lite mode: suppress expensive compositor layers,
+   turn off continuous animations, and reduce heavy shadows to reduce CPU/GPU load. */
+:root[data-low-power='true'],
+:root[data-data-saver='true'],
+:root[data-lite-mode='true'] {
+    body {
+        background-attachment: scroll !important;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.04s !important;
+    }
+
+    .card-3d-depth,
+    .realistic-card,
+    .card-depth-glow {
+        transform: none !important;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05) !important;
+    }
+
+    .shine-sweep::after {
+        display: none !important;
+    }
+
+    .animate-spin-slow,
+    .animate-float,
+    .animate-breathe,
+    .animate-shimmer {
+        animation: none !important;
+    }
+}
+
+
+/* ── Reader mode (VerseReader sets <html data-reader>) ─────────────────
+   A distraction-free page: the site nav, mobile tab bar, companion dock and
+   recitation bar step aside so nothing fixed covers the verse. The reader
+   has its own header, verse navigation, listen controls and settings. */
+html[data-reader] nav[aria-label='Primary navigation'],
+html[data-reader] nav[aria-label='Mobile quick navigation'],
+html[data-reader] aside[aria-label='Interactive Companion'],
+html[data-reader] [aria-label^='सस्वर पाठ'] {
+  display: none !important;
+}
+
+/* Reading Lite: hide decoration only; every text and study feature stays. */
+:root[data-reading-lite='true'] [data-decorative],
+:root[data-reading-lite='true'] .shine-sweep::after {
+  display: none !important;
 }

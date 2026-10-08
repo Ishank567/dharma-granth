@@ -19,11 +19,28 @@ export interface VerseNote {
   updatedAt: string;
 }
 
+export type HighlightThemeTag = 'contemplation' | 'duty' | 'devotion' | 'wisdom' | 'insight';
+
+/** How the reader classifies a highlight. Private, stored on this device only. */
+export type HighlightKind = 'important' | 'question' | 'study-again' | 'practical' | 'compare-commentary' | 'reflection';
+
+export const HIGHLIGHT_KINDS: Array<{ id: HighlightKind; label: string }> = [
+  { id: 'important', label: 'Important' },
+  { id: 'question', label: 'Question' },
+  { id: 'study-again', label: 'Study again' },
+  { id: 'practical', label: 'Practical teaching' },
+  { id: 'compare-commentary', label: 'Compare commentary' },
+  { id: 'reflection', label: 'Personal reflection' },
+];
+
 export interface VerseHighlight {
   scriptureId: string;
   chapterId: number;
   verseId: number | string;
   color: 'saffron' | 'amber' | 'rose' | 'emerald' | 'indigo';
+  tag?: HighlightThemeTag;
+  kind?: HighlightKind;
+  textSnippet?: string;
   createdAt: string;
 }
 
@@ -222,13 +239,39 @@ export function useStudyProgress() {
     [highlights],
   );
 
+  const setHighlightKind = useCallback(
+    (scriptureId: string, chapterId: number, verseId: number | string, kind: HighlightKind | undefined) => {
+      setHighlights((prev) => {
+        const next = prev.map((h) =>
+          h.scriptureId === scriptureId && h.chapterId === chapterId && String(h.verseId) === String(verseId) ? { ...h, kind } : h,
+        );
+        save(KEYS.highlights, next);
+        return next;
+      });
+    },
+    [],
+  );
+
   const toggleHighlight = useCallback(
     (
       scriptureId: string,
       chapterId: number,
       verseId: number | string,
       color: VerseHighlight['color'] = 'saffron',
+      tag?: HighlightThemeTag,
+      textSnippet?: string,
     ) => {
+      const defaultTag: HighlightThemeTag =
+        color === 'saffron'
+          ? 'contemplation'
+          : color === 'amber'
+          ? 'duty'
+          : color === 'rose'
+          ? 'devotion'
+          : color === 'emerald'
+          ? 'wisdom'
+          : 'insight';
+
       setHighlights((prev) => {
         const existing = prev.find(
           (h) =>
@@ -241,7 +284,9 @@ export function useStudyProgress() {
           next = prev.filter((h) => h !== existing);
         } else if (existing) {
           next = prev.map((h) =>
-            h === existing ? { ...h, color } : h,
+            h === existing
+              ? { ...h, color, tag: tag ?? h.tag ?? defaultTag, textSnippet: textSnippet ?? h.textSnippet }
+              : h,
           );
         } else {
           next = [
@@ -251,6 +296,8 @@ export function useStudyProgress() {
               chapterId,
               verseId,
               color,
+              tag: tag ?? defaultTag,
+              textSnippet,
               createdAt: new Date().toISOString(),
             },
           ];
@@ -430,6 +477,7 @@ export function useStudyProgress() {
     highlights,
     getHighlight,
     toggleHighlight,
+    setHighlightKind,
     collections,
     createCollection,
     deleteCollection,
