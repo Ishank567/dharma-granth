@@ -1,0 +1,1525 @@
+/**
+ * Dharma Granth Educational Panchang Library
+ * 
+ * Philosophy:
+ * This library computes Vedic astronomical parameters for educational discovery,
+ * scriptural contextualization, and daily study cadence.
+ * It is intentionally NOT an authoritative ritual calculator for sacramental rites,
+ * temple consecrations (pratishtha), or strict muhūrtas, which require regional
+ * ephemerides (Drik/Surya Siddhanta) and consultation with qualified traditional pandits.
+ */
+
+export interface LocationConfig {
+  id: string;
+  name: string;
+  nameHi: string;
+  region: string;
+  country: string;
+  latitude: number | null;
+  longitude: number | null;
+  timezone: string;
+  utcOffsetHours: number;
+  hasReliableCoordinates: boolean;
+  notes?: string;
+}
+
+export const PRESET_LOCATIONS: LocationConfig[] = [
+  {
+    id: 'varanasi',
+    name: 'Varanasi (Kashi)',
+    nameHi: 'वाराणसी (काशी)',
+    region: 'Uttar Pradesh',
+    country: 'India',
+    latitude: 25.3176,
+    longitude: 82.9739,
+    timezone: 'IST',
+    utcOffsetHours: 5.5,
+    hasReliableCoordinates: true,
+    notes: 'Spiritual epicenter of Vedic learning on the sacred Ganga.',
+  },
+  {
+    id: 'ujjain',
+    name: 'Ujjain (Avanti)',
+    nameHi: 'उज्जैन (अवन्तिका)',
+    region: 'Madhya Pradesh',
+    country: 'India',
+    latitude: 23.1765,
+    longitude: 75.7885,
+    timezone: 'IST',
+    utcOffsetHours: 5.5,
+    hasReliableCoordinates: true,
+    notes: 'Historical zero-meridian of classical Indian astronomy and Mahakaleshwar Jyotirlinga.',
+  },
+  {
+    id: 'delhi',
+    name: 'New Delhi',
+    nameHi: 'नई दिल्ली',
+    region: 'Delhi NCR',
+    country: 'India',
+    latitude: 28.6139,
+    longitude: 77.209,
+    timezone: 'IST',
+    utcOffsetHours: 5.5,
+    hasReliableCoordinates: true,
+  },
+  {
+    id: 'haridwar',
+    name: 'Haridwar',
+    nameHi: 'हरिद्वार',
+    region: 'Uttarakhand',
+    country: 'India',
+    latitude: 29.9457,
+    longitude: 78.1642,
+    timezone: 'IST',
+    utcOffsetHours: 5.5,
+    hasReliableCoordinates: true,
+    notes: 'Gateway of the Gods at the foothills of the Himalayas.',
+  },
+  {
+    id: 'tirupati',
+    name: 'Tirupati',
+    nameHi: 'तिरुपति',
+    region: 'Andhra Pradesh',
+    country: 'India',
+    latitude: 13.6288,
+    longitude: 79.4192,
+    timezone: 'IST',
+    utcOffsetHours: 5.5,
+    hasReliableCoordinates: true,
+  },
+  {
+    id: 'mumbai',
+    name: 'Mumbai',
+    nameHi: 'मुंबई',
+    region: 'Maharashtra',
+    country: 'India',
+    latitude: 19.076,
+    longitude: 72.8777,
+    timezone: 'IST',
+    utcOffsetHours: 5.5,
+    hasReliableCoordinates: true,
+  },
+  {
+    id: 'kolkata',
+    name: 'Kolkata',
+    nameHi: 'कोलकाता',
+    region: 'West Bengal',
+    country: 'India',
+    latitude: 22.5726,
+    longitude: 88.3639,
+    timezone: 'IST',
+    utcOffsetHours: 5.5,
+    hasReliableCoordinates: true,
+  },
+  {
+    id: 'bengaluru',
+    name: 'Bengaluru',
+    nameHi: 'बेंगलुरु',
+    region: 'Karnataka',
+    country: 'India',
+    latitude: 12.9716,
+    longitude: 77.5946,
+    timezone: 'IST',
+    utcOffsetHours: 5.5,
+    hasReliableCoordinates: true,
+  },
+  {
+    id: 'kathmandu',
+    name: 'Kathmandu',
+    nameHi: 'काठमांडू',
+    region: 'Bagmati',
+    country: 'Nepal',
+    latitude: 27.7172,
+    longitude: 85.324,
+    timezone: 'NPT',
+    utcOffsetHours: 5.75,
+    hasReliableCoordinates: true,
+    notes: 'Sacred valley of Pashupatinath.',
+  },
+  {
+    id: 'london',
+    name: 'London',
+    nameHi: 'लंदन',
+    region: 'England',
+    country: 'United Kingdom',
+    latitude: 51.5074,
+    longitude: -0.1278,
+    timezone: 'GMT/BST',
+    utcOffsetHours: 0,
+    hasReliableCoordinates: true,
+  },
+  {
+    id: 'new_york',
+    name: 'New York',
+    nameHi: 'न्यूयॉर्क',
+    region: 'NY',
+    country: 'United States',
+    latitude: 40.7128,
+    longitude: -74.006,
+    timezone: 'EST/EDT',
+    utcOffsetHours: -5,
+    hasReliableCoordinates: true,
+  },
+  {
+    id: 'san_francisco',
+    name: 'San Francisco',
+    nameHi: 'सैन फ्रांसिस्को',
+    region: 'CA',
+    country: 'United States',
+    latitude: 37.7749,
+    longitude: -122.4194,
+    timezone: 'PST/PDT',
+    utcOffsetHours: -8,
+    hasReliableCoordinates: true,
+  },
+  {
+    id: 'singapore',
+    name: 'Singapore',
+    nameHi: 'सिंगापुर',
+    region: 'Central',
+    country: 'Singapore',
+    latitude: 1.3521,
+    longitude: 103.8198,
+    timezone: 'SGT',
+    utcOffsetHours: 8,
+    hasReliableCoordinates: true,
+  },
+  {
+    id: 'sydney',
+    name: 'Sydney',
+    nameHi: 'सिडनी',
+    region: 'NSW',
+    country: 'Australia',
+    latitude: -33.8688,
+    longitude: 151.2093,
+    timezone: 'AEST',
+    utcOffsetHours: 10,
+    hasReliableCoordinates: true,
+  },
+  {
+    id: 'unresolved_demo',
+    name: 'Unspecified Global Location',
+    nameHi: 'अनिर्दिष्ट वैश्विक स्थान',
+    region: 'No verified coordinates',
+    country: 'Global',
+    latitude: null,
+    longitude: null,
+    timezone: 'UTC',
+    utcOffsetHours: 0,
+    hasReliableCoordinates: false,
+    notes: 'Demonstrates graceful unavailable state for sunrise/sunset when exact coordinates are absent.',
+  },
+];
+
+export interface TithiMeta {
+  number: number;
+  name: string;
+  nameHi: string;
+  transliteration: string;
+  paksha: 'Shukla' | 'Krishna';
+  explanation: string;
+  spiritualFocus: string;
+}
+
+export const TITHI_DATA: Record<number, TithiMeta> = {
+  1: {
+    number: 1,
+    name: 'Pratipada',
+    nameHi: 'प्रतिपदा',
+    transliteration: 'Pratipadā',
+    paksha: 'Shukla',
+    explanation: 'First lunar day of the waxing moon. Marks fresh beginnings, vow renewals, and foundational clarity.',
+    spiritualFocus: 'Plant seeds of constructive intent; initiate sacred reading.',
+  },
+  2: {
+    number: 2,
+    name: 'Dvitiya',
+    nameHi: 'द्वितीया',
+    transliteration: 'Dvitīyā',
+    paksha: 'Shukla',
+    explanation: 'Second lunar day. Governed by Brahma / Vidhata; auspicious for foundational studies and steady growth.',
+    spiritualFocus: 'Sustained study, harmonious speech, and building gentle momentum.',
+  },
+  3: {
+    number: 3,
+    name: 'Tritiya',
+    nameHi: 'तृतीया',
+    transliteration: 'Tṛtīyā',
+    paksha: 'Shukla',
+    explanation: 'Third lunar day. Associated with Gauri and resilience. Encourages balanced effort and perseverance.',
+    spiritualFocus: 'Courage, creative expression, and devotion to svadharma.',
+  },
+  4: {
+    number: 4,
+    name: 'Chaturthi',
+    nameHi: 'चतुर्थी',
+    transliteration: 'Caturthī',
+    paksha: 'Shukla',
+    explanation: 'Fourth lunar day. Dedicated to Ganesha, remover of obstacles (vighnaharta).',
+    spiritualFocus: 'Clearing mental hesitations, invoking discernment before study.',
+  },
+  5: {
+    number: 5,
+    name: 'Panchami',
+    nameHi: 'पंचमी',
+    transliteration: 'Pañcamī',
+    paksha: 'Shukla',
+    explanation: 'Fifth lunar day. Sacred to Saraswati, deity of wisdom, speech, and the fine arts.',
+    spiritualFocus: 'Reverence for teachers, scripture chanting, and intellectual purity.',
+  },
+  6: {
+    number: 6,
+    name: 'Shashthi',
+    nameHi: 'षष्ठी',
+    transliteration: 'Ṣaṣṭhī',
+    paksha: 'Shukla',
+    explanation: 'Sixth lunar day. Sacred to Kartikeya (Skanda); emphasizes valor, discipline, and overcoming internal foes.',
+    spiritualFocus: 'Disciplining the senses and steadying the wandering mind.',
+  },
+  7: {
+    number: 7,
+    name: 'Saptami',
+    nameHi: 'सप्तमी',
+    transliteration: 'Saptamī',
+    paksha: 'Shukla',
+    explanation: 'Seventh lunar day. Dedicated to Surya (the Sun); symbolizes illumination and vital energy.',
+    spiritualFocus: 'Surya namaskara, Gayatri meditation, clarity of purpose.',
+  },
+  8: {
+    number: 8,
+    name: 'Ashtami',
+    nameHi: 'अष्टमी',
+    transliteration: 'Aṣṭamī',
+    paksha: 'Shukla',
+    explanation: 'Eighth lunar day. Sacred to Durga / Shiva; marks the half-moon turning point of focused power.',
+    spiritualFocus: 'Inner fortitude, self-inquiry, overcoming lingering attachments.',
+  },
+  9: {
+    number: 9,
+    name: 'Navami',
+    nameHi: 'नवमी',
+    transliteration: 'Navamī',
+    paksha: 'Shukla',
+    explanation: 'Ninth lunar day. Associated with Sri Rama and victory of truth over delusion.',
+    spiritualFocus: 'Commitment to righteous conduct, study of the Ramayana or Gita.',
+  },
+  10: {
+    number: 10,
+    name: 'Dashami',
+    nameHi: 'दशमी',
+    transliteration: 'Daśamī',
+    paksha: 'Shukla',
+    explanation: 'Tenth lunar day. Governed by Dharma; symbolizes victory over the ten senses (dasendriyas).',
+    spiritualFocus: 'Mastery over outward wandering, grounded ethical living.',
+  },
+  11: {
+    number: 11,
+    name: 'Ekadashi',
+    nameHi: 'एकादशी',
+    transliteration: 'Ekādaśī',
+    paksha: 'Shukla',
+    explanation: 'Eleventh lunar day. Paramount day of fasting (vrata), sensory moderation, and meditation on Vishnu.',
+    spiritualFocus: 'Dietary restraint, prolonged meditation, deep reading of Bhagavad Gita.',
+  },
+  12: {
+    number: 12,
+    name: 'Dwadashi',
+    nameHi: 'द्वादशी',
+    transliteration: 'Dvādaśī',
+    paksha: 'Shukla',
+    explanation: 'Twelfth lunar day. Concludes Ekadashi vrata with charity (dana) and respectful breakfast (parana).',
+    spiritualFocus: 'Gratitude, service, and gentle integration of contemplative insight.',
+  },
+  13: {
+    number: 13,
+    name: 'Trayodashi',
+    nameHi: 'त्रयोदशी',
+    transliteration: 'Trayodaśī',
+    paksha: 'Shukla',
+    explanation: 'Thirteenth lunar day. Marked by Pradosha twilight contemplation dedicated to Shiva.',
+    spiritualFocus: 'Twilight silence, japa, and dissolution of mental grief.',
+  },
+  14: {
+    number: 14,
+    name: 'Chaturdashi',
+    nameHi: 'चतुर्दशी',
+    transliteration: 'Caturdaśī',
+    paksha: 'Shukla',
+    explanation: 'Fourteenth lunar day. High energetic intensity preceding full illumination; associated with Shiva/Shakti.',
+    spiritualFocus: 'Deep contemplation, purification, and honoring transient reality.',
+  },
+  15: {
+    number: 15,
+    name: 'Purnima',
+    nameHi: 'पूर्णिमा',
+    transliteration: 'Pūrṇimā',
+    paksha: 'Shukla',
+    explanation: 'Fifteenth lunar day — Full Moon. Symbol of completeness (purnatva), satya-narayana contemplation, and radiant clarity.',
+    spiritualFocus: 'Meditating on the fullness of the Atman: "Purnamadah Purnamidam".',
+  },
+  16: {
+    number: 16,
+    name: 'Pratipada',
+    nameHi: 'प्रतिपदा',
+    transliteration: 'Pratipadā (Krishna)',
+    paksha: 'Krishna',
+    explanation: 'First day of the waning fortnight. Shift from outward expression to assimilation and review.',
+    spiritualFocus: 'Digest what was learned; cultivate patient contentment.',
+  },
+  17: {
+    number: 17,
+    name: 'Dvitiya',
+    nameHi: 'द्वितीया',
+    transliteration: 'Dvitīyā (Krishna)',
+    paksha: 'Krishna',
+    explanation: 'Second day of the waning fortnight. Encourages steady inwardness and reflection.',
+    spiritualFocus: 'Calm reading and strengthening daily habits.',
+  },
+  18: {
+    number: 18,
+    name: 'Tritiya',
+    nameHi: 'तृतीया',
+    transliteration: 'Tṛtīyā (Krishna)',
+    paksha: 'Krishna',
+    explanation: 'Third day of the waning fortnight. Fosters steadfastness and self-containment.',
+    spiritualFocus: 'Quiet discipline and non-reactivity in speech.',
+  },
+  19: {
+    number: 19,
+    name: 'Chaturthi',
+    nameHi: 'चतुर्थी',
+    transliteration: 'Sankashti Caturthī',
+    paksha: 'Krishna',
+    explanation: 'Fourth day of the waning moon. Known as Sankashti Chaturthi; focused on overcoming distress.',
+    spiritualFocus: 'Evening moon sighting and praying for resilience through trial.',
+  },
+  20: {
+    number: 20,
+    name: 'Panchami',
+    nameHi: 'पंचमी',
+    transliteration: 'Pañcamī (Krishna)',
+    paksha: 'Krishna',
+    explanation: 'Fifth day of the waning moon. Fosters mental clarity and respectful restraint.',
+    spiritualFocus: 'Sanskrit recitation and gratitude for spiritual ancestors.',
+  },
+  21: {
+    number: 21,
+    name: 'Shashthi',
+    nameHi: 'षष्ठी',
+    transliteration: 'Ṣaṣṭhī (Krishna)',
+    paksha: 'Krishna',
+    explanation: 'Sixth day of the waning fortnight. Inner discipline and mindful action.',
+    spiritualFocus: 'Simplicity, moderation in diet, and focus on essential duties.',
+  },
+  22: {
+    number: 22,
+    name: 'Saptami',
+    nameHi: 'सप्तमी',
+    transliteration: 'Saptamī (Krishna)',
+    paksha: 'Krishna',
+    explanation: 'Seventh day of the waning fortnight. Reminds the seeker of inner light during darkening nights.',
+    spiritualFocus: 'Contemplation on the unmanifest witness within.',
+  },
+  23: {
+    number: 23,
+    name: 'Ashtami',
+    nameHi: 'अष्टमी',
+    transliteration: 'Kalashtami',
+    paksha: 'Krishna',
+    explanation: 'Eighth day of the waning fortnight. Often observed as Kalashtami (dedicated to Bhairava / time as transformer).',
+    spiritualFocus: 'Confronting fear of change; recognizing impermanence of name and form.',
+  },
+  24: {
+    number: 24,
+    name: 'Navami',
+    nameHi: 'नवमी',
+    transliteration: 'Navamī (Krishna)',
+    paksha: 'Krishna',
+    explanation: 'Ninth day of the waning fortnight. Fosters humility and detachment from worldly pride.',
+    spiritualFocus: 'Quiet charity and contemplation of selfless action.',
+  },
+  25: {
+    number: 25,
+    name: 'Dashami',
+    nameHi: 'दशमी',
+    transliteration: 'Daśamī (Krishna)',
+    paksha: 'Krishna',
+    explanation: 'Tenth day of the waning fortnight. Prepares body and mind for the solemnity of Krishna Ekadashi.',
+    spiritualFocus: 'Simplifying sensory intake and purifying thoughts.',
+  },
+  26: {
+    number: 26,
+    name: 'Ekadashi',
+    nameHi: 'एकादशी',
+    transliteration: 'Krishna Ekādaśī',
+    paksha: 'Krishna',
+    explanation: 'Eleventh day of the waning fortnight. Powerful day of inward asceticism, stillness, and Vishnu remembrance.',
+    spiritualFocus: 'Deep silent japa, fasting or light sattvic food, introspection.',
+  },
+  27: {
+    number: 27,
+    name: 'Dwadashi',
+    nameHi: 'द्वादशी',
+    transliteration: 'Dvādaśī (Krishna)',
+    paksha: 'Krishna',
+    explanation: 'Twelfth day of the waning fortnight. Gentle concluding reflection of the Ekadashi observance.',
+    spiritualFocus: 'Peaceful dedication of the day’s deeds to the Supreme.',
+  },
+  28: {
+    number: 28,
+    name: 'Trayodashi',
+    nameHi: 'त्रयोदशी',
+    transliteration: 'Shani / Soma Pradosha',
+    paksha: 'Krishna',
+    explanation: 'Thirteenth day of the waning moon. Sacred Pradosha period preceding the darkest night.',
+    spiritualFocus: 'Meditative stillness and seeking release from karmic bonds.',
+  },
+  29: {
+    number: 29,
+    name: 'Chaturdashi',
+    nameHi: 'चतुर्दशी',
+    transliteration: 'Masa Shivaratri',
+    paksha: 'Krishna',
+    explanation: 'Fourteenth day of the waning moon. Celebrated monthly as Masa Shivaratri; honors the transcendent silent consciousness.',
+    spiritualFocus: 'Night vigil, meditation on Shiva as the eternal silent witness.',
+  },
+  30: {
+    number: 30,
+    name: 'Amavasya',
+    nameHi: 'अमावस्या',
+    transliteration: 'Amāvāsyā',
+    paksha: 'Krishna',
+    explanation: 'Thirtieth lunar day — New Moon. The Sun and Moon are aligned in the same degree. Sacred for pitru tarpana and deep stillness.',
+    spiritualFocus: 'Honoring lineage and ancestors, silent meditation, letting go of egoic residue.',
+  },
+};
+
+export interface NakshatraMeta {
+  index: number;
+  name: string;
+  nameHi: string;
+  transliteration: string;
+  deity: string;
+  rulingPlanet: string;
+  symbol: string;
+  explanation: string;
+  studyTheme: string;
+}
+
+export const NAKSHATRA_DATA: NakshatraMeta[] = [
+  {
+    index: 0,
+    name: 'Ashwini',
+    nameHi: 'अश्विनी',
+    transliteration: 'Aśvinī',
+    deity: 'Ashvins (Celestial Healers)',
+    rulingPlanet: 'Ketu',
+    symbol: "Horse's head",
+    explanation: 'First asterism of the zodiac. Symbolizes swift healing, swift initiative, and luminous dawn energy.',
+    studyTheme: 'Beginning new scripture pathways with clean vigor and mental agility.',
+  },
+  {
+    index: 1,
+    name: 'Bharani',
+    nameHi: 'भरणी',
+    transliteration: 'Bharaṇī',
+    deity: 'Yama (Lord of Dharma & Transition)',
+    rulingPlanet: 'Venus',
+    symbol: 'Yoni / Vessel of gestation',
+    explanation: 'Governs endurance, transformation, and taking responsibility for inner seeds.',
+    studyTheme: 'Contemplating karma, moral accountability, and patience under pressure.',
+  },
+  {
+    index: 2,
+    name: 'Krittika',
+    nameHi: 'कृत्तिका',
+    transliteration: 'Kṛttikā',
+    deity: 'Agni (Sacred Fire)',
+    rulingPlanet: 'Sun',
+    symbol: 'Razor / Flame',
+    explanation: 'Associated with spiritual fire (tapas) and sharp discrimination (viveka) that burns away ignorance.',
+    studyTheme: 'Cultivating viveka — discerning the permanent from the fleeting.',
+  },
+  {
+    index: 3,
+    name: 'Rohini',
+    nameHi: 'रोहिणी',
+    transliteration: 'Rohiṇī',
+    deity: 'Brahma / Prajapati (Creator)',
+    rulingPlanet: 'Moon',
+    symbol: 'Cart / Chariot / Temple',
+    explanation: 'Associated with growth, beauty, fertile creativity, and devotional absorption (birth star of Sri Krishna).',
+    studyTheme: 'Appreciating the beauty of divine creation and cultivating warm bhakti.',
+  },
+  {
+    index: 4,
+    name: 'Mrigashira',
+    nameHi: 'मृगशिरा',
+    transliteration: 'Mṛgaśīrṣā',
+    deity: 'Soma (The Lunar Nectar)',
+    rulingPlanet: 'Mars',
+    symbol: "Deer's head",
+    explanation: 'The seeking star. Reflects gentle curiosity, philosophical questioning, and spiritual pilgrimage.',
+    studyTheme: 'Asking profound questions in scripture study: "Who am I? What is truth?"',
+  },
+  {
+    index: 5,
+    name: 'Ardra',
+    nameHi: 'आर्द्रा',
+    transliteration: 'Ārdrā',
+    deity: 'Rudra (Storm God / Transformer)',
+    rulingPlanet: 'Rahu',
+    symbol: 'Teardrop / Jewel',
+    explanation: 'Represents the purifying storm that washes away accumulated dust and awakens tenderness.',
+    studyTheme: 'Transforming sorrow into compassion; seeking the refuge of the eternal.',
+  },
+  {
+    index: 6,
+    name: 'Punarvasu',
+    nameHi: 'पुनर्वसु',
+    transliteration: 'Punarvasu',
+    deity: 'Aditi (Mother of the Gods)',
+    rulingPlanet: 'Jupiter',
+    symbol: 'Bow and Quiver',
+    explanation: 'Return of the light. Symbolizes renewal of safety, home, forgiveness, and moral clarity (birth star of Sri Rama).',
+    studyTheme: 'Re-aligning with ethical dharma and returning home to inner peace.',
+  },
+  {
+    index: 7,
+    name: 'Pushya',
+    nameHi: 'पुष्य',
+    transliteration: 'Puṣya',
+    deity: 'Brihaspati (Guru of the Devas)',
+    rulingPlanet: 'Saturn',
+    symbol: "Cow's udder / Lotus / Circle",
+    explanation: 'Considered the most nourishing and spiritually fertile nakshatra in the entire zodiac.',
+    studyTheme: 'Immersing in deep scriptural study, honoring the Guru, meditating on wisdom.',
+  },
+  {
+    index: 8,
+    name: 'Ashlesha',
+    nameHi: 'आश्लेषा',
+    transliteration: 'Āśleṣā',
+    deity: 'Nagas (Serpent Wisdom)',
+    rulingPlanet: 'Mercury',
+    symbol: 'Coiled Serpent',
+    explanation: 'Governs kundalini energy, subtle psychology, and understanding hidden motives.',
+    studyTheme: 'Observing subtle mental movements and practicing deep self-honesty.',
+  },
+  {
+    index: 9,
+    name: 'Magha',
+    nameHi: 'मघा',
+    transliteration: 'Maghā',
+    deity: 'Pitris (Ancestral Spirits)',
+    rulingPlanet: 'Ketu',
+    symbol: 'Royal Throne Room',
+    explanation: 'Ties to lineage, tradition, noble character, and gratitude for forebears who transmitted sacred lore.',
+    studyTheme: 'Gratitude to rishis and teachers who preserved our scriptures.',
+  },
+  {
+    index: 10,
+    name: 'Purva Phalguni',
+    nameHi: 'पूर्व फाल्गुनी',
+    transliteration: 'Pūrva Phālgunī',
+    deity: 'Bhaga (Deity of Delight)',
+    rulingPlanet: 'Venus',
+    symbol: 'Front legs of bed / Hammock',
+    explanation: 'Signifies joyous creative leisure, gracious hospitality, and celebrating life’s blessings.',
+    studyTheme: 'Discovering joy (ananda) in devotion rather than dry mechanical duty.',
+  },
+  {
+    index: 11,
+    name: 'Uttara Phalguni',
+    nameHi: 'उत्तर फाल्गुनी',
+    transliteration: 'Uttara Phālgunī',
+    deity: 'Aryaman (Deity of Friendship & Honor)',
+    rulingPlanet: 'Sun',
+    symbol: 'Back legs of bed',
+    explanation: 'Governs noble companionship, social responsibility, integrity, and lifelong covenants.',
+    studyTheme: 'Cultivating noble friendship (satsanga) and supporting fellow seekers.',
+  },
+  {
+    index: 12,
+    name: 'Hasta',
+    nameHi: 'हस्त',
+    transliteration: 'Hasta',
+    deity: 'Savitr (Solar Initiator)',
+    rulingPlanet: 'Moon',
+    symbol: 'Open Hand / Fist',
+    explanation: 'The star of skill and dexterity. Reflects craftsmanship, healing touch, and selfless service.',
+    studyTheme: 'Karma yoga: offering the work of one’s hands as sacred seva.',
+  },
+  {
+    index: 13,
+    name: 'Chitra',
+    nameHi: 'चित्रा',
+    transliteration: 'Citrā',
+    deity: 'Tvashtar (Divine Architect / Vishvakarma)',
+    rulingPlanet: 'Mars',
+    symbol: 'Bright Gem / Pearl',
+    explanation: 'The brilliant jewel star. Signifies aesthetic brilliance, clarity of form, and luminous architecture.',
+    studyTheme: 'Contemplating the divine order (Rita) embedded in cosmos and consciousness.',
+  },
+  {
+    index: 14,
+    name: 'Swati',
+    nameHi: 'स्वाती',
+    transliteration: 'Svātī',
+    deity: 'Vayu (Wind / Breath)',
+    rulingPlanet: 'Rahu',
+    symbol: 'Young plant shoot bending in wind',
+    explanation: 'Symbolizes flexibility, independence, and the vital breath (prana) that bends without breaking.',
+    studyTheme: 'Pranayama and quiet meditation on the inner breath of life.',
+  },
+  {
+    index: 15,
+    name: 'Vishakha',
+    nameHi: 'विशाखा',
+    transliteration: 'Viśākhā',
+    deity: 'Indra & Agni',
+    rulingPlanet: 'Jupiter',
+    symbol: 'Triumphal Arch / Potter’s Wheel',
+    explanation: 'Focus, resolute determination, and unwavering commitment to reach a spiritual summit.',
+    studyTheme: 'Single-pointed devotion (ekagrata) in reading and japa.',
+  },
+  {
+    index: 16,
+    name: 'Anuradha',
+    nameHi: 'अनुराधा',
+    transliteration: 'Anurādhā',
+    deity: 'Mitra (Deity of Universal Harmony)',
+    rulingPlanet: 'Saturn',
+    symbol: 'Lotus / Staff',
+    explanation: 'Devotional friendship, soft-hearted loyalty, and blossoming even from difficult muddy waters.',
+    studyTheme: 'The power of soft-spoken compassion and steady devotional commitment.',
+  },
+  {
+    index: 17,
+    name: 'Jyeshtha',
+    nameHi: 'ज्येष्ठा',
+    transliteration: 'Jyeṣṭhā',
+    deity: 'Indra (King of Devas)',
+    rulingPlanet: 'Mercury',
+    symbol: 'Circular Amulet / Talisman',
+    explanation: 'Eldership, guardianship, inner seniority, and shielding weaker beings with moral fortitude.',
+    studyTheme: 'Assuming spiritual responsibility for one’s household and community.',
+  },
+  {
+    index: 18,
+    name: 'Mula',
+    nameHi: 'मूल',
+    transliteration: 'Mūla',
+    deity: 'Nirriti (Dissolution / Root)',
+    rulingPlanet: 'Ketu',
+    symbol: 'Tied bundle of roots',
+    explanation: 'Getting to the root of existence. Removing illusions and probing foundational philosophical inquiries.',
+    studyTheme: 'Upanishadic inquiry: tracing all appearances back to the non-dual Brahman.',
+  },
+  {
+    index: 19,
+    name: 'Purva Ashadha',
+    nameHi: 'पूर्वाषाढ़ा',
+    transliteration: 'Pūrvāṣāḍhā',
+    deity: 'Apas (Cosmic Waters)',
+    rulingPlanet: 'Venus',
+    symbol: "Elephant's tusk / Winnowing basket",
+    explanation: 'The invincible waters. Reflects moral purification, invincibility through truth, and patient nourishment.',
+    studyTheme: 'Purifying the mental lake (chitta) with scriptural contemplation.',
+  },
+  {
+    index: 20,
+    name: 'Uttara Ashadha',
+    nameHi: 'उत्तराषाढ़ा',
+    transliteration: 'Uttarāṣāḍhā',
+    deity: 'Vishwadevas (Universal Virtues)',
+    rulingPlanet: 'Sun',
+    symbol: 'Small cot / Elephant tusk',
+    explanation: 'Final victory of virtue. Rooted in endurance, universal duty, and non-sectarian righteousness.',
+    studyTheme: 'Reflecting on universal Vedic values that unite all living beings.',
+  },
+  {
+    index: 21,
+    name: 'Shravana',
+    nameHi: 'श्रवण',
+    transliteration: 'Śravaṇa',
+    deity: 'Vishnu (Preserver of the Universe)',
+    rulingPlanet: 'Moon',
+    symbol: 'Three footprints / Ear',
+    explanation: 'The star of attentive listening. Governs the primary spiritual limb of shravana (hearing the wisdom).',
+    studyTheme: 'Sacred listening: hearing the Gita or Upanishads with complete inner quietude.',
+  },
+  {
+    index: 22,
+    name: 'Dhanishta',
+    nameHi: 'धनिष्ठा',
+    transliteration: 'Dhaniṣṭhā',
+    deity: 'Ashta Vasus (Eight Gods of Abundance)',
+    rulingPlanet: 'Mars',
+    symbol: 'Drum (Damaru) / Flute',
+    explanation: 'Rhythm, musical harmony, cosmic resonance, and generous distribution of wealth.',
+    studyTheme: 'Chanting stotras with meter and feeling the cosmic rhythm of the universe.',
+  },
+  {
+    index: 23,
+    name: 'Shatabhisha',
+    nameHi: 'शतभिषा',
+    transliteration: 'Śatabhiṣā',
+    deity: 'Varuna (Guardian of Cosmic Order)',
+    rulingPlanet: 'Rahu',
+    symbol: 'Empty circle / Hundred healers',
+    explanation: 'The hundred physicians. Solitude, contemplation of vast cosmic mysteries, and profound healing.',
+    studyTheme: 'Solitary reflection, stepping back from sensory noise, finding inner wholeness.',
+  },
+  {
+    index: 24,
+    name: 'Purva Bhadrapada',
+    nameHi: 'पूर्व भाद्रपद',
+    transliteration: 'Pūrva Bhādrapadā',
+    deity: 'Aja Ekapada (The Unborn One-Footed)',
+    rulingPlanet: 'Jupiter',
+    symbol: 'Front of funeral cot / Two-faced man',
+    explanation: 'Ascetic fire, deep seriousness regarding liberation, and shedding identification with the body.',
+    studyTheme: 'Contemplating Vairagya (dispassion) as taught in Vivekachudamani and Gita.',
+  },
+  {
+    index: 25,
+    name: 'Uttara Bhadrapada',
+    nameHi: 'उत्तर भाद्रपद',
+    transliteration: 'Uttara Bhādrapadā',
+    deity: 'Ahirbudhnya (Serpent of the Depths)',
+    rulingPlanet: 'Saturn',
+    symbol: 'Back of funeral cot / Twin serpents',
+    explanation: 'Quiet wisdom of the ocean depths. Equanimity, patience, benevolence, and meditative stability.',
+    studyTheme: 'Developing steady wisdom (sthitaprajna): remaining undisturbed in praise or blame.',
+  },
+  {
+    index: 26,
+    name: 'Revati',
+    nameHi: 'रेवती',
+    transliteration: 'Revatī',
+    deity: 'Pushan (Nourisher of Travelers)',
+    rulingPlanet: 'Mercury',
+    symbol: 'Pair of fish / Drum',
+    explanation: 'The final star of the zodiac. Represents safe crossing of the ocean of samsara (tarana), gentle nourishment.',
+    studyTheme: 'Universal prayer for the peace of all creatures: "Sarve Bhavantu Sukhinah".',
+  },
+];
+
+export interface YogaMeta {
+  index: number;
+  name: string;
+  nameHi: string;
+  transliteration: string;
+  nature: 'Auspicious' | 'Neutral' | 'Challenging / Reflective';
+  explanation: string;
+}
+
+export const YOGA_DATA: YogaMeta[] = [
+  { index: 0, name: 'Vishkambha', nameHi: 'विष्कम्भ', transliteration: 'Viṣkambha', nature: 'Challenging / Reflective', explanation: 'Obstacle or Pillar. Teaches patience in establishing foundational resolve before moving forward.' },
+  { index: 1, name: 'Priti', nameHi: 'प्रीति', transliteration: 'Prīti', nature: 'Auspicious', explanation: 'Affection and Joy. Cultivates harmonious speech, loving relationships, and devotional warmth.' },
+  { index: 2, name: 'Ayushman', nameHi: 'आयुष्मान्', transliteration: 'Āyuṣmān', nature: 'Auspicious', explanation: 'Longevity and Health. Promotes sustained energy, physical vitality, and persistent study.' },
+  { index: 3, name: 'Saubhagya', nameHi: 'सौभाग्य', transliteration: 'Saubhāgya', nature: 'Auspicious', explanation: 'Good Fortune and Grace. Encourages sharing blessings and maintaining radiant optimism.' },
+  { index: 4, name: 'Shobhana', nameHi: 'शोभन', transliteration: 'Śobhana', nature: 'Auspicious', explanation: 'Splendor and Virtue. Auspicious for noble undertakings and study of lofty philosophical works.' },
+  { index: 5, name: 'Atiganda', nameHi: 'अतिगण्ड', transliteration: 'Atigaṇḍa', nature: 'Challenging / Reflective', explanation: 'High hurdle. Calls for careful speech, introspection, and avoiding hasty emotional decisions.' },
+  { index: 6, name: 'Sukarma', nameHi: 'सुकर्मा', transliteration: 'Sukarma', nature: 'Auspicious', explanation: 'Noble Deeds. Inspires selfless action, dedicated study, and fulfilling duties wholeheartedly.' },
+  { index: 7, name: 'Dhriti', nameHi: 'धृति', transliteration: 'Dhṛti', nature: 'Auspicious', explanation: 'Steadfastness and Resolve. Bolsters patience, inner fortitude, and long-term perseverance.' },
+  { index: 8, name: 'Shula', nameHi: 'शूल', transliteration: 'Śūla', nature: 'Challenging / Reflective', explanation: 'Spear / Pain. Reminder to stay grounded, avoid disputes, and seek the solace of silent prayer.' },
+  { index: 9, name: 'Ganda', nameHi: 'गण्ड', transliteration: 'Gaṇḍa', nature: 'Challenging / Reflective', explanation: 'Knot or obstacle. Ideal for untying inner mental complexes through meditative contemplation.' },
+  { index: 10, name: 'Vriddhi', nameHi: 'वृद्धि', transliteration: 'Vṛddhi', nature: 'Auspicious', explanation: 'Growth and Prosperity. Fosters intellectual expansion, spiritual evolution, and fruitful study.' },
+  { index: 11, name: 'Dhruva', nameHi: 'ध्रुव', transliteration: 'Dhruva', nature: 'Auspicious', explanation: 'Steadfast Pole Star. Excellent for permanent resolutions, meditation posture, and deep stability.' },
+  { index: 12, name: 'Vyaghata', nameHi: 'व्याघात', transliteration: 'Vyāghāta', nature: 'Challenging / Reflective', explanation: 'Impact or Resistance. Teaches resilience against external friction and cultivating inner poise.' },
+  { index: 13, name: 'Harshana', nameHi: 'हर्षण', transliteration: 'Harṣaṇa', nature: 'Auspicious', explanation: 'Jubilation and Cheer. Illuminates the heart with joy, making learning lighthearted and uplifting.' },
+  { index: 14, name: 'Vajra', nameHi: 'वज्र', transliteration: 'Vajra', nature: 'Challenging / Reflective', explanation: 'Diamond / Thunderbolt. Calls for indestructible moral willpower and rejecting fleeting allurements.' },
+  { index: 15, name: 'Siddhi', nameHi: 'सिद्धि', transliteration: 'Siddhi', nature: 'Auspicious', explanation: 'Attainment and Mastery. Blessed for spiritual accomplishments, understanding subtle verses, and clarity.' },
+  { index: 16, name: 'Vyatipata', nameHi: 'व्यतीपात', transliteration: 'Vyatīpāta', nature: 'Challenging / Reflective', explanation: 'Great turbulence. Traditionally reserved for quiet inward prayer, charity, and japa rather than worldly ambitions.' },
+  { index: 17, name: 'Variyan', nameHi: 'वरीयान्', transliteration: 'Varīyān', nature: 'Auspicious', explanation: 'Excellence and Superiority. Fosters elevated thinking and seeking the highest philosophical truth.' },
+  { index: 18, name: 'Parigha', nameHi: 'परिघ', transliteration: 'Parigha', nature: 'Challenging / Reflective', explanation: 'Iron bar or barrier. Focuses on setting healthy boundaries against distraction and idle gossip.' },
+  { index: 19, name: 'Shiva', nameHi: 'शिव', transliteration: 'Śiva', nature: 'Auspicious', explanation: 'Auspiciousness itself. Auspicious for all noble studies, meditation, and realizing one’s innate divinity.' },
+  { index: 20, name: 'Siddha', nameHi: 'सिद्ध', transliteration: 'Siddha', nature: 'Auspicious', explanation: 'Perfected. Enhances focus during meditation and facilitates intuitive understanding of scripture.' },
+  { index: 21, name: 'Sadhya', nameHi: 'साध्य', transliteration: 'Sādhya', nature: 'Auspicious', explanation: 'Achievable. Reminds the seeker that liberation is attained through gentle, constant practice.' },
+  { index: 22, name: 'Shubha', nameHi: 'शुभ', transliteration: 'Śubha', nature: 'Auspicious', explanation: 'Pure and Blessed. Auspicious for peaceful pursuits, creative contemplation, and wholesome thoughts.' },
+  { index: 23, name: 'Shukla', nameHi: 'शुक्ल', transliteration: 'Śukla', nature: 'Auspicious', explanation: 'Bright White and Luminous. Promotes purity of mind, clear conscience, and selfless devotion.' },
+  { index: 24, name: 'Brahma', nameHi: 'ब्रह्म', transliteration: 'Brahma', nature: 'Auspicious', explanation: 'The Infinite. Ideal for contemplating the non-dual supreme reality and Vedantic mahavakyas.' },
+  { index: 25, name: 'Indra', nameHi: 'इन्द्र', transliteration: 'Indra', nature: 'Auspicious', explanation: 'Leader and Dignity. Encourages righteous leadership, generosity, and protective strength.' },
+  { index: 26, name: 'Vaidhriti', nameHi: 'वैधृति', transliteration: 'Vaidhṛti', nature: 'Challenging / Reflective', explanation: 'Restraint and Balance. Best suited for quiet introspection, tapasya, and contemplative withdrawal.' },
+];
+
+export interface KaranaMeta {
+  name: string;
+  nameHi: string;
+  transliteration: string;
+  nature: 'Chara (Movable)' | 'Sthira (Fixed)';
+  explanation: string;
+}
+
+export const KARANA_DATA: Record<string, KaranaMeta> = {
+  Bava: { name: 'Bava', nameHi: 'बव', transliteration: 'Bava', nature: 'Chara (Movable)', explanation: 'Governed by Indra. Favorable for initiating constructive work, health pursuits, and spiritual resolve.' },
+  Balava: { name: 'Balava', nameHi: 'बालव', transliteration: 'Bālava', nature: 'Chara (Movable)', explanation: 'Governed by Brahma. Auspicious for sacred ceremonies, reading sacred texts, and peaceful gatherings.' },
+  Kaulava: { name: 'Kaulava', nameHi: 'कौलव', transliteration: 'Kaulava', nature: 'Chara (Movable)', explanation: 'Governed by Mitra. Ideal for developing mutual friendship, community service, and compassionate relationships.' },
+  Taitila: { name: 'Taitila', nameHi: 'तैतिल', transliteration: 'Taitila', nature: 'Chara (Movable)', explanation: 'Governed by Aryaman. Auspicious for steady work, building durable skills, and honoring commitments.' },
+  Garaja: { name: 'Garaja', nameHi: 'गरज', transliteration: 'Garaja', nature: 'Chara (Movable)', explanation: 'Governed by the Earth (Bhumi). Favorable for grounding oneself, gardening, and steady physical routine.' },
+  Vanija: { name: 'Vanija', nameHi: 'वणिज', transliteration: 'Vaṇija', nature: 'Chara (Movable)', explanation: 'Governed by Lakshmi. Auspicious for equitable commerce, balanced exchanges, and ethical dealings.' },
+  Vishti: { name: 'Vishti (Bhadra)', nameHi: 'विष्टि (भद्रा)', transliteration: 'Viṣṭi', nature: 'Chara (Movable)', explanation: 'Known as Bhadra. Suited for defensive strategies, deep cleaning, introspection, and fasting rather than celebratory starts.' },
+  Shakuni: { name: 'Shakuni', nameHi: 'शकुनि', transliteration: 'Śakuni', nature: 'Sthira (Fixed)', explanation: 'Fixed karana on Krishna Chaturdashi. Suited for herbal remedies, medicine, and resolving disputes.' },
+  Chatushpada: { name: 'Chatushpada', nameHi: 'चतुष्पद', transliteration: 'Catuṣpada', nature: 'Sthira (Fixed)', explanation: 'Fixed karana on Amavasya. Associated with care of animals, charity, and honoring ancestors.' },
+  Naga: { name: 'Naga', nameHi: 'नाग', transliteration: 'Nāga', nature: 'Sthira (Fixed)', explanation: 'Fixed karana on Amavasya. Suited for steady patience, digging deep into spiritual questions, and overcoming fear.' },
+  Kimstughna: { name: 'Kimstughna', nameHi: 'किंस्तुघ्न', transliteration: 'Kiṃstughna', nature: 'Sthira (Fixed)', explanation: 'Fixed karana on Shukla Pratipada. Symbolizes overcoming sorrow and initiating auspicious new endeavors.' },
+};
+
+export interface RituMeta {
+  name: string;
+  nameHi: string;
+  transliteration: string;
+  months: string;
+  seasonEn: string;
+  explanation: string;
+  spiritualFocus: string;
+}
+
+export const RITU_DATA: Record<string, RituMeta> = {
+  Vasanta: {
+    name: 'Vasanta',
+    nameHi: 'वसन्त',
+    transliteration: 'Vasanta',
+    months: 'Chaitra – Vaishakha (Mid-Mar to Mid-May)',
+    seasonEn: 'Spring',
+    explanation: 'Season of gentle blossoming, revival, and clear skies.',
+    spiritualFocus: 'Spiritual rejuvenation, starting new commentaries, clarity of mind.',
+  },
+  Grishma: {
+    name: 'Grishma',
+    nameHi: 'ग्रीष्म',
+    transliteration: 'Grīṣma',
+    months: 'Jyeshtha – Ashadha (Mid-May to Mid-Jul)',
+    seasonEn: 'Summer',
+    explanation: 'Season of intense solar radiance, discipline, and endurance.',
+    spiritualFocus: 'Tapasya (disciplined endurance), early morning japa, simple light diet.',
+  },
+  Varsha: {
+    name: 'Varsha',
+    nameHi: 'वर्षा',
+    transliteration: 'Varṣā',
+    months: 'Shravana – Bhadrapada (Mid-Jul to Mid-Sep)',
+    seasonEn: 'Monsoon',
+    explanation: 'Season of life-giving rains, Chaturmas observance, and inward sheltering.',
+    spiritualFocus: 'Intense scripture study, meditation indoors, deep devotional singing.',
+  },
+  Sharad: {
+    name: 'Sharad',
+    nameHi: 'शरद्',
+    transliteration: 'Śarad',
+    months: 'Ashvina – Kartika (Mid-Sep to Mid-Nov)',
+    seasonEn: 'Autumn',
+    explanation: 'Season of crystalline moonlight, harvest festivals, and tranquil waters.',
+    spiritualFocus: 'Purity of devotion, Navratri and Diwali reflections, steady balance.',
+  },
+  Hemanta: {
+    name: 'Hemanta',
+    nameHi: 'हेमन्त',
+    transliteration: 'Hemanta',
+    months: 'Margashirsha – Pausha (Mid-Nov to Mid-Jan)',
+    seasonEn: 'Pre-Winter',
+    explanation: 'Season of gentle coolness, morning mist, and internal steadiness.',
+    spiritualFocus: 'Gita Jayanti contemplation, physical stamina, prolonged silent meditation.',
+  },
+  Shishira: {
+    name: 'Shishira',
+    nameHi: 'शिशिर',
+    transliteration: 'Śiśira',
+    months: 'Magha – Phalguna (Mid-Jan to Mid-Mar)',
+    seasonEn: 'Winter',
+    explanation: 'Season of deep cold, inward consolidation, and quiet reflection.',
+    spiritualFocus: 'Maha Shivaratri preparation, detachment from external luxury, inner warmth.',
+  },
+};
+
+export interface StudySuggestion {
+  scriptureId: string;
+  scriptureTitle: string;
+  chapterNumber: number;
+  chapterTitle: string;
+  verseRef: string;
+  sanskrit: string;
+  transliteration: string;
+  english: string;
+  hindi: string;
+  contemplationPrompt: string;
+}
+
+export const STUDY_SUGGESTIONS: StudySuggestion[] = [
+  {
+    scriptureId: 'bhagavadgita',
+    scriptureTitle: 'Bhagavad Gita',
+    chapterNumber: 2,
+    chapterTitle: 'Sankhya Yoga',
+    verseRef: '2.47',
+    sanskrit: 'कर्मण्येवाधिकारस्ते मा फलेषु कदाचन । मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि ॥',
+    transliteration: 'karmaṇyevādhikāraste mā phaleṣu kadācana | mā karmaphalaheturbhūrmā te saṅgo\'stvakarmaṇi ||',
+    english: 'You have a right to action alone, never to its fruits. Let not the fruits of action be your motive, nor let your attachment be to inaction.',
+    hindi: 'कर्म करने में ही तुम्हारा अधिकार है, उसके फलों में कभी नहीं। इसलिए कर्मफल के हेतु मत बनो और तुम्हारी आसक्ति अकर्म में भी न हो।',
+    contemplationPrompt: 'Today, offer each task as a deliberate gift without anxiously projecting into the results.',
+  },
+  {
+    scriptureId: 'bhagavadgita',
+    scriptureTitle: 'Bhagavad Gita',
+    chapterNumber: 6,
+    chapterTitle: 'Dhyana Yoga',
+    verseRef: '6.5',
+    sanskrit: 'उद्धरेदात्मनात्मानं नात्मानमवसादयेत् । आत्मैव ह्यात्मनो बन्धुरात्मैव रिपुरात्मनः ॥',
+    transliteration: 'uddharedātmanātmānaṃ nātmānamavasādayet | ātmaiva hyātmano bandhurātmaiva ripurātmanaḥ ||',
+    english: 'One should elevate oneself by one’s own mind, and not degrade oneself. For the mind alone is the friend of the self, and the mind alone is its enemy.',
+    hindi: 'मनुष्य को चाहिए कि वह अपने मन द्वारा अपना उद्धार करे, अपने को गिराए नहीं; क्योंकि मन ही अपना मित्र है और मन ही अपना शत्रु है।',
+    contemplationPrompt: 'Observe your internal monologue today: are your thoughts befriending your highest aspirations or anchoring you down?',
+  },
+  {
+    scriptureId: 'bhagavadgita',
+    scriptureTitle: 'Bhagavad Gita',
+    chapterNumber: 12,
+    chapterTitle: 'Bhakti Yoga',
+    verseRef: '12.13',
+    sanskrit: 'अद्वेष्टा सर्वभूतानां मैत्रः करुण एव च । निर्ममो निरहङ्कारः समदुःखसुखः क्षमी ॥',
+    transliteration: 'adveṣṭā sarvabhūtānāṃ maitraḥ karuṇa eva ca | nirmamo nirahaṅkāraḥ samaduḥkhasukhaḥ kṣamī ||',
+    english: 'One who bears no ill-will toward any being, who is friendly and compassionate, free from possessiveness and ego, balanced in pleasure and pain, and forgiving.',
+    hindi: 'जो सभी प्राणियों के प्रति द्वेषरहित, मित्रवत और दयालु है, ममता और अहंकार से रहित, सुख-दुःख में सम और क्षमाशील है।',
+    contemplationPrompt: 'Practice universal friendliness today: mentally wish peace for every person you encounter, especially those who challenge your patience.',
+  },
+  {
+    scriptureId: 'ishavasya',
+    scriptureTitle: 'Isha Upanishad',
+    chapterNumber: 1,
+    chapterTitle: 'Isha Upanishad',
+    verseRef: 'Verse 1',
+    sanskrit: 'ईशा वास्यमिदं सर्वं यत्किञ्च जगत्यां जगत् । तेन त्यक्तेन भुञ्जीथा मा गृधः कस्यस्विद्धनम् ॥',
+    transliteration: 'īśā vāsyamidaṃ sarvaṃ yatkiñca jagatyāṃ jagat | tena tyaktena bhuñjīthā mā gṛdhaḥ kasyasviddhanam ||',
+    english: 'All this, whatever moves in this moving world, is pervaded by the Divine. Renounce and enjoy; do not covet anyone’s wealth.',
+    hindi: 'इस गतिशील जगत में जो कुछ भी है, वह सब ईश्वर से व्याप्त है। त्यागपूर्वक उसका उपभोग करो, किसी के धन की इच्छा मत करो।',
+    contemplationPrompt: 'Notice how every object and person shares the same divine presence. Enjoy life through gratitude rather than possessiveness.',
+  },
+  {
+    scriptureId: 'bhagavadgita',
+    scriptureTitle: 'Bhagavad Gita',
+    chapterNumber: 18,
+    chapterTitle: 'Moksha Sannyasa Yoga',
+    verseRef: '18.65',
+    sanskrit: 'मन्मना भव मद्भक्तो मद्याजी मां नमस्कुरु । मामेवैष्यसि सत्यं ते प्रतिजाने प्रियोऽसि मे ॥',
+    transliteration: 'manmanā bhava madbhakto madyājī māṃ namaskuru | māmevaiṣyasi satyaṃ te pratijāne priyo\'si me ||',
+    english: 'Absorb your mind in Me, be devoted to Me, sacrifice for Me, bow down to Me. Thus you shall come to Me; I promise you truly, for you are dear to Me.',
+    hindi: 'मुझमें मन वाला हो, मेरा भक्त बन, मेरा पूजन करने वाला हो और मुझे नमस्कार कर। ऐसा करने से तू मुझे ही प्राप्त होगा, यह मैं तुझसे सत्य प्रतिज्ञा करता हूँ, क्योंकि तू मुझे अत्यन्त प्रिय है।',
+    contemplationPrompt: 'Turn regular work into an act of worship by dedicating every thought and action to the Supreme Divine.',
+  },
+];
+
+export interface SolarTimes {
+  sunrise: string;
+  sunset: string;
+  dayLength: string;
+  solarNoon: string;
+  isReliable: boolean;
+  unreliableReason?: string;
+}
+
+export interface PanchangDayData {
+  date: Date;
+  isoDate: string;
+  fullDateEnglish: string;
+  fullDateHindi: string;
+  dayOfWeek: string;
+  dayOfWeekHi: string;
+  location: LocationConfig;
+  tithi: {
+    number: number;
+    name: string;
+    nameHi: string;
+    transliteration: string;
+    paksha: 'Shukla' | 'Krishna';
+    pakshaHi: string;
+    progressPercent: number;
+    approxSpan: string;
+    meta: TithiMeta;
+  };
+  paksha: {
+    name: string;
+    nameHi: string;
+    transliteration: string;
+    isWaxing: boolean;
+    illuminationPercent: number;
+    explanation: string;
+  };
+  nakshatra: {
+    index: number;
+    pada: number;
+    name: string;
+    nameHi: string;
+    transliteration: string;
+    deity: string;
+    rulingPlanet: string;
+    symbol: string;
+    approxSpan: string;
+    explanation: string;
+    studyTheme: string;
+  };
+  yoga: {
+    index: number;
+    name: string;
+    nameHi: string;
+    transliteration: string;
+    nature: 'Auspicious' | 'Neutral' | 'Challenging / Reflective';
+    approxSpan: string;
+    explanation: string;
+  };
+  karana: {
+    name: string;
+    nameHi: string;
+    transliteration: string;
+    nature: string;
+    approxSpan: string;
+    explanation: string;
+  };
+  ritu: RituMeta;
+  solarTimes: SolarTimes;
+  studySuggestion: StudySuggestion;
+  upcomingFestivalsPreview: {
+    id: string;
+    name: string;
+    nameHi: string;
+    dateStr: string;
+    tithiRule: string;
+    synopsis: string;
+    category: string;
+  }[];
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   ASTRONOMICAL ALGORITHMS (Meeus-Based Educational Approximations)
+───────────────────────────────────────────────────────────────────────────── */
+
+const MS_PER_DAY = 86_400_000;
+const SYNODIC_MONTH = 29.530588861;
+const SIDEREAL_MONTH = 27.321661;
+const J2000_EPOCH = Date.UTC(2000, 0, 1, 12, 0, 0);
+const NEW_MOON_REFERENCE = Date.UTC(2000, 0, 6, 18, 14, 0);
+
+function positiveModulo(value: number, divisor: number): number {
+  return ((value % divisor) + divisor) % divisor;
+}
+
+function toRadians(deg: number): number {
+  return (deg * Math.PI) / 180;
+}
+
+function toDegrees(rad: number): number {
+  return (rad * 180) / Math.PI;
+}
+
+/**
+ * Calculates Chitra Paksha (Lahiri) Ayanamsha for a given date.
+ * At J2000.0, Lahiri ayanamsha was ~23.857°. Annual precession rate is ~50.29 arcseconds.
+ */
+function getLahiriAyanamsha(julianDaysFromJ2000: number): number {
+  const centuriesFromJ2000 = julianDaysFromJ2000 / 36525;
+  return 23.85708 + 1.3969 * centuriesFromJ2000;
+}
+
+/**
+ * Sun's tropical longitude using mean anomaly and equation of center.
+ */
+function getSunTropicalLongitude(daysFromJ2000: number): number {
+  const meanLongitude = positiveModulo(280.46646 + 0.98564736 * daysFromJ2000, 360);
+  const meanAnomaly = positiveModulo(357.52911 + 0.98560028 * daysFromJ2000, 360);
+  const equationOfCenter =
+    1.914602 * Math.sin(toRadians(meanAnomaly)) +
+    0.019993 * Math.sin(toRadians(2 * meanAnomaly));
+  return positiveModulo(meanLongitude + equationOfCenter, 360);
+}
+
+/**
+ * Moon's tropical longitude using Evection and Equation of Center perturbations.
+ */
+function getMoonTropicalLongitude(daysFromJ2000: number): number {
+  const meanLongitude = positiveModulo(218.3164477 + 13.17639648 * daysFromJ2000, 360);
+  const meanAnomaly = positiveModulo(134.9633964 + 13.06499295 * daysFromJ2000, 360);
+  const sunAnomaly = positiveModulo(357.52911 + 0.98560028 * daysFromJ2000, 360);
+  const elongation = positiveModulo(297.8501921 + 12.19074912 * daysFromJ2000, 360);
+
+  // Dominant lunar perturbations in longitude (arcseconds to degrees)
+  const equationOfCenter = 6.288774 * Math.sin(toRadians(meanAnomaly));
+  const evection = 1.274027 * Math.sin(toRadians(2 * elongation - meanAnomaly));
+  const variation = 0.658314 * Math.sin(toRadians(2 * elongation));
+  const annualEquation = -0.185116 * Math.sin(toRadians(sunAnomaly));
+
+  return positiveModulo(
+    meanLongitude + equationOfCenter + evection + variation + annualEquation,
+    360,
+  );
+}
+
+/**
+ * Calculates reliable Astronomical Sunrise and Sunset times with atmospheric refraction (-0.833°).
+ * If coordinates are missing or location falls into polar day/night where sun doesn't cross the horizon,
+ * returns an explicit graceful unavailable state.
+ */
+function calculateSolarTimes(date: Date, location: LocationConfig): SolarTimes {
+  if (!location.hasReliableCoordinates || location.latitude === null || location.longitude === null) {
+    return {
+      sunrise: '—',
+      sunset: '—',
+      dayLength: '—',
+      solarNoon: '—',
+      isReliable: false,
+      unreliableReason:
+        'Exact geographic coordinates are not configured for this location. Unlike generic clocks, Vedic panchang calculations require verified local horizon parameters.',
+    };
+  }
+
+  const lat = location.latitude;
+  const lon = location.longitude;
+  const tzOffset = location.utcOffsetHours;
+
+  // Day of year
+  const startOfYear = new Date(Date.UTC(date.getFullYear(), 0, 1));
+  const dayOfYear = Math.floor((date.getTime() - startOfYear.getTime()) / MS_PER_DAY) + 1;
+
+  // Approximate solar declination and equation of time
+  const b = (2 * Math.PI * (dayOfYear - 81)) / 365;
+  const equationOfTimeMinutes = 9.87 * Math.sin(2 * b) - 7.53 * Math.cos(b) - 1.5 * Math.sin(b);
+  const solarDeclinationDeg = 23.45 * Math.sin(toRadians(b * (365 / 360) * 360));
+
+  // Hour angle for civil/astronomical sunrise (-0.833° for atmospheric refraction)
+  const zenithDeg = 90.833;
+  const latRad = toRadians(lat);
+  const declRad = toRadians(solarDeclinationDeg);
+
+  const cosHourAngle =
+    (Math.cos(toRadians(zenithDeg)) - Math.sin(latRad) * Math.sin(declRad)) /
+    (Math.cos(latRad) * Math.cos(declRad));
+
+  // Check for polar day or polar night where the sun doesn't rise or set
+  if (cosHourAngle > 1) {
+    return {
+      sunrise: '—',
+      sunset: '—',
+      dayLength: '—',
+      solarNoon: '—',
+      isReliable: false,
+      unreliableReason: 'Polar night: The sun does not rise above the horizon at this latitude today.',
+    };
+  }
+  if (cosHourAngle < -1) {
+    return {
+      sunrise: '—',
+      sunset: '—',
+      dayLength: '—',
+      solarNoon: '—',
+      isReliable: false,
+      unreliableReason: 'Midnight sun: The sun does not set below the horizon at this latitude today.',
+    };
+  }
+
+  const hourAngleHours = toDegrees(Math.acos(cosHourAngle)) / 15;
+
+  // Solar noon in local civil time (hours)
+  const solarNoonLocalHours = 12 - (lon / 15 - tzOffset) - equationOfTimeMinutes / 60;
+  const sunriseLocalHours = solarNoonLocalHours - hourAngleHours;
+  const sunsetLocalHours = solarNoonLocalHours + hourAngleHours;
+
+  const formatHoursToTime = (decimalHours: number): string => {
+    const totalMinutes = Math.round(decimalHours * 60);
+    const normalizedMinutes = positiveModulo(totalMinutes, 24 * 60);
+    const hrs = Math.floor(normalizedMinutes / 60);
+    const mins = normalizedMinutes % 60;
+    const period = hrs >= 12 ? 'PM' : 'AM';
+    const displayHrs = hrs % 12 === 0 ? 12 : hrs % 12;
+    return `${displayHrs.toString().padStart(2, '0')}:${mins.toString().padStart(2, '0')} ${period}`;
+  };
+
+  const dayLengthHours = sunsetLocalHours - sunriseLocalHours;
+  const dayLengthHrs = Math.floor(dayLengthHours);
+  const dayLengthMins = Math.round((dayLengthHours - dayLengthHrs) * 60);
+
+  return {
+    sunrise: formatHoursToTime(sunriseLocalHours),
+    sunset: formatHoursToTime(sunsetLocalHours),
+    solarNoon: formatHoursToTime(solarNoonLocalHours),
+    dayLength: `${dayLengthHrs}h ${dayLengthMins}m`,
+    isReliable: true,
+  };
+}
+
+/**
+ * Vedic Ritu (Season) based on Tropical Sun Longitude.
+ * 6 Seasons of 60° solar movement each.
+ */
+function getVedicRitu(sunTropicalDeg: number): RituMeta {
+  if (sunTropicalDeg >= 330 || sunTropicalDeg < 30) {
+    return RITU_DATA['Vasanta'];
+  }
+  if (sunTropicalDeg >= 30 && sunTropicalDeg < 90) {
+    return RITU_DATA['Grishma'];
+  }
+  if (sunTropicalDeg >= 90 && sunTropicalDeg < 150) {
+    return RITU_DATA['Varsha'];
+  }
+  if (sunTropicalDeg >= 150 && sunTropicalDeg < 210) {
+    return RITU_DATA['Sharad'];
+  }
+  if (sunTropicalDeg >= 210 && sunTropicalDeg < 270) {
+    return RITU_DATA['Hemanta'];
+  }
+  return RITU_DATA['Shishira'];
+}
+
+/**
+ * Approximates transition end hour formatted for standard display.
+ */
+function formatRemainingSpan(progress0To1: number, hoursTotal: number, tz: string): string {
+  const remainingHours = (1 - progress0To1) * hoursTotal;
+  const now = new Date();
+  const finishTime = new Date(now.getTime() + remainingHours * 3600 * 1000);
+  const hrs = finishTime.getHours();
+  const mins = finishTime.getMinutes().toString().padStart(2, '0');
+  const period = hrs >= 12 ? 'PM' : 'AM';
+  const displayHrs = hrs % 12 === 0 ? 12 : hrs % 12;
+  return `Ends ~${displayHrs}:${mins} ${period} ${tz}`;
+}
+
+/**
+ * Previews upcoming significant festivals and tithi observances based on month and date.
+ */
+function getUpcomingFestivalsPreview(date: Date) {
+  const m = date.getMonth(); // 0 to 11
+  // Curated educational calendar milestones across the seasons
+  const pool = [
+    {
+      id: 'ekadashi_observance',
+      name: 'Pavitra Ekādaśī',
+      nameHi: 'पवित्र एकादशी',
+      dateStr: 'Upcoming 11th Lunar Day',
+      tithiRule: 'Shukla / Krishna Ekadashi',
+      synopsis: 'Fortnightly contemplation of Vishnu through dietary restraint and silence.',
+      category: 'Vrata & Sadhana',
+    },
+    {
+      id: 'pradosha_vrata',
+      name: 'Pradoṣa Vrata',
+      nameHi: 'प्रदोष व्रत',
+      dateStr: 'Upcoming 13th Lunar Day (Twilight)',
+      tithiRule: 'Trayodashi Sandhya',
+      synopsis: 'Twilight meditation on Shiva; dissolving accumulated karmic knots.',
+      category: 'Twilight Observance',
+    },
+    {
+      id: 'purnima_clarity',
+      name: 'Pūrṇimā Celebration',
+      nameHi: 'पूर्णिमा उत्सव',
+      dateStr: 'Upcoming Full Moon',
+      tithiRule: '15th Lunar Day (Purnima)',
+      synopsis: 'Celebration of inner fullness (Pūrṇatva) and divine radiance.',
+      category: 'Lunar Culmination',
+    },
+    {
+      id: 'amavasya_reflection',
+      name: 'Amāvāsyā & Pitru Smarana',
+      nameHi: 'अमावस्या एवं पितृ स्मरण',
+      dateStr: 'Upcoming New Moon',
+      tithiRule: '30th Lunar Day (Amavasya)',
+      synopsis: 'Gratitude to ancestors, silent self-inquiry, and letting go of egoic residue.',
+      category: 'Deep Inwardness',
+    },
+    {
+      id: 'diwali_knowledge',
+      name: 'Dīpāvalī · Festival of Lights',
+      nameHi: 'दीपावली (कार्तिक अमावस्या)',
+      dateStr: 'Kartika Amavasya',
+      tithiRule: 'Amavasya prevailing at Pradosha',
+      synopsis: 'Victory of illuminating knowledge over ignorance and light over darkness.',
+      category: 'Major Annual Festival',
+    },
+    {
+      id: 'gita_jayanti',
+      name: 'Gītā Jayantī',
+      nameHi: 'गीता जयंती',
+      dateStr: 'Margashirsha Shukla Ekadashi',
+      tithiRule: 'Mokshada Ekadashi',
+      synopsis: 'Advent of the Bhagavad Gita spoken by Sri Krishna to Arjuna at Kurukshetra.',
+      category: 'Scriptural Advent',
+    },
+    {
+      id: 'maha_shivaratri',
+      name: 'Mahā Śivarātri',
+      nameHi: 'महाशिवरात्रि',
+      dateStr: 'Phalguna Krishna Chaturdashi',
+      tithiRule: 'Chaturdashi prevailing at Nishita Kala',
+      synopsis: 'Vigil of transcendent awareness honoring Shiva as unmanifest reality.',
+      category: 'Great Night of Shiva',
+    },
+  ];
+
+  // Rotate display based on month so preview always feels fresh and season-relevant
+  const startIdx = (m * 2) % (pool.length - 3);
+  return pool.slice(startIdx, startIdx + 4);
+}
+
+/**
+ * Master Panchang Calculation Function
+ */
+export function calculateEducationalPanchang(
+  date: Date,
+  location: LocationConfig = PRESET_LOCATIONS[0],
+): PanchangDayData {
+  // Noon on the given date ensures standard day-centered calculation
+  const calcDate = new Date(date.getFullYear(), date.getMonth(), date.getDate(), 12, 0, 0);
+  const daysFromJ2000 = (calcDate.getTime() - J2000_EPOCH) / MS_PER_DAY;
+  const daysFromNewMoon = (calcDate.getTime() - NEW_MOON_REFERENCE) / MS_PER_DAY;
+
+  // Sidereal longitudes using Chitra Paksha (Lahiri) Ayanamsha
+  const ayanamsha = getLahiriAyanamsha(daysFromJ2000);
+  const sunTropical = getSunTropicalLongitude(daysFromJ2000);
+  const moonTropical = getMoonTropicalLongitude(daysFromJ2000);
+
+  const sunSidereal = positiveModulo(sunTropical - ayanamsha, 360);
+  const moonSidereal = positiveModulo(moonTropical - ayanamsha, 360);
+
+  // 1. TITHI (12° difference between Moon and Sun)
+  const elongation = positiveModulo(moonSidereal - sunSidereal, 360);
+  const tithiRaw = elongation / 12; // 0 to 30
+  const tithiNumber = Math.min(30, Math.floor(tithiRaw) + 1);
+  const tithiProgress = positiveModulo(tithiRaw, 1);
+  const tithiProgressPercent = Math.round(tithiProgress * 100);
+
+  const tithiMeta = TITHI_DATA[tithiNumber] || TITHI_DATA[1];
+  const pakshaName = tithiNumber <= 15 ? 'Shukla Paksha' : 'Krishna Paksha';
+  const pakshaHi = tithiNumber <= 15 ? 'शुक्ल पक्ष' : 'कृष्ण पक्ष';
+
+  // 2. PAKSHA & ILLUMINATION
+  const lunarAge = positiveModulo(daysFromNewMoon, SYNODIC_MONTH);
+  const phase = lunarAge / SYNODIC_MONTH;
+  const illuminationPercent = Math.round(((1 - Math.cos(2 * Math.PI * phase)) / 2) * 100);
+  const isWaxing = tithiNumber <= 15;
+
+  const pakshaExplanation = isWaxing
+    ? 'Waxing fortnight: The moon gathers light from the sun. Symbolizes outward learning, initiation of constructive projects, and creative momentum.'
+    : 'Waning fortnight: The moon returns light toward the source. Symbolizes introspection, detachment from fleeting gains, and reviewing past study.';
+
+  // 3. NAKSHATRA (13° 20' = 13.3333° per asterism)
+  const nakshatraIndex = Math.min(26, Math.floor(moonSidereal / (360 / 27)));
+  const nakshatraMeta = NAKSHATRA_DATA[nakshatraIndex] || NAKSHATRA_DATA[0];
+  const nakshatraProgress = (moonSidereal % (360 / 27)) / (360 / 27);
+  const pada = Math.min(4, Math.floor(nakshatraProgress * 4) + 1);
+
+  // 4. YOGA (Sum of Sun and Moon sidereal longitudes divided by 13° 20')
+  const yogaIndex = Math.min(26, Math.floor(positiveModulo(moonSidereal + sunSidereal, 360) / (360 / 27)));
+  const yogaMeta = YOGA_DATA[yogaIndex] || YOGA_DATA[0];
+  const yogaProgress = (positiveModulo(moonSidereal + sunSidereal, 360) % (360 / 27)) / (360 / 27);
+
+  // 5. KARANA (Half-tithi = 6° elongation)
+  const halfTithi = Math.min(59, Math.floor(tithiRaw * 2));
+  let karanaKey: string;
+  if (halfTithi === 0) {
+    karanaKey = 'Kimstughna';
+  } else if (halfTithi === 57) {
+    karanaKey = 'Shakuni';
+  } else if (halfTithi === 58) {
+    karanaKey = 'Chatushpada';
+  } else if (halfTithi === 59) {
+    karanaKey = 'Naga';
+  } else {
+    const repeatingKaranas = ['Bava', 'Balava', 'Kaulava', 'Taitila', 'Garaja', 'Vanija', 'Vishti'];
+    karanaKey = repeatingKaranas[(halfTithi - 1) % 7];
+  }
+  const karanaMeta = KARANA_DATA[karanaKey] || KARANA_DATA['Bava'];
+  const karanaProgress = (tithiRaw * 2) % 1;
+
+  // 6. RITU
+  const rituMeta = getVedicRitu(sunTropical);
+
+  // 7. SOLAR TIMES
+  const solarTimes = calculateSolarTimes(calcDate, location);
+
+  // 8. STUDY SUGGESTION (matched with day index or tithi)
+  const studySuggestion = STUDY_SUGGESTIONS[(date.getDate() + tithiNumber) % STUDY_SUGGESTIONS.length];
+
+  // Upcoming festivals
+  const upcomingFestivalsPreview = getUpcomingFestivalsPreview(date);
+
+  // Formatted date representations
+  const fullDateEnglish = new Intl.DateTimeFormat('en-IN', {
+    weekday: 'long',
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+  }).format(date);
+
+  const fullDateHindi = new Intl.DateTimeFormat('hi-IN', {
+    weekday: 'long',
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+  }).format(date);
+
+  const dayOfWeek = new Intl.DateTimeFormat('en-IN', { weekday: 'long' }).format(date);
+  const dayOfWeekHi = new Intl.DateTimeFormat('hi-IN', { weekday: 'long' }).format(date);
+
+  return {
+    date,
+    isoDate: date.toISOString().split('T')[0],
+    fullDateEnglish,
+    fullDateHindi,
+    dayOfWeek,
+    dayOfWeekHi,
+    location,
+    tithi: {
+      number: tithiNumber,
+      name: tithiMeta.name,
+      nameHi: tithiMeta.nameHi,
+      transliteration: tithiMeta.transliteration,
+      paksha: tithiMeta.paksha,
+      pakshaHi,
+      progressPercent: tithiProgressPercent,
+      approxSpan: formatRemainingSpan(tithiProgress, 23.6, location.timezone),
+      meta: tithiMeta,
+    },
+    paksha: {
+      name: pakshaName,
+      nameHi: pakshaHi,
+      transliteration: isWaxing ? 'Śukla Pakṣa' : 'Kṛṣṇa Pakṣa',
+      isWaxing,
+      illuminationPercent,
+      explanation: pakshaExplanation,
+    },
+    nakshatra: {
+      index: nakshatraIndex,
+      pada,
+      name: nakshatraMeta.name,
+      nameHi: nakshatraMeta.nameHi,
+      transliteration: nakshatraMeta.transliteration,
+      deity: nakshatraMeta.deity,
+      rulingPlanet: nakshatraMeta.rulingPlanet,
+      symbol: nakshatraMeta.symbol,
+      approxSpan: formatRemainingSpan(nakshatraProgress, 24.2, location.timezone),
+      explanation: nakshatraMeta.explanation,
+      studyTheme: nakshatraMeta.studyTheme,
+    },
+    yoga: {
+      index: yogaIndex,
+      name: yogaMeta.name,
+      nameHi: yogaMeta.nameHi,
+      transliteration: yogaMeta.transliteration,
+      nature: yogaMeta.nature,
+      approxSpan: formatRemainingSpan(yogaProgress, 22.8, location.timezone),
+      explanation: yogaMeta.explanation,
+    },
+    karana: {
+      name: karanaMeta.name,
+      nameHi: karanaMeta.nameHi,
+      transliteration: karanaMeta.transliteration,
+      nature: karanaMeta.nature,
+      approxSpan: formatRemainingSpan(karanaProgress, 11.8, location.timezone),
+      explanation: karanaMeta.explanation,
+    },
+    ritu: rituMeta,
+    solarTimes,
+    studySuggestion,
+    upcomingFestivalsPreview,
+  };
+}

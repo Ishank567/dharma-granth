@@ -1,822 +1,943 @@
 'use client';
 
-import { useEffect, useMemo, useState } from 'react';
-import type { ReactNode } from 'react';
-import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
+import React, { useEffect, useMemo, useState } from 'react';
+import Link from 'next/link';
 import {
+  AlertTriangle,
+  ArrowRight,
+  BookOpen,
+  Calendar,
   CalendarDays,
+  CheckCircle2,
   ChevronLeft,
   ChevronRight,
-  Clock3,
+  Clock,
+  Compass,
+  Database,
+  ExternalLink,
+  Flame,
+  Globe,
+  HelpCircle,
   Info,
+  MapPin,
   Moon,
+  RotateCcw,
+  Sliders,
   Sparkles,
   Sun,
-  Star,
+  Sunset,
 } from 'lucide-react';
-import { KineticCard } from '@/app/components/motion/KineticCard';
+import {
+  LocationConfig,
+  PRESET_LOCATIONS,
+  calculateEducationalPanchang,
+  type PanchangDayData,
+} from '@/lib/panchang';
+import { useLocalStorage } from '@/lib/useLocalStorage';
+import { MoonPhaseGraphic } from './panchang/MoonPhaseGraphic';
+import { AccuracyNotice } from './panchang/AccuracyNotice';
+import { LocationSettingsModal } from './panchang/LocationSettingsModal';
+import { DataSourceModal } from './panchang/DataSourceModal';
 
-const MS_PER_DAY = 86_400_000;
-const SYNODIC_MONTH = 29.530588861;
-const SIDEREAL_MONTH = 27.321661;
-const NEW_MOON_EPOCH = Date.UTC(2000, 0, 6, 18, 14);
-const J2000 = Date.UTC(2000, 0, 1, 12);
-
-const tithiNames = [
-  'Pratipada',
-  'Dvitiya',
-  'Tritiya',
-  'Chaturthi',
-  'Panchami',
-  'Shashthi',
-  'Saptami',
-  'Ashtami',
-  'Navami',
-  'Dashami',
-  'Ekadashi',
-  'Dwadashi',
-  'Trayodashi',
-  'Chaturdashi',
-  'Purnima',
-];
-
-const tithiNamesHi = [
-  'प्रतिपदा',
-  'द्वितीया',
-  'तृतीया',
-  'चतुर्थी',
-  'पंचमी',
-  'षष्ठी',
-  'सप्तमी',
-  'अष्टमी',
-  'नवमी',
-  'दशमी',
-  'एकादशी',
-  'द्वादशी',
-  'त्रयोदशी',
-  'चतुर्दशी',
-  'पूर्णिमा',
-];
-
-const nakshatras = [
-  'Ashwini',
-  'Bharani',
-  'Krittika',
-  'Rohini',
-  'Mrigashira',
-  'Ardra',
-  'Punarvasu',
-  'Pushya',
-  'Ashlesha',
-  'Magha',
-  'Purva Phalguni',
-  'Uttara Phalguni',
-  'Hasta',
-  'Chitra',
-  'Swati',
-  'Vishakha',
-  'Anuradha',
-  'Jyeshtha',
-  'Mula',
-  'Purva Ashadha',
-  'Uttara Ashadha',
-  'Shravana',
-  'Dhanishta',
-  'Shatabhisha',
-  'Purva Bhadrapada',
-  'Uttara Bhadrapada',
-  'Revati',
-];
-
-const nakshatrasHi = [
-  'अश्विनी',
-  'भरणी',
-  'कृत्तिका',
-  'रोहिणी',
-  'मृगशिरा',
-  'आर्द्रा',
-  'पुनर्वसु',
-  'पुष्य',
-  'आश्लेषा',
-  'मघा',
-  'पूर्व फाल्गुनी',
-  'उत्तर फाल्गुनी',
-  'हस्त',
-  'चित्रा',
-  'स्वाती',
-  'विशाखा',
-  'अनुराधा',
-  'ज्येष्ठा',
-  'मूल',
-  'पूर्वाषाढ़ा',
-  'उत्तराषाढ़ा',
-  'श्रवण',
-  'धनिष्ठा',
-  'शतभिषा',
-  'पूर्व भाद्रपद',
-  'उत्तर भाद्रपद',
-  'रेवती',
-];
-
-const yogas = [
-  'Vishkambha',
-  'Priti',
-  'Ayushman',
-  'Saubhagya',
-  'Shobhana',
-  'Atiganda',
-  'Sukarma',
-  'Dhriti',
-  'Shula',
-  'Ganda',
-  'Vriddhi',
-  'Dhruva',
-  'Vyaghata',
-  'Harshana',
-  'Vajra',
-  'Siddhi',
-  'Vyatipata',
-  'Variyan',
-  'Parigha',
-  'Shiva',
-  'Siddha',
-  'Sadhya',
-  'Shubha',
-  'Shukla',
-  'Brahma',
-  'Indra',
-  'Vaidhriti',
-];
-
-const karanas = [
-  'Bava',
-  'Balava',
-  'Kaulava',
-  'Taitila',
-  'Garaja',
-  'Vanija',
-  'Vishti',
-];
-
-function positiveModulo(value: number, divisor: number): number {
-  return ((value % divisor) + divisor) % divisor;
+function addDays(base: Date, days: number): Date {
+  const d = new Date(base);
+  d.setDate(d.getDate() + days);
+  return d;
 }
 
-function startOfLocalDay(date: Date): Date {
-  return new Date(date.getFullYear(), date.getMonth(), date.getDate(), 12);
-}
-
-function addDays(date: Date, days: number): Date {
-  const next = new Date(date);
-  next.setDate(next.getDate() + days);
-  return startOfLocalDay(next);
-}
-
-function daysBetween(date: Date, epoch: number): number {
-  return (startOfLocalDay(date).getTime() - epoch) / MS_PER_DAY;
-}
-
-function formatDate(date: Date): string {
-  return new Intl.DateTimeFormat('en-IN', {
-    weekday: 'long',
-    day: 'numeric',
-    month: 'long',
-    year: 'numeric',
-  }).format(date);
-}
-
-function getRitu(date: Date): { en: string; hi: string; note: string } {
-  const month = date.getMonth();
-
-  if (month === 2 || month === 3) {
-    return { en: 'Vasanta', hi: 'वसन्त', note: 'renewal, learning, clarity' };
-  }
-  if (month === 4 || month === 5) {
-    return { en: 'Grishma', hi: 'ग्रीष्म', note: 'discipline, restraint, energy' };
-  }
-  if (month === 6 || month === 7) {
-    return { en: 'Varsha', hi: 'वर्षा', note: 'patience, nourishment, reflection' };
-  }
-  if (month === 8 || month === 9) {
-    return { en: 'Sharad', hi: 'शरद्', note: 'purity, devotion, balance' };
-  }
-  if (month === 10 || month === 11) {
-    return { en: 'Hemanta', hi: 'हेमन्त', note: 'strength, preparation, steadiness' };
-  }
-  return { en: 'Shishira', hi: 'शिशिर', note: 'quiet study, inwardness, rest' };
-}
-
-function calculatePanchang(date: Date) {
-  const daysFromNewMoon = daysBetween(date, NEW_MOON_EPOCH);
-  const lunarAge = positiveModulo(daysFromNewMoon, SYNODIC_MONTH);
-  const tithiExact = (lunarAge / SYNODIC_MONTH) * 30;
-  const tithiNumber = Math.floor(tithiExact) + 1;
-  const paksha = tithiNumber <= 15 ? 'Shukla Paksha' : 'Krishna Paksha';
-  const pakshaHi = tithiNumber <= 15 ? 'शुक्ल पक्ष' : 'कृष्ण पक्ष';
-  const tithiIndex = tithiNumber <= 15 ? tithiNumber - 1 : tithiNumber - 16;
-  const tithiName =
-    tithiNumber === 30 ? 'Amavasya' : tithiNames[tithiIndex] ?? 'Pratipada';
-  const tithiNameHi =
-    tithiNumber === 30 ? 'अमावस्या' : tithiNamesHi[tithiIndex] ?? 'प्रतिपदा';
-
-  const daysFromJ2000 = daysBetween(date, J2000);
-  const moonLongitude = positiveModulo(
-    218.316 + (daysFromJ2000 / SIDEREAL_MONTH) * 360,
-    360,
-  );
-  const sunLongitude = positiveModulo(280.46 + 0.9856474 * daysFromJ2000, 360);
-  const nakshatraIndex = Math.floor(moonLongitude / (360 / 27));
-  const yogaIndex = Math.floor(
-    positiveModulo(moonLongitude + sunLongitude, 360) / (360 / 27),
-  );
-  const halfTithi = Math.floor(tithiExact * 2);
-  const karana =
-    halfTithi === 0
-      ? 'Kimstughna'
-      : halfTithi === 57
-        ? 'Shakuni'
-        : halfTithi === 58
-          ? 'Chatushpada'
-          : halfTithi === 59
-            ? 'Naga'
-            : karanas[(halfTithi - 1) % karanas.length];
-  const phase = lunarAge / SYNODIC_MONTH;
-  const illumination = Math.round(((1 - Math.cos(2 * Math.PI * phase)) / 2) * 100);
-  const tithiProgress = Math.round((tithiExact % 1) * 100);
-
-  return {
-    tithiNumber,
-    tithiName,
-    tithiNameHi,
-    paksha,
-    pakshaHi,
-    nakshatra: nakshatras[nakshatraIndex],
-    nakshatraHi: nakshatrasHi[nakshatraIndex],
-    yoga: yogas[yogaIndex],
-    karana,
-    illumination,
-    tithiProgress,
-    ritu: getRitu(date),
-  };
-}
-
-function getWeekDays(center: Date) {
-  return Array.from({ length: 7 }, (_, index) => addDays(center, index - 3));
+function toIsoDate(d: Date): string {
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${y}-${m}-${day}`;
 }
 
 export function PanchangCalendar() {
-  const [selectedDate, setSelectedDate] = useState<Date | null>(null);
-  const reduce = useReducedMotion();
+  const [selectedDate, setSelectedDate] = useState<Date>(() => new Date());
+  const [activeView, setActiveView] = useState<'day' | 'week'>('day');
+  const [isLocationModalOpen, setIsLocationModalOpen] = useState(false);
+  const [isDataSourceModalOpen, setIsDataSourceModalOpen] = useState(false);
 
-  useEffect(() => {
-    setSelectedDate(startOfLocalDay(new Date()));
-  }, []);
-
-  const panchang = useMemo(
-    () => (selectedDate ? calculatePanchang(selectedDate) : null),
-    [selectedDate],
-  );
-  const weekDays = useMemo(
-    () => (selectedDate ? getWeekDays(selectedDate) : []),
-    [selectedDate],
+  // User location preference stored in localStorage, defaulting to Varanasi
+  const [location, setLocation] = useLocalStorage<LocationConfig>(
+    'dharma.panchang.location',
+    PRESET_LOCATIONS[0],
   );
 
-  if (!selectedDate || !panchang) {
+  // Panchang calculations for the selected date and location
+  const [retryKey, setRetryKey] = useState(0);
+  const panchang = useMemo<PanchangDayData | null>(() => {
+    // retryKey forces a fresh attempt; a failed calculation never falls back to stale values
+    void retryKey;
+    try {
+      return calculateEducationalPanchang(selectedDate, location);
+    } catch (err) {
+      console.error('[Panchang] calculation failed', err);
+      return null;
+    }
+  }, [selectedDate, location, retryKey]);
+
+  // Week view calculation: 7 days centered or starting around selected date
+  const weekDays = useMemo(() => {
+    if (!panchang) return [];
+    try {
+      return Array.from({ length: 7 }, (_, i) => {
+        const day = addDays(selectedDate, i - 3);
+        return {
+          date: day,
+          iso: toIsoDate(day),
+          panchang: calculateEducationalPanchang(day, location),
+        };
+      });
+    } catch {
+      return [];
+    }
+  }, [selectedDate, location, panchang]);
+
+  const handlePrevDay = () => setSelectedDate((d) => addDays(d, -1));
+  const handleNextDay = () => setSelectedDate((d) => addDays(d, 1));
+  const handleToday = () => setSelectedDate(new Date());
+
+  const handleDateChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    if (!e.target.value) return;
+    const [year, month, day] = e.target.value.split('-').map(Number);
+    if (year && month && day) {
+      setSelectedDate(new Date(year, month - 1, day, 12, 0, 0));
+    }
+  };
+
+  const isToday = toIsoDate(selectedDate) === toIsoDate(new Date());
+
+  if (!panchang) {
     return (
-      <section className="max-w-6xl mx-auto px-6 py-12" aria-busy="true" aria-label="पंचांग लोड हो रहा है">
-        <div className="overflow-hidden rounded-2xl border border-dharma-border bg-dharma-card shadow-xl animate-pulse">
-          <div className="grid lg:grid-cols-[0.9fr_1.1fr]">
-            <div className="bg-gradient-to-br from-saffron-900/60 via-saffron-800/60 to-amber-700/60 p-6 md:p-8 min-h-[340px] flex flex-col justify-between">
-              <div className="space-y-3">
-                <div className="h-4 w-28 bg-white/20 rounded-full" />
-                <div className="h-8 w-48 bg-white/20 rounded-xl" />
-                <div className="h-4 w-64 bg-white/15 rounded-lg" />
-              </div>
-              <div className="grid grid-cols-2 gap-3 pt-6">
-                <div className="h-16 bg-white/10 rounded-xl" />
-                <div className="h-16 bg-white/10 rounded-xl" />
-              </div>
-            </div>
-            <div className="p-6 md:p-8 space-y-4">
-              <div className="h-5 w-36 bg-dharma-border rounded-lg" />
-              <div className="grid sm:grid-cols-3 gap-3">
-                <div className="h-24 bg-dharma-bg rounded-xl border border-dharma-border" />
-                <div className="h-24 bg-dharma-bg rounded-xl border border-dharma-border" />
-                <div className="h-24 bg-dharma-bg rounded-xl border border-dharma-border" />
-              </div>
-              <div className="h-20 bg-dharma-bg rounded-xl border border-dharma-border" />
-            </div>
+      <div className="space-y-6">
+        <section
+          role="alert"
+          className="rounded-3xl border border-amber-300/70 bg-amber-50/60 p-6 text-center shadow-sm dark:border-amber-800/60 dark:bg-amber-950/20"
+        >
+          <h2 className="font-serif text-xl font-bold text-dharma-text">
+            Panchang information is temporarily unavailable.
+          </h2>
+          <p lang="hi" className="font-devanagari mt-1 text-sm text-dharma-muted">
+            पंचांग की जानकारी अभी उपलब्ध नहीं है।
+          </p>
+          <p className="mt-3 text-sm text-dharma-muted">
+            No saved or placeholder values are shown in its place. Selected place: {location.name}.
+          </p>
+          <div className="mt-5 flex flex-wrap justify-center gap-3">
+            <button type="button" onClick={() => setRetryKey((k) => k + 1)} className="min-h-[44px] rounded-xl bg-saffron-600 px-5 text-sm font-semibold text-white hover:bg-saffron-700">
+              Retry
+            </button>
+            <button type="button" onClick={() => setIsLocationModalOpen(true)} className="min-h-[44px] rounded-xl border border-dharma-border bg-dharma-card px-5 text-sm font-semibold text-dharma-text hover:border-saffron-300">
+              Change location
+            </button>
+            <button type="button" onClick={() => setIsDataSourceModalOpen(true)} className="min-h-[44px] rounded-xl border border-dharma-border bg-dharma-card px-5 text-sm font-semibold text-dharma-text hover:border-saffron-300">
+              View data source
+            </button>
           </div>
-        </div>
-      </section>
+        </section>
+        <LocationSettingsModal isOpen={isLocationModalOpen} onClose={() => setIsLocationModalOpen(false)} currentLocation={location} onSelectLocation={(loc) => setLocation(loc)} />
+        <DataSourceModal isOpen={isDataSourceModalOpen} onClose={() => setIsDataSourceModalOpen(false)} />
+      </div>
     );
   }
 
-  const mainCards = [
-    {
-      label: 'Tithi',
-      hi: 'तिथि',
-      value: `${panchang.tithiName} ${panchang.tithiNumber}`,
-      subValue: panchang.tithiNameHi,
-      detail: 'The lunar day for daily vrata, study, and reflection.',
-      icon: <Moon className="h-5 w-5" />,
-    },
-    {
-      label: 'Paksha',
-      hi: 'पक्ष',
-      value: panchang.paksha,
-      subValue: panchang.pakshaHi,
-      detail:
-        panchang.tithiNumber <= 15
-          ? 'Waxing fortnight: growth, learning, beginning.'
-          : 'Waning fortnight: release, review, simplification.',
-      icon: <Sparkles className="h-5 w-5" />,
-    },
-    {
-      label: 'Nakshatra',
-      hi: 'नक्षत्र',
-      value: panchang.nakshatra,
-      subValue: panchang.nakshatraHi,
-      detail: 'The Moon’s star mansion, used as the day’s symbolic mood.',
-      icon: <CalendarDays className="h-5 w-5" />,
-    },
-  ];
-
   return (
-    <section className="max-w-6xl mx-auto px-6 py-12">
-      <FadeShell>
-        <motion.div
-          className="overflow-hidden rounded-2xl border border-dharma-border bg-dharma-card shadow-xl"
-          initial={{ scale: 0.95, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
-          transition={{ duration: 0.5, ease: "easeOut" }}
-        >
-          <div className="grid lg:grid-cols-[0.9fr_1.1fr]">
-            <div className="relative overflow-hidden bg-gradient-to-br from-saffron-900 via-saffron-700 to-amber-600 p-6 text-white md:p-8">
-              <FloatingParticles />
-              <motion.div
-                className="absolute inset-0 mandala-bg opacity-15"
-                aria-hidden="true"
-                animate={reduce ? undefined : { rotate: 360 }}
-                transition={reduce ? undefined : { duration: 120, repeat: Infinity, ease: "linear" }}
-              />
-              <div className="relative">
-                <div className="mb-8 flex items-center justify-between gap-4">
-                  <motion.div
-                    initial={{ opacity: 0, x: -20 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ delay: 0.1 }}
-                  >
-                    <motion.p
-                      className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 text-xs font-bold uppercase tracking-widest text-saffron-100"
-                      animate={reduce ? undefined : { scale: [1, 1.05, 1] }}
-                      transition={reduce ? undefined : { duration: 2, repeat: Infinity }}
-                    >
-                      <motion.span
-                        className="inline-flex"
-                        animate={reduce ? undefined : { rotate: 360 }}
-                        transition={reduce ? undefined : { duration: 10, repeat: Infinity, ease: "linear" }}
-                      >
-                        <Sun className="h-3.5 w-3.5" />
-                      </motion.span>
-                      पंचांग Calendar
-                    </motion.p>
-                    <h2 className="mt-4 text-3xl font-serif font-bold md:text-4xl">
-                      Today&apos;s Study Rhythm
-                    </h2>
-                    <p className="mt-2 max-w-md text-sm leading-relaxed text-white/80">
-                      A clear Panchang-inspired view for daily scripture reading,
-                      vrata awareness, and seasonal reflection.
-                    </p>
-                  </motion.div>
-                </div>
+    <div className="space-y-6">
+      {/* ─── 1. HEADER ──────────────────────────────────────────────────────── */}
+      <header
+        aria-label="Panchang controls and active date"
+        className="rounded-3xl border border-dharma-border bg-dharma-card p-5 sm:p-7 shadow-sm space-y-5"
+      >
+        {/* Top line: Location control, Timezone, and Sources link */}
+        <div className="flex flex-wrap items-center justify-between gap-3 border-b border-dharma-border/60 pb-4">
+          <div className="flex flex-wrap items-center gap-2">
+            {/* Selected Location Pill */}
+            <button
+              type="button"
+              onClick={() => setIsLocationModalOpen(true)}
+              className="group inline-flex items-center gap-2 rounded-xl border border-dharma-border bg-dharma-panel px-3 py-1.5 text-xs font-semibold text-dharma-text hover:border-saffron-400 hover:text-saffron-700 dark:hover:text-saffron-400 transition"
+              title="Click to change location or enter custom coordinates"
+            >
+              <MapPin className="h-3.5 w-3.5 text-saffron-600 group-hover:scale-110 transition-transform" />
+              <span className="font-medium text-dharma-muted">स्थान:</span>
+              <span className="font-bold">{location.name}</span>
+              <span className="text-[11px] text-saffron-600 underline underline-offset-2 ml-1">
+                बदलें (Change)
+              </span>
+            </button>
 
-                <motion.div
-                  className="rounded-2xl border border-white/20 bg-white/10 p-5 backdrop-blur-sm"
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 0.2 }}
-                >
-                  <AnimatePresence mode="wait">
-                    <motion.p
-                      key={selectedDate.toDateString()}
-                      className="text-sm font-semibold text-saffron-100"
-                      initial={{ opacity: 0, y: -10 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      exit={{ opacity: 0, y: 10 }}
-                      transition={{ duration: 0.3 }}
-                    >
-                      {formatDate(selectedDate)}
-                    </motion.p>
-                  </AnimatePresence>
-                  <div className="mt-5 grid grid-cols-[120px_1fr] items-center gap-5">
-                    <motion.div
-                      className="relative flex h-28 w-28 items-center justify-center rounded-full"
-                      style={{
-                        background: `conic-gradient(#fde68a ${panchang.illumination}%, rgba(255,255,255,0.16) ${panchang.illumination}% 100%)`,
-                      }}
-                      animate={reduce ? undefined : { rotate: 360 }}
-                      transition={reduce ? undefined : { duration: 30, repeat: Infinity, ease: "linear" }}
-                    >
-                      <motion.div
-                        className="flex h-20 w-20 flex-col items-center justify-center rounded-full bg-saffron-950/80 text-center shadow-inner"
-                        animate={reduce ? undefined : { scale: [1, 1.05, 1] }}
-                        transition={reduce ? undefined : { duration: 3, repeat: Infinity }}
-                      >
-                        <motion.div
-                          animate={reduce ? undefined : { rotate: -360 }}
-                          transition={reduce ? undefined : { duration: 20, repeat: Infinity, ease: "linear" }}
-                        >
-                          <Moon className="h-5 w-5 text-saffron-200" />
-                        </motion.div>
-                        <AnimatePresence mode="wait">
-                          <motion.span
-                            key={panchang.illumination}
-                            className="mt-1 text-xl font-bold"
-                            initial={{ opacity: 0, scale: 0.5 }}
-                            animate={{ opacity: 1, scale: 1 }}
-                            exit={{ opacity: 0, scale: 0.5 }}
-                            transition={{ duration: 0.3 }}
-                          >
-                            {panchang.illumination}%
-                          </motion.span>
-                        </AnimatePresence>
-                      </motion.div>
-                      <motion.div
-                        className="absolute inset-0 rounded-full"
-                        animate={
-                          reduce
-                            ? undefined
-                            : {
-                                boxShadow: [
-                                  `0 0 20px rgba(253, 230, 138, 0.3)`,
-                                  `0 0 40px rgba(253, 230, 138, 0.5)`,
-                                  `0 0 20px rgba(253, 230, 138, 0.3)`,
-                                ],
-                              }
-                        }
-                        transition={reduce ? undefined : { duration: 2, repeat: Infinity }}
-                      />
-                    </motion.div>
-                    <div>
-                      <p className="text-xs font-bold uppercase tracking-widest text-saffron-100/80">
-                        Moon Light
-                      </p>
-                      <AnimatePresence mode="wait">
-                        <motion.p
-                          key={panchang.paksha}
-                          className="mt-1 text-2xl font-serif font-bold"
-                          initial={{ opacity: 0, x: -10 }}
-                          animate={{ opacity: 1, x: 0 }}
-                          exit={{ opacity: 0, x: 10 }}
-                          transition={{ duration: 0.3 }}
-                        >
-                          {panchang.paksha}
-                        </motion.p>
-                      </AnimatePresence>
-                      <AnimatePresence mode="wait">
-                        <motion.p lang="hi"
-                          key={panchang.pakshaHi}
-                          className="mt-2 font-devanagari text-lg text-saffron-100"
-                          initial={{ opacity: 0, x: -10 }}
-                          animate={{ opacity: 1, x: 0 }}
-                          exit={{ opacity: 0, x: 10 }}
-                          transition={{ duration: 0.3, delay: 0.05 }}
-                        >
-                          {panchang.pakshaHi}
-                        </motion.p>
-                      </AnimatePresence>
-                      <div className="mt-4 h-2 overflow-hidden rounded-full bg-white/20">
-                        <motion.div
-                          className="h-full rounded-full bg-white"
-                          initial={{ width: 0 }}
-                          animate={{ width: `${panchang.tithiProgress}%` }}
-                          transition={{ duration: 1, ease: "easeOut" }}
-                        />
-                      </div>
-                      <AnimatePresence mode="wait">
-                        <motion.p
-                          key={panchang.tithiProgress}
-                          className="mt-2 text-xs text-white/70"
-                          initial={{ opacity: 0 }}
-                          animate={{ opacity: 1 }}
-                          exit={{ opacity: 0 }}
-                          transition={{ duration: 0.3 }}
-                        >
-                          {panchang.tithiProgress}% through this tithi
-                        </motion.p>
-                      </AnimatePresence>
-                    </div>
-                  </div>
-                </motion.div>
+            {/* Timezone Badge */}
+            <span className="inline-flex items-center gap-1.5 rounded-xl border border-dharma-border bg-dharma-panel/60 px-3 py-1.5 text-xs text-dharma-muted">
+              <Clock className="h-3.5 w-3.5" />
+              <span className="font-mono font-medium text-dharma-text">
+                {location.timezone} (UTC{location.utcOffsetHours >= 0 ? `+${location.utcOffsetHours}` : location.utcOffsetHours})
+              </span>
+            </span>
 
-                <motion.div
-                  className="mt-5 flex flex-wrap gap-2"
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 0.3 }}
-                >
-                  <motion.button
-                    type="button"
-                    onClick={() => setSelectedDate((date) => addDays(date ?? new Date(), -1))}
-                    aria-label="Previous day"
-                    className="inline-flex items-center gap-2 rounded-lg border border-white/25 bg-white/10 px-3 py-2 text-sm font-semibold text-white transition hover:bg-white/20"
-                    whileHover={{ scale: 1.05, backgroundColor: "rgba(255,255,255,0.25)" }}
-                    whileTap={{ scale: 0.95 }}
-                  >
-                    <ChevronLeft className="h-4 w-4" />
-                    Previous
-                  </motion.button>
-                  <motion.button
-                    type="button"
-                    onClick={() => setSelectedDate(startOfLocalDay(new Date()))}
-                    aria-label="Go to today"
-                    className="rounded-lg bg-white px-4 py-2 text-sm font-bold text-saffron-800 transition hover:bg-saffron-50"
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                  >
-                    Today
-                  </motion.button>
-                  <motion.button
-                    type="button"
-                    onClick={() => setSelectedDate((date) => addDays(date ?? new Date(), 1))}
-                    aria-label="Next day"
-                    className="inline-flex items-center gap-2 rounded-lg border border-white/25 bg-white/10 px-3 py-2 text-sm font-semibold text-white transition hover:bg-white/20"
-                    whileHover={{ scale: 1.05, backgroundColor: "rgba(255,255,255,0.25)" }}
-                    whileTap={{ scale: 0.95 }}
-                  >
-                    Next
-                    <ChevronRight className="h-4 w-4" />
-                  </motion.button>
-                </motion.div>
-              </div>
+            {!location.hasReliableCoordinates && (
+              <span className="inline-flex items-center gap-1 rounded-xl bg-amber-500/15 px-2.5 py-1 text-[11px] font-semibold text-amber-800 dark:text-amber-200">
+                <AlertTriangle className="h-3 w-3" />
+                <span>Coordinates unverified</span>
+              </span>
+            )}
+          </div>
+
+          <div className="flex items-center gap-2">
+            <button
+              type="button"
+              onClick={() => setIsDataSourceModalOpen(true)}
+              className="inline-flex items-center gap-1.5 rounded-xl border border-dharma-border bg-dharma-panel px-3 py-1.5 text-xs font-medium text-dharma-muted hover:text-dharma-text transition"
+            >
+              <Database className="h-3.5 w-3.5" />
+              <span>डेटा स्रोत (Data Sources)</span>
+            </button>
+          </div>
+        </div>
+
+        {/* Date Display and Day Navigation */}
+        <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
+          <div>
+            <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-saffron-700 dark:text-saffron-400">
+              <span>{panchang.dayOfWeek} · {panchang.dayOfWeekHi}</span>
+              <span>•</span>
+              <span>{panchang.ritu.nameHi} ऋतु ({panchang.ritu.seasonEn})</span>
+            </div>
+            <h2 className="mt-1 font-serif text-2xl sm:text-3xl font-bold text-dharma-text">
+              {panchang.fullDateEnglish}
+            </h2>
+            <p lang="hi" className="text-sm sm:text-base font-devanagari text-dharma-muted">
+              {panchang.fullDateHindi} · {panchang.tithi.nameHi} ({panchang.paksha.nameHi})
+            </p>
+          </div>
+
+          {/* Previous / Today / Next / Date Picker */}
+          <div className="flex flex-wrap items-center gap-2">
+            <div className="inline-flex rounded-xl border border-dharma-border bg-dharma-panel p-1">
+              <button
+                type="button"
+                onClick={handlePrevDay}
+                aria-label="Previous day"
+                className="inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-semibold text-dharma-text hover:bg-dharma-card transition"
+              >
+                <ChevronLeft className="h-4 w-4" />
+                <span>Previous Day</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={handleToday}
+                disabled={isToday}
+                aria-label="Jump to today"
+                className={`rounded-lg px-3.5 py-1.5 text-xs font-bold transition ${
+                  isToday
+                    ? 'bg-saffron-600 text-white shadow-sm'
+                    : 'text-dharma-text hover:bg-dharma-card'
+                }`}
+              >
+                Today
+              </button>
+
+              <button
+                type="button"
+                onClick={handleNextDay}
+                aria-label="Next day"
+                className="inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-semibold text-dharma-text hover:bg-dharma-card transition"
+              >
+                <span>Next Day</span>
+                <ChevronRight className="h-4 w-4" />
+              </button>
             </div>
 
-            <div className="p-5 md:p-8">
-              <div className="grid gap-4 md:grid-cols-3">
-                {mainCards.map((card, index) => (
-                  <KineticCard
-                    key={card.label}
-                    className="h-full overflow-hidden rounded-xl border border-dharma-border bg-dharma-bg shadow-sm"
-                    contentClassName="p-4"
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.4 + index * 0.1 }}
-                    rotate={4}
-                    depth={20}
-                    lift={4}
-                    hoverScale={1.012}
-                    hoverShadow="0 20px 45px -26px rgba(124, 45, 18, 0.32)"
-                  >
-                    <div className="mb-3 flex items-center justify-between gap-3">
-                      <motion.div
-                        className="flex h-10 w-10 items-center justify-center rounded-lg bg-saffron-100 text-saffron-700"
-                        whileHover={{ rotate: 360, transition: { duration: 0.6 } }}
-                      >
-                        {card.icon}
-                      </motion.div>
-                      <p className="text-xs font-bold uppercase tracking-widest text-dharma-muted">
-                        {card.hi}
-                      </p>
-                    </div>
-                    <AnimatePresence mode="wait">
-                      <motion.h3
-                        key={card.value}
-                        className="font-serif text-lg font-bold text-dharma-text"
-                        initial={{ opacity: 0, x: -10 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        exit={{ opacity: 0, x: 10 }}
-                        transition={{ duration: 0.3 }}
-                      >
-                        {card.value}
-                      </motion.h3>
-                    </AnimatePresence>
-                    <AnimatePresence mode="wait">
-                      <motion.p lang="hi"
-                        key={card.subValue}
-                        className="mt-1 font-devanagari text-sm text-saffron-700"
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        exit={{ opacity: 0 }}
-                        transition={{ duration: 0.3, delay: 0.05 }}
-                      >
-                        {card.subValue}
-                      </motion.p>
-                    </AnimatePresence>
-                    <p className="mt-3 text-xs leading-relaxed text-dharma-muted">
-                      {card.detail}
-                    </p>
-                  </KineticCard>
-                ))}
-              </div>
-
-              <div className="mt-5 grid gap-4 md:grid-cols-[1fr_0.85fr]">
-                <motion.div
-                  className="rounded-xl border border-dharma-border bg-dharma-bg p-4"
-                  initial={{ opacity: 0, x: -20 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: 0.5 }}
-                >
-                  <div className="mb-4 flex items-center justify-between">
-                    <div>
-                      <p className="text-xs font-bold uppercase tracking-widest text-dharma-muted">
-                        Week View
-                      </p>
-                      <h3 className="mt-1 font-serif text-xl font-bold text-dharma-text">
-                        Lunar flow at a glance
-                      </h3>
-                    </div>
-                    <motion.div
-                      animate={reduce ? undefined : { rotate: 360 }}
-                      transition={reduce ? undefined : { duration: 20, repeat: Infinity, ease: "linear" }}
-                    >
-                      <Clock3 className="h-5 w-5 text-saffron-600" />
-                    </motion.div>
-                  </div>
-                  <div className="grid grid-cols-7 gap-2" role="grid" aria-label="Week view: select a day">
-                    <div role="row" className="contents">
-                    {weekDays.map((day, index) => {
-                      const dayPanchang = calculatePanchang(day);
-                      const isSelected =
-                        day.toDateString() === selectedDate.toDateString();
-
-                      return (
-                        <div role="gridcell" className="contents" key={day.toISOString()}>
-                        <motion.button
-                          type="button"
-                          onClick={() => setSelectedDate(day)}
-                          aria-label={`${formatDate(day)}, tithi ${dayPanchang.tithiNumber}${isSelected ? ', selected' : ''}`}
-                          aria-pressed={isSelected}
-                          className={`rounded-lg border p-2 text-center transition ${
-                            isSelected
-                              ? 'border-saffron-700 bg-saffron-700 text-white shadow-md'
-                              : 'border-dharma-border bg-dharma-card text-dharma-text hover:border-saffron-300 hover:bg-saffron-500/10'
-                          }`}
-                          initial={{ opacity: 0, scale: 0.8 }}
-                          animate={{ opacity: 1, scale: 1 }}
-                          transition={{ delay: 0.6 + index * 0.05 }}
-                          whileHover={{ scale: 1.1, y: -2 }}
-                          whileTap={{ scale: 0.95 }}
-                        >
-                          <span className={`block text-[10px] font-bold uppercase ${isSelected ? 'text-white' : 'text-dharma-muted'}`}>
-                            {new Intl.DateTimeFormat('en-IN', {
-                              weekday: 'short',
-                            }).format(day)}
-                          </span>
-                          <span className="mt-1 block text-lg font-bold">
-                            {day.getDate()}
-                          </span>
-                          <span className={`mt-1 block truncate text-[10px] font-semibold ${isSelected ? 'text-white' : 'text-dharma-muted'}`}>
-                            T{dayPanchang.tithiNumber}
-                          </span>
-                        </motion.button>
-                        </div>
-                      );
-                    })}
-                    </div>
-                  </div>
-                </motion.div>
-
-                <motion.div
-                  className="rounded-xl border border-dharma-border bg-dharma-bg p-4"
-                  initial={{ opacity: 0, x: 20 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: 0.6 }}
-                >
-                  <p className="text-xs font-bold uppercase tracking-widest text-dharma-muted">
-                    More Panchang Angas
-                  </p>
-                  <dl className="mt-4 space-y-3">
-                    {[
-                      ['Yoga', panchang.yoga],
-                      ['Karana', panchang.karana],
-                      ['Ritu', `${panchang.ritu.en} · ${panchang.ritu.hi}`],
-                    ].map(([label, value], index) => (
-                      <motion.div
-                        key={label}
-                        className="flex items-center justify-between gap-4 rounded-lg bg-dharma-card px-3 py-2"
-                        initial={{ opacity: 0, x: 10 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        transition={{ delay: 0.7 + index * 0.1 }}
-                        whileHover={{ scale: 1.02, backgroundColor: "rgba(251, 146, 60, 0.1)" }}
-                      >
-                        <dt className="text-xs font-bold uppercase tracking-widest text-dharma-muted">
-                          {label}
-                        </dt>
-                        <AnimatePresence mode="wait">
-                          <motion.dd
-                            key={value}
-                            className="text-right text-sm font-semibold text-dharma-text"
-                            initial={{ opacity: 0 }}
-                            animate={{ opacity: 1 }}
-                            exit={{ opacity: 0 }}
-                            transition={{ duration: 0.2 }}
-                          >
-                            {value}
-                          </motion.dd>
-                        </AnimatePresence>
-                      </motion.div>
-                    ))}
-                  </dl>
-                  <motion.p
-                    className="mt-4 text-sm leading-relaxed text-dharma-text"
-                    initial={reduce ? false : { opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={reduce ? { duration: 0 } : { delay: 1 }}
-                  >
-                    Seasonal cue: {panchang.ritu.note}. Use it as a simple
-                    prompt for choosing what to read today.
-                  </motion.p>
-                </motion.div>
-              </div>
-
-              <motion.div
-                className="mt-5 rounded-xl border border-dashed border-dharma-border bg-dharma-bg p-4"
-                initial={reduce ? false : { opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={reduce ? { duration: 0 } : { delay: 1.1 }}
-              >
-                <div className="flex gap-3">
-                  <motion.div
-                    animate={reduce ? undefined : { rotate: [0, 5, -5, 0] }}
-                    transition={reduce ? undefined : { duration: 2, repeat: Infinity }}
-                  >
-                    <Info className="mt-0.5 h-5 w-5 shrink-0 text-saffron-600" />
-                  </motion.div>
-                  <p className="text-sm leading-relaxed text-dharma-text">
-                    This is an educational Panchang approximation for visual
-                    study. Exact Panchang values depend on location, sunrise,
-                    ayanamsha, and astronomical calculations.
-                  </p>
-                </div>
-              </motion.div>
+            {/* Direct Date Picker */}
+            <div className="relative">
+              <input
+                type="date"
+                value={panchang.isoDate}
+                onChange={handleDateChange}
+                aria-label="Select custom date"
+                className="rounded-xl border border-dharma-border bg-dharma-panel px-3 py-2 text-xs font-semibold text-dharma-text hover:border-saffron-400 focus:border-saffron-500 focus:outline-none transition"
+              />
             </div>
           </div>
-        </motion.div>
-      </FadeShell>
-    </section>
-  );
-}
+        </div>
 
-function FadeShell({ children }: { children: ReactNode }) {
-  return (
-    <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6, ease: "easeOut" }}
-    >
-      {children}
-    </motion.div>
-  );
-}
+        {/* View Switcher: Day View vs Week View */}
+        <div className="flex items-center justify-between border-t border-dharma-border/60 pt-4">
+          <div className="inline-flex rounded-xl border border-dharma-border bg-dharma-panel p-1">
+            <button
+              type="button"
+              onClick={() => setActiveView('day')}
+              className={`flex items-center gap-2 rounded-lg px-4 py-1.5 text-xs font-bold transition ${
+                activeView === 'day'
+                  ? 'bg-dharma-card text-dharma-text shadow-sm'
+                  : 'text-dharma-muted hover:text-dharma-text'
+              }`}
+            >
+              <Calendar className="h-3.5 w-3.5 text-saffron-600" />
+              <span>Day View (दैनिक दर्शन)</span>
+            </button>
+            <button
+              type="button"
+              onClick={() => setActiveView('week')}
+              className={`flex items-center gap-2 rounded-lg px-4 py-1.5 text-xs font-bold transition ${
+                activeView === 'week'
+                  ? 'bg-dharma-card text-dharma-text shadow-sm'
+                  : 'text-dharma-muted hover:text-dharma-text'
+              }`}
+            >
+              <CalendarDays className="h-3.5 w-3.5 text-indigo-500" />
+              <span>Week View (साप्ताहिक प्रवाह)</span>
+            </button>
+          </div>
 
-function FloatingParticles() {
-  const reduce = useReducedMotion();
-  const [particles, setParticles] = useState<
-    { id: number; x: number; y: number; size: number; delay: number; duration: number }[]
-  >([]);
+          <div className="hidden sm:flex items-center gap-2 text-xs text-dharma-muted">
+            <span className="h-2 w-2 rounded-full bg-emerald-500" />
+            <span>Standard: Chitra Paksha (Lahiri) Ayanamsha</span>
+          </div>
+        </div>
+      </header>
 
-  useEffect(() => {
-    if (reduce) return;
-    setParticles(
-      Array.from({ length: 20 }, (_, i) => ({
-        id: i,
-        x: Math.random() * 100,
-        y: Math.random() * 100,
-        size: Math.random() * 3 + 1,
-        delay: Math.random() * 5,
-        duration: Math.random() * 3 + 4,
-      })),
-    );
-  }, [reduce]);
+      {/* ─── 2. ACCURACY NOTICE ─────────────────────────────────────────────── */}
+      <AccuracyNotice
+        onOpenDataSourceModal={() => setIsDataSourceModalOpen(true)}
+      />
 
-  if (reduce) return null;
+      {/* ─── 3. WEEK VIEW ───────────────────────────────────────────────────── */}
+      {activeView === 'week' && (
+        <section aria-labelledby="week-view-heading" className="space-y-4">
+          <div className="flex items-center justify-between">
+            <div>
+              <h2 id="week-view-heading" className="font-serif text-xl font-bold text-dharma-text">
+                साप्ताहिक चंद्र प्रवाह · 7-Day Lunar Rhythm
+              </h2>
+              <p className="text-xs text-dharma-muted">
+                Select any day to inspect full educational details and scriptural contemplation
+              </p>
+            </div>
+            <button
+              type="button"
+              onClick={handleToday}
+              className="text-xs font-semibold text-saffron-700 dark:text-saffron-400 hover:underline"
+            >
+              Back to Today &rarr;
+            </button>
+          </div>
 
-  return (
-    <div className="absolute inset-0 pointer-events-none overflow-hidden" aria-hidden="true">
-      {particles.map((p) => (
-        <motion.div
-          key={p.id}
-          className="absolute rounded-full bg-white/20"
-          style={{
-            left: `${p.x}%`,
-            top: `${p.y}%`,
-            width: p.size,
-            height: p.size,
-          }}
-          animate={{
-            y: [0, -20, 0],
-            opacity: [0.2, 0.6, 0.2],
-            scale: [1, 1.2, 1],
-          }}
-          transition={{
-            duration: p.duration,
-            delay: p.delay,
-            repeat: Infinity,
-            ease: "easeInOut",
-          }}
-        />
-      ))}
+          <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-3" role="grid" aria-label="7-Day Panchang view">
+            {weekDays.map(({ date, iso, panchang: dayPanchang }) => {
+              const isSelected = iso === panchang.isoDate;
+              const isTodayDay = iso === toIsoDate(new Date());
+              const isEkadashi = dayPanchang.tithi.number === 11 || dayPanchang.tithi.number === 26;
+              const isPurnima = dayPanchang.tithi.number === 15;
+              const isAmavasya = dayPanchang.tithi.number === 30;
+
+              return (
+                <button
+                  key={iso}
+                  type="button"
+                  onClick={() => setSelectedDate(date)}
+                  aria-pressed={isSelected}
+                  className={`flex flex-col justify-between rounded-2xl border p-4 text-left transition-all ${
+                    isSelected
+                      ? 'border-saffron-600 bg-saffron-600/10 ring-2 ring-saffron-500/30 shadow-md'
+                      : 'border-dharma-border bg-dharma-card hover:border-saffron-300 hover:bg-dharma-panel'
+                  }`}
+                >
+                  <div>
+                    <div className="flex items-center justify-between text-xs">
+                      <span className={`font-bold uppercase tracking-wider ${isSelected ? 'text-saffron-700 dark:text-saffron-400' : 'text-dharma-muted'}`}>
+                        {dayPanchang.dayOfWeek.slice(0, 3)}
+                      </span>
+                      {isTodayDay && (
+                        <span className="rounded-full bg-saffron-600 px-1.5 py-0.2 text-[9px] font-bold text-white uppercase">
+                          Today
+                        </span>
+                      )}
+                    </div>
+
+                    <div className="mt-2 flex items-baseline gap-1.5">
+                      <span className="font-serif text-2xl font-bold text-dharma-text">
+                        {date.getDate()}
+                      </span>
+                      <span className="text-xs text-dharma-muted">
+                        {date.toLocaleString('en-IN', { month: 'short' })}
+                      </span>
+                    </div>
+
+                    <div className="mt-3 space-y-1">
+                      <div className="font-serif text-xs font-bold text-dharma-text truncate">
+                        {dayPanchang.tithi.name}
+                      </div>
+                      <div lang="hi" className="font-devanagari text-[11px] text-saffron-700 dark:text-saffron-400 truncate">
+                        {dayPanchang.tithi.nameHi}
+                      </div>
+                      <div className="text-[10px] text-dharma-muted truncate">
+                        {dayPanchang.nakshatra.name}
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="mt-4 pt-3 border-t border-dharma-border/60 flex flex-wrap gap-1">
+                    {isEkadashi && (
+                      <span className="rounded bg-purple-500/15 px-1.5 py-0.5 text-[9px] font-bold text-purple-700 dark:text-purple-300">
+                        एकादशी
+                      </span>
+                    )}
+                    {isPurnima && (
+                      <span className="rounded bg-amber-500/20 px-1.5 py-0.5 text-[9px] font-bold text-amber-800 dark:text-amber-200">
+                        पूर्णिमा
+                      </span>
+                    )}
+                    {isAmavasya && (
+                      <span className="rounded bg-stone-500/20 px-1.5 py-0.5 text-[9px] font-bold text-stone-700 dark:text-stone-300">
+                        अमावस्या
+                      </span>
+                    )}
+                    <span className="text-[10px] text-dharma-muted">
+                      {dayPanchang.paksha.isWaxing ? 'शुक्ल' : 'कृष्ण'}
+                    </span>
+                  </div>
+                </button>
+              );
+            })}
+          </div>
+        </section>
+      )}
+
+      {/* ─── 4. DAY VIEW: LUNAR SUMMARY ROW ─────────────────────────────────── */}
+      <section aria-label="Lunar Phase Overview" className="rounded-3xl border border-dharma-border bg-dharma-card p-6 shadow-sm">
+        <div className="grid gap-6 lg:grid-cols-[auto_1fr_auto] items-center">
+          {/* Minimalist Vector Moon Graphic */}
+          <div className="flex items-center gap-4">
+            <MoonPhaseGraphic
+              illuminationPercent={panchang.paksha.illuminationPercent}
+              isWaxing={panchang.paksha.isWaxing}
+              size={68}
+            />
+            <div>
+              <div className="flex items-center gap-2">
+                <span className="text-xs font-bold uppercase tracking-wider text-saffron-700 dark:text-saffron-400">
+                  {panchang.paksha.transliteration}
+                </span>
+                <span className="rounded-full bg-saffron-500/10 px-2 py-0.5 text-[10px] font-bold text-saffron-700 dark:text-saffron-400">
+                  {panchang.paksha.illuminationPercent}% Illumination
+                </span>
+              </div>
+              <h2 className="font-serif text-xl sm:text-2xl font-bold text-dharma-text">
+                {panchang.tithi.transliteration} ({panchang.tithi.nameHi})
+              </h2>
+              <p className="text-xs text-dharma-muted mt-0.5">
+                {panchang.tithi.paksha} Fortnight · Lunar Day #{panchang.tithi.number}
+              </p>
+            </div>
+          </div>
+
+          {/* Tithi Progress Bar */}
+          <div className="space-y-1.5">
+            <div className="flex justify-between text-xs">
+              <span className="text-dharma-muted">Tithi Progression:</span>
+              <span className="font-mono font-semibold text-dharma-text">
+                {panchang.tithi.progressPercent}% · {panchang.tithi.approxSpan}
+              </span>
+            </div>
+            <div className="h-2 w-full overflow-hidden rounded-full bg-dharma-bg border border-dharma-border">
+              <div
+                className="h-full rounded-full bg-gradient-to-r from-saffron-600 to-amber-500 transition-all duration-500"
+                style={{ width: `${panchang.tithi.progressPercent}%` }}
+              />
+            </div>
+            <p className="text-[11px] text-dharma-muted italic">
+              Estimated local completion. Exact tithi ending boundaries depend on local Udaya Tithi reckoning.
+            </p>
+          </div>
+
+          {/* Spiritual Focus Pill */}
+          <div className="rounded-2xl border border-dharma-border bg-dharma-panel p-3.5 max-w-sm">
+            <div className="flex items-center gap-1.5 text-xs font-bold text-dharma-text">
+              <Sparkles className="h-3.5 w-3.5 text-saffron-600" />
+              <span>साधना संकेत · Day Focus</span>
+            </div>
+            <p className="mt-1 text-xs text-dharma-muted leading-relaxed">
+              {panchang.tithi.meta.spiritualFocus}
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── 5. PRIMARY DETAILS: THE 5 ANGAS + RITU (Every value with Devanagari, IAST, Explanation, Time) ─── */}
+      <section aria-labelledby="primary-panchang-angas">
+        <div className="mb-3 flex items-center justify-between">
+          <div>
+            <h2 id="primary-panchang-angas" className="font-serif text-xl font-bold text-dharma-text">
+              पञ्चाङ्ग मुख्य विवरण · Primary Limbs & Season
+            </h2>
+            <p className="text-xs text-dharma-muted">
+              Every anga with Sanskrit name, transliteration, educational explanation, and time range
+            </p>
+          </div>
+          <span className="text-xs text-dharma-muted">
+            स्थान: {location.name}
+          </span>
+        </div>
+
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {/* 1. TITHI CARD */}
+          <div className="rounded-2xl border border-dharma-border bg-dharma-card p-5 hover:border-saffron-400 transition-colors">
+            <div className="flex items-center justify-between">
+              <span className="text-[11px] font-bold uppercase tracking-wider text-saffron-700 dark:text-saffron-400">
+                1. Tithi · तिथि
+              </span>
+              <span className="rounded-full bg-saffron-500/10 px-2 py-0.5 text-[10px] font-semibold text-saffron-800 dark:text-saffron-300">
+                Lunar Day
+              </span>
+            </div>
+
+            <div className="mt-3">
+              <h3 className="font-serif text-2xl font-bold text-dharma-text">
+                {panchang.tithi.transliteration}
+              </h3>
+              <p lang="hi" className="font-devanagari text-lg text-saffron-700 dark:text-saffron-400 font-semibold">
+                {panchang.tithi.nameHi} (तिथि #{panchang.tithi.number})
+              </p>
+            </div>
+
+            <div className="mt-2.5 inline-flex items-center gap-1.5 rounded-lg bg-dharma-panel px-2.5 py-1 text-xs font-mono text-dharma-muted">
+              <Clock className="h-3 w-3" />
+              <span>{panchang.tithi.approxSpan}</span>
+            </div>
+
+            <p className="mt-3 text-xs text-dharma-muted leading-relaxed">
+              {panchang.tithi.meta.explanation}
+            </p>
+          </div>
+
+          {/* 2. PAKSHA CARD */}
+          <div className="rounded-2xl border border-dharma-border bg-dharma-card p-5 hover:border-saffron-400 transition-colors">
+            <div className="flex items-center justify-between">
+              <span className="text-[11px] font-bold uppercase tracking-wider text-saffron-700 dark:text-saffron-400">
+                2. Paksha · पक्ष
+              </span>
+              <span className="rounded-full bg-saffron-500/10 px-2 py-0.5 text-[10px] font-semibold text-saffron-800 dark:text-saffron-300">
+                {panchang.paksha.isWaxing ? 'Waxing' : 'Waning'}
+              </span>
+            </div>
+
+            <div className="mt-3">
+              <h3 className="font-serif text-2xl font-bold text-dharma-text">
+                {panchang.paksha.transliteration}
+              </h3>
+              <p lang="hi" className="font-devanagari text-lg text-saffron-700 dark:text-saffron-400 font-semibold">
+                {panchang.paksha.nameHi}
+              </p>
+            </div>
+
+            <div className="mt-2.5 inline-flex items-center gap-1.5 rounded-lg bg-dharma-panel px-2.5 py-1 text-xs font-mono text-dharma-muted">
+              <Moon className="h-3 w-3" />
+              <span>{panchang.paksha.illuminationPercent}% Illumination</span>
+            </div>
+
+            <p className="mt-3 text-xs text-dharma-muted leading-relaxed">
+              {panchang.paksha.explanation}
+            </p>
+          </div>
+
+          {/* 3. NAKSHATRA CARD */}
+          <div className="rounded-2xl border border-dharma-border bg-dharma-card p-5 hover:border-saffron-400 transition-colors">
+            <div className="flex items-center justify-between">
+              <span className="text-[11px] font-bold uppercase tracking-wider text-saffron-700 dark:text-saffron-400">
+                3. Nakshatra · नक्षत्र
+              </span>
+              <span className="rounded-full bg-saffron-500/10 px-2 py-0.5 text-[10px] font-semibold text-saffron-800 dark:text-saffron-300">
+                Pada {panchang.nakshatra.pada} of 4
+              </span>
+            </div>
+
+            <div className="mt-3">
+              <h3 className="font-serif text-2xl font-bold text-dharma-text">
+                {panchang.nakshatra.transliteration}
+              </h3>
+              <p lang="hi" className="font-devanagari text-lg text-saffron-700 dark:text-saffron-400 font-semibold">
+                {panchang.nakshatra.nameHi}
+              </p>
+            </div>
+
+            <div className="mt-2.5 inline-flex items-center gap-1.5 rounded-lg bg-dharma-panel px-2.5 py-1 text-xs font-mono text-dharma-muted">
+              <Clock className="h-3 w-3" />
+              <span>{panchang.nakshatra.approxSpan}</span>
+            </div>
+
+            <div className="mt-2 text-[11px] text-dharma-muted flex items-center gap-2">
+              <span><strong>Deity:</strong> {panchang.nakshatra.deity}</span>
+              <span>•</span>
+              <span><strong>Lord:</strong> {panchang.nakshatra.rulingPlanet}</span>
+            </div>
+
+            <p className="mt-2 text-xs text-dharma-muted leading-relaxed">
+              {panchang.nakshatra.explanation}
+            </p>
+          </div>
+
+          {/* 4. YOGA CARD */}
+          <div className="rounded-2xl border border-dharma-border bg-dharma-card p-5 hover:border-saffron-400 transition-colors">
+            <div className="flex items-center justify-between">
+              <span className="text-[11px] font-bold uppercase tracking-wider text-saffron-700 dark:text-saffron-400">
+                4. Yoga · योग
+              </span>
+              <span
+                className={`rounded-full px-2 py-0.5 text-[10px] font-semibold ${
+                  panchang.yoga.nature === 'Auspicious'
+                    ? 'bg-emerald-500/15 text-emerald-800 dark:text-emerald-300'
+                    : panchang.yoga.nature === 'Neutral'
+                    ? 'bg-blue-500/15 text-blue-800 dark:text-blue-300'
+                    : 'bg-amber-500/15 text-amber-800 dark:text-amber-300'
+                }`}
+              >
+                {panchang.yoga.nature}
+              </span>
+            </div>
+
+            <div className="mt-3">
+              <h3 className="font-serif text-2xl font-bold text-dharma-text">
+                {panchang.yoga.transliteration}
+              </h3>
+              <p lang="hi" className="font-devanagari text-lg text-saffron-700 dark:text-saffron-400 font-semibold">
+                {panchang.yoga.nameHi} (योग #{panchang.yoga.index + 1})
+              </p>
+            </div>
+
+            <div className="mt-2.5 inline-flex items-center gap-1.5 rounded-lg bg-dharma-panel px-2.5 py-1 text-xs font-mono text-dharma-muted">
+              <Clock className="h-3 w-3" />
+              <span>{panchang.yoga.approxSpan}</span>
+            </div>
+
+            <p className="mt-3 text-xs text-dharma-muted leading-relaxed">
+              {panchang.yoga.explanation}
+            </p>
+          </div>
+
+          {/* 5. KARANA CARD */}
+          <div className="rounded-2xl border border-dharma-border bg-dharma-card p-5 hover:border-saffron-400 transition-colors">
+            <div className="flex items-center justify-between">
+              <span className="text-[11px] font-bold uppercase tracking-wider text-saffron-700 dark:text-saffron-400">
+                5. Karana · करण
+              </span>
+              <span className="rounded-full bg-saffron-500/10 px-2 py-0.5 text-[10px] font-semibold text-saffron-800 dark:text-saffron-300">
+                {panchang.karana.nature}
+              </span>
+            </div>
+
+            <div className="mt-3">
+              <h3 className="font-serif text-2xl font-bold text-dharma-text">
+                {panchang.karana.transliteration}
+              </h3>
+              <p lang="hi" className="font-devanagari text-lg text-saffron-700 dark:text-saffron-400 font-semibold">
+                {panchang.karana.nameHi}
+              </p>
+            </div>
+
+            <div className="mt-2.5 inline-flex items-center gap-1.5 rounded-lg bg-dharma-panel px-2.5 py-1 text-xs font-mono text-dharma-muted">
+              <Clock className="h-3 w-3" />
+              <span>{panchang.karana.approxSpan}</span>
+            </div>
+
+            <p className="mt-3 text-xs text-dharma-muted leading-relaxed">
+              {panchang.karana.explanation}
+            </p>
+          </div>
+
+          {/* 6. RITU (SEASON) CARD */}
+          <div className="rounded-2xl border border-dharma-border bg-dharma-card p-5 hover:border-saffron-400 transition-colors">
+            <div className="flex items-center justify-between">
+              <span className="text-[11px] font-bold uppercase tracking-wider text-saffron-700 dark:text-saffron-400">
+                6. Ritu · वैदिक ऋतु
+              </span>
+              <span className="rounded-full bg-saffron-500/10 px-2 py-0.5 text-[10px] font-semibold text-saffron-800 dark:text-saffron-300">
+                {panchang.ritu.seasonEn}
+              </span>
+            </div>
+
+            <div className="mt-3">
+              <h3 className="font-serif text-2xl font-bold text-dharma-text">
+                {panchang.ritu.transliteration}
+              </h3>
+              <p lang="hi" className="font-devanagari text-lg text-saffron-700 dark:text-saffron-400 font-semibold">
+                {panchang.ritu.nameHi} ऋतु
+              </p>
+            </div>
+
+            <div className="mt-2.5 inline-flex items-center gap-1.5 rounded-lg bg-dharma-panel px-2.5 py-1 text-xs text-dharma-muted">
+              <Compass className="h-3 w-3 text-saffron-600" />
+              <span>{panchang.ritu.months}</span>
+            </div>
+
+            <p className="mt-3 text-xs text-dharma-muted leading-relaxed">
+              {panchang.ritu.explanation} Focus: {panchang.ritu.spiritualFocus}
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── 6. SUNRISE AND SUNSET: ONLY WHEN RELIABLE DATA IS AVAILABLE ────── */}
+      <section aria-labelledby="solar-timings-heading" className="rounded-3xl border border-dharma-border bg-dharma-card p-6 shadow-sm">
+        <div className="flex items-center justify-between border-b border-dharma-border/60 pb-3 mb-4">
+          <div className="flex items-center gap-2">
+            <div className="flex h-8 w-8 items-center justify-center rounded-xl bg-amber-500/15 text-amber-600">
+              <Sun className="h-4 w-4" />
+            </div>
+            <div>
+              <h2 id="solar-timings-heading" className="font-serif text-lg font-bold text-dharma-text">
+                सौर काल एवं सूर्योदय/सूर्यास्त · Solar Day & Horizon Timings
+              </h2>
+              <p className="text-xs text-dharma-muted">
+                Observed local astronomical transit times for {location.name}
+              </p>
+            </div>
+          </div>
+
+          <span className="text-[11px] font-semibold text-dharma-muted">
+            {panchang.solarTimes.isReliable ? 'Verified Horizon Algorithm' : 'Pending Verification'}
+          </span>
+        </div>
+
+        {panchang.solarTimes.isReliable ? (
+          <div>
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+              <div className="rounded-2xl border border-dharma-border bg-dharma-panel p-4">
+                <div className="flex items-center gap-1.5 text-xs text-amber-700 dark:text-amber-300 font-semibold">
+                  <Sun className="h-4 w-4 text-amber-500" />
+                  <span>सूर्योदय · Sunrise</span>
+                </div>
+                <p className="mt-2 font-mono text-xl sm:text-2xl font-bold text-dharma-text">
+                  {panchang.solarTimes.sunrise}
+                </p>
+                <p className="mt-1 text-[11px] text-dharma-muted">
+                  Udaya Tithi determination anchor
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-dharma-border bg-dharma-panel p-4">
+                <div className="flex items-center gap-1.5 text-xs text-orange-700 dark:text-orange-300 font-semibold">
+                  <Sunset className="h-4 w-4 text-orange-500" />
+                  <span>सूर्यास्त · Sunset</span>
+                </div>
+                <p className="mt-2 font-mono text-xl sm:text-2xl font-bold text-dharma-text">
+                  {panchang.solarTimes.sunset}
+                </p>
+                <p className="mt-1 text-[11px] text-dharma-muted">
+                  Pradosha kala initiation
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-dharma-border bg-dharma-panel p-4">
+                <div className="flex items-center gap-1.5 text-xs text-indigo-700 dark:text-indigo-300 font-semibold">
+                  <Clock className="h-4 w-4 text-indigo-500" />
+                  <span>दिन मान · Day Length</span>
+                </div>
+                <p className="mt-2 font-mono text-xl sm:text-2xl font-bold text-dharma-text">
+                  {panchang.solarTimes.dayLength}
+                </p>
+                <p className="mt-1 text-[11px] text-dharma-muted">
+                  Total daylight span (Dina Māna)
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-dharma-border bg-dharma-panel p-4">
+                <div className="flex items-center gap-1.5 text-xs text-purple-700 dark:text-purple-300 font-semibold">
+                  <Compass className="h-4 w-4 text-purple-500" />
+                  <span>मध्याह्न · Solar Noon</span>
+                </div>
+                <p className="mt-2 font-mono text-xl sm:text-2xl font-bold text-dharma-text">
+                  {panchang.solarTimes.solarNoon}
+                </p>
+                <p className="mt-1 text-[11px] text-dharma-muted">
+                  Meridian crossing / Abhijit center
+                </p>
+              </div>
+            </div>
+
+            <p className="mt-4 text-xs text-dharma-muted leading-relaxed">
+              * Note: Times are computed using standard astronomical refraction (-0.833° horizon zenith).
+              Topographical obstructions such as hills, local buildings, and temperature inversions may shift apparent
+              horizon emergence by 1–3 minutes.
+            </p>
+          </div>
+        ) : (
+          /* Graceful Unavailable State */
+          <div className="rounded-2xl border border-dashed border-amber-500/40 bg-amber-500/5 p-5 text-center sm:text-left sm:flex sm:items-center sm:justify-between gap-4">
+            <div className="flex items-start gap-3.5">
+              <div className="mt-0.5 flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-amber-500/20 text-amber-700 dark:text-amber-300">
+                <AlertTriangle className="h-5 w-5" />
+              </div>
+              <div>
+                <h3 className="font-serif text-base font-bold text-dharma-text">
+                  सूर्योदय व सूर्यास्त समय अनुपलब्ध · Solar Timings Unavailable
+                </h3>
+                <p className="mt-1 text-xs text-dharma-muted max-w-xl leading-relaxed">
+                  {panchang.solarTimes.unreliableReason ||
+                    'Reliable sunrise and sunset calculations strictly require verified geographic coordinates and local horizon parameters. We deliberately refrain from displaying estimated or generic placeholder clocks to prevent ritual inaccuracies.'}
+                </p>
+              </div>
+            </div>
+
+            <button
+              type="button"
+              onClick={() => setIsLocationModalOpen(true)}
+              className="mt-3 sm:mt-0 shrink-0 inline-flex items-center gap-2 rounded-xl bg-saffron-700 px-4 py-2 text-xs font-bold text-white shadow hover:bg-saffron-600 transition"
+            >
+              <Sliders className="h-3.5 w-3.5" />
+              <span>स्थान निर्देशांक सेट करें (Set Coordinates)</span>
+            </button>
+          </div>
+        )}
+      </section>
+
+      {/* ─── 7. STUDY SUGGESTION (स्वाध्याय प्रेरणा) ───────────────────────── */}
+      <section aria-labelledby="study-suggestion-heading" className="rounded-3xl border border-dharma-border bg-dharma-card p-6 shadow-sm">
+        <div className="flex items-center justify-between border-b border-dharma-border/60 pb-3 mb-4">
+          <div className="flex items-center gap-2">
+            <div className="flex h-8 w-8 items-center justify-center rounded-xl bg-saffron-500/15 text-saffron-700 dark:text-saffron-400">
+              <BookOpen className="h-4 w-4" />
+            </div>
+            <div>
+              <h2 id="study-suggestion-heading" className="font-serif text-lg font-bold text-dharma-text">
+                आज का स्वाध्याय · Curated Study Suggestion
+              </h2>
+              <p className="text-xs text-dharma-muted">
+                Scriptural reflection paired with today&apos;s lunar quality and seasonal mood
+              </p>
+            </div>
+          </div>
+
+          <span className="rounded-full bg-saffron-500/10 px-2.5 py-0.5 text-xs font-semibold text-saffron-700 dark:text-saffron-400">
+            {panchang.studySuggestion.scriptureTitle} {panchang.studySuggestion.verseRef}
+          </span>
+        </div>
+
+        <div className="rounded-2xl border border-dharma-border bg-dharma-panel p-5 sm:p-6 space-y-4">
+          <div>
+            <p lang="sa" className="font-serif text-lg sm:text-xl font-bold text-dharma-text leading-relaxed">
+              {panchang.studySuggestion.sanskrit}
+            </p>
+            <p className="mt-2 text-xs sm:text-sm font-mono text-dharma-muted leading-relaxed">
+              {panchang.studySuggestion.transliteration}
+            </p>
+          </div>
+
+          <div className="grid gap-3 sm:grid-cols-2 pt-2 border-t border-dharma-border/60 text-xs sm:text-sm">
+            <div>
+              <span className="text-[11px] font-bold uppercase tracking-wider text-dharma-muted">
+                English Translation
+              </span>
+              <p className="mt-1 text-dharma-text leading-relaxed">
+                &ldquo;{panchang.studySuggestion.english}&rdquo;
+              </p>
+            </div>
+            <div>
+              <span className="text-[11px] font-bold uppercase tracking-wider text-dharma-muted">
+                हिन्दी भावार्थ
+              </span>
+              <p lang="hi" className="mt-1 font-devanagari text-dharma-text leading-relaxed">
+                {panchang.studySuggestion.hindi}
+              </p>
+            </div>
+          </div>
+
+          <div className="pt-2 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 border-t border-dharma-border/60">
+            <div className="text-xs text-saffron-800 dark:text-saffron-300 font-medium">
+              <strong>चिंतन बिंदु (Contemplation):</strong> {panchang.studySuggestion.contemplationPrompt}
+            </div>
+
+            <Link
+              href={`/scripture/${panchang.studySuggestion.scriptureId}`}
+              className="inline-flex items-center gap-1.5 rounded-xl border border-dharma-border bg-dharma-card px-3.5 py-1.5 text-xs font-bold text-saffron-700 dark:text-saffron-400 hover:border-saffron-400 transition shrink-0"
+            >
+              <span>ग्रंथालय में अध्ययन करें (Study in Library)</span>
+              <ArrowRight className="h-3.5 w-3.5" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── 8. FESTIVAL PREVIEW ────────────────────────────────────────────── */}
+      <section aria-labelledby="festival-preview-heading" className="rounded-3xl border border-dharma-border bg-dharma-card p-6 shadow-sm">
+        <div className="flex items-center justify-between border-b border-dharma-border/60 pb-3 mb-4">
+          <div className="flex items-center gap-2">
+            <div className="flex h-8 w-8 items-center justify-center rounded-xl bg-rose-500/15 text-rose-600">
+              <Sparkles className="h-4 w-4" />
+            </div>
+            <div>
+              <h2 id="festival-preview-heading" className="font-serif text-lg font-bold text-dharma-text">
+                आगामी पर्व व उत्सव · Festival Preview
+              </h2>
+              <p className="text-xs text-dharma-muted">
+                Upcoming sacred observances and tithi requirements with educational context
+              </p>
+            </div>
+          </div>
+
+          <Link
+            href="/festivals"
+            className="text-xs font-bold text-saffron-700 dark:text-saffron-400 hover:underline inline-flex items-center gap-1"
+          >
+            <span>सभी पर्व देखें (All Festivals)</span>
+            <ArrowRight className="h-3.5 w-3.5" />
+          </Link>
+        </div>
+
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {panchang.upcomingFestivalsPreview.map((fest) => (
+            <div
+              key={fest.id}
+              className="flex flex-col justify-between rounded-2xl border border-dharma-border bg-dharma-panel p-4 hover:border-saffron-400 transition"
+            >
+              <div>
+                <span className="rounded bg-dharma-card px-2 py-0.5 text-[10px] font-bold text-saffron-700 dark:text-saffron-400">
+                  {fest.category}
+                </span>
+
+                <h3 className="mt-2 font-serif text-base font-bold text-dharma-text">
+                  {fest.name}
+                </h3>
+                <p lang="hi" className="font-devanagari text-xs text-saffron-700 dark:text-saffron-400 font-semibold">
+                  {fest.nameHi}
+                </p>
+
+                <div className="mt-2 text-[11px] text-dharma-muted">
+                  <strong>Tithi Rule:</strong> {fest.tithiRule}
+                </div>
+
+                <p className="mt-2 text-xs text-dharma-muted leading-relaxed">
+                  {fest.synopsis}
+                </p>
+              </div>
+
+              <div className="mt-4 pt-3 border-t border-dharma-border/60 flex items-center justify-between text-xs">
+                <span className="text-dharma-muted">{fest.dateStr}</span>
+                <Link
+                  href="/festivals"
+                  className="font-semibold text-saffron-700 dark:text-saffron-400 hover:underline"
+                >
+                  विवरण &rarr;
+                </Link>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* ─── 9. LOCATION & DATA SOURCE MODALS ───────────────────────────────── */}
+      <LocationSettingsModal
+        isOpen={isLocationModalOpen}
+        onClose={() => setIsLocationModalOpen(false)}
+        currentLocation={location}
+        onSelectLocation={(loc) => setLocation(loc)}
+      />
+
+      <DataSourceModal
+        isOpen={isDataSourceModalOpen}
+        onClose={() => setIsDataSourceModalOpen(false)}
+      />
     </div>
   );
 }
