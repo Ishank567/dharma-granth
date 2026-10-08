@@ -5,6 +5,8 @@ import Link from 'next/link';
 import { ArrowDown, ArrowUp, Lock, Trash2, Wifi, WifiOff } from 'lucide-react';
 import { RecommendationCards } from '@/app/components/study/RecommendationCards';
 import { BackupRestore } from '@/app/components/BackupRestore';
+import { HistoryControls } from './HistoryControls';
+import { daysAgo } from '@/lib/format';
 import { clearOwnData } from '@/lib/backup';
 import { BOOKMARKS_KEY, readBookmarks, type SavedVerse } from '@/lib/reader-actions';
 import { readRecentChapters, type ChapterVisit } from '@/lib/reading-history';
@@ -268,14 +270,18 @@ export function DeskClient() {
               <ul className="space-y-2">
                 {recent.map((r) => (
                   <li key={r.scriptureId} className="flex items-center gap-2 rounded-xl border border-dharma-border p-2">
-                    <Link href={`/scripture/${r.scriptureId}/chapter/${r.chapterId}`} className="min-w-0 flex-1 font-semibold text-dharma-text">
-                      {r.scriptureTitle} <span className="font-normal text-dharma-muted">· {new Date(r.readAt).toLocaleDateString()}</span>
+                    <Link href={`/scripture/${r.scriptureId}/chapter/${r.chapterId}${r.verseId ? `/verse/${r.verseId}` : ''}`} className="min-w-0 flex-1">
+                      <span className="font-semibold text-dharma-text">Continue {r.scriptureTitle}</span>
+                      <span className="block font-normal text-dharma-muted">
+                        Chapter {r.chapterId}{r.verseId ? `, verse ${r.verseId}` : ''} · last opened {daysAgo(r.readAt)}
+                      </span>
                     </Link>
                     <button type="button" onClick={() => removeRecent(r)} aria-label={`Forget ${r.scriptureTitle}`} className={small}><Trash2 className="h-4 w-4" aria-hidden="true" /></button>
                   </li>
                 ))}
               </ul>
             )}
+            <HistoryControls onChange={load} />
           </Section>
 
           <Section id="journeys-h" title="Active journeys" titleHi="चालू यात्राएँ">

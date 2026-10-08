@@ -18,6 +18,8 @@ const KEY = 'dharma.recentChapters';
 const MAX_VISITS = 6;
 /** Same-tab listeners; the `storage` event only fires in other tabs. */
 const CHANGE_EVENT = 'dharma:recent-chapters';
+const PAUSE_KEY = 'dharma.history.paused';
+export const HISTORY_EXPORT_FORMAT = 'dharma-granth-reading-history';
 
 function isVisit(value: unknown): value is ChapterVisit {
   if (!value || typeof value !== 'object') return false;
@@ -38,6 +40,25 @@ function isVisit(value: unknown): value is ChapterVisit {
 
 const VERSE_ID = /^[0-9A-Za-z.-]{1,20}$/;
 
+/** While paused, nothing new is recorded; what is already stored stays until the reader removes it. */
+export function isHistoryPaused(): boolean {
+  try {
+    return window.localStorage.getItem(PAUSE_KEY) === '1';
+  } catch {
+    return false;
+  }
+}
+
+export function setHistoryPaused(paused: boolean): void {
+  try {
+    if (paused) window.localStorage.setItem(PAUSE_KEY, '1');
+    else window.localStorage.removeItem(PAUSE_KEY);
+    window.dispatchEvent(new Event(CHANGE_EVENT));
+  } catch {
+    // Storage unavailable: nothing is being recorded anyway.
+  }
+}
+
 export function readRecentChapters(): ChapterVisit[] {
   try {
     const parsed: unknown = JSON.parse(window.localStorage.getItem(KEY) ?? '[]');
@@ -52,6 +73,7 @@ export function readRecentChapters(): ChapterVisit[] {
  * chapter), newest first, so "continue reading" resumes each book.
  */
 export function recordChapterVisit(visit: Omit<ChapterVisit, 'readAt' | 'verseId'>): void {
+  if (isHistoryPaused()) return;
   try {
     const existing = readRecentChapters();
     const previous = existing.find((v) => v.scriptureId === visit.scriptureId);
@@ -70,7 +92,7 @@ export function recordChapterVisit(visit: Omit<ChapterVisit, 'readAt' | 'verseId
 
 /** Record the verse on screen for this chapter's history entry (if it exists). */
 export function updateLastVerse(scriptureId: string, chapterId: number, verseId: string): void {
-  if (!VERSE_ID.test(verseId)) return;
+  if (!VERSE_ID.test(verseId) || isHistoryPaused()) return;
   try {
     const all = readRecentChapters();
     const entry = all.find((v) => v.scriptureId === scriptureId && v.chapterId === chapterId);
@@ -91,6 +113,45 @@ export function forgetScripture(scriptureId: string): void {
   } catch {
     // ignore
   }
+}
+
+/** Removes the whole reading history. Returns how many entries were removed. */
+export function clearHistory(): number {
+  try {
+    const n = readRecentChapters().length;
+    window.localStorage.removeItem(KEY);
+    window.dispatchEvent(new Event(CHANGE_EVENT));
+    return n;
+  } catch {
+    return 0;
+  }
+}
+
+/** The history as a file the reader can keep. Contains only chapters and positions, never notes. */
+export function exportHistory(): string {
+  return JSON.stringify({ format: HISTORY_EXPORT_FORMAT, version: 1, exportedAt: new Date().toISOString(), visits: readRecentChapters() }, null, 2);
+}
+
+/**
+ * Merges an exported history into the stored one (newest first, one per
+ * scripture, capped). Throws on a foreign file; silently drops malformed
+ * entries. Returns how many entries were kept from the file.
+ */
+export function importHistory(raw: string): number {
+  const parsed = JSON.parse(raw) as { format?: string; version?: number; visits?: unknown };
+  if (!parsed || parsed.format !== HISTORY_EXPORT_FORMAT || parsed.version !== 1 || !Array.isArray(parsed.visits)) {
+    throw new Error('Not a Dharma Granth reading history file');
+  }
+  const incoming = parsed.visits.filter(isVisit);
+  const byScripture = new Map<string, ChapterVisit>();
+  for (const v of [...readRecentChapters(), ...incoming]) {
+    const prev = byScripture.get(v.scriptureId);
+    if (!prev || prev.readAt < v.readAt) byScripture.set(v.scriptureId, v);
+  }
+  const merged = Array.from(byScripture.values()).sort((a, b) => (a.readAt < b.readAt ? 1 : -1)).slice(0, MAX_VISITS);
+  window.localStorage.setItem(KEY, JSON.stringify(merged));
+  window.dispatchEvent(new Event(CHANGE_EVENT));
+  return incoming.length;
 }
 
 /* ── Streak (written by useStudyProgress under 'dharma.streak') ───── */
