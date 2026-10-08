@@ -1,6 +1,6 @@
 'use client';
 
-import { Fragment, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
+import { Fragment, useCallback, useDeferredValue, useEffect, useId, useMemo, useRef, useState, type ReactNode } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion';
@@ -12,26 +12,31 @@ import {
   Compass,
   FileText,
   Flame,
-  Languages,
-  MapPin,
+  HelpCircle,
+  Quote,
+  RotateCcw,
   ScrollText,
   Search,
   Sparkles,
   Sun,
-  User,
+  Trash2,
+  WifiOff,
   X,
 } from 'lucide-react';
 import {
-  SEARCH_CATEGORIES,
-  getSearchIndex,
+  SEARCH_GROUPS,
   isChapterIndexLoaded,
+  isVerseIndexLoaded,
   loadChapterIndex,
-  normalizeForSearch,
-  searchIndex,
+  loadVerseIndex,
   type ChapterIndex,
-  type SearchCategory,
+  type SearchResultGroup,
   type SearchResultItem,
 } from '@/lib/search';
+import { searchWithIntent } from '@/lib/search-intent';
+import type { VerseIndexFile } from '@/lib/search-verse-index';
+import { getSearchThemes } from '@/lib/search-themes';
+import { findHighlights } from '@/lib/search-highlight';
 import { useLocalStorage } from '@/lib/useLocalStorage';
 
 export type { SearchResultItem } from '@/lib/search';
@@ -39,31 +44,24 @@ export type { SearchResultItem } from '@/lib/search';
 interface Props {
   isOpen: boolean;
   onClose: () => void;
-  /** Prefills the search box when the modal opens (e.g. from the home hero). */
+  /** Prefills the search box when the dialog opens (e.g. from the home hero). */
   initialQuery?: string;
 }
 
-const RECOMMENDED_IDS = [
-  'scripture-bhagavadgita',
-  'scripture-ishavasya',
-  'scripture-durgasaptashati',
-  'scripture-shivpurana',
-  'concept-dharma',
-  'concept-karma',
-  'concept-moksha',
-  'topic-meditation',
-  'dict-dharma',
-  'pathway-gita-intro',
-];
-
-const RECENT_KEY = 'dharma-search-recent';
-const MAX_RECENT = 5;
-const RESULT_LIMIT = 30;
-
+const RECENT_KEY = 'dharma-search-recent-v2';
+const NO_RECENT: string[] = [];
+const MAX_RECENT = 8;
+const RESULT_LIMIT = 40;
 const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
-// Shared across modal opens; a failed fetch is forgotten so the next open retries.
+/* ── Index loading ───────────────────────────────────────────────────────
+   Both indexes are fetched the first time search opens and shared across
+   opens. A failed fetch is forgotten so the next open (or "Try again") retries. */
+
+type LoadState = 'idle' | 'loading' | 'ready' | 'error';
+
 let chapterIndexRequest: Promise<void> | null = null;
+let verseIndexRequest: Promise<void> | null = null;
 
 function ensureChapterIndex(): Promise<void> {
   if (isChapterIndexLoaded()) return Promise.resolve();
@@ -76,94 +74,155 @@ function ensureChapterIndex(): Promise<void> {
       .then(loadChapterIndex)
       .catch((err) => {
         chapterIndexRequest = null;
-        // Search still works without chapter titles, so don't surface this.
+        // Search still works without chapter titles, so this is not surfaced.
         console.warn('[search] chapter index unavailable:', err);
       });
   }
   return chapterIndexRequest;
 }
 
-function isStoredItem(value: unknown): value is SearchResultItem {
-  if (!value || typeof value !== 'object') return false;
-  const v = value as Partial<SearchResultItem>;
-  return (
-    typeof v.id === 'string' &&
-    typeof v.title === 'string' &&
-    typeof v.href === 'string' &&
-    // Same-site paths only (not "//host" or "javascript:"), since this is
-    // read back from localStorage and rendered as a link.
-    /^\/(?!\/)/.test(v.href) &&
-    typeof v.category === 'string' &&
-    typeof v.categoryLabel === 'string'
-  );
+function ensureVerseIndex(): Promise<void> {
+  if (isVerseIndexLoaded()) return Promise.resolve();
+  if (!verseIndexRequest) {
+    verseIndexRequest = fetch(`${BASE_PATH}/search-index/verses.json`)
+      .then((res) => {
+        if (!res.ok) throw new Error(`verse index: HTTP ${res.status}`);
+        return res.json() as Promise<VerseIndexFile>;
+      })
+      .then(loadVerseIndex)
+      .catch((err) => {
+        verseIndexRequest = null;
+        throw err;
+      });
+  }
+  return verseIndexRequest;
 }
 
-interface Section {
-  label: ReactNode;
-  items: SearchResultItem[];
-}
+/* ── Suggestions ─────────────────────────────────────────────────────── */
 
-function getCategoryIcon(category: SearchCategory) {
-  switch (category) {
+const SUGGESTED_SEARCHES = [
+  { label: 'कर्मण्येवाधिकारस्ते', query: 'कर्मण्येवाधिकारस्ते' },
+  { label: 'karmanye vadhikaraste', query: 'karmanye vadhikaraste' },
+  { label: 'Bhagavad Gita 2.47', query: 'Bhagavad Gita 2.47' },
+  { label: 'Gita chapter 2 verse 47', query: 'Gita chapter 2 verse 47' },
+  { label: 'fear · भय', query: 'fear' },
+  { label: 'verses about anger', query: 'verses about anger' },
+  { label: 'Tat Tvam Asi', query: 'Tat Tvam Asi' },
+  { label: 'meaning of life', query: 'meaning of life' },
+];
+
+/* ── Presentation helpers ────────────────────────────────────────────── */
+
+function groupIcon(group: SearchResultGroup) {
+  const cls = 'h-4 w-4';
+  switch (group) {
+    case 'verse':
+      return <Quote className={`${cls} text-amber-600 dark:text-amber-400`} aria-hidden="true" />;
     case 'scripture':
-      return <BookOpen className="h-4 w-4 text-amber-600" />;
-    case 'concept':
-      return <Sparkles className="h-4 w-4 text-indigo-600" />;
-    case 'topic':
-      return <Compass className="h-4 w-4 text-emerald-600" />;
-    case 'character':
-      return <User className="h-4 w-4 text-rose-600" />;
-    case 'location':
-      return <MapPin className="h-4 w-4 text-blue-600" />;
-    case 'dictionary':
-      return <Languages className="h-4 w-4 text-teal-600" />;
-    case 'festival':
-      return <Flame className="h-4 w-4 text-orange-600" />;
-    case 'ritual':
-      return <Sun className="h-4 w-4 text-amber-600" />;
-    case 'pathway':
-      return <ScrollText className="h-4 w-4 text-purple-600" />;
+      return <BookOpen className={`${cls} text-orange-600 dark:text-orange-400`} aria-hidden="true" />;
     case 'chapter':
-      return <BookMarked className="h-4 w-4 text-saffron-700" />;
+      return <BookMarked className={`${cls} text-yellow-700 dark:text-yellow-400`} aria-hidden="true" />;
+    case 'concept':
+      return <Flame className={`${cls} text-rose-600 dark:text-rose-400`} aria-hidden="true" />;
+    case 'topic':
+      return <Compass className={`${cls} text-emerald-700 dark:text-emerald-400`} aria-hidden="true" />;
+    case 'commentary':
+      return <ScrollText className={`${cls} text-indigo-600 dark:text-indigo-300`} aria-hidden="true" />;
+    case 'learning':
+      return <Sparkles className={`${cls} text-purple-600 dark:text-purple-300`} aria-hidden="true" />;
+    case 'practice':
+      return <Sun className={`${cls} text-amber-600 dark:text-amber-400`} aria-hidden="true" />;
     default:
-      return <FileText className="h-4 w-4 text-saffron-600" />;
+      return <FileText className={`${cls} text-saffron-600`} aria-hidden="true" />;
   }
 }
 
-function escapeRegExp(value: string): string {
-  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+function reasonClass(reason: string) {
+  if (reason.startsWith('Exact reference')) return 'border-emerald-600/40 bg-emerald-500/10 text-emerald-900 dark:text-emerald-200';
+  if (reason.includes('typo') || reason.startsWith('Showing results')) return 'border-sky-600/40 bg-sky-500/10 text-sky-900 dark:text-sky-200';
+  if (reason.startsWith('Cited in') || reason.startsWith('Matches “')) return 'border-rose-600/30 bg-rose-500/10 text-rose-900 dark:text-rose-200';
+  return 'border-amber-600/35 bg-amber-500/10 text-amber-950 dark:text-amber-200';
 }
 
-/** Wrap literal (case-insensitive) occurrences of the query tokens in <mark>. */
-function highlight(text: string, tokens: string[]): ReactNode {
-  if (tokens.length === 0) return text;
-  const pattern = new RegExp(`(${tokens.map(escapeRegExp).join('|')})`, 'gi');
-  const parts = text.split(pattern);
-  if (parts.length === 1) return text;
-  return parts.map((part, i) =>
-    i % 2 === 1 ? (
-      <mark key={i} className="rounded-sm bg-saffron-200/70 px-0.5 text-inherit dark:bg-saffron-700/40">
-        {part}
-      </mark>
-    ) : (
-      <Fragment key={i}>{part}</Fragment>
-    ),
-  );
+/** Highlights the matching words. Whole words only, so Devanagari conjuncts and vowel signs are never split. */
+function Highlighted({ text, query }: { text: string; query: string }): ReactNode {
+  const spans = findHighlights(text, query);
+  if (spans.length === 0) return text;
+  const out: ReactNode[] = [];
+  let at = 0;
+  spans.forEach(([start, end], i) => {
+    if (start > at) out.push(<Fragment key={`t${i}`}>{text.slice(at, start)}</Fragment>);
+    out.push(
+      <mark key={`m${i}`} className="rounded-[3px] bg-amber-300/45 text-inherit dark:bg-amber-400/25">
+        {text.slice(start, end)}
+      </mark>,
+    );
+    at = end;
+  });
+  if (at < text.length) out.push(<Fragment key="tail">{text.slice(at)}</Fragment>);
+  return out;
 }
+
+const isDevanagariText = (s: string) => /[ऀ-ॿ]/.test(s);
+
+/** Type that suits the script of the matched text; Devanagari gets generous leading and no tracking. */
+function matchedTextStyle(item: SearchResultItem): { lang: string; className: string } {
+  const text = item.matchingText || item.title;
+  const field = item.matchedField;
+  if (field === 'roman') return { lang: 'sa-Latn', className: 'font-serif text-base italic leading-relaxed text-dharma-text' };
+  if (field === 'english') return { lang: 'en', className: 'font-serif text-base leading-relaxed text-dharma-text' };
+  if (field === 'hindi' || (field === 'explanation' && isDevanagariText(text))) {
+    return { lang: 'hi', className: 'font-devanagari text-[1.0625rem] leading-[1.9] text-dharma-text' };
+  }
+  if (isDevanagariText(text)) return { lang: 'sa', className: 'font-devanagari text-lg font-semibold leading-[1.85] text-dharma-text' };
+  return { lang: 'en', className: 'text-base font-semibold leading-relaxed text-dharma-text' };
+}
+
+const TOPIC_TINTS = [
+  'border-rose-500/30 bg-rose-500/5',
+  'border-teal-500/30 bg-teal-500/5',
+  'border-amber-500/30 bg-amber-500/5',
+  'border-indigo-500/30 bg-indigo-500/5',
+  'border-emerald-500/30 bg-emerald-500/5',
+  'border-sky-500/30 bg-sky-500/5',
+];
+
+/* ── Component ───────────────────────────────────────────────────────── */
 
 export function GlobalSearchModal({ isOpen, onClose, initialQuery = '' }: Props) {
   const router = useRouter();
   const reduce = useReducedMotion();
+  const listboxId = useId();
+  const statusId = useId();
+
   const [query, setQuery] = useState('');
-  const [category, setCategory] = useState<SearchCategory | null>(null);
+  const [selectedGroup, setSelectedGroup] = useState<SearchResultGroup | null>(null);
   const [selectedIndex, setSelectedIndex] = useState(0);
-  const [storedRecent, setRecent] = useLocalStorage<Array<string | SearchResultItem>>(
-    RECENT_KEY,
-    [],
-  );
+  const [isOnline, setIsOnline] = useState(true);
   const [chaptersReady, setChaptersReady] = useState(isChapterIndexLoaded);
+  const [verseState, setVerseState] = useState<LoadState>(isVerseIndexLoaded() ? 'ready' : 'idle');
+  const [recentRaw, setRecent] = useLocalStorage<string[]>(RECENT_KEY, NO_RECENT);
+  const recent = Array.isArray(recentRaw) ? recentRaw.filter((r) => typeof r === 'string') : NO_RECENT;
+
   const inputRef = useRef<HTMLInputElement>(null);
   const windowRef = useRef<HTMLDivElement>(null);
+
+  // Typing stays responsive: results follow a deferred copy of the query.
+  const deferredQuery = useDeferredValue(query);
+  const trimmed = deferredQuery.trim();
+  const isStale = query !== deferredQuery;
+
+  useEffect(() => {
+    setIsOnline(navigator.onLine);
+    const on = () => setIsOnline(true);
+    const off = () => setIsOnline(false);
+    window.addEventListener('online', on);
+    window.addEventListener('offline', off);
+    return () => {
+      window.removeEventListener('online', on);
+      window.removeEventListener('offline', off);
+    };
+  }, []);
 
   useEffect(() => {
     if (!isOpen || chaptersReady) return;
@@ -176,122 +235,103 @@ export function GlobalSearchModal({ isOpen, onClose, initialQuery = '' }: Props)
     };
   }, [isOpen, chaptersReady]);
 
-  // Reset (to any prefilled query) and focus on open
+  // Verse text: loaded when the dialog opens, retried when "Try again" resets the state to idle.
+  useEffect(() => {
+    if (!isOpen || verseState !== 'idle') return;
+    let cancelled = false;
+    setVerseState('loading');
+    ensureVerseIndex()
+      .then(() => !cancelled && setVerseState('ready'))
+      .catch((err) => {
+        console.warn('[search] verse index unavailable:', err);
+        if (!cancelled) setVerseState('error');
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [isOpen, verseState]);
+
+  // Reset and focus on open.
   useEffect(() => {
     if (!isOpen) return;
     setQuery(initialQuery);
-    setCategory(null);
+    setSelectedGroup(null);
     setSelectedIndex(0);
     inputRef.current?.focus();
     const t = setTimeout(() => {
       const input = inputRef.current;
       if (!input) return;
       input.focus();
-      // Caret at the end so a prefilled query can be refined straight away.
       input.setSelectionRange(input.value.length, input.value.length);
-    }, 50);
+    }, 40);
     return () => clearTimeout(t);
   }, [isOpen, initialQuery]);
 
-  // Lock body scroll when open
+  // Return focus to whatever opened the dialog.
   useEffect(() => {
     if (!isOpen) return;
-    const prevOverflow = document.body.style.overflow;
-    document.body.style.overflow = 'hidden';
+    const opener = document.activeElement instanceof HTMLElement ? document.activeElement : null;
     return () => {
-      document.body.style.overflow = prevOverflow;
+      if (opener && opener !== document.body && document.contains(opener)) opener.focus({ preventScroll: true });
     };
   }, [isOpen]);
 
-  const byId = useMemo(() => new Map(getSearchIndex().map((item) => [item.id, item])), []);
-  const trimmed = query.trim();
-  const tokens = useMemo(() => {
-    const q = normalizeForSearch(query);
-    return q ? q.split(' ') : [];
-  }, [query]);
+  useEffect(() => {
+    if (!isOpen) return;
+    const previous = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.body.style.overflow = previous;
+    };
+  }, [isOpen]);
 
-  const search = useMemo(
-    () => (trimmed ? searchIndex(trimmed, { category, limit: RESULT_LIMIT }) : null),
-    // chaptersReady re-runs the search once chapter titles arrive.
+  const verseReady = verseState === 'ready';
+  const result = useMemo(
+    () => (trimmed ? searchWithIntent(trimmed, { group: selectedGroup, limit: RESULT_LIMIT }) : null),
+    // The indexes arrive after the dialog opens; searching again when they do fills in verses and chapters.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    [trimmed, category, chaptersReady],
+    [trimmed, selectedGroup, chaptersReady, verseReady],
   );
 
-  const sections: Section[] = useMemo(() => {
-    if (search) return [{ label: null, items: search.results }];
+  // Results in the order they are shown (by group), so the arrow keys follow what the eye sees.
+  const display = useMemo(() => {
+    if (!result) return [] as SearchResultItem[];
+    return SEARCH_GROUPS.flatMap((g) => result.results.filter((r) => r.group === g.id));
+  }, [result]);
 
-    const recent = (Array.isArray(storedRecent) ? storedRecent : [])
-      .map((entry) =>
-        // Older versions stored ids only; chapters aren't in byId, so new
-        // entries keep the whole item.
-        typeof entry === 'string' ? byId.get(entry) : isStoredItem(entry) ? entry : undefined,
-      )
-      .filter((item): item is SearchResultItem => Boolean(item));
-    const recentSet = new Set(recent.map((item) => item.id));
-    const recommended = RECOMMENDED_IDS.filter((id) => !recentSet.has(id))
-      .map((id) => byId.get(id))
-      .filter((item): item is SearchResultItem => Boolean(item));
-
-    const out: Section[] = [];
-    if (recent.length > 0) {
-      out.push({
-        label: (
-          <>
-            <Clock className="h-3.5 w-3.5 text-saffron-600" /> हाल में देखे · Recent
-          </>
-        ),
-        items: recent,
-      });
-    }
-    out.push({
-      label: (
-        <>
-          <Flame className="h-3.5 w-3.5 text-saffron-600" /> लोकप्रिय खोजें · Recommended
-        </>
-      ),
-      items: recommended,
-    });
-    return out;
-  }, [search, storedRecent, byId]);
-
-  const flat = useMemo(() => sections.flatMap((s) => s.items), [sections]);
-
-  // Reset selection whenever the result set changes
   useEffect(() => {
     setSelectedIndex(0);
-  }, [flat]);
+  }, [display]);
 
-  // Keep the keyboard selection visible
   useEffect(() => {
-    if (!isOpen) return;
-    document
-      .getElementById(`search-option-${selectedIndex}`)
-      ?.scrollIntoView({ block: 'nearest' });
-  }, [selectedIndex, isOpen]);
+    if (!isOpen || display.length === 0) return;
+    document.getElementById(`search-item-${selectedIndex}`)?.scrollIntoView({ block: 'nearest' });
+  }, [selectedIndex, isOpen, display]);
 
-  const remember = (item: SearchResultItem) => {
-    setRecent((prev) =>
-      [
-        item,
-        ...(Array.isArray(prev) ? prev : []).filter(
-          (entry) => (typeof entry === 'string' ? entry : entry?.id) !== item.id,
-        ),
-      ].slice(0, MAX_RECENT),
-    );
+  const remember = useCallback(
+    (text: string) => {
+      const clean = text.trim();
+      if (!clean) return;
+      setRecent((prev) => [clean, ...(Array.isArray(prev) ? prev : []).filter((r) => r !== clean)].slice(0, MAX_RECENT));
+    },
+    [setRecent],
+  );
+
+  const runSearch = (text: string) => {
+    setQuery(text);
+    remember(text);
+    inputRef.current?.focus();
   };
 
-  const openItem = (item: SearchResultItem) => {
-    remember(item);
-    const href = item.href.endsWith('/') || item.href.includes('#') || item.href.includes('?') ? item.href : `${item.href}/`;
-    window.location.assign(href);
+  const openFromKeyboard = (item: SearchResultItem) => {
+    remember(query);
     onClose();
+    router.push(item.href);
   };
 
-  // Escape and the Tab trap must work even before the input has focus (focus may
-  // still be on the page behind the modal), so they listen on the document.
   useEffect(() => {
     if (!isOpen) return;
-    const onDocKey = (e: KeyboardEvent) => {
+    const onKey = (e: KeyboardEvent) => {
       const win = windowRef.current;
       if (!win) return;
       if (e.key === 'Escape') {
@@ -300,11 +340,8 @@ export function GlobalSearchModal({ isOpen, onClose, initialQuery = '' }: Props)
         return;
       }
       if (e.key !== 'Tab') return;
-      // aria-modal promises the page behind is inert: keep Tab inside the window.
       const focusable = Array.from(
-        win.querySelectorAll<HTMLElement>(
-          'a[href], button:not([disabled]), input:not([disabled]), [tabindex]:not([tabindex="-1"])',
-        ),
+        win.querySelectorAll<HTMLElement>('a[href], button:not([disabled]), input:not([disabled]), [tabindex]:not([tabindex="-1"])'),
       ).filter((el) => el.offsetParent !== null);
       if (focusable.length === 0) return;
       const first = focusable[0];
@@ -319,281 +356,472 @@ export function GlobalSearchModal({ isOpen, onClose, initialQuery = '' }: Props)
         first.focus();
       }
     };
-    // Catch-all for tab stops the query above cannot know about (scrollable
-    // regions, browser UI hand-off): if focus lands outside, pull it back in.
-    const onFocusIn = (e: FocusEvent) => {
-      const win = windowRef.current;
-      if (win && e.target instanceof Node && !win.contains(e.target)) inputRef.current?.focus();
-    };
-    document.addEventListener('keydown', onDocKey);
-    document.addEventListener('focusin', onFocusIn);
-    return () => {
-      document.removeEventListener('keydown', onDocKey);
-      document.removeEventListener('focusin', onFocusIn);
-    };
+    document.addEventListener('keydown', onKey);
+    return () => document.removeEventListener('keydown', onKey);
   }, [isOpen, onClose]);
 
-  // Bound once, on the window: key presses in the input bubble up to it, so a
-  // second handler on the input would move the selection twice per press.
-  const handleKeyDown = (e: React.KeyboardEvent) => {
-    // Enter (and arrows) while a Hindi/Devanagari IME is composing pick a
-    // candidate; they must not open a result or move the selection.
+  const onInputKeyDown = (e: React.KeyboardEvent) => {
+    // Enter and arrows while a Hindi/Devanagari IME is composing pick a candidate; they must not navigate.
     if (e.nativeEvent.isComposing || e.keyCode === 229) return;
-    if (e.key === 'ArrowDown') {
+    if (e.key === 'ArrowDown' && display.length > 0) {
       e.preventDefault();
-      setSelectedIndex((prev) => (flat.length ? (prev + 1) % flat.length : 0));
-    } else if (e.key === 'ArrowUp') {
+      setSelectedIndex((i) => (i + 1) % display.length);
+    } else if (e.key === 'ArrowUp' && display.length > 0) {
       e.preventDefault();
-      setSelectedIndex((prev) => (flat.length ? (prev - 1 + flat.length) % flat.length : 0));
+      setSelectedIndex((i) => (i - 1 + display.length) % display.length);
+    } else if (e.key === 'Home' && display.length > 0 && e.ctrlKey) {
+      e.preventDefault();
+      setSelectedIndex(0);
+    } else if (e.key === 'End' && display.length > 0 && e.ctrlKey) {
+      e.preventDefault();
+      setSelectedIndex(display.length - 1);
     } else if (e.key === 'Enter') {
-      const target = flat[selectedIndex];
-      if (target) {
+      if (display[selectedIndex]) {
         e.preventDefault();
-        openItem(target);
+        openFromKeyboard(display[selectedIndex]);
+      } else if (trimmed) {
+        remember(trimmed);
       }
     }
   };
 
-  const counts = search?.categoryCounts ?? {};
-  const totalAcrossCategories = Object.values(counts).reduce((sum, n) => sum + (n ?? 0), 0);
-  const chipClass = (active: boolean) =>
-    `shrink-0 rounded-full border px-3 py-1 text-xs font-semibold transition ${
-      active
-        ? 'border-saffron-600 bg-saffron-600 text-white'
-        : 'border-dharma-border bg-dharma-bg text-dharma-muted hover:border-saffron-300 hover:text-dharma-text'
-    }`;
+  const studyTopics = useMemo(
+    () =>
+      getSearchThemes()
+        .slice(0, 6)
+        .map((t, i) => ({ name: t.name, nameHi: t.nameHi, blurb: t.topic.shortDescEn, tint: TOPIC_TINTS[i % TOPIC_TINTS.length] })),
+    [],
+  );
 
-  let optionIndex = -1;
+  const counts = result?.groupCounts ?? {};
+  const shownGroups = SEARCH_GROUPS.filter((g) => (counts[g.id] ?? 0) > 0);
+  const suggestion = result?.suggestion && result.suggestion.toLowerCase() !== trimmed.toLowerCase() ? result.suggestion : null;
+  const verseLoading = verseState === 'loading' || verseState === 'idle';
+
+  // What a screen reader hears; it follows the deferred query, so it does not chatter on every keystroke.
+  const announcement = !trimmed
+    ? 'Search is ready. Type to search scriptures, verses, topics and practices.'
+    : isStale
+      ? 'Searching…'
+      : result && result.totalMatches > 0
+        ? `${result.totalMatches} result${result.totalMatches === 1 ? '' : 's'} for ${trimmed}. ${shownGroups
+            .map((g) => `${counts[g.id]} ${g.label}`)
+            .join(', ')}.${verseLoading ? ' Verse text is still loading.' : ''}`
+        : `No results for ${trimmed}.${suggestion ? ` Did you mean ${suggestion}?` : ''}`;
 
   return (
     <AnimatePresence>
       {isOpen && (
         <div
           key="global-search"
-          className="fixed inset-0 z-50 flex items-start justify-center p-4 sm:p-6 md:p-20"
+          className="fixed inset-0 z-50 flex items-start justify-center p-3 sm:p-6 md:p-12"
           role="dialog"
           aria-modal="true"
           aria-label="Global Search"
         >
-          {/* Backdrop */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: reduce ? 0 : 0.15 }}
-            className="fixed inset-0 bg-stone-900/60 backdrop-blur-sm"
+            transition={{ duration: reduce ? 0 : 0.18 }}
+            className="fixed inset-0 bg-stone-950/75 backdrop-blur-md"
             onClick={onClose}
+            aria-hidden="true"
           />
 
-          {/* Modal Window */}
           <motion.div
-            initial={{ opacity: 0, scale: 0.96, y: -12 }}
+            initial={{ opacity: 0, scale: 0.97, y: -12 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
-            exit={{ opacity: 0, scale: 0.96, y: -8 }}
-            transition={{ duration: reduce ? 0 : 0.18 }}
+            exit={{ opacity: 0, scale: 0.98, y: -8 }}
+            transition={{ duration: reduce ? 0 : 0.2 }}
             ref={windowRef}
-            className="relative z-10 flex w-full max-w-2xl flex-col overflow-hidden rounded-2xl border border-dharma-border/80 bg-dharma-card shadow-2xl"
-            onKeyDown={handleKeyDown}
+            className="relative z-10 flex max-h-[88dvh] w-full max-w-4xl flex-col overflow-hidden rounded-2xl border border-amber-500/30 bg-dharma-card shadow-[0_25px_70px_rgba(0,0,0,0.5)]"
           >
-            {/* Search Input Bar */}
-            <div className="flex items-center border-b border-dharma-border/80 px-4 py-3.5">
-              <Search className="mr-3 h-5 w-5 shrink-0 text-saffron-600" aria-hidden="true" />
+            {/* Search box */}
+            <div className="flex items-center border-b border-dharma-border/80 px-4 py-3 sm:px-6">
+              <Search className={`mr-3 h-5 w-5 shrink-0 ${isStale ? 'animate-pulse text-amber-600' : 'text-saffron-700 dark:text-saffron-400'}`} aria-hidden="true" />
               <input
                 ref={inputRef}
                 type="text"
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
-                placeholder="Search scriptures, Gita, Upanishads, karma, meditation…"
-                className="min-w-0 flex-1 bg-transparent text-base text-dharma-text placeholder:text-dharma-muted/70 outline-none"
+                onKeyDown={onInputKeyDown}
+                placeholder="Search Sanskrit, Hindi, English, transliteration, or a reference like Gita 2.47…"
+                aria-label="Search scriptures, verses, topics and practices"
+                aria-describedby={statusId}
+                className="min-h-[44px] min-w-0 flex-1 bg-transparent text-base text-dharma-text outline-none placeholder:text-dharma-muted/70 sm:text-lg"
                 role="combobox"
-                aria-expanded={flat.length > 0}
+                aria-expanded={display.length > 0}
                 aria-autocomplete="list"
-                aria-controls="search-results-list"
-                aria-activedescendant={flat.length ? `search-option-${selectedIndex}` : undefined}
+                aria-controls={listboxId}
+                aria-activedescendant={display.length > 0 ? `search-item-${selectedIndex}` : undefined}
                 autoComplete="off"
+                autoCapitalize="off"
                 spellCheck={false}
+                enterKeyHint="search"
               />
-              {query ? (
-                <button
-                  type="button"
-                  onClick={() => {
-                    setQuery('');
-                    inputRef.current?.focus();
-                  }}
-                  className="rounded-lg p-1 text-dharma-muted hover:text-dharma-text"
-                  aria-label="Clear search"
-                >
-                  <X className="h-4 w-4" />
-                </button>
-              ) : (
-                <button
-                  type="button"
-                  onClick={onClose}
-                  className="hidden rounded border border-dharma-border bg-dharma-bg px-2 py-0.5 text-[11px] font-medium text-dharma-muted hover:text-dharma-text sm:inline-block"
-                  aria-label="Close search"
-                >
-                  ESC
-                </button>
-              )}
+              <div className="ml-2 flex shrink-0 items-center gap-2">
+                {!isOnline && (
+                  <span className="inline-flex items-center gap-1 rounded-full border border-amber-600/40 bg-amber-500/10 px-2 py-0.5 text-[11px] font-medium text-amber-900 dark:text-amber-200">
+                    <WifiOff className="h-3 w-3" aria-hidden="true" />
+                    <span className="hidden sm:inline">Offline</span>
+                  </span>
+                )}
+                {query ? (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setQuery('');
+                      inputRef.current?.focus();
+                    }}
+                    className="focus-ring flex h-11 w-11 items-center justify-center rounded-lg text-dharma-muted hover:text-dharma-text"
+                    aria-label="Clear search"
+                  >
+                    <X className="h-4 w-4" aria-hidden="true" />
+                  </button>
+                ) : (
+                  <button
+                    type="button"
+                    onClick={onClose}
+                    className="focus-ring hidden min-h-[36px] rounded border border-dharma-border bg-dharma-bg px-2 text-[11px] font-mono font-medium text-dharma-muted hover:text-dharma-text sm:inline-block"
+                    aria-label="Close search"
+                  >
+                    ESC
+                  </button>
+                )}
+              </div>
             </div>
 
-            {/* Category filters (only while searching) */}
-            {search && totalAcrossCategories > 0 && (
-              <div
-                className="flex gap-1.5 overflow-x-auto border-b border-dharma-border/60 px-3 py-2"
-                role="group"
-                aria-label="Filter by category"
-              >
+            {/* Filters: which group of results to show */}
+            {result && result.totalMatches > 0 && (
+              <div role="group" aria-label="Show results from" className="flex items-center gap-1.5 overflow-x-auto border-b border-dharma-border/60 bg-dharma-bg/40 px-4 py-2 text-xs">
                 <button
                   type="button"
-                  className={chipClass(category === null)}
-                  onClick={() => setCategory(null)}
-                  aria-pressed={category === null}
+                  aria-pressed={selectedGroup === null}
+                  onClick={() => setSelectedGroup(null)}
+                  className={`focus-ring min-h-[36px] shrink-0 rounded-full border px-3 font-semibold transition ${
+                    selectedGroup === null ? 'border-saffron-700 bg-saffron-700 text-white' : 'border-dharma-border bg-dharma-card text-dharma-text hover:border-saffron-500'
+                  }`}
                 >
-                  सभी · All {totalAcrossCategories}
+                  All ({Object.values(counts).reduce((n, c) => n + (c ?? 0), 0)})
                 </button>
-                {SEARCH_CATEGORIES.filter((c) => (counts[c.id] ?? 0) > 0).map((c) => (
+                {shownGroups.map((g) => (
                   <button
-                    key={c.id}
+                    key={g.id}
                     type="button"
-                    className={chipClass(category === c.id)}
-                    onClick={() => setCategory((prev) => (prev === c.id ? null : c.id))}
-                    aria-pressed={category === c.id}
+                    aria-pressed={selectedGroup === g.id}
+                    onClick={() => setSelectedGroup((prev) => (prev === g.id ? null : g.id))}
+                    className={`focus-ring inline-flex min-h-[36px] shrink-0 items-center gap-1.5 rounded-full border px-3 font-semibold transition ${
+                      selectedGroup === g.id ? 'border-saffron-700 bg-saffron-700 text-white' : 'border-dharma-border bg-dharma-card text-dharma-text hover:border-saffron-500'
+                    }`}
                   >
-                    {c.label} {counts[c.id]}
+                    {groupIcon(g.id)}
+                    <span>
+                      <span lang="hi" className="font-devanagari">{g.hindiLabel}</span> · {g.label}
+                    </span>
+                    <span className="font-mono opacity-80">{counts[g.id]}</span>
                   </button>
                 ))}
               </div>
             )}
 
-            {/* Results List */}
-            <div
-              id="search-results-list"
-              className="max-h-[60vh] overflow-y-auto p-2 sm:p-3"
-              role="listbox"
-              aria-label="Search results"
-            >
-              {flat.length === 0 ? (
-                <div className="p-8 text-center text-sm text-dharma-muted">
-                  कोई परिणाम नहीं मिला। कृपया दूसरा शब्द खोजें।
-                  <div className="mt-2 text-xs opacity-75">
-                    Try a Sanskrit name, author, topic, or concept.
-                  </div>
-                  {trimmed && (
+            {/* Notices: offline, loading, load failure, did-you-mean */}
+            {!isOnline && (
+              <div role="status" className="flex items-start gap-2 border-b border-amber-600/30 bg-amber-500/10 px-4 py-2.5 text-xs text-amber-950 dark:text-amber-100">
+                <WifiOff className="mt-0.5 h-4 w-4 shrink-0" aria-hidden="true" />
+                <p>
+                  <strong className="font-semibold">You are offline.</strong>{' '}
+                  {verseReady
+                    ? 'Search still works: verse text has already been downloaded.'
+                    : 'Titles, topics and references still work, but verse text could not be loaded. It will load when you reconnect.'}
+                </p>
+              </div>
+            )}
+            {isOnline && verseState === 'error' && (
+              <div role="alert" className="flex items-center justify-between gap-3 border-b border-rose-600/30 bg-rose-500/10 px-4 py-2.5 text-xs text-rose-950 dark:text-rose-100">
+                <p>Verse text could not be loaded, so results show titles, topics and references only.</p>
+                <button
+                  type="button"
+                  onClick={() => setVerseState('idle')}
+                  className="focus-ring inline-flex min-h-[36px] shrink-0 items-center gap-1.5 rounded-full bg-rose-700 px-3 font-semibold text-white hover:bg-rose-800"
+                >
+                  <RotateCcw className="h-3.5 w-3.5" aria-hidden="true" /> Try again
+                </button>
+              </div>
+            )}
+            {suggestion && (
+              <div className="flex items-center justify-between gap-3 border-b border-sky-600/30 bg-sky-500/10 px-4 py-2.5 text-xs text-sky-950 dark:text-sky-100">
+                <p className="flex items-center gap-2">
+                  <Sparkles className="h-4 w-4 shrink-0" aria-hidden="true" />
+                  <span>
+                    Did you mean <strong className="font-semibold underline underline-offset-2">{suggestion}</strong>?
+                  </span>
+                </p>
+                <button
+                  type="button"
+                  onClick={() => runSearch(suggestion)}
+                  className="focus-ring min-h-[36px] shrink-0 rounded-full bg-sky-700 px-3 font-semibold text-white hover:bg-sky-800"
+                >
+                  Search this instead
+                </button>
+              </div>
+            )}
+            {result?.intentNote && (
+              <p role="status" className="border-b border-sky-600/30 bg-sky-500/10 px-4 py-2 text-xs text-sky-950 dark:text-sky-100">
+                {result.intentNote}
+              </p>
+            )}
+            {!suggestion && result?.isTypoCorrected && result.totalMatches > 0 && (
+              <p role="status" className="border-b border-sky-600/30 bg-sky-500/10 px-4 py-2 text-xs text-sky-950 dark:text-sky-100">
+                No exact match, so these are the closest to your spelling.
+              </p>
+            )}
+
+            {/* Screen-reader announcements */}
+            <div id={statusId} role="status" aria-live="polite" className="sr-only">
+              {announcement}
+            </div>
+
+            {/* Body */}
+            <div className="min-h-0 flex-1 overflow-y-auto p-3 sm:p-5">
+              {!trimmed && (
+                <div className="space-y-6 py-1">
+                  {recent.length > 0 && (
+                    <section aria-labelledby={`${listboxId}-recent`}>
+                      <div className="mb-2 flex items-center justify-between px-1">
+                        <h3 id={`${listboxId}-recent`} className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-dharma-muted">
+                          <Clock className="h-3.5 w-3.5 text-saffron-700" aria-hidden="true" />
+                          <span lang="hi" className="font-devanagari normal-case tracking-normal">हाल की खोज</span> · Recent searches
+                        </h3>
+                        <button
+                          type="button"
+                          onClick={() => setRecent([])}
+                          className="focus-ring inline-flex min-h-[36px] items-center gap-1.5 rounded px-2 text-xs font-medium text-dharma-muted hover:text-rose-700"
+                        >
+                          <Trash2 className="h-3.5 w-3.5" aria-hidden="true" />
+                          Clear history
+                        </button>
+                      </div>
+                      <ul className="flex flex-wrap gap-2">
+                        {recent.map((item) => (
+                          <li key={item}>
+                            <button
+                              type="button"
+                              onClick={() => runSearch(item)}
+                              className="focus-ring inline-flex min-h-[40px] items-center gap-1.5 rounded-full border border-dharma-border bg-dharma-bg px-3.5 text-sm text-dharma-text hover:border-saffron-500"
+                            >
+                              <Clock className="h-3.5 w-3.5 text-dharma-muted" aria-hidden="true" />
+                              {item}
+                            </button>
+                          </li>
+                        ))}
+                      </ul>
+                    </section>
+                  )}
+
+                  <section aria-labelledby={`${listboxId}-suggested`}>
+                    <h3 id={`${listboxId}-suggested`} className="mb-2 flex items-center gap-1.5 px-1 text-xs font-bold uppercase tracking-wider text-dharma-muted">
+                      <Sparkles className="h-3.5 w-3.5 text-amber-600" aria-hidden="true" />
+                      <span lang="hi" className="font-devanagari normal-case tracking-normal">सुझाई खोज</span> · Try searching
+                    </h3>
+                    <ul className="flex flex-wrap gap-2">
+                      {SUGGESTED_SEARCHES.map((s) => (
+                        <li key={s.query}>
+                          <button
+                            type="button"
+                            onClick={() => runSearch(s.query)}
+                            className="focus-ring inline-flex min-h-[40px] items-center rounded-full border border-amber-600/35 bg-amber-500/5 px-3.5 text-sm font-medium text-amber-950 hover:border-amber-600 hover:bg-amber-500/15 dark:text-amber-100"
+                          >
+                            {s.label}
+                          </button>
+                        </li>
+                      ))}
+                    </ul>
+                  </section>
+
+                  <section aria-labelledby={`${listboxId}-topics`}>
+                    <h3 id={`${listboxId}-topics`} className="mb-2 flex items-center gap-1.5 px-1 text-xs font-bold uppercase tracking-wider text-dharma-muted">
+                      <Flame className="h-3.5 w-3.5 text-saffron-700" aria-hidden="true" />
+                      <span lang="hi" className="font-devanagari normal-case tracking-normal">अध्ययन विषय</span> · Study topics
+                    </h3>
+                    <ul className="grid grid-cols-1 gap-2.5 sm:grid-cols-2">
+                      {studyTopics.map((t) => (
+                        <li key={t.name}>
+                          <button
+                            type="button"
+                            onClick={() => runSearch(t.name)}
+                            className={`focus-ring flex min-h-[64px] w-full flex-col items-start rounded-xl border p-3 text-left transition hover:shadow-md ${t.tint}`}
+                          >
+                            <span className="text-sm font-bold text-dharma-text">
+                              {t.name} <span lang="hi" className="font-devanagari text-[0.8125rem] font-normal text-dharma-muted">· {t.nameHi}</span>
+                            </span>
+                            <span className="mt-0.5 line-clamp-2 text-xs text-dharma-muted">{t.blurb}</span>
+                          </button>
+                        </li>
+                      ))}
+                    </ul>
+                  </section>
+                </div>
+              )}
+
+              {trimmed && result && verseLoading && isOnline && (
+                <div role="status" className="mb-3 flex items-center gap-2 rounded-lg border border-dharma-border bg-dharma-bg/60 px-3 py-2 text-xs text-dharma-muted">
+                  <span className="h-3 w-3 animate-spin rounded-full border-2 border-saffron-600 border-t-transparent" aria-hidden="true" />
+                  Loading verse text… verse results will appear in a moment.
+                </div>
+              )}
+
+              {trimmed && result && result.totalMatches === 0 && (
+                <div className="px-3 py-10 text-center">
+                  <HelpCircle className="mx-auto mb-3 h-10 w-10 text-amber-600/70" aria-hidden="true" />
+                  <h3 className="text-base font-bold text-dharma-text">
+                    <span lang="hi" className="font-devanagari">कोई परिणाम नहीं</span> · No results for “{trimmed}”
+                  </h3>
+                  <ul className="mx-auto mt-3 max-w-md space-y-1 text-left text-sm text-dharma-muted">
+                    <li>• Try part of the verse in Devanagari or Roman letters (“karmanye vadhikaraste”).</li>
+                    <li>• Try a reference such as “Gita 2.47” or “Katha 1.2”.</li>
+                    <li>• Try one idea: “fear”, “anger”, “meaning of life”, “भय”.</li>
+                  </ul>
+                  <ul className="mx-auto mt-5 flex max-w-lg flex-wrap justify-center gap-2">
+                    {SUGGESTED_SEARCHES.slice(0, 5).map((s) => (
+                      <li key={s.query}>
+                        <button
+                          type="button"
+                          onClick={() => runSearch(s.query)}
+                          className="focus-ring min-h-[40px] rounded-full border border-saffron-600/40 bg-saffron-500/10 px-3.5 text-sm font-semibold text-saffron-950 hover:bg-saffron-500/20 dark:text-saffron-100"
+                        >
+                          {s.label}
+                        </button>
+                      </li>
+                    ))}
+                  </ul>
+                  <div className="mt-6 flex flex-wrap justify-center gap-3">
                     <Link
                       href={`/scriptures?q=${encodeURIComponent(trimmed)}`}
                       onClick={onClose}
-                      className="mt-4 inline-flex items-center gap-1 rounded-full border border-saffron-300 px-3 py-1.5 text-xs font-semibold text-saffron-700 hover:bg-saffron-50 dark:hover:bg-saffron-900/20"
+                      className="focus-ring inline-flex min-h-[44px] items-center gap-1.5 rounded-full bg-saffron-700 px-5 text-sm font-semibold text-white hover:bg-saffron-800"
                     >
-                      ग्रंथालय में खोजें · Search the library <ArrowRight className="h-3.5 w-3.5" />
+                      Browse the library <ArrowRight className="h-4 w-4" aria-hidden="true" />
                     </Link>
-                  )}
-                </div>
-              ) : (
-                sections.map((section, sIdx) => (
-                  <div key={sIdx} className={sIdx > 0 ? 'mt-3' : undefined}>
-                    {section.label && (
-                      <div className="mb-2 flex items-center gap-1.5 px-3 pt-2 text-[11px] font-bold uppercase tracking-wider text-dharma-muted">
-                        {section.label}
-                      </div>
-                    )}
-                    <div className="space-y-1">
-                      {section.items.map((item) => {
-                        optionIndex += 1;
-                        const idx = optionIndex;
-                        const isSelected = idx === selectedIndex;
-                        return (
-                          <Link
-                            key={`${sIdx}-${item.id}`}
-                            id={`search-option-${idx}`}
-                            href={item.href}
-                            role="option"
-                            aria-selected={isSelected}
-                            tabIndex={-1}
-                            onClick={(e) => {
-                              remember(item);
-                              // Let modified clicks open a new tab without closing search
-                              if (!(e.metaKey || e.ctrlKey || e.shiftKey || e.button === 1)) onClose();
-                            }}
-                            onMouseMove={() => {
-                              if (!isSelected) setSelectedIndex(idx);
-                            }}
-                            className={`group flex items-center justify-between rounded-xl px-3.5 py-3 transition-colors ${
-                              isSelected
-                                ? 'bg-saffron-50 text-saffron-900 dark:bg-saffron-900/25 dark:text-saffron-100'
-                                : 'text-dharma-text hover:bg-dharma-bg'
-                            }`}
-                          >
-                            <div className="flex min-w-0 items-center gap-3 pr-2">
-                              <div
-                                className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-lg border border-dharma-border/60 ${
-                                  isSelected ? 'bg-white shadow-sm dark:bg-stone-800' : 'bg-dharma-bg'
-                                }`}
-                              >
-                                {getCategoryIcon(item.category)}
-                              </div>
-                              <div className="min-w-0">
-                                <div className="flex items-center gap-2">
-                                  <span className="truncate text-sm font-bold text-dharma-text">
-                                    {highlight(item.title, tokens)}
-                                  </span>
-                                  {item.subtitle && (
-                                    <span lang="hi" className="truncate font-devanagari text-xs text-dharma-muted">
-                                      {highlight(item.subtitle, tokens)}
-                                    </span>
-                                  )}
-                                </div>
-                                {item.description && (
-                                  <p className="truncate text-xs text-dharma-muted">
-                                    {item.description}
-                                  </p>
-                                )}
-                              </div>
-                            </div>
-
-                            <div className="flex shrink-0 items-center gap-2">
-                              <span className="hidden rounded-full border border-dharma-border/60 bg-dharma-bg/80 px-2 py-0.5 text-[10px] font-semibold text-dharma-muted sm:inline">
-                                {item.categoryLabel}
-                              </span>
-                              <ArrowRight
-                                className={`h-4 w-4 text-saffron-600 transition-transform ${
-                                  isSelected ? 'translate-x-0.5 opacity-100' : 'opacity-0'
-                                }`}
-                                aria-hidden="true"
-                              />
-                            </div>
-                          </Link>
-                        );
-                      })}
-                    </div>
+                    <Link
+                      href="/wisdom-for-life"
+                      onClick={onClose}
+                      className="focus-ring inline-flex min-h-[44px] items-center gap-1.5 rounded-full border border-dharma-border px-5 text-sm font-semibold text-dharma-text hover:border-saffron-500"
+                    >
+                      Wisdom for Life topics
+                    </Link>
                   </div>
-                ))
+                </div>
+              )}
+
+              {trimmed && result && result.totalMatches > 0 && (
+                <div id={listboxId} role="listbox" aria-label="Search results" className="space-y-6">
+                  {SEARCH_GROUPS.map((group) => {
+                    const items = display.filter((r) => r.group === group.id);
+                    if (items.length === 0) return null;
+                    const headingId = `${listboxId}-${group.id}`;
+                    return (
+                      <div key={group.id} role="group" aria-labelledby={headingId} className="space-y-2">
+                        <div className="flex items-center justify-between border-b border-dharma-border/60 px-1 pb-1.5">
+                          <h3 id={headingId} className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-dharma-muted">
+                            {groupIcon(group.id)}
+                            <span lang="hi" className="font-devanagari normal-case tracking-normal">{group.hindiLabel}</span> · {group.label}
+                          </h3>
+                          <span className="font-mono text-xs text-dharma-muted">{items.length}</span>
+                        </div>
+
+                        {items.map((item) => {
+                          const index = display.indexOf(item);
+                          const selected = index === selectedIndex;
+                          const style = matchedTextStyle(item);
+                          const matched = item.matchingText || item.title;
+                          const showSubtitle = item.subtitle && item.subtitle !== item.reference && item.subtitle !== matched;
+                          return (
+                            <Link
+                              key={item.id}
+                              id={`search-item-${index}`}
+                              href={item.href}
+                              role="option"
+                              aria-selected={selected}
+                              aria-label={`${item.reference ?? item.title}. ${item.matchReason}. ${item.languageLabel}.`}
+                              tabIndex={-1}
+                              onClick={() => {
+                                remember(query);
+                                onClose();
+                              }}
+                              onMouseMove={() => {
+                                if (!selected) setSelectedIndex(index);
+                              }}
+                              className={`group block rounded-xl border p-3.5 transition sm:p-4 ${
+                                selected
+                                  ? 'border-saffron-600/70 bg-saffron-500/10 shadow-md ring-1 ring-saffron-600/40'
+                                  : 'border-dharma-border/70 bg-dharma-card hover:border-amber-600/40 hover:bg-dharma-bg/50'
+                              }`}
+                            >
+                              <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
+                                <span className="font-mono text-xs font-bold text-amber-800 dark:text-amber-300">
+                                  {item.reference ?? item.groupLabel}
+                                </span>
+                                <span className="flex flex-wrap items-center gap-1.5">
+                                  <span className={`rounded-full border px-2 py-0.5 text-[11px] font-semibold ${reasonClass(item.matchReason)}`}>{item.matchReason}</span>
+                                  <span className="rounded-full border border-dharma-border bg-dharma-bg px-2 py-0.5 text-[11px] font-medium text-dharma-muted">{item.languageLabel}</span>
+                                </span>
+                              </div>
+
+                              <p lang={style.lang} className={`line-clamp-4 whitespace-pre-line ${style.className}`}>
+                                <Highlighted text={matched} query={trimmed} />
+                              </p>
+                              {showSubtitle && <p className="mt-0.5 text-xs text-dharma-muted">{item.subtitle}</p>}
+
+                              {item.translationExcerpt && item.translationExcerpt !== matched && (
+                                <p className="mt-2.5 rounded-lg border border-dharma-border/50 bg-dharma-bg/60 p-2.5 text-[13px] leading-relaxed text-dharma-text/90">
+                                  <span className="mr-1.5 font-semibold text-dharma-muted">Translation:</span>
+                                  <span lang={isDevanagariText(item.translationExcerpt) ? 'hi' : 'en'} className={isDevanagariText(item.translationExcerpt) ? 'font-devanagari leading-[1.8]' : ''}>
+                                    <Highlighted text={item.translationExcerpt} query={trimmed} />
+                                  </span>
+                                  {item.translationIsAi && (
+                                    <span className="ml-2 rounded-full border border-violet-500/40 bg-violet-500/10 px-1.5 py-px text-[10px] font-semibold text-violet-900 dark:text-violet-200">AI translation</span>
+                                  )}
+                                </p>
+                              )}
+
+                              {item.group === 'verse' && item.commentaryExcerpt && item.matchedField === 'explanation' && (
+                                <p className="mt-2 rounded-lg border border-sky-600/25 bg-sky-500/5 p-2.5 text-[13px] leading-relaxed text-dharma-text/90">
+                                  <span className="mr-1.5 font-semibold text-sky-900 dark:text-sky-200">Explanation:</span>
+                                  <Highlighted text={item.commentaryExcerpt} query={trimmed} />
+                                  {item.aiDrafted && (
+                                    <span className="ml-2 rounded-full border border-violet-500/40 bg-violet-500/10 px-1.5 py-px text-[10px] font-semibold text-violet-900 dark:text-violet-200">AI-drafted</span>
+                                  )}
+                                </p>
+                              )}
+
+                              <div className="mt-2.5 flex items-center justify-end border-t border-dharma-border/40 pt-2 text-xs">
+                                <span className="inline-flex items-center gap-1 font-semibold text-saffron-800 transition-transform group-hover:translate-x-0.5 dark:text-saffron-300">
+                                  {(item.actionLabel ?? 'Open').replace(/\s*[→➜]\s*$/, '')}
+                                  <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
+                                </span>
+                              </div>
+                            </Link>
+                          );
+                        })}
+                      </div>
+                    );
+                  })}
+                </div>
               )}
             </div>
 
-            {/* Footer Shortcuts */}
-            <div className="flex items-center justify-between border-t border-dharma-border/80 bg-dharma-bg/50 px-4 py-2.5 text-[11px] text-dharma-muted">
-              <div className="hidden items-center gap-3 sm:flex">
-                <span>
-                  <kbd className="rounded border border-dharma-border bg-dharma-card px-1.5 py-0.5 font-mono">
-                    ↑↓
-                  </kbd>{' '}
-                  Navigate
-                </span>
-                <span>
-                  <kbd className="rounded border border-dharma-border bg-dharma-card px-1.5 py-0.5 font-mono">
-                    ↵
-                  </kbd>{' '}
-                  Open
-                </span>
+            {/* Footer: keys and count */}
+            <div className="flex items-center justify-between border-t border-dharma-border/80 bg-dharma-bg/60 px-4 py-2.5 text-[11px] text-dharma-muted">
+              <div className="hidden items-center gap-4 sm:flex">
+                <span className="flex items-center gap-1"><kbd className="rounded border border-dharma-border bg-dharma-card px-1.5 py-0.5 font-mono text-[10px]">↑↓</kbd> Navigate</span>
+                <span className="flex items-center gap-1"><kbd className="rounded border border-dharma-border bg-dharma-card px-1.5 py-0.5 font-mono text-[10px]">↵</kbd> Open</span>
+                <span className="flex items-center gap-1"><kbd className="rounded border border-dharma-border bg-dharma-card px-1.5 py-0.5 font-mono text-[10px]">Tab</kbd> Filters</span>
+                <span className="flex items-center gap-1"><kbd className="rounded border border-dharma-border bg-dharma-card px-1.5 py-0.5 font-mono text-[10px]">Esc</kbd> Close</span>
               </div>
-              <div className="ml-auto text-right" aria-live="polite">
-                {search
-                  ? `${search.totalMatches} परिणाम${
-                      search.totalMatches > RESULT_LIMIT ? ` · top ${RESULT_LIMIT}` : ''
-                    }`
-                  : 'Dharma Granth Library'}
-              </div>
+              <span className="ml-auto font-medium text-dharma-text">
+                {result ? `${result.totalMatches} result${result.totalMatches === 1 ? '' : 's'}${result.totalMatches > RESULT_LIMIT ? ` · top ${RESULT_LIMIT}` : ''}` : 'Dharma Granth search'}
+              </span>
             </div>
           </motion.div>
         </div>
