@@ -102,3 +102,18 @@ export function badgesFor(input: BadgeInput): Badge[] {
   }
   return out;
 }
+
+/**
+ * Short review status for a search result, from its link. A verse page is
+ * checked against recorded reviews; anything else, and any verse without a
+ * record, reads "Not yet reviewed".
+ */
+export function reviewStatusForHref(href: string, records: ReviewRecord[]): string {
+  const m = /^\/scripture\/([^/]+)\/chapter\/(\d+)\/verse\/([^/]+?)\/?$/.exec(href.split('#')[0]);
+  if (m) {
+    const [, id, ch, v] = m;
+    const r = ['translation', 'source', 'commentary', 'editorial'].map((k) => latestReview(records, k as ReviewKind, id, Number(ch), v)).find(Boolean);
+    if (r) return `Reviewed ${r.date}`;
+  }
+  return 'Not yet reviewed';
+}

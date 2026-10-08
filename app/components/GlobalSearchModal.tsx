@@ -38,6 +38,8 @@ import type { VerseIndexFile } from '@/lib/search-verse-index';
 import { getSearchThemes } from '@/lib/search-themes';
 import { findHighlights } from '@/lib/search-highlight';
 import { useLocalStorage } from '@/lib/useLocalStorage';
+import { reviewStatusForHref } from '@/lib/review-badges';
+import { REVIEW_RECORDS } from '@/data/review-records';
 
 export type { SearchResultItem } from '@/lib/search';
 
@@ -743,7 +745,7 @@ export function GlobalSearchModal({ isOpen, onClose, initialQuery = '' }: Props)
                               href={item.href}
                               role="option"
                               aria-selected={selected}
-                              aria-label={`${item.reference ?? item.title}. ${item.matchReason}. ${item.languageLabel}.`}
+                              aria-label={`${item.reference ?? item.title}. ${item.matchReason}. ${item.languageLabel}. ${reviewStatusForHref(item.href, REVIEW_RECORDS)}.`}
                               tabIndex={-1}
                               onClick={() => {
                                 remember(query);
@@ -765,6 +767,7 @@ export function GlobalSearchModal({ isOpen, onClose, initialQuery = '' }: Props)
                                 <span className="flex flex-wrap items-center gap-1.5">
                                   <span className={`rounded-full border px-2 py-0.5 text-[11px] font-semibold ${reasonClass(item.matchReason)}`}>{item.matchReason}</span>
                                   <span className="rounded-full border border-dharma-border bg-dharma-bg px-2 py-0.5 text-[11px] font-medium text-dharma-muted">{item.languageLabel}</span>
+                                  <span className="rounded-full border border-dharma-border bg-dharma-bg px-2 py-0.5 text-xs font-medium text-dharma-muted">{reviewStatusForHref(item.href, REVIEW_RECORDS)}</span>
                                 </span>
                               </div>
 

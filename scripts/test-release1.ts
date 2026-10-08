@@ -275,6 +275,10 @@ async function main() {
   const recordsMod = await import('../data/review-records');
   assert.ok(recordsMod.REVIEW_RECORDS.every(rb.isValidRecord), 'every recorded review names a reviewer and a valid date');
 
+  assert.equal(rb.reviewStatusForHref('/scripture/bhagavadgita/chapter/2/verse/47/', []), 'Not yet reviewed');
+  assert.equal(rb.reviewStatusForHref('/concepts/karma', []), 'Not yet reviewed');
+  assert.equal(rb.reviewStatusForHref('/scripture/bhagavadgita/chapter/2/verse/47/', [rec('translation')]), 'Reviewed 2026-10-08', 'a recorded review shows its date in search results');
+
   console.log('release1: all assertions passed');
 }
 
