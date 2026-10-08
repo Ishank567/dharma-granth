@@ -59,7 +59,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     entry('/start', pageDate('/start'), 'monthly', 0.7),
     entry('/journeys', pageDate('/journeys', 'data/reading-journeys.ts'), 'monthly', 0.7),
     entry('/story', pageDate('/story'), 'monthly', 0.6),
-    entry('/listen', pageDate('/listen'), 'monthly', 0.5),
     entry('/collections', pageDate('/collections'), 'monthly', 0.75),
   ];
 

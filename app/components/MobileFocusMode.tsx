@@ -7,15 +7,11 @@ import {
   BookmarkCheck,
   ChevronLeft,
   ChevronRight,
-  Headphones,
   Maximize2,
   Minimize2,
-  Repeat,
   RotateCcw,
   SlidersHorizontal,
   Sparkles,
-  Square,
-  Volume2,
   X,
 } from 'lucide-react';
 import Link from 'next/link';
@@ -23,20 +19,8 @@ import type { ScriptureCategory } from '@/data/types';
 import type { HiCommentaryFragment } from '@/data/hi-commentary/_types';
 import { canonicalVerseId } from '@/lib/canonical-verse-id';
 import { resolveKeywordTarget } from '@/lib/keyword-links';
-import {
-  canRecite,
-  getRecitationLoop,
-  getRecitationSpeed,
-  reciteVerse,
-  setRecitationLoop,
-  setRecitationSpeed,
-  splitVerseLines,
-  stopRecitation,
-  subscribeRecitation,
-  subscribeRecitationConfig,
-  type RecitationState,
-} from '@/lib/verse-recite';
 import { isTanpuraPlaying, toggleTanpura, subscribeTanpura } from '@/lib/tanpura-audio';
+import { splitVerseLines } from '@/lib/verse-format';
 import { triggerTactileFeedback } from '@/lib/haptics';
 
 export interface FocusVerse {
@@ -129,32 +113,17 @@ export function MobileFocusMode({
   const [showEnglish, setShowEnglish] = useState(true);
   const [showCommentary, setShowCommentary] = useState(true);
   const [showMenu, setShowMenu] = useState(false);
-  const [continuousPlay, setContinuousPlay] = useState(false);
-  const continuousPlayRef = useRef(false);
-  continuousPlayRef.current = continuousPlay;
-
-  const [isSpeaking, setIsSpeaking] = useState(false);
-  const [speakingLine, setSpeakingLine] = useState<number | 'meaning' | null>(null);
-  const [speed, setSpeed] = useState(1.0);
-  const [loop, setLoop] = useState(false);
 
   const [tanpuraActive, setTanpuraActive] = useState(false);
 
   useEffect(() => {
-    setSpeed(getRecitationSpeed());
-    setLoop(getRecitationLoop());
     setTanpuraActive(isTanpuraPlaying());
 
-    const unsubConfig = subscribeRecitationConfig(() => {
-      setSpeed(getRecitationSpeed());
-      setLoop(getRecitationLoop());
-    });
     const unsubTanpura = subscribeTanpura((active) => {
       setTanpuraActive(active);
     });
 
     return () => {
-      unsubConfig();
       unsubTanpura();
     };
   }, []);
@@ -171,7 +140,6 @@ export function MobileFocusMode({
       document.body.style.overflow = 'hidden';
     } else {
       document.body.style.overflow = '';
-      // Retain global audio recitation if player is active
     }
     return () => {
       document.body.style.overflow = '';
@@ -181,30 +149,10 @@ export function MobileFocusMode({
   const currentVerse: FocusVerse | undefined = verses[currentIndex];
   const verseKey = currentVerse ? currentVerse.sanskrit || currentVerse.hindi || currentVerse.translation || '' : '';
 
-  // Recitation listener for line-by-line illumination
-  useEffect(() => {
-    if (!isOpen) return;
-    const unsubscribe = subscribeRecitation((recState: RecitationState) => {
-      if (recState.activeKey === verseKey && recState.isSpeaking) {
-        setIsSpeaking(true);
-        setSpeakingLine(recState.lineIndex);
-      } else {
-        if (recState.activeKey !== verseKey) {
-          setIsSpeaking(false);
-          setSpeakingLine(null);
-        }
-      }
-    });
-    return unsubscribe;
-  }, [isOpen, verseKey]);
-
   // Navigate to previous/next verse
   const goTo = useCallback(
     (newIndex: number, dir: number) => {
       if (newIndex < 0 || newIndex >= verses.length) return;
-      if (isSpeaking && !continuousPlayRef.current) {
-        stopRecitation();
-      }
       setDirection(dir);
       setCurrentIndex(newIndex);
       triggerTactileFeedback('light', 'softTap');
@@ -213,7 +161,7 @@ export function MobileFocusMode({
       }
       onVerseChange?.(verses[newIndex].number);
     },
-    [verses, isSpeaking, onVerseChange],
+    [verses, onVerseChange],
   );
 
   const prev = useCallback(() => {
@@ -224,93 +172,21 @@ export function MobileFocusMode({
     if (currentIndex < verses.length - 1) goTo(currentIndex + 1, 1);
   }, [currentIndex, verses.length, goTo]);
 
-  // Continuous and manual recitation chaining
-  const startFocusRecitation = useCallback(
-    (targetIndex: number) => {
-      if (targetIndex < 0 || targetIndex >= verses.length) {
-        setIsSpeaking(false);
-        return;
-      }
-      const targetVerse = verses[targetIndex];
-      if (!targetVerse) return;
-
-      const verseData = {
-        sanskrit: targetVerse.sanskrit,
-        hindi: targetVerse.hindi,
-        translation: targetVerse.translation,
-      };
-
-      if (!canRecite(verseData)) return;
-
-      setIsSpeaking(true);
-      reciteVerse(
-        verseData,
-        (naturalEnd) => {
-          setIsSpeaking(false);
-          if (
-            continuousPlayRef.current &&
-            naturalEnd &&
-            !getRecitationLoop() &&
-            targetIndex < verses.length - 1
-          ) {
-            goTo(targetIndex + 1, 1);
-            setTimeout(() => {
-              if (!continuousPlayRef.current) return;
-              startFocusRecitation(targetIndex + 1);
-            }, 700);
-          }
-        },
-        {
-          speed,
-          loop,
-          metadata: {
-            scriptureTitle,
-            chapterTitle,
-            verseLabel: String(targetVerse.number),
-            chapterId,
-            scriptureId,
-            verseNumber: targetVerse.number,
-            sanskrit: targetVerse.sanskrit,
-            hindi: targetVerse.hindi,
-            translation: targetVerse.translation,
-          },
-        },
-      );
-    },
-    [verses, scriptureTitle, chapterTitle, chapterId, scriptureId, speed, loop, goTo],
-  );
-
-  // Handle recitation toggle
-  const toggleSpeech = useCallback(() => {
-    if (!currentVerse) return;
-    triggerTactileFeedback('medium', isSpeaking ? 'softTap' : 'click');
-    if (isSpeaking) {
-      stopRecitation();
-      setIsSpeaking(false);
-      return;
-    }
-    startFocusRecitation(currentIndex);
-  }, [currentVerse, isSpeaking, currentIndex, startFocusRecitation]);
-
   // Keyboard navigation
   useEffect(() => {
     if (!isOpen) return;
     const handleKeyDown = (e: globalThis.KeyboardEvent) => {
       if (e.key === 'Escape') {
-        stopRecitation();
         onClose();
       } else if (e.key === 'ArrowRight' || e.key === 'PageDown') {
         next();
       } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
         prev();
-      } else if (e.key === ' ' && e.target === document.body) {
-        e.preventDefault();
-        toggleSpeech();
       }
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [isOpen, next, prev, onClose, toggleSpeech]);
+  }, [isOpen, next, prev, onClose]);
 
   // Gestures via PanInfo
   const handlePanEnd = (_e: MouseEvent | TouchEvent | PointerEvent, info: PanInfo) => {
@@ -321,7 +197,6 @@ export function MobileFocusMode({
       else if (x > SWIPE_THRESHOLD) prev();
     } else if (y > 75) {
       // Pull down to dismiss
-      stopRecitation();
       onClose();
     }
   };
@@ -373,7 +248,6 @@ export function MobileFocusMode({
             <button
               type="button"
               onClick={() => {
-                stopRecitation();
                 triggerTactileFeedback('light', 'softTap');
                 onClose();
               }}
@@ -397,30 +271,6 @@ export function MobileFocusMode({
           </div>
 
           <div className="flex items-center gap-1.5 sm:gap-2">
-            {/* Continuous Audio Recitation */}
-            <button
-              type="button"
-              onClick={() => {
-                const nextState = !continuousPlay;
-                setContinuousPlay(nextState);
-                triggerTactileFeedback('medium', nextState ? 'softTap' : 'click');
-                if (!nextState && isSpeaking) {
-                  stopRecitation();
-                  setIsSpeaking(false);
-                }
-              }}
-              className={`inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-xs font-semibold border transition ${
-                continuousPlay
-                  ? 'border-amber-400/80 bg-amber-500/20 text-amber-300 shadow-sm ring-1 ring-amber-400/40'
-                  : 'border-stone-800 bg-stone-900 text-stone-400 hover:text-stone-200'
-              }`}
-              title="निरंतर पाठ (Auto-advance)"
-              aria-pressed={continuousPlay}
-            >
-              <Headphones className="h-3 w-3" />
-              <span className="hidden sm:inline">निरंतर पाठ</span>
-            </button>
-
             {/* Tanpura Sacred Drone Ambience */}
             <button
               type="button"
@@ -584,7 +434,7 @@ export function MobileFocusMode({
                   {lines.length > 0 && (
                     <div lang="sa" className={`font-devanagari ${sanskritSizeClass} text-amber-50 space-y-2`}>
                       {lines.map((line, i) => {
-                        const isLineSpeaking = speakingLine === i;
+                        const isLineSpeaking = false;
                         return (
                           <p
                             key={i}
@@ -618,9 +468,7 @@ export function MobileFocusMode({
                 {/* ── Meanings ── */}
                 <div
                   className={`rounded-2xl border border-stone-800/80 bg-stone-900/60 p-5 space-y-4 transition-all duration-300 ${
-                    speakingLine === 'meaning'
-                      ? 'ring-2 ring-saffron-400/60 bg-saffron-500/10 shadow-lg'
-                      : ''
+                    ''
                   }`}
                 >
                   {showHindi && currentVerse.hindi && (
@@ -669,7 +517,6 @@ export function MobileFocusMode({
                           key={k}
                           href={target.href}
                           onClick={() => {
-                            stopRecitation();
                             onClose();
                           }}
                           className="inline-flex items-center gap-1 rounded-full border border-saffron-500/30 bg-saffron-500/10 px-2.5 py-0.5 text-[11px] font-semibold text-saffron-300 hover:bg-saffron-500/20 hover:border-saffron-400 transition"
@@ -701,78 +548,6 @@ export function MobileFocusMode({
             <ChevronLeft className="h-4 w-4" />
             <span className="hidden md:inline">पिछला</span>
           </button>
-
-          {/* Audio Recitation, Loop & Speed Group */}
-          <div className="flex items-center gap-1.5 sm:gap-2">
-            {/* Shloka Loop (आवृति) Button */}
-            <button
-              type="button"
-              onClick={() => {
-                const nextLoop = !loop;
-                setLoop(nextLoop);
-                setRecitationLoop(nextLoop);
-                triggerTactileFeedback('medium', nextLoop ? 'softTap' : 'click');
-              }}
-              className={`inline-flex items-center gap-1 rounded-xl px-2.5 py-2 text-xs font-semibold border transition ${
-                loop
-                  ? 'border-amber-500/80 bg-amber-500/20 text-amber-300 ring-1 ring-amber-400/40'
-                  : 'border-stone-800 bg-stone-900 text-stone-400 hover:text-stone-200'
-              }`}
-              title="श्लोक का बार-बार पाठ / आवृति (Repeat shloka loop)"
-              aria-label="आवृति"
-              aria-pressed={loop}
-            >
-              <Repeat className="h-3.5 w-3.5" />
-              <span className="hidden sm:inline">आवृति</span>
-            </button>
-
-            {/* Play / Stop Button */}
-            <button
-              type="button"
-              onClick={toggleSpeech}
-              className={`inline-flex items-center gap-2 rounded-full px-4 sm:px-6 py-2.5 text-xs sm:text-sm font-bold shadow-lg transition ${
-                isSpeaking
-                  ? 'bg-saffron-600 text-white ring-2 ring-saffron-400/50 animate-pulse'
-                  : 'bg-gradient-to-r from-saffron-500 to-amber-600 text-white hover:brightness-110 active:scale-95'
-              }`}
-              aria-label={isSpeaking ? 'पाठ रोकें' : 'श्लोक सुनें'}
-            >
-              {isSpeaking ? (
-                <>
-                  <Square className="h-3.5 w-3.5 fill-current" />
-                  <span>रोकें</span>
-                </>
-              ) : (
-                <>
-                  <Volume2 className="h-4 w-4" />
-                  <span>श्लोक सुनें</span>
-                </>
-              )}
-            </button>
-
-            {/* Speed Selector */}
-            <div className="flex items-center rounded-xl border border-stone-800 bg-stone-900 p-0.5 text-xs">
-              {[0.75, 1.0, 1.25].map((s) => (
-                <button
-                  key={s}
-                  type="button"
-                  onClick={() => {
-                    setSpeed(s);
-                    setRecitationSpeed(s);
-                    triggerTactileFeedback('light', 'softTap');
-                  }}
-                  className={`rounded-lg px-1.5 sm:px-2 py-1 text-[11px] font-semibold transition ${
-                    speed === s
-                      ? 'bg-saffron-600 text-white'
-                      : 'text-stone-400 hover:text-stone-200'
-                  }`}
-                  title={`${s}x गति`}
-                >
-                  {s}x
-                </button>
-              ))}
-            </div>
-          </div>
 
           <button
             type="button"

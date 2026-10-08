@@ -11,7 +11,6 @@ import {
   X,
 } from 'lucide-react';
 import { AnimatePresence, motion } from 'framer-motion';
-import { ListenButton } from './ListenButton';
 import { ShareVerseButton } from './ShareVerseButton';
 import { AddToCollectionModal } from './AddToCollectionModal';
 import { useStudyProgress, type VerseHighlight } from '@/lib/useStudyProgress';
@@ -67,7 +66,7 @@ function readSaved(): SavedVerse[] {
   }
 }
 
-/** Listen, copy, share, collection, and bookmark for a dedicated verse page. */
+/** Copy, share, collection, and bookmark for a dedicated verse page. */
 export function VersePageActions({
   scriptureId,
   scriptureTitle,
@@ -281,8 +280,6 @@ export function VersePageActions({
       >
         {copied ? <Check className="h-4 w-4" /> : <Copy className="h-4 w-4" />}
       </button>
-
-      <ListenButton sanskrit={verse.sanskrit} hindi={verse.hindi} translation={verse.translation} />
 
       <ShareVerseButton
         scriptureTitle={scriptureTitle}

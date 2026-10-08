@@ -57,7 +57,7 @@ Intent search (extend the theme matcher in `lib/search-themes.ts`; results must 
 | Item | Where | Notes |
 |---|---|---|
 | Reading journeys | `/journeys`, `data/reading-journeys.ts`, `scripts/check-journeys.ts` | Three drafts (Seven Days of Focus, Understanding Karma Yoga, Understanding the Self). Verse text is read from the library at build time; the check script fails if a lesson's reference no longer contains its expected Sanskrit. Progress in `dharma.journeys.v1`, worded "You have completed 3 of 7 readings." Curator is the editorial team; no lesson has been reviewed. Five of the eight journeys named in the brief are not written. |
-| Audio-first mode | `/listen?s=<scripture>&c=<chapter>` | One static page that fetches chapter JSON at run time (no per-chapter routes, because of the export file limit). Continuous chapter play, per-verse jump, speed including 0.7×, repeat, Hindi or English translation read after the Sanskrit, word by word, line highlighting, sleep timer, queue and a transcript. Uses the device's speech voice. |
+| Audio-first mode | removed | The `/listen` page and all device-speech controls were removed on 2026-10-08. No narration is offered. |
 | Visual story mode | `/story` | Built from existing characters and narrative timelines. Each block carries one of the four labels; diagrams have a text list. No generated illustrations are used. Location map is not included (links to `/locations`). |
 | Personal study desk | `/desk` | Saved verses, notes, reading queue (reorderable), recent chapters, active journeys, offline indicator, optional PIN (salted SHA-256, a privacy screen only), export and import (existing backup), per-record delete, clear all. `lib/backup.ts` gained `clearOwnData`. |
 

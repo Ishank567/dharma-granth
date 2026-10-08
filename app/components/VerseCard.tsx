@@ -26,8 +26,6 @@ import type { ScriptureCategory } from '@/data/types';
 import type { VerseHighlight } from '@/lib/useStudyProgress';
 import { resolveKeywordTarget } from '@/lib/keyword-links';
 import { toDevanagari, verseLines } from '@/lib/verse-format';
-import { subscribeRecitation, type RecitationState } from '@/lib/verse-recite';
-import { ListenButton } from './ListenButton';
 import { ShareVerseButton } from './ShareVerseButton';
 import { GlossaryText } from './GlossaryTooltip';
 import { getVerseGraphicClass, getVerseGraphicStyle } from './verse-background';
@@ -88,8 +86,6 @@ interface Props {
   highlight?: HighlightColor;
   /** Same colour again removes the highlight (useStudyProgress toggle semantics). */
   onHighlight: (color: HighlightColor) => void;
-  /** Callback fired when recitation of this verse finishes */
-  onReciteFinish?: (naturalEnd: boolean) => void;
   /** Opens full-screen focus contemplation mode on this verse */
   onOpenFocus?: () => void;
   /** Dedicated verse page, linked from the card so the URL survives hydration. */
@@ -182,28 +178,12 @@ export function VerseCard({
   onSaveNote,
   highlight,
   onHighlight,
-  onReciteFinish,
   onOpenFocus,
   versePageHref,
 }: Props) {
   const reduce = useReducedMotion();
   const cardRef = useRef<HTMLElement>(null);
   const tabsId = useId();
-
-  // ── Line-by-line recitation follow-along ──
-  const [activeSpeakingLine, setActiveSpeakingLine] = useState<number | 'meaning' | null>(null);
-  const myVerseKey = v.sanskrit || v.hindi || v.translation || '';
-
-  useEffect(() => {
-    const unsubscribe = subscribeRecitation((recState: RecitationState) => {
-      if (recState.activeKey === myVerseKey && recState.isSpeaking) {
-        setActiveSpeakingLine(recState.lineIndex);
-      } else {
-        setActiveSpeakingLine(null);
-      }
-    });
-    return unsubscribe;
-  }, [myVerseKey]);
 
   // ── Highlight colour picker ──
   const [pickerOpen, setPickerOpen] = useState(false);
@@ -475,19 +455,6 @@ export function VerseCard({
               {copied ? <Check className="h-4 w-4" /> : <Copy className="h-4 w-4" />}
             </button>
             <span className="shrink-0 [&>button]:h-9 [&>button]:w-9">
-              <ListenButton
-                sanskrit={v.sanskrit}
-                hindi={v.hindi}
-                translation={v.translation}
-                scriptureTitle={scriptureTitle}
-                chapterTitle={chapterTitle}
-                verseLabel={verseLabel}
-                chapterId={chapterId}
-                verseNumber={v.number}
-                onReciteFinish={onReciteFinish}
-              />
-            </span>
-            <span className="shrink-0 [&>button]:h-9 [&>button]:w-9">
               <ShareVerseButton
                 scriptureTitle={scriptureTitle}
                 chapterTitle={chapterTitle}
@@ -546,15 +513,10 @@ export function VerseCard({
             </div>
             <p lang="sa" className={`font-devanagari ${sanskritFontSizeClass} text-dharma-text`}>
               {lines.map((line, i) => {
-                const isLineSpeaking = activeSpeakingLine === i;
                 return (
                   <motion.span
                     key={i}
-                    className={`block rounded-xl px-2.5 py-1 -mx-2.5 transition-all duration-300 ${
-                      isLineSpeaking
-                        ? 'bg-gradient-to-r from-saffron-500/25 via-amber-500/20 to-saffron-500/25 text-saffron-950 dark:text-amber-100 font-bold shadow-sm ring-1 ring-saffron-400/60 scale-[1.01]'
-                        : ''
-                    }`}
+                    className="block rounded-xl px-2.5 py-1 -mx-2.5"
                     {...fadeIn(i)}
                   >
                     <GlossaryText text={line} />
@@ -720,9 +682,7 @@ export function VerseCard({
                     exit={reduce ? undefined : { opacity: 0, y: -4 }}
                     transition={{ duration: 0.18 }}
                     className={`space-y-4 rounded-2xl transition-all duration-300 ${
-                      activeSpeakingLine === 'meaning'
-                        ? 'ring-2 ring-saffron-400/60 bg-saffron-500/10 p-3.5 -m-3.5 shadow-sm'
-                        : ''
+                      ''
                     }`}
                   >
                     {activeTab === 'meaning' && (

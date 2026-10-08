@@ -1,17 +1,15 @@
 'use client';
 
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import {
   BookOpen,
   Flame,
-  Gauge,
-  Headphones,
   Maximize2,
-  Repeat,
   RotateCcw,
   Search,
   SlidersHorizontal,
   X,
+  MessageSquare,
 } from 'lucide-react';
 import type { ScriptureCategory } from '@/data/types';
 import type { HiCommentaryFragment } from '@/data/hi-commentary/_types';
@@ -21,22 +19,12 @@ import { normalizeForSearch, normalizeTransliteration } from '@/lib/normalize-se
 import { toAsciiDigits, toDevanagari } from '@/lib/verse-format';
 import { useStudyProgress, type VerseRef } from '@/lib/useStudyProgress';
 import { updateLastVerse } from '@/lib/reading-history';
-import {
-  getRecitationLoop,
-  getRecitationSpeed,
-  getRecitationState,
-  reciteVerse,
-  registerRecitationSkipHandler,
-  setRecitationLoop,
-  setRecitationSpeed,
-  stopRecitation,
-  subscribeRecitationConfig,
-} from '@/lib/verse-recite';
 import { AddToCollectionModal } from './AddToCollectionModal';
 import { ContributeMeaningModal } from './ContributeMeaningModal';
 import { VerseCard } from './VerseCard';
 import { VerseText } from './VerseText';
 import { MobileFocusMode } from './MobileFocusMode';
+import { ConversationModeView } from './conversation/ConversationModeView';
 import { triggerTactileFeedback } from '@/lib/haptics';
 
 interface FullVerse {
@@ -131,6 +119,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
 
   const [fontSize, setFontSize] = useState<'normal' | 'large' | 'xl'>('normal');
   const [chantingMode, setChantingMode] = useState(false);
+  const [isConversationMode, setIsConversationMode] = useState(false);
   const [showTranslit, setShowTranslit] = useState(true);
   const [showHindi, setShowHindi] = useState(true);
   const [showEnglish, setShowEnglish] = useState(true);
@@ -139,21 +128,6 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
   const [filterQuery, setFilterQuery] = useState('');
   const [copiedId, setCopiedId] = useState<string | null>(null);
   const [bookmarkedMap, setBookmarkedMap] = useState<Record<string, boolean>>({});
-  const [continuousRecite, setContinuousRecite] = useState(false);
-  const continuousReciteRef = useRef(false);
-  continuousReciteRef.current = continuousRecite;
-  const [reciteSpeed, setReciteSpeed] = useState(1.0);
-  const [reciteLoop, setReciteLoop] = useState(false);
-
-  useEffect(() => {
-    setReciteSpeed(getRecitationSpeed());
-    setReciteLoop(getRecitationLoop());
-    return subscribeRecitationConfig(() => {
-      setReciteSpeed(getRecitationSpeed());
-      setReciteLoop(getRecitationLoop());
-    });
-  }, []);
-
   const [focusModeOpen, setFocusModeOpen] = useState(false);
   const [focusVerseIndex, setFocusVerseIndex] = useState(0);
   const layersMenuRef = useRef<HTMLDivElement>(null);
@@ -440,61 +414,6 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
     });
   }, [state, filterQuery, verseSearchKeys]);
 
-  const handleVerseReciteFinishRef = useRef<(currentIndex: number, naturalEnd: boolean) => void>(() => {});
-
-  const startRecitationForIndex = useCallback((targetIndex: number) => {
-    if (targetIndex < 0 || targetIndex >= filteredVerses.length) return false;
-    const targetVerse = filteredVerses[targetIndex];
-    scrollToVerse(targetVerse.number);
-    reciteVerse(
-      {
-        sanskrit: targetVerse.sanskrit,
-        hindi: targetVerse.hindi,
-        translation: targetVerse.translation,
-      },
-      (nextNatural) => handleVerseReciteFinishRef.current(targetIndex, nextNatural),
-      {
-        metadata: {
-          scriptureTitle,
-          chapterTitle,
-          verseLabel: String(targetVerse.number),
-          chapterId,
-          scriptureId,
-          verseNumber: targetVerse.number,
-          sanskrit: targetVerse.sanskrit,
-          hindi: targetVerse.hindi,
-          translation: targetVerse.translation,
-        },
-      },
-    );
-    return true;
-  }, [filteredVerses, scriptureTitle, chapterTitle, chapterId, scriptureId]);
-
-  const handleVerseReciteFinish = (currentIndex: number, naturalEnd: boolean) => {
-    if (!continuousReciteRef.current || !naturalEnd || getRecitationLoop()) return;
-    const nextIndex = currentIndex + 1;
-    if (nextIndex < filteredVerses.length) {
-      setTimeout(() => {
-        if (!continuousReciteRef.current) return;
-        startRecitationForIndex(nextIndex);
-      }, 750);
-    }
-  };
-
-  handleVerseReciteFinishRef.current = handleVerseReciteFinish;
-
-  // Register skip handler for next/previous verse navigation from GlobalAudioPlayer & MediaSession
-  useEffect(() => {
-    return registerRecitationSkipHandler((direction) => {
-      const recState = getRecitationState();
-      const currentVerseNum = recState.metadata?.verseNumber;
-      if (!currentVerseNum || filteredVerses.length === 0) return false;
-      const idx = filteredVerses.findIndex((v) => String(v.number) === String(currentVerseNum));
-      if (idx === -1) return false;
-      const targetIdx = direction === 'next' ? idx + 1 : idx - 1;
-      return startRecitationForIndex(targetIdx);
-    });
-  }, [filteredVerses, startRecitationForIndex]);
 
   const sanskritFontSizeClass =
     fontSize === 'xl'
@@ -701,106 +620,6 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
             </div>
 
             <div className="flex flex-wrap items-center gap-2">
-              {/* Continuous Guided Recitation Toggle */}
-              <button
-                type="button"
-                onClick={() => {
-                  const next = !continuousRecite;
-                  setContinuousRecite(next);
-                  triggerTactileFeedback('medium', next ? 'softTap' : 'click');
-                  if (!next) {
-                    stopRecitation();
-                  } else if (filteredVerses.length > 0 && !getRecitationState().isSpeaking) {
-                    const firstVerse = filteredVerses[0];
-                    scrollToVerse(firstVerse.number);
-                    reciteVerse(
-                      {
-                        sanskrit: firstVerse.sanskrit,
-                        hindi: firstVerse.hindi,
-                        translation: firstVerse.translation,
-                      },
-                      (nat) => handleVerseReciteFinish(0, nat),
-                      {
-                        metadata: {
-                          scriptureTitle,
-                          chapterTitle,
-                          verseLabel: String(firstVerse.number),
-                          chapterId,
-                          scriptureId,
-                          verseNumber: firstVerse.number,
-                          sanskrit: firstVerse.sanskrit,
-                          hindi: firstVerse.hindi,
-                          translation: firstVerse.translation,
-                        },
-                      },
-                    );
-                  }
-                }}
-                className={`inline-flex min-h-[40px] items-center justify-center gap-1.5 rounded-xl sm:min-h-0 px-3 py-1.5 text-xs font-semibold transition ${
-                  continuousRecite
-                    ? 'bg-amber-600 text-white shadow-sm ring-2 ring-amber-400/30'
-                    : 'border border-dharma-border bg-dharma-bg text-dharma-text hover:border-amber-300 hover:text-amber-700'
-                }`}
-                title="एक श्लोक समाप्त होने पर स्वतः अगले श्लोक का पाठ शुरू करें"
-                aria-label="निरंतर पाठ"
-                aria-pressed={continuousRecite}
-              >
-                <Headphones className={`h-3.5 w-3.5 ${continuousRecite ? 'text-white' : 'text-amber-600'}`} />
-                {/* Icon-only on phones so the whole toolbar fits one row. */}
-                <span className="hidden sm:inline">निरंतर पाठ</span>
-              </button>
-
-              {/* Shloka Repeat Loop (आवृति) Toggle */}
-              <button
-                type="button"
-                onClick={() => {
-                  const next = !reciteLoop;
-                  setReciteLoop(next);
-                  setRecitationLoop(next);
-                  triggerTactileFeedback('medium', next ? 'softTap' : 'click');
-                }}
-                className={`inline-flex min-h-[40px] items-center justify-center gap-1.5 rounded-xl sm:min-h-0 px-3 py-1.5 text-xs font-semibold transition ${
-                  reciteLoop
-                    ? 'bg-amber-600 text-white shadow-sm ring-2 ring-amber-400/30'
-                    : 'border border-dharma-border bg-dharma-bg text-dharma-text hover:border-amber-300 hover:text-amber-700'
-                }`}
-                title="एक ही श्लोक का बार-बार पाठ / आवृति (Repeat shloka loop)"
-                aria-label="आवृति"
-                aria-pressed={reciteLoop}
-              >
-                <Repeat className={`h-3.5 w-3.5 ${reciteLoop ? 'text-white' : 'text-amber-600'}`} />
-                <span className="hidden sm:inline">आवृति</span>
-              </button>
-
-              {/* Recitation Speed Selector */}
-              <div
-                className="hidden sm:inline-flex items-center rounded-xl border border-dharma-border bg-dharma-bg p-0.5 text-xs"
-                title="पाठ गति (Chanting Speed)"
-                role="group"
-                aria-label="पाठ गति"
-              >
-                <Gauge className="mx-1.5 h-3.5 w-3.5 text-dharma-muted" aria-hidden="true" />
-                {[0.75, 1.0, 1.25].map((s) => (
-                  <button
-                    key={s}
-                    type="button"
-                    onClick={() => {
-                      setReciteSpeed(s);
-                      setRecitationSpeed(s);
-                      triggerTactileFeedback('light', 'softTap');
-                    }}
-                    className={`rounded-lg px-2 py-0.5 text-[11px] font-semibold transition ${
-                      reciteSpeed === s
-                        ? 'bg-saffron-600 text-white shadow-xs'
-                        : 'text-dharma-muted hover:text-dharma-text'
-                    }`}
-                    aria-pressed={reciteSpeed === s}
-                  >
-                    {s}x
-                  </button>
-                ))}
-              </div>
-
               {/* Chanting Mode Toggle */}
               <button
                 type="button"
@@ -941,6 +760,24 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
                   )}
                 </div>
               )}
+
+              {/* Conversation Mode for Dialogue Scriptures (Bhagavad Gita) */}
+              {scriptureId === 'bhagavadgita' && (
+                <button
+                  type="button"
+                  onClick={() => setIsConversationMode(!isConversationMode)}
+                  className={`inline-flex min-h-[40px] items-center gap-1.5 rounded-xl border px-3 py-1.5 text-xs font-semibold transition sm:min-h-0 ${
+                    isConversationMode
+                      ? 'border-saffron-600 bg-saffron-600 text-white shadow-2xs'
+                      : 'border-dharma-border bg-dharma-bg text-dharma-text hover:border-saffron-400'
+                  }`}
+                  title="संवाद स्वरूप (Conversation Mode)"
+                  aria-pressed={isConversationMode}
+                >
+                  <MessageSquare className="h-3.5 w-3.5" />
+                  <span>संवाद स्वरूप</span>
+                </button>
+              )}
             </div>
           </div>
 
@@ -996,8 +833,16 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
           </div>
         </div>
 
-        <div className="space-y-6">
-          {filteredVerses.length === 0 ? (
+        {isConversationMode && scriptureId === 'bhagavadgita' ? (
+          <ConversationModeView
+            scriptureId={scriptureId}
+            chapterId={chapterId}
+            verses={state.verses}
+            onExitConversationMode={() => setIsConversationMode(false)}
+          />
+        ) : (
+          <div className="space-y-6">
+            {filteredVerses.length === 0 ? (
             <div className="rounded-xl border border-dashed border-dharma-border bg-dharma-card p-8 text-center text-sm text-dharma-muted">
               <p className="font-semibold text-dharma-text mb-1">&lsquo;{filterQuery}&rsquo; के लिए कोई श्लोक नहीं मिला</p>
               <p className="text-xs mb-3">कृपया दूसरा श्लोक क्रमांक या शब्द खोजें।</p>
@@ -1079,7 +924,6 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
                   onSaveNote={(text) => setNote(scriptureId, chapterId, v.number, text)}
                   highlight={getHighlight(scriptureId, chapterId, v.number)?.color}
                   onHighlight={(color) => toggleHighlight(scriptureId, chapterId, v.number, color)}
-                  onReciteFinish={(naturalEnd) => handleVerseReciteFinish(index, naturalEnd)}
                   onOpenFocus={() => {
                     setFocusVerseIndex(index);
                     setFocusModeOpen(true);
@@ -1090,6 +934,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
             })
           )}
         </div>
+      )}
       {state.source?.repo && (
         <p className="mt-6 text-xs text-dharma-muted text-center">
           स्रोत:{' '}

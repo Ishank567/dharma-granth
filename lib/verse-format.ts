@@ -55,3 +55,34 @@ export function cleanVerseField(text: string | undefined): string {
   if (!text) return '';
   return text.replace(/\u00a0/g, ' ').replace(/[ \t]+\n/g, '\n').replace(/\n{3,}/g, '\n\n').trim();
 }
+
+/**
+ * Split a verse into its pādas for line-by-line display.
+ */
+export function splitVerseLines(sanskrit?: string): string[] {
+  if (!sanskrit || typeof sanskrit !== 'string') return [];
+  const cleaned = sanskrit.replace(/[\s|।॥0-9०-९.]+$/, '').trim();
+  if (!cleaned) return [];
+  const byNewline = cleaned.split(/\n+/).map((l) => l.trim()).filter(Boolean);
+  if (byNewline.length > 1) return byNewline;
+
+  // Normalize consecutive dandas (॥, ||) to a single delimiter
+  const normalized = cleaned.replace(/॥+|\|\|+/g, '।');
+  const lines: string[] = [];
+  let current = '';
+  for (const ch of normalized) {
+    current += ch;
+    if (ch === '|' || ch === '।') {
+      const line = current.trim();
+      if (line && !/^[\s|।॥0-9०-९.]+$/.test(line)) {
+        lines.push(line);
+      }
+      current = '';
+    }
+  }
+  const rem = current.trim();
+  if (rem && !/^[\s|।॥0-9०-९.]+$/.test(rem)) {
+    lines.push(rem);
+  }
+  return lines.length ? lines : [cleaned];
+}

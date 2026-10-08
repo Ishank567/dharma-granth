@@ -68,11 +68,11 @@ const DAILY_PRACTICES = [
   {
     id: 'practice-verse',
     title: 'दैनिक श्लोक · Daily Verse',
-    subtitle: 'Daily Contemplation & Audio Recitation',
-    description: 'Start each morning with one sacred verse, authentic Sanskrit chanting, Hindi meaning, and practical guidance.',
+    subtitle: 'Daily Contemplation',
+    description: 'Start each morning with one sacred verse, the Sanskrit text, Hindi meaning, and practical guidance.',
     href: '/practice#verse',
     keywords: ['verse', 'daily verse', 'shloka', 'recitation', 'श्लोक', 'दैनिक श्लोक', 'पाठ', 'अभ्यास'],
-    actionLabel: 'Listen to Daily Verse →',
+    actionLabel: 'Read the Daily Verse →',
   },
   {
     id: 'practice-meditation',

@@ -102,7 +102,7 @@ Each entry: purpose · content rules · interaction · mobile · accessibility �
 - **Content:** situation, teaching, reminder, try. One short sentence each. Used first in Quick mode.
 
 ### Audio
-- **Interaction:** Listen (1×) and Slow (0.7×) use the device's speech voice, pressing again stops. **Error:** with no voice available the buttons disable and the toast explains. **Gap:** this is device speech, not a recorded recitation, so Sanskrit pronunciation depends on the device voice.
+- **Audio:** none. The Listen and Slow buttons and device speech were removed; the page has no narration or pronunciation audio.
 
 ### Share card
 - **Output:** 1080×1350 PNG: the first two lines of the verse (shrunk to fit ≤ 4 lines), the reference, a one-line meaning labelled "explanation, not scripture", "Dharma Granth" and the URL. Themes: Paper, Saffron, Midnight, Minimal, all with high-contrast text. **Interaction:** Save image, or Share (files) where the browser supports it, otherwise download. **A11y:** canvas has a text description. **Error:** a failed canvas shows a message.

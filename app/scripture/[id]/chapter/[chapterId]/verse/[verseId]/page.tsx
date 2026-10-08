@@ -32,7 +32,7 @@ import { getScriptureSourceMeta } from '@/data/sources-registry';
  * One static page per verse for the scriptures in VERSE_PAGE_SCRIPTURE_IDS
  * (lib/verse-paths.ts) — the Gita and principal Upanishads, which people
  * search verse by verse ("gita 2.47 meaning in hindi", "karmanye
- * vadhikaraste"). The verse body is server HTML; listen, copy, share and
+ * vadhikaraste"). The verse body is server HTML; copy, share and
  * bookmark are a small client toolbar.
  */
 

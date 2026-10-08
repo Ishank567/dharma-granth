@@ -4,26 +4,19 @@ import { ThemeProvider } from "@/app/components/ThemeProvider";
 import { PageTransition } from "@/app/components/motion/PageTransition";
 import { DEFAULT_OG_IMAGE } from "@/lib/og";
 import { FloatingCompanion } from "@/app/components/FloatingCompanion";
-import { GlobalAudioPlayer } from "@/app/components/GlobalAudioPlayer";
 import { TactileLayer } from "@/app/components/TactileLayer";
 import { SpatialLightCursor } from "@/app/components/motion/SpatialLightCursor";
-// Self-hosted fonts via @fontsource — bundled at build time so the build
-// has no runtime dependency on fetching Google Fonts (which is flaky and
-// can fail the static export). Family names map to the CSS variables in
-// globals.css (--font-inter / --font-merriweather / --font-noto-devanagari).
+import { ErrorBoundary } from "@/app/components/ErrorBoundary";
+import { OfflineIndicator } from "@/app/components/OfflineIndicator";
+// Font subsetting: Bundling only required weights (400, 600, 700) and critical
+// styles; unused weights (300, 500, 300-italic, 700-italic) are omitted to reduce bundle size.
 import "@fontsource/inter/latin-400.css";
-import "@fontsource/inter/latin-500.css";
 import "@fontsource/inter/latin-600.css";
 import "@fontsource/inter/latin-700.css";
-import "@fontsource/merriweather/latin-300.css";
 import "@fontsource/merriweather/latin-400.css";
 import "@fontsource/merriweather/latin-700.css";
-import "@fontsource/merriweather/latin-300-italic.css";
 import "@fontsource/merriweather/latin-400-italic.css";
-import "@fontsource/merriweather/latin-700-italic.css";
-import "@fontsource/noto-sans-devanagari/devanagari-300.css";
 import "@fontsource/noto-sans-devanagari/devanagari-400.css";
-import "@fontsource/noto-sans-devanagari/devanagari-500.css";
 import "@fontsource/noto-sans-devanagari/devanagari-600.css";
 import "@fontsource/noto-sans-devanagari/devanagari-700.css";
 import "./globals.css";
@@ -39,7 +32,7 @@ const THEME_INIT_SCRIPT = `
 (function () {
   try {
     var t = localStorage.getItem('dharma-theme');
-    if (t === 'sunset' || t === 'night' || t === 'day') {
+    if (t === 'sunset' || t === 'night' || t === 'day' || t === 'paper') {
       document.documentElement.setAttribute('data-theme', t);
     }
   } catch (e) {}
@@ -189,6 +182,29 @@ export default function RootLayout({
   return (
     <html lang="hi" suppressHydrationWarning>
       <head>
+        {/* Preload only critical font files to minimize layout shifts (CLS) and accelerate LCP */}
+        <link
+          rel="preload"
+          href="/fonts/noto-devanagari-400.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="preload"
+          href="/fonts/inter-400.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="preload"
+          href="/fonts/merriweather-400.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
+
         {/* eslint-disable-next-line @next/next/no-sync-scripts */}
         <script dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }} />
         <script
@@ -203,12 +219,16 @@ export default function RootLayout({
             Skip to main content
           </a>
           <SiteNav />
-          <div id="main-content" tabIndex={-1}>
-            <PageTransition>{children}</PageTransition>
+          <div id="main-content" tabIndex={-1} className="outline-none pb-16 md:pb-0">
+            <ErrorBoundary name="Main Content">
+              <PageTransition>{children}</PageTransition>
+            </ErrorBoundary>
           </div>
-          <FloatingCompanion />
-          <GlobalAudioPlayer />
+          <ErrorBoundary name="Floating Companion">
+            <FloatingCompanion />
+          </ErrorBoundary>
           <TactileLayer />
+          <OfflineIndicator />
           <ServiceWorkerRegister />
         </ThemeProvider>
       </body>

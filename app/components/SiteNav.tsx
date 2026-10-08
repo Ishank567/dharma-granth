@@ -93,6 +93,10 @@ const desktopPrimaryItems = [
 ];
 
 const desktopDiscoveryItems = [
+  { label: 'स्वाध्याय मार्ग', description: 'Guided Reading Paths — विषयवार अध्ययन', href: '/learn/paths' },
+  { label: 'पठन योजनाएँ', description: 'Reading Plans — १८ दिवसीय गीता आदि', href: '/learn/plans' },
+  { label: 'जिज्ञासा समाधान', description: 'Scripture FAQs — श्रुति-स्मृति व नीति', href: '/learn/faq' },
+  { label: 'स्रोत पारदर्शिता', description: 'Source Library — मूल पांडुलिपियाँ व संस्करण', href: '/sources' },
   { label: 'जीवन मार्गदर्शन', description: 'Wisdom for Life — जीवन के लिए शास्त्रीय मार्गदर्शन', href: '/wisdom-for-life' },
   { label: 'पंचांग', description: 'दैनिक वैदिक काल व ऋतु', href: '/panchang' },
   { label: 'अवधारणाएँ', description: 'मुख्य दार्शनिक विचार', href: '/concepts' },
@@ -108,10 +112,10 @@ const desktopPersonalItems = [
   { label: 'मेरा डैशबोर्ड', href: '/dashboard' },
   { label: 'यात्रा शुरू करें', href: '/start' },
   { label: 'पठन यात्राएँ', href: '/journeys' },
-  { label: 'सुनें', href: '/listen' },
+  { label: 'स्वाध्याय योजनाएँ', href: '/learn/plans' },
   { label: 'कथा-दर्शन', href: '/story' },
   { label: 'अध्ययन-पटल', href: '/desk' },
-  { label: 'बुकमार्क', href: '/bookmarks' },
+  { label: 'बुकमार्क व नोट्स', href: '/bookmarks' },
   { label: 'संग्रह', href: '/collections' },
   { label: 'अध्ययन पथ', href: '/learn/pathways' },
 ];

@@ -93,3 +93,7 @@ Not done: Phase 3 (commentary comparison data, story labels, editorial dashboard
 | Human media | Not started; needs recordings or images supplied by people. |
 
 Verification: `tsc --noEmit`, `check:diagrams`, `check:concept-relations`, `check:orientation` and `test:release1` all pass.
+
+## Audio removal (2026-10-08)
+
+Decision: audio is removed entirely. Deleted: `ListenButton`, `GlobalAudioPlayer`, `lib/verse-recite.ts` (device speech) and the `/listen` page, with their nav and sitemap entries. Removed the Listen, Slow, continuous-recitation, loop and speed controls from the verse reader, chapter view, verse card, verse-of-the-day, scripture reader and focus mode. `splitVerseLines` (not audio) moved to `lib/verse-format.ts`. Kept, because they are not narration: the meditation timer's tanpura drone and chimes, and the optional UI click-sound and haptics toggle. No verified human recordings exist in the tree to preserve.

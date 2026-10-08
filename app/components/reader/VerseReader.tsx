@@ -16,18 +16,14 @@ import {
   Focus,
   Maximize2,
   Minimize2,
-  Pause,
   Share2,
   SlidersHorizontal,
   StickyNote,
-  Volume1,
-  Volume2,
 } from 'lucide-react';
 import { useTheme } from '@/app/components/ThemeProvider';
 import { toDevanagari } from '@/lib/verse-format';
 import { useStudyProgress } from '@/lib/useStudyProgress';
 import { useReaderSettings } from '@/lib/useReaderSettings';
-import { speechSupported, reciteVerse, stopRecitation, subscribeRecitation } from '@/lib/verse-recite';
 import { triggerTactileFeedback } from '@/lib/haptics';
 import {
   REPORT_KINDS,
@@ -110,7 +106,7 @@ export function VerseReader(props: VerseReaderProps) {
   );
   const label = verseReference(ref, verse);
 
-  /* Reader mode: the site nav, companion dock and audio bar step aside (see globals.css). */
+  /* Reader mode: the site navand companion dock step aside (see globals.css). */
   useEffect(() => {
     document.documentElement.setAttribute('data-reader', '');
     return () => document.documentElement.removeAttribute('data-reader');
@@ -145,33 +141,6 @@ export function VerseReader(props: VerseReaderProps) {
     }
     triggerTactileFeedback(state ? 'success' : 'medium', state ? 'success' : 'softTap');
     say(state ? 'Verse saved' : 'Removed from saved verses');
-  };
-
-  /* ── Pronunciation (the device's speech voice) ── */
-  const [speaking, setSpeaking] = useState<null | 'normal' | 'slow'>(null);
-  const [canSpeak, setCanSpeak] = useState(true);
-  useEffect(() => {
-    setCanSpeak(speechSupported());
-    const off = subscribeRecitation((s) => {
-      if (!s?.isSpeaking) setSpeaking(null);
-    });
-    return () => {
-      off();
-      stopRecitation();
-    };
-  }, [verse.number]);
-  const onSpeak = (mode: 'normal' | 'slow') => {
-    if (!canSpeak) return say('This browser has no speech voice for pronunciation.');
-    if (speaking === mode) {
-      stopRecitation();
-      setSpeaking(null);
-      return;
-    }
-    setSpeaking(mode);
-    reciteVerse({ sanskrit: verse.sanskrit, hindi: verse.hindi, translation: verse.translation }, () => setSpeaking(null), {
-      speed: mode === 'slow' ? 0.7 : 1,
-      onlySanskrit: true,
-    });
   };
 
   /* ── Copy / share / download ── */
@@ -295,8 +264,9 @@ export function VerseReader(props: VerseReaderProps) {
     <MotionConfig reducedMotion={reducedMotion ? 'always' : 'user'}>
       <div
         data-contrast={settings.contrast}
-        data-hide-decor={settings.hideDecor || settings.focusMode ? '' : undefined}
+        data-hide-decor={settings.hideDecor || settings.focusMode || settings.liteMode ? '' : undefined}
         data-focus={settings.focusMode ? '' : undefined}
+        data-lite={settings.liteMode ? '' : undefined}
         data-tone={settings.tone}
         className="reader-root min-h-screen bg-dharma-bg text-dharma-text selection:bg-saffron-500/25"
       >
@@ -308,6 +278,7 @@ export function VerseReader(props: VerseReaderProps) {
           .reader-root[data-tone=sepia]{--dharma-bg:#f4ecd8;--dharma-text:#3b2f1e}
           .reader-root[data-tone=night]{--dharma-bg:#101010;--dharma-text:#ece7dd}
           .reader-root[data-focus] aside,.reader-root[data-focus] [data-focus-hide]{display:none!important}
+          .reader-root[data-lite] aside,.reader-root[data-lite] [data-focus-hide]{display:none!important}
           .reader-root[data-hide-decor] h3 svg,.reader-root[data-hide-decor] [data-decor]{display:none}
         `}</style>
         {/* 1 · Sticky reader header */}
@@ -345,6 +316,16 @@ export function VerseReader(props: VerseReaderProps) {
 
             <button type="button" data-focus-hide onClick={onBookmark} aria-pressed={saved} aria-label={saved ? 'Remove bookmark' : 'Bookmark this verse'} className={`${iconBtn} ${saved ? '!border-saffron-600 !text-saffron-800 dark:!text-saffron-300' : ''}`}>
               {saved ? <BookmarkCheck className="h-4 w-4" aria-hidden="true" /> : <Bookmark className="h-4 w-4" aria-hidden="true" />}
+            </button>
+            <button
+              type="button"
+              onClick={() => update('liteMode', !settings.liteMode)}
+              aria-pressed={settings.liteMode}
+              aria-label={settings.liteMode ? 'Exit reading lite mode' : 'Reading Lite Mode (विशुद्ध पाठ)'}
+              title={settings.liteMode ? 'Exit reading lite mode' : 'Reading Lite Mode (विशुद्ध पाठ)'}
+              className={`${iconBtn} ${settings.liteMode ? '!border-saffron-600 !text-saffron-800 dark:!text-saffron-300' : ''}`}
+            >
+              <span className="font-serif text-[11px] font-bold">LITE</span>
             </button>
             <button type="button" onClick={() => update('focusMode', !settings.focusMode)} aria-pressed={settings.focusMode} aria-label={settings.focusMode ? 'Exit focus mode' : 'Enter focus mode'} className={`${iconBtn} ${settings.focusMode ? '!border-saffron-600 !text-saffron-800 dark:!text-saffron-300' : ''}`}>
               <Focus className="h-4 w-4" aria-hidden="true" />
@@ -454,14 +435,6 @@ export function VerseReader(props: VerseReaderProps) {
           {/* Actions */}
           {/* One swipeable row on phones keeps the verse near the top; it wraps from sm up. */}
           <div role="toolbar" aria-label="Verse actions" data-focus-hide className="-mx-4 mb-6 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0 sm:pb-0">
-            <button type="button" onClick={() => onSpeak('normal')} aria-pressed={speaking === 'normal'} disabled={!canSpeak} className={actionBtn} title="Uses your device's speech voice">
-              {speaking === 'normal' ? <Pause className="h-4 w-4" aria-hidden="true" /> : <Volume2 className="h-4 w-4 text-saffron-700 dark:text-saffron-300" aria-hidden="true" />}
-              {speaking === 'normal' ? 'Stop' : 'Listen'}
-            </button>
-            <button type="button" onClick={() => onSpeak('slow')} aria-pressed={speaking === 'slow'} disabled={!canSpeak} className={actionBtn} title="Slow pronunciation (0.7×), uses your device's speech voice">
-              {speaking === 'slow' ? <Pause className="h-4 w-4" aria-hidden="true" /> : <Volume1 className="h-4 w-4 text-saffron-700 dark:text-saffron-300" aria-hidden="true" />}
-              {speaking === 'slow' ? 'Stop' : 'Slow'}
-            </button>
             <button type="button" onClick={onBookmark} aria-pressed={saved} className={actionBtn}>
               {saved ? <BookmarkCheck className="h-4 w-4" aria-hidden="true" /> : <Bookmark className="h-4 w-4" aria-hidden="true" />}
               {saved ? 'Saved' : 'Save'}
@@ -536,7 +509,15 @@ export function VerseReader(props: VerseReaderProps) {
           </div>
 
           {/* 4 · The layers */}
-          <ReaderLayers scriptureId={scriptureId} verse={verse} chapterId={chapterId} provenance={provenance} settings={settings} onReport={() => setDialog('report')} />
+          <ReaderLayers
+            scriptureId={scriptureId}
+            verse={verse}
+            chapterId={chapterId}
+            provenance={provenance}
+            settings={settings}
+            onReport={() => setDialog('report')}
+            onUpdateSetting={update}
+          />
 
           {noteText && (
             <section aria-label="Your private note" className="mt-5 rounded-2xl border border-dashed border-dharma-border bg-dharma-card/60 p-4">

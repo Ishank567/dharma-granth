@@ -13,7 +13,7 @@ interface Props {
   chapterId: number;
   /** Dedicated verse URL, when this scripture has verse pages. */
   href?: string;
-  /** Bookmark, listen, and the rest. Chapter pages leave this empty. */
+  /** Bookmark and the rest. Chapter pages leave this empty. */
   actions?: ReactNode;
 }
 
