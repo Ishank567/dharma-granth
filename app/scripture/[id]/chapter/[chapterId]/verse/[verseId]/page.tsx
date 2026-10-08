@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { ChapterVisitRecorder } from '@/app/components/ChapterVisitRecorder';
 import { RelatedTeachings } from '@/app/components/study/RelatedTeachings';
 import { NextTeachings, type NextCandidate } from '@/app/components/study/NextTeachings';
+import { VerseDiagrams } from '@/app/components/study/VerseDiagram';
 import { ReviewRequiredNotice } from '@/app/components/study/ReviewRequiredNotice';
 import { CONNECTIONS, verseKey } from '@/data/study-content';
 import { VerseRelatedSection } from '@/app/components/VerseRelatedSection';
@@ -334,6 +335,7 @@ export default function VersePage({ params }: PageProps) {
             pageUrl={pageUrl}
           />
         )}
+        <VerseDiagrams scriptureId={meta.id} chapter={chapterId} verse={params.verseId} />
         {!pedagogical && !explanation && <ReviewRequiredNotice className="mt-8" />}
         <TrustBadges
           className="mt-8"
