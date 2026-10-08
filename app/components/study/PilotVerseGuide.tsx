@@ -11,8 +11,10 @@ function status(g: NonNullable<ReturnType<typeof getPilotGuide>>) {
       : 'Draft, not reviewed';
 }
 
-/** Context panel and common-misunderstanding card for the Chapter 2 pilot verses. Renders nothing elsewhere. */
-export function PilotVerseGuide({ scriptureId, chapter, verse }: { scriptureId: string; chapter: number; verse: number | string }) {
+type Props = { scriptureId: string; chapter: number; verse: number | string };
+
+/** Passage context for the Chapter 2 pilot verses. Renders nothing elsewhere. */
+export function PilotContext({ scriptureId, chapter, verse }: Props) {
   const g = getPilotGuide(scriptureId, chapter, verse);
   if (!g) return null;
   const chapterHref = `/scripture/${g.scriptureId}/chapter/${g.chapter}`;
@@ -22,8 +24,7 @@ export function PilotVerseGuide({ scriptureId, chapter, verse }: { scriptureId: 
     { id: 'after', title: 'After this verse', text: g.after },
   ];
   return (
-    <>
-      <section aria-labelledby="ctx-h" className="mt-8 rounded-2xl border border-dharma-border bg-dharma-card p-4 sm:p-5">
+    <section aria-labelledby="ctx-h" className="mt-8 rounded-2xl border border-dharma-border bg-dharma-card p-4 sm:p-5">
         <div className="flex flex-wrap items-center gap-2">
           <h2 id="ctx-h" className="font-serif text-lg font-bold text-dharma-text">Context</h2>
           <span className={`${label} border-sky-600/40 bg-sky-100 text-sky-950 dark:bg-sky-900/40 dark:text-sky-100`}>Editorial content</span>
@@ -47,8 +48,16 @@ export function PilotVerseGuide({ scriptureId, chapter, verse }: { scriptureId: 
             Read the full passage: verses {g.chapter}.{g.passage.from} to {g.chapter}.{g.passage.to}
           </Link>
         </p>
-      </section>
+    </section>
+  );
+}
 
+/** Common-misunderstanding card for the Chapter 2 pilot verses. */
+export function PilotMisunderstanding({ scriptureId, chapter, verse }: Props) {
+  const g = getPilotGuide(scriptureId, chapter, verse);
+  if (!g) return null;
+  const chapterHref = `/scripture/${g.scriptureId}/chapter/${g.chapter}`;
+  return (
       <section aria-labelledby="mis-h" className="mt-6 rounded-2xl border border-amber-600/30 bg-amber-50/60 p-4 dark:border-amber-500/25 dark:bg-amber-950/20 sm:p-5">
         <div className="flex flex-wrap items-center gap-2">
           <h2 id="mis-h" className="font-serif text-lg font-bold text-dharma-text">A common misunderstanding</h2>
@@ -71,6 +80,5 @@ export function PilotVerseGuide({ scriptureId, chapter, verse }: { scriptureId: 
           </Link>
         </p>
       </section>
-    </>
   );
 }

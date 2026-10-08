@@ -1,6 +1,6 @@
 'use client';
 
-import { useRef, type KeyboardEvent } from 'react';
+import { useRef, type KeyboardEvent, type ReactNode } from 'react';
 import type { PedagogicalVerseData } from '@/data/pedagogical-gita-2-47';
 import type { UnderstandingExtras } from '@/data/understanding';
 import { useReaderSettings } from '@/lib/useReaderSettings';
@@ -52,6 +52,7 @@ export function UnderstandPanel({
   previousHref,
   nextHref,
   pageUrl,
+  contextSlot,
 }: {
   data: PedagogicalVerseData;
   extras?: UnderstandingExtras;
@@ -62,6 +63,8 @@ export function UnderstandPanel({
   previousHref?: string;
   nextHref?: string;
   pageUrl: string;
+  /** Rendered between the mode selector and the explanation (the passage context). */
+  contextSlot?: ReactNode;
 }) {
   const { settings, update, reducedMotion } = useReaderSettings();
   const mode: Mode = settings.readerMode;
@@ -85,7 +88,7 @@ export function UnderstandPanel({
 
   const c = data.traditionalCommentary;
   const s = data.sourceTransparency;
-  const commentators = [c.shankara, c.ramanuja, c.sridhara];
+  const commentators = c ? [c.shankara, c.ramanuja, c.sridhara] : [];
 
   return (
     <section id="understand-h" aria-labelledby="understand-title" data-calm={reducedMotion ? '' : undefined} className="mt-8">
@@ -129,6 +132,8 @@ export function UnderstandPanel({
       <div className="mt-3">
         <ShareCardButton sanskrit={data.sanskrit} reference={reference} referenceSanskrit={data.scriptureTitleSanskrit} meaning={data.inOneLineEn} translation={translation} translationIsAi={translationIsAi} url={pageUrl} />
       </div>
+
+      {contextSlot}
 
       <div role="tabpanel" id="mode-panel" aria-labelledby={`mode-${mode}`} className="mt-4 space-y-4" key={mode}>
         {mode === 'quick' && (
@@ -248,6 +253,11 @@ export function UnderstandPanel({
                 Sandhi separation and a full grammar table are not yet prepared for this verse. The verse above is the verified text.
               </p>
             </ExplainCard>
+            {commentators.length === 0 && (
+              <ExplainCard kind="commentary" title="Traditional commentary" label="traditional">
+                <p className="text-sm text-dharma-muted">No reviewed commentary summary has been added for this verse yet. Nothing is shown rather than an unchecked summary.</p>
+              </ExplainCard>
+            )}
             {commentators.map((x) => (
               <ExplainCard key={x.author} kind="commentary" title={x.author} label="traditional">
                 <p className="text-sm text-dharma-muted">{x.tradition} · <span className="italic">{x.work}</span></p>
