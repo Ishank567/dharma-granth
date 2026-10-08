@@ -39,3 +39,14 @@ export function restoreBackup(raw: string, storage: Storage = window.localStorag
   }
   return written;
 }
+
+/** Removes every key this site stores in the browser. Returns how many were removed. */
+export function clearOwnData(storage: Storage = window.localStorage): number {
+  const keys: string[] = [];
+  for (let i = 0; i < storage.length; i++) {
+    const key = storage.key(i);
+    if (key && isOwnKey(key)) keys.push(key);
+  }
+  keys.forEach((k) => storage.removeItem(k));
+  return keys.length;
+}
