@@ -58,3 +58,15 @@ No existing key changes. New keys: `dharma.starthere.v1`. Reading history, colle
 Phase 1 (this pass): Start Here, chapter orientation, visual verse demonstrations, review-badge registry, search review. Phase 2: five-minute session (another contributor is building `/daily`), concept explorer completion (Jnana, typed relationships), comparison polish, desk. Phase 3: commentary comparison data, story labels, offline reading, optional human media, 3D repositioning.
 
 Note on `/start`: another contributor is rewriting `/start` with five questions. This brief asks for four. `/start-here` is added so as not to overwrite their uncommitted work; the two should be merged into one.
+
+## Phase 1 results (2026-10-08)
+
+| Item | Result |
+|---|---|
+| Start Here | Built at `/start-here`: four questions, seven paths, reason shown, reset, local storage notice. All 128 answer combinations tested; every linked page exists. |
+| Chapter orientation | Built for Gita chapters 1, 2, 3, 4, 6, 12 and 18 (drafts), with prerequisite concepts and a Begin reading action. `npm run check:orientation` verifies the important verses. |
+| Visual verse demonstrations | Component and seven kinds built; three drafts ship (2.47, 2.62 to 2.63, 6.16 to 6.17). `npm run check:diagrams` verifies source verses and that the text alternative covers every item. None is reviewed, and the page says so. |
+| Search | Already had recent searches with delete, suggestions, typo correction, no-results recovery and announcements. Added: a review chip on every result. |
+| Source and review panels | Added review badges driven by recorded reviews (`lib/review-badges.ts`, `data/review-records.ts`). No review is recorded, so no "reviewed" or "verified" badge appears anywhere. |
+
+Not done in this phase: nothing else from Phases 2 and 3. No audio work was done. Open for a decision: the existing device-speech controls and `/listen` (see section 1).
