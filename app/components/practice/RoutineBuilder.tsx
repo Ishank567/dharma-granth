@@ -63,7 +63,7 @@ export function RoutineBuilder() {
   return (
     <ToolCard icon={<ListChecks className="w-5 h-5" />} title="My Routine" titleHindi="मेरा दैनिक क्रम" accent="emerald">
       <div className="flex flex-col gap-4">
-        <p className="text-xs text-dharma-muted">
+        <p className="text-sm text-dharma-muted">
           Build a routine that fits your day. Tick what you did; nothing is scored, and an unticked day is just a quiet day.
           Stored only in this browser.
         </p>
@@ -73,7 +73,7 @@ export function RoutineBuilder() {
             <p>No steps yet. Start with one small thing.</p>
             <div className="mt-3 flex flex-wrap justify-center gap-2">
               {SUGGESTIONS.map((s) => (
-                <button key={s} type="button" onClick={() => addStep(s)} className="min-h-[44px] rounded-full border border-dharma-border px-3 text-xs font-semibold hover:border-saffron-300">
+                <button key={s} type="button" onClick={() => addStep(s)} className="min-h-[44px] rounded-full border border-dharma-border px-3 text-sm font-semibold hover:border-saffron-300">
                   + {s}
                 </button>
               ))}
@@ -85,7 +85,7 @@ export function RoutineBuilder() {
             if (list.length === 0) return null;
             return (
               <div key={sl.id}>
-                <h4 className="mb-1 text-xs font-bold uppercase tracking-wide text-dharma-muted">
+                <h4 className="mb-1 text-sm font-bold uppercase tracking-wide text-dharma-muted">
                   {sl.en} · <span lang="hi" className="font-devanagari normal-case">{sl.hi}</span>
                 </h4>
                 <ul className="space-y-1.5">
@@ -94,7 +94,7 @@ export function RoutineBuilder() {
                       <label className="flex min-h-[44px] flex-1 cursor-pointer items-center gap-3 text-sm text-dharma-text">
                         <input type="checkbox" checked={doneToday.includes(s.id)} onChange={() => toggle(s.id)} className="h-5 w-5 accent-emerald-600" />
                         <span className={doneToday.includes(s.id) ? 'text-dharma-muted line-through decoration-1' : ''}>{s.label}</span>
-                        <span className="ml-auto text-xs text-dharma-muted">{s.minutes} min</span>
+                        <span className="ml-auto text-sm text-dharma-muted">{s.minutes} min</span>
                       </label>
                       <button type="button" onClick={() => removeStep(s.id)} aria-label={`Remove ${s.label}`} className="flex h-11 w-11 items-center justify-center rounded-lg text-dharma-muted hover:text-rose-600">
                         <Trash2 className="h-4 w-4" aria-hidden="true" />
@@ -111,17 +111,17 @@ export function RoutineBuilder() {
           onSubmit={(e) => { e.preventDefault(); addStep(label); }}
           className="flex flex-wrap items-end gap-2 border-t border-dharma-border/60 pt-3"
         >
-          <label className="min-w-[10rem] flex-1 text-xs font-semibold text-dharma-muted">
+          <label className="min-w-[10rem] flex-1 text-sm font-semibold text-dharma-muted">
             New step
             <input value={label} onChange={(e) => setLabel(e.target.value)} maxLength={80} className="mt-1 block min-h-[44px] w-full rounded-xl border border-dharma-border bg-dharma-bg px-3 text-sm text-dharma-text" />
           </label>
-          <label className="text-xs font-semibold text-dharma-muted">
+          <label className="text-sm font-semibold text-dharma-muted">
             When
             <select value={slot} onChange={(e) => setSlot(e.target.value as Slot)} className="mt-1 block min-h-[44px] rounded-xl border border-dharma-border bg-dharma-bg px-2 text-sm text-dharma-text">
               {SLOTS.map((s) => <option key={s.id} value={s.id}>{s.en}</option>)}
             </select>
           </label>
-          <label className="text-xs font-semibold text-dharma-muted">
+          <label className="text-sm font-semibold text-dharma-muted">
             Minutes
             <input type="number" min={1} max={180} value={minutes} onChange={(e) => setMinutes(Math.min(180, Math.max(1, Number(e.target.value) || 1)))} className="mt-1 block min-h-[44px] w-20 rounded-xl border border-dharma-border bg-dharma-bg px-2 text-sm text-dharma-text" />
           </label>
@@ -131,7 +131,7 @@ export function RoutineBuilder() {
         </form>
 
         {steps.length > 0 && (
-          <p role="status" className="text-xs text-dharma-muted">
+          <p role="status" className="text-sm text-dharma-muted">
             Today: {doneToday.filter((id) => steps.some((s) => s.id === id)).length} of {steps.length} steps.
             {daysThisMonth > 0 && ` You followed your routine on ${daysThisMonth} ${daysThisMonth === 1 ? 'day' : 'days'} this month.`}
           </p>

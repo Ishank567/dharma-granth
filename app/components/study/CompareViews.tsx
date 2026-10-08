@@ -73,7 +73,7 @@ export function CompareViews({ verse, provenance: p }: { verse: ReaderVerseText;
     v && (
       <div className="min-w-0 rounded-xl border border-dharma-border bg-dharma-card p-3">
         <h4 className="text-sm font-bold text-dharma-text">{v.label}</h4>
-        <p className="mb-2 text-xs text-dharma-muted">{v.source}</p>
+        <p className="mb-2 text-sm text-dharma-muted">{v.source}</p>
         <ol lang={v.lang} className={`space-y-1 ${v.devanagari ? 'font-devanagari text-lg leading-[2]' : 'font-serif text-base leading-relaxed'}`}>
           {v.lines.map((line, i) => (
             <li key={i} className="list-none">
@@ -99,7 +99,7 @@ export function CompareViews({ verse, provenance: p }: { verse: ReaderVerseText;
     );
 
   const select = (side: 'l' | 'r', value: ViewId | '', label: string) => (
-    <label className="text-xs font-semibold text-dharma-muted">
+    <label className="text-sm font-semibold text-dharma-muted">
       {label}
       <select
         value={value}
@@ -118,7 +118,7 @@ export function CompareViews({ verse, provenance: p }: { verse: ReaderVerseText;
       <h3 id="compare-h" className="font-serif text-lg font-bold text-dharma-text">
         Compare views <span lang="hi" className="font-devanagari text-sm font-normal text-dharma-muted">· दो रूपों की तुलना</span>
       </h3>
-      <p className="mt-1 text-xs text-dharma-muted">Choose any two. {aligned ? 'Matching lines are marked when you point at or focus on one.' : 'These two have different line counts, so lines are not paired.'}</p>
+      <p className="mt-1 text-sm text-dharma-muted">Choose any two. {aligned ? 'Matching lines are marked when you point at or focus on one.' : 'These two have different line counts, so lines are not paired.'}</p>
       <div className="mt-3 grid gap-3 sm:grid-cols-2">
         {select('l', left, 'First view')}
         {select('r', right, 'Second view')}

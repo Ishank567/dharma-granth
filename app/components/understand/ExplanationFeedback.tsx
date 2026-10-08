@@ -108,10 +108,10 @@ export function ExplanationFeedback({ refKey, reference }: { refKey: string; ref
 
       {(rating === 'partly' || rating === 'no') && !sent && (
         <fieldset className="mt-3">
-          <legend className="text-xs font-semibold text-dharma-muted">What could be better? (optional)</legend>
+          <legend className="text-sm font-semibold text-dharma-muted">What could be better? (optional)</legend>
           <div className="mt-2 flex flex-wrap gap-2">
             {REASONS.map((r) => (
-              <label key={r} className="focus-within:ring-2 flex min-h-[44px] cursor-pointer items-center gap-2 rounded-xl border border-dharma-border bg-dharma-card px-3 text-xs">
+              <label key={r} className="focus-within:ring-2 flex min-h-[44px] cursor-pointer items-center gap-2 rounded-xl border border-dharma-border bg-dharma-card px-3 text-sm">
                 <input type="checkbox" checked={reasons.includes(r)} onChange={() => toggleReason(r)} className="h-4 w-4 accent-saffron-700" />
                 {r}
               </label>
@@ -121,14 +121,14 @@ export function ExplanationFeedback({ refKey, reference }: { refKey: string; ref
             Send feedback
           </button>
           {reasons.includes('Possible textual error') && (
-            <p className="mt-2 text-xs text-dharma-muted">
+            <p className="mt-2 text-sm text-dharma-muted">
               To report a mistake in the verse or translation itself, use <strong>Report correction</strong> at the top of this page. Clarity feedback does not start a correction.
             </p>
           )}
         </fieldset>
       )}
 
-      <p role="status" aria-live="polite" className="mt-2 min-h-[1.25rem] text-xs text-dharma-muted">
+      <p role="status" aria-live="polite" className="mt-2 min-h-[1.25rem] text-sm text-dharma-muted">
         {sent && storageOk && `Thank you. Your answer for ${reference} is saved on this device only; no account or personal details are used.`}
         {sent && !storageOk && 'Thank you. Your browser blocked storage, so this answer was not saved.'}
       </p>

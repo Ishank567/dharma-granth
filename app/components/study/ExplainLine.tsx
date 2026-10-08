@@ -71,7 +71,7 @@ export function ExplainLine({ scriptureId, chapterId, verseNumber, lines, scopeI
 
   return (
     <div className="mt-4 border-t border-amber-700/20 pt-3 text-center">
-      <p className="text-xs font-semibold text-dharma-muted">
+      <p className="text-sm font-semibold text-dharma-muted">
         Explain this line <span lang="hi" className="font-devanagari font-normal">· इस पंक्ति को सरल भाषा में समझें</span>
       </p>
       <div className="mt-2 flex flex-wrap justify-center gap-2">
@@ -104,7 +104,7 @@ export function ExplainLine({ scriptureId, chapterId, verseNumber, lines, scopeI
         {selected && (
           <div className="space-y-4 text-left text-sm text-dharma-text">
             <section aria-labelledby="el-sel">
-              <h3 id="el-sel" className="text-xs font-bold uppercase tracking-wide text-dharma-muted">Selected text · original scripture</h3>
+              <h3 id="el-sel" className="text-sm font-bold uppercase tracking-wide text-dharma-muted">Selected text · original scripture</h3>
               <p lang="sa" className="mt-1 rounded-xl border-2 border-amber-700/35 bg-amber-50/70 p-3 text-center font-devanagari text-xl font-semibold dark:bg-amber-950/25">
                 {selected.text}
               </p>
@@ -113,14 +113,14 @@ export function ExplainLine({ scriptureId, chapterId, verseNumber, lines, scopeI
             {verified ? (
               <>
                 <section aria-labelledby="el-simple">
-                  <h3 id="el-simple" className="text-xs font-bold uppercase tracking-wide text-dharma-muted">Simple meaning · editorial</h3>
-                  {partial && <p className="mt-1 text-xs text-dharma-muted">This explains the whole line that contains your selection.</p>}
+                  <h3 id="el-simple" className="text-sm font-bold uppercase tracking-wide text-dharma-muted">Simple meaning · editorial</h3>
+                  {partial && <p className="mt-1 text-sm text-dharma-muted">This explains the whole line that contains your selection.</p>}
                   <p className="mt-1">{verified.simpleEn}</p>
                   <p lang="hi" className="font-devanagari text-dharma-muted">{verified.simpleHi}</p>
                 </section>
                 {verified.terms.length > 0 && (
                   <section aria-labelledby="el-terms">
-                    <h3 id="el-terms" className="text-xs font-bold uppercase tracking-wide text-dharma-muted">Important terms</h3>
+                    <h3 id="el-terms" className="text-sm font-bold uppercase tracking-wide text-dharma-muted">Important terms</h3>
                     <dl className="mt-1 space-y-1">
                       {verified.terms.map((t) => (
                         <div key={t.iast}>
@@ -132,10 +132,10 @@ export function ExplainLine({ scriptureId, chapterId, verseNumber, lines, scopeI
                   </section>
                 )}
                 <section aria-labelledby="el-ctx">
-                  <h3 id="el-ctx" className="text-xs font-bold uppercase tracking-wide text-dharma-muted">Context</h3>
+                  <h3 id="el-ctx" className="text-sm font-bold uppercase tracking-wide text-dharma-muted">Context</h3>
                   <p className="mt-1">{verified.context}</p>
                 </section>
-                <p className="rounded-lg bg-sky-50 px-3 py-2 text-xs text-sky-950 dark:bg-sky-950/30 dark:text-sky-100">
+                <p className="rounded-lg bg-sky-50 px-3 py-2 text-sm text-sky-950 dark:bg-sky-950/30 dark:text-sky-100">
                   Editorial explanation, not scripture. Status: {REVIEW_LABEL[verified.review]}.
                 </p>
               </>
@@ -149,7 +149,7 @@ export function ExplainLine({ scriptureId, chapterId, verseNumber, lines, scopeI
             )}
 
             <section aria-labelledby="el-whole">
-              <h3 id="el-whole" className="text-xs font-bold uppercase tracking-wide text-dharma-muted">In the complete verse · {verseLabel}</h3>
+              <h3 id="el-whole" className="text-sm font-bold uppercase tracking-wide text-dharma-muted">In the complete verse · {verseLabel}</h3>
               <ol lang="sa" className="mt-1 space-y-0.5 font-devanagari">
                 {lines.map((l, i) => (
                   <li key={i} className={i === selected.index ? 'rounded bg-amber-100 px-1 font-semibold dark:bg-amber-900/40' : 'px-1 text-dharma-muted'}>

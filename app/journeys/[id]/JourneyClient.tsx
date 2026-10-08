@@ -52,13 +52,13 @@ export function JourneyClient({ journey, lessons }: { journey: ReadingJourney; l
 
               {l.sanskrit ? (
                 <figure className="mt-3 rounded-xl border-2 border-amber-700/35 bg-amber-50/70 p-4 dark:border-amber-500/30 dark:bg-amber-950/25">
-                  <figcaption className="mb-1 text-xs font-bold uppercase tracking-wide text-amber-900 dark:text-amber-200">Original scripture</figcaption>
+                  <figcaption className="mb-1 text-sm font-bold uppercase tracking-wide text-amber-900 dark:text-amber-200">Original scripture</figcaption>
                   <p lang="sa" className="text-center font-devanagari text-2xl font-semibold leading-[2.05] text-dharma-text">
                     {verseLines(cleanVerseField(l.sanskrit)).map((line, k) => <span key={k} className="block">{line}</span>)}
                   </p>
                   {l.translation && (
                     <p lang="en" className="mt-2 border-t border-amber-700/20 pt-2 font-serif text-dharma-text">
-                      <span className="mr-2 text-xs font-bold uppercase tracking-wide text-dharma-muted">Literal translation{l.translationIsAi ? ' (AI translation, not a scholarly edition)' : ''}</span>
+                      <span className="mr-2 text-sm font-bold uppercase tracking-wide text-dharma-muted">Literal translation{l.translationIsAi ? ' (AI translation, not a scholarly edition)' : ''}</span>
                       {cleanVerseField(l.translation)}
                     </p>
                   )}
@@ -69,7 +69,7 @@ export function JourneyClient({ journey, lessons }: { journey: ReadingJourney; l
 
               <div className="mt-3 space-y-3 text-sm">
                 <section aria-label="Context"><h3 className="font-semibold text-dharma-text">Context</h3><p className="text-dharma-muted">{l.context}</p></section>
-                <section aria-label="Simple explanation" className="border-l-4 border-sky-600 pl-3"><h3 className="font-semibold text-dharma-text">Simple explanation <span className="text-xs font-normal text-dharma-muted">(editorial, not scripture)</span></h3><p>{l.explanation}</p></section>
+                <section aria-label="Simple explanation" className="border-l-4 border-sky-600 pl-3"><h3 className="font-semibold text-dharma-text">Simple explanation <span className="text-sm font-normal text-dharma-muted">(editorial, not scripture)</span></h3><p>{l.explanation}</p></section>
                 <section aria-label="Reflection"><h3 className="font-semibold text-dharma-text">Pause and think</h3><p>{l.reflection}</p></section>
                 {l.activity && <section aria-label="Optional activity"><h3 className="font-semibold text-dharma-text">Optional activity</h3><p className="text-dharma-muted">{l.activity}</p></section>}
               </div>

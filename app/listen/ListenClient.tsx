@@ -173,13 +173,13 @@ export function ListenClient() {
           )}
 
           <section aria-label="Current verse" className="mt-4 rounded-2xl border-2 border-amber-700/35 bg-amber-50/70 p-5 dark:border-amber-500/30 dark:bg-amber-950/25">
-            <p className="text-xs font-bold uppercase tracking-wide text-amber-900 dark:text-amber-200">Original scripture · verse {String(verse.number)} of {verses.length}</p>
+            <p className="text-sm font-bold uppercase tracking-wide text-amber-900 dark:text-amber-200">Original scripture · verse {String(verse.number)} of {verses.length}</p>
             <p lang="sa" className="mt-2 text-center font-devanagari text-2xl font-semibold leading-[2.05] text-dharma-text">
               {lines.map((line, k) => (
                 <span key={k} aria-current={activeLine === k ? 'true' : undefined} className={`block rounded px-2 ${activeLine === k ? 'bg-amber-200/80 dark:bg-amber-800/50' : ''}`}>{line}</span>
               ))}
             </p>
-            {activeWord !== null && <p role="status" className="mt-1 text-center text-xs text-dharma-muted">Word {activeWord + 1}</p>}
+            {activeWord !== null && <p role="status" className="mt-1 text-center text-sm text-dharma-muted">Word {activeWord + 1}</p>}
             {narration !== 'none' && (
               <p lang={narration === 'hindi' ? 'hi' : 'en'} aria-current={activeLine === 'meaning' ? 'true' : undefined} className={`mt-3 rounded border-t border-amber-700/20 px-2 pt-2 ${narration === 'hindi' ? 'font-devanagari' : 'font-serif'} ${activeLine === 'meaning' ? 'bg-amber-100 dark:bg-amber-900/40' : ''}`}>
                 {cleanVerseField(narration === 'hindi' ? verse.hindi : verse.translation)}
@@ -197,7 +197,7 @@ export function ListenClient() {
               </button>
               <button type="button" onClick={() => jump(index + 1)} disabled={index >= verses.length - 1} className={btn} aria-label="Next verse">Next <SkipForward className="h-4 w-4" aria-hidden="true" /></button>
               <button type="button" onClick={wordByWord} disabled={!supported} className={btn}>Word by word</button>
-              <label className="ml-auto text-xs font-semibold text-dharma-muted">
+              <label className="ml-auto text-sm font-semibold text-dharma-muted">
                 Verse
                 <select value={index} onChange={(e) => jump(Number(e.target.value))} className="ml-2 min-h-[44px] rounded-xl border border-dharma-border bg-dharma-bg px-2 text-sm text-dharma-text">
                   {verses.map((v, i) => <option key={i} value={i}>{String(v.number)}</option>)}
@@ -205,19 +205,19 @@ export function ListenClient() {
               </label>
             </div>
 
-            <fieldset><legend className="text-xs font-semibold text-dharma-muted">Speed (0.7 is slow pronunciation)</legend>
+            <fieldset><legend className="text-sm font-semibold text-dharma-muted">Speed (0.7 is slow pronunciation)</legend>
               <div className="mt-1 flex flex-wrap gap-2">{SPEEDS.map((s) => <button key={s} type="button" aria-pressed={speed === s} onClick={() => setSpeed(s)} className={chip(speed === s)}>{s}×</button>)}</div></fieldset>
-            <fieldset><legend className="text-xs font-semibold text-dharma-muted">Also read the meaning</legend>
+            <fieldset><legend className="text-sm font-semibold text-dharma-muted">Also read the meaning</legend>
               <div className="mt-1 flex flex-wrap gap-2">
                 {(['none', 'hindi', 'english'] as const).map((n) => <button key={n} type="button" aria-pressed={narration === n} onClick={() => setNarration(n)} className={chip(narration === n)}>{n === 'none' ? 'Sanskrit only' : n === 'hindi' ? 'Hindi translation' : 'English translation'}</button>)}
               </div></fieldset>
             <div className="flex flex-wrap gap-6">
-              <fieldset><legend className="text-xs font-semibold text-dharma-muted">Repeat each verse</legend>
+              <fieldset><legend className="text-sm font-semibold text-dharma-muted">Repeat each verse</legend>
                 <div className="mt-1 flex gap-2">{REPEATS.map((r) => <button key={r} type="button" aria-pressed={repeat === r} onClick={() => setRepeat(r)} className={chip(repeat === r)}>{r}×</button>)}</div></fieldset>
-              <fieldset><legend className="text-xs font-semibold text-dharma-muted">Sleep timer</legend>
+              <fieldset><legend className="text-sm font-semibold text-dharma-muted">Sleep timer</legend>
                 <div className="mt-1 flex gap-2">{SLEEP.map((m) => <button key={m} type="button" aria-pressed={sleepMin === m} onClick={() => setSleepMin(m)} className={chip(sleepMin === m)}>{m === 0 ? 'Off' : `${m} min`}</button>)}</div></fieldset>
             </div>
-            <p role="status" className="text-xs text-dharma-muted">{playing ? `Playing verse ${String(verse.number)}.` : 'Stopped.'}{sleepMin > 0 && playing ? ` Stops after ${sleepMin} minutes.` : ''}</p>
+            <p role="status" className="text-sm text-dharma-muted">{playing ? `Playing verse ${String(verse.number)}.` : 'Stopped.'}{sleepMin > 0 && playing ? ` Stops after ${sleepMin} minutes.` : ''}</p>
           </section>
 
           <section aria-labelledby="queue-h" className="mt-6">

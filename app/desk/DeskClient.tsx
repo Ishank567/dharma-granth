@@ -52,7 +52,7 @@ function Section({ id, title, titleHi, children }: { id: string; title: string; 
   );
 }
 
-const small = 'focus-ring inline-flex min-h-[44px] min-w-[44px] items-center justify-center gap-1 rounded-lg border border-dharma-border px-3 text-xs font-semibold text-dharma-text hover:border-saffron-400';
+const small = 'focus-ring inline-flex min-h-[44px] min-w-[44px] items-center justify-center gap-1 rounded-lg border border-dharma-border px-3 text-sm font-semibold text-dharma-text hover:border-saffron-400';
 const empty = (text: string) => <p className="text-dharma-muted">{text}</p>;
 
 export function DeskClient() {
@@ -184,7 +184,7 @@ export function DeskClient() {
         <p className="mt-2 text-sm text-dharma-muted">
           <strong className="text-dharma-text">Stored only in this browser.</strong> No account, nothing uploaded. Clearing your browser data, or using another device, will not carry this over unless you export a backup. Notes are never shared by the share buttons.
         </p>
-        <p className="mt-2 inline-flex items-center gap-2 rounded-full border border-dharma-border px-3 py-1 text-xs text-dharma-muted" role="status">
+        <p className="mt-2 inline-flex items-center gap-2 rounded-full border border-dharma-border px-3 py-1 text-sm text-dharma-muted" role="status">
           {online ? <Wifi className="h-3.5 w-3.5" aria-hidden="true" /> : <WifiOff className="h-3.5 w-3.5" aria-hidden="true" />}
           {online ? 'Online' : 'Offline mode active: your saved items are still here.'}
         </p>
@@ -196,13 +196,13 @@ export function DeskClient() {
         <section aria-labelledby="lock-h" className="rounded-2xl border border-dharma-border bg-dharma-card p-5">
           <h2 id="lock-h" className="flex items-center gap-2 font-serif text-xl font-bold text-dharma-text"><Lock className="h-5 w-5" aria-hidden="true" /> Enter your PIN</h2>
           <form onSubmit={(e) => { e.preventDefault(); void unlock(); }} className="mt-3 flex flex-wrap items-end gap-2">
-            <label className="text-xs font-semibold text-dharma-muted">PIN
+            <label className="text-sm font-semibold text-dharma-muted">PIN
               <input type="password" inputMode="numeric" autoComplete="off" value={pinInput} onChange={(e) => setPinInput(e.target.value)} className="mt-1 block min-h-[44px] w-40 rounded-xl border border-dharma-border bg-dharma-bg px-3 text-dharma-text" />
             </label>
             <button type="submit" className="focus-ring min-h-[44px] rounded-xl bg-saffron-700 px-5 text-sm font-semibold text-white">Unlock</button>
           </form>
           {pinMsg && <p role="status" className="mt-2 text-sm text-dharma-muted">{pinMsg}</p>}
-          <p className="mt-3 text-xs text-dharma-muted">Forgot it? Clearing this site’s data in your browser settings removes the PIN and everything saved here.</p>
+          <p className="mt-3 text-sm text-dharma-muted">Forgot it? Clearing this site’s data in your browser settings removes the PIN and everything saved here.</p>
         </section>
       ) : (
         <>
@@ -300,7 +300,7 @@ export function DeskClient() {
               <button type="button" onClick={removePin} className={`${small} mt-2`}>Remove PIN</button>
             ) : (
               <form onSubmit={(e) => { e.preventDefault(); void savePin(); }} className="mt-2 flex flex-wrap items-end gap-2">
-                <label className="text-xs font-semibold text-dharma-muted">New PIN (4 to 8 digits)
+                <label className="text-sm font-semibold text-dharma-muted">New PIN (4 to 8 digits)
                   <input type="password" inputMode="numeric" autoComplete="new-password" value={newPin} onChange={(e) => setNewPin(e.target.value)} className="mt-1 block min-h-[44px] w-40 rounded-xl border border-dharma-border bg-dharma-bg px-3 text-dharma-text" />
                 </label>
                 <button type="submit" className="focus-ring min-h-[44px] rounded-xl bg-saffron-700 px-5 text-sm font-semibold text-white">Set PIN</button>

@@ -38,7 +38,7 @@ const readNotes = (): Note[] => {
 const sameNote = (n: Note, v: SavedVerse) => n.scriptureId === v.scriptureId && n.chapterId === (v.chapterId ?? 1) && String(n.verseId) === String(v.verseId);
 
 const btn =
-  'focus-ring inline-flex min-h-[44px] min-w-[44px] items-center justify-center gap-1 rounded-lg border border-dharma-border px-3 text-xs font-semibold text-dharma-text hover:border-saffron-400';
+  'focus-ring inline-flex min-h-[44px] min-w-[44px] items-center justify-center gap-1 rounded-lg border border-dharma-border px-3 text-sm font-semibold text-dharma-text hover:border-saffron-400';
 const field = 'mt-1 block min-h-[44px] w-full rounded-xl border border-dharma-border bg-dharma-bg px-3 text-sm text-dharma-text';
 
 /**
@@ -150,7 +150,7 @@ export function SavedCollections({ onChange, onQueue }: { onChange: () => void; 
     reset();
   };
 
-  const chip = (on: boolean) => `focus-ring min-h-[44px] rounded-full border px-3 text-xs font-semibold ${on ? 'border-saffron-700 bg-saffron-700 text-white' : 'border-dharma-border bg-dharma-card text-dharma-text hover:border-saffron-400'}`;
+  const chip = (on: boolean) => `focus-ring min-h-[44px] rounded-full border px-3 text-sm font-semibold ${on ? 'border-saffron-700 bg-saffron-700 text-white' : 'border-dharma-border bg-dharma-card text-dharma-text hover:border-saffron-400'}`;
 
   return (
     <div>
@@ -164,10 +164,10 @@ export function SavedCollections({ onChange, onQueue }: { onChange: () => void; 
       </div>
 
       <div className="mt-3 grid gap-2 sm:grid-cols-2">
-        <label className="text-xs font-semibold text-dharma-muted">Search saved verses
+        <label className="text-sm font-semibold text-dharma-muted">Search saved verses
           <input type="search" value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Words from the verse, translation or your note" className={field} />
         </label>
-        <label className="text-xs font-semibold text-dharma-muted">Scripture
+        <label className="text-sm font-semibold text-dharma-muted">Scripture
           <select value={scripture} onChange={(e) => setScripture(e.target.value)} className={field}>
             <option value="">All scriptures</option>
             {scriptures.map(([id, title]) => <option key={id} value={id}>{title}</option>)}
@@ -175,7 +175,7 @@ export function SavedCollections({ onChange, onQueue }: { onChange: () => void; 
         </label>
       </div>
 
-      <p role="status" aria-live="polite" className="mt-2 text-xs text-dharma-muted">
+      <p role="status" aria-live="polite" className="mt-2 text-sm text-dharma-muted">
         {shown.length === saved.length ? `${verseCount(saved.length)} saved.` : `${shown.length} of ${verseCount(saved.length)} shown.`}
       </p>
 
@@ -195,9 +195,9 @@ export function SavedCollections({ onChange, onQueue }: { onChange: () => void; 
                     <span className="font-semibold text-dharma-text">{v.scriptureTitle} {v.chapterId}.{v.verseId}</span>
                     <span lang="sa" className="block truncate font-devanagari text-dharma-muted">{v.sanskrit.split('\n')[0]}</span>
                   </Link>
-                  <label className="text-xs text-dharma-muted">
+                  <label className="text-sm text-dharma-muted">
                     <span className="sr-only">Move {v.scriptureTitle} {v.chapterId}.{v.verseId} to</span>
-                    <select value={collectionOf(state, v)} onChange={(e) => commit(moveVerse(state, v, e.target.value), 'Moved.')} className="min-h-[44px] rounded-lg border border-dharma-border bg-dharma-bg px-2 text-xs text-dharma-text">
+                    <select value={collectionOf(state, v)} onChange={(e) => commit(moveVerse(state, v, e.target.value), 'Moved.')} className="min-h-[44px] rounded-lg border border-dharma-border bg-dharma-bg px-2 text-sm text-dharma-text">
                       {state.collections.map((c) => <option key={c.id} value={c.id}>{c.name}</option>)}
                     </select>
                   </label>
@@ -207,10 +207,10 @@ export function SavedCollections({ onChange, onQueue }: { onChange: () => void; 
                   <button type="button" className={btn} onClick={() => { onQueue({ href: href(v), label: `${v.scriptureTitle} ${v.chapterId}.${v.verseId}` }); setMsg('Added to reading queue.'); }}>Queue</button>
                   <button type="button" className={btn} onClick={() => remove(v)} aria-label={`Remove ${v.scriptureTitle} ${v.chapterId}.${v.verseId}`}><Trash2 className="h-4 w-4" aria-hidden="true" /></button>
                 </div>
-                {note && editing !== key && <p className="mt-2 whitespace-pre-line border-l-4 border-dharma-border pl-3 text-dharma-text"><span className="text-xs font-semibold text-dharma-muted">Private note · </span>{note}</p>}
+                {note && editing !== key && <p className="mt-2 whitespace-pre-line border-l-4 border-dharma-border pl-3 text-dharma-text"><span className="text-sm font-semibold text-dharma-muted">Private note · </span>{note}</p>}
                 {editing === key && (
                   <div className="mt-2">
-                    <label className="text-xs font-semibold text-dharma-muted">Private note (stays on this device)
+                    <label className="text-sm font-semibold text-dharma-muted">Private note (stays on this device)
                       <textarea value={draft} onChange={(e) => setDraft(e.target.value)} rows={3} maxLength={2000} className={`${field} min-h-[88px]`} />
                     </label>
                     <div className="mt-2 flex gap-2">
@@ -226,34 +226,34 @@ export function SavedCollections({ onChange, onQueue }: { onChange: () => void; 
       )}
 
       <div className="mt-4 rounded-xl border border-dharma-border bg-dharma-bg p-3">
-        <h3 className="text-xs font-bold uppercase tracking-wide text-dharma-muted">Manage collections</h3>
+        <h3 className="text-sm font-bold uppercase tracking-wide text-dharma-muted">Manage collections</h3>
         <form className="mt-2 flex flex-wrap items-end gap-2" onSubmit={(e) => { e.preventDefault(); const r = createCollection(state, newName); if (r.error) setMsg(r.error); else { commit(r.state, `Collection “${newName.trim()}” created.`); setNewName(''); track('collection_created'); } }}>
-          <label className="min-w-[10rem] flex-1 text-xs font-semibold text-dharma-muted">New collection
+          <label className="min-w-[10rem] flex-1 text-sm font-semibold text-dharma-muted">New collection
             <input value={newName} onChange={(e) => setNewName(e.target.value)} maxLength={40} className={field} />
           </label>
           <button type="submit" className={btn}>Create</button>
         </form>
         {current && !current.builtin && (
           <form className="mt-2 flex flex-wrap items-end gap-2" onSubmit={(e) => { e.preventDefault(); const r = renameCollection(state, current.id, renameTo); if (r.error) setMsg(r.error); else commit(r.state, 'Renamed.'); }}>
-            <label className="min-w-[10rem] flex-1 text-xs font-semibold text-dharma-muted">Rename “{current.name}”
+            <label className="min-w-[10rem] flex-1 text-sm font-semibold text-dharma-muted">Rename “{current.name}”
               <input value={renameTo} onChange={(e) => setRenameTo(e.target.value)} maxLength={40} className={field} />
             </label>
             <button type="submit" className={btn}>Rename</button>
             <button type="button" className={btn} onClick={() => { if (window.confirm(`Delete the collection “${current.name}”? Its verses move to Read Later; no saved verse is lost.`)) { const r = deleteCollection(state, current.id); setActive(''); commit(r.state, 'Collection deleted.'); } }}>Delete collection</button>
           </form>
         )}
-        {current?.builtin && <p className="mt-2 text-xs text-dharma-muted">The five starting collections keep their names and cannot be deleted.</p>}
+        {current?.builtin && <p className="mt-2 text-sm text-dharma-muted">The five starting collections keep their names and cannot be deleted.</p>}
       </div>
 
       <div className="mt-3 flex flex-wrap items-center gap-2">
-        <label className="flex min-h-[44px] cursor-pointer items-center gap-2 text-xs text-dharma-text">
+        <label className="flex min-h-[44px] cursor-pointer items-center gap-2 text-sm text-dharma-text">
           <input type="checkbox" checked={withNotes} onChange={(e) => setWithNotes(e.target.checked)} className="h-5 w-5 accent-saffron-700" /> Include my private notes in the export
         </label>
         <button type="button" className={btn} onClick={download}><Download className="h-4 w-4" aria-hidden="true" /> Export saved verses</button>
         <button type="button" className={btn} onClick={() => file.current?.click()}><Upload className="h-4 w-4" aria-hidden="true" /> Import</button>
         <input ref={file} type="file" accept="application/json,.json" className="sr-only" tabIndex={-1} aria-hidden="true" onChange={(e) => void upload(e.target.files?.[0])} />
       </div>
-      <p role="status" aria-live="polite" className="mt-1 min-h-[1.25rem] text-xs text-dharma-muted">{msg}</p>
+      <p role="status" aria-live="polite" className="mt-1 min-h-[1.25rem] text-sm text-dharma-muted">{msg}</p>
     </div>
   );
 }

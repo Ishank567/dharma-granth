@@ -83,7 +83,7 @@ export function RecommendationCards() {
 
   const hide = (id: string) => { save({ ...prefs, hidden: [...prefs.hidden, id] }); setNote('Hidden. You can reset hidden suggestions below.'); };
   const visible = (cards ?? []).filter((c) => !prefs.hidden.includes(c.id));
-  const btn = 'focus-ring min-h-[44px] rounded-xl border border-dharma-border px-3 text-xs font-semibold text-dharma-text hover:border-saffron-400';
+  const btn = 'focus-ring min-h-[44px] rounded-xl border border-dharma-border px-3 text-sm font-semibold text-dharma-text hover:border-saffron-400';
 
   return (
     <section aria-labelledby="rec-h" className="rounded-2xl border border-dharma-border bg-dharma-card p-5">
@@ -99,14 +99,14 @@ export function RecommendationCards() {
         <ul className="mt-3 space-y-3">
           {visible.map((c) => (
             <li key={c.id} className="rounded-xl border border-dharma-border bg-dharma-bg p-3 text-sm">
-              <p className="text-xs text-dharma-muted">Recommended because: {c.basis}</p>
+              <p className="text-sm text-dharma-muted">Recommended because: {c.basis}</p>
               <p className="mt-1 font-semibold"><Link href={c.href} className="text-saffron-800 underline underline-offset-2 dark:text-saffron-300">{c.title}</Link></p>
               <p className="mt-1 text-dharma-muted"><span className="font-semibold text-dharma-text">Reason:</span> {c.reason}</p>
               <div className="mt-2 flex flex-wrap gap-2">
                 <button type="button" aria-expanded={open === c.id} onClick={() => setOpen(open === c.id ? null : c.id)} className={btn}>Why am I seeing this?</button>
                 <button type="button" onClick={() => hide(c.id)} className={btn}>Hide</button>
               </div>
-              {open === c.id && <p className="mt-2 rounded-lg bg-sky-50 p-2 text-xs text-sky-950 dark:bg-sky-950/30 dark:text-sky-100">This uses only data stored in this browser: {c.basis} It does not use your location, identity or beliefs, and nothing leaves your device.</p>}
+              {open === c.id && <p className="mt-2 rounded-lg bg-sky-50 p-2 text-sm text-sky-950 dark:bg-sky-950/30 dark:text-sky-100">This uses only data stored in this browser: {c.basis} It does not use your location, identity or beliefs, and nothing leaves your device.</p>}
             </li>
           ))}
         </ul>
@@ -119,7 +119,7 @@ export function RecommendationCards() {
         <button type="button" onClick={() => { save({ off: prefs.off, hidden: [] }); setNote('Hidden suggestions restored.'); }} className={btn}>Reset hidden suggestions</button>
         <button type="button" onClick={() => { try { localStorage.removeItem('dharma.recentChapters'); } catch { /* ignore */ } setCards([]); setNote('Reading history forgotten on this device.'); }} className={btn}>Forget reading history</button>
       </div>
-      <p role="status" aria-live="polite" className="mt-2 min-h-[1.25rem] text-xs text-dharma-muted">{note}</p>
+      <p role="status" aria-live="polite" className="mt-2 min-h-[1.25rem] text-sm text-dharma-muted">{note}</p>
     </section>
   );
 }

@@ -60,7 +60,7 @@ export function ChapterOrientation({ scriptureId, chapterId, verseCount, firstVe
                 <li key={s.label} className="flex flex-col items-stretch lg:flex-1 lg:flex-row lg:items-center">
                   <div className="flex-1 rounded-xl border border-dharma-border bg-dharma-bg p-3 text-sm">
                     <p className="font-semibold text-dharma-text">
-                      {s.label} <span lang="hi" className="font-devanagari text-xs font-normal text-dharma-muted">· {s.labelHi}</span>
+                      {s.label} <span lang="hi" className="font-devanagari text-sm font-normal text-dharma-muted">· {s.labelHi}</span>
                     </p>
                     <p className="mt-1 text-dharma-muted">{s.text}</p>
                   </div>
@@ -100,7 +100,7 @@ export function ChapterOrientation({ scriptureId, chapterId, verseCount, firstVe
               </ul>
             </div>
           </div>
-          <p className="mt-4 rounded-lg bg-dharma-bg px-3 py-2 text-xs text-dharma-muted">
+          <p className="mt-4 rounded-lg bg-dharma-bg px-3 py-2 text-sm text-dharma-muted">
             Editorial introduction, not scripture. Status: {o.review === 'approved' ? 'approved' : 'draft, awaiting editorial review'}.
           </p>
         </>

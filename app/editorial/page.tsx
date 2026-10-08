@@ -40,7 +40,7 @@ export default function EditorialPage() {
         </p>
       ) : (
         <>
-          <p className="mt-2 text-xs text-dharma-muted">Generated {new Date(report.generatedAt).toLocaleString()} · {report.verseTotal.toLocaleString()} verses scanned.</p>
+          <p className="mt-2 text-sm text-dharma-muted">Generated {new Date(report.generatedAt).toLocaleString()} · {report.verseTotal.toLocaleString()} verses scanned.</p>
 
           <section aria-labelledby="ed-checks" className="mt-6">
             <h2 id="ed-checks" className="font-serif text-xl font-bold text-dharma-text">Checks</h2>
@@ -49,10 +49,10 @@ export default function EditorialPage() {
                 <li key={key} className="rounded-xl border border-dharma-border bg-dharma-card p-3 text-sm">
                   <details>
                     <summary className="flex min-h-[44px] cursor-pointer items-center gap-3">
-                      <span className={`inline-flex min-w-[3rem] justify-center rounded-full px-2 py-0.5 text-xs font-bold ${f.count === 0 ? 'bg-emerald-100 text-emerald-900 dark:bg-emerald-900/40 dark:text-emerald-100' : 'bg-amber-100 text-amber-950 dark:bg-amber-900/40 dark:text-amber-100'}`}>{f.count}</span>
+                      <span className={`inline-flex min-w-[3rem] justify-center rounded-full px-2 py-0.5 text-sm font-bold ${f.count === 0 ? 'bg-emerald-100 text-emerald-900 dark:bg-emerald-900/40 dark:text-emerald-100' : 'bg-amber-100 text-amber-950 dark:bg-amber-900/40 dark:text-amber-100'}`}>{f.count}</span>
                       <span className="font-semibold text-dharma-text">{f.label}</span>
                     </summary>
-                    {f.note && <p className="mt-2 text-xs text-dharma-muted">{f.note}</p>}
+                    {f.note && <p className="mt-2 text-sm text-dharma-muted">{f.note}</p>}
                     {f.detail.length > 0 ? (
                       <ul className="mt-2 list-disc pl-5 text-dharma-muted">{f.detail.map((d) => <li key={d}>{d}</li>)}{f.count > f.detail.length && <li>…and {f.count - f.detail.length} more</li>}</ul>
                     ) : (
@@ -71,14 +71,14 @@ export default function EditorialPage() {
             <div className="mt-3 overflow-x-auto">
               <table className="w-full text-left text-sm">
                 <caption className="sr-only">Study content, its type, status, last review and history</caption>
-                <thead><tr className="border-b border-dharma-border text-xs uppercase text-dharma-muted"><th scope="col" className="py-2 pr-3">Item</th><th scope="col" className="py-2 pr-3">Type</th><th scope="col" className="py-2 pr-3">Status</th><th scope="col" className="py-2">History</th></tr></thead>
+                <thead><tr className="border-b border-dharma-border text-sm uppercase text-dharma-muted"><th scope="col" className="py-2 pr-3">Item</th><th scope="col" className="py-2 pr-3">Type</th><th scope="col" className="py-2 pr-3">Status</th><th scope="col" className="py-2">History</th></tr></thead>
                 <tbody>
                   {report.items.map((i) => (
                     <tr key={i.id} className="border-b border-dharma-border/60 align-top">
                       <td className="py-2 pr-3 font-medium text-dharma-text">{i.title}</td>
                       <td className="py-2 pr-3 text-dharma-muted">{i.kind}</td>
                       <td className="py-2 pr-3">{STATUS_LABEL[i.status]}{i.reviewedOn ? ` · reviewed ${i.reviewedOn}` : ' · never reviewed'}</td>
-                      <td className="py-2 text-xs text-dharma-muted">{i.history.map((h) => `${h.date}: ${h.note}`).join(' ')}</td>
+                      <td className="py-2 text-sm text-dharma-muted">{i.history.map((h) => `${h.date}: ${h.note}`).join(' ')}</td>
                     </tr>
                   ))}
                 </tbody>

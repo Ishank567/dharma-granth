@@ -74,8 +74,8 @@ export function NextTeachings({ candidates, verseId }: { candidates: NextCandida
       <section aria-labelledby="nt-h" className="mt-8 rounded-2xl border border-dharma-border bg-dharma-card/60 p-5 text-sm">
         <h2 id="nt-h" className="font-serif text-lg font-bold text-dharma-text">What next</h2>
         <p className="mt-1 text-dharma-muted">Suggestions are turned off. Use the previous and next buttons to keep reading.</p>
-        <button type="button" onClick={() => update({ ...prefs, off: false }, 'Suggestions turned on.')} className="focus-ring mt-2 min-h-[44px] rounded-xl border border-dharma-border px-4 text-xs font-semibold text-dharma-text hover:border-saffron-400">Turn suggestions on</button>
-        <p role="status" aria-live="polite" className="mt-1 text-xs text-dharma-muted">{note}</p>
+        <button type="button" onClick={() => update({ ...prefs, off: false }, 'Suggestions turned on.')} className="focus-ring mt-2 min-h-[44px] rounded-xl border border-dharma-border px-4 text-sm font-semibold text-dharma-text hover:border-saffron-400">Turn suggestions on</button>
+        <p role="status" aria-live="polite" className="mt-1 text-sm text-dharma-muted">{note}</p>
       </section>
     );
   }
@@ -84,7 +84,7 @@ export function NextTeachings({ candidates, verseId }: { candidates: NextCandida
     .filter((c) => !prefs.hidden.includes(c.id))
     .slice(0, MAX);
   if (cards.length === 0 && prefs.hidden.length === 0) return null;
-  const btn = 'focus-ring min-h-[44px] rounded-xl border border-dharma-border px-3 text-xs font-semibold text-dharma-text hover:border-saffron-400';
+  const btn = 'focus-ring min-h-[44px] rounded-xl border border-dharma-border px-3 text-sm font-semibold text-dharma-text hover:border-saffron-400';
 
   const save = (c: NextCandidate) => {
     if (!c.save) return;
@@ -118,13 +118,13 @@ export function NextTeachings({ candidates, verseId }: { candidates: NextCandida
                 <button type="button" aria-expanded={open === c.id} onClick={() => setOpen(open === c.id ? null : c.id)} className={btn}>Why am I seeing this?</button>
                 <button type="button" onClick={() => { track('recommendation_hidden', { kind: c.kind }); update({ ...prefs, hidden: [...prefs.hidden, c.id] }, 'Hidden. You can restore hidden suggestions from your study desk.'); }} className={btn}>Hide</button>
               </div>
-              {open === c.id && <p className="mt-2 rounded-lg bg-sky-50 p-2 text-xs text-sky-950 dark:bg-sky-950/30 dark:text-sky-100">{c.basis} This uses only the verse you are reading, reviewed links and data stored in this browser. It does not use your location, identity or beliefs.</p>}
+              {open === c.id && <p className="mt-2 rounded-lg bg-sky-50 p-2 text-sm text-sky-950 dark:bg-sky-950/30 dark:text-sky-100">{c.basis} This uses only the verse you are reading, reviewed links and data stored in this browser. It does not use your location, identity or beliefs.</p>}
             </li>
           ))}
         </ul>
       )}
       <button type="button" onClick={() => update({ ...prefs, off: true }, 'Suggestions turned off.')} className={`${btn} mt-3`}>Turn suggestions off</button>
-      <p role="status" aria-live="polite" className="mt-1 min-h-[1.25rem] text-xs text-dharma-muted">{note}</p>
+      <p role="status" aria-live="polite" className="mt-1 min-h-[1.25rem] text-sm text-dharma-muted">{note}</p>
     </section>
   );
 }

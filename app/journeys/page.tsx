@@ -27,7 +27,7 @@ export default function JourneysPage() {
               <span lang="hi" className="font-devanagari text-base font-normal text-dharma-muted">· {j.titleHi}</span>
             </h2>
             <p className="mt-1 text-sm text-dharma-muted">{j.objective}</p>
-            <p className="mt-1 text-xs text-dharma-muted">
+            <p className="mt-1 text-sm text-dharma-muted">
               {j.lessons.length} readings · about {j.minutesPerLesson} min each · {REVIEW_LABEL[j.review]}
             </p>
             <div className="mt-3 flex items-center justify-between gap-3">

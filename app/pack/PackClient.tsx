@@ -128,15 +128,15 @@ export function PackClient() {
             ))}
           </div>
           <form className="mt-3 flex flex-wrap items-end gap-2" onSubmit={(e) => { e.preventDefault(); const c = Number(manual.c); if (!/^[a-z0-9-]+$/.test(manual.s) || !c || !manual.v) return; add([{ scriptureId: manual.s, chapter: c, verse: manual.v, label: `${manual.s} ${c}.${manual.v}` }]); }}>
-            <label className="text-xs font-semibold text-dharma-muted">Scripture id<input value={manual.s} onChange={(e) => setManual({ ...manual, s: e.target.value.toLowerCase() })} className="mt-1 block min-h-[44px] w-40 rounded-xl border border-dharma-border bg-dharma-bg px-3 text-dharma-text" /></label>
-            <label className="text-xs font-semibold text-dharma-muted">Chapter<input value={manual.c} inputMode="numeric" onChange={(e) => setManual({ ...manual, c: e.target.value })} className="mt-1 block min-h-[44px] w-20 rounded-xl border border-dharma-border bg-dharma-bg px-3 text-dharma-text" /></label>
-            <label className="text-xs font-semibold text-dharma-muted">Verse<input value={manual.v} onChange={(e) => setManual({ ...manual, v: e.target.value })} className="mt-1 block min-h-[44px] w-20 rounded-xl border border-dharma-border bg-dharma-bg px-3 text-dharma-text" /></label>
+            <label className="text-sm font-semibold text-dharma-muted">Scripture id<input value={manual.s} onChange={(e) => setManual({ ...manual, s: e.target.value.toLowerCase() })} className="mt-1 block min-h-[44px] w-40 rounded-xl border border-dharma-border bg-dharma-bg px-3 text-dharma-text" /></label>
+            <label className="text-sm font-semibold text-dharma-muted">Chapter<input value={manual.c} inputMode="numeric" onChange={(e) => setManual({ ...manual, c: e.target.value })} className="mt-1 block min-h-[44px] w-20 rounded-xl border border-dharma-border bg-dharma-bg px-3 text-dharma-text" /></label>
+            <label className="text-sm font-semibold text-dharma-muted">Verse<input value={manual.v} onChange={(e) => setManual({ ...manual, v: e.target.value })} className="mt-1 block min-h-[44px] w-20 rounded-xl border border-dharma-border bg-dharma-bg px-3 text-dharma-text" /></label>
             <button type="submit" className={btn}>Add verse</button>
           </form>
           {items.length > 0 && (
             <ul className="mt-3 flex flex-wrap gap-2">
               {items.map((i) => (
-                <li key={key(i)}><button type="button" onClick={() => setItems(items.filter((x) => key(x) !== key(i)))} aria-label={`Remove ${i.label}`} className="focus-ring min-h-[44px] rounded-full border border-dharma-border px-3 text-xs">{i.label} ✕</button></li>
+                <li key={key(i)}><button type="button" onClick={() => setItems(items.filter((x) => key(x) !== key(i)))} aria-label={`Remove ${i.label}`} className="focus-ring min-h-[44px] rounded-full border border-dharma-border px-3 text-sm">{i.label} ✕</button></li>
               ))}
             </ul>
           )}
@@ -151,8 +151,8 @@ export function PackClient() {
               </label>
             ))}
           </div>
-          {opts.commentary && <p className="mt-1 text-xs text-dharma-muted">No reviewed traditional commentary exists yet, so none can be printed. The sheet will say so.</p>}
-          <label className="mt-3 block text-xs font-semibold text-dharma-muted">Title for the sheet<input value={title} onChange={(e) => setTitle(e.target.value)} maxLength={80} className="mt-1 block min-h-[44px] w-full rounded-xl border border-dharma-border bg-dharma-bg px-3 text-sm text-dharma-text" /></label>
+          {opts.commentary && <p className="mt-1 text-sm text-dharma-muted">No reviewed traditional commentary exists yet, so none can be printed. The sheet will say so.</p>}
+          <label className="mt-3 block text-sm font-semibold text-dharma-muted">Title for the sheet<input value={title} onChange={(e) => setTitle(e.target.value)} maxLength={80} className="mt-1 block min-h-[44px] w-full rounded-xl border border-dharma-border bg-dharma-bg px-3 text-sm text-dharma-text" /></label>
         </fieldset>
 
         <div className="mt-4 flex flex-wrap items-center gap-3">
@@ -160,13 +160,13 @@ export function PackClient() {
           <span role="status" className="text-sm text-dharma-muted">{busy ? 'Preparing…' : loaded.length === 0 ? 'Add at least one verse to see a preview.' : `${loaded.length} verse${loaded.length === 1 ? '' : 's'} ready.`}</span>
         </div>
         {error && <p role="alert" className="mt-2 text-sm text-rose-700 dark:text-rose-300">{error}</p>}
-        <p className="mt-2 text-xs text-dharma-muted"><Link href="/desk" className="underline underline-offset-2">Back to my study desk</Link></p>
+        <p className="mt-2 text-sm text-dharma-muted"><Link href="/desk" className="underline underline-offset-2">Back to my study desk</Link></p>
       </div>
 
       {loaded.length > 0 && (
         <article id="pack-print" aria-label="Study pack preview" className="mt-6 rounded-2xl border border-dharma-border bg-white p-6 text-black">
           <h2 className="font-serif text-2xl font-bold">{title}</h2>
-          <p className="text-xs text-neutral-600">Prepared from Dharma Granth · {new Date().toLocaleDateString()} · Editorial notes are labelled and are not scripture.</p>
+          <p className="text-sm text-neutral-600">Prepared from Dharma Granth · {new Date().toLocaleDateString()} · Editorial notes are labelled and are not scripture.</p>
 
           {loaded.map((l) => {
             const lesson = lessonFor(l.item);
@@ -181,19 +181,19 @@ export function PackClient() {
                 {opts.hindi && l.hindi && <p lang="hi" className="mt-2 font-devanagari leading-[1.9]"><strong>हिन्दी{l.hindiAi ? ' (AI अनुवाद)' : ''}: </strong>{l.hindi}</p>}
                 {opts.english && l.english && <p lang="en" className="mt-2"><strong>English{l.englishAi ? ' (AI translation, not a scholarly edition)' : ''}: </strong>{l.english}</p>}
                 {opts.explain && lesson && <p className="mt-2"><strong>Simple explanation (editorial, not scripture): </strong>{lesson.explanation}</p>}
-                {opts.explain && !lesson && <p className="mt-2 text-xs text-neutral-600">No reviewed simple explanation is available for this verse.</p>}
+                {opts.explain && !lesson && <p className="mt-2 text-sm text-neutral-600">No reviewed simple explanation is available for this verse.</p>}
                 {opts.vocab && l.words.length > 1 && (
                   <div className="mt-2"><strong>Vocabulary: </strong><ul className="ml-5 list-disc">{l.words.map((w, i) => <li key={i}><em>{w.pada}</em>: {w.meaning}</li>)}</ul></div>
                 )}
                 {opts.reflect && lesson && <p className="mt-2"><strong>Reflection: </strong>{lesson.reflection}</p>}
-                {opts.commentary && <p className="mt-2 text-xs text-neutral-600">Traditional commentary: none reviewed yet for this verse.</p>}
+                {opts.commentary && <p className="mt-2 text-sm text-neutral-600">Traditional commentary: none reviewed yet for this verse.</p>}
                 {opts.notes && note && <p className="mt-2 border-l-4 border-neutral-400 pl-3"><strong>My note: </strong>{note.text}</p>}
               </section>
             );
           })}
 
           {opts.sources && (
-            <footer className="mt-8 border-t border-neutral-300 pt-3 text-xs text-neutral-700">
+            <footer className="mt-8 border-t border-neutral-300 pt-3 text-sm text-neutral-700">
               <p className="font-semibold">Sources</p>
               <ul className="ml-5 list-disc">{sourceList.map((s) => <li key={s}>Sanskrit text: {s}</li>)}</ul>
               <p className="mt-1">Translations marked “AI” are machine translations. Editorial explanations and reflections are not part of the scripture. Dharma Granth · dharmagranth.in</p>

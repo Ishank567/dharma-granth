@@ -27,7 +27,7 @@ const VIEWS: Array<{ id: View; label: string }> = [
 ];
 
 function Chip({ kind }: { kind: Kind }) {
-  return <span className={`inline-block rounded-full border px-2 py-0.5 text-[11px] font-semibold ${KIND[kind].cls}`}>{KIND[kind].label}</span>;
+  return <span className={`inline-block rounded-full border px-2 py-0.5 text-sm font-semibold ${KIND[kind].cls}`}>{KIND[kind].label}</span>;
 }
 
 function Block({ kind, title, children }: { kind: Kind; title: string; children: ReactNode }) {
@@ -120,7 +120,7 @@ export function StoryClient() {
             <ul className="mt-3 grid gap-1 text-sm sm:grid-cols-2">
               {selected.relations.map((r, i) => <li key={i}><span className="font-semibold text-dharma-text">{r.name}</span> <span className="text-dharma-muted">· {r.relation}</span></li>)}
             </ul>
-            <p className="mt-2 text-xs text-dharma-muted">The diagram is an editorial arrangement of the relationships listed in tradition, not a family tree from a text.</p>
+            <p className="mt-2 text-sm text-dharma-muted">The diagram is an editorial arrangement of the relationships listed in tradition, not a family tree from a text.</p>
           </Block>
         )}
 
@@ -132,7 +132,7 @@ export function StoryClient() {
                   <li key={e.id}>
                     <p className="font-semibold text-dharma-text">{e.title}</p>
                     <p lang="hi" className="font-devanagari text-sm text-dharma-muted">{e.description}</p>
-                    <p lang="hi" className="font-devanagari text-xs text-dharma-muted">{e.significance}</p>
+                    <p lang="hi" className="font-devanagari text-sm text-dharma-muted">{e.significance}</p>
                   </li>
                 ))}
               </ol>
@@ -148,7 +148,7 @@ export function StoryClient() {
                   <li key={i} className="rounded-xl border border-dharma-border p-3">
                     <p className="font-semibold text-dharma-text">{d.speaker} <span className="font-normal text-dharma-muted">· {d.context}</span></p>
                     <p className="mt-1">{d.text}</p>
-                    <p className="mt-1 text-xs text-dharma-muted">Paraphrase for study, not a quotation. Reference: {d.reference}</p>
+                    <p className="mt-1 text-sm text-dharma-muted">Paraphrase for study, not a quotation. Reference: {d.reference}</p>
                   </li>
                 ))}
               </ol>
@@ -182,7 +182,7 @@ export function StoryClient() {
                       <p lang="sa" className="font-devanagari text-lg">{v.sanskrit}</p>
                       {v.transliteration && <p className="italic text-dharma-muted">{v.transliteration}</p>}
                       <p className="mt-1">{v.translation}</p>
-                      <p className="mt-1 text-xs text-dharma-muted">Source: {v.reference}</p>
+                      <p className="mt-1 text-sm text-dharma-muted">Source: {v.reference}</p>
                     </li>
                   ))}
                 </ul>
@@ -192,7 +192,7 @@ export function StoryClient() {
               <ul className="space-y-2 text-sm">
                 {selected.interpretations.map((x, i) => <li key={i}><span className="font-semibold text-dharma-text">{x.tradition}:</span> <span className="text-dharma-muted">{x.view}</span></li>)}
               </ul>
-              <p className="mt-2 text-xs text-dharma-muted">These are readings within traditions; none is presented as the correct one.</p>
+              <p className="mt-2 text-sm text-dharma-muted">These are readings within traditions; none is presented as the correct one.</p>
             </Block>
           </>
         )}

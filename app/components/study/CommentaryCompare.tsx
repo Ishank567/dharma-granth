@@ -35,7 +35,7 @@ export function CommentaryCompare({
 
   const filter = (label: string, value: string, set: (v: string) => void, opts: string[]) =>
     opts.length > 1 && (
-      <label className="text-xs font-semibold text-dharma-muted">
+      <label className="text-sm font-semibold text-dharma-muted">
         {label}
         <select value={value} onChange={(e) => set(e.target.value)} className="mt-1 block min-h-[44px] w-full rounded-xl border border-dharma-border bg-dharma-bg px-3 text-sm text-dharma-text">
           <option value="">All</option>
@@ -48,7 +48,7 @@ export function CommentaryCompare({
     body ? (
       <div className="rounded-xl border border-dharma-border bg-dharma-card p-3">
         <h4 className="text-sm font-bold text-dharma-text">{title}</h4>
-        <p className="mb-1 text-xs text-dharma-muted">{note}</p>
+        <p className="mb-1 text-sm text-dharma-muted">{note}</p>
         <p lang={lang} className={`whitespace-pre-line text-dharma-text ${lang === 'hi' || lang === 'sa' ? 'font-devanagari leading-[2]' : 'font-serif leading-relaxed'}`}>{cleanVerseField(body)}</p>
       </div>
     ) : null;
@@ -60,7 +60,7 @@ export function CommentaryCompare({
       <h3 id="cc-h" className="font-serif text-lg font-bold text-dharma-text">
         Layers side by side <span lang="hi" className="font-devanagari text-sm font-normal text-dharma-muted">· परतों की तुलना</span>
       </h3>
-      <p className="mt-1 text-xs text-dharma-muted">Each layer is labelled by what it is. None is presented as the correct or best reading.</p>
+      <p className="mt-1 text-sm text-dharma-muted">Each layer is labelled by what it is. None is presented as the correct or best reading.</p>
 
       <div className="mt-3 space-y-3">
         {panel('Original Sanskrit', 'Source scripture', verse.sanskrit, 'sa')}
@@ -86,7 +86,7 @@ export function CommentaryCompare({
                   <li key={i} className="rounded-lg border border-dharma-border bg-dharma-card p-3">
                     <p className="font-semibold text-dharma-text">{c.commentator} <span className="font-normal text-dharma-muted">· {c.tradition} · {c.language} · {c.detail}</span></p>
                     <p lang={c.language === 'English' ? 'en' : c.language === 'Hindi' ? 'hi' : 'sa'} className="mt-1 whitespace-pre-line">{c.text}</p>
-                    <dl className="mt-2 grid gap-x-4 text-xs text-dharma-muted sm:grid-cols-2">
+                    <dl className="mt-2 grid gap-x-4 text-sm text-dharma-muted sm:grid-cols-2">
                       <div><dt className="inline font-semibold">Edition: </dt><dd className="inline">{c.sourceEdition}</dd></div>
                       {c.translator && <div><dt className="inline font-semibold">Translator: </dt><dd className="inline">{c.translator}</dd></div>}
                       <div><dt className="inline font-semibold">Publication: </dt><dd className="inline">{c.publication}</dd></div>

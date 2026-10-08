@@ -14,11 +14,11 @@ export function RelatedTeachings({ scriptureId, chapterId, verseNumber }: { scri
       <h2 id="rt-h" className="font-serif text-xl font-bold text-dharma-text">
         Related teachings <span lang="hi" className="font-devanagari text-base font-normal text-dharma-muted">· संबंधित उपदेश</span>
       </h2>
-      <p className="mt-1 text-xs text-dharma-muted">Editorial links for study. A link does not claim that two passages teach exactly the same thing.</p>
+      <p className="mt-1 text-sm text-dharma-muted">Editorial links for study. A link does not claim that two passages teach exactly the same thing.</p>
       <ul className="mt-3 space-y-3">
         {items.map((c) => (
           <li key={c.scriptureTitle + c.reference} className="rounded-xl border border-dharma-border bg-dharma-card p-3 text-sm">
-            <p className="text-xs font-bold uppercase tracking-wide text-dharma-muted">{CONNECTION_LABEL[c.kind]}</p>
+            <p className="text-sm font-bold uppercase tracking-wide text-dharma-muted">{CONNECTION_LABEL[c.kind]}</p>
             <p className="mt-0.5 font-semibold text-dharma-text">
               {c.href ? (
                 <Link href={c.href} className="inline-flex min-h-[44px] items-center text-saffron-800 underline underline-offset-2 dark:text-saffron-300">{c.scriptureTitle} {c.reference}</Link>
@@ -28,7 +28,7 @@ export function RelatedTeachings({ scriptureId, chapterId, verseNumber }: { scri
             </p>
             <p className="mt-1 text-dharma-text">{c.summary}</p>
             <p className="mt-1 text-dharma-muted"><span className="font-semibold">Why linked:</span> {c.reason}</p>
-            <p className="mt-1 text-xs text-dharma-muted">Review status: {REVIEW_LABEL[c.review]}</p>
+            <p className="mt-1 text-sm text-dharma-muted">Review status: {REVIEW_LABEL[c.review]}</p>
           </li>
         ))}
       </ul>

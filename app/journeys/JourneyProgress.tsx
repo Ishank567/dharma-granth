@@ -51,9 +51,9 @@ export function useJourneyProgress() {
 export function JourneyProgressLine({ journeyId, total }: { journeyId: string; total: number }) {
   const { progress, ready } = useJourneyProgress();
   const done = (progress[journeyId] ?? []).length;
-  if (!ready || done === 0) return <span className="text-xs text-dharma-muted">Not started</span>;
+  if (!ready || done === 0) return <span className="text-sm text-dharma-muted">Not started</span>;
   return (
-    <span role="status" className="text-xs text-dharma-muted">
+    <span role="status" className="text-sm text-dharma-muted">
       {done >= total ? `You have read all ${total} verses.` : `You have completed ${done} of ${total} readings.`}
     </span>
   );

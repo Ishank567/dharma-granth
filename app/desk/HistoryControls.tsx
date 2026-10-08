@@ -6,7 +6,7 @@ import { clearHistory, exportHistory, importHistory, isHistoryPaused, setHistory
 
 const MAX_BYTES = 1024 * 1024;
 const btn =
-  'focus-ring inline-flex min-h-[44px] items-center gap-2 rounded-xl border border-dharma-border bg-dharma-card px-3 text-xs font-semibold text-dharma-text hover:border-saffron-400';
+  'focus-ring inline-flex min-h-[44px] items-center gap-2 rounded-xl border border-dharma-border bg-dharma-card px-3 text-sm font-semibold text-dharma-text hover:border-saffron-400';
 
 /**
  * Controls for the reading history only: pause, export, import, clear.
@@ -77,8 +77,8 @@ export function HistoryControls({ onChange }: { onChange: () => void }) {
         <button type="button" onClick={clear} className={btn}><Trash2 className="h-4 w-4" aria-hidden="true" /> Clear history</button>
         <input ref={file} type="file" accept="application/json,.json" className="sr-only" tabIndex={-1} aria-hidden="true" onChange={(e) => void upload(e.target.files?.[0])} />
       </div>
-      {paused && <p className="mt-2 text-xs text-dharma-muted">History is paused. Your existing entries stay until you remove them.</p>}
-      <p role="status" aria-live="polite" className="mt-1 min-h-[1.25rem] text-xs text-dharma-muted">{msg}</p>
+      {paused && <p className="mt-2 text-sm text-dharma-muted">History is paused. Your existing entries stay until you remove them.</p>}
+      <p role="status" aria-live="polite" className="mt-1 min-h-[1.25rem] text-sm text-dharma-muted">{msg}</p>
     </div>
   );
 }
