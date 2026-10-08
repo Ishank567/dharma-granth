@@ -163,6 +163,29 @@ async function main() {
   assert.equal(act.readActivity(mem).length, 0);
   assert.equal(act.weeklySummary([], wed).teachingsExplored, 0);
 
+  /* ── Reminders (.ics) ── */
+  const rem = await import('../lib/reminders');
+  const base = { type: 'daily-verse' as const, days: ['MO', 'WE'] as Array<'MO' | 'WE'>, time: '08:30', everyWeeks: 1 as const, language: 'en' as const };
+  const when = new Date(2026, 9, 7, 9, 0); // Wednesday 7 Oct 2026, local
+  const ics = rem.buildReminderIcs(base, 'https://example.org/', when, 'test-uid@dharmagranth');
+  assert.ok(ics.startsWith('BEGIN:VCALENDAR\r\n') && ics.endsWith('END:VCALENDAR\r\n'));
+  assert.ok(ics.includes('RRULE:FREQ=WEEKLY;INTERVAL=1;BYDAY=MO,WE'));
+  assert.ok(ics.includes('DTSTART:20261007T083000'), 'starts on the first chosen weekday, in floating local time');
+  assert.ok(ics.includes('Your selected reading is ready whenever you are.'));
+  assert.ok(ics.includes('URL:https://example.org/daily'));
+  assert.ok(!rem.FORBIDDEN_WORDS.test(ics), 'no urgency, streak or guilt wording');
+  for (const lang of ['en', 'hi'] as const) for (const type of Object.keys(rem.REMINDER_COPY) as Array<keyof typeof rem.REMINDER_COPY>) {
+    const text = rem.buildReminderIcs({ ...base, type, language: lang }, 'https://example.org', when);
+    assert.ok(!rem.FORBIDDEN_WORDS.test(text), type + ' ' + lang);
+    for (const line of text.split('\r\n')) assert.ok(new TextEncoder().encode(line).length <= 75, 'folded to 75 octets: ' + line.slice(0, 30));
+  }
+  assert.equal(rem.firstOccurrence(['TU'], when).getDate(), 13, 'next Tuesday after Wednesday 7 Oct');
+  assert.throws(() => rem.buildReminderIcs({ ...base, days: [] }, 'https://example.org'), /at least one day/);
+  assert.throws(() => rem.buildReminderIcs({ ...base, time: '25:00' }, 'https://example.org'), /Choose a time/);
+  assert.ok(rem.inQuietHours('23:30', '22:00', '07:00') && rem.inQuietHours('06:59', '22:00', '07:00') && !rem.inQuietHours('07:00', '22:00', '07:00'), 'quiet hours may cross midnight');
+  assert.throws(() => rem.buildReminderIcs({ ...base, time: '23:00', quietStart: '22:00', quietEnd: '07:00' }, 'https://example.org'), /quiet hours/);
+  assert.ok(rem.buildReminderIcs({ ...base, language: 'hi', everyWeeks: 2 }, 'https://example.org', when).includes('INTERVAL=2'));
+
   console.log('release1: all assertions passed');
 }
 

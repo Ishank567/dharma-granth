@@ -12,6 +12,7 @@ import { clearOwnData } from '@/lib/backup';
 import { readRecentChapters, type ChapterVisit } from '@/lib/reading-history';
 import { READING_JOURNEYS } from '@/data/reading-journeys';
 import { WeeklySummary } from './WeeklySummary';
+import { Reminders } from './Reminders';
 
 const NOTES_KEY = 'dharma.notes';
 const QUEUE_KEY = 'dharma.desk.queue';
@@ -281,6 +282,10 @@ export function DeskClient() {
                 ))}
               </ul>
             )}
+          </Section>
+
+          <Section id="reminders-h" title="Reminders" titleHi="स्मरण">
+            <Reminders />
           </Section>
 
           <Section id="offline-h" title="Offline and downloads" titleHi="ऑफ़लाइन">
