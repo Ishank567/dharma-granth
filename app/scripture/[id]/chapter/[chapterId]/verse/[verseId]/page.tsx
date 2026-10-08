@@ -5,7 +5,6 @@ import { RelatedTeachings } from '@/app/components/study/RelatedTeachings';
 import { NextTeachings, type NextCandidate } from '@/app/components/study/NextTeachings';
 import { VerseDiagrams } from '@/app/components/study/VerseDiagram';
 import { ModernScenarios } from '@/app/components/study/ModernScenarios';
-import { PilotContext, PilotMisunderstanding } from '@/app/components/study/PilotVerseGuide';
 import { ReviewRequiredNotice } from '@/app/components/study/ReviewRequiredNotice';
 import { CONNECTIONS, verseKey } from '@/data/study-content';
 import { VerseRelatedSection } from '@/app/components/VerseRelatedSection';
@@ -343,10 +342,8 @@ export default function VersePage({ params }: PageProps) {
             previousHref={prevHref}
             nextHref={nextHref}
             pageUrl={pageUrl}
-            contextSlot={<PilotContext scriptureId={meta.id} chapter={chapterId} verse={params.verseId} />}
           />
         )}
-        <PilotMisunderstanding scriptureId={meta.id} chapter={chapterId} verse={params.verseId} />
         <VerseDiagrams scriptureId={meta.id} chapter={chapterId} verse={params.verseId} />
         <ModernScenarios scriptureId={meta.id} chapter={chapterId} verse={params.verseId} />
         {!pedagogical && !explanation && <ReviewRequiredNotice className="mt-8" />}

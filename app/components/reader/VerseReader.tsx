@@ -464,7 +464,7 @@ export function VerseReader(props: VerseReaderProps) {
           {/* 3 · Reader Mode Bar: [Quick] [Simple] [Deep] */}
           <div
             role="tablist"
-            aria-label="Reader mode"
+            aria-label="Reading depth: Quick, Simple or Deep"
             className="mb-6 flex flex-wrap items-center justify-between gap-2 rounded-2xl border border-dharma-border bg-dharma-card/70 p-2 shadow-sm"
           >
             <div className="flex items-center gap-1.5 w-full sm:w-auto">
@@ -481,10 +481,24 @@ export function VerseReader(props: VerseReaderProps) {
                     key={m.id}
                     type="button"
                     role="tab"
+                    id={`mode-${m.id}`}
                     aria-selected={active}
+                    aria-controls="mode-panel"
+                    tabIndex={active ? 0 : -1}
+                    onKeyDown={(e) => {
+                      const ids = ['quick', 'simple', 'deep'] as const;
+                      const i = ids.indexOf(settings.readerMode as (typeof ids)[number]);
+                      const n = e.key === 'ArrowRight' ? (i + 1) % 3 : e.key === 'ArrowLeft' ? (i + 2) % 3 : -1;
+                      if (n < 0) return;
+                      e.preventDefault();
+                      e.stopPropagation();
+                      update('readerMode', ids[n]);
+                      setTimeout(() => document.getElementById(`mode-${ids[n]}`)?.focus(), 0);
+                    }}
                     onClick={() => {
                       triggerTactileFeedback('light', 'softTap');
                       update('readerMode', m.id);
+                      track('mode_selected', { mode: m.id });
                     }}
                     className={`focus-ring flex-1 sm:flex-none min-h-[44px] px-3.5 py-1.5 rounded-xl text-xs sm:text-sm font-semibold transition-all ${
                       active

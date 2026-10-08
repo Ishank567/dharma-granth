@@ -1,6 +1,5 @@
 'use client';
 
-import { useRef, type KeyboardEvent, type ReactNode } from 'react';
 import type { PedagogicalVerseData } from '@/data/pedagogical-gita-2-47';
 import type { UnderstandingExtras } from '@/data/understanding';
 import { useReaderSettings } from '@/lib/useReaderSettings';
@@ -17,7 +16,6 @@ import { PauseAndThink } from './PauseAndThink';
 import { ExplanationFeedback } from './ExplanationFeedback';
 import { WordExplorer } from './WordExplorer';
 import { ShareCardButton } from './ShareCard';
-import { track } from '@/lib/analytics';
 
 /**
  * "How would you like to understand this verse?" (spec §1–2).
@@ -27,11 +25,6 @@ import { track } from '@/lib/analytics';
 
 type Mode = 'quick' | 'simple' | 'deep';
 
-const MODES: Array<{ id: Mode; en: string; hi: string; hint: string }> = [
-  { id: 'quick', en: 'Quick', hi: 'संक्षेप', hint: 'Main idea in under a minute' },
-  { id: 'simple', en: 'Simple', hi: 'सरल', hint: 'A clear, meaningful explanation' },
-  { id: 'deep', en: 'Deep', hi: 'गहन', hint: 'Words, commentary and sources' },
-];
 
 function Bilingual({ en, hi }: { en?: string; hi?: string }) {
   return (
@@ -52,7 +45,6 @@ export function UnderstandPanel({
   previousHref,
   nextHref,
   pageUrl,
-  contextSlot,
 }: {
   data: PedagogicalVerseData;
   extras?: UnderstandingExtras;
@@ -63,28 +55,9 @@ export function UnderstandPanel({
   previousHref?: string;
   nextHref?: string;
   pageUrl: string;
-  /** Rendered between the mode selector and the explanation (the passage context). */
-  contextSlot?: ReactNode;
 }) {
-  const { settings, update, reducedMotion } = useReaderSettings();
+  const { settings, reducedMotion } = useReaderSettings();
   const mode: Mode = settings.readerMode;
-  const tabs = useRef<Array<HTMLButtonElement | null>>([]);
-
-  // One store for the reading depth: the Reader settings panel and this selector share it.
-  const choose = (m: Mode) => {
-    update('readerMode', m);
-    track('mode_selected', { mode: m });
-  };
-
-  const onKey = (e: KeyboardEvent<HTMLButtonElement>, i: number) => {
-    let n = i;
-    if (e.key === 'ArrowRight') n = (i + 1) % MODES.length;
-    else if (e.key === 'ArrowLeft') n = (i - 1 + MODES.length) % MODES.length;
-    else return;
-    e.preventDefault();
-    choose(MODES[n].id);
-    tabs.current[n]?.focus();
-  };
 
   const c = data.traditionalCommentary;
   const s = data.sourceTransparency;
@@ -99,41 +72,11 @@ export function UnderstandPanel({
         [data-calm] .understand-fade{animation:none}
       `}</style>
 
-      <h2 id="understand-title" className="font-serif text-xl font-bold text-dharma-text">
-        How would you like to understand this verse?
-      </h2>
-      <p lang="hi" className="font-devanagari text-sm text-dharma-muted">आप इस श्लोक को किस गहराई से समझना चाहेंगे?</p>
-
-      <div role="tablist" aria-label="Depth of explanation" className="-mx-4 mt-3 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:px-0">
-        {MODES.map((m, i) => {
-          const sel = mode === m.id;
-          return (
-            <button
-              key={m.id}
-              ref={(el) => { tabs.current[i] = el; }}
-              role="tab"
-              id={`mode-${m.id}`}
-              aria-selected={sel}
-              aria-controls="mode-panel"
-              tabIndex={sel ? 0 : -1}
-              onClick={() => choose(m.id)}
-              onKeyDown={(e) => onKey(e, i)}
-              className={`focus-ring min-h-[52px] shrink-0 rounded-2xl border px-5 text-left transition ${sel ? 'border-saffron-700 bg-saffron-100 text-saffron-950 shadow-sm dark:bg-saffron-900/40 dark:text-saffron-100' : 'border-dharma-border bg-dharma-card text-dharma-text hover:border-saffron-400'}`}
-            >
-              <span className="block text-sm font-bold">
-                {m.en} <span lang="hi" className="font-devanagari font-semibold opacity-80">{m.hi}</span>
-              </span>
-              <span className="block text-xs opacity-75">{m.hint}</span>
-            </button>
-          );
-        })}
-      </div>
+      <h2 id="understand-title" className="sr-only">Explanation: {mode}</h2>
 
       <div className="mt-3">
         <ShareCardButton sanskrit={data.sanskrit} reference={reference} referenceSanskrit={data.scriptureTitleSanskrit} meaning={data.inOneLineEn} translation={translation} translationIsAi={translationIsAi} url={pageUrl} />
       </div>
-
-      {contextSlot}
 
       <div role="tabpanel" id="mode-panel" aria-labelledby={`mode-${mode}`} className="mt-4 space-y-4" key={mode}>
         {mode === 'quick' && (

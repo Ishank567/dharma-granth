@@ -57,6 +57,16 @@ export function SourcesAndInterpretation({
 
   // Active tab on desktop
   const [activeTab, setActiveTab] = useState<'editions' | 'commentary' | 'corrections'>('editions');
+  const onTabKey = (e: React.KeyboardEvent) => {
+    const ids = ['editions', 'commentary', 'corrections'] as const;
+    const i = ids.indexOf(activeTab);
+    const n = e.key === 'ArrowRight' ? (i + 1) % 3 : e.key === 'ArrowLeft' ? (i + 2) % 3 : -1;
+    if (n < 0) return;
+    e.preventDefault();
+    e.stopPropagation();
+    setActiveTab(ids[n]);
+    setTimeout(() => document.getElementById(`src-tab-${ids[n]}`)?.focus(), 0);
+  };
 
   // Accordion open states on mobile
   const [openAccordion, setOpenAccordion] = useState<string | null>('editions');
@@ -166,11 +176,15 @@ export function SourcesAndInterpretation({
       {/* ── 2. Desktop Tabbed Panel ── */}
       <div className="hidden md:block pt-2">
         {/* Navigation Tabs */}
-        <div className="flex border-b border-dharma-border gap-2" role="tablist">
+        <div className="flex border-b border-dharma-border gap-2" role="tablist" aria-label="Sources and interpretation">
           <button
             type="button"
             role="tab"
+            id="src-tab-editions"
             aria-selected={activeTab === 'editions'}
+            aria-controls="src-panel"
+            tabIndex={activeTab === 'editions' ? 0 : -1}
+            onKeyDown={onTabKey}
             onClick={() => setActiveTab('editions')}
             className={`pb-2.5 px-3 text-xs font-bold border-b-2 transition flex items-center gap-1.5 ${
               activeTab === 'editions'
@@ -185,7 +199,11 @@ export function SourcesAndInterpretation({
           <button
             type="button"
             role="tab"
+            id="src-tab-commentary"
             aria-selected={activeTab === 'commentary'}
+            aria-controls="src-panel"
+            tabIndex={activeTab === 'commentary' ? 0 : -1}
+            onKeyDown={onTabKey}
             onClick={() => setActiveTab('commentary')}
             className={`pb-2.5 px-3 text-xs font-bold border-b-2 transition flex items-center gap-1.5 ${
               activeTab === 'commentary'
@@ -200,7 +218,11 @@ export function SourcesAndInterpretation({
           <button
             type="button"
             role="tab"
+            id="src-tab-corrections"
             aria-selected={activeTab === 'corrections'}
+            aria-controls="src-panel"
+            tabIndex={activeTab === 'corrections' ? 0 : -1}
+            onKeyDown={onTabKey}
             onClick={() => setActiveTab('corrections')}
             className={`pb-2.5 px-3 text-xs font-bold border-b-2 transition flex items-center gap-1.5 ${
               activeTab === 'corrections'
@@ -213,6 +235,7 @@ export function SourcesAndInterpretation({
           </button>
         </div>
 
+        <div role="tabpanel" id="src-panel" aria-labelledby={`src-tab-${activeTab}`}>
         {/* Tab Content 1: Editions */}
         {activeTab === 'editions' && (
           <div className="pt-4 grid grid-cols-2 gap-4 text-xs">
@@ -330,6 +353,7 @@ export function SourcesAndInterpretation({
             </div>
           </div>
         )}
+        </div>
       </div>
 
       {/* ── 3. Mobile Accessible Accordions (One-handed usability) ── */}
