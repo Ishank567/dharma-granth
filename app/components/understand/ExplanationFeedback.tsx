@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { track } from '@/lib/analytics';
+import { REASON_IDS } from '@/lib/feedback-protocol';
 
 type Rating = 'yes' | 'partly' | 'no';
 
@@ -14,6 +15,9 @@ const REASONS = [
   'Possible textual error',
   'Other',
 ] as const;
+
+export const SHARE_KEY = 'dharma.feedback.share';
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 export interface FeedbackRecord {
   refKey: string;
@@ -44,13 +48,27 @@ export function ExplanationFeedback({ refKey, reference }: { refKey: string; ref
   const [reasons, setReasons] = useState<string[]>([]);
   const [sent, setSent] = useState(false);
   const [storageOk, setStorageOk] = useState(true);
+  const [share, setShare] = useState(false);
+  const [dnt, setDnt] = useState(false);
+  const [shared, setShared] = useState<'no' | 'sent' | 'unavailable'>('no');
 
   useEffect(() => {
     const prior = readAll()[refKey];
     setRating(prior?.rating ?? null);
     setReasons(prior?.reasons ?? []);
     setSent(Boolean(prior));
+    setShared('no');
+    try { setShare(localStorage.getItem(SHARE_KEY) === '1'); } catch { /* off */ }
+    setDnt(navigator.doNotTrack === '1');
   }, [refKey]);
+
+  function toggleShare(on: boolean) {
+    setShare(on);
+    try {
+      if (on) localStorage.setItem(SHARE_KEY, '1');
+      else localStorage.removeItem(SHARE_KEY);
+    } catch { /* the choice lasts for this visit */ }
+  }
 
   function save(nextRating: Rating, nextReasons: string[]) {
     const record: FeedbackRecord = { refKey, rating: nextRating, reasons: nextReasons, at: new Date().toISOString() };
@@ -62,6 +80,13 @@ export function ExplanationFeedback({ refKey, reference }: { refKey: string; ref
     }
     setSent(true);
     track('feedback_submitted', { rating: nextRating });
+    if (share && !dnt) {
+      // Only a verse reference, the rating and fixed reason ids are sent: no text, no identity.
+      const reasonIds = nextReasons.map((r) => REASON_IDS[r]).filter(Boolean);
+      fetch(`${BASE}/api/feedback`, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ refKey, rating: nextRating, reasons: reasonIds }), keepalive: true })
+        .then((r) => setShared(r.ok ? 'sent' : 'unavailable'))
+        .catch(() => setShared('unavailable'));
+    }
   }
 
   function choose(r: Rating) {
@@ -128,8 +153,17 @@ export function ExplanationFeedback({ refKey, reference }: { refKey: string; ref
         </fieldset>
       )}
 
+      <label className="mt-2 flex min-h-[44px] cursor-pointer items-start gap-3 text-sm text-dharma-muted">
+        <input type="checkbox" checked={share && !dnt} disabled={dnt} onChange={(e) => toggleShare(e.target.checked)} className="mt-1 h-5 w-5 accent-saffron-700" />
+        <span>
+          Also share my answers anonymously with the editors, so unclear explanations can be improved. Only the verse, the rating and the reasons you tick are sent: no text, no account, no address.
+          {dnt && ' Your browser sends Do Not Track, so sharing is off.'}
+        </span>
+      </label>
       <p role="status" aria-live="polite" className="mt-2 min-h-[1.25rem] text-sm text-dharma-muted">
-        {sent && storageOk && `Thank you. Your answer for ${reference} is saved on this device only; no account or personal details are used.`}
+        {sent && storageOk && shared === 'no' && `Thank you. Your answer for ${reference} is saved on this device only; no account or personal details are used.`}
+        {sent && storageOk && shared === 'sent' && `Thank you. Your answer for ${reference} is saved on this device and was shared anonymously with the editors.`}
+        {sent && storageOk && shared === 'unavailable' && `Thank you. Your answer for ${reference} is saved on this device. Sharing with the editors is not available right now, so nothing was sent.`}
         {sent && !storageOk && 'Thank you. Your browser blocked storage, so this answer was not saved.'}
       </p>
     </section>

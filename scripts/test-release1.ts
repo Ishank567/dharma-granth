@@ -186,6 +186,43 @@ async function main() {
   assert.throws(() => rem.buildReminderIcs({ ...base, time: '23:00', quietStart: '22:00', quietEnd: '07:00' }, 'https://example.org'), /quiet hours/);
   assert.ok(rem.buildReminderIcs({ ...base, language: 'hi', everyWeeks: 2 }, 'https://example.org', when).includes('INTERVAL=2'));
 
+  /* ── Feedback collector ── */
+  const server = await import('../lib/feedback-server');
+  const proto = await import('../lib/feedback-protocol');
+  const kvData = new Map<string, string>();
+  const kv: import('../lib/feedback-server').KV = {
+    async get(k) { return kvData.has(k) ? (kvData.get(k) as string) : null; },
+    async put(k, v) { kvData.set(k, v); },
+    async list({ prefix }) { return { keys: Array.from(kvData.keys()).filter((k) => k.startsWith(prefix ?? '')).map((name) => ({ name })), list_complete: true }; },
+  };
+  const env = { FEEDBACK: kv, EDITORIAL_TOKEN: 'editor-secret' };
+  const post = (body: unknown, raw?: string) => server.handleFeedback(new Request('https://x.test/api/feedback', { method: 'POST', body: raw ?? JSON.stringify(body), headers: { 'user-agent': 'secret-agent', cookie: 'sid=1' } }), env);
+  assert.equal((await post({ refKey: 'bhagavadgita:2:47', rating: 'partly', reasons: ['language', 'long', 'not-a-reason'], note: 'free text' })).status, 204);
+  assert.equal((await post({ refKey: 'bhagavadgita:2:47', rating: 'yes', reasons: ['language'] })).status, 204);
+  assert.equal((await post({ refKey: 'bhagavadgita:2:47', rating: 'no' })).status, 204);
+  assert.equal((await post({ refKey: '../etc/passwd', rating: 'yes' })).status, 400, 'bad reference refused');
+  assert.equal((await post({ refKey: 'bhagavadgita:2:47', rating: 'maybe' })).status, 400, 'bad rating refused');
+  assert.equal((await post(null, 'not json')).status, 400);
+  assert.equal((await post(null, 'x'.repeat(5000))).status, 413, 'oversized body refused');
+  assert.equal((await server.handleFeedback(new Request('https://x.test/api/feedback', { method: 'POST', body: '{}' }), {})).status, 503, 'unconfigured collector says so');
+  assert.deepEqual(Array.from(kvData.keys()).sort(), ['fb:bhagavadgita:2:47:r:no', 'fb:bhagavadgita:2:47:r:partly', 'fb:bhagavadgita:2:47:r:yes', 'fb:bhagavadgita:2:47:w:language', 'fb:bhagavadgita:2:47:w:long'], 'only counters are stored; reasons on a Yes are dropped');
+  assert.ok(!Array.from(kvData.values()).some((v) => !/^\d+$/.test(v)), 'stored values are plain counts');
+  const read = (token?: string, e = env) => server.handleFeedback(new Request('https://x.test/api/feedback', { method: 'GET', headers: token ? { 'x-editorial-token': token } : {} }), e);
+  assert.equal((await read()).status, 401);
+  assert.equal((await read('wrong')).status, 401);
+  assert.equal((await read('editor-secret', { FEEDBACK: kv })).status, 404, 'no token configured means no read endpoint');
+  const ok = await read('editor-secret');
+  assert.equal(ok.status, 200);
+  const data = (await ok.json()) as { verses: Array<{ refKey: string; yes: number; partly: number; no: number; reasons: Record<string, number> }> };
+  assert.deepEqual(data.verses[0], { refKey: 'bhagavadgita:2:47', yes: 1, partly: 1, no: 1, reasons: { language: 1, long: 1 } });
+  assert.equal(server.sameToken('abc', 'abc'), true);
+  assert.equal(server.sameToken('abc', 'abd'), false);
+  assert.equal(server.sameToken('abc', 'abcd'), false);
+  assert.equal((await server.handleFeedback(new Request('https://x.test/api/feedback', { method: 'DELETE' }), env)).status, 405);
+  assert.equal(proto.isLowClarity({ refKey: 'a:1:1', yes: 2, partly: 2, no: 1, reasons: {} }), true);
+  assert.equal(proto.isLowClarity({ refKey: 'a:1:1', yes: 0, partly: 3, no: 0, reasons: {} }), false, 'too few answers to flag');
+  assert.equal(proto.isLowClarity({ refKey: 'a:1:1', yes: 8, partly: 1, no: 1, reasons: {} }), false);
+
   console.log('release1: all assertions passed');
 }
 

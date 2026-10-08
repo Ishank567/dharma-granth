@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import fs from 'node:fs';
 import path from 'node:path';
+import { FeedbackPatterns } from './FeedbackPatterns';
 import { NEXT_STATUS, STATUS_LABEL, type ContentItem } from '@/data/content-status';
 
 export const metadata: Metadata = {
@@ -87,6 +88,8 @@ export default function EditorialPage() {
           </section>
         </>
       )}
+
+      <FeedbackPatterns />
 
       <section aria-labelledby="ed-flow" className="mt-8 rounded-xl border border-dharma-border bg-dharma-card/60 p-4 text-sm">
         <h2 id="ed-flow" className="font-serif text-lg font-bold text-dharma-text">Workflow</h2>
