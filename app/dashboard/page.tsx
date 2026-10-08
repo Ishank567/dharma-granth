@@ -8,8 +8,7 @@ import { BackupRestore } from '@/app/components/BackupRestore';
 import { DailyVerse } from '@/app/components/DailyVerse';
 import { PinterestWisdom } from '@/app/components/PinterestWisdom';
 import { FadeUp, FadeUpOnView, Stagger, StaggerItem } from '@/app/components/motion/primitives';
-import { pathways } from '@/data/pathways';
-import { quizzes } from '@/data/quizzes';
+import { PATHWAY_SUMMARIES, TOTAL_QUIZZES_COUNT } from '@/data/pathways-meta';
 import { scriptureCatalog } from '@/data/scripture-meta';
 import type { VerseHighlight } from '@/lib/useStudyProgress';
 import { chapterVerseHref } from '@/lib/verse-paths';
@@ -75,10 +74,10 @@ export default function DashboardPage() {
   const { streak, collections, notes, highlights, pathwayProgress, quizResults } = progress;
 
   // Calculate pathway completion stats
-  const pathwayStats = pathways.map((p) => {
+  const pathwayStats = PATHWAY_SUMMARIES.map((p) => {
     const pp = pathwayProgress.find((pp) => pp.pathwayId === p.id);
     const completed = pp?.completedSteps.length ?? 0;
-    const total = p.steps.length;
+    const total = p.stepsCount;
     const pct = Math.round((completed / total) * 100);
     const isComplete = pct === 100;
     return { ...p, completed, total, pct, isComplete };
@@ -229,7 +228,7 @@ export default function DashboardPage() {
                 Your Learning Pathways
               </h2>
               <p className="text-sm text-dharma-muted">
-                {completedPathways} completed • {inProgressPathways} in progress • {pathways.length - completedPathways - inProgressPathways} not started
+                {completedPathways} completed • {inProgressPathways} in progress • {PATHWAY_SUMMARIES.length - completedPathways - inProgressPathways} not started
               </p>
             </div>
             <Link
@@ -337,7 +336,7 @@ export default function DashboardPage() {
                   <h3 className="text-base font-serif font-bold text-dharma-text group-hover:text-saffron-700 transition">
                     Quizzes
                   </h3>
-                  <p className="text-xs text-dharma-muted">{quizResults.length} taken • {quizzes.length} available</p>
+                  <p className="text-xs text-dharma-muted">{quizResults.length} taken • {TOTAL_QUIZZES_COUNT} available</p>
                 </div>
               </div>
               <p className="text-sm text-dharma-muted leading-relaxed">
