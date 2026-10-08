@@ -7,6 +7,7 @@ import { FolderOpen, Plus, Trash2, BookOpen, ArrowRight, Highlighter, StickyNote
 import { useStudyProgress } from '@/lib/useStudyProgress';
 import { FadeUp, FadeUpOnView, Stagger, StaggerItem } from '@/app/components/motion/primitives';
 import { chapterVerseHref, readHref } from '@/lib/verse-paths';
+import { verseCount } from '@/lib/format';
 
 export default function CollectionsPage() {
   const reduce = useReducedMotion();
@@ -177,7 +178,7 @@ export default function CollectionsPage() {
                               {col.name}
                             </h3>
                             <p className="text-xs text-dharma-muted">
-                              {col.verseRefs.length} verse{col.verseRefs.length !== 1 ? 's' : ''}
+                              {verseCount(col.verseRefs.length)}
                             </p>
                           </div>
                         </div>

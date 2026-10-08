@@ -39,6 +39,7 @@ import {
   type SearchResultGroup,
   type SearchResultItem,
 } from '@/lib/search-types';
+import { chapterCount, verseCount } from '@/lib/format';
 
 export * from '@/lib/search-types';
 export { loadVerseIndex, isVerseIndexLoaded } from '@/lib/search-verse-index';
@@ -182,7 +183,7 @@ function buildMasterIndex(): SearchResultItem[] {
   for (const s of scriptureCatalog) {
     const subtitle = s.titleIast ? `${s.titleSanskrit} (${s.titleIast})` : s.titleSanskrit;
     const tagText = s.tags ? s.tags.join(' ') : '';
-    const extraParts = [`${s.totalChapters} chapters`, `${s.totalVerses} verses`, s.titleIast, tagText].filter(Boolean);
+    const extraParts = [chapterCount(s.totalChapters), verseCount(s.totalVerses), s.titleIast, tagText].filter(Boolean);
     items.push({
       id: `scripture-${s.id}`,
       title: s.title,

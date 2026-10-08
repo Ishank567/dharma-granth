@@ -45,6 +45,7 @@ import {
 import { ReaderDialog } from './ReaderDialog';
 import { ReaderSettingsPanel } from './ReaderSettingsPanel';
 import { ReaderLayers } from './ReaderLayers';
+import { verseCount as fmtVerses } from '@/lib/format';
 
 export interface ReaderChapter {
   id: number;
@@ -605,7 +606,7 @@ export function VerseReader(props: VerseReaderProps) {
                     <span className="block truncate text-sm">{c.id}. {c.title}</span>
                     {c.titleSanskrit && <span lang="sa" className="block truncate font-devanagari text-sm text-dharma-muted">{c.titleSanskrit}</span>}
                   </span>
-                  {c.verseCount ? <span className="shrink-0 text-xs text-dharma-muted">{c.verseCount} verses</span> : null}
+                  {c.verseCount ? <span className="shrink-0 text-xs text-dharma-muted">{fmtVerses(c.verseCount)}</span> : null}
                 </Link>
               </li>
             ))}

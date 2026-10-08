@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { ArrowDown, ArrowRight, Clock } from 'lucide-react';
 import { getChapterOrientation } from '@/data/chapter-orientation';
+import { verseCount as fmtVerses } from '@/lib/format';
 
 interface Props {
   scriptureId: string;
@@ -43,7 +44,7 @@ export function ChapterOrientation({ scriptureId, chapterId, verseCount, firstVe
           <div>
             <dt className="font-semibold text-dharma-text">Length</dt>
             <dd className="inline-flex items-center gap-1 text-dharma-muted">
-              <Clock className="h-3.5 w-3.5" aria-hidden="true" /> {verseCount} verses · about {minutes} min to read, more to study
+              <Clock className="h-3.5 w-3.5" aria-hidden="true" /> {fmtVerses(verseCount)} · about {minutes} min to read, more to study
             </dd>
           </div>
         )}

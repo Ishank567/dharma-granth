@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { BookOpen, CheckCircle2, Circle } from 'lucide-react';
 import { useLocalStorage } from '@/lib/useLocalStorage';
 import { ToolCard } from './shared';
+import { plural } from '@/lib/format';
 
 interface Plan {
   id: string;
@@ -111,7 +112,7 @@ export function ReadingPlan() {
             />
           </div>
           <p className="text-xs text-dharma-muted">
-            {done.length}/{plan.days} days complete
+            {done.length}/{plan.days} {plural(plan.days, 'day')} complete
           </p>
 
           <ul className="max-h-48 overflow-y-auto pr-1 space-y-1">

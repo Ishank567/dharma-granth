@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Search, X, BookOpen, Sparkles, Filter } from 'lucide-react';
 import { dictionary, termCategories, type DictionaryTerm, type TermCategory } from '@/data/dictionary';
+import { plural, verseCount } from '@/lib/format';
 
 export function DictionaryClient() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -173,7 +174,7 @@ export function DictionaryClient() {
 
                     <div className="pt-3 border-t border-dharma-border/60 flex items-center justify-between text-xs text-dharma-muted mt-auto">
                       <span className="text-[11px]">
-                        {term.crossTradition.length} traditions · {term.verses.length} verses
+                        {term.crossTradition.length} {plural(term.crossTradition.length, 'tradition')} · {verseCount(term.verses.length)}
                       </span>
                       <span className="font-semibold text-saffron-700 group-hover:translate-x-1 transition-transform flex items-center gap-1">
                         Explore →

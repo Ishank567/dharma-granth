@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { CalendarDays, ArrowRight } from 'lucide-react';
 import { upcomingFestivals, type UpcomingFestival } from '@/data/festival-dates';
 import { ToolCard } from './shared';
+import { dayCount } from '@/lib/format';
 
 /**
  * Upcoming festivals and observances. Computed on the client after mount so
@@ -21,7 +22,7 @@ export function FestivalReminder() {
   function daysLabel(days: number): string {
     if (days === 0) return 'आज · today';
     if (days === 1) return 'कल · tomorrow';
-    return `${days} days`;
+    return dayCount(days);
   }
 
   return (

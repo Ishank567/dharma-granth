@@ -31,6 +31,7 @@
     "og:verses": "tsx scripts/generate-og-images.ts --verses",
     "logo:build": "node scripts/build-logo.mjs",
     "report:quality": "tsx scripts/quality-report.ts",
+    "test:format": "tsx scripts/test-format.ts",
     "check:journeys": "tsx scripts/check-journeys.ts",
     "check": "tsx scripts/check-data.ts && tsx scripts/check-filler.ts && tsx scripts/check-wisdom.ts && tsx scripts/check-commentary-quality.ts && tsx scripts/check-published-scriptures.ts",
     "check:commentary": "tsx scripts/check-commentary-quality.ts",

@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { FadeUp, FadeUpOnView } from '@/app/components/motion/primitives';
 import { topics, topicCategories, type Topic } from '@/data/topics';
 
+import { verseCount } from '@/lib/format';
 export const metadata: Metadata = {
   title: 'Modern-Life Application — Dharma Granth',
   description:
@@ -107,7 +108,7 @@ function TopicCard({ topic }: { topic: Topic }) {
 
       {/* Footer */}
       <div className="flex items-center justify-between text-xs text-dharma-muted">
-        <span>{topic.verses.length} verses</span>
+        <span>{verseCount(topic.verses.length)}</span>
         <span className="font-semibold text-saffron-700 group-hover:translate-x-1 transition-transform">
           Explore →
         </span>
