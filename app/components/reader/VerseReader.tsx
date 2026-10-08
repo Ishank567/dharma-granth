@@ -350,7 +350,39 @@ export function VerseReader(props: VerseReaderProps) {
           </div>
         </header>
 
-        <main className={`mx-auto px-4 pb-32 pt-6 sm:pb-20 sm:pt-8 ${WIDTH[settings.readingWidth]}`}>
+        <div className="mx-auto flex justify-center gap-8 xl:px-6">
+        {/* Left sidebar (wide screens): where you are in the chapter */}
+        <aside aria-label="Chapter navigation" className="sticky top-20 hidden max-h-[calc(100vh-6rem)] w-60 shrink-0 self-start overflow-y-auto pt-8 xl:block">
+          <p lang="hi" className="font-devanagari text-sm font-semibold text-dharma-text">{sanskritName}</p>
+          <button type="button" onClick={() => setDialog('chapters')} aria-haspopup="dialog" className="focus-ring mt-0.5 min-h-[44px] w-full rounded-lg text-left text-sm text-dharma-muted hover:text-saffron-800 dark:hover:text-saffron-300">
+            Chapter {chapterId}: {chapterTitle} <ChevronDown className="inline h-3.5 w-3.5" aria-hidden="true" />
+          </button>
+          <p className="mt-2 text-xs font-medium text-dharma-muted">Verse {index + 1} of {total}</p>
+          <div className="mt-1 h-1.5 overflow-hidden rounded-full bg-dharma-border/70" aria-hidden="true">
+            <div className="h-full rounded-full bg-saffron-600" style={{ width: `${percent}%` }} />
+          </div>
+          <nav aria-label="Verses in this chapter" className="mt-4">
+            <ul className="grid grid-cols-5 gap-1.5">
+              {verses.map((v) => {
+                const current = String(v.number) === String(verse.number);
+                return (
+                  <li key={String(v.number)}>
+                    <Link
+                      href={v.href}
+                      aria-current={current ? 'true' : undefined}
+                      aria-label={`Verse ${v.number}`}
+                      className={`focus-ring flex h-11 items-center justify-center rounded-lg border text-xs font-semibold transition ${current ? 'border-saffron-700 bg-saffron-700 text-white' : 'border-dharma-border bg-dharma-card text-dharma-text hover:border-saffron-500'}`}
+                    >
+                      {v.number}
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
+          </nav>
+        </aside>
+
+        <main className={`min-w-0 flex-1 px-4 pb-32 pt-6 sm:pb-20 sm:pt-8 xl:px-0 ${WIDTH[settings.readingWidth]}`}>
           {/* 2 · Verse navigation (desktop; phones get the sticky bar below) */}
           <nav aria-label="Verse navigation" className="mb-6 hidden items-center justify-between gap-3 sm:flex">
             {navLink(prev, 'prev', 'row')}
@@ -370,38 +402,6 @@ export function VerseReader(props: VerseReaderProps) {
 
           <h1 className="sr-only">{label}</h1>
 
-          {/* Actions */}
-          {/* One swipeable row on phones keeps the verse near the top; it wraps from sm up. */}
-          <div role="toolbar" aria-label="Verse actions" data-focus-hide className="-mx-4 mb-6 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0 sm:pb-0">
-            <button type="button" onClick={() => onSpeak('normal')} aria-pressed={speaking === 'normal'} disabled={!canSpeak} className={actionBtn} title="Uses your device's speech voice">
-              {speaking === 'normal' ? <Pause className="h-4 w-4" aria-hidden="true" /> : <Volume2 className="h-4 w-4 text-saffron-700 dark:text-saffron-300" aria-hidden="true" />}
-              {speaking === 'normal' ? 'Stop' : 'Listen'}
-            </button>
-            <button type="button" onClick={() => onSpeak('slow')} aria-pressed={speaking === 'slow'} disabled={!canSpeak} className={actionBtn} title="Slow pronunciation (0.7×), uses your device's speech voice">
-              {speaking === 'slow' ? <Pause className="h-4 w-4" aria-hidden="true" /> : <Volume1 className="h-4 w-4 text-saffron-700 dark:text-saffron-300" aria-hidden="true" />}
-              {speaking === 'slow' ? 'Stop' : 'Slow'}
-            </button>
-            <button type="button" onClick={onBookmark} aria-pressed={saved} className={actionBtn}>
-              {saved ? <BookmarkCheck className="h-4 w-4" aria-hidden="true" /> : <Bookmark className="h-4 w-4" aria-hidden="true" />}
-              {saved ? 'Saved' : 'Save'}
-            </button>
-            <button type="button" onClick={openNote} className={actionBtn}>
-              <StickyNote className="h-4 w-4" aria-hidden="true" />
-              {noteText ? 'Edit note' : 'Note'}
-              {noteText && <span className="h-1.5 w-1.5 rounded-full bg-saffron-600" aria-label="has a note" />}
-            </button>
-            <button type="button" onClick={onCopy} className={actionBtn}>
-              <Copy className="h-4 w-4" aria-hidden="true" /> Copy
-            </button>
-            <button type="button" onClick={onShare} className={actionBtn}>
-              <Share2 className="h-4 w-4" aria-hidden="true" /> Share
-            </button>
-            <button type="button" onClick={onDownload} className={actionBtn}>
-              <Download className="h-4 w-4" aria-hidden="true" /> Download
-            </button>
-            <button type="button" onClick={() => setDialog('report')} className={actionBtn}>
-              <Flag className="h-4 w-4" aria-hidden="true" /> Report error
-            </button>
           {settings.focusMode && (
             <div role="region" aria-label="Focus mode controls" className="mb-6 flex flex-wrap items-center gap-2 rounded-2xl border border-dharma-border bg-dharma-card/80 p-2 text-xs">
               <button type="button" onClick={() => update('focusMode', false)} className={actionBtn}>
@@ -443,10 +443,89 @@ export function VerseReader(props: VerseReaderProps) {
           )}
 
 
+          {/* Actions */}
+          {/* One swipeable row on phones keeps the verse near the top; it wraps from sm up. */}
+          <div role="toolbar" aria-label="Verse actions" data-focus-hide className="-mx-4 mb-6 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0 sm:pb-0">
+            <button type="button" onClick={() => onSpeak('normal')} aria-pressed={speaking === 'normal'} disabled={!canSpeak} className={actionBtn} title="Uses your device's speech voice">
+              {speaking === 'normal' ? <Pause className="h-4 w-4" aria-hidden="true" /> : <Volume2 className="h-4 w-4 text-saffron-700 dark:text-saffron-300" aria-hidden="true" />}
+              {speaking === 'normal' ? 'Stop' : 'Listen'}
+            </button>
+            <button type="button" onClick={() => onSpeak('slow')} aria-pressed={speaking === 'slow'} disabled={!canSpeak} className={actionBtn} title="Slow pronunciation (0.7×), uses your device's speech voice">
+              {speaking === 'slow' ? <Pause className="h-4 w-4" aria-hidden="true" /> : <Volume1 className="h-4 w-4 text-saffron-700 dark:text-saffron-300" aria-hidden="true" />}
+              {speaking === 'slow' ? 'Stop' : 'Slow'}
+            </button>
+            <button type="button" onClick={onBookmark} aria-pressed={saved} className={actionBtn}>
+              {saved ? <BookmarkCheck className="h-4 w-4" aria-hidden="true" /> : <Bookmark className="h-4 w-4" aria-hidden="true" />}
+              {saved ? 'Saved' : 'Save'}
+            </button>
+            <button type="button" onClick={openNote} className={actionBtn}>
+              <StickyNote className="h-4 w-4" aria-hidden="true" />
+              {noteText ? 'Edit note' : 'Note'}
+              {noteText && <span className="h-1.5 w-1.5 rounded-full bg-saffron-600" aria-label="has a note" />}
+            </button>
+            <button type="button" onClick={onCopy} className={actionBtn}>
+              <Copy className="h-4 w-4" aria-hidden="true" /> Copy
+            </button>
+            <button type="button" onClick={onShare} className={actionBtn}>
+              <Share2 className="h-4 w-4" aria-hidden="true" /> Share
+            </button>
+            <button type="button" onClick={onDownload} className={actionBtn}>
+              <Download className="h-4 w-4" aria-hidden="true" /> Download
+            </button>
+            <button type="button" onClick={() => setDialog('report')} className={actionBtn}>
+              <Flag className="h-4 w-4" aria-hidden="true" /> Report error
+            </button>
           </div>
 
-          {/* 3 · The layers */}
-          <ReaderLayers verse={verse} chapterId={chapterId} provenance={provenance} settings={settings} onReport={() => setDialog('report')} />
+          {/* 3 · Reader Mode Bar: [Quick] [Simple] [Deep] */}
+          <div
+            role="tablist"
+            aria-label="Reader mode"
+            className="mb-6 flex flex-wrap items-center justify-between gap-2 rounded-2xl border border-dharma-border bg-dharma-card/70 p-2 shadow-sm"
+          >
+            <div className="flex items-center gap-1.5 w-full sm:w-auto">
+              {(
+                [
+                  { id: 'quick', en: 'Quick', hi: 'संक्षेप', hint: '1-min core takeaway' },
+                  { id: 'simple', en: 'Simple', hi: 'सरल', hint: 'Clear meaning & life example' },
+                  { id: 'deep', en: 'Deep', hi: 'गहन', hint: 'Full padas, commentary & sources' },
+                ] as const
+              ).map((m) => {
+                const active = settings.readerMode === m.id;
+                return (
+                  <button
+                    key={m.id}
+                    type="button"
+                    role="tab"
+                    aria-selected={active}
+                    onClick={() => {
+                      triggerTactileFeedback('light', 'softTap');
+                      update('readerMode', m.id);
+                    }}
+                    className={`focus-ring flex-1 sm:flex-none min-h-[44px] px-3.5 py-1.5 rounded-xl text-xs sm:text-sm font-semibold transition-all ${
+                      active
+                        ? 'bg-saffron-600 text-white shadow-sm'
+                        : 'text-dharma-muted hover:text-dharma-text hover:bg-dharma-bg/80'
+                    }`}
+                  >
+                    <span className="flex items-center justify-center gap-1.5">
+                      <span lang="hi" className="font-devanagari">{m.hi}</span>
+                      <span className="opacity-60">·</span>
+                      <span>{m.en}</span>
+                    </span>
+                  </button>
+                );
+              })}
+            </div>
+            <span className="hidden sm:inline-block text-xs text-dharma-muted pr-3">
+              {settings.readerMode === 'quick' && 'त्वरित बोध · सार व व्यावहारिक प्रयोग'}
+              {settings.readerMode === 'simple' && 'सुबोध व्याख्या · जीवन में प्रासंगिकता'}
+              {settings.readerMode === 'deep' && 'गहन अध्ययन · पदच्छेद, भाष्य व संदर्भ'}
+            </span>
+          </div>
+
+          {/* 4 · The layers */}
+          <ReaderLayers scriptureId={scriptureId} verse={verse} chapterId={chapterId} provenance={provenance} settings={settings} onReport={() => setDialog('report')} />
 
           {noteText && (
             <section aria-label="Your private note" className="mt-5 rounded-2xl border border-dashed border-dharma-border bg-dharma-card/60 p-4">
@@ -457,6 +536,36 @@ export function VerseReader(props: VerseReaderProps) {
 
           <div data-focus-hide>{children}</div>
         </main>
+
+        {/* Right rail (extra-wide screens): quick actions and page anchors */}
+        <aside aria-label="On this page" className="sticky top-20 hidden w-56 shrink-0 self-start pt-8 2xl:block">
+          <h2 className="text-xs font-bold uppercase tracking-wide text-dharma-muted">On this page</h2>
+          <ul className="mt-2 space-y-0.5 text-sm">
+            {[
+              ['layer-sanskrit', 'Original verse'],
+              ['understand-h', 'Understand this verse'],
+              ['layer-tradition', 'Traditional commentary'],
+              ['layer-sources', 'Sources'],
+            ].map(([id, text]) => (
+              <li key={id}>
+                <a href={`#${id}`} className="focus-ring flex min-h-[44px] items-center rounded-lg px-2 text-dharma-text hover:bg-dharma-card hover:text-saffron-800 dark:hover:text-saffron-300">{text}</a>
+              </li>
+            ))}
+          </ul>
+          <div className="mt-4 flex flex-col gap-2">
+            <button type="button" onClick={onBookmark} aria-pressed={saved} className={actionBtn}>
+              {saved ? <BookmarkCheck className="h-4 w-4" aria-hidden="true" /> : <Bookmark className="h-4 w-4" aria-hidden="true" />}
+              {saved ? 'Saved' : 'Save verse'}
+            </button>
+            <button type="button" onClick={() => setDialog('settings')} aria-haspopup="dialog" className={actionBtn}>
+              <SlidersHorizontal className="h-4 w-4" aria-hidden="true" /> Reader settings
+            </button>
+            <button type="button" onClick={() => setDialog('report')} className={actionBtn}>
+              <Flag className="h-4 w-4" aria-hidden="true" /> Report correction
+            </button>
+          </div>
+        </aside>
+        </div>
 
         {/* Mobile: sticky bottom verse navigation (the page has matching bottom padding, so it never covers the verse) */}
         <nav aria-label="Verse navigation" className="fixed inset-x-0 bottom-0 z-40 border-t border-dharma-border/80 bg-dharma-bg/95 backdrop-blur sm:hidden">

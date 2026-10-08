@@ -235,6 +235,17 @@ export function ReaderLayers({
   const tSize = TRANSLATION_SIZE[settings.translationSize];
   const aiCommentary = p.commentaryIsAi ? <AiBadge>AI-drafted · reviewed</AiBadge> : undefined;
 
+  const isQuick = settings.readerMode === 'quick';
+  const isDeep = settings.readerMode === 'deep';
+
+  // Language preferences
+  const showHindiTrans =
+    settings.showHindi &&
+    (settings.preferredLanguage === 'all' || settings.preferredLanguage === 'hindi' || isDeep);
+  const showEnglishTrans =
+    settings.showEnglish &&
+    (settings.preferredLanguage === 'all' || settings.preferredLanguage === 'english' || isDeep);
+
   return (
     <article id={`verse-${verse.number}`} className="space-y-5" aria-label={`Verse ${verse.number}`}>
       {/* 1 · Original Sanskrit */}
@@ -251,25 +262,25 @@ export function ReaderLayers({
               ॥ {toDevanagari(chapterId)}.{toDevanagari(verse.number)} ॥
             </span>
           </p>
+          <ExplainLine scriptureId={scriptureId} chapterId={chapterId} verseNumber={verse.number} lines={lines} scopeId="sanskrit-text" verseLabel={`${chapterId}.${verse.number}`} fullTranslation={cleanVerseField(verse.translation)} />
+          </>
         ) : (
           <p className="text-center text-sm text-dharma-muted">The Sanskrit text is not available for this verse.</p>
         )}
       </Layer>
 
-      {/* 2 · Roman transliteration */}
-      {settings.showTransliteration && verse.transliteration && (
+      {/* 2 · Roman transliteration (Shown in Simple and Deep modes) */}
+      {!isQuick && settings.showTransliteration && verse.transliteration && (
         <Layer id="layer-transliteration" kind="aid" title="Roman transliteration" titleHi="लिप्यन्तरण (IAST)">
           <p lang="sa-Latn" className={`whitespace-pre-line font-serif italic text-dharma-text/90 ${tSize} ${latinLeading}`}>
             {dash(cleanVerseField(verse.transliteration))}
           </p>
-          <ExplainLine scriptureId={scriptureId} chapterId={chapterId} verseNumber={verse.number} lines={lines} scopeId="sanskrit-text" verseLabel={`${chapterId}.${verse.number}`} fullTranslation={cleanVerseField(verse.translation)} />
-          </>
         </Layer>
       )}
 
-      {/* 3 · Pada / word-by-word */}
-      {verse.wordMeaning && (
-        <Layer id="layer-padas" kind="aid" title="Word by word" titleHi="पदच्छेद" collapsible>
+      {/* 3 · Pada / word-by-word (Deep mode or expanded aid in Simple mode) */}
+      {!isQuick && verse.wordMeaning && (
+        <Layer id="layer-padas" kind="aid" title="Word by word" titleHi="पदच्छेद" collapsible={!isDeep}>
           {glosses.length > 1 ? (
             <dl className="grid grid-cols-1 gap-2 sm:grid-cols-2">
               {glosses.map((g, i) => (
@@ -288,7 +299,7 @@ export function ReaderLayers({
       )}
 
       {/* 4 · Hindi translation */}
-      {settings.showHindi && verse.hindi && (
+      {showHindiTrans && verse.hindi && (
         <Layer
           id="layer-hindi"
           kind="translation"
@@ -303,7 +314,7 @@ export function ReaderLayers({
       )}
 
       {/* 5 · English translation */}
-      {settings.showEnglish && verse.translation && (
+      {showEnglishTrans && verse.translation && (
         <Layer
           id="layer-english"
           kind="translation"
@@ -316,17 +327,26 @@ export function ReaderLayers({
         </Layer>
       )}
 
-      {/* 6 · Traditional commentary: no classical commentary is in the data yet, and the page says so. */}
-      <Layer id="layer-tradition" kind="tradition" title="Traditional commentary" titleHi="परम्परागत भाष्य" collapsible>
-        <p className={`text-sm text-dharma-muted ${latinLeading}`}>
-          Classical commentary (for example, by the traditional ācāryas) has not been added for this text yet. The explanation below is an
-          editorial aid and should not be read as the view of any commentator.
-        </p>
-      </Layer>
+      {/* 6 · Traditional commentary (Shown in Deep mode or collapsible in Simple) */}
+      {!isQuick && (
+        <Layer id="layer-tradition" kind="tradition" title="Traditional commentary" titleHi="परम्परागत भाष्य" collapsible={!isDeep}>
+          <p className={`text-sm text-dharma-muted ${latinLeading}`}>
+            Classical commentary (for example, by the traditional ācāryas) has not been added for this text yet. The explanation below is an
+            editorial aid and should not be read as the view of any commentator.
+          </p>
+        </Layer>
+      )}
 
       {/* 7 · Simple explanation */}
       {verse.explanation && (
-        <Layer id="layer-explanation" kind="editorial" title="Simple explanation" titleHi="सरल व्याख्या" badge={aiCommentary} collapsible>
+        <Layer
+          id="layer-explanation"
+          kind="editorial"
+          title={isQuick ? "Key Message" : "Simple explanation"}
+          titleHi={isQuick ? "मुख्य संदेश" : "सरल व्याख्या"}
+          badge={aiCommentary}
+          collapsible={false}
+        >
           <p
             lang={/[ऀ-ॿ]/.test(verse.explanation) ? 'hi' : 'en'}
             className={`whitespace-pre-line text-dharma-text ${tSize} ${/[ऀ-ॿ]/.test(verse.explanation) ? devLeading : latinLeading} ${/[ऀ-ॿ]/.test(verse.explanation) ? 'font-devanagari' : 'font-serif'}`}
@@ -336,9 +356,16 @@ export function ReaderLayers({
         </Layer>
       )}
 
-      {/* 8 · Modern reflection */}
+      {/* 8 · Modern reflection / Practical action */}
       {verse.reflection && (
-        <Layer id="layer-reflection" kind="reflection" title="Modern reflection" titleHi="आधुनिक चिंतन" badge={aiCommentary} collapsible>
+        <Layer
+          id="layer-reflection"
+          kind="reflection"
+          title={isQuick ? "Practical Action & Takeaway" : "Modern reflection"}
+          titleHi={isQuick ? "दैनिक आचरण" : "आधुनिक चिंतन"}
+          badge={aiCommentary}
+          collapsible={false}
+        >
           <p
             lang={/[ऀ-ॿ]/.test(verse.reflection) ? 'hi' : 'en'}
             className={`whitespace-pre-line text-dharma-text ${tSize} ${/[ऀ-ॿ]/.test(verse.reflection) ? devLeading : latinLeading} ${/[ऀ-ॿ]/.test(verse.reflection) ? 'font-devanagari' : 'font-serif'}`}
@@ -348,9 +375,9 @@ export function ReaderLayers({
         </Layer>
       )}
 
-      {/* 9 · Research note */}
-      {verse.research && (
-        <Layer id="layer-research" kind="research" title="Research note" titleHi="शोध टिप्पणी" badge={aiCommentary} collapsible>
+      {/* 9 · Research note (Deep or Simple modes) */}
+      {!isQuick && verse.research && (
+        <Layer id="layer-research" kind="research" title="Research note" titleHi="शोध टिप्पणी" badge={aiCommentary} collapsible={!isDeep}>
           <p
             lang={/[ऀ-ॿ]/.test(verse.research) ? 'hi' : 'en'}
             className={`whitespace-pre-line text-dharma-text ${tSize} ${/[ऀ-ॿ]/.test(verse.research) ? devLeading : latinLeading} ${/[ऀ-ॿ]/.test(verse.research) ? 'font-devanagari' : 'font-serif'}`}
