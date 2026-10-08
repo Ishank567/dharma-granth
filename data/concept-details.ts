@@ -1110,6 +1110,117 @@ export const CONCEPT_DETAILS: Record<string, ConceptDetail> = {
     relatedConceptIds: ['yoga', 'viveka', 'moksha', 'samsara', 'dharma'],
     sources: ['Bhagavad Gita 6.35, 13.8', 'Patanjali Yoga Sutras 1.12–16', 'Bhartrihari Vairagya Shatakam', 'Vivekachudamani 19–30'],
   },
+  jnana: {
+    "id": "jnana",
+    "label": "Jnana",
+    "sanskrit": "ज्ञान",
+    "transliteration": "jñāna",
+    "category": "core",
+    "colorGradient": "from-sky-700 via-indigo-800 to-stone-950",
+    "simpleDefinition": {
+      "en": "Knowledge: in the scriptures, especially the kind of knowing that changes how a person sees themselves and the world, and not only the gathering of information.",
+      "hi": "ज्ञान: शास्त्रों में विशेषकर वह जानना जो मनुष्य के स्वयं और संसार को देखने के ढंग को बदल दे, केवल सूचनाओं का संग्रह नहीं।"
+    },
+    "derivation": {
+      "root": "ज्ञा (jñā)",
+      "rootMeaning": "To know, to understand",
+      "rootMeaningHi": "जानना, समझना",
+      "etymologyEn": "The word comes from the verbal root jñā, “to know”. It is related to English “know” and Greek “gnosis” through a shared ancient root. This is a general account of the word’s origin; a reviewed etymology has not yet been added.",
+      "etymologyHi": "यह शब्द धातु ज्ञा (जानना) से बना है। यह शब्द की उत्पत्ति का सामान्य परिचय है; समीक्षित व्युत्पत्ति अभी जोड़ी नहीं गई है।"
+    },
+    "contextualMeanings": [
+      {
+        "context": "Ordinary knowing",
+        "contextHi": "सामान्य जानकारी",
+        "meaningEn": "In everyday use, knowledge of a fact or a skill.",
+        "meaningHi": "दैनिक प्रयोग में किसी तथ्य या कौशल की जानकारी।"
+      },
+      {
+        "context": "Knowledge of the Self",
+        "contextHi": "आत्म-ज्ञान",
+        "meaningEn": "In Vedanta, the knowing that is said to remove ignorance about one’s own nature. Traditions describe it differently, so read the commentary alongside the verses.",
+        "meaningHi": "वेदांत में वह ज्ञान जो अपने स्वरूप के विषय में अज्ञान को हटाने वाला कहा गया है। परंपराएँ इसे अलग-अलग ढंग से बताती हैं, इसलिए श्लोकों के साथ टीका भी पढ़ें।"
+      },
+      {
+        "context": "Knowledge in the Gita",
+        "contextHi": "गीता में ज्ञान",
+        "meaningEn": "The Gita praises knowledge as a purifier (4.38), places it at the end of all action (4.33) and describes seeing one undivided reality in all beings as knowledge (18.20).",
+        "meaningHi": "गीता ज्ञान को पवित्र करने वाला कहती है (४.३८), उसे सब कर्मों की परिणति बताती है (४.३३) और सब प्राणियों में एक अविभक्त भाव को देखना ज्ञान कहती है (१८.२०)।"
+      }
+    ],
+    "verses": [
+      {
+        "sanskrit": "श्रेयान्द्रव्यमयाद्यज्ञाज्ज्ञानयज्ञः परन्तप।\nसर्वं कर्माखिलं पार्थ ज्ञाने परिसमाप्यते",
+        "transliteration": "śhreyān dravya-mayād yajñāj jñāna-yajñaḥ parantapa\nsarvaṁ karmākhilaṁ pārtha jñāne parisamāpyate",
+        "translationEn": "The sacrifice of knowledge is superior to material sacrifice. O Arjuna, all actions and everything else culminate in knowledge.",
+        "translationHi": "हे परन्तप अर्जुन ! द्रव्यमय यज्ञसे ज्ञानयज्ञ श्रेष्ठ है। सम्पूर्ण कर्म और पदार्थ ज्ञान-(तत्त्वज्ञान-) में समाप्त हो जाते हैं।",
+        "reference": "Bhagavad Gita 4.33",
+        "referenceHi": "भगवद्गीता ४.३३",
+        "href": "/scripture/bhagavadgita/chapter/4/verse/33"
+      },
+      {
+        "sanskrit": "न हि ज्ञानेन सदृशं पवित्रमिह विद्यते।\nतत्स्वयं योगसंसिद्धः कालेनात्मनि विन्दति",
+        "transliteration": "na hi jñānena sadṛiśhaṁ pavitramiha vidyate\ntatsvayaṁ yogasansiddhaḥ kālenātmani vindati",
+        "translationEn": "For there is no purifier equal to knowledge; he who is perfected in Karma Yoga finds this knowledge of his own accord in himself in due time.",
+        "translationHi": "इस मनुष्यलोकमें ज्ञानके समान पवित्र करनेवाला निःसन्देह दूसरा कोई साधन नहीं है। जिसका योग भली-भाँति सिद्ध हो गया है, वह (कर्मयोगी) उस तत्त्वज्ञानको अवश्य ही स्वयं अपने-आपमें पा लेता है।",
+        "reference": "Bhagavad Gita 4.38",
+        "referenceHi": "भगवद्गीता ४.३८",
+        "href": "/scripture/bhagavadgita/chapter/4/verse/38"
+      },
+      {
+        "sanskrit": "ज्ञानेन तु तदज्ञानं येषां नाशितमात्मनः।\nतेषामादित्यवज्ज्ञानं प्रकाशयति तत्परम्",
+        "transliteration": "jñānena tu tad ajñānaṁ yeṣhāṁ nāśhitam ātmanaḥ\nteṣhām āditya-vaj jñānaṁ prakāśhayati tat param",
+        "translationEn": "But for those in whom this ignorance is destroyed by the knowledge of the Self, that knowledge, in their case, is supreme and shines brightly like the sun.",
+        "translationHi": "परन्तु जिन्होंने अपने जिस ज्ञान-(विवक-) के द्वारा उस अज्ञानका नाश कर दिया है, उनका वह ज्ञान सूर्यकी तरह परमतत्त्व परमात्माको प्रकाशित कर देता है।",
+        "reference": "Bhagavad Gita 5.16",
+        "referenceHi": "भगवद्गीता ५.१६",
+        "href": "/scripture/bhagavadgita/chapter/5/verse/16"
+      },
+      {
+        "sanskrit": "सर्वभूतेषु येनैकं भावमव्ययमीक्षते।अविभक्तं विभक्तेषु तज्ज्ञानं विद्धि सात्त्विकम्",
+        "transliteration": "sarva-bhūteṣhu yenaikaṁ bhāvam avyayam īkṣhate\navibhaktaṁ vibhakteṣhu taj jñānaṁ viddhi sāttvikam",
+        "translationEn": "Know that knowledge to be sattvika, by which one sees in all beings an immutable existence, undivided even in the divided.",
+        "translationHi": "जिस ज्ञानके द्वारा साधक सम्पूर्ण विभक्त प्राणियोंमें विभागरहित एक अविनाशी भाव-(सत्ता-) को देखता है, उस ज्ञानको तुम सात्त्विक समझो।",
+        "reference": "Bhagavad Gita 18.20",
+        "referenceHi": "भगवद्गीता १८.२०",
+        "href": "/scripture/bhagavadgita/chapter/18/verse/20"
+      }
+    ],
+    "traditions": [
+      {
+        "tradition": "Advaita Vedanta",
+        "traditionHi": "अद्वैत वेदांत",
+        "viewEn": "Emphasises knowledge of the Self as the means by which ignorance is removed.",
+        "viewHi": "अज्ञान को हटाने के साधन के रूप में आत्म-ज्ञान पर बल देता है।"
+      },
+      {
+        "tradition": "Devotional traditions",
+        "traditionHi": "भक्ति परंपराएँ",
+        "viewEn": "Often present knowledge of the Lord and of the self as growing together with devotion, and not apart from it.",
+        "viewHi": "प्रायः ज्ञान को भक्ति के साथ बढ़ने वाला मानती हैं, उससे अलग नहीं।"
+      }
+    ],
+    "misunderstandings": [
+      {
+        "myth": "Jnana just means knowing a lot of information.",
+        "mythHi": "ज्ञान का अर्थ केवल बहुत-सी जानकारी होना है।",
+        "correction": "In these texts the word usually points to understanding that changes how one sees, and the Gita asks for it to be joined with action and with devotion, not collected for its own sake.",
+        "correctionHi": "इन ग्रंथों में यह शब्द प्रायः उस समझ की ओर संकेत करता है जो देखने का ढंग बदल दे, और गीता उसे कर्म तथा भक्ति से जोड़ने को कहती है।"
+      }
+    ],
+    "relatedConceptIds": [
+      "atman",
+      "moksha",
+      "yoga",
+      "maya",
+      "karma",
+      "bhakti"
+    ],
+    "sources": [
+      "Bhagavad Gita 4.33, 4.38, 5.16 and 18.20",
+      "Editorial summary: a draft, not yet reviewed"
+    ]
+  },
 };
 
 export function getConceptDetail(id: string): ConceptDetail | undefined {

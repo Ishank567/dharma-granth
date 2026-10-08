@@ -18,6 +18,8 @@ import {
   ChevronRight,
   Share2,
 } from 'lucide-react';
+import { ConceptRelations } from '../ConceptRelations';
+import { SaveConceptButton } from '../SaveConceptButton';
 
 interface PageProps {
   params: Promise<{ id: string }> | { id: string };
@@ -125,6 +127,7 @@ export default async function ConceptDetailPage({ params }: PageProps) {
             >
               {concept.simpleDefinition.hi}
             </p>
+            <SaveConceptButton conceptId={concept.id} label={concept.label} />
             <ShareCardButton
               reference={concept.label}
               concept={{ term: concept.sanskrit, transliteration: concept.transliteration, definition: concept.simpleDefinition.en }}
@@ -382,6 +385,8 @@ export default async function ConceptDetailPage({ params }: PageProps) {
             ))}
           </div>
         </section>
+
+        <ConceptRelations conceptId={concept.id} />
 
         {/* ── Section 6: Related Concepts (संबंधित अवधारणाएँ) ──────────────── */}
         {concept.relatedConceptIds.length > 0 && (

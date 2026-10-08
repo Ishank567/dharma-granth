@@ -275,6 +275,15 @@ async function main() {
   const recordsMod = await import('../data/review-records');
   assert.ok(recordsMod.REVIEW_RECORDS.every(rb.isValidRecord), 'every recorded review names a reviewer and a valid date');
 
+  const sc = await import('../lib/saved-concepts');
+  const cs = new MemoryStorage();
+  assert.deepEqual(sc.readSavedConcepts(cs), []);
+  assert.deepEqual(sc.toggleSavedConcept('karma', cs), ['karma']);
+  assert.deepEqual(sc.toggleSavedConcept('jnana', cs), ['karma', 'jnana']);
+  assert.deepEqual(sc.toggleSavedConcept('karma', cs), ['jnana'], 'saving again removes it');
+  assert.deepEqual(sc.toggleSavedConcept('../bad id', cs), ['jnana'], 'an invalid id changes nothing');
+  cs.setItem(sc.SAVED_CONCEPTS_KEY, JSON.stringify(['yoga', 'yoga', 7, 'bad id!', null]));
+  assert.deepEqual(sc.readSavedConcepts(cs), ['yoga'], 'duplicates and malformed entries are dropped on read');
   assert.equal(rb.reviewStatusForHref('/scripture/bhagavadgita/chapter/2/verse/47/', []), 'Not yet reviewed');
   assert.equal(rb.reviewStatusForHref('/concepts/karma', []), 'Not yet reviewed');
   assert.equal(rb.reviewStatusForHref('/scripture/bhagavadgita/chapter/2/verse/47/', [rec('translation')]), 'Reviewed 2026-10-08', 'a recorded review shows its date in search results');

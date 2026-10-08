@@ -13,6 +13,8 @@ import { readRecentChapters, type ChapterVisit } from '@/lib/reading-history';
 import { READING_JOURNEYS } from '@/data/reading-journeys';
 import { WeeklySummary } from './WeeklySummary';
 import { Reminders } from './Reminders';
+import { SavedConcepts } from './SavedConcepts';
+import { StorageInfo } from './StorageInfo';
 
 const NOTES_KEY = 'dharma.notes';
 const QUEUE_KEY = 'dharma.desk.queue';
@@ -216,6 +218,10 @@ export function DeskClient() {
             <SavedCollections onChange={load} onQueue={addToQueue} />
           </Section>
 
+          <Section id="concepts-h" title="Saved concepts" titleHi="सहेजी अवधारणाएँ">
+            <SavedConcepts />
+          </Section>
+
           <Section id="notes-h" title="Personal notes" titleHi="निजी टिप्पणियाँ">
             {notes.length === 0 ? empty('No notes yet. Use Note on any verse; notes stay on this device.') : (
               <ul className="space-y-2">
@@ -286,6 +292,10 @@ export function DeskClient() {
 
           <Section id="reminders-h" title="Reminders" titleHi="स्मरण">
             <Reminders />
+          </Section>
+
+          <Section id="storage-h" title="Storage information" titleHi="संग्रहण की जानकारी">
+            <StorageInfo />
           </Section>
 
           <Section id="offline-h" title="Offline and downloads" titleHi="ऑफ़लाइन">
