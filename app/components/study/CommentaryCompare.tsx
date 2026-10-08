@@ -21,7 +21,7 @@ export function CommentaryCompare({
   chapterId: number;
   verse: ReaderVerseText;
 }) {
-  const all = COMMENTARIES[verseKey(scriptureId, chapterId, verse.number)] ?? [];
+  const all = useMemo(() => COMMENTARIES[verseKey(scriptureId, chapterId, verse.number)] ?? [], [scriptureId, chapterId, verse.number]);
   const [commentator, setCommentator] = useState('');
   const [tradition, setTradition] = useState('');
   const [language, setLanguage] = useState('');

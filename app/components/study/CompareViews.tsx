@@ -76,16 +76,22 @@ export function CompareViews({ verse, provenance: p }: { verse: ReaderVerseText;
         <p className="mb-2 text-xs text-dharma-muted">{v.source}</p>
         <ol lang={v.lang} className={`space-y-1 ${v.devanagari ? 'font-devanagari text-lg leading-[2]' : 'font-serif text-base leading-relaxed'}`}>
           {v.lines.map((line, i) => (
-            <li
-              key={i}
-              tabIndex={aligned ? 0 : undefined}
-              onMouseEnter={() => aligned && setHot(i)}
-              onMouseLeave={() => setHot(null)}
-              onFocus={() => aligned && setHot(i)}
-              onBlur={() => setHot(null)}
-              className={`list-none rounded px-1.5 py-0.5 ${hot === i ? 'bg-amber-100 outline outline-1 outline-amber-700/40 dark:bg-amber-900/40' : ''}`}
-            >
-              {line}
+            <li key={i} className="list-none">
+              {aligned ? (
+                <button
+                  type="button"
+                  aria-label={`Line ${i + 1}: ${line}. Marks the matching line in the other view.`}
+                  onMouseEnter={() => setHot(i)}
+                  onMouseLeave={() => setHot(null)}
+                  onFocus={() => setHot(i)}
+                  onBlur={() => setHot(null)}
+                  className={`focus-ring block w-full rounded px-1.5 py-0.5 text-left ${hot === i ? 'bg-amber-100 outline outline-1 outline-amber-700/40 dark:bg-amber-900/40' : ''}`}
+                >
+                  {line}
+                </button>
+              ) : (
+                <span className="block px-1.5 py-0.5">{line}</span>
+              )}
             </li>
           ))}
         </ol>
