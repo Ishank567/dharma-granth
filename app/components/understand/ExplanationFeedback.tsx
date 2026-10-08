@@ -12,6 +12,8 @@ const REASONS = [
   'Explanation was too long',
   'Context was missing',
   'Source was unclear',
+  'Vocabulary was not explained',
+  'I have a source concern',
   'Possible textual error',
   'Other',
 ] as const;

@@ -15,6 +15,8 @@ export const REASON_IDS: Record<string, string> = {
   'Explanation was too long': 'long',
   'Context was missing': 'context',
   'Source was unclear': 'source',
+  'Vocabulary was not explained': 'vocabulary',
+  'I have a source concern': 'source-concern',
   'Possible textual error': 'textual',
   Other: 'other',
 };
