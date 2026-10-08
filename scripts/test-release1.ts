@@ -51,6 +51,60 @@ async function main() {
   assert.equal(history.importHistory(messy), 0, 'malformed entries are dropped');
   assert.equal(history.readRecentChapters().length, before);
 
+  /* ── Collections ── */
+  const col = await import('../lib/verse-collections');
+  let st = col.emptyState();
+  assert.deepEqual(st.collections.map((c) => c.name), ['Read Later', 'Favourites', 'Study Carefully', 'Daily Reflection', 'Share Later']);
+  const v1 = { scriptureId: 'bhagavadgita', chapterId: 2, verseId: 47 };
+  const v2 = { scriptureId: 'ishavasya', chapterId: 1, verseId: 1 };
+  assert.equal(col.collectionOf(st, v1), 'read-later', 'unassigned saved verses are in Read Later');
+
+  const made = col.createCollection(st, '  Exam week  ');
+  assert.ok(made.id && !made.error);
+  st = made.state;
+  assert.equal(st.collections.at(-1)?.name, 'Exam week');
+  assert.ok(col.createCollection(st, 'exam WEEK').error, 'names are unique ignoring case');
+  assert.ok(col.createCollection(st, '   ').error);
+  assert.equal(col.createCollection(st, 'x'.repeat(80)).state.collections.at(-1)?.name.length, col.MAX_NAME);
+
+  st = col.moveVerse(st, v1, made.id!);
+  st = col.moveVerse(st, v2, 'favourites');
+  assert.equal(col.collectionOf(st, v1), made.id);
+  assert.equal(col.collectionOf(st, v2), 'favourites');
+  assert.equal(col.moveVerse(st, v1, 'no-such-collection'), st, 'moving to an unknown collection changes nothing');
+
+  assert.ok(col.renameCollection(st, 'read-later', 'Later').error, 'built-ins keep their names');
+  const renamed = col.renameCollection(st, made.id!, 'Revision');
+  assert.equal(renamed.state.collections.find((c) => c.id === made.id)?.name, 'Revision');
+  assert.ok(col.renameCollection(st, made.id!, 'Favourites').error, 'rename cannot collide');
+
+  assert.ok(col.deleteCollection(st, 'favourites').error, 'built-ins cannot be deleted');
+  const removed = col.deleteCollection(renamed.state, made.id!);
+  assert.equal(col.collectionOf(removed.state, v1), 'read-later', 'deleting a collection moves its verses to Read Later');
+  assert.equal(removed.state.collections.length, 5);
+
+  const saved = [
+    { ...v1, scriptureTitle: 'Bhagavad Gita', chapterTitle: 'Sankhya Yoga', sanskrit: 'कर्मण्येवाधिकारस्ते', translation: 'You have the right to work alone' },
+    { ...v2, scriptureTitle: 'Isha Upanishad', chapterTitle: 'Isha', sanskrit: 'ईशा वास्यमिदं', translation: 'All this is pervaded by the Lord' },
+  ];
+  const note = (v: { verseId: number | string }) => (String(v.verseId) === '1' ? 'my private reminder about Isha' : undefined);
+  assert.equal(col.filterSaved(saved, st, { query: 'right to work' }).length, 1);
+  assert.equal(col.filterSaved(saved, st, { query: 'REMINDER' }, note).length, 1, 'search includes the private note');
+  assert.equal(col.filterSaved(saved, st, { scriptureId: 'ishavasya' }).length, 1);
+  assert.equal(col.filterSaved(saved, st, { collectionId: 'favourites' }).length, 1);
+  assert.equal(col.filterSaved(saved, st, { query: 'kharma-not-there' }).length, 0);
+
+  // Export leaves private notes out unless they are explicitly passed.
+  const plain = col.buildExport(saved, st);
+  assert.ok(!plain.includes('private reminder') && !('notes' in JSON.parse(plain)));
+  const withNotes = col.buildExport(saved, st, [{ scriptureId: 'ishavasya', chapterId: 1, verseId: 1, text: 'private', updatedAt: 'x' }]);
+  assert.equal(col.parseExport(withNotes).notes.length, 1);
+  assert.equal(col.parseExport(plain).saved.length, 2);
+  assert.equal(col.parseExport(plain).state.assign[col.verseKey(v2)], 'favourites', 'export then import keeps assignments');
+  assert.throws(() => col.parseExport('{"format":"other","version":1}'), /Not a Dharma Granth/);
+  assert.equal(col.sanitize({ collections: [{ id: 'bad id!', name: 'x' }, { id: 'ok-1', name: 'Fine' }], assign: { 'bhagavadgita:2:47': 'missing' } }).collections.length, 6);
+  assert.deepEqual(col.sanitize(null), col.emptyState());
+
   console.log('release1: all assertions passed');
 }
 

@@ -6,9 +6,9 @@ import { ArrowDown, ArrowUp, Lock, Trash2, Wifi, WifiOff } from 'lucide-react';
 import { RecommendationCards } from '@/app/components/study/RecommendationCards';
 import { BackupRestore } from '@/app/components/BackupRestore';
 import { HistoryControls } from './HistoryControls';
+import { SavedCollections } from './SavedCollections';
 import { daysAgo } from '@/lib/format';
 import { clearOwnData } from '@/lib/backup';
-import { BOOKMARKS_KEY, readBookmarks, type SavedVerse } from '@/lib/reader-actions';
 import { readRecentChapters, type ChapterVisit } from '@/lib/reading-history';
 import { READING_JOURNEYS } from '@/data/reading-journeys';
 
@@ -57,7 +57,6 @@ const empty = (text: string) => <p className="text-dharma-muted">{text}</p>;
 
 export function DeskClient() {
   const [ready, setReady] = useState(false);
-  const [saved, setSaved] = useState<SavedVerse[]>([]);
   const [notes, setNotes] = useState<Note[]>([]);
   const [queue, setQueue] = useState<QueueItem[]>([]);
   const [recent, setRecent] = useState<ChapterVisit[]>([]);
@@ -72,7 +71,6 @@ export function DeskClient() {
   const [msg, setMsg] = useState('');
 
   const load = useCallback(() => {
-    setSaved(readBookmarks());
     setNotes(getJSON<Note[]>(NOTES_KEY, []));
     setQueue(getJSON<QueueItem[]>(QUEUE_KEY, []));
     setRecent(readRecentChapters());
@@ -104,12 +102,6 @@ export function DeskClient() {
   const flash = (m: string) => setMsg(m);
 
   /* ── records ── */
-  const removeSaved = (v: SavedVerse) => {
-    const next = saved.filter((b) => !(b.scriptureId === v.scriptureId && b.chapterId === v.chapterId && String(b.verseId) === String(v.verseId)));
-    setSaved(next);
-    setJSON(BOOKMARKS_KEY, next);
-    flash('Verse removed');
-  };
   const removeNote = (n: Note) => {
     const next = notes.filter((x) => !(x.scriptureId === n.scriptureId && x.chapterId === n.chapterId && String(x.verseId) === String(n.verseId)));
     setNotes(next);
@@ -117,10 +109,9 @@ export function DeskClient() {
     flash('Note deleted');
   };
   const saveQueue = (next: QueueItem[]) => { setQueue(next); setJSON(QUEUE_KEY, next); };
-  const addToQueue = (v: SavedVerse) => {
-    const href = verseHref(v);
-    if (queue.some((q) => q.href === href)) return flash('Already in your reading queue');
-    saveQueue([...queue, { href, label: `${v.scriptureTitle} ${v.chapterId ?? ''}.${v.verseId}` }]);
+  const addToQueue = (item: QueueItem) => {
+    if (queue.some((q) => q.href === item.href)) return flash('Already in your reading queue');
+    saveQueue([...queue, item]);
     flash('Added to reading queue');
   };
   const move = (i: number, d: number) => {
@@ -218,20 +209,7 @@ export function DeskClient() {
           <RecommendationCards />
 
           <Section id="saved-h" title="Saved verses" titleHi="सहेजे श्लोक">
-            {saved.length === 0 ? empty('No saved verses yet. Use Save on any verse.') : (
-              <ul className="space-y-2">
-                {saved.map((v) => (
-                  <li key={`${v.scriptureId}-${v.chapterId}-${v.verseId}`} className="flex items-center gap-2 rounded-xl border border-dharma-border p-2">
-                    <Link href={verseHref(v)} className="min-w-0 flex-1">
-                      <span className="font-semibold text-dharma-text">{v.scriptureTitle} {v.chapterId}.{v.verseId}</span>
-                      <span lang="sa" className="block truncate font-devanagari text-dharma-muted">{v.sanskrit.split('\n')[0]}</span>
-                    </Link>
-                    <button type="button" onClick={() => addToQueue(v)} className={small}>Queue</button>
-                    <button type="button" onClick={() => removeSaved(v)} aria-label={`Remove ${v.scriptureTitle} ${v.chapterId}.${v.verseId}`} className={small}><Trash2 className="h-4 w-4" aria-hidden="true" /></button>
-                  </li>
-                ))}
-              </ul>
-            )}
+            <SavedCollections onChange={load} onQueue={addToQueue} />
           </Section>
 
           <Section id="notes-h" title="Personal notes" titleHi="निजी टिप्पणियाँ">
