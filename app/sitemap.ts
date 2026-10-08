@@ -56,6 +56,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     entry('/collections', pageDate('/collections'), 'monthly', 0.75),
   ];
 
+    entry('/start', pageDate('/start'), 'monthly', 0.7),
+    entry('/journeys', pageDate('/journeys', 'data/reading-journeys.ts'), 'monthly', 0.7),
+    entry('/story', pageDate('/story'), 'monthly', 0.6),
+    entry('/listen', pageDate('/listen'), 'monthly', 0.5),
   // 2. Individual Entity Pages
   const topicDate = lastChanged('data/topics.ts', 'app/topics/[id]/page.tsx');
   const topicRoutes = topics.map((t) => entry(`/topics/${t.id}`, topicDate, 'monthly', 0.8));

@@ -43,7 +43,7 @@ Code map
 
 - **Mobile (< 640 px):** one column, 16 px gutters, verse at 28 px, toolbar scrolls horizontally, one sticky bar only (the bottom verse navigation). Mode selector scrolls horizontally. Long layers start collapsed. Sequence: reference, Sanskrit, listen/save, mode selector, one line, simple meaning, example, misunderstanding, try today, reflection, commentary, sources, prev/next.
 - **Tablet (640–1023 px):** single column, `max-w-3xl`, verse navigation moves to the top row, toolbar wraps.
-- **Desktop (≥ 1024 px):** the reading column stays dominant (`max-w-3xl`, switchable to narrow/wide in settings). Teaching flow runs horizontally. **Not built yet:** the left chapter/verse rail and right "on this page" rail. Chapter and verse pickers are dialogs today.
+- **Desktop (≥ 1024 px):** the reading column stays dominant (`max-w-3xl`, switchable to narrow/wide in settings). Teaching flow runs horizontally. The left chapter/verse rail appears from 1280 px and the right "on this page" rail from 1536 px; below that the chapter and verse pickers are dialogs.
 
 ## 3. Modes (stored in `readerMode` of the reader settings; the settings panel and the selector share it)
 
@@ -129,7 +129,7 @@ Teaching flow → ordered list. Context timeline → ordered list with `aria-cur
 ## 8. Known gaps
 
 1. Extras (timeline, flow, before/after, misunderstanding, examples, 30-second) exist only for Gita 2.47. Gita 2.48 and Isha 1 have the base pedagogical data. Every other verse shows the verse layers only.
-2. No desktop left/right rails yet.
+2. (Done) Desktop left and right rails exist.
 3. Sandhi, grammar, interpretation comparison and review history have no data.
 4. No full-word-study page to link to.
 5. Editorial content for 2.47 was written for this change and needs a scholar's review before release.
