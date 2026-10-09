@@ -55,13 +55,43 @@ jobs:
       - name: Type check
         run: npm run typecheck
 
-      # ~1,200 verse share images take ~6 minutes to draw; reuse them until
-      # the verse text or the image template changes.
-      - name: Cache verse share images
-        uses: actions/cache@v4
+      # Drawing all ~2,300 verse images takes ~3.5 minutes. Save the cache in
+      # its own step: the combined cache action only stores a cache when the
+      # job succeeds, so a later export failure used to throw the images away
+      # and the next push drew them all again.
+      - name: Restore verse share images
+        id: og-verse
+        uses: actions/cache/restore@v4
         with:
           path: public/og/verse
-          key: og-verse-${{ hashFiles('scripts/generate-og-images.ts', 'lib/verse-paths.ts', 'public/data/scriptures-full/*.json') }}
+          key: og-verse-${{ hashFiles('scripts/generate-og-images.ts', 'lib/verse-paths.ts', 'lib/verse-pages.ts') }}-${{ hashFiles('public/data/scriptures-full/*.json') }}
+          restore-keys: |
+            og-verse-${{ hashFiles('scripts/generate-og-images.ts', 'lib/verse-paths.ts', 'lib/verse-pages.ts') }}-
+            og-verse-
+
+      - name: Shard scriptures for share images
+        run: npm run shard:scriptures
+
+      - name: Draw changed verse share images
+        run: npm run og:verses
+
+      - name: Save verse share images
+        if: steps.og-verse.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: public/og/verse
+          key: og-verse-${{ hashFiles('scripts/generate-og-images.ts', 'lib/verse-paths.ts', 'lib/verse-pages.ts') }}-${{ hashFiles('public/data/scriptures-full/*.json') }}
+
+      # Next deletes dist/ but keeps dist/cache. This shortens the compile.
+      # Static pages are still generated.
+      - name: Cache Next.js build
+        uses: actions/cache@v4
+        with:
+          path: dist/cache
+          key: nextjs-${{ runner.os }}-${{ hashFiles('package-lock.json', 'next.config.js') }}-${{ hashFiles('app/**/*.ts', 'app/**/*.tsx', 'lib/**/*.ts', 'lib/**/*.tsx', 'data/**/*.ts') }}
+          restore-keys: |
+            nextjs-${{ runner.os }}-${{ hashFiles('package-lock.json', 'next.config.js') }}-
+            nextjs-${{ runner.os }}-
 
       - name: Build static export
         # prebuild: data publish + checks + verse images.
@@ -72,6 +102,12 @@ jobs:
 
       # Real-browser smoke test of dist/ with _headers (CSP) applied: runtime
       # errors, hydration, redirects. A failure stops the deploy.
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+
       - name: Install Chromium for the browser test
         run: npx playwright install --with-deps chromium
 

@@ -29,6 +29,10 @@ function remove(path) {
 
 let freed = 0;
 let kept = 0;
+
+// Content hashes for the verse-image cache. Not a page asset.
+const verseStamps = join(DIST, 'og/verse/_stamps.json');
+if (existsSync(verseStamps)) freed += remove(verseStamps);
 if (existsSync(DATA)) {
   for (const name of readdirSync(DATA)) {
     const path = join(DATA, name);

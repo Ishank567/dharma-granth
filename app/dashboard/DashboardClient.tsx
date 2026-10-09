@@ -1,18 +1,35 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import { Flame, BookOpen, Bookmark, Award, ArrowRight, TrendingUp, FolderOpen, Highlighter, StickyNote } from 'lucide-react';
 import { useStudyProgress } from '@/lib/useStudyProgress';
 import { BackupRestore } from '@/app/components/BackupRestore';
-import { DailyVerse } from '@/app/components/DailyVerse';
-import { PinterestWisdom } from '@/app/components/PinterestWisdom';
 import { FadeUp, FadeUpOnView, Stagger, StaggerItem } from '@/app/components/motion/primitives';
 import { PATHWAY_SUMMARIES, TOTAL_QUIZZES_COUNT } from '@/data/pathways-meta';
 import type { VerseHighlight } from '@/lib/useStudyProgress';
 import { chapterVerseHref } from '@/lib/verse-paths';
-import { DailyDharmaDashboard } from '@/app/components/daily/DailyDharmaDashboard';
-import { DailyPracticePreview } from '@/app/components/DailyPracticePreview';
+
+// Loaded after the dashboard shell so they stay out of the first-load script
+// budget (320 KB gzip). Backup restore stays in the shell; the smoke test
+// clicks it as soon as the page opens.
+const DailyDharmaDashboard = dynamic(
+  () => import('@/app/components/daily/DailyDharmaDashboard').then((m) => m.DailyDharmaDashboard),
+  { ssr: false },
+);
+const DailyVerse = dynamic(
+  () => import('@/app/components/DailyVerse').then((m) => m.DailyVerse),
+  { ssr: false },
+);
+const PinterestWisdom = dynamic(
+  () => import('@/app/components/PinterestWisdom').then((m) => m.PinterestWisdom),
+  { ssr: false },
+);
+const DailyPracticePreview = dynamic(
+  () => import('@/app/components/DailyPracticePreview').then((m) => m.DailyPracticePreview),
+  { ssr: false },
+);
 
 // Literal class strings so Tailwind keeps them (matches VerseCard's palette).
 const HIGHLIGHT_SWATCH: Record<VerseHighlight['color'], string> = {

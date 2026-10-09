@@ -43,8 +43,12 @@ repository secret**, add:
 ## 4. First deploy (on the preview domain)
 
 Push to `master`, or run **Actions → Deploy Cloudflare Pages → Run workflow**.
-The first build takes ~15 minutes (it draws ~1,200 verse share images; later
-builds reuse them from cache).
+A cold build takes about 15 minutes. The slow part is GitHub Actions, before
+Cloudflare receives the upload: checkout, the static export of about 6,200
+pages, then the browser smoke test. Verse share images are the large
+avoidable piece (about 2,300 images, ~3.5 minutes) and are redrawn only when
+that verse's text or the image template changes. Later builds also reuse the
+Next.js compile cache and the Playwright browser.
 
 Check the preview at **<https://dharma-granth.pages.dev>**:
 

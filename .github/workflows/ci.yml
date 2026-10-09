@@ -44,17 +44,51 @@ jobs:
       - name: Type check
         run: npm run typecheck
 
-      - name: Cache verse share images
-        uses: actions/cache@v4
+      # Same cache as deploy-cloudflare.yml. Saved before the export so a
+      # later check failure does not discard the images.
+      - name: Restore verse share images
+        id: og-verse
+        uses: actions/cache/restore@v4
         with:
           path: public/og/verse
-          key: og-verse-${{ hashFiles('scripts/generate-og-images.ts', 'lib/verse-paths.ts', 'public/data/scriptures-full/*.json') }}
+          key: og-verse-${{ hashFiles('scripts/generate-og-images.ts', 'lib/verse-paths.ts', 'lib/verse-pages.ts') }}-${{ hashFiles('public/data/scriptures-full/*.json') }}
+          restore-keys: |
+            og-verse-${{ hashFiles('scripts/generate-og-images.ts', 'lib/verse-paths.ts', 'lib/verse-pages.ts') }}-
+            og-verse-
+
+      - name: Shard scriptures for share images
+        run: npm run shard:scriptures
+
+      - name: Draw changed verse share images
+        run: npm run og:verses
+
+      - name: Save verse share images
+        if: steps.og-verse.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: public/og/verse
+          key: og-verse-${{ hashFiles('scripts/generate-og-images.ts', 'lib/verse-paths.ts', 'lib/verse-pages.ts') }}-${{ hashFiles('public/data/scriptures-full/*.json') }}
+
+      - name: Cache Next.js build
+        uses: actions/cache@v4
+        with:
+          path: dist/cache
+          key: nextjs-${{ runner.os }}-${{ hashFiles('package-lock.json', 'next.config.js') }}-${{ hashFiles('app/**/*.ts', 'app/**/*.tsx', 'lib/**/*.ts', 'lib/**/*.tsx', 'data/**/*.ts') }}
+          restore-keys: |
+            nextjs-${{ runner.os }}-${{ hashFiles('package-lock.json', 'next.config.js') }}-
+            nextjs-${{ runner.os }}-
 
       - name: Build static export
         # postbuild runs the export checks, prune and Cloudflare size limits.
         run: npm run build
         env:
           NODE_OPTIONS: "--max-old-space-size=6144"
+
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
 
       - name: Install Chromium for the browser test
         run: npx playwright install --with-deps chromium

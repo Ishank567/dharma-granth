@@ -18,6 +18,7 @@
  * Run: npm run og:build
  *      npm run og:verses
  */
+import { createHash } from "node:crypto";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import satori from "satori";
@@ -35,6 +36,10 @@ const OUT_DIR = resolve(ROOT, "public/og");
 const THUMB_DIR = resolve(OUT_DIR, "thumb");
 const ICON_DIR = resolve(ROOT, "public/icons");
 const FONT_CACHE = resolve(ROOT, "scripts/.fonts");
+// Sits in the cached verse-image directory. Bump when the layout changes.
+// prune-export removes the copy Next places in dist/ so it is not deployed.
+const VERSE_IMAGE_REV = "1";
+const VERSE_STAMPS = resolve(OUT_DIR, "verse", "_stamps.json");
 
 // Library cards are at most ~360 CSS px wide; 720 covers 2x screens.
 const THUMB_WIDTH = 720;
@@ -398,9 +403,40 @@ function svgToPng(svg: string, width: number): Buffer {
   return new Resvg(svg, { fitTo: { mode: "width", value: width } }).render().asPng();
 }
 
+type VerseStamps = { rev: string; files: Record<string, string> };
+
+function loadVerseStamps(): VerseStamps {
+  if (!existsSync(VERSE_STAMPS)) return { rev: VERSE_IMAGE_REV, files: {} };
+  try {
+    const parsed = JSON.parse(readFileSync(VERSE_STAMPS, "utf8")) as Partial<VerseStamps>;
+    if (parsed.rev !== VERSE_IMAGE_REV || !parsed.files || typeof parsed.files !== "object") {
+      return { rev: VERSE_IMAGE_REV, files: {} };
+    }
+    return { rev: parsed.rev, files: parsed.files };
+  } catch {
+    return { rev: VERSE_IMAGE_REV, files: {} };
+  }
+}
+
+function verseImageStamp(label: string, opening: string, english: string): string {
+  return createHash("sha256")
+    .update(VERSE_IMAGE_REV)
+    .update("\0")
+    .update(label)
+    .update("\0")
+    .update(opening)
+    .update("\0")
+    .update(english)
+    .digest("hex");
+}
+
 async function renderVerseImages(fonts: SatoriFont[]): Promise<void> {
   const params = verseStaticParams();
   console.log(`[og] rendering up to ${params.length} verse share images`);
+  const stamps = loadVerseStamps();
+  const nextFiles: Record<string, string> = {};
+  // One parse per chapter. The param list hits the same shard once per verse.
+  const chapters = new Map<string, ReturnType<typeof readSeededChapter>>();
   let written = 0;
   for (const param of params) {
     const chapterId = Number(param.chapterId);
@@ -409,8 +445,10 @@ async function renderVerseImages(fonts: SatoriFont[]): Promise<void> {
     const fileName = `${chapterId}-${param.verseId.replace(/\./g, "-")}.jpg`;
     const dir = resolve(OUT_DIR, "verse", param.id);
     const file = resolve(dir, fileName);
-    if (existsSync(file)) continue;
-    const seeded = readSeededChapter(param.id, chapterId);
+    const rel = `${param.id}/${fileName}`;
+    const cacheKey = `${param.id}:${chapterId}`;
+    if (!chapters.has(cacheKey)) chapters.set(cacheKey, readSeededChapter(param.id, chapterId));
+    const seeded = chapters.get(cacheKey) ?? null;
     const verses = (seeded?.chapter.verses ?? []) as Array<{
       number?: number | string;
       transliteration?: string;
@@ -435,6 +473,11 @@ async function renderVerseImages(fonts: SatoriFont[]): Promise<void> {
     );
     const english = clip((verse?.translation ?? "").replace(/\s+/g, " ").trim(), 150);
     const label = `${meta?.title ?? param.id} ${chapterId}.${param.verseId}`;
+    const stamp = verseImageStamp(label, opening, english);
+    nextFiles[rel] = stamp;
+    // Existence alone is not enough: a restored cache can hold a JPEG whose
+    // verse text has since changed. The stamp is the text that was drawn.
+    if (existsSync(file) && stamps.files[rel] === stamp) continue;
     const tree = {
       type: "div",
       props: {
@@ -495,6 +538,8 @@ async function renderVerseImages(fonts: SatoriFont[]): Promise<void> {
     written++;
     if (written % 50 === 0) console.log(`  ${written} new verse images`);
   }
+  mkdirSync(resolve(OUT_DIR, "verse"), { recursive: true });
+  writeFileSync(VERSE_STAMPS, JSON.stringify({ rev: VERSE_IMAGE_REV, files: nextFiles }));
   console.log(
     `  ✓ ${written} new, ${params.length - written} already present (${VERSE_PAGE_SCRIPTURE_IDS.length} books)`,
   );
