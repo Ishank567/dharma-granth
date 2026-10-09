@@ -11,14 +11,14 @@ Status as of this commit: first slice built and running at `/ashtavakra/`. This 
 | Homepage in the specified section order | Built, except audio and concept map (see section 7) |
 | 20-chapter "Path of Awareness" explorer | Built; vertical journey, two-column curve on desktop |
 | Chapter pages (chapters 1 and 2) | Built |
-| Verse pages in the specified 24-part order (chapters 1 and 2: 45 verses) | Built |
+| Verse pages in the specified 24-part order (chapters 1 to 3: 59 verses) | Built |
 | Chapter 1 environment ("mirror from mist") | Built as SVG with a static final state |
 | Other chapters | Quiet generic environment; real artwork not yet made |
 | Visual explanation cards (sakshi, ocean, ahankara, vairagya, karta) | Built, each with caption and text description |
 | Read markers, daily verse, continue reading | Built, local only |
 | Skip animation control | Built |
 
-Not built yet (specified below so it can be done in order): word explorer, Sakshi and Contemplation modes, interactive analogies, search, concept map, journal, timeline, audio. Chapters 3 to 20 are not published; chapter 3 is read and drafted (`data/ashtavakra/ch3-src-*.mjs`) but not composed.
+Not built yet (specified below so it can be done in order): word explorer, Sakshi and Contemplation modes, interactive analogies, search, concept map, journal, timeline, audio. Chapters 4 to 20 are not published.
 
 ## 2. Source and editorial honesty (comes before any visual work)
 
