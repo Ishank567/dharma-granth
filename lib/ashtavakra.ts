@@ -13,6 +13,14 @@ import chapter7 from '@/data/ashtavakra/chapter-7.json';
 import chapter8 from '@/data/ashtavakra/chapter-8.json';
 import chapter9 from '@/data/ashtavakra/chapter-9.json';
 import chapter10 from '@/data/ashtavakra/chapter-10.json';
+import chapter11 from '@/data/ashtavakra/chapter-11.json';
+import chapter12 from '@/data/ashtavakra/chapter-12.json';
+import chapter13 from '@/data/ashtavakra/chapter-13.json';
+import chapter14 from '@/data/ashtavakra/chapter-14.json';
+import chapter15 from '@/data/ashtavakra/chapter-15.json';
+import chapter16 from '@/data/ashtavakra/chapter-16.json';
+import chapter17 from '@/data/ashtavakra/chapter-17.json';
+import chapter18 from '@/data/ashtavakra/chapter-18.json';
 import { CHAPTERS, getChapterMeta } from '@/data/ashtavakra/chapters-meta';
 
 export interface AshtavakraVerse {
@@ -83,6 +91,14 @@ const DATA: Record<number, AshtavakraChapterData> = {
   8: chapter8 as unknown as AshtavakraChapterData,
   9: chapter9 as unknown as AshtavakraChapterData,
   10: chapter10 as unknown as AshtavakraChapterData,
+  11: chapter11 as unknown as AshtavakraChapterData,
+  12: chapter12 as unknown as AshtavakraChapterData,
+  13: chapter13 as unknown as AshtavakraChapterData,
+  14: chapter14 as unknown as AshtavakraChapterData,
+  15: chapter15 as unknown as AshtavakraChapterData,
+  16: chapter16 as unknown as AshtavakraChapterData,
+  17: chapter17 as unknown as AshtavakraChapterData,
+  18: chapter18 as unknown as AshtavakraChapterData,
 };
 
 export const getChapterData = (n: number): AshtavakraChapterData | undefined => DATA[n];
