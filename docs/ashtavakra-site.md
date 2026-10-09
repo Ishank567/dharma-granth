@@ -12,13 +12,14 @@ Status as of this commit: first slice built and running at `/ashtavakra/`. This 
 | 20-chapter "Path of Awareness" explorer | Built; vertical journey, two-column curve on desktop |
 | Chapter pages (chapters 1 and 2) | Built |
 | Verse pages in the specified 24-part order (chapters 1 to 10: 98 verses) | Built |
+| Word explorer (verified verses only) | Built at `/ashtavakra/words/`; padārtha as printed, grouped by initial, links back to verses |
 | Chapter 1 environment ("mirror from mist") | Built as SVG with a static final state |
 | Other chapters | Quiet generic environment; real artwork not yet made |
 | Visual explanation cards (sakshi, ocean, ahankara, vairagya, karta) | Built, each with caption and text description |
 | Read markers, daily verse, continue reading | Built, local only |
 | Skip animation control | Built |
 
-Not built yet (specified below so it can be done in order): word explorer, Sakshi and Contemplation modes, interactive analogies, search, concept map, journal, timeline, audio. Chapters 11 to 20 are not published.
+Not built yet (specified below so it can be done in order): Sakshi and Contemplation modes, interactive analogies, search, concept map, journal, timeline, audio. Chapters 11 to 20 are not published.
 
 ## 2. Source and editorial honesty (comes before any visual work)
 
@@ -125,7 +126,7 @@ Publishing a chapter: compose and build it (`ashtavakra-compose.mjs N`, `ashtava
 
 1. Compose chapter 3 and publish; continue chapters 4 to 20 (each needs the same page-by-page reading).
 2. Real artwork for chapter 1, then the others, from `art-prompts.md`.
-3. Word explorer (verified words only), then Sakshi and Contemplation modes.
+3. Sakshi and Contemplation modes.
 4. Search and concept map with a list alternative.
 5. Screen-reader, zoom and keyboard passes; then performance measurement on a low-end phone.
 

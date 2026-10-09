@@ -16,6 +16,7 @@ export default function AshtavakraLayout({ children }: { children: ReactNode }) 
           <nav aria-label="अष्टावक्र गीता" className="flex flex-wrap gap-4">
             <Link href="/ashtavakra/#chapters" style={{ minHeight: 44, display: 'inline-flex', alignItems: 'center' }}>20 प्रकरण</Link>
             <Link href="/ashtavakra/#concepts" style={{ minHeight: 44, display: 'inline-flex', alignItems: 'center' }}>अवधारणाएँ</Link>
+            <Link href="/ashtavakra/words/" style={{ minHeight: 44, display: 'inline-flex', alignItems: 'center' }}>शब्द</Link>
             <Link href="/ashtavakra/#source" style={{ minHeight: 44, display: 'inline-flex', alignItems: 'center' }}>स्रोत</Link>
           </nav>
         </div>

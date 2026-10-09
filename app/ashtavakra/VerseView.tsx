@@ -99,6 +99,9 @@ export function VerseFull({ v }: { v: AshtavakraVerse }) {
             </div>
           ))}
         </dl>
+        <p className="ash-meta mt-3">
+          <Link href="/ashtavakra/words/" className="ash-link underline">शब्द-अन्वेषण</Link>: सत्यापित श्लोकों के सभी प्रमुख शब्दार्थ एक जगह।
+        </p>
       </Section>
 
       <Section id="lit" title="शाब्दिक हिन्दी अर्थ">
