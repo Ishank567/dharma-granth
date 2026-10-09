@@ -1,0 +1,426 @@
+/*
+ * Ashtavakra Gita experience: design tokens, themes, visual modes and motion.
+ * Scoped to .ash so nothing leaks into the rest of the site.
+ *
+ * "4D-style experiential depth" = layered depth + change over time (a thought
+ * line dissolving, turbulent water settling). It is a design idea, not a claim
+ * about physical four-dimensional space.
+ *
+ * Rules that every rule below follows:
+ *  - Text is never hidden waiting for an animation; animation only adds to it.
+ *  - Only transform and opacity are animated.
+ *  - data-visual="reading" or data-motion="none" removes all decoration motion.
+ *  - prefers-reduced-motion removes it regardless of the saved setting.
+ */
+
+.ash {
+  /* brand palette */
+  --ash-ivory: #f7f0df;
+  --ash-saffron: #d7862a;
+  --ash-indigo: #17213f;
+  --ash-maroon: #6d2932;
+  --ash-gold: #b99045;
+  --ash-sand: #cfa878;
+  --ash-rose: #b96873;
+  --ash-teal: #315c59;
+  --ash-midnight: #0d1428;
+
+  /* light reading theme (parchment, never pure black) */
+  --ash-bg: #f7f0df;
+  --ash-bg-soft: #f2e8cf;
+  --ash-surface: #fbf6e8;
+  --ash-ink: #2b241b;
+  --ash-ink-soft: #5a4d3b;
+  --ash-line: rgba(185, 144, 69, 0.45);
+  --ash-accent: #9a4e14; /* saffron darkened for 4.5:1+ text contrast on parchment */
+  --ash-accent-fill: #d7862a;
+  --ash-glow: rgba(215, 134, 42, 0.18);
+
+  --ash-sanskrit: clamp(1.4rem, 1.05rem + 1.7vw, 2.15rem);
+  --ash-hindi: clamp(1.1rem, 1rem + 0.4vw, 1.3rem);
+
+  background: var(--ash-bg);
+  color: var(--ash-ink);
+  font-family: var(--font-noto-devanagari), 'Noto Sans Devanagari', system-ui, sans-serif;
+  position: relative;
+  isolation: isolate;
+}
+
+/* contemplation (dark) theme: deep indigo, warm ivory text, muted gold */
+.ash[data-scheme='dark'] {
+  --ash-bg: #17213f;
+  --ash-bg-soft: #111a33;
+  --ash-surface: #1d2850;
+  --ash-ink: #f1e8d2;
+  --ash-ink-soft: #cfc6af;
+  --ash-line: rgba(185, 144, 69, 0.5);
+  --ash-accent: #e0b066;
+  --ash-accent-fill: #b99045;
+  --ash-glow: rgba(224, 176, 102, 0.14);
+}
+
+.ash *:focus-visible {
+  outline: 3px solid var(--ash-accent);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* ───────── typography ───────── */
+.ash-sanskrit {
+  text-wrap: balance;
+  font-size: var(--ash-sanskrit);
+  line-height: 2;
+  font-weight: 600;
+  color: var(--ash-ink);
+  letter-spacing: 0.01em;
+}
+.ash-hindi {
+  font-size: var(--ash-hindi);
+  line-height: 2;
+}
+.ash-hindi p + p,
+.ash-prose p + p {
+  margin-top: 1rem;
+}
+.ash-prose {
+  line-height: 1.95;
+  font-size: 1.05rem;
+}
+.ash-meta {
+  font-size: 0.875rem;
+  color: var(--ash-ink-soft);
+}
+.ash-en {
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--ash-ink-soft);
+}
+.ash-eyebrow {
+  font-size: 0.8125rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ash-accent);
+  font-weight: 700;
+}
+
+/* ───────── surfaces ───────── */
+.ash-card {
+  background: var(--ash-surface);
+  border: 1px solid var(--ash-line);
+  border-radius: 1.25rem;
+  padding: 1.25rem;
+}
+@media (min-width: 640px) {
+  .ash-card {
+    padding: 1.75rem;
+  }
+}
+.ash-rule {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--ash-line), transparent);
+  border: 0;
+}
+.ash-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  min-height: 2rem;
+  padding: 0 0.7rem;
+  border-radius: 999px;
+  border: 1px solid var(--ash-line);
+  font-size: 0.875rem;
+  background: transparent;
+}
+.ash-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 48px;
+  padding: 0 1.4rem;
+  border-radius: 999px;
+  font-weight: 700;
+  border: 1px solid var(--ash-accent);
+  color: var(--ash-accent);
+  background: transparent;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+.ash-btn:hover {
+  background: var(--ash-glow);
+}
+.ash-btn-primary {
+  background: var(--ash-accent-fill);
+  border-color: var(--ash-accent-fill);
+  color: #1d1408;
+}
+.ash-btn-primary:hover {
+  background: var(--ash-gold);
+}
+
+/* ───────── layered environment (hero, chapter, journey) ───────── */
+.ash-env {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  z-index: -1;
+  pointer-events: none;
+}
+.ash-env > * {
+  position: absolute;
+  inset: 0;
+}
+.ash-layer-bg {
+  background:
+    radial-gradient(120% 80% at 50% 0%, var(--ash-glow), transparent 60%),
+    linear-gradient(180deg, var(--ash-bg) 0%, var(--ash-bg-soft) 100%);
+}
+.ash-layer-grain {
+  opacity: 0.35;
+  background-image: radial-gradient(rgba(120, 90, 40, 0.18) 1px, transparent 1px);
+  background-size: 5px 5px;
+  mix-blend-mode: multiply;
+}
+.ash[data-scheme='dark'] .ash-layer-grain {
+  opacity: 0.12;
+  mix-blend-mode: screen;
+}
+.ash-geometry {
+  opacity: 0.06; /* 2 to 8 percent behind reading areas */
+  color: var(--ash-gold);
+}
+.ash-hero-env svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* floating points: few, small, behind content, offscreen-safe */
+.ash-dust {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--ash-gold);
+  opacity: 0;
+}
+.ash-dust:nth-child(2n) {
+  width: 3px;
+  height: 3px;
+}
+
+/* ───────── layered journey: becomes quieter with each stage ───────── */
+.ash-stage {
+  border-radius: 1.25rem;
+  padding: 1.5rem;
+  border: 1px solid var(--ash-line);
+}
+.ash-stage[data-stage='1'] {
+  background: linear-gradient(135deg, #e9d3a8, #f1e1bd);
+  color: #2b241b;
+}
+.ash-stage[data-stage='2'] {
+  background: linear-gradient(135deg, #e8e2cf, #dfe3dc);
+  color: #2b241b;
+}
+.ash-stage[data-stage='3'] {
+  background: linear-gradient(135deg, #1d2850, #17213f);
+  color: #f1e8d2;
+}
+.ash-stage[data-stage='4'] {
+  background: linear-gradient(135deg, #fbf6e8, #f7edd0);
+  color: #2b241b;
+}
+
+/* ───────── chapter path ───────── */
+.ash-path {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.ash-path::before {
+  content: '';
+  position: absolute;
+  left: 1.6rem;
+  top: 1rem;
+  bottom: 1rem;
+  width: 2px;
+  background: linear-gradient(180deg, var(--ash-gold), transparent 95%);
+  opacity: 0.6;
+}
+.ash-portal {
+  position: relative;
+  display: block;
+  padding: 1rem 1rem 1rem 4.25rem;
+  min-height: 44px;
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  text-decoration: none;
+  color: inherit;
+  transition: background-color 0.25s ease, border-color 0.25s ease;
+}
+.ash-portal:hover {
+  background: var(--ash-glow);
+  border-color: var(--ash-line);
+}
+.ash-node {
+  position: absolute;
+  left: 0.5rem;
+  top: 0.9rem;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  border: 2px solid var(--ash-gold);
+  background: var(--ash-bg);
+  color: var(--ash-ink);
+  font-size: 0.95rem;
+}
+.ash-portal[data-ready='true'] .ash-node {
+  background: var(--ash-accent-fill);
+  color: #1d1408;
+}
+.ash-portal[data-read='true'] .ash-node {
+  box-shadow: 0 0 0 4px var(--ash-glow), 0 0 14px 2px var(--ash-gold);
+}
+@media (min-width: 900px) {
+  .ash-path {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+  }
+  .ash-path::before {
+    left: 50%;
+  }
+  .ash-path li:nth-child(even) {
+    margin-top: 2.5rem;
+  }
+}
+
+/* ───────── motion (only when allowed) ───────── */
+@keyframes ash-rise {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes ash-focus-in {
+  from { opacity: 0; filter: blur(6px); transform: translateY(8px); }
+  to { opacity: 1; filter: blur(0); transform: none; }
+}
+@keyframes ash-drift {
+  0% { opacity: 0; transform: translate3d(0, 0, 0); }
+  20% { opacity: 0.55; }
+  80% { opacity: 0.35; }
+  100% { opacity: 0; transform: translate3d(14px, -90px, 0); }
+}
+@keyframes ash-breathe {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.06); }
+}
+@keyframes ash-separate-a { from { transform: translateX(0); } to { transform: translateX(-90px); } }
+@keyframes ash-separate-b { from { transform: translateX(0); } to { transform: translateX(90px); } }
+@keyframes ash-lift { from { transform: translateY(0); opacity: 0.9; } to { transform: translateY(-34px); opacity: 0.35; } }
+@keyframes ash-clear { from { opacity: 0.85; } to { opacity: 0.12; } }
+@keyframes ash-cloud { from { transform: translateX(-6%); } to { transform: translateX(6%); } }
+
+@keyframes ash-fade { from { opacity: 0; } to { opacity: 1; } }
+
+/* reduced motion setting: a short fade only, no movement, no drifting points */
+.ash[data-motion='reduced'] .ash-reveal,
+.ash[data-motion='reduced'] .ash-hero-title {
+  animation: ash-fade 0.25s ease-out both;
+}
+
+/* default (immersive and balanced, full motion) */
+.ash[data-motion='full'][data-visual='immersive'] .ash-reveal,
+.ash[data-motion='full'][data-visual='balanced'] .ash-reveal {
+  animation: ash-rise 0.5s ease-out both;
+}
+.ash[data-motion='full'][data-visual='immersive'] .ash-hero-title {
+  animation: ash-focus-in 0.7s ease-out both;
+}
+.ash[data-motion='full'][data-visual='immersive'] .ash-dust {
+  animation: ash-drift 14s ease-in-out infinite;
+}
+.ash[data-motion='full'][data-visual='immersive'] .ash-dust:nth-child(2) { animation-delay: -3s; animation-duration: 17s; }
+.ash[data-motion='full'][data-visual='immersive'] .ash-dust:nth-child(3) { animation-delay: -6s; }
+.ash[data-motion='full'][data-visual='immersive'] .ash-dust:nth-child(4) { animation-delay: -9s; animation-duration: 19s; }
+.ash[data-motion='full'][data-visual='immersive'] .ash-dust:nth-child(5) { animation-delay: -12s; }
+.ash[data-motion='full'][data-visual='immersive'] .ash-dust:nth-child(6) { animation-delay: -15s; animation-duration: 21s; }
+.ash[data-motion='full'][data-visual='immersive'] .ash-node-current {
+  animation: ash-breathe 6s ease-in-out infinite;
+}
+.ash[data-motion='full'][data-visual='immersive'] .ash-cloud {
+  animation: ash-cloud 40s ease-in-out infinite alternate;
+}
+/* chapter 1: the layers of identity part, leaving a clear mirror */
+.ash[data-motion='full'][data-visual='immersive'] .ash-l-body { animation: ash-separate-a 9s ease-in-out forwards; }
+.ash[data-motion='full'][data-visual='immersive'] .ash-l-roles { animation: ash-separate-b 9s ease-in-out forwards; }
+.ash[data-motion='full'][data-visual='immersive'] .ash-l-thought { animation: ash-lift 9s ease-in-out forwards; }
+.ash[data-motion='full'][data-visual='immersive'] .ash-l-mist { animation: ash-clear 9s ease-in-out forwards; }
+
+/* no decorative layers on mobile: pointer-free, light on GPU */
+@media (max-width: 640px) {
+  .ash .ash-dust,
+  .ash .ash-parallax {
+    display: none;
+  }
+}
+
+/* reading mode: plain and typography-first */
+.ash[data-visual='reading'] .ash-env,
+.ash[data-visual='reading'] .ash-decor {
+  display: none;
+}
+.ash[data-visual='reading'] {
+  background: var(--ash-bg);
+}
+
+/* user chose no decorative motion */
+.ash[data-motion='none'] *,
+.ash[data-motion='none'] *::before,
+.ash[data-motion='none'] *::after {
+  animation: none !important;
+}
+.ash[data-motion='none'] .ash-dust {
+  display: none;
+}
+
+/* operating-system reduced motion always wins */
+@media (prefers-reduced-motion: reduce) {
+  .ash *,
+  .ash *::before,
+  .ash *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+  .ash .ash-dust {
+    display: none;
+  }
+}
+
+/* final state shown whenever motion is off: the clear mirror, parted layers */
+.ash:not([data-motion='full']) .ash-l-body,
+.ash[data-visual='balanced'] .ash-l-body { transform: translateX(-90px); }
+.ash:not([data-motion='full']) .ash-l-roles,
+.ash[data-visual='balanced'] .ash-l-roles { transform: translateX(90px); }
+.ash:not([data-motion='full']) .ash-l-thought,
+.ash[data-visual='balanced'] .ash-l-thought { transform: translateY(-34px); opacity: 0.35; }
+.ash:not([data-motion='full']) .ash-l-mist,
+.ash[data-visual='balanced'] .ash-l-mist { opacity: 0.12; }
+
+/* print: verses only */
+@media print {
+  .ash-env, .ash-decor, .ash-controls { display: none !important; }
+  .ash { background: #fff; color: #000; }
+}
+
+/* inline links keep a 44px touch target */
+.ash-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+}
