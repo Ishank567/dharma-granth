@@ -6,7 +6,7 @@ import path from 'node:path';
 
 const chapterNo = process.argv[2] ?? '1';
 const dir = 'data/ashtavakra';
-const parts = fs.readdirSync(dir).filter((f) => f.startsWith(`ch${chapterNo}-verses-`)).sort((a, b) => parseInt(a.split('-')[2]) - parseInt(b.split('-')[2]));
+const parts = fs.readdirSync(dir).filter((f) => f.startsWith(`ch${chapterNo}-verses-`) && f.endsWith('.json')).sort((a, b) => (parseInt(a.split('-')[2]) || 0) - (parseInt(b.split('-')[2]) || 0));
 const verses = parts.flatMap((f) => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')));
 const chapter = JSON.parse(fs.readFileSync(path.join(dir, `ch${chapterNo}-chapter.json`), 'utf8'));
 
@@ -35,15 +35,18 @@ verses.forEach((v, i) => {
   if (v.simpleEnglishExplanation.length > hindiLen) problems.push(`${id}: English explanation longer than Hindi explanation`);
   // Responsibility statements the brief requires when a verse touches these topics.
   const text = `${v.philosophicalExplanationHindi} ${v.commonMisunderstandingHindi}`;
-  const needs = [
-    [/अकर्ता|कर्ता/, 'व्यावहारिक स्तर पर हर व्यक्ति', 'non-doership'],
-    [/वैराग्य|असंग/, 'देखभाल, कर्तव्य, संबंध', 'detachment'],
-    [/देह|शरीर/, 'स्वास्थ्य, सुरक्षा, विश्राम', 'body'],
-  ];
-  const topicOf = { '1.6': 0, '1.8': 0, '1.12': 0, '1.2': 1, '1.5': 1, '1.13': 1, '1.3': 2, '1.4': 2, '1.14': 2, '1.17': 2, '1.18': 2, '1.19': 2 };
-  if (id in topicOf) { const [, needle, name] = needs[topicOf[id]]; if (!text.includes(needle)) problems.push(`${id}: ${name} safety statement missing`); }
-  if (['1.10', '1.16', '1.18'].includes(id) && !text.includes('जगत् की स्वतंत्र और स्थायी सत्ता')) problems.push(`${id}: world-unreality statement missing`);
-  if (['1.2', '1.12', '1.17'].includes(id) && !text.includes('निष्क्रिय, भावशून्य')) problems.push(`${id}: desirelessness statement missing`);
+  if (chapter.safetyTopics) {
+    for (const t of chapter.safetyTopics.byVerse[id] ?? []) {
+      const needle = chapter.safetyTopics.statements[t];
+      if (needle && !text.includes(needle)) problems.push(`${id}: ${t} safety statement missing`);
+    }
+  } else {
+    const needs = [[/अकर्ता|कर्ता/, 'व्यावहारिक स्तर पर हर व्यक्ति', 'non-doership'], [/वैराग्य|असंग/, 'देखभाल, कर्तव्य, संबंध', 'detachment'], [/देह|शरीर/, 'स्वास्थ्य, सुरक्षा, विश्राम', 'body']];
+    const topicOf = { '1.6': 0, '1.8': 0, '1.12': 0, '1.2': 1, '1.5': 1, '1.13': 1, '1.3': 2, '1.4': 2, '1.14': 2, '1.17': 2, '1.18': 2, '1.19': 2 };
+    if (id in topicOf) { const [, needle, name] = needs[topicOf[id]]; if (!text.includes(needle)) problems.push(`${id}: ${name} safety statement missing`); }
+    if (['1.10', '1.16', '1.18'].includes(id) && !text.includes('जगत् की स्वतंत्र और स्थायी सत्ता')) problems.push(`${id}: world-unreality statement missing`);
+    if (['1.2', '1.12', '1.17'].includes(id) && !text.includes('निष्क्रिय, भावशून्य')) problems.push(`${id}: desirelessness statement missing`);
+  }
 });
 
 const first = verses[0]?.verseNumber, last = verses.at(-1)?.verseNumber;
