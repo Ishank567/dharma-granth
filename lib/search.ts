@@ -39,7 +39,7 @@ import {
   type SearchResultGroup,
   type SearchResultItem,
 } from '@/lib/search-types';
-import { chapterCount, verseCount } from '@/lib/format';
+
 
 export * from '@/lib/search-types';
 export { loadVerseIndex, isVerseIndexLoaded } from '@/lib/search-verse-index';
@@ -183,7 +183,10 @@ function buildMasterIndex(): SearchResultItem[] {
   for (const s of scriptureCatalog) {
     const subtitle = s.titleIast ? `${s.titleSanskrit} (${s.titleIast})` : s.titleSanskrit;
     const tagText = s.tags ? s.tags.join(' ') : '';
-    const extraParts = [chapterCount(s.totalChapters), verseCount(s.totalVerses), s.titleIast, tagText].filter(Boolean);
+    // Catalogue chapter and verse totals are not the library holdings, and this
+    // index is built in the browser, where the files cannot be counted. The
+    // scripture page shows the counted figures.
+    const extraParts = [s.titleIast, tagText].filter(Boolean);
     items.push({
       id: `scripture-${s.id}`,
       title: s.title,

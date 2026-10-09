@@ -3,10 +3,13 @@ import Link from 'next/link';
 import { ArrowRight, BookOpen, ChevronRight, Sparkles } from 'lucide-react';
 import {
   getAvailableScriptures,
+  getLibraryCounts,
   getRealChapterCount,
   getRealScriptureCount,
   getRealVerseCount,
 } from '@/data/scriptures';
+import { getLibraryFacts } from '@/lib/library-server';
+import { catalogueNote, formatCount as formatHolding } from '@/lib/holdings-label';
 
 function formatCount(value: number): string {
   return new Intl.NumberFormat('en-IN').format(value);
@@ -49,7 +52,7 @@ export function FeaturedScripturesSection() {
               Featured Scriptures
             </h2>
             <p className="mt-1 max-w-2xl text-sm leading-relaxed text-dharma-muted">
-              Start your study with texts that provide authentic Sanskrit slokas, comprehensive Hindi bhavarth, and clear English translations.
+              Six texts to start with. The numbers are chapters and verses in this library. A language is listed only when that text’s sample includes it.
             </p>
           </div>
 
@@ -65,15 +68,15 @@ export function FeaturedScripturesSection() {
         {/* Library Stats Row */}
         <dl className="mb-8 flex flex-wrap gap-x-8 gap-y-2 border-y border-dharma-border py-4 text-xs">
           <div className="flex items-baseline gap-2">
-            <dt className="text-dharma-muted">Fully Explained Texts:</dt>
+            <dt className="text-dharma-muted">Texts with verses:</dt>
             <dd className="font-bold text-dharma-text">{formatCount(realScriptures)}</dd>
           </div>
           <div className="flex items-baseline gap-2">
-            <dt className="text-dharma-muted">Total Chapters:</dt>
+            <dt className="text-dharma-muted">Chapters in the library:</dt>
             <dd className="font-bold text-dharma-text">{formatCount(realChapters)}</dd>
           </div>
           <div className="flex items-baseline gap-2">
-            <dt className="text-dharma-muted">Total Verses:</dt>
+            <dt className="text-dharma-muted">Verses in the library:</dt>
             <dd className="font-bold text-dharma-text">{formatCount(realVerses)}</dd>
           </div>
         </dl>
@@ -82,6 +85,15 @@ export function FeaturedScripturesSection() {
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {displayTexts.map((scripture) => {
             if (!scripture) return null;
+            const held = getLibraryCounts(scripture.id);
+            const catalogueVerses = scripture.canonicalTotalVerses ?? scripture.totalVerses;
+            const note = catalogueNote(held.verses, catalogueVerses, 'verse');
+            const facts = getLibraryFacts(scripture.id);
+            const languages = [
+              facts.languages.sa ? { id: 'sa', label: 'संस्कृत' } : null,
+              facts.languages.hi ? { id: 'hi', label: 'हिन्दी' } : null,
+              facts.languages.en ? { id: 'en', label: 'English' } : null,
+            ].filter((lang): lang is { id: string; label: string } => lang !== null);
             return (
               <Link
                 key={scripture.id}
@@ -110,16 +122,19 @@ export function FeaturedScripturesSection() {
                   </p>
 
                   {/* Language availability */}
-                  <div className="mt-4 flex items-center gap-1.5 text-[11px] font-semibold text-dharma-muted">
-                    <span className="rounded-md border border-dharma-border bg-dharma-bg px-2 py-0.5" title="Sanskrit text available">संस्कृत</span>
-                    <span className="rounded-md border border-dharma-border bg-dharma-bg px-2 py-0.5" title="Hindi bhavarth available">हिन्दी</span>
-                    <span className="rounded-md border border-dharma-border bg-dharma-bg px-2 py-0.5" title="English translation available">English</span>
-                  </div>
+                  <ul aria-label="Languages in the library sample" className="mt-4 flex items-center gap-1.5 text-[11px] font-semibold text-dharma-muted">
+                    {languages.map((lang) => (
+                      <li key={lang.id} lang={lang.id} className="rounded-md border border-dharma-border bg-dharma-bg px-2 py-0.5">
+                        {lang.label}
+                      </li>
+                    ))}
+                  </ul>
                 </div>
 
                 <div className="mt-6 flex items-center justify-between border-t border-dharma-border/60 pt-4 text-xs font-semibold text-dharma-muted">
                   <span>
-                    {formatCount(scripture.totalChapters)} {scripture.totalChapters === 1 ? 'Chapter' : 'Chapters'} · {formatCount(scripture.totalVerses)} Verses
+                    {formatHolding(held.chapters)} {held.chapters === 1 ? 'Chapter' : 'Chapters'} · {formatHolding(held.verses)} {held.verses === 1 ? 'Verse' : 'Verses'}
+                    {note && <span className="mt-1 block font-normal">{note}</span>}
                   </span>
                   <div className="flex items-center gap-2">
                     <span className="inline-flex items-center gap-1 rounded-xl bg-saffron-600 px-3 py-1.5 text-xs font-bold text-white shadow-sm transition group-hover:bg-saffron-700">

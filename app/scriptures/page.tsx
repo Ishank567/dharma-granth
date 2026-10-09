@@ -2,17 +2,24 @@ import type { Metadata } from 'next';
 import { DEFAULT_OG_IMAGE } from '@/lib/og';
 import { getBookExplanation } from '@/data/book-explanations';
 import { categories } from '@/data/scripture-meta';
-import { getAllScriptures } from '@/data/scriptures';
+import { getAllScriptures, getLibraryCounts } from '@/data/scriptures';
 import { getLibraryFacts } from '@/lib/library-server';
 import { FadeUp } from '@/app/components/motion/primitives';
 import { ScriptureLibraryClient } from '@/app/components/ScriptureLibraryClient';
 
 function loadLibrary() {
-  return getAllScriptures().map((scripture) => ({
-    ...scripture,
-    explanation: getBookExplanation(scripture.id),
-    facts: getLibraryFacts(scripture.id),
-  }));
+  return getAllScriptures().map((scripture) => {
+    const held = getLibraryCounts(scripture.id);
+    const catalogueVerses = scripture.canonicalTotalVerses ?? scripture.totalVerses;
+    return {
+      ...scripture,
+      totalChapters: held.chapters,
+      totalVerses: held.verses,
+      canonicalTotalVerses: catalogueVerses !== held.verses ? catalogueVerses : scripture.canonicalTotalVerses,
+      explanation: getBookExplanation(scripture.id),
+      facts: getLibraryFacts(scripture.id),
+    };
+  });
 }
 
 export const metadata: Metadata = {

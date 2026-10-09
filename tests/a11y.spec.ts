@@ -90,7 +90,7 @@ for (const theme of THEMES) {
     await page.addInitScript((t) => localStorage.setItem('dharma-theme', t), theme);
     await page.goto('/scriptures/');
     await page.waitForLoadState('networkidle');
-    await page.getByRole('button', { name: 'Open navigation menu' }).click();
+    await page.getByRole('button', { name: /नेविगेशन मेनू खोलें|Open navigation menu/ }).click();
     await expect(page.locator('#mobile-navigation')).toBeVisible();
     await audit(page, `${theme} mobile menu`);
   });

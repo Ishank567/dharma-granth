@@ -180,17 +180,30 @@ export function themesOf(item: ScriptureMeta): string[] {
   return item.tags.filter((t) => GENERIC_TAGS.indexOf(t.toLowerCase()) === -1);
 }
 
-export type VerificationStatus = { id: 'verified' | 'curated' | 'catalog'; label: string; hint: string };
+export type VerificationStatus = { id: 'partial' | 'curated' | 'published' | 'catalog'; label: string; hint: string };
 
-/** Mirrors the badges the library already showed (सटीक / सार संकलन). */
+/**
+ * Presence of files, not a source review. No badge says "verified" unless a
+ * review record exists; this library does not invent that record.
+ */
 export function verificationOf(item: ScriptureMeta): VerificationStatus {
-  if (item.isCurated) {
-    return { id: 'curated', label: 'Curated selection', hint: 'सार संकलन — a chosen selection of verses, not the whole text' };
+  const catalogue = item.canonicalTotalVerses;
+  const partial = catalogue != null && catalogue > item.totalVerses;
+  if (!item.hasData || item.totalVerses === 0) {
+    return { id: 'catalog', label: 'Catalogue entry', hint: 'सूची में है। श्लोक पाठ अभी प्रकाशित नहीं है।' };
   }
-  if (item.hasData) {
-    return { id: 'verified', label: 'Full text, verified', hint: 'सम्पूर्ण संहिता — complete text with verse-by-verse study' };
+  if (item.isCurated || partial) {
+    return {
+      id: item.isCurated ? 'curated' : 'partial',
+      label: item.isCurated ? 'Curated selection' : 'Partial text',
+      hint: 'पुस्तकालय में चयन है, पूरा पारंपरिक पाठ नहीं।',
+    };
   }
-  return { id: 'catalog', label: 'Catalogue entry', hint: 'Listed, but verse text is not yet published' };
+  return {
+    id: 'published',
+    label: 'Text in the library',
+    hint: 'श्लोक पुस्तकालय में हैं। स्रोत-सत्यापन अलग से दर्ज होता है।',
+  };
 }
 
 /* ── Matching ──────────────────────────────────────────────────────── */

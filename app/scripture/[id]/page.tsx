@@ -12,6 +12,7 @@ import { ArrowLeft } from 'lucide-react';
 import { SourcesAndInterpretation } from '@/app/components/SourcesAndInterpretation';
 
 import { ChapterPreview, readSeededChapterPreviews } from '@/lib/read-seeded-chapters';
+import { getLibraryFacts } from '@/lib/library-server';
 
 interface PageProps {
   params: { id: string };
@@ -29,9 +30,11 @@ export function generateMetadata({ params }: PageProps): Metadata {
 
   // Hindi first, as people search ("भगवद गीता हिंदी अर्थ"); English name kept.
   const title = `${meta.titleSanskrit} (${meta.title}) — हिंदी अर्थ सहित श्लोक`;
+  const held = readSeededChapterPreviews(params.id).filter((chapter) => chapter.verseCount > 0);
+  const heldVerses = held.reduce((sum, chapter) => sum + chapter.verseCount, 0);
   const counts =
-    meta.totalChapters > 0 && meta.totalVerses > 0
-      ? `${meta.totalChapters} अध्याय, ${meta.totalVerses.toLocaleString('en-IN')} श्लोक — `
+    held.length > 0 && heldVerses > 0
+      ? `${held.length} अध्याय, ${heldVerses.toLocaleString('en-IN')} श्लोक पुस्तकालय में — `
       : '';
   const lead = meta.hasData
     ? `${meta.titleSanskrit} (${meta.title}): ${counts}संस्कृत मूल, हिंदी अर्थ और English translation, श्लोक-दर-श्लोक।`
@@ -94,12 +97,24 @@ export default function ScripturePage({ params }: PageProps) {
     chapterPreviewsById.set(seededChapter.id, {
       ...seededChapter,
       ...existing,
-      verseCount: Math.max(existing?.verseCount ?? 0, seededChapter.verseCount),
+      summary: existing?.summary?.trim() || seededChapter.summary,
+      verseCount: seededChapter.verseCount,
     });
   }
   const chapterPreviews = Array.from(chapterPreviewsById.values()).sort(
     (a, b) => a.id - b.id,
   );
+  const publishedChapters = chapterPreviews.filter((chapter) => chapter.verseCount > 0);
+  const publishedVerses = publishedChapters.reduce((sum, chapter) => sum + chapter.verseCount, 0);
+  const catalogueVerses = meta.canonicalTotalVerses ?? meta.totalVerses;
+  const catalogueChapters = meta.totalChapters;
+  const partial = publishedVerses > 0 && catalogueVerses > publishedVerses;
+  const languageFacts = getLibraryFacts(meta.id).languages;
+  const inLanguage = [
+    languageFacts.sa ? 'sa' : null,
+    languageFacts.hi ? 'hi' : null,
+    languageFacts.en ? 'en' : null,
+  ].filter((code): code is 'sa' | 'hi' | 'en' => code !== null);
 
   // JSON-LD structured data: emit a Book entity for any catalog entry, with workExample
   // pointing to a Chapter entity for chapters that actually have verse data.
@@ -122,13 +137,13 @@ export default function ScripturePage({ params }: PageProps) {
     '@id': `${siteUrl}/scripture/${meta.id}`,
     name: meta.title,
     alternateName: meta.titleSanskrit,
-    inLanguage: ['sa', 'hi', 'en'],
     description: meta.description,
     genre: meta.category,
     keywords: meta.tags.join(', '),
     publisher: { '@type': 'Organization', name: 'Dharma Granth' },
     isAccessibleForFree: true,
   };
+  if (inLanguage.length > 0) bookJsonLd.inLanguage = inLanguage;
   if (meta.author) {
     bookJsonLd.author = { '@type': 'Person', name: meta.author };
   }
@@ -169,18 +184,22 @@ export default function ScripturePage({ params }: PageProps) {
             <span className="px-3 py-1 rounded-full text-xs font-semibold bg-white/20 uppercase tracking-wide">
               {meta.category}
             </span>
-            {meta.isCurated ? (
+            {meta.isCurated || partial ? (
               <span className="px-3 py-1 rounded-full text-xs font-semibold bg-amber-400/25 text-amber-100 border border-amber-400/30">
-                सार संकलन · Curated Key Verses
+                {meta.isCurated ? 'सार संकलन · Curated selection' : 'आंशिक पाठ · Part of the text is in the library'}
+              </span>
+            ) : publishedVerses > 0 ? (
+              <span className="px-3 py-1 rounded-full text-xs font-semibold bg-white/15 text-white border border-white/25">
+                पुस्तकालय में पाठ · Text in the library
               </span>
             ) : (
-              <span className="px-3 py-1 rounded-full text-xs font-semibold bg-emerald-400/25 text-emerald-100 border border-emerald-400/30">
-                सम्पूर्ण संहिता · Complete Text
+              <span className="px-3 py-1 rounded-full text-xs font-semibold bg-white/15 text-white border border-white/25">
+                सूची प्रविष्टि · Catalogue entry
               </span>
             )}
             {meta.hasData && (
-              <span className="px-3 py-1 rounded-full text-xs font-semibold bg-green-400/30 text-green-100">
-                Verse Explanations Available
+              <span className="px-3 py-1 rounded-full text-xs font-semibold bg-white/15 text-white border border-white/25">
+                श्लोक पाठ उपलब्ध
               </span>
             )}
           </FadeUp>
@@ -205,7 +224,13 @@ export default function ScripturePage({ params }: PageProps) {
       </ChapterHero>
 
       <FadeUpOnView className="max-w-5xl mx-auto px-6 py-12 space-y-12">
-        <BookLearningClient meta={meta} explanation={explanation} chapters={chapterPreviews} />
+        <BookLearningClient
+          meta={meta}
+          explanation={explanation}
+          chapters={chapterPreviews}
+          catalogueVerses={catalogueVerses}
+          catalogueChapters={catalogueChapters}
+        />
         <SourcesAndInterpretation
           scriptureId={meta.id}
           scriptureTitle={meta.title}

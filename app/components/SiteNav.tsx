@@ -45,6 +45,7 @@ import {
   LANGUAGE_OPTIONS,
 } from '@/lib/useLanguagePreference';
 import { triggerTactileFeedback } from '@/lib/haptics';
+import { formatCountDevanagari } from '@/lib/holdings-label';
 import { readActiveStreak } from '@/lib/reading-history';
 import logoMark from '@/public/logo-mark.webp';
 import { OPEN_SEARCH_EVENT, type OpenSearchDetail } from '@/lib/search-events';
@@ -131,7 +132,16 @@ interface DrawerItem {
   badgeType?: 'streak' | 'count' | 'accent';
 }
 
-export function SiteNav() {
+export function SiteNav({
+  libraryVerses,
+  gitaChapters,
+  gitaVerses,
+}: {
+  /** Verses counted from the published library. */
+  libraryVerses: number;
+  gitaChapters: number;
+  gitaVerses: number;
+}) {
   const pathname = usePathname();
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [discoverOpen, setDiscoverOpen] = useState(false);
@@ -366,20 +376,20 @@ export function SiteNav() {
       id: 'library',
       label: 'सम्पूर्ण ग्रंथालय',
       labelEn: 'Scripture Library',
-      description: '६,२००+ श्लोक · वेद, उपनिषद, पुराण',
+      description: `पुस्तकालय में ${formatCountDevanagari(libraryVerses)} श्लोक`,
       href: '/scriptures',
       icon: BookOpen,
-      badge: '६,२००+',
+      badge: formatCountDevanagari(libraryVerses),
       badgeType: 'accent',
     },
     {
       id: 'gita',
       label: 'श्रीमद्भगवद्गीता',
       labelEn: 'Bhagavad Gita',
-      description: '१८ अध्याय · ७०० श्लोक शब्दार्थ सहित',
+      description: `${formatCountDevanagari(gitaChapters)} अध्याय · ${formatCountDevanagari(gitaVerses)} श्लोक`,
       href: '/scripture/bhagavadgita',
       icon: Flame,
-      badge: '७०० श्लोक',
+      badge: `${formatCountDevanagari(gitaVerses)} श्लोक`,
       badgeType: 'accent',
     },
     {
@@ -594,7 +604,7 @@ export function SiteNav() {
                 aria-hidden="true"
               >
                 <span className="size-1.5 rounded-full bg-saffron-600 animate-status-pulse" />
-                <span className="tracking-tight">६,२००+ श्लोक संग्रह</span>
+                <span className="tracking-tight">{formatCountDevanagari(libraryVerses)} श्लोक पुस्तकालय में</span>
               </div>
 
               {/* Desktop Search Button */}

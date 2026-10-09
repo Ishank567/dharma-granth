@@ -20,7 +20,7 @@ type ChakraProps = {
   interactive: boolean;
 };
 
-export function Experience3DSection() {
+export function Experience3DSection({ gitaCountLabel }: { gitaCountLabel: string }) {
   const sectionRef = useRef<HTMLElement>(null);
   const { isLiteMode, isLowPower, isDataSaver } = usePerformanceMode();
   const [is3DEnabled, setIs3DEnabled] = useState(true);
@@ -148,7 +148,7 @@ export function Experience3DSection() {
               <Granth
                 title="श्रीमद्भगवद्गीता"
                 subTitle="The Song of Eternal Truth"
-                verseCount="७०० श्लोक · १८ अध्याय"
+                verseCount={gitaCountLabel}
                 href="/scripture/bhagavadgita"
               />
             ) : (
@@ -175,7 +175,7 @@ export function Experience3DSection() {
                     Bhagavad Gita Codex
                   </h3>
                   <p className="text-xs text-dharma-muted mt-0.5">
-                    ७०० श्लोक · १८ अध्याय · Complete Translations & Commentary
+                    {gitaCountLabel}
                   </p>
                 </div>
 

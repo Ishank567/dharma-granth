@@ -3,6 +3,7 @@ import { resolve } from 'node:path';
 import type { Scripture, ScriptureCategory, ScriptureMeta } from "../types";
 import { scriptureCatalog } from "../scripture-meta";
 import { loadScripture } from "./lazy";
+import { readSeededChapterPreviews } from "@/lib/read-seeded-chapters";
 
 import { SCRIPTURE_ALIASES } from "../scripture-aliases";
 
@@ -19,14 +20,7 @@ interface ChapterInfo {
   verseCount: number;
 }
 
-interface Stats {
-  realVerseCount: number;
-  realChapterCount: number;
-  realScriptureCount: number;
-}
-
 let chaptersCache: Record<string, ChapterInfo[]> | null = null;
-let statsCache: Stats | null = null;
 
 function getChapters(): Record<string, ChapterInfo[]> {
   if (chaptersCache) return chaptersCache;
@@ -40,29 +34,36 @@ function getChapters(): Record<string, ChapterInfo[]> {
   }
 }
 
-function getStats(): Stats {
-  if (statsCache) return statsCache;
-  const filePath = resolve(process.cwd(), 'public/data/stats.json');
-  if (!existsSync(filePath)) return { realVerseCount: 0, realChapterCount: 0, realScriptureCount: 0 };
-  try {
-    statsCache = JSON.parse(readFileSync(filePath, 'utf8')) as Stats;
-    return statsCache;
-  } catch {
-    return { realVerseCount: 0, realChapterCount: 0, realScriptureCount: 0 };
-  }
+interface Holdings {
+  chapters: number;
+  verses: number;
 }
 
-/** Chapters and verses actually present in the library (not the traditional totals). */
-export function getLibraryCounts(id: string): { chapters: number; verses: number } {
+let holdingsCache: Map<string, Holdings> | null = null;
+
+/** Counted from each scripture's manifest (the chapter list the site renders). */
+function holdingsMap(): Map<string, Holdings> {
+  if (holdingsCache) return holdingsCache;
+  const map = new Map<string, Holdings>();
+  for (const meta of scriptureCatalog) {
+    const chapters = readSeededChapterPreviews(meta.id).filter((c) => c.verseCount > 0);
+    map.set(meta.id, {
+      chapters: chapters.length,
+      verses: chapters.reduce((n, c) => n + c.verseCount, 0),
+    });
+  }
+  holdingsCache = map;
+  return map;
+}
+
+/** Chapters and verses actually present in the library (not the catalogue totals). */
+export function getLibraryCounts(id: string): Holdings {
   const canonical = resolveScriptureId(id);
-  const chapters = (getChapters()[canonical] ?? getChapters()[id] ?? []).filter((c) => c.verseCount > 0);
-  return { chapters: chapters.length, verses: chapters.reduce((n, c) => n + c.verseCount, 0) };
+  return holdingsMap().get(canonical) ?? holdingsMap().get(id) ?? { chapters: 0, verses: 0 };
 }
 
 function hasVerseData(id: string): boolean {
-  const canonical = resolveScriptureId(id);
-  const chapters = getChapters()[canonical] ?? getChapters()[id];
-  return chapters?.some((chapter) => chapter.verseCount > 0) ?? false;
+  return getLibraryCounts(id).verses > 0;
 }
 
 function withDataAvailability(meta: ScriptureMeta): ScriptureMeta {
@@ -98,19 +99,31 @@ export function getScriptureMeta(id: string): ScriptureMeta | undefined {
   return meta ? withDataAvailability(meta) : undefined;
 }
 
-/** Honest, real-time count of verses that actually have full hand-authored data on disk. */
+/** Verses present in published manifests. Not a traditional canon total. */
 export function getRealVerseCount(): number {
-  return getStats().realVerseCount;
+  let n = 0;
+  holdingsMap().forEach((row) => {
+    n += row.verses;
+  });
+  return n;
 }
 
-/** Honest count of chapters that contain at least one authored verse. */
+/** Chapters that contain at least one verse in the published manifests. */
 export function getRealChapterCount(): number {
-  return getStats().realChapterCount;
+  let n = 0;
+  holdingsMap().forEach((row) => {
+    n += row.chapters;
+  });
+  return n;
 }
 
-/** How many scriptures actually ship verse data right now. */
+/** How many catalogue scriptures ship at least one verse right now. */
 export function getRealScriptureCount(): number {
-  return getStats().realScriptureCount;
+  let n = 0;
+  holdingsMap().forEach((row) => {
+    if (row.verses > 0) n += 1;
+  });
+  return n;
 }
 
 export function getScriptureChapters(id: string): ChapterInfo[] {

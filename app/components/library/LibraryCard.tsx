@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { ArrowRight, Bookmark, BadgeCheck, ListChecks, FileClock } from 'lucide-react';
+import { ArrowRight, Bookmark, BookOpen, ListChecks, FileClock } from 'lucide-react';
 import type { ReactNode } from 'react';
 import {
   LANGUAGES,
@@ -16,6 +16,7 @@ import {
   type LibraryItem,
   type ViewMode,
 } from '@/lib/library';
+import { catalogueNote } from '@/lib/holdings-label';
 
 const NOT_RECORDED = 'Not yet recorded';
 
@@ -28,11 +29,11 @@ function formatDate(iso: string | undefined, withDay: boolean): string | undefin
 
 function StatusBadge({ item }: { item: LibraryItem }) {
   const status = verificationOf(item);
-  const Icon = status.id === 'verified' ? BadgeCheck : status.id === 'curated' ? ListChecks : FileClock;
+  const Icon = status.id === 'published' ? BookOpen : status.id === 'curated' || status.id === 'partial' ? ListChecks : FileClock;
   const tone =
-    status.id === 'verified'
-      ? 'text-emerald-800 dark:text-emerald-300'
-      : status.id === 'curated'
+    status.id === 'published'
+      ? 'text-dharma-text'
+      : status.id === 'curated' || status.id === 'partial'
         ? 'text-amber-800 dark:text-amber-300'
         : 'text-dharma-muted';
   return (
@@ -91,6 +92,7 @@ export function LibraryCard({
   const verses = item.isCurated && item.canonicalTotalVerses
     ? `${plural(item.totalVerses, 'verse')} selected · ${formatNumber(item.canonicalTotalVerses)} in the full text`
     : counts.verses;
+  const verseCatalogue = item.isCurated ? undefined : catalogueNote(item.totalVerses, item.canonicalTotalVerses, 'verse');
   const level = readingLevelOf(item);
   const themes = themesOf(item).slice(0, 6);
   const updated = formatDate(item.facts.lastUpdated, true);
@@ -138,6 +140,9 @@ export function LibraryCard({
 
       <p className="mt-4 text-sm font-medium text-dharma-text">
         {counts.chapters} <span aria-hidden="true">·</span> {verses}
+        {verseCatalogue && (
+          <span className="mt-1 block text-xs font-normal text-dharma-muted">{verseCatalogue}</span>
+        )}
       </p>
 
       <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2">

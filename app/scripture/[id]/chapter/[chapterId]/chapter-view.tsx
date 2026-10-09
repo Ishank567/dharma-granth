@@ -24,7 +24,7 @@ import {
 } from '@/lib/read-seeded-chapters';
 import type { InitialChapter } from '@/app/components/FullChapterVerses';
 import type { HiCommentaryEntry } from '@/data/hi-commentary/_types';
-import { ArrowLeft, ArrowRight, BookOpen, Layers, Sparkles } from 'lucide-react';
+import { ArrowLeft, ArrowRight, BookOpen, Layers } from 'lucide-react';
 import { ChapterPartRedirect } from '@/app/components/ChapterPartRedirect';
 import { SourcesAndInterpretation } from '@/app/components/SourcesAndInterpretation';
 import { chapterPartHref, chapterParts, INLINE_CHAPTER_MAX_BYTES, type ChapterPart } from '@/lib/chapter-parts';
@@ -49,7 +49,7 @@ function getChapterPreview(scriptureId: string, chapterId: number): ChapterPrevi
     title: indexedChapter?.title ?? seededChapter?.title ?? `अध्याय ${chapterId}`,
     titleSanskrit: indexedChapter?.titleSanskrit ?? seededChapter?.titleSanskrit,
     summary: seededChapter?.summary,
-    verseCount: Math.max(indexedChapter?.verseCount ?? 0, seededChapter?.verseCount ?? 0),
+    verseCount: seededChapter ? seededChapter.verseCount : (indexedChapter?.verseCount ?? 0),
   };
 }
 
@@ -183,7 +183,7 @@ export function ChapterView({ params, part: partNumber = 1 }: { params: ChapterP
     id: chapterId,
     title: `अध्याय ${chapterId}`,
     titleSanskrit: undefined,
-    summary: 'मुक्त-स्रोत संग्रह से पूर्ण मूल पाठ उपलब्ध है।',
+    summary: 'इस अध्याय का सारांश अभी दर्ज नहीं है।',
     verseCount: 0,
   };
 
@@ -195,7 +195,10 @@ export function ChapterView({ params, part: partNumber = 1 }: { params: ChapterP
   const maxSeeded = seededChapters.reduce((m, n) => (n > m ? n : m), 0);
   const indexedChapters = getScriptureChapters(meta.id);
   const maxIndexed = indexedChapters.reduce((m, ch) => (ch.id > m ? ch.id : m), 0);
-  const totalChapterCount = Math.max(meta.totalChapters, maxIndexed, maxSeeded);
+  // Catalogue chapter totals can run past the files (a reader would land on an
+  // empty chapter). Paginate across chapters that are actually indexed or seeded.
+  const knownMax = Math.max(maxIndexed, maxSeeded);
+  const totalChapterCount = knownMax > 0 ? knownMax : meta.totalChapters;
   if (chapterId > totalChapterCount) return notFound();
 
   // The chapter's text, read at build time so every verse is in the exported
@@ -288,17 +291,15 @@ export function ChapterView({ params, part: partNumber = 1 }: { params: ChapterP
               <p lang="sa" className="text-xl font-devanagari opacity-90">{chapter.titleSanskrit}</p>
             </div>
           </div>
-          <p className="text-base opacity-80 max-w-3xl leading-relaxed">{chapter.summary}</p>
+          {chapter.summary ? (
+            <p className="text-base opacity-80 max-w-3xl leading-relaxed">{chapter.summary}</p>
+          ) : null}
           <div className="mt-5 flex flex-wrap items-center gap-3">
             {chapter.verseCount > 0 ? (
               <>
                 <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/15 backdrop-blur text-xs font-medium">
                   <BookOpen className="w-3.5 h-3.5" />
                   {chapter.verseCount} श्लोक
-                </span>
-                <span lang="hi" className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/15 backdrop-blur text-xs font-medium">
-                  <Sparkles className="w-3.5 h-3.5" />
-                  हिन्दी एवं विज्ञान सहित
                 </span>
                 {part && parts && (
                   <span lang="hi" className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/25 backdrop-blur text-xs font-semibold">
@@ -310,7 +311,7 @@ export function ChapterView({ params, part: partNumber = 1 }: { params: ChapterP
             ) : (
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/15 backdrop-blur text-xs font-medium">
                 <BookOpen className="w-3.5 h-3.5" />
-                मुक्त-स्रोत संग्रह से पूर्ण पाठ
+                श्लोक पाठ अभी प्रकाशित नहीं है
               </span>
             )}
           </div>

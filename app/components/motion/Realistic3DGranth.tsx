@@ -16,7 +16,7 @@ export function Realistic3DGranth({
   className = '',
   title = 'श्रीमद्भगवद्गीता',
   subTitle = 'The Divine Song of Wisdom',
-  verseCount = '700 श्लोक · १८ अध्याय',
+  verseCount = 'श्लोक पुस्तकालय में',
   href = '/scripture/bhagavadgita',
 }: {
   className?: string;

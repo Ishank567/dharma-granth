@@ -5,6 +5,7 @@ import { useMemo, useState } from 'react';
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion';
 import type { BookExplanation } from '@/data/book-explanations';
 import type { ScriptureMeta } from '@/data/types';
+import { catalogueNote, formatCount, hindiCatalogueNote } from '@/lib/holdings-label';
 import {
   BookOpen,
   CheckCircle2,
@@ -31,6 +32,9 @@ interface BookLearningClientProps {
   meta: ScriptureMeta;
   explanation?: BookExplanation;
   chapters: ChapterPreview[];
+  /** Catalogue figure. Shown only as a note when it differs from the chapter list. */
+  catalogueVerses?: number;
+  catalogueChapters?: number;
 }
 
 const copy = {
@@ -51,8 +55,8 @@ const copy = {
     tags: 'विषय',
     chaptersLabel: 'अध्याय',
     versesLabel: 'श्लोक',
-    available: 'श्लोक अध्ययन उपलब्ध',
-    preparing: 'श्लोक अध्ययन तैयारी में',
+    available: 'श्लोक पाठ पुस्तकालय में',
+    preparing: 'श्लोक पाठ अभी नहीं',
   },
   en: {
     guided: 'Guided Study',
@@ -71,14 +75,20 @@ const copy = {
     tags: 'Themes',
     chaptersLabel: 'Chapters',
     versesLabel: 'Verses',
-    available: 'Verse study available',
-    preparing: 'Verse study in preparation',
+    available: 'Verse text in the library',
+    preparing: 'Verse text not in the library yet',
   },
 };
 
 const steps: StepKey[] = ['overview', 'focus', 'chapters', 'reflect'];
 
-export function BookLearningClient({ meta, explanation, chapters }: BookLearningClientProps) {
+export function BookLearningClient({
+  meta,
+  explanation,
+  chapters,
+  catalogueVerses,
+  catalogueChapters,
+}: BookLearningClientProps) {
   const [language, setLanguage] = useState<Language>('hi');
   const [activeStep, setActiveStep] = useState<StepKey>('overview');
   const [completedSteps, setCompletedSteps] = useState<StepKey[]>([]);
@@ -89,6 +99,11 @@ export function BookLearningClient({ meta, explanation, chapters }: BookLearning
   const completedSet = useMemo(() => new Set(completedSteps), [completedSteps]);
   const progress = Math.round((completedSet.size / steps.length) * 100);
   const firstReadableChapter = chapters.find(chapter => chapter.verseCount > 0) ?? chapters[0];
+  const inLibraryChapters = chapters.filter((chapter) => chapter.verseCount > 0).length;
+  const inLibraryVerses = chapters.reduce((sum, chapter) => sum + chapter.verseCount, 0);
+  const noteFor = language === 'hi' ? hindiCatalogueNote : catalogueNote;
+  const chapterNote = noteFor(inLibraryChapters, catalogueChapters, 'chapter');
+  const verseNote = noteFor(inLibraryVerses, catalogueVerses, 'verse');
   const overview = explanation?.overview[language] ?? meta.description;
   const focus = explanation?.focus[language] ?? labels.cataloged;
 
@@ -108,15 +123,17 @@ export function BookLearningClient({ meta, explanation, chapters }: BookLearning
           </p>
           <div className="grid gap-3 sm:grid-cols-3">
             <div className="rounded-lg border border-dharma-border bg-dharma-bg p-4">
-              <p className="text-2xl font-bold text-saffron-700">{meta.totalChapters.toLocaleString()}</p>
+              <p className="text-2xl font-bold text-saffron-700">{formatCount(inLibraryChapters)}</p>
               <p className="text-xs font-semibold uppercase tracking-wider text-dharma-muted">{labels.chaptersLabel}</p>
+              {chapterNote && <p className="mt-1 text-xs leading-snug text-dharma-muted">{chapterNote}</p>}
             </div>
             <div className="rounded-lg border border-dharma-border bg-dharma-bg p-4">
-              <p className="text-2xl font-bold text-saffron-700">{meta.totalVerses.toLocaleString()}</p>
+              <p className="text-2xl font-bold text-saffron-700">{formatCount(inLibraryVerses)}</p>
               <p className="text-xs font-semibold uppercase tracking-wider text-dharma-muted">{labels.versesLabel}</p>
+              {verseNote && <p className="mt-1 text-xs leading-snug text-dharma-muted">{verseNote}</p>}
             </div>
             <div className="rounded-lg border border-dharma-border bg-dharma-bg p-4">
-              <p className="text-base font-bold text-saffron-700">{meta.hasData ? labels.available : labels.preparing}</p>
+              <p className="text-base font-bold text-saffron-700">{inLibraryVerses > 0 ? labels.available : labels.preparing}</p>
               <p className="text-xs font-semibold uppercase tracking-wider text-dharma-muted">{meta.category}</p>
             </div>
           </div>

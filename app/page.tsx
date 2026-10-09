@@ -9,16 +9,20 @@ import { CategoryExploreSection } from '@/app/components/CategoryExploreSection'
 import { SadhanaPreviewSection } from '@/app/components/SadhanaPreviewSection';
 import { PanchangPreviewSection } from '@/app/components/PanchangPreviewSection';
 import { Experience3DSection } from '@/app/components/Experience3DSection';
+import { getLibraryCounts } from '@/data/scriptures';
+import { formatCountDevanagari } from '@/lib/holdings-label';
 import { SiteFooter } from '@/app/components/SiteFooter';
 
 export const metadata: Metadata = {
   title: 'Dharma Granth — Calm, Bilingual Digital Scripture Library',
   description:
-    'A tranquil, ad-free digital sanctuary of Hindu scriptures — Bhagavad Gita, Upanishads, Vedas, and Puranas with authentic Sanskrit, Hindi bhavarth, and English commentary.',
+    'A tranquil, ad-free library of Hindu scriptures. Sanskrit, Hindi, and English appear where the published text includes them.',
   alternates: { canonical: '/' },
 };
 
 export default function HomePage() {
+  const gita = getLibraryCounts('bhagavadgita');
+  const gitaCountLabel = `${formatCountDevanagari(gita.chapters)} अध्याय · ${formatCountDevanagari(gita.verses)} श्लोक`;
   return (
     <>
       <main className="min-h-screen bg-dharma-bg text-dharma-text selection:bg-amber-200 selection:text-amber-900">
@@ -50,7 +54,7 @@ export default function HomePage() {
       <PanchangPreviewSection />
 
       {/* 9. 3D EXPERIENCE */}
-      <Experience3DSection />
+      <Experience3DSection gitaCountLabel={gitaCountLabel} />
     </main>
     {/* Site Footer with sources, methodology, and quiet contemplation */}
     <SiteFooter />

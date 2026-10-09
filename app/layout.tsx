@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { SiteNav } from "@/app/components/SiteNav";
+import { getLibraryCounts, getRealVerseCount } from "@/data/scriptures";
 import { ThemeProvider } from "@/app/components/ThemeProvider";
 import { PageTransition } from "@/app/components/motion/PageTransition";
 import { DEFAULT_OG_IMAGE } from "@/lib/og";
@@ -218,7 +219,11 @@ export default function RootLayout({
           <a href="#main-content" className="skip-link" lang="en">
             Skip to main content
           </a>
-          <SiteNav />
+          <SiteNav
+            libraryVerses={getRealVerseCount()}
+            gitaChapters={getLibraryCounts("bhagavadgita").chapters}
+            gitaVerses={getLibraryCounts("bhagavadgita").verses}
+          />
           <div id="main-content" tabIndex={-1} className="outline-none pb-16 md:pb-0">
             <ErrorBoundary name="Main Content">
               <PageTransition>{children}</PageTransition>

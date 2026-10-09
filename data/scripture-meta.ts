@@ -14,7 +14,7 @@ export const scriptureCatalog: ScriptureMeta[] = [
     titleIast: "Śrīmadbhagavadgītā",
     category: "itihasa",
     description:
-      "The divine song of Lord Krishna, comprising 700 verses across 18 chapters. Spoken on the battlefield of Kurukshetra, it teaches the paths of Karma, Bhakti, and Jnana Yoga.",
+      "The divine song of Lord Krishna, spoken on the battlefield of Kurukshetra. It teaches the paths of Karma, Bhakti, and Jnana Yoga. Chapter and verse totals on this site are counted from the library files.",
     author: "Vyasa",
     totalChapters: 18,
     totalVerses: 700,

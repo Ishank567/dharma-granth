@@ -99,7 +99,7 @@ export function readSeededChapterPreviews(scriptureId: string): ChapterPreview[]
           id: num,
           title: c.title || `अध्याय ${num}`,
           titleSanskrit: c.titleSanskrit,
-          summary: c.summary || 'मुक्त-स्रोत संग्रह से पूर्ण मूल पाठ उपलब्ध है।',
+          summary: c.summary?.trim() || undefined,
           verseCount: c.verseCount ?? 0,
         });
       }
@@ -127,7 +127,7 @@ export function readSeededChapterPreviews(scriptureId: string): ChapterPreview[]
         id: num,
         title: c.title || `अध्याय ${num}`,
         titleSanskrit: c.titleSanskrit,
-        summary: c.summary || 'मुक्त-स्रोत संग्रह से पूर्ण मूल पाठ उपलब्ध है।',
+        summary: c.summary?.trim() || undefined,
         verseCount: c.verses?.length ?? 0,
       });
     }

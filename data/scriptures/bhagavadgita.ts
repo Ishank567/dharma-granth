@@ -5,7 +5,7 @@ export const bhagavadGita: Scripture = {
   title: "Bhagavad Gita",
   titleSanskrit: "श्रीमद्भगवद्गीता",
   category: "itihasa",
-  description: "The divine song of Lord Krishna, 700 verses across 18 chapters.",
+  description: "The divine song of Lord Krishna, spoken on the battlefield of Kurukshetra. It teaches the paths of Karma, Bhakti, and Jnana Yoga.",
   author: "Vyasa",
   totalVerses: 701,
   tags: [
