@@ -62,11 +62,11 @@ const ROWS: Row[] = [
 ];
 
 /** Chapters whose content is complete and published on the site. */
-const PUBLISHED = new Set([1, 2, 3]);
+const PUBLISHED = new Set([1, 2, 3, 4]);
 /** Chapters read and counted from the pages but not yet composed for publishing. */
 const DRAFTING = new Set<number>([]);
 /** Counts taken from the supplied pages (closing lines checked). */
-const COUNTS: Record<number, number> = { 1: 20, 2: 25, 3: 14 };
+const COUNTS: Record<number, number> = { 1: 20, 2: 25, 3: 14, 4: 6 };
 
 export const CHAPTERS: AshtavakraChapterMeta[] = ROWS.map((r) => ({
   ...r,
