@@ -7,6 +7,7 @@ import chapter1 from '@/data/ashtavakra/chapter-1.json';
 import chapter2 from '@/data/ashtavakra/chapter-2.json';
 import chapter3 from '@/data/ashtavakra/chapter-3.json';
 import chapter4 from '@/data/ashtavakra/chapter-4.json';
+import chapter5 from '@/data/ashtavakra/chapter-5.json';
 import { CHAPTERS, getChapterMeta } from '@/data/ashtavakra/chapters-meta';
 
 export interface AshtavakraVerse {
@@ -71,6 +72,7 @@ const DATA: Record<number, AshtavakraChapterData> = {
   2: chapter2 as unknown as AshtavakraChapterData,
   3: chapter3 as unknown as AshtavakraChapterData,
   4: chapter4 as unknown as AshtavakraChapterData,
+  5: chapter5 as unknown as AshtavakraChapterData,
 };
 
 export const getChapterData = (n: number): AshtavakraChapterData | undefined => DATA[n];
