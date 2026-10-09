@@ -11,19 +11,19 @@ Status as of this commit: first slice built and running at `/ashtavakra/`. This 
 | Homepage in the specified section order | Built, except audio and concept map (see section 7) |
 | 20-chapter "Path of Awareness" explorer | Built; vertical journey, two-column curve on desktop |
 | Chapter pages (chapters 1 and 2) | Built |
-| Verse pages in the specified 24-part order (chapters 1 to 9: 90 verses) | Built |
+| Verse pages in the specified 24-part order (chapters 1 to 10: 98 verses) | Built |
 | Chapter 1 environment ("mirror from mist") | Built as SVG with a static final state |
 | Other chapters | Quiet generic environment; real artwork not yet made |
 | Visual explanation cards (sakshi, ocean, ahankara, vairagya, karta) | Built, each with caption and text description |
 | Read markers, daily verse, continue reading | Built, local only |
 | Skip animation control | Built |
 
-Not built yet (specified below so it can be done in order): word explorer, Sakshi and Contemplation modes, interactive analogies, search, concept map, journal, timeline, audio. Chapters 10 to 20 are not published.
+Not built yet (specified below so it can be done in order): word explorer, Sakshi and Contemplation modes, interactive analogies, search, concept map, journal, timeline, audio. Chapters 11 to 20 are not published.
 
 ## 2. Source and editorial honesty (comes before any visual work)
 
 - The book names chapters only "पहला प्रकरण", "दूसरा प्रकरण", and so on. The titles, essences, symbols and palettes in `data/ashtavakra/chapters-meta.ts` are **editorial** and are always shown as such.
-- Verse counts appear only where a chapter was counted from the pages (1: 20, 2: 25, 3: 14, 4: 6, 5: 4, 6: 4, 7: 5, 8: 4, 9: 8). Others show "श्लोक-संख्या अभी सत्यापित नहीं".
+- Verse counts appear only where a chapter was counted from the pages (1: 20, 2: 25, 3: 14, 4: 6, 5: 4, 6: 4, 7: 5, 8: 4, 9: 8, 10: 8). Others show "श्लोक-संख्या अभी सत्यापित नहीं".
 - Every verse carries `verificationStatus`. Where the book's own printing disagrees with itself (1.9, 1.11, 1.20, 2.3, 2.4, 2.11, 2.19, 9.2) the printed text is kept, flagged "समीक्षा आवश्यक", and the difference is written in the editorial note. Nothing was replaced from outside sources.
 - Badges use an icon and words ("✓ सत्यापित", "⚠ समीक्षा आवश्यक"), never colour alone.
 - "पुस्तकानुसार हिन्दी भावार्थ" is an original restatement, not a copy, and no Sanskrit scholar has reviewed it. The source-edition section says so, along with the unresolved publication year and rights status.
