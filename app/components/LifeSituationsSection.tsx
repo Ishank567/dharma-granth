@@ -1,0 +1,223 @@
+'use client';
+
+import Link from 'next/link';
+import {
+  ArrowRight,
+  BookOpen,
+  Compass,
+  Flame,
+  Heart,
+  Scale,
+  Shield,
+  Sparkles,
+  Target,
+  Users,
+  Wind,
+} from 'lucide-react';
+import type { ReactNode } from 'react';
+
+interface LifeSituation {
+  id: string;
+  topicHref: string;
+  titleHi: string;
+  titleEn: string;
+  sanskrit: string;
+  prompt: string;
+  scriptureRef: string;
+  icon: ReactNode;
+}
+
+const situations: LifeSituation[] = [
+  {
+    id: 'stress',
+    topicHref: '/topics/stress-anxiety',
+    titleHi: 'तनाव व चिंता',
+    titleEn: 'Stress and worry',
+    sanskrit: 'शमः व समत्वम्',
+    prompt: 'Release anxiety over outcomes you cannot control; center awareness on the present duty with an even mind.',
+    scriptureRef: 'गीता २.४८ (समत्वं योग उच्यते)',
+    icon: <Wind className="h-5 w-5" aria-hidden="true" />,
+  },
+  {
+    id: 'fear',
+    topicHref: '/topics/stress-anxiety',
+    titleHi: 'भय व असुरक्षा',
+    titleEn: 'Fear',
+    sanskrit: 'अभयम्',
+    prompt: 'Awaken the realization of the eternal, indestructible Self (Atman) which cannot be shaken by outward turbulence.',
+    scriptureRef: 'गीता २.२० व १६.१ (न जायते म्रियते वा)',
+    icon: <Shield className="h-5 w-5" aria-hidden="true" />,
+  },
+  {
+    id: 'anger',
+    topicHref: '/topics/anger-jealousy',
+    titleHi: 'क्रोध व आवेश',
+    titleEn: 'Anger',
+    sanskrit: 'क्रोध-संयमः',
+    prompt: 'Trace anger to frustrated desire; observe the impulse and pause before reaction clouds discrimination.',
+    scriptureRef: 'गीता २.६३ (क्रोधाद्भवति संमोहः)',
+    icon: <Flame className="h-5 w-5" aria-hidden="true" />,
+  },
+  {
+    id: 'grief',
+    topicHref: '/topics/grief-death',
+    titleHi: 'शोक व विछोह',
+    titleEn: 'Grief',
+    sanskrit: 'अनित्यता व शोक-मुक्ति',
+    prompt: 'Hold personal grief within the vast perspective of the eternal soul — bodies change like garments, but spirit abides.',
+    scriptureRef: 'गीता २.२२ (वासांसि जीर्णानि यथा विहाय)',
+    icon: <Heart className="h-5 w-5" aria-hidden="true" />,
+  },
+  {
+    id: 'duty',
+    topicHref: '/topics/career-workplace-ethics',
+    titleHi: 'कर्तव्य व धर्मसंकट',
+    titleEn: 'Duty',
+    sanskrit: 'स्वधर्मः',
+    prompt: 'Engage with your authentic calling wholeheartedly, performing actions as a dedicated offering rather than for ego.',
+    scriptureRef: 'गीता ३.३५ व २.४७ (श्रेयान्स्वधर्मो विगुणः)',
+    icon: <Scale className="h-5 w-5" aria-hidden="true" />,
+  },
+  {
+    id: 'self-control',
+    topicHref: '/topics/discipline-habit-formation',
+    titleHi: 'आत्म-संयम व नियम',
+    titleEn: 'Self-control',
+    sanskrit: 'दमः व तपः',
+    prompt: 'Walk the golden middle path of moderation in food, recreation, and sleep to cultivate sustainable clarity.',
+    scriptureRef: 'गीता ६.१६ व ६.२४ (नात्यश्नतस्तु योगोऽस्ति)',
+    icon: <Compass className="h-5 w-5" aria-hidden="true" />,
+  },
+  {
+    id: 'focus',
+    topicHref: '/topics/student-life',
+    titleHi: 'एकाग्रता व ध्यान',
+    titleEn: 'Focus',
+    sanskrit: 'अभ्यासः व धारणा',
+    prompt: 'Train the wandering mind through patient repetition (abhyāsa) and gentle dispassion (vairāgya).',
+    scriptureRef: 'गीता ६.३५ (अभ्यासेन तु कौन्तेय)',
+    icon: <Target className="h-5 w-5" aria-hidden="true" />,
+  },
+  {
+    id: 'devotion',
+    topicHref: '/topics/relationships-marriage',
+    titleHi: 'भक्ति व समर्पण',
+    titleEn: 'Devotion',
+    sanskrit: 'भक्ति-योगः',
+    prompt: 'Transform ordinary daily activities into loving devotion by offering every thought and deed to the divine.',
+    scriptureRef: 'गीता ९.२६ (पत्रं पुष्पं फलं तोयम्)',
+    icon: <Sparkles className="h-5 w-5" aria-hidden="true" />,
+  },
+  {
+    id: 'knowledge',
+    topicHref: '/topics/student-life',
+    titleHi: 'ज्ञान व विवेक',
+    titleEn: 'Knowledge',
+    sanskrit: 'ज्ञानम् व विवेकः',
+    prompt: 'Discern the permanent truth from transient appearances; nothing in this world purifies like wisdom.',
+    scriptureRef: 'गीता ४.३८ (न हि ज्ञानेन सदृशं पवित्रम्)',
+    icon: <BookOpen className="h-5 w-5" aria-hidden="true" />,
+  },
+  {
+    id: 'relationships',
+    topicHref: '/topics/relationships-marriage',
+    titleHi: 'संबंध व सद्भाव',
+    titleEn: 'Relationships',
+    sanskrit: 'सर्वभूतहिते रताः',
+    prompt: 'See the identical divine presence in all individuals, cultivating harmony through truthful speech and non-possessive love.',
+    scriptureRef: 'गीता ६.२९ (सर्वभूतस्थमात्मानं)',
+    icon: <Users className="h-5 w-5" aria-hidden="true" />,
+  },
+];
+
+export function LifeSituationsSection() {
+  return (
+    <section
+      id="life-situations"
+      aria-labelledby="life-situations-heading"
+      className="border-b border-dharma-border bg-gradient-to-b from-dharma-bg via-dharma-card/30 to-dharma-bg py-16 sm:py-20"
+    >
+      <div className="mx-auto max-w-6xl px-5 sm:px-6">
+        {/* Section Header */}
+        <div className="mb-10 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <div className="mb-2 flex items-center gap-2">
+              <span className="size-2 rounded-full bg-saffron-600 animate-pulse" />
+              <p lang="hi" className="text-xs font-bold uppercase tracking-[0.2em] text-saffron-700 dark:text-saffron-400 font-devanagari">
+                जीवन के लिए शास्त्रीय मार्गदर्शन
+              </p>
+            </div>
+            <h2
+              id="life-situations-heading"
+              className="font-serif text-3xl font-bold text-dharma-text sm:text-4xl"
+            >
+              Wisdom for Life
+            </h2>
+            <p className="mt-2 max-w-2xl text-sm leading-relaxed text-dharma-muted sm:text-base">
+              Turn to timeless scriptural perspectives for inner balance, purpose, and peace amid life’s everyday experiences — stress, fear, duty, relationships, grief, and self-knowledge.
+            </p>
+          </div>
+
+          <Link
+            href="/wisdom-for-life"
+            className="inline-flex w-fit items-center gap-2 rounded-full border border-dharma-border bg-dharma-card px-5 py-2.5 text-xs font-bold text-dharma-text transition hover:border-saffron-300 hover:text-saffron-700 shadow-sm"
+          >
+            <span>Explore All 13 Dimensions</span>
+            <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
+          </Link>
+        </div>
+
+        {/* 10 Topic Cards Grid */}
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+          {situations.map((sit) => (
+            <Link
+              key={sit.id}
+              href={sit.topicHref}
+              aria-label={`Scriptural perspective on ${sit.titleEn} (${sit.titleHi})`}
+              className="group flex flex-col justify-between rounded-2xl border border-dharma-border bg-dharma-card p-5 transition-all hover:-translate-y-1 hover:border-amber-400/60 hover:shadow-lg dark:hover:border-amber-700/50"
+            >
+              <div>
+                {/* Header with simple line icon & Sanskrit tag */}
+                <div className="mb-4 flex items-center justify-between">
+                  <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-amber-500/10 text-saffron-700 dark:text-saffron-400 transition group-hover:bg-saffron-600 group-hover:text-white">
+                    {sit.icon}
+                  </span>
+                  <span lang="sa" className="font-devanagari text-[11px] font-medium text-dharma-muted">
+                    {sit.sanskrit}
+                  </span>
+                </div>
+
+                {/* Titles */}
+                <h3 className="font-serif text-base font-bold text-dharma-text group-hover:text-saffron-700 transition">
+                  {sit.titleEn}
+                </h3>
+                <p lang="hi" className="font-devanagari text-xs font-semibold text-saffron-700/90 dark:text-saffron-400 mt-0.5">
+                  {sit.titleHi}
+                </p>
+
+                {/* Prompt */}
+                <p className="mt-2.5 text-xs leading-relaxed text-dharma-muted">
+                  {sit.prompt}
+                </p>
+              </div>
+
+              {/* Scripture Reference Tag */}
+              <div className="mt-5 border-t border-dharma-border/60 pt-3">
+                <span className="block truncate text-[11px] font-semibold text-dharma-muted group-hover:text-dharma-text transition">
+                  {sit.scriptureRef}
+                </span>
+              </div>
+            </Link>
+          ))}
+        </div>
+
+        {/* Responsible Educational Notice (Avoiding Medical Claims) */}
+        <div className="mt-8 rounded-2xl border border-dashed border-amber-300/60 bg-amber-500/5 p-4 text-xs text-dharma-muted dark:border-amber-900/50">
+          <p className="leading-relaxed">
+            <strong className="text-dharma-text">Contemplative Notice:</strong> The verses and guidance curated here offer philosophical inquiries, ethical reflections, and classical perspectives from Hindu sacred texts. They are intended for personal contemplation and study, and do not constitute clinical, psychological, or medical counsel.
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+}

@@ -10,6 +10,7 @@ export type NumberFormatPref = 'indian' | 'international';
 export type ReaderModeTier = 'quick' | 'simple' | 'deep';
 export type ContrastPref = 'standard' | 'high';
 export type TonePref = 'default' | 'paper' | 'sepia' | 'night';
+export type PerspectiveMode = 'beginner' | 'student' | 'practitioner' | 'researcher';
 
 export interface ReaderSettings {
   sanskritSize: SizeStep;
@@ -31,6 +32,10 @@ export interface ReaderSettings {
   focusMode: boolean;
   /** Background tone while reading. */
   tone: TonePref;
+  /** Learning and engagement perspective (does not hide original scripture). */
+  perspective: PerspectiveMode;
+  /** Pure text lite mode: strips secondary widgets for rapid, distraction-free reading. */
+  liteMode: boolean;
 }
 
 export const DEFAULT_READER_SETTINGS: ReaderSettings = {
@@ -49,6 +54,8 @@ export const DEFAULT_READER_SETTINGS: ReaderSettings = {
   reducedMotion: null,
   focusMode: false,
   tone: 'default',
+  perspective: 'beginner',
+  liteMode: false,
 };
 
 const KEY = 'dharma.readerSettings';
@@ -61,6 +68,7 @@ const NUMBER_PREFS: NumberFormatPref[] = ['indian', 'international'];
 const MODE_TIERS: ReaderModeTier[] = ['quick', 'simple', 'deep'];
 const CONTRASTS: ContrastPref[] = ['standard', 'high'];
 const TONES: TonePref[] = ['default', 'paper', 'sepia', 'night'];
+const PERSPECTIVES: PerspectiveMode[] = ['beginner', 'student', 'practitioner', 'researcher'];
 
 /** Same-tab broadcast, so every component using the hook sees a change at once. */
 const CHANGE_EVENT = 'dharma:reader-settings';
@@ -88,6 +96,8 @@ function sanitize(raw: unknown): ReaderSettings {
     reducedMotion: typeof o.reducedMotion === 'boolean' ? o.reducedMotion : null,
     focusMode: bool(o.focusMode, d.focusMode),
     tone: pick(o.tone, TONES, d.tone),
+    perspective: pick(o.perspective, PERSPECTIVES, d.perspective),
+    liteMode: bool(o.liteMode, d.liteMode),
   };
 }
 

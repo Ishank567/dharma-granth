@@ -290,36 +290,34 @@ export function HeroSection() {
         </FadeUp>
 
         <FadeUp delay={0.08}>
-          <p className="mb-3 text-xs font-bold uppercase tracking-[0.24em] text-saffron-100/80 sm:text-sm">
-            Timeless wisdom · Thoughtful study
+          <p className="mb-3 text-xs font-bold uppercase tracking-[0.24em] text-saffron-100/90 sm:text-sm">
+            सनातन ज्ञान · Timeless Sacred Wisdom
           </p>
-          <h1 className="mb-3 bg-gradient-to-r from-white via-saffron-100 to-amber-100 bg-clip-text font-serif text-4xl font-bold tracking-normal text-transparent drop-shadow-2xl sm:text-6xl md:text-7xl">
+          <h1 className="mb-2 bg-gradient-to-r from-white via-saffron-100 to-amber-100 bg-clip-text font-serif text-4xl font-bold tracking-normal text-transparent drop-shadow-2xl sm:text-6xl md:text-7xl">
             Dharma Granth
           </h1>
         </FadeUp>
 
         <FadeUp delay={0.14}>
-          <p lang="hi" className="mb-5 font-devanagari text-2xl text-saffron-100 drop-shadow-md md:text-3xl">
+          <p lang="hi" className="mb-4 font-devanagari text-2xl font-bold text-saffron-100 drop-shadow-md md:text-3xl">
             धर्म ग्रंथ
           </p>
         </FadeUp>
 
         <FadeUp delay={0.2}>
-          <p className="mx-auto mb-3 max-w-3xl text-xl font-medium leading-relaxed opacity-95 drop-shadow-sm sm:text-2xl md:text-3xl">
-            Read the scriptures. Understand the wisdom. Live the teaching.
+          <p className="mx-auto mb-3 max-w-2xl text-lg font-medium leading-relaxed opacity-95 drop-shadow-sm sm:text-xl md:text-2xl">
+            A calm, bilingual digital library of Indian spiritual scriptures.
           </p>
-          <p lang="hi" className="mx-auto mb-3 max-w-2xl font-devanagari text-base opacity-85 md:text-xl">
-            प्रसिद्ध श्लोक — गहरा हिंदी अर्थ — वैज्ञानिक दृष्टिकोण
+          <p lang="hi" className="mx-auto mb-3 max-w-2xl font-devanagari text-base text-amber-100/90 md:text-lg">
+            प्रमाणिक संस्कृत श्लोक — सरल व गंभीर हिंदी भावार्थ — विशुद्ध अंग्रेजी अनुवाद
           </p>
-          <p className="mx-auto mb-7 max-w-xl text-sm font-medium tracking-wide opacity-75 md:text-base">
-            Sanskrit · Hindi · English · context and commentary — always free,
-            always ad-free.
+          <p className="mx-auto mb-6 max-w-xl text-xs font-medium tracking-wide text-white/80 sm:text-sm">
+            Beginners discovering where to start · Returning readers continuing study · Inquiries into life situations
           </p>
         </FadeUp>
 
         <FadeUp delay={0.26}>
-          {/* Opens the global search (chapters, concepts, dictionary…) with the
-              query; the GET action is only a no-JS fallback. */}
+          {/* Large Multilingual Scripture Search Bar */}
           <form
             action={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/scriptures/`}
             method="get"
@@ -330,17 +328,17 @@ export function HeroSection() {
               const query = input instanceof HTMLInputElement ? input.value.trim() : '';
               openGlobalSearch(query);
             }}
-            className="mx-auto mb-6 flex max-w-2xl items-center rounded-2xl border border-white/25 bg-white/95 p-1.5 text-left shadow-2xl backdrop-blur-md focus-within:ring-4 focus-within:ring-white/20"
+            className="mx-auto mb-3 flex max-w-2xl items-center rounded-2xl border border-white/25 bg-white/95 p-1.5 text-left shadow-2xl backdrop-blur-md focus-within:ring-4 focus-within:ring-white/20"
           >
             <Search className="ml-3 h-5 w-5 shrink-0 text-saffron-700" aria-hidden="true" />
             <label htmlFor="hero-scripture-search" className="sr-only">
-              Search scriptures, chapters, and concepts
+              Search scriptures, chapters, verses, and spiritual concepts
             </label>
             <input
               id="hero-scripture-search"
               name="q"
               type="search"
-              placeholder="Search Gita, Upanishads, karma, meditation…"
+              placeholder="Search Gita 2.47, कर्म, fear, Tat Tvam Asi, meditation…"
               className="min-w-0 flex-1 bg-transparent px-3 py-3 text-sm text-stone-900 outline-none placeholder:text-stone-500 sm:text-base"
             />
             <button
@@ -352,35 +350,60 @@ export function HeroSection() {
               <ArrowRight className="h-4 w-4" aria-hidden="true" />
             </button>
           </form>
+
+          {/* Search Examples Pills */}
+          <div className="mx-auto mb-7 flex max-w-2xl flex-wrap items-center justify-center gap-2 px-2 text-xs">
+            <span className="text-white/70 font-medium">Try searching:</span>
+            {[
+              { label: 'Gita 2.47', query: 'Gita 2.47' },
+              { label: 'कर्म (Karma)', query: 'कर्म' },
+              { label: 'fear (अभय)', query: 'fear' },
+              { label: 'Tat Tvam Asi (तत्त्वमसि)', query: 'Tat Tvam Asi' },
+              { label: 'verses about anger (क्रोध)', query: 'verses about anger' },
+            ].map((ex) => (
+              <button
+                key={ex.query}
+                type="button"
+                onClick={() => openGlobalSearch(ex.query)}
+                className="inline-flex min-h-[44px] items-center rounded-full border border-white/20 bg-white/10 px-4 py-1 font-medium text-white/95 backdrop-blur-sm transition hover:border-amber-300 hover:bg-white/20 hover:text-white"
+              >
+                {ex.label}
+              </button>
+            ))}
+          </div>
         </FadeUp>
 
         <FadeUp delay={0.32} className="flex flex-wrap justify-center gap-3">
           <div>
             <MagneticButton
               href="/scripture/bhagavadgita"
-              className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-3.5 font-bold text-saffron-800 shadow-xl transition-all hover:bg-saffron-50 sm:gap-2.5 sm:px-6 shine-sweep"
+              className="inline-flex items-center gap-2 rounded-full bg-white px-5 py-3.5 font-bold text-saffron-800 shadow-xl transition-all hover:bg-saffron-50 sm:gap-2.5 sm:px-7 shine-sweep"
               strength={28}
               tilt={12}
             >
-              <Flame className="w-5 h-5" />
-              <span className="sm:hidden">Read Gita</span>
-              <span className="hidden sm:inline">भगवद्गीता पढ़ें</span>
+              <Flame className="w-5 h-5 text-saffron-600" />
+              <span>Read Bhagavad Gita</span>
+              <span lang="hi" className="font-devanagari text-xs text-saffron-700/80 hidden md:inline">
+                (भगवद्गीता पढ़ें)
+              </span>
             </MagneticButton>
           </div>
           <div>
             <MagneticButton
               href="/scriptures"
-              className="inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/15 px-4 py-3.5 font-semibold text-white shadow-xl backdrop-blur-md transition-all hover:bg-white/25 sm:gap-2.5 sm:px-6 shine-sweep"
+              className="inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/15 px-5 py-3.5 font-semibold text-white shadow-xl backdrop-blur-md transition-all hover:bg-white/25 sm:gap-2.5 sm:px-6 shine-sweep"
               strength={24}
               tilt={10}
             >
               <BookOpen className="w-5 h-5" />
-              <span className="sm:hidden">Library</span>
-              <span className="hidden sm:inline">Browse the Library</span>
+              <span>Browse All Scriptures</span>
+              <span lang="hi" className="font-devanagari text-xs text-amber-200/80 hidden md:inline">
+                (संपूर्ण ग्रंथालय)
+              </span>
             </MagneticButton>
           </div>
           <div>
-            <SurpriseVerseButton className="hidden items-center gap-2.5 rounded-full border border-white/20 px-5 py-3.5 font-semibold text-white/90 transition hover:border-white/40 hover:bg-white/10 sm:inline-flex" />
+            <SurpriseVerseButton className="hidden items-center gap-2.5 rounded-full border border-white/20 px-4 py-3.5 font-semibold text-white/90 transition hover:border-white/40 hover:bg-white/10 sm:inline-flex" />
           </div>
         </FadeUp>
       </motion.div>

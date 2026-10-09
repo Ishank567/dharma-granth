@@ -24,21 +24,11 @@ import {
   Share2,
   Sparkles,
   Sprout,
-  Volume1,
-  Volume2,
-  VolumeX,
   XCircle,
   Zap,
 } from 'lucide-react';
 import { GITA_2_47_PEDAGOGICAL, type PedagogicalVerseData } from '@/data/pedagogical-gita-2-47';
 import { triggerTactileFeedback } from '@/lib/haptics';
-import {
-  canRecite,
-  reciteVerse,
-  speechSupported,
-  stopRecitation,
-  subscribeRecitation,
-} from '@/lib/verse-recite';
 import { readHref } from '@/lib/verse-paths';
 
 export type ContemplationTier = 'quick' | 'simple' | 'deep';
@@ -59,8 +49,6 @@ export function PedagogicalVerseCard({
   showExploreLink = true,
 }: PedagogicalVerseCardProps) {
   const [tier, setTier] = useState<ContemplationTier>(initialTier);
-  const [speaking, setSpeaking] = useState(false);
-  const [slowSpeaking, setSlowSpeaking] = useState(false);
   const [isSaved, setIsSaved] = useState(false);
   const [copied, setCopied] = useState(false);
   const [toastMsg, setToastMsg] = useState<string | null>(null);
@@ -94,92 +82,9 @@ export function PedagogicalVerseCard({
     }
   }, [data.scriptureId, data.verseId]);
 
-  // Recitation listener
-  useEffect(() => {
-    const unsub = subscribeRecitation((state) => {
-      const activeKey = state?.activeKey ?? null;
-      const myKey = data.sanskrit || data.simpleMeaningHi || data.simpleMeaningEn;
-      if (activeKey === myKey && state.isSpeaking) {
-        // Still speaking
-      } else {
-        setSpeaking(false);
-        setSlowSpeaking(false);
-      }
-    });
-    return unsub;
-  }, [data.sanskrit, data.simpleMeaningHi, data.simpleMeaningEn]);
-
   function showToast(msg: string) {
     setToastMsg(msg);
     setTimeout(() => setToastMsg(null), 2500);
-  }
-
-  // 1. Regular Listen
-  function handleListen() {
-    triggerTactileFeedback('medium', speaking ? 'softTap' : 'click');
-    if (speaking || slowSpeaking) {
-      stopRecitation();
-      setSpeaking(false);
-      setSlowSpeaking(false);
-      return;
-    }
-
-    if (!speechSupported()) {
-      showToast('Speech audio is not supported in this browser.');
-      return;
-    }
-
-    const recitable = {
-      sanskrit: data.sanskrit,
-      hindi: data.simpleMeaningHi,
-      translation: data.simpleMeaningEn,
-    };
-
-    if (canRecite(recitable)) {
-      reciteVerse(
-        recitable,
-        () => {
-          setSpeaking(false);
-          setSlowSpeaking(false);
-        },
-        { speed: 1.0 },
-      );
-      setSpeaking(true);
-      setSlowSpeaking(false);
-    }
-  }
-
-  // 2. Slow Pronunciation (0.75x Sanskrit only)
-  function handleSlowPronunciation() {
-    triggerTactileFeedback('medium', slowSpeaking ? 'softTap' : 'click');
-    if (slowSpeaking || speaking) {
-      stopRecitation();
-      setSpeaking(false);
-      setSlowSpeaking(false);
-      return;
-    }
-
-    if (!speechSupported()) {
-      showToast('Speech audio is not supported in this browser.');
-      return;
-    }
-
-    const recitable = {
-      sanskrit: data.sanskrit,
-    };
-
-    if (canRecite(recitable)) {
-      reciteVerse(
-        recitable,
-        () => {
-          setSpeaking(false);
-          setSlowSpeaking(false);
-        },
-        { speed: 0.75, onlySanskrit: true },
-      );
-      setSlowSpeaking(true);
-      setSpeaking(false);
-    }
   }
 
   // 3. Save to bookmarks
@@ -306,7 +211,7 @@ export function PedagogicalVerseCard({
               aria-selected={tier === 'quick'}
               aria-controls={`${cardId}-quick-panel`}
               onClick={() => handleTierSelect('quick')}
-              className={`flex min-h-[38px] items-center gap-1.5 rounded-full px-3.5 py-1 text-xs font-bold transition ${
+              className={`flex min-h-[44px] items-center gap-1.5 rounded-full px-3.5 py-1 text-xs font-bold transition ${
                 tier === 'quick'
                   ? 'bg-amber-600 text-white shadow'
                   : 'text-dharma-muted hover:text-dharma-text'
@@ -322,7 +227,7 @@ export function PedagogicalVerseCard({
               aria-selected={tier === 'simple'}
               aria-controls={`${cardId}-simple-panel`}
               onClick={() => handleTierSelect('simple')}
-              className={`flex min-h-[38px] items-center gap-1.5 rounded-full px-3.5 py-1 text-xs font-bold transition ${
+              className={`flex min-h-[44px] items-center gap-1.5 rounded-full px-3.5 py-1 text-xs font-bold transition ${
                 tier === 'simple'
                   ? 'bg-saffron-600 text-white shadow'
                   : 'text-dharma-muted hover:text-dharma-text'
@@ -338,7 +243,7 @@ export function PedagogicalVerseCard({
               aria-selected={tier === 'deep'}
               aria-controls={`${cardId}-deep-panel`}
               onClick={() => handleTierSelect('deep')}
-              className={`flex min-h-[38px] items-center gap-1.5 rounded-full px-3.5 py-1 text-xs font-bold transition ${
+              className={`flex min-h-[44px] items-center gap-1.5 rounded-full px-3.5 py-1 text-xs font-bold transition ${
                 tier === 'deep'
                   ? 'bg-stone-800 text-amber-200 shadow dark:bg-stone-700'
                   : 'text-dharma-muted hover:text-dharma-text'
@@ -391,96 +296,65 @@ export function PedagogicalVerseCard({
             </div>
           </div>
 
-          {/* Audio & Actions Bar: [Listen] [Slow pronunciation] [Save] [Share] [Copy] */}
+          {/* Study Actions Bar: [Save] [Share] [Copy] [Read in Context] */}
           <div className="relative z-10 mt-8 border-t border-white/15 pt-5">
-            <p className="mb-2 text-[10px] font-bold uppercase tracking-wider text-amber-200/60">
-              Audio Recitation & Actions
-            </p>
+            <div className="mb-2.5 flex flex-wrap items-center justify-between gap-1">
+              <p className="text-[10px] font-bold uppercase tracking-wider text-amber-200/70">
+                Study Actions · स्वाध्याय साधन
+              </p>
+              <span className="text-[10px] text-amber-200/60 font-serif">
+                {data.scriptureTitle} {data.chapterId}.{data.verseId}
+              </span>
+            </div>
             <div className="flex flex-wrap items-center gap-2">
-              {/* 1. Listen (Normal) */}
-              <button
-                type="button"
-                onClick={handleListen}
-                aria-label={speaking ? 'Stop verse audio' : 'Listen to verse audio'}
-                className={`inline-flex min-h-[44px] items-center gap-2 rounded-full border px-4 py-2 text-xs font-bold transition shadow-sm ${
-                  speaking
-                    ? 'border-saffron-400 bg-saffron-600 text-white'
-                    : 'border-white/20 bg-white/10 text-white hover:bg-white/20 hover:border-amber-300'
-                }`}
-              >
-                {speaking ? (
-                  <>
-                    <VolumeX className="h-4 w-4" />
-                    <span>Stop</span>
-                  </>
-                ) : (
-                  <>
-                    <Volume2 className="h-4 w-4 text-amber-300" />
-                    <span>Listen</span>
-                  </>
-                )}
-              </button>
-
-              {/* 2. Slow Pronunciation */}
-              <button
-                type="button"
-                onClick={handleSlowPronunciation}
-                aria-label={slowSpeaking ? 'Stop slow pronunciation' : 'Slow pronunciation (0.75x speed)'}
-                className={`inline-flex min-h-[44px] items-center gap-2 rounded-full border px-4 py-2 text-xs font-bold transition shadow-sm ${
-                  slowSpeaking
-                    ? 'border-amber-400 bg-amber-600 text-white'
-                    : 'border-white/20 bg-white/10 text-white hover:bg-white/20 hover:border-amber-300'
-                }`}
-              >
-                {slowSpeaking ? (
-                  <>
-                    <VolumeX className="h-4 w-4" />
-                    <span>Stop</span>
-                  </>
-                ) : (
-                  <>
-                    <Volume1 className="h-4 w-4 text-amber-300" />
-                    <span>Slow pronunciation</span>
-                  </>
-                )}
-              </button>
-
-              {/* 3. Save */}
+              {/* 1. Save */}
               <button
                 type="button"
                 onClick={handleSave}
                 aria-label={isSaved ? 'Remove from saved verses' : 'Save verse'}
-                className={`inline-flex min-h-[44px] items-center gap-1.5 rounded-full border px-3.5 py-2 text-xs font-bold transition shadow-sm ${
+                className={`inline-flex min-h-[44px] items-center gap-1.5 rounded-full border px-4 py-2 text-xs font-bold transition shadow-sm ${
                   isSaved
                     ? 'border-amber-400 bg-amber-400/20 text-amber-200'
-                    : 'border-white/20 bg-white/10 text-white hover:bg-white/20'
+                    : 'border-white/20 bg-white/10 text-white hover:bg-white/20 hover:border-amber-300'
                 }`}
               >
                 <Bookmark className={`h-4 w-4 ${isSaved ? 'fill-amber-300 text-amber-300' : 'text-white/80'}`} />
                 <span>{isSaved ? 'Saved' : 'Save'}</span>
               </button>
 
-              {/* 4. Share */}
+              {/* 2. Share */}
               <button
                 type="button"
                 onClick={handleShare}
                 aria-label="Share verse"
-                className="inline-flex min-h-[44px] items-center gap-1.5 rounded-full border border-white/20 bg-white/10 px-3.5 py-2 text-xs font-bold text-white transition hover:bg-white/20 shadow-sm"
+                className="inline-flex min-h-[44px] items-center gap-1.5 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-bold text-white transition hover:bg-white/20 hover:border-amber-300 shadow-sm"
               >
                 <Share2 className="h-4 w-4 text-white/80" />
                 <span>Share</span>
               </button>
 
-              {/* 5. Copy */}
+              {/* 3. Copy */}
               <button
                 type="button"
                 onClick={handleCopy}
                 aria-label="Copy verse text"
-                className="inline-flex min-h-[44px] items-center gap-1.5 rounded-full border border-white/20 bg-white/10 px-3.5 py-2 text-xs font-bold text-white transition hover:bg-white/20 shadow-sm"
+                className="inline-flex min-h-[44px] items-center gap-1.5 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-bold text-white transition hover:bg-white/20 hover:border-amber-300 shadow-sm"
               >
                 {copied ? <Check className="h-4 w-4 text-emerald-400" /> : <Copy className="h-4 w-4 text-white/80" />}
                 <span>{copied ? 'Copied' : 'Copy'}</span>
               </button>
+
+              {/* 4. Full Context */}
+              {showExploreLink && (
+                <Link
+                  href={readHref(data.scriptureId, data.chapterId, data.verseId)}
+                  className="inline-flex min-h-[44px] items-center gap-1.5 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-bold text-white transition hover:bg-white/20 hover:border-amber-300 shadow-sm"
+                  title="Read full chapter context"
+                >
+                  <BookOpen className="h-4 w-4 text-white/80" />
+                  <span>Read in Context</span>
+                </Link>
+              )}
             </div>
           </div>
         </div>
@@ -771,6 +645,7 @@ export function PedagogicalVerseCard({
               </div>
 
               {/* 10. Traditional Commentary from Ācāryas */}
+              {data.traditionalCommentary && (
               <div className="space-y-3.5">
                 <h4 className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-dharma-text">
                   <Quote className="h-4 w-4 text-amber-600" />
@@ -781,20 +656,20 @@ export function PedagogicalVerseCard({
                 <div className="rounded-2xl border border-amber-700/30 bg-amber-500/5 p-4">
                   <div className="flex items-center justify-between gap-2">
                     <p className="font-serif text-sm font-bold text-amber-900 dark:text-amber-200">
-                      {data.traditionalCommentary.shankara.author}
+                      {data.traditionalCommentary!.shankara.author}
                     </p>
                     <span className="text-[10px] rounded-full bg-amber-500/15 px-2 py-0.5 font-semibold text-amber-800 dark:text-amber-300">
-                      {data.traditionalCommentary.shankara.tradition}
+                      {data.traditionalCommentary!.shankara.tradition}
                     </span>
                   </div>
                   <p className="mt-1 text-[11px] text-dharma-muted italic">
-                    {data.traditionalCommentary.shankara.work}
+                    {data.traditionalCommentary!.shankara.work}
                   </p>
                   <p className="mt-2 text-xs leading-relaxed text-dharma-text/95">
-                    {data.traditionalCommentary.shankara.summaryEn}
+                    {data.traditionalCommentary!.shankara.summaryEn}
                   </p>
                   <p lang="hi" className="mt-1.5 font-devanagari text-xs leading-relaxed text-dharma-text/80 border-t border-amber-500/15 pt-1.5">
-                    {data.traditionalCommentary.shankara.summaryHi}
+                    {data.traditionalCommentary!.shankara.summaryHi}
                   </p>
                 </div>
 
@@ -802,20 +677,20 @@ export function PedagogicalVerseCard({
                 <div className="rounded-2xl border border-orange-700/30 bg-orange-500/5 p-4">
                   <div className="flex items-center justify-between gap-2">
                     <p className="font-serif text-sm font-bold text-orange-950 dark:text-orange-200">
-                      {data.traditionalCommentary.ramanuja.author}
+                      {data.traditionalCommentary!.ramanuja.author}
                     </p>
                     <span className="text-[10px] rounded-full bg-orange-500/15 px-2 py-0.5 font-semibold text-orange-800 dark:text-orange-300">
-                      {data.traditionalCommentary.ramanuja.tradition}
+                      {data.traditionalCommentary!.ramanuja.tradition}
                     </span>
                   </div>
                   <p className="mt-1 text-[11px] text-dharma-muted italic">
-                    {data.traditionalCommentary.ramanuja.work}
+                    {data.traditionalCommentary!.ramanuja.work}
                   </p>
                   <p className="mt-2 text-xs leading-relaxed text-dharma-text/95">
-                    {data.traditionalCommentary.ramanuja.summaryEn}
+                    {data.traditionalCommentary!.ramanuja.summaryEn}
                   </p>
                   <p lang="hi" className="mt-1.5 font-devanagari text-xs leading-relaxed text-dharma-text/80 border-t border-orange-500/15 pt-1.5">
-                    {data.traditionalCommentary.ramanuja.summaryHi}
+                    {data.traditionalCommentary!.ramanuja.summaryHi}
                   </p>
                 </div>
 
@@ -823,23 +698,24 @@ export function PedagogicalVerseCard({
                 <div className="rounded-2xl border border-stone-700/30 bg-stone-500/5 p-4">
                   <div className="flex items-center justify-between gap-2">
                     <p className="font-serif text-sm font-bold text-stone-900 dark:text-stone-200">
-                      {data.traditionalCommentary.sridhara.author}
+                      {data.traditionalCommentary!.sridhara.author}
                     </p>
                     <span className="text-[10px] rounded-full bg-stone-500/15 px-2 py-0.5 font-semibold text-stone-800 dark:text-stone-300">
-                      {data.traditionalCommentary.sridhara.tradition}
+                      {data.traditionalCommentary!.sridhara.tradition}
                     </span>
                   </div>
                   <p className="mt-1 text-[11px] text-dharma-muted italic">
-                    {data.traditionalCommentary.sridhara.work}
+                    {data.traditionalCommentary!.sridhara.work}
                   </p>
                   <p className="mt-2 text-xs leading-relaxed text-dharma-text/95">
-                    {data.traditionalCommentary.sridhara.summaryEn}
+                    {data.traditionalCommentary!.sridhara.summaryEn}
                   </p>
                   <p lang="hi" className="mt-1.5 font-devanagari text-xs leading-relaxed text-dharma-text/80 border-t border-stone-500/15 pt-1.5">
-                    {data.traditionalCommentary.sridhara.summaryHi}
+                    {data.traditionalCommentary!.sridhara.summaryHi}
                   </p>
                 </div>
               </div>
+              )}
 
               {/* 11. Source Transparency & Edition Details */}
               <div className="border-t border-dharma-border pt-4">
@@ -914,7 +790,7 @@ export function PedagogicalVerseCard({
                   className="inline-flex min-h-[44px] items-center gap-2 rounded-full bg-gradient-to-r from-saffron-600 to-amber-600 px-5 py-2.5 text-xs font-bold text-white shadow-md transition hover:from-saffron-700 hover:to-amber-700"
                 >
                   <BookOpen className="h-3.5 w-3.5" />
-                  <span>Read Full Chapter Context</span>
+                  <span>Read Context</span>
                   <ArrowRight className="h-3.5 w-3.5" />
                 </Link>
 

@@ -20,10 +20,10 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }: { params: { id: string } }): Metadata {
   const character = getCharacter(params.id);
-  if (!character) return { title: 'Character Not Found — Dharma Granth' };
+  if (!character) return { title: 'Character Not Found' };
 
   return {
-    title: `${character.name} — Dharma Granth`,
+    title: `${character.name}`,
     description: character.shortDesc,
     alternates: { canonical: `/characters/${character.id}` },
     openGraph: {

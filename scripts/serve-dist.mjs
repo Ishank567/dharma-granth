@@ -71,7 +71,13 @@ createServer((req, res) => {
   }
   const file = resolveFile(url);
   const status = file ? 200 : 404;
-  const target = file ?? join(ROOT, '404.html');
+  const fallback404 = join(ROOT, '404.html');
+  const target = file ?? (existsSync(fallback404) ? fallback404 : null);
+  if (!target) {
+    res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' });
+    res.end('Not Found');
+    return;
+  }
   res.writeHead(status, {
     ...headersFor(pathOnly),
     'Content-Type': TYPES[extname(target)] ?? 'application/octet-stream',

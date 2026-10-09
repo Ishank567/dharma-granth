@@ -90,10 +90,17 @@ export interface PedagogicalVerseData {
   };
 
   // 10. Deeper Traditional Understanding
-  traditionalCommentary: {
+  /** Absent until reviewed commentary summaries are available for the verse. */
+  traditionalCommentary?: {
     shankara: TraditionalCommentatorPerspective;
     ramanuja: TraditionalCommentatorPerspective;
     sridhara: TraditionalCommentatorPerspective;
+  };
+  commentaryPerspectives?: {
+    shankara?: TraditionalCommentatorPerspective;
+    ramanuja?: TraditionalCommentatorPerspective;
+    sridhara?: TraditionalCommentatorPerspective;
+    [key: string]: any;
   };
 
   // 11. Source Transparency

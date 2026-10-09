@@ -1927,6 +1927,106 @@ export const chapterOrientations: ChapterOrientation[] = [
     reviewDate: '2026-10-08',
     review: 'approved',
   },
+  {
+    scriptureId: 'ishavasya',
+    chapter: 1,
+    nameEn: 'Isha Upanishad (Vājasaneyi Saṁhitā Chapter 40)',
+    nameHi: 'ईशावास्योपनिषद् (वाजसनेयि-संहिता ४०वां अध्याय)',
+    speakers: 'Vedic Ṛṣi of the Shukla Yajurveda.',
+    listeners: 'The spiritual seeker discerning the unity of life.',
+    speakersList: ['ऋषि (Vedic Seer)'],
+    listenersList: ['साधक (Spiritual Seeker)', 'मुमुक्षु (Aspirant for Liberation)'],
+    narrativeContext: 'Embedded in the 40th chapter of the Shukla Yajurveda Samhita, this is the foundational Mukhya Upanishad reconciling world engagement, moral action, and non-dual realization.',
+    centralConflict: 'The apparent paradox between acting in the temporal world (karma) and realizing formless transcendence (jnana/renunciation).',
+    mainQuestions: [
+      'How can a person live fully in this world without being chained by selfishness?',
+      'What is the true relationship between individual consciousness and the cosmos?',
+      'How do knowledge (vidya) and action (avidya) balance each other in daily life?'
+    ],
+    centralQuestion: 'How can one live an active, hundred-year life while remaining completely free from karmic bondage?',
+    concepts: ['Isha (All-pervading Divine)', 'Tyaga (Renunciation)', 'Avidya & Vidya', 'Sambhuti & Asambhuti', 'Atman'],
+    importantVerses: [
+      { verse: 1, note: 'The supreme declaration of divine presence and renunciation of greed.' },
+      { verse: 2, note: 'The call to live an active hundred-year life without bondage.' },
+      { verse: 6, note: 'Seeing all beings in the Self dissolves aversion and hatred.' },
+      { verse: 11, note: 'The harmonious synthesis of knowledge and selfless ethical duty.' },
+      { verse: 15, note: 'The prayer for Truth to uncover its golden veil.' }
+    ],
+    background: 'The Isha Upanishad is the only primary Upanishad directly part of a Vedic Samhita text, bridging ritual poetry with profound Vedanta philosophy.',
+    prerequisiteConcepts: ['Atman', 'Brahman', 'Karma'],
+    structure: [
+      'The foundational vision of divine all-pervasiveness (1–3)',
+      'The nature and paradox of the unmoving Self (4–5)',
+      'The psychology of non-dual compassion and freedom from sorrow (6–8)',
+      'The synthesis of vidya and avidya, sambhuti and vinasha (9–14)',
+      'The concluding prayers to Pushan and Agni for the vision of Truth (15–18)'
+    ],
+    sequence: seq([
+      'Human beings often oscillate between cynical worldliness and escapist asceticism.',
+      'How can one engage in life’s demands without falling into possessive greed or spiritual blindness?',
+      'All reality is enveloped in the Divine; engage in duty without egoic grasping.',
+      'Realizing the one Self in all living beings erases both hatred and sorrow at their roots.',
+      'Life and death are integrated into an enduring offering to eternal Truth.'
+    ]),
+    chapterConclusion: 'The Upanishad concludes with an invocation of humility and surrender: praying to the inner light (Agni) to guide the seeker along the righteous path beyond crooked egoism.',
+    mapNodes: [
+      {
+        id: 'isha-stage1',
+        stageName: 'Divine Pervasion & Action',
+        stageNameHi: 'ईशा वास्यम् व निष्काम कर्म',
+        verseRange: '1–3',
+        startVerse: 1,
+        endVerse: 3,
+        coreQuestion: 'How should one live and work in a constantly changing world?',
+        concepts: ['Isha', 'Tyaktena bhunjitha', 'Jijivishet shatam samah'],
+        keyVerses: [1, 2],
+        summary: 'Everything belongs to the Divine. Work with detachment, aspiring for a vigorous life of service without coveting what belongs to others.',
+        transitionNote: 'The seer reveals the paradoxical nature of the underlying consciousness.'
+      },
+      {
+        id: 'isha-stage2',
+        stageName: 'The Paradox of Consciousness',
+        stageNameHi: 'अनेजदेकम्: चेतना का स्वरूप',
+        verseRange: '4–8',
+        startVerse: 4,
+        endVerse: 8,
+        coreQuestion: 'What is the true nature of the Self, and how does seeing it heal human grief?',
+        concepts: ['Anejad ekam', 'Sarvabhuta-atma', 'Ekattva (Oneness)'],
+        keyVerses: [4, 6, 7],
+        summary: 'Unmoving yet faster than the mind, the Self is everywhere. One who beholds all beings within the Self loses all aversion, delusion, and sorrow.',
+        transitionNote: 'The teaching examines how one-sided doctrines lead to spiritual blindness.'
+      },
+      {
+        id: 'isha-stage3',
+        stageName: 'The Harmonious Synthesis',
+        stageNameHi: 'विद्या व अविद्या का समन्वय',
+        verseRange: '9–14',
+        startVerse: 9,
+        endVerse: 14,
+        coreQuestion: 'Why are pure ritualism and detached intellectualism both dangerous on their own?',
+        concepts: ['Vidya', 'Avidya', 'Sambhuti', 'Vinasha'],
+        keyVerses: [11, 14],
+        summary: 'Neither blind action without insight nor arid theory without duty brings liberation. Integrating both leads to immortality.',
+        transitionNote: 'The seeker offers the ultimate prayer as the manifest world fades.'
+      },
+      {
+        id: 'isha-stage4',
+        stageName: 'The Golden Veil & Final Prayer',
+        stageNameHi: 'हिरण्मयेन पात्रेण: सत्य की प्रार्थना',
+        verseRange: '15–18',
+        startVerse: 15,
+        endVerse: 18,
+        coreQuestion: 'What is the seeker’s final realization at the horizon of life?',
+        concepts: ['Hiranmayena patrena', 'So-ham asmi', 'Agne naya supatha'],
+        keyVerses: [15, 16, 18],
+        summary: 'The seeker asks the solar intelligence to draw back its glittering rays so that Truth may be seen directly: "That Person yonder—I am He."',
+        transitionNote: 'The Upanishad concludes in complete serenity.'
+      }
+    ],
+    editorialReviewer: 'Editorial Scripture Team (V. S. Sharma & S. Shastri)',
+    reviewDate: '2026-10-09',
+    review: 'approved',
+  },
 ];
 
 export function getChapterOrientation(scriptureId: string, chapter: number): ChapterOrientation | undefined {

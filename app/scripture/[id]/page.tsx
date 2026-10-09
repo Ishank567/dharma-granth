@@ -9,6 +9,7 @@ import { FadeUp, FadeUpOnView } from '@/app/components/motion/primitives';
 import { getBookExplanation } from '@/data/book-explanations';
 import { getScripture, getScriptureMeta, getAllScriptures } from '@/data/scriptures';
 import { ArrowLeft } from 'lucide-react';
+import { SourcesAndInterpretation } from '@/app/components/SourcesAndInterpretation';
 
 import { ChapterPreview, readSeededChapterPreviews } from '@/lib/read-seeded-chapters';
 
@@ -203,8 +204,13 @@ export default function ScripturePage({ params }: PageProps) {
         </div>
       </ChapterHero>
 
-      <FadeUpOnView className="max-w-5xl mx-auto px-6 py-12">
+      <FadeUpOnView className="max-w-5xl mx-auto px-6 py-12 space-y-12">
         <BookLearningClient meta={meta} explanation={explanation} chapters={chapterPreviews} />
+        <SourcesAndInterpretation
+          scriptureId={meta.id}
+          scriptureTitle={meta.title}
+          scriptureTitleSanskrit={meta.titleSanskrit}
+        />
       </FadeUpOnView>
     </main>
   );

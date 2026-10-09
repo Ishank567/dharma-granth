@@ -23,10 +23,110 @@ function timeAgo(iso: string): string {
   return days === 1 ? 'कल' : `${days} दिन पहले`;
 }
 
-/** Home-page "continue reading" strip; renders nothing for first-time visitors. */
+/** Home-page "continue reading" strip; renders a beginner-friendly Start Here card when no history exists. */
 export function ContinueReading() {
   const visits = useRecentChapters();
-  if (!visits || visits.length === 0) return null;
+
+  // If no visits recorded yet, render the beginner-friendly Start Here card.
+  if (!visits || visits.length === 0) {
+    return (
+      <section
+        aria-labelledby="start-here-heading"
+        className="border-b border-dharma-border bg-gradient-to-b from-dharma-card-soft/60 to-dharma-bg py-10 sm:py-12"
+      >
+        <div className="mx-auto max-w-6xl px-5 sm:px-6">
+          <div className="relative overflow-hidden rounded-3xl border border-amber-200/80 bg-dharma-card p-6 shadow-sm dark:border-amber-900/40 sm:p-8 md:p-10">
+            {/* Subtle mandala watermark */}
+            <div className="pointer-events-none absolute -right-16 -top-16 h-64 w-64 rounded-full border border-amber-500/10 opacity-30 mandala-bg" />
+
+            <div className="relative z-10 flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
+              <div className="max-w-2xl">
+                <div className="mb-2 flex items-center gap-2">
+                  <span className="size-2 rounded-full bg-saffron-600 animate-pulse" />
+                  <p className="text-xs font-bold uppercase tracking-[0.2em] text-saffron-700 dark:text-saffron-400">
+                    पहला कदम · New to Dharma Granth?
+                  </p>
+                </div>
+                <h2
+                  id="start-here-heading"
+                  className="font-serif text-2xl font-bold text-dharma-text sm:text-3xl"
+                >
+                  Start Here — Recommended Paths for Beginners
+                </h2>
+                <p className="mt-2 text-sm leading-relaxed text-dharma-muted sm:text-base">
+                  Sacred literature can feel vast. We recommend starting with one of these three gentle, profound doorways into the wisdom tradition:
+                </p>
+
+                <div className="mt-6 grid gap-3 sm:grid-cols-3">
+                  <Link
+                    href="/scripture/bhagavadgita/chapter/2"
+                    className="group rounded-2xl border border-dharma-border bg-dharma-bg/70 p-4 transition hover:border-saffron-400 hover:bg-dharma-card"
+                  >
+                    <span className="block text-xs font-bold uppercase tracking-wider text-saffron-700">
+                      The Foundation
+                    </span>
+                    <h3 className="mt-1 font-serif text-base font-bold text-dharma-text group-hover:text-saffron-700">
+                      Gita — Chapter 2
+                    </h3>
+                    <p className="mt-1 text-xs text-dharma-muted line-clamp-2">
+                      Sankhya Yoga: The eternal soul, selfless action, and mental equanimity.
+                    </p>
+                  </Link>
+
+                  <Link
+                    href="/scripture/ishavasya"
+                    className="group rounded-2xl border border-dharma-border bg-dharma-bg/70 p-4 transition hover:border-saffron-400 hover:bg-dharma-card"
+                  >
+                    <span className="block text-xs font-bold uppercase tracking-wider text-amber-700">
+                      Concise Wisdom
+                    </span>
+                    <h3 className="mt-1 font-serif text-base font-bold text-dharma-text group-hover:text-saffron-700">
+                      Isha Upanishad
+                    </h3>
+                    <p className="mt-1 text-xs text-dharma-muted line-clamp-2">
+                      Universal oneness and contentment across just 18 poetic verses.
+                    </p>
+                  </Link>
+
+                  <a
+                    href="#life-situations"
+                    className="group rounded-2xl border border-dharma-border bg-dharma-bg/70 p-4 transition hover:border-saffron-400 hover:bg-dharma-card"
+                  >
+                    <span className="block text-xs font-bold uppercase tracking-wider text-rose-700">
+                      Practical Need
+                    </span>
+                    <h3 className="mt-1 font-serif text-base font-bold text-dharma-text group-hover:text-saffron-700">
+                      Life Situations
+                    </h3>
+                    <p className="mt-1 text-xs text-dharma-muted line-clamp-2">
+                      Ancient insights on stress, fear, duty, relationships, and grief.
+                    </p>
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex shrink-0 flex-col gap-3 sm:flex-row lg:flex-col">
+                <Link
+                  href="/scripture/bhagavadgita/chapter/2"
+                  className="inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-saffron-600 to-amber-600 px-6 py-3 text-sm font-bold text-white shadow-md transition hover:from-saffron-700 hover:to-amber-700"
+                >
+                  <BookOpen className="h-4 w-4" aria-hidden="true" />
+                  <span>Begin with Gita Ch. 2</span>
+                  <ArrowRight className="h-4 w-4" aria-hidden="true" />
+                </Link>
+                <Link
+                  href="/scriptures"
+                  className="inline-flex items-center justify-center gap-2 rounded-full border border-dharma-border bg-dharma-card px-6 py-3 text-sm font-semibold text-dharma-text transition hover:border-saffron-300 hover:text-saffron-700"
+                >
+                  <span>Browse Full Library</span>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+  }
 
   const [latest, ...others] = visits;
   const total = Math.max(latest.totalChapters, latest.chapterId);
@@ -49,17 +149,19 @@ export function ContinueReading() {
           <span className="uppercase tracking-[0.2em]">Continue reading</span>
         </h2>
 
-        <div className="grid gap-4 lg:grid-cols-[1.4fr_1fr]">
+        {/* grid-cols-1 (minmax(0,1fr)), not the implicit auto track: otherwise a
+            long nowrap title widens the track past the viewport on phones. */}
+        <div className="grid grid-cols-1 gap-4 lg:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)]">
           <article className="relative rounded-2xl border border-saffron-200 bg-dharma-card p-5 shadow-sm sm:p-6">
             <button
               type="button"
               onClick={() => forgetScripture(latest.scriptureId)}
-              className="absolute right-3 top-3 rounded-lg p-1.5 text-dharma-muted transition hover:bg-dharma-bg hover:text-dharma-text"
+              className="absolute right-0.5 top-0.5 rounded-lg p-3.5 text-dharma-muted transition hover:bg-dharma-bg hover:text-dharma-text"
               aria-label={`${latest.scriptureTitle} को इतिहास से हटाएँ (Remove from history)`}
             >
               <X className="h-4 w-4" />
             </button>
-            <p className="pr-8 text-sm font-semibold text-dharma-muted">
+            <p className="pr-9 text-sm font-semibold text-dharma-muted">
               {latest.scriptureTitle}
               {latest.scriptureTitleSanskrit && (
                 <span lang="sa" className="ml-2 font-devanagari">
@@ -112,7 +214,7 @@ export function ContinueReading() {
           </article>
 
           {others.length > 0 && (
-            <ul className="grid content-start gap-2" aria-label="अन्य हाल के ग्रंथ (Other recent texts)">
+            <ul className="grid grid-cols-1 content-start gap-2" aria-label="अन्य हाल के ग्रंथ (Other recent texts)">
               {others.slice(0, 3).map((v) => (
                 <li key={v.scriptureId}>
                   <Link

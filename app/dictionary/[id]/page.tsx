@@ -20,10 +20,10 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }: { params: { id: string } }): Metadata {
   const term = getTerm(params.id);
-  if (!term) return { title: 'Term Not Found — Dharma Granth' };
+  if (!term) return { title: 'Term Not Found' };
 
   return {
-    title: `${term.term} (${term.sanskrit}) — Dharma Granth Dictionary`,
+    title: `${term.term} (${term.sanskrit}) — Dictionary`,
     description: term.shortDef,
     alternates: { canonical: `/dictionary/${term.id}` },
     openGraph: {

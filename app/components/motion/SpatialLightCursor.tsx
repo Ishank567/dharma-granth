@@ -3,6 +3,8 @@
 import { useEffect, useState } from 'react';
 import { motion, useMotionValue, useSpring, useReducedMotion } from 'framer-motion';
 
+import { usePerformanceMode } from '@/lib/performance-mode';
+
 const GLOW_SIZE = 520;
 
 /**
@@ -10,11 +12,11 @@ const GLOW_SIZE = 520;
  * the mouse pointer smoothly across the page, casting an organic golden glow
  * across cards, borders, and glass surfaces.
  *
- * Moves with `transform` (x/y) rather than left/top so each frame is a GPU
- * composite of an already-rasterised blurred layer, not a layout + repaint.
+ * Automatically disabled under prefers-reduced-motion, Low-Power mode, and Data-Saver mode.
  */
 export function SpatialLightCursor() {
   const reduce = useReducedMotion();
+  const { isLiteMode } = usePerformanceMode();
   const [isPointerFine, setIsPointerFine] = useState(false);
   const [seen, setSeen] = useState(false);
 
@@ -35,7 +37,7 @@ export function SpatialLightCursor() {
   }, []);
 
   useEffect(() => {
-    if (reduce || !isPointerFine) return;
+    if (reduce || isLiteMode || !isPointerFine) return;
 
     const handlePointerMove = (e: PointerEvent) => {
       mouseX.set(e.clientX - GLOW_SIZE / 2);
@@ -54,9 +56,9 @@ export function SpatialLightCursor() {
       window.removeEventListener('pointermove', handlePointerMove);
       document.removeEventListener('visibilitychange', onVisibility);
     };
-  }, [reduce, isPointerFine, mouseX, mouseY]);
+  }, [reduce, isLiteMode, isPointerFine, mouseX, mouseY]);
 
-  if (reduce || !isPointerFine) return null;
+  if (reduce || isLiteMode || !isPointerFine) return null;
 
   return (
     <div aria-hidden="true" className="pointer-events-none fixed inset-0 z-30 overflow-hidden">

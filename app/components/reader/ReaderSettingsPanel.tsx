@@ -238,6 +238,12 @@ export function ReaderSettingsPanel({
           onChange={(v) => update('reducedMotion', v)}
         />
         <Toggle label="Hide decorative elements" hint="Corner ornaments, card icons and entrance motion" checked={settings.hideDecor} onChange={(v) => update('hideDecor', v)} />
+        <Toggle
+          label={<>Reading Lite Mode <span lang="hi" className="font-devanagari text-xs text-dharma-muted">विशुद्ध पाठ</span></>}
+          hint="Strips secondary panels and ornaments for pure text focus and high reading speed"
+          checked={settings.liteMode}
+          onChange={(v) => update('liteMode', v)}
+        />
       </div>
     </ReaderDialog>
   );

@@ -2,8 +2,10 @@ import type { Metadata } from 'next';
 import { StartJourney } from './StartJourney';
 
 export const metadata: Metadata = {
-  title: 'Start My Journey · अपनी अध्ययन यात्रा शुरू करें',
-  description: 'Answer five short questions and get a suggested path through Dharma Granth. No sign-in; your choices stay on your device.',
+  title: 'Discover Your Path · अपना अध्ययन मार्ग खोजें — Dharma Granth',
+  description:
+    'Answer five short questions to find a serene, non-intimidating starting point through Hindu scriptures. No account required; your choices stay on your device.',
+  alternates: { canonical: '/start' },
 };
 
 export default function StartPage() {

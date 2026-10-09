@@ -109,7 +109,7 @@ test('dashboard backup exports bookmarks and restores them', async ({ page }) =>
   await page.goto('/dashboard/');
   await page.evaluate(() => localStorage.setItem('dharma.bookmarkedVerses', '["x"]'));
   const download = page.waitForEvent('download');
-  await page.getByRole('button', { name: /export/i }).click();
+  await page.locator('section[aria-labelledby="backup-heading"]').getByRole('button', { name: /export/i }).click();
   const file = await download;
   const path = await file.path();
   const json = JSON.parse(require('node:fs').readFileSync(path!, 'utf8'));
@@ -117,7 +117,8 @@ test('dashboard backup exports bookmarks and restores them', async ({ page }) =>
   expect(json.data['dharma.bookmarkedVerses']).toBe('["x"]');
 
   await page.evaluate(() => localStorage.clear());
-  await page.locator('input[type=file]').setInputFiles(path!);
+  page.on('dialog', (dialog) => dialog.accept());
+  await page.locator('section[aria-labelledby="backup-heading"]').locator('input[type=file]').setInputFiles(path!);
   await page.waitForLoadState('load');
   await expect
     .poll(() => page.evaluate(() => localStorage.getItem('dharma.bookmarkedVerses')))

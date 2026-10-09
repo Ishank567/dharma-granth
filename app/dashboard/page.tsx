@@ -12,6 +12,8 @@ import { PATHWAY_SUMMARIES, TOTAL_QUIZZES_COUNT } from '@/data/pathways-meta';
 import { scriptureCatalog } from '@/data/scripture-meta';
 import type { VerseHighlight } from '@/lib/useStudyProgress';
 import { chapterVerseHref } from '@/lib/verse-paths';
+import { DailyDharmaDashboard } from '@/app/components/daily/DailyDharmaDashboard';
+import { DailyPracticePreview } from '@/app/components/DailyPracticePreview';
 
 // Literal class strings so Tailwind keeps them (matches VerseCard's palette).
 const HIGHLIGHT_SWATCH: Record<VerseHighlight['color'], string> = {
@@ -64,6 +66,7 @@ export default function DashboardPage() {
     return (
       <main className="min-h-screen bg-dharma-bg">
         {header}
+        <DailyDharmaDashboard />
         <div className="flex min-h-[300px] items-center justify-center" aria-busy="true">
           <div className="h-8 w-8 animate-spin rounded-full border-4 border-saffron-200 border-t-saffron-600" />
         </div>
@@ -113,7 +116,10 @@ export default function DashboardPage() {
     <main className="min-h-screen bg-dharma-bg">
       {header}
 
-      <div className="max-w-6xl mx-auto px-6 py-10 space-y-10">
+      {/* Daily Dharma Journey Dashboard Hub (5 Primary Cards & Privacy Controls) */}
+      <DailyDharmaDashboard />
+
+      <div className="max-w-6xl mx-auto px-6 py-6 space-y-10">
         {/* Stats Row */}
         <FadeUpOnView>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -345,6 +351,12 @@ export default function DashboardPage() {
             </Link>
           </FadeUpOnView>
         </div>
+
+        {/* Daily Sadhana Practice Preview */}
+        <FadeUpOnView>
+          <DailyPracticePreview />
+        </FadeUpOnView>
+
         <BackupRestore />
       </div>
     </main>

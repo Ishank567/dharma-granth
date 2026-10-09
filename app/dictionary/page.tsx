@@ -4,7 +4,7 @@ import { FadeUp } from '@/app/components/motion/primitives';
 import { DictionaryClient } from './DictionaryClient';
 
 export const metadata: Metadata = {
-  title: 'Terminology Dictionary (शब्दकोश) — Dharma Granth',
+  title: 'Terminology Dictionary (शब्दकोश)',
   description:
     'A structured dictionary of fundamental Hindu terminology — Dharma, Ṛta, Satya, Ātman, Brahman, Īśvara, Jīva, Karma, Saṃsāra, Mokṣa, Śraddhā, Tapas, Vairāgya. Each term includes Sanskrit, etymology, cross-tradition interpretations, and related verses.',
   alternates: { canonical: '/dictionary' },

@@ -1,12 +1,13 @@
 import type { Metadata } from 'next';
 import { DEFAULT_OG_IMAGE } from '@/lib/og';
 import Link from 'next/link';
+import { ArrowRight, Compass, Sparkles } from 'lucide-react';
 import { FadeUp, FadeUpOnView } from '@/app/components/motion/primitives';
 import { topics, topicCategories, type Topic } from '@/data/topics';
-
 import { verseCount } from '@/lib/format';
+
 export const metadata: Metadata = {
-  title: 'Modern-Life Application — Dharma Granth',
+  title: 'Modern-Life Application',
   description:
     'Discover how the Bhagavad Gita, Upanishads, and other Hindu scriptures speak to contemporary challenges — career, stress, relationships, parenting, social media, money, leadership, and more.',
   alternates: { canonical: '/topics' },
@@ -43,6 +44,33 @@ export default function TopicsPage() {
 
       {/* ── Topics Grid ──────────────────────────────────────────── */}
       <section className="max-w-6xl mx-auto px-6 -mt-8 relative z-10 pb-20">
+        {/* Wisdom for Life Feature Spotlight */}
+        <FadeUpOnView className="mb-12">
+          <div className="relative overflow-hidden rounded-3xl border border-amber-500/30 bg-gradient-to-r from-amber-500/10 via-saffron-500/10 to-orange-500/10 p-6 sm:p-8 backdrop-blur-sm shadow-xl">
+            <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+              <div className="max-w-2xl space-y-2">
+                <div className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-saffron-700 dark:text-saffron-300 bg-saffron-500/10 px-3 py-1 rounded-full border border-saffron-500/20">
+                  <Compass className="w-3.5 h-3.5" />
+                  <span>नया अनुभाग • New Section</span>
+                </div>
+                <h2 className="text-2xl sm:text-3xl font-serif font-bold text-dharma-text">
+                  Wisdom for Life — जीवन के लिए शास्त्रीय मार्गदर्शन
+                </h2>
+                <p className="text-sm sm:text-base text-dharma-muted leading-relaxed">
+                  Looking for guidance on stress, fear, anger, decision-making, discipline, or purpose without needing to know specific scripture names or verse numbers? Explore 12 deeply curated life dimensions.
+                </p>
+              </div>
+
+              <Link
+                href="/wisdom-for-life"
+                className="inline-flex items-center gap-2 rounded-full bg-saffron-600 px-6 py-3.5 text-sm font-bold text-white shadow-xl hover:bg-saffron-700 transition shrink-0 group"
+              >
+                <span>Explore Wisdom for Life</span>
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </Link>
+            </div>
+          </div>
+        </FadeUpOnView>
         {topicCategories.map((cat) => {
           const catTopics = topics.filter((t) => t.category === cat.key);
           if (catTopics.length === 0) return null;

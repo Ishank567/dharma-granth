@@ -3,7 +3,10 @@
 import { useEffect, useRef, useState, type ComponentType } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Sparkles } from 'lucide-react';
+import { Sparkles, ArrowRight } from 'lucide-react';
+import { usePerformanceMode } from '@/lib/performance-mode';
+import { ErrorBoundary } from '@/app/components/ErrorBoundary';
+import { StaticDharmachakra } from './StaticDharmachakra';
 
 type GranthProps = {
   title: string;
@@ -18,18 +21,21 @@ type ChakraProps = {
 };
 
 /**
- * Below-the-fold 3D codex and chakra. Their modules stay out of the first
- * load and never mount when the reader prefers reduced motion; a plain link
- * is the keyboard path either way.
+ * Below-the-fold 3D codex and chakra.
+ * Under Low-Power mode, Data-Saver mode, or prefers-reduced-motion,
+ * mounts an immediate high-fidelity static 3D fallback (StaticDharmachakra + Codex cover),
+ * avoiding all heavy WebGL canvas scripts and 60fps physics computation.
  */
 export function SacredSpace() {
   const sectionRef = useRef<HTMLElement>(null);
   const [Granth, setGranth] = useState<ComponentType<GranthProps> | null>(null);
   const [Chakra, setChakra] = useState<ComponentType<ChakraProps> | null>(null);
+  const { isLiteMode, isLowPower, isDataSaver } = usePerformanceMode();
 
   useEffect(() => {
     const section = sectionRef.current;
     if (!section) return;
+    if (isLiteMode) return;
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
     let cancelled = false;
@@ -53,7 +59,9 @@ export function SacredSpace() {
       cancelled = true;
       observer.disconnect();
     };
-  }, []);
+  }, [isLiteMode]);
+
+  const has3D = !isLiteMode && Granth && Chakra;
 
   return (
     <section
@@ -63,65 +71,98 @@ export function SacredSpace() {
     >
       <div className="mx-auto max-w-6xl px-5 sm:px-6">
         <div className="mb-12 text-center">
-          <span className="inline-flex items-center gap-1.5 rounded-full border border-saffron-500/20 bg-saffron-500/10 px-3 py-1 text-xs font-bold uppercase tracking-[0.2em] text-saffron-700 shadow-sm">
-            <Sparkles className="h-3.5 w-3.5 text-amber-500" />
-            Realistic 3D Experience · त्रिविमीय दर्शन
+          <span className="inline-flex items-center gap-1.5 rounded-full border border-saffron-500/20 bg-saffron-500/10 px-3.5 py-1 text-xs font-bold uppercase tracking-[0.2em] text-saffron-700 shadow-sm">
+            <Sparkles className="h-3.5 w-3.5 text-amber-500" aria-hidden="true" />
+            <span>
+              {isDataSaver
+                ? 'डेटा-बचत मोड · Lite Experience'
+                : isLowPower
+                ? 'कम ऊर्जा मोड · Power Saver'
+                : 'Realistic 3D Experience · त्रिविमीय दर्शन'}
+            </span>
           </span>
           <h2 id="sacred-space-heading" className="mt-3 font-serif text-3xl font-bold text-dharma-text sm:text-4xl lg:text-5xl">
             Touch and Explore the Sacred
           </h2>
           <p className="mx-auto mt-3 max-w-2xl text-base text-dharma-muted sm:text-lg">
-            The Gita opens as a link. When motion is allowed, the codex and chakra load as you reach them — drag to spin, or use the arrow keys on the chakra.
+            {has3D
+              ? 'Move cursor or tilt to interact with the codex in 3D. The Dharmachakra spins freely or with arrow keys.'
+              : 'Direct access to canonical scripture with instant, zero-latency graphic rendering optimized for speed and battery.'}
           </p>
         </div>
 
-        <div className="grid items-center justify-items-center gap-12 lg:grid-cols-2">
-          <div className="flex flex-col items-center text-center">
-            {Granth ? (
-              <Granth
-                title="श्रीमद्भगवद्गीता"
-                subTitle="The Song of Eternal Truth"
-                verseCount="७०० श्लोक · १८ अध्याय"
-                href="/scripture/bhagavadgita"
-              />
-            ) : (
-              <Link
-                href="/scripture/bhagavadgita"
-                className="block w-full max-w-sm overflow-hidden rounded-3xl border border-saffron-300/40 bg-dharma-card shadow-sm transition hover:border-saffron-400 hover:shadow-md"
-              >
-                <Image
-                  src="/og/bhagavadgita.png"
-                  alt="श्रीमद्भगवद्गीता — still of the codex, opens the Gita"
-                  width={1200}
-                  height={630}
-                  className="aspect-[1200/630] w-full bg-saffron-100 object-cover"
+        <ErrorBoundary name="Sacred Space Visuals">
+          <div className="grid items-center justify-items-center gap-12 lg:grid-cols-2">
+            {/* Bhagavad Gita Codex Card */}
+            <div className="flex flex-col items-center text-center w-full max-w-sm">
+              {Granth && !isLiteMode ? (
+                <Granth
+                  title="श्रीमद्भगवद्गीता"
+                  subTitle="The Song of Eternal Truth"
+                  verseCount="७०० श्लोक · १८ अध्याय"
+                  href="/scripture/bhagavadgita"
                 />
-                <span lang="sa" className="block px-6 pt-4 font-devanagari text-xl font-bold text-saffron-800">
-                  श्रीमद्भगवद्गीता
-                </span>
-                <span className="block px-6 pb-4 text-sm font-semibold text-saffron-700">गीता खोलें</span>
-              </Link>
-            )}
-            <p className="mt-5 text-xs font-semibold text-dharma-muted">
-              {Granth ? 'Move cursor or tilt phone to rotate in 3D · Click to open' : 'Opens the Bhagavad Gita'}
-            </p>
-          </div>
+              ) : (
+                <Link
+                  href="/scripture/bhagavadgita"
+                  className="group block w-full overflow-hidden rounded-3xl border border-saffron-300/50 bg-dharma-card shadow-lg transition hover:border-saffron-500 hover:shadow-2xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-saffron-500"
+                  aria-label="श्रीमद्भगवद्गीता पढ़ें (Read Bhagavad Gita)"
+                >
+                  <div className="relative aspect-[16/10] w-full overflow-hidden bg-gradient-to-br from-saffron-900 to-amber-950">
+                    <Image
+                      src="/og/bhagavadgita.png"
+                      alt="श्रीमद्भगवद्गीता — ग्रन्थ मुखपृष्ठ"
+                      fill
+                      sizes="(max-width: 640px) 100vw, 384px"
+                      priority={false}
+                      loading="lazy"
+                      className="object-cover transition-transform duration-500 group-hover:scale-105 opacity-90"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-stone-950/80 via-transparent to-transparent" />
+                    <span
+                      lang="sa"
+                      className="absolute bottom-3 left-4 font-devanagari text-xl font-bold text-amber-200 drop-shadow-md"
+                    >
+                      श्रीमद्भगवद्गीता
+                    </span>
+                  </div>
+                  <div className="p-5 flex items-center justify-between text-left">
+                    <div>
+                      <p className="text-sm font-bold text-dharma-text group-hover:text-saffron-700 transition">
+                        The Song of Eternal Truth
+                      </p>
+                      <p className="text-xs text-dharma-muted">७०० श्लोक · १८ अध्याय</p>
+                    </div>
+                    <span className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-saffron-500/10 text-saffron-700 group-hover:bg-saffron-600 group-hover:text-white transition">
+                      <ArrowRight className="h-4 w-4" aria-hidden="true" />
+                    </span>
+                  </div>
+                </Link>
+              )}
+              <p className="mt-4 text-xs font-semibold text-dharma-muted">
+                {Granth && !isLiteMode
+                  ? 'Move cursor or tilt phone to rotate in 3D · Click to open'
+                  : 'Opens the complete Bhagavad Gita'}
+              </p>
+            </div>
 
-          <div className="flex flex-col items-center text-center">
-            {Chakra ? (
-              <Chakra size={420} interactive />
-            ) : (
-              <div className="flex aspect-square w-full max-w-sm items-center justify-center rounded-full border border-dashed border-saffron-300/50 bg-saffron-500/5">
-                <p className="max-w-[16rem] px-6 text-sm text-dharma-muted">
-                  धर्मचक्र यहीं घूमता है जब गति चालू हो। तीर कुंजी से भी घुमाया जा सकता है।
-                </p>
-              </div>
-            )}
-            <p className="mt-5 text-xs font-semibold text-dharma-muted">
-              3D Dharmachakra — drag, or focus it and use the arrow keys
-            </p>
+            {/* Sacred Dharmachakra (3D or Static High-Definition SVG Fallback) */}
+            <div className="flex flex-col items-center text-center w-full max-w-sm">
+              {Chakra && !isLiteMode ? (
+                <Chakra size={400} interactive />
+              ) : (
+                <div className="flex aspect-square w-full max-w-sm items-center justify-center rounded-full border border-amber-500/20 bg-gradient-to-b from-amber-500/5 to-transparent p-6 shadow-inner">
+                  <StaticDharmachakra size={340} />
+                </div>
+              )}
+              <p className="mt-4 text-xs font-semibold text-dharma-muted">
+                {Chakra && !isLiteMode
+                  ? '3D Dharmachakra — drag, or focus it and use the arrow keys'
+                  : '२४ अरों वाला धर्मचक्र · Symbol of Truth and Cosmic Order'}
+              </p>
+            </div>
           </div>
-        </div>
+        </ErrorBoundary>
       </div>
     </section>
   );

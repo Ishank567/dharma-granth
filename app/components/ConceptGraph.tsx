@@ -572,9 +572,23 @@ export function ConceptGraph() {
               </div>
 
               {/* Description */}
-              <p className="text-dharma-text leading-relaxed mb-6">
+              <p className="text-dharma-text leading-relaxed mb-4">
                 {selectedConcept.description}
               </p>
+
+              {/* Dedicated Concept Page CTA */}
+              <div className="mb-6">
+                <Link
+                  href={`/concepts/${selectedConcept.id}`}
+                  className="inline-flex items-center justify-between w-full p-3 rounded-xl bg-saffron-500/10 hover:bg-saffron-500/20 text-saffron-800 dark:text-saffron-200 border border-saffron-500/30 font-semibold text-sm transition-all group min-h-[44px]"
+                >
+                  <span className="flex items-center gap-2">
+                    <Sparkles className="w-4 h-4 text-saffron-600 dark:text-saffron-400" />
+                    <span>गहन शास्त्रीय व्याख्या व व्युत्पत्ति (Deep Analysis)</span>
+                  </span>
+                  <ChevronRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
+                </Link>
+              </div>
 
               {/* Scripture references */}
               {selectedConcept.scriptureRefs && selectedConcept.scriptureRefs.length > 0 && (

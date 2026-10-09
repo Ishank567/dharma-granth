@@ -16,7 +16,10 @@ export type AnalyticsEvent =
   | 'search_no_result'
   | 'verse_opened'
   | 'mode_selected'
-  | 'audio_started'
+  | 'explanation_mode_selected'
+  | 'simple_meaning_opened'
+  | 'commentary_opened'
+  | 'continue_reading_selected'
   | 'verse_saved'
   | 'collection_created'
   | 'journey_started'
@@ -35,7 +38,10 @@ export const EVENT_PROPERTIES: Record<AnalyticsEvent, readonly string[]> = {
   search_no_result: ['intent'],
   verse_opened: ['scriptureId', 'chapter', 'verse'],
   mode_selected: ['mode'],
-  audio_started: ['scriptureId', 'speed'],
+  explanation_mode_selected: ['mode'],
+  simple_meaning_opened: ['scriptureId'],
+  commentary_opened: ['scriptureId', 'commentator'],
+  continue_reading_selected: ['scriptureId'],
   verse_saved: ['scriptureId', 'collectionId'],
   collection_created: [],
   journey_started: ['journeyId'],

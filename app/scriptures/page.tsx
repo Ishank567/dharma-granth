@@ -3,8 +3,17 @@ import { DEFAULT_OG_IMAGE } from '@/lib/og';
 import { getBookExplanation } from '@/data/book-explanations';
 import { categories } from '@/data/scripture-meta';
 import { getAllScriptures } from '@/data/scriptures';
+import { getLibraryFacts } from '@/lib/library-server';
 import { FadeUp } from '@/app/components/motion/primitives';
 import { ScriptureLibraryClient } from '@/app/components/ScriptureLibraryClient';
+
+function loadLibrary() {
+  return getAllScriptures().map((scripture) => ({
+    ...scripture,
+    explanation: getBookExplanation(scripture.id),
+    facts: getLibraryFacts(scripture.id),
+  }));
+}
 
 export const metadata: Metadata = {
   title: 'All Scriptures',
@@ -22,10 +31,15 @@ export const metadata: Metadata = {
 };
 
 export default function ScripturesPage() {
-  const scriptures = getAllScriptures().map((scripture) => ({
-    ...scripture,
-    explanation: getBookExplanation(scripture.id),
-  }));
+  let scriptures: ReturnType<typeof loadLibrary> = [];
+  let loadError = false;
+  try {
+    scriptures = loadLibrary();
+  } catch (error) {
+    // Render the page's own failure state instead of the generic error page.
+    console.error('[scriptures] could not load the catalogue:', error);
+    loadError = true;
+  }
 
   return (
     <main className="min-h-screen bg-dharma-bg">
@@ -40,18 +54,21 @@ export default function ScripturesPage() {
               </span>
             </div>
             <h1 className="text-3xl font-serif font-bold text-dharma-text sm:text-5xl tracking-tight">
-              All Scriptures
+              Scripture Library
+              <span lang="hi" className="ml-3 block font-devanagari text-2xl font-semibold leading-relaxed text-dharma-muted sm:inline sm:text-4xl">
+                ग्रंथालय
+              </span>
             </h1>
           </FadeUp>
           <FadeUp delay={0.1}>
             <p className="mt-3 text-base text-dharma-muted sm:text-lg max-w-2xl leading-relaxed">
-              A curated catalog of Hindu sacred texts — Vedas, Upanishads, Itihasas, and Puranas, indexed for verse-by-verse study, original Sanskrit recitation, and commentary.
+              Vedas, Upanishads, Itihasas and Puranas in one place. Search by name or topic, filter by tradition, length or language, then open any text to read it verse by verse.
             </p>
           </FadeUp>
         </div>
       </div>
 
-      <ScriptureLibraryClient scriptures={scriptures} categories={categories} />
+      <ScriptureLibraryClient scriptures={scriptures} categories={categories} loadError={loadError} />
     </main>
   );
 }

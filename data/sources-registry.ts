@@ -32,7 +32,7 @@ export interface ScriptureSourceMeta {
 
 const NOT_REVIEWED = 'Not yet independently reviewed';
 
-const SCRIPTURE_SOURCES: Record<string, Partial<ScriptureSourceMeta>> = {
+export const SCRIPTURE_SOURCES: Record<string, Partial<ScriptureSourceMeta>> = {
   bhagavadgita: {
     sourceScriptureTitle: 'Bhagavad Gita',
     sourceScriptureTitleSanskrit: 'श्रीमद्भगवद्गीता',
