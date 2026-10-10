@@ -17,12 +17,12 @@ jobs:
           API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           PROJECT: dharma-granth
         run: |
-          echo "=== Getting Domains List ==="
-          DOMAINS_RES=$(curl -s "https://api.cloudflare.com/client/v4/accounts/${ACCOUNT_ID}/pages/projects/${PROJECT}/domains" \
+          echo "=== Checking DNS Records ==="
+          DNS_RES=$(curl -s "https://api.cloudflare.com/client/v4/zones/01baedc62f8d1db61a2731eb2e7f63c0/dns_records" \
             -H "Authorization: Bearer ${API_TOKEN}")
-          CLEAN_DOMAINS=$(echo "$DOMAINS_RES" | tr '\n' ' ' | tr '\r' ' ' | sed 's/  */ /g')
-          echo "::notice title=Configured Domains::${CLEAN_DOMAINS}"
-          echo "Domains: $DOMAINS_RES"
+          CLEAN_DNS=$(echo "$DNS_RES" | tr '\n' ' ' | tr '\r' ' ' | sed 's/  */ /g')
+          echo "::notice title=DNS Records::${CLEAN_DNS}"
+          echo "DNS: $DNS_RES"
 
           for domain in "dharmagranth.in" "www.dharmagranth.in"; do
             echo "=== Retrying validation for $domain ==="
