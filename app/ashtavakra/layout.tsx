@@ -1,9 +1,11 @@
 import type { ReactNode } from 'react';
 import Link from 'next/link';
+import { publishedTotals } from '@/lib/ashtavakra';
 import { AshShell, ModeControls, ASH_INIT_SCRIPT } from './AshShell';
 import './ashtavakra.css';
 
 export default function AshtavakraLayout({ children }: { children: ReactNode }) {
+  const published = publishedTotals();
   return (
     <AshShell>
       {/* Applies a saved visual mode before first paint. */}
@@ -14,7 +16,7 @@ export default function AshtavakraLayout({ children }: { children: ReactNode }) 
             अष्टावक्र गीता
           </Link>
           <nav aria-label="अष्टावक्र गीता" className="flex flex-wrap gap-4">
-            <Link href="/ashtavakra/#chapters" style={{ minHeight: 44, display: 'inline-flex', alignItems: 'center' }}>20 प्रकरण</Link>
+            <Link href="/ashtavakra/#chapters" style={{ minHeight: 44, display: 'inline-flex', alignItems: 'center' }}>प्रकरण 1–{published.chapters}</Link>
             <Link href="/ashtavakra/#concepts" style={{ minHeight: 44, display: 'inline-flex', alignItems: 'center' }}>अवधारणाएँ</Link>
             <Link href="/ashtavakra/words/" style={{ minHeight: 44, display: 'inline-flex', alignItems: 'center' }}>शब्द</Link>
             <Link href="/ashtavakra/#source" style={{ minHeight: 44, display: 'inline-flex', alignItems: 'center' }}>स्रोत</Link>

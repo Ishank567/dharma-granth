@@ -24,6 +24,7 @@ export default function AshtavakraHome() {
   const nums = publishedChapterNumbers();
 
   const pathChapters: PathChapter[] = CHAPTERS.map((c) => ({ ...c, ids: getChapterData(c.number)?.verses.map((v) => v.verseNumber) ?? [] }));
+  const unpublished = CHAPTERS.filter((c) => c.status !== 'published').map((c) => c.number);
   const daily: DailyItem[] = nums.flatMap((n) =>
     getChapterData(n)!.verses.map((v) => ({ id: v.verseNumber, href: verseHref(v.verseNumber), sanskrit: v.sanskrit, hindi: v.literalHindiMeaning, summary: v.oneLineSummaryHindi })),
   );
@@ -89,9 +90,11 @@ export default function AshtavakraHome() {
 
         {/* 4. Chapter path */}
         <section id="chapters" aria-labelledby="path-h" className="scroll-mt-6">
-          <h2 id="path-h" className="font-bold" style={{ fontSize: '1.5rem' }}>चेतना का पथ: 20 प्रकरण</h2>
+          <h2 id="path-h" className="font-bold" style={{ fontSize: '1.5rem' }}>चेतना का पथ: प्रकरण 1–{totals.chapters} प्रकाशित</h2>
           <p className="ash-meta mt-1 mb-4">
-            कोई भी उपलब्ध प्रकरण कभी भी खोला जा सकता है। अध्याय-नाम और प्रतीक संपादकीय संकेत हैं; पुस्तक केवल “पहला प्रकरण”, “दूसरा प्रकरण” आदि नाम देती है। चमक केवल इस डिवाइस पर आपके पढ़े हुए चिह्नों को दिखाती है, किसी स्तर या उपलब्धि को नहीं।
+            परंपरा में {totals.allChapters} प्रकरण हैं। इस स्थल पर प्रकरण 1 से {totals.chapters} तक प्रकाशित हैं और खुलते हैं।
+            {unpublished.length > 0 ? ` प्रकरण ${unpublished.join(' और ')} अभी स्थल पर नहीं हैं; वे नीचे केवल संकेत के रूप में हैं और किसी पृष्ठ पर नहीं खुलते।` : ''}
+            {' '}अध्याय-नाम और प्रतीक संपादकीय संकेत हैं; पुस्तक केवल “पहला प्रकरण”, “दूसरा प्रकरण” आदि नाम देती है। चमक केवल इस डिवाइस पर आपके पढ़े हुए चिह्नों को दिखाती है, किसी स्तर या उपलब्धि को नहीं।
           </p>
           <ChapterPath chapters={pathChapters} />
         </section>

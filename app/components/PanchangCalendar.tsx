@@ -31,6 +31,7 @@ import {
   LocationConfig,
   PRESET_LOCATIONS,
   calculateEducationalPanchang,
+  todayForLocation,
   type PanchangDayData,
 } from '@/lib/panchang';
 import { useLocalStorage } from '@/lib/useLocalStorage';
@@ -53,7 +54,8 @@ function toIsoDate(d: Date): string {
 }
 
 export function PanchangCalendar() {
-  const [selectedDate, setSelectedDate] = useState<Date>(() => new Date());
+  const [selectedDate, setSelectedDate] = useState<Date>(() => todayForLocation(PRESET_LOCATIONS[0]));
+  const [dateWasPicked, setDateWasPicked] = useState(false);
   const [activeView, setActiveView] = useState<'day' | 'week'>('day');
   const [isLocationModalOpen, setIsLocationModalOpen] = useState(false);
   const [isDataSourceModalOpen, setIsDataSourceModalOpen] = useState(false);
@@ -94,19 +96,33 @@ export function PanchangCalendar() {
     }
   }, [selectedDate, location, panchang]);
 
-  const handlePrevDay = () => setSelectedDate((d) => addDays(d, -1));
-  const handleNextDay = () => setSelectedDate((d) => addDays(d, 1));
-  const handleToday = () => setSelectedDate(new Date());
+  useEffect(() => {
+    if (!dateWasPicked) setSelectedDate(todayForLocation(location));
+  }, [location, dateWasPicked]);
+
+  const handlePrevDay = () => {
+    setDateWasPicked(true);
+    setSelectedDate((d) => addDays(d, -1));
+  };
+  const handleNextDay = () => {
+    setDateWasPicked(true);
+    setSelectedDate((d) => addDays(d, 1));
+  };
+  const handleToday = () => {
+    setDateWasPicked(false);
+    setSelectedDate(todayForLocation(location));
+  };
 
   const handleDateChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (!e.target.value) return;
     const [year, month, day] = e.target.value.split('-').map(Number);
     if (year && month && day) {
+      setDateWasPicked(true);
       setSelectedDate(new Date(year, month - 1, day, 12, 0, 0));
     }
   };
 
-  const isToday = toIsoDate(selectedDate) === toIsoDate(new Date());
+  const isToday = toIsoDate(selectedDate) === toIsoDate(todayForLocation(location));
 
   if (!panchang) {
     return (

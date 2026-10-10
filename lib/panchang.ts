@@ -1272,15 +1272,32 @@ function getVedicRitu(sunTropicalDeg: number): RituMeta {
 /**
  * Approximates transition end hour formatted for standard display.
  */
-function formatRemainingSpan(progress0To1: number, hoursTotal: number, tz: string): string {
+function formatRemainingSpan(progress0To1: number, hoursTotal: number, utcOffsetHours: number, tz: string): string {
   const remainingHours = (1 - progress0To1) * hoursTotal;
-  const now = new Date();
-  const finishTime = new Date(now.getTime() + remainingHours * 3600 * 1000);
-  const hrs = finishTime.getHours();
-  const mins = finishTime.getMinutes().toString().padStart(2, '0');
+  const finish = new Date(Date.now() + remainingHours * 3600 * 1000);
+  const shifted = new Date(finish.getTime() + utcOffsetHours * 3600 * 1000);
+  const hrs = shifted.getUTCHours();
+  const mins = shifted.getUTCMinutes().toString().padStart(2, '0');
   const period = hrs >= 12 ? 'PM' : 'AM';
   const displayHrs = hrs % 12 === 0 ? 12 : hrs % 12;
-  return `Ends ~${displayHrs}:${mins} ${period} ${tz}`;
+  return `Approximate · ends ~${displayHrs}:${mins} ${period} ${tz}`;
+}
+
+/** Calendar year, month index, and day at a fixed UTC offset. Month is 0–11. */
+export function civilPartsAtOffset(instant: Date, utcOffsetHours: number): { year: number; month: number; day: number } {
+  const shifted = new Date(instant.getTime() + utcOffsetHours * 3600 * 1000);
+  return { year: shifted.getUTCFullYear(), month: shifted.getUTCMonth(), day: shifted.getUTCDate() };
+}
+
+/** Noon on a civil date, expressed as an absolute instant at the location offset. */
+export function locationNoon(year: number, month: number, day: number, utcOffsetHours: number): Date {
+  return new Date(Date.UTC(year, month, day, 12, 0, 0) - utcOffsetHours * 3600 * 1000);
+}
+
+/** A Date whose local calendar fields are the civil day at the location. */
+export function todayForLocation(location: LocationConfig, now: Date = new Date()): Date {
+  const parts = civilPartsAtOffset(now, location.utcOffsetHours);
+  return new Date(parts.year, parts.month, parts.day, 12, 0, 0);
 }
 
 /**
@@ -1367,8 +1384,11 @@ export function calculateEducationalPanchang(
   date: Date,
   location: LocationConfig = PRESET_LOCATIONS[0],
 ): PanchangDayData {
-  // Noon on the given date ensures standard day-centered calculation
-  const calcDate = new Date(date.getFullYear(), date.getMonth(), date.getDate(), 12, 0, 0);
+  // The picked year/month/day is the civil date at the selected place, not the browser zone.
+  const year = date.getFullYear();
+  const month = date.getMonth();
+  const day = date.getDate();
+  const calcDate = locationNoon(year, month, day, location.utcOffsetHours);
   const daysFromJ2000 = (calcDate.getTime() - J2000_EPOCH) / MS_PER_DAY;
   const daysFromNewMoon = (calcDate.getTime() - NEW_MOON_REFERENCE) / MS_PER_DAY;
 
@@ -1434,7 +1454,7 @@ export function calculateEducationalPanchang(
   const rituMeta = getVedicRitu(sunTropical);
 
   // 7. SOLAR TIMES
-  const solarTimes = calculateSolarTimes(calcDate, location);
+  const solarTimes = calculateSolarTimes(new Date(year, month, day, 12, 0, 0), location);
 
   // 8. STUDY SUGGESTION (matched with day index or tithi)
   const studySuggestion = STUDY_SUGGESTIONS[(date.getDate() + tithiNumber) % STUDY_SUGGESTIONS.length];
@@ -1462,7 +1482,7 @@ export function calculateEducationalPanchang(
 
   return {
     date,
-    isoDate: date.toISOString().split('T')[0],
+    isoDate: `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`,
     fullDateEnglish,
     fullDateHindi,
     dayOfWeek,
@@ -1476,7 +1496,7 @@ export function calculateEducationalPanchang(
       paksha: tithiMeta.paksha,
       pakshaHi,
       progressPercent: tithiProgressPercent,
-      approxSpan: formatRemainingSpan(tithiProgress, 23.6, location.timezone),
+      approxSpan: formatRemainingSpan(tithiProgress, 23.6, location.utcOffsetHours, location.timezone),
       meta: tithiMeta,
     },
     paksha: {
@@ -1496,7 +1516,7 @@ export function calculateEducationalPanchang(
       deity: nakshatraMeta.deity,
       rulingPlanet: nakshatraMeta.rulingPlanet,
       symbol: nakshatraMeta.symbol,
-      approxSpan: formatRemainingSpan(nakshatraProgress, 24.2, location.timezone),
+      approxSpan: formatRemainingSpan(nakshatraProgress, 24.2, location.utcOffsetHours, location.timezone),
       explanation: nakshatraMeta.explanation,
       studyTheme: nakshatraMeta.studyTheme,
     },
@@ -1506,7 +1526,7 @@ export function calculateEducationalPanchang(
       nameHi: yogaMeta.nameHi,
       transliteration: yogaMeta.transliteration,
       nature: yogaMeta.nature,
-      approxSpan: formatRemainingSpan(yogaProgress, 22.8, location.timezone),
+      approxSpan: formatRemainingSpan(yogaProgress, 22.8, location.utcOffsetHours, location.timezone),
       explanation: yogaMeta.explanation,
     },
     karana: {
@@ -1514,7 +1534,7 @@ export function calculateEducationalPanchang(
       nameHi: karanaMeta.nameHi,
       transliteration: karanaMeta.transliteration,
       nature: karanaMeta.nature,
-      approxSpan: formatRemainingSpan(karanaProgress, 11.8, location.timezone),
+      approxSpan: formatRemainingSpan(karanaProgress, 11.8, location.utcOffsetHours, location.timezone),
       explanation: karanaMeta.explanation,
     },
     ritu: rituMeta,

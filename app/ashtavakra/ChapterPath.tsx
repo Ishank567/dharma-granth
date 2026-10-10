@@ -19,7 +19,7 @@ export function ChapterPath({ chapters }: { chapters: PathChapter[] }) {
   const firstOpen = chapters.find((c) => c.status === 'published' && c.ids.some((id) => !read.includes(id)))?.number;
 
   return (
-    <ol className="ash-path" aria-label="अष्टावक्र गीता के 20 प्रकरण">
+    <ol className="ash-path" aria-label="अष्टावक्र गीता के प्रकरण। प्रकाशित प्रकरण खुलते हैं। शेष स्थल पर नहीं हैं।">
       {chapters.map((c) => {
         const published = c.status === 'published';
         const done = ready ? c.ids.filter((id) => read.includes(id)).length : 0;

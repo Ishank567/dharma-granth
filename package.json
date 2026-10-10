@@ -37,6 +37,7 @@
     "content:validate": "tsx scripts/content-integrity-report.ts --strict",
     "content:all": "tsx scripts/content-integrity-report.ts --strict --counts --links",
     "test:holdings": "tsx scripts/test-holdings-label.ts",
+    "test:panchang": "tsx scripts/test-panchang-day.ts",
     "test:format": "tsx scripts/test-format.ts",
     "test:release1": "tsx scripts/test-release1.ts",
     "check:registry": "tsx scripts/check-registry.ts",
