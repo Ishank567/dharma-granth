@@ -90,8 +90,8 @@ export function Experience3DSection({ gitaCountLabel }: { gitaCountLabel: string
         {/* Section Header */}
         <div className="mb-10 text-center">
           <div className="flex flex-wrap items-center justify-center gap-3">
-            <span className="inline-flex items-center gap-1.5 rounded-full border border-amber-300/40 bg-amber-500/10 px-3.5 py-1 text-xs font-bold uppercase tracking-[0.2em] text-saffron-700 dark:text-saffron-400">
-              <Sparkles className="h-3.5 w-3.5 text-amber-500" />
+            <span className="inline-flex items-center gap-1.5 rounded-full border border-amber-800/40 bg-amber-50 px-3.5 py-1 text-xs font-bold uppercase tracking-[0.2em] text-saffron-900 dark:border-amber-700/50 dark:bg-amber-950 dark:text-amber-100">
+              <Sparkles className="h-3.5 w-3.5 text-saffron-800 dark:text-amber-200" aria-hidden="true" />
               त्रिविमीय दर्शन · 3D Experience
             </span>
 

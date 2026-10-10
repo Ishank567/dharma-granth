@@ -739,7 +739,7 @@ export function SiteNav({
                   ? { duration: 0 }
                   : { type: 'spring', damping: 30, stiffness: 320, mass: 0.8 }
               }
-              className="fixed inset-y-0 right-0 z-[70] flex w-full max-w-[360px] sm:max-w-md flex-col border-l border-dharma-border bg-dharma-card/98 shadow-2xl backdrop-blur-2xl"
+              className="fixed inset-y-0 right-0 z-[70] flex w-full max-w-[360px] sm:max-w-md flex-col border-l border-dharma-border bg-dharma-card shadow-2xl"
               style={{
                 paddingTop: 'max(0.75rem, env(safe-area-inset-top, 0.75rem))',
                 paddingBottom: 'max(1rem, env(safe-area-inset-bottom, 1rem))',
@@ -818,7 +818,7 @@ export function SiteNav({
                           aria-current={active ? 'page' : undefined}
                           className={`group relative flex min-h-[48px] items-center justify-between rounded-xl px-3 py-2.5 transition active:scale-[0.98] ${
                             active
-                              ? 'border border-saffron-300 bg-saffron-500/10 font-bold text-saffron-700 shadow-sm dark:border-saffron-700/60 dark:bg-saffron-950/40 dark:text-saffron-300'
+                              ? 'border border-saffron-300 bg-saffron-50 font-bold text-saffron-900 shadow-sm dark:border-saffron-700/60 dark:bg-saffron-950/40 dark:text-saffron-300'
                               : 'border border-transparent text-dharma-text hover:border-dharma-border hover:bg-dharma-bg'
                           }`}
                         >
@@ -852,9 +852,9 @@ export function SiteNav({
                               <span
                                 className={`rounded-full px-2 py-0.5 text-[10px] font-bold ${
                                   item.badgeType === 'streak'
-                                    ? 'bg-amber-500/20 text-amber-700 dark:text-amber-300 border border-amber-500/30'
+                                    ? 'bg-amber-100 text-amber-950 border border-amber-800/40 dark:bg-amber-950 dark:text-amber-100 dark:border-amber-700/50'
                                     : item.badgeType === 'count'
-                                    ? 'bg-saffron-500/20 text-saffron-700 dark:text-saffron-300 border border-saffron-500/30'
+                                    ? 'bg-saffron-100 text-saffron-900 border border-saffron-800/40 dark:bg-saffron-900 dark:text-saffron-100 dark:border-saffron-700/50'
                                     : 'bg-dharma-bg text-dharma-muted border border-dharma-border'
                                 }`}
                               >
@@ -879,7 +879,7 @@ export function SiteNav({
                 {/* ── 10. Language & Theme Settings ─────────────────────── */}
                 <section
                   aria-labelledby="drawer-settings-heading"
-                  className="rounded-2xl border border-dharma-border/80 bg-dharma-bg/60 p-3.5 space-y-4"
+                  className="rounded-2xl border border-dharma-border/80 bg-dharma-bg p-3.5 space-y-4"
                 >
                   <div className="flex items-center justify-between">
                     <h3
