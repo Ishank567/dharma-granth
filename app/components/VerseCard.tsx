@@ -318,7 +318,7 @@ export function VerseCard({
             >
               <VerseMedallion label={toDevanagari(verseLabel)} />
               <div className="shrink-0 whitespace-nowrap">
-                <p className="text-[11px] font-semibold text-saffron-700/80 dark:text-saffron-300/80">
+                <p className="text-[11px] font-semibold text-saffron-800 dark:text-saffron-300">
                   अध्याय {toDevanagari(chapterId)}
                 </p>
                 <p className="font-serif text-base font-bold text-dharma-text group-hover/hdr:text-saffron-700 transition-colors">
@@ -330,7 +330,7 @@ export function VerseCard({
             <div className="flex items-center gap-3">
               <VerseMedallion label={toDevanagari(verseLabel)} />
               <div className="shrink-0 whitespace-nowrap">
-                <p className="text-[11px] font-semibold text-saffron-700/80 dark:text-saffron-300/80">
+                <p className="text-[11px] font-semibold text-saffron-800 dark:text-saffron-300">
                   अध्याय {toDevanagari(chapterId)}
                 </p>
                 <p className="font-serif text-base font-bold text-dharma-text">श्लोक {verseLabel}</p>

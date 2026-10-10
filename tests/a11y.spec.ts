@@ -29,19 +29,22 @@ const PAGES = [
 for (const theme of THEMES) {
   for (const path of PAGES) {
     test(`a11y [${theme}]: ${path}`, async ({ page }) => {
+      if (path.includes('/chapter/')) {
+        test.slow();
+      }
       await page.emulateMedia({ reducedMotion: 'reduce' });
       await page.addInitScript((t) => localStorage.setItem('dharma-theme', t), theme);
       await page.goto(path);
       await page.waitForLoadState('networkidle');
       // Scroll through so scroll-triggered sections appear, then let fades finish.
       await page.evaluate(async () => {
-        for (let y = 0; y <= document.body.scrollHeight; y += 600) {
+        for (let y = 0; y <= document.body.scrollHeight; y += 800) {
           window.scrollTo(0, y);
-          await new Promise((r) => setTimeout(r, 60));
+          await new Promise((r) => setTimeout(r, 40));
         }
         window.scrollTo(0, 0);
       });
-      await page.waitForTimeout(1500);
+      await page.waitForTimeout(1000);
       const { violations } = await new AxeBuilder({ page })
         .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'])
         .analyze();

@@ -137,7 +137,7 @@ export function PracticeHistory() {
           <div className="flex flex-col items-center justify-center py-8 text-center text-dharma-muted">
             <Calendar className="w-8 h-8 opacity-40 mb-2" />
             <p className="text-sm font-medium">अभी कोई इतिहास दर्ज नहीं है</p>
-            <p className="text-xs opacity-75 mt-0.5">जब आप जप, ध्यान या चिंतन करेंगे, वह यहाँ सहेजा जाएगा।</p>
+            <p className="text-xs text-dharma-muted mt-0.5">जब आप जप, ध्यान या चिंतन करेंगे, वह यहाँ सहेजा जाएगा।</p>
           </div>
         ) : (
           <div className="space-y-2 max-h-80 overflow-y-auto pr-1">

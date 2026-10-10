@@ -383,7 +383,7 @@ export function HeroSection() {
             >
               <Flame className="w-5 h-5 text-saffron-600" />
               <span>Read Bhagavad Gita</span>
-              <span lang="hi" className="font-devanagari text-xs text-saffron-700/80 hidden md:inline">
+              <span lang="hi" className="font-devanagari text-xs text-saffron-800 hidden md:inline">
                 (भगवद्गीता पढ़ें)
               </span>
             </MagneticButton>

@@ -114,7 +114,7 @@ export function FeaturedScripturesSection() {
                   <h3 className="font-serif text-xl font-bold text-dharma-text group-hover:text-saffron-700 transition">
                     {scripture.title}
                   </h3>
-                  <p lang="sa" className="mt-1 font-devanagari text-sm text-saffron-700/90 dark:text-saffron-400">
+                  <p lang="sa" className="mt-1 font-devanagari text-sm text-saffron-800 dark:text-saffron-200">
                     {scripture.titleSanskrit}
                   </p>
                   <p className="mt-3 line-clamp-2 text-xs leading-relaxed text-dharma-muted">

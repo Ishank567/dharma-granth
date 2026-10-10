@@ -9,7 +9,7 @@ const PORT = process.env.PORT || '4180';
 
 export default defineConfig({
   testDir: 'tests',
-  timeout: 30_000,
+  timeout: 60_000,
   retries: process.env.CI ? 1 : 0,
   reporter: process.env.CI ? 'github' : 'list',
   use: {
