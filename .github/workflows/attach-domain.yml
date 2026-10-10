@@ -27,6 +27,7 @@ jobs:
             
             HTTP_STATUS=$(echo "$RESPONSE" | grep "HTTP_STATUS" | cut -d':' -f2)
             BODY=$(echo "$RESPONSE" | grep -v "HTTP_STATUS")
+            echo "::notice title=${domain}::Status: ${HTTP_STATUS} | ${BODY}"
             echo "HTTP Status: $HTTP_STATUS"
             echo "Response: $BODY"
             echo ""
