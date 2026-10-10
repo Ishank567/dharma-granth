@@ -11,7 +11,7 @@ Status as of this commit: first slice built and running at `/ashtavakra/`. This 
 | Homepage in the specified section order | Built, except audio and concept map (see section 7) |
 | 20-chapter "Path of Awareness" explorer | Built; vertical journey, two-column curve on desktop |
 | Chapter pages (chapters 1 and 2) | Built |
-| Verse pages in the specified 24-part order (chapters 1 to 18: 276 verses) | Built |
+| Verse pages in the specified 24-part order (chapters 1 to 20: 298 verses) | Built |
 | Word explorer (verified verses only) | Built at `/ashtavakra/words/`; padārtha as printed, grouped by initial, links back to verses |
 | Chapter 1 environment ("mirror from mist") | Built as SVG with a static final state |
 | Other chapters | Quiet generic environment; real artwork not yet made |
@@ -19,12 +19,12 @@ Status as of this commit: first slice built and running at `/ashtavakra/`. This 
 | Read markers, daily verse, continue reading | Built, local only |
 | Skip animation control | Built |
 
-Not built yet (specified below so it can be done in order): Sakshi and Contemplation modes, interactive analogies, search, concept map, journal, timeline, audio. Chapters 19 and 20 are not published. Chapter 18 is published: verses 18.1 to 18.10 keep the earlier page check; 18.11 to 18.100 are marked review-required. The draft had skipped the standard verse स्वाराज्ये भैक्षवृत्तौ, so verses that had been numbered 11 to 20 are now 12 to 21. The scanned book was not opened again for that correction.
+Not built yet (specified below so it can be done in order): Sakshi and Contemplation modes, interactive analogies, search, concept map, journal, timeline, audio. Chapters 1 to 20 are published. Chapters 19 and 20 are review-required because the scan was not re-read; their Sanskrit follows the public order (chapter 19 has 8 verses, chapter 20 has 14). Chapter 18 is published: verses 18.1 to 18.10 keep the earlier page check; 18.11 to 18.100 are marked review-required. The draft had skipped the standard verse स्वाराज्ये भैक्षवृत्तौ, so verses that had been numbered 11 to 20 are now 12 to 21. The scanned book was not opened again for that correction.
 
 ## 2. Source and editorial honesty (comes before any visual work)
 
 - The book names chapters only "पहला प्रकरण", "दूसरा प्रकरण", and so on. The titles, essences, symbols and palettes in `data/ashtavakra/chapters-meta.ts` are **editorial** and are always shown as such.
-- Verse counts appear only where a chapter has been counted (1: 20, 2: 25, 3: 14, 4: 6, 5: 4, 6: 4, 7: 5, 8: 4, 9: 8, 10: 8, 11: 8, 12: 8, 13: 7, 14: 4, 15: 20, 16: 11, 17: 20, 18: 100). Chapters 19 and 20 show "श्लोक-संख्या अभी सत्यापित नहीं". Chapter 18's count of 100 follows the standard verse order; verses 18.11 to 18.100 still need a fresh check against the scanned pages.
+- Verse counts appear only where a chapter has been counted (1: 20, 2: 25, 3: 14, 4: 6, 5: 4, 6: 4, 7: 5, 8: 4, 9: 8, 10: 8, 11: 8, 12: 8, 13: 7, 14: 4, 15: 20, 16: 11, 17: 20, 18: 100, 19: 8, 20: 14). Chapters 19 and 20 follow the public verse order. The scan was not re-read, so every verse in them is review-required. Chapter 18's count of 100 follows the standard verse order; verses 18.11 to 18.100 still need a fresh check against the scanned pages.
 - Every verse carries `verificationStatus`. Where the book's own printing disagrees with itself (1.9, 1.11, 1.20, 2.3, 2.4, 2.11, 2.19, 9.2) the printed text is kept, flagged "समीक्षा आवश्यक", and the difference is written in the editorial note. Nothing was replaced from outside sources.
 - Badges use an icon and words ("✓ सत्यापित", "⚠ समीक्षा आवश्यक"), never colour alone.
 - "पुस्तकानुसार हिन्दी भावार्थ" is an original restatement, not a copy, and no Sanskrit scholar has reviewed it. The source-edition section says so, along with the unresolved publication year and rights status.
@@ -78,7 +78,7 @@ The site has no audio (removed on 2026-10-08, and not restored here). The brief'
 
 - Verse text is server-rendered and shipped as HTML; JSON data stays on the server (the client receives only what pages render).
 - Environment art for a chapter loads only on that chapter's page; the homepage loads one hero SVG.
-- Chapter and verse pages are statically generated (`generateStaticParams`), one file per verse: 276 verse pages now (chapters 1 to 18), a few more when chapters 19 and 20 exist, well inside the deploy limits recorded for the site.
+- Chapter and verse pages are statically generated (`generateStaticParams`), one file per verse: 298 verse pages now (chapters 1 to 20), well inside the deploy limits recorded for the site.
 - No third-party scripts, no WebGL, no images in this slice.
 - Budget to hold when artwork is added: raster art as AVIF/WebP, under 150 KB for mobile, `loading="lazy"` below the fold, reserved dimensions.
 
