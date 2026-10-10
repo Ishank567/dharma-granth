@@ -585,7 +585,7 @@ export function GlobalSearchModal({ isOpen, onClose, initialQuery = '' }: Props)
             </div>
 
             {/* Body */}
-            <div tabIndex={0} aria-label="Search results" className="min-h-0 flex-1 overflow-y-auto p-3 sm:p-5">
+            <div className="min-h-0 flex-1 overflow-y-auto p-3 sm:p-5">
               {!trimmed && (
                 <div className="space-y-6 py-1">
                   {recent.length > 0 && (
@@ -746,7 +746,7 @@ export function GlobalSearchModal({ isOpen, onClose, initialQuery = '' }: Props)
                               role="option"
                               aria-selected={selected}
                               aria-label={`${item.reference ?? item.title}. ${item.matchReason}. ${item.languageLabel}. ${reviewStatusForHref(item.href, REVIEW_RECORDS)}.`}
-                              tabIndex={-1}
+                              tabIndex={selected ? 0 : -1}
                               onClick={() => {
                                 remember(query);
                                 onClose();
