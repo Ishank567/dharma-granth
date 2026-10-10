@@ -653,12 +653,21 @@
     :root[data-theme='night'] .text-saffron-600,
     :root[data-theme='night'] .text-saffron-700,
     :root[data-theme='night'] .text-saffron-800,
-    :root[data-theme='night'] .text-saffron-900 {
-        color: theme('colors.saffron.300');
+    :root[data-theme='night'] .text-saffron-900,
+    :root[data-theme='night'] .text-saffron-700\/90,
+    :root[data-theme='night'] .text-saffron-800\/80,
+    :root[data-theme='night'] .text-saffron-300\/80 {
+        color: theme('colors.saffron.200');
     }
     :root[data-theme='night'] .text-amber-700,
-    :root[data-theme='night'] .text-amber-800 {
-        color: theme('colors.amber.300');
+    :root[data-theme='night'] .text-amber-800,
+    :root[data-theme='night'] .text-amber-800\/80,
+    :root[data-theme='night'] .text-amber-300\/80 {
+        color: theme('colors.amber.200');
+    }
+    :root[data-theme='night'] .text-red-600,
+    :root[data-theme='night'] .text-red-700 {
+        color: theme('colors.red.300');
     }
     :root[data-theme='night'] .text-rose-700 {
         color: theme('colors.rose.300');
@@ -667,8 +676,13 @@
         color: var(--dharma-text);
     }
     :root[data-theme='night'] .bg-saffron-50,
+    :root[data-theme='night'] .bg-saffron-50\/50,
+    :root[data-theme='night'] .bg-saffron-50\/70,
+    :root[data-theme='night'] .bg-saffron-50\/80,
     :root[data-theme='night'] .bg-saffron-100,
+    :root[data-theme='night'] .bg-saffron-100\/60,
     :root[data-theme='night'] .bg-amber-50,
+    :root[data-theme='night'] .bg-amber-50\/70,
     :root[data-theme='night'] .bg-amber-100,
     :root[data-theme='night'] .bg-rose-100 {
         background-color: var(--dharma-panel);

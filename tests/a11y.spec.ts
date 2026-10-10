@@ -91,7 +91,7 @@ for (const theme of THEMES) {
     await page.goto('/scriptures/');
     await page.waitForLoadState('networkidle');
     await page.getByRole('button', { name: /नेविगेशन मेनू खोलें|Open navigation menu/ }).click();
-    await expect(page.locator('#mobile-navigation')).toBeVisible();
+    await expect(page.locator('#mobile-navigation-drawer')).toBeVisible();
     await audit(page, `${theme} mobile menu`);
   });
 }

@@ -232,7 +232,7 @@ export function DailyDharmaDashboard() {
           <button
             type="button"
             onClick={handleClearHistory}
-            className="focus-ring inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-red-600 hover:bg-red-50 dark:hover:bg-red-950/40 transition-colors"
+            className="focus-ring inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-red-800 hover:bg-red-50 dark:text-red-200 dark:hover:bg-red-950/40 transition-colors"
           >
             <Trash2 className="w-3.5 h-3.5" />
             Clear
@@ -569,7 +569,7 @@ export function DailyDharmaDashboard() {
                 <p className="font-bold text-sm text-saffron-900 dark:text-saffron-200">
                   5. Discover Your Study Path (अध्ययन मार्ग)
                 </p>
-                <p className="text-xs text-saffron-800/80 dark:text-saffron-300/80 mt-1">
+                <p className="text-xs text-saffron-900 dark:text-saffron-100 mt-1">
                   Answer 5 short questions to find a serene, non-intimidating starting point.
                 </p>
               </div>

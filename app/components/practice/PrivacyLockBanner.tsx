@@ -133,7 +133,7 @@ export function PrivacyLockBanner({
               <p className="font-bold text-amber-900 dark:text-amber-200">
                 साधना बैकअप अनुस्मारक · Device Backup Reminder
               </p>
-              <p className="text-amber-800/80 dark:text-amber-300/80 mt-0.5">
+              <p className="text-amber-950 dark:text-amber-100 mt-0.5">
                 आपकी साधना का डेटा केवल इस ब्राउज़र में सहेजा गया है। आकस्मिक डेटा हानि से बचने के लिए बैकअप फ़ाइल डाउनलोड करें।
               </p>
             </div>
@@ -142,7 +142,7 @@ export function PrivacyLockBanner({
             <button
               type="button"
               onClick={handleQuickBackup}
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-amber-600 text-white font-bold hover:bg-amber-700 transition"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-amber-800 text-white font-bold hover:bg-amber-900 transition"
             >
               <Download className="w-3.5 h-3.5" /> बैकअप लें · Export
             </button>

@@ -191,7 +191,7 @@ export function LifeSituationsSection() {
                 <h3 className="font-serif text-base font-bold text-dharma-text group-hover:text-saffron-700 transition">
                   {sit.titleEn}
                 </h3>
-                <p lang="hi" className="font-devanagari text-xs font-semibold text-saffron-700/90 dark:text-saffron-400 mt-0.5">
+                <p lang="hi" className="font-devanagari text-xs font-semibold text-saffron-800 dark:text-saffron-200 mt-0.5">
                   {sit.titleHi}
                 </p>
 

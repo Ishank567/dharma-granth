@@ -166,7 +166,7 @@ export function PracticeDashboard() {
                     }`}
                   >
                     <span lang="hi" className="font-devanagari">{t.label}</span>
-                    <span className="opacity-80"> · {t.sub}</span>
+                    <span> · {t.sub}</span>
                   </button>
                 ))}
               </div>

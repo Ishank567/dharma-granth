@@ -585,7 +585,7 @@ export function GlobalSearchModal({ isOpen, onClose, initialQuery = '' }: Props)
             </div>
 
             {/* Body */}
-            <div className="min-h-0 flex-1 overflow-y-auto p-3 sm:p-5">
+            <div tabIndex={0} aria-label="Search results" className="min-h-0 flex-1 overflow-y-auto p-3 sm:p-5">
               {!trimmed && (
                 <div className="space-y-6 py-1">
                   {recent.length > 0 && (
@@ -723,8 +723,8 @@ export function GlobalSearchModal({ isOpen, onClose, initialQuery = '' }: Props)
                     if (items.length === 0) return null;
                     const headingId = `${listboxId}-${group.id}`;
                     return (
-                      <div key={group.id} role="group" aria-labelledby={headingId} className="space-y-2">
-                        <div className="flex items-center justify-between border-b border-dharma-border/60 px-1 pb-1.5">
+                      <div key={group.id} role="group" aria-label={`${group.hindiLabel}. ${group.label}`} className="space-y-2">
+                        <div aria-hidden="true" className="flex items-center justify-between border-b border-dharma-border/60 px-1 pb-1.5">
                           <h3 id={headingId} className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-dharma-muted">
                             {groupIcon(group.id)}
                             <span lang="hi" className="font-devanagari normal-case tracking-normal">{group.hindiLabel}</span> · {group.label}
