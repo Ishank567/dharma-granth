@@ -252,6 +252,7 @@ function matchesFacet(item: LibraryItem, key: FacetKey, f: Filters): boolean {
     case 'length':
       return f.length.length === 0 || f.length.indexOf(lengthOf(item)) !== -1;
     case 'explained':
+      // Presence of verse files. The control must not say each verse is explained.
       return !f.explained || item.hasData;
     case 'beginner':
       return !f.beginner || isBeginnerFriendly(item);

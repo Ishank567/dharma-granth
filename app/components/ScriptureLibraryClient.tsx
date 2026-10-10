@@ -214,7 +214,7 @@ export function ScriptureLibraryClient({
 
   const toggles = useMemo<ToggleOption[]>(
     () => [
-      { key: 'explained', label: 'Explained verse by verse', labelHi: 'सटीक व्याख्या सहित', count: facetCounts(searchable, filters, 'explained', ['on']).on },
+      { key: 'explained', label: 'Verse text available', labelHi: 'श्लोक पाठ उपलब्ध', count: facetCounts(searchable, filters, 'explained', ['on']).on },
       { key: 'beginner', label: 'Beginner friendly', labelHi: 'नए पाठकों के लिए', count: facetCounts(searchable, filters, 'beginner', ['on']).on },
     ],
     [searchable, filters],
@@ -250,7 +250,7 @@ export function ScriptureLibraryClient({
         out.push({ id: `${key}:${id}`, label: labelFor(key, id), facet: key, clear: () => toggleValue(key, id) });
       });
     });
-    if (filters.explained) out.push({ id: 'explained', label: 'Explained verse by verse', facet: 'explained', clear: () => toggleFlag('explained') });
+    if (filters.explained) out.push({ id: 'explained', label: 'Verse text available', facet: 'explained', clear: () => toggleFlag('explained') });
     if (filters.beginner) out.push({ id: 'beginner', label: 'Beginner friendly', facet: 'beginner', clear: () => toggleFlag('beginner') });
     return out;
   }, [filters, labelFor, toggleValue, toggleFlag]);
