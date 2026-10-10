@@ -58,7 +58,8 @@ export default function AshtavakraHome() {
             <SkipAnimation />
           </div>
           <p className="ash-meta mt-6">
-            अभी उपलब्ध: {totals.chapters} प्रकरण और {totals.verses} श्लोक, कुल {totals.allChapters} में से। शेष प्रकरण क्रम से जोड़े जा रहे हैं।
+            अभी उपलब्ध: {totals.chapters} प्रकरण और {totals.verses} श्लोक, कुल {totals.allChapters} में से।
+            {unpublished.length > 0 ? ' शेष प्रकरण क्रम से जोड़े जा रहे हैं।' : ''}
           </p>
         </div>
       </header>
