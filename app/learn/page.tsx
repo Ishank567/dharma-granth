@@ -7,6 +7,8 @@ import { useStudyProgress } from '@/lib/useStudyProgress';
 import { ManuscriptDivider, PalmLeafBorder } from '@/app/components/ManuscriptDivider';
 import { CalmProgress } from '@/app/components/CalmProgress';
 import { FadeUp } from '@/app/components/motion/primitives';
+import { JsonLd } from '@/app/components/JsonLd';
+import { courseListLd, pageLd } from '@/lib/jsonld';
 import {
   BookOpen,
   Brain,
@@ -70,6 +72,20 @@ function FormatBadge({ format }: { format: LearningFormat | 'slides' }) {
   }
 }
 
+// Course list for search engines. Lives here, not in learn/layout.tsx, because
+// the layout also wraps every /learn/* sub-page. Each course's full Course data
+// is on its own /learn/<id> page.
+const LEARN_JSON_LD = pageLd(
+  [{ name: 'Learn', path: '/learn' }],
+  courseListLd({
+    path: '/learn',
+    name: 'Learn Hindu Scriptures — Flashcards, Timelines & Mind Maps',
+    description:
+      'Interactive ways to study Hindu scriptures: flashcards, slide decks, mind maps, quizzes, and timelines covering the Vedas, Upanishads, Bhagavad Gita, and the epics.',
+    courses: learningPaths.map((c) => ({ path: `/learn/${c.id}`, name: c.title })),
+  }),
+);
+
 export default function LearnPage() {
   const progress = useStudyProgress();
 
@@ -113,6 +129,7 @@ export default function LearnPage() {
 
   return (
     <main className="min-h-screen bg-dharma-bg text-dharma-text pb-24 selection:bg-saffron-200 selection:text-saffron-900">
+      <JsonLd data={LEARN_JSON_LD} />
       {/* ── Scholarly Hero Banner ────────────────────────────────────── */}
       <section className="relative overflow-hidden bg-gradient-to-b from-stone-900 via-stone-900/95 to-dharma-bg text-stone-100 pt-12 pb-16 border-b border-saffron-900/40">
         <PalmLeafBorder className="absolute top-0 inset-x-0 opacity-40" />
