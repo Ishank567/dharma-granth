@@ -583,7 +583,7 @@ export function PedagogicalVerseCard({
                       <CheckCircle2 className="h-4 w-4" />
                       <span>✅ Try This Today</span>
                     </span>
-                    <span className="text-[10px] font-bold text-emerald-700 bg-emerald-500/15 px-2 py-0.5 rounded-full">
+                    <span className="text-[10px] font-bold text-emerald-900 bg-emerald-500/15 px-2 py-0.5 rounded-full dark:text-emerald-100">
                       {data.tryThisToday.duration}
                     </span>
                   </div>
