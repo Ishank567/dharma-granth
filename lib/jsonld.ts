@@ -99,3 +99,30 @@ export function courseLd(c: CourseLdInput) {
     })),
   };
 }
+
+/**
+ * A listing page for courses: a CollectionPage with an ItemList whose items
+ * point at each course's own page (which carries the full Course data). Google's
+ * course carousel takes URLs only, so no course is described twice.
+ */
+export function courseListLd(opts: { path: string; name: string; description: string; courses: { path: string; name: string }[] }) {
+  const url = absUrl(opts.path);
+  return {
+    '@type': 'CollectionPage',
+    '@id': `${url}#collection`,
+    name: opts.name,
+    description: opts.description,
+    url,
+    isPartOf: { '@id': `${SITE_URL}/#website` },
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems: opts.courses.length,
+      itemListElement: opts.courses.map((c, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        url: absUrl(c.path),
+        name: c.name,
+      })),
+    },
+  };
+}
