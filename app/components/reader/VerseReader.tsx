@@ -11,6 +11,7 @@ import {
   BookmarkCheck,
   ChevronDown,
   Copy,
+  Code2,
   Download,
   Flag,
   Focus,
@@ -24,6 +25,7 @@ import {
 import { useTheme } from '@/app/components/ThemeProvider';
 import { toDevanagari } from '@/lib/verse-format';
 import { whatsappShareUrl } from '@/lib/whatsapp';
+import { verseEmbedHtml, type EmbedMeaning } from '@/lib/embed';
 import { useStudyProgress } from '@/lib/useStudyProgress';
 import { useReaderSettings } from '@/lib/useReaderSettings';
 import { triggerTactileFeedback } from '@/lib/haptics';
@@ -115,7 +117,7 @@ export function VerseReader(props: VerseReaderProps) {
   }, []);
 
   /* ── Dialog state ── */
-  const [dialog, setDialog] = useState<null | 'settings' | 'chapters' | 'verses' | 'note' | 'report'>(null);
+  const [dialog, setDialog] = useState<null | 'settings' | 'chapters' | 'verses' | 'note' | 'report' | 'embed'>(null);
   const close = useCallback(() => setDialog(null), []);
 
   /* ── Toast ── */
@@ -172,6 +174,29 @@ export function VerseReader(props: VerseReaderProps) {
     body: [(verse.sanskrit ?? '').trim(), (verse.hindi ?? verse.translation ?? '').trim()],
     url: pageUrl,
   });
+  const [embedMeaning, setEmbedMeaning] = useState<EmbedMeaning>(verse.hindi ? 'hindi' : verse.translation ? 'english' : 'none');
+  const embedHtml = useMemo(
+    () =>
+      verseEmbedHtml({
+        reference: label,
+        sanskrit: verse.sanskrit,
+        hindi: verse.hindi,
+        english: verse.translation,
+        url: pageUrl,
+        meaning: embedMeaning,
+      }),
+    [label, verse.sanskrit, verse.hindi, verse.translation, pageUrl, embedMeaning],
+  );
+  const embedRef = useRef<HTMLTextAreaElement>(null);
+  const onCopyEmbed = async () => {
+    try {
+      await navigator.clipboard.writeText(embedHtml);
+      say('Embed code copied');
+    } catch {
+      embedRef.current?.select();
+      say('Press Ctrl+C (or Cmd+C) to copy the selected code.');
+    }
+  };
   const onDownload = () => {
     const blob = new Blob([buildDownloadMarkdown(ref, verse, provenance)], { type: 'text/markdown;charset=utf-8' });
     const url = URL.createObjectURL(blob);
@@ -469,6 +494,9 @@ export function VerseReader(props: VerseReaderProps) {
             >
               <MessageCircle className="h-4 w-4" aria-hidden="true" /> WhatsApp
             </a>
+            <button type="button" onClick={() => setDialog('embed')} aria-haspopup="dialog" className={actionBtn}>
+              <Code2 className="h-4 w-4" aria-hidden="true" /> Embed
+            </button>
             <button type="button" onClick={onDownload} className={actionBtn}>
               <Download className="h-4 w-4" aria-hidden="true" /> Download
             </button>
@@ -695,6 +723,30 @@ export function VerseReader(props: VerseReaderProps) {
             onChange={(e) => setDraft(e.target.value)}
             className="w-full resize-y rounded-xl border border-dharma-border bg-dharma-bg p-3 text-base text-dharma-text outline-none focus:border-saffron-600 focus:ring-2 focus:ring-saffron-600/25"
           />
+        </ReaderDialog>
+
+        <ReaderDialog open={dialog === 'embed'} onClose={close} title="Embed this verse" titleHi="श्लोक एम्बेड करें" icon={<Code2 className="h-5 w-5 text-saffron-700" aria-hidden="true" />}>
+          <p className="mb-4 text-sm text-dharma-muted">
+            Paste this into your website or blog. It is plain HTML with a link back to {label} on Dharma Granth, with no script and no tracking.
+          </p>
+          <label htmlFor="embed-meaning" className="mb-1 block text-sm font-semibold text-dharma-text">Meaning to include</label>
+          <select id="embed-meaning" value={embedMeaning} onChange={(e) => setEmbedMeaning(e.target.value as EmbedMeaning)} className="mb-4 min-h-[48px] w-full rounded-xl border border-dharma-border bg-dharma-bg px-3 text-base text-dharma-text">
+            <option value="hindi" disabled={!verse.hindi}>Hindi</option>
+            <option value="english" disabled={!verse.translation}>English</option>
+            <option value="none">Sanskrit only</option>
+          </select>
+          <p className="mb-1 text-sm font-semibold text-dharma-text">Preview</p>
+          <div
+            className="mb-4 overflow-x-auto rounded-xl border border-dharma-border bg-white p-2"
+            // The embed HTML escapes all verse text (lib/embed.ts), so this renders data, not markup.
+            // eslint-disable-next-line react/no-danger
+            dangerouslySetInnerHTML={{ __html: embedHtml }}
+          />
+          <label htmlFor="embed-code" className="mb-1 block text-sm font-semibold text-dharma-text">HTML code</label>
+          <textarea id="embed-code" ref={embedRef} readOnly value={embedHtml} rows={6} onFocus={(e) => e.currentTarget.select()} className="mb-4 w-full resize-y rounded-xl border border-dharma-border bg-dharma-bg p-3 font-mono text-xs text-dharma-text" />
+          <button type="button" onClick={onCopyEmbed} className="focus-ring inline-flex min-h-[48px] w-full items-center justify-center gap-2 rounded-xl bg-saffron-700 px-5 text-sm font-semibold text-white hover:bg-saffron-800">
+            <Copy className="h-4 w-4" aria-hidden="true" /> Copy embed code
+          </button>
         </ReaderDialog>
 
         <ReaderDialog open={dialog === 'report'} onClose={close} title="Report a textual error" titleHi="पाठ-त्रुटि" icon={<Flag className="h-5 w-5 text-rose-700" aria-hidden="true" />}>
