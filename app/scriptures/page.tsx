@@ -25,14 +25,14 @@ function loadLibrary() {
 export const metadata: Metadata = {
   title: 'All Scriptures',
   description:
-    'The full library of Hindu sacred texts catalogued at Dharma Granth — Vedas, Upanishads, Itihasas, Puranas, Smritis, and more. Texts with verse-by-verse explanations are marked.',
+    'The full library of Hindu sacred texts catalogued at Dharma Granth — Vedas, Upanishads, Itihasas, Puranas, Smritis, and more. Texts with verse text in the library are marked.',
   alternates: { canonical: '/scriptures' },
   openGraph: {
     images: [DEFAULT_OG_IMAGE],
     type: 'website',
     title: 'All Scriptures — Dharma Granth',
     description:
-      'Browse the full library of Hindu sacred texts, organized by category. Verse-by-verse explanations available for selected scriptures.',
+      'Browse the full library of Hindu sacred texts, organized by category. Texts with verse text in the library are marked.',
     url: '/scriptures',
   },
 };

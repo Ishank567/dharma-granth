@@ -197,11 +197,6 @@ export default function ScripturePage({ params }: PageProps) {
                 सूची प्रविष्टि · Catalogue entry
               </span>
             )}
-            {meta.hasData && (
-              <span className="px-3 py-1 rounded-full text-xs font-semibold bg-white/15 text-white border border-white/25">
-                श्लोक पाठ उपलब्ध
-              </span>
-            )}
           </FadeUp>
           <FadeUp delay={0.1}>
             <h1 className="text-4xl md:text-5xl font-serif font-bold mb-2">{meta.title}</h1>
