@@ -78,7 +78,7 @@ function pagesSection(): MetadataRoute.Sitemap {
   // 2. Individual Entity Pages
   const wisdomDate = lastChanged('data/wisdom-for-life.ts', 'app/wisdom-for-life/[slug]/page.tsx');
   const wisdomRoutes = wisdomTopics.map((w) => entry(`/wisdom-for-life/${w.slug}`, wisdomDate, 'weekly', 0.85));
-  const guidanceRoutes = wisdomTopics.map((w) => entry(`/guidance/${w.slug}`, wisdomDate, 'weekly', 0.85));
+  // /guidance/<slug> serves the same page with a canonical to /wisdom-for-life/<slug>, so only the canonical URL is listed.
 
   const topicDate = lastChanged('data/topics.ts', 'app/topics/[id]/page.tsx');
   const topicRoutes = topics.map((t) => entry(`/topics/${t.id}`, topicDate, 'monthly', 0.8));
@@ -89,7 +89,7 @@ function pagesSection(): MetadataRoute.Sitemap {
   const dictionaryDate = lastChanged('data/dictionary.ts', 'app/dictionary/[id]/page.tsx');
   const dictionaryRoutes = dictionary.map((d) => entry(`/dictionary/${d.id}`, dictionaryDate, 'monthly', 0.8));
 
-  return [...staticRoutes, ...wisdomRoutes, ...guidanceRoutes, ...topicRoutes, ...characterRoutes, ...dictionaryRoutes];
+  return [...staticRoutes, ...wisdomRoutes, ...topicRoutes, ...characterRoutes, ...dictionaryRoutes];
 }
 
 /** Scripture landing pages and chapter pages (all seeded + curated chapters), dated by when the scripture's text or commentary last changed. */
