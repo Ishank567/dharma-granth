@@ -123,8 +123,8 @@ export function chapterMetadata(params: ChapterParams, partNumber = 1): Metadata
   const partLabel = part && parts ? ` — भाग ${part.part}/${parts.length} (श्लोक ${partRange(part)})` : '';
   const title =
     Array.from(`${hindiPart}${englishPart}${partLabel}`).length <= 75
-      ? `${hindiPart}${englishPart}${partLabel} | हिंदी अर्थ`
-      : `${hindiPart}${partLabel} (${meta.title}) | हिंदी अर्थ`;
+      ? `${hindiPart}${englishPart}${partLabel} | हिंदी अर्थ · English Meaning`
+      : `${hindiPart}${partLabel} (${meta.title}) | हिंदी अर्थ · English Meaning`;
   const firstVerse = readSeededChapter(meta.id, chapterId)?.chapter.verses[part?.start ?? 0] as
     | { hindi?: string; translation?: string }
     | undefined;
@@ -149,6 +149,13 @@ export function chapterMetadata(params: ChapterParams, partNumber = 1): Metadata
   return {
     title,
     description,
+    keywords: [
+      `${meta.title} chapter ${chapter.id}`,
+      `${meta.title} chapter ${chapter.id} meaning in english`,
+      `${meta.title} chapter ${chapter.id} meaning in hindi`,
+      `${meta.title} adhyay ${chapter.id}`,
+      `${meta.titleSanskrit} अध्याय ${chapter.id} अर्थ`,
+    ],
     alternates: { canonical },
     openGraph: {
       type: 'article',
