@@ -19,7 +19,7 @@ import {
 } from 'lucide-react';
 import { readHref, shareVerseUrl } from '@/lib/verse-paths';
 import { whatsappShareUrl } from '@/lib/whatsapp';
-import { EmbedVerseDialog } from '@/app/components/EmbedVerseDialog';
+import dynamic from 'next/dynamic';
 import { triggerTactileFeedback } from '@/lib/haptics';
 import { PedagogicalVerseCard, type ContemplationTier } from '@/app/components/PedagogicalVerseCard';
 import { getPedagogicalVerse } from '@/data/pedagogical-registry';
@@ -38,6 +38,12 @@ export interface VerseOfTheDayItem {
   reflection: string;
   source: string;
 }
+
+// Loaded on demand (first click on Embed) so the dialog and its framer-motion layer stay out of the page's first-load JS.
+const EmbedVerseDialog = dynamic(
+  () => import('@/app/components/EmbedVerseDialog').then((m) => m.EmbedVerseDialog),
+  { ssr: false },
+);
 
 const FEATURED_VERSES: VerseOfTheDayItem[] = [
   {
@@ -123,6 +129,8 @@ export function VerseOfTheDaySection() {
   const [copied, setCopied] = useState(false);
   const [toastMsg, setToastMsg] = useState<string | null>(null);
   const [embedOpen, setEmbedOpen] = useState(false);
+  // Mounted on the first click, so the dialog's code is fetched only when someone embeds a verse.
+  const [embedMounted, setEmbedMounted] = useState(false);
   const [genericTier, setGenericTier] = useState<ContemplationTier>('simple');
 
   useEffect(() => {
@@ -567,7 +575,10 @@ export function VerseOfTheDaySection() {
                       {/* 7. Embed */}
                       <button
                         type="button"
-                        onClick={() => setEmbedOpen(true)}
+                        onClick={() => {
+                  setEmbedMounted(true);
+                  setEmbedOpen(true);
+                }}
                         aria-haspopup="dialog"
                         aria-label="Embed this verse on your website"
                         className="inline-flex min-h-[44px] items-center gap-1.5 rounded-full border border-dharma-border bg-dharma-panel px-3.5 py-2 text-xs font-bold text-dharma-text transition hover:border-saffron-300 hover:text-saffron-700 shadow-sm"
@@ -605,21 +616,23 @@ export function VerseOfTheDaySection() {
       </div>
 
       {/* window.location is only read in the browser; nothing renders until the dialog is opened. */}
-      <EmbedVerseDialog
-        open={embedOpen}
-        onClose={() => setEmbedOpen(false)}
-        label={`${current.scriptureTitle} ${current.chapterId}.${current.verseId}`}
-        url={shareVerseUrl(
-          typeof window !== 'undefined' ? window.location.origin : 'https://dharmagranth.in',
-          current.scriptureId,
-          current.chapterId,
-          current.verseId,
-        )}
-        sanskrit={current.sanskrit}
-        hindi={current.hindi}
-        english={current.translation}
-        onNotice={showToast}
-      />
+      {embedMounted && (
+        <EmbedVerseDialog
+          open={embedOpen}
+          onClose={() => setEmbedOpen(false)}
+          label={`${current.scriptureTitle} ${current.chapterId}.${current.verseId}`}
+          url={shareVerseUrl(
+            typeof window !== 'undefined' ? window.location.origin : 'https://dharmagranth.in',
+            current.scriptureId,
+            current.chapterId,
+            current.verseId,
+          )}
+          sanskrit={current.sanskrit}
+          hindi={current.hindi}
+          english={current.translation}
+          onNotice={showToast}
+        />
+      )}
     </section>
   );
 }

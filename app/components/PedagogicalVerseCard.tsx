@@ -33,9 +33,15 @@ import { GITA_2_47_PEDAGOGICAL, type PedagogicalVerseData } from '@/data/pedagog
 import { triggerTactileFeedback } from '@/lib/haptics';
 import { readHref, shareVerseUrl } from '@/lib/verse-paths';
 import { whatsappShareUrl } from '@/lib/whatsapp';
-import { EmbedVerseDialog } from '@/app/components/EmbedVerseDialog';
+import dynamic from 'next/dynamic';
 
 export type ContemplationTier = 'quick' | 'simple' | 'deep';
+
+// Loaded on demand (first click on Embed) so the dialog and its framer-motion layer stay out of the page's first-load JS.
+const EmbedVerseDialog = dynamic(
+  () => import('@/app/components/EmbedVerseDialog').then((m) => m.EmbedVerseDialog),
+  { ssr: false },
+);
 
 export interface PedagogicalVerseCardProps {
   data?: PedagogicalVerseData;
@@ -57,6 +63,8 @@ export function PedagogicalVerseCard({
   const [copied, setCopied] = useState(false);
   const [toastMsg, setToastMsg] = useState<string | null>(null);
   const [embedOpen, setEmbedOpen] = useState(false);
+  // Mounted on the first click, so the dialog's code is fetched only when someone embeds a verse.
+  const [embedMounted, setEmbedMounted] = useState(false);
   const cardId = useId();
 
   // The verse page's absolute URL; read from window, so only call it in the browser (event handlers, or once the dialog is open).
@@ -379,7 +387,10 @@ export function PedagogicalVerseCard({
               {/* 3b. Embed */}
               <button
                 type="button"
-                onClick={() => setEmbedOpen(true)}
+                onClick={() => {
+                  setEmbedMounted(true);
+                  setEmbedOpen(true);
+                }}
                 aria-haspopup="dialog"
                 aria-label="Embed this verse on your website"
                 className="inline-flex min-h-[44px] items-center gap-1.5 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-bold text-white transition hover:bg-white/20 hover:border-amber-300 shadow-sm"
@@ -858,16 +869,18 @@ export function PedagogicalVerseCard({
         </div>
       )}
 
-      <EmbedVerseDialog
-        open={embedOpen}
-        onClose={() => setEmbedOpen(false)}
-        label={`${data.scriptureTitle} ${data.chapterId}.${data.verseId}`}
-        url={verseUrl()}
-        sanskrit={data.sanskrit}
-        hindi={data.simpleMeaningHi}
-        english={data.simpleMeaningEn}
-        onNotice={showToast}
-      />
+      {embedMounted && (
+        <EmbedVerseDialog
+          open={embedOpen}
+          onClose={() => setEmbedOpen(false)}
+          label={`${data.scriptureTitle} ${data.chapterId}.${data.verseId}`}
+          url={verseUrl()}
+          sanskrit={data.sanskrit}
+          hindi={data.simpleMeaningHi}
+          english={data.simpleMeaningEn}
+          onNotice={showToast}
+        />
+      )}
     </article>
   );
 }
