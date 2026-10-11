@@ -5,7 +5,6 @@ import { DEFAULT_OG_IMAGE } from '@/lib/og';
 import {
   wisdomTopics,
   getWisdomTopic,
-  type WisdomTopic,
 } from '@/data/wisdom-for-life';
 import { TopicDetailClient } from './TopicDetailClient';
 
@@ -36,7 +35,6 @@ export function generateMetadata({
     alternates: { canonical: `/wisdom-for-life/${topic.slug}` },
     openGraph: {
       images: [DEFAULT_OG_IMAGE],
-      // openGraph titles are not run through the layout's title template.
       title: `${title} — Dharma Granth`,
       description,
       url: `https://dharmagranth.in/wisdom-for-life/${topic.slug}`,
@@ -67,8 +65,46 @@ export default function WisdomTopicPage({
   const nextTopic =
     currentIndex < wisdomTopics.length - 1 ? wisdomTopics[currentIndex + 1] : undefined;
 
+  // SEO FAQPage & Article Structured Data
+  const jsonLdFaq = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: `What do Hindu scriptures teach about ${topic.titleEn} (${topic.titleHi})?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: topic.compassionateIntro.bodyEn || topic.shortDescEn,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `Which verses from Bhagavad Gita or Upanishads guide us through ${topic.titleEn}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `Key verses include ${topic.verses.map((v) => v.referenceDisplay).join(', ')}. For example, ${topic.verses[0]?.referenceDisplay}: "${topic.verses[0]?.literalTranslationEn}"`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `How to practically apply spiritual wisdom for ${topic.titleEn} in daily life?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text:
+            topic.reflections[0]?.dailyPractice ||
+            topic.compassionateIntro.spiritualFoundationEn,
+        },
+      },
+    ],
+  };
+
   return (
     <div className="min-h-screen bg-dharma-bg">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdFaq) }}
+      />
       <TopicDetailClient
         topic={topic}
         libraryFacts={libraryFacts}

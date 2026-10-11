@@ -46,6 +46,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     entry('/learn', pageDate('/learn'), 'weekly', 0.9),
     entry('/learn/pathways', pageDate('/learn/pathways', 'data/pathways.ts'), 'weekly', 0.9),
     entry('/wisdom-for-life', pageDate('/wisdom-for-life', 'data/wisdom-for-life.ts'), 'weekly', 0.9),
+    entry('/guidance', pageDate('/guidance', 'data/wisdom-for-life.ts'), 'weekly', 0.92),
     entry('/concepts', pageDate('/concepts'), 'weekly', 0.85),
     entry('/topics', pageDate('/topics', 'data/topics.ts'), 'weekly', 0.85),
     entry('/characters', pageDate('/characters', 'data/characters.ts'), 'weekly', 0.85),
@@ -65,6 +66,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // 2. Individual Entity Pages
   const wisdomDate = lastChanged('data/wisdom-for-life.ts', 'app/wisdom-for-life/[slug]/page.tsx');
   const wisdomRoutes = wisdomTopics.map((w) => entry(`/wisdom-for-life/${w.slug}`, wisdomDate, 'weekly', 0.85));
+  const guidanceRoutes = wisdomTopics.map((w) => entry(`/guidance/${w.slug}`, wisdomDate, 'weekly', 0.85));
 
   const topicDate = lastChanged('data/topics.ts', 'app/topics/[id]/page.tsx');
   const topicRoutes = topics.map((t) => entry(`/topics/${t.id}`, topicDate, 'monthly', 0.8));
@@ -102,6 +104,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     ...staticRoutes,
     ...wisdomRoutes,
+    ...guidanceRoutes,
     ...topicRoutes,
     ...characterRoutes,
     ...dictionaryRoutes,
