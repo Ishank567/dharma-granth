@@ -111,9 +111,9 @@ export function generateMetadata({ params }: PageProps): Metadata {
 
   const ref = `${meta.title} ${chapterId}.${params.verseId}`;
   const words = opening(found.verse.sanskrit);
-  const title = `${ref}${words ? ` — ${words}` : ''} | हिंदी अर्थ`;
+  const title = `${ref}${words ? ` — ${words}` : ''} — Meaning in Hindi & English (हिंदी अर्थ)`;
   const description =
-    [plain(found.verse.hindi, 110), plain(found.verse.translation, 110)].filter(Boolean).join(' · ') ||
+    [plain(found.verse.hindi, 85), plain(found.verse.translation, 85)].filter(Boolean).join(' · ') ||
     `${ref}: Sanskrit text with Hindi and English meaning.`;
   const canonical = versePageHref(meta.id, chapterId, params.verseId);
   const image = verseOgPath(meta.id, chapterId, params.verseId) ?? `/og/${meta.id}.png`;
@@ -121,7 +121,16 @@ export function generateMetadata({ params }: PageProps): Metadata {
   return {
     title: { absolute: `${title} — Dharma Granth` },
     description,
-    keywords: [ref, `${ref} meaning in hindi`, `${ref} in hindi`, words, meta.titleSanskrit, 'श्लोक अर्थ'].filter(
+    keywords: [
+      ref,
+      `${ref} meaning in hindi`,
+      `${ref} meaning in english`,
+      `${ref} in hindi`,
+      `${ref} translation`,
+      words,
+      meta.titleSanskrit,
+      'श्लोक अर्थ',
+    ].filter(
       (k): k is string => Boolean(k),
     ),
     alternates: { canonical },
@@ -181,7 +190,7 @@ export default function VersePage({ params }: PageProps) {
       {
         '@type': 'Article',
         '@id': `${pageUrl}#article`,
-        headline: `${ref} — हिंदी अर्थ`,
+        headline: `${ref} — Meaning in Hindi & English (हिंदी अर्थ)`,
         inLanguage: ['sa', 'hi', 'en'],
         isAccessibleForFree: true,
         ...(modified ? { dateModified: modified } : {}),
