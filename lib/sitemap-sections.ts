@@ -8,6 +8,10 @@ import { topics } from '@/data/topics';
 import { wisdomTopics } from '@/data/wisdom-for-life';
 import { characters } from '@/data/characters';
 import { dictionary } from '@/data/dictionary';
+import { getAllConceptDetails } from '@/data/concept-details';
+import { learningPaths } from '@/data/learning-paths';
+import { READING_JOURNEYS } from '@/data/reading-journeys';
+import { publishedChapterNumbers } from '@/lib/ashtavakra';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://dharmagranth.in';
 
@@ -75,6 +79,12 @@ function pagesSection(): MetadataRoute.Sitemap {
     entry('/journeys', pageDate('/journeys', 'data/reading-journeys.ts'), 'monthly', 0.7),
     entry('/story', pageDate('/story'), 'monthly', 0.6),
     entry('/collections', pageDate('/collections'), 'monthly', 0.75),
+    entry('/start-here', pageDate('/start-here'), 'monthly', 0.7),
+    entry('/daily', pageDate('/daily'), 'daily', 0.6),
+    entry('/methodology', pageDate('/methodology'), 'monthly', 0.5),
+    entry('/sources', pageDate('/sources'), 'monthly', 0.5),
+    entry('/concepts/relationships', pageDate('/concepts/relationships'), 'monthly', 0.6),
+    entry('/ashtavakra', pageDate('/ashtavakra'), 'monthly', 0.8),
   ];
 
   // 2. Individual Entity Pages
@@ -91,7 +101,19 @@ function pagesSection(): MetadataRoute.Sitemap {
   const dictionaryDate = lastChanged('data/dictionary.ts', 'app/dictionary/[id]/page.tsx');
   const dictionaryRoutes = dictionary.map((d) => entry(`/dictionary/${d.id}`, dictionaryDate, 'monthly', 0.8));
 
-  return [...staticRoutes, ...wisdomRoutes, ...topicRoutes, ...characterRoutes, ...dictionaryRoutes];
+  const conceptDate = lastChanged('data/concept-details.ts', 'app/concepts/[id]/page.tsx');
+  const conceptRoutes = getAllConceptDetails().map((c) => entry(`/concepts/${c.id}`, conceptDate, 'monthly', 0.8));
+
+  const courseDate = lastChanged('data/learning-paths.ts', 'app/learn/[courseId]/page.tsx');
+  const courseRoutes = learningPaths.map((p) => entry(`/learn/${p.id}`, courseDate, 'monthly', 0.75));
+
+  const journeyDate = lastChanged('data/reading-journeys.ts', 'app/journeys/[id]/page.tsx');
+  const journeyRoutes = READING_JOURNEYS.map((j) => entry(`/journeys/${j.id}`, journeyDate, 'monthly', 0.65));
+
+  const ashtavakraDate = lastChanged('app/ashtavakra/[chapter]/page.tsx');
+  const ashtavakraRoutes = publishedChapterNumbers().map((n) => entry(`/ashtavakra/${n}`, ashtavakraDate, 'monthly', 0.7));
+
+  return [...staticRoutes, ...conceptRoutes, ...courseRoutes, ...journeyRoutes, ...ashtavakraRoutes, ...wisdomRoutes, ...topicRoutes, ...characterRoutes, ...dictionaryRoutes];
 }
 
 /** Scripture landing pages and chapter pages (all seeded + curated chapters), dated by when the scripture's text or commentary last changed. */
