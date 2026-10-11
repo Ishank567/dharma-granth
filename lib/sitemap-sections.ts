@@ -38,7 +38,18 @@ function pageDate(route: string, ...dataFiles: string[]): Date | undefined {
   return lastChanged(page, ...dataFiles);
 }
 
-export default function sitemap(): MetadataRoute.Sitemap {
+/**
+ * The sitemap is published as an index (/sitemap.xml) pointing at one file per
+ * section. The total is far below Google's 50,000-URL limit; the split is for
+ * Search Console, which reports indexing per sitemap file, so verse pages can
+ * be monitored apart from chapters and the editorial pages.
+ */
+export type SitemapSection = 'pages' | 'scriptures' | 'chapters' | 'verses';
+
+export const SITEMAP_SECTIONS: SitemapSection[] = ['pages', 'scriptures', 'chapters', 'verses'];
+
+/** Top-level routes plus wisdom, topic, character and dictionary entries. */
+function pagesSection(): MetadataRoute.Sitemap {
   // 1. Static Top-Level Routes
   const staticRoutes: MetadataRoute.Sitemap = [
     entry('/', pageDate('/'), 'weekly', 1.0),
@@ -76,40 +87,76 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const dictionaryDate = lastChanged('data/dictionary.ts', 'app/dictionary/[id]/page.tsx');
   const dictionaryRoutes = dictionary.map((d) => entry(`/dictionary/${d.id}`, dictionaryDate, 'monthly', 0.8));
 
-  // 3. Scripture Landing Pages, 4. Chapter Pages (all seeded + curated
-  // chapters) and 5. Verse Pages — dated by when the scripture's text or
-  // commentary last changed.
-  const scriptureRoutes: MetadataRoute.Sitemap = [];
-  const chapterRoutes: MetadataRoute.Sitemap = [];
+  return [...staticRoutes, ...wisdomRoutes, ...topicRoutes, ...characterRoutes, ...dictionaryRoutes];
+}
+
+/** Scripture landing pages and chapter pages (all seeded + curated chapters), dated by when the scripture's text or commentary last changed. */
+function scriptureRoutes(): { scriptures: MetadataRoute.Sitemap; chapters: MetadataRoute.Sitemap } {
+  const scriptures: MetadataRoute.Sitemap = [];
+  const chapters: MetadataRoute.Sitemap = [];
   for (const meta of getAllScriptures()) {
     const date = scriptureLastChanged(meta.id);
-    scriptureRoutes.push(entry(`/scripture/${meta.id}`, date, 'monthly', meta.hasData ? 0.9 : 0.5));
+    scriptures.push(entry(`/scripture/${meta.id}`, date, 'monthly', meta.hasData ? 0.9 : 0.5));
 
     const chapterSet = new Set<number>(readSeededChapterNumbers(meta.id));
     for (const ch of getScriptureChapters(meta.id)) chapterSet.add(ch.id);
     for (const chId of Array.from(chapterSet).sort((a, b) => a - b)) {
-      chapterRoutes.push(entry(`/scripture/${meta.id}/chapter/${chId}`, date, 'monthly', 0.75));
+      chapters.push(entry(`/scripture/${meta.id}/chapter/${chId}`, date, 'monthly', 0.75));
       // Parts 2…N of chapters too large for one page (lib/chapter-parts).
       for (const part of chapterParts(meta.id, chId)?.slice(1) ?? []) {
-        chapterRoutes.push(entry(chapterPartHref(meta.id, chId, part.part), date, 'monthly', 0.6));
+        chapters.push(entry(chapterPartHref(meta.id, chId, part.part), date, 'monthly', 0.6));
       }
     }
   }
 
-  const verseRoutes = verseStaticParams().map((p) =>
+  return { scriptures, chapters };
+}
+
+function versesSection(): MetadataRoute.Sitemap {
+  return verseStaticParams().map((p) =>
     entry(`/scripture/${p.id}/chapter/${p.chapterId}/verse/${p.verseId}`, scriptureLastChanged(p.id), 'monthly', 0.7),
   );
+}
 
-  return [
-    ...staticRoutes,
-    ...wisdomRoutes,
-    ...topicRoutes,
-    ...characterRoutes,
-    ...dictionaryRoutes,
-    ...scriptureRoutes,
-    ...chapterRoutes,
-    ...verseRoutes,
-  ].map((e) => ({ ...e, url: withTrailingSlash(e.url) }));
+export function sitemapSection(section: SitemapSection): MetadataRoute.Sitemap {
+  const entries =
+    section === 'pages'
+      ? pagesSection()
+      : section === 'scriptures'
+        ? scriptureRoutes().scriptures
+        : section === 'chapters'
+          ? scriptureRoutes().chapters
+          : versesSection();
+  return entries.map((e) => ({ ...e, url: withTrailingSlash(e.url) }));
+}
+
+function escapeXml(text: string): string {
+  return text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+/** Serialises a section as a <urlset> sitemap document. */
+export function sitemapXml(entries: MetadataRoute.Sitemap): string {
+  const urls = entries
+    .map((e) => {
+      const lastmod = e.lastModified ? `<lastmod>${new Date(e.lastModified).toISOString()}</lastmod>` : '';
+      const freq = e.changeFrequency ? `<changefreq>${e.changeFrequency}</changefreq>` : '';
+      const priority = e.priority != null ? `<priority>${e.priority.toFixed(2)}</priority>` : '';
+      return `<url><loc>${escapeXml(e.url)}</loc>${lastmod}${freq}${priority}</url>`;
+    })
+    .join('\n');
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`;
+}
+
+/** Serialises the <sitemapindex>; each section's lastmod is its newest entry (omitted when none is known). */
+export function sitemapIndexXml(): string {
+  const items = SITEMAP_SECTIONS.map((section) => {
+    const times = sitemapSection(section)
+      .map((e) => (e.lastModified ? new Date(e.lastModified).getTime() : 0))
+      .filter((t) => t > 0);
+    const lastmod = times.length ? `<lastmod>${new Date(Math.max(...times)).toISOString()}</lastmod>` : '';
+    return `<sitemap><loc>${SITE_URL}/sitemap-${section}.xml</loc>${lastmod}</sitemap>`;
+  }).join('\n');
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${items}\n</sitemapindex>\n`;
 }
 
 /**
