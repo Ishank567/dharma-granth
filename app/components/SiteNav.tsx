@@ -98,7 +98,7 @@ const desktopDiscoveryItems = [
   { label: 'पठन योजनाएँ', description: 'Reading Plans — १८ दिवसीय गीता आदि', href: '/learn/plans' },
   { label: 'जिज्ञासा समाधान', description: 'Scripture FAQs — श्रुति-स्मृति व नीति', href: '/learn/faq' },
   { label: 'स्रोत पारदर्शिता', description: 'Source Library — मूल पांडुलिपियाँ व संस्करण', href: '/sources' },
-  { label: 'जीवन मार्गदर्शन', description: 'Wisdom for Life — जीवन के लिए शास्त्रीय मार्गदर्शन', href: '/wisdom-for-life' },
+  { label: 'शास्त्रीय जीवन-मार्गदर्शन', description: 'Dharmic Guidance — तनाव, भय, क्रोध व धर्मसंकट का समाधान', href: '/guidance' },
   { label: 'पंचांग', description: 'दैनिक वैदिक काल व ऋतु', href: '/panchang' },
   { label: 'अवधारणाएँ', description: 'मुख्य दार्शनिक विचार', href: '/concepts' },
   { label: 'विषय', description: 'जीवन और साधना के विषय', href: '/topics' },

@@ -22,6 +22,7 @@ import "@fontsource/noto-sans-devanagari/devanagari-600.css";
 import "@fontsource/noto-sans-devanagari/devanagari-700.css";
 import "./globals.css";
 import ServiceWorkerRegister from "./components/ServiceWorkerRegister";
+import { PwaInstallBanner } from "./components/PwaInstallBanner";
 
 /**
  * Inline script that runs synchronously before React hydrates so the
@@ -235,6 +236,7 @@ export default function RootLayout({
           <TactileLayer />
           <OfflineIndicator />
           <ServiceWorkerRegister />
+          <PwaInstallBanner />
         </ThemeProvider>
       </body>
     </html>

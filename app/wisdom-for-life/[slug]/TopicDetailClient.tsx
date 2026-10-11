@@ -29,6 +29,7 @@ import {
 import { libraryLocation, wisdomVerseHref } from '@/lib/wisdom-links';
 import { TopicIllustration } from '../TopicIllustrations';
 import { FadeUp, FadeUpOnView } from '@/app/components/motion/primitives';
+import { ShareVerseButton } from '@/app/components/ShareVerseButton';
 
 export function TopicDetailClient({
   topic,
@@ -245,6 +246,18 @@ export function TopicDetailClient({
                         </>
                       )}
                     </button>
+
+                    <ShareVerseButton
+                      scriptureTitle={verse.scriptureName}
+                      chapterTitle={`अध्याय ${verse.chapterNumber}`}
+                      verseLabel={String(verse.verseNumber)}
+                      sanskrit={verse.sanskritDevanagari}
+                      transliteration={verse.sanskritTransliteration}
+                      hindi={verse.literalTranslationHi}
+                      translation={verse.literalTranslationEn}
+                      compact
+                      verseUrl={`https://dharmagranth.in/wisdom-for-life/${topic.slug}#verse-${verse.id}`}
+                    />
 
                     <Link
                       href={wisdomVerseHref(verse)}

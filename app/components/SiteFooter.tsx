@@ -105,6 +105,9 @@ export function SiteFooter() {
               <Link href="/festivals" className="transition hover:text-saffron-700">
                 उत्सव ज्ञान केंद्र (Festivals)
               </Link>
+              <Link href="/guidance" className="transition hover:text-saffron-700 font-medium text-saffron-700 dark:text-saffron-300">
+                शास्त्रीय मार्गदर्शन (Life Guidance)
+              </Link>
               <Link href="/topics" className="transition hover:text-saffron-700">
                 जीवन स्थितियाँ (Life Situations)
               </Link>
