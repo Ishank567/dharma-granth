@@ -13,6 +13,7 @@ import {
   ChevronDown,
   Clock,
   Compass,
+  Code2,
   Copy,
   ExternalLink,
   Flame,
@@ -21,6 +22,7 @@ import {
   Quote,
   RotateCcw,
   ScrollText,
+  MessageCircle,
   Share2,
   Sparkles,
   Sprout,
@@ -29,7 +31,9 @@ import {
 } from 'lucide-react';
 import { GITA_2_47_PEDAGOGICAL, type PedagogicalVerseData } from '@/data/pedagogical-gita-2-47';
 import { triggerTactileFeedback } from '@/lib/haptics';
-import { readHref } from '@/lib/verse-paths';
+import { readHref, shareVerseUrl } from '@/lib/verse-paths';
+import { whatsappShareUrl } from '@/lib/whatsapp';
+import { EmbedVerseDialog } from '@/app/components/EmbedVerseDialog';
 
 export type ContemplationTier = 'quick' | 'simple' | 'deep';
 
@@ -52,7 +56,24 @@ export function PedagogicalVerseCard({
   const [isSaved, setIsSaved] = useState(false);
   const [copied, setCopied] = useState(false);
   const [toastMsg, setToastMsg] = useState<string | null>(null);
+  const [embedOpen, setEmbedOpen] = useState(false);
   const cardId = useId();
+
+  // The verse page's absolute URL; read from window, so only call it in the browser (event handlers, or once the dialog is open).
+  function verseUrl(): string {
+    const origin = typeof window !== 'undefined' ? window.location.origin : 'https://dharmagranth.in';
+    return shareVerseUrl(origin, data.scriptureId, data.chapterId, data.verseId);
+  }
+
+  function handleWhatsApp() {
+    triggerTactileFeedback('light', 'click');
+    const href = whatsappShareUrl({
+      heading: `${data.scriptureTitle} ${data.chapterId}.${data.verseId} · Dharma Granth`,
+      body: [data.sanskrit, data.simpleMeaningHi || data.simpleMeaningEn],
+      url: verseUrl(),
+    });
+    window.open(href, '_blank', 'noopener,noreferrer');
+  }
 
   // Switch tier
   function handleTierSelect(newTier: ContemplationTier) {
@@ -333,6 +354,17 @@ export function PedagogicalVerseCard({
                 <span>Share</span>
               </button>
 
+              {/* 2b. WhatsApp (a button: the link is built from window.location when clicked) */}
+              <button
+                type="button"
+                onClick={handleWhatsApp}
+                aria-label="Share verse on WhatsApp"
+                className="inline-flex min-h-[44px] items-center gap-1.5 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-bold text-white transition hover:bg-white/20 hover:border-amber-300 shadow-sm"
+              >
+                <MessageCircle className="h-4 w-4 text-emerald-300" />
+                <span>WhatsApp</span>
+              </button>
+
               {/* 3. Copy */}
               <button
                 type="button"
@@ -342,6 +374,18 @@ export function PedagogicalVerseCard({
               >
                 {copied ? <Check className="h-4 w-4 text-emerald-400" /> : <Copy className="h-4 w-4 text-white/80" />}
                 <span>{copied ? 'Copied' : 'Copy'}</span>
+              </button>
+
+              {/* 3b. Embed */}
+              <button
+                type="button"
+                onClick={() => setEmbedOpen(true)}
+                aria-haspopup="dialog"
+                aria-label="Embed this verse on your website"
+                className="inline-flex min-h-[44px] items-center gap-1.5 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-bold text-white transition hover:bg-white/20 hover:border-amber-300 shadow-sm"
+              >
+                <Code2 className="h-4 w-4 text-white/80" />
+                <span>Embed</span>
               </button>
 
               {/* 4. Full Context */}
@@ -813,6 +857,17 @@ export function PedagogicalVerseCard({
           {toastMsg}
         </div>
       )}
+
+      <EmbedVerseDialog
+        open={embedOpen}
+        onClose={() => setEmbedOpen(false)}
+        label={`${data.scriptureTitle} ${data.chapterId}.${data.verseId}`}
+        url={verseUrl()}
+        sanskrit={data.sanskrit}
+        hindi={data.simpleMeaningHi}
+        english={data.simpleMeaningEn}
+        onNotice={showToast}
+      />
     </article>
   );
 }

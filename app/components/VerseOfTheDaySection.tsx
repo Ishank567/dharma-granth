@@ -9,6 +9,7 @@ import {
   Check,
   ChevronLeft,
   ChevronRight,
+  Code2,
   Copy,
   MessageCircle,
   Share2,
@@ -16,8 +17,9 @@ import {
   Sprout,
   Zap,
 } from 'lucide-react';
-import { readHref } from '@/lib/verse-paths';
+import { readHref, shareVerseUrl } from '@/lib/verse-paths';
 import { whatsappShareUrl } from '@/lib/whatsapp';
+import { EmbedVerseDialog } from '@/app/components/EmbedVerseDialog';
 import { triggerTactileFeedback } from '@/lib/haptics';
 import { PedagogicalVerseCard, type ContemplationTier } from '@/app/components/PedagogicalVerseCard';
 import { getPedagogicalVerse } from '@/data/pedagogical-registry';
@@ -120,6 +122,7 @@ export function VerseOfTheDaySection() {
   const [isSaved, setIsSaved] = useState(false);
   const [copied, setCopied] = useState(false);
   const [toastMsg, setToastMsg] = useState<string | null>(null);
+  const [embedOpen, setEmbedOpen] = useState(false);
   const [genericTier, setGenericTier] = useState<ContemplationTier>('simple');
 
   useEffect(() => {
@@ -237,7 +240,7 @@ export function VerseOfTheDaySection() {
     return whatsappShareUrl({
       heading: `${current.scriptureTitle} ${current.chapterId}.${current.verseId} · Dharma Granth`,
       body: [current.sanskrit, current.hindi || current.translation],
-      url: `${origin}${readHref(current.scriptureId, current.chapterId, current.verseId)}`,
+      url: shareVerseUrl(origin, current.scriptureId, current.chapterId, current.verseId),
     });
   }
 
@@ -560,6 +563,18 @@ export function VerseOfTheDaySection() {
                         <MessageCircle className="h-3.5 w-3.5 text-green-600" />
                         <span>WhatsApp</span>
                       </a>
+
+                      {/* 7. Embed */}
+                      <button
+                        type="button"
+                        onClick={() => setEmbedOpen(true)}
+                        aria-haspopup="dialog"
+                        aria-label="Embed this verse on your website"
+                        className="inline-flex min-h-[44px] items-center gap-1.5 rounded-full border border-dharma-border bg-dharma-panel px-3.5 py-2 text-xs font-bold text-dharma-text transition hover:border-saffron-300 hover:text-saffron-700 shadow-sm"
+                      >
+                        <Code2 className="h-3.5 w-3.5 text-dharma-muted" />
+                        <span>Embed</span>
+                      </button>
                     </div>
 
                     {/* Read Context */}
@@ -588,6 +603,23 @@ export function VerseOfTheDaySection() {
           </article>
         )}
       </div>
+
+      {/* window.location is only read in the browser; nothing renders until the dialog is opened. */}
+      <EmbedVerseDialog
+        open={embedOpen}
+        onClose={() => setEmbedOpen(false)}
+        label={`${current.scriptureTitle} ${current.chapterId}.${current.verseId}`}
+        url={shareVerseUrl(
+          typeof window !== 'undefined' ? window.location.origin : 'https://dharmagranth.in',
+          current.scriptureId,
+          current.chapterId,
+          current.verseId,
+        )}
+        sanskrit={current.sanskrit}
+        hindi={current.hindi}
+        english={current.translation}
+        onNotice={showToast}
+      />
     </section>
   );
 }
