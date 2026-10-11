@@ -19,6 +19,7 @@ import {
 } from 'lucide-react';
 import { READING_PLANS, type ReadingPlan, type ReadingPlanDay } from '@/data/reading-plans';
 import { triggerTactileFeedback } from '@/lib/haptics';
+import { ShareLinkButtons } from '@/app/components/ShareLinkButtons';
 
 const STORAGE_KEY = 'dharma.readingPlans.v1';
 
@@ -39,6 +40,9 @@ export default function ReadingPlansPage() {
     } catch {
       // Ignore storage errors in private mode
     }
+    // A shared link ends in #<plan id>; open that plan.
+    const shared = window.location.hash.slice(1);
+    if (READING_PLANS.some((p) => p.id === shared)) setActivePlanId(shared);
     setIsLoaded(true);
   }, []);
 
@@ -228,6 +232,14 @@ export default function ReadingPlansPage() {
           <p className="mt-3 text-sm leading-relaxed text-dharma-text/90">
             {activePlan.description}
           </p>
+
+          <ShareLinkButtons
+            className="mt-3"
+            heading={activePlan.title}
+            lines={[activePlan.description, `${activePlan.totalDays} days, about ${activePlan.dailyMinutes} min a day`]}
+            path={`/learn/plans/#${activePlan.id}`}
+            label={activePlan.title}
+          />
 
           {/* Progress bar */}
           <div className="mt-6 rounded-xl border border-dharma-border/60 bg-dharma-bg/60 p-4">
