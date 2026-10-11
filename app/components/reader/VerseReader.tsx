@@ -14,6 +14,7 @@ import {
   Download,
   Flag,
   Focus,
+  MessageCircle,
   Maximize2,
   Minimize2,
   Share2,
@@ -22,6 +23,7 @@ import {
 } from 'lucide-react';
 import { useTheme } from '@/app/components/ThemeProvider';
 import { toDevanagari } from '@/lib/verse-format';
+import { whatsappShareUrl } from '@/lib/whatsapp';
 import { useStudyProgress } from '@/lib/useStudyProgress';
 import { useReaderSettings } from '@/lib/useReaderSettings';
 import { triggerTactileFeedback } from '@/lib/haptics';
@@ -165,6 +167,11 @@ export function VerseReader(props: VerseReaderProps) {
     }
     await onCopy();
   };
+  const whatsappHref = whatsappShareUrl({
+    heading: `${label} · Dharma Granth`,
+    body: [(verse.sanskrit ?? '').trim(), (verse.hindi ?? verse.translation ?? '').trim()],
+    url: pageUrl,
+  });
   const onDownload = () => {
     const blob = new Blob([buildDownloadMarkdown(ref, verse, provenance)], { type: 'text/markdown;charset=utf-8' });
     const url = URL.createObjectURL(blob);
@@ -453,6 +460,15 @@ export function VerseReader(props: VerseReaderProps) {
             <button type="button" onClick={onShare} className={actionBtn}>
               <Share2 className="h-4 w-4" aria-hidden="true" /> Share
             </button>
+            <a
+              href={whatsappHref}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={actionBtn}
+              aria-label="Share this verse on WhatsApp"
+            >
+              <MessageCircle className="h-4 w-4" aria-hidden="true" /> WhatsApp
+            </a>
             <button type="button" onClick={onDownload} className={actionBtn}>
               <Download className="h-4 w-4" aria-hidden="true" /> Download
             </button>

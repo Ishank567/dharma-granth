@@ -10,12 +10,14 @@ import {
   ChevronLeft,
   ChevronRight,
   Copy,
+  MessageCircle,
   Share2,
   Sparkles,
   Sprout,
   Zap,
 } from 'lucide-react';
 import { readHref } from '@/lib/verse-paths';
+import { whatsappShareUrl } from '@/lib/whatsapp';
 import { triggerTactileFeedback } from '@/lib/haptics';
 import { PedagogicalVerseCard, type ContemplationTier } from '@/app/components/PedagogicalVerseCard';
 import { getPedagogicalVerse } from '@/data/pedagogical-registry';
@@ -227,6 +229,16 @@ export function VerseOfTheDaySection() {
     } catch {
       showToast('Failed to copy to clipboard');
     }
+  }
+
+  // 5b. WHATSAPP SHARE
+  function whatsappHref(): string {
+    const origin = typeof window !== 'undefined' ? window.location.origin : 'https://dharmagranth.in';
+    return whatsappShareUrl({
+      heading: `${current.scriptureTitle} ${current.chapterId}.${current.verseId} · Dharma Granth`,
+      body: [current.sanskrit, current.hindi || current.translation],
+      url: `${origin}${readHref(current.scriptureId, current.chapterId, current.verseId)}`,
+    });
   }
 
   // 5. SHARE ACTION
@@ -536,6 +548,18 @@ export function VerseOfTheDaySection() {
                         <Share2 className="h-3.5 w-3.5 text-dharma-muted" />
                         <span>Share</span>
                       </button>
+
+                      {/* 6. WhatsApp */}
+                      <a
+                        href={whatsappHref()}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Share verse on WhatsApp"
+                        className="inline-flex min-h-[44px] items-center gap-1.5 rounded-full border border-dharma-border bg-dharma-panel px-3.5 py-2 text-xs font-bold text-dharma-text transition hover:border-green-400 hover:text-green-700 shadow-sm"
+                      >
+                        <MessageCircle className="h-3.5 w-3.5 text-green-600" />
+                        <span>WhatsApp</span>
+                      </a>
                     </div>
 
                     {/* Read Context */}
