@@ -126,3 +126,15 @@ export function courseListLd(opts: { path: string; name: string; description: st
     },
   };
 }
+
+export function faqLd(opts: { path: string; items: { question: string; answer: string }[] }) {
+  return {
+    '@type': 'FAQPage',
+    '@id': `${absUrl(opts.path)}#faq`,
+    mainEntity: opts.items.map((i) => ({
+      '@type': 'Question',
+      name: i.question,
+      acceptedAnswer: { '@type': 'Answer', text: i.answer },
+    })),
+  };
+}
