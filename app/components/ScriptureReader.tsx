@@ -38,6 +38,7 @@ import {
   Quote,
   RotateCcw,
   ScrollText,
+  MessageCircle,
   Share2,
   SlidersHorizontal,
   Sparkles,
@@ -45,6 +46,7 @@ import {
   Sun,
   X,
 } from 'lucide-react';
+import { whatsappShareUrl } from '@/lib/whatsapp';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useTheme, type Theme } from './ThemeProvider';
 import { cleanVerseField, toDevanagari, verseLines } from '@/lib/verse-format';
@@ -415,6 +417,14 @@ export function ScriptureReader({
       showToast('कॉपी करने में असमर्थ');
     }
   };
+
+  // WhatsApp share link (also used by the share modal below)
+  const whatsappHref = () =>
+    whatsappShareUrl({
+      heading: `${scriptureTitle} ${chapterId}.${verse.number} · Dharma Granth`,
+      body: [verse.sanskrit ? cleanVerseField(verse.sanskrit) : '', verse.hindi || verse.translation || ''],
+      url: typeof window !== 'undefined' ? window.location.href : 'https://dharmagranth.in/',
+    });
 
   // Share Verse
   const handleShare = async () => {
@@ -814,6 +824,18 @@ ${verse.science || '—'}
             >
               <Share2 className="h-3.5 w-3.5" />
               <span className="hidden sm:inline">शेयर</span>
+            </button>
+
+            {/* A button, not a link: the URL is read from window.location at click time, so server and client markup match. */}
+            <button
+              type="button"
+              onClick={() => window.open(whatsappHref(), '_blank', 'noopener,noreferrer')}
+              className="inline-flex h-9 items-center gap-1.5 rounded-xl border border-dharma-border bg-dharma-card px-2.5 text-xs font-medium text-dharma-muted transition hover:border-green-400 hover:text-green-700"
+              title="WhatsApp पर साझा करें"
+              aria-label="WhatsApp पर साझा करें"
+            >
+              <MessageCircle className="h-3.5 w-3.5 text-green-600" />
+              <span className="hidden sm:inline">WhatsApp</span>
             </button>
 
             <button
@@ -1898,9 +1920,7 @@ ${verse.science || '—'}
                 {typeof window !== 'undefined' && (
                   <>
                     <a
-                      href={`https://api.whatsapp.com/send?text=${encodeURIComponent(
-                        `${verse.sanskrit ? cleanVerseField(verse.sanskrit) + '\n\n' : ''}${verse.hindi || verse.translation || ''}\n\n— ${scriptureTitle} ${chapterId}.${verse.number}\n${window.location.href}`,
-                      )}`}
+                      href={whatsappHref()}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex w-full items-center justify-between rounded-xl border border-emerald-500/40 bg-emerald-500/10 p-3 text-left transition hover:bg-emerald-500/20"
