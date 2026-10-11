@@ -138,3 +138,57 @@ export function faqLd(opts: { path: string; items: { question: string; answer: s
     })),
   };
 }
+
+export interface ReadingListItem {
+  id: string;
+  name: string;
+  nameHi?: string;
+  description: string;
+  minutes: number;
+  teaches?: string;
+  prerequisites?: string[];
+  parts: { name: string; description?: string }[];
+}
+
+/**
+ * A listing page whose items have no pages of their own (they live on the
+ * listing). Each item is a LearningResource; `@id` is a fragment of the page.
+ */
+export function readingListLd(opts: { path: string; name: string; description: string; items: ReadingListItem[] }) {
+  const url = absUrl(opts.path);
+  return {
+    '@type': 'CollectionPage',
+    '@id': `${url}#collection`,
+    name: opts.name,
+    description: opts.description,
+    url,
+    isPartOf: { '@id': `${SITE_URL}/#website` },
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems: opts.items.length,
+      itemListElement: opts.items.map((it, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        item: {
+          '@type': 'LearningResource',
+          '@id': `${url}#${it.id}`,
+          name: it.name,
+          ...(it.nameHi ? { alternateName: it.nameHi } : {}),
+          description: it.description,
+          inLanguage: ['en', 'hi'],
+          isAccessibleForFree: true,
+          timeRequired: `PT${Math.max(1, Math.round(it.minutes))}M`,
+          ...(it.teaches ? { teaches: it.teaches } : {}),
+          ...(it.prerequisites?.length ? { competencyRequired: it.prerequisites.join('; ') } : {}),
+          provider: { '@id': `${SITE_URL}/#organization` },
+          hasPart: it.parts.map((p, n) => ({
+            '@type': 'CreativeWork',
+            position: n + 1,
+            name: p.name,
+            ...(p.description ? { description: p.description } : {}),
+          })),
+        },
+      })),
+    },
+  };
+}

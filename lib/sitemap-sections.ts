@@ -57,6 +57,8 @@ function pagesSection(): MetadataRoute.Sitemap {
     entry('/learn', pageDate('/learn'), 'weekly', 0.9),
     entry('/learn/pathways', pageDate('/learn/pathways', 'data/pathways.ts'), 'weekly', 0.9),
     entry('/learn/faq', pageDate('/learn/faq', 'data/scripture-faqs.ts'), 'monthly', 0.7),
+    entry('/learn/paths', pageDate('/learn/paths', 'data/guided-reading-paths.ts'), 'monthly', 0.7),
+    entry('/learn/plans', pageDate('/learn/plans', 'data/reading-plans.ts'), 'monthly', 0.7),
     entry('/wisdom-for-life', pageDate('/wisdom-for-life', 'data/wisdom-for-life.ts'), 'weekly', 0.9),
     entry('/guidance', pageDate('/guidance', 'data/wisdom-for-life.ts'), 'weekly', 0.92),
     entry('/concepts', pageDate('/concepts'), 'weekly', 0.85),
