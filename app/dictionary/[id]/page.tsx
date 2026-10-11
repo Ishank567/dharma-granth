@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
 import { DEFAULT_OG_IMAGE } from '@/lib/og';
+import { JsonLd } from '@/app/components/JsonLd';
+import { pageLd, articleLd, definedTermLd } from '@/lib/jsonld';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import {
@@ -46,6 +48,22 @@ export default function TermPage({ params }: { params: { id: string } }) {
 
   return (
     <main className="min-h-screen bg-dharma-bg">
+      <JsonLd
+        data={pageLd(
+          [
+            { name: 'Dictionary', path: '/dictionary' },
+            { name: term.term, path: `/dictionary/${term.id}` },
+          ],
+          definedTermLd({
+            path: `/dictionary/${term.id}`,
+            name: term.term,
+            alt: [term.sanskrit, term.transliteration].filter(Boolean),
+            description: term.shortDef,
+            setPath: '/dictionary',
+            setName: 'Dharma Granth Dictionary',
+          }),
+        )}
+      />
       {/* ── Hero ─────────────────────────────────────────────────── */}
       <section className={`relative bg-gradient-to-br ${cat?.gradient ?? 'from-saffron-500 to-amber-600'} text-white py-16 overflow-hidden`}>
         <div className="absolute inset-0 mandala-bg opacity-10" />

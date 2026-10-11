@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
 import { DEFAULT_OG_IMAGE } from '@/lib/og';
+import { JsonLd } from '@/app/components/JsonLd';
+import { pageLd, articleLd, definedTermLd } from '@/lib/jsonld';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import {
@@ -45,6 +47,15 @@ export default function TopicPage({ params }: { params: { id: string } }) {
 
   return (
     <main className="min-h-screen bg-dharma-bg">
+      <JsonLd
+        data={pageLd(
+          [
+            { name: 'Topics', path: '/topics' },
+            { name: topic.title, path: `/topics/${topic.id}` },
+          ],
+          articleLd({ path: `/topics/${topic.id}`, headline: topic.title, description: topic.shortDesc }),
+        )}
+      />
       {/* ── Hero ─────────────────────────────────────────────────── */}
       <section className={`relative bg-gradient-to-br ${topic.gradient} text-white py-16 overflow-hidden`}>
         <div className="absolute inset-0 mandala-bg opacity-10" />

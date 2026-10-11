@@ -2,6 +2,8 @@ import { getLibraryFacts } from '@/lib/library-server';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { DEFAULT_OG_IMAGE } from '@/lib/og';
+import { JsonLd } from '@/app/components/JsonLd';
+import { pageLd, articleLd, definedTermLd } from '@/lib/jsonld';
 import {
   wisdomTopics,
   getWisdomTopic,
@@ -69,6 +71,19 @@ export default function WisdomTopicPage({
 
   return (
     <div className="min-h-screen bg-dharma-bg">
+      <JsonLd
+        data={pageLd(
+          [
+            { name: 'Wisdom for Life', path: '/wisdom-for-life' },
+            { name: topic.titleEn, path: `/wisdom-for-life/${topic.slug}` },
+          ],
+          articleLd({
+            path: `/wisdom-for-life/${topic.slug}`,
+            headline: `${topic.titleEn} (${topic.titleHi})`,
+            description: topic.shortDescEn,
+          }),
+        )}
+      />
       <TopicDetailClient
         topic={topic}
         libraryFacts={libraryFacts}
