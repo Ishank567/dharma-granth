@@ -55,6 +55,9 @@ jobs:
       - name: Type check
         run: npm run typecheck
 
+      - name: Sitemap tests
+        run: npm run test:sitemap
+
       # Drawing all ~2,300 verse images takes ~3.5 minutes. Save the cache in
       # its own step: the combined cache action only stores a cache when the
       # job succeeds, so a later export failure used to throw the images away
