@@ -6,6 +6,8 @@ import {
   getConceptDetail,
 } from '@/data/concept-details';
 import { DEFAULT_OG_IMAGE } from '@/lib/og';
+import { JsonLd } from '@/app/components/JsonLd';
+import { pageLd, articleLd, definedTermLd } from '@/lib/jsonld';
 import { ShareCardButton } from '@/app/components/understand/ShareCard';
 import {
   ArrowLeft,
@@ -73,6 +75,22 @@ export default async function ConceptDetailPage({ params }: PageProps) {
 
   return (
     <main className="min-h-screen bg-dharma-bg text-dharma-text pb-24">
+      <JsonLd
+        data={pageLd(
+          [
+            { name: 'Concepts', path: '/concepts' },
+            { name: concept.label, path: `/concepts/${concept.id}` },
+          ],
+          definedTermLd({
+            path: `/concepts/${concept.id}`,
+            name: concept.label,
+            alt: [concept.sanskrit].filter(Boolean),
+            description: `${concept.simpleDefinition.en} ${concept.simpleDefinition.hi}`,
+            setPath: '/concepts',
+            setName: 'Dharma Granth Concepts',
+          }),
+        )}
+      />
       {/* ── Breadcrumb & Navigation Header ─────────────────────────────────── */}
       <header className="border-b border-dharma-border bg-dharma-card/60 backdrop-blur-md sticky top-16 z-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between text-xs sm:text-sm text-dharma-muted">

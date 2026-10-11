@@ -29,7 +29,7 @@ export function generateMetadata({ params }: PageProps): Metadata {
   if (!meta) return {};
 
   // Hindi first, as people search ("भगवद गीता हिंदी अर्थ"); English name kept.
-  const title = `${meta.titleSanskrit} (${meta.title}) — हिंदी अर्थ सहित श्लोक`;
+  const title = `${meta.titleSanskrit} (${meta.title}) — हिंदी अर्थ सहित श्लोक | Hindi & English Meaning`;
   const held = readSeededChapterPreviews(params.id).filter((chapter) => chapter.verseCount > 0);
   const heldVerses = held.reduce((sum, chapter) => sum + chapter.verseCount, 0);
   const counts =
@@ -55,6 +55,13 @@ export function generateMetadata({ params }: PageProps): Metadata {
   return {
     title,
     description,
+    keywords: [
+      `${meta.title} verses`,
+      `${meta.title} meaning in english`,
+      `${meta.title} meaning in hindi`,
+      `${meta.title} with translation`,
+      `${meta.titleSanskrit} हिंदी अर्थ`,
+    ],
     alternates: { canonical: `/scripture/${meta.id}` },
     openGraph: {
       type: 'article',

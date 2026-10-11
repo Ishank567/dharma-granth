@@ -157,6 +157,7 @@ export default function ScriptureFaqPage() {
                     type="button"
                     onClick={() => toggleAccordion(faq.id)}
                     aria-expanded={isOpen}
+                    aria-controls={`faq-answer-${faq.id}`}
                     className="focus-ring w-full text-left p-5 sm:p-6 flex items-start justify-between gap-4 cursor-pointer"
                   >
                     <div>
@@ -176,8 +177,13 @@ export default function ScriptureFaqPage() {
                     </span>
                   </button>
 
-                  {isOpen && (
-                    <div className="px-5 pb-6 sm:px-6 border-t border-dharma-border/60 pt-4 text-xs sm:text-sm leading-relaxed space-y-3">
+                  {/* Always rendered, hidden while collapsed: the answers must be in the page HTML
+                      to match the FAQPage markup in layout.tsx (and stay searchable by find-in-page). */}
+                    <div
+                      id={`faq-answer-${faq.id}`}
+                      hidden={!isOpen}
+                      className="px-5 pb-6 sm:px-6 border-t border-dharma-border/60 pt-4 text-xs sm:text-sm leading-relaxed space-y-3"
+                    >
                       <p className="text-dharma-text">
                         {faq.answerEn}
                       </p>
@@ -207,7 +213,6 @@ export default function ScriptureFaqPage() {
                         </div>
                       )}
                     </div>
-                  )}
                 </article>
               );
             })}

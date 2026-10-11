@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
 import { DEFAULT_OG_IMAGE } from '@/lib/og';
+import { JsonLd } from '@/app/components/JsonLd';
+import { pageLd, articleLd, definedTermLd } from '@/lib/jsonld';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import {
@@ -45,6 +47,19 @@ export default function CharacterPage({ params }: { params: { id: string } }) {
 
   return (
     <main className="min-h-screen bg-dharma-bg">
+      <JsonLd
+        data={pageLd(
+          [
+            { name: 'Characters', path: '/characters' },
+            { name: character.name, path: `/characters/${character.id}` },
+          ],
+          articleLd({
+            path: `/characters/${character.id}`,
+            headline: `${character.name} (${character.sanskrit})`,
+            description: character.shortDesc,
+          }),
+        )}
+      />
       {/* ── Hero ─────────────────────────────────────────────────── */}
       <section className={`relative bg-gradient-to-br ${character.gradient} text-white py-16 overflow-hidden`}>
         <div className="absolute inset-0 mandala-bg opacity-10" />
