@@ -44,6 +44,9 @@ jobs:
       - name: Type check
         run: npm run typecheck
 
+      - name: Sitemap tests
+        run: npm run test:sitemap
+
       # Same cache as deploy-cloudflare.yml. Saved before the export so a
       # later check failure does not discard the images.
       - name: Restore verse share images

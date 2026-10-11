@@ -11,28 +11,23 @@ import { dictionary } from '@/data/dictionary';
 import { getAllConceptDetails } from '@/data/concept-details';
 import { learningPaths } from '@/data/learning-paths';
 import { READING_JOURNEYS } from '@/data/reading-journeys';
-import { publishedChapterNumbers } from '@/lib/ashtavakra';
+import { buildWordIndex } from '@/lib/ashtavakra-words';
+import { getChapterData, publishedChapterNumbers, verseHref } from '@/lib/ashtavakra';
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://dharmagranth.in';
+export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || 'https://dharmagranth.in').replace(/\/+$/, '');
 
 type Entry = MetadataRoute.Sitemap[number];
 
 /**
  * lastModified comes from git history (see lib/content-dates): each URL's date
  * is when its content last changed, and it is omitted when unknown. A single
- * build timestamp on every URL is ignored by Google.
+ * build timestamp on every URL is ignored by Google. No changefreq or priority
+ * is emitted: there is no measured value behind either, and Google ignores both.
  */
-function entry(
-  path: string,
-  lastModified: Date | undefined,
-  changeFrequency: Entry['changeFrequency'],
-  priority: number,
-): Entry {
+function entry(path: string, lastModified: Date | undefined): Entry {
   return {
     url: `${SITE_URL}${path}`,
     ...(lastModified ? { lastModified } : {}),
-    changeFrequency,
-    priority,
   };
 }
 
@@ -56,64 +51,68 @@ export const SITEMAP_SECTIONS: SitemapSection[] = ['pages', 'scriptures', 'chapt
 function pagesSection(): MetadataRoute.Sitemap {
   // 1. Static Top-Level Routes
   const staticRoutes: MetadataRoute.Sitemap = [
-    entry('/', pageDate('/'), 'weekly', 1.0),
-    entry('/scriptures', pageDate('/scriptures', 'data/scripture-meta.ts'), 'weekly', 0.95),
-    entry('/learn', pageDate('/learn'), 'weekly', 0.9),
-    entry('/learn/pathways', pageDate('/learn/pathways', 'data/pathways.ts'), 'weekly', 0.9),
-    entry('/learn/faq', pageDate('/learn/faq', 'data/scripture-faqs.ts'), 'monthly', 0.7),
-    entry('/learn/paths', pageDate('/learn/paths', 'data/guided-reading-paths.ts'), 'monthly', 0.7),
-    entry('/learn/plans', pageDate('/learn/plans', 'data/reading-plans.ts'), 'monthly', 0.7),
-    entry('/wisdom-for-life', pageDate('/wisdom-for-life', 'data/wisdom-for-life.ts'), 'weekly', 0.9),
-    entry('/guidance', pageDate('/guidance', 'data/wisdom-for-life.ts'), 'weekly', 0.92),
-    entry('/concepts', pageDate('/concepts'), 'weekly', 0.85),
-    entry('/topics', pageDate('/topics', 'data/topics.ts'), 'weekly', 0.85),
-    entry('/characters', pageDate('/characters', 'data/characters.ts'), 'weekly', 0.85),
-    entry('/locations', pageDate('/locations'), 'monthly', 0.8),
-    entry('/festivals', pageDate('/festivals'), 'monthly', 0.8),
-    entry('/panchang', pageDate('/panchang'), 'weekly', 0.85),
-    entry('/timelines', pageDate('/timelines'), 'monthly', 0.8),
-    entry('/rituals', pageDate('/rituals'), 'monthly', 0.8),
-    entry('/dictionary', pageDate('/dictionary', 'data/dictionary.ts'), 'monthly', 0.8),
-    entry('/practice', pageDate('/practice'), 'monthly', 0.75),
-    entry('/start', pageDate('/start'), 'monthly', 0.7),
-    entry('/journeys', pageDate('/journeys', 'data/reading-journeys.ts'), 'monthly', 0.7),
-    entry('/story', pageDate('/story'), 'monthly', 0.6),
-    entry('/collections', pageDate('/collections'), 'monthly', 0.75),
-    entry('/start-here', pageDate('/start-here'), 'monthly', 0.7),
-    entry('/daily', pageDate('/daily'), 'daily', 0.6),
-    entry('/methodology', pageDate('/methodology'), 'monthly', 0.5),
-    entry('/sources', pageDate('/sources'), 'monthly', 0.5),
-    entry('/concepts/relationships', pageDate('/concepts/relationships'), 'monthly', 0.6),
-    entry('/ashtavakra', pageDate('/ashtavakra'), 'monthly', 0.8),
+    entry('/', pageDate('/')),
+    entry('/scriptures', pageDate('/scriptures', 'data/scripture-meta.ts')),
+    entry('/learn', pageDate('/learn')),
+    entry('/learn/pathways', pageDate('/learn/pathways', 'data/pathways.ts')),
+    entry('/learn/faq', pageDate('/learn/faq', 'data/scripture-faqs.ts')),
+    entry('/learn/paths', pageDate('/learn/paths', 'data/guided-reading-paths.ts')),
+    entry('/learn/plans', pageDate('/learn/plans', 'data/reading-plans.ts')),
+    entry('/wisdom-for-life', pageDate('/wisdom-for-life', 'data/wisdom-for-life.ts')),
+    entry('/guidance', pageDate('/guidance', 'data/wisdom-for-life.ts')),
+    entry('/concepts', pageDate('/concepts')),
+    entry('/topics', pageDate('/topics', 'data/topics.ts')),
+    entry('/characters', pageDate('/characters', 'data/characters.ts')),
+    entry('/locations', pageDate('/locations')),
+    entry('/festivals', pageDate('/festivals')),
+    entry('/panchang', pageDate('/panchang')),
+    entry('/timelines', pageDate('/timelines')),
+    entry('/rituals', pageDate('/rituals')),
+    entry('/dictionary', pageDate('/dictionary', 'data/dictionary.ts')),
+    entry('/practice', pageDate('/practice')),
+    entry('/start', pageDate('/start')),
+    entry('/journeys', pageDate('/journeys', 'data/reading-journeys.ts')),
+    entry('/story', pageDate('/story')),
+    entry('/collections', pageDate('/collections')),
+    entry('/start-here', pageDate('/start-here')),
+    entry('/daily', pageDate('/daily')),
+    entry('/methodology', pageDate('/methodology')),
+    entry('/sources', pageDate('/sources')),
+    entry('/concepts/relationships', pageDate('/concepts/relationships')),
+    entry('/ashtavakra', pageDate('/ashtavakra')),
+    entry('/ashtavakra/words', pageDate('/ashtavakra/words')),
   ];
 
   // 2. Individual Entity Pages
   const wisdomDate = lastChanged('data/wisdom-for-life.ts', 'app/wisdom-for-life/[slug]/page.tsx');
-  const wisdomRoutes = wisdomTopics.map((w) => entry(`/wisdom-for-life/${w.slug}`, wisdomDate, 'weekly', 0.85));
+  const wisdomRoutes = wisdomTopics.map((w) => entry(`/wisdom-for-life/${w.slug}`, wisdomDate));
   // /guidance/<slug> serves the same page with a canonical to /wisdom-for-life/<slug>, so only the canonical URL is listed.
 
   const topicDate = lastChanged('data/topics.ts', 'app/topics/[id]/page.tsx');
-  const topicRoutes = topics.map((t) => entry(`/topics/${t.id}`, topicDate, 'monthly', 0.8));
+  const topicRoutes = topics.map((t) => entry(`/topics/${t.id}`, topicDate));
 
   const characterDate = lastChanged('data/characters.ts', 'app/characters/[id]/page.tsx');
-  const characterRoutes = characters.map((c) => entry(`/characters/${c.id}`, characterDate, 'monthly', 0.8));
+  const characterRoutes = characters.map((c) => entry(`/characters/${c.id}`, characterDate));
 
   const dictionaryDate = lastChanged('data/dictionary.ts', 'app/dictionary/[id]/page.tsx');
-  const dictionaryRoutes = dictionary.map((d) => entry(`/dictionary/${d.id}`, dictionaryDate, 'monthly', 0.8));
+  const dictionaryRoutes = dictionary.map((d) => entry(`/dictionary/${d.id}`, dictionaryDate));
 
   const conceptDate = lastChanged('data/concept-details.ts', 'app/concepts/[id]/page.tsx');
-  const conceptRoutes = getAllConceptDetails().map((c) => entry(`/concepts/${c.id}`, conceptDate, 'monthly', 0.8));
+  const conceptRoutes = getAllConceptDetails().map((c) => entry(`/concepts/${c.id}`, conceptDate));
 
   const courseDate = lastChanged('data/learning-paths.ts', 'app/learn/[courseId]/page.tsx');
-  const courseRoutes = learningPaths.map((p) => entry(`/learn/${p.id}`, courseDate, 'monthly', 0.75));
+  const courseRoutes = learningPaths.map((p) => entry(`/learn/${p.id}`, courseDate));
 
   const journeyDate = lastChanged('data/reading-journeys.ts', 'app/journeys/[id]/page.tsx');
-  const journeyRoutes = READING_JOURNEYS.map((j) => entry(`/journeys/${j.id}`, journeyDate, 'monthly', 0.65));
+  const journeyRoutes = READING_JOURNEYS.map((j) => entry(`/journeys/${j.id}`, journeyDate));
 
   const ashtavakraDate = lastChanged('app/ashtavakra/[chapter]/page.tsx');
-  const ashtavakraRoutes = publishedChapterNumbers().map((n) => entry(`/ashtavakra/${n}`, ashtavakraDate, 'monthly', 0.7));
+  const ashtavakraRoutes = publishedChapterNumbers().map((n) => entry(`/ashtavakra/${n}`, ashtavakraDate));
 
-  return [...staticRoutes, ...conceptRoutes, ...courseRoutes, ...journeyRoutes, ...ashtavakraRoutes, ...wisdomRoutes, ...topicRoutes, ...characterRoutes, ...dictionaryRoutes];
+  const wordDate = lastChanged('app/ashtavakra/words/[letter]/page.tsx', 'lib/ashtavakra-words.ts');
+  const wordRoutes = buildWordIndex().groups.map((g) => entry(`/ashtavakra/words/${encodeURIComponent(g.letter)}`, wordDate));
+
+  return [...staticRoutes, ...conceptRoutes, ...courseRoutes, ...journeyRoutes, ...ashtavakraRoutes, ...wordRoutes, ...wisdomRoutes, ...topicRoutes, ...characterRoutes, ...dictionaryRoutes];
 }
 
 /** Scripture landing pages and chapter pages (all seeded + curated chapters), dated by when the scripture's text or commentary last changed. */
@@ -122,15 +121,15 @@ function scriptureRoutes(): { scriptures: MetadataRoute.Sitemap; chapters: Metad
   const chapters: MetadataRoute.Sitemap = [];
   for (const meta of getAllScriptures()) {
     const date = scriptureLastChanged(meta.id);
-    scriptures.push(entry(`/scripture/${meta.id}`, date, 'monthly', meta.hasData ? 0.9 : 0.5));
+    scriptures.push(entry(`/scripture/${meta.id}`, date));
 
     const chapterSet = new Set<number>(readSeededChapterNumbers(meta.id));
     for (const ch of getScriptureChapters(meta.id)) chapterSet.add(ch.id);
     for (const chId of Array.from(chapterSet).sort((a, b) => a - b)) {
-      chapters.push(entry(`/scripture/${meta.id}/chapter/${chId}`, date, 'monthly', 0.75));
+      chapters.push(entry(`/scripture/${meta.id}/chapter/${chId}`, date));
       // Parts 2…N of chapters too large for one page (lib/chapter-parts).
       for (const part of chapterParts(meta.id, chId)?.slice(1) ?? []) {
-        chapters.push(entry(chapterPartHref(meta.id, chId, part.part), date, 'monthly', 0.6));
+        chapters.push(entry(chapterPartHref(meta.id, chId, part.part), date));
       }
     }
   }
@@ -139,9 +138,37 @@ function scriptureRoutes(): { scriptures: MetadataRoute.Sitemap; chapters: Metad
 }
 
 function versesSection(): MetadataRoute.Sitemap {
-  return verseStaticParams().map((p) =>
-    entry(`/scripture/${p.id}/chapter/${p.chapterId}/verse/${p.verseId}`, scriptureLastChanged(p.id), 'monthly', 0.7),
+  const scriptureVerses = verseStaticParams().map((p) =>
+    entry(`/scripture/${p.id}/chapter/${p.chapterId}/verse/${p.verseId}`, scriptureLastChanged(p.id)),
   );
+  // Ashtavakra Gita has its own verse pages (/ashtavakra/<chapter>/<verse>/).
+  const ashtavakraDate = lastChanged('app/ashtavakra/[chapter]/[verse]/page.tsx');
+  const ashtavakraVerses = publishedChapterNumbers().flatMap((c) =>
+    getChapterData(c)!.verses.map((v) => entry(verseHref(v.verseNumber), ashtavakraDate)),
+  );
+  return [...scriptureVerses, ...ashtavakraVerses];
+}
+
+/** Google's per-file limit; a section must be split before it gets here. */
+export const MAX_URLS_PER_SITEMAP = 50000;
+
+/**
+ * Entries with a trailing slash, each URL once (first occurrence wins).
+ * Throws instead of silently truncating when a section outgrows one file.
+ */
+export function normalizeEntries(entries: MetadataRoute.Sitemap): MetadataRoute.Sitemap {
+  const seen = new Set<string>();
+  const out: MetadataRoute.Sitemap = [];
+  for (const e of entries) {
+    const url = withTrailingSlash(e.url);
+    if (seen.has(url)) continue;
+    seen.add(url);
+    out.push({ ...e, url });
+  }
+  if (out.length > MAX_URLS_PER_SITEMAP) {
+    throw new Error(`Sitemap section has ${out.length} URLs (limit ${MAX_URLS_PER_SITEMAP}); split it into more sections.`);
+  }
+  return out;
 }
 
 export function sitemapSection(section: SitemapSection): MetadataRoute.Sitemap {
@@ -153,21 +180,24 @@ export function sitemapSection(section: SitemapSection): MetadataRoute.Sitemap {
         : section === 'chapters'
           ? scriptureRoutes().chapters
           : versesSection();
-  return entries.map((e) => ({ ...e, url: withTrailingSlash(e.url) }));
+  return normalizeEntries(entries);
 }
 
-function escapeXml(text: string): string {
-  return text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+export function escapeXml(text: string): string {
+  return text
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
 }
 
-/** Serialises a section as a <urlset> sitemap document. */
+/** Serialises a section as a <urlset> sitemap document (loc and, when known, lastmod only). */
 export function sitemapXml(entries: MetadataRoute.Sitemap): string {
-  const urls = entries
+  const urls = normalizeEntries(entries)
     .map((e) => {
       const lastmod = e.lastModified ? `<lastmod>${new Date(e.lastModified).toISOString()}</lastmod>` : '';
-      const freq = e.changeFrequency ? `<changefreq>${e.changeFrequency}</changefreq>` : '';
-      const priority = e.priority != null ? `<priority>${e.priority.toFixed(2)}</priority>` : '';
-      return `<url><loc>${escapeXml(e.url)}</loc>${lastmod}${freq}${priority}</url>`;
+      return `<url><loc>${escapeXml(e.url)}</loc>${lastmod}</url>`;
     })
     .join('\n');
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`;
@@ -180,7 +210,7 @@ export function sitemapIndexXml(): string {
       .map((e) => (e.lastModified ? new Date(e.lastModified).getTime() : 0))
       .filter((t) => t > 0);
     const lastmod = times.length ? `<lastmod>${new Date(Math.max(...times)).toISOString()}</lastmod>` : '';
-    return `<sitemap><loc>${SITE_URL}/sitemap-${section}.xml</loc>${lastmod}</sitemap>`;
+    return `<sitemap><loc>${escapeXml(SITE_URL)}/sitemap-${section}.xml</loc>${lastmod}</sitemap>`;
   }).join('\n');
   return `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${items}\n</sitemapindex>\n`;
 }
