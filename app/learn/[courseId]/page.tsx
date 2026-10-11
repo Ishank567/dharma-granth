@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getLearningPath, learningPaths } from '@/data/learning-paths';
+import { JsonLd } from '@/app/components/JsonLd';
+import { courseLd, pageLd } from '@/lib/jsonld';
 import { CoursePageClient } from './CoursePageClient';
 
 interface PageProps {
@@ -39,5 +41,28 @@ export default function CoursePage({ params }: PageProps) {
     notFound();
   }
 
-  return <CoursePageClient course={course} />;
+  const path = `/learn/${course.id}`;
+  return (
+    <>
+      <JsonLd
+        data={pageLd(
+          [
+            { name: 'Learn', path: '/learn' },
+            { name: course.title, path },
+          ],
+          courseLd({
+            path,
+            name: `${course.title} (${course.titleSanskrit})`,
+            description: course.learningObjective,
+            level: course.difficulty,
+            minutes: course.estimatedMinutes,
+            outcomes: course.overview.learningOutcomes,
+            prerequisites: course.overview.prerequisites,
+            lessons: course.lessons.map((l) => ({ title: l.title, description: l.description, minutes: l.estimatedMinutes })),
+          }),
+        )}
+      />
+      <CoursePageClient course={course} />
+    </>
+  );
 }

@@ -53,3 +53,49 @@ export function definedTermLd(opts: { path: string; name: string; alt?: string[]
     inDefinedTermSet: { '@type': 'DefinedTermSet', name: opts.setName, url: absUrl(opts.setPath) },
   };
 }
+
+export interface CourseLdInput {
+  path: string;
+  name: string;
+  description: string;
+  level: 'beginner' | 'intermediate' | 'advanced';
+  minutes: number;
+  outcomes: string[];
+  prerequisites?: string;
+  lessons: { title: string; description: string; minutes: number }[];
+}
+
+/**
+ * schema.org Course for a free, self-paced learning path. Only facts the data
+ * holds are emitted: no ratings, price or instructor are invented.
+ */
+export function courseLd(c: CourseLdInput) {
+  const url = absUrl(c.path);
+  return {
+    '@type': 'Course',
+    '@id': `${url}#course`,
+    name: c.name,
+    description: c.description,
+    url,
+    inLanguage: ['en', 'hi', 'sa'],
+    isAccessibleForFree: true,
+    educationalLevel: c.level.charAt(0).toUpperCase() + c.level.slice(1),
+    timeRequired: `PT${Math.max(1, Math.round(c.minutes))}M`,
+    ...(c.prerequisites ? { coursePrerequisites: c.prerequisites } : {}),
+    ...(c.outcomes.length ? { teaches: c.outcomes } : {}),
+    provider: { '@type': 'Organization', '@id': `${SITE_URL}/#organization`, name: 'Dharma Granth', sameAs: SITE_URL },
+    offers: { '@type': 'Offer', category: 'Free', price: 0, priceCurrency: 'INR' },
+    hasCourseInstance: {
+      '@type': 'CourseInstance',
+      courseMode: 'online',
+      courseWorkload: `PT${Math.max(1, Math.round(c.minutes))}M`,
+    },
+    hasPart: c.lessons.map((l, i) => ({
+      '@type': 'LearningResource',
+      position: i + 1,
+      name: l.title,
+      description: l.description,
+      timeRequired: `PT${Math.max(1, Math.round(l.minutes))}M`,
+    })),
+  };
+}
