@@ -76,3 +76,13 @@ export function readHref(scriptureId: string, chapterId: number, verseId?: numbe
   }
   return `/scripture/${scriptureId}/chapter/${chapterId}`;
 }
+
+/**
+ * Absolute URL for sharing or embedding a verse. The site is exported with
+ * `trailingSlash: true`, so the page lives at `…/verse/47/`; linking the slashed
+ * form avoids a redirect and matches the page's canonical URL.
+ */
+export function shareVerseUrl(origin: string, scriptureId: string, chapterId: number, verseId: number | string): string {
+  const path = readHref(scriptureId, chapterId, verseId);
+  return `${origin}${path.includes('#') || path.endsWith('/') ? path : `${path}/`}`;
+}

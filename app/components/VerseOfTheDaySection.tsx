@@ -17,7 +17,7 @@ import {
   Sprout,
   Zap,
 } from 'lucide-react';
-import { readHref } from '@/lib/verse-paths';
+import { readHref, shareVerseUrl } from '@/lib/verse-paths';
 import { whatsappShareUrl } from '@/lib/whatsapp';
 import { EmbedVerseDialog } from '@/app/components/EmbedVerseDialog';
 import { triggerTactileFeedback } from '@/lib/haptics';
@@ -240,7 +240,7 @@ export function VerseOfTheDaySection() {
     return whatsappShareUrl({
       heading: `${current.scriptureTitle} ${current.chapterId}.${current.verseId} · Dharma Granth`,
       body: [current.sanskrit, current.hindi || current.translation],
-      url: `${origin}${readHref(current.scriptureId, current.chapterId, current.verseId)}`,
+      url: shareVerseUrl(origin, current.scriptureId, current.chapterId, current.verseId),
     });
   }
 
@@ -609,7 +609,12 @@ export function VerseOfTheDaySection() {
         open={embedOpen}
         onClose={() => setEmbedOpen(false)}
         label={`${current.scriptureTitle} ${current.chapterId}.${current.verseId}`}
-        url={`${typeof window !== 'undefined' ? window.location.origin : 'https://dharmagranth.in'}${readHref(current.scriptureId, current.chapterId, current.verseId)}`}
+        url={shareVerseUrl(
+          typeof window !== 'undefined' ? window.location.origin : 'https://dharmagranth.in',
+          current.scriptureId,
+          current.chapterId,
+          current.verseId,
+        )}
         sanskrit={current.sanskrit}
         hindi={current.hindi}
         english={current.translation}
