@@ -24,7 +24,9 @@ import {
 } from '@/lib/read-seeded-chapters';
 import type { InitialChapter } from '@/app/components/FullChapterVerses';
 import type { HiCommentaryEntry } from '@/data/hi-commentary/_types';
-import { ArrowLeft, ArrowRight, BookOpen, Layers } from 'lucide-react';
+import { ArrowLeft, ArrowRight, BookOpen, Layers, MessageCircle } from 'lucide-react';
+import { ShareButton } from '@/app/components/ShareButton';
+import { whatsappShareUrl } from '@/lib/whatsapp';
 import { ChapterPartRedirect } from '@/app/components/ChapterPartRedirect';
 import { SourcesAndInterpretation } from '@/app/components/SourcesAndInterpretation';
 import { chapterPartHref, chapterParts, INLINE_CHAPTER_MAX_BYTES, type ChapterPart } from '@/lib/chapter-parts';
@@ -237,6 +239,16 @@ export function ChapterView({ params, part: partNumber = 1 }: { params: ChapterP
   const nextLabel = nextHref ? neighbourLabel(meta.id, chapterId + 1) : undefined;
 
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://dharmagranth.in';
+  // Share links are built here, at build time: the WhatsApp link is a plain anchor (no JS),
+  // and the page's own canonical URL (with the trailing slash the site is served at) is what gets shared.
+  const shareUrl = `${siteUrl}${chapterPartHref(meta.id, chapter.id, part?.part ?? 1)}/`;
+  const shareHeading = `${meta.title} · ${chapter.title}${part ? ` (भाग ${part.part})` : ''}`;
+  const shareSummary = (chapter.summary ?? '').replace(/\s+/g, ' ').trim();
+  const shareLines = [shareSummary.length > 180 ? `${shareSummary.slice(0, 179).trimEnd()}…` : shareSummary];
+  const whatsappHref = whatsappShareUrl({ heading: `${shareHeading} · Dharma Granth`, body: shareLines, url: shareUrl });
+  const shareChip =
+    'inline-flex min-h-[44px] items-center gap-1.5 px-4 rounded-full bg-white/15 hover:bg-white/25 backdrop-blur text-xs font-semibold transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-white';
+
   const chapterJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Chapter',
@@ -321,6 +333,13 @@ export function ChapterView({ params, part: partNumber = 1 }: { params: ChapterP
                 श्लोक पाठ अभी प्रकाशित नहीं है
               </span>
             )}
+            <a href={whatsappHref} target="_blank" rel="noopener noreferrer" aria-label={`Share ${shareHeading} on WhatsApp`} className={shareChip}>
+              <MessageCircle className="w-3.5 h-3.5" aria-hidden="true" />
+              <span>WhatsApp</span>
+            </a>
+            <ShareButton title={`${shareHeading} · Dharma Granth`} text={shareLines[0]} url={shareUrl} className={shareChip}>
+              Share
+            </ShareButton>
           </div>
         </div>
       </ChapterHero>
