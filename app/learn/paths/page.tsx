@@ -17,6 +17,7 @@ import {
 } from 'lucide-react';
 import { GUIDED_READING_PATHS, type GuidedReadingPath } from '@/data/guided-reading-paths';
 import { useStudyProgress } from '@/lib/useStudyProgress';
+import { ShareLinkButtons } from '@/app/components/ShareLinkButtons';
 
 type CategoryFilter = 'all' | GuidedReadingPath['category'];
 
@@ -115,7 +116,8 @@ export default function GuidedReadingPathsPage() {
           return (
             <article
               key={path.id}
-              className="rounded-3xl border border-dharma-border bg-dharma-card p-6 sm:p-8 shadow-sm transition hover:border-saffron-500/40"
+              id={path.id}
+              className="scroll-mt-24 rounded-3xl border border-dharma-border bg-dharma-card p-6 sm:p-8 shadow-sm transition hover:border-saffron-500/40"
             >
               <div className="flex flex-wrap items-start justify-between gap-3 border-b border-dharma-border pb-4">
                 <div>
@@ -135,6 +137,14 @@ export default function GuidedReadingPathsPage() {
                   <span>About {path.estimatedMinutes} min study</span>
                 </div>
               </div>
+
+              <ShareLinkButtons
+                className="mt-4"
+                heading={path.title}
+                lines={[path.purpose, `About ${path.estimatedMinutes} min study`]}
+                path={`/learn/paths/#${path.id}`}
+                label={path.title}
+              />
 
               {/* Purpose & Prerequisites */}
               <div className="mt-5 grid gap-4 sm:grid-cols-3 text-sm">
