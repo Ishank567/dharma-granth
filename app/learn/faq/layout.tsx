@@ -4,7 +4,7 @@ import { SCRIPTURE_FAQS } from '@/data/scripture-faqs';
 import { faqLd, pageLd } from '@/lib/jsonld';
 
 export const metadata: Metadata = {
-  title: 'Scripture & Tradition FAQs · जिज्ञासा एवं समाधान | Dharma Granth',
+  title: 'Scripture & Tradition FAQs · जिज्ञासा एवं समाधान',
   description:
     'Authoritative, sourced, non-dogmatic answers to essential questions about Hindu scriptures, philosophical traditions, ethics, and common misconceptions.',
   alternates: { canonical: '/learn/faq' },

@@ -1,3 +1,4 @@
+import { clipDescription } from '@/lib/meta-text';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getLearningPath, learningPaths } from '@/data/learning-paths';
@@ -26,8 +27,8 @@ export function generateMetadata({ params }: PageProps): Metadata {
   }
 
   return {
-    title: `${course.title} (${course.titleSanskrit}) — Learning Hub`,
-    description: course.learningObjective,
+    title: `${course.title} — Learning Hub`,
+    description: clipDescription(course.learningObjective),
     alternates: {
       canonical: `/learn/${course.id}`,
     },

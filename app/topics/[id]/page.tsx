@@ -25,7 +25,7 @@ export function generateMetadata({ params }: { params: { id: string } }): Metada
   if (!topic) return { title: 'Topic Not Found — Dharma Granth' };
 
   return {
-    title: `${topic.title} — Dharma Granth`,
+    title: topic.title,
     description: topic.shortDesc,
     alternates: { canonical: `/topics/${topic.id}` },
     openGraph: {

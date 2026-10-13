@@ -1,3 +1,4 @@
+import { clipDescription } from '@/lib/meta-text';
 import { getLibraryFacts } from '@/lib/library-server';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
@@ -29,7 +30,9 @@ export function generateMetadata({
   }
 
   const title = `${topic.titleEn} (${topic.titleHi}) — Wisdom for Life`;
-  const description = `${topic.shortDescEn} Explore original Sanskrit verses, literal translations, and traditional context from the Gita and Upanishads.`;
+  const description = clipDescription(
+    `${topic.shortDescEn} Original Sanskrit verses, translations and context from the Gita and Upanishads.`,
+  );
 
   return {
     title,

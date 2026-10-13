@@ -3,7 +3,7 @@ import { JsonLd } from '@/app/components/JsonLd';
 import { READING_PLANS } from '@/data/reading-plans';
 import { pageLd, readingListLd } from '@/lib/jsonld';
 
-const TITLE = 'Scripture Reading Plans · स्वाध्याय योजनाएँ | Dharma Granth';
+const TITLE = 'Scripture Reading Plans · स्वाध्याय योजनाएँ';
 const DESCRIPTION =
   'Calm, structured, non-punitive scripture reading schedules. Explore the 18-Day Bhagavad Gita Immersion and 7-Day Sanatana Foundation at your own natural pace.';
 

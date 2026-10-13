@@ -17,7 +17,7 @@ import { DEFAULT_OG_IMAGE } from '@/lib/og';
 export const metadata: Metadata = {
   title: 'Dharmic Life Guidance — जीवन की हर चुनौती के लिए शास्त्रीय समाधान',
   description:
-    'Find timeless wisdom and exact Sanskrit verses from the Bhagavad Gita and Upanishads for everyday dilemmas — stress, anger, anxiety, grief, duty, relationships, and focus.',
+    'Exact Sanskrit verses from the Bhagavad Gita and Upanishads for everyday dilemmas: stress, anger, anxiety, grief, duty, relationships and focus.',
   alternates: { canonical: '/guidance' },
   openGraph: {
     images: [DEFAULT_OG_IMAGE],
