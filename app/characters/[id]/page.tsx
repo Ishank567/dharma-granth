@@ -15,6 +15,7 @@ import {
 } from 'lucide-react';
 import { FadeUp, FadeUpOnView } from '@/app/components/motion/primitives';
 import { characters, getCharacter, type Character } from '@/data/characters';
+import { ShareChips } from '@/app/components/ShareChips';
 
 export function generateStaticParams() {
   return characters.map((c) => ({ id: c.id }));
@@ -89,6 +90,7 @@ export default function CharacterPage({ params }: { params: { id: string } }) {
             <p className="text-lg opacity-90 max-w-2xl leading-relaxed">
               {character.shortDesc}
             </p>
+            <ShareChips tone="dark" className="mt-5" title={character.name} summary={character.shortDesc} path={`/characters/${character.id}`} />
           </FadeUp>
         </div>
       </section>

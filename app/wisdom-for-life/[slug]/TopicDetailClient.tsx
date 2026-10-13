@@ -30,6 +30,7 @@ import { libraryLocation, wisdomVerseHref } from '@/lib/wisdom-links';
 import { TopicIllustration } from '../TopicIllustrations';
 import { FadeUp, FadeUpOnView } from '@/app/components/motion/primitives';
 import { ShareVerseButton } from '@/app/components/ShareVerseButton';
+import { ShareChips } from '@/app/components/ShareChips';
 
 export function TopicDetailClient({
   topic,
@@ -108,6 +109,13 @@ export function TopicDetailClient({
                 <p className="text-base sm:text-lg text-white/90 leading-relaxed max-w-2xl font-light">
                   {topic.shortDescEn}
                 </p>
+                <ShareChips
+                  tone="dark"
+                  className="mt-5 justify-center md:justify-start"
+                  title={`${topic.titleEn} (${topic.titleHi})`}
+                  summary={topic.shortDescEn}
+                  path={`/wisdom-for-life/${topic.slug}`}
+                />
               </div>
 
               {/* Serene Bespoke Illustration Card */}

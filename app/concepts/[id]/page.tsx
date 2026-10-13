@@ -23,6 +23,7 @@ import {
 } from 'lucide-react';
 import { ConceptRelations } from '../ConceptRelations';
 import { SaveConceptButton } from '../SaveConceptButton';
+import { ShareChips } from '@/app/components/ShareChips';
 
 interface PageProps {
   params: Promise<{ id: string }> | { id: string };
@@ -151,6 +152,11 @@ export default async function ConceptDetailPage({ params }: PageProps) {
               reference={concept.label}
               concept={{ term: concept.sanskrit, transliteration: concept.transliteration, definition: concept.simpleDefinition.en }}
               url={`${process.env.NEXT_PUBLIC_SITE_URL || 'https://dharmagranth.in'}/concepts/${concept.id}`}
+            />
+            <ShareChips
+              title={`${concept.label} (${concept.sanskrit})`}
+              summary={concept.simpleDefinition.en}
+              path={`/concepts/${concept.id}`}
             />
           </div>
         </div>

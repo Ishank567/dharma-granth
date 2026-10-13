@@ -15,6 +15,7 @@ import {
 import { FadeUp, FadeUpOnView } from '@/app/components/motion/primitives';
 import { topics, getTopic, type Topic } from '@/data/topics';
 import { readHref } from '@/lib/verse-paths';
+import { ShareChips } from '@/app/components/ShareChips';
 
 export function generateStaticParams() {
   return topics.map((t) => ({ id: t.id }));
@@ -87,6 +88,7 @@ export default function TopicPage({ params }: { params: { id: string } }) {
             <p className="text-lg opacity-90 max-w-2xl leading-relaxed">
               {topic.description}
             </p>
+            <ShareChips tone="dark" className="mt-5" title={topic.title} summary={topic.shortDesc} path={`/topics/${topic.id}`} />
           </FadeUp>
         </div>
       </section>
