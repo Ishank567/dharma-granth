@@ -15,6 +15,7 @@ import {
 } from 'lucide-react';
 import { FadeUp, FadeUpOnView } from '@/app/components/motion/primitives';
 import { dictionary, getTerm, termCategories, type DictionaryTerm } from '@/data/dictionary';
+import { ShareChips } from '@/app/components/ShareChips';
 
 export function generateStaticParams() {
   return dictionary.map((t) => ({ id: t.id }));
@@ -91,6 +92,7 @@ export default function TermPage({ params }: { params: { id: string } }) {
             <p className="text-lg opacity-90 max-w-2xl leading-relaxed">
               {term.shortDef}
             </p>
+            <ShareChips tone="dark" className="mt-5" title={`${term.term} (${term.sanskrit})`} summary={term.shortDef} path={`/dictionary/${term.id}`} />
           </FadeUp>
         </div>
       </section>
