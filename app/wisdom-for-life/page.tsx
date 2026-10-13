@@ -8,7 +8,7 @@ import { Compass, BookOpen, Heart, Sparkles } from 'lucide-react';
 export const metadata: Metadata = {
   title: 'Wisdom for Life — जीवन के लिए शास्त्रीय मार्गदर्शन',
   description:
-    'Discover relevant scriptural teachings from the Bhagavad Gita, Upanishads, and sacred texts for everyday life challenges — stress, fear, anger, decision-making, grief, discipline, and purpose.',
+    'Scriptural teachings from the Gita and Upanishads for everyday challenges: stress, fear, anger, decisions, grief, discipline and purpose.',
   alternates: { canonical: '/wisdom-for-life' },
   openGraph: {
     images: [DEFAULT_OG_IMAGE],

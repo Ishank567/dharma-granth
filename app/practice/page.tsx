@@ -5,7 +5,7 @@ import { PracticeDashboard } from './PracticeDashboard';
 export const metadata: Metadata = {
   title: 'साधना — Daily Practice',
   description:
-    'A private daily practice dashboard: daily verse, reflection prompts, reading plans, japa counter, meditation timer, festival reminders, and saṅkalpa and gratitude journals. Everything stays on your device.',
+    'A private daily practice dashboard: daily verse, reflection prompts, reading plans, japa counter, meditation timer and journals. Stays on your device.',
   alternates: { canonical: '/practice' },
   openGraph: {
     images: [DEFAULT_OG_IMAGE],

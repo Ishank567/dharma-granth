@@ -1,3 +1,4 @@
+import { clipDescription } from '@/lib/meta-text';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { ChapterVisitRecorder } from '@/app/components/ChapterVisitRecorder';
@@ -112,9 +113,10 @@ export function generateMetadata({ params }: PageProps): Metadata {
   const ref = `${meta.title} ${chapterId}.${params.verseId}`;
   const words = opening(found.verse.sanskrit);
   const title = `${ref}${words ? ` — ${words}` : ''} — Meaning in Hindi & English (हिंदी अर्थ)`;
-  const description =
+  const description = clipDescription(
     [plain(found.verse.hindi, 85), plain(found.verse.translation, 85)].filter(Boolean).join(' · ') ||
-    `${ref}: Sanskrit text with Hindi and English meaning.`;
+      `${ref}: Sanskrit text with Hindi and English meaning.`,
+  );
   const canonical = versePageHref(meta.id, chapterId, params.verseId);
   const image = verseOgPath(meta.id, chapterId, params.verseId) ?? `/og/${meta.id}.png`;
 

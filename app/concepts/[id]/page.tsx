@@ -1,3 +1,4 @@
+import { clipDescription } from '@/lib/meta-text';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -39,15 +40,15 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     return { title: 'अवधारणा नहीं मिली (Concept Not Found) — Dharma Granth' };
   }
 
-  const title = `${concept.label} (${concept.sanskrit}) — शास्त्रीय अर्थ व दर्शन | Dharma Granth`;
-  const description = `${concept.simpleDefinition.en} — ${concept.simpleDefinition.hi}`;
+  const title = `${concept.label} (${concept.sanskrit}) — शास्त्रीय अर्थ व दर्शन`;
+  const description = clipDescription(concept.simpleDefinition.en);
 
   return {
     title,
     description,
     alternates: { canonical: `/concepts/${concept.id}` },
     openGraph: {
-      title,
+      title: `${title} — Dharma Granth`,
       description,
       url: `https://dharmagranth.in/concepts/${concept.id}`,
       images: [DEFAULT_OG_IMAGE],

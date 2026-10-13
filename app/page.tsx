@@ -14,7 +14,7 @@ import { formatCountDevanagari } from '@/lib/holdings-label';
 import { SiteFooter } from '@/app/components/SiteFooter';
 
 export const metadata: Metadata = {
-  title: 'Dharma Granth — Calm, Bilingual Digital Scripture Library',
+  title: { absolute: 'Dharma Granth — Calm, Bilingual Digital Scripture Library' },
   description:
     'A tranquil, ad-free library of Hindu scriptures. Sanskrit, Hindi, and English appear where the published text includes them.',
   alternates: { canonical: '/' },
