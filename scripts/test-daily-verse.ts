@@ -8,6 +8,8 @@ assert.equal(new Set(pool.map((v) => v.reference)).size, pool.length, 'no verse 
 for (const v of pool) {
   assert.ok(v.sanskrit && v.hindi && v.english, `${v.reference} has Sanskrit, Hindi and English`);
   assert.ok(v.href.startsWith('/scripture/'), `${v.reference} links into the library`);
+  assert.ok(!/[A-Za-z]/.test(v.sanskrit), `${v.reference}: Latin letters inside the Sanskrit text`);
+  assert.ok(!/[A-Za-z]/.test(v.hindi), `${v.reference}: Latin letters inside the Hindi text`);
 }
 
 // Day numbers are calendar days, independent of the clock time.
