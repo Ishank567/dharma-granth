@@ -14,6 +14,7 @@ import {
 } from 'lucide-react';
 import { FadeUp, FadeUpOnView } from '@/app/components/motion/primitives';
 import { topics, getTopic, type Topic } from '@/data/topics';
+import { clipDescription } from '@/lib/meta-text';
 import { readHref } from '@/lib/verse-paths';
 import { ShareChips } from '@/app/components/ShareChips';
 
@@ -25,14 +26,16 @@ export function generateMetadata({ params }: { params: { id: string } }): Metada
   const topic = getTopic(params.id);
   if (!topic) return { title: 'Topic Not Found — Dharma Granth' };
 
+  const description = clipDescription(`${topic.shortDesc} Key verses, teachings, practices and reflections.`);
+
   return {
     title: topic.title,
-    description: topic.shortDesc,
+    description,
     alternates: { canonical: `/topics/${topic.id}` },
     openGraph: {
       images: [DEFAULT_OG_IMAGE],
       title: `${topic.title} — Dharma Granth`,
-      description: topic.shortDesc,
+      description,
       url: `https://dharmagranth.in/topics/${topic.id}`,
     },
   };

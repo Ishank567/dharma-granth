@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { READING_JOURNEYS, getJourney } from '@/data/reading-journeys';
 import { readSeededChapter } from '@/lib/read-seeded-chapters';
 import { getScriptureMeta } from '@/data/scriptures';
+import { clipDescription } from '@/lib/meta-text';
 import { JourneyClient, type LessonView } from './JourneyClient';
 
 interface PageProps {
@@ -13,10 +14,16 @@ export function generateStaticParams() {
   return READING_JOURNEYS.map((j) => ({ id: j.id }));
 }
 
+/** Short objectives make thin search snippets, so add what each lesson contains. */
+function journeyDescription(objective: string, minutesPerLesson: number): string {
+  if (Array.from(objective).length >= 100) return objective;
+  return clipDescription(`${objective} About ${minutesPerLesson} minutes a lesson, with context, explanation and reflection.`);
+}
+
 export function generateMetadata({ params }: PageProps): Metadata {
   const j = getJourney(params.id);
   return j
-    ? { title: `${j.title} · ${j.titleHi}`, description: j.objective, alternates: { canonical: `/journeys/${j.id}` } }
+    ? { title: `${j.title} · ${j.titleHi}`, description: journeyDescription(j.objective, j.minutesPerLesson), alternates: { canonical: `/journeys/${j.id}` } }
     : { title: 'Journey not found' };
 }
 
