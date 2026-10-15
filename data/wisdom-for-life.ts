@@ -548,7 +548,7 @@ export const wisdomTopics: WisdomTopic[] = [
         verseNumber: 22,
         referenceDisplay: 'Bhagavad Gita 2.22',
         referenceDisplayHi: 'भगवद्गीता २.२२',
-        sanskritDevanagari: 'वासांसि जीर्णानि यथा विहाय\nनवानि गृह्णाति नरोऽपराणि ।\nतथा शरीराणि विहाय जीर्project\nन्यान्यन्यानि संयाति नवानि देही ॥',
+        sanskritDevanagari: 'वासांसि जीर्णानि यथा विहाय\nनवानि गृह्णाति नरोऽपराणि ।\nतथा शरीराणि विहाय जीर्णा\nन्यन्यानि संयाति नवानि देही ॥',
         sanskritTransliteration: "vāsāṁsi jīrṇāni yathā vihāya\nnavāni gṛhṇāti naro'parāṇi |\ntathā śarīrāṇi vihāya jīrṇā-\nnyanyāni saṁyāti navāni dehī ||",
         literalTranslationHi: 'जैसे मनुष्य पुराने फटे हुए वस्त्रों को त्यागकर दूसरे नए वस्त्र धारण कर लेता है, वैसे ही यह जीवात्मा पुराने शरीरों को छोड़कर नए शरीरों को प्राप्त करती है।',
         literalTranslationEn: 'Just as a person discards worn-out garments and puts on new ones, likewise the embodied Self casts off worn-out bodies and enters into others that are new.',

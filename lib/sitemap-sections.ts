@@ -76,6 +76,7 @@ function pagesSection(): MetadataRoute.Sitemap {
     entry('/collections', pageDate('/collections')),
     entry('/start-here', pageDate('/start-here')),
     entry('/daily', pageDate('/daily')),
+    entry('/daily-verse', pageDate('/daily-verse', 'data/wisdom-for-life.ts')),
     entry('/methodology', pageDate('/methodology')),
     entry('/sources', pageDate('/sources')),
     entry('/concepts/relationships', pageDate('/concepts/relationships')),

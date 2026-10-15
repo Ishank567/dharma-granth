@@ -111,6 +111,9 @@ export function SiteFooter() {
               <Link href="/topics" className="transition hover:text-saffron-700">
                 जीवन स्थितियाँ (Life Situations)
               </Link>
+              <Link href="/daily-verse" className="transition hover:text-saffron-700">
+                दैनिक श्लोक (Daily Verse for WhatsApp)
+              </Link>
               <Link href="/learn/paths" className="transition hover:text-saffron-700">
                 स्वाध्याय मार्ग (Guided Paths)
               </Link>
