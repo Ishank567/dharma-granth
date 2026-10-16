@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { BookOpen, Home, Search } from 'lucide-react';
 import type { Metadata } from 'next';
 
@@ -29,27 +28,27 @@ export default function NotFound() {
           assembled yet. Step back to the library, or begin with the Bhagavad Gita.
         </p>
         <div className="flex flex-wrap justify-center gap-3">
-          <Link
+          <a
             href="/"
             className="inline-flex items-center gap-2 bg-saffron-600 text-white px-5 py-3 rounded-full font-semibold hover:bg-saffron-700 transition"
           >
             <Home className="w-4 h-4" />
             Home
-          </Link>
-          <Link
+          </a>
+          <a
             href="/scriptures"
             className="inline-flex items-center gap-2 bg-dharma-card border border-dharma-border text-dharma-text px-5 py-3 rounded-full font-semibold hover:bg-dharma-bg transition"
           >
             <Search className="w-4 h-4" />
             Browse the Library
-          </Link>
-          <Link
+          </a>
+          <a
             href="/scripture/bhagavadgita"
             className="inline-flex items-center gap-2 bg-dharma-card border border-dharma-border text-dharma-text px-5 py-3 rounded-full font-semibold hover:bg-dharma-bg transition"
           >
             <BookOpen className="w-4 h-4" />
             Read the Gita
-          </Link>
+          </a>
         </div>
       </div>
     </main>

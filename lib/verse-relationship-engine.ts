@@ -1,7 +1,14 @@
+import { SCRIPTURE_ALIASES } from '@/data/scripture-aliases';
+import { SCRIPTURE_NAMES } from '@/data/scripture-names';
 import { CONNECTIONS, CONNECTION_LABEL, verseKey, type ConnectionKind } from '@/data/study-content';
-import { getScriptureMeta } from '@/data/scriptures';
 import { getVerseIntegrations } from '@/lib/verse-integrations';
 import { readHref } from '@/lib/verse-paths';
+
+/** Titles only. The verse graph runs in the browser, so it cannot import data/scriptures. */
+function scriptureTitle(id: string): { title: string; titleSanskrit?: string } | undefined {
+  const canonical = SCRIPTURE_ALIASES[id] ?? id;
+  return SCRIPTURE_NAMES[canonical] ?? SCRIPTURE_NAMES[id];
+}
 
 export type RelationshipType =
   | 'supporting'
@@ -478,7 +485,7 @@ export function buildVerseGraphData(
     explanation?: string;
   },
 ): VerseGraphData {
-  const meta = getScriptureMeta(scriptureId);
+  const meta = scriptureTitle(scriptureId);
   const vKey = verseKey(scriptureId, chapterId, verseId);
   const ref = `${meta?.title || scriptureId} ${chapterId}.${verseId}`;
   const centralId = `verse:${scriptureId}:${chapterId}:${verseId}`;
@@ -509,7 +516,7 @@ export function buildVerseGraphData(
   // ── 1. Canonical Cross-Scripture Echoes (Gita ↔ Upanishads ↔ Vedas ↔ Epics) ───
   const canonicalEchoes = CANONICAL_CROSS_ECHOS[vKey] || [];
   canonicalEchoes.forEach((echo) => {
-    const targetMeta = getScriptureMeta(echo.targetScriptureId);
+    const targetMeta = scriptureTitle(echo.targetScriptureId);
     const href = readHref(echo.targetScriptureId, echo.targetChapter, echo.targetVerse);
     const nodeId = `echo:${echo.targetScriptureId}:${echo.targetChapter}:${echo.targetVerse}`;
 
@@ -619,7 +626,7 @@ export function buildVerseGraphData(
   // Connect cross-scriptural parallel verses from concepts
   integrations.crossReferences.slice(0, 2).forEach((xref) => {
     if (xref.scriptureId !== scriptureId) {
-      const targetMeta = getScriptureMeta(xref.scriptureId);
+      const targetMeta = scriptureTitle(xref.scriptureId);
       const xrefId = `xref:${xref.scriptureId}:${xref.chapterId}:${xref.verseId}`;
       addNode(
         {

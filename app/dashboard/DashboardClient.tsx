@@ -6,13 +6,12 @@ import Link from 'next/link';
 import { Flame, BookOpen, Bookmark, Award, ArrowRight, TrendingUp, FolderOpen, Highlighter, StickyNote } from 'lucide-react';
 import { useStudyProgress } from '@/lib/useStudyProgress';
 import { BackupRestore } from '@/app/components/BackupRestore';
-import { FadeUp, FadeUpOnView, Stagger, StaggerItem } from '@/app/components/motion/primitives';
 import { PATHWAY_SUMMARIES, TOTAL_QUIZZES_COUNT } from '@/data/pathways-meta';
 import type { VerseHighlight } from '@/lib/useStudyProgress';
 import { chapterVerseHref } from '@/lib/verse-paths';
 
 // Loaded after the dashboard shell so they stay out of the first-load script
-// budget (320 KB gzip). Backup restore stays in the shell; the smoke test
+// budget (300 KB gzip). Backup restore stays in the shell; the smoke test
 // clicks it as soon as the page opens.
 const DailyDharmaDashboard = dynamic(
   () => import('@/app/components/daily/DailyDharmaDashboard').then((m) => m.DailyDharmaDashboard),
@@ -30,10 +29,19 @@ const DailyPracticePreview = dynamic(
   () => import('@/app/components/DailyPracticePreview').then((m) => m.DailyPracticePreview),
   { ssr: false },
 );
+const SpiritualProgressCard = dynamic(
+  () => import('@/app/components/dashboard/SpiritualProgressCard').then((m) => m.SpiritualProgressCard),
+  { ssr: false },
+);
+const ScriptureCompletionCard = dynamic(
+  () => import('@/app/components/dashboard/ScriptureCompletionCard').then((m) => m.ScriptureCompletionCard),
+  { ssr: false },
+);
+const RecentActivityFeed = dynamic(
+  () => import('@/app/components/dashboard/RecentActivityFeed').then((m) => m.RecentActivityFeed),
+  { ssr: false },
+);
 
-import { SpiritualProgressCard } from '@/app/components/dashboard/SpiritualProgressCard';
-import { ScriptureCompletionCard } from '@/app/components/dashboard/ScriptureCompletionCard';
-import { RecentActivityFeed } from '@/app/components/dashboard/RecentActivityFeed';
 import { readRecentChapters, type ChapterVisit } from '@/lib/reading-history';
 import { readActivity } from '@/lib/activity-log';
 import type { UserSadhanaStats } from '@/lib/spiritual-levels';
@@ -75,7 +83,7 @@ export function DashboardClient({ titles }: { titles: Record<string, string> }) 
   const header = (
     <section className="bg-gradient-to-br from-saffron-900 via-saffron-800 to-amber-900 text-white py-14">
       <div className="max-w-6xl mx-auto px-6">
-        <FadeUp>
+        <div className="fade-up-in">
           <p className="text-xs font-semibold uppercase tracking-widest text-saffron-200 mb-2">
             Your Study Dashboard
           </p>
@@ -85,7 +93,7 @@ export function DashboardClient({ titles }: { titles: Record<string, string> }) 
           <p className="text-lg opacity-90 max-w-2xl">
             Continue your learning pathways and revisit your saved verses. Everything here stays in this browser.
           </p>
-        </FadeUp>
+        </div>
       </div>
     </section>
   );
@@ -163,7 +171,7 @@ export function DashboardClient({ titles }: { titles: Record<string, string> }) 
 
       <div className="max-w-6xl mx-auto px-6 py-6 space-y-10">
         {/* Stats Row */}
-        <FadeUpOnView>
+        <>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {/* Streak */}
             <div className="rounded-2xl bg-gradient-to-br from-orange-50 to-amber-50 border border-saffron-200 p-5 shadow-sm">
@@ -211,30 +219,30 @@ export function DashboardClient({ titles }: { titles: Record<string, string> }) 
               <p className="text-xs text-dharma-muted">personal reflections</p>
             </div>
           </div>
-        </FadeUpOnView>
+        </>
 
         {/* Spiritual Progress Levels (आत्मिक सोपान · Seed to Scholar) */}
-        <FadeUpOnView>
+        <>
           <SpiritualProgressCard stats={sadhanaStats} />
-        </FadeUpOnView>
+        </>
 
         {/* Scripture Mastery & Completion Overview */}
-        <FadeUpOnView>
+        <>
           <ScriptureCompletionCard
             totalVersesRead={sadhanaStats.versesReadCount}
             recentChapters={recentChapters}
           />
-        </FadeUpOnView>
+        </>
 
         {/* Recent Activity Feed (स्वाध्याय क्रम) */}
-        <FadeUpOnView>
+        <>
           <RecentActivityFeed
             recentChapters={recentChapters}
             notes={notes}
             highlights={highlights}
             titles={titles}
           />
-        </FadeUpOnView>
+        </>
 
         {/* Daily Verse */}
         <DailyVerse />
@@ -243,7 +251,7 @@ export function DashboardClient({ titles }: { titles: Record<string, string> }) 
         <PinterestWisdom />
 
         {/* Learning Pathways */}
-        <FadeUpOnView>
+        <>
           <div className="flex items-center justify-between mb-5">
             <div>
               <h2 className="text-2xl font-serif font-bold text-dharma-text mb-1">
@@ -262,9 +270,9 @@ export function DashboardClient({ titles }: { titles: Record<string, string> }) 
             </Link>
           </div>
 
-          <Stagger className="grid md:grid-cols-2 gap-4">
+          <div className="grid md:grid-cols-2 gap-4">
             {pathwayStats.slice(0, 4).map((p) => (
-              <StaggerItem key={p.id}>
+              <div key={p.id} className="fade-up-in">
                 <Link
                   href="/learn/pathways"
                   className="block rounded-2xl border border-dharma-border bg-dharma-card p-5 hover:shadow-lg hover:border-saffron-300 transition group"
@@ -300,15 +308,15 @@ export function DashboardClient({ titles }: { titles: Record<string, string> }) 
                     <span className="font-semibold">{p.pct}%</span>
                   </div>
                 </Link>
-              </StaggerItem>
+              </div>
             ))}
-          </Stagger>
-        </FadeUpOnView>
+          </div>
+        </>
 
         {/* Quick Access Row */}
         <div className="grid md:grid-cols-3 gap-6">
           {/* Collections */}
-          <FadeUpOnView>
+          <>
             <Link href="/collections" className="block rounded-2xl border border-dharma-border bg-dharma-card p-6 hover:shadow-lg hover:border-saffron-300 transition group h-full">
               <div className="flex items-center gap-3 mb-3">
                 <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-saffron-100 to-amber-100 text-saffron-700 flex items-center justify-center">
@@ -325,10 +333,10 @@ export function DashboardClient({ titles }: { titles: Record<string, string> }) 
                 Organize your saved verses into thematic collections for easy reference and deeper study.
               </p>
             </Link>
-          </FadeUpOnView>
+          </>
 
           {/* Highlights */}
-          <FadeUpOnView>
+          <>
             <Link href="/collections" className="block rounded-2xl border border-dharma-border bg-dharma-card p-6 hover:shadow-lg hover:border-saffron-300 transition group h-full">
               <div className="flex items-center gap-3 mb-3">
                 <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-amber-100 to-yellow-100 text-amber-700 flex items-center justify-center">
@@ -345,10 +353,10 @@ export function DashboardClient({ titles }: { titles: Record<string, string> }) 
                 Color-code verses that resonate with you. Quickly find them across all scriptures.
               </p>
             </Link>
-          </FadeUpOnView>
+          </>
 
           {/* Quizzes */}
-          <FadeUpOnView>
+          <>
             <Link href="/learn" className="block rounded-2xl border border-dharma-border bg-dharma-card p-6 hover:shadow-lg hover:border-saffron-300 transition group h-full">
               <div className="flex items-center gap-3 mb-3">
                 <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-100 to-purple-100 text-indigo-700 flex items-center justify-center">
@@ -365,13 +373,13 @@ export function DashboardClient({ titles }: { titles: Record<string, string> }) 
                 Test your knowledge with interactive quizzes on the Gita, Upanishads, Dharma, and Yoga.
               </p>
             </Link>
-          </FadeUpOnView>
+          </>
         </div>
 
         {/* Daily Sadhana Practice Preview */}
-        <FadeUpOnView>
+        <>
           <DailyPracticePreview />
-        </FadeUpOnView>
+        </>
 
         <BackupRestore />
       </div>

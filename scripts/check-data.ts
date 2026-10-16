@@ -20,6 +20,7 @@
 import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { resolve } from "node:path";
 import { scriptureCatalog } from "../data/scripture-meta";
+import { SCRIPTURE_NAMES } from "../data/scripture-names";
 import {
   getAllScriptures,
   getScripture,
@@ -451,6 +452,24 @@ function checkScriptureMeta(meta: ScriptureMeta): void {
   if (meta.totalChapters < 1) warn(meta.id, "totalChapters < 1");
 }
 
+function checkScriptureNames(): void {
+  const catalogIds = new Set(scriptureCatalog.map((meta) => meta.id));
+  for (const meta of scriptureCatalog) {
+    const name = SCRIPTURE_NAMES[meta.id];
+    if (!name) {
+      error(meta.id, "missing from data/scripture-names.ts");
+      continue;
+    }
+    if (name.title !== meta.title) error(meta.id, "scripture-names title does not match the catalog");
+    if (name.titleSanskrit !== meta.titleSanskrit) {
+      error(meta.id, "scripture-names Sanskrit title does not match the catalog");
+    }
+  }
+  for (const id of Object.keys(SCRIPTURE_NAMES)) {
+    if (!catalogIds.has(id)) error(id, "scripture-names entry is not in the catalog");
+  }
+}
+
 function main(): void {
   for (const meta of scriptureCatalog) {
     checkScriptureMeta(meta);
@@ -461,6 +480,7 @@ function main(): void {
     checkRequiredFields(scripture);
   }
   checkCatalogAlignment();
+  checkScriptureNames();
   checkOgImages();
   checkSeededJsonAlignment();
   checkScriptureReferences();
