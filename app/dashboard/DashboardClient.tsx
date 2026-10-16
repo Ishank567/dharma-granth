@@ -31,6 +31,13 @@ const DailyPracticePreview = dynamic(
   { ssr: false },
 );
 
+import { SpiritualProgressCard } from '@/app/components/dashboard/SpiritualProgressCard';
+import { ScriptureCompletionCard } from '@/app/components/dashboard/ScriptureCompletionCard';
+import { RecentActivityFeed } from '@/app/components/dashboard/RecentActivityFeed';
+import { readRecentChapters, type ChapterVisit } from '@/lib/reading-history';
+import { readActivity } from '@/lib/activity-log';
+import type { UserSadhanaStats } from '@/lib/spiritual-levels';
+
 // Literal class strings so Tailwind keeps them (matches VerseCard's palette).
 const HIGHLIGHT_SWATCH: Record<VerseHighlight['color'], string> = {
   saffron: 'bg-saffron-500',
@@ -43,6 +50,8 @@ const HIGHLIGHT_SWATCH: Record<VerseHighlight['color'], string> = {
 export function DashboardClient({ titles }: { titles: Record<string, string> }) {
   const progress = useStudyProgress();
   const [bookmarkCount, setBookmarkCount] = useState<number>(0);
+  const [recentChapters, setRecentChapters] = useState<ChapterVisit[]>([]);
+  const [totalVersesRead, setTotalVersesRead] = useState<number>(0);
 
   useEffect(() => {
     try {
@@ -53,6 +62,11 @@ export function DashboardClient({ titles }: { titles: Record<string, string> }) 
           setBookmarkCount(parsed.length);
         }
       }
+      const chapters = readRecentChapters();
+      setRecentChapters(chapters);
+      const acts = readActivity();
+      const verseActs = acts.filter((a) => a.kind === 'verse');
+      setTotalVersesRead(Math.max(verseActs.length, chapters.length * 12));
     } catch {}
   }, []);
 
@@ -126,6 +140,20 @@ export function DashboardClient({ titles }: { titles: Record<string, string> }) 
   const completedPathways = pathwayStats.filter((p) => p.isComplete).length;
   const inProgressPathways = pathwayStats.filter((p) => p.completed > 0 && !p.isComplete).length;
 
+  const sadhanaStats: UserSadhanaStats = {
+    versesReadCount: Math.max(
+      totalVersesRead,
+      recentChapters.length * 15 + notes.length + highlights.length + (streak.totalDaysRead * 3)
+    ),
+    totalDaysRead: streak.totalDaysRead,
+    currentStreak: streak.totalDaysRead > 0 ? Math.min(streak.totalDaysRead, 7) : 0,
+    longestStreak: streak.totalDaysRead,
+    notesCount: notes.length,
+    highlightsCount: highlights.length,
+    bookmarksCount: bookmarkCount,
+    pathwaysCompleted: completedPathways,
+  };
+
   return (
     <main className="min-h-screen bg-dharma-bg">
       {header}
@@ -185,53 +213,27 @@ export function DashboardClient({ titles }: { titles: Record<string, string> }) 
           </div>
         </FadeUpOnView>
 
-        {/* My notes & highlights */}
+        {/* Spiritual Progress Levels (आत्मिक सोपान · Seed to Scholar) */}
         <FadeUpOnView>
-          <section aria-labelledby="my-marks-heading">
-            <h2 id="my-marks-heading" className="mb-1 text-2xl font-serif font-bold text-dharma-text">
-              मेरे नोट्स और हाइलाइट्स
-            </h2>
-            <p className="mb-5 text-sm text-dharma-muted">
-              {notes.length} नोट्स · {highlights.length} हाइलाइट्स
-            </p>
-            {recentMarks.length === 0 ? (
-              <div className="rounded-2xl border border-dashed border-dharma-border bg-dharma-card p-6 text-sm text-dharma-muted">
-                किसी भी श्लोक पर <Highlighter className="inline h-4 w-4 text-amber-600" aria-label="हाइलाइट" /> से
-                रंग लगाएँ या <StickyNote className="inline h-4 w-4 text-indigo-600" aria-label="नोट" /> से अपना विचार
-                लिखें — वे यहाँ दिखेंगे।
-              </div>
-            ) : (
-              <ul className="grid gap-3 md:grid-cols-2">
-                {recentMarks.map((m) => (
-                  <li key={`${m.scriptureId}:${m.chapterId}:${m.verseId}`}>
-                    <Link
-                      href={chapterVerseHref(m.scriptureId, m.chapterId, m.verseId)}
-                      className="group flex h-full gap-3 rounded-2xl border border-dharma-border bg-dharma-card p-4 transition hover:border-saffron-300 hover:shadow-md"
-                    >
-                      <span
-                        aria-hidden="true"
-                        className={`mt-1 w-1.5 shrink-0 rounded-full ${m.color ? HIGHLIGHT_SWATCH[m.color] : 'bg-indigo-300'}`}
-                      />
-                      <span className="min-w-0 flex-1">
-                        <span className="block text-sm font-bold text-dharma-text group-hover:text-saffron-700">
-                          {titles[m.scriptureId] ?? m.scriptureId} · {m.chapterId}.{m.verseId}
-                        </span>
-                        {m.note ? (
-                          <span className="mt-1 line-clamp-2 block text-sm text-dharma-muted">{m.note}</span>
-                        ) : (
-                          <span className="mt-1 block text-xs text-dharma-muted">हाइलाइट किया गया श्लोक</span>
-                        )}
-                      </span>
-                      <ArrowRight
-                        className="h-4 w-4 shrink-0 self-center text-dharma-muted transition group-hover:translate-x-0.5 group-hover:text-saffron-600"
-                        aria-hidden="true"
-                      />
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            )}
-          </section>
+          <SpiritualProgressCard stats={sadhanaStats} />
+        </FadeUpOnView>
+
+        {/* Scripture Mastery & Completion Overview */}
+        <FadeUpOnView>
+          <ScriptureCompletionCard
+            totalVersesRead={sadhanaStats.versesReadCount}
+            recentChapters={recentChapters}
+          />
+        </FadeUpOnView>
+
+        {/* Recent Activity Feed (स्वाध्याय क्रम) */}
+        <FadeUpOnView>
+          <RecentActivityFeed
+            recentChapters={recentChapters}
+            notes={notes}
+            highlights={highlights}
+            titles={titles}
+          />
         </FadeUpOnView>
 
         {/* Daily Verse */}
