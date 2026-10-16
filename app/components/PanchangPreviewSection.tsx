@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import {
   ArrowRight,
@@ -188,8 +188,11 @@ export function PanchangPreviewSection() {
     }
   }, [dateStr]);
 
-  const panchang = useMemo(() => {
-    return calculatePanchang(new Date());
+  // Computed after mount: the page is pre-rendered at build time, so a value from
+  // the build's clock would not match the reader's day and break hydration.
+  const [panchang, setPanchang] = useState<ReturnType<typeof calculatePanchang> | null>(null);
+  useEffect(() => {
+    setPanchang(calculatePanchang(new Date()));
   }, []);
 
   return (
@@ -279,10 +282,10 @@ export function PanchangPreviewSection() {
                 <span>Tithi (तिथि)</span>
               </div>
               <p className="mt-2 font-serif text-lg font-bold text-dharma-text">
-                {panchang.tithiName}
+                {panchang?.tithiName ?? '—'}
               </p>
               <p lang="hi" className="font-devanagari text-xs font-semibold text-saffron-700 dark:text-saffron-400">
-                {panchang.tithiNameHi} ({panchang.tithiNumber})
+                {panchang ? `${panchang.tithiNameHi} (${panchang.tithiNumber})` : '—'}
               </p>
             </div>
 
@@ -293,10 +296,10 @@ export function PanchangPreviewSection() {
                 <span>Paksha (पक्ष)</span>
               </div>
               <p className="mt-2 font-serif text-lg font-bold text-dharma-text">
-                {panchang.paksha}
+                {panchang?.paksha ?? '—'}
               </p>
               <p lang="hi" className="font-devanagari text-xs font-semibold text-saffron-700 dark:text-saffron-400">
-                {panchang.pakshaHi}
+                {panchang?.pakshaHi ?? '—'}
               </p>
             </div>
 
@@ -307,10 +310,10 @@ export function PanchangPreviewSection() {
                 <span>Nakshatra (नक्षत्र)</span>
               </div>
               <p className="mt-2 font-serif text-lg font-bold text-dharma-text">
-                {panchang.nakshatraName}
+                {panchang?.nakshatraName ?? '—'}
               </p>
               <p lang="hi" className="font-devanagari text-xs font-semibold text-saffron-700 dark:text-saffron-400">
-                {panchang.nakshatraNameHi}
+                {panchang?.nakshatraNameHi ?? '—'}
               </p>
             </div>
 
