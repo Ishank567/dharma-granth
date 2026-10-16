@@ -17,6 +17,21 @@ export const metadata: Metadata = {
   title: { absolute: 'Dharma Granth — Calm, Bilingual Digital Scripture Library' },
   description:
     'A tranquil, ad-free library of Hindu scriptures. Sanskrit, Hindi, and English appear where the published text includes them.',
+  keywords: [
+    'Bhagavad Gita',
+    'Bhagavad Gita in Hindi',
+    'भगवद्गीता हिन्दी अर्थ',
+    'Upanishads',
+    'उपनिषद',
+    'Vedas',
+    'वेद',
+    'Ramayana',
+    'Hindu scriptures online',
+    'Dharma Granth',
+    'Sanskrit verses with meaning',
+    'Panchang',
+    'सनातन धर्म',
+  ],
   alternates: { canonical: '/' },
 };
 

@@ -6,6 +6,8 @@ import { FadeUp } from '@/app/components/motion/primitives';
 import { festivals, type Festival } from '@/data/festivals';
 import { X, BookOpen, MapPin, Sparkles, Music, Utensils, Leaf, Clock, AlertCircle } from 'lucide-react';
 
+import Link from 'next/link';
+
 export default function FestivalsPage() {
   const reduce = useReducedMotion();
   const [selectedId, setSelectedId] = useState<string | null>(null);
@@ -22,11 +24,11 @@ export default function FestivalsPage() {
             <p className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-rose-200 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
               उत्सव ज्ञान केंद्र (Festival Knowledge Centre)
             </p>
-            <h1 className="text-5xl font-serif font-bold mb-4">
+            <h1 className="text-4xl sm:text-5xl font-serif font-bold mb-4">
               उत्सव ज्ञान केंद्र (Festival Knowledge Centre)
             </h1>
-            <p className="text-xl opacity-90 max-w-2xl">
-              {festivals.length} प्रमुख त्योहारों का विस्तृत ज्ञान — अर्थ, शास्त्रीय स्रोत, क्षेत्रीय परंपराएँ, संबंधित देवता, पारंपरिक अनुष्ठान, जप और प्रार्थना, भोजन परंपरा, पर्यावरणीय विचार, और शास्त्रीय बनाम सांस्कृतिक रिवाज़ों का भेद। कोई भी क्षेत्रीय प्रथा को सार्वभौमिक हिंदू प्रथा नहीं घोषित की गई है।
+            <p className="text-lg sm:text-xl opacity-90 max-w-2xl leading-relaxed">
+              {festivals.length} प्रमुख त्योहारों का विस्तृत ज्ञान — अर्थ, शास्त्रीय स्रोत, क्षेत्रीय परंपराएँ, संबंधित देवता, पारंपरिक अनुष्ठान, जप और प्रार्थना, भोजन परंपरा, पर्यावरणीय विचार, और शास्त्रीय बनाम सांस्कृतिक रिवाज़ों का भेद।
             </p>
           </FadeUp>
         </div>
@@ -36,30 +38,35 @@ export default function FestivalsPage() {
       <section className="max-w-6xl mx-auto px-6 -mt-8 relative z-10 pb-20">
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {festivals.map((festival, i) => (
-            <motion.button
+            <motion.div
               key={festival.id}
-              onClick={() => setSelectedId(festival.id)}
               initial={reduce ? { opacity: 0 } : { opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: i * 0.05 }}
-              className="group relative overflow-hidden rounded-2xl border border-dharma-border bg-dharma-card p-6 text-left hover:shadow-xl transition-all"
             >
-              <div className={`absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r ${festival.gradient}`} />
-              <div className="flex items-start gap-4 mb-3">
-                <div className={`w-14 h-14 rounded-2xl bg-gradient-to-br ${festival.gradient} flex items-center justify-center text-3xl shrink-0 shadow-md`}>
-                  {festival.icon}
+              <Link
+                href={`/festivals/${festival.id}/`}
+                className="group block relative overflow-hidden rounded-2xl border border-dharma-border bg-dharma-card p-6 text-left hover:shadow-xl transition-all h-full"
+              >
+                <div className={`absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r ${festival.gradient}`} />
+                <div className="flex items-start gap-4 mb-3">
+                  <div className={`w-14 h-14 rounded-2xl bg-gradient-to-br ${festival.gradient} flex items-center justify-center text-3xl shrink-0 shadow-md`}>
+                    {festival.icon}
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-lg font-serif font-bold text-dharma-text group-hover:text-saffron-700 transition">{festival.name}</h3>
+                    <p className="text-sm text-saffron-700 font-semibold">{festival.sanskrit}</p>
+                  </div>
                 </div>
-                <div className="flex-1 min-w-0">
-                  <h3 className="text-lg font-serif font-bold text-dharma-text group-hover:text-saffron-700 transition">{festival.name}</h3>
-                  <p className="text-sm text-saffron-700 font-semibold">{festival.sanskrit}</p>
+                <p className="text-sm text-dharma-muted leading-relaxed mb-4">{festival.shortDesc}</p>
+                <div className="flex items-center justify-between text-xs pt-2 border-t border-dharma-border/60">
+                  <span className="text-dharma-muted">{festival.category}</span>
+                  <span className="font-semibold text-saffron-700 group-hover:translate-x-1 transition-transform">
+                    पूरा विवरण व मंत्र देखें &rarr;
+                  </span>
                 </div>
-              </div>
-              <p className="text-sm text-dharma-muted leading-relaxed mb-3">{festival.shortDesc}</p>
-              <div className="flex items-center justify-between text-xs">
-                <span className="text-dharma-muted">{festival.category}</span>
-                <span className="font-semibold text-saffron-700 group-hover:translate-x-1 transition-transform">विवरण देखें →</span>
-              </div>
-            </motion.button>
+              </Link>
+            </motion.div>
           ))}
         </div>
       </section>

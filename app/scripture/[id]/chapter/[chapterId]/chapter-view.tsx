@@ -136,7 +136,8 @@ export function chapterMetadata(params: ChapterParams, partNumber = 1): Metadata
     : `${meta.titleSanskrit} (${meta.title}) अध्याय ${chapter.id}` +
       (chapter.verseCount > 0 ? ` के ${chapter.verseCount} श्लोक` : '') +
       ' — संस्कृत मूल, हिंदी अर्थ और English translation।';
-  const canonical = chapterPartHref(meta.id, chapter.id, part?.part ?? 1);
+  const rawHref = chapterPartHref(meta.id, chapter.id, part?.part ?? 1);
+  const canonical = rawHref.endsWith('/') ? rawHref : `${rawHref}/`;
   const room = 158 - lead.length - 1;
   const description =
     opening && room > 30 ? `${lead} ${opening.length > room ? `${opening.slice(0, room - 1).trimEnd()}…` : opening}` : lead;

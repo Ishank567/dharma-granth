@@ -30,7 +30,7 @@ export function generateMetadata({ params }: PageProps): Metadata {
     title: `${course.title} — Learning Hub`,
     description: clipDescription(course.learningObjective),
     alternates: {
-      canonical: `/learn/${course.id}`,
+      canonical: `/learn/${course.id}/`,
     },
   };
 }

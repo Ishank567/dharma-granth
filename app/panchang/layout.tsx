@@ -2,16 +2,27 @@ import type { Metadata } from 'next';
 import { DEFAULT_OG_IMAGE } from '@/lib/og';
 
 export const metadata: Metadata = {
-  title: 'पञ्चाङ्ग · Educational Vedic Calendar',
+  title: 'पञ्चाङ्ग · आज का पंचांग व दैनिक काल दर्शन (Vedic Panchang)',
   description:
-    'A clear educational Panchang calendar for contemplative study: Tithi, Paksha, Nakshatra, Yoga, Karana, Ritu, and approximate sunrise and sunset times.',
-  alternates: { canonical: '/panchang' },
+    'दैनिक पञ्चाङ्ग: तिथि, पक्ष, नक्षत्र, योग, करण, ऋतु, सूर्योदय और सूर्यास्त समय। A clear, authentic educational Panchang for daily contemplation and study.',
+  keywords: [
+    'आज का पंचांग',
+    'पंचांग',
+    'Panchang',
+    'Today Panchang',
+    'Vedic Calendar',
+    'तिथि',
+    'नक्षत्र',
+    'शुभ मुहूर्त',
+    'Dharma Granth Panchang',
+  ],
+  alternates: { canonical: '/panchang/' },
   openGraph: {
     images: [DEFAULT_OG_IMAGE],
-    title: 'पञ्चाङ्ग · Educational Vedic Calendar — Dharma Granth',
+    title: 'पञ्चाङ्ग · आज का पंचांग व दैनिक काल दर्शन (Vedic Panchang) — Dharma Granth',
     description:
-      'A clear educational Panchang calendar for contemplative study: Tithi, Paksha, Nakshatra, Yoga, Karana, Ritu, and approximate sunrise and sunset times.',
-    url: 'https://dharmagranth.in/panchang',
+      'दैनिक पञ्चाङ्ग: तिथि, पक्ष, नक्षत्र, योग, करण, ऋतु, सूर्योदय और सूर्यास्त समय। A clear, authentic educational Panchang for daily contemplation and study.',
+    url: 'https://dharmagranth.in/panchang/',
   },
 };
 

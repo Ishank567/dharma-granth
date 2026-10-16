@@ -11,6 +11,7 @@ import { dictionary } from '@/data/dictionary';
 import { getAllConceptDetails } from '@/data/concept-details';
 import { learningPaths } from '@/data/learning-paths';
 import { READING_JOURNEYS } from '@/data/reading-journeys';
+import { festivals } from '@/data/festivals';
 import { buildWordIndex } from '@/lib/ashtavakra-words';
 import { getChapterData, publishedChapterNumbers, verseHref } from '@/lib/ashtavakra';
 
@@ -116,7 +117,10 @@ function pagesSection(): MetadataRoute.Sitemap {
   const wordDate = lastChanged('app/ashtavakra/words/[letter]/page.tsx', 'lib/ashtavakra-words.ts');
   const wordRoutes = buildWordIndex().groups.map((g) => entry(`/ashtavakra/words/${encodeURIComponent(g.letter)}`, wordDate));
 
-  return [...staticRoutes, ...conceptRoutes, ...courseRoutes, ...journeyRoutes, ...ashtavakraRoutes, ...wordRoutes, ...wisdomRoutes, ...topicRoutes, ...characterRoutes, ...dictionaryRoutes];
+  const festivalDate = lastChanged('data/festivals.ts', 'app/festivals/[id]/page.tsx');
+  const festivalRoutes = festivals.map((f) => entry(`/festivals/${f.id}`, festivalDate));
+
+  return [...staticRoutes, ...conceptRoutes, ...courseRoutes, ...journeyRoutes, ...festivalRoutes, ...ashtavakraRoutes, ...wordRoutes, ...wisdomRoutes, ...topicRoutes, ...characterRoutes, ...dictionaryRoutes];
 }
 
 /** Scripture landing pages and chapter pages (all seeded + curated chapters), dated by when the scripture's text or commentary last changed. */

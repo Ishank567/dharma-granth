@@ -31,12 +31,12 @@ export function generateMetadata({ params }: { params: { id: string } }): Metada
   return {
     title: topic.title,
     description,
-    alternates: { canonical: `/topics/${topic.id}` },
+    alternates: { canonical: `/topics/${topic.id}/` },
     openGraph: {
       images: [DEFAULT_OG_IMAGE],
       title: `${topic.title} — Dharma Granth`,
       description,
-      url: `https://dharmagranth.in/topics/${topic.id}`,
+      url: `https://dharmagranth.in/topics/${topic.id}/`,
     },
   };
 }
