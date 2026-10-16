@@ -3896,7 +3896,7 @@ export const bhagavadGita: Scripture = {
         {
           id: 33,
           sanskrit: "अक्षराणामकारोऽस्मि द्वन्द्वः सामासिकस्य च।\n\nअहमेवाक्षयः कालो धाताऽहं विश्वतोमुखः।।10.33।।\n ",
-          transliteration: "अहमेवाक्षय: कालो धाताहं विश्वतोमुख: || 33||\n\nakṣharāṇām a-kāro ’smi dvandvaḥ sāmāsikasya cha\naham evākṣhayaḥ kālo dhātāhaṁ viśhvato-mukhaḥ\n",
+          transliteration: "अहमेवाक्षय: कालो धाताहं विश्वतोमुख: ॥ 33॥\n\nakṣharāṇām a-kāro ’smi dvandvaḥ sāmāsikasya cha\naham evākṣhayaḥ kālo dhātāhaṁ viśhvato-mukhaḥ\n",
           translation: "Of letters, I am the alphabet 'A'; of compound words, I am the dvandva (copulative); I am myself imperishable time; I am the creator, facing all sides.",
           hindi: "अक्षरोंमें अकार और समासोंमें द्वन्द्व समास मैं हूँ। अक्षयकाल अर्थात् कालका भी महाकाल तथा सब ओर मुखवाला धाता भी मैं हूँ।",
           explanation: "",
@@ -4162,7 +4162,7 @@ export const bhagavadGita: Scripture = {
         {
           id: 19,
           sanskrit: "अनादिमध्यान्तमनन्तवीर्य\n\nमनन्तबाहुं शशिसूर्यनेत्रम्।\n\nपश्यामि त्वां दीप्तहुताशवक्त्रम्\n\nस्वतेजसा विश्वमिदं तपन्तम्।।11.19।।\n ",
-          transliteration: "स्वतेजसा विश्वमिदं तपन्तम् || 19||\n",
+          transliteration: "स्वतेजसा विश्वमिदं तपन्तम् ॥ 19॥\n",
           translation: "I behold You as having no beginning, middle, or end; Your might is infinite. You are endowed with an innumerable number of arms. The sun and moon are Your eyes, and Your mouth emits burning fire. With Your own radiance, You are warning the entire universe.",
           hindi: "आपको मैं आदि, मध्य और अन्तसे रहित, अनन्त प्रभावशाली, अनन्त भुजाओंवाले, चन्द्र और सूर्यरूप नेत्रोवाले, प्रज्वलित अग्निके समान मुखोंवाले और अपने तेजसे संसारको संतप्त करते हुए देख रहा हूँ।",
           explanation: "",

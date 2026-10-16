@@ -17,7 +17,7 @@ export const matsyapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'मत्स्यरूपं समास्थाय स्वयं नारायणो हरिः | मनवे कथयामास पुराणं ब्रह्मसम्मितम् ||',
+          sanskrit: 'मत्स्यरूपं समास्थाय स्वयं नारायणो हरिः । मनवे कथयामास पुराणं ब्रह्मसम्मितम् ॥',
           transliteration: 'matsyarūpaṃ samāsthāya svayaṃ nārāyaṇo hariḥ | manave kathayāmāsa purāṇaṃ brahmasammitam ||',
           translation: 'Having assumed the form of a fish, Narayana — Hari himself — narrated to Manu this Purana equal to Brahman.',
           hindi: 'मत्स्य-रूप धारण करके, स्वयं नारायण हरि ने मनु को यह ब्रह्म-तुल्य पुराण सुनाया।',
@@ -28,7 +28,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'संवर्धयस्व मां राजन् रक्षां कुरु यतस्ततः | अहं वै रक्षणार्थाय भविष्यामि भवान् मम ||',
+          sanskrit: 'संवर्धयस्व मां राजन् रक्षां कुरु यतस्ततः । अहं वै रक्षणार्थाय भविष्यामि भवान् मम ॥',
           transliteration: 'saṃvardhayasva māṃ rājan rakṣāṃ kuru yatastataḥ | ahaṃ vai rakṣaṇārthāya bhaviṣyāmi bhavān mama ||',
           translation: 'Nurture me, O king; protect me wherever you can. I shall be for your protection, and you shall be for mine.',
           hindi: 'हे राजन्! मुझे पालो; जहाँ-जहाँ हो सको मेरी रक्षा करो। मैं तुम्हारी रक्षा के लिए रहूँगा और तुम मेरी।',
@@ -40,7 +40,7 @@ export const matsyapuran: Scripture = {
       
         {
           id: 5,
-          sanskrit: 'मत्स्यो भवामि युग ante संवर्तकनिमीलिते | युगानां प्रथमे युगे सृष्टिं करोमि केवलम् ||',
+          sanskrit: 'मत्स्यो भवामि युग ante संवर्तकनिमीलिते । युगानां प्रथमे युगे सृष्टिं करोमि केवलम् ॥',
           transliteration: 'matsyo bhavāmi yuga ante saṃvartakanimīlite | yugānāṃ prathame yuge sṛṣṭiṃ karomi kevalam ||',
           translation: 'I become the fish at the end of the yuga, when the universe is dissolved. At the beginning of the first yuga, I create alone.',
           hindi: 'मैं युग के अंत में मत्स्य बनता हूँ, जब संसार समाप्त हो जाता है। युगों के प्रथम युग में, मैं अकेला सृष्टि करता हूँ।',
@@ -49,7 +49,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 8,
-          sanskrit: 'सत्ययुगे तपो मुख्यं त्रेतायां ज्ञानमुच्यते | द्वापरे यज्ञमेवाहुः दाने कलियुगे स्थितिः ||',
+          sanskrit: 'सत्ययुगे तपो मुख्यं त्रेतायां ज्ञानमुच्यते । द्वापरे यज्ञमेवाहुः दाने कलियुगे स्थितिः ॥',
           transliteration: 'satayuge tapo mukhyaṃ tretāyāṃ jñānamucyate | dvāpare yajñamevāhuḥ dāne kaliyuge sthitiḥ ||',
           translation: 'In Satya Yuga, austerity (tapas) is primary; in Treta Yuga, knowledge (jnana) is declared; in Dvapara Yuga, sacrifice (yajna) is prescribed; in Kali Yuga, the foundation is giving (dana).',
           hindi: 'सत्ययुग में तप मुख्य है; त्रेतायुग में ज्ञान कहा गया है; द्वापरयुग में यज्ञ कहा गया है; कलियुग में दान की स्थिति है।',
@@ -58,7 +58,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 26,
-          sanskrit: 'राजा प्रजापालनाय राज्यं पालयते यदि | न स राजा न तद्राज्यं यदि प्रजापालनं न हि ||',
+          sanskrit: 'राजा प्रजापालनाय राज्यं पालयते यदि । न स राजा न तद्राज्यं यदि प्रजापालनं न हि ॥',
           transliteration: 'rājā prajāpālanāya rājyaṃ pālayate yadi | na sa rājā na tadrājyaṃ yadi prajāpālanaṃ na hi ||',
           translation: 'If a king rules the kingdom for the protection of the people, he is indeed a king and that is indeed a kingdom. If not, he is not a king and that is not a kingdom.',
           hindi: 'यदि राजा प्रजा की रक्षा के लिए राज्य चलाता है, तो वह वास्तव में राजा है और वह वास्तव में राज्य है। यदि नहीं, तो वह राजा नहीं और वह राज्य नहीं।',
@@ -67,7 +67,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 27,
-          sanskrit: 'सर्वभूतानां हितार्थं राजा राज्यं पालयेत् | सर्वभूतानां हितार्थं ब्रह्मा जगत् पालयेत् ||',
+          sanskrit: 'सर्वभूतानां हितार्थं राजा राज्यं पालयेत् । सर्वभूतानां हितार्थं ब्रह्मा जगत् पालयेत् ॥',
           transliteration: 'sarvabhūtānām hitārthaṃ rājā rājyaṃ pālayet | sarvabhūtānām hitārthaṃ brahmā jagat pālayet ||',
           translation: 'For the welfare of all beings, the king should protect the kingdom. For the welfare of all beings, Brahma protects the world.',
           hindi: 'सभी प्राणियों के हित के लिए, राजा को राज्य की रक्षा करनी चाहिए। सभी प्राणियों के हित के लिए, ब्रह्मा संसार की रक्षा करता है।',
@@ -76,7 +76,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 28,
-          sanskrit: 'धर्मो रक्षति रक्षितः धर्मो हन्ति हतः क्रिया | धर्मो न प्रशश्यते किञ्चित् धर्मेण तप्यते अमृतम् ||',
+          sanskrit: 'धर्मो रक्षति रक्षितः धर्मो हन्ति हतः क्रिया । धर्मो न प्रशश्यते किञ्चित् धर्मेण तप्यते अमृतम् ॥',
           transliteration: 'dharmo rakṣati rakṣitaḥ dharmaḥ hanti hatāḥ kriyā | dharmaḥ na praśaśyate kiñcid dharmeṇa tapyate amṛtam ||',
           translation: 'Dharma protects when protected; dharma destroys when destroyed. Dharma never perishes; through dharma, immortality is attained.',
           hindi: 'धर्म रक्षा करता है जब रक्षित होता है; धर्म नष्ट करता है जब नष्ट किया जाता है। धर्म कभी नहीं मरता; धर्म से अमृत प्राप्त होता है।',
@@ -92,7 +92,7 @@ export const matsyapuran: Scripture = {
       verses: [
         {
           id: 215,
-          sanskrit: 'दानं भोगो नाशस्तिस्रो गतयो भवन्ति वित्तस्य | यो न ददाति न भुङ्क्ते तस्य तृतीया गतिर्भवति ||',
+          sanskrit: 'दानं भोगो नाशस्तिस्रो गतयो भवन्ति वित्तस्य । यो न ददाति न भुङ्क्ते तस्य तृतीया गतिर्भवति ॥',
           transliteration: 'dānaṃ bhogo nāśastisro gatayo bhavanti vittasya | yo na dadāti na bhuṅkte tasya tṛtīyā gatirbhavati ||',
           translation: 'Wealth has three paths: giving, enjoyment, and destruction. The one who neither gives nor enjoys — for that person, the third path (destruction) comes.',
           hindi: 'धन के तीन मार्ग होते हैं: दान, भोग और नाश। जो न दान देता है न भोग करता है — उसके लिए तीसरा मार्ग (नाश) आता है।',
@@ -103,7 +103,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 220,
-          sanskrit: 'सत्यं माता पिता ज्ञानं धर्मो भ्राता दया सखा | शान्तिः पत्नी क्षमा पुत्रः षडेते मम बान्धवाः ||',
+          sanskrit: 'सत्यं माता पिता ज्ञानं धर्मो भ्राता दया सखा । शान्तिः पत्नी क्षमा पुत्रः षडेते मम बान्धवाः ॥',
           transliteration: 'satyaṃ mātā pitā jñānaṃ dharmo bhrātā dayā sakhā | śāntiḥ patnī kṣamā putraḥ ṣaḍete mama bāndhavāḥ ||',
           translation: 'Truth is my mother, knowledge is my father, dharma is my brother, compassion is my friend, peace is my wife, forgiveness is my son — these six are my kin.',
           hindi: 'सत्य मेरी माँ है, ज्ञान मेरे पिता हैं, धर्म मेरा भाई है, दया मेरा मित्र है, शान्ति मेरी पत्नी है, क्षमा मेरा पुत्र है — ये छः मेरे बन्धु हैं।',
@@ -115,7 +115,7 @@ export const matsyapuran: Scripture = {
       
         {
           id: 1,
-          sanskrit: 'दानं भोगो नाशस्तिस्रो गतयो भवन्ति वित्तस्य | यो न ददाति न भुङ्क्ते तस्य तृतीया गतिर्भवति ||',
+          sanskrit: 'दानं भोगो नाशस्तिस्रो गतयो भवन्ति वित्तस्य । यो न ददाति न भुङ्क्ते तस्य तृतीया गतिर्भवति ॥',
           transliteration: 'dānaṃ bhogo nāśastisro gatayo bhavanti vittasya | yo na dadāti na bhuṅkte tasya tṛtīyā gatirbhavati ||',
           translation: 'Wealth has three paths: giving, enjoyment, and destruction. The one who neither gives nor enjoys — for that person, the third path (destruction) comes.',
           hindi: 'धन के तीन मार्ग होते हैं: दान, भोग और नाश। जो न दान देता है न भोग करता है — उसके लिए तीसरा मार्ग (नाश) आता है।',
@@ -124,7 +124,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'सत्यं माता पिता ज्ञानं धर्मो भ्राता दया सखा | शान्तिः पत्नी क्षमा पुत्रः षडेते मम बान्धवाः ||',
+          sanskrit: 'सत्यं माता पिता ज्ञानं धर्मो भ्राता दया सखा । शान्तिः पत्नी क्षमा पुत्रः षडेते मम बान्धवाः ॥',
           transliteration: 'satyaṃ mātā pitā jñānaṃ dharmo bhrātā dayā sakhā | śāntiḥ patnī kṣamā putraḥ ṣaḍete mama bāndhavāḥ ||',
           translation: 'Truth is my mother, knowledge is my father, dharma is my brother, compassion is my friend, peace is my wife, forgiveness is my son — these six are my kin.',
           hindi: 'सत्य मेरी माँ है, ज्ञान मेरे पिता हैं, धर्म मेरा भाई है, दया मेरा मित्र है, शान्ति मेरी पत्नी है, क्षमा मेरा पुत्र है — ये छः मेरे बन्धु हैं।',
@@ -133,7 +133,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'मत्स्यो भवामि युग ante संवर्तकनिमीलिते | युगानां प्रथमे युगे सृष्टिं करोमि केवलम् ||',
+          sanskrit: 'मत्स्यो भवामि युग ante संवर्तकनिमीलिते । युगानां प्रथमे युगे सृष्टिं करोमि केवलम् ॥',
           transliteration: 'matsyo bhavāmi yuga ante saṃvartakanimīlite | yugānāṃ prathame yuge sṛṣṭiṃ karomi kevalam ||',
           translation: 'I become the fish at the end of the yuga, when the universe is dissolved. At the beginning of the first yuga, I create alone.',
           hindi: 'मैं युग के अंत में मत्स्य बनता हूँ, जब संसार समाप्त हो जाता है। युगों के प्रथम युग में, मैं अकेला सृष्टि करता हूँ।',
@@ -142,7 +142,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 8,
-          sanskrit: 'सत्ययुगे तपो मुख्यं त्रेतायां ज्ञानमुच्यते | द्वापरे यज्ञमेवाहुः दाने कलियुगे स्थितिः ||',
+          sanskrit: 'सत्ययुगे तपो मुख्यं त्रेतायां ज्ञानमुच्यते । द्वापरे यज्ञमेवाहुः दाने कलियुगे स्थितिः ॥',
           transliteration: 'satayuge tapo mukhyaṃ tretāyāṃ jñānamucyate | dvāpare yajñamevāhuḥ dāne kaliyuge sthitiḥ ||',
           translation: 'In Satya Yuga, austerity (tapas) is primary; in Treta Yuga, knowledge (jnana) is declared; in Dvapara Yuga, sacrifice (yajna) is prescribed; in Kali Yuga, the foundation is giving (dana).',
           hindi: 'सत्ययुग में तप मुख्य है; त्रेतायुग में ज्ञान कहा गया है; द्वापरयुग में यज्ञ कहा गया है; कलियुग में दान की स्थिति है।',
@@ -151,7 +151,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 26,
-          sanskrit: 'राजा प्रजापालनाय राज्यं पालयते यदि | न स राजा न तद्राज्यं यदि प्रजापालनं न हि ||',
+          sanskrit: 'राजा प्रजापालनाय राज्यं पालयते यदि । न स राजा न तद्राज्यं यदि प्रजापालनं न हि ॥',
           transliteration: 'rājā prajāpālanāya rājyaṃ pālayate yadi | na sa rājā na tadrājyaṃ yadi prajāpālanaṃ na hi ||',
           translation: 'If a king rules the kingdom for the protection of the people, he is indeed a king and that is indeed a kingdom. If not, he is not a king and that is not a kingdom.',
           hindi: 'यदि राजा प्रजा की रक्षा के लिए राज्य चलाता है, तो वह वास्तव में राजा है और वह वास्तव में राज्य है। यदि नहीं, तो वह राजा नहीं और वह राज्य नहीं।',
@@ -160,7 +160,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 27,
-          sanskrit: 'सर्वभूतानां हितार्थं राजा राज्यं पालयेत् | सर्वभूतानां हितार्थं ब्रह्मा जगत् पालयेत् ||',
+          sanskrit: 'सर्वभूतानां हितार्थं राजा राज्यं पालयेत् । सर्वभूतानां हितार्थं ब्रह्मा जगत् पालयेत् ॥',
           transliteration: 'sarvabhūtānām hitārthaṃ rājā rājyaṃ pālayet | sarvabhūtānām hitārthaṃ brahmā jagat pālayet ||',
           translation: 'For the welfare of all beings, the king should protect the kingdom. For the welfare of all beings, Brahma protects the world.',
           hindi: 'सभी प्राणियों के हित के लिए, राजा को राज्य की रक्षा करनी चाहिए। सभी प्राणियों के हित के लिए, ब्रह्मा संसार की रक्षा करता है।',
@@ -169,7 +169,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 28,
-          sanskrit: 'धर्मो रक्षति रक्षितः धर्मो हन्ति हतः क्रिया | धर्मो न प्रशश्यते किञ्चित् धर्मेण तप्यते अमृतम् ||',
+          sanskrit: 'धर्मो रक्षति रक्षितः धर्मो हन्ति हतः क्रिया । धर्मो न प्रशश्यते किञ्चित् धर्मेण तप्यते अमृतम् ॥',
           transliteration: 'dharmo rakṣati rakṣitaḥ dharmaḥ hanti hatāḥ kriyā | dharmaḥ na praśaśyate kiñcid dharmeṇa tapyate amṛtam ||',
           translation: 'Dharma protects when protected; dharma destroys when destroyed. Dharma never perishes; through dharma, immortality is attained.',
           hindi: 'धर्म रक्षा करता है जब रक्षित होता है; धर्म नष्ट करता है जब नष्ट किया जाता है। धर्म कभी नहीं मरता; धर्म से अमृत प्राप्त होता है।',
@@ -185,7 +185,7 @@ export const matsyapuran: Scripture = {
       verses: [
         {
           id: 252,
-          sanskrit: 'यथा भवति देवेशो देवानां मूर्तिरुत्तमा | तथा मनुष्यदेहस्य विभागो मानसम्मतः ||',
+          sanskrit: 'यथा भवति देवेशो देवानां मूर्तिरुत्तमा । तथा मनुष्यदेहस्य विभागो मानसम्मतः ॥',
           transliteration: 'yathā bhavati deveśo devānāṃ mūrtiḥ uttamā | tathā manuṣyadehasya vibhāgo mānasammataḥ ||',
           translation: 'Just as the best image of the lord of the gods is constructed — so, in the same measure, the human body is divided. The measure is accepted for both.',
           hindi: 'जैसे देवेश की उत्तम मूर्ति बनती है — उसी मान से मनुष्य के शरीर का विभाजन होता है। वही माप दोनों के लिए स्वीकार्य है।',
@@ -197,7 +197,7 @@ export const matsyapuran: Scripture = {
       
         {
           id: 1,
-          sanskrit: 'यथा भवति देवेशो देवानां मूर्तिरुत्तमा | तथा मनुष्यदेहस्य विभागो मानसम्मतः ||',
+          sanskrit: 'यथा भवति देवेशो देवानां मूर्तिरुत्तमा । तथा मनुष्यदेहस्य विभागो मानसम्मतः ॥',
           transliteration: 'yathā bhavati deveśo devānāṃ mūrtiḥ uttamā | tathā manuṣyadehasya vibhāgo mānasammataḥ ||',
           translation: 'Just as the best image of the lord of the gods is constructed — so, in the same measure, the human body is divided. The measure is accepted for both.',
           hindi: 'जैसे देवेश की उत्तम मूर्ति बनती है — उसी मान से मनुष्य के शरीर का विभाजन होता है। वही माप दोनों के लिए स्वीकार्य है।',
@@ -206,7 +206,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'संवर्धयस्व मां राजन् रक्षां कुरु यतस्ततः | अहं वै रक्षणार्थाय भविष्यामि भवान् मम ||',
+          sanskrit: 'संवर्धयस्व मां राजन् रक्षां कुरु यतस्ततः । अहं वै रक्षणार्थाय भविष्यामि भवान् मम ॥',
           transliteration: 'saṃvardhayasva māṃ rājan rakṣāṃ kuru yatastataḥ | ahaṃ vai rakṣaṇārthāya bhaviṣyāmi bhavān mama ||',
           translation: 'Nurture me, O king; protect me wherever you can. I shall be for your protection, and you shall be for mine.',
           hindi: 'हे राजन्! मुझे पालो; जहाँ-जहाँ हो सको मेरी रक्षा करो। मैं तुम्हारी रक्षा के लिए रहूँगा और तुम मेरी।',
@@ -215,7 +215,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'मत्स्यो भवामि युग ante संवर्तकनिमीलिते | युगानां प्रथमे युगे सृष्टिं करोमि केवलम् ||',
+          sanskrit: 'मत्स्यो भवामि युग ante संवर्तकनिमीलिते । युगानां प्रथमे युगे सृष्टिं करोमि केवलम् ॥',
           transliteration: 'matsyo bhavāmi yuga ante saṃvartakanimīlite | yugānāṃ prathame yuge sṛṣṭiṃ karomi kevalam ||',
           translation: 'I become the fish at the end of the yuga, when the universe is dissolved. At the beginning of the first yuga, I create alone.',
           hindi: 'मैं युग के अंत में मत्स्य बनता हूँ, जब संसार समाप्त हो जाता है। युगों के प्रथम युग में, मैं अकेला सृष्टि करता हूँ।',
@@ -224,7 +224,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 8,
-          sanskrit: 'सत्ययुगे तपो मुख्यं त्रेतायां ज्ञानमुच्यते | द्वापरे यज्ञमेवाहुः दाने कलियुगे स्थितिः ||',
+          sanskrit: 'सत्ययुगे तपो मुख्यं त्रेतायां ज्ञानमुच्यते । द्वापरे यज्ञमेवाहुः दाने कलियुगे स्थितिः ॥',
           transliteration: 'satayuge tapo mukhyaṃ tretāyāṃ jñānamucyate | dvāpare yajñamevāhuḥ dāne kaliyuge sthitiḥ ||',
           translation: 'In Satya Yuga, austerity (tapas) is primary; in Treta Yuga, knowledge (jnana) is declared; in Dvapara Yuga, sacrifice (yajna) is prescribed; in Kali Yuga, the foundation is giving (dana).',
           hindi: 'सत्ययुग में तप मुख्य है; त्रेतायुग में ज्ञान कहा गया है; द्वापरयुग में यज्ञ कहा गया है; कलियुग में दान की स्थिति है।',
@@ -233,7 +233,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 26,
-          sanskrit: 'राजा प्रजापालनाय राज्यं पालयते यदि | न स राजा न तद्राज्यं यदि प्रजापालनं न हि ||',
+          sanskrit: 'राजा प्रजापालनाय राज्यं पालयते यदि । न स राजा न तद्राज्यं यदि प्रजापालनं न हि ॥',
           transliteration: 'rājā prajāpālanāya rājyaṃ pālayate yadi | na sa rājā na tadrājyaṃ yadi prajāpālanaṃ na hi ||',
           translation: 'If a king rules the kingdom for the protection of the people, he is indeed a king and that is indeed a kingdom. If not, he is not a king and that is not a kingdom.',
           hindi: 'यदि राजा प्रजा की रक्षा के लिए राज्य चलाता है, तो वह वास्तव में राजा है और वह वास्तव में राज्य है। यदि नहीं, तो वह राजा नहीं और वह राज्य नहीं।',
@@ -242,7 +242,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 27,
-          sanskrit: 'सर्वभूतानां हितार्थं राजा राज्यं पालयेत् | सर्वभूतानां हितार्थं ब्रह्मा जगत् पालयेत् ||',
+          sanskrit: 'सर्वभूतानां हितार्थं राजा राज्यं पालयेत् । सर्वभूतानां हितार्थं ब्रह्मा जगत् पालयेत् ॥',
           transliteration: 'sarvabhūtānām hitārthaṃ rājā rājyaṃ pālayet | sarvabhūtānām hitārthaṃ brahmā jagat pālayet ||',
           translation: 'For the welfare of all beings, the king should protect the kingdom. For the welfare of all beings, Brahma protects the world.',
           hindi: 'सभी प्राणियों के हित के लिए, राजा को राज्य की रक्षा करनी चाहिए। सभी प्राणियों के हित के लिए, ब्रह्मा संसार की रक्षा करता है।',
@@ -251,7 +251,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 28,
-          sanskrit: 'धर्मो रक्षति रक्षितः धर्मो हन्ति हतः क्रिया | धर्मो न प्रशश्यते किञ्चित् धर्मेण तप्यते अमृतम् ||',
+          sanskrit: 'धर्मो रक्षति रक्षितः धर्मो हन्ति हतः क्रिया । धर्मो न प्रशश्यते किञ्चित् धर्मेण तप्यते अमृतम् ॥',
           transliteration: 'dharmo rakṣati rakṣitaḥ dharmaḥ hanti hatāḥ kriyā | dharmaḥ na praśaśyate kiñcid dharmeṇa tapyate amṛtam ||',
           translation: 'Dharma protects when protected; dharma destroys when destroyed. Dharma never perishes; through dharma, immortality is attained.',
           hindi: 'धर्म रक्षा करता है जब रक्षित होता है; धर्म नष्ट करता है जब नष्ट किया जाता है। धर्म कभी नहीं मरता; धर्म से अमृत प्राप्त होता है।',
@@ -267,7 +267,7 @@ export const matsyapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'कालः पचति भूतानि कालः संहरते प्रजाः | कालः सुप्तेषु जागर्ति कालो हि दुरतिक्रमः ||',
+          sanskrit: 'कालः पचति भूतानि कालः संहरते प्रजाः । कालः सुप्तेषु जागर्ति कालो हि दुरतिक्रमः ॥',
           transliteration: 'kālaḥ pacati bhūtāni kālaḥ saṃharate prajāḥ | kālaḥ supteṣu jāgarti kālo hi duratikramaḥ ||',
           translation: 'Time ripens all beings; time destroys all creatures; time is awake when all are asleep. Time is truly insurmountable.',
           hindi: 'काल सभी प्राणियों को पकाता है; काल सभी प्रजा का संहार करता है; काल तब भी जागता है जब सब सो जाते हैं। काल वास्तव में दुर्लंघनीय है।',
@@ -278,7 +278,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 8,
-          sanskrit: 'सत्ययुगे तपो मुख्यं त्रेतायां ज्ञानमुच्यते | द्वापरे यज्ञमेवाहुः दाने कलियुगे स्थितिः ||',
+          sanskrit: 'सत्ययुगे तपो मुख्यं त्रेतायां ज्ञानमुच्यते । द्वापरे यज्ञमेवाहुः दाने कलियुगे स्थितिः ॥',
           transliteration: 'satayuge tapo mukhyaṃ tretāyāṃ jñānamucyate | dvāpare yajñamevāhuḥ dāne kaliyuge sthitiḥ ||',
           translation: 'In Satya Yuga, austerity (tapas) is primary; in Treta Yuga, knowledge (jnana) is declared; in Dvapara Yuga, sacrifice (yajna) is prescribed; in Kali Yuga, the foundation is giving (dana).',
           hindi: 'सत्ययुग में तप मुख्य है; त्रेतायुग में ज्ञान कहा गया है; द्वापरयुग में यज्ञ कहा गया है; कलियुग में दान की स्थिति है।',
@@ -290,7 +290,7 @@ export const matsyapuran: Scripture = {
       
         {
           id: 2,
-          sanskrit: 'सत्ययुगे तपो मुख्यं त्रेतायां ज्ञानमुच्यते | द्वापरे यज्ञमेवाहुः दाने कलियुगे स्थितिः ||',
+          sanskrit: 'सत्ययुगे तपो मुख्यं त्रेतायां ज्ञानमुच्यते । द्वापरे यज्ञमेवाहुः दाने कलियुगे स्थितिः ॥',
           transliteration: 'satayuge tapo mukhyaṃ tretāyāṃ jñānamucyate | dvāpare yajñamevāhuḥ dāne kaliyuge sthitiḥ ||',
           translation: 'In Satya Yuga, austerity (tapas) is primary; in Treta Yuga, knowledge (jnana) is declared; in Dvapara Yuga, sacrifice (yajna) is prescribed; in Kali Yuga, the foundation is giving (dana).',
           hindi: 'सत्ययुग में तप मुख्य है; त्रेतायुग में ज्ञान कहा गया है; द्वापरयुग में यज्ञ कहा गया है; कलियुग में दान की स्थिति है।',
@@ -299,7 +299,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'मत्स्यो भवामि युग ante संवर्तकनिमीलिते | युगानां प्रथमे युगे सृष्टिं करोमि केवलम् ||',
+          sanskrit: 'मत्स्यो भवामि युग ante संवर्तकनिमीलिते । युगानां प्रथमे युगे सृष्टिं करोमि केवलम् ॥',
           transliteration: 'matsyo bhavāmi yuga ante saṃvartakanimīlite | yugānāṃ prathame yuge sṛṣṭiṃ karomi kevalam ||',
           translation: 'I become the fish at the end of the yuga, when the universe is dissolved. At the beginning of the first yuga, I create alone.',
           hindi: 'मैं युग के अंत में मत्स्य बनता हूँ, जब संसार समाप्त हो जाता है। युगों के प्रथम युग में, मैं अकेला सृष्टि करता हूँ।',
@@ -308,7 +308,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 26,
-          sanskrit: 'राजा प्रजापालनाय राज्यं पालयते यदि | न स राजा न तद्राज्यं यदि प्रजापालनं न हि ||',
+          sanskrit: 'राजा प्रजापालनाय राज्यं पालयते यदि । न स राजा न तद्राज्यं यदि प्रजापालनं न हि ॥',
           transliteration: 'rājā prajāpālanāya rājyaṃ pālayate yadi | na sa rājā na tadrājyaṃ yadi prajāpālanaṃ na hi ||',
           translation: 'If a king rules the kingdom for the protection of the people, he is indeed a king and that is indeed a kingdom. If not, he is not a king and that is not a kingdom.',
           hindi: 'यदि राजा प्रजा की रक्षा के लिए राज्य चलाता है, तो वह वास्तव में राजा है और वह वास्तव में राज्य है। यदि नहीं, तो वह राजा नहीं और वह राज्य नहीं।',
@@ -317,7 +317,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 27,
-          sanskrit: 'सर्वभूतानां हितार्थं राजा राज्यं पालयेत् | सर्वभूतानां हितार्थं ब्रह्मा जगत् पालयेत् ||',
+          sanskrit: 'सर्वभूतानां हितार्थं राजा राज्यं पालयेत् । सर्वभूतानां हितार्थं ब्रह्मा जगत् पालयेत् ॥',
           transliteration: 'sarvabhūtānām hitārthaṃ rājā rājyaṃ pālayet | sarvabhūtānām hitārthaṃ brahmā jagat pālayet ||',
           translation: 'For the welfare of all beings, the king should protect the kingdom. For the welfare of all beings, Brahma protects the world.',
           hindi: 'सभी प्राणियों के हित के लिए, राजा को राज्य की रक्षा करनी चाहिए। सभी प्राणियों के हित के लिए, ब्रह्मा संसार की रक्षा करता है।',
@@ -326,7 +326,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 28,
-          sanskrit: 'धर्मो रक्षति रक्षितः धर्मो हन्ति हतः क्रिया | धर्मो न प्रशश्यते किञ्चित् धर्मेण तप्यते अमृतम् ||',
+          sanskrit: 'धर्मो रक्षति रक्षितः धर्मो हन्ति हतः क्रिया । धर्मो न प्रशश्यते किञ्चित् धर्मेण तप्यते अमृतम् ॥',
           transliteration: 'dharmo rakṣati rakṣitaḥ dharmaḥ hanti hatāḥ kriyā | dharmaḥ na praśaśyate kiñcid dharmeṇa tapyate amṛtam ||',
           translation: 'Dharma protects when protected; dharma destroys when destroyed. Dharma never perishes; through dharma, immortality is attained.',
           hindi: 'धर्म रक्षा करता है जब रक्षित होता है; धर्म नष्ट करता है जब नष्ट किया जाता है। धर्म कभी नहीं मरता; धर्म से अमृत प्राप्त होता है।',
@@ -342,7 +342,7 @@ export const matsyapuran: Scripture = {
       verses: [
         {
           id: 105,
-          sanskrit: 'तीर्थान्यनेकानि पुनन्ति पापं तीर्थेषु सर्वेषु मनः प्रधानम् | मनः शुचिर्यस्य स सर्वतीर्थी तीर्थं बहिस्तस्य न किञ्चिदस्ति ||',
+          sanskrit: 'तीर्थान्यनेकानि पुनन्ति पापं तीर्थेषु सर्वेषु मनः प्रधानम् । मनः शुचिर्यस्य स सर्वतीर्थी तीर्थं बहिस्तस्य न किञ्चिदस्ति ॥',
           transliteration: 'tīrthānyAnekāni punanti pāpaṃ tīrtheṣu sarveṣu manaḥ pradhānam | manaḥ śuciryasya sa sarvatīrthī tīrthaṃ bahistasya na kiñcidasti ||',
           translation: 'Many tirthas purify from sin; but in all tirthas, the mind is primary. One whose mind is pure is a pilgrim to all tirthas — for such a one, no external tirtha is lacking.',
           hindi: 'अनेक तीर्थ पाप से पवित्र करते हैं; परन्तु सभी तीर्थों में मन प्रधान है। जिसका मन शुद्ध है, वह सभी तीर्थों का तीर्थयात्री है — उसके लिए कोई बाह्य तीर्थ शेष नहीं रहता।',
@@ -353,7 +353,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 110,
-          sanskrit: 'गङ्गा गङ्गेति यो ब्रूयाद्योजनानां शतैरपि | मुच्यते सर्वपापेभ्यो विष्णुलोकं स गच्छति ||',
+          sanskrit: 'गङ्गा गङ्गेति यो ब्रूयाद्योजनानां शतैरपि । मुच्यते सर्वपापेभ्यो विष्णुलोकं स गच्छति ॥',
           transliteration: 'gaṅgā gaṅgeti yo brūyādyojanānāṃ śatairapi | mucyate sarvapāpebhyo viṣṇulokaṃ sa gacchati ||',
           translation: 'Even one who utters "Ganga, Ganga" — though hundreds of yojanas away — is freed from all sins and attains the world of Vishnu.',
           hindi: 'जो सैकड़ों योजन दूर होने पर भी "गङ्गा, गङ्गा" कहता है — वह सभी पापों से मुक्त होकर विष्णुलोक को प्राप्त होता है।',
@@ -365,7 +365,7 @@ export const matsyapuran: Scripture = {
       
         {
           id: 1,
-          sanskrit: 'तीर्थान्यनेकानि पुनन्ति पापं तीर्थेषु सर्वेषु मनः प्रधानम् | मनः शुचिर्यस्य स सर्वतीर्थी तीर्थं बहिस्तस्य न किञ्चिदस्ति ||',
+          sanskrit: 'तीर्थान्यनेकानि पुनन्ति पापं तीर्थेषु सर्वेषु मनः प्रधानम् । मनः शुचिर्यस्य स सर्वतीर्थी तीर्थं बहिस्तस्य न किञ्चिदस्ति ॥',
           transliteration: 'tīrthānyAnekāni punanti pāpaṃ tīrtheṣu sarveṣu manaḥ pradhānam | manaḥ śuciryasya sa sarvatīrthī tīrthaṃ bahistasya na kiñcidasti ||',
           translation: 'Many tirthas purify from sin; but in all tirthas, the mind is primary. One whose mind is pure is a pilgrim to all tirthas — for such a one, no external tirtha is lacking.',
           hindi: 'अनेक तीर्थ पाप से पवित्र करते हैं; परन्तु सभी तीर्थों में मन प्रधान है। जिसका मन शुद्ध है, वह सभी तीर्थों का तीर्थयात्री है — उसके लिए कोई बाह्य तीर्थ शेष नहीं रहता।',
@@ -374,7 +374,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'गङ्गा गङ्गेति यो ब्रूयाद्योजनानां शतैरपि | मुच्यते सर्वपापेभ्यो विष्णुलोकं स गच्छति ||',
+          sanskrit: 'गङ्गा गङ्गेति यो ब्रूयाद्योजनानां शतैरपि । मुच्यते सर्वपापेभ्यो विष्णुलोकं स गच्छति ॥',
           transliteration: 'gaṅgā gaṅgeti yo brūyādyojanānāṃ śatairapi | mucyate sarvapāpebhyo viṣṇulokaṃ sa gacchati ||',
           translation: 'Even one who utters "Ganga, Ganga" — though hundreds of yojanas away — is freed from all sins and attains the world of Vishnu.',
           hindi: 'जो सैकड़ों योजन दूर होने पर भी "गङ्गा, गङ्गा" कहता है — वह सभी पापों से मुक्त होकर विष्णुलोक को प्राप्त होता है।',
@@ -383,7 +383,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'मत्स्यो भवामि युग ante संवर्तकनिमीलिते | युगानां प्रथमे युगे सृष्टिं करोमि केवलम् ||',
+          sanskrit: 'मत्स्यो भवामि युग ante संवर्तकनिमीलिते । युगानां प्रथमे युगे सृष्टिं करोमि केवलम् ॥',
           transliteration: 'matsyo bhavāmi yuga ante saṃvartakanimīlite | yugānāṃ prathame yuge sṛṣṭiṃ karomi kevalam ||',
           translation: 'I become the fish at the end of the yuga, when the universe is dissolved. At the beginning of the first yuga, I create alone.',
           hindi: 'मैं युग के अंत में मत्स्य बनता हूँ, जब संसार समाप्त हो जाता है। युगों के प्रथम युग में, मैं अकेला सृष्टि करता हूँ।',
@@ -392,7 +392,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 8,
-          sanskrit: 'सत्ययुगे तपो मुख्यं त्रेतायां ज्ञानमुच्यते | द्वापरे यज्ञमेवाहुः दाने कलियुगे स्थितिः ||',
+          sanskrit: 'सत्ययुगे तपो मुख्यं त्रेतायां ज्ञानमुच्यते । द्वापरे यज्ञमेवाहुः दाने कलियुगे स्थितिः ॥',
           transliteration: 'satayuge tapo mukhyaṃ tretāyāṃ jñānamucyate | dvāpare yajñamevāhuḥ dāne kaliyuge sthitiḥ ||',
           translation: 'In Satya Yuga, austerity (tapas) is primary; in Treta Yuga, knowledge (jnana) is declared; in Dvapara Yuga, sacrifice (yajna) is prescribed; in Kali Yuga, the foundation is giving (dana).',
           hindi: 'सत्ययुग में तप मुख्य है; त्रेतायुग में ज्ञान कहा गया है; द्वापरयुग में यज्ञ कहा गया है; कलियुग में दान की स्थिति है।',
@@ -401,7 +401,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 26,
-          sanskrit: 'राजा प्रजापालनाय राज्यं पालयते यदि | न स राजा न तद्राज्यं यदि प्रजापालनं न हि ||',
+          sanskrit: 'राजा प्रजापालनाय राज्यं पालयते यदि । न स राजा न तद्राज्यं यदि प्रजापालनं न हि ॥',
           transliteration: 'rājā prajāpālanāya rājyaṃ pālayate yadi | na sa rājā na tadrājyaṃ yadi prajāpālanaṃ na hi ||',
           translation: 'If a king rules the kingdom for the protection of the people, he is indeed a king and that is indeed a kingdom. If not, he is not a king and that is not a kingdom.',
           hindi: 'यदि राजा प्रजा की रक्षा के लिए राज्य चलाता है, तो वह वास्तव में राजा है और वह वास्तव में राज्य है। यदि नहीं, तो वह राजा नहीं और वह राज्य नहीं।',
@@ -410,7 +410,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 27,
-          sanskrit: 'सर्वभूतानां हितार्थं राजा राज्यं पालयेत् | सर्वभूतानां हितार्थं ब्रह्मा जगत् पालयेत् ||',
+          sanskrit: 'सर्वभूतानां हितार्थं राजा राज्यं पालयेत् । सर्वभूतानां हितार्थं ब्रह्मा जगत् पालयेत् ॥',
           transliteration: 'sarvabhūtānām hitārthaṃ rājā rājyaṃ pālayet | sarvabhūtānām hitārthaṃ brahmā jagat pālayet ||',
           translation: 'For the welfare of all beings, the king should protect the kingdom. For the welfare of all beings, Brahma protects the world.',
           hindi: 'सभी प्राणियों के हित के लिए, राजा को राज्य की रक्षा करनी चाहिए। सभी प्राणियों के हित के लिए, ब्रह्मा संसार की रक्षा करता है।',
@@ -419,7 +419,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 28,
-          sanskrit: 'धर्मो रक्षति रक्षितः धर्मो हन्ति हतः क्रिया | धर्मो न प्रशश्यते किञ्चित् धर्मेण तप्यते अमृतम् ||',
+          sanskrit: 'धर्मो रक्षति रक्षितः धर्मो हन्ति हतः क्रिया । धर्मो न प्रशश्यते किञ्चित् धर्मेण तप्यते अमृतम् ॥',
           transliteration: 'dharmo rakṣati rakṣitaḥ dharmaḥ hanti hatāḥ kriyā | dharmaḥ na praśaśyate kiñcid dharmeṇa tapyate amṛtam ||',
           translation: 'Dharma protects when protected; dharma destroys when destroyed. Dharma never perishes; through dharma, immortality is attained.',
           hindi: 'धर्म रक्षा करता है जब रक्षित होता है; धर्म नष्ट करता है जब नष्ट किया जाता है। धर्म कभी नहीं मरता; धर्म से अमृत प्राप्त होता है।',
@@ -435,7 +435,7 @@ export const matsyapuran: Scripture = {
       verses: [
         {
           id: 215,
-          sanskrit: 'प्रजासु यः स्याद्व्यसनी नृपश्च राज्यं विनश्येत्तरसा नराणाम् | प्रजाहितार्थं तु नृपो यतेत स राज्यमाप्नोति चिरेण शुद्धम् ||',
+          sanskrit: 'प्रजासु यः स्याद्व्यसनी नृपश्च राज्यं विनश्येत्तरसा नराणाम् । प्रजाहितार्थं तु नृपो यतेत स राज्यमाप्नोति चिरेण शुद्धम् ॥',
           transliteration: 'prajāsu yaḥ syādvyasanī nṛpaśca rājyaṃ vinaśyettarasā narāṇām | prajāhitārthaṃ tu nṛpo yateta sa rājyamāpnoti cireṇa śuddham ||',
           translation: 'The king who is addicted and indulgent toward his subjects — his kingdom quickly perishes among men. But the king who strives for the welfare of the people attains a pure and lasting kingdom.',
           hindi: 'जो राजा प्रजा के प्रति व्यसनी और इन्द्रियपरायण हो — उसका राज्य मनुष्यों में शीघ्र नष्ट हो जाता है। परन्तु जो राजा प्रजाहित के लिए प्रयत्न करता है, वह चिरकाल तक शुद्ध राज्य प्राप्त करता है।',
@@ -446,7 +446,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 227,
-          sanskrit: 'नाधर्मश्चरितो लोके सद्यः फलति गौरिव | शनैरावर्तमानस्तु कर्तुर्मूलं निकृन्तति ||',
+          sanskrit: 'नाधर्मश्चरितो लोके सद्यः फलति गौरिव । शनैरावर्तमानस्तु कर्तुर्मूलं निकृन्तति ॥',
           transliteration: 'nādharmaścarito loke sadyaḥ phalati gauriva | śanairāvartamānastu karturmūlaṃ nikṛntati ||',
           translation: 'Adharma practised in the world does not immediately bear fruit like a cow. But turning slowly, it cuts the root of the one who commits it.',
           hindi: 'लोक में आचरित अधर्म तुरन्त गाय की तरह फल नहीं देता। परन्तु धीरे-धीरे घूमते हुए वह कर्ता की जड़ को काट देता है।',
@@ -457,7 +457,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'मत्स्यो भवामि युग ante संवर्तकनिमीलिते | युगानां प्रथमे युगे सृष्टिं करोमि केवलम् ||',
+          sanskrit: 'मत्स्यो भवामि युग ante संवर्तकनिमीलिते । युगानां प्रथमे युगे सृष्टिं करोमि केवलम् ॥',
           transliteration: 'matsyo bhavāmi yuga ante saṃvartakanimīlite | yugānāṃ prathame yuge sṛṣṭiṃ karomi kevalam ||',
           translation: 'I become the fish at the end of the yuga, when the universe is dissolved. At the beginning of the first yuga, I create alone.',
           hindi: 'मैं युग के अंत में मत्स्य बनता हूँ, जब संसार समाप्त हो जाता है। युगों के प्रथम युग में, मैं अकेला सृष्टि करता हूँ।',
@@ -468,7 +468,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 26,
-          sanskrit: 'राजा प्रजापालनाय राज्यं पालयते यदि | न स राजा न तद्राज्यं यदि प्रजापालनं न हि ||',
+          sanskrit: 'राजा प्रजापालनाय राज्यं पालयते यदि । न स राजा न तद्राज्यं यदि प्रजापालनं न हि ॥',
           transliteration: 'rājā prajāpālanāya rājyaṃ pālayate yadi | na sa rājā na tadrājyaṃ yadi prajāpālanaṃ na hi ||',
           translation: 'If a king rules the kingdom for the protection of the people, he is indeed a king and that is indeed a kingdom. If not, he is not a king and that is not a kingdom.',
           hindi: 'यदि राजा प्रजा की रक्षा के लिए राज्य चलाता है, तो वह वास्तव में राजा है और वह वास्तव में राज्य है। यदि नहीं, तो वह राजा नहीं और वह राज्य नहीं।',
@@ -479,7 +479,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 27,
-          sanskrit: 'सर्वभूतानां हितार्थं राजा राज्यं पालयेत् | सर्वभूतानां हितार्थं ब्रह्मा जगत् पालयेत् ||',
+          sanskrit: 'सर्वभूतानां हितार्थं राजा राज्यं पालयेत् । सर्वभूतानां हितार्थं ब्रह्मा जगत् पालयेत् ॥',
           transliteration: 'sarvabhūtānām hitārthaṃ rājā rājyaṃ pālayet | sarvabhūtānām hitārthaṃ brahmā jagat pālayet ||',
           translation: 'For the welfare of all beings, the king should protect the kingdom. For the welfare of all beings, Brahma protects the world.',
           hindi: 'सभी प्राणियों के हित के लिए, राजा को राज्य की रक्षा करनी चाहिए। सभी प्राणियों के हित के लिए, ब्रह्मा संसार की रक्षा करता है।',
@@ -490,7 +490,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 28,
-          sanskrit: 'धर्मो रक्षति रक्षितः धर्मो हन्ति हतः क्रिया | धर्मो न प्रशश्यते किञ्चित् धर्मेण तप्यते अमृतम् ||',
+          sanskrit: 'धर्मो रक्षति रक्षितः धर्मो हन्ति हतः क्रिया । धर्मो न प्रशश्यते किञ्चित् धर्मेण तप्यते अमृतम् ॥',
           transliteration: 'dharmo rakṣati rakṣitaḥ dharmaḥ hanti hatāḥ kriyā | dharmaḥ na praśaśyate kiñcid dharmeṇa tapyate amṛtam ||',
           translation: 'Dharma protects when protected; dharma destroys when destroyed. Dharma never perishes; through dharma, immortality is attained.',
           hindi: 'धर्म रक्षा करता है जब रक्षित होता है; धर्म नष्ट करता है जब नष्ट किया जाता है। धर्म कभी नहीं मरता; धर्म से अमृत प्राप्त होता है।',
@@ -502,7 +502,7 @@ export const matsyapuran: Scripture = {
       
         {
           id: 1,
-          sanskrit: 'प्रजासु यः स्याद्व्यसनी नृपश्च राज्यं विनश्येत्तरसा नराणाम् | प्रजाहितार्थं तु नृपो यतेत स राज्यमाप्नोति चिरेण शुद्धम् ||',
+          sanskrit: 'प्रजासु यः स्याद्व्यसनी नृपश्च राज्यं विनश्येत्तरसा नराणाम् । प्रजाहितार्थं तु नृपो यतेत स राज्यमाप्नोति चिरेण शुद्धम् ॥',
           transliteration: 'prajāsu yaḥ syādvyasanī nṛpaśca rājyaṃ vinaśyettarasā narāṇām | prajāhitārthaṃ tu nṛpo yateta sa rājyamāpnoti cireṇa śuddham ||',
           translation: 'The king who is addicted and indulgent toward his subjects — his kingdom quickly perishes among men. But the king who strives for the welfare of the people attains a pure and lasting kingdom.',
           hindi: 'जो राजा प्रजा के प्रति व्यसनी और इन्द्रियपरायण हो — उसका राज्य मनुष्यों में शीघ्र नष्ट हो जाता है। परन्तु जो राजा प्रजाहित के लिए प्रयत्न करता है, वह चिरकाल तक शुद्ध राज्य प्राप्त करता है।',
@@ -511,7 +511,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'नाधर्मश्चरितो लोके सद्यः फलति गौरिव | शनैरावर्तमानस्तु कर्तुर्मूलं निकृन्तति ||',
+          sanskrit: 'नाधर्मश्चरितो लोके सद्यः फलति गौरिव । शनैरावर्तमानस्तु कर्तुर्मूलं निकृन्तति ॥',
           transliteration: 'nādharmaścarito loke sadyaḥ phalati gauriva | śanairāvartamānastu karturmūlaṃ nikṛntati ||',
           translation: 'Adharma practised in the world does not immediately bear fruit like a cow. But turning slowly, it cuts the root of the one who commits it.',
           hindi: 'लोक में आचरित अधर्म तुरन्त गाय की तरह फल नहीं देता। परन्तु धीरे-धीरे घूमते हुए वह कर्ता की जड़ को काट देता है।',
@@ -520,7 +520,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 3,
-          sanskrit: 'मत्स्यो भवामि युग ante संवर्तकनिमीलिते | युगानां प्रथमे युगे सृष्टिं करोमि केवलम् ||',
+          sanskrit: 'मत्स्यो भवामि युग ante संवर्तकनिमीलिते । युगानां प्रथमे युगे सृष्टिं करोमि केवलम् ॥',
           transliteration: 'matsyo bhavāmi yuga ante saṃvartakanimīlite | yugānāṃ prathame yuge sṛṣṭiṃ karomi kevalam ||',
           translation: 'I become the fish at the end of the yuga, when the universe is dissolved. At the beginning of the first yuga, I create alone.',
           hindi: 'मैं युग के अंत में मत्स्य बनता हूँ, जब संसार समाप्त हो जाता है। युगों के प्रथम युग में, मैं अकेला सृष्टि करता हूँ।',
@@ -529,7 +529,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 4,
-          sanskrit: 'राजा प्रजापालनाय राज्यं पालयते यदि | न स राजा न तद्राज्यं यदि प्रजापालनं न हि ||',
+          sanskrit: 'राजा प्रजापालनाय राज्यं पालयते यदि । न स राजा न तद्राज्यं यदि प्रजापालनं न हि ॥',
           transliteration: 'rājā prajāpālanāya rājyaṃ pālayate yadi | na sa rājā na tadrājyaṃ yadi prajāpālanaṃ na hi ||',
           translation: 'If a king rules the kingdom for the protection of the people, he is indeed a king and that is indeed a kingdom. If not, he is not a king and that is not a kingdom.',
           hindi: 'यदि राजा प्रजा की रक्षा के लिए राज्य चलाता है, तो वह वास्तव में राजा है और वह वास्तव में राज्य है। यदि नहीं, तो वह राजा नहीं और वह राज्य नहीं।',
@@ -538,7 +538,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 6,
-          sanskrit: 'सर्वभूतानां हितार्थं राजा राज्यं पालयेत् | सर्वभूतानां हितार्थं ब्रह्मा जगत् पालयेत् ||',
+          sanskrit: 'सर्वभूतानां हितार्थं राजा राज्यं पालयेत् । सर्वभूतानां हितार्थं ब्रह्मा जगत् पालयेत् ॥',
           transliteration: 'sarvabhūtānām hitārthaṃ rājā rājyaṃ pālayet | sarvabhūtānām hitārthaṃ brahmā jagat pālayet ||',
           translation: 'For the welfare of all beings, the king should protect the kingdom. For the welfare of all beings, Brahma protects the world.',
           hindi: 'सभी प्राणियों के हित के लिए, राजा को राज्य की रक्षा करनी चाहिए। सभी प्राणियों के हित के लिए, ब्रह्मा संसार की रक्षा करता है।',
@@ -547,7 +547,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 7,
-          sanskrit: 'धर्मो रक्षति रक्षितः धर्मो हन्ति हतः क्रिया | धर्मो न प्रशश्यते किञ्चित् धर्मेण तप्यते अमृतम् ||',
+          sanskrit: 'धर्मो रक्षति रक्षितः धर्मो हन्ति हतः क्रिया । धर्मो न प्रशश्यते किञ्चित् धर्मेण तप्यते अमृतम् ॥',
           transliteration: 'dharmo rakṣati rakṣitaḥ dharmaḥ hanti hatāḥ kriyā | dharmaḥ na praśaśyate kiñcid dharmeṇa tapyate amṛtam ||',
           translation: 'Dharma protects when protected; dharma destroys when destroyed. Dharma never perishes; through dharma, immortality is attained.',
           hindi: 'धर्म रक्षा करता है जब रक्षित होता है; धर्म नष्ट करता है जब नष्ट किया जाता है। धर्म कभी नहीं मरता; धर्म से अमृत प्राप्त होता है।',
@@ -556,7 +556,7 @@ export const matsyapuran: Scripture = {
         },
         {
           id: 8,
-          sanskrit: 'सत्ययुगे तपो मुख्यं त्रेतायां ज्ञानमुच्यते | द्वापरे यज्ञमेवाहुः दाने कलियुगे स्थितिः ||',
+          sanskrit: 'सत्ययुगे तपो मुख्यं त्रेतायां ज्ञानमुच्यते । द्वापरे यज्ञमेवाहुः दाने कलियुगे स्थितिः ॥',
           transliteration: 'satayuge tapo mukhyaṃ tretāyāṃ jñānamucyate | dvāpare yajñamevāhuḥ dāne kaliyuge sthitiḥ ||',
           translation: 'In Satya Yuga, austerity (tapas) is primary; in Treta Yuga, knowledge (jnana) is declared; in Dvapara Yuga, sacrifice (yajna) is prescribed; in Kali Yuga, the foundation is giving (dana).',
           hindi: 'सत्ययुग में तप मुख्य है; त्रेतायुग में ज्ञान कहा गया है; द्वापरयुग में यज्ञ कहा गया है; कलियुग में दान की स्थिति है।',

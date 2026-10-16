@@ -20,7 +20,7 @@ export const taittiriya: Scripture = {
         {
           id: 1,
           sanskrit:
-            "ॐ शं नो मित्रः शं वरुणः | शं नो भवत्वर्यमा | शं न इन्द्रो बृहस्पतिः | शं नो विष्णुरुरुक्रमः | नमो ब्रह्मणे | नमस्ते वायो | त्वमेव प्रत्यक्षं ब्रह्मासि | त्वामेव प्रत्यक्षं ब्रह्म वदिष्यामि | ऋतं वदिष्यामि | सत्यं वदिष्यामि | तन्मामवतु | तद्वक्तारमवतु | अवतु माम् | अवतु वक्तारम् | ॐ शान्तिः शान्तिः शान्तिः ||",
+            "ॐ शं नो मित्रः शं वरुणः । शं नो भवत्वर्यमा । शं न इन्द्रो बृहस्पतिः । शं नो विष्णुरुरुक्रमः । नमो ब्रह्मणे । नमस्ते वायो । त्वमेव प्रत्यक्षं ब्रह्मासि । त्वामेव प्रत्यक्षं ब्रह्म वदिष्यामि । ऋतं वदिष्यामि । सत्यं वदिष्यामि । तन्मामवतु । तद्वक्तारमवतु । अवतु माम् । अवतु वक्तारम् । ॐ शान्तिः शान्तिः शान्तिः ॥",
           transliteration:
             "oṃ śaṃ no mitraḥ śaṃ varuṇaḥ | śaṃ no bhavatvaryamā | śaṃ na indro bṛhaspatiḥ | śaṃ no viṣṇururukramaḥ | namo brahmaṇe | namaste vāyo | tvameva pratyakṣaṃ brahmāsi | tvāmeva pratyakṣaṃ brahma vadiṣyāmi | ṛtaṃ vadiṣyāmi | satyaṃ vadiṣyāmi | tanmāmavatu | tadvaktāramavatu | avatu mām | avatu vaktāram | oṃ śāntiḥ śāntiḥ śāntiḥ ||",
           translation:
@@ -38,7 +38,7 @@ export const taittiriya: Scripture = {
         {
           id: 2,
           sanskrit:
-            "ॐ शीक्षां व्याख्यास्यामः | वर्णः स्वरः | मात्रा बलम् | साम सन्तानः | इत्युक्तः शीक्षाध्यायः ||",
+            "ॐ शीक्षां व्याख्यास्यामः । वर्णः स्वरः । मात्रा बलम् । साम सन्तानः । इत्युक्तः शीक्षाध्यायः ॥",
           transliteration:
             "oṃ śīkṣāṃ vyākhyāsyāmaḥ | varṇaḥ svaraḥ | mātrā balam | sāma santānaḥ | ityuktaḥ śīkṣādhyāyaḥ ||",
           translation:
@@ -56,7 +56,7 @@ export const taittiriya: Scripture = {
         {
           id: 3,
           sanskrit:
-            "सह नौ यशः | सह नौ ब्रह्मवर्चसम् | अथातः सँहिताया उपनिषदं व्याख्यास्यामः | पञ्चस्वधिकरणेषु | अधिलोकमधिज्यौतिषमधिविद्यमधिप्रजमध्यात्मम् | ता महासँहिता इत्याचक्षते | अथाधिलोकम् | पृथिवी पूर्वरूपम् | द्यौरुत्तररूपम् | आकाशः सन्धिः | वायुः सन्धानम् | इत्यधिलोकम् ||",
+            "सह नौ यशः । सह नौ ब्रह्मवर्चसम् । अथातः सँहिताया उपनिषदं व्याख्यास्यामः । पञ्चस्वधिकरणेषु । अधिलोकमधिज्यौतिषमधिविद्यमधिप्रजमध्यात्मम् । ता महासँहिता इत्याचक्षते । अथाधिलोकम् । पृथिवी पूर्वरूपम् । द्यौरुत्तररूपम् । आकाशः सन्धिः । वायुः सन्धानम् । इत्यधिलोकम् ॥",
           transliteration:
             "saha nau yaśaḥ | saha nau brahmavarcasam | athātaḥ saṃhitāyā upaniṣadaṃ vyākhyāsyāmaḥ | pañcasvadhikaraṇeṣu | adhilokamadhijyautiṣamadhividyamadhiprajamadhyātmam | tā mahāsaṃhitā ityācakṣate | athādhilokam | pṛthivī pūrvarūpam | dyaurutararūpam | ākāśaḥ sandhiḥ | vāyuḥ sandhānam | ityadhilokam ||",
           translation:
@@ -74,7 +74,7 @@ export const taittiriya: Scripture = {
         {
           id: 4,
           sanskrit:
-            "यश्छन्दसामृषभो विश्वरूपः | छन्दोभ्योऽध्यमृतात्सम्बभूव | स मेन्द्रो मेधया स्पृणोतु | अमृतस्य देव धारणो भूयासम् | शरीरं मे विचर्षणम् | जिह्वा मे मधुमत्तमा | कर्णाभ्यां भूरि विश्रुवम् | ब्रह्मणः कोशोऽसि मेधया पिहितः | श्रुतं मे गोपाय |",
+            "यश्छन्दसामृषभो विश्वरूपः । छन्दोभ्योऽध्यमृतात्सम्बभूव । स मेन्द्रो मेधया स्पृणोतु । अमृतस्य देव धारणो भूयासम् । शरीरं मे विचर्षणम् । जिह्वा मे मधुमत्तमा । कर्णाभ्यां भूरि विश्रुवम् । ब्रह्मणः कोशोऽसि मेधया पिहितः । श्रुतं मे गोपाय ।",
           transliteration:
             "yaścchandasāmṛṣabho viśvarūpaḥ | chandobhyo'dhyamṛtātsambabhūva | sa mendro medhayā spṛṇotu | amṛtasya deva dhāraṇo bhūyāsam | śarīraṃ me vicarṣaṇam | jihvā me madhumattamā | karṇābhyāṃ bhūri viśruvam | brahmaṇaḥ kośo'si medhayā pihitaḥ | śrutaṃ me gopāya |",
           translation:
@@ -92,7 +92,7 @@ export const taittiriya: Scripture = {
         {
           id: 5,
           sanskrit:
-            "भूर्भुवः सुवरिति वा एतास्तिस्रो व्याहृतयः | तासामु ह स्मैतां चतुर्थीं माहाचमस्यः प्रवेदयते | मह इति | तद्ब्रह्म | स आत्मा | अङ्गान्यन्या देवताः ||",
+            "भूर्भुवः सुवरिति वा एतास्तिस्रो व्याहृतयः । तासामु ह स्मैतां चतुर्थीं माहाचमस्यः प्रवेदयते । मह इति । तद्ब्रह्म । स आत्मा । अङ्गान्यन्या देवताः ॥",
           transliteration:
             "bhūrbhuvaḥ suvariti vā etāstisro vyāhṛtayaḥ | tāsāmu ha smaitāṃ caturthīṃ māhācamasyaḥ pravedayate | maha iti | tadbrahma | sa ātmā | aṅgānyanyā devatāḥ ||",
           translation:
@@ -110,7 +110,7 @@ export const taittiriya: Scripture = {
         {
           id: 6,
           sanskrit:
-            "स य एषोऽन्तर्हृदय आकाशः | तस्मिन्नयं पुरुषो मनोमयः | अमृतो हिरण्मयः | अन्तरेण तालुके | य एष स्तन इवावलम्बते | सेन्द्रयोनिः | यत्रासौ केशान्तो विवर्तते | व्यपोह्य शीर्षकपाले | भूरित्यग्नौ प्रतितिष्ठति | भुव इति वायौ | सुवरित्यादित्ये | मह इति ब्रह्मणि | आप्नोति स्वाराज्यम् ||",
+            "स य एषोऽन्तर्हृदय आकाशः । तस्मिन्नयं पुरुषो मनोमयः । अमृतो हिरण्मयः । अन्तरेण तालुके । य एष स्तन इवावलम्बते । सेन्द्रयोनिः । यत्रासौ केशान्तो विवर्तते । व्यपोह्य शीर्षकपाले । भूरित्यग्नौ प्रतितिष्ठति । भुव इति वायौ । सुवरित्यादित्ये । मह इति ब्रह्मणि । आप्नोति स्वाराज्यम् ॥",
           transliteration:
             "sa ya eṣo'ntarhṛdaya ākāśaḥ | tasminnayaṃ puruṣo manomayaḥ | amṛto hiraṇmayaḥ | antareṇa tāluke | ya eṣa stana ivāvalambate | sendrayoniḥ | yatrāsau keśānto vivartate | vyapohya śīrṣakapāle | bhūrityagnau pratitiṣṭhati | bhuva iti vāyau | suvarityāditye | maha iti brahmaṇi | āpnoti svārājyam ||",
           translation:
@@ -128,7 +128,7 @@ export const taittiriya: Scripture = {
         {
           id: 7,
           sanskrit:
-            "पृथिव्यन्तरिक्षं द्यौर्दिशोऽवान्तरदिशाः | अग्निर्वायुरादित्यश्चन्द्रमा नक्षत्राणि | आप ओषधयो वनस्पतयः | आकाश आत्मा | इत्यधिभूतम् | अथाध्यात्मम् | प्राणो व्यानोऽपान उदानः समानः | चक्षुः श्रोत्रं मनो वाक् त्वक् | चर्म मांसं स्नावास्थि मज्जा | एतदधिविधाय ऋषिरवोचत् | पाङ्क्तं वा इदं सर्वम् | पाङ्क्तेनैव पाङ्क्तँ्स्पृणोतीति ||",
+            "पृथिव्यन्तरिक्षं द्यौर्दिशोऽवान्तरदिशाः । अग्निर्वायुरादित्यश्चन्द्रमा नक्षत्राणि । आप ओषधयो वनस्पतयः । आकाश आत्मा । इत्यधिभूतम् । अथाध्यात्मम् । प्राणो व्यानोऽपान उदानः समानः । चक्षुः श्रोत्रं मनो वाक् त्वक् । चर्म मांसं स्नावास्थि मज्जा । एतदधिविधाय ऋषिरवोचत् । पाङ्क्तं वा इदं सर्वम् । पाङ्क्तेनैव पाङ्क्तँ्स्पृणोतीति ॥",
           transliteration:
             "pṛthivyantarikṣaṃ dyaurdiśo'vāntaradiśāḥ | agnirvāyurādityaścandramā nakṣatrāṇi | āpa oṣadhayo vanaspatayaḥ | ākāśa ātmā | ityadhibhūtam | athādhyātmam | prāṇo vyāno'pāna udānaḥ samānaḥ | cakṣuḥ śrotraṃ mano vāk tvak | carma māṃsaṃ snāvāsthi majjā | etadadhividhāya ṛṣiravocat | pāṅktaṃ vā idaṃ sarvam | pāṅktenaiva pāṅktagaṃspṛṇotīti ||",
           translation:
@@ -146,7 +146,7 @@ export const taittiriya: Scripture = {
         {
           id: 8,
           sanskrit:
-            "ॐ इति ब्रह्म | ॐ इतीदं सर्वम् | ॐ इत्येतदनुकृतिर्ह स्म वा अप्यो श्रावयेत्याश्रावयन्ति | ॐ इति सामानि गायन्ति | ॐ शोमिति शस्त्राणि शँसन्ति | ॐ इत्यध्वर्युः प्रतिगरं प्रतिगृणाति | ॐ इति ब्रह्मा प्रसौति | ॐ इत्यग्निहोत्रमनुजानाति | ॐ इति ब्राह्मणः प्रवक्ष्यन्नाह ब्रह्मोपाप्नवानीति | ब्रह्मैवोपाप्नोति ||",
+            "ॐ इति ब्रह्म । ॐ इतीदं सर्वम् । ॐ इत्येतदनुकृतिर्ह स्म वा अप्यो श्रावयेत्याश्रावयन्ति । ॐ इति सामानि गायन्ति । ॐ शोमिति शस्त्राणि शँसन्ति । ॐ इत्यध्वर्युः प्रतिगरं प्रतिगृणाति । ॐ इति ब्रह्मा प्रसौति । ॐ इत्यग्निहोत्रमनुजानाति । ॐ इति ब्राह्मणः प्रवक्ष्यन्नाह ब्रह्मोपाप्नवानीति । ब्रह्मैवोपाप्नोति ॥",
           transliteration:
             "oṃ iti brahma | oṃ itīdaṃ sarvam | oṃ ityetadanukṛtirha sma vā apyo śrāvayetyāśrāvayanti | oṃ iti sāmāni gāyanti | oṃ śomiti śastrāṇi śaṃsanti | oṃ ityadhvaryuḥ pratigaraṃ pratigṛṇāti | oṃ iti brahmā prasauti | oṃ ityagnihotramanujānāti | oṃ iti brāhmaṇaḥ pravakṣyannāha brahmopāpnavānīti | brahmaivopāpnoti ||",
           translation:
@@ -164,7 +164,7 @@ export const taittiriya: Scripture = {
         {
           id: 9,
           sanskrit:
-            "ऋतं च स्वाध्यायप्रवचने च | सत्यं च स्वाध्यायप्रवचने च | तपश्च स्वाध्यायप्रवचने च | दमश्च स्वाध्यायप्रवचने च | शमश्च स्वाध्यायप्रवचने च | अग्नयश्च स्वाध्यायप्रवचने च | अग्निहोत्रं च स्वाध्यायप्रवचने च | अतिथयश्च स्वाध्यायप्रवचने च | मानुषं च स्वाध्यायप्रवचने च | प्रजा च स्वाध्यायप्रवचने च | प्रजनश्च स्वाध्यायप्रवचने च | प्रजातिश्च स्वाध्यायप्रवचने च | सत्यमिति सत्यवचा राथीतरः | तप इति तपोनित्यः पौरुशिष्टिः | स्वाध्यायप्रवचने एवेति नाको मौद्गल्यः | तद्धि तपस्तद्धि तपः ||",
+            "ऋतं च स्वाध्यायप्रवचने च । सत्यं च स्वाध्यायप्रवचने च । तपश्च स्वाध्यायप्रवचने च । दमश्च स्वाध्यायप्रवचने च । शमश्च स्वाध्यायप्रवचने च । अग्नयश्च स्वाध्यायप्रवचने च । अग्निहोत्रं च स्वाध्यायप्रवचने च । अतिथयश्च स्वाध्यायप्रवचने च । मानुषं च स्वाध्यायप्रवचने च । प्रजा च स्वाध्यायप्रवचने च । प्रजनश्च स्वाध्यायप्रवचने च । प्रजातिश्च स्वाध्यायप्रवचने च । सत्यमिति सत्यवचा राथीतरः । तप इति तपोनित्यः पौरुशिष्टिः । स्वाध्यायप्रवचने एवेति नाको मौद्गल्यः । तद्धि तपस्तद्धि तपः ॥",
           transliteration:
             "ṛtaṃ ca svādhyāyapravacane ca | satyaṃ ca svādhyāyapravacane ca | tapaśca svādhyāyapravacane ca | damaśca svādhyāyapravacane ca | śamaśca svādhyāyapravacane ca | agnayaśca svādhyāyapravacane ca | agnihotraṃ ca svādhyāyapravacane ca | atithayaśca svādhyāyapravacane ca | mānuṣaṃ ca svādhyāyapravacane ca | prajā ca svādhyāyapravacane ca | prajanaśca svādhyāyapravacane ca | prajātiśca svādhyāyapravacane ca | satyamiti satyavacā rāthītaraḥ | tapa iti taponityaḥ pauruśiṣṭiḥ | svādhyāyapravacane eveti nāko maudgalyaḥ | taddhi tapastaddhi tapaḥ ||",
           translation:
@@ -182,7 +182,7 @@ export const taittiriya: Scripture = {
         {
           id: 10,
           sanskrit:
-            "अहं वृक्षस्य रेरिवा | कीर्तिः पृष्ठं गिरेरिव | ऊर्ध्वपवित्रो वाजिनीव स्वमृतमस्मि | द्रविणं सवर्चसम् | सुमेधा अमृतोऽक्षितः | इति त्रिशङ्कोर्वेदानुवचनम् ||",
+            "अहं वृक्षस्य रेरिवा । कीर्तिः पृष्ठं गिरेरिव । ऊर्ध्वपवित्रो वाजिनीव स्वमृतमस्मि । द्रविणं सवर्चसम् । सुमेधा अमृतोऽक्षितः । इति त्रिशङ्कोर्वेदानुवचनम् ॥",
           transliteration:
             "ahaṃ vṛkṣasya rerivā | kīrtiḥ pṛṣṭhaṃ gireriva | ūrdhvapavitro vājinīva svamṛtamasmi | draviṇaṃ savarcasam | sumedhā amṛto'kṣitaḥ | iti triśaṅkorvedānuvacanam ||",
           translation:
@@ -200,7 +200,7 @@ export const taittiriya: Scripture = {
         {
           id: 11,
           sanskrit:
-            "वेदमनूच्याचार्योऽन्तेवासिनमनुशास्ति | सत्यं वद | धर्मं चर | स्वाध्यायान्मा प्रमदः | आचार्याय प्रियं धनमाहृत्य प्रजातन्तुं मा व्यवच्छेत्सीः | सत्यान्न प्रमदितव्यम् | धर्मान्न प्रमदितव्यम् | कुशलान्न प्रमदितव्यम् | भूत्यै न प्रमदितव्यम् | स्वाध्यायप्रवचनाभ्यां न प्रमदितव्यम् | देवपितृकार्याभ्यां न प्रमदितव्यम् | मातृदेवो भव | पितृदेवो भव | आचार्यदेवो भव | अतिथिदेवो भव | यान्यनवद्यानि कर्माणि | तानि सेवितव्यानि | नो इतराणि | यान्यस्माकं सुचरितानि | तानि त्वयोपास्यानि | नो इतराणि | ये के चास्मच्छ्रेयाँसो ब्राह्मणाः | तेषां त्वयाऽऽसनेन प्रश्वसितव्यम् | श्रद्धया देयम् | अश्रद्धयाऽदेयम् | श्रिया देयम् | ह्रिया देयम् | भिया देयम् | संविदा देयम् | अथ यदि ते कर्मविचिकित्सा वा वृत्तविचिकित्सा वा स्यात् | ये तत्र ब्राह्मणाः सम्मर्शिनः | युक्ता आयुक्ताः | अलूक्षा धर्मकामाः स्युः | यथा ते तत्र वर्तेरन् | तथा तत्र वर्तेथाः | अथाभ्याख्यातेषु | ये तत्र ब्राह्मणाः सम्मर्शिनः | युक्ता आयुक्ताः | अलूक्षा धर्मकामाः स्युः | यथा ते तेषु वर्तेरन् | तथा तेषु वर्तेथाः | एष आदेशः | एष उपदेशः | एषा वेदोपनिषत् | एतदनुशासनम् | एवमुपासितव्यम् | एवमु चैतदुपास्यम् ||",
+            "वेदमनूच्याचार्योऽन्तेवासिनमनुशास्ति । सत्यं वद । धर्मं चर । स्वाध्यायान्मा प्रमदः । आचार्याय प्रियं धनमाहृत्य प्रजातन्तुं मा व्यवच्छेत्सीः । सत्यान्न प्रमदितव्यम् । धर्मान्न प्रमदितव्यम् । कुशलान्न प्रमदितव्यम् । भूत्यै न प्रमदितव्यम् । स्वाध्यायप्रवचनाभ्यां न प्रमदितव्यम् । देवपितृकार्याभ्यां न प्रमदितव्यम् । मातृदेवो भव । पितृदेवो भव । आचार्यदेवो भव । अतिथिदेवो भव । यान्यनवद्यानि कर्माणि । तानि सेवितव्यानि । नो इतराणि । यान्यस्माकं सुचरितानि । तानि त्वयोपास्यानि । नो इतराणि । ये के चास्मच्छ्रेयाँसो ब्राह्मणाः । तेषां त्वयाऽऽसनेन प्रश्वसितव्यम् । श्रद्धया देयम् । अश्रद्धयाऽदेयम् । श्रिया देयम् । ह्रिया देयम् । भिया देयम् । संविदा देयम् । अथ यदि ते कर्मविचिकित्सा वा वृत्तविचिकित्सा वा स्यात् । ये तत्र ब्राह्मणाः सम्मर्शिनः । युक्ता आयुक्ताः । अलूक्षा धर्मकामाः स्युः । यथा ते तत्र वर्तेरन् । तथा तत्र वर्तेथाः । अथाभ्याख्यातेषु । ये तत्र ब्राह्मणाः सम्मर्शिनः । युक्ता आयुक्ताः । अलूक्षा धर्मकामाः स्युः । यथा ते तेषु वर्तेरन् । तथा तेषु वर्तेथाः । एष आदेशः । एष उपदेशः । एषा वेदोपनिषत् । एतदनुशासनम् । एवमुपासितव्यम् । एवमु चैतदुपास्यम् ॥",
           transliteration:
             "vedamanūcyācāryo'ntevāsinamanuśāsti | satyaṃ vada | dharmaṃ cara | svādhyāyānmā pramadaḥ | ācāryāya priyaṃ dhanamāhṛtya prajātantuṃ mā vyavacchetsīḥ | satyānna pramaditavyam | dharmānna pramaditavyam | kuśalānna pramaditavyam | bhūtyai na pramaditavyam | svādhyāyapravacanābhyāṃ na pramaditavyam | devapitṛkāryābhyāṃ na pramaditavyam | mātṛdevo bhava | pitṛdevo bhava | ācāryadevo bhava | atithidevo bhava | yānyanavadyāni karmāṇi | tāni sevitavyāni | no itarāṇi | yānyasmākaṃ sucaritāni | tāni tvayopāsyāni | no itarāṇi | ye ke cāsmacchreyāṃso brāhmaṇāḥ | teṣāṃ tvayā''sanena praśvasitavyam | śraddhayā deyam | aśraddhayā'deyam | śriyā deyam | hriyā deyam | bhiyā deyam | saṃvidā deyam | atha yadi te karmavicikitsā vā vṛttavicikitsā vā syāt | ye tatra brāhmaṇāḥ sammarśinaḥ | yuktā āyuktāḥ | alūkṣā dharmakāmāḥ syuḥ | yathā te tatra varteran | tathā tatra vartethāḥ | athābhyākhyāteṣu | ye tatra brāhmaṇāḥ sammarśinaḥ | yuktā āyuktāḥ | alūkṣā dharmakāmāḥ syuḥ | yathā te teṣu varteran | tathā teṣu vartethāḥ | eṣa ādeśaḥ | eṣa upadeśaḥ | eṣā vedopaniṣat | etadanuśāsanam | evamupāsitavyam | evamu caitadupāsyam ||",
           translation:
@@ -218,7 +218,7 @@ export const taittiriya: Scripture = {
         {
           id: 12,
           sanskrit:
-            "शं नो मित्रः शं वरुणः | शं नो भवत्वर्यमा | शं न इन्द्रो बृहस्पतिः | शं नो विष्णुरुरुक्रमः | नमो ब्रह्मणे | नमस्ते वायो | त्वमेव प्रत्यक्षं ब्रह्मासि | त्वामेव प्रत्यक्षं ब्रह्मावादिषम् | ऋतमवादिषम् | सत्यमवादिषम् | तन्मामावीत् | तद्वक्तारमावीत् | आवीन्माम् | आवीद्वक्तारम् | ॐ शान्तिः शान्तिः शान्तिः ||",
+            "शं नो मित्रः शं वरुणः । शं नो भवत्वर्यमा । शं न इन्द्रो बृहस्पतिः । शं नो विष्णुरुरुक्रमः । नमो ब्रह्मणे । नमस्ते वायो । त्वमेव प्रत्यक्षं ब्रह्मासि । त्वामेव प्रत्यक्षं ब्रह्मावादिषम् । ऋतमवादिषम् । सत्यमवादिषम् । तन्मामावीत् । तद्वक्तारमावीत् । आवीन्माम् । आवीद्वक्तारम् । ॐ शान्तिः शान्तिः शान्तिः ॥",
           transliteration:
             "śaṃ no mitraḥ śaṃ varuṇaḥ | śaṃ no bhavatvaryamā | śaṃ na indro bṛhaspatiḥ | śaṃ no viṣṇururukramaḥ | namo brahmaṇe | namaste vāyo | tvameva pratyakṣaṃ brahmāsi | tvāmeva pratyakṣaṃ brahmāvādiṣam | ṛtamavādiṣam | satyamavādiṣam | tanmāmāvīt | tadvaktāramāvīt | āvīnmām | āvīdvaktāram | oṃ śāntiḥ śāntiḥ śāntiḥ ||",
           translation:
@@ -281,7 +281,7 @@ export const taittiriya: Scripture = {
         {
           id: 1,
           sanskrit:
-            "ॐ ब्रह्मविदाप्नोति परम् | तदेषाऽभ्युक्ता | सत्यं ज्ञानमनन्तं ब्रह्म | यो वेद निहितं गुहायां परमे व्योमन् | सोऽश्नुते सर्वान् कामान् सह | ब्रह्मणा विपश्चितेति ||",
+            "ॐ ब्रह्मविदाप्नोति परम् । तदेषाऽभ्युक्ता । सत्यं ज्ञानमनन्तं ब्रह्म । यो वेद निहितं गुहायां परमे व्योमन् । सोऽश्नुते सर्वान् कामान् सह । ब्रह्मणा विपश्चितेति ॥",
           transliteration:
             "oṃ brahmavidāpnoti param | tadeṣā'bhyuktā | satyaṃ jñānamanantaṃ brahma | yo veda nihitaṃ guhāyāṃ parame vyoman | so'śnute sarvān kāmān saha | brahmaṇā vipaściteti ||",
           translation:
@@ -299,7 +299,7 @@ export const taittiriya: Scripture = {
         {
           id: 2,
           sanskrit:
-            "तस्माद्वा एतस्मादात्मन आकाशः सम्भूतः | आकाशाद्वायुः | वायोरग्निः | अग्नेरापः | अद्भ्यः पृथिवी | पृथिव्या ओषधयः | ओषधीभ्योऽन्नम् | अन्नात्पुरुषः | स वा एष पुरुषोऽन्नरसमयः | तस्येदमेव शिरः | अयं दक्षिणः पक्षः | अयमुत्तरः पक्षः | अयमात्मा | इदं पुच्छं प्रतिष्ठा ||",
+            "तस्माद्वा एतस्मादात्मन आकाशः सम्भूतः । आकाशाद्वायुः । वायोरग्निः । अग्नेरापः । अद्भ्यः पृथिवी । पृथिव्या ओषधयः । ओषधीभ्योऽन्नम् । अन्नात्पुरुषः । स वा एष पुरुषोऽन्नरसमयः । तस्येदमेव शिरः । अयं दक्षिणः पक्षः । अयमुत्तरः पक्षः । अयमात्मा । इदं पुच्छं प्रतिष्ठा ॥",
           transliteration:
             "tasmādvā etasmādātmana ākāśaḥ sambhūtaḥ | ākāśādvāyuḥ | vāyoragniḥ | agnerāpaḥ | adbhyaḥ pṛthivī | pṛthivyā oṣadhayaḥ | oṣadhībhyo'nnam | annātpuruṣaḥ | sa vā eṣa puruṣo'nnarasamayaḥ | tasyedameva śiraḥ | ayaṃ dakṣiṇaḥ pakṣaḥ | ayamuttaraḥ pakṣaḥ | ayamātmā | idaṃ pucchaṃ pratiṣṭhā ||",
           translation:
@@ -317,7 +317,7 @@ export const taittiriya: Scripture = {
         {
           id: 3,
           sanskrit:
-            "अन्नाद्वै प्रजाः प्रजायन्ते | याः काश्च पृथिवीँ्श्रिताः | अथो अन्नेनैव जीवन्ति | अथैनदपि यन्त्यन्ततः | अन्नँ्हि भूतानां ज्येष्ठम् | तस्मात्सर्वौषधमुच्यते | सर्वं वै तेऽन्नमाप्नुवन्ति | येऽन्नं ब्रह्मोपासते | अन्नँ्हि भूतानां ज्येष्ठम् | तस्मात्सर्वौषधमुच्यते | अन्नाद्भूतानि जायन्ते | जातान्यन्नेन वर्धन्ते | अद्यतेऽत्ति च भूतानि | तस्मादन्नं तदुच्यते ||",
+            "अन्नाद्वै प्रजाः प्रजायन्ते । याः काश्च पृथिवीँ्श्रिताः । अथो अन्नेनैव जीवन्ति । अथैनदपि यन्त्यन्ततः । अन्नँ्हि भूतानां ज्येष्ठम् । तस्मात्सर्वौषधमुच्यते । सर्वं वै तेऽन्नमाप्नुवन्ति । येऽन्नं ब्रह्मोपासते । अन्नँ्हि भूतानां ज्येष्ठम् । तस्मात्सर्वौषधमुच्यते । अन्नाद्भूतानि जायन्ते । जातान्यन्नेन वर्धन्ते । अद्यतेऽत्ति च भूतानि । तस्मादन्नं तदुच्यते ॥",
           transliteration:
             "annādvai prajāḥ prajāyante | yāḥ kāśca pṛthivīṃśritāḥ | atho annenaiva jīvanti | athainadapi yantyantataḥ | annaṃhi bhūtānāṃ jyeṣṭham | tasmātsarvauṣadhamucyate | sarvaṃ vai te'nnamāpnuvanti | ye'nnaṃ brahmopāsate | annaṃhi bhūtānāṃ jyeṣṭham | tasmātsarvauṣadhamucyate | annādbhūtāni jāyante | jātānyannena vardhante | adyate'tti ca bhūtāni | tasmādannaṃ taducyate ||",
           translation:
@@ -335,7 +335,7 @@ export const taittiriya: Scripture = {
         {
           id: 4,
           sanskrit:
-            "तस्माद्वा एतस्मादन्नरसमयात् | अन्योऽन्तर आत्मा प्राणमयः | तेनैष पूर्णः | स वा एष पुरुषविध एव | तस्य पुरुषविधताम् | अन्वयं पुरुषविधः | तस्य प्राण एव शिरः | व्यानो दक्षिणः पक्षः | अपान उत्तरः पक्षः | आकाश आत्मा | पृथिवी पुच्छं प्रतिष्ठा | तदप्येष श्लोको भवति ||",
+            "तस्माद्वा एतस्मादन्नरसमयात् । अन्योऽन्तर आत्मा प्राणमयः । तेनैष पूर्णः । स वा एष पुरुषविध एव । तस्य पुरुषविधताम् । अन्वयं पुरुषविधः । तस्य प्राण एव शिरः । व्यानो दक्षिणः पक्षः । अपान उत्तरः पक्षः । आकाश आत्मा । पृथिवी पुच्छं प्रतिष्ठा । तदप्येष श्लोको भवति ॥",
           transliteration:
             "tasmādvā etasmādannarasamayāt | anyo'ntara ātmā prāṇamayaḥ | tenaiṣa pūrṇaḥ | sa vā eṣa puruṣavidha eva | tasya puruṣavidhatām | anvayaṃ puruṣavidhaḥ | tasya prāṇa eva śiraḥ | vyāno dakṣiṇaḥ pakṣaḥ | apāna uttaraḥ pakṣaḥ | ākāśa ātmā | pṛthivī pucchaṃ pratiṣṭhā | tadapyeṣa śloko bhavati ||",
           translation:
@@ -353,7 +353,7 @@ export const taittiriya: Scripture = {
         {
           id: 5,
           sanskrit:
-            "तस्माद्वा एतस्मात्प्राणमयात् | अन्योऽन्तर आत्मा मनोमयः | तेनैष पूर्णः | स वा एष पुरुषविध एव | तस्य पुरुषविधताम् | अन्वयं पुरुषविधः | तस्य यजुरेव शिरः | ऋग्दक्षिणः पक्षः | सामोत्तरः पक्षः | आदेश आत्मा | अथर्वाङ्गिरसः पुच्छं प्रतिष्ठा | तदप्येष श्लोको भवति | यतो वाचो निवर्तन्ते | अप्राप्य मनसा सह | आनन्दं ब्रह्मणो विद्वान् | न बिभेति कुतश्चनेति ||",
+            "तस्माद्वा एतस्मात्प्राणमयात् । अन्योऽन्तर आत्मा मनोमयः । तेनैष पूर्णः । स वा एष पुरुषविध एव । तस्य पुरुषविधताम् । अन्वयं पुरुषविधः । तस्य यजुरेव शिरः । ऋग्दक्षिणः पक्षः । सामोत्तरः पक्षः । आदेश आत्मा । अथर्वाङ्गिरसः पुच्छं प्रतिष्ठा । तदप्येष श्लोको भवति । यतो वाचो निवर्तन्ते । अप्राप्य मनसा सह । आनन्दं ब्रह्मणो विद्वान् । न बिभेति कुतश्चनेति ॥",
           transliteration:
             "tasmādvā etasmātprāṇamayāt | anyo'ntara ātmā manomayaḥ | tenaiṣa pūrṇaḥ | sa vā eṣa puruṣavidha eva | tasya puruṣavidhatām | anvayaṃ puruṣavidhaḥ | tasya yajureva śiraḥ | ṛgdakṣiṇaḥ pakṣaḥ | sāmottaraḥ pakṣaḥ | ādeśa ātmā | atharvāṅgirasaḥ pucchaṃ pratiṣṭhā | tadapyeṣa śloko bhavati | yato vāco nivartante | aprāpya manasā saha | ānandaṃ brahmaṇo vidvān | na bibheti kutaścaneti ||",
           translation:
@@ -371,7 +371,7 @@ export const taittiriya: Scripture = {
         {
           id: 6,
           sanskrit:
-            "तस्माद्वा एतस्मान्मनोमयात् | अन्योऽन्तर आत्मा विज्ञानमयः | तेनैष पूर्णः | स वा एष पुरुषविध एव | तस्य पुरुषविधताम् | अन्वयं पुरुषविधः | तस्य श्रद्धैव शिरः | ऋतं दक्षिणः पक्षः | सत्यमुत्तरः पक्षः | योग आत्मा | महः पुच्छं प्रतिष्ठा | तदप्येष श्लोको भवति | विज्ञानं यज्ञं तनुते | कर्माणि तनुतेऽपि च | विज्ञानं देवाः सर्वे | ब्रह्म ज्येष्ठमुपासते | विज्ञानं ब्रह्म चेद्वेद | तस्माच्चेन्न प्रमाद्यति | शरीरे पाप्मनो हित्वा | सर्वान् कामान् समश्नुते ||",
+            "तस्माद्वा एतस्मान्मनोमयात् । अन्योऽन्तर आत्मा विज्ञानमयः । तेनैष पूर्णः । स वा एष पुरुषविध एव । तस्य पुरुषविधताम् । अन्वयं पुरुषविधः । तस्य श्रद्धैव शिरः । ऋतं दक्षिणः पक्षः । सत्यमुत्तरः पक्षः । योग आत्मा । महः पुच्छं प्रतिष्ठा । तदप्येष श्लोको भवति । विज्ञानं यज्ञं तनुते । कर्माणि तनुतेऽपि च । विज्ञानं देवाः सर्वे । ब्रह्म ज्येष्ठमुपासते । विज्ञानं ब्रह्म चेद्वेद । तस्माच्चेन्न प्रमाद्यति । शरीरे पाप्मनो हित्वा । सर्वान् कामान् समश्नुते ॥",
           transliteration:
             "tasmādvā etasmānmanomayāt | anyo'ntara ātmā vijñānamayaḥ | tenaiṣa pūrṇaḥ | sa vā eṣa puruṣavidha eva | tasya puruṣavidhatām | anvayaṃ puruṣavidhaḥ | tasya śraddhaiva śiraḥ | ṛtaṃ dakṣiṇaḥ pakṣaḥ | satyamuttaraḥ pakṣaḥ | yoga ātmā | mahaḥ pucchaṃ pratiṣṭhā | tadapyeṣa śloko bhavati | vijñānaṃ yajñaṃ tanute | karmāṇi tanute'pi ca | vijñānaṃ devāḥ sarve | brahma jyeṣṭhamupāsate | vijñānaṃ brahma cedveda | tasmāccenna pramādyati | śarīre pāpmano hitvā | sarvān kāmān samaśnute ||",
           translation:
@@ -389,7 +389,7 @@ export const taittiriya: Scripture = {
         {
           id: 7,
           sanskrit:
-            "तस्माद्वा एतस्माद्विज्ञानमयात् | अन्योऽन्तर आत्माऽऽनन्दमयः | तेनैष पूर्णः | स वा एष पुरुषविध एव | तस्य पुरुषविधताम् | अन्वयं पुरुषविधः | तस्य प्रियमेव शिरः | मोदो दक्षिणः पक्षः | प्रमोद उत्तरः पक्षः | आनन्द आत्मा | ब्रह्म पुच्छं प्रतिष्ठा | तदप्येष श्लोको भवति | असन्नेव स भवति | असद्ब्रह्मेति वेद चेत् | अस्ति ब्रह्मेति चेद्वेद | सन्तमेनं ततो विदुरिति ||",
+            "तस्माद्वा एतस्माद्विज्ञानमयात् । अन्योऽन्तर आत्माऽऽनन्दमयः । तेनैष पूर्णः । स वा एष पुरुषविध एव । तस्य पुरुषविधताम् । अन्वयं पुरुषविधः । तस्य प्रियमेव शिरः । मोदो दक्षिणः पक्षः । प्रमोद उत्तरः पक्षः । आनन्द आत्मा । ब्रह्म पुच्छं प्रतिष्ठा । तदप्येष श्लोको भवति । असन्नेव स भवति । असद्ब्रह्मेति वेद चेत् । अस्ति ब्रह्मेति चेद्वेद । सन्तमेनं ततो विदुरिति ॥",
           transliteration:
             "tasmādvā etasmādvijñānamayāt | anyo'ntara ātmā''nandamayaḥ | tenaiṣa pūrṇaḥ | sa vā eṣa puruṣavidha eva | tasya puruṣavidhatām | anvayaṃ puruṣavidhaḥ | tasya priyameva śiraḥ | modo dakṣiṇaḥ pakṣaḥ | pramoda uttaraḥ pakṣaḥ | ānanda ātmā | brahma pucchaṃ pratiṣṭhā | tadapyeṣa śloko bhavati | asanneva sa bhavati | asadbrahmeti veda cet | asti brahmeti cedveda | santamenaṃ tato viduriti ||",
           translation:
@@ -407,7 +407,7 @@ export const taittiriya: Scripture = {
         {
           id: 8,
           sanskrit:
-            "भीषाऽस्माद्वातः पवते | भीषोदेति सूर्यः | भीषाऽस्मादग्निश्चेन्द्रश्च | मृत्युर्धावति पञ्चम इति | सैषाऽऽनन्दस्य मीमाँ्सा भवति | युवा स्यात्साधुयुवाऽध्यायकः | आशिष्ठो दृढिष्ठो बलिष्ठः | तस्येयं पृथिवी सर्वा वित्तस्य पूर्णा स्यात् | स एको मानुष आनन्दः | ते ये शतं मानुषा आनन्दाः | स एको मनुष्यगन्धर्वाणामानन्दः | श्रोत्रियस्य चाकामहतस्य | ते ये शतं मनुष्यगन्धर्वाणामानन्दाः | स एको देवगन्धर्वाणामानन्दः | श्रोत्रियस्य चाकामहतस्य | ते ये शतं देवगन्धर्वाणामानन्दाः | स एकः पितृणां चिरलोकलोकानामानन्दः | स एक आजानजानां देवानामानन्दः | स एकः कर्मदेवानामानन्दः | स एको देवानामानन्दः | स एक इन्द्रस्यानन्दः | स एको बृहस्पतेरानन्दः | स एकः प्रजापतेरानन्दः | स एको ब्रह्मण आनन्दः | श्रोत्रियस्य चाकामहतस्य ||",
+            "भीषाऽस्माद्वातः पवते । भीषोदेति सूर्यः । भीषाऽस्मादग्निश्चेन्द्रश्च । मृत्युर्धावति पञ्चम इति । सैषाऽऽनन्दस्य मीमाँ्सा भवति । युवा स्यात्साधुयुवाऽध्यायकः । आशिष्ठो दृढिष्ठो बलिष्ठः । तस्येयं पृथिवी सर्वा वित्तस्य पूर्णा स्यात् । स एको मानुष आनन्दः । ते ये शतं मानुषा आनन्दाः । स एको मनुष्यगन्धर्वाणामानन्दः । श्रोत्रियस्य चाकामहतस्य । ते ये शतं मनुष्यगन्धर्वाणामानन्दाः । स एको देवगन्धर्वाणामानन्दः । श्रोत्रियस्य चाकामहतस्य । ते ये शतं देवगन्धर्वाणामानन्दाः । स एकः पितृणां चिरलोकलोकानामानन्दः । स एक आजानजानां देवानामानन्दः । स एकः कर्मदेवानामानन्दः । स एको देवानामानन्दः । स एक इन्द्रस्यानन्दः । स एको बृहस्पतेरानन्दः । स एकः प्रजापतेरानन्दः । स एको ब्रह्मण आनन्दः । श्रोत्रियस्य चाकामहतस्य ॥",
           transliteration:
             "bhīṣā'smādvātaḥ pavate | bhīṣodeti sūryaḥ | bhīṣā'smādagniścendraśca | mṛtyurdhāvati pañcama iti | saiṣā''nandasya mīmāṃsā bhavati | yuvā syātsādhuyuvā'dhyāyakaḥ | āśiṣṭho dṛḍhiṣṭho baliṣṭhaḥ | tasyeyaṃ pṛthivī sarvā vittasya pūrṇā syāt | sa eko mānuṣa ānandaḥ | te ye śataṃ mānuṣā ānandāḥ | sa eko manuṣyagandharvāṇāmānandaḥ | śrotriyasya cākāmahatasya | te ye śataṃ manuṣyagandharvāṇāmānandāḥ | sa eko devagandharvāṇāmānandaḥ | śrotriyasya cākāmahatasya | te ye śataṃ devagandharvāṇāmānandāḥ | sa ekaḥ pitṛṇāṃ ciralokalokānāmānandaḥ | sa eka ājānajānāṃ devānāmānandaḥ | sa ekaḥ karmadevānāmānandaḥ | sa eko devānāmānandaḥ | sa eka indrasyānandaḥ | sa eko bṛhaspaterānandaḥ | sa ekaḥ prajāpaterānandaḥ | sa eko brahmaṇa ānandaḥ | śrotriyasya cākāmahatasya ||",
           translation:
@@ -425,7 +425,7 @@ export const taittiriya: Scripture = {
         {
           id: 9,
           sanskrit:
-            "यतो वाचो निवर्तन्ते | अप्राप्य मनसा सह | आनन्दं ब्रह्मणो विद्वान् | न बिभेति कदाचनेति | एतँ्ह वाव न तपति | किमहँ्साधु नाकरवम् | किमहं पापमकरवमिति | स य एवं विद्वानेते आत्मानँ्स्पृणुते | उभे ह्येवैष एते आत्मानँ्स्पृणुते | य एवं वेद | इत्युपनिषत् ||",
+            "यतो वाचो निवर्तन्ते । अप्राप्य मनसा सह । आनन्दं ब्रह्मणो विद्वान् । न बिभेति कदाचनेति । एतँ्ह वाव न तपति । किमहँ्साधु नाकरवम् । किमहं पापमकरवमिति । स य एवं विद्वानेते आत्मानँ्स्पृणुते । उभे ह्येवैष एते आत्मानँ्स्पृणुते । य एवं वेद । इत्युपनिषत् ॥",
           transliteration:
             "yato vāco nivartante | aprāpya manasā saha | ānandaṃ brahmaṇo vidvān | na bibheti kadācaneti | etagaṃha vāva na tapati | kimahaṃsādhu nākaravam | kimahaṃ pāpamakaravamiti | sa ya evaṃ vidvānete ātmānaṃspṛṇute | ubhe hyevaiṣa ete ātmānaṃspṛṇute | ya evaṃ veda | ityupaniṣat ||",
           translation:
@@ -443,7 +443,7 @@ export const taittiriya: Scripture = {
       
         {
           id: 10,
-          sanskrit: 'अहं वृक्षस्य रेरिवा | कीर्तिः पृष्ठं गिरेरिव | ऊर्ध्वपवित्रो वाजिनीव स्वमृतमस्मि | द्रविणं सवर्चसम् | सुमेधा अमृतोऽक्षितः | इति त्रिशङ्कोर्वेदानुवचनम् ||',
+          sanskrit: 'अहं वृक्षस्य रेरिवा । कीर्तिः पृष्ठं गिरेरिव । ऊर्ध्वपवित्रो वाजिनीव स्वमृतमस्मि । द्रविणं सवर्चसम् । सुमेधा अमृतोऽक्षितः । इति त्रिशङ्कोर्वेदानुवचनम् ॥',
           transliteration: 'ahaṃ vṛkṣasya rerivā | kīrtiḥ pṛṣṭhaṃ gireriva | ūrdhvapavitro vājinīva svamṛtamasmi | draviṇaṃ savarcasam | sumedhā amṛto\'kṣitaḥ | iti triśaṅkorvedānuvacanam ||',
           translation: 'I am the mover of the tree (of life). My glory is like the back of a mountain. Upward-purified, like a swift mare, I am immortal essence. I am wealth full of radiance — a sage of fine intellect, immortal, undecaying. — Thus the Veda-recitation of Triśaṅku.',
           hindi: 'मैं इस वृक्ष (संसार-वृक्ष) का प्रेरक हूँ। मेरी कीर्ति पर्वत के पृष्ठ की तरह है। ऊर्ध्व-पवित्र, वाजी-घोड़ी की तरह — मैं स्व-अमृत हूँ। द्रविण-सम्पन्न, तेजोयुक्त — सुमेधा, अमर, अक्षय हूँ। — यह त्रिशङ्कु का वेद-अनुवचन है।',
@@ -452,7 +452,7 @@ export const taittiriya: Scripture = {
         },
         {
           id: 11,
-          sanskrit: 'वेदमनूच्याचार्योऽन्तेवासिनमनुशास्ति | सत्यं वद | धर्मं चर | स्वाध्यायान्मा प्रमदः | आचार्याय प्रियं धनमाहृत्य प्रजातन्तुं मा व्यवच्छेत्सीः | सत्यान्न प्रमदितव्यम् | धर्मान्न प्रमदितव्यम् | कुशलान्न प्रमदितव्यम् | भूत्यै न प्रमदितव्यम् | स्वाध्यायप्रवचनाभ्यां न प्रमदितव्यम् | देवपितृकार्याभ्यां न प्रमदितव्यम् | मातृदेवो भव | पितृदेवो भव | आचार्यदेवो भव | अतिथिदेवो भव | यान्यनवद्यानि कर्माणि | तानि सेवितव्यानि | नो इतराणि | यान्यस्माकं सुचरितानि | तानि त्वयोपास्यानि | नो इतराणि | ये के चास्मच्छ्रेयाँसो ब्राह्मणाः | तेषां त्वयाऽऽसनेन प्रश्वसितव्यम् | श्रद्धया देयम् | अश्रद्धयाऽदेयम् | श्रिया देयम् | ह्रिया देयम् | भिया देयम् | संविदा देयम् | अथ यदि ते कर्मविचिकित्सा वा वृत्तविचिकित्सा वा स्यात् | ये तत्र ब्राह्मणाः सम्मर्शिनः | युक्ता आयुक्ताः | अलूक्षा धर्मकामाः स्युः | यथा ते तत्र वर्तेरन् | तथा तत्र वर्तेथाः | अथाभ्याख्यातेषु | ये तत्र ब्राह्मणाः सम्मर्शिनः | युक्ता आयुक्ताः | अलूक्षा धर्मकामाः स्युः | यथा ते तेषु वर्तेरन् | तथा तेषु वर्तेथाः | एष आदेशः | एष उपदेशः | एषा वेदोपनिषत् | एतदनुशासनम् | एवमुपासितव्यम् | एवमु चैतदुपास्यम् ||',
+          sanskrit: 'वेदमनूच्याचार्योऽन्तेवासिनमनुशास्ति । सत्यं वद । धर्मं चर । स्वाध्यायान्मा प्रमदः । आचार्याय प्रियं धनमाहृत्य प्रजातन्तुं मा व्यवच्छेत्सीः । सत्यान्न प्रमदितव्यम् । धर्मान्न प्रमदितव्यम् । कुशलान्न प्रमदितव्यम् । भूत्यै न प्रमदितव्यम् । स्वाध्यायप्रवचनाभ्यां न प्रमदितव्यम् । देवपितृकार्याभ्यां न प्रमदितव्यम् । मातृदेवो भव । पितृदेवो भव । आचार्यदेवो भव । अतिथिदेवो भव । यान्यनवद्यानि कर्माणि । तानि सेवितव्यानि । नो इतराणि । यान्यस्माकं सुचरितानि । तानि त्वयोपास्यानि । नो इतराणि । ये के चास्मच्छ्रेयाँसो ब्राह्मणाः । तेषां त्वयाऽऽसनेन प्रश्वसितव्यम् । श्रद्धया देयम् । अश्रद्धयाऽदेयम् । श्रिया देयम् । ह्रिया देयम् । भिया देयम् । संविदा देयम् । अथ यदि ते कर्मविचिकित्सा वा वृत्तविचिकित्सा वा स्यात् । ये तत्र ब्राह्मणाः सम्मर्शिनः । युक्ता आयुक्ताः । अलूक्षा धर्मकामाः स्युः । यथा ते तत्र वर्तेरन् । तथा तत्र वर्तेथाः । अथाभ्याख्यातेषु । ये तत्र ब्राह्मणाः सम्मर्शिनः । युक्ता आयुक्ताः । अलूक्षा धर्मकामाः स्युः । यथा ते तेषु वर्तेरन् । तथा तेषु वर्तेथाः । एष आदेशः । एष उपदेशः । एषा वेदोपनिषत् । एतदनुशासनम् । एवमुपासितव्यम् । एवमु चैतदुपास्यम् ॥',
           transliteration: 'vedamanūcyācāryo\'ntevāsinamanuśāsti | satyaṃ vada | dharmaṃ cara | svādhyāyānmā pramadaḥ | ācāryāya priyaṃ dhanamāhṛtya prajātantuṃ mā vyavacchetsīḥ | satyānna pramaditavyam | dharmānna pramaditavyam | kuśalānna pramaditavyam | bhūtyai na pramaditavyam | svādhyāyapravacanābhyāṃ na pramaditavyam | devapitṛkāryābhyāṃ na pramaditavyam | mātṛdevo bhava | pitṛdevo bhava | ācāryadevo bhava | atithidevo bhava | yānyanavadyāni karmāṇi | tāni sevitavyāni | no itarāṇi | yānyasmākaṃ sucaritāni | tāni tvayopāsyāni | no itarāṇi | ye ke cāsmacchreyāṃso brāhmaṇāḥ | teṣāṃ tvayā\'\'sanena praśvasitavyam | śraddhayā deyam | aśraddhayā\'deyam | śriyā deyam | hriyā deyam | bhiyā deyam | saṃvidā deyam | atha yadi te karmavicikitsā vā vṛttavicikitsā vā syāt | ye tatra brāhmaṇāḥ sammarśinaḥ | yuktā āyuktāḥ | alūkṣā dharmakāmāḥ syuḥ | yathā te tatra varteran | tathā tatra vartethāḥ | athābhyākhyāteṣu | ye tatra brāhmaṇāḥ sammarśinaḥ | yuktā āyuktāḥ | alūkṣā dharmakāmāḥ syuḥ | yathā te teṣu varteran | tathā teṣu vartethāḥ | eṣa ādeśaḥ | eṣa upadeśaḥ | eṣā vedopaniṣat | etadanuśāsanam | evamupāsitavyam | evamu caitadupāsyam ||',
           translation: 'Having taught the Veda, the teacher instructs the student: Speak truth. Walk dharma. Do not neglect svādhyāya. After offering the teacher the gift he values, do not cut off the thread of progeny. Do not be careless about truth, dharma, welfare, prosperity, study-and-teaching, the offerings to the gods and ancestors. Be one to whom mother is god; father is god; teacher is god; guest is god. Whatever actions are blameless — those should be practiced; not others. Whatever good conduct of ours — practice that; not the rest. Whatever brahmins are nobler than we — give them seats; breathe softly in their presence. Give with faith; do not give without faith. Give with abundance; with shyness; with awe; with friendliness. If you have doubt about an action or about conduct, those brahmins who are reflective, qualified, gentle, lovers of dharma — as they would act, so you should act. As regards those accused — same procedure. This is the order. This is the teaching. This is the Veda\'s upaniṣad. This is the instruction. Thus shall it be worshipped; thus indeed worshipped.',
           hindi: 'वेद पढ़ाकर आचार्य अन्तेवासी को अनुशासित करता है — "सत्य बोलो; धर्म का आचरण करो; स्वाध्याय में प्रमाद मत करो; आचार्य को प्रिय धन देकर प्रजा-तन्तु को मत काटो; सत्य से प्रमाद मत करो; धर्म से नहीं; कुशल से नहीं; भूति से नहीं; स्वाध्याय-प्रवचन से नहीं; देव-पितृ कार्य से नहीं। माता देव; पिता देव; आचार्य देव; अतिथि देव। जो अनवद्य (निर्दोष) कर्म हैं — उन्हीं को सेवित करो; अन्य को नहीं। हमारे जो सुचरित हैं — उन्हीं की उपासना करो; अन्य की नहीं। जो हमसे श्रेष्ठ ब्राह्मण हैं — उन्हें आसन देकर शान्त-श्वास से व्यवहार करो। श्रद्धा से दो; अश्रद्धा से नहीं; श्री से दो; ह्री से दो; भय से दो; संविद् से दो। यदि कर्म-संशय या आचरण-संशय हो — वहाँ जो सम्मर्शी, युक्त, अलूक्ष, धर्म-कामी ब्राह्मण हों — वैसे ही व्यवहार करो जैसे वे करें। यह आदेश है; यह उपदेश है; यह वेद-उपनिषद् है; यह अनुशासन है। इस प्रकार उपासना करनी चाहिये; इसी प्रकार उपासित होना चाहिये।"',
@@ -461,7 +461,7 @@ export const taittiriya: Scripture = {
         },
         {
           id: 12,
-          sanskrit: 'शं नो मित्रः शं वरुणः | शं नो भवत्वर्यमा | शं न इन्द्रो बृहस्पतिः | शं नो विष्णुरुरुक्रमः | नमो ब्रह्मणे | नमस्ते वायो | त्वमेव प्रत्यक्षं ब्रह्मासि | त्वामेव प्रत्यक्षं ब्रह्मावादिषम् | ऋतमवादिषम् | सत्यमवादिषम् | तन्मामावीत् | तद्वक्तारमावीत् | आवीन्माम् | आवीद्वक्तारम् | ॐ शान्तिः शान्तिः शान्तिः ||',
+          sanskrit: 'शं नो मित्रः शं वरुणः । शं नो भवत्वर्यमा । शं न इन्द्रो बृहस्पतिः । शं नो विष्णुरुरुक्रमः । नमो ब्रह्मणे । नमस्ते वायो । त्वमेव प्रत्यक्षं ब्रह्मासि । त्वामेव प्रत्यक्षं ब्रह्मावादिषम् । ऋतमवादिषम् । सत्यमवादिषम् । तन्मामावीत् । तद्वक्तारमावीत् । आवीन्माम् । आवीद्वक्तारम् । ॐ शान्तिः शान्तिः शान्तिः ॥',
           transliteration: 'śaṃ no mitraḥ śaṃ varuṇaḥ | śaṃ no bhavatvaryamā | śaṃ na indro bṛhaspatiḥ | śaṃ no viṣṇururukramaḥ | namo brahmaṇe | namaste vāyo | tvameva pratyakṣaṃ brahmāsi | tvāmeva pratyakṣaṃ brahmāvādiṣam | ṛtamavādiṣam | satyamavādiṣam | tanmāmāvīt | tadvaktāramāvīt | āvīnmām | āvīdvaktāram | oṃ śāntiḥ śāntiḥ śāntiḥ ||',
           translation: 'May Mitra be propitious to us; may Varuṇa be propitious; Aryaman; Indra and Bṛhaspati; far-striding Viṣṇu. Salutation to Brahman. Salutation to thee, Vāyu — thou alone art the visible Brahman; I have declared thee alone the visible Brahman. I have spoken ṛta; I have spoken satya. That has protected me; that has protected the speaker. It has protected me; it has protected the speaker. OM. Peace, peace, peace.',
           hindi: 'मित्र शान्त हों, वरुण शान्त हों, अर्यमा शान्त हों, इन्द्र-बृहस्पति शान्त हों, उरुक्रम विष्णु शान्त हों। ब्रह्म को नमस्कार। हे वायु, तुम्हें नमस्कार — तुम्हीं प्रत्यक्ष ब्रह्म हो; तुम्हीं को प्रत्यक्ष ब्रह्म कहा। मैंने ऋत बोला; सत्य बोला। उसने मेरी रक्षा की; वक्ता की भी रक्षा की। ॐ शान्तिः शान्तिः शान्तिः।',
@@ -479,7 +479,7 @@ export const taittiriya: Scripture = {
         {
           id: 1,
           sanskrit:
-            "भृगुर्वै वारुणिः | वरुणं पितरमुपससार | अधीहि भगवो ब्रह्मेति | तस्मा एतत्प्रोवाच | अन्नं प्राणं चक्षुः श्रोत्रं मनो वाचमिति | तँ्होवाच | यतो वा इमानि भूतानि जायन्ते | येन जातानि जीवन्ति | यत्प्रयन्त्यभिसंविशन्ति | तद्विजिज्ञासस्व | तद्ब्रह्मेति | स तपोऽतप्यत | स तपस्तप्त्वा ||",
+            "भृगुर्वै वारुणिः । वरुणं पितरमुपससार । अधीहि भगवो ब्रह्मेति । तस्मा एतत्प्रोवाच । अन्नं प्राणं चक्षुः श्रोत्रं मनो वाचमिति । तँ्होवाच । यतो वा इमानि भूतानि जायन्ते । येन जातानि जीवन्ति । यत्प्रयन्त्यभिसंविशन्ति । तद्विजिज्ञासस्व । तद्ब्रह्मेति । स तपोऽतप्यत । स तपस्तप्त्वा ॥",
           transliteration:
             "bhṛgurvai vāruṇiḥ | varuṇaṃ pitaramupasasāra | adhīhi bhagavo brahmeti | tasmā etatprovāca | annaṃ prāṇaṃ cakṣuḥ śrotraṃ mano vācamiti | tagaṃhovāca | yato vā imāni bhūtāni jāyante | yena jātāni jīvanti | yatprayantyabhisaṃviśanti | tadvijijñāsasva | tadbrahmeti | sa tapo'tapyata | sa tapastaptvā ||",
           translation:
@@ -497,7 +497,7 @@ export const taittiriya: Scripture = {
         {
           id: 2,
           sanskrit:
-            "अन्नं ब्रह्मेति व्यजानात् | अन्नाद्ध्येव खल्विमानि भूतानि जायन्ते | अन्नेन जातानि जीवन्ति | अन्नं प्रयन्त्यभिसंविशन्तीति | तद्विज्ञाय | पुनरेव वरुणं पितरमुपससार | अधीहि भगवो ब्रह्मेति | तँ्होवाच | तपसा ब्रह्म विजिज्ञासस्व | तपो ब्रह्मेति | स तपोऽतप्यत | स तपस्तप्त्वा ||",
+            "अन्नं ब्रह्मेति व्यजानात् । अन्नाद्ध्येव खल्विमानि भूतानि जायन्ते । अन्नेन जातानि जीवन्ति । अन्नं प्रयन्त्यभिसंविशन्तीति । तद्विज्ञाय । पुनरेव वरुणं पितरमुपससार । अधीहि भगवो ब्रह्मेति । तँ्होवाच । तपसा ब्रह्म विजिज्ञासस्व । तपो ब्रह्मेति । स तपोऽतप्यत । स तपस्तप्त्वा ॥",
           transliteration:
             "annaṃ brahmeti vyajānāt | annāddhyeva khalvimāni bhūtāni jāyante | annena jātāni jīvanti | annaṃ prayantyabhisaṃviśantīti | tadvijñāya | punareva varuṇaṃ pitaramupasasāra | adhīhi bhagavo brahmeti | tagaṃhovāca | tapasā brahma vijijñāsasva | tapo brahmeti | sa tapo'tapyata | sa tapastaptvā ||",
           translation:
@@ -515,7 +515,7 @@ export const taittiriya: Scripture = {
         {
           id: 3,
           sanskrit:
-            "प्राणो ब्रह्मेति व्यजानात् | प्राणाद्ध्येव खल्विमानि भूतानि जायन्ते | प्राणेन जातानि जीवन्ति | प्राणं प्रयन्त्यभिसंविशन्तीति | तद्विज्ञाय पुनरेव वरुणं पितरमुपससार | अधीहि भगवो ब्रह्मेति | तँ्होवाच | तपसा ब्रह्म विजिज्ञासस्व | तपो ब्रह्मेति | स तपोऽतप्यत | स तपस्तप्त्वा ||",
+            "प्राणो ब्रह्मेति व्यजानात् । प्राणाद्ध्येव खल्विमानि भूतानि जायन्ते । प्राणेन जातानि जीवन्ति । प्राणं प्रयन्त्यभिसंविशन्तीति । तद्विज्ञाय पुनरेव वरुणं पितरमुपससार । अधीहि भगवो ब्रह्मेति । तँ्होवाच । तपसा ब्रह्म विजिज्ञासस्व । तपो ब्रह्मेति । स तपोऽतप्यत । स तपस्तप्त्वा ॥",
           transliteration:
             "prāṇo brahmeti vyajānāt | prāṇāddhyeva khalvimāni bhūtāni jāyante | prāṇena jātāni jīvanti | prāṇaṃ prayantyabhisaṃviśantīti | tadvijñāya punareva varuṇaṃ pitaramupasasāra | adhīhi bhagavo brahmeti | tagaṃhovāca | tapasā brahma vijijñāsasva | tapo brahmeti | sa tapo'tapyata | sa tapastaptvā ||",
           translation:
@@ -533,7 +533,7 @@ export const taittiriya: Scripture = {
         {
           id: 4,
           sanskrit:
-            "मनो ब्रह्मेति व्यजानात् | मनसो ह्येव खल्विमानि भूतानि जायन्ते | मनसा जातानि जीवन्ति | मनः प्रयन्त्यभिसंविशन्तीति | तद्विज्ञाय पुनरेव वरुणं पितरमुपससार | अधीहि भगवो ब्रह्मेति | तँ्होवाच | तपसा ब्रह्म विजिज्ञासस्व | तपो ब्रह्मेति | स तपोऽतप्यत | स तपस्तप्त्वा ||",
+            "मनो ब्रह्मेति व्यजानात् । मनसो ह्येव खल्विमानि भूतानि जायन्ते । मनसा जातानि जीवन्ति । मनः प्रयन्त्यभिसंविशन्तीति । तद्विज्ञाय पुनरेव वरुणं पितरमुपससार । अधीहि भगवो ब्रह्मेति । तँ्होवाच । तपसा ब्रह्म विजिज्ञासस्व । तपो ब्रह्मेति । स तपोऽतप्यत । स तपस्तप्त्वा ॥",
           transliteration:
             "mano brahmeti vyajānāt | manaso hyeva khalvimāni bhūtāni jāyante | manasā jātāni jīvanti | manaḥ prayantyabhisaṃviśantīti | tadvijñāya punareva varuṇaṃ pitaramupasasāra | adhīhi bhagavo brahmeti | tagaṃhovāca | tapasā brahma vijijñāsasva | tapo brahmeti | sa tapo'tapyata | sa tapastaptvā ||",
           translation:
@@ -551,7 +551,7 @@ export const taittiriya: Scripture = {
         {
           id: 5,
           sanskrit:
-            "विज्ञानं ब्रह्मेति व्यजानात् | विज्ञानाद्ध्येव खल्विमानि भूतानि जायन्ते | विज्ञानेन जातानि जीवन्ति | विज्ञानं प्रयन्त्यभिसंविशन्तीति | तद्विज्ञाय पुनरेव वरुणं पितरमुपससार | अधीहि भगवो ब्रह्मेति | तँ्होवाच | तपसा ब्रह्म विजिज्ञासस्व | तपो ब्रह्मेति | स तपोऽतप्यत | स तपस्तप्त्वा ||",
+            "विज्ञानं ब्रह्मेति व्यजानात् । विज्ञानाद्ध्येव खल्विमानि भूतानि जायन्ते । विज्ञानेन जातानि जीवन्ति । विज्ञानं प्रयन्त्यभिसंविशन्तीति । तद्विज्ञाय पुनरेव वरुणं पितरमुपससार । अधीहि भगवो ब्रह्मेति । तँ्होवाच । तपसा ब्रह्म विजिज्ञासस्व । तपो ब्रह्मेति । स तपोऽतप्यत । स तपस्तप्त्वा ॥",
           transliteration:
             "vijñānaṃ brahmeti vyajānāt | vijñānāddhyeva khalvimāni bhūtāni jāyante | vijñānena jātāni jīvanti | vijñānaṃ prayantyabhisaṃviśantīti | tadvijñāya punareva varuṇaṃ pitaramupasasāra | adhīhi bhagavo brahmeti | tagaṃhovāca | tapasā brahma vijijñāsasva | tapo brahmeti | sa tapo'tapyata | sa tapastaptvā ||",
           translation:
@@ -569,7 +569,7 @@ export const taittiriya: Scripture = {
         {
           id: 6,
           sanskrit:
-            "आनन्दो ब्रह्मेति व्यजानात् | आनन्दाद्ध्येव खल्विमानि भूतानि जायन्ते | आनन्देन जातानि जीवन्ति | आनन्दं प्रयन्त्यभिसंविशन्तीति | सैषा भार्गवी वारुणी विद्या | परमे व्योमन् प्रतिष्ठिता | स य एवं वेद प्रतितिष्ठति | अन्नवानन्नादो भवति | महान् भवति प्रजया पशुभिर्ब्रह्मवर्चसेन | महान् कीर्त्या ||",
+            "आनन्दो ब्रह्मेति व्यजानात् । आनन्दाद्ध्येव खल्विमानि भूतानि जायन्ते । आनन्देन जातानि जीवन्ति । आनन्दं प्रयन्त्यभिसंविशन्तीति । सैषा भार्गवी वारुणी विद्या । परमे व्योमन् प्रतिष्ठिता । स य एवं वेद प्रतितिष्ठति । अन्नवानन्नादो भवति । महान् भवति प्रजया पशुभिर्ब्रह्मवर्चसेन । महान् कीर्त्या ॥",
           transliteration:
             "ānando brahmeti vyajānāt | ānandāddhyeva khalvimāni bhūtāni jāyante | ānandena jātāni jīvanti | ānandaṃ prayantyabhisaṃviśantīti | saiṣā bhārgavī vāruṇī vidyā | parame vyoman pratiṣṭhitā | sa ya evaṃ veda pratitiṣṭhati | annavānannādo bhavati | mahān bhavati prajayā paśubhirbrahmavarcasena | mahān kīrtyā ||",
           translation:
@@ -587,7 +587,7 @@ export const taittiriya: Scripture = {
         {
           id: 7,
           sanskrit:
-            "अन्नं न निन्द्यात् | तद्व्रतम् | प्राणो वा अन्नम् | शरीरमन्नादम् | प्राणे शरीरं प्रतिष्ठितम् | शरीरे प्राणः प्रतिष्ठितः | तदेतदन्नमन्ने प्रतिष्ठितम् | स य एतदन्नमन्ने प्रतिष्ठितं वेद प्रतितिष्ठति | अन्नवानन्नादो भवति | महान् भवति प्रजया पशुभिर्ब्रह्मवर्चसेन | महान् कीर्त्या ||",
+            "अन्नं न निन्द्यात् । तद्व्रतम् । प्राणो वा अन्नम् । शरीरमन्नादम् । प्राणे शरीरं प्रतिष्ठितम् । शरीरे प्राणः प्रतिष्ठितः । तदेतदन्नमन्ने प्रतिष्ठितम् । स य एतदन्नमन्ने प्रतिष्ठितं वेद प्रतितिष्ठति । अन्नवानन्नादो भवति । महान् भवति प्रजया पशुभिर्ब्रह्मवर्चसेन । महान् कीर्त्या ॥",
           transliteration:
             "annaṃ na nindyāt | tadvratam | prāṇo vā annam | śarīramannādam | prāṇe śarīraṃ pratiṣṭhitam | śarīre prāṇaḥ pratiṣṭhitaḥ | tadetadannamanne pratiṣṭhitam | sa ya etadannamanne pratiṣṭhitaṃ veda pratitiṣṭhati | annavānannādo bhavati | mahān bhavati prajayā paśubhirbrahmavarcasena | mahān kīrtyā ||",
           translation:
@@ -605,7 +605,7 @@ export const taittiriya: Scripture = {
         {
           id: 8,
           sanskrit:
-            "अन्नं न परिचक्षीत | तद्व्रतम् | आपो वा अन्नम् | ज्योतिरन्नादम् | अप्सु ज्योतिः प्रतिष्ठितम् | ज्योतिष्यापः प्रतिष्ठिताः | तदेतदन्नमन्ने प्रतिष्ठितम् | स य एतदन्नमन्ने प्रतिष्ठितं वेद प्रतितिष्ठति | अन्नवानन्नादो भवति | महान् भवति प्रजया पशुभिर्ब्रह्मवर्चसेन | महान् कीर्त्या ||",
+            "अन्नं न परिचक्षीत । तद्व्रतम् । आपो वा अन्नम् । ज्योतिरन्नादम् । अप्सु ज्योतिः प्रतिष्ठितम् । ज्योतिष्यापः प्रतिष्ठिताः । तदेतदन्नमन्ने प्रतिष्ठितम् । स य एतदन्नमन्ने प्रतिष्ठितं वेद प्रतितिष्ठति । अन्नवानन्नादो भवति । महान् भवति प्रजया पशुभिर्ब्रह्मवर्चसेन । महान् कीर्त्या ॥",
           transliteration:
             "annaṃ na paricakṣīta | tadvratam | āpo vā annam | jyotirannādam | apsu jyotiḥ pratiṣṭhitam | jyotiṣyāpaḥ pratiṣṭhitāḥ | tadetadannamanne pratiṣṭhitam | sa ya etadannamanne pratiṣṭhitaṃ veda pratitiṣṭhati | annavānannādo bhavati | mahān bhavati prajayā paśubhirbrahmavarcasena | mahān kīrtyā ||",
           translation:
@@ -623,7 +623,7 @@ export const taittiriya: Scripture = {
         {
           id: 9,
           sanskrit:
-            "अन्नं बहु कुर्वीत | तद्व्रतम् | पृथिवी वा अन्नम् | आकाशोऽन्नादः | पृथिव्यामाकाशः प्रतिष्ठितः | आकाशे पृथिवी प्रतिष्ठिता | तदेतदन्नमन्ने प्रतिष्ठितम् | स य एतदन्नमन्ने प्रतिष्ठितं वेद प्रतितिष्ठति | अन्नवानन्नादो भवति | महान् भवति प्रजया पशुभिर्ब्रह्मवर्चसेन | महान् कीर्त्या ||",
+            "अन्नं बहु कुर्वीत । तद्व्रतम् । पृथिवी वा अन्नम् । आकाशोऽन्नादः । पृथिव्यामाकाशः प्रतिष्ठितः । आकाशे पृथिवी प्रतिष्ठिता । तदेतदन्नमन्ने प्रतिष्ठितम् । स य एतदन्नमन्ने प्रतिष्ठितं वेद प्रतितिष्ठति । अन्नवानन्नादो भवति । महान् भवति प्रजया पशुभिर्ब्रह्मवर्चसेन । महान् कीर्त्या ॥",
           transliteration:
             "annaṃ bahu kurvīta | tadvratam | pṛthivī vā annam | ākāśo'nnādaḥ | pṛthivyāmākāśaḥ pratiṣṭhitaḥ | ākāśe pṛthivī pratiṣṭhitā | tadetadannamanne pratiṣṭhitam | sa ya etadannamanne pratiṣṭhitaṃ veda pratitiṣṭhati | annavānannādo bhavati | mahān bhavati prajayā paśubhirbrahmavarcasena | mahān kīrtyā ||",
           translation:
@@ -641,7 +641,7 @@ export const taittiriya: Scripture = {
         {
           id: 10,
           sanskrit:
-            "न कञ्चन वसतौ प्रत्याचक्षीत | तद्व्रतम् | तस्माद्यया कया च विधया बह्वन्नं प्राप्नुयात् | अराध्यस्मा अन्नमित्याचक्षते | एतद्वै मुखतोऽन्नँ्राद्धम् | मुखतोऽस्मा अन्नँ्राध्यते | एतद्वै मध्यतोऽन्नँ्राद्धम् | मध्यतोऽस्मा अन्नँ्राध्यते | एतद्वा अन्ततोऽन्नँ्राद्धम् | अन्ततोऽस्मा अन्नँ्राध्यते | य एवं वेद | क्षेम इति वाचि | योगक्षेम इति प्राणापानयोः | कर्मेति हस्तयोः | गतिरिति पादयोः | विमुक्तिरिति पायौ | इति मानुषीः समाज्ञाः | अथ दैवीः | तृप्तिरिति वृष्टौ | बलमिति विद्युति | यश इति पशुषु | ज्योतिरिति नक्षत्रेषु | प्रजातिरमृतमानन्द इत्युपस्थे | सर्वमित्याकाशे | तत्प्रतिष्ठेत्युपासीत | प्रतिष्ठावान् भवति | तन्महमिति | महानुपासीत | महान् भवति | तन्मन इत्युपासीत | मानवान् भवति | तन्नम इत्युपासीत | नम्यन्तेऽस्मै कामाः | तद्ब्रह्मेत्युपासीत | ब्रह्मवान् भवति | तद्ब्रह्मणः परिमर इत्युपासीत | पर्येणं म्रियन्ते द्विषन्तः सपत्नाः | परि येऽप्रिया भ्रातृव्याः | स यश्चायं पुरुषे | यश्चासावादित्ये | स एकः | स य एवंवित् | अस्माल्लोकात्प्रेत्य | एतमन्नमयमात्मानमुपसंक्रम्य | एतं प्राणमयमात्मानमुपसंक्रम्य | एतं मनोमयमात्मानमुपसंक्रम्य | एतं विज्ञानमयमात्मानमुपसंक्रम्य | एतमानन्दमयमात्मानमुपसंक्रम्य | इमाँ्लोकान् कामान्नी कामरूप्यनुसंचरन् | एतत्साम गायन्नास्ते | हा३वु हा३वु हा३वु | अहमन्नमहमन्नमहमन्नम् | अहमन्नादोऽहमन्नादोऽहमन्नादः | अहं श्लोककृदहं श्लोककृदहं श्लोककृत् | अहमस्मि प्रथमजा ऋतस्य | पूर्वं देवेभ्योऽमृतस्य नाभायि | यो मा ददाति स इदेव माऽऽवाः | अहमन्नमन्नमदन्तमादि | अहं विश्वं भुवनमभ्यभवाम् | सुवर्ण ज्योतीः | य एवं वेद | इत्युपनिषत् ||",
+            "न कञ्चन वसतौ प्रत्याचक्षीत । तद्व्रतम् । तस्माद्यया कया च विधया बह्वन्नं प्राप्नुयात् । अराध्यस्मा अन्नमित्याचक्षते । एतद्वै मुखतोऽन्नँ्राद्धम् । मुखतोऽस्मा अन्नँ्राध्यते । एतद्वै मध्यतोऽन्नँ्राद्धम् । मध्यतोऽस्मा अन्नँ्राध्यते । एतद्वा अन्ततोऽन्नँ्राद्धम् । अन्ततोऽस्मा अन्नँ्राध्यते । य एवं वेद । क्षेम इति वाचि । योगक्षेम इति प्राणापानयोः । कर्मेति हस्तयोः । गतिरिति पादयोः । विमुक्तिरिति पायौ । इति मानुषीः समाज्ञाः । अथ दैवीः । तृप्तिरिति वृष्टौ । बलमिति विद्युति । यश इति पशुषु । ज्योतिरिति नक्षत्रेषु । प्रजातिरमृतमानन्द इत्युपस्थे । सर्वमित्याकाशे । तत्प्रतिष्ठेत्युपासीत । प्रतिष्ठावान् भवति । तन्महमिति । महानुपासीत । महान् भवति । तन्मन इत्युपासीत । मानवान् भवति । तन्नम इत्युपासीत । नम्यन्तेऽस्मै कामाः । तद्ब्रह्मेत्युपासीत । ब्रह्मवान् भवति । तद्ब्रह्मणः परिमर इत्युपासीत । पर्येणं म्रियन्ते द्विषन्तः सपत्नाः । परि येऽप्रिया भ्रातृव्याः । स यश्चायं पुरुषे । यश्चासावादित्ये । स एकः । स य एवंवित् । अस्माल्लोकात्प्रेत्य । एतमन्नमयमात्मानमुपसंक्रम्य । एतं प्राणमयमात्मानमुपसंक्रम्य । एतं मनोमयमात्मानमुपसंक्रम्य । एतं विज्ञानमयमात्मानमुपसंक्रम्य । एतमानन्दमयमात्मानमुपसंक्रम्य । इमाँ्लोकान् कामान्नी कामरूप्यनुसंचरन् । एतत्साम गायन्नास्ते । हा३वु हा३वु हा३वु । अहमन्नमहमन्नमहमन्नम् । अहमन्नादोऽहमन्नादोऽहमन्नादः । अहं श्लोककृदहं श्लोककृदहं श्लोककृत् । अहमस्मि प्रथमजा ऋतस्य । पूर्वं देवेभ्योऽमृतस्य नाभायि । यो मा ददाति स इदेव माऽऽवाः । अहमन्नमन्नमदन्तमादि । अहं विश्वं भुवनमभ्यभवाम् । सुवर्ण ज्योतीः । य एवं वेद । इत्युपनिषत् ॥",
           transliteration:
             "na kañcana vasatau pratyācakṣīta | tadvratam | tasmādyayā kayā ca vidhayā bahvannaṃ prāpnuyāt | arādhyasmā annamityācakṣate | etadvai mukhato'nnaṃrāddham | mukhato'smā annaṃrādhyate | etadvai madhyato'nnaṃrāddham | madhyato'smā annaṃrādhyate | etadvā antato'nnaṃrāddham | antato'smā annaṃrādhyate | ya evaṃ veda | kṣema iti vāci | yogakṣema iti prāṇāpānayoḥ | karmeti hastayoḥ | gatiriti pādayoḥ | vimuktiriti pāyau | iti mānuṣīḥ samājñāḥ | atha daivīḥ | tṛptiriti vṛṣṭau | balamiti vidyuti | yaśa iti paśuṣu | jyotiriti nakṣatreṣu | prajātiramṛtamānanda ityupasthe | sarvamityākāśe | tatpratiṣṭhetyupāsīta | pratiṣṭhāvān bhavati | tanmahamiti | mahānupāsīta | mahān bhavati | tanmana ityupāsīta | mānavān bhavati | tannama ityupāsīta | namyante'smai kāmāḥ | tadbrahmetyupāsīta | brahmavān bhavati | tadbrahmaṇaḥ parimara ityupāsīta | paryeṇaṃ mriyante dviṣantaḥ sapatnāḥ | pari ye'priyā bhrātṛvyāḥ | sa yaścāyaṃ puruṣe | yaścāsāvāditye | sa ekaḥ | sa ya evaṃvit | asmāllokātpretya | etamannamayamātmānamupasaṃkramya | etaṃ prāṇamayamātmānamupasaṃkramya | etaṃ manomayamātmānamupasaṃkramya | etaṃ vijñānamayamātmānamupasaṃkramya | etamānandamayamātmānamupasaṃkramya | imāṃlokān kāmānnī kāmarūpyanusaṃcaran | etatsāma gāyannāste | hā³vu hā³vu hā³vu | ahamannamahamannamahamannam | ahamannādo'hamannādo'hamannādaḥ | ahaṃ ślokakṛdahaṃ ślokakṛdahaṃ ślokakṛt | ahamasmi prathamajā ṛtasya | pūrvaṃ devebhyo'mṛtasya nābhāyi | yo mā dadāti sa ideva mā''vāḥ | ahamannamannamadantamādi | ahaṃ viśvaṃ bhuvanamabhyabhavām | suvarṇa jyotīḥ | ya evaṃ veda | ityupaniṣat ||",
           translation:

@@ -897,6 +897,7 @@ export function FullChapterVerses({ scriptureId, category, chapterId, curatedVer
                     english: showEnglish,
                     commentary: showCommentary,
                   }}
+                  scriptureId={scriptureId}
                   chapterId={chapterId}
                   category={category}
                   scriptureTitle={scriptureTitle ?? scriptureId}

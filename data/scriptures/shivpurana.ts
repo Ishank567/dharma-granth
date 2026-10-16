@@ -17,7 +17,7 @@ export const shivpurana: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'शिवं शान्तं तमजरं अमरं विश्वपूजितम् | सदाशिवं नमस्यामि भक्त्याऽहं शरणं गतः ||',
+          sanskrit: 'शिवं शान्तं तमजरं अमरं विश्वपूजितम् । सदाशिवं नमस्यामि भक्त्याऽहं शरणं गतः ॥',
           transliteration: 'śivaṃ śāntaṃ tamajaram amaraṃ viśvapūjitam | sadāśivaṃ namasyāmi bhaktyāhaṃ śaraṇaṃ gataḥ ||',
           translation: 'The Auspicious, the Peaceful, the Undying, the Immortal, worshipped by all — I bow to Sadashiva with devotion, seeking his refuge.',
           hindi: 'शिव — जो शांत हैं, अजर हैं, अमर हैं, समस्त विश्व द्वारा पूजित हैं — उन सदाशिव को मैं भक्तिपूर्वक नमस्कार करता हूँ और उनकी शरण लेता हूँ।',
@@ -28,7 +28,7 @@ export const shivpurana: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'एको देवः केशवो वा शिवो वा हंसो वा सूर्यो वा सर्वश्रेष्ठः | अर्चन्त्येनं विप्रा होतारश्च याजमानाश्च सर्वे ||',
+          sanskrit: 'एको देवः केशवो वा शिवो वा हंसो वा सूर्यो वा सर्वश्रेष्ठः । अर्चन्त्येनं विप्रा होतारश्च याजमानाश्च सर्वे ॥',
           transliteration: 'eko devaḥ keśavo vā śivo vā haṃso vā sūryo vā sarvaśreṣṭhaḥ | arcantyenaṃ viprā hotāraśca yājanānāśca sarve ||',
           translation: 'The one God — whether called Keshava (Vishnu) or Shiva or Hamsa (the Swan) or Surya (Sun) — is supreme. All Brahmins, priests, and sacrificers worship that one.',
           hindi: 'एक ही देव — चाहे केशव हो, शिव हो, हंस हो या सूर्य हो — सर्वश्रेष्ठ है। सभी विप्र, होता और यजमान उसी की पूजा करते हैं।',
@@ -40,7 +40,7 @@ export const shivpurana: Scripture = {
       
         {
           id: 1000,
-          sanskrit: 'शिवं शान्तं तमजरं अमरं विश्वपूजितम् | सदाशिवं नमस्यामि भक्त्याऽहं शरणं गतः ||',
+          sanskrit: 'शिवं शान्तं तमजरं अमरं विश्वपूजितम् । सदाशिवं नमस्यामि भक्त्याऽहं शरणं गतः ॥',
           transliteration: 'śivaṃ śāntaṃ tamajaram amaraṃ viśvapūjitam | sadāśivaṃ namasyāmi bhaktyāhaṃ śaraṇaṃ gataḥ ||',
           translation: 'The Auspicious, the Peaceful, the Undying, the Immortal, worshipped by all — I bow to Sadashiva with devotion, seeking his refuge.',
           hindi: 'शिव — जो शांत हैं, अजर हैं, अमर हैं, समस्त विश्व द्वारा पूजित हैं — उन सदाशिव को मैं भक्तिपूर्वक नमस्कार करता हूँ और उनकी शरण लेता हूँ।',
@@ -49,7 +49,7 @@ export const shivpurana: Scripture = {
         },
         {
           id: 1005,
-          sanskrit: 'मृत्पिण्ड इव तैलाभं शिवज्ञानं प्रदीपवत् | तेनाऽऽदर्शो हृदयो मे भस्मीभूतं विलोकयेत् ||',
+          sanskrit: 'मृत्पिण्ड इव तैलाभं शिवज्ञानं प्रदीपवत् । तेनाऽऽदर्शो हृदयो मे भस्मीभूतं विलोकयेत् ॥',
           transliteration: 'mṛtpiṇḍa iva tailābhaṃ śivajñānaṃ pradīpavat | tenā\'\'darśo hṛdayo me bhasmībhūtaṃ vilokayet ||',
           translation: 'The knowledge of Shiva is like a lamp to a clay pot soaked in oil — my heart, becoming a mirror through it, beholds the universe as ash.',
           hindi: 'शिवज्ञान तेल से तर मृत्पिण्ड (मिट्टी के बर्तन) के लिए दीपक के समान है — उससे मेरा हृदय आदर्श बनकर विश्व को भस्म रूप में देखता है।',
@@ -58,7 +58,7 @@ export const shivpurana: Scripture = {
         },
         {
           id: 1022,
-          sanskrit: 'शिवः शक्त्या युक्तो यदि भवति शक्तः प्रभवितुं न चेदेवं देवो न खलु कुशलः स्पन्दितुमपि | अतस्त्वामाराध्यां हरिहरविरिञ्चादिभिरपि प्रणन्तुं स्तोतुं वा कथमकृतपुण्यः प्रभवति ||',
+          sanskrit: 'शिवः शक्त्या युक्तो यदि भवति शक्तः प्रभवितुं न चेदेवं देवो न खलु कुशलः स्पन्दितुमपि । अतस्त्वामाराध्यां हरिहरविरिञ्चादिभिरपि प्रणन्तुं स्तोतुं वा कथमकृतपुण्यः प्रभवति ॥',
           transliteration: 'śivaḥ śaktyā yukto yadi bhavati śaktaḥ prabhavituṃ na cedevaṃ devo na khalu kuśalaḥ spanditumapi | atastvāmārādhyāṃ hariharaviriñcādibhirapi praṇantuṃ stotuṃ vā kathamakṛtapuṇyaḥ prabhavati ||',
           translation: 'Shiva, joined with Shakti, has the power to create. Without her, the god cannot even stir. Therefore, how can one without merit worship you — praised even by Hari, Hara, and Brahma — or even address you?',
           hindi: 'शिव, शक्ति से युक्त होने पर ही सृजन करने में सक्षम होते हैं। उसके बिना देव हिल भी नहीं सकते। इसलिए हरि, हर और ब्रह्मा द्वारा भी स्तुत तुम्हारी — पुण्यहीन व्यक्ति पूजा कैसे कर सकता है?',
@@ -74,7 +74,7 @@ export const shivpurana: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'नकारो भूमिरित्याहुर्मकारं वारि गीयते | शिकारस्तेज इत्याहुर्वकारो वायुरेव च | यकारोऽकाश इत्याहुः पञ्चाक्षरमिदं परम् ||',
+          sanskrit: 'नकारो भूमिरित्याहुर्मकारं वारि गीयते । शिकारस्तेज इत्याहुर्वकारो वायुरेव च । यकारोऽकाश इत्याहुः पञ्चाक्षरमिदं परम् ॥',
           transliteration: 'nakāro bhūmirityāhurmakāraṃ vāri gīyate | śikārasteja ityāhurvakāro vāyureva ca | yakāro\'kāśa ityāhuḥ pañcākṣaramidaṃ param ||',
           translation: 'Na is earth, Ma is water, Shi is fire, Va is air, Ya is space — this five-syllable mantra is the supreme.',
           hindi: 'न = पृथ्वी; म = जल; शि = अग्नि; व = वायु; य = आकाश — यह पाँच अक्षरों वाला पञ्चाक्षर मन्त्र परम है।',
@@ -86,7 +86,7 @@ export const shivpurana: Scripture = {
       
         {
           id: 1000,
-          sanskrit: 'नकारो भूमिरित्याहुर्मकारं वारि गीयते | शिकारस्तेज इत्याहुर्वकारो वायुरेव च | यकारोऽकाश इत्याहुः पञ्चाक्षरमिदं परम् ||',
+          sanskrit: 'नकारो भूमिरित्याहुर्मकारं वारि गीयते । शिकारस्तेज इत्याहुर्वकारो वायुरेव च । यकारोऽकाश इत्याहुः पञ्चाक्षरमिदं परम् ॥',
           transliteration: 'nakāro bhūmirityāhurmakāraṃ vāri gīyate | śikārasteja ityāhurvakāro vāyureva ca | yakāro\'kāśa ityāhuḥ pañcākṣaramidaṃ param ||',
           translation: 'Na is earth, Ma is water, Shi is fire, Va is air, Ya is space — this five-syllable mantra is the supreme.',
           hindi: 'न = पृथ्वी; म = जल; शि = अग्नि; व = वायु; य = आकाश — यह पाँच अक्षरों वाला पञ्चाक्षर मन्त्र परम है।',
@@ -95,7 +95,7 @@ export const shivpurana: Scripture = {
         },
         {
           id: 1002,
-          sanskrit: 'एको देवः केशवो वा शिवो वा हंसो वा सूर्यो वा सर्वश्रेष्ठः | अर्चन्त्येनं विप्रा होतारश्च याजमानाश्च सर्वे ||',
+          sanskrit: 'एको देवः केशवो वा शिवो वा हंसो वा सूर्यो वा सर्वश्रेष्ठः । अर्चन्त्येनं विप्रा होतारश्च याजमानाश्च सर्वे ॥',
           transliteration: 'eko devaḥ keśavo vā śivo vā haṃso vā sūryo vā sarvaśreṣṭhaḥ | arcantyenaṃ viprā hotāraśca yājanānāśca sarve ||',
           translation: 'The one God — whether called Keshava (Vishnu) or Shiva or Hamsa (the Swan) or Surya (Sun) — is supreme. All Brahmins, priests, and sacrificers worship that one.',
           hindi: 'एक ही देव — चाहे केशव हो, शिव हो, हंस हो या सूर्य हो — सर्वश्रेष्ठ है। सभी विप्र, होता और यजमान उसी की पूजा करते हैं।',
@@ -104,7 +104,7 @@ export const shivpurana: Scripture = {
         },
         {
           id: 1005,
-          sanskrit: 'मृत्पिण्ड इव तैलाभं शिवज्ञानं प्रदीपवत् | तेनाऽऽदर्शो हृदयो मे भस्मीभूतं विलोकयेत् ||',
+          sanskrit: 'मृत्पिण्ड इव तैलाभं शिवज्ञानं प्रदीपवत् । तेनाऽऽदर्शो हृदयो मे भस्मीभूतं विलोकयेत् ॥',
           transliteration: 'mṛtpiṇḍa iva tailābhaṃ śivajñānaṃ pradīpavat | tenā\'\'darśo hṛdayo me bhasmībhūtaṃ vilokayet ||',
           translation: 'The knowledge of Shiva is like a lamp to a clay pot soaked in oil — my heart, becoming a mirror through it, beholds the universe as ash.',
           hindi: 'शिवज्ञान तेल से तर मृत्पिण्ड (मिट्टी के बर्तन) के लिए दीपक के समान है — उससे मेरा हृदय आदर्श बनकर विश्व को भस्म रूप में देखता है।',
@@ -113,7 +113,7 @@ export const shivpurana: Scripture = {
         },
         {
           id: 1022,
-          sanskrit: 'शिवः शक्त्या युक्तो यदि भवति शक्तः प्रभवितुं न चेदेवं देवो न खलु कुशलः स्पन्दितुमपि | अतस्त्वामाराध्यां हरिहरविरिञ्चादिभिरपि प्रणन्तुं स्तोतुं वा कथमकृतपुण्यः प्रभवति ||',
+          sanskrit: 'शिवः शक्त्या युक्तो यदि भवति शक्तः प्रभवितुं न चेदेवं देवो न खलु कुशलः स्पन्दितुमपि । अतस्त्वामाराध्यां हरिहरविरिञ्चादिभिरपि प्रणन्तुं स्तोतुं वा कथमकृतपुण्यः प्रभवति ॥',
           transliteration: 'śivaḥ śaktyā yukto yadi bhavati śaktaḥ prabhavituṃ na cedevaṃ devo na khalu kuśalaḥ spanditumapi | atastvāmārādhyāṃ hariharaviriñcādibhirapi praṇantuṃ stotuṃ vā kathamakṛtapuṇyaḥ prabhavati ||',
           translation: 'Shiva, joined with Shakti, has the power to create. Without her, the god cannot even stir. Therefore, how can one without merit worship you — praised even by Hari, Hara, and Brahma — or even address you?',
           hindi: 'शिव, शक्ति से युक्त होने पर ही सृजन करने में सक्षम होते हैं। उसके बिना देव हिल भी नहीं सकते। इसलिए हरि, हर और ब्रह्मा द्वारा भी स्तुत तुम्हारी — पुण्यहीन व्यक्ति पूजा कैसे कर सकता है?',
@@ -129,7 +129,7 @@ export const shivpurana: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'सृष्टिः स्थितिः संहारस्तिरोधानमनुग्रहः | पञ्चकृत्यमिति प्रोक्तं नटराजस्य नर्तने ||',
+          sanskrit: 'सृष्टिः स्थितिः संहारस्तिरोधानमनुग्रहः । पञ्चकृत्यमिति प्रोक्तं नटराजस्य नर्तने ॥',
           transliteration: 'sṛṣṭiḥ sthitiḥ saṃhārastirodhānamanugrahaḥ | pañcakṛtyamiti proktaṃ naṭarājasya nartane ||',
           translation: 'Creation, preservation, dissolution, concealment, and grace — these are the five actions performed in the dance of Nataraja.',
           hindi: 'सृष्टि, स्थिति, संहार, तिरोधान (आच्छादन), और अनुग्रह — ये पाँच कृत्य नटराज के नृत्य में किए जाते हैं।',
@@ -141,7 +141,7 @@ export const shivpurana: Scripture = {
       
         {
           id: 1000,
-          sanskrit: 'सृष्टिः स्थितिः संहारस्तिरोधानमनुग्रहः | पञ्चकृत्यमिति प्रोक्तं नटराजस्य नर्तने ||',
+          sanskrit: 'सृष्टिः स्थितिः संहारस्तिरोधानमनुग्रहः । पञ्चकृत्यमिति प्रोक्तं नटराजस्य नर्तने ॥',
           transliteration: 'sṛṣṭiḥ sthitiḥ saṃhārastirodhānamanugrahaḥ | pañcakṛtyamiti proktaṃ naṭarājasya nartane ||',
           translation: 'Creation, preservation, dissolution, concealment, and grace — these are the five actions performed in the dance of Nataraja.',
           hindi: 'सृष्टि, स्थिति, संहार, तिरोधान (आच्छादन), और अनुग्रह — ये पाँच कृत्य नटराज के नृत्य में किए जाते हैं।',
@@ -150,7 +150,7 @@ export const shivpurana: Scripture = {
         },
         {
           id: 1002,
-          sanskrit: 'एको देवः केशवो वा शिवो वा हंसो वा सूर्यो वा सर्वश्रेष्ठः | अर्चन्त्येनं विप्रा होतारश्च याजमानाश्च सर्वे ||',
+          sanskrit: 'एको देवः केशवो वा शिवो वा हंसो वा सूर्यो वा सर्वश्रेष्ठः । अर्चन्त्येनं विप्रा होतारश्च याजमानाश्च सर्वे ॥',
           transliteration: 'eko devaḥ keśavo vā śivo vā haṃso vā sūryo vā sarvaśreṣṭhaḥ | arcantyenaṃ viprā hotāraśca yājanānāśca sarve ||',
           translation: 'The one God — whether called Keshava (Vishnu) or Shiva or Hamsa (the Swan) or Surya (Sun) — is supreme. All Brahmins, priests, and sacrificers worship that one.',
           hindi: 'एक ही देव — चाहे केशव हो, शिव हो, हंस हो या सूर्य हो — सर्वश्रेष्ठ है। सभी विप्र, होता और यजमान उसी की पूजा करते हैं।',
@@ -159,7 +159,7 @@ export const shivpurana: Scripture = {
         },
         {
           id: 1005,
-          sanskrit: 'मृत्पिण्ड इव तैलाभं शिवज्ञानं प्रदीपवत् | तेनाऽऽदर्शो हृदयो मे भस्मीभूतं विलोकयेत् ||',
+          sanskrit: 'मृत्पिण्ड इव तैलाभं शिवज्ञानं प्रदीपवत् । तेनाऽऽदर्शो हृदयो मे भस्मीभूतं विलोकयेत् ॥',
           transliteration: 'mṛtpiṇḍa iva tailābhaṃ śivajñānaṃ pradīpavat | tenā\'\'darśo hṛdayo me bhasmībhūtaṃ vilokayet ||',
           translation: 'The knowledge of Shiva is like a lamp to a clay pot soaked in oil — my heart, becoming a mirror through it, beholds the universe as ash.',
           hindi: 'शिवज्ञान तेल से तर मृत्पिण्ड (मिट्टी के बर्तन) के लिए दीपक के समान है — उससे मेरा हृदय आदर्श बनकर विश्व को भस्म रूप में देखता है।',
@@ -168,7 +168,7 @@ export const shivpurana: Scripture = {
         },
         {
           id: 1022,
-          sanskrit: 'शिवः शक्त्या युक्तो यदि भवति शक्तः प्रभवितुं न चेदेवं देवो न खलु कुशलः स्पन्दितुमपि | अतस्त्वामाराध्यां हरिहरविरिञ्चादिभिरपि प्रणन्तुं स्तोतुं वा कथमकृतपुण्यः प्रभवति ||',
+          sanskrit: 'शिवः शक्त्या युक्तो यदि भवति शक्तः प्रभवितुं न चेदेवं देवो न खलु कुशलः स्पन्दितुमपि । अतस्त्वामाराध्यां हरिहरविरिञ्चादिभिरपि प्रणन्तुं स्तोतुं वा कथमकृतपुण्यः प्रभवति ॥',
           transliteration: 'śivaḥ śaktyā yukto yadi bhavati śaktaḥ prabhavituṃ na cedevaṃ devo na khalu kuśalaḥ spanditumapi | atastvāmārādhyāṃ hariharaviriñcādibhirapi praṇantuṃ stotuṃ vā kathamakṛtapuṇyaḥ prabhavati ||',
           translation: 'Shiva, joined with Shakti, has the power to create. Without her, the god cannot even stir. Therefore, how can one without merit worship you — praised even by Hari, Hara, and Brahma — or even address you?',
           hindi: 'शिव, शक्ति से युक्त होने पर ही सृजन करने में सक्षम होते हैं। उसके बिना देव हिल भी नहीं सकते। इसलिए हरि, हर और ब्रह्मा द्वारा भी स्तुत तुम्हारी — पुण्यहीन व्यक्ति पूजा कैसे कर सकता है?',
@@ -184,7 +184,7 @@ export const shivpurana: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'वामार्धं पार्वतीरूपं दक्षिणार्धं महेश्वरः | अर्धनारीश्वरो देवः स्त्रीपुंसयोः समन्वयः ||',
+          sanskrit: 'वामार्धं पार्वतीरूपं दक्षिणार्धं महेश्वरः । अर्धनारीश्वरो देवः स्त्रीपुंसयोः समन्वयः ॥',
           transliteration: 'vāmārdhaṃ pārvatīrūpaṃ dakṣiṇārdhaṃ maheśvaraḥ | ardhanārīśvaro devaḥ strīpuṃsayoḥ samanvayaḥ ||',
           translation: 'The left half is the form of Parvati; the right half is Maheshvara. The Ardhanarishvara deity — the harmonious union of the feminine and masculine.',
           hindi: 'बायाँ अर्ध पार्वती का रूप है; दायाँ अर्ध महेश्वर का। अर्धनारीश्वर देव — स्त्री और पुरुष का समन्वय।',
@@ -195,7 +195,7 @@ export const shivpurana: Scripture = {
         },
         {
           id: 22,
-          sanskrit: 'शिवः शक्त्या युक्तो यदि भवति शक्तः प्रभवितुं न चेदेवं देवो न खलु कुशलः स्पन्दितुमपि | अतस्त्वामाराध्यां हरिहरविरिञ्चादिभिरपि प्रणन्तुं स्तोतुं वा कथमकृतपुण्यः प्रभवति ||',
+          sanskrit: 'शिवः शक्त्या युक्तो यदि भवति शक्तः प्रभवितुं न चेदेवं देवो न खलु कुशलः स्पन्दितुमपि । अतस्त्वामाराध्यां हरिहरविरिञ्चादिभिरपि प्रणन्तुं स्तोतुं वा कथमकृतपुण्यः प्रभवति ॥',
           transliteration: 'śivaḥ śaktyā yukto yadi bhavati śaktaḥ prabhavituṃ na cedevaṃ devo na khalu kuśalaḥ spanditumapi | atastvāmārādhyāṃ hariharaviriñcādibhirapi praṇantuṃ stotuṃ vā kathamakṛtapuṇyaḥ prabhavati ||',
           translation: 'Shiva, joined with Shakti, has the power to create. Without her, the god cannot even stir. Therefore, how can one without merit worship you — praised even by Hari, Hara, and Brahma — or even address you?',
           hindi: 'शिव, शक्ति से युक्त होने पर ही सृजन करने में सक्षम होते हैं। उसके बिना देव हिल भी नहीं सकते। इसलिए हरि, हर और ब्रह्मा द्वारा भी स्तुत तुम्हारी — पुण्यहीन व्यक्ति पूजा कैसे कर सकता है?',
@@ -207,7 +207,7 @@ export const shivpurana: Scripture = {
       
         {
           id: 1000,
-          sanskrit: 'वामार्धं पार्वतीरूपं दक्षिणार्धं महेश्वरः | अर्धनारीश्वरो देवः स्त्रीपुंसयोः समन्वयः ||',
+          sanskrit: 'वामार्धं पार्वतीरूपं दक्षिणार्धं महेश्वरः । अर्धनारीश्वरो देवः स्त्रीपुंसयोः समन्वयः ॥',
           transliteration: 'vāmārdhaṃ pārvatīrūpaṃ dakṣiṇārdhaṃ maheśvaraḥ | ardhanārīśvaro devaḥ strīpuṃsayoḥ samanvayaḥ ||',
           translation: 'The left half is the form of Parvati; the right half is Maheshvara. The Ardhanarishvara deity — the harmonious union of the feminine and masculine.',
           hindi: 'बायाँ अर्ध पार्वती का रूप है; दायाँ अर्ध महेश्वर का। अर्धनारीश्वर देव — स्त्री और पुरुष का समन्वय।',
@@ -216,7 +216,7 @@ export const shivpurana: Scripture = {
         },
         {
           id: 1002,
-          sanskrit: 'शिवः शक्त्या युक्तो यदि भवति शक्तः प्रभवितुं न चेदेवं देवो न खलु कुशलः स्पन्दितुमपि | अतस्त्वामाराध्यां हरिहरविरिञ्चादिभिरपि प्रणन्तुं स्तोतुं वा कथमकृतपुण्यः प्रभवति ||',
+          sanskrit: 'शिवः शक्त्या युक्तो यदि भवति शक्तः प्रभवितुं न चेदेवं देवो न खलु कुशलः स्पन्दितुमपि । अतस्त्वामाराध्यां हरिहरविरिञ्चादिभिरपि प्रणन्तुं स्तोतुं वा कथमकृतपुण्यः प्रभवति ॥',
           transliteration: 'śivaḥ śaktyā yukto yadi bhavati śaktaḥ prabhavituṃ na cedevaṃ devo na khalu kuśalaḥ spanditumapi | atastvāmārādhyāṃ hariharaviriñcādibhirapi praṇantuṃ stotuṃ vā kathamakṛtapuṇyaḥ prabhavati ||',
           translation: 'Shiva, joined with Shakti, has the power to create. Without her, the god cannot even stir. Therefore, how can one without merit worship you — praised even by Hari, Hara, and Brahma — or even address you?',
           hindi: 'शिव, शक्ति से युक्त होने पर ही सृजन करने में सक्षम होते हैं। उसके बिना देव हिल भी नहीं सकते। इसलिए हरि, हर और ब्रह्मा द्वारा भी स्तुत तुम्हारी — पुण्यहीन व्यक्ति पूजा कैसे कर सकता है?',
@@ -225,7 +225,7 @@ export const shivpurana: Scripture = {
         },
         {
           id: 1005,
-          sanskrit: 'मृत्पिण्ड इव तैलाभं शिवज्ञानं प्रदीपवत् | तेनाऽऽदर्शो हृदयो मे भस्मीभूतं विलोकयेत् ||',
+          sanskrit: 'मृत्पिण्ड इव तैलाभं शिवज्ञानं प्रदीपवत् । तेनाऽऽदर्शो हृदयो मे भस्मीभूतं विलोकयेत् ॥',
           transliteration: 'mṛtpiṇḍa iva tailābhaṃ śivajñānaṃ pradīpavat | tenā\'\'darśo hṛdayo me bhasmībhūtaṃ vilokayet ||',
           translation: 'The knowledge of Shiva is like a lamp to a clay pot soaked in oil — my heart, becoming a mirror through it, beholds the universe as ash.',
           hindi: 'शिवज्ञान तेल से तर मृत्पिण्ड (मिट्टी के बर्तन) के लिए दीपक के समान है — उससे मेरा हृदय आदर्श बनकर विश्व को भस्म रूप में देखता है।',
@@ -241,7 +241,7 @@ export const shivpurana: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'सौराष्ट्रे सोमनाथं च श्रीशैले मल्लिकार्जुनम् | उज्जयिन्यां महाकालमोङ्कारममलेश्वरम् | परल्यां वैद्यनाथं च डाकिन्यां भीमशङ्करम् | सेतुबन्धे तु रामेशं नागेशं दारुकावने | वाराणस्यां तु विश्वेशं त्र्यम्बकं गौतमीतटे | हिमालये तु केदारं घुश्मेशं च शिवालये | एतानि ज्योतिर्लिङ्गानि सायं प्रातः पठेन्नरः | सप्तजन्मकृतं पापं स्मरणेन विनश्यति ||',
+          sanskrit: 'सौराष्ट्रे सोमनाथं च श्रीशैले मल्लिकार्जुनम् । उज्जयिन्यां महाकालमोङ्कारममलेश्वरम् । परल्यां वैद्यनाथं च डाकिन्यां भीमशङ्करम् । सेतुबन्धे तु रामेशं नागेशं दारुकावने । वाराणस्यां तु विश्वेशं त्र्यम्बकं गौतमीतटे । हिमालये तु केदारं घुश्मेशं च शिवालये । एतानि ज्योतिर्लिङ्गानि सायं प्रातः पठेन्नरः । सप्तजन्मकृतं पापं स्मरणेन विनश्यति ॥',
           transliteration: 'saurāṣṭre somanāthaṃ ca śrīśaile mallikārjunam | ujjayinyāṃ mahākālamomkāramamalreśvaram | paralyāṃ vaidyanāthaṃ ca ḍākinyāṃ bhīmaśaṃkaram | setubaṃdhe tu rāmeśaṃ nāgeśaṃ dārukāvane | vārāṇasyāṃ tu viśveśaṃ tryambakaṃ gautamītaṭe | himālaye tu kedāraṃ ghuśmeśaṃ ca śivālaye | etāni jyotirliṃgāni sāyaṃ prātaḥ paṭhennraḥ | saptajanmakṛtaṃ pāpaṃ smaraṇena vinaśyati ||',
           translation: 'Somnath in Saurashtra, Mallikarjuna at Shrishailam, Mahakala at Ujjain, Omkareshvara, Vaidyanath at Parali, Bhimashankara at Dakini, Rameshvara at Setubandha, Nageshvara at Darukavana, Vishveshvara at Varanasi, Tryambaka at the Gautami bank, Kedara in the Himalayas, Ghushmesha at Shivalaya. One who recites these jyotirlingas at morning and evening — the sins of seven births perish by this remembrance.',
           hindi: 'सौराष्ट्र में सोमनाथ, श्रीशैल में मल्लिकार्जुन, उज्जैन में महाकाल, ओंकारेश्वर, परलि में वैद्यनाथ, डाकिनी में भीमशंकर, सेतुबंध में रामेश, दारुकावन में नागेश, वाराणसी में विश्वेश, गौतमी तट पर त्र्यम्बक, हिमालय में केदार, शिवालय में घुश्मेश। जो मनुष्य इन ज्योतिर्लिङ्गों का प्रातः-सायं पाठ करता है — स्मरण से सात जन्मों के पाप नष्ट हो जाते हैं।',
@@ -253,7 +253,7 @@ export const shivpurana: Scripture = {
       
         {
           id: 1000,
-          sanskrit: 'सौराष्ट्रे सोमनाथं च श्रीशैले मल्लिकार्जुनम् | उज्जयिन्यां महाकालमोङ्कारममलेश्वरम् | परल्यां वैद्यनाथं च डाकिन्यां भीमशङ्करम् | सेतुबन्धे तु रामेशं नागेशं दारुकावने | वाराणस्यां तु विश्वेशं त्र्यम्बकं गौतमीतटे | हिमालये तु केदारं घुश्मेशं च शिवालये | एतानि ज्योतिर्लिङ्गानि सायं प्रातः पठेन्नरः | सप्तजन्मकृतं पापं स्मरणेन विनश्यति ||',
+          sanskrit: 'सौराष्ट्रे सोमनाथं च श्रीशैले मल्लिकार्जुनम् । उज्जयिन्यां महाकालमोङ्कारममलेश्वरम् । परल्यां वैद्यनाथं च डाकिन्यां भीमशङ्करम् । सेतुबन्धे तु रामेशं नागेशं दारुकावने । वाराणस्यां तु विश्वेशं त्र्यम्बकं गौतमीतटे । हिमालये तु केदारं घुश्मेशं च शिवालये । एतानि ज्योतिर्लिङ्गानि सायं प्रातः पठेन्नरः । सप्तजन्मकृतं पापं स्मरणेन विनश्यति ॥',
           transliteration: 'saurāṣṭre somanāthaṃ ca śrīśaile mallikārjunam | ujjayinyāṃ mahākālamomkāramamalreśvaram | paralyāṃ vaidyanāthaṃ ca ḍākinyāṃ bhīmaśaṃkaram | setubaṃdhe tu rāmeśaṃ nāgeśaṃ dārukāvane | vārāṇasyāṃ tu viśveśaṃ tryambakaṃ gautamītaṭe | himālaye tu kedāraṃ ghuśmeśaṃ ca śivālaye | etāni jyotirliṃgāni sāyaṃ prātaḥ paṭhennraḥ | saptajanmakṛtaṃ pāpaṃ smaraṇena vinaśyati ||',
           translation: 'Somnath in Saurashtra, Mallikarjuna at Shrishailam, Mahakala at Ujjain, Omkareshvara, Vaidyanath at Parali, Bhimashankara at Dakini, Rameshvara at Setubandha, Nageshvara at Darukavana, Vishveshvara at Varanasi, Tryambaka at the Gautami bank, Kedara in the Himalayas, Ghushmesha at Shivalaya. One who recites these jyotirlingas at morning and evening — the sins of seven births perish by this remembrance.',
           hindi: 'सौराष्ट्र में सोमनाथ, श्रीशैल में मल्लिकार्जुन, उज्जैन में महाकाल, ओंकारेश्वर, परलि में वैद्यनाथ, डाकिनी में भीमशंकर, सेतुबंध में रामेश, दारुकावन में नागेश, वाराणसी में विश्वेश, गौतमी तट पर त्र्यम्बक, हिमालय में केदार, शिवालय में घुश्मेश। जो मनुष्य इन ज्योतिर्लिङ्गों का प्रातः-सायं पाठ करता है — स्मरण से सात जन्मों के पाप नष्ट हो जाते हैं।',
@@ -262,7 +262,7 @@ export const shivpurana: Scripture = {
         },
         {
           id: 1002,
-          sanskrit: 'एको देवः केशवो वा शिवो वा हंसो वा सूर्यो वा सर्वश्रेष्ठः | अर्चन्त्येनं विप्रा होतारश्च याजमानाश्च सर्वे ||',
+          sanskrit: 'एको देवः केशवो वा शिवो वा हंसो वा सूर्यो वा सर्वश्रेष्ठः । अर्चन्त्येनं विप्रा होतारश्च याजमानाश्च सर्वे ॥',
           transliteration: 'eko devaḥ keśavo vā śivo vā haṃso vā sūryo vā sarvaśreṣṭhaḥ | arcantyenaṃ viprā hotāraśca yājanānāśca sarve ||',
           translation: 'The one God — whether called Keshava (Vishnu) or Shiva or Hamsa (the Swan) or Surya (Sun) — is supreme. All Brahmins, priests, and sacrificers worship that one.',
           hindi: 'एक ही देव — चाहे केशव हो, शिव हो, हंस हो या सूर्य हो — सर्वश्रेष्ठ है। सभी विप्र, होता और यजमान उसी की पूजा करते हैं।',
@@ -271,7 +271,7 @@ export const shivpurana: Scripture = {
         },
         {
           id: 1005,
-          sanskrit: 'मृत्पिण्ड इव तैलाभं शिवज्ञानं प्रदीपवत् | तेनाऽऽदर्शो हृदयो मे भस्मीभूतं विलोकयेत् ||',
+          sanskrit: 'मृत्पिण्ड इव तैलाभं शिवज्ञानं प्रदीपवत् । तेनाऽऽदर्शो हृदयो मे भस्मीभूतं विलोकयेत् ॥',
           transliteration: 'mṛtpiṇḍa iva tailābhaṃ śivajñānaṃ pradīpavat | tenā\'\'darśo hṛdayo me bhasmībhūtaṃ vilokayet ||',
           translation: 'The knowledge of Shiva is like a lamp to a clay pot soaked in oil — my heart, becoming a mirror through it, beholds the universe as ash.',
           hindi: 'शिवज्ञान तेल से तर मृत्पिण्ड (मिट्टी के बर्तन) के लिए दीपक के समान है — उससे मेरा हृदय आदर्श बनकर विश्व को भस्म रूप में देखता है।',
@@ -280,7 +280,7 @@ export const shivpurana: Scripture = {
         },
         {
           id: 1022,
-          sanskrit: 'शिवः शक्त्या युक्तो यदि भवति शक्तः प्रभवितुं न चेदेवं देवो न खलु कुशलः स्पन्दितुमपि | अतस्त्वामाराध्यां हरिहरविरिञ्चादिभिरपि प्रणन्तुं स्तोतुं वा कथमकृतपुण्यः प्रभवति ||',
+          sanskrit: 'शिवः शक्त्या युक्तो यदि भवति शक्तः प्रभवितुं न चेदेवं देवो न खलु कुशलः स्पन्दितुमपि । अतस्त्वामाराध्यां हरिहरविरिञ्चादिभिरपि प्रणन्तुं स्तोतुं वा कथमकृतपुण्यः प्रभवति ॥',
           transliteration: 'śivaḥ śaktyā yukto yadi bhavati śaktaḥ prabhavituṃ na cedevaṃ devo na khalu kuśalaḥ spanditumapi | atastvāmārādhyāṃ hariharaviriñcādibhirapi praṇantuṃ stotuṃ vā kathamakṛtapuṇyaḥ prabhavati ||',
           translation: 'Shiva, joined with Shakti, has the power to create. Without her, the god cannot even stir. Therefore, how can one without merit worship you — praised even by Hari, Hara, and Brahma — or even address you?',
           hindi: 'शिव, शक्ति से युक्त होने पर ही सृजन करने में सक्षम होते हैं। उसके बिना देव हिल भी नहीं सकते। इसलिए हरि, हर और ब्रह्मा द्वारा भी स्तुत तुम्हारी — पुण्यहीन व्यक्ति पूजा कैसे कर सकता है?',
@@ -296,7 +296,7 @@ export const shivpurana: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'शिवो भूत्वा शिवं यजेत् | न शिवाद्भिन्नो यजेत् ||',
+          sanskrit: 'शिवो भूत्वा शिवं यजेत् । न शिवाद्भिन्नो यजेत् ॥',
           transliteration: 'śivo bhūtvā śivaṃ yajet | na śivādbhinno yajet ||',
           translation: 'Having become Shiva, worship Shiva. Do not worship Shiva as one separate from Shiva.',
           hindi: 'शिव बनकर शिव की पूजा करो। शिव से अलग होकर शिव की पूजा मत करो।',
@@ -307,7 +307,7 @@ export const shivpurana: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'यो वेद निहितं गुहायां परमे व्योमन् | सोऽश्नुते सर्वान्कामान्सह ब्रह्मणा विपश्चिता ||',
+          sanskrit: 'यो वेद निहितं गुहायां परमे व्योमन् । सोऽश्नुते सर्वान्कामान्सह ब्रह्मणा विपश्चिता ॥',
           transliteration: 'yo veda nihitaṃ guhāyāṃ parame vyoman | so\'śnute sarvānkāmānsaha brahmaṇā vipaścitā ||',
           translation: 'One who knows what is hidden in the cave, in the supreme ether — that one enjoys all desires together with the all-knowing Brahman.',
           hindi: 'जो उस गुहा में, परम व्योम में स्थित को जानता है — वह सर्वज्ञ ब्रह्म के साथ सभी कामनाओं का भोग करता है।',
@@ -318,7 +318,7 @@ export const shivpurana: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'मृत्पिण्ड इव तैलाभं शिवज्ञानं प्रदीपवत् | तेनाऽऽदर्शो हृदयो मे भस्मीभूतं विलोकयेत् ||',
+          sanskrit: 'मृत्पिण्ड इव तैलाभं शिवज्ञानं प्रदीपवत् । तेनाऽऽदर्शो हृदयो मे भस्मीभूतं विलोकयेत् ॥',
           transliteration: 'mṛtpiṇḍa iva tailābhaṃ śivajñānaṃ pradīpavat | tenā\'\'darśo hṛdayo me bhasmībhūtaṃ vilokayet ||',
           translation: 'The knowledge of Shiva is like a lamp to a clay pot soaked in oil — my heart, becoming a mirror through it, beholds the universe as ash.',
           hindi: 'शिवज्ञान तेल से तर मृत्पिण्ड (मिट्टी के बर्तन) के लिए दीपक के समान है — उससे मेरा हृदय आदर्श बनकर विश्व को भस्म रूप में देखता है।',
@@ -330,7 +330,7 @@ export const shivpurana: Scripture = {
       
         {
           id: 1000,
-          sanskrit: 'शिवो भूत्वा शिवं यजेत् | न शिवाद्भिन्नो यजेत् ||',
+          sanskrit: 'शिवो भूत्वा शिवं यजेत् । न शिवाद्भिन्नो यजेत् ॥',
           transliteration: 'śivo bhūtvā śivaṃ yajet | na śivādbhinno yajet ||',
           translation: 'Having become Shiva, worship Shiva. Do not worship Shiva as one separate from Shiva.',
           hindi: 'शिव बनकर शिव की पूजा करो। शिव से अलग होकर शिव की पूजा मत करो।',
@@ -339,7 +339,7 @@ export const shivpurana: Scripture = {
         },
         {
           id: 1022,
-          sanskrit: 'शिवः शक्त्या युक्तो यदि भवति शक्तः प्रभवितुं न चेदेवं देवो न खलु कुशलः स्पन्दितुमपि | अतस्त्वामाराध्यां हरिहरविरिञ्चादिभिरपि प्रणन्तुं स्तोतुं वा कथमकृतपुण्यः प्रभवति ||',
+          sanskrit: 'शिवः शक्त्या युक्तो यदि भवति शक्तः प्रभवितुं न चेदेवं देवो न खलु कुशलः स्पन्दितुमपि । अतस्त्वामाराध्यां हरिहरविरिञ्चादिभिरपि प्रणन्तुं स्तोतुं वा कथमकृतपुण्यः प्रभवति ॥',
           transliteration: 'śivaḥ śaktyā yukto yadi bhavati śaktaḥ prabhavituṃ na cedevaṃ devo na khalu kuśalaḥ spanditumapi | atastvāmārādhyāṃ hariharaviriñcādibhirapi praṇantuṃ stotuṃ vā kathamakṛtapuṇyaḥ prabhavati ||',
           translation: 'Shiva, joined with Shakti, has the power to create. Without her, the god cannot even stir. Therefore, how can one without merit worship you — praised even by Hari, Hara, and Brahma — or even address you?',
           hindi: 'शिव, शक्ति से युक्त होने पर ही सृजन करने में सक्षम होते हैं। उसके बिना देव हिल भी नहीं सकते। इसलिए हरि, हर और ब्रह्मा द्वारा भी स्तुत तुम्हारी — पुण्यहीन व्यक्ति पूजा कैसे कर सकता है?',

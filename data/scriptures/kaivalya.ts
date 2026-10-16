@@ -28,7 +28,7 @@ export const kaivalya: Scripture = {
         },
         {
           id: 3,
-          sanskrit: 'न कर्मणा न प्रजया धनेन त्यागेनैके अमृतत्वमानशुः | परेण नाकं निहितं गुहायां विभ्राजते यद्यतयो विशन्ति ||',
+          sanskrit: 'न कर्मणा न प्रजया धनेन त्यागेनैके अमृतत्वमानशुः । परेण नाकं निहितं गुहायां विभ्राजते यद्यतयो विशन्ति ॥',
           transliteration: 'na karmaṇā na prajayā dhanena tyāgenaike amṛtatvamānaśuḥ | pareṇa nākaṃ nihitaṃ guhāyāṃ vibhrājate yadyatayo viśanti ||',
           translation: 'Not through karma, not through progeny, not through wealth — through renunciation alone have some attained immortality. That supreme bliss shines in the cave of the heart; into it the ascetics enter.',
           hindi: 'कर्म से नहीं, संतान से नहीं, धन से नहीं — केवल त्याग से कुछ लोगों ने अमृतत्व प्राप्त किया। वह परम आनन्द हृदय की गुफा में प्रकाशित है; उसमें संन्यासी प्रवेश करते हैं।',

@@ -17,7 +17,7 @@ export const garudpurana: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'कर्मणा जायते जन्तुः कर्मणैव विलीयते |\nसुखं दुःखं भयं क्षेमं कर्मणैवाभिपद्यते ||',
+          sanskrit: 'कर्मणा जायते जन्तुः कर्मणैव विलीयते ।\nसुखं दुःखं भयं क्षेमं कर्मणैवाभिपद्यते ॥',
           transliteration: 'karmaṇā jāyate jantuḥ karmaṇaiva vilīyate |\nsukhaṃ duḥkhaṃ bhayaṃ kṣemaṃ karmaṇaivābhipadyate ||',
           translation: 'A being is born through karma and dissolves through karma. Happiness, sorrow, fear, and security — all are attained through karma alone.',
           hindi: 'प्राणी कर्म से जन्म लेता है और कर्म से ही विलीन होता है। सुख, दुःख, भय और क्षेम — ये सब कर्म से ही प्राप्त होते हैं।',
@@ -28,7 +28,7 @@ export const garudpurana: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'धर्म एव हि धर्मात्मा त्राता धर्मः परो मतः |\nतस्माद्धर्मं न परित्यजेत् सन्तं सदा बुधः ||',
+          sanskrit: 'धर्म एव हि धर्मात्मा त्राता धर्मः परो मतः ।\nतस्माद्धर्मं न परित्यजेत् सन्तं सदा बुधः ॥',
           transliteration: 'dharma eva hi dharmātmā trātā dharmaḥ paro mataḥ |\ntasmāddharmaṃ na parityajet santaṃ sadā budhaḥ ||',
           translation: 'Dharma alone protects the righteous. Dharma is supreme. Therefore the wise should never abandon dharma.',
           hindi: 'धर्मात्मा की रक्षा धर्म ही करता है। धर्म सर्वोच्च है। इसलिए बुद्धिमान व्यक्ति को कभी धर्म नहीं छोड़ना चाहिए।',
@@ -39,7 +39,7 @@ export const garudpurana: Scripture = {
         },
         {
           id: 3,
-          sanskrit: 'पुत्राश्च बान्धवाः सर्वे शरीरे विलयं गते | न तेषां दुःखकर्तारो धर्मः केवलमन्वयात् ||',
+          sanskrit: 'पुत्राश्च बान्धवाः सर्वे शरीरे विलयं गते । न तेषां दुःखकर्तारो धर्मः केवलमन्वयात् ॥',
           transliteration: 'putrāśca bāndhavāḥ sarve śarīre vilayaṃ gate | na teṣāṃ duḥkhakartāro dharmaḥ kevalamanyavāt ||',
           translation: 'Sons and relatives — all stay behind when the body dissolves. They cannot become companions in suffering. Dharma alone follows.',
           hindi: 'पुत्र और सभी बांधव शरीर के नष्ट होने पर यहीं रह जाते हैं। केवल धर्म ही साथ जाता है।',
@@ -51,7 +51,7 @@ export const garudpurana: Scripture = {
       
         {
           id: 5,
-          sanskrit: 'मृत्युः सर्वहरश्चैव नित्यमेको विष्णुः स्मृतः | अव्ययात्मा परो ब्रह्म यद्यदेवो न चिन्तयते ||',
+          sanskrit: 'मृत्युः सर्वहरश्चैव नित्यमेको विष्णुः स्मृतः । अव्ययात्मा परो ब्रह्म यद्यदेवो न चिन्तयते ॥',
           transliteration: 'mṛtyuḥ sarvaharaścaiva nityameko viṣṇuḥ smṛtaḥ | avyayātmā paro brahma yadyadevo na cintyate ||',
           translation: 'Death is the destroyer of all, and Vishnu alone is eternal — the imperishable Self, the supreme Brahman, who is not to be thought of as any deity.',
           hindi: 'मृत्यु सब का नाश करने वाली है, और विष्णु अकेल नित्य हैं — अव्यय आत्मा, परम ब्रह्म, जिसे किसी देव के रूप में नहीं सोचा जाता।',
@@ -67,7 +67,7 @@ export const garudpurana: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'पुस्तकस्था तु या विद्या परहस्तगतं धनम् | कार्यकाले समुत्पन्ने न सा विद्या न तद्धनम् ||',
+          sanskrit: 'पुस्तकस्था तु या विद्या परहस्तगतं धनम् । कार्यकाले समुत्पन्ने न सा विद्या न तद्धनम् ॥',
           transliteration: 'pustakasthā tu yā vidyā parahastagatam dhanaṃ | kāryakāle samutpanne na sā vidyā na tad-dhanam ||',
           translation: "Knowledge that remains in books, and wealth that is in another's hand — when the time for action comes, neither that knowledge nor that wealth is of use.",
           hindi: 'जो विद्या पुस्तक में ही रह गई, और जो धन दूसरे के हाथ में है — जब कार्य का समय आता है, तो न वह विद्या काम आती है, न वह धन।',
@@ -78,7 +78,7 @@ export const garudpurana: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'अर्थनाशं मनस्तापं गृहिणीचरितानि च | नीचं वाक्यं चापमानं मतिमान् न प्रकाशयेत् ||',
+          sanskrit: 'अर्थनाशं मनस्तापं गृहिणीचरितानि च । नीचं वाक्यं चापमानं मतिमान् न प्रकाशयेत् ॥',
           transliteration: 'arthanāśaṃ manastāpaṃ gṛhiṇīcaritāni ca | nīcaṃ vākyaṃ cāpamānaṃ matimān na prakāśayet ||',
           translation: 'The wise person should not reveal their financial loss, mental anguish, family secrets, insults received, and private matters.',
           hindi: 'धन की हानि, मानसिक पीड़ा, गृहिणी का आचरण, किसी के नीच वचन, और अपना अपमान — इन्हें बुद्धिमान व्यक्ति को प्रकट नहीं करना चाहिए।',
@@ -90,7 +90,7 @@ export const garudpurana: Scripture = {
       
         {
           id: 3,
-          sanskrit: 'पुत्राश्च बान्धवाः सर्वे शरीरे विलयं गते | न तेषां दुःखकर्तारो धर्मः केवलमन्वयात् ||',
+          sanskrit: 'पुत्राश्च बान्धवाः सर्वे शरीरे विलयं गते । न तेषां दुःखकर्तारो धर्मः केवलमन्वयात् ॥',
           transliteration: 'putrāśca bāndhavāḥ sarve śarīre vilayaṃ gate | na teṣāṃ duḥkhakartāro dharmaḥ kevalamanyavāt ||',
           translation: 'Sons and relatives — all stay behind when the body dissolves. They cannot become companions in suffering. Dharma alone follows.',
           hindi: 'पुत्र और सभी बांधव शरीर के नष्ट होने पर यहीं रह जाते हैं। केवल धर्म ही साथ जाता है।',
@@ -99,7 +99,7 @@ export const garudpurana: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'मृत्युः सर्वहरश्चैव नित्यमेको विष्णुः स्मृतः | अव्ययात्मा परो ब्रह्म यद्यदेवो न चिन्तयते ||',
+          sanskrit: 'मृत्युः सर्वहरश्चैव नित्यमेको विष्णुः स्मृतः । अव्ययात्मा परो ब्रह्म यद्यदेवो न चिन्तयते ॥',
           transliteration: 'mṛtyuḥ sarvaharaścaiva nityameko viṣṇuḥ smṛtaḥ | avyayātmā paro brahma yadyadevo na cintyate ||',
           translation: 'Death is the destroyer of all, and Vishnu alone is eternal — the imperishable Self, the supreme Brahman, who is not to be thought of as any deity.',
           hindi: 'मृत्यु सब का नाश करने वाली है, और विष्णु अकेल नित्य हैं — अव्यय आत्मा, परम ब्रह्म, जिसे किसी देव के रूप में नहीं सोचा जाता।',
@@ -115,7 +115,7 @@ export const garudpurana: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'जन्म दुर्लभमिदं विद्धि मानुष्यं प्राप्य कृत्स्नशः | भजेद्धरिमनन्यात्मा मोक्षार्थी बुधसेवितम् ||',
+          sanskrit: 'जन्म दुर्लभमिदं विद्धि मानुष्यं प्राप्य कृत्स्नशः । भजेद्धरिमनन्यात्मा मोक्षार्थी बुधसेवितम् ॥',
           transliteration: 'janma durlabhamidaṃ viddhi mānuṣyaṃ prāpya kṛtsnaśaḥ | bhajeddharimananyātmā mokṣārthī budhasevitam ||',
           translation: 'Know this human birth to be rare. Having obtained humanity, the one seeking liberation should worship Hari with undivided mind — following the path that the wise serve.',
           hindi: 'इस मनुष्य-जन्म को दुर्लभ जानो। इसे पाकर, मोक्ष की कामना से, अनन्य मन से हरि की भक्ति करो।',
@@ -126,7 +126,7 @@ export const garudpurana: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'अहमात्मा सर्वभूतस्थितः शुद्धः | ज्ञानदृष्ट्या तु सर्वत्र दृश्यते परमेश्वरः ||',
+          sanskrit: 'अहमात्मा सर्वभूतस्थितः शुद्धः । ज्ञानदृष्ट्या तु सर्वत्र दृश्यते परमेश्वरः ॥',
           transliteration: 'ahamātmā sarvabhūtasthitaḥ śuddhaḥ | jñānadṛṣṭyā tu sarvatra dṛśyate parameśvaraḥ ||',
           translation: 'I am the pure Self dwelling in all beings. Through the eye of knowledge, the Supreme Lord is seen everywhere.',
           hindi: 'मैं सभी प्राणियों में स्थित शुद्ध आत्मा हूँ। ज्ञान-दृष्टि से सर्वत्र परमेश्वर दिखाई देते हैं।',
@@ -137,7 +137,7 @@ export const garudpurana: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'मृत्युः सर्वहरश्चैव नित्यमेको विष्णुः स्मृतः | अव्ययात्मा परो ब्रह्म यद्यदेवो न चिन्तयते ||',
+          sanskrit: 'मृत्युः सर्वहरश्चैव नित्यमेको विष्णुः स्मृतः । अव्ययात्मा परो ब्रह्म यद्यदेवो न चिन्तयते ॥',
           transliteration: 'mṛtyuḥ sarvaharaścaiva nityameko viṣṇuḥ smṛtaḥ | avyayātmā paro brahma yadyadevo na cintyate ||',
           translation: 'Death is the destroyer of all, and Vishnu alone is eternal — the imperishable Self, the supreme Brahman, who is not to be thought of as any deity.',
           hindi: 'मृत्यु सब का नाश करने वाली है, और विष्णु अकेल नित्य हैं — अव्यय आत्मा, परम ब्रह्म, जिसे किसी देव के रूप में नहीं सोचा जाता।',
@@ -149,7 +149,7 @@ export const garudpurana: Scripture = {
       
         {
           id: 3,
-          sanskrit: 'मृत्युः सर्वहरश्चैव नित्यमेको विष्णुः स्मृतः | अव्ययात्मा परो ब्रह्म यद्यदेवो न चिन्तयते ||',
+          sanskrit: 'मृत्युः सर्वहरश्चैव नित्यमेको विष्णुः स्मृतः । अव्ययात्मा परो ब्रह्म यद्यदेवो न चिन्तयते ॥',
           transliteration: 'mṛtyuḥ sarvaharaścaiva nityameko viṣṇuḥ smṛtaḥ | avyayātmā paro brahma yadyadevo na cintyate ||',
           translation: 'Death is the destroyer of all, and Vishnu alone is eternal — the imperishable Self, the supreme Brahman, who is not to be thought of as any deity.',
           hindi: 'मृत्यु सब का नाश करने वाली है, और विष्णु अकेल नित्य हैं — अव्यय आत्मा, परम ब्रह्म, जिसे किसी देव के रूप में नहीं सोचा जाता।',

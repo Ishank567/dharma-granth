@@ -17,7 +17,7 @@ export const agnipuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'अनित्यानि शरीराणि विभवो नैव शाश्वतः |\nनित्यं सन्निहितो मृत्युः कर्तव्यो धर्मसंग्रहः ||',
+          sanskrit: 'अनित्यानि शरीराणि विभवो नैव शाश्वतः ।\nनित्यं सन्निहितो मृत्युः कर्तव्यो धर्मसंग्रहः ॥',
           transliteration: 'anityāni śarīrāṇi vibhavo naiva śāśvataḥ |\nnityaṃ sannihito mṛtyuḥ kartavyo dharmasaṃgrahaḥ ||',
           translation: 'Bodies are impermanent, wealth is never eternal, death is always near — therefore one should gather dharma.',
           hindi: 'शरीर अनित्य हैं, वैभव शाश्वत नहीं, मृत्यु सदा समीप है — इसलिए धर्म का संग्रह करना चाहिए।',
@@ -28,7 +28,7 @@ export const agnipuran: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'विद्या विनयसम्पन्ने ब्राह्मणे गवि हस्तिनि |\nशुनि चैव श्वपाके च पण्डिताः समदर्शिनः ||',
+          sanskrit: 'विद्या विनयसम्पन्ने ब्राह्मणे गवि हस्तिनि ।\nशुनि चैव श्वपाके च पण्डिताः समदर्शिनः ॥',
           transliteration: 'vidyā vinayasampanne brāhmaṇe gavi hastini |\nśuni caiva śvapāke ca paṇḍitāḥ samadarśinaḥ ||',
           translation: 'The learned see equally in a Brahmin endowed with knowledge and humility, a cow, an elephant, a dog, and one who cooks dogs.',
           hindi: 'पण्डित लोग विद्या और विनय से सम्पन्न ब्राह्मण में, गाय में, हाथी में, कुत्ते में और चाण्डाल में भी समान दृष्टि रखते हैं।',
@@ -40,7 +40,7 @@ export const agnipuran: Scripture = {
       
         {
           id: 5,
-          sanskrit: 'आयुर्वेदो वेदशाखा प्राणिनां प्राणरक्षणी | आहारनियमो मूलं रोगाणां चापनोदनम् ||',
+          sanskrit: 'आयुर्वेदो वेदशाखा प्राणिनां प्राणरक्षणी । आहारनियमो मूलं रोगाणां चापनोदनम् ॥',
           transliteration: 'āyurvedo vedaśākhā prāṇināṃ prāṇarakṣaṇī | āhāraniyamo mūlaṃ rogāṇāṃ cāpanodanam ||',
           translation: 'Ayurveda is a branch of the Vedas, the protector of life for all beings. Regulation of diet is the root; diseases are dispelled by it.',
           hindi: 'आयुर्वेद वेद की शाखा है, प्राणियों के प्राण की रक्षक। आहार-नियम मूल है; रोगों का निवारण इसी से होता है।',
@@ -56,7 +56,7 @@ export const agnipuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'राजा प्रजापालनतत्परः स्यात् | प्रजाः सुखिताः स्युः सततं यतेत ||',
+          sanskrit: 'राजा प्रजापालनतत्परः स्यात् । प्रजाः सुखिताः स्युः सततं यतेत ॥',
           transliteration: 'rājā prajāpālanatatparaḥ syāt | prajāḥ sukhitāḥ syuḥ satataṃ yateta ||',
           translation: 'A king should be devoted to the protection of subjects. He should always strive to ensure that the subjects are happy.',
           hindi: 'राजा को प्रजा की रक्षा में तत्पर रहना चाहिए। वह सदा इस प्रयास में रहे कि प्रजा सुखी रहे।',
@@ -67,7 +67,7 @@ export const agnipuran: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'न वृथा वाक्यं वदेद् राजा न च सत्यमप्रियम् | अर्थपूर्णं सप्रियं वाक्यं स राजा वक्तुमर्हति ||',
+          sanskrit: 'न वृथा वाक्यं वदेद् राजा न च सत्यमप्रियम् । अर्थपूर्णं सप्रियं वाक्यं स राजा वक्तुमर्हति ॥',
           transliteration: 'na vṛthā vākyaṃ vaded rājā na ca satyamapriyam | arthapūrṇaṃ sapriyaṃ vākyaṃ sa rājā vaktumarhati ||',
           translation: 'A king should not speak in vain, nor should he speak a truth that is unpleasant. The king deserves to speak words that are meaningful and kind.',
           hindi: 'राजा को व्यर्थ नहीं बोलना चाहिए, और न कटु सत्य बोलना चाहिए। उसे सार्थक और प्रिय वचन बोलने का अधिकार है।',
@@ -79,7 +79,7 @@ export const agnipuran: Scripture = {
       
         {
           id: 5,
-          sanskrit: 'आयुर्वेदो वेदशाखा प्राणिनां प्राणरक्षणी | आहारनियमो मूलं रोगाणां चापनोदनम् ||',
+          sanskrit: 'आयुर्वेदो वेदशाखा प्राणिनां प्राणरक्षणी । आहारनियमो मूलं रोगाणां चापनोदनम् ॥',
           transliteration: 'āyurvedo vedaśākhā prāṇināṃ prāṇarakṣaṇī | āhāraniyamo mūlaṃ rogāṇāṃ cāpanodanam ||',
           translation: 'Ayurveda is a branch of the Vedas, the protector of life for all beings. Regulation of diet is the root; diseases are dispelled by it.',
           hindi: 'आयुर्वेद वेद की शाखा है, प्राणियों के प्राण की रक्षक। आहार-नियम मूल है; रोगों का निवारण इसी से होता है।',
@@ -95,7 +95,7 @@ export const agnipuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'धर्मार्थकाममोक्षाणाम् आरोग्यं मूलमुत्तमम् | रोगास्तस्यापहर्तारः श्रेयसो जीवितस्य च ||',
+          sanskrit: 'धर्मार्थकाममोक्षाणाम् आरोग्यं मूलमुत्तमम् । रोगास्तस्यापहर्तारः श्रेयसो जीवितस्य च ॥',
           transliteration: 'dharmārthakāmamokṣāṇām ārogyaṃ mūlamuttamam | rogāstasyāpahartāraḥ śreyaso jīvitasya ca ||',
           translation: 'Health is the supreme root of dharma, wealth, pleasure, and liberation. Diseases are the destroyers of this root — of all that is good in life.',
           hindi: 'धर्म, अर्थ, काम और मोक्ष — इन सबकी जड़ है आरोग्य (स्वास्थ्य)। रोग इस जड़ को नष्ट करने वाले हैं — जीवन के सभी श्रेयों को नष्ट करने वाले।',
@@ -106,7 +106,7 @@ export const agnipuran: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'हिताहितं सुखं दुःखं आयुस्तस्य हिताहितम् | मानं च तच्च यत्रोक्तम् आयुर्वेदः स उच्यते ||',
+          sanskrit: 'हिताहितं सुखं दुःखं आयुस्तस्य हिताहितम् । मानं च तच्च यत्रोक्तम् आयुर्वेदः स उच्यते ॥',
           transliteration: 'hitāhitaṃ sukhaṃ duḥkhaṃ āyustasya hitāhitam | mānaṃ ca tacca yatroktam āyurvedaḥ sa ucyate ||',
           translation: 'That which tells us what is beneficial and what is harmful, what is happy life and what is suffering, what lengthens life and what shortens it — that is called Ayurveda.',
           hindi: 'जो हित-अहित, सुख-दुःख, आयु के लिए हितकर-अहितकर और उनके मान को बताता है — वह आयुर्वेद कहलाता है।',
@@ -117,7 +117,7 @@ export const agnipuran: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'आयुर्वेदो वेदशाखा प्राणिनां प्राणरक्षणी | आहारनियमो मूलं रोगाणां चापनोदनम् ||',
+          sanskrit: 'आयुर्वेदो वेदशाखा प्राणिनां प्राणरक्षणी । आहारनियमो मूलं रोगाणां चापनोदनम् ॥',
           transliteration: 'āyurvedo vedaśākhā prāṇināṃ prāṇarakṣaṇī | āhāraniyamo mūlaṃ rogāṇāṃ cāpanodanam ||',
           translation: 'Ayurveda is a branch of the Vedas, the protector of life for all beings. Regulation of diet is the root; diseases are dispelled by it.',
           hindi: 'आयुर्वेद वेद की शाखा है, प्राणियों के प्राण की रक्षक। आहार-नियम मूल है; रोगों का निवारण इसी से होता है।',
@@ -129,7 +129,7 @@ export const agnipuran: Scripture = {
       
         {
           id: 3,
-          sanskrit: 'आयुर्वेदो वेदशाखा प्राणिनां प्राणरक्षणी | आहारनियमो मूलं रोगाणां चापनोदनम् ||',
+          sanskrit: 'आयुर्वेदो वेदशाखा प्राणिनां प्राणरक्षणी । आहारनियमो मूलं रोगाणां चापनोदनम् ॥',
           transliteration: 'āyurvedo vedaśākhā prāṇināṃ prāṇarakṣaṇī | āhāraniyamo mūlaṃ rogāṇāṃ cāpanodanam ||',
           translation: 'Ayurveda is a branch of the Vedas, the protector of life for all beings. Regulation of diet is the root; diseases are dispelled by it.',
           hindi: 'आयुर्वेद वेद की शाखा है, प्राणियों के प्राण की रक्षक। आहार-नियम मूल है; रोगों का निवारण इसी से होता है।',

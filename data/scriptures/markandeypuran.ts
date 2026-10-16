@@ -17,7 +17,7 @@ export const markandeypuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'मृत्युञ्जयं महादेवं मोक्षप्रदं महेश्वरम् |\nअक्षयं शाश्वतं देवं प्रणतोऽस्मि महेश्वरम् ||',
+          sanskrit: 'मृत्युञ्जयं महादेवं मोक्षप्रदं महेश्वरम् ।\nअक्षयं शाश्वतं देवं प्रणतोऽस्मि महेश्वरम् ॥',
           transliteration: 'mṛtyuñjayaṃ mahādevaṃ mokṣapradaṃ maheśvaram |\nakṣayaṃ śāśvataṃ devaṃ praṇato\'smi maheśvaram ||',
           translation: 'I bow to Maheshvara — the conqueror of death, the great God, the giver of liberation, the imperishable, the eternal.',
           hindi: 'मैं मृत्युञ्जय (मृत्यु को जीतने वाले) महादेव को, मोक्षदाता महेश्वर को, अक्षय और शाश्वत देव को प्रणाम करता हूँ।',
@@ -28,7 +28,7 @@ export const markandeypuran: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'मृत्योर्मा अमृतं गमय | तमसो मा ज्योतिर्गमय | असतो मा सद्गमय ||',
+          sanskrit: 'मृत्योर्मा अमृतं गमय । तमसो मा ज्योतिर्गमय । असतो मा सद्गमय ॥',
           transliteration: 'mṛtyormā amṛtaṃ gamaya | tamaso mā jyotirgamaya | asato mā sadgamaya ||',
           translation: 'From death lead me to immortality; from darkness lead me to light; from the unreal lead me to the Real.',
           hindi: 'मुझे मृत्यु से अमरता की ओर ले चलो; अंधकार से प्रकाश की ओर; असत्य से सत्य की ओर।',
@@ -40,7 +40,7 @@ export const markandeypuran: Scripture = {
       
         {
           id: 5,
-          sanskrit: 'या देवी सर्वभूतेषु मातृरूपेण संस्थिता | नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः ||',
+          sanskrit: 'या देवी सर्वभूतेषु मातृरूपेण संस्थिता । नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः ॥',
           transliteration: 'yā devī sarvabhūteṣu mātṛrūpeṇa saṃsthitā | namastasyai namastasyai namastasyai namo namaḥ ||',
           translation: 'To the Goddess who dwells in all beings in the form of Mother — salutations to her, salutations to her, salutations to her, again and again.',
           hindi: 'जो देवी सम्पूर्ण प्राणियों में माता के रूप में स्थित हैं — उन्हें नमस्कार, नमस्कार, नमस्कार, बार-बार नमस्कार।',
@@ -49,7 +49,7 @@ export const markandeypuran: Scripture = {
         },
         {
           id: 26,
-          sanskrit: 'दुर्गे स्मृता हरिदुर्गे दुर्गादेवी सर्वशः | दुर्गोत्तिरित्यभिध्याते दुर्गापादान सर्वदा ||',
+          sanskrit: 'दुर्गे स्मृता हरिदुर्गे दुर्गादेवी सर्वशः । दुर्गोत्तिरित्यभिध्याते दुर्गापादान सर्वदा ॥',
           transliteration: 'durge smṛtā haridurge durgādevī sarvaśaḥ | durgottirityabhidhyāte durgāpādāna sarvadā ||',
           translation: 'Remembered in difficulties, the Goddess is called Durga — she who is difficult to cross over. She is the refuge in all difficulties, always accessible.',
           hindi: 'कष्ट में याद की जाती हैं, देवी को दुर्गा कहा जाता है — जिसे पार करना कठिन है। वह सभी कष्टों में शरण हैं, सदैव पहुँच से बाहर।',
@@ -58,7 +58,7 @@ export const markandeypuran: Scripture = {
         },
         {
           id: 27,
-          sanskrit: 'चण्डी चण्डिता चैव चण्डमुण्डविनाशिनी | चण्डिका परमेशानी चण्डी चण्डात्मिका शुभा ||',
+          sanskrit: 'चण्डी चण्डिता चैव चण्डमुण्डविनाशिनी । चण्डिका परमेशानी चण्डी चण्डात्मिका शुभा ॥',
           transliteration: 'caṇḍī caṇḍitā caiva caṇḍamuṇḍavināśinī | caṇḍikā parameśānī caṇḍī caṇḍātmikā śubhā ||',
           translation: 'Chandi, Chandita, the destroyer of Chanda-Munda — Chandika, the supreme goddess, Chandi, the embodiment of fierce power, the auspicious one.',
           hindi: 'चण्डी, चण्डिता, चण्ड-मुण्ड की विनाशिनी — चण्डिका, परमेश्वरी, चण्डी, उग्र शक्ति की अवतारी, शुभा।',
@@ -74,7 +74,7 @@ export const markandeypuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'यस्मिन् देशे न विद्वांसो न वैश्याः न च पार्थिवाः |\nन नदी न गुरुर्नार्यस्तत्र वासो न कारयेत् ||',
+          sanskrit: 'यस्मिन् देशे न विद्वांसो न वैश्याः न च पार्थिवाः ।\nन नदी न गुरुर्नार्यस्तत्र वासो न कारयेत् ॥',
           transliteration: 'yasmin deśe na vidvāṃso na vaiśyāḥ na ca pārthivāḥ |\nna nadī na gururmāryastatrā vāso na kārayet ||',
           translation: 'One should not make one\'s home in a place that has no learned people, no merchants, no governance, no river, and no wise teachers.',
           hindi: 'जिस देश में विद्वान न हों, व्यापारी न हों, शासन न हो, नदी न हो, और गुरु न हो — वहाँ निवास नहीं करना चाहिए।',
@@ -85,7 +85,7 @@ export const markandeypuran: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'आत्मनः प्रतिकूलानि परेषां न समाचरेत् | एष धर्मः समासेन सर्वेषां गुह्यमुत्तमम् ||',
+          sanskrit: 'आत्मनः प्रतिकूलानि परेषां न समाचरेत् । एष धर्मः समासेन सर्वेषां गुह्यमुत्तमम् ॥',
           transliteration: 'ātmanaḥ pratikūlāni pareṣāṃ na samācaret | eṣa dharmaḥ samāsena sarveṣāṃ guhyamuttamam ||',
           translation: 'Do not do to others what is disagreeable to yourself. This, in brief, is dharma — the supreme secret for all.',
           hindi: 'जो अपने लिए प्रतिकूल (अप्रिय) लगे, वह दूसरों के प्रति भी न करो। यही संक्षेप में धर्म है — सबके लिए परम रहस्य।',
@@ -97,7 +97,7 @@ export const markandeypuran: Scripture = {
       
         {
           id: 5,
-          sanskrit: 'या देवी सर्वभूतेषु मातृरूपेण संस्थिता | नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः ||',
+          sanskrit: 'या देवी सर्वभूतेषु मातृरूपेण संस्थिता । नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः ॥',
           transliteration: 'yā devī sarvabhūteṣu mātṛrūpeṇa saṃsthitā | namastasyai namastasyai namastasyai namo namaḥ ||',
           translation: 'To the Goddess who dwells in all beings in the form of Mother — salutations to her, salutations to her, salutations to her, again and again.',
           hindi: 'जो देवी सम्पूर्ण प्राणियों में माता के रूप में स्थित हैं — उन्हें नमस्कार, नमस्कार, नमस्कार, बार-बार नमस्कार।',
@@ -106,7 +106,7 @@ export const markandeypuran: Scripture = {
         },
         {
           id: 26,
-          sanskrit: 'दुर्गे स्मृता हरिदुर्गे दुर्गादेवी सर्वशः | दुर्गोत्तिरित्यभिध्याते दुर्गापादान सर्वदा ||',
+          sanskrit: 'दुर्गे स्मृता हरिदुर्गे दुर्गादेवी सर्वशः । दुर्गोत्तिरित्यभिध्याते दुर्गापादान सर्वदा ॥',
           transliteration: 'durge smṛtā haridurge durgādevī sarvaśaḥ | durgottirityabhidhyāte durgāpādāna sarvadā ||',
           translation: 'Remembered in difficulties, the Goddess is called Durga — she who is difficult to cross over. She is the refuge in all difficulties, always accessible.',
           hindi: 'कष्ट में याद की जाती हैं, देवी को दुर्गा कहा जाता है — जिसे पार करना कठिन है। वह सभी कष्टों में शरण हैं, सदैव पहुँच से बाहर।',
@@ -115,7 +115,7 @@ export const markandeypuran: Scripture = {
         },
         {
           id: 27,
-          sanskrit: 'चण्डी चण्डिता चैव चण्डमुण्डविनाशिनी | चण्डिका परमेशानी चण्डी चण्डात्मिका शुभा ||',
+          sanskrit: 'चण्डी चण्डिता चैव चण्डमुण्डविनाशिनी । चण्डिका परमेशानी चण्डी चण्डात्मिका शुभा ॥',
           transliteration: 'caṇḍī caṇḍitā caiva caṇḍamuṇḍavināśinī | caṇḍikā parameśānī caṇḍī caṇḍātmikā śubhā ||',
           translation: 'Chandi, Chandita, the destroyer of Chanda-Munda — Chandika, the supreme goddess, Chandi, the embodiment of fierce power, the auspicious one.',
           hindi: 'चण्डी, चण्डिता, चण्ड-मुण्ड की विनाशिनी — चण्डिका, परमेश्वरी, चण्डी, उग्र शक्ति की अवतारी, शुभा।',
@@ -131,7 +131,7 @@ export const markandeypuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'महामाया हरेश्चैषा तया सम्मोह्यते जगत् | ज्ञानिनामपि चेतांसि देवी भगवती हि सा ||',
+          sanskrit: 'महामाया हरेश्चैषा तया सम्मोह्यते जगत् । ज्ञानिनामपि चेतांसि देवी भगवती हि सा ॥',
           transliteration: 'mahāmāyā hareścaiṣā tayā sammohyate jagat | jñānināmapi cetāṃsi devī bhagavatī hi sā ||',
           translation: 'This is the Mahamaya of Hari — she bewilders the world. Even the minds of the wise are drawn by force into delusion — for she is Bhagavati, the Goddess.',
           hindi: 'यह हरि की महामाया है, जिससे सम्पूर्ण संसार मोहित हो जाता है। ज्ञानियों का भी चित्त उसके द्वारा बलपूर्वक खींच लिया जाता है — क्योंकि वह स्वयं भगवती देवी ही है।',
@@ -142,7 +142,7 @@ export const markandeypuran: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'या देवी सर्वभूतेषु शक्तिरूपेण संस्थिता | नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः ||',
+          sanskrit: 'या देवी सर्वभूतेषु शक्तिरूपेण संस्थिता । नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः ॥',
           transliteration: 'yā devī sarvabhūteṣu śaktirūpeṇa saṃsthitā | namastasyai namastasyai namastasyai namo namaḥ ||',
           translation: 'To the Goddess who dwells in all beings in the form of Shakti — salutations to her, salutations to her, salutations to her, again and again.',
           hindi: 'जो देवी सम्पूर्ण प्राणियों में शक्ति के रूप में स्थित हैं — उन्हें नमस्कार, नमस्कार, नमस्कार, बार-बार नमस्कार।',
@@ -153,7 +153,7 @@ export const markandeypuran: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'या देवी सर्वभूतेषु मातृरूपेण संस्थिता | नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः ||',
+          sanskrit: 'या देवी सर्वभूतेषु मातृरूपेण संस्थिता । नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः ॥',
           transliteration: 'yā devī sarvabhūteṣu mātṛrūpeṇa saṃsthitā | namastasyai namastasyai namastasyai namo namaḥ ||',
           translation: 'To the Goddess who dwells in all beings in the form of Mother — salutations to her, salutations to her, salutations to her, again and again.',
           hindi: 'जो देवी सम्पूर्ण प्राणियों में माता के रूप में स्थित हैं — उन्हें नमस्कार, नमस्कार, नमस्कार, बार-बार नमस्कार।',
@@ -164,7 +164,7 @@ export const markandeypuran: Scripture = {
         },
         {
           id: 26,
-          sanskrit: 'दुर्गे स्मृता हरिदुर्गे दुर्गादेवी सर्वशः | दुर्गोत्तिरित्यभिध्याते दुर्गापादान सर्वदा ||',
+          sanskrit: 'दुर्गे स्मृता हरिदुर्गे दुर्गादेवी सर्वशः । दुर्गोत्तिरित्यभिध्याते दुर्गापादान सर्वदा ॥',
           transliteration: 'durge smṛtā haridurge durgādevī sarvaśaḥ | durgottirityabhidhyāte durgāpādāna sarvadā ||',
           translation: 'Remembered in difficulties, the Goddess is called Durga — she who is difficult to cross over. She is the refuge in all difficulties, always accessible.',
           hindi: 'कष्ट में याद की जाती हैं, देवी को दुर्गा कहा जाता है — जिसे पार करना कठिन है। वह सभी कष्टों में शरण हैं, सदैव पहुँच से बाहर।',
@@ -175,7 +175,7 @@ export const markandeypuran: Scripture = {
         },
         {
           id: 27,
-          sanskrit: 'चण्डी चण्डिता चैव चण्डमुण्डविनाशिनी | चण्डिका परमेशानी चण्डी चण्डात्मिका शुभा ||',
+          sanskrit: 'चण्डी चण्डिता चैव चण्डमुण्डविनाशिनी । चण्डिका परमेशानी चण्डी चण्डात्मिका शुभा ॥',
           transliteration: 'caṇḍī caṇḍitā caiva caṇḍamuṇḍavināśinī | caṇḍikā parameśānī caṇḍī caṇḍātmikā śubhā ||',
           translation: 'Chandi, Chandita, the destroyer of Chanda-Munda — Chandika, the supreme goddess, Chandi, the embodiment of fierce power, the auspicious one.',
           hindi: 'चण्डी, चण्डिता, चण्ड-मुण्ड की विनाशिनी — चण्डिका, परमेश्वरी, चण्डी, उग्र शक्ति की अवतारी, शुभा।',
@@ -187,7 +187,7 @@ export const markandeypuran: Scripture = {
       
         {
           id: 3,
-          sanskrit: 'या देवी सर्वभूतेषु मातृरूपेण संस्थिता | नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः ||',
+          sanskrit: 'या देवी सर्वभूतेषु मातृरूपेण संस्थिता । नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः ॥',
           transliteration: 'yā devī sarvabhūteṣu mātṛrūpeṇa saṃsthitā | namastasyai namastasyai namastasyai namo namaḥ ||',
           translation: 'To the Goddess who dwells in all beings in the form of Mother — salutations to her, salutations to her, salutations to her, again and again.',
           hindi: 'जो देवी सम्पूर्ण प्राणियों में माता के रूप में स्थित हैं — उन्हें नमस्कार, नमस्कार, नमस्कार, बार-बार नमस्कार।',
@@ -196,7 +196,7 @@ export const markandeypuran: Scripture = {
         },
         {
           id: 4,
-          sanskrit: 'दुर्गे स्मृता हरिदुर्गे दुर्गादेवी सर्वशः | दुर्गोत्तिरित्यभिध्याते दुर्गापादान सर्वदा ||',
+          sanskrit: 'दुर्गे स्मृता हरिदुर्गे दुर्गादेवी सर्वशः । दुर्गोत्तिरित्यभिध्याते दुर्गापादान सर्वदा ॥',
           transliteration: 'durge smṛtā haridurge durgādevī sarvaśaḥ | durgottirityabhidhyāte durgāpādāna sarvadā ||',
           translation: 'Remembered in difficulties, the Goddess is called Durga — she who is difficult to cross over. She is the refuge in all difficulties, always accessible.',
           hindi: 'कष्ट में याद की जाती हैं, देवी को दुर्गा कहा जाता है — जिसे पार करना कठिन है। वह सभी कष्टों में शरण हैं, सदैव पहुँच से बाहर।',
@@ -205,7 +205,7 @@ export const markandeypuran: Scripture = {
         },
         {
           id: 6,
-          sanskrit: 'चण्डी चण्डिता चैव चण्डमुण्डविनाशिनी | चण्डिका परमेशानी चण्डी चण्डात्मिका शुभा ||',
+          sanskrit: 'चण्डी चण्डिता चैव चण्डमुण्डविनाशिनी । चण्डिका परमेशानी चण्डी चण्डात्मिका शुभा ॥',
           transliteration: 'caṇḍī caṇḍitā caiva caṇḍamuṇḍavināśinī | caṇḍikā parameśānī caṇḍī caṇḍātmikā śubhā ||',
           translation: 'Chandi, Chandita, the destroyer of Chanda-Munda — Chandika, the supreme goddess, Chandi, the embodiment of fierce power, the auspicious one.',
           hindi: 'चण्डी, चण्डिता, चण्ड-मुण्ड की विनाशिनी — चण्डिका, परमेश्वरी, चण्डी, उग्र शक्ति की अवतारी, शुभा।',

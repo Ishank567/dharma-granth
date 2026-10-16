@@ -17,7 +17,7 @@ export const shivasamhita: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'ज्ञानं परं ब्रह्म स्वयम्प्रकाशम् | अज्ञानात् जगदाभाति मिथ्यारूपेण चेतसि ||',
+          sanskrit: 'ज्ञानं परं ब्रह्म स्वयम्प्रकाशम् । अज्ञानात् जगदाभाति मिथ्यारूपेण चेतसि ॥',
           transliteration: 'jñānaṃ paraṃ brahma svayamprakāśam | ajñānāt jagadābhāti mithyārūpeṇa cetasi ||',
           translation: 'Knowledge is the supreme Brahman — self-luminous. Through ignorance, the world appears in the mind in a false form.',
           hindi: 'ज्ञान परम ब्रह्म है — स्वयंप्रकाश। अज्ञान से जगत् चेतस में मिथ्यारूप से प्रतीत होता है।',
@@ -28,7 +28,7 @@ export const shivasamhita: Scripture = {
         },
         {
           id: 17,
-          sanskrit: 'एक एव परात्मा तु द्वैतं नास्ति कदाचन | यत्र यत्र मनो याति तत्र तत्र समाधयः ||',
+          sanskrit: 'एक एव परात्मा तु द्वैतं नास्ति कदाचन । यत्र यत्र मनो याति तत्र तत्र समाधयः ॥',
           transliteration: 'eka eva parātmā tu dvaitaṃ nāsti kadācana | yatra yatra mano yāti tatra tatra samādhayaḥ ||',
           translation: 'There is only one supreme Self — duality never exists. Wherever the mind goes, there is samadhi.',
           hindi: 'एक ही परमात्मा है — द्वैत कभी नहीं। जहाँ-जहाँ मन जाता है, वहाँ-वहाँ समाधि है।',
@@ -47,7 +47,7 @@ export const shivasamhita: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'इडा वामे स्थिता भागे पिङ्गला दक्षिणे तथा | सुषुम्ना मध्यदेशे तु प्राणमार्गो महत्पथः ||',
+          sanskrit: 'इडा वामे स्थिता भागे पिङ्गला दक्षिणे तथा । सुषुम्ना मध्यदेशे तु प्राणमार्गो महत्पथः ॥',
           transliteration: 'iḍā vāme sthitā bhāge piṅgalā dakṣiṇe tathā | suṣumnā madhyadeśe tu prāṇamārgo mahatpathaḥ ||',
           translation: 'Ida stands on the left side; Pingala on the right. Sushumna is in the central region — the great pathway of prana.',
           hindi: 'इड़ा बायीं ओर स्थित है; पिङ्गला दायीं ओर। सुषुम्ना मध्य में है — प्राण का महान् मार्ग।',
@@ -66,7 +66,7 @@ export const shivasamhita: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'महामुद्रां महाबन्धं खेचरीं जालन्धरम् | उड्डियानं मूलबन्धं विपरीतकरणी तथा | वज्रोली योनिमुद्रा च शक्तिचालनमेव च | दश मुद्राः समाख्याताः सिद्धिदा योगिनां सदा ||',
+          sanskrit: 'महामुद्रां महाबन्धं खेचरीं जालन्धरम् । उड्डियानं मूलबन्धं विपरीतकरणी तथा । वज्रोली योनिमुद्रा च शक्तिचालनमेव च । दश मुद्राः समाख्याताः सिद्धिदा योगिनां सदा ॥',
           transliteration: 'mahāmudrāṃ mahābandhaṃ khecarīṃ jālandharaṃ | uḍḍiyānaṃ mūlabandhaṃ viparītakaraṇī tathā | vajrolī yonimudrā ca śakticālanameva ca | daśa mudrāḥ samākhyātāḥ siddhidā yogināṃ sadā ||',
           translation: 'Maha Mudra, Maha Bandha, Khechari, Jalandhara, Uddiyana, Mula Bandha, Viparitakarani, Vajroli, Yoni Mudra, Shakti Chalana — these ten mudras are givers of siddhi to yogins always.',
           hindi: 'महामुद्रा, महाबन्ध, खेचरी, जालन्धर, उड्डियान, मूलबन्ध, विपरीतकरणी, वज्रोली, योनिमुद्रा और शक्तिचालन — ये दस मुद्राएँ सिद्धिदायक हैं।',
@@ -77,7 +77,7 @@ export const shivasamhita: Scripture = {
         },
         {
           id: 78,
-          sanskrit: 'कुण्डलिनी शक्तिरियं स्वाधिष्ठाने वसेत्सदा | सा चालिता भवेत्शक्तिः सुषुम्नापथगामिनी ||',
+          sanskrit: 'कुण्डलिनी शक्तिरियं स्वाधिष्ठाने वसेत्सदा । सा चालिता भवेत्शक्तिः सुषुम्नापथगामिनी ॥',
           transliteration: 'kuṇḍalinī śaktiriyaṃ svādhiṣṭhāne vasetsadā | sā cālitā bhavetśaktiḥ suṣumnāpathagāminī ||',
           translation: 'Kundalini Shakti always dwells at the Svadhisthana. When awakened and set in motion, she becomes the energy travelling the path of Sushumna.',
           hindi: 'यह कुण्डलिनी शक्ति स्वाधिष्ठान में सदा वास करती है। जागृत होने पर वह सुषुम्ना पथ पर चलने वाली शक्ति बन जाती है।',
@@ -96,7 +96,7 @@ export const shivasamhita: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'श्रूयते प्रथमाभ्यासे नादो नानाविधो महान् | ततोऽभ्यासे वर्धमाने श्रूयते सूक्ष्मः सूक्ष्मतरः ||',
+          sanskrit: 'श्रूयते प्रथमाभ्यासे नादो नानाविधो महान् । ततोऽभ्यासे वर्धमाने श्रूयते सूक्ष्मः सूक्ष्मतरः ॥',
           transliteration: 'śrūyate prathamābhyāse nādo nānāvidho mahān | tato\'bhyāse vardhamāne śrūyate sūkṣmaḥ sūkṣmataraḥ ||',
           translation: 'In the first practice, many kinds of great sounds are heard. As practice increases, subtler and subtler sounds are heard.',
           hindi: 'प्रथम अभ्यास में अनेक प्रकार के महान् नाद सुनाई देते हैं। जैसे-जैसे अभ्यास बढ़ता है, सूक्ष्म से सूक्ष्मतर नाद सुनाई देते हैं।',
@@ -107,7 +107,7 @@ export const shivasamhita: Scripture = {
         },
         {
           id: 52,
-          sanskrit: 'यावन्नादस्तु संजातः तावन्मनः प्रलीयते | ब्रह्मैव केवलं शेषं यत्परं तत्परं पदम् ||',
+          sanskrit: 'यावन्नादस्तु संजातः तावन्मनः प्रलीयते । ब्रह्मैव केवलं शेषं यत्परं तत्परं पदम् ॥',
           transliteration: 'yāvannādastu saṃjātaḥ tāvanmanaḥ pralīyate | brahmaiva kevalaṃ śeṣaṃ yatparaṃ tatparaṃ padam ||',
           translation: 'As long as the sound arises, so long the mind dissolves. Brahman alone remains as the residue — that supreme, that is the supreme state.',
           hindi: 'जब तक नाद उत्पन्न होता है, तब तक मन विलीन होता है। केवल ब्रह्म ही शेष रहता है — वह परम, वही परम पद है।',
@@ -118,7 +118,7 @@ export const shivasamhita: Scripture = {
         },
         {
           id: 35,
-          sanskrit: 'शिवः प्राणः प्राणेश्चैव शिवः सर्वेषु भूतेषु | यो शिवं प्राणरूपेण जानाति स मुक्तो भवति ||',
+          sanskrit: 'शिवः प्राणः प्राणेश्चैव शिवः सर्वेषु भूतेषु । यो शिवं प्राणरूपेण जानाति स मुक्तो भवति ॥',
           transliteration: 'śivaḥ prāṇaḥ prāṇeścaiva śivaḥ sarveṣu bhūteṣu | yo śivaṃ prāṇarūpeṇa jānāti sa mukto bhavati ||',
           translation: 'Shiva is prana, Shiva is the lord of prana, Shiva is in all beings. He who knows Shiva as the form of prana becomes liberated.',
           hindi: 'शिव प्राण हैं, शिव प्राणेश हैं, शिव सभी प्राणियों में हैं। जो शिव को प्राण-रूप में जानता है, वह मुक्त हो जाता है।',

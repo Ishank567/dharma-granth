@@ -47,7 +47,7 @@ export const yogarasayanam: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'ब्रह्मचर्यं रसायनं योगिनां मोक्षसाधनम् | शुक्र-रक्षणमेवात्र परमं धर्म उच्यते ||',
+          sanskrit: 'ब्रह्मचर्यं रसायनं योगिनां मोक्षसाधनम् । शुक्र-रक्षणमेवात्र परमं धर्म उच्यते ॥',
           transliteration: 'brahmacaryaṃ rasāyanaṃ yogināṃ mokṣasādhanam | śukra-rakṣaṇamevātra paramaṃ dharma ucyate ||',
           translation: 'Brahmacharya is the elixir, the means of liberation for yogins. The protection of śukra (vital essence/semen) is declared here to be the supreme dharma.',
           hindi: 'ब्रह्मचर्य योगियों का रसायन और मोक्ष-साधन है। शुक्र की रक्षा ही यहाँ परम धर्म कही गई है।',
@@ -58,7 +58,7 @@ export const yogarasayanam: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'सम्यग् आहारः सततं सम्यग् आसन-संस्थितिः | सम्यग् प्राणो\'nilaḥ śuddhaḥ samyag् jñānam rasāyanam ||',
+          sanskrit: 'सम्यग् आहारः सततं सम्यग् आसन-संस्थितिः । सम्यग् प्राणो\'nilaḥ śuddhaḥ samyag् jñānam rasāyanam ||',
           transliteration: 'samyag āhāraḥ satataṃ samyag āsana-saṃsthitiḥ | samyag prāṇo\'nilaḥ śuddhaḥ samyag jñānam rasāyanam ||',
           translation: 'Right food always, right posture in sitting, right breath — the pure wind — and right knowledge: this is the rasāyana.',
           hindi: 'सदा सम्यक् आहार, सम्यक् आसन-संस्थिति, सम्यक् प्राण (शुद्ध वायु), और सम्यक् ज्ञान — यही रसायन है।',

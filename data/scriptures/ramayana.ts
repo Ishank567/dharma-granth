@@ -11,7 +11,7 @@ export const ramayana: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'को न्वस्मिन् साम्प्रतं लोके गुणवान् कश्च वीर्यवान् | धर्मज्ञश्च कृतज्ञश्च सत्यवाक्यो दृढव्रतः ||',
+          sanskrit: 'को न्वस्मिन् साम्प्रतं लोके गुणवान् कश्च वीर्यवान् । धर्मज्ञश्च कृतज्ञश्च सत्यवाक्यो दृढव्रतः ॥',
           transliteration: 'ko nvasmin sāmprataṃ loke guṇavān kaśca vīryavān | dharmajñaśca kṛtajñaśca satyavākyo dṛḍhavrataḥ ||',
           translation: 'Who exists in this world today who is virtuous, powerful, righteous, grateful, truthful, and firm in his vows?',
           hindi: 'इस संसार में अभी ऐसा कौन है जो गुणवान, वीर्यवान, धर्मज्ञ, कृतज्ञ, सत्यवादी और दृढ़व्रत हो?',
@@ -22,7 +22,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'रामो विग्रहवान् धर्मः साधुश्च सत्यसन्धश्च | राजा सर्वस्य लोकस्य देवानां मघवानिव ||',
+          sanskrit: 'रामो विग्रहवान् धर्मः साधुश्च सत्यसन्धश्च । राजा सर्वस्य लोकस्य देवानां मघवानिव ॥',
           transliteration: 'rāmo vigrahavān dharmaḥ sādhuśca satyasandhaśca | rājā sarvasya lokasya devānāṃ maghavāniva ||',
           translation: 'Rama is dharma itself in embodied form — a virtuous man, true to his word, the king of all the worlds as Indra is king of the gods.',
           hindi: 'राम साक्षात् धर्म के मानव-रूप हैं — साधु, सत्य-प्रतिज्ञ; जैसे देवों में इन्द्र, वैसे सम्पूर्ण लोकों के राजा।',
@@ -33,7 +33,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 3,
-          sanskrit: 'मा निषाद प्रतिष्ठां त्वमगमः शाश्वतीः समाः | यत्क्रौञ्चमिथुनादेकमवधीः काममोहितम् ||',
+          sanskrit: 'मा निषाद प्रतिष्ठां त्वमगमः शाश्वतीः समाः । यत्क्रौञ्चमिथुनादेकमवधीः काममोहितम् ॥',
           transliteration: 'mā niṣāda pratiṣṭhāṃ tvamAgamaḥ śāśvatīḥ samāḥ | yatkrauñcamithunādekamavadhīḥ kāmamohitam ||',
           translation: 'O hunter, you shall not attain glory for long years — for you have slain one of a pair of krauncha birds, lost in love.',
           hindi: 'हे निषाद! तू अनंत काल तक प्रतिष्ठा न प्राप्त कर — क्योंकि तूने काम-मोहित क्रौञ्च-युगल में से एक को मार डाला।',
@@ -44,7 +44,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 4,
-          sanskrit: 'इक्ष्वाकुवंशप्रभवो रामो नाम जनैः श्रुतः | नियतात्मा महावीर्यो द्युतिमान् धृतिमान् वशी ||',
+          sanskrit: 'इक्ष्वाकुवंशप्रभवो रामो नाम जनैः श्रुतः । नियतात्मा महावीर्यो द्युतिमान् धृतिमान् वशी ॥',
           transliteration: 'ikṣvākuvaṃśaprabhavo rāmo nāma janaiḥ śrutaḥ | niyatātmā mahāvīryo dyutimān dhṛtimān vaśī ||',
           translation: 'Born of the Ikshvaku lineage, known to the people as Rama — self-controlled, of great valour, radiant, steadfast, master of his senses.',
           hindi: 'इक्ष्वाकु वंश में उत्पन्न, लोगों में राम के नाम से विख्यात — नियतात्मा, महावीर्य, द्युतिमान, धृतिमान, इन्द्रियों के स्वामी।',
@@ -56,7 +56,7 @@ export const ramayana: Scripture = {
       
         {
           id: 101012,
-          sanskrit: 'रामो विग्रहवान् धर्मः साधुश्च सत्यसन्धश्च | राजा सर्वस्य लोकस्य देवानां मघवानिव ||',
+          sanskrit: 'रामो विग्रहवान् धर्मः साधुश्च सत्यसन्धश्च । राजा सर्वस्य लोकस्य देवानां मघवानिव ॥',
           transliteration: 'rāmo vigrahavān dharmaḥ sādhuśca satyasandhaśca | rājā sarvasya lokasya devānāṃ maghavāniva ||',
           translation: 'Rama is dharma itself in embodied form — a virtuous man, true to his word, the king of all the worlds as Indra is king of the gods.',
           hindi: 'राम साक्षात् धर्म के मानव-रूप हैं — साधु, सत्य-प्रतिज्ञ; जैसे देवों में इन्द्र, वैसे सम्पूर्ण लोकों के राजा।',
@@ -65,7 +65,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 101018,
-          sanskrit: 'रामो विग्रहवान् धर्मः सर्वस्य जगतो गतिः | रामो राजा सर्वदेवानां रामो वेदो निगूढः ||',
+          sanskrit: 'रामो विग्रहवान् धर्मः सर्वस्य जगतो गतिः । रामो राजा सर्वदेवानां रामो वेदो निगूढः ॥',
           transliteration: 'rāmo vigrahavān dharmaḥ sarvasya jagato gatiḥ | rāmo rājā sarvadevānāṃ rāmo vedo nigūḍhaḥ ||',
           translation: 'Rama is dharma in embodied form; Rama is the goal of all the world. Rama is the king of all gods; Rama is the hidden Veda.',
           hindi: 'राम धर्म का साक्षात रूप है; राम सारे जगत की गति है। राम सभी देवों का राजा है; राम वेद का गूढ़ रूप है।',
@@ -74,7 +74,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 101019,
-          sanskrit: 'जनकीनन्दनो देवो जनकीजनकः स्वयम् | जनकीकुलकमल्पो वा जनकीकुलदीप्तिमान् ||',
+          sanskrit: 'जनकीनन्दनो देवो जनकीजनकः स्वयम् । जनकीकुलकमल्पो वा जनकीकुलदीप्तिमान् ॥',
           transliteration: 'janakīnandano devo janakījanakaḥ svayam | janakīkulakalpo vā janakīkuladīptimān ||',
           translation: 'Janaki\'s son is the divine one; Janaki\'s husband is himself the creator. He is either the ornament of Janaki\'s lineage or the illumination of Janaki\'s lineage.',
           hindi: 'जानकी का पुत्र दिव्य है; जानकी का पति स्वयं ब्रह्मा है। वह जानकी कुल का आभूषण है या जानकी कुल का प्रकाश।',
@@ -83,7 +83,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 101024,
-          sanskrit: 'अहं तु गृध्रराजस्य जटायोः परमं प्रियम् | करिष्ये सलिलं तस्य दहिष्यामि च तं द्विजम् ||',
+          sanskrit: 'अहं तु गृध्रराजस्य जटायोः परमं प्रियम् । करिष्ये सलिलं तस्य दहिष्यामि च तं द्विजम् ॥',
           transliteration: 'ahaṃ tu gṛdhrarājasya jaṭāyoḥ paramaṃ priyam | kariṣye salilaṃ tasya dahiṣyāmi ca taṃ dvijam ||',
           translation: 'I myself will perform the water-rites for Jatayu, king of eagles, the most dear one — and I will perform his cremation.',
           hindi: 'मैं स्वयं गृध्रराज जटायु के लिए जलांजलि दूँगा — अत्यंत प्रिय उनके लिए — और मैं उनका दाह-संस्कार करूँगा।',
@@ -92,7 +92,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 101030,
-          sanskrit: 'प्रणवो धन्वो विराटो रामो राजीवलोचनः | पार्थिवो विश्वकर्मा च श्रीरामः पुरुषोत्तमः ||',
+          sanskrit: 'प्रणवो धन्वो विराटो रामो राजीवलोचनः । पार्थिवो विश्वकर्मा च श्रीरामः पुरुषोत्तमः ॥',
           transliteration: 'praṇavo dhanvo virāṭo rāmo rājīvalocanaḥ | pārthivo viśvakarmā ca śrīrāmaḥ puruṣottamaḥ ||',
           translation: 'Om is the bow, the universe is the arrow, Rama is the lotus-eyed one. Rama is the earthly one, the creator of all, the supreme person.',
           hindi: 'ॐ धनुष है, विराट बाण है, राम कमलनयन है। राम पार्थिव है, विश्वकर्मा है, पुरुषोत्तम है।',
@@ -101,7 +101,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 101031,
-          sanskrit: 'न त्वं शोचितुमर्हसि | आत्मा हि लोके सर्वत्र वर्तते न विनश्यति ||',
+          sanskrit: 'न त्वं शोचितुमर्हसि । आत्मा हि लोके सर्वत्र वर्तते न विनश्यति ॥',
           transliteration: 'na tvaṃ śocitumarhasi | ātmā hi loke sarvatra vartate na vinaśyati ||',
           translation: 'You should not grieve. The Self pervades everywhere in the world and does not perish.',
           hindi: 'तुम्हें शोक नहीं करना चाहिए। आत्मा इस लोक में सर्वत्र व्याप्त है और नष्ट नहीं होती।',
@@ -110,7 +110,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 101032,
-          sanskrit: 'न त्वं शोचितुमर्हसि प्रियाया वियोगतः | कामक्रोधौ वशे कृत्वा कुलं रक्ष महाद्युते ||',
+          sanskrit: 'न त्वं शोचितुमर्हसि प्रियाया वियोगतः । कामक्रोधौ वशे कृत्वा कुलं रक्ष महाद्युते ॥',
           transliteration: 'na tvaṃ śocitumarhasi priyāyā viyogataḥ | kāmakrodhau vaśe kṛtvā kulaṃ rakṣa mahādyute ||',
           translation: 'You should not grieve for the separation from one you love. Having brought desire and anger under control — protect the lineage, O radiant one.',
           hindi: 'प्रिय के वियोग से तुम्हें शोक नहीं करना चाहिए। काम और क्रोध को वश में करके — हे महाद्युते, वंश की रक्षा करो।',
@@ -119,7 +119,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 101034,
-          sanskrit: 'न स कामी न च क्रोधी न मत्सरी न च मानवान् | न मिथ्यावादी बभूव वाली वानरपुङ्गवः ||',
+          sanskrit: 'न स कामी न च क्रोधी न मत्सरी न च मानवान् । न मिथ्यावादी बभूव वाली वानरपुङ्गवः ॥',
           transliteration: 'na sa kāmī na ca krodhī na matsarī na ca mānavān | na mithyāvādī babhūva vālī vānarapuṅgavaḥ ||',
           translation: 'He was not driven by lust, nor anger, nor envy, nor arrogance, nor falsehood — that Vali, bull among vanaras.',
           hindi: 'वह कामी नहीं था, न क्रोधी, न मत्सरी, न अहंकारी, न मिथ्यावादी — वह वानरश्रेष्ठ वाली।',
@@ -133,7 +133,7 @@ export const ramayana: Scripture = {
       verses: [
         {
           id: 20,
-          sanskrit: 'न दैवमभिशंसामि पुरुषार्थमुपाश्रये | यद्भवन्ति महाभागाः स्वयमेव क्रियापराः ||',
+          sanskrit: 'न दैवमभिशंसामि पुरुषार्थमुपाश्रये । यद्भवन्ति महाभागाः स्वयमेव क्रियापराः ॥',
           transliteration: 'na daivamabhiśaṃsāmi puruṣārthamupāśraye | yadbhavanti mahābhāgāḥ svayameva kriyāparāḥ ||',
           translation: 'I do not blame fate; I take refuge in human effort. Those who are truly fortunate are themselves engaged in action.',
           hindi: 'मैं भाग्य को दोष नहीं देता; मैं पुरुषार्थ की शरण लेता हूँ। जो वास्तव में भाग्यशाली हैं, वे स्वयं ही कर्म में लगे रहते हैं।',
@@ -144,7 +144,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 21,
-          sanskrit: 'न त्वं शोचितुमर्हसि | आत्मा हि लोके सर्वत्र वर्तते न विनश्यति ||',
+          sanskrit: 'न त्वं शोचितुमर्हसि । आत्मा हि लोके सर्वत्र वर्तते न विनश्यति ॥',
           transliteration: 'na tvaṃ śocitumarhasi | ātmā hi loke sarvatra vartate na vinaśyati ||',
           translation: 'You should not grieve. The Self pervades everywhere in the world and does not perish.',
           hindi: 'तुम्हें शोक नहीं करना चाहिए। आत्मा इस लोक में सर्वत्र व्याप्त है और नष्ट नहीं होती।',
@@ -155,7 +155,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 22,
-          sanskrit: 'न त्वं शोचितुमर्हसि प्रियाया वियोगतः | कामक्रोधौ वशे कृत्वा कुलं रक्ष महाद्युते ||',
+          sanskrit: 'न त्वं शोचितुमर्हसि प्रियाया वियोगतः । कामक्रोधौ वशे कृत्वा कुलं रक्ष महाद्युते ॥',
           transliteration: 'na tvaṃ śocitumarhasi priyāyā viyogataḥ | kāmakrodhau vaśe kṛtvā kulaṃ rakṣa mahādyute ||',
           translation: 'You should not grieve for the separation from one you love. Having brought desire and anger under control — protect the lineage, O radiant one.',
           hindi: 'प्रिय के वियोग से तुम्हें शोक नहीं करना चाहिए। काम और क्रोध को वश में करके — हे महाद्युते, वंश की रक्षा करो।',
@@ -166,7 +166,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 112,
-          sanskrit: 'पादुके च समासाद्य भरतः स्वयमेव हि | शिरसा धारयामास प्रणम्य सविनीतवत् ||',
+          sanskrit: 'पादुके च समासाद्य भरतः स्वयमेव हि । शिरसा धारयामास प्रणम्य सविनीतवत् ॥',
           transliteration: 'pāduke ca samāsādya bharataḥ svayameva hi | śirasā dhārayāmāsa praṇamya savinītavat ||',
           translation: 'Having received the sandals, Bharata himself — bowing with complete humility — bore them on his head.',
           hindi: 'पादुकाएं प्राप्त करके, भरत ने स्वयं ही — विनयपूर्वक प्रणाम करके — उन्हें अपने सिर पर धारण किया।',
@@ -178,7 +178,7 @@ export const ramayana: Scripture = {
       
         {
           id: 102011,
-          sanskrit: 'न दैवमभिशंसामि पुरुषार्थमुपाश्रये | यद्भवन्ति महाभागाः स्वयमेव क्रियापराः ||',
+          sanskrit: 'न दैवमभिशंसामि पुरुषार्थमुपाश्रये । यद्भवन्ति महाभागाः स्वयमेव क्रियापराः ॥',
           transliteration: 'na daivamabhiśaṃsāmi puruṣārthamupāśraye | yadbhavanti mahābhāgāḥ svayameva kriyāparāḥ ||',
           translation: 'I do not blame fate; I take refuge in human effort. Those who are truly fortunate are themselves engaged in action.',
           hindi: 'मैं भाग्य को दोष नहीं देता; मैं पुरुषार्थ की शरण लेता हूँ। जो वास्तव में भाग्यशाली हैं, वे स्वयं ही कर्म में लगे रहते हैं।',
@@ -187,7 +187,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 102012,
-          sanskrit: 'न त्वं शोचितुमर्हसि | आत्मा हि लोके सर्वत्र वर्तते न विनश्यति ||',
+          sanskrit: 'न त्वं शोचितुमर्हसि । आत्मा हि लोके सर्वत्र वर्तते न विनश्यति ॥',
           transliteration: 'na tvaṃ śocitumarhasi | ātmā hi loke sarvatra vartate na vinaśyati ||',
           translation: 'You should not grieve. The Self pervades everywhere in the world and does not perish.',
           hindi: 'तुम्हें शोक नहीं करना चाहिए। आत्मा इस लोक में सर्वत्र व्याप्त है और नष्ट नहीं होती।',
@@ -196,7 +196,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 102013,
-          sanskrit: 'न त्वं शोचितुमर्हसि प्रियाया वियोगतः | कामक्रोधौ वशे कृत्वा कुलं रक्ष महाद्युते ||',
+          sanskrit: 'न त्वं शोचितुमर्हसि प्रियाया वियोगतः । कामक्रोधौ वशे कृत्वा कुलं रक्ष महाद्युते ॥',
           transliteration: 'na tvaṃ śocitumarhasi priyāyā viyogataḥ | kāmakrodhau vaśe kṛtvā kulaṃ rakṣa mahādyute ||',
           translation: 'You should not grieve for the separation from one you love. Having brought desire and anger under control — protect the lineage, O radiant one.',
           hindi: 'प्रिय के वियोग से तुम्हें शोक नहीं करना चाहिए। काम और क्रोध को वश में करके — हे महाद्युते, वंश की रक्षा करो।',
@@ -205,7 +205,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 102014,
-          sanskrit: 'पादुके च समासाद्य भरतः स्वयमेव हि | शिरसा धारयामास प्रणम्य सविनीतवत् ||',
+          sanskrit: 'पादुके च समासाद्य भरतः स्वयमेव हि । शिरसा धारयामास प्रणम्य सविनीतवत् ॥',
           transliteration: 'pāduke ca samāsādya bharataḥ svayameva hi | śirasā dhārayāmāsa praṇamya savinītavat ||',
           translation: 'Having received the sandals, Bharata himself — bowing with complete humility — bore them on his head.',
           hindi: 'पादुकाएं प्राप्त करके, भरत ने स्वयं ही — विनयपूर्वक प्रणाम करके — उन्हें अपने सिर पर धारण किया।',
@@ -214,7 +214,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 102018,
-          sanskrit: 'रामो विग्रहवान् धर्मः सर्वस्य जगतो गतिः | रामो राजा सर्वदेवानां रामो वेदो निगूढः ||',
+          sanskrit: 'रामो विग्रहवान् धर्मः सर्वस्य जगतो गतिः । रामो राजा सर्वदेवानां रामो वेदो निगूढः ॥',
           transliteration: 'rāmo vigrahavān dharmaḥ sarvasya jagato gatiḥ | rāmo rājā sarvadevānāṃ rāmo vedo nigūḍhaḥ ||',
           translation: 'Rama is dharma in embodied form; Rama is the goal of all the world. Rama is the king of all gods; Rama is the hidden Veda.',
           hindi: 'राम धर्म का साक्षात रूप है; राम सारे जगत की गति है। राम सभी देवों का राजा है; राम वेद का गूढ़ रूप है।',
@@ -223,7 +223,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 102019,
-          sanskrit: 'जनकीनन्दनो देवो जनकीजनकः स्वयम् | जनकीकुलकमल्पो वा जनकीकुलदीप्तिमान् ||',
+          sanskrit: 'जनकीनन्दनो देवो जनकीजनकः स्वयम् । जनकीकुलकमल्पो वा जनकीकुलदीप्तिमान् ॥',
           transliteration: 'janakīnandano devo janakījanakaḥ svayam | janakīkulakalpo vā janakīkuladīptimān ||',
           translation: 'Janaki\'s son is the divine one; Janaki\'s husband is himself the creator. He is either the ornament of Janaki\'s lineage or the illumination of Janaki\'s lineage.',
           hindi: 'जानकी का पुत्र दिव्य है; जानकी का पति स्वयं ब्रह्मा है। वह जानकी कुल का आभूषण है या जानकी कुल का प्रकाश।',
@@ -232,7 +232,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 102024,
-          sanskrit: 'अहं तु गृध्रराजस्य जटायोः परमं प्रियम् | करिष्ये सलिलं तस्य दहिष्यामि च तं द्विजम् ||',
+          sanskrit: 'अहं तु गृध्रराजस्य जटायोः परमं प्रियम् । करिष्ये सलिलं तस्य दहिष्यामि च तं द्विजम् ॥',
           transliteration: 'ahaṃ tu gṛdhrarājasya jaṭāyoḥ paramaṃ priyam | kariṣye salilaṃ tasya dahiṣyāmi ca taṃ dvijam ||',
           translation: 'I myself will perform the water-rites for Jatayu, king of eagles, the most dear one — and I will perform his cremation.',
           hindi: 'मैं स्वयं गृध्रराज जटायु के लिए जलांजलि दूँगा — अत्यंत प्रिय उनके लिए — और मैं उनका दाह-संस्कार करूँगा।',
@@ -241,7 +241,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 102030,
-          sanskrit: 'प्रणवो धन्वो विराटो रामो राजीवलोचनः | पार्थिवो विश्वकर्मा च श्रीरामः पुरुषोत्तमः ||',
+          sanskrit: 'प्रणवो धन्वो विराटो रामो राजीवलोचनः । पार्थिवो विश्वकर्मा च श्रीरामः पुरुषोत्तमः ॥',
           transliteration: 'praṇavo dhanvo virāṭo rāmo rājīvalocanaḥ | pārthivo viśvakarmā ca śrīrāmaḥ puruṣottamaḥ ||',
           translation: 'Om is the bow, the universe is the arrow, Rama is the lotus-eyed one. Rama is the earthly one, the creator of all, the supreme person.',
           hindi: 'ॐ धनुष है, विराट बाण है, राम कमलनयन है। राम पार्थिव है, विश्वकर्मा है, पुरुषोत्तम है।',
@@ -250,7 +250,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 102034,
-          sanskrit: 'न स कामी न च क्रोधी न मत्सरी न च मानवान् | न मिथ्यावादी बभूव वाली वानरपुङ्गवः ||',
+          sanskrit: 'न स कामी न च क्रोधी न मत्सरी न च मानवान् । न मिथ्यावादी बभूव वाली वानरपुङ्गवः ॥',
           transliteration: 'na sa kāmī na ca krodhī na matsarī na ca mānavān | na mithyāvādī babhūva vālī vānarapuṅgavaḥ ||',
           translation: 'He was not driven by lust, nor anger, nor envy, nor arrogance, nor falsehood — that Vali, bull among vanaras.',
           hindi: 'वह कामी नहीं था, न क्रोधी, न मत्सरी, न अहंकारी, न मिथ्यावादी — वह वानरश्रेष्ठ वाली।',
@@ -259,7 +259,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 102231,
-          sanskrit: 'नीतिं शास्त्रविधिं चैव शत्रोरपि गृहाण हि | उपदेशं हि कर्तव्यो यस्यासौ शास्त्रवित्तमः ||',
+          sanskrit: 'नीतिं शास्त्रविधिं चैव शत्रोरपि गृहाण हि । उपदेशं हि कर्तव्यो यस्यासौ शास्त्रवित्तमः ॥',
           transliteration: 'nītiṃ śāstravidhiṃ caiva śatrorapiGṛhāṇa hi | upadeśaṃ hi kartavyo yasyāsau śāstravittamaḥ ||',
           translation: 'Receive the teaching of statecraft and scripture even from an enemy. Teaching should be received from whoever is the greatest knower of scripture.',
           hindi: 'नीति और शास्त्र-विधि शत्रु से भी ग्रहण करो। जो शास्त्र का सर्वश्रेष्ठ ज्ञाता हो — उससे उपदेश लेना उचित है।',
@@ -273,7 +273,7 @@ export const ramayana: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'धर्मो रक्षति रक्षितः | धर्म एव हतो हन्ति धर्मो रक्षति रक्षितः ||',
+          sanskrit: 'धर्मो रक्षति रक्षितः । धर्म एव हतो हन्ति धर्मो रक्षति रक्षितः ॥',
           transliteration: 'dharmo rakṣati rakṣitaḥ | dharma eva hato hanti dharmo rakṣati rakṣitaḥ ||',
           translation: 'Dharma, when protected, protects; dharma when destroyed, destroys. Therefore let no one destroy dharma — let dharma not destroy us.',
           hindi: 'रक्षा किया हुआ धर्म रक्षा करता है; नष्ट किया हुआ धर्म नष्ट कर देता है। इसलिए धर्म की रक्षा करनी चाहिए।',
@@ -284,7 +284,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'सत्यमेव जयते नानृतं सत्येन पन्था विततो देवयानः ||',
+          sanskrit: 'सत्यमेव जयते नानृतं सत्येन पन्था विततो देवयानः ॥',
           transliteration: 'satyameva jayate nānṛtaṃ satyena panthā vitato devayānaḥ ||',
           translation: 'Truth alone triumphs, not falsehood. By truth the path of the gods is laid out.',
           hindi: 'सत्य की ही जीत होती है, असत्य की नहीं। सत्य से ही देवयान मार्ग प्रशस्त होता है।',
@@ -295,7 +295,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 14,
-          sanskrit: 'अहं तु गृध्रराजस्य जटायोः परमं प्रियम् | करिष्ये सलिलं तस्य दहिष्यामि च तं द्विजम् ||',
+          sanskrit: 'अहं तु गृध्रराजस्य जटायोः परमं प्रियम् । करिष्ये सलिलं तस्य दहिष्यामि च तं द्विजम् ॥',
           transliteration: 'ahaṃ tu gṛdhrarājasya jaṭāyoḥ paramaṃ priyam | kariṣye salilaṃ tasya dahiṣyāmi ca taṃ dvijam ||',
           translation: 'I myself will perform the water-rites for Jatayu, king of eagles, the most dear one — and I will perform his cremation.',
           hindi: 'मैं स्वयं गृध्रराज जटायु के लिए जलांजलि दूँगा — अत्यंत प्रिय उनके लिए — और मैं उनका दाह-संस्कार करूँगा।',
@@ -307,7 +307,7 @@ export const ramayana: Scripture = {
       
         {
           id: 103012,
-          sanskrit: 'सत्यमेव जयते नानृतं सत्येन पन्था विततो देवयानः ||',
+          sanskrit: 'सत्यमेव जयते नानृतं सत्येन पन्था विततो देवयानः ॥',
           transliteration: 'satyameva jayate nānṛtaṃ satyena panthā vitato devayānaḥ ||',
           translation: 'Truth alone triumphs, not falsehood. By truth the path of the gods is laid out.',
           hindi: 'सत्य की ही जीत होती है, असत्य की नहीं। सत्य से ही देवयान मार्ग प्रशस्त होता है।',
@@ -316,7 +316,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 103013,
-          sanskrit: 'अहं तु गृध्रराजस्य जटायोः परमं प्रियम् | करिष्ये सलिलं तस्य दहिष्यामि च तं द्विजम् ||',
+          sanskrit: 'अहं तु गृध्रराजस्य जटायोः परमं प्रियम् । करिष्ये सलिलं तस्य दहिष्यामि च तं द्विजम् ॥',
           transliteration: 'ahaṃ tu gṛdhrarājasya jaṭāyoḥ paramaṃ priyam | kariṣye salilaṃ tasya dahiṣyāmi ca taṃ dvijam ||',
           translation: 'I myself will perform the water-rites for Jatayu, king of eagles, the most dear one — and I will perform his cremation.',
           hindi: 'मैं स्वयं गृध्रराज जटायु के लिए जलांजलि दूँगा — अत्यंत प्रिय उनके लिए — और मैं उनका दाह-संस्कार करूँगा।',
@@ -325,7 +325,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 103014,
-          sanskrit: 'इक्ष्वाकुवंशप्रभवो रामो नाम जनैः श्रुतः | नियतात्मा महावीर्यो द्युतिमान् धृतिमान् वशी ||',
+          sanskrit: 'इक्ष्वाकुवंशप्रभवो रामो नाम जनैः श्रुतः । नियतात्मा महावीर्यो द्युतिमान् धृतिमान् वशी ॥',
           transliteration: 'ikṣvākuvaṃśaprabhavo rāmo nāma janaiḥ śrutaḥ | niyatātmā mahāvīryo dyutimān dhṛtimān vaśī ||',
           translation: 'Born of the Ikshvaku lineage, known to the people as Rama — self-controlled, of great valour, radiant, steadfast, master of his senses.',
           hindi: 'इक्ष्वाकु वंश में उत्पन्न, लोगों में राम के नाम से विख्यात — नियतात्मा, महावीर्य, द्युतिमान, धृतिमान, इन्द्रियों के स्वामी।',
@@ -334,7 +334,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 103018,
-          sanskrit: 'रामो विग्रहवान् धर्मः सर्वस्य जगतो गतिः | रामो राजा सर्वदेवानां रामो वेदो निगूढः ||',
+          sanskrit: 'रामो विग्रहवान् धर्मः सर्वस्य जगतो गतिः । रामो राजा सर्वदेवानां रामो वेदो निगूढः ॥',
           transliteration: 'rāmo vigrahavān dharmaḥ sarvasya jagato gatiḥ | rāmo rājā sarvadevānāṃ rāmo vedo nigūḍhaḥ ||',
           translation: 'Rama is dharma in embodied form; Rama is the goal of all the world. Rama is the king of all gods; Rama is the hidden Veda.',
           hindi: 'राम धर्म का साक्षात रूप है; राम सारे जगत की गति है। राम सभी देवों का राजा है; राम वेद का गूढ़ रूप है।',
@@ -343,7 +343,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 103019,
-          sanskrit: 'जनकीनन्दनो देवो जनकीजनकः स्वयम् | जनकीकुलकमल्पो वा जनकीकुलदीप्तिमान् ||',
+          sanskrit: 'जनकीनन्दनो देवो जनकीजनकः स्वयम् । जनकीकुलकमल्पो वा जनकीकुलदीप्तिमान् ॥',
           transliteration: 'janakīnandano devo janakījanakaḥ svayam | janakīkulakalpo vā janakīkuladīptimān ||',
           translation: 'Janaki\'s son is the divine one; Janaki\'s husband is himself the creator. He is either the ornament of Janaki\'s lineage or the illumination of Janaki\'s lineage.',
           hindi: 'जानकी का पुत्र दिव्य है; जानकी का पति स्वयं ब्रह्मा है। वह जानकी कुल का आभूषण है या जानकी कुल का प्रकाश।',
@@ -352,7 +352,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 103030,
-          sanskrit: 'प्रणवो धन्वो विराटो रामो राजीवलोचनः | पार्थिवो विश्वकर्मा च श्रीरामः पुरुषोत्तमः ||',
+          sanskrit: 'प्रणवो धन्वो विराटो रामो राजीवलोचनः । पार्थिवो विश्वकर्मा च श्रीरामः पुरुषोत्तमः ॥',
           transliteration: 'praṇavo dhanvo virāṭo rāmo rājīvalocanaḥ | pārthivo viśvakarmā ca śrīrāmaḥ puruṣottamaḥ ||',
           translation: 'Om is the bow, the universe is the arrow, Rama is the lotus-eyed one. Rama is the earthly one, the creator of all, the supreme person.',
           hindi: 'ॐ धनुष है, विराट बाण है, राम कमलनयन है। राम पार्थिव है, विश्वकर्मा है, पुरुषोत्तम है।',
@@ -361,7 +361,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 103031,
-          sanskrit: 'न त्वं शोचितुमर्हसि | आत्मा हि लोके सर्वत्र वर्तते न विनश्यति ||',
+          sanskrit: 'न त्वं शोचितुमर्हसि । आत्मा हि लोके सर्वत्र वर्तते न विनश्यति ॥',
           transliteration: 'na tvaṃ śocitumarhasi | ātmā hi loke sarvatra vartate na vinaśyati ||',
           translation: 'You should not grieve. The Self pervades everywhere in the world and does not perish.',
           hindi: 'तुम्हें शोक नहीं करना चाहिए। आत्मा इस लोक में सर्वत्र व्याप्त है और नष्ट नहीं होती।',
@@ -370,7 +370,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 103032,
-          sanskrit: 'न त्वं शोचितुमर्हसि प्रियाया वियोगतः | कामक्रोधौ वशे कृत्वा कुलं रक्ष महाद्युते ||',
+          sanskrit: 'न त्वं शोचितुमर्हसि प्रियाया वियोगतः । कामक्रोधौ वशे कृत्वा कुलं रक्ष महाद्युते ॥',
           transliteration: 'na tvaṃ śocitumarhasi priyāyā viyogataḥ | kāmakrodhau vaśe kṛtvā kulaṃ rakṣa mahādyute ||',
           translation: 'You should not grieve for the separation from one you love. Having brought desire and anger under control — protect the lineage, O radiant one.',
           hindi: 'प्रिय के वियोग से तुम्हें शोक नहीं करना चाहिए। काम और क्रोध को वश में करके — हे महाद्युते, वंश की रक्षा करो।',
@@ -379,7 +379,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 103044,
-          sanskrit: 'न स कामी न च क्रोधी न मत्सरी न च मानवान् | न मिथ्यावादी बभूव वाली वानरपुङ्गवः ||',
+          sanskrit: 'न स कामी न च क्रोधी न मत्सरी न च मानवान् । न मिथ्यावादी बभूव वाली वानरपुङ्गवः ॥',
           transliteration: 'na sa kāmī na ca krodhī na matsarī na ca mānavān | na mithyāvādī babhūva vālī vānarapuṅgavaḥ ||',
           translation: 'He was not driven by lust, nor anger, nor envy, nor arrogance, nor falsehood — that Vali, bull among vanaras.',
           hindi: 'वह कामी नहीं था, न क्रोधी, न मत्सरी, न अहंकारी, न मिथ्यावादी — वह वानरश्रेष्ठ वाली।',
@@ -393,7 +393,7 @@ export const ramayana: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'मित्रत्वमिच्छामि भवद्भिर्द्वयोरपि | इमाः शूरस्य मित्रस्य भुजा रामेण साधिताः ||',
+          sanskrit: 'मित्रत्वमिच्छामि भवद्भिर्द्वयोरपि । इमाः शूरस्य मित्रस्य भुजा रामेण साधिताः ॥',
           transliteration: 'mitratvamicchāmi bhavadbhirdvayorapi | imāḥ śūrasya mitrasya bhujā rāmeṇa sādhitāḥ ||',
           translation: 'I desire your friendship — that of both of you. These arms of a brave friend are now bound to Rama.',
           hindi: 'मैं आप दोनों से मित्रता चाहता हूँ। इस वीर मित्र की भुजाएँ अब राम के साथ बंध गई हैं।',
@@ -404,7 +404,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'उत्साहो बलवानार्य नास्त्युत्साहात्परं बलम् | सोत्साहस्य च लोकेऽस्मिन् न किञ्चिदपि दुर्लभम् ||',
+          sanskrit: 'उत्साहो बलवानार्य नास्त्युत्साहात्परं बलम् । सोत्साहस्य च लोकेऽस्मिन् न किञ्चिदपि दुर्लभम् ॥',
           transliteration: 'utsāho balavānārya nāstyutsāhātparaṃ balam | sotsāhasya ca loke\'smin na kiñcidapi durlabham ||',
           translation: 'O noble one, enthusiasm is the greatest strength — there is no power greater than enthusiasm. For one who has enthusiasm, nothing in this world is unattainable.',
           hindi: 'हे आर्य! उत्साह ही सबसे बड़ा बल है — उत्साह से बड़ा कोई बल नहीं है। उत्साही के लिए इस संसार में कुछ भी दुर्लभ नहीं है।',
@@ -415,7 +415,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 24,
-          sanskrit: 'न स कामी न च क्रोधी न मत्सरी न च मानवान् | न मिथ्यावादी बभूव वाली वानरपुङ्गवः ||',
+          sanskrit: 'न स कामी न च क्रोधी न मत्सरी न च मानवान् । न मिथ्यावादी बभूव वाली वानरपुङ्गवः ॥',
           transliteration: 'na sa kāmī na ca krodhī na matsarī na ca mānavān | na mithyāvādī babhūva vālī vānarapuṅgavaḥ ||',
           translation: 'He was not driven by lust, nor anger, nor envy, nor arrogance, nor falsehood — that Vali, bull among vanaras.',
           hindi: 'वह कामी नहीं था, न क्रोधी, न मत्सरी, न अहंकारी, न मिथ्यावादी — वह वानरश्रेष्ठ वाली।',
@@ -427,7 +427,7 @@ export const ramayana: Scripture = {
       
         {
           id: 104012,
-          sanskrit: 'उत्साहो बलवानार्य नास्त्युत्साहात्परं बलम् | सोत्साहस्य च लोकेऽस्मिन् न किञ्चिदपि दुर्लभम् ||',
+          sanskrit: 'उत्साहो बलवानार्य नास्त्युत्साहात्परं बलम् । सोत्साहस्य च लोकेऽस्मिन् न किञ्चिदपि दुर्लभम् ॥',
           transliteration: 'utsāho balavānārya nāstyutsāhātparaṃ balam | sotsāhasya ca loke\'smin na kiñcidapi durlabham ||',
           translation: 'O noble one, enthusiasm is the greatest strength — there is no power greater than enthusiasm. For one who has enthusiasm, nothing in this world is unattainable.',
           hindi: 'हे आर्य! उत्साह ही सबसे बड़ा बल है — उत्साह से बड़ा कोई बल नहीं है। उत्साही के लिए इस संसार में कुछ भी दुर्लभ नहीं है।',
@@ -436,7 +436,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 104013,
-          sanskrit: 'न स कामी न च क्रोधी न मत्सरी न च मानवान् | न मिथ्यावादी बभूव वाली वानरपुङ्गवः ||',
+          sanskrit: 'न स कामी न च क्रोधी न मत्सरी न च मानवान् । न मिथ्यावादी बभूव वाली वानरपुङ्गवः ॥',
           transliteration: 'na sa kāmī na ca krodhī na matsarī na ca mānavān | na mithyāvādī babhūva vālī vānarapuṅgavaḥ ||',
           translation: 'He was not driven by lust, nor anger, nor envy, nor arrogance, nor falsehood — that Vali, bull among vanaras.',
           hindi: 'वह कामी नहीं था, न क्रोधी, न मत्सरी, न अहंकारी, न मिथ्यावादी — वह वानरश्रेष्ठ वाली।',
@@ -445,7 +445,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 104014,
-          sanskrit: 'इक्ष्वाकुवंशप्रभवो रामो नाम जनैः श्रुतः | नियतात्मा महावीर्यो द्युतिमान् धृतिमान् वशी ||',
+          sanskrit: 'इक्ष्वाकुवंशप्रभवो रामो नाम जनैः श्रुतः । नियतात्मा महावीर्यो द्युतिमान् धृतिमान् वशी ॥',
           transliteration: 'ikṣvākuvaṃśaprabhavo rāmo nāma janaiḥ śrutaḥ | niyatātmā mahāvīryo dyutimān dhṛtimān vaśī ||',
           translation: 'Born of the Ikshvaku lineage, known to the people as Rama — self-controlled, of great valour, radiant, steadfast, master of his senses.',
           hindi: 'इक्ष्वाकु वंश में उत्पन्न, लोगों में राम के नाम से विख्यात — नियतात्मा, महावीर्य, द्युतिमान, धृतिमान, इन्द्रियों के स्वामी।',
@@ -454,7 +454,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 104018,
-          sanskrit: 'रामो विग्रहवान् धर्मः सर्वस्य जगतो गतिः | रामो राजा सर्वदेवानां रामो वेदो निगूढः ||',
+          sanskrit: 'रामो विग्रहवान् धर्मः सर्वस्य जगतो गतिः । रामो राजा सर्वदेवानां रामो वेदो निगूढः ॥',
           transliteration: 'rāmo vigrahavān dharmaḥ sarvasya jagato gatiḥ | rāmo rājā sarvadevānāṃ rāmo vedo nigūḍhaḥ ||',
           translation: 'Rama is dharma in embodied form; Rama is the goal of all the world. Rama is the king of all gods; Rama is the hidden Veda.',
           hindi: 'राम धर्म का साक्षात रूप है; राम सारे जगत की गति है। राम सभी देवों का राजा है; राम वेद का गूढ़ रूप है।',
@@ -463,7 +463,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 104019,
-          sanskrit: 'जनकीनन्दनो देवो जनकीजनकः स्वयम् | जनकीकुलकमल्पो वा जनकीकुलदीप्तिमान् ||',
+          sanskrit: 'जनकीनन्दनो देवो जनकीजनकः स्वयम् । जनकीकुलकमल्पो वा जनकीकुलदीप्तिमान् ॥',
           transliteration: 'janakīnandano devo janakījanakaḥ svayam | janakīkulakalpo vā janakīkuladīptimān ||',
           translation: 'Janaki\'s son is the divine one; Janaki\'s husband is himself the creator. He is either the ornament of Janaki\'s lineage or the illumination of Janaki\'s lineage.',
           hindi: 'जानकी का पुत्र दिव्य है; जानकी का पति स्वयं ब्रह्मा है। वह जानकी कुल का आभूषण है या जानकी कुल का प्रकाश।',
@@ -472,7 +472,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 104024,
-          sanskrit: 'अहं तु गृध्रराजस्य जटायोः परमं प्रियम् | करिष्ये सलिलं तस्य दहिष्यामि च तं द्विजम् ||',
+          sanskrit: 'अहं तु गृध्रराजस्य जटायोः परमं प्रियम् । करिष्ये सलिलं तस्य दहिष्यामि च तं द्विजम् ॥',
           transliteration: 'ahaṃ tu gṛdhrarājasya jaṭāyoḥ paramaṃ priyam | kariṣye salilaṃ tasya dahiṣyāmi ca taṃ dvijam ||',
           translation: 'I myself will perform the water-rites for Jatayu, king of eagles, the most dear one — and I will perform his cremation.',
           hindi: 'मैं स्वयं गृध्रराज जटायु के लिए जलांजलि दूँगा — अत्यंत प्रिय उनके लिए — और मैं उनका दाह-संस्कार करूँगा।',
@@ -481,7 +481,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 104030,
-          sanskrit: 'प्रणवो धन्वो विराटो रामो राजीवलोचनः | पार्थिवो विश्वकर्मा च श्रीरामः पुरुषोत्तमः ||',
+          sanskrit: 'प्रणवो धन्वो विराटो रामो राजीवलोचनः । पार्थिवो विश्वकर्मा च श्रीरामः पुरुषोत्तमः ॥',
           transliteration: 'praṇavo dhanvo virāṭo rāmo rājīvalocanaḥ | pārthivo viśvakarmā ca śrīrāmaḥ puruṣottamaḥ ||',
           translation: 'Om is the bow, the universe is the arrow, Rama is the lotus-eyed one. Rama is the earthly one, the creator of all, the supreme person.',
           hindi: 'ॐ धनुष है, विराट बाण है, राम कमलनयन है। राम पार्थिव है, विश्वकर्मा है, पुरुषोत्तम है।',
@@ -490,7 +490,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 104031,
-          sanskrit: 'न त्वं शोचितुमर्हसि | आत्मा हि लोके सर्वत्र वर्तते न विनश्यति ||',
+          sanskrit: 'न त्वं शोचितुमर्हसि । आत्मा हि लोके सर्वत्र वर्तते न विनश्यति ॥',
           transliteration: 'na tvaṃ śocitumarhasi | ātmā hi loke sarvatra vartate na vinaśyati ||',
           translation: 'You should not grieve. The Self pervades everywhere in the world and does not perish.',
           hindi: 'तुम्हें शोक नहीं करना चाहिए। आत्मा इस लोक में सर्वत्र व्याप्त है और नष्ट नहीं होती।',
@@ -499,7 +499,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 104032,
-          sanskrit: 'न त्वं शोचितुमर्हसि प्रियाया वियोगतः | कामक्रोधौ वशे कृत्वा कुलं रक्ष महाद्युते ||',
+          sanskrit: 'न त्वं शोचितुमर्हसि प्रियाया वियोगतः । कामक्रोधौ वशे कृत्वा कुलं रक्ष महाद्युते ॥',
           transliteration: 'na tvaṃ śocitumarhasi priyāyā viyogataḥ | kāmakrodhau vaśe kṛtvā kulaṃ rakṣa mahādyute ||',
           translation: 'You should not grieve for the separation from one you love. Having brought desire and anger under control — protect the lineage, O radiant one.',
           hindi: 'प्रिय के वियोग से तुम्हें शोक नहीं करना चाहिए। काम और क्रोध को वश में करके — हे महाद्युते, वंश की रक्षा करो।',
@@ -508,7 +508,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 104121,
-          sanskrit: 'नीतिं शास्त्रविधिं चैव शत्रोरपि गृहाण हि | उपदेशं हि कर्तव्यो यस्यासौ शास्त्रवित्तमः ||',
+          sanskrit: 'नीतिं शास्त्रविधिं चैव शत्रोरपि गृहाण हि । उपदेशं हि कर्तव्यो यस्यासौ शास्त्रवित्तमः ॥',
           transliteration: 'nītiṃ śāstravidhiṃ caiva śatrorapiGṛhāṇa hi | upadeśaṃ hi kartavyo yasyāsau śāstravittamaḥ ||',
           translation: 'Receive the teaching of statecraft and scripture even from an enemy. Teaching should be received from whoever is the greatest knower of scripture.',
           hindi: 'नीति और शास्त्र-विधि शत्रु से भी ग्रहण करो। जो शास्त्र का सर्वश्रेष्ठ ज्ञाता हो — उससे उपदेश लेना उचित है।',
@@ -517,7 +517,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 104122,
-          sanskrit: 'पादुके च समासाद्य भरतः स्वयमेव हि | शिरसा धारयामास प्रणम्य सविनीतवत् ||',
+          sanskrit: 'पादुके च समासाद्य भरतः स्वयमेव हि । शिरसा धारयामास प्रणम्य सविनीतवत् ॥',
           transliteration: 'pāduke ca samāsādya bharataḥ svayameva hi | śirasā dhārayāmāsa praṇamya savinītavat ||',
           translation: 'Having received the sandals, Bharata himself — bowing with complete humility — bore them on his head.',
           hindi: 'पादुकाएं प्राप्त करके, भरत ने स्वयं ही — विनयपूर्वक प्रणाम करके — उन्हें अपने सिर पर धारण किया।',
@@ -531,7 +531,7 @@ export const ramayana: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'ततो रावणनीतायाः सीतायाः शत्रुकर्शनः | इयेष पदमन्वेष्टुं चारणाचरिते पथि ||',
+          sanskrit: 'ततो रावणनीतायाः सीतायाः शत्रुकर्शनः । इयेष पदमन्वेष्टुं चारणाचरिते पथि ॥',
           transliteration: 'tato rāvaṇanītāyāḥ sītāyāḥ śatrukarsanaḥ | iyeṣa padamanveṣṭuṃ cāraṇācarite pathi ||',
           translation: 'Then Hanuman, the destroyer of enemies, sought to find the footsteps of Sita who had been carried away by Ravana, on the path traversed by the Charanas.',
           hindi: 'तब शत्रुनाशक हनुमान ने रावण द्वारा हरी गई सीता के पद-चिह्नों को खोजने का संकल्प किया।',
@@ -542,7 +542,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'मनसा चिन्तितं कार्यं वाचा नैव प्रकाशयेत् | मन्त्रेण रक्षयेत् कार्यं कृत्वा चापि न कथयेत् ||',
+          sanskrit: 'मनसा चिन्तितं कार्यं वाचा नैव प्रकाशयेत् । मन्त्रेण रक्षयेत् कार्यं कृत्वा चापि न कथयेत् ॥',
           transliteration: 'manasā cintitaṃ kāryaṃ vācā naiva prakāśayet | mantreṇa rakṣayet kāryaṃ kṛtvā cāpi na kathayet ||',
           translation: 'The work conceived in the mind should not be disclosed by speech. Protect the plan in counsel; and even after doing it, do not proclaim it.',
           hindi: 'मन में सोचे गए कार्य को वाणी से प्रकट नहीं करना चाहिए। मन्त्रणा से कार्य की रक्षा करो; और करने के बाद भी उसे घोषित मत करो।',
@@ -553,7 +553,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 22,
-          sanskrit: 'न मां दशरथः शक्तः सोढुमन्यः पुमान् इह | मां सीतां रावणो जेतुं न शक्यः सर्वथा क्वचित् ||',
+          sanskrit: 'न मां दशरथः शक्तः सोढुमन्यः पुमान् इह । मां सीतां रावणो जेतुं न शक्यः सर्वथा क्वचित् ॥',
           transliteration: 'na māṃ daśarathaḥ śaktaḥ soḍhumanyaḥ pumān iha | māṃ sītāṃ rāvaṇo jetuṃ na śakyaḥ sarvathā kvacit ||',
           translation: 'Not Dasharatha, not any other man could endure what I have endured. Ravana can never, in any way, conquer me — Sita.',
           hindi: 'न दशरथ, न कोई अन्य पुरुष — वह सह सकता जो मैंने सहा है। रावण मुझे — सीता को — किसी भी रूप में, कभी नहीं जीत सकता।',
@@ -565,7 +565,7 @@ export const ramayana: Scripture = {
       
         {
           id: 105012,
-          sanskrit: 'मनसा चिन्तितं कार्यं वाचा नैव प्रकाशयेत् | मन्त्रेण रक्षयेत् कार्यं कृत्वा चापि न कथयेत् ||',
+          sanskrit: 'मनसा चिन्तितं कार्यं वाचा नैव प्रकाशयेत् । मन्त्रेण रक्षयेत् कार्यं कृत्वा चापि न कथयेत् ॥',
           transliteration: 'manasā cintitaṃ kāryaṃ vācā naiva prakāśayet | mantreṇa rakṣayet kāryaṃ kṛtvā cāpi na kathayet ||',
           translation: 'The work conceived in the mind should not be disclosed by speech. Protect the plan in counsel; and even after doing it, do not proclaim it.',
           hindi: 'मन में सोचे गए कार्य को वाणी से प्रकट नहीं करना चाहिए। मन्त्रणा से कार्य की रक्षा करो; और करने के बाद भी उसे घोषित मत करो।',
@@ -574,7 +574,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 105013,
-          sanskrit: 'न मां दशरथः शक्तः सोढुमन्यः पुमान् इह | मां सीतां रावणो जेतुं न शक्यः सर्वथा क्वचित् ||',
+          sanskrit: 'न मां दशरथः शक्तः सोढुमन्यः पुमान् इह । मां सीतां रावणो जेतुं न शक्यः सर्वथा क्वचित् ॥',
           transliteration: 'na māṃ daśarathaḥ śaktaḥ soḍhumanyaḥ pumān iha | māṃ sītāṃ rāvaṇo jetuṃ na śakyaḥ sarvathā kvacit ||',
           translation: 'Not Dasharatha, not any other man could endure what I have endured. Ravana can never, in any way, conquer me — Sita.',
           hindi: 'न दशरथ, न कोई अन्य पुरुष — वह सह सकता जो मैंने सहा है। रावण मुझे — सीता को — किसी भी रूप में, कभी नहीं जीत सकता।',
@@ -583,7 +583,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 105014,
-          sanskrit: 'इक्ष्वाकुवंशप्रभवो रामो नाम जनैः श्रुतः | नियतात्मा महावीर्यो द्युतिमान् धृतिमान् वशी ||',
+          sanskrit: 'इक्ष्वाकुवंशप्रभवो रामो नाम जनैः श्रुतः । नियतात्मा महावीर्यो द्युतिमान् धृतिमान् वशी ॥',
           transliteration: 'ikṣvākuvaṃśaprabhavo rāmo nāma janaiḥ śrutaḥ | niyatātmā mahāvīryo dyutimān dhṛtimān vaśī ||',
           translation: 'Born of the Ikshvaku lineage, known to the people as Rama — self-controlled, of great valour, radiant, steadfast, master of his senses.',
           hindi: 'इक्ष्वाकु वंश में उत्पन्न, लोगों में राम के नाम से विख्यात — नियतात्मा, महावीर्य, द्युतिमान, धृतिमान, इन्द्रियों के स्वामी।',
@@ -592,7 +592,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 105018,
-          sanskrit: 'रामो विग्रहवान् धर्मः सर्वस्य जगतो गतिः | रामो राजा सर्वदेवानां रामो वेदो निगूढः ||',
+          sanskrit: 'रामो विग्रहवान् धर्मः सर्वस्य जगतो गतिः । रामो राजा सर्वदेवानां रामो वेदो निगूढः ॥',
           transliteration: 'rāmo vigrahavān dharmaḥ sarvasya jagato gatiḥ | rāmo rājā sarvadevānāṃ rāmo vedo nigūḍhaḥ ||',
           translation: 'Rama is dharma in embodied form; Rama is the goal of all the world. Rama is the king of all gods; Rama is the hidden Veda.',
           hindi: 'राम धर्म का साक्षात रूप है; राम सारे जगत की गति है। राम सभी देवों का राजा है; राम वेद का गूढ़ रूप है।',
@@ -601,7 +601,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 105019,
-          sanskrit: 'जनकीनन्दनो देवो जनकीजनकः स्वयम् | जनकीकुलकमल्पो वा जनकीकुलदीप्तिमान् ||',
+          sanskrit: 'जनकीनन्दनो देवो जनकीजनकः स्वयम् । जनकीकुलकमल्पो वा जनकीकुलदीप्तिमान् ॥',
           transliteration: 'janakīnandano devo janakījanakaḥ svayam | janakīkulakalpo vā janakīkuladīptimān ||',
           translation: 'Janaki\'s son is the divine one; Janaki\'s husband is himself the creator. He is either the ornament of Janaki\'s lineage or the illumination of Janaki\'s lineage.',
           hindi: 'जानकी का पुत्र दिव्य है; जानकी का पति स्वयं ब्रह्मा है। वह जानकी कुल का आभूषण है या जानकी कुल का प्रकाश।',
@@ -610,7 +610,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 105024,
-          sanskrit: 'अहं तु गृध्रराजस्य जटायोः परमं प्रियम् | करिष्ये सलिलं तस्य दहिष्यामि च तं द्विजम् ||',
+          sanskrit: 'अहं तु गृध्रराजस्य जटायोः परमं प्रियम् । करिष्ये सलिलं तस्य दहिष्यामि च तं द्विजम् ॥',
           transliteration: 'ahaṃ tu gṛdhrarājasya jaṭāyoḥ paramaṃ priyam | kariṣye salilaṃ tasya dahiṣyāmi ca taṃ dvijam ||',
           translation: 'I myself will perform the water-rites for Jatayu, king of eagles, the most dear one — and I will perform his cremation.',
           hindi: 'मैं स्वयं गृध्रराज जटायु के लिए जलांजलि दूँगा — अत्यंत प्रिय उनके लिए — और मैं उनका दाह-संस्कार करूँगा।',
@@ -619,7 +619,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 105030,
-          sanskrit: 'प्रणवो धन्वो विराटो रामो राजीवलोचनः | पार्थिवो विश्वकर्मा च श्रीरामः पुरुषोत्तमः ||',
+          sanskrit: 'प्रणवो धन्वो विराटो रामो राजीवलोचनः । पार्थिवो विश्वकर्मा च श्रीरामः पुरुषोत्तमः ॥',
           transliteration: 'praṇavo dhanvo virāṭo rāmo rājīvalocanaḥ | pārthivo viśvakarmā ca śrīrāmaḥ puruṣottamaḥ ||',
           translation: 'Om is the bow, the universe is the arrow, Rama is the lotus-eyed one. Rama is the earthly one, the creator of all, the supreme person.',
           hindi: 'ॐ धनुष है, विराट बाण है, राम कमलनयन है। राम पार्थिव है, विश्वकर्मा है, पुरुषोत्तम है।',
@@ -628,7 +628,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 105031,
-          sanskrit: 'न त्वं शोचितुमर्हसि | आत्मा हि लोके सर्वत्र वर्तते न विनश्यति ||',
+          sanskrit: 'न त्वं शोचितुमर्हसि । आत्मा हि लोके सर्वत्र वर्तते न विनश्यति ॥',
           transliteration: 'na tvaṃ śocitumarhasi | ātmā hi loke sarvatra vartate na vinaśyati ||',
           translation: 'You should not grieve. The Self pervades everywhere in the world and does not perish.',
           hindi: 'तुम्हें शोक नहीं करना चाहिए। आत्मा इस लोक में सर्वत्र व्याप्त है और नष्ट नहीं होती।',
@@ -637,7 +637,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 105034,
-          sanskrit: 'न स कामी न च क्रोधी न मत्सरी न च मानवान् | न मिथ्यावादी बभूव वाली वानरपुङ्गवः ||',
+          sanskrit: 'न स कामी न च क्रोधी न मत्सरी न च मानवान् । न मिथ्यावादी बभूव वाली वानरपुङ्गवः ॥',
           transliteration: 'na sa kāmī na ca krodhī na matsarī na ca mānavān | na mithyāvādī babhūva vālī vānarapuṅgavaḥ ||',
           translation: 'He was not driven by lust, nor anger, nor envy, nor arrogance, nor falsehood — that Vali, bull among vanaras.',
           hindi: 'वह कामी नहीं था, न क्रोधी, न मत्सरी, न अहंकारी, न मिथ्यावादी — वह वानरश्रेष्ठ वाली।',
@@ -646,7 +646,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 105121,
-          sanskrit: 'नीतिं शास्त्रविधिं चैव शत्रोरपि गृहाण हि | उपदेशं हि कर्तव्यो यस्यासौ शास्त्रवित्तमः ||',
+          sanskrit: 'नीतिं शास्त्रविधिं चैव शत्रोरपि गृहाण हि । उपदेशं हि कर्तव्यो यस्यासौ शास्त्रवित्तमः ॥',
           transliteration: 'nītiṃ śāstravidhiṃ caiva śatrorapiGṛhāṇa hi | upadeśaṃ hi kartavyo yasyāsau śāstravittamaḥ ||',
           translation: 'Receive the teaching of statecraft and scripture even from an enemy. Teaching should be received from whoever is the greatest knower of scripture.',
           hindi: 'नीति और शास्त्र-विधि शत्रु से भी ग्रहण करो। जो शास्त्र का सर्वश्रेष्ठ ज्ञाता हो — उससे उपदेश लेना उचित है।',
@@ -655,7 +655,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 105122,
-          sanskrit: 'पादुके च समासाद्य भरतः स्वयमेव हि | शिरसा धारयामास प्रणम्य सविनीतवत् ||',
+          sanskrit: 'पादुके च समासाद्य भरतः स्वयमेव हि । शिरसा धारयामास प्रणम्य सविनीतवत् ॥',
           transliteration: 'pāduke ca samāsādya bharataḥ svayameva hi | śirasā dhārayāmāsa praṇamya savinītavat ||',
           translation: 'Having received the sandals, Bharata himself — bowing with complete humility — bore them on his head.',
           hindi: 'पादुकाएं प्राप्त करके, भरत ने स्वयं ही — विनयपूर्वक प्रणाम करके — उन्हें अपने सिर पर धारण किया।',
@@ -669,7 +669,7 @@ export const ramayana: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'न परस्वमादद्यान्न कुर्यादप्रियं परम् | परस्त्रीणां च गमनं न च हिंस्याद्विना भयम् ||',
+          sanskrit: 'न परस्वमादद्यान्न कुर्यादप्रियं परम् । परस्त्रीणां च गमनं न च हिंस्याद्विना भयम् ॥',
           transliteration: 'na parasvamādadyānna kuryādapriyaṃ param | parastrīṇāṃ ca gamanaṃ na ca hiṃsyādvinā bhayam ||',
           translation: 'One should not take another\'s wealth; should not do what is hateful to another; should not approach another\'s wife; should not harm except when fear demands defence.',
           hindi: 'पराया धन न लो; दूसरों के साथ अप्रिय व्यवहार न करो; पर-स्त्री के पास न जाओ; और भय के बिना किसी को हानि न पहुँचाओ।',
@@ -680,7 +680,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'सर्वे भवन्तु सुखिनः सर्वे सन्तु निरामयाः | सर्वे भद्राणि पश्यन्तु मा कश्चिद् दुःखभाग्भवेत् ||',
+          sanskrit: 'सर्वे भवन्तु सुखिनः सर्वे सन्तु निरामयाः । सर्वे भद्राणि पश्यन्तु मा कश्चिद् दुःखभाग्भवेत् ॥',
           transliteration: 'sarve bhavantu sukhinaḥ sarve santu nirāmayāḥ | sarve bhadrāṇi paśyantu mā kaścid duḥkhabhāgbhavet ||',
           translation: 'May all be happy; may all be free from disease; may all see auspiciousness; may no one have a share of sorrow.',
           hindi: 'सभी सुखी हों; सभी रोग-मुक्त हों; सभी शुभ देखें; किसी को भी दुःख न हो।',
@@ -691,7 +691,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 111,
-          sanskrit: 'नीतिं शास्त्रविधिं चैव शत्रोरपि गृहाण हि | उपदेशं हि कर्तव्यो यस्यासौ शास्त्रवित्तमः ||',
+          sanskrit: 'नीतिं शास्त्रविधिं चैव शत्रोरपि गृहाण हि । उपदेशं हि कर्तव्यो यस्यासौ शास्त्रवित्तमः ॥',
           transliteration: 'nītiṃ śāstravidhiṃ caiva śatrorapiGṛhāṇa hi | upadeśaṃ hi kartavyo yasyāsau śāstravittamaḥ ||',
           translation: 'Receive the teaching of statecraft and scripture even from an enemy. Teaching should be received from whoever is the greatest knower of scripture.',
           hindi: 'नीति और शास्त्र-विधि शत्रु से भी ग्रहण करो। जो शास्त्र का सर्वश्रेष्ठ ज्ञाता हो — उससे उपदेश लेना उचित है।',
@@ -703,7 +703,7 @@ export const ramayana: Scripture = {
       
         {
           id: 106012,
-          sanskrit: 'सर्वे भवन्तु सुखिनः सर्वे सन्तु निरामयाः | सर्वे भद्राणि पश्यन्तु मा कश्चिद् दुःखभाग्भवेत् ||',
+          sanskrit: 'सर्वे भवन्तु सुखिनः सर्वे सन्तु निरामयाः । सर्वे भद्राणि पश्यन्तु मा कश्चिद् दुःखभाग्भवेत् ॥',
           transliteration: 'sarve bhavantu sukhinaḥ sarve santu nirāmayāḥ | sarve bhadrāṇi paśyantu mā kaścid duḥkhabhāgbhavet ||',
           translation: 'May all be happy; may all be free from disease; may all see auspiciousness; may no one have a share of sorrow.',
           hindi: 'सभी सुखी हों; सभी रोग-मुक्त हों; सभी शुभ देखें; किसी को भी दुःख न हो।',
@@ -712,7 +712,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 106013,
-          sanskrit: 'नीतिं शास्त्रविधिं चैव शत्रोरपि गृहाण हि | उपदेशं हि कर्तव्यो यस्यासौ शास्त्रवित्तमः ||',
+          sanskrit: 'नीतिं शास्त्रविधिं चैव शत्रोरपि गृहाण हि । उपदेशं हि कर्तव्यो यस्यासौ शास्त्रवित्तमः ॥',
           transliteration: 'nītiṃ śāstravidhiṃ caiva śatrorapiGṛhāṇa hi | upadeśaṃ hi kartavyo yasyāsau śāstravittamaḥ ||',
           translation: 'Receive the teaching of statecraft and scripture even from an enemy. Teaching should be received from whoever is the greatest knower of scripture.',
           hindi: 'नीति और शास्त्र-विधि शत्रु से भी ग्रहण करो। जो शास्त्र का सर्वश्रेष्ठ ज्ञाता हो — उससे उपदेश लेना उचित है।',
@@ -721,7 +721,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 106014,
-          sanskrit: 'इक्ष्वाकुवंशप्रभवो रामो नाम जनैः श्रुतः | नियतात्मा महावीर्यो द्युतिमान् धृतिमान् वशी ||',
+          sanskrit: 'इक्ष्वाकुवंशप्रभवो रामो नाम जनैः श्रुतः । नियतात्मा महावीर्यो द्युतिमान् धृतिमान् वशी ॥',
           transliteration: 'ikṣvākuvaṃśaprabhavo rāmo nāma janaiḥ śrutaḥ | niyatātmā mahāvīryo dyutimān dhṛtimān vaśī ||',
           translation: 'Born of the Ikshvaku lineage, known to the people as Rama — self-controlled, of great valour, radiant, steadfast, master of his senses.',
           hindi: 'इक्ष्वाकु वंश में उत्पन्न, लोगों में राम के नाम से विख्यात — नियतात्मा, महावीर्य, द्युतिमान, धृतिमान, इन्द्रियों के स्वामी।',
@@ -730,7 +730,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 106018,
-          sanskrit: 'रामो विग्रहवान् धर्मः सर्वस्य जगतो गतिः | रामो राजा सर्वदेवानां रामो वेदो निगूढः ||',
+          sanskrit: 'रामो विग्रहवान् धर्मः सर्वस्य जगतो गतिः । रामो राजा सर्वदेवानां रामो वेदो निगूढः ॥',
           transliteration: 'rāmo vigrahavān dharmaḥ sarvasya jagato gatiḥ | rāmo rājā sarvadevānāṃ rāmo vedo nigūḍhaḥ ||',
           translation: 'Rama is dharma in embodied form; Rama is the goal of all the world. Rama is the king of all gods; Rama is the hidden Veda.',
           hindi: 'राम धर्म का साक्षात रूप है; राम सारे जगत की गति है। राम सभी देवों का राजा है; राम वेद का गूढ़ रूप है।',
@@ -739,7 +739,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 106019,
-          sanskrit: 'जनकीनन्दनो देवो जनकीजनकः स्वयम् | जनकीकुलकमल्पो वा जनकीकुलदीप्तिमान् ||',
+          sanskrit: 'जनकीनन्दनो देवो जनकीजनकः स्वयम् । जनकीकुलकमल्पो वा जनकीकुलदीप्तिमान् ॥',
           transliteration: 'janakīnandano devo janakījanakaḥ svayam | janakīkulakalpo vā janakīkuladīptimān ||',
           translation: 'Janaki\'s son is the divine one; Janaki\'s husband is himself the creator. He is either the ornament of Janaki\'s lineage or the illumination of Janaki\'s lineage.',
           hindi: 'जानकी का पुत्र दिव्य है; जानकी का पति स्वयं ब्रह्मा है। वह जानकी कुल का आभूषण है या जानकी कुल का प्रकाश।',
@@ -748,7 +748,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 106024,
-          sanskrit: 'अहं तु गृध्रराजस्य जटायोः परमं प्रियम् | करिष्ये सलिलं तस्य दहिष्यामि च तं द्विजम् ||',
+          sanskrit: 'अहं तु गृध्रराजस्य जटायोः परमं प्रियम् । करिष्ये सलिलं तस्य दहिष्यामि च तं द्विजम् ॥',
           transliteration: 'ahaṃ tu gṛdhrarājasya jaṭāyoḥ paramaṃ priyam | kariṣye salilaṃ tasya dahiṣyāmi ca taṃ dvijam ||',
           translation: 'I myself will perform the water-rites for Jatayu, king of eagles, the most dear one — and I will perform his cremation.',
           hindi: 'मैं स्वयं गृध्रराज जटायु के लिए जलांजलि दूँगा — अत्यंत प्रिय उनके लिए — और मैं उनका दाह-संस्कार करूँगा।',
@@ -757,7 +757,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 106030,
-          sanskrit: 'प्रणवो धन्वो विराटो रामो राजीवलोचनः | पार्थिवो विश्वकर्मा च श्रीरामः पुरुषोत्तमः ||',
+          sanskrit: 'प्रणवो धन्वो विराटो रामो राजीवलोचनः । पार्थिवो विश्वकर्मा च श्रीरामः पुरुषोत्तमः ॥',
           transliteration: 'praṇavo dhanvo virāṭo rāmo rājīvalocanaḥ | pārthivo viśvakarmā ca śrīrāmaḥ puruṣottamaḥ ||',
           translation: 'Om is the bow, the universe is the arrow, Rama is the lotus-eyed one. Rama is the earthly one, the creator of all, the supreme person.',
           hindi: 'ॐ धनुष है, विराट बाण है, राम कमलनयन है। राम पार्थिव है, विश्वकर्मा है, पुरुषोत्तम है।',
@@ -766,7 +766,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 106040,
-          sanskrit: 'न दैवमभिशंसामि पुरुषार्थमुपाश्रये | यद्भवन्ति महाभागाः स्वयमेव क्रियापराः ||',
+          sanskrit: 'न दैवमभिशंसामि पुरुषार्थमुपाश्रये । यद्भवन्ति महाभागाः स्वयमेव क्रियापराः ॥',
           transliteration: 'na daivamabhiśaṃsāmi puruṣārthamupāśraye | yadbhavanti mahābhāgāḥ svayameva kriyāparāḥ ||',
           translation: 'I do not blame fate; I take refuge in human effort. Those who are truly fortunate are themselves engaged in action.',
           hindi: 'मैं भाग्य को दोष नहीं देता; मैं पुरुषार्थ की शरण लेता हूँ। जो वास्तव में भाग्यशाली हैं, वे स्वयं ही कर्म में लगे रहते हैं।',
@@ -775,7 +775,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 106041,
-          sanskrit: 'न त्वं शोचितुमर्हसि | आत्मा हि लोके सर्वत्र वर्तते न विनश्यति ||',
+          sanskrit: 'न त्वं शोचितुमर्हसि । आत्मा हि लोके सर्वत्र वर्तते न विनश्यति ॥',
           transliteration: 'na tvaṃ śocitumarhasi | ātmā hi loke sarvatra vartate na vinaśyati ||',
           translation: 'You should not grieve. The Self pervades everywhere in the world and does not perish.',
           hindi: 'तुम्हें शोक नहीं करना चाहिए। आत्मा इस लोक में सर्वत्र व्याप्त है और नष्ट नहीं होती।',
@@ -784,7 +784,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 106042,
-          sanskrit: 'न त्वं शोचितुमर्हसि प्रियाया वियोगतः | कामक्रोधौ वशे कृत्वा कुलं रक्ष महाद्युते ||',
+          sanskrit: 'न त्वं शोचितुमर्हसि प्रियाया वियोगतः । कामक्रोधौ वशे कृत्वा कुलं रक्ष महाद्युते ॥',
           transliteration: 'na tvaṃ śocitumarhasi priyāyā viyogataḥ | kāmakrodhau vaśe kṛtvā kulaṃ rakṣa mahādyute ||',
           translation: 'You should not grieve for the separation from one you love. Having brought desire and anger under control — protect the lineage, O radiant one.',
           hindi: 'प्रिय के वियोग से तुम्हें शोक नहीं करना चाहिए। काम और क्रोध को वश में करके — हे महाद्युते, वंश की रक्षा करो।',
@@ -793,7 +793,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 106044,
-          sanskrit: 'न स कामी न च क्रोधी न मत्सरी न च मानवान् | न मिथ्यावादी बभूव वाली वानरपुङ्गवः ||',
+          sanskrit: 'न स कामी न च क्रोधी न मत्सरी न च मानवान् । न मिथ्यावादी बभूव वाली वानरपुङ्गवः ॥',
           transliteration: 'na sa kāmī na ca krodhī na matsarī na ca mānavān | na mithyāvādī babhūva vālī vānarapuṅgavaḥ ||',
           translation: 'He was not driven by lust, nor anger, nor envy, nor arrogance, nor falsehood — that Vali, bull among vanaras.',
           hindi: 'वह कामी नहीं था, न क्रोधी, न मत्सरी, न अहंकारी, न मिथ्यावादी — वह वानरश्रेष्ठ वाली।',
@@ -802,7 +802,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 106702,
-          sanskrit: 'पादुके च समासाद्य भरतः स्वयमेव हि | शिरसा धारयामास प्रणम्य सविनीतवत् ||',
+          sanskrit: 'पादुके च समासाद्य भरतः स्वयमेव हि । शिरसा धारयामास प्रणम्य सविनीतवत् ॥',
           transliteration: 'pāduke ca samāsādya bharataḥ svayameva hi | śirasā dhārayāmāsa praṇamya savinītavat ||',
           translation: 'Having received the sandals, Bharata himself — bowing with complete humility — bore them on his head.',
           hindi: 'पादुकाएं प्राप्त करके, भरत ने स्वयं ही — विनयपूर्वक प्रणाम करके — उन्हें अपने सिर पर धारण किया।',
@@ -816,7 +816,7 @@ export const ramayana: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'लोकापवादो बलवान्मतोमे लोको हि नो भर्तृषु लोकवादे | भर्ता मम स्नेहमयो विद्यन्ते लोकात् पुरस्तादतिवर्तते स्म ||',
+          sanskrit: 'लोकापवादो बलवान्मतोमे लोको हि नो भर्तृषु लोकवादे । भर्ता मम स्नेहमयो विद्यन्ते लोकात् पुरस्तादतिवर्तते स्म ॥',
           transliteration: 'lokāpavādo balavānmatome loko hi no bhartṛṣu lokavāde | bhartā mama snehamayo vidyante lokāt purastādativartate sma ||',
           translation: 'Public censure is powerful, in my view; the world judges those who rule. My husband, full of love, holds the people\'s welfare even above love.',
           hindi: 'लोक-निन्दा बलवती है — मेरे विचार में, लोग शासकों का मूल्यांकन करते हैं। मेरे पति, स्नेहमय होते हुए भी, लोक-कल्याण को प्रेम से भी ऊपर रखते हैं।',
@@ -827,7 +827,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'आत्मानं रथिनं विद्धि शरीरं रथमेव च | बुद्धिं तु सारथिं विद्धि मनः प्रग्रहमेव च ||',
+          sanskrit: 'आत्मानं रथिनं विद्धि शरीरं रथमेव च । बुद्धिं तु सारथिं विद्धि मनः प्रग्रहमेव च ॥',
           transliteration: 'ātmānaṃ rathinaṃ viddhi śarīraṃ rathameva ca | buddhiṃ tu sārathiṃ viddhi manaḥ pragrahameva ca ||',
           translation: 'Know the Self as the rider of the chariot; the body is the chariot itself; know the intellect as the charioteer; the mind is the reins.',
           hindi: 'आत्मा को रथी (रथ पर बैठे स्वामी) जानो; शरीर रथ है; बुद्धि सारथी है; मन लगाम है।',
@@ -838,7 +838,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 8,
-          sanskrit: 'रामो विग्रहवान् धर्मः सर्वस्य जगतो गतिः | रामो राजा सर्वदेवानां रामो वेदो निगूढः ||',
+          sanskrit: 'रामो विग्रहवान् धर्मः सर्वस्य जगतो गतिः । रामो राजा सर्वदेवानां रामो वेदो निगूढः ॥',
           transliteration: 'rāmo vigrahavān dharmaḥ sarvasya jagato gatiḥ | rāmo rājā sarvadevānāṃ rāmo vedo nigūḍhaḥ ||',
           translation: 'Rama is dharma in embodied form; Rama is the goal of all the world. Rama is the king of all gods; Rama is the hidden Veda.',
           hindi: 'राम धर्म का साक्षात रूप है; राम सारे जगत की गति है। राम सभी देवों का राजा है; राम वेद का गूढ़ रूप है।',
@@ -849,7 +849,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 9,
-          sanskrit: 'जनकीनन्दनो देवो जनकीजनकः स्वयम् | जनकीकुलकमल्पो वा जनकीकुलदीप्तिमान् ||',
+          sanskrit: 'जनकीनन्दनो देवो जनकीजनकः स्वयम् । जनकीकुलकमल्पो वा जनकीकुलदीप्तिमान् ॥',
           transliteration: 'janakīnandano devo janakījanakaḥ svayam | janakīkulakalpo vā janakīkuladīptimān ||',
           translation: 'Janaki\'s son is the divine one; Janaki\'s husband is himself the creator. He is either the ornament of Janaki\'s lineage or the illumination of Janaki\'s lineage.',
           hindi: 'जानकी का पुत्र दिव्य है; जानकी का पति स्वयं ब्रह्मा है। वह जानकी कुल का आभूषण है या जानकी कुल का प्रकाश।',
@@ -860,7 +860,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 10,
-          sanskrit: 'प्रणवो धन्वो विराटो रामो राजीवलोचनः | पार्थिवो विश्वकर्मा च श्रीरामः पुरुषोत्तमः ||',
+          sanskrit: 'प्रणवो धन्वो विराटो रामो राजीवलोचनः । पार्थिवो विश्वकर्मा च श्रीरामः पुरुषोत्तमः ॥',
           transliteration: 'praṇavo dhanvo virāṭo rāmo rājīvalocanaḥ | pārthivo viśvakarmā ca śrīrāmaḥ puruṣottamaḥ ||',
           translation: 'Om is the bow, the universe is the arrow, Rama is the lotus-eyed one. Rama is the earthly one, the creator of all, the supreme person.',
           hindi: 'ॐ धनुष है, विराट बाण है, राम कमलनयन है। राम पार्थिव है, विश्वकर्मा है, पुरुषोत्तम है।',
@@ -872,7 +872,7 @@ export const ramayana: Scripture = {
       
         {
           id: 107012,
-          sanskrit: 'आत्मानं रथिनं विद्धि शरीरं रथमेव च | बुद्धिं तु सारथिं विद्धि मनः प्रग्रहमेव च ||',
+          sanskrit: 'आत्मानं रथिनं विद्धि शरीरं रथमेव च । बुद्धिं तु सारथिं विद्धि मनः प्रग्रहमेव च ॥',
           transliteration: 'ātmānaṃ rathinaṃ viddhi śarīraṃ rathameva ca | buddhiṃ tu sārathiṃ viddhi manaḥ pragrahameva ca ||',
           translation: 'Know the Self as the rider of the chariot; the body is the chariot itself; know the intellect as the charioteer; the mind is the reins.',
           hindi: 'आत्मा को रथी (रथ पर बैठे स्वामी) जानो; शरीर रथ है; बुद्धि सारथी है; मन लगाम है।',
@@ -881,7 +881,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 107020,
-          sanskrit: 'प्रणवो धन्वो विराटो रामो राजीवलोचनः | पार्थिवो विश्वकर्मा च श्रीरामः पुरुषोत्तमः ||',
+          sanskrit: 'प्रणवो धन्वो विराटो रामो राजीवलोचनः । पार्थिवो विश्वकर्मा च श्रीरामः पुरुषोत्तमः ॥',
           transliteration: 'praṇavo dhanvo virāṭo rāmo rājīvalocanaḥ | pārthivo viśvakarmā ca śrīrāmaḥ puruṣottamaḥ ||',
           translation: 'Om is the bow, the universe is the arrow, Rama is the lotus-eyed one. Rama is the earthly one, the creator of all, the supreme person.',
           hindi: 'ॐ धनुष है, विराट बाण है, राम कमलनयन है। राम पार्थिव है, विश्वकर्मा है, पुरुषोत्तम है।',
@@ -890,7 +890,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 107030,
-          sanskrit: 'न दैवमभिशंसामि पुरुषार्थमुपाश्रये | यद्भवन्ति महाभागाः स्वयमेव क्रियापराः ||',
+          sanskrit: 'न दैवमभिशंसामि पुरुषार्थमुपाश्रये । यद्भवन्ति महाभागाः स्वयमेव क्रियापराः ॥',
           transliteration: 'na daivamabhiśaṃsāmi puruṣārthamupāśraye | yadbhavanti mahābhāgāḥ svayameva kriyāparāḥ ||',
           translation: 'I do not blame fate; I take refuge in human effort. Those who are truly fortunate are themselves engaged in action.',
           hindi: 'मैं भाग्य को दोष नहीं देता; मैं पुरुषार्थ की शरण लेता हूँ। जो वास्तव में भाग्यशाली हैं, वे स्वयं ही कर्म में लगे रहते हैं।',
@@ -899,7 +899,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 107031,
-          sanskrit: 'न त्वं शोचितुमर्हसि | आत्मा हि लोके सर्वत्र वर्तते न विनश्यति ||',
+          sanskrit: 'न त्वं शोचितुमर्हसि । आत्मा हि लोके सर्वत्र वर्तते न विनश्यति ॥',
           transliteration: 'na tvaṃ śocitumarhasi | ātmā hi loke sarvatra vartate na vinaśyati ||',
           translation: 'You should not grieve. The Self pervades everywhere in the world and does not perish.',
           hindi: 'तुम्हें शोक नहीं करना चाहिए। आत्मा इस लोक में सर्वत्र व्याप्त है और नष्ट नहीं होती।',
@@ -908,7 +908,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 107032,
-          sanskrit: 'न त्वं शोचितुमर्हसि प्रियाया वियोगतः | कामक्रोधौ वशे कृत्वा कुलं रक्ष महाद्युते ||',
+          sanskrit: 'न त्वं शोचितुमर्हसि प्रियाया वियोगतः । कामक्रोधौ वशे कृत्वा कुलं रक्ष महाद्युते ॥',
           transliteration: 'na tvaṃ śocitumarhasi priyāyā viyogataḥ | kāmakrodhau vaśe kṛtvā kulaṃ rakṣa mahādyute ||',
           translation: 'You should not grieve for the separation from one you love. Having brought desire and anger under control — protect the lineage, O radiant one.',
           hindi: 'प्रिय के वियोग से तुम्हें शोक नहीं करना चाहिए। काम और क्रोध को वश में करके — हे महाद्युते, वंश की रक्षा करो।',
@@ -917,7 +917,7 @@ export const ramayana: Scripture = {
         },
         {
           id: 107034,
-          sanskrit: 'अहं तु गृध्रराजस्य जटायोः परमं प्रियम् | करिष्ये सलिलं तस्य दहिष्यामि च तं द्विजम् ||',
+          sanskrit: 'अहं तु गृध्रराजस्य जटायोः परमं प्रियम् । करिष्ये सलिलं तस्य दहिष्यामि च तं द्विजम् ॥',
           transliteration: 'ahaṃ tu gṛdhrarājasya jaṭāyoḥ paramaṃ priyam | kariṣye salilaṃ tasya dahiṣyāmi ca taṃ dvijam ||',
           translation: 'I myself will perform the water-rites for Jatayu, king of eagles, the most dear one — and I will perform his cremation.',
           hindi: 'मैं स्वयं गृध्रराज जटायु के लिए जलांजलि दूँगा — अत्यंत प्रिय उनके लिए — और मैं उनका दाह-संस्कार करूँगा।',

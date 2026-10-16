@@ -20,7 +20,7 @@ export const prashna: Scripture = {
         {
           id: 1,
           sanskrit:
-            'सुकेशा च भारद्वाजः शैब्यश्च सत्यकामः सौर्यायणी च गार्ग्यः कौसल्यश्चाश्वलायनो भार्गवो वैदर्भिः कबन्धी कात्यायनस्ते हैते ब्रह्मपरा ब्रह्मनिष्ठाः परं ब्रह्मान्वेषमाणा एष ह वै तत् सर्वं वक्ष्यतीति ते ह समित्पाणयो भगवन्तं पिप्पलादमुपसन्नाः ||',
+            'सुकेशा च भारद्वाजः शैब्यश्च सत्यकामः सौर्यायणी च गार्ग्यः कौसल्यश्चाश्वलायनो भार्गवो वैदर्भिः कबन्धी कात्यायनस्ते हैते ब्रह्मपरा ब्रह्मनिष्ठाः परं ब्रह्मान्वेषमाणा एष ह वै तत् सर्वं वक्ष्यतीति ते ह समित्पाणयो भगवन्तं पिप्पलादमुपसन्नाः ॥',
           transliteration:
             'sukeśā ca bhāradvājaḥ śaibyaśca satyakāmaḥ sauryāyaṇī ca gārgyaḥ kausalyaścāśvalāyano bhārgavo vaidarbhiḥ kabandhī kātyāyanaste haite brahmaparā brahmaniṣṭhāḥ paraṃ brahmānveṣamāṇā eṣa ha vai tat sarvaṃ vakṣyatīti te ha samitpāṇayo bhagavantaṃ pippalādamupasannāḥ ||',
           translation:
@@ -38,7 +38,7 @@ export const prashna: Scripture = {
         {
           id: 2,
           sanskrit:
-            'तान् ह स ऋषिरुवाच भूय एव तपसा ब्रह्मचर्येण श्रद्धया संवत्सरं संवत्स्यथ यथाकामं प्रश्नान् पृच्छत यदि विज्ञास्यामः सर्वं ह वो वक्ष्याम इति ||',
+            'तान् ह स ऋषिरुवाच भूय एव तपसा ब्रह्मचर्येण श्रद्धया संवत्सरं संवत्स्यथ यथाकामं प्रश्नान् पृच्छत यदि विज्ञास्यामः सर्वं ह वो वक्ष्याम इति ॥',
           transliteration:
             'tān ha sa ṛṣiruvāca bhūya eva tapasā brahmacaryeṇa śraddhayā saṃvatsaraṃ saṃvatsyatha yathākāmaṃ praśnān pṛcchata yadi vijñāsyāmaḥ sarvaṃ ha vo vakṣyāma iti ||',
           translation:
@@ -56,7 +56,7 @@ export const prashna: Scripture = {
         {
           id: 3,
           sanskrit:
-            "अथ कबन्धी कात्यायन उपेत्य पप्रच्छ | भगवन् कुतो ह वा इमाः प्रजाः प्रजायन्त इति ||",
+            "अथ कबन्धी कात्यायन उपेत्य पप्रच्छ । भगवन् कुतो ह वा इमाः प्रजाः प्रजायन्त इति ॥",
           transliteration:
             "atha kabandhī kātyāyana upetya papraccha | bhagavan kuto ha vā imāḥ prajāḥ prajāyanta iti ||",
           translation:
@@ -74,7 +74,7 @@ export const prashna: Scripture = {
         {
           id: 4,
           sanskrit:
-            'तस्मै स होवाच प्रजाकामो वै प्रजापतिः स तपोऽतप्यत स तपस्तप्त्वा स मिथुनमुत्पादयते रयिं च प्राणं चेत्येतौ मे बहुधा प्रजाः करिष्यत इति ||',
+            'तस्मै स होवाच प्रजाकामो वै प्रजापतिः स तपोऽतप्यत स तपस्तप्त्वा स मिथुनमुत्पादयते रयिं च प्राणं चेत्येतौ मे बहुधा प्रजाः करिष्यत इति ॥',
           transliteration:
             "tasmai sa hovāca prajākāmo vai prajāpatiḥ sa tapo'tapyata sa tapastaptvā sa mithunamutpādayate rayiṃ ca prāṇaṃ cetyetau me bahudhā prajāḥ kariṣyata iti ||",
           translation:
@@ -92,7 +92,7 @@ export const prashna: Scripture = {
         {
           id: 5,
           sanskrit:
-            'आदित्यो ह वै प्राणो रयिरेव चन्द्रमाः | रयिर्वा एतत् सर्वं यन्मूर्तं चामूर्तं च तस्मान्मूर्तिरेव रयिः ||',
+            'आदित्यो ह वै प्राणो रयिरेव चन्द्रमाः । रयिर्वा एतत् सर्वं यन्मूर्तं चामूर्तं च तस्मान्मूर्तिरेव रयिः ॥',
           transliteration:
             'ādityo ha vai prāṇo rayireva candramāḥ | rayirvā etat sarvaṃ yanmūrtaṃ cāmūrtaṃ ca tasmānmūrtireva rayiḥ ||',
           translation:
@@ -110,7 +110,7 @@ export const prashna: Scripture = {
         {
           id: 6,
           sanskrit:
-            "अथादित्य उदयन् यत् प्राचीं दिशं प्रविशति तेन प्राच्यान् प्राणान् रश्मिषु सन्निधत्ते | यद्दक्षिणां यत् प्रतीचीं यदुदीचीं यदधो यदूर्ध्वं यदन्तरा दिशो यत् सर्वं प्रकाशयति तेन सर्वान् प्राणान् रश्मिषु सन्निधत्ते ||",
+            "अथादित्य उदयन् यत् प्राचीं दिशं प्रविशति तेन प्राच्यान् प्राणान् रश्मिषु सन्निधत्ते । यद्दक्षिणां यत् प्रतीचीं यदुदीचीं यदधो यदूर्ध्वं यदन्तरा दिशो यत् सर्वं प्रकाशयति तेन सर्वान् प्राणान् रश्मिषु सन्निधत्ते ॥",
           transliteration:
             "athāditya udayan yat prācīṃ diśaṃ praviśati tena prācyān prāṇān raśmiṣu sannidhatte | yaddakṣiṇāṃ yat pratīcīṃ yadudīcīṃ yadadho yadūrdhvaṃ yadantarā diśo yat sarvaṃ prakāśayati tena sarvān prāṇān raśmiṣu sannidhatte ||",
           translation:
@@ -128,7 +128,7 @@ export const prashna: Scripture = {
         {
           id: 7,
           sanskrit:
-            "स एष वैश्वानरो विश्वरूपः प्राणोऽग्निरुदयते | तदेतदृचाभ्युक्तम् ||",
+            "स एष वैश्वानरो विश्वरूपः प्राणोऽग्निरुदयते । तदेतदृचाभ्युक्तम् ॥",
           transliteration:
             "sa eṣa vaiśvānaro viśvarūpaḥ prāṇo'gnirudayate | tadetadṛcābhyuktam ||",
           translation:
@@ -146,7 +146,7 @@ export const prashna: Scripture = {
         {
           id: 8,
           sanskrit:
-            "विश्वरूपं हरिणं जातवेदसं परायणं ज्योतिरेकं तपन्तम् | सहस्ररश्मिः शतधा वर्तमानः प्राणः प्रजानामुदयत्येष सूर्यः ||",
+            "विश्वरूपं हरिणं जातवेदसं परायणं ज्योतिरेकं तपन्तम् । सहस्ररश्मिः शतधा वर्तमानः प्राणः प्रजानामुदयत्येष सूर्यः ॥",
           transliteration:
             "viśvarūpaṃ hariṇaṃ jātavedasaṃ parāyaṇaṃ jyotirekaṃ tapantam | sahasraraśmiḥ śatadhā vartamānaḥ prāṇaḥ prajānāmudayatyeṣa sūryaḥ ||",
           translation:
@@ -164,7 +164,7 @@ export const prashna: Scripture = {
         {
           id: 9,
           sanskrit:
-            "संवत्सरो वै प्रजापतिस्तस्यायने दक्षिणं चोत्तरं च | तद्ये ह वै तदिष्टापूर्ते कृतमित्युपासते ते चान्द्रमसमेव लोकमभिजयन्ते | त एव पुनरावर्तन्ते | तस्मादेत ऋषयः प्रजाकामा दक्षिणं प्रतिपद्यन्ते | एष ह वै रयिर्यः पितृयाणः ||",
+            "संवत्सरो वै प्रजापतिस्तस्यायने दक्षिणं चोत्तरं च । तद्ये ह वै तदिष्टापूर्ते कृतमित्युपासते ते चान्द्रमसमेव लोकमभिजयन्ते । त एव पुनरावर्तन्ते । तस्मादेत ऋषयः प्रजाकामा दक्षिणं प्रतिपद्यन्ते । एष ह वै रयिर्यः पितृयाणः ॥",
           transliteration:
             "saṃvatsaro vai prajāpatistasyāyane dakṣiṇaṃ cottaraṃ ca | tadye ha vai tadiṣṭāpūrte kṛtamityupāsate te cāndramasameva lokamabhijayante | ta eva punarāvartante | tasmādeta ṛṣayaḥ prajākāmā dakṣiṇaṃ pratipadyante | eṣa ha vai rayiryaḥ pitṛyāṇaḥ ||",
           translation:
@@ -182,7 +182,7 @@ export const prashna: Scripture = {
         {
           id: 10,
           sanskrit:
-            "अथोत्तरेण तपसा ब्रह्मचर्येण श्रद्धया विद्ययाऽऽत्मानमन्विष्यादित्यमभिजयन्ते | एतद्वै प्राणानामायतनमेतदमृतमभयमेतत् परायणमेतस्मान्न पुनरावर्तन्त इत्येष निरोधस्तदेष श्लोकः ||",
+            "अथोत्तरेण तपसा ब्रह्मचर्येण श्रद्धया विद्ययाऽऽत्मानमन्विष्यादित्यमभिजयन्ते । एतद्वै प्राणानामायतनमेतदमृतमभयमेतत् परायणमेतस्मान्न पुनरावर्तन्त इत्येष निरोधस्तदेष श्लोकः ॥",
           transliteration:
             "athottareṇa tapasā brahmacaryeṇa śraddhayā vidyayā''tmānamanviṣyādityamabhijayante | etadvai prāṇānāmāyatanametadamṛtamabhayametat parāyaṇametasmānna punarāvartanta ityeṣa nirodhastadeṣa ślokaḥ ||",
           translation:
@@ -200,7 +200,7 @@ export const prashna: Scripture = {
         {
           id: 11,
           sanskrit:
-            "पञ्चपादं पितरं द्वादशाकृतिं दिव आहुः परे अर्धे पुरीषिणम् | अथेमेऽन्य उ परे विचक्षणं सप्तचक्रे षडर आहुरर्पितमिति ||",
+            "पञ्चपादं पितरं द्वादशाकृतिं दिव आहुः परे अर्धे पुरीषिणम् । अथेमेऽन्य उ परे विचक्षणं सप्तचक्रे षडर आहुरर्पितमिति ॥",
           transliteration:
             "pañcapādaṃ pitaraṃ dvādaśākṛtiṃ diva āhuḥ pare ardhe purīṣiṇam | athemeʼnya u pare vicakṣaṇaṃ saptacakre ṣaḍara āhurarpitamiti ||",
           translation:
@@ -218,7 +218,7 @@ export const prashna: Scripture = {
         {
           id: 12,
           sanskrit:
-            "मासो वै प्रजापतिस्तस्य कृष्णपक्ष एव रयिः शुक्लः प्राणस्तस्मादेते ऋषयः शुक्ल इष्टं कुर्वन्तीतर इतरस्मिन् ||",
+            "मासो वै प्रजापतिस्तस्य कृष्णपक्ष एव रयिः शुक्लः प्राणस्तस्मादेते ऋषयः शुक्ल इष्टं कुर्वन्तीतर इतरस्मिन् ॥",
           transliteration:
             "māso vai prajāpatistasya kṛṣṇapakṣa eva rayiḥ śuklaḥ prāṇastasmādete ṛṣayaḥ śukla iṣṭaṃ kurvantītara itarasmin ||",
           translation:
@@ -236,7 +236,7 @@ export const prashna: Scripture = {
         {
           id: 13,
           sanskrit:
-            "अहोरात्रो वै प्रजापतिस्तस्याहरेव प्राणो रात्रिरेव रयिः | प्राणं वा एते प्रस्कन्दन्ति ये दिवा रत्या संयुज्यन्ते ब्रह्मचर्यमेव तद्यद्रात्रौ रत्या संयुज्यन्ते ||",
+            "अहोरात्रो वै प्रजापतिस्तस्याहरेव प्राणो रात्रिरेव रयिः । प्राणं वा एते प्रस्कन्दन्ति ये दिवा रत्या संयुज्यन्ते ब्रह्मचर्यमेव तद्यद्रात्रौ रत्या संयुज्यन्ते ॥",
           transliteration:
             "ahorātro vai prajāpatistasyāhareva prāṇo rātrireva rayiḥ | prāṇaṃ vā ete praskandanti ye divā ratyā saṃyujyante brahmacaryameva tadyadrātrau ratyā saṃyujyante ||",
           translation:
@@ -254,7 +254,7 @@ export const prashna: Scripture = {
         {
           id: 14,
           sanskrit:
-            "अन्नं वै प्रजापतिस्ततो ह वै तद्रेतस्तस्मादिमाः प्रजाः प्रजायन्ते ||",
+            "अन्नं वै प्रजापतिस्ततो ह वै तद्रेतस्तस्मादिमाः प्रजाः प्रजायन्ते ॥",
           transliteration:
             "annaṃ vai prajāpatistato ha vai tadretastasmādimāḥ prajāḥ prajāyante ||",
           translation:
@@ -272,7 +272,7 @@ export const prashna: Scripture = {
         {
           id: 15,
           sanskrit:
-            "तद्ये ह वै तत्प्रजापतिव्रतं चरन्ति ते मिथुनमुत्पादयन्ते | तेषामेवैष ब्रह्मलोको येषां तपो ब्रह्मचर्यं येषु सत्यं प्रतिष्ठितम् ||",
+            "तद्ये ह वै तत्प्रजापतिव्रतं चरन्ति ते मिथुनमुत्पादयन्ते । तेषामेवैष ब्रह्मलोको येषां तपो ब्रह्मचर्यं येषु सत्यं प्रतिष्ठितम् ॥",
           transliteration:
             "tadye ha vai tatprajāpativrataṃ caranti te mithunamutpādayante | teṣāmevaiṣa brahmaloko yeṣāṃ tapo brahmacaryaṃ yeṣu satyaṃ pratiṣṭhitam ||",
           translation:
@@ -290,7 +290,7 @@ export const prashna: Scripture = {
         {
           id: 16,
           sanskrit:
-            "तेषामसौ विरजो ब्रह्मलोको न येषु जिह्ममनृतं न माया चेति ||",
+            "तेषामसौ विरजो ब्रह्मलोको न येषु जिह्ममनृतं न माया चेति ॥",
           transliteration:
             "teṣāmasau virajo brahmaloko na yeṣu jihmamanṛtaṃ na māyā ceti ||",
           translation:
@@ -308,7 +308,7 @@ export const prashna: Scripture = {
       
         {
           id: 101012,
-          sanskrit: 'तान् ह स ऋषिरुवाच भूय एव तपसा ब्रह्मचर्येण श्रद्धया संवत्सरं संवत्स्यथ यथाकामं प्रश्नान् पृच्छत यदि विज्ञास्यामः सर्वं ह वो वक्ष्याम इति ||',
+          sanskrit: 'तान् ह स ऋषिरुवाच भूय एव तपसा ब्रह्मचर्येण श्रद्धया संवत्सरं संवत्स्यथ यथाकामं प्रश्नान् पृच्छत यदि विज्ञास्यामः सर्वं ह वो वक्ष्याम इति ॥',
           transliteration: 'tān ha sa ṛṣiruvāca bhūya eva tapasā brahmacaryeṇa śraddhayā saṃvatsaraṃ saṃvatsyatha yathākāmaṃ praśnān pṛcchata yadi vijñāsyāmaḥ sarvaṃ ha vo vakṣyāma iti ||',
           translation: 'The sage said to them: "Live with me for a year more, in austerity, celibacy, and faith. Then ask whatever you wish. If we know, we will tell you all."',
           hindi: 'ऋषि ने उनसे कहा — "एक वर्ष और मेरे साथ रहो — तपस्या, ब्रह्मचर्य, और श्रद्धा के साथ। फिर जो भी पूछना हो, पूछो। यदि हम जानेंगे, तो तुम्हें सब बता देंगे।"',
@@ -317,7 +317,7 @@ export const prashna: Scripture = {
         },
         {
           id: 101013,
-          sanskrit: 'अथ कबन्धी कात्यायन उपेत्य पप्रच्छ | भगवन् कुतो ह वा इमाः प्रजाः प्रजायन्त इति ||',
+          sanskrit: 'अथ कबन्धी कात्यायन उपेत्य पप्रच्छ । भगवन् कुतो ह वा इमाः प्रजाः प्रजायन्त इति ॥',
           transliteration: 'atha kabandhī kātyāyana upetya papraccha | bhagavan kuto ha vā imāḥ prajāḥ prajāyanta iti ||',
           translation: 'Then Kabandhī Kātyāyana approached and asked: "Sir, from what are these creatures born?"',
           hindi: 'फिर कबन्धी कात्यायन निकट आकर पूछा — "हे भगवन्! ये सब प्राणी किससे उत्पन्न होते हैं?"',
@@ -326,7 +326,7 @@ export const prashna: Scripture = {
         },
         {
           id: 101014,
-          sanskrit: 'तस्मै स होवाच प्रजाकामो वै प्रजापतिः स तपोऽतप्यत स तपस्तप्त्वा स मिथुनमुत्पादयते रयिं च प्राणं चेत्येतौ मे बहुधा प्रजाः करिष्यत इति ||',
+          sanskrit: 'तस्मै स होवाच प्रजाकामो वै प्रजापतिः स तपोऽतप्यत स तपस्तप्त्वा स मिथुनमुत्पादयते रयिं च प्राणं चेत्येतौ मे बहुधा प्रजाः करिष्यत इति ॥',
           transliteration: 'tasmai sa hovāca prajākāmo vai prajāpatiḥ sa tapo\'tapyata sa tapastaptvā sa mithunamutpādayate rayiṃ ca prāṇaṃ cetyetau me bahudhā prajāḥ kariṣyata iti ||',
           translation: 'To him he said: "Prajāpati, desiring offspring, performed tapas. Having performed tapas, he produced the primal pair — Rayi (matter) and Prāṇa (life) — thinking: \'These two will make many beings for me.\'"',
           hindi: 'उसने उसे कहा — "प्रजापति ने सन्तान की कामना से तप किया। तप करके उसने एक जोड़ी उत्पन्न की — रयि (पदार्थ) और प्राण (चेतना) — यह सोचकर कि \'ये दोनों मेरे लिए अनेक प्राणी बनाएँगे\'।"',
@@ -335,7 +335,7 @@ export const prashna: Scripture = {
         },
         {
           id: 101015,
-          sanskrit: 'आदित्यो ह वै प्राणो रयिरेव चन्द्रमाः | रयिर्वा एतत् सर्वं यन्मूर्तं चामूर्तं च तस्मान्मूर्तिरेव रयिः ||',
+          sanskrit: 'आदित्यो ह वै प्राणो रयिरेव चन्द्रमाः । रयिर्वा एतत् सर्वं यन्मूर्तं चामूर्तं च तस्मान्मूर्तिरेव रयिः ॥',
           transliteration: 'ādityo ha vai prāṇo rayireva candramāḥ | rayirvā etat sarvaṃ yanmūrtaṃ cāmūrtaṃ ca tasmānmūrtireva rayiḥ ||',
           translation: 'The sun is Prāṇa; the moon is Rayi (matter). Rayi is everything — whether with form or without form. Hence form is Rayi.',
           hindi: 'सूर्य ही प्राण है और चन्द्रमा ही रयि है। जो कुछ भी मूर्त (रूपयुक्त) और अमूर्त (रूपरहित) है — सब रयि है। इसलिए मूर्ति ही रयि है।',
@@ -344,7 +344,7 @@ export const prashna: Scripture = {
         },
         {
           id: 101016,
-          sanskrit: 'अथादित्य उदयन् यत् प्राचीं दिशं प्रविशति तेन प्राच्यान् प्राणान् रश्मिषु सन्निधत्ते | यद्दक्षिणां यत् प्रतीचीं यदुदीचीं यदधो यदूर्ध्वं यदन्तरा दिशो यत् सर्वं प्रकाशयति तेन सर्वान् प्राणान् रश्मिषु सन्निधत्ते ||',
+          sanskrit: 'अथादित्य उदयन् यत् प्राचीं दिशं प्रविशति तेन प्राच्यान् प्राणान् रश्मिषु सन्निधत्ते । यद्दक्षिणां यत् प्रतीचीं यदुदीचीं यदधो यदूर्ध्वं यदन्तरा दिशो यत् सर्वं प्रकाशयति तेन सर्वान् प्राणान् रश्मिषु सन्निधत्ते ॥',
           transliteration: 'athāditya udayan yat prācīṃ diśaṃ praviśati tena prācyān prāṇān raśmiṣu sannidhatte | yaddakṣiṇāṃ yat pratīcīṃ yadudīcīṃ yadadho yadūrdhvaṃ yadantarā diśo yat sarvaṃ prakāśayati tena sarvān prāṇān raśmiṣu sannidhatte ||',
           translation: 'When the sun rises and enters the eastern direction, by that it gathers into its rays the prāṇas of the east. When it illumines south, west, north, below, above, and the intermediate directions — when it illumines all — by that it gathers all prāṇas into its rays.',
           hindi: 'जब सूर्य उदय होकर पूर्व दिशा में प्रवेश करता है, तब वह पूर्व के प्राणों को अपनी किरणों में समेट लेता है। जब वह दक्षिण, पश्चिम, उत्तर, नीचे, ऊपर, और मध्यवर्ती दिशाओं को प्रकाशित करता है, और सब को प्रकाशित करता है — तब सभी दिशाओं के प्राणों को अपनी किरणों में समेट लेता है।',
@@ -353,7 +353,7 @@ export const prashna: Scripture = {
         },
         {
           id: 101017,
-          sanskrit: 'स एष वैश्वानरो विश्वरूपः प्राणोऽग्निरुदयते | तदेतदृचाभ्युक्तम् ||',
+          sanskrit: 'स एष वैश्वानरो विश्वरूपः प्राणोऽग्निरुदयते । तदेतदृचाभ्युक्तम् ॥',
           transliteration: 'sa eṣa vaiśvānaro viśvarūpaḥ prāṇo\'gnirudayate | tadetadṛcābhyuktam ||',
           translation: 'This indeed is Vaiśvānara, of universal form — Prāṇa, Agni — that rises. This is declared by the Ṛc:',
           hindi: 'यही वैश्वानर है, विश्व-रूप वाला — प्राण, अग्नि — जो उदय होता है। ऋग्वेद में यह कहा गया है:',
@@ -362,7 +362,7 @@ export const prashna: Scripture = {
         },
         {
           id: 101018,
-          sanskrit: 'विश्वरूपं हरिणं जातवेदसं परायणं ज्योतिरेकं तपन्तम् | सहस्ररश्मिः शतधा वर्तमानः प्राणः प्रजानामुदयत्येष सूर्यः ||',
+          sanskrit: 'विश्वरूपं हरिणं जातवेदसं परायणं ज्योतिरेकं तपन्तम् । सहस्ररश्मिः शतधा वर्तमानः प्राणः प्रजानामुदयत्येष सूर्यः ॥',
           transliteration: 'viśvarūpaṃ hariṇaṃ jātavedasaṃ parāyaṇaṃ jyotirekaṃ tapantam | sahasraraśmiḥ śatadhā vartamānaḥ prāṇaḥ prajānāmudayatyeṣa sūryaḥ ||',
           translation: 'Of universal form, golden, knower-of-all-born, the supreme goal, the one light shining — thousand-rayed, existing in a hundred modes, the prāṇa of all creatures — this sun arises.',
           hindi: 'विश्व-रूप, स्वर्णिम, जातवेद (सब जन्मे प्राणियों का ज्ञाता), परम लक्ष्य, एकमात्र ज्योति जो तप रही है — सहस्र-किरणों वाला, सौ रूपों में विद्यमान, प्रजाओं का प्राण — यह सूर्य उदय होता है।',
@@ -371,7 +371,7 @@ export const prashna: Scripture = {
         },
         {
           id: 101019,
-          sanskrit: 'संवत्सरो वै प्रजापतिस्तस्यायने दक्षिणं चोत्तरं च | तद्ये ह वै तदिष्टापूर्ते कृतमित्युपासते ते चान्द्रमसमेव लोकमभिजयन्ते | त एव पुनरावर्तन्ते | तस्मादेत ऋषयः प्रजाकामा दक्षिणं प्रतिपद्यन्ते | एष ह वै रयिर्यः पितृयाणः ||',
+          sanskrit: 'संवत्सरो वै प्रजापतिस्तस्यायने दक्षिणं चोत्तरं च । तद्ये ह वै तदिष्टापूर्ते कृतमित्युपासते ते चान्द्रमसमेव लोकमभिजयन्ते । त एव पुनरावर्तन्ते । तस्मादेत ऋषयः प्रजाकामा दक्षिणं प्रतिपद्यन्ते । एष ह वै रयिर्यः पितृयाणः ॥',
           transliteration: 'saṃvatsaro vai prajāpatistasyāyane dakṣiṇaṃ cottaraṃ ca | tadye ha vai tadiṣṭāpūrte kṛtamityupāsate te cāndramasameva lokamabhijayante | ta eva punarāvartante | tasmādeta ṛṣayaḥ prajākāmā dakṣiṇaṃ pratipadyante | eṣa ha vai rayiryaḥ pitṛyāṇaḥ ||',
           translation: 'The year is Prajāpati; its two paths are the southern (dakṣiṇāyana) and northern (uttarāyaṇa). Those who worship through rites and works conquer only the world of the moon; they return again. Therefore those seers who desire offspring follow the southern path. This is Rayi, the path of the ancestors (pitṛyāṇa).',
           hindi: 'संवत्सर ही प्रजापति है — उसके दो अयन हैं: दक्षिणायन और उत्तरायण। जो लोग केवल इष्टापूर्त (यज्ञ-कर्म) से उपासना करते हैं, वे चान्द्रमस लोक को ही प्राप्त करते हैं; वे फिर लौट आते हैं। इसीलिए सन्तान की कामना वाले ऋषि दक्षिण मार्ग का अनुसरण करते हैं। यही रयि है — पितृयाण।',
@@ -380,7 +380,7 @@ export const prashna: Scripture = {
         },
         {
           id: 101020,
-          sanskrit: 'अथोत्तरेण तपसा ब्रह्मचर्येण श्रद्धया विद्ययाऽऽत्मानमन्विष्यादित्यमभिजयन्ते | एतद्वै प्राणानामायतनमेतदमृतमभयमेतत् परायणमेतस्मान्न पुनरावर्तन्त इत्येष निरोधस्तदेष श्लोकः ||',
+          sanskrit: 'अथोत्तरेण तपसा ब्रह्मचर्येण श्रद्धया विद्ययाऽऽत्मानमन्विष्यादित्यमभिजयन्ते । एतद्वै प्राणानामायतनमेतदमृतमभयमेतत् परायणमेतस्मान्न पुनरावर्तन्त इत्येष निरोधस्तदेष श्लोकः ॥',
           transliteration: 'athottareṇa tapasā brahmacaryeṇa śraddhayā vidyayā\'\'tmānamanviṣyādityamabhijayante | etadvai prāṇānāmāyatanametadamṛtamabhayametat parāyaṇametasmānna punarāvartanta ityeṣa nirodhastadeṣa ślokaḥ ||',
           translation: 'Now, by the northern path, through tapas, celibacy, faith, and knowledge of the Self, they conquer the sun. This is the abode of the prāṇas — immortal, fearless, the supreme goal. From there they do not return. This is the cessation. Thus this verse:',
           hindi: 'और उत्तरायण मार्ग से — तप, ब्रह्मचर्य, श्रद्धा और विद्या के द्वारा आत्मा को खोजकर — वे सूर्य को प्राप्त करते हैं। यह प्राणों का धाम है — अमर, अभय, परम लक्ष्य — वहाँ से वे फिर नहीं लौटते। यही निरोध (मोक्ष) है। इसलिए यह श्लोक:',
@@ -389,7 +389,7 @@ export const prashna: Scripture = {
         },
         {
           id: 101021,
-          sanskrit: 'पञ्चपादं पितरं द्वादशाकृतिं दिव आहुः परे अर्धे पुरीषिणम् | अथेमेऽन्य उ परे विचक्षणं सप्तचक्रे षडर आहुरर्पितमिति ||',
+          sanskrit: 'पञ्चपादं पितरं द्वादशाकृतिं दिव आहुः परे अर्धे पुरीषिणम् । अथेमेऽन्य उ परे विचक्षणं सप्तचक्रे षडर आहुरर्पितमिति ॥',
           transliteration: 'pañcapādaṃ pitaraṃ dvādaśākṛtiṃ diva āhuḥ pare ardhe purīṣiṇam | athemeʼnya u pare vicakṣaṇaṃ saptacakre ṣaḍara āhurarpitamiti ||',
           translation: 'They call him the five-footed Father, of twelve forms, dwelling in the upper half of the sky and full of moisture. Others, more discerning, call him the wise one set on a chariot of seven wheels and six spokes.',
           hindi: 'वे उसे पाँच-पाद, द्वादश-आकृति, द्युलोक के ऊपरी अर्ध-भाग में निवास करने वाला, जल से पूर्ण — पिता — कहते हैं। और कुछ विचक्षण लोग उसे सात-चक्र और छह-अरों वाले रथ पर आरूढ़ कहते हैं।',
@@ -398,7 +398,7 @@ export const prashna: Scripture = {
         },
         {
           id: 101022,
-          sanskrit: 'मासो वै प्रजापतिस्तस्य कृष्णपक्ष एव रयिः शुक्लः प्राणस्तस्मादेते ऋषयः शुक्ल इष्टं कुर्वन्तीतर इतरस्मिन् ||',
+          sanskrit: 'मासो वै प्रजापतिस्तस्य कृष्णपक्ष एव रयिः शुक्लः प्राणस्तस्मादेते ऋषयः शुक्ल इष्टं कुर्वन्तीतर इतरस्मिन् ॥',
           transliteration: 'māso vai prajāpatistasya kṛṣṇapakṣa eva rayiḥ śuklaḥ prāṇastasmādete ṛṣayaḥ śukla iṣṭaṃ kurvantītara itarasmin ||',
           translation: 'The month is Prajāpati; its dark fortnight is Rayi, its bright fortnight is Prāṇa. Therefore these seers perform rites in the bright fortnight; others perform in the other.',
           hindi: 'मास ही प्रजापति है — कृष्ण पक्ष रयि है, शुक्ल पक्ष प्राण है। इसलिए ये ऋषि शुक्ल पक्ष में यज्ञ करते हैं; अन्य लोग दूसरे पक्ष में।',
@@ -407,7 +407,7 @@ export const prashna: Scripture = {
         },
         {
           id: 101023,
-          sanskrit: 'अहोरात्रो वै प्रजापतिस्तस्याहरेव प्राणो रात्रिरेव रयिः | प्राणं वा एते प्रस्कन्दन्ति ये दिवा रत्या संयुज्यन्ते ब्रह्मचर्यमेव तद्यद्रात्रौ रत्या संयुज्यन्ते ||',
+          sanskrit: 'अहोरात्रो वै प्रजापतिस्तस्याहरेव प्राणो रात्रिरेव रयिः । प्राणं वा एते प्रस्कन्दन्ति ये दिवा रत्या संयुज्यन्ते ब्रह्मचर्यमेव तद्यद्रात्रौ रत्या संयुज्यन्ते ॥',
           transliteration: 'ahorātro vai prajāpatistasyāhareva prāṇo rātrireva rayiḥ | prāṇaṃ vā ete praskandanti ye divā ratyā saṃyujyante brahmacaryameva tadyadrātrau ratyā saṃyujyante ||',
           translation: 'Day-and-night is Prajāpati; day is Prāṇa, night is Rayi. Those who unite by day waste their prāṇa; those who unite by night observe brahmacarya (in this sense).',
           hindi: 'दिन-रात ही प्रजापति है — दिन प्राण है, रात रयि है। जो दिन में रति में संलग्न होते हैं वे प्राण क्षीण करते हैं; रात्रि में संलग्न होना ही ब्रह्मचर्य है।',
@@ -416,7 +416,7 @@ export const prashna: Scripture = {
         },
         {
           id: 101024,
-          sanskrit: 'अन्नं वै प्रजापतिस्ततो ह वै तद्रेतस्तस्मादिमाः प्रजाः प्रजायन्ते ||',
+          sanskrit: 'अन्नं वै प्रजापतिस्ततो ह वै तद्रेतस्तस्मादिमाः प्रजाः प्रजायन्ते ॥',
           transliteration: 'annaṃ vai prajāpatistato ha vai tadretastasmādimāḥ prajāḥ prajāyante ||',
           translation: 'Food is Prajāpati. From food, seed; from seed, these creatures are born.',
           hindi: 'अन्न ही प्रजापति है। अन्न से रेत (बीज), और बीज से ये प्रजाएँ उत्पन्न होती हैं।',
@@ -425,7 +425,7 @@ export const prashna: Scripture = {
         },
         {
           id: 101025,
-          sanskrit: 'तद्ये ह वै तत्प्रजापतिव्रतं चरन्ति ते मिथुनमुत्पादयन्ते | तेषामेवैष ब्रह्मलोको येषां तपो ब्रह्मचर्यं येषु सत्यं प्रतिष्ठितम् ||',
+          sanskrit: 'तद्ये ह वै तत्प्रजापतिव्रतं चरन्ति ते मिथुनमुत्पादयन्ते । तेषामेवैष ब्रह्मलोको येषां तपो ब्रह्मचर्यं येषु सत्यं प्रतिष्ठितम् ॥',
           transliteration: 'tadye ha vai tatprajāpativrataṃ caranti te mithunamutpādayante | teṣāmevaiṣa brahmaloko yeṣāṃ tapo brahmacaryaṃ yeṣu satyaṃ pratiṣṭhitam ||',
           translation: 'Those who follow the vow of Prajāpati produce offspring. But the Brahma-loka belongs only to those in whom austerity, celibacy, and truth are established.',
           hindi: 'जो प्रजापति का व्रत पालन करते हैं, वे सन्तान उत्पन्न करते हैं। परन्तु ब्रह्मलोक उन्हीं को मिलता है जिनमें तप, ब्रह्मचर्य और सत्य प्रतिष्ठित हैं।',
@@ -434,7 +434,7 @@ export const prashna: Scripture = {
         },
         {
           id: 101026,
-          sanskrit: 'तेषामसौ विरजो ब्रह्मलोको न येषु जिह्ममनृतं न माया चेति ||',
+          sanskrit: 'तेषामसौ विरजो ब्रह्मलोको न येषु जिह्ममनृतं न माया चेति ॥',
           transliteration: 'teṣāmasau virajo brahmaloko na yeṣu jihmamanṛtaṃ na māyā ceti ||',
           translation: 'For them is that taintless Brahma-loka — those in whom there is no crookedness, no falsehood, no deceit.',
           hindi: 'उन्हीं को वह निर्दोष ब्रह्मलोक मिलता है — जिनमें कुटिलता, असत्य, और छल नहीं है।',
@@ -452,7 +452,7 @@ export const prashna: Scripture = {
         {
           id: 1,
           sanskrit:
-            "अथ हैनं भार्गवो वैदर्भिः पप्रच्छ | भगवन् कत्येव देवाः प्रजां विधारयन्ते कतर एतत् प्रकाशयन्ते कः पुनरेषां वरिष्ठ इति ||",
+            "अथ हैनं भार्गवो वैदर्भिः पप्रच्छ । भगवन् कत्येव देवाः प्रजां विधारयन्ते कतर एतत् प्रकाशयन्ते कः पुनरेषां वरिष्ठ इति ॥",
           transliteration:
             "atha hainaṃ bhārgavo vaidarbhiḥ papraccha | bhagavan katyeva devāḥ prajāṃ vidhārayante katara etat prakāśayante kaḥ punareṣāṃ variṣṭha iti ||",
           translation:
@@ -470,7 +470,7 @@ export const prashna: Scripture = {
         {
           id: 2,
           sanskrit:
-            "तस्मै स होवाचाकाशो ह वा एष देवो वायुरग्निरापः पृथिवी वाङ्मनश्चक्षुः श्रोत्रं च | ते प्रकाश्याभिवदन्ति वयमेतद्बाणमवष्टभ्य विधारयामः ||",
+            "तस्मै स होवाचाकाशो ह वा एष देवो वायुरग्निरापः पृथिवी वाङ्मनश्चक्षुः श्रोत्रं च । ते प्रकाश्याभिवदन्ति वयमेतद्बाणमवष्टभ्य विधारयामः ॥",
           transliteration:
             "tasmai sa hovācākāśo ha vā eṣa devo vāyuragnirāpaḥ pṛthivī vāṅmanaścakṣuḥ śrotraṃ ca | te prakāśyābhivadanti vayametadbāṇamavaṣṭabhya vidhārayāmaḥ ||",
           translation:
@@ -488,7 +488,7 @@ export const prashna: Scripture = {
         {
           id: 3,
           sanskrit:
-            "तान् वरिष्ठः प्राण उवाच | मा मोहमापद्यथाहमेवैतत् पञ्चधाऽऽत्मानं प्रविभज्यैतद्बाणमवष्टभ्य विधारयामीति | तेऽश्रद्दधाना बभूवुः ||",
+            "तान् वरिष्ठः प्राण उवाच । मा मोहमापद्यथाहमेवैतत् पञ्चधाऽऽत्मानं प्रविभज्यैतद्बाणमवष्टभ्य विधारयामीति । तेऽश्रद्दधाना बभूवुः ॥",
           transliteration:
             "tān variṣṭhaḥ prāṇa uvāca | mā mohamāpadyathāhamevaitat pañcadhā''tmānaṃ pravibhajyaitadbāṇamavaṣṭabhya vidhārayāmīti | te'śraddadhānā babhūvuḥ ||",
           translation:
@@ -506,7 +506,7 @@ export const prashna: Scripture = {
         {
           id: 4,
           sanskrit:
-            "सोऽभिमानादूर्ध्वमुत्क्रामत इव | तस्मिन्नुत्क्रामत्यथेतरे सर्व एवोत्क्रामन्ते तस्मिंश्च प्रतिष्ठमाने सर्व एव प्रातिष्ठन्ते | तद्यथा मक्षिका मधुकरराजानमुत्क्रामन्तं सर्वा एवोत्क्रामन्ते तस्मिंश्च प्रतिष्ठमाने सर्वा एव प्रातिष्ठन्त एवं वाङ्मनश्चक्षुः श्रोत्रं च ते प्रीताः प्राणं स्तुन्वन्ति ||",
+            "सोऽभिमानादूर्ध्वमुत्क्रामत इव । तस्मिन्नुत्क्रामत्यथेतरे सर्व एवोत्क्रामन्ते तस्मिंश्च प्रतिष्ठमाने सर्व एव प्रातिष्ठन्ते । तद्यथा मक्षिका मधुकरराजानमुत्क्रामन्तं सर्वा एवोत्क्रामन्ते तस्मिंश्च प्रतिष्ठमाने सर्वा एव प्रातिष्ठन्त एवं वाङ्मनश्चक्षुः श्रोत्रं च ते प्रीताः प्राणं स्तुन्वन्ति ॥",
           transliteration:
             "so'bhimānādūrdhvamutkrāmata iva | tasminnutkrāmatyathetare sarva evotkrāmante tasmiṃśca pratiṣṭhamāne sarva eva prātiṣṭhante | tadyathā makṣikā madhukararājānamutkrāmantaṃ sarvā evotkrāmante tasmiṃśca pratiṣṭhamāne sarvā eva prātiṣṭhanta evaṃ vāṅmanaścakṣuḥ śrotraṃ ca te prītāḥ prāṇaṃ stunvanti ||",
           translation:
@@ -524,7 +524,7 @@ export const prashna: Scripture = {
         {
           id: 5,
           sanskrit:
-            "एषोऽग्निस्तपत्येष सूर्य एष पर्जन्यो मघवानेष वायुः | एष पृथिवी रयिर्देवः सदसच्चामृतं च यत् ||",
+            "एषोऽग्निस्तपत्येष सूर्य एष पर्जन्यो मघवानेष वायुः । एष पृथिवी रयिर्देवः सदसच्चामृतं च यत् ॥",
           transliteration:
             "eṣo'gnistapatyeṣa sūrya eṣa parjanyo maghavāneṣa vāyuḥ | eṣa pṛthivī rayirdevaḥ sadasaccāmṛtaṃ ca yat ||",
           translation:
@@ -542,7 +542,7 @@ export const prashna: Scripture = {
         {
           id: 6,
           sanskrit:
-            "अरा इव रथनाभौ प्राणे सर्वं प्रतिष्ठितम् | ऋचो यजूंषि सामानि यज्ञः क्षत्रं ब्रह्म च ||",
+            "अरा इव रथनाभौ प्राणे सर्वं प्रतिष्ठितम् । ऋचो यजूंषि सामानि यज्ञः क्षत्रं ब्रह्म च ॥",
           transliteration:
             "arā iva rathanābhau prāṇe sarvaṃ pratiṣṭhitam | ṛco yajūṃṣi sāmāni yajñaḥ kṣatraṃ brahma ca ||",
           translation:
@@ -560,7 +560,7 @@ export const prashna: Scripture = {
         {
           id: 7,
           sanskrit:
-            "प्रजापतिश्चरसि गर्भे त्वमेव प्रतिजायसे | तुभ्यं प्राण प्रजास्त्विमा बलिं हरन्ति यः प्राणैः प्रतितिष्ठसि ||",
+            "प्रजापतिश्चरसि गर्भे त्वमेव प्रतिजायसे । तुभ्यं प्राण प्रजास्त्विमा बलिं हरन्ति यः प्राणैः प्रतितिष्ठसि ॥",
           transliteration:
             "prajāpatiścarasi garbhe tvameva pratijāyase | tubhyaṃ prāṇa prajāstvimā baliṃ haranti yaḥ prāṇaiḥ pratitiṣṭhasi ||",
           translation:
@@ -578,7 +578,7 @@ export const prashna: Scripture = {
         {
           id: 8,
           sanskrit:
-            "देवानामसि वह्नितमः पितृणां प्रथमा स्वधा | ऋषीणां चरितं सत्यमथर्वाङ्गिरसामसि ||",
+            "देवानामसि वह्नितमः पितृणां प्रथमा स्वधा । ऋषीणां चरितं सत्यमथर्वाङ्गिरसामसि ॥",
           transliteration:
             "devānāmasi vahnitamaḥ pitṛṇāṃ prathamā svadhā | ṛṣīṇāṃ caritaṃ satyamatharvāṅgirasāmasi ||",
           translation:
@@ -596,7 +596,7 @@ export const prashna: Scripture = {
         {
           id: 9,
           sanskrit:
-            "इन्द्रस्त्वं प्राण तेजसा रुद्रोऽसि परिरक्षिता | त्वमन्तरिक्षे चरसि सूर्यस्त्वं ज्योतिषां पतिः ||",
+            "इन्द्रस्त्वं प्राण तेजसा रुद्रोऽसि परिरक्षिता । त्वमन्तरिक्षे चरसि सूर्यस्त्वं ज्योतिषां पतिः ॥",
           transliteration:
             "indrastvaṃ prāṇa tejasā rudro'si parirakṣitā | tvamantarikṣe carasi sūryastvaṃ jyotiṣāṃ patiḥ ||",
           translation:
@@ -614,7 +614,7 @@ export const prashna: Scripture = {
         {
           id: 10,
           sanskrit:
-            "यदा त्वमभिवर्षस्यथेमाः प्राण ते प्रजाः | आनन्दरूपास्तिष्ठन्ति कामायान्नं भविष्यतीति ||",
+            "यदा त्वमभिवर्षस्यथेमाः प्राण ते प्रजाः । आनन्दरूपास्तिष्ठन्ति कामायान्नं भविष्यतीति ॥",
           transliteration:
             "yadā tvamabhivarṣasyathemāḥ prāṇa te prajāḥ | ānandarūpāstiṣṭhanti kāmāyānnaṃ bhaviṣyatīti ||",
           translation:
@@ -632,7 +632,7 @@ export const prashna: Scripture = {
         {
           id: 11,
           sanskrit:
-            "व्रात्यस्त्वं प्राणैकर्षिरत्ता विश्वस्य सत्पतिः | वयमाद्यस्य दातारः पिता त्वं मातरिश्व नः ||",
+            "व्रात्यस्त्वं प्राणैकर्षिरत्ता विश्वस्य सत्पतिः । वयमाद्यस्य दातारः पिता त्वं मातरिश्व नः ॥",
           transliteration:
             "vrātyastvaṃ prāṇaikarṣirattā viśvasya satpatiḥ | vayamādyasya dātāraḥ pitā tvaṃ mātariśva naḥ ||",
           translation:
@@ -650,7 +650,7 @@ export const prashna: Scripture = {
         {
           id: 12,
           sanskrit:
-            "या ते तनूर्वाचि प्रतिष्ठिता या श्रोत्रे या च चक्षुषि | या च मनसि सन्तता शिवां तां कुरु मोत्क्रमीः ||",
+            "या ते तनूर्वाचि प्रतिष्ठिता या श्रोत्रे या च चक्षुषि । या च मनसि सन्तता शिवां तां कुरु मोत्क्रमीः ॥",
           transliteration:
             "yā te tanūrvāci pratiṣṭhitā yā śrotre yā ca cakṣuṣi | yā ca manasi santatā śivāṃ tāṃ kuru motkramīḥ ||",
           translation:
@@ -668,7 +668,7 @@ export const prashna: Scripture = {
         {
           id: 13,
           sanskrit:
-            "प्राणस्येदं वशे सर्वं त्रिदिवे यत् प्रतिष्ठितम् | मातेव पुत्रान् रक्षस्व श्रीश्च प्रज्ञां च विधेहि न इति ||",
+            "प्राणस्येदं वशे सर्वं त्रिदिवे यत् प्रतिष्ठितम् । मातेव पुत्रान् रक्षस्व श्रीश्च प्रज्ञां च विधेहि न इति ॥",
           transliteration:
             "prāṇasyedaṃ vaśe sarvaṃ tridive yat pratiṣṭhitam | māteva putrān rakṣasva śrīśca prajñāṃ ca vidhehi na iti ||",
           translation:
@@ -686,7 +686,7 @@ export const prashna: Scripture = {
       
         {
           id: 102023,
-          sanskrit: 'तान् वरिष्ठः प्राण उवाच | मा मोहमापद्यथाहमेवैतत् पञ्चधाऽऽत्मानं प्रविभज्यैतद्बाणमवष्टभ्य विधारयामीति | तेऽश्रद्दधाना बभूवुः ||',
+          sanskrit: 'तान् वरिष्ठः प्राण उवाच । मा मोहमापद्यथाहमेवैतत् पञ्चधाऽऽत्मानं प्रविभज्यैतद्बाणमवष्टभ्य विधारयामीति । तेऽश्रद्दधाना बभूवुः ॥',
           transliteration: 'tān variṣṭhaḥ prāṇa uvāca | mā mohamāpadyathāhamevaitat pañcadhā\'\'tmānaṃ pravibhajyaitadbāṇamavaṣṭabhya vidhārayāmīti | te\'śraddadhānā babhūvuḥ ||',
           translation: 'Prāṇa, the chief, said to them: "Do not delude yourselves. I, having divided myself into five, sustain this body-arrow." They did not believe him.',
           hindi: 'श्रेष्ठ प्राण ने उनसे कहा — "भ्रमित मत होओ। मैंने ही स्वयं को पाँच रूपों में बाँटकर इस शरीर-बाण को धारण कर रखा है।" परन्तु उन्होंने विश्वास नहीं किया।',
@@ -695,7 +695,7 @@ export const prashna: Scripture = {
         },
         {
           id: 102024,
-          sanskrit: 'सोऽभिमानादूर्ध्वमुत्क्रामत इव | तस्मिन्नुत्क्रामत्यथेतरे सर्व एवोत्क्रामन्ते तस्मिंश्च प्रतिष्ठमाने सर्व एव प्रातिष्ठन्ते | तद्यथा मक्षिका मधुकरराजानमुत्क्रामन्तं सर्वा एवोत्क्रामन्ते तस्मिंश्च प्रतिष्ठमाने सर्वा एव प्रातिष्ठन्त एवं वाङ्मनश्चक्षुः श्रोत्रं च ते प्रीताः प्राणं स्तुन्वन्ति ||',
+          sanskrit: 'सोऽभिमानादूर्ध्वमुत्क्रामत इव । तस्मिन्नुत्क्रामत्यथेतरे सर्व एवोत्क्रामन्ते तस्मिंश्च प्रतिष्ठमाने सर्व एव प्रातिष्ठन्ते । तद्यथा मक्षिका मधुकरराजानमुत्क्रामन्तं सर्वा एवोत्क्रामन्ते तस्मिंश्च प्रतिष्ठमाने सर्वा एव प्रातिष्ठन्त एवं वाङ्मनश्चक्षुः श्रोत्रं च ते प्रीताः प्राणं स्तुन्वन्ति ॥',
           transliteration: 'so\'bhimānādūrdhvamutkrāmata iva | tasminnutkrāmatyathetare sarva evotkrāmante tasmiṃśca pratiṣṭhamāne sarva eva prātiṣṭhante | tadyathā makṣikā madhukararājānamutkrāmantaṃ sarvā evotkrāmante tasmiṃśca pratiṣṭhamāne sarvā eva prātiṣṭhanta evaṃ vāṅmanaścakṣuḥ śrotraṃ ca te prītāḥ prāṇaṃ stunvanti ||',
           translation: 'Out of indignation, Prāṇa seemed to leave the body. When he departed, all the others also departed. When he returned and settled, all the others returned. As bees follow the queen-bee when she leaves, and follow when she returns, so speech, mind, eye, ear, and the rest praised Prāṇa.',
           hindi: 'अभिमान के कारण प्राण मानो ऊपर उठने लगा। जब वह निकलने लगा, तब सभी देव निकलने लगे; जब वह स्थिर हुआ, तब सब स्थिर हुए। जैसे रानी-मक्खी के निकलने पर सभी मक्खियाँ निकलती हैं, और उसके बैठने पर बैठती हैं — वैसे ही वाणी, मन, नेत्र, कान — सब प्रसन्न होकर प्राण की स्तुति करने लगे।',
@@ -704,7 +704,7 @@ export const prashna: Scripture = {
         },
         {
           id: 102025,
-          sanskrit: 'एषोऽग्निस्तपत्येष सूर्य एष पर्जन्यो मघवानेष वायुः | एष पृथिवी रयिर्देवः सदसच्चामृतं च यत् ||',
+          sanskrit: 'एषोऽग्निस्तपत्येष सूर्य एष पर्जन्यो मघवानेष वायुः । एष पृथिवी रयिर्देवः सदसच्चामृतं च यत् ॥',
           transliteration: 'eṣo\'gnistapatyeṣa sūrya eṣa parjanyo maghavāneṣa vāyuḥ | eṣa pṛthivī rayirdevaḥ sadasaccāmṛtaṃ ca yat ||',
           translation: 'This (Prāṇa) is the burning Agni. This is the Sun. This is the rain, this is Indra. This is Vāyu. This is Earth, this is Rayi, this is the deva — being and non-being and the immortal.',
           hindi: 'यह (प्राण) ही अग्नि है, यह ही सूर्य, यह ही पर्जन्य (वर्षा), यह ही इन्द्र (मघवान्), यह ही वायु, यह ही पृथ्वी, यह ही रयि — और यही देव, सत्, असत्, और अमृत है।',
@@ -713,7 +713,7 @@ export const prashna: Scripture = {
         },
         {
           id: 102026,
-          sanskrit: 'अरा इव रथनाभौ प्राणे सर्वं प्रतिष्ठितम् | ऋचो यजूंषि सामानि यज्ञः क्षत्रं ब्रह्म च ||',
+          sanskrit: 'अरा इव रथनाभौ प्राणे सर्वं प्रतिष्ठितम् । ऋचो यजूंषि सामानि यज्ञः क्षत्रं ब्रह्म च ॥',
           transliteration: 'arā iva rathanābhau prāṇe sarvaṃ pratiṣṭhitam | ṛco yajūṃṣi sāmāni yajñaḥ kṣatraṃ brahma ca ||',
           translation: 'As spokes in the hub of a chariot-wheel, so all this is established in Prāṇa — the Ṛc, Yajus, Sāman, sacrifice, kṣatra, and brāhmaṇa.',
           hindi: 'जैसे रथ की धुरी में सब अर लगे होते हैं, वैसे ही प्राण में सब प्रतिष्ठित हैं — ऋच्, यजुस्, सामन्, यज्ञ, क्षत्र, और ब्राह्मण।',
@@ -722,7 +722,7 @@ export const prashna: Scripture = {
         },
         {
           id: 102027,
-          sanskrit: 'प्रजापतिश्चरसि गर्भे त्वमेव प्रतिजायसे | तुभ्यं प्राण प्रजास्त्विमा बलिं हरन्ति यः प्राणैः प्रतितिष्ठसि ||',
+          sanskrit: 'प्रजापतिश्चरसि गर्भे त्वमेव प्रतिजायसे । तुभ्यं प्राण प्रजास्त्विमा बलिं हरन्ति यः प्राणैः प्रतितिष्ठसि ॥',
           transliteration: 'prajāpatiścarasi garbhe tvameva pratijāyase | tubhyaṃ prāṇa prajāstvimā baliṃ haranti yaḥ prāṇaiḥ pratitiṣṭhasi ||',
           translation: 'You are Prajāpati — you move in the womb, you alone are reborn. To you, O Prāṇa, these creatures bring offerings — you who abide as their prāṇas.',
           hindi: 'तू ही प्रजापति है — तू गर्भ में चलता है, तू ही जन्म लेता है। हे प्राण! ये प्रजाएँ तेरे ही लिए बलि लाती हैं — तू ही उनके प्राणों में स्थित है।',
@@ -731,7 +731,7 @@ export const prashna: Scripture = {
         },
         {
           id: 102028,
-          sanskrit: 'देवानामसि वह्नितमः पितृणां प्रथमा स्वधा | ऋषीणां चरितं सत्यमथर्वाङ्गिरसामसि ||',
+          sanskrit: 'देवानामसि वह्नितमः पितृणां प्रथमा स्वधा । ऋषीणां चरितं सत्यमथर्वाङ्गिरसामसि ॥',
           transliteration: 'devānāmasi vahnitamaḥ pitṛṇāṃ prathamā svadhā | ṛṣīṇāṃ caritaṃ satyamatharvāṅgirasāmasi ||',
           translation: 'You are the best carrier among the devas, the first oblation of the ancestors, the true conduct of the seers, of the Atharvāṅgiras.',
           hindi: 'देवों में तू सर्वश्रेष्ठ वाहक है, पितरों के लिये प्रथम स्वधा है, ऋषियों का सत्य आचरण है, अथर्वाङ्गिरसों का स्वरूप है।',
@@ -740,7 +740,7 @@ export const prashna: Scripture = {
         },
         {
           id: 102029,
-          sanskrit: 'इन्द्रस्त्वं प्राण तेजसा रुद्रोऽसि परिरक्षिता | त्वमन्तरिक्षे चरसि सूर्यस्त्वं ज्योतिषां पतिः ||',
+          sanskrit: 'इन्द्रस्त्वं प्राण तेजसा रुद्रोऽसि परिरक्षिता । त्वमन्तरिक्षे चरसि सूर्यस्त्वं ज्योतिषां पतिः ॥',
           transliteration: 'indrastvaṃ prāṇa tejasā rudro\'si parirakṣitā | tvamantarikṣe carasi sūryastvaṃ jyotiṣāṃ patiḥ ||',
           translation: 'You are Indra, O Prāṇa, by your splendor; you are Rudra, the all-protector. You move in the middle space; you are the Sun, lord of lights.',
           hindi: 'हे प्राण! तू अपनी तेजस्विता से इन्द्र है; तू रुद्र है, परिरक्षक है; तू अन्तरिक्ष में विचरता है; तू सूर्य है — ज्योतियों का स्वामी।',
@@ -749,7 +749,7 @@ export const prashna: Scripture = {
         },
         {
           id: 102030,
-          sanskrit: 'यदा त्वमभिवर्षस्यथेमाः प्राण ते प्रजाः | आनन्दरूपास्तिष्ठन्ति कामायान्नं भविष्यतीति ||',
+          sanskrit: 'यदा त्वमभिवर्षस्यथेमाः प्राण ते प्रजाः । आनन्दरूपास्तिष्ठन्ति कामायान्नं भविष्यतीति ॥',
           transliteration: 'yadā tvamabhivarṣasyathemāḥ prāṇa te prajāḥ | ānandarūpāstiṣṭhanti kāmāyānnaṃ bhaviṣyatīti ||',
           translation: 'When you pour down rain, these creatures stand in the form of joy, thinking: "Food will come as we desire."',
           hindi: 'हे प्राण! जब तू वर्षा करता है, तब ये प्रजाएँ आनन्द-रूप में खड़ी हो जाती हैं — "अब हमारी इच्छा का अन्न होगा।"',
@@ -758,7 +758,7 @@ export const prashna: Scripture = {
         },
         {
           id: 102031,
-          sanskrit: 'व्रात्यस्त्वं प्राणैकर्षिरत्ता विश्वस्य सत्पतिः | वयमाद्यस्य दातारः पिता त्वं मातरिश्व नः ||',
+          sanskrit: 'व्रात्यस्त्वं प्राणैकर्षिरत्ता विश्वस्य सत्पतिः । वयमाद्यस्य दातारः पिता त्वं मातरिश्व नः ॥',
           transliteration: 'vrātyastvaṃ prāṇaikarṣirattā viśvasya satpatiḥ | vayamādyasya dātāraḥ pitā tvaṃ mātariśva naḥ ||',
           translation: 'You are the unconsecrated, O Prāṇa, the solitary seer, the eater, the rightful lord of the universe. We are the givers of food; you are our Father, O Mātariśvan.',
           hindi: 'हे प्राण! तू व्रात्य (अदीक्षित) है, एकर्षि है, अन्न का भोक्ता है, विश्व का सत्पति है। हम तेरे लिए अन्न देने वाले हैं; हे मातरिश्वन्, तू ही हमारा पिता है।',
@@ -767,7 +767,7 @@ export const prashna: Scripture = {
         },
         {
           id: 102032,
-          sanskrit: 'या ते तनूर्वाचि प्रतिष्ठिता या श्रोत्रे या च चक्षुषि | या च मनसि सन्तता शिवां तां कुरु मोत्क्रमीः ||',
+          sanskrit: 'या ते तनूर्वाचि प्रतिष्ठिता या श्रोत्रे या च चक्षुषि । या च मनसि सन्तता शिवां तां कुरु मोत्क्रमीः ॥',
           transliteration: 'yā te tanūrvāci pratiṣṭhitā yā śrotre yā ca cakṣuṣi | yā ca manasi santatā śivāṃ tāṃ kuru motkramīḥ ||',
           translation: 'That form of yours which is established in speech, in the ear, in the eye, and which is extended in the mind — make that gracious. Do not depart.',
           hindi: 'हे प्राण! तेरा जो रूप वाणी, श्रोत्र, नेत्र, और मन में फैला है — उसे शिव (कल्याणकारी) बना। मत निकल जा।',
@@ -776,7 +776,7 @@ export const prashna: Scripture = {
         },
         {
           id: 102033,
-          sanskrit: 'प्राणस्येदं वशे सर्वं त्रिदिवे यत् प्रतिष्ठितम् | मातेव पुत्रान् रक्षस्व श्रीश्च प्रज्ञां च विधेहि न इति ||',
+          sanskrit: 'प्राणस्येदं वशे सर्वं त्रिदिवे यत् प्रतिष्ठितम् । मातेव पुत्रान् रक्षस्व श्रीश्च प्रज्ञां च विधेहि न इति ॥',
           transliteration: 'prāṇasyedaṃ vaśe sarvaṃ tridive yat pratiṣṭhitam | māteva putrān rakṣasva śrīśca prajñāṃ ca vidhehi na iti ||',
           translation: 'All that is established in the three worlds is under the control of Prāṇa. As a mother her children, protect us; grant us prosperity and wisdom.',
           hindi: 'जो कुछ त्रिदिव (तीन लोकों) में प्रतिष्ठित है — सब प्राण के अधीन है। माता जैसे अपने पुत्रों की रक्षा करती है, वैसे ही हमारी रक्षा कर; हमें श्री (समृद्धि) और प्रज्ञा (बुद्धि) प्रदान कर।',
@@ -794,7 +794,7 @@ export const prashna: Scripture = {
         {
           id: 1,
           sanskrit:
-            "अथ हैनं कौसल्यश्चाश्वलायनः पप्रच्छ | भगवन् कुत एष प्राणो जायते कथमायात्यस्मिञ्शरीर आत्मानं वा प्रविभज्य कथं प्रातिष्ठते केनोत्क्रमते कथं बाह्यमभिधत्ते कथमध्यात्ममिति ||",
+            "अथ हैनं कौसल्यश्चाश्वलायनः पप्रच्छ । भगवन् कुत एष प्राणो जायते कथमायात्यस्मिञ्शरीर आत्मानं वा प्रविभज्य कथं प्रातिष्ठते केनोत्क्रमते कथं बाह्यमभिधत्ते कथमध्यात्ममिति ॥",
           transliteration:
             "atha hainaṃ kausalyaścāśvalāyanaḥ papraccha | bhagavan kuta eṣa prāṇo jāyate kathamāyātyasmiñśarīra ātmānaṃ vā pravibhajya kathaṃ prātiṣṭhate kenotkramate kathaṃ bāhyamabhidhatte kathamadhyātmamiti ||",
           translation:
@@ -812,7 +812,7 @@ export const prashna: Scripture = {
         {
           id: 2,
           sanskrit:
-            "तस्मै स होवाचातिप्रश्नान् पृच्छसि ब्रह्मिष्ठोऽसीति तस्मात्तेऽहं ब्रवीमि ||",
+            "तस्मै स होवाचातिप्रश्नान् पृच्छसि ब्रह्मिष्ठोऽसीति तस्मात्तेऽहं ब्रवीमि ॥",
           transliteration:
             "tasmai sa hovācātipraśnān pṛcchasi brahmiṣṭho'sīti tasmātte'haṃ bravīmi ||",
           translation:
@@ -830,7 +830,7 @@ export const prashna: Scripture = {
         {
           id: 3,
           sanskrit:
-            "आत्मन एष प्राणो जायते | यथैषा पुरुषे छायैतस्मिन्नेतदाततं मनोकृतेनायात्यस्मिञ्शरीरे ||",
+            "आत्मन एष प्राणो जायते । यथैषा पुरुषे छायैतस्मिन्नेतदाततं मनोकृतेनायात्यस्मिञ्शरीरे ॥",
           transliteration:
             "ātmana eṣa prāṇo jāyate | yathaiṣā puruṣe chāyaitasminnetadātataṃ manokṛtenāyātyasmiñśarīre ||",
           translation:
@@ -848,7 +848,7 @@ export const prashna: Scripture = {
         {
           id: 4,
           sanskrit:
-            "यथा सम्राडेवाधिकृतान् विनियुङ्क्ते एतान् ग्रामानेतान् ग्रामानधितिष्ठस्वेत्येवमेवैष प्राण इतरान् प्राणान् पृथक् पृथगेव सन्निधत्ते ||",
+            "यथा सम्राडेवाधिकृतान् विनियुङ्क्ते एतान् ग्रामानेतान् ग्रामानधितिष्ठस्वेत्येवमेवैष प्राण इतरान् प्राणान् पृथक् पृथगेव सन्निधत्ते ॥",
           transliteration:
             "yathā samrāḍevādhikṛtān viniyuṅkte etān grāmānetān grāmānadhitiṣṭhasvetyevamevaiṣa prāṇa itarān prāṇān pṛthak pṛthageva sannidhatte ||",
           translation:
@@ -866,7 +866,7 @@ export const prashna: Scripture = {
         {
           id: 5,
           sanskrit:
-            "पायूपस्थेऽपानं चक्षुःश्रोत्रे मुखनासिकाभ्यां प्राणः स्वयं प्रातिष्ठते मध्ये तु समानः | एष ह्येतद्धुतमन्नं समं नयति तस्मादेताः सप्तार्चिषो भवन्ति ||",
+            "पायूपस्थेऽपानं चक्षुःश्रोत्रे मुखनासिकाभ्यां प्राणः स्वयं प्रातिष्ठते मध्ये तु समानः । एष ह्येतद्धुतमन्नं समं नयति तस्मादेताः सप्तार्चिषो भवन्ति ॥",
           transliteration:
             "pāyūpasthe'pānaṃ cakṣuḥśrotre mukhanāsikābhyāṃ prāṇaḥ svayaṃ prātiṣṭhate madhye tu samānaḥ | eṣa hyetaddhutamannaṃ samaṃ nayati tasmādetāḥ saptārciṣo bhavanti ||",
           translation:
@@ -884,7 +884,7 @@ export const prashna: Scripture = {
         {
           id: 6,
           sanskrit:
-            "हृदि ह्येष आत्मा | अत्रैतदेकशतं नाडीनां तासां शतं शतमेकैकस्या द्वासप्ततिर्द्वासप्ततिः प्रतिशाखानाडीसहस्राणि भवन्त्यासु व्यानश्चरति ||",
+            "हृदि ह्येष आत्मा । अत्रैतदेकशतं नाडीनां तासां शतं शतमेकैकस्या द्वासप्ततिर्द्वासप्ततिः प्रतिशाखानाडीसहस्राणि भवन्त्यासु व्यानश्चरति ॥",
           transliteration:
             "hṛdi hyeṣa ātmā | atraitadekaśataṃ nāḍīnāṃ tāsāṃ śataṃ śatamekaikasyā dvāsaptatirdvāsaptatiḥ pratiśākhānāḍīsahasrāṇi bhavantyāsu vyānaścarati ||",
           translation:
@@ -902,7 +902,7 @@ export const prashna: Scripture = {
         {
           id: 7,
           sanskrit:
-            "अथैकयोर्ध्व उदानः पुण्येन पुण्यं लोकं नयति पापेन पापमुभाभ्यामेव मनुष्यलोकम् ||",
+            "अथैकयोर्ध्व उदानः पुण्येन पुण्यं लोकं नयति पापेन पापमुभाभ्यामेव मनुष्यलोकम् ॥",
           transliteration:
             "athaikayordhva udānaḥ puṇyena puṇyaṃ lokaṃ nayati pāpena pāpamubhābhyāmeva manuṣyalokam ||",
           translation:
@@ -920,7 +920,7 @@ export const prashna: Scripture = {
         {
           id: 8,
           sanskrit:
-            "आदित्यो ह वै बाह्यः प्राण उदयत्येष ह्येनं चाक्षुषं प्राणमनुगृह्णानः | पृथिव्यां या देवता सैषा पुरुषस्यापानमवष्टभ्यान्तरा यदाकाशः स समानो वायुर्व्यानः ||",
+            "आदित्यो ह वै बाह्यः प्राण उदयत्येष ह्येनं चाक्षुषं प्राणमनुगृह्णानः । पृथिव्यां या देवता सैषा पुरुषस्यापानमवष्टभ्यान्तरा यदाकाशः स समानो वायुर्व्यानः ॥",
           transliteration:
             "ādityo ha vai bāhyaḥ prāṇa udayatyeṣa hyenaṃ cākṣuṣaṃ prāṇamanugṛhṇānaḥ | pṛthivyāṃ yā devatā saiṣā puruṣasyāpānamavaṣṭabhyāntarā yadākāśaḥ sa samāno vāyurvyānaḥ ||",
           translation:
@@ -938,7 +938,7 @@ export const prashna: Scripture = {
         {
           id: 9,
           sanskrit:
-            "तेजो ह वा उदानस्तस्मादुपशान्ततेजाः | पुनर्भवमिन्द्रियैर्मनसि सम्पद्यमानैः ||",
+            "तेजो ह वा उदानस्तस्मादुपशान्ततेजाः । पुनर्भवमिन्द्रियैर्मनसि सम्पद्यमानैः ॥",
           transliteration:
             "tejo ha vā udānastasmādupaśāntatejāḥ | punarbhavamindriyairmanasi sampadyamānaiḥ ||",
           translation:
@@ -956,7 +956,7 @@ export const prashna: Scripture = {
         {
           id: 10,
           sanskrit:
-            "यच्चित्तस्तेनैष प्राणमायाति | प्राणस्तेजसा युक्तः सहात्मना यथासङ्कल्पितं लोकं नयति ||",
+            "यच्चित्तस्तेनैष प्राणमायाति । प्राणस्तेजसा युक्तः सहात्मना यथासङ्कल्पितं लोकं नयति ॥",
           transliteration:
             "yaccittastenaiṣa prāṇamāyāti | prāṇastejasā yuktaḥ sahātmanā yathāsaṅkalpitaṃ lokaṃ nayati ||",
           translation:
@@ -974,7 +974,7 @@ export const prashna: Scripture = {
         {
           id: 11,
           sanskrit:
-            "य एवं विद्वान् प्राणं वेद न हास्य प्रजा हीयतेऽमृतो भवति | तदेष श्लोकः ||",
+            "य एवं विद्वान् प्राणं वेद न हास्य प्रजा हीयतेऽमृतो भवति । तदेष श्लोकः ॥",
           transliteration:
             "ya evaṃ vidvān prāṇaṃ veda na hāsya prajā hīyate'mṛto bhavati | tadeṣa ślokaḥ ||",
           translation:
@@ -992,7 +992,7 @@ export const prashna: Scripture = {
         {
           id: 12,
           sanskrit:
-            "उत्पत्तिमायतिं स्थानं विभुत्वं चैव पञ्चधा | अध्यात्मं चैव प्राणस्य विज्ञायामृतमश्नुते विज्ञायामृतमश्नुते ||",
+            "उत्पत्तिमायतिं स्थानं विभुत्वं चैव पञ्चधा । अध्यात्मं चैव प्राणस्य विज्ञायामृतमश्नुते विज्ञायामृतमश्नुते ॥",
           transliteration:
             "utpattimāyatiṃ sthānaṃ vibhutvaṃ caiva pañcadhā | adhyātmaṃ caiva prāṇasya vijñāyāmṛtamaśnute vijñāyāmṛtamaśnute ||",
           translation:
@@ -1010,7 +1010,7 @@ export const prashna: Scripture = {
       
         {
           id: 103034,
-          sanskrit: 'यथा सम्राडेवाधिकृतान् विनियुङ्क्ते एतान् ग्रामानेतान् ग्रामानधितिष्ठस्वेत्येवमेवैष प्राण इतरान् प्राणान् पृथक् पृथगेव सन्निधत्ते ||',
+          sanskrit: 'यथा सम्राडेवाधिकृतान् विनियुङ्क्ते एतान् ग्रामानेतान् ग्रामानधितिष्ठस्वेत्येवमेवैष प्राण इतरान् प्राणान् पृथक् पृथगेव सन्निधत्ते ॥',
           transliteration: 'yathā samrāḍevādhikṛtān viniyuṅkte etān grāmānetān grāmānadhitiṣṭhasvetyevamevaiṣa prāṇa itarān prāṇān pṛthak pṛthageva sannidhatte ||',
           translation: 'As an emperor commissions officers — "Govern these villages, those villages" — so Prāṇa assigns the other prāṇas to their distinct posts.',
           hindi: 'जैसे सम्राट् अधिकारियों को नियुक्त करता है — "इन गाँवों का, उन गाँवों का प्रबन्ध करो" — वैसे ही प्राण अन्य प्राणों को उनके पृथक्-पृथक् स्थानों पर नियुक्त करता है।',
@@ -1019,7 +1019,7 @@ export const prashna: Scripture = {
         },
         {
           id: 103035,
-          sanskrit: 'पायूपस्थेऽपानं चक्षुःश्रोत्रे मुखनासिकाभ्यां प्राणः स्वयं प्रातिष्ठते मध्ये तु समानः | एष ह्येतद्धुतमन्नं समं नयति तस्मादेताः सप्तार्चिषो भवन्ति ||',
+          sanskrit: 'पायूपस्थेऽपानं चक्षुःश्रोत्रे मुखनासिकाभ्यां प्राणः स्वयं प्रातिष्ठते मध्ये तु समानः । एष ह्येतद्धुतमन्नं समं नयति तस्मादेताः सप्तार्चिषो भवन्ति ॥',
           transliteration: 'pāyūpasthe\'pānaṃ cakṣuḥśrotre mukhanāsikābhyāṃ prāṇaḥ svayaṃ prātiṣṭhate madhye tu samānaḥ | eṣa hyetaddhutamannaṃ samaṃ nayati tasmādetāḥ saptārciṣo bhavanti ||',
           translation: 'Apāna is established in the organs of excretion and generation. Prāṇa itself dwells in the eyes, ears, mouth, and nostrils. In the middle is Samāna; it distributes the food evenly, from which arise the seven flames.',
           hindi: 'अपान गुदा और जननेन्द्रिय में स्थित है। प्राण स्वयं नेत्र, श्रोत्र, मुख और नासिका में बसता है। मध्य में समान है — जो खाये हुए अन्न को समान रूप से बाँटता है, जिससे सात अग्नियाँ प्रकट होती हैं।',
@@ -1028,7 +1028,7 @@ export const prashna: Scripture = {
         },
         {
           id: 103036,
-          sanskrit: 'हृदि ह्येष आत्मा | अत्रैतदेकशतं नाडीनां तासां शतं शतमेकैकस्या द्वासप्ततिर्द्वासप्ततिः प्रतिशाखानाडीसहस्राणि भवन्त्यासु व्यानश्चरति ||',
+          sanskrit: 'हृदि ह्येष आत्मा । अत्रैतदेकशतं नाडीनां तासां शतं शतमेकैकस्या द्वासप्ततिर्द्वासप्ततिः प्रतिशाखानाडीसहस्राणि भवन्त्यासु व्यानश्चरति ॥',
           transliteration: 'hṛdi hyeṣa ātmā | atraitadekaśataṃ nāḍīnāṃ tāsāṃ śataṃ śatamekaikasyā dvāsaptatirdvāsaptatiḥ pratiśākhānāḍīsahasrāṇi bhavantyāsu vyānaścarati ||',
           translation: 'The Self resides in the heart. From here a hundred and one nāḍīs proceed; from each of them, a hundred more; from each of those, seventy-two thousand branches. In all these moves Vyāna.',
           hindi: 'आत्मा हृदय में निवास करता है। यहाँ से एक सौ एक मुख्य नाडियाँ निकलती हैं; प्रत्येक से सौ-सौ, फिर हर एक से बहत्तर हजार शाखाएँ। इन सबमें व्यान संचार करता है।',
@@ -1037,7 +1037,7 @@ export const prashna: Scripture = {
         },
         {
           id: 103037,
-          sanskrit: 'अथैकयोर्ध्व उदानः पुण्येन पुण्यं लोकं नयति पापेन पापमुभाभ्यामेव मनुष्यलोकम् ||',
+          sanskrit: 'अथैकयोर्ध्व उदानः पुण्येन पुण्यं लोकं नयति पापेन पापमुभाभ्यामेव मनुष्यलोकम् ॥',
           transliteration: 'athaikayordhva udānaḥ puṇyena puṇyaṃ lokaṃ nayati pāpena pāpamubhābhyāmeva manuṣyalokam ||',
           translation: 'By one nāḍī, going upward, Udāna leads — by merit to a meritorious world, by sin to a sinful world, by both to the human world.',
           hindi: 'एक मुख्य नाडी से ऊपर की ओर उदान चलता है — पुण्य के द्वारा पुण्य-लोक में, पाप के द्वारा पाप-लोक में, और दोनों के द्वारा मनुष्य-लोक में ले जाता है।',
@@ -1046,7 +1046,7 @@ export const prashna: Scripture = {
         },
         {
           id: 103038,
-          sanskrit: 'आदित्यो ह वै बाह्यः प्राण उदयत्येष ह्येनं चाक्षुषं प्राणमनुगृह्णानः | पृथिव्यां या देवता सैषा पुरुषस्यापानमवष्टभ्यान्तरा यदाकाशः स समानो वायुर्व्यानः ||',
+          sanskrit: 'आदित्यो ह वै बाह्यः प्राण उदयत्येष ह्येनं चाक्षुषं प्राणमनुगृह्णानः । पृथिव्यां या देवता सैषा पुरुषस्यापानमवष्टभ्यान्तरा यदाकाशः स समानो वायुर्व्यानः ॥',
           transliteration: 'ādityo ha vai bāhyaḥ prāṇa udayatyeṣa hyenaṃ cākṣuṣaṃ prāṇamanugṛhṇānaḥ | pṛthivyāṃ yā devatā saiṣā puruṣasyāpānamavaṣṭabhyāntarā yadākāśaḥ sa samāno vāyurvyānaḥ ||',
           translation: 'The Sun is the outer Prāṇa rising — it favors this Prāṇa that resides in the eye. The deity in the earth pulls Apāna downward. The space between is Samāna; the air (wind) is Vyāna.',
           hindi: 'सूर्य ही बाह्य प्राण है जो उदय होता है — वह नेत्र में स्थित प्राण को अनुगृहीत करता है। पृथ्वी में जो देवता है, वह मनुष्य के अपान को नीचे की ओर खींचता है। मध्य का आकाश समान है; वायु व्यान है।',
@@ -1055,7 +1055,7 @@ export const prashna: Scripture = {
         },
         {
           id: 103039,
-          sanskrit: 'तेजो ह वा उदानस्तस्मादुपशान्ततेजाः | पुनर्भवमिन्द्रियैर्मनसि सम्पद्यमानैः ||',
+          sanskrit: 'तेजो ह वा उदानस्तस्मादुपशान्ततेजाः । पुनर्भवमिन्द्रियैर्मनसि सम्पद्यमानैः ॥',
           transliteration: 'tejo ha vā udānastasmādupaśāntatejāḥ | punarbhavamindriyairmanasi sampadyamānaiḥ ||',
           translation: 'Udāna is the radiant heat (tejas). Hence when this heat is extinguished, one obtains rebirth, with senses absorbed into the mind.',
           hindi: 'तेज ही उदान है। जब वह तेज शान्त होता है, तब इन्द्रियाँ मन में लीन होकर पुनः जन्म प्राप्त होता है।',
@@ -1064,7 +1064,7 @@ export const prashna: Scripture = {
         },
         {
           id: 103040,
-          sanskrit: 'यच्चित्तस्तेनैष प्राणमायाति | प्राणस्तेजसा युक्तः सहात्मना यथासङ्कल्पितं लोकं नयति ||',
+          sanskrit: 'यच्चित्तस्तेनैष प्राणमायाति । प्राणस्तेजसा युक्तः सहात्मना यथासङ्कल्पितं लोकं नयति ॥',
           transliteration: 'yaccittastenaiṣa prāṇamāyāti | prāṇastejasā yuktaḥ sahātmanā yathāsaṅkalpitaṃ lokaṃ nayati ||',
           translation: 'With whatever consciousness one has at the end, one enters Prāṇa. Prāṇa, joined with tejas and with the Self, leads one to the world that has been intended (saṅkalpita).',
           hindi: 'अन्तिम चित्त-वृत्ति के साथ जीव प्राण में प्रवेश करता है। प्राण — तेज और आत्मा के साथ — संकल्प के अनुसार लोक की ओर ले जाता है।',
@@ -1073,7 +1073,7 @@ export const prashna: Scripture = {
         },
         {
           id: 103041,
-          sanskrit: 'य एवं विद्वान् प्राणं वेद न हास्य प्रजा हीयतेऽमृतो भवति | तदेष श्लोकः ||',
+          sanskrit: 'य एवं विद्वान् प्राणं वेद न हास्य प्रजा हीयतेऽमृतो भवति । तदेष श्लोकः ॥',
           transliteration: 'ya evaṃ vidvān prāṇaṃ veda na hāsya prajā hīyate\'mṛto bhavati | tadeṣa ślokaḥ ||',
           translation: 'The wise one who knows Prāṇa thus — his lineage does not perish; he becomes immortal. Hence this verse:',
           hindi: 'जो विद्वान् इस प्रकार प्राण को जानता है, उसकी प्रजा क्षीण नहीं होती; वह अमर हो जाता है। इसलिए यह श्लोक:',
@@ -1082,7 +1082,7 @@ export const prashna: Scripture = {
         },
         {
           id: 103042,
-          sanskrit: 'उत्पत्तिमायतिं स्थानं विभुत्वं चैव पञ्चधा | अध्यात्मं चैव प्राणस्य विज्ञायामृतमश्नुते विज्ञायामृतमश्नुते ||',
+          sanskrit: 'उत्पत्तिमायतिं स्थानं विभुत्वं चैव पञ्चधा । अध्यात्मं चैव प्राणस्य विज्ञायामृतमश्नुते विज्ञायामृतमश्नुते ॥',
           transliteration: 'utpattimāyatiṃ sthānaṃ vibhutvaṃ caiva pañcadhā | adhyātmaṃ caiva prāṇasya vijñāyāmṛtamaśnute vijñāyāmṛtamaśnute ||',
           translation: 'Knowing the origin, the entrance, the abode, the five-fold lordship, and the inward function of Prāṇa — one attains immortality, attains immortality.',
           hindi: 'प्राण की उत्पत्ति, आगमन, स्थान, पञ्चधा प्रभुता, और आध्यात्मिक स्वरूप को जानकर — मनुष्य अमृतत्व प्राप्त करता है, अमृतत्व प्राप्त करता है।',
@@ -1100,7 +1100,7 @@ export const prashna: Scripture = {
         {
           id: 1,
           sanskrit:
-            "अथ हैनं सौर्यायणी गार्ग्यः पप्रच्छ | भगवन्नेतस्मिन् पुरुषे कानि स्वपन्ति कान्यस्मिञ्जाग्रति कतर एष देवः स्वप्नान् पश्यति कस्यैतत् सुखं भवति कस्मिन्नु सर्वे सम्प्रतिष्ठिता भवन्तीति ||",
+            "अथ हैनं सौर्यायणी गार्ग्यः पप्रच्छ । भगवन्नेतस्मिन् पुरुषे कानि स्वपन्ति कान्यस्मिञ्जाग्रति कतर एष देवः स्वप्नान् पश्यति कस्यैतत् सुखं भवति कस्मिन्नु सर्वे सम्प्रतिष्ठिता भवन्तीति ॥",
           transliteration:
             "atha hainaṃ sauryāyaṇī gārgyaḥ papraccha | bhagavannetasmin puruṣe kāni svapanti kānyasmiñjāgrati katara eṣa devaḥ svapnān paśyati kasyaitat sukhaṃ bhavati kasminnu sarve sampratiṣṭhitā bhavantīti ||",
           translation:
@@ -1118,7 +1118,7 @@ export const prashna: Scripture = {
         {
           id: 2,
           sanskrit:
-            "तस्मै स होवाच | यथा गार्ग्य मरीचयोऽर्कस्यास्तं गच्छतः सर्वा एतस्मिंस्तेजोमण्डल एकीभवन्ति | ताः पुनः पुनरुदयतः प्रचरन्त्येवं ह वै तत् सर्वं परे देवे मनस्येकीभवति | तेन तर्ह्येष पुरुषो न शृणोति न पश्यति न जिघ्रति न रसयते न स्पृशते नाभिवदते नादत्ते नानन्दयते न विसृजते नेयायते स्वपितीत्याचक्षते ||",
+            "तस्मै स होवाच । यथा गार्ग्य मरीचयोऽर्कस्यास्तं गच्छतः सर्वा एतस्मिंस्तेजोमण्डल एकीभवन्ति । ताः पुनः पुनरुदयतः प्रचरन्त्येवं ह वै तत् सर्वं परे देवे मनस्येकीभवति । तेन तर्ह्येष पुरुषो न शृणोति न पश्यति न जिघ्रति न रसयते न स्पृशते नाभिवदते नादत्ते नानन्दयते न विसृजते नेयायते स्वपितीत्याचक्षते ॥",
           transliteration:
             "tasmai sa hovāca | yathā gārgya marīcayo'rkasyāstaṃ gacchataḥ sarvā etasmiṃstejomaṇḍala ekībhavanti | tāḥ punaḥ punarudayataḥ pracarantyevaṃ ha vai tat sarvaṃ pare deve manasyekībhavati | tena tarhyeṣa puruṣo na śṛṇoti na paśyati na jighrati na rasayate na spṛśate nābhivadate nādatte nānandayate na visṛjate neyāyate svapitītyācakṣate ||",
           translation:
@@ -1136,7 +1136,7 @@ export const prashna: Scripture = {
         {
           id: 3,
           sanskrit:
-            "प्राणाग्नय एवैतस्मिन् पुरे जाग्रति | गार्हपत्यो ह वा एषोऽपानो व्यानोऽन्वाहार्यपचनो यद्गार्हपत्यात्प्रणीयते प्रणयनादाहवनीयः प्राणः ||",
+            "प्राणाग्नय एवैतस्मिन् पुरे जाग्रति । गार्हपत्यो ह वा एषोऽपानो व्यानोऽन्वाहार्यपचनो यद्गार्हपत्यात्प्रणीयते प्रणयनादाहवनीयः प्राणः ॥",
           transliteration:
             "prāṇāgnaya evaitasmin pure jāgrati | gārhapatyo ha vā eṣo'pāno vyāno'nvāhāryapacano yadgārhapatyātpraṇīyate praṇayanādāhavanīyaḥ prāṇaḥ ||",
           translation:
@@ -1154,7 +1154,7 @@ export const prashna: Scripture = {
         {
           id: 4,
           sanskrit:
-            "यदुच्छ्वासनिःश्वासावेतावाहुती समं नयतीति स समानः | मनो ह वाव यजमानः | इष्टफलमेवोदानः | स एनं यजमानमहरहर्ब्रह्म गमयति ||",
+            "यदुच्छ्वासनिःश्वासावेतावाहुती समं नयतीति स समानः । मनो ह वाव यजमानः । इष्टफलमेवोदानः । स एनं यजमानमहरहर्ब्रह्म गमयति ॥",
           transliteration:
             "yaducchvāsaniḥśvāsāvetāvāhutī samaṃ nayatīti sa samānaḥ | mano ha vāva yajamānaḥ | iṣṭaphalamevodānaḥ | sa enaṃ yajamānamaharaharbrahma gamayati ||",
           translation:
@@ -1172,7 +1172,7 @@ export const prashna: Scripture = {
         {
           id: 5,
           sanskrit:
-            "अत्रैष देवः स्वप्ने महिमानमनुभवति | यद्दृष्टं दृष्टमनुपश्यति श्रुतं श्रुतमेवार्थमनुशृणोति देशदिगन्तरैश्च प्रत्यनुभूतं पुनः पुनः प्रत्यनुभवति दृष्टं चादृष्टं च श्रुतं चाश्रुतं चानुभूतं चाननुभूतं च सच्चासच्च सर्वं पश्यति सर्वः पश्यति ||",
+            "अत्रैष देवः स्वप्ने महिमानमनुभवति । यद्दृष्टं दृष्टमनुपश्यति श्रुतं श्रुतमेवार्थमनुशृणोति देशदिगन्तरैश्च प्रत्यनुभूतं पुनः पुनः प्रत्यनुभवति दृष्टं चादृष्टं च श्रुतं चाश्रुतं चानुभूतं चाननुभूतं च सच्चासच्च सर्वं पश्यति सर्वः पश्यति ॥",
           transliteration:
             "atraiṣa devaḥ svapne mahimānamanubhavati | yaddṛṣṭaṃ dṛṣṭamanupaśyati śrutaṃ śrutamevārthamanuśṛṇoti deśadigantaraiśca pratyanubhūtaṃ punaḥ punaḥ pratyanubhavati dṛṣṭaṃ cādṛṣṭaṃ ca śrutaṃ cāśrutaṃ cānubhūtaṃ cānanubhūtaṃ ca saccāsacca sarvaṃ paśyati sarvaḥ paśyati ||",
           translation:
@@ -1190,7 +1190,7 @@ export const prashna: Scripture = {
         {
           id: 6,
           sanskrit:
-            "स यदा तेजसाऽभिभूतो भवति | अत्रैष देवः स्वप्नान्न पश्यत्यथ तदैतस्मिञ्शरीरे एतत् सुखं भवति ||",
+            "स यदा तेजसाऽभिभूतो भवति । अत्रैष देवः स्वप्नान्न पश्यत्यथ तदैतस्मिञ्शरीरे एतत् सुखं भवति ॥",
           transliteration:
             "sa yadā tejasā'bhibhūto bhavati | atraiṣa devaḥ svapnānna paśyatyatha tadaitasmiñśarīre etat sukhaṃ bhavati ||",
           translation:
@@ -1208,7 +1208,7 @@ export const prashna: Scripture = {
         {
           id: 7,
           sanskrit:
-            "स यथा सोम्य वयांसि वासोवृक्षं सम्प्रतिष्ठन्ते एवं ह वै तत् सर्वं पर आत्मनि सम्प्रतिष्ठते ||",
+            "स यथा सोम्य वयांसि वासोवृक्षं सम्प्रतिष्ठन्ते एवं ह वै तत् सर्वं पर आत्मनि सम्प्रतिष्ठते ॥",
           transliteration:
             "sa yathā somya vayāṃsi vāsovṛkṣaṃ sampratiṣṭhante evaṃ ha vai tat sarvaṃ para ātmani sampratiṣṭhate ||",
           translation:
@@ -1226,7 +1226,7 @@ export const prashna: Scripture = {
         {
           id: 8,
           sanskrit:
-            "पृथिवी च पृथिवीमात्रा चापश्चापोमात्रा च तेजश्च तेजोमात्रा च वायुश्च वायुमात्रा चाकाशश्चाकाशमात्रा च चक्षुश्च द्रष्टव्यं च श्रोत्रं च श्रोतव्यं च घ्राणं च घ्रातव्यं च रसश्च रसयितव्यं च त्वक् च स्पर्शयितव्यं च वाक् च वक्तव्यं च हस्तौ चादातव्यं चोपस्थश्चानन्दयितव्यं च पायुश्च विसर्जयितव्यं च पादौ च गन्तव्यं च मनश्च मन्तव्यं च बुद्धिश्च बोद्धव्यं चाहङ्कारश्चाहङ्कर्तव्यं च चित्तं च चेतयितव्यं च तेजश्च विद्योतयितव्यं च प्राणश्च विधारयितव्यं च ||",
+            "पृथिवी च पृथिवीमात्रा चापश्चापोमात्रा च तेजश्च तेजोमात्रा च वायुश्च वायुमात्रा चाकाशश्चाकाशमात्रा च चक्षुश्च द्रष्टव्यं च श्रोत्रं च श्रोतव्यं च घ्राणं च घ्रातव्यं च रसश्च रसयितव्यं च त्वक् च स्पर्शयितव्यं च वाक् च वक्तव्यं च हस्तौ चादातव्यं चोपस्थश्चानन्दयितव्यं च पायुश्च विसर्जयितव्यं च पादौ च गन्तव्यं च मनश्च मन्तव्यं च बुद्धिश्च बोद्धव्यं चाहङ्कारश्चाहङ्कर्तव्यं च चित्तं च चेतयितव्यं च तेजश्च विद्योतयितव्यं च प्राणश्च विधारयितव्यं च ॥",
           transliteration:
             "pṛthivī ca pṛthivīmātrā cāpaścāpomātrā ca tejaśca tejomātrā ca vāyuśca vāyumātrā cākāśaścākāśamātrā ca cakṣuśca draṣṭavyaṃ ca śrotraṃ ca śrotavyaṃ ca ghrāṇaṃ ca ghrātavyaṃ ca rasaśca rasayitavyaṃ ca tvak ca sparśayitavyaṃ ca vāk ca vaktavyaṃ ca hastau cādātavyaṃ copasthaścānandayitavyaṃ ca pāyuśca visarjayitavyaṃ ca pādau ca gantavyaṃ ca manaśca mantavyaṃ ca buddhiśca boddhavyaṃ cāhaṅkāraścāhaṅkartavyaṃ ca cittaṃ ca cetayitavyaṃ ca tejaśca vidyotayitavyaṃ ca prāṇaśca vidhārayitavyaṃ ca ||",
           translation:
@@ -1244,7 +1244,7 @@ export const prashna: Scripture = {
         {
           id: 9,
           sanskrit:
-            "एष हि द्रष्टा स्प्रष्टा श्रोता घ्राता रसयिता मन्ता बोद्धा कर्ता विज्ञानात्मा पुरुषः | स परेऽक्षर आत्मनि सम्प्रतिष्ठते ||",
+            "एष हि द्रष्टा स्प्रष्टा श्रोता घ्राता रसयिता मन्ता बोद्धा कर्ता विज्ञानात्मा पुरुषः । स परेऽक्षर आत्मनि सम्प्रतिष्ठते ॥",
           transliteration:
             "eṣa hi draṣṭā spraṣṭā śrotā ghrātā rasayitā mantā boddhā kartā vijñānātmā puruṣaḥ | sa pare'kṣara ātmani sampratiṣṭhate ||",
           translation:
@@ -1262,7 +1262,7 @@ export const prashna: Scripture = {
         {
           id: 10,
           sanskrit:
-            "परमेवाक्षरं प्रतिपद्यते स यो ह वै तदच्छायमशरीरमलोहितं शुभ्रमक्षरं वेदयते यस्तु सोम्य | स सर्वज्ञः सर्वो भवति | तदेष श्लोकः ||",
+            "परमेवाक्षरं प्रतिपद्यते स यो ह वै तदच्छायमशरीरमलोहितं शुभ्रमक्षरं वेदयते यस्तु सोम्य । स सर्वज्ञः सर्वो भवति । तदेष श्लोकः ॥",
           transliteration:
             "paramevākṣaraṃ pratipadyate sa yo ha vai tadacchāyamaśarīramalohitaṃ śubhramakṣaraṃ vedayate yastu somya | sa sarvajñaḥ sarvo bhavati | tadeṣa ślokaḥ ||",
           translation:
@@ -1280,7 +1280,7 @@ export const prashna: Scripture = {
         {
           id: 11,
           sanskrit:
-            "विज्ञानात्मा सह देवैश्च सर्वैः प्राणा भूतानि सम्प्रतिष्ठन्ति यत्र | तदक्षरं वेदयते यस्तु सोम्य स सर्वज्ञः सर्वमेवाविवेशेति ||",
+            "विज्ञानात्मा सह देवैश्च सर्वैः प्राणा भूतानि सम्प्रतिष्ठन्ति यत्र । तदक्षरं वेदयते यस्तु सोम्य स सर्वज्ञः सर्वमेवाविवेशेति ॥",
           transliteration:
             "vijñānātmā saha devaiśca sarvaiḥ prāṇā bhūtāni sampratiṣṭhanti yatra | tadakṣaraṃ vedayate yastu somya sa sarvajñaḥ sarvamevāviveśeti ||",
           translation:
@@ -1298,7 +1298,7 @@ export const prashna: Scripture = {
       
         {
           id: 104045,
-          sanskrit: 'अत्रैष देवः स्वप्ने महिमानमनुभवति | यद्दृष्टं दृष्टमनुपश्यति श्रुतं श्रुतमेवार्थमनुशृणोति देशदिगन्तरैश्च प्रत्यनुभूतं पुनः पुनः प्रत्यनुभवति दृष्टं चादृष्टं च श्रुतं चाश्रुतं चानुभूतं चाननुभूतं च सच्चासच्च सर्वं पश्यति सर्वः पश्यति ||',
+          sanskrit: 'अत्रैष देवः स्वप्ने महिमानमनुभवति । यद्दृष्टं दृष्टमनुपश्यति श्रुतं श्रुतमेवार्थमनुशृणोति देशदिगन्तरैश्च प्रत्यनुभूतं पुनः पुनः प्रत्यनुभवति दृष्टं चादृष्टं च श्रुतं चाश्रुतं चानुभूतं चाननुभूतं च सच्चासच्च सर्वं पश्यति सर्वः पश्यति ॥',
           transliteration: 'atraiṣa devaḥ svapne mahimānamanubhavati | yaddṛṣṭaṃ dṛṣṭamanupaśyati śrutaṃ śrutamevārthamanuśṛṇoti deśadigantaraiśca pratyanubhūtaṃ punaḥ punaḥ pratyanubhavati dṛṣṭaṃ cādṛṣṭaṃ ca śrutaṃ cāśrutaṃ cānubhūtaṃ cānanubhūtaṃ ca saccāsacca sarvaṃ paśyati sarvaḥ paśyati ||',
           translation: 'There, in dream, this divine Self experiences its own greatness. What it has seen, it sees again; what it has heard, it hears again; what was experienced in distant lands and directions, it experiences over and over. Seen and unseen, heard and unheard, experienced and not-experienced, real and unreal — all it sees, being itself the All.',
           hindi: 'स्वप्न में यह आत्म-देव अपनी ही महिमा का अनुभव करता है। जो देखा है उसे फिर देखता है, जो सुना है उसे फिर सुनता है, दूर के देश-दिशाओं में जो अनुभव किया है — उसे फिर अनुभव करता है। देखा-अनदेखा, सुना-अनसुना, अनुभूत-अननुभूत, सत्-असत् — सब कुछ देखता है। वह स्वयं सब है।',
@@ -1307,7 +1307,7 @@ export const prashna: Scripture = {
         },
         {
           id: 104046,
-          sanskrit: 'स यदा तेजसाऽभिभूतो भवति | अत्रैष देवः स्वप्नान्न पश्यत्यथ तदैतस्मिञ्शरीरे एतत् सुखं भवति ||',
+          sanskrit: 'स यदा तेजसाऽभिभूतो भवति । अत्रैष देवः स्वप्नान्न पश्यत्यथ तदैतस्मिञ्शरीरे एतत् सुखं भवति ॥',
           transliteration: 'sa yadā tejasā\'bhibhūto bhavati | atraiṣa devaḥ svapnānna paśyatyatha tadaitasmiñśarīre etat sukhaṃ bhavati ||',
           translation: 'When the mind is overpowered by tejas (a deeper light), this divine Self does not see dreams. Then, in this body, there is happiness.',
           hindi: 'जब मन गहन तेज से अभिभूत हो जाता है, तब यह आत्म-देव स्वप्न नहीं देखता; तब इस शरीर में सुख होता है।',
@@ -1316,7 +1316,7 @@ export const prashna: Scripture = {
         },
         {
           id: 104047,
-          sanskrit: 'स यथा सोम्य वयांसि वासोवृक्षं सम्प्रतिष्ठन्ते एवं ह वै तत् सर्वं पर आत्मनि सम्प्रतिष्ठते ||',
+          sanskrit: 'स यथा सोम्य वयांसि वासोवृक्षं सम्प्रतिष्ठन्ते एवं ह वै तत् सर्वं पर आत्मनि सम्प्रतिष्ठते ॥',
           transliteration: 'sa yathā somya vayāṃsi vāsovṛkṣaṃ sampratiṣṭhante evaṃ ha vai tat sarvaṃ para ātmani sampratiṣṭhate ||',
           translation: 'As birds, dear one, return to their nesting tree, so all this becomes established in the supreme Self.',
           hindi: 'हे सौम्य! जैसे पक्षी रात्रि में अपने आश्रय-वृक्ष पर लौट आते हैं, वैसे ही ये सब परम आत्मा में प्रतिष्ठित हो जाते हैं।',
@@ -1325,7 +1325,7 @@ export const prashna: Scripture = {
         },
         {
           id: 104048,
-          sanskrit: 'पृथिवी च पृथिवीमात्रा चापश्चापोमात्रा च तेजश्च तेजोमात्रा च वायुश्च वायुमात्रा चाकाशश्चाकाशमात्रा च चक्षुश्च द्रष्टव्यं च श्रोत्रं च श्रोतव्यं च घ्राणं च घ्रातव्यं च रसश्च रसयितव्यं च त्वक् च स्पर्शयितव्यं च वाक् च वक्तव्यं च हस्तौ चादातव्यं चोपस्थश्चानन्दयितव्यं च पायुश्च विसर्जयितव्यं च पादौ च गन्तव्यं च मनश्च मन्तव्यं च बुद्धिश्च बोद्धव्यं चाहङ्कारश्चाहङ्कर्तव्यं च चित्तं च चेतयितव्यं च तेजश्च विद्योतयितव्यं च प्राणश्च विधारयितव्यं च ||',
+          sanskrit: 'पृथिवी च पृथिवीमात्रा चापश्चापोमात्रा च तेजश्च तेजोमात्रा च वायुश्च वायुमात्रा चाकाशश्चाकाशमात्रा च चक्षुश्च द्रष्टव्यं च श्रोत्रं च श्रोतव्यं च घ्राणं च घ्रातव्यं च रसश्च रसयितव्यं च त्वक् च स्पर्शयितव्यं च वाक् च वक्तव्यं च हस्तौ चादातव्यं चोपस्थश्चानन्दयितव्यं च पायुश्च विसर्जयितव्यं च पादौ च गन्तव्यं च मनश्च मन्तव्यं च बुद्धिश्च बोद्धव्यं चाहङ्कारश्चाहङ्कर्तव्यं च चित्तं च चेतयितव्यं च तेजश्च विद्योतयितव्यं च प्राणश्च विधारयितव्यं च ॥',
           transliteration: 'pṛthivī ca pṛthivīmātrā cāpaścāpomātrā ca tejaśca tejomātrā ca vāyuśca vāyumātrā cākāśaścākāśamātrā ca cakṣuśca draṣṭavyaṃ ca śrotraṃ ca śrotavyaṃ ca ghrāṇaṃ ca ghrātavyaṃ ca rasaśca rasayitavyaṃ ca tvak ca sparśayitavyaṃ ca vāk ca vaktavyaṃ ca hastau cādātavyaṃ copasthaścānandayitavyaṃ ca pāyuśca visarjayitavyaṃ ca pādau ca gantavyaṃ ca manaśca mantavyaṃ ca buddhiśca boddhavyaṃ cāhaṅkāraścāhaṅkartavyaṃ ca cittaṃ ca cetayitavyaṃ ca tejaśca vidyotayitavyaṃ ca prāṇaśca vidhārayitavyaṃ ca ||',
           translation: 'Earth and its essence, water and its essence, fire and its essence, air and its essence, space and its essence; eye and the seen, ear and the heard, nose and the smelled, taste and the tasted, skin and the touched; speech and the spoken, hands and the grasped, generative organ and the enjoyed, anus and the eliminated, feet and the trodden; mind and the thought, intellect and the known, ego and what it claims, citta and what it perceives, tejas and what it illumines, prāṇa and what it supports —',
           hindi: 'पृथिवी और उसकी सूक्ष्म-मात्रा, जल और उसकी मात्रा, अग्नि और मात्रा, वायु और मात्रा, आकाश और मात्रा; नेत्र और दर्शनीय, श्रोत्र और श्रोतव्य, घ्राण और घ्रातव्य, रस और रसयितव्य, त्वचा और स्पर्शनीय; वाणी और वक्तव्य, हाथ और ग्राह्य, उपस्थ और आनन्दनीय, पायु और त्याज्य, पैर और गन्तव्य; मन और मन्तव्य, बुद्धि और बोद्धव्य, अहङ्कार और अहङ्कर्तव्य, चित्त और चेतयितव्य, तेज और विद्योत्य, प्राण और धारयितव्य —',
@@ -1334,7 +1334,7 @@ export const prashna: Scripture = {
         },
         {
           id: 104049,
-          sanskrit: 'एष हि द्रष्टा स्प्रष्टा श्रोता घ्राता रसयिता मन्ता बोद्धा कर्ता विज्ञानात्मा पुरुषः | स परेऽक्षर आत्मनि सम्प्रतिष्ठते ||',
+          sanskrit: 'एष हि द्रष्टा स्प्रष्टा श्रोता घ्राता रसयिता मन्ता बोद्धा कर्ता विज्ञानात्मा पुरुषः । स परेऽक्षर आत्मनि सम्प्रतिष्ठते ॥',
           transliteration: 'eṣa hi draṣṭā spraṣṭā śrotā ghrātā rasayitā mantā boddhā kartā vijñānātmā puruṣaḥ | sa pare\'kṣara ātmani sampratiṣṭhate ||',
           translation: 'For this is the seer, the toucher, the hearer, the smeller, the taster, the thinker, the knower, the doer — the Person, the cognition-self. It is established in the supreme, imperishable Self.',
           hindi: 'यही द्रष्टा है, स्पर्शकर्ता, श्रोता, घ्राता, रसयिता, मन्ता, बोद्धा, कर्ता — विज्ञानात्मा पुरुष। वह परम अक्षर आत्मा में प्रतिष्ठित है।',
@@ -1343,7 +1343,7 @@ export const prashna: Scripture = {
         },
         {
           id: 104050,
-          sanskrit: 'परमेवाक्षरं प्रतिपद्यते स यो ह वै तदच्छायमशरीरमलोहितं शुभ्रमक्षरं वेदयते यस्तु सोम्य | स सर्वज्ञः सर्वो भवति | तदेष श्लोकः ||',
+          sanskrit: 'परमेवाक्षरं प्रतिपद्यते स यो ह वै तदच्छायमशरीरमलोहितं शुभ्रमक्षरं वेदयते यस्तु सोम्य । स सर्वज्ञः सर्वो भवति । तदेष श्लोकः ॥',
           transliteration: 'paramevākṣaraṃ pratipadyate sa yo ha vai tadacchāyamaśarīramalohitaṃ śubhramakṣaraṃ vedayate yastu somya | sa sarvajñaḥ sarvo bhavati | tadeṣa ślokaḥ ||',
           translation: 'He who knows that shadowless, bodiless, bloodless, pure, imperishable One — he, dear one, reaches the supreme imperishable. He becomes all-knowing, becomes all. This is the verse:',
           hindi: 'जो उस छाया-रहित, शरीर-रहित, रक्त-रहित, शुभ्र, अक्षर को जानता है — वही, हे सौम्य, परम अक्षर को प्राप्त होता है। वह सर्वज्ञ हो जाता है, सब कुछ हो जाता है। इसी विषय में यह श्लोक:',
@@ -1352,7 +1352,7 @@ export const prashna: Scripture = {
         },
         {
           id: 104051,
-          sanskrit: 'विज्ञानात्मा सह देवैश्च सर्वैः प्राणा भूतानि सम्प्रतिष्ठन्ति यत्र | तदक्षरं वेदयते यस्तु सोम्य स सर्वज्ञः सर्वमेवाविवेशेति ||',
+          sanskrit: 'विज्ञानात्मा सह देवैश्च सर्वैः प्राणा भूतानि सम्प्रतिष्ठन्ति यत्र । तदक्षरं वेदयते यस्तु सोम्य स सर्वज्ञः सर्वमेवाविवेशेति ॥',
           transliteration: 'vijñānātmā saha devaiśca sarvaiḥ prāṇā bhūtāni sampratiṣṭhanti yatra | tadakṣaraṃ vedayate yastu somya sa sarvajñaḥ sarvamevāviveśeti ||',
           translation: 'Where the knowing-Self, with all the devas, the prāṇas, and the elements, comes to rest — that imperishable, he who knows it, dear one, becomes all-knowing and enters into All.',
           hindi: 'जहाँ विज्ञानात्मा सहित सब देव, प्राण और भूत प्रतिष्ठित हो जाते हैं — उसी अक्षर को, हे सौम्य, जो जानता है — वह सर्वज्ञ होकर सर्व में प्रवेश कर जाता है।',
@@ -1370,7 +1370,7 @@ export const prashna: Scripture = {
         {
           id: 1,
           sanskrit:
-            "अथ हैनं शैब्यः सत्यकामः पप्रच्छ | स यो ह वै तद्भगवन् मनुष्येषु प्रायणान्तमोङ्कारमभिध्यायीत कतमं वाव स तेन लोकं जयतीति ||",
+            "अथ हैनं शैब्यः सत्यकामः पप्रच्छ । स यो ह वै तद्भगवन् मनुष्येषु प्रायणान्तमोङ्कारमभिध्यायीत कतमं वाव स तेन लोकं जयतीति ॥",
           transliteration:
             "atha hainaṃ śaibyaḥ satyakāmaḥ papraccha | sa yo ha vai tadbhagavan manuṣyeṣu prāyaṇāntamoṅkāramabhidhyāyīta katamaṃ vāva sa tena lokaṃ jayatīti ||",
           translation:
@@ -1388,7 +1388,7 @@ export const prashna: Scripture = {
         {
           id: 2,
           sanskrit:
-            "तस्मै स होवाच | एतद्वै सत्यकाम परं चापरं च ब्रह्म यदोङ्कारः | तस्माद्विद्वानेतेनैवायतनेनैकतरमन्वेति ||",
+            "तस्मै स होवाच । एतद्वै सत्यकाम परं चापरं च ब्रह्म यदोङ्कारः । तस्माद्विद्वानेतेनैवायतनेनैकतरमन्वेति ॥",
           transliteration:
             "tasmai sa hovāca | etadvai satyakāma paraṃ cāparaṃ ca brahma yadoṅkāraḥ | tasmādvidvānetenaivāyatanenaikataramanveti ||",
           translation:
@@ -1406,7 +1406,7 @@ export const prashna: Scripture = {
         {
           id: 3,
           sanskrit:
-            "स यद्येकमात्रमभिध्यायीत स तेनैव संवेदितस्तूर्णमेव जगत्यामभिसम्पद्यते | तमृचो मनुष्यलोकमुपनयन्ते स तत्र तपसा ब्रह्मचर्येण श्रद्धया सम्पन्नो महिमानमनुभवति ||",
+            "स यद्येकमात्रमभिध्यायीत स तेनैव संवेदितस्तूर्णमेव जगत्यामभिसम्पद्यते । तमृचो मनुष्यलोकमुपनयन्ते स तत्र तपसा ब्रह्मचर्येण श्रद्धया सम्पन्नो महिमानमनुभवति ॥",
           transliteration:
             "sa yadyekamātramabhidhyāyīta sa tenaiva saṃveditastūrṇameva jagatyāmabhisampadyate | tamṛco manuṣyalokamupanayante sa tatra tapasā brahmacaryeṇa śraddhayā sampanno mahimānamanubhavati ||",
           translation:
@@ -1424,7 +1424,7 @@ export const prashna: Scripture = {
         {
           id: 4,
           sanskrit:
-            "अथ यदि द्विमात्रेण मनसि सम्पद्यते सोऽन्तरिक्षं यजुर्भिरुन्नीयते सोमलोकम् | स सोमलोके विभूतिमनुभूय पुनरावर्तते ||",
+            "अथ यदि द्विमात्रेण मनसि सम्पद्यते सोऽन्तरिक्षं यजुर्भिरुन्नीयते सोमलोकम् । स सोमलोके विभूतिमनुभूय पुनरावर्तते ॥",
           transliteration:
             "atha yadi dvimātreṇa manasi sampadyate so'ntarikṣaṃ yajurbhirunnīyate somalokam | sa somaloke vibhūtimanubhūya punarāvartate ||",
           translation:
@@ -1442,7 +1442,7 @@ export const prashna: Scripture = {
         {
           id: 5,
           sanskrit:
-            "यः पुनरेतं त्रिमात्रेणोमित्येतेनैवाक्षरेण परं पुरुषमभिध्यायीत स तेजसि सूर्ये सम्पन्नः | यथा पादोदरस्त्वचा विनिर्मुच्यत एवं ह वै स पाप्मना विनिर्मुक्तः स सामभिरुन्नीयते ब्रह्मलोकं स एतस्माज्जीवघनात्परात्परं पुरिशयं पुरुषमीक्षते | तदेतौ श्लोकौ भवतः ||",
+            "यः पुनरेतं त्रिमात्रेणोमित्येतेनैवाक्षरेण परं पुरुषमभिध्यायीत स तेजसि सूर्ये सम्पन्नः । यथा पादोदरस्त्वचा विनिर्मुच्यत एवं ह वै स पाप्मना विनिर्मुक्तः स सामभिरुन्नीयते ब्रह्मलोकं स एतस्माज्जीवघनात्परात्परं पुरिशयं पुरुषमीक्षते । तदेतौ श्लोकौ भवतः ॥",
           transliteration:
             "yaḥ punaretaṃ trimātreṇomityetenaivākṣareṇa paraṃ puruṣamabhidhyāyīta sa tejasi sūrye sampannaḥ | yathā pādodarastvacā vinirmucyata evaṃ ha vai sa pāpmanā vinirmuktaḥ sa sāmabhirunnīyate brahmalokaṃ sa etasmājjīvaghanātparātparaṃ puriśayaṃ puruṣamīkṣate | tadetau ślokau bhavataḥ ||",
           translation:
@@ -1460,7 +1460,7 @@ export const prashna: Scripture = {
         {
           id: 6,
           sanskrit:
-            "तिस्रो मात्रा मृत्युमत्यः प्रयुक्ता अन्योन्यसक्ता अनविप्रयुक्ताः | क्रियासु बाह्याभ्यन्तरमध्यमासु सम्यक् प्रयुक्तासु न कम्पते ज्ञः ||",
+            "तिस्रो मात्रा मृत्युमत्यः प्रयुक्ता अन्योन्यसक्ता अनविप्रयुक्ताः । क्रियासु बाह्याभ्यन्तरमध्यमासु सम्यक् प्रयुक्तासु न कम्पते ज्ञः ॥",
           transliteration:
             "tisro mātrā mṛtyumatyaḥ prayuktā anyonyasaktā anaviprayuktāḥ | kriyāsu bāhyābhyantaramadhyamāsu samyak prayuktāsu na kampate jñaḥ ||",
           translation:
@@ -1478,7 +1478,7 @@ export const prashna: Scripture = {
         {
           id: 7,
           sanskrit:
-            "ऋग्भिरेतं यजुर्भिरन्तरिक्षं सामभिर्यत्तत्कवयो वेदयन्ते | तमोङ्कारेणैवायतनेनान्वेति विद्वान् यत्तच्छान्तमजरममृतमभयं परं चेति ||",
+            "ऋग्भिरेतं यजुर्भिरन्तरिक्षं सामभिर्यत्तत्कवयो वेदयन्ते । तमोङ्कारेणैवायतनेनान्वेति विद्वान् यत्तच्छान्तमजरममृतमभयं परं चेति ॥",
           transliteration:
             "ṛgbhiretaṃ yajurbhirantarikṣaṃ sāmabhiryattatkavayo vedayante | tamoṅkāreṇaivāyatanenānveti vidvān yattacchāntamajaramamṛtamabhayaṃ paraṃ ceti ||",
           translation:
@@ -1496,7 +1496,7 @@ export const prashna: Scripture = {
       
         {
           id: 105056,
-          sanskrit: 'तिस्रो मात्रा मृत्युमत्यः प्रयुक्ता अन्योन्यसक्ता अनविप्रयुक्ताः | क्रियासु बाह्याभ्यन्तरमध्यमासु सम्यक् प्रयुक्तासु न कम्पते ज्ञः ||',
+          sanskrit: 'तिस्रो मात्रा मृत्युमत्यः प्रयुक्ता अन्योन्यसक्ता अनविप्रयुक्ताः । क्रियासु बाह्याभ्यन्तरमध्यमासु सम्यक् प्रयुक्तासु न कम्पते ज्ञः ॥',
           transliteration: 'tisro mātrā mṛtyumatyaḥ prayuktā anyonyasaktā anaviprayuktāḥ | kriyāsu bāhyābhyantaramadhyamāsu samyak prayuktāsu na kampate jñaḥ ||',
           translation: 'The three mātrās are mortal when used separately. But when joined together — interconnected and inseparable — applied rightly to outer, inner, and middle activities, the knower does not tremble.',
           hindi: 'तीनों मात्राएँ अलग-अलग प्रयुक्त की जायें तो मृत्युयुक्त हैं। परन्तु जब वे परस्पर सम्बद्ध और अविच्छिन्न रूप से जुड़ी रहती हैं — बाह्य, आन्तरिक और मध्य की क्रियाओं में सम्यक् प्रयुक्त — तब ज्ञानी डगमगाता नहीं।',
@@ -1505,7 +1505,7 @@ export const prashna: Scripture = {
         },
         {
           id: 105057,
-          sanskrit: 'ऋग्भिरेतं यजुर्भिरन्तरिक्षं सामभिर्यत्तत्कवयो वेदयन्ते | तमोङ्कारेणैवायतनेनान्वेति विद्वान् यत्तच्छान्तमजरममृतमभयं परं चेति ||',
+          sanskrit: 'ऋग्भिरेतं यजुर्भिरन्तरिक्षं सामभिर्यत्तत्कवयो वेदयन्ते । तमोङ्कारेणैवायतनेनान्वेति विद्वान् यत्तच्छान्तमजरममृतमभयं परं चेति ॥',
           transliteration: 'ṛgbhiretaṃ yajurbhirantarikṣaṃ sāmabhiryattatkavayo vedayante | tamoṅkāreṇaivāyatanenānveti vidvān yattacchāntamajaramamṛtamabhayaṃ paraṃ ceti ||',
           translation: 'By the Ṛc one reaches this (earth-world); by the Yajus the middle; by the Sāman, what the seers know. The wise reach, by OM alone, that which is peace, ageless, deathless, fearless, supreme.',
           hindi: 'ऋच् से इस (पृथ्वी) लोक को, यजुस् से अन्तरिक्ष को, साम से उस लोक को कवि-जन प्राप्त करते हैं। पर विद्वान् केवल ओंकार के आश्रय से उसी को प्राप्त करता है — जो शान्त, अजर, अमर, अभय और परम है।',
@@ -1523,7 +1523,7 @@ export const prashna: Scripture = {
         {
           id: 1,
           sanskrit:
-            "अथ हैनं सुकेशा भारद्वाजः पप्रच्छ | भगवन् हिरण्यनाभः कौसल्यो राजपुत्रो मामुपेत्यैतं प्रश्नमपृच्छत षोडशकलं भारद्वाज पुरुषं वेत्थ तमहं कुमारमब्रुवं नाहमिमं वेद यद्यहमिममवेदिषं कथं ते नावक्ष्यमिति | समूलो वा एष परिशुष्यति योऽनृतमभिवदति तस्मान्नार्हाम्यनृतं वक्तुं स तूष्णीं रथमारुह्य प्रवव्राज | तं त्वा पृच्छामि क्वासौ पुरुष इति ||",
+            "अथ हैनं सुकेशा भारद्वाजः पप्रच्छ । भगवन् हिरण्यनाभः कौसल्यो राजपुत्रो मामुपेत्यैतं प्रश्नमपृच्छत षोडशकलं भारद्वाज पुरुषं वेत्थ तमहं कुमारमब्रुवं नाहमिमं वेद यद्यहमिममवेदिषं कथं ते नावक्ष्यमिति । समूलो वा एष परिशुष्यति योऽनृतमभिवदति तस्मान्नार्हाम्यनृतं वक्तुं स तूष्णीं रथमारुह्य प्रवव्राज । तं त्वा पृच्छामि क्वासौ पुरुष इति ॥",
           transliteration:
             "atha hainaṃ sukeśā bhāradvājaḥ papraccha | bhagavan hiraṇyanābhaḥ kausalyo rājaputro māmupetyaitaṃ praśnamapṛcchata ṣoḍaśakalaṃ bhāradvāja puruṣaṃ vettha tamahaṃ kumāramabruvaṃ nāhamimaṃ veda yadyahamimamavediṣaṃ kathaṃ te nāvakṣyamiti | samūlo vā eṣa pariśuṣyati yo'nṛtamabhivadati tasmānnārhāmyanṛtaṃ vaktuṃ sa tūṣṇīṃ rathamāruhya pravavrāja | taṃ tvā pṛcchāmi kvāsau puruṣa iti ||",
           translation:
@@ -1541,7 +1541,7 @@ export const prashna: Scripture = {
         {
           id: 2,
           sanskrit:
-            "तस्मै स होवाच | इहैवान्तःशरीरे सोम्य स पुरुषो यस्मिन्नेताः षोडश कलाः प्रभवन्तीति ||",
+            "तस्मै स होवाच । इहैवान्तःशरीरे सोम्य स पुरुषो यस्मिन्नेताः षोडश कलाः प्रभवन्तीति ॥",
           transliteration:
             "tasmai sa hovāca | ihaivāntaḥśarīre somya sa puruṣo yasminnetāḥ ṣoḍaśa kalāḥ prabhavantīti ||",
           translation:
@@ -1559,7 +1559,7 @@ export const prashna: Scripture = {
         {
           id: 3,
           sanskrit:
-            "स ईक्षाञ्चक्रे | कस्मिन्नहमुत्क्रान्त उत्क्रान्तो भविष्यामि कस्मिन्वा प्रतिष्ठिते प्रतिष्ठास्यामीति ||",
+            "स ईक्षाञ्चक्रे । कस्मिन्नहमुत्क्रान्त उत्क्रान्तो भविष्यामि कस्मिन्वा प्रतिष्ठिते प्रतिष्ठास्यामीति ॥",
           transliteration:
             "sa īkṣāñcakre | kasminnahamutkrānta utkrānto bhaviṣyāmi kasminvā pratiṣṭhite pratiṣṭhāsyāmīti ||",
           translation:
@@ -1577,7 +1577,7 @@ export const prashna: Scripture = {
         {
           id: 4,
           sanskrit:
-            "स प्राणमसृजत प्राणाच्छ्रद्धां खं वायुर्ज्योतिरापः पृथिवीन्द्रियं मनः | अन्नमन्नाद्वीर्यं तपो मन्त्राः कर्म लोका लोकेषु च नाम च ||",
+            "स प्राणमसृजत प्राणाच्छ्रद्धां खं वायुर्ज्योतिरापः पृथिवीन्द्रियं मनः । अन्नमन्नाद्वीर्यं तपो मन्त्राः कर्म लोका लोकेषु च नाम च ॥",
           transliteration:
             "sa prāṇamasṛjata prāṇācchraddhāṃ khaṃ vāyurjyotirāpaḥ pṛthivīndriyaṃ manaḥ | annamannādvīryaṃ tapo mantrāḥ karma lokā lokeṣu ca nāma ca ||",
           translation:
@@ -1595,7 +1595,7 @@ export const prashna: Scripture = {
         {
           id: 5,
           sanskrit:
-            "स यथेमा नद्यः स्यन्दमानाः समुद्रायणाः समुद्रं प्राप्यास्तं गच्छन्ति भिद्येते तासां नामरूपे समुद्र इत्येवं प्रोच्यते | एवमेवास्य परिद्रष्टुरिमाः षोडश कलाः पुरुषायणाः पुरुषं प्राप्यास्तं गच्छन्ति भिद्येते चासां नामरूपे पुरुष इत्येवं प्रोच्यते स एषोऽकलोऽमृतो भवति | तदेष श्लोकः ||",
+            "स यथेमा नद्यः स्यन्दमानाः समुद्रायणाः समुद्रं प्राप्यास्तं गच्छन्ति भिद्येते तासां नामरूपे समुद्र इत्येवं प्रोच्यते । एवमेवास्य परिद्रष्टुरिमाः षोडश कलाः पुरुषायणाः पुरुषं प्राप्यास्तं गच्छन्ति भिद्येते चासां नामरूपे पुरुष इत्येवं प्रोच्यते स एषोऽकलोऽमृतो भवति । तदेष श्लोकः ॥",
           transliteration:
             "sa yathemā nadyaḥ syandamānāḥ samudrāyaṇāḥ samudraṃ prāpyāstaṃ gacchanti bhidyete tāsāṃ nāmarūpe samudra ityevaṃ procyate | evamevāsya paridraṣṭurimāḥ ṣoḍaśa kalāḥ puruṣāyaṇāḥ puruṣaṃ prāpyāstaṃ gacchanti bhidyete cāsāṃ nāmarūpe puruṣa ityevaṃ procyate sa eṣo'kalo'mṛto bhavati | tadeṣa ślokaḥ ||",
           translation:
@@ -1613,7 +1613,7 @@ export const prashna: Scripture = {
         {
           id: 6,
           sanskrit:
-            "अरा इव रथनाभौ कला यस्मिन् प्रतिष्ठिताः | तं वेद्यं पुरुषं वेद यथा मा वो मृत्युः परिव्यथा इति ||",
+            "अरा इव रथनाभौ कला यस्मिन् प्रतिष्ठिताः । तं वेद्यं पुरुषं वेद यथा मा वो मृत्युः परिव्यथा इति ॥",
           transliteration:
             "arā iva rathanābhau kalā yasmin pratiṣṭhitāḥ | taṃ vedyaṃ puruṣaṃ veda yathā mā vo mṛtyuḥ parivyathā iti ||",
           translation:
@@ -1631,7 +1631,7 @@ export const prashna: Scripture = {
         {
           id: 7,
           sanskrit:
-            "तानहोवाचैतावदेवाहमेतत् परं ब्रह्म वेद नातः परमस्तीति ||",
+            "तानहोवाचैतावदेवाहमेतत् परं ब्रह्म वेद नातः परमस्तीति ॥",
           transliteration:
             "tānahovācaitāvadevāhametat paraṃ brahma veda nātaḥ paramastīti ||",
           translation:
@@ -1649,7 +1649,7 @@ export const prashna: Scripture = {
         {
           id: 8,
           sanskrit:
-            "ते तमर्चयन्तस्त्वं हि नः पिता योऽस्माकमविद्यायाः परं पारं तारयसीति | नमः परमऋषिभ्यो नमः परमऋषिभ्यः ||",
+            "ते तमर्चयन्तस्त्वं हि नः पिता योऽस्माकमविद्यायाः परं पारं तारयसीति । नमः परमऋषिभ्यो नमः परमऋषिभ्यः ॥",
           transliteration:
             "te tamarcayantastvaṃ hi naḥ pitā yo'smākamavidyāyāḥ paraṃ pāraṃ tārayasīti | namaḥ paramaṛṣibhyo namaḥ paramaṛṣibhyaḥ ||",
           translation:
@@ -1667,7 +1667,7 @@ export const prashna: Scripture = {
       
         {
           id: 106067,
-          sanskrit: 'तानहोवाचैतावदेवाहमेतत् परं ब्रह्म वेद नातः परमस्तीति ||',
+          sanskrit: 'तानहोवाचैतावदेवाहमेतत् परं ब्रह्म वेद नातः परमस्तीति ॥',
           transliteration: 'tānahovācaitāvadevāhametat paraṃ brahma veda nātaḥ paramastīti ||',
           translation: 'He said to them: "This is all I know of the supreme Brahman. There is nothing higher than this."',
           hindi: 'उसने उन्हें कहा — "इतना ही मैं उस परम ब्रह्म के विषय में जानता हूँ। इससे आगे कुछ नहीं है।"',
@@ -1676,7 +1676,7 @@ export const prashna: Scripture = {
         },
         {
           id: 106068,
-          sanskrit: 'ते तमर्चयन्तस्त्वं हि नः पिता योऽस्माकमविद्यायाः परं पारं तारयसीति | नमः परमऋषिभ्यो नमः परमऋषिभ्यः ||',
+          sanskrit: 'ते तमर्चयन्तस्त्वं हि नः पिता योऽस्माकमविद्यायाः परं पारं तारयसीति । नमः परमऋषिभ्यो नमः परमऋषिभ्यः ॥',
           transliteration: 'te tamarcayantastvaṃ hi naḥ pitā yo\'smākamavidyāyāḥ paraṃ pāraṃ tārayasīti | namaḥ paramaṛṣibhyo namaḥ paramaṛṣibhyaḥ ||',
           translation: 'They worshipped him: "You are our Father — for you ferry us across the further shore of ignorance." Salutations to the supreme seers, salutations to the supreme seers.',
           hindi: 'उन्होंने उसकी पूजा करते हुए कहा — "आप ही हमारे पिता हैं, जो हमें अविद्या के पार ले जाते हैं।" परम ऋषियों को नमस्कार, परम ऋषियों को नमस्कार।',

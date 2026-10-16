@@ -18,7 +18,7 @@ export const ravanasamhita: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'शिवमेकं शरण्यं च सर्वज्ञं सर्वकारणम् | रावणः प्रणिपत्याह शिवस्तोत्रमनुत्तमम् ||',
+          sanskrit: 'शिवमेकं शरण्यं च सर्वज्ञं सर्वकारणम् । रावणः प्रणिपत्याह शिवस्तोत्रमनुत्तमम् ॥',
           transliteration: 'śivamEkaṃ śaraṇyaṃ ca sarvajñaṃ sarvakāraṇam | rāvaṇaḥ praṇipatyāha śivastotramAnuttamam ||',
           translation: 'Shiva alone — the refuge, the all-knowing, the cause of all. Ravana, having bowed completely, spoke the supreme hymn to Shiva.',
           hindi: 'शिव को ही एकमात्र शरण, सर्वज्ञ, सर्वकारण मानकर — रावण ने प्रणाम करके शिव का सर्वोत्तम स्तोत्र कहा।',
@@ -29,7 +29,7 @@ export const ravanasamhita: Scripture = {
         },
         {
           id: 7,
-          sanskrit: 'विद्या ददाति विनयं विनयाद्याति पात्रताम् | पात्रत्वाद्धनमाप्नोति धनाद्धर्मं ततः सुखम् ||',
+          sanskrit: 'विद्या ददाति विनयं विनयाद्याति पात्रताम् । पात्रत्वाद्धनमाप्नोति धनाद्धर्मं ततः सुखम् ॥',
           transliteration: 'vidyā dadāti vinayaṃ vinayādyāti pātratām | pātrat vāddhAnamāpnoti dhanāddhArmaṃ tataḥ sukham ||',
           translation: 'Knowledge gives humility; from humility comes worthiness; from worthiness, wealth; from wealth, dharma; from that, happiness.',
           hindi: 'विद्या विनय देती है; विनय से पात्रता; पात्रता से धन; धन से धर्म; और धर्म से सुख।',
@@ -48,7 +48,7 @@ export const ravanasamhita: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'जटाटवीगलज्जलप्रवाहपावितस्थले गलेऽवलम्ब्य लम्बितां भुजंगतुंगमालिकाम् | डमड्डमड्डमड्डमन्निनादवड्डमर्वयं चकार चंडताण्डवं तनोतु नः शिवः शिवम् ||',
+          sanskrit: 'जटाटवीगलज्जलप्रवाहपावितस्थले गलेऽवलम्ब्य लम्बितां भुजंगतुंगमालिकाम् । डमड्डमड्डमड्डमन्निनादवड्डमर्वयं चकार चंडताण्डवं तनोतु नः शिवः शिवम् ॥',
           transliteration: 'jaṭāṭavīgalajjalapravāhapāvitasthale gale\'valambyalambitāṃ bhujaṅgatuṅgamālikām | ḍamaḍḍamaḍḍamaḍḍamannInādavaḍḍamarvayaṃ cakāra caṇḍatāṇḍavaṃ tanotu naḥ śivaḥ śivam ||',
           translation: 'In the throat — purified by the flow of water cascading from the forest of matted locks — wearing the great serpent-garland: with the sound of the damaru — ḍamaḍ ḍamaḍ ḍamaḍ ḍam — performing the fierce Tandava dance — may that Shiva bestow auspiciousness upon us.',
           hindi: 'जटा-वन से गिरते जल-प्रवाह से पवित्र कंठ में, विशाल सर्प-माला धारण किए — डमड् डमड् डमड् डमड् की ध्वनि से — प्रचण्ड ताण्डव करते हुए — वह शिव हमें शुभ प्रदान करें।',
@@ -59,7 +59,7 @@ export const ravanasamhita: Scripture = {
         },
         {
           id: 22,
-          sanskrit: 'त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् | उर्वारुकमिव बन्धनान्मृत्योर्मुक्षीय माऽमृतात् ||',
+          sanskrit: 'त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् । उर्वारुकमिव बन्धनान्मृत्योर्मुक्षीय माऽमृतात् ॥',
           transliteration: 'tryambakaṃ yajāmahe sugandhiṃ puṣṭivardhanam | urvārukamiva bandhanānmṛtyormukṣīya mā\'mṛtāt ||',
           translation: 'We worship the three-eyed one, the sweet-fragrant, the nourisher of all. Like a cucumber from its vine — may he liberate us from death, not from immortality.',
           hindi: 'हम त्र्यम्बक (तीन नेत्रों वाले), सुगन्धित, पुष्टिवर्धक की उपासना करते हैं। जैसे ककड़ी अपनी लता से कटती है — वैसे हमें मृत्यु से मुक्त करें, अमृत से नहीं।',
@@ -78,7 +78,7 @@ export const ravanasamhita: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'मन्त्रो हीनः स्वरेण तु यन्त्रं हीनं च भावतः | तन्त्रं हीनं गुरोर्वाक्याद्यन्त्रं शक्तिविवर्जितम् ||',
+          sanskrit: 'मन्त्रो हीनः स्वरेण तु यन्त्रं हीनं च भावतः । तन्त्रं हीनं गुरोर्वाक्याद्यन्त्रं शक्तिविवर्जितम् ॥',
           transliteration: 'mantro hīnaḥ svareṇa tu yantraṃ hīnaṃ ca bhāvataḥ | tantraṃ hīnaṃ gurorvākyādyantraṃ śaktivivarjitam ||',
           translation: 'A mantra devoid of correct intonation; a yantra devoid of inner feeling; a tantra devoid of the guru\'s word — these are all yantra without power.',
           hindi: 'स्वर-हीन मन्त्र; भाव-हीन यन्त्र; गुरु-वाक्य-हीन तन्त्र — ये सब शक्तिहीन यन्त्र हैं।',
@@ -89,7 +89,7 @@ export const ravanasamhita: Scripture = {
         },
         {
           id: 18,
-          sanskrit: 'एकाक्षरं परं ब्रह्म प्राणायाम परं तपः | सावित्र्याः परमं नास्ति मौनात् सत्यं विशिष्यते ||',
+          sanskrit: 'एकाक्षरं परं ब्रह्म प्राणायाम परं तपः । सावित्र्याः परमं नास्ति मौनात् सत्यं विशिष्यते ॥',
           transliteration: 'ekākṣaraṃ paraṃ brahma prāṇāyāma paraṃ tapaḥ | sāvitryāḥ paramaṃ nāsti maunāt satyaṃ viśiṣyate ||',
           translation: 'The single syllable is supreme Brahman; pranayama is the supreme austerity; nothing is greater than the Savitri (Gayatri); truth is higher than silence.',
           hindi: 'एकाक्षर (OM) परम ब्रह्म है; प्राणायाम परम तप है; सावित्री (गायत्री) से बड़ा कुछ नहीं; मौन से सत्य श्रेष्ठ है।',
@@ -108,7 +108,7 @@ export const ravanasamhita: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'काले कर्म समारभेत् काले कर्म विसर्जयेत् | काले सुप्तो नरः सार्थः काले जाग्रति बुद्धिमान् ||',
+          sanskrit: 'काले कर्म समारभेत् काले कर्म विसर्जयेत् । काले सुप्तो नरः सार्थः काले जाग्रति बुद्धिमान् ॥',
           transliteration: 'kāle karma samārambhet kāle karma visarjayet | kāle supto naraḥ sārthaḥ kāle jāgrati buddhimān ||',
           translation: 'Undertake action at the right time; relinquish action at the right time. The person who sleeps in season is purposeful; the wise one awakens in season.',
           hindi: 'सही समय पर कर्म आरम्भ करो; सही समय पर कर्म छोड़ो। समय पर सोने वाला व्यक्ति सार्थक है; समय पर जागने वाला बुद्धिमान।',
@@ -119,7 +119,7 @@ export const ravanasamhita: Scripture = {
         },
         {
           id: 14,
-          sanskrit: 'नक्षत्रताराग्रहसंयोगे यो जन्म लभते नरः | तद्वशाद्भवति प्राणी न स्वतन्त्रः कदाचन ||',
+          sanskrit: 'नक्षत्रताराग्रहसंयोगे यो जन्म लभते नरः । तद्वशाद्भवति प्राणी न स्वतन्त्रः कदाचन ॥',
           transliteration: 'nakṣatratārāgrahasaṃyoge yo janma labhate naraḥ | tadvśādbhavati prāṇī na svatantraḥ kadācana ||',
           translation: 'The person who takes birth at the conjunction of stars, constellations, and planets — lives under that influence. No being is ever fully independent.',
           hindi: 'जो व्यक्ति नक्षत्र, तारा और ग्रह के योग में जन्म लेता है — उसके वश में ही जीता है। कोई भी प्राणी कभी पूर्णतः स्वतन्त्र नहीं।',
@@ -130,7 +130,7 @@ export const ravanasamhita: Scripture = {
         },
         {
           id: 20,
-          sanskrit: 'ज्योतिषं वेदवेदाङ्गं कालविद्यां प्रचक्षते | कालज्ञो ज्ञानवान् प्राहुः कालो हि दुरतिक्रमः ||',
+          sanskrit: 'ज्योतिषं वेदवेदाङ्गं कालविद्यां प्रचक्षते । कालज्ञो ज्ञानवान् प्राहुः कालो हि दुरतिक्रमः ॥',
           transliteration: 'jyotiṣaṃ vedavedāṅgaṃ kālavidyāṃ pracakṣate | kālajño jñānavān prāhuḥ kālo hi duratikramaḥ ||',
           translation: 'Jyotisha is declared a limb of the Vedas, the science of time. The knower of time is called wise, for time is truly insurmountable.',
           hindi: 'ज्योतिष को वेदांग, काल-विद्या कहा गया है। काल को जानने वाले को ज्ञानी कहते हैं, क्योंकि काल वास्तव में दुर्लंघनीय है।',
@@ -149,7 +149,7 @@ export const ravanasamhita: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'सर्वज्ञः सर्ववेत्ता च सर्वशास्त्रविशारदः | एकस्य विस्मृतो धर्मः शरणागतिरेव सा ||',
+          sanskrit: 'सर्वज्ञः सर्ववेत्ता च सर्वशास्त्रविशारदः । एकस्य विस्मृतो धर्मः शरणागतिरेव सा ॥',
           transliteration: 'sarvajñaḥ sarvavettā ca sarvaśāstraviśāradaḥ | ekasya vismṛto dharmaḥ śaraṇāgatireva sā ||',
           translation: 'Knower of all, perceiver of all, accomplished in all scriptures — yet he forgot the one dharma: surrender itself.',
           hindi: 'सर्वज्ञ, सर्ववेत्ता, सभी शास्त्रों में पारंगत — फिर भी एक धर्म भूल गया: वह शरणागति ही है।',
@@ -160,7 +160,7 @@ export const ravanasamhita: Scripture = {
         },
         {
           id: 28,
-          sanskrit: 'अहंकारः परं शत्रुः शरणागतिः परं सुखम् | तयोर्मध्ये स्थितो जीवः कः श्रेयान् बुधो वदेत् ||',
+          sanskrit: 'अहंकारः परं शत्रुः शरणागतिः परं सुखम् । तयोर्मध्ये स्थितो जीवः कः श्रेयान् बुधो वदेत् ॥',
           transliteration: 'ahaṃkāraḥ paraṃ śatruḥ śaraṇāgatiḥ paraṃ sukham | tayormadhye sthito jīvaḥ kaḥ śreyān budho vadet ||',
           translation: 'Ego is the supreme enemy; surrender is the supreme happiness. The living being stands between the two — let the wise one say which is better.',
           hindi: 'अहंकार परम शत्रु है; शरणागति परम सुख है। दोनों के बीच में जीव खड़ा है — बुद्धिमान बताए, कौन श्रेयस्कर है?',
@@ -179,7 +179,7 @@ export const ravanasamhita: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'वातपित्तकफाः दोषाः देहे तिष्ठन्ति सर्वदा | तेषां साम्यं च स्वास्थ्यं स्यात् वैषम्यं रोग उच्यते ||',
+          sanskrit: 'वातपित्तकफाः दोषाः देहे तिष्ठन्ति सर्वदा । तेषां साम्यं च स्वास्थ्यं स्यात् वैषम्यं रोग उच्यते ॥',
           transliteration: 'vātapittakaPhāḥ doṣāḥ dehe tiṣṭhanti sarvadā | teṣāṃ sāmyaṃ ca svāsthyaṃ syāt vaiṣamyaṃ roga ucyate ||',
           translation: 'Vata, Pitta, and Kapha — the three doshas — always dwell in the body. Their balance is health; their imbalance is called disease.',
           hindi: 'वात, पित्त और कफ — तीन दोष — सदा शरीर में रहते हैं। इनकी साम्यावस्था स्वास्थ्य है; विषमता रोग कहलाती है।',
@@ -190,7 +190,7 @@ export const ravanasamhita: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'शरीरे त्रिदोषस्थितिः साम्यं वैषम्यं व्याधिरिति प्रोक्तः | साम्ये स्वास्थ्यं वैषम्ये रोगः कायचिकित्सा ||',
+          sanskrit: 'शरीरे त्रिदोषस्थितिः साम्यं वैषम्यं व्याधिरिति प्रोक्तः । साम्ये स्वास्थ्यं वैषम्ये रोगः कायचिकित्सा ॥',
           transliteration: 'śarīre tridoṣasthitiḥ sāmyaṃ vaiṣamyaṃ vyādhiriḥ proktaḥ | sāmye svāsthyaṃ vaiṣamye rogaḥ kāyacikitsā ||',
           translation: 'In the body, the three doshas maintain equilibrium. The loss of this equilibrium is called disease. Equilibrium is health; imbalance is disease — this is the treatment of the body.',
           hindi: 'शरीर में त्रिदोष की स्थिति साम्य है। इस साम्य का वैषम्य व्याधि कहलाता है। साम्य में स्वास्थ्य है, वैषम्य में रोग — यही कायचिकित्सा है।',
@@ -209,7 +209,7 @@ export const ravanasamhita: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'देहो देवालयः प्रोक्तः जीवो देवः सनातनः | त्यजेदज्ञाननिर्मालयं सोऽहंभावेन पूजयेत् ||',
+          sanskrit: 'देहो देवालयः प्रोक्तः जीवो देवः सनातनः । त्यजेदज्ञाननिर्मालयं सोऽहंभावेन पूजयेत् ॥',
           transliteration: 'deho devālayaḥ proktaḥ jīvo devaḥ sanātanaḥ | tyajedajñānaniramālayaṃ so\'haṃbhāvena pūjayet ||',
           translation: 'The body is called the temple of the divine; the soul is the eternal deity. Abandon the impurity of ignorance — and worship with the feeling "I am That."',
           hindi: 'देह देवालय है; जीव सनातन देव है। अज्ञान की मलिनता को त्यागकर — "सोऽहम्" भाव से पूजा करो।',
@@ -220,7 +220,7 @@ export const ravanasamhita: Scripture = {
         },
         {
           id: 18,
-          sanskrit: 'हस्तरेखाः ललाटं च नेत्रे पादतलानि च | सर्वाणि देहचिह्नानि भूतभविष्यकथानि वै ||',
+          sanskrit: 'हस्तरेखाः ललाटं च नेत्रे पादतलानि च । सर्वाणि देहचिह्नानि भूतभविष्यकथानि वै ॥',
           transliteration: 'hastaRekhāḥ lalāṭaṃ ca netre pādatalāni ca | sarvāṇi dehacihñāni bhūtabhaviṣyakathāni vai ||',
           translation: 'The lines of the hands, the forehead, the eyes, the soles of the feet — all bodily signs speak of what has been and what will be.',
           hindi: 'हाथ की रेखाएं, ललाट, नेत्र, पैर के तलवे — सभी देह-चिह्न भूत और भविष्य की कहानियाँ कहते हैं।',
@@ -239,7 +239,7 @@ export const ravanasamhita: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'राजा प्रजाहितं कुर्यात् प्रजा राज्ञे हितं तथा | परस्परोपकारेण स राज्यं सुखमश्नुते ||',
+          sanskrit: 'राजा प्रजाहितं कुर्यात् प्रजा राज्ञे हितं तथा । परस्परोपकारेण स राज्यं सुखमश्नुते ॥',
           transliteration: 'rājā prajāhitaṃ kuryāt prajā rājñe hitaṃ tathā | parasparopakāreṇa sa rājyaṃ sukhamAśnute ||',
           translation: 'The king should work for the welfare of the people; the people should work for the welfare of the king. Through mutual service, that kingdom enjoys happiness.',
           hindi: 'राजा प्रजा का हित करे; प्रजा राजा का हित करे। परस्पर उपकार से वह राज्य सुख भोगता है।',
@@ -250,7 +250,7 @@ export const ravanasamhita: Scripture = {
         },
         {
           id: 22,
-          sanskrit: 'गृहं वास्तुविधानेन निर्मितं सुखदं भवेत् | वायुप्रकाशसंयुक्तं आयुरारोग्यवर्धनम् ||',
+          sanskrit: 'गृहं वास्तुविधानेन निर्मितं सुखदं भवेत् । वायुप्रकाशसंयुक्तं आयुरारोग्यवर्धनम् ॥',
           transliteration: 'gṛhaṃ vāstuVidhānena nirmitaṃ sukhadaṃ bhavet | vāyuprakāśasaṃyuktaṃ āyurārogyavardhanam ||',
           translation: 'A house built according to the principles of Vastu brings happiness. One with proper ventilation and light — increases lifespan and health.',
           hindi: 'वास्तु-विधान से निर्मित गृह सुखदायक होता है। वायु और प्रकाश से युक्त — आयु और आरोग्य को बढ़ाता है।',
@@ -261,7 +261,7 @@ export const ravanasamhita: Scripture = {
         },
         {
           id: 38,
-          sanskrit: 'उत्तरं वा पूर्वं द्वारं गृहे सौख्यप्रदं भवेत् | दक्षिणं पश्चिमं द्वारं रोगशोकप्रदं स्मृतम् ||',
+          sanskrit: 'उत्तरं वा पूर्वं द्वारं गृहे सौख्यप्रदं भवेत् । दक्षिणं पश्चिमं द्वारं रोगशोकप्रदं स्मृतम् ॥',
           transliteration: 'uttaraṃ vā pūrvaṃ dvāraṃ gṛhe saukhyapradaṃ bhavet | dakṣiṇaṃ paścimaṃ dvāraṃ rogaśokapradaṃ smṛtam ||',
           translation: 'A north-facing or east-facing entrance in a house bestows happiness. A south-facing or west-facing entrance is known to bring disease and grief.',
           hindi: 'उत्तर या पूर्व मुखी द्वार गृह में सुख देता है। दक्षिण या पश्चिम मुखी द्वार रोग और शोक देने वाला कहा गया है।',
@@ -280,7 +280,7 @@ export const ravanasamhita: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'नादब्रह्म परं तत्त्वं नादात् सर्वं प्रवर्तते | नादे लीनं मनो यस्य स मुक्तो नात्र संशयः ||',
+          sanskrit: 'नादब्रह्म परं तत्त्वं नादात् सर्वं प्रवर्तते । नादे लीनं मनो यस्य स मुक्तो नात्र संशयः ॥',
           transliteration: 'nādabrahma paraṃ tattvaṃ nādāt sarvaṃ pravartate | nāde līnaṃ mano yasya sa mukto nātra saṃśayaḥ ||',
           translation: 'Nada-Brahman is the supreme reality; from sound all things proceed. One whose mind is dissolved in sound — that one is liberated; there is no doubt.',
           hindi: 'नाद-ब्रह्म परम तत्त्व है; नाद से सब उत्पन्न होता है। जिसका मन नाद में लीन हो — वह मुक्त है; संशय नहीं।',
@@ -291,7 +291,7 @@ export const ravanasamhita: Scripture = {
         },
         {
           id: 28,
-          sanskrit: 'वीणावादनतत्त्वज्ञः श्रुतिजातिविशारदः | तालज्ञश्चाप्रयासेन मोक्षमार्गं नियच्छति ||',
+          sanskrit: 'वीणावादनतत्त्वज्ञः श्रुतिजातिविशारदः । तालज्ञश्चाप्रयासेन मोक्षमार्गं नियच्छति ॥',
           transliteration: 'vīṇāvādanatattvajñaḥ śrutijātiviśāradaḥ | tālajñaścāprayāsena mokṣamārgaṃ niyacchati ||',
           translation: 'One who knows the truth of veena-playing, accomplished in shruti and jati, knowing tala — attains the path of liberation effortlessly.',
           hindi: 'जो वीणा-वादन का तत्त्वज्ञ, श्रुति-जाति में पारंगत, तालज्ञ है — वह अनायास मोक्ष-मार्ग प्राप्त करता है।',
@@ -310,7 +310,7 @@ export const ravanasamhita: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'यमो नियमश्चैव आसनं प्राणसंयमः | प्रत्याहारश्च धारणा ध्यानं समाधिरेव च ||',
+          sanskrit: 'यमो नियमश्चैव आसनं प्राणसंयमः । प्रत्याहारश्च धारणा ध्यानं समाधिरेव च ॥',
           transliteration: 'yamo niyamaścaiva āsanaṃ prāṇasaṃyamaḥ | pratyāhāraśca dhāraṇā dhyānaṃ samādhireva ca ||',
           translation: 'Yama, niyama, asana, pranayama, pratyahara, dharana, dhyana, and samadhi — these are the eight limbs.',
           hindi: 'यम, नियम, आसन, प्राणसंयम, प्रत्याहार, धारणा, ध्यान और समाधि — ये आठ अंग हैं।',
@@ -321,7 +321,7 @@ export const ravanasamhita: Scripture = {
         },
         {
           id: 19,
-          sanskrit: 'रेचकं पूरकं चैव कुम्भकं त्रिविधं स्मृतम् | प्राणायामेन देहस्य रोगाः सर्वे प्रणश्यति ||',
+          sanskrit: 'रेचकं पूरकं चैव कुम्भकं त्रिविधं स्मृतम् । प्राणायामेन देहस्य रोगाः सर्वे प्रणश्यति ॥',
           transliteration: 'recakaṃ pūrakaṃ caiva kumbhakaṃ trividhaṃ smṛtam | prāṇāyāmena dehasya rogāḥ sarve praṇaśyati ||',
           translation: 'Rechaka, puraka, and kumbhaka — the three types are known. Through pranayama, all diseases of the body are destroyed.',
           hindi: 'रेचक, पूरक और कुम्भक — ये तीन प्रकार स्मृत हैं। प्राणायाम से शरीर के सभी रोग नष्ट होते हैं।',
@@ -340,7 +340,7 @@ export const ravanasamhita: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'बन्धो मोक्षश्च जीवस्य स्वस्वरूपाज्ञानतः | ज्ञानाद्बन्धो विलीयेत मोक्षः स्वस्थस्य लक्षणम् ||',
+          sanskrit: 'बन्धो मोक्षश्च जीवस्य स्वस्वरूपाज्ञानतः । ज्ञानाद्बन्धो विलीयेत मोक्षः स्वस्थस्य लक्षणम् ॥',
           transliteration: 'bandho mokṣaśca jīvasya svasvarūpājñānataḥ | jñānādbandho vilīyeta mokṣaḥ svasthasya lakṣaṇam ||',
           translation: 'Bondage and liberation of the jiva both arise from ignorance of one\'s own true nature. Through knowledge, bondage dissolves — liberation is the mark of one who is established in the Self.',
           hindi: 'जीव का बन्ध और मोक्ष दोनों स्वस्वरूप के अज्ञान से हैं। ज्ञान से बन्ध विलीन होता है — मोक्ष स्वस्थ की पहचान है।',
@@ -351,7 +351,7 @@ export const ravanasamhita: Scripture = {
         },
         {
           id: 18,
-          sanskrit: 'जानामि धर्मं न च मे प्रवृत्तिः जानाम्यधर्मं न च मे निवृत्तिः | केनापि देवेन हृदिस्थितेन यथा नियुक्तोऽस्मि तथा करोमि ||',
+          sanskrit: 'जानामि धर्मं न च मे प्रवृत्तिः जानाम्यधर्मं न च मे निवृत्तिः । केनापि देवेन हृदिस्थितेन यथा नियुक्तोऽस्मि तथा करोमि ॥',
           transliteration: 'jānāmi dharmaṃ na ca me pravṛttiḥ jānāmyadharmaṃ na ca me nivṛttiḥ | kenāpi devena hṛdisthitena yathā niyukto\'smi tathā karomi ||',
           translation: 'I know dharma, yet I am not inclined toward it. I know adharma, yet I cannot turn away from it. By some deity dwelling in my heart — as I am impelled, so I act.',
           hindi: 'मैं धर्म जानता हूँ, फिर भी उसमें प्रवृत्ति नहीं। अधर्म जानता हूँ, फिर भी निवृत्ति नहीं। हृदय में स्थित किसी देव द्वारा — जैसे नियुक्त हूँ वैसा करता हूँ।',
@@ -362,7 +362,7 @@ export const ravanasamhita: Scripture = {
         },
         {
           id: 33,
-          sanskrit: 'मोक्षो न जन्मान्तरसाध्यो न तपसा न योगेन | स्वस्वरूपानुसन्धानात् सद्यो मुक्तिः प्रजायते ||',
+          sanskrit: 'मोक्षो न जन्मान्तरसाध्यो न तपसा न योगेन । स्वस्वरूपानुसन्धानात् सद्यो मुक्तिः प्रजायते ॥',
           transliteration: 'mokṣo na janmāntarasādhyo na tapasā na yogena | svasvarūpānusandhānāt sadyo muktiḥ prajāyate ||',
           translation: 'Liberation is not achieved through many births, not through austerity, not through yoga. From inquiry into one\'s own essential nature — liberation arises immediately.',
           hindi: 'मोक्ष न अनेक जन्मों से, न तप से, न योग से सिद्ध होता है। अपने स्वस्वरूप के अनुसन्धान से — तत्काल मुक्ति उत्पन्न होती है।',
@@ -381,7 +381,7 @@ export const ravanasamhita: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'दीक्षा विना न मन्त्रः स्यात् मन्त्रं विना न सिद्धिः | गुरोः कृपाविना नैव दीक्षा फलप्रदा भवेत् ||',
+          sanskrit: 'दीक्षा विना न मन्त्रः स्यात् मन्त्रं विना न सिद्धिः । गुरोः कृपाविना नैव दीक्षा फलप्रदा भवेत् ॥',
           transliteration: 'dīkṣā vinā na mantraḥ syāt mantraṃ vinā na siddhiḥ | guroḥ kṛpāvinā naiva dīkṣā phalapradā bhavet ||',
           translation: 'Without initiation there is no mantra; without mantra there is no siddhi. Without the grace of the guru, initiation itself does not bear fruit.',
           hindi: 'दीक्षा बिना मन्त्र नहीं; मन्त्र बिना सिद्धि नहीं। गुरु की कृपा बिना दीक्षा भी फलप्रद नहीं।',
@@ -392,7 +392,7 @@ export const ravanasamhita: Scripture = {
         },
         {
           id: 31,
-          sanskrit: 'यन्त्रं मन्त्रमयं देवि देवता यन्त्रमाश्रिता | यन्त्रं विना न देवेशि पूजां ग्राहयति प्रभुः ||',
+          sanskrit: 'यन्त्रं मन्त्रमयं देवि देवता यन्त्रमाश्रिता । यन्त्रं विना न देवेशि पूजां ग्राहयति प्रभुः ॥',
           transliteration: 'yantraṃ mantramayaṃ devi devatā yantramāśritā | yantraṃ vinā na deveśi pūjāṃ grāhayati prabhuḥ ||',
           translation: 'The yantra is composed of mantra, O Goddess; the deity dwells in the yantra. Without the yantra, O Devi, the Lord does not accept the worship.',
           hindi: 'यन्त्र मन्त्रमय है देवि; देवता यन्त्र में वास करती है। यन्त्र बिना प्रभु पूजा ग्रहण नहीं करते।',
@@ -411,7 +411,7 @@ export const ravanasamhita: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'शिवः शक्त्या युक्तो यदि भवति शक्तः प्रभवितुं न चेदेवं देवो न खलु कुशलः स्पन्दितुमपि ||',
+          sanskrit: 'शिवः शक्त्या युक्तो यदि भवति शक्तः प्रभवितुं न चेदेवं देवो न खलु कुशलः स्पन्दितुमपि ॥',
           transliteration: 'śivaḥ śaktyā yukto yadi bhavati śaktaḥ prabhavituṃ na cedevaṃ devo na khalu kuśalaḥ spanditumapi ||',
           translation: 'Shiva, when united with Shakti, is able to function; without her, even he is incapable of the slightest movement.',
           hindi: 'शिव शक्ति से युक्त होने पर ही शक्त होते हैं; उसके बिना वे तनिक भी हिलने में असमर्थ हैं।',
@@ -422,7 +422,7 @@ export const ravanasamhita: Scripture = {
         },
         {
           id: 19,
-          sanskrit: 'या देवी सर्वभूतेषु शक्तिरूपेण संस्थिता | नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः ||',
+          sanskrit: 'या देवी सर्वभूतेषु शक्तिरूपेण संस्थिता । नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः ॥',
           transliteration: 'yā devī sarvabhūteṣu śaktirūpeṇa saṃsthitā | namastasyai namastasyai namastasyai namo namaḥ ||',
           translation: 'To that goddess who dwells in all beings in the form of shakti — salutation to her, salutation to her, salutation to her, salutation again and again.',
           hindi: 'जो देवी सभी प्राणियों में शक्तिरूप से स्थित है — उसे नमस्कार, नमस्कार, नमस्कार, बार-बार नमस्कार।',
@@ -441,7 +441,7 @@ export const ravanasamhita: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'अवश्यमेव भोक्तव्यं कृतं कर्म शुभाशुभम् | नाभुक्तं क्षीयते कर्म कल्पकोटिशतैरपि ||',
+          sanskrit: 'अवश्यमेव भोक्तव्यं कृतं कर्म शुभाशुभम् । नाभुक्तं क्षीयते कर्म कल्पकोटिशतैरपि ॥',
           transliteration: 'avaśyameva bhoktavyaṃ kṛtaṃ karma śubhāśubham | nābhuktaṃ kṣīyate karma kalpakotiśatairapi ||',
           translation: 'The karma performed — auspicious or inauspicious — must certainly be experienced. Karma not yet experienced does not diminish even in hundreds of billions of cosmic cycles.',
           hindi: 'किया हुआ कर्म — शुभ या अशुभ — अवश्य भोगना पड़ेगा। बिना भोगे कर्म करोड़ों कल्पों में भी क्षीण नहीं होता।',
@@ -452,7 +452,7 @@ export const ravanasamhita: Scripture = {
         },
         {
           id: 14,
-          sanskrit: 'सञ्चितं च प्रारब्धं क्रियमाणं च तत्त्रयम् | सञ्चितं भस्मसात्कुर्यात् प्रारब्धं भोगतः क्षयेत् ||',
+          sanskrit: 'सञ्चितं च प्रारब्धं क्रियमाणं च तत्त्रयम् । सञ्चितं भस्मसात्कुर्यात् प्रारब्धं भोगतः क्षयेत् ॥',
           transliteration: 'sañcitaṃ ca prārabdhaṃ kriyamāṇaṃ ca tattrayam | sañcitaṃ bhasmasātkuryāt prārabdhaṃ bhogataḥ kṣayet ||',
           translation: 'The accumulated (sanchita), the already-initiated (prarabdha), and the currently-being-performed (kriyamana) — these are the three. Sanchita is destroyed by knowledge; prarabdha diminishes through experience.',
           hindi: 'संचित, प्रारब्ध और क्रियमाण — ये तीन हैं। संचित ज्ञान से भस्म होता है; प्रारब्ध भोग से क्षीण होता है।',
@@ -471,7 +471,7 @@ export const ravanasamhita: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'सर्वधर्मान् परित्यज्य मामेकं शरणं व्रज | अहं त्वां सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः ||',
+          sanskrit: 'सर्वधर्मान् परित्यज्य मामेकं शरणं व्रज । अहं त्वां सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः ॥',
           transliteration: 'sarvadharmān parityajya māmekaṃ śaraṇaṃ vraja | ahaṃ tvāṃ sarvapāpebhyo mokṣayiṣyāmi mā śucaḥ ||',
           translation: 'Abandoning all dharmas, take refuge in me alone. I will liberate you from all sins — do not grieve.',
           hindi: 'सभी धर्मों को त्यागकर केवल मेरी शरण में आ जाओ। मैं तुम्हें सभी पापों से मुक्त करूँगा — शोक मत करो।',
@@ -482,7 +482,7 @@ export const ravanasamhita: Scripture = {
         },
         {
           id: 22,
-          sanskrit: 'विद्या विवादाय धनं मदाय शक्तिः परेषां परिपीडनाय | खलस्य साधोर्विपरीतमेतत् ज्ञानाय दानाय च रक्षणाय ||',
+          sanskrit: 'विद्या विवादाय धनं मदाय शक्तिः परेषां परिपीडनाय । खलस्य साधोर्विपरीतमेतत् ज्ञानाय दानाय च रक्षणाय ॥',
           transliteration: 'vidyā vivādāya dhanaṃ madāya śaktiḥ pareṣāṃ paripīḍanāya | khilasya sādhorviparītametat jñānāya dānāya ca rakṣaṇāya ||',
           translation: 'For the wicked: knowledge leads to argument, wealth to arrogance, power to oppression of others. For the noble: the very opposite — knowledge for wisdom, wealth for giving, power for protection.',
           hindi: 'दुष्ट के लिए: विद्या विवाद के लिए, धन मद के लिए, शक्ति दूसरों को पीड़ित करने के लिए। साधु के लिए: इसका विपरीत — ज्ञान के लिए, दान के लिए, रक्षा के लिए।',
@@ -493,7 +493,7 @@ export const ravanasamhita: Scripture = {
         },
         {
           id: 40,
-          sanskrit: 'यत्र नार्यस्तु पूज्यन्ते रमन्ते तत्र देवताः | यत्रैतास्तु न पूज्यन्ते सर्वास्तत्राफलाः क्रियाः ||',
+          sanskrit: 'यत्र नार्यस्तु पूज्यन्ते रमन्ते तत्र देवताः । यत्रैतास्तु न पूज्यन्ते सर्वास्तत्राफलाः क्रियाः ॥',
           transliteration: 'yatra nāryastu pūjyante ramante tatra devatāḥ | yatraitāstu na pūjyante sarvāstatrāphalāḥ kriyāḥ ||',
           translation: 'Where women are honoured and respected, the gods rejoice. Where they are not honoured, all actions become fruitless.',
           hindi: 'जहाँ स्त्रियों का सम्मान होता है, वहाँ देवता प्रसन्न होते हैं। जहाँ उनका सम्मान नहीं, वहाँ सभी क्रियाएँ निष्फल हो जाती हैं।',
@@ -512,7 +512,7 @@ export const ravanasamhita: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'अपराधसहस्राणि क्रियन्तेऽहर्निशं मया | दासोऽयमिति मां मत्वा क्षमस्व परमेश्वर ||',
+          sanskrit: 'अपराधसहस्राणि क्रियन्तेऽहर्निशं मया । दासोऽयमिति मां मत्वा क्षमस्व परमेश्वर ॥',
           transliteration: 'aparādhasahasrāṇi kriyante\'harniśaṃ mayā | dāso\'yamiti māṃ matvā kṣamasva parameśvara ||',
           translation: 'Thousands of offences are committed by me day and night. Considering me your servant, O Supreme Lord, forgive me.',
           hindi: 'मेरे द्वारा दिन-रात हजारों अपराध होते हैं। मुझे अपना दास समझकर, हे परमेश्वर, क्षमा करो।',
@@ -523,7 +523,7 @@ export const ravanasamhita: Scripture = {
         },
         {
           id: 17,
-          sanskrit: 'नमः शिवाय शान्ताय कारणत्रयहेतवे | निवेदयामि चात्मानं त्वं गतिः परमेश्वर ||',
+          sanskrit: 'नमः शिवाय शान्ताय कारणत्रयहेतवे । निवेदयामि चात्मानं त्वं गतिः परमेश्वर ॥',
           transliteration: 'namaḥ śivāya śāntāya kāraṇatrayahetave | nivedayāmi cātmānaṃ tvaṃ gatiḥ parameśvara ||',
           translation: 'Salutation to Shiva, the peaceful, cause behind the three causes. I offer myself entirely — you are my refuge, O Supreme Lord.',
           hindi: 'शिव को नमस्कार — शान्त, तीन कारणों के कारण। मैं अपने आप को समर्पित करता हूँ — हे परमेश्वर, आप ही मेरी गति हैं।',
@@ -542,7 +542,7 @@ export const ravanasamhita: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'बलं बुद्धिमतां श्रेष्ठं बुद्धिर्बलवतां बलम् | बुद्धिहीनो बली नाशं याति शीघ्रं न संशयः ||',
+          sanskrit: 'बलं बुद्धिमतां श्रेष्ठं बुद्धिर्बलवतां बलम् । बुद्धिहीनो बली नाशं याति शीघ्रं न संशयः ॥',
           transliteration: 'balaṃ buddhimatāṃ śreṣṭhaṃ buddhirbalavataṃ balam | buddhihīno balī nāśaṃ yāti śīghraṃ na saṃśayaḥ ||',
           translation: 'Intelligence is the highest strength of the intelligent; intelligence is the strength of the powerful. The powerful one without intelligence swiftly goes to ruin — no doubt.',
           hindi: 'बुद्धिमानों में बुद्धि ही श्रेष्ठ बल है; बलवानों में बुद्धि ही बल है। बुद्धिहीन बलवान शीघ्र नाश को प्राप्त होता है — संशय नहीं।',
@@ -553,7 +553,7 @@ export const ravanasamhita: Scripture = {
         },
         {
           id: 22,
-          sanskrit: 'दूतो वक्ता च मन्त्री च सर्वकार्येषु सारथिः | अमात्यः सचिवश्चैव न हन्तव्यः कदाचन ||',
+          sanskrit: 'दूतो वक्ता च मन्त्री च सर्वकार्येषु सारथिः । अमात्यः सचिवश्चैव न हन्तव्यः कदाचन ॥',
           transliteration: 'dūto vaktā ca mantrī ca sarvakāryeṣu sārathiḥ | amātyaḥ sacivascaiva na hantavyaḥ kadācana ||',
           translation: 'The messenger, the speaker, the counsellor, the guide in all matters, the minister, the secretary — these must never be killed.',
           hindi: 'दूत, वक्ता, मन्त्री, सर्वकार्यों में सारथि, अमात्य, सचिव — इन्हें कभी नहीं मारना चाहिए।',
@@ -572,7 +572,7 @@ export const ravanasamhita: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'अन्तकाले च मामेव स्मरन्मुक्त्वा कलेवरम् | यः प्रयाति स मद्भावं याति नास्त्यत्र संशयः ||',
+          sanskrit: 'अन्तकाले च मामेव स्मरन्मुक्त्वा कलेवरम् । यः प्रयाति स मद्भावं याति नास्त्यत्र संशयः ॥',
           transliteration: 'antakāle ca māmeva smaranmukt\'vā kalevaram | yaḥ prayāti sa madbhāvaṃ yāti nāstyatra saṃśayaḥ ||',
           translation: 'Whoever, at the time of death, remembers me alone and departs, leaving the body — attains my state. There is no doubt.',
           hindi: 'जो अन्तकाल में केवल मुझे स्मरण करते हुए शरीर छोड़ता है — वह मेरे भाव को प्राप्त होता है। संशय नहीं।',
@@ -583,7 +583,7 @@ export const ravanasamhita: Scripture = {
         },
         {
           id: 19,
-          sanskrit: 'मृत्युरेव महाशत्रुः मृत्युरेव महागुरुः | मृत्युं पश्यति यो नित्यं तस्य किं भयमास्थितम् ||',
+          sanskrit: 'मृत्युरेव महाशत्रुः मृत्युरेव महागुरुः । मृत्युं पश्यति यो नित्यं तस्य किं भयमास्थितम् ॥',
           transliteration: 'mṛtyureva mahāśatruḥ mṛtyureva mahāguruḥ | mṛtyuṃ paśyati yo nityaṃ tasya kiṃ bhayamāsthitam ||',
           translation: 'Death is the great enemy; death is the great teacher. One who sees death constantly — what fear can take hold in them?',
           hindi: 'मृत्यु महाशत्रु है; मृत्यु महागुरु है। जो सदा मृत्यु को देखता है — उसे कौन सा भय घेर सकता है?',
@@ -613,7 +613,7 @@ export const ravanasamhita: Scripture = {
         },
         {
           id: 14,
-          sanskrit: 'भक्तिर्भगवतो सेवा भक्तिः प्रेमस्वरूपिणी | भक्तिरानन्दरूपा च भक्तिर्मुक्तिप्रदायिनी ||',
+          sanskrit: 'भक्तिर्भगवतो सेवा भक्तिः प्रेमस्वरूपिणी । भक्तिरानन्दरूपा च भक्तिर्मुक्तिप्रदायिनी ॥',
           transliteration: 'bhaktirbhagavato sevā bhaktiḥ premasvarūpiṇī | bhaktirānandarūpā ca bhaktirmuktipradāyinī ||',
           translation: 'Bhakti is service to the Lord; bhakti is of the nature of love; bhakti is of the nature of bliss; and bhakti is the bestower of liberation.',
           hindi: 'भक्ति भगवान की सेवा है; भक्ति प्रेमस्वरूपिणी है; भक्ति आनन्दरूपा है; और भक्ति मुक्तिप्रदायिनी है।',
@@ -624,7 +624,7 @@ export const ravanasamhita: Scripture = {
         },
         {
           id: 33,
-          sanskrit: 'नायमात्मा बलहीनेन लभ्यो न च प्रमादात् न तपसा विना | उपायैरेतैर्यतते यस्तु विद्वान् तस्यैष आत्मा विशते ब्रह्मधाम ||',
+          sanskrit: 'नायमात्मा बलहीनेन लभ्यो न च प्रमादात् न तपसा विना । उपायैरेतैर्यतते यस्तु विद्वान् तस्यैष आत्मा विशते ब्रह्मधाम ॥',
           transliteration: 'nāyamātmā balahīnena labhyo na ca pramādāt na tapasā vinā | upāyairetairyatate yastu vidvān tasyaiṣa ātmā viśate brahmadhāma ||',
           translation: 'This Self is not attained by the weak, nor through negligence, nor without austerity. The wise one who strives through these means — for that one the Self enters the abode of Brahman.',
           hindi: 'यह आत्मा बलहीन को नहीं मिलती, न प्रमाद से, न तप के बिना। जो विद्वान इन उपायों से प्रयत्न करता है — उसकी आत्मा ब्रह्मधाम में प्रवेश करती है।',

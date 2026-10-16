@@ -17,7 +17,7 @@ export const brahmavaivartapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'सच्चिदानन्दरूपाय कृष्णायाक्लिष्टकर्मणे | नमो वेदान्तवेद्याय गुरवे बुद्धिसाक्षिणे ||',
+          sanskrit: 'सच्चिदानन्दरूपाय कृष्णायाक्लिष्टकर्मणे । नमो वेदान्तवेद्याय गुरवे बुद्धिसाक्षिणे ॥',
           transliteration: 'saccidānandarūpāya kṛṣṇāyākliṣṭakarmaṇe | namo vedāntavedyāya gurave buddhisākṣiṇe ||',
           translation: 'Salutation to Krishna who is of the nature of Sat-Chit-Ananda (existence-consciousness-bliss), whose actions are effortless, who is known through Vedanta, who is the Guru, and the witness of all intelligence.',
           hindi: 'सच्चिदानन्दस्वरूप, अक्लिष्टकर्मा, वेदान्त द्वारा जानने योग्य, गुरु और बुद्धि के साक्षी कृष्ण को नमस्कार।',
@@ -28,7 +28,7 @@ export const brahmavaivartapuran: Scripture = {
         },
         {
           id: 7,
-          sanskrit: 'एकमेवाद्वितीयं ब्रह्म निर्गुणं परमार्थतः | सगुणं भक्तिसुलभं कृष्णाख्यं परमेश्वरम् ||',
+          sanskrit: 'एकमेवाद्वितीयं ब्रह्म निर्गुणं परमार्थतः । सगुणं भक्तिसुलभं कृष्णाख्यं परमेश्वरम् ॥',
           transliteration: 'ekamevādvitīyaṃ brahma nirguṇaṃ paramārthataḥ | saguṇaṃ bhaktisulaṃbhaṃ kṛṣṇākhyaṃ parameśvaram ||',
           translation: 'The one without a second, Brahman — in ultimate truth it is without qualities (nirguna). With qualities (saguna), easily approached through bhakti, it is known as Krishna, the supreme Lord.',
           hindi: 'परमार्थ में ब्रह्म एकमेव अद्वितीय और निर्गुण है। भक्ति से सुलभ सगुण रूप में वही कृष्ण नाम से परमेश्वर कहलाता है।',
@@ -47,7 +47,7 @@ export const brahmavaivartapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'सर्वं खल्विदं कृष्णो न भूतं न भविष्यति | स एव सर्वशक्त्याढ्यः सर्वकारणकारणम् ||',
+          sanskrit: 'सर्वं खल्विदं कृष्णो न भूतं न भविष्यति । स एव सर्वशक्त्याढ्यः सर्वकारणकारणम् ॥',
           transliteration: 'sarvaṃ khalvidaṃ kṛṣṇo na bhūtaṃ na bhaviṣyati | sa eva sarvaśaktyāḍhyaḥ sarvakāraṇakāraṇam ||',
           translation: 'All this is indeed Krishna — there was nothing else, nor will there be. He alone, endowed with all powers, is the cause of all causes.',
           hindi: 'यह सब कुछ कृष्ण ही है — न पहले कुछ और था, न भविष्य में होगा। वही सर्वशक्तिसम्पन्न, सभी कारणों का कारण है।',
@@ -58,7 +58,7 @@ export const brahmavaivartapuran: Scripture = {
         },
         {
           id: 42,
-          sanskrit: 'राधा कृष्णस्य परमा शक्तिः प्रेमस्वरूपिणी | तयोर्भेदो न विद्यते जले शीतलता यथा ||',
+          sanskrit: 'राधा कृष्णस्य परमा शक्तिः प्रेमस्वरूपिणी । तयोर्भेदो न विद्यते जले शीतलता यथा ॥',
           transliteration: 'rādhā kṛṣṇasya paramā śaktiḥ premasvarūpiṇī | tayorbhedo na vidyate jale śītalatā yathā ||',
           translation: 'Radha is the supreme power of Krishna — of the nature of pure love. Between them there is no difference, just as there is no difference between water and its coolness.',
           hindi: 'राधा कृष्ण की परम शक्ति हैं — प्रेमस्वरूपिणी। उन दोनों में कोई भेद नहीं है, जैसे जल और उसकी शीतलता में भेद नहीं।',
@@ -77,7 +77,7 @@ export const brahmavaivartapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'विघ्नेश्वरः प्रथमपूज्यः सर्वकार्येषु पूजितः | बुद्धिप्रदो विद्याप्रदः सिद्धिप्रदश्च सर्वदा ||',
+          sanskrit: 'विघ्नेश्वरः प्रथमपूज्यः सर्वकार्येषु पूजितः । बुद्धिप्रदो विद्याप्रदः सिद्धिप्रदश्च सर्वदा ॥',
           transliteration: 'vighneśvaraḥ prathamapūjyaḥ sarvakāryeṣu pūjitaḥ | buddhiprado vidyāpradaḥ siddhipradaśca sarvadā ||',
           translation: 'The Lord of obstacles is the first to be worshipped, honoured in all undertakings. He always bestows buddhi (intelligence), vidya (knowledge), and siddhi (accomplishment).',
           hindi: 'विघ्नेश्वर सभी कार्यों में प्रथम पूजनीय हैं। वे सदा बुद्धि, विद्या और सिद्धि प्रदान करते हैं।',
@@ -96,7 +96,7 @@ export const brahmavaivartapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'कलौ कल्मषचित्तानां पापद्रव्योपजीविनाम् | विधि क्रियाविहीनानां गतिर्गोविन्दकीर्तनम् ||',
+          sanskrit: 'कलौ कल्मषचित्तानां पापद्रव्योपजीविनाम् । विधि क्रियाविहीनानां गतिर्गोविन्दकीर्तनम् ॥',
           transliteration: 'kalau kalmaṣacittānāṃ pāpadravyopajīvinām | vidhi kriyāvihīnānāṃ gatirgovi ndakīrtanam ||',
           translation: 'In Kali Yuga, for those with impure minds, those who subsist by sinful means, those devoid of ritual observance — their path is the chanting of Govinda\'s name.',
           hindi: 'कलियुग में कलुषित चित्त वालों के लिए, पाप के साधनों से जीने वालों के लिए, विधि-क्रिया से रहित लोगों के लिए — गोविन्दकीर्तन ही गति है।',
@@ -107,7 +107,7 @@ export const brahmavaivartapuran: Scripture = {
         },
         {
           id: 88,
-          sanskrit: 'यत्र नृत्यति गोविन्दो रासमण्डलमध्यगः | तत्र सर्वाणि तीर्थानि सर्वे देवाः सनातनाः ||',
+          sanskrit: 'यत्र नृत्यति गोविन्दो रासमण्डलमध्यगः । तत्र सर्वाणि तीर्थानि सर्वे देवाः सनातनाः ॥',
           transliteration: 'yatra nṛtyati govindo rāsaṃaṇḍalamadhyagaḥ | tatra sarvāṇi tīrthāni sarve devāḥ sanātanāḥ ||',
           translation: 'Where Govinda dances at the centre of the Rasa circle — there are all the sacred tirthas, there are all the eternal gods.',
           hindi: 'जहाँ गोविन्द रासमण्डल के मध्य में नृत्य करते हैं — वहाँ सभी तीर्थ हैं, वहाँ सभी सनातन देव हैं।',
@@ -118,7 +118,7 @@ export const brahmavaivartapuran: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'अण्डं भूतं भविष्यं च भूतं वर्तमानमेव च | अण्डं ब्रह्माण्डमिति प्रोक्तं यत्र विश्वं प्रतिष्ठितम् ||',
+          sanskrit: 'अण्डं भूतं भविष्यं च भूतं वर्तमानमेव च । अण्डं ब्रह्माण्डमिति प्रोक्तं यत्र विश्वं प्रतिष्ठितम् ॥',
           transliteration: 'aṇḍaṃ bhūtaṃ bhaviṣyaṃ ca bhūtaṃ vartamānameva ca | aṇḍaṃ brahmāṇḍamiti proktaṃ yatra viśvaṃ pratiṣṭhitam ||',
           translation: 'The egg is the past, the future, and the present. The egg is called Brahmanda — the cosmic egg — in which the universe is established.',
           hindi: 'अण्ड भूत, भविष्य और वर्तमान है। अण्ड को ब्रह्माण्ड कहा गया है — जिसमें विश्व प्रतिष्ठित है।',
@@ -129,7 +129,7 @@ export const brahmavaivartapuran: Scripture = {
         },
         {
           id: 27,
-          sanskrit: 'राधा कृष्णयोः एकत्वं परमं तत्त्वमुच्यते | यो राधाकृष्णयोरेकं जानाति स परां गतिम् ||',
+          sanskrit: 'राधा कृष्णयोः एकत्वं परमं तत्त्वमुच्यते । यो राधाकृष्णयोरेकं जानाति स परां गतिम् ॥',
           transliteration: 'rādhā kṛṣṇayoḥ ekatvaṃ paramaṃ tattvamucyate | yo rādhākṛṣṇayorekaṃ jānāti sa parāṃ gatim ||',
           translation: 'The oneness of Radha and Krishna is called the supreme truth. He who knows the unity of Radha and Krishna attains the supreme state.',
           hindi: 'राधा और कृष्ण की एकता को परम तत्व कहा जाता है। जो राधा-कृष्ण की एकता जानता है, वह परम गति प्राप्त करता है।',
@@ -140,7 +140,7 @@ export const brahmavaivartapuran: Scripture = {
         },
         {
           id: 28,
-          sanskrit: 'कृष्णः साक्षात् परं ब्रह्म निर्गुणो निश्चलः शुद्धः | योगिनां हृदये नित्यं कृष्णो भवति साक्षात् ||',
+          sanskrit: 'कृष्णः साक्षात् परं ब्रह्म निर्गुणो निश्चलः शुद्धः । योगिनां हृदये नित्यं कृष्णो भवति साक्षात् ॥',
           transliteration: 'kṛṣṇaḥ sākṣāt paraṃ brahma nirguṇo niścalaḥ śuddhaḥ | yogināṃ hṛdaye nityaṃ kṛṣṇo bhavati sākṣāt ||',
           translation: 'Krishna is indeed the supreme Brahman — without qualities, unmoving, pure. In the hearts of yogins, Krishna is indeed present.',
           hindi: 'कृष्ण साक्षात् परम ब्रह्म हैं — निर्गुण, निश्चल, शुद्ध। योगियों के हृदय में कृष्ण साक्षात् विराजमान हैं।',

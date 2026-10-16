@@ -12,6 +12,7 @@ import {
   X,
 } from 'lucide-react';
 import { AnimatePresence, motion } from 'framer-motion';
+import { whatsappTagged } from '@/lib/whatsapp';
 
 interface Props {
   scriptureTitle: string;
@@ -82,8 +83,8 @@ export function ShareVerseButton(props: Props) {
     '',
     meaning ? `✨ *सरल अर्थ:* ${meaning}` : '',
     '',
-    `🔗 *पूरा अध्याय और भावार्थ:*`,
-    currentUrl,
+    `🔗 *भावार्थ सहित पढ़ें:*`,
+    whatsappTagged(currentUrl),
     '',
     `— *Dharma Granth* (dharmagranth.in)`,
   ]

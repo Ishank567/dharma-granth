@@ -164,7 +164,7 @@ export const SAMPLE_DAILY_JOURNEYS: Record<string, DailyDharmaSession> = {
       'Your entitlement is only to the performance of duty, never to the fruits thereof. Do not let the fruit of action be your motive, nor let your attachment be to inaction.',
     literalTranslationHi:
       'तुम्हारा अधिकार केवल कर्म करने में है, उसके फलों में कभी नहीं। इसलिए कर्म के फल की वासना मत रखो, और कर्म न करने में तुम्हारी आसक्ति न हो।',
-    sandhiSplit: 'कर्मणि + एव + अधिकारः + ते | मा + फलेषु + कदाचन | मा + कर्म-फल-हेतुः + भूः | मा + ते + सङ्गः + अस्तु + अकर्मणि',
+    sandhiSplit: 'कर्मणि + एव + अधिकारः + ते । मा + फलेषु + कदाचन । मा + कर्म-फल-हेतुः + भूः । मा + ते + सङ्गः + अस्तु + अकर्मणि',
     keyTerms: [
       {
         pada: 'कर्मणि (Karmaṇi)',

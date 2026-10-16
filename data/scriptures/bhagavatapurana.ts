@@ -11,7 +11,7 @@ export const bhagavatapurana: Scripture = {
       verses: [
         {
           id: 2,
-          sanskrit: 'धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां | वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ||',
+          sanskrit: 'धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां । वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ॥',
           transliteration: 'dharmaḥ projjhitakaitavo\'tra paramo nirmatsarāṇāṃ satāṃ | vedyaṃ vāstavamattra vastu śivadaṃ tāpatrayonmūlanam ||',
           translation: 'Here is the highest dharma — completely free from all deceit — for the pure-hearted. Herein is the real good to be known: that which is auspicious and which uproots the three-fold suffering.',
           hindi: 'यहाँ (इस ग्रंथ में) निर्मत्सर साधुजनों के लिए सर्वोच्च धर्म वर्णित है — जो कपट-रहित है। यहाँ वास्तविक तत्त्व जाना जाता है — जो कल्याणकारक है और त्रिताप (आधि-व्याधि-उपाधि) को नष्ट करता है।',
@@ -22,7 +22,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 3,
-          sanskrit: 'स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे | अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ||',
+          sanskrit: 'स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे । अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ॥',
           transliteration: 'sa vai puṃsāṃ paro dharmo yato bhaktiradhokṣaje | ahaituk yapratihata yayātmā samprasīdati ||',
           translation: 'The supreme dharma for humanity is that which produces unmotivated and uninterrupted devotion to God — by which the Self attains complete contentment.',
           hindi: 'मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।',
@@ -34,7 +34,7 @@ export const bhagavatapurana: Scripture = {
       
         {
           id: 1001,
-          sanskrit: 'धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां | वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ||',
+          sanskrit: 'धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां । वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ॥',
           transliteration: 'dharmaḥ projjhitakaitavo\'tra paramo nirmatsarāṇāṃ satāṃ | vedyaṃ vāstavamattra vastu śivadaṃ tāpatrayonmūlanam ||',
           translation: 'Here is the highest dharma — completely free from all deceit — for the pure-hearted. Herein is the real good to be known: that which is auspicious and which uproots the three-fold suffering.',
           hindi: 'यहाँ (इस ग्रंथ में) निर्मत्सर साधुजनों के लिए सर्वोच्च धर्म वर्णित है — जो कपट-रहित है। यहाँ वास्तविक तत्त्व जाना जाता है — जो कल्याणकारक है और त्रिताप (आधि-व्याधि-उपाधि) को नष्ट करता है।',
@@ -43,7 +43,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1004,
-          sanskrit: 'भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् | नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ||',
+          sanskrit: 'भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् । नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ॥',
           transliteration: 'bhagavān bhaktibhāvena grāhyaḥ premagunairnṛṇām | nānyathā bhāvyate kvāpi yadi syādbrāhmasammataḥ ||',
           translation: 'The Lord is to be grasped by human beings through the attitude of devotion — through the qualities of love. In no other way can He be known, even if one is a great Brahman.',
           hindi: 'भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।',
@@ -52,7 +52,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1005,
-          sanskrit: 'नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये | तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ||',
+          sanskrit: 'नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये । तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ॥',
           transliteration: 'nāyaṃ deho dehabhājāṃ nṛloke kaṣṭān kāmānarhat viḍbhujāṃ ye | tapo divyaṃ putrakā yena sattvaṃ śuddhyed yasmād brahmasaukhyaṃ tvanantam ||',
           translation: 'This human body is not meant, O children, for pursuing the pleasures that even animals can enjoy with effort. It is meant for divine austerity by which the inner being is purified — from which comes the infinite joy of Brahman.',
           hindi: 'हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।',
@@ -61,7 +61,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1009,
-          sanskrit: 'यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा | न चान्तं विन्दते पुम्भिः परभावविशारदाः ||',
+          sanskrit: 'यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा । न चान्तं विन्दते पुम्भिः परभावविशारदाः ॥',
           transliteration: 'yāṃ matiściodito yānti manasā karmaṇā girā | na cāntaṃ vindate pumbhiḥ parabhāvaviśāradāḥ ||',
           translation: 'What the wise who are skilled in understanding the supreme being go toward — with mind, action, and speech — its end is not found by anyone.',
           hindi: 'जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।',
@@ -70,7 +70,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1013,
-          sanskrit: 'नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् | प्रणामो दुःखशमनस्तं नमामि हरिं परम् ||',
+          sanskrit: 'नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् । प्रणामो दुःखशमनस्तं नमामि हरिं परम् ॥',
           transliteration: 'nāmasaṃkīrtanaṃ yasya sarvapāpapraṇāśanam | praṇāmo duḥkhaśamanastam namāmi hariṃ param ||',
           translation: 'The singing of whose name destroys all sin; whose salutation removes all sorrow — I bow to that Hari, the Supreme.',
           hindi: 'जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।',
@@ -79,7 +79,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 2025,
-          sanskrit: 'सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव | सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ||',
+          sanskrit: 'सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव । सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ॥',
           transliteration: 'satsaṅgo muktaduḥsaṅgo hanti saṃsṛtimuddha | satsaṅgasya hi mahimā puṇyaślokānukīrtanam ||',
           translation: 'The company of the holy — freed from bad association — destroys the cycle of birth and death. The greatness of such company is the praise of the blessed Lord.',
           hindi: 'संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।',
@@ -88,7 +88,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 7047,
-          sanskrit: 'मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् | यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ||',
+          sanskrit: 'मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् । यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ॥',
           transliteration: 'manye\'bhimukhīkṛto\'rkaḥ pṛthivyāṃ mānuṣīmatanom | yadvandanāt sukhaṃ bhūyaḥ prapedye yatra kṛṣṇastat ||',
           translation: 'I consider the sun itself to have turned toward earth, taking human form — by whose salutation I attained a joy that is more than this world\'s joy. That is where Krishna is.',
           hindi: 'मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।',
@@ -102,7 +102,7 @@ export const bhagavatapurana: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'एतावानेव लोकेऽस्मिन् पुंसां धर्मः परः स्मृतः | भक्तियोगो भगवति तन्नामग्रहणादिभिः ||',
+          sanskrit: 'एतावानेव लोकेऽस्मिन् पुंसां धर्मः परः स्मृतः । भक्तियोगो भगवति तन्नामग्रहणादिभिः ॥',
           transliteration: 'etāvāneva loke\'smin puṃsāṃ dharmaḥ paraḥ smṛtaḥ | bhaktiyogo bhagavati tannāmagrahaṇādibhiḥ ||',
           translation: 'This alone is the supreme dharma for human beings in this world: loving devotion to the Lord through the repetition of His names and related practices.',
           hindi: 'इस संसार में मनुष्यों का यही एकमात्र परम धर्म है — भगवान के नाम-ग्रहण और उससे सम्बंधित अभ्यास के माध्यम से उनमें भक्तियोग।',
@@ -114,7 +114,7 @@ export const bhagavatapurana: Scripture = {
       
         {
           id: 1002,
-          sanskrit: 'धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां | वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ||',
+          sanskrit: 'धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां । वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ॥',
           transliteration: 'dharmaḥ projjhitakaitavo\'tra paramo nirmatsarāṇāṃ satāṃ | vedyaṃ vāstavamattra vastu śivadaṃ tāpatrayonmūlanam ||',
           translation: 'Here is the highest dharma — completely free from all deceit — for the pure-hearted. Herein is the real good to be known: that which is auspicious and which uproots the three-fold suffering.',
           hindi: 'यहाँ (इस ग्रंथ में) निर्मत्सर साधुजनों के लिए सर्वोच्च धर्म वर्णित है — जो कपट-रहित है। यहाँ वास्तविक तत्त्व जाना जाता है — जो कल्याणकारक है और त्रिताप (आधि-व्याधि-उपाधि) को नष्ट करता है।',
@@ -123,7 +123,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1003,
-          sanskrit: 'स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे | अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ||',
+          sanskrit: 'स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे । अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ॥',
           transliteration: 'sa vai puṃsāṃ paro dharmo yato bhaktiradhokṣaje | ahaituk yapratihata yayātmā samprasīdati ||',
           translation: 'The supreme dharma for humanity is that which produces unmotivated and uninterrupted devotion to God — by which the Self attains complete contentment.',
           hindi: 'मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।',
@@ -132,7 +132,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1004,
-          sanskrit: 'भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् | नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ||',
+          sanskrit: 'भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् । नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ॥',
           transliteration: 'bhagavān bhaktibhāvena grāhyaḥ premagunairnṛṇām | nānyathā bhāvyate kvāpi yadi syādbrāhmasammataḥ ||',
           translation: 'The Lord is to be grasped by human beings through the attitude of devotion — through the qualities of love. In no other way can He be known, even if one is a great Brahman.',
           hindi: 'भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।',
@@ -141,7 +141,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1005,
-          sanskrit: 'नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये | तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ||',
+          sanskrit: 'नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये । तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ॥',
           transliteration: 'nāyaṃ deho dehabhājāṃ nṛloke kaṣṭān kāmānarhat viḍbhujāṃ ye | tapo divyaṃ putrakā yena sattvaṃ śuddhyed yasmād brahmasaukhyaṃ tvanantam ||',
           translation: 'This human body is not meant, O children, for pursuing the pleasures that even animals can enjoy with effort. It is meant for divine austerity by which the inner being is purified — from which comes the infinite joy of Brahman.',
           hindi: 'हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।',
@@ -150,7 +150,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1009,
-          sanskrit: 'यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा | न चान्तं विन्दते पुम्भिः परभावविशारदाः ||',
+          sanskrit: 'यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा । न चान्तं विन्दते पुम्भिः परभावविशारदाः ॥',
           transliteration: 'yāṃ matiściodito yānti manasā karmaṇā girā | na cāntaṃ vindate pumbhiḥ parabhāvaviśāradāḥ ||',
           translation: 'What the wise who are skilled in understanding the supreme being go toward — with mind, action, and speech — its end is not found by anyone.',
           hindi: 'जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।',
@@ -159,7 +159,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1013,
-          sanskrit: 'नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् | प्रणामो दुःखशमनस्तं नमामि हरिं परम् ||',
+          sanskrit: 'नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् । प्रणामो दुःखशमनस्तं नमामि हरिं परम् ॥',
           transliteration: 'nāmasaṃkīrtanaṃ yasya sarvapāpapraṇāśanam | praṇāmo duḥkhaśamanastam namāmi hariṃ param ||',
           translation: 'The singing of whose name destroys all sin; whose salutation removes all sorrow — I bow to that Hari, the Supreme.',
           hindi: 'जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।',
@@ -168,7 +168,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1025,
-          sanskrit: 'सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव | सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ||',
+          sanskrit: 'सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव । सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ॥',
           transliteration: 'satsaṅgo muktaduḥsaṅgo hanti saṃsṛtimuddha | satsaṅgasya hi mahimā puṇyaślokānukīrtanam ||',
           translation: 'The company of the holy — freed from bad association — destroys the cycle of birth and death. The greatness of such company is the praise of the blessed Lord.',
           hindi: 'संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।',
@@ -177,7 +177,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 7047,
-          sanskrit: 'मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् | यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ||',
+          sanskrit: 'मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् । यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ॥',
           transliteration: 'manye\'bhimukhīkṛto\'rkaḥ pṛthivyāṃ mānuṣīmatanom | yadvandanāt sukhaṃ bhūyaḥ prapedye yatra kṛṣṇastat ||',
           translation: 'I consider the sun itself to have turned toward earth, taking human form — by whose salutation I attained a joy that is more than this world\'s joy. That is where Krishna is.',
           hindi: 'मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।',
@@ -191,7 +191,7 @@ export const bhagavatapurana: Scripture = {
       verses: [
         {
           id: 25,
-          sanskrit: 'सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव | सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ||',
+          sanskrit: 'सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव । सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ॥',
           transliteration: 'satsaṅgo muktaduḥsaṅgo hanti saṃsṛtimuddha | satsaṅgasya hi mahimā puṇyaślokānukīrtanam ||',
           translation: 'The company of the holy — freed from bad association — destroys the cycle of birth and death. The greatness of such company is the praise of the blessed Lord.',
           hindi: 'संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।',
@@ -203,7 +203,7 @@ export const bhagavatapurana: Scripture = {
       
         {
           id: 1001,
-          sanskrit: 'सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव | सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ||',
+          sanskrit: 'सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव । सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ॥',
           transliteration: 'satsaṅgo muktaduḥsaṅgo hanti saṃsṛtimuddha | satsaṅgasya hi mahimā puṇyaślokānukīrtanam ||',
           translation: 'The company of the holy — freed from bad association — destroys the cycle of birth and death. The greatness of such company is the praise of the blessed Lord.',
           hindi: 'संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।',
@@ -212,7 +212,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1002,
-          sanskrit: 'धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां | वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ||',
+          sanskrit: 'धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां । वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ॥',
           transliteration: 'dharmaḥ projjhitakaitavo\'tra paramo nirmatsarāṇāṃ satāṃ | vedyaṃ vāstavamattra vastu śivadaṃ tāpatrayonmūlanam ||',
           translation: 'Here is the highest dharma — completely free from all deceit — for the pure-hearted. Herein is the real good to be known: that which is auspicious and which uproots the three-fold suffering.',
           hindi: 'यहाँ (इस ग्रंथ में) निर्मत्सर साधुजनों के लिए सर्वोच्च धर्म वर्णित है — जो कपट-रहित है। यहाँ वास्तविक तत्त्व जाना जाता है — जो कल्याणकारक है और त्रिताप (आधि-व्याधि-उपाधि) को नष्ट करता है।',
@@ -221,7 +221,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1003,
-          sanskrit: 'स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे | अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ||',
+          sanskrit: 'स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे । अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ॥',
           transliteration: 'sa vai puṃsāṃ paro dharmo yato bhaktiradhokṣaje | ahaituk yapratihata yayātmā samprasīdati ||',
           translation: 'The supreme dharma for humanity is that which produces unmotivated and uninterrupted devotion to God — by which the Self attains complete contentment.',
           hindi: 'मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।',
@@ -230,7 +230,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1004,
-          sanskrit: 'भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् | नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ||',
+          sanskrit: 'भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् । नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ॥',
           transliteration: 'bhagavān bhaktibhāvena grāhyaḥ premagunairnṛṇām | nānyathā bhāvyate kvāpi yadi syādbrāhmasammataḥ ||',
           translation: 'The Lord is to be grasped by human beings through the attitude of devotion — through the qualities of love. In no other way can He be known, even if one is a great Brahman.',
           hindi: 'भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।',
@@ -239,7 +239,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1005,
-          sanskrit: 'नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये | तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ||',
+          sanskrit: 'नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये । तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ॥',
           transliteration: 'nāyaṃ deho dehabhājāṃ nṛloke kaṣṭān kāmānarhat viḍbhujāṃ ye | tapo divyaṃ putrakā yena sattvaṃ śuddhyed yasmād brahmasaukhyaṃ tvanantam ||',
           translation: 'This human body is not meant, O children, for pursuing the pleasures that even animals can enjoy with effort. It is meant for divine austerity by which the inner being is purified — from which comes the infinite joy of Brahman.',
           hindi: 'हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।',
@@ -248,7 +248,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1009,
-          sanskrit: 'यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा | न चान्तं विन्दते पुम्भिः परभावविशारदाः ||',
+          sanskrit: 'यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा । न चान्तं विन्दते पुम्भिः परभावविशारदाः ॥',
           transliteration: 'yāṃ matiściodito yānti manasā karmaṇā girā | na cāntaṃ vindate pumbhiḥ parabhāvaviśāradāḥ ||',
           translation: 'What the wise who are skilled in understanding the supreme being go toward — with mind, action, and speech — its end is not found by anyone.',
           hindi: 'जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।',
@@ -257,7 +257,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1013,
-          sanskrit: 'नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् | प्रणामो दुःखशमनस्तं नमामि हरिं परम् ||',
+          sanskrit: 'नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् । प्रणामो दुःखशमनस्तं नमामि हरिं परम् ॥',
           transliteration: 'nāmasaṃkīrtanaṃ yasya sarvapāpapraṇāśanam | praṇāmo duḥkhaśamanastam namāmi hariṃ param ||',
           translation: 'The singing of whose name destroys all sin; whose salutation removes all sorrow — I bow to that Hari, the Supreme.',
           hindi: 'जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।',
@@ -266,7 +266,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 5047,
-          sanskrit: 'मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् | यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ||',
+          sanskrit: 'मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् । यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ॥',
           transliteration: 'manye\'bhimukhīkṛto\'rkaḥ pṛthivyāṃ mānuṣīmatanom | yadvandanāt sukhaṃ bhūyaḥ prapedye yatra kṛṣṇastat ||',
           translation: 'I consider the sun itself to have turned toward earth, taking human form — by whose salutation I attained a joy that is more than this world\'s joy. That is where Krishna is.',
           hindi: 'मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।',
@@ -280,7 +280,7 @@ export const bhagavatapurana: Scripture = {
       verses: [
         {
           id: 9,
-          sanskrit: 'यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा | न चान्तं विन्दते पुम्भिः परभावविशारदाः ||',
+          sanskrit: 'यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा । न चान्तं विन्दते पुम्भिः परभावविशारदाः ॥',
           transliteration: 'yāṃ matiściodito yānti manasā karmaṇā girā | na cāntaṃ vindate pumbhiḥ parabhāvaviśāradāḥ ||',
           translation: 'What the wise who are skilled in understanding the supreme being go toward — with mind, action, and speech — its end is not found by anyone.',
           hindi: 'जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।',
@@ -292,7 +292,7 @@ export const bhagavatapurana: Scripture = {
       
         {
           id: 1001,
-          sanskrit: 'यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा | न चान्तं विन्दते पुम्भिः परभावविशारदाः ||',
+          sanskrit: 'यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा । न चान्तं विन्दते पुम्भिः परभावविशारदाः ॥',
           transliteration: 'yāṃ matiściodito yānti manasā karmaṇā girā | na cāntaṃ vindate pumbhiḥ parabhāvaviśāradāḥ ||',
           translation: 'What the wise who are skilled in understanding the supreme being go toward — with mind, action, and speech — its end is not found by anyone.',
           hindi: 'जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।',
@@ -301,7 +301,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1002,
-          sanskrit: 'धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां | वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ||',
+          sanskrit: 'धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां । वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ॥',
           transliteration: 'dharmaḥ projjhitakaitavo\'tra paramo nirmatsarāṇāṃ satāṃ | vedyaṃ vāstavamattra vastu śivadaṃ tāpatrayonmūlanam ||',
           translation: 'Here is the highest dharma — completely free from all deceit — for the pure-hearted. Herein is the real good to be known: that which is auspicious and which uproots the three-fold suffering.',
           hindi: 'यहाँ (इस ग्रंथ में) निर्मत्सर साधुजनों के लिए सर्वोच्च धर्म वर्णित है — जो कपट-रहित है। यहाँ वास्तविक तत्त्व जाना जाता है — जो कल्याणकारक है और त्रिताप (आधि-व्याधि-उपाधि) को नष्ट करता है।',
@@ -310,7 +310,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1003,
-          sanskrit: 'स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे | अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ||',
+          sanskrit: 'स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे । अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ॥',
           transliteration: 'sa vai puṃsāṃ paro dharmo yato bhaktiradhokṣaje | ahaituk yapratihata yayātmā samprasīdati ||',
           translation: 'The supreme dharma for humanity is that which produces unmotivated and uninterrupted devotion to God — by which the Self attains complete contentment.',
           hindi: 'मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।',
@@ -319,7 +319,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1004,
-          sanskrit: 'भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् | नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ||',
+          sanskrit: 'भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् । नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ॥',
           transliteration: 'bhagavān bhaktibhāvena grāhyaḥ premagunairnṛṇām | nānyathā bhāvyate kvāpi yadi syādbrāhmasammataḥ ||',
           translation: 'The Lord is to be grasped by human beings through the attitude of devotion — through the qualities of love. In no other way can He be known, even if one is a great Brahman.',
           hindi: 'भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।',
@@ -328,7 +328,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1005,
-          sanskrit: 'नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये | तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ||',
+          sanskrit: 'नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये । तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ॥',
           transliteration: 'nāyaṃ deho dehabhājāṃ nṛloke kaṣṭān kāmānarhat viḍbhujāṃ ye | tapo divyaṃ putrakā yena sattvaṃ śuddhyed yasmād brahmasaukhyaṃ tvanantam ||',
           translation: 'This human body is not meant, O children, for pursuing the pleasures that even animals can enjoy with effort. It is meant for divine austerity by which the inner being is purified — from which comes the infinite joy of Brahman.',
           hindi: 'हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।',
@@ -337,7 +337,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1013,
-          sanskrit: 'नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् | प्रणामो दुःखशमनस्तं नमामि हरिं परम् ||',
+          sanskrit: 'नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् । प्रणामो दुःखशमनस्तं नमामि हरिं परम् ॥',
           transliteration: 'nāmasaṃkīrtanaṃ yasya sarvapāpapraṇāśanam | praṇāmo duḥkhaśamanastam namāmi hariṃ param ||',
           translation: 'The singing of whose name destroys all sin; whose salutation removes all sorrow — I bow to that Hari, the Supreme.',
           hindi: 'जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।',
@@ -346,7 +346,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1025,
-          sanskrit: 'सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव | सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ||',
+          sanskrit: 'सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव । सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ॥',
           transliteration: 'satsaṅgo muktaduḥsaṅgo hanti saṃsṛtimuddha | satsaṅgasya hi mahimā puṇyaślokānukīrtanam ||',
           translation: 'The company of the holy — freed from bad association — destroys the cycle of birth and death. The greatness of such company is the praise of the blessed Lord.',
           hindi: 'संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।',
@@ -355,7 +355,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1047,
-          sanskrit: 'मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् | यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ||',
+          sanskrit: 'मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् । यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ॥',
           transliteration: 'manye\'bhimukhīkṛto\'rkaḥ pṛthivyāṃ mānuṣīmatanom | yadvandanāt sukhaṃ bhūyaḥ prapedye yatra kṛṣṇastat ||',
           translation: 'I consider the sun itself to have turned toward earth, taking human form — by whose salutation I attained a joy that is more than this world\'s joy. That is where Krishna is.',
           hindi: 'मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।',
@@ -369,7 +369,7 @@ export const bhagavatapurana: Scripture = {
       verses: [
         {
           id: 5,
-          sanskrit: 'नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये | तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ||',
+          sanskrit: 'नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये । तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ॥',
           transliteration: 'nāyaṃ deho dehabhājāṃ nṛloke kaṣṭān kāmānarhat viḍbhujāṃ ye | tapo divyaṃ putrakā yena sattvaṃ śuddhyed yasmād brahmasaukhyaṃ tvanantam ||',
           translation: 'This human body is not meant, O children, for pursuing the pleasures that even animals can enjoy with effort. It is meant for divine austerity by which the inner being is purified — from which comes the infinite joy of Brahman.',
           hindi: 'हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।',
@@ -381,7 +381,7 @@ export const bhagavatapurana: Scripture = {
       
         {
           id: 1001,
-          sanskrit: 'नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये | तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ||',
+          sanskrit: 'नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये । तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ॥',
           transliteration: 'nāyaṃ deho dehabhājāṃ nṛloke kaṣṭān kāmānarhat viḍbhujāṃ ye | tapo divyaṃ putrakā yena sattvaṃ śuddhyed yasmād brahmasaukhyaṃ tvanantam ||',
           translation: 'This human body is not meant, O children, for pursuing the pleasures that even animals can enjoy with effort. It is meant for divine austerity by which the inner being is purified — from which comes the infinite joy of Brahman.',
           hindi: 'हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।',
@@ -390,7 +390,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1002,
-          sanskrit: 'धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां | वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ||',
+          sanskrit: 'धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां । वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ॥',
           transliteration: 'dharmaḥ projjhitakaitavo\'tra paramo nirmatsarāṇāṃ satāṃ | vedyaṃ vāstavamattra vastu śivadaṃ tāpatrayonmūlanam ||',
           translation: 'Here is the highest dharma — completely free from all deceit — for the pure-hearted. Herein is the real good to be known: that which is auspicious and which uproots the three-fold suffering.',
           hindi: 'यहाँ (इस ग्रंथ में) निर्मत्सर साधुजनों के लिए सर्वोच्च धर्म वर्णित है — जो कपट-रहित है। यहाँ वास्तविक तत्त्व जाना जाता है — जो कल्याणकारक है और त्रिताप (आधि-व्याधि-उपाधि) को नष्ट करता है।',
@@ -399,7 +399,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1003,
-          sanskrit: 'स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे | अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ||',
+          sanskrit: 'स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे । अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ॥',
           transliteration: 'sa vai puṃsāṃ paro dharmo yato bhaktiradhokṣaje | ahaituk yapratihata yayātmā samprasīdati ||',
           translation: 'The supreme dharma for humanity is that which produces unmotivated and uninterrupted devotion to God — by which the Self attains complete contentment.',
           hindi: 'मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।',
@@ -408,7 +408,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1004,
-          sanskrit: 'भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् | नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ||',
+          sanskrit: 'भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् । नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ॥',
           transliteration: 'bhagavān bhaktibhāvena grāhyaḥ premagunairnṛṇām | nānyathā bhāvyate kvāpi yadi syādbrāhmasammataḥ ||',
           translation: 'The Lord is to be grasped by human beings through the attitude of devotion — through the qualities of love. In no other way can He be known, even if one is a great Brahman.',
           hindi: 'भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।',
@@ -417,7 +417,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1009,
-          sanskrit: 'यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा | न चान्तं विन्दते पुम्भिः परभावविशारदाः ||',
+          sanskrit: 'यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा । न चान्तं विन्दते पुम्भिः परभावविशारदाः ॥',
           transliteration: 'yāṃ matiściodito yānti manasā karmaṇā girā | na cāntaṃ vindate pumbhiḥ parabhāvaviśāradāḥ ||',
           translation: 'What the wise who are skilled in understanding the supreme being go toward — with mind, action, and speech — its end is not found by anyone.',
           hindi: 'जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।',
@@ -426,7 +426,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1013,
-          sanskrit: 'नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् | प्रणामो दुःखशमनस्तं नमामि हरिं परम् ||',
+          sanskrit: 'नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् । प्रणामो दुःखशमनस्तं नमामि हरिं परम् ॥',
           transliteration: 'nāmasaṃkīrtanaṃ yasya sarvapāpapraṇāśanam | praṇāmo duḥkhaśamanastam namāmi hariṃ param ||',
           translation: 'The singing of whose name destroys all sin; whose salutation removes all sorrow — I bow to that Hari, the Supreme.',
           hindi: 'जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।',
@@ -435,7 +435,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1025,
-          sanskrit: 'सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव | सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ||',
+          sanskrit: 'सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव । सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ॥',
           transliteration: 'satsaṅgo muktaduḥsaṅgo hanti saṃsṛtimuddha | satsaṅgasya hi mahimā puṇyaślokānukīrtanam ||',
           translation: 'The company of the holy — freed from bad association — destroys the cycle of birth and death. The greatness of such company is the praise of the blessed Lord.',
           hindi: 'संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।',
@@ -449,7 +449,7 @@ export const bhagavatapurana: Scripture = {
       verses: [
         {
           id: 2,
-          sanskrit: 'आपदामपहर्तारं दातारं सर्वसम्पदाम् | लोकाभिरामं श्रीरामं भूयो भूयो नमाम्यहम् ||',
+          sanskrit: 'आपदामपहर्तारं दातारं सर्वसम्पदाम् । लोकाभिरामं श्रीरामं भूयो भूयो नमाम्यहम् ॥',
           transliteration: 'āpadāmapahartāraṃ dātāraṃ sarvasampadām | lokābhirāmaṃ śrīrāmaṃ bhūyo bhūyo namāmyaham ||',
           translation: 'I bow again and again to Shri Rama — the remover of calamities, the giver of all prosperity, the delight of all the worlds.',
           hindi: 'मैं श्रीराम को बार-बार नमस्कार करता हूँ — जो आपदाओं को दूर करते हैं, समस्त सम्पदा देते हैं, और सब लोकों के आनन्द हैं।',
@@ -461,7 +461,7 @@ export const bhagavatapurana: Scripture = {
       
         {
           id: 1001,
-          sanskrit: 'आपदामपहर्तारं दातारं सर्वसम्पदाम् | लोकाभिरामं श्रीरामं भूयो भूयो नमाम्यहम् ||',
+          sanskrit: 'आपदामपहर्तारं दातारं सर्वसम्पदाम् । लोकाभिरामं श्रीरामं भूयो भूयो नमाम्यहम् ॥',
           transliteration: 'āpadāmapahartāraṃ dātāraṃ sarvasampadām | lokābhirāmaṃ śrīrāmaṃ bhūyo bhūyo namāmyaham ||',
           translation: 'I bow again and again to Shri Rama — the remover of calamities, the giver of all prosperity, the delight of all the worlds.',
           hindi: 'मैं श्रीराम को बार-बार नमस्कार करता हूँ — जो आपदाओं को दूर करते हैं, समस्त सम्पदा देते हैं, और सब लोकों के आनन्द हैं।',
@@ -470,7 +470,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1003,
-          sanskrit: 'स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे | अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ||',
+          sanskrit: 'स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे । अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ॥',
           transliteration: 'sa vai puṃsāṃ paro dharmo yato bhaktiradhokṣaje | ahaituk yapratihata yayātmā samprasīdati ||',
           translation: 'The supreme dharma for humanity is that which produces unmotivated and uninterrupted devotion to God — by which the Self attains complete contentment.',
           hindi: 'मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।',
@@ -479,7 +479,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1004,
-          sanskrit: 'भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् | नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ||',
+          sanskrit: 'भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् । नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ॥',
           transliteration: 'bhagavān bhaktibhāvena grāhyaḥ premagunairnṛṇām | nānyathā bhāvyate kvāpi yadi syādbrāhmasammataḥ ||',
           translation: 'The Lord is to be grasped by human beings through the attitude of devotion — through the qualities of love. In no other way can He be known, even if one is a great Brahman.',
           hindi: 'भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।',
@@ -488,7 +488,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1005,
-          sanskrit: 'नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये | तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ||',
+          sanskrit: 'नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये । तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ॥',
           transliteration: 'nāyaṃ deho dehabhājāṃ nṛloke kaṣṭān kāmānarhat viḍbhujāṃ ye | tapo divyaṃ putrakā yena sattvaṃ śuddhyed yasmād brahmasaukhyaṃ tvanantam ||',
           translation: 'This human body is not meant, O children, for pursuing the pleasures that even animals can enjoy with effort. It is meant for divine austerity by which the inner being is purified — from which comes the infinite joy of Brahman.',
           hindi: 'हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।',
@@ -497,7 +497,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1009,
-          sanskrit: 'यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा | न चान्तं विन्दते पुम्भिः परभावविशारदाः ||',
+          sanskrit: 'यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा । न चान्तं विन्दते पुम्भिः परभावविशारदाः ॥',
           transliteration: 'yāṃ matiściodito yānti manasā karmaṇā girā | na cāntaṃ vindate pumbhiḥ parabhāvaviśāradāḥ ||',
           translation: 'What the wise who are skilled in understanding the supreme being go toward — with mind, action, and speech — its end is not found by anyone.',
           hindi: 'जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।',
@@ -506,7 +506,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1013,
-          sanskrit: 'नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् | प्रणामो दुःखशमनस्तं नमामि हरिं परम् ||',
+          sanskrit: 'नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् । प्रणामो दुःखशमनस्तं नमामि हरिं परम् ॥',
           transliteration: 'nāmasaṃkīrtanaṃ yasya sarvapāpapraṇāśanam | praṇāmo duḥkhaśamanastam namāmi hariṃ param ||',
           translation: 'The singing of whose name destroys all sin; whose salutation removes all sorrow — I bow to that Hari, the Supreme.',
           hindi: 'जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।',
@@ -515,7 +515,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1025,
-          sanskrit: 'सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव | सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ||',
+          sanskrit: 'सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव । सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ॥',
           transliteration: 'satsaṅgo muktaduḥsaṅgo hanti saṃsṛtimuddha | satsaṅgasya hi mahimā puṇyaślokānukīrtanam ||',
           translation: 'The company of the holy — freed from bad association — destroys the cycle of birth and death. The greatness of such company is the praise of the blessed Lord.',
           hindi: 'संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।',
@@ -524,7 +524,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1047,
-          sanskrit: 'मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् | यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ||',
+          sanskrit: 'मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् । यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ॥',
           transliteration: 'manye\'bhimukhīkṛto\'rkaḥ pṛthivyāṃ mānuṣīmatanom | yadvandanāt sukhaṃ bhūyaḥ prapedye yatra kṛṣṇastat ||',
           translation: 'I consider the sun itself to have turned toward earth, taking human form — by whose salutation I attained a joy that is more than this world\'s joy. That is where Krishna is.',
           hindi: 'मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।',
@@ -538,7 +538,7 @@ export const bhagavatapurana: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'श्रवणं कीर्तनं विष्णोः स्मरणं पादसेवनम् | अर्चनं वन्दनं दास्यं सख्यमात्मनिवेदनम् ||',
+          sanskrit: 'श्रवणं कीर्तनं विष्णोः स्मरणं पादसेवनम् । अर्चनं वन्दनं दास्यं सख्यमात्मनिवेदनम् ॥',
           transliteration: 'śravaṇaṃ kīrtanaṃ viṣṇoḥ smaraṇaṃ pādasevanam | arcanaṃ vandanaṃ dāsyaṃ sakhyamātmanivedanam ||',
           translation: 'Hearing of Vishnu, singing of Him, remembering Him, serving His feet, worshipping Him, saluting Him, being His servant, His friend, and surrendering oneself completely to Him — these are the nine forms of devotion.',
           hindi: 'श्रवण, कीर्तन, स्मरण, पाद-सेवन, अर्चन, वन्दन, दास्य, सख्य और आत्म-निवेदन — ये भक्ति के नौ अंग हैं।',
@@ -550,7 +550,7 @@ export const bhagavatapurana: Scripture = {
       
         {
           id: 1002,
-          sanskrit: 'धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां | वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ||',
+          sanskrit: 'धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां । वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ॥',
           transliteration: 'dharmaḥ projjhitakaitavo\'tra paramo nirmatsarāṇāṃ satāṃ | vedyaṃ vāstavamattra vastu śivadaṃ tāpatrayonmūlanam ||',
           translation: 'Here is the highest dharma — completely free from all deceit — for the pure-hearted. Herein is the real good to be known: that which is auspicious and which uproots the three-fold suffering.',
           hindi: 'यहाँ (इस ग्रंथ में) निर्मत्सर साधुजनों के लिए सर्वोच्च धर्म वर्णित है — जो कपट-रहित है। यहाँ वास्तविक तत्त्व जाना जाता है — जो कल्याणकारक है और त्रिताप (आधि-व्याधि-उपाधि) को नष्ट करता है।',
@@ -559,7 +559,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1003,
-          sanskrit: 'स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे | अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ||',
+          sanskrit: 'स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे । अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ॥',
           transliteration: 'sa vai puṃsāṃ paro dharmo yato bhaktiradhokṣaje | ahaituk yapratihata yayātmā samprasīdati ||',
           translation: 'The supreme dharma for humanity is that which produces unmotivated and uninterrupted devotion to God — by which the Self attains complete contentment.',
           hindi: 'मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।',
@@ -568,7 +568,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1004,
-          sanskrit: 'भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् | नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ||',
+          sanskrit: 'भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् । नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ॥',
           transliteration: 'bhagavān bhaktibhāvena grāhyaḥ premagunairnṛṇām | nānyathā bhāvyate kvāpi yadi syādbrāhmasammataḥ ||',
           translation: 'The Lord is to be grasped by human beings through the attitude of devotion — through the qualities of love. In no other way can He be known, even if one is a great Brahman.',
           hindi: 'भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।',
@@ -577,7 +577,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1005,
-          sanskrit: 'नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये | तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ||',
+          sanskrit: 'नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये । तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ॥',
           transliteration: 'nāyaṃ deho dehabhājāṃ nṛloke kaṣṭān kāmānarhat viḍbhujāṃ ye | tapo divyaṃ putrakā yena sattvaṃ śuddhyed yasmād brahmasaukhyaṃ tvanantam ||',
           translation: 'This human body is not meant, O children, for pursuing the pleasures that even animals can enjoy with effort. It is meant for divine austerity by which the inner being is purified — from which comes the infinite joy of Brahman.',
           hindi: 'हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।',
@@ -586,7 +586,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1009,
-          sanskrit: 'यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा | न चान्तं विन्दते पुम्भिः परभावविशारदाः ||',
+          sanskrit: 'यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा । न चान्तं विन्दते पुम्भिः परभावविशारदाः ॥',
           transliteration: 'yāṃ matiściodito yānti manasā karmaṇā girā | na cāntaṃ vindate pumbhiḥ parabhāvaviśāradāḥ ||',
           translation: 'What the wise who are skilled in understanding the supreme being go toward — with mind, action, and speech — its end is not found by anyone.',
           hindi: 'जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।',
@@ -595,7 +595,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1013,
-          sanskrit: 'नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् | प्रणामो दुःखशमनस्तं नमामि हरिं परम् ||',
+          sanskrit: 'नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् । प्रणामो दुःखशमनस्तं नमामि हरिं परम् ॥',
           transliteration: 'nāmasaṃkīrtanaṃ yasya sarvapāpapraṇāśanam | praṇāmo duḥkhaśamanastam namāmi hariṃ param ||',
           translation: 'The singing of whose name destroys all sin; whose salutation removes all sorrow — I bow to that Hari, the Supreme.',
           hindi: 'जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।',
@@ -604,7 +604,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1025,
-          sanskrit: 'सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव | सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ||',
+          sanskrit: 'सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव । सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ॥',
           transliteration: 'satsaṅgo muktaduḥsaṅgo hanti saṃsṛtimuddha | satsaṅgasya hi mahimā puṇyaślokānukīrtanam ||',
           translation: 'The company of the holy — freed from bad association — destroys the cycle of birth and death. The greatness of such company is the praise of the blessed Lord.',
           hindi: 'संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।',
@@ -613,7 +613,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1047,
-          sanskrit: 'मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् | यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ||',
+          sanskrit: 'मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् । यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ॥',
           transliteration: 'manye\'bhimukhīkṛto\'rkaḥ pṛthivyāṃ mānuṣīmatanom | yadvandanāt sukhaṃ bhūyaḥ prapedye yatra kṛṣṇastat ||',
           translation: 'I consider the sun itself to have turned toward earth, taking human form — by whose salutation I attained a joy that is more than this world\'s joy. That is where Krishna is.',
           hindi: 'मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।',
@@ -627,7 +627,7 @@ export const bhagavatapurana: Scripture = {
       verses: [
         {
           id: 3,
-          sanskrit: 'नमो नमस्तेऽखिलकारणाय निष्कारणायाद्भुतकारणाय | सर्वागमाम्नायमहार्णवाय नमोपवर्गाय परायणाय ||',
+          sanskrit: 'नमो नमस्तेऽखिलकारणाय निष्कारणायाद्भुतकारणाय । सर्वागमाम्नायमहार्णवाय नमोपवर्गाय परायणाय ॥',
           transliteration: 'namo namaste\'khilakāraṇāya niṣkāraṇāyādbhutakāraṇāya | sarvāgamāmnāyamahārṇavāya namopavargāya parāyaṇāya ||',
           translation: 'Salutations to You, the cause of all — who have no cause, whose causation is wondrous; You are the great ocean of all scriptural traditions; salutations to You, the final refuge, the supreme destination.',
           hindi: 'आपको नमस्कार — सभी कारणों के कारण, जो स्वयं कारण-रहित हैं, जिनका कारण अद्भुत है। सभी शास्त्रों के महासमुद्र को नमस्कार; मुक्ति के और परम लक्ष्य को नमस्कार।',
@@ -639,7 +639,7 @@ export const bhagavatapurana: Scripture = {
       
         {
           id: 1001,
-          sanskrit: 'नमो नमस्तेऽखिलकारणाय निष्कारणायाद्भुतकारणाय | सर्वागमाम्नायमहार्णवाय नमोपवर्गाय परायणाय ||',
+          sanskrit: 'नमो नमस्तेऽखिलकारणाय निष्कारणायाद्भुतकारणाय । सर्वागमाम्नायमहार्णवाय नमोपवर्गाय परायणाय ॥',
           transliteration: 'namo namaste\'khilakāraṇāya niṣkāraṇāyādbhutakāraṇāya | sarvāgamāmnāyamahārṇavāya namopavargāya parāyaṇāya ||',
           translation: 'Salutations to You, the cause of all — who have no cause, whose causation is wondrous; You are the great ocean of all scriptural traditions; salutations to You, the final refuge, the supreme destination.',
           hindi: 'आपको नमस्कार — सभी कारणों के कारण, जो स्वयं कारण-रहित हैं, जिनका कारण अद्भुत है। सभी शास्त्रों के महासमुद्र को नमस्कार; मुक्ति के और परम लक्ष्य को नमस्कार।',
@@ -648,7 +648,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1002,
-          sanskrit: 'धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां | वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ||',
+          sanskrit: 'धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां । वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ॥',
           transliteration: 'dharmaḥ projjhitakaitavo\'tra paramo nirmatsarāṇāṃ satāṃ | vedyaṃ vāstavamattra vastu śivadaṃ tāpatrayonmūlanam ||',
           translation: 'Here is the highest dharma — completely free from all deceit — for the pure-hearted. Herein is the real good to be known: that which is auspicious and which uproots the three-fold suffering.',
           hindi: 'यहाँ (इस ग्रंथ में) निर्मत्सर साधुजनों के लिए सर्वोच्च धर्म वर्णित है — जो कपट-रहित है। यहाँ वास्तविक तत्त्व जाना जाता है — जो कल्याणकारक है और त्रिताप (आधि-व्याधि-उपाधि) को नष्ट करता है।',
@@ -657,7 +657,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1004,
-          sanskrit: 'भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् | नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ||',
+          sanskrit: 'भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् । नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ॥',
           transliteration: 'bhagavān bhaktibhāvena grāhyaḥ premagunairnṛṇām | nānyathā bhāvyate kvāpi yadi syādbrāhmasammataḥ ||',
           translation: 'The Lord is to be grasped by human beings through the attitude of devotion — through the qualities of love. In no other way can He be known, even if one is a great Brahman.',
           hindi: 'भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।',
@@ -666,7 +666,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1005,
-          sanskrit: 'नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये | तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ||',
+          sanskrit: 'नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये । तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ॥',
           transliteration: 'nāyaṃ deho dehabhājāṃ nṛloke kaṣṭān kāmānarhat viḍbhujāṃ ye | tapo divyaṃ putrakā yena sattvaṃ śuddhyed yasmād brahmasaukhyaṃ tvanantam ||',
           translation: 'This human body is not meant, O children, for pursuing the pleasures that even animals can enjoy with effort. It is meant for divine austerity by which the inner being is purified — from which comes the infinite joy of Brahman.',
           hindi: 'हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।',
@@ -675,7 +675,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1009,
-          sanskrit: 'यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा | न चान्तं विन्दते पुम्भिः परभावविशारदाः ||',
+          sanskrit: 'यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा । न चान्तं विन्दते पुम्भिः परभावविशारदाः ॥',
           transliteration: 'yāṃ matiściodito yānti manasā karmaṇā girā | na cāntaṃ vindate pumbhiḥ parabhāvaviśāradāḥ ||',
           translation: 'What the wise who are skilled in understanding the supreme being go toward — with mind, action, and speech — its end is not found by anyone.',
           hindi: 'जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।',
@@ -684,7 +684,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1013,
-          sanskrit: 'नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् | प्रणामो दुःखशमनस्तं नमामि हरिं परम् ||',
+          sanskrit: 'नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् । प्रणामो दुःखशमनस्तं नमामि हरिं परम् ॥',
           transliteration: 'nāmasaṃkīrtanaṃ yasya sarvapāpapraṇāśanam | praṇāmo duḥkhaśamanastam namāmi hariṃ param ||',
           translation: 'The singing of whose name destroys all sin; whose salutation removes all sorrow — I bow to that Hari, the Supreme.',
           hindi: 'जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।',
@@ -693,7 +693,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1025,
-          sanskrit: 'सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव | सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ||',
+          sanskrit: 'सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव । सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ॥',
           transliteration: 'satsaṅgo muktaduḥsaṅgo hanti saṃsṛtimuddha | satsaṅgasya hi mahimā puṇyaślokānukīrtanam ||',
           translation: 'The company of the holy — freed from bad association — destroys the cycle of birth and death. The greatness of such company is the praise of the blessed Lord.',
           hindi: 'संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।',
@@ -702,7 +702,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 5047,
-          sanskrit: 'मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् | यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ||',
+          sanskrit: 'मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् । यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ॥',
           transliteration: 'manye\'bhimukhīkṛto\'rkaḥ pṛthivyāṃ mānuṣīmatanom | yadvandanāt sukhaṃ bhūyaḥ prapedye yatra kṛṣṇastat ||',
           translation: 'I consider the sun itself to have turned toward earth, taking human form — by whose salutation I attained a joy that is more than this world\'s joy. That is where Krishna is.',
           hindi: 'मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।',
@@ -716,7 +716,7 @@ export const bhagavatapurana: Scripture = {
       verses: [
         {
           id: 4,
-          sanskrit: 'भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् | नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ||',
+          sanskrit: 'भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् । नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ॥',
           transliteration: 'bhagavān bhaktibhāvena grāhyaḥ premagunairnṛṇām | nānyathā bhāvyate kvāpi yadi syādbrāhmasammataḥ ||',
           translation: 'The Lord is to be grasped by human beings through the attitude of devotion — through the qualities of love. In no other way can He be known, even if one is a great Brahman.',
           hindi: 'भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।',
@@ -728,7 +728,7 @@ export const bhagavatapurana: Scripture = {
       
         {
           id: 1001,
-          sanskrit: 'भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् | नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ||',
+          sanskrit: 'भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् । नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ॥',
           transliteration: 'bhagavān bhaktibhāvena grāhyaḥ premagunairnṛṇām | nānyathā bhāvyate kvāpi yadi syādbrāhmasammataḥ ||',
           translation: 'The Lord is to be grasped by human beings through the attitude of devotion — through the qualities of love. In no other way can He be known, even if one is a great Brahman.',
           hindi: 'भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।',
@@ -737,7 +737,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1002,
-          sanskrit: 'धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां | वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ||',
+          sanskrit: 'धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां । वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ॥',
           transliteration: 'dharmaḥ projjhitakaitavo\'tra paramo nirmatsarāṇāṃ satāṃ | vedyaṃ vāstavamattra vastu śivadaṃ tāpatrayonmūlanam ||',
           translation: 'Here is the highest dharma — completely free from all deceit — for the pure-hearted. Herein is the real good to be known: that which is auspicious and which uproots the three-fold suffering.',
           hindi: 'यहाँ (इस ग्रंथ में) निर्मत्सर साधुजनों के लिए सर्वोच्च धर्म वर्णित है — जो कपट-रहित है। यहाँ वास्तविक तत्त्व जाना जाता है — जो कल्याणकारक है और त्रिताप (आधि-व्याधि-उपाधि) को नष्ट करता है।',
@@ -746,7 +746,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1003,
-          sanskrit: 'स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे | अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ||',
+          sanskrit: 'स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे । अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ॥',
           transliteration: 'sa vai puṃsāṃ paro dharmo yato bhaktiradhokṣaje | ahaituk yapratihata yayātmā samprasīdati ||',
           translation: 'The supreme dharma for humanity is that which produces unmotivated and uninterrupted devotion to God — by which the Self attains complete contentment.',
           hindi: 'मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।',
@@ -755,7 +755,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1005,
-          sanskrit: 'नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये | तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ||',
+          sanskrit: 'नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये । तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ॥',
           transliteration: 'nāyaṃ deho dehabhājāṃ nṛloke kaṣṭān kāmānarhat viḍbhujāṃ ye | tapo divyaṃ putrakā yena sattvaṃ śuddhyed yasmād brahmasaukhyaṃ tvanantam ||',
           translation: 'This human body is not meant, O children, for pursuing the pleasures that even animals can enjoy with effort. It is meant for divine austerity by which the inner being is purified — from which comes the infinite joy of Brahman.',
           hindi: 'हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।',
@@ -764,7 +764,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1009,
-          sanskrit: 'यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा | न चान्तं विन्दते पुम्भिः परभावविशारदाः ||',
+          sanskrit: 'यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा । न चान्तं विन्दते पुम्भिः परभावविशारदाः ॥',
           transliteration: 'yāṃ matiściodito yānti manasā karmaṇā girā | na cāntaṃ vindate pumbhiḥ parabhāvaviśāradāḥ ||',
           translation: 'What the wise who are skilled in understanding the supreme being go toward — with mind, action, and speech — its end is not found by anyone.',
           hindi: 'जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।',
@@ -773,7 +773,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1013,
-          sanskrit: 'नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् | प्रणामो दुःखशमनस्तं नमामि हरिं परम् ||',
+          sanskrit: 'नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् । प्रणामो दुःखशमनस्तं नमामि हरिं परम् ॥',
           transliteration: 'nāmasaṃkīrtanaṃ yasya sarvapāpapraṇāśanam | praṇāmo duḥkhaśamanastam namāmi hariṃ param ||',
           translation: 'The singing of whose name destroys all sin; whose salutation removes all sorrow — I bow to that Hari, the Supreme.',
           hindi: 'जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।',
@@ -782,7 +782,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1025,
-          sanskrit: 'सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव | सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ||',
+          sanskrit: 'सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव । सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ॥',
           transliteration: 'satsaṅgo muktaduḥsaṅgo hanti saṃsṛtimuddha | satsaṅgasya hi mahimā puṇyaślokānukīrtanam ||',
           translation: 'The company of the holy — freed from bad association — destroys the cycle of birth and death. The greatness of such company is the praise of the blessed Lord.',
           hindi: 'संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।',
@@ -791,7 +791,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 4047,
-          sanskrit: 'मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् | यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ||',
+          sanskrit: 'मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् । यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ॥',
           transliteration: 'manye\'bhimukhīkṛto\'rkaḥ pṛthivyāṃ mānuṣīmatanom | yadvandanāt sukhaṃ bhūyaḥ prapedye yatra kṛṣṇastat ||',
           translation: 'I consider the sun itself to have turned toward earth, taking human form — by whose salutation I attained a joy that is more than this world\'s joy. That is where Krishna is.',
           hindi: 'मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।',
@@ -805,7 +805,7 @@ export const bhagavatapurana: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'जातो गतः पितृगृहाद्व्रजमेधितार्थः हित्वा यदून् सुहृदो रुक्मवतीः सुतांश्च | विप्रोपसृष्टमपि शाङ्गभृदहं रराम स्वच्छन्दतोऽहमजितो हृदयाब्जदृष्टः ||',
+          sanskrit: 'जातो गतः पितृगृहाद्व्रजमेधितार्थः हित्वा यदून् सुहृदो रुक्मवतीः सुतांश्च । विप्रोपसृष्टमपि शाङ्गभृदहं रराम स्वच्छन्दतोऽहमजितो हृदयाब्जदृष्टः ॥',
           transliteration: 'jāto gataḥ pitṛgṛhādvrajamedhitārthaḥ hitvā yadūn suhṛdo rukmavatīḥ sutāṃśca | viproprasṛṣṭamapi śārṅgabhṛdahaṃ rarāma svacchandato\'hamajito hṛdayābjadṛṣṭaḥ ||',
           translation: 'Born and quickly taken from his father\'s house to Vraja for a great purpose; abandoning the Yadu princes, friends, golden wives, and sons; even when invoked by sages I, the bearer of the Sharanga bow, played freely — unconquered, seen only in the lotus of the heart.',
           hindi: 'जन्म लेकर तुरन्त पिता के गृह से व्रज को महान् प्रयोजन से चले गए; यदुवंश, मित्र, सोने के समान पत्नियाँ और पुत्रों को छोड़कर; ऋषियों द्वारा बुलाए जाने पर भी शाङ्ग-धारी मैं स्वच्छंद विहार करता हूँ — अजेय, हृदय-कमल में ही दृष्ट।',
@@ -817,7 +817,7 @@ export const bhagavatapurana: Scripture = {
       
         {
           id: 1002,
-          sanskrit: 'धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां | वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ||',
+          sanskrit: 'धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां । वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ॥',
           transliteration: 'dharmaḥ projjhitakaitavo\'tra paramo nirmatsarāṇāṃ satāṃ | vedyaṃ vāstavamattra vastu śivadaṃ tāpatrayonmūlanam ||',
           translation: 'Here is the highest dharma — completely free from all deceit — for the pure-hearted. Herein is the real good to be known: that which is auspicious and which uproots the three-fold suffering.',
           hindi: 'यहाँ (इस ग्रंथ में) निर्मत्सर साधुजनों के लिए सर्वोच्च धर्म वर्णित है — जो कपट-रहित है। यहाँ वास्तविक तत्त्व जाना जाता है — जो कल्याणकारक है और त्रिताप (आधि-व्याधि-उपाधि) को नष्ट करता है।',
@@ -826,7 +826,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1003,
-          sanskrit: 'स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे | अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ||',
+          sanskrit: 'स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे । अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ॥',
           transliteration: 'sa vai puṃsāṃ paro dharmo yato bhaktiradhokṣaje | ahaituk yapratihata yayātmā samprasīdati ||',
           translation: 'The supreme dharma for humanity is that which produces unmotivated and uninterrupted devotion to God — by which the Self attains complete contentment.',
           hindi: 'मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।',
@@ -835,7 +835,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1004,
-          sanskrit: 'भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् | नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ||',
+          sanskrit: 'भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् । नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ॥',
           transliteration: 'bhagavān bhaktibhāvena grāhyaḥ premagunairnṛṇām | nānyathā bhāvyate kvāpi yadi syādbrāhmasammataḥ ||',
           translation: 'The Lord is to be grasped by human beings through the attitude of devotion — through the qualities of love. In no other way can He be known, even if one is a great Brahman.',
           hindi: 'भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।',
@@ -844,7 +844,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1005,
-          sanskrit: 'नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये | तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ||',
+          sanskrit: 'नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये । तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ॥',
           transliteration: 'nāyaṃ deho dehabhājāṃ nṛloke kaṣṭān kāmānarhat viḍbhujāṃ ye | tapo divyaṃ putrakā yena sattvaṃ śuddhyed yasmād brahmasaukhyaṃ tvanantam ||',
           translation: 'This human body is not meant, O children, for pursuing the pleasures that even animals can enjoy with effort. It is meant for divine austerity by which the inner being is purified — from which comes the infinite joy of Brahman.',
           hindi: 'हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।',
@@ -853,7 +853,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1009,
-          sanskrit: 'यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा | न चान्तं विन्दते पुम्भिः परभावविशारदाः ||',
+          sanskrit: 'यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा । न चान्तं विन्दते पुम्भिः परभावविशारदाः ॥',
           transliteration: 'yāṃ matiściodito yānti manasā karmaṇā girā | na cāntaṃ vindate pumbhiḥ parabhāvaviśāradāḥ ||',
           translation: 'What the wise who are skilled in understanding the supreme being go toward — with mind, action, and speech — its end is not found by anyone.',
           hindi: 'जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।',
@@ -862,7 +862,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1013,
-          sanskrit: 'नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् | प्रणामो दुःखशमनस्तं नमामि हरिं परम् ||',
+          sanskrit: 'नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् । प्रणामो दुःखशमनस्तं नमामि हरिं परम् ॥',
           transliteration: 'nāmasaṃkīrtanaṃ yasya sarvapāpapraṇāśanam | praṇāmo duḥkhaśamanastam namāmi hariṃ param ||',
           translation: 'The singing of whose name destroys all sin; whose salutation removes all sorrow — I bow to that Hari, the Supreme.',
           hindi: 'जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।',
@@ -871,7 +871,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1025,
-          sanskrit: 'सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव | सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ||',
+          sanskrit: 'सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव । सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ॥',
           transliteration: 'satsaṅgo muktaduḥsaṅgo hanti saṃsṛtimuddha | satsaṅgasya hi mahimā puṇyaślokānukīrtanam ||',
           translation: 'The company of the holy — freed from bad association — destroys the cycle of birth and death. The greatness of such company is the praise of the blessed Lord.',
           hindi: 'संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।',
@@ -880,7 +880,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1047,
-          sanskrit: 'मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् | यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ||',
+          sanskrit: 'मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् । यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ॥',
           transliteration: 'manye\'bhimukhīkṛto\'rkaḥ pṛthivyāṃ mānuṣīmatanom | yadvandanāt sukhaṃ bhūyaḥ prapedye yatra kṛṣṇastat ||',
           translation: 'I consider the sun itself to have turned toward earth, taking human form — by whose salutation I attained a joy that is more than this world\'s joy. That is where Krishna is.',
           hindi: 'मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।',
@@ -894,7 +894,7 @@ export const bhagavatapurana: Scripture = {
       verses: [
         {
           id: 47,
-          sanskrit: 'मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् | यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ||',
+          sanskrit: 'मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् । यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ॥',
           transliteration: 'manye\'bhimukhīkṛto\'rkaḥ pṛthivyāṃ mānuṣīmatanom | yadvandanāt sukhaṃ bhūyaḥ prapedye yatra kṛṣṇastat ||',
           translation: 'I consider the sun itself to have turned toward earth, taking human form — by whose salutation I attained a joy that is more than this world\'s joy. That is where Krishna is.',
           hindi: 'मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।',
@@ -906,7 +906,7 @@ export const bhagavatapurana: Scripture = {
       
         {
           id: 1001,
-          sanskrit: 'मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् | यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ||',
+          sanskrit: 'मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् । यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ॥',
           transliteration: 'manye\'bhimukhīkṛto\'rkaḥ pṛthivyāṃ mānuṣīmatanom | yadvandanāt sukhaṃ bhūyaḥ prapedye yatra kṛṣṇastat ||',
           translation: 'I consider the sun itself to have turned toward earth, taking human form — by whose salutation I attained a joy that is more than this world\'s joy. That is where Krishna is.',
           hindi: 'मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।',
@@ -915,7 +915,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1002,
-          sanskrit: 'धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां | वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ||',
+          sanskrit: 'धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां । वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ॥',
           transliteration: 'dharmaḥ projjhitakaitavo\'tra paramo nirmatsarāṇāṃ satāṃ | vedyaṃ vāstavamattra vastu śivadaṃ tāpatrayonmūlanam ||',
           translation: 'Here is the highest dharma — completely free from all deceit — for the pure-hearted. Herein is the real good to be known: that which is auspicious and which uproots the three-fold suffering.',
           hindi: 'यहाँ (इस ग्रंथ में) निर्मत्सर साधुजनों के लिए सर्वोच्च धर्म वर्णित है — जो कपट-रहित है। यहाँ वास्तविक तत्त्व जाना जाता है — जो कल्याणकारक है और त्रिताप (आधि-व्याधि-उपाधि) को नष्ट करता है।',
@@ -924,7 +924,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1003,
-          sanskrit: 'स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे | अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ||',
+          sanskrit: 'स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे । अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ॥',
           transliteration: 'sa vai puṃsāṃ paro dharmo yato bhaktiradhokṣaje | ahaituk yapratihata yayātmā samprasīdati ||',
           translation: 'The supreme dharma for humanity is that which produces unmotivated and uninterrupted devotion to God — by which the Self attains complete contentment.',
           hindi: 'मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।',
@@ -933,7 +933,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1004,
-          sanskrit: 'भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् | नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ||',
+          sanskrit: 'भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् । नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ॥',
           transliteration: 'bhagavān bhaktibhāvena grāhyaḥ premagunairnṛṇām | nānyathā bhāvyate kvāpi yadi syādbrāhmasammataḥ ||',
           translation: 'The Lord is to be grasped by human beings through the attitude of devotion — through the qualities of love. In no other way can He be known, even if one is a great Brahman.',
           hindi: 'भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।',
@@ -942,7 +942,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1005,
-          sanskrit: 'नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये | तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ||',
+          sanskrit: 'नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये । तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ॥',
           transliteration: 'nāyaṃ deho dehabhājāṃ nṛloke kaṣṭān kāmānarhat viḍbhujāṃ ye | tapo divyaṃ putrakā yena sattvaṃ śuddhyed yasmād brahmasaukhyaṃ tvanantam ||',
           translation: 'This human body is not meant, O children, for pursuing the pleasures that even animals can enjoy with effort. It is meant for divine austerity by which the inner being is purified — from which comes the infinite joy of Brahman.',
           hindi: 'हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।',
@@ -951,7 +951,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1009,
-          sanskrit: 'यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा | न चान्तं विन्दते पुम्भिः परभावविशारदाः ||',
+          sanskrit: 'यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा । न चान्तं विन्दते पुम्भिः परभावविशारदाः ॥',
           transliteration: 'yāṃ matiściodito yānti manasā karmaṇā girā | na cāntaṃ vindate pumbhiḥ parabhāvaviśāradāḥ ||',
           translation: 'What the wise who are skilled in understanding the supreme being go toward — with mind, action, and speech — its end is not found by anyone.',
           hindi: 'जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।',
@@ -960,7 +960,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1013,
-          sanskrit: 'नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् | प्रणामो दुःखशमनस्तं नमामि हरिं परम् ||',
+          sanskrit: 'नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् । प्रणामो दुःखशमनस्तं नमामि हरिं परम् ॥',
           transliteration: 'nāmasaṃkīrtanaṃ yasya sarvapāpapraṇāśanam | praṇāmo duḥkhaśamanastam namāmi hariṃ param ||',
           translation: 'The singing of whose name destroys all sin; whose salutation removes all sorrow — I bow to that Hari, the Supreme.',
           hindi: 'जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।',
@@ -969,7 +969,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1025,
-          sanskrit: 'सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव | सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ||',
+          sanskrit: 'सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव । सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ॥',
           transliteration: 'satsaṅgo muktaduḥsaṅgo hanti saṃsṛtimuddha | satsaṅgasya hi mahimā puṇyaślokānukīrtanam ||',
           translation: 'The company of the holy — freed from bad association — destroys the cycle of birth and death. The greatness of such company is the praise of the blessed Lord.',
           hindi: 'संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।',
@@ -983,7 +983,7 @@ export const bhagavatapurana: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'न हि कल्याणकृत् कश्चिद् दुर्गतिं तात गच्छति ||',
+          sanskrit: 'न हि कल्याणकृत् कश्चिद् दुर्गतिं तात गच्छति ॥',
           transliteration: 'na hi kalyāṇakṛt kaścid durgatiṃ tāta gacchati ||',
           translation: 'Verily, O dear one, no one who does good ever comes to grief.',
           hindi: 'हे तात! जो व्यक्ति कल्याण (सद्कर्म) करता है, वह कभी दुर्गति को प्राप्त नहीं होता।',
@@ -995,7 +995,7 @@ export const bhagavatapurana: Scripture = {
       
         {
           id: 1002,
-          sanskrit: 'धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां | वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ||',
+          sanskrit: 'धर्मः प्रोज्झितकैतवोऽत्र परमो निर्मत्सराणां सतां । वेद्यं वास्तवमत्र वस्तु शिवदं तापत्रयोन्मूलनम् ॥',
           transliteration: 'dharmaḥ projjhitakaitavo\'tra paramo nirmatsarāṇāṃ satāṃ | vedyaṃ vāstavamattra vastu śivadaṃ tāpatrayonmūlanam ||',
           translation: 'Here is the highest dharma — completely free from all deceit — for the pure-hearted. Herein is the real good to be known: that which is auspicious and which uproots the three-fold suffering.',
           hindi: 'यहाँ (इस ग्रंथ में) निर्मत्सर साधुजनों के लिए सर्वोच्च धर्म वर्णित है — जो कपट-रहित है। यहाँ वास्तविक तत्त्व जाना जाता है — जो कल्याणकारक है और त्रिताप (आधि-व्याधि-उपाधि) को नष्ट करता है।',
@@ -1004,7 +1004,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1003,
-          sanskrit: 'स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे | अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ||',
+          sanskrit: 'स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे । अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ॥',
           transliteration: 'sa vai puṃsāṃ paro dharmo yato bhaktiradhokṣaje | ahaituk yapratihata yayātmā samprasīdati ||',
           translation: 'The supreme dharma for humanity is that which produces unmotivated and uninterrupted devotion to God — by which the Self attains complete contentment.',
           hindi: 'मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।',
@@ -1013,7 +1013,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1004,
-          sanskrit: 'भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् | नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ||',
+          sanskrit: 'भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् । नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ॥',
           transliteration: 'bhagavān bhaktibhāvena grāhyaḥ premagunairnṛṇām | nānyathā bhāvyate kvāpi yadi syādbrāhmasammataḥ ||',
           translation: 'The Lord is to be grasped by human beings through the attitude of devotion — through the qualities of love. In no other way can He be known, even if one is a great Brahman.',
           hindi: 'भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।',
@@ -1022,7 +1022,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1005,
-          sanskrit: 'नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये | तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ||',
+          sanskrit: 'नायं देहो देहभाजां नृलोके कष्टान् कामानर्हते विड्भुजां ये । तपो दिव्यं पुत्रका येन सत्त्वं शुद्ध्येद्यस्माद् ब्रह्मसौख्यं त्वनन्तम् ॥',
           transliteration: 'nāyaṃ deho dehabhājāṃ nṛloke kaṣṭān kāmānarhat viḍbhujāṃ ye | tapo divyaṃ putrakā yena sattvaṃ śuddhyed yasmād brahmasaukhyaṃ tvanantam ||',
           translation: 'This human body is not meant, O children, for pursuing the pleasures that even animals can enjoy with effort. It is meant for divine austerity by which the inner being is purified — from which comes the infinite joy of Brahman.',
           hindi: 'हे पुत्रों! यह देह उन कष्टपूर्ण विषय-भोगों के लिए नहीं है जो पशुओं को भी प्राप्त हैं। यह तो उस दिव्य तप के लिए है जिससे सत्त्व शुद्ध होता है — और जिससे ब्रह्म का अनन्त आनंद मिलता है।',
@@ -1031,7 +1031,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1009,
-          sanskrit: 'यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा | न चान्तं विन्दते पुम्भिः परभावविशारदाः ||',
+          sanskrit: 'यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा । न चान्तं विन्दते पुम्भिः परभावविशारदाः ॥',
           transliteration: 'yāṃ matiściodito yānti manasā karmaṇā girā | na cāntaṃ vindate pumbhiḥ parabhāvaviśāradāḥ ||',
           translation: 'What the wise who are skilled in understanding the supreme being go toward — with mind, action, and speech — its end is not found by anyone.',
           hindi: 'जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।',
@@ -1040,7 +1040,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1013,
-          sanskrit: 'नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् | प्रणामो दुःखशमनस्तं नमामि हरिं परम् ||',
+          sanskrit: 'नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् । प्रणामो दुःखशमनस्तं नमामि हरिं परम् ॥',
           transliteration: 'nāmasaṃkīrtanaṃ yasya sarvapāpapraṇāśanam | praṇāmo duḥkhaśamanastam namāmi hariṃ param ||',
           translation: 'The singing of whose name destroys all sin; whose salutation removes all sorrow — I bow to that Hari, the Supreme.',
           hindi: 'जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।',
@@ -1049,7 +1049,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 2025,
-          sanskrit: 'सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव | सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ||',
+          sanskrit: 'सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव । सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ॥',
           transliteration: 'satsaṅgo muktaduḥsaṅgo hanti saṃsṛtimuddha | satsaṅgasya hi mahimā puṇyaślokānukīrtanam ||',
           translation: 'The company of the holy — freed from bad association — destroys the cycle of birth and death. The greatness of such company is the praise of the blessed Lord.',
           hindi: 'संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।',
@@ -1058,7 +1058,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 2047,
-          sanskrit: 'मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् | यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ||',
+          sanskrit: 'मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् । यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ॥',
           transliteration: 'manye\'bhimukhīkṛto\'rkaḥ pṛthivyāṃ mānuṣīmatanom | yadvandanāt sukhaṃ bhūyaḥ prapedye yatra kṛṣṇastat ||',
           translation: 'I consider the sun itself to have turned toward earth, taking human form — by whose salutation I attained a joy that is more than this world\'s joy. That is where Krishna is.',
           hindi: 'मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।',
@@ -1072,7 +1072,7 @@ export const bhagavatapurana: Scripture = {
       verses: [
         {
           id: 13,
-          sanskrit: 'नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् | प्रणामो दुःखशमनस्तं नमामि हरिं परम् ||',
+          sanskrit: 'नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् । प्रणामो दुःखशमनस्तं नमामि हरिं परम् ॥',
           transliteration: 'nāmasaṃkīrtanaṃ yasya sarvapāpapraṇāśanam | praṇāmo duḥkhaśamanastam namāmi hariṃ param ||',
           translation: 'The singing of whose name destroys all sin; whose salutation removes all sorrow — I bow to that Hari, the Supreme.',
           hindi: 'जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।',
@@ -1083,7 +1083,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'कलौ कल्मषचित्तानां पापद्रष्ट्याऽऽप्लुतात्मनाम् | विविक्तध्यानसंसिद्ध्या निर्वाणपदमाश्रयेत् ||',
+          sanskrit: 'कलौ कल्मषचित्तानां पापद्रष्ट्याऽऽप्लुतात्मनाम् । विविक्तध्यानसंसिद्ध्या निर्वाणपदमाश्रयेत् ॥',
           transliteration: 'kalau kalmaṣacittānāṃ pāpadraṣṭyā\'\'plutātmanām | viviktadhyānasamsiddhyā nirvāṇapadamāśrayet ||',
           translation: 'In Kali Yuga, when minds are polluted and souls are flooded with sinful vision — liberation is attained through the perfection of solitary meditation.',
           hindi: 'कलियुग में, जब चित्त कल्मषित और आत्मा पाप-दृष्टि से आप्लुत हो, विवेकपूर्ण ध्यान-सिद्धि से ही निर्वाण-पद की प्राप्ति होती है।',
@@ -1095,7 +1095,7 @@ export const bhagavatapurana: Scripture = {
       
         {
           id: 1001,
-          sanskrit: 'नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् | प्रणामो दुःखशमनस्तं नमामि हरिं परम् ||',
+          sanskrit: 'नामसंकीर्तनं यस्य सर्वपापप्रणाशनम् । प्रणामो दुःखशमनस्तं नमामि हरिं परम् ॥',
           transliteration: 'nāmasaṃkīrtanaṃ yasya sarvapāpapraṇāśanam | praṇāmo duḥkhaśamanastam namāmi hariṃ param ||',
           translation: 'The singing of whose name destroys all sin; whose salutation removes all sorrow — I bow to that Hari, the Supreme.',
           hindi: 'जिनके नाम-संकीर्तन से सब पाप नष्ट होते हैं; जिन्हें प्रणाम करने से सब दुख शान्त होते हैं — उन परम हरि को मैं नमस्कार करता हूँ।',
@@ -1104,7 +1104,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1002,
-          sanskrit: 'कलौ कल्मषचित्तानां पापद्रष्ट्याऽऽप्लुतात्मनाम् | विविक्तध्यानसंसिद्ध्या निर्वाणपदमाश्रयेत् ||',
+          sanskrit: 'कलौ कल्मषचित्तानां पापद्रष्ट्याऽऽप्लुतात्मनाम् । विविक्तध्यानसंसिद्ध्या निर्वाणपदमाश्रयेत् ॥',
           transliteration: 'kalau kalmaṣacittānāṃ pāpadraṣṭyā\'\'plutātmanām | viviktadhyānasamsiddhyā nirvāṇapadamāśrayet ||',
           translation: 'In Kali Yuga, when minds are polluted and souls are flooded with sinful vision — liberation is attained through the perfection of solitary meditation.',
           hindi: 'कलियुग में, जब चित्त कल्मषित और आत्मा पाप-दृष्टि से आप्लुत हो, विवेकपूर्ण ध्यान-सिद्धि से ही निर्वाण-पद की प्राप्ति होती है।',
@@ -1113,7 +1113,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1003,
-          sanskrit: 'स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे | अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ||',
+          sanskrit: 'स वै पुंसां परो धर्मो यतो भक्तिरधोक्षजे । अहैतुक्यप्रतिहता ययात्मा सम्प्रसीदति ॥',
           transliteration: 'sa vai puṃsāṃ paro dharmo yato bhaktiradhokṣaje | ahaituk yapratihata yayātmā samprasīdati ||',
           translation: 'The supreme dharma for humanity is that which produces unmotivated and uninterrupted devotion to God — by which the Self attains complete contentment.',
           hindi: 'मनुष्यों के लिए वह परम धर्म है जिससे भगवान में अहैतुकी (निष्काम) और अप्रतिहत (अखंड) भक्ति उत्पन्न हो — जिससे आत्मा को पूर्ण शांति मिलती है।',
@@ -1122,7 +1122,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1004,
-          sanskrit: 'भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् | नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ||',
+          sanskrit: 'भगवान् भक्तिभावेन ग्राह्यः प्रेमगुणैर्नृणाम् । नान्यथा भाव्यते क्वापि यदि स्याद्ब्रह्मसम्मतः ॥',
           transliteration: 'bhagavān bhaktibhāvena grāhyaḥ premagunairnṛṇām | nānyathā bhāvyate kvāpi yadi syādbrāhmasammataḥ ||',
           translation: 'The Lord is to be grasped by human beings through the attitude of devotion — through the qualities of love. In no other way can He be known, even if one is a great Brahman.',
           hindi: 'भगवान मनुष्यों द्वारा भक्ति-भाव और प्रेम-गुणों से ही प्राप्त होते हैं। किसी और प्रकार से नहीं — चाहे कोई महान् ब्राह्मण ही क्यों न हो।',
@@ -1131,7 +1131,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1009,
-          sanskrit: 'यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा | न चान्तं विन्दते पुम्भिः परभावविशारदाः ||',
+          sanskrit: 'यां मातिश्चोदितो यान्ति मनसा कर्मणा गिरा । न चान्तं विन्दते पुम्भिः परभावविशारदाः ॥',
           transliteration: 'yāṃ matiściodito yānti manasā karmaṇā girā | na cāntaṃ vindate pumbhiḥ parabhāvaviśāradāḥ ||',
           translation: 'What the wise who are skilled in understanding the supreme being go toward — with mind, action, and speech — its end is not found by anyone.',
           hindi: 'जिस परम तत्त्व की ओर बुद्धिमान लोग मन, कर्म और वाणी से जाते हैं — उसका अंत किसी को नहीं मिलता।',
@@ -1140,7 +1140,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 1025,
-          sanskrit: 'सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव | सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ||',
+          sanskrit: 'सत्सङ्गो मुक्तदुःसङ्गो हन्ति संसृतिमुद्धव । सत्सङ्गस्य हि महिमा पुण्यश्लोकानुकीर्तनम् ॥',
           transliteration: 'satsaṅgo muktaduḥsaṅgo hanti saṃsṛtimuddha | satsaṅgasya hi mahimā puṇyaślokānukīrtanam ||',
           translation: 'The company of the holy — freed from bad association — destroys the cycle of birth and death. The greatness of such company is the praise of the blessed Lord.',
           hindi: 'संतों की संगति — जो बुरी संगति से मुक्त है — संसार-चक्र को नष्ट कर देती है। ऐसी संगति की महिमा है — पुण्यश्लोक प्रभु का कीर्तन।',
@@ -1149,7 +1149,7 @@ export const bhagavatapurana: Scripture = {
         },
         {
           id: 3047,
-          sanskrit: 'मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् | यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ||',
+          sanskrit: 'मन्येऽभिमुखीकृतोऽर्कः पृथिव्यां मानुषीमतनुम् । यद्वन्दनात् सुखं भूयः प्रपेद्ये यत्र कृष्णस्तत् ॥',
           transliteration: 'manye\'bhimukhīkṛto\'rkaḥ pṛthivyāṃ mānuṣīmatanom | yadvandanāt sukhaṃ bhūyaḥ prapedye yatra kṛṣṇastat ||',
           translation: 'I consider the sun itself to have turned toward earth, taking human form — by whose salutation I attained a joy that is more than this world\'s joy. That is where Krishna is.',
           hindi: 'मेरा मानना है कि सूर्य ने ही पृथ्वी पर मानव रूप लिया है — जिसकी वंदना से मैंने वह सुख पाया जो इस जगत से परे है। वहीं कृष्ण हैं।',

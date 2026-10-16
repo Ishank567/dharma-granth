@@ -17,7 +17,7 @@ export const samaveda: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'अग्न आयाहि वीतये गृणानो हव्यदातये | नि होता सत्सि बर्हिषि ||',
+          sanskrit: 'अग्न आयाहि वीतये गृणानो हव्यदातये । नि होता सत्सि बर्हिषि ॥',
           transliteration: 'agna āyāhi vītaye gṛṇāno havyadātaye | ni hotā satsi barhiṣi ||',
           translation: 'O Agni, come for the enjoyment of the oblation, praised and ready to carry the offering; sit as the priest on the sacred grass.',
           hindi: 'हे अग्नि! यज्ञ के आनंद के लिए आओ, स्तुति करते हुए हव्य देने के लिए; पवित्र कुश पर पुरोहित के रूप में बैठो।',
@@ -28,7 +28,7 @@ export const samaveda: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'ओमित्येतदक्षरमुद्गीथमुपासीत | ओमिति ह्येवं संस्तुतं ब्रह्म ||',
+          sanskrit: 'ओमित्येतदक्षरमुद्गीथमुपासीत । ओमिति ह्येवं संस्तुतं ब्रह्म ॥',
           transliteration: 'omityetadakṣaramudgīthamupāsīta | omiti hyevaṃ saṃstutaṃ brahma ||',
           translation: 'One should meditate on OM as the Udgitha (the upward chant). For thus — as OM — is Brahman praised.',
           hindi: 'ॐ — इस अक्षर को उद्गीथ (ऊर्ध्वगामी स्वर) के रूप में उपासना करो। क्योंकि ॐ के रूप में ही ब्रह्म की इस प्रकार स्तुति की जाती है।',
@@ -39,7 +39,7 @@ export const samaveda: Scripture = {
         },
         {
           id: 3,
-          sanskrit: 'तं त्वा समिद्भिरङ्गिरो घृतेन वर्धयामसि | बृहच्छोचा यविष्ठ्य ||',
+          sanskrit: 'तं त्वा समिद्भिरङ्गिरो घृतेन वर्धयामसि । बृहच्छोचा यविष्ठ्य ॥',
           transliteration: 'taṃ tvā samidbhiraṅgiro ghṛtena vardhayāmasi | bṛhacchocā yaviṣṭhya ||',
           translation: 'O Agni Angiras, we increase you with fuel and ghee. Shine brightly, O youngest one.',
           hindi: 'हे अङ्गिरस् अग्नि! हम तुम्हें समिधा और घृत से बढ़ाते हैं। हे सबसे युवा! तेजस्वी रूप से प्रकाशित हो।',
@@ -51,7 +51,7 @@ export const samaveda: Scripture = {
       
         {
           id: 9,
-          sanskrit: 'गायत्री वा इदं सर्वं भूतं यदिदं किञ्च | गायत्री वा इदं सर्वं यद्भूतं यच्च भव्यम् ||',
+          sanskrit: 'गायत्री वा इदं सर्वं भूतं यदिदं किञ्च । गायत्री वा इदं सर्वं यद्भूतं यच्च भव्यम् ॥',
           transliteration: 'gāyatrī vā idaṃ sarvaṃ bhūtaṃ yadidaṃ kiñca | gāyatrī vā idaṃ sarvaṃ yadbhūtaṃ yacca bhavyam ||',
           translation: 'Gayatri is all this, whatever exists. Gayatri is all this — whatever has been and whatever will be.',
           hindi: 'गायत्री ही यह सब है — जो कुछ भी यहाँ है। गायत्री ही सब है — जो हो चुका है और जो होगा।',
@@ -60,7 +60,7 @@ export const samaveda: Scripture = {
         },
         {
           id: 10,
-          sanskrit: 'स य एषोऽणिमैतदात्म्यमिदं सर्वं तत्सत्यं स आत्मा तत्त्वमसि श्वेतकेतो ||',
+          sanskrit: 'स य एषोऽणिमैतदात्म्यमिदं सर्वं तत्सत्यं स आत्मा तत्त्वमसि श्वेतकेतो ॥',
           transliteration: 'sa ya eṣo\'ṇimaitadātmyamidaṃ sarvaṃ tatsatyaṃ sa ātmā tattvamasi śvetaketo ||',
           translation: 'That which is the finest essence — this whole world has that as its Self. That is the real. That is the Self. Thou art that, O Shvetaketu.',
           hindi: 'जो यह सूक्ष्मतम सार है — यह सारा जगत उसी को आत्मा के रूप में धारण करता है। वही सत्य है। वही आत्मा है। हे श्वेतकेतु, तुम वही हो।',
@@ -69,7 +69,7 @@ export const samaveda: Scripture = {
         },
         {
           id: 11,
-          sanskrit: 'छन्दांसि यज्ञाः क्रतवो व्रतानि भूतं भव्यं यच्च वेदा वदन्ति | अस्माद् एतत् सर्वं प्रसूयते | यश्चायं पुरुषे यश्चासावादित्ये स एकः ||',
+          sanskrit: 'छन्दांसि यज्ञाः क्रतवो व्रतानि भूतं भव्यं यच्च वेदा वदन्ति । अस्माद् एतत् सर्वं प्रसूयते । यश्चायं पुरुषे यश्चासावादित्ये स एकः ॥',
           transliteration: 'chandāṃsi yajñāḥ kratavo vratāni bhūtaṃ bhavyaṃ yacca vedā vadanti | asmād etat sarvaṃ prasūyate | yaścāyaṃ puruṣe yaścāsāvāditye sa ekaḥ ||',
           translation: 'Meters, sacrifices, rituals, vows, past and future — all that the Vedas declare — all this is born from this (Brahman). The one who is in this person and the one who is in yonder sun — they are one.',
           hindi: 'छंद, यज्ञ, क्रतु, व्रत, भूत, भविष्य — जो वेद कहते हैं — यह सब इसी (ब्रह्म) से उत्पन्न होता है। जो इस पुरुष में है और जो उस सूर्य में है — वे एक हैं।',
@@ -78,7 +78,7 @@ export const samaveda: Scripture = {
         },
         {
           id: 12,
-          sanskrit: 'एतद्ध वाव तज्जुषते यत्साम | साम्नो ह वै रसो यः साम्नो रसस्तस्यैव ब्रह्मणो रसः ||',
+          sanskrit: 'एतद्ध वाव तज्जुषते यत्साम । साम्नो ह वै रसो यः साम्नो रसस्तस्यैव ब्रह्मणो रसः ॥',
           transliteration: 'etaddha vāva tajjuṣate yatsāma | sāmno ha vai raso yaḥ sāmno rasastasyaiva brahmaṇo rasaḥ ||',
           translation: 'That which one enjoys — that is Sama. The essence (rasa) of Sama is real; that essence of Sama is the very essence of Brahman.',
           hindi: 'जिसका कोई रसास्वादन करता है — वही साम है। साम का जो रस है — वही साम का रस ब्रह्म का ही रस है।',
@@ -94,7 +94,7 @@ export const samaveda: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'सं गच्छध्वं सं वदध्वं सं वो मनांसि जानताम् | देवा भागं यथा पूर्वे सञ्जानाना उपासते ||',
+          sanskrit: 'सं गच्छध्वं सं वदध्वं सं वो मनांसि जानताम् । देवा भागं यथा पूर्वे सञ्जानाना उपासते ॥',
           transliteration: 'saṃ gacchadhvaṃ saṃ vadadhvaṃ saṃ vo manāṃsi jānatām | devā bhāgaṃ yathā pūrve sañjānānā upāsate ||',
           translation: 'Come together; speak together; let your minds be in harmony. Just as the ancient gods sat together in unity, sharing their portion.',
           hindi: 'एक साथ चलो; एक साथ बोलो; तुम्हारे मन एक-मत हों। जैसे प्राचीन देवता अपने भाग को एकमत होकर उपासना करते थे।',
@@ -105,7 +105,7 @@ export const samaveda: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'समानी व आकूतिः समाना हृदयानि वः | समानमस्तु वो मनो यथा वः सुसहासति ||',
+          sanskrit: 'समानी व आकूतिः समाना हृदयानि वः । समानमस्तु वो मनो यथा वः सुसहासति ॥',
           transliteration: 'samānī va ākūtiḥ samānā hṛdayāni vaḥ | samānamastu vo mano yathā vaḥ susahāsati ||',
           translation: 'Let your intentions be one; let your hearts be one; let your minds be united, so that you may live together in harmony.',
           hindi: 'तुम्हारी संकल्प-शक्ति एक हो; तुम्हारे हृदय एक हों; तुम्हारे मन एकता में हों, ताकि तुम मिलकर सुंदर ढंग से रह सको।',
@@ -124,7 +124,7 @@ export const samaveda: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'अग्निमीळे पुरोहितं यज्ञस्य देवमृत्विजम् | होतारं रत्नधातमम् ||',
+          sanskrit: 'अग्निमीळे पुरोहितं यज्ञस्य देवमृत्विजम् । होतारं रत्नधातमम् ॥',
           transliteration: 'agnimīḷe purohitaṃ yajñasya devamṛtvijam | hotāraṃ ratnadhātamam ||',
           translation: 'I praise Agni — the priest before the ritual, the divine officiator of the sacrifice, the invoker, the supreme bestower of treasures.',
           hindi: 'मैं अग्नि की स्तुति करता हूँ — यज्ञ का पुरोहित, देव-ऋत्विज्, हव्यवाहक, रत्नों का परम दाता।',
@@ -135,7 +135,7 @@ export const samaveda: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'अग्नि इन्धे वि भाति प्रियो देवानामुत मर्त्यानाम् | स इद्दिवे स इद्दिवे ||',
+          sanskrit: 'अग्नि इन्धे वि भाति प्रियो देवानामुत मर्त्यानाम् । स इद्दिवे स इद्दिवे ॥',
           transliteration: 'agni indhe vi bhāti priyo devānāmuta martyānām | sa iddive sa iddive ||',
           translation: 'Agni, kindled, shines brightly — beloved of the gods and of mortals. Day by day, day by day.',
           hindi: 'अग्नि, प्रज्वलित होकर, देदीप्यमान होती है — देवों की और मनुष्यों की प्रिय। प्रतिदिन, प्रतिदिन।',
@@ -154,7 +154,7 @@ export const samaveda: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'सर्वं खल्विदं ब्रह्म तज्जलानिति शान्त उपासीत | अथ खलु क्रतुमयः पुरुषो यथाक्रतुरस्मिंल्लोके पुरुषो भवति तथेतः प्रेत्य भवति ||',
+          sanskrit: 'सर्वं खल्विदं ब्रह्म तज्जलानिति शान्त उपासीत । अथ खलु क्रतुमयः पुरुषो यथाक्रतुरस्मिंल्लोके पुरुषो भवति तथेतः प्रेत्य भवति ॥',
           transliteration: 'sarvaṃ khalvidaṃ brahma tajjalāniti śānta upāsīta | atha khalu kratumayaḥ puruṣo yathākraturasminnlloke puruṣo bhavati tathetaḥ pretya bhavati ||',
           translation: 'All this is indeed Brahman — from which it is born, into which it dissolves, by which it breathes. Contemplate it in tranquillity. Truly, a person is made of intention (kratu). As the intention is in this world, so one becomes after departing.',
           hindi: 'यह सब ब्रह्म ही है — जिससे यह उत्पन्न होता है, जिसमें लय होता है, जिससे यह श्वास लेता है। इसे शान्त होकर उपासो। वास्तव में मनुष्य संकल्पमय है। जैसा इस लोक में उसका संकल्प है, वैसा ही वह मृत्यु के बाद होता है।',
@@ -165,7 +165,7 @@ export const samaveda: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'तदेतत्त्रयं सत् आयतनम् स प्राणः सा आशा सः स्मरः | तद्यत्र स्वपिति अथ अस्य एतेषां भूतानाम् सधस्थं भवति ||',
+          sanskrit: 'तदेतत्त्रयं सत् आयतनम् स प्राणः सा आशा सः स्मरः । तद्यत्र स्वपिति अथ अस्य एतेषां भूतानाम् सधस्थं भवति ॥',
           transliteration: 'tadyathā madhu madhukṛto niṣṭiṣṭhanti nānātyayānāṃ vṛkṣāṇāṃ rasān ekataṃ rasaṃ gamayanti | evameva khalv etāḥ sarvāḥ prajāḥ sati sampadya na viduḥ iha smaḥ iti ||',
           translation: 'Just as bees make honey by gathering the nectars of different trees and reducing them to one — so all these beings, merging into Being (Sat), do not know: "We have merged into Being."',
           hindi: 'जैसे मधुमक्खियाँ विभिन्न वृक्षों के रसों को इकट्ठा करके एक रस बनाती हैं — ठीक वैसे ही सभी प्राणी सत् में समा जाते हैं और नहीं जानते कि "हम सत् में समा गये।"',
@@ -176,7 +176,7 @@ export const samaveda: Scripture = {
         },
         {
           id: 3,
-          sanskrit: 'आदित्यो ब्रह्म इति होवाच | आदित्यस्य ब्रह्मेति | तस्यात्मानमुपासीत | एष एव साम गानं उद्गायति ||',
+          sanskrit: 'आदित्यो ब्रह्म इति होवाच । आदित्यस्य ब्रह्मेति । तस्यात्मानमुपासीत । एष एव साम गानं उद्गायति ॥',
           transliteration: 'ādityo brahma iti hovāca | ādityo brahmeti | tasyātmānamupāsīta | eṣa eva sāma gānaṃ udgāyati ||',
           translation: 'The Sun is Brahman — thus he declared. The Sun is Brahman. Meditate upon the Self of that. This one alone sings the Sama song upward.',
           hindi: 'आदित्य ब्रह्म है — ऐसा उन्होंने कहा। आदित्य ब्रह्म है। उसके आत्मा का ध्यान करो। यही सामगान ऊर्ध्वगामी गाता है।',
@@ -187,7 +187,7 @@ export const samaveda: Scripture = {
         },
         {
           id: 9,
-          sanskrit: 'गायत्री वा इदं सर्वं भूतं यदिदं किञ्च | गायत्री वा इदं सर्वं यद्भूतं यच्च भव्यम् ||',
+          sanskrit: 'गायत्री वा इदं सर्वं भूतं यदिदं किञ्च । गायत्री वा इदं सर्वं यद्भूतं यच्च भव्यम् ॥',
           transliteration: 'gāyatrī vā idaṃ sarvaṃ bhūtaṃ yadidaṃ kiñca | gāyatrī vā idaṃ sarvaṃ yadbhūtaṃ yacca bhavyam ||',
           translation: 'Gayatri is all this, whatever exists. Gayatri is all this — whatever has been and whatever will be.',
           hindi: 'गायत्री ही यह सब है — जो कुछ भी यहाँ है। गायत्री ही सब है — जो हो चुका है और जो होगा।',
@@ -198,7 +198,7 @@ export const samaveda: Scripture = {
         },
         {
           id: 10,
-          sanskrit: 'स य एषोऽणिमैतदात्म्यमिदं सर्वं तत्सत्यं स आत्मा तत्त्वमसि श्वेतकेतो ||',
+          sanskrit: 'स य एषोऽणिमैतदात्म्यमिदं सर्वं तत्सत्यं स आत्मा तत्त्वमसि श्वेतकेतो ॥',
           transliteration: 'sa ya eṣo\'ṇimaitadātmyamidaṃ sarvaṃ tatsatyaṃ sa ātmā tattvamasi śvetaketo ||',
           translation: 'That which is the finest essence — this whole world has that as its Self. That is the real. That is the Self. Thou art that, O Shvetaketu.',
           hindi: 'जो यह सूक्ष्मतम सार है — यह सारा जगत उसी को आत्मा के रूप में धारण करता है। वही सत्य है। वही आत्मा है। हे श्वेतकेतु, तुम वही हो।',
@@ -209,7 +209,7 @@ export const samaveda: Scripture = {
         },
         {
           id: 11,
-          sanskrit: 'छन्दांसि यज्ञाः क्रतवो व्रतानि भूतं भव्यं यच्च वेदा वदन्ति | अस्माद् एतत् सर्वं प्रसूयते | यश्चायं पुरुषे यश्चासावादित्ये स एकः ||',
+          sanskrit: 'छन्दांसि यज्ञाः क्रतवो व्रतानि भूतं भव्यं यच्च वेदा वदन्ति । अस्माद् एतत् सर्वं प्रसूयते । यश्चायं पुरुषे यश्चासावादित्ये स एकः ॥',
           transliteration: 'chandāṃsi yajñāḥ kratavo vratāni bhūtaṃ bhavyaṃ yacca vedā vadanti | asmād etat sarvaṃ prasūyate | yaścāyaṃ puruṣe yaścāsāvāditye sa ekaḥ ||',
           translation: 'Meters, sacrifices, rituals, vows, past and future — all that the Vedas declare — all this is born from this (Brahman). The one who is in this person and the one who is in yonder sun — they are one.',
           hindi: 'छंद, यज्ञ, क्रतु, व्रत, भूत, भविष्य — जो वेद कहते हैं — यह सब इसी (ब्रह्म) से उत्पन्न होता है। जो इस पुरुष में है और जो उस सूर्य में है — वे एक हैं।',
@@ -220,7 +220,7 @@ export const samaveda: Scripture = {
         },
         {
           id: 12,
-          sanskrit: 'एतद्ध वाव तज्जुषते यत्साम | साम्नो ह वै रसो यः साम्नो रसस्तस्यैव ब्रह्मणो रसः ||',
+          sanskrit: 'एतद्ध वाव तज्जुषते यत्साम । साम्नो ह वै रसो यः साम्नो रसस्तस्यैव ब्रह्मणो रसः ॥',
           transliteration: 'etaddha vāva tajjuṣate yatsāma | sāmno ha vai raso yaḥ sāmno rasastasyaiva brahmaṇo rasaḥ ||',
           translation: 'That which one enjoys — that is Sama. The essence (rasa) of Sama is real; that essence of Sama is the very essence of Brahman.',
           hindi: 'जिसका कोई रसास्वादन करता है — वही साम है। साम का जो रस है — वही साम का रस ब्रह्म का ही रस है।',
@@ -232,7 +232,7 @@ export const samaveda: Scripture = {
       
         {
           id: 660,
-          sanskrit: 'अग्न आयाहि वीतये गृणानो हव्यदातये | नि होता सत्सि बर्हिषि ||',
+          sanskrit: 'अग्न आयाहि वीतये गृणानो हव्यदातये । नि होता सत्सि बर्हिषि ॥',
           transliteration: 'agna āyāhi vītaye gṛṇāno havyadātaye | ni hotā satsi barhiṣi ||',
           translation: 'O Agni, come for the enjoyment of the oblation, praised and ready to carry the offering; sit as the priest on the sacred grass.',
           hindi: 'हे अग्नि! यज्ञ के आनंद के लिए आओ, स्तुति करते हुए हव्य देने के लिए; पवित्र कुश पर पुरोहित के रूप में बैठो।',
@@ -241,7 +241,7 @@ export const samaveda: Scripture = {
         },
         {
           id: 661,
-          sanskrit: 'तं त्वा समिद्भिरङ्गिरो घृतेन वर्धयामसि | बृहच्छोचा यविष्ठ्य ||',
+          sanskrit: 'तं त्वा समिद्भिरङ्गिरो घृतेन वर्धयामसि । बृहच्छोचा यविष्ठ्य ॥',
           transliteration: 'taṃ tvā samidbhiraṅgiro ghṛtena vardhayāmasi | bṛhacchocā yaviṣṭhya ||',
           translation: 'O Agni Angiras, we increase you with fuel and ghee. Shine brightly, O youngest one.',
           hindi: 'हे अङ्गिरस् अग्नि! हम तुम्हें समिधा और घृत से बढ़ाते हैं। हे सबसे युवा! तेजस्वी रूप से प्रकाशित हो।',

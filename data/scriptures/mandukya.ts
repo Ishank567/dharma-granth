@@ -20,7 +20,7 @@ export const mandukya: Scripture = {
         {
           id: 1,
           sanskrit:
-            'ॐ इत्येतदक्षरमिदं सर्वं तस्योपव्याख्यानं भूतं भवद्भविष्यदिति सर्वमोङ्कार एव | यच्चान्यत्त्रिकालातीतं तदप्योङ्कार एव ||',
+            'ॐ इत्येतदक्षरमिदं सर्वं तस्योपव्याख्यानं भूतं भवद्भविष्यदिति सर्वमोङ्कार एव । यच्चान्यत्त्रिकालातीतं तदप्योङ्कार एव ॥',
           transliteration:
             'oṃ ityetadakṣaramidaṃ sarvaṃ tasyopavyākhyānaṃ bhūtaṃ bhavadbhaviṣyaditi sarvamoṅkāra eva | yaccānyattrikālātītaṃ tadapyoṅkāra eva ||',
           translation:
@@ -37,7 +37,7 @@ export const mandukya: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'सर्वं ह्येतद् ब्रह्मायमात्मा ब्रह्म सोऽयमात्मा चतुष्पात् ||',
+          sanskrit: 'सर्वं ह्येतद् ब्रह्मायमात्मा ब्रह्म सोऽयमात्मा चतुष्पात् ॥',
           transliteration: "sarvaṃ hyetad brahmāyamātmā brahma so'yamātmā catuṣpāt ||",
           translation:
             'All this is verily Brahman. This Self is Brahman. This Self has four quarters (states).',
@@ -54,7 +54,7 @@ export const mandukya: Scripture = {
         {
           id: 3,
           sanskrit:
-            'जागरितस्थानो बहिष्प्रज्ञः सप्ताङ्ग एकोनविंशतिमुखः स्थूलभुग्वैश्वानरः प्रथमः पादः ||',
+            'जागरितस्थानो बहिष्प्रज्ञः सप्ताङ्ग एकोनविंशतिमुखः स्थूलभुग्वैश्वानरः प्रथमः पादः ॥',
           transliteration:
             'jāgaritasthāno bahiṣprajñaḥ saptāṅga ekonaviṃśatimukhaḥ sthūlabhugvaiśvānaraḥ prathamaḥ pādaḥ ||',
           translation:
@@ -72,7 +72,7 @@ export const mandukya: Scripture = {
         {
           id: 4,
           sanskrit:
-            "स्वप्नस्थानोऽन्तःप्रज्ञः सप्ताङ्ग एकोनविंशतिमुखः प्रविविक्तभुक्तैजसो द्वितीयः पादः ||",
+            "स्वप्नस्थानोऽन्तःप्रज्ञः सप्ताङ्ग एकोनविंशतिमुखः प्रविविक्तभुक्तैजसो द्वितीयः पादः ॥",
           transliteration:
             "svapnasthāno'ntaḥprajñaḥ saptāṅga ekonaviṃśatimukhaḥ pravivikta-bhuktaijaso dvitīyaḥ pādaḥ ||",
           translation:
@@ -90,7 +90,7 @@ export const mandukya: Scripture = {
         {
           id: 5,
           sanskrit:
-            'यत्र सुप्तो न कञ्चन कामं कामयते न कञ्चन स्वप्नं पश्यति तत् सुषुप्तम् | सुषुप्तस्थान एकीभूतः प्रज्ञानघन एवानन्दमयो ह्यानन्दभुक् चेतोमुखः प्राज्ञस्तृतीयः पादः ||',
+            'यत्र सुप्तो न कञ्चन कामं कामयते न कञ्चन स्वप्नं पश्यति तत् सुषुप्तम् । सुषुप्तस्थान एकीभूतः प्रज्ञानघन एवानन्दमयो ह्यानन्दभुक् चेतोमुखः प्राज्ञस्तृतीयः पादः ॥',
           transliteration:
             'yatra supto na kañcana kāmaṃ kāmayate na kañcana svapnaṃ paśyati tat suṣuptam | suṣuptasthāna ekībhūtaḥ prajñānaghana evānandamayo hyānandabhuk cetomukhaḥ prājñastṛtīyaḥ pādaḥ ||',
           translation:
@@ -108,7 +108,7 @@ export const mandukya: Scripture = {
         {
           id: 6,
           sanskrit:
-            "एष सर्वेश्वर एष सर्वज्ञ एषोऽन्तर्याम्येष योनिः सर्वस्य प्रभवाप्ययौ हि भूतानाम् ||",
+            "एष सर्वेश्वर एष सर्वज्ञ एषोऽन्तर्याम्येष योनिः सर्वस्य प्रभवाप्ययौ हि भूतानाम् ॥",
           transliteration:
             "eṣa sarveśvara eṣa sarvajña eṣo'ntaryāmyeṣa yoniḥ sarvasya prabhavāpyayau hi bhūtānām ||",
           translation:
@@ -126,7 +126,7 @@ export const mandukya: Scripture = {
         {
           id: 7,
           sanskrit:
-            'नान्तःप्रज्ञं न बहिष्प्रज्ञं नोभयतःप्रज्ञं न प्रज्ञानघनं न प्रज्ञं नाप्रज्ञम् | अदृष्टमव्यवहार्यमग्राह्यमलक्षणमचिन्त्यमव्यपदेश्यमेकात्मप्रत्ययसारं प्रपञ्चोपशमं शान्तं शिवमद्वैतं चतुर्थं मन्यन्ते स आत्मा स विज्ञेयः ||',
+            'नान्तःप्रज्ञं न बहिष्प्रज्ञं नोभयतःप्रज्ञं न प्रज्ञानघनं न प्रज्ञं नाप्रज्ञम् । अदृष्टमव्यवहार्यमग्राह्यमलक्षणमचिन्त्यमव्यपदेश्यमेकात्मप्रत्ययसारं प्रपञ्चोपशमं शान्तं शिवमद्वैतं चतुर्थं मन्यन्ते स आत्मा स विज्ञेयः ॥',
           transliteration:
             "nāntaḥprajñaṃ na bahiṣprajñaṃ nobhayataḥprajñaṃ na prajñānaghanaṃ na prajñaṃ nāprajñam | adṛṣṭamavyavahāryamagrāhyamalakṣaṇamacintyamavyapadeśyamekātmapratyayasāraṃ prapañcopaśamaṃ śāntaṃ śivamadvaitaṃ caturthaṃ manyante sa ātmā sa vijñeyaḥ ||",
           translation:
@@ -144,7 +144,7 @@ export const mandukya: Scripture = {
         {
           id: 8,
           sanskrit:
-            "सोऽयमात्माध्यक्षरमोङ्कारोऽधिमात्रं पादा मात्रा मात्राश्च पादा अकार उकारो मकार इति ||",
+            "सोऽयमात्माध्यक्षरमोङ्कारोऽधिमात्रं पादा मात्रा मात्राश्च पादा अकार उकारो मकार इति ॥",
           transliteration:
             "so'yamātmādhyakṣaramoṅkāro'dhimātraṃ pādā mātrā mātrāśca pādā akāra ukāro makāra iti ||",
           translation:
@@ -162,7 +162,7 @@ export const mandukya: Scripture = {
         {
           id: 9,
           sanskrit:
-            'जागरितस्थानो वैश्वानरोऽकारः प्रथमा मात्राऽऽप्तेरादिमत्त्वाद्वाऽऽप्नोति ह वै सर्वान् कामानादिश्च भवति य एवं वेद ||',
+            'जागरितस्थानो वैश्वानरोऽकारः प्रथमा मात्राऽऽप्तेरादिमत्त्वाद्वाऽऽप्नोति ह वै सर्वान् कामानादिश्च भवति य एवं वेद ॥',
           transliteration:
             "jāgaritasthāno vaiśvānaro'kāraḥ prathamā mātrā''pterādimattvādvā''pnoti ha vai sarvān kāmānādiśca bhavati ya evaṃ veda ||",
           translation:
@@ -180,7 +180,7 @@ export const mandukya: Scripture = {
         {
           id: 10,
           sanskrit:
-            'स्वप्नस्थानस्तैजस उकारो द्वितीया मात्रोत्कर्षादुभयत्वाद्वोत्कर्षति ह वै ज्ञानसन्ततिं समानश्च भवति नास्याब्रह्मवित्कुले भवति य एवं वेद ||',
+            'स्वप्नस्थानस्तैजस उकारो द्वितीया मात्रोत्कर्षादुभयत्वाद्वोत्कर्षति ह वै ज्ञानसन्ततिं समानश्च भवति नास्याब्रह्मवित्कुले भवति य एवं वेद ॥',
           transliteration:
             "svapnasthānastaijasa ukāro dvitīyā mātrotkarṣādubhayatvādvotkarṣati ha vai jñānasantatiṃ samānaśca bhavati nāsyābrahmavitkule bhavati ya evaṃ veda ||",
           translation:
@@ -198,7 +198,7 @@ export const mandukya: Scripture = {
         {
           id: 11,
           sanskrit:
-            'सुषुप्तस्थानः प्राज्ञो मकारस्तृतीया मात्रा मितेरपीतेर्वा मिनोति ह वा इदं सर्वमपीतिश्च भवति य एवं वेद ||',
+            'सुषुप्तस्थानः प्राज्ञो मकारस्तृतीया मात्रा मितेरपीतेर्वा मिनोति ह वा इदं सर्वमपीतिश्च भवति य एवं वेद ॥',
           transliteration:
             'suṣuptasthānaḥ prājño makārastṛtīyā mātrā miterapītervā minoti ha vā idaṃ sarvamapītiśca bhavati ya evaṃ veda ||',
           translation:
@@ -216,7 +216,7 @@ export const mandukya: Scripture = {
         {
           id: 12,
           sanskrit:
-            "अमात्रश्चतुर्थोऽव्यवहार्यः प्रपञ्चोपशमः शिवोऽद्वैत एवमोङ्कार आत्मैव संविशत्यात्मनाऽऽत्मानं य एवं वेद ||",
+            "अमात्रश्चतुर्थोऽव्यवहार्यः प्रपञ्चोपशमः शिवोऽद्वैत एवमोङ्कार आत्मैव संविशत्यात्मनाऽऽत्मानं य एवं वेद ॥",
           transliteration:
             "amātraścaturtho'vyavahāryaḥ prapañcopaśamaḥ śivo'dvaita evamoṅkāra ātmaiva saṃviśatyātmanā''tmānaṃ ya evaṃ veda ||",
           translation:

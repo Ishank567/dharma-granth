@@ -26,6 +26,8 @@ import type { ScriptureCategory } from '@/data/types';
 import type { VerseHighlight } from '@/lib/useStudyProgress';
 import { resolveKeywordTarget } from '@/lib/keyword-links';
 import { toDevanagari, verseLines } from '@/lib/verse-format';
+import { shareVerseUrl } from '@/lib/verse-paths';
+import { SITE_URL } from '@/lib/jsonld';
 import { ShareVerseButton } from './ShareVerseButton';
 import { GlossaryText } from './GlossaryTooltip';
 import { getVerseGraphicClass, getVerseGraphicStyle } from './verse-background';
@@ -66,6 +68,7 @@ interface Props {
   verse: VerseCardData;
   meaning: VerseMeaning;
   layers: VerseLayers;
+  scriptureId: string;
   chapterId: number;
   category: ScriptureCategory;
   scriptureTitle: string;
@@ -161,6 +164,7 @@ export function VerseCard({
   verse: v,
   meaning,
   layers,
+  scriptureId,
   chapterId,
   category,
   scriptureTitle,
@@ -463,6 +467,7 @@ export function VerseCard({
                 transliteration={v.transliteration}
                 hindi={v.hindi}
                 translation={v.translation}
+                verseUrl={shareVerseUrl(SITE_URL, scriptureId, chapterId, v.number)}
               />
             </span>
             {onOpenFocus && (

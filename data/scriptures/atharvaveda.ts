@@ -17,7 +17,7 @@ export const atharvaveda: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'सत्यं बृहद् ऋतमुग्रं दीक्षा तपो ब्रह्म यज्ञः पृथिवीं धारयन्ति | सा नो भूतस्य भव्यस्य पत्न्युरुं लोकं पृथिवी नः कृणोतु ||',
+          sanskrit: 'सत्यं बृहद् ऋतमुग्रं दीक्षा तपो ब्रह्म यज्ञः पृथिवीं धारयन्ति । सा नो भूतस्य भव्यस्य पत्न्युरुं लोकं पृथिवी नः कृणोतु ॥',
           transliteration: 'satyaṃ bṛhad ṛtamugram dīkṣā tapo brahma yajñaḥ pṛthivīṃ dhārayanti | sā no bhūtasya bhavyasya patnyuruṃ lokaṃ pṛthivī naḥ kṛṇotu ||',
           translation: 'Truth, cosmic law, strength, consecration, austerity, Brahman, and sacrifice — these uphold the Earth. May she, the mistress of past and future, make wide space for us.',
           hindi: 'सत्य, बृहत् (विशालता), ऋत (ब्रह्मांडीय नियम), उग्रता (शक्ति), दीक्षा, तप, ब्रह्म और यज्ञ — ये पृथ्वी को धारण करते हैं। वह भूत और भविष्य की स्वामिनी हमारे लिए विशाल लोक बनाए।',
@@ -28,7 +28,7 @@ export const atharvaveda: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'माता भूमिः पुत्रोऽहं पृथिव्याः | पर्जन्यः पिता स उ नः पिपर्तु ||',
+          sanskrit: 'माता भूमिः पुत्रोऽहं पृथिव्याः । पर्जन्यः पिता स उ नः पिपर्तु ॥',
           transliteration: 'mātā bhūmiḥ putro\'haṃ pṛthivyāḥ | parjanyaḥ pitā sa u naḥ pipartu ||',
           translation: 'Earth is my mother; I am the son of the Earth. Parjanya (the sky/rain) is my father — may he nourish us.',
           hindi: 'भूमि माता है; मैं पृथ्वी का पुत्र हूँ। पर्जन्य (वर्षा/आकाश) पिता है — वह हमें पोषण दे।',
@@ -39,7 +39,7 @@ export const atharvaveda: Scripture = {
         },
         {
           id: 3,
-          sanskrit: 'यत्ते मध्यं पृथिवि यच्च नभ्यं यास्त उर्जस्तन्वः सम्बभूवुः | तासु नो धेह्यभि नः पवस्व माता भूमिः पुत्रो अहं पृथिव्याः ||',
+          sanskrit: 'यत्ते मध्यं पृथिवि यच्च नभ्यं यास्त उर्जस्तन्वः सम्बभूवुः । तासु नो धेह्यभि नः पवस्व माता भूमिः पुत्रो अहं पृथिव्याः ॥',
           transliteration: 'yatte madhyaṃ pṛthivi yacca nabhyaṃ yāsta urjastanvaḥ sambabhūvuḥ | tāsu no dhehyabhi naḥ pavasva mātā bhūmiḥ putro ahaṃ pṛthivyāḥ ||',
           translation: 'Whatever is your centre, O Earth, your navel, whatever energies arose in your body — place us in those, and purify us. Earth is our mother; I am the son of the Earth.',
           hindi: 'हे पृथ्वी! तेरा जो मध्य है, जो नाभि है, तेरे शरीर में जो शक्तियाँ उत्पन्न हुईं — उनमें हमें स्थापित कर और हमें शुद्ध कर। भूमि माता है; मैं पृथ्वी का पुत्र हूँ।',
@@ -51,7 +51,7 @@ export const atharvaveda: Scripture = {
       
         {
           id: 1002,
-          sanskrit: 'माता भूमिः पुत्रोऽहं पृथिव्याः | पर्जन्यः पिता स उ नः पिपर्तु ||',
+          sanskrit: 'माता भूमिः पुत्रोऽहं पृथिव्याः । पर्जन्यः पिता स उ नः पिपर्तु ॥',
           transliteration: 'mātā bhūmiḥ putro\'haṃ pṛthivyāḥ | parjanyaḥ pitā sa u naḥ pipartu ||',
           translation: 'Earth is my mother; I am the son of the Earth. Parjanya (the sky/rain) is my father — may he nourish us.',
           hindi: 'भूमि माता है; मैं पृथ्वी का पुत्र हूँ। पर्जन्य (वर्षा/आकाश) पिता है — वह हमें पोषण दे।',
@@ -60,7 +60,7 @@ export const atharvaveda: Scripture = {
         },
         {
           id: 1003,
-          sanskrit: 'यत्ते मध्यं पृथिवि यच्च नभ्यं यास्त उर्जस्तन्वः सम्बभूवुः | तासु नो धेह्यभि नः पवस्व माता भूमिः पुत्रो अहं पृथिव्याः ||',
+          sanskrit: 'यत्ते मध्यं पृथिवि यच्च नभ्यं यास्त उर्जस्तन्वः सम्बभूवुः । तासु नो धेह्यभि नः पवस्व माता भूमिः पुत्रो अहं पृथिव्याः ॥',
           transliteration: 'yatte madhyaṃ pṛthivi yacca nabhyaṃ yāsta urjastanvaḥ sambabhūvuḥ | tāsu no dhehyabhi naḥ pavasva mātā bhūmiḥ putro ahaṃ pṛthivyāḥ ||',
           translation: 'Whatever is your centre, O Earth, your navel, whatever energies arose in your body — place us in those, and purify us. Earth is our mother; I am the son of the Earth.',
           hindi: 'हे पृथ्वी! तेरा जो मध्य है, जो नाभि है, तेरे शरीर में जो शक्तियाँ उत्पन्न हुईं — उनमें हमें स्थापित कर और हमें शुद्ध कर। भूमि माता है; मैं पृथ्वी का पुत्र हूँ।',
@@ -69,7 +69,7 @@ export const atharvaveda: Scripture = {
         },
         {
           id: 3008,
-          sanskrit: 'तपसा ब्रह्मचर्येण श्रद्धया विद्यया सह | आत्मानमन्विच्छ विद्वान् यो जानाति स मुच्यते ||',
+          sanskrit: 'तपसा ब्रह्मचर्येण श्रद्धया विद्यया सह । आत्मानमन्विच्छ विद्वान् यो जानाति स मुच्यते ॥',
           transliteration: 'tapasā brahmacaryeṇa śraddhayā vidyayā saha | ātmānamanviccha vidvān yo jānāti sa mucyate ||',
           translation: 'Through austerity, brahmacharya, faith, and knowledge — let the wise person seek the Self. One who knows it is liberated.',
           hindi: 'तप, ब्रह्मचर्य, श्रद्धा और विद्या के साथ — विद्वान आत्मा की खोज करे। जो जानता है, वह मुक्त होता है।',
@@ -78,7 +78,7 @@ export const atharvaveda: Scripture = {
         },
         {
           id: 3009,
-          sanskrit: 'अयं मे हस्तो भगवान् अयं मे भगवत्तरः | अयं मे विश्वभेषजो अयं शिवाभिमर्शनः ||',
+          sanskrit: 'अयं मे हस्तो भगवान् अयं मे भगवत्तरः । अयं मे विश्वभेषजो अयं शिवाभिमर्शनः ॥',
           transliteration: 'ayaṃ me hasto bhagavān ayaṃ me bhagavattaraḥ | ayaṃ me viśvabheṣajo ayaṃ śivābhimarśanaḥ ||',
           translation: 'This hand of mine is blessed, this hand is even more blessed. This hand is the medicine of the universe; this hand is the touch of Shiva.',
           hindi: 'यह मेरा हाथ भगवान है, यह और भी अधिक भगवान है। यह मेरा हाथ विश्व की औषधि है; यह शिव का स्पर्श है।',
@@ -94,7 +94,7 @@ export const atharvaveda: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'अनित्यानि शरीराणि विभवो नैव शाश्वतः | नित्यं सन्निहितो मृत्युः कर्तव्यो धर्मसंग्रहः ||',
+          sanskrit: 'अनित्यानि शरीराणि विभवो नैव शाश्वतः । नित्यं सन्निहितो मृत्युः कर्तव्यो धर्मसंग्रहः ॥',
           transliteration: 'anityāni śarīrāṇi vibhavo naiva śāśvataḥ | nityaṃ sannihito mṛtyuḥ kartavyo dharmasaṃgrahaḥ ||',
           translation: 'Bodies are impermanent; wealth is never eternal; death is always near — therefore, one should gather dharma.',
           hindi: 'शरीर अनित्य हैं; वैभव शाश्वत नहीं है; मृत्यु सदा समीप है — इसलिए धर्म का संग्रह करना चाहिए।',
@@ -105,7 +105,7 @@ export const atharvaveda: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'ये ते पन्थानो बहवो जनायना रथस्य वर्त्मानि | तेभिर्नो अव्याधिभिः सर्वाङ्गैः सम्पराय ||',
+          sanskrit: 'ये ते पन्थानो बहवो जनायना रथस्य वर्त्मानि । तेभिर्नो अव्याधिभिः सर्वाङ्गैः सम्पराय ॥',
           transliteration: 'ye te panthāno bahavo janāyanā rathasya vartmāni | tebhirno avyādhibhiḥ sarvāṅgaiḥ sampāraya ||',
           translation: 'Your paths, O Earth, are many — the roads of the chariot, the paths of men. By these, carry us across, disease-free, with all our limbs whole.',
           hindi: 'हे पृथ्वी! तेरे मार्ग अनेक हैं — रथ के मार्ग, मनुष्यों के पथ। इन्हीं मार्गों से हमें रोग-रहित, सब अंगों से स्वस्थ, पार कर।',
@@ -117,7 +117,7 @@ export const atharvaveda: Scripture = {
       
         {
           id: 1002,
-          sanskrit: 'ये ते पन्थानो बहवो जनायना रथस्य वर्त्मानि | तेभिर्नो अव्याधिभिः सर्वाङ्गैः सम्पराय ||',
+          sanskrit: 'ये ते पन्थानो बहवो जनायना रथस्य वर्त्मानि । तेभिर्नो अव्याधिभिः सर्वाङ्गैः सम्पराय ॥',
           transliteration: 'ye te panthāno bahavo janāyanā rathasya vartmāni | tebhirno avyādhibhiḥ sarvāṅgaiḥ sampāraya ||',
           translation: 'Your paths, O Earth, are many — the roads of the chariot, the paths of men. By these, carry us across, disease-free, with all our limbs whole.',
           hindi: 'हे पृथ्वी! तेरे मार्ग अनेक हैं — रथ के मार्ग, मनुष्यों के पथ। इन्हीं मार्गों से हमें रोग-रहित, सब अंगों से स्वस्थ, पार कर।',
@@ -126,7 +126,7 @@ export const atharvaveda: Scripture = {
         },
         {
           id: 1003,
-          sanskrit: 'यत्ते मध्यं पृथिवि यच्च नभ्यं यास्त उर्जस्तन्वः सम्बभूवुः | तासु नो धेह्यभि नः पवस्व माता भूमिः पुत्रो अहं पृथिव्याः ||',
+          sanskrit: 'यत्ते मध्यं पृथिवि यच्च नभ्यं यास्त उर्जस्तन्वः सम्बभूवुः । तासु नो धेह्यभि नः पवस्व माता भूमिः पुत्रो अहं पृथिव्याः ॥',
           transliteration: 'yatte madhyaṃ pṛthivi yacca nabhyaṃ yāsta urjastanvaḥ sambabhūvuḥ | tāsu no dhehyabhi naḥ pavasva mātā bhūmiḥ putro ahaṃ pṛthivyāḥ ||',
           translation: 'Whatever is your centre, O Earth, your navel, whatever energies arose in your body — place us in those, and purify us. Earth is our mother; I am the son of the Earth.',
           hindi: 'हे पृथ्वी! तेरा जो मध्य है, जो नाभि है, तेरे शरीर में जो शक्तियाँ उत्पन्न हुईं — उनमें हमें स्थापित कर और हमें शुद्ध कर। भूमि माता है; मैं पृथ्वी का पुत्र हूँ।',
@@ -135,7 +135,7 @@ export const atharvaveda: Scripture = {
         },
         {
           id: 10008,
-          sanskrit: 'तपसा ब्रह्मचर्येण श्रद्धया विद्यया सह | आत्मानमन्विच्छ विद्वान् यो जानाति स मुच्यते ||',
+          sanskrit: 'तपसा ब्रह्मचर्येण श्रद्धया विद्यया सह । आत्मानमन्विच्छ विद्वान् यो जानाति स मुच्यते ॥',
           transliteration: 'tapasā brahmacaryeṇa śraddhayā vidyayā saha | ātmānamanviccha vidvān yo jānāti sa mucyate ||',
           translation: 'Through austerity, brahmacharya, faith, and knowledge — let the wise person seek the Self. One who knows it is liberated.',
           hindi: 'तप, ब्रह्मचर्य, श्रद्धा और विद्या के साथ — विद्वान आत्मा की खोज करे। जो जानता है, वह मुक्त होता है।',
@@ -151,7 +151,7 @@ export const atharvaveda: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'ब्रह्मचारीष्णंश्चरति रोदसी उभे | तस्मिन् देवाः सम्मनसो भवन्ति | स दाधार पृथिवीं दिवं च ||',
+          sanskrit: 'ब्रह्मचारीष्णंश्चरति रोदसी उभे । तस्मिन् देवाः सम्मनसो भवन्ति । स दाधार पृथिवीं दिवं च ॥',
           transliteration: 'brahmacārīṣṇaṃścarati rodasī ubhe | tasmin devāḥ sammanaso bhavanti | sa dādhāra pṛthivīṃ divaṃ ca ||',
           translation: 'The brahmacharin moves between heaven and earth. In him all the gods become of one mind. He sustains the earth and the sky.',
           hindi: 'ब्रह्मचारी द्यौ और पृथ्वी दोनों लोकों में विचरण करता है। उसमें सभी देवता एकमत होते हैं। वही पृथ्वी और आकाश को धारण करता है।',
@@ -162,7 +162,7 @@ export const atharvaveda: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'ब्रह्मचर्येण तपसा राजा राष्ट्रं वि रक्षति | आचार्यो ब्रह्मचर्येण ब्रह्मचारिणमिच्छति ||',
+          sanskrit: 'ब्रह्मचर्येण तपसा राजा राष्ट्रं वि रक्षति । आचार्यो ब्रह्मचर्येण ब्रह्मचारिणमिच्छति ॥',
           transliteration: 'brahmacaryeṇa tapasā rājā rāṣṭraṃ vi rakṣati | ācāryo brahmacaryeṇa brahmacāriṇamicchati ||',
           translation: 'By brahmacharya and austerity, the king protects the kingdom. By brahmacharya, the teacher seeks a true student.',
           hindi: 'ब्रह्मचर्य और तप से राजा राष्ट्र की रक्षा करता है। ब्रह्मचर्य से ही आचार्य (शिक्षक) सच्चे शिष्य की तलाश करता है।',
@@ -173,7 +173,7 @@ export const atharvaveda: Scripture = {
         },
         {
           id: 8,
-          sanskrit: 'तपसा ब्रह्मचर्येण श्रद्धया विद्यया सह | आत्मानमन्विच्छ विद्वान् यो जानाति स मुच्यते ||',
+          sanskrit: 'तपसा ब्रह्मचर्येण श्रद्धया विद्यया सह । आत्मानमन्विच्छ विद्वान् यो जानाति स मुच्यते ॥',
           transliteration: 'tapasā brahmacaryeṇa śraddhayā vidyayā saha | ātmānamanviccha vidvān yo jānāti sa mucyate ||',
           translation: 'Through austerity, brahmacharya, faith, and knowledge — let the wise person seek the Self. One who knows it is liberated.',
           hindi: 'तप, ब्रह्मचर्य, श्रद्धा और विद्या के साथ — विद्वान आत्मा की खोज करे। जो जानता है, वह मुक्त होता है।',
@@ -184,7 +184,7 @@ export const atharvaveda: Scripture = {
         },
         {
           id: 9,
-          sanskrit: 'अयं मे हस्तो भगवान् अयं मे भगवत्तरः | अयं मे विश्वभेषजो अयं शिवाभिमर्शनः ||',
+          sanskrit: 'अयं मे हस्तो भगवान् अयं मे भगवत्तरः । अयं मे विश्वभेषजो अयं शिवाभिमर्शनः ॥',
           transliteration: 'ayaṃ me hasto bhagavān ayaṃ me bhagavattaraḥ | ayaṃ me viśvabheṣajo ayaṃ śivābhimarśanaḥ ||',
           translation: 'This hand of mine is blessed, this hand is even more blessed. This hand is the medicine of the universe; this hand is the touch of Shiva.',
           hindi: 'यह मेरा हाथ भगवान है, यह और भी अधिक भगवान है। यह मेरा हाथ विश्व की औषधि है; यह शिव का स्पर्श है।',
@@ -195,7 +195,7 @@ export const atharvaveda: Scripture = {
         },
         {
           id: 10,
-          sanskrit: 'शं नो मित्रः शं वरुणः शं नो भवत्वर्यमा | शं न इन्द्रो बृहस्पतिः शं नो विष्णुरुरुक्रमः ||',
+          sanskrit: 'शं नो मित्रः शं वरुणः शं नो भवत्वर्यमा । शं न इन्द्रो बृहस्पतिः शं नो विष्णुरुरुक्रमः ॥',
           transliteration: 'śaṃ no mitraḥ śaṃ varuṇaḥ śaṃ no bhavatvarymā | śaṃ na indro bṛhaspatiḥ śaṃ no viṣṇururukramaḥ ||',
           translation: 'May Mitra be auspicious to us; may Varuna be auspicious; may Aryama be auspicious to us. May Indra, Brihaspati be auspicious to us; may Vishnu of broad strides be auspicious.',
           hindi: 'मित्र हमारे लिए शुभ हों; वरुण शुभ हों; अर्यमा शुभ हों। इन्द्र, बृहस्पति शुभ हों; विष्णु जो विशाल पग वाले हैं — वे शुभ हों।',
@@ -206,7 +206,7 @@ export const atharvaveda: Scripture = {
         },
         {
           id: 11,
-          sanskrit: 'सर्वे वेदा यत्पदमामनन्ति तपांसि सर्वाणि च यद्वदन्ति | यदिच्छन्तो ब्रह्मचर्यं चरन्ति तत्ते पदं संग्रहेण ब्रवीम्योमित्येतत् ||',
+          sanskrit: 'सर्वे वेदा यत्पदमामनन्ति तपांसि सर्वाणि च यद्वदन्ति । यदिच्छन्तो ब्रह्मचर्यं चरन्ति तत्ते पदं संग्रहेण ब्रवीम्योमित्येतत् ॥',
           transliteration: 'sarve vedā yatpadamāmananti tapāṃsi sarvāṇi ca yadvadanti | yadicchanto brahmacaryaṃ caranti tatte padaṃ saṃgraheṇa bravīmyomityetat ||',
           translation: 'The goal that all the Vedas declare, that all austerities proclaim, for which people practise brahmacharya — I tell you that goal in brief: it is OM.',
           hindi: 'जिस पद को सभी वेद कहते हैं, जिसे सब तप घोषित करते हैं, जिसे पाने के लिए लोग ब्रह्मचर्य का पालन करते हैं — वह लक्ष्य मैं संक्षेप में बताता हूँ: वह है OM।',
@@ -217,7 +217,7 @@ export const atharvaveda: Scripture = {
         },
         {
           id: 12,
-          sanskrit: 'भूमे माता मा विद्वेष्टु मा विद्वेषमुद्धरेत् | त्वया यत्र प्रतिष्ठामि सा नो ददातु जीवसे ||',
+          sanskrit: 'भूमे माता मा विद्वेष्टु मा विद्वेषमुद्धरेत् । त्वया यत्र प्रतिष्ठामि सा नो ददातु जीवसे ॥',
           transliteration: 'bhūme mātā mā vidveṣṭu mā vidveṣamuddhareta | tvayā yatra pratiṣṭhāmi sā no dadātu jīvase ||',
           translation: 'O Earth, O Mother — may you not hate us; may you not uproot hatred. Wherever I stand upon you, may that ground give us life.',
           hindi: 'हे भूमि माता — तू हमसे द्वेष न कर; द्वेष को मत उखाड़। तेरे ऊपर मैं जहाँ भी खड़ा होऊँ — वह भूमि हमें जीवन दे।',
@@ -229,7 +229,7 @@ export const atharvaveda: Scripture = {
       
         {
           id: 1002,
-          sanskrit: 'ब्रह्मचर्येण तपसा राजा राष्ट्रं वि रक्षति | आचार्यो ब्रह्मचर्येण ब्रह्मचारिणमिच्छति ||',
+          sanskrit: 'ब्रह्मचर्येण तपसा राजा राष्ट्रं वि रक्षति । आचार्यो ब्रह्मचर्येण ब्रह्मचारिणमिच्छति ॥',
           transliteration: 'brahmacaryeṇa tapasā rājā rāṣṭraṃ vi rakṣati | ācāryo brahmacaryeṇa brahmacāriṇamicchati ||',
           translation: 'By brahmacharya and austerity, the king protects the kingdom. By brahmacharya, the teacher seeks a true student.',
           hindi: 'ब्रह्मचर्य और तप से राजा राष्ट्र की रक्षा करता है। ब्रह्मचर्य से ही आचार्य (शिक्षक) सच्चे शिष्य की तलाश करता है।',
@@ -238,7 +238,7 @@ export const atharvaveda: Scripture = {
         },
         {
           id: 5008,
-          sanskrit: 'तपसा ब्रह्मचर्येण श्रद्धया विद्यया सह | आत्मानमन्विच्छ विद्वान् यो जानाति स मुच्यते ||',
+          sanskrit: 'तपसा ब्रह्मचर्येण श्रद्धया विद्यया सह । आत्मानमन्विच्छ विद्वान् यो जानाति स मुच्यते ॥',
           transliteration: 'tapasā brahmacaryeṇa śraddhayā vidyayā saha | ātmānamanviccha vidvān yo jānāti sa mucyate ||',
           translation: 'Through austerity, brahmacharya, faith, and knowledge — let the wise person seek the Self. One who knows it is liberated.',
           hindi: 'तप, ब्रह्मचर्य, श्रद्धा और विद्या के साथ — विद्वान आत्मा की खोज करे। जो जानता है, वह मुक्त होता है।',
@@ -247,7 +247,7 @@ export const atharvaveda: Scripture = {
         },
         {
           id: 10011,
-          sanskrit: 'सर्वे वेदा यत्पदमामनन्ति तपांसि सर्वाणि च यद्वदन्ति | यदिच्छन्तो ब्रह्मचर्यं चरन्ति तत्ते पदं संग्रहेण ब्रवीम्योमित्येतत् ||',
+          sanskrit: 'सर्वे वेदा यत्पदमामनन्ति तपांसि सर्वाणि च यद्वदन्ति । यदिच्छन्तो ब्रह्मचर्यं चरन्ति तत्ते पदं संग्रहेण ब्रवीम्योमित्येतत् ॥',
           transliteration: 'sarve vedā yatpadamāmananti tapāṃsi sarvāṇi ca yadvadanti | yadicchanto brahmacaryaṃ caranti tatte padaṃ saṃgraheṇa bravīmyomityetat ||',
           translation: 'The goal that all the Vedas declare, that all austerities proclaim, for which people practise brahmacharya — I tell you that goal in brief: it is OM.',
           hindi: 'जिस पद को सभी वेद कहते हैं, जिसे सब तप घोषित करते हैं, जिसे पाने के लिए लोग ब्रह्मचर्य का पालन करते हैं — वह लक्ष्य मैं संक्षेप में बताता हूँ: वह है OM।',
@@ -256,7 +256,7 @@ export const atharvaveda: Scripture = {
         },
         {
           id: 10012,
-          sanskrit: 'भूमे माता मा विद्वेष्टु मा विद्वेषमुद्धरेत् | त्वया यत्र प्रतिष्ठामि सा नो ददातु जीवसे ||',
+          sanskrit: 'भूमे माता मा विद्वेष्टु मा विद्वेषमुद्धरेत् । त्वया यत्र प्रतिष्ठामि सा नो ददातु जीवसे ॥',
           transliteration: 'bhūme mātā mā vidveṣṭu mā vidveṣamuddhareta | tvayā yatra pratiṣṭhāmi sā no dadātu jīvase ||',
           translation: 'O Earth, O Mother — may you not hate us; may you not uproot hatred. Wherever I stand upon you, may that ground give us life.',
           hindi: 'हे भूमि माता — तू हमसे द्वेष न कर; द्वेष को मत उखाड़। तेरे ऊपर मैं जहाँ भी खड़ा होऊँ — वह भूमि हमें जीवन दे।',

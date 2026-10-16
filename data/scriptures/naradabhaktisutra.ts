@@ -17,7 +17,7 @@ export const naradabhaktisutra: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'अथातो भक्तिं व्याख्यास्यामः ||',
+          sanskrit: 'अथातो भक्तिं व्याख्यास्यामः ॥',
           transliteration: 'athāto bhaktiṃ vyākhyāsyāmaḥ ||',
           translation: 'Now, therefore, we shall explain bhakti.',
           hindi: 'अब हम भक्ति की व्याख्या करेंगे।',
@@ -28,7 +28,7 @@ export const naradabhaktisutra: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'सा त्वस्मिन् परमप्रेमरूपा ||',
+          sanskrit: 'सा त्वस्मिन् परमप्रेमरूपा ॥',
           transliteration: 'sā tvasmin paramapremarūpā ||',
           translation: 'That bhakti is of the nature of supreme love for Him.',
           hindi: 'वह (भक्ति) उस (ईश्वर) में परम प्रेम-स्वरूपा है।',
@@ -39,7 +39,7 @@ export const naradabhaktisutra: Scripture = {
         },
         {
           id: 3,
-          sanskrit: 'अमृतस्वरूपा च ||',
+          sanskrit: 'अमृतस्वरूपा च ॥',
           transliteration: 'amṛtasvarūpā ca ||',
           translation: 'And it is of the nature of immortality.',
           hindi: 'और वह अमृत-स्वरूपा है।',
@@ -50,7 +50,7 @@ export const naradabhaktisutra: Scripture = {
         },
         {
           id: 10,
-          sanskrit: 'तल्लभ्यते ऽपि केवलमीश्वरकृपयैव ||',
+          sanskrit: 'तल्लभ्यते ऽपि केवलमीश्वरकृपयैव ॥',
           transliteration: 'tallabhyate\'pi kevalamīśvarakṛpayaiva ||',
           translation: 'It is obtained only by the grace of Ishvara alone.',
           hindi: 'वह (भक्ति) केवल ईश्वर की कृपा से ही प्राप्त होती है।',
@@ -61,7 +61,7 @@ export const naradabhaktisutra: Scripture = {
         },
         {
           id: 16,
-          sanskrit: 'दुर्लभं त्रयमेवैतद्देवानुग्रहेणैव लभ्यते | मनुष्यत्वं मुमुक्षुत्वं महापुरुषसंश्रयः ||',
+          sanskrit: 'दुर्लभं त्रयमेवैतद्देवानुग्रहेणैव लभ्यते । मनुष्यत्वं मुमुक्षुत्वं महापुरुषसंश्रयः ॥',
           transliteration: 'durlabhaṃ trayamevaitaddevānugraheṇaiva labhyate | manuṣyatvaṃ mumukṣutvaṃ mahāpuruṣasaṃśrayaḥ ||',
           translation: 'These three are rare and obtained only by divine grace: human birth, the desire for liberation, and refuge in a great soul.',
           hindi: 'ये तीन दुर्लभ हैं और केवल देव-अनुग्रह से ही मिलते हैं: मनुष्यत्व, मुमुक्षुत्व और महापुरुष-संश्रय।',
@@ -72,7 +72,7 @@ export const naradabhaktisutra: Scripture = {
         },
         {
           id: 17,
-          sanskrit: 'सत्सङ्गः प्राप्यते पुण्यकर्मणा सत्सङ्गमज्ज्यते ||',
+          sanskrit: 'सत्सङ्गः प्राप्यते पुण्यकर्मणा सत्सङ्गमज्ज्यते ॥',
           transliteration: 'satsaṅgaḥ prāpyate puṇyakarmaṇā satsaṅgamajjayate ||',
           translation: 'Good company is obtained by meritorious actions; one is born (into) good company.',
           hindi: 'सत्संग पुण्यकर्म से प्राप्त होता है; सत्संग में (पुनः) जन्म लेता है।',
@@ -81,7 +81,7 @@ export const naradabhaktisutra: Scripture = {
         },
         {
           id: 21,
-          sanskrit: 'स्वयं फलरूपा च ||',
+          sanskrit: 'स्वयं फलरूपा च ॥',
           transliteration: 'svayaṃ phalarūpā ca ||',
           translation: 'And it (bhakti) is itself of the nature of the fruit.',
           hindi: 'और वह (भक्ति) स्वयं ही फल-स्वरूपा है।',
@@ -90,7 +90,7 @@ export const naradabhaktisutra: Scripture = {
         },
         {
           id: 25,
-          sanskrit: 'तस्याः साधनानि गायत्र्यादीनि ||',
+          sanskrit: 'तस्याः साधनानि गायत्र्यादीनि ॥',
           transliteration: 'tasyāḥ sādhanāni gāyatryādīni ||',
           translation: 'Its instruments are the Gāyatrī, etc.',
           hindi: 'उस (भक्ति) के साधन गायत्री आदि हैं।',
@@ -107,7 +107,7 @@ export const naradabhaktisutra: Scripture = {
       verses: [
         {
           id: 54,
-          sanskrit: 'यथा व्रजगोपिकानाम् ||',
+          sanskrit: 'यथा व्रजगोपिकानाम् ॥',
           transliteration: 'yathā vrajagopiKānām ||',
           translation: 'As in the case of the gopis of Vraja.',
           hindi: 'जैसे व्रज की गोपियों की (भक्ति)।',
@@ -118,7 +118,7 @@ export const naradabhaktisutra: Scripture = {
         },
         {
           id: 55,
-          sanskrit: 'यथा दशरथस्य ||',
+          sanskrit: 'यथा दशरथस्य ॥',
           transliteration: 'yathā daśarathasya ||',
           translation: 'As in the case of Dasharatha.',
           hindi: 'जैसे दशरथ की (भक्ति)।',
@@ -127,7 +127,7 @@ export const naradabhaktisutra: Scripture = {
         },
         {
           id: 56,
-          sanskrit: 'यथा हनूमतः ||',
+          sanskrit: 'यथा हनूमतः ॥',
           transliteration: 'yathā hanūmataḥ ||',
           translation: 'As in the case of Hanuman.',
           hindi: 'जैसे हनुमान की (भक्ति)।',
@@ -136,7 +136,7 @@ export const naradabhaktisutra: Scripture = {
         },
         {
           id: 57,
-          sanskrit: 'यथा पाण्डवानाम् ||',
+          sanskrit: 'यथा पाण्डवानाम् ॥',
           transliteration: 'yathā pāṇḍavānām ||',
           translation: 'As in the case of the Pandavas.',
           hindi: 'जैसे पाण्डवों की (भक्ति)।',
@@ -145,7 +145,7 @@ export const naradabhaktisutra: Scripture = {
         },
         {
           id: 58,
-          sanskrit: 'यथा अर्जुनस्य ||',
+          sanskrit: 'यथा अर्जुनस्य ॥',
           transliteration: 'yathā arjunasya ||',
           translation: 'As in the case of Arjuna.',
           hindi: 'जैसे अर्जुन की (भक्ति)।',
@@ -154,7 +154,7 @@ export const naradabhaktisutra: Scripture = {
         },
         {
           id: 82,
-          sanskrit: 'भक्ता एकान्तिनो मुख्याः ||',
+          sanskrit: 'भक्ता एकान्तिनो मुख्याः ॥',
           transliteration: 'bhaktā ekāntino mukhyāḥ ||',
           translation: 'The single-pointed devotees are the foremost.',
           hindi: 'एकान्त भक्त ही मुख्य (श्रेष्ठ) हैं।',
@@ -165,7 +165,7 @@ export const naradabhaktisutra: Scripture = {
         },
         {
           id: 39,
-          sanskrit: 'काम-क्रोध-मोह-स्मृतिभ्रंश-बुद्धिनाशसर्वनाशकरं तत्त्यज्यतां तत्त्यज्यताम् ||',
+          sanskrit: 'काम-क्रोध-मोह-स्मृतिभ्रंश-बुद्धिनाशसर्वनाशकरं तत्त्यज्यतां तत्त्यज्यताम् ॥',
           transliteration: 'kāma-krodha-moha-smṛtibhraṃśa-buddhinā śasarvanāśakaraṃ tattyajyatāṃ tattyajyatām ||',
           translation: 'That which causes desire, anger, delusion, destruction of memory, destruction of intellect, total ruin — abandon that, abandon that.',
           hindi: 'जो काम, क्रोध, मोह, स्मृतिभ्रंश, बुद्धिनाश और सर्वनाश करता है — उसे छोड़ो, उसे छोड़ो।',
@@ -176,7 +176,7 @@ export const naradabhaktisutra: Scripture = {
         },
         {
           id: 44,
-          sanskrit: 'न तद्विद्यते क्वचिदपि ||',
+          sanskrit: 'न तद्विद्यते क्वचिदपि ॥',
           transliteration: 'na tadvid yate kvacidapi ||',
           translation: 'That (supreme bhakti) is not found anywhere else.',
           hindi: 'वह (परम भक्ति) कहीं भी नहीं मिलती।',
@@ -187,7 +187,7 @@ export const naradabhaktisutra: Scripture = {
         },
         {
           id: 50,
-          sanskrit: 'भक्तिरस्य प्रसादादेव गतिस्त्वदर्पणे ||',
+          sanskrit: 'भक्तिरस्य प्रसादादेव गतिस्त्वदर्पणे ॥',
           transliteration: 'bhaktirasya prasādādeva gatistvadarpaṇe ||',
           translation: 'By the grace of bhakti, one attains the state of being your mirror.',
           hindi: 'भक्ति के प्रसाद से ही तुम्हारे दर्पण की स्थिति प्राप्त होती है।',
@@ -196,7 +196,7 @@ export const naradabhaktisutra: Scripture = {
         },
         {
           id: 59,
-          sanskrit: 'तत्त्वज्ञानार्थदर्शनं तत्त्वज्ञानस्य भक्तिर्धर्मः ||',
+          sanskrit: 'तत्त्वज्ञानार्थदर्शनं तत्त्वज्ञानस्य भक्तिर्धर्मः ॥',
           transliteration: 'tattvajñānārthadarśanaṃ tattvajñānasya bhaktirdharmaḥ ||',
           translation: 'The vision of the meaning of reality-knowledge; bhakti is the dharma of reality-knowledge.',
           hindi: 'तत्त्वज्ञान के अर्थ का दर्शन; भक्ति तत्त्वज्ञान का धर्म है।',
@@ -205,7 +205,7 @@ export const naradabhaktisutra: Scripture = {
         },
         {
           id: 60,
-          sanskrit: 'सा तु कामः स तु क्रोधः स तु लोभः स तु मोहः ||',
+          sanskrit: 'सा तु कामः स तु क्रोधः स तु लोभः स तु मोहः ॥',
           transliteration: 'sā tu kāmaḥ sa tu krodhaḥ sa tu lobhaḥ sa tu mohaḥ ||',
           translation: 'That (bhakti) is desire, that is anger, that is greed, that is delusion — when directed toward the divine.',
           hindi: 'वह (भक्ति) काम है, वह क्रोध है, वह लोभ है, वह मोह है — जब दैवीय दिशा में हो।',
@@ -214,7 +214,7 @@ export const naradabhaktisutra: Scripture = {
         },
         {
           id: 65,
-          sanskrit: 'यदा यदा भगवत्प्रेम्णो मधुर्या भावयति हृदयं | तदा तदेव स भगवान्भवति नान्योऽप्यन्यः ||',
+          sanskrit: 'यदा यदा भगवत्प्रेम्णो मधुर्या भावयति हृदयं । तदा तदेव स भगवान्भवति नान्योऽप्यन्यः ॥',
           transliteration: 'yadā yadā bhagavatpremṇo madhuryā bhāvayati hṛdayaṃ | tadā tadeva sa bhagavānbhavati nānyo\'pyanyaḥ ||',
           translation: 'Whenever the heart is filled with the sweetness of divine love, that very one becomes the Lord — no other.',
           hindi: 'जब-जब हृदय दैवी प्रेम की मधुरता से भर जाता है, तब-तब वही परमेश्वर हो जाता है — और कोई नहीं।',
@@ -223,7 +223,7 @@ export const naradabhaktisutra: Scripture = {
         },
         {
           id: 70,
-          sanskrit: 'भक्तिर्भगवती प्रेम्णा भगवन्साधनभूतया ||',
+          sanskrit: 'भक्तिर्भगवती प्रेम्णा भगवन्साधनभूतया ॥',
           transliteration: 'bhaktirbhagavatī preṇā bhagavansādhanabhūtayā ||',
           translation: 'Bhakti is the beloved of the Lord, having become the means to the Lord.',
           hindi: 'भक्ति परमेश्वर की प्रिय है, और परमेश्वर को प्राप्त करने का साधन बन गई है।',
@@ -232,7 +232,7 @@ export const naradabhaktisutra: Scripture = {
         },
         {
           id: 75,
-          sanskrit: 'यस्तु सर्वभूतेषु भगवद्भक्तिं वितिष्ठति | स एव भगवत्प्रेम्णा भगवन्प्राप्नोति ||',
+          sanskrit: 'यस्तु सर्वभूतेषु भगवद्भक्तिं वितिष्ठति । स एव भगवत्प्रेम्णा भगवन्प्राप्नोति ॥',
           transliteration: 'yastu sarvabhūteṣu bhagavadbhaktiṃ viṭiṣṭhati | sa eva bhagavatpremṇā bhagavanprāpnoti ||',
           translation: 'One who establishes bhakti to the Lord in all beings — that one attains the Lord through divine love.',
           hindi: 'जो समस्त प्राणियों में भगवद्भक्ति स्थापित करता है — वह दैवी प्रेम से परमेश्वर को प्राप्त करता है।',
@@ -241,7 +241,7 @@ export const naradabhaktisutra: Scripture = {
         },
         {
           id: 80,
-          sanskrit: 'भक्तिः कर्मणि न दृश्यते भक्तिः ज्ञाने न दृश्यते | भक्तिः कर्मज्ञानयोर्मध्ये भक्तिः प्रेम्णा समाश्रिता ||',
+          sanskrit: 'भक्तिः कर्मणि न दृश्यते भक्तिः ज्ञाने न दृश्यते । भक्तिः कर्मज्ञानयोर्मध्ये भक्तिः प्रेम्णा समाश्रिता ॥',
           transliteration: 'bhaktiḥ karmaṇi na dṛśyate bhaktiḥ jñāne na dṛśyate | bhaktiḥ karmajñānayormadhye bhaktiḥ preṇā samāśritā ||',
           translation: 'Bhakti is not seen in action alone, not in knowledge alone. Bhakti is in the middle of action and knowledge, resting in love.',
           hindi: 'भक्ति केवल कर्म में नहीं दिखती, केवल ज्ञान में नहीं दिखती। भक्ति कर्म और ज्ञान के बीच में है, प्रेम पर आश्रित।',
@@ -250,7 +250,7 @@ export const naradabhaktisutra: Scripture = {
         },
         {
           id: 84,
-          sanskrit: 'भक्तिरेव गतिर्मोक्षः भक्तिरेव परायणम् ||',
+          sanskrit: 'भक्तिरेव गतिर्मोक्षः भक्तिरेव परायणम् ॥',
           transliteration: 'bhaktireva gatirmokṣaḥ bhaktireva parāyaṇam ||',
           translation: 'Bhakti alone is the path to liberation; bhakti alone is the supreme goal.',
           hindi: 'भक्ति ही मोक्ष का मार्ग है; भक्ति ही परम लक्ष्य है।',
@@ -267,7 +267,7 @@ export const naradabhaktisutra: Scripture = {
       verses: [
         {
           id: 83,
-          sanskrit: 'तत्प्राप्य तदेवावलोकयति तदेव शृणोति तदेव भाषयति तदेव चिन्तयति ||',
+          sanskrit: 'तत्प्राप्य तदेवावलोकयति तदेव शृणोति तदेव भाषयति तदेव चिन्तयति ॥',
           transliteration: 'tatprāpya tadevāvalokayati tadeva śṛṇoti tadeva bhāṣayati tadeva cintayati ||',
           translation: 'Having attained that (bhakti), one sees only That, hears only That, speaks only That, thinks only That.',
           hindi: 'उसे प्राप्त करके, वह केवल उसी को देखता है, केवल उसी को सुनता है, केवल उसी को बोलता है, केवल उसी का चिन्तन करता है।',
@@ -278,7 +278,7 @@ export const naradabhaktisutra: Scripture = {
         },
         {
           id: 84,
-          sanskrit: 'मुख्यतस्तु महत्कृपयैव भगवत्कृपालेशाद्वा ||',
+          sanskrit: 'मुख्यतस्तु महत्कृपयैव भगवत्कृपालेशाद्वा ॥',
           transliteration: 'mukhyatastu mahatkṛpayaiva bhagavatkṛpāleśādvā ||',
           translation: 'Chiefly, however, through the grace of the great ones alone, or through a particle of the grace of God.',
           hindi: 'मुख्यतः तो महापुरुषों की कृपा से ही, अथवा भगवान की कृपा के एक कण से।',

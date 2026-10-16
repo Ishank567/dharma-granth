@@ -17,7 +17,7 @@ export const shivaswarodaya: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'श्रीमच्छिवस्वरोदयं परमगुह्यं महेश्वरात् | प्राप्तं पार्वत्युवाचेदं सर्वलोकहितैषिणी ||',
+          sanskrit: 'श्रीमच्छिवस्वरोदयं परमगुह्यं महेश्वरात् । प्राप्तं पार्वत्युवाचेदं सर्वलोकहितैषिणी ॥',
           transliteration: 'śrīmacchivasvarodayaṃ paramaguhyaṃ maheśvarāt | prāptaṃ pārvatyuvācedaṃ sarvalokahitaiṣiṇī ||',
           translation: 'The auspicious Shiva Swarodaya — the supremely secret knowledge received from Maheshvara — Parvati, desiring the welfare of all worlds, declared thus.',
           hindi: 'यह श्रीशिवस्वरोदय — महेश्वर से प्राप्त परम गुह्य ज्ञान — Parvati ने समस्त लोकों के हित की इच्छा से इस प्रकार कहा।',
@@ -28,7 +28,7 @@ export const shivaswarodaya: Scripture = {
         },
         {
           id: 9,
-          sanskrit: 'स्वरज्ञो जीवति निश्चितं | स्वरविहीनो मृतः सदा ||',
+          sanskrit: 'स्वरज्ञो जीवति निश्चितं । स्वरविहीनो मृतः सदा ॥',
           transliteration: 'svarajño jīvati niścitaṃ | svaravihīno mṛtaḥ sadā ||',
           translation: 'One who knows the svara truly lives. One devoid of svara-knowledge is as good as dead.',
           hindi: 'स्वर जाननेवाला निश्चित रूप से जीता है। स्वर से विहीन व्यक्ति सदा मृत है।',
@@ -47,7 +47,7 @@ export const shivaswarodaya: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'पृथिव्यां स्थिरकार्याणि जले सर्वे शुभा क्रियाः | वह्नौ च क्रूरकर्माणि वायौ खेचरणं तथा | व्योम्नि नैव शुभं कार्यं सर्वसिद्धिस्तु शून्यके ||',
+          sanskrit: 'पृथिव्यां स्थिरकार्याणि जले सर्वे शुभा क्रियाः । वह्नौ च क्रूरकर्माणि वायौ खेचरणं तथा । व्योम्नि नैव शुभं कार्यं सर्वसिद्धिस्तु शून्यके ॥',
           transliteration: 'pṛthivyāṃ sthirakāryāṇi jale sarve śubhā kriyāḥ | vahnau ca krūrakarmāṇi vāyau khecaraṇaṃ tathā | vyomni naiva śubhaṃ kāryaṃ sarvasiddhistu śūnyake ||',
           translation: 'In earth: stable, enduring works. In water: all auspicious actions. In fire: fierce, forceful actions. In air: movement and travel. In ether: no ordinary task should be started — but all siddhi is in the void.',
           hindi: 'पृथ्वी में: स्थिर और टिकाऊ कार्य। जल में: सभी शुभ कार्य। अग्नि में: कठोर और बलपूर्वक कार्य। वायु में: गति और यात्रा। आकाश में: कोई सांसारिक कार्य न करें — पर समस्त सिद्धि शून्य में है।',
@@ -58,7 +58,7 @@ export const shivaswarodaya: Scripture = {
         },
         {
           id: 35,
-          sanskrit: 'यदा स्यात् सुषुम्नायां वहति मारुतः | तदा न शुभकार्याणि न च मोक्षस्य साधनम् || सुषुम्नायां भवेद्ध्यानं सर्वसिद्धिप्रदायकम् ||',
+          sanskrit: 'यदा स्यात् सुषुम्नायां वहति मारुतः । तदा न शुभकार्याणि न च मोक्षस्य साधनम् ॥ सुषुम्नायां भवेद्ध्यानं सर्वसिद्धिप्रदायकम् ॥',
           transliteration: 'yadā syāt suṣumnāyāṃ vahati mārutaḥ | tadā na śubhakāryāṇi na ca mokṣasya sādhanam || suṣumnāyāṃ bhavedhyānaṃ sarvasiddhipradāyakam ||',
           translation: 'When the breath flows in Sushumna — neither for worldly auspicious tasks, nor even for ordinary moksha practice. In Sushumna, meditation becomes the giver of all siddhi.',
           hindi: 'जब श्वास सुषुम्ना में बहती है — न शुभ सांसारिक कार्य के लिए, न साधारण मोक्ष-साधन के लिए। सुषुम्ना में ध्यान सर्वसिद्धि देने वाला हो जाता है।',
@@ -77,7 +77,7 @@ export const shivaswarodaya: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'प्रश्नकाले तु यो देही वहेत् स्वरेण संयुतः | तस्य कार्यं भवेत् सिद्धं सर्वेषामपि निश्चितम् ||',
+          sanskrit: 'प्रश्नकाले तु यो देही वहेत् स्वरेण संयुतः । तस्य कार्यं भवेत् सिद्धं सर्वेषामपि निश्चितम् ॥',
           transliteration: 'praśnakāle tu yo dehī vahet svareṇa saṃyutaḥ | tasya kāryaṃ bhavet siddhaṃ sarveṣāmapi niścitam ||',
           translation: 'At the moment a question arises, the svara that flows in the questioner — by that svara, their work will succeed. This is certain for all.',
           hindi: 'जिस क्षण प्रश्न उठे, उस समय जो स्वर बहता हो — उस स्वर से उस व्यक्ति का कार्य सिद्ध होगा। यह सभी के लिए निश्चित है।',
@@ -88,7 +88,7 @@ export const shivaswarodaya: Scripture = {
         },
         {
           id: 82,
-          sanskrit: 'यावज्जीवं प्राणवायुः स्वरेण वहति क्रमात् | तावत् स्वस्थः स्वस्थचित्तो जीवेत् सुखेन मानवः ||',
+          sanskrit: 'यावज्जीवं प्राणवायुः स्वरेण वहति क्रमात् । तावत् स्वस्थः स्वस्थचित्तो जीवेत् सुखेन मानवः ॥',
           transliteration: 'yāvajjīvaṃ prāṇavāyuḥ svareṇa vahati kramāt | tāvat svasthaḥ svasthacitto jīvet sukhena mānaḥ ||',
           translation: 'As long as the prana flows rhythmically in the svara cycle throughout life, the person remains healthy in body and mind, and lives happily.',
           hindi: 'जब तक जीवन में प्राणवायु क्रमशः स्वर में बहती रहती है, तब तक मनुष्य स्वस्थ शरीर और चित्त से सुखपूर्वक जीता है।',
@@ -107,7 +107,7 @@ export const shivaswarodaya: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'ब्रह्मा विष्णुश्च रुद्रश्च स्वरे तिष्ठन्ति सर्वदा | स्वरेण गणिताः सर्वे स्वरे सूर्यः प्रतिष्ठितः ||',
+          sanskrit: 'ब्रह्मा विष्णुश्च रुद्रश्च स्वरे तिष्ठन्ति सर्वदा । स्वरेण गणिताः सर्वे स्वरे सूर्यः प्रतिष्ठितः ॥',
           transliteration: 'brahmā viṣṇuśca rudraśca svare tiṣṭhanti sarvadā | svareṇa gaṇitāḥ sarve svare sūryaḥ pratiṣṭhitaḥ ||',
           translation: 'Brahma, Vishnu, and Rudra always dwell in the svara. All are enumerated through the svara. The sun itself is established in the svara.',
           hindi: 'ब्रह्मा, विष्णु और रुद्र सदा स्वर में रहते हैं। सभी स्वर से ही गिने जाते हैं। स्वर में ही सूर्य प्रतिष्ठित है।',
@@ -118,7 +118,7 @@ export const shivaswarodaya: Scripture = {
         },
         {
           id: 7,
-          sanskrit: 'दक्षिणा नाड़ी सूर्यस्य वामा चन्द्रमस्य च | सुषुम्ना अग्नेः स्वरूपा त्रयो देवा महेश्वराः ||',
+          sanskrit: 'दक्षिणा नाड़ी सूर्यस्य वामा चन्द्रमस्य च । सुषुम्ना अग्नेः स्वरूपा त्रयो देवा महेश्वराः ॥',
           transliteration: 'dakṣiṇā nāḍī sūryasya vāmā candramasya ca | suṣumnā agneḥ svarūpā trayo devā maheśvarāḥ ||',
           translation: 'The right nadi is of the sun, the left is of the moon. Sushumna is the form of fire — the three are the great gods.',
           hindi: 'दाहिनी नाड़ी सूर्य की है, बायीं चंद्रमा की। सुषुम्ना अग्नि का स्वरूप है — ये तीन महादेव हैं।',
@@ -129,7 +129,7 @@ export const shivaswarodaya: Scripture = {
         },
         {
           id: 8,
-          sanskrit: 'स्वरोदये शिवः साक्षात् प्राणे विष्णुरुद्यतः | रक्ते ब्रह्मा स्थितो नित्यं त्रयो देवाः प्रकाशिताः ||',
+          sanskrit: 'स्वरोदये शिवः साक्षात् प्राणे विष्णुरुद्यतः । रक्ते ब्रह्मा स्थितो नित्यं त्रयो देवाः प्रकाशिताः ॥',
           transliteration: 'svarodaye śivaḥ sākṣāt prāṇe viṣṇurudyataḥ | rakte brahmā sthito nityaṃ trayo devāḥ prakāśitāḥ ||',
           translation: 'In the breath is Shiva directly; in the prana is Vishnu ever-moving. In the blood is Brahma eternally — the three gods are revealed.',
           hindi: 'साँस में शिव साक्षात हैं; प्राण में विष्णु सदैव चल रहे हैं। रक्त में ब्रह्मा नित्य स्थित हैं — तीनों देव प्रकट हैं।',
@@ -140,7 +140,7 @@ export const shivaswarodaya: Scripture = {
         },
         {
           id: 9,
-          sanskrit: 'नाड़ीशुद्धिर्योगस्य मुक्तिर्नाड़ीशुद्धितः | शरीरस्थापनं योगो नाड़ीविज्ञानमुत्तमम् ||',
+          sanskrit: 'नाड़ीशुद्धिर्योगस्य मुक्तिर्नाड़ीशुद्धितः । शरीरस्थापनं योगो नाड़ीविज्ञानमुत्तमम् ॥',
           transliteration: 'nāḍīśuddhiryogasya muktirnāḍīśuddhitaḥ | śarīrasthāpanaṃ yoga nāḍīvijñānamuttamam ||',
           translation: 'Purification of the nadis is the foundation of yoga; liberation comes from nadi purification. Establishing the body is yoga; knowledge of nadis is supreme.',
           hindi: 'नाड़ीयों की शुद्धि योग की नींव है; मुक्ति नाड़ीशुद्धि से आती है। शरीर की स्थापना योग है; नाड़ीविज्ञान उत्तम है।',
@@ -151,7 +151,7 @@ export const shivaswarodaya: Scripture = {
         },
         {
           id: 10,
-          sanskrit: 'पञ्चतत्त्वानि पञ्चेन्द्रियाणि पञ्चप्राणाः पञ्चभूतानि | सर्वं शिवस्य स्वरूपं यो वेद स पश्यति ||',
+          sanskrit: 'पञ्चतत्त्वानि पञ्चेन्द्रियाणि पञ्चप्राणाः पञ्चभूतानि । सर्वं शिवस्य स्वरूपं यो वेद स पश्यति ॥',
           transliteration: 'pañcatattvāni pañcendriyāṇi pañcaprāṇāḥ pañcabhūtāni | sarvaṃ śivasya svarūpaṃ yo veda sa paśyati ||',
           translation: 'The five elements, the five senses, the five pranas, the five beings — all are the form of Shiva. He who knows, sees.',
           hindi: 'पाँच तत्त्व, पाँच इंद्रियाँ, पाँच प्राण, पाँच भूत — सब शिव का स्वरूप हैं। जो जानता है, वह देखता है।',

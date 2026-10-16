@@ -17,7 +17,7 @@ export const yajurveda: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् | उर्वारुकमिव बन्धनान्मृत्योर्मुक्षीय मामृतात् ||',
+          sanskrit: 'त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् । उर्वारुकमिव बन्धनान्मृत्योर्मुक्षीय मामृतात् ॥',
           transliteration: 'tryambakaṃ yajāmahe sugandhiṃ puṣṭivardhanam | urvārukamiva bandhanānmṛtyormukṣīya māmṛtāt ||',
           translation: 'We worship the three-eyed one (Shiva), the fragrant, the nourisher of all. Like a cucumber from its vine, may we be liberated from death — and not from immortality.',
           hindi: 'हम त्र्यम्बक (तीन नेत्रों वाले शिव) की पूजा करते हैं, जो सुगन्धित और पोषण देने वाले हैं। जैसे खीरा बेल से मुक्त होता है, वैसे हमें मृत्यु से मुक्त करो — अमृत से नहीं।',
@@ -29,7 +29,7 @@ export const yajurveda: Scripture = {
       
         {
           id: 2,
-          sanskrit: 'यस्मिन् ऋचः साम यजूंषि यस्मिन् प्रतिष्ठिता रथनाभाविवाराः | यस्मिंश्चित्तं सर्वमोतं प्रजानां तन्मे मनः शिवसंकल्पमस्तु ||',
+          sanskrit: 'यस्मिन् ऋचः साम यजूंषि यस्मिन् प्रतिष्ठिता रथनाभाविवाराः । यस्मिंश्चित्तं सर्वमोतं प्रजानां तन्मे मनः शिवसंकल्पमस्तु ॥',
           transliteration: 'yasmin ṛcaḥ sāma yajūṃṣi yasmin pratiṣṭhitā rathanābhāvivārāḥ | yasmiṃścittaṃ sarvamotaṃ prajānāṃ tanme manaḥ śivasaṃkalpam astu ||',
           translation: 'That in which the Rig, Sama, and Yajur hymns are established like spokes in a wheel\'s hub — in which the minds of all beings are interwoven — may my mind be of auspicious resolve.',
           hindi: 'जिसमें ऋचाएँ, साम और यजुष् वैसे ही स्थित हैं जैसे रथ के पहिये में आरे — जिसमें सभी प्राणियों का चित्त ओत-प्रोत है — वह मेरा मन शिवसंकल्पयुक्त हो।',
@@ -45,7 +45,7 @@ export const yajurveda: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'यज्जाग्रतो दूरमुदैति दैवं तदु सुप्तस्य तथैवैति | दूरङ्गमं ज्योतिषां ज्योतिरेकं तन्मे मनः शिवसंकल्पमस्तु ||',
+          sanskrit: 'यज्जाग्रतो दूरमुदैति दैवं तदु सुप्तस्य तथैवैति । दूरङ्गमं ज्योतिषां ज्योतिरेकं तन्मे मनः शिवसंकल्पमस्तु ॥',
           transliteration: 'yajjāgrato dūramuadaiti daivaṃ tadu suptasya tathaivai ti | dūraṃgamaṃ jyotiṣāṃ jyotirekam tanme manaḥ śivasaṃkalpam astu ||',
           translation: 'That which travels far in the waking state, and returns to the same place in sleep — that divine, far-ranging light of lights, the one — may my mind be of auspicious resolve (shiva-sankalpa).',
           hindi: 'जो जागने पर दूर जाता है और सोने पर वापस आता है — वह दिव्य, दूर तक जाने वाला, ज्योतियों की ज्योति एक — वह मेरा मन शिवसंकल्पयुक्त हो।',
@@ -56,7 +56,7 @@ export const yajurveda: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'यस्मिन् ऋचः साम यजूंषि यस्मिन् प्रतिष्ठिता रथनाभाविवाराः | यस्मिंश्चित्तं सर्वमोतं प्रजानां तन्मे मनः शिवसंकल्पमस्तु ||',
+          sanskrit: 'यस्मिन् ऋचः साम यजूंषि यस्मिन् प्रतिष्ठिता रथनाभाविवाराः । यस्मिंश्चित्तं सर्वमोतं प्रजानां तन्मे मनः शिवसंकल्पमस्तु ॥',
           transliteration: 'yasmin ṛcaḥ sāma yajūṃṣi yasmin pratiṣṭhitā rathanābhāvivārāḥ | yasmiṃścittaṃ sarvamotaṃ prajānāṃ tanme manaḥ śivasaṃkalpam astu ||',
           translation: 'That in which the Rig, Sama, and Yajur hymns are established like spokes in a wheel\'s hub — in which the minds of all beings are interwoven — may my mind be of auspicious resolve.',
           hindi: 'जिसमें ऋचाएँ, साम और यजुष् वैसे ही स्थित हैं जैसे रथ के पहिये में आरे — जिसमें सभी प्राणियों का चित्त ओत-प्रोत है — वह मेरा मन शिवसंकल्पयुक्त हो।',
@@ -75,7 +75,7 @@ export const yajurveda: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'नमस्ते रुद्र मन्यव उतो त इषवे नमः | नमस्ते अस्तु धन्वने बाहुभ्यामुत ते नमः ||',
+          sanskrit: 'नमस्ते रुद्र मन्यव उतो त इषवे नमः । नमस्ते अस्तु धन्वने बाहुभ्यामुत ते नमः ॥',
           transliteration: 'namaste rudra manyava uto ta iṣave namaḥ | namaste astu dhanvane bāhubhyāmuta te namaḥ ||',
           translation: 'Salutations to your wrath, O Rudra, and to your arrow; salutations to your bow, and to your two arms.',
           hindi: 'हे रुद्र! आपके क्रोध को नमस्कार, आपके बाण को नमस्कार। आपके धनुष को नमस्कार, आपकी दोनों भुजाओं को नमस्कार।',
@@ -87,7 +87,7 @@ export const yajurveda: Scripture = {
       
         {
           id: 2,
-          sanskrit: 'यस्मिन् ऋचः साम यजूंषि यस्मिन् प्रतिष्ठिता रथनाभाविवाराः | यस्मिंश्चित्तं सर्वमोतं प्रजानां तन्मे मनः शिवसंकल्पमस्तु ||',
+          sanskrit: 'यस्मिन् ऋचः साम यजूंषि यस्मिन् प्रतिष्ठिता रथनाभाविवाराः । यस्मिंश्चित्तं सर्वमोतं प्रजानां तन्मे मनः शिवसंकल्पमस्तु ॥',
           transliteration: 'yasmin ṛcaḥ sāma yajūṃṣi yasmin pratiṣṭhitā rathanābhāvivārāḥ | yasmiṃścittaṃ sarvamotaṃ prajānāṃ tanme manaḥ śivasaṃkalpam astu ||',
           translation: 'That in which the Rig, Sama, and Yajur hymns are established like spokes in a wheel\'s hub — in which the minds of all beings are interwoven — may my mind be of auspicious resolve.',
           hindi: 'जिसमें ऋचाएँ, साम और यजुष् वैसे ही स्थित हैं जैसे रथ के पहिये में आरे — जिसमें सभी प्राणियों का चित्त ओत-प्रोत है — वह मेरा मन शिवसंकल्पयुक्त हो।',
@@ -96,7 +96,7 @@ export const yajurveda: Scripture = {
         },
         {
           id: 60,
-          sanskrit: 'त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् | उर्वारुकमिव बन्धनान्मृत्योर्मुक्षीय मामृतात् ||',
+          sanskrit: 'त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् । उर्वारुकमिव बन्धनान्मृत्योर्मुक्षीय मामृतात् ॥',
           transliteration: 'tryambakaṃ yajāmahe sugandhiṃ puṣṭivardhanam | urvārukamiva bandhanānmṛtyormukṣīya māmṛtāt ||',
           translation: 'We worship the three-eyed one (Shiva), the fragrant, the nourisher of all. Like a cucumber from its vine, may we be liberated from death — and not from immortality.',
           hindi: 'हम त्र्यम्बक (तीन नेत्रों वाले शिव) की पूजा करते हैं, जो सुगन्धित और पोषण देने वाले हैं। जैसे खीरा बेल से मुक्त होता है, वैसे हमें मृत्यु से मुक्त करो — अमृत से नहीं।',
@@ -112,7 +112,7 @@ export const yajurveda: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'ॐ सह नाववतु | सह नौ भुनक्तु | सह वीर्यं करवावहै | तेजस्विनावधीतमस्तु मा विद्विषावहै | ॐ शान्तिः शान्तिः शान्तिः ||',
+          sanskrit: 'ॐ सह नाववतु । सह नौ भुनक्तु । सह वीर्यं करवावहै । तेजस्विनावधीतमस्तु मा विद्विषावहै । ॐ शान्तिः शान्तिः शान्तिः ॥',
           transliteration: 'oṃ saha nāvavatu | saha nau bhunaktu | saha vīryaṃ karavāvahai | tejasvināvadhītamastu mā vidviṣāvahai | oṃ śāntiḥ śāntiḥ śāntiḥ ||',
           translation: 'May He protect us both. May He nourish us both. May we work together with vigour. May our study be enlightening. May we not hate each other. Om — Peace, Peace, Peace.',
           hindi: 'वह (परमात्मा) हम दोनों की रक्षा करे। हम दोनों का पालन करे। हम साथ मिलकर पराक्रम करें। हमारा अध्ययन तेजस्वी हो। हम परस्पर द्वेष न करें। ॐ शान्तिः शान्तिः शान्तिः।',
@@ -124,7 +124,7 @@ export const yajurveda: Scripture = {
       
         {
           id: 2,
-          sanskrit: 'यस्मिन् ऋचः साम यजूंषि यस्मिन् प्रतिष्ठिता रथनाभाविवाराः | यस्मिंश्चित्तं सर्वमोतं प्रजानां तन्मे मनः शिवसंकल्पमस्तु ||',
+          sanskrit: 'यस्मिन् ऋचः साम यजूंषि यस्मिन् प्रतिष्ठिता रथनाभाविवाराः । यस्मिंश्चित्तं सर्वमोतं प्रजानां तन्मे मनः शिवसंकल्पमस्तु ॥',
           transliteration: 'yasmin ṛcaḥ sāma yajūṃṣi yasmin pratiṣṭhitā rathanābhāvivārāḥ | yasmiṃścittaṃ sarvamotaṃ prajānāṃ tanme manaḥ śivasaṃkalpam astu ||',
           translation: 'That in which the Rig, Sama, and Yajur hymns are established like spokes in a wheel\'s hub — in which the minds of all beings are interwoven — may my mind be of auspicious resolve.',
           hindi: 'जिसमें ऋचाएँ, साम और यजुष् वैसे ही स्थित हैं जैसे रथ के पहिये में आरे — जिसमें सभी प्राणियों का चित्त ओत-प्रोत है — वह मेरा मन शिवसंकल्पयुक्त हो।',
@@ -2102,7 +2102,7 @@ export const yajurveda: Scripture = {
         },
         {
           id: 26,
-          sanskrit: 'सोम॒ᳪ राजा॑न॒मव॑से॒ऽग्निम॒न्वा॑रभामहे | आ॒दि॒त्यान्विष्णु॒ᳪ  सूर्यं॑ ब्र॒ह्माणं॑ च॒ बृह॒स्पति॒ᳪ स्वाहा॑',
+          sanskrit: 'सोम॒ᳪ राजा॑न॒मव॑से॒ऽग्निम॒न्वा॑रभामहे । आ॒दि॒त्यान्विष्णु॒ᳪ  सूर्यं॑ ब्र॒ह्माणं॑ च॒ बृह॒स्पति॒ᳪ स्वाहा॑',
           transliteration: '',
           translation: 'As suppliants, for aid we grasp Soma the King, and Agni, the &Acirc;dityas, Vishnu, S&ucirc;rya, and the Brahman-priest Brihaspati.',
           hindi: 'जेसे एक पिता सब पुत्रों का ध्यान करता है, इसी प्रकार राजा सारी प्रजा पर प्रीतिवाला हो ओर सभी को जीविकोपार्जन में सक्षम बनाये। -निर्धनता व अज्ञान का निरसन प्र नो यच्छत्वर्यमा प्र पूषा प्र लृहस्पतिंः । प्र वाग्देवी द॑दातु नः स्वाह ।॥। २९॥',
@@ -2228,7 +2228,7 @@ export const yajurveda: Scripture = {
         },
         {
           id: 40,
-          sanskrit: 'इ॒मं दे॑वा असप॒त्नᳪ सु॑वध्वं मह॒ते क्ष॒त्राय॑ मह॒ते ज्यैष्ठ्या॑य मह॒ते जान॑राज्या॒येन्द्र॑स्येन्द्रि॒याय॑ |\nइ॒मम॒मुष्य॑ पु॒त्रम॒मुष्यै॑ पु॒त्रम॒स्यै वि॒श ए॒ष वो॑ऽमी॒ राजा॒ सोमो॒ऽस्माकं॑ ब्राह्म॒णाना॒ᳪ राजा॑',
+          sanskrit: 'इ॒मं दे॑वा असप॒त्नᳪ सु॑वध्वं मह॒ते क्ष॒त्राय॑ मह॒ते ज्यैष्ठ्या॑य मह॒ते जान॑राज्या॒येन्द्र॑स्येन्द्रि॒याय॑ ।\nइ॒मम॒मुष्य॑ पु॒त्रम॒मुष्यै॑ पु॒त्रम॒स्यै वि॒श ए॒ष वो॑ऽमी॒ राजा॒ सोमो॒ऽस्माकं॑ ब्राह्म॒णाना॒ᳪ राजा॑',
           transliteration: '',
           translation: 'Gods, quicken him that none may be his rival, for mighty domination, mighty lordship, Him, son of Such-a-man and Such-a-woman, of Such-a-tribe. This is your King, ye Tribesmen. Soma is Lord and King of us the Brâhmans.',
           hindi: 'हमें अपने जीवनों मे क्रमशः उन्नति करते हए  पूषा, सविता, मरुतः व मित्र-वरूुण-इन्द्र- विश्वेदेवाः विराजमुद॑जयत्तामुज्जैषमिनद्रऽ एकादशाक्षरेण त्रिष्टुभमुद॑ जयत्तामुज्जैषं विश्वं देवा १. मित्रः (प्रमीते: त्रायते) मृत्यु से अपने को बचानेवाला नवाक्षरेण नौ व्यापक',
@@ -3950,7 +3950,7 @@ export const yajurveda: Scripture = {
         },
         {
           id: 73,
-          sanskrit: 'वि मु॑च्यध्वमघ्न्या देवयाना॒ अग॑न्म॒ तम॑सस्पा॒रम॒स्य |ज्योति॑रापाम',
+          sanskrit: 'वि मु॑च्यध्वमघ्न्या देवयाना॒ अग॑न्म॒ तम॑सस्पा॒रम॒स्य ।ज्योति॑रापाम',
           transliteration: '',
           translation: 'Be loosed, inviolable, Godward-farers! We have attained the limit of this darkness: we have won the light.',
           hindi: 'गुरु का आद्र व प्रभु-भक्तिवाले पुरुष के जीवन में १. लान का सूर्य चमकता है २. इसकी जीवनी-शक्ति बनी रहती है तथा ३. इसका वंश उज्ज्वल होता हे। यजुर्केदभाष्यम् ३६७ द्वादशोऽध्यायः विष्णु+लक्ष्मी, नकि केवल लक्ष्मी',
@@ -3959,7 +3959,7 @@ export const yajurveda: Scripture = {
         },
         {
           id: 74,
-          sanskrit: 'स॒जूरब्दो॒ अय॑वोभिः स॒जूरु॒षा अरु॑णीभिः | स॒जोष॑साव॒श्विना॒ दᳪसो॑भिः स॒जूः सूर॒ एत॑शेन स॒जूर्वै॑श्वान॒र इड॑या घृ॒तेन॒ स्वाहा॑',
+          sanskrit: 'स॒जूरब्दो॒ अय॑वोभिः स॒जूरु॒षा अरु॑णीभिः । स॒जोष॑साव॒श्विना॒ दᳪसो॑भिः स॒जूः सूर॒ एत॑शेन स॒जूर्वै॑श्वान॒र इड॑या घृ॒तेन॒ स्वाहा॑',
           transliteration: '',
           translation: 'Ye, Mothers, have a hundred homes, yea, and a thousand are your growths.',
           hindi: 'नित्याभियुक्त पुरुष वसुओं-जीवन-धारण के लिए आवश्यक वस्तुओं को प्राप्त करता हे, क्योंकि यह लक्ष्मी को प्रभु के साथ ही चाहता है, अतः पापों में नहीं फैसता। अद्धेषे द्यावापृथिवी हवेम॒ देवां धत्त रयिमस्मे सुवीर॑म् ।॥ २९॥  वत्सप्री\' कहता है कि १. ऋषिभिः तत्तवद्रष्टा लोगों से अग्निः=वह अग्रेणी प्रभु',
@@ -4578,7 +4578,7 @@ export const yajurveda: Scripture = {
         },
         {
           id: 25,
-          sanskrit: 'मधु॑श्च॒ माध॑वश्च॒ वास॑न्तिकावृ॒तू अ॒ग्नेर॑न्तः श्ले॒षो॒ऽसि॒ कल्पे॑तां॒ द्यावा॑पृथि॒वी कल्प॑न्ता॒माप॒ ओष॑धय॒: कल्प॑न्ताम॒ग्नय॒: पृथ॒ङ्नम॒ ज्यैष्ठ्या॑य॒ सव्र॑ताः । ये अ॒ग्नय॒: सम॑नसोऽन्त॒रा द्यावा॑पृथि॒वी इ॒मे |\nवास॑न्तिकावृ॒तू अ॑भि॒कल्प॑माना॒ इन्द्र॑मिव दे॒वा अ॑भि॒संवि॑शन्तु॒ तया॑ दे॒वत॑याऽङ्गिर॒स्वद् ध्रु॒वे सी॑दतम्',
+          sanskrit: 'मधु॑श्च॒ माध॑वश्च॒ वास॑न्तिकावृ॒तू अ॒ग्नेर॑न्तः श्ले॒षो॒ऽसि॒ कल्पे॑तां॒ द्यावा॑पृथि॒वी कल्प॑न्ता॒माप॒ ओष॑धय॒: कल्प॑न्ताम॒ग्नय॒: पृथ॒ङ्नम॒ ज्यैष्ठ्या॑य॒ सव्र॑ताः । ये अ॒ग्नय॒: सम॑नसोऽन्त॒रा द्यावा॑पृथि॒वी इ॒मे ।\nवास॑न्तिकावृ॒तू अ॑भि॒कल्प॑माना॒ इन्द्र॑मिव दे॒वा अ॑भि॒संवि॑शन्तु॒ तया॑ दे॒वत॑याऽङ्गिर॒स्वद् ध्रु॒वे सी॑दतम्',
           transliteration: '',
           translation: 'Madhu and Mâdhava, the two Spring seasons&#151;thou art the innermost cement of Agni. May Heaven and Earth, may Waters, Plants and Agnis help, separate, accordant, my precedence. May all the Fires &#146;twixt heaven and earth, one-minded, well-fitted, gather round these two Spring seasons, As the Gods gathering encompass Indra: firm with that Deity, Angiras-like, be seated.',
           hindi: 'प्रभु का प्रिय वह होता है जो १. उत्तम माता, पिता व आचार्य के सम्पर्क में आकर ज्ञानी बनता है। २. शरीर मेँ स्वास्थ्य की कान्तिवाला होता है। ३. मस्तिष्क मं ज्ञानाग्नि से दीप्त होता है तथा ४. उत्तम सन्तान का निर्माण करता है ओर उस सन्तान को प्रभु की ही समञ्जता हे।',
@@ -4927,7 +4927,7 @@ export const yajurveda: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'अदि॑त्यास्त्वा पृ॒ष्ठे सा॑दयाम्य॒न्तरि॑क्षस्य ध॒र्त्रीं वि॒ष्टम्भ॑नीं दि॒शामधि॑पत्नीं॒ भुव॑नानाम् |ऊ॒र्मिर्द्र॒प्सो अ॒पाम॑सि वि॒श्वक॑र्मा त॒ ऋषि॑र॒श्विना॑ऽध्व॒र्यू सा॑दयतामि॒ह त्वा॑',
+          sanskrit: 'अदि॑त्यास्त्वा पृ॒ष्ठे सा॑दयाम्य॒न्तरि॑क्षस्य ध॒र्त्रीं वि॒ष्टम्भ॑नीं दि॒शामधि॑पत्नीं॒ भुव॑नानाम् ।ऊ॒र्मिर्द्र॒प्सो अ॒पाम॑सि वि॒श्वक॑र्मा त॒ ऋषि॑र॒श्विना॑ऽध्व॒र्यू सा॑दयतामि॒ह त्वा॑',
           transliteration: '',
           translation: 'Upon the back of Aditi I lay thee the sky\'s supporter, pillar of the Quarters, Queen over creatures. Wave and drop of waters art thou; and Visvakarman is thy Rishi.',
           hindi: 'पली हदय में सेवा की वृत्तिवाली हो, ज्ञान के लिए विस्तारवाली, विशाल हदयवाली हो। मन को दृट् व नियमित रक्खे। पति उत्तम गौ, उत्तम घर व समृद्धता का १. है पलि! राज्ञी असित् (राज् दीप्तौ) शरीर में स्वास्थ्य की दीप्तिवाली है-मन में भक्ति कौ दीप्तिवाली तथा मस्तिष्क में ज्ञान कौ दीप्तिवाली है। इसी से प्राची दिक्छ=तेरी',
@@ -4936,7 +4936,7 @@ export const yajurveda: Scripture = {
         },
         {
           id: 6,
-          sanskrit: 'शु॒क्रश्च॒ शुचि॑श्च ग्रैष्मा॑वृ॒तू अ॒ग्नेर॑न्तः श्ले॒षो॒ऽसि॒ कल्पे॑तां॒ द्यावा॑पृथि॒वी कल्प॑न्ता॒माप॒ ओष॑धय॒: कल्प॑न्ताम॒ग्नय॒: पृथ॒ङ्नम॒ ज्यैष्ठ्या॑य॒ सव्र॑ताः|\nये अ॒ग्नय॒: सम॑नसोऽन्त॒रा द्यावा॑पृथि॒वी इ॒मे | ग्रै॒ष्मा॑वृ॒तू अ॑भि॒कल्प॑माना॒ इन्द्र॑मिव दे॒वा अ॑भि॒संवि॑शन्तु॒ तया॑ दे॒वत॑याऽङ्गिर॒स्वद् ध्रुवे सी॑दतम्',
+          sanskrit: 'शु॒क्रश्च॒ शुचि॑श्च ग्रैष्मा॑वृ॒तू अ॒ग्नेर॑न्तः श्ले॒षो॒ऽसि॒ कल्पे॑तां॒ द्यावा॑पृथि॒वी कल्प॑न्ता॒माप॒ ओष॑धय॒: कल्प॑न्ताम॒ग्नय॒: पृथ॒ङ्नम॒ ज्यैष्ठ्या॑य॒ सव्र॑ताः।\nये अ॒ग्नय॒: सम॑नसोऽन्त॒रा द्यावा॑पृथि॒वी इ॒मे । ग्रै॒ष्मा॑वृ॒तू अ॑भि॒कल्प॑माना॒ इन्द्र॑मिव दे॒वा अ॑भि॒संवि॑शन्तु॒ तया॑ दे॒वत॑याऽङ्गिर॒स्वद् ध्रुवे सी॑दतम्',
           transliteration: '',
           translation: 'Sukra and Suchi, seasons, both, of summer&#151;thou art the innermost cement of Agni. May Heaven and Earth, may Waters, Plants and Agnis help, separate, accordant, my precedence. Let all the Agnis &#146;twixt the earth and heaven gather together round these summer seasons, as the Gods gather in their hosts round Indra, Firm, with that Deity, Angiras-like, be seated.',
           hindi: 'पली का जीवन भी ज्योतिर्मय हो, जिससे वह सन्तानो को भी ज्ञान दे सके। नभ॑श्च नभस्यश्च वार्षि"कावृतूऽअग्नेरन्तःश्लेघो ऽखि कल्पैतां द्यावापृथिवी सम॑नसो ऽन्तरा द्यावा पृथिवीऽ डमे । वार्षिकावृतूऽअभिकल्प॑मानाऽ इन्द्र॑मिव देवाऽअ॑भिसंविंशन्तु तयां देवत॑याद्धिर स्वद् शुवे सीदतम् ।॥ ९५॥',
@@ -5008,7 +5008,7 @@ export const yajurveda: Scripture = {
         },
         {
           id: 15,
-          sanskrit: 'नभ॑श्च नभ॒स्य॒श्च॒ वार्षि॑कावृ॒तू अ॒ग्नेर॑न्तः श्ले॒षो॒ऽसि॒ कल्पे॑तां॒ द्यावा॑पृथि॒वी कल्प॑न्ता॒माप॒ ओष॑धय॒: कल्प॑न्ताम॒ग्नय॒: पृथ॒ङ्नम॒ ज्यैष्ठ्या॑य॒ सव्र॑ताः।\nये अ॒ग्नय॒: सम॑नसोऽन्त॒रा द्यावा॑पृथि॒वी इ॒मे | वार्षि॑कावृ॒तू अ॑भि॒कल्प॑माना॒ इन्द्र॑मिव दे॒वा अ॑भि॒संवि॑शन्तु॒ तया॑ दे॒वत॑याऽङ्गिर॒स्वद् ध्रु॒वे सी॑दतम्',
+          sanskrit: 'नभ॑श्च नभ॒स्य॒श्च॒ वार्षि॑कावृ॒तू अ॒ग्नेर॑न्तः श्ले॒षो॒ऽसि॒ कल्पे॑तां॒ द्यावा॑पृथि॒वी कल्प॑न्ता॒माप॒ ओष॑धय॒: कल्प॑न्ताम॒ग्नय॒: पृथ॒ङ्नम॒ ज्यैष्ठ्या॑य॒ सव्र॑ताः।\nये अ॒ग्नय॒: सम॑नसोऽन्त॒रा द्यावा॑पृथि॒वी इ॒मे । वार्षि॑कावृ॒तू अ॑भि॒कल्प॑माना॒ इन्द्र॑मिव दे॒वा अ॑भि॒संवि॑शन्तु॒ तया॑ दे॒वत॑याऽङ्गिर॒स्वद् ध्रु॒वे सी॑दतम्',
           transliteration: '',
           translation: 'Two Rainy Seasons, Nabhas and Nabhasya&#151;thou art the innermost cement of Agni, etc. (as in XIII. 25).',
           hindi: 'प्राणशक्ति-सम्पन्न हो (नाजुक नहीं ) ओर पति \' अग्नि"=उन्नतिशील व \' वैश्वानर\' सबका भला ही करनेवाला हो। एेसा होने पर ही ये प्रस्तुत मन्त्र के ऋषि ‹ विश्वेदेवाः” बन सकेगे। १. गत मन्त्र के पति-पल्ी से प्रभु कहते है कि हैँ कि-हे जीव! मे प्राणं पाहि=मेरे दिये हुए प्राण कौ तू रक्षा करना। प्राणशक्ति का अपव्यय न करना। २. मे अपानं पाहि',
@@ -5116,7 +5116,7 @@ export const yajurveda: Scripture = {
         },
         {
           id: 27,
-          sanskrit: 'सह॑श्च सह॒स्य॒श्च हैम॑न्तिकावृ॒तू अ॒ग्नेर॑न्तः श्ले॒षो॒ऽसि॒ कल्पे॑तां॒ द्यावा॑पृथि॒वी कल्प॑न्ता॒माप॒ ओष॑धय॒: कल्प॑न्ताम॒ग्नय॒: पृथ॒ङ्नम॒ ज्यैष्ठ्या॑य॒ सव्र॑ताः।\nये अ॒ग्नय॒: सम॑नसोऽन्त॒रा द्यावा॑पृथि॒वी इ॒मे| है॑मन्तिकावृ॒तू अ॑भि॒कल्प॑माना॒ इन्द्र॑मिव दे॒वा अ॑भि॒संवि॑शन्तु॒ तया॑ दे॒वत॑याऽङ्गिर॒स्वद् ध्रु॒वे सी॑दतम्',
+          sanskrit: 'सह॑श्च सह॒स्य॒श्च हैम॑न्तिकावृ॒तू अ॒ग्नेर॑न्तः श्ले॒षो॒ऽसि॒ कल्पे॑तां॒ द्यावा॑पृथि॒वी कल्प॑न्ता॒माप॒ ओष॑धय॒: कल्प॑न्ताम॒ग्नय॒: पृथ॒ङ्नम॒ ज्यैष्ठ्या॑य॒ सव्र॑ताः।\nये अ॒ग्नय॒: सम॑नसोऽन्त॒रा द्यावा॑पृथि॒वी इ॒मे। है॑मन्तिकावृ॒तू अ॑भि॒कल्प॑माना॒ इन्द्र॑मिव दे॒वा अ॑भि॒संवि॑शन्तु॒ तया॑ दे॒वत॑याऽङ्गिर॒स्वद् ध्रु॒वे सी॑दतम्',
           transliteration: '',
           translation: 'Sahas, Sahasya, the two Winter Seasons&#151;thou art the innermost cement of Agni, etc. (as in XIII. 25).',
           hindi: 'सहनशक्ति व बल का सम्पादन करके हम गतिशील व प्रगतिशील बने। हमारा जीवन व्यवस्थित हो। हम जलों व ओषधियों का ही सेवन करे। यह ध्यान रक्खें कि "मांस" न खाँ, क्योंकि वह तो मुञ्े ही खा जाएगा। प्रभु-उपासना करते हए हम घर में ध्रुव निवासवाले हों. वहो हमारा जीवन बड़ा मर्यादित हो।',
@@ -5285,7 +5285,7 @@ export const yajurveda: Scripture = {
         },
         {
           id: 15,
-          sanskrit: 'अ॒यं पु॒रो हरि॑केश॒: सूर्य॑रश्मि॒स्तस्य॑ रथगृ॒त्सश्च॒ रथौ॑जाश्च सेनानीग्राम॒ण्यौ॒ |\nपु॒ञ्जि॒क॒स्थ॒ला च॑ क्रतुस्थ॒ला चा॑प्स॒रसौ॑ द॒ङ्क्ष्णव॑: प॒शवो॑ हे॒तिः पौ॑रुषेयो व॒धः प्रहे॑ति॒स्तेभ्यो॒ नमो॑ अस्तु॒ ते नो॑ऽवन्तु॒ ते नो॑ मृडयन्तु॒ ते यं द्वि॒ष्मो यश्च॑ नो॒ द्वेष्टि॒ तमे॑षां॒ जम्भे॑ दध्मः',
+          sanskrit: 'अ॒यं पु॒रो हरि॑केश॒: सूर्य॑रश्मि॒स्तस्य॑ रथगृ॒त्सश्च॒ रथौ॑जाश्च सेनानीग्राम॒ण्यौ॒ ।\nपु॒ञ्जि॒क॒स्थ॒ला च॑ क्रतुस्थ॒ला चा॑प्स॒रसौ॑ द॒ङ्क्ष्णव॑: प॒शवो॑ हे॒तिः पौ॑रुषेयो व॒धः प्रहे॑ति॒स्तेभ्यो॒ नमो॑ अस्तु॒ ते नो॑ऽवन्तु॒ ते नो॑ मृडयन्तु॒ ते यं द्वि॒ष्मो यश्च॑ नो॒ द्वेष्टि॒ तमे॑षां॒ जम्भे॑ दध्मः',
           transliteration: '',
           translation: 'This one in front, golden-tressed, with sunbeams; the leader of his host and his chieftain are Rathagritsa and Rathaujas, and Pu&ntilde;jikasthalâ: and Kratusthalâ his Apsarases. Biting animals are his weapon, homicide his missile weapon; to them be homage: may they protect us, may they have mercy upon us. In their jaws we place the man whom we hate and who hates us.',
           hindi: 'राजा यथार्हदण्ड होकर राष्ट में राक्षसी वृत्ति का अन्त करे। इस सुरक्षित राष्ट में सब व्यक्ति उन्नति के मार्ग पर आगे बद भद्रो नोऽअग्निरातो भद्रा रातिः सुभग भद्रोऽअध्वरः। १. गत मन्त्र के अनुसार उत्तमता से शासित ओर अतएव शान्त राज्य में सब',
@@ -5654,7 +5654,7 @@ export const yajurveda: Scripture = {
         },
         {
           id: 57,
-          sanskrit: 'तप॑श्च तप॒स्य॒श्च शैशि॒रावृ॒तू अ॒ग्नेर॑न्तः श्ले॒षो॒ऽसि॒ कल्पे॑तां॒ द्यावा॑पृथि॒वी कल्प॑न्ता॒माप॒ ओष॑धय॒: कल्प॑न्ताम॒ग्नय॒: पृथ॒ङ्मम॒ ज्यैष्ठ्या॑य॒ सव्र॑ताः। ये अ॒ग्नय॒: सम॑नसोऽन्त॒रा द्यावा॑पृथि॒वी इ॒मे|\nशै॒शि॒रावृ॒तू अ॑भि॒कल्प॑माना॒ इन्द्र॑मिव दे॒वा अ॑भि॒संवि॑शन्तु॒ तया॑ दे॒वत॑याऽङ्गिर॒स्वद्ध्रु॒वे सी॑दतम्',
+          sanskrit: 'तप॑श्च तप॒स्य॒श्च शैशि॒रावृ॒तू अ॒ग्नेर॑न्तः श्ले॒षो॒ऽसि॒ कल्पे॑तां॒ द्यावा॑पृथि॒वी कल्प॑न्ता॒माप॒ ओष॑धय॒: कल्प॑न्ताम॒ग्नय॒: पृथ॒ङ्मम॒ ज्यैष्ठ्या॑य॒ सव्र॑ताः। ये अ॒ग्नय॒: सम॑नसोऽन्त॒रा द्यावा॑पृथि॒वी इ॒मे।\nशै॒शि॒रावृ॒तू अ॑भि॒कल्प॑माना॒ इन्द्र॑मिव दे॒वा अ॑भि॒संवि॑शन्तु॒ तया॑ दे॒वत॑याऽङ्गिर॒स्वद्ध्रु॒वे सी॑दतम्',
           transliteration: '',
           translation: '(as in XIII. 25).',
           hindi: 'कामादि शत्नु-विजेता अग्नि वीरतम है, उत्कृष्ट जीवनवाला है , प्रसन्न. ज्ञानी, अप्रमत्त है। इन कोशो में यह दीप्त जीवनवाला है ओर तभी स्वर्ग को प्राप्त करता सम्प्रच्य॑वध्वमुप॑ सम्प्रयाताग्न पथो देवयानान् कृणुध्वम् । १. सम्प्रच्यवध्वम्= (सं गच्छध्वम्) तुम सब मिलकर चलो ओर मिलकर चलने के',
@@ -10185,7 +10185,7 @@ export const yajurveda: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'प्र॒जाप॑तये त्वा॒ जुष्टं॒ प्रोक्षा॑मीन्द्रा॒ग्निभ्यां॑ त्वा॒ जुष्टं॒ प्रोक्षा॑मि वा॒यवे॑ त्वा॒ जुष्टं॒ प्रोक्षा॑मि॒\nविश्वे॑भ्यस्त्वा दे॒वेभ्यो॒ जुष्टं॒ प्रोक्षा॑मि॒ सर्वे॑भ्यस्त्वा दे॒वेभ्यो॒ जुष्टं॒ प्रोक्षा॑मि ।\nयो अर्व॑न्तं॒ जिघा॑ᳪसति॒ तम॒भ्य॒मीति॒ वरु॑णः| प॒रो मर्त॑: प॒रः श्वा',
+          sanskrit: 'प्र॒जाप॑तये त्वा॒ जुष्टं॒ प्रोक्षा॑मीन्द्रा॒ग्निभ्यां॑ त्वा॒ जुष्टं॒ प्रोक्षा॑मि वा॒यवे॑ त्वा॒ जुष्टं॒ प्रोक्षा॑मि॒\nविश्वे॑भ्यस्त्वा दे॒वेभ्यो॒ जुष्टं॒ प्रोक्षा॑मि॒ सर्वे॑भ्यस्त्वा दे॒वेभ्यो॒ जुष्टं॒ प्रोक्षा॑मि ।\nयो अर्व॑न्तं॒ जिघा॑ᳪसति॒ तम॒भ्य॒मीति॒ वरु॑णः। प॒रो मर्त॑: प॒रः श्वा',
           transliteration: '',
           translation: 'Thee welcome to Prajâpati I sprinkle. I sprinkle thee welcome to Indra-Agni. I sprinkle thee acceptable to Vâyu. Thee welcome to the All-Gods I besprinkle. Thee welcome to all Deities I sprinkle. With fury Varuna attacks the man who fain would slay the steed. Avaunt the man! Avaunt the dog!',
           hindi: 'हदयदेश में प्रभु के स्मरण से मनुष्य प्रजापति बनता हे, बल व प्रकाश को प्राप्त करता है, गतिशीलता से बुराइयों को दूर् करता हे, चक्षु आदि इन्द्रियों को स्वस्थ रख पाता है, सूर्यादि देव व विद्धान् इसके अनुकूल होते हे। प्रभु को भूलनेवाला पीडित होता है, अन्ततः निरादृत होता है ओर अधोगति को प्राप्त करता हे।',

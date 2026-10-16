@@ -17,7 +17,7 @@ export const varahapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'वाराहं रूपमास्थाय महाविष्णुः प्रजापतिः | रसातलतलं गत्वा उद्धृतां धरणीं ददौ ||',
+          sanskrit: 'वाराहं रूपमास्थाय महाविष्णुः प्रजापतिः । रसातलतलं गत्वा उद्धृतां धरणीं ददौ ॥',
           transliteration: 'vārāhaṃ rūpamāsthāya mahāviṣṇuḥ prajāpatiḥ | rasātalaṃ talaṃ gatvā uddhrītāṃ dharaṇīṃ dadau ||',
           translation: 'Taking the form of a boar, the great Vishnu, lord of all creation, descended to the bottom of the netherworld, lifted the Earth, and restored her.',
           hindi: 'महाविष्णु ने वाराह रूप धारण किया और रसातल की गहराई में जाकर धरती को उठाकर वापस लाए।',
@@ -28,7 +28,7 @@ export const varahapuran: Scripture = {
         },
         {
           id: 12,
-          sanskrit: 'हिरण्याक्षो महाबाहुः पृथिवीं निह्नुते बली | तमहत्वा महाविष्णुः पृथिवीमुज्जहार ह ||',
+          sanskrit: 'हिरण्याक्षो महाबाहुः पृथिवीं निह्नुते बली । तमहत्वा महाविष्णुः पृथिवीमुज्जहार ह ॥',
           transliteration: 'hiraṇyākṣo mahābāhuḥ pṛthivīṃ nihnute balī | tamāhatvā mahāviṣṇuḥ pṛthivīmujjahāra ha ||',
           translation: 'The mighty-armed Hiranyaksha, powerful, seizes and submerges the Earth. Slaying him, the great Vishnu lifts the Earth up.',
           hindi: 'महाबाहु, बलशाली हिरण्याक्ष ने पृथ्वी को दबा दिया। उसे मारकर महाविष्णु ने पृथ्वी को ऊपर उठाया।',
@@ -47,7 +47,7 @@ export const varahapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'भूरुवाच: को धर्मः परमो लोके केन मुक्तिः प्रजायते | कथं त्वां पूजयेद् विष्णो यथा मुक्तिः प्रजायते ||',
+          sanskrit: 'भूरुवाच: को धर्मः परमो लोके केन मुक्तिः प्रजायते । कथं त्वां पूजयेद् विष्णो यथा मुक्तिः प्रजायते ॥',
           transliteration: 'bhūruvāca: ko dharmaḥ paramo loke kena muktiḥ prajāyate | kathaṃ tvāṃ pūjayed viṣṇo yathā muktiḥ prajāyate ||',
           translation: 'The Earth speaks: What is the highest dharma in the world? By what does liberation arise? How should one worship You, O Vishnu, such that liberation is born?',
           hindi: 'भूदेवी बोलीं: इस लोक में परम धर्म क्या है? किससे मुक्ति होती है? हे विष्णो! आपकी पूजा कैसे करें जिससे मुक्ति मिले?',
@@ -58,7 +58,7 @@ export const varahapuran: Scripture = {
         },
         {
           id: 8,
-          sanskrit: 'सर्वभूतहितं धर्मं विष्णुरुवाच महामते | अहिंसा परमो धर्मः सर्वप्राणभृतां वर ||',
+          sanskrit: 'सर्वभूतहितं धर्मं विष्णुरुवाच महामते । अहिंसा परमो धर्मः सर्वप्राणभृतां वर ॥',
           transliteration: 'sarvabhūtahitaṃ dharmaṃ viṣṇuruvāca mahāmate | ahiṃsā paramo dharmaḥ sarvapraṇabhṛtāṃ vara ||',
           translation: 'Vishnu speaks: O great-minded one, dharma is that which benefits all beings. Non-harm (ahimsa) is the highest dharma for all creatures.',
           hindi: 'विष्णु बोले: हे महामते! धर्म वह है जो सभी प्राणियों का हित करे। सभी प्राणियों के लिए अहिंसा परम धर्म है।',
@@ -77,7 +77,7 @@ export const varahapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'स्थाने हृषीकेश तव प्रकीर्त्या जगत्प्रहृष्यत्यनुरज्यते च | रक्षांसि भीतानि दिशो द्रवन्ति सर्वे नमस्यन्ति च सिद्धसङ्घाः ||',
+          sanskrit: 'स्थाने हृषीकेश तव प्रकीर्त्या जगत्प्रहृष्यत्यनुरज्यते च । रक्षांसि भीतानि दिशो द्रवन्ति सर्वे नमस्यन्ति च सिद्धसङ्घाः ॥',
           transliteration: 'sthāne hṛṣīkeśa tava prakīrtyā jagatprahṛṣyatyanurajyate ca | rakṣāṃsi bhītāni diśo dravanti sarve namasyanti ca siddhasaṃghāḥ ||',
           translation: 'Rightly, O Hrishikesha, the world rejoices and is delighted at Your glory. Demons flee in all directions in fear, and all assemblies of the perfected ones bow to You.',
           hindi: 'हे हृषीकेश! आपकी कीर्ति से जगत् प्रसन्न और अनुरक्त होता है — यह उचित ही है। राक्षस भयभीत होकर दिशाओं में भागते हैं, और सिद्धों के समूह आपको नमस्कार करते हैं।',
@@ -88,7 +88,7 @@ export const varahapuran: Scripture = {
         },
         {
           id: 22,
-          sanskrit: 'आनुकूल्यस्य सङ्कल्पः प्रातिकूल्यस्य वर्जनम् | रक्षिष्यतीति विश्वासो गोप्तृत्वे वरणं तथा ||',
+          sanskrit: 'आनुकूल्यस्य सङ्कल्पः प्रातिकूल्यस्य वर्जनम् । रक्षिष्यतीति विश्वासो गोप्तृत्वे वरणं तथा ॥',
           transliteration: 'ānukūlyasya saṃkalpaḥ prātikūlyasya varjanam | rakṣiṣyatīti viśvāso goptṛtve varaṇaṃ tathā ||',
           translation: 'The resolve to act in alignment; the abandonment of what opposes; the trust that "He will protect"; and the choice of God as one\'s protector — these are the limbs of prapatti.',
           hindi: 'अनुकूलता का संकल्प, प्रतिकूलता का त्याग, "वह रक्षा करेंगे" यह विश्वास, और गोप्तृत्व के लिए उनका वरण — ये प्रपत्ति के अंग हैं।',
@@ -99,7 +99,7 @@ export const varahapuran: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'वराहो भूत्वा विष्णुस्तु भूदेवीं पातालवासिनीम् | उद्धृत्य दंष्ट्रयोर्मूले स्थापयामास पृथ्व्याम् ||',
+          sanskrit: 'वराहो भूत्वा विष्णुस्तु भूदेवीं पातालवासिनीम् । उद्धृत्य दंष्ट्रयोर्मूले स्थापयामास पृथ्व्याम् ॥',
           transliteration: 'varāho bhūtvā viṣṇustu bhūdevīṃ pātālavāsinīm | uddhṛtya daṃṣṭrayormūle sthāpayāmāsa pṛthvyām ||',
           translation: 'Vishnu becoming Varaha lifted Bhudevi from her residence in Patala and established her on earth by the roots of his tusks.',
           hindi: 'विष्णु वराह बनकर, पाताल में निवास करती हुई भूदेवी को उठाकर, अपने दाँतों के मूल से पृथ्वी पर स्थापित किया।',
@@ -110,7 +110,7 @@ export const varahapuran: Scripture = {
         },
         {
           id: 26,
-          sanskrit: 'भूदेवी विष्णुं प्राहु: कथं मुक्तिः प्रजायते | विष्णुरुवाच: भक्तिरेषा मुक्तिः सर्वकर्मभिः ||',
+          sanskrit: 'भूदेवी विष्णुं प्राहु: कथं मुक्तिः प्रजायते । विष्णुरुवाच: भक्तिरेषा मुक्तिः सर्वकर्मभिः ॥',
           transliteration: 'bhūdevī viṣṇuṃ prāhu: kathaṃ muktiḥ prajāyate | viṣṇuruvāca: bhaktireṣā muktiḥ sarvakarmabhiḥ ||',
           translation: 'Bhudevi asked Vishnu: how is liberation attained? Vishnu replied: through this bhakti, liberation is attained from all karma.',
           hindi: 'भूदेवी ने विष्णु से पूछा: मुक्ति कैसे प्राप्त होती है? विष्णु ने कहा: इस भक्ति से मुक्ति सभी कर्मों से प्राप्त होती है।',
@@ -121,7 +121,7 @@ export const varahapuran: Scripture = {
         },
         {
           id: 27,
-          sanskrit: 'धर्मो रक्षति रक्षितः धर्मो हन्ति हतः क्रिया | धर्मो न प्रशश्यते किञ्चित् धर्मेण तप्यते अमृतम् ||',
+          sanskrit: 'धर्मो रक्षति रक्षितः धर्मो हन्ति हतः क्रिया । धर्मो न प्रशश्यते किञ्चित् धर्मेण तप्यते अमृतम् ॥',
           transliteration: 'dharmo rakṣati rakṣitaḥ dharmaḥ hanti hatāḥ kriyā | dharmaḥ na praśaśyate kiñcid dharmeṇa tapyate amṛtam ||',
           translation: 'Dharma protects when protected; dharma destroys when destroyed. Dharma never perishes; through dharma, immortality is attained.',
           hindi: 'धर्म रक्षा करता है जब रक्षित होता है; धर्म नष्ट करता है जब नष्ट किया जाता है। धर्म कभी नहीं मरता; धर्म से अमृत प्राप्त होता है।',
@@ -132,7 +132,7 @@ export const varahapuran: Scripture = {
         },
         {
           id: 28,
-          sanskrit: 'सर्वभूतानां हितार्थं विष्णुः सर्वं पालयते | यो विष्णुं भजते भक्त्या स प्राप्नोति परं पदम् ||',
+          sanskrit: 'सर्वभूतानां हितार्थं विष्णुः सर्वं पालयते । यो विष्णुं भजते भक्त्या स प्राप्नोति परं पदम् ॥',
           transliteration: 'sarvabhūtānām hitārthaṃ viṣṇuḥ sarvaṃ pālayate | yo viṣṇuṃ bhajate bhaktyā sa prāpnoti paraṃ padam ||',
           translation: 'For the welfare of all beings, Vishnu protects all. He who worships Vishnu with devotion attains the supreme state.',
           hindi: 'सभी प्राणियों के हित के लिए, विष्णु सब की रक्षा करते हैं। जो विष्णु को भक्ति से भजता है, वह परम पद प्राप्त करता है।',

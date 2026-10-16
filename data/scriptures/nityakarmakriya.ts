@@ -20,7 +20,7 @@ export const nityaKarmaKriya: Scripture = {
         {
           id: 1,
           sanskrit:
-            "ॐ भूर्भुवः स्वः | ॐ तत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि | धियो यो नः प्रचोदयात् ||",
+            "ॐ भूर्भुवः स्वः । ॐ तत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि । धियो यो नः प्रचोदयात् ॥",
           transliteration:
             "oṃ bhūr bhuvaḥ svaḥ | oṃ tatsaviturvareṇyaṃ bhargo devasya dhīmahi | dhiyo yo naḥ pracodayāt ||",
           translation:
@@ -38,7 +38,7 @@ export const nityaKarmaKriya: Scripture = {
         {
           id: 2,
           sanskrit:
-            "ॐ असतो मा सद्गमय | तमसो मा ज्योतिर्गमय | मृत्योर्मा अमृतं गमय ||",
+            "ॐ असतो मा सद्गमय । तमसो मा ज्योतिर्गमय । मृत्योर्मा अमृतं गमय ॥",
           transliteration:
             "oṃ asato mā sadgamaya | tamaso mā jyotirgamaya | mṛtyormā amṛtaṃ gamaya ||",
           translation:
@@ -56,7 +56,7 @@ export const nityaKarmaKriya: Scripture = {
         {
           id: 3,
           sanskrit:
-            "गायत्री चन्द्रार्कयोस्तु त्रिकाल सन्ध्या विधिः | प्रातः मध्यान्द सायंकाले सम्यक् सन्ध्योपसेवनम् ||",
+            "गायत्री चन्द्रार्कयोस्तु त्रिकाल सन्ध्या विधिः । प्रातः मध्यान्द सायंकाले सम्यक् सन्ध्योपसेवनम् ॥",
           transliteration:
             "gāyatrī candrārkayostu trikāla sandhyā vidhiḥ | prātaḥ madhyānda sāyaṃkāle samyak sandhyopasevanam ||",
           translation:
@@ -74,7 +74,7 @@ export const nityaKarmaKriya: Scripture = {
         {
           id: 4,
           sanskrit:
-            "ॐ अपवित्रः पवित्रो वा सर्वावस्थां गतोऽपि वा | यः स्मरेत्पुण्डरीकाक्षं स बाह्याभ्यन्तरः शुचिः ||",
+            "ॐ अपवित्रः पवित्रो वा सर्वावस्थां गतोऽपि वा । यः स्मरेत्पुण्डरीकाक्षं स बाह्याभ्यन्तरः शुचिः ॥",
           transliteration:
             "oṃ apavitraḥ pavitro vā sarvāvasthāṃ gato'pi vā | yaḥ smaretpuṇḍarīkākṣaṃ sa bāhyābhyantaraḥ śuciḥ ||",
           translation:
@@ -100,7 +100,7 @@ export const nityaKarmaKriya: Scripture = {
         {
           id: 1,
           sanskrit:
-            "अग्निमीळे पुरोहितं यज्ञस्य देवमृत्विजम् | होतारं रत्नधातामम् ||",
+            "अग्निमीळे पुरोहितं यज्ञस्य देवमृत्विजम् । होतारं रत्नधातामम् ॥",
           transliteration:
             "agnimīḷe purohitaṃ yajñasya devamṛtvijam | hotāraṃ ratnadhātāmam ||",
           translation:
@@ -118,7 +118,7 @@ export const nityaKarmaKriya: Scripture = {
         {
           id: 2,
           sanskrit:
-            "स्वाहा | ॐ अग्नये स्वाहा | इदमग्नये इदं न मम ||",
+            "स्वाहा । ॐ अग्नये स्वाहा । इदमग्नये इदं न मम ॥",
           transliteration:
             "svāhā | oṁ agnaye svāhā | idamagnaye idam na mama ||",
           translation:
@@ -136,7 +136,7 @@ export const nityaKarmaKriya: Scripture = {
         {
           id: 3,
           sanskrit:
-            "प्रातर्दध्याद्विधिवत् शुद्धौषधिभिर्हुतम् | सायंकाले तथा कर्म सम्यगाग्निहोत्रकम् ||",
+            "प्रातर्दध्याद्विधिवत् शुद्धौषधिभिर्हुतम् । सायंकाले तथा कर्म सम्यगाग्निहोत्रकम् ॥",
           transliteration:
             "prātardadhyādvidhivad śuddhauṣadhibhirhutam | sāyaṃkāle tathā karma samyagāgnihotrakam ||",
           translation:
@@ -162,7 +162,7 @@ export const nityaKarmaKriya: Scripture = {
         {
           id: 1,
           sanskrit:
-            "शुभं करोति कल्याणं आरोग्यं धनसंपदा | शत्रुभय विनाशाय दीपज्योतिर्नमोऽस्तु ते ||",
+            "शुभं करोति कल्याणं आरोग्यं धनसंपदा । शत्रुभय विनाशाय दीपज्योतिर्नमोऽस्तु ते ॥",
           transliteration:
             "śubhaṃ karoti kalyāṇaṃ ārogyaṃ dhanasaṃpadā | śatrubhaya vināśāya dīpajyotirnamo'stu te ||",
           translation:
@@ -180,7 +180,7 @@ export const nityaKarmaKriya: Scripture = {
         {
           id: 2,
           sanskrit:
-            "गंधां धूपां दीपां नैवेद्यं च सर्वम् | पूजयामि भक्त्या देवं इष्टदेवतां नमाम्यहम् ||",
+            "गंधां धूपां दीपां नैवेद्यं च सर्वम् । पूजयामि भक्त्या देवं इष्टदेवतां नमाम्यहम् ॥",
           transliteration:
             "gaṃdhāṃ dhūpāṃ dīpāṃ naivedyaṃ ca sarvam | pūjayāmi bhaktyā devaṃ iṣṭadevatāṃ namāmyaham ||",
           translation:
@@ -198,7 +198,7 @@ export const nityaKarmaKriya: Scripture = {
         {
           id: 3,
           sanskrit:
-            "यानि कानि च पापानि जन्मान्तरकृतानि च | तानि तानि प्रणश्यन्ति प्रदक्षिणपदे पदे ||",
+            "यानि कानि च पापानि जन्मान्तरकृतानि च । तानि तानि प्रणश्यन्ति प्रदक्षिणपदे पदे ॥",
           transliteration:
             "yāni kāni ca pāpāni janmāntarakṛtāni ca | tāni tāni praṇaśyanti pradakṣiṇapade pade ||",
           translation:
@@ -224,7 +224,7 @@ export const nityaKarmaKriya: Scripture = {
         {
           id: 1,
           sanskrit:
-            "ॐ नमो भगवते वासुदेवाय ||",
+            "ॐ नमो भगवते वासुदेवाय ॥",
           transliteration:
             "oṃ namo bhagavate vāsudevāya ||",
           translation:
@@ -242,7 +242,7 @@ export const nityaKarmaKriya: Scripture = {
         {
           id: 2,
           sanskrit:
-            "ॐ नमः शिवाय ||",
+            "ॐ नमः शिवाय ॥",
           transliteration:
             "oṃ namaḥ śivāya ||",
           translation:
@@ -260,7 +260,7 @@ export const nityaKarmaKriya: Scripture = {
         {
           id: 3,
           sanskrit:
-            "माला यस्य तु जपेन्नित्यं सा माला तस्य जीविते | यदा यदा भजते देवं तदा तदा स्मरति प्रियम् ||",
+            "माला यस्य तु जपेन्नित्यं सा माला तस्य जीविते । यदा यदा भजते देवं तदा तदा स्मरति प्रियम् ॥",
           transliteration:
             "mālā yasya tu japen nityaṃ sā mālā tasya jīvite | yadā yadā bhajate devaṃ tadā tadā smarati priyam ||",
           translation:
@@ -286,7 +286,7 @@ export const nityaKarmaKriya: Scripture = {
         {
           id: 1,
           sanskrit:
-            "ॐ मित्राय नमः ||",
+            "ॐ मित्राय नमः ॥",
           transliteration:
             "oṃ mitrāya namaḥ ||",
           translation:
@@ -304,7 +304,7 @@ export const nityaKarmaKriya: Scripture = {
         {
           id: 2,
           sanskrit:
-            "ॐ रवये नमः ||",
+            "ॐ रवये नमः ॥",
           transliteration:
             "oṃ ravaye namaḥ ||",
           translation:
@@ -322,7 +322,7 @@ export const nityaKarmaKriya: Scripture = {
         {
           id: 3,
           sanskrit:
-            "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत | अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम् ||",
+            "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत । अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम् ॥",
           transliteration:
             "yadā yadā hi dharmasya glānirbhavati bhārata | abhyutthānamadharmasya tadātmānaṃ sṛjāmyaham ||",
           translation:
