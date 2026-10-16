@@ -17,7 +17,7 @@ export const vishnupurana: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'जगत्संभवहेतुश्च स्थितिसंहारकारणम् | आश्रयः सर्वभूतानां विष्णुर्ज्ञेयो जनार्दनः ||',
+          sanskrit: 'जगत्संभवहेतुश्च स्थितिसंहारकारणम् । आश्रयः सर्वभूतानां विष्णुर्ज्ञेयो जनार्दनः ॥',
           transliteration: 'jagatsambhavahetuśca sthitisaṃhārakāraṇam | āśrayaḥ sarvabhūtānāṃ viṣṇurjñeyo janārdanaḥ ||',
           translation: 'He who is the cause of the world\'s origin, the reason for its sustenance and dissolution, and the support of all beings — He is Vishnu, the Lord, who is to be known.',
           hindi: 'जो जगत की उत्पत्ति का कारण है, स्थिति और संहार का कारण है, और सभी प्राणियों का आश्रय है — वे जनार्दन विष्णु ही जाने जाने योग्य हैं।',
@@ -28,7 +28,7 @@ export const vishnupurana: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'नमः समस्तभूतानामादिभूताय भूभृते | अनेकरूपरूपाय विष्णवे प्रभविष्णवे ||',
+          sanskrit: 'नमः समस्तभूतानामादिभूताय भूभृते । अनेकरूपरूपाय विष्णवे प्रभविष्णवे ॥',
           transliteration: 'namaḥ samastabhūtānāmādibhūtāya bhūbhṛte | anekarūparūpāya viṣṇave prabhuviṣṇave ||',
           translation: 'Salutations to Vishnu, the primordial existence of all beings, the bearer of the earth, who has many forms, who is the mighty one.',
           hindi: 'सभी प्राणियों के आदिभूत, पृथ्वी को धारण करने वाले, अनेक रूप धारण करने वाले, और सर्वशक्तिमान विष्णु को नमस्कार।',
@@ -40,7 +40,7 @@ export const vishnupurana: Scripture = {
       
         {
           id: 5,
-          sanskrit: 'पृथिव्यां त्रीणि रत्नानि जलमन्नं सुभाषितम् | मूढैः पाषाणखण्डेषु रत्नसङ्ज्ञा विधीयते ||',
+          sanskrit: 'पृथिव्यां त्रीणि रत्नानि जलमन्नं सुभाषितम् । मूढैः पाषाणखण्डेषु रत्नसङ्ज्ञा विधीयते ॥',
           transliteration: 'pṛthivyāṃ trīṇi ratnāni jalamannaṃ subhāṣitam | mūḍhaiḥ pāṣāṇakhaṇḍeṣu ratnasaṅjñā vidhīyate ||',
           translation: 'On earth there are three jewels: water, food, and well-spoken words. Fools call pieces of stone by the name of jewels.',
           hindi: 'पृथ्वी पर तीन रत्न हैं — जल, अन्न और सुभाषित (सुन्दर वचन)। मूढ लोग पत्थर के टुकड़ों को रत्न कहते हैं।',
@@ -56,7 +56,7 @@ export const vishnupurana: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'न देशकालौ न शुचिर्न चासनम् | न दिङ्न संख्या न पवित्रमीक्षितम् | नाग्निर्न चार्को न च वायुरीक्षितः | तद्भक्तिमात्रं परमं पदं हरेः ||',
+          sanskrit: 'न देशकालौ न शुचिर्न चासनम् । न दिङ्न संख्या न पवित्रमीक्षितम् । नाग्निर्न चार्को न च वायुरीक्षितः । तद्भक्तिमात्रं परमं पदं हरेः ॥',
           transliteration: 'na deśakālau na śucirna cāsanam | na diṅna saṃkhyā na pavitramīkṣitam | nāgnirna cārko na ca vāyurīkṣitaḥ | tadbhaktimātraṃ paramaṃ padaṃ hareḥ ||',
           translation: 'Not place, not time, not purity, not posture; not direction, not number, not the sacred are required. Not fire, not sun, not air is needed. Devotion alone is the supreme path to Hari.',
           hindi: 'न देश-काल, न शुचिता, न आसन; न दिशा, न संख्या, न पवित्र वस्तु; न अग्नि, न सूर्य, न वायु की आवश्यकता है। केवल भक्ति ही हरि की प्राप्ति का सर्वोच्च मार्ग है।',
@@ -68,7 +68,7 @@ export const vishnupurana: Scripture = {
       
         {
           id: 2,
-          sanskrit: 'नमः समस्तभूतानामादिभूताय भूभृते | अनेकरूपरूपाय विष्णवे प्रभविष्णवे ||',
+          sanskrit: 'नमः समस्तभूतानामादिभूताय भूभृते । अनेकरूपरूपाय विष्णवे प्रभविष्णवे ॥',
           transliteration: 'namaḥ samastabhūtānāmādibhūtāya bhūbhṛte | anekarūparūpāya viṣṇave prabhuviṣṇave ||',
           translation: 'Salutations to Vishnu, the primordial existence of all beings, the bearer of the earth, who has many forms, who is the mighty one.',
           hindi: 'सभी प्राणियों के आदिभूत, पृथ्वी को धारण करने वाले, अनेक रूप धारण करने वाले, और सर्वशक्तिमान विष्णु को नमस्कार।',
@@ -77,7 +77,7 @@ export const vishnupurana: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'पृथिव्यां त्रीणि रत्नानि जलमन्नं सुभाषितम् | मूढैः पाषाणखण्डेषु रत्नसङ्ज्ञा विधीयते ||',
+          sanskrit: 'पृथिव्यां त्रीणि रत्नानि जलमन्नं सुभाषितम् । मूढैः पाषाणखण्डेषु रत्नसङ्ज्ञा विधीयते ॥',
           transliteration: 'pṛthivyāṃ trīṇi ratnāni jalamannaṃ subhāṣitam | mūḍhaiḥ pāṣāṇakhaṇḍeṣu ratnasaṅjñā vidhīyate ||',
           translation: 'On earth there are three jewels: water, food, and well-spoken words. Fools call pieces of stone by the name of jewels.',
           hindi: 'पृथ्वी पर तीन रत्न हैं — जल, अन्न और सुभाषित (सुन्दर वचन)। मूढ लोग पत्थर के टुकड़ों को रत्न कहते हैं।',
@@ -93,7 +93,7 @@ export const vishnupurana: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'स्थिरः प्रशान्तो विमलः प्रसन्नो भविष्यसि त्वं ध्रुव लोकभूतः | अव्याहतैश्वर्यविभूतिमान् वै सुरादिभिः पूज्यतमो भविष्यसि ||',
+          sanskrit: 'स्थिरः प्रशान्तो विमलः प्रसन्नो भविष्यसि त्वं ध्रुव लोकभूतः । अव्याहतैश्वर्यविभूतिमान् वै सुरादिभिः पूज्यतमो भविष्यसि ॥',
           transliteration: 'sthiraḥ praśānto vimalaḥ prasanno bhaviṣyasi tvaṃ dhruva lokabhūtaḥ | avyāhataiśvaryavibhūtimān vai surādibhiḥ pūjyatamo bhaviṣyasi ||',
           translation: 'Steady, peaceful, pure, joyful, you will become a world-being, O Dhruva. With unbroken sovereignty and glory, you will become most worthy of worship even by the gods.',
           hindi: 'हे ध्रुव! तुम स्थिर, प्रशांत, निर्मल और प्रसन्न होकर एक लोकभूत बनोगे। अव्याहत ऐश्वर्य और विभूति से युक्त, देवताओं द्वारा भी सर्वाधिक पूज्य होगे।',
@@ -104,7 +104,7 @@ export const vishnupurana: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'पृथिव्यां त्रीणि रत्नानि जलमन्नं सुभाषितम् | मूढैः पाषाणखण्डेषु रत्नसङ्ज्ञा विधीयते ||',
+          sanskrit: 'पृथिव्यां त्रीणि रत्नानि जलमन्नं सुभाषितम् । मूढैः पाषाणखण्डेषु रत्नसङ्ज्ञा विधीयते ॥',
           transliteration: 'pṛthivyāṃ trīṇi ratnāni jalamannaṃ subhāṣitam | mūḍhaiḥ pāṣāṇakhaṇḍeṣu ratnasaṅjñā vidhīyate ||',
           translation: 'On earth there are three jewels: water, food, and well-spoken words. Fools call pieces of stone by the name of jewels.',
           hindi: 'पृथ्वी पर तीन रत्न हैं — जल, अन्न और सुभाषित (सुन्दर वचन)। मूढ लोग पत्थर के टुकड़ों को रत्न कहते हैं।',
@@ -116,7 +116,7 @@ export const vishnupurana: Scripture = {
       
         {
           id: 2,
-          sanskrit: 'पृथिव्यां त्रीणि रत्नानि जलमन्नं सुभाषितम् | मूढैः पाषाणखण्डेषु रत्नसङ्ज्ञा विधीयते ||',
+          sanskrit: 'पृथिव्यां त्रीणि रत्नानि जलमन्नं सुभाषितम् । मूढैः पाषाणखण्डेषु रत्नसङ्ज्ञा विधीयते ॥',
           transliteration: 'pṛthivyāṃ trīṇi ratnāni jalamannaṃ subhāṣitam | mūḍhaiḥ pāṣāṇakhaṇḍeṣu ratnasaṅjñā vidhīyate ||',
           translation: 'On earth there are three jewels: water, food, and well-spoken words. Fools call pieces of stone by the name of jewels.',
           hindi: 'पृथ्वी पर तीन रत्न हैं — जल, अन्न और सुभाषित (सुन्दर वचन)। मूढ लोग पत्थर के टुकड़ों को रत्न कहते हैं।',

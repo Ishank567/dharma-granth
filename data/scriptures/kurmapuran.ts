@@ -17,7 +17,7 @@ export const kurmapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'योऽयं कूर्मो महाविष्णुः कूर्मरूपेण संस्थितः | मन्दराचलमाधार्य देवकार्यमकारयत् ||',
+          sanskrit: 'योऽयं कूर्मो महाविष्णुः कूर्मरूपेण संस्थितः । मन्दराचलमाधार्य देवकार्यमकारयत् ॥',
           transliteration: 'yo\'yaṃ kūrmo mahāviṣṇuḥ kūrmarūpeṇa saṃsthitaḥ | mandarācalamādhārya devakāryamakārayat ||',
           translation: 'That Kurma — who is Maha-Vishnu himself, present in the form of the tortoise — having supported Mount Mandara, accomplished the work of the gods.',
           hindi: 'यह कूर्म, जो स्वयं महाविष्णु हैं, कूर्म-रूप धारण करके मन्दराचल को धारण किये हुए देवों के कार्य को सम्पन्न किये।',
@@ -28,7 +28,7 @@ export const kurmapuran: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'अमृतं च विषं चैव उत्पन्नं सागरे महत् | देवा अमृतमादाय विषं शम्भुः प्रपीतवान् ||',
+          sanskrit: 'अमृतं च विषं चैव उत्पन्नं सागरे महत् । देवा अमृतमादाय विषं शम्भुः प्रपीतवान् ॥',
           transliteration: 'amṛtaṃ ca viṣaṃ caiva utpannaṃ sāgare mahat | devā amṛtamādāya viṣaṃ śambhuḥ prapītavān ||',
           translation: 'Both nectar and poison arose great from the ocean. The gods took the nectar; Shambhu (Shiva) drank the poison.',
           hindi: 'महान सागर से अमृत और विष दोनों उत्पन्न हुए। देवों ने अमृत लिया; शम्भु (शिव) ने विष पी लिया।',
@@ -40,7 +40,7 @@ export const kurmapuran: Scripture = {
       
         {
           id: 5,
-          sanskrit: 'कूर्मो भवामि युगान्ते संवर्तकनिमीलिते | समुद्रमथने काले मन्दरं पर्वतोत्तमम् ||',
+          sanskrit: 'कूर्मो भवामि युगान्ते संवर्तकनिमीलिते । समुद्रमथने काले मन्दरं पर्वतोत्तमम् ॥',
           transliteration: 'kūrmo bhavāmi yugānte saṃvartakanimīlite | samudramathane kāle mandaraṃ parvatottamam ||',
           translation: 'I become the tortoise at the end of the yuga when the universe is dissolved. At the time of churning the ocean, I support the excellent Mandara mountain.',
           hindi: 'मैं युग के अंत में कूर्म बनता हूँ, जब संसार समाप्त हो जाता है। समुद्र मंथन के समय, मैं उत्तम मन्दर पर्वत को धारण करता हूँ।',
@@ -49,7 +49,7 @@ export const kurmapuran: Scripture = {
         },
         {
           id: 11,
-          sanskrit: 'अहमेव परं ब्रह्म अहमेव परः शिवः | अहमेव परं धाम अहमेव परं सुखम् ||',
+          sanskrit: 'अहमेव परं ब्रह्म अहमेव परः शिवः । अहमेव परं धाम अहमेव परं सुखम् ॥',
           transliteration: 'ahameva paraṃ brahma ahameva paraḥ śivaḥ | ahameva paraṃ dhāma ahameva paraṃ sukham ||',
           translation: 'I alone am supreme Brahman. I alone am supreme Shiva. I alone am the supreme abode. I alone am supreme bliss.',
           hindi: 'मैं ही परम ब्रह्म हूँ। मैं ही परम शिव हूँ। मैं ही परम धाम हूँ। मैं ही परम सुख हूँ।',
@@ -58,7 +58,7 @@ export const kurmapuran: Scripture = {
         },
         {
           id: 35,
-          sanskrit: 'सत्यं वद धर्मं चर स्वाध्यायान्मा प्रमदः | सत्यान्न प्रमदितव्यं धर्मान्न प्रमदितव्यम् ||',
+          sanskrit: 'सत्यं वद धर्मं चर स्वाध्यायान्मा प्रमदः । सत्यान्न प्रमदितव्यं धर्मान्न प्रमदितव्यम् ॥',
           transliteration: 'satyaṃ vada dharmaṃ cara svādhyāyānmā pramadaḥ | satyānna pramaditavyaṃ dharmānna pramaditavyam ||',
           translation: 'Speak truth. Practice dharma. Do not neglect self-study. Do not deviate from truth. Do not deviate from dharma.',
           hindi: 'सत्य बोलो। धर्म का आचरण करो। स्वाध्याय में आलस्य मत करो। सत्य से विचलित मत होओ। धर्म से विचलित मत होओ।',
@@ -74,7 +74,7 @@ export const kurmapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'ज्ञानं परं विमोक्षाय वैराग्यं च परं स्मृतम् | भक्तिश्च परमा देवी एष मोक्षस्य सङ्ग्रहः ||',
+          sanskrit: 'ज्ञानं परं विमोक्षाय वैराग्यं च परं स्मृतम् । भक्तिश्च परमा देवी एष मोक्षस्य सङ्ग्रहः ॥',
           transliteration: 'jñānaṃ paraṃ vimokṣāya vairāgyaṃ ca paraṃ smṛtam | bhaktiśca paramā devī eṣa mokṣasya saṅgrahaḥ ||',
           translation: 'Knowledge (jnana) is supreme for liberation; dispassion (vairagya) is declared supreme; and bhakti (devotion), O Goddess, is the highest. This is the essence of liberation.',
           hindi: 'मोक्ष के लिए ज्ञान परम है; वैराग्य परम कहा गया है; और हे देवी! भक्ति सर्वोच्च है। यही मोक्ष का सार है।',
@@ -85,7 +85,7 @@ export const kurmapuran: Scripture = {
         },
         {
           id: 11,
-          sanskrit: 'अहमेव परं ब्रह्म अहमेव परः शिवः | अहमेव परं धाम अहमेव परं सुखम् ||',
+          sanskrit: 'अहमेव परं ब्रह्म अहमेव परः शिवः । अहमेव परं धाम अहमेव परं सुखम् ॥',
           transliteration: 'ahameva paraṃ brahma ahameva paraḥ śivaḥ | ahameva paraṃ dhāma ahameva paraṃ sukham ||',
           translation: 'I alone am supreme Brahman. I alone am supreme Shiva. I alone am the supreme abode. I alone am supreme bliss.',
           hindi: 'मैं ही परम ब्रह्म हूँ। मैं ही परम शिव हूँ। मैं ही परम धाम हूँ। मैं ही परम सुख हूँ।',
@@ -97,7 +97,7 @@ export const kurmapuran: Scripture = {
       
         {
           id: 2,
-          sanskrit: 'अहमेव परं ब्रह्म अहमेव परः शिवः | अहमेव परं धाम अहमेव परं सुखम् ||',
+          sanskrit: 'अहमेव परं ब्रह्म अहमेव परः शिवः । अहमेव परं धाम अहमेव परं सुखम् ॥',
           transliteration: 'ahameva paraṃ brahma ahameva paraḥ śivaḥ | ahameva paraṃ dhāma ahameva paraṃ sukham ||',
           translation: 'I alone am supreme Brahman. I alone am supreme Shiva. I alone am the supreme abode. I alone am supreme bliss.',
           hindi: 'मैं ही परम ब्रह्म हूँ। मैं ही परम शिव हूँ। मैं ही परम धाम हूँ। मैं ही परम सुख हूँ।',
@@ -106,7 +106,7 @@ export const kurmapuran: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'कूर्मो भवामि युगान्ते संवर्तकनिमीलिते | समुद्रमथने काले मन्दरं पर्वतोत्तमम् ||',
+          sanskrit: 'कूर्मो भवामि युगान्ते संवर्तकनिमीलिते । समुद्रमथने काले मन्दरं पर्वतोत्तमम् ॥',
           transliteration: 'kūrmo bhavāmi yugānte saṃvartakanimīlite | samudramathane kāle mandaraṃ parvatottamam ||',
           translation: 'I become the tortoise at the end of the yuga when the universe is dissolved. At the time of churning the ocean, I support the excellent Mandara mountain.',
           hindi: 'मैं युग के अंत में कूर्म बनता हूँ, जब संसार समाप्त हो जाता है। समुद्र मंथन के समय, मैं उत्तम मन्दर पर्वत को धारण करता हूँ।',
@@ -115,7 +115,7 @@ export const kurmapuran: Scripture = {
         },
         {
           id: 35,
-          sanskrit: 'सत्यं वद धर्मं चर स्वाध्यायान्मा प्रमदः | सत्यान्न प्रमदितव्यं धर्मान्न प्रमदितव्यम् ||',
+          sanskrit: 'सत्यं वद धर्मं चर स्वाध्यायान्मा प्रमदः । सत्यान्न प्रमदितव्यं धर्मान्न प्रमदितव्यम् ॥',
           transliteration: 'satyaṃ vada dharmaṃ cara svādhyāyānmā pramadaḥ | satyānna pramaditavyaṃ dharmānna pramaditavyam ||',
           translation: 'Speak truth. Practice dharma. Do not neglect self-study. Do not deviate from truth. Do not deviate from dharma.',
           hindi: 'सत्य बोलो। धर्म का आचरण करो। स्वाध्याय में आलस्य मत करो। सत्य से विचलित मत होओ। धर्म से विचलित मत होओ।',
@@ -131,7 +131,7 @@ export const kurmapuran: Scripture = {
       verses: [
         {
           id: 35,
-          sanskrit: 'सत्यं वद धर्मं चर स्वाध्यायान्मा प्रमदः | सत्यान्न प्रमदितव्यं धर्मान्न प्रमदितव्यम् ||',
+          sanskrit: 'सत्यं वद धर्मं चर स्वाध्यायान्मा प्रमदः । सत्यान्न प्रमदितव्यं धर्मान्न प्रमदितव्यम् ॥',
           transliteration: 'satyaṃ vada dharmaṃ cara svādhyāyānmā pramadaḥ | satyānna pramaditavyaṃ dharmānna pramaditavyam ||',
           translation: 'Speak truth. Practice dharma. Do not neglect self-study. Do not deviate from truth. Do not deviate from dharma.',
           hindi: 'सत्य बोलो। धर्म का आचरण करो। स्वाध्याय में आलस्य मत करो। सत्य से विचलित मत होओ। धर्म से विचलित मत होओ।',
@@ -142,7 +142,7 @@ export const kurmapuran: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'कूर्मो भवामि युगान्ते संवर्तकनिमीलिते | समुद्रमथने काले मन्दरं पर्वतोत्तमम् ||',
+          sanskrit: 'कूर्मो भवामि युगान्ते संवर्तकनिमीलिते । समुद्रमथने काले मन्दरं पर्वतोत्तमम् ॥',
           transliteration: 'kūrmo bhavāmi yugānte saṃvartakanimīlite | samudramathane kāle mandaraṃ parvatottamam ||',
           translation: 'I become the tortoise at the end of the yuga when the universe is dissolved. At the time of churning the ocean, I support the excellent Mandara mountain.',
           hindi: 'मैं युग के अंत में कूर्म बनता हूँ, जब संसार समाप्त हो जाता है। समुद्र मंथन के समय, मैं उत्तम मन्दर पर्वत को धारण करता हूँ।',
@@ -154,7 +154,7 @@ export const kurmapuran: Scripture = {
       
         {
           id: 1,
-          sanskrit: 'सत्यं वद धर्मं चर स्वाध्यायान्मा प्रमदः | सत्यान्न प्रमदितव्यं धर्मान्न प्रमदितव्यम् ||',
+          sanskrit: 'सत्यं वद धर्मं चर स्वाध्यायान्मा प्रमदः । सत्यान्न प्रमदितव्यं धर्मान्न प्रमदितव्यम् ॥',
           transliteration: 'satyaṃ vada dharmaṃ cara svādhyāyānmā pramadaḥ | satyānna pramaditavyaṃ dharmānna pramaditavyam ||',
           translation: 'Speak truth. Practice dharma. Do not neglect self-study. Do not deviate from truth. Do not deviate from dharma.',
           hindi: 'सत्य बोलो। धर्म का आचरण करो। स्वाध्याय में आलस्य मत करो। सत्य से विचलित मत होओ। धर्म से विचलित मत होओ।',
@@ -163,7 +163,7 @@ export const kurmapuran: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'कूर्मो भवामि युगान्ते संवर्तकनिमीलिते | समुद्रमथने काले मन्दरं पर्वतोत्तमम् ||',
+          sanskrit: 'कूर्मो भवामि युगान्ते संवर्तकनिमीलिते । समुद्रमथने काले मन्दरं पर्वतोत्तमम् ॥',
           transliteration: 'kūrmo bhavāmi yugānte saṃvartakanimīlite | samudramathane kāle mandaraṃ parvatottamam ||',
           translation: 'I become the tortoise at the end of the yuga when the universe is dissolved. At the time of churning the ocean, I support the excellent Mandara mountain.',
           hindi: 'मैं युग के अंत में कूर्म बनता हूँ, जब संसार समाप्त हो जाता है। समुद्र मंथन के समय, मैं उत्तम मन्दर पर्वत को धारण करता हूँ।',
@@ -172,7 +172,7 @@ export const kurmapuran: Scripture = {
         },
         {
           id: 11,
-          sanskrit: 'अहमेव परं ब्रह्म अहमेव परः शिवः | अहमेव परं धाम अहमेव परं सुखम् ||',
+          sanskrit: 'अहमेव परं ब्रह्म अहमेव परः शिवः । अहमेव परं धाम अहमेव परं सुखम् ॥',
           transliteration: 'ahameva paraṃ brahma ahameva paraḥ śivaḥ | ahameva paraṃ dhāma ahameva paraṃ sukham ||',
           translation: 'I alone am supreme Brahman. I alone am supreme Shiva. I alone am the supreme abode. I alone am supreme bliss.',
           hindi: 'मैं ही परम ब्रह्म हूँ। मैं ही परम शिव हूँ। मैं ही परम धाम हूँ। मैं ही परम सुख हूँ।',

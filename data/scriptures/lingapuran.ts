@@ -17,7 +17,7 @@ export const lingapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'अनादिमध्यान्तमनन्तवीर्यं ज्योतिःस्वरूपं ज्वलनं पुराणम् | ब्रह्मा च विष्णुश्च न वेदतुस्तं स्तम्भं महालिङ्गमभूत् तदा हि ||',
+          sanskrit: 'अनादिमध्यान्तमनन्तवीर्यं ज्योतिःस्वरूपं ज्वलनं पुराणम् । ब्रह्मा च विष्णुश्च न वेदतुस्तं स्तम्भं महालिङ्गमभूत् तदा हि ॥',
           transliteration: 'anādimadhyāntamanantavīryaṃ jyotiḥsvarūpaṃ jvalanaṃ purāṇam | brahmā ca viṣṇuśca na vedatustaṃ stambhaṃ mahāliṅgamabhūt tadā hi ||',
           translation: 'Without beginning, middle, or end — of infinite power, of the nature of light, blazing, the ancient one — that pillar neither Brahma nor Vishnu could know. That was the Maha-Linga.',
           hindi: 'जिसका न आदि है, न मध्य है, न अन्त है — अनन्त शक्तिमान, ज्योतिस्वरूप, प्रज्वलित, पुरातन — उस स्तम्भ को न ब्रह्मा जान सके, न विष्णु। वही महालिङ्ग है।',
@@ -28,7 +28,7 @@ export const lingapuran: Scripture = {
         },
         {
           id: 17,
-          sanskrit: 'लिङ्गं हि परमं ब्रह्म लिङ्गं ज्ञानमयं परम् | लिङ्गं ध्यानप्रदं नित्यं लिङ्गं मुक्तिप्रदं परम् ||',
+          sanskrit: 'लिङ्गं हि परमं ब्रह्म लिङ्गं ज्ञानमयं परम् । लिङ्गं ध्यानप्रदं नित्यं लिङ्गं मुक्तिप्रदं परम् ॥',
           transliteration: 'liṅgaṃ hi paramaṃ brahma liṅgaṃ jñānamayaṃ param | liṅgaṃ dhyānapradaṃ nityaṃ liṅgaṃ muktipradaṃ param ||',
           translation: 'The Linga is indeed supreme Brahman. The Linga is the highest wisdom. The Linga bestows meditation eternally. The Linga bestows the highest liberation.',
           hindi: 'लिङ्ग ही परम ब्रह्म है। लिङ्ग ज्ञानमय परम है। लिङ्ग नित्य ध्यान प्रदान करता है। लिङ्ग परम मुक्ति प्रदान करता है।',
@@ -40,7 +40,7 @@ export const lingapuran: Scripture = {
       
         {
           id: 2,
-          sanskrit: 'लिङ्गं हि परमं ब्रह्म लिङ्गं ज्ञानमयं परम् | लिङ्गं ध्यानप्रदं नित्यं लिङ्गं मुक्तिप्रदं परम् ||',
+          sanskrit: 'लिङ्गं हि परमं ब्रह्म लिङ्गं ज्ञानमयं परम् । लिङ्गं ध्यानप्रदं नित्यं लिङ्गं मुक्तिप्रदं परम् ॥',
           transliteration: 'liṅgaṃ hi paramaṃ brahma liṅgaṃ jñānamayaṃ param | liṅgaṃ dhyānapradaṃ nityaṃ liṅgaṃ muktipradaṃ param ||',
           translation: 'The Linga is indeed supreme Brahman. The Linga is the highest wisdom. The Linga bestows meditation eternally. The Linga bestows the highest liberation.',
           hindi: 'लिङ्ग ही परम ब्रह्म है। लिङ्ग ज्ञानमय परम है। लिङ्ग नित्य ध्यान प्रदान करता है। लिङ्ग परम मुक्ति प्रदान करता है।',
@@ -49,7 +49,7 @@ export const lingapuran: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'लिङ्गं देवं महाप्रज्ञं सर्वज्ञं सर्वगं शिवम् | यो वेद स लिङ्गविद्यां स याति परमां गतिम् ||',
+          sanskrit: 'लिङ्गं देवं महाप्रज्ञं सर्वज्ञं सर्वगं शिवम् । यो वेद स लिङ्गविद्यां स याति परमां गतिम् ॥',
           transliteration: 'liṅgaṃ devaṃ mahāprajñaṃ sarvajñaṃ sarvagaṃ śivam | yo veda sa liṅgavidyāṃ sa yāti paramāṃ gatim ||',
           translation: 'The Linga is the God of great wisdom, the all-knowing, all-pervading Shiva. He who knows this Linga-vidya attains the supreme goal.',
           hindi: 'लिंग महाप्रज्ञ देव, सर्वज्ञ, सर्वव्यापी शिव हैं। जो इस लिंग-विद्या को जानता है, वह परम गति को प्राप्त होता है।',
@@ -58,7 +58,7 @@ export const lingapuran: Scripture = {
         },
         {
           id: 8,
-          sanskrit: 'पशुः पाशो महेशश्च पतिः पाशविमोचकः | तत्त्वत्रयमिदं ज्ञातव्यं मोक्षार्थिभिर्नरैः ||',
+          sanskrit: 'पशुः पाशो महेशश्च पतिः पाशविमोचकः । तत्त्वत्रयमिदं ज्ञातव्यं मोक्षार्थिभिर्नरैः ॥',
           transliteration: 'paśuḥ pāśo maheśaśca patiḥ pāśavimocakaḥ | tattvatrayamidaṃ jñātavyaṃ mokṣārthibhirnaraiḥ ||',
           translation: 'The individual soul (pashu), the bondage (pasha), and Maheshvara as the Lord (Pati) who liberates from bondage — these three principles should be known by those who seek liberation.',
           hindi: 'पशु (जीव), पाश (बन्धन), और महेश्वर — पाश से मुक्त करने वाले पति — ये तीन तत्त्व मोक्षार्थी मनुष्यों को जानने चाहिए।',
@@ -67,7 +67,7 @@ export const lingapuran: Scripture = {
         },
         {
           id: 23,
-          sanskrit: 'यो वेद निहितं गुहायां परमे व्योमन् | स एव शिवः स एव ब्रह्म स एव परमात्मा ||',
+          sanskrit: 'यो वेद निहितं गुहायां परमे व्योमन् । स एव शिवः स एव ब्रह्म स एव परमात्मा ॥',
           transliteration: 'yo veda nihitaṃ guhāyāṃ parame vyoman | sa eva śivaḥ sa eva brahma sa eva paramātmā ||',
           translation: 'That one who knows what is hidden in the cave, in the highest sky — that one alone is Shiva, that one alone is Brahman, that one alone is the supreme Self.',
           hindi: 'जो परम आकाश में गुफा में स्थित (आत्मा) को जानता है — वही शिव है, वही ब्रह्म है, वही परमात्मा है।',
@@ -83,7 +83,7 @@ export const lingapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'शिवः शान्तः शिवाकारः शिवालयनिवासकः | विभुः सर्वत्रगः सर्वो विश्वस्य परमेश्वरः ||',
+          sanskrit: 'शिवः शान्तः शिवाकारः शिवालयनिवासकः । विभुः सर्वत्रगः सर्वो विश्वस्य परमेश्वरः ॥',
           transliteration: 'śivaḥ śāntaḥ śivākāraḥ śivālayanivasākaḥ | vibhuḥ sarvatragaḥ sarvo viśvasya parameśvaraḥ ||',
           translation: 'Shiva (the auspicious), Shanta (the peaceful), Shivakarah (whose form is auspiciousness), he who dwells in Shivalaya; Vibhu (all-pervading), Sarvatraga (present everywhere), Sarva (everything), Parameshvara (the supreme lord of the universe).',
           hindi: 'शिव (मंगल), शान्त (शान्तिस्वरूप), शिवाकार (शुभस्वरूप), शिवालय में निवास करने वाले; विभु (सर्वव्यापी), सर्वत्रग (सर्वत्र गमन करने वाले), सर्व (सब कुछ), विश्व के परमेश्वर।',
@@ -95,7 +95,7 @@ export const lingapuran: Scripture = {
       
         {
           id: 5,
-          sanskrit: 'लिङ्गं देवं महाप्रज्ञं सर्वज्ञं सर्वगं शिवम् | यो वेद स लिङ्गविद्यां स याति परमां गतिम् ||',
+          sanskrit: 'लिङ्गं देवं महाप्रज्ञं सर्वज्ञं सर्वगं शिवम् । यो वेद स लिङ्गविद्यां स याति परमां गतिम् ॥',
           transliteration: 'liṅgaṃ devaṃ mahāprajñaṃ sarvajñaṃ sarvagaṃ śivam | yo veda sa liṅgavidyāṃ sa yāti paramāṃ gatim ||',
           translation: 'The Linga is the God of great wisdom, the all-knowing, all-pervading Shiva. He who knows this Linga-vidya attains the supreme goal.',
           hindi: 'लिंग महाप्रज्ञ देव, सर्वज्ञ, सर्वव्यापी शिव हैं। जो इस लिंग-विद्या को जानता है, वह परम गति को प्राप्त होता है।',
@@ -104,7 +104,7 @@ export const lingapuran: Scripture = {
         },
         {
           id: 8,
-          sanskrit: 'पशुः पाशो महेशश्च पतिः पाशविमोचकः | तत्त्वत्रयमिदं ज्ञातव्यं मोक्षार्थिभिर्नरैः ||',
+          sanskrit: 'पशुः पाशो महेशश्च पतिः पाशविमोचकः । तत्त्वत्रयमिदं ज्ञातव्यं मोक्षार्थिभिर्नरैः ॥',
           transliteration: 'paśuḥ pāśo maheśaśca patiḥ pāśavimocakaḥ | tattvatrayamidaṃ jñātavyaṃ mokṣārthibhirnaraiḥ ||',
           translation: 'The individual soul (pashu), the bondage (pasha), and Maheshvara as the Lord (Pati) who liberates from bondage — these three principles should be known by those who seek liberation.',
           hindi: 'पशु (जीव), पाश (बन्धन), और महेश्वर — पाश से मुक्त करने वाले पति — ये तीन तत्त्व मोक्षार्थी मनुष्यों को जानने चाहिए।',
@@ -113,7 +113,7 @@ export const lingapuran: Scripture = {
         },
         {
           id: 17,
-          sanskrit: 'लिङ्गं हि परमं ब्रह्म लिङ्गं ज्ञानमयं परम् | लिङ्गं ध्यानप्रदं नित्यं लिङ्गं मुक्तिप्रदं परम् ||',
+          sanskrit: 'लिङ्गं हि परमं ब्रह्म लिङ्गं ज्ञानमयं परम् । लिङ्गं ध्यानप्रदं नित्यं लिङ्गं मुक्तिप्रदं परम् ॥',
           transliteration: 'liṅgaṃ hi paramaṃ brahma liṅgaṃ jñānamayaṃ param | liṅgaṃ dhyānapradaṃ nityaṃ liṅgaṃ muktipradaṃ param ||',
           translation: 'The Linga is indeed supreme Brahman. The Linga is the highest wisdom. The Linga bestows meditation eternally. The Linga bestows the highest liberation.',
           hindi: 'लिङ्ग ही परम ब्रह्म है। लिङ्ग ज्ञानमय परम है। लिङ्ग नित्य ध्यान प्रदान करता है। लिङ्ग परम मुक्ति प्रदान करता है।',
@@ -122,7 +122,7 @@ export const lingapuran: Scripture = {
         },
         {
           id: 23,
-          sanskrit: 'यो वेद निहितं गुहायां परमे व्योमन् | स एव शिवः स एव ब्रह्म स एव परमात्मा ||',
+          sanskrit: 'यो वेद निहितं गुहायां परमे व्योमन् । स एव शिवः स एव ब्रह्म स एव परमात्मा ॥',
           transliteration: 'yo veda nihitaṃ guhāyāṃ parame vyoman | sa eva śivaḥ sa eva brahma sa eva paramātmā ||',
           translation: 'That one who knows what is hidden in the cave, in the highest sky — that one alone is Shiva, that one alone is Brahman, that one alone is the supreme Self.',
           hindi: 'जो परम आकाश में गुफा में स्थित (आत्मा) को जानता है — वही शिव है, वही ब्रह्म है, वही परमात्मा है।',
@@ -138,7 +138,7 @@ export const lingapuran: Scripture = {
       verses: [
         {
           id: 8,
-          sanskrit: 'पशुः पाशो महेशश्च पतिः पाशविमोचकः | तत्त्वत्रयमिदं ज्ञातव्यं मोक्षार्थिभिर्नरैः ||',
+          sanskrit: 'पशुः पाशो महेशश्च पतिः पाशविमोचकः । तत्त्वत्रयमिदं ज्ञातव्यं मोक्षार्थिभिर्नरैः ॥',
           transliteration: 'paśuḥ pāśo maheśaśca patiḥ pāśavimocakaḥ | tattvatrayamidaṃ jñātavyaṃ mokṣārthibhirnaraiḥ ||',
           translation: 'The individual soul (pashu), the bondage (pasha), and Maheshvara as the Lord (Pati) who liberates from bondage — these three principles should be known by those who seek liberation.',
           hindi: 'पशु (जीव), पाश (बन्धन), और महेश्वर — पाश से मुक्त करने वाले पति — ये तीन तत्त्व मोक्षार्थी मनुष्यों को जानने चाहिए।',
@@ -149,7 +149,7 @@ export const lingapuran: Scripture = {
         },
         {
           id: 23,
-          sanskrit: 'यो वेद निहितं गुहायां परमे व्योमन् | स एव शिवः स एव ब्रह्म स एव परमात्मा ||',
+          sanskrit: 'यो वेद निहितं गुहायां परमे व्योमन् । स एव शिवः स एव ब्रह्म स एव परमात्मा ॥',
           transliteration: 'yo veda nihitaṃ guhāyāṃ parame vyoman | sa eva śivaḥ sa eva brahma sa eva paramātmā ||',
           translation: 'That one who knows what is hidden in the cave, in the highest sky — that one alone is Shiva, that one alone is Brahman, that one alone is the supreme Self.',
           hindi: 'जो परम आकाश में गुफा में स्थित (आत्मा) को जानता है — वही शिव है, वही ब्रह्म है, वही परमात्मा है।',
@@ -160,7 +160,7 @@ export const lingapuran: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'लिङ्गं देवं महाप्रज्ञं सर्वज्ञं सर्वगं शिवम् | यो वेद स लिङ्गविद्यां स याति परमां गतिम् ||',
+          sanskrit: 'लिङ्गं देवं महाप्रज्ञं सर्वज्ञं सर्वगं शिवम् । यो वेद स लिङ्गविद्यां स याति परमां गतिम् ॥',
           transliteration: 'liṅgaṃ devaṃ mahāprajñaṃ sarvajñaṃ sarvagaṃ śivam | yo veda sa liṅgavidyāṃ sa yāti paramāṃ gatim ||',
           translation: 'The Linga is the God of great wisdom, the all-knowing, all-pervading Shiva. He who knows this Linga-vidya attains the supreme goal.',
           hindi: 'लिंग महाप्रज्ञ देव, सर्वज्ञ, सर्वव्यापी शिव हैं। जो इस लिंग-विद्या को जानता है, वह परम गति को प्राप्त होता है।',
@@ -172,7 +172,7 @@ export const lingapuran: Scripture = {
       
         {
           id: 1,
-          sanskrit: 'पशुः पाशो महेशश्च पतिः पाशविमोचकः | तत्त्वत्रयमिदं ज्ञातव्यं मोक्षार्थिभिर्नरैः ||',
+          sanskrit: 'पशुः पाशो महेशश्च पतिः पाशविमोचकः । तत्त्वत्रयमिदं ज्ञातव्यं मोक्षार्थिभिर्नरैः ॥',
           transliteration: 'paśuḥ pāśo maheśaśca patiḥ pāśavimocakaḥ | tattvatrayamidaṃ jñātavyaṃ mokṣārthibhirnaraiḥ ||',
           translation: 'The individual soul (pashu), the bondage (pasha), and Maheshvara as the Lord (Pati) who liberates from bondage — these three principles should be known by those who seek liberation.',
           hindi: 'पशु (जीव), पाश (बन्धन), और महेश्वर — पाश से मुक्त करने वाले पति — ये तीन तत्त्व मोक्षार्थी मनुष्यों को जानने चाहिए।',
@@ -181,7 +181,7 @@ export const lingapuran: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'यो वेद निहितं गुहायां परमे व्योमन् | स एव शिवः स एव ब्रह्म स एव परमात्मा ||',
+          sanskrit: 'यो वेद निहितं गुहायां परमे व्योमन् । स एव शिवः स एव ब्रह्म स एव परमात्मा ॥',
           transliteration: 'yo veda nihitaṃ guhāyāṃ parame vyoman | sa eva śivaḥ sa eva brahma sa eva paramātmā ||',
           translation: 'That one who knows what is hidden in the cave, in the highest sky — that one alone is Shiva, that one alone is Brahman, that one alone is the supreme Self.',
           hindi: 'जो परम आकाश में गुफा में स्थित (आत्मा) को जानता है — वही शिव है, वही ब्रह्म है, वही परमात्मा है।',
@@ -190,7 +190,7 @@ export const lingapuran: Scripture = {
         },
         {
           id: 3,
-          sanskrit: 'लिङ्गं देवं महाप्रज्ञं सर्वज्ञं सर्वगं शिवम् | यो वेद स लिङ्गविद्यां स याति परमां गतिम् ||',
+          sanskrit: 'लिङ्गं देवं महाप्रज्ञं सर्वज्ञं सर्वगं शिवम् । यो वेद स लिङ्गविद्यां स याति परमां गतिम् ॥',
           transliteration: 'liṅgaṃ devaṃ mahāprajñaṃ sarvajñaṃ sarvagaṃ śivam | yo veda sa liṅgavidyāṃ sa yāti paramāṃ gatim ||',
           translation: 'The Linga is the God of great wisdom, the all-knowing, all-pervading Shiva. He who knows this Linga-vidya attains the supreme goal.',
           hindi: 'लिंग महाप्रज्ञ देव, सर्वज्ञ, सर्वव्यापी शिव हैं। जो इस लिंग-विद्या को जानता है, वह परम गति को प्राप्त होता है।',
@@ -199,7 +199,7 @@ export const lingapuran: Scripture = {
         },
         {
           id: 17,
-          sanskrit: 'लिङ्गं हि परमं ब्रह्म लिङ्गं ज्ञानमयं परम् | लिङ्गं ध्यानप्रदं नित्यं लिङ्गं मुक्तिप्रदं परम् ||',
+          sanskrit: 'लिङ्गं हि परमं ब्रह्म लिङ्गं ज्ञानमयं परम् । लिङ्गं ध्यानप्रदं नित्यं लिङ्गं मुक्तिप्रदं परम् ॥',
           transliteration: 'liṅgaṃ hi paramaṃ brahma liṅgaṃ jñānamayaṃ param | liṅgaṃ dhyānapradaṃ nityaṃ liṅgaṃ muktipradaṃ param ||',
           translation: 'The Linga is indeed supreme Brahman. The Linga is the highest wisdom. The Linga bestows meditation eternally. The Linga bestows the highest liberation.',
           hindi: 'लिङ्ग ही परम ब्रह्म है। लिङ्ग ज्ञानमय परम है। लिङ्ग नित्य ध्यान प्रदान करता है। लिङ्ग परम मुक्ति प्रदान करता है।',

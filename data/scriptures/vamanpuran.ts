@@ -17,7 +17,7 @@ export const vamanpuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'बलिर्वैरोचनो राजा दानवीरो महायशाः | त्रैलोक्यं पालयामास धर्मेण विजितेन्द्रियः ||',
+          sanskrit: 'बलिर्वैरोचनो राजा दानवीरो महायशाः । त्रैलोक्यं पालयामास धर्मेण विजितेन्द्रियः ॥',
           transliteration: 'balirvairochano rājā dānavīro mahāyaśāḥ | trailokyaṃ pālayāmāsa dharmeṇa vijayendriyaḥ ||',
           translation: 'King Bali, son of Virochana, a hero of giving, of great fame — he ruled the three worlds with dharma, having conquered his senses.',
           hindi: 'वीरोचन-पुत्र राजा बलि, दानवीर, महायशस्वी — उन्होंने इन्द्रियों को जीतकर धर्म से त्रिलोक का पालन किया।',
@@ -28,7 +28,7 @@ export const vamanpuran: Scripture = {
         },
         {
           id: 15,
-          sanskrit: 'दातव्यमिति यद्दानं दीयते\'नुपकारिणे | देशे काले च पात्रे च तद्दानं सात्त्विकं स्मृतम् ||',
+          sanskrit: 'दातव्यमिति यद्दानं दीयते\'नुपकारिणे । देशे काले च पात्रे च तद्दानं सात्त्विकं स्मृतम् ॥',
           transliteration: 'dātavyamiti yaddānaṃ dīyate\'nupakāriṇe | deśe kāle ca pātre ca taddānaṃ sāttvikaṃ smṛtam ||',
           translation: 'The gift that is given simply because it is right to give — to one who cannot repay, at the right place, time, and to a worthy recipient — that gift is considered sattvic.',
           hindi: 'जो दान "देना उचित है" इस भाव से दिया जाए — जो उपकार नहीं कर सकता उसे, सही स्थान, काल और पात्र में — वह दान सात्त्विक कहा जाता है।',
@@ -40,7 +40,7 @@ export const vamanpuran: Scripture = {
       
         {
           id: 2,
-          sanskrit: 'दातव्यमिति यद्दानं दीयते\'नुपकारिणे | देशे काले च पात्रे च तद्दानं सात्त्विकं स्मृतम् ||',
+          sanskrit: 'दातव्यमिति यद्दानं दीयते\'नुपकारिणे । देशे काले च पात्रे च तद्दानं सात्त्विकं स्मृतम् ॥',
           transliteration: 'dātavyamiti yaddānaṃ dīyate\'nupakāriṇe | deśe kāle ca pātre ca taddānaṃ sāttvikaṃ smṛtam ||',
           translation: 'The gift that is given simply because it is right to give — to one who cannot repay, at the right place, time, and to a worthy recipient — that gift is considered sattvic.',
           hindi: 'जो दान "देना उचित है" इस भाव से दिया जाए — जो उपकार नहीं कर सकता उसे, सही स्थान, काल और पात्र में — वह दान सात्त्विक कहा जाता है।',
@@ -49,7 +49,7 @@ export const vamanpuran: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'वामनो भूत्वा विष्णुस्तु त्रिविक्रम इवापरः | बलिं बद्ध्वा पातालं तं राज्यं दत्त्वा तु पातयेत् ||',
+          sanskrit: 'वामनो भूत्वा विष्णुस्तु त्रिविक्रम इवापरः । बलिं बद्ध्वा पातालं तं राज्यं दत्त्वा तु पातयेत् ॥',
           transliteration: 'vāmano bhūtvā viṣṇustu trivikrama ivāparaḥ | baliṃ baddhvā pātālaṃ taṃ rājyaṃ dattvā tu pātayet ||',
           translation: 'Vishnu becoming Vamana, like the second Trivikrama, binding Bali and giving him the kingdom of Patala.',
           hindi: 'विष्णु वामन बनकर, दूसरे त्रिविक्रमा की भांति, बलि को बाँधकर उसे पाताल का राज्य देते हैं।',
@@ -65,7 +65,7 @@ export const vamanpuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'वामनो वटुरूपेण याचते बलिमागतः | त्रीणि पदानि भूमेः स्याच्छेषं दास्यामि ते वरम् ||',
+          sanskrit: 'वामनो वटुरूपेण याचते बलिमागतः । त्रीणि पदानि भूमेः स्याच्छेषं दास्यामि ते वरम् ॥',
           transliteration: 'vāmano vaṭurūpeṇa yācate balimāgataḥ | trīṇi padāni bhūmeḥ syācceṣaṃ dāsyāmi te varam ||',
           translation: 'Vamana, in the form of a young Brahmin student, approaches Bali and asks: "Give me three steps of land — I will grant you a boon for the rest."',
           hindi: 'वामन ब्रह्मचारी के रूप में बलि के पास आए और याचना की: "तीन पग भूमि दो — शेष के लिए मैं तुम्हें वर दूँगा।"',
@@ -76,7 +76,7 @@ export const vamanpuran: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'त्रिभिः पदैर्जगत् सर्वं व्याप्तं विष्णोर्महात्मनः | तृतीयेन पदेनास्य बलिः पातालमाविशत् ||',
+          sanskrit: 'त्रिभिः पदैर्जगत् सर्वं व्याप्तं विष्णोर्महात्मनः । तृतीयेन पदेनास्य बलिः पातालमाविशत् ॥',
           transliteration: 'tribhiḥ padairjagat sarvaṃ vyāptaṃ viṣṇormahātmanaḥ | tṛtīyena padenāsya baliḥ pātālamāviśat ||',
           translation: 'With three steps, the great-souled Vishnu pervaded the entire universe. With his third step, Bali entered Patala.',
           hindi: 'तीन पगों से महात्मा विष्णु ने सम्पूर्ण जगत् को व्याप्त कर लिया। तीसरे पग से बलि पाताल में चले गए।',
@@ -88,7 +88,7 @@ export const vamanpuran: Scripture = {
       
         {
           id: 5,
-          sanskrit: 'वामनो भूत्वा विष्णुस्तु त्रिविक्रम इवापरः | बलिं बद्ध्वा पातालं तं राज्यं दत्त्वा तु पातयेत् ||',
+          sanskrit: 'वामनो भूत्वा विष्णुस्तु त्रिविक्रम इवापरः । बलिं बद्ध्वा पातालं तं राज्यं दत्त्वा तु पातयेत् ॥',
           transliteration: 'vāmano bhūtvā viṣṇustu trivikrama ivāparaḥ | baliṃ baddhvā pātālaṃ taṃ rājyaṃ dattvā tu pātayet ||',
           translation: 'Vishnu becoming Vamana, like the second Trivikrama, binding Bali and giving him the kingdom of Patala.',
           hindi: 'विष्णु वामन बनकर, दूसरे त्रिविक्रमा की भांति, बलि को बाँधकर उसे पाताल का राज्य देते हैं।',
@@ -97,7 +97,7 @@ export const vamanpuran: Scripture = {
         },
         {
           id: 15,
-          sanskrit: 'दातव्यमिति यद्दानं दीयते\'नुपकारिणे | देशे काले च पात्रे च तद्दानं सात्त्विकं स्मृतम् ||',
+          sanskrit: 'दातव्यमिति यद्दानं दीयते\'नुपकारिणे । देशे काले च पात्रे च तद्दानं सात्त्विकं स्मृतम् ॥',
           transliteration: 'dātavyamiti yaddānaṃ dīyate\'nupakāriṇe | deśe kāle ca pātre ca taddānaṃ sāttvikaṃ smṛtam ||',
           translation: 'The gift that is given simply because it is right to give — to one who cannot repay, at the right place, time, and to a worthy recipient — that gift is considered sattvic.',
           hindi: 'जो दान "देना उचित है" इस भाव से दिया जाए — जो उपकार नहीं कर सकता उसे, सही स्थान, काल और पात्र में — वह दान सात्त्विक कहा जाता है।',
@@ -113,7 +113,7 @@ export const vamanpuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'वरं ददौ हरिर्बलये द्वारपालत्वमात्मनः | पातालराज्यमखिलं सत्यलोकसमं परम् ||',
+          sanskrit: 'वरं ददौ हरिर्बलये द्वारपालत्वमात्मनः । पातालराज्यमखिलं सत्यलोकसमं परम् ॥',
           transliteration: 'varaṃ dadau haribaliṃye dvārapālatvamātmanaḥ | pātālarājyamakhilaṃ satyalokasamaṃ param ||',
           translation: 'Hari (Vishnu) gave Bali this boon: his own role as doorkeeper, and the entire kingdom of Patala — equal to Satyaloka — as the supreme gift.',
           hindi: 'हरि ने बलि को वर दिया: स्वयं उनका द्वारपाल बनना, और सम्पूर्ण पाताल-राज्य — जो सत्यलोक के समान उत्तम है।',
@@ -124,7 +124,7 @@ export const vamanpuran: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'वामनो भूत्वा विष्णुस्तु त्रिविक्रम इवापरः | बलिं बद्ध्वा पातालं तं राज्यं दत्त्वा तु पातयेत् ||',
+          sanskrit: 'वामनो भूत्वा विष्णुस्तु त्रिविक्रम इवापरः । बलिं बद्ध्वा पातालं तं राज्यं दत्त्वा तु पातयेत् ॥',
           transliteration: 'vāmano bhūtvā viṣṇustu trivikrama ivāparaḥ | baliṃ baddhvā pātālaṃ taṃ rājyaṃ dattvā tu pātayet ||',
           translation: 'Vishnu becoming Vamana, like the second Trivikrama, binding Bali and giving him the kingdom of Patala.',
           hindi: 'विष्णु वामन बनकर, दूसरे त्रिविक्रमा की भांति, बलि को बाँधकर उसे पाताल का राज्य देते हैं।',
@@ -136,7 +136,7 @@ export const vamanpuran: Scripture = {
       
         {
           id: 2,
-          sanskrit: 'वामनो भूत्वा विष्णुस्तु त्रिविक्रम इवापरः | बलिं बद्ध्वा पातालं तं राज्यं दत्त्वा तु पातयेत् ||',
+          sanskrit: 'वामनो भूत्वा विष्णुस्तु त्रिविक्रम इवापरः । बलिं बद्ध्वा पातालं तं राज्यं दत्त्वा तु पातयेत् ॥',
           transliteration: 'vāmano bhūtvā viṣṇustu trivikrama ivāparaḥ | baliṃ baddhvā pātālaṃ taṃ rājyaṃ dattvā tu pātayet ||',
           translation: 'Vishnu becoming Vamana, like the second Trivikrama, binding Bali and giving him the kingdom of Patala.',
           hindi: 'विष्णु वामन बनकर, दूसरे त्रिविक्रमा की भांति, बलि को बाँधकर उसे पाताल का राज्य देते हैं।',
@@ -145,7 +145,7 @@ export const vamanpuran: Scripture = {
         },
         {
           id: 15,
-          sanskrit: 'दातव्यमिति यद्दानं दीयते\'नुपकारिणे | देशे काले च पात्रे च तद्दानं सात्त्विकं स्मृतम् ||',
+          sanskrit: 'दातव्यमिति यद्दानं दीयते\'नुपकारिणे । देशे काले च पात्रे च तद्दानं सात्त्विकं स्मृतम् ॥',
           transliteration: 'dātavyamiti yaddānaṃ dīyate\'nupakāriṇe | deśe kāle ca pātre ca taddānaṃ sāttvikaṃ smṛtam ||',
           translation: 'The gift that is given simply because it is right to give — to one who cannot repay, at the right place, time, and to a worthy recipient — that gift is considered sattvic.',
           hindi: 'जो दान "देना उचित है" इस भाव से दिया जाए — जो उपकार नहीं कर सकता उसे, सही स्थान, काल और पात्र में — वह दान सात्त्विक कहा जाता है।',

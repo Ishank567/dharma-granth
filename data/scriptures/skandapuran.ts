@@ -17,7 +17,7 @@ export const skandapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'शिवः सत्त्वं रजस्तमश्च त्रिगुणात्मा निरञ्जनः | सर्वव्यापी महादेवो योगिनां हृदि संस्थितः ||',
+          sanskrit: 'शिवः सत्त्वं रजस्तमश्च त्रिगुणात्मा निरञ्जनः । सर्वव्यापी महादेवो योगिनां हृदि संस्थितः ॥',
           transliteration: 'śivaḥ sattvaṃ rajastamaśca triguṇātmā nirañjanaḥ | sarvavyāpī mahādevo yogināṃ hṛdi saṃsthitaḥ ||',
           translation: 'Shiva is sattva, rajas, and tamas — the soul of the three gunas, yet unstained. The great God is all-pervading, dwelling in the hearts of yogins.',
           hindi: 'शिव सत्त्व, रज और तम — तीनों गुणों के आत्मा हैं, फिर भी निरञ्जन हैं। महादेव सर्वव्यापी हैं — योगियों के हृदय में स्थित हैं।',
@@ -28,7 +28,7 @@ export const skandapuran: Scripture = {
         },
         {
           id: 47,
-          sanskrit: 'एकबाणेन तत्सर्वं दग्धं ब्रह्माण्डमण्डलम् | त्रिपुरं च महेशेन योगाग्नौ भस्मसात्कृतम् ||',
+          sanskrit: 'एकबाणेन तत्सर्वं दग्धं ब्रह्माण्डमण्डलम् । त्रिपुरं च महेशेन योगाग्नौ भस्मसात्कृतम् ॥',
           transliteration: 'ekabaṇena tatsarvaṃ dagdhaṃ brahmāṇḍamaṇḍalam | tripuraṃ ca maheśena yogāgnau bhasmasātkṛtam ||',
           translation: 'With a single arrow, the entire cosmic circle was burned. The three cities were reduced to ash by Maheshvara in the fire of yoga.',
           hindi: 'एक ही बाण से समस्त ब्रह्माण्ड-मण्डल जल गया। त्रिपुर को महेश्वर ने योगाग्नि में भस्म कर दिया।',
@@ -40,7 +40,7 @@ export const skandapuran: Scripture = {
       
         {
           id: 2,
-          sanskrit: 'एकबाणेन तत्सर्वं दग्धं ब्रह्माण्डमण्डलम् | त्रिपुरं च महेशेन योगाग्नौ भस्मसात्कृतम् ||',
+          sanskrit: 'एकबाणेन तत्सर्वं दग्धं ब्रह्माण्डमण्डलम् । त्रिपुरं च महेशेन योगाग्नौ भस्मसात्कृतम् ॥',
           transliteration: 'ekabaṇena tatsarvaṃ dagdhaṃ brahmāṇḍamaṇḍalam | tripuraṃ ca maheśena yogāgnau bhasmasātkṛtam ||',
           translation: 'With a single arrow, the entire cosmic circle was burned. The three cities were reduced to ash by Maheshvara in the fire of yoga.',
           hindi: 'एक ही बाण से समस्त ब्रह्माण्ड-मण्डल जल गया। त्रिपुर को महेश्वर ने योगाग्नि में भस्म कर दिया।',
@@ -49,7 +49,7 @@ export const skandapuran: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'महाकालो महादेवः कालः कालस्य कालकः | कालचक्रप्रवर्तको मोक्षदः परमेश्वरः ||',
+          sanskrit: 'महाकालो महादेवः कालः कालस्य कालकः । कालचक्रप्रवर्तको मोक्षदः परमेश्वरः ॥',
           transliteration: 'mahākālo mahādevaḥ kālaḥ kālasya kālakaḥ | kālacakrapravartako mokṣadaḥ parameśvaraḥ ||',
           translation: 'Mahakala is the great God — Time itself, the time of time, the kala of kala. The one who sets the wheel of time in motion — the giver of liberation, the supreme Lord.',
           hindi: 'महाकाल महादेव हैं — स्वयं काल, काल के भी काल। कालचक्र को गति देने वाले — मोक्षदाता, परमेश्वर।',
@@ -58,7 +58,7 @@ export const skandapuran: Scripture = {
         },
         {
           id: 26,
-          sanskrit: 'तीर्थानि सर्वाणि तथा गङ्गादि सर्वतो दिशि | तीर्थभूता शिवभक्ताः शिवे भक्तिमन्त्रताः ||',
+          sanskrit: 'तीर्थानि सर्वाणि तथा गङ्गादि सर्वतो दिशि । तीर्थभूता शिवभक्ताः शिवे भक्तिमन्त्रताः ॥',
           transliteration: 'tīrthāni sarvāṇi tathā gaṅgādi sarvato diśi | tīrthabhūtā śivabhaktāḥ śive bhaktimantaratāḥ ||',
           translation: 'All sacred places, and the Ganga in all directions — Shiva devotees themselves are the sacred places, those who are devoted to Shiva with deep faith.',
           hindi: 'सभी तीर्थ, और सभी दिशाओं में गंगा — शिव भक्त स्वयं तीर्थ हैं, जो शिव में गहरी भक्ति रखते हैं।',
@@ -67,7 +67,7 @@ export const skandapuran: Scripture = {
         },
         {
           id: 28,
-          sanskrit: 'शिवः साक्षात् परं ब्रह्म निर्गुणो निश्चलः शुद्धः | योगिनां हृदये नित्यं शिवो भवति साक्षात् ||',
+          sanskrit: 'शिवः साक्षात् परं ब्रह्म निर्गुणो निश्चलः शुद्धः । योगिनां हृदये नित्यं शिवो भवति साक्षात् ॥',
           transliteration: 'śivaḥ sākṣāt paraṃ brahma nirguṇo niścalaḥ śuddhaḥ | yogināṃ hṛdaye nityaṃ śivo bhavati sākṣāt ||',
           translation: 'Shiva is indeed the supreme Brahman — without qualities, unmoving, pure. In the hearts of yogins, Shiva is indeed present.',
           hindi: 'शिव साक्षात् परम ब्रह्म हैं — निर्गुण, निश्चल, शुद्ध। योगियों के हृदय में शिव साक्षात् विराजमान हैं।',
@@ -83,7 +83,7 @@ export const skandapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'काश्यां मरणान्मुक्तिः सर्वेषां प्राणिनामपि | तारकं ब्रह्म तत्रैव जपते शङ्करः स्वयम् ||',
+          sanskrit: 'काश्यां मरणान्मुक्तिः सर्वेषां प्राणिनामपि । तारकं ब्रह्म तत्रैव जपते शङ्करः स्वयम् ॥',
           transliteration: 'kāśyāṃ maraṇānmuktiḥ sarveṣāṃ prāṇināmapi | tārakaṃ brahma tatraiva japate śaṅkaraḥ svayam ||',
           translation: 'In Kashi, liberation comes through death — for all beings. There, Shankara himself whispers the Taraka Brahman.',
           hindi: 'काशी में मृत्यु से मुक्ति मिलती है — सभी प्राणियों को। वहाँ शंकर स्वयं तारक ब्रह्म जपते हैं।',
@@ -94,7 +94,7 @@ export const skandapuran: Scripture = {
         },
         {
           id: 96,
-          sanskrit: 'गङ्गा च यमुना चैव गोदावरी सरस्वती | नर्मदा सिन्धु कावेरी जले अस्मिन् सन्निधिं कुरु ||',
+          sanskrit: 'गङ्गा च यमुना चैव गोदावरी सरस्वती । नर्मदा सिन्धु कावेरी जले अस्मिन् सन्निधिं कुरु ॥',
           transliteration: 'gaṅgā ca yamunā caiva godāvarī sarasvatī | narmadā sindhu kāverī jale asmin sannidhiṃ kuru ||',
           translation: 'Ganga, Yamuna, Godavari, Sarasvati, Narmada, Sindhu, Kaveri — be present in this water.',
           hindi: 'गङ्गा, यमुना, गोदावरी, सरस्वती, नर्मदा, सिन्धु, कावेरी — इस जल में सन्निधि करो।',
@@ -106,7 +106,7 @@ export const skandapuran: Scripture = {
       
         {
           id: 2,
-          sanskrit: 'गङ्गा च यमुना चैव गोदावरी सरस्वती | नर्मदा सिन्धु कावेरी जले अस्मिन् सन्निधिं कुरु ||',
+          sanskrit: 'गङ्गा च यमुना चैव गोदावरी सरस्वती । नर्मदा सिन्धु कावेरी जले अस्मिन् सन्निधिं कुरु ॥',
           transliteration: 'gaṅgā ca yamunā caiva godāvarī sarasvatī | narmadā sindhu kāverī jale asmin sannidhiṃ kuru ||',
           translation: 'Ganga, Yamuna, Godavari, Sarasvati, Narmada, Sindhu, Kaveri — be present in this water.',
           hindi: 'गङ्गा, यमुना, गोदावरी, सरस्वती, नर्मदा, सिन्धु, कावेरी — इस जल में सन्निधि करो।',
@@ -115,7 +115,7 @@ export const skandapuran: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'महाकालो महादेवः कालः कालस्य कालकः | कालचक्रप्रवर्तको मोक्षदः परमेश्वरः ||',
+          sanskrit: 'महाकालो महादेवः कालः कालस्य कालकः । कालचक्रप्रवर्तको मोक्षदः परमेश्वरः ॥',
           transliteration: 'mahākālo mahādevaḥ kālaḥ kālasya kālakaḥ | kālacakrapravartako mokṣadaḥ parameśvaraḥ ||',
           translation: 'Mahakala is the great God — Time itself, the time of time, the kala of kala. The one who sets the wheel of time in motion — the giver of liberation, the supreme Lord.',
           hindi: 'महाकाल महादेव हैं — स्वयं काल, काल के भी काल। कालचक्र को गति देने वाले — मोक्षदाता, परमेश्वर।',
@@ -124,7 +124,7 @@ export const skandapuran: Scripture = {
         },
         {
           id: 26,
-          sanskrit: 'तीर्थानि सर्वाणि तथा गङ्गादि सर्वतो दिशि | तीर्थभूता शिवभक्ताः शिवे भक्तिमन्त्रताः ||',
+          sanskrit: 'तीर्थानि सर्वाणि तथा गङ्गादि सर्वतो दिशि । तीर्थभूता शिवभक्ताः शिवे भक्तिमन्त्रताः ॥',
           transliteration: 'tīrthāni sarvāṇi tathā gaṅgādi sarvato diśi | tīrthabhūtā śivabhaktāḥ śive bhaktimantaratāḥ ||',
           translation: 'All sacred places, and the Ganga in all directions — Shiva devotees themselves are the sacred places, those who are devoted to Shiva with deep faith.',
           hindi: 'सभी तीर्थ, और सभी दिशाओं में गंगा — शिव भक्त स्वयं तीर्थ हैं, जो शिव में गहरी भक्ति रखते हैं।',
@@ -133,7 +133,7 @@ export const skandapuran: Scripture = {
         },
         {
           id: 28,
-          sanskrit: 'शिवः साक्षात् परं ब्रह्म निर्गुणो निश्चलः शुद्धः | योगिनां हृदये नित्यं शिवो भवति साक्षात् ||',
+          sanskrit: 'शिवः साक्षात् परं ब्रह्म निर्गुणो निश्चलः शुद्धः । योगिनां हृदये नित्यं शिवो भवति साक्षात् ॥',
           transliteration: 'śivaḥ sākṣāt paraṃ brahma nirguṇo niścalaḥ śuddhaḥ | yogināṃ hṛdaye nityaṃ śivo bhavati sākṣāt ||',
           translation: 'Shiva is indeed the supreme Brahman — without qualities, unmoving, pure. In the hearts of yogins, Shiva is indeed present.',
           hindi: 'शिव साक्षात् परम ब्रह्म हैं — निर्गुण, निश्चल, शुद्ध। योगियों के हृदय में शिव साक्षात् विराजमान हैं।',
@@ -142,7 +142,7 @@ export const skandapuran: Scripture = {
         },
         {
           id: 47,
-          sanskrit: 'एकबाणेन तत्सर्वं दग्धं ब्रह्माण्डमण्डलम् | त्रिपुरं च महेशेन योगाग्नौ भस्मसात्कृतम् ||',
+          sanskrit: 'एकबाणेन तत्सर्वं दग्धं ब्रह्माण्डमण्डलम् । त्रिपुरं च महेशेन योगाग्नौ भस्मसात्कृतम् ॥',
           transliteration: 'ekabaṇena tatsarvaṃ dagdhaṃ brahmāṇḍamaṇḍalam | tripuraṃ ca maheśena yogāgnau bhasmasātkṛtam ||',
           translation: 'With a single arrow, the entire cosmic circle was burned. The three cities were reduced to ash by Maheshvara in the fire of yoga.',
           hindi: 'एक ही बाण से समस्त ब्रह्माण्ड-मण्डल जल गया। त्रिपुर को महेश्वर ने योगाग्नि में भस्म कर दिया।',
@@ -158,7 +158,7 @@ export const skandapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'महाकालो महादेवः कालः कालस्य कालकः | कालचक्रप्रवर्तको मोक्षदः परमेश्वरः ||',
+          sanskrit: 'महाकालो महादेवः कालः कालस्य कालकः । कालचक्रप्रवर्तको मोक्षदः परमेश्वरः ॥',
           transliteration: 'mahākālo mahādevaḥ kālaḥ kālasya kālakaḥ | kālacakrapravartako mokṣadaḥ parameśvaraḥ ||',
           translation: 'Mahakala is the great God — Time itself, the time of time, the kala of kala. The one who sets the wheel of time in motion — the giver of liberation, the supreme Lord.',
           hindi: 'महाकाल महादेव हैं — स्वयं काल, काल के भी काल। कालचक्र को गति देने वाले — मोक्षदाता, परमेश्वर।',
@@ -170,7 +170,7 @@ export const skandapuran: Scripture = {
       
         {
           id: 26,
-          sanskrit: 'तीर्थानि सर्वाणि तथा गङ्गादि सर्वतो दिशि | तीर्थभूता शिवभक्ताः शिवे भक्तिमन्त्रताः ||',
+          sanskrit: 'तीर्थानि सर्वाणि तथा गङ्गादि सर्वतो दिशि । तीर्थभूता शिवभक्ताः शिवे भक्तिमन्त्रताः ॥',
           transliteration: 'tīrthāni sarvāṇi tathā gaṅgādi sarvato diśi | tīrthabhūtā śivabhaktāḥ śive bhaktimantaratāḥ ||',
           translation: 'All sacred places, and the Ganga in all directions — Shiva devotees themselves are the sacred places, those who are devoted to Shiva with deep faith.',
           hindi: 'सभी तीर्थ, और सभी दिशाओं में गंगा — शिव भक्त स्वयं तीर्थ हैं, जो शिव में गहरी भक्ति रखते हैं।',
@@ -179,7 +179,7 @@ export const skandapuran: Scripture = {
         },
         {
           id: 28,
-          sanskrit: 'शिवः साक्षात् परं ब्रह्म निर्गुणो निश्चलः शुद्धः | योगिनां हृदये नित्यं शिवो भवति साक्षात् ||',
+          sanskrit: 'शिवः साक्षात् परं ब्रह्म निर्गुणो निश्चलः शुद्धः । योगिनां हृदये नित्यं शिवो भवति साक्षात् ॥',
           transliteration: 'śivaḥ sākṣāt paraṃ brahma nirguṇo niścalaḥ śuddhaḥ | yogināṃ hṛdaye nityaṃ śivo bhavati sākṣāt ||',
           translation: 'Shiva is indeed the supreme Brahman — without qualities, unmoving, pure. In the hearts of yogins, Shiva is indeed present.',
           hindi: 'शिव साक्षात् परम ब्रह्म हैं — निर्गुण, निश्चल, शुद्ध। योगियों के हृदय में शिव साक्षात् विराजमान हैं।',
@@ -188,7 +188,7 @@ export const skandapuran: Scripture = {
         },
         {
           id: 47,
-          sanskrit: 'एकबाणेन तत्सर्वं दग्धं ब्रह्माण्डमण्डलम् | त्रिपुरं च महेशेन योगाग्नौ भस्मसात्कृतम् ||',
+          sanskrit: 'एकबाणेन तत्सर्वं दग्धं ब्रह्माण्डमण्डलम् । त्रिपुरं च महेशेन योगाग्नौ भस्मसात्कृतम् ॥',
           transliteration: 'ekabaṇena tatsarvaṃ dagdhaṃ brahmāṇḍamaṇḍalam | tripuraṃ ca maheśena yogāgnau bhasmasātkṛtam ||',
           translation: 'With a single arrow, the entire cosmic circle was burned. The three cities were reduced to ash by Maheshvara in the fire of yoga.',
           hindi: 'एक ही बाण से समस्त ब्रह्माण्ड-मण्डल जल गया। त्रिपुर को महेश्वर ने योगाग्नि में भस्म कर दिया।',
@@ -204,7 +204,7 @@ export const skandapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'सोमनाथं ज्योतिर्लिङ्गं सर्वपापहरं परम् | दर्शनात्स्पर्शनात् नित्यं मुक्तिदं शिवसन्निधौ ||',
+          sanskrit: 'सोमनाथं ज्योतिर्लिङ्गं सर्वपापहरं परम् । दर्शनात्स्पर्शनात् नित्यं मुक्तिदं शिवसन्निधौ ॥',
           transliteration: 'somanāthaṃ jyotirliṅgaṃ sarvapāpaharaṃ param | darśanātsparśanāt nityaṃ muktidam śivasannidhau ||',
           translation: 'Somnath — the supreme jyotirlinga — remover of all sin. By its vision, by its touch — always, in Shiva\'s nearness — it grants liberation.',
           hindi: 'सोमनाथ — सर्वोच्च ज्योतिर्लिङ्ग — सभी पापों को हरने वाला। दर्शन से, स्पर्श से — नित्य, शिव की सन्निधि में — मुक्तिदायक।',
@@ -215,7 +215,7 @@ export const skandapuran: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'महाकालो महादेवः कालः कालस्य कालकः | कालचक्रप्रवर्तको मोक्षदः परमेश्वरः ||',
+          sanskrit: 'महाकालो महादेवः कालः कालस्य कालकः । कालचक्रप्रवर्तको मोक्षदः परमेश्वरः ॥',
           transliteration: 'mahākālo mahādevaḥ kālaḥ kālasya kālakaḥ | kālacakrapravartako mokṣadaḥ parameśvaraḥ ||',
           translation: 'Mahakala is the great God — Time itself, the time of time, the kala of kala. The one who sets the wheel of time in motion — the giver of liberation, the supreme Lord.',
           hindi: 'महाकाल महादेव हैं — स्वयं काल, काल के भी काल। कालचक्र को गति देने वाले — मोक्षदाता, परमेश्वर।',
@@ -226,7 +226,7 @@ export const skandapuran: Scripture = {
         },
         {
           id: 26,
-          sanskrit: 'तीर्थानि सर्वाणि तथा गङ्गादि सर्वतो दिशि | तीर्थभूता शिवभक्ताः शिवे भक्तिमन्त्रताः ||',
+          sanskrit: 'तीर्थानि सर्वाणि तथा गङ्गादि सर्वतो दिशि । तीर्थभूता शिवभक्ताः शिवे भक्तिमन्त्रताः ॥',
           transliteration: 'tīrthāni sarvāṇi tathā gaṅgādi sarvato diśi | tīrthabhūtā śivabhaktāḥ śive bhaktimantaratāḥ ||',
           translation: 'All sacred places, and the Ganga in all directions — Shiva devotees themselves are the sacred places, those who are devoted to Shiva with deep faith.',
           hindi: 'सभी तीर्थ, और सभी दिशाओं में गंगा — शिव भक्त स्वयं तीर्थ हैं, जो शिव में गहरी भक्ति रखते हैं।',
@@ -237,7 +237,7 @@ export const skandapuran: Scripture = {
         },
         {
           id: 28,
-          sanskrit: 'शिवः साक्षात् परं ब्रह्म निर्गुणो निश्चलः शुद्धः | योगिनां हृदये नित्यं शिवो भवति साक्षात् ||',
+          sanskrit: 'शिवः साक्षात् परं ब्रह्म निर्गुणो निश्चलः शुद्धः । योगिनां हृदये नित्यं शिवो भवति साक्षात् ॥',
           transliteration: 'śivaḥ sākṣāt paraṃ brahma nirguṇo niścalaḥ śuddhaḥ | yogināṃ hṛdaye nityaṃ śivo bhavati sākṣāt ||',
           translation: 'Shiva is indeed the supreme Brahman — without qualities, unmoving, pure. In the hearts of yogins, Shiva is indeed present.',
           hindi: 'शिव साक्षात् परम ब्रह्म हैं — निर्गुण, निश्चल, शुद्ध। योगियों के हृदय में शिव साक्षात् विराजमान हैं।',
@@ -249,7 +249,7 @@ export const skandapuran: Scripture = {
       
         {
           id: 2,
-          sanskrit: 'महाकालो महादेवः कालः कालस्य कालकः | कालचक्रप्रवर्तको मोक्षदः परमेश्वरः ||',
+          sanskrit: 'महाकालो महादेवः कालः कालस्य कालकः । कालचक्रप्रवर्तको मोक्षदः परमेश्वरः ॥',
           transliteration: 'mahākālo mahādevaḥ kālaḥ kālasya kālakaḥ | kālacakrapravartako mokṣadaḥ parameśvaraḥ ||',
           translation: 'Mahakala is the great God — Time itself, the time of time, the kala of kala. The one who sets the wheel of time in motion — the giver of liberation, the supreme Lord.',
           hindi: 'महाकाल महादेव हैं — स्वयं काल, काल के भी काल। कालचक्र को गति देने वाले — मोक्षदाता, परमेश्वर।',
@@ -258,7 +258,7 @@ export const skandapuran: Scripture = {
         },
         {
           id: 3,
-          sanskrit: 'तीर्थानि सर्वाणि तथा गङ्गादि सर्वतो दिशि | तीर्थभूता शिवभक्ताः शिवे भक्तिमन्त्रताः ||',
+          sanskrit: 'तीर्थानि सर्वाणि तथा गङ्गादि सर्वतो दिशि । तीर्थभूता शिवभक्ताः शिवे भक्तिमन्त्रताः ॥',
           transliteration: 'tīrthāni sarvāṇi tathā gaṅgādi sarvato diśi | tīrthabhūtā śivabhaktāḥ śive bhaktimantaratāḥ ||',
           translation: 'All sacred places, and the Ganga in all directions — Shiva devotees themselves are the sacred places, those who are devoted to Shiva with deep faith.',
           hindi: 'सभी तीर्थ, और सभी दिशाओं में गंगा — शिव भक्त स्वयं तीर्थ हैं, जो शिव में गहरी भक्ति रखते हैं।',
@@ -267,7 +267,7 @@ export const skandapuran: Scripture = {
         },
         {
           id: 6,
-          sanskrit: 'शिवः साक्षात् परं ब्रह्म निर्गुणो निश्चलः शुद्धः | योगिनां हृदये नित्यं शिवो भवति साक्षात् ||',
+          sanskrit: 'शिवः साक्षात् परं ब्रह्म निर्गुणो निश्चलः शुद्धः । योगिनां हृदये नित्यं शिवो भवति साक्षात् ॥',
           transliteration: 'śivaḥ sākṣāt paraṃ brahma nirguṇo niścalaḥ śuddhaḥ | yogināṃ hṛdaye nityaṃ śivo bhavati sākṣāt ||',
           translation: 'Shiva is indeed the supreme Brahman — without qualities, unmoving, pure. In the hearts of yogins, Shiva is indeed present.',
           hindi: 'शिव साक्षात् परम ब्रह्म हैं — निर्गुण, निश्चल, शुद्ध। योगियों के हृदय में शिव साक्षात् विराजमान हैं।',
@@ -276,7 +276,7 @@ export const skandapuran: Scripture = {
         },
         {
           id: 47,
-          sanskrit: 'एकबाणेन तत्सर्वं दग्धं ब्रह्माण्डमण्डलम् | त्रिपुरं च महेशेन योगाग्नौ भस्मसात्कृतम् ||',
+          sanskrit: 'एकबाणेन तत्सर्वं दग्धं ब्रह्माण्डमण्डलम् । त्रिपुरं च महेशेन योगाग्नौ भस्मसात्कृतम् ॥',
           transliteration: 'ekabaṇena tatsarvaṃ dagdhaṃ brahmāṇḍamaṇḍalam | tripuraṃ ca maheśena yogāgnau bhasmasātkṛtam ||',
           translation: 'With a single arrow, the entire cosmic circle was burned. The three cities were reduced to ash by Maheshvara in the fire of yoga.',
           hindi: 'एक ही बाण से समस्त ब्रह्माण्ड-मण्डल जल गया। त्रिपुर को महेश्वर ने योगाग्नि में भस्म कर दिया।',

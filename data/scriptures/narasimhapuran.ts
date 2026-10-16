@@ -17,7 +17,7 @@ export const narasimhapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'नमस्ते नरसिंहाय प्रह्लादाह्लाददायिने | हिरण्यकशिपोर्वक्षः शिलाटङ्कनखालये ||',
+          sanskrit: 'नमस्ते नरसिंहाय प्रह्लादाह्लाददायिने । हिरण्यकशिपोर्वक्षः शिलाटङ्कनखालये ॥',
           transliteration: 'namaste narasiṃhāya prahlādāhlādadāyine | hiraṇyakaśiporvakṣaḥ śilāṭaṅkanakhālaye ||',
           translation: 'Salutations to Narasimha — the giver of joy to Prahlada — whose nails are the chisels that carved the chest-stone of Hiranyakashipu.',
           hindi: 'नरसिंह को नमस्कार — जो प्रह्लाद को आनन्द देने वाले हैं — जिनके नख हिरण्यकशिपु की वक्ष-शिला को काटने वाले छेनी हैं।',
@@ -28,7 +28,7 @@ export const narasimhapuran: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'प्रह्लादं पुरतः कृत्वा क्रोधाविष्टः सुतं ततः | उवाच रुषितो राजा हिरण्यकशिपुः स्वयम् ||',
+          sanskrit: 'प्रह्लादं पुरतः कृत्वा क्रोधाविष्टः सुतं ततः । उवाच रुषितो राजा हिरण्यकशिपुः स्वयम् ॥',
           transliteration: 'prahlādaṃ purataḥ kṛtvā krodhāviṣṭaḥ sutaṃ tataḥ | uvāca ruṣito rājā hiraṇyakaśipuḥ svayam ||',
           translation: 'Placing Prahlada before him, filled with anger, the enraged king Hiranyakashipu himself spoke to his son.',
           hindi: 'प्रह्लाद को अपने सामने खड़ा करके, क्रोध से भरे हुए, क्रुद्ध राजा हिरण्यकशिपु स्वयं अपने पुत्र से बोला।',
@@ -37,7 +37,7 @@ export const narasimhapuran: Scripture = {
         },
         {
           id: 12,
-          sanskrit: 'नैतदद्भुतमेव त्वं हिरण्यकशिपोः सुत | प्रह्लादात्तव किं क्षुद्रं पापं वा साधु वा कृतम् ||',
+          sanskrit: 'नैतदद्भुतमेव त्वं हिरण्यकशिपोः सुत । प्रह्लादात्तव किं क्षुद्रं पापं वा साधु वा कृतम् ॥',
           transliteration: 'naitadadbhutameva tvaṃ hiraṇyakaśipoḥ suta | prahlādātta kiṃ kṣudraṃ pāpaṃ vā sādhu vā kṛtam ||',
           translation: 'This is not at all surprising in you, O son of Hiranyakashipu. For what small sin or good deed is not done by Prahlada?',
           hindi: 'हे हिरण्यकशिपु के पुत्र! तुममें यह कुछ भी आश्चर्यजनक नहीं है। क्योंकि प्रह्लाद द्वारा कौन-सा छोटा पाप या साधु कार्य नहीं किया जाता?',
@@ -46,7 +46,7 @@ export const narasimhapuran: Scripture = {
         },
         {
           id: 18,
-          sanskrit: 'त्वं मां योजय दुर्जयेन दुष्टभावेन मानद | दम्भेन च महाराज दानवानां कुलक्षये ||',
+          sanskrit: 'त्वं मां योजय दुर्जयेन दुष्टभावेन मानद । दम्भेन च महाराज दानवानां कुलक्षये ॥',
           transliteration: 'tvaṃ māṃ yojaya durjayena duṣṭabhāvena mānada | dambhena ca mahārāja dānavānāṃ kulakṣaye ||',
           translation: 'O pride-giver, unite me with that which is difficult to conquer — with evil-mindedness and with pride, O great king, which lead to the destruction of the demon race.',
           hindi: 'हे मान-दाता! मुझे उस दुर्जय (दुष्टभावना) और दम्भ से मिला दो, हे महाराज! जो दानवों के कुल के क्षय का कारण है।',
@@ -55,7 +55,7 @@ export const narasimhapuran: Scripture = {
         },
         {
           id: 8,
-          sanskrit: 'उग्रं वीरं महाविष्णुं ज्वलन्तं सर्वतोमुखम् | नृसिंहं भीषणं भद्रं मृत्युमृत्युं नमाम्यहम् ||',
+          sanskrit: 'उग्रं वीरं महाविष्णुं ज्वलन्तं सर्वतोमुखम् । नृसिंहं भीषणं भद्रं मृत्युमृत्युं नमाम्यहम् ॥',
           transliteration: 'ugraṃ vīraṃ mahāviṣṇuṃ jvalantaṃ sarvatomukham | nṛsiṃhaṃ bhīṣaṇaṃ bhadraṃ mṛtyumṛtyuṃ namāmyaham ||',
           translation: 'Fierce, heroic, the great Vishnu — blazing, facing all directions — Narasimha, terrifying, auspicious, the death of death — I bow to Him.',
           hindi: 'उग्र, वीर, महाविष्णु — ज्वलन्त, सर्वतोमुख — नृसिंह, भीषण, भद्र, मृत्यु के मृत्यु — मैं नमस्कार करता हूँ।',
@@ -67,7 +67,7 @@ export const narasimhapuran: Scripture = {
       
         {
           id: 2,
-          sanskrit: 'प्रह्लादं पुरतः कृत्वा क्रोधाविष्टः सुतं ततः | उवाच रुषितो राजा हिरण्यकशिपुः स्वयम् ||',
+          sanskrit: 'प्रह्लादं पुरतः कृत्वा क्रोधाविष्टः सुतं ततः । उवाच रुषितो राजा हिरण्यकशिपुः स्वयम् ॥',
           transliteration: 'prahlādaṃ purataḥ kṛtvā krodhāviṣṭaḥ sutaṃ tataḥ | uvāca ruṣito rājā hiraṇyakaśipuḥ svayam ||',
           translation: 'Placing Prahlada before him, filled with anger, the enraged king Hiranyakashipu himself spoke to his son.',
           hindi: 'प्रह्लाद को अपने सामने खड़ा करके, क्रोध से भरे हुए, क्रुद्ध राजा हिरण्यकशिपु स्वयं अपने पुत्र से बोला।',
@@ -76,7 +76,7 @@ export const narasimhapuran: Scripture = {
         },
         {
           id: 3,
-          sanskrit: 'नैतदद्भुतमेव त्वं हिरण्यकशिपोः सुत | प्रह्लादात्तव किं क्षुद्रं पापं वा साधु वा कृतम् ||',
+          sanskrit: 'नैतदद्भुतमेव त्वं हिरण्यकशिपोः सुत । प्रह्लादात्तव किं क्षुद्रं पापं वा साधु वा कृतम् ॥',
           transliteration: 'naitadadbhutameva tvaṃ hiraṇyakaśipoḥ suta | prahlādātta kiṃ kṣudraṃ pāpaṃ vā sādhu vā kṛtam ||',
           translation: 'This is not at all surprising in you, O son of Hiranyakashipu. For what small sin or good deed is not done by Prahlada?',
           hindi: 'हे हिरण्यकशिपु के पुत्र! तुममें यह कुछ भी आश्चर्यजनक नहीं है। क्योंकि प्रह्लाद द्वारा कौन-सा छोटा पाप या साधु कार्य नहीं किया जाता?',
@@ -85,7 +85,7 @@ export const narasimhapuran: Scripture = {
         },
         {
           id: 4,
-          sanskrit: 'त्वं मां योजय दुर्जयेन दुष्टभावेन मानद | दम्भेन च महाराज दानवानां कुलक्षये ||',
+          sanskrit: 'त्वं मां योजय दुर्जयेन दुष्टभावेन मानद । दम्भेन च महाराज दानवानां कुलक्षये ॥',
           transliteration: 'tvaṃ māṃ yojaya durjayena duṣṭabhāvena mānada | dambhena ca mahārāja dānavānāṃ kulakṣaye ||',
           translation: 'O pride-giver, unite me with that which is difficult to conquer — with evil-mindedness and with pride, O great king, which lead to the destruction of the demon race.',
           hindi: 'हे मान-दाता! मुझे उस दुर्जय (दुष्टभावना) और दम्भ से मिला दो, हे महाराज! जो दानवों के कुल के क्षय का कारण है।',
@@ -94,7 +94,7 @@ export const narasimhapuran: Scripture = {
         },
         {
           id: 6,
-          sanskrit: 'उग्रं वीरं महाविष्णुं ज्वलन्तं सर्वतोमुखम् | नृसिंहं भीषणं भद्रं मृत्युमृत्युं नमाम्यहम् ||',
+          sanskrit: 'उग्रं वीरं महाविष्णुं ज्वलन्तं सर्वतोमुखम् । नृसिंहं भीषणं भद्रं मृत्युमृत्युं नमाम्यहम् ॥',
           transliteration: 'ugraṃ vīraṃ mahāviṣṇuṃ jvalantaṃ sarvatomukham | nṛsiṃhaṃ bhīṣaṇaṃ bhadraṃ mṛtyumṛtyuṃ namāmyaham ||',
           translation: 'Fierce, heroic, the great Vishnu — blazing, facing all directions — Narasimha, terrifying, auspicious, the death of death — I bow to Him.',
           hindi: 'उग्र, वीर, महाविष्णु — ज्वलन्त, सर्वतोमुख — नृसिंह, भीषण, भद्र, मृत्यु के मृत्यु — मैं नमस्कार करता हूँ।',
@@ -103,7 +103,7 @@ export const narasimhapuran: Scripture = {
         },
         {
           id: 22,
-          sanskrit: 'यं दृष्ट्वा न भयं तस्य यं श्रुत्वा च न संशयः | यं ज्ञात्वा सर्वदुःखानि नश्यन्ते स नृकेसरी ||',
+          sanskrit: 'यं दृष्ट्वा न भयं तस्य यं श्रुत्वा च न संशयः । यं ज्ञात्वा सर्वदुःखानि नश्यन्ते स नृकेसरी ॥',
           transliteration: 'yaṃ dṛṣṭvā na bhayaṃ tasya yaṃ śrutvā ca na saṃśayaḥ | yaṃ jñātvā sarvadhuḥkhāni naśyante sa nṛkesarī ||',
           translation: 'One who sees Him has no fear; one who hears Him has no doubt; one who knows Him — all sorrows perish. He is Narasimha.',
           hindi: 'जिसे देखकर भय नहीं रहता; जिसे सुनकर सन्देह नहीं रहता; जिसे जानकर सभी दुख नष्ट होते हैं — वही नृकेसरी हैं।',
@@ -112,7 +112,7 @@ export const narasimhapuran: Scripture = {
         },
         {
           id: 35,
-          sanskrit: 'विप्रो वा श्वपचो वाऽपि यः कृष्णः सततं स्मरेत् | तं विद्याद्भागवतं श्रेष्ठं सर्वलोकेषु पूजितम् ||',
+          sanskrit: 'विप्रो वा श्वपचो वाऽपि यः कृष्णः सततं स्मरेत् । तं विद्याद्भागवतं श्रेष्ठं सर्वलोकेषु पूजितम् ॥',
           transliteration: 'vipro vā śvapaco vā\'pi yaḥ kṛṣṇaḥ satataṃ smaret | taṃ vidyādbhāgavataṃ śreṣṭhaṃ sarvalokeṣu pūjitam ||',
           translation: 'Whether a brahmin or a candala — whoever constantly remembers Krishna — know that one to be the greatest of devotees, honoured in all worlds.',
           hindi: 'चाहे ब्राह्मण हो या चाण्डाल — जो कृष्ण का सतत स्मरण करता है — उसे सर्वलोकों में पूजित श्रेष्ठ भागवत जानो।',
@@ -128,7 +128,7 @@ export const narasimhapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'न तत्र सूर्यो भाति न चन्द्रतारकं नेमा विद्युतो भान्ति कुतोऽयमग्निः | तमेव भान्तमनुभाति सर्वं तस्य भासा सर्वमिदं विभाति ||',
+          sanskrit: 'न तत्र सूर्यो भाति न चन्द्रतारकं नेमा विद्युतो भान्ति कुतोऽयमग्निः । तमेव भान्तमनुभाति सर्वं तस्य भासा सर्वमिदं विभाति ॥',
           transliteration: 'na tatra sūryo bhāti na candratārakaṃ nemā vidyuto bhānti kuto\'yamAgniḥ | tameva bhāntamanubhāti sarvaṃ tasya bhāsā sarvamidaṃ vibhāti ||',
           translation: 'The sun does not shine there, nor the moon and stars, nor lightning — what then of this fire? Everything shines after That shines — by That light, all this shines.',
           hindi: 'वहाँ सूर्य नहीं चमकता, न चन्द्रमा-तारे, न विद्युत — तो यह अग्नि क्या चमकेगी? वह शिनता है तो सब चमकते हैं — उसी के प्रकाश से यह सब चमकता है।',
@@ -139,7 +139,7 @@ export const narasimhapuran: Scripture = {
         },
         {
           id: 35,
-          sanskrit: 'विप्रो वा श्वपचो वाऽपि यः कृष्णः सततं स्मरेत् | तं विद्याद्भागवतं श्रेष्ठं सर्वलोकेषु पूजितम् ||',
+          sanskrit: 'विप्रो वा श्वपचो वाऽपि यः कृष्णः सततं स्मरेत् । तं विद्याद्भागवतं श्रेष्ठं सर्वलोकेषु पूजितम् ॥',
           transliteration: 'vipro vā śvapaco vā\'pi yaḥ kṛṣṇaḥ satataṃ smaret | taṃ vidyādbhāgavataṃ śreṣṭhaṃ sarvalokeṣu pūjitam ||',
           translation: 'Whether a brahmin or a candala — whoever constantly remembers Krishna — know that one to be the greatest of devotees, honoured in all worlds.',
           hindi: 'चाहे ब्राह्मण हो या चाण्डाल — जो कृष्ण का सतत स्मरण करता है — उसे सर्वलोकों में पूजित श्रेष्ठ भागवत जानो।',
@@ -151,7 +151,7 @@ export const narasimhapuran: Scripture = {
       
         {
           id: 2,
-          sanskrit: 'विप्रो वा श्वपचो वाऽपि यः कृष्णः सततं स्मरेत् | तं विद्याद्भागवतं श्रेष्ठं सर्वलोकेषु पूजितम् ||',
+          sanskrit: 'विप्रो वा श्वपचो वाऽपि यः कृष्णः सततं स्मरेत् । तं विद्याद्भागवतं श्रेष्ठं सर्वलोकेषु पूजितम् ॥',
           transliteration: 'vipro vā śvapaco vā\'pi yaḥ kṛṣṇaḥ satataṃ smaret | taṃ vidyādbhāgavataṃ śreṣṭhaṃ sarvalokeṣu pūjitam ||',
           translation: 'Whether a brahmin or a candala — whoever constantly remembers Krishna — know that one to be the greatest of devotees, honoured in all worlds.',
           hindi: 'चाहे ब्राह्मण हो या चाण्डाल — जो कृष्ण का सतत स्मरण करता है — उसे सर्वलोकों में पूजित श्रेष्ठ भागवत जानो।',
@@ -160,7 +160,7 @@ export const narasimhapuran: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'प्रह्लादं पुरतः कृत्वा क्रोधाविष्टः सुतं ततः | उवाच रुषितो राजा हिरण्यकशिपुः स्वयम् ||',
+          sanskrit: 'प्रह्लादं पुरतः कृत्वा क्रोधाविष्टः सुतं ततः । उवाच रुषितो राजा हिरण्यकशिपुः स्वयम् ॥',
           transliteration: 'prahlādaṃ purataḥ kṛtvā krodhāviṣṭaḥ sutaṃ tataḥ | uvāca ruṣito rājā hiraṇyakaśipuḥ svayam ||',
           translation: 'Placing Prahlada before him, filled with anger, the enraged king Hiranyakashipu himself spoke to his son.',
           hindi: 'प्रह्लाद को अपने सामने खड़ा करके, क्रोध से भरे हुए, क्रुद्ध राजा हिरण्यकशिपु स्वयं अपने पुत्र से बोला।',
@@ -169,7 +169,7 @@ export const narasimhapuran: Scripture = {
         },
         {
           id: 8,
-          sanskrit: 'उग्रं वीरं महाविष्णुं ज्वलन्तं सर्वतोमुखम् | नृसिंहं भीषणं भद्रं मृत्युमृत्युं नमाम्यहम् ||',
+          sanskrit: 'उग्रं वीरं महाविष्णुं ज्वलन्तं सर्वतोमुखम् । नृसिंहं भीषणं भद्रं मृत्युमृत्युं नमाम्यहम् ॥',
           transliteration: 'ugraṃ vīraṃ mahāviṣṇuṃ jvalantaṃ sarvatomukham | nṛsiṃhaṃ bhīṣaṇaṃ bhadraṃ mṛtyumṛtyuṃ namāmyaham ||',
           translation: 'Fierce, heroic, the great Vishnu — blazing, facing all directions — Narasimha, terrifying, auspicious, the death of death — I bow to Him.',
           hindi: 'उग्र, वीर, महाविष्णु — ज्वलन्त, सर्वतोमुख — नृसिंह, भीषण, भद्र, मृत्यु के मृत्यु — मैं नमस्कार करता हूँ।',
@@ -178,7 +178,7 @@ export const narasimhapuran: Scripture = {
         },
         {
           id: 12,
-          sanskrit: 'नैतदद्भुतमेव त्वं हिरण्यकशिपोः सुत | प्रह्लादात्तव किं क्षुद्रं पापं वा साधु वा कृतम् ||',
+          sanskrit: 'नैतदद्भुतमेव त्वं हिरण्यकशिपोः सुत । प्रह्लादात्तव किं क्षुद्रं पापं वा साधु वा कृतम् ॥',
           transliteration: 'naitadadbhutameva tvaṃ hiraṇyakaśipoḥ suta | prahlādātta kiṃ kṣudraṃ pāpaṃ vā sādhu vā kṛtam ||',
           translation: 'This is not at all surprising in you, O son of Hiranyakashipu. For what small sin or good deed is not done by Prahlada?',
           hindi: 'हे हिरण्यकशिपु के पुत्र! तुममें यह कुछ भी आश्चर्यजनक नहीं है। क्योंकि प्रह्लाद द्वारा कौन-सा छोटा पाप या साधु कार्य नहीं किया जाता?',
@@ -187,7 +187,7 @@ export const narasimhapuran: Scripture = {
         },
         {
           id: 18,
-          sanskrit: 'त्वं मां योजय दुर्जयेन दुष्टभावेन मानद | दम्भेन च महाराज दानवानां कुलक्षये ||',
+          sanskrit: 'त्वं मां योजय दुर्जयेन दुष्टभावेन मानद । दम्भेन च महाराज दानवानां कुलक्षये ॥',
           transliteration: 'tvaṃ māṃ yojaya durjayena duṣṭabhāvena mānada | dambhena ca mahārāja dānavānāṃ kulakṣaye ||',
           translation: 'O pride-giver, unite me with that which is difficult to conquer — with evil-mindedness and with pride, O great king, which lead to the destruction of the demon race.',
           hindi: 'हे मान-दाता! मुझे उस दुर्जय (दुष्टभावना) और दम्भ से मिला दो, हे महाराज! जो दानवों के कुल के क्षय का कारण है।',
@@ -196,7 +196,7 @@ export const narasimhapuran: Scripture = {
         },
         {
           id: 22,
-          sanskrit: 'यं दृष्ट्वा न भयं तस्य यं श्रुत्वा च न संशयः | यं ज्ञात्वा सर्वदुःखानि नश्यन्ते स नृकेसरी ||',
+          sanskrit: 'यं दृष्ट्वा न भयं तस्य यं श्रुत्वा च न संशयः । यं ज्ञात्वा सर्वदुःखानि नश्यन्ते स नृकेसरी ॥',
           transliteration: 'yaṃ dṛṣṭvā na bhayaṃ tasya yaṃ śrutvā ca na saṃśayaḥ | yaṃ jñātvā sarvadhuḥkhāni naśyante sa nṛkesarī ||',
           translation: 'One who sees Him has no fear; one who hears Him has no doubt; one who knows Him — all sorrows perish. He is Narasimha.',
           hindi: 'जिसे देखकर भय नहीं रहता; जिसे सुनकर सन्देह नहीं रहता; जिसे जानकर सभी दुख नष्ट होते हैं — वही नृकेसरी हैं।',
@@ -212,7 +212,7 @@ export const narasimhapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'नृसिंहः पूर्वतो मां पायात् वायव्यां नरकेसरी | प्रतीच्यां पातु वाराहो याम्यां पातु जनार्दनः ||',
+          sanskrit: 'नृसिंहः पूर्वतो मां पायात् वायव्यां नरकेसरी । प्रतीच्यां पातु वाराहो याम्यां पातु जनार्दनः ॥',
           transliteration: 'nṛsiṃhaḥ pūrvato māṃ pāyāt vāyavyāṃ narakesarī | pratīcyāṃ pātu vārāho yāmyāṃ pātu janārdanaḥ ||',
           translation: 'May Narasimha protect me from the East; in the Northwest, the man-lion; in the West, Varaha; in the South, Janardana.',
           hindi: 'पूर्व दिशा में नृसिंह मेरी रक्षा करें; वायव्य में नरकेसरी; पश्चिम में वाराह; दक्षिण में जनार्दन।',
@@ -223,7 +223,7 @@ export const narasimhapuran: Scripture = {
         },
         {
           id: 18,
-          sanskrit: 'सर्वतः पाणिपादं तत्सर्वतोऽक्षिशिरोमुखम् | सर्वतः श्रुतिमल्लोके सर्वमावृत्य तिष्ठति ||',
+          sanskrit: 'सर्वतः पाणिपादं तत्सर्वतोऽक्षिशिरोमुखम् । सर्वतः श्रुतिमल्लोके सर्वमावृत्य तिष्ठति ॥',
           transliteration: 'sarvataḥ pāṇipādaṃ tatsarvato\'kṣiśiromukham | sarvataḥ śrutiMalloke sarvamāvṛtya tiṣṭhati ||',
           translation: 'With hands and feet everywhere, eyes, heads and faces everywhere, with ears everywhere in the world — it stands pervading everything.',
           hindi: 'सब ओर हाथ-पैर वाला, सब ओर आँख-सिर-मुख वाला, सब ओर कान वाला — वह सब कुछ आवृत्त करके स्थित है।',
@@ -235,7 +235,7 @@ export const narasimhapuran: Scripture = {
       
         {
           id: 2,
-          sanskrit: 'सर्वतः पाणिपादं तत्सर्वतोऽक्षिशिरोमुखम् | सर्वतः श्रुतिमल्लोके सर्वमावृत्य तिष्ठति ||',
+          sanskrit: 'सर्वतः पाणिपादं तत्सर्वतोऽक्षिशिरोमुखम् । सर्वतः श्रुतिमल्लोके सर्वमावृत्य तिष्ठति ॥',
           transliteration: 'sarvataḥ pāṇipādaṃ tatsarvato\'kṣiśiromukham | sarvataḥ śrutiMalloke sarvamāvṛtya tiṣṭhati ||',
           translation: 'With hands and feet everywhere, eyes, heads and faces everywhere, with ears everywhere in the world — it stands pervading everything.',
           hindi: 'सब ओर हाथ-पैर वाला, सब ओर आँख-सिर-मुख वाला, सब ओर कान वाला — वह सब कुछ आवृत्त करके स्थित है।',
@@ -244,7 +244,7 @@ export const narasimhapuran: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'प्रह्लादं पुरतः कृत्वा क्रोधाविष्टः सुतं ततः | उवाच रुषितो राजा हिरण्यकशिपुः स्वयम् ||',
+          sanskrit: 'प्रह्लादं पुरतः कृत्वा क्रोधाविष्टः सुतं ततः । उवाच रुषितो राजा हिरण्यकशिपुः स्वयम् ॥',
           transliteration: 'prahlādaṃ purataḥ kṛtvā krodhāviṣṭaḥ sutaṃ tataḥ | uvāca ruṣito rājā hiraṇyakaśipuḥ svayam ||',
           translation: 'Placing Prahlada before him, filled with anger, the enraged king Hiranyakashipu himself spoke to his son.',
           hindi: 'प्रह्लाद को अपने सामने खड़ा करके, क्रोध से भरे हुए, क्रुद्ध राजा हिरण्यकशिपु स्वयं अपने पुत्र से बोला।',
@@ -253,7 +253,7 @@ export const narasimhapuran: Scripture = {
         },
         {
           id: 8,
-          sanskrit: 'उग्रं वीरं महाविष्णुं ज्वलन्तं सर्वतोमुखम् | नृसिंहं भीषणं भद्रं मृत्युमृत्युं नमाम्यहम् ||',
+          sanskrit: 'उग्रं वीरं महाविष्णुं ज्वलन्तं सर्वतोमुखम् । नृसिंहं भीषणं भद्रं मृत्युमृत्युं नमाम्यहम् ॥',
           transliteration: 'ugraṃ vīraṃ mahāviṣṇuṃ jvalantaṃ sarvatomukham | nṛsiṃhaṃ bhīṣaṇaṃ bhadraṃ mṛtyumṛtyuṃ namāmyaham ||',
           translation: 'Fierce, heroic, the great Vishnu — blazing, facing all directions — Narasimha, terrifying, auspicious, the death of death — I bow to Him.',
           hindi: 'उग्र, वीर, महाविष्णु — ज्वलन्त, सर्वतोमुख — नृसिंह, भीषण, भद्र, मृत्यु के मृत्यु — मैं नमस्कार करता हूँ।',
@@ -262,7 +262,7 @@ export const narasimhapuran: Scripture = {
         },
         {
           id: 12,
-          sanskrit: 'नैतदद्भुतमेव त्वं हिरण्यकशिपोः सुत | प्रह्लादात्तव किं क्षुद्रं पापं वा साधु वा कृतम् ||',
+          sanskrit: 'नैतदद्भुतमेव त्वं हिरण्यकशिपोः सुत । प्रह्लादात्तव किं क्षुद्रं पापं वा साधु वा कृतम् ॥',
           transliteration: 'naitadadbhutameva tvaṃ hiraṇyakaśipoḥ suta | prahlādātta kiṃ kṣudraṃ pāpaṃ vā sādhu vā kṛtam ||',
           translation: 'This is not at all surprising in you, O son of Hiranyakashipu. For what small sin or good deed is not done by Prahlada?',
           hindi: 'हे हिरण्यकशिपु के पुत्र! तुममें यह कुछ भी आश्चर्यजनक नहीं है। क्योंकि प्रह्लाद द्वारा कौन-सा छोटा पाप या साधु कार्य नहीं किया जाता?',
@@ -271,7 +271,7 @@ export const narasimhapuran: Scripture = {
         },
         {
           id: 22,
-          sanskrit: 'यं दृष्ट्वा न भयं तस्य यं श्रुत्वा च न संशयः | यं ज्ञात्वा सर्वदुःखानि नश्यन्ते स नृकेसरी ||',
+          sanskrit: 'यं दृष्ट्वा न भयं तस्य यं श्रुत्वा च न संशयः । यं ज्ञात्वा सर्वदुःखानि नश्यन्ते स नृकेसरी ॥',
           transliteration: 'yaṃ dṛṣṭvā na bhayaṃ tasya yaṃ śrutvā ca na saṃśayaḥ | yaṃ jñātvā sarvadhuḥkhāni naśyante sa nṛkesarī ||',
           translation: 'One who sees Him has no fear; one who hears Him has no doubt; one who knows Him — all sorrows perish. He is Narasimha.',
           hindi: 'जिसे देखकर भय नहीं रहता; जिसे सुनकर सन्देह नहीं रहता; जिसे जानकर सभी दुख नष्ट होते हैं — वही नृकेसरी हैं।',
@@ -287,7 +287,7 @@ export const narasimhapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'अभयं सर्वभूतेभ्यो दत्त्वा यः स्मरते हरिम् | स मुक्तो भवति क्षिप्रं नात्र कार्या विचारणा ||',
+          sanskrit: 'अभयं सर्वभूतेभ्यो दत्त्वा यः स्मरते हरिम् । स मुक्तो भवति क्षिप्रं नात्र कार्या विचारणा ॥',
           transliteration: 'abhayaṃ sarvabhūtebhyo dattvā yaḥ smarate harim | sa mukto bhavati kṣipraṃ nātra kāryā vicāraṇā ||',
           translation: 'One who grants fearlessness to all beings and remembers Hari — that one is quickly liberated. No deliberation need be made about this.',
           hindi: 'जो सभी प्राणियों को अभय देकर हरि का स्मरण करता है — वह शीघ्र मुक्त हो जाता है। इसमें कोई विचार करने की आवश्यकता नहीं।',
@@ -298,7 +298,7 @@ export const narasimhapuran: Scripture = {
         },
         {
           id: 22,
-          sanskrit: 'यं दृष्ट्वा न भयं तस्य यं श्रुत्वा च न संशयः | यं ज्ञात्वा सर्वदुःखानि नश्यन्ते स नृकेसरी ||',
+          sanskrit: 'यं दृष्ट्वा न भयं तस्य यं श्रुत्वा च न संशयः । यं ज्ञात्वा सर्वदुःखानि नश्यन्ते स नृकेसरी ॥',
           transliteration: 'yaṃ dṛṣṭvā na bhayaṃ tasya yaṃ śrutvā ca na saṃśayaḥ | yaṃ jñātvā sarvadhuḥkhāni naśyante sa nṛkesarī ||',
           translation: 'One who sees Him has no fear; one who hears Him has no doubt; one who knows Him — all sorrows perish. He is Narasimha.',
           hindi: 'जिसे देखकर भय नहीं रहता; जिसे सुनकर सन्देह नहीं रहता; जिसे जानकर सभी दुख नष्ट होते हैं — वही नृकेसरी हैं।',
@@ -310,7 +310,7 @@ export const narasimhapuran: Scripture = {
       
         {
           id: 2,
-          sanskrit: 'यं दृष्ट्वा न भयं तस्य यं श्रुत्वा च न संशयः | यं ज्ञात्वा सर्वदुःखानि नश्यन्ते स नृकेसरी ||',
+          sanskrit: 'यं दृष्ट्वा न भयं तस्य यं श्रुत्वा च न संशयः । यं ज्ञात्वा सर्वदुःखानि नश्यन्ते स नृकेसरी ॥',
           transliteration: 'yaṃ dṛṣṭvā na bhayaṃ tasya yaṃ śrutvā ca na saṃśayaḥ | yaṃ jñātvā sarvadhuḥkhāni naśyante sa nṛkesarī ||',
           translation: 'One who sees Him has no fear; one who hears Him has no doubt; one who knows Him — all sorrows perish. He is Narasimha.',
           hindi: 'जिसे देखकर भय नहीं रहता; जिसे सुनकर सन्देह नहीं रहता; जिसे जानकर सभी दुख नष्ट होते हैं — वही नृकेसरी हैं।',
@@ -319,7 +319,7 @@ export const narasimhapuran: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'प्रह्लादं पुरतः कृत्वा क्रोधाविष्टः सुतं ततः | उवाच रुषितो राजा हिरण्यकशिपुः स्वयम् ||',
+          sanskrit: 'प्रह्लादं पुरतः कृत्वा क्रोधाविष्टः सुतं ततः । उवाच रुषितो राजा हिरण्यकशिपुः स्वयम् ॥',
           transliteration: 'prahlādaṃ purataḥ kṛtvā krodhāviṣṭaḥ sutaṃ tataḥ | uvāca ruṣito rājā hiraṇyakaśipuḥ svayam ||',
           translation: 'Placing Prahlada before him, filled with anger, the enraged king Hiranyakashipu himself spoke to his son.',
           hindi: 'प्रह्लाद को अपने सामने खड़ा करके, क्रोध से भरे हुए, क्रुद्ध राजा हिरण्यकशिपु स्वयं अपने पुत्र से बोला।',
@@ -328,7 +328,7 @@ export const narasimhapuran: Scripture = {
         },
         {
           id: 8,
-          sanskrit: 'उग्रं वीरं महाविष्णुं ज्वलन्तं सर्वतोमुखम् | नृसिंहं भीषणं भद्रं मृत्युमृत्युं नमाम्यहम् ||',
+          sanskrit: 'उग्रं वीरं महाविष्णुं ज्वलन्तं सर्वतोमुखम् । नृसिंहं भीषणं भद्रं मृत्युमृत्युं नमाम्यहम् ॥',
           transliteration: 'ugraṃ vīraṃ mahāviṣṇuṃ jvalantaṃ sarvatomukham | nṛsiṃhaṃ bhīṣaṇaṃ bhadraṃ mṛtyumṛtyuṃ namāmyaham ||',
           translation: 'Fierce, heroic, the great Vishnu — blazing, facing all directions — Narasimha, terrifying, auspicious, the death of death — I bow to Him.',
           hindi: 'उग्र, वीर, महाविष्णु — ज्वलन्त, सर्वतोमुख — नृसिंह, भीषण, भद्र, मृत्यु के मृत्यु — मैं नमस्कार करता हूँ।',

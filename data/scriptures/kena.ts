@@ -20,7 +20,7 @@ export const kena: Scripture = {
         {
           id: 1,
           sanskrit:
-            'केनेषितं पतति प्रेषितं मनः केन प्राणः प्रथमः प्रैति युक्तः | केनेषितां वाचमिमां वदन्ति चक्षुः श्रोत्रं क उ देवो युनक्ति ||',
+            'केनेषितं पतति प्रेषितं मनः केन प्राणः प्रथमः प्रैति युक्तः । केनेषितां वाचमिमां वदन्ति चक्षुः श्रोत्रं क उ देवो युनक्ति ॥',
           transliteration:
             'keneṣitaṃ patati preṣitaṃ manaḥ kena prāṇaḥ prathamaḥ praiti yuktaḥ | keneṣitāṃ vācamimāṃ vadanti cakṣuḥ śrotraṃ ka u devo yunakti ||',
           translation:
@@ -38,7 +38,7 @@ export const kena: Scripture = {
         {
           id: 2,
           sanskrit:
-            'श्रोत्रस्य श्रोत्रं मनसो मनो यद्वाचो ह वाचं स उ प्राणस्य प्राणः | चक्षुषश्चक्षुरतिमुच्य धीराः प्रेत्यास्माल्लोकादमृता भवन्ति ||',
+            'श्रोत्रस्य श्रोत्रं मनसो मनो यद्वाचो ह वाचं स उ प्राणस्य प्राणः । चक्षुषश्चक्षुरतिमुच्य धीराः प्रेत्यास्माल्लोकादमृता भवन्ति ॥',
           transliteration:
             'śrotrasya śrotraṃ manaso mano yadvāco ha vācaṃ sa u prāṇasya prāṇaḥ | cakṣuṣaścakṣuratimucya dhīrāḥ pretyāsmāllokādamṛtā bhavanti ||',
           translation:
@@ -56,7 +56,7 @@ export const kena: Scripture = {
         {
           id: 3,
           sanskrit:
-            'न तत्र चक्षुर्गच्छति न वाग्गच्छति नो मनः | न विद्मो न विजानीमो यथैतदनुशिष्यात् ||',
+            'न तत्र चक्षुर्गच्छति न वाग्गच्छति नो मनः । न विद्मो न विजानीमो यथैतदनुशिष्यात् ॥',
           transliteration:
             'na tatra cakṣurgacchati na vāggacchati no manaḥ | na vidmo na vijānīmo yathaitadanuśiṣyāt ||',
           translation:
@@ -74,7 +74,7 @@ export const kena: Scripture = {
         {
           id: 4,
           sanskrit:
-            'अन्यदेव तद्विदितादथो अविदितादधि | इति शुश्रुम पूर्वेषां ये नस्तद्व्याचचक्षिरे ||',
+            'अन्यदेव तद्विदितादथो अविदितादधि । इति शुश्रुम पूर्वेषां ये नस्तद्व्याचचक्षिरे ॥',
           transliteration:
             'anyadeva tadviditādatho aviditādadhi | iti śuśruma pūrveṣāṃ ye nastadvyācacakṣire ||',
           translation:
@@ -92,7 +92,7 @@ export const kena: Scripture = {
         {
           id: 5,
           sanskrit:
-            "यद्वाचानभ्युदितं येन वागभ्युद्यते | तदेव ब्रह्म त्वं विद्धि नेदं यदिदमुपासते ||",
+            "यद्वाचानभ्युदितं येन वागभ्युद्यते । तदेव ब्रह्म त्वं विद्धि नेदं यदिदमुपासते ॥",
           transliteration:
             "yadvācānabhyuditaṃ yena vāgabhyudyate | tadeva brahma tvaṃ viddhi nedaṃ yadidamupāsate ||",
           translation:
@@ -110,7 +110,7 @@ export const kena: Scripture = {
         {
           id: 6,
           sanskrit:
-            "यन्मनसा न मनुते येनाहुर्मनो मतम् | तदेव ब्रह्म त्वं विद्धि नेदं यदिदमुपासते ||",
+            "यन्मनसा न मनुते येनाहुर्मनो मतम् । तदेव ब्रह्म त्वं विद्धि नेदं यदिदमुपासते ॥",
           transliteration:
             "yanmanasā na manute yenāhurmano matam | tadeva brahma tvaṃ viddhi nedaṃ yadidamupāsate ||",
           translation:
@@ -128,7 +128,7 @@ export const kena: Scripture = {
         {
           id: 7,
           sanskrit:
-            "यच्चक्षुषा न पश्यति येन चक्षूंषि पश्यति | तदेव ब्रह्म त्वं विद्धि नेदं यदिदमुपासते ||",
+            "यच्चक्षुषा न पश्यति येन चक्षूंषि पश्यति । तदेव ब्रह्म त्वं विद्धि नेदं यदिदमुपासते ॥",
           transliteration:
             "yaccakṣuṣā na paśyati yena cakṣūṃṣi paśyati | tadeva brahma tvaṃ viddhi nedaṃ yadidamupāsate ||",
           translation:
@@ -146,7 +146,7 @@ export const kena: Scripture = {
         {
           id: 8,
           sanskrit:
-            "यच्छ्रोत्रेण न शृणोति येन श्रोत्रमिदं श्रुतम् | तदेव ब्रह्म त्वं विद्धि नेदं यदिदमुपासते ||",
+            "यच्छ्रोत्रेण न शृणोति येन श्रोत्रमिदं श्रुतम् । तदेव ब्रह्म त्वं विद्धि नेदं यदिदमुपासते ॥",
           transliteration:
             "yacchrotreṇa na śṛṇoti yena śrotramidaṃ śrutam | tadeva brahma tvaṃ viddhi nedaṃ yadidamupāsate ||",
           translation:
@@ -164,7 +164,7 @@ export const kena: Scripture = {
         {
           id: 9,
           sanskrit:
-            "यत्प्राणेन न प्राणिति येन प्राणः प्रणीयते | तदेव ब्रह्म त्वं विद्धि नेदं यदिदमुपासते ||",
+            "यत्प्राणेन न प्राणिति येन प्राणः प्रणीयते । तदेव ब्रह्म त्वं विद्धि नेदं यदिदमुपासते ॥",
           transliteration:
             "yatprāṇena na prāṇiti yena prāṇaḥ praṇīyate | tadeva brahma tvaṃ viddhi nedaṃ yadidamupāsate ||",
           translation:
@@ -191,7 +191,7 @@ export const kena: Scripture = {
         {
           id: 10,
           sanskrit:
-            "यदि मन्यसे सुवेदेति दहरमेवापि नूनं त्वं वेत्थ ब्रह्मणो रूपम् | यदस्य त्वं यदस्य देवेष्वथ नु मीमांस्यमेव ते मन्ये विदितम् ||",
+            "यदि मन्यसे सुवेदेति दहरमेवापि नूनं त्वं वेत्थ ब्रह्मणो रूपम् । यदस्य त्वं यदस्य देवेष्वथ नु मीमांस्यमेव ते मन्ये विदितम् ॥",
           transliteration:
             "yadi manyase suvedeti daharamevāpi nūnaṃ tvaṃ vettha brahmaṇo rūpam | yadasya tvaṃ yadasya deveṣvatha nu mīmāṃsyameva te manye viditam ||",
           translation:
@@ -209,7 +209,7 @@ export const kena: Scripture = {
         {
           id: 11,
           sanskrit:
-            "नाहं मन्ये सुवेदेति नो न वेदेति वेद च | यो नस्तद्वेद तद्वेद नो न वेदेति वेद च ||",
+            "नाहं मन्ये सुवेदेति नो न वेदेति वेद च । यो नस्तद्वेद तद्वेद नो न वेदेति वेद च ॥",
           transliteration:
             "nāhaṃ manye suvedeti no na vedeti veda ca | yo nastadveda tadveda no na vedeti veda ca ||",
           translation:
@@ -227,7 +227,7 @@ export const kena: Scripture = {
         {
           id: 12,
           sanskrit:
-            'यस्यामतं तस्य मतं मतं यस्य न वेद सः | अविज्ञातं विजानतां विज्ञातमविजानताम् ||',
+            'यस्यामतं तस्य मतं मतं यस्य न वेद सः । अविज्ञातं विजानतां विज्ञातमविजानताम् ॥',
           transliteration:
             'yasyāmataṃ tasya mataṃ mataṃ yasya na veda saḥ | avijñātaṃ vijānatāṃ vijñātamavijānatām ||',
           translation:
@@ -245,7 +245,7 @@ export const kena: Scripture = {
         {
           id: 13,
           sanskrit:
-            "प्रतिबोधविदितं मतममृतत्वं हि विन्दते | आत्मना विन्दते वीर्यं विद्यया विन्दतेऽमृतम् ||",
+            "प्रतिबोधविदितं मतममृतत्वं हि विन्दते । आत्मना विन्दते वीर्यं विद्यया विन्दतेऽमृतम् ॥",
           transliteration:
             "pratibodhaviditaṃ matamamṛtatvaṃ hi vindate | ātmanā vindate vīryaṃ vidyayā vindate'mṛtam ||",
           translation:
@@ -263,7 +263,7 @@ export const kena: Scripture = {
         {
           id: 14,
           sanskrit:
-            "इह चेदवेदीदथ सत्यमस्ति न चेदिहावेदीन्महती विनष्टिः | भूतेषु भूतेषु विचित्य धीराः प्रेत्यास्माल्लोकादमृता भवन्ति ||",
+            "इह चेदवेदीदथ सत्यमस्ति न चेदिहावेदीन्महती विनष्टिः । भूतेषु भूतेषु विचित्य धीराः प्रेत्यास्माल्लोकादमृता भवन्ति ॥",
           transliteration:
             "iha cedavedīdatha satyamasti na cedihāvedīnmahatī vinaṣṭiḥ | bhūteṣu bhūteṣu vicitya dhīrāḥ pretyāsmāllokādamṛtā bhavanti ||",
           translation:
@@ -281,7 +281,7 @@ export const kena: Scripture = {
       
         {
           id: 1,
-          sanskrit: 'यदि मन्यसे सुवेदेति दहरमेवापि नूनं त्वं वेत्थ ब्रह्मणो रूपम् | यदस्य त्वं यदस्य देवेष्वथ नु मीमांस्यमेव ते मन्ये विदितम् ||',
+          sanskrit: 'यदि मन्यसे सुवेदेति दहरमेवापि नूनं त्वं वेत्थ ब्रह्मणो रूपम् । यदस्य त्वं यदस्य देवेष्वथ नु मीमांस्यमेव ते मन्ये विदितम् ॥',
           transliteration: 'yadi manyase suvedeti daharamevāpi nūnaṃ tvaṃ vettha brahmaṇo rūpam | yadasya tvaṃ yadasya deveṣvatha nu mīmāṃsyameva te manye viditam ||',
           translation: '(Teacher to student:) If you think you know Brahman well, in truth you know only a fragment of its form, whether of it in yourself or in the gods. Therefore Brahman is still to be inquired into by you. (Student:) I think I know it.',
           hindi: '(आचार्य कहता है:) यदि तू सोचता है कि मैं ब्रह्म को अच्छी तरह जानता हूँ, तो वास्तव में तू उसके स्वरूप का अल्प भाग ही जानता है — चाहे अपने में, चाहे देवों में। अतः तुझे और विचार करना चाहिए। (शिष्य:) मैं समझता हूँ कि मैंने जान लिया।',
@@ -290,7 +290,7 @@ export const kena: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'नाहं मन्ये सुवेदेति नो न वेदेति वेद च | यो नस्तद्वेद तद्वेद नो न वेदेति वेद च ||',
+          sanskrit: 'नाहं मन्ये सुवेदेति नो न वेदेति वेद च । यो नस्तद्वेद तद्वेद नो न वेदेति वेद च ॥',
           transliteration: 'nāhaṃ manye suvedeti no na vedeti veda ca | yo nastadveda tadveda no na vedeti veda ca ||',
           translation: '(The student, matured:) I do not think I know it well; nor do I think I do not know it. He among us who knows it, knows it — and knows that he does not "not-know" it.',
           hindi: '(शिष्य, परिपक्व होकर:) मैं यह नहीं मानता कि मैंने उसे अच्छी तरह जान लिया, न ही यह कि मैं नहीं जानता। हममें से जो उसे जानता है, वह उसे जानता है, और यह भी जानता है कि वह "नहीं जानता" — ऐसा भी नहीं है।',
@@ -299,7 +299,7 @@ export const kena: Scripture = {
         },
         {
           id: 3,
-          sanskrit: 'यस्यामतं तस्य मतं मतं यस्य न वेद सः | अविज्ञातं विजानतां विज्ञातमविजानताम् ||',
+          sanskrit: 'यस्यामतं तस्य मतं मतं यस्य न वेद सः । अविज्ञातं विजानतां विज्ञातमविजानताम् ॥',
           transliteration: 'yasyāmataṃ tasya mataṃ mataṃ yasya na veda saḥ | avijñātaṃ vijānatāṃ vijñātamavijānatām ||',
           translation: 'He who thinks he does not know — knows. He who thinks he knows — does not know. It is unknown to those who know, and known to those who do not know.',
           hindi: 'जिसे लगता है कि मैंने नहीं जाना, उसने जान लिया है। जिसे लगता है कि मैंने जान लिया, उसने नहीं जाना। ज्ञानियों के लिए वह अज्ञात है; अज्ञानियों के लिए वह ज्ञात है।',
@@ -308,7 +308,7 @@ export const kena: Scripture = {
         },
         {
           id: 4,
-          sanskrit: 'प्रतिबोधविदितं मतममृतत्वं हि विन्दते | आत्मना विन्दते वीर्यं विद्यया विन्दतेऽमृतम् ||',
+          sanskrit: 'प्रतिबोधविदितं मतममृतत्वं हि विन्दते । आत्मना विन्दते वीर्यं विद्यया विन्दतेऽमृतम् ॥',
           transliteration: 'pratibodhaviditaṃ matamamṛtatvaṃ hi vindate | ātmanā vindate vīryaṃ vidyayā vindate\'mṛtam ||',
           translation: 'It is known in every act of awareness — and that knowing is immortality. By the Self one finds strength; by knowledge one finds the immortal.',
           hindi: 'वह प्रतिबोध (हर बोध-क्षण) में जाना जाता है; वही ज्ञान अमरत्व देता है। आत्मा से ही बल मिलता है, विद्या से अमृत मिलता है।',
@@ -317,7 +317,7 @@ export const kena: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'इह चेदवेदीदथ सत्यमस्ति न चेदिहावेदीन्महती विनष्टिः | भूतेषु भूतेषु विचित्य धीराः प्रेत्यास्माल्लोकादमृता भवन्ति ||',
+          sanskrit: 'इह चेदवेदीदथ सत्यमस्ति न चेदिहावेदीन्महती विनष्टिः । भूतेषु भूतेषु विचित्य धीराः प्रेत्यास्माल्लोकादमृता भवन्ति ॥',
           transliteration: 'iha cedavedīdatha satyamasti na cedihāvedīnmahatī vinaṣṭiḥ | bhūteṣu bhūteṣu vicitya dhīrāḥ pretyāsmāllokādamṛtā bhavanti ||',
           translation: 'If one has realized it here, there is truth; if one has not realized it here, great is the loss. The wise, seeing it in being after being, depart from this world and become immortal.',
           hindi: 'यदि इस लोक में जान लिया, तब सत्य है; यदि यहाँ न जान सका, तो बड़ी हानि है। धीर पुरुष प्रत्येक प्राणी में इसे देखकर, इस लोक से जाकर अमर हो जाते हैं।',
@@ -335,7 +335,7 @@ export const kena: Scripture = {
         {
           id: 15,
           sanskrit:
-            'ब्रह्म ह देवेभ्यो विजिग्ये तस्य ह ब्रह्मणो विजये देवा अमहीयन्त | त ऐक्षन्तास्माकमेवायं विजयोऽस्माकमेवायं महिमेति ||',
+            'ब्रह्म ह देवेभ्यो विजिग्ये तस्य ह ब्रह्मणो विजये देवा अमहीयन्त । त ऐक्षन्तास्माकमेवायं विजयोऽस्माकमेवायं महिमेति ॥',
           transliteration:
             "brahma ha devebhyo vijigye tasya ha brahmaṇo vijaye devā amahīyanta | ta aikṣantāsmākamevāyaṃ vijayo'smākamevāyaṃ mahimeti ||",
           translation:
@@ -353,7 +353,7 @@ export const kena: Scripture = {
         {
           id: 16,
           sanskrit:
-            'तद्धैषां विजज्ञौ तेभ्यो ह प्रादुर्बभूव तन्न व्यजानत किमिदं यक्षमिति ||',
+            'तद्धैषां विजज्ञौ तेभ्यो ह प्रादुर्बभूव तन्न व्यजानत किमिदं यक्षमिति ॥',
           transliteration:
             'taddhaiṣāṃ vijajñau tebhyo ha prādurbabhūva tanna vyajānata kimidaṃ yakṣamiti ||',
           translation:
@@ -371,7 +371,7 @@ export const kena: Scripture = {
         {
           id: 17,
           sanskrit:
-            'तेऽग्निमब्रुवञ्जातवेद एतद्विजानीहि किमेतद्यक्षमिति तथेति ||',
+            'तेऽग्निमब्रुवञ्जातवेद एतद्विजानीहि किमेतद्यक्षमिति तथेति ॥',
           transliteration:
             "te'gnimabruvañjātaveda etadvijānīhi kimetadyakṣamiti tatheti ||",
           translation:
@@ -389,7 +389,7 @@ export const kena: Scripture = {
         {
           id: 18,
           sanskrit:
-            "तदभ्यद्रवत्तमभ्यवदत्कोऽसीत्यग्निर्वा अहमस्मीत्यब्रवीज्जातवेदा वा अहमस्मीति ||",
+            "तदभ्यद्रवत्तमभ्यवदत्कोऽसीत्यग्निर्वा अहमस्मीत्यब्रवीज्जातवेदा वा अहमस्मीति ॥",
           transliteration:
             "tadabhyadravattamabhyavadatko'sītyagnirvā ahamasmītyabravījjātavedā vā ahamasmīti ||",
           translation:
@@ -407,7 +407,7 @@ export const kena: Scripture = {
         {
           id: 19,
           sanskrit:
-            "तस्मिंस्त्वयि किं वीर्यमित्यपीदं सर्वं दहेयं यदिदं पृथिव्यामिति ||",
+            "तस्मिंस्त्वयि किं वीर्यमित्यपीदं सर्वं दहेयं यदिदं पृथिव्यामिति ॥",
           transliteration:
             "tasmiṃstvayi kiṃ vīryamityapīdaṃ sarvaṃ daheyaṃ yadidaṃ pṛthivyāmiti ||",
           translation:
@@ -425,7 +425,7 @@ export const kena: Scripture = {
         {
           id: 20,
           sanskrit:
-            "तस्मै तृणं निदधावेतद्दहेति | तदुपप्रेयाय सर्वजवेन तन्न शशाक दग्धुं स तत एव निववृते नैतदशकं विज्ञातुं यदेतद्यक्षमिति ||",
+            "तस्मै तृणं निदधावेतद्दहेति । तदुपप्रेयाय सर्वजवेन तन्न शशाक दग्धुं स तत एव निववृते नैतदशकं विज्ञातुं यदेतद्यक्षमिति ॥",
           transliteration:
             "tasmai tṛṇaṃ nidadhāvetaddaheti | tadupapreyāya sarvajavena tanna śaśāka dagdhuṃ sa tata eva nivavṛte naitadaśakaṃ vijñātuṃ yadetadyakṣamiti ||",
           translation:
@@ -443,7 +443,7 @@ export const kena: Scripture = {
         {
           id: 21,
           sanskrit:
-            'अथ वायुमब्रुवन्वायवेतद्विजानीहि किमेतद्यक्षमिति तथेति ||',
+            'अथ वायुमब्रुवन्वायवेतद्विजानीहि किमेतद्यक्षमिति तथेति ॥',
           transliteration:
             'atha vāyumabruvanvāyavetadvijānīhi kimetadyakṣamiti tatheti ||',
           translation:
@@ -461,7 +461,7 @@ export const kena: Scripture = {
         {
           id: 22,
           sanskrit:
-            "तदभ्यद्रवत्तमभ्यवदत्कोऽसीति वायुर्वा अहमस्मीत्यब्रवीन्मातरिश्वा वा अहमस्मीति ||",
+            "तदभ्यद्रवत्तमभ्यवदत्कोऽसीति वायुर्वा अहमस्मीत्यब्रवीन्मातरिश्वा वा अहमस्मीति ॥",
           transliteration:
             "tadabhyadravattamabhyavadatko'sīti vāyurvā ahamasmītyabravīnmātariśvā vā ahamasmīti ||",
           translation:
@@ -479,7 +479,7 @@ export const kena: Scripture = {
         {
           id: 23,
           sanskrit:
-            'तस्मिंस्त्वयि किं वीर्यमित्यपीदं सर्वमाददीय यदिदं पृथिव्यामिति ||',
+            'तस्मिंस्त्वयि किं वीर्यमित्यपीदं सर्वमाददीय यदिदं पृथिव्यामिति ॥',
           transliteration:
             'tasmiṃstvayi kiṃ vīryamityapīdaṃ sarvamādadīya yadidaṃ pṛthivyāmiti ||',
           translation:
@@ -497,7 +497,7 @@ export const kena: Scripture = {
         {
           id: 24,
           sanskrit:
-            "तस्मै तृणं निदधावेतदादत्स्वेति | तदुपप्रेयाय सर्वजवेन तन्न शशाकाऽऽदातुं स तत एव निववृते नैतदशकं विज्ञातुं यदेतद्यक्षमिति ||",
+            "तस्मै तृणं निदधावेतदादत्स्वेति । तदुपप्रेयाय सर्वजवेन तन्न शशाकाऽऽदातुं स तत एव निववृते नैतदशकं विज्ञातुं यदेतद्यक्षमिति ॥",
           transliteration:
             "tasmai tṛṇaṃ nidadhāvetadādatsveti | tadupapreyāya sarvajavena tanna śaśākā''dātuṃ sa tata eva nivavṛte naitadaśakaṃ vijñātuṃ yadetadyakṣamiti ||",
           translation:
@@ -515,7 +515,7 @@ export const kena: Scripture = {
         {
           id: 25,
           sanskrit:
-            'अथेन्द्रमब्रुवन्मघवन्नेतद्विजानीहि किमेतद्यक्षमिति तथेति तदभ्यद्रवत्तस्मात्तिरोदधे ||',
+            'अथेन्द्रमब्रुवन्मघवन्नेतद्विजानीहि किमेतद्यक्षमिति तथेति तदभ्यद्रवत्तस्मात्तिरोदधे ॥',
           transliteration:
             'athendramabruvanmaghavannetadvijānīhi kimetadyakṣamiti tatheti tadabhyadravattasmāttirodadhe ||',
           translation:
@@ -533,7 +533,7 @@ export const kena: Scripture = {
         {
           id: 26,
           sanskrit:
-            'स तस्मिन्नेवाकाशे स्त्रियमाजगाम बहुशोभमानामुमां हैमवतीं तां होवाच किमेतद्यक्षमिति ||',
+            'स तस्मिन्नेवाकाशे स्त्रियमाजगाम बहुशोभमानामुमां हैमवतीं तां होवाच किमेतद्यक्षमिति ॥',
           transliteration:
             'sa tasminnevākāśe striyamājagāma bahuśobhamānāmumāṃ haimavatīṃ tāṃ hovāca kimetadyakṣamiti ||',
           translation:
@@ -551,7 +551,7 @@ export const kena: Scripture = {
       
         {
           id: 1,
-          sanskrit: 'ब्रह्म ह देवेभ्यो विजिग्ये तस्य ह ब्रह्मणो विजये देवा अमहीयन्त | त ऐक्षन्तास्माकमेवायं विजयोऽस्माकमेवायं महिमेति ||',
+          sanskrit: 'ब्रह्म ह देवेभ्यो विजिग्ये तस्य ह ब्रह्मणो विजये देवा अमहीयन्त । त ऐक्षन्तास्माकमेवायं विजयोऽस्माकमेवायं महिमेति ॥',
           transliteration: 'brahma ha devebhyo vijigye tasya ha brahmaṇo vijaye devā amahīyanta | ta aikṣantāsmākamevāyaṃ vijayo\'smākamevāyaṃ mahimeti ||',
           translation: 'Brahman, it is said, won a victory for the gods. In that victory of Brahman the gods exulted. They thought: "Ours alone is this victory, ours alone is this glory."',
           hindi: 'कहा जाता है कि ब्रह्म ने देवताओं के लिए विजय प्राप्त की। उस विजय में देवता गर्व करने लगे। वे सोचने लगे — "यह विजय हमारी ही है, यह महिमा हमारी ही है।"',
@@ -560,7 +560,7 @@ export const kena: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'तद्धैषां विजज्ञौ तेभ्यो ह प्रादुर्बभूव तन्न व्यजानत किमिदं यक्षमिति ||',
+          sanskrit: 'तद्धैषां विजज्ञौ तेभ्यो ह प्रादुर्बभूव तन्न व्यजानत किमिदं यक्षमिति ॥',
           transliteration: 'taddhaiṣāṃ vijajñau tebhyo ha prādurbabhūva tanna vyajānata kimidaṃ yakṣamiti ||',
           translation: 'Brahman knew their thought, and appeared before them. But they did not recognize it: "What is this mysterious being (yakṣa)?"',
           hindi: 'ब्रह्म ने उनके इस विचार को जान लिया, और उनके सामने प्रकट हुआ। वे उसे पहचान न सके — "यह अद्भुत यक्ष कौन है?"',
@@ -569,7 +569,7 @@ export const kena: Scripture = {
         },
         {
           id: 3,
-          sanskrit: 'तेऽग्निमब्रुवञ्जातवेद एतद्विजानीहि किमेतद्यक्षमिति तथेति ||',
+          sanskrit: 'तेऽग्निमब्रुवञ्जातवेद एतद्विजानीहि किमेतद्यक्षमिति तथेति ॥',
           transliteration: 'te\'gnimabruvañjātaveda etadvijānīhi kimetadyakṣamiti tatheti ||',
           translation: 'They said to Agni: "Jātaveda (knower-of-all), find out what this yakṣa is." "So be it," he replied.',
           hindi: 'उन्होंने अग्नि से कहा — "हे जातवेद, पता लगा कि यह यक्ष क्या है।" "अच्छा," अग्नि ने उत्तर दिया।',
@@ -578,7 +578,7 @@ export const kena: Scripture = {
         },
         {
           id: 4,
-          sanskrit: 'तदभ्यद्रवत्तमभ्यवदत्कोऽसीत्यग्निर्वा अहमस्मीत्यब्रवीज्जातवेदा वा अहमस्मीति ||',
+          sanskrit: 'तदभ्यद्रवत्तमभ्यवदत्कोऽसीत्यग्निर्वा अहमस्मीत्यब्रवीज्जातवेदा वा अहमस्मीति ॥',
           transliteration: 'tadabhyadravattamabhyavadatko\'sītyagnirvā ahamasmītyabravījjātavedā vā ahamasmīti ||',
           translation: 'He approached the yakṣa. It said: "Who are you?" "I am Agni," he replied, "I am Jātaveda."',
           hindi: 'अग्नि उसके पास पहुँचा। यक्ष ने पूछा — "तुम कौन हो?" अग्नि ने कहा — "मैं अग्नि हूँ, मैं जातवेद हूँ।"',
@@ -587,7 +587,7 @@ export const kena: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'तस्मिंस्त्वयि किं वीर्यमित्यपीदं सर्वं दहेयं यदिदं पृथिव्यामिति ||',
+          sanskrit: 'तस्मिंस्त्वयि किं वीर्यमित्यपीदं सर्वं दहेयं यदिदं पृथिव्यामिति ॥',
           transliteration: 'tasmiṃstvayi kiṃ vīryamityapīdaṃ sarvaṃ daheyaṃ yadidaṃ pṛthivyāmiti ||',
           translation: '"What power is in you?" "I can burn up everything that is on this earth!"',
           hindi: '"तुझमें क्या शक्ति है?" "जो कुछ भी इस पृथ्वी पर है, मैं उसे जला सकता हूँ!"',
@@ -596,7 +596,7 @@ export const kena: Scripture = {
         },
         {
           id: 6,
-          sanskrit: 'तस्मै तृणं निदधावेतद्दहेति | तदुपप्रेयाय सर्वजवेन तन्न शशाक दग्धुं स तत एव निववृते नैतदशकं विज्ञातुं यदेतद्यक्षमिति ||',
+          sanskrit: 'तस्मै तृणं निदधावेतद्दहेति । तदुपप्रेयाय सर्वजवेन तन्न शशाक दग्धुं स तत एव निववृते नैतदशकं विज्ञातुं यदेतद्यक्षमिति ॥',
           transliteration: 'tasmai tṛṇaṃ nidadhāvetaddaheti | tadupapreyāya sarvajavena tanna śaśāka dagdhuṃ sa tata eva nivavṛte naitadaśakaṃ vijñātuṃ yadetadyakṣamiti ||',
           translation: 'The yakṣa placed a blade of grass before him: "Burn this." Agni rushed at it with all his speed but could not burn it. He returned, saying: "I could not find out what this yakṣa is."',
           hindi: 'यक्ष ने उसके सामने एक तृण रखा — "इसे जला।" अग्नि अपनी पूरी शक्ति से उस पर झपटा, परन्तु उसे जला न सका। वह लौट आया — "मैं नहीं जान सका कि यह यक्ष क्या है।"',
@@ -605,7 +605,7 @@ export const kena: Scripture = {
         },
         {
           id: 7,
-          sanskrit: 'अथ वायुमब्रुवन्वायवेतद्विजानीहि किमेतद्यक्षमिति तथेति ||',
+          sanskrit: 'अथ वायुमब्रुवन्वायवेतद्विजानीहि किमेतद्यक्षमिति तथेति ॥',
           transliteration: 'atha vāyumabruvanvāyavetadvijānīhi kimetadyakṣamiti tatheti ||',
           translation: 'Then they said to Vāyu (wind): "Vāyu, find out what this yakṣa is." "So be it," he replied.',
           hindi: 'फिर उन्होंने वायु से कहा — "वायु, पता लगा कि यह यक्ष क्या है।" "अच्छा," वायु ने उत्तर दिया।',
@@ -614,7 +614,7 @@ export const kena: Scripture = {
         },
         {
           id: 8,
-          sanskrit: 'तदभ्यद्रवत्तमभ्यवदत्कोऽसीति वायुर्वा अहमस्मीत्यब्रवीन्मातरिश्वा वा अहमस्मीति ||',
+          sanskrit: 'तदभ्यद्रवत्तमभ्यवदत्कोऽसीति वायुर्वा अहमस्मीत्यब्रवीन्मातरिश्वा वा अहमस्मीति ॥',
           transliteration: 'tadabhyadravattamabhyavadatko\'sīti vāyurvā ahamasmītyabravīnmātariśvā vā ahamasmīti ||',
           translation: 'He approached. The yakṣa said: "Who are you?" "I am Vāyu," he replied, "I am Mātariśvan."',
           hindi: 'वायु पास पहुँचा। यक्ष ने पूछा — "तुम कौन हो?" वायु ने कहा — "मैं वायु हूँ, मैं मातरिश्वा हूँ।"',
@@ -623,7 +623,7 @@ export const kena: Scripture = {
         },
         {
           id: 9,
-          sanskrit: 'तस्मिंस्त्वयि किं वीर्यमित्यपीदं सर्वमाददीय यदिदं पृथिव्यामिति ||',
+          sanskrit: 'तस्मिंस्त्वयि किं वीर्यमित्यपीदं सर्वमाददीय यदिदं पृथिव्यामिति ॥',
           transliteration: 'tasmiṃstvayi kiṃ vīryamityapīdaṃ sarvamādadīya yadidaṃ pṛthivyāmiti ||',
           translation: '"What power is in you?" "I can carry off everything that is on this earth!"',
           hindi: '"तुझमें क्या शक्ति है?" "जो कुछ भी इस पृथ्वी पर है, मैं उसे उठा ले जा सकता हूँ!"',
@@ -632,7 +632,7 @@ export const kena: Scripture = {
         },
         {
           id: 10,
-          sanskrit: 'तस्मै तृणं निदधावेतदादत्स्वेति | तदुपप्रेयाय सर्वजवेन तन्न शशाकाऽऽदातुं स तत एव निववृते नैतदशकं विज्ञातुं यदेतद्यक्षमिति ||',
+          sanskrit: 'तस्मै तृणं निदधावेतदादत्स्वेति । तदुपप्रेयाय सर्वजवेन तन्न शशाकाऽऽदातुं स तत एव निववृते नैतदशकं विज्ञातुं यदेतद्यक्षमिति ॥',
           transliteration: 'tasmai tṛṇaṃ nidadhāvetadādatsveti | tadupapreyāya sarvajavena tanna śaśākā\'\'dātuṃ sa tata eva nivavṛte naitadaśakaṃ vijñātuṃ yadetadyakṣamiti ||',
           translation: 'The yakṣa placed a blade of grass before him: "Take this away." He rushed at it with all his speed but could not move it. He returned: "I could not find out what this yakṣa is."',
           hindi: 'यक्ष ने उसके सामने एक तृण रखा — "इसे उठा ले जा।" वायु अपनी पूरी शक्ति से उस पर झपटा, परन्तु उसे हिला न सका। वह लौट आया — "मैं नहीं जान सका कि यह यक्ष क्या है।"',
@@ -641,7 +641,7 @@ export const kena: Scripture = {
         },
         {
           id: 11,
-          sanskrit: 'अथेन्द्रमब्रुवन्मघवन्नेतद्विजानीहि किमेतद्यक्षमिति तथेति तदभ्यद्रवत्तस्मात्तिरोदधे ||',
+          sanskrit: 'अथेन्द्रमब्रुवन्मघवन्नेतद्विजानीहि किमेतद्यक्षमिति तथेति तदभ्यद्रवत्तस्मात्तिरोदधे ॥',
           transliteration: 'athendramabruvanmaghavannetadvijānīhi kimetadyakṣamiti tatheti tadabhyadravattasmāttirodadhe ||',
           translation: 'Then they said to Indra: "Maghavan (mighty one), find out what this yakṣa is." "So be it," he replied. He approached — and the yakṣa vanished from him.',
           hindi: 'फिर उन्होंने इन्द्र से कहा — "हे मघवन्, पता लगा कि यह यक्ष क्या है।" "अच्छा," इन्द्र ने उत्तर दिया। वह पास पहुँचा — और यक्ष उसके सामने से अदृश्य हो गया।',
@@ -650,7 +650,7 @@ export const kena: Scripture = {
         },
         {
           id: 12,
-          sanskrit: 'स तस्मिन्नेवाकाशे स्त्रियमाजगाम बहुशोभमानामुमां हैमवतीं तां होवाच किमेतद्यक्षमिति ||',
+          sanskrit: 'स तस्मिन्नेवाकाशे स्त्रियमाजगाम बहुशोभमानामुमां हैमवतीं तां होवाच किमेतद्यक्षमिति ॥',
           transliteration: 'sa tasminnevākāśe striyamājagāma bahuśobhamānāmumāṃ haimavatīṃ tāṃ hovāca kimetadyakṣamiti ||',
           translation: 'In that same space he encountered a most radiant woman, Umā Haimavatī. He said to her: "What is this yakṣa?"',
           hindi: 'उसी आकाश में उसे एक अत्यन्त शोभायमान स्त्री मिली — उमा हैमवती। उसने उससे पूछा — "यह यक्ष क्या है?"',
@@ -668,7 +668,7 @@ export const kena: Scripture = {
         {
           id: 27,
           sanskrit:
-            "सा ब्रह्मेति होवाच ब्रह्मणो वा एतद्विजये महीयध्वमिति ततो हैव विदाञ्चकार ब्रह्मेति ||",
+            "सा ब्रह्मेति होवाच ब्रह्मणो वा एतद्विजये महीयध्वमिति ततो हैव विदाञ्चकार ब्रह्मेति ॥",
           transliteration:
             "sā brahmeti hovāca brahmaṇo vā etadvijaye mahīyadhvamiti tato haiva vidāñcakāra brahmeti ||",
           translation:
@@ -686,7 +686,7 @@ export const kena: Scripture = {
         {
           id: 28,
           sanskrit:
-            "तस्माद्वा एते देवा अतितरामिवान्यान्देवान्यदग्निर्वायुरिन्द्रस्ते ह्येनन्नेदिष्ठं पस्पर्शुस्ते ह्येनत्प्रथमो विदाञ्चकार ब्रह्मेति ||",
+            "तस्माद्वा एते देवा अतितरामिवान्यान्देवान्यदग्निर्वायुरिन्द्रस्ते ह्येनन्नेदिष्ठं पस्पर्शुस्ते ह्येनत्प्रथमो विदाञ्चकार ब्रह्मेति ॥",
           transliteration:
             "tasmādvā ete devā atitarāmivānyāndevānyadagnirvāyurindraste hyenannediṣṭhaṃ pasparśuste hyenatprathamo vidāñcakāra brahmeti ||",
           translation:
@@ -704,7 +704,7 @@ export const kena: Scripture = {
         {
           id: 29,
           sanskrit:
-            "तस्माद्वा इन्द्रोऽतितरामिवान्यान्देवान्स ह्येनन्नेदिष्ठं पस्पर्श स ह्येनत्प्रथमो विदाञ्चकार ब्रह्मेति ||",
+            "तस्माद्वा इन्द्रोऽतितरामिवान्यान्देवान्स ह्येनन्नेदिष्ठं पस्पर्श स ह्येनत्प्रथमो विदाञ्चकार ब्रह्मेति ॥",
           transliteration:
             "tasmādvā indro'titarāmivānyāndevānsa hyenannediṣṭhaṃ pasparśa sa hyenatprathamo vidāñcakāra brahmeti ||",
           translation:
@@ -722,7 +722,7 @@ export const kena: Scripture = {
         {
           id: 30,
           sanskrit:
-            'तस्यैष आदेशो यदेतद्विद्युतो व्यद्युतदा इतीन्न्यमीमिषदा इत्यधिदैवतम् ||',
+            'तस्यैष आदेशो यदेतद्विद्युतो व्यद्युतदा इतीन्न्यमीमिषदा इत्यधिदैवतम् ॥',
           transliteration:
             "tasyaiṣa ādeśo yadetadvidyuto vyadyutadā itīnnyamīmiṣadā ityadhidaivatam ||",
           translation:
@@ -740,7 +740,7 @@ export const kena: Scripture = {
         {
           id: 31,
           sanskrit:
-            "अथाध्यात्मं यदेतद्गच्छतीव च मनोऽनेन चैतदुपस्मरत्यभीक्ष्णं सङ्कल्पः ||",
+            "अथाध्यात्मं यदेतद्गच्छतीव च मनोऽनेन चैतदुपस्मरत्यभीक्ष्णं सङ्कल्पः ॥",
           transliteration:
             "athādhyātmaṃ yadetadgacchatīva ca mano'nena caitadupasmaratyabhīkṣṇaṃ saṅkalpaḥ ||",
           translation:
@@ -758,7 +758,7 @@ export const kena: Scripture = {
         {
           id: 32,
           sanskrit:
-            "तद्ध तद्वनं नाम तद्वनमित्युपासितव्यं स य एतदेवं वेदाभि हैनं सर्वाणि भूतानि संवाञ्छन्ति ||",
+            "तद्ध तद्वनं नाम तद्वनमित्युपासितव्यं स य एतदेवं वेदाभि हैनं सर्वाणि भूतानि संवाञ्छन्ति ॥",
           transliteration:
             "taddha tadvanaṃ nāma tadvanamityupāsitavyaṃ sa ya etadevaṃ vedābhi hainaṃ sarvāṇi bhūtāni saṃvāñchanti ||",
           translation:
@@ -776,7 +776,7 @@ export const kena: Scripture = {
         {
           id: 33,
           sanskrit:
-            "उपनिषदं भो ब्रूहीत्युक्ता त उपनिषद्ब्राह्मीं वाव त उपनिषदमब्रूमेति ||",
+            "उपनिषदं भो ब्रूहीत्युक्ता त उपनिषद्ब्राह्मीं वाव त उपनिषदमब्रूमेति ॥",
           transliteration:
             "upaniṣadaṃ bho brūhītyuktā ta upaniṣadbrāhmīṃ vāva ta upaniṣadamabrūmeti ||",
           translation:
@@ -794,7 +794,7 @@ export const kena: Scripture = {
         {
           id: 34,
           sanskrit:
-            "तस्यै तपो दमः कर्मेति प्रतिष्ठा वेदाः सर्वाङ्गानि सत्यमायतनम् ||",
+            "तस्यै तपो दमः कर्मेति प्रतिष्ठा वेदाः सर्वाङ्गानि सत्यमायतनम् ॥",
           transliteration:
             "tasyai tapo damaḥ karmeti pratiṣṭhā vedāḥ sarvāṅgāni satyamāyatanam ||",
           translation:
@@ -812,7 +812,7 @@ export const kena: Scripture = {
         {
           id: 35,
           sanskrit:
-            "यो वा एतामेवं वेदापहत्य पाप्मानमनन्ते स्वर्गे लोके ज्येष्ठे च प्रतितिष्ठति प्रतितिष्ठति ||",
+            "यो वा एतामेवं वेदापहत्य पाप्मानमनन्ते स्वर्गे लोके ज्येष्ठे च प्रतितिष्ठति प्रतितिष्ठति ॥",
           transliteration:
             "yo vā etāmevaṃ vedāpahatya pāpmānamanante svarge loke jyeṣṭhe ca pratitiṣṭhati pratitiṣṭhati ||",
           translation:
@@ -830,7 +830,7 @@ export const kena: Scripture = {
       
         {
           id: 1,
-          sanskrit: 'सा ब्रह्मेति होवाच ब्रह्मणो वा एतद्विजये महीयध्वमिति ततो हैव विदाञ्चकार ब्रह्मेति ||',
+          sanskrit: 'सा ब्रह्मेति होवाच ब्रह्मणो वा एतद्विजये महीयध्वमिति ततो हैव विदाञ्चकार ब्रह्मेति ॥',
           transliteration: 'sā brahmeti hovāca brahmaṇo vā etadvijaye mahīyadhvamiti tato haiva vidāñcakāra brahmeti ||',
           translation: 'She said: "That was Brahman. In the victory of Brahman, in truth, you exulted." Then alone Indra understood that it was Brahman.',
           hindi: 'उसने कहा — "वह ब्रह्म था। वास्तव में ब्रह्म की ही विजय में तुम लोग गर्व कर रहे थे।" तब इन्द्र ने जाना — "यह ब्रह्म है।"',
@@ -839,7 +839,7 @@ export const kena: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'तस्माद्वा एते देवा अतितरामिवान्यान्देवान्यदग्निर्वायुरिन्द्रस्ते ह्येनन्नेदिष्ठं पस्पर्शुस्ते ह्येनत्प्रथमो विदाञ्चकार ब्रह्मेति ||',
+          sanskrit: 'तस्माद्वा एते देवा अतितरामिवान्यान्देवान्यदग्निर्वायुरिन्द्रस्ते ह्येनन्नेदिष्ठं पस्पर्शुस्ते ह्येनत्प्रथमो विदाञ्चकार ब्रह्मेति ॥',
           transliteration: 'tasmādvā ete devā atitarāmivānyāndevānyadagnirvāyurindraste hyenannediṣṭhaṃ pasparśuste hyenatprathamo vidāñcakāra brahmeti ||',
           translation: 'Therefore these gods — Agni, Vāyu, and Indra — surpass the other gods, for they came nearest to Brahman; they first knew it as Brahman.',
           hindi: 'इसी कारण ये देवता — अग्नि, वायु, इन्द्र — अन्य देवताओं से श्रेष्ठ हैं, क्योंकि उन्होंने ब्रह्म को सबसे पहले छुआ; उन्होंने सबसे पहले जाना — "यह ब्रह्म है।"',
@@ -848,7 +848,7 @@ export const kena: Scripture = {
         },
         {
           id: 3,
-          sanskrit: 'तस्माद्वा इन्द्रोऽतितरामिवान्यान्देवान्स ह्येनन्नेदिष्ठं पस्पर्श स ह्येनत्प्रथमो विदाञ्चकार ब्रह्मेति ||',
+          sanskrit: 'तस्माद्वा इन्द्रोऽतितरामिवान्यान्देवान्स ह्येनन्नेदिष्ठं पस्पर्श स ह्येनत्प्रथमो विदाञ्चकार ब्रह्मेति ॥',
           transliteration: 'tasmādvā indro\'titarāmivānyāndevānsa hyenannediṣṭhaṃ pasparśa sa hyenatprathamo vidāñcakāra brahmeti ||',
           translation: 'Therefore Indra surpasses the other gods, for he came nearest to Brahman; he first knew it as Brahman.',
           hindi: 'इसीलिए इन्द्र अन्य देवताओं से श्रेष्ठ है, क्योंकि उसने ब्रह्म को सबसे निकट से छुआ; उसने सबसे पहले जाना — "यह ब्रह्म है।"',
@@ -857,7 +857,7 @@ export const kena: Scripture = {
         },
         {
           id: 4,
-          sanskrit: 'तस्यैष आदेशो यदेतद्विद्युतो व्यद्युतदा इतीन्न्यमीमिषदा इत्यधिदैवतम् ||',
+          sanskrit: 'तस्यैष आदेशो यदेतद्विद्युतो व्यद्युतदा इतीन्न्यमीमिषदा इत्यधिदैवतम् ॥',
           transliteration: 'tasyaiṣa ādeśo yadetadvidyuto vyadyutadā itīnnyamīmiṣadā ityadhidaivatam ||',
           translation: 'This is its instruction at the cosmic level: it is like the flash of lightning, like the blink of an eye — there and gone.',
           hindi: 'यह उसका (ब्रह्म का) कौस्मिक स्तर पर निर्देश है — जैसे विद्युत का चमकना, जैसे आँख का झपकना — प्रकट और तुरन्त लुप्त।',
@@ -866,7 +866,7 @@ export const kena: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'अथाध्यात्मं यदेतद्गच्छतीव च मनोऽनेन चैतदुपस्मरत्यभीक्ष्णं सङ्कल्पः ||',
+          sanskrit: 'अथाध्यात्मं यदेतद्गच्छतीव च मनोऽनेन चैतदुपस्मरत्यभीक्ष्णं सङ्कल्पः ॥',
           transliteration: 'athādhyātmaṃ yadetadgacchatīva ca mano\'nena caitadupasmaratyabhīkṣṇaṃ saṅkalpaḥ ||',
           translation: 'And at the personal level: it is that toward which the mind seems to go; that by which the mind continuously remembers — the deep intention (saṅkalpa).',
           hindi: 'और आत्म-स्तर पर: वह जिसकी ओर मन जाता-सा है, जिसके द्वारा मन लगातार स्मरण करता है — गहरा सङ्कल्प।',
@@ -875,7 +875,7 @@ export const kena: Scripture = {
         },
         {
           id: 6,
-          sanskrit: 'तद्ध तद्वनं नाम तद्वनमित्युपासितव्यं स य एतदेवं वेदाभि हैनं सर्वाणि भूतानि संवाञ्छन्ति ||',
+          sanskrit: 'तद्ध तद्वनं नाम तद्वनमित्युपासितव्यं स य एतदेवं वेदाभि हैनं सर्वाणि भूतानि संवाञ्छन्ति ॥',
           transliteration: 'taddha tadvanaṃ nāma tadvanamityupāsitavyaṃ sa ya etadevaṃ vedābhi hainaṃ sarvāṇi bhūtāni saṃvāñchanti ||',
           translation: 'It is called Tadvana — "the desired-of-all." It should be worshipped as Tadvana. He who knows it thus — all beings yearn toward him.',
           hindi: 'उसका नाम "तद्वन" (सबकी इच्छा-योग्य) है। इसी रूप में उसकी उपासना करनी चाहिए। जो इसे ऐसा जानता है, उसकी ओर सब प्राणी आकर्षित होते हैं।',
@@ -884,7 +884,7 @@ export const kena: Scripture = {
         },
         {
           id: 7,
-          sanskrit: 'उपनिषदं भो ब्रूहीत्युक्ता त उपनिषद्ब्राह्मीं वाव त उपनिषदमब्रूमेति ||',
+          sanskrit: 'उपनिषदं भो ब्रूहीत्युक्ता त उपनिषद्ब्राह्मीं वाव त उपनिषदमब्रूमेति ॥',
           transliteration: 'upaniṣadaṃ bho brūhītyuktā ta upaniṣadbrāhmīṃ vāva ta upaniṣadamabrūmeti ||',
           translation: '(Student:) "Sir, teach me the Upanishad." (Teacher:) "The Upanishad of Brahman has been told to you."',
           hindi: '(शिष्य:) "हे भगवन्, उपनिषद् कहिए।" (आचार्य:) "तुम्हें ब्रह्म-विद्या रूप उपनिषद् कह दी गई है।"',
@@ -893,7 +893,7 @@ export const kena: Scripture = {
         },
         {
           id: 8,
-          sanskrit: 'तस्यै तपो दमः कर्मेति प्रतिष्ठा वेदाः सर्वाङ्गानि सत्यमायतनम् ||',
+          sanskrit: 'तस्यै तपो दमः कर्मेति प्रतिष्ठा वेदाः सर्वाङ्गानि सत्यमायतनम् ॥',
           transliteration: 'tasyai tapo damaḥ karmeti pratiṣṭhā vedāḥ sarvāṅgāni satyamāyatanam ||',
           translation: 'Its foundations are: tapas (discipline), dama (self-restraint), karma (action). The Vedas are all its limbs. Truth is its abode.',
           hindi: 'उसकी प्रतिष्ठा हैं — तप, दम, और कर्म। वेद उसके सम्पूर्ण अंग हैं। सत्य उसका निवास-स्थान है।',
@@ -902,7 +902,7 @@ export const kena: Scripture = {
         },
         {
           id: 9,
-          sanskrit: 'यो वा एतामेवं वेदापहत्य पाप्मानमनन्ते स्वर्गे लोके ज्येष्ठे च प्रतितिष्ठति प्रतितिष्ठति ||',
+          sanskrit: 'यो वा एतामेवं वेदापहत्य पाप्मानमनन्ते स्वर्गे लोके ज्येष्ठे च प्रतितिष्ठति प्रतितिष्ठति ॥',
           transliteration: 'yo vā etāmevaṃ vedāpahatya pāpmānamanante svarge loke jyeṣṭhe ca pratitiṣṭhati pratitiṣṭhati ||',
           translation: 'He who knows this thus, having driven off all evil, is established in the infinite, highest, supreme realm — yes, is established.',
           hindi: 'जो इस उपनिषद् को इस प्रकार जानता है, वह सब पाप का नाश करके, अनन्त, श्रेष्ठ, ज्येष्ठ स्वर्ग-लोक में प्रतिष्ठित हो जाता है — प्रतिष्ठित हो जाता है।',

@@ -20,7 +20,7 @@ export const mundaka: Scripture = {
         {
           id: 1,
           sanskrit:
-            "ब्रह्मा देवानां प्रथमः सम्बभूव विश्वस्य कर्ता भुवनस्य गोप्ता | स ब्रह्मविद्यां सर्वविद्याप्रतिष्ठामथर्वाय ज्येष्ठपुत्राय प्राह ||",
+            "ब्रह्मा देवानां प्रथमः सम्बभूव विश्वस्य कर्ता भुवनस्य गोप्ता । स ब्रह्मविद्यां सर्वविद्याप्रतिष्ठामथर्वाय ज्येष्ठपुत्राय प्राह ॥",
           transliteration:
             "brahmā devānāṃ prathamaḥ sambabhūva viśvasya kartā bhuvanasya goptā | sa brahmavidyāṃ sarvavidyāpratiṣṭhāmatharvāya jyeṣṭhaputrāya prāha ||",
           translation:
@@ -38,7 +38,7 @@ export const mundaka: Scripture = {
         {
           id: 2,
           sanskrit:
-            "अथर्वणे यां प्रवदेत ब्रह्माथर्वा तां पुरोवाचाङ्गिरे ब्रह्मविद्याम् | स भारद्वाजाय सत्यवहाय प्राह भारद्वाजोऽङ्गिरसे परावराम् ||",
+            "अथर्वणे यां प्रवदेत ब्रह्माथर्वा तां पुरोवाचाङ्गिरे ब्रह्मविद्याम् । स भारद्वाजाय सत्यवहाय प्राह भारद्वाजोऽङ्गिरसे परावराम् ॥",
           transliteration:
             "atharvaṇe yāṃ pravadeta brahmātharvā tāṃ purovācāṅgire brahmavidyām | sa bhāradvājāya satyavahāya prāha bhāradvājo'ṅgirase parāvarām ||",
           translation:
@@ -56,7 +56,7 @@ export const mundaka: Scripture = {
         {
           id: 3,
           sanskrit:
-            "शौनको ह वै महाशालोऽङ्गिरसं विधिवदुपसन्नः पप्रच्छ | कस्मिन्नु भगवो विज्ञाते सर्वमिदं विज्ञातं भवतीति ||",
+            "शौनको ह वै महाशालोऽङ्गिरसं विधिवदुपसन्नः पप्रच्छ । कस्मिन्नु भगवो विज्ञाते सर्वमिदं विज्ञातं भवतीति ॥",
           transliteration:
             "śaunako ha vai mahāśālo'ṅgirasaṃ vidhivadupasannaḥ papraccha | kasminnu bhagavo vijñāte sarvamidaṃ vijñātaṃ bhavatīti ||",
           translation:
@@ -74,7 +74,7 @@ export const mundaka: Scripture = {
         {
           id: 4,
           sanskrit:
-            "तस्मै स होवाच | द्वे विद्ये वेदितव्ये इति ह स्म यद् ब्रह्मविदो वदन्ति परा चैवापरा च ||",
+            "तस्मै स होवाच । द्वे विद्ये वेदितव्ये इति ह स्म यद् ब्रह्मविदो वदन्ति परा चैवापरा च ॥",
           transliteration:
             "tasmai sa hovāca | dve vidye veditavye iti ha sma yad brahmavido vadanti parā caivāparā ca ||",
           translation:
@@ -92,7 +92,7 @@ export const mundaka: Scripture = {
         {
           id: 5,
           sanskrit:
-            "तत्रापरा ऋग्वेदो यजुर्वेदः सामवेदोऽथर्ववेदः शिक्षा कल्पो व्याकरणं निरुक्तं छन्दो ज्योतिषमिति | अथ परा यया तदक्षरमधिगम्यते ||",
+            "तत्रापरा ऋग्वेदो यजुर्वेदः सामवेदोऽथर्ववेदः शिक्षा कल्पो व्याकरणं निरुक्तं छन्दो ज्योतिषमिति । अथ परा यया तदक्षरमधिगम्यते ॥",
           transliteration:
             "tatrāparā ṛgvedo yajurvedaḥ sāmavedo'tharvavedaḥ śikṣā kalpo vyākaraṇaṃ niruktaṃ chando jyotiṣamiti | atha parā yayā tadakṣaramadhigamyate ||",
           translation:
@@ -110,7 +110,7 @@ export const mundaka: Scripture = {
         {
           id: 6,
           sanskrit:
-            "यत्तदद्रेश्यमग्राह्यमगोत्रमवर्णमचक्षुःश्रोत्रं तदपाणिपादम् | नित्यं विभुं सर्वगतं सुसूक्ष्मं तदव्ययं यद्भूतयोनिं परिपश्यन्ति धीराः ||",
+            "यत्तदद्रेश्यमग्राह्यमगोत्रमवर्णमचक्षुःश्रोत्रं तदपाणिपादम् । नित्यं विभुं सर्वगतं सुसूक्ष्मं तदव्ययं यद्भूतयोनिं परिपश्यन्ति धीराः ॥",
           transliteration:
             "yattadadreśyamagrāhyamagotramavarṇamacakṣuḥśrotraṃ tadapāṇipādam | nityaṃ vibhuṃ sarvagataṃ susūkṣmaṃ tadavyayaṃ yadbhūtayoniṃ paripaśyanti dhīrāḥ ||",
           translation:
@@ -128,7 +128,7 @@ export const mundaka: Scripture = {
         {
           id: 7,
           sanskrit:
-            "यथोर्णनाभिः सृजते गृह्णते च यथा पृथिव्यामोषधयः सम्भवन्ति | यथा सतः पुरुषात्केशलोमानि तथाऽक्षरात्सम्भवतीह विश्वम् ||",
+            "यथोर्णनाभिः सृजते गृह्णते च यथा पृथिव्यामोषधयः सम्भवन्ति । यथा सतः पुरुषात्केशलोमानि तथाऽक्षरात्सम्भवतीह विश्वम् ॥",
           transliteration:
             "yathorṇanābhiḥ sṛjate gṛhṇate ca yathā pṛthivyāmoṣadhayaḥ sambhavanti | yathā sataḥ puruṣātkeśalomāni tathā'kṣarātsambhavatīha viśvam ||",
           translation:
@@ -146,7 +146,7 @@ export const mundaka: Scripture = {
         {
           id: 8,
           sanskrit:
-            "तपसा चीयते ब्रह्म ततोऽन्नमभिजायते | अन्नात्प्राणो मनः सत्यं लोकाः कर्मसु चामृतम् ||",
+            "तपसा चीयते ब्रह्म ततोऽन्नमभिजायते । अन्नात्प्राणो मनः सत्यं लोकाः कर्मसु चामृतम् ॥",
           transliteration:
             "tapasā cīyate brahma tato'nnamabhijāyate | annātprāṇo manaḥ satyaṃ lokāḥ karmasu cāmṛtam ||",
           translation:
@@ -164,7 +164,7 @@ export const mundaka: Scripture = {
         {
           id: 9,
           sanskrit:
-            "यः सर्वज्ञः सर्वविद्यस्य ज्ञानमयं तपः | तस्मादेतद्ब्रह्म नाम रूपमन्नं च जायते ||",
+            "यः सर्वज्ञः सर्वविद्यस्य ज्ञानमयं तपः । तस्मादेतद्ब्रह्म नाम रूपमन्नं च जायते ॥",
           transliteration:
             "yaḥ sarvajñaḥ sarvavidyasya jñānamayaṃ tapaḥ | tasmādetadbrahma nāma rūpamannaṃ ca jāyate ||",
           translation:
@@ -191,7 +191,7 @@ export const mundaka: Scripture = {
         {
           id: 1,
           sanskrit:
-            "तदेतत्सत्यं मन्त्रेषु कर्माणि कवयो यान्यपश्यंस्तानि त्रेतायां बहुधा सन्ततानि | तान्याचरथ नियतं सत्यकामा एष वः पन्थाः सुकृतस्य लोके ||",
+            "तदेतत्सत्यं मन्त्रेषु कर्माणि कवयो यान्यपश्यंस्तानि त्रेतायां बहुधा सन्ततानि । तान्याचरथ नियतं सत्यकामा एष वः पन्थाः सुकृतस्य लोके ॥",
           transliteration:
             "tadetatsatyaṃ mantreṣu karmāṇi kavayo yānyapaśyaṃstāni tretāyāṃ bahudhā santatāni | tānyācaratha niyataṃ satyakāmā eṣa vaḥ panthāḥ sukṛtasya loke ||",
           translation:
@@ -209,7 +209,7 @@ export const mundaka: Scripture = {
         {
           id: 2,
           sanskrit:
-            "यदा लेलायते ह्यर्चिः समिद्धे हव्यवाहने | तदाज्यभागावन्तरेणाहुतीः प्रतिपादयेच्छ्रद्धया हुताः ||",
+            "यदा लेलायते ह्यर्चिः समिद्धे हव्यवाहने । तदाज्यभागावन्तरेणाहुतीः प्रतिपादयेच्छ्रद्धया हुताः ॥",
           transliteration:
             "yadā lelāyate hyarciḥ samiddhe havyavāhane | tadājyabhāgāvantareṇāhutīḥ pratipādayecchraddhayā hutāḥ ||",
           translation:
@@ -227,7 +227,7 @@ export const mundaka: Scripture = {
         {
           id: 3,
           sanskrit:
-            "यस्याग्निहोत्रमदर्शमपौर्णमासमचातुर्मास्यमनाग्रयणमतिथिवर्जितं च | अहुतमवैश्वदेवमविधिना हुतमासप्तमांस्तस्य लोकान् हिनस्ति ||",
+            "यस्याग्निहोत्रमदर्शमपौर्णमासमचातुर्मास्यमनाग्रयणमतिथिवर्जितं च । अहुतमवैश्वदेवमविधिना हुतमासप्तमांस्तस्य लोकान् हिनस्ति ॥",
           transliteration:
             "yasyāgnihotramadarśamapaurṇamāsamacāturmāsyamanāgrayaṇamatithivarjitaṃ ca | ahutamavaiśvadevamavidhinā hutamāsaptamāṃstasya lokān hinasti ||",
           translation:
@@ -245,7 +245,7 @@ export const mundaka: Scripture = {
         {
           id: 4,
           sanskrit:
-            "काली कराली च मनोजवा च सुलोहिता या च सुधूम्रवर्णा | स्फुलिङ्गिनी विश्वरूची च देवी लेलायमाना इति सप्त जिह्वाः ||",
+            "काली कराली च मनोजवा च सुलोहिता या च सुधूम्रवर्णा । स्फुलिङ्गिनी विश्वरूची च देवी लेलायमाना इति सप्त जिह्वाः ॥",
           transliteration:
             "kālī karālī ca manojavā ca sulohitā yā ca sudhūmravarṇā | sphuliṅginī viśvarūcī ca devī lelāyamānā iti sapta jihvāḥ ||",
           translation:
@@ -263,7 +263,7 @@ export const mundaka: Scripture = {
         {
           id: 5,
           sanskrit:
-            "एतेषु यश्चरते भ्राजमानेषु यथाकालं चाहुतयो ह्याददायन् | तं नयन्त्येताः सूर्यस्य रश्मयो यत्र देवानां पतिरेकोऽधिवासः ||",
+            "एतेषु यश्चरते भ्राजमानेषु यथाकालं चाहुतयो ह्याददायन् । तं नयन्त्येताः सूर्यस्य रश्मयो यत्र देवानां पतिरेकोऽधिवासः ॥",
           transliteration:
             "eteṣu yaścarate bhrājamāneṣu yathākālaṃ cāhutayo hyādadāyan | taṃ nayantyetāḥ sūryasya raśmayo yatra devānāṃ patirekoʼdhivāsaḥ ||",
           translation:
@@ -281,7 +281,7 @@ export const mundaka: Scripture = {
         {
           id: 6,
           sanskrit:
-            "एह्येहीति तमाहुतयः सुवर्चसः सूर्यस्य रश्मिभिर्यजमानं वहन्ति | प्रियां वाचमभिवदन्त्योऽर्चयन्त्य एष वः पुण्यः सुकृतो ब्रह्मलोकः ||",
+            "एह्येहीति तमाहुतयः सुवर्चसः सूर्यस्य रश्मिभिर्यजमानं वहन्ति । प्रियां वाचमभिवदन्त्योऽर्चयन्त्य एष वः पुण्यः सुकृतो ब्रह्मलोकः ॥",
           transliteration:
             "ehyehīti tamāhutayaḥ suvarcasaḥ sūryasya raśmibhiryajamānaṃ vahanti | priyāṃ vācamabhivadantyo'rcayantya eṣa vaḥ puṇyaḥ sukṛto brahmalokaḥ ||",
           translation:
@@ -299,7 +299,7 @@ export const mundaka: Scripture = {
         {
           id: 7,
           sanskrit:
-            "प्लवा ह्येते अदृढा यज्ञरूपा अष्टादशोक्तमवरं येषु कर्म | एतच्छ्रेयो येऽभिनन्दन्ति मूढा जरामृत्युं ते पुनरेवापि यन्ति ||",
+            "प्लवा ह्येते अदृढा यज्ञरूपा अष्टादशोक्तमवरं येषु कर्म । एतच्छ्रेयो येऽभिनन्दन्ति मूढा जरामृत्युं ते पुनरेवापि यन्ति ॥",
           transliteration:
             "plavā hyete adṛḍhā yajñarūpā aṣṭādaśoktamavaraṃ yeṣu karma | etacchreyo ye'bhinandanti mūḍhā jarāmṛtyuṃ te punarevāpi yanti ||",
           translation:
@@ -317,7 +317,7 @@ export const mundaka: Scripture = {
         {
           id: 8,
           sanskrit:
-            "अविद्यायामन्तरे वर्तमानाः स्वयं धीराः पण्डितंमन्यमानाः | जङ्घन्यमानाः परियन्ति मूढा अन्धेनैव नीयमाना यथान्धाः ||",
+            "अविद्यायामन्तरे वर्तमानाः स्वयं धीराः पण्डितंमन्यमानाः । जङ्घन्यमानाः परियन्ति मूढा अन्धेनैव नीयमाना यथान्धाः ॥",
           transliteration:
             "avidyāyāmantare vartamānāḥ svayaṃ dhīrāḥ paṇḍitaṃmanyamānāḥ | jaṅghanyamānāḥ pariyanti mūḍhā andhenaiva nīyamānā yathāndhāḥ ||",
           translation:
@@ -335,7 +335,7 @@ export const mundaka: Scripture = {
         {
           id: 9,
           sanskrit:
-            "अविद्यायां बहुधा वर्तमाना वयं कृतार्था इत्यभिमन्यन्ति बालाः | यत् कर्मिणो न प्रवेदयन्ति रागात्तेनातुराः क्षीणलोकाश्च्यवन्ते ||",
+            "अविद्यायां बहुधा वर्तमाना वयं कृतार्था इत्यभिमन्यन्ति बालाः । यत् कर्मिणो न प्रवेदयन्ति रागात्तेनातुराः क्षीणलोकाश्च्यवन्ते ॥",
           transliteration:
             "avidyāyāṃ bahudhā vartamānā vayaṃ kṛtārthā ityabhimanyanti bālāḥ | yat karmiṇo na pravedayanti rāgāttenāturāḥ kṣīṇalokāścyavante ||",
           translation:
@@ -353,7 +353,7 @@ export const mundaka: Scripture = {
         {
           id: 10,
           sanskrit:
-            "इष्टापूर्तं मन्यमाना वरिष्ठं नान्यच्छ्रेयो वेदयन्ते प्रमूढाः | नाकस्य पृष्ठे ते सुकृतेऽनुभूत्वेमं लोकं हीनतरं वा विशन्ति ||",
+            "इष्टापूर्तं मन्यमाना वरिष्ठं नान्यच्छ्रेयो वेदयन्ते प्रमूढाः । नाकस्य पृष्ठे ते सुकृतेऽनुभूत्वेमं लोकं हीनतरं वा विशन्ति ॥",
           transliteration:
             "iṣṭāpūrtaṃ manyamānā variṣṭhaṃ nānyacchreyo vedayante pramūḍhāḥ | nākasya pṛṣṭhe te sukṛte'nubhūtvemaṃ lokaṃ hīnataraṃ vā viśanti ||",
           translation:
@@ -371,7 +371,7 @@ export const mundaka: Scripture = {
         {
           id: 11,
           sanskrit:
-            "तपःश्रद्धे ये ह्युपवसन्त्यरण्ये शान्ता विद्वांसो भैक्ष्यचर्यां चरन्तः | सूर्यद्वारेण ते विरजाः प्रयान्ति यत्रामृतः स पुरुषो ह्यव्ययात्मा ||",
+            "तपःश्रद्धे ये ह्युपवसन्त्यरण्ये शान्ता विद्वांसो भैक्ष्यचर्यां चरन्तः । सूर्यद्वारेण ते विरजाः प्रयान्ति यत्रामृतः स पुरुषो ह्यव्ययात्मा ॥",
           transliteration:
             "tapaḥśraddhe ye hyupavasantyaraṇye śāntā vidvāṃso bhaikṣyacaryāṃ carantaḥ | sūryadvāreṇa te virajāḥ prayānti yatrāmṛtaḥ sa puruṣo hyavyayātmā ||",
           translation:
@@ -389,7 +389,7 @@ export const mundaka: Scripture = {
         {
           id: 12,
           sanskrit:
-            "परीक्ष्य लोकान् कर्मचितान् ब्राह्मणो निर्वेदमायान्नास्त्यकृतः कृतेन | तद्विज्ञानार्थं स गुरुमेवाभिगच्छेत् समित्पाणिः श्रोत्रियं ब्रह्मनिष्ठम् ||",
+            "परीक्ष्य लोकान् कर्मचितान् ब्राह्मणो निर्वेदमायान्नास्त्यकृतः कृतेन । तद्विज्ञानार्थं स गुरुमेवाभिगच्छेत् समित्पाणिः श्रोत्रियं ब्रह्मनिष्ठम् ॥",
           transliteration:
             "parīkṣya lokān karmacitān brāhmaṇo nirvedamāyānnāstyakṛtaḥ kṛtena | tadvijñānārthaṃ sa gurumevābhigacchet samitpāṇiḥ śrotriyaṃ brahmaniṣṭham ||",
           translation:
@@ -407,7 +407,7 @@ export const mundaka: Scripture = {
         {
           id: 13,
           sanskrit:
-            "तस्मै स विद्वानुपसन्नाय सम्यक्प्रशान्तचित्ताय शमान्विताय | येनाक्षरं पुरुषं वेद सत्यं प्रोवाच तां तत्त्वतो ब्रह्मविद्याम् ||",
+            "तस्मै स विद्वानुपसन्नाय सम्यक्प्रशान्तचित्ताय शमान्विताय । येनाक्षरं पुरुषं वेद सत्यं प्रोवाच तां तत्त्वतो ब्रह्मविद्याम् ॥",
           transliteration:
             "tasmai sa vidvānupasannāya samyakpraśāntacittāya śamānvitāya | yenākṣaraṃ puruṣaṃ veda satyaṃ provāca tāṃ tattvato brahmavidyām ||",
           translation:
@@ -434,7 +434,7 @@ export const mundaka: Scripture = {
         {
           id: 1,
           sanskrit:
-            "तदेतत्सत्यं यथा सुदीप्तात्पावकाद्विस्फुलिङ्गाः सहस्रशः प्रभवन्ते सरूपाः | तथाक्षराद्विविधाः सोम्य भावाः प्रजायन्ते तत्र चैवापि यन्ति ||",
+            "तदेतत्सत्यं यथा सुदीप्तात्पावकाद्विस्फुलिङ्गाः सहस्रशः प्रभवन्ते सरूपाः । तथाक्षराद्विविधाः सोम्य भावाः प्रजायन्ते तत्र चैवापि यन्ति ॥",
           transliteration:
             "tadetatsatyaṃ yathā sudīptātpāvakādvisphuliṅgāḥ sahasraśaḥ prabhavante sarūpāḥ | tathākṣarādvividhāḥ somya bhāvāḥ prajāyante tatra caivāpi yanti ||",
           translation:
@@ -452,7 +452,7 @@ export const mundaka: Scripture = {
         {
           id: 2,
           sanskrit:
-            "दिव्यो ह्यमूर्तः पुरुषः स बाह्याभ्यन्तरो ह्यजः | अप्राणो ह्यमनाः शुभ्रो ह्यक्षरात् परतः परः ||",
+            "दिव्यो ह्यमूर्तः पुरुषः स बाह्याभ्यन्तरो ह्यजः । अप्राणो ह्यमनाः शुभ्रो ह्यक्षरात् परतः परः ॥",
           transliteration:
             "divyo hyamūrtaḥ puruṣaḥ sa bāhyābhyantaro hyajaḥ | aprāṇo hyamanāḥ śubhro hyakṣarāt parataḥ paraḥ ||",
           translation:
@@ -470,7 +470,7 @@ export const mundaka: Scripture = {
         {
           id: 3,
           sanskrit:
-            "एतस्माज्जायते प्राणो मनः सर्वेन्द्रियाणि च | खं वायुर्ज्योतिरापः पृथिवी विश्वस्य धारिणी ||",
+            "एतस्माज्जायते प्राणो मनः सर्वेन्द्रियाणि च । खं वायुर्ज्योतिरापः पृथिवी विश्वस्य धारिणी ॥",
           transliteration:
             "etasmājjāyate prāṇo manaḥ sarvendriyāṇi ca | khaṃ vāyurjyotirāpaḥ pṛthivī viśvasya dhāriṇī ||",
           translation:
@@ -488,7 +488,7 @@ export const mundaka: Scripture = {
         {
           id: 4,
           sanskrit:
-            "अग्निर्मूर्धा चक्षुषी चन्द्रसूर्यौ दिशः श्रोत्रे वाग्विवृताश्च वेदाः | वायुः प्राणो हृदयं विश्वमस्य पद्भ्यां पृथिवी ह्येष सर्वभूतान्तरात्मा ||",
+            "अग्निर्मूर्धा चक्षुषी चन्द्रसूर्यौ दिशः श्रोत्रे वाग्विवृताश्च वेदाः । वायुः प्राणो हृदयं विश्वमस्य पद्भ्यां पृथिवी ह्येष सर्वभूतान्तरात्मा ॥",
           transliteration:
             "agnirmūrdhā cakṣuṣī candrasūryau diśaḥ śrotre vāgvivṛtāśca vedāḥ | vāyuḥ prāṇo hṛdayaṃ viśvamasya padbhyāṃ pṛthivī hyeṣa sarvabhūtāntarātmā ||",
           translation:
@@ -506,7 +506,7 @@ export const mundaka: Scripture = {
         {
           id: 5,
           sanskrit:
-            "तस्मादग्निः समिधो यस्य सूर्यः सोमात्पर्जन्य ओषधयः पृथिव्याम् | पुमान्रेतः सिञ्चति योषितायां बह्वीः प्रजाः पुरुषात् सम्प्रसूताः ||",
+            "तस्मादग्निः समिधो यस्य सूर्यः सोमात्पर्जन्य ओषधयः पृथिव्याम् । पुमान्रेतः सिञ्चति योषितायां बह्वीः प्रजाः पुरुषात् सम्प्रसूताः ॥",
           transliteration:
             "tasmādagniḥ samidho yasya sūryaḥ somātparjanya oṣadhayaḥ pṛthivyām | pumānretaḥ siñcati yoṣitāyāṃ bahvīḥ prajāḥ puruṣāt samprasūtāḥ ||",
           translation:
@@ -524,7 +524,7 @@ export const mundaka: Scripture = {
         {
           id: 6,
           sanskrit:
-            "तस्मादृचः साम यजूंषि दीक्षा यज्ञाश्च सर्वे क्रतवो दक्षिणाश्च | संवत्सरश्च यजमानश्च लोकाः सोमो यत्र पवते यत्र सूर्यः ||",
+            "तस्मादृचः साम यजूंषि दीक्षा यज्ञाश्च सर्वे क्रतवो दक्षिणाश्च । संवत्सरश्च यजमानश्च लोकाः सोमो यत्र पवते यत्र सूर्यः ॥",
           transliteration:
             "tasmādṛcaḥ sāma yajūṃṣi dīkṣā yajñāśca sarve kratavo dakṣiṇāśca | saṃvatsaraśca yajamānaśca lokāḥ somo yatra pavate yatra sūryaḥ ||",
           translation:
@@ -542,7 +542,7 @@ export const mundaka: Scripture = {
         {
           id: 7,
           sanskrit:
-            "तस्माच्च देवा बहुधा सम्प्रसूताः साध्या मनुष्याः पशवो वयांसि | प्राणापानौ व्रीहियवौ तपश्च श्रद्धा सत्यं ब्रह्मचर्यं विधिश्च ||",
+            "तस्माच्च देवा बहुधा सम्प्रसूताः साध्या मनुष्याः पशवो वयांसि । प्राणापानौ व्रीहियवौ तपश्च श्रद्धा सत्यं ब्रह्मचर्यं विधिश्च ॥",
           transliteration:
             "tasmācca devā bahudhā samprasūtāḥ sādhyā manuṣyāḥ paśavo vayāṃsi | prāṇāpānau vrīhiyavau tapaśca śraddhā satyaṃ brahmacaryaṃ vidhiśca ||",
           translation:
@@ -560,7 +560,7 @@ export const mundaka: Scripture = {
         {
           id: 8,
           sanskrit:
-            "सप्त प्राणाः प्रभवन्ति तस्मात्सप्तार्चिषः समिधः सप्त होमाः | सप्त इमे लोका येषु चरन्ति प्राणा गुहाशया निहिताः सप्त सप्त ||",
+            "सप्त प्राणाः प्रभवन्ति तस्मात्सप्तार्चिषः समिधः सप्त होमाः । सप्त इमे लोका येषु चरन्ति प्राणा गुहाशया निहिताः सप्त सप्त ॥",
           transliteration:
             "sapta prāṇāḥ prabhavanti tasmātsaptārciṣaḥ samidhaḥ sapta homāḥ | sapta ime lokā yeṣu caranti prāṇā guhāśayā nihitāḥ sapta sapta ||",
           translation:
@@ -578,7 +578,7 @@ export const mundaka: Scripture = {
         {
           id: 9,
           sanskrit:
-            "अतः समुद्रा गिरयश्च सर्वेऽस्मात्स्यन्दन्ते सिन्धवः सर्वरूपाः | अतश्च सर्वा ओषधयो रसश्च येनैष भूतस्तिष्ठते ह्यन्तरात्मा ||",
+            "अतः समुद्रा गिरयश्च सर्वेऽस्मात्स्यन्दन्ते सिन्धवः सर्वरूपाः । अतश्च सर्वा ओषधयो रसश्च येनैष भूतस्तिष्ठते ह्यन्तरात्मा ॥",
           transliteration:
             "ataḥ samudrā girayaśca sarve'smātsyandante sindhavaḥ sarvarūpāḥ | ataśca sarvā oṣadhayo rasaśca yenaiṣa bhūtastiṣṭhate hyantarātmā ||",
           translation:
@@ -596,7 +596,7 @@ export const mundaka: Scripture = {
         {
           id: 10,
           sanskrit:
-            "पुरुष एवेदं विश्वं कर्म तपो ब्रह्म परामृतम् | एतद्यो वेद निहितं गुहायां सोऽविद्याग्रन्थिं विकिरतीह सोम्य ||",
+            "पुरुष एवेदं विश्वं कर्म तपो ब्रह्म परामृतम् । एतद्यो वेद निहितं गुहायां सोऽविद्याग्रन्थिं विकिरतीह सोम्य ॥",
           transliteration:
             "puruṣa evedaṃ viśvaṃ karma tapo brahma parāmṛtam | etadyo veda nihitaṃ guhāyāṃ so'vidyāgranthiṃ vikiratīha somya ||",
           translation:
@@ -623,7 +623,7 @@ export const mundaka: Scripture = {
         {
           id: 1,
           sanskrit:
-            "आविः सन्निहितं गुहाचरं नाम महत्पदमत्रैतत् समर्पितम् | एजत्प्राणन्निमिषच्च यदेतज्जानथ सदसद्वरेण्यं परं विज्ञानाद्यद्वरिष्ठं प्रजानाम् ||",
+            "आविः सन्निहितं गुहाचरं नाम महत्पदमत्रैतत् समर्पितम् । एजत्प्राणन्निमिषच्च यदेतज्जानथ सदसद्वरेण्यं परं विज्ञानाद्यद्वरिष्ठं प्रजानाम् ॥",
           transliteration:
             "āviḥ sannihitaṃ guhācaraṃ nāma mahatpadamatraitat samarpitam | ejatprāṇannimiṣacca yadetajjānatha sadasadvareṇyaṃ paraṃ vijñānādyadvariṣṭhaṃ prajānām ||",
           translation:
@@ -641,7 +641,7 @@ export const mundaka: Scripture = {
         {
           id: 2,
           sanskrit:
-            "यदर्चिमद्यदणुभ्योऽणु च यस्मिँल्लोका निहिता लोकिनश्च | तदेतदक्षरं ब्रह्म स प्राणस्तदु वाङ्मनः | तदेतत्सत्यं तदमृतं तद्वेद्धव्यं सोम्य विद्धि ||",
+            "यदर्चिमद्यदणुभ्योऽणु च यस्मिँल्लोका निहिता लोकिनश्च । तदेतदक्षरं ब्रह्म स प्राणस्तदु वाङ्मनः । तदेतत्सत्यं तदमृतं तद्वेद्धव्यं सोम्य विद्धि ॥",
           transliteration:
             "yadarcimadyadaṇubhyo'ṇu ca yasmiṃlokā nihitā lokinaśca | tadetadakṣaraṃ brahma sa prāṇastadu vāṅmanaḥ | tadetatsatyaṃ tadamṛtaṃ tadveddhavyaṃ somya viddhi ||",
           translation:
@@ -659,7 +659,7 @@ export const mundaka: Scripture = {
         {
           id: 3,
           sanskrit:
-            "धनुर्गृहीत्वौपनिषदं महास्त्रं शरं ह्युपासानिशितं सन्धयीत | आयम्य तद्भावगतेन चेतसा लक्ष्यं तदेवाक्षरं सोम्य विद्धि ||",
+            "धनुर्गृहीत्वौपनिषदं महास्त्रं शरं ह्युपासानिशितं सन्धयीत । आयम्य तद्भावगतेन चेतसा लक्ष्यं तदेवाक्षरं सोम्य विद्धि ॥",
           transliteration:
             "dhanurgṛhītvaupaniṣadaṃ mahāstraṃ śaraṃ hyupāsāniśitaṃ sandhayīta | āyamya tadbhāvagatena cetasā lakṣyaṃ tadevākṣaraṃ somya viddhi ||",
           translation:
@@ -677,7 +677,7 @@ export const mundaka: Scripture = {
         {
           id: 4,
           sanskrit:
-            "प्रणवो धनुः शरो ह्यात्मा ब्रह्म तल्लक्ष्यमुच्यते | अप्रमत्तेन वेद्धव्यं शरवत्तन्मयो भवेत् ||",
+            "प्रणवो धनुः शरो ह्यात्मा ब्रह्म तल्लक्ष्यमुच्यते । अप्रमत्तेन वेद्धव्यं शरवत्तन्मयो भवेत् ॥",
           transliteration:
             "praṇavo dhanuḥ śaro hyātmā brahma tallakṣyamucyate | apramattena veddhavyaṃ śaravattanmayo bhavet ||",
           translation:
@@ -695,7 +695,7 @@ export const mundaka: Scripture = {
         {
           id: 5,
           sanskrit:
-            "यस्मिन्द्यौः पृथिवी चान्तरिक्षमोतं मनः सह प्राणैश्च सर्वैः | तमेवैकं जानथ आत्मानमन्या वाचो विमुञ्चथामृतस्यैष सेतुः ||",
+            "यस्मिन्द्यौः पृथिवी चान्तरिक्षमोतं मनः सह प्राणैश्च सर्वैः । तमेवैकं जानथ आत्मानमन्या वाचो विमुञ्चथामृतस्यैष सेतुः ॥",
           transliteration:
             "yasmindyauḥ pṛthivī cāntarikṣamotaṃ manaḥ saha prāṇaiśca sarvaiḥ | tamevaikaṃ jānatha ātmānamanyā vāco vimuñcathāmṛtasyaiṣa setuḥ ||",
           translation:
@@ -713,7 +713,7 @@ export const mundaka: Scripture = {
         {
           id: 6,
           sanskrit:
-            "अरा इव रथनाभौ संहता यत्र नाड्यः स एषोऽन्तश्चरते बहुधा जायमानः | ओमित्येवं ध्यायथ आत्मानं स्वस्ति वः पाराय तमसः परस्तात् ||",
+            "अरा इव रथनाभौ संहता यत्र नाड्यः स एषोऽन्तश्चरते बहुधा जायमानः । ओमित्येवं ध्यायथ आत्मानं स्वस्ति वः पाराय तमसः परस्तात् ॥",
           transliteration:
             "arā iva rathanābhau saṃhatā yatra nāḍyaḥ sa eṣo'ntaścarate bahudhā jāyamānaḥ | omityevaṃ dhyāyatha ātmānaṃ svasti vaḥ pārāya tamasaḥ parastāt ||",
           translation:
@@ -731,7 +731,7 @@ export const mundaka: Scripture = {
         {
           id: 7,
           sanskrit:
-            "यः सर्वज्ञः सर्वविद्यस्यैष महिमा भुवि | दिव्ये ब्रह्मपुरे ह्येष व्योम्न्यात्मा प्रतिष्ठितः ||",
+            "यः सर्वज्ञः सर्वविद्यस्यैष महिमा भुवि । दिव्ये ब्रह्मपुरे ह्येष व्योम्न्यात्मा प्रतिष्ठितः ॥",
           transliteration:
             "yaḥ sarvajñaḥ sarvavidyasyaiṣa mahimā bhuvi | divye brahmapure hyeṣa vyomnyātmā pratiṣṭhitaḥ ||",
           translation:
@@ -749,7 +749,7 @@ export const mundaka: Scripture = {
         {
           id: 8,
           sanskrit:
-            "मनोमयः प्राणशरीरनेता प्रतिष्ठितोऽन्ने हृदयं सन्निधाय | तद्विज्ञानेन परिपश्यन्ति धीरा आनन्दरूपममृतं यद्विभाति ||",
+            "मनोमयः प्राणशरीरनेता प्रतिष्ठितोऽन्ने हृदयं सन्निधाय । तद्विज्ञानेन परिपश्यन्ति धीरा आनन्दरूपममृतं यद्विभाति ॥",
           transliteration:
             "manomayaḥ prāṇaśarīranetā pratiṣṭhito'nne hṛdayaṃ sannidhāya | tadvijñānena paripaśyanti dhīrā ānandarūpamamṛtaṃ yadvibhāti ||",
           translation:
@@ -767,7 +767,7 @@ export const mundaka: Scripture = {
         {
           id: 9,
           sanskrit:
-            "भिद्यते हृदयग्रन्थिश्छिद्यन्ते सर्वसंशयाः | क्षीयन्ते चास्य कर्माणि तस्मिन्दृष्टे परावरे ||",
+            "भिद्यते हृदयग्रन्थिश्छिद्यन्ते सर्वसंशयाः । क्षीयन्ते चास्य कर्माणि तस्मिन्दृष्टे परावरे ॥",
           transliteration:
             "bhidyate hṛdayagranthiśchidyante sarvasaṃśayāḥ | kṣīyante cāsya karmāṇi tasmindṛṣṭe parāvare ||",
           translation:
@@ -785,7 +785,7 @@ export const mundaka: Scripture = {
         {
           id: 10,
           sanskrit:
-            "हिरण्मये परे कोशे विरजं ब्रह्म निष्कलम् | तच्छुभ्रं ज्योतिषां ज्योतिस्तद्यदात्मविदो विदुः ||",
+            "हिरण्मये परे कोशे विरजं ब्रह्म निष्कलम् । तच्छुभ्रं ज्योतिषां ज्योतिस्तद्यदात्मविदो विदुः ॥",
           transliteration:
             "hiraṇmaye pare kośe virajaṃ brahma niṣkalam | tacchubhraṃ jyotiṣāṃ jyotistadyadātmavido viduḥ ||",
           translation:
@@ -803,7 +803,7 @@ export const mundaka: Scripture = {
         {
           id: 11,
           sanskrit:
-            "न तत्र सूर्यो भाति न चन्द्रतारकं नेमा विद्युतो भान्ति कुतोऽयमग्निः | तमेव भान्तमनुभाति सर्वं तस्य भासा सर्वमिदं विभाति ||",
+            "न तत्र सूर्यो भाति न चन्द्रतारकं नेमा विद्युतो भान्ति कुतोऽयमग्निः । तमेव भान्तमनुभाति सर्वं तस्य भासा सर्वमिदं विभाति ॥",
           transliteration:
             "na tatra sūryo bhāti na candratārakaṃ nemā vidyuto bhānti kuto'yamagniḥ | tameva bhāntamanubhāti sarvaṃ tasya bhāsā sarvamidaṃ vibhāti ||",
           translation:
@@ -830,7 +830,7 @@ export const mundaka: Scripture = {
         {
           id: 1,
           sanskrit:
-            "द्वा सुपर्णा सयुजा सखाया समानं वृक्षं परिषस्वजाते | तयोरन्यः पिप्पलं स्वाद्वत्त्यनश्नन्नन्यो अभिचाकशीति ||",
+            "द्वा सुपर्णा सयुजा सखाया समानं वृक्षं परिषस्वजाते । तयोरन्यः पिप्पलं स्वाद्वत्त्यनश्नन्नन्यो अभिचाकशीति ॥",
           transliteration:
             "dvā suparṇā sayujā sakhāyā samānaṃ vṛkṣaṃ pariṣasvajāte | tayoranyaḥ pippalāṃ svādvattyanaśnannannyo abhicākaśīti ||",
           translation:
@@ -848,7 +848,7 @@ export const mundaka: Scripture = {
         {
           id: 2,
           sanskrit:
-            "समाने वृक्षे पुरुषो निमग्नोऽनीशया शोचति मुह्यमानः | जुष्टं यदा पश्यत्यन्यमीशमस्य महिमानमिति वीतशोकः ||",
+            "समाने वृक्षे पुरुषो निमग्नोऽनीशया शोचति मुह्यमानः । जुष्टं यदा पश्यत्यन्यमीशमस्य महिमानमिति वीतशोकः ॥",
           transliteration:
             "samāne vṛkṣe puruṣo nimagno'nīśayā śocati muhyamānaḥ | juṣṭaṃ yadā paśyatyanyamīśamasya mahimānamiti vītaśokaḥ ||",
           translation:
@@ -866,7 +866,7 @@ export const mundaka: Scripture = {
         {
           id: 3,
           sanskrit:
-            "यदा पश्यः पश्यते रुक्मवर्णं कर्तारमीशं पुरुषं ब्रह्मयोनिम् | तदा विद्वान् पुण्यपापे विधूय निरञ्जनः परमं साम्यमुपैति ||",
+            "यदा पश्यः पश्यते रुक्मवर्णं कर्तारमीशं पुरुषं ब्रह्मयोनिम् । तदा विद्वान् पुण्यपापे विधूय निरञ्जनः परमं साम्यमुपैति ॥",
           transliteration:
             "yadā paśyaḥ paśyate rukmavarṇaṃ kartāramīśaṃ puruṣaṃ brahmayonim | tadā vidvān puṇyapāpe vidhūya nirañjanaḥ paramaṃ sāmyamupaiti ||",
           translation:
@@ -884,7 +884,7 @@ export const mundaka: Scripture = {
         {
           id: 4,
           sanskrit:
-            "प्राणो ह्येष यः सर्वभूतैर्विभाति विजानन्विद्वान् भवते नातिवादी | आत्मक्रीड आत्मरतिः क्रियावानेष ब्रह्मविदां वरिष्ठः ||",
+            "प्राणो ह्येष यः सर्वभूतैर्विभाति विजानन्विद्वान् भवते नातिवादी । आत्मक्रीड आत्मरतिः क्रियावानेष ब्रह्मविदां वरिष्ठः ॥",
           transliteration:
             "prāṇo hyeṣa yaḥ sarvabhūtairvibhāti vijānanvidvān bhavate nātivādī | ātmakrīḍa ātmaratiḥ kriyāvāneṣa brahmavidāṃ variṣṭhaḥ ||",
           translation:
@@ -902,7 +902,7 @@ export const mundaka: Scripture = {
         {
           id: 5,
           sanskrit:
-            "सत्येन लभ्यस्तपसा ह्येष आत्मा सम्यग्ज्ञानेन ब्रह्मचर्येण नित्यम् | अन्तःशरीरे ज्योतिर्मयो हि शुभ्रो यं पश्यन्ति यतयः क्षीणदोषाः ||",
+            "सत्येन लभ्यस्तपसा ह्येष आत्मा सम्यग्ज्ञानेन ब्रह्मचर्येण नित्यम् । अन्तःशरीरे ज्योतिर्मयो हि शुभ्रो यं पश्यन्ति यतयः क्षीणदोषाः ॥",
           transliteration:
             "satyena labhyastapasā hyeṣa ātmā samyagjñānena brahmacaryeṇa nityam | antaḥśarīre jyotirmayo hi śubhro yaṃ paśyanti yatayaḥ kṣīṇadoṣāḥ ||",
           translation:
@@ -920,7 +920,7 @@ export const mundaka: Scripture = {
         {
           id: 6,
           sanskrit:
-            "सत्यमेव जयते नानृतं सत्येन पन्था विततो देवयानः | येनाक्रमन्त्यृषयो ह्याप्तकामा यत्र तत् सत्यस्य परमं निधानम् ||",
+            "सत्यमेव जयते नानृतं सत्येन पन्था विततो देवयानः । येनाक्रमन्त्यृषयो ह्याप्तकामा यत्र तत् सत्यस्य परमं निधानम् ॥",
           transliteration:
             "satyameva jayate nānṛtaṃ satyena panthā vitato devayānaḥ | yenākramantyṛṣayo hyāptakāmā yatra tat satyasya paramaṃ nidhānam ||",
           translation:
@@ -938,7 +938,7 @@ export const mundaka: Scripture = {
         {
           id: 7,
           sanskrit:
-            "बृहच्च तद्दिव्यमचिन्त्यरूपं सूक्ष्माच्च तत्सूक्ष्मतरं विभाति | दूरात्सुदूरे तदिहान्तिके च पश्यत्स्विहैव निहितं गुहायाम् ||",
+            "बृहच्च तद्दिव्यमचिन्त्यरूपं सूक्ष्माच्च तत्सूक्ष्मतरं विभाति । दूरात्सुदूरे तदिहान्तिके च पश्यत्स्विहैव निहितं गुहायाम् ॥",
           transliteration:
             "bṛhacca taddivyamacintyarūpaṃ sūkṣmācca tatsūkṣmataraṃ vibhāti | dūrātsudūre tadihāntike ca paśyatsvihaiva nihitaṃ guhāyām ||",
           translation:
@@ -956,7 +956,7 @@ export const mundaka: Scripture = {
         {
           id: 8,
           sanskrit:
-            "न चक्षुषा गृह्यते नापि वाचा नान्यैर्देवैस्तपसा कर्मणा वा | ज्ञानप्रसादेन विशुद्धसत्त्वस्ततस्तु तं पश्यते निष्कलं ध्यायमानः ||",
+            "न चक्षुषा गृह्यते नापि वाचा नान्यैर्देवैस्तपसा कर्मणा वा । ज्ञानप्रसादेन विशुद्धसत्त्वस्ततस्तु तं पश्यते निष्कलं ध्यायमानः ॥",
           transliteration:
             "na cakṣuṣā gṛhyate nāpi vācā nānyairdevaistapasā karmaṇā vā | jñānaprasādena viśuddhasattvastatastu taṃ paśyate niṣkalaṃ dhyāyamānaḥ ||",
           translation:
@@ -974,7 +974,7 @@ export const mundaka: Scripture = {
         {
           id: 9,
           sanskrit:
-            "एषोऽणुरात्मा चेतसा वेदितव्यो यस्मिन्प्राणः पञ्चधा संविवेश | प्राणैश्चित्तं सर्वमोतं प्रजानां यस्मिन्विशुद्धे विभवत्येष आत्मा ||",
+            "एषोऽणुरात्मा चेतसा वेदितव्यो यस्मिन्प्राणः पञ्चधा संविवेश । प्राणैश्चित्तं सर्वमोतं प्रजानां यस्मिन्विशुद्धे विभवत्येष आत्मा ॥",
           transliteration:
             "eṣo'ṇurātmā cetasā veditavyo yasminprāṇaḥ pañcadhā saṃviveśa | prāṇaiścittaṃ sarvamotaṃ prajānāṃ yasminviśuddhe vibhavatyeṣa ātmā ||",
           translation:
@@ -992,7 +992,7 @@ export const mundaka: Scripture = {
         {
           id: 10,
           sanskrit:
-            "यं यं लोकं मनसा संविभाति विशुद्धसत्त्वः कामयते यांश्च कामान् | तं तं लोकं जयते तांश्च कामांस्तस्मादात्मज्ञं ह्यर्चयेद्भूतिकामः ||",
+            "यं यं लोकं मनसा संविभाति विशुद्धसत्त्वः कामयते यांश्च कामान् । तं तं लोकं जयते तांश्च कामांस्तस्मादात्मज्ञं ह्यर्चयेद्भूतिकामः ॥",
           transliteration:
             "yaṃ yaṃ lokaṃ manasā saṃvibhāti viśuddhasattvaḥ kāmayate yāṃśca kāmān | taṃ taṃ lokaṃ jayate tāṃśca kāmāṃstasmādātmajñaṃ hyarcayedbhūtikāmaḥ ||",
           translation:
@@ -1019,7 +1019,7 @@ export const mundaka: Scripture = {
         {
           id: 1,
           sanskrit:
-            "स वेदैतत्परमं ब्रह्म धाम यत्र विश्वं निहितं भाति शुभ्रम् | उपासते पुरुषं ये ह्यकामास्ते शुक्रमेतदतिवर्तन्ति धीराः ||",
+            "स वेदैतत्परमं ब्रह्म धाम यत्र विश्वं निहितं भाति शुभ्रम् । उपासते पुरुषं ये ह्यकामास्ते शुक्रमेतदतिवर्तन्ति धीराः ॥",
           transliteration:
             "sa vedaitatparamaṃ brahma dhāma yatra viśvaṃ nihitaṃ bhāti śubhram | upāsate puruṣaṃ ye hyakāmāste śukrametadativartanti dhīrāḥ ||",
           translation:
@@ -1037,7 +1037,7 @@ export const mundaka: Scripture = {
         {
           id: 2,
           sanskrit:
-            "कामान् यः कामयते मन्यमानः स कामभिर्जायते तत्र तत्र | पर्याप्तकामस्य कृतात्मनस्तु इहैव सर्वे प्रविलीयन्ति कामाः ||",
+            "कामान् यः कामयते मन्यमानः स कामभिर्जायते तत्र तत्र । पर्याप्तकामस्य कृतात्मनस्तु इहैव सर्वे प्रविलीयन्ति कामाः ॥",
           transliteration:
             "kāmān yaḥ kāmayate manyamānaḥ sa kāmabhirjāyate tatra tatra | paryāptakāmasya kṛtātmanastu ihaiva sarve pravilīyanti kāmāḥ ||",
           translation:
@@ -1055,7 +1055,7 @@ export const mundaka: Scripture = {
         {
           id: 3,
           sanskrit:
-            "नायमात्मा प्रवचनेन लभ्यो न मेधया न बहुना श्रुतेन | यमेवैष वृणुते तेन लभ्यस्तस्यैष आत्मा विवृणुते तनूं स्वाम् ||",
+            "नायमात्मा प्रवचनेन लभ्यो न मेधया न बहुना श्रुतेन । यमेवैष वृणुते तेन लभ्यस्तस्यैष आत्मा विवृणुते तनूं स्वाम् ॥",
           transliteration:
             "nāyamātmā pravacanena labhyo na medhayā na bahunā śrutena | yamevaiṣa vṛṇute tena labhyastasyaiṣa ātmā vivṛṇute tanūṃ svām ||",
           translation:
@@ -1073,7 +1073,7 @@ export const mundaka: Scripture = {
         {
           id: 4,
           sanskrit:
-            "नायमात्मा बलहीनेन लभ्यो न च प्रमादात्तपसो वाप्यलिङ्गात् | एतैरुपायैर्यतते यस्तु विद्वांस्तस्यैष आत्मा विशते ब्रह्मधाम ||",
+            "नायमात्मा बलहीनेन लभ्यो न च प्रमादात्तपसो वाप्यलिङ्गात् । एतैरुपायैर्यतते यस्तु विद्वांस्तस्यैष आत्मा विशते ब्रह्मधाम ॥",
           transliteration:
             "nāyamātmā balahīnena labhyo na ca pramādāttapaso vāpyaliṅgāt | etairupāyairyatate yastu vidvāṃstasyaiṣa ātmā viśate brahmadhāma ||",
           translation:
@@ -1091,7 +1091,7 @@ export const mundaka: Scripture = {
         {
           id: 5,
           sanskrit:
-            "सम्प्राप्यैनमृषयो ज्ञानतृप्ताः कृतात्मानो वीतरागाः प्रशान्ताः | ते सर्वगं सर्वतः प्राप्य धीरा युक्तात्मानः सर्वमेवाविशन्ति ||",
+            "सम्प्राप्यैनमृषयो ज्ञानतृप्ताः कृतात्मानो वीतरागाः प्रशान्ताः । ते सर्वगं सर्वतः प्राप्य धीरा युक्तात्मानः सर्वमेवाविशन्ति ॥",
           transliteration:
             "samprāpyainamṛṣayo jñānatṛptāḥ kṛtātmāno vītarāgāḥ praśāntāḥ | te sarvagaṃ sarvataḥ prāpya dhīrā yuktātmānaḥ sarvamevāviśanti ||",
           translation:
@@ -1109,7 +1109,7 @@ export const mundaka: Scripture = {
         {
           id: 6,
           sanskrit:
-            "वेदान्तविज्ञानसुनिश्चितार्थाः संन्यासयोगाद्यतयः शुद्धसत्त्वाः | ते ब्रह्मलोकेषु परान्तकाले परामृताः परिमुच्यन्ति सर्वे ||",
+            "वेदान्तविज्ञानसुनिश्चितार्थाः संन्यासयोगाद्यतयः शुद्धसत्त्वाः । ते ब्रह्मलोकेषु परान्तकाले परामृताः परिमुच्यन्ति सर्वे ॥",
           transliteration:
             "vedāntavijñānasuniścitārthāḥ saṃnyāsayogādyatayaḥ śuddhasattvāḥ | te brahmalokeṣu parāntakāle parāmṛtāḥ parimucyanti sarve ||",
           translation:
@@ -1127,7 +1127,7 @@ export const mundaka: Scripture = {
         {
           id: 7,
           sanskrit:
-            "गताः कलाः पञ्चदश प्रतिष्ठा देवाश्च सर्वे प्रतिदेवतासु | कर्माणि विज्ञानमयश्च आत्मा परेऽव्यये सर्व एकीभवन्ति ||",
+            "गताः कलाः पञ्चदश प्रतिष्ठा देवाश्च सर्वे प्रतिदेवतासु । कर्माणि विज्ञानमयश्च आत्मा परेऽव्यये सर्व एकीभवन्ति ॥",
           transliteration:
             "gatāḥ kalāḥ pañcadaśa pratiṣṭhā devāśca sarve pratidevatāsu | karmāṇi vijñānamayaśca ātmā pare'vyaye sarva ekībhavanti ||",
           translation:
@@ -1145,7 +1145,7 @@ export const mundaka: Scripture = {
         {
           id: 8,
           sanskrit:
-            "यथा नद्यः स्यन्दमानाः समुद्रेऽस्तं गच्छन्ति नामरूपे विहाय | तथा विद्वान् नामरूपाद्विमुक्तः परात्परं पुरुषमुपैति दिव्यम् ||",
+            "यथा नद्यः स्यन्दमानाः समुद्रेऽस्तं गच्छन्ति नामरूपे विहाय । तथा विद्वान् नामरूपाद्विमुक्तः परात्परं पुरुषमुपैति दिव्यम् ॥",
           transliteration:
             "yathā nadyaḥ syandamānāḥ samudre'staṃ gacchanti nāmarūpe vihāya | tathā vidvān nāmarūpādvimuktaḥ parātparaṃ puruṣamupaiti divyam ||",
           translation:
@@ -1163,7 +1163,7 @@ export const mundaka: Scripture = {
         {
           id: 9,
           sanskrit:
-            "स यो ह वै तत्परमं ब्रह्म वेद ब्रह्मैव भवति नास्याब्रह्मवित्कुले भवति | तरति शोकं तरति पाप्मानं गुहाग्रन्थिभ्यो विमुक्तोऽमृतो भवति ||",
+            "स यो ह वै तत्परमं ब्रह्म वेद ब्रह्मैव भवति नास्याब्रह्मवित्कुले भवति । तरति शोकं तरति पाप्मानं गुहाग्रन्थिभ्यो विमुक्तोऽमृतो भवति ॥",
           transliteration:
             "sa yo ha vai tatparamaṃ brahma veda brahmaiva bhavati nāsyābrahmavitkule bhavati | tarati śokaṃ tarati pāpmānaṃ guhāgranthibhyo vimukto'mṛto bhavati ||",
           translation:
@@ -1181,7 +1181,7 @@ export const mundaka: Scripture = {
         {
           id: 10,
           sanskrit:
-            "तदेतदृचाऽभ्युक्तम् — क्रियावन्तः श्रोत्रिया ब्रह्मनिष्ठाः स्वयं जुह्वत एकर्षिं श्रद्धयन्तः | तेषामेवैतां ब्रह्मविद्यां वदेत शिरोव्रतं विधिवद्यैस्तु चीर्णम् ||",
+            "तदेतदृचाऽभ्युक्तम् — क्रियावन्तः श्रोत्रिया ब्रह्मनिष्ठाः स्वयं जुह्वत एकर्षिं श्रद्धयन्तः । तेषामेवैतां ब्रह्मविद्यां वदेत शिरोव्रतं विधिवद्यैस्तु चीर्णम् ॥",
           transliteration:
             "tadetadṛcā'bhyuktam — kriyāvantaḥ śrotriyā brahmaniṣṭhāḥ svayaṃ juhvata ekarṣiṃ śraddhayantaḥ | teṣāmevaitāṃ brahmavidyāṃ vadeta śirovrataṃ vidhivadyaistu cīrṇam ||",
           translation:
@@ -1199,7 +1199,7 @@ export const mundaka: Scripture = {
         {
           id: 11,
           sanskrit:
-            "तदेतत्सत्यमृषिरङ्गिराः पुरोवाच नैतदचीर्णव्रतोऽधीते | नमः परमऋषिभ्यो नमः परमऋषिभ्यः ||",
+            "तदेतत्सत्यमृषिरङ्गिराः पुरोवाच नैतदचीर्णव्रतोऽधीते । नमः परमऋषिभ्यो नमः परमऋषिभ्यः ॥",
           transliteration:
             "tadetatsatyamṛṣiraṅgirāḥ purovāca naitadacīrṇavrato'dhīte | namaḥ paramaṛṣibhyo namaḥ paramaṛṣibhyaḥ ||",
           translation:

@@ -17,7 +17,7 @@ export const brihadaranyaka: Scripture = {
       verses: [
         {
           id: 10,
-          sanskrit: 'अहं ब्रह्मास्मि |',
+          sanskrit: 'अहं ब्रह्मास्मि ।',
           transliteration: 'ahaṃ brahmāsmi |',
           translation: 'I am Brahman.',
           hindi: 'मैं ब्रह्म हूँ।',
@@ -28,7 +28,7 @@ export const brihadaranyaka: Scripture = {
         },
         {
           id: 15,
-          sanskrit: 'यत्र हि द्वैतमिव भवति तदितर इतरं पश्यति | यत्र त्वस्य सर्वमात्मैवाभूत् तत्केन कं पश्येत् ||',
+          sanskrit: 'यत्र हि द्वैतमिव भवति तदितर इतरं पश्यति । यत्र त्वस्य सर्वमात्मैवाभूत् तत्केन कं पश्येत् ॥',
           transliteration: 'yatra hi dvaitamiva bhavati taditara itaraṃ paśyati | yatra tvasya sarvamātmaivābhūt tatakena kaṃ paśyet ||',
           translation: 'Where there seems to be duality, there one sees the other. But where everything has become the Self — by what would one see what?',
           hindi: 'जहाँ द्वैत जैसा लगता है, वहाँ कोई दूसरे को देखता है। परंतु जहाँ सब कुछ आत्मा ही हो गया — वहाँ किससे किसे देखा जाए?',
@@ -40,7 +40,7 @@ export const brihadaranyaka: Scripture = {
       
         {
           id: 2,
-          sanskrit: 'अहं ब्रह्मास्मि |',
+          sanskrit: 'अहं ब्रह्मास्मि ।',
           transliteration: 'ahaṃ brahmāsmi |',
           translation: 'I am Brahman.',
           hindi: 'मैं ब्रह्म हूँ।',
@@ -56,7 +56,7 @@ export const brihadaranyaka: Scripture = {
       verses: [
         {
           id: 4,
-          sanskrit: 'न वा अरे पत्युः कामाय पतिः प्रियो भवति |\nआत्मनस्तु कामाय पतिः प्रियो भवति ||',
+          sanskrit: 'न वा अरे पत्युः कामाय पतिः प्रियो भवति ।\nआत्मनस्तु कामाय पतिः प्रियो भवति ॥',
           transliteration: 'na vā are patyuḥ kāmāya patiḥ priyo bhavati |\nātmanastu kāmāya patiḥ priyo bhavati ||',
           translation: 'Verily, it is not for the sake of the husband that the husband is dear, but for the sake of the Self that the husband is dear.',
           hindi: 'अरे! पति की कामना से पति प्रिय नहीं होता; आत्मा की कामना से पति प्रिय होता है।',
@@ -67,7 +67,7 @@ export const brihadaranyaka: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'आत्मा वा अरे द्रष्टव्यः श्रोतव्यो मन्तव्यो निदिध्यासितव्यः |\nमैत्रेयि आत्मनो वा अरे दर्शनेन श्रवणेन मत्या विज्ञानेनेदं सर्वं विदितम् ||',
+          sanskrit: 'आत्मा वा अरे द्रष्टव्यः श्रोतव्यो मन्तव्यो निदिध्यासितव्यः ।\nमैत्रेयि आत्मनो वा अरे दर्शनेन श्रवणेन मत्या विज्ञानेनेदं सर्वं विदितम् ॥',
           transliteration: 'ātmā vā are draṣṭavyaḥ śrotavyo mantavyo nididhyāsitavyaḥ |\nmaitreyī ātmano vā are darśanena śravaṇena matyā vijñānenedaṃ sarvaṃ viditam ||',
           translation: 'The Self, O Maitreyi, should be seen, heard, reflected upon, and meditated upon. Verily, by seeing, hearing, reflecting upon and knowing the Self, all this is known.',
           hindi: 'हे मैत्रेयि! आत्मा को देखना चाहिए, सुनना चाहिए, मनन करना चाहिए, और ध्यान करना चाहिए। आत्मा के दर्शन, श्रवण, मनन और विज्ञान से यह सब जाना जाता है।',
@@ -78,7 +78,7 @@ export const brihadaranyaka: Scripture = {
         },
         {
           id: 14,
-          sanskrit: 'न वा अरे सर्वस्य कामाय सर्वं प्रियं भवति | आत्मनस्तु कामाय सर्वं प्रियं भवति ||',
+          sanskrit: 'न वा अरे सर्वस्य कामाय सर्वं प्रियं भवति । आत्मनस्तु कामाय सर्वं प्रियं भवति ॥',
           transliteration: 'na vā are sarvasya kāmāya sarvaṃ priyaṃ bhavati | ātmanastu kāmāya sarvaṃ priyaṃ bhavati ||',
           translation: 'Truly, it is not for the sake of all that all is dear — but for the sake of the Self that all is dear.',
           hindi: 'अरे! सब कुछ के लिए सब कुछ प्रिय नहीं होता। आत्मा के लिए ही सब कुछ प्रिय होता है।',
@@ -90,7 +90,7 @@ export const brihadaranyaka: Scripture = {
       
         {
           id: 1,
-          sanskrit: 'न वा अरे पत्युः कामाय पतिः प्रियो भवति |\nआत्मनस्तु कामाय पतिः प्रियो भवति ||',
+          sanskrit: 'न वा अरे पत्युः कामाय पतिः प्रियो भवति ।\nआत्मनस्तु कामाय पतिः प्रियो भवति ॥',
           transliteration: 'na vā are patyuḥ kāmāya patiḥ priyo bhavati |\nātmanastu kāmāya patiḥ priyo bhavati ||',
           translation: 'Verily, it is not for the sake of the husband that the husband is dear, but for the sake of the Self that the husband is dear.',
           hindi: 'अरे! पति की कामना से पति प्रिय नहीं होता; आत्मा की कामना से पति प्रिय होता है।',
@@ -99,7 +99,7 @@ export const brihadaranyaka: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'आत्मा वा अरे द्रष्टव्यः श्रोतव्यो मन्तव्यो निदिध्यासितव्यः |\nमैत्रेयि आत्मनो वा अरे दर्शनेन श्रवणेन मत्या विज्ञानेनेदं सर्वं विदितम् ||',
+          sanskrit: 'आत्मा वा अरे द्रष्टव्यः श्रोतव्यो मन्तव्यो निदिध्यासितव्यः ।\nमैत्रेयि आत्मनो वा अरे दर्शनेन श्रवणेन मत्या विज्ञानेनेदं सर्वं विदितम् ॥',
           transliteration: 'ātmā vā are draṣṭavyaḥ śrotavyo mantavyo nididhyāsitavyaḥ |\nmaitreyī ātmano vā are darśanena śravaṇena matyā vijñānenedaṃ sarvaṃ viditam ||',
           translation: 'The Self, O Maitreyi, should be seen, heard, reflected upon, and meditated upon. Verily, by seeing, hearing, reflecting upon and knowing the Self, all this is known.',
           hindi: 'हे मैत्रेयि! आत्मा को देखना चाहिए, सुनना चाहिए, मनन करना चाहिए, और ध्यान करना चाहिए। आत्मा के दर्शन, श्रवण, मनन और विज्ञान से यह सब जाना जाता है।',
@@ -108,7 +108,7 @@ export const brihadaranyaka: Scripture = {
         },
         {
           id: 3,
-          sanskrit: 'न वा अरे सर्वस्य कामाय सर्वं प्रियं भवति | आत्मनस्तु कामाय सर्वं प्रियं भवति ||',
+          sanskrit: 'न वा अरे सर्वस्य कामाय सर्वं प्रियं भवति । आत्मनस्तु कामाय सर्वं प्रियं भवति ॥',
           transliteration: 'na vā are sarvasya kāmāya sarvaṃ priyaṃ bhavati | ātmanastu kāmāya sarvaṃ priyaṃ bhavati ||',
           translation: 'Truly, it is not for the sake of all that all is dear — but for the sake of the Self that all is dear.',
           hindi: 'अरे! सब कुछ के लिए सब कुछ प्रिय नहीं होता। आत्मा के लिए ही सब कुछ प्रिय होता है।',
@@ -117,7 +117,7 @@ export const brihadaranyaka: Scripture = {
         },
         {
           id: 7,
-          sanskrit: 'अहं ब्रह्मास्मि |',
+          sanskrit: 'अहं ब्रह्मास्मि ।',
           transliteration: 'ahaṃ brahmāsmi |',
           translation: 'I am Brahman.',
           hindi: 'मैं ब्रह्म हूँ।',
@@ -133,7 +133,7 @@ export const brihadaranyaka: Scripture = {
       verses: [
         {
           id: 9,
-          sanskrit: 'अथ होवाच | कतम एको देव इति |\nप्राण इति | स ब्रह्म | तदित्याचक्षते ||',
+          sanskrit: 'अथ होवाच । कतम एको देव इति ।\nप्राण इति । स ब्रह्म । तदित्याचक्षते ॥',
           transliteration: 'atha hovāca | katama eko deva iti |\nprāṇa iti | sa brahma | tadityācakṣate ||',
           translation: 'Then he said: What is the one God? Prana (life-breath), he replied. That is Brahman. They call it "That."',
           hindi: 'तब उसने कहा: एक देव कौन है? प्राण है — यह उत्तर था। वह ब्रह्म है। उसे "वह" कहते हैं।',
@@ -144,7 +144,7 @@ export const brihadaranyaka: Scripture = {
         },
         {
           id: 26,
-          sanskrit: 'नेति नेति | न ह्येतस्मादिति न अत्येति | अथ नामधेयं सत्यस्य सत्यमिति ||',
+          sanskrit: 'नेति नेति । न ह्येतस्मादिति न अत्येति । अथ नामधेयं सत्यस्य सत्यमिति ॥',
           transliteration: 'neti neti | na hyetasmāditi na atyeti | atha nāmadheyaṃ satyasya satyamiti ||',
           translation: 'Not this, not this. For there is nothing higher than this "not this." And its name is "the Truth of truth" — for the vital breath is truth, and Brahman is the Truth of that.',
           hindi: 'नेति नेति। इससे परे कुछ और नहीं कहा जा सकता। और इसका नाम है "सत्यस्य सत्यम्" — क्योंकि प्राण सत्य है और ब्रह्म उस सत्य का भी सत्य है।',
@@ -156,7 +156,7 @@ export const brihadaranyaka: Scripture = {
       
         {
           id: 1,
-          sanskrit: 'अथ होवाच | कतम एको देव इति |\nप्राण इति | स ब्रह्म | तदित्याचक्षते ||',
+          sanskrit: 'अथ होवाच । कतम एको देव इति ।\nप्राण इति । स ब्रह्म । तदित्याचक्षते ॥',
           transliteration: 'atha hovāca | katama eko deva iti |\nprāṇa iti | sa brahma | tadityācakṣate ||',
           translation: 'Then he said: What is the one God? Prana (life-breath), he replied. That is Brahman. They call it "That."',
           hindi: 'तब उसने कहा: एक देव कौन है? प्राण है — यह उत्तर था। वह ब्रह्म है। उसे "वह" कहते हैं।',
@@ -165,7 +165,7 @@ export const brihadaranyaka: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'नेति नेति | न ह्येतस्मादिति न अत्येति | अथ नामधेयं सत्यस्य सत्यमिति ||',
+          sanskrit: 'नेति नेति । न ह्येतस्मादिति न अत्येति । अथ नामधेयं सत्यस्य सत्यमिति ॥',
           transliteration: 'neti neti | na hyetasmāditi na atyeti | atha nāmadheyaṃ satyasya satyamiti ||',
           translation: 'Not this, not this. For there is nothing higher than this "not this." And its name is "the Truth of truth" — for the vital breath is truth, and Brahman is the Truth of that.',
           hindi: 'नेति नेति। इससे परे कुछ और नहीं कहा जा सकता। और इसका नाम है "सत्यस्य सत्यम्" — क्योंकि प्राण सत्य है और ब्रह्म उस सत्य का भी सत्य है।',
@@ -174,7 +174,7 @@ export const brihadaranyaka: Scripture = {
         },
         {
           id: 4,
-          sanskrit: 'न वा अरे पत्युः कामाय पतिः प्रियो भवति |\nआत्मनस्तु कामाय पतिः प्रियो भवति ||',
+          sanskrit: 'न वा अरे पत्युः कामाय पतिः प्रियो भवति ।\nआत्मनस्तु कामाय पतिः प्रियो भवति ॥',
           transliteration: 'na vā are patyuḥ kāmāya patiḥ priyo bhavati |\nātmanastu kāmāya patiḥ priyo bhavati ||',
           translation: 'Verily, it is not for the sake of the husband that the husband is dear, but for the sake of the Self that the husband is dear.',
           hindi: 'अरे! पति की कामना से पति प्रिय नहीं होता; आत्मा की कामना से पति प्रिय होता है।',
@@ -183,7 +183,7 @@ export const brihadaranyaka: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'आत्मा वा अरे द्रष्टव्यः श्रोतव्यो मन्तव्यो निदिध्यासितव्यः |\nमैत्रेयि आत्मनो वा अरे दर्शनेन श्रवणेन मत्या विज्ञानेनेदं सर्वं विदितम् ||',
+          sanskrit: 'आत्मा वा अरे द्रष्टव्यः श्रोतव्यो मन्तव्यो निदिध्यासितव्यः ।\nमैत्रेयि आत्मनो वा अरे दर्शनेन श्रवणेन मत्या विज्ञानेनेदं सर्वं विदितम् ॥',
           transliteration: 'ātmā vā are draṣṭavyaḥ śrotavyo mantavyo nididhyāsitavyaḥ |\nmaitreyī ātmano vā are darśanena śravaṇena matyā vijñānenedaṃ sarvaṃ viditam ||',
           translation: 'The Self, O Maitreyi, should be seen, heard, reflected upon, and meditated upon. Verily, by seeing, hearing, reflecting upon and knowing the Self, all this is known.',
           hindi: 'हे मैत्रेयि! आत्मा को देखना चाहिए, सुनना चाहिए, मनन करना चाहिए, और ध्यान करना चाहिए। आत्मा के दर्शन, श्रवण, मनन और विज्ञान से यह सब जाना जाता है।',
@@ -192,7 +192,7 @@ export const brihadaranyaka: Scripture = {
         },
         {
           id: 7,
-          sanskrit: 'अहं ब्रह्मास्मि |',
+          sanskrit: 'अहं ब्रह्मास्मि ।',
           transliteration: 'ahaṃ brahmāsmi |',
           translation: 'I am Brahman.',
           hindi: 'मैं ब्रह्म हूँ।',
@@ -201,7 +201,7 @@ export const brihadaranyaka: Scripture = {
         },
         {
           id: 14,
-          sanskrit: 'न वा अरे सर्वस्य कामाय सर्वं प्रियं भवति | आत्मनस्तु कामाय सर्वं प्रियं भवति ||',
+          sanskrit: 'न वा अरे सर्वस्य कामाय सर्वं प्रियं भवति । आत्मनस्तु कामाय सर्वं प्रियं भवति ॥',
           transliteration: 'na vā are sarvasya kāmāya sarvaṃ priyaṃ bhavati | ātmanastu kāmāya sarvaṃ priyaṃ bhavati ||',
           translation: 'Truly, it is not for the sake of all that all is dear — but for the sake of the Self that all is dear.',
           hindi: 'अरे! सब कुछ के लिए सब कुछ प्रिय नहीं होता। आत्मा के लिए ही सब कुछ प्रिय होता है।',
@@ -210,7 +210,7 @@ export const brihadaranyaka: Scripture = {
         },
         {
           id: 15,
-          sanskrit: 'यत्र हि द्वैतमिव भवति तदितर इतरं पश्यति | यत्र त्वस्य सर्वमात्मैवाभूत् तत्केन कं पश्येत् ||',
+          sanskrit: 'यत्र हि द्वैतमिव भवति तदितर इतरं पश्यति । यत्र त्वस्य सर्वमात्मैवाभूत् तत्केन कं पश्येत् ॥',
           transliteration: 'yatra hi dvaitamiva bhavati taditara itaraṃ paśyati | yatra tvasya sarvamātmaivābhūt tatakena kaṃ paśyet ||',
           translation: 'Where there seems to be duality, there one sees the other. But where everything has become the Self — by what would one see what?',
           hindi: 'जहाँ द्वैत जैसा लगता है, वहाँ कोई दूसरे को देखता है। परंतु जहाँ सब कुछ आत्मा ही हो गया — वहाँ किससे किसे देखा जाए?',
@@ -219,7 +219,7 @@ export const brihadaranyaka: Scripture = {
         },
         {
           id: 28,
-          sanskrit: 'असतो मा सद्गमय | तमसो मा ज्योतिर्गमय | मृत्योर्माऽमृतं गमय ||',
+          sanskrit: 'असतो मा सद्गमय । तमसो मा ज्योतिर्गमय । मृत्योर्माऽमृतं गमय ॥',
           transliteration: 'asato mā sadgamaya | tamaso mā jyotirgamaya | mṛtyormā\'mṛtaṃ gamaya ||',
           translation: 'From the unreal lead me to the real. From darkness lead me to light. From death lead me to immortality.',
           hindi: 'असत्य से सत्य की ओर ले चल। अंधकार से प्रकाश की ओर ले चल। मृत्यु से अमृत की ओर ले चल।',
@@ -235,7 +235,7 @@ export const brihadaranyaka: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'अयं पृथिव्याः मधु | अस्यै पृथिव्यै सर्वाणि भूतानि मधु | यश्चायमस्यां पृथिव्यां तेजोमयोऽमृतमयः पुरुषः ||',
+          sanskrit: 'अयं पृथिव्याः मधु । अस्यै पृथिव्यै सर्वाणि भूतानि मधु । यश्चायमस्यां पृथिव्यां तेजोमयोऽमृतमयः पुरुषः ॥',
           transliteration: 'ayaṃ pṛthivyāḥ madhu | asyai pṛthivyai sarvāṇi bhūtāni madhu | yaścāyamasyāṃ pṛthivyāṃ tejomayo\'mṛtamayaḥ puruṣaḥ ||',
           translation: 'This earth is the honey of all beings, and all beings are the honey of this earth. That shining, immortal person who is in this earth — that is the Self, that is the Immortal, that is Brahman.',
           hindi: 'यह पृथ्वी सभी प्राणियों का मधु है, और सभी प्राणी इस पृथ्वी के मधु हैं। जो यहाँ तेजोमय और अमृतमय पुरुष है — वह आत्मा है, वह अमृत है, वह ब्रह्म है।',
@@ -247,7 +247,7 @@ export const brihadaranyaka: Scripture = {
       
         {
           id: 4,
-          sanskrit: 'न वा अरे पत्युः कामाय पतिः प्रियो भवति |\nआत्मनस्तु कामाय पतिः प्रियो भवति ||',
+          sanskrit: 'न वा अरे पत्युः कामाय पतिः प्रियो भवति ।\nआत्मनस्तु कामाय पतिः प्रियो भवति ॥',
           transliteration: 'na vā are patyuḥ kāmāya patiḥ priyo bhavati |\nātmanastu kāmāya patiḥ priyo bhavati ||',
           translation: 'Verily, it is not for the sake of the husband that the husband is dear, but for the sake of the Self that the husband is dear.',
           hindi: 'अरे! पति की कामना से पति प्रिय नहीं होता; आत्मा की कामना से पति प्रिय होता है।',
@@ -256,7 +256,7 @@ export const brihadaranyaka: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'आत्मा वा अरे द्रष्टव्यः श्रोतव्यो मन्तव्यो निदिध्यासितव्यः |\nमैत्रेयि आत्मनो वा अरे दर्शनेन श्रवणेन मत्या विज्ञानेनेदं सर्वं विदितम् ||',
+          sanskrit: 'आत्मा वा अरे द्रष्टव्यः श्रोतव्यो मन्तव्यो निदिध्यासितव्यः ।\nमैत्रेयि आत्मनो वा अरे दर्शनेन श्रवणेन मत्या विज्ञानेनेदं सर्वं विदितम् ॥',
           transliteration: 'ātmā vā are draṣṭavyaḥ śrotavyo mantavyo nididhyāsitavyaḥ |\nmaitreyī ātmano vā are darśanena śravaṇena matyā vijñānenedaṃ sarvaṃ viditam ||',
           translation: 'The Self, O Maitreyi, should be seen, heard, reflected upon, and meditated upon. Verily, by seeing, hearing, reflecting upon and knowing the Self, all this is known.',
           hindi: 'हे मैत्रेयि! आत्मा को देखना चाहिए, सुनना चाहिए, मनन करना चाहिए, और ध्यान करना चाहिए। आत्मा के दर्शन, श्रवण, मनन और विज्ञान से यह सब जाना जाता है।',
@@ -265,7 +265,7 @@ export const brihadaranyaka: Scripture = {
         },
         {
           id: 7,
-          sanskrit: 'अहं ब्रह्मास्मि |',
+          sanskrit: 'अहं ब्रह्मास्मि ।',
           transliteration: 'ahaṃ brahmāsmi |',
           translation: 'I am Brahman.',
           hindi: 'मैं ब्रह्म हूँ।',
@@ -274,7 +274,7 @@ export const brihadaranyaka: Scripture = {
         },
         {
           id: 9,
-          sanskrit: 'अथ होवाच | कतम एको देव इति |\nप्राण इति | स ब्रह्म | तदित्याचक्षते ||',
+          sanskrit: 'अथ होवाच । कतम एको देव इति ।\nप्राण इति । स ब्रह्म । तदित्याचक्षते ॥',
           transliteration: 'atha hovāca | katama eko deva iti |\nprāṇa iti | sa brahma | tadityācakṣate ||',
           translation: 'Then he said: What is the one God? Prana (life-breath), he replied. That is Brahman. They call it "That."',
           hindi: 'तब उसने कहा: एक देव कौन है? प्राण है — यह उत्तर था। वह ब्रह्म है। उसे "वह" कहते हैं।',
@@ -283,7 +283,7 @@ export const brihadaranyaka: Scripture = {
         },
         {
           id: 14,
-          sanskrit: 'न वा अरे सर्वस्य कामाय सर्वं प्रियं भवति | आत्मनस्तु कामाय सर्वं प्रियं भवति ||',
+          sanskrit: 'न वा अरे सर्वस्य कामाय सर्वं प्रियं भवति । आत्मनस्तु कामाय सर्वं प्रियं भवति ॥',
           transliteration: 'na vā are sarvasya kāmāya sarvaṃ priyaṃ bhavati | ātmanastu kāmāya sarvaṃ priyaṃ bhavati ||',
           translation: 'Truly, it is not for the sake of all that all is dear — but for the sake of the Self that all is dear.',
           hindi: 'अरे! सब कुछ के लिए सब कुछ प्रिय नहीं होता। आत्मा के लिए ही सब कुछ प्रिय होता है।',
@@ -292,7 +292,7 @@ export const brihadaranyaka: Scripture = {
         },
         {
           id: 15,
-          sanskrit: 'यत्र हि द्वैतमिव भवति तदितर इतरं पश्यति | यत्र त्वस्य सर्वमात्मैवाभूत् तत्केन कं पश्येत् ||',
+          sanskrit: 'यत्र हि द्वैतमिव भवति तदितर इतरं पश्यति । यत्र त्वस्य सर्वमात्मैवाभूत् तत्केन कं पश्येत् ॥',
           transliteration: 'yatra hi dvaitamiva bhavati taditara itaraṃ paśyati | yatra tvasya sarvamātmaivābhūt tatakena kaṃ paśyet ||',
           translation: 'Where there seems to be duality, there one sees the other. But where everything has become the Self — by what would one see what?',
           hindi: 'जहाँ द्वैत जैसा लगता है, वहाँ कोई दूसरे को देखता है। परंतु जहाँ सब कुछ आत्मा ही हो गया — वहाँ किससे किसे देखा जाए?',
@@ -308,7 +308,7 @@ export const brihadaranyaka: Scripture = {
       verses: [
         {
           id: 28,
-          sanskrit: 'असतो मा सद्गमय | तमसो मा ज्योतिर्गमय | मृत्योर्माऽमृतं गमय ||',
+          sanskrit: 'असतो मा सद्गमय । तमसो मा ज्योतिर्गमय । मृत्योर्माऽमृतं गमय ॥',
           transliteration: 'asato mā sadgamaya | tamaso mā jyotirgamaya | mṛtyormā\'mṛtaṃ gamaya ||',
           translation: 'From the unreal lead me to the real. From darkness lead me to light. From death lead me to immortality.',
           hindi: 'असत्य से सत्य की ओर ले चल। अंधकार से प्रकाश की ओर ले चल। मृत्यु से अमृत की ओर ले चल।',
@@ -320,7 +320,7 @@ export const brihadaranyaka: Scripture = {
       
         {
           id: 1,
-          sanskrit: 'असतो मा सद्गमय | तमसो मा ज्योतिर्गमय | मृत्योर्माऽमृतं गमय ||',
+          sanskrit: 'असतो मा सद्गमय । तमसो मा ज्योतिर्गमय । मृत्योर्माऽमृतं गमय ॥',
           transliteration: 'asato mā sadgamaya | tamaso mā jyotirgamaya | mṛtyormā\'mṛtaṃ gamaya ||',
           translation: 'From the unreal lead me to the real. From darkness lead me to light. From death lead me to immortality.',
           hindi: 'असत्य से सत्य की ओर ले चल। अंधकार से प्रकाश की ओर ले चल। मृत्यु से अमृत की ओर ले चल।',
@@ -329,7 +329,7 @@ export const brihadaranyaka: Scripture = {
         },
         {
           id: 4,
-          sanskrit: 'न वा अरे पत्युः कामाय पतिः प्रियो भवति |\nआत्मनस्तु कामाय पतिः प्रियो भवति ||',
+          sanskrit: 'न वा अरे पत्युः कामाय पतिः प्रियो भवति ।\nआत्मनस्तु कामाय पतिः प्रियो भवति ॥',
           transliteration: 'na vā are patyuḥ kāmāya patiḥ priyo bhavati |\nātmanastu kāmāya patiḥ priyo bhavati ||',
           translation: 'Verily, it is not for the sake of the husband that the husband is dear, but for the sake of the Self that the husband is dear.',
           hindi: 'अरे! पति की कामना से पति प्रिय नहीं होता; आत्मा की कामना से पति प्रिय होता है।',
@@ -338,7 +338,7 @@ export const brihadaranyaka: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'आत्मा वा अरे द्रष्टव्यः श्रोतव्यो मन्तव्यो निदिध्यासितव्यः |\nमैत्रेयि आत्मनो वा अरे दर्शनेन श्रवणेन मत्या विज्ञानेनेदं सर्वं विदितम् ||',
+          sanskrit: 'आत्मा वा अरे द्रष्टव्यः श्रोतव्यो मन्तव्यो निदिध्यासितव्यः ।\nमैत्रेयि आत्मनो वा अरे दर्शनेन श्रवणेन मत्या विज्ञानेनेदं सर्वं विदितम् ॥',
           transliteration: 'ātmā vā are draṣṭavyaḥ śrotavyo mantavyo nididhyāsitavyaḥ |\nmaitreyī ātmano vā are darśanena śravaṇena matyā vijñānenedaṃ sarvaṃ viditam ||',
           translation: 'The Self, O Maitreyi, should be seen, heard, reflected upon, and meditated upon. Verily, by seeing, hearing, reflecting upon and knowing the Self, all this is known.',
           hindi: 'हे मैत्रेयि! आत्मा को देखना चाहिए, सुनना चाहिए, मनन करना चाहिए, और ध्यान करना चाहिए। आत्मा के दर्शन, श्रवण, मनन और विज्ञान से यह सब जाना जाता है।',
@@ -347,7 +347,7 @@ export const brihadaranyaka: Scripture = {
         },
         {
           id: 7,
-          sanskrit: 'अहं ब्रह्मास्मि |',
+          sanskrit: 'अहं ब्रह्मास्मि ।',
           transliteration: 'ahaṃ brahmāsmi |',
           translation: 'I am Brahman.',
           hindi: 'मैं ब्रह्म हूँ।',
@@ -356,7 +356,7 @@ export const brihadaranyaka: Scripture = {
         },
         {
           id: 9,
-          sanskrit: 'अथ होवाच | कतम एको देव इति |\nप्राण इति | स ब्रह्म | तदित्याचक्षते ||',
+          sanskrit: 'अथ होवाच । कतम एको देव इति ।\nप्राण इति । स ब्रह्म । तदित्याचक्षते ॥',
           transliteration: 'atha hovāca | katama eko deva iti |\nprāṇa iti | sa brahma | tadityācakṣate ||',
           translation: 'Then he said: What is the one God? Prana (life-breath), he replied. That is Brahman. They call it "That."',
           hindi: 'तब उसने कहा: एक देव कौन है? प्राण है — यह उत्तर था। वह ब्रह्म है। उसे "वह" कहते हैं।',
@@ -365,7 +365,7 @@ export const brihadaranyaka: Scripture = {
         },
         {
           id: 14,
-          sanskrit: 'न वा अरे सर्वस्य कामाय सर्वं प्रियं भवति | आत्मनस्तु कामाय सर्वं प्रियं भवति ||',
+          sanskrit: 'न वा अरे सर्वस्य कामाय सर्वं प्रियं भवति । आत्मनस्तु कामाय सर्वं प्रियं भवति ॥',
           transliteration: 'na vā are sarvasya kāmāya sarvaṃ priyaṃ bhavati | ātmanastu kāmāya sarvaṃ priyaṃ bhavati ||',
           translation: 'Truly, it is not for the sake of all that all is dear — but for the sake of the Self that all is dear.',
           hindi: 'अरे! सब कुछ के लिए सब कुछ प्रिय नहीं होता। आत्मा के लिए ही सब कुछ प्रिय होता है।',
@@ -374,7 +374,7 @@ export const brihadaranyaka: Scripture = {
         },
         {
           id: 15,
-          sanskrit: 'यत्र हि द्वैतमिव भवति तदितर इतरं पश्यति | यत्र त्वस्य सर्वमात्मैवाभूत् तत्केन कं पश्येत् ||',
+          sanskrit: 'यत्र हि द्वैतमिव भवति तदितर इतरं पश्यति । यत्र त्वस्य सर्वमात्मैवाभूत् तत्केन कं पश्येत् ॥',
           transliteration: 'yatra hi dvaitamiva bhavati taditara itaraṃ paśyati | yatra tvasya sarvamātmaivābhūt tatakena kaṃ paśyet ||',
           translation: 'Where there seems to be duality, there one sees the other. But where everything has become the Self — by what would one see what?',
           hindi: 'जहाँ द्वैत जैसा लगता है, वहाँ कोई दूसरे को देखता है। परंतु जहाँ सब कुछ आत्मा ही हो गया — वहाँ किससे किसे देखा जाए?',
@@ -390,7 +390,7 @@ export const brihadaranyaka: Scripture = {
       verses: [
         {
           id: 5,
-          sanskrit: 'आत्मैवास्य ज्योतिर्भवति | आत्मनैवायं ज्योतिषास्ते पल्ययते कर्म कुरुते विपल्येति ||',
+          sanskrit: 'आत्मैवास्य ज्योतिर्भवति । आत्मनैवायं ज्योतिषास्ते पल्ययते कर्म कुरुते विपल्येति ॥',
           transliteration: 'ātmaivāsya jyotirbhavati | ātmanaivāyaṃ jyotiṣāste pallayate karma kurute vipallyeti ||',
           translation: 'Then the Self alone is his light. By the light of the Self alone he sits, moves about, performs actions, and returns home.',
           hindi: 'तब आत्मा ही उसका प्रकाश हो जाता है। आत्मा के प्रकाश से ही वह बैठता है, घूमता है, कर्म करता है, और लौटता है।',
@@ -402,7 +402,7 @@ export const brihadaranyaka: Scripture = {
       
         {
           id: 1,
-          sanskrit: 'आत्मैवास्य ज्योतिर्भवति | आत्मनैवायं ज्योतिषास्ते पल्ययते कर्म कुरुते विपल्येति ||',
+          sanskrit: 'आत्मैवास्य ज्योतिर्भवति । आत्मनैवायं ज्योतिषास्ते पल्ययते कर्म कुरुते विपल्येति ॥',
           transliteration: 'ātmaivāsya jyotirbhavati | ātmanaivāyaṃ jyotiṣāste pallayate karma kurute vipallyeti ||',
           translation: 'Then the Self alone is his light. By the light of the Self alone he sits, moves about, performs actions, and returns home.',
           hindi: 'तब आत्मा ही उसका प्रकाश हो जाता है। आत्मा के प्रकाश से ही वह बैठता है, घूमता है, कर्म करता है, और लौटता है।',

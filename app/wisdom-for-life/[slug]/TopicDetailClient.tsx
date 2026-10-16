@@ -264,7 +264,7 @@ export function TopicDetailClient({
                       hindi={verse.literalTranslationHi}
                       translation={verse.literalTranslationEn}
                       compact
-                      verseUrl={`https://dharmagranth.in/wisdom-for-life/${topic.slug}#verse-${verse.id}`}
+                      verseUrl={`https://dharmagranth.in/wisdom-for-life/${topic.slug}/#verse-${verse.id}`}
                     />
 
                     <Link

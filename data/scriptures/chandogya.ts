@@ -17,7 +17,7 @@ export const chandogya: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'सर्वं खल्विदं ब्रह्म | तज्जलानिति शान्त उपासीत ||',
+          sanskrit: 'सर्वं खल्विदं ब्रह्म । तज्जलानिति शान्त उपासीत ॥',
           transliteration: 'sarvaṃ khalvidaṃ brahma | tajjalāniti śānta upāsīta ||',
           translation: 'All this is indeed Brahman. One should meditate on it in tranquility as that from which everything is born, into which everything dissolves, and by which everything breathes.',
           hindi: 'यह सब निश्चित रूप से ब्रह्म ही है। उसका शांतिपूर्वक ध्यान करना चाहिए — उस रूप में जिससे यह सब उत्पन्न होता है, जिसमें लीन होता है, और जिससे श्वास लेता है।',
@@ -28,7 +28,7 @@ export const chandogya: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'मनोमयः प्राणशरीरो भारूपः सत्यसङ्कल्प आकाशात्मा सर्वकर्मा सर्वकामः सर्वगन्धः सर्वरसः ||',
+          sanskrit: 'मनोमयः प्राणशरीरो भारूपः सत्यसङ्कल्प आकाशात्मा सर्वकर्मा सर्वकामः सर्वगन्धः सर्वरसः ॥',
           transliteration: 'manomayaḥ prāṇaśarīro bhārūpaḥ satyasaṅkalpa ākāśātmā sarvakarmā sarvakāmaḥ sarvagandhaḥ sarvarasaḥ ||',
           translation: 'He is made of mind, his body is life-force, his form is light, his resolve is truth, his Self is space, he is all actions, all desires, all smells, all tastes.',
           hindi: 'वह मनोमय है, प्राण उसका शरीर है, प्रकाश उसका रूप है, सत्य उसका संकल्प है, आकाश उसकी आत्मा है। वह सभी कर्मों में, सभी कामनाओं में, सभी गंधों में, सभी रसों में है।',
@@ -40,7 +40,7 @@ export const chandogya: Scripture = {
       
         {
           id: 10102,
-          sanskrit: 'मनोमयः प्राणशरीरो भारूपः सत्यसङ्कल्प आकाशात्मा सर्वकर्मा सर्वकामः सर्वगन्धः सर्वरसः ||',
+          sanskrit: 'मनोमयः प्राणशरीरो भारूपः सत्यसङ्कल्प आकाशात्मा सर्वकर्मा सर्वकामः सर्वगन्धः सर्वरसः ॥',
           transliteration: 'manomayaḥ prāṇaśarīro bhārūpaḥ satyasaṅkalpa ākāśātmā sarvakarmā sarvakāmaḥ sarvagandhaḥ sarvarasaḥ ||',
           translation: 'He is made of mind, his body is life-force, his form is light, his resolve is truth, his Self is space, he is all actions, all desires, all smells, all tastes.',
           hindi: 'वह मनोमय है, प्राण उसका शरीर है, प्रकाश उसका रूप है, सत्य उसका संकल्प है, आकाश उसकी आत्मा है। वह सभी कर्मों में, सभी कामनाओं में, सभी गंधों में, सभी रसों में है।',
@@ -49,7 +49,7 @@ export const chandogya: Scripture = {
         },
         {
           id: 10105,
-          sanskrit: 'नैतदब्राह्मणो विवक्तुमर्हति | समिधं सोम्याहर | उप त्वा नेष्ये | न सत्यादगाः ||',
+          sanskrit: 'नैतदब्राह्मणो विवक्तुमर्हति । समिधं सोम्याहर । उप त्वा नेष्ये । न सत्यादगाः ॥',
           transliteration: 'naitadabrāhmaṇo vivaktumarhati | samidhaṃ somyāhara | upa tvā neṣye | na satyādagāḥ ||',
           translation: '"None but a Brahmana could speak so. Bring the firewood, dear one — I will initiate you. You have not departed from truth."',
           hindi: 'गुरु ने कहा: "कोई अब्राह्मण ऐसा सत्य नहीं बोल सकता। हे सौम्य, समिधा लाओ — मैं तुम्हारा उपनयन करूँगा। तुम सत्य से नहीं डिगे।"',
@@ -58,7 +58,7 @@ export const chandogya: Scripture = {
         },
         {
           id: 10109,
-          sanskrit: 'तत्त्वमसि श्वेतकेतो | स य एषोऽणिमैतदात्म्यमिदं सर्वं तत्सत्यं स आत्मा तत्त्वमसि श्वेतकेतो ||',
+          sanskrit: 'तत्त्वमसि श्वेतकेतो । स य एषोऽणिमैतदात्म्यमिदं सर्वं तत्सत्यं स आत्मा तत्त्वमसि श्वेतकेतो ॥',
           transliteration: 'tattvamasi śvetaketo | sa ya eṣo\'ṇimaitadātmyamidaṃ sarvaṃ tatsatyaṃ sa ātmā tattvamasi śvetaketo ||',
           translation: 'That art thou, O Shvetaketu. That which is the finest essence — this whole world has that as its Self. That is the real. That is the Self. That art thou, O Shvetaketu.',
           hindi: 'तत्त्वमसि श्वेतकेतो। जो यह सूक्ष्मतम सार है — यह सारा जगत उसी को आत्मा के रूप में धारण करता है। वही सत्य है। वही आत्मा है। तत्त्वमसि श्वेतकेतो।',
@@ -74,7 +74,7 @@ export const chandogya: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'स य एषोऽणिमैतदात्म्यमिदं सर्वं तत् सत्यं स आत्मा तत्त्वमसि श्वेतकेतो ||',
+          sanskrit: 'स य एषोऽणिमैतदात्म्यमिदं सर्वं तत् सत्यं स आत्मा तत्त्वमसि श्वेतकेतो ॥',
           transliteration: "sa ya eṣo'ṇimaitadātmyamidaṃ sarvaṃ tat satyaṃ sa ātmā tattvamasi śvetaketo ||",
           translation: 'That subtle essence — this whole world has That as its Self. That is truth. That is the Self. And That, O Shvetaketu, THOU ART.',
           hindi: 'वह जो सूक्ष्म तत्त्व है — इस पूरे जगत की आत्मा वही है। वही सत्य है, वही आत्मा है। और हे श्वेतकेतु — वह तुम हो।',
@@ -85,7 +85,7 @@ export const chandogya: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'यथा सोम्य मधु मधुकृतो निस्तिष्ठन्ति नानात्यृक्षेभ्यः रसं समवहाराम्येकतां रसं गमयन्ति ||',
+          sanskrit: 'यथा सोम्य मधु मधुकृतो निस्तिष्ठन्ति नानात्यृक्षेभ्यः रसं समवहाराम्येकतां रसं गमयन्ति ॥',
           transliteration: "yathā somya madhu madhukṛto nistiṣṭhanti nānātyṛkṣebhyaḥ rasaṃ samavahārāmyekatāṃ rasaṃ gamayanti ||",
           translation: 'As bees, dear one, gather nectar from many different trees and reduce it to a unity — each drop cannot say "I am from this tree" or "I am from that tree"...',
           hindi: 'हे सौम्य! जैसे मधुमक्खियाँ विभिन्न वृक्षों का रस एकत्र करके मधु बनाती हैं — प्रत्येक रस-बिंदु यह नहीं कह सकती कि "मैं इस वृक्ष से हूँ" या "उस वृक्ष से हूँ"...',
@@ -96,7 +96,7 @@ export const chandogya: Scripture = {
         },
         {
           id: 3,
-          sanskrit: 'यथा सोम्य नद्यः सर्वाः समुद्राद्यन्ति समुद्रं प्राप्य नाम रूपे विहाय समुद्र एव भवन्ति ||',
+          sanskrit: 'यथा सोम्य नद्यः सर्वाः समुद्राद्यन्ति समुद्रं प्राप्य नाम रूपे विहाय समुद्र एव भवन्ति ॥',
           transliteration: 'yathā somya nadyaḥ sarvāḥ samudradyanti samudraṃ prāpya nāma rūpe vihāya samudra eva bhavanti ||',
           translation: 'As rivers, dear one, all flow to the ocean, and on reaching it their name and form dissolve — they become the ocean itself.',
           hindi: 'हे सौम्य! जैसे सभी नदियाँ समुद्र की ओर बहती हैं और समुद्र में पहुँचकर अपने नाम और रूप खो देती हैं — वे समुद्र ही बन जाती हैं।',
@@ -108,7 +108,7 @@ export const chandogya: Scripture = {
       
         {
           id: 10202,
-          sanskrit: 'यथा सोम्य मधु मधुकृतो निस्तिष्ठन्ति नानात्यृक्षेभ्यः रसं समवहाराम्येकतां रसं गमयन्ति ||',
+          sanskrit: 'यथा सोम्य मधु मधुकृतो निस्तिष्ठन्ति नानात्यृक्षेभ्यः रसं समवहाराम्येकतां रसं गमयन्ति ॥',
           transliteration: 'yathā somya madhu madhukṛto nistiṣṭhanti nānātyṛkṣebhyaḥ rasaṃ samavahārāmyekatāṃ rasaṃ gamayanti ||',
           translation: 'As bees, dear one, gather nectar from many different trees and reduce it to a unity — each drop cannot say "I am from this tree" or "I am from that tree"...',
           hindi: 'हे सौम्य! जैसे मधुमक्खियाँ विभिन्न वृक्षों का रस एकत्र करके मधु बनाती हैं — प्रत्येक रस-बिंदु यह नहीं कह सकती कि "मैं इस वृक्ष से हूँ" या "उस वृक्ष से हूँ"...',
@@ -117,7 +117,7 @@ export const chandogya: Scripture = {
         },
         {
           id: 10203,
-          sanskrit: 'यथा सोम्य नद्यः सर्वाः समुद्राद्यन्ति समुद्रं प्राप्य नाम रूपे विहाय समुद्र एव भवन्ति ||',
+          sanskrit: 'यथा सोम्य नद्यः सर्वाः समुद्राद्यन्ति समुद्रं प्राप्य नाम रूपे विहाय समुद्र एव भवन्ति ॥',
           transliteration: 'yathā somya nadyaḥ sarvāḥ samudradyanti samudraṃ prāpya nāma rūpe vihāya samudra eva bhavanti ||',
           translation: 'As rivers, dear one, all flow to the ocean, and on reaching it their name and form dissolve — they become the ocean itself.',
           hindi: 'हे सौम्य! जैसे सभी नदियाँ समुद्र की ओर बहती हैं और समुद्र में पहुँचकर अपने नाम और रूप खो देती हैं — वे समुद्र ही बन जाती हैं।',
@@ -126,7 +126,7 @@ export const chandogya: Scripture = {
         },
         {
           id: 10205,
-          sanskrit: 'नैतदब्राह्मणो विवक्तुमर्हति | समिधं सोम्याहर | उप त्वा नेष्ये | न सत्यादगाः ||',
+          sanskrit: 'नैतदब्राह्मणो विवक्तुमर्हति । समिधं सोम्याहर । उप त्वा नेष्ये । न सत्यादगाः ॥',
           transliteration: 'naitadabrāhmaṇo vivaktumarhati | samidhaṃ somyāhara | upa tvā neṣye | na satyādagāḥ ||',
           translation: '"None but a Brahmana could speak so. Bring the firewood, dear one — I will initiate you. You have not departed from truth."',
           hindi: 'गुरु ने कहा: "कोई अब्राह्मण ऐसा सत्य नहीं बोल सकता। हे सौम्य, समिधा लाओ — मैं तुम्हारा उपनयन करूँगा। तुम सत्य से नहीं डिगे।"',
@@ -135,7 +135,7 @@ export const chandogya: Scripture = {
         },
         {
           id: 10209,
-          sanskrit: 'तत्त्वमसि श्वेतकेतो | स य एषोऽणिमैतदात्म्यमिदं सर्वं तत्सत्यं स आत्मा तत्त्वमसि श्वेतकेतो ||',
+          sanskrit: 'तत्त्वमसि श्वेतकेतो । स य एषोऽणिमैतदात्म्यमिदं सर्वं तत्सत्यं स आत्मा तत्त्वमसि श्वेतकेतो ॥',
           transliteration: 'tattvamasi śvetaketo | sa ya eṣo\'ṇimaitadātmyamidaṃ sarvaṃ tatsatyaṃ sa ātmā tattvamasi śvetaketo ||',
           translation: 'That art thou, O Shvetaketu. That which is the finest essence — this whole world has that as its Self. That is the real. That is the Self. That art thou, O Shvetaketu.',
           hindi: 'तत्त्वमसि श्वेतकेतो। जो यह सूक्ष्मतम सार है — यह सारा जगत उसी को आत्मा के रूप में धारण करता है। वही सत्य है। वही आत्मा है। तत्त्वमसि श्वेतकेतो।',
@@ -144,7 +144,7 @@ export const chandogya: Scripture = {
         },
         {
           id: 10210,
-          sanskrit: 'सर्वं खल्विदं ब्रह्म | तज्जलानिति शान्त उपासीत ||',
+          sanskrit: 'सर्वं खल्विदं ब्रह्म । तज्जलानिति शान्त उपासीत ॥',
           transliteration: 'sarvaṃ khalvidaṃ brahma | tajjalāniti śānta upāsīta ||',
           translation: 'All this is indeed Brahman. One should meditate on it in tranquility as that from which everything is born, into which everything dissolves, and by which everything breathes.',
           hindi: 'यह सब निश्चित रूप से ब्रह्म ही है। उसका शांतिपूर्वक ध्यान करना चाहिए — उस रूप में जिससे यह सब उत्पन्न होता है, जिसमें लीन होता है, और जिससे श्वास लेता है।',
@@ -160,7 +160,7 @@ export const chandogya: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'यो वै भूमा तत्सुखम् नाल्पे सुखमस्ति भूमैव सुखम् ||',
+          sanskrit: 'यो वै भूमा तत्सुखम् नाल्पे सुखमस्ति भूमैव सुखम् ॥',
           transliteration: 'yo vai bhūmā tatsukham nālpe sukhamasti bhūmaiva sukham ||',
           translation: 'That which is the Infinite (Bhuma) — that alone is happiness. There is no happiness in the finite. The Infinite alone is happiness.',
           hindi: 'जो भूमा (अनंत) है वही सुख है। अल्प में सुख नहीं है। भूमा ही सुख है।',
@@ -171,7 +171,7 @@ export const chandogya: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'भूमा त्वेव विजिज्ञासितव्यः इति भूमानं भगवो विजिज्ञासे इति ||',
+          sanskrit: 'भूमा त्वेव विजिज्ञासितव्यः इति भूमानं भगवो विजिज्ञासे इति ॥',
           transliteration: 'bhūmā tveva vijijñāsitavyaḥ iti bhūmānaṃ bhagavo vijijñāse iti ||',
           translation: 'The Infinite alone is to be inquired into. "Venerable sir, I desire to inquire into the Infinite."',
           hindi: 'भूमा (अनंत) की ही जिज्ञासा करनी चाहिए। "भगवन्! मैं भूमा को जानना चाहता हूँ।"',
@@ -183,7 +183,7 @@ export const chandogya: Scripture = {
       
         {
           id: 10302,
-          sanskrit: 'भूमा त्वेव विजिज्ञासितव्यः इति भूमानं भगवो विजिज्ञासे इति ||',
+          sanskrit: 'भूमा त्वेव विजिज्ञासितव्यः इति भूमानं भगवो विजिज्ञासे इति ॥',
           transliteration: 'bhūmā tveva vijijñāsitavyaḥ iti bhūmānaṃ bhagavo vijijñāse iti ||',
           translation: 'The Infinite alone is to be inquired into. "Venerable sir, I desire to inquire into the Infinite."',
           hindi: 'भूमा (अनंत) की ही जिज्ञासा करनी चाहिए। "भगवन्! मैं भूमा को जानना चाहता हूँ।"',
@@ -192,7 +192,7 @@ export const chandogya: Scripture = {
         },
         {
           id: 10303,
-          sanskrit: 'यथा सोम्य नद्यः सर्वाः समुद्राद्यन्ति समुद्रं प्राप्य नाम रूपे विहाय समुद्र एव भवन्ति ||',
+          sanskrit: 'यथा सोम्य नद्यः सर्वाः समुद्राद्यन्ति समुद्रं प्राप्य नाम रूपे विहाय समुद्र एव भवन्ति ॥',
           transliteration: 'yathā somya nadyaḥ sarvāḥ samudradyanti samudraṃ prāpya nāma rūpe vihāya samudra eva bhavanti ||',
           translation: 'As rivers, dear one, all flow to the ocean, and on reaching it their name and form dissolve — they become the ocean itself.',
           hindi: 'हे सौम्य! जैसे सभी नदियाँ समुद्र की ओर बहती हैं और समुद्र में पहुँचकर अपने नाम और रूप खो देती हैं — वे समुद्र ही बन जाती हैं।',
@@ -201,7 +201,7 @@ export const chandogya: Scripture = {
         },
         {
           id: 10305,
-          sanskrit: 'नैतदब्राह्मणो विवक्तुमर्हति | समिधं सोम्याहर | उप त्वा नेष्ये | न सत्यादगाः ||',
+          sanskrit: 'नैतदब्राह्मणो विवक्तुमर्हति । समिधं सोम्याहर । उप त्वा नेष्ये । न सत्यादगाः ॥',
           transliteration: 'naitadabrāhmaṇo vivaktumarhati | samidhaṃ somyāhara | upa tvā neṣye | na satyādagāḥ ||',
           translation: '"None but a Brahmana could speak so. Bring the firewood, dear one — I will initiate you. You have not departed from truth."',
           hindi: 'गुरु ने कहा: "कोई अब्राह्मण ऐसा सत्य नहीं बोल सकता। हे सौम्य, समिधा लाओ — मैं तुम्हारा उपनयन करूँगा। तुम सत्य से नहीं डिगे।"',
@@ -210,7 +210,7 @@ export const chandogya: Scripture = {
         },
         {
           id: 10309,
-          sanskrit: 'तत्त्वमसि श्वेतकेतो | स य एषोऽणिमैतदात्म्यमिदं सर्वं तत्सत्यं स आत्मा तत्त्वमसि श्वेतकेतो ||',
+          sanskrit: 'तत्त्वमसि श्वेतकेतो । स य एषोऽणिमैतदात्म्यमिदं सर्वं तत्सत्यं स आत्मा तत्त्वमसि श्वेतकेतो ॥',
           transliteration: 'tattvamasi śvetaketo | sa ya eṣo\'ṇimaitadātmyamidaṃ sarvaṃ tatsatyaṃ sa ātmā tattvamasi śvetaketo ||',
           translation: 'That art thou, O Shvetaketu. That which is the finest essence — this whole world has that as its Self. That is the real. That is the Self. That art thou, O Shvetaketu.',
           hindi: 'तत्त्वमसि श्वेतकेतो। जो यह सूक्ष्मतम सार है — यह सारा जगत उसी को आत्मा के रूप में धारण करता है। वही सत्य है। वही आत्मा है। तत्त्वमसि श्वेतकेतो।',
@@ -219,7 +219,7 @@ export const chandogya: Scripture = {
         },
         {
           id: 10310,
-          sanskrit: 'सर्वं खल्विदं ब्रह्म | तज्जलानिति शान्त उपासीत ||',
+          sanskrit: 'सर्वं खल्विदं ब्रह्म । तज्जलानिति शान्त उपासीत ॥',
           transliteration: 'sarvaṃ khalvidaṃ brahma | tajjalāniti śānta upāsīta ||',
           translation: 'All this is indeed Brahman. One should meditate on it in tranquility as that from which everything is born, into which everything dissolves, and by which everything breathes.',
           hindi: 'यह सब निश्चित रूप से ब्रह्म ही है। उसका शांतिपूर्वक ध्यान करना चाहिए — उस रूप में जिससे यह सब उत्पन्न होता है, जिसमें लीन होता है, और जिससे श्वास लेता है।',
@@ -235,7 +235,7 @@ export const chandogya: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'यथेमे नद्यः सचैव श्येनाः समुद्रं एव सर्वाश्च प्राणाः परमे व्योमन् एव सम्भवन्ति ||',
+          sanskrit: 'यथेमे नद्यः सचैव श्येनाः समुद्रं एव सर्वाश्च प्राणाः परमे व्योमन् एव सम्भवन्ति ॥',
           transliteration: 'yatheme nadyaḥ sacaiva śyenāḥ samudraṃ eva sarvāśca prāṇāḥ parame vyoman eva sambhavanti ||',
           translation: 'Just as rivers meet the ocean and birds return to their resting tree — even so, all the pranas merge into the supreme space.',
           hindi: 'जैसे नदियाँ समुद्र में मिलती हैं और पक्षी वृक्ष पर लौटते हैं — वैसे ही सभी प्राण परम आकाश में लीन हो जाते हैं।',
@@ -246,7 +246,7 @@ export const chandogya: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'तं त्वा प्राणमेव ब्रूयाद्ब्रह्मभूयाय गमिष्यसि | प्राणो हि भूतानां आयुः तस्माद् सर्वायुषमित्याचक्षते ||',
+          sanskrit: 'तं त्वा प्राणमेव ब्रूयाद्ब्रह्मभूयाय गमिष्यसि । प्राणो हि भूतानां आयुः तस्माद् सर्वायुषमित्याचक्षते ॥',
           transliteration: 'taṃ tvā prāṇameva brūyādbrahmaabhūyāya gamiṣyasi | prāṇo hi bhūtānāṃ āyuḥ tasmāt sarvāyuṣamityācakṣate ||',
           translation: 'I shall declare to you Prana. Prana is the life of all beings. Therefore Prana is called the all-life. One who knows this becomes Brahman.',
           hindi: 'मैं तुम्हें प्राण के विषय में बताऊँगा। प्राण ही सभी प्राणियों का जीवन है। इसीलिए इसे सर्वायु (सबकी आयु) कहते हैं। जो इसे जानता है वह ब्रह्म हो जाता है।',
@@ -258,7 +258,7 @@ export const chandogya: Scripture = {
       
         {
           id: 10402,
-          sanskrit: 'तं त्वा प्राणमेव ब्रूयाद्ब्रह्मभूयाय गमिष्यसि | प्राणो हि भूतानां आयुः तस्माद् सर्वायुषमित्याचक्षते ||',
+          sanskrit: 'तं त्वा प्राणमेव ब्रूयाद्ब्रह्मभूयाय गमिष्यसि । प्राणो हि भूतानां आयुः तस्माद् सर्वायुषमित्याचक्षते ॥',
           transliteration: 'taṃ tvā prāṇameva brūyādbrahmaabhūyāya gamiṣyasi | prāṇo hi bhūtānāṃ āyuḥ tasmāt sarvāyuṣamityācakṣate ||',
           translation: 'I shall declare to you Prana. Prana is the life of all beings. Therefore Prana is called the all-life. One who knows this becomes Brahman.',
           hindi: 'मैं तुम्हें प्राण के विषय में बताऊँगा। प्राण ही सभी प्राणियों का जीवन है। इसीलिए इसे सर्वायु (सबकी आयु) कहते हैं। जो इसे जानता है वह ब्रह्म हो जाता है।',
@@ -267,7 +267,7 @@ export const chandogya: Scripture = {
         },
         {
           id: 10403,
-          sanskrit: 'यथा सोम्य नद्यः सर्वाः समुद्राद्यन्ति समुद्रं प्राप्य नाम रूपे विहाय समुद्र एव भवन्ति ||',
+          sanskrit: 'यथा सोम्य नद्यः सर्वाः समुद्राद्यन्ति समुद्रं प्राप्य नाम रूपे विहाय समुद्र एव भवन्ति ॥',
           transliteration: 'yathā somya nadyaḥ sarvāḥ samudradyanti samudraṃ prāpya nāma rūpe vihāya samudra eva bhavanti ||',
           translation: 'As rivers, dear one, all flow to the ocean, and on reaching it their name and form dissolve — they become the ocean itself.',
           hindi: 'हे सौम्य! जैसे सभी नदियाँ समुद्र की ओर बहती हैं और समुद्र में पहुँचकर अपने नाम और रूप खो देती हैं — वे समुद्र ही बन जाती हैं।',
@@ -276,7 +276,7 @@ export const chandogya: Scripture = {
         },
         {
           id: 10405,
-          sanskrit: 'नैतदब्राह्मणो विवक्तुमर्हति | समिधं सोम्याहर | उप त्वा नेष्ये | न सत्यादगाः ||',
+          sanskrit: 'नैतदब्राह्मणो विवक्तुमर्हति । समिधं सोम्याहर । उप त्वा नेष्ये । न सत्यादगाः ॥',
           transliteration: 'naitadabrāhmaṇo vivaktumarhati | samidhaṃ somyāhara | upa tvā neṣye | na satyādagāḥ ||',
           translation: '"None but a Brahmana could speak so. Bring the firewood, dear one — I will initiate you. You have not departed from truth."',
           hindi: 'गुरु ने कहा: "कोई अब्राह्मण ऐसा सत्य नहीं बोल सकता। हे सौम्य, समिधा लाओ — मैं तुम्हारा उपनयन करूँगा। तुम सत्य से नहीं डिगे।"',
@@ -292,7 +292,7 @@ export const chandogya: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'ओमित्येतदक्षरमुद्गीथमुपासीत | ओमिति ह्युद्गायति तस्योपव्याख्यानम् ||',
+          sanskrit: 'ओमित्येतदक्षरमुद्गीथमुपासीत । ओमिति ह्युद्गायति तस्योपव्याख्यानम् ॥',
           transliteration: 'omityetadakṣaramudgīthamupāsīta | omiti hyudgāyati tasyopavyākhyānam ||',
           translation: 'Let one meditate on the syllable OM as the Udgitha. With "Om" indeed the priest begins his loud song. Now follows the explanation.',
           hindi: 'ओंकार — इस अक्षर की उद्गीथ रूप में उपासना करनी चाहिए। "ओम्" से ही उद्गाता का गायन प्रारंभ होता है — अब इसकी व्याख्या होगी।',
@@ -304,7 +304,7 @@ export const chandogya: Scripture = {
       
         {
           id: 10502,
-          sanskrit: 'मनोमयः प्राणशरीरो भारूपः सत्यसङ्कल्प आकाशात्मा सर्वकर्मा सर्वकामः सर्वगन्धः सर्वरसः ||',
+          sanskrit: 'मनोमयः प्राणशरीरो भारूपः सत्यसङ्कल्प आकाशात्मा सर्वकर्मा सर्वकामः सर्वगन्धः सर्वरसः ॥',
           transliteration: 'manomayaḥ prāṇaśarīro bhārūpaḥ satyasaṅkalpa ākāśātmā sarvakarmā sarvakāmaḥ sarvagandhaḥ sarvarasaḥ ||',
           translation: 'He is made of mind, his body is life-force, his form is light, his resolve is truth, his Self is space, he is all actions, all desires, all smells, all tastes.',
           hindi: 'वह मनोमय है, प्राण उसका शरीर है, प्रकाश उसका रूप है, सत्य उसका संकल्प है, आकाश उसकी आत्मा है। वह सभी कर्मों में, सभी कामनाओं में, सभी गंधों में, सभी रसों में है।',
@@ -313,7 +313,7 @@ export const chandogya: Scripture = {
         },
         {
           id: 10503,
-          sanskrit: 'यथा सोम्य नद्यः सर्वाः समुद्राद्यन्ति समुद्रं प्राप्य नाम रूपे विहाय समुद्र एव भवन्ति ||',
+          sanskrit: 'यथा सोम्य नद्यः सर्वाः समुद्राद्यन्ति समुद्रं प्राप्य नाम रूपे विहाय समुद्र एव भवन्ति ॥',
           transliteration: 'yathā somya nadyaḥ sarvāḥ samudradyanti samudraṃ prāpya nāma rūpe vihāya samudra eva bhavanti ||',
           translation: 'As rivers, dear one, all flow to the ocean, and on reaching it their name and form dissolve — they become the ocean itself.',
           hindi: 'हे सौम्य! जैसे सभी नदियाँ समुद्र की ओर बहती हैं और समुद्र में पहुँचकर अपने नाम और रूप खो देती हैं — वे समुद्र ही बन जाती हैं।',
@@ -322,7 +322,7 @@ export const chandogya: Scripture = {
         },
         {
           id: 10505,
-          sanskrit: 'नैतदब्राह्मणो विवक्तुमर्हति | समिधं सोम्याहर | उप त्वा नेष्ये | न सत्यादगाः ||',
+          sanskrit: 'नैतदब्राह्मणो विवक्तुमर्हति । समिधं सोम्याहर । उप त्वा नेष्ये । न सत्यादगाः ॥',
           transliteration: 'naitadabrāhmaṇo vivaktumarhati | samidhaṃ somyāhara | upa tvā neṣye | na satyādagāḥ ||',
           translation: '"None but a Brahmana could speak so. Bring the firewood, dear one — I will initiate you. You have not departed from truth."',
           hindi: 'गुरु ने कहा: "कोई अब्राह्मण ऐसा सत्य नहीं बोल सकता। हे सौम्य, समिधा लाओ — मैं तुम्हारा उपनयन करूँगा। तुम सत्य से नहीं डिगे।"',
@@ -338,7 +338,7 @@ export const chandogya: Scripture = {
       verses: [
         {
           id: 5,
-          sanskrit: 'नैतदब्राह्मणो विवक्तुमर्हति | समिधं सोम्याहर | उप त्वा नेष्ये | न सत्यादगाः ||',
+          sanskrit: 'नैतदब्राह्मणो विवक्तुमर्हति । समिधं सोम्याहर । उप त्वा नेष्ये । न सत्यादगाः ॥',
           transliteration: 'naitadabrāhmaṇo vivaktumarhati | samidhaṃ somyāhara | upa tvā neṣye | na satyādagāḥ ||',
           translation: '"None but a Brahmana could speak so. Bring the firewood, dear one — I will initiate you. You have not departed from truth."',
           hindi: 'गुरु ने कहा: "कोई अब्राह्मण ऐसा सत्य नहीं बोल सकता। हे सौम्य, समिधा लाओ — मैं तुम्हारा उपनयन करूँगा। तुम सत्य से नहीं डिगे।"',
@@ -350,7 +350,7 @@ export const chandogya: Scripture = {
       
         {
           id: 10601,
-          sanskrit: 'नैतदब्राह्मणो विवक्तुमर्हति | समिधं सोम्याहर | उप त्वा नेष्ये | न सत्यादगाः ||',
+          sanskrit: 'नैतदब्राह्मणो विवक्तुमर्हति । समिधं सोम्याहर । उप त्वा नेष्ये । न सत्यादगाः ॥',
           transliteration: 'naitadabrāhmaṇo vivaktumarhati | samidhaṃ somyāhara | upa tvā neṣye | na satyādagāḥ ||',
           translation: '"None but a Brahmana could speak so. Bring the firewood, dear one — I will initiate you. You have not departed from truth."',
           hindi: 'गुरु ने कहा: "कोई अब्राह्मण ऐसा सत्य नहीं बोल सकता। हे सौम्य, समिधा लाओ — मैं तुम्हारा उपनयन करूँगा। तुम सत्य से नहीं डिगे।"',
@@ -359,7 +359,7 @@ export const chandogya: Scripture = {
         },
         {
           id: 10602,
-          sanskrit: 'मनोमयः प्राणशरीरो भारूपः सत्यसङ्कल्प आकाशात्मा सर्वकर्मा सर्वकामः सर्वगन्धः सर्वरसः ||',
+          sanskrit: 'मनोमयः प्राणशरीरो भारूपः सत्यसङ्कल्प आकाशात्मा सर्वकर्मा सर्वकामः सर्वगन्धः सर्वरसः ॥',
           transliteration: 'manomayaḥ prāṇaśarīro bhārūpaḥ satyasaṅkalpa ākāśātmā sarvakarmā sarvakāmaḥ sarvagandhaḥ sarvarasaḥ ||',
           translation: 'He is made of mind, his body is life-force, his form is light, his resolve is truth, his Self is space, he is all actions, all desires, all smells, all tastes.',
           hindi: 'वह मनोमय है, प्राण उसका शरीर है, प्रकाश उसका रूप है, सत्य उसका संकल्प है, आकाश उसकी आत्मा है। वह सभी कर्मों में, सभी कामनाओं में, सभी गंधों में, सभी रसों में है।',
@@ -368,7 +368,7 @@ export const chandogya: Scripture = {
         },
         {
           id: 10603,
-          sanskrit: 'यथा सोम्य नद्यः सर्वाः समुद्राद्यन्ति समुद्रं प्राप्य नाम रूपे विहाय समुद्र एव भवन्ति ||',
+          sanskrit: 'यथा सोम्य नद्यः सर्वाः समुद्राद्यन्ति समुद्रं प्राप्य नाम रूपे विहाय समुद्र एव भवन्ति ॥',
           transliteration: 'yathā somya nadyaḥ sarvāḥ samudradyanti samudraṃ prāpya nāma rūpe vihāya samudra eva bhavanti ||',
           translation: 'As rivers, dear one, all flow to the ocean, and on reaching it their name and form dissolve — they become the ocean itself.',
           hindi: 'हे सौम्य! जैसे सभी नदियाँ समुद्र की ओर बहती हैं और समुद्र में पहुँचकर अपने नाम और रूप खो देती हैं — वे समुद्र ही बन जाती हैं।',
@@ -385,7 +385,7 @@ export const chandogya: Scripture = {
       verses: [
         {
           id: 3,
-          sanskrit: 'यावान्वा अयमाकाशस्तावानेषोऽन्तर्हृदय आकाशः | उभे अस्मिन् द्यावापृथिवी अन्तरेव समाहिते उभावग्नीश्च वायुश्च सूर्याचन्द्रमसावुभौ विद्युन्नक्षत्राणि ||',
+          sanskrit: 'यावान्वा अयमाकाशस्तावानेषोऽन्तर्हृदय आकाशः । उभे अस्मिन् द्यावापृथिवी अन्तरेव समाहिते उभावग्नीश्च वायुश्च सूर्याचन्द्रमसावुभौ विद्युन्नक्षत्राणि ॥',
           transliteration: 'yāvānvā ayamākāśastāvāneṣo\'ntarhṛdaya ākāśaḥ | ubhe asmin dyāvāpṛthivī antareva samāhite ubhāvagnīśca vāyuśca sūryācandramasāvubhau vidyunnakṣatrāṇi ||',
           translation: 'As vast as is this outer space, so vast is the space within the heart. Both heaven and earth are contained within it, both fire and air, both sun and moon, lightning and stars.',
           hindi: 'जितना यह बाह्य आकाश है, उतना ही यह हृदय-आकाश है। द्यौ और पृथ्वी दोनों इसमें समाहित हैं, अग्नि और वायु दोनों, सूर्य और चन्द्रमा दोनों, विद्युत और नक्षत्र — सब इसी में हैं।',
@@ -396,7 +396,7 @@ export const chandogya: Scripture = {
         },
         {
           id: 9,
-          sanskrit: 'तत्त्वमसि श्वेतकेतो | स य एषोऽणिमैतदात्म्यमिदं सर्वं तत्सत्यं स आत्मा तत्त्वमसि श्वेतकेतो ||',
+          sanskrit: 'तत्त्वमसि श्वेतकेतो । स य एषोऽणिमैतदात्म्यमिदं सर्वं तत्सत्यं स आत्मा तत्त्वमसि श्वेतकेतो ॥',
           transliteration: 'tattvamasi śvetaketo | sa ya eṣo\'ṇimaitadātmyamidaṃ sarvaṃ tatsatyaṃ sa ātmā tattvamasi śvetaketo ||',
           translation: 'That art thou, O Shvetaketu. That which is the finest essence — this whole world has that as its Self. That is the real. That is the Self. That art thou, O Shvetaketu.',
           hindi: 'तत्त्वमसि श्वेतकेतो। जो यह सूक्ष्मतम सार है — यह सारा जगत उसी को आत्मा के रूप में धारण करता है। वही सत्य है। वही आत्मा है। तत्त्वमसि श्वेतकेतो।',
@@ -407,7 +407,7 @@ export const chandogya: Scripture = {
         },
         {
           id: 10,
-          sanskrit: 'सर्वं खल्विदं ब्रह्म तज्जलानिति शान्तमुपासीत | न नेता नेति ||',
+          sanskrit: 'सर्वं खल्विदं ब्रह्म तज्जलानिति शान्तमुपासीत । न नेता नेति ॥',
           transliteration: 'sarvaṃ khalvidaṃ brahma tajjalāniti śāntamupāsīta | na netā neti ||',
           translation: 'All this is Brahman indeed. This Self is Brahman. This Self has four quarters. Not this, not this.',
           hindi: 'सब यह ब्रह्म ही है। यह आत्मा ब्रह्म है। इस आत्मा के चार भाग हैं। नेति नेति।',
@@ -419,7 +419,7 @@ export const chandogya: Scripture = {
       
         {
           id: 10701,
-          sanskrit: 'यावान्वा अयमाकाशस्तावानेषोऽन्तर्हृदय आकाशः | उभे अस्मिन् द्यावापृथिवी अन्तरेव समाहिते उभावग्नीश्च वायुश्च सूर्याचन्द्रमसावुभौ विद्युन्नक्षत्राणि ||',
+          sanskrit: 'यावान्वा अयमाकाशस्तावानेषोऽन्तर्हृदय आकाशः । उभे अस्मिन् द्यावापृथिवी अन्तरेव समाहिते उभावग्नीश्च वायुश्च सूर्याचन्द्रमसावुभौ विद्युन्नक्षत्राणि ॥',
           transliteration: 'yāvānvā ayamākāśastāvāneṣo\'ntarhṛdaya ākāśaḥ | ubhe asmin dyāvāpṛthivī antareva samāhite ubhāvagnīśca vāyuśca sūryācandramasāvubhau vidyunnakṣatrāṇi ||',
           translation: 'As vast as is this outer space, so vast is the space within the heart. Both heaven and earth are contained within it, both fire and air, both sun and moon, lightning and stars.',
           hindi: 'जितना यह बाह्य आकाश है, उतना ही यह हृदय-आकाश है। द्यौ और पृथ्वी दोनों इसमें समाहित हैं, अग्नि और वायु दोनों, सूर्य और चन्द्रमा दोनों, विद्युत और नक्षत्र — सब इसी में हैं।',
@@ -428,7 +428,7 @@ export const chandogya: Scripture = {
         },
         {
           id: 10709,
-          sanskrit: 'तत्त्वमसि श्वेतकेतो | स य एषोऽणिमैतदात्म्यमिदं सर्वं तत्सत्यं स आत्मा तत्त्वमसि श्वेतकेतो ||',
+          sanskrit: 'तत्त्वमसि श्वेतकेतो । स य एषोऽणिमैतदात्म्यमिदं सर्वं तत्सत्यं स आत्मा तत्त्वमसि श्वेतकेतो ॥',
           transliteration: 'tattvamasi śvetaketo | sa ya eṣo\'ṇimaitadātmyamidaṃ sarvaṃ tatsatyaṃ sa ātmā tattvamasi śvetaketo ||',
           translation: 'That art thou, O Shvetaketu. That which is the finest essence — this whole world has that as its Self. That is the real. That is the Self. That art thou, O Shvetaketu.',
           hindi: 'तत्त्वमसि श्वेतकेतो। जो यह सूक्ष्मतम सार है — यह सारा जगत उसी को आत्मा के रूप में धारण करता है। वही सत्य है। वही आत्मा है। तत्त्वमसि श्वेतकेतो।',

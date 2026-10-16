@@ -17,7 +17,7 @@ export const shandilyabhaktisutra: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'अथातो भक्तिजिज्ञासा ||',
+          sanskrit: 'अथातो भक्तिजिज्ञासा ॥',
           transliteration: 'athāto bhaktijijñāsā ||',
           translation: 'Now, therefore, the inquiry into bhakti.',
           hindi: 'अब अतः भक्ति की जिज्ञासा।',
@@ -28,7 +28,7 @@ export const shandilyabhaktisutra: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'सा परानुरक्तिरीश्वरे ||',
+          sanskrit: 'सा परानुरक्तिरीश्वरे ॥',
           transliteration: 'sā parānuraktirīśvare ||',
           translation: 'That (bhakti) is supreme attachment (para-anurakti) to Ishvara.',
           hindi: 'वह (भक्ति) ईश्वर में परानुरक्ति (परम आसक्ति) है।',
@@ -39,7 +39,7 @@ export const shandilyabhaktisutra: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'ईश्वरः परमेश्वरः सर्वज्ञः सर्वशक्तिमान् सर्वान्तर्यामी ||',
+          sanskrit: 'ईश्वरः परमेश्वरः सर्वज्ञः सर्वशक्तिमान् सर्वान्तर्यामी ॥',
           transliteration: 'Īśvaraḥ parameśvaraḥ sarvajñaḥ sarvaśaktimān sarvāntaryāmī ||',
           translation: 'Ishvara is the supreme Lord — omniscient, omnipotent, the inner controller of all.',
           hindi: 'ईश्वर परमेश्वर है — सर्वज्ञ, सर्वशक्तिमान, और सबका अन्तर्यामी।',
@@ -50,7 +50,7 @@ export const shandilyabhaktisutra: Scripture = {
         },
         {
           id: 11,
-          sanskrit: 'तदेव साध्यसाधनयोरभेदात् ||',
+          sanskrit: 'तदेव साध्यसाधनयोरभेदात् ॥',
           transliteration: 'tadeva sādhyasādhanayorAbhedāt ||',
           translation: 'That alone (is both means and end), because there is no difference between the goal and the means.',
           hindi: 'वही (भक्ति) साध्य और साधन दोनों है — क्योंकि साध्य और साधन में कोई भेद नहीं है।',
@@ -62,7 +62,7 @@ export const shandilyabhaktisutra: Scripture = {
       
         {
           id: 3,
-          sanskrit: 'ईश्वरः परमेश्वरः सर्वज्ञः सर्वशक्तिमान् सर्वान्तर्यामी ||',
+          sanskrit: 'ईश्वरः परमेश्वरः सर्वज्ञः सर्वशक्तिमान् सर्वान्तर्यामी ॥',
           transliteration: 'Īśvaraḥ parameśvaraḥ sarvajñaḥ sarvaśaktimān sarvāntaryāmī ||',
           translation: 'Ishvara is the supreme Lord — omniscient, omnipotent, the inner controller of all.',
           hindi: 'ईश्वर परमेश्वर है — सर्वज्ञ, सर्वशक्तिमान, और सबका अन्तर्यामी।',
@@ -71,7 +71,7 @@ export const shandilyabhaktisutra: Scripture = {
         },
         {
           id: 4,
-          sanskrit: 'तदेव साध्यसाधनयोरभेदात् ||',
+          sanskrit: 'तदेव साध्यसाधनयोरभेदात् ॥',
           transliteration: 'tadeva sādhyasādhanayorAbhedāt ||',
           translation: 'That alone (is both means and end), because there is no difference between the goal and the means.',
           hindi: 'वही (भक्ति) साध्य और साधन दोनों है — क्योंकि साध्य और साधन में कोई भेद नहीं है।',
@@ -80,7 +80,7 @@ export const shandilyabhaktisutra: Scripture = {
         },
         {
           id: 22,
-          sanskrit: 'न तु तद्विना ज्ञानं भक्तेः साधनत्वेन | तस्य फलत्वात् ||',
+          sanskrit: 'न तु तद्विना ज्ञानं भक्तेः साधनत्वेन । तस्य फलत्वात् ॥',
           transliteration: 'na tu tadvina jñānaṃ bhakteḥ sādhanaTvena | tasya phalatvāt ||',
           translation: 'But knowledge is not the means (sadhana) to bhakti without that (Ishvara). Because (bhakti) is its fruit.',
           hindi: 'परन्तु ईश्वर के बिना ज्ञान भक्ति का साधन नहीं है। क्योंकि (भक्ति) उसका फल है।',
@@ -89,7 +89,7 @@ export const shandilyabhaktisutra: Scripture = {
         },
         {
           id: 35,
-          sanskrit: 'तदर्थे कर्माण्यपि भक्त्यङ्गानि ||',
+          sanskrit: 'तदर्थे कर्माण्यपि भक्त्यङ्गानि ॥',
           transliteration: 'tadArthe karmāṇyapi bhaktyaṅgāni ||',
           translation: 'Actions done for His sake are also limbs of bhakti.',
           hindi: 'उसके लिए किये गये कर्म भी भक्ति के अंग हैं।',
@@ -98,7 +98,7 @@ export const shandilyabhaktisutra: Scripture = {
         },
         {
           id: 68,
-          sanskrit: 'सङ्गदोषादसद्विषयरागात् || तद्विपरीताच्च ||',
+          sanskrit: 'सङ्गदोषादसद्विषयरागात् ॥ तद्विपरीताच्च ॥',
           transliteration: 'saṅgadoṣādasadviṣayarāgāt || tadvipārītācca ||',
           translation: 'From the fault of wrong company, from attachment to unworthy sense-objects — and from the opposite of these (right company and detachment) comes bhakti.',
           hindi: 'कुसंग के दोष से और अयोग्य विषयों में राग से (भक्ति में विघ्न होता है) — और इनके विपरीत से (भक्ति होती है)।',
@@ -107,7 +107,7 @@ export const shandilyabhaktisutra: Scripture = {
         },
         {
           id: 78,
-          sanskrit: 'ईश्वरे तदर्पणं सर्वकर्मणाम् | तत्स्मृत्यैव च ||',
+          sanskrit: 'ईश्वरे तदर्पणं सर्वकर्मणाम् । तत्स्मृत्यैव च ॥',
           transliteration: 'Īśvare tadarpaṇaṃ sarvakarmaNām | tatsṃṛtyaiva ca ||',
           translation: 'The offering of all actions to Ishvara — and through His remembrance alone.',
           hindi: 'सभी कर्मों को ईश्वर में अर्पण करना — और केवल उसके स्मरण से।',
@@ -116,7 +116,7 @@ export const shandilyabhaktisutra: Scripture = {
         },
         {
           id: 96,
-          sanskrit: 'भक्तस्य सर्वारम्भः स्वतः सिध्यन्ति ||',
+          sanskrit: 'भक्तस्य सर्वारम्भः स्वतः सिध्यन्ति ॥',
           transliteration: 'bhaktasya sarvārambhāḥ svataḥ sidhyanti ||',
           translation: 'For the devotee, all undertakings succeed of themselves.',
           hindi: 'भक्त के सभी कार्य स्वयमेव सिद्ध होते हैं।',
@@ -132,7 +132,7 @@ export const shandilyabhaktisutra: Scripture = {
       verses: [
         {
           id: 22,
-          sanskrit: 'न तु तद्विना ज्ञानं भक्तेः साधनत्वेन | तस्य फलत्वात् ||',
+          sanskrit: 'न तु तद्विना ज्ञानं भक्तेः साधनत्वेन । तस्य फलत्वात् ॥',
           transliteration: 'na tu tadvina jñānaṃ bhakteḥ sādhanaTvena | tasya phalatvāt ||',
           translation: 'But knowledge is not the means (sadhana) to bhakti without that (Ishvara). Because (bhakti) is its fruit.',
           hindi: 'परन्तु ईश्वर के बिना ज्ञान भक्ति का साधन नहीं है। क्योंकि (भक्ति) उसका फल है।',
@@ -143,7 +143,7 @@ export const shandilyabhaktisutra: Scripture = {
         },
         {
           id: 35,
-          sanskrit: 'तदर्थे कर्माण्यपि भक्त्यङ्गानि ||',
+          sanskrit: 'तदर्थे कर्माण्यपि भक्त्यङ्गानि ॥',
           transliteration: 'tadArthe karmāṇyapi bhaktyaṅgāni ||',
           translation: 'Actions done for His sake are also limbs of bhakti.',
           hindi: 'उसके लिए किये गये कर्म भी भक्ति के अंग हैं।',
@@ -162,7 +162,7 @@ export const shandilyabhaktisutra: Scripture = {
       verses: [
         {
           id: 68,
-          sanskrit: 'सङ्गदोषादसद्विषयरागात् || तद्विपरीताच्च ||',
+          sanskrit: 'सङ्गदोषादसद्विषयरागात् ॥ तद्विपरीताच्च ॥',
           transliteration: 'saṅgadoṣādasadviṣayarāgāt || tadvipārītācca ||',
           translation: 'From the fault of wrong company, from attachment to unworthy sense-objects — and from the opposite of these (right company and detachment) comes bhakti.',
           hindi: 'कुसंग के दोष से और अयोग्य विषयों में राग से (भक्ति में विघ्न होता है) — और इनके विपरीत से (भक्ति होती है)।',
@@ -173,7 +173,7 @@ export const shandilyabhaktisutra: Scripture = {
         },
         {
           id: 78,
-          sanskrit: 'ईश्वरे तदर्पणं सर्वकर्मणाम् | तत्स्मृत्यैव च ||',
+          sanskrit: 'ईश्वरे तदर्पणं सर्वकर्मणाम् । तत्स्मृत्यैव च ॥',
           transliteration: 'Īśvare tadarpaṇaṃ sarvakarmaNām | tatsṃṛtyaiva ca ||',
           translation: 'The offering of all actions to Ishvara — and through His remembrance alone.',
           hindi: 'सभी कर्मों को ईश्वर में अर्पण करना — और केवल उसके स्मरण से।',
@@ -192,7 +192,7 @@ export const shandilyabhaktisutra: Scripture = {
       verses: [
         {
           id: 85,
-          sanskrit: 'तया भगवतः सायुज्यमुक्तिः ||',
+          sanskrit: 'तया भगवतः सायुज्यमुक्तिः ॥',
           transliteration: 'tayā bhagavataḥ sāyujyamuktiḥ ||',
           translation: 'Through that (bhakti), liberation as union with the Blessed Lord.',
           hindi: 'उस (भक्ति) से भगवान के साथ सायुज्य-मुक्ति होती है।',
@@ -203,7 +203,7 @@ export const shandilyabhaktisutra: Scripture = {
         },
         {
           id: 96,
-          sanskrit: 'भक्तस्य सर्वारम्भः स्वतः सिध्यन्ति ||',
+          sanskrit: 'भक्तस्य सर्वारम्भः स्वतः सिध्यन्ति ॥',
           transliteration: 'bhaktasya sarvārambhāḥ svataḥ sidhyanti ||',
           translation: 'For the devotee, all undertakings succeed of themselves.',
           hindi: 'भक्त के सभी कार्य स्वयमेव सिद्ध होते हैं।',

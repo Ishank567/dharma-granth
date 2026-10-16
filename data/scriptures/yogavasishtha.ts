@@ -40,7 +40,7 @@ export const yogavasishtha: Scripture = {
         {
           id: 1,
           number: 1,
-          sanskrit: 'जगज्जालं मनोजालं मनः संसारकारणम् | तन्मनः शोधयाम्यद्य बोधेन परमात्मनः ||',
+          sanskrit: 'जगज्जालं मनोजालं मनः संसारकारणम् । तन्मनः शोधयाम्यद्य बोधेन परमात्मनः ॥',
           transliteration: 'jagajjālaṃ manojālaṃ manaḥ saṃsārakāraṇam | tanmanaḥ śodhayāmyadya bodhena paramātmanaḥ ||',
           translation: 'The web of the world is the web of the mind — the mind is the cause of samsara. That mind I purify today through the knowledge of the supreme Self.',
           hindi: 'जगत् का जाल मन का जाल है — मन ही संसार का कारण है। उस मन को मैं आज परमात्मा के बोध से शुद्ध करता हूँ।',
@@ -55,7 +55,7 @@ export const yogavasishtha: Scripture = {
         {
           id: 2,
           number: 2,
-          sanskrit: 'चिद्भित्तौ चित्रमिव ब्रह्मात्मनोर्भेदः स्फुरत्यदः | भेदाभेदावुभौ नास्तः सत्तास्फूर्तिः पुनः पुनः ||',
+          sanskrit: 'चिद्भित्तौ चित्रमिव ब्रह्मात्मनोर्भेदः स्फुरत्यदः । भेदाभेदावुभौ नास्तः सत्तास्फूर्तिः पुनः पुनः ॥',
           transliteration: 'cidbhittau citramiva brahmātmanorbhedaḥ sphuratyādaḥ | bhedābhedāvubhau nāstaḥ sattāsphūrtiḥ punaḥ punaḥ ||',
           translation:
             'Like a picture on a wall of consciousness, the apparent difference between Brahman and the individual Self shines forth. But neither difference nor non-difference truly exists — only pure Being-Consciousness shines again and again.',
@@ -80,7 +80,7 @@ export const yogavasishtha: Scripture = {
         {
           id: 1,
           number: 1,
-          sanskrit: 'विवेकः प्रथमं साधनं वैराग्यं द्वितीयं स्मृतम् | षट्सम्पत्तिस्तृतीयं च मुमुक्षुत्वं चतुर्थकम् ||',
+          sanskrit: 'विवेकः प्रथमं साधनं वैराग्यं द्वितीयं स्मृतम् । षट्सम्पत्तिस्तृतीयं च मुमुक्षुत्वं चतुर्थकम् ॥',
           transliteration: 'vivekaḥ prathamaṃ sādhanaṃ vairāgyaṃ dvitīyaṃ smṛtam | ṣaṭsampattiḥ tṛtīyaṃ ca mumukṣutvaṃ caturtham ||',
           translation: 'Viveka is the first qualification; Vairagya the second; Shatsampatti the third; Mumukshutva the fourth.',
           hindi: 'विवेक पहला साधन; वैराग्य दूसरा; षट्सम्पत्ति तीसरी; और मुमुक्षुत्व चौथा।',
@@ -95,7 +95,7 @@ export const yogavasishtha: Scripture = {
         {
           id: 2,
           number: 2,
-          sanskrit: 'शमो विचारः सन्तोषश्चतुर्थः साधुसङ्गमः | एते मोक्षस्य द्वारे च द्वारपालाश्चतुर्विधाः ||',
+          sanskrit: 'शमो विचारः सन्तोषश्चतुर्थः साधुसङ्गमः । एते मोक्षस्य द्वारे च द्वारपालाश्चतुर्विधाः ॥',
           transliteration: 'śamo vicāraḥ santoṣaścaturthaḥ sādhu-saṅgamaḥ | ete mokṣasya dvāre ca dvārapālāścaturvidhāḥ ||',
           translation: 'Shama (self-control), Vichara (self-inquiry), Santosha (contentment), and Sadhu-sanga (good company) — these four are the gatekeepers of liberation.',
           hindi: 'शम (मन का निग्रह), विचार (आत्म-विचार), संतोष और साधु-संग — ये चार मोक्ष के द्वार के चार द्वारपाल हैं।',
@@ -119,7 +119,7 @@ export const yogavasishtha: Scripture = {
         {
           id: 1,
           number: 1,
-          sanskrit: 'सर्गादौ सर्गमध्ये च सर्गान्ते च महामते | चिन्मात्रमेव विद्यते नान्यत्किञ्चिदपि स्थितम् ||',
+          sanskrit: 'सर्गादौ सर्गमध्ये च सर्गान्ते च महामते । चिन्मात्रमेव विद्यते नान्यत्किञ्चिदपि स्थितम् ॥',
           transliteration: 'sargādau sargamadhye ca sargānte ca mahāmate | cinmātrameva vidyate nānyatkiñcidapi sthitam ||',
           translation: 'At the beginning, middle, and end of creation, O great-minded one — consciousness alone exists. Nothing else whatsoever stands.',
           hindi: 'हे महामते! सृष्टि के आदि, मध्य और अंत में — चिन्मात्र ही विद्यमान है। इससे अलग कुछ भी स्थित नहीं।',
@@ -134,7 +134,7 @@ export const yogavasishtha: Scripture = {
         {
           id: 2,
           number: 2,
-          sanskrit: 'यथा काकतालीयन्यायेन शाखापातफलद्वयम् | आकस्मिकमपि भूतं हि बुद्धिमन्नायतेऽन्यथा ||',
+          sanskrit: 'यथा काकतालीयन्यायेन शाखापातफलद्वयम् । आकस्मिकमपि भूतं हि बुद्धिमन्नायतेऽन्यथा ॥',
           transliteration: 'yathā kākatālīyanyāyena śākhāpātaphala-dvayam | ākasmikamapi bhūtaṃ hi buddhimānnāyate\'nyathā ||',
           translation: 'Just as by the "crow-and-palm" logic — when a crow lands on a palm tree and the fruit falls simultaneously — the intelligent person does not conclude that one caused the other.',
           hindi: 'जैसे काकतालीय न्याय में — जब कौआ बैठता है और उसी समय ताड़ का फल गिरता है — बुद्धिमान व्यक्ति यह नहीं मानता कि एक दूसरे का कारण था।',
@@ -158,7 +158,7 @@ export const yogavasishtha: Scripture = {
         {
           id: 1,
           number: 1,
-          sanskrit: 'चित्तं वासनारूपं वासनैव हि सृष्टिः | वासनाक्षयमेव मोक्ष इति निश्चयः ||',
+          sanskrit: 'चित्तं वासनारूपं वासनैव हि सृष्टिः । वासनाक्षयमेव मोक्ष इति निश्चयः ॥',
           transliteration: 'cittaṃ vāsanārūpaṃ vāsanaiva hi sṛṣṭiḥ | vāsanākṣayameva mokṣa iti niścayaḥ ||',
           translation: 'The mind is composed of vasanas (impressions); creation itself is nothing but vasana. The exhaustion of vasanas alone is liberation — this is the conclusion.',
           hindi: 'चित्त वासना-रूप ही है; सृष्टि भी वासना ही है। वासनाओं का क्षय ही मोक्ष है — यही निश्चय है।',
@@ -182,7 +182,7 @@ export const yogavasishtha: Scripture = {
         {
           id: 1,
           number: 1,
-          sanskrit: 'वासनैव हि संसारो वासनाक्षयमुक्तिदम् | तस्माद्वासनया शुद्ध्या संसारविनिवर्तनम् ||',
+          sanskrit: 'वासनैव हि संसारो वासनाक्षयमुक्तिदम् । तस्माद्वासनया शुद्ध्या संसारविनिवर्तनम् ॥',
           transliteration: 'vāsanaiva hi saṃsāro vāsanākṣayamuktidaṃ | tasmādvāsanayā śuddhyā saṃsāravinivarttanam ||',
           translation: 'Vasana alone is samsara. The destruction of vasana is liberation. Therefore, through the purification of vasana comes the cessation of samsara.',
           hindi: 'वासना ही संसार है। वासनाक्षय ही मुक्ति है। इसलिए वासना की शुद्धि से संसार की निवृत्ति होती है।',
@@ -197,7 +197,7 @@ export const yogavasishtha: Scripture = {
         {
           id: 2,
           number: 2,
-          sanskrit: 'न मनो मानवो हन्तुं शक्यते परमेणपि | विचारेणैव सुलभं मनसो मरणं स्मृतम् ||',
+          sanskrit: 'न मनो मानवो हन्तुं शक्यते परमेणपि । विचारेणैव सुलभं मनसो मरणं स्मृतम् ॥',
           transliteration: 'na mano mānavo hantuṃ śakyate parameṇapi | vicāreṇaiva sulabhaṃ manaso maraṇaṃ smṛtam ||',
           translation: 'The mind cannot be killed by a human being, however supreme his effort. By inquiry alone, the death of the mind is easily attained — so it has been said.',
           hindi: 'कितने भी प्रयास से कोई मनुष्य मन को नहीं मार सकता। केवल विचार (आत्म-विचार) से ही मन की मृत्यु सुलभता से होती है — ऐसा कहा गया है।',
@@ -221,7 +221,7 @@ export const yogavasishtha: Scripture = {
         {
           id: 1,
           number: 1,
-          sanskrit: 'जीवन्मुक्तः स विज्ञेयो बद्धमुक्ताभिमानवान् | यो न हृष्यति न द्वेष्टि न शोचति न काङ्क्षति ||',
+          sanskrit: 'जीवन्मुक्तः स विज्ञेयो बद्धमुक्ताभिमानवान् । यो न हृष्यति न द्वेष्टि न शोचति न काङ्क्षति ॥',
           transliteration: 'jīvanmuktaḥ sa vijñeyo baddhamuktābhimānavān | yo na hṛṣyati na dveṣṭi na śocati na kāṅkṣati ||',
           translation: 'He is to be known as jivan-mukta — free while apparently bound — who neither exults, nor hates, nor grieves, nor desires.',
           hindi: 'वह जीवन्मुक्त जाना जाए — बंधे हुए में भी मुक्त — जो न हर्षित होता है, न द्वेष करता है, न शोक करता है, न इच्छा करता है।',
@@ -236,7 +236,7 @@ export const yogavasishtha: Scripture = {
         {
           id: 2,
           number: 2,
-          sanskrit: 'व्यवहारन्तु जीवन्मुक्तानां स्वच्छन्दतः सदा | सर्वत्र समदर्शित्वान्न रागद्वेषलक्षणम् ||',
+          sanskrit: 'व्यवहारन्तु जीवन्मुक्तानां स्वच्छन्दतः सदा । सर्वत्र समदर्शित्वान्न रागद्वेषलक्षणम् ॥',
           transliteration: 'vyavahārantu jīvanmuktānāṃ svacchandataḥ sadā | sarvatra samadarśitvānna rāgadveṣalakṣaṇam ||',
           translation: 'The conduct of the jivanmuktas is ever free and natural. Seeing all things equally, they show neither attachment nor aversion.',
           hindi: 'जीवन्मुक्तों का व्यवहार सदा स्वच्छंद और सहज होता है। सर्वत्र समदर्शी होने के कारण उनमें न राग है, न द्वेष।',
@@ -251,7 +251,7 @@ export const yogavasishtha: Scripture = {
         {
           id: 3,
           number: 3,
-          sanskrit: 'चिन्मात्र प्राणः प्राणेश्चैव चिन्मात्र सर्वेषु भूतेषु | यो चिन्मात्रं प्राणरूपेण जानाति स मुक्तो भवति ||',
+          sanskrit: 'चिन्मात्र प्राणः प्राणेश्चैव चिन्मात्र सर्वेषु भूतेषु । यो चिन्मात्रं प्राणरूपेण जानाति स मुक्तो भवति ॥',
           transliteration: 'cinmātra prāṇaḥ prāṇeścaiva cinmātra sarveṣu bhūteṣu | yo cinmātraṃ prāṇarūpeṇa jānāti sa mukto bhavati ||',
           translation: 'Pure consciousness is prana, pure consciousness is the lord of prana, pure consciousness is in all beings. He who knows pure consciousness as the form of prana becomes liberated.',
           hindi: 'चिन्मात्र प्राण हैं, चिन्मात्र प्राणेश हैं, चिन्मात्र सभी प्राणियों में हैं। जो चिन्मात्र को प्राण-रूप में जानता है, वह मुक्त हो जाता है।',
@@ -266,7 +266,7 @@ export const yogavasishtha: Scripture = {
         {
           id: 4,
           number: 4,
-          sanskrit: 'चिन्मात्र सर्वस्वरूपो चिन्मात्र सर्वगतः सर्वव्यापी | चिन्मात्रं यो जानाति तत्त्वेन स चिन्मात्रः स स्वयं भवति ||',
+          sanskrit: 'चिन्मात्र सर्वस्वरूपो चिन्मात्र सर्वगतः सर्वव्यापी । चिन्मात्रं यो जानाति तत्त्वेन स चिन्मात्रः स स्वयं भवति ॥',
           transliteration: 'cinmātra sarvasvarūpo cinmātra sarvagataḥ sarvavyāpī | cinmātraṃ yo jānāti tattvena sa cinmātraḥ sa svayaṃ bhavati ||',
           translation: 'Pure consciousness is the form of all, pure consciousness is everywhere, pure consciousness is all-pervading. He who knows pure consciousness in truth becomes pure consciousness himself.',
           hindi: 'चिन्मात्र सभी का स्वरूप है, चिन्मात्र सर्वत्र है, चिन्मात्र सर्वव्यापी है। जो चिन्मात्र को तत्व से जानता है, वह स्वयं चिन्मात्र हो जाता है।',

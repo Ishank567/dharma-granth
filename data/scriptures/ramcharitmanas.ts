@@ -11,7 +11,7 @@ export const ramcharitmanas: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'मंगल भवन अमंगल हारी | द्रवउ सो दसरथ अजिर बिहारी ||',
+          sanskrit: 'मंगल भवन अमंगल हारी । द्रवउ सो दसरथ अजिर बिहारी ॥',
           transliteration: 'maṃgala bhavana amaṃgala hārī | dravau so dasaratha ajira bihārī ||',
           translation: 'May He who is the abode of auspiciousness and the destroyer of inauspiciousness — who plays in the courtyard of Dasharatha — be gracious to us.',
           hindi: 'जो मंगल का भवन हैं और अमंगल को हरने वाले हैं, जो दशरथ के आँगन में विहार करते हैं — वे (श्री राम) हम पर कृपा करें।',
@@ -22,7 +22,7 @@ export const ramcharitmanas: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'जड़ चेतन गुण दोषमय बिस्व कीन्ह करतार | संत हंस गुन गहहिं पय परिहरि बारि बिकार ||',
+          sanskrit: 'जड़ चेतन गुण दोषमय बिस्व कीन्ह करतार । संत हंस गुन गहहिं पय परिहरि बारि बिकार ॥',
           transliteration: 'jaḍa cetana guṇa doṣamaya bisva kīnha karatāra | saṃta haṃsa guṇa gahahiṃ paya parihari bāri bikāra ||',
           translation: 'The Creator made this world full of both inert matter and conscious beings, full of both virtues and faults. Saints, like swans, take the milk of virtues and leave behind the water of faults.',
           hindi: 'करतार (ईश्वर) ने यह जगत जड़-चेतन, गुण-दोषमय बनाया। संत हंस के समान गुण रूपी दूध को ग्रहण करते हैं और दोष रूपी जल को छोड़ देते हैं।',
@@ -34,7 +34,7 @@ export const ramcharitmanas: Scripture = {
       
         {
           id: 8,
-          sanskrit: 'सुनत शबरी भक्ति भावि भयाउ तरसी सुधाउ | प्रेम प्रगट सोई जानि भगति न भजति गाउ ||',
+          sanskrit: 'सुनत शबरी भक्ति भावि भयाउ तरसी सुधाउ । प्रेम प्रगट सोई जानि भगति न भजति गाउ ॥',
           transliteration: 'sunata śabarī bhakti bhāvī bhayāu tarasī sudhāu | prema pragaṭa soī jānī bhagati na bhajati gāu ||',
           translation: 'Hearing Shabari\'s devotion, Rama was moved to tears. Knowing that love alone is true devotion, he does not worship without love.',
           hindi: 'शबरी की भक्ति सुनकर राम आँसू बहाने लगे। प्रेम ही सच्ची भक्ति जानकर, वे प्रेम के बिना पूजा नहीं करते।',
@@ -43,7 +43,7 @@ export const ramcharitmanas: Scripture = {
         },
         {
           id: 9,
-          sanskrit: 'कहँ रघुपति निसिचर भरोसी जोर जोर सुनाउ | जेहि बिधि बिसरहिं सब गति बिसराउ मोर पग चलाउ ||',
+          sanskrit: 'कहँ रघुपति निसिचर भरोसी जोर जोर सुनाउ । जेहि बिधि बिसरहिं सब गति बिसराउ मोर पग चलाउ ॥',
           transliteration: 'kahaṃ raghupati nisicara bharosī jora jora sunāu | jehi bidhi bisarihaṃ sab gati bisarāu mora paga calāu ||',
           translation: 'Lord Rama said to the ocean with force: hear my command. By whatever means you forget all paths, forget my path and let me cross.',
           hindi: 'रघुपति ने समुद्र से ज़ोर से कहा: मेरी बात सुनो। जिस विधि से तुम सब रास्ते भूल जाओ, मेरा रास्ता भूल जाओ और मुझे पार कर दो।',
@@ -52,7 +52,7 @@ export const ramcharitmanas: Scripture = {
         },
         {
           id: 10,
-          sanskrit: 'जानकी राम लखन समेत हनुमान | सेवक समेत सब कोटि राम भगवान ||',
+          sanskrit: 'जानकी राम लखन समेत हनुमान । सेवक समेत सब कोटि राम भगवान ॥',
           transliteration: 'jānakī rāma lakhaṇa sameta hanumāna | sevaka sameta saba koṭi rāma bhagavān ||',
           translation: 'Janki, Rama, Lakshman, and Hanuman together — with all servants, crores of Rama are the Lord.',
           hindi: 'जानकी, राम, लखन और हनुमान साथ में — सेवक समेत सब कोटि राम भगवान हैं।',
@@ -66,7 +66,7 @@ export const ramcharitmanas: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'सुनहु मातु सोइ धनु धन्य | कोइ कोटि करि अपराध न मानु ||',
+          sanskrit: 'सुनहु मातु सोइ धनु धन्य । कोइ कोटि करि अपराध न मानु ॥',
           transliteration: 'sunahu mātu soi dhanu dhanya | koi koṭi kari aparādha na mānu ||',
           translation: 'Listen, mother — that wealth alone is blessed which makes one not feel offended even when crores of wrongs are done to him.',
           hindi: 'सुनो माता! वही धन धन्य है जिसके होते हुए कोई करोड़ों अपराध करे तो भी मन में बुरा न लगे।',
@@ -78,7 +78,7 @@ export const ramcharitmanas: Scripture = {
       
         {
           id: 2,
-          sanskrit: 'जड़ चेतन गुण दोषमय बिस्व कीन्ह करतार | संत हंस गुन गहहिं पय परिहरि बारि बिकार ||',
+          sanskrit: 'जड़ चेतन गुण दोषमय बिस्व कीन्ह करतार । संत हंस गुन गहहिं पय परिहरि बारि बिकार ॥',
           transliteration: 'jaḍa cetana guṇa doṣamaya bisva kīnha karatāra | saṃta haṃsa guṇa gahahiṃ paya parihari bāri bikāra ||',
           translation: 'The Creator made this world full of both inert matter and conscious beings, full of both virtues and faults. Saints, like swans, take the milk of virtues and leave behind the water of faults.',
           hindi: 'करतार (ईश्वर) ने यह जगत जड़-चेतन, गुण-दोषमय बनाया। संत हंस के समान गुण रूपी दूध को ग्रहण करते हैं और दोष रूपी जल को छोड़ देते हैं।',
@@ -87,7 +87,7 @@ export const ramcharitmanas: Scripture = {
         },
         {
           id: 8,
-          sanskrit: 'सुनत शबरी भक्ति भावि भयाउ तरसी सुधाउ | प्रेम प्रगट सोई जानि भगति न भजति गाउ ||',
+          sanskrit: 'सुनत शबरी भक्ति भावि भयाउ तरसी सुधाउ । प्रेम प्रगट सोई जानि भगति न भजति गाउ ॥',
           transliteration: 'sunata śabarī bhakti bhāvī bhayāu tarasī sudhāu | prema pragaṭa soī jānī bhagati na bhajati gāu ||',
           translation: 'Hearing Shabari\'s devotion, Rama was moved to tears. Knowing that love alone is true devotion, he does not worship without love.',
           hindi: 'शबरी की भक्ति सुनकर राम आँसू बहाने लगे। प्रेम ही सच्ची भक्ति जानकर, वे प्रेम के बिना पूजा नहीं करते।',
@@ -96,7 +96,7 @@ export const ramcharitmanas: Scripture = {
         },
         {
           id: 9,
-          sanskrit: 'कहँ रघुपति निसिचर भरोसी जोर जोर सुनाउ | जेहि बिधि बिसरहिं सब गति बिसराउ मोर पग चलाउ ||',
+          sanskrit: 'कहँ रघुपति निसिचर भरोसी जोर जोर सुनाउ । जेहि बिधि बिसरहिं सब गति बिसराउ मोर पग चलाउ ॥',
           transliteration: 'kahaṃ raghupati nisicara bharosī jora jora sunāu | jehi bidhi bisarihaṃ sab gati bisarāu mora paga calāu ||',
           translation: 'Lord Rama said to the ocean with force: hear my command. By whatever means you forget all paths, forget my path and let me cross.',
           hindi: 'रघुपति ने समुद्र से ज़ोर से कहा: मेरी बात सुनो। जिस विधि से तुम सब रास्ते भूल जाओ, मेरा रास्ता भूल जाओ और मुझे पार कर दो।',
@@ -105,7 +105,7 @@ export const ramcharitmanas: Scripture = {
         },
         {
           id: 10,
-          sanskrit: 'जानकी राम लखन समेत हनुमान | सेवक समेत सब कोटि राम भगवान ||',
+          sanskrit: 'जानकी राम लखन समेत हनुमान । सेवक समेत सब कोटि राम भगवान ॥',
           transliteration: 'jānakī rāma lakhaṇa sameta hanumāna | sevaka sameta saba koṭi rāma bhagavān ||',
           translation: 'Janki, Rama, Lakshman, and Hanuman together — with all servants, crores of Rama are the Lord.',
           hindi: 'जानकी, राम, लखन और हनुमान साथ में — सेवक समेत सब कोटि राम भगवान हैं।',
@@ -119,7 +119,7 @@ export const ramcharitmanas: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'एक घड़ी आधी घड़ी आधी में पुनि आध | तुलसी संगत साधु की हरे कोटि अपराध ||',
+          sanskrit: 'एक घड़ी आधी घड़ी आधी में पुनि आध । तुलसी संगत साधु की हरे कोटि अपराध ॥',
           transliteration: 'eka ghaṛī ādhī ghaṛī ādhī meṃ puni ādha | tulasī saṃgata sādhu kī hare koṭi aparādha ||',
           translation: 'One moment, half a moment, or even half of half a moment — Tulsidas says the company of the holy eradicates crores of sins.',
           hindi: 'एक घड़ी, आधी घड़ी, या आधी में भी आधी — तुलसीदास कहते हैं कि साधु की संगति करोड़ों अपराधों को नष्ट कर देती है।',
@@ -131,7 +131,7 @@ export const ramcharitmanas: Scripture = {
       
         {
           id: 2,
-          sanskrit: 'जड़ चेतन गुण दोषमय बिस्व कीन्ह करतार | संत हंस गुन गहहिं पय परिहरि बारि बिकार ||',
+          sanskrit: 'जड़ चेतन गुण दोषमय बिस्व कीन्ह करतार । संत हंस गुन गहहिं पय परिहरि बारि बिकार ॥',
           transliteration: 'jaḍa cetana guṇa doṣamaya bisva kīnha karatāra | saṃta haṃsa guṇa gahahiṃ paya parihari bāri bikāra ||',
           translation: 'The Creator made this world full of both inert matter and conscious beings, full of both virtues and faults. Saints, like swans, take the milk of virtues and leave behind the water of faults.',
           hindi: 'करतार (ईश्वर) ने यह जगत जड़-चेतन, गुण-दोषमय बनाया। संत हंस के समान गुण रूपी दूध को ग्रहण करते हैं और दोष रूपी जल को छोड़ देते हैं।',
@@ -140,7 +140,7 @@ export const ramcharitmanas: Scripture = {
         },
         {
           id: 8,
-          sanskrit: 'सुनत शबरी भक्ति भावि भयाउ तरसी सुधाउ | प्रेम प्रगट सोई जानि भगति न भजति गाउ ||',
+          sanskrit: 'सुनत शबरी भक्ति भावि भयाउ तरसी सुधाउ । प्रेम प्रगट सोई जानि भगति न भजति गाउ ॥',
           transliteration: 'sunata śabarī bhakti bhāvī bhayāu tarasī sudhāu | prema pragaṭa soī jānī bhagati na bhajati gāu ||',
           translation: 'Hearing Shabari\'s devotion, Rama was moved to tears. Knowing that love alone is true devotion, he does not worship without love.',
           hindi: 'शबरी की भक्ति सुनकर राम आँसू बहाने लगे। प्रेम ही सच्ची भक्ति जानकर, वे प्रेम के बिना पूजा नहीं करते।',
@@ -149,7 +149,7 @@ export const ramcharitmanas: Scripture = {
         },
         {
           id: 9,
-          sanskrit: 'कहँ रघुपति निसिचर भरोसी जोर जोर सुनाउ | जेहि बिधि बिसरहिं सब गति बिसराउ मोर पग चलाउ ||',
+          sanskrit: 'कहँ रघुपति निसिचर भरोसी जोर जोर सुनाउ । जेहि बिधि बिसरहिं सब गति बिसराउ मोर पग चलाउ ॥',
           transliteration: 'kahaṃ raghupati nisicara bharosī jora jora sunāu | jehi bidhi bisarihaṃ sab gati bisarāu mora paga calāu ||',
           translation: 'Lord Rama said to the ocean with force: hear my command. By whatever means you forget all paths, forget my path and let me cross.',
           hindi: 'रघुपति ने समुद्र से ज़ोर से कहा: मेरी बात सुनो। जिस विधि से तुम सब रास्ते भूल जाओ, मेरा रास्ता भूल जाओ और मुझे पार कर दो।',
@@ -158,7 +158,7 @@ export const ramcharitmanas: Scripture = {
         },
         {
           id: 10,
-          sanskrit: 'जानकी राम लखन समेत हनुमान | सेवक समेत सब कोटि राम भगवान ||',
+          sanskrit: 'जानकी राम लखन समेत हनुमान । सेवक समेत सब कोटि राम भगवान ॥',
           transliteration: 'jānakī rāma lakhaṇa sameta hanumāna | sevaka sameta saba koṭi rāma bhagavān ||',
           translation: 'Janki, Rama, Lakshman, and Hanuman together — with all servants, crores of Rama are the Lord.',
           hindi: 'जानकी, राम, लखन और हनुमान साथ में — सेवक समेत सब कोटि राम भगवान हैं।',
@@ -172,7 +172,7 @@ export const ramcharitmanas: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'जे न मित्र दुख होहिं दुखारी | तिन्हहि बिलोकत पातक भारी ||',
+          sanskrit: 'जे न मित्र दुख होहिं दुखारी । तिन्हहि बिलोकत पातक भारी ॥',
           transliteration: 'je na mitra dukha hohiṃ dukhārī | tinhahi bilokata pātaka bhārī ||',
           translation: 'Those who do not grieve at a friend\'s sorrow — merely beholding them is a great sin.',
           hindi: 'जो मित्र के दुख में दुखी नहीं होते — उन्हें देखना भी महापाप है।',
@@ -183,7 +183,7 @@ export const ramcharitmanas: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'सठ सेवकु रिपु दारा | रिपु सठ करे पावे सुत द्वारा ||',
+          sanskrit: 'सठ सेवकु रिपु दारा । रिपु सठ करे पावे सुत द्वारा ॥',
           transliteration: 'saṭha sevaku ripu dārā | ripu saṭha kare pāve suta dvārā ||',
           translation: 'A wicked servant, a wicked enemy\'s wife, a wicked enemy — all three are to be subdued by the door of wisdom.',
           hindi: 'दुष्ट सेवक, शत्रु की स्त्री, और दुष्ट शत्रु — इन तीनों को विवेक के द्वार से ही जीता जाता है।',
@@ -195,7 +195,7 @@ export const ramcharitmanas: Scripture = {
       
         {
           id: 8,
-          sanskrit: 'सुनत शबरी भक्ति भावि भयाउ तरसी सुधाउ | प्रेम प्रगट सोई जानि भगति न भजति गाउ ||',
+          sanskrit: 'सुनत शबरी भक्ति भावि भयाउ तरसी सुधाउ । प्रेम प्रगट सोई जानि भगति न भजति गाउ ॥',
           transliteration: 'sunata śabarī bhakti bhāvī bhayāu tarasī sudhāu | prema pragaṭa soī jānī bhagati na bhajati gāu ||',
           translation: 'Hearing Shabari\'s devotion, Rama was moved to tears. Knowing that love alone is true devotion, he does not worship without love.',
           hindi: 'शबरी की भक्ति सुनकर राम आँसू बहाने लगे। प्रेम ही सच्ची भक्ति जानकर, वे प्रेम के बिना पूजा नहीं करते।',
@@ -204,7 +204,7 @@ export const ramcharitmanas: Scripture = {
         },
         {
           id: 9,
-          sanskrit: 'कहँ रघुपति निसिचर भरोसी जोर जोर सुनाउ | जेहि बिधि बिसरहिं सब गति बिसराउ मोर पग चलाउ ||',
+          sanskrit: 'कहँ रघुपति निसिचर भरोसी जोर जोर सुनाउ । जेहि बिधि बिसरहिं सब गति बिसराउ मोर पग चलाउ ॥',
           transliteration: 'kahaṃ raghupati nisicara bharosī jora jora sunāu | jehi bidhi bisarihaṃ sab gati bisarāu mora paga calāu ||',
           translation: 'Lord Rama said to the ocean with force: hear my command. By whatever means you forget all paths, forget my path and let me cross.',
           hindi: 'रघुपति ने समुद्र से ज़ोर से कहा: मेरी बात सुनो। जिस विधि से तुम सब रास्ते भूल जाओ, मेरा रास्ता भूल जाओ और मुझे पार कर दो।',
@@ -213,7 +213,7 @@ export const ramcharitmanas: Scripture = {
         },
         {
           id: 10,
-          sanskrit: 'जानकी राम लखन समेत हनुमान | सेवक समेत सब कोटि राम भगवान ||',
+          sanskrit: 'जानकी राम लखन समेत हनुमान । सेवक समेत सब कोटि राम भगवान ॥',
           transliteration: 'jānakī rāma lakhaṇa sameta hanumāna | sevaka sameta saba koṭi rāma bhagavān ||',
           translation: 'Janki, Rama, Lakshman, and Hanuman together — with all servants, crores of Rama are the Lord.',
           hindi: 'जानकी, राम, लखन और हनुमान साथ में — सेवक समेत सब कोटि राम भगवान हैं।',
@@ -227,7 +227,7 @@ export const ramcharitmanas: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'भव भेषज रघुनाथ जसु सुनहिं जे नर अरु नारि | तिन्ह कर सकल मनोरथ सिद्ध करहिं त्रिसिरारि ||',
+          sanskrit: 'भव भेषज रघुनाथ जसु सुनहिं जे नर अरु नारि । तिन्ह कर सकल मनोरथ सिद्ध करहिं त्रिसिरारि ॥',
           transliteration: 'bhava bheṣaja raghunātha jasu sunahiṃ je nara aru nāri | tinha kara sakala manoratha siddha karahiṃ trisirāri ||',
           translation: 'The praise of Raghunath is the medicine for worldly disease. Men and women who hear it — the Lord of Trishira (Rama) fulfils all their heartfelt desires.',
           hindi: 'रघुनाथ का यश संसार की भव-व्याधि का औषध है। जो स्त्री-पुरुष उसे सुनते हैं — त्रिशिरारि (राम) उनके सब मनोरथ सिद्ध करते हैं।',
@@ -239,7 +239,7 @@ export const ramcharitmanas: Scripture = {
       
         {
           id: 2,
-          sanskrit: 'जड़ चेतन गुण दोषमय बिस्व कीन्ह करतार | संत हंस गुन गहहिं पय परिहरि बारि बिकार ||',
+          sanskrit: 'जड़ चेतन गुण दोषमय बिस्व कीन्ह करतार । संत हंस गुन गहहिं पय परिहरि बारि बिकार ॥',
           transliteration: 'jaḍa cetana guṇa doṣamaya bisva kīnha karatāra | saṃta haṃsa guṇa gahahiṃ paya parihari bāri bikāra ||',
           translation: 'The Creator made this world full of both inert matter and conscious beings, full of both virtues and faults. Saints, like swans, take the milk of virtues and leave behind the water of faults.',
           hindi: 'करतार (ईश्वर) ने यह जगत जड़-चेतन, गुण-दोषमय बनाया। संत हंस के समान गुण रूपी दूध को ग्रहण करते हैं और दोष रूपी जल को छोड़ देते हैं।',
@@ -248,7 +248,7 @@ export const ramcharitmanas: Scripture = {
         },
         {
           id: 8,
-          sanskrit: 'सुनत शबरी भक्ति भावि भयाउ तरसी सुधाउ | प्रेम प्रगट सोई जानि भगति न भजति गाउ ||',
+          sanskrit: 'सुनत शबरी भक्ति भावि भयाउ तरसी सुधाउ । प्रेम प्रगट सोई जानि भगति न भजति गाउ ॥',
           transliteration: 'sunata śabarī bhakti bhāvī bhayāu tarasī sudhāu | prema pragaṭa soī jānī bhagati na bhajati gāu ||',
           translation: 'Hearing Shabari\'s devotion, Rama was moved to tears. Knowing that love alone is true devotion, he does not worship without love.',
           hindi: 'शबरी की भक्ति सुनकर राम आँसू बहाने लगे। प्रेम ही सच्ची भक्ति जानकर, वे प्रेम के बिना पूजा नहीं करते।',
@@ -257,7 +257,7 @@ export const ramcharitmanas: Scripture = {
         },
         {
           id: 9,
-          sanskrit: 'कहँ रघुपति निसिचर भरोसी जोर जोर सुनाउ | जेहि बिधि बिसरहिं सब गति बिसराउ मोर पग चलाउ ||',
+          sanskrit: 'कहँ रघुपति निसिचर भरोसी जोर जोर सुनाउ । जेहि बिधि बिसरहिं सब गति बिसराउ मोर पग चलाउ ॥',
           transliteration: 'kahaṃ raghupati nisicara bharosī jora jora sunāu | jehi bidhi bisarihaṃ sab gati bisarāu mora paga calāu ||',
           translation: 'Lord Rama said to the ocean with force: hear my command. By whatever means you forget all paths, forget my path and let me cross.',
           hindi: 'रघुपति ने समुद्र से ज़ोर से कहा: मेरी बात सुनो। जिस विधि से तुम सब रास्ते भूल जाओ, मेरा रास्ता भूल जाओ और मुझे पार कर दो।',
@@ -266,7 +266,7 @@ export const ramcharitmanas: Scripture = {
         },
         {
           id: 10,
-          sanskrit: 'जानकी राम लखन समेत हनुमान | सेवक समेत सब कोटि राम भगवान ||',
+          sanskrit: 'जानकी राम लखन समेत हनुमान । सेवक समेत सब कोटि राम भगवान ॥',
           transliteration: 'jānakī rāma lakhaṇa sameta hanumāna | sevaka sameta saba koṭi rāma bhagavān ||',
           translation: 'Janki, Rama, Lakshman, and Hanuman together — with all servants, crores of Rama are the Lord.',
           hindi: 'जानकी, राम, लखन और हनुमान साथ में — सेवक समेत सब कोटि राम भगवान हैं।',
@@ -280,7 +280,7 @@ export const ramcharitmanas: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'काम क्रोध मद लोभ सब नाथ नरक के पन्थ | सब परिहरि रघुबीरहि भजहु भजहु भव दन्थ ||',
+          sanskrit: 'काम क्रोध मद लोभ सब नाथ नरक के पन्थ । सब परिहरि रघुबीरहि भजहु भजहु भव दन्थ ॥',
           transliteration: 'kāma krodha mada lobha saba nātha naraka ke pantha | saba parihari raghubīrahi bhajahu bhajahu bhava dantha ||',
           translation: 'Lust, anger, pride, and greed — O Lord, these are all the paths to hell. Abandon them all and worship Raghuvira — worship Him, the destroyer of the world\'s pain.',
           hindi: 'काम, क्रोध, मद और लोभ — हे प्रभु! ये सब नरक के मार्ग हैं। इन सबको छोड़कर रघुवीर का भजन करो — उनका भजन करो जो संसार के दुखों को दूर करते हैं।',
@@ -291,7 +291,7 @@ export const ramcharitmanas: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'निज दोष कहत न लजाहीं | काहू सो पूछत बनही नाहीं ||',
+          sanskrit: 'निज दोष कहत न लजाहीं । काहू सो पूछत बनही नाहीं ॥',
           transliteration: 'nija doṣa kahata na lajāhīṃ | kāhū so pūchata banaī nāhīṃ ||',
           translation: 'They are not ashamed to speak of their own faults; they cannot bear to ask anyone anything.',
           hindi: 'अपने दोष कहते हुए वे लजाते नहीं; किसी से कुछ पूछना उन्हें सुहाता नहीं।',
@@ -303,7 +303,7 @@ export const ramcharitmanas: Scripture = {
       
         {
           id: 8,
-          sanskrit: 'सुनत शबरी भक्ति भावि भयाउ तरसी सुधाउ | प्रेम प्रगट सोई जानि भगति न भजति गाउ ||',
+          sanskrit: 'सुनत शबरी भक्ति भावि भयाउ तरसी सुधाउ । प्रेम प्रगट सोई जानि भगति न भजति गाउ ॥',
           transliteration: 'sunata śabarī bhakti bhāvī bhayāu tarasī sudhāu | prema pragaṭa soī jānī bhagati na bhajati gāu ||',
           translation: 'Hearing Shabari\'s devotion, Rama was moved to tears. Knowing that love alone is true devotion, he does not worship without love.',
           hindi: 'शबरी की भक्ति सुनकर राम आँसू बहाने लगे। प्रेम ही सच्ची भक्ति जानकर, वे प्रेम के बिना पूजा नहीं करते।',
@@ -312,7 +312,7 @@ export const ramcharitmanas: Scripture = {
         },
         {
           id: 9,
-          sanskrit: 'कहँ रघुपति निसिचर भरोसी जोर जोर सुनाउ | जेहि बिधि बिसरहिं सब गति बिसराउ मोर पग चलाउ ||',
+          sanskrit: 'कहँ रघुपति निसिचर भरोसी जोर जोर सुनाउ । जेहि बिधि बिसरहिं सब गति बिसराउ मोर पग चलाउ ॥',
           transliteration: 'kahaṃ raghupati nisicara bharosī jora jora sunāu | jehi bidhi bisarihaṃ sab gati bisarāu mora paga calāu ||',
           translation: 'Lord Rama said to the ocean with force: hear my command. By whatever means you forget all paths, forget my path and let me cross.',
           hindi: 'रघुपति ने समुद्र से ज़ोर से कहा: मेरी बात सुनो। जिस विधि से तुम सब रास्ते भूल जाओ, मेरा रास्ता भूल जाओ और मुझे पार कर दो।',
@@ -321,7 +321,7 @@ export const ramcharitmanas: Scripture = {
         },
         {
           id: 10,
-          sanskrit: 'जानकी राम लखन समेत हनुमान | सेवक समेत सब कोटि राम भगवान ||',
+          sanskrit: 'जानकी राम लखन समेत हनुमान । सेवक समेत सब कोटि राम भगवान ॥',
           transliteration: 'jānakī rāma lakhaṇa sameta hanumāna | sevaka sameta saba koṭi rāma bhagavān ||',
           translation: 'Janki, Rama, Lakshman, and Hanuman together — with all servants, crores of Rama are the Lord.',
           hindi: 'जानकी, राम, लखन और हनुमान साथ में — सेवक समेत सब कोटि राम भगवान हैं।',
@@ -335,7 +335,7 @@ export const ramcharitmanas: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'दैहिक दैविक भौतिक तापा | राम राज काहूहि नहिं ब्यापा || सब नर करहिं परस्पर प्रीती | चलहिं स्वधर्म निरत श्रुति नीती ||',
+          sanskrit: 'दैहिक दैविक भौतिक तापा । राम राज काहूहि नहिं ब्यापा ॥ सब नर करहिं परस्पर प्रीती । चलहिं स्वधर्म निरत श्रुति नीती ॥',
           transliteration: 'daihika daivika bhautika tāpā | rāma rāja kāhūhi nahiṃ byāpā || saba nara karahiṃ parasapara prītī | calahiṃ svadharma nirata śruti nītī ||',
           translation: 'In the reign of Rama, no one suffered the three afflictions — of body, of fate, or of the world. All people loved one another; all moved in their own dharma, devoted to the Vedic way.',
           hindi: 'रामराज में दैहिक, दैविक, और भौतिक — किसी को भी कोई ताप न व्यापा। सब मनुष्य परस्पर प्रेम करते थे; सब अपने-अपने स्वधर्म में लगे, श्रुति-नीति का पालन करते थे।',
@@ -346,7 +346,7 @@ export const ramcharitmanas: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'राम कहत चलु राम कहत चलु राम कहत चलु भाई | जो यह राम नाम रट लावे ताहि न काल सताई ||',
+          sanskrit: 'राम कहत चलु राम कहत चलु राम कहत चलु भाई । जो यह राम नाम रट लावे ताहि न काल सताई ॥',
           transliteration: 'rāma kahata calu rāma kahata calu rāma kahata calu bhāī | jo yaha rāma nāma raṭa lāve tāhi na kāla satāī ||',
           translation: 'Keep saying "Rama," keep saying "Rama," keep saying "Rama," brother. Whoever fixes this name of Rama — time will not torment that one.',
           hindi: 'राम कहते चलो, राम कहते चलो, राम कहते चलो, भाई। जो यह राम-नाम जपता रहे — काल भी उसे नहीं सताता।',
@@ -357,7 +357,7 @@ export const ramcharitmanas: Scripture = {
         },
         {
           id: 8,
-          sanskrit: 'सुनत शबरी भक्ति भावि भयाउ तरसी सुधाउ | प्रेम प्रगट सोई जानि भगति न भजति गाउ ||',
+          sanskrit: 'सुनत शबरी भक्ति भावि भयाउ तरसी सुधाउ । प्रेम प्रगट सोई जानि भगति न भजति गाउ ॥',
           transliteration: 'sunata śabarī bhakti bhāvī bhayāu tarasī sudhāu | prema pragaṭa soī jānī bhagati na bhajati gāu ||',
           translation: 'Hearing Shabari\'s devotion, Rama was moved to tears. Knowing that love alone is true devotion, he does not worship without love.',
           hindi: 'शबरी की भक्ति सुनकर राम आँसू बहाने लगे। प्रेम ही सच्ची भक्ति जानकर, वे प्रेम के बिना पूजा नहीं करते।',
@@ -368,7 +368,7 @@ export const ramcharitmanas: Scripture = {
         },
         {
           id: 9,
-          sanskrit: 'कहँ रघुपति निसिचर भरोसी जोर जोर सुनाउ | जेहि बिधि बिसरहिं सब गति बिसराउ मोर पग चलाउ ||',
+          sanskrit: 'कहँ रघुपति निसिचर भरोसी जोर जोर सुनाउ । जेहि बिधि बिसरहिं सब गति बिसराउ मोर पग चलाउ ॥',
           transliteration: 'kahaṃ raghupati nisicara bharosī jora jora sunāu | jehi bidhi bisarihaṃ sab gati bisarāu mora paga calāu ||',
           translation: 'Lord Rama said to the ocean with force: hear my command. By whatever means you forget all paths, forget my path and let me cross.',
           hindi: 'रघुपति ने समुद्र से ज़ोर से कहा: मेरी बात सुनो। जिस विधि से तुम सब रास्ते भूल जाओ, मेरा रास्ता भूल जाओ और मुझे पार कर दो।',
@@ -379,7 +379,7 @@ export const ramcharitmanas: Scripture = {
         },
         {
           id: 10,
-          sanskrit: 'जानकी राम लखन समेत हनुमान | सेवक समेत सब कोटि राम भगवान ||',
+          sanskrit: 'जानकी राम लखन समेत हनुमान । सेवक समेत सब कोटि राम भगवान ॥',
           transliteration: 'jānakī rāma lakhaṇa sameta hanumāna | sevaka sameta saba koṭi rāma bhagavān ||',
           translation: 'Janki, Rama, Lakshman, and Hanuman together — with all servants, crores of Rama are the Lord.',
           hindi: 'जानकी, राम, लखन और हनुमान साथ में — सेवक समेत सब कोटि राम भगवान हैं।',

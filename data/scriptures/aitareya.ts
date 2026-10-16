@@ -20,7 +20,7 @@ export const aitareya: Scripture = {
         {
           id: 1,
           sanskrit:
-            "ॐ आत्मा वा इदमेक एवाग्र आसीत् | नान्यत्किञ्चन मिषत् | स ईक्षत लोकान्नु सृजा इति ||",
+            "ॐ आत्मा वा इदमेक एवाग्र आसीत् । नान्यत्किञ्चन मिषत् । स ईक्षत लोकान्नु सृजा इति ॥",
           transliteration:
             "oṃ ātmā vā idameka evāgra āsīt | nānyatkiñcana miṣat | sa īkṣata lokānnu sṛjā iti ||",
           translation:
@@ -38,7 +38,7 @@ export const aitareya: Scripture = {
         {
           id: 2,
           sanskrit:
-            "स इमाँल्लोकानसृजत | अम्भो मरीचीर्मरमापः | अदोऽम्भः परेण दिवं द्यौः प्रतिष्ठाऽन्तरिक्षं मरीचयः | पृथिवी मरो या अधस्तात्ता आपः ||",
+            "स इमाँल्लोकानसृजत । अम्भो मरीचीर्मरमापः । अदोऽम्भः परेण दिवं द्यौः प्रतिष्ठाऽन्तरिक्षं मरीचयः । पृथिवी मरो या अधस्तात्ता आपः ॥",
           transliteration:
             "sa imāṃllokānasṛjata | ambho marīcīrmaramāpaḥ | ado'mbhaḥ pareṇa divaṃ dyauḥ pratiṣṭhā'ntarikṣaṃ marīcayaḥ | pṛthivī maro yā adhastāttā āpaḥ ||",
           translation:
@@ -56,7 +56,7 @@ export const aitareya: Scripture = {
         {
           id: 3,
           sanskrit:
-            "स ईक्षतेमे नु लोका लोकपालान्नु सृजा इति | सोऽद्भ्य एव पुरुषं समुद्धृत्यामूर्छयत् ||",
+            "स ईक्षतेमे नु लोका लोकपालान्नु सृजा इति । सोऽद्भ्य एव पुरुषं समुद्धृत्यामूर्छयत् ॥",
           transliteration:
             "sa īkṣateme nu lokā lokapālānnu sṛjā iti | so'dbhya eva puruṣaṃ samuddhṛtyāmūrcchayat ||",
           translation:
@@ -74,7 +74,7 @@ export const aitareya: Scripture = {
         {
           id: 4,
           sanskrit:
-            "तमभ्यतपत् | तस्याभितप्तस्य मुखं निरभिद्यत यथाण्डम् | मुखाद्वाग्वाचोऽग्निः | नासिके निरभिद्येतां नासिकाभ्यां प्राणः प्राणाद्वायुः | अक्षिणी निरभिद्येतामक्षीभ्यां चक्षुश्चक्षुष आदित्यः | कर्णौ निरभिद्येतां कर्णाभ्यां श्रोत्रं श्रोत्रादिशः | त्वङ्निरभिद्यत त्वचो लोमानि लोमभ्य ओषधिवनस्पतयः | हृदयं निरभिद्यत हृदयान्मनो मनसश्चन्द्रमाः | नाभिर्निरभिद्यत नाभ्या अपानोऽपानान्मृत्युः | शिश्नं निरभिद्यत शिश्नाद्रेतो रेतस आपः ||",
+            "तमभ्यतपत् । तस्याभितप्तस्य मुखं निरभिद्यत यथाण्डम् । मुखाद्वाग्वाचोऽग्निः । नासिके निरभिद्येतां नासिकाभ्यां प्राणः प्राणाद्वायुः । अक्षिणी निरभिद्येतामक्षीभ्यां चक्षुश्चक्षुष आदित्यः । कर्णौ निरभिद्येतां कर्णाभ्यां श्रोत्रं श्रोत्रादिशः । त्वङ्निरभिद्यत त्वचो लोमानि लोमभ्य ओषधिवनस्पतयः । हृदयं निरभिद्यत हृदयान्मनो मनसश्चन्द्रमाः । नाभिर्निरभिद्यत नाभ्या अपानोऽपानान्मृत्युः । शिश्नं निरभिद्यत शिश्नाद्रेतो रेतस आपः ॥",
           transliteration:
             "tamabhyatapat | tasyābhitaptasya mukhaṃ nirabhidyata yathāṇḍam | mukhādvāgvāco'gniḥ | nāsike nirabhidyetāṃ nāsikābhyāṃ prāṇaḥ prāṇādvāyuḥ | akṣiṇī nirabhidyetāmakṣībhyāṃ cakṣuścakṣuṣa ādityaḥ | karṇau nirabhidyetāṃ karṇābhyāṃ śrotraṃ śrotrādiśaḥ | tvaṅnirabhidyata tvaco lomāni lomabhya oṣadhivanaspatayaḥ | hṛdayaṃ nirabhidyata hṛdayānmano manasaścandramāḥ | nābhirnirabhidyata nābhyā apāno'pānānmṛtyuḥ | śiśnaṃ nirabhidyata śiśnādreto retasa āpaḥ ||",
           translation:
@@ -92,7 +92,7 @@ export const aitareya: Scripture = {
       
         {
           id: 11,
-          sanskrit: 'ॐ वाङ् मे मनसि प्रतिष्ठिता | मनो मे वाचि प्रतिष्ठितम् | आविरावीर्म एधि ||',
+          sanskrit: 'ॐ वाङ् मे मनसि प्रतिष्ठिता । मनो मे वाचि प्रतिष्ठितम् । आविरावीर्म एधि ॥',
           transliteration: 'oṃ vāṅ me manasi pratiṣṭhitā | mano me vāci pratiṣṭhitam | āvirāvīrma edhi ||',
           translation: 'OM. May my speech be founded in mind; may my mind be founded in speech. O Self-Revealer, reveal yourself to me.',
           hindi: 'ॐ। मेरी वाणी मन में प्रतिष्ठित हो; मेरा मन वाणी में प्रतिष्ठित हो। हे आविर्भूत होने वाले! मुझ पर प्रकट हो।',
@@ -101,7 +101,7 @@ export const aitareya: Scripture = {
         },
         {
           id: 12,
-          sanskrit: 'वेदस्य म आणीस्थः | श्रुतं मे मा प्रहासीः | अनेनाधीतेनाहोरात्रान् संदधाम्यृतं वदिष्यामि | सत्यं वदिष्यामि ||',
+          sanskrit: 'वेदस्य म आणीस्थः । श्रुतं मे मा प्रहासीः । अनेनाधीतेनाहोरात्रान् संदधाम्यृतं वदिष्यामि । सत्यं वदिष्यामि ॥',
           transliteration: 'vedasya ma āṇīsthaḥ | śrutaṃ me mā prahāsīḥ | anenādhītenāhorātrān saṃdadhāmyṛtaṃ vadiṣyāmi | satyaṃ vadiṣyāmi ||',
           translation: 'Be a hook for my Veda. May my learning not desert me. By this learning may I unite days and nights. I will speak ṛta (cosmic order); I will speak satya (truth).',
           hindi: 'मेरे वेद-ज्ञान को बाँधे रखो। मेरी श्रुति मुझे न छोड़े। इस अधीत के द्वारा दिन-रात को संयुक्त करूँ। ऋत बोलूँगा; सत्य बोलूँगा।',
@@ -110,7 +110,7 @@ export const aitareya: Scripture = {
         },
         {
           id: 13,
-          sanskrit: 'तन्मामवतु | तद्वक्तारमवतु | अवतु माम् | अवतु वक्तारमवतु वक्तारम् ||',
+          sanskrit: 'तन्मामवतु । तद्वक्तारमवतु । अवतु माम् । अवतु वक्तारमवतु वक्तारम् ॥',
           transliteration: 'tanmāmavatu | tadvaktāramavatu | avatu mām | avatu vaktāramavatu vaktāram ||',
           translation: 'May That protect me; may That protect the speaker. May it protect me; may it protect the speaker, may it protect the speaker.',
           hindi: 'वह मेरी रक्षा करे; वह वक्ता की रक्षा करे। मेरी रक्षा करे; वक्ता की रक्षा करे; वक्ता की रक्षा करे।',
@@ -119,7 +119,7 @@ export const aitareya: Scripture = {
         },
         {
           id: 14,
-          sanskrit: 'ॐ शान्तिः शान्तिः शान्तिः ||',
+          sanskrit: 'ॐ शान्तिः शान्तिः शान्तिः ॥',
           transliteration: 'oṃ śāntiḥ śāntiḥ śāntiḥ ||',
           translation: 'OM. Peace, peace, peace.',
           hindi: 'ॐ। शान्ति, शान्ति, शान्ति।',
@@ -137,7 +137,7 @@ export const aitareya: Scripture = {
         {
           id: 1,
           sanskrit:
-            "ता एता देवताः सृष्टा अस्मिन्महत्यर्णवे प्रापतन् | तमशनापिपासाभ्यामन्ववार्जत् | ता एनमब्रुवन् | आयतनं नः प्रजानीहि यस्मिन् प्रतिष्ठिता अन्नमदामेति ||",
+            "ता एता देवताः सृष्टा अस्मिन्महत्यर्णवे प्रापतन् । तमशनापिपासाभ्यामन्ववार्जत् । ता एनमब्रुवन् । आयतनं नः प्रजानीहि यस्मिन् प्रतिष्ठिता अन्नमदामेति ॥",
           transliteration:
             "tā etā devatāḥ sṛṣṭā asminmahatyarṇave prāpatan | tamaśanāpipāsābhyāmanvavārjat | tā enamabruvan | āyatanaṃ naḥ prajānīhi yasmin pratiṣṭhitā annamadāmeti ||",
           translation:
@@ -155,7 +155,7 @@ export const aitareya: Scripture = {
         {
           id: 2,
           sanskrit:
-            "ताभ्यो गामानयत् | ता अब्रुवन्न वै नोऽयमलमिति | ताभ्योऽश्वमानयत् | ता अब्रुवन्न वै नोऽयमलमिति ||",
+            "ताभ्यो गामानयत् । ता अब्रुवन्न वै नोऽयमलमिति । ताभ्योऽश्वमानयत् । ता अब्रुवन्न वै नोऽयमलमिति ॥",
           transliteration:
             "tābhyo gāmānayat | tā abruvanna vai no'yamalamiti | tābhyo'śvamānayat | tā abruvanna vai no'yamalamiti ||",
           translation:
@@ -173,7 +173,7 @@ export const aitareya: Scripture = {
         {
           id: 3,
           sanskrit:
-            "ताभ्यः पुरुषमानयत् | ता अब्रुवन् सुकृतं बतेति | पुरुषो वाव सुकृतम् | ता अब्रवीद्यथायतनं प्रविशतेति ||",
+            "ताभ्यः पुरुषमानयत् । ता अब्रुवन् सुकृतं बतेति । पुरुषो वाव सुकृतम् । ता अब्रवीद्यथायतनं प्रविशतेति ॥",
           transliteration:
             "tābhyaḥ puruṣamānayat | tā abruvan sukṛtaṃ bateti | puruṣo vāva sukṛtam | tā abravīdyathāyatanaṃ praviśateti ||",
           translation:
@@ -191,7 +191,7 @@ export const aitareya: Scripture = {
         {
           id: 4,
           sanskrit:
-            "अग्निर्वाग्भूत्वा मुखं प्राविशत् | वायुः प्राणो भूत्वा नासिके प्राविशत् | आदित्यश्चक्षुर्भूत्वाक्षिणी प्राविशत् | दिशः श्रोत्रं भूत्वा कर्णौ प्राविशन् | ओषधिवनस्पतयो लोमानि भूत्वा त्वचं प्राविशन् | चन्द्रमा मनो भूत्वा हृदयं प्राविशत् | मृत्युरपानो भूत्वा नाभिं प्राविशत् | आपो रेतो भूत्वा शिश्नं प्राविशन् ||",
+            "अग्निर्वाग्भूत्वा मुखं प्राविशत् । वायुः प्राणो भूत्वा नासिके प्राविशत् । आदित्यश्चक्षुर्भूत्वाक्षिणी प्राविशत् । दिशः श्रोत्रं भूत्वा कर्णौ प्राविशन् । ओषधिवनस्पतयो लोमानि भूत्वा त्वचं प्राविशन् । चन्द्रमा मनो भूत्वा हृदयं प्राविशत् । मृत्युरपानो भूत्वा नाभिं प्राविशत् । आपो रेतो भूत्वा शिश्नं प्राविशन् ॥",
           transliteration:
             "agnirvāgbhūtvā mukhaṃ prāviśat | vāyuḥ prāṇo bhūtvā nāsike prāviśat | ādityaścakṣurbhūtvākṣiṇī prāviśat | diśaḥ śrotraṃ bhūtvā karṇau prāviśan | oṣadhivanaspatayo lomāni bhūtvā tvacaṃ prāviśan | candramā mano bhūtvā hṛdayaṃ prāviśat | mṛtyurapāno bhūtvā nābhiṃ prāviśat | āpo reto bhūtvā śiśnaṃ prāviśan ||",
           translation:
@@ -209,7 +209,7 @@ export const aitareya: Scripture = {
         {
           id: 5,
           sanskrit:
-            "तमशनापिपासे अब्रूताम् | आवाभ्यामभिप्रजानीहीति | ते अब्रवीदेतास्वेव वां देवतास्वाभजाम्येतासु भागिन्यौ करोमीति | तस्माद्यस्यै कस्यै च देवतायै हविर्गृह्यते भागिन्यावेवास्यामशनापिपासे भवतः ||",
+            "तमशनापिपासे अब्रूताम् । आवाभ्यामभिप्रजानीहीति । ते अब्रवीदेतास्वेव वां देवतास्वाभजाम्येतासु भागिन्यौ करोमीति । तस्माद्यस्यै कस्यै च देवतायै हविर्गृह्यते भागिन्यावेवास्यामशनापिपासे भवतः ॥",
           transliteration:
             "tamaśanāpipāse abrūtām | āvābhyāmabhiprajānīhīti | te abravīdetāsveva vāṃ devatāsvābhajāmyetāsu bhāginyau karomīti | tasmādyasyai kasyai ca devatāyai havirgṛhyate bhāginyāvevāsyāmaśanāpipāse bhavataḥ ||",
           translation:
@@ -236,7 +236,7 @@ export const aitareya: Scripture = {
         {
           id: 1,
           sanskrit:
-            "स ईक्षत | कथं न्विदं मदृते स्यादिति | स ईक्षत कतरेण प्रपद्या इति | स ईक्षत यदि वाचाभिव्याहृतं यदि प्राणेनाभिप्राणितं यदि चक्षुषा दृष्टं यदि श्रोत्रेण श्रुतं यदि त्वचा स्पृष्टं यदि मनसा ध्यातं यदि अपानेनाभ्यपानितं यदि शिश्नेन विसृष्टमथ कोऽहमिति ||",
+            "स ईक्षत । कथं न्विदं मदृते स्यादिति । स ईक्षत कतरेण प्रपद्या इति । स ईक्षत यदि वाचाभिव्याहृतं यदि प्राणेनाभिप्राणितं यदि चक्षुषा दृष्टं यदि श्रोत्रेण श्रुतं यदि त्वचा स्पृष्टं यदि मनसा ध्यातं यदि अपानेनाभ्यपानितं यदि शिश्नेन विसृष्टमथ कोऽहमिति ॥",
           transliteration:
             "sa īkṣata | kathaṃ nvidaṃ madṛte syāditi | sa īkṣata katareṇa prapadyā iti | sa īkṣata yadi vācābhivyāhṛtaṃ yadi prāṇenābhiprāṇitaṃ yadi cakṣuṣā dṛṣṭaṃ yadi śrotreṇa śrutaṃ yadi tvacā spṛṣṭaṃ yadi manasā dhyātaṃ yadi apānenābhyapānitaṃ yadi śiśnena visṛṣṭamatha ko'hamiti ||",
           translation:
@@ -254,7 +254,7 @@ export const aitareya: Scripture = {
         {
           id: 2,
           sanskrit:
-            "स एतमेव सीमानं विदार्यैतया द्वारा प्रापद्यत | सैषा विदृतिर्नाम द्वास्तदेतन्नाण्डनम् | तस्य त्रय आवसथास्त्रयः स्वप्नाः | अयमावसथोऽयमावसथोऽयमावसथ इति ||",
+            "स एतमेव सीमानं विदार्यैतया द्वारा प्रापद्यत । सैषा विदृतिर्नाम द्वास्तदेतन्नाण्डनम् । तस्य त्रय आवसथास्त्रयः स्वप्नाः । अयमावसथोऽयमावसथोऽयमावसथ इति ॥",
           transliteration:
             "sa etameva sīmānaṃ vidāryaitayā dvārā prāpadyata | saiṣā vidṛtirnāma dvāstadetannāṇḍanam | tasya traya āvasathāstrayaḥ svapnāḥ | ayamāvasatho'yamāvasatho'yamāvasatha iti ||",
           translation:
@@ -272,7 +272,7 @@ export const aitareya: Scripture = {
         {
           id: 3,
           sanskrit:
-            "स जातो भूतान्यभिव्यैक्षत | किमिहान्यं वावदिषदिति | स एतमेव पुरुषं ब्रह्म ततममपश्यत् | इदमदर्शमिति ||",
+            "स जातो भूतान्यभिव्यैक्षत । किमिहान्यं वावदिषदिति । स एतमेव पुरुषं ब्रह्म ततममपश्यत् । इदमदर्शमिति ॥",
           transliteration:
             "sa jāto bhūtānyabhivyaikṣata | kimihānyaṃ vāvadiṣaditi | sa etameva puruṣaṃ brahma tatamamapaśyat | idamadarśamiti ||",
           translation:
@@ -290,7 +290,7 @@ export const aitareya: Scripture = {
         {
           id: 4,
           sanskrit:
-            "तस्मादिदन्द्रो नामेदन्द्रो ह वै नाम | तमिदन्द्रं सन्तमिन्द्र इत्याचक्षते परोक्षेण | परोक्षप्रिया इव हि देवाः परोक्षप्रिया इव हि देवाः ||",
+            "तस्मादिदन्द्रो नामेदन्द्रो ह वै नाम । तमिदन्द्रं सन्तमिन्द्र इत्याचक्षते परोक्षेण । परोक्षप्रिया इव हि देवाः परोक्षप्रिया इव हि देवाः ॥",
           transliteration:
             "tasmādidandro nāmedandro ha vai nāma | tamidandraṃ santamindra ityācakṣate parokṣeṇa | parokṣapriyā iva hi devāḥ parokṣapriyā iva hi devāḥ ||",
           translation:
@@ -317,7 +317,7 @@ export const aitareya: Scripture = {
         {
           id: 1,
           sanskrit:
-            "पुरुषे ह वा अयमादितो गर्भो भवति | यदेतद्रेतस्तदेतत्सर्वेभ्योऽङ्गेभ्यस्तेजः सम्भूतम् | आत्मन्येवात्मानं बिभर्ति | तद्यथा स्त्रियां सिञ्चत्यथैनज्जनयति | तदस्य प्रथमं जन्म ||",
+            "पुरुषे ह वा अयमादितो गर्भो भवति । यदेतद्रेतस्तदेतत्सर्वेभ्योऽङ्गेभ्यस्तेजः सम्भूतम् । आत्मन्येवात्मानं बिभर्ति । तद्यथा स्त्रियां सिञ्चत्यथैनज्जनयति । तदस्य प्रथमं जन्म ॥",
           transliteration:
             "puruṣe ha vā ayamādito garbho bhavati | yadetadretastadetatsarvebhyo'ṅgebhyastejaḥ sambhūtam | ātmanyevātmānaṃ bibharti | tadyathā striyāṃ siñcatyathainajjanayati | tadasya prathamaṃ janma ||",
           translation:
@@ -335,7 +335,7 @@ export const aitareya: Scripture = {
         {
           id: 2,
           sanskrit:
-            "तत्स्त्रिया आत्मभूयं गच्छति यथा स्वमङ्गं तथा | तस्मादेनां न हिनस्ति | साऽस्यैतमात्मानमत्र गतं भावयति ||",
+            "तत्स्त्रिया आत्मभूयं गच्छति यथा स्वमङ्गं तथा । तस्मादेनां न हिनस्ति । साऽस्यैतमात्मानमत्र गतं भावयति ॥",
           transliteration:
             "tatstriyā ātmabhūyaṃ gacchati yathā svamaṅgaṃ tathā | tasmādenāṃ na hinasti | sā'syaitamātmānamatra gataṃ bhāvayati ||",
           translation:
@@ -353,7 +353,7 @@ export const aitareya: Scripture = {
         {
           id: 3,
           sanskrit:
-            "सा भावयित्री भावयितव्या भवति | तं स्त्री गर्भं बिभर्ति | सोऽग्र एव कुमारं जन्मनोऽग्रेऽधिभावयति | स यत्कुमारं जन्मनोऽग्रेऽधिभावयत्यात्मानमेव तद्भावयत्येषां लोकानां सन्तत्या | एवं सन्तता हीमे लोकाः | तदस्य द्वितीयं जन्म ||",
+            "सा भावयित्री भावयितव्या भवति । तं स्त्री गर्भं बिभर्ति । सोऽग्र एव कुमारं जन्मनोऽग्रेऽधिभावयति । स यत्कुमारं जन्मनोऽग्रेऽधिभावयत्यात्मानमेव तद्भावयत्येषां लोकानां सन्तत्या । एवं सन्तता हीमे लोकाः । तदस्य द्वितीयं जन्म ॥",
           transliteration:
             "sā bhāvayitrī bhāvayitavyā bhavati | taṃ strī garbhaṃ bibharti | so'gra eva kumāraṃ janmano'gre'dhibhāvayati | sa yatkumāraṃ janmano'gre'dhibhāvayatyātmānameva tadbhāvayatyeṣāṃ lokānāṃ santatyā | evaṃ santatā hīme lokāḥ | tadasya dvitīyaṃ janma ||",
           translation:
@@ -371,7 +371,7 @@ export const aitareya: Scripture = {
         {
           id: 4,
           sanskrit:
-            "सोऽस्यायमात्मा पुण्येभ्यः कर्मभ्यः प्रतिधीयते | अथास्यायमितर आत्मा कृतकृत्यो वयोगतः प्रैति | स इतः प्रयन्नेव पुनर्जायते | तदस्य तृतीयं जन्म ||",
+            "सोऽस्यायमात्मा पुण्येभ्यः कर्मभ्यः प्रतिधीयते । अथास्यायमितर आत्मा कृतकृत्यो वयोगतः प्रैति । स इतः प्रयन्नेव पुनर्जायते । तदस्य तृतीयं जन्म ॥",
           transliteration:
             "so'syāyamātmā puṇyebhyaḥ karmabhyaḥ pratidhīyate | athāsyāyamitara ātmā kṛtakṛtyo vayogataḥ praiti | sa itaḥ prayanneva punarjāyate | tadasya tṛtīyaṃ janma ||",
           translation:
@@ -389,7 +389,7 @@ export const aitareya: Scripture = {
         {
           id: 5,
           sanskrit:
-            "तदुक्तमृषिणा | गर्भे नु सन्नन्वेषामवेदमहं देवानां जनिमानि विश्वा | शतं मा पुर आयसीररक्षन्नधः श्येनो जवसा निरदीयम् | इति | गर्भ एवैतच्छयानो वामदेव एवमुवाच ||",
+            "तदुक्तमृषिणा । गर्भे नु सन्नन्वेषामवेदमहं देवानां जनिमानि विश्वा । शतं मा पुर आयसीररक्षन्नधः श्येनो जवसा निरदीयम् । इति । गर्भ एवैतच्छयानो वामदेव एवमुवाच ॥",
           transliteration:
             "taduktamṛṣiṇā | garbhe nu sannanveṣāmavedamahaṃ devānāṃ janimāni viśvā | śataṃ mā pura āyasīrarakṣannadhaḥ śyeno javasā niradīyam | iti | garbha evaitacchayāno vāmadeva evamuvāca ||",
           translation:
@@ -407,7 +407,7 @@ export const aitareya: Scripture = {
         {
           id: 6,
           sanskrit:
-            "स एवं विद्वानस्माच्छरीरभेदादूर्ध्व उत्क्रम्यामुष्मिन् स्वर्गे लोके सर्वान् कामानाप्त्वामृतः समभवत् समभवत् ||",
+            "स एवं विद्वानस्माच्छरीरभेदादूर्ध्व उत्क्रम्यामुष्मिन् स्वर्गे लोके सर्वान् कामानाप्त्वामृतः समभवत् समभवत् ॥",
           transliteration:
             "sa evaṃ vidvānasmāccharīrabhedādūrdhva utkramyāmuṣmin svarge loke sarvān kāmānāptvāmṛtaḥ samabhavat samabhavat ||",
           translation:
@@ -434,7 +434,7 @@ export const aitareya: Scripture = {
         {
           id: 1,
           sanskrit:
-            "कोऽयमात्मेति वयमुपास्महे | कतरः स आत्मा | येन वा पश्यति येन वा शृणोति येन वा गन्धानाजिघ्रति येन वा वाचं व्याकरोति येन वा स्वादु चास्वादु च विजानाति ||",
+            "कोऽयमात्मेति वयमुपास्महे । कतरः स आत्मा । येन वा पश्यति येन वा शृणोति येन वा गन्धानाजिघ्रति येन वा वाचं व्याकरोति येन वा स्वादु चास्वादु च विजानाति ॥",
           transliteration:
             "ko'yamātmeti vayamupāsmahe | katarah sa ātmā | yena vā paśyati yena vā śṛṇoti yena vā gandhānājighrati yena vā vācaṃ vyākaroti yena vā svādu cāsvādu ca vijānāti ||",
           translation:
@@ -452,7 +452,7 @@ export const aitareya: Scripture = {
         {
           id: 2,
           sanskrit:
-            "यदेतद्धृदयं मनश्चैतत् | संज्ञानमाज्ञानं विज्ञानं प्रज्ञानं मेधा दृष्टिर्धृतिर्मतिर्मनीषा जूतिः स्मृतिः सङ्कल्पः क्रतुरसुः कामो वश इति | सर्वाण्येवैतानि प्रज्ञानस्य नामधेयानि भवन्ति ||",
+            "यदेतद्धृदयं मनश्चैतत् । संज्ञानमाज्ञानं विज्ञानं प्रज्ञानं मेधा दृष्टिर्धृतिर्मतिर्मनीषा जूतिः स्मृतिः सङ्कल्पः क्रतुरसुः कामो वश इति । सर्वाण्येवैतानि प्रज्ञानस्य नामधेयानि भवन्ति ॥",
           transliteration:
             "yadetaddhṛdayaṃ manaścaitat | saṃjñānamājñānaṃ vijñānaṃ prajñānaṃ medhā dṛṣṭirdhṛtirmatirmanīṣā jūtiḥ smṛtiḥ saṅkalpaḥ kraturasuḥ kāmo vaśa iti | sarvāṇyevaitāni prajñānasya nāmadheyāni bhavanti ||",
           translation:
@@ -470,7 +470,7 @@ export const aitareya: Scripture = {
         {
           id: 3,
           sanskrit:
-            "एष ब्रह्मैष इन्द्र एष प्रजापतिरेते सर्वे देवा इमानि च पञ्च महाभूतानि पृथिवी वायुराकाश आपो ज्योतींषीत्येतानीमानि च क्षुद्रमिश्राणीव बीजानीतराणि चेतराणि चाण्डजानि च जारुजानि च स्वेदजानि चोद्भिज्जानि चाश्वा गावः पुरुषा हस्तिनो यत् किञ्चेदं प्राणि जङ्गमं च पतत्रि च यच्च स्थावरम् | सर्वं तत्प्रज्ञानेत्रं प्रज्ञाने प्रतिष्ठितम् | प्रज्ञानेत्रो लोकः | प्रज्ञा प्रतिष्ठा | प्रज्ञानं ब्रह्म ||",
+            "एष ब्रह्मैष इन्द्र एष प्रजापतिरेते सर्वे देवा इमानि च पञ्च महाभूतानि पृथिवी वायुराकाश आपो ज्योतींषीत्येतानीमानि च क्षुद्रमिश्राणीव बीजानीतराणि चेतराणि चाण्डजानि च जारुजानि च स्वेदजानि चोद्भिज्जानि चाश्वा गावः पुरुषा हस्तिनो यत् किञ्चेदं प्राणि जङ्गमं च पतत्रि च यच्च स्थावरम् । सर्वं तत्प्रज्ञानेत्रं प्रज्ञाने प्रतिष्ठितम् । प्रज्ञानेत्रो लोकः । प्रज्ञा प्रतिष्ठा । प्रज्ञानं ब्रह्म ॥",
           transliteration:
             "eṣa brahmaiṣa indra eṣa prajāpatirete sarve devā imāni ca pañca mahābhūtāni pṛthivī vāyurākāśa āpo jyotīṃṣītyetānīmāni ca kṣudramiśrāṇīva bījānītarāṇi cetarāṇi cāṇḍajāni ca jārujāni ca svedajāni codbhijjāni cāśvā gāvaḥ puruṣā hastino yat kiñcedaṃ prāṇi jaṅgamaṃ ca patatri ca yacca sthāvaram | sarvaṃ tatprajñānetraṃ prajñāne pratiṣṭhitam | prajñānetro lokaḥ | prajñā pratiṣṭhā | prajñānaṃ brahma ||",
           translation:
@@ -488,7 +488,7 @@ export const aitareya: Scripture = {
         {
           id: 4,
           sanskrit:
-            "स एतेन प्रज्ञेनात्मनास्माल्लोकादुत्क्रम्यामुष्मिन् स्वर्गे लोके सर्वान् कामानाप्त्वामृतः समभवत् समभवत् ||",
+            "स एतेन प्रज्ञेनात्मनास्माल्लोकादुत्क्रम्यामुष्मिन् स्वर्गे लोके सर्वान् कामानाप्त्वामृतः समभवत् समभवत् ॥",
           transliteration:
             "sa etena prajñenātmanāsmāllokādutkramyāmuṣmin svarge loke sarvān kāmānāptvāmṛtaḥ samabhavat samabhavat ||",
           translation:

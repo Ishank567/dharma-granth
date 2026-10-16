@@ -17,7 +17,7 @@ export const rigveda: Scripture = {
       verses: [
         {
           id: 0,
-          sanskrit: 'अग्निमीळे पुरोहितं यज्ञस्य देवमृत्विजम् | होतारं रत्नधातमम् ||',
+          sanskrit: 'अग्निमीळे पुरोहितं यज्ञस्य देवमृत्विजम् । होतारं रत्नधातमम् ॥',
           transliteration: 'agnimīḷe purohitaṃ yajñasya devamṛtvijam | hotāraṃ ratnadhātamam ||',
           translation: 'I praise Agni, the household priest, the divine minister of the sacrifice, the invoker, the greatest bestower of treasure.',
           hindi: 'मैं अग्नि की स्तुति करता हूँ — यज्ञ के पुरोहित, देव, ऋत्विज, होता, और सर्वश्रेष्ठ रत्नदाता।',
@@ -28,7 +28,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 1,
-          sanskrit: 'असतो मा सद्गमय | तमसो मा ज्योतिर्गमय | मृत्योर्मामृतं गमय | ॐ शान्तिः शान्तिः शान्तिः ||',
+          sanskrit: 'असतो मा सद्गमय । तमसो मा ज्योतिर्गमय । मृत्योर्मामृतं गमय । ॐ शान्तिः शान्तिः शान्तिः ॥',
           transliteration: 'asato mā sadgamaya | tamaso mā jyotirgamaya | mṛtyormā amṛtaṃ gamaya | oṃ śāntiḥ śāntiḥ śāntiḥ ||',
           translation: 'Lead me from the unreal to the Real. Lead me from darkness to Light. Lead me from death to Immortality. OM — Peace, Peace, Peace.',
           hindi: 'असत् (मिथ्या) से सत् (सत्य) की ओर ले चलो। अंधकार से प्रकाश की ओर ले चलो। मृत्यु से अमृत की ओर ले चलो। ॐ शान्तिः शान्तिः शान्तिः।',
@@ -39,7 +39,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'एकं सद्विप्रा बहुधा वदन्ति अग्निं यमं मातरिश्वानमाहुः ||',
+          sanskrit: 'एकं सद्विप्रा बहुधा वदन्ति अग्निं यमं मातरिश्वानमाहुः ॥',
           transliteration: 'ekaṃ sadvipra bahudhā vadanti agniṃ yamaṃ mātariśvānamāhuḥ ||',
           translation: 'Truth is one; the wise call it by many names — Agni, Yama, Matarishvan.',
           hindi: 'सत् (सत्य) एक ही है; विद्वान उसे अनेक नामों से पुकारते हैं — अग्नि, यम, मातरिश्वा आदि।',
@@ -51,7 +51,7 @@ export const rigveda: Scripture = {
       
         {
           id: 101012,
-          sanskrit: 'एकं सद्विप्रा बहुधा वदन्ति अग्निं यमं मातरिश्वानमाहुः ||',
+          sanskrit: 'एकं सद्विप्रा बहुधा वदन्ति अग्निं यमं मातरिश्वानमाहुः ॥',
           transliteration: 'ekaṃ sadvipra bahudhā vadanti agniṃ yamaṃ mātariśvānamāhuḥ ||',
           translation: 'Truth is one; the wise call it by many names — Agni, Yama, Matarishvan.',
           hindi: 'सत् (सत्य) एक ही है; विद्वान उसे अनेक नामों से पुकारते हैं — अग्नि, यम, मातरिश्वा आदि।',
@@ -67,7 +67,7 @@ export const rigveda: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'अग्ने नय सुपथा राये अस्मान् विश्वानि देव वयुनानि विद्वान् | युयोध्यस्मज्जुहुराणमेनो भूयिष्ठां ते नम उक्तिं विधेम ||',
+          sanskrit: 'अग्ने नय सुपथा राये अस्मान् विश्वानि देव वयुनानि विद्वान् । युयोध्यस्मज्जुहुराणमेनो भूयिष्ठां ते नम उक्तिं विधेम ॥',
           transliteration: 'agne naya supathā rāye asmān viśvāni deva vayunāni vidvān | yuyodhyasmajjuhurāṇameno bhūyiṣṭhāṃ te nama uktiṃ vidhema ||',
           translation: 'O Agni, lead us by the good path to prosperity. O God, you know all our deeds. Remove the sin that leads us astray. We offer you the most abundant words of homage.',
           hindi: 'हे अग्नि, हमें उत्तम मार्ग से सम्पदा की ओर ले चलो। हे देव, तुम हमारे सभी कर्म जानते हो। हमें भटकाने वाले पाप को दूर करो। हम तुम्हें सर्वाधिक नमन के शब्द अर्पित करते हैं।',
@@ -78,7 +78,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 12,
-          sanskrit: 'ऋतस्य पन्था न दभाय किं चन वृजिना ह्यस्य नश्यन्ति जन्तवः | ऋतेन दीर्घमनु वेनतो दिवः पदं न दुष्कृते अपि तं नशे ||',
+          sanskrit: 'ऋतस्य पन्था न दभाय किं चन वृजिना ह्यस्य नश्यन्ति जन्तवः । ऋतेन दीर्घमनु वेनतो दिवः पदं न दुष्कृते अपि तं नशे ॥',
           transliteration: 'ṛtasya panthā na dabhāya kiṃ cana vṛjinā hyasya naśyanti jantavaḥ | ṛtena dīrghamanu venato divaḥ padaṃ na duṣkṛte api taṃ naśe ||',
           translation: 'The path of Rita cannot be deceived by anyone. Those who follow crooked ways perish. By Rita the vast luminous realm is reached — the evildoer cannot attain that place.',
           hindi: 'ऋत के मार्ग को कोई धोखा नहीं दे सकता। वक्र पथ पर चलने वाले नष्ट हो जाते हैं। ऋत से ही वह विशाल द्युलोक प्राप्त होता है — दुष्कर्मी उसे नहीं पा सकता।',
@@ -90,7 +90,7 @@ export const rigveda: Scripture = {
       
         {
           id: 102012,
-          sanskrit: 'ऋतस्य पन्था न दभाय किं चन वृजिना ह्यस्य नश्यन्ति जन्तवः | ऋतेन दीर्घमनु वेनतो दिवः पदं न दुष्कृते अपि तं नशे ||',
+          sanskrit: 'ऋतस्य पन्था न दभाय किं चन वृजिना ह्यस्य नश्यन्ति जन्तवः । ऋतेन दीर्घमनु वेनतो दिवः पदं न दुष्कृते अपि तं नशे ॥',
           transliteration: 'ṛtasya panthā na dabhāya kiṃ cana vṛjinā hyasya naśyanti jantavaḥ | ṛtena dīrghamanu venato divaḥ padaṃ na duṣkṛte api taṃ naśe ||',
           translation: 'The path of Rita cannot be deceived by anyone. Those who follow crooked ways perish. By Rita the vast luminous realm is reached — the evildoer cannot attain that place.',
           hindi: 'ऋत के मार्ग को कोई धोखा नहीं दे सकता। वक्र पथ पर चलने वाले नष्ट हो जाते हैं। ऋत से ही वह विशाल द्युलोक प्राप्त होता है — दुष्कर्मी उसे नहीं पा सकता।',
@@ -99,7 +99,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 102013,
-          sanskrit: 'सहस्रशीर्षा पुरुषः सहस्राक्षः सहस्रपात् | स भूमिं विश्वतो वृत्वात्यतिष्ठद्दशाङ्गुलम् ||',
+          sanskrit: 'सहस्रशीर्षा पुरुषः सहस्राक्षः सहस्रपात् । स भूमिं विश्वतो वृत्वात्यतिष्ठद्दशाङ्गुलम् ॥',
           transliteration: 'sahasraśīrṣā puruṣaḥ sahasrākṣaḥ sahasrapāt | sa bhūmiṃ viśvato vṛtvātyatiṣṭhaddaśāṅgulam ||',
           translation: 'The Cosmic Person has a thousand heads, a thousand eyes, a thousand feet. He pervades the earth on all sides and stands ten fingers beyond.',
           hindi: 'पुरुष (विराट्) के हज़ार सिर, हज़ार आँखें और हज़ार पैर हैं। वह सब ओर से पृथ्वी को व्याप्त करके दस अंगुल अतिक्रमण करके स्थित है।',
@@ -108,7 +108,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 102018,
-          sanskrit: 'विमुचेन्यसि वरुण पाशान् यैरबद्धो असि जातवेदः | यद्धि ते विश्वमनुमत्यम्भिर्वयं सुमित्राः स्याम ||',
+          sanskrit: 'विमुचेन्यसि वरुण पाशान् यैरबद्धो असि जातवेदः । यद्धि ते विश्वमनुमत्यम्भिर्वयं सुमित्राः स्याम ॥',
           transliteration: 'vimucenya si varuṇa pāśān yairabaddho asi jātavedaḥ | yaddhi te viśvamanumatyambhirvayaṃ sumitrāḥ syāma ||',
           translation: 'Release, O Varuna, the bonds with which I am bound, O Jataveda. For by your will, O all-knowing one — may we be among your good friends.',
           hindi: 'हे वरुण, उन बन्धनों से मुझे मुक्त करो जिनसे मैं बँधा हूँ, हे जातवेद। क्योंकि तुम्हारी इच्छा से ही — हम तुम्हारे सुमित्र हों।',
@@ -117,7 +117,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 102127,
-          sanskrit: 'इन्द्रो मायाभिः पुरुरूप ईयते युक्ता ह्यस्य हरयः शता दश | आयं शक्र इत्येनमाहुर्यः स्वर्षाता सत्पतिः शूरो अस्तु ||',
+          sanskrit: 'इन्द्रो मायाभिः पुरुरूप ईयते युक्ता ह्यस्य हरयः शता दश । आयं शक्र इत्येनमाहुर्यः स्वर्षाता सत्पतिः शूरो अस्तु ॥',
           transliteration: 'indro māyābhiḥ pururūpa īyate yuktā hyasya harayaḥ śatā daśa | āyaṃ śakra ityenamāhuryaḥ svarṣātā satpatiḥ śūro astu ||',
           translation: 'Indra moves in many forms through his powers of maya. His golden coursers are yoked a thousand and ten. They call him Shakra — may he who wins the heavenly light, lord of the good, be heroic.',
           hindi: 'इन्द्र अपनी माया-शक्तियों से अनेक रूप धारण करके विचरते हैं। उनके दस सौ सुनहरे अश्व जुते हैं। उन्हें शक्र कहते हैं — जो स्वर्ग-प्रकाश प्राप्त करे, सत्पुरुषों का स्वामी, वह शूर हो।',
@@ -126,7 +126,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 102128,
-          sanskrit: 'मरुतो यद्ध वो बलं यच्च सत्यमुत क्रतुः | तेन मा पातनाधसः ||',
+          sanskrit: 'मरुतो यद्ध वो बलं यच्च सत्यमुत क्रतुः । तेन मा पातनाधसः ॥',
           transliteration: 'maruto yadha vo balaṃ yacca satyamuta kratuḥ | tena mā pātanādhasaḥ ||',
           translation: 'O Maruts — whatever strength you have, whatever truth, whatever purposeful will — by that, protect me from falling low.',
           hindi: 'हे मरुतो — तुम्हारे पास जो बल है, जो सत्य है, जो संकल्पशक्ति है — उससे मुझे नीचे गिरने से बचाओ।',
@@ -142,7 +142,7 @@ export const rigveda: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'तत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि | धियो यो नः प्रचोदयात् ||',
+          sanskrit: 'तत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि । धियो यो नः प्रचोदयात् ॥',
           transliteration: 'tatsaviturvareṇyaṃ bhargo devasya dhīmahi | dhiyo yo naḥ pracodayāt ||',
           translation: 'We meditate on the excellent glory of the divine Savitar; may he illuminate our intellects.',
           hindi: 'हम उस देव सविता के श्रेष्ठ तेज का ध्यान करते हैं। वह हमारी बुद्धि (धी) को प्रेरित करे।',
@@ -153,7 +153,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 62,
-          sanskrit: 'एक एव अग्निर्बहुधा समिद्धः एकः सूर्यो विश्वमनु प्रभूतः | एकैवोषाः सर्वमिदं विभाति एकं वा इदं विबभूव सर्वम् ||',
+          sanskrit: 'एक एव अग्निर्बहुधा समिद्धः एकः सूर्यो विश्वमनु प्रभूतः । एकैवोषाः सर्वमिदं विभाति एकं वा इदं विबभूव सर्वम् ॥',
           transliteration: 'eka eva agnirbahudha samiddhaḥ ekaḥ sūryo viśvamanu prabhūtaḥ | ekaivoṣāḥ sarvamidaṃ vibhāti ekaṃ vā idaṃ vibabhūva sarvam ||',
           translation: 'Fire is one, kindled in many ways. The Sun is one, pervading the whole world. The Dawn is one — she illumines all this. The One alone has become all this.',
           hindi: 'अग्नि एक ही है, अनेक प्रकार से प्रज्वलित। सूर्य एक ही है, सारे जगत् में व्याप्त। उषा एक ही है — वह सब को प्रकाशित करती है। वास्तव में यह सब वही एक है।',
@@ -165,7 +165,7 @@ export const rigveda: Scripture = {
       
         {
           id: 103012,
-          sanskrit: 'एक एव अग्निर्बहुधा समिद्धः एकः सूर्यो विश्वमनु प्रभूतः | एकैवोषाः सर्वमिदं विभाति एकं वा इदं विबभूव सर्वम् ||',
+          sanskrit: 'एक एव अग्निर्बहुधा समिद्धः एकः सूर्यो विश्वमनु प्रभूतः । एकैवोषाः सर्वमिदं विभाति एकं वा इदं विबभूव सर्वम् ॥',
           transliteration: 'eka eva agnirbahudha samiddhaḥ ekaḥ sūryo viśvamanu prabhūtaḥ | ekaivoṣāḥ sarvamidaṃ vibhāti ekaṃ vā idaṃ vibabhūva sarvam ||',
           translation: 'Fire is one, kindled in many ways. The Sun is one, pervading the whole world. The Dawn is one — she illumines all this. The One alone has become all this.',
           hindi: 'अग्नि एक ही है, अनेक प्रकार से प्रज्वलित। सूर्य एक ही है, सारे जगत् में व्याप्त। उषा एक ही है — वह सब को प्रकाशित करती है। वास्तव में यह सब वही एक है।',
@@ -174,7 +174,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 103013,
-          sanskrit: 'सहस्रशीर्षा पुरुषः सहस्राक्षः सहस्रपात् | स भूमिं विश्वतो वृत्वात्यतिष्ठद्दशाङ्गुलम् ||',
+          sanskrit: 'सहस्रशीर्षा पुरुषः सहस्राक्षः सहस्रपात् । स भूमिं विश्वतो वृत्वात्यतिष्ठद्दशाङ्गुलम् ॥',
           transliteration: 'sahasraśīrṣā puruṣaḥ sahasrākṣaḥ sahasrapāt | sa bhūmiṃ viśvato vṛtvātyatiṣṭhaddaśāṅgulam ||',
           translation: 'The Cosmic Person has a thousand heads, a thousand eyes, a thousand feet. He pervades the earth on all sides and stands ten fingers beyond.',
           hindi: 'पुरुष (विराट्) के हज़ार सिर, हज़ार आँखें और हज़ार पैर हैं। वह सब ओर से पृथ्वी को व्याप्त करके दस अंगुल अतिक्रमण करके स्थित है।',
@@ -183,7 +183,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 103018,
-          sanskrit: 'विमुचेन्यसि वरुण पाशान् यैरबद्धो असि जातवेदः | यद्धि ते विश्वमनुमत्यम्भिर्वयं सुमित्राः स्याम ||',
+          sanskrit: 'विमुचेन्यसि वरुण पाशान् यैरबद्धो असि जातवेदः । यद्धि ते विश्वमनुमत्यम्भिर्वयं सुमित्राः स्याम ॥',
           transliteration: 'vimucenya si varuṇa pāśān yairabaddho asi jātavedaḥ | yaddhi te viśvamanumatyambhirvayaṃ sumitrāḥ syāma ||',
           translation: 'Release, O Varuna, the bonds with which I am bound, O Jataveda. For by your will, O all-knowing one — may we be among your good friends.',
           hindi: 'हे वरुण, उन बन्धनों से मुझे मुक्त करो जिनसे मैं बँधा हूँ, हे जातवेद। क्योंकि तुम्हारी इच्छा से ही — हम तुम्हारे सुमित्र हों।',
@@ -192,7 +192,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 103022,
-          sanskrit: 'ऋतस्य पन्था न दभाय किं चन वृजिना ह्यस्य नश्यन्ति जन्तवः | ऋतेन दीर्घमनु वेनतो दिवः पदं न दुष्कृते अपि तं नशे ||',
+          sanskrit: 'ऋतस्य पन्था न दभाय किं चन वृजिना ह्यस्य नश्यन्ति जन्तवः । ऋतेन दीर्घमनु वेनतो दिवः पदं न दुष्कृते अपि तं नशे ॥',
           transliteration: 'ṛtasya panthā na dabhāya kiṃ cana vṛjinā hyasya naśyanti jantavaḥ | ṛtena dīrghamanu venato divaḥ padaṃ na duṣkṛte api taṃ naśe ||',
           translation: 'The path of Rita cannot be deceived by anyone. Those who follow crooked ways perish. By Rita the vast luminous realm is reached — the evildoer cannot attain that place.',
           hindi: 'ऋत के मार्ग को कोई धोखा नहीं दे सकता। वक्र पथ पर चलने वाले नष्ट हो जाते हैं। ऋत से ही वह विशाल द्युलोक प्राप्त होता है — दुष्कर्मी उसे नहीं पा सकता।',
@@ -201,7 +201,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 103027,
-          sanskrit: 'इन्द्रो मायाभिः पुरुरूप ईयते युक्ता ह्यस्य हरयः शता दश | आयं शक्र इत्येनमाहुर्यः स्वर्षाता सत्पतिः शूरो अस्तु ||',
+          sanskrit: 'इन्द्रो मायाभिः पुरुरूप ईयते युक्ता ह्यस्य हरयः शता दश । आयं शक्र इत्येनमाहुर्यः स्वर्षाता सत्पतिः शूरो अस्तु ॥',
           transliteration: 'indro māyābhiḥ pururūpa īyate yuktā hyasya harayaḥ śatā daśa | āyaṃ śakra ityenamāhuryaḥ svarṣātā satpatiḥ śūro astu ||',
           translation: 'Indra moves in many forms through his powers of maya. His golden coursers are yoked a thousand and ten. They call him Shakra — may he who wins the heavenly light, lord of the good, be heroic.',
           hindi: 'इन्द्र अपनी माया-शक्तियों से अनेक रूप धारण करके विचरते हैं। उनके दस सौ सुनहरे अश्व जुते हैं। उन्हें शक्र कहते हैं — जो स्वर्ग-प्रकाश प्राप्त करे, सत्पुरुषों का स्वामी, वह शूर हो।',
@@ -210,7 +210,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 103028,
-          sanskrit: 'मरुतो यद्ध वो बलं यच्च सत्यमुत क्रतुः | तेन मा पातनाधसः ||',
+          sanskrit: 'मरुतो यद्ध वो बलं यच्च सत्यमुत क्रतुः । तेन मा पातनाधसः ॥',
           transliteration: 'maruto yadha vo balaṃ yacca satyamuta kratuḥ | tena mā pātanādhasaḥ ||',
           translation: 'O Maruts — whatever strength you have, whatever truth, whatever purposeful will — by that, protect me from falling low.',
           hindi: 'हे मरुतो — तुम्हारे पास जो बल है, जो सत्य है, जो संकल्पशक्ति है — उससे मुझे नीचे गिरने से बचाओ।',
@@ -226,7 +226,7 @@ export const rigveda: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'अहं मनुरभवं सूर्यश्चाहमहं ककुहः ऋषिरस्मि विप्रः | अहमिन्द्रो नॄन्नमसा विवक्मि ||',
+          sanskrit: 'अहं मनुरभवं सूर्यश्चाहमहं ककुहः ऋषिरस्मि विप्रः । अहमिन्द्रो नॄन्नमसा विवक्मि ॥',
           transliteration: 'ahaṃ manurabhaваṃ sūryaścāhaṃ kakuhaḥ ṛṣirasmi vipraḥ | ahamindro nṝnnamasā vivakmi ||',
           translation: 'I was Manu; I was Surya. I am the seer Kakuha; I am the illumined poet. I am Indra — I declare this to humanity with homage.',
           hindi: 'मैं मनु था; मैं सूर्य था। मैं ऋषि ककुह हूँ; मैं विप्र (ज्ञानी) हूँ। मैं इन्द्र हूँ — मैं नमन के साथ मनुष्यों से यह घोषित करता हूँ।',
@@ -237,7 +237,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 17,
-          sanskrit: 'इन्द्रो मायाभिः पुरुरूप ईयते युक्ता ह्यस्य हरयः शता दश | आयं शक्र इत्येनमाहुर्यः स्वर्षाता सत्पतिः शूरो अस्तु ||',
+          sanskrit: 'इन्द्रो मायाभिः पुरुरूप ईयते युक्ता ह्यस्य हरयः शता दश । आयं शक्र इत्येनमाहुर्यः स्वर्षाता सत्पतिः शूरो अस्तु ॥',
           transliteration: 'indro māyābhiḥ pururūpa īyate yuktā hyasya harayaḥ śatā daśa | āyaṃ śakra ityenamāhuryaḥ svarṣātā satpatiḥ śūro astu ||',
           translation: 'Indra moves in many forms through his powers of maya. His golden coursers are yoked a thousand and ten. They call him Shakra — may he who wins the heavenly light, lord of the good, be heroic.',
           hindi: 'इन्द्र अपनी माया-शक्तियों से अनेक रूप धारण करके विचरते हैं। उनके दस सौ सुनहरे अश्व जुते हैं। उन्हें शक्र कहते हैं — जो स्वर्ग-प्रकाश प्राप्त करे, सत्पुरुषों का स्वामी, वह शूर हो।',
@@ -249,7 +249,7 @@ export const rigveda: Scripture = {
       
         {
           id: 104012,
-          sanskrit: 'इन्द्रो मायाभिः पुरुरूप ईयते युक्ता ह्यस्य हरयः शता दश | आयं शक्र इत्येनमाहुर्यः स्वर्षाता सत्पतिः शूरो अस्तु ||',
+          sanskrit: 'इन्द्रो मायाभिः पुरुरूप ईयते युक्ता ह्यस्य हरयः शता दश । आयं शक्र इत्येनमाहुर्यः स्वर्षाता सत्पतिः शूरो अस्तु ॥',
           transliteration: 'indro māyābhiḥ pururūpa īyate yuktā hyasya harayaḥ śatā daśa | āyaṃ śakra ityenamāhuryaḥ svarṣātā satpatiḥ śūro astu ||',
           translation: 'Indra moves in many forms through his powers of maya. His golden coursers are yoked a thousand and ten. They call him Shakra — may he who wins the heavenly light, lord of the good, be heroic.',
           hindi: 'इन्द्र अपनी माया-शक्तियों से अनेक रूप धारण करके विचरते हैं। उनके दस सौ सुनहरे अश्व जुते हैं। उन्हें शक्र कहते हैं — जो स्वर्ग-प्रकाश प्राप्त करे, सत्पुरुषों का स्वामी, वह शूर हो।',
@@ -258,7 +258,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 104013,
-          sanskrit: 'सहस्रशीर्षा पुरुषः सहस्राक्षः सहस्रपात् | स भूमिं विश्वतो वृत्वात्यतिष्ठद्दशाङ्गुलम् ||',
+          sanskrit: 'सहस्रशीर्षा पुरुषः सहस्राक्षः सहस्रपात् । स भूमिं विश्वतो वृत्वात्यतिष्ठद्दशाङ्गुलम् ॥',
           transliteration: 'sahasraśīrṣā puruṣaḥ sahasrākṣaḥ sahasrapāt | sa bhūmiṃ viśvato vṛtvātyatiṣṭhaddaśāṅgulam ||',
           translation: 'The Cosmic Person has a thousand heads, a thousand eyes, a thousand feet. He pervades the earth on all sides and stands ten fingers beyond.',
           hindi: 'पुरुष (विराट्) के हज़ार सिर, हज़ार आँखें और हज़ार पैर हैं। वह सब ओर से पृथ्वी को व्याप्त करके दस अंगुल अतिक्रमण करके स्थित है।',
@@ -267,7 +267,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 104018,
-          sanskrit: 'विमुचेन्यसि वरुण पाशान् यैरबद्धो असि जातवेदः | यद्धि ते विश्वमनुमत्यम्भिर्वयं सुमित्राः स्याम ||',
+          sanskrit: 'विमुचेन्यसि वरुण पाशान् यैरबद्धो असि जातवेदः । यद्धि ते विश्वमनुमत्यम्भिर्वयं सुमित्राः स्याम ॥',
           transliteration: 'vimucenya si varuṇa pāśān yairabaddho asi jātavedaḥ | yaddhi te viśvamanumatyambhirvayaṃ sumitrāḥ syāma ||',
           translation: 'Release, O Varuna, the bonds with which I am bound, O Jataveda. For by your will, O all-knowing one — may we be among your good friends.',
           hindi: 'हे वरुण, उन बन्धनों से मुझे मुक्त करो जिनसे मैं बँधा हूँ, हे जातवेद। क्योंकि तुम्हारी इच्छा से ही — हम तुम्हारे सुमित्र हों।',
@@ -276,7 +276,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 104022,
-          sanskrit: 'ऋतस्य पन्था न दभाय किं चन वृजिना ह्यस्य नश्यन्ति जन्तवः | ऋतेन दीर्घमनु वेनतो दिवः पदं न दुष्कृते अपि तं नशे ||',
+          sanskrit: 'ऋतस्य पन्था न दभाय किं चन वृजिना ह्यस्य नश्यन्ति जन्तवः । ऋतेन दीर्घमनु वेनतो दिवः पदं न दुष्कृते अपि तं नशे ॥',
           transliteration: 'ṛtasya panthā na dabhāya kiṃ cana vṛjinā hyasya naśyanti jantavaḥ | ṛtena dīrghamanu venato divaḥ padaṃ na duṣkṛte api taṃ naśe ||',
           translation: 'The path of Rita cannot be deceived by anyone. Those who follow crooked ways perish. By Rita the vast luminous realm is reached — the evildoer cannot attain that place.',
           hindi: 'ऋत के मार्ग को कोई धोखा नहीं दे सकता। वक्र पथ पर चलने वाले नष्ट हो जाते हैं। ऋत से ही वह विशाल द्युलोक प्राप्त होता है — दुष्कर्मी उसे नहीं पा सकता।',
@@ -285,7 +285,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 104028,
-          sanskrit: 'मरुतो यद्ध वो बलं यच्च सत्यमुत क्रतुः | तेन मा पातनाधसः ||',
+          sanskrit: 'मरुतो यद्ध वो बलं यच्च सत्यमुत क्रतुः । तेन मा पातनाधसः ॥',
           transliteration: 'maruto yadha vo balaṃ yacca satyamuta kratuḥ | tena mā pātanādhasaḥ ||',
           translation: 'O Maruts — whatever strength you have, whatever truth, whatever purposeful will — by that, protect me from falling low.',
           hindi: 'हे मरुतो — तुम्हारे पास जो बल है, जो सत्य है, जो संकल्पशक्ति है — उससे मुझे नीचे गिरने से बचाओ।',
@@ -301,7 +301,7 @@ export const rigveda: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'उषो देव्यमर्त्ये बृहद्वयो दधे | ज्योतिर्यच्छ चक्षसे ||',
+          sanskrit: 'उषो देव्यमर्त्ये बृहद्वयो दधे । ज्योतिर्यच्छ चक्षसे ॥',
           transliteration: 'uṣo devyamartype bṛhadvayo dadhe | jyotiryaccha cakṣase ||',
           translation: 'O divine Dawn, immortal one — grant great sustenance. Extend your light for our seeing.',
           hindi: 'हे देवी उषस, अमर — महान पोषण प्रदान करो। हमारे देखने के लिए अपना प्रकाश फैलाओ।',
@@ -312,7 +312,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 18,
-          sanskrit: 'मरुतो यद्ध वो बलं यच्च सत्यमुत क्रतुः | तेन मा पातनाधसः ||',
+          sanskrit: 'मरुतो यद्ध वो बलं यच्च सत्यमुत क्रतुः । तेन मा पातनाधसः ॥',
           transliteration: 'maruto yadha vo balaṃ yacca satyamuta kratuḥ | tena mā pātanādhasaḥ ||',
           translation: 'O Maruts — whatever strength you have, whatever truth, whatever purposeful will — by that, protect me from falling low.',
           hindi: 'हे मरुतो — तुम्हारे पास जो बल है, जो सत्य है, जो संकल्पशक्ति है — उससे मुझे नीचे गिरने से बचाओ।',
@@ -324,7 +324,7 @@ export const rigveda: Scripture = {
       
         {
           id: 105012,
-          sanskrit: 'मरुतो यद्ध वो बलं यच्च सत्यमुत क्रतुः | तेन मा पातनाधसः ||',
+          sanskrit: 'मरुतो यद्ध वो बलं यच्च सत्यमुत क्रतुः । तेन मा पातनाधसः ॥',
           transliteration: 'maruto yadha vo balaṃ yacca satyamuta kratuḥ | tena mā pātanādhasaḥ ||',
           translation: 'O Maruts — whatever strength you have, whatever truth, whatever purposeful will — by that, protect me from falling low.',
           hindi: 'हे मरुतो — तुम्हारे पास जो बल है, जो सत्य है, जो संकल्पशक्ति है — उससे मुझे नीचे गिरने से बचाओ।',
@@ -333,7 +333,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 105013,
-          sanskrit: 'सहस्रशीर्षा पुरुषः सहस्राक्षः सहस्रपात् | स भूमिं विश्वतो वृत्वात्यतिष्ठद्दशाङ्गुलम् ||',
+          sanskrit: 'सहस्रशीर्षा पुरुषः सहस्राक्षः सहस्रपात् । स भूमिं विश्वतो वृत्वात्यतिष्ठद्दशाङ्गुलम् ॥',
           transliteration: 'sahasraśīrṣā puruṣaḥ sahasrākṣaḥ sahasrapāt | sa bhūmiṃ viśvato vṛtvātyatiṣṭhaddaśāṅgulam ||',
           translation: 'The Cosmic Person has a thousand heads, a thousand eyes, a thousand feet. He pervades the earth on all sides and stands ten fingers beyond.',
           hindi: 'पुरुष (विराट्) के हज़ार सिर, हज़ार आँखें और हज़ार पैर हैं। वह सब ओर से पृथ्वी को व्याप्त करके दस अंगुल अतिक्रमण करके स्थित है।',
@@ -342,7 +342,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 105018,
-          sanskrit: 'विमुचेन्यसि वरुण पाशान् यैरबद्धो असि जातवेदः | यद्धि ते विश्वमनुमत्यम्भिर्वयं सुमित्राः स्याम ||',
+          sanskrit: 'विमुचेन्यसि वरुण पाशान् यैरबद्धो असि जातवेदः । यद्धि ते विश्वमनुमत्यम्भिर्वयं सुमित्राः स्याम ॥',
           transliteration: 'vimucenya si varuṇa pāśān yairabaddho asi jātavedaḥ | yaddhi te viśvamanumatyambhirvayaṃ sumitrāḥ syāma ||',
           translation: 'Release, O Varuna, the bonds with which I am bound, O Jataveda. For by your will, O all-knowing one — may we be among your good friends.',
           hindi: 'हे वरुण, उन बन्धनों से मुझे मुक्त करो जिनसे मैं बँधा हूँ, हे जातवेद। क्योंकि तुम्हारी इच्छा से ही — हम तुम्हारे सुमित्र हों।',
@@ -351,7 +351,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 105022,
-          sanskrit: 'ऋतस्य पन्था न दभाय किं चन वृजिना ह्यस्य नश्यन्ति जन्तवः | ऋतेन दीर्घमनु वेनतो दिवः पदं न दुष्कृते अपि तं नशे ||',
+          sanskrit: 'ऋतस्य पन्था न दभाय किं चन वृजिना ह्यस्य नश्यन्ति जन्तवः । ऋतेन दीर्घमनु वेनतो दिवः पदं न दुष्कृते अपि तं नशे ॥',
           transliteration: 'ṛtasya panthā na dabhāya kiṃ cana vṛjinā hyasya naśyanti jantavaḥ | ṛtena dīrghamanu venato divaḥ padaṃ na duṣkṛte api taṃ naśe ||',
           translation: 'The path of Rita cannot be deceived by anyone. Those who follow crooked ways perish. By Rita the vast luminous realm is reached — the evildoer cannot attain that place.',
           hindi: 'ऋत के मार्ग को कोई धोखा नहीं दे सकता। वक्र पथ पर चलने वाले नष्ट हो जाते हैं। ऋत से ही वह विशाल द्युलोक प्राप्त होता है — दुष्कर्मी उसे नहीं पा सकता।',
@@ -360,7 +360,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 105427,
-          sanskrit: 'इन्द्रो मायाभिः पुरुरूप ईयते युक्ता ह्यस्य हरयः शता दश | आयं शक्र इत्येनमाहुर्यः स्वर्षाता सत्पतिः शूरो अस्तु ||',
+          sanskrit: 'इन्द्रो मायाभिः पुरुरूप ईयते युक्ता ह्यस्य हरयः शता दश । आयं शक्र इत्येनमाहुर्यः स्वर्षाता सत्पतिः शूरो अस्तु ॥',
           transliteration: 'indro māyābhiḥ pururūpa īyate yuktā hyasya harayaḥ śatā daśa | āyaṃ śakra ityenamāhuryaḥ svarṣātā satpatiḥ śūro astu ||',
           translation: 'Indra moves in many forms through his powers of maya. His golden coursers are yoked a thousand and ten. They call him Shakra — may he who wins the heavenly light, lord of the good, be heroic.',
           hindi: 'इन्द्र अपनी माया-शक्तियों से अनेक रूप धारण करके विचरते हैं। उनके दस सौ सुनहरे अश्व जुते हैं। उन्हें शक्र कहते हैं — जो स्वर्ग-प्रकाश प्राप्त करे, सत्पुरुषों का स्वामी, वह शूर हो।',
@@ -376,7 +376,7 @@ export const rigveda: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'त्वामग्ने यजमाना अनु द्यून् विश्वा धियो अदधुः पुत्रमापेः | स नो मित्रो वरुणो मामहन्तामदितिः सिन्धुः पृथिवी उत द्यौः ||',
+          sanskrit: 'त्वामग्ने यजमाना अनु द्यून् विश्वा धियो अदधुः पुत्रमापेः । स नो मित्रो वरुणो मामहन्तामदितिः सिन्धुः पृथिवी उत द्यौः ॥',
           transliteration: 'tvāmagne yajamānā anu dyūn viśvā dhiyo adadhuḥ putramāpeḥ | sa no mitro varuṇo māmahantāmaditiḥ sindhuḥ pṛthivī uta dyauḥ ||',
           translation: 'You, O Agni, the sacrificers throughout all days have placed as the child of the waters, the repository of all inspired visions. May Mitra, Varuna, Aditi, Sindhu, Earth and Heaven magnify us.',
           hindi: 'हे अग्नि, यजमानों ने सभी दिनों में तुम्हें जलों के पुत्र के रूप में, सभी धियों (प्रेरित दर्शनों) के आधार के रूप में स्थापित किया है। मित्र, वरुण, अदिति, सिन्धु, पृथिवी और द्यौ हमें महान बनाएँ।',
@@ -387,7 +387,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 47,
-          sanskrit: 'इन्द्र क्रतुं न आ भर पितान आ भर | वसो पुरन्दर श्रुधी हवम् ||',
+          sanskrit: 'इन्द्र क्रतुं न आ भर पितान आ भर । वसो पुरन्दर श्रुधी हवम् ॥',
           transliteration: 'indra kratuṃ na ā bhara pitā na ā bhara | vaso purandara śrudhī havam ||',
           translation: 'O Indra, bring us purposeful will as a father brings. O master of abundance, destroyer of limitations — hear our call.',
           hindi: 'हे इन्द्र, पिता की तरह हमें क्रतु (संकल्पशक्ति) लाओ। हे वसु (समृद्धि के स्वामी), पुरन्दर (बाधाओं के नाशक) — हमारी पुकार सुनो।',
@@ -399,7 +399,7 @@ export const rigveda: Scripture = {
       
         {
           id: 106012,
-          sanskrit: 'इन्द्र क्रतुं न आ भर पितान आ भर | वसो पुरन्दर श्रुधी हवम् ||',
+          sanskrit: 'इन्द्र क्रतुं न आ भर पितान आ भर । वसो पुरन्दर श्रुधी हवम् ॥',
           transliteration: 'indra kratuṃ na ā bhara pitā na ā bhara | vaso purandara śrudhī havam ||',
           translation: 'O Indra, bring us purposeful will as a father brings. O master of abundance, destroyer of limitations — hear our call.',
           hindi: 'हे इन्द्र, पिता की तरह हमें क्रतु (संकल्पशक्ति) लाओ। हे वसु (समृद्धि के स्वामी), पुरन्दर (बाधाओं के नाशक) — हमारी पुकार सुनो।',
@@ -408,7 +408,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 106013,
-          sanskrit: 'सहस्रशीर्षा पुरुषः सहस्राक्षः सहस्रपात् | स भूमिं विश्वतो वृत्वात्यतिष्ठद्दशाङ्गुलम् ||',
+          sanskrit: 'सहस्रशीर्षा पुरुषः सहस्राक्षः सहस्रपात् । स भूमिं विश्वतो वृत्वात्यतिष्ठद्दशाङ्गुलम् ॥',
           transliteration: 'sahasraśīrṣā puruṣaḥ sahasrākṣaḥ sahasrapāt | sa bhūmiṃ viśvato vṛtvātyatiṣṭhaddaśāṅgulam ||',
           translation: 'The Cosmic Person has a thousand heads, a thousand eyes, a thousand feet. He pervades the earth on all sides and stands ten fingers beyond.',
           hindi: 'पुरुष (विराट्) के हज़ार सिर, हज़ार आँखें और हज़ार पैर हैं। वह सब ओर से पृथ्वी को व्याप्त करके दस अंगुल अतिक्रमण करके स्थित है।',
@@ -417,7 +417,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 106018,
-          sanskrit: 'विमुचेन्यसि वरुण पाशान् यैरबद्धो असि जातवेदः | यद्धि ते विश्वमनुमत्यम्भिर्वयं सुमित्राः स्याम ||',
+          sanskrit: 'विमुचेन्यसि वरुण पाशान् यैरबद्धो असि जातवेदः । यद्धि ते विश्वमनुमत्यम्भिर्वयं सुमित्राः स्याम ॥',
           transliteration: 'vimucenya si varuṇa pāśān yairabaddho asi jātavedaḥ | yaddhi te viśvamanumatyambhirvayaṃ sumitrāḥ syāma ||',
           translation: 'Release, O Varuna, the bonds with which I am bound, O Jataveda. For by your will, O all-knowing one — may we be among your good friends.',
           hindi: 'हे वरुण, उन बन्धनों से मुझे मुक्त करो जिनसे मैं बँधा हूँ, हे जातवेद। क्योंकि तुम्हारी इच्छा से ही — हम तुम्हारे सुमित्र हों।',
@@ -426,7 +426,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 106022,
-          sanskrit: 'ऋतस्य पन्था न दभाय किं चन वृजिना ह्यस्य नश्यन्ति जन्तवः | ऋतेन दीर्घमनु वेनतो दिवः पदं न दुष्कृते अपि तं नशे ||',
+          sanskrit: 'ऋतस्य पन्था न दभाय किं चन वृजिना ह्यस्य नश्यन्ति जन्तवः । ऋतेन दीर्घमनु वेनतो दिवः पदं न दुष्कृते अपि तं नशे ॥',
           transliteration: 'ṛtasya panthā na dabhāya kiṃ cana vṛjinā hyasya naśyanti jantavaḥ | ṛtena dīrghamanu venato divaḥ padaṃ na duṣkṛte api taṃ naśe ||',
           translation: 'The path of Rita cannot be deceived by anyone. Those who follow crooked ways perish. By Rita the vast luminous realm is reached — the evildoer cannot attain that place.',
           hindi: 'ऋत के मार्ग को कोई धोखा नहीं दे सकता। वक्र पथ पर चलने वाले नष्ट हो जाते हैं। ऋत से ही वह विशाल द्युलोक प्राप्त होता है — दुष्कर्मी उसे नहीं पा सकता।',
@@ -435,7 +435,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 106167,
-          sanskrit: 'इन्द्रो मायाभिः पुरुरूप ईयते युक्ता ह्यस्य हरयः शता दश | आयं शक्र इत्येनमाहुर्यः स्वर्षाता सत्पतिः शूरो अस्तु ||',
+          sanskrit: 'इन्द्रो मायाभिः पुरुरूप ईयते युक्ता ह्यस्य हरयः शता दश । आयं शक्र इत्येनमाहुर्यः स्वर्षाता सत्पतिः शूरो अस्तु ॥',
           transliteration: 'indro māyābhiḥ pururūpa īyate yuktā hyasya harayaḥ śatā daśa | āyaṃ śakra ityenamāhuryaḥ svarṣātā satpatiḥ śūro astu ||',
           translation: 'Indra moves in many forms through his powers of maya. His golden coursers are yoked a thousand and ten. They call him Shakra — may he who wins the heavenly light, lord of the good, be heroic.',
           hindi: 'इन्द्र अपनी माया-शक्तियों से अनेक रूप धारण करके विचरते हैं। उनके दस सौ सुनहरे अश्व जुते हैं। उन्हें शक्र कहते हैं — जो स्वर्ग-प्रकाश प्राप्त करे, सत्पुरुषों का स्वामी, वह शूर हो।',
@@ -444,7 +444,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 106168,
-          sanskrit: 'मरुतो यद्ध वो बलं यच्च सत्यमुत क्रतुः | तेन मा पातनाधसः ||',
+          sanskrit: 'मरुतो यद्ध वो बलं यच्च सत्यमुत क्रतुः । तेन मा पातनाधसः ॥',
           transliteration: 'maruto yadha vo balaṃ yacca satyamuta kratuḥ | tena mā pātanādhasaḥ ||',
           translation: 'O Maruts — whatever strength you have, whatever truth, whatever purposeful will — by that, protect me from falling low.',
           hindi: 'हे मरुतो — तुम्हारे पास जो बल है, जो सत्य है, जो संकल्पशक्ति है — उससे मुझे नीचे गिरने से बचाओ।',
@@ -453,7 +453,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 106208,
-          sanskrit: 'अपाम सोमममृता अभूमागन्म ज्योतिरविदाम देवान् | किं नूनमस्मान्कृणवदरातिः किमु धूर्तिरमृत मर्त्यस्य ||',
+          sanskrit: 'अपाम सोमममृता अभूमागन्म ज्योतिरविदाम देवान् । किं नूनमस्मान्कृणवदरातिः किमु धूर्तिरमृत मर्त्यस्य ॥',
           transliteration: 'apāma somamamṛtā abhūmāganma jyotiravadāma devān | kiṃ nūnamasmānkṛṇavadarātiḥ kimu dhūrtiraṃṛta martyasya ||',
           translation: 'We have drunk Soma; we have become immortal; we have reached the light; we have found the gods. What can enmity do to us now? What can the malice of a mortal do, O Immortal?',
           hindi: 'हमने सोम पिया है; हम अमर हो गए; हम प्रकाश को पहुँचे; हमने देवताओं को पाया। अब शत्रुता हमारा क्या कर सकती है? हे अमर, किसी मर्त्य की दुर्भावना क्या कर सकती है?',
@@ -469,7 +469,7 @@ export const rigveda: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'किं त आगः वरुण ज्येष्ठमास यो स्तोतारं जिघांससि सखायम् | प्र तन्म इन्द्र वरुण ब्रवीतं यस्मिन्नेनस्यमसि जातवेदसा ||',
+          sanskrit: 'किं त आगः वरुण ज्येष्ठमास यो स्तोतारं जिघांससि सखायम् । प्र तन्म इन्द्र वरुण ब्रवीतं यस्मिन्नेनस्यमसि जातवेदसा ॥',
           transliteration: 'kiṃ ta āgaḥ varuṇa jyeṣṭhamāsa yo stotāraṃ jighāṃsasi sakhāyam | pra tanma indra varuṇa bravītaṃ yasminnenasyamasi jātavedasā ||',
           translation: 'O Varuna, what was the greatest offence against you, that you would wish to harm your singer, your friend? Tell me, O Indra, O Varuna — in what sin am I involved, O Jataveda?',
           hindi: 'हे वरुण, तुम्हारे विरुद्ध मेरा सबसे बड़ा अपराध क्या था जो तुम अपने स्तोता, अपने मित्र को हानि पहुँचाना चाहते हो? हे इन्द्र, हे वरुण — बताओ, मैं किस पाप में फँसा हूँ?',
@@ -480,7 +480,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 8,
-          sanskrit: 'विमुचेन्यसि वरुण पाशान् यैरबद्धो असि जातवेदः | यद्धि ते विश्वमनुमत्यम्भिर्वयं सुमित्राः स्याम ||',
+          sanskrit: 'विमुचेन्यसि वरुण पाशान् यैरबद्धो असि जातवेदः । यद्धि ते विश्वमनुमत्यम्भिर्वयं सुमित्राः स्याम ॥',
           transliteration: 'vimucenya si varuṇa pāśān yairabaddho asi jātavedaḥ | yaddhi te viśvamanumatyambhirvayaṃ sumitrāḥ syāma ||',
           translation: 'Release, O Varuna, the bonds with which I am bound, O Jataveda. For by your will, O all-knowing one — may we be among your good friends.',
           hindi: 'हे वरुण, उन बन्धनों से मुझे मुक्त करो जिनसे मैं बँधा हूँ, हे जातवेद। क्योंकि तुम्हारी इच्छा से ही — हम तुम्हारे सुमित्र हों।',
@@ -491,7 +491,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 89,
-          sanskrit: 'मा नो वधीः वरुण मा नो हिंसीर्मा तं वधीर्यो नः प्रियः | क्षयं न इन्द्र वरुण मृत्योर्मा नो दीर्घायुषः पात ||',
+          sanskrit: 'मा नो वधीः वरुण मा नो हिंसीर्मा तं वधीर्यो नः प्रियः । क्षयं न इन्द्र वरुण मृत्योर्मा नो दीर्घायुषः पात ॥',
           transliteration: 'mā no vadhīḥ varuṇa mā no hiṃsīr mā taṃ vadhīr yo naḥ priyaḥ | kṣayaṃ na indra varuṇa mṛtyor mā no dīrghāyuṣaḥ pāta ||',
           translation: 'Slay us not, O Varuna; harm us not. Slay not him who is dear to us. Give us a home, O Indra-Varuna; guard us from death; protect us for long life.',
           hindi: 'हे वरुण, हमें मत मारो, हमें हानि मत पहुँचाओ। जो हमें प्रिय है उसे मत मारो। हे इन्द्र-वरुण, हमें आश्रय दो; मृत्यु से हमारी रक्षा करो; दीर्घायु के लिए हमारी रक्षा करो।',
@@ -503,7 +503,7 @@ export const rigveda: Scripture = {
       
         {
           id: 107012,
-          sanskrit: 'विमुचेन्यसि वरुण पाशान् यैरबद्धो असि जातवेदः | यद्धि ते विश्वमनुमत्यम्भिर्वयं सुमित्राः स्याम ||',
+          sanskrit: 'विमुचेन्यसि वरुण पाशान् यैरबद्धो असि जातवेदः । यद्धि ते विश्वमनुमत्यम्भिर्वयं सुमित्राः स्याम ॥',
           transliteration: 'vimucenya si varuṇa pāśān yairabaddho asi jātavedaḥ | yaddhi te viśvamanumatyambhirvayaṃ sumitrāḥ syāma ||',
           translation: 'Release, O Varuna, the bonds with which I am bound, O Jataveda. For by your will, O all-knowing one — may we be among your good friends.',
           hindi: 'हे वरुण, उन बन्धनों से मुझे मुक्त करो जिनसे मैं बँधा हूँ, हे जातवेद। क्योंकि तुम्हारी इच्छा से ही — हम तुम्हारे सुमित्र हों।',
@@ -512,7 +512,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 107013,
-          sanskrit: 'मा नो वधीः वरुण मा नो हिंसीर्मा तं वधीर्यो नः प्रियः | क्षयं न इन्द्र वरुण मृत्योर्मा नो दीर्घायुषः पात ||',
+          sanskrit: 'मा नो वधीः वरुण मा नो हिंसीर्मा तं वधीर्यो नः प्रियः । क्षयं न इन्द्र वरुण मृत्योर्मा नो दीर्घायुषः पात ॥',
           transliteration: 'mā no vadhīḥ varuṇa mā no hiṃsīr mā taṃ vadhīr yo naḥ priyaḥ | kṣayaṃ na indra varuṇa mṛtyor mā no dīrghāyuṣaḥ pāta ||',
           translation: 'Slay us not, O Varuna; harm us not. Slay not him who is dear to us. Give us a home, O Indra-Varuna; guard us from death; protect us for long life.',
           hindi: 'हे वरुण, हमें मत मारो, हमें हानि मत पहुँचाओ। जो हमें प्रिय है उसे मत मारो। हे इन्द्र-वरुण, हमें आश्रय दो; मृत्यु से हमारी रक्षा करो; दीर्घायु के लिए हमारी रक्षा करो।',
@@ -521,7 +521,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 107022,
-          sanskrit: 'ऋतस्य पन्था न दभाय किं चन वृजिना ह्यस्य नश्यन्ति जन्तवः | ऋतेन दीर्घमनु वेनतो दिवः पदं न दुष्कृते अपि तं नशे ||',
+          sanskrit: 'ऋतस्य पन्था न दभाय किं चन वृजिना ह्यस्य नश्यन्ति जन्तवः । ऋतेन दीर्घमनु वेनतो दिवः पदं न दुष्कृते अपि तं नशे ॥',
           transliteration: 'ṛtasya panthā na dabhāya kiṃ cana vṛjinā hyasya naśyanti jantavaḥ | ṛtena dīrghamanu venato divaḥ padaṃ na duṣkṛte api taṃ naśe ||',
           translation: 'The path of Rita cannot be deceived by anyone. Those who follow crooked ways perish. By Rita the vast luminous realm is reached — the evildoer cannot attain that place.',
           hindi: 'ऋत के मार्ग को कोई धोखा नहीं दे सकता। वक्र पथ पर चलने वाले नष्ट हो जाते हैं। ऋत से ही वह विशाल द्युलोक प्राप्त होता है — दुष्कर्मी उसे नहीं पा सकता।',
@@ -530,7 +530,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 107027,
-          sanskrit: 'इन्द्रो मायाभिः पुरुरूप ईयते युक्ता ह्यस्य हरयः शता दश | आयं शक्र इत्येनमाहुर्यः स्वर्षाता सत्पतिः शूरो अस्तु ||',
+          sanskrit: 'इन्द्रो मायाभिः पुरुरूप ईयते युक्ता ह्यस्य हरयः शता दश । आयं शक्र इत्येनमाहुर्यः स्वर्षाता सत्पतिः शूरो अस्तु ॥',
           transliteration: 'indro māyābhiḥ pururūpa īyate yuktā hyasya harayaḥ śatā daśa | āyaṃ śakra ityenamāhuryaḥ svarṣātā satpatiḥ śūro astu ||',
           translation: 'Indra moves in many forms through his powers of maya. His golden coursers are yoked a thousand and ten. They call him Shakra — may he who wins the heavenly light, lord of the good, be heroic.',
           hindi: 'इन्द्र अपनी माया-शक्तियों से अनेक रूप धारण करके विचरते हैं। उनके दस सौ सुनहरे अश्व जुते हैं। उन्हें शक्र कहते हैं — जो स्वर्ग-प्रकाश प्राप्त करे, सत्पुरुषों का स्वामी, वह शूर हो।',
@@ -539,7 +539,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 107028,
-          sanskrit: 'मरुतो यद्ध वो बलं यच्च सत्यमुत क्रतुः | तेन मा पातनाधसः ||',
+          sanskrit: 'मरुतो यद्ध वो बलं यच्च सत्यमुत क्रतुः । तेन मा पातनाधसः ॥',
           transliteration: 'maruto yadha vo balaṃ yacca satyamuta kratuḥ | tena mā pātanādhasaḥ ||',
           translation: 'O Maruts — whatever strength you have, whatever truth, whatever purposeful will — by that, protect me from falling low.',
           hindi: 'हे मरुतो — तुम्हारे पास जो बल है, जो सत्य है, जो संकल्पशक्ति है — उससे मुझे नीचे गिरने से बचाओ।',
@@ -555,7 +555,7 @@ export const rigveda: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'इन्द्र सखायं मा त्यक्तमस्मान् | स हि नः सखा प्रथमः ||',
+          sanskrit: 'इन्द्र सखायं मा त्यक्तमस्मान् । स हि नः सखा प्रथमः ॥',
           transliteration: 'indra sakhāyaṃ mā tyaktamasmān | sa hi naḥ sakhā prathamaḥ ||',
           translation: 'O Indra, do not abandon us, your friends. For you are our first and foremost companion.',
           hindi: 'हे इन्द्र, हमें अपने मित्रों को मत त्यागो। क्योंकि तुम हमारे प्रथम और सर्वश्रेष्ठ सखा हो।',
@@ -566,7 +566,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 48,
-          sanskrit: 'अपाम सोमममृता अभूमागन्म ज्योतिरविदाम देवान् | किं नूनमस्मान्कृणवदरातिः किमु धूर्तिरमृत मर्त्यस्य ||',
+          sanskrit: 'अपाम सोमममृता अभूमागन्म ज्योतिरविदाम देवान् । किं नूनमस्मान्कृणवदरातिः किमु धूर्तिरमृत मर्त्यस्य ॥',
           transliteration: 'apāma somamamṛtā abhūmāganma jyotiravadāma devān | kiṃ nūnamasmānkṛṇavadarātiḥ kimu dhūrtiraṃṛta martyasya ||',
           translation: 'We have drunk Soma; we have become immortal; we have reached the light; we have found the gods. What can enmity do to us now? What can the malice of a mortal do, O Immortal?',
           hindi: 'हमने सोम पिया है; हम अमर हो गए; हम प्रकाश को पहुँचे; हमने देवताओं को पाया। अब शत्रुता हमारा क्या कर सकती है? हे अमर, किसी मर्त्य की दुर्भावना क्या कर सकती है?',
@@ -578,7 +578,7 @@ export const rigveda: Scripture = {
       
         {
           id: 108012,
-          sanskrit: 'अपाम सोमममृता अभूमागन्म ज्योतिरविदाम देवान् | किं नूनमस्मान्कृणवदरातिः किमु धूर्तिरमृत मर्त्यस्य ||',
+          sanskrit: 'अपाम सोमममृता अभूमागन्म ज्योतिरविदाम देवान् । किं नूनमस्मान्कृणवदरातिः किमु धूर्तिरमृत मर्त्यस्य ॥',
           transliteration: 'apāma somamamṛtā abhūmāganma jyotiravadāma devān | kiṃ nūnamasmānkṛṇavadarātiḥ kimu dhūrtiraṃṛta martyasya ||',
           translation: 'We have drunk Soma; we have become immortal; we have reached the light; we have found the gods. What can enmity do to us now? What can the malice of a mortal do, O Immortal?',
           hindi: 'हमने सोम पिया है; हम अमर हो गए; हम प्रकाश को पहुँचे; हमने देवताओं को पाया। अब शत्रुता हमारा क्या कर सकती है? हे अमर, किसी मर्त्य की दुर्भावना क्या कर सकती है?',
@@ -587,7 +587,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 108013,
-          sanskrit: 'सहस्रशीर्षा पुरुषः सहस्राक्षः सहस्रपात् | स भूमिं विश्वतो वृत्वात्यतिष्ठद्दशाङ्गुलम् ||',
+          sanskrit: 'सहस्रशीर्षा पुरुषः सहस्राक्षः सहस्रपात् । स भूमिं विश्वतो वृत्वात्यतिष्ठद्दशाङ्गुलम् ॥',
           transliteration: 'sahasraśīrṣā puruṣaḥ sahasrākṣaḥ sahasrapāt | sa bhūmiṃ viśvato vṛtvātyatiṣṭhaddaśāṅgulam ||',
           translation: 'The Cosmic Person has a thousand heads, a thousand eyes, a thousand feet. He pervades the earth on all sides and stands ten fingers beyond.',
           hindi: 'पुरुष (विराट्) के हज़ार सिर, हज़ार आँखें और हज़ार पैर हैं। वह सब ओर से पृथ्वी को व्याप्त करके दस अंगुल अतिक्रमण करके स्थित है।',
@@ -596,7 +596,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 108018,
-          sanskrit: 'विमुचेन्यसि वरुण पाशान् यैरबद्धो असि जातवेदः | यद्धि ते विश्वमनुमत्यम्भिर्वयं सुमित्राः स्याम ||',
+          sanskrit: 'विमुचेन्यसि वरुण पाशान् यैरबद्धो असि जातवेदः । यद्धि ते विश्वमनुमत्यम्भिर्वयं सुमित्राः स्याम ॥',
           transliteration: 'vimucenya si varuṇa pāśān yairabaddho asi jātavedaḥ | yaddhi te viśvamanumatyambhirvayaṃ sumitrāḥ syāma ||',
           translation: 'Release, O Varuna, the bonds with which I am bound, O Jataveda. For by your will, O all-knowing one — may we be among your good friends.',
           hindi: 'हे वरुण, उन बन्धनों से मुझे मुक्त करो जिनसे मैं बँधा हूँ, हे जातवेद। क्योंकि तुम्हारी इच्छा से ही — हम तुम्हारे सुमित्र हों।',
@@ -605,7 +605,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 108022,
-          sanskrit: 'ऋतस्य पन्था न दभाय किं चन वृजिना ह्यस्य नश्यन्ति जन्तवः | ऋतेन दीर्घमनु वेनतो दिवः पदं न दुष्कृते अपि तं नशे ||',
+          sanskrit: 'ऋतस्य पन्था न दभाय किं चन वृजिना ह्यस्य नश्यन्ति जन्तवः । ऋतेन दीर्घमनु वेनतो दिवः पदं न दुष्कृते अपि तं नशे ॥',
           transliteration: 'ṛtasya panthā na dabhāya kiṃ cana vṛjinā hyasya naśyanti jantavaḥ | ṛtena dīrghamanu venato divaḥ padaṃ na duṣkṛte api taṃ naśe ||',
           translation: 'The path of Rita cannot be deceived by anyone. Those who follow crooked ways perish. By Rita the vast luminous realm is reached — the evildoer cannot attain that place.',
           hindi: 'ऋत के मार्ग को कोई धोखा नहीं दे सकता। वक्र पथ पर चलने वाले नष्ट हो जाते हैं। ऋत से ही वह विशाल द्युलोक प्राप्त होता है — दुष्कर्मी उसे नहीं पा सकता।',
@@ -614,7 +614,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 108027,
-          sanskrit: 'इन्द्रो मायाभिः पुरुरूप ईयते युक्ता ह्यस्य हरयः शता दश | आयं शक्र इत्येनमाहुर्यः स्वर्षाता सत्पतिः शूरो अस्तु ||',
+          sanskrit: 'इन्द्रो मायाभिः पुरुरूप ईयते युक्ता ह्यस्य हरयः शता दश । आयं शक्र इत्येनमाहुर्यः स्वर्षाता सत्पतिः शूरो अस्तु ॥',
           transliteration: 'indro māyābhiḥ pururūpa īyate yuktā hyasya harayaḥ śatā daśa | āyaṃ śakra ityenamāhuryaḥ svarṣātā satpatiḥ śūro astu ||',
           translation: 'Indra moves in many forms through his powers of maya. His golden coursers are yoked a thousand and ten. They call him Shakra — may he who wins the heavenly light, lord of the good, be heroic.',
           hindi: 'इन्द्र अपनी माया-शक्तियों से अनेक रूप धारण करके विचरते हैं। उनके दस सौ सुनहरे अश्व जुते हैं। उन्हें शक्र कहते हैं — जो स्वर्ग-प्रकाश प्राप्त करे, सत्पुरुषों का स्वामी, वह शूर हो।',
@@ -623,7 +623,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 108028,
-          sanskrit: 'मरुतो यद्ध वो बलं यच्च सत्यमुत क्रतुः | तेन मा पातनाधसः ||',
+          sanskrit: 'मरुतो यद्ध वो बलं यच्च सत्यमुत क्रतुः । तेन मा पातनाधसः ॥',
           transliteration: 'maruto yadha vo balaṃ yacca satyamuta kratuḥ | tena mā pātanādhasaḥ ||',
           translation: 'O Maruts — whatever strength you have, whatever truth, whatever purposeful will — by that, protect me from falling low.',
           hindi: 'हे मरुतो — तुम्हारे पास जो बल है, जो सत्य है, जो संकल्पशक्ति है — उससे मुझे नीचे गिरने से बचाओ।',
@@ -632,7 +632,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 108107,
-          sanskrit: 'इन्द्र क्रतुं न आ भर पितान आ भर | वसो पुरन्दर श्रुधी हवम् ||',
+          sanskrit: 'इन्द्र क्रतुं न आ भर पितान आ भर । वसो पुरन्दर श्रुधी हवम् ॥',
           transliteration: 'indra kratuṃ na ā bhara pitā na ā bhara | vaso purandara śrudhī havam ||',
           translation: 'O Indra, bring us purposeful will as a father brings. O master of abundance, destroyer of limitations — hear our call.',
           hindi: 'हे इन्द्र, पिता की तरह हमें क्रतु (संकल्पशक्ति) लाओ। हे वसु (समृद्धि के स्वामी), पुरन्दर (बाधाओं के नाशक) — हमारी पुकार सुनो।',
@@ -648,7 +648,7 @@ export const rigveda: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'पवमानः सोमो अद्य नो देवेभ्यः पाहि | तरणिर्विश्वदर्शतो ज्योतिष्कृदसि सोम ||',
+          sanskrit: 'पवमानः सोमो अद्य नो देवेभ्यः पाहि । तरणिर्विश्वदर्शतो ज्योतिष्कृदसि सोम ॥',
           transliteration: 'pavamānaḥ somo adya no devebhyaḥ pāhi | taraṇirviśvadarśato jyotiṣkṛdasi soma ||',
           translation: 'O Soma Pavamana, protect us today for the gods. You are swift, all-seeing, O Soma — you are the maker of light.',
           hindi: 'हे सोम पवमान, आज हमारी देवताओं के लिए रक्षा करो। हे सोम, तुम तीव्रगामी हो, सर्वदर्शी हो — तुम प्रकाश के निर्माता हो।',
@@ -659,7 +659,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 83,
-          sanskrit: 'अभि त्वा देव सवितरीशानं वार्याणां सोम राजन्नमृतस्य भूरेः | इन्दुमिन्द्राय पवस्व ||',
+          sanskrit: 'अभि त्वा देव सवितरीशानं वार्याणां सोम राजन्नमृतस्य भूरेः । इन्दुमिन्द्राय पवस्व ॥',
           transliteration: 'abhi tvā deva savitarīśānaṃ vāryāṇāṃ soma rājannamṛtasya bhūreḥ | indumindrasya pavasva ||',
           translation: 'O divine Savitar, lord of desirable things — O King Soma, purify for Indra the drop that contains the abundance of immortality.',
           hindi: 'हे देव सवितर, वांछनीय वस्तुओं के स्वामी — हे सोम राज, अमृत की प्रचुरता को समेटे उस बूँद को इन्द्र के लिए शुद्ध करो।',
@@ -671,7 +671,7 @@ export const rigveda: Scripture = {
       
         {
           id: 109012,
-          sanskrit: 'अभि त्वा देव सवितरीशानं वार्याणां सोम राजन्नमृतस्य भूरेः | इन्दुमिन्द्राय पवस्व ||',
+          sanskrit: 'अभि त्वा देव सवितरीशानं वार्याणां सोम राजन्नमृतस्य भूरेः । इन्दुमिन्द्राय पवस्व ॥',
           transliteration: 'abhi tvā deva savitarīśānaṃ vāryāṇāṃ soma rājannamṛtasya bhūreḥ | indumindrasya pavasva ||',
           translation: 'O divine Savitar, lord of desirable things — O King Soma, purify for Indra the drop that contains the abundance of immortality.',
           hindi: 'हे देव सवितर, वांछनीय वस्तुओं के स्वामी — हे सोम राज, अमृत की प्रचुरता को समेटे उस बूँद को इन्द्र के लिए शुद्ध करो।',
@@ -680,7 +680,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 109013,
-          sanskrit: 'सहस्रशीर्षा पुरुषः सहस्राक्षः सहस्रपात् | स भूमिं विश्वतो वृत्वात्यतिष्ठद्दशाङ्गुलम् ||',
+          sanskrit: 'सहस्रशीर्षा पुरुषः सहस्राक्षः सहस्रपात् । स भूमिं विश्वतो वृत्वात्यतिष्ठद्दशाङ्गुलम् ॥',
           transliteration: 'sahasraśīrṣā puruṣaḥ sahasrākṣaḥ sahasrapāt | sa bhūmiṃ viśvato vṛtvātyatiṣṭhaddaśāṅgulam ||',
           translation: 'The Cosmic Person has a thousand heads, a thousand eyes, a thousand feet. He pervades the earth on all sides and stands ten fingers beyond.',
           hindi: 'पुरुष (विराट्) के हज़ार सिर, हज़ार आँखें और हज़ार पैर हैं। वह सब ओर से पृथ्वी को व्याप्त करके दस अंगुल अतिक्रमण करके स्थित है।',
@@ -689,7 +689,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 109018,
-          sanskrit: 'विमुचेन्यसि वरुण पाशान् यैरबद्धो असि जातवेदः | यद्धि ते विश्वमनुमत्यम्भिर्वयं सुमित्राः स्याम ||',
+          sanskrit: 'विमुचेन्यसि वरुण पाशान् यैरबद्धो असि जातवेदः । यद्धि ते विश्वमनुमत्यम्भिर्वयं सुमित्राः स्याम ॥',
           transliteration: 'vimucenya si varuṇa pāśān yairabaddho asi jātavedaḥ | yaddhi te viśvamanumatyambhirvayaṃ sumitrāḥ syāma ||',
           translation: 'Release, O Varuna, the bonds with which I am bound, O Jataveda. For by your will, O all-knowing one — may we be among your good friends.',
           hindi: 'हे वरुण, उन बन्धनों से मुझे मुक्त करो जिनसे मैं बँधा हूँ, हे जातवेद। क्योंकि तुम्हारी इच्छा से ही — हम तुम्हारे सुमित्र हों।',
@@ -698,7 +698,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 109622,
-          sanskrit: 'ऋतस्य पन्था न दभाय किं चन वृजिना ह्यस्य नश्यन्ति जन्तवः | ऋतेन दीर्घमनु वेनतो दिवः पदं न दुष्कृते अपि तं नशे ||',
+          sanskrit: 'ऋतस्य पन्था न दभाय किं चन वृजिना ह्यस्य नश्यन्ति जन्तवः । ऋतेन दीर्घमनु वेनतो दिवः पदं न दुष्कृते अपि तं नशे ॥',
           transliteration: 'ṛtasya panthā na dabhāya kiṃ cana vṛjinā hyasya naśyanti jantavaḥ | ṛtena dīrghamanu venato divaḥ padaṃ na duṣkṛte api taṃ naśe ||',
           translation: 'The path of Rita cannot be deceived by anyone. Those who follow crooked ways perish. By Rita the vast luminous realm is reached — the evildoer cannot attain that place.',
           hindi: 'ऋत के मार्ग को कोई धोखा नहीं दे सकता। वक्र पथ पर चलने वाले नष्ट हो जाते हैं। ऋत से ही वह विशाल द्युलोक प्राप्त होता है — दुष्कर्मी उसे नहीं पा सकता।',
@@ -707,7 +707,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 109627,
-          sanskrit: 'इन्द्रो मायाभिः पुरुरूप ईयते युक्ता ह्यस्य हरयः शता दश | आयं शक्र इत्येनमाहुर्यः स्वर्षाता सत्पतिः शूरो अस्तु ||',
+          sanskrit: 'इन्द्रो मायाभिः पुरुरूप ईयते युक्ता ह्यस्य हरयः शता दश । आयं शक्र इत्येनमाहुर्यः स्वर्षाता सत्पतिः शूरो अस्तु ॥',
           transliteration: 'indro māyābhiḥ pururūpa īyate yuktā hyasya harayaḥ śatā daśa | āyaṃ śakra ityenamāhuryaḥ svarṣātā satpatiḥ śūro astu ||',
           translation: 'Indra moves in many forms through his powers of maya. His golden coursers are yoked a thousand and ten. They call him Shakra — may he who wins the heavenly light, lord of the good, be heroic.',
           hindi: 'इन्द्र अपनी माया-शक्तियों से अनेक रूप धारण करके विचरते हैं। उनके दस सौ सुनहरे अश्व जुते हैं। उन्हें शक्र कहते हैं — जो स्वर्ग-प्रकाश प्राप्त करे, सत्पुरुषों का स्वामी, वह शूर हो।',
@@ -716,7 +716,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 109628,
-          sanskrit: 'मरुतो यद्ध वो बलं यच्च सत्यमुत क्रतुः | तेन मा पातनाधसः ||',
+          sanskrit: 'मरुतो यद्ध वो बलं यच्च सत्यमुत क्रतुः । तेन मा पातनाधसः ॥',
           transliteration: 'maruto yadha vo balaṃ yacca satyamuta kratuḥ | tena mā pātanādhasaḥ ||',
           translation: 'O Maruts — whatever strength you have, whatever truth, whatever purposeful will — by that, protect me from falling low.',
           hindi: 'हे मरुतो — तुम्हारे पास जो बल है, जो सत्य है, जो संकल्पशक्ति है — उससे मुझे नीचे गिरने से बचाओ।',
@@ -725,7 +725,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 109907,
-          sanskrit: 'इन्द्र क्रतुं न आ भर पितान आ भर | वसो पुरन्दर श्रुधी हवम् ||',
+          sanskrit: 'इन्द्र क्रतुं न आ भर पितान आ भर । वसो पुरन्दर श्रुधी हवम् ॥',
           transliteration: 'indra kratuṃ na ā bhara pitā na ā bhara | vaso purandara śrudhī havam ||',
           translation: 'O Indra, bring us purposeful will as a father brings. O master of abundance, destroyer of limitations — hear our call.',
           hindi: 'हे इन्द्र, पिता की तरह हमें क्रतु (संकल्पशक्ति) लाओ। हे वसु (समृद्धि के स्वामी), पुरन्दर (बाधाओं के नाशक) — हमारी पुकार सुनो।',
@@ -734,7 +734,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 109908,
-          sanskrit: 'अपाम सोमममृता अभूमागन्म ज्योतिरविदाम देवान् | किं नूनमस्मान्कृणवदरातिः किमु धूर्तिरमृत मर्त्यस्य ||',
+          sanskrit: 'अपाम सोमममृता अभूमागन्म ज्योतिरविदाम देवान् । किं नूनमस्मान्कृणवदरातिः किमु धूर्तिरमृत मर्त्यस्य ॥',
           transliteration: 'apāma somamamṛtā abhūmāganma jyotiravadāma devān | kiṃ nūnamasmānkṛṇavadarātiḥ kimu dhūrtiraṃṛta martyasya ||',
           translation: 'We have drunk Soma; we have become immortal; we have reached the light; we have found the gods. What can enmity do to us now? What can the malice of a mortal do, O Immortal?',
           hindi: 'हमने सोम पिया है; हम अमर हो गए; हम प्रकाश को पहुँचे; हमने देवताओं को पाया। अब शत्रुता हमारा क्या कर सकती है? हे अमर, किसी मर्त्य की दुर्भावना क्या कर सकती है?',
@@ -750,7 +750,7 @@ export const rigveda: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'नासदासीन्नो सदासीत्तदानीं नासीद्रजो नो व्योमा परो यत् | किमावरीवः कुह कस्य शर्मन्नम्भः किमासीद्गहनं गभीरम् ||',
+          sanskrit: 'नासदासीन्नो सदासीत्तदानीं नासीद्रजो नो व्योमा परो यत् । किमावरीवः कुह कस्य शर्मन्नम्भः किमासीद्गहनं गभीरम् ॥',
           transliteration: 'nāsadāsīnno sadāsīttadānīṃ nāsīdrajo no vyomā paro yat | kimāvarīvaḥ kuha kasya śarmannambhaḥ kimāsīdgahanaṃ gabhīram ||',
           translation: 'Neither existence nor non-existence was there then; neither sky nor heaven beyond. What stirred? Where? Under whose shelter? Was there deep, unfathomable water?',
           hindi: 'उस समय न सत् था, न असत् था; न आकाश था, न उसके परे कुछ था। क्या आच्छादित था? कहाँ? किसके शरण में? क्या अथाह जल था?',
@@ -761,7 +761,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'को अद्धा वेद क इह प्र वोचत् कुत आजाता कुत इयं विसृष्टिः | अर्वाग्देवा अस्य विसर्जनेनाथा को वेद यत आबभूव ||',
+          sanskrit: 'को अद्धा वेद क इह प्र वोचत् कुत आजाता कुत इयं विसृष्टिः । अर्वाग्देवा अस्य विसर्जनेनाथा को वेद यत आबभूव ॥',
           transliteration: 'ko addhā veda ka iha pra vocat kuta ājātā kuta iyaṃ visṛṣṭiḥ | arvāgdevā asya visarjanena athā ko veda yata ābabhūva ||',
           translation: 'Who really knows? Who will here proclaim it? From where was it born, from where this creation? The gods came after this world\'s creation — so who knows from where it came into being?',
           hindi: 'कौन वास्तव में जानता है? यहाँ कौन बता सकता है? यह कहाँ से उत्पन्न हुआ? यह सृष्टि कहाँ से आई? देवता इस सृष्टि के बाद आए — तो फिर कौन जानता है यह कहाँ से उत्पन्न हुई?',
@@ -772,7 +772,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 3,
-          sanskrit: 'सहस्रशीर्षा पुरुषः सहस्राक्षः सहस्रपात् | स भूमिं विश्वतो वृत्वात्यतिष्ठद्दशाङ्गुलम् ||',
+          sanskrit: 'सहस्रशीर्षा पुरुषः सहस्राक्षः सहस्रपात् । स भूमिं विश्वतो वृत्वात्यतिष्ठद्दशाङ्गुलम् ॥',
           transliteration: 'sahasraśīrṣā puruṣaḥ sahasrākṣaḥ sahasrapāt | sa bhūmiṃ viśvato vṛtvātyatiṣṭhaddaśāṅgulam ||',
           translation: 'The Cosmic Person has a thousand heads, a thousand eyes, a thousand feet. He pervades the earth on all sides and stands ten fingers beyond.',
           hindi: 'पुरुष (विराट्) के हज़ार सिर, हज़ार आँखें और हज़ार पैर हैं। वह सब ओर से पृथ्वी को व्याप्त करके दस अंगुल अतिक्रमण करके स्थित है।',
@@ -783,7 +783,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 190,
-          sanskrit: 'तपसा चीयते ब्रह्म ततो अन्नमभिजायते | अन्नात्प्राणो जायते मनः सत्यं च जायते ||',
+          sanskrit: 'तपसा चीयते ब्रह्म ततो अन्नमभिजायते । अन्नात्प्राणो जायते मनः सत्यं च जायते ॥',
           transliteration: 'tapasā cīyate brahma tato annamabhijāyate | annātprāṇo jāyate manaḥ satyaṃ ca jāyate ||',
           translation: 'Through Tapas, Brahma increases. From that, food is born. From food, Prana is born. From Prana, mind and truth are born.',
           hindi: 'तप से ब्रह्म बढ़ता है; उससे अन्न उत्पन्न होता है; अन्न से प्राण उत्पन्न होता है; प्राण से मन और सत्य उत्पन्न होते हैं।',
@@ -794,7 +794,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 196,
-          sanskrit: 'एकं सत् विप्रा बहुधा वदन्ति | अग्निं यमं मातरिश्वानमाहुः | दिव्यं देवानग्निं गृहपतिं | यज्ञियं यज्ञसाधनमाहुः ||',
+          sanskrit: 'एकं सत् विप्रा बहुधा वदन्ति । अग्निं यमं मातरिश्वानमाहुः । दिव्यं देवानग्निं गृहपतिं । यज्ञियं यज्ञसाधनमाहुः ॥',
           transliteration: 'ekaṃ sat viprā bahudhā vadanti | agniṃ yamaṃ mātariśvānāmāhuḥ | divyaṃ devānagniṃ gṛhapatiṃ | yajñiyam yajñasādhanamāhuḥ ||',
           translation: 'The wise speak of what is one in many ways — they call it Agni, Yama, Matarishvan. Divine is Agni, the god of gods, the lord of the house, the worthy one, the fulfiller of sacrifice.',
           hindi: 'विद्वान एक को अनेक रूपों में कहते हैं — उसे अग्नि, यम, मातरिश्वन कहते हैं। दिव्य अग्नि है, देवों का देव, गृहपति, यज्ञिय, यज्ञ का साधक।ा।',
@@ -805,7 +805,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 197,
-          sanskrit: 'अग्निमीळे पुरोहितं यज्ञस्य देवमृत्विजम् | होतारं रत्नधातमम् ||',
+          sanskrit: 'अग्निमीळे पुरोहितं यज्ञस्य देवमृत्विजम् । होतारं रत्नधातमम् ॥',
           transliteration: 'agnimīḷe purohitaṃ yajñasya devamṛtavijam | hotāraṃ ratnadhātamam ||',
           translation: 'I invoke Agni, the priest, the sacrificer of the sacrifice, the divine minister of truth, the bestower of treasures.',
           hindi: 'अग्नि को आह्वान करता हूँ — पुरोहित, यज्ञ का यज्ञक, दिव्य ऋत्विज, रत्न देने वाला।',
@@ -816,7 +816,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 198,
-          sanskrit: 'असतो मा सद्गमय तसो मा द्विर्मा यो रदस्ति नियोऽस्तु नः | येन देवाः सयमन्ता उपास्ये नव्येन मध्यमा नव्येन समाध्याता ||',
+          sanskrit: 'असतो मा सद्गमय तसो मा द्विर्मा यो रदस्ति नियोऽस्तु नः । येन देवाः सयमन्ता उपास्ये नव्येन मध्यमा नव्येन समाध्याता ॥',
           transliteration: 'asato mā sadgamaya tamasomā jyotirgamayo mṛtyormā amṛtaṃ gamaya | śrīrno mā bhavati rādhasīrno bhūtā mā bhūyāsmaḥ | yenadevāḥ sayamantā upāsye navīena madhyamā navīena samādhyātā ||',
           translation: 'From untruth lead us to truth; from darkness lead us to light; from death lead us to immortality. May we not be separated from glory; may we not be separated from merit. May we be united with the divine through meditation.',
           hindi: 'असत से सत की ओर ले चलो; अंधकार से प्रकाश की ओर ले चलो; मृत्यु से अमृत की ओर ले चलो। हमें यश से न अलग होने दो; पुण्य से न अलग होने दो। देवों के साथ ध्यान से जुड़ने दो।',
@@ -827,7 +827,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 199,
-          sanskrit: 'श्रद्धावान् लभते ज्ञानम् अश्रद्धान् न लभते | ज्ञानात् यथा योगः सिद्धिः सर्वभूतेषु तथा ||',
+          sanskrit: 'श्रद्धावान् लभते ज्ञानम् अश्रद्धान् न लभते । ज्ञानात् यथा योगः सिद्धिः सर्वभूतेषु तथा ॥',
           transliteration: 'śraddhāvān labhate jñānam aśraddhān na labhate | jñānāt yathā yogaḥ siddhiḥ sarvabhūteṣu tathā ||',
           translation: 'The faithful attain knowledge; the faithless do not. From knowledge comes perfection (yoga) in all beings.',
           hindi: 'श्रद्धावान ज्ञान प्राप्त करता है; अश्रद्धान नहीं। ज्ञान से सिद्धि आती है — सभी प्राणियों में।',
@@ -838,7 +838,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 200,
-          sanskrit: 'यज्ञेन यज्ञमयजन्त देवाः | तानि धर्माणि प्रथमान्यासन् | ते नो अदित्यान्मनुष्याः पूर्वे | साक्षादाग्रे प्रतिष्ठिता ||',
+          sanskrit: 'यज्ञेन यज्ञमयजन्त देवाः । तानि धर्माणि प्रथमान्यासन् । ते नो अदित्यान्मनुष्याः पूर्वे । साक्षादाग्रे प्रतिष्ठिता ॥',
           transliteration: 'yajñena yajñamayajanta devāḥ | tāni dharmāṇi prathamānyāsan | te no adityānmanuṣyāḥ pūrve | sākṣādāgre pratiṣṭhitā ||',
           translation: 'The gods performed sacrifice through sacrifice. These were the first dharmas. These dharmas reached the humans of ancient times — established in the beginning, visible.',
           hindi: 'देवों ने यज्ञ से यज्ञ किया। ये प्रथम धर्म थे। वे पुराने मनुष्यों तक पहुँचे — आदि में स्थापित, साक्षात दृष्ट।',
@@ -850,7 +850,7 @@ export const rigveda: Scripture = {
       
         {
           id: 110012,
-          sanskrit: 'को अद्धा वेद क इह प्र वोचत् कुत आजाता कुत इयं विसृष्टिः | अर्वाग्देवा अस्य विसर्जनेनाथा को वेद यत आबभूव ||',
+          sanskrit: 'को अद्धा वेद क इह प्र वोचत् कुत आजाता कुत इयं विसृष्टिः । अर्वाग्देवा अस्य विसर्जनेनाथा को वेद यत आबभूव ॥',
           transliteration: 'ko addhā veda ka iha pra vocat kuta ājātā kuta iyaṃ visṛṣṭiḥ | arvāgdevā asya visarjanena athā ko veda yata ābabhūva ||',
           translation: 'Who really knows? Who will here proclaim it? From where was it born, from where this creation? The gods came after this world\'s creation — so who knows from where it came into being?',
           hindi: 'कौन वास्तव में जानता है? यहाँ कौन बता सकता है? यह कहाँ से उत्पन्न हुआ? यह सृष्टि कहाँ से आई? देवता इस सृष्टि के बाद आए — तो फिर कौन जानता है यह कहाँ से उत्पन्न हुई?',
@@ -859,7 +859,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 110013,
-          sanskrit: 'सहस्रशीर्षा पुरुषः सहस्राक्षः सहस्रपात् | स भूमिं विश्वतो वृत्वात्यतिष्ठद्दशाङ्गुलम् ||',
+          sanskrit: 'सहस्रशीर्षा पुरुषः सहस्राक्षः सहस्रपात् । स भूमिं विश्वतो वृत्वात्यतिष्ठद्दशाङ्गुलम् ॥',
           transliteration: 'sahasraśīrṣā puruṣaḥ sahasrākṣaḥ sahasrapāt | sa bhūmiṃ viśvato vṛtvātyatiṣṭhaddaśāṅgulam ||',
           translation: 'The Cosmic Person has a thousand heads, a thousand eyes, a thousand feet. He pervades the earth on all sides and stands ten fingers beyond.',
           hindi: 'पुरुष (विराट्) के हज़ार सिर, हज़ार आँखें और हज़ार पैर हैं। वह सब ओर से पृथ्वी को व्याप्त करके दस अंगुल अतिक्रमण करके स्थित है।',
@@ -868,7 +868,7 @@ export const rigveda: Scripture = {
         },
         {
           id: 110014,
-          sanskrit: 'तपसा चीयते ब्रह्म ततो अन्नमभिजायते | अन्नात्प्राणो जायते मनः सत्यं च जायते ||',
+          sanskrit: 'तपसा चीयते ब्रह्म ततो अन्नमभिजायते । अन्नात्प्राणो जायते मनः सत्यं च जायते ॥',
           transliteration: 'tapasā cīyate brahma tato annamabhijāyate | annātprāṇo jāyate manaḥ satyaṃ ca jāyate ||',
           translation: 'Through Tapas, Brahma increases. From that, food is born. From food, Prana is born. From Prana, mind and truth are born.',
           hindi: 'तप से ब्रह्म बढ़ता है; उससे अन्न उत्पन्न होता है; अन्न से प्राण उत्पन्न होता है; प्राण से मन और सत्य उत्पन्न होते हैं।',

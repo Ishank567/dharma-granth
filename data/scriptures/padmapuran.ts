@@ -17,7 +17,7 @@ export const padmapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'सर्वतीर्थमयी माता सर्वदेवमयः पिता |\nमातरं पितरं तस्माद्रक्षेद्धर्मपरायणः ||',
+          sanskrit: 'सर्वतीर्थमयी माता सर्वदेवमयः पिता ।\nमातरं पितरं तस्माद्रक्षेद्धर्मपरायणः ॥',
           transliteration: 'sarvatīrthamayī mātā sarvadevamayaḥ pitā |\nmātaraṃ pitaraṃ tasmādrakṣeddharmaparāyaṇaḥ ||',
           translation: 'The mother embodies all sacred pilgrimages; the father embodies all gods. Therefore, one devoted to dharma should serve and protect both.',
           hindi: 'माता सभी तीर्थों का स्वरूप है; पिता सभी देवताओं का। इसलिए धर्मपरायण व्यक्ति को माता और पिता की सेवा करनी चाहिए।',
@@ -28,7 +28,7 @@ export const padmapuran: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'न तेन वृद्धो भवति येनास्य पलितं शिरः |\nयो वै युवाप्यधीयानस्तं देवाः स्थविरं विदुः ||',
+          sanskrit: 'न तेन वृद्धो भवति येनास्य पलितं शिरः ।\nयो वै युवाप्यधीयानस्तं देवाः स्थविरं विदुः ॥',
           transliteration: 'na tena vṛddho bhavati yenāsya palitaṃ śiraḥ |\nyo vai yuvāpyadhīyānastaṃ devāḥ sthaviraṃ viduḥ ||',
           translation: "One does not become an elder merely because one's hair has turned grey. The one who, even as a youth, is engaged in learning and wisdom — the gods call that one the elder.",
           hindi: 'केवल बालों के सफेद होने से कोई वृद्ध नहीं हो जाता। जो युवा होते हुए भी विद्या और ज्ञान में लगा है — देवता उसे ही वृद्ध (आदरणीय) मानते हैं।',
@@ -47,7 +47,7 @@ export const padmapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'भक्तिर्भगवतो लाभः सुखं सेवा जनार्दने | निर्वेदः स्यादनित्येषु विद्या चात्मनि दर्शनम् ||',
+          sanskrit: 'भक्तिर्भगवतो लाभः सुखं सेवा जनार्दने । निर्वेदः स्यादनित्येषु विद्या चात्मनि दर्शनम् ॥',
           transliteration: 'bhaktirbhagavato lābhaḥ sukhaṃ sevā janārdane | nirvedaḥ syādanityeṣu vidyā cātmani darśanam ||',
           translation: 'Devotion is the gain of the Lord; happiness is service to Janardana; detachment is in the impermanent; knowledge is the vision of the Self.',
           hindi: 'भगवान की प्राप्ति ही भक्ति है; सुख जनार्दन की सेवा में है; अनित्य वस्तुओं में वैराग्य और आत्मा का दर्शन ही विद्या है।',
@@ -58,7 +58,7 @@ export const padmapuran: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'नामसंकीर्तनं विष्णोः सर्वपापप्रणाशनम् | प्रणामः सर्वदुःखघ्नः स्तुतिः कामार्थदायिनी ||',
+          sanskrit: 'नामसंकीर्तनं विष्णोः सर्वपापप्रणाशनम् । प्रणामः सर्वदुःखघ्नः स्तुतिः कामार्थदायिनी ॥',
           transliteration: 'nāmasaṃkīrtanaṃ viṣṇoḥ sarvapāpapraṇāśanam | praṇāmaḥ sarvaduḥkhghnaḥ stutiḥ kāmārthadāyinī ||',
           translation: "The singing of Vishnu's names destroys all sins; bowing destroys all sorrow; praise fulfils desires for meaning and purpose.",
           hindi: 'विष्णु का नामसंकीर्तन सभी पापों को नष्ट करता है; प्रणाम सभी दुखों को; और स्तुति सभी काम और अर्थ की प्राप्ति देती है।',
@@ -77,7 +77,7 @@ export const padmapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'तीर्थं नामेह विख्यातं यत्र पापं विनश्यति | मनसा कर्मणा वाचा यत्र सिद्धिर्न दुर्लभा ||',
+          sanskrit: 'तीर्थं नामेह विख्यातं यत्र पापं विनश्यति । मनसा कर्मणा वाचा यत्र सिद्धिर्न दुर्लभा ॥',
           transliteration: 'tīrthaṃ nāmeha vikhyātaṃ yatra pāpaṃ vinaśyati | manasā karmaṇā vācā yatra siddhirnā durlabhā ||',
           translation: 'A tirtha (sacred place) is that place where sin dissolves — in thought, deed, and word — and where spiritual attainment is not difficult.',
           hindi: 'वह स्थान तीर्थ कहलाता है जहाँ मन, कर्म और वाणी के पापों का नाश होता है, और जहाँ सिद्धि प्राप्त करना कठिन नहीं होता।',
@@ -96,7 +96,7 @@ export const padmapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'ते तं भुक्त्वा स्वर्गलोकं विशालं क्षीणे पुण्ये मर्त्यलोकं विशन्ति | एवं त्रयीधर्ममनुप्रपन्ना गतागतं कामकामा लभन्ते ||',
+          sanskrit: 'ते तं भुक्त्वा स्वर्गलोकं विशालं क्षीणे पुण्ये मर्त्यलोकं विशन्ति । एवं त्रयीधर्ममनुप्रपन्ना गतागतं कामकामा लभन्ते ॥',
           transliteration: 'te taṃ bhuktvā svargalokaṃ viśālaṃ kṣīṇe puṇye martyalokaṃ viśanti | evaṃ trayīdharmAmanuprapannā gatāgataṃ kāmakāmā labhante ||',
           translation: 'Having enjoyed that vast heaven, when the merit is exhausted they re-enter the mortal world. Thus those who follow the three-Veda dharma for the sake of desire — attain only the going and coming back.',
           hindi: 'उस विशाल स्वर्गलोक को भोगकर, जब पुण्य क्षीण होता है, वे मृत्युलोक में लौट आते हैं। इस प्रकार जो कामनाओं के लिए त्रयी-धर्म का पालन करते हैं — वे केवल आना-जाना प्राप्त करते हैं।',
@@ -107,7 +107,7 @@ export const padmapuran: Scripture = {
         },
         {
           id: 18,
-          sanskrit: 'धर्मस्य तत्त्वं निहितं गुहायां महाजनो येन गतः स पन्थाः | तर्कोऽप्रतिष्ठः श्रुतयो विभिन्नाः नैको मुनिर्यस्य वचः प्रमाणम् ||',
+          sanskrit: 'धर्मस्य तत्त्वं निहितं गुहायां महाजनो येन गतः स पन्थाः । तर्कोऽप्रतिष्ठः श्रुतयो विभिन्नाः नैको मुनिर्यस्य वचः प्रमाणम् ॥',
           transliteration: 'dharmasya tattvaṃ nihitaṃ guhāyāṃ mahājano yena gataḥ sa panthāḥ | tarko\'pratiṣṭhaḥ śrutayo vibhinnāḥ naiko munirYasya vacaḥ pramāṇam ||',
           translation: 'The essence of dharma is hidden in a cave. The path is that which the great ones have walked. Logic has no firm ground; the scriptures differ; no single sage is the sole authority.',
           hindi: 'धर्म का तत्त्व गुहा में निहित है। महाजन जिस मार्ग से गये — वही पन्थ है। तर्क अप्रतिष्ठित है; श्रुतियाँ विभिन्न हैं; कोई एक मुनि प्रमाण नहीं है।',
@@ -126,7 +126,7 @@ export const padmapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'रामो राजमणिः सदा विजयते रामं रमेशं भजे | रामेणाभिहता निशाचरचमू रामाय तस्मै नमः | रामान्नास्ति परायणं परतरं रामस्य दासोऽस्म्यहम् | रामे चित्तलयः सदा भवतु मे भो राम मामुद्धर ||',
+          sanskrit: 'रामो राजमणिः सदा विजयते रामं रमेशं भजे । रामेणाभिहता निशाचरचमू रामाय तस्मै नमः । रामान्नास्ति परायणं परतरं रामस्य दासोऽस्म्यहम् । रामे चित्तलयः सदा भवतु मे भो राम मामुद्धर ॥',
           transliteration: 'rāmo rājamaṇiḥ sadā vijayate rāmaṃ rameśaṃ bhaje | rāmeṇābhihatā niśācaracamū rāmāya tasmai namaḥ | rāmānnāsti parāyaṇaṃ parataraṃ rāmasya dāso\'smyaham | rāme cittaLayaḥ sadā bhavatu me bho rāma māmuddhara ||',
           translation: 'Rama, the jewel of kings, always triumphs — I worship Rama, the Lord of Lakshmi. By Rama the army of night-wanderers was struck down — salutation to that Rama. There is no higher refuge than Rama — I am Rama\'s servant. May my mind always dissolve in Rama — O Rama, uplift me.',
           hindi: 'राजमणि राम सदा विजयी होते हैं — रमेश राम को मैं भजता हूँ। राम ने राक्षस-सेना को मारा — उस राम को नमस्कार। राम से बड़ा कोई परायण नहीं — मैं राम का दास हूँ। मेरा चित्त सदा राम में लीन रहे — हे राम, मेरा उद्धार करो।',
@@ -137,7 +137,7 @@ export const padmapuran: Scripture = {
         },
         {
           id: 45,
-          sanskrit: 'श्रीरामचन्द्रः शरणं ममास्तु | श्रीरामचन्द्रः शरणं ममास्तु || सर्वे च देवाः शरणं ममास्तु | सर्वे च धर्माः शरणं ममास्तु ||',
+          sanskrit: 'श्रीरामचन्द्रः शरणं ममास्तु । श्रीरामचन्द्रः शरणं ममास्तु ॥ सर्वे च देवाः शरणं ममास्तु । सर्वे च धर्माः शरणं ममास्तु ॥',
           transliteration: 'śrīrāmacandraḥ śaraṇaṃ mamāstu | śrīrāmacandraḥ śaraṇaṃ mamāstu || sarve ca devāḥ śaraṇaṃ mamāstu | sarve ca dharmāḥ śaraṇaṃ mamāstu ||',
           translation: 'May Shri Ramachandra be my refuge. May Shri Ramachandra be my refuge. May all the gods be my refuge. May all the dharmas be my refuge.',
           hindi: 'श्रीरामचन्द्र मेरी शरण हों। श्रीरामचन्द्र मेरी शरण हों। सभी देव मेरी शरण हों। सभी धर्म मेरी शरण हों।',
@@ -156,7 +156,7 @@ export const padmapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'अन्नं ब्रह्मेति व्यजानात् | प्राणो ब्रह्मेति व्यजानात् | मनो ब्रह्मेति व्यजानात् | वाचं ब्रह्मेति व्यजानात् ||',
+          sanskrit: 'अन्नं ब्रह्मेति व्यजानात् । प्राणो ब्रह्मेति व्यजानात् । मनो ब्रह्मेति व्यजानात् । वाचं ब्रह्मेति व्यजानात् ॥',
           transliteration: 'annaṃ brahmeti vyajānāt | prāṇo brahmeti vyajānāt | mano brahmeti vyajānāt | vācaṃ brahmeti vyajānāt ||',
           translation: 'He recognised food as Brahman. He recognised life-breath as Brahman. He recognised mind as Brahman. He recognised speech as Brahman.',
           hindi: 'उसने अन्न को ब्रह्म जाना। प्राण को ब्रह्म जाना। मन को ब्रह्म जाना। वाणी को ब्रह्म जाना।',
@@ -167,7 +167,7 @@ export const padmapuran: Scripture = {
         },
         {
           id: 28,
-          sanskrit: 'सर्वं कर्म मयि सन्न्यस्य अध्यात्मचेतसा | निराशीर्निर्ममो भूत्वा युध्यस्व विगतज्वरः ||',
+          sanskrit: 'सर्वं कर्म मयि सन्न्यस्य अध्यात्मचेतसा । निराशीर्निर्ममो भूत्वा युध्यस्व विगतज्वरः ॥',
           transliteration: 'sarvaṃ karma mayi sannyasya adhyātmacetasā | nirāśīrnirmamo bhūtvā yudhyasva vigatajvaraḥ ||',
           translation: 'Having surrendered all actions to Me — with a mind focused on the Self — be without longing, without "mine," and fight — fever-free.',
           hindi: 'सब कर्म मुझमें अर्पण करके, अध्यात्म-चेतना से — निराशी, निर्मम होकर, ज्वर-रहित होकर युद्ध करो।',
@@ -186,7 +186,7 @@ export const padmapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'अहमेव परं ब्रह्म सच्चिदानन्दमव्ययम् | अहमेव परं धाम अहमेव परं पदम् ||',
+          sanskrit: 'अहमेव परं ब्रह्म सच्चिदानन्दमव्ययम् । अहमेव परं धाम अहमेव परं पदम् ॥',
           transliteration: 'ahameva paraṃ brahma saccidānandamavyayam | ahameva paraṃ dhāma ahameva paraṃ padam ||',
           translation: 'I alone am the supreme Brahman — Existence-Consciousness-Bliss, imperishable. I alone am the supreme abode; I alone am the supreme state.',
           hindi: 'मैं ही परम ब्रह्म हूँ — सच्चिदानन्द, अव्यय। मैं ही परम धाम हूँ; मैं ही परम पद हूँ।',
@@ -197,7 +197,7 @@ export const padmapuran: Scripture = {
         },
         {
           id: 22,
-          sanskrit: 'न जायते म्रियते वा कदाचिन्नायं भूत्वा भविता वा न भूयः | अजो नित्यः शाश्वतोऽयं पुराणो न हन्यते हन्यमाने शरीरे ||',
+          sanskrit: 'न जायते म्रियते वा कदाचिन्नायं भूत्वा भविता वा न भूयः । अजो नित्यः शाश्वतोऽयं पुराणो न हन्यते हन्यमाने शरीरे ॥',
           transliteration: 'na jāyate mriyate vā kadācinnāyaṃ bhūtvā bhavitā vā na bhūyaḥ | ajo nityaḥ śāśvato\'yaṃ purāṇo na hanyate hanyamāne śarīre ||',
           translation: 'It is never born and never dies at any time. It has not come into being and will not come into being. Unborn, eternal, ever-existing, primeval — it is not slain when the body is slain.',
           hindi: 'यह कभी जन्म नहीं लेता और न मरता है। यह होकर फिर नहीं होगा। अज, नित्य, शाश्वत, पुराण — शरीर के मारे जाने पर यह नहीं मारा जाता।',
@@ -208,7 +208,7 @@ export const padmapuran: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'शिवः सर्वत्र शिवः सर्वः शिवः सर्वेषु भूतेषु | यः शिवं पश्यति सर्वत्र स शिवं पश्यति नान्यथा ||',
+          sanskrit: 'शिवः सर्वत्र शिवः सर्वः शिवः सर्वेषु भूतेषु । यः शिवं पश्यति सर्वत्र स शिवं पश्यति नान्यथा ॥',
           transliteration: 'śivaḥ sarvatra śivaḥ sarvaḥ śivaḥ sarveṣu bhūteṣu | yaḥ śivaṃ paśyati sarvatra sa śivaṃ paśyati nānyathā ||',
           translation: 'Shiva is everywhere, Shiva is all, Shiva is in all beings. He who sees Shiva everywhere, sees Shiva — not otherwise.',
           hindi: 'शिव सर्वत्र है, शिव सब कुछ है, शिव सभी प्राणियों में है। जो शिव को सर्वत्र देखता है, वही शिव को देखता है — अन्यथा नहीं।',
@@ -219,7 +219,7 @@ export const padmapuran: Scripture = {
         },
         {
           id: 48,
-          sanskrit: 'ज्ञानं यज्ञेन पर्युप्तं यज्ञस्तपसि तिष्ठति | तप आत्मनि तिष्ठत्यात्मा सर्वत्र तिष्ठति ||',
+          sanskrit: 'ज्ञानं यज्ञेन पर्युप्तं यज्ञस्तपसि तिष्ठति । तप आत्मनि तिष्ठत्यात्मा सर्वत्र तिष्ठति ॥',
           transliteration: 'jñānaṃ yajñena paryuptaṃ yajñastapasitiṣṭhati | tapa ātmani tiṣṭhatyātmā sarvatra tiṣṭhati ||',
           translation: 'Knowledge is purified by sacrifice; sacrifice rests in austerity; austerity rests in the Self; the Self rests everywhere.',
           hindi: 'ज्ञान यज्ञ से परिष्कृत होता है; यज्ञ तप में स्थित है; तप आत्मा में स्थित है; आत्मा सर्वत्र स्थित है।',
@@ -238,7 +238,7 @@ export const padmapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'अपि चेत्सुदुराचारो भजते मामनन्यभाक् | साधुरेव स मन्तव्यः सम्यग्व्यवसितो हि सः ||',
+          sanskrit: 'अपि चेत्सुदुराचारो भजते मामनन्यभाक् । साधुरेव स मन्तव्यः सम्यग्व्यवसितो हि सः ॥',
           transliteration: 'api cet sudurācāro bhajate māmananyabhāk | sādhureva sa mantavyaḥ samyagvyavasito hi saḥ ||',
           translation: 'Even if a person of very bad conduct worships Me with undivided devotion — he is to be considered a saint, for he has resolved rightly.',
           hindi: 'यदि अत्यंत दुराचारी भी अनन्य भाव से मेरा भजन करता है — वह साधु ही मानना चाहिए, क्योंकि उसका निश्चय सम्यक है।',
@@ -249,7 +249,7 @@ export const padmapuran: Scripture = {
         },
         {
           id: 18,
-          sanskrit: 'समोऽहं सर्वभूतेषु न मे द्वेष्योऽस्ति न प्रियः | ये भजन्ति तु मां भक्त्या मयि ते तेषु चाप्यहम् ||',
+          sanskrit: 'समोऽहं सर्वभूतेषु न मे द्वेष्योऽस्ति न प्रियः । ये भजन्ति तु मां भक्त्या मयि ते तेषु चाप्यहम् ॥',
           transliteration: 'samo\'haṃ sarvabhūteṣu na me dveṣyo\'sti na priyaḥ | ye bhajanti tu māṃ bhaktyā mayi te teṣu cāpyaham ||',
           translation: 'I am equal to all beings — none is hateful to Me, none is dear. But those who worship Me with devotion — they are in Me, and I am in them.',
           hindi: 'मैं सभी प्राणियों में समान हूँ — न कोई द्वेष्य, न प्रिय। किन्तु जो भक्ति से भजते हैं — वे मुझमें हैं और मैं उनमें हूँ।',
@@ -260,7 +260,7 @@ export const padmapuran: Scripture = {
         },
         {
           id: 35,
-          sanskrit: 'मच्चित्ता मद्गतप्राणा बोधयन्तः परस्परम् | कथयन्तश्च मां नित्यं तुष्यन्ति च रमन्ति च ||',
+          sanskrit: 'मच्चित्ता मद्गतप्राणा बोधयन्तः परस्परम् । कथयन्तश्च मां नित्यं तुष्यन्ति च रमन्ति च ॥',
           transliteration: 'maccittā madgataprāṇā bodhayantaḥ parasparam | kathayantaśca māṃ nityaṃ tuṣyanti ca ramanti ca ||',
           translation: 'Their minds absorbed in Me, their life-breath gone to Me — enlightening one another, always speaking of Me — they are satisfied and they rejoice.',
           hindi: 'मुझमें मन लगाए, मुझमें प्राण अर्पित किए — परस्पर बोध देते हुए, नित्य मेरी कथा करते हुए — वे तृप्त होते हैं और आनन्दित होते हैं।',

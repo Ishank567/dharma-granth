@@ -17,7 +17,7 @@ export const brahmapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'नारायणं नमस्कृत्य नरं चैव नरोत्तमम् | देवीं सरस्वतीं चैव ततो जयमुदीरयेत् ||',
+          sanskrit: 'नारायणं नमस्कृत्य नरं चैव नरोत्तमम् । देवीं सरस्वतीं चैव ततो जयमुदीरयेत् ॥',
           transliteration: 'nārāyaṇaṃ namaskṛtya naraṃ caiva narottamam | devīṃ sarasvatīṃ caiva tato jayamudīrayet ||',
           translation: 'Having bowed to Narayana, and to the supreme among men, and to Goddess Sarasvati — then let one declare victory.',
           hindi: 'नारायण को नमस्कार करके, नरोत्तम को और देवी सरस्वती को — तब जय बोलना चाहिए।',
@@ -28,7 +28,7 @@ export const brahmapuran: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'पद्मनाभात् समुत्पन्नं पद्मं विश्वस्य कारणम् | तस्मिन् ब्रह्मा समुत्पन्नः सृष्टिकर्ता पितामहः ||',
+          sanskrit: 'पद्मनाभात् समुत्पन्नं पद्मं विश्वस्य कारणम् । तस्मिन् ब्रह्मा समुत्पन्नः सृष्टिकर्ता पितामहः ॥',
           transliteration: 'padmanābhāt samutpannaṃ padmaṃ viśvasya kāraṇam | tasmin brahmā samutpannaḥ sṛṣṭikartā pitāmahaḥ ||',
           translation: 'From the lotus-navel arose the lotus, the cause of the universe. In it was born Brahma, the creator, the grandfather of all.',
           hindi: 'पद्मनाभ (विष्णु) से पद्म (कमल) उत्पन्न हुआ, जो विश्व का कारण है। उसमें ब्रह्मा का जन्म हुआ — सृष्टिकर्ता, पितामह।',
@@ -47,7 +47,7 @@ export const brahmapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'सप्तद्वीपा वसुमती त्रिलोकी सप्तसागरा | मेरुर्मध्यगतः श्रीमान् यत्र देवनिकायनः ||',
+          sanskrit: 'सप्तद्वीपा वसुमती त्रिलोकी सप्तसागरा । मेरुर्मध्यगतः श्रीमान् यत्र देवनिकायनः ॥',
           transliteration: 'saptadvīpā vasumatī trilokī saptasāgarā | merurmadhyagataḥ śrīmān yatra devanikāyanaḥ ||',
           translation: 'The earth has seven continents, the three worlds have seven oceans, and Meru — glorious, situated at the centre — where the hosts of gods reside.',
           hindi: 'सात द्वीपों वाली पृथ्वी, तीन लोकों और सात समुद्रों वाली — मध्य में श्रीमान् मेरु पर्वत, जहाँ देवताओं के निकाय निवास करते हैं।',
@@ -58,7 +58,7 @@ export const brahmapuran: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'गङ्गा त्रिपथगा दिव्या त्रैलोक्यपावनी शुभा | ब्रह्मलोकात् समागत्य ब्रह्मपुत्री प्रतिष्ठिता ||',
+          sanskrit: 'गङ्गा त्रिपथगा दिव्या त्रैलोक्यपावनी शुभा । ब्रह्मलोकात् समागत्य ब्रह्मपुत्री प्रतिष्ठिता ॥',
           transliteration: 'gaṅgā tripathagā divyā trailokyapāvanī śubhā | brahmalokāt samāgatya brahmaputrī pratiṣṭhitā ||',
           translation: 'Ganga, flowing through three paths, divine, purifier of the three worlds, auspicious — coming from Brahmaloka, established as the daughter of Brahma.',
           hindi: 'तीन मार्गों से बहने वाली, दिव्य, त्रिलोकी-पावनी, शुभा गंगा — ब्रह्मलोक से आकर ब्रह्मा की पुत्री के रूप में प्रतिष्ठित हुई।',
@@ -77,7 +77,7 @@ export const brahmapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'पतिव्रता महाभागा सावित्री दीर्घदर्शिनी | अनुगच्छति धर्मेण यमं वै मृत्युंजयम् ||',
+          sanskrit: 'पतिव्रता महाभागा सावित्री दीर्घदर्शिनी । अनुगच्छति धर्मेण यमं वै मृत्युंजयम् ॥',
           transliteration: 'pativratā mahābhāgā sāvitrī dīrghadarśinī | anugacchati dharmeṇa yamaṃ vai mṛtyuñjayam ||',
           translation: 'Savitri, the great and fortunate pativrata, the far-seeing one, followed Yama by dharma — Yama who is the conqueror of death.',
           hindi: 'महाभाग्यशाली, दीर्घदर्शी पतिव्रता सावित्री धर्म से यम का अनुगमन करती हैं — वे यम जो मृत्यु के जयी हैं।',
@@ -88,7 +88,7 @@ export const brahmapuran: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'वरं वृणीष्व यद् ब्रूहि यदि ते रोचते वरम् | मृत्युंजयत्वं पतिना सह जीवनमुत्तमम् ||',
+          sanskrit: 'वरं वृणीष्व यद् ब्रूहि यदि ते रोचते वरम् । मृत्युंजयत्वं पतिना सह जीवनमुत्तमम् ॥',
           transliteration: 'varaṃ vṛṇīṣva yad brūhi yadi te rocite varam | mṛtyuñjayatvaṃ patinā saha jīvanamuttamam ||',
           translation: 'Ask for whatever boon you desire — if a boon pleases you. The supreme life is conquering death, living with your husband.',
           hindi: 'जो वर तुम्हें रुचिकर लगे, वह माँगो। पति के साथ जीवन ही मृत्युंजयत्व (मृत्यु पर विजय) है — यही उत्तम वर है।',
@@ -107,7 +107,7 @@ export const brahmapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'तीर्थं मनःशुद्धिकरं पापघ्नं पुण्यवर्धनम् | यत्र स्नात्वा नरो याति ब्रह्मलोकं सनातनम् ||',
+          sanskrit: 'तीर्थं मनःशुद्धिकरं पापघ्नं पुण्यवर्धनम् । यत्र स्नात्वा नरो याति ब्रह्मलोकं सनातनम् ॥',
           transliteration: 'tīrthaṃ manaḥśuddhikaraṃ pāpaghnaṃ puṇyavardhanam | yatra snātvā naro yāti brahmalokaṃ sanātanam ||',
           translation: 'A tirtha purifies the mind, destroys sin, increases merit. Having bathed there, a person attains the eternal Brahmaloka.',
           hindi: 'तीर्थ मन को शुद्ध करता है, पाप नष्ट करता है, पुण्य बढ़ाता है। जहाँ स्नान करके मनुष्य सनातन ब्रह्मलोक को जाता है।',
@@ -118,7 +118,7 @@ export const brahmapuran: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'तीर्थे तीर्थे जलं पीत्वा स्नात्वा तीर्थेषु मानवः | विष्णुलोकं परं याति निर्वाणपदमाप्नुयात् ||',
+          sanskrit: 'तीर्थे तीर्थे जलं पीत्वा स्नात्वा तीर्थेषु मानवः । विष्णुलोकं परं याति निर्वाणपदमाप्नुयात् ॥',
           transliteration: 'tīrthe tīrthe jalaṃ pītvā snātvā tīrtheṣu mānavaḥ | viṣṇulokaṃ paraṃ yāti nirvāṇapadamāpnuyāt ||',
           translation: 'Having drunk and bathed in tirtha after tirtha, a human attains the supreme Vishnuloka, reaches the state of nirvana.',
           hindi: 'तीर्थ-तीर्थ में जल पीकर और स्नान करके मनुष्य परम विष्णुलोक को प्राप्त होता है, निर्वाण पद की प्राप्ति करता है।',

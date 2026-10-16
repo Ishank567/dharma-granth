@@ -17,7 +17,7 @@ export const brahmandpuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'ब्रह्माण्डमण्डलाकारं वह्नेरण्डमिव स्थितम् |\nजलेनावृतमित्याहुस्तोयेनाम्बु च मण्डलम् ||',
+          sanskrit: 'ब्रह्माण्डमण्डलाकारं वह्नेरण्डमिव स्थितम् ।\nजलेनावृतमित्याहुस्तोयेनाम्बु च मण्डलम् ॥',
           transliteration: 'brahmāṇḍamaṇḍalākāraṃ vahneraṇḍamiva sthitam |\njalenāvṛtamityāhustoyenāmbu ca maṇḍalam ||',
           translation: 'The Brahmanda (cosmic egg) is sphere-shaped, like a fire-egg, resting thus. It is said to be surrounded by water, and the water-region by another element.',
           hindi: 'ब्रह्माण्ड गोलाकार (अण्डाकार) है, अग्नि के अण्ड की भाँति स्थित है। उसे जल से आवृत कहते हैं और जल-मण्डल को दूसरे तत्त्व से।',
@@ -28,7 +28,7 @@ export const brahmandpuran: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'लक्ष्मीनारायणो यत्र यत्र गौरीशङ्करौ |\nयत्र साहित्यविद्या च तत्र भूरि सुखं नृणाम् ||',
+          sanskrit: 'लक्ष्मीनारायणो यत्र यत्र गौरीशङ्करौ ।\nयत्र साहित्यविद्या च तत्र भूरि सुखं नृणाम् ॥',
           transliteration: 'lakṣmīnārāyaṇo yatra yatra gaurīśaṅkarau |\nyatra sāhityavidyā ca tatra bhūri sukhaṃ nṛṇām ||',
           translation: 'Where Lakshmi-Narayana are (prosperity with virtue), where Gauri-Shankara are (love with consciousness), and where literature and learning are — there is abundant happiness for human beings.',
           hindi: 'जहाँ लक्ष्मी-नारायण हैं (समृद्धि और सत्त्व), जहाँ गौरी-शंकर हैं (प्रेम और चेतना), और जहाँ साहित्य-विद्या है — वहाँ मनुष्यों को प्रचुर सुख मिलता है।',
@@ -40,7 +40,7 @@ export const brahmandpuran: Scripture = {
       
         {
           id: 4,
-          sanskrit: 'देवी देवानां देवता देवीनां देवतानाम् | सर्वभूतानां च शक्तिः सर्वभूतानां च धारिणी ||',
+          sanskrit: 'देवी देवानां देवता देवीनां देवतानाम् । सर्वभूतानां च शक्तिः सर्वभूतानां च धारिणी ॥',
           transliteration: 'devī devānāṃ devatā devīnāṃ devatānām | sarvabhūtānāṃ ca śaktiḥ sarvabhūtānāṃ ca dhāriṇī ||',
           translation: 'The Goddess is the deity of the gods, the goddess of goddesses. She is the power of all beings, and the sustainer of all beings.',
           hindi: 'देवी देवताओं की देवता है, देवियों की देवी है। वह सभी प्राणियों की शक्ति है, और सभी प्राणियों की धारिणी है।',
@@ -49,7 +49,7 @@ export const brahmandpuran: Scripture = {
         },
         {
           id: 8,
-          sanskrit: 'यां विन्दते सा वै शक्तिर्या वा विद्यात्मिका परा | या च कर्मात्मिका प्रोक्ता त्रिधा शक्तिः प्रतिष्ठिता ||',
+          sanskrit: 'यां विन्दते सा वै शक्तिर्या वा विद्यात्मिका परा । या च कर्मात्मिका प्रोक्ता त्रिधा शक्तिः प्रतिष्ठिता ॥',
           transliteration: 'yāṃ vindate sā vai śaktiryā vā vidyātmikā parā | yā ca karmātmikā proktā tridhā śaktiḥ pratiṣṭhitā ||',
           translation: 'That which is found is Shakti; that which is supreme knowledge; and that which is declared as action — Shakti is established in these three forms.',
           hindi: 'जो प्राप्त होती है वह शक्ति है, जो परम विद्या है, और जो कर्म-स्वरूपा कही जाती है — शक्ति इन तीन रूपों में प्रतिष्ठित है।',
@@ -65,7 +65,7 @@ export const brahmandpuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'सिन्दूरारुणविग्रहां त्रिनयनां माणिक्यमौलिस्फुरत् | तारानायकशेखरां स्मितमुखीमापीनवक्षोरुहाम् ||',
+          sanskrit: 'सिन्दूरारुणविग्रहां त्रिनयनां माणिक्यमौलिस्फुरत् । तारानायकशेखरां स्मितमुखीमापीनवक्षोरुहाम् ॥',
           transliteration: 'sindūrāruṇaviGrahāṃ trinayanāṃ māṇikyamauliSphurat | tārānāyakaśekharāṃ smitamukhīmāpīnavakṣoruhām ||',
           translation: 'She whose form is red as sindura, who has three eyes, who wears a crown of rubies, adorned with the moon, with a smiling face and full bosom...',
           hindi: 'जिनका रूप सिन्दूर के समान लाल है, तीन नेत्रों वाली, माणिक्य-मुकुट वाली, चंद्र-शिखर, मुस्कुराते मुख वाली...',
@@ -76,7 +76,7 @@ export const brahmandpuran: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'श्री माता श्री महाराज्ञी श्रीमत् सिंहासनेश्वरी | चिदग्निकुण्डसम्भूता देवकार्यसमुद्यता ||',
+          sanskrit: 'श्री माता श्री महाराज्ञी श्रीमत् सिंहासनेश्वरी । चिदग्निकुण्डसम्भूता देवकार्यसमुद्यता ॥',
           transliteration: 'śrī mātā śrī mahārājñī śrīmat siṃhāsaneśvarī | cidagnikuṇḍasambhūtā devakāryasamudyatā ||',
           translation: 'The holy Mother, the great queen, the sovereign of the jewelled throne, born from the fire of consciousness, ever engaged in the tasks of the gods.',
           hindi: 'श्री माता, श्री महाराज्ञी, रत्नसिंहासन की स्वामिनी; चिदग्निकुण्ड से उत्पन्न, देवकार्य में सदा संलग्न।',
@@ -88,7 +88,7 @@ export const brahmandpuran: Scripture = {
       
         {
           id: 4,
-          sanskrit: 'देवी देवानां देवता देवीनां देवतानाम् | सर्वभूतानां च शक्तिः सर्वभूतानां च धारिणी ||',
+          sanskrit: 'देवी देवानां देवता देवीनां देवतानाम् । सर्वभूतानां च शक्तिः सर्वभूतानां च धारिणी ॥',
           transliteration: 'devī devānāṃ devatā devīnāṃ devatānām | sarvabhūtānāṃ ca śaktiḥ sarvabhūtānāṃ ca dhāriṇī ||',
           translation: 'The Goddess is the deity of the gods, the goddess of goddesses. She is the power of all beings, and the sustainer of all beings.',
           hindi: 'देवी देवताओं की देवता है, देवियों की देवी है। वह सभी प्राणियों की शक्ति है, और सभी प्राणियों की धारिणी है।',
@@ -97,7 +97,7 @@ export const brahmandpuran: Scripture = {
         },
         {
           id: 8,
-          sanskrit: 'यां विन्दते सा वै शक्तिर्या वा विद्यात्मिका परा | या च कर्मात्मिका प्रोक्ता त्रिधा शक्तिः प्रतिष्ठिता ||',
+          sanskrit: 'यां विन्दते सा वै शक्तिर्या वा विद्यात्मिका परा । या च कर्मात्मिका प्रोक्ता त्रिधा शक्तिः प्रतिष्ठिता ॥',
           transliteration: 'yāṃ vindate sā vai śaktiryā vā vidyātmikā parā | yā ca karmātmikā proktā tridhā śaktiḥ pratiṣṭhitā ||',
           translation: 'That which is found is Shakti; that which is supreme knowledge; and that which is declared as action — Shakti is established in these three forms.',
           hindi: 'जो प्राप्त होती है वह शक्ति है, जो परम विद्या है, और जो कर्म-स्वरूपा कही जाती है — शक्ति इन तीन रूपों में प्रतिष्ठित है।',
@@ -113,7 +113,7 @@ export const brahmandpuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'यो वेत्ति कालस्य गतिं स वेत्ति | क्षणं मुहूर्तं च दिनं च रात्रिम् | मासं ऋतुं संवत्सरं च युगम् | स ज्ञानी न मोहस्य वशं प्रयाति ||',
+          sanskrit: 'यो वेत्ति कालस्य गतिं स वेत्ति । क्षणं मुहूर्तं च दिनं च रात्रिम् । मासं ऋतुं संवत्सरं च युगम् । स ज्ञानी न मोहस्य वशं प्रयाति ॥',
           transliteration: 'yo vetti kālasya gatiṃ sa vetti | kṣaṇaṃ muhūrtaṃ ca dinaṃ ca rātrim | māsaṃ ṛtuṃ saṃvatsaraṃ ca yugam | sa jñānī na mohasya vaśaṃ prayāti ||',
           translation: 'One who truly knows the movement of time — the moment, the hour, the day and night, the month, the season, the year, and the cosmic age — that one is a jnani who does not fall under the sway of delusion.',
           hindi: 'जो काल की गति को जानता है — क्षण, मुहूर्त, दिन-रात, मास, ऋतु, वर्ष और युग को — वह ज्ञानी मोह के वश में नहीं जाता।',
@@ -124,7 +124,7 @@ export const brahmandpuran: Scripture = {
         },
         {
           id: 4,
-          sanskrit: 'देवी देवानां देवता देवीनां देवतानाम् | सर्वभूतानां च शक्तिः सर्वभूतानां च धारिणी ||',
+          sanskrit: 'देवी देवानां देवता देवीनां देवतानाम् । सर्वभूतानां च शक्तिः सर्वभूतानां च धारिणी ॥',
           transliteration: 'devī devānāṃ devatā devīnāṃ devatānām | sarvabhūtānāṃ ca śaktiḥ sarvabhūtānāṃ ca dhāriṇī ||',
           translation: 'The Goddess is the deity of the gods, the goddess of goddesses. She is the power of all beings, and the sustainer of all beings.',
           hindi: 'देवी देवताओं की देवता है, देवियों की देवी है। वह सभी प्राणियों की शक्ति है, और सभी प्राणियों की धारिणी है।',
@@ -133,7 +133,7 @@ export const brahmandpuran: Scripture = {
         },
         {
           id: 8,
-          sanskrit: 'यां विन्दते सा वै शक्तिर्या वा विद्यात्मिका परा | या च कर्मात्मिका प्रोक्ता त्रिधा शक्तिः प्रतिष्ठिता ||',
+          sanskrit: 'यां विन्दते सा वै शक्तिर्या वा विद्यात्मिका परा । या च कर्मात्मिका प्रोक्ता त्रिधा शक्तिः प्रतिष्ठिता ॥',
           transliteration: 'yāṃ vindate sā vai śaktiryā vā vidyātmikā parā | yā ca karmātmikā proktā tridhā śaktiḥ pratiṣṭhitā ||',
           translation: 'That which is found is Shakti; that which is supreme knowledge; and that which is declared as action — Shakti is established in these three forms.',
           hindi: 'जो प्राप्त होती है वह शक्ति है, जो परम विद्या है, और जो कर्म-स्वरूपा कही जाती है — शक्ति इन तीन रूपों में प्रतिष्ठित है।',
@@ -145,7 +145,7 @@ export const brahmandpuran: Scripture = {
       
         {
           id: 2,
-          sanskrit: 'देवी देवानां देवता देवीनां देवतानाम् | सर्वभूतानां च शक्तिः सर्वभूतानां च धारिणी ||',
+          sanskrit: 'देवी देवानां देवता देवीनां देवतानाम् । सर्वभूतानां च शक्तिः सर्वभूतानां च धारिणी ॥',
           transliteration: 'devī devānāṃ devatā devīnāṃ devatānām | sarvabhūtānāṃ ca śaktiḥ sarvabhūtānāṃ ca dhāriṇī ||',
           translation: 'The Goddess is the deity of the gods, the goddess of goddesses. She is the power of all beings, and the sustainer of all beings.',
           hindi: 'देवी देवताओं की देवता है, देवियों की देवी है। वह सभी प्राणियों की शक्ति है, और सभी प्राणियों की धारिणी है।',
@@ -154,7 +154,7 @@ export const brahmandpuran: Scripture = {
         },
         {
           id: 3,
-          sanskrit: 'यां विन्दते सा वै शक्तिर्या वा विद्यात्मिका परा | या च कर्मात्मिका प्रोक्ता त्रिधा शक्तिः प्रतिष्ठिता ||',
+          sanskrit: 'यां विन्दते सा वै शक्तिर्या वा विद्यात्मिका परा । या च कर्मात्मिका प्रोक्ता त्रिधा शक्तिः प्रतिष्ठिता ॥',
           transliteration: 'yāṃ vindate sā vai śaktiryā vā vidyātmikā parā | yā ca karmātmikā proktā tridhā śaktiḥ pratiṣṭhitā ||',
           translation: 'That which is found is Shakti; that which is supreme knowledge; and that which is declared as action — Shakti is established in these three forms.',
           hindi: 'जो प्राप्त होती है वह शक्ति है, जो परम विद्या है, और जो कर्म-स्वरूपा कही जाती है — शक्ति इन तीन रूपों में प्रतिष्ठित है।',

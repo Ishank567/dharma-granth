@@ -17,7 +17,7 @@ export const naradapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'नारायणं नमस्कृत्य नरं चैव नरोत्तमम् | देवीं सरस्वतीं चैव ततो जयमुदीरयेत् ||',
+          sanskrit: 'नारायणं नमस्कृत्य नरं चैव नरोत्तमम् । देवीं सरस्वतीं चैव ततो जयमुदीरयेत् ॥',
           transliteration: 'nārāyaṇaṃ namaskṛtya naraṃ caiva narottamam | devīṃ sarasvatīṃ caiva tato jayamudīrayet ||',
           translation: 'Having bowed to Narayana, and to the supreme among men (Nara), and to the Goddess Sarasvati — then let one declare victory.',
           hindi: 'नारायण को नमस्कार करके, नरोत्तम को और देवी सरस्वती को — तब जय बोलना चाहिए।',
@@ -28,7 +28,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 15,
-          sanskrit: 'सर्वदा सर्वभावेन भजनीयो जनार्दनः | भक्त्या परमया चैव प्रेम्णा च परमेण च ||',
+          sanskrit: 'सर्वदा सर्वभावेन भजनीयो जनार्दनः । भक्त्या परमया चैव प्रेम्णा च परमेण च ॥',
           transliteration: 'sarvadā sarvabhāvena bhajanīyo janārdanaḥ | bhaktyā paramayā caiva premṇā ca parameṇa ca ||',
           translation: 'Janardana (Vishnu) should be worshipped always, with all one\'s being — with supreme devotion and with the highest love.',
           hindi: 'जनार्दन का सदा, सर्वभाव से, परम भक्ति से और परम प्रेम से भजन करना चाहिए।',
@@ -40,7 +40,7 @@ export const naradapuran: Scripture = {
       
         {
           id: 2,
-          sanskrit: 'सर्वदा सर्वभावेन भजनीयो जनार्दनः | भक्त्या परमया चैव प्रेम्णा च परमेण च ||',
+          sanskrit: 'सर्वदा सर्वभावेन भजनीयो जनार्दनः । भक्त्या परमया चैव प्रेम्णा च परमेण च ॥',
           transliteration: 'sarvadā sarvabhāvena bhajanīyo janārdanaḥ | bhaktyā paramayā caiva premṇā ca parameṇa ca ||',
           translation: 'Janardana (Vishnu) should be worshipped always, with all one\'s being — with supreme devotion and with the highest love.',
           hindi: 'जनार्दन का सदा, सर्वभाव से, परम भक्ति से और परम प्रेम से भजन करना चाहिए।',
@@ -49,7 +49,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 8,
-          sanskrit: 'सप्त स्वराः समुद्भूताः ब्रह्माण्डस्य नादतः | षड्जं च ऋषभं चैव गान्धारं मध्यमं तथा | पञ्चमं च धैवतं च निषादं सप्तमं विदुः ||',
+          sanskrit: 'सप्त स्वराः समुद्भूताः ब्रह्माण्डस्य नादतः । षड्जं च ऋषभं चैव गान्धारं मध्यमं तथा । पञ्चमं च धैवतं च निषादं सप्तमं विदुः ॥',
           transliteration: 'sapta svarāḥ samudbhūtāḥ brahmāṇḍasya nādataḥ | ṣaḍjaṃ ca ṛṣabhaṃ caiva gāndhāraṃ madhyamaṃ tathā | pañcamaṃ ca dhhaivataṃ ca niṣādaṃ saptamaṃ viduḥ ||',
           translation: 'The seven notes arose from the sound of the cosmos — Sa, Ri, Ga, Ma, Pa, Dha, Ni — these seven are known.',
           hindi: 'सात स्वर ब्रह्माण्ड के नाद से उत्पन्न हुए — षड्ज, ऋषभ, गान्धार, मध्यम, पञ्चम, धैवत, निषाद — ये सात जाने जाते हैं।',
@@ -58,7 +58,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 18,
-          sanskrit: 'स्नानं दानं जपो होमः स्वाध्यायो देवपूजनम् | वैश्वदेवं तथातिथ्यं नित्यकर्मेति कीर्तितम् ||',
+          sanskrit: 'स्नानं दानं जपो होमः स्वाध्यायो देवपूजनम् । वैश्वदेवं तथातिथ्यं नित्यकर्मेति कीर्तितम् ॥',
           transliteration: 'snānaṃ dānaṃ japo homaḥ svādhyāyo devapūjanam | vaiśvadevaṃ tathātithyaṃ nityakarmeti kīrtitam ||',
           translation: 'Bathing, giving, japa, fire-offering, self-study, worship of the deity, the Vaishvadeva (offering to all beings), and hospitality — these are declared the daily duties (nitya-karma).',
           hindi: 'स्नान, दान, जप, होम, स्वाध्याय, देवपूजन, वैश्वदेव और अतिथि-सेवा — ये नित्यकर्म कहे गये हैं।',
@@ -67,7 +67,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 25,
-          sanskrit: 'नामैकं यस्य वाचि स्मरणपथगतं श्रोत्रमूलं गतं वा | शुद्धं वाशुद्धवर्णं विगतमतिभयं तारयत्येव सिन्धुम् ||',
+          sanskrit: 'नामैकं यस्य वाचि स्मरणपथगतं श्रोत्रमूलं गतं वा । शुद्धं वाशुद्धवर्णं विगतमतिभयं तारयत्येव सिन्धुम् ॥',
           transliteration: 'nāmaikaṃ yasya vāci smaraṇapathagatāṃ śrotramūlaṃ gataṃ vā | śuddhaṃ vāśuddhavarṇaṃ vigatamātibhayaṃ tārayatyeva sindhum ||',
           translation: 'The one name — whether spoken by the voice, whether reached by memory, whether it has entered the root of the ear — pure or impure in pronunciation — crossing all fear, it carries one across the ocean.',
           hindi: 'वह एक नाम — चाहे वाणी से बोला जाये, चाहे स्मरण-पथ से प्राप्त हो, चाहे कान की जड़ तक पहुँचे — शुद्ध हो या अशुद्ध उच्चारण — सभी भय को पार करके, वह सागर को पार कराता है।',
@@ -76,7 +76,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 26,
-          sanskrit: 'नारदो भक्तिमार्गस्य प्रवर्तको दिव्यदूतः | यो विष्णुं भजते भक्त्या स प्राप्नोति परं पदम् ||',
+          sanskrit: 'नारदो भक्तिमार्गस्य प्रवर्तको दिव्यदूतः । यो विष्णुं भजते भक्त्या स प्राप्नोति परं पदम् ॥',
           transliteration: 'nārado bhaktimārgasya pravartako divyadūtaḥ | yo viṣṇuṃ bhajate bhaktyā sa prāpnoti paraṃ padam ||',
           translation: 'Narada is the initiator of the path of bhakti, the divine messenger. He who worships Vishnu with devotion attains the supreme state.',
           hindi: 'नारद भक्ति मार्ग के प्रवर्तक हैं, दिव्य दूत हैं। जो विष्णु को भक्ति से भजता है, वह परम पद प्राप्त करता है।',
@@ -85,7 +85,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 27,
-          sanskrit: 'संकीर्तनं विष्णोर्नाम संकीर्तनं नाम तथा | संकीर्तनं नाम स्मरणं संकीर्तनं नाम भक्तिः ||',
+          sanskrit: 'संकीर्तनं विष्णोर्नाम संकीर्तनं नाम तथा । संकीर्तनं नाम स्मरणं संकीर्तनं नाम भक्तिः ॥',
           transliteration: 'saṅkīrtanaṃ viṣṇornāma saṅkīrtanaṃ nāma tathā | saṅkīrtanaṃ nāma smaraṇaṃ saṅkīrtanaṃ nāma bhaktiḥ ||',
           translation: 'Sankirtana of Vishnu\'s name, sankirtana of the name, sankirtana of remembrance, sankirtana of devotion — all are sankirtana.',
           hindi: 'विष्णु के नाम का संकीर्तन, नाम का संकीर्तन, स्मरण का संकीर्तन, भक्ति का संकीर्तन — सब संकीर्तन है।',
@@ -94,7 +94,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 28,
-          sanskrit: 'गायति वादति नृत्यति पूजयति शृणोति च | यो विष्णुं भजते भक्त्या स प्राप्नोति परं पदम् ||',
+          sanskrit: 'गायति वादति नृत्यति पूजयति शृणोति च । यो विष्णुं भजते भक्त्या स प्राप्नोति परं पदम् ॥',
           transliteration: 'gāyati vādati nṛtyati pūjayati śṛṇoti ca | yo viṣṇuṃ bhajate bhaktyā sa prāpnoti paraṃ padam ||',
           translation: 'Singing, speaking, dancing, worshipping, listening — he who worships Vishnu with devotion through these attains the supreme state.',
           hindi: 'गाते, बोलते, नृत्य करते, पूजा करते, सुनते — जो इन सब से भक्ति से विष्णु का भजन करता है, वह परम पद प्राप्त करता है।',
@@ -103,7 +103,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 42,
-          sanskrit: 'भक्त्या मामभिजानाति यावान्यश्चास्मि तत्त्वतः | ततो मां तत्त्वतो ज्ञात्वा विशते तदनन्तरम् ||',
+          sanskrit: 'भक्त्या मामभिजानाति यावान्यश्चास्मि तत्त्वतः । ततो मां तत्त्वतो ज्ञात्वा विशते तदनन्तरम् ॥',
           transliteration: 'bhaktyā māmabhijānāti yāvānyaścāsmi tattvataḥ | tato māṃ tattvato jñātvā viśate tadanantaram ||',
           translation: 'Through bhakti one truly knows Me — what I am and how great I am. Having thus truly known Me, one enters into Me immediately after.',
           hindi: 'भक्ति से मुझे यथार्थ जाना जाता है — जितना मैं हूँ और जैसा मैं हूँ। इस प्रकार मुझे तत्त्वतः जानकर, वह तत्पश्चात् मुझमें प्रवेश करता है।',
@@ -119,7 +119,7 @@ export const naradapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'श्रवणं कीर्तनं विष्णोः स्मरणं पादसेवनम् | अर्चनं वन्दनं दास्यं सख्यमात्मनिवेदनम् ||',
+          sanskrit: 'श्रवणं कीर्तनं विष्णोः स्मरणं पादसेवनम् । अर्चनं वन्दनं दास्यं सख्यमात्मनिवेदनम् ॥',
           transliteration: 'śravaṇaṃ kīrtanaṃ viṣṇoḥ smaraṇaṃ pādasavanam | arcanaṃ vandanaṃ dāsyaṃ sakhyamātmanivedanam ||',
           translation: 'Hearing, chanting, remembering Vishnu, serving his feet, worship, obeisance, servitude, friendship, and complete self-surrender — these nine are the forms of devotion.',
           hindi: 'श्रवण, कीर्तन, विष्णु का स्मरण, पादसेवन, अर्चन, वन्दन, दास्य, सख्य और आत्मनिवेदन — ये नव प्रकार की भक्ति हैं।',
@@ -130,7 +130,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 12,
-          sanskrit: 'यत्र यत्र मनो याति तत्र तत्र समाहितम् | तत्र तत्र परं ब्रह्म तत्र तत्र जनार्दनः ||',
+          sanskrit: 'यत्र यत्र मनो याति तत्र तत्र समाहितम् । तत्र तत्र परं ब्रह्म तत्र तत्र जनार्दनः ॥',
           transliteration: 'yatra yatra mano yāti tatra tatra samāhitam | tatra tatra paraṃ brahma tatra tatra janārdanaḥ ||',
           translation: 'Wherever the mind goes — there is the collected (concentrated one). There is supreme Brahman there. There is Janardana (Vishnu) there.',
           hindi: 'जहाँ-जहाँ मन जाता है — वहाँ-वहाँ वह समाहित (एकाग्र) है। वहाँ-वहाँ परम ब्रह्म है। वहाँ-वहाँ जनार्दन है।',
@@ -142,7 +142,7 @@ export const naradapuran: Scripture = {
       
         {
           id: 2,
-          sanskrit: 'यत्र यत्र मनो याति तत्र तत्र समाहितम् | तत्र तत्र परं ब्रह्म तत्र तत्र जनार्दनः ||',
+          sanskrit: 'यत्र यत्र मनो याति तत्र तत्र समाहितम् । तत्र तत्र परं ब्रह्म तत्र तत्र जनार्दनः ॥',
           transliteration: 'yatra yatra mano yāti tatra tatra samāhitam | tatra tatra paraṃ brahma tatra tatra janārdanaḥ ||',
           translation: 'Wherever the mind goes — there is the collected (concentrated one). There is supreme Brahman there. There is Janardana (Vishnu) there.',
           hindi: 'जहाँ-जहाँ मन जाता है — वहाँ-वहाँ वह समाहित (एकाग्र) है। वहाँ-वहाँ परम ब्रह्म है। वहाँ-वहाँ जनार्दन है।',
@@ -151,7 +151,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'नारदो भक्तिमार्गस्य प्रवर्तको दिव्यदूतः | संकीर्तनं विष्णोर्नाम गायति वादति नृत्यति ||',
+          sanskrit: 'नारदो भक्तिमार्गस्य प्रवर्तको दिव्यदूतः । संकीर्तनं विष्णोर्नाम गायति वादति नृत्यति ॥',
           transliteration: 'nārado bhaktimārgasya pravartako divyadūtaḥ | saṅkīrtanaṃ viṣṇornāma gāyati vādati nṛtyati ||',
           translation: 'Narada is the initiator of the path of bhakti, the divine messenger. He sings, speaks, and dances the sankirtana of Vishnu\'s name.',
           hindi: 'नारद भक्ति मार्ग के प्रवर्तक हैं, दिव्य दूत हैं। वे विष्णु के नाम का संकीर्तन गाते, बोलते और नृत्य करते हैं।',
@@ -160,7 +160,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 8,
-          sanskrit: 'सप्त स्वराः समुद्भूताः ब्रह्माण्डस्य नादतः | षड्जं च ऋषभं चैव गान्धारं मध्यमं तथा | पञ्चमं च धैवतं च निषादं सप्तमं विदुः ||',
+          sanskrit: 'सप्त स्वराः समुद्भूताः ब्रह्माण्डस्य नादतः । षड्जं च ऋषभं चैव गान्धारं मध्यमं तथा । पञ्चमं च धैवतं च निषादं सप्तमं विदुः ॥',
           transliteration: 'sapta svarāḥ samudbhūtāḥ brahmāṇḍasya nādataḥ | ṣaḍjaṃ ca ṛṣabhaṃ caiva gāndhāraṃ madhyamaṃ tathā | pañcamaṃ ca dhhaivataṃ ca niṣādaṃ saptamaṃ viduḥ ||',
           translation: 'The seven notes arose from the sound of the cosmos — Sa, Ri, Ga, Ma, Pa, Dha, Ni — these seven are known.',
           hindi: 'सात स्वर ब्रह्माण्ड के नाद से उत्पन्न हुए — षड्ज, ऋषभ, गान्धार, मध्यम, पञ्चम, धैवत, निषाद — ये सात जाने जाते हैं।',
@@ -169,7 +169,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 15,
-          sanskrit: 'सर्वदा सर्वभावेन भजनीयो जनार्दनः | भक्त्या परमया चैव प्रेम्णा च परमेण च ||',
+          sanskrit: 'सर्वदा सर्वभावेन भजनीयो जनार्दनः । भक्त्या परमया चैव प्रेम्णा च परमेण च ॥',
           transliteration: 'sarvadā sarvabhāvena bhajanīyo janārdanaḥ | bhaktyā paramayā caiva premṇā ca parameṇa ca ||',
           translation: 'Janardana (Vishnu) should be worshipped always, with all one\'s being — with supreme devotion and with the highest love.',
           hindi: 'जनार्दन का सदा, सर्वभाव से, परम भक्ति से और परम प्रेम से भजन करना चाहिए।',
@@ -178,7 +178,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 18,
-          sanskrit: 'स्नानं दानं जपो होमः स्वाध्यायो देवपूजनम् | वैश्वदेवं तथातिथ्यं नित्यकर्मेति कीर्तितम् ||',
+          sanskrit: 'स्नानं दानं जपो होमः स्वाध्यायो देवपूजनम् । वैश्वदेवं तथातिथ्यं नित्यकर्मेति कीर्तितम् ॥',
           transliteration: 'snānaṃ dānaṃ japo homaḥ svādhyāyo devapūjanam | vaiśvadevaṃ tathātithyaṃ nityakarmeti kīrtitam ||',
           translation: 'Bathing, giving, japa, fire-offering, self-study, worship of the deity, the Vaishvadeva (offering to all beings), and hospitality — these are declared the daily duties (nitya-karma).',
           hindi: 'स्नान, दान, जप, होम, स्वाध्याय, देवपूजन, वैश्वदेव और अतिथि-सेवा — ये नित्यकर्म कहे गये हैं।',
@@ -187,7 +187,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 25,
-          sanskrit: 'नामैकं यस्य वाचि स्मरणपथगतं श्रोत्रमूलं गतं वा | शुद्धं वाशुद्धवर्णं विगतमतिभयं तारयत्येव सिन्धुम् ||',
+          sanskrit: 'नामैकं यस्य वाचि स्मरणपथगतं श्रोत्रमूलं गतं वा । शुद्धं वाशुद्धवर्णं विगतमतिभयं तारयत्येव सिन्धुम् ॥',
           transliteration: 'nāmaikaṃ yasya vāci smaraṇapathagatāṃ śrotramūlaṃ gataṃ vā | śuddhaṃ vāśuddhavarṇaṃ vigatamātibhayaṃ tārayatyeva sindhum ||',
           translation: 'The one name — whether spoken by the voice, whether reached by memory, whether it has entered the root of the ear — pure or impure in pronunciation — crossing all fear, it carries one across the ocean.',
           hindi: 'वह एक नाम — चाहे वाणी से बोला जाये, चाहे स्मरण-पथ से प्राप्त हो, चाहे कान की जड़ तक पहुँचे — शुद्ध हो या अशुद्ध उच्चारण — सभी भय को पार करके, वह सागर को पार कराता है।',
@@ -196,7 +196,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 26,
-          sanskrit: 'नारदो भक्तिमार्गस्य प्रवर्तको दिव्यदूतः | यो विष्णुं भजते भक्त्या स प्राप्नोति परं पदम् ||',
+          sanskrit: 'नारदो भक्तिमार्गस्य प्रवर्तको दिव्यदूतः । यो विष्णुं भजते भक्त्या स प्राप्नोति परं पदम् ॥',
           transliteration: 'nārado bhaktimārgasya pravartako divyadūtaḥ | yo viṣṇuṃ bhajate bhaktyā sa prāpnoti paraṃ padam ||',
           translation: 'Narada is the initiator of the path of bhakti, the divine messenger. He who worships Vishnu with devotion attains the supreme state.',
           hindi: 'नारद भक्ति मार्ग के प्रवर्तक हैं, दिव्य दूत हैं। जो विष्णु को भक्ति से भजता है, वह परम पद प्राप्त करता है।',
@@ -205,7 +205,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 27,
-          sanskrit: 'संकीर्तनं विष्णोर्नाम संकीर्तनं नाम तथा | संकीर्तनं नाम स्मरणं संकीर्तनं नाम भक्तिः ||',
+          sanskrit: 'संकीर्तनं विष्णोर्नाम संकीर्तनं नाम तथा । संकीर्तनं नाम स्मरणं संकीर्तनं नाम भक्तिः ॥',
           transliteration: 'saṅkīrtanaṃ viṣṇornāma saṅkīrtanaṃ nāma tathā | saṅkīrtanaṃ nāma smaraṇaṃ saṅkīrtanaṃ nāma bhaktiḥ ||',
           translation: 'Sankirtana of Vishnu\'s name, sankirtana of the name, sankirtana of remembrance, sankirtana of devotion — all are sankirtana.',
           hindi: 'विष्णु के नाम का संकीर्तन, नाम का संकीर्तन, स्मरण का संकीर्तन, भक्ति का संकीर्तन — सब संकीर्तन है।',
@@ -214,7 +214,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 28,
-          sanskrit: 'गायति वादति नृत्यति पूजयति शृणोति च | यो विष्णुं भजते भक्त्या स प्राप्नोति परं पदम् ||',
+          sanskrit: 'गायति वादति नृत्यति पूजयति शृणोति च । यो विष्णुं भजते भक्त्या स प्राप्नोति परं पदम् ॥',
           transliteration: 'gāyati vādati nṛtyati pūjayati śṛṇoti ca | yo viṣṇuṃ bhajate bhaktyā sa prāpnoti paraṃ padam ||',
           translation: 'Singing, speaking, dancing, worshipping, listening — he who worships Vishnu with devotion through these attains the supreme state.',
           hindi: 'गाते, बोलते, नृत्य करते, पूजा करते, सुनते — जो इन सब से भक्ति से विष्णु का भजन करता है, वह परम पद प्राप्त करता है।',
@@ -223,7 +223,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 42,
-          sanskrit: 'भक्त्या मामभिजानाति यावान्यश्चास्मि तत्त्वतः | ततो मां तत्त्वतो ज्ञात्वा विशते तदनन्तरम् ||',
+          sanskrit: 'भक्त्या मामभिजानाति यावान्यश्चास्मि तत्त्वतः । ततो मां तत्त्वतो ज्ञात्वा विशते तदनन्तरम् ॥',
           transliteration: 'bhaktyā māmabhijānāti yāvānyaścāsmi tattvataḥ | tato māṃ tattvato jñātvā viśate tadanantaram ||',
           translation: 'Through bhakti one truly knows Me — what I am and how great I am. Having thus truly known Me, one enters into Me immediately after.',
           hindi: 'भक्ति से मुझे यथार्थ जाना जाता है — जितना मैं हूँ और जैसा मैं हूँ। इस प्रकार मुझे तत्त्वतः जानकर, वह तत्पश्चात् मुझमें प्रवेश करता है।',
@@ -239,7 +239,7 @@ export const naradapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'हरेर्नाम हरेर्नाम हरेर्नामैव केवलम् | कलौ नास्त्येव नास्त्येव नास्त्येव गतिरन्यथा ||',
+          sanskrit: 'हरेर्नाम हरेर्नाम हरेर्नामैव केवलम् । कलौ नास्त्येव नास्त्येव नास्त्येव गतिरन्यथा ॥',
           transliteration: 'harernāma harernāma harernāmaiva kevalam | kalau nāstyeva nāstyeva nāstyeva gatiranyathā ||',
           translation: 'The name of Hari, the name of Hari, the name of Hari alone — in Kali Yuga there is no other way, no other way, no other way.',
           hindi: 'हरि का नाम, हरि का नाम, हरि का नाम ही केवल — कलियुग में कोई अन्य मार्ग नहीं है, नहीं है, नहीं है।',
@@ -250,7 +250,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 25,
-          sanskrit: 'नामैकं यस्य वाचि स्मरणपथगतं श्रोत्रमूलं गतं वा | शुद्धं वाशुद्धवर्णं विगतमतिभयं तारयत्येव सिन्धुम् ||',
+          sanskrit: 'नामैकं यस्य वाचि स्मरणपथगतं श्रोत्रमूलं गतं वा । शुद्धं वाशुद्धवर्णं विगतमतिभयं तारयत्येव सिन्धुम् ॥',
           transliteration: 'nāmaikaṃ yasya vāci smaraṇapathagatāṃ śrotramūlaṃ gataṃ vā | śuddhaṃ vāśuddhavarṇaṃ vigatamātibhayaṃ tārayatyeva sindhum ||',
           translation: 'The one name — whether spoken by the voice, whether reached by memory, whether it has entered the root of the ear — pure or impure in pronunciation — crossing all fear, it carries one across the ocean.',
           hindi: 'वह एक नाम — चाहे वाणी से बोला जाये, चाहे स्मरण-पथ से प्राप्त हो, चाहे कान की जड़ तक पहुँचे — शुद्ध हो या अशुद्ध उच्चारण — सभी भय को पार करके, वह सागर को पार कराता है।',
@@ -262,7 +262,7 @@ export const naradapuran: Scripture = {
       
         {
           id: 2,
-          sanskrit: 'नामैकं यस्य वाचि स्मरणपथगतं श्रोत्रमूलं गतं वा | शुद्धं वाशुद्धवर्णं विगतमतिभयं तारयत्येव सिन्धुम् ||',
+          sanskrit: 'नामैकं यस्य वाचि स्मरणपथगतं श्रोत्रमूलं गतं वा । शुद्धं वाशुद्धवर्णं विगतमतिभयं तारयत्येव सिन्धुम् ॥',
           transliteration: 'nāmaikaṃ yasya vāci smaraṇapathagatāṃ śrotramūlaṃ gataṃ vā | śuddhaṃ vāśuddhavarṇaṃ vigatamātibhayaṃ tārayatyeva sindhum ||',
           translation: 'The one name — whether spoken by the voice, whether reached by memory, whether it has entered the root of the ear — pure or impure in pronunciation — crossing all fear, it carries one across the ocean.',
           hindi: 'वह एक नाम — चाहे वाणी से बोला जाये, चाहे स्मरण-पथ से प्राप्त हो, चाहे कान की जड़ तक पहुँचे — शुद्ध हो या अशुद्ध उच्चारण — सभी भय को पार करके, वह सागर को पार कराता है।',
@@ -271,7 +271,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'नारदो भक्तिमार्गस्य प्रवर्तको दिव्यदूतः | संकीर्तनं विष्णोर्नाम गायति वादति नृत्यति ||',
+          sanskrit: 'नारदो भक्तिमार्गस्य प्रवर्तको दिव्यदूतः । संकीर्तनं विष्णोर्नाम गायति वादति नृत्यति ॥',
           transliteration: 'nārado bhaktimārgasya pravartako divyadūtaḥ | saṅkīrtanaṃ viṣṇornāma gāyati vādati nṛtyati ||',
           translation: 'Narada is the initiator of the path of bhakti, the divine messenger. He sings, speaks, and dances the sankirtana of Vishnu\'s name.',
           hindi: 'नारद भक्ति मार्ग के प्रवर्तक हैं, दिव्य दूत हैं। वे विष्णु के नाम का संकीर्तन गाते, बोलते और नृत्य करते हैं।',
@@ -280,7 +280,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 8,
-          sanskrit: 'सप्त स्वराः समुद्भूताः ब्रह्माण्डस्य नादतः | षड्जं च ऋषभं चैव गान्धारं मध्यमं तथा | पञ्चमं च धैवतं च निषादं सप्तमं विदुः ||',
+          sanskrit: 'सप्त स्वराः समुद्भूताः ब्रह्माण्डस्य नादतः । षड्जं च ऋषभं चैव गान्धारं मध्यमं तथा । पञ्चमं च धैवतं च निषादं सप्तमं विदुः ॥',
           transliteration: 'sapta svarāḥ samudbhūtāḥ brahmāṇḍasya nādataḥ | ṣaḍjaṃ ca ṛṣabhaṃ caiva gāndhāraṃ madhyamaṃ tathā | pañcamaṃ ca dhhaivataṃ ca niṣādaṃ saptamaṃ viduḥ ||',
           translation: 'The seven notes arose from the sound of the cosmos — Sa, Ri, Ga, Ma, Pa, Dha, Ni — these seven are known.',
           hindi: 'सात स्वर ब्रह्माण्ड के नाद से उत्पन्न हुए — षड्ज, ऋषभ, गान्धार, मध्यम, पञ्चम, धैवत, निषाद — ये सात जाने जाते हैं।',
@@ -289,7 +289,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 12,
-          sanskrit: 'यत्र यत्र मनो याति तत्र तत्र समाहितम् | तत्र तत्र परं ब्रह्म तत्र तत्र जनार्दनः ||',
+          sanskrit: 'यत्र यत्र मनो याति तत्र तत्र समाहितम् । तत्र तत्र परं ब्रह्म तत्र तत्र जनार्दनः ॥',
           transliteration: 'yatra yatra mano yāti tatra tatra samāhitam | tatra tatra paraṃ brahma tatra tatra janārdanaḥ ||',
           translation: 'Wherever the mind goes — there is the collected (concentrated one). There is supreme Brahman there. There is Janardana (Vishnu) there.',
           hindi: 'जहाँ-जहाँ मन जाता है — वहाँ-वहाँ वह समाहित (एकाग्र) है। वहाँ-वहाँ परम ब्रह्म है। वहाँ-वहाँ जनार्दन है।',
@@ -298,7 +298,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 15,
-          sanskrit: 'सर्वदा सर्वभावेन भजनीयो जनार्दनः | भक्त्या परमया चैव प्रेम्णा च परमेण च ||',
+          sanskrit: 'सर्वदा सर्वभावेन भजनीयो जनार्दनः । भक्त्या परमया चैव प्रेम्णा च परमेण च ॥',
           transliteration: 'sarvadā sarvabhāvena bhajanīyo janārdanaḥ | bhaktyā paramayā caiva premṇā ca parameṇa ca ||',
           translation: 'Janardana (Vishnu) should be worshipped always, with all one\'s being — with supreme devotion and with the highest love.',
           hindi: 'जनार्दन का सदा, सर्वभाव से, परम भक्ति से और परम प्रेम से भजन करना चाहिए।',
@@ -307,7 +307,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 18,
-          sanskrit: 'स्नानं दानं जपो होमः स्वाध्यायो देवपूजनम् | वैश्वदेवं तथातिथ्यं नित्यकर्मेति कीर्तितम् ||',
+          sanskrit: 'स्नानं दानं जपो होमः स्वाध्यायो देवपूजनम् । वैश्वदेवं तथातिथ्यं नित्यकर्मेति कीर्तितम् ॥',
           transliteration: 'snānaṃ dānaṃ japo homaḥ svādhyāyo devapūjanam | vaiśvadevaṃ tathātithyaṃ nityakarmeti kīrtitam ||',
           translation: 'Bathing, giving, japa, fire-offering, self-study, worship of the deity, the Vaishvadeva (offering to all beings), and hospitality — these are declared the daily duties (nitya-karma).',
           hindi: 'स्नान, दान, जप, होम, स्वाध्याय, देवपूजन, वैश्वदेव और अतिथि-सेवा — ये नित्यकर्म कहे गये हैं।',
@@ -316,7 +316,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 26,
-          sanskrit: 'नारदो भक्तिमार्गस्य प्रवर्तको दिव्यदूतः | यो विष्णुं भजते भक्त्या स प्राप्नोति परं पदम् ||',
+          sanskrit: 'नारदो भक्तिमार्गस्य प्रवर्तको दिव्यदूतः । यो विष्णुं भजते भक्त्या स प्राप्नोति परं पदम् ॥',
           transliteration: 'nārado bhaktimārgasya pravartako divyadūtaḥ | yo viṣṇuṃ bhajate bhaktyā sa prāpnoti paraṃ padam ||',
           translation: 'Narada is the initiator of the path of bhakti, the divine messenger. He who worships Vishnu with devotion attains the supreme state.',
           hindi: 'नारद भक्ति मार्ग के प्रवर्तक हैं, दिव्य दूत हैं। जो विष्णु को भक्ति से भजता है, वह परम पद प्राप्त करता है।',
@@ -325,7 +325,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 27,
-          sanskrit: 'संकीर्तनं विष्णोर्नाम संकीर्तनं नाम तथा | संकीर्तनं नाम स्मरणं संकीर्तनं नाम भक्तिः ||',
+          sanskrit: 'संकीर्तनं विष्णोर्नाम संकीर्तनं नाम तथा । संकीर्तनं नाम स्मरणं संकीर्तनं नाम भक्तिः ॥',
           transliteration: 'saṅkīrtanaṃ viṣṇornāma saṅkīrtanaṃ nāma tathā | saṅkīrtanaṃ nāma smaraṇaṃ saṅkīrtanaṃ nāma bhaktiḥ ||',
           translation: 'Sankirtana of Vishnu\'s name, sankirtana of the name, sankirtana of remembrance, sankirtana of devotion — all are sankirtana.',
           hindi: 'विष्णु के नाम का संकीर्तन, नाम का संकीर्तन, स्मरण का संकीर्तन, भक्ति का संकीर्तन — सब संकीर्तन है।',
@@ -334,7 +334,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 28,
-          sanskrit: 'गायति वादति नृत्यति पूजयति शृणोति च | यो विष्णुं भजते भक्त्या स प्राप्नोति परं पदम् ||',
+          sanskrit: 'गायति वादति नृत्यति पूजयति शृणोति च । यो विष्णुं भजते भक्त्या स प्राप्नोति परं पदम् ॥',
           transliteration: 'gāyati vādati nṛtyati pūjayati śṛṇoti ca | yo viṣṇuṃ bhajate bhaktyā sa prāpnoti paraṃ padam ||',
           translation: 'Singing, speaking, dancing, worshipping, listening — he who worships Vishnu with devotion through these attains the supreme state.',
           hindi: 'गाते, बोलते, नृत्य करते, पूजा करते, सुनते — जो इन सब से भक्ति से विष्णु का भजन करता है, वह परम पद प्राप्त करता है।',
@@ -343,7 +343,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 42,
-          sanskrit: 'भक्त्या मामभिजानाति यावान्यश्चास्मि तत्त्वतः | ततो मां तत्त्वतो ज्ञात्वा विशते तदनन्तरम् ||',
+          sanskrit: 'भक्त्या मामभिजानाति यावान्यश्चास्मि तत्त्वतः । ततो मां तत्त्वतो ज्ञात्वा विशते तदनन्तरम् ॥',
           transliteration: 'bhaktyā māmabhijānāti yāvānyaścāsmi tattvataḥ | tato māṃ tattvato jñātvā viśate tadanantaram ||',
           translation: 'Through bhakti one truly knows Me — what I am and how great I am. Having thus truly known Me, one enters into Me immediately after.',
           hindi: 'भक्ति से मुझे यथार्थ जाना जाता है — जितना मैं हूँ और जैसा मैं हूँ। इस प्रकार मुझे तत्त्वतः जानकर, वह तत्पश्चात् मुझमें प्रवेश करता है।',
@@ -359,7 +359,7 @@ export const naradapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'संगीतज्ञानमादाय पठित्वा सर्वशास्त्रतः | ब्रह्मज्ञानं समाप्नोति नात्र कार्या विचारणा ||',
+          sanskrit: 'संगीतज्ञानमादाय पठित्वा सर्वशास्त्रतः । ब्रह्मज्ञानं समाप्नोति नात्र कार्या विचारणा ॥',
           transliteration: 'saṃgītajñānamādāya paṭhitvā sarvaśāstrata | brahmajñānaṃ samāpnoti nātra kāryā vicāraṇā ||',
           translation: 'Having obtained the knowledge of music, having studied all the shastras — one attains the knowledge of Brahman. No deliberation need be made about this.',
           hindi: 'संगीत का ज्ञान प्राप्त करके, सभी शास्त्रों का अध्ययन करके — ब्रह्मज्ञान की प्राप्ति होती है। इसमें कोई सन्देह नहीं।',
@@ -370,7 +370,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 8,
-          sanskrit: 'सप्त स्वराः समुद्भूताः ब्रह्माण्डस्य नादतः | षड्जं च ऋषभं चैव गान्धारं मध्यमं तथा | पञ्चमं च धैवतं च निषादं सप्तमं विदुः ||',
+          sanskrit: 'सप्त स्वराः समुद्भूताः ब्रह्माण्डस्य नादतः । षड्जं च ऋषभं चैव गान्धारं मध्यमं तथा । पञ्चमं च धैवतं च निषादं सप्तमं विदुः ॥',
           transliteration: 'sapta svarāḥ samudbhūtāḥ brahmāṇḍasya nādataḥ | ṣaḍjaṃ ca ṛṣabhaṃ caiva gāndhāraṃ madhyamaṃ tathā | pañcamaṃ ca dhhaivataṃ ca niṣādaṃ saptamaṃ viduḥ ||',
           translation: 'The seven notes arose from the sound of the cosmos — Sa, Ri, Ga, Ma, Pa, Dha, Ni — these seven are known.',
           hindi: 'सात स्वर ब्रह्माण्ड के नाद से उत्पन्न हुए — षड्ज, ऋषभ, गान्धार, मध्यम, पञ्चम, धैवत, निषाद — ये सात जाने जाते हैं।',
@@ -382,7 +382,7 @@ export const naradapuran: Scripture = {
       
         {
           id: 2,
-          sanskrit: 'सप्त स्वराः समुद्भूताः ब्रह्माण्डस्य नादतः | षड्जं च ऋषभं चैव गान्धारं मध्यमं तथा | पञ्चमं च धैवतं च निषादं सप्तमं विदुः ||',
+          sanskrit: 'सप्त स्वराः समुद्भूताः ब्रह्माण्डस्य नादतः । षड्जं च ऋषभं चैव गान्धारं मध्यमं तथा । पञ्चमं च धैवतं च निषादं सप्तमं विदुः ॥',
           transliteration: 'sapta svarāḥ samudbhūtāḥ brahmāṇḍasya nādataḥ | ṣaḍjaṃ ca ṛṣabhaṃ caiva gāndhāraṃ madhyamaṃ tathā | pañcamaṃ ca dhhaivataṃ ca niṣādaṃ saptamaṃ viduḥ ||',
           translation: 'The seven notes arose from the sound of the cosmos — Sa, Ri, Ga, Ma, Pa, Dha, Ni — these seven are known.',
           hindi: 'सात स्वर ब्रह्माण्ड के नाद से उत्पन्न हुए — षड्ज, ऋषभ, गान्धार, मध्यम, पञ्चम, धैवत, निषाद — ये सात जाने जाते हैं।',
@@ -391,7 +391,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'नारदो भक्तिमार्गस्य प्रवर्तको दिव्यदूतः | संकीर्तनं विष्णोर्नाम गायति वादति नृत्यति ||',
+          sanskrit: 'नारदो भक्तिमार्गस्य प्रवर्तको दिव्यदूतः । संकीर्तनं विष्णोर्नाम गायति वादति नृत्यति ॥',
           transliteration: 'nārado bhaktimārgasya pravartako divyadūtaḥ | saṅkīrtanaṃ viṣṇornāma gāyati vādati nṛtyati ||',
           translation: 'Narada is the initiator of the path of bhakti, the divine messenger. He sings, speaks, and dances the sankirtana of Vishnu\'s name.',
           hindi: 'नारद भक्ति मार्ग के प्रवर्तक हैं, दिव्य दूत हैं। वे विष्णु के नाम का संकीर्तन गाते, बोलते और नृत्य करते हैं।',
@@ -400,7 +400,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 12,
-          sanskrit: 'यत्र यत्र मनो याति तत्र तत्र समाहितम् | तत्र तत्र परं ब्रह्म तत्र तत्र जनार्दनः ||',
+          sanskrit: 'यत्र यत्र मनो याति तत्र तत्र समाहितम् । तत्र तत्र परं ब्रह्म तत्र तत्र जनार्दनः ॥',
           transliteration: 'yatra yatra mano yāti tatra tatra samāhitam | tatra tatra paraṃ brahma tatra tatra janārdanaḥ ||',
           translation: 'Wherever the mind goes — there is the collected (concentrated one). There is supreme Brahman there. There is Janardana (Vishnu) there.',
           hindi: 'जहाँ-जहाँ मन जाता है — वहाँ-वहाँ वह समाहित (एकाग्र) है। वहाँ-वहाँ परम ब्रह्म है। वहाँ-वहाँ जनार्दन है।',
@@ -409,7 +409,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 15,
-          sanskrit: 'सर्वदा सर्वभावेन भजनीयो जनार्दनः | भक्त्या परमया चैव प्रेम्णा च परमेण च ||',
+          sanskrit: 'सर्वदा सर्वभावेन भजनीयो जनार्दनः । भक्त्या परमया चैव प्रेम्णा च परमेण च ॥',
           transliteration: 'sarvadā sarvabhāvena bhajanīyo janārdanaḥ | bhaktyā paramayā caiva premṇā ca parameṇa ca ||',
           translation: 'Janardana (Vishnu) should be worshipped always, with all one\'s being — with supreme devotion and with the highest love.',
           hindi: 'जनार्दन का सदा, सर्वभाव से, परम भक्ति से और परम प्रेम से भजन करना चाहिए।',
@@ -418,7 +418,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 18,
-          sanskrit: 'स्नानं दानं जपो होमः स्वाध्यायो देवपूजनम् | वैश्वदेवं तथातिथ्यं नित्यकर्मेति कीर्तितम् ||',
+          sanskrit: 'स्नानं दानं जपो होमः स्वाध्यायो देवपूजनम् । वैश्वदेवं तथातिथ्यं नित्यकर्मेति कीर्तितम् ॥',
           transliteration: 'snānaṃ dānaṃ japo homaḥ svādhyāyo devapūjanam | vaiśvadevaṃ tathātithyaṃ nityakarmeti kīrtitam ||',
           translation: 'Bathing, giving, japa, fire-offering, self-study, worship of the deity, the Vaishvadeva (offering to all beings), and hospitality — these are declared the daily duties (nitya-karma).',
           hindi: 'स्नान, दान, जप, होम, स्वाध्याय, देवपूजन, वैश्वदेव और अतिथि-सेवा — ये नित्यकर्म कहे गये हैं।',
@@ -427,7 +427,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 25,
-          sanskrit: 'नामैकं यस्य वाचि स्मरणपथगतं श्रोत्रमूलं गतं वा | शुद्धं वाशुद्धवर्णं विगतमतिभयं तारयत्येव सिन्धुम् ||',
+          sanskrit: 'नामैकं यस्य वाचि स्मरणपथगतं श्रोत्रमूलं गतं वा । शुद्धं वाशुद्धवर्णं विगतमतिभयं तारयत्येव सिन्धुम् ॥',
           transliteration: 'nāmaikaṃ yasya vāci smaraṇapathagatāṃ śrotramūlaṃ gataṃ vā | śuddhaṃ vāśuddhavarṇaṃ vigatamātibhayaṃ tārayatyeva sindhum ||',
           translation: 'The one name — whether spoken by the voice, whether reached by memory, whether it has entered the root of the ear — pure or impure in pronunciation — crossing all fear, it carries one across the ocean.',
           hindi: 'वह एक नाम — चाहे वाणी से बोला जाये, चाहे स्मरण-पथ से प्राप्त हो, चाहे कान की जड़ तक पहुँचे — शुद्ध हो या अशुद्ध उच्चारण — सभी भय को पार करके, वह सागर को पार कराता है।',
@@ -436,7 +436,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 26,
-          sanskrit: 'नारदो भक्तिमार्गस्य प्रवर्तको दिव्यदूतः | यो विष्णुं भजते भक्त्या स प्राप्नोति परं पदम् ||',
+          sanskrit: 'नारदो भक्तिमार्गस्य प्रवर्तको दिव्यदूतः । यो विष्णुं भजते भक्त्या स प्राप्नोति परं पदम् ॥',
           transliteration: 'nārado bhaktimārgasya pravartako divyadūtaḥ | yo viṣṇuṃ bhajate bhaktyā sa prāpnoti paraṃ padam ||',
           translation: 'Narada is the initiator of the path of bhakti, the divine messenger. He who worships Vishnu with devotion attains the supreme state.',
           hindi: 'नारद भक्ति मार्ग के प्रवर्तक हैं, दिव्य दूत हैं। जो विष्णु को भक्ति से भजता है, वह परम पद प्राप्त करता है।',
@@ -445,7 +445,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 27,
-          sanskrit: 'संकीर्तनं विष्णोर्नाम संकीर्तनं नाम तथा | संकीर्तनं नाम स्मरणं संकीर्तनं नाम भक्तिः ||',
+          sanskrit: 'संकीर्तनं विष्णोर्नाम संकीर्तनं नाम तथा । संकीर्तनं नाम स्मरणं संकीर्तनं नाम भक्तिः ॥',
           transliteration: 'saṅkīrtanaṃ viṣṇornāma saṅkīrtanaṃ nāma tathā | saṅkīrtanaṃ nāma smaraṇaṃ saṅkīrtanaṃ nāma bhaktiḥ ||',
           translation: 'Sankirtana of Vishnu\'s name, sankirtana of the name, sankirtana of remembrance, sankirtana of devotion — all are sankirtana.',
           hindi: 'विष्णु के नाम का संकीर्तन, नाम का संकीर्तन, स्मरण का संकीर्तन, भक्ति का संकीर्तन — सब संकीर्तन है।',
@@ -454,7 +454,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 28,
-          sanskrit: 'गायति वादति नृत्यति पूजयति शृणोति च | यो विष्णुं भजते भक्त्या स प्राप्नोति परं पदम् ||',
+          sanskrit: 'गायति वादति नृत्यति पूजयति शृणोति च । यो विष्णुं भजते भक्त्या स प्राप्नोति परं पदम् ॥',
           transliteration: 'gāyati vādati nṛtyati pūjayati śṛṇoti ca | yo viṣṇuṃ bhajate bhaktyā sa prāpnoti paraṃ padam ||',
           translation: 'Singing, speaking, dancing, worshipping, listening — he who worships Vishnu with devotion through these attains the supreme state.',
           hindi: 'गाते, बोलते, नृत्य करते, पूजा करते, सुनते — जो इन सब से भक्ति से विष्णु का भजन करता है, वह परम पद प्राप्त करता है।',
@@ -463,7 +463,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 42,
-          sanskrit: 'भक्त्या मामभिजानाति यावान्यश्चास्मि तत्त्वतः | ततो मां तत्त्वतो ज्ञात्वा विशते तदनन्तरम् ||',
+          sanskrit: 'भक्त्या मामभिजानाति यावान्यश्चास्मि तत्त्वतः । ततो मां तत्त्वतो ज्ञात्वा विशते तदनन्तरम् ॥',
           transliteration: 'bhaktyā māmabhijānāti yāvānyaścāsmi tattvataḥ | tato māṃ tattvato jñātvā viśate tadanantaram ||',
           translation: 'Through bhakti one truly knows Me — what I am and how great I am. Having thus truly known Me, one enters into Me immediately after.',
           hindi: 'भक्ति से मुझे यथार्थ जाना जाता है — जितना मैं हूँ और जैसा मैं हूँ। इस प्रकार मुझे तत्त्वतः जानकर, वह तत्पश्चात् मुझमें प्रवेश करता है।',
@@ -479,7 +479,7 @@ export const naradapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'परो व्यूहश्च विभवो ह्यन्तर्यामी तथार्चनम् | पञ्चधा वर्तते विष्णुः भक्तानुग्रहकारणात् ||',
+          sanskrit: 'परो व्यूहश्च विभवो ह्यन्तर्यामी तथार्चनम् । पञ्चधा वर्तते विष्णुः भक्तानुग्रहकारणात् ॥',
           transliteration: 'paro vyūhaśca vibhavo hyantaryāmī tathārchanam | pañcadhā vartate viṣṇuḥ bhaktānugrahakāraṇāt ||',
           translation: 'Para, Vyuha, Vibhava, Antaryamin, and Archa — Vishnu exists in five forms, for the purpose of granting grace to the devotees.',
           hindi: 'पर, व्यूह, विभव, अन्तर्यामी और अर्च — विष्णु पाँच रूपों में स्थित हैं, भक्तों पर अनुग्रह करने के लिए।',
@@ -490,7 +490,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 18,
-          sanskrit: 'स्नानं दानं जपो होमः स्वाध्यायो देवपूजनम् | वैश्वदेवं तथातिथ्यं नित्यकर्मेति कीर्तितम् ||',
+          sanskrit: 'स्नानं दानं जपो होमः स्वाध्यायो देवपूजनम् । वैश्वदेवं तथातिथ्यं नित्यकर्मेति कीर्तितम् ॥',
           transliteration: 'snānaṃ dānaṃ japo homaḥ svādhyāyo devapūjanam | vaiśvadevaṃ tathātithyaṃ nityakarmeti kīrtitam ||',
           translation: 'Bathing, giving, japa, fire-offering, self-study, worship of the deity, the Vaishvadeva (offering to all beings), and hospitality — these are declared the daily duties (nitya-karma).',
           hindi: 'स्नान, दान, जप, होम, स्वाध्याय, देवपूजन, वैश्वदेव और अतिथि-सेवा — ये नित्यकर्म कहे गये हैं।',
@@ -502,7 +502,7 @@ export const naradapuran: Scripture = {
       
         {
           id: 2,
-          sanskrit: 'स्नानं दानं जपो होमः स्वाध्यायो देवपूजनम् | वैश्वदेवं तथातिथ्यं नित्यकर्मेति कीर्तितम् ||',
+          sanskrit: 'स्नानं दानं जपो होमः स्वाध्यायो देवपूजनम् । वैश्वदेवं तथातिथ्यं नित्यकर्मेति कीर्तितम् ॥',
           transliteration: 'snānaṃ dānaṃ japo homaḥ svādhyāyo devapūjanam | vaiśvadevaṃ tathātithyaṃ nityakarmeti kīrtitam ||',
           translation: 'Bathing, giving, japa, fire-offering, self-study, worship of the deity, the Vaishvadeva (offering to all beings), and hospitality — these are declared the daily duties (nitya-karma).',
           hindi: 'स्नान, दान, जप, होम, स्वाध्याय, देवपूजन, वैश्वदेव और अतिथि-सेवा — ये नित्यकर्म कहे गये हैं।',
@@ -511,7 +511,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'नारदो भक्तिमार्गस्य प्रवर्तको दिव्यदूतः | संकीर्तनं विष्णोर्नाम गायति वादति नृत्यति ||',
+          sanskrit: 'नारदो भक्तिमार्गस्य प्रवर्तको दिव्यदूतः । संकीर्तनं विष्णोर्नाम गायति वादति नृत्यति ॥',
           transliteration: 'nārado bhaktimārgasya pravartako divyadūtaḥ | saṅkīrtanaṃ viṣṇornāma gāyati vādati nṛtyati ||',
           translation: 'Narada is the initiator of the path of bhakti, the divine messenger. He sings, speaks, and dances the sankirtana of Vishnu\'s name.',
           hindi: 'नारद भक्ति मार्ग के प्रवर्तक हैं, दिव्य दूत हैं। वे विष्णु के नाम का संकीर्तन गाते, बोलते और नृत्य करते हैं।',
@@ -520,7 +520,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 8,
-          sanskrit: 'सप्त स्वराः समुद्भूताः ब्रह्माण्डस्य नादतः | षड्जं च ऋषभं चैव गान्धारं मध्यमं तथा | पञ्चमं च धैवतं च निषादं सप्तमं विदुः ||',
+          sanskrit: 'सप्त स्वराः समुद्भूताः ब्रह्माण्डस्य नादतः । षड्जं च ऋषभं चैव गान्धारं मध्यमं तथा । पञ्चमं च धैवतं च निषादं सप्तमं विदुः ॥',
           transliteration: 'sapta svarāḥ samudbhūtāḥ brahmāṇḍasya nādataḥ | ṣaḍjaṃ ca ṛṣabhaṃ caiva gāndhāraṃ madhyamaṃ tathā | pañcamaṃ ca dhhaivataṃ ca niṣādaṃ saptamaṃ viduḥ ||',
           translation: 'The seven notes arose from the sound of the cosmos — Sa, Ri, Ga, Ma, Pa, Dha, Ni — these seven are known.',
           hindi: 'सात स्वर ब्रह्माण्ड के नाद से उत्पन्न हुए — षड्ज, ऋषभ, गान्धार, मध्यम, पञ्चम, धैवत, निषाद — ये सात जाने जाते हैं।',
@@ -529,7 +529,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 12,
-          sanskrit: 'यत्र यत्र मनो याति तत्र तत्र समाहितम् | तत्र तत्र परं ब्रह्म तत्र तत्र जनार्दनः ||',
+          sanskrit: 'यत्र यत्र मनो याति तत्र तत्र समाहितम् । तत्र तत्र परं ब्रह्म तत्र तत्र जनार्दनः ॥',
           transliteration: 'yatra yatra mano yāti tatra tatra samāhitam | tatra tatra paraṃ brahma tatra tatra janārdanaḥ ||',
           translation: 'Wherever the mind goes — there is the collected (concentrated one). There is supreme Brahman there. There is Janardana (Vishnu) there.',
           hindi: 'जहाँ-जहाँ मन जाता है — वहाँ-वहाँ वह समाहित (एकाग्र) है। वहाँ-वहाँ परम ब्रह्म है। वहाँ-वहाँ जनार्दन है।',
@@ -538,7 +538,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 15,
-          sanskrit: 'सर्वदा सर्वभावेन भजनीयो जनार्दनः | भक्त्या परमया चैव प्रेम्णा च परमेण च ||',
+          sanskrit: 'सर्वदा सर्वभावेन भजनीयो जनार्दनः । भक्त्या परमया चैव प्रेम्णा च परमेण च ॥',
           transliteration: 'sarvadā sarvabhāvena bhajanīyo janārdanaḥ | bhaktyā paramayā caiva premṇā ca parameṇa ca ||',
           translation: 'Janardana (Vishnu) should be worshipped always, with all one\'s being — with supreme devotion and with the highest love.',
           hindi: 'जनार्दन का सदा, सर्वभाव से, परम भक्ति से और परम प्रेम से भजन करना चाहिए।',
@@ -547,7 +547,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 25,
-          sanskrit: 'नामैकं यस्य वाचि स्मरणपथगतं श्रोत्रमूलं गतं वा | शुद्धं वाशुद्धवर्णं विगतमतिभयं तारयत्येव सिन्धुम् ||',
+          sanskrit: 'नामैकं यस्य वाचि स्मरणपथगतं श्रोत्रमूलं गतं वा । शुद्धं वाशुद्धवर्णं विगतमतिभयं तारयत्येव सिन्धुम् ॥',
           transliteration: 'nāmaikaṃ yasya vāci smaraṇapathagatāṃ śrotramūlaṃ gataṃ vā | śuddhaṃ vāśuddhavarṇaṃ vigatamātibhayaṃ tārayatyeva sindhum ||',
           translation: 'The one name — whether spoken by the voice, whether reached by memory, whether it has entered the root of the ear — pure or impure in pronunciation — crossing all fear, it carries one across the ocean.',
           hindi: 'वह एक नाम — चाहे वाणी से बोला जाये, चाहे स्मरण-पथ से प्राप्त हो, चाहे कान की जड़ तक पहुँचे — शुद्ध हो या अशुद्ध उच्चारण — सभी भय को पार करके, वह सागर को पार कराता है।',
@@ -556,7 +556,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 26,
-          sanskrit: 'नारदो भक्तिमार्गस्य प्रवर्तको दिव्यदूतः | यो विष्णुं भजते भक्त्या स प्राप्नोति परं पदम् ||',
+          sanskrit: 'नारदो भक्तिमार्गस्य प्रवर्तको दिव्यदूतः । यो विष्णुं भजते भक्त्या स प्राप्नोति परं पदम् ॥',
           transliteration: 'nārado bhaktimārgasya pravartako divyadūtaḥ | yo viṣṇuṃ bhajate bhaktyā sa prāpnoti paraṃ padam ||',
           translation: 'Narada is the initiator of the path of bhakti, the divine messenger. He who worships Vishnu with devotion attains the supreme state.',
           hindi: 'नारद भक्ति मार्ग के प्रवर्तक हैं, दिव्य दूत हैं। जो विष्णु को भक्ति से भजता है, वह परम पद प्राप्त करता है।',
@@ -565,7 +565,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 27,
-          sanskrit: 'संकीर्तनं विष्णोर्नाम संकीर्तनं नाम तथा | संकीर्तनं नाम स्मरणं संकीर्तनं नाम भक्तिः ||',
+          sanskrit: 'संकीर्तनं विष्णोर्नाम संकीर्तनं नाम तथा । संकीर्तनं नाम स्मरणं संकीर्तनं नाम भक्तिः ॥',
           transliteration: 'saṅkīrtanaṃ viṣṇornāma saṅkīrtanaṃ nāma tathā | saṅkīrtanaṃ nāma smaraṇaṃ saṅkīrtanaṃ nāma bhaktiḥ ||',
           translation: 'Sankirtana of Vishnu\'s name, sankirtana of the name, sankirtana of remembrance, sankirtana of devotion — all are sankirtana.',
           hindi: 'विष्णु के नाम का संकीर्तन, नाम का संकीर्तन, स्मरण का संकीर्तन, भक्ति का संकीर्तन — सब संकीर्तन है।',
@@ -574,7 +574,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 28,
-          sanskrit: 'गायति वादति नृत्यति पूजयति शृणोति च | यो विष्णुं भजते भक्त्या स प्राप्नोति परं पदम् ||',
+          sanskrit: 'गायति वादति नृत्यति पूजयति शृणोति च । यो विष्णुं भजते भक्त्या स प्राप्नोति परं पदम् ॥',
           transliteration: 'gāyati vādati nṛtyati pūjayati śṛṇoti ca | yo viṣṇuṃ bhajate bhaktyā sa prāpnoti paraṃ padam ||',
           translation: 'Singing, speaking, dancing, worshipping, listening — he who worships Vishnu with devotion through these attains the supreme state.',
           hindi: 'गाते, बोलते, नृत्य करते, पूजा करते, सुनते — जो इन सब से भक्ति से विष्णु का भजन करता है, वह परम पद प्राप्त करता है।',
@@ -583,7 +583,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 42,
-          sanskrit: 'भक्त्या मामभिजानाति यावान्यश्चास्मि तत्त्वतः | ततो मां तत्त्वतो ज्ञात्वा विशते तदनन्तरम् ||',
+          sanskrit: 'भक्त्या मामभिजानाति यावान्यश्चास्मि तत्त्वतः । ततो मां तत्त्वतो ज्ञात्वा विशते तदनन्तरम् ॥',
           transliteration: 'bhaktyā māmabhijānāti yāvānyaścāsmi tattvataḥ | tato māṃ tattvato jñātvā viśate tadanantaram ||',
           translation: 'Through bhakti one truly knows Me — what I am and how great I am. Having thus truly known Me, one enters into Me immediately after.',
           hindi: 'भक्ति से मुझे यथार्थ जाना जाता है — जितना मैं हूँ और जैसा मैं हूँ। इस प्रकार मुझे तत्त्वतः जानकर, वह तत्पश्चात् मुझमें प्रवेश करता है।',
@@ -599,7 +599,7 @@ export const naradapuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'जन्म मृत्युश्च जरा व्याधिः दुःखदोषानुदर्शनम् | असक्तिरनभिष्वङ्गः पुत्रदारगृहादिषु ||',
+          sanskrit: 'जन्म मृत्युश्च जरा व्याधिः दुःखदोषानुदर्शनम् । असक्तिरनभिष्वङ्गः पुत्रदारगृहादिषु ॥',
           transliteration: 'janma mṛtyuśca jarā vyādhiḥ duḥkhadoṣānudarśanam | asaktirAnabhiṣvaṅgaḥ putradāragṛhādiṣu ||',
           translation: 'Birth, death, old age, disease — seeing the faults and sorrows in these. Non-attachment, non-clinging toward sons, wife, home and the rest.',
           hindi: 'जन्म, मृत्यु, जरा, व्याधि — इनमें दुख और दोषों का दर्शन। पुत्र, पत्नी, घर आदि में अनासक्ति और अनभिष्वंग।',
@@ -610,7 +610,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 42,
-          sanskrit: 'भक्त्या मामभिजानाति यावान्यश्चास्मि तत्त्वतः | ततो मां तत्त्वतो ज्ञात्वा विशते तदनन्तरम् ||',
+          sanskrit: 'भक्त्या मामभिजानाति यावान्यश्चास्मि तत्त्वतः । ततो मां तत्त्वतो ज्ञात्वा विशते तदनन्तरम् ॥',
           transliteration: 'bhaktyā māmabhijānāti yāvānyaścāsmi tattvataḥ | tato māṃ tattvato jñātvā viśate tadanantaram ||',
           translation: 'Through bhakti one truly knows Me — what I am and how great I am. Having thus truly known Me, one enters into Me immediately after.',
           hindi: 'भक्ति से मुझे यथार्थ जाना जाता है — जितना मैं हूँ और जैसा मैं हूँ। इस प्रकार मुझे तत्त्वतः जानकर, वह तत्पश्चात् मुझमें प्रवेश करता है।',
@@ -621,7 +621,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'नारदो भक्तिमार्गस्य प्रवर्तको दिव्यदूतः | संकीर्तनं विष्णोर्नाम गायति वादति नृत्यति ||',
+          sanskrit: 'नारदो भक्तिमार्गस्य प्रवर्तको दिव्यदूतः । संकीर्तनं विष्णोर्नाम गायति वादति नृत्यति ॥',
           transliteration: 'nārado bhaktimārgasya pravartako divyadūtaḥ | saṅkīrtanaṃ viṣṇornāma gāyati vādati nṛtyati ||',
           translation: 'Narada is the initiator of the path of bhakti, the divine messenger. He sings, speaks, and dances the sankirtana of Vishnu\'s name.',
           hindi: 'नारद भक्ति मार्ग के प्रवर्तक हैं, दिव्य दूत हैं। वे विष्णु के नाम का संकीर्तन गाते, बोलते और नृत्य करते हैं।',
@@ -632,7 +632,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 26,
-          sanskrit: 'नारदो भक्तिमार्गस्य प्रवर्तको दिव्यदूतः | यो विष्णुं भजते भक्त्या स प्राप्नोति परं पदम् ||',
+          sanskrit: 'नारदो भक्तिमार्गस्य प्रवर्तको दिव्यदूतः । यो विष्णुं भजते भक्त्या स प्राप्नोति परं पदम् ॥',
           transliteration: 'nārado bhaktimārgasya pravartako divyadūtaḥ | yo viṣṇuṃ bhajate bhaktyā sa prāpnoti paraṃ padam ||',
           translation: 'Narada is the initiator of the path of bhakti, the divine messenger. He who worships Vishnu with devotion attains the supreme state.',
           hindi: 'नारद भक्ति मार्ग के प्रवर्तक हैं, दिव्य दूत हैं। जो विष्णु को भक्ति से भजता है, वह परम पद प्राप्त करता है।',
@@ -643,7 +643,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 27,
-          sanskrit: 'संकीर्तनं विष्णोर्नाम संकीर्तनं नाम तथा | संकीर्तनं नाम स्मरणं संकीर्तनं नाम भक्तिः ||',
+          sanskrit: 'संकीर्तनं विष्णोर्नाम संकीर्तनं नाम तथा । संकीर्तनं नाम स्मरणं संकीर्तनं नाम भक्तिः ॥',
           transliteration: 'saṅkīrtanaṃ viṣṇornāma saṅkīrtanaṃ nāma tathā | saṅkīrtanaṃ nāma smaraṇaṃ saṅkīrtanaṃ nāma bhaktiḥ ||',
           translation: 'Sankirtana of Vishnu\'s name, sankirtana of the name, sankirtana of remembrance, sankirtana of devotion — all are sankirtana.',
           hindi: 'विष्णु के नाम का संकीर्तन, नाम का संकीर्तन, स्मरण का संकीर्तन, भक्ति का संकीर्तन — सब संकीर्तन है।',
@@ -654,7 +654,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 28,
-          sanskrit: 'गायति वादति नृत्यति पूजयति शृणोति च | यो विष्णुं भजते भक्त्या स प्राप्नोति परं पदम् ||',
+          sanskrit: 'गायति वादति नृत्यति पूजयति शृणोति च । यो विष्णुं भजते भक्त्या स प्राप्नोति परं पदम् ॥',
           transliteration: 'gāyati vādati nṛtyati pūjayati śṛṇoti ca | yo viṣṇuṃ bhajate bhaktyā sa prāpnoti paraṃ padam ||',
           translation: 'Singing, speaking, dancing, worshipping, listening — he who worships Vishnu with devotion through these attains the supreme state.',
           hindi: 'गाते, बोलते, नृत्य करते, पूजा करते, सुनते — जो इन सब से भक्ति से विष्णु का भजन करता है, वह परम पद प्राप्त करता है।',
@@ -666,7 +666,7 @@ export const naradapuran: Scripture = {
       
         {
           id: 2,
-          sanskrit: 'भक्त्या मामभिजानाति यावान्यश्चास्मि तत्त्वतः | ततो मां तत्त्वतो ज्ञात्वा विशते तदनन्तरम् ||',
+          sanskrit: 'भक्त्या मामभिजानाति यावान्यश्चास्मि तत्त्वतः । ततो मां तत्त्वतो ज्ञात्वा विशते तदनन्तरम् ॥',
           transliteration: 'bhaktyā māmabhijānāti yāvānyaścāsmi tattvataḥ | tato māṃ tattvato jñātvā viśate tadanantaram ||',
           translation: 'Through bhakti one truly knows Me — what I am and how great I am. Having thus truly known Me, one enters into Me immediately after.',
           hindi: 'भक्ति से मुझे यथार्थ जाना जाता है — जितना मैं हूँ और जैसा मैं हूँ। इस प्रकार मुझे तत्त्वतः जानकर, वह तत्पश्चात् मुझमें प्रवेश करता है।',
@@ -675,7 +675,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 3,
-          sanskrit: 'नारदो भक्तिमार्गस्य प्रवर्तको दिव्यदूतः | संकीर्तनं विष्णोर्नाम गायति वादति नृत्यति ||',
+          sanskrit: 'नारदो भक्तिमार्गस्य प्रवर्तको दिव्यदूतः । संकीर्तनं विष्णोर्नाम गायति वादति नृत्यति ॥',
           transliteration: 'nārado bhaktimārgasya pravartako divyadūtaḥ | saṅkīrtanaṃ viṣṇornāma gāyati vādati nṛtyati ||',
           translation: 'Narada is the initiator of the path of bhakti, the divine messenger. He sings, speaks, and dances the sankirtana of Vishnu\'s name.',
           hindi: 'नारद भक्ति मार्ग के प्रवर्तक हैं, दिव्य दूत हैं। वे विष्णु के नाम का संकीर्तन गाते, बोलते और नृत्य करते हैं।',
@@ -684,7 +684,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 4,
-          sanskrit: 'नारदो भक्तिमार्गस्य प्रवर्तको दिव्यदूतः | यो विष्णुं भजते भक्त्या स प्राप्नोति परं पदम् ||',
+          sanskrit: 'नारदो भक्तिमार्गस्य प्रवर्तको दिव्यदूतः । यो विष्णुं भजते भक्त्या स प्राप्नोति परं पदम् ॥',
           transliteration: 'nārado bhaktimārgasya pravartako divyadūtaḥ | yo viṣṇuṃ bhajate bhaktyā sa prāpnoti paraṃ padam ||',
           translation: 'Narada is the initiator of the path of bhakti, the divine messenger. He who worships Vishnu with devotion attains the supreme state.',
           hindi: 'नारद भक्ति मार्ग के प्रवर्तक हैं, दिव्य दूत हैं। जो विष्णु को भक्ति से भजता है, वह परम पद प्राप्त करता है।',
@@ -693,7 +693,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 6,
-          sanskrit: 'संकीर्तनं विष्णोर्नाम संकीर्तनं नाम तथा | संकीर्तनं नाम स्मरणं संकीर्तनं नाम भक्तिः ||',
+          sanskrit: 'संकीर्तनं विष्णोर्नाम संकीर्तनं नाम तथा । संकीर्तनं नाम स्मरणं संकीर्तनं नाम भक्तिः ॥',
           transliteration: 'saṅkīrtanaṃ viṣṇornāma saṅkīrtanaṃ nāma tathā | saṅkīrtanaṃ nāma smaraṇaṃ saṅkīrtanaṃ nāma bhaktiḥ ||',
           translation: 'Sankirtana of Vishnu\'s name, sankirtana of the name, sankirtana of remembrance, sankirtana of devotion — all are sankirtana.',
           hindi: 'विष्णु के नाम का संकीर्तन, नाम का संकीर्तन, स्मरण का संकीर्तन, भक्ति का संकीर्तन — सब संकीर्तन है।',
@@ -702,7 +702,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 7,
-          sanskrit: 'गायति वादति नृत्यति पूजयति शृणोति च | यो विष्णुं भजते भक्त्या स प्राप्नोति परं पदम् ||',
+          sanskrit: 'गायति वादति नृत्यति पूजयति शृणोति च । यो विष्णुं भजते भक्त्या स प्राप्नोति परं पदम् ॥',
           transliteration: 'gāyati vādati nṛtyati pūjayati śṛṇoti ca | yo viṣṇuṃ bhajate bhaktyā sa prāpnoti paraṃ padam ||',
           translation: 'Singing, speaking, dancing, worshipping, listening — he who worships Vishnu with devotion through these attains the supreme state.',
           hindi: 'गाते, बोलते, नृत्य करते, पूजा करते, सुनते — जो इन सब से भक्ति से विष्णु का भजन करता है, वह परम पद प्राप्त करता है।',
@@ -711,7 +711,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 8,
-          sanskrit: 'सप्त स्वराः समुद्भूताः ब्रह्माण्डस्य नादतः | षड्जं च ऋषभं चैव गान्धारं मध्यमं तथा | पञ्चमं च धैवतं च निषादं सप्तमं विदुः ||',
+          sanskrit: 'सप्त स्वराः समुद्भूताः ब्रह्माण्डस्य नादतः । षड्जं च ऋषभं चैव गान्धारं मध्यमं तथा । पञ्चमं च धैवतं च निषादं सप्तमं विदुः ॥',
           transliteration: 'sapta svarāḥ samudbhūtāḥ brahmāṇḍasya nādataḥ | ṣaḍjaṃ ca ṛṣabhaṃ caiva gāndhāraṃ madhyamaṃ tathā | pañcamaṃ ca dhhaivataṃ ca niṣādaṃ saptamaṃ viduḥ ||',
           translation: 'The seven notes arose from the sound of the cosmos — Sa, Ri, Ga, Ma, Pa, Dha, Ni — these seven are known.',
           hindi: 'सात स्वर ब्रह्माण्ड के नाद से उत्पन्न हुए — षड्ज, ऋषभ, गान्धार, मध्यम, पञ्चम, धैवत, निषाद — ये सात जाने जाते हैं।',
@@ -720,7 +720,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 12,
-          sanskrit: 'यत्र यत्र मनो याति तत्र तत्र समाहितम् | तत्र तत्र परं ब्रह्म तत्र तत्र जनार्दनः ||',
+          sanskrit: 'यत्र यत्र मनो याति तत्र तत्र समाहितम् । तत्र तत्र परं ब्रह्म तत्र तत्र जनार्दनः ॥',
           transliteration: 'yatra yatra mano yāti tatra tatra samāhitam | tatra tatra paraṃ brahma tatra tatra janārdanaḥ ||',
           translation: 'Wherever the mind goes — there is the collected (concentrated one). There is supreme Brahman there. There is Janardana (Vishnu) there.',
           hindi: 'जहाँ-जहाँ मन जाता है — वहाँ-वहाँ वह समाहित (एकाग्र) है। वहाँ-वहाँ परम ब्रह्म है। वहाँ-वहाँ जनार्दन है।',
@@ -729,7 +729,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 15,
-          sanskrit: 'सर्वदा सर्वभावेन भजनीयो जनार्दनः | भक्त्या परमया चैव प्रेम्णा च परमेण च ||',
+          sanskrit: 'सर्वदा सर्वभावेन भजनीयो जनार्दनः । भक्त्या परमया चैव प्रेम्णा च परमेण च ॥',
           transliteration: 'sarvadā sarvabhāvena bhajanīyo janārdanaḥ | bhaktyā paramayā caiva premṇā ca parameṇa ca ||',
           translation: 'Janardana (Vishnu) should be worshipped always, with all one\'s being — with supreme devotion and with the highest love.',
           hindi: 'जनार्दन का सदा, सर्वभाव से, परम भक्ति से और परम प्रेम से भजन करना चाहिए।',
@@ -738,7 +738,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 18,
-          sanskrit: 'स्नानं दानं जपो होमः स्वाध्यायो देवपूजनम् | वैश्वदेवं तथातिथ्यं नित्यकर्मेति कीर्तितम् ||',
+          sanskrit: 'स्नानं दानं जपो होमः स्वाध्यायो देवपूजनम् । वैश्वदेवं तथातिथ्यं नित्यकर्मेति कीर्तितम् ॥',
           transliteration: 'snānaṃ dānaṃ japo homaḥ svādhyāyo devapūjanam | vaiśvadevaṃ tathātithyaṃ nityakarmeti kīrtitam ||',
           translation: 'Bathing, giving, japa, fire-offering, self-study, worship of the deity, the Vaishvadeva (offering to all beings), and hospitality — these are declared the daily duties (nitya-karma).',
           hindi: 'स्नान, दान, जप, होम, स्वाध्याय, देवपूजन, वैश्वदेव और अतिथि-सेवा — ये नित्यकर्म कहे गये हैं।',
@@ -747,7 +747,7 @@ export const naradapuran: Scripture = {
         },
         {
           id: 25,
-          sanskrit: 'नामैकं यस्य वाचि स्मरणपथगतं श्रोत्रमूलं गतं वा | शुद्धं वाशुद्धवर्णं विगतमतिभयं तारयत्येव सिन्धुम् ||',
+          sanskrit: 'नामैकं यस्य वाचि स्मरणपथगतं श्रोत्रमूलं गतं वा । शुद्धं वाशुद्धवर्णं विगतमतिभयं तारयत्येव सिन्धुम् ॥',
           transliteration: 'nāmaikaṃ yasya vāci smaraṇapathagatāṃ śrotramūlaṃ gataṃ vā | śuddhaṃ vāśuddhavarṇaṃ vigatamātibhayaṃ tārayatyeva sindhum ||',
           translation: 'The one name — whether spoken by the voice, whether reached by memory, whether it has entered the root of the ear — pure or impure in pronunciation — crossing all fear, it carries one across the ocean.',
           hindi: 'वह एक नाम — चाहे वाणी से बोला जाये, चाहे स्मरण-पथ से प्राप्त हो, चाहे कान की जड़ तक पहुँचे — शुद्ध हो या अशुद्ध उच्चारण — सभी भय को पार करके, वह सागर को पार कराता है।',

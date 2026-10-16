@@ -18,7 +18,7 @@ export const vinayapatrika: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'श्री गणेश को प्रणाम | जय गणेश गणेश गणेश जय | जय गजबदन सुत शिव उर धार्यो ||',
+          sanskrit: 'श्री गणेश को प्रणाम । जय गणेश गणेश गणेश जय । जय गजबदन सुत शिव उर धार्यो ॥',
           transliteration: 'śrī gaṇeśa ko praṇāma | jaya gaṇeśa gaṇeśa gaṇeśa jaya | jaya gajabadana suta śiva ura dhāryo ||',
           translation: 'Salutation to Shri Ganesha. Victory to Ganesha, Ganesha, Ganesha — victory! Victory to the elephant-faced one, son held dear in Shiva\'s heart.',
           hindi: 'श्री गणेश को प्रणाम। जय गणेश, गणेश, गणेश — जय! जय हो गजमुख को, जो शिव के हृदय में बसे हैं।',
@@ -29,7 +29,7 @@ export const vinayapatrika: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'नाथ सकल सिधि सिधि दाता | तुम्हरी कृपा होत जन त्राता | मैं अतिसय दुखी दीन दुर्बल | दरस देहु हरहु भवभ्रम बल ||',
+          sanskrit: 'नाथ सकल सिधि सिधि दाता । तुम्हरी कृपा होत जन त्राता । मैं अतिसय दुखी दीन दुर्बल । दरस देहु हरहु भवभ्रम बल ॥',
           transliteration: 'nātha sakala sidhi sidhi dātā | tumharī kṛpā hota jana trātā | maiṃ atisaya dukhī dīna durbala | darasa dehu harahu bhavabhrama bala ||',
           translation: 'O Lord, giver of all accomplishments — by Your grace the servant is protected. I am utterly sorrowful, wretched, and weak. Grant me your sight; destroy the power of worldly delusion.',
           hindi: 'हे नाथ! आप सभी सिद्धियों के दाता हैं — आपकी कृपा से ही सेवक की रक्षा होती है। मैं अत्यंत दुखी, दीन और दुर्बल हूँ। दर्शन दो; भव-भ्रम का बल हर लो।',
@@ -48,7 +48,7 @@ export const vinayapatrika: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'सुनु हनुमान उदार | मैं तुलसी तेरो दास | पाहि पाहि पाहि प्रभु | मेटहु मन को त्रास ||',
+          sanskrit: 'सुनु हनुमान उदार । मैं तुलसी तेरो दास । पाहि पाहि पाहि प्रभु । मेटहु मन को त्रास ॥',
           transliteration: 'sunu hanumāna udāra | maiṃ tulasī tero dāsa | pāhi pāhi pāhi prabhu | meṭahu mana ko trāsa ||',
           translation: 'Listen, O generous Hanuman — I, Tulsidas, am your servant. Protect me, protect me, protect me, Lord — remove the terror of my mind.',
           hindi: 'हे उदार हनुमान! सुनो — मैं तुलसी तुम्हारा दास हूँ। रक्षा करो, रक्षा करो, रक्षा करो प्रभु — मन का भय मिटाओ।',
@@ -59,7 +59,7 @@ export const vinayapatrika: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'तुलसी हौं गुनहीन गरीब | अपने बल भरोसो नाहिं | राम नाम लिख्यो भाल पर | ताही की ओट आहिं ||',
+          sanskrit: 'तुलसी हौं गुनहीन गरीब । अपने बल भरोसो नाहिं । राम नाम लिख्यो भाल पर । ताही की ओट आहिं ॥',
           transliteration: 'tulasī hauṃ gunahīna garība | apane bala bharoso nāhiṃ | rāma nāma likhyo bhāla para | tāhī kī oṭa āhiṃ ||',
           translation: 'Tulsidas says: I am without virtue, I am poor. I have no trust in my own strength. The name of Rama is written on my forehead — I take shelter behind that alone.',
           hindi: 'तुलसी कहते हैं: मैं गुणहीन और गरीब हूँ। अपने बल पर भरोसा नहीं। माथे पर राम-नाम लिखा है — उसी की ओट में आया हूँ।',
@@ -78,7 +78,7 @@ export const vinayapatrika: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'नाथ अब मोहि पति होहु | जेहि बिधि जन राखहु तेहि बिधि | मोहि मेटि रहन दोहू ||',
+          sanskrit: 'नाथ अब मोहि पति होहु । जेहि बिधि जन राखहु तेहि बिधि । मोहि मेटि रहन दोहू ॥',
           transliteration: 'nātha aba mohi pati hohu | jehi bidhi jana rākahu tehi bidhi | mohi meṭi rahana dohu ||',
           translation: 'O Lord, now become my protector. In whatever way You protect Your servants — protect me too, erasing my faults, remaining with me always.',
           hindi: 'हे नाथ! अब मेरे पालक बन जाओ। जिस प्रकार तुम अपने सेवकों की रक्षा करते हो — उसी प्रकार मेरी भी करो, मेरे दोषों को मिटाकर सदा रहो।',
@@ -89,7 +89,7 @@ export const vinayapatrika: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'श्री रामचंद्र कृपालु भजु मन | हरण भव भय दारुणम् | नवकंज लोचन कंज मुख कर | कंज पद कंजारुणम् ||',
+          sanskrit: 'श्री रामचंद्र कृपालु भजु मन । हरण भव भय दारुणम् । नवकंज लोचन कंज मुख कर । कंज पद कंजारुणम् ॥',
           transliteration: 'śrī rāmacaṃdra kṛpālu bhaju mana | haraṇa bhava bhaya dāruṇam | navakañja locana kañja mukha kara | kañja pada kañjāruṇam ||',
           translation: 'O mind, worship Shri Ramachandra the compassionate — destroyer of the terrible fear of worldly existence. Lotus-eyed, lotus-faced, lotus-handed, with lotus feet red as the lotus.',
           hindi: 'हे मन! श्री रामचंद्र कृपालु का भजन कर — जो भव-भय के दारुण (भयानक) त्रास को हरने वाले हैं। नव-कमल नेत्र, कमल-मुख, कमल-हाथ, कमल-जैसे रक्त-चरण वाले।',
@@ -100,7 +100,7 @@ export const vinayapatrika: Scripture = {
         },
         {
           id: 3,
-          sanskrit: 'हौं तो आयो शरण तुम्हारी | मोरे अवगुण चितवहु नाहीं | कृपासिंधु खरारी ||',
+          sanskrit: 'हौं तो आयो शरण तुम्हारी । मोरे अवगुण चितवहु नाहीं । कृपासिंधु खरारी ॥',
           transliteration: 'hauṃ to āyo śaraṇa tumhārī | more avaguṇa citavahu nāhīṃ | kṛpāsiṃdhu kharārī ||',
           translation: 'I have come to your refuge. Do not look at my faults. O ocean of compassion, slayer of Khara.',
           hindi: 'मैं तो तुम्हारी शरण में आया हूँ। मेरे अवगुणों पर दृष्टि न करो। हे कृपा-सागर, खरारी (खर के शत्रु, राम)!',
@@ -119,7 +119,7 @@ export const vinayapatrika: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'मोको कहाँ ढूंढे रे बन्दे | मैं तो तेरे पास में | ना मैं देवल ना मैं मस्जिद | ना काबे कैलास में ||',
+          sanskrit: 'मोको कहाँ ढूंढे रे बन्दे । मैं तो तेरे पास में । ना मैं देवल ना मैं मस्जिद । ना काबे कैलास में ॥',
           transliteration: 'moko kahāṃ ḍhūṃḍhe re bande | maiṃ to tere pāsa meṃ | nā maiṃ devala nā maiṃ masjida | nā kābe kailāsa meṃ ||',
           translation: 'Where do you seek Me, O servant? I am right here, beside you. I am not in the temple, not in the mosque, not in Kaba, not in Kailash.',
           hindi: 'हे बंदे! तू मुझे कहाँ ढूँढता है? मैं तो तेरे पास ही हूँ। न मैं मंदिर में, न मस्जिद में, न काबे में, न कैलाश में।',

@@ -17,7 +17,7 @@ export const kalkipuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'कलौ दशसहस्राणि हरिरेव कलौ युगे | पूज्यते च नमस्यश्च केशवो नान्यदैवतम् ||',
+          sanskrit: 'कलौ दशसहस्राणि हरिरेव कलौ युगे । पूज्यते च नमस्यश्च केशवो नान्यदैवतम् ॥',
           transliteration: 'kalau daśasahasrāṇi harireva kalau yuge | pūjyate ca namasyaśca keśavo nānyadaivatam ||',
           translation: 'In Kali Yuga, for ten thousand years, Hari alone is worthy of worship and salutation — Keshava, and no other deity.',
           hindi: 'कलियुग में दस हजार वर्षों तक केवल हरि (केशव) ही पूजनीय और नमस्करणीय हैं — किसी अन्य देवता की नहीं।',
@@ -28,7 +28,7 @@ export const kalkipuran: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'धर्मस्य ह्रासः कलौ काले सत्यस्य च परिक्षयः | शनैः शनैर्जगत्सर्वमधर्मे संप्रतिष्ठते ||',
+          sanskrit: 'धर्मस्य ह्रासः कलौ काले सत्यस्य च परिक्षयः । शनैः शनैर्जगत्सर्वमधर्मे संप्रतिष्ठते ॥',
           transliteration: 'dharmasya hrāsaḥ kalau kāle satyasya ca parikṣayaḥ | śanaiḥ śanairjagatsarvamadharme saṃpratiṣṭhate ||',
           translation: 'In the Kali Age, dharma declines and truth diminishes. Gradually, gradually, the whole world becomes established in adharma.',
           hindi: 'कलियुग में धर्म का ह्रास और सत्य का क्षय होता है। धीरे-धीरे सारा जगत अधर्म में स्थापित हो जाता है।',
@@ -47,7 +47,7 @@ export const kalkipuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'यदा यदा हि धर्मस्य ग्लानिर्भवति भारत | अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम् ||',
+          sanskrit: 'यदा यदा हि धर्मस्य ग्लानिर्भवति भारत । अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम् ॥',
           transliteration: 'yadā yadā hi dharmasya glānirbhavati bhārata | abhyutthānamadharmasya tadātmānaṃ sṛjāmyaham ||',
           translation: 'Whenever dharma declines, O Bharata, and whenever adharma rises — at that time I manifest myself.',
           hindi: 'जब-जब धर्म की हानि होती है और अधर्म का उत्थान होता है — तब-तब मैं अपने आपको प्रकट करता हूँ।',
@@ -58,7 +58,7 @@ export const kalkipuran: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'शम्भले विष्णुयशसः गृहे प्रादुर्भविष्यति | सुमत्याः पुत्र रूपेण कल्किर्विष्णुयशाः सुतः ||',
+          sanskrit: 'शम्भले विष्णुयशसः गृहे प्रादुर्भविष्यति । सुमत्याः पुत्र रूपेण कल्किर्विष्णुयशाः सुतः ॥',
           transliteration: 'śambhale viṣṇuyaśasaḥ gṛhe prādurbhaviṣyati | sumatyāḥ putra rūpeṇa kalkir viṣṇuyaśāḥ sutaḥ ||',
           translation: 'In Shambhala, Kalki will appear in the home of Vishnuyasha, born as the son of Sumati — the son of Vishnuyasha, Kalki.',
           hindi: 'शम्भल में विष्णुयश के घर, सुमति के पुत्र रूप में कल्कि का प्रादुर्भाव होगा।',
@@ -77,7 +77,7 @@ export const kalkipuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'सत्ये सर्वं प्रतिष्ठितं सत्यमेव परो धर्मः | सत्यव्रतो भव नित्यं सत्यात् किञ्चिन्न विद्यते ||',
+          sanskrit: 'सत्ये सर्वं प्रतिष्ठितं सत्यमेव परो धर्मः । सत्यव्रतो भव नित्यं सत्यात् किञ्चिन्न विद्यते ॥',
           transliteration: 'satye sarvaṃ pratiṣṭhitaṃ satyameva paro dharmaḥ | satyavrato bhava nityaṃ satyāt kiñcinna vidyate ||',
           translation: 'Everything is established in truth. Truth alone is the supreme dharma. Always be devoted to truth — there is nothing higher than truth.',
           hindi: 'सब कुछ सत्य में प्रतिष्ठित है। सत्य ही परम धर्म है। सदा सत्य-व्रती रहो — सत्य से ऊँचा कुछ नहीं है।',
@@ -88,7 +88,7 @@ export const kalkipuran: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'पुनः प्रवर्तते धर्मो नृणां चारित्रसंयुतः | कृतं त्रेता द्वापरं च कलिश्चैव पुनः पुनः ||',
+          sanskrit: 'पुनः प्रवर्तते धर्मो नृणां चारित्रसंयुतः । कृतं त्रेता द्वापरं च कलिश्चैव पुनः पुनः ॥',
           transliteration: 'punaḥ pravartate dharmo nṛṇāṃ cāritrasaṃyutaḥ | kṛtaṃ tretā dvāparaṃ ca kaliścaiva punaḥ punaḥ ||',
           translation: 'Dharma, accompanied by good character, turns again among humans. Krita (Satya), Treta, Dvapara, and Kali — again and again.',
           hindi: 'मनुष्यों में सदाचार-सहित धर्म पुनः प्रवृत्त होता है। सतयुग, त्रेता, द्वापर और कलियुग — बार-बार।',
@@ -99,7 +99,7 @@ export const kalkipuran: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'कलौ कृष्णावतारे तु यदा पापं समं महत् | तदा कल्की समुत्पन्नो धर्मं स्थापयते पुनः ||',
+          sanskrit: 'कलौ कृष्णावतारे तु यदा पापं समं महत् । तदा कल्की समुत्पन्नो धर्मं स्थापयते पुनः ॥',
           transliteration: 'kalau kṛṣṇāvatare tu yadā pāpaṃ samaṃ mahat | tadā kalkī samutpanno dharmaṃ sthāpayate punaḥ ||',
           translation: 'In Kali Yuga, when evil becomes great, then Kalki is born to re-establish dharma.',
           hindi: 'कलियुग में, जब पाप बहुत बढ़ जाता है, तब कल्कि जन्म लेते हैं धर्म की पुनः स्थापना के लिए।',
@@ -110,7 +110,7 @@ export const kalkipuran: Scripture = {
         },
         {
           id: 26,
-          sanskrit: 'कल्किर्देवो महाबाहुः श्वेताश्वो देवदत्तः | अभ्युत्थाय कलौ युगे धर्मं स्थापयते प्रिये ||',
+          sanskrit: 'कल्किर्देवो महाबाहुः श्वेताश्वो देवदत्तः । अभ्युत्थाय कलौ युगे धर्मं स्थापयते प्रिये ॥',
           transliteration: 'kalkirdevo mahābāhuḥ śvetāśvo devadattaḥ | abhyutthāya kalau yuge dharmaṃ sthāpayate priye ||',
           translation: 'Kalki, the mighty-armed god, with white horse Devadatta, arises in Kali Yuga to establish dharma, O beloved.',
           hindi: 'कल्कि देव, महाबाहु, श्वेत अश्व देवदत्त के साथ, कलियुग में उठकर धर्म की स्थापना करते हैं, हे प्रिये।',
@@ -121,7 +121,7 @@ export const kalkipuran: Scripture = {
         },
         {
           id: 27,
-          sanskrit: 'शम्भले ग्रामे जन्म कल्किस्य विष्णुरात्मजः | परशुरामशिक्षितः सर्वशास्त्रविद् विशारदः ||',
+          sanskrit: 'शम्भले ग्रामे जन्म कल्किस्य विष्णुरात्मजः । परशुरामशिक्षितः सर्वशास्त्रविद् विशारदः ॥',
           transliteration: 'śambhale grāme janma kalkisya viṣṇurātmajaḥ | paraśurāmaśikṣitaḥ sarvaśāstravid viśāradaḥ ||',
           translation: 'Kalki, son of Vishnu, is born in Shambhala village, trained by Parashurama, learned in all scriptures, and wise.',
           hindi: 'कल्कि, विष्णु के पुत्र, शम्भल ग्राम में जन्म लेते हैं, परशुराम द्वारा शिक्षित, सभी शास्त्रों में पारंगत और विशारद।',
@@ -132,7 +132,7 @@ export const kalkipuran: Scripture = {
         },
         {
           id: 28,
-          sanskrit: 'धर्मो रक्षति रक्षितः धर्मो हन्ति हतः क्रिया | धर्मो न प्रशश्यते किञ्चित् धर्मेण तप्यते अमृतम् ||',
+          sanskrit: 'धर्मो रक्षति रक्षितः धर्मो हन्ति हतः क्रिया । धर्मो न प्रशश्यते किञ्चित् धर्मेण तप्यते अमृतम् ॥',
           transliteration: 'dharmo rakṣati rakṣitaḥ dharmaḥ hanti hatāḥ kriyā | dharmaḥ na praśaśyate kiñcid dharmeṇa tapyate amṛtam ||',
           translation: 'Dharma protects when protected; dharma destroys when destroyed. Dharma never perishes; through dharma, immortality is attained.',
           hindi: 'धर्म रक्षा करता है जब रक्षित होता है; धर्म नष्ट करता है जब नष्ट किया जाता है। धर्म कभी नहीं मरता; धर्म से अमृत प्राप्त होता है।',

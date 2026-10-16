@@ -17,7 +17,7 @@ export const devibhagavat: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'या देवी सर्वभूतेषु चेतनेत्यभिधीयते | नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः ||',
+          sanskrit: 'या देवी सर्वभूतेषु चेतनेत्यभिधीयते । नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः ॥',
           transliteration: 'yā devī sarvabhūteṣu cetanetyabhidhīyate | namastasyai namastasyai namastasyai namo namaḥ ||',
           translation: 'To the Devi who dwells in all beings as consciousness — salutations again and again and again.',
           hindi: 'जो देवी सभी प्राणियों में चेतना-रूप में निवास करती हैं — उन्हें बार-बार नमस्कार, बार-बार नमस्कार, बार-बार नमस्कार।',
@@ -29,7 +29,7 @@ export const devibhagavat: Scripture = {
       
         {
           id: 1002,
-          sanskrit: 'त्वं स्वाहा त्वं स्वधा त्वं हि वषट्कारस्वरात्मिका | सुधा त्वमक्षरे नित्ये त्रिधा मात्रात्मिका स्थिता ||',
+          sanskrit: 'त्वं स्वाहा त्वं स्वधा त्वं हि वषट्कारस्वरात्मिका । सुधा त्वमक्षरे नित्ये त्रिधा मात्रात्मिका स्थिता ॥',
           transliteration: 'tvaṃ svāhā tvaṃ svadhā tvaṃ hi vaṣaṭkārasvarātmikā | sudhā tvamakṣare nitye tridhā mātrātmikā sthitā ||',
           translation: 'You are Svaha (the sacred offering), you are Svadha (the ancestral offering), you are the essence of the Vashat sound; you are Sudha (nectar), eternal and imperishable, dwelling in three measures.',
           hindi: 'तुम स्वाहा हो, तुम स्वधा हो, तुम ही वषट् स्वर-स्वरूपा हो। तुम सुधा (अमृत) हो, नित्य और अक्षर, त्रिमात्रा (OM की तीन मात्रा) रूप में स्थित।',
@@ -38,7 +38,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1003,
-          sanskrit: 'वने गत्वा तपस्तप्तं वासुदेवेन दुष्करम् । विष्णोरंशावतारेण शिवस्याराधनं कृतम् ||',
+          sanskrit: 'वने गत्वा तपस्तप्तं वासुदेवेन दुष्करम् । विष्णोरंशावतारेण शिवस्याराधनं कृतम् ॥',
           transliteration: 'vane gatvā tapas taptaṃ vāsudevena duṣkaram | viṣṇor aṃśāvatāreṇa śivasyārādhanaṃ kṛtam ||',
           translation: 'Going to the forest, Vasudeva performed difficult austerity; as an incarnation of Vishnu, he worshipped Shiva.',
           hindi: 'वन में जाकर वासुदेव ने कठिन तप किया; विष्णु-अंशावतार होते हुए भी उन्होंने शिव की आराधना की।',
@@ -47,7 +47,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1005,
-          sanskrit: 'सर्वं खल्विदं ब्रह्म तज्जलानिति शान्त उपासीत | अथ कस्यायं माययो सृष्टः सङ्घातः प्रपञ्चः ||',
+          sanskrit: 'सर्वं खल्विदं ब्रह्म तज्जलानिति शान्त उपासीत । अथ कस्यायं माययो सृष्टः सङ्घातः प्रपञ्चः ॥',
           transliteration: 'sarvaṃ khalvidaṃ brahma tajjalāniti śānta upāsīta | atha kasyāyaṃ māyayo sṛṣṭaḥ saṅghātaḥ prapañcaḥ ||',
           translation: 'All this is indeed Brahman — calm, one should meditate on That. From what was this created illusion, this manifold world?',
           hindi: 'सब कुछ वास्तव में ब्रह्म है — शांत होकर उसी का उपासन करो। फिर यह माया से सृष्ट संघात, यह प्रपंच, किसका है?',
@@ -56,7 +56,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1006,
-          sanskrit: 'सूत उवाच । प्रणम्य परमां शक्तिं चतुर्वर्गप्रदायिनीम् । आदिशक्तिं वदिष्यामि कथां पौराणिकीं शुभाम् ||',
+          sanskrit: 'सूत उवाच । प्रणम्य परमां शक्तिं चतुर्वर्गप्रदायिनीम् । आदिशक्तिं वदिष्यामि कथां पौराणिकीं शुभाम् ॥',
           transliteration: 'sūta uvāca | praṇamya paramāṃ śaktiṃ caturvargapradāyinīm | ādiśaktiṃ vadiṣyāmi kathāṃ paurāṇikīṃ śubhām ||',
           translation: 'Suta said: Having bowed to the supreme Shakti, the giver of the four aims of life, I shall tell the auspicious ancient story of Adi Shakti.',
           hindi: 'सूत ने कहा: धर्म, अर्थ, काम और मोक्ष देने वाली परम शक्ति को प्रणाम कर मैं आदि शक्ति की शुभ पुराण-कथा कहूँगा।',
@@ -65,7 +65,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1010,
-          sanskrit: 'सा च ब्रह्मस्वरूपा च नित्या सा च सनातनी । यथाऽऽत्मा च तथा शक्तिर्यथाग्नौ दाहिका स्थिता ||',
+          sanskrit: 'सा च ब्रह्मस्वरूपा च नित्या सा च सनातनी । यथाऽऽत्मा च तथा शक्तिर्यथाग्नौ दाहिका स्थिता ॥',
           transliteration: 'sā ca brahmasvarūpā ca nityā sā ca sanātanī | yathātmā ca tathā śaktir yathāgnau dāhikā sthitā ||',
           translation: 'She is of the nature of Brahman; she is eternal and ancient. As the Self is, so is Shakti, just as burning power abides in fire.',
           hindi: 'वह ब्रह्मस्वरूपा है, नित्य और सनातनी है। जैसे आत्मा है वैसे ही शक्ति है, जैसे अग्नि में दाहक शक्ति स्थित रहती है।',
@@ -74,7 +74,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1016,
-          sanskrit: 'जगतस्तत्त्वमित्येव देवी प्रोक्ता मयापि हि । ऋषिभिर्देवगन्धर्वैरन्यैश्चापि मनीषिभिः ||',
+          sanskrit: 'जगतस्तत्त्वमित्येव देवी प्रोक्ता मयापि हि । ऋषिभिर्देवगन्धर्वैरन्यैश्चापि मनीषिभिः ॥',
           transliteration: 'jagatas tattvam ity eva devī proktā mayāpi hi | ṛṣibhir devagandharvair anyaiś cāpi manīṣibhiḥ ||',
           translation: 'The Devi is indeed declared to be the very principle of the universe — by me, by the seers, by the gods and gandharvas, and by other wise ones.',
           hindi: 'देवी को ही जगत् का तत्त्व कहा गया है — मेरे द्वारा, ऋषियों द्वारा, देवों-गंधर्वों द्वारा और अन्य मनीषियों द्वारा भी।',
@@ -83,7 +83,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 2027,
-          sanskrit: 'शक्तिश्च शिवश्च एकैव भिन्ना नास्ति कदाचन | यो शक्तिशिवयोरेकं जानाति स परां गतिम् ||',
+          sanskrit: 'शक्तिश्च शिवश्च एकैव भिन्ना नास्ति कदाचन । यो शक्तिशिवयोरेकं जानाति स परां गतिम् ॥',
           transliteration: 'śaktiśca śivaśca ekaiva bhinna nāsti kadācana | yo śaktiśivayorekaṃ jānāti sa parāṃ gatim ||',
           translation: 'Shakti and Shiva are one — there is no separation ever. He who knows the unity of Shakti and Shiva attains the supreme state.',
           hindi: 'शक्ति और शिव एक हैं — कभी भी भेद नहीं। जो शक्ति-शिव की एकता जानता है, वह परम गति प्राप्त करता है।',
@@ -92,7 +92,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 2028,
-          sanskrit: 'देवी साक्षात् परं ब्रह्म निर्गुणा निश्चला शुधा | योगिनां हृदये नित्यं देवी भवति साक्षात् ||',
+          sanskrit: 'देवी साक्षात् परं ब्रह्म निर्गुणा निश्चला शुधा । योगिनां हृदये नित्यं देवी भवति साक्षात् ॥',
           transliteration: 'devī sākṣāt paraṃ brahma nirguṇā niścalā śudhā | yogināṃ hṛdaye nityaṃ devī bhavati sākṣāt ||',
           translation: 'Devi is indeed the supreme Brahman — without qualities, unmoving, pure. In the hearts of yogins, Devi is indeed present.',
           hindi: 'देवी साक्षात् परम ब्रह्म हैं — निर्गुण, निश्चल, शुद्ध। योगियों के हृदय में देवी साक्षात् विराजमान हैं।',
@@ -101,7 +101,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 2029,
-          sanskrit: 'सर्वं खल्विदं देवी न भूतं न भविष्यति | सा एव सर्वशक्त्याढ्या सर्वकारणकारणम् ||',
+          sanskrit: 'सर्वं खल्विदं देवी न भूतं न भविष्यति । सा एव सर्वशक्त्याढ्या सर्वकारणकारणम् ॥',
           transliteration: 'sarvaṃ khalvidaṃ devī na bhūtaṃ na bhaviṣyati | sā eva sarvaśaktyāḍhyā sarvakāraṇakāraṇam ||',
           translation: 'All this is indeed Devi — what was not, what will not be. She alone is endowed with all powers, the cause of all causes.',
           hindi: 'सब कुछ वास्तव में देवी है — जो नहीं था, जो नहीं होगा। वही सभी शक्तियों से युक्त, सभी कारणों का कारण है।',
@@ -117,7 +117,7 @@ export const devibhagavat: Scripture = {
       verses: [
         {
           id: 6,
-          sanskrit: 'सूत उवाच । प्रणम्य परमां शक्तिं चतुर्वर्गप्रदायिनीम् । आदिशक्तिं वदिष्यामि कथां पौराणिकीं शुभाम् ||',
+          sanskrit: 'सूत उवाच । प्रणम्य परमां शक्तिं चतुर्वर्गप्रदायिनीम् । आदिशक्तिं वदिष्यामि कथां पौराणिकीं शुभाम् ॥',
           transliteration: 'sūta uvāca | praṇamya paramāṃ śaktiṃ caturvargapradāyinīm | ādiśaktiṃ vadiṣyāmi kathāṃ paurāṇikīṃ śubhām ||',
           translation: 'Suta said: Having bowed to the supreme Shakti, the giver of the four aims of life, I shall tell the auspicious ancient story of Adi Shakti.',
           hindi: 'सूत ने कहा: धर्म, अर्थ, काम और मोक्ष देने वाली परम शक्ति को प्रणाम कर मैं आदि शक्ति की शुभ पुराण-कथा कहूँगा।',
@@ -129,7 +129,7 @@ export const devibhagavat: Scripture = {
       
         {
           id: 1001,
-          sanskrit: 'सूत उवाच । प्रणम्य परमां शक्तिं चतुर्वर्गप्रदायिनीम् । आदिशक्तिं वदिष्यामि कथां पौराणिकीं शुभाम् ||',
+          sanskrit: 'सूत उवाच । प्रणम्य परमां शक्तिं चतुर्वर्गप्रदायिनीम् । आदिशक्तिं वदिष्यामि कथां पौराणिकीं शुभाम् ॥',
           transliteration: 'sūta uvāca | praṇamya paramāṃ śaktiṃ caturvargapradāyinīm | ādiśaktiṃ vadiṣyāmi kathāṃ paurāṇikīṃ śubhām ||',
           translation: 'Suta said: Having bowed to the supreme Shakti, the giver of the four aims of life, I shall tell the auspicious ancient story of Adi Shakti.',
           hindi: 'सूत ने कहा: धर्म, अर्थ, काम और मोक्ष देने वाली परम शक्ति को प्रणाम कर मैं आदि शक्ति की शुभ पुराण-कथा कहूँगा।',
@@ -138,7 +138,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1002,
-          sanskrit: 'त्वं स्वाहा त्वं स्वधा त्वं हि वषट्कारस्वरात्मिका | सुधा त्वमक्षरे नित्ये त्रिधा मात्रात्मिका स्थिता ||',
+          sanskrit: 'त्वं स्वाहा त्वं स्वधा त्वं हि वषट्कारस्वरात्मिका । सुधा त्वमक्षरे नित्ये त्रिधा मात्रात्मिका स्थिता ॥',
           transliteration: 'tvaṃ svāhā tvaṃ svadhā tvaṃ hi vaṣaṭkārasvarātmikā | sudhā tvamakṣare nitye tridhā mātrātmikā sthitā ||',
           translation: 'You are Svaha (the sacred offering), you are Svadha (the ancestral offering), you are the essence of the Vashat sound; you are Sudha (nectar), eternal and imperishable, dwelling in three measures.',
           hindi: 'तुम स्वाहा हो, तुम स्वधा हो, तुम ही वषट् स्वर-स्वरूपा हो। तुम सुधा (अमृत) हो, नित्य और अक्षर, त्रिमात्रा (OM की तीन मात्रा) रूप में स्थित।',
@@ -147,7 +147,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1003,
-          sanskrit: 'वने गत्वा तपस्तप्तं वासुदेवेन दुष्करम् । विष्णोरंशावतारेण शिवस्याराधनं कृतम् ||',
+          sanskrit: 'वने गत्वा तपस्तप्तं वासुदेवेन दुष्करम् । विष्णोरंशावतारेण शिवस्याराधनं कृतम् ॥',
           transliteration: 'vane gatvā tapas taptaṃ vāsudevena duṣkaram | viṣṇor aṃśāvatāreṇa śivasyārādhanaṃ kṛtam ||',
           translation: 'Going to the forest, Vasudeva performed difficult austerity; as an incarnation of Vishnu, he worshipped Shiva.',
           hindi: 'वन में जाकर वासुदेव ने कठिन तप किया; विष्णु-अंशावतार होते हुए भी उन्होंने शिव की आराधना की।',
@@ -156,7 +156,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1005,
-          sanskrit: 'सर्वं खल्विदं ब्रह्म तज्जलानिति शान्त उपासीत | अथ कस्यायं माययो सृष्टः सङ्घातः प्रपञ्चः ||',
+          sanskrit: 'सर्वं खल्विदं ब्रह्म तज्जलानिति शान्त उपासीत । अथ कस्यायं माययो सृष्टः सङ्घातः प्रपञ्चः ॥',
           transliteration: 'sarvaṃ khalvidaṃ brahma tajjalāniti śānta upāsīta | atha kasyāyaṃ māyayo sṛṣṭaḥ saṅghātaḥ prapañcaḥ ||',
           translation: 'All this is indeed Brahman — calm, one should meditate on That. From what was this created illusion, this manifold world?',
           hindi: 'सब कुछ वास्तव में ब्रह्म है — शांत होकर उसी का उपासन करो। फिर यह माया से सृष्ट संघात, यह प्रपंच, किसका है?',
@@ -165,7 +165,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1010,
-          sanskrit: 'सा च ब्रह्मस्वरूपा च नित्या सा च सनातनी । यथाऽऽत्मा च तथा शक्तिर्यथाग्नौ दाहिका स्थिता ||',
+          sanskrit: 'सा च ब्रह्मस्वरूपा च नित्या सा च सनातनी । यथाऽऽत्मा च तथा शक्तिर्यथाग्नौ दाहिका स्थिता ॥',
           transliteration: 'sā ca brahmasvarūpā ca nityā sā ca sanātanī | yathātmā ca tathā śaktir yathāgnau dāhikā sthitā ||',
           translation: 'She is of the nature of Brahman; she is eternal and ancient. As the Self is, so is Shakti, just as burning power abides in fire.',
           hindi: 'वह ब्रह्मस्वरूपा है, नित्य और सनातनी है। जैसे आत्मा है वैसे ही शक्ति है, जैसे अग्नि में दाहक शक्ति स्थित रहती है।',
@@ -174,7 +174,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1016,
-          sanskrit: 'जगतस्तत्त्वमित्येव देवी प्रोक्ता मयापि हि । ऋषिभिर्देवगन्धर्वैरन्यैश्चापि मनीषिभिः ||',
+          sanskrit: 'जगतस्तत्त्वमित्येव देवी प्रोक्ता मयापि हि । ऋषिभिर्देवगन्धर्वैरन्यैश्चापि मनीषिभिः ॥',
           transliteration: 'jagatas tattvam ity eva devī proktā mayāpi hi | ṛṣibhir devagandharvair anyaiś cāpi manīṣibhiḥ ||',
           translation: 'The Devi is indeed declared to be the very principle of the universe — by me, by the seers, by the gods and gandharvas, and by other wise ones.',
           hindi: 'देवी को ही जगत् का तत्त्व कहा गया है — मेरे द्वारा, ऋषियों द्वारा, देवों-गंधर्वों द्वारा और अन्य मनीषियों द्वारा भी।',
@@ -183,7 +183,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1027,
-          sanskrit: 'शक्तिश्च शिवश्च एकैव भिन्ना नास्ति कदाचन | यो शक्तिशिवयोरेकं जानाति स परां गतिम् ||',
+          sanskrit: 'शक्तिश्च शिवश्च एकैव भिन्ना नास्ति कदाचन । यो शक्तिशिवयोरेकं जानाति स परां गतिम् ॥',
           transliteration: 'śaktiśca śivaśca ekaiva bhinna nāsti kadācana | yo śaktiśivayorekaṃ jānāti sa parāṃ gatim ||',
           translation: 'Shakti and Shiva are one — there is no separation ever. He who knows the unity of Shakti and Shiva attains the supreme state.',
           hindi: 'शक्ति और शिव एक हैं — कभी भी भेद नहीं। जो शक्ति-शिव की एकता जानता है, वह परम गति प्राप्त करता है।',
@@ -192,7 +192,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1028,
-          sanskrit: 'देवी साक्षात् परं ब्रह्म निर्गुणा निश्चला शुधा | योगिनां हृदये नित्यं देवी भवति साक्षात् ||',
+          sanskrit: 'देवी साक्षात् परं ब्रह्म निर्गुणा निश्चला शुधा । योगिनां हृदये नित्यं देवी भवति साक्षात् ॥',
           transliteration: 'devī sākṣāt paraṃ brahma nirguṇā niścalā śudhā | yogināṃ hṛdaye nityaṃ devī bhavati sākṣāt ||',
           translation: 'Devi is indeed the supreme Brahman — without qualities, unmoving, pure. In the hearts of yogins, Devi is indeed present.',
           hindi: 'देवी साक्षात् परम ब्रह्म हैं — निर्गुण, निश्चल, शुद्ध। योगियों के हृदय में देवी साक्षात् विराजमान हैं।',
@@ -201,7 +201,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1029,
-          sanskrit: 'सर्वं खल्विदं देवी न भूतं न भविष्यति | सा एव सर्वशक्त्याढ्या सर्वकारणकारणम् ||',
+          sanskrit: 'सर्वं खल्विदं देवी न भूतं न भविष्यति । सा एव सर्वशक्त्याढ्या सर्वकारणकारणम् ॥',
           transliteration: 'sarvaṃ khalvidaṃ devī na bhūtaṃ na bhaviṣyati | sā eva sarvaśaktyāḍhyā sarvakāraṇakāraṇam ||',
           translation: 'All this is indeed Devi — what was not, what will not be. She alone is endowed with all powers, the cause of all causes.',
           hindi: 'सब कुछ वास्तव में देवी है — जो नहीं था, जो नहीं होगा। वही सभी शक्तियों से युक्त, सभी कारणों का कारण है।',
@@ -217,7 +217,7 @@ export const devibhagavat: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'शक्तिहीनो यदि शिवः किं करोति महेश्वरः | शक्तिश्च यदि तु ब्रह्म स्यात् तदा सृष्टिं करोति सः ||',
+          sanskrit: 'शक्तिहीनो यदि शिवः किं करोति महेश्वरः । शक्तिश्च यदि तु ब्रह्म स्यात् तदा सृष्टिं करोति सः ॥',
           transliteration: 'śaktihīno yadi śivaḥ kiṃ karoti maheśvaraḥ | śaktiśca yadi tu brahma syāt tadā sṛṣṭiṃ karoti saḥ ||',
           translation: 'If Shiva is without Shakti, what can the great lord do? Only when Brahma is joined with Shakti does he create.',
           hindi: 'यदि शिव शक्तिहीन हों तो महेश्वर क्या करेंगे? और जब ब्रह्म शक्ति से युक्त होते हैं, तभी वे सृष्टि करते हैं।',
@@ -228,7 +228,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'त्वं स्वाहा त्वं स्वधा त्वं हि वषट्कारस्वरात्मिका | सुधा त्वमक्षरे नित्ये त्रिधा मात्रात्मिका स्थिता ||',
+          sanskrit: 'त्वं स्वाहा त्वं स्वधा त्वं हि वषट्कारस्वरात्मिका । सुधा त्वमक्षरे नित्ये त्रिधा मात्रात्मिका स्थिता ॥',
           transliteration: 'tvaṃ svāhā tvaṃ svadhā tvaṃ hi vaṣaṭkārasvarātmikā | sudhā tvamakṣare nitye tridhā mātrātmikā sthitā ||',
           translation: 'You are Svaha (the sacred offering), you are Svadha (the ancestral offering), you are the essence of the Vashat sound; you are Sudha (nectar), eternal and imperishable, dwelling in three measures.',
           hindi: 'तुम स्वाहा हो, तुम स्वधा हो, तुम ही वषट् स्वर-स्वरूपा हो। तुम सुधा (अमृत) हो, नित्य और अक्षर, त्रिमात्रा (OM की तीन मात्रा) रूप में स्थित।',
@@ -240,7 +240,7 @@ export const devibhagavat: Scripture = {
       
         {
           id: 1002,
-          sanskrit: 'त्वं स्वाहा त्वं स्वधा त्वं हि वषट्कारस्वरात्मिका | सुधा त्वमक्षरे नित्ये त्रिधा मात्रात्मिका स्थिता ||',
+          sanskrit: 'त्वं स्वाहा त्वं स्वधा त्वं हि वषट्कारस्वरात्मिका । सुधा त्वमक्षरे नित्ये त्रिधा मात्रात्मिका स्थिता ॥',
           transliteration: 'tvaṃ svāhā tvaṃ svadhā tvaṃ hi vaṣaṭkārasvarātmikā | sudhā tvamakṣare nitye tridhā mātrātmikā sthitā ||',
           translation: 'You are Svaha (the sacred offering), you are Svadha (the ancestral offering), you are the essence of the Vashat sound; you are Sudha (nectar), eternal and imperishable, dwelling in three measures.',
           hindi: 'तुम स्वाहा हो, तुम स्वधा हो, तुम ही वषट् स्वर-स्वरूपा हो। तुम सुधा (अमृत) हो, नित्य और अक्षर, त्रिमात्रा (OM की तीन मात्रा) रूप में स्थित।',
@@ -249,7 +249,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1003,
-          sanskrit: 'वने गत्वा तपस्तप्तं वासुदेवेन दुष्करम् । विष्णोरंशावतारेण शिवस्याराधनं कृतम् ||',
+          sanskrit: 'वने गत्वा तपस्तप्तं वासुदेवेन दुष्करम् । विष्णोरंशावतारेण शिवस्याराधनं कृतम् ॥',
           transliteration: 'vane gatvā tapas taptaṃ vāsudevena duṣkaram | viṣṇor aṃśāvatāreṇa śivasyārādhanaṃ kṛtam ||',
           translation: 'Going to the forest, Vasudeva performed difficult austerity; as an incarnation of Vishnu, he worshipped Shiva.',
           hindi: 'वन में जाकर वासुदेव ने कठिन तप किया; विष्णु-अंशावतार होते हुए भी उन्होंने शिव की आराधना की।',
@@ -258,7 +258,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1005,
-          sanskrit: 'सर्वं खल्विदं ब्रह्म तज्जलानिति शान्त उपासीत | अथ कस्यायं माययो सृष्टः सङ्घातः प्रपञ्चः ||',
+          sanskrit: 'सर्वं खल्विदं ब्रह्म तज्जलानिति शान्त उपासीत । अथ कस्यायं माययो सृष्टः सङ्घातः प्रपञ्चः ॥',
           transliteration: 'sarvaṃ khalvidaṃ brahma tajjalāniti śānta upāsīta | atha kasyāyaṃ māyayo sṛṣṭaḥ saṅghātaḥ prapañcaḥ ||',
           translation: 'All this is indeed Brahman — calm, one should meditate on That. From what was this created illusion, this manifold world?',
           hindi: 'सब कुछ वास्तव में ब्रह्म है — शांत होकर उसी का उपासन करो। फिर यह माया से सृष्ट संघात, यह प्रपंच, किसका है?',
@@ -267,7 +267,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1006,
-          sanskrit: 'सूत उवाच । प्रणम्य परमां शक्तिं चतुर्वर्गप्रदायिनीम् । आदिशक्तिं वदिष्यामि कथां पौराणिकीं शुभाम् ||',
+          sanskrit: 'सूत उवाच । प्रणम्य परमां शक्तिं चतुर्वर्गप्रदायिनीम् । आदिशक्तिं वदिष्यामि कथां पौराणिकीं शुभाम् ॥',
           transliteration: 'sūta uvāca | praṇamya paramāṃ śaktiṃ caturvargapradāyinīm | ādiśaktiṃ vadiṣyāmi kathāṃ paurāṇikīṃ śubhām ||',
           translation: 'Suta said: Having bowed to the supreme Shakti, the giver of the four aims of life, I shall tell the auspicious ancient story of Adi Shakti.',
           hindi: 'सूत ने कहा: धर्म, अर्थ, काम और मोक्ष देने वाली परम शक्ति को प्रणाम कर मैं आदि शक्ति की शुभ पुराण-कथा कहूँगा।',
@@ -276,7 +276,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1010,
-          sanskrit: 'सा च ब्रह्मस्वरूपा च नित्या सा च सनातनी । यथाऽऽत्मा च तथा शक्तिर्यथाग्नौ दाहिका स्थिता ||',
+          sanskrit: 'सा च ब्रह्मस्वरूपा च नित्या सा च सनातनी । यथाऽऽत्मा च तथा शक्तिर्यथाग्नौ दाहिका स्थिता ॥',
           transliteration: 'sā ca brahmasvarūpā ca nityā sā ca sanātanī | yathātmā ca tathā śaktir yathāgnau dāhikā sthitā ||',
           translation: 'She is of the nature of Brahman; she is eternal and ancient. As the Self is, so is Shakti, just as burning power abides in fire.',
           hindi: 'वह ब्रह्मस्वरूपा है, नित्य और सनातनी है। जैसे आत्मा है वैसे ही शक्ति है, जैसे अग्नि में दाहक शक्ति स्थित रहती है।',
@@ -285,7 +285,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1016,
-          sanskrit: 'जगतस्तत्त्वमित्येव देवी प्रोक्ता मयापि हि । ऋषिभिर्देवगन्धर्वैरन्यैश्चापि मनीषिभिः ||',
+          sanskrit: 'जगतस्तत्त्वमित्येव देवी प्रोक्ता मयापि हि । ऋषिभिर्देवगन्धर्वैरन्यैश्चापि मनीषिभिः ॥',
           transliteration: 'jagatas tattvam ity eva devī proktā mayāpi hi | ṛṣibhir devagandharvair anyaiś cāpi manīṣibhiḥ ||',
           translation: 'The Devi is indeed declared to be the very principle of the universe — by me, by the seers, by the gods and gandharvas, and by other wise ones.',
           hindi: 'देवी को ही जगत् का तत्त्व कहा गया है — मेरे द्वारा, ऋषियों द्वारा, देवों-गंधर्वों द्वारा और अन्य मनीषियों द्वारा भी।',
@@ -294,7 +294,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1027,
-          sanskrit: 'शक्तिश्च शिवश्च एकैव भिन्ना नास्ति कदाचन | यो शक्तिशिवयोरेकं जानाति स परां गतिम् ||',
+          sanskrit: 'शक्तिश्च शिवश्च एकैव भिन्ना नास्ति कदाचन । यो शक्तिशिवयोरेकं जानाति स परां गतिम् ॥',
           transliteration: 'śaktiśca śivaśca ekaiva bhinna nāsti kadācana | yo śaktiśivayorekaṃ jānāti sa parāṃ gatim ||',
           translation: 'Shakti and Shiva are one — there is no separation ever. He who knows the unity of Shakti and Shiva attains the supreme state.',
           hindi: 'शक्ति और शिव एक हैं — कभी भी भेद नहीं। जो शक्ति-शिव की एकता जानता है, वह परम गति प्राप्त करता है।',
@@ -303,7 +303,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1028,
-          sanskrit: 'देवी साक्षात् परं ब्रह्म निर्गुणा निश्चला शुधा | योगिनां हृदये नित्यं देवी भवति साक्षात् ||',
+          sanskrit: 'देवी साक्षात् परं ब्रह्म निर्गुणा निश्चला शुधा । योगिनां हृदये नित्यं देवी भवति साक्षात् ॥',
           transliteration: 'devī sākṣāt paraṃ brahma nirguṇā niścalā śudhā | yogināṃ hṛdaye nityaṃ devī bhavati sākṣāt ||',
           translation: 'Devi is indeed the supreme Brahman — without qualities, unmoving, pure. In the hearts of yogins, Devi is indeed present.',
           hindi: 'देवी साक्षात् परम ब्रह्म हैं — निर्गुण, निश्चल, शुद्ध। योगियों के हृदय में देवी साक्षात् विराजमान हैं।',
@@ -312,7 +312,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1029,
-          sanskrit: 'सर्वं खल्विदं देवी न भूतं न भविष्यति | सा एव सर्वशक्त्याढ्या सर्वकारणकारणम् ||',
+          sanskrit: 'सर्वं खल्विदं देवी न भूतं न भविष्यति । सा एव सर्वशक्त्याढ्या सर्वकारणकारणम् ॥',
           transliteration: 'sarvaṃ khalvidaṃ devī na bhūtaṃ na bhaviṣyati | sā eva sarvaśaktyāḍhyā sarvakāraṇakāraṇam ||',
           translation: 'All this is indeed Devi — what was not, what will not be. She alone is endowed with all powers, the cause of all causes.',
           hindi: 'सब कुछ वास्तव में देवी है — जो नहीं था, जो नहीं होगा। वही सभी शक्तियों से युक्त, सभी कारणों का कारण है।',
@@ -328,7 +328,7 @@ export const devibhagavat: Scripture = {
       verses: [
         {
           id: 2,
-          sanskrit: 'शूरसेनसुतः श्रीमान्वसुदेवः प्रतापवान् । श्रुतं मया हरिर्यस्य पुत्रभावमवाप्तवान् ||',
+          sanskrit: 'शूरसेनसुतः श्रीमान्वसुदेवः प्रतापवान् । श्रुतं मया हरिर्यस्य पुत्रभावमवाप्तवान् ॥',
           transliteration: 'śūrasenasutaḥ śrīmān vasudevaḥ pratāpavān | śrutaṃ mayā harir yasya putrabhāvam avāptavān ||',
           translation: 'I have heard of the glorious and mighty Vasudeva, son of Shurasena, to whom Hari came in the form of a son.',
           hindi: 'मैंने शूरसेन-पुत्र, श्रीमान् और प्रतापी वसुदेव के विषय में सुना है, जिनके यहाँ हरि पुत्ररूप में प्रकट हुए।',
@@ -340,7 +340,7 @@ export const devibhagavat: Scripture = {
       
         {
           id: 1001,
-          sanskrit: 'शूरसेनसुतः श्रीमान्वसुदेवः प्रतापवान् । श्रुतं मया हरिर्यस्य पुत्रभावमवाप्तवान् ||',
+          sanskrit: 'शूरसेनसुतः श्रीमान्वसुदेवः प्रतापवान् । श्रुतं मया हरिर्यस्य पुत्रभावमवाप्तवान् ॥',
           transliteration: 'śūrasenasutaḥ śrīmān vasudevaḥ pratāpavān | śrutaṃ mayā harir yasya putrabhāvam avāptavān ||',
           translation: 'I have heard of the glorious and mighty Vasudeva, son of Shurasena, to whom Hari came in the form of a son.',
           hindi: 'मैंने शूरसेन-पुत्र, श्रीमान् और प्रतापी वसुदेव के विषय में सुना है, जिनके यहाँ हरि पुत्ररूप में प्रकट हुए।',
@@ -349,7 +349,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1003,
-          sanskrit: 'वने गत्वा तपस्तप्तं वासुदेवेन दुष्करम् । विष्णोरंशावतारेण शिवस्याराधनं कृतम् ||',
+          sanskrit: 'वने गत्वा तपस्तप्तं वासुदेवेन दुष्करम् । विष्णोरंशावतारेण शिवस्याराधनं कृतम् ॥',
           transliteration: 'vane gatvā tapas taptaṃ vāsudevena duṣkaram | viṣṇor aṃśāvatāreṇa śivasyārādhanaṃ kṛtam ||',
           translation: 'Going to the forest, Vasudeva performed difficult austerity; as an incarnation of Vishnu, he worshipped Shiva.',
           hindi: 'वन में जाकर वासुदेव ने कठिन तप किया; विष्णु-अंशावतार होते हुए भी उन्होंने शिव की आराधना की।',
@@ -358,7 +358,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1005,
-          sanskrit: 'सर्वं खल्विदं ब्रह्म तज्जलानिति शान्त उपासीत | अथ कस्यायं माययो सृष्टः सङ्घातः प्रपञ्चः ||',
+          sanskrit: 'सर्वं खल्विदं ब्रह्म तज्जलानिति शान्त उपासीत । अथ कस्यायं माययो सृष्टः सङ्घातः प्रपञ्चः ॥',
           transliteration: 'sarvaṃ khalvidaṃ brahma tajjalāniti śānta upāsīta | atha kasyāyaṃ māyayo sṛṣṭaḥ saṅghātaḥ prapañcaḥ ||',
           translation: 'All this is indeed Brahman — calm, one should meditate on That. From what was this created illusion, this manifold world?',
           hindi: 'सब कुछ वास्तव में ब्रह्म है — शांत होकर उसी का उपासन करो। फिर यह माया से सृष्ट संघात, यह प्रपंच, किसका है?',
@@ -367,7 +367,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1006,
-          sanskrit: 'सूत उवाच । प्रणम्य परमां शक्तिं चतुर्वर्गप्रदायिनीम् । आदिशक्तिं वदिष्यामि कथां पौराणिकीं शुभाम् ||',
+          sanskrit: 'सूत उवाच । प्रणम्य परमां शक्तिं चतुर्वर्गप्रदायिनीम् । आदिशक्तिं वदिष्यामि कथां पौराणिकीं शुभाम् ॥',
           transliteration: 'sūta uvāca | praṇamya paramāṃ śaktiṃ caturvargapradāyinīm | ādiśaktiṃ vadiṣyāmi kathāṃ paurāṇikīṃ śubhām ||',
           translation: 'Suta said: Having bowed to the supreme Shakti, the giver of the four aims of life, I shall tell the auspicious ancient story of Adi Shakti.',
           hindi: 'सूत ने कहा: धर्म, अर्थ, काम और मोक्ष देने वाली परम शक्ति को प्रणाम कर मैं आदि शक्ति की शुभ पुराण-कथा कहूँगा।',
@@ -376,7 +376,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1010,
-          sanskrit: 'सा च ब्रह्मस्वरूपा च नित्या सा च सनातनी । यथाऽऽत्मा च तथा शक्तिर्यथाग्नौ दाहिका स्थिता ||',
+          sanskrit: 'सा च ब्रह्मस्वरूपा च नित्या सा च सनातनी । यथाऽऽत्मा च तथा शक्तिर्यथाग्नौ दाहिका स्थिता ॥',
           transliteration: 'sā ca brahmasvarūpā ca nityā sā ca sanātanī | yathātmā ca tathā śaktir yathāgnau dāhikā sthitā ||',
           translation: 'She is of the nature of Brahman; she is eternal and ancient. As the Self is, so is Shakti, just as burning power abides in fire.',
           hindi: 'वह ब्रह्मस्वरूपा है, नित्य और सनातनी है। जैसे आत्मा है वैसे ही शक्ति है, जैसे अग्नि में दाहक शक्ति स्थित रहती है।',
@@ -385,7 +385,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1016,
-          sanskrit: 'जगतस्तत्त्वमित्येव देवी प्रोक्ता मयापि हि । ऋषिभिर्देवगन्धर्वैरन्यैश्चापि मनीषिभिः ||',
+          sanskrit: 'जगतस्तत्त्वमित्येव देवी प्रोक्ता मयापि हि । ऋषिभिर्देवगन्धर्वैरन्यैश्चापि मनीषिभिः ॥',
           transliteration: 'jagatas tattvam ity eva devī proktā mayāpi hi | ṛṣibhir devagandharvair anyaiś cāpi manīṣibhiḥ ||',
           translation: 'The Devi is indeed declared to be the very principle of the universe — by me, by the seers, by the gods and gandharvas, and by other wise ones.',
           hindi: 'देवी को ही जगत् का तत्त्व कहा गया है — मेरे द्वारा, ऋषियों द्वारा, देवों-गंधर्वों द्वारा और अन्य मनीषियों द्वारा भी।',
@@ -394,7 +394,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1027,
-          sanskrit: 'शक्तिश्च शिवश्च एकैव भिन्ना नास्ति कदाचन | यो शक्तिशिवयोरेकं जानाति स परां गतिम् ||',
+          sanskrit: 'शक्तिश्च शिवश्च एकैव भिन्ना नास्ति कदाचन । यो शक्तिशिवयोरेकं जानाति स परां गतिम् ॥',
           transliteration: 'śaktiśca śivaśca ekaiva bhinna nāsti kadācana | yo śaktiśivayorekaṃ jānāti sa parāṃ gatim ||',
           translation: 'Shakti and Shiva are one — there is no separation ever. He who knows the unity of Shakti and Shiva attains the supreme state.',
           hindi: 'शक्ति और शिव एक हैं — कभी भी भेद नहीं। जो शक्ति-शिव की एकता जानता है, वह परम गति प्राप्त करता है।',
@@ -403,7 +403,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1028,
-          sanskrit: 'देवी साक्षात् परं ब्रह्म निर्गुणा निश्चला शुधा | योगिनां हृदये नित्यं देवी भवति साक्षात् ||',
+          sanskrit: 'देवी साक्षात् परं ब्रह्म निर्गुणा निश्चला शुधा । योगिनां हृदये नित्यं देवी भवति साक्षात् ॥',
           transliteration: 'devī sākṣāt paraṃ brahma nirguṇā niścalā śudhā | yogināṃ hṛdaye nityaṃ devī bhavati sākṣāt ||',
           translation: 'Devi is indeed the supreme Brahman — without qualities, unmoving, pure. In the hearts of yogins, Devi is indeed present.',
           hindi: 'देवी साक्षात् परम ब्रह्म हैं — निर्गुण, निश्चल, शुद्ध। योगियों के हृदय में देवी साक्षात् विराजमान हैं।',
@@ -412,7 +412,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1029,
-          sanskrit: 'सर्वं खल्विदं देवी न भूतं न भविष्यति | सा एव सर्वशक्त्याढ्या सर्वकारणकारणम् ||',
+          sanskrit: 'सर्वं खल्विदं देवी न भूतं न भविष्यति । सा एव सर्वशक्त्याढ्या सर्वकारणकारणम् ॥',
           transliteration: 'sarvaṃ khalvidaṃ devī na bhūtaṃ na bhaviṣyati | sā eva sarvaśaktyāḍhyā sarvakāraṇakāraṇam ||',
           translation: 'All this is indeed Devi — what was not, what will not be. She alone is endowed with all powers, the cause of all causes.',
           hindi: 'सब कुछ वास्तव में देवी है — जो नहीं था, जो नहीं होगा। वही सभी शक्तियों से युक्त, सभी कारणों का कारण है।',
@@ -428,7 +428,7 @@ export const devibhagavat: Scripture = {
       verses: [
         {
           id: 3,
-          sanskrit: 'वने गत्वा तपस्तप्तं वासुदेवेन दुष्करम् । विष्णोरंशावतारेण शिवस्याराधनं कृतम् ||',
+          sanskrit: 'वने गत्वा तपस्तप्तं वासुदेवेन दुष्करम् । विष्णोरंशावतारेण शिवस्याराधनं कृतम् ॥',
           transliteration: 'vane gatvā tapas taptaṃ vāsudevena duṣkaram | viṣṇor aṃśāvatāreṇa śivasyārādhanaṃ kṛtam ||',
           translation: 'Going to the forest, Vasudeva performed difficult austerity; as an incarnation of Vishnu, he worshipped Shiva.',
           hindi: 'वन में जाकर वासुदेव ने कठिन तप किया; विष्णु-अंशावतार होते हुए भी उन्होंने शिव की आराधना की।',
@@ -440,7 +440,7 @@ export const devibhagavat: Scripture = {
       
         {
           id: 1001,
-          sanskrit: 'वने गत्वा तपस्तप्तं वासुदेवेन दुष्करम् । विष्णोरंशावतारेण शिवस्याराधनं कृतम् ||',
+          sanskrit: 'वने गत्वा तपस्तप्तं वासुदेवेन दुष्करम् । विष्णोरंशावतारेण शिवस्याराधनं कृतम् ॥',
           transliteration: 'vane gatvā tapas taptaṃ vāsudevena duṣkaram | viṣṇor aṃśāvatāreṇa śivasyārādhanaṃ kṛtam ||',
           translation: 'Going to the forest, Vasudeva performed difficult austerity; as an incarnation of Vishnu, he worshipped Shiva.',
           hindi: 'वन में जाकर वासुदेव ने कठिन तप किया; विष्णु-अंशावतार होते हुए भी उन्होंने शिव की आराधना की।',
@@ -449,7 +449,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1002,
-          sanskrit: 'त्वं स्वाहा त्वं स्वधा त्वं हि वषट्कारस्वरात्मिका | सुधा त्वमक्षरे नित्ये त्रिधा मात्रात्मिका स्थिता ||',
+          sanskrit: 'त्वं स्वाहा त्वं स्वधा त्वं हि वषट्कारस्वरात्मिका । सुधा त्वमक्षरे नित्ये त्रिधा मात्रात्मिका स्थिता ॥',
           transliteration: 'tvaṃ svāhā tvaṃ svadhā tvaṃ hi vaṣaṭkārasvarātmikā | sudhā tvamakṣare nitye tridhā mātrātmikā sthitā ||',
           translation: 'You are Svaha (the sacred offering), you are Svadha (the ancestral offering), you are the essence of the Vashat sound; you are Sudha (nectar), eternal and imperishable, dwelling in three measures.',
           hindi: 'तुम स्वाहा हो, तुम स्वधा हो, तुम ही वषट् स्वर-स्वरूपा हो। तुम सुधा (अमृत) हो, नित्य और अक्षर, त्रिमात्रा (OM की तीन मात्रा) रूप में स्थित।',
@@ -458,7 +458,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1005,
-          sanskrit: 'सर्वं खल्विदं ब्रह्म तज्जलानिति शान्त उपासीत | अथ कस्यायं माययो सृष्टः सङ्घातः प्रपञ्चः ||',
+          sanskrit: 'सर्वं खल्विदं ब्रह्म तज्जलानिति शान्त उपासीत । अथ कस्यायं माययो सृष्टः सङ्घातः प्रपञ्चः ॥',
           transliteration: 'sarvaṃ khalvidaṃ brahma tajjalāniti śānta upāsīta | atha kasyāyaṃ māyayo sṛṣṭaḥ saṅghātaḥ prapañcaḥ ||',
           translation: 'All this is indeed Brahman — calm, one should meditate on That. From what was this created illusion, this manifold world?',
           hindi: 'सब कुछ वास्तव में ब्रह्म है — शांत होकर उसी का उपासन करो। फिर यह माया से सृष्ट संघात, यह प्रपंच, किसका है?',
@@ -467,7 +467,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1006,
-          sanskrit: 'सूत उवाच । प्रणम्य परमां शक्तिं चतुर्वर्गप्रदायिनीम् । आदिशक्तिं वदिष्यामि कथां पौराणिकीं शुभाम् ||',
+          sanskrit: 'सूत उवाच । प्रणम्य परमां शक्तिं चतुर्वर्गप्रदायिनीम् । आदिशक्तिं वदिष्यामि कथां पौराणिकीं शुभाम् ॥',
           transliteration: 'sūta uvāca | praṇamya paramāṃ śaktiṃ caturvargapradāyinīm | ādiśaktiṃ vadiṣyāmi kathāṃ paurāṇikīṃ śubhām ||',
           translation: 'Suta said: Having bowed to the supreme Shakti, the giver of the four aims of life, I shall tell the auspicious ancient story of Adi Shakti.',
           hindi: 'सूत ने कहा: धर्म, अर्थ, काम और मोक्ष देने वाली परम शक्ति को प्रणाम कर मैं आदि शक्ति की शुभ पुराण-कथा कहूँगा।',
@@ -476,7 +476,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1010,
-          sanskrit: 'सा च ब्रह्मस्वरूपा च नित्या सा च सनातनी । यथाऽऽत्मा च तथा शक्तिर्यथाग्नौ दाहिका स्थिता ||',
+          sanskrit: 'सा च ब्रह्मस्वरूपा च नित्या सा च सनातनी । यथाऽऽत्मा च तथा शक्तिर्यथाग्नौ दाहिका स्थिता ॥',
           transliteration: 'sā ca brahmasvarūpā ca nityā sā ca sanātanī | yathātmā ca tathā śaktir yathāgnau dāhikā sthitā ||',
           translation: 'She is of the nature of Brahman; she is eternal and ancient. As the Self is, so is Shakti, just as burning power abides in fire.',
           hindi: 'वह ब्रह्मस्वरूपा है, नित्य और सनातनी है। जैसे आत्मा है वैसे ही शक्ति है, जैसे अग्नि में दाहक शक्ति स्थित रहती है।',
@@ -485,7 +485,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1016,
-          sanskrit: 'जगतस्तत्त्वमित्येव देवी प्रोक्ता मयापि हि । ऋषिभिर्देवगन्धर्वैरन्यैश्चापि मनीषिभिः ||',
+          sanskrit: 'जगतस्तत्त्वमित्येव देवी प्रोक्ता मयापि हि । ऋषिभिर्देवगन्धर्वैरन्यैश्चापि मनीषिभिः ॥',
           transliteration: 'jagatas tattvam ity eva devī proktā mayāpi hi | ṛṣibhir devagandharvair anyaiś cāpi manīṣibhiḥ ||',
           translation: 'The Devi is indeed declared to be the very principle of the universe — by me, by the seers, by the gods and gandharvas, and by other wise ones.',
           hindi: 'देवी को ही जगत् का तत्त्व कहा गया है — मेरे द्वारा, ऋषियों द्वारा, देवों-गंधर्वों द्वारा और अन्य मनीषियों द्वारा भी।',
@@ -494,7 +494,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1027,
-          sanskrit: 'शक्तिश्च शिवश्च एकैव भिन्ना नास्ति कदाचन | यो शक्तिशिवयोरेकं जानाति स परां गतिम् ||',
+          sanskrit: 'शक्तिश्च शिवश्च एकैव भिन्ना नास्ति कदाचन । यो शक्तिशिवयोरेकं जानाति स परां गतिम् ॥',
           transliteration: 'śaktiśca śivaśca ekaiva bhinna nāsti kadācana | yo śaktiśivayorekaṃ jānāti sa parāṃ gatim ||',
           translation: 'Shakti and Shiva are one — there is no separation ever. He who knows the unity of Shakti and Shiva attains the supreme state.',
           hindi: 'शक्ति और शिव एक हैं — कभी भी भेद नहीं। जो शक्ति-शिव की एकता जानता है, वह परम गति प्राप्त करता है।',
@@ -503,7 +503,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1028,
-          sanskrit: 'देवी साक्षात् परं ब्रह्म निर्गुणा निश्चला शुधा | योगिनां हृदये नित्यं देवी भवति साक्षात् ||',
+          sanskrit: 'देवी साक्षात् परं ब्रह्म निर्गुणा निश्चला शुधा । योगिनां हृदये नित्यं देवी भवति साक्षात् ॥',
           transliteration: 'devī sākṣāt paraṃ brahma nirguṇā niścalā śudhā | yogināṃ hṛdaye nityaṃ devī bhavati sākṣāt ||',
           translation: 'Devi is indeed the supreme Brahman — without qualities, unmoving, pure. In the hearts of yogins, Devi is indeed present.',
           hindi: 'देवी साक्षात् परम ब्रह्म हैं — निर्गुण, निश्चल, शुद्ध। योगियों के हृदय में देवी साक्षात् विराजमान हैं।',
@@ -512,7 +512,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1029,
-          sanskrit: 'सर्वं खल्विदं देवी न भूतं न भविष्यति | सा एव सर्वशक्त्याढ्या सर्वकारणकारणम् ||',
+          sanskrit: 'सर्वं खल्विदं देवी न भूतं न भविष्यति । सा एव सर्वशक्त्याढ्या सर्वकारणकारणम् ॥',
           transliteration: 'sarvaṃ khalvidaṃ devī na bhūtaṃ na bhaviṣyati | sā eva sarvaśaktyāḍhyā sarvakāraṇakāraṇam ||',
           translation: 'All this is indeed Devi — what was not, what will not be. She alone is endowed with all powers, the cause of all causes.',
           hindi: 'सब कुछ वास्तव में देवी है — जो नहीं था, जो नहीं होगा। वही सभी शक्तियों से युक्त, सभी कारणों का कारण है।',
@@ -528,7 +528,7 @@ export const devibhagavat: Scripture = {
       verses: [
         {
           id: 2,
-          sanskrit: 'पुनस्त्वां प्रष्टुमिच्छामः कथां पौराणिकीं शुभाम् । वेदेऽपि कथितां रम्यां प्रसिद्धां पापनाशिनीम् ||',
+          sanskrit: 'पुनस्त्वां प्रष्टुमिच्छामः कथां पौराणिकीं शुभाम् । वेदेऽपि कथितां रम्यां प्रसिद्धां पापनाशिनीम् ॥',
           transliteration: 'punas tvāṃ praṣṭum icchāmaḥ kathāṃ paurāṇikīṃ śubhām | vede\'pi kathitāṃ ramyāṃ prasiddhāṃ pāpanāśinīm ||',
           translation: 'We wish to ask you again about an auspicious Puranic story, delightful, famous, destroying sin, and spoken of even in the Veda.',
           hindi: 'हम फिर आपसे उस शुभ पुराण-कथा को पूछना चाहते हैं, जो वेद में भी कही गई, रम्य, प्रसिद्ध और पाप-नाशिनी है।',
@@ -540,7 +540,7 @@ export const devibhagavat: Scripture = {
       
         {
           id: 1001,
-          sanskrit: 'पुनस्त्वां प्रष्टुमिच्छामः कथां पौराणिकीं शुभाम् । वेदेऽपि कथितां रम्यां प्रसिद्धां पापनाशिनीम् ||',
+          sanskrit: 'पुनस्त्वां प्रष्टुमिच्छामः कथां पौराणिकीं शुभाम् । वेदेऽपि कथितां रम्यां प्रसिद्धां पापनाशिनीम् ॥',
           transliteration: 'punas tvāṃ praṣṭum icchāmaḥ kathāṃ paurāṇikīṃ śubhām | vede\'pi kathitāṃ ramyāṃ prasiddhāṃ pāpanāśinīm ||',
           translation: 'We wish to ask you again about an auspicious Puranic story, delightful, famous, destroying sin, and spoken of even in the Veda.',
           hindi: 'हम फिर आपसे उस शुभ पुराण-कथा को पूछना चाहते हैं, जो वेद में भी कही गई, रम्य, प्रसिद्ध और पाप-नाशिनी है।',
@@ -549,7 +549,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1003,
-          sanskrit: 'वने गत्वा तपस्तप्तं वासुदेवेन दुष्करम् । विष्णोरंशावतारेण शिवस्याराधनं कृतम् ||',
+          sanskrit: 'वने गत्वा तपस्तप्तं वासुदेवेन दुष्करम् । विष्णोरंशावतारेण शिवस्याराधनं कृतम् ॥',
           transliteration: 'vane gatvā tapas taptaṃ vāsudevena duṣkaram | viṣṇor aṃśāvatāreṇa śivasyārādhanaṃ kṛtam ||',
           translation: 'Going to the forest, Vasudeva performed difficult austerity; as an incarnation of Vishnu, he worshipped Shiva.',
           hindi: 'वन में जाकर वासुदेव ने कठिन तप किया; विष्णु-अंशावतार होते हुए भी उन्होंने शिव की आराधना की।',
@@ -558,7 +558,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1005,
-          sanskrit: 'सर्वं खल्विदं ब्रह्म तज्जलानिति शान्त उपासीत | अथ कस्यायं माययो सृष्टः सङ्घातः प्रपञ्चः ||',
+          sanskrit: 'सर्वं खल्विदं ब्रह्म तज्जलानिति शान्त उपासीत । अथ कस्यायं माययो सृष्टः सङ्घातः प्रपञ्चः ॥',
           transliteration: 'sarvaṃ khalvidaṃ brahma tajjalāniti śānta upāsīta | atha kasyāyaṃ māyayo sṛṣṭaḥ saṅghātaḥ prapañcaḥ ||',
           translation: 'All this is indeed Brahman — calm, one should meditate on That. From what was this created illusion, this manifold world?',
           hindi: 'सब कुछ वास्तव में ब्रह्म है — शांत होकर उसी का उपासन करो। फिर यह माया से सृष्ट संघात, यह प्रपंच, किसका है?',
@@ -567,7 +567,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1006,
-          sanskrit: 'सूत उवाच । प्रणम्य परमां शक्तिं चतुर्वर्गप्रदायिनीम् । आदिशक्तिं वदिष्यामि कथां पौराणिकीं शुभाम् ||',
+          sanskrit: 'सूत उवाच । प्रणम्य परमां शक्तिं चतुर्वर्गप्रदायिनीम् । आदिशक्तिं वदिष्यामि कथां पौराणिकीं शुभाम् ॥',
           transliteration: 'sūta uvāca | praṇamya paramāṃ śaktiṃ caturvargapradāyinīm | ādiśaktiṃ vadiṣyāmi kathāṃ paurāṇikīṃ śubhām ||',
           translation: 'Suta said: Having bowed to the supreme Shakti, the giver of the four aims of life, I shall tell the auspicious ancient story of Adi Shakti.',
           hindi: 'सूत ने कहा: धर्म, अर्थ, काम और मोक्ष देने वाली परम शक्ति को प्रणाम कर मैं आदि शक्ति की शुभ पुराण-कथा कहूँगा।',
@@ -576,7 +576,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1010,
-          sanskrit: 'सा च ब्रह्मस्वरूपा च नित्या सा च सनातनी । यथाऽऽत्मा च तथा शक्तिर्यथाग्नौ दाहिका स्थिता ||',
+          sanskrit: 'सा च ब्रह्मस्वरूपा च नित्या सा च सनातनी । यथाऽऽत्मा च तथा शक्तिर्यथाग्नौ दाहिका स्थिता ॥',
           transliteration: 'sā ca brahmasvarūpā ca nityā sā ca sanātanī | yathātmā ca tathā śaktir yathāgnau dāhikā sthitā ||',
           translation: 'She is of the nature of Brahman; she is eternal and ancient. As the Self is, so is Shakti, just as burning power abides in fire.',
           hindi: 'वह ब्रह्मस्वरूपा है, नित्य और सनातनी है। जैसे आत्मा है वैसे ही शक्ति है, जैसे अग्नि में दाहक शक्ति स्थित रहती है।',
@@ -585,7 +585,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1016,
-          sanskrit: 'जगतस्तत्त्वमित्येव देवी प्रोक्ता मयापि हि । ऋषिभिर्देवगन्धर्वैरन्यैश्चापि मनीषिभिः ||',
+          sanskrit: 'जगतस्तत्त्वमित्येव देवी प्रोक्ता मयापि हि । ऋषिभिर्देवगन्धर्वैरन्यैश्चापि मनीषिभिः ॥',
           transliteration: 'jagatas tattvam ity eva devī proktā mayāpi hi | ṛṣibhir devagandharvair anyaiś cāpi manīṣibhiḥ ||',
           translation: 'The Devi is indeed declared to be the very principle of the universe — by me, by the seers, by the gods and gandharvas, and by other wise ones.',
           hindi: 'देवी को ही जगत् का तत्त्व कहा गया है — मेरे द्वारा, ऋषियों द्वारा, देवों-गंधर्वों द्वारा और अन्य मनीषियों द्वारा भी।',
@@ -594,7 +594,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1027,
-          sanskrit: 'शक्तिश्च शिवश्च एकैव भिन्ना नास्ति कदाचन | यो शक्तिशिवयोरेकं जानाति स परां गतिम् ||',
+          sanskrit: 'शक्तिश्च शिवश्च एकैव भिन्ना नास्ति कदाचन । यो शक्तिशिवयोरेकं जानाति स परां गतिम् ॥',
           transliteration: 'śaktiśca śivaśca ekaiva bhinna nāsti kadācana | yo śaktiśivayorekaṃ jānāti sa parāṃ gatim ||',
           translation: 'Shakti and Shiva are one — there is no separation ever. He who knows the unity of Shakti and Shiva attains the supreme state.',
           hindi: 'शक्ति और शिव एक हैं — कभी भी भेद नहीं। जो शक्ति-शिव की एकता जानता है, वह परम गति प्राप्त करता है।',
@@ -603,7 +603,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1028,
-          sanskrit: 'देवी साक्षात् परं ब्रह्म निर्गुणा निश्चला शुधा | योगिनां हृदये नित्यं देवी भवति साक्षात् ||',
+          sanskrit: 'देवी साक्षात् परं ब्रह्म निर्गुणा निश्चला शुधा । योगिनां हृदये नित्यं देवी भवति साक्षात् ॥',
           transliteration: 'devī sākṣāt paraṃ brahma nirguṇā niścalā śudhā | yogināṃ hṛdaye nityaṃ devī bhavati sākṣāt ||',
           translation: 'Devi is indeed the supreme Brahman — without qualities, unmoving, pure. In the hearts of yogins, Devi is indeed present.',
           hindi: 'देवी साक्षात् परम ब्रह्म हैं — निर्गुण, निश्चल, शुद्ध। योगियों के हृदय में देवी साक्षात् विराजमान हैं।',
@@ -612,7 +612,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1029,
-          sanskrit: 'सर्वं खल्विदं देवी न भूतं न भविष्यति | सा एव सर्वशक्त्याढ्या सर्वकारणकारणम् ||',
+          sanskrit: 'सर्वं खल्विदं देवी न भूतं न भविष्यति । सा एव सर्वशक्त्याढ्या सर्वकारणकारणम् ॥',
           transliteration: 'sarvaṃ khalvidaṃ devī na bhūtaṃ na bhaviṣyati | sā eva sarvaśaktyāḍhyā sarvakāraṇakāraṇam ||',
           translation: 'All this is indeed Devi — what was not, what will not be. She alone is endowed with all powers, the cause of all causes.',
           hindi: 'सब कुछ वास्तव में देवी है — जो नहीं था, जो नहीं होगा। वही सभी शक्तियों से युक्त, सभी कारणों का कारण है।',
@@ -628,7 +628,7 @@ export const devibhagavat: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'अहमेवाससं पूर्वं नान्यत् किञ्चिच्च बालकाः | तदात्मरूपं चित्संवित्परं ब्रह्माद्वयं विभु ||',
+          sanskrit: 'अहमेवाससं पूर्वं नान्यत् किञ्चिच्च बालकाः । तदात्मरूपं चित्संवित्परं ब्रह्माद्वयं विभु ॥',
           transliteration: 'ahamevāsasaṃ pūrvaṃ nānyat kiñcicca bālakāḥ | tadātmarūpaṃ citsaṃvitparaṃ brahmādvayaṃ vibhu ||',
           translation: 'I alone existed in the beginning, O children — nothing else whatsoever. That, my own form, is pure consciousness-awareness — the supreme, non-dual, all-pervading Brahman.',
           hindi: 'हे बालकों! प्रारंभ में मैं ही थी; और कुछ नहीं था। वही मेरा स्वरूप — चित्-संवित्, परम अद्वय ब्रह्म, सर्वव्यापी।',
@@ -639,7 +639,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'सर्वं खल्विदं ब्रह्म तज्जलानिति शान्त उपासीत | अथ कस्यायं माययो सृष्टः सङ्घातः प्रपञ्चः ||',
+          sanskrit: 'सर्वं खल्विदं ब्रह्म तज्जलानिति शान्त उपासीत । अथ कस्यायं माययो सृष्टः सङ्घातः प्रपञ्चः ॥',
           transliteration: 'sarvaṃ khalvidaṃ brahma tajjalāniti śānta upāsīta | atha kasyāyaṃ māyayo sṛṣṭaḥ saṅghātaḥ prapañcaḥ ||',
           translation: 'All this is indeed Brahman — calm, one should meditate on That. From what was this created illusion, this manifold world?',
           hindi: 'सब कुछ वास्तव में ब्रह्म है — शांत होकर उसी का उपासन करो। फिर यह माया से सृष्ट संघात, यह प्रपंच, किसका है?',
@@ -650,7 +650,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 27,
-          sanskrit: 'शक्तिश्च शिवश्च एकैव भिन्ना नास्ति कदाचन | यो शक्तिशिवयोरेकं जानाति स परां गतिम् ||',
+          sanskrit: 'शक्तिश्च शिवश्च एकैव भिन्ना नास्ति कदाचन । यो शक्तिशिवयोरेकं जानाति स परां गतिम् ॥',
           transliteration: 'śaktiśca śivaśca ekaiva bhinna nāsti kadācana | yo śaktiśivayorekaṃ jānāti sa parāṃ gatim ||',
           translation: 'Shakti and Shiva are one — there is no separation ever. He who knows the unity of Shakti and Shiva attains the supreme state.',
           hindi: 'शक्ति और शिव एक हैं — कभी भी भेद नहीं। जो शक्ति-शिव की एकता जानता है, वह परम गति प्राप्त करता है।',
@@ -661,7 +661,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 28,
-          sanskrit: 'देवी साक्षात् परं ब्रह्म निर्गुणा निश्चला शुधा | योगिनां हृदये नित्यं देवी भवति साक्षात् ||',
+          sanskrit: 'देवी साक्षात् परं ब्रह्म निर्गुणा निश्चला शुधा । योगिनां हृदये नित्यं देवी भवति साक्षात् ॥',
           transliteration: 'devī sākṣāt paraṃ brahma nirguṇā niścalā śudhā | yogināṃ hṛdaye nityaṃ devī bhavati sākṣāt ||',
           translation: 'Devi is indeed the supreme Brahman — without qualities, unmoving, pure. In the hearts of yogins, Devi is indeed present.',
           hindi: 'देवी साक्षात् परम ब्रह्म हैं — निर्गुण, निश्चल, शुद्ध। योगियों के हृदय में देवी साक्षात् विराजमान हैं।',
@@ -672,7 +672,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 29,
-          sanskrit: 'सर्वं खल्विदं देवी न भूतं न भविष्यति | सा एव सर्वशक्त्याढ्या सर्वकारणकारणम् ||',
+          sanskrit: 'सर्वं खल्विदं देवी न भूतं न भविष्यति । सा एव सर्वशक्त्याढ्या सर्वकारणकारणम् ॥',
           transliteration: 'sarvaṃ khalvidaṃ devī na bhūtaṃ na bhaviṣyati | sā eva sarvaśaktyāḍhyā sarvakāraṇakāraṇam ||',
           translation: 'All this is indeed Devi — what was not, what will not be. She alone is endowed with all powers, the cause of all causes.',
           hindi: 'सब कुछ वास्तव में देवी है — जो नहीं था, जो नहीं होगा। वही सभी शक्तियों से युक्त, सभी कारणों का कारण है।',
@@ -684,7 +684,7 @@ export const devibhagavat: Scripture = {
       
         {
           id: 1002,
-          sanskrit: 'सर्वं खल्विदं ब्रह्म तज्जलानिति शान्त उपासीत | अथ कस्यायं माययो सृष्टः सङ्घातः प्रपञ्चः ||',
+          sanskrit: 'सर्वं खल्विदं ब्रह्म तज्जलानिति शान्त उपासीत । अथ कस्यायं माययो सृष्टः सङ्घातः प्रपञ्चः ॥',
           transliteration: 'sarvaṃ khalvidaṃ brahma tajjalāniti śānta upāsīta | atha kasyāyaṃ māyayo sṛṣṭaḥ saṅghātaḥ prapañcaḥ ||',
           translation: 'All this is indeed Brahman — calm, one should meditate on That. From what was this created illusion, this manifold world?',
           hindi: 'सब कुछ वास्तव में ब्रह्म है — शांत होकर उसी का उपासन करो। फिर यह माया से सृष्ट संघात, यह प्रपंच, किसका है?',
@@ -693,7 +693,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1006,
-          sanskrit: 'शक्तिश्च शिवश्च एकैव भिन्ना नास्ति कदाचन | यो शक्तिशिवयोरेकं जानाति स परां गतिम् ||',
+          sanskrit: 'शक्तिश्च शिवश्च एकैव भिन्ना नास्ति कदाचन । यो शक्तिशिवयोरेकं जानाति स परां गतिम् ॥',
           transliteration: 'śaktiśca śivaśca ekaiva bhinna nāsti kadācana | yo śaktiśivayorekaṃ jānāti sa parāṃ gatim ||',
           translation: 'Shakti and Shiva are one — there is no separation ever. He who knows the unity of Shakti and Shiva attains the supreme state.',
           hindi: 'शक्ति और शिव एक हैं — कभी भी भेद नहीं। जो शक्ति-शिव की एकता जानता है, वह परम गति प्राप्त करता है।',
@@ -702,7 +702,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1016,
-          sanskrit: 'सर्वं खल्विदं देवी न भूतं न भविष्यति | सा एव सर्वशक्त्याढ्या सर्वकारणकारणम् ||',
+          sanskrit: 'सर्वं खल्विदं देवी न भूतं न भविष्यति । सा एव सर्वशक्त्याढ्या सर्वकारणकारणम् ॥',
           transliteration: 'sarvaṃ khalvidaṃ devī na bhūtaṃ na bhaviṣyati | sā eva sarvaśaktyāḍhyā sarvakāraṇakāraṇam ||',
           translation: 'All this is indeed Devi — what was not, what will not be. She alone is endowed with all powers, the cause of all causes.',
           hindi: 'सब कुछ वास्तव में देवी है — जो नहीं था, जो नहीं होगा। वही सभी शक्तियों से युक्त, सभी कारणों का कारण है।',
@@ -711,7 +711,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 2010,
-          sanskrit: 'देवी साक्षात् परं ब्रह्म निर्गुणा निश्चला शुधा | योगिनां हृदये नित्यं देवी भवति साक्षात् ||',
+          sanskrit: 'देवी साक्षात् परं ब्रह्म निर्गुणा निश्चला शुधा । योगिनां हृदये नित्यं देवी भवति साक्षात् ॥',
           transliteration: 'devī sākṣāt paraṃ brahma nirguṇā niścalā śudhā | yogināṃ hṛdaye nityaṃ devī bhavati sākṣāt ||',
           translation: 'Devi is indeed the supreme Brahman — without qualities, unmoving, pure. In the hearts of yogins, Devi is indeed present.',
           hindi: 'देवी साक्षात् परम ब्रह्म हैं — निर्गुण, निश्चल, शुद्ध। योगियों के हृदय में देवी साक्षात् विराजमान हैं।',
@@ -727,7 +727,7 @@ export const devibhagavat: Scripture = {
       verses: [
         {
           id: 16,
-          sanskrit: 'जगतस्तत्त्वमित्येव देवी प्रोक्ता मयापि हि । ऋषिभिर्देवगन्धर्वैरन्यैश्चापि मनीषिभिः ||',
+          sanskrit: 'जगतस्तत्त्वमित्येव देवी प्रोक्ता मयापि हि । ऋषिभिर्देवगन्धर्वैरन्यैश्चापि मनीषिभिः ॥',
           transliteration: 'jagatas tattvam ity eva devī proktā mayāpi hi | ṛṣibhir devagandharvair anyaiś cāpi manīṣibhiḥ ||',
           translation: 'The Devi is indeed declared to be the very principle of the universe — by me, by the seers, by the gods and gandharvas, and by other wise ones.',
           hindi: 'देवी को ही जगत् का तत्त्व कहा गया है — मेरे द्वारा, ऋषियों द्वारा, देवों-गंधर्वों द्वारा और अन्य मनीषियों द्वारा भी।',
@@ -739,7 +739,7 @@ export const devibhagavat: Scripture = {
       
         {
           id: 1001,
-          sanskrit: 'जगतस्तत्त्वमित्येव देवी प्रोक्ता मयापि हि । ऋषिभिर्देवगन्धर्वैरन्यैश्चापि मनीषिभिः ||',
+          sanskrit: 'जगतस्तत्त्वमित्येव देवी प्रोक्ता मयापि हि । ऋषिभिर्देवगन्धर्वैरन्यैश्चापि मनीषिभिः ॥',
           transliteration: 'jagatas tattvam ity eva devī proktā mayāpi hi | ṛṣibhir devagandharvair anyaiś cāpi manīṣibhiḥ ||',
           translation: 'The Devi is indeed declared to be the very principle of the universe — by me, by the seers, by the gods and gandharvas, and by other wise ones.',
           hindi: 'देवी को ही जगत् का तत्त्व कहा गया है — मेरे द्वारा, ऋषियों द्वारा, देवों-गंधर्वों द्वारा और अन्य मनीषियों द्वारा भी।',
@@ -748,7 +748,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1002,
-          sanskrit: 'त्वं स्वाहा त्वं स्वधा त्वं हि वषट्कारस्वरात्मिका | सुधा त्वमक्षरे नित्ये त्रिधा मात्रात्मिका स्थिता ||',
+          sanskrit: 'त्वं स्वाहा त्वं स्वधा त्वं हि वषट्कारस्वरात्मिका । सुधा त्वमक्षरे नित्ये त्रिधा मात्रात्मिका स्थिता ॥',
           transliteration: 'tvaṃ svāhā tvaṃ svadhā tvaṃ hi vaṣaṭkārasvarātmikā | sudhā tvamakṣare nitye tridhā mātrātmikā sthitā ||',
           translation: 'You are Svaha (the sacred offering), you are Svadha (the ancestral offering), you are the essence of the Vashat sound; you are Sudha (nectar), eternal and imperishable, dwelling in three measures.',
           hindi: 'तुम स्वाहा हो, तुम स्वधा हो, तुम ही वषट् स्वर-स्वरूपा हो। तुम सुधा (अमृत) हो, नित्य और अक्षर, त्रिमात्रा (OM की तीन मात्रा) रूप में स्थित।',
@@ -757,7 +757,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1003,
-          sanskrit: 'वने गत्वा तपस्तप्तं वासुदेवेन दुष्करम् । विष्णोरंशावतारेण शिवस्याराधनं कृतम् ||',
+          sanskrit: 'वने गत्वा तपस्तप्तं वासुदेवेन दुष्करम् । विष्णोरंशावतारेण शिवस्याराधनं कृतम् ॥',
           transliteration: 'vane gatvā tapas taptaṃ vāsudevena duṣkaram | viṣṇor aṃśāvatāreṇa śivasyārādhanaṃ kṛtam ||',
           translation: 'Going to the forest, Vasudeva performed difficult austerity; as an incarnation of Vishnu, he worshipped Shiva.',
           hindi: 'वन में जाकर वासुदेव ने कठिन तप किया; विष्णु-अंशावतार होते हुए भी उन्होंने शिव की आराधना की।',
@@ -766,7 +766,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1005,
-          sanskrit: 'सर्वं खल्विदं ब्रह्म तज्जलानिति शान्त उपासीत | अथ कस्यायं माययो सृष्टः सङ्घातः प्रपञ्चः ||',
+          sanskrit: 'सर्वं खल्विदं ब्रह्म तज्जलानिति शान्त उपासीत । अथ कस्यायं माययो सृष्टः सङ्घातः प्रपञ्चः ॥',
           transliteration: 'sarvaṃ khalvidaṃ brahma tajjalāniti śānta upāsīta | atha kasyāyaṃ māyayo sṛṣṭaḥ saṅghātaḥ prapañcaḥ ||',
           translation: 'All this is indeed Brahman — calm, one should meditate on That. From what was this created illusion, this manifold world?',
           hindi: 'सब कुछ वास्तव में ब्रह्म है — शांत होकर उसी का उपासन करो। फिर यह माया से सृष्ट संघात, यह प्रपंच, किसका है?',
@@ -775,7 +775,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1006,
-          sanskrit: 'सूत उवाच । प्रणम्य परमां शक्तिं चतुर्वर्गप्रदायिनीम् । आदिशक्तिं वदिष्यामि कथां पौराणिकीं शुभाम् ||',
+          sanskrit: 'सूत उवाच । प्रणम्य परमां शक्तिं चतुर्वर्गप्रदायिनीम् । आदिशक्तिं वदिष्यामि कथां पौराणिकीं शुभाम् ॥',
           transliteration: 'sūta uvāca | praṇamya paramāṃ śaktiṃ caturvargapradāyinīm | ādiśaktiṃ vadiṣyāmi kathāṃ paurāṇikīṃ śubhām ||',
           translation: 'Suta said: Having bowed to the supreme Shakti, the giver of the four aims of life, I shall tell the auspicious ancient story of Adi Shakti.',
           hindi: 'सूत ने कहा: धर्म, अर्थ, काम और मोक्ष देने वाली परम शक्ति को प्रणाम कर मैं आदि शक्ति की शुभ पुराण-कथा कहूँगा।',
@@ -784,7 +784,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1010,
-          sanskrit: 'सा च ब्रह्मस्वरूपा च नित्या सा च सनातनी । यथाऽऽत्मा च तथा शक्तिर्यथाग्नौ दाहिका स्थिता ||',
+          sanskrit: 'सा च ब्रह्मस्वरूपा च नित्या सा च सनातनी । यथाऽऽत्मा च तथा शक्तिर्यथाग्नौ दाहिका स्थिता ॥',
           transliteration: 'sā ca brahmasvarūpā ca nityā sā ca sanātanī | yathātmā ca tathā śaktir yathāgnau dāhikā sthitā ||',
           translation: 'She is of the nature of Brahman; she is eternal and ancient. As the Self is, so is Shakti, just as burning power abides in fire.',
           hindi: 'वह ब्रह्मस्वरूपा है, नित्य और सनातनी है। जैसे आत्मा है वैसे ही शक्ति है, जैसे अग्नि में दाहक शक्ति स्थित रहती है।',
@@ -793,7 +793,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1027,
-          sanskrit: 'शक्तिश्च शिवश्च एकैव भिन्ना नास्ति कदाचन | यो शक्तिशिवयोरेकं जानाति स परां गतिम् ||',
+          sanskrit: 'शक्तिश्च शिवश्च एकैव भिन्ना नास्ति कदाचन । यो शक्तिशिवयोरेकं जानाति स परां गतिम् ॥',
           transliteration: 'śaktiśca śivaśca ekaiva bhinna nāsti kadācana | yo śaktiśivayorekaṃ jānāti sa parāṃ gatim ||',
           translation: 'Shakti and Shiva are one — there is no separation ever. He who knows the unity of Shakti and Shiva attains the supreme state.',
           hindi: 'शक्ति और शिव एक हैं — कभी भी भेद नहीं। जो शक्ति-शिव की एकता जानता है, वह परम गति प्राप्त करता है।',
@@ -802,7 +802,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1028,
-          sanskrit: 'देवी साक्षात् परं ब्रह्म निर्गुणा निश्चला शुधा | योगिनां हृदये नित्यं देवी भवति साक्षात् ||',
+          sanskrit: 'देवी साक्षात् परं ब्रह्म निर्गुणा निश्चला शुधा । योगिनां हृदये नित्यं देवी भवति साक्षात् ॥',
           transliteration: 'devī sākṣāt paraṃ brahma nirguṇā niścalā śudhā | yogināṃ hṛdaye nityaṃ devī bhavati sākṣāt ||',
           translation: 'Devi is indeed the supreme Brahman — without qualities, unmoving, pure. In the hearts of yogins, Devi is indeed present.',
           hindi: 'देवी साक्षात् परम ब्रह्म हैं — निर्गुण, निश्चल, शुद्ध। योगियों के हृदय में देवी साक्षात् विराजमान हैं।',
@@ -811,7 +811,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1029,
-          sanskrit: 'सर्वं खल्विदं देवी न भूतं न भविष्यति | सा एव सर्वशक्त्याढ्या सर्वकारणकारणम् ||',
+          sanskrit: 'सर्वं खल्विदं देवी न भूतं न भविष्यति । सा एव सर्वशक्त्याढ्या सर्वकारणकारणम् ॥',
           transliteration: 'sarvaṃ khalvidaṃ devī na bhūtaṃ na bhaviṣyati | sā eva sarvaśaktyāḍhyā sarvakāraṇakāraṇam ||',
           translation: 'All this is indeed Devi — what was not, what will not be. She alone is endowed with all powers, the cause of all causes.',
           hindi: 'सब कुछ वास्तव में देवी है — जो नहीं था, जो नहीं होगा। वही सभी शक्तियों से युक्त, सभी कारणों का कारण है।',
@@ -827,7 +827,7 @@ export const devibhagavat: Scripture = {
       verses: [
         {
           id: 10,
-          sanskrit: 'सा च ब्रह्मस्वरूपा च नित्या सा च सनातनी । यथाऽऽत्मा च तथा शक्तिर्यथाग्नौ दाहिका स्थिता ||',
+          sanskrit: 'सा च ब्रह्मस्वरूपा च नित्या सा च सनातनी । यथाऽऽत्मा च तथा शक्तिर्यथाग्नौ दाहिका स्थिता ॥',
           transliteration: 'sā ca brahmasvarūpā ca nityā sā ca sanātanī | yathātmā ca tathā śaktir yathāgnau dāhikā sthitā ||',
           translation: 'She is of the nature of Brahman; she is eternal and ancient. As the Self is, so is Shakti, just as burning power abides in fire.',
           hindi: 'वह ब्रह्मस्वरूपा है, नित्य और सनातनी है। जैसे आत्मा है वैसे ही शक्ति है, जैसे अग्नि में दाहक शक्ति स्थित रहती है।',
@@ -839,7 +839,7 @@ export const devibhagavat: Scripture = {
       
         {
           id: 1001,
-          sanskrit: 'सा च ब्रह्मस्वरूपा च नित्या सा च सनातनी । यथाऽऽत्मा च तथा शक्तिर्यथाग्नौ दाहिका स्थिता ||',
+          sanskrit: 'सा च ब्रह्मस्वरूपा च नित्या सा च सनातनी । यथाऽऽत्मा च तथा शक्तिर्यथाग्नौ दाहिका स्थिता ॥',
           transliteration: 'sā ca brahmasvarūpā ca nityā sā ca sanātanī | yathātmā ca tathā śaktir yathāgnau dāhikā sthitā ||',
           translation: 'She is of the nature of Brahman; she is eternal and ancient. As the Self is, so is Shakti, just as burning power abides in fire.',
           hindi: 'वह ब्रह्मस्वरूपा है, नित्य और सनातनी है। जैसे आत्मा है वैसे ही शक्ति है, जैसे अग्नि में दाहक शक्ति स्थित रहती है।',
@@ -848,7 +848,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1002,
-          sanskrit: 'त्वं स्वाहा त्वं स्वधा त्वं हि वषट्कारस्वरात्मिका | सुधा त्वमक्षरे नित्ये त्रिधा मात्रात्मिका स्थिता ||',
+          sanskrit: 'त्वं स्वाहा त्वं स्वधा त्वं हि वषट्कारस्वरात्मिका । सुधा त्वमक्षरे नित्ये त्रिधा मात्रात्मिका स्थिता ॥',
           transliteration: 'tvaṃ svāhā tvaṃ svadhā tvaṃ hi vaṣaṭkārasvarātmikā | sudhā tvamakṣare nitye tridhā mātrātmikā sthitā ||',
           translation: 'You are Svaha (the sacred offering), you are Svadha (the ancestral offering), you are the essence of the Vashat sound; you are Sudha (nectar), eternal and imperishable, dwelling in three measures.',
           hindi: 'तुम स्वाहा हो, तुम स्वधा हो, तुम ही वषट् स्वर-स्वरूपा हो। तुम सुधा (अमृत) हो, नित्य और अक्षर, त्रिमात्रा (OM की तीन मात्रा) रूप में स्थित।',
@@ -857,7 +857,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1003,
-          sanskrit: 'वने गत्वा तपस्तप्तं वासुदेवेन दुष्करम् । विष्णोरंशावतारेण शिवस्याराधनं कृतम् ||',
+          sanskrit: 'वने गत्वा तपस्तप्तं वासुदेवेन दुष्करम् । विष्णोरंशावतारेण शिवस्याराधनं कृतम् ॥',
           transliteration: 'vane gatvā tapas taptaṃ vāsudevena duṣkaram | viṣṇor aṃśāvatāreṇa śivasyārādhanaṃ kṛtam ||',
           translation: 'Going to the forest, Vasudeva performed difficult austerity; as an incarnation of Vishnu, he worshipped Shiva.',
           hindi: 'वन में जाकर वासुदेव ने कठिन तप किया; विष्णु-अंशावतार होते हुए भी उन्होंने शिव की आराधना की।',
@@ -866,7 +866,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1005,
-          sanskrit: 'सर्वं खल्विदं ब्रह्म तज्जलानिति शान्त उपासीत | अथ कस्यायं माययो सृष्टः सङ्घातः प्रपञ्चः ||',
+          sanskrit: 'सर्वं खल्विदं ब्रह्म तज्जलानिति शान्त उपासीत । अथ कस्यायं माययो सृष्टः सङ्घातः प्रपञ्चः ॥',
           transliteration: 'sarvaṃ khalvidaṃ brahma tajjalāniti śānta upāsīta | atha kasyāyaṃ māyayo sṛṣṭaḥ saṅghātaḥ prapañcaḥ ||',
           translation: 'All this is indeed Brahman — calm, one should meditate on That. From what was this created illusion, this manifold world?',
           hindi: 'सब कुछ वास्तव में ब्रह्म है — शांत होकर उसी का उपासन करो। फिर यह माया से सृष्ट संघात, यह प्रपंच, किसका है?',
@@ -875,7 +875,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1006,
-          sanskrit: 'सूत उवाच । प्रणम्य परमां शक्तिं चतुर्वर्गप्रदायिनीम् । आदिशक्तिं वदिष्यामि कथां पौराणिकीं शुभाम् ||',
+          sanskrit: 'सूत उवाच । प्रणम्य परमां शक्तिं चतुर्वर्गप्रदायिनीम् । आदिशक्तिं वदिष्यामि कथां पौराणिकीं शुभाम् ॥',
           transliteration: 'sūta uvāca | praṇamya paramāṃ śaktiṃ caturvargapradāyinīm | ādiśaktiṃ vadiṣyāmi kathāṃ paurāṇikīṃ śubhām ||',
           translation: 'Suta said: Having bowed to the supreme Shakti, the giver of the four aims of life, I shall tell the auspicious ancient story of Adi Shakti.',
           hindi: 'सूत ने कहा: धर्म, अर्थ, काम और मोक्ष देने वाली परम शक्ति को प्रणाम कर मैं आदि शक्ति की शुभ पुराण-कथा कहूँगा।',
@@ -884,7 +884,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1016,
-          sanskrit: 'जगतस्तत्त्वमित्येव देवी प्रोक्ता मयापि हि । ऋषिभिर्देवगन्धर्वैरन्यैश्चापि मनीषिभिः ||',
+          sanskrit: 'जगतस्तत्त्वमित्येव देवी प्रोक्ता मयापि हि । ऋषिभिर्देवगन्धर्वैरन्यैश्चापि मनीषिभिः ॥',
           transliteration: 'jagatas tattvam ity eva devī proktā mayāpi hi | ṛṣibhir devagandharvair anyaiś cāpi manīṣibhiḥ ||',
           translation: 'The Devi is indeed declared to be the very principle of the universe — by me, by the seers, by the gods and gandharvas, and by other wise ones.',
           hindi: 'देवी को ही जगत् का तत्त्व कहा गया है — मेरे द्वारा, ऋषियों द्वारा, देवों-गंधर्वों द्वारा और अन्य मनीषियों द्वारा भी।',
@@ -893,7 +893,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1027,
-          sanskrit: 'शक्तिश्च शिवश्च एकैव भिन्ना नास्ति कदाचन | यो शक्तिशिवयोरेकं जानाति स परां गतिम् ||',
+          sanskrit: 'शक्तिश्च शिवश्च एकैव भिन्ना नास्ति कदाचन । यो शक्तिशिवयोरेकं जानाति स परां गतिम् ॥',
           transliteration: 'śaktiśca śivaśca ekaiva bhinna nāsti kadācana | yo śaktiśivayorekaṃ jānāti sa parāṃ gatim ||',
           translation: 'Shakti and Shiva are one — there is no separation ever. He who knows the unity of Shakti and Shiva attains the supreme state.',
           hindi: 'शक्ति और शिव एक हैं — कभी भी भेद नहीं। जो शक्ति-शिव की एकता जानता है, वह परम गति प्राप्त करता है।',
@@ -902,7 +902,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1028,
-          sanskrit: 'देवी साक्षात् परं ब्रह्म निर्गुणा निश्चला शुधा | योगिनां हृदये नित्यं देवी भवति साक्षात् ||',
+          sanskrit: 'देवी साक्षात् परं ब्रह्म निर्गुणा निश्चला शुधा । योगिनां हृदये नित्यं देवी भवति साक्षात् ॥',
           transliteration: 'devī sākṣāt paraṃ brahma nirguṇā niścalā śudhā | yogināṃ hṛdaye nityaṃ devī bhavati sākṣāt ||',
           translation: 'Devi is indeed the supreme Brahman — without qualities, unmoving, pure. In the hearts of yogins, Devi is indeed present.',
           hindi: 'देवी साक्षात् परम ब्रह्म हैं — निर्गुण, निश्चल, शुद्ध। योगियों के हृदय में देवी साक्षात् विराजमान हैं।',
@@ -911,7 +911,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1029,
-          sanskrit: 'सर्वं खल्विदं देवी न भूतं न भविष्यति | सा एव सर्वशक्त्याढ्या सर्वकारणकारणम् ||',
+          sanskrit: 'सर्वं खल्विदं देवी न भूतं न भविष्यति । सा एव सर्वशक्त्याढ्या सर्वकारणकारणम् ॥',
           transliteration: 'sarvaṃ khalvidaṃ devī na bhūtaṃ na bhaviṣyati | sā eva sarvaśaktyāḍhyā sarvakāraṇakāraṇam ||',
           translation: 'All this is indeed Devi — what was not, what will not be. She alone is endowed with all powers, the cause of all causes.',
           hindi: 'सब कुछ वास्तव में देवी है — जो नहीं था, जो नहीं होगा। वही सभी शक्तियों से युक्त, सभी कारणों का कारण है।',
@@ -927,7 +927,7 @@ export const devibhagavat: Scripture = {
       verses: [
         {
           id: 16,
-          sanskrit: 'मान्ये पूज्ये जगद्धात्रि सर्वमङ्गलमङ्गले । त्वत्कटाक्षावलोकेन पद्मभूः सृजते जगत् ||',
+          sanskrit: 'मान्ये पूज्ये जगद्धात्रि सर्वमङ्गलमङ्गले । त्वत्कटाक्षावलोकेन पद्मभूः सृजते जगत् ॥',
           transliteration: 'mānye pūjye jagaddhātri sarvamaṅgalamaṅgale | tvatkaṭākṣāvalokena padmabhūḥ sṛjate jagat ||',
           translation: 'O honored and worshipful bearer of the world, auspicious among all that is auspicious, by the glance of your eye the lotus-born Brahma creates the universe.',
           hindi: 'हे माननीय, पूजनीय, जगद्धात्री, सर्वमंगलों में मंगलमयी! आपके कटाक्ष से ही पद्मभू ब्रह्मा जगत् की सृष्टि करते हैं।',
@@ -939,7 +939,7 @@ export const devibhagavat: Scripture = {
       
         {
           id: 1001,
-          sanskrit: 'मान्ये पूज्ये जगद्धात्रि सर्वमङ्गलमङ्गले । त्वत्कटाक्षावलोकेन पद्मभूः सृजते जगत् ||',
+          sanskrit: 'मान्ये पूज्ये जगद्धात्रि सर्वमङ्गलमङ्गले । त्वत्कटाक्षावलोकेन पद्मभूः सृजते जगत् ॥',
           transliteration: 'mānye pūjye jagaddhātri sarvamaṅgalamaṅgale | tvatkaṭākṣāvalokena padmabhūḥ sṛjate jagat ||',
           translation: 'O honored and worshipful bearer of the world, auspicious among all that is auspicious, by the glance of your eye the lotus-born Brahma creates the universe.',
           hindi: 'हे माननीय, पूजनीय, जगद्धात्री, सर्वमंगलों में मंगलमयी! आपके कटाक्ष से ही पद्मभू ब्रह्मा जगत् की सृष्टि करते हैं।',
@@ -948,7 +948,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1002,
-          sanskrit: 'त्वं स्वाहा त्वं स्वधा त्वं हि वषट्कारस्वरात्मिका | सुधा त्वमक्षरे नित्ये त्रिधा मात्रात्मिका स्थिता ||',
+          sanskrit: 'त्वं स्वाहा त्वं स्वधा त्वं हि वषट्कारस्वरात्मिका । सुधा त्वमक्षरे नित्ये त्रिधा मात्रात्मिका स्थिता ॥',
           transliteration: 'tvaṃ svāhā tvaṃ svadhā tvaṃ hi vaṣaṭkārasvarātmikā | sudhā tvamakṣare nitye tridhā mātrātmikā sthitā ||',
           translation: 'You are Svaha (the sacred offering), you are Svadha (the ancestral offering), you are the essence of the Vashat sound; you are Sudha (nectar), eternal and imperishable, dwelling in three measures.',
           hindi: 'तुम स्वाहा हो, तुम स्वधा हो, तुम ही वषट् स्वर-स्वरूपा हो। तुम सुधा (अमृत) हो, नित्य और अक्षर, त्रिमात्रा (OM की तीन मात्रा) रूप में स्थित।',
@@ -957,7 +957,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1003,
-          sanskrit: 'वने गत्वा तपस्तप्तं वासुदेवेन दुष्करम् । विष्णोरंशावतारेण शिवस्याराधनं कृतम् ||',
+          sanskrit: 'वने गत्वा तपस्तप्तं वासुदेवेन दुष्करम् । विष्णोरंशावतारेण शिवस्याराधनं कृतम् ॥',
           transliteration: 'vane gatvā tapas taptaṃ vāsudevena duṣkaram | viṣṇor aṃśāvatāreṇa śivasyārādhanaṃ kṛtam ||',
           translation: 'Going to the forest, Vasudeva performed difficult austerity; as an incarnation of Vishnu, he worshipped Shiva.',
           hindi: 'वन में जाकर वासुदेव ने कठिन तप किया; विष्णु-अंशावतार होते हुए भी उन्होंने शिव की आराधना की।',
@@ -966,7 +966,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1005,
-          sanskrit: 'सर्वं खल्विदं ब्रह्म तज्जलानिति शान्त उपासीत | अथ कस्यायं माययो सृष्टः सङ्घातः प्रपञ्चः ||',
+          sanskrit: 'सर्वं खल्विदं ब्रह्म तज्जलानिति शान्त उपासीत । अथ कस्यायं माययो सृष्टः सङ्घातः प्रपञ्चः ॥',
           transliteration: 'sarvaṃ khalvidaṃ brahma tajjalāniti śānta upāsīta | atha kasyāyaṃ māyayo sṛṣṭaḥ saṅghātaḥ prapañcaḥ ||',
           translation: 'All this is indeed Brahman — calm, one should meditate on That. From what was this created illusion, this manifold world?',
           hindi: 'सब कुछ वास्तव में ब्रह्म है — शांत होकर उसी का उपासन करो। फिर यह माया से सृष्ट संघात, यह प्रपंच, किसका है?',
@@ -975,7 +975,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1006,
-          sanskrit: 'सूत उवाच । प्रणम्य परमां शक्तिं चतुर्वर्गप्रदायिनीम् । आदिशक्तिं वदिष्यामि कथां पौराणिकीं शुभाम् ||',
+          sanskrit: 'सूत उवाच । प्रणम्य परमां शक्तिं चतुर्वर्गप्रदायिनीम् । आदिशक्तिं वदिष्यामि कथां पौराणिकीं शुभाम् ॥',
           transliteration: 'sūta uvāca | praṇamya paramāṃ śaktiṃ caturvargapradāyinīm | ādiśaktiṃ vadiṣyāmi kathāṃ paurāṇikīṃ śubhām ||',
           translation: 'Suta said: Having bowed to the supreme Shakti, the giver of the four aims of life, I shall tell the auspicious ancient story of Adi Shakti.',
           hindi: 'सूत ने कहा: धर्म, अर्थ, काम और मोक्ष देने वाली परम शक्ति को प्रणाम कर मैं आदि शक्ति की शुभ पुराण-कथा कहूँगा।',
@@ -984,7 +984,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1010,
-          sanskrit: 'सा च ब्रह्मस्वरूपा च नित्या सा च सनातनी । यथाऽऽत्मा च तथा शक्तिर्यथाग्नौ दाहिका स्थिता ||',
+          sanskrit: 'सा च ब्रह्मस्वरूपा च नित्या सा च सनातनी । यथाऽऽत्मा च तथा शक्तिर्यथाग्नौ दाहिका स्थिता ॥',
           transliteration: 'sā ca brahmasvarūpā ca nityā sā ca sanātanī | yathātmā ca tathā śaktir yathāgnau dāhikā sthitā ||',
           translation: 'She is of the nature of Brahman; she is eternal and ancient. As the Self is, so is Shakti, just as burning power abides in fire.',
           hindi: 'वह ब्रह्मस्वरूपा है, नित्य और सनातनी है। जैसे आत्मा है वैसे ही शक्ति है, जैसे अग्नि में दाहक शक्ति स्थित रहती है।',
@@ -993,7 +993,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 2027,
-          sanskrit: 'शक्तिश्च शिवश्च एकैव भिन्ना नास्ति कदाचन | यो शक्तिशिवयोरेकं जानाति स परां गतिम् ||',
+          sanskrit: 'शक्तिश्च शिवश्च एकैव भिन्ना नास्ति कदाचन । यो शक्तिशिवयोरेकं जानाति स परां गतिम् ॥',
           transliteration: 'śaktiśca śivaśca ekaiva bhinna nāsti kadācana | yo śaktiśivayorekaṃ jānāti sa parāṃ gatim ||',
           translation: 'Shakti and Shiva are one — there is no separation ever. He who knows the unity of Shakti and Shiva attains the supreme state.',
           hindi: 'शक्ति और शिव एक हैं — कभी भी भेद नहीं। जो शक्ति-शिव की एकता जानता है, वह परम गति प्राप्त करता है।',
@@ -1002,7 +1002,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 2028,
-          sanskrit: 'देवी साक्षात् परं ब्रह्म निर्गुणा निश्चला शुधा | योगिनां हृदये नित्यं देवी भवति साक्षात् ||',
+          sanskrit: 'देवी साक्षात् परं ब्रह्म निर्गुणा निश्चला शुधा । योगिनां हृदये नित्यं देवी भवति साक्षात् ॥',
           transliteration: 'devī sākṣāt paraṃ brahma nirguṇā niścalā śudhā | yogināṃ hṛdaye nityaṃ devī bhavati sākṣāt ||',
           translation: 'Devi is indeed the supreme Brahman — without qualities, unmoving, pure. In the hearts of yogins, Devi is indeed present.',
           hindi: 'देवी साक्षात् परम ब्रह्म हैं — निर्गुण, निश्चल, शुद्ध। योगियों के हृदय में देवी साक्षात् विराजमान हैं।',
@@ -1011,7 +1011,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 9029,
-          sanskrit: 'सर्वं खल्विदं देवी न भूतं न भविष्यति | सा एव सर्वशक्त्याढ्या सर्वकारणकारणम् ||',
+          sanskrit: 'सर्वं खल्विदं देवी न भूतं न भविष्यति । सा एव सर्वशक्त्याढ्या सर्वकारणकारणम् ॥',
           transliteration: 'sarvaṃ khalvidaṃ devī na bhūtaṃ na bhaviṣyati | sā eva sarvaśaktyāḍhyā sarvakāraṇakāraṇam ||',
           translation: 'All this is indeed Devi — what was not, what will not be. She alone is endowed with all powers, the cause of all causes.',
           hindi: 'सब कुछ वास्तव में देवी है — जो नहीं था, जो नहीं होगा। वही सभी शक्तियों से युक्त, सभी कारणों का कारण है।',
@@ -1027,7 +1027,7 @@ export const devibhagavat: Scripture = {
       verses: [
         {
           id: 10,
-          sanskrit: 'आचाराल्लभते चायुराचाराल्लभते प्रजाः । आचारादन्नमक्षय्यमाचारो हन्ति पातकम् ||',
+          sanskrit: 'आचाराल्लभते चायुराचाराल्लभते प्रजाः । आचारादन्नमक्षय्यमाचारो हन्ति पातकम् ॥',
           transliteration: 'ācārāl labhate cāyur ācārāl labhate prajāḥ | ācārād annam akṣayyam ācāro hanti pātakam ||',
           translation: 'From right conduct one gains life; from right conduct one gains flourishing people. From right conduct comes inexhaustible sustenance; right conduct destroys wrongdoing.',
           hindi: 'आचार से आयु मिलती है, आचार से संतति और समाज की वृद्धि होती है। आचार से अक्षय अन्न मिलता है, और आचार पाप का नाश करता है।',
@@ -1039,7 +1039,7 @@ export const devibhagavat: Scripture = {
       
         {
           id: 1001,
-          sanskrit: 'आचाराल्लभते चायुराचाराल्लभते प्रजाः । आचारादन्नमक्षय्यमाचारो हन्ति पातकम् ||',
+          sanskrit: 'आचाराल्लभते चायुराचाराल्लभते प्रजाः । आचारादन्नमक्षय्यमाचारो हन्ति पातकम् ॥',
           transliteration: 'ācārāl labhate cāyur ācārāl labhate prajāḥ | ācārād annam akṣayyam ācāro hanti pātakam ||',
           translation: 'From right conduct one gains life; from right conduct one gains flourishing people. From right conduct comes inexhaustible sustenance; right conduct destroys wrongdoing.',
           hindi: 'आचार से आयु मिलती है, आचार से संतति और समाज की वृद्धि होती है। आचार से अक्षय अन्न मिलता है, और आचार पाप का नाश करता है।',
@@ -1048,7 +1048,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1002,
-          sanskrit: 'त्वं स्वाहा त्वं स्वधा त्वं हि वषट्कारस्वरात्मिका | सुधा त्वमक्षरे नित्ये त्रिधा मात्रात्मिका स्थिता ||',
+          sanskrit: 'त्वं स्वाहा त्वं स्वधा त्वं हि वषट्कारस्वरात्मिका । सुधा त्वमक्षरे नित्ये त्रिधा मात्रात्मिका स्थिता ॥',
           transliteration: 'tvaṃ svāhā tvaṃ svadhā tvaṃ hi vaṣaṭkārasvarātmikā | sudhā tvamakṣare nitye tridhā mātrātmikā sthitā ||',
           translation: 'You are Svaha (the sacred offering), you are Svadha (the ancestral offering), you are the essence of the Vashat sound; you are Sudha (nectar), eternal and imperishable, dwelling in three measures.',
           hindi: 'तुम स्वाहा हो, तुम स्वधा हो, तुम ही वषट् स्वर-स्वरूपा हो। तुम सुधा (अमृत) हो, नित्य और अक्षर, त्रिमात्रा (OM की तीन मात्रा) रूप में स्थित।',
@@ -1057,7 +1057,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1003,
-          sanskrit: 'वने गत्वा तपस्तप्तं वासुदेवेन दुष्करम् । विष्णोरंशावतारेण शिवस्याराधनं कृतम् ||',
+          sanskrit: 'वने गत्वा तपस्तप्तं वासुदेवेन दुष्करम् । विष्णोरंशावतारेण शिवस्याराधनं कृतम् ॥',
           transliteration: 'vane gatvā tapas taptaṃ vāsudevena duṣkaram | viṣṇor aṃśāvatāreṇa śivasyārādhanaṃ kṛtam ||',
           translation: 'Going to the forest, Vasudeva performed difficult austerity; as an incarnation of Vishnu, he worshipped Shiva.',
           hindi: 'वन में जाकर वासुदेव ने कठिन तप किया; विष्णु-अंशावतार होते हुए भी उन्होंने शिव की आराधना की।',
@@ -1066,7 +1066,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1005,
-          sanskrit: 'सर्वं खल्विदं ब्रह्म तज्जलानिति शान्त उपासीत | अथ कस्यायं माययो सृष्टः सङ्घातः प्रपञ्चः ||',
+          sanskrit: 'सर्वं खल्विदं ब्रह्म तज्जलानिति शान्त उपासीत । अथ कस्यायं माययो सृष्टः सङ्घातः प्रपञ्चः ॥',
           transliteration: 'sarvaṃ khalvidaṃ brahma tajjalāniti śānta upāsīta | atha kasyāyaṃ māyayo sṛṣṭaḥ saṅghātaḥ prapañcaḥ ||',
           translation: 'All this is indeed Brahman — calm, one should meditate on That. From what was this created illusion, this manifold world?',
           hindi: 'सब कुछ वास्तव में ब्रह्म है — शांत होकर उसी का उपासन करो। फिर यह माया से सृष्ट संघात, यह प्रपंच, किसका है?',
@@ -1075,7 +1075,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1006,
-          sanskrit: 'सूत उवाच । प्रणम्य परमां शक्तिं चतुर्वर्गप्रदायिनीम् । आदिशक्तिं वदिष्यामि कथां पौराणिकीं शुभाम् ||',
+          sanskrit: 'सूत उवाच । प्रणम्य परमां शक्तिं चतुर्वर्गप्रदायिनीम् । आदिशक्तिं वदिष्यामि कथां पौराणिकीं शुभाम् ॥',
           transliteration: 'sūta uvāca | praṇamya paramāṃ śaktiṃ caturvargapradāyinīm | ādiśaktiṃ vadiṣyāmi kathāṃ paurāṇikīṃ śubhām ||',
           translation: 'Suta said: Having bowed to the supreme Shakti, the giver of the four aims of life, I shall tell the auspicious ancient story of Adi Shakti.',
           hindi: 'सूत ने कहा: धर्म, अर्थ, काम और मोक्ष देने वाली परम शक्ति को प्रणाम कर मैं आदि शक्ति की शुभ पुराण-कथा कहूँगा।',
@@ -1084,7 +1084,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1016,
-          sanskrit: 'जगतस्तत्त्वमित्येव देवी प्रोक्ता मयापि हि । ऋषिभिर्देवगन्धर्वैरन्यैश्चापि मनीषिभिः ||',
+          sanskrit: 'जगतस्तत्त्वमित्येव देवी प्रोक्ता मयापि हि । ऋषिभिर्देवगन्धर्वैरन्यैश्चापि मनीषिभिः ॥',
           transliteration: 'jagatas tattvam ity eva devī proktā mayāpi hi | ṛṣibhir devagandharvair anyaiś cāpi manīṣibhiḥ ||',
           translation: 'The Devi is indeed declared to be the very principle of the universe — by me, by the seers, by the gods and gandharvas, and by other wise ones.',
           hindi: 'देवी को ही जगत् का तत्त्व कहा गया है — मेरे द्वारा, ऋषियों द्वारा, देवों-गंधर्वों द्वारा और अन्य मनीषियों द्वारा भी।',
@@ -1093,7 +1093,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1027,
-          sanskrit: 'शक्तिश्च शिवश्च एकैव भिन्ना नास्ति कदाचन | यो शक्तिशिवयोरेकं जानाति स परां गतिम् ||',
+          sanskrit: 'शक्तिश्च शिवश्च एकैव भिन्ना नास्ति कदाचन । यो शक्तिशिवयोरेकं जानाति स परां गतिम् ॥',
           transliteration: 'śaktiśca śivaśca ekaiva bhinna nāsti kadācana | yo śaktiśivayorekaṃ jānāti sa parāṃ gatim ||',
           translation: 'Shakti and Shiva are one — there is no separation ever. He who knows the unity of Shakti and Shiva attains the supreme state.',
           hindi: 'शक्ति और शिव एक हैं — कभी भी भेद नहीं। जो शक्ति-शिव की एकता जानता है, वह परम गति प्राप्त करता है।',
@@ -1102,7 +1102,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1028,
-          sanskrit: 'देवी साक्षात् परं ब्रह्म निर्गुणा निश्चला शुधा | योगिनां हृदये नित्यं देवी भवति साक्षात् ||',
+          sanskrit: 'देवी साक्षात् परं ब्रह्म निर्गुणा निश्चला शुधा । योगिनां हृदये नित्यं देवी भवति साक्षात् ॥',
           transliteration: 'devī sākṣāt paraṃ brahma nirguṇā niścalā śudhā | yogināṃ hṛdaye nityaṃ devī bhavati sākṣāt ||',
           translation: 'Devi is indeed the supreme Brahman — without qualities, unmoving, pure. In the hearts of yogins, Devi is indeed present.',
           hindi: 'देवी साक्षात् परम ब्रह्म हैं — निर्गुण, निश्चल, शुद्ध। योगियों के हृदय में देवी साक्षात् विराजमान हैं।',
@@ -1111,7 +1111,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1029,
-          sanskrit: 'सर्वं खल्विदं देवी न भूतं न भविष्यति | सा एव सर्वशक्त्याढ्या सर्वकारणकारणम् ||',
+          sanskrit: 'सर्वं खल्विदं देवी न भूतं न भविष्यति । सा एव सर्वशक्त्याढ्या सर्वकारणकारणम् ॥',
           transliteration: 'sarvaṃ khalvidaṃ devī na bhūtaṃ na bhaviṣyati | sā eva sarvaśaktyāḍhyā sarvakāraṇakāraṇam ||',
           translation: 'All this is indeed Devi — what was not, what will not be. She alone is endowed with all powers, the cause of all causes.',
           hindi: 'सब कुछ वास्तव में देवी है — जो नहीं था, जो नहीं होगा। वही सभी शक्तियों से युक्त, सभी कारणों का कारण है।',
@@ -1127,7 +1127,7 @@ export const devibhagavat: Scripture = {
       verses: [
         {
           id: 10,
-          sanskrit: 'न्यासान्करोतु वा मा वा गायत्रीमेव चाभ्यसेत् । ध्यात्वा निर्व्याजया वृत्त्या सच्चिदानन्दरूपिणीम् ||',
+          sanskrit: 'न्यासान्करोतु वा मा वा गायत्रीमेव चाभ्यसेत् । ध्यात्वा निर्व्याजया वृत्त्या सच्चिदानन्दरूपिणीम् ॥',
           transliteration: 'nyāsān karotu vā mā vā gāyatrīm eva cābhyaset | dhyātvā nirvyājayā vṛttyā saccidānandarūpiṇīm ||',
           translation: 'Whether one performs the nyasas or not, one should practice Gayatri alone, meditating with an unpretending disposition on her whose form is existence, consciousness, and bliss.',
           hindi: 'न्यास करे या न करे, साधक को गायत्री का ही अभ्यास करना चाहिए, निष्कपट वृत्ति से सच्चिदानन्दरूपिणी का ध्यान करते हुए।',
@@ -1139,7 +1139,7 @@ export const devibhagavat: Scripture = {
       
         {
           id: 1001,
-          sanskrit: 'न्यासान्करोतु वा मा वा गायत्रीमेव चाभ्यसेत् । ध्यात्वा निर्व्याजया वृत्त्या सच्चिदानन्दरूपिणीम् ||',
+          sanskrit: 'न्यासान्करोतु वा मा वा गायत्रीमेव चाभ्यसेत् । ध्यात्वा निर्व्याजया वृत्त्या सच्चिदानन्दरूपिणीम् ॥',
           transliteration: 'nyāsān karotu vā mā vā gāyatrīm eva cābhyaset | dhyātvā nirvyājayā vṛttyā saccidānandarūpiṇīm ||',
           translation: 'Whether one performs the nyasas or not, one should practice Gayatri alone, meditating with an unpretending disposition on her whose form is existence, consciousness, and bliss.',
           hindi: 'न्यास करे या न करे, साधक को गायत्री का ही अभ्यास करना चाहिए, निष्कपट वृत्ति से सच्चिदानन्दरूपिणी का ध्यान करते हुए।',
@@ -1148,7 +1148,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1002,
-          sanskrit: 'त्वं स्वाहा त्वं स्वधा त्वं हि वषट्कारस्वरात्मिका | सुधा त्वमक्षरे नित्ये त्रिधा मात्रात्मिका स्थिता ||',
+          sanskrit: 'त्वं स्वाहा त्वं स्वधा त्वं हि वषट्कारस्वरात्मिका । सुधा त्वमक्षरे नित्ये त्रिधा मात्रात्मिका स्थिता ॥',
           transliteration: 'tvaṃ svāhā tvaṃ svadhā tvaṃ hi vaṣaṭkārasvarātmikā | sudhā tvamakṣare nitye tridhā mātrātmikā sthitā ||',
           translation: 'You are Svaha (the sacred offering), you are Svadha (the ancestral offering), you are the essence of the Vashat sound; you are Sudha (nectar), eternal and imperishable, dwelling in three measures.',
           hindi: 'तुम स्वाहा हो, तुम स्वधा हो, तुम ही वषट् स्वर-स्वरूपा हो। तुम सुधा (अमृत) हो, नित्य और अक्षर, त्रिमात्रा (OM की तीन मात्रा) रूप में स्थित।',
@@ -1157,7 +1157,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1003,
-          sanskrit: 'वने गत्वा तपस्तप्तं वासुदेवेन दुष्करम् । विष्णोरंशावतारेण शिवस्याराधनं कृतम् ||',
+          sanskrit: 'वने गत्वा तपस्तप्तं वासुदेवेन दुष्करम् । विष्णोरंशावतारेण शिवस्याराधनं कृतम् ॥',
           transliteration: 'vane gatvā tapas taptaṃ vāsudevena duṣkaram | viṣṇor aṃśāvatāreṇa śivasyārādhanaṃ kṛtam ||',
           translation: 'Going to the forest, Vasudeva performed difficult austerity; as an incarnation of Vishnu, he worshipped Shiva.',
           hindi: 'वन में जाकर वासुदेव ने कठिन तप किया; विष्णु-अंशावतार होते हुए भी उन्होंने शिव की आराधना की।',
@@ -1166,7 +1166,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1005,
-          sanskrit: 'सर्वं खल्विदं ब्रह्म तज्जलानिति शान्त उपासीत | अथ कस्यायं माययो सृष्टः सङ्घातः प्रपञ्चः ||',
+          sanskrit: 'सर्वं खल्विदं ब्रह्म तज्जलानिति शान्त उपासीत । अथ कस्यायं माययो सृष्टः सङ्घातः प्रपञ्चः ॥',
           transliteration: 'sarvaṃ khalvidaṃ brahma tajjalāniti śānta upāsīta | atha kasyāyaṃ māyayo sṛṣṭaḥ saṅghātaḥ prapañcaḥ ||',
           translation: 'All this is indeed Brahman — calm, one should meditate on That. From what was this created illusion, this manifold world?',
           hindi: 'सब कुछ वास्तव में ब्रह्म है — शांत होकर उसी का उपासन करो। फिर यह माया से सृष्ट संघात, यह प्रपंच, किसका है?',
@@ -1175,7 +1175,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1006,
-          sanskrit: 'सूत उवाच । प्रणम्य परमां शक्तिं चतुर्वर्गप्रदायिनीम् । आदिशक्तिं वदिष्यामि कथां पौराणिकीं शुभाम् ||',
+          sanskrit: 'सूत उवाच । प्रणम्य परमां शक्तिं चतुर्वर्गप्रदायिनीम् । आदिशक्तिं वदिष्यामि कथां पौराणिकीं शुभाम् ॥',
           transliteration: 'sūta uvāca | praṇamya paramāṃ śaktiṃ caturvargapradāyinīm | ādiśaktiṃ vadiṣyāmi kathāṃ paurāṇikīṃ śubhām ||',
           translation: 'Suta said: Having bowed to the supreme Shakti, the giver of the four aims of life, I shall tell the auspicious ancient story of Adi Shakti.',
           hindi: 'सूत ने कहा: धर्म, अर्थ, काम और मोक्ष देने वाली परम शक्ति को प्रणाम कर मैं आदि शक्ति की शुभ पुराण-कथा कहूँगा।',
@@ -1184,7 +1184,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 1027,
-          sanskrit: 'शक्तिश्च शिवश्च एकैव भिन्ना नास्ति कदाचन | यो शक्तिशिवयोरेकं जानाति स परां गतिम् ||',
+          sanskrit: 'शक्तिश्च शिवश्च एकैव भिन्ना नास्ति कदाचन । यो शक्तिशिवयोरेकं जानाति स परां गतिम् ॥',
           transliteration: 'śaktiśca śivaśca ekaiva bhinna nāsti kadācana | yo śaktiśivayorekaṃ jānāti sa parāṃ gatim ||',
           translation: 'Shakti and Shiva are one — there is no separation ever. He who knows the unity of Shakti and Shiva attains the supreme state.',
           hindi: 'शक्ति और शिव एक हैं — कभी भी भेद नहीं। जो शक्ति-शिव की एकता जानता है, वह परम गति प्राप्त करता है।',
@@ -1193,7 +1193,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 2016,
-          sanskrit: 'जगतस्तत्त्वमित्येव देवी प्रोक्ता मयापि हि । ऋषिभिर्देवगन्धर्वैरन्यैश्चापि मनीषिभिः ||',
+          sanskrit: 'जगतस्तत्त्वमित्येव देवी प्रोक्ता मयापि हि । ऋषिभिर्देवगन्धर्वैरन्यैश्चापि मनीषिभिः ॥',
           transliteration: 'jagatas tattvam ity eva devī proktā mayāpi hi | ṛṣibhir devagandharvair anyaiś cāpi manīṣibhiḥ ||',
           translation: 'The Devi is indeed declared to be the very principle of the universe — by me, by the seers, by the gods and gandharvas, and by other wise ones.',
           hindi: 'देवी को ही जगत् का तत्त्व कहा गया है — मेरे द्वारा, ऋषियों द्वारा, देवों-गंधर्वों द्वारा और अन्य मनीषियों द्वारा भी।',
@@ -1202,7 +1202,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 5028,
-          sanskrit: 'देवी साक्षात् परं ब्रह्म निर्गुणा निश्चला शुधा | योगिनां हृदये नित्यं देवी भवति साक्षात् ||',
+          sanskrit: 'देवी साक्षात् परं ब्रह्म निर्गुणा निश्चला शुधा । योगिनां हृदये नित्यं देवी भवति साक्षात् ॥',
           transliteration: 'devī sākṣāt paraṃ brahma nirguṇā niścalā śudhā | yogināṃ hṛdaye nityaṃ devī bhavati sākṣāt ||',
           translation: 'Devi is indeed the supreme Brahman — without qualities, unmoving, pure. In the hearts of yogins, Devi is indeed present.',
           hindi: 'देवी साक्षात् परम ब्रह्म हैं — निर्गुण, निश्चल, शुद्ध। योगियों के हृदय में देवी साक्षात् विराजमान हैं।',
@@ -1211,7 +1211,7 @@ export const devibhagavat: Scripture = {
         },
         {
           id: 5029,
-          sanskrit: 'सर्वं खल्विदं देवी न भूतं न भविष्यति | सा एव सर्वशक्त्याढ्या सर्वकारणकारणम् ||',
+          sanskrit: 'सर्वं खल्विदं देवी न भूतं न भविष्यति । सा एव सर्वशक्त्याढ्या सर्वकारणकारणम् ॥',
           transliteration: 'sarvaṃ khalvidaṃ devī na bhūtaṃ na bhaviṣyati | sā eva sarvaśaktyāḍhyā sarvakāraṇakāraṇam ||',
           translation: 'All this is indeed Devi — what was not, what will not be. She alone is endowed with all powers, the cause of all causes.',
           hindi: 'सब कुछ वास्तव में देवी है — जो नहीं था, जो नहीं होगा। वही सभी शक्तियों से युक्त, सभी कारणों का कारण है।',

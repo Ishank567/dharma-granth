@@ -18,7 +18,7 @@ export const manusmriti: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'सत्यं ब्रूयात् प्रियं ब्रूयात् न ब्रूयात् सत्यमप्रियम् |\nप्रियं च नानृतं ब्रूयादेष धर्मः सनातनः ||',
+          sanskrit: 'सत्यं ब्रूयात् प्रियं ब्रूयात् न ब्रूयात् सत्यमप्रियम् ।\nप्रियं च नानृतं ब्रूयादेष धर्मः सनातनः ॥',
           transliteration: 'satyaṃ brūyāt priyaṃ brūyāt na brūyāt satyamapriyam |\npriyaṃ ca nānṛtaṃ brūyādeṣa dharmaḥ sanātanaḥ ||',
           translation: 'Speak truth; speak the pleasant. Do not speak the unpleasant truth; do not speak the pleasant untruth. This is the eternal dharma.',
           hindi: 'सत्य बोलो; प्रिय बोलो। अप्रिय सत्य मत बोलो; प्रिय झूठ भी मत बोलो। यही सनातन धर्म है।',
@@ -29,7 +29,7 @@ export const manusmriti: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'अहिंसा सत्यमस्तेयं शौचमिन्द्रियनिग्रहः |\nएतं सामासिकं धर्मं चातुर्वर्ण्येऽब्रवीन्मनुः ||',
+          sanskrit: 'अहिंसा सत्यमस्तेयं शौचमिन्द्रियनिग्रहः ।\nएतं सामासिकं धर्मं चातुर्वर्ण्येऽब्रवीन्मनुः ॥',
           transliteration: "ahiṃsā satyamasteyaṃ śaucamindriyanigrahaḥ |\netaṃ sāmāsikaṃ dharmaṃ cāturvarṇye'bravīnmanuḥ ||",
           translation: 'Non-violence, truth, non-stealing, purity, and control of the senses — this is the condensed dharma that Manu declared for all four varnas.',
           hindi: 'अहिंसा, सत्य, अस्तेय (न चुराना), शौच (पवित्रता), और इन्द्रिय-निग्रह — यह संक्षिप्त धर्म है जो मनु ने चारों वर्णों के लिए कहा।',
@@ -40,7 +40,7 @@ export const manusmriti: Scripture = {
         },
         {
           id: 3,
-          sanskrit: 'यं मातापितरौ क्लेशं सहेते संभवे नृणाम् |\nन तस्य निष्कृतिः शक्या कर्तुं वर्षशतैरपि ||',
+          sanskrit: 'यं मातापितरौ क्लेशं सहेते संभवे नृणाम् ।\nन तस्य निष्कृतिः शक्या कर्तुं वर्षशतैरपि ॥',
           transliteration: 'yaṃ mātāpitarau kleśaṃ sahete sambhave nṛṇām |\nna tasya niṣkṛtiḥ śakyā kartuṃ varṣaśatairapi ||',
           translation: 'The toil that parents undergo at the birth and raising of a human being — that debt cannot be repaid even in a hundred years.',
           hindi: 'माता-पिता जो कष्ट मनुष्य के जन्म के समय और पालन-पोषण में सहते हैं — उस ऋण को सौ वर्षों में भी नहीं चुकाया जा सकता।',
@@ -51,7 +51,7 @@ export const manusmriti: Scripture = {
         },
         {
           id: 4,
-          sanskrit: 'श्रुतं तपश्च योनिश्च एतद् ब्राह्मणकारणम् | श्रुतं तु विशिष्यते तेषां योनिश्च तपश्च तत् ||',
+          sanskrit: 'श्रुतं तपश्च योनिश्च एतद् ब्राह्मणकारणम् । श्रुतं तु विशिष्यते तेषां योनिश्च तपश्च तत् ॥',
           transliteration: 'śrutaṃ tapaśca yoniśca etad brāhmaṇakāraṇam | śrutaṃ tu viśiṣyate teṣāṃ yoniśca tapaśca tat ||',
           translation: 'Learning, austerity, and birth — these are the causes of being a Brahmin. But learning is distinguished among them; birth and austerity follow from it.',
           hindi: 'श्रुति-ज्ञान, तप और जन्म — ये ब्राह्मणत्व के कारण हैं। परन्तु इनमें श्रुति-ज्ञान विशिष्ट है; जन्म और तप उसके अनुगामी हैं।',
@@ -63,7 +63,7 @@ export const manusmriti: Scripture = {
       
         {
           id: 1002,
-          sanskrit: 'अहिंसा सत्यमस्तेयं शौचमिन्द्रियनिग्रहः |\nएतं सामासिकं धर्मं चातुर्वर्ण्येऽब्रवीन्मनुः ||',
+          sanskrit: 'अहिंसा सत्यमस्तेयं शौचमिन्द्रियनिग्रहः ।\nएतं सामासिकं धर्मं चातुर्वर्ण्येऽब्रवीन्मनुः ॥',
           transliteration: 'ahiṃsā satyamasteyaṃ śaucamindriyanigrahaḥ |\netaṃ sāmāsikaṃ dharmaṃ cāturvarṇye\'bravīnmanuḥ ||',
           translation: 'Non-violence, truth, non-stealing, purity, and control of the senses — this is the condensed dharma that Manu declared for all four varnas.',
           hindi: 'अहिंसा, सत्य, अस्तेय (न चुराना), शौच (पवित्रता), और इन्द्रिय-निग्रह — यह संक्षिप्त धर्म है जो मनु ने चारों वर्णों के लिए कहा।',
@@ -80,7 +80,7 @@ export const manusmriti: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'अभिवादनशीलस्य नित्यं वृद्धोपसेविनः | चत्वारि तस्य वर्धन्ते आयुर्विद्या यशो बलम् ||',
+          sanskrit: 'अभिवादनशीलस्य नित्यं वृद्धोपसेविनः । चत्वारि तस्य वर्धन्ते आयुर्विद्या यशो बलम् ॥',
           transliteration: 'abhivādanaśīlasya nityaṃ vṛddhopaSevinaḥ | catvāri tasya vardhante āyurvidyā yaśo balam ||',
           translation: 'For one who habitually greets respectfully and constantly serves elders, four things increase: lifespan, knowledge, fame, and strength.',
           hindi: 'जो व्यक्ति प्रतिदिन अभिवादन करता है और वृद्धों की सेवा करता है — उसकी चार चीजें बढ़ती हैं: आयु, विद्या, यश और बल।',
@@ -91,7 +91,7 @@ export const manusmriti: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'न तत् परस्य समादद्यात् प्रतिकूलं यदात्मनः | संक्षेपेण एष धर्मः स्यात् कामादन्यः प्रवर्तते ||',
+          sanskrit: 'न तत् परस्य समादद्यात् प्रतिकूलं यदात्मनः । संक्षेपेण एष धर्मः स्यात् कामादन्यः प्रवर्तते ॥',
           transliteration: 'na tat parasya samādadyāt pratikūlaṃ yadātmanaḥ | saṃkṣepeṇa eṣa dharmaḥ syāt kāmādanyaḥ pravartate ||',
           translation: 'Do not do to another what you would find disagreeable if done to yourself. In brief, this is the essence of dharma; from desire, other conduct proceeds.',
           hindi: 'दूसरे के साथ वैसा व्यवहार मत करो जो तुम्हें स्वयं अप्रिय लगे। संक्षेप में यही धर्म का सार है; शेष कामना से होता है।',
@@ -102,7 +102,7 @@ export const manusmriti: Scripture = {
         },
         {
           id: 3,
-          sanskrit: 'मनः एव मनुष्याणां कारणं बन्धमोक्षयोः | बन्धाय विषयासक्तं मुक्त्यै निर्विषयं स्मृतम् ||',
+          sanskrit: 'मनः एव मनुष्याणां कारणं बन्धमोक्षयोः । बन्धाय विषयासक्तं मुक्त्यै निर्विषयं स्मृतम् ॥',
           transliteration: 'manaḥ eva manuṣyāṇāṃ kāraṇaṃ bandhamokṣayoḥ | bandhāya viṣayāsaktaṃ muktyai nirviṣayaṃ smṛtam ||',
           translation: 'The mind alone is the cause of both bondage and liberation for human beings. The mind attached to sense-objects leads to bondage; the mind free of sense-objects leads to liberation.',
           hindi: 'मन ही मनुष्यों के बन्धन और मोक्ष का कारण है। विषयों में आसक्त मन बन्धन का कारण है; विषयरहित मन मुक्ति का।',
@@ -114,7 +114,7 @@ export const manusmriti: Scripture = {
       
         {
           id: 2003,
-          sanskrit: 'मनः एव मनुष्याणां कारणं बन्धमोक्षयोः | बन्धाय विषयासक्तं मुक्त्यै निर्विषयं स्मृतम् ||',
+          sanskrit: 'मनः एव मनुष्याणां कारणं बन्धमोक्षयोः । बन्धाय विषयासक्तं मुक्त्यै निर्विषयं स्मृतम् ॥',
           transliteration: 'manaḥ eva manuṣyāṇāṃ kāraṇaṃ bandhamokṣayoḥ | bandhāya viṣayāsaktaṃ muktyai nirviṣayaṃ smṛtam ||',
           translation: 'The mind alone is the cause of both bondage and liberation for human beings. The mind attached to sense-objects leads to bondage; the mind free of sense-objects leads to liberation.',
           hindi: 'मन ही मनुष्यों के बन्धन और मोक्ष का कारण है। विषयों में आसक्त मन बन्धन का कारण है; विषयरहित मन मुक्ति का।',
@@ -123,7 +123,7 @@ export const manusmriti: Scripture = {
         },
         {
           id: 2004,
-          sanskrit: 'श्रुतं तपश्च योनिश्च एतद् ब्राह्मणकारणम् | श्रुतं तु विशिष्यते तेषां योनिश्च तपश्च तत् ||',
+          sanskrit: 'श्रुतं तपश्च योनिश्च एतद् ब्राह्मणकारणम् । श्रुतं तु विशिष्यते तेषां योनिश्च तपश्च तत् ॥',
           transliteration: 'śrutaṃ tapaśca yoniśca etad brāhmaṇakāraṇam | śrutaṃ tu viśiṣyate teṣāṃ yoniśca tapaśca tat ||',
           translation: 'Learning, austerity, and birth — these are the causes of being a Brahmin. But learning is distinguished among them; birth and austerity follow from it.',
           hindi: 'श्रुति-ज्ञान, तप और जन्म — ये ब्राह्मणत्व के कारण हैं। परन्तु इनमें श्रुति-ज्ञान विशिष्ट है; जन्म और तप उसके अनुगामी हैं।',
@@ -140,7 +140,7 @@ export const manusmriti: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'अव्याकरणमधीत्य व्याकरणं च यो विदुः | तं विद्याधर्मसम्पन्नं विदुर्ब्राह्मणसत्तमम् ||',
+          sanskrit: 'अव्याकरणमधीत्य व्याकरणं च यो विदुः । तं विद्याधर्मसम्पन्नं विदुर्ब्राह्मणसत्तमम् ॥',
           transliteration: 'avyākaraṇamadhītya vyākaraṇaṃ ca yo viduḥ | taṃ vidyādharmasampannaṃ vidurbrāhmaṇasattamam ||',
           translation: 'One who has studied both the studied and the unstudied — who is endowed with both learning and dharma — the wise recognize as the best among the learned.',
           hindi: 'जो व्यक्रण-प्रयोग और अव्यक्त दोनों को जानता है, जो विद्या और धर्म दोनों से सम्पन्न है — उसे ज्ञानी लोग श्रेष्ठ विद्वान मानते हैं।',
@@ -151,7 +151,7 @@ export const manusmriti: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'सर्वे क्षयान्ता निचयाः पतनान्ताः समुच्छ्रयाः | संयोगा विप्रयोगान्ताः मरणान्तं च जीवितम् ||',
+          sanskrit: 'सर्वे क्षयान्ता निचयाः पतनान्ताः समुच्छ्रयाः । संयोगा विप्रयोगान्ताः मरणान्तं च जीवितम् ॥',
           transliteration: 'sarve kṣayāntā nicayāḥ patanāntāḥ samucchrayāḥ | saṃyogā viprayogāntāḥ maraṇāntaṃ ca jīvitam ||',
           translation: 'All accumulations end in depletion; all heights end in falls; all unions end in separation; all life ends in death.',
           hindi: 'सभी संचय अंततः क्षय में समाप्त होते हैं; सभी ऊँचाइयाँ पतन में; सभी मिलन वियोग में; और सभी जीवन मृत्यु में।',
@@ -162,7 +162,7 @@ export const manusmriti: Scripture = {
         },
         {
           id: 3,
-          sanskrit: 'एकः पापानि कुरुते फलं भुङ्क्ते महाजनः | भोक्तारो विप्रमुच्यन्ते कर्ता दोषेण लिप्यते ||',
+          sanskrit: 'एकः पापानि कुरुते फलं भुङ्क्ते महाजनः । भोक्तारो विप्रमुच्यन्ते कर्ता दोषेण लिप्यते ॥',
           transliteration: 'ekaḥ pāpāni kurute phalaṃ bhuṅkte mahājanaḥ | bhoktāro vipramucyante kartā doṣeṇa lipyate ||',
           translation: 'One person commits the wrong; the multitude reaps the consequence. But those who reap the consequence are released; the one who acted is stained by the fault.',
           hindi: 'एक व्यक्ति पाप करता है; फल अनेक लोग भोगते हैं। परन्तु फल भोगने वाले मुक्त हो जाते हैं; कर्म करने वाला ही दोष से लिप्त रहता है।',
@@ -174,7 +174,7 @@ export const manusmriti: Scripture = {
       
         {
           id: 3004,
-          sanskrit: 'श्रुतं तपश्च योनिश्च एतद् ब्राह्मणकारणम् | श्रुतं तु विशिष्यते तेषां योनिश्च तपश्च तत् ||',
+          sanskrit: 'श्रुतं तपश्च योनिश्च एतद् ब्राह्मणकारणम् । श्रुतं तु विशिष्यते तेषां योनिश्च तपश्च तत् ॥',
           transliteration: 'śrutaṃ tapaśca yoniśca etad brāhmaṇakāraṇam | śrutaṃ tu viśiṣyate teṣāṃ yoniśca tapaśca tat ||',
           translation: 'Learning, austerity, and birth — these are the causes of being a Brahmin. But learning is distinguished among them; birth and austerity follow from it.',
           hindi: 'श्रुति-ज्ञान, तप और जन्म — ये ब्राह्मणत्व के कारण हैं। परन्तु इनमें श्रुति-ज्ञान विशिष्ट है; जन्म और तप उसके अनुगामी हैं।',
@@ -191,7 +191,7 @@ export const manusmriti: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'नाभिशस्तो न वाचा दुष्टो न चाहारपरो भवेत् | आत्मा वशे स्थितः सदा एष धर्मः परः स्मृतः ||',
+          sanskrit: 'नाभिशस्तो न वाचा दुष्टो न चाहारपरो भवेत् । आत्मा वशे स्थितः सदा एष धर्मः परः स्मृतः ॥',
           transliteration: 'nābhiśasto na vācā duṣṭo na cāhāraparo bhavet | ātmā vaśe sthitaḥ sadā eṣa dharmaḥ paraḥ smṛtaḥ ||',
           translation: 'Do not speak ill of others, do not corrupt speech, do not be enslaved by appetite. The Self always under its own control — this is declared the highest dharma.',
           hindi: 'दूसरों की निन्दा मत करो, वाणी को दूषित मत करो, भोजन के अधीन मत रहो। आत्मा सदा अपने वश में हो — यही परम धर्म कहा गया है।',
@@ -202,7 +202,7 @@ export const manusmriti: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'सुखस्य मूलं धर्मः धर्मस्य मूलमर्थः | अर्थस्य मूलं राज्यं राज्यस्य मूलमिन्द्रियजयः ||',
+          sanskrit: 'सुखस्य मूलं धर्मः धर्मस्य मूलमर्थः । अर्थस्य मूलं राज्यं राज्यस्य मूलमिन्द्रियजयः ॥',
           transliteration: 'sukhasya mūlaṃ dharmaḥ dharmasya mūlamarthaḥ | arthasya mūlaṃ rājyaṃ rājyasya mūlamindriyajayaḥ ||',
           translation: 'The root of happiness is dharma. The root of dharma is artha (right livelihood). The root of artha is governance. The root of governance is conquest of the senses.',
           hindi: 'सुख की जड़ धर्म है। धर्म की जड़ अर्थ है। अर्थ की जड़ सुशासन है। सुशासन की जड़ इन्द्रिय-जय है।',

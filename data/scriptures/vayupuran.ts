@@ -17,7 +17,7 @@ export const vayupuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'कालः सृजति भूतानि कालः संहरते प्रजाः | कालः सुप्तेषु जागर्ति कालो हि दुरतिक्रमः ||',
+          sanskrit: 'कालः सृजति भूतानि कालः संहरते प्रजाः । कालः सुप्तेषु जागर्ति कालो हि दुरतिक्रमः ॥',
           transliteration: 'kālaḥ sṛjati bhūtāni kālaḥ saṃharate prajāḥ | kālaḥ supteṣu jāgarti kālo hi duratikramaḥ ||',
           translation: 'Time creates all beings; time destroys all creatures. Time is awake even when they sleep. Time is indeed insurmountable.',
           hindi: 'काल सभी प्राणियों की सृष्टि करता है; काल सभी का संहार करता है। जब वे सोते हैं, काल जागता रहता है। काल वास्तव में अतिक्रमण से परे है।',
@@ -28,7 +28,7 @@ export const vayupuran: Scripture = {
         },
         {
           id: 8,
-          sanskrit: 'चत्वारि युगान्याहुः कृतं त्रेता द्वापरं कलिः | तेषां धर्मविशेषाश्च भवन्ति युगशः क्रमात् ||',
+          sanskrit: 'चत्वारि युगान्याहुः कृतं त्रेता द्वापरं कलिः । तेषां धर्मविशेषाश्च भवन्ति युगशः क्रमात् ॥',
           transliteration: 'catvāri yugānyāhuḥ kṛtaṃ tretā dvāparaṃ kaliḥ | teṣāṃ dharmaviśeṣāśca bhavanti yugaśaḥ kramāt ||',
           translation: 'They speak of four yugas: Krita, Treta, Dvapara, and Kali. And the qualities of dharma in each occur sequentially in order.',
           hindi: 'कृत, त्रेता, द्वापर और कलि — ये चार युग कहे जाते हैं। इनमें धर्म के विशेष लक्षण क्रमशः होते हैं।',
@@ -40,7 +40,7 @@ export const vayupuran: Scripture = {
       
         {
           id: 2,
-          sanskrit: 'चत्वारि युगान्याहुः कृतं त्रेता द्वापरं कलिः | तेषां धर्मविशेषाश्च भवन्ति युगशः क्रमात् ||',
+          sanskrit: 'चत्वारि युगान्याहुः कृतं त्रेता द्वापरं कलिः । तेषां धर्मविशेषाश्च भवन्ति युगशः क्रमात् ॥',
           transliteration: 'catvāri yugānyāhuḥ kṛtaṃ tretā dvāparaṃ kaliḥ | teṣāṃ dharmaviśeṣāśca bhavanti yugaśaḥ kramāt ||',
           translation: 'They speak of four yugas: Krita, Treta, Dvapara, and Kali. And the qualities of dharma in each occur sequentially in order.',
           hindi: 'कृत, त्रेता, द्वापर और कलि — ये चार युग कहे जाते हैं। इनमें धर्म के विशेष लक्षण क्रमशः होते हैं।',
@@ -49,7 +49,7 @@ export const vayupuran: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'वायुः सर्वस्वरूपो वायुः सर्वगतः सर्वव्यापी | वायुं यो जानाति तत्त्वेन स वायुः स स्वयं भवति ||',
+          sanskrit: 'वायुः सर्वस्वरूपो वायुः सर्वगतः सर्वव्यापी । वायुं यो जानाति तत्त्वेन स वायुः स स्वयं भवति ॥',
           transliteration: 'vāyuḥ sarvasvarūpo vāyuḥ sarvagataḥ sarvavyāpī | vāyuṃ yo jānāti tattvena sa vāyuḥ sa svayaṃ bhavati ||',
           translation: 'Vayu is the form of all, vayu is everywhere, vayu is all-pervading. He who knows vayu in truth becomes vayu himself.',
           hindi: 'वायु सभी का स्वरूप है, वायु सर्वत्र है, वायु सर्वव्यापी है। जो वायु को तत्व से जानता है, वह स्वयं वायु हो जाता है।',
@@ -58,7 +58,7 @@ export const vayupuran: Scripture = {
         },
         {
           id: 18,
-          sanskrit: 'नमस्ते अस्तु भगवन् विश्वेश्वराय महादेव | त्र्यम्बकाय त्रिपुरान्तकाय त्रिकालाग्निकालाय कालाग्निरुद्राय ||',
+          sanskrit: 'नमस्ते अस्तु भगवन् विश्वेश्वराय महादेव । त्र्यम्बकाय त्रिपुरान्तकाय त्रिकालाग्निकालाय कालाग्निरुद्राय ॥',
           transliteration: 'namaste astu bhagavan viśveśvarāya mahādeva | tryambakāya tripurāntakāya trikālāgnikālāya kālāgnīrudrāya ||',
           translation: 'Salutation to You, O Bhagavan, Lord of all worlds, Mahadeva — the three-eyed one, destroyer of the three cities, fire of the three times, the Rudra who is the fire of time.',
           hindi: 'हे भगवन्! हे विश्वेश्वर, महादेव! आपको नमस्कार — त्र्यम्बक, त्रिपुरान्तक, त्रिकालाग्निकाल, कालाग्निरुद्र को।',
@@ -67,7 +67,7 @@ export const vayupuran: Scripture = {
         },
         {
           id: 26,
-          sanskrit: 'प्राणो वायुः सर्वभूतानां जीवन्तुः सर्वभूतयोः | यो वायुं जानाति तत्त्वेन स पश्यति परं पदम् ||',
+          sanskrit: 'प्राणो वायुः सर्वभूतानां जीवन्तुः सर्वभूतयोः । यो वायुं जानाति तत्त्वेन स पश्यति परं पदम् ॥',
           transliteration: 'prāṇo vāyuḥ sarvabhūtānāṃ jīvantuḥ sarvabhūtayoḥ | yo vāyuṃ jānāti tattvena sa paśyati paraṃ padam ||',
           translation: 'Prana is the wind of all beings, the life of all living things. He who knows the wind in truth sees the supreme state.',
           hindi: 'प्राण सभी प्राणियों का वायु है, सभी जीवित प्राणियों का जीवन है। जो वायु को तत्व से जानता है, वह परम पद देखता है।',
@@ -76,7 +76,7 @@ export const vayupuran: Scripture = {
         },
         {
           id: 27,
-          sanskrit: 'शिवः प्राणः प्राणेश्चैव शिवः सर्वेषु भूतेषु | यो शिवं प्राणरूपेण जानाति स मुक्तो भवति ||',
+          sanskrit: 'शिवः प्राणः प्राणेश्चैव शिवः सर्वेषु भूतेषु । यो शिवं प्राणरूपेण जानाति स मुक्तो भवति ॥',
           transliteration: 'śivaḥ prāṇaḥ prāṇeścaiva śivaḥ sarveṣu bhūteṣu | yo śivaṃ prāṇarūpeṇa jānāti sa mukto bhavati ||',
           translation: 'Shiva is prana, Shiva is the lord of prana, Shiva is in all beings. He who knows Shiva as the form of prana becomes liberated.',
           hindi: 'शिव प्राण हैं, शिव प्राणेश हैं, शिव सभी प्राणियों में हैं। जो शिव को प्राण-रूप में जानता है, वह मुक्त हो जाता है।',
@@ -85,7 +85,7 @@ export const vayupuran: Scripture = {
         },
         {
           id: 44,
-          sanskrit: 'गच्छन् तिष्ठन् स्वपन् जाग्रन् उन्मिषन् निमिषन्नपि | यः स्मरेत् परमं ब्रह्म स मुक्तो नात्र संशयः ||',
+          sanskrit: 'गच्छन् तिष्ठन् स्वपन् जाग्रन् उन्मिषन् निमिषन्नपि । यः स्मरेत् परमं ब्रह्म स मुक्तो नात्र संशयः ॥',
           transliteration: 'gacchan tiṣṭhan svapan jāgran unmiṣan nimiṣannapi | yaḥ smaret paramaṃ brahma sa mukto nātra saṃśayaḥ ||',
           translation: 'Whether walking, standing, sleeping, waking, opening the eyes, or closing them — whoever remembers the Supreme Brahman is liberated. Of this there is no doubt.',
           hindi: 'चलते, ठहरते, सोते, जागते, आँखें खोलते या मूँदते — जो परम ब्रह्म का स्मरण करता है, वह मुक्त है। इसमें कोई संशय नहीं।',
@@ -101,7 +101,7 @@ export const vayupuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'वायुरात्मा जगतस्तस्थुषश्च | यो विश्वे देवा देवानां सम्राट् | स एव रुद्रः स महान् महेशः | स एव विश्वं भुवनं बभूव ||',
+          sanskrit: 'वायुरात्मा जगतस्तस्थुषश्च । यो विश्वे देवा देवानां सम्राट् । स एव रुद्रः स महान् महेशः । स एव विश्वं भुवनं बभूव ॥',
           transliteration: 'vāyurātmā jagatastaṣṭhuṣaśca | yo viśve devā devānāṃ samrāṭ | sa eva rudraḥ sa mahān maheśaḥ | sa eva viśvaṃ bhuvanaṃ babhūva ||',
           translation: 'Vayu is the Self (atma) of all that moves and stands still. He who is the emperor among all the gods — he alone is Rudra, the great Maheshvara. He alone has become the entire world.',
           hindi: 'वायु ही जगत् के चर और अचर का आत्मा है। जो विश्वदेवों में देवों का सम्राट् है — वही रुद्र है, वही महान् महेश्वर है। वही सम्पूर्ण विश्व और भुवन बन गया है।',
@@ -112,7 +112,7 @@ export const vayupuran: Scripture = {
         },
         {
           id: 18,
-          sanskrit: 'नमस्ते अस्तु भगवन् विश्वेश्वराय महादेव | त्र्यम्बकाय त्रिपुरान्तकाय त्रिकालाग्निकालाय कालाग्निरुद्राय ||',
+          sanskrit: 'नमस्ते अस्तु भगवन् विश्वेश्वराय महादेव । त्र्यम्बकाय त्रिपुरान्तकाय त्रिकालाग्निकालाय कालाग्निरुद्राय ॥',
           transliteration: 'namaste astu bhagavan viśveśvarāya mahādeva | tryambakāya tripurāntakāya trikālāgnikālāya kālāgnīrudrāya ||',
           translation: 'Salutation to You, O Bhagavan, Lord of all worlds, Mahadeva — the three-eyed one, destroyer of the three cities, fire of the three times, the Rudra who is the fire of time.',
           hindi: 'हे भगवन्! हे विश्वेश्वर, महादेव! आपको नमस्कार — त्र्यम्बक, त्रिपुरान्तक, त्रिकालाग्निकाल, कालाग्निरुद्र को।',
@@ -124,7 +124,7 @@ export const vayupuran: Scripture = {
       
         {
           id: 2,
-          sanskrit: 'नमस्ते अस्तु भगवन् विश्वेश्वराय महादेव | त्र्यम्बकाय त्रिपुरान्तकाय त्रिकालाग्निकालाय कालाग्निरुद्राय ||',
+          sanskrit: 'नमस्ते अस्तु भगवन् विश्वेश्वराय महादेव । त्र्यम्बकाय त्रिपुरान्तकाय त्रिकालाग्निकालाय कालाग्निरुद्राय ॥',
           transliteration: 'namaste astu bhagavan viśveśvarāya mahādeva | tryambakāya tripurāntakāya trikālāgnikālāya kālāgnīrudrāya ||',
           translation: 'Salutation to You, O Bhagavan, Lord of all worlds, Mahadeva — the three-eyed one, destroyer of the three cities, fire of the three times, the Rudra who is the fire of time.',
           hindi: 'हे भगवन्! हे विश्वेश्वर, महादेव! आपको नमस्कार — त्र्यम्बक, त्रिपुरान्तक, त्रिकालाग्निकाल, कालाग्निरुद्र को।',
@@ -133,7 +133,7 @@ export const vayupuran: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'वायुः सर्वस्वरूपो वायुः सर्वगतः सर्वव्यापी | वायुं यो जानाति तत्त्वेन स वायुः स स्वयं भवति ||',
+          sanskrit: 'वायुः सर्वस्वरूपो वायुः सर्वगतः सर्वव्यापी । वायुं यो जानाति तत्त्वेन स वायुः स स्वयं भवति ॥',
           transliteration: 'vāyuḥ sarvasvarūpo vāyuḥ sarvagataḥ sarvavyāpī | vāyuṃ yo jānāti tattvena sa vāyuḥ sa svayaṃ bhavati ||',
           translation: 'Vayu is the form of all, vayu is everywhere, vayu is all-pervading. He who knows vayu in truth becomes vayu himself.',
           hindi: 'वायु सभी का स्वरूप है, वायु सर्वत्र है, वायु सर्वव्यापी है। जो वायु को तत्व से जानता है, वह स्वयं वायु हो जाता है।',
@@ -142,7 +142,7 @@ export const vayupuran: Scripture = {
         },
         {
           id: 8,
-          sanskrit: 'चत्वारि युगान्याहुः कृतं त्रेता द्वापरं कलिः | तेषां धर्मविशेषाश्च भवन्ति युगशः क्रमात् ||',
+          sanskrit: 'चत्वारि युगान्याहुः कृतं त्रेता द्वापरं कलिः । तेषां धर्मविशेषाश्च भवन्ति युगशः क्रमात् ॥',
           transliteration: 'catvāri yugānyāhuḥ kṛtaṃ tretā dvāparaṃ kaliḥ | teṣāṃ dharmaviśeṣāśca bhavanti yugaśaḥ kramāt ||',
           translation: 'They speak of four yugas: Krita, Treta, Dvapara, and Kali. And the qualities of dharma in each occur sequentially in order.',
           hindi: 'कृत, त्रेता, द्वापर और कलि — ये चार युग कहे जाते हैं। इनमें धर्म के विशेष लक्षण क्रमशः होते हैं।',
@@ -151,7 +151,7 @@ export const vayupuran: Scripture = {
         },
         {
           id: 26,
-          sanskrit: 'प्राणो वायुः सर्वभूतानां जीवन्तुः सर्वभूतयोः | यो वायुं जानाति तत्त्वेन स पश्यति परं पदम् ||',
+          sanskrit: 'प्राणो वायुः सर्वभूतानां जीवन्तुः सर्वभूतयोः । यो वायुं जानाति तत्त्वेन स पश्यति परं पदम् ॥',
           transliteration: 'prāṇo vāyuḥ sarvabhūtānāṃ jīvantuḥ sarvabhūtayoḥ | yo vāyuṃ jānāti tattvena sa paśyati paraṃ padam ||',
           translation: 'Prana is the wind of all beings, the life of all living things. He who knows the wind in truth sees the supreme state.',
           hindi: 'प्राण सभी प्राणियों का वायु है, सभी जीवित प्राणियों का जीवन है। जो वायु को तत्व से जानता है, वह परम पद देखता है।',
@@ -160,7 +160,7 @@ export const vayupuran: Scripture = {
         },
         {
           id: 27,
-          sanskrit: 'शिवः प्राणः प्राणेश्चैव शिवः सर्वेषु भूतेषु | यो शिवं प्राणरूपेण जानाति स मुक्तो भवति ||',
+          sanskrit: 'शिवः प्राणः प्राणेश्चैव शिवः सर्वेषु भूतेषु । यो शिवं प्राणरूपेण जानाति स मुक्तो भवति ॥',
           transliteration: 'śivaḥ prāṇaḥ prāṇeścaiva śivaḥ sarveṣu bhūteṣu | yo śivaṃ prāṇarūpeṇa jānāti sa mukto bhavati ||',
           translation: 'Shiva is prana, Shiva is the lord of prana, Shiva is in all beings. He who knows Shiva as the form of prana becomes liberated.',
           hindi: 'शिव प्राण हैं, शिव प्राणेश हैं, शिव सभी प्राणियों में हैं। जो शिव को प्राण-रूप में जानता है, वह मुक्त हो जाता है।',
@@ -169,7 +169,7 @@ export const vayupuran: Scripture = {
         },
         {
           id: 44,
-          sanskrit: 'गच्छन् तिष्ठन् स्वपन् जाग्रन् उन्मिषन् निमिषन्नपि | यः स्मरेत् परमं ब्रह्म स मुक्तो नात्र संशयः ||',
+          sanskrit: 'गच्छन् तिष्ठन् स्वपन् जाग्रन् उन्मिषन् निमिषन्नपि । यः स्मरेत् परमं ब्रह्म स मुक्तो नात्र संशयः ॥',
           transliteration: 'gacchan tiṣṭhan svapan jāgran unmiṣan nimiṣannapi | yaḥ smaret paramaṃ brahma sa mukto nātra saṃśayaḥ ||',
           translation: 'Whether walking, standing, sleeping, waking, opening the eyes, or closing them — whoever remembers the Supreme Brahman is liberated. Of this there is no doubt.',
           hindi: 'चलते, ठहरते, सोते, जागते, आँखें खोलते या मूँदते — जो परम ब्रह्म का स्मरण करता है, वह मुक्त है। इसमें कोई संशय नहीं।',
@@ -185,7 +185,7 @@ export const vayupuran: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'अहिंसा सत्यमस्तेयं शौचमिन्द्रियनिग्रहः | एतं सामासिकं धर्मं चातुर्वर्ण्येऽब्रवीन्मनुः ||',
+          sanskrit: 'अहिंसा सत्यमस्तेयं शौचमिन्द्रियनिग्रहः । एतं सामासिकं धर्मं चातुर्वर्ण्येऽब्रवीन्मनुः ॥',
           transliteration: 'ahiṃsā satyamasteyaṃ śaucamindriyanigrahaḥ | etaṃ sāmāsikaṃ dharmaṃ cāturvarṇye\'bravīnmanuḥ ||',
           translation: 'Non-harm, truth, non-stealing, purity, and restraint of the senses — Manu declared this the condensed dharma for all four social orders.',
           hindi: 'अहिंसा, सत्य, अस्तेय (न चुराना), शौच (पवित्रता) और इन्द्रिय-निग्रह — मनु ने यह संक्षिप्त धर्म चारों वर्णों के लिए कहा।',
@@ -196,7 +196,7 @@ export const vayupuran: Scripture = {
         },
         {
           id: 44,
-          sanskrit: 'गच्छन् तिष्ठन् स्वपन् जाग्रन् उन्मिषन् निमिषन्नपि | यः स्मरेत् परमं ब्रह्म स मुक्तो नात्र संशयः ||',
+          sanskrit: 'गच्छन् तिष्ठन् स्वपन् जाग्रन् उन्मिषन् निमिषन्नपि । यः स्मरेत् परमं ब्रह्म स मुक्तो नात्र संशयः ॥',
           transliteration: 'gacchan tiṣṭhan svapan jāgran unmiṣan nimiṣannapi | yaḥ smaret paramaṃ brahma sa mukto nātra saṃśayaḥ ||',
           translation: 'Whether walking, standing, sleeping, waking, opening the eyes, or closing them — whoever remembers the Supreme Brahman is liberated. Of this there is no doubt.',
           hindi: 'चलते, ठहरते, सोते, जागते, आँखें खोलते या मूँदते — जो परम ब्रह्म का स्मरण करता है, वह मुक्त है। इसमें कोई संशय नहीं।',
@@ -207,7 +207,7 @@ export const vayupuran: Scripture = {
         },
         {
           id: 5,
-          sanskrit: 'वायुः सर्वस्वरूपो वायुः सर्वगतः सर्वव्यापी | वायुं यो जानाति तत्त्वेन स वायुः स स्वयं भवति ||',
+          sanskrit: 'वायुः सर्वस्वरूपो वायुः सर्वगतः सर्वव्यापी । वायुं यो जानाति तत्त्वेन स वायुः स स्वयं भवति ॥',
           transliteration: 'vāyuḥ sarvasvarūpo vāyuḥ sarvagataḥ sarvavyāpī | vāyuṃ yo jānāti tattvena sa vāyuḥ sa svayaṃ bhavati ||',
           translation: 'Vayu is the form of all, vayu is everywhere, vayu is all-pervading. He who knows vayu in truth becomes vayu himself.',
           hindi: 'वायु सभी का स्वरूप है, वायु सर्वत्र है, वायु सर्वव्यापी है। जो वायु को तत्व से जानता है, वह स्वयं वायु हो जाता है।',
@@ -218,7 +218,7 @@ export const vayupuran: Scripture = {
         },
         {
           id: 26,
-          sanskrit: 'प्राणो वायुः सर्वभूतानां जीवन्तुः सर्वभूतयोः | यो वायुं जानाति तत्त्वेन स पश्यति परं पदम् ||',
+          sanskrit: 'प्राणो वायुः सर्वभूतानां जीवन्तुः सर्वभूतयोः । यो वायुं जानाति तत्त्वेन स पश्यति परं पदम् ॥',
           transliteration: 'prāṇo vāyuḥ sarvabhūtānāṃ jīvantuḥ sarvabhūtayoḥ | yo vāyuṃ jānāti tattvena sa paśyati paraṃ padam ||',
           translation: 'Prana is the wind of all beings, the life of all living things. He who knows the wind in truth sees the supreme state.',
           hindi: 'प्राण सभी प्राणियों का वायु है, सभी जीवित प्राणियों का जीवन है। जो वायु को तत्व से जानता है, वह परम पद देखता है।',
@@ -229,7 +229,7 @@ export const vayupuran: Scripture = {
         },
         {
           id: 27,
-          sanskrit: 'शिवः प्राणः प्राणेश्चैव शिवः सर्वेषु भूतेषु | यो शिवं प्राणरूपेण जानाति स मुक्तो भवति ||',
+          sanskrit: 'शिवः प्राणः प्राणेश्चैव शिवः सर्वेषु भूतेषु । यो शिवं प्राणरूपेण जानाति स मुक्तो भवति ॥',
           transliteration: 'śivaḥ prāṇaḥ prāṇeścaiva śivaḥ sarveṣu bhūteṣu | yo śivaṃ prāṇarūpeṇa jānāti sa mukto bhavati ||',
           translation: 'Shiva is prana, Shiva is the lord of prana, Shiva is in all beings. He who knows Shiva as the form of prana becomes liberated.',
           hindi: 'शिव प्राण हैं, शिव प्राणेश हैं, शिव सभी प्राणियों में हैं। जो शिव को प्राण-रूप में जानता है, वह मुक्त हो जाता है।',
@@ -240,7 +240,7 @@ export const vayupuran: Scripture = {
         },
         {
           id: 28,
-          sanskrit: 'वायुः सर्वस्वरूपो वायुः सर्वगतः सर्वव्यापी | वायुं यो जानाति तत्त्वेन स वायुः स स्वयं भवति ||',
+          sanskrit: 'वायुः सर्वस्वरूपो वायुः सर्वगतः सर्वव्यापी । वायुं यो जानाति तत्त्वेन स वायुः स स्वयं भवति ॥',
           transliteration: 'vāyuḥ sarvasvarūpo vāyuḥ sarvagataḥ sarvavyāpī | vāyuṃ yo jānāti tattvena sa vāyuḥ sa svayaṃ bhavati ||',
           translation: 'Vayu is the form of all, vayu is everywhere, vayu is all-pervading. He who knows vayu in truth becomes vayu himself.',
           hindi: 'वायु सभी का स्वरूप है, वायु सर्वत्र है, वायु सर्वव्यापी है। जो वायु को तत्व से जानता है, वह स्वयं वायु हो जाता है।',
@@ -252,7 +252,7 @@ export const vayupuran: Scripture = {
       
         {
           id: 2,
-          sanskrit: 'गच्छन् तिष्ठन् स्वपन् जाग्रन् उन्मिषन् निमिषन्नपि | यः स्मरेत् परमं ब्रह्म स मुक्तो नात्र संशयः ||',
+          sanskrit: 'गच्छन् तिष्ठन् स्वपन् जाग्रन् उन्मिषन् निमिषन्नपि । यः स्मरेत् परमं ब्रह्म स मुक्तो नात्र संशयः ॥',
           transliteration: 'gacchan tiṣṭhan svapan jāgran unmiṣan nimiṣannapi | yaḥ smaret paramaṃ brahma sa mukto nātra saṃśayaḥ ||',
           translation: 'Whether walking, standing, sleeping, waking, opening the eyes, or closing them — whoever remembers the Supreme Brahman is liberated. Of this there is no doubt.',
           hindi: 'चलते, ठहरते, सोते, जागते, आँखें खोलते या मूँदते — जो परम ब्रह्म का स्मरण करता है, वह मुक्त है। इसमें कोई संशय नहीं।',
@@ -261,7 +261,7 @@ export const vayupuran: Scripture = {
         },
         {
           id: 3,
-          sanskrit: 'वायुः सर्वस्वरूपो वायुः सर्वगतः सर्वव्यापी | वायुं यो जानाति तत्त्वेन स वायुः स स्वयं भवति ||',
+          sanskrit: 'वायुः सर्वस्वरूपो वायुः सर्वगतः सर्वव्यापी । वायुं यो जानाति तत्त्वेन स वायुः स स्वयं भवति ॥',
           transliteration: 'vāyuḥ sarvasvarūpo vāyuḥ sarvagataḥ sarvavyāpī | vāyuṃ yo jānāti tattvena sa vāyuḥ sa svayaṃ bhavati ||',
           translation: 'Vayu is the form of all, vayu is everywhere, vayu is all-pervading. He who knows vayu in truth becomes vayu himself.',
           hindi: 'वायु सभी का स्वरूप है, वायु सर्वत्र है, वायु सर्वव्यापी है। जो वायु को तत्व से जानता है, वह स्वयं वायु हो जाता है।',
@@ -270,7 +270,7 @@ export const vayupuran: Scripture = {
         },
         {
           id: 4,
-          sanskrit: 'प्राणो वायुः सर्वभूतानां जीवन्तुः सर्वभूतयोः | यो वायुं जानाति तत्त्वेन स पश्यति परं पदम् ||',
+          sanskrit: 'प्राणो वायुः सर्वभूतानां जीवन्तुः सर्वभूतयोः । यो वायुं जानाति तत्त्वेन स पश्यति परं पदम् ॥',
           transliteration: 'prāṇo vāyuḥ sarvabhūtānāṃ jīvantuḥ sarvabhūtayoḥ | yo vāyuṃ jānāti tattvena sa paśyati paraṃ padam ||',
           translation: 'Prana is the wind of all beings, the life of all living things. He who knows the wind in truth sees the supreme state.',
           hindi: 'प्राण सभी प्राणियों का वायु है, सभी जीवित प्राणियों का जीवन है। जो वायु को तत्व से जानता है, वह परम पद देखता है।',
@@ -279,7 +279,7 @@ export const vayupuran: Scripture = {
         },
         {
           id: 7,
-          sanskrit: 'शिवः प्राणः प्राणेश्चैव शिवः सर्वेषु भूतेषु | यो शिवं प्राणरूपेण जानाति स मुक्तो भवति ||',
+          sanskrit: 'शिवः प्राणः प्राणेश्चैव शिवः सर्वेषु भूतेषु । यो शिवं प्राणरूपेण जानाति स मुक्तो भवति ॥',
           transliteration: 'śivaḥ prāṇaḥ prāṇeścaiva śivaḥ sarveṣu bhūteṣu | yo śivaṃ prāṇarūpeṇa jānāti sa mukto bhavati ||',
           translation: 'Shiva is prana, Shiva is the lord of prana, Shiva is in all beings. He who knows Shiva as the form of prana becomes liberated.',
           hindi: 'शिव प्राण हैं, शिव प्राणेश हैं, शिव सभी प्राणियों में हैं। जो शिव को प्राण-रूप में जानता है, वह मुक्त हो जाता है।',

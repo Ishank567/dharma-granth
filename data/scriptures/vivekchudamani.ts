@@ -18,7 +18,7 @@ export const vivekchudamani: Scripture = {
       verses: [
         {
           id: 2,
-          sanskrit: 'दुर्लभं त्रयमेवैतद् देवानुग्रहहेतुकम् | मनुष्यत्वं मुमुक्षुत्वं महापुरुषसंश्रयः ||',
+          sanskrit: 'दुर्लभं त्रयमेवैतद् देवानुग्रहहेतुकम् । मनुष्यत्वं मुमुक्षुत्वं महापुरुषसंश्रयः ॥',
           transliteration: 'durlabhaṃ trayamevaitad devānugrahachetukam | manuṣyatvaṃ mumukṣutvaṃ mahāpuruṣasaṃśrayaḥ ||',
           translation: 'Three things are rare and come only by the grace of God: human birth, the desire for liberation, and the company of a great teacher.',
           hindi: 'तीन चीजें बड़ी दुर्लभ हैं और ईश्वर की कृपा से मिलती हैं: मनुष्य जन्म, मुमुक्षुत्व (मोक्ष की इच्छा), और महापुरुष का संग।',
@@ -30,7 +30,7 @@ export const vivekchudamani: Scripture = {
       
         {
           id: 1,
-          sanskrit: 'जन्तूनां नरजन्म दुर्लभमतः पुंस्त्वं ततो विप्रता | तस्माद्वैदिकधर्ममार्गपरता विद्वत्त्वमस्मात् परम् ||',
+          sanskrit: 'जन्तूनां नरजन्म दुर्लभमतः पुंस्त्वं ततो विप्रता । तस्माद्वैदिकधर्ममार्गपरता विद्वत्त्वमस्मात् परम् ॥',
           transliteration: 'jantūnāṃ narajanma durlabhamataḥ puṃstvaṃ tato vipratā | tasmādvaidikadharmamārgaparatā vidvattvamāsmāt param ||',
           translation: 'Among all beings, human birth is rare; rarer still is full human development; rarer is commitment to the path of dharma; rarest of all is wisdom.',
           hindi: 'सभी प्राणियों में मनुष्य जन्म दुर्लभ है; उससे भी दुर्लभ है पूर्ण पुरुषत्व; उससे भी दुर्लभ है वैदिक धर्म में श्रद्धा; और उससे भी दुर्लभ है विद्वत्ता (वास्तविक ज्ञान)।',
@@ -39,7 +39,7 @@ export const vivekchudamani: Scripture = {
         },
         {
           id: 58,
-          sanskrit: 'अन्नमयं नो जीवः स्यात् प्राणमयोऽपि न केवलः | मनोमयो नैव जीवः | बुद्धिरात्मा न चेत्यसत् ||',
+          sanskrit: 'अन्नमयं नो जीवः स्यात् प्राणमयोऽपि न केवलः । मनोमयो नैव जीवः । बुद्धिरात्मा न चेत्यसत् ॥',
           transliteration: 'annamayaṃ no jīvaḥ syāt prāṇamayo\'pi na kevalaḥ | manomayo naiva jīvaḥ | buddhirātmā na cetyasat ||',
           translation: 'The food-body (annamaya) is not the Self. The vital-body (pranamaya) is not the Self alone. The mental-body (manomaya) is not the Self. The intellect (buddhi) is not the Self either — all these are unreal.',
           hindi: 'अन्नमय कोश जीव नहीं है; प्राणमय भी केवल जीव नहीं है; मनोमय भी जीव नहीं है; और बुद्धि भी आत्मा नहीं है — ये सब असत् हैं।',

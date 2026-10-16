@@ -20,7 +20,7 @@ export const ishavasya: Scripture = {
         {
           id: 1,
           sanskrit:
-            'ईशा वास्यमिदं सर्वं यत्किञ्च जगत्यां जगत् | तेन त्यक्तेन भुञ्जीथा मा गृधः कस्यस्विद्धनम् ||',
+            'ईशा वास्यमिदं सर्वं यत्किञ्च जगत्यां जगत् । तेन त्यक्तेन भुञ्जीथा मा गृधः कस्यस्विद्धनम् ॥',
           transliteration:
             "īśā vāsyamidaṃ sarvaṃ yatkiñca jagatyāṃ jagat | tena tyaktena bhuñjīthā mā gṛdhaḥ kasyasviddhanam ||",
           translation:
@@ -38,7 +38,7 @@ export const ishavasya: Scripture = {
         {
           id: 2,
           sanskrit:
-            "कुर्वन्नेवेह कर्माणि जिजीविषेच्छतं समाः | एवं त्वयि नान्यथेतोऽस्ति न कर्म लिप्यते नरे ||",
+            "कुर्वन्नेवेह कर्माणि जिजीविषेच्छतं समाः । एवं त्वयि नान्यथेतोऽस्ति न कर्म लिप्यते नरे ॥",
           transliteration:
             "kurvanneveha karmāṇi jijīviṣecchataṃ samāḥ | evaṃ tvayi nānyatheto'sti na karma lipyate nare ||",
           translation:
@@ -56,7 +56,7 @@ export const ishavasya: Scripture = {
         {
           id: 3,
           sanskrit:
-            "असुर्या नाम ते लोका अन्धेन तमसाऽऽवृताः | तांस्ते प्रेत्याभिगच्छन्ति ये के चात्महनो जनाः ||",
+            "असुर्या नाम ते लोका अन्धेन तमसाऽऽवृताः । तांस्ते प्रेत्याभिगच्छन्ति ये के चात्महनो जनाः ॥",
           transliteration:
             "asuryā nāma te lokā andhena tamasā''vṛtāḥ | tāṃste pretyābhigacchanti ye ke cātmahano janāḥ ||",
           translation:
@@ -74,7 +74,7 @@ export const ishavasya: Scripture = {
         {
           id: 4,
           sanskrit:
-            "अनेजदेकं मनसो जवीयो नैनद्देवा आप्नुवन् पूर्वमर्षत् | तद्धावतोऽन्यानत्येति तिष्ठत् तस्मिन्नपो मातरिश्वा दधाति ||",
+            "अनेजदेकं मनसो जवीयो नैनद्देवा आप्नुवन् पूर्वमर्षत् । तद्धावतोऽन्यानत्येति तिष्ठत् तस्मिन्नपो मातरिश्वा दधाति ॥",
           transliteration:
             "anejadekaṃ manaso javīyo nainaddevā āpnuvan pūrvamarṣat | taddhāvato'nyānatyeti tiṣṭhat tasminnapo mātariśvā dadhāti ||",
           translation:
@@ -92,7 +92,7 @@ export const ishavasya: Scripture = {
         {
           id: 5,
           sanskrit:
-            'तदेजति तन्नैजति तद्दूरे तद्वन्तिके | तदन्तरस्य सर्वस्य तदु सर्वस्यास्य बाह्यतः ||',
+            'तदेजति तन्नैजति तद्दूरे तद्वन्तिके । तदन्तरस्य सर्वस्य तदु सर्वस्यास्य बाह्यतः ॥',
           transliteration:
             'tadejati tannaijati taddūre tadvantike | tadantarasya sarvasya tadu sarvasyāsya bāhyataḥ ||',
           translation:
@@ -110,7 +110,7 @@ export const ishavasya: Scripture = {
         {
           id: 6,
           sanskrit:
-            "यस्तु सर्वाणि भूतान्यात्मन्येवानुपश्यति | सर्वभूतेषु चात्मानं ततो न विजुगुप्सते ||",
+            "यस्तु सर्वाणि भूतान्यात्मन्येवानुपश्यति । सर्वभूतेषु चात्मानं ततो न विजुगुप्सते ॥",
           transliteration:
             "yastu sarvāṇi bhūtānyātmanyevānupaśyati | sarvabhūteṣu cātmānaṃ tato na vijugupsate ||",
           translation:
@@ -128,7 +128,7 @@ export const ishavasya: Scripture = {
         {
           id: 7,
           sanskrit:
-            "यस्मिन्सर्वाणि भूतान्यात्मैवाभूद् विजानतः | तत्र को मोहः कः शोक एकत्वमनुपश्यतः ||",
+            "यस्मिन्सर्वाणि भूतान्यात्मैवाभूद् विजानतः । तत्र को मोहः कः शोक एकत्वमनुपश्यतः ॥",
           transliteration:
             "yasmin sarvāṇi bhūtānyātmaivābhūd vijānataḥ | tatra ko mohaḥ kaḥ śoka ekatvamanupaśyataḥ ||",
           translation:
@@ -146,7 +146,7 @@ export const ishavasya: Scripture = {
         {
           id: 8,
           sanskrit:
-            "स पर्यगाच्छुक्रमकायमव्रणमस्नाविरं शुद्धमपापविद्धम् | कविर्मनीषी परिभूः स्वयम्भूर्याथातथ्यतोऽर्थान् व्यदधाच्छाश्वतीभ्यः समाभ्यः ||",
+            "स पर्यगाच्छुक्रमकायमव्रणमस्नाविरं शुद्धमपापविद्धम् । कविर्मनीषी परिभूः स्वयम्भूर्याथातथ्यतोऽर्थान् व्यदधाच्छाश्वतीभ्यः समाभ्यः ॥",
           transliteration:
             "sa paryagācchukramakāyamavraṇamasnāviraṃ śuddhamapāpaviddham | kavirmanīṣī paribhūḥ svayambhūryāthātathyato'rthān vyadadhācchāśvatībhyaḥ samābhyaḥ ||",
           translation:
@@ -164,7 +164,7 @@ export const ishavasya: Scripture = {
         {
           id: 9,
           sanskrit:
-            "अन्धं तमः प्रविशन्ति येऽविद्यामुपासते | ततो भूय इव ते तमो य उ विद्यायां रताः ||",
+            "अन्धं तमः प्रविशन्ति येऽविद्यामुपासते । ततो भूय इव ते तमो य उ विद्यायां रताः ॥",
           transliteration:
             "andhaṃ tamaḥ praviśanti ye'vidyāmupāsate | tato bhūya iva te tamo ya u vidyāyāṃ ratāḥ ||",
           translation:
@@ -182,7 +182,7 @@ export const ishavasya: Scripture = {
         {
           id: 10,
           sanskrit:
-            "अन्यदेवाहुर्विद्ययाऽन्यदाहुरविद्यया | इति शुश्रुम धीराणां ये नस्तद्विचचक्षिरे ||",
+            "अन्यदेवाहुर्विद्ययाऽन्यदाहुरविद्यया । इति शुश्रुम धीराणां ये नस्तद्विचचक्षिरे ॥",
           transliteration:
             "anyadevāhurvidyayā'nyadāhuravidyayā | iti śuśruma dhīrāṇāṃ ye nastadvicacakṣire ||",
           translation:
@@ -200,7 +200,7 @@ export const ishavasya: Scripture = {
         {
           id: 11,
           sanskrit:
-            "विद्यां चाविद्यां च यस्तद्वेदोभयं सह | अविद्यया मृत्युं तीर्त्वा विद्ययाऽमृतमश्नुते ||",
+            "विद्यां चाविद्यां च यस्तद्वेदोभयं सह । अविद्यया मृत्युं तीर्त्वा विद्ययाऽमृतमश्नुते ॥",
           transliteration:
             "vidyāṃ cāvidyāṃ ca yastadvedobhayaṃ saha | avidyayā mṛtyuṃ tīrtvā vidyayā'mṛtamaśnute ||",
           translation:
@@ -218,7 +218,7 @@ export const ishavasya: Scripture = {
         {
           id: 12,
           sanskrit:
-            "अन्धं तमः प्रविशन्ति येऽसम्भूतिमुपासते | ततो भूय इव ते तमो य उ सम्भूत्यां रताः ||",
+            "अन्धं तमः प्रविशन्ति येऽसम्भूतिमुपासते । ततो भूय इव ते तमो य उ सम्भूत्यां रताः ॥",
           transliteration:
             "andhaṃ tamaḥ praviśanti ye'sambhūtimupāsate | tato bhūya iva te tamo ya u sambhūtyāṃ ratāḥ ||",
           translation:
@@ -236,7 +236,7 @@ export const ishavasya: Scripture = {
         {
           id: 13,
           sanskrit:
-            "अन्यदेवाहुः सम्भवादन्यदाहुरसम्भवात् | इति शुश्रुम धीराणां ये नस्तद्विचचक्षिरे ||",
+            "अन्यदेवाहुः सम्भवादन्यदाहुरसम्भवात् । इति शुश्रुम धीराणां ये नस्तद्विचचक्षिरे ॥",
           transliteration:
             "anyadevāhuḥ sambhavādanyadāhurasambhavāt | iti śuśruma dhīrāṇāṃ ye nastadvicacakṣire ||",
           translation:
@@ -254,7 +254,7 @@ export const ishavasya: Scripture = {
         {
           id: 14,
           sanskrit:
-            "सम्भूतिं च विनाशं च यस्तद्वेदोभयं सह | विनाशेन मृत्युं तीर्त्वा सम्भूत्याऽमृतमश्नुते ||",
+            "सम्भूतिं च विनाशं च यस्तद्वेदोभयं सह । विनाशेन मृत्युं तीर्त्वा सम्भूत्याऽमृतमश्नुते ॥",
           transliteration:
             "sambhūtiṃ ca vināśaṃ ca yastadvedobhayaṃ saha | vināśena mṛtyuṃ tīrtvā sambhūtyā'mṛtamaśnute ||",
           translation:
@@ -272,7 +272,7 @@ export const ishavasya: Scripture = {
         {
           id: 15,
           sanskrit:
-            "हिरण्मयेन पात्रेण सत्यस्यापिहितं मुखम् | तत्त्वं पूषन्नपावृणु सत्यधर्माय दृष्टये ||",
+            "हिरण्मयेन पात्रेण सत्यस्यापिहितं मुखम् । तत्त्वं पूषन्नपावृणु सत्यधर्माय दृष्टये ॥",
           transliteration:
             "hiraṇmayena pātreṇa satyasyāpihitaṃ mukham | tattvaṃ pūṣannapāvṛṇu satyadharmāya dṛṣṭaye ||",
           translation:
@@ -290,7 +290,7 @@ export const ishavasya: Scripture = {
         {
           id: 16,
           sanskrit:
-            "पूषन्नेकर्षे यम सूर्य प्राजापत्य व्यूह रश्मीन् समूह तेजः | यत्ते रूपं कल्याणतमं तत्ते पश्यामि योऽसावसौ पुरुषः सोऽहमस्मि ||",
+            "पूषन्नेकर्षे यम सूर्य प्राजापत्य व्यूह रश्मीन् समूह तेजः । यत्ते रूपं कल्याणतमं तत्ते पश्यामि योऽसावसौ पुरुषः सोऽहमस्मि ॥",
           transliteration:
             "pūṣannekarṣe yama sūrya prājāpatya vyūha raśmīn samūha tejaḥ | yatte rūpaṃ kalyāṇatamaṃ tatte paśyāmi yo'sāvasau puruṣaḥ so'hamasmi ||",
           translation:
@@ -308,7 +308,7 @@ export const ishavasya: Scripture = {
         {
           id: 17,
           sanskrit:
-            "वायुरनिलममृतमथेदं भस्मान्तं शरीरम् | ॐ क्रतो स्मर कृतं स्मर क्रतो स्मर कृतं स्मर ||",
+            "वायुरनिलममृतमथेदं भस्मान्तं शरीरम् । ॐ क्रतो स्मर कृतं स्मर क्रतो स्मर कृतं स्मर ॥",
           transliteration:
             "vāyuranilamamṛtamathedaṃ bhasmāntaṃ śarīram | oṃ krato smara kṛtaṃ smara krato smara kṛtaṃ smara ||",
           translation:
@@ -326,7 +326,7 @@ export const ishavasya: Scripture = {
         {
           id: 18,
           sanskrit:
-            "अग्ने नय सुपथा राये अस्मान् विश्वानि देव वयुनानि विद्वान् | युयोध्यस्मज्जुहुराणमेनो भूयिष्ठां ते नमउक्तिं विधेम ||",
+            "अग्ने नय सुपथा राये अस्मान् विश्वानि देव वयुनानि विद्वान् । युयोध्यस्मज्जुहुराणमेनो भूयिष्ठां ते नमउक्तिं विधेम ॥",
           transliteration:
             "agne naya supathā rāye asmān viśvāni deva vayunāni vidvān | yuyodhyasmajjuhurāṇameno bhūyiṣṭhāṃ te nama-uktiṃ vidhema ||",
           translation:

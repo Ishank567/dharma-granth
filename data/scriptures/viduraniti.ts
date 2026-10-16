@@ -18,7 +18,7 @@ export const viduraniti: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'क्रोधं न गच्छत्यापन्नः प्रियं न वदते मृषा | नाददाते अनृतेनार्थं पण्डितो लक्षणं त्रयम् ||',
+          sanskrit: 'क्रोधं न गच्छत्यापन्नः प्रियं न वदते मृषा । नाददाते अनृतेनार्थं पण्डितो लक्षणं त्रयम् ॥',
           transliteration: 'krodhaṃ na gacchatyāpannaḥ priyaṃ na vadate mṛṣā | nādadāte anṛtenārthaṃ paṇḍito lakṣaṇaṃ trayam ||',
           translation: 'One who does not fall into anger when afflicted, who does not speak falsehood to please, who does not acquire wealth through untruth — these are the three marks of the pandit.',
           hindi: 'जो आपद में भी क्रोध नहीं करता, प्रिय लगने के लिए झूठ नहीं बोलता, और असत्य से धन नहीं लेता — ये पण्डित के तीन लक्षण हैं।',
@@ -29,7 +29,7 @@ export const viduraniti: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'आरभते न कर्माणि भयाद्योऽल्पफलानि च | अश्रद्धयालसो नित्यं स मूढो भरतर्षभ ||',
+          sanskrit: 'आरभते न कर्माणि भयाद्योऽल्पफलानि च । अश्रद्धयालसो नित्यं स मूढो भरतर्षभ ॥',
           transliteration: 'ārabhate na karmāṇi bhayādyo\'lpaphalāni ca | aśraddhayālaso nityaṃ sa mūḍho bharatarṣabha ||',
           translation: 'One who does not begin actions out of fear, or because the fruit seems small; who is always without faith and lazy — O best of the Bharatas, that one is the mudha (fool).',
           hindi: 'जो भय से काम नहीं आरंभ करता, जो अल्पफल समझकर नहीं करता; जो सदा श्रद्धाहीन और आलसी है — वह मूढ है, हे भरतश्रेष्ठ!',
@@ -40,7 +40,7 @@ export const viduraniti: Scripture = {
         },
         {
           id: 3,
-          sanskrit: 'अनागतं यः कुरुते स पण्डितो | दैवाहतं नैव विचिन्तयेत् तु | कालं प्रतीक्षन् कृतसंनिवेशो | नित्यं जयत्यर्थकृते प्रयत्नात् ||',
+          sanskrit: 'अनागतं यः कुरुते स पण्डितो । दैवाहतं नैव विचिन्तयेत् तु । कालं प्रतीक्षन् कृतसंनिवेशो । नित्यं जयत्यर्थकृते प्रयत्नात् ॥',
           transliteration: 'anāgataṃ yaḥ kurute sa paṇḍito | daivāhataṃ naiva vicintayet tu | kālaṃ pratīkṣan kṛtasaṃniveśo | nityaṃ jayatyarthakṛte prayatnāt ||',
           translation: 'One who prepares for what has not yet come is the pandit. One who does not grieve over what fate has destroyed; who waits for the right time with steady preparation — such a person always succeeds through effort toward the goal.',
           hindi: 'जो भविष्य के लिए तैयारी करता है वह पण्डित है। जो भाग्य ने जो नष्ट किया उस पर शोक नहीं करता; जो सही समय की प्रतीक्षा करता हुआ सदा तैयार रहता है — वह प्रयत्न से सफल होता है।',
@@ -60,7 +60,7 @@ export const viduraniti: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'न ब्रूयात् सत्यमप्रियम् | प्रियं च नानृतं ब्रूयात् | एष धर्मः सनातनः ||',
+          sanskrit: 'न ब्रूयात् सत्यमप्रियम् । प्रियं च नानृतं ब्रूयात् । एष धर्मः सनातनः ॥',
           transliteration: 'na brūyāt satyamapriyam | priyaṃ ca nānṛtaṃ brūyāt | eṣa dharmaḥ sanātanaḥ ||',
           translation: 'Do not speak truth that is cruel. And do not speak falsehood that is pleasing. This is the eternal dharma.',
           hindi: 'अप्रिय सत्य न बोलो। और प्रिय असत्य भी न बोलो। यही सनातन धर्म है।',
@@ -71,7 +71,7 @@ export const viduraniti: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'षडेते नरकद्वाराः प्राणिनां दुर्गतिप्रदाः | आलस्यं तन्द्रा भयं क्रोधः आशा दीर्घसूत्रता ||',
+          sanskrit: 'षडेते नरकद्वाराः प्राणिनां दुर्गतिप्रदाः । आलस्यं तन्द्रा भयं क्रोधः आशा दीर्घसूत्रता ॥',
           transliteration: 'ṣaḍete narakadvārāḥ prāṇināṃ durgatiPradāḥ | ālasyaṃ tandrā bhayaṃ krodhaḥ āśā dīrghasūtratā ||',
           translation: 'These six are the gates of hell that lead beings toward ruin: laziness, drowsiness, fear, anger, false hope, and procrastination (dīrghasūtratā — long-threadedness).',
           hindi: 'ये छः प्राणियों के नरक के द्वार और दुर्गति के कारण हैं: आलस्य, तन्द्रा (उनींदापन), भय, क्रोध, आशा (मिथ्या आशा) और दीर्घसूत्रता (काम को टालते रहना)।',
@@ -82,7 +82,7 @@ export const viduraniti: Scripture = {
         },
         {
           id: 3,
-          sanskrit: 'यस्य कृत्यं न जानन्ति मन्त्रं वा गुह्यमेव वा | कृतमेवास्य जानन्ति स वै पण्डित उच्यते ||',
+          sanskrit: 'यस्य कृत्यं न जानन्ति मन्त्रं वा गुह्यमेव वा । कृतमेवास्य जानन्ति स वै पण्डित उच्यते ॥',
           transliteration: 'yasya kṛtyaṃ na jānanti mantraṃ vā guhyameva vā | kṛtamevāsya jānanti sa vai paṇḍita ucyate ||',
           translation: 'One whose plans no one knows, whose counsel and secrets are hidden — and whose actions are known only when they are done — that one is truly called a pandit.',
           hindi: 'जिसके कार्य को कोई नहीं जानता, जिसकी मंत्रणा और गुप्त बात छुपी रहती है — और जिसके काम को लोग तभी जानते हैं जब वह हो जाता है — वह पण्डित कहलाता है।',
@@ -102,7 +102,7 @@ export const viduraniti: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'प्रियस्य च पथ्यस्य च दुर्लभः श्रोता | अप्रियस्य च पथ्यस्य वक्ता श्रोता च दुर्लभौ ||',
+          sanskrit: 'प्रियस्य च पथ्यस्य च दुर्लभः श्रोता । अप्रियस्य च पथ्यस्य वक्ता श्रोता च दुर्लभौ ॥',
           transliteration: 'priyasya ca pathyasya ca durlabhaḥ śrotā | apriyasya ca pathyasya vaktā śrotā ca durlabhau ||',
           translation: 'Rare is the listener for that which is both pleasant and beneficial. Even rarer are both the speaker and listener of that which is unpleasant yet beneficial.',
           hindi: 'जो प्रिय भी हो और हितकर भी — उसका श्रोता दुर्लभ है। जो अप्रिय हो किन्तु हितकर हो — उसका वक्ता और श्रोता दोनों दुर्लभ हैं।',
@@ -113,7 +113,7 @@ export const viduraniti: Scripture = {
         },
         {
           id: 2,
-          sanskrit: 'धर्म एव हतो हन्ति धर्मो रक्षति रक्षितः | तस्माद्धर्मो न हन्तव्यो मा नो धर्मो हतोऽवधीत् ||',
+          sanskrit: 'धर्म एव हतो हन्ति धर्मो रक्षति रक्षितः । तस्माद्धर्मो न हन्तव्यो मा नो धर्मो हतोऽवधीत् ॥',
           transliteration: 'dharma eva hato hanti dharmo rakṣati rakṣitaḥ | tasmāddharmo na hantavyo mā no dharmo hato\'vadhīt ||',
           translation: 'Dharma, when destroyed, destroys. Dharma, when protected, protects. Therefore dharma must not be destroyed, lest the destroyed dharma destroy us.',
           hindi: 'धर्म नष्ट होने पर नष्ट करता है, रक्षित होने पर रक्षा करता है। इसलिए धर्म को नष्ट न करो, नहीं तो नष्ट किया हुआ धर्म हमें नष्ट करेगा।',

@@ -25,7 +25,7 @@ export const brahmasutra: Scripture = {
       "verses": [
         {
           "id": 1,
-          "sanskrit": "अथातो ब्रह्मजिज्ञासा |",
+          "sanskrit": "अथातो ब्रह्मजिज्ञासा ।",
           "transliteration": "athāto brahmajijñāsā |",
           "translation": "Now, therefore, the inquiry into Brahman.",
           "hindi": "अब, इसलिए, ब्रह्म की जिज्ञासा (अन्वेषण) करें।",
@@ -40,7 +40,7 @@ export const brahmasutra: Scripture = {
         },
         {
           "id": 2,
-          "sanskrit": "जन्माद्यस्य यतः |",
+          "sanskrit": "जन्माद्यस्य यतः ।",
           "transliteration": "janmādyasya yataḥ |",
           "translation": "That from which the origin, sustenance, and dissolution of this (universe) proceed — that is Brahman.",
           "hindi": "जिससे इस जगत की उत्पत्ति, स्थिति और प्रलय होती है — वह ब्रह्म है।",
@@ -55,7 +55,7 @@ export const brahmasutra: Scripture = {
         },
         {
           "id": 3,
-          "sanskrit": "शास्त्रयोनित्वात् |",
+          "sanskrit": "शास्त्रयोनित्वात् ।",
           "transliteration": "śāstrayonitvāt |",
           "translation": "Because the scriptures are the source (of valid knowledge of Brahman).",
           "hindi": "क्योंकि शास्त्र (वेद-उपनिषद) ब्रह्मज्ञान का स्रोत हैं।",
@@ -70,7 +70,7 @@ export const brahmasutra: Scripture = {
         },
         {
           "id": 10103,
-          "sanskrit": "शास्त्रयोनित्वात् |",
+          "sanskrit": "शास्त्रयोनित्वात् ।",
           "transliteration": "śāstrayonitvāt |",
           "translation": "Because the scriptures are the source (of valid knowledge of Brahman).",
           "hindi": "क्योंकि शास्त्र (वेद-उपनिषद) ब्रह्मज्ञान का स्रोत हैं।",
@@ -79,7 +79,7 @@ export const brahmasutra: Scripture = {
         },
         {
           "id": 10108,
-          "sanskrit": "तत्त्वसम्याच्छास्त्रयोनित्वात् स्मृतेश्च | युक्ताच्च बहुश्रुतेश्च न वाक्यभेदात् ||",
+          "sanskrit": "तत्त्वसम्याच्छास्त्रयोनित्वात् स्मृतेश्च । युक्ताच्च बहुश्रुतेश्च न वाक्यभेदात् ॥",
           "transliteration": "tattvasamyācchāstrayonitvāt smṛteśca | yuktācca bahuśruteśca na vākyabhedāt ||",
           "translation": "From the agreement of truth, from scriptural source, from Smriti, from reasoning, from many scriptural statements, and not from difference of statements.",
           "hindi": "तत्व की समता से, शास्त्र से, स्मृति से, युक्ति से, बहुत श्रुतियों से, और वाक्यों के भेद से नहीं।",
@@ -88,7 +88,7 @@ export const brahmasutra: Scripture = {
         },
         {
           "id": 10110,
-          "sanskrit": "इन्द्रियाणामन्योन्याधीपत्याद्धर्माद्भूतेष्च | योगाद्धर्माद्भूतेष्च योगाद्धर्माद्भूतेष्च ||",
+          "sanskrit": "इन्द्रियाणामन्योन्याधीपत्याद्धर्माद्भूतेष्च । योगाद्धर्माद्भूतेष्च योगाद्धर्माद्भूतेष्च ॥",
           "transliteration": "indriyāṇāmanyonyādhīpatyāddharmādbhūteśca | yogāddharmādbhūteśca yogāddharmādbhūteśca ||",
           "translation": "From the mutual control of the senses, from dharma of beings, from yoga of beings, from yoga of beings.",
           "hindi": "इंद्रियों का परस्पर नियंत्रण से, प्राणियों के धर्म से, प्राणियों के योग से, प्राणियों के योग से।",
@@ -105,7 +105,7 @@ export const brahmasutra: Scripture = {
       "verses": [
         {
           "id": 1,
-          "sanskrit": "ईक्षतेर्नाशब्दम् |",
+          "sanskrit": "ईक्षतेर्नाशब्दम् ।",
           "transliteration": "īkṣaternāśabdam |",
           "translation": "On account of seeing (consciousness), primordial matter is not the first cause (as it has no self-awareness).",
           "hindi": "देखने (दर्शन/ईक्षण) के कारण, प्रधान (जड़ प्रकृति) प्रथम कारण नहीं हो सकती।",
@@ -120,7 +120,7 @@ export const brahmasutra: Scripture = {
         },
         {
           "id": 2,
-          "sanskrit": "आनन्दमयोऽभ्यासात् |",
+          "sanskrit": "आनन्दमयोऽभ्यासात् ।",
           "transliteration": "ānandamayo'bhyāsāt |",
           "translation": "The inner Self is bliss (anandamaya) — on account of repetition (in the Upanishads).",
           "hindi": "आनन्दमय (आत्मा ही आनन्दमय है) — क्योंकि उपनिषदों में इसकी बार-बार पुष्टि है।",
@@ -135,7 +135,7 @@ export const brahmasutra: Scripture = {
         },
         {
           "id": 20103,
-          "sanskrit": "शास्त्रयोनित्वात् |",
+          "sanskrit": "शास्त्रयोनित्वात् ।",
           "transliteration": "śāstrayonitvāt |",
           "translation": "Because the scriptures are the source (of valid knowledge of Brahman).",
           "hindi": "क्योंकि शास्त्र (वेद-उपनिषद) ब्रह्मज्ञान का स्रोत हैं।",
@@ -144,7 +144,7 @@ export const brahmasutra: Scripture = {
         },
         {
           "id": 20107,
-          "sanskrit": "अथातो ब्रह्मजिज्ञासा |",
+          "sanskrit": "अथातो ब्रह्मजिज्ञासा ।",
           "transliteration": "athāto brahmajijñāsā |",
           "translation": "Now, therefore, the inquiry into Brahman.",
           "hindi": "अब, इसलिए, ब्रह्म की जिज्ञासा (अन्वेषण) करें।",
@@ -153,7 +153,7 @@ export const brahmasutra: Scripture = {
         },
         {
           "id": 20108,
-          "sanskrit": "तत्त्वसम्याच्छास्त्रयोनित्वात् स्मृतेश्च | युक्ताच्च बहुश्रुतेश्च न वाक्यभेदात् ||",
+          "sanskrit": "तत्त्वसम्याच्छास्त्रयोनित्वात् स्मृतेश्च । युक्ताच्च बहुश्रुतेश्च न वाक्यभेदात् ॥",
           "transliteration": "tattvasamyācchāstrayonitvāt smṛteśca | yuktācca bahuśruteśca na vākyabhedāt ||",
           "translation": "From the agreement of truth, from scriptural source, from Smriti, from reasoning, from many scriptural statements, and not from difference of statements.",
           "hindi": "तत्व की समता से, शास्त्र से, स्मृति से, युक्ति से, बहुत श्रुतियों से, और वाक्यों के भेद से नहीं।",
@@ -162,7 +162,7 @@ export const brahmasutra: Scripture = {
         },
         {
           "id": 20109,
-          "sanskrit": "जन्माद्यस्य यतः |",
+          "sanskrit": "जन्माद्यस्य यतः ।",
           "transliteration": "janmādyasya yataḥ |",
           "translation": "That from which the origin, sustenance, and dissolution of this (universe) proceed — that is Brahman.",
           "hindi": "जिससे इस जगत की उत्पत्ति, स्थिति और प्रलय होती है — वह ब्रह्म है।",
@@ -171,7 +171,7 @@ export const brahmasutra: Scripture = {
         },
         {
           "id": 20110,
-          "sanskrit": "इन्द्रियाणामन्योन्याधीपत्याद्धर्माद्भूतेष्च | योगाद्धर्माद्भूतेष्च योगाद्धर्माद्भूतेष्च ||",
+          "sanskrit": "इन्द्रियाणामन्योन्याधीपत्याद्धर्माद्भूतेष्च । योगाद्धर्माद्भूतेष्च योगाद्धर्माद्भूतेष्च ॥",
           "transliteration": "indriyāṇāmanyonyādhīpatyāddharmādbhūteśca | yogāddharmādbhūteśca yogāddharmādbhūteśca ||",
           "translation": "From the mutual control of the senses, from dharma of beings, from yoga of beings, from yoga of beings.",
           "hindi": "इंद्रियों का परस्पर नियंत्रण से, प्राणियों के धर्म से, प्राणियों के योग से, प्राणियों के योग से।",
@@ -188,7 +188,7 @@ export const brahmasutra: Scripture = {
       "verses": [
         {
           "id": 1,
-          "sanskrit": "तत्तु समन्वयात् |",
+          "sanskrit": "तत्तु समन्वयात् ।",
           "transliteration": "tattu samanvayāt |",
           "translation": "But that (Brahman) — through harmonisation (of all scriptural teachings).",
           "hindi": "परंतु वह (ब्रह्म) — समन्वय (समन्वित अनुशीलन) से जाना जाता है।",
@@ -203,7 +203,7 @@ export const brahmasutra: Scripture = {
         },
         {
           "id": 30102,
-          "sanskrit": "जन्माद्यस्य यतः |",
+          "sanskrit": "जन्माद्यस्य यतः ।",
           "transliteration": "janmādyasya yataḥ |",
           "translation": "That from which the origin, sustenance, and dissolution of this (universe) proceed — that is Brahman.",
           "hindi": "जिससे इस जगत की उत्पत्ति, स्थिति और प्रलय होती है — वह ब्रह्म है।",
@@ -212,7 +212,7 @@ export const brahmasutra: Scripture = {
         },
         {
           "id": 30103,
-          "sanskrit": "शास्त्रयोनित्वात् |",
+          "sanskrit": "शास्त्रयोनित्वात् ।",
           "transliteration": "śāstrayonitvāt |",
           "translation": "Because the scriptures are the source (of valid knowledge of Brahman).",
           "hindi": "क्योंकि शास्त्र (वेद-उपनिषद) ब्रह्मज्ञान का स्रोत हैं।",
@@ -221,7 +221,7 @@ export const brahmasutra: Scripture = {
         },
         {
           "id": 30107,
-          "sanskrit": "अथातो ब्रह्मजिज्ञासा |",
+          "sanskrit": "अथातो ब्रह्मजिज्ञासा ।",
           "transliteration": "athāto brahmajijñāsā |",
           "translation": "Now, therefore, the inquiry into Brahman.",
           "hindi": "अब, इसलिए, ब्रह्म की जिज्ञासा (अन्वेषण) करें।",
@@ -230,7 +230,7 @@ export const brahmasutra: Scripture = {
         },
         {
           "id": 30108,
-          "sanskrit": "तत्त्वसम्याच्छास्त्रयोनित्वात् स्मृतेश्च | युक्ताच्च बहुश्रुतेश्च न वाक्यभेदात् ||",
+          "sanskrit": "तत्त्वसम्याच्छास्त्रयोनित्वात् स्मृतेश्च । युक्ताच्च बहुश्रुतेश्च न वाक्यभेदात् ॥",
           "transliteration": "tattvasamyācchāstrayonitvāt smṛteśca | yuktācca bahuśruteśca na vākyabhedāt ||",
           "translation": "From the agreement of truth, from scriptural source, from Smriti, from reasoning, from many scriptural statements, and not from difference of statements.",
           "hindi": "तत्व की समता से, शास्त्र से, स्मृति से, युक्ति से, बहुत श्रुतियों से, और वाक्यों के भेद से नहीं।",
@@ -239,7 +239,7 @@ export const brahmasutra: Scripture = {
         },
         {
           "id": 30110,
-          "sanskrit": "इन्द्रियाणामन्योन्याधीपत्याद्धर्माद्भूतेष्च | योगाद्धर्माद्भूतेष्च योगाद्धर्माद्भूतेष्च ||",
+          "sanskrit": "इन्द्रियाणामन्योन्याधीपत्याद्धर्माद्भूतेष्च । योगाद्धर्माद्भूतेष्च योगाद्धर्माद्भूतेष्च ॥",
           "transliteration": "indriyāṇāmanyonyādhīpatyāddharmādbhūteśca | yogāddharmādbhūteśca yogāddharmādbhūteśca ||",
           "translation": "From the mutual control of the senses, from dharma of beings, from yoga of beings, from yoga of beings.",
           "hindi": "इंद्रियों का परस्पर नियंत्रण से, प्राणियों के धर्म से, प्राणियों के योग से, प्राणियों के योग से।",
@@ -256,7 +256,7 @@ export const brahmasutra: Scripture = {
       "verses": [
         {
           "id": 1,
-          "sanskrit": "अनावृत्तिः शब्दादनावृत्तिः शब्दात् |",
+          "sanskrit": "अनावृत्तिः शब्दादनावृत्तिः शब्दात् ।",
           "transliteration": "anāvṛttiḥ śabdādanāvṛttiḥ śabdāt |",
           "translation": "There is no return — so declare the scriptures; no return — so declare the scriptures.",
           "hindi": "पुनर्जन्म नहीं — शास्त्र ऐसा कहते हैं; पुनर्जन्म नहीं — शास्त्र ऐसा कहते हैं।",
@@ -271,7 +271,7 @@ export const brahmasutra: Scripture = {
         },
         {
           "id": 7,
-          "sanskrit": "अथातो ब्रह्मजिज्ञासा जन्माद्यस्य यतः | शास्त्रयोनित्वात् तत्त्ववित्तो ब्रह्म समश्रयात् ||",
+          "sanskrit": "अथातो ब्रह्मजिज्ञासा जन्माद्यस्य यतः । शास्त्रयोनित्वात् तत्त्ववित्तो ब्रह्म समश्रयात् ॥",
           "transliteration": "athāto brahmajijñāsā janmādyasya yataḥ | śāstrayonitvāt tattvavitto brahma samāśrayāt ||",
           "translation": "Now therefore the inquiry into Brahman — from which the origin of beings. From scriptural source, the knower of truth rests on Brahman.",
           "hindi": "अतः अब ब्रह्म की जिज्ञासा — जिससे प्राणियों की उत्पत्ति होती है। शास्त्र से, तत्त्वज्ञ ब्रह्म पर आश्रित होता है।",
@@ -287,7 +287,7 @@ export const brahmasutra: Scripture = {
         },
         {
           "id": 8,
-          "sanskrit": "तत्त्वसम्याच्छास्त्रयोनित्वात् स्मृतेश्च | युक्ताच्च बहुश्रुतेश्च न वाक्यभेदात् ||",
+          "sanskrit": "तत्त्वसम्याच्छास्त्रयोनित्वात् स्मृतेश्च । युक्ताच्च बहुश्रुतेश्च न वाक्यभेदात् ॥",
           "transliteration": "tattvasamyācchāstrayonitvāt smṛteśca | yuktācca bahuśruteśca na vākyabhedāt ||",
           "translation": "From the agreement of truth, from scriptural source, from Smriti, from reasoning, from many scriptural statements, and not from difference of statements.",
           "hindi": "तत्व की समता से, शास्त्र से, स्मृति से, युक्ति से, बहुत श्रुतियों से, और वाक्यों के भेद से नहीं।",
@@ -303,7 +303,7 @@ export const brahmasutra: Scripture = {
         },
         {
           "id": 9,
-          "sanskrit": "जन्माद्यस्य यतः सत्त्वात् साम्यतोऽभिधानात् | अनुपश्रुतेश्च शब्दात् सर्ववेदान्तप्रतिष्ठितात् ||",
+          "sanskrit": "जन्माद्यस्य यतः सत्त्वात् साम्यतोऽभिधानात् । अनुपश्रुतेश्च शब्दात् सर्ववेदान्तप्रतिष्ठितात् ॥",
           "transliteration": "janmādyasya yataḥ sattvāt sāmyato'bhidhānāt | anupaśruteśca śabdāt sarvavedāntapratishṭhitāt ||",
           "translation": "From which the origin of beings, from existence, from similarity of designation, from what is heard, from word, from what is established in all Vedanta.",
           "hindi": "जिससे प्राणियों की उत्पत्ति, सत्ता से, नाम की समता से, जो सुना गया, शब्द से, सब वेदांत में स्थापित से।",
@@ -319,7 +319,7 @@ export const brahmasutra: Scripture = {
         },
         {
           "id": 10,
-          "sanskrit": "इन्द्रियाणामन्योन्याधीपत्याद्धर्माद्भूतेष्च | योगाद्धर्माद्भूतेष्च योगाद्धर्माद्भूतेष्च ||",
+          "sanskrit": "इन्द्रियाणामन्योन्याधीपत्याद्धर्माद्भूतेष्च । योगाद्धर्माद्भूतेष्च योगाद्धर्माद्भूतेष्च ॥",
           "transliteration": "indriyāṇāmanyonyādhīpatyāddharmādbhūteśca | yogāddharmādbhūteśca yogāddharmādbhūteśca ||",
           "translation": "From the mutual control of the senses, from dharma of beings, from yoga of beings, from yoga of beings.",
           "hindi": "इंद्रियों का परस्पर नियंत्रण से, प्राणियों के धर्म से, प्राणियों के योग से, प्राणियों के योग से।",
@@ -335,7 +335,7 @@ export const brahmasutra: Scripture = {
         },
         {
           "id": 40107,
-          "sanskrit": "अथातो ब्रह्मजिज्ञासा जन्माद्यस्य यतः | शास्त्रयोनित्वात् तत्त्ववित्तो ब्रह्म समश्रयात् ||",
+          "sanskrit": "अथातो ब्रह्मजिज्ञासा जन्माद्यस्य यतः । शास्त्रयोनित्वात् तत्त्ववित्तो ब्रह्म समश्रयात् ॥",
           "transliteration": "athāto brahmajijñāsā janmādyasya yataḥ | śāstrayonitvāt tattvavitto brahma samāśrayāt ||",
           "translation": "Now therefore the inquiry into Brahman — from which the origin of beings. From scriptural source, the knower of truth rests on Brahman.",
           "hindi": "अतः अब ब्रह्म की जिज्ञासा — जिससे प्राणियों की उत्पत्ति होती है। शास्त्र से, तत्त्वज्ञ ब्रह्म पर आश्रित होता है।",
@@ -344,7 +344,7 @@ export const brahmasutra: Scripture = {
         },
         {
           "id": 40108,
-          "sanskrit": "तत्त्वसम्याच्छास्त्रयोनित्वात् स्मृतेश्च | युक्ताच्च बहुश्रुतेश्च न वाक्यभेदात् ||",
+          "sanskrit": "तत्त्वसम्याच्छास्त्रयोनित्वात् स्मृतेश्च । युक्ताच्च बहुश्रुतेश्च न वाक्यभेदात् ॥",
           "transliteration": "tattvasamyācchāstrayonitvāt smṛteśca | yuktācca bahuśruteśca na vākyabhedāt ||",
           "translation": "From the agreement of truth, from scriptural source, from Smriti, from reasoning, from many scriptural statements, and not from difference of statements.",
           "hindi": "तत्व की समता से, शास्त्र से, स्मृति से, युक्ति से, बहुत श्रुतियों से, और वाक्यों के भेद से नहीं।",
@@ -353,7 +353,7 @@ export const brahmasutra: Scripture = {
         },
         {
           "id": 40109,
-          "sanskrit": "जन्माद्यस्य यतः सत्त्वात् साम्यतोऽभिधानात् | अनुपश्रुतेश्च शब्दात् सर्ववेदान्तप्रतिष्ठितात् ||",
+          "sanskrit": "जन्माद्यस्य यतः सत्त्वात् साम्यतोऽभिधानात् । अनुपश्रुतेश्च शब्दात् सर्ववेदान्तप्रतिष्ठितात् ॥",
           "transliteration": "janmādyasya yataḥ sattvāt sāmyato'bhidhānāt | anupaśruteśca śabdāt sarvavedāntapratishṭhitāt ||",
           "translation": "From which the origin of beings, from existence, from similarity of designation, from what is heard, from word, from what is established in all Vedanta.",
           "hindi": "जिससे प्राणियों की उत्पत्ति, सत्ता से, नाम की समता से, जो सुना गया, शब्द से, सब वेदांत में स्थापित से।",
@@ -362,7 +362,7 @@ export const brahmasutra: Scripture = {
         },
         {
           "id": 40110,
-          "sanskrit": "इन्द्रियाणामन्योन्याधीपत्याद्धर्माद्भूतेष्च | योगाद्धर्माद्भूतेष्च योगाद्धर्माद्भूतेष्च ||",
+          "sanskrit": "इन्द्रियाणामन्योन्याधीपत्याद्धर्माद्भूतेष्च । योगाद्धर्माद्भूतेष्च योगाद्धर्माद्भूतेष्च ॥",
           "transliteration": "indriyāṇāmanyonyādhīpatyāddharmādbhūteśca | yogāddharmādbhūteśca yogāddharmādbhūteśca ||",
           "translation": "From the mutual control of the senses, from dharma of beings, from yoga of beings, from yoga of beings.",
           "hindi": "इंद्रियों का परस्पर नियंत्रण से, प्राणियों के धर्म से, प्राणियों के योग से, प्राणियों के योग से।",

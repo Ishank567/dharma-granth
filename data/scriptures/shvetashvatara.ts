@@ -17,7 +17,7 @@ export const shvetashvatara: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'ब्रह्मवादिनो वदन्ति | किं कारणं ब्रह्म | कुतः स्म जाताः | जीवाम केन | क्व च सम्प्रतिष्ठाः ||',
+          sanskrit: 'ब्रह्मवादिनो वदन्ति । किं कारणं ब्रह्म । कुतः स्म जाताः । जीवाम केन । क्व च सम्प्रतिष्ठाः ॥',
           transliteration: 'brahmavādino vadanti | kiṃ kāraṇaṃ brahma | kutaḥ sma jātāḥ | jīvāma kena | kva ca sampratiṣṭhāḥ ||',
           translation: 'The knowers of Brahman ask: What is the cause? Brahman? From where are we born? By what do we live? And on what are we established?',
           hindi: 'ब्रह्मवादी पूछते हैं: कारण क्या है? क्या वह ब्रह्म है? हम कहाँ से उत्पन्न हुए? किससे जी रहे हैं? और किस पर स्थित हैं?',
@@ -37,7 +37,7 @@ export const shvetashvatara: Scripture = {
       verses: [
         {
           id: 8,
-          sanskrit: 'वेदाहमेतं पुरुषं महान्तमादित्यवर्णं तमसः परस्तात् |\nतमेव विदित्वातिमृत्युमेति नान्यः पन्था विद्यतेऽयनाय ||',
+          sanskrit: 'वेदाहमेतं पुरुषं महान्तमादित्यवर्णं तमसः परस्तात् ।\nतमेव विदित्वातिमृत्युमेति नान्यः पन्था विद्यतेऽयनाय ॥',
           transliteration: 'vedāhametaṃ puruṣaṃ mahāntamādityavarṇaṃ tamasaḥ parastāt |\ntameva viditvātimṛtyumeti nānyaḥ panthā vidyate\'yanāya ||',
           translation: 'I know that great Person, brilliant as the sun, beyond all darkness. Only by knowing Him does one cross over death — there is no other path for liberation.',
           hindi: 'मैं उस महान पुरुष को जानता हूँ — जो सूर्य के समान देदीप्यमान और अंधकार से परे है। उसी को जानकर मनुष्य मृत्यु को पार करता है; मोक्ष का अन्य कोई मार्ग नहीं है।',
@@ -64,7 +64,7 @@ export const shvetashvatara: Scripture = {
       verses: [
         {
           id: 1,
-          sanskrit: 'द्वे अक्षरे ब्रह्मपरे त्वनन्ते विद्याविद्ये निहिते यत्र गूढे |\nक्षरं त्वविद्या ह्यमृतं तु विद्या विद्याविद्ये ईशते यस्तु सोऽन्यः ||',
+          sanskrit: 'द्वे अक्षरे ब्रह्मपरे त्वनन्ते विद्याविद्ये निहिते यत्र गूढे ।\nक्षरं त्वविद्या ह्यमृतं तु विद्या विद्याविद्ये ईशते यस्तु सोऽन्यः ॥',
           transliteration: 'dve akṣare brahmapare tvanante vidyāvidye nihite yatra gūḍhe |\nkṣaraṃ tvavidyā hyamṛtaṃ tu vidyā vidyāvidye īśate yastu so\'nyaḥ ||',
           translation: 'In the imperishable, infinite, supreme Brahman, two are hidden — knowledge (vidya) and ignorance (avidya). Ignorance is the perishable; knowledge is the immortal. The one who is master of both knowledge and ignorance is yet another — the Supreme.',
           hindi: 'पर ब्रह्म में, जो अनन्त और अक्षर है, दो छिपे हैं — विद्या और अविद्या। अविद्या क्षर है; विद्या अमर है। और जो विद्या-अविद्या दोनों का स्वामी है, वह तो इन से भी परे है।',
@@ -83,7 +83,7 @@ export const shvetashvatara: Scripture = {
       verses: [
         {
           id: 11,
-          sanskrit: 'एको देवः सर्वभूतेषु गूढः सर्वव्यापी सर्वभूतान्तरात्मा |\nकर्माध्यक्षः सर्वभूताधिवासः साक्षी चेता केवलो निर्गुणश्च ||',
+          sanskrit: 'एको देवः सर्वभूतेषु गूढः सर्वव्यापी सर्वभूतान्तरात्मा ।\nकर्माध्यक्षः सर्वभूताधिवासः साक्षी चेता केवलो निर्गुणश्च ॥',
           transliteration: 'eko devaḥ sarvabhūteṣu gūḍhaḥ sarvavyāpī sarvabhūtāntarātmā |\nkarmādhyakṣaḥ sarvabhūtādhivāsaḥ sākṣī cetā kevalo nirguṇaśca ||',
           translation: 'One God, hidden in all beings, all-pervading, the inner Self of all beings, the overseer of all actions, dwelling in all beings, the witness, the consciousness, the Absolute, free from qualities.',
           hindi: 'एक देव सभी प्राणियों में छिपा हुआ है, सर्वव्यापी है, सभी प्राणियों की अंतरात्मा है। वह सभी कर्मों का अध्यक्ष है, सभी प्राणियों में निवासी है, साक्षी है, चेतना है, केवल और निर्गुण है।',
@@ -94,7 +94,7 @@ export const shvetashvatara: Scripture = {
         },
         {
           id: 20,
-          sanskrit: 'यदा चर्मवदाकाशं वेष्टयिष्यन्ति मानवाः |\nतदा देवमविज्ञाय दुःखस्यान्तो भविष्यति ||',
+          sanskrit: 'यदा चर्मवदाकाशं वेष्टयिष्यन्ति मानवाः ।\nतदा देवमविज्ञाय दुःखस्यान्तो भविष्यति ॥',
           transliteration: 'yadā carmavadākāśaṃ veṣṭayiṣyanti mānavāḥ |\ntadā devamavijñāya duḥkhasyānto bhaviṣyati ||',
           translation: 'When humans roll up the sky like a piece of leather, then — without knowing God — suffering will come to an end.',
           hindi: 'जब मनुष्य आकाश को चमड़े की तरह लपेट लेंगे, तभी — ईश्वर को जाने बिना — दुख का अंत होगा।',
