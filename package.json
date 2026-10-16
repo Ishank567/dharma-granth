@@ -42,6 +42,7 @@
     "test:sitemap": "tsx scripts/test-sitemap.ts",
     "test:embed": "tsx scripts/test-embed.ts",
     "test:daily-verse": "tsx scripts/test-daily-verse.ts",
+    "test:wisdom-links": "tsx scripts/test-wisdom-verse-topics.ts",
     "check:sitemap": "node scripts/check-sitemap.mjs",
     "test:release1": "tsx scripts/test-release1.ts",
     "check:registry": "tsx scripts/check-registry.ts",

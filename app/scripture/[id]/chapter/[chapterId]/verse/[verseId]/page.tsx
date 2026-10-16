@@ -28,6 +28,8 @@ import { ActivityRecorder } from '@/app/components/study/ActivityRecorder';
 import { badgesFor, latestReview } from '@/lib/review-badges';
 import { PENDING_CORRECTIONS, REVIEW_RECORDS } from '@/data/review-records';
 import { getScriptureSourceMeta } from '@/data/sources-registry';
+import { wisdomTopicsForVerse } from '@/lib/wisdom-verse-topics';
+import { WisdomTopicLinks } from '@/app/components/WisdomTopicLinks';
 
 /**
  * One static page per verse for the scriptures in VERSE_PAGE_SCRIPTURE_IDS
@@ -112,7 +114,8 @@ export function generateMetadata({ params }: PageProps): Metadata {
 
   const ref = `${meta.title} ${chapterId}.${params.verseId}`;
   const words = opening(found.verse.sanskrit);
-  const title = `${ref}${words ? ` — ${words}` : ''} — Meaning in Hindi & English (हिंदी अर्थ)`;
+  // Search engines show about 60 characters: lead with the reference and "Meaning in Hindi & English".
+  const title = `${ref} Meaning in Hindi & English${words ? ` | ${words}` : ''}`;
   const description = clipDescription(
     [plain(found.verse.hindi, 85), plain(found.verse.translation, 85)].filter(Boolean).join(' · ') ||
       `${ref}: Sanskrit text with Hindi and English meaning.`,
@@ -378,6 +381,7 @@ export default function VersePage({ params }: PageProps) {
         />
         <RelatedTeachings scriptureId={meta.id} chapterId={chapterId} verseNumber={params.verseId} />
         <NextTeachings candidates={nextCandidates} verseId={String(params.verseId)} />
+        <WisdomTopicLinks topics={wisdomTopicsForVerse(meta.id, chapterId, String(params.verseId))} />
         <VerseRelatedSection
           concepts={integrations.concepts}
           topics={integrations.topics}
