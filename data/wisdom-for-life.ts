@@ -1,3 +1,5 @@
+import { lifeProblemTopics } from './wisdom-life-problems';
+
 export interface ScriptureReference {
   id: string;
   scriptureId: string;
@@ -2001,6 +2003,7 @@ export const wisdomTopics: WisdomTopic[] = [
         clinicalDisclaimerHi: 'शास्त्र कभी भी योग्य चिकित्सक या मनोविज्ञानी की सलाह का विकल्प नहीं है। गंभीर अवसाद, पैनिक अटैक या निरंतर अत्यधिक चिंता की स्थिति में तुरंत विशेषज्ञ से संपर्क करें।'
       }
   },
+  ...lifeProblemTopics,
 ];
 
 export function getAllWisdomTopics(): WisdomTopic[] {

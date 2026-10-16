@@ -3,6 +3,7 @@ import { DEFAULT_OG_IMAGE } from '@/lib/og';
 import { FadeUp } from '@/app/components/motion/primitives';
 import { WisdomClient } from './WisdomClient';
 import Link from 'next/link';
+import { SEARCH_INTENTS } from '@/data/search-intent';
 import { Compass, BookOpen, Heart, Sparkles } from 'lucide-react';
 
 export const metadata: Metadata = {
@@ -14,7 +15,7 @@ export const metadata: Metadata = {
     images: [DEFAULT_OG_IMAGE],
     title: 'Wisdom for Life — जीवन के लिए शास्त्रीय मार्गदर्शन — Dharma Granth',
     description:
-      'Discover relevant scriptural teachings even without knowing scripture names or verse numbers. 12 life dimensions explored verse-by-verse.',
+      'Life questions opened through verses already in the library, without requiring a scripture name first.',
     url: 'https://dharmagranth.in/wisdom-for-life',
   },
 };
@@ -72,6 +73,25 @@ export default function WisdomForLifeIndexPage() {
             </div>
           </FadeUp>
         </div>
+      </section>
+
+      <section aria-labelledby="search-phrases" className="mx-auto max-w-6xl px-6 py-8">
+        <h2 id="search-phrases" className="font-serif text-2xl font-bold text-dharma-text">
+          <span lang="hi" className="font-devanagari">खोज के वाक्य</span>
+        </h2>
+        <p lang="hi" className="mt-2 text-sm text-dharma-text">हर वाक्य उसी जीवन-विषय को खोलता है। नया पृष्ठ नहीं बनाया गया।</p>
+        <ul className="mt-3 flex flex-wrap gap-2">
+          {SEARCH_INTENTS.map((item) => (
+            <li key={item.slug}>
+              <Link
+                href={`/wisdom-for-life/${item.slug}`}
+                className="inline-flex min-h-[44px] items-center rounded-full border border-dharma-border bg-dharma-card px-3 text-sm font-semibold text-saffron-600"
+              >
+                <span lang="hi" className="font-devanagari">{item.titleHi}</span>
+              </Link>
+            </li>
+          ))}
+        </ul>
       </section>
 
       {/* ── Client Search, Filters & Cards ───────────────────────── */}

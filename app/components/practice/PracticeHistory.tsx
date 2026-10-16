@@ -16,6 +16,7 @@ import {
 import { useLocalStorage } from '@/lib/useLocalStorage';
 import { ToolCard, formatDisplayDate } from './shared';
 import { triggerHaptic } from '@/lib/haptics';
+import { entryText, readEntry, type ReflectionStored } from './reflection-entry';
 
 interface JapaState {
   date: string;
@@ -54,7 +55,7 @@ export function PracticeHistory() {
     'dharma.practice.meditation',
     { sessions: 0, minutes: 0 },
   );
-  const [reflections, setReflections] = useLocalStorage<Record<string, string>>(
+  const [reflections, setReflections] = useLocalStorage<Record<string, ReflectionStored>>(
     'dharma.practice.reflections',
     {},
   );
@@ -72,7 +73,7 @@ export function PracticeHistory() {
     Object.keys(meditation.history).forEach((d) => datesSet.add(d));
   }
   Object.keys(reflections).forEach((d) => {
-    if (reflections[d]?.trim()) datesSet.add(d);
+    if (entryText(readEntry(reflections[d]))) datesSet.add(d);
   });
   Object.keys(gratitude).forEach((d) => {
     if (gratitude[d]?.some((g) => g.trim().length > 0)) datesSet.add(d);
@@ -146,7 +147,7 @@ export function PracticeHistory() {
               const isExpanded = expandedDate === date;
               const medMins = meditation.history?.[date];
               const isJapaToday = japa.date === date && (japa.rounds > 0 || japa.count > 0);
-              const refText = reflections[date]?.trim();
+              const refText = entryText(readEntry(reflections[date]));
               const gratEntries = (gratitude[date] ?? []).filter((g) => g.trim().length > 0);
 
               return (

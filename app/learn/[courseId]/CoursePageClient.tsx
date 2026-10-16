@@ -13,6 +13,7 @@ import { MindMap } from '@/app/components/MindMap';
 import { Timeline } from '@/app/components/Timeline';
 import { QuizRunner } from '@/app/components/QuizRunner';
 import { useStudyProgress } from '@/lib/useStudyProgress';
+import { CourseCertificate } from './CourseCertificate';
 import {
   BookOpen,
   Brain,
@@ -62,14 +63,27 @@ export function CoursePageClient({ course }: CoursePageClientProps) {
   // Course progress tracking via useStudyProgress
   const pathwayProgress = progress.getPathwayProgress(course.id);
   const completedSteps = pathwayProgress?.completedSteps ?? [];
-  const completedCount = completedSteps.length;
-  const isAllComplete = completedCount >= course.lessons.length && course.lessons.length > 0;
+  const completedCount = course.lessons.filter((lesson) => completedSteps.includes(lesson.id)).length;
+  const isAllComplete = course.lessons.length > 0 && completedCount === course.lessons.length;
 
   const isLessonComplete = (lessonId: string) => completedSteps.includes(lessonId);
 
   const toggleLesson = (lessonId: string) => {
+    const had = completedSteps.includes(lessonId);
     progress.togglePathwayStep(course.id, lessonId);
+    if (!had) {
+      const done = new Set(completedSteps);
+      done.add(lessonId);
+      if (course.lessons.every((lesson) => done.has(lesson.id))) {
+        progress.completePathway(course.id);
+      }
+    }
   };
+
+  useEffect(() => {
+    if (!progress.hydrated || !isAllComplete || pathwayProgress?.completedAt) return;
+    progress.completePathway(course.id);
+  }, [progress.hydrated, isAllComplete, pathwayProgress?.completedAt, course.id, progress.completePathway]);
 
   const handleNextCard = () => {
     setCardIndex((prev) => (prev + 1) % deck.length);
@@ -264,6 +278,15 @@ export function CoursePageClient({ course }: CoursePageClientProps) {
           </div>
         </div>
       </section>
+
+      {progress.hydrated && isAllComplete && (
+        <CourseCertificate
+          courseId={course.id}
+          title={course.title}
+          titleSanskrit={course.titleSanskrit}
+          completedAt={pathwayProgress?.completedAt}
+        />
+      )}
 
       {/* ── Tabbed Navigation Bar ───────────────────────────────────────── */}
       <section className="sticky top-0 z-30 bg-dharma-card/95 backdrop-blur-md border-b border-dharma-border shadow-xs">

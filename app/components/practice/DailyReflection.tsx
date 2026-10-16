@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState, useRef } from 'react';
+import { useRef, useState } from 'react';
 import {
   PenLine,
   Check,
@@ -8,12 +8,17 @@ import {
   ChevronRight,
   Download,
   Trash2,
-  Calendar,
-  AlertTriangle,
 } from 'lucide-react';
 import { useLocalStorage } from '@/lib/useLocalStorage';
 import { ToolCard, localISODate, dayOfYear, offsetISODate, formatDisplayDate } from './shared';
 import { triggerHaptic } from '@/lib/haptics';
+import {
+  entryText,
+  readEntry,
+  REFLECTION_TAGS,
+  type ReflectionFields,
+  type ReflectionStored,
+} from './reflection-entry';
 
 /** Rotating contemplative prompts for introspection throughout the year. */
 const PROMPTS: { en: string; hi: string }[] = [
@@ -33,35 +38,57 @@ const PROMPTS: { en: string; hi: string }[] = [
   { en: 'What small discipline improved my day?', hi: 'किस छोटे अनुशासन ने मेरा दिन बेहतर बनाया?' },
 ];
 
+const QUESTIONS: { key: keyof ReflectionFields; hi: string; en: string }[] = [
+  { key: 'learned', hi: 'आज क्या समझ आया?', en: 'What did you learn?' },
+  { key: 'challenged', hi: 'क्या कठिन लगा?', en: 'What challenged you?' },
+  { key: 'apply', hi: 'आज यह कैसे लागू होता है?', en: 'How does this apply today?' },
+  { key: 'action', hi: 'अब कौन सा कदम लोगे?', en: 'What action will you take?' },
+];
+
+const FIELD_LABEL: Record<keyof ReflectionFields, string> = {
+  note: 'टिप्पणी',
+  learned: 'क्या समझ आया',
+  challenged: 'क्या कठिन लगा',
+  apply: 'आज कैसे लागू होता है',
+  action: 'कौन सा कदम',
+  tag: 'अवधारणा',
+};
+
 /**
- * Daily reflection journal with autosave, local-save indicator,
- * date navigation, export, and delete options.
+ * Daily reflection on the practice page. Four questions, a searchable date list,
+ * and one concept tag. Older entries that were a single string still open.
  */
 export function DailyReflection() {
-  const [entries, setEntries] = useLocalStorage<Record<string, string>>(
+  const [entries, setEntries] = useLocalStorage<Record<string, ReflectionStored>>(
     'dharma.practice.reflections',
     {},
   );
   const [currentDate, setCurrentDate] = useState(localISODate());
+  const [query, setQuery] = useState('');
   const [saveStatus, setSaveStatus] = useState<'idle' | 'saving' | 'saved'>('idle');
   const [confirmDelete, setConfirmDelete] = useState(false);
   const saveTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const today = localISODate();
   const dateInfo = formatDisplayDate(currentDate);
+  const [year, month, day] = currentDate.split('-').map(Number);
+  const prompt = PROMPTS[dayOfYear(new Date(year, month - 1, day)) % PROMPTS.length];
+  const fields = readEntry(entries[currentDate]);
+  const written = entryText(fields).length > 0;
+  const daysWritten = Object.keys(entries).filter((key) => entryText(readEntry(entries[key])).length > 0).length;
+  const needle = query.trim().toLowerCase();
+  const dates = Object.keys(entries)
+    .filter((key) => {
+      const text = entryText(readEntry(entries[key]));
+      if (!text) return false;
+      if (!needle) return true;
+      return `${key} ${text}`.toLowerCase().includes(needle);
+    })
+    .sort()
+    .reverse();
 
-  // Derive prompt based on selected date's day of year
-  const [y, m, d] = currentDate.split('-').map(Number);
-  const selectedDateObj = new Date(y, m - 1, d);
-  const prompt = PROMPTS[dayOfYear(selectedDateObj) % PROMPTS.length];
-
-  const text = entries[currentDate] ?? '';
-  const daysWritten = Object.keys(entries).filter((k) => (entries[k] ?? '').trim().length > 0).length;
-
-  function handleTextChange(val: string) {
+  function markSaving() {
     setSaveStatus('saving');
-    setEntries({ ...entries, [currentDate]: val });
-
     if (saveTimeoutRef.current) clearTimeout(saveTimeoutRef.current);
     saveTimeoutRef.current = setTimeout(() => {
       setSaveStatus('saved');
@@ -69,17 +96,25 @@ export function DailyReflection() {
     }, 600);
   }
 
+  function writeFields(next: ReflectionFields) {
+    markSaving();
+    setEntries({ ...entries, [currentDate]: next });
+  }
+
+  function writeField(key: keyof ReflectionFields, value: string) {
+    writeFields({ ...fields, [key]: value });
+  }
+
   function goPrevDay() {
     triggerHaptic('light');
-    setCurrentDate((d) => offsetISODate(d, -1));
+    setCurrentDate((value) => offsetISODate(value, -1));
     setConfirmDelete(false);
   }
 
   function goNextDay() {
     triggerHaptic('light');
-    // Cannot go past today
     if (currentDate < today) {
-      setCurrentDate((d) => offsetISODate(d, 1));
+      setCurrentDate((value) => offsetISODate(value, 1));
       setConfirmDelete(false);
     }
   }
@@ -87,6 +122,12 @@ export function DailyReflection() {
   function goToday() {
     triggerHaptic('light');
     setCurrentDate(today);
+    setConfirmDelete(false);
+  }
+
+  function openDate(date: string) {
+    triggerHaptic('light');
+    setCurrentDate(date);
     setConfirmDelete(false);
   }
 
@@ -101,11 +142,15 @@ export function DailyReflection() {
   function handleExport() {
     try {
       const lines = ['# Dharma Granth — Daily Spiritual Reflections (दैनिक चिंतन)\n'];
-      const sortedKeys = Object.keys(entries).sort();
-      for (const k of sortedKeys) {
-        if (entries[k]?.trim()) {
-          lines.push(`## ${k}\n${entries[k].trim()}\n`);
-        }
+      for (const key of Object.keys(entries).sort()) {
+        const entry = readEntry(entries[key]);
+        if (!entryText(entry)) continue;
+        lines.push(`## ${key}`);
+        (Object.keys(FIELD_LABEL) as (keyof ReflectionFields)[]).forEach((field) => {
+          const value = entry[field].trim();
+          if (value) lines.push(`${FIELD_LABEL[field]}: ${value}`);
+        });
+        lines.push('');
       }
       const blob = new Blob([lines.join('\n')], { type: 'text/markdown;charset=utf-8' });
       const url = URL.createObjectURL(blob);
@@ -116,7 +161,9 @@ export function DailyReflection() {
       a.click();
       a.remove();
       setTimeout(() => URL.revokeObjectURL(url), 10_000);
-    } catch {}
+    } catch {
+      /* export is optional */
+    }
   }
 
   return (
@@ -127,13 +174,12 @@ export function DailyReflection() {
       accent="rose"
     >
       <div className="flex flex-col gap-3 h-full">
-        {/* Date Navigation & Actions bar */}
-        <div className="flex items-center justify-between px-2 py-1.5 bg-dharma-panel-muted rounded-xl border border-dharma-border/60 text-xs">
+        <div className="flex items-center justify-between px-2 py-1.5 bg-dharma-panel-muted rounded-xl border border-dharma-border text-xs">
           <div className="flex items-center gap-1">
             <button
               type="button"
               onClick={goPrevDay}
-              className="p-1 rounded-lg text-dharma-muted hover:text-dharma-text hover:bg-stone-200/50 dark:hover:bg-stone-800/50 transition"
+              className="p-1 rounded-lg text-dharma-muted hover:text-dharma-text"
               title="पिछला दिन · Previous day"
               aria-label="Previous day"
             >
@@ -143,10 +189,8 @@ export function DailyReflection() {
             <button
               type="button"
               onClick={goToday}
-              className={`px-2 py-0.5 rounded-md font-semibold transition ${
-                dateInfo.isToday
-                  ? 'bg-rose-100 dark:bg-rose-950/40 text-rose-800 dark:text-rose-300'
-                  : 'text-dharma-text hover:bg-stone-200/50 dark:hover:bg-stone-800/50'
+              className={`px-2 py-0.5 rounded-md font-semibold ${
+                dateInfo.isToday ? 'bg-dharma-bg text-dharma-text' : 'text-dharma-text'
               }`}
               title="आज पर जाएं · Jump to today"
             >
@@ -158,7 +202,7 @@ export function DailyReflection() {
               type="button"
               onClick={goNextDay}
               disabled={currentDate >= today}
-              className="p-1 rounded-lg text-dharma-muted hover:text-dharma-text hover:bg-stone-200/50 dark:hover:bg-stone-800/50 transition disabled:opacity-30 disabled:cursor-not-allowed"
+              className="p-1 rounded-lg text-dharma-muted hover:text-dharma-text disabled:cursor-not-allowed disabled:text-dharma-text-secondary"
               title="अगला दिन · Next day"
               aria-label="Next day"
             >
@@ -167,11 +211,11 @@ export function DailyReflection() {
           </div>
 
           <div className="flex items-center gap-1">
-            {text.trim().length > 0 && (
+            {written && (
               <button
                 type="button"
                 onClick={() => setConfirmDelete(!confirmDelete)}
-                className="p-1.5 rounded-lg text-dharma-muted hover:text-rose-600 hover:bg-rose-50 dark:hover:bg-rose-950/30 transition"
+                className="p-1.5 rounded-lg text-dharma-muted hover:text-dharma-text"
                 title="इस दिन का चिंतन हटाएं · Delete entry for this date"
                 aria-label="Delete entry"
               >
@@ -181,7 +225,7 @@ export function DailyReflection() {
             <button
               type="button"
               onClick={handleExport}
-              className="p-1.5 rounded-lg text-dharma-muted hover:text-rose-700 hover:bg-rose-50 dark:hover:bg-rose-950/30 transition"
+              className="p-1.5 rounded-lg text-dharma-muted hover:text-dharma-text"
               title="चिंतन एक्सपोर्ट करें · Export reflections"
               aria-label="Export reflections as markdown"
             >
@@ -190,24 +234,23 @@ export function DailyReflection() {
           </div>
         </div>
 
-        {/* Delete Confirmation Warning */}
         {confirmDelete && (
-          <div className="p-2.5 rounded-xl border border-rose-300 dark:border-rose-900/50 bg-rose-50/90 dark:bg-rose-950/30 text-xs flex items-center justify-between gap-2">
-            <span className="text-rose-800 dark:text-rose-200 font-medium">
+          <div className="p-2.5 rounded-xl border border-dharma-border bg-dharma-bg text-xs flex items-center justify-between gap-2">
+            <span className="text-dharma-text font-medium">
               क्या आप {dateInfo.hi} का चिंतन हटाना चाहते हैं?
             </span>
             <div className="flex gap-1.5 shrink-0">
               <button
                 type="button"
                 onClick={() => setConfirmDelete(false)}
-                className="px-2 py-0.5 rounded border border-dharma-border bg-white dark:bg-stone-900 text-dharma-text"
+                className="px-2 py-0.5 rounded border border-dharma-border bg-dharma-card text-dharma-text"
               >
                 रद्द करें
               </button>
               <button
                 type="button"
                 onClick={handleDeleteCurrent}
-                className="px-2 py-0.5 rounded bg-rose-600 text-white font-bold"
+                className="px-2 py-0.5 rounded bg-dharma-card border border-dharma-border text-dharma-text font-bold"
               >
                 हटाएं
               </button>
@@ -215,40 +258,88 @@ export function DailyReflection() {
           </div>
         )}
 
-        {/* Prompt */}
-        <blockquote className="border-l-4 border-rose-300 pl-3">
-          <p className="text-sm font-semibold text-dharma-text">{prompt.en}</p>
-          <p lang="hi" className="font-devanagari text-xs text-dharma-muted mt-0.5">{prompt.hi}</p>
+        <blockquote className="border-l-4 border-dharma-border pl-3">
+          <p lang="hi" className="font-devanagari text-sm font-semibold text-dharma-text">{prompt.hi}</p>
+          <p className="text-xs text-dharma-text-secondary mt-0.5">{prompt.en}</p>
         </blockquote>
 
-        {/* Textarea */}
         <textarea
-          value={text}
-          onChange={(e) => handleTextChange(e.target.value)}
+          value={fields.note}
+          onChange={(event) => writeField('note', event.target.value)}
           placeholder="यहाँ अपने विचार लिखें — यह आपके उपकरण पर ही सुरक्षित रहता है..."
-          rows={5}
-          className="w-full flex-1 text-sm bg-dharma-panel-muted rounded-xl border border-dharma-border focus:border-rose-300 outline-none p-3.5 text-dharma-text placeholder:text-dharma-muted resize-y font-devanagari leading-relaxed selection:bg-rose-200"
+          rows={4}
+          className="w-full text-sm bg-dharma-bg rounded-xl border border-dharma-border p-3.5 text-dharma-text placeholder:text-dharma-muted resize-y font-devanagari leading-relaxed"
           aria-label={`Reflection for ${dateInfo.en}`}
         />
 
-        {/* Footer with autosave indicator */}
+        {QUESTIONS.map((question) => (
+          <label key={question.key} className="block text-sm text-dharma-text">
+            <span lang="hi" className="font-devanagari font-semibold">{question.hi}</span>
+            <span className="mt-0.5 block text-xs text-dharma-text-secondary">{question.en}</span>
+            <textarea
+              value={fields[question.key]}
+              onChange={(event) => writeField(question.key, event.target.value)}
+              rows={2}
+              className="mt-1 w-full rounded-xl border border-dharma-border bg-dharma-bg p-3 text-sm text-dharma-text font-devanagari leading-relaxed"
+            />
+          </label>
+        ))}
+
+        <label className="block text-sm text-dharma-text">
+          <span lang="hi" className="font-devanagari font-semibold">अवधारणा</span>
+          <select
+            value={fields.tag}
+            onChange={(event) => writeField('tag', event.target.value)}
+            className="mt-1 block min-h-[44px] w-full rounded-xl border border-dharma-border bg-dharma-bg px-3 text-sm text-dharma-text"
+          >
+            <option value="">कोई नहीं</option>
+            {REFLECTION_TAGS.map((tag) => (
+              <option key={tag.id} value={tag.id}>{tag.hi}</option>
+            ))}
+          </select>
+        </label>
+
+        <label className="block text-sm text-dharma-text">
+          <span lang="hi" className="font-devanagari font-semibold">पुराने चिंतन खोजें</span>
+          <input
+            type="search"
+            value={query}
+            onChange={(event) => setQuery(event.target.value)}
+            className="mt-1 block min-h-[44px] w-full rounded-xl border border-dharma-border bg-dharma-bg px-3 text-sm text-dharma-text"
+          />
+        </label>
+        {dates.length === 0 ? (
+          <p lang="hi" className="text-sm text-dharma-text-secondary">कोई चिंतन नहीं मिला।</p>
+        ) : (
+          <ul className="max-h-40 space-y-1 overflow-y-auto" aria-label="चिंतन की तिथियाँ">
+            {dates.map((date) => (
+              <li key={date}>
+                <button
+                  type="button"
+                  onClick={() => openDate(date)}
+                  className="min-h-[44px] w-full rounded-xl px-3 text-left text-sm text-dharma-text hover:bg-dharma-bg"
+                >
+                  {formatDisplayDate(date).hi}
+                  <span className="ml-2 text-dharma-text-secondary">{date}</span>
+                </button>
+              </li>
+            ))}
+          </ul>
+        )}
+
         <div className="flex items-center justify-between text-xs text-dharma-muted">
           <span className="inline-flex items-center gap-1.5 font-medium">
             {saveStatus === 'saving' ? (
+              <span>सहेजा जा रहा है... · Saving</span>
+            ) : saveStatus === 'saved' || written ? (
               <>
-                <span className="w-2 h-2 rounded-full bg-amber-500 animate-pulse" />
-                <span>सहेजा जा रहा है... · Saving</span>
-              </>
-            ) : saveStatus === 'saved' || text.trim().length > 0 ? (
-              <>
-                <Check className="w-3.5 h-3.5 text-emerald-600" />
-                <span className="text-emerald-700 dark:text-emerald-400">सहेजा गया · Saved on device</span>
+                <Check className="w-3.5 h-3.5 text-dharma-text-secondary" />
+                <span>सहेजा गया · Saved on device</span>
               </>
             ) : (
               <span>लिखते ही स्वतः सहेजता है · Autosaves</span>
             )}
           </span>
-
           <span>{daysWritten} दिन लिखे गए</span>
         </div>
       </div>

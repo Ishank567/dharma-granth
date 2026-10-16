@@ -9,7 +9,7 @@ import {
   useReducedMotion,
 } from 'framer-motion';
 import { useEffect, useRef, useState, type PointerEvent } from 'react';
-import { ArrowRight, BookOpen, Flame, Search } from 'lucide-react';
+import { ArrowRight, BookOpen, Flame, Search, Sparkles } from 'lucide-react';
 import { FadeUp } from '@/app/components/motion/primitives';
 import { MagneticButton } from '@/app/components/motion/MagneticButton';
 import { SurpriseVerseButton } from '@/app/components/SurpriseVerseButton';
@@ -399,6 +399,20 @@ export function HeroSection() {
               <span>Browse All Scriptures</span>
               <span lang="hi" className="font-devanagari text-xs text-amber-200/80 hidden md:inline">
                 (संपूर्ण ग्रंथालय)
+              </span>
+            </MagneticButton>
+          </div>
+          <div>
+            <MagneticButton
+              href="/ask"
+              className="inline-flex items-center gap-2 rounded-full border border-amber-400/40 bg-gradient-to-r from-amber-500/20 to-saffron-500/20 px-5 py-3.5 font-bold text-amber-200 shadow-xl backdrop-blur-md transition-all hover:border-amber-300 hover:bg-amber-500/30 sm:gap-2.5 sm:px-6 shine-sweep"
+              strength={24}
+              tilt={10}
+            >
+              <Sparkles className="w-5 h-5 text-amber-300" />
+              <span lang="hi">धर्म सहायक</span>
+              <span lang="hi" className="font-devanagari text-xs text-amber-100 hidden md:inline">
+                (मार्गदर्शन)
               </span>
             </MagneticButton>
           </div>

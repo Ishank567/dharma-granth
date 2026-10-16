@@ -29,8 +29,8 @@ type Mode = 'quick' | 'simple' | 'deep';
 function Bilingual({ en, hi }: { en?: string; hi?: string }) {
   return (
     <>
-      {en && <p>{en}</p>}
-      {hi && <p lang="hi" className="font-devanagari text-dharma-muted">{hi}</p>}
+      {hi && <p lang="hi" className="font-devanagari">{hi}</p>}
+      {en && <p className="text-dharma-text-secondary">{en}</p>}
     </>
   );
 }
@@ -83,8 +83,8 @@ export function UnderstandPanel({
           <>
             {extras && <Verse30 data={extras.thirtySeconds} />}
             <ExplainCard kind="oneLine" title="In one line" titleHi="एक पंक्ति में" label="simple">
-              <p className="text-lg font-medium">{data.inOneLineEn}</p>
-              <p lang="hi" className="font-devanagari text-dharma-muted">{data.inOneLineHi}</p>
+              <p lang="hi" className="font-devanagari text-lg font-medium">{data.inOneLineHi}</p>
+              <p className="text-dharma-text-secondary">{data.inOneLineEn}</p>
             </ExplainCard>
             {extras && (
               <>
@@ -117,12 +117,12 @@ export function UnderstandPanel({
               />
             )}
             <ExplainCard kind="oneLine" title="In one line" titleHi="एक पंक्ति में" label="simple">
-              <p className="text-lg font-medium">{data.inOneLineEn}</p>
-              <p lang="hi" className="font-devanagari text-dharma-muted">{data.inOneLineHi}</p>
+              <p lang="hi" className="font-devanagari text-lg font-medium">{data.inOneLineHi}</p>
+              <p className="text-dharma-text-secondary">{data.inOneLineEn}</p>
             </ExplainCard>
             <ExplainCard kind="simple" title="Simple meaning" titleHi="सरल अर्थ" label="simple">
-              <p>{data.simpleMeaningEn}</p>
-              <p lang="hi" className="font-devanagari text-dharma-muted">{data.simpleMeaningHi}</p>
+              <p lang="hi" className="font-devanagari">{data.simpleMeaningHi}</p>
+              <p className="text-dharma-text-secondary">{data.simpleMeaningEn}</p>
             </ExplainCard>
             {data.keyWords.length > 0 && <WordExplorer words={data.keyWords} />}
             {extras?.teachingFlow && <TeachingFlow steps={extras.teachingFlow} />}
@@ -131,8 +131,8 @@ export function UnderstandPanel({
                 <ul className="space-y-3">
                   {data.whyItMattersToday.slice(0, 3).map((w) => (
                     <li key={w.title}>
-                      <p className="font-semibold">{w.title}</p>
-                      <p className="text-dharma-muted">{w.text}</p>
+                      <p lang="hi" className="font-devanagari font-semibold">{w.titleHi}</p>
+                      <p className="text-dharma-text-secondary">{w.text}</p>
                     </li>
                   ))}
                 </ul>
@@ -142,8 +142,9 @@ export function UnderstandPanel({
               <ExampleTabs examples={extras.examples} />
             ) : (
               <ExplainCard kind="example" title="Modern example" titleHi="आधुनिक उदाहरण" label="modern">
-                <p className="font-semibold">{data.modernExample.context}</p>
-                <p>{data.modernExample.scenarioEn}</p>
+                <p lang="hi" className="font-devanagari font-semibold">{data.modernExample.contextHi}</p>
+                <p lang="hi" className="font-devanagari">{data.modernExample.scenarioHi}</p>
+                <p className="text-dharma-text-secondary">{data.modernExample.scenarioEn}</p>
               </ExplainCard>
             )}
             {extras?.beforeAfter && <BeforeAfter {...extras.beforeAfter} />}

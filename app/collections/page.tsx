@@ -8,6 +8,7 @@ import { useStudyProgress } from '@/lib/useStudyProgress';
 import { FadeUp, FadeUpOnView, Stagger, StaggerItem } from '@/app/components/motion/primitives';
 import { chapterVerseHref, readHref } from '@/lib/verse-paths';
 import { verseCount } from '@/lib/format';
+import { STUDY_PLAYLISTS } from '@/data/study-playlists';
 
 export default function CollectionsPage() {
   const reduce = useReducedMotion();
@@ -113,6 +114,38 @@ export default function CollectionsPage() {
             </div>
           </div>
         </FadeUpOnView>
+
+        <section aria-labelledby="playlists-h" className="rounded-2xl border border-dharma-border bg-dharma-card p-5">
+          <h2 id="playlists-h" className="font-serif text-2xl font-bold text-dharma-text">
+            <span lang="hi" className="font-devanagari">पढ़ने की सूचियाँ</span>
+          </h2>
+          <p lang="hi" className="mt-2 text-sm leading-relaxed text-dharma-text">
+            ये सूचियाँ पहले से बने पृष्ठ खोलती हैं। खाता सर्वर नहीं है। दूसरी ब्राउज़र पर ले जाने के लिए साधना पृष्ठ की बैकअप फ़ाइल उपयोग करें।
+          </p>
+          <p className="mt-2 text-sm">
+            <Link href="/practice" className="font-semibold text-saffron-600 underline underline-offset-2">साधना · backup file</Link>
+          </p>
+          <ul className="mt-4 grid gap-4 md:grid-cols-2">
+            {STUDY_PLAYLISTS.map((playlist) => (
+              <li key={playlist.id} className="rounded-xl border border-dharma-border bg-dharma-bg p-4">
+                <h3 className="font-serif text-lg font-bold text-dharma-text">
+                  <span lang="hi" className="font-devanagari">{playlist.titleHi}</span>
+                  <span className="font-normal text-dharma-text-secondary"> · {playlist.titleEn}</span>
+                </h3>
+                <p lang="hi" className="mt-1 text-sm text-dharma-text">{playlist.noteHi}</p>
+                <ul className="mt-2 space-y-1">
+                  {playlist.links.map((link) => (
+                    <li key={link.href}>
+                      <Link href={link.href} className="text-sm font-semibold text-saffron-600 underline underline-offset-2">
+                        <span lang="hi" className="font-devanagari">{link.titleHi}</span>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </li>
+            ))}
+          </ul>
+        </section>
 
         {/* Create collection button */}
         <div className="flex items-center justify-between">

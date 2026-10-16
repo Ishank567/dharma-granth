@@ -45,6 +45,7 @@ import {
 import { ReaderDialog } from './ReaderDialog';
 import { ReaderSettingsPanel } from './ReaderSettingsPanel';
 import { ReaderLayers } from './ReaderLayers';
+import { SacredShareModal, type SacredShareData } from '@/app/components/share/SacredShareModal';
 import { verseCount as fmtVerses } from '@/lib/format';
 import { track } from '@/lib/analytics';
 import { logActivity } from '@/lib/activity-log';
@@ -147,6 +148,22 @@ export function VerseReader(props: VerseReaderProps) {
     say(state ? 'Verse saved' : 'Removed from saved verses');
   };
 
+  /* ── Sacred Share Card Modal ── */
+  const [showShareModal, setShowShareModal] = useState(false);
+  const shareData: SacredShareData = useMemo(
+    () => ({
+      title: scriptureTitle,
+      reference: label,
+      sanskrit: (verse.sanskrit ?? '').trim(),
+      transliteration: verse.transliteration?.trim(),
+      translation: (verse.translation ?? '').trim(),
+      hindi: verse.hindi?.trim(),
+      quote: verse.reflection || (verse.hindi ? verse.hindi.slice(0, 140) : undefined),
+      url: pageUrl,
+    }),
+    [scriptureTitle, label, verse, pageUrl]
+  );
+
   /* ── Copy / share / download ── */
   const show = { transliteration: settings.showTransliteration, hindi: settings.showHindi, english: settings.showEnglish };
   const onCopy = async () => {
@@ -157,17 +174,8 @@ export function VerseReader(props: VerseReaderProps) {
       say('Could not copy. Select the text and copy it manually.');
     }
   };
-  const onShare = async () => {
-    const text = `${(verse.sanskrit ?? '').trim()}\n\n— ${label}`;
-    if (typeof navigator.share === 'function') {
-      try {
-        await navigator.share({ title: `${label} · Dharma Granth`, text, url: pageUrl });
-        return;
-      } catch (err) {
-        if ((err as Error)?.name === 'AbortError') return;
-      }
-    }
-    await onCopy();
+  const onShare = () => {
+    setShowShareModal(true);
   };
   const whatsappHref = whatsappShareUrl({
     heading: `${label} · Dharma Granth`,
@@ -459,8 +467,14 @@ export function VerseReader(props: VerseReaderProps) {
             <Link href={`${chapterHref}#verse-${verse.number}`} className={actionBtn}>
               <ArrowRight className="h-4 w-4" aria-hidden="true" /> Open context
             </Link>
-            <button type="button" onClick={onShare} className={actionBtn}>
-              <Share2 className="h-4 w-4" aria-hidden="true" /> Share
+            <button
+              type="button"
+              onClick={onShare}
+              className={`${actionBtn} border-saffron-500/50 bg-saffron-500/10 font-bold text-saffron-900 dark:text-saffron-200`}
+              aria-label="Generate sacred verse card for WhatsApp / Instagram"
+            >
+              <Share2 className="h-4 w-4 text-saffron-600 dark:text-saffron-400" aria-hidden="true" />
+              <span>Share Card</span>
             </button>
             <a
               href={whatsappHref}
@@ -570,7 +584,8 @@ export function VerseReader(props: VerseReaderProps) {
           <ul className="mt-2 space-y-0.5 text-sm">
             {[
               ['layer-sanskrit', 'Original verse'],
-              ['understand-h', 'Understand this verse'],
+              ['understand-h', '12-Layer Understanding'],
+              ['verse-graph', 'Verse Network & Graph'],
               ['layer-tradition', 'Traditional commentary'],
               ['layer-sources', 'Sources'],
             ].map(([id, text]) => (
@@ -583,6 +598,13 @@ export function VerseReader(props: VerseReaderProps) {
             <button type="button" onClick={onBookmark} aria-pressed={saved} className={actionBtn}>
               {saved ? <BookmarkCheck className="h-4 w-4" aria-hidden="true" /> : <Bookmark className="h-4 w-4" aria-hidden="true" />}
               {saved ? 'Saved' : 'Save verse'}
+            </button>
+            <button
+              type="button"
+              onClick={onShare}
+              className={`${actionBtn} border-saffron-500/40 bg-saffron-500/10 text-saffron-900 dark:text-saffron-200`}
+            >
+              <Share2 className="h-4 w-4 text-saffron-600 dark:text-saffron-400" aria-hidden="true" /> Share Card (9:16)
             </button>
             <button type="button" onClick={() => setDialog('settings')} aria-haspopup="dialog" className={actionBtn}>
               <SlidersHorizontal className="h-4 w-4" aria-hidden="true" /> Reader settings
@@ -729,6 +751,13 @@ export function VerseReader(props: VerseReaderProps) {
             Open prefilled GitHub issue
           </a>
         </ReaderDialog>
+
+        {/* Sacred Share Card Modal (9:16 Story / 1:1 Post / WhatsApp Card) */}
+        <SacredShareModal
+          isOpen={showShareModal}
+          onClose={() => setShowShareModal(false)}
+          data={shareData}
+        />
       </div>
     </MotionConfig>
   );

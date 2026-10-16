@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { ChapterVisitRecorder } from '@/app/components/ChapterVisitRecorder';
 import { RelatedTeachings } from '@/app/components/study/RelatedTeachings';
+import { VerseGraphNetwork } from '@/app/components/study/VerseGraphNetwork';
 import { NextTeachings, type NextCandidate } from '@/app/components/study/NextTeachings';
 import { VerseDiagrams } from '@/app/components/study/VerseDiagram';
 import { ModernScenarios } from '@/app/components/study/ModernScenarios';
@@ -24,6 +25,7 @@ import { UnderstandPanel } from '@/app/components/understand/UnderstandPanel';
 import { VerseCompletion } from '@/app/components/understand/VerseCompletion';
 import { getUnderstandingExtras } from '@/data/understanding';
 import { getPedagogicalVerse } from '@/data/pedagogical-registry';
+import { VerseReadingGap } from '@/app/components/reader/LayeredVerseExperience';
 import { ActivityRecorder } from '@/app/components/study/ActivityRecorder';
 import { badgesFor, latestReview } from '@/lib/review-badges';
 import { PENDING_CORRECTIONS, REVIEW_RECORDS } from '@/data/review-records';
@@ -345,6 +347,7 @@ export default function VersePage({ params }: PageProps) {
         prev={prev && prevHref ? { number: prev.number, href: prevHref } : undefined}
         next={next && nextHref ? { number: next.number, href: nextHref } : undefined}
       >
+        {pedagogical ? null : <VerseReadingGap />}
         {pedagogical && (
           <UnderstandPanel
             data={pedagogical}
@@ -378,6 +381,19 @@ export default function VersePage({ params }: PageProps) {
           editionOverride={source.repo}
           sourceUrlOverride={source.repo}
           className="mt-8"
+        />
+        <VerseGraphNetwork
+          scriptureId={meta.id}
+          chapterId={chapterId}
+          verseId={params.verseId}
+          currentVerse={{
+            number: verse.number,
+            sanskrit: verse.sanskrit,
+            transliteration: verse.transliteration,
+            hindi: verse.hindi,
+            translation: verse.translation,
+            explanation,
+          }}
         />
         <RelatedTeachings scriptureId={meta.id} chapterId={chapterId} verseNumber={params.verseId} />
         <NextTeachings candidates={nextCandidates} verseId={String(params.verseId)} />

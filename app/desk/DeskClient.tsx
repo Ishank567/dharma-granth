@@ -12,6 +12,7 @@ import { clearOwnData } from '@/lib/backup';
 import { readRecentChapters, type ChapterVisit } from '@/lib/reading-history';
 import { READING_JOURNEYS } from '@/data/reading-journeys';
 import { WeeklySummary } from './WeeklySummary';
+import { WeeklyGoal } from './WeeklyGoal';
 import { Reminders } from './Reminders';
 import { SavedConcepts } from './SavedConcepts';
 import { StorageInfo } from './StorageInfo';
@@ -213,6 +214,7 @@ export function DeskClient() {
           <RecommendationCards />
 
           <WeeklySummary onChange={load} />
+          <WeeklyGoal />
 
           <Section id="saved-h" title="Saved verses" titleHi="सहेजे श्लोक">
             <SavedCollections onChange={load} onQueue={addToQueue} />

@@ -10,6 +10,7 @@ import {
   getWisdomTopic,
 } from '@/data/wisdom-for-life';
 import { TopicDetailClient } from './TopicDetailClient';
+import { searchHeading } from '@/data/search-intent';
 
 export function generateStaticParams() {
   return wisdomTopics.map((topic) => ({
@@ -29,7 +30,10 @@ export function generateMetadata({
     };
   }
 
-  const title = `${topic.titleEn} (${topic.titleHi}) — Wisdom for Life`;
+  const heading = searchHeading(topic.slug, topic.verses);
+  const title = heading
+    ? `${heading.en} — ${topic.titleHi}`
+    : `${topic.titleEn} (${topic.titleHi}) — Wisdom for Life`;
   const description = clipDescription(
     `${topic.shortDescEn} Original Sanskrit verses, translations and context from the Gita and Upanishads.`,
   );
@@ -37,12 +41,12 @@ export function generateMetadata({
   return {
     title,
     description,
-    alternates: { canonical: `/wisdom-for-life/${topic.slug}` },
+    alternates: { canonical: `/wisdom-for-life/${topic.slug}/` },
     openGraph: {
       images: [DEFAULT_OG_IMAGE],
       title: `${title} — Dharma Granth`,
       description,
-      url: `https://dharmagranth.in/wisdom-for-life/${topic.slug}`,
+      url: `https://dharmagranth.in/wisdom-for-life/${topic.slug}/`,
     },
   };
 }
@@ -65,6 +69,7 @@ export default function WisdomTopicPage({
     libraryFacts[v.scriptureId] = { host: facts.sourceHost, fetched: facts.sourceFetched };
   });
 
+  const heading = searchHeading(topic.slug, topic.verses);
   const currentIndex = wisdomTopics.findIndex((t) => t.slug === topic.slug);
   const prevTopic = currentIndex > 0 ? wisdomTopics[currentIndex - 1] : undefined;
   const nextTopic =
@@ -77,7 +82,9 @@ export default function WisdomTopicPage({
     mainEntity: [
       {
         '@type': 'Question',
-        name: `What do Hindu scriptures teach about ${topic.titleEn} (${topic.titleHi})?`,
+        name: heading
+          ? heading.en
+          : `What do Hindu scriptures teach about ${topic.titleEn} (${topic.titleHi})?`,
         acceptedAnswer: {
           '@type': 'Answer',
           text: topic.compassionateIntro.bodyEn || topic.shortDescEn,
@@ -128,6 +135,7 @@ export default function WisdomTopicPage({
         libraryFacts={libraryFacts}
         prevTopic={prevTopic}
         nextTopic={nextTopic}
+        searchLine={heading}
       />
     </div>
   );

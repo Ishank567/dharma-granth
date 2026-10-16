@@ -152,9 +152,14 @@ export default function LearnPage() {
               शास्त्र स्वाध्याय एवं ज्ञान पीठ
             </p>
 
-            <p className="text-base md:text-lg text-stone-300/90 font-serif max-w-2xl leading-relaxed mb-6">
+            <p className="text-base md:text-lg text-stone-300/90 font-serif max-w-2xl leading-relaxed mb-3">
               Structured study of Hindu scriptures organized into guided learning paths.
               Delve into primary texts with interactive flashcards, illuminated slides, concept mind maps, chronological timelines, and knowledge checks.
+            </p>
+            <p className="mb-6 text-sm">
+              <Link href="/learn/academy" className="font-semibold text-saffron-300 underline underline-offset-2">
+                धर्म अकादमी · course levels
+              </Link>
             </p>
 
             {/* Calm, Meditative Overview Strip */}

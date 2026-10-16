@@ -94,6 +94,8 @@ const desktopPrimaryItems = [
 ];
 
 const desktopDiscoveryItems = [
+  { label: 'धर्म सहायक', description: 'पुस्तकालय के श्लोकों से जीवन के प्रश्न', href: '/ask' },
+  { label: 'स्वाध्याय यात्राएँ', description: 'Guided Learning Journeys — १२ क्रमिक साधना पथ', href: '/journeys' },
   { label: 'स्वाध्याय मार्ग', description: 'Guided Reading Paths — विषयवार अध्ययन', href: '/learn/paths' },
   { label: 'पठन योजनाएँ', description: 'Reading Plans — १८ दिवसीय गीता आदि', href: '/learn/plans' },
   { label: 'जिज्ञासा समाधान', description: 'Scripture FAQs — श्रुति-स्मृति व नीति', href: '/learn/faq' },
@@ -416,7 +418,17 @@ export function SiteNav({
       description: '१२ जीवन-विषय · तनाव, भय, कर्तव्य व आत्मज्ञान',
       href: '/wisdom-for-life',
       icon: Compass,
-      badge: '१२ विषय',
+      badge: 'जीवन-विषय',
+      badgeType: 'accent',
+    },
+    {
+      id: 'ask-dharma',
+      label: 'धर्म सहायक',
+      labelEn: 'Scripture guide',
+      description: 'पुस्तकालय के श्लोकों से जीवन के प्रश्न',
+      href: '/ask',
+      icon: BookOpen,
+      badge: 'श्लोक से',
       badgeType: 'accent',
     },
     {

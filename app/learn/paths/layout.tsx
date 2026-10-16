@@ -1,11 +1,12 @@
 import type { Metadata } from 'next';
 import { JsonLd } from '@/app/components/JsonLd';
 import { GUIDED_READING_PATHS } from '@/data/guided-reading-paths';
+import { STUDY_PLANS, planMinutes } from '@/data/study-plans';
 import { pageLd, readingListLd } from '@/lib/jsonld';
 
 const TITLE = 'Guided Reading Paths · स्वाध्याय मार्ग';
 const DESCRIPTION =
-  'Structured, text-first reading paths through Hindu scriptures, organized by life questions, themes, beginner sequences, characters and ethical dilemmas.';
+  'Eleven study orders of pages already on the site, then structured readings by life question, theme, and dilemma. Progress stays in this browser.';
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -20,9 +21,18 @@ const PATHS_JSON_LD = pageLd(
   ],
   readingListLd({
     path: '/learn/paths',
-    name: 'Guided Reading Paths',
+    name: 'Study orders and guided readings',
     description: DESCRIPTION,
-    items: GUIDED_READING_PATHS.map((p) => ({
+    items: [
+      ...STUDY_PLANS.map((plan) => ({
+        id: plan.id,
+        name: plan.titleEn,
+        nameHi: plan.titleHi,
+        description: plan.blurbEn,
+        minutes: planMinutes(plan),
+        parts: plan.steps.map((step) => ({ name: step.titleEn, description: step.noteEn })),
+      })),
+      ...GUIDED_READING_PATHS.map((p) => ({
       id: p.id,
       name: p.title,
       nameHi: p.titleHi,
@@ -32,6 +42,7 @@ const PATHS_JSON_LD = pageLd(
       prerequisites: p.prerequisites,
       parts: p.verses.map((v) => ({ name: `${v.title} (${v.scriptureId} ${v.chapter}.${v.verse})`, description: v.takeaway })),
     })),
+    ],
   }),
 );
 

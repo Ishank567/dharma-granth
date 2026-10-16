@@ -38,6 +38,7 @@ const letters = (s: string) =>
 const REQUIRED_TOPICS = [
   'stress-and-worry', 'fear-and-courage', 'anger', 'grief-and-loss', 'duty-and-decision-making', 'discipline',
   'concentration', 'leadership', 'family-responsibilities', 'devotion', 'self-knowledge', 'meaning-of-life',
+  'failure-and-setbacks', 'success', 'attachment', 'detachment', 'death', 'contentment', 'self-control', 'skill-in-work',
 ];
 
 /** Claims that need evidence this repository does not contain. */

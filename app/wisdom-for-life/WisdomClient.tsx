@@ -22,6 +22,7 @@ import {
   wisdomCategories,
   type WisdomTopic,
 } from '@/data/wisdom-for-life';
+import { lifeProblemIndex } from '@/data/wisdom-life-problems';
 import { TopicIllustration } from './TopicIllustrations';
 import { FadeUp } from '@/app/components/motion/primitives';
 
@@ -133,11 +134,29 @@ export function WisdomClient() {
             <div className="flex items-center justify-between md:justify-end gap-3 px-1 text-xs sm:text-sm text-dharma-muted font-medium">
               <span className="flex items-center gap-1.5 bg-saffron-500/10 text-saffron-700 dark:text-saffron-300 px-3 py-1.5 rounded-full border border-saffron-500/20">
                 <Compass className="w-3.5 h-3.5" />
-                <span>१३ जीवन-विषय (13 Life Dimensions)</span>
+                <span>{wisdomTopics.length} जीवन-विषय</span>
               </span>
               <span>
-                Showing <strong className="text-dharma-text">{filteredTopics.length}</strong> of 13
+                Showing <strong className="text-dharma-text">{filteredTopics.length}</strong> of {wisdomTopics.length}
               </span>
+            </div>
+          </div>
+
+          <div className="mt-5 pt-4 border-t border-dharma-border">
+            <p className="mb-2.5 text-xs font-bold uppercase tracking-wider text-dharma-muted" lang="hi">
+              जीवन की समस्या से श्लोक तक
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {lifeProblemIndex.map((item) => (
+                <Link
+                  key={item.en}
+                  href={`/wisdom-for-life/${item.slug}/`}
+                  className="inline-flex min-h-11 items-center rounded-xl border border-dharma-border bg-dharma-bg/60 px-3 text-sm text-dharma-text"
+                >
+                  <span>{item.en}</span>
+                  <span className="ml-1.5 text-dharma-text-secondary" lang="hi">({item.hi})</span>
+                </Link>
+              ))}
             </div>
           </div>
 
@@ -245,7 +264,7 @@ export function WisdomClient() {
               onClick={clearFilters}
               className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-saffron-600 text-white text-xs font-bold shadow-md hover:bg-saffron-700 transition"
             >
-              Show all 12 topics
+              {`Show all ${wisdomTopics.length} topics`}
             </button>
           </div>
         ) : (

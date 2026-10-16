@@ -3,7 +3,15 @@
 import { useMemo, useState } from 'react';
 import Link from 'next/link';
 
-export interface ExplorerConcept { id: string; label: string; sanskrit: string; transliteration: string; definition: string }
+export interface ExplorerConcept {
+  id: string;
+  label: string;
+  sanskrit: string;
+  transliteration: string;
+  definition: string;
+  practiceHref?: string;
+  practiceLabel?: string;
+}
 export interface ExplorerRelation { from: string; to: string; typeLabel: string; note: string; source: string; href: string; status: string }
 
 const fold = (s: string) => s.toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '');
@@ -16,6 +24,7 @@ const fold = (s: string) => s.toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g
  */
 export function RelationshipExplorer({ concepts, relations }: { concepts: ExplorerConcept[]; relations: ExplorerRelation[] }) {
   const [q, setQ] = useState('');
+  const [scale, setScale] = useState(1);
   const shown = useMemo(() => {
     const needle = fold(q.trim());
     return needle ? concepts.filter((c) => fold(`${c.label} ${c.sanskrit} ${c.transliteration} ${c.definition}`).includes(needle)) : concepts;
@@ -49,7 +58,28 @@ export function RelationshipExplorer({ concepts, relations }: { concepts: Explor
       </label>
       <p role="status" aria-live="polite" className="mt-1 text-sm text-dharma-muted">{shown.length} of {concepts.length} concepts shown.</p>
 
-      <svg viewBox="-280 -250 560 500" aria-hidden="true" className="mx-auto mt-4 hidden h-auto w-full max-w-xl lg:block">
+      <div className="mx-auto mt-4 hidden max-w-xl lg:block">
+        <div className="mb-2 flex justify-center gap-2">
+          <button
+            type="button"
+            onClick={() => setScale((value) => Math.max(0.75, Math.round((value - 0.25) * 100) / 100))}
+            disabled={scale <= 0.75}
+            className="min-h-[44px] rounded-xl border border-dharma-border bg-dharma-card px-3 text-sm font-semibold text-dharma-text disabled:cursor-not-allowed disabled:text-dharma-text-secondary"
+          >
+            छोटा
+          </button>
+          <button
+            type="button"
+            onClick={() => setScale((value) => Math.min(2, Math.round((value + 0.25) * 100) / 100))}
+            disabled={scale >= 2}
+            className="min-h-[44px] rounded-xl border border-dharma-border bg-dharma-card px-3 text-sm font-semibold text-dharma-text disabled:cursor-not-allowed disabled:text-dharma-text-secondary"
+          >
+            बड़ा
+          </button>
+        </div>
+        <div className="overflow-auto">
+        <div style={{ width: `${scale * 100}%`, margin: '0 auto' }}>
+        <svg viewBox="-280 -250 560 500" aria-hidden="true" className="h-auto w-full">
         {relations.map((r) => {
           const a = at(r.from), b = at(r.to);
           const on = shownIds.has(r.from) && shownIds.has(r.to);
@@ -64,8 +94,11 @@ export function RelationshipExplorer({ concepts, relations }: { concepts: Explor
             </g>
           );
         })}
-      </svg>
-      <p className="mt-1 hidden text-center text-sm text-dharma-muted lg:block">The diagram repeats the list below; the list has every detail.</p>
+        </svg>
+        </div>
+        </div>
+        <p className="mt-1 text-center text-sm text-dharma-muted">The diagram repeats the list below. The list has every detail.</p>
+      </div>
 
       {shown.length === 0 ? (
         <p className="mt-6 rounded-xl border border-dashed border-dharma-border p-4 text-sm text-dharma-muted">No concept matches “{q}”. Clear the search to see all twelve.</p>
@@ -81,6 +114,11 @@ export function RelationshipExplorer({ concepts, relations }: { concepts: Explor
                   <span className="text-base font-normal italic text-dharma-muted">{c.transliteration}</span>
                 </h2>
                 <p className="mt-1 text-sm text-dharma-muted">{c.definition}</p>
+                {c.practiceHref && c.practiceLabel && (
+                  <p className="mt-2 text-sm">
+                    <Link href={c.practiceHref} className="font-semibold text-saffron-600 underline underline-offset-2">{c.practiceLabel}</Link>
+                  </p>
+                )}
                 {mine.length === 0 ? (
                   <p className="mt-2 text-sm text-dharma-muted">No relationship has been recorded for this concept yet.</p>
                 ) : (
@@ -99,6 +137,21 @@ export function RelationshipExplorer({ concepts, relations }: { concepts: Explor
           })}
         </ul>
       )}
+
+      <section aria-labelledby="vedanta-gap" className="mt-8 rounded-2xl border border-dharma-border bg-dharma-card p-4">
+        <h2 id="vedanta-gap" className="font-serif text-xl font-bold text-dharma-text">
+          <span lang="hi" className="font-devanagari">वेदान्त</span>
+        </h2>
+        <p lang="hi" className="mt-2 text-sm leading-relaxed text-dharma-text">
+          वेदान्त का अलग लेख यहाँ नहीं है। ये पृष्ठ ब्रह्म, आत्मा, माया और मोक्ष खोलते हैं।
+        </p>
+        <ul className="mt-3 flex flex-wrap gap-3 text-sm">
+          <li><Link href="/concepts/brahman" className="font-semibold text-saffron-600 underline underline-offset-2">ब्रह्म</Link></li>
+          <li><Link href="/concepts/atman" className="font-semibold text-saffron-600 underline underline-offset-2">आत्मा</Link></li>
+          <li><Link href="/concepts/maya" className="font-semibold text-saffron-600 underline underline-offset-2">माया</Link></li>
+          <li><Link href="/concepts/moksha" className="font-semibold text-saffron-600 underline underline-offset-2">मोक्ष</Link></li>
+        </ul>
+      </section>
     </main>
   );
 }

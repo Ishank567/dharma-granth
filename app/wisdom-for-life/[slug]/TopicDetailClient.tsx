@@ -37,12 +37,14 @@ export function TopicDetailClient({
   prevTopic,
   nextTopic,
   libraryFacts = {},
+  searchLine,
 }: {
   topic: WisdomTopic;
   prevTopic?: WisdomTopic;
   nextTopic?: WisdomTopic;
   /** Where each cited text's Sanskrit comes from, measured from the library's data files. */
   libraryFacts?: Record<string, { host?: string; fetched?: string }>;
+  searchLine?: { hi: string; en: string } | null;
 }) {
   const [copiedVerseId, setCopiedVerseId] = useState<string | null>(null);
 
@@ -116,6 +118,12 @@ export function TopicDetailClient({
                   summary={topic.shortDescEn}
                   path={`/wisdom-for-life/${topic.slug}`}
                 />
+                {searchLine && (
+                  <p className="mt-4 max-w-2xl text-sm text-amber-100">
+                    <span lang="hi" className="font-devanagari font-semibold">{searchLine.hi}</span>
+                    <span className="mt-1 block">{searchLine.en}</span>
+                  </p>
+                )}
               </div>
 
               {/* Serene Bespoke Illustration Card */}
@@ -264,7 +272,7 @@ export function TopicDetailClient({
                       hindi={verse.literalTranslationHi}
                       translation={verse.literalTranslationEn}
                       compact
-                      verseUrl={`https://dharmagranth.in/wisdom-for-life/${topic.slug}/#verse-${verse.id}`}
+                      verseUrl={`https://dharmagranth.in/wisdom-for-life/${topic.slug}#verse-${verse.id}`}
                     />
 
                     <Link

@@ -45,6 +45,8 @@
     "test:wisdom-links": "tsx scripts/test-wisdom-verse-topics.ts",
     "check:sitemap": "node scripts/check-sitemap.mjs",
     "test:release1": "tsx scripts/test-release1.ts",
+    "test:study-plans": "tsx scripts/test-study-plans.ts",
+    "test:priorities-5-17": "tsx scripts/test-priorities-5-17.ts",
     "check:registry": "tsx scripts/check-registry.ts",
     "check:journeys": "tsx scripts/check-journeys.ts",
     "check:diagrams": "tsx scripts/check-diagrams.ts",

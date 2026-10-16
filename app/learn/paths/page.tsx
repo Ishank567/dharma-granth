@@ -16,8 +16,8 @@ import {
   Sparkles,
 } from 'lucide-react';
 import { GUIDED_READING_PATHS, type GuidedReadingPath } from '@/data/guided-reading-paths';
-import { useStudyProgress } from '@/lib/useStudyProgress';
 import { ShareLinkButtons } from '@/app/components/ShareLinkButtons';
+import { StudyPlans } from './StudyPlans';
 
 type CategoryFilter = 'all' | GuidedReadingPath['category'];
 
@@ -33,7 +33,6 @@ const CATEGORIES: Array<{ id: CategoryFilter; label: string; labelHi: string }> 
 export default function GuidedReadingPathsPage() {
   const [selectedCategory, setSelectedCategory] = useState<CategoryFilter>('all');
   const [expandedAnswers, setExpandedAnswers] = useState<Record<string, boolean>>({});
-  const progress = useStudyProgress();
 
   const filteredPaths =
     selectedCategory === 'all'
@@ -67,45 +66,53 @@ export default function GuidedReadingPathsPage() {
           </div>
 
           <h1 className="mt-2 font-serif text-3xl sm:text-4xl font-bold text-dharma-text">
-            Guided Reading Paths <span lang="hi" className="font-devanagari font-normal text-2xl sm:text-3xl text-dharma-muted">· स्वाध्याय मार्ग</span>
+            <span lang="hi" className="font-devanagari">स्वाध्याय मार्ग</span>
+            <span className="font-normal text-dharma-text-secondary"> · Reading paths</span>
           </h1>
 
-          <p className="mt-3 max-w-2xl text-sm sm:text-base leading-relaxed text-dharma-muted">
-            Curated, calm scripture journeys organized by life dilemmas, philosophical themes, and foundational questions. Read at your own pace without pressure or manipulative streaks.
+          <p lang="hi" className="mt-3 max-w-2xl text-sm sm:text-base leading-relaxed text-dharma-text">
+            पहले ग्यारह पढ़ने के क्रम हैं। फिर पाँच निर्देशित स्वाध्याय। अपनी गति से पढ़ें।
           </p>
-
-          {/* Category Filter Pills */}
-          <div
-            role="tablist"
-            aria-label="Filter guided paths by category"
-            className="mt-6 flex flex-wrap gap-2 pt-2"
-          >
-            {CATEGORIES.map((cat) => {
-              const active = selectedCategory === cat.id;
-              return (
-                <button
-                  key={cat.id}
-                  type="button"
-                  role="tab"
-                  aria-selected={active}
-                  onClick={() => setSelectedCategory(cat.id)}
-                  className={`focus-ring min-h-[44px] rounded-xl px-4 py-2 text-xs font-semibold transition-all ${
-                    active
-                      ? 'bg-saffron-600 text-white shadow-xs'
-                      : 'border border-dharma-border bg-dharma-card text-dharma-muted hover:border-saffron-400 hover:text-dharma-text'
-                  }`}
-                >
-                  <span lang="hi" className="font-devanagari mr-1.5 font-normal">{cat.labelHi}</span>
-                  <span>· {cat.label}</span>
-                </button>
-              );
-            })}
-          </div>
+          <p className="mt-1 max-w-2xl text-sm leading-relaxed text-dharma-text-secondary">
+            Eleven study orders come first. Five guided readings follow. Read at your own pace.
+          </p>
         </div>
       </section>
 
+      <StudyPlans />
+
       {/* Path List */}
       <section className="mx-auto max-w-5xl px-5 sm:px-8 mt-10 space-y-8">
+        <h2 className="font-serif text-2xl font-bold text-dharma-text">
+          <span lang="hi" className="font-devanagari">निर्देशित स्वाध्याय</span>
+          <span className="font-normal text-dharma-text-secondary"> · Guided readings</span>
+        </h2>
+        <div
+          role="tablist"
+          aria-label="Filter guided paths by category"
+          className="flex flex-wrap gap-2"
+        >
+          {CATEGORIES.map((cat) => {
+            const active = selectedCategory === cat.id;
+            return (
+              <button
+                key={cat.id}
+                type="button"
+                role="tab"
+                aria-selected={active}
+                onClick={() => setSelectedCategory(cat.id)}
+                className={`focus-ring min-h-[44px] rounded-xl px-4 py-2 text-xs font-semibold transition-all ${
+                  active
+                    ? 'bg-saffron-600 text-white shadow-xs'
+                    : 'border border-dharma-border bg-dharma-card text-dharma-muted hover:border-saffron-400 hover:text-dharma-text'
+                }`}
+              >
+                <span lang="hi" className="font-devanagari mr-1.5 font-normal">{cat.labelHi}</span>
+                <span>· {cat.label}</span>
+              </button>
+            );
+          })}
+        </div>
         <p className="text-xs text-dharma-muted">
           Showing {filteredPaths.length} guided pathways:
         </p>

@@ -1,13 +1,28 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { FadeUp, FadeUpOnView } from '@/app/components/motion/primitives';
 import { Timeline } from '@/app/components/Timeline';
 import { timelines, timelineTypeLabels, type TimelineType } from '@/data/timelines';
 
+const ERA_INDEX = [
+  { id: 'academic-chronology', hi: 'वैदिक और उपनिषद् काल', en: 'Vedic and Upanishadic estimates', kind: 'इतिहास का अनुमान' },
+  { id: 'ramayana-narrative', hi: 'रामायण', en: 'Ramayana', kind: 'कथा' },
+  { id: 'mahabharata-narrative', hi: 'महाभारत', en: 'Mahabharata', kind: 'कथा' },
+  { id: 'commentarial-tradition', hi: 'वेदान्त की टीका-परंपरा', en: 'Vedantic commentarial tradition', kind: 'परंपरा' },
+  { id: 'acharyas-saints', hi: 'भक्ति और बाद के आचार्य', en: 'Bhakti and later teachers', kind: 'परंपरा' },
+];
+
 export default function TimelinesPage() {
   const [activeType, setActiveType] = useState<TimelineType | 'all'>('all');
+  const [pendingEra, setPendingEra] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (!pendingEra || activeType !== 'all') return;
+    document.getElementById(pendingEra)?.scrollIntoView({ block: 'start' });
+    setPendingEra(null);
+  }, [pendingEra, activeType]);
 
   const filteredTimelines =
     activeType === 'all' ? timelines : timelines.filter((t) => t.type === activeType);
@@ -45,6 +60,34 @@ export default function TimelinesPage() {
             </p>
           </div>
         </FadeUp>
+
+        <nav aria-label="कथा और इतिहास" className="mb-8 rounded-2xl border border-dharma-border bg-dharma-card p-4">
+          <h2 className="font-serif text-lg font-bold text-dharma-text">
+            <span lang="hi" className="font-devanagari">कथा और इतिहास अलग हैं</span>
+          </h2>
+          <p lang="hi" className="mt-2 text-sm leading-relaxed text-dharma-text">
+            कथा या परंपरा ऐतिहासिक दिनांक नहीं है। शैक्षणिक काल अनुमान है। नई तिथि नहीं जोड़ी गई।
+          </p>
+          <ul className="mt-3 space-y-2">
+            {ERA_INDEX.map((era) => (
+              <li key={era.id}>
+                <a
+                  href={`#${era.id}`}
+                  onClick={(event) => {
+                    event.preventDefault();
+                    setActiveType('all');
+                    setPendingEra(era.id);
+                  }}
+                  className="font-semibold text-saffron-600 underline underline-offset-2"
+                >
+                  <span lang="hi" className="font-devanagari">{era.hi}</span>
+                  <span className="font-normal text-dharma-text-secondary"> · {era.en}</span>
+                </a>
+                <span className="ml-2 text-sm text-dharma-text-secondary">{era.kind}</span>
+              </li>
+            ))}
+          </ul>
+        </nav>
 
         {/* ── Filter Bar ──────────────────────────────────────────── */}
         <FadeUp>
@@ -85,7 +128,7 @@ export default function TimelinesPage() {
             const meta = timelineTypeLabels[timeline.type];
             return (
               <FadeUpOnView key={timeline.id}>
-                <div className="rounded-2xl border border-dharma-border bg-dharma-card shadow-xl overflow-hidden">
+                <div id={timeline.id} className="scroll-mt-24 rounded-2xl border border-dharma-border bg-dharma-card shadow-xl overflow-hidden">
                   <div className="h-1.5 bg-gradient-to-r from-indigo-500 to-blue-600" />
                   <div className="p-6 md:p-8">
                     {/* Timeline header */}

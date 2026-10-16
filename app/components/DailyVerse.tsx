@@ -1,208 +1,342 @@
 'use client';
 
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { motion, useReducedMotion } from 'framer-motion';
-import { Sparkles, ArrowRight, BookOpen } from 'lucide-react';
+import {
+  Sparkles,
+  ArrowRight,
+  BookOpen,
+  Volume2,
+  VolumeX,
+  Share2,
+  Radio,
+  CheckCircle2,
+  Target,
+  Compass,
+} from 'lucide-react';
 import { FadeUp } from '@/app/components/motion/primitives';
 import { Realistic3DCard } from '@/app/components/motion/Realistic3DCard';
 import { MagneticButton } from '@/app/components/motion/MagneticButton';
-import { readHref } from '@/lib/verse-paths';
-
-interface DailyVerseData {
-  sanskrit: string;
-  transliteration: string;
-  translation: string;
-  hindi: string;
-  explanation: string;
-  scriptureId: string;
-  scriptureTitle: string;
-  chapterId: number;
-  chapterTitle: string;
-  verseId: number | string;
-  /**
-   * Where "Study this verse" goes, when the site's numbering differs from the
-   * traditional reference shown on the card (found by the verse's text), or
-   * null when the library does not have the text.
-   */
-  href?: string | null;
-}
-
-const DAILY_VERSES: DailyVerseData[] = [
-  {
-    sanskrit: 'कर्मण्येवाधिकारस्ते मा फलेषु कदाचन',
-    transliteration: 'karmaṇyevādhikāraste mā phaleṣu kadācana',
-    translation: 'You have a right only to perform your duty; the fruits thereof are not your concern.',
-    hindi: 'तुम्हारा अधिकार केवल कर्म करने में है, फल में कभी नहीं।',
-    explanation: 'Focus on the action, not the outcome. This is the essence of Karma Yoga — performing your duty with full dedication while remaining detached from results.',
-    scriptureId: 'bhagavadgita',
-    scriptureTitle: 'Bhagavad Gita',
-    chapterId: 2,
-    chapterTitle: 'Sankhya Yoga',
-    verseId: 47,
-  },
-  {
-    sanskrit: 'अयं बन्धुरयं नेति गणना लघुचेतसाम् । उदारचरितानां तु वसुधैव कुटुम्बकम् ॥',
-    transliteration: 'ayaṃ bandhur ayaṃ neti gaṇanā laghucetasām | udāracaritānāṃ tu vasudhaiva kuṭumbakam ||',
-    translation: '"This is a kinsman, that is not" is the reckoning of the small-minded; for those of noble conduct, the whole world is one family.',
-    hindi: '"यह अपना बन्धु है, वह नहीं" — ऐसी गणना छोटे चित्त वालों की होती है; उदार चरित्र वालों के लिए तो सारी पृथ्वी ही एक परिवार है।',
-    explanation: 'From the Maha Upanishad (6.71–73) — a vision of universal kinship that transcends borders, religions, and identities. Study the verse in its chapter — the full Maha Upanishad is in the library (Sanskrit).',
-    scriptureId: 'mahaupanishad',
-    scriptureTitle: 'Maha Upanishad',
-    chapterId: 6,
-    chapterTitle: 'Adhyāya 6',
-    verseId: 71,
-  },
-  {
-    sanskrit: 'सत्यमेव जयते',
-    transliteration: 'satyameva jayate',
-    translation: 'Truth alone triumphs.',
-    hindi: 'सत्य की ही विजय होती है।',
-    explanation: 'From the Mundaka Upanishad — the enduring power of truth over falsehood, a principle that guides ethical living.',
-    scriptureId: 'mundaka',
-    scriptureTitle: 'Mundaka Upanishad',
-    chapterId: 3,
-    chapterTitle: 'Chapter 3',
-    verseId: 6,
-    href: readHref('mundaka', 5, 6), // Mundaka 3.1.6 = the site's khanda 5
-  },
-  {
-    sanskrit: 'अहं ब्रह्मास्मि',
-    transliteration: 'ahaṃ brahmāsmi',
-    translation: 'I am Brahman — the infinite consciousness.',
-    hindi: 'मैं ही ब्रह्म हूँ।',
-    explanation: 'From the Brihadaranyaka Upanishad — the great declaration of non-dualism, identifying the individual self with the universal consciousness.',
-    scriptureId: 'brihadaranyaka',
-    scriptureTitle: 'Brihadaranyaka Upanishad',
-    chapterId: 1,
-    chapterTitle: 'Chapter 1',
-    verseId: 10,
-    href: readHref('brihadaranyaka', 1, 2),
-  },
-  {
-    sanskrit: 'योगः कर्मसु कौशलम्',
-    transliteration: 'yogaḥ karmasu kauśalam',
-    translation: 'Yoga is skill in action.',
-    hindi: 'योग कर्मों में कौशल है।',
-    explanation: 'Excellence in performing duties with complete focus and detachment from results — this is the practical definition of Yoga.',
-    scriptureId: 'bhagavadgita',
-    scriptureTitle: 'Bhagavad Gita',
-    chapterId: 2,
-    chapterTitle: 'Sankhya Yoga',
-    verseId: 50,
-  },
-  {
-    sanskrit: 'तत्त्वमसि',
-    transliteration: 'tat tvam asi',
-    translation: 'That Thou Art — you are the infinite.',
-    hindi: 'तत् त्वम् असि — तुम्ही वह हो।',
-    explanation: 'From the Chandogya Upanishad — one of the four Mahavakyas (great declarations), pointing to the identity of the individual self with the universal Self.',
-    scriptureId: 'chandogya',
-    scriptureTitle: 'Chandogya Upanishad',
-    chapterId: 6,
-    chapterTitle: 'Chapter 6',
-    verseId: 8,
-    href: readHref('chandogya', 1, '1.1.9'),
-  },
-  {
-    sanskrit: 'ॐ पूर्णमदः पूर्णमिदम्',
-    transliteration: 'oṃ pūrṇamadaḥ pūrṇamidam',
-    translation: 'OM. That is full; this is full. From fullness, fullness comes.',
-    hindi: 'ॐ। वह पूर्ण है, यह पूर्ण है। पूर्ण से ही पूर्ण निकलता है।',
-    explanation: 'The Isha Upanishad invocation — a meditation on the infinite nature of reality, where taking fullness from fullness still leaves fullness.',
-    scriptureId: 'ishavasya',
-    scriptureTitle: 'Isha Upanishad',
-    chapterId: 1,
-    chapterTitle: 'Invocation',
-    verseId: 1,
-    // The invocation (शान्ति पाठ) is not in the text; open the Upanishad.
-    href: '/scripture/ishavasya/chapter/1',
-  },
-];
-
-function getDayOfYear(): number {
-  const now = new Date();
-  const start = new Date(now.getFullYear(), 0, 0);
-  return Math.floor((now.getTime() - start.getTime()) / 86_400_000);
-}
+import { getTodayWisdom, type DailyWisdomItem } from '@/data/daily-wisdom-engine';
+import {
+  speakSanskritShloka,
+  stopSanskritSpeech,
+  isSpeakingSanskrit,
+  startTanpuraDrone,
+  stopTanpuraDrone,
+  isTanpuraActive,
+} from '@/lib/sacred-audio';
+import { recordSadhanaActivity, useSadhanaStreak } from '@/lib/sadhana-streak';
+import { SacredShareModal } from '@/app/components/share/SacredShareModal';
 
 export function DailyVerse() {
-  const reduce = useReducedMotion();
-  const [verse, setVerse] = useState<DailyVerseData>(DAILY_VERSES[0]);
+  const [wisdom, setWisdom] = useState<DailyWisdomItem | null>(null);
   const [dateStr, setDateStr] = useState<string>('');
+  const [isPlayingAudio, setIsPlayingAudio] = useState(false);
+  const [isDroneOn, setIsDroneOn] = useState(false);
+  const [isShareModalOpen, setIsShareModalOpen] = useState(false);
+  const [isCompletedToday, setIsCompletedToday] = useState(false);
+  const { streak } = useSadhanaStreak();
 
   useEffect(() => {
-    const dayIndex = getDayOfYear() % DAILY_VERSES.length;
-    setVerse(DAILY_VERSES[dayIndex]);
-    setDateStr(new Date().toLocaleDateString(undefined, { weekday: 'long', month: 'long', day: 'numeric' }));
+    const today = getTodayWisdom();
+    setWisdom(today);
+    setDateStr(
+      new Date().toLocaleDateString('en-IN', {
+        weekday: 'long',
+        month: 'long',
+        day: 'numeric',
+      })
+    );
+
+    // Check if challenge completed today
+    try {
+      const todayKey = `dharma.daily.challenge.${today.id}.${new Date().toISOString().slice(0, 10)}`;
+      if (localStorage.getItem(todayKey)) {
+        setIsCompletedToday(true);
+      }
+    } catch {}
+
+    return () => {
+      stopSanskritSpeech();
+      stopTanpuraDrone();
+    };
   }, []);
 
-  const verseUrl =
-    verse.href === undefined ? readHref(verse.scriptureId, verse.chapterId, verse.verseId) : verse.href;
+  if (!wisdom) return null;
+
+  function toggleAudio() {
+    if (!wisdom) return;
+    if (isPlayingAudio) {
+      stopSanskritSpeech();
+      setIsPlayingAudio(false);
+    } else {
+      setIsPlayingAudio(true);
+      speakSanskritShloka(
+        wisdom.sanskrit,
+        0.85,
+        () => setIsPlayingAudio(false),
+        () => setIsPlayingAudio(false)
+      );
+    }
+  }
+
+  function toggleTanpura() {
+    if (isDroneOn) {
+      stopTanpuraDrone();
+      setIsDroneOn(false);
+    } else {
+      const started = startTanpuraDrone(0.12);
+      if (started) setIsDroneOn(true);
+    }
+  }
+
+  function handleCompleteChallenge() {
+    if (!wisdom || isCompletedToday) return;
+    setIsCompletedToday(true);
+    recordSadhanaActivity();
+    try {
+      const todayKey = `dharma.daily.challenge.${wisdom.id}.${new Date().toISOString().slice(0, 10)}`;
+      localStorage.setItem(todayKey, 'true');
+    } catch {}
+  }
 
   return (
-    <FadeUp>
-      <Realistic3DCard
-        maxTilt={8}
-        depth={24}
-        glareIntensity={0.25}
-        className="daily-verse-card relative overflow-hidden rounded-3xl border border-saffron-200 bg-gradient-to-br from-saffron-50 via-amber-50 to-orange-50 shadow-2xl card-3d-depth"
-        contentClassName="p-8 md:p-10"
-      >
-        {/* Decorative mandala */}
-        <div className="absolute inset-0 mandala-bg opacity-[0.05] pointer-events-none" />
+    <>
+      <FadeUp>
+        <Realistic3DCard
+          maxTilt={6}
+          depth={20}
+          glareIntensity={0.2}
+          className="daily-verse-card relative overflow-hidden rounded-3xl border border-saffron-300/60 dark:border-saffron-900/40 bg-gradient-to-br from-amber-50/90 via-orange-50/50 to-saffron-100/40 dark:from-stone-900 dark:via-stone-900/90 dark:to-amber-950/20 shadow-xl"
+          contentClassName="p-6 sm:p-9"
+        >
+          {/* Decorative mandala background watermark */}
+          <div className="absolute inset-0 mandala-bg opacity-[0.04] dark:opacity-[0.02] pointer-events-none" />
 
-        <div className="relative z-10">
-          <div className="flex items-center gap-2 mb-6">
-            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-saffron-100 text-saffron-800 text-xs font-bold uppercase tracking-wider border border-saffron-200">
-              <Sparkles className="w-3.5 h-3.5 text-amber-600 animate-spin-slow" />
-              Verse of the Day
-            </span>
-            <span className="text-xs text-dharma-muted" suppressHydrationWarning>
-              {dateStr}
-            </span>
-          </div>
+          <div className="relative z-10 space-y-5">
+            {/* Top Bar: Badge, Date & Audio Controls */}
+            <div className="flex flex-wrap items-center justify-between gap-3 border-b border-saffron-300/40 dark:border-stone-800 pb-4">
+              <div className="flex items-center gap-2">
+                <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-saffron-500/15 text-saffron-800 dark:text-saffron-300 text-xs font-bold uppercase tracking-wider border border-saffron-500/30">
+                  <Sparkles className="w-3.5 h-3.5 text-saffron-600 animate-spin-slow" />
+                  <span>दैनिक धर्म सूत्र · Verse of the Day</span>
+                </span>
+                <span className="text-xs text-dharma-muted hidden sm:inline" suppressHydrationWarning>
+                  {dateStr}
+                </span>
+              </div>
 
-          <p lang="sa" className="font-devanagari text-3xl md:text-4xl text-saffron-800 mb-4 leading-relaxed drop-shadow-sm">
-            {verse.sanskrit}
-          </p>
+              {/* Audio Controls */}
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={toggleAudio}
+                  className={`inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold transition shadow-2xs ${
+                    isPlayingAudio
+                      ? 'bg-amber-600 text-white animate-pulse'
+                      : 'border border-saffron-300 bg-white/80 dark:bg-stone-800 text-saffron-800 dark:text-saffron-200 hover:bg-saffron-50'
+                  }`}
+                  title="Listen to Sanskrit Recitation"
+                >
+                  {isPlayingAudio ? <VolumeX className="w-3.5 h-3.5" /> : <Volume2 className="w-3.5 h-3.5 text-saffron-600" />}
+                  <span>{isPlayingAudio ? 'रोकें · Pause' : 'सुनें · Listen'}</span>
+                </button>
 
-          <p className="text-base text-saffron-600 italic mb-4">
-            {verse.transliteration}
-          </p>
+                <button
+                  type="button"
+                  onClick={toggleTanpura}
+                  className={`inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-semibold transition ${
+                    isDroneOn
+                      ? 'bg-emerald-600 text-white shadow-2xs'
+                      : 'border border-dharma-border bg-white/60 dark:bg-stone-800/60 text-dharma-muted hover:text-dharma-text'
+                  }`}
+                  title="Toggle Meditative Tanpura Acoustic Drone"
+                >
+                  <Radio className={`w-3.5 h-3.5 ${isDroneOn ? 'animate-pulse' : ''}`} />
+                  <span className="hidden sm:inline">तानपुरा</span>
+                </button>
 
-          <div className="w-12 h-px bg-saffron-300 mb-4" />
+                <button
+                  type="button"
+                  onClick={() => setIsShareModalOpen(true)}
+                  className="inline-flex items-center gap-1.5 rounded-full border border-saffron-300/80 bg-white/80 dark:bg-stone-800 px-3 py-1 text-xs font-semibold text-saffron-800 dark:text-saffron-200 hover:border-saffron-500 hover:bg-saffron-50 transition shadow-2xs"
+                  title="Create 9:16 WhatsApp Status Card"
+                >
+                  <Share2 className="w-3.5 h-3.5 text-saffron-600" />
+                  <span>साझा करें</span>
+                </button>
+              </div>
+            </div>
 
-          <p className="text-lg text-dharma-text mb-2 leading-relaxed font-serif">
-            {verse.translation}
-          </p>
-          <p lang="hi" className="text-sm text-rose-800 font-devanagari mb-4 leading-relaxed">
-            {verse.hindi}
-          </p>
-
-          <p className="text-sm text-dharma-muted leading-relaxed mb-6 max-w-2xl">
-            {verse.explanation}
-          </p>
-
-          <div className="flex flex-wrap items-center justify-between gap-4 pt-2">
-            <span className="text-xs font-semibold text-saffron-700 uppercase tracking-wider">
-              {verse.scriptureTitle} • {verse.chapterTitle} • Verse {verse.verseId}
-            </span>
-            {verseUrl && (
-              <MagneticButton
-                href={verseUrl}
-                className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-gradient-to-r from-saffron-600 to-amber-600 text-white text-sm font-bold shadow-lg hover:from-saffron-700 hover:to-amber-700 shine-sweep"
-                strength={16}
-                tilt={8}
+            {/* Sacred Sanskrit Shloka */}
+            <div className="space-y-2">
+              <p
+                lang="sa"
+                className="font-devanagari text-2xl sm:text-3xl md:text-4xl text-saffron-900 dark:text-saffron-100 font-bold leading-relaxed sm:leading-[1.8] drop-shadow-sm whitespace-pre-line"
               >
-                <BookOpen className="w-4 h-4" />
-                Study this verse
-                <ArrowRight className="w-4 h-4" />
-              </MagneticButton>
-            )}
+                {wisdom.sanskrit}
+              </p>
+
+              <p className="text-xs sm:text-sm text-saffron-700/80 dark:text-saffron-300/80 font-serif italic whitespace-pre-line">
+                {wisdom.transliteration}
+              </p>
+            </div>
+
+            <div className="w-16 h-0.5 bg-gradient-to-r from-saffron-500 to-transparent" />
+
+            {/* Translations */}
+            <div className="space-y-1.5">
+              <p className="text-base sm:text-lg text-dharma-text font-serif leading-relaxed">
+                {wisdom.translation}
+              </p>
+              <p lang="hi" className="text-xs sm:text-sm text-rose-900 dark:text-rose-300 font-devanagari font-medium leading-relaxed">
+                {wisdom.hindi}
+              </p>
+            </div>
+
+            {/* Practical Wisdom & Reflection */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-1">
+              {/* Life Application */}
+              <div className="rounded-2xl border border-amber-500/20 bg-amber-500/5 p-3.5 space-y-1">
+                <p className="text-2xs font-bold uppercase tracking-wider text-amber-800 dark:text-amber-300 flex items-center gap-1">
+                  <Compass className="w-3 h-3" />
+                  <span>जीवन में प्रयोग · Practical Application</span>
+                </p>
+                <p className="text-xs text-dharma-text leading-relaxed">
+                  {wisdom.practicalTeaching}
+                </p>
+              </div>
+
+              {/* Reflection Prompt */}
+              <div className="rounded-2xl border border-sky-500/20 bg-sky-500/5 p-3.5 space-y-1">
+                <p className="text-2xs font-bold uppercase tracking-wider text-sky-800 dark:text-sky-300 flex items-center gap-1">
+                  <Target className="w-3 h-3" />
+                  <span>आज का आत्म-चिंतन · Reflection Prompt</span>
+                </p>
+                <p className="text-xs text-dharma-text leading-relaxed">
+                  {wisdom.reflectionPrompt}
+                </p>
+              </div>
+            </div>
+
+            {/* Daily Sadhana Challenge Strip */}
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 rounded-2xl border border-emerald-500/30 bg-emerald-500/10 p-3.5">
+              <div className="space-y-0.5">
+                <span className="text-2xs font-extrabold uppercase tracking-wider text-emerald-800 dark:text-emerald-300">
+                  🎯 आज का साधना संकल्प (Daily Challenge)
+                </span>
+                <p lang="hi" className="font-devanagari text-xs font-medium text-dharma-text">
+                  {wisdom.dailyChallengeHi}
+                </p>
+                <p className="text-xs text-dharma-text-secondary">
+                  {wisdom.dailyChallenge}
+                </p>
+              </div>
+
+              <button
+                type="button"
+                onClick={handleCompleteChallenge}
+                disabled={isCompletedToday}
+                className={`inline-flex items-center gap-1.5 self-start sm:self-center shrink-0 px-3 py-1.5 rounded-xl text-xs font-bold transition shadow-2xs ${
+                  isCompletedToday
+                    ? 'bg-emerald-600 text-white cursor-default'
+                    : 'bg-emerald-600 hover:bg-emerald-700 text-white active:scale-95'
+                }`}
+              >
+                <CheckCircle2 className="w-3.5 h-3.5" />
+                <span>{isCompletedToday ? 'पूर्ण हुआ' : 'पूर्ण करें'}</span>
+              </button>
+            </div>
+
+            <DailyNote id={wisdom.id} />
+
+            {/* Bottom Citation & Actions */}
+            <div className="flex flex-wrap items-center justify-between gap-4 pt-2 border-t border-saffron-300/40 dark:border-stone-800">
+              <span className="text-xs font-bold text-saffron-800 dark:text-saffron-300 uppercase tracking-wider">
+                {wisdom.scriptureTitle} ({wisdom.scriptureTitleSanskrit}) • Chapter {wisdom.chapterId} • Verse {wisdom.verseId}
+              </span>
+
+              <div className="flex items-center gap-2">
+                <Link
+                  href="/daily"
+                  className="inline-flex items-center gap-1 text-xs font-semibold text-dharma-muted hover:text-saffron-700 transition"
+                >
+                  <span>दैनिक धर्म यात्रा (Daily Hub)</span>
+                  <ArrowRight className="w-3 h-3" />
+                </Link>
+
+                <MagneticButton
+                  href={wisdom.href}
+                  className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-gradient-to-r from-saffron-600 to-amber-600 text-white text-xs font-bold shadow-md hover:from-saffron-700 hover:to-amber-700 transition"
+                  strength={12}
+                  tilt={6}
+                >
+                  <BookOpen className="w-3.5 h-3.5" />
+                  <span>श्लोक का संपूर्ण अध्ययन</span>
+                  <ArrowRight className="w-3.5 h-3.5" />
+                </MagneticButton>
+              </div>
+            </div>
           </div>
-        </div>
-      </Realistic3DCard>
-    </FadeUp>
+        </Realistic3DCard>
+      </FadeUp>
+
+      {/* Sacred Share Modal */}
+      <SacredShareModal
+        isOpen={isShareModalOpen}
+        onClose={() => setIsShareModalOpen(false)}
+        data={{
+          title: wisdom.scriptureTitle,
+          reference: `${wisdom.scriptureTitle} ${wisdom.chapterId}.${wisdom.verseId}`,
+          sanskrit: wisdom.sanskrit,
+          transliteration: wisdom.transliteration,
+          translation: wisdom.translation,
+          hindi: wisdom.hindi,
+          quote: wisdom.practicalTeaching,
+          url: typeof window !== 'undefined' ? `${window.location.origin}${wisdom.href}` : `https://dharmagranth.in${wisdom.href}`,
+        }}
+      />
+    </>
+  );
+}
+
+function DailyNote({ id }: { id: string }) {
+  const [date, setDate] = useState('');
+  const [note, setNote] = useState('');
+  const [ready, setReady] = useState(false);
+
+  useEffect(() => {
+    const day = new Date().toISOString().slice(0, 10);
+    setDate(day);
+    try {
+      setNote(window.localStorage.getItem(`dharma.daily.note.${id}.${day}`) ?? '');
+    } catch {
+      setNote('');
+    }
+    setReady(true);
+  }, [id]);
+
+  if (!ready) return null;
+
+  return (
+    <label className="block text-sm text-dharma-text">
+      <span lang="hi" className="font-devanagari font-semibold">आज की टिप्पणी</span>
+      <textarea
+        value={note}
+        rows={3}
+        onChange={(event) => {
+          const value = event.target.value;
+          setNote(value);
+          try {
+            window.localStorage.setItem(`dharma.daily.note.${id}.${date}`, value);
+          } catch {
+            /* this browser blocked storage */
+          }
+        }}
+        className="mt-1 w-full rounded-xl border border-dharma-border bg-dharma-bg p-3 text-sm text-dharma-text"
+      />
+      <span lang="hi" className="mt-1 block text-xs text-dharma-text-secondary">यह टिप्पणी इसी ब्राउज़र में रहती है।</span>
+    </label>
   );
 }

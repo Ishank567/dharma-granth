@@ -101,6 +101,21 @@ export default function ConceptsPage() {
             </div>
           ))}
         </div>
+
+        <div className="mt-12 rounded-2xl border border-dharma-border bg-dharma-card p-5 text-left">
+          <h2 className="font-serif text-2xl font-bold text-dharma-text">
+            <span lang="hi" className="font-devanagari">वेदान्त</span>
+          </h2>
+          <p lang="hi" className="mt-2 text-sm leading-relaxed text-dharma-text">
+            वेदान्त का अलग लेख नहीं है। धर्म, कर्म, मोक्ष, आत्मा, ब्रह्म, योग, भक्ति, माया और संसार के पृष्ठ ऊपर हैं। वेदान्त के लिए ये चार पृष्ठ खोलें।
+          </p>
+          <ul className="mt-3 flex flex-wrap gap-3 text-sm">
+            <li><a href="/concepts/brahman" className="font-semibold text-saffron-600 underline underline-offset-2">ब्रह्म</a></li>
+            <li><a href="/concepts/atman" className="font-semibold text-saffron-600 underline underline-offset-2">आत्मा</a></li>
+            <li><a href="/concepts/maya" className="font-semibold text-saffron-600 underline underline-offset-2">माया</a></li>
+            <li><a href="/concepts/moksha" className="font-semibold text-saffron-600 underline underline-offset-2">मोक्ष</a></li>
+          </ul>
+        </div>
       </section>
     </main>
   );

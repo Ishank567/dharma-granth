@@ -24,12 +24,32 @@ import {
   PenLine,
   Trash2,
   ExternalLink,
+  Volume2,
+  VolumeX,
+  Radio,
+  ChevronLeft,
+  ChevronRight,
+  Calendar,
 } from 'lucide-react';
 import {
   type DailyDharmaSession,
   type SanskritWordAnalysis,
   SAMPLE_DAILY_JOURNEYS,
+  buildDailySessionFromWisdom,
 } from '@/data/daily-dharma-data';
+import {
+  DAILY_WISDOM_REGISTRY,
+  getTodayWisdom,
+  type DailyWisdomItem,
+} from '@/data/daily-wisdom-engine';
+import {
+  speakSanskritShloka,
+  stopSanskritSpeech,
+  startTanpuraDrone,
+  stopTanpuraDrone,
+} from '@/lib/sacred-audio';
+import { recordSadhanaActivity, useSadhanaStreak } from '@/lib/sadhana-streak';
+import { SacredShareModal } from '@/app/components/share/SacredShareModal';
 
 type UnderstandingLevel = 'quick' | 'simple' | 'deep';
 
@@ -39,9 +59,25 @@ interface Props {
 }
 
 export function DailyDharmaJourneySession({
-  session = SAMPLE_DAILY_JOURNEYS['gita-2-47'],
+  session: propSession,
   onFinish,
 }: Props) {
+  const [dayIndex, setDayIndex] = useState(() => {
+    const today = getTodayWisdom();
+    const idx = DAILY_WISDOM_REGISTRY.findIndex((dw) => dw.id === today.id);
+    return idx >= 0 ? idx : 0;
+  });
+
+  const currentWisdom = DAILY_WISDOM_REGISTRY[dayIndex] || DAILY_WISDOM_REGISTRY[0];
+  const session = propSession || buildDailySessionFromWisdom(currentWisdom, dayIndex + 1, DAILY_WISDOM_REGISTRY.length);
+
+  // Audio & Drone state
+  const [isPlayingAudio, setIsPlayingAudio] = useState(false);
+  const [isDroneOn, setIsDroneOn] = useState(false);
+  const [isShareModalOpen, setIsShareModalOpen] = useState(false);
+  const [isSadhanaCompleted, setIsSadhanaCompleted] = useState(false);
+  const { streak } = useSadhanaStreak();
+
   // Mode selection (persisted locally)
   const [level, setLevel] = useState<UnderstandingLevel>('simple');
   const [copiedCitation, setCopiedCitation] = useState(false);
@@ -98,6 +134,61 @@ export function DailyDharmaJourneySession({
       // Storage access resilience
     }
   }, [session.id, session.referenceDisplayEn]);
+
+  // Audio cleanup on unmount
+  useEffect(() => {
+    return () => {
+      stopSanskritSpeech();
+      stopTanpuraDrone();
+    };
+  }, []);
+
+  // Check if sadhana challenge completed today
+  useEffect(() => {
+    try {
+      const todayKey = `dharma.daily.challenge.${session.id}.${new Date().toISOString().slice(0, 10)}`;
+      if (localStorage.getItem(todayKey)) {
+        setIsSadhanaCompleted(true);
+      } else {
+        setIsSadhanaCompleted(false);
+      }
+    } catch {}
+  }, [session.id]);
+
+  const toggleAudio = () => {
+    if (isPlayingAudio) {
+      stopSanskritSpeech();
+      setIsPlayingAudio(false);
+    } else {
+      setIsPlayingAudio(true);
+      speakSanskritShloka(
+        session.sanskritDevanagari,
+        0.85,
+        () => setIsPlayingAudio(false),
+        () => setIsPlayingAudio(false),
+      );
+    }
+  };
+
+  const toggleTanpura = () => {
+    if (isDroneOn) {
+      stopTanpuraDrone();
+      setIsDroneOn(false);
+    } else {
+      const started = startTanpuraDrone(0.12);
+      if (started) setIsDroneOn(true);
+    }
+  };
+
+  const handleCompleteSadhana = () => {
+    if (isSadhanaCompleted) return;
+    setIsSadhanaCompleted(true);
+    recordSadhanaActivity();
+    try {
+      const todayKey = `dharma.daily.challenge.${session.id}.${new Date().toISOString().slice(0, 10)}`;
+      localStorage.setItem(todayKey, 'true');
+    } catch {}
+  };
 
   const handleLevelChange = (newLevel: UnderstandingLevel) => {
     setLevel(newLevel);
@@ -183,6 +274,75 @@ export function DailyDharmaJourneySession({
       aria-labelledby="daily-session-title"
       className="w-full max-w-4xl mx-auto px-4 sm:px-6 py-6 sm:py-10 space-y-8 animate-fade-in text-dharma-text"
     >
+      {/* ── 0. DAY & DATE NAVIGATION BAR ─────────────────────────── */}
+      <div className="flex flex-wrap items-center justify-between gap-3 bg-dharma-panel/80 p-3 sm:p-4 rounded-2xl border border-dharma-border/70 shadow-2xs">
+        <div className="flex items-center gap-1.5">
+          <button
+            type="button"
+            onClick={() => {
+              setDayIndex((prev) => (prev - 1 + DAILY_WISDOM_REGISTRY.length) % DAILY_WISDOM_REGISTRY.length);
+              stopSanskritSpeech();
+              setIsPlayingAudio(false);
+            }}
+            className="focus-ring inline-flex items-center gap-1 px-3 py-1.5 rounded-xl border border-dharma-border bg-dharma-card hover:border-saffron-400 text-xs font-semibold text-dharma-text transition"
+            title="Previous Day's Wisdom"
+          >
+            <ChevronLeft className="w-3.5 h-3.5" />
+            <span>पिछला दिन (Prev)</span>
+          </button>
+
+          <button
+            type="button"
+            onClick={() => {
+              const today = getTodayWisdom();
+              const idx = DAILY_WISDOM_REGISTRY.findIndex((dw) => dw.id === today.id);
+              setDayIndex(idx >= 0 ? idx : 0);
+              stopSanskritSpeech();
+              setIsPlayingAudio(false);
+            }}
+            className="focus-ring inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-saffron-600 hover:bg-saffron-700 text-white text-xs font-bold transition shadow-2xs"
+            title="Return to Today's Wisdom"
+          >
+            <Calendar className="w-3.5 h-3.5" />
+            <span>आज (Today)</span>
+          </button>
+
+          <button
+            type="button"
+            onClick={() => {
+              setDayIndex((prev) => (prev + 1) % DAILY_WISDOM_REGISTRY.length);
+              stopSanskritSpeech();
+              setIsPlayingAudio(false);
+            }}
+            className="focus-ring inline-flex items-center gap-1 px-3 py-1.5 rounded-xl border border-dharma-border bg-dharma-card hover:border-saffron-400 text-xs font-semibold text-dharma-text transition"
+            title="Next Day's Wisdom"
+          >
+            <span>अगला दिन (Next)</span>
+            <ChevronRight className="w-3.5 h-3.5" />
+          </button>
+        </div>
+
+        <div className="flex items-center gap-2">
+          <span className="text-xs text-dharma-muted font-medium hidden sm:inline">
+            सूत्र {dayIndex + 1} / {DAILY_WISDOM_REGISTRY.length}
+          </span>
+          <button
+            type="button"
+            onClick={() => {
+              const rand = Math.floor(Math.random() * DAILY_WISDOM_REGISTRY.length);
+              setDayIndex(rand);
+              stopSanskritSpeech();
+              setIsPlayingAudio(false);
+            }}
+            className="focus-ring inline-flex items-center gap-1 px-3 py-1.5 rounded-xl border border-dharma-border bg-dharma-card hover:border-saffron-400 text-xs font-semibold text-saffron-800 dark:text-saffron-300 transition"
+            title="Pick a Random Teaching"
+          >
+            <Sparkles className="w-3.5 h-3.5 text-saffron-600" />
+            <span>अनपेक्षित सूत्र (Random)</span>
+          </button>
+        </div>
+      </div>
+
       {/* ── 1. SESSION HEADER ────────────────────────────────────────── */}
       <header className="rounded-3xl border border-dharma-border bg-dharma-card p-6 sm:p-8 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div>
@@ -264,7 +424,48 @@ export function DailyDharmaJourneySession({
             </span>
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex flex-wrap items-center gap-2">
+            {/* Audio Recitation */}
+            <button
+              type="button"
+              onClick={toggleAudio}
+              className={`focus-ring inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold transition ${
+                isPlayingAudio
+                  ? 'bg-amber-600 text-white animate-pulse'
+                  : 'bg-white dark:bg-[#262019] border border-[#DDD3C1] dark:border-[#42372A] hover:border-saffron-500 text-stone-700 dark:text-stone-300'
+              }`}
+              title="Listen to Sanskrit Recitation"
+            >
+              {isPlayingAudio ? <VolumeX className="w-3.5 h-3.5" /> : <Volume2 className="w-3.5 h-3.5 text-saffron-600" />}
+              <span>{isPlayingAudio ? 'रोकें · Pause' : 'सुनें · Listen'}</span>
+            </button>
+
+            {/* Tanpura Drone */}
+            <button
+              type="button"
+              onClick={toggleTanpura}
+              className={`focus-ring inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold transition ${
+                isDroneOn
+                  ? 'bg-emerald-600 text-white shadow-2xs'
+                  : 'bg-white dark:bg-[#262019] border border-[#DDD3C1] dark:border-[#42372A] hover:border-saffron-500 text-stone-700 dark:text-stone-300'
+              }`}
+              title="Toggle Meditative Tanpura Acoustic Drone"
+            >
+              <Radio className={`w-3.5 h-3.5 ${isDroneOn ? 'animate-pulse text-white' : 'text-stone-500'}`} />
+              <span>तानपुरा</span>
+            </button>
+
+            {/* Share Sacred Card */}
+            <button
+              type="button"
+              onClick={() => setIsShareModalOpen(true)}
+              className="focus-ring inline-flex items-center gap-1.5 px-3 py-2 rounded-xl bg-saffron-600 hover:bg-saffron-700 text-white font-semibold transition-all text-xs shadow-2xs"
+              title="Share 9:16 WhatsApp Status Card"
+            >
+              <Share2 className="w-3.5 h-3.5" />
+              <span>साझा करें (Share)</span>
+            </button>
+
             <button
               type="button"
               onClick={handleToggleSaveVerse}
@@ -288,7 +489,7 @@ export function DailyDharmaJourneySession({
               ) : (
                 <Copy className="w-3.5 h-3.5 text-stone-500" />
               )}
-              {copiedCitation ? 'Copied with Citation' : 'Copy'}
+              {copiedCitation ? 'Copied' : 'Copy'}
             </button>
 
             <Link
@@ -741,6 +942,31 @@ export function DailyDharmaJourneySession({
             </div>
           </div>
         )}
+
+        {/* Sadhana Challenge Completion */}
+        <div className="pt-3 border-t border-dharma-border/60 flex flex-wrap items-center justify-between gap-3">
+          <span className="text-xs text-dharma-muted">
+            साधना अभ्यास: आज के कर्तव्य को पूर्ण करने पर संकल्प दर्ज करें।
+          </span>
+
+          <button
+            type="button"
+            onClick={handleCompleteSadhana}
+            disabled={isSadhanaCompleted}
+            className={`focus-ring inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs font-bold transition shadow-2xs ${
+              isSadhanaCompleted
+                ? 'bg-emerald-600 text-white cursor-default'
+                : 'bg-emerald-600 hover:bg-emerald-700 text-white active:scale-95'
+            }`}
+          >
+            <CheckCircle2 className="w-4 h-4" />
+            <span>
+              {isSadhanaCompleted
+                ? `साधना संकल्प पूर्ण (Streak: ${streak.currentStreak} Days)`
+                : 'आज का साधना संकल्प पूर्ण करें'}
+            </span>
+          </button>
+        </div>
       </section>
 
       {/* ── 9. CONTEXTUAL NEXT STEPS (Max 3) ─────────────────────────── */}
@@ -874,6 +1100,25 @@ export function DailyDharmaJourneySession({
           to protect textual authenticity.
         </p>
       </footer>
+
+      {/* Sacred Share Modal */}
+      <SacredShareModal
+        isOpen={isShareModalOpen}
+        onClose={() => setIsShareModalOpen(false)}
+        data={{
+          title: session.referenceDisplayEn,
+          reference: session.referenceDisplayEn,
+          sanskrit: session.sanskritDevanagari,
+          transliteration: session.sanskritTransliteration,
+          translation: session.simpleMeaningEn || session.literalTranslationEn,
+          hindi: session.simpleMeaningHi || session.literalTranslationHi,
+          quote: session.thirtySecondCard?.teaching,
+          url:
+            typeof window !== 'undefined'
+              ? `${window.location.origin}/scripture/${session.scriptureId}/chapter/${session.chapterNumber}/verse/${session.verseNumber}`
+              : `https://dharmagranth.in/scripture/${session.scriptureId}/chapter/${session.chapterNumber}/verse/${session.verseNumber}`,
+        }}
+      />
     </article>
   );
 }

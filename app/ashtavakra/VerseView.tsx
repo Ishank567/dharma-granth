@@ -160,6 +160,7 @@ export function VerseFull({ v }: { v: AshtavakraVerse }) {
         </ul>
         {v.relatedVerses.length > 0 && (
           <ul className="mt-3 grid gap-2" aria-label="संबंधित श्लोक">
+            <li lang="hi" className="ash-meta">ये उसी अष्टावक्र गीता के भीतर के संपादकीय संबंध हैं।</li>
             {v.relatedVerses.map((r) => (
               <li key={r.id}>
                 <Link href={verseHref(r.id)} className="ash-link font-bold underline" style={{ color: 'var(--ash-accent)' }}>श्लोक {r.id}</Link>

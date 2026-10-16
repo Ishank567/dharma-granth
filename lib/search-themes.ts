@@ -27,7 +27,7 @@ const EXTRA_SYNONYMS: Record<string, string[]> = {
   'self-knowledge': ['tat tvam asi', 'tattvamasi', 'that thou art', 'aham brahmasmi', 'तत्त्वमसि', 'अहं ब्रह्मास्मि'],
   'grief-and-loss': ['immortality', 'soul', 'rebirth', 'nachiketa', 'आत्मा', 'अमरता'],
   'stress-and-worry': ['mind', 'restless mind', 'equanimity', 'समत्व'],
-  'duty-and-decision-making': ['failure', 'failing', 'setback', 'disappointment', 'success', 'work', 'action', 'work', 'karma', 'detachment', 'nishkama karma', 'results', 'कर्म', 'निष्काम'],
+  'duty-and-decision-making': ['work', 'action', 'karma', 'nishkama karma', 'results', 'कर्म', 'निष्काम'],
   'concentration': ['mind control', 'yoga', 'stillness'],
 };
 

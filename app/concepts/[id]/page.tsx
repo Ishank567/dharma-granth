@@ -47,11 +47,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title,
     description,
-    alternates: { canonical: `/concepts/${concept.id}` },
+    alternates: { canonical: `/concepts/${concept.id}/` },
     openGraph: {
       title: `${title} — Dharma Granth`,
       description,
-      url: `https://dharmagranth.in/concepts/${concept.id}`,
+      url: `https://dharmagranth.in/concepts/${concept.id}/`,
       images: [DEFAULT_OG_IMAGE],
     },
   };
@@ -412,6 +412,20 @@ export default async function ConceptDetailPage({ params }: PageProps) {
         </section>
 
         <ConceptRelations conceptId={concept.id} />
+
+        <section aria-labelledby="faq-heading" className="space-y-3">
+          <h2 id="faq-heading" className="text-xl font-serif font-bold text-dharma-text">
+            <span lang="hi" className="font-devanagari">प्रश्न</span>
+          </h2>
+          <h3 lang="hi" className="font-devanagari text-lg font-semibold text-dharma-text">
+            {concept.sanskrit} क्या है?
+          </h3>
+          <p lang="hi" className="font-devanagari text-sm leading-relaxed text-dharma-text">{concept.simpleDefinition.hi}</p>
+          <p className="text-sm leading-relaxed text-dharma-text-secondary">{concept.simpleDefinition.en}</p>
+          <p lang="hi" className="text-sm text-dharma-text-secondary">
+            यह वही परिभाषा है जो इस पृष्ठ के आरंभ में है। अलग प्रश्न-लेख नहीं लिखा गया।
+          </p>
+        </section>
 
         {/* ── Section 6: Related Concepts (संबंधित अवधारणाएँ) ──────────────── */}
         {concept.relatedConceptIds.length > 0 && (

@@ -1,0 +1,339 @@
+import { readHref } from '@/lib/verse-paths';
+
+export interface DailyWisdomItem {
+  id: string;
+  dayOfYearIndex: number;
+  scriptureId: string;
+  scriptureTitle: string;
+  scriptureTitleSanskrit: string;
+  chapterId: number;
+  chapterTitle: string;
+  verseId: number | string;
+  sanskrit: string;
+  transliteration: string;
+  meter?: string;
+  translation: string;
+  hindi: string;
+  wordMeaning: Array<{ word: string; meaning: string }>;
+  practicalTeaching: string;
+  practicalTeachingHi: string;
+  reflectionPrompt: string;
+  reflectionPromptHi: string;
+  dailyChallenge: string;
+  dailyChallengeHi: string;
+  theme: string;
+  href: string;
+}
+
+export const DAILY_WISDOM_REGISTRY: DailyWisdomItem[] = [
+  {
+    id: 'dw-gita-2-47',
+    dayOfYearIndex: 0,
+    scriptureId: 'bhagavadgita',
+    scriptureTitle: 'Bhagavad Gita',
+    scriptureTitleSanskrit: 'श्रीमद्भगवद्गीता',
+    chapterId: 2,
+    chapterTitle: 'Sankhya Yoga',
+    verseId: 47,
+    sanskrit: 'कर्मण्येवाधिकारस्ते मा फलेषु कदाचन ।\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि ॥',
+    transliteration: "karmaṇyevādhikāraste mā phaleṣu kadācana |\nmā karmaphalaheturbhūrmā te saṅgo'stvakarmaṇi ||",
+    meter: 'Anuṣṭubh (32 syllables)',
+    translation: 'You have a right only to perform your duty, never to its fruits. Let not the fruit of action be your motive, nor let your attachment be to inaction.',
+    hindi: 'तुम्हारा अधिकार केवल कर्म करने में है, उसके फलों में कभी नहीं। कर्मफल की वासना मत रखो, और कर्म न करने में तुम्हारी आसक्ति न हो।',
+    wordMeaning: [
+      { word: 'कर्मणि', meaning: 'In your duty and effort' },
+      { word: 'एव अधिकारः ते', meaning: 'Your jurisdiction alone' },
+      { word: 'मा फलेषु कदाचन', meaning: 'Never in the results' },
+      { word: 'मा कर्मफलहेतुः', meaning: 'Do not be driven by outcomes' },
+      { word: 'मा सङ्गः अस्तु अकर्मणि', meaning: 'Do not succumb to inaction' },
+    ],
+    practicalTeaching: 'Liberate your focus: Pour 100% of your energy into present craftsmanship and ethical action. Anxiety dissolves when you stop obsessing over outcomes you cannot single-handedly control.',
+    practicalTeachingHi: 'अपने प्रयास पर संपूर्ण ध्यान केंद्रित करें। फल की चिंता मानसिक तनाव पैदा करती है; वर्तमान कर्म में डूब जाना ही सच्ची शांति और उत्कृष्टता है।',
+    reflectionPrompt: 'Which outcome are you trying so desperately to dictate today that it is stealing your present peace?',
+    reflectionPromptHi: 'आज किस परिणाम की अत्यधिक चिंता आपकी मानसिक शांति और कर्म-कुशलता को चुरा रही है?',
+    dailyChallenge: 'Choose one crucial task today. Work on it uninterrupted for 25 minutes without checking emails, stats, or notifications.',
+    dailyChallengeHi: 'आज एक महत्वपूर्ण कार्य चुनें और बिना किसी परिणाम या सूचना की चिंता किए २५ मिनट तक पूरी तन्मयता से करें।',
+    theme: 'Karma Yoga & Focus',
+    href: readHref('bhagavadgita', 2, 47),
+  },
+  {
+    id: 'dw-isha-1',
+    dayOfYearIndex: 1,
+    scriptureId: 'ishavasya',
+    scriptureTitle: 'Isha Upanishad',
+    scriptureTitleSanskrit: 'ईशावास्योपनिषद्',
+    chapterId: 1,
+    chapterTitle: 'Mantra 1',
+    verseId: 1,
+    sanskrit: 'ईशा वास्यमिदं सर्वं यत्किञ्च जगत्यां जगत् ।\nतेन त्यक्तेन भुञ्जीथा मा गृधः कस्यस्विद्धनम् ॥',
+    transliteration: 'īśā vāsyamidaṃ sarvaṃ yatkiñca jagatyāṃ jagat |\ntena tyaktena bhuñjīthā mā gṛdhaḥ kasyasviddhanam ||',
+    meter: 'Anuṣṭubh',
+    translation: 'All this — whatsoever moves in this changing world — is enveloped by the Divine. Enjoy with renunciation; do not covet anyone’s wealth.',
+    hindi: 'इस गतिशील संसार में जो कुछ भी है, वह सब परमात्मा से व्याप्त है। त्याग भाव से इसका उपभोग करो; किसी के भी धन या संपदा का लोभ मत करो।',
+    wordMeaning: [
+      { word: 'ईशा वास्यम्', meaning: 'Enveloped by the Divine Consciousness' },
+      { word: 'इदं सर्वम्', meaning: 'All this manifestation' },
+      { word: 'तेन त्यक्तेन', meaning: 'Through detachment / sacrificial spirit' },
+      { word: 'भुञ्जीथाः', meaning: 'Enjoy and sustain life' },
+      { word: 'मा गृधः', meaning: 'Do not covet or grasp' },
+    ],
+    practicalTeaching: 'Abundance through detachment: Recognize that everything you possess is a sacred trust, not an absolute property. When you release possessiveness, contentment takes root.',
+    practicalTeachingHi: 'त्याग में ही सच्चा आनंद है। जो कुछ हमारे पास है उसे एक धरोहर मानकर उपयोग करें और ईर्ष्या व लोभ से मुक्त रहें।',
+    reflectionPrompt: 'Where is possessiveness or comparison making you feel poor despite having enough?',
+    reflectionPromptHi: 'कहाँ पर दूसरों से तुलना या अधिकार की भावना आपके भीतर अभाव का भ्रम पैदा कर रही है?',
+    dailyChallenge: 'Share something meaningful today — a meal, helpful knowledge, or genuine appreciation — with someone who can offer nothing in return.',
+    dailyChallengeHi: 'आज किसी ऐसे व्यक्ति के साथ कुछ साझा करें (भोजन, ज्ञान या सच्ची प्रशंसा) जिससे आपको बदले में कुछ नहीं चाहिए।',
+    theme: 'Contentment & Non-Attachment',
+    href: readHref('ishavasya', 1, 1),
+  },
+  {
+    id: 'dw-gita-2-48',
+    dayOfYearIndex: 2,
+    scriptureId: 'bhagavadgita',
+    scriptureTitle: 'Bhagavad Gita',
+    scriptureTitleSanskrit: 'श्रीमद्भगवद्गीता',
+    chapterId: 2,
+    chapterTitle: 'Sankhya Yoga',
+    verseId: 48,
+    sanskrit: 'योगस्थः कुरु कर्माणि सङ्गं त्यक्त्वा धनञ्जय ।\nसिद्ध्यसिद्ध्योः समो भूत्वा समत्वं योग उच्यते ॥',
+    transliteration: 'yogasthaḥ kuru karmāṇi saṅgaṃ tyaktvā dhanañjaya |\nsiddhyasiddhyoḥ samo bhūtvā samatvaṃ yoga ucyate ||',
+    meter: 'Anuṣṭubh',
+    translation: 'Established in Yoga, perform your actions, abandoning attachment, O Arjuna. Remain equal in success and failure; equanimity is called Yoga.',
+    hindi: 'हे धनंजय! आसक्ति को त्यागकर तथा सिद्धि और असिद्धि में समान रहकर अपने कर्म करो; यह समत्व (समभाव) ही योग कहलाता है।',
+    wordMeaning: [
+      { word: 'योगस्थः', meaning: 'Established in inner equilibrium' },
+      { word: 'सङ्गं त्यक्त्वा', meaning: 'Casting off mental clinging' },
+      { word: 'सिद्ध्यसिद्ध्योः समः', meaning: 'Equal in triumph and setback' },
+      { word: 'समतुं योगः उच्यते', meaning: 'Equanimity of mind is defined as Yoga' },
+    ],
+    practicalTeaching: 'Equanimity is not numbness; it is sovereign inner balance. Highs do not intoxicate you into arrogance; lows do not crush you into despair.',
+    practicalTeachingHi: 'समतल मन: सफलता में अहंकार न करना और विफलता में निराश न होना। यही आंतरिक संतुलन वास्तविक योग है।',
+    reflectionPrompt: 'Did a small praise make you arrogant today, or did a small criticism ruin your mood?',
+    reflectionPromptHi: 'क्या किसी छोटी प्रशंसा ने आज आपको अहंकारी बनाया, या किसी आलोचना ने आपका मन खिन्न किया?',
+    dailyChallenge: 'When you encounter an unexpected interruption or annoyance today, take three conscious breaths and respond with calm composure.',
+    dailyChallengeHi: 'आज जब कोई अप्रत्याशित व्यवधान या असुविधा आए, तो तुरंत प्रतिक्रिया देने के बजाय तीन गहरी सांसें लेकर शांत मन से उत्तर दें।',
+    theme: 'Equanimity (Samatvam)',
+    href: readHref('bhagavadgita', 2, 48),
+  },
+  {
+    id: 'dw-katha-3-3',
+    dayOfYearIndex: 3,
+    scriptureId: 'katha',
+    scriptureTitle: 'Katha Upanishad',
+    scriptureTitleSanskrit: 'कठोपनिषद्',
+    chapterId: 3,
+    chapterTitle: 'Vallī 3',
+    verseId: 3,
+    sanskrit: 'आत्मानं रथिनं विद्धि शरीरं रथमेव तु ।\nबुद्धिं तु सारथिं विद्धि मनः प्रग्रहमेव च ॥',
+    transliteration: 'ātmānaṃ rathinaṃ viddhi śarīraṃ rathameva tu |\nbuddhiṃ tu sārathiṃ viddhi manaḥ pragrahameva ca ||',
+    meter: 'Anuṣṭubh',
+    translation: 'Know the Self as the master in the chariot, the body as the chariot, the intellect as the charioteer, and the mind as the reins.',
+    hindi: 'आत्मा को रथ का स्वामी समझो, शरीर को रथ, बुद्धि को सारथी और मन को लगाम समझो।',
+    wordMeaning: [
+      { word: 'आत्मानं रथिनम्', meaning: 'Atman as the chariot owner / witness' },
+      { word: 'शरीरं रथम्', meaning: 'Physical body as the vehicle' },
+      { word: 'बुद्धिं सारथिम्', meaning: 'Discerning intellect as the driver' },
+      { word: 'मनः प्रग्रहम्', meaning: 'Emotional mind as the controlling reins' },
+    ],
+    practicalTeaching: 'Mastery of internal psychology: If the intellect falls asleep, the mind pulls wild horses anywhere it pleases. Keep the discriminating intellect alert at the reins.',
+    practicalTeachingHi: 'मनोवैज्ञानिक नक्शा: बुद्धि को जागरूक सारथी बनाएं और मन की लगाम से इंद्रियों को सही दिशा में निर्देशित करें।',
+    reflectionPrompt: 'Who was driving your chariot during your most reactive moment today — your wisdom or your impulsive impulses?',
+    reflectionPromptHi: 'आज के किसी आवेशपूर्ण क्षण में आपके रथ का सारथी कौन था — आपका विवेक या अनियंत्रित आवेग?',
+    dailyChallenge: 'Catch yourself before impulsively opening social media or snacking; pause for 10 seconds and let the intellect decide consciously.',
+    dailyChallengeHi: 'अनावश्यक फोन स्क्रॉलिंग या आवेग में भोजन करने से पहले १० सेकंड रुकें और अपनी विवेकशील बुद्धि को निर्णय लेने दें।',
+    theme: 'Self-Mastery & Mind Control',
+    href: readHref('katha', 3, 3),
+  },
+  {
+    id: 'dw-gita-6-5',
+    dayOfYearIndex: 4,
+    scriptureId: 'bhagavadgita',
+    scriptureTitle: 'Bhagavad Gita',
+    scriptureTitleSanskrit: 'श्रीमद्भगवद्गीता',
+    chapterId: 6,
+    chapterTitle: 'Dhyana Yoga',
+    verseId: 5,
+    sanskrit: 'उद्धरेदात्मनात्मानं नात्मानमवसादयेत् ।\nआत्मैव ह्यात्मनो बन्धुरात्मैव रिपुरात्मनः ॥',
+    transliteration: 'uddharedātmanātmānaṃ nātmānamavasādayet |\nātmaiva hyātmano bandhurātmaiva ripurātmanaḥ ||',
+    meter: 'Anuṣṭubh',
+    translation: 'One should elevate oneself by one’s own mind, not degrade oneself. For the mind alone is the friend of oneself, and the mind alone is one’s enemy.',
+    hindi: 'मनुष्य को अपने मन द्वारा अपना उद्धार करना चाहिए, अपना पतन नहीं होने देना चाहिए। क्योंकि मन ही अपना मित्र है और मन ही अपना शत्रु है।',
+    wordMeaning: [
+      { word: 'उद्धरेत् आत्मना आत्मानम्', meaning: 'Elevate oneself by one’s own disciplined mind' },
+      { word: 'न अवसादयेत्', meaning: 'Never sink into despair or degradation' },
+      { word: 'आत्मैव बन्धुः', meaning: 'One’s own disciplined mind is the ally' },
+      { word: 'आत्मैव रिपुः', meaning: 'One’s unmastered mind is the adversary' },
+    ],
+    practicalTeaching: 'Radical personal accountability: Stop waiting for an external savior or blaming circumstances. Train your inner dialogue to encourage and discipline you as a loyal friend.',
+    practicalTeachingHi: 'आत्म-जिम्मेदारी: आपका मन ही आपका सबसे बड़ा सहायक बन सकता है या सबसे घातक विरोधी। अपने विचारों को अनुशासित कर स्वयं के मित्र बनें।',
+    reflectionPrompt: 'Are the thoughts you told yourself today those of a wise, encouraging friend, or an abusive enemy?',
+    reflectionPromptHi: 'आज आपने अपने मन में स्वयं से जो बातें कहीं, क्या वे किसी सच्चे मित्र की थीं या किसी कठोर शत्रु की?',
+    dailyChallenge: 'Replace one recurrent self-critical thought today with a truthful, constructive reminder of your Dharmic purpose.',
+    dailyChallengeHi: 'आज मन में उठने वाले किसी नकारात्मक आत्म-संवाद को रोककर उसकी जगह सत्य और कर्तव्य-परायण सकारात्मक विचार स्थापित करें।',
+    theme: 'Self-Elevation & Mental Resilience',
+    href: readHref('bhagavadgita', 6, 5),
+  },
+  {
+    id: 'dw-mundaka-3-1-6',
+    dayOfYearIndex: 5,
+    scriptureId: 'mundaka',
+    scriptureTitle: 'Mundaka Upanishad',
+    scriptureTitleSanskrit: 'मुण्डकोपनिषद्',
+    chapterId: 3,
+    chapterTitle: 'Khanda 1',
+    verseId: 6,
+    sanskrit: 'सत्यमेव जयते नानृतं\nसत्येन पन्था विततो देवयानः ।\nयेनाक्रमन्त्यृषयो ह्याप्तकामा\nयत्र तत् सत्यस्य परमं निधानम् ॥',
+    transliteration: 'satyameva jayate nānṛtaṃ\nsatyena panthā vitato devayānaḥ |\nyenākramantyṛṣayo hyāptakāmā\nyatra tat satyasya paramaṃ nidhānam ||',
+    meter: 'Vedic Jagati / Trishtubh',
+    translation: 'Truth alone triumphs, never untruth. By truth is laid out the divine path traveled by sages whose desires are fulfilled, to that supreme abode where Truth abides.',
+    hindi: 'सत्य की ही विजय होती है, असत्य की नहीं। सत्य के द्वारा ही वह दिव्य मार्ग प्रशस्त होता है जिस पर पूर्णकाम ऋषिगण उस परम पद को प्राप्त करते हैं जहाँ सत्य का परम धाम है।',
+    wordMeaning: [
+      { word: 'सत्यमेव जयते', meaning: 'Truth alone is victorious' },
+      { word: 'न अनृतम्', meaning: 'Never falsehood' },
+      { word: 'सत्येन पन्थाः', meaning: 'By truth the path is carved' },
+      { word: 'परमं निधानम्', meaning: 'The supreme sanctuary of Truth' },
+    ],
+    practicalTeaching: 'The sovereignty of Satya: Lies and pretense might offer temporary shortcuts, but Truth alone survives the test of time and preserves clean conscience.',
+    practicalTeachingHi: 'सत्य की शाश्वत शक्ति: असत्य तात्कालिक लाभ दे सकता है, पर अंततः सत्य ही प्रतिष्ठित होता है और आत्मा को निर्भय बनाता है।',
+    reflectionPrompt: 'Where were you tempted to compromise truth or authenticity for social approval today?',
+    reflectionPromptHi: 'कहाँ पर आज आपने सामाजिक प्रशंसा या सुविधा के लिए सत्य से समझौता करने का विचार किया?',
+    dailyChallenge: 'Speak with transparent, courteous honesty in every conversation today without exaggerating or gossiping.',
+    dailyChallengeHi: 'आज अपनी प्रत्येक बातचीत में बिना अतिशयोक्ति या चुगली के शिष्ट और स्पष्ट सत्य का पालन करें।',
+    theme: 'Truth & Moral Courage',
+    href: readHref('mundaka', 3, 6),
+  },
+  {
+    id: 'dw-gita-2-50',
+    dayOfYearIndex: 6,
+    scriptureId: 'bhagavadgita',
+    scriptureTitle: 'Bhagavad Gita',
+    scriptureTitleSanskrit: 'श्रीमद्भगवद्गीता',
+    chapterId: 2,
+    chapterTitle: 'Sankhya Yoga',
+    verseId: 50,
+    sanskrit: 'बुद्धियुक्तो जहातीह उभे सुकृतदुष्कृते ।\nतस्माद्योगाय युज्यस्व योगः कर्मसु कौशलम् ॥',
+    transliteration: 'buddhiyukto jahātīha ubhe sukṛtaduṣkṛte |\ntasmādyogāya yujyasva yogaḥ karmasu kauśalam ||',
+    meter: 'Anuṣṭubh',
+    translation: 'One endowed with equanimity of intellect casts off both good and evil deeds here. Therefore, dedicate yourself to Yoga; Yoga is skill in action.',
+    hindi: 'समबुद्धि से युक्त व्यक्ति इस लोक में पुण्य और पाप दोनों का त्याग कर देता है। इसलिए योग में लग जाओ; कर्मों में कुशलता ही योग है।',
+    wordMeaning: [
+      { word: 'बुद्धियुक्तः', meaning: 'One unified with equanimous intellect' },
+      { word: 'जहाति इह', meaning: 'Relinquishes here in this life' },
+      { word: 'तस्मात् योगाय युज्यस्व', meaning: 'Therefore engage in Yoga' },
+      { word: 'योगः कर्मसु कौशलम्', meaning: 'Yoga is supreme skill and dexterity in action' },
+    ],
+    practicalTeaching: 'Craftsmanship without anxiety: True dexterity (Karmasu Kaushalam) occurs when you are so free from ego and nervousness that your actions attain flawless precision.',
+    practicalTeachingHi: 'कर्मसु कौशलम्: जब मन परिणाम के भय से मुक्त होता है, तब कार्य में सर्वोच्च निपुणता और कलात्मकता प्रकट होती है।',
+    reflectionPrompt: 'Did rush or impatience compromise the quality and mindfulness of your work today?',
+    reflectionPromptHi: 'क्या जल्दबाजी या अधीरता ने आज आपके किसी कार्य की गुणवत्ता को प्रभावित किया?',
+    dailyChallenge: 'Select one routine duty (cleaning, coding, cooking, writing) and perform it with the deliberate grace of a sacred offering.',
+    dailyChallengeHi: 'आज का कोई भी सामान्य कार्य (खाना बनाना, लिखना या काम करना) एक पवित्र अनुष्ठान की तरह पूर्ण ध्यान और सुंदरता से करें।',
+    theme: 'Excellence in Action (Karmasu Kaushalam)',
+    href: readHref('bhagavadgita', 2, 50),
+  },
+  {
+    id: 'dw-gita-3-21',
+    dayOfYearIndex: 7,
+    scriptureId: 'bhagavadgita',
+    scriptureTitle: 'Bhagavad Gita',
+    scriptureTitleSanskrit: 'श्रीमद्भगवद्गीता',
+    chapterId: 3,
+    chapterTitle: 'Karma Yoga',
+    verseId: 21,
+    sanskrit: 'यद्यदाचरति श्रेष्ठस्तत्तदेवेतरो जनः ।\nस यत्प्रमाणं कुरुते लोकस्तदनुवर्तते ॥',
+    transliteration: 'yadyadācarati śreṣṭhastattadevetaro janaḥ |\nsa yatpramāṇaṃ kurute lokastadanuvartate ||',
+    meter: 'Anuṣṭubh',
+    translation: 'Whatever a great person does, that alone others follow. Whatever standard they set, the whole world follows.',
+    hindi: 'श्रेष्ठ पुरुष जो-जो आचरण करता है, अन्य लोग भी वैसा ही आचरण करते हैं। वह जो आदर्श प्रस्तुत करता है, समस्त संसार उसी का अनुसरण करता है।',
+    wordMeaning: [
+      { word: 'यत् यत् आचरति', meaning: 'Whatever standard one practices in conduct' },
+      { word: 'श्रेष्ठः', meaning: 'A noble leader or respected person' },
+      { word: 'स यत् प्रमाणं कुरुते', meaning: 'Whatever benchmark they establish' },
+      { word: 'लोकः तत् अनुवर्तते', meaning: 'Society naturally emulates that' },
+    ],
+    practicalTeaching: 'Leadership through character: People do not follow what you preach; they follow what you embody under pressure. Set the standard by living it first.',
+    practicalTeachingHi: 'आचरण द्वारा नेतृत्व: उपदेश से नहीं, अपितु आपके आचरण से लोग प्रेरित होते हैं। जो मूल्य आप दूसरों में देखना चाहते हैं, पहले स्वयं जिएं।',
+    reflectionPrompt: 'If someone younger or newer observed your private conduct today, would they learn integrity or compromise?',
+    reflectionPromptHi: 'यदि कोई नवयुवक आज आपके निजी आचरण को देखता, तो क्या वह ईमानदारी सीखता या समझौता?',
+    dailyChallenge: 'Model calmness, patience, and punctuality today in a situation where others expect frustration.',
+    dailyChallengeHi: 'आज किसी तनावपूर्ण परिस्थिति में धैर्य और समय की पाबंदी का ऐसा आदर्श प्रस्तुत करें जिससे दूसरे भी प्रेरित हों।',
+    theme: 'Exemplary Leadership (Lokasamgraha)',
+    href: readHref('bhagavadgita', 3, 21),
+  },
+  {
+    id: 'dw-chandogya-6-8-7',
+    dayOfYearIndex: 8,
+    scriptureId: 'chandogya',
+    scriptureTitle: 'Chandogya Upanishad',
+    scriptureTitleSanskrit: 'छान्दोग्योपनिषद्',
+    chapterId: 6,
+    chapterTitle: 'Prapathaka 6',
+    verseId: 8,
+    sanskrit: 'स य एषोऽणिमैतदात्म्यमिदं सर्वं तत्सत्यं स आत्मा तत्त्वमसि श्वेतकेतो ॥',
+    transliteration: "sa ya eṣo'ṇimaitadātmyamidaṃ sarvaṃ tatsatyaṃ sa ātmā tattvamasi śvetaketo ||",
+    meter: 'Upanishadic Prose Mantra',
+    translation: 'That which is the subtle essence, in That all that exists has its self. That is the Truth. That is the Self. That Thou Art, O Shvetaketu!',
+    hindi: 'जो यह अत्यंत सूक्ष्म तत्व है, वही इस संपूर्ण जगत की अंतरात्मा है। वही सत्य है, वही आत्मा है, और हे श्वेतकेतु! वही तुम हो (तत्त्वमसि)।',
+    wordMeaning: [
+      { word: 'स यः एषः अणिमा', meaning: 'That which is the supreme subtlest reality' },
+      { word: 'तत् सत्यम्', meaning: 'That alone is unchanging Truth' },
+      { word: 'स आत्मा', meaning: 'That is the underlying conscious Self' },
+      { word: 'तत् त्वम् असि', meaning: 'That supreme reality art thou' },
+    ],
+    practicalTeaching: 'You are not your fleeting anxieties or temporary failures. Beneath thoughts and emotions sits the eternal, untarnished witness consciousness.',
+    practicalTeachingHi: 'महावाक्य बोध: आप केवल यह शरीर या चंचल मन नहीं हैं। आप नित्य, शुद्ध और अनंत चैतन्य स्वरूप हैं।',
+    reflectionPrompt: 'Can you pause and witness the watcher behind your current thoughts?',
+    reflectionPromptHi: 'क्या आप थोड़ी देर रुककर अपने विचारों के पीछे उपस्थित साक्षी भाव को अनुभव कर सकते हैं?',
+    dailyChallenge: 'Sit quietly for 3 minutes without moving. Mentally repeat "Tat Tvam Asi" and rest in pure, uncluttered awareness.',
+    dailyChallengeHi: '३ मिनट शांत बैठकर "तत्त्वमसि" का स्मरण करें और स्वयं को समस्त उपाधियों से परे साक्षी रूप में अनुभव करें।',
+    theme: 'The Mahavakya: Infinite Self',
+    href: readHref('chandogya', 6, 8),
+  },
+  {
+    id: 'dw-gita-18-66',
+    dayOfYearIndex: 9,
+    scriptureId: 'bhagavadgita',
+    scriptureTitle: 'Bhagavad Gita',
+    scriptureTitleSanskrit: 'श्रीमद्भगवद्गीता',
+    chapterId: 18,
+    chapterTitle: 'Moksha Sannyasa Yoga',
+    verseId: 66,
+    sanskrit: 'सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज ।\nअहं त्वा सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः ॥',
+    transliteration: 'sarvadharmānparityajya māmekaṃ śaraṇaṃ vraja |\nahaṃ tvā sarvapāpebhyo mokṣayiṣyāmi mā śucaḥ ||',
+    meter: 'Anuṣṭubh',
+    translation: 'Abandoning all varieties of dharmas, take refuge in Me alone. I shall liberate you from all sins; do not grieve.',
+    hindi: 'समस्त धर्मों (उपाधियों और आश्रयों) को मुझमें समर्पित करके केवल मेरी शरण में आ जाओ। मैं तुम्हें समस्त पापों और बन्धनों से मुक्त कर दूंगा, शोक मत करो।',
+    wordMeaning: [
+      { word: 'सर्वधर्मान् परित्यज्य', meaning: 'Relinquishing all dualistic reliances' },
+      { word: 'माम् एकं शरणं व्रज', meaning: 'Seek refuge in the Supreme Divine alone' },
+      { word: 'अहं त्वा मोक्षयिष्यामि', meaning: 'I shall liberate you' },
+      { word: 'मा शुचः', meaning: 'Do not grieve, do not fear' },
+    ],
+    practicalTeaching: 'The ultimate sanctuary of surrender: When you have done your absolute best and life overwhelms you, surrender the heavy burden of doership to the Divine and rest in absolute trust.',
+    practicalTeachingHi: 'पूर्ण शरणागति: जब सारे यत्न कर चुकें, तो कर्तापन का अहंकार ईश्वर को सौंप दें। परमेश्वर की शरण में भय और शोक का अंत हो जाता है।',
+    reflectionPrompt: 'What heavy burden of worry or guilt are you still trying to carry on your own shoulders?',
+    reflectionPromptHi: 'चिंता या अपराधबोध का कौन सा भारी बोझ आप आज भी अपने अकेले कंधों पर ढो रहे हैं?',
+    dailyChallenge: 'Mentally release your biggest unsolved worry into the hands of the Divine with the prayer: "Ma Shuchah — I surrender this."',
+    dailyChallengeHi: 'अपनी सबसे बड़ी चिंता को भगवान के चरणों में समर्पित करें और कहें: "हे प्रभु, यह आपकी शरण में है, मैं शोक मुक्त हूँ।"',
+    theme: 'Ultimate Refuge & Surrender (Sharanagati)',
+    href: readHref('bhagavadgita', 18, 66),
+  },
+];
+
+/**
+ * Returns the deterministic Daily Wisdom item for any given calendar date.
+ * Guarantees that every user globally sees the exact same verse on a given day.
+ */
+export function getTodayWisdom(date: Date = new Date()): DailyWisdomItem {
+  const start = new Date(date.getFullYear(), 0, 0);
+  const diff = date.getTime() - start.getTime();
+  const oneDay = 1000 * 60 * 60 * 24;
+  const dayOfYear = Math.floor(diff / oneDay);
+  const index = Math.abs(dayOfYear) % DAILY_WISDOM_REGISTRY.length;
+  return DAILY_WISDOM_REGISTRY[index] || DAILY_WISDOM_REGISTRY[0];
+}
+
+export function getWisdomByIndex(index: number): DailyWisdomItem {
+  const normalized = ((index % DAILY_WISDOM_REGISTRY.length) + DAILY_WISDOM_REGISTRY.length) % DAILY_WISDOM_REGISTRY.length;
+  return DAILY_WISDOM_REGISTRY[normalized] || DAILY_WISDOM_REGISTRY[0];
+}

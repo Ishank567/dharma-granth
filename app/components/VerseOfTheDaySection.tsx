@@ -23,6 +23,8 @@ import dynamic from 'next/dynamic';
 import { triggerTactileFeedback } from '@/lib/haptics';
 import { PedagogicalVerseCard, type ContemplationTier } from '@/app/components/PedagogicalVerseCard';
 import { getPedagogicalVerse } from '@/data/pedagogical-registry';
+import { DAILY_WISDOM_REGISTRY } from '@/data/daily-wisdom-engine';
+import { SacredShareModal } from '@/app/components/share/SacredShareModal';
 
 export interface VerseOfTheDayItem {
   scriptureId: string;
@@ -39,82 +41,26 @@ export interface VerseOfTheDayItem {
   source: string;
 }
 
-// Loaded on demand (first click on Embed) so the dialog and its framer-motion layer stay out of the page's first-load JS.
+// Loaded on demand (first click on Embed) so the dialog stays out of the page's first-load JS.
 const EmbedVerseDialog = dynamic(
   () => import('@/app/components/EmbedVerseDialog').then((m) => m.EmbedVerseDialog),
   { ssr: false },
 );
 
-const FEATURED_VERSES: VerseOfTheDayItem[] = [
-  {
-    scriptureId: 'bhagavadgita',
-    scriptureTitle: 'Bhagavad Gita',
-    scriptureTitleSanskrit: 'श्रीमद्भगवद्गीता',
-    chapterId: 2,
-    chapterTitle: 'Sankhya Yoga',
-    verseId: 47,
-    sanskrit: 'कर्मण्येवाधिकारस्ते मा फलेषु कदाचन ।\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि ॥',
-    transliteration: "karmaṇyevādhikāraste mā phaleṣu kadācana |\nmā karmaphalaheturbhūrmā te saṅgo'stvakarmaṇi ||",
-    translation:
-      'You have a right only to perform your prescribed duty; the fruits thereof are not your concern. Let not the fruit of action be your motive, nor let attachment to inaction take hold of you.',
-    hindi:
-      'तुम्हारा अधिकार केवल कर्म करने में है, उसके फलों में कभी नहीं। न तो कर्म के फल का कारण बनो, और न ही कर्म न करने में तुम्हारी आसक्ति हो।',
-    reflection:
-      'Focus wholly on the integrity of your effort today. Relieve yourself of the mental exhaustion of controlling outcomes; true freedom is acting with excellence and surrendering the results.',
-    source: 'भगवद्गीता २.४७ (Bhagavad Gita 2.47)',
-  },
-  {
-    scriptureId: 'ishavasya',
-    scriptureTitle: 'Isha Upanishad',
-    scriptureTitleSanskrit: 'ईशावास्योपनिषद्',
-    chapterId: 1,
-    chapterTitle: 'Mantra 1',
-    verseId: 1,
-    sanskrit: 'ईशा वास्यमिदं सर्वं यत्किञ्च जगत्यां जगत् ।\nतेन त्यक्तेन भुञ्जीथा मा गृधः कस्यस्विद्धनम् ॥',
-    transliteration: 'īśā vāsyāmidaṃ sarvaṃ yatkiñca jagatyāṃ jagat |\ntena tyaktena bhuñjīthā mā gṛdhaḥ kasyasviddhanam ||',
-    translation:
-      'All this — whatsoever moves in this changing world — is pervaded by the Divine. Enjoy and protect through renunciation; do not covet the wealth of anyone.',
-    hindi:
-      'इस गतिशील संसार में जो कुछ भी है, वह सब ईश्वर से व्याप्त है। त्याग भाव से इसका उपभोग करो; किसी के धन का लोभ मत करो।',
-    reflection:
-      'Recognize the sacred unity in all people and surroundings you encounter. Contentment begins when you release possessiveness and treat what you have as a sacred trust.',
-    source: 'ईशावास्योपनिषद् १ (Isha Upanishad 1)',
-  },
-  {
-    scriptureId: 'bhagavadgita',
-    scriptureTitle: 'Bhagavad Gita',
-    scriptureTitleSanskrit: 'श्रीमद्भगवद्गीता',
-    chapterId: 2,
-    chapterTitle: 'Sankhya Yoga',
-    verseId: 48,
-    sanskrit: 'योगस्थः कुरु कर्माणि सङ्गं त्यक्त्वा धनञ्जय ।\nसिद्ध्यसिद्ध्योः समो भूत्वा समत्वं योग उच्यते ॥',
-    transliteration: 'yogasthaḥ kuru karmāṇi saṅgaṃ tyaktvā dhanañjaya |\nsiddhyasiddhyoḥ samo bhūtvā samatvaṃ yoga ucyate ||',
-    translation:
-      'Perform your duty poised in yoga, abandoning attachment, O Dhananjaya. Be even-minded in both success and failure; equanimity of mind is called yoga.',
-    hindi:
-      'हे धनंजय! आसक्ति को त्यागकर तथा सिद्धि और असिद्धि में समान रहकर अपने कर्म करो; यह समत्व (समभाव) ही योग कहलाता है।',
-    reflection:
-      'Equanimity is not suppression or cold indifference; it is the quiet strength of meeting both triumphs and trials with the same calm, centered consciousness.',
-    source: 'भगवद्गीता २.४८ (Bhagavad Gita 2.48)',
-  },
-  {
-    scriptureId: 'mundaka',
-    scriptureTitle: 'Mundaka Upanishad',
-    scriptureTitleSanskrit: 'मुण्डकोपनिषद्',
-    chapterId: 3,
-    chapterTitle: 'Khanda 1',
-    verseId: 6,
-    sanskrit: 'सत्यमेव जयते नानृतं\nसत्येन पन्था विततो देवयानः ।',
-    transliteration: 'satyameva jayate nānṛtaṃ\nsatyena panthā vitato devayānaḥ |',
-    translation:
-      'Truth alone triumphs, never falsehood. By truth is laid out the divine path traveled by sages whose desires are fulfilled.',
-    hindi:
-      'सत्य की ही विजय होती है, असत्य की नहीं। सत्य के द्वारा ही वह दिव्य मार्ग प्रशस्त होता है जिस पर पूर्णकाम ऋषिगण चलते हैं।',
-    reflection:
-      'Shortcuts and pretenses may offer fleeting convenience, but alignment with truth (Satya) is what builds enduring clarity, peace, and spiritual fortitude.',
-    source: 'मुण्डकोपनिषद् ३.१.६ (Mundaka Upanishad 3.1.6)',
-  },
-];
+const FEATURED_VERSES: VerseOfTheDayItem[] = DAILY_WISDOM_REGISTRY.map((dw) => ({
+  scriptureId: dw.scriptureId,
+  scriptureTitle: dw.scriptureTitle,
+  scriptureTitleSanskrit: dw.scriptureTitleSanskrit,
+  chapterId: dw.chapterId,
+  chapterTitle: dw.chapterTitle,
+  verseId: dw.verseId,
+  sanskrit: dw.sanskrit,
+  transliteration: dw.transliteration,
+  translation: dw.translation,
+  hindi: dw.hindi,
+  reflection: dw.practicalTeaching,
+  source: `${dw.scriptureTitle} ${dw.chapterId}.${dw.verseId}`,
+}));
 
 function getDayOfYear(): number {
   const now = new Date();
@@ -132,6 +78,7 @@ export function VerseOfTheDaySection() {
   // Mounted on the first click, so the dialog's code is fetched only when someone embeds a verse.
   const [embedMounted, setEmbedMounted] = useState(false);
   const [genericTier, setGenericTier] = useState<ContemplationTier>('simple');
+  const [isShareModalOpen, setIsShareModalOpen] = useState(false);
 
   useEffect(() => {
     const dayIdx = getDayOfYear() % FEATURED_VERSES.length;
@@ -253,33 +200,9 @@ export function VerseOfTheDaySection() {
   }
 
   // 5. SHARE ACTION
-  async function handleShare() {
+  function handleShare() {
     triggerTactileFeedback('light', 'click');
-    const url = `${typeof window !== 'undefined' ? window.location.origin : ''}${readHref(
-      current.scriptureId,
-      current.chapterId,
-      current.verseId,
-    )}`;
-
-    if (navigator.share) {
-      try {
-        await navigator.share({
-          title: `${current.scriptureTitle} ${current.chapterId}.${current.verseId}`,
-          text: `${current.sanskrit}\n\n${current.translation}\n\n${current.hindi}`,
-          url,
-        });
-        return;
-      } catch (err: unknown) {
-        if ((err as Error)?.name === 'AbortError') return;
-      }
-    }
-
-    try {
-      await navigator.clipboard.writeText(url);
-      showToast('Link copied to clipboard');
-    } catch {
-      showToast('Could not share link');
-    }
+    setIsShareModalOpen(true);
   }
 
   function handlePrev() {
@@ -572,13 +495,12 @@ export function VerseOfTheDaySection() {
                         <span>WhatsApp</span>
                       </a>
 
-                      {/* 7. Embed */}
                       <button
                         type="button"
                         onClick={() => {
-                  setEmbedMounted(true);
-                  setEmbedOpen(true);
-                }}
+                          setEmbedMounted(true);
+                          setEmbedOpen(true);
+                        }}
                         aria-haspopup="dialog"
                         aria-label="Embed this verse on your website"
                         className="inline-flex min-h-[44px] items-center gap-1.5 rounded-full border border-dharma-border bg-dharma-panel px-3.5 py-2 text-xs font-bold text-dharma-text transition hover:border-saffron-300 hover:text-saffron-700 shadow-sm"
@@ -615,7 +537,6 @@ export function VerseOfTheDaySection() {
         )}
       </div>
 
-      {/* window.location is only read in the browser; nothing renders until the dialog is opened. */}
       {embedMounted && (
         <EmbedVerseDialog
           open={embedOpen}
@@ -633,6 +554,20 @@ export function VerseOfTheDaySection() {
           onNotice={showToast}
         />
       )}
+      <SacredShareModal
+        isOpen={isShareModalOpen}
+        onClose={() => setIsShareModalOpen(false)}
+        data={{
+          title: current.scriptureTitle,
+          reference: `${current.scriptureTitle} ${current.chapterId}.${current.verseId}`,
+          sanskrit: current.sanskrit,
+          transliteration: current.transliteration,
+          translation: current.translation,
+          hindi: current.hindi,
+          quote: current.reflection,
+          url: typeof window !== 'undefined' ? `${window.location.origin}${readHref(current.scriptureId, current.chapterId, current.verseId)}` : `https://dharmagranth.in${readHref(current.scriptureId, current.chapterId, current.verseId)}`,
+        }}
+      />
     </section>
   );
 }

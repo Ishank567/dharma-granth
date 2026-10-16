@@ -56,7 +56,7 @@ function convertToPathway(lp: LearningPath): Pathway {
 export const pathways: Pathway[] = learningPaths.map(convertToPathway);
 
 // Alias mapping for old pathway IDs so existing progress / bookmarks remain intact
-const ALIASES: Record<string, string> = {
+export const PATHWAY_ID_ALIASES: Record<string, string> = {
   'beginner-7day': 'beginner',
   'gita-pathway': 'bhagavad-gita',
   'upanishad-pathway': 'upanishads',
@@ -67,6 +67,6 @@ const ALIASES: Record<string, string> = {
 };
 
 export function getPathway(id: string): Pathway | undefined {
-  const resolvedId = ALIASES[id] || id;
+  const resolvedId = PATHWAY_ID_ALIASES[id] || id;
   return pathways.find((p) => p.id === resolvedId);
 }
