@@ -592,7 +592,7 @@ export function SacredShareModal({ isOpen, onClose, data }: Props) {
                           opacity: 0.9,
                         }}
                       >
-                        "{data.translation}"
+                        “{data.translation}”
                       </p>
                     )}
 
@@ -608,7 +608,7 @@ export function SacredShareModal({ isOpen, onClose, data }: Props) {
                           fontWeight: 600,
                         }}
                       >
-                        "{data.quote}"
+                        “{data.quote}”
                       </p>
                     )}
                   </div>

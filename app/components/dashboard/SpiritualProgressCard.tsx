@@ -96,7 +96,7 @@ export function SpiritualProgressCard({ stats }: Props) {
             {currentLevel.aphorism.translationHi}
           </p>
           <p className="text-xs text-dharma-muted/90 mt-1">
-            "{currentLevel.aphorism.translationEn}"
+            “{currentLevel.aphorism.translationEn}”
           </p>
         </div>
 
@@ -309,7 +309,7 @@ export function SpiritualProgressCard({ stats }: Props) {
                           {lvl.aphorism.translationHi}
                         </p>
                         <p className="text-2xs text-dharma-muted/80 italic mt-0.5">
-                          "{lvl.contemplationHi}"
+                          “{lvl.contemplationHi}”
                         </p>
                       </div>
                     </div>
