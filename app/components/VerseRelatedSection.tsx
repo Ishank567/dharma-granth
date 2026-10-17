@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { Compass, BookOpen, ExternalLink, Sparkles, ArrowRight } from 'lucide-react';
+import { Compass, BookOpen, Sparkles, ArrowRight } from 'lucide-react';
+import { getConceptDetail } from '@/data/concept-details';
 import type {
   IntegratedConcept,
   IntegratedTopic,
@@ -47,10 +48,12 @@ export function VerseRelatedSection({
           </div>
 
           <div className="grid gap-4 sm:grid-cols-2">
-            {concepts.map((concept) => (
+            {concepts.map((concept) => {
+              const hasPage = Boolean(getConceptDetail(concept.id));
+              return (
               <Link
                 key={concept.id}
-                href="/concepts"
+                href={hasPage ? `/concepts/${concept.id}` : '/concepts'}
                 className="group relative flex flex-col justify-between rounded-2xl border border-dharma-border bg-dharma-card p-4 transition-all duration-200 hover:-translate-y-0.5 hover:border-saffron-300 hover:shadow-md"
               >
                 <div>
@@ -74,12 +77,13 @@ export function VerseRelatedSection({
                     {concept.shortDesc}
                   </p>
                 </div>
-                <div className="mt-3 flex items-center gap-1 text-[11px] font-medium text-saffron-700 dark:text-saffron-400">
-                  <span>अवधारणा विस्तार से जानें</span>
-                  <ExternalLink className="h-3 w-3" aria-hidden="true" />
+                <div className="mt-3 flex items-center gap-1 text-[11px] font-medium text-saffron-800 dark:text-saffron-400">
+                  <span>{hasPage ? 'अवधारणा विस्तार से जानें' : 'अवधारणा सूची में देखें'}</span>
+                  <ArrowRight className="h-3 w-3" aria-hidden="true" />
                 </div>
               </Link>
-            ))}
+              );
+            })}
           </div>
         </div>
       )}

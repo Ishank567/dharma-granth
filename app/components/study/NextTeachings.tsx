@@ -25,10 +25,19 @@ type Card = NextCandidate;
 const JOURNEYS_KEY = 'dharma.journeys.v1';
 const MAX = 3;
 
+const KIND_HI: Record<NextCandidate['kind'], string> = {
+  next: 'अगला श्लोक',
+  complementary: 'समीक्षित संबंध',
+  concept: 'अवधारणा',
+  journey: 'जारी अध्ययन',
+};
+
 /**
- * "What next" after a verse: at most three options, each with a reason,
- * built from the verse's own links and the reader's active journey. The
- * reader can continue, save, hide, ask why, or turn suggestions off; those
+ * "आगे क्या" after a verse: at most three options, each with a reason,
+ * built from the verse's own links and the reader's active journey.
+ * The first paint uses the server candidates only, so the page has a next
+ * step without JavaScript. Device prefs and the journey card apply after load.
+ * The reader can continue, save, hide, ask why, or turn suggestions off; those
  * choices are shared with the suggestions on the study desk.
  */
 export function NextTeachings({ candidates, verseId }: { candidates: NextCandidate[]; verseId: string }) {
@@ -37,30 +46,30 @@ export function NextTeachings({ candidates, verseId }: { candidates: NextCandida
   const [open, setOpen] = useState<string | null>(null);
   const [savedIds, setSavedIds] = useState<string[]>([]);
   const [note, setNote] = useState('');
-  const [ready, setReady] = useState(false);
 
   useEffect(() => {
     setPrefs(readRecPrefs());
+    let nextJourney: Card | null = null;
     try {
       const progress = JSON.parse(localStorage.getItem(JOURNEYS_KEY) ?? '{}') as Record<string, string[]>;
       for (const j of READING_JOURNEYS) {
         const done = progress[j.id] ?? [];
         const nextLesson = j.lessons.find((l) => !done.includes(l.id));
         if (done.length > 0 && nextLesson) {
-          setJourney({
+          nextJourney = {
             id: `journey:${j.id}:${nextLesson.id}`,
             kind: 'journey',
             title: `${j.title}: reading ${done.length + 1} of ${j.lessons.length}`,
             href: `/journeys/${j.id}#${nextLesson.id}`,
             reason: `You have completed ${done.length} of ${j.lessons.length} readings.`,
             basis: `Your progress in “${j.title}” on this device.`,
-          });
+          };
           break;
         }
       }
     } catch { /* no journey progress */ }
+    setJourney(nextJourney);
     setSavedIds(candidates.filter((c) => c.save && isBookmarked(c.save.ref, c.save.verse)).map((c) => c.id));
-    setReady(true);
   }, [candidates, verseId]);
 
   const update = (next: RecPrefs, message: string) => {
@@ -68,11 +77,10 @@ export function NextTeachings({ candidates, verseId }: { candidates: NextCandida
     setNote(writeRecPrefs(next) ? message : 'Your browser blocked storage, so this choice lasts only for this visit.');
   };
 
-  if (!ready) return null;
   if (prefs.off) {
     return (
       <section aria-labelledby="nt-h" className="mt-8 rounded-2xl border border-dharma-border bg-dharma-card/60 p-5 text-sm">
-        <h2 id="nt-h" className="font-serif text-lg font-bold text-dharma-text">What next</h2>
+        <h2 id="nt-h" className="font-serif text-lg font-bold text-dharma-text"><span lang="hi" className="font-devanagari">आगे क्या</span> <span className="text-sm font-normal text-dharma-muted">· What next</span></h2>
         <p className="mt-1 text-dharma-muted">Suggestions are turned off. Use the previous and next buttons to keep reading.</p>
         <button type="button" onClick={() => update({ ...prefs, off: false }, 'Suggestions turned on.')} className="focus-ring mt-2 min-h-[44px] rounded-xl border border-dharma-border px-4 text-sm font-semibold text-dharma-text hover:border-saffron-400">Turn suggestions on</button>
         <p role="status" aria-live="polite" className="mt-1 text-sm text-dharma-muted">{note}</p>
@@ -96,13 +104,14 @@ export function NextTeachings({ candidates, verseId }: { candidates: NextCandida
 
   return (
     <section aria-labelledby="nt-h" className="mt-8 rounded-2xl border border-dharma-border bg-dharma-card/60 p-5">
-      <h2 id="nt-h" className="font-serif text-lg font-bold text-dharma-text">What next <span lang="hi" className="font-devanagari text-sm font-normal text-dharma-muted">· आगे क्या</span></h2>
+      <h2 id="nt-h" className="font-serif text-lg font-bold text-dharma-text"><span lang="hi" className="font-devanagari">आगे क्या</span> <span className="text-sm font-normal text-dharma-muted">· What next</span></h2>
       {cards.length === 0 ? (
         <p className="mt-2 text-sm text-dharma-muted">You have hidden every suggestion for this verse.</p>
       ) : (
         <ul className="mt-3 space-y-3">
           {cards.map((c) => (
             <li key={c.id} className="rounded-xl border border-dharma-border bg-dharma-bg p-3 text-sm">
+              <p lang="hi" className="font-devanagari text-xs font-semibold text-dharma-muted">{KIND_HI[c.kind]}</p>
               <p className="font-semibold">
                 <Link href={c.href} className="text-saffron-800 underline underline-offset-2 dark:text-saffron-300">{c.title}</Link>
               </p>

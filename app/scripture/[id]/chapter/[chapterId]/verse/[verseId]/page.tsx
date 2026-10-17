@@ -32,6 +32,7 @@ import { PENDING_CORRECTIONS, REVIEW_RECORDS } from '@/data/review-records';
 import { getScriptureSourceMeta } from '@/data/sources-registry';
 import { wisdomTopicsForVerse } from '@/lib/wisdom-verse-topics';
 import { WisdomTopicLinks } from '@/app/components/WisdomTopicLinks';
+import { getConceptDetail } from '@/data/concept-details';
 
 /**
  * One static page per verse for the scriptures in VERSE_PAGE_SCRIPTURE_IDS
@@ -279,7 +280,7 @@ export default function VersePage({ params }: PageProps) {
       basis: 'A reviewed link from this verse (still marked draft until reviewed).',
     });
   }
-  const topConcept = integrations.concepts[0];
+  const topConcept = integrations.concepts.find((concept) => getConceptDetail(concept.id));
   if (topConcept) {
     nextCandidates.push({
       id: `concept:${topConcept.id}`,
