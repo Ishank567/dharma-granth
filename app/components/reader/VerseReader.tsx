@@ -271,6 +271,13 @@ export function VerseReader(props: VerseReaderProps) {
   const percent = Math.round(((index + 1) / Math.max(1, total)) * 100);
   const sanskritName = scriptureTitleSanskrit ?? scriptureTitle;
 
+  const otherChapter = (href: string | undefined) => {
+    const match = href ? /\/chapter\/(\d+)(?:\/|$)/.exec(href) : null;
+    if (!match) return undefined;
+    const id = Number(match[1]);
+    return id !== chapterId ? id : undefined;
+  };
+
   const navLink = (target: ReaderVerseLink | undefined, dir: 'prev' | 'next', size: 'bar' | 'row') => {
     const Icon = dir === 'prev' ? ArrowLeft : ArrowRight;
     const text = dir === 'prev' ? 'Previous' : 'Next';
@@ -280,20 +287,27 @@ export function VerseReader(props: VerseReaderProps) {
         ? 'min-h-[48px] px-3'
         : 'min-h-[52px] px-4';
     if (!target) return <span className={size === 'bar' ? 'w-[88px]' : 'w-40'} aria-hidden="true" />;
+    const crosses = otherChapter(target.href);
+    const hiLabel = crosses != null ? (dir === 'prev' ? 'पिछला अध्याय' : 'अगला अध्याय') : hi;
+    const verseLine = crosses != null
+      ? (size === 'bar'
+        ? `${toDevanagari(crosses)}.${toDevanagari(target.number)}`
+        : `अध्याय ${toDevanagari(crosses)}, श्लोक ${toDevanagari(target.number)}`)
+      : `श्लोक ${toDevanagari(target.number)}`;
     return (
       <Link
         href={target.href}
         rel={dir}
         onClick={() => triggerTactileFeedback('selection', 'click')}
-        aria-label={`${text} verse, ${target.number}`}
+        aria-label={crosses != null ? `${hiLabel}, श्लोक ${crosses}.${target.number}` : `${text} verse, ${target.number}`}
         className={`focus-ring inline-flex items-center gap-2 rounded-xl border border-dharma-border bg-dharma-card font-semibold text-dharma-text transition hover:border-saffron-400 ${base} ${dir === 'next' ? 'flex-row-reverse text-right' : ''}`}
       >
         <Icon className="h-4 w-4 shrink-0 text-saffron-700 dark:text-saffron-300" aria-hidden="true" />
         <span className="leading-tight">
           <span className="block text-[11px] font-medium text-dharma-muted">
-            <span lang="hi" className="font-devanagari">{hi}</span> · {text}
+            <span lang="hi" className="font-devanagari">{hiLabel}</span>{crosses == null ? ` · ${text}` : ''}
           </span>
-          <span lang="hi" className="font-devanagari text-sm">श्लोक {toDevanagari(target.number)}</span>
+          <span lang="hi" className="font-devanagari text-sm">{verseLine}</span>
         </span>
       </Link>
     );
@@ -389,8 +403,8 @@ export function VerseReader(props: VerseReaderProps) {
         {/* Tactile Edge Swipe Indicator */}
         <MobileSwipeIndicator
           gestureState={gestureState}
-          prevNumber={prev?.number}
-          nextNumber={next?.number}
+          prevNumber={prev && otherChapter(prev.href) != null ? `${otherChapter(prev.href)}.${prev.number}` : prev?.number}
+          nextNumber={next && otherChapter(next.href) != null ? `${otherChapter(next.href)}.${next.number}` : next?.number}
         />
 
         <div className="mx-auto flex justify-center gap-8 xl:px-6" {...handlers}>

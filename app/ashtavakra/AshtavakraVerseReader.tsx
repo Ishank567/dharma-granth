@@ -21,8 +21,8 @@ interface AshtavakraVerseReaderProps {
   totalVerses: number;
   currentIndex: number;
   allVerses: CarouselVerseItem[];
-  prev?: { verseNumber: string; href: string };
-  next?: { verseNumber: string; href: string };
+  prev?: { verseNumber: string; href: string; crossesChapter?: boolean };
+  next?: { verseNumber: string; href: string; crossesChapter?: boolean };
   children: ReactNode;
 }
 
@@ -79,8 +79,8 @@ export function AshtavakraVerseReader({
       {/* Tactile Edge Swipe Visual Cue */}
       <MobileSwipeIndicator
         gestureState={gestureState}
-        prevNumber={prevVerseNum}
-        nextNumber={nextVerseNum}
+        prevNumber={prev?.crossesChapter ? prev.verseNumber : prevVerseNum}
+        nextNumber={next?.crossesChapter ? next.verseNumber : nextVerseNum}
       />
 
       {/* Main Content */}
@@ -96,12 +96,12 @@ export function AshtavakraVerseReader({
             <button
               type="button"
               onClick={() => handleNavClick(prev.href)}
-              aria-label={`पिछला श्लोक ${prev.verseNumber}`}
+              aria-label={prev.crossesChapter ? `पिछला प्रकरण, श्लोक ${prev.verseNumber}` : `पिछला श्लोक ${prev.verseNumber}`}
               className="ash-btn flex min-h-[48px] items-center gap-1.5 px-3 font-semibold transition active:scale-95"
             >
               <ArrowLeft className="h-4 w-4 text-[var(--ash-accent)]" />
               <span className="text-xs font-devanagari">
-                {toDevanagari(prevVerseNum ?? '')}
+                {toDevanagari(prev.crossesChapter ? prev.verseNumber : (prevVerseNum ?? ''))}
               </span>
             </button>
           ) : (
@@ -131,11 +131,11 @@ export function AshtavakraVerseReader({
             <button
               type="button"
               onClick={() => handleNavClick(next.href)}
-              aria-label={`अगला श्लोक ${next.verseNumber}`}
+              aria-label={next.crossesChapter ? `अगला प्रकरण, श्लोक ${next.verseNumber}` : `अगला श्लोक ${next.verseNumber}`}
               className="ash-btn flex min-h-[48px] items-center gap-1.5 px-3 font-semibold transition active:scale-95"
             >
               <span className="text-xs font-devanagari">
-                {toDevanagari(nextVerseNum ?? '')}
+                {toDevanagari(next.crossesChapter ? next.verseNumber : (nextVerseNum ?? ''))}
               </span>
               <ArrowRight className="h-4 w-4 text-[var(--ash-accent)]" />
             </button>

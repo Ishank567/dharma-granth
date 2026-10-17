@@ -125,9 +125,27 @@ export function getVerse(chapter: number, verse: number): AshtavakraVerse | unde
 export function verseNeighbours(chapter: number, verse: number) {
   const c = DATA[chapter];
   const idx = c ? c.verses.findIndex((v) => v.verseNumber === `${chapter}.${verse}`) : -1;
-  const prev = idx > 0 ? c.verses[idx - 1] : undefined;
-  const next = idx >= 0 && idx < c.verses.length - 1 ? c.verses[idx + 1] : undefined;
-  return { prev, next };
+  let prev = c && idx > 0 ? c.verses[idx - 1] : undefined;
+  let next = c && idx >= 0 && idx < c.verses.length - 1 ? c.verses[idx + 1] : undefined;
+  let prevCrossesChapter = false;
+  let nextCrossesChapter = false;
+  if (!prev && c && idx === 0) {
+    const earlier = DATA[chapter - 1];
+    const last = earlier?.verses[earlier.verses.length - 1];
+    if (last) {
+      prev = last;
+      prevCrossesChapter = true;
+    }
+  }
+  if (!next && c && idx === c.verses.length - 1) {
+    const following = DATA[chapter + 1];
+    const first = following?.verses[0];
+    if (first) {
+      next = first;
+      nextCrossesChapter = true;
+    }
+  }
+  return { prev, next, prevCrossesChapter, nextCrossesChapter };
 }
 
 export const verseHref = (id: string) => {

@@ -29,7 +29,7 @@ export default function VersePage({ params }: { params: { chapter: string; verse
   const m = getChapterMeta(c);
   const chapterData = getChapterData(c);
   if (!v || !m || !chapterData) notFound();
-  const { prev, next } = verseNeighbours(c, n);
+  const { prev, next, prevCrossesChapter, nextCrossesChapter } = verseNeighbours(c, n);
 
   const allVerses = chapterData.verses.map((item) => ({
     number: item.verseNumber.split('.')[1],
@@ -37,8 +37,12 @@ export default function VersePage({ params }: { params: { chapter: string; verse
   }));
 
   const currentIndex = chapterData.verses.findIndex((item) => item.verseNumber === v.verseNumber);
-  const prevItem = prev ? { verseNumber: prev.verseNumber, href: verseHref(prev.verseNumber) } : undefined;
-  const nextItem = next ? { verseNumber: next.verseNumber, href: verseHref(next.verseNumber) } : undefined;
+  const prevItem = prev
+    ? { verseNumber: prev.verseNumber, href: verseHref(prev.verseNumber), crossesChapter: prevCrossesChapter }
+    : undefined;
+  const nextItem = next
+    ? { verseNumber: next.verseNumber, href: verseHref(next.verseNumber), crossesChapter: nextCrossesChapter }
+    : undefined;
 
   return (
     <AshtavakraVerseReader
@@ -70,9 +74,17 @@ export default function VersePage({ params }: { params: { chapter: string; verse
         <div className="mt-8 grid gap-4">
           <ReadMark id={v.verseNumber} />
           <nav aria-label="श्लोक नेविगेशन" className="hidden sm:flex flex-wrap items-center justify-between gap-3">
-            {prev ? <Link href={verseHref(prev.verseNumber)} className="ash-btn" rel="prev">← श्लोक {prev.verseNumber}</Link> : <span />}
+            {prev ? (
+              <Link href={verseHref(prev.verseNumber)} className="ash-btn" rel="prev">
+                ← {prevCrossesChapter ? `पिछला प्रकरण, श्लोक ${prev.verseNumber}` : `श्लोक ${prev.verseNumber}`}
+              </Link>
+            ) : <span />}
             <Link href={`/ashtavakra/${c}/`} className="ash-btn">अध्याय सूची</Link>
-            {next ? <Link href={verseHref(next.verseNumber)} className="ash-btn" rel="next">श्लोक {next.verseNumber} →</Link> : <span className="ash-meta">इस प्रकरण का अंतिम श्लोक</span>}
+            {next ? (
+              <Link href={verseHref(next.verseNumber)} className="ash-btn" rel="next">
+                {nextCrossesChapter ? `अगला प्रकरण, श्लोक ${next.verseNumber}` : `श्लोक ${next.verseNumber}`} →
+              </Link>
+            ) : <span className="ash-meta">यह अंतिम प्रकरण है।</span>}
           </nav>
         </div>
       </main>

@@ -167,11 +167,43 @@ export default function VersePage({ params }: PageProps) {
   if (!found) return notFound();
 
   const { seeded, verses, index, verse } = found;
-  const prev = index > 0 ? verses[index - 1] : undefined;
-  const next = index < verses.length - 1 ? verses[index + 1] : undefined;
-  const prevHref = prev ? versePageHref(meta.id, chapterId, prev.number) : undefined;
-  const nextHref = next ? versePageHref(meta.id, chapterId, next.number) : undefined;
+  let prev = index > 0 ? verses[index - 1] : undefined;
+  let next = index < verses.length - 1 ? verses[index + 1] : undefined;
+  let prevHref = prev ? versePageHref(meta.id, chapterId, prev.number) : undefined;
+  let nextHref = next ? versePageHref(meta.id, chapterId, next.number) : undefined;
+  let nextChapterId = chapterId;
   const chapterHref = `/scripture/${meta.id}/chapter/${chapterId}`;
+
+  const edgeVerse = (neighborId: number, which: 'first' | 'last') => {
+    const seededNeighbor = loadChapter(meta.id, neighborId);
+    const list = seededNeighbor?.chapter.verses as SeedVerse[] | undefined;
+    if (!list || list.length === 0) return undefined;
+    const verseEdge = which === 'first' ? list[0] : list[list.length - 1];
+    const href = versePageHref(meta.id, neighborId, verseEdge.number);
+    if (!href) return undefined;
+    return { verse: verseEdge, href };
+  };
+  if (!nextHref || !prevHref) {
+    const previews = readSeededChapterPreviews(meta.id);
+    const pos = previews.findIndex((item) => item.id === chapterId);
+    if (!nextHref && pos >= 0) {
+      const neighbor = previews[pos + 1];
+      const edge = neighbor ? edgeVerse(neighbor.id, 'first') : undefined;
+      if (neighbor && edge) {
+        next = edge.verse;
+        nextHref = edge.href;
+        nextChapterId = neighbor.id;
+      }
+    }
+    if (!prevHref && pos > 0) {
+      const neighbor = previews[pos - 1];
+      const edge = neighbor ? edgeVerse(neighbor.id, 'last') : undefined;
+      if (neighbor && edge) {
+        prev = edge.verse;
+        prevHref = edge.href;
+      }
+    }
+  }
 
   const commentary = readChapterCommentary<HiCommentaryEntry>(meta.id, chapterId);
   const comment =
@@ -255,16 +287,20 @@ export default function VersePage({ params }: PageProps) {
   const reviewedLinks = CONNECTIONS[verseKey(meta.id, chapterId, params.verseId)] ?? [];
   const nextCandidates: NextCandidate[] = [];
   if (next && nextHref) {
-    const linked = reviewedLinks.find((c) => c.href === nextHref);
+    const crosses = nextChapterId !== chapterId;
+    const linked = crosses ? undefined : reviewedLinks.find((c) => c.href === nextHref);
+    const nextChapterTitle = crosses
+      ? (readSeededChapterPreviews(meta.id).find((item) => item.id === nextChapterId)?.title ?? `अध्याय ${nextChapterId}`)
+      : chapterName;
     nextCandidates.push({
-      id: `next:${meta.id}:${chapterId}:${next.number}`,
+      id: `next:${meta.id}:${nextChapterId}:${next.number}`,
       kind: 'next',
-      title: `Continue with ${meta.title} ${chapterId}.${next.number}`,
+      title: `Continue with ${meta.title} ${nextChapterId}.${next.number}`,
       href: nextHref,
-      reason: linked ? linked.reason : 'It is the next verse in the same chapter.',
+      reason: crosses ? 'It is the first verse of the next chapter.' : linked ? linked.reason : 'It is the next verse in the same chapter.',
       basis: `You are reading ${ref}.`,
       save: {
-        ref: { scriptureId: meta.id, scriptureTitle: meta.title, scriptureTitleSanskrit: meta.titleSanskrit, chapterId, chapterTitle: chapterName, url: `${siteUrl}${nextHref}/` },
+        ref: { scriptureId: meta.id, scriptureTitle: meta.title, scriptureTitleSanskrit: meta.titleSanskrit, chapterId: nextChapterId, chapterTitle: nextChapterTitle, url: `${siteUrl}${nextHref}/` },
         verse: { number: next.number, sanskrit: next.sanskrit, transliteration: next.transliteration, hindi: next.hindi, translation: next.translation },
       },
     });
