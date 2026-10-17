@@ -217,10 +217,11 @@ export function VerseGraphNetwork({ scriptureId, chapterId, verseId, currentVers
         <div className="space-y-6">
           {/* SVG Visual Orbital Graph Canvas */}
           <div className="relative rounded-3xl border border-dharma-border bg-gradient-to-b from-amber-50/30 via-dharma-panel to-amber-50/10 dark:from-stone-900/50 dark:via-dharma-card dark:to-stone-950 p-2 sm:p-4 overflow-hidden flex items-center justify-center min-h-[380px]">
+            {/* role=group: role=img marks descendants presentational, so the node buttons fail nested-interactive. */}
             <svg
               viewBox={`0 0 ${width} ${height}`}
               className="w-full h-auto max-h-[420px] select-none"
-              role="img"
+              role="group"
               aria-label="Interactive verse relationship graph"
             >
               <defs>

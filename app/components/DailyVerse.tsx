@@ -240,8 +240,8 @@ export function DailyVerse() {
                 disabled={isCompletedToday}
                 className={`inline-flex items-center gap-1.5 self-start sm:self-center shrink-0 px-3 py-1.5 rounded-xl text-xs font-bold transition shadow-2xs ${
                   isCompletedToday
-                    ? 'bg-emerald-600 text-white cursor-default'
-                    : 'bg-emerald-600 hover:bg-emerald-700 text-white active:scale-95'
+                    ? 'bg-emerald-800 text-white cursor-default'
+                    : 'bg-emerald-800 hover:bg-emerald-700 text-white active:scale-95'
                 }`}
               >
                 <CheckCircle2 className="w-3.5 h-3.5" />

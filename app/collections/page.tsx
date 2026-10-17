@@ -123,7 +123,7 @@ export default function CollectionsPage() {
             ये सूचियाँ पहले से बने पृष्ठ खोलती हैं। खाता सर्वर नहीं है। दूसरी ब्राउज़र पर ले जाने के लिए साधना पृष्ठ की बैकअप फ़ाइल उपयोग करें।
           </p>
           <p className="mt-2 text-sm">
-            <Link href="/practice" className="font-semibold text-saffron-600 underline underline-offset-2">साधना · backup file</Link>
+            <Link href="/practice" className="font-semibold text-saffron-800 underline underline-offset-2">साधना · backup file</Link>
           </p>
           <ul className="mt-4 grid gap-4 md:grid-cols-2">
             {STUDY_PLAYLISTS.map((playlist) => (
@@ -136,7 +136,7 @@ export default function CollectionsPage() {
                 <ul className="mt-2 space-y-1">
                   {playlist.links.map((link) => (
                     <li key={link.href}>
-                      <Link href={link.href} className="text-sm font-semibold text-saffron-600 underline underline-offset-2">
+                      <Link href={link.href} className="text-sm font-semibold text-saffron-800 underline underline-offset-2">
                         <span lang="hi" className="font-devanagari">{link.titleHi}</span>
                       </Link>
                     </li>
