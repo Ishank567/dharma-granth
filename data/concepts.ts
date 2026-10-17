@@ -110,6 +110,17 @@ export const concepts: Concept[] = [
     scriptureRefs: ['upanishads', 'bhagavadgita'],
   },
   {
+    id: 'vedanta',
+    label: 'Vedanta',
+    sanskrit: 'वेदान्त',
+    transliteration: 'vedānta',
+    category: 'metaphysics',
+    shortDesc: 'वेदों का शिरोभाग — उपनिषदों, गीता और ब्रह्मसूत्रों का अद्वैत दर्शन।',
+    description: 'वेदान्त का शाब्दिक अर्थ है "वेदों का अंत या शिखर"। यह प्रस्थानत्रयी (उपनिषद्, भगवद्गीता, ब्रह्मसूत्र) पर आधारित परम ज्ञान-परंपरा है, जो जीव और ब्रह्म की एकता, जगत के स्वरूप और मोक्ष का साक्षात्कार कराती है।',
+    connections: ['brahman', 'atman', 'maya', 'moksha', 'viveka'],
+    scriptureRefs: ['upanishads', 'bhagavadgita'],
+  },
+  {
     id: 'prakriti',
     label: 'Prakriti',
     sanskrit: 'प्रकृति',

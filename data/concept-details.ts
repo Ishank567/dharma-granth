@@ -1221,6 +1221,112 @@ export const CONCEPT_DETAILS: Record<string, ConceptDetail> = {
       "Editorial summary: a draft, not yet reviewed"
     ]
   },
+  vedanta: {
+    id: 'vedanta',
+    label: 'Vedanta',
+    sanskrit: 'वेदान्त',
+    transliteration: 'vedānta',
+    category: 'metaphysics',
+    colorGradient: 'from-purple-600 to-indigo-700',
+    simpleDefinition: {
+      en: 'The culmination of Vedic wisdom exploring non-dual reality, the nature of consciousness, and direct liberation.',
+      hi: 'वेदों का शिरोभाग व परम निष्कर्ष — जीव, ब्रह्म और जगत के यथार्थ संबंध का निरूपण करने वाला अद्वैत दर्शन।',
+    },
+    derivation: {
+      root: 'वेद + अंत (Culmination of Knowledge)',
+      rootMeaning: 'Veda (sacred wisdom) + Anta (culmination, essence, or final conclusion)',
+      rootMeaningHi: 'वेद (ज्ञान) + अंत (शिखर, पराकाष्ठा या सारभाग)',
+      etymologyEn: 'Literally "the end or ultimate goal of the Vedas"—specifically referring to the Upanishads, Bhagavad Gita, and Brahma Sutras.',
+      etymologyHi: 'वेदों के अंतिम दार्शनिक भाग (उपनिषदों) और उनके तात्विक निष्कर्ष को वेदान्त कहा जाता है।',
+    },
+    contextualMeanings: [
+      {
+        context: 'The Triple Canon (Prasthānatrayī)',
+        contextHi: 'प्रस्थानत्रयी (उपनिषद्, गीता, ब्रह्मसूत्र)',
+        meaningEn: 'The three authoritative pillars: Shruti (revealed intuition), Smriti (practical duty), and Nyaya (logical coherence).',
+        meaningHi: 'श्रुति प्रस्थान (उपनिषद्), स्मृति प्रस्थान (गीता), और न्याय प्रस्थान (ब्रह्मसूत्र) — वेदान्त के तीन आधार।',
+      },
+      {
+        context: 'Non-Dual Realization (Advaita)',
+        contextHi: 'अद्वैत साक्षात्कार',
+        meaningEn: 'The profound realization that individual consciousness (Atman) and universal reality (Brahman) are non-different.',
+        meaningHi: 'यह परम बोध कि आत्मा और ब्रह्म में कोई तात्विक भेद नहीं है (« अहं ब्रह्मास्मि »)।',
+      },
+      {
+        context: 'Practical Living (Applied Vedanta)',
+        contextHi: 'व्यावहारिक वेदान्त',
+        meaningEn: 'Translating transcendent non-duality into fearless compassion, service, and dignity in everyday life.',
+        meaningHi: 'अद्वैत सत्य को समाज में निर्भयता, समभाव और सर्वभूत-हित के रूप में जीना।',
+      },
+    ],
+    verses: [
+      {
+        sanskrit: 'अहं ब्रह्मास्मि ।',
+        transliteration: 'ahaṁ brahmāsmi |',
+        translationEn: 'I am the Absolute Brahman.',
+        translationHi: 'मैं ही वह शुद्ध, अविनाशी परब्रह्म हूँ।',
+        reference: 'Brihadaranyaka Upanishad 1.4.10',
+        referenceHi: 'बृहदारण्यकोपनिषद् १.४.१०',
+      },
+      {
+        sanskrit: 'सर्वं खल्विदं ब्रह्म तज्जलानिति शांत उपासीत ।',
+        transliteration: 'sarvaṁ khalvidaṁ brahma tajjalāniti śānta upāsīta |',
+        translationEn: 'All this universe is verily Brahman; from It it arises, into It it dissolves, in It it breathes. Thus should one meditate with a peaceful mind.',
+        translationHi: 'यह सब कुछ निश्चय ही ब्रह्म है; उसी से उत्पन्न होता है, उसी में विलीन होता है और उसी में चेष्टा करता है। इसलिए शांत होकर उसकी उपासना करनी चाहिए।',
+        reference: 'Chandogya Upanishad 3.14.1',
+        referenceHi: 'छांदोग्योपनिषद् ३.१४.१',
+      },
+      {
+        sanskrit: 'वेदान्तकृद्वेदविदेव चाहम् ।',
+        transliteration: 'vedāntakṛd vedavideva cāham |',
+        translationEn: 'I am the author of the Vedanta and the knower of the Vedas.',
+        translationHi: 'मैं ही वेदान्त का रचयिता और वेदों का यथार्थ ज्ञाता हूँ।',
+        reference: 'Bhagavad Gita 15.15',
+        referenceHi: 'भगवद्गीता १५.१५',
+        href: '/scripture/bhagavadgita/chapter/15/verse/15',
+      },
+    ],
+    traditions: [
+      {
+        tradition: 'Advaita (Adi Shankara)',
+        traditionHi: 'अद्वैत वेदान्त (आदि शंकराचार्य)',
+        viewEn: 'Absolute non-duality: Brahman alone is real, the world is transient appearance, and the soul is Brahman itself.',
+        viewHi: '« ब्रह्म सत्यं जगन्मिथ्या जीवो ब्रह्मैव नापरः » — अद्वैत में आत्मा और ब्रह्म की पूर्ण एकता है।',
+      },
+      {
+        tradition: 'Vishishtadvaita (Ramanuja)',
+        traditionHi: 'विशिष्टाद्वैत (रामानुजाचार्य)',
+        viewEn: 'Qualified non-dualism: Souls and universe are real, forming the divine body of Narayana.',
+        viewHi: 'जीव और प्रकृति सत्य हैं, जो परमात्मा (नारायण) के शरीर रूप में स्थित हैं।',
+      },
+      {
+        tradition: 'Dvaita (Madhvacharya)',
+        traditionHi: 'द्वैत वेदान्त (मध्वाचार्य)',
+        viewEn: 'Dualism: Eternal real distinction between the independent Lord (Vishnu) and dependent souls.',
+        viewHi: 'ईश्वर और जीव में नित्य वास्तविक भेद है; भगवान की कृपा ही मोक्ष का साधन है।',
+      },
+    ],
+    misunderstandings: [
+      {
+        myth: 'Vedanta is purely dry intellectual philosophy with no room for heart or devotion.',
+        mythHi: 'वेदान्त केवल शुष्क बौद्धिक तर्क है, जिसमें भक्ति या भावना का कोई स्थान नहीं।',
+        correction: 'Vedanta without devotion is incomplete; Adi Shankara composed some of the greatest devotional stotras (Bhaja Govindam, Saundarya Lahari). Highest Jnana and highest Bhakti merge as pure divine love.',
+        correctionHi: 'वेदान्त शुष्क नहीं है; आदि शंकराचार्य ने स्वयं भज गोविंदम् आदि महान स्तोत्रों की रचना की। ज्ञान की परिपक्वता ही निष्काम पराभक्ति है।',
+      },
+      {
+        myth: 'Saying "Jagat Mithya" means the world does not exist and you should abandon all duties.',
+        mythHi: '"जगत मिथ्या" का अर्थ है कि संसार अस्तित्वहीन है और सब कर्म छोड़ देने चाहिए।',
+        correction: '"Mithya" in Vedanta means dependent and ever-changing (anitya), not non-existent. One lives with complete excellence and compassion while anchored in the eternal.',
+        correctionHi: 'मिथ्या का अर्थ काल्पनिक या शून्य नहीं, बल्कि परिवर्तनशील व ब्रह्म पर आश्रित होना है। ज्ञानी लोकसंग्रह हेतु श्रेष्ठ कर्म करता है।',
+      },
+    ],
+    relatedConceptIds: ['brahman', 'atman', 'maya', 'moksha', 'karma', 'yoga'],
+    sources: [
+      'Brahma Sutras 1.1.1-4',
+      'Principal Upanishads (Brihadaranyaka, Chandogya, Mandukya)',
+      'Bhagavad Gita Chapter 15',
+    ],
+  },
 };
 
 export function getConceptDetail(id: string): ConceptDetail | undefined {

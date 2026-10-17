@@ -1,4 +1,6 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
+import { Sparkles, Compass } from 'lucide-react';
 import { DEFAULT_OG_IMAGE } from '@/lib/og';
 import { ConceptGraph } from '@/app/components/ConceptGraph';
 import { FadeUp } from '@/app/components/motion/primitives';
@@ -41,9 +43,35 @@ export default function ConceptsPage() {
       </section>
 
       {/* ── Graph ────────────────────────────────────────────────── */}
-      <section className="max-w-6xl mx-auto px-6 -mt-8 relative z-10 pb-16">
+      <section className="max-w-6xl mx-auto px-6 -mt-8 relative z-10 pb-12">
         <div className="bg-dharma-card/50 backdrop-blur-sm rounded-3xl shadow-2xl border border-dharma-border p-4 sm:p-6 md:p-8">
           <ConceptGraph />
+        </div>
+      </section>
+
+      {/* ── Visual Learning Layer Feature Banner ─────────────────── */}
+      <section className="max-w-6xl mx-auto px-6 pb-12">
+        <div className="rounded-3xl border border-saffron-500/40 bg-gradient-to-r from-amber-950/40 via-saffron-950/30 to-neutral-950 p-6 sm:p-8 shadow-xl flex flex-col md:flex-row items-center justify-between gap-6">
+          <div className="space-y-2 max-w-2xl">
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-saffron-500/10 text-saffron-700 dark:text-saffron-300 font-bold text-xs border border-saffron-500/20">
+              <Sparkles className="w-3.5 h-3.5" />
+              <span>चरण १० · Interactive Visual Learning Layer</span>
+            </span>
+            <h2 className="font-serif text-2xl sm:text-3xl font-bold text-dharma-text">
+              दृश्य ज्ञान दर्शन — 10 मूल तत्त्वों के पवित्र आरेख
+            </h2>
+            <p className="text-sm text-dharma-muted leading-relaxed">
+              धर्म, कर्म, मोक्ष, आत्मन्, ब्रह्मन्, माया, योग, वेदान्त, भक्ति और संसार के पवित्र ज्यामितीय मण्डल,
+              कारण-कार्य प्रवाह आरेख, और क्रमिक सोपान का जीवंत अन्वेषण करें।
+            </p>
+          </div>
+          <Link
+            href="/concepts/visuals"
+            className="focus-ring inline-flex items-center gap-2 rounded-2xl bg-gradient-to-r from-saffron-600 to-amber-600 px-6 py-3.5 text-sm font-bold text-white shadow-lg hover:from-saffron-700 hover:to-amber-700 transition-all shrink-0 min-h-[48px]"
+          >
+            <Compass className="w-4 h-4" />
+            <span>दृश्य अन्वेषक खोलें (Open Visual Explorer)</span>
+          </Link>
         </div>
       </section>
 
