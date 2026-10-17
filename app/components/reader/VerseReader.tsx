@@ -46,6 +46,11 @@ import { ReaderDialog } from './ReaderDialog';
 import { ReaderSettingsPanel } from './ReaderSettingsPanel';
 import { ReaderLayers } from './ReaderLayers';
 import { SacredShareModal, type SacredShareData } from '@/app/components/share/SacredShareModal';
+import { useSwipeGesture } from '@/lib/useSwipeGesture';
+import { MobileSwipeIndicator } from './MobileSwipeIndicator';
+import { MobileReadingProgress } from './MobileReadingProgress';
+import { MobileVerseCarousel } from './MobileVerseCarousel';
+import { MobileAudioPill } from './MobileAudioPill';
 import { verseCount as fmtVerses } from '@/lib/format';
 import { track } from '@/lib/analytics';
 import { logActivity } from '@/lib/activity-log';
@@ -164,6 +169,22 @@ export function VerseReader(props: VerseReaderProps) {
     [scriptureTitle, label, verse, pageUrl]
   );
 
+  /* ── Mobile Verse Carousel Drawer ── */
+  const [carouselOpen, setCarouselOpen] = useState(false);
+
+  /* ── Mobile Touch Swipe Gesture Engine ── */
+  const { gestureState, handlers } = useSwipeGesture({
+    onSwipeNext: () => {
+      if (next) router.push(next.href);
+    },
+    onSwipePrev: () => {
+      if (prev) router.push(prev.href);
+    },
+    canNext: Boolean(next),
+    canPrev: Boolean(prev),
+    disabled: Boolean(dialog || carouselOpen || showShareModal),
+  });
+
   /* ── Copy / share / download ── */
   const show = { transliteration: settings.showTransliteration, hindi: settings.showHindi, english: settings.showEnglish };
   const onCopy = async () => {
@@ -263,6 +284,7 @@ export function VerseReader(props: VerseReaderProps) {
       <Link
         href={target.href}
         rel={dir}
+        onClick={() => triggerTactileFeedback('selection', 'click')}
         aria-label={`${text} verse, ${target.number}`}
         className={`focus-ring inline-flex items-center gap-2 rounded-xl border border-dharma-border bg-dharma-card font-semibold text-dharma-text transition hover:border-saffron-400 ${base} ${dir === 'next' ? 'flex-row-reverse text-right' : ''}`}
       >
@@ -356,7 +378,22 @@ export function VerseReader(props: VerseReaderProps) {
           </div>
         </header>
 
-        <div className="mx-auto flex justify-center gap-8 xl:px-6">
+        {/* Mobile Reading Progress Bar */}
+        <MobileReadingProgress
+          currentVerseNumber={verse.number}
+          totalVerses={total}
+          currentIndex={index}
+          chapterTitle={chapterTitle}
+        />
+
+        {/* Tactile Edge Swipe Indicator */}
+        <MobileSwipeIndicator
+          gestureState={gestureState}
+          prevNumber={prev?.number}
+          nextNumber={next?.number}
+        />
+
+        <div className="mx-auto flex justify-center gap-8 xl:px-6" {...handlers}>
         {/* Left sidebar (wide screens): where you are in the chapter */}
         <aside aria-label="Chapter navigation" className="sticky top-20 hidden max-h-[calc(100vh-6rem)] w-60 shrink-0 self-start overflow-y-auto pt-8 xl:block">
           <p lang="hi" className="font-devanagari text-sm font-semibold text-dharma-text">{sanskritName}</p>
@@ -622,12 +659,15 @@ export function VerseReader(props: VerseReaderProps) {
             {navLink(prev, 'prev', 'bar')}
             <button
               type="button"
-              onClick={() => setDialog('verses')}
+              onClick={() => {
+                triggerTactileFeedback('selection', 'click');
+                setCarouselOpen(true);
+              }}
               aria-haspopup="dialog"
-              className="focus-ring inline-flex min-h-[48px] min-w-0 flex-1 flex-col items-center justify-center rounded-xl px-2 text-center"
+              className="focus-ring inline-flex min-h-[48px] min-w-0 flex-1 flex-col items-center justify-center rounded-xl px-2 text-center transition active:scale-95"
             >
-              <span lang="hi" className="font-devanagari text-sm font-bold">श्लोक {toDevanagari(verse.number)}</span>
-              <span className="text-[11px] text-dharma-muted">{index + 1} / {total} · jump</span>
+              <span lang="hi" className="font-devanagari text-sm font-bold text-dharma-text">श्लोक {toDevanagari(verse.number)}</span>
+              <span className="text-[11px] font-medium text-saffron-700 dark:text-saffron-400">{index + 1} / {total} · माला खोलें</span>
             </button>
             {navLink(next, 'next', 'bar')}
           </div>
@@ -757,6 +797,22 @@ export function VerseReader(props: VerseReaderProps) {
           isOpen={showShareModal}
           onClose={() => setShowShareModal(false)}
           data={shareData}
+        />
+
+        {/* Mobile Tactile Verse Carousel Drawer */}
+        <MobileVerseCarousel
+          isOpen={carouselOpen}
+          onClose={() => setCarouselOpen(false)}
+          verses={verses}
+          currentVerseNumber={verse.number}
+          chapterTitle={`अध्याय ${chapterId}: ${chapterTitle}`}
+          scriptureTitle={scriptureTitle}
+        />
+
+        {/* Floating Sacred Ambient Tanpura Drone & Chanting Audio */}
+        <MobileAudioPill
+          sanskritText={verse.sanskrit}
+          referenceLabel={label}
         />
       </div>
     </MotionConfig>
