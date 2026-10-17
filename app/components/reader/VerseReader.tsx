@@ -809,11 +809,7 @@ export function VerseReader(props: VerseReaderProps) {
           scriptureTitle={scriptureTitle}
         />
 
-        {/* Floating Sacred Ambient Tanpura Drone & Chanting Audio */}
-        <MobileAudioPill
-          sanskritText={verse.sanskrit}
-          referenceLabel={label}
-        />
+        <MobileAudioPill />
       </div>
     </MotionConfig>
   );

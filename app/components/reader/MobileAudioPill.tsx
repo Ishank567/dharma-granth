@@ -1,7 +1,8 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
-import { Volume2, VolumeX, Play, Pause, Disc, X, Sparkles, Mic } from 'lucide-react';
+import { Volume2, VolumeX, Play, Pause, Disc, X } from 'lucide-react';
+import { useReducedMotion } from 'framer-motion';
 import {
   isTanpuraPlaying,
   toggleTanpura,
@@ -13,20 +14,15 @@ import {
   subscribeTanpuraSettings,
   type TanpuraPitch,
 } from '@/lib/tanpura-audio';
-import { speakSanskritShloka, stopSanskritSpeech, isSpeakingSanskrit } from '@/lib/sacred-audio';
 import { triggerTactileFeedback } from '@/lib/haptics';
 
-interface MobileAudioPillProps {
-  sanskritText?: string;
-  referenceLabel?: string;
-}
-
-export function MobileAudioPill({ sanskritText, referenceLabel }: MobileAudioPillProps) {
+/** Procedural tanpura only. The pill does not recite the verse. */
+export function MobileAudioPill() {
+  const reduceMotion = useReducedMotion();
   const [playing, setPlaying] = useState(false);
   const [expanded, setExpanded] = useState(false);
   const [volume, setVolume] = useState(0.45);
   const [pitch, setPitch] = useState<TanpuraPitch>('C#');
-  const [isSpeaking, setIsSpeaking] = useState(false);
 
   useEffect(() => {
     setPlaying(isTanpuraPlaying());
@@ -39,14 +35,9 @@ export function MobileAudioPill({ sanskritText, referenceLabel }: MobileAudioPil
       setPitch(s.pitch);
     });
 
-    const checkSpeakingInterval = setInterval(() => {
-      setIsSpeaking(isSpeakingSanskrit());
-    }, 400);
-
     return () => {
       unsubPlay();
       unsubSettings();
-      clearInterval(checkSpeakingInterval);
     };
   }, []);
 
@@ -68,33 +59,17 @@ export function MobileAudioPill({ sanskritText, referenceLabel }: MobileAudioPil
     setTanpuraPitch(p);
   }, []);
 
-  const handleToggleSpeech = useCallback(() => {
-    triggerTactileFeedback('medium', 'click');
-    if (isSpeaking) {
-      stopSanskritSpeech();
-      setIsSpeaking(false);
-    } else if (sanskritText) {
-      const ok = speakSanskritShloka(
-        sanskritText,
-        0.85,
-        () => setIsSpeaking(false),
-        () => setIsSpeaking(false),
-      );
-      if (ok) setIsSpeaking(true);
-    }
-  }, [isSpeaking, sanskritText]);
-
   return (
     <aside
-      aria-label="पवित्र नाद एवं ध्यान"
-      className="fixed bottom-20 right-3.5 z-40 sm:bottom-6 sm:right-6"
+      aria-label="तन्पूरा"
+      className="fixed bottom-[calc(4.75rem+env(safe-area-inset-bottom,0px))] left-3 z-30 md:bottom-5 md:left-5"
     >
       {/* Expanded Control Sheet */}
       {expanded ? (
         <div className="w-72 rounded-3xl border border-dharma-border/80 bg-dharma-card/95 p-4 shadow-2xl backdrop-blur-xl transition-all">
           <div className="flex items-center justify-between pb-2.5 border-b border-dharma-border/60">
             <div className="flex items-center gap-2">
-              <Disc className={`h-4 w-4 text-saffron-600 ${playing ? 'animate-spin' : ''}`} />
+              <Disc className={`h-4 w-4 text-saffron-600 ${playing && !reduceMotion ? 'animate-spin' : ''}`} />
               <h4 className="font-serif text-sm font-bold text-dharma-text">
                 <span className="font-devanagari">तन्पूरा एवं नाद</span>
               </h4>
@@ -106,7 +81,7 @@ export function MobileAudioPill({ sanskritText, referenceLabel }: MobileAudioPil
                 setExpanded(false);
               }}
               aria-label="ध्वनि पटल बंद करें"
-              className="flex h-7 w-7 items-center justify-center rounded-full text-dharma-muted hover:text-dharma-text"
+              className="flex h-11 w-11 items-center justify-center rounded-full text-dharma-muted hover:text-dharma-text"
             >
               <X className="h-4 w-4" />
             </button>
@@ -120,9 +95,9 @@ export function MobileAudioPill({ sanskritText, referenceLabel }: MobileAudioPil
             <button
               type="button"
               onClick={handleToggleTanpura}
-              className={`flex items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-semibold shadow-sm transition-all ${
+              className={`flex min-h-11 items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-semibold shadow-sm transition-all ${
                 playing
-                  ? 'border border-saffron-500 bg-saffron-600 text-white shadow-saffron-500/20'
+                  ? 'border border-saffron-800 bg-saffron-800 text-white'
                   : 'border border-dharma-border bg-dharma-bg text-dharma-text hover:border-saffron-400'
               }`}
             >
@@ -130,27 +105,6 @@ export function MobileAudioPill({ sanskritText, referenceLabel }: MobileAudioPil
               <span>{playing ? 'सक्रिय' : 'प्रारंभ'}</span>
             </button>
           </div>
-
-          {/* Sanskrit Recitation */}
-          {sanskritText && (
-            <div className="mt-2.5 flex items-center justify-between">
-              <span className="text-xs font-medium text-dharma-muted">
-                <span className="font-devanagari">श्लोक उच्चारण</span>
-              </span>
-              <button
-                type="button"
-                onClick={handleToggleSpeech}
-                className={`flex items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-semibold shadow-sm transition-all ${
-                  isSpeaking
-                    ? 'border border-amber-500 bg-amber-600 text-white animate-pulse'
-                    : 'border border-dharma-border bg-dharma-bg text-dharma-text hover:border-amber-400'
-                }`}
-              >
-                <Mic className="h-3.5 w-3.5" />
-                <span>{isSpeaking ? 'रुकें' : 'श्रवण करें'}</span>
-              </button>
-            </div>
-          )}
 
           {/* Volume Slider */}
           <div className="mt-3">
@@ -186,7 +140,7 @@ export function MobileAudioPill({ sanskritText, referenceLabel }: MobileAudioPil
                     key={p}
                     type="button"
                     onClick={() => handlePitchSelect(p)}
-                    className={`rounded-lg py-1 text-[11px] font-semibold border transition-all ${
+                    className={`min-h-11 rounded-lg px-1 py-1 text-[11px] font-semibold border transition-all ${
                       isSelected
                         ? 'border-saffron-500 bg-saffron-500/15 text-saffron-800 dark:text-saffron-300 font-bold'
                         : 'border-dharma-border/70 text-dharma-muted hover:text-dharma-text'
@@ -207,14 +161,14 @@ export function MobileAudioPill({ sanskritText, referenceLabel }: MobileAudioPil
             triggerTactileFeedback('selection', 'click');
             setExpanded(true);
           }}
-          aria-label="पवित्र नाद एवं तन्पूरा खोलें"
+          aria-label="तन्पूरा खोलें"
           className={`flex h-12 w-12 items-center justify-center rounded-full border shadow-xl backdrop-blur-md transition-all active:scale-95 ${
-            playing || isSpeaking
-              ? 'border-saffron-500 bg-gradient-to-br from-saffron-600 to-amber-600 text-white ring-4 ring-saffron-500/25 animate-pulse'
+            playing
+              ? 'border-saffron-500 bg-saffron-800 text-white'
               : 'border-dharma-border/80 bg-dharma-card/90 text-dharma-muted hover:border-saffron-400 hover:text-saffron-800 dark:hover:text-saffron-300'
           }`}
         >
-          <Disc className={`h-5 w-5 ${playing ? 'animate-spin' : ''}`} />
+          <Disc className={`h-5 w-5 ${playing && !reduceMotion ? 'animate-spin' : ''}`} />
         </button>
       )}
     </aside>

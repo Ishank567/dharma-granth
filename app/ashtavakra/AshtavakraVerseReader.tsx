@@ -155,11 +155,7 @@ export function AshtavakraVerseReader({
         scriptureTitle="अष्टावक्र गीता"
       />
 
-      {/* Persistent Ambient Sound & Tanpura Drone Pill */}
-      <MobileAudioPill
-        sanskritText={verse.sanskrit}
-        referenceLabel={`अष्टावक्र गीता ${verse.verseNumber}`}
-      />
+      <MobileAudioPill />
     </div>
   );
 }

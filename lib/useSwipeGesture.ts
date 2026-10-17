@@ -73,6 +73,11 @@ export function useSwipeGesture({
   const handleTouchStart = useCallback(
     (e: React.TouchEvent | TouchEvent) => {
       if (disabled || e.touches.length !== 1) return;
+      // A tap on a control must not turn the page.
+      const target = e.target;
+      if (target instanceof Element && target.closest('a, button, input, textarea, select, label, [role="slider"]')) {
+        return;
+      }
       const touch = e.touches[0];
       touchStartRef.current = {
         x: touch.clientX,
@@ -163,7 +168,7 @@ export function useSwipeGesture({
 
       // Either dragged past distance threshold OR flicked quickly (>0.45 px/ms with >35px distance)
       const passedByDistance = dist >= threshold;
-      const passedByVelocity = velocityX > 0.45 && dist >= 36;
+      const passedByVelocity = velocityX > 0.65 && dist >= 64;
 
       if (isAllowed && (passedByDistance || passedByVelocity)) {
         triggerTactileFeedback('medium', 'softTap');
