@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { SiteNav } from "@/app/components/SiteNav";
 import { getLibraryCounts, getRealVerseCount } from "@/data/scriptures";
+import { publishedTotals } from "@/lib/ashtavakra";
 import { ThemeProvider } from "@/app/components/ThemeProvider";
 import { PageTransition } from "@/app/components/motion/PageTransition";
 import { DEFAULT_OG_IMAGE } from "@/lib/og";
@@ -225,6 +226,8 @@ export default function RootLayout({
             libraryVerses={getRealVerseCount()}
             gitaChapters={getLibraryCounts("bhagavadgita").chapters}
             gitaVerses={getLibraryCounts("bhagavadgita").verses}
+            ashtavakraChapters={publishedTotals().chapters}
+            ashtavakraVerses={publishedTotals().verses}
           />
           <div id="main-content" tabIndex={-1} className="outline-none pb-16 md:pb-0">
             <ErrorBoundary name="Main Content">

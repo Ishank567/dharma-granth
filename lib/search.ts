@@ -207,6 +207,25 @@ function buildMasterIndex(): SearchResultItem[] {
     });
   }
 
+  items.push({
+    id: 'scripture-ashtavakra',
+    title: 'Ashtavakra Gita',
+    subtitle: 'अष्टावक्र गीता',
+    group: 'scripture',
+    groupLabel: 'ग्रंथ · Scripture',
+    category: 'scripture',
+    categoryLabel: 'ग्रंथ · Scripture',
+    href: '/ashtavakra/',
+    reference: 'Ashtavakra Gita',
+    matchingText: 'Ashtavakra Gita (अष्टावक्र गीता)',
+    translationExcerpt: 'Separate reading with Sanskrit, Hindi meaning, and a simple explanation.',
+    matchReason: 'Scripture Title Match',
+    languageLabel: 'Sanskrit & Hindi',
+    actionLabel: 'Open the reading →',
+    description: 'अष्टावक्र गीता. Separate from the shared scripture catalogue.',
+    extra: 'ashtavakra ashtavakra gita अष्टावक्र गीता',
+  });
+
   // 3. TOPICS (Group: 'topic')
   for (const t of topics) {
     items.push({

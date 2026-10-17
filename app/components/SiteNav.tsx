@@ -94,6 +94,7 @@ const desktopPrimaryItems = [
 ];
 
 const desktopDiscoveryItems = [
+  { label: 'अष्टावक्र गीता', description: 'अलग पठन — मूल संस्कृत, हिन्दी भावार्थ और सरल व्याख्या', href: '/ashtavakra' },
   { label: 'धर्म सहायक', description: 'पुस्तकालय के श्लोकों से जीवन के प्रश्न', href: '/ask' },
   { label: 'स्वाध्याय यात्राएँ', description: 'Guided Learning Journeys — १२ क्रमिक साधना पथ', href: '/journeys' },
   { label: 'स्वाध्याय मार्ग', description: 'Guided Reading Paths — विषयवार अध्ययन', href: '/learn/paths' },
@@ -139,11 +140,15 @@ export function SiteNav({
   libraryVerses,
   gitaChapters,
   gitaVerses,
+  ashtavakraChapters,
+  ashtavakraVerses,
 }: {
   /** Verses counted from the published library. */
   libraryVerses: number;
   gitaChapters: number;
   gitaVerses: number;
+  ashtavakraChapters: number;
+  ashtavakraVerses: number;
 }) {
   const pathname = usePathname();
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -393,6 +398,16 @@ export function SiteNav({
       href: '/scripture/bhagavadgita',
       icon: Flame,
       badge: `${formatCountDevanagari(gitaVerses)} श्लोक`,
+      badgeType: 'accent',
+    },
+    {
+      id: 'ashtavakra',
+      label: 'अष्टावक्र गीता',
+      labelEn: 'Ashtavakra Gita',
+      description: `${formatCountDevanagari(ashtavakraChapters)} प्रकरण · ${formatCountDevanagari(ashtavakraVerses)} श्लोक`,
+      href: '/ashtavakra',
+      icon: BookOpen,
+      badge: `${formatCountDevanagari(ashtavakraVerses)} श्लोक`,
       badgeType: 'accent',
     },
     {

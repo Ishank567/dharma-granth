@@ -10,12 +10,14 @@ import {
 } from '@/data/scriptures';
 import { getLibraryFacts } from '@/lib/library-server';
 import { catalogueNote, formatCount as formatHolding } from '@/lib/holdings-label';
+import { publishedTotals } from '@/lib/ashtavakra';
 
 function formatCount(value: number): string {
   return new Intl.NumberFormat('en-IN').format(value);
 }
 
 export function FeaturedScripturesSection() {
+  const ashtavakra = publishedTotals();
   const availableScriptures = getAvailableScriptures();
   // Ensure we select the 6 compact core scriptures
   const featuredIds = ['bhagavadgita', 'ishavasya', 'katha', 'mandukya', 'mundaka', 'nityakarmakriya'];
@@ -52,7 +54,7 @@ export function FeaturedScripturesSection() {
               Featured Scriptures
             </h2>
             <p className="mt-1 max-w-2xl text-sm leading-relaxed text-dharma-muted">
-              Six texts to start with. The numbers are chapters and verses in this library. A language is listed only when that text’s sample includes it.
+              The Ashtavakra Gita has its own reading. The other cards are texts in the shared catalogue. A language is listed only when that text’s sample includes it.
             </p>
           </div>
 
@@ -83,6 +85,39 @@ export function FeaturedScripturesSection() {
 
         {/* Six Compact Cards Grid */}
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+          <Link
+            href="/ashtavakra/"
+            className="group relative flex flex-col justify-between rounded-2xl border border-dharma-border bg-dharma-card p-6 transition-all hover:-translate-y-1 hover:border-amber-400/80 hover:shadow-lg dark:hover:border-amber-700/60"
+          >
+            <div>
+              <div className="mb-4 flex items-center justify-between">
+                <span className="rounded-full bg-saffron-500/10 px-3 py-1 text-[11px] font-bold uppercase tracking-wider text-saffron-800 dark:text-saffron-200 border border-saffron-500/20">
+                  Separate reading
+                </span>
+                <ChevronRight
+                  className="h-4 w-4 text-dharma-muted transition-transform group-hover:translate-x-1 group-hover:text-saffron-600"
+                  aria-hidden="true"
+                />
+              </div>
+              <h3 className="font-serif text-xl font-bold text-dharma-text group-hover:text-saffron-800 transition">
+                Ashtavakra Gita
+              </h3>
+              <p lang="sa" className="mt-1 font-devanagari text-sm text-saffron-800 dark:text-saffron-200">
+                अष्टावक्र गीता
+              </p>
+              <p className="mt-3 line-clamp-2 text-xs leading-relaxed text-dharma-muted">
+                Sanskrit, the book’s Hindi meaning, and a simple explanation. Chapters 19 and 20 are published and marked review-required.
+              </p>
+            </div>
+            <div className="mt-6 flex items-center justify-between border-t border-dharma-border/60 pt-4 text-xs font-semibold text-dharma-muted">
+              <span>
+                {formatHolding(ashtavakra.chapters)} Prakaranas · {formatHolding(ashtavakra.verses)} Verses
+              </span>
+              <span className="inline-flex items-center gap-1 rounded-xl bg-saffron-800 px-3 py-1.5 text-xs font-bold text-white shadow-sm transition group-hover:bg-saffron-700">
+                Start Reading →
+              </span>
+            </div>
+          </Link>
           {displayTexts.map((scripture) => {
             if (!scripture) return null;
             const held = getLibraryCounts(scripture.id);
